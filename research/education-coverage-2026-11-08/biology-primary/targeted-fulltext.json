@@ -1,0 +1,36 @@
+[
+  {
+    "id": "PMC6708923",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6708923/fullTextXML",
+    "retrievedAt": "2026-11-08T23:45:44.043058+00:00",
+    "scope": "pending targeted full-text check; raw text outside checkout",
+    "status": 200,
+    "sha256": "be5a9173d0ceee9283c5a628404bed9c2274d2999933d64992dfca9942cac7e7",
+    "bytes": 64162
+  },
+  {
+    "id": "PMC3469789",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3469789/fullTextXML",
+    "retrievedAt": "2026-11-08T23:45:47.052236+00:00",
+    "scope": "pending targeted full-text check; raw text outside checkout",
+    "status": "error",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "id": "PMC7250738",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7250738/fullTextXML",
+    "retrievedAt": "2026-11-08T23:45:47.857116+00:00",
+    "scope": "pending targeted full-text check; raw text outside checkout",
+    "status": "error",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "id": "PMC1681365",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1681365/fullTextXML",
+    "retrievedAt": "2026-11-08T23:57:23.782941+00:00",
+    "rawRetention": "outside checkout",
+    "scope": "pending kinetic-definition check",
+    "status": "error",
+    "error": "The read operation timed out"
+  }
+]

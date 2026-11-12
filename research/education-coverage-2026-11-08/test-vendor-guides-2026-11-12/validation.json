@@ -1,0 +1,80 @@
+{
+  "dataCommit": "179d222f910fd6786a123cea5c74fd85ab7db417",
+  "graphRecords": 23084,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.85
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 29.26
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.94
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 304.09
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 13,
+    "warningFilesUnchangedByCohort": true
+  },
+  "readers": 18,
+  "registeredRootReaders": 18,
+  "frozenPeerReaders": 0,
+  "exactFieldReferences": 127,
+  "uniqueParagraphsAcrossReferencedFieldsChecked": 36,
+  "sourceLinksMissing": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "rootExactEntityJSON": 18,
+    "rootMarkdownPassages": 121,
+    "openAPI": true,
+    "dedupeExitCode": 0
+  },
+  "summaryStates": 162,
+  "availableTexts": 84,
+  "EnglishFallbacks": 78,
+  "acceptedLongCaches": 0,
+  "namedLanguageReviewsChanged": 0,
+  "sourceIdentities": {
+    "versions": 9,
+    "sectionSignatures": 94,
+    "rawCaptures": 31
+  },
+  "secretScan": {
+    "files": [
+      "src/data/terms-cansim-oncology.ts",
+      "src/data/terms-cansim-methods.ts",
+      "src/data/terms.ts",
+      "src/data/terms-basics.ts",
+      "CORRECTIONS.md"
+    ],
+    "diffBytes": 39588,
+    "exitCode": 0,
+    "findings": 0,
+    "unchangedSinceFinalGates": true,
+    "rulesOrAllowlistsChanged": false
+  },
+  "floorsBudgetsSchemaAndDenominatorSnapshotsChanged": false,
+  "zeroChangeReplay": "Recorded separately after ledger regeneration and artifact replay."
+}

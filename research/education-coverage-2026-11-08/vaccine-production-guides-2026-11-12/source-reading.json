@@ -1,0 +1,1541 @@
+{
+  "dataCommit": "2e738bd26428b70dd929f51876816ffbdb860ea0",
+  "sourceVersions": 6,
+  "sectionSignatures": 72,
+  "documents": [
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "message",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "bytes": 10203,
+      "sha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+      "gitBlob": "d277e8cf532b2f70aed8eabef9bb63b39e4112d7",
+      "file": "original-message.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "132bdc7e89e104e1b7ccc065e9784638e4d5af6166ba3acd5fc6b0abedd30632"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a7f0a4859b142440ec65b76ddfcdc82b0e5db7b34e64d2cd53a64d9a4bd4c453"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8fbc10a000ebe65def94bcd66c387df745b9e25d687a17d1f70711581a9c089e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "69ccfa3f5c7e1b1d228231c65103be9d06c7591786a207777076ac83c7308768"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "2858bdf10af62e81d66654b9e5605a023270fd6fb7765610528474a0fd495f8f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "7fa7f161870f9bc05254e9d03e3798e5fb23e4b3a9ee8ccac09db1e9a9f988fa"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "5aefa9e61f7c77d67b75416098b6f273eef330054dacb6cfe829891636863462"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "76bf76eac370a6451be529009a191716627210dc7f7a82a0861da78f6856de0a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "85ef2560823861aead801f6143ff4b2d0e7d2d1ce490b6e58e7aba59490b9754"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d0e1e9e8d6924afbba656b39ae3f16d343aa37a56ce3e88d6eae1d5e602003ed"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b86ce5cbc4cf53e365611ea3fc6a20689f02f7f0de247fc98e01e148c3e769c5"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "manufacturing",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "bytes": 21175,
+      "sha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+      "gitBlob": "e230d2b6b7865e666cccab836142ff7c7317c08d",
+      "file": "original-manufacturing.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a79ab5a3bc4e01540b4ac58ab882e5f62dda111047d3c66aa377bfbd9656390d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "468000b16e19dd667c65520e6c1298bc5848d80091e8fa247caa792b64aa9c1c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "863e1f4aff872d229095b0fb8bc3e14399efea235450ef0c3231f057c74f9cf7"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "31f0d28f8cd6d1d79985e2d9b9c0212753251f840d0d3295d5a94dbb2b411566"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f7e5e543a8b0df4060537c07ed2864a9614bf7e0b85ac8e245557c2f3dd225f5"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "74fa9ceade24c82eaa652f0fdb1664d540dde870e3d522d84b3d0eed7ecf76b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "75d3c92a7f8fd48e3980b8a573990a0bd15364ccf6f07540f06d6909e2f684a9"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "036fe162343907b62e6ad7bbc37d1e36b1cf9e633746ef1cc07c778fa3a2032c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "8730139e254dce8e9a82f7c523925dbac9b36fb0ac39d4b57e98f7d89e370ee7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "404be572fde59713375f3d4cbedd75def41436b36018f639b5af0b0f9d132dff"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "03506a5348783e8a93a5779f3479d26aebb5d4ddb203a1e1af0f2bbcb4ba9ee6"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "760db1c10e6efa8f87fc7730b892116c48cfa8384a4823350f631c59b8e50136"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "bc265f61dd43b576739b62ff329ed8b12cc58efe2a45b96b39b307e3d8b6807a"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "dosing",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "bytes": 9864,
+      "sha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+      "gitBlob": "3afc3e15084336f7bd836fc664cc7105c7bfd100",
+      "file": "original-dosing.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "4b1556cbf434c4f9b2742ff4a241146fe59f091890a5b597e3155504ffcc24a9"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2afd54f90d76cfb7d95b69f911c9aa170ee06ca9581787b06f86d1345ff18c3a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e1ffc1761c4b5b7cf1170b731b1eec27ac844948c621b5b4ebaa70dffeacda28"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "baabec1553295e30666fc22679cbd06ebe6ede6de07981290706e3cbbbb3e7b0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9e45526ef6287b31978549b0145ec826d0fc21760d88be3d51eca330fb04ca40"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "2a8bcf9e890b6f89ac23c13eeaab8d370e2f76b35e6c2837cf5c0558aba55183"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "4f0f0212a593b42ce8ddf01d7cae5ad632d2104183ce83c962533bfc2a166ecc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "2f2d8df85b12bb718df2a942e02924361d6679ccba78fe46c77de6d9488a3b5b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bbec63a6e7f945a43701ac40e135aca1cedc70893896c52b427896f36fcaffb8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e0df8ea1f0c50a0b835b70c73143a9231c09c32b2a10073e2b5248d1b53a60df"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "09e6d54090b27e412d50270bc34dd46ee44ea9b809f8ac497f4ed58e86f9ab00"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "e9d02f84e2081a3de3f5096fa497cbe9b8af6f06c14c75e71cb11a5c47f40ba1"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "message",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "bytes": 10207,
+      "sha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+      "gitBlob": "925832f1d3897776b76ccb5c49bdff3cc957f7cb",
+      "file": "later-message.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "132bdc7e89e104e1b7ccc065e9784638e4d5af6166ba3acd5fc6b0abedd30632"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a7f0a4859b142440ec65b76ddfcdc82b0e5db7b34e64d2cd53a64d9a4bd4c453"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8fbc10a000ebe65def94bcd66c387df745b9e25d687a17d1f70711581a9c089e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "69ccfa3f5c7e1b1d228231c65103be9d06c7591786a207777076ac83c7308768"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "2858bdf10af62e81d66654b9e5605a023270fd6fb7765610528474a0fd495f8f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "7fa7f161870f9bc05254e9d03e3798e5fb23e4b3a9ee8ccac09db1e9a9f988fa"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "5aefa9e61f7c77d67b75416098b6f273eef330054dacb6cfe829891636863462"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "76bf76eac370a6451be529009a191716627210dc7f7a82a0861da78f6856de0a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "85ef2560823861aead801f6143ff4b2d0e7d2d1ce490b6e58e7aba59490b9754"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "61343bf935875a66b02d2132424b8167fc6fb921166b9e4d52ace0d21b8573df"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b86ce5cbc4cf53e365611ea3fc6a20689f02f7f0de247fc98e01e148c3e769c5"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "manufacturing",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "bytes": 21136,
+      "sha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+      "gitBlob": "e9ce0ef326ee69fb8a6587fd8ae8b37ae5ee768e",
+      "file": "later-manufacturing.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c1e4695d6ddcbfc833ef7f766cfe5772d9e23f58eb22c4df4cc2622695062541"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "df93dbeb91654a68207cfe56007fc380725389ac7a5a2401ae1a10977503e2a2"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3c1fc25d4a713dc0d1925565a964744f59ceeede2ff47b90d3487abcd43ff413"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4357bdb8cc23205a907f7cb9c7070bd09ab58adc1543e311588eddd54c9074e6"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "28f62b4c830cb9ececfce833c9e81b3d96fb0a906f55a95635bcd0e05795b948"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "7073cdec23ee148a8a3b90756d4bfc9ea2c87e72b6afb2f770d53fcc8b7bb2c4"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "55e27545fc60d9e5ae306d89c256705629acd4d42c0e6ea9a1752d70ce9e5eac"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "a7e16aeff11fcdac956f4e76b8438da7914ae5d530e6ddc8b4f312ee6448f998"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "3993609a22f45e264ec57fb37e3f98476454055e28722bab87f37bfe04a80fbf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "4acde480e40f7aeda06982958116d5d59bc6cff615da2da39e89f51bc930c8ee"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "d77fdeda29440880dced04defa9f4a4a47cc8ad975be122b8f7276ce75e53fc0"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "3b089b2706dedd0f798bcc7241db81cadb51f2b2bc5a952e20222d60d2adbf58"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "2963711714caa013a16856e4d4b2f968046765ccf1308ff492fb4ac013c6ef24"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "dosing",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "bytes": 9896,
+      "sha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+      "gitBlob": "e36cabd2d336ea996241d659708b3d12e60173e2",
+      "file": "later-dosing.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "4b1556cbf434c4f9b2742ff4a241146fe59f091890a5b597e3155504ffcc24a9"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2afd54f90d76cfb7d95b69f911c9aa170ee06ca9581787b06f86d1345ff18c3a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e1ffc1761c4b5b7cf1170b731b1eec27ac844948c621b5b4ebaa70dffeacda28"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "baabec1553295e30666fc22679cbd06ebe6ede6de07981290706e3cbbbb3e7b0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9e45526ef6287b31978549b0145ec826d0fc21760d88be3d51eca330fb04ca40"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "2a8bcf9e890b6f89ac23c13eeaab8d370e2f76b35e6c2837cf5c0558aba55183"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "4f0f0212a593b42ce8ddf01d7cae5ad632d2104183ce83c962533bfc2a166ecc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "2f2d8df85b12bb718df2a942e02924361d6679ccba78fe46c77de6d9488a3b5b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bbec63a6e7f945a43701ac40e135aca1cedc70893896c52b427896f36fcaffb8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e0df8ea1f0c50a0b835b70c73143a9231c09c32b2a10073e2b5248d1b53a60df"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "09e6d54090b27e412d50270bc34dd46ee44ea9b809f8ac497f4ed58e86f9ab00"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "1ce4b8bf845ead4ceb2d2a1f8bdc2cd82d3431bb4db7eaeaef96474f491f8fae"
+        }
+      ]
+    }
+  ],
+  "readingMode": "Inventory frozen after full later-version reads and complete exact original/later diffs, before inspecting current owner teaching fields. Previous vaccine and domain audit exposure is acknowledged; this is a new source-first comparison, not an independent expert review.",
+  "versionReconciliation": "Message next-link repoint, manufacturing administrative filename/step clause removal and dosing TCR link repoint only. No substantive teaching delta or personal-case exclusion. Original unchanged lines were not independently re-read.",
+  "sourceFirstFreeze": {
+    "sha256": "7cab26ce1e93f34b5e51b9d752b93351de58881fc531446edaaf7431a02b8222",
+    "bytes": 127132,
+    "rows": 107,
+    "substantive": 95,
+    "nonCredit": 12,
+    "perLesson": {
+      "message": 22,
+      "manufacturing": 49,
+      "dosing": 24
+    },
+    "originalLaterSubstantiveSame": true
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "132bdc7e89e104e1b7ccc065e9784638e4d5af6166ba3acd5fc6b0abedd30632",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "message-01",
+        "message-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a7f0a4859b142440ec65b76ddfcdc82b0e5db7b34e64d2cd53a64d9a4bd4c453",
+      "lineStart": 24,
+      "lineEnd": 38,
+      "requirementIds": [
+        "message-01",
+        "message-02"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "8fbc10a000ebe65def94bcd66c387df745b9e25d687a17d1f70711581a9c089e",
+      "lineStart": 39,
+      "lineEnd": 44,
+      "requirementIds": [
+        "message-03",
+        "message-04"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "69ccfa3f5c7e1b1d228231c65103be9d06c7591786a207777076ac83c7308768",
+      "lineStart": 45,
+      "lineEnd": 61,
+      "requirementIds": [
+        "message-05",
+        "message-06",
+        "message-07",
+        "message-08",
+        "message-09",
+        "message-10",
+        "message-11",
+        "message-12"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "2858bdf10af62e81d66654b9e5605a023270fd6fb7765610528474a0fd495f8f",
+      "lineStart": 62,
+      "lineEnd": 71,
+      "requirementIds": [
+        "message-13",
+        "message-14",
+        "message-15",
+        "message-16"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "7fa7f161870f9bc05254e9d03e3798e5fb23e4b3a9ee8ccac09db1e9a9f988fa",
+      "lineStart": 72,
+      "lineEnd": 77,
+      "requirementIds": [
+        "message-17",
+        "message-18",
+        "message-19"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "5aefa9e61f7c77d67b75416098b6f273eef330054dacb6cfe829891636863462",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "message-20",
+        "message-21"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "76bf76eac370a6451be529009a191716627210dc7f7a82a0861da78f6856de0a",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "message-22"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "85ef2560823861aead801f6143ff4b2d0e7d2d1ce490b6e58e7aba59490b9754",
+      "lineStart": 90,
+      "lineEnd": 95,
+      "requirementIds": [
+        "message-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "d0e1e9e8d6924afbba656b39ae3f16d343aa37a56ce3e88d6eae1d5e602003ed",
+      "lineStart": 96,
+      "lineEnd": 101,
+      "requirementIds": [
+        "message-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "b86ce5cbc4cf53e365611ea3fc6a20689f02f7f0de247fc98e01e148c3e769c5",
+      "lineStart": 102,
+      "lineEnd": 110,
+      "requirementIds": [
+        "message-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "a79ab5a3bc4e01540b4ac58ab882e5f62dda111047d3c66aa377bfbd9656390d",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "manufacturing-01",
+        "manufacturing-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "468000b16e19dd667c65520e6c1298bc5848d80091e8fa247caa792b64aa9c1c",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "manufacturing-01"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "863e1f4aff872d229095b0fb8bc3e14399efea235450ef0c3231f057c74f9cf7",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "manufacturing-02"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "31f0d28f8cd6d1d79985e2d9b9c0212753251f840d0d3295d5a94dbb2b411566",
+      "lineStart": 32,
+      "lineEnd": 42,
+      "requirementIds": [
+        "manufacturing-03",
+        "manufacturing-04",
+        "manufacturing-05",
+        "manufacturing-06",
+        "manufacturing-07"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "f7e5e543a8b0df4060537c07ed2864a9614bf7e0b85ac8e245557c2f3dd225f5",
+      "lineStart": 43,
+      "lineEnd": 64,
+      "requirementIds": [
+        "manufacturing-08",
+        "manufacturing-09",
+        "manufacturing-10",
+        "manufacturing-11",
+        "manufacturing-12",
+        "manufacturing-13",
+        "manufacturing-14"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "74fa9ceade24c82eaa652f0fdb1664d540dde870e3d522d84b3d0eed7ecf76b9",
+      "lineStart": 65,
+      "lineEnd": 80,
+      "requirementIds": [
+        "manufacturing-15",
+        "manufacturing-16",
+        "manufacturing-17",
+        "manufacturing-18",
+        "manufacturing-19",
+        "manufacturing-20",
+        "manufacturing-21",
+        "manufacturing-22",
+        "manufacturing-23"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "75d3c92a7f8fd48e3980b8a573990a0bd15364ccf6f07540f06d6909e2f684a9",
+      "lineStart": 81,
+      "lineEnd": 139,
+      "requirementIds": [
+        "manufacturing-24",
+        "manufacturing-25",
+        "manufacturing-26",
+        "manufacturing-27",
+        "manufacturing-28",
+        "manufacturing-29",
+        "manufacturing-30",
+        "manufacturing-31",
+        "manufacturing-32",
+        "manufacturing-33",
+        "manufacturing-34",
+        "manufacturing-35",
+        "manufacturing-36",
+        "manufacturing-37",
+        "manufacturing-38",
+        "manufacturing-39",
+        "manufacturing-40",
+        "manufacturing-41",
+        "manufacturing-42",
+        "manufacturing-43"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "036fe162343907b62e6ad7bbc37d1e36b1cf9e633746ef1cc07c778fa3a2032c",
+      "lineStart": 140,
+      "lineEnd": 147,
+      "requirementIds": [
+        "manufacturing-44",
+        "manufacturing-45"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "8730139e254dce8e9a82f7c523925dbac9b36fb0ac39d4b57e98f7d89e370ee7",
+      "lineStart": 148,
+      "lineEnd": 151,
+      "requirementIds": [
+        "manufacturing-46",
+        "manufacturing-47"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "404be572fde59713375f3d4cbedd75def41436b36018f639b5af0b0f9d132dff",
+      "lineStart": 152,
+      "lineEnd": 161,
+      "requirementIds": [
+        "manufacturing-48",
+        "manufacturing-49"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "03506a5348783e8a93a5779f3479d26aebb5d4ddb203a1e1af0f2bbcb4ba9ee6",
+      "lineStart": 162,
+      "lineEnd": 167,
+      "requirementIds": [
+        "manufacturing-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "760db1c10e6efa8f87fc7730b892116c48cfa8384a4823350f631c59b8e50136",
+      "lineStart": 168,
+      "lineEnd": 173,
+      "requirementIds": [
+        "manufacturing-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "bc265f61dd43b576739b62ff329ed8b12cc58efe2a45b96b39b307e3d8b6807a",
+      "lineStart": 174,
+      "lineEnd": 185,
+      "requirementIds": [
+        "manufacturing-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "4b1556cbf434c4f9b2742ff4a241146fe59f091890a5b597e3155504ffcc24a9",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "dosing-01",
+        "dosing-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2afd54f90d76cfb7d95b69f911c9aa170ee06ca9581787b06f86d1345ff18c3a",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "dosing-01"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e1ffc1761c4b5b7cf1170b731b1eec27ac844948c621b5b4ebaa70dffeacda28",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "dosing-02",
+        "dosing-03"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "baabec1553295e30666fc22679cbd06ebe6ede6de07981290706e3cbbbb3e7b0",
+      "lineStart": 34,
+      "lineEnd": 39,
+      "requirementIds": [
+        "dosing-04",
+        "dosing-05"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9e45526ef6287b31978549b0145ec826d0fc21760d88be3d51eca330fb04ca40",
+      "lineStart": 40,
+      "lineEnd": 59,
+      "requirementIds": [
+        "dosing-06",
+        "dosing-07",
+        "dosing-08",
+        "dosing-09",
+        "dosing-10",
+        "dosing-11",
+        "dosing-12",
+        "dosing-13",
+        "dosing-14",
+        "dosing-15",
+        "dosing-16"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "2a8bcf9e890b6f89ac23c13eeaab8d370e2f76b35e6c2837cf5c0558aba55183",
+      "lineStart": 60,
+      "lineEnd": 65,
+      "requirementIds": [
+        "dosing-17",
+        "dosing-18",
+        "dosing-19"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "4f0f0212a593b42ce8ddf01d7cae5ad632d2104183ce83c962533bfc2a166ecc",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "requirementIds": [
+        "dosing-20"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "2f2d8df85b12bb718df2a942e02924361d6679ccba78fe46c77de6d9488a3b5b",
+      "lineStart": 70,
+      "lineEnd": 73,
+      "requirementIds": [
+        "dosing-21",
+        "dosing-22",
+        "dosing-23"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bbec63a6e7f945a43701ac40e135aca1cedc70893896c52b427896f36fcaffb8",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "dosing-24"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e0df8ea1f0c50a0b835b70c73143a9231c09c32b2a10073e2b5248d1b53a60df",
+      "lineStart": 80,
+      "lineEnd": 83,
+      "requirementIds": [
+        "dosing-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "09e6d54090b27e412d50270bc34dd46ee44ea9b809f8ac497f4ed58e86f9ab00",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "dosing-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "e9d02f84e2081a3de3f5096fa497cbe9b8af6f06c14c75e71cb11a5c47f40ba1",
+      "lineStart": 90,
+      "lineEnd": 96,
+      "requirementIds": [
+        "dosing-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "132bdc7e89e104e1b7ccc065e9784638e4d5af6166ba3acd5fc6b0abedd30632",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "message-01",
+        "message-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a7f0a4859b142440ec65b76ddfcdc82b0e5db7b34e64d2cd53a64d9a4bd4c453",
+      "lineStart": 24,
+      "lineEnd": 38,
+      "requirementIds": [
+        "message-01",
+        "message-02"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "8fbc10a000ebe65def94bcd66c387df745b9e25d687a17d1f70711581a9c089e",
+      "lineStart": 39,
+      "lineEnd": 44,
+      "requirementIds": [
+        "message-03",
+        "message-04"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "69ccfa3f5c7e1b1d228231c65103be9d06c7591786a207777076ac83c7308768",
+      "lineStart": 45,
+      "lineEnd": 61,
+      "requirementIds": [
+        "message-05",
+        "message-06",
+        "message-07",
+        "message-08",
+        "message-09",
+        "message-10",
+        "message-11",
+        "message-12"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "2858bdf10af62e81d66654b9e5605a023270fd6fb7765610528474a0fd495f8f",
+      "lineStart": 62,
+      "lineEnd": 71,
+      "requirementIds": [
+        "message-13",
+        "message-14",
+        "message-15",
+        "message-16"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "7fa7f161870f9bc05254e9d03e3798e5fb23e4b3a9ee8ccac09db1e9a9f988fa",
+      "lineStart": 72,
+      "lineEnd": 77,
+      "requirementIds": [
+        "message-17",
+        "message-18",
+        "message-19"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "5aefa9e61f7c77d67b75416098b6f273eef330054dacb6cfe829891636863462",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "message-20",
+        "message-21"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "76bf76eac370a6451be529009a191716627210dc7f7a82a0861da78f6856de0a",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "message-22"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "85ef2560823861aead801f6143ff4b2d0e7d2d1ce490b6e58e7aba59490b9754",
+      "lineStart": 90,
+      "lineEnd": 95,
+      "requirementIds": [
+        "message-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "61343bf935875a66b02d2132424b8167fc6fb921166b9e4d52ace0d21b8573df",
+      "lineStart": 96,
+      "lineEnd": 101,
+      "requirementIds": [
+        "message-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "b86ce5cbc4cf53e365611ea3fc6a20689f02f7f0de247fc98e01e148c3e769c5",
+      "lineStart": 102,
+      "lineEnd": 110,
+      "requirementIds": [
+        "message-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c1e4695d6ddcbfc833ef7f766cfe5772d9e23f58eb22c4df4cc2622695062541",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "manufacturing-01",
+        "manufacturing-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "df93dbeb91654a68207cfe56007fc380725389ac7a5a2401ae1a10977503e2a2",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "manufacturing-01"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "3c1fc25d4a713dc0d1925565a964744f59ceeede2ff47b90d3487abcd43ff413",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "manufacturing-02"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "4357bdb8cc23205a907f7cb9c7070bd09ab58adc1543e311588eddd54c9074e6",
+      "lineStart": 32,
+      "lineEnd": 42,
+      "requirementIds": [
+        "manufacturing-03",
+        "manufacturing-04",
+        "manufacturing-05",
+        "manufacturing-06",
+        "manufacturing-07"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "28f62b4c830cb9ececfce833c9e81b3d96fb0a906f55a95635bcd0e05795b948",
+      "lineStart": 43,
+      "lineEnd": 64,
+      "requirementIds": [
+        "manufacturing-08",
+        "manufacturing-09",
+        "manufacturing-10",
+        "manufacturing-11",
+        "manufacturing-12",
+        "manufacturing-13",
+        "manufacturing-14"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "7073cdec23ee148a8a3b90756d4bfc9ea2c87e72b6afb2f770d53fcc8b7bb2c4",
+      "lineStart": 65,
+      "lineEnd": 80,
+      "requirementIds": [
+        "manufacturing-15",
+        "manufacturing-16",
+        "manufacturing-17",
+        "manufacturing-18",
+        "manufacturing-19",
+        "manufacturing-20",
+        "manufacturing-21",
+        "manufacturing-22",
+        "manufacturing-23"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "55e27545fc60d9e5ae306d89c256705629acd4d42c0e6ea9a1752d70ce9e5eac",
+      "lineStart": 81,
+      "lineEnd": 139,
+      "requirementIds": [
+        "manufacturing-24",
+        "manufacturing-25",
+        "manufacturing-26",
+        "manufacturing-27",
+        "manufacturing-28",
+        "manufacturing-29",
+        "manufacturing-30",
+        "manufacturing-31",
+        "manufacturing-32",
+        "manufacturing-33",
+        "manufacturing-34",
+        "manufacturing-35",
+        "manufacturing-36",
+        "manufacturing-37",
+        "manufacturing-38",
+        "manufacturing-39",
+        "manufacturing-40",
+        "manufacturing-41",
+        "manufacturing-42",
+        "manufacturing-43"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "a7e16aeff11fcdac956f4e76b8438da7914ae5d530e6ddc8b4f312ee6448f998",
+      "lineStart": 140,
+      "lineEnd": 147,
+      "requirementIds": [
+        "manufacturing-44",
+        "manufacturing-45"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "3993609a22f45e264ec57fb37e3f98476454055e28722bab87f37bfe04a80fbf",
+      "lineStart": 148,
+      "lineEnd": 151,
+      "requirementIds": [
+        "manufacturing-46",
+        "manufacturing-47"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "4acde480e40f7aeda06982958116d5d59bc6cff615da2da39e89f51bc930c8ee",
+      "lineStart": 152,
+      "lineEnd": 161,
+      "requirementIds": [
+        "manufacturing-48",
+        "manufacturing-49"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "d77fdeda29440880dced04defa9f4a4a47cc8ad975be122b8f7276ce75e53fc0",
+      "lineStart": 162,
+      "lineEnd": 167,
+      "requirementIds": [
+        "manufacturing-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "3b089b2706dedd0f798bcc7241db81cadb51f2b2bc5a952e20222d60d2adbf58",
+      "lineStart": 168,
+      "lineEnd": 173,
+      "requirementIds": [
+        "manufacturing-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "2963711714caa013a16856e4d4b2f968046765ccf1308ff492fb4ac013c6ef24",
+      "lineStart": 174,
+      "lineEnd": 185,
+      "requirementIds": [
+        "manufacturing-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "4b1556cbf434c4f9b2742ff4a241146fe59f091890a5b597e3155504ffcc24a9",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "dosing-01",
+        "dosing-90"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2afd54f90d76cfb7d95b69f911c9aa170ee06ca9581787b06f86d1345ff18c3a",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "dosing-01"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e1ffc1761c4b5b7cf1170b731b1eec27ac844948c621b5b4ebaa70dffeacda28",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "dosing-02",
+        "dosing-03"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "baabec1553295e30666fc22679cbd06ebe6ede6de07981290706e3cbbbb3e7b0",
+      "lineStart": 34,
+      "lineEnd": 39,
+      "requirementIds": [
+        "dosing-04",
+        "dosing-05"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9e45526ef6287b31978549b0145ec826d0fc21760d88be3d51eca330fb04ca40",
+      "lineStart": 40,
+      "lineEnd": 59,
+      "requirementIds": [
+        "dosing-06",
+        "dosing-07",
+        "dosing-08",
+        "dosing-09",
+        "dosing-10",
+        "dosing-11",
+        "dosing-12",
+        "dosing-13",
+        "dosing-14",
+        "dosing-15",
+        "dosing-16"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "2a8bcf9e890b6f89ac23c13eeaab8d370e2f76b35e6c2837cf5c0558aba55183",
+      "lineStart": 60,
+      "lineEnd": 65,
+      "requirementIds": [
+        "dosing-17",
+        "dosing-18",
+        "dosing-19"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "4f0f0212a593b42ce8ddf01d7cae5ad632d2104183ce83c962533bfc2a166ecc",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "requirementIds": [
+        "dosing-20"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "2f2d8df85b12bb718df2a942e02924361d6679ccba78fe46c77de6d9488a3b5b",
+      "lineStart": 70,
+      "lineEnd": 73,
+      "requirementIds": [
+        "dosing-21",
+        "dosing-22",
+        "dosing-23"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bbec63a6e7f945a43701ac40e135aca1cedc70893896c52b427896f36fcaffb8",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "dosing-24"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e0df8ea1f0c50a0b835b70c73143a9231c09c32b2a10073e2b5248d1b53a60df",
+      "lineStart": 80,
+      "lineEnd": 83,
+      "requirementIds": [
+        "dosing-91"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "09e6d54090b27e412d50270bc34dd46ee44ea9b809f8ac497f4ed58e86f9ab00",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "dosing-92"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "1ce4b8bf845ead4ceb2d2a1f8bdc2cd82d3431bb4db7eaeaef96474f491f8fae",
+      "lineStart": 90,
+      "lineEnd": 96,
+      "requirementIds": [
+        "dosing-93"
+      ],
+      "disposition": "Full later-body reading and exact original identity/frontmatter/diff reconciliation. Substantive teaching and recap/routing/source scope remain separate."
+    }
+  ],
+  "sourceBodiesPublished": false
+}

@@ -1,0 +1,262 @@
+{
+  "diagramInstances": 2,
+  "uniqueCodes": 2,
+  "renders": [
+    {
+      "codeSha256": "eb8d21f83371b771b94fb1f1ed46321727228ccb89bf8e174203e1b623b63d1c",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "c6aafe56f334e24bde1218cc3e6aad3145deb3b856dcd78bc9932cb4591c5ad2",
+      "width": 552,
+      "height": 758,
+      "viewed": true
+    },
+    {
+      "codeSha256": "eb8d21f83371b771b94fb1f1ed46321727228ccb89bf8e174203e1b623b63d1c",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "ce691c8febc9f1024ded975d9b4f2862082903d73766897d428183ff128b3b95",
+      "width": 552,
+      "height": 758,
+      "viewed": true
+    },
+    {
+      "codeSha256": "90254062525d88e6919e4ea15e8140757e9d3709b0787ca78d66b601b2365ba7",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-default.png",
+      "renderSha256": "39b7de0bbb0e415b600ae232b7617900809c64015071c1450a2aa20f7e655cb1",
+      "width": 552,
+      "height": 894,
+      "viewed": true
+    },
+    {
+      "codeSha256": "90254062525d88e6919e4ea15e8140757e9d3709b0787ca78d66b601b2365ba7",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-dark.png",
+      "renderSha256": "a4db8706fabbaf6b1f22c5fb34d6ff33181c4cc53e6dab1be85879cd0bd46a92",
+      "width": 552,
+      "height": 894,
+      "viewed": true
+    }
+  ],
+  "standaloneAssets": 0,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "nativeSvgRenders": [
+    {
+      "theme": "light",
+      "render": "hospital-tuning-and-locked-evaluation-b13-v1-light.png",
+      "width": 760,
+      "height": 1495,
+      "sha256": "d0fca1b8a930523f37fbfa57dbedffdc16b900bac583b05575ee58342146e81f",
+      "viewed": true
+    },
+    {
+      "theme": "dark",
+      "render": "hospital-tuning-and-locked-evaluation-b13-v1-dark.png",
+      "width": 760,
+      "height": 1495,
+      "sha256": "70bc8f3069653d046349a2a95c23dbe723e9e252c346336a7cfc140e68851735",
+      "viewed": true
+    }
+  ],
+  "assetReceipts": [
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "afd33024da1381692acf08686f325831e1993f6b",
+      "bytes": 5193,
+      "scope": "unclassified",
+      "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "0e1cf926342a33b8a8c6e59794b8d599c830dbd3",
+      "bytes": 5193,
+      "scope": "unclassified",
+      "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "bd2da4626f8c53f799c7652ded5807d6c9042de3",
+      "bytes": 4164,
+      "scope": "unclassified",
+      "sha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "7f196886864abb9a76dc2a187c50dd800b63a280",
+      "bytes": 1496,
+      "scope": "unclassified",
+      "sha256": "6389c157777ce9fb9fb1a68969e6b5c894192b7036868d465f37469b76616190"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "b422b7366a7c9bdd1d7d05aff9493a45f8bdc095",
+      "bytes": 9137,
+      "scope": "unclassified",
+      "sha256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "afd33024da1381692acf08686f325831e1993f6b",
+      "bytes": 5193,
+      "scope": "unclassified",
+      "sha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "0e1cf926342a33b8a8c6e59794b8d599c830dbd3",
+      "bytes": 5193,
+      "scope": "unclassified",
+      "sha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "bd2da4626f8c53f799c7652ded5807d6c9042de3",
+      "bytes": 4164,
+      "scope": "unclassified",
+      "sha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "7f196886864abb9a76dc2a187c50dd800b63a280",
+      "bytes": 1496,
+      "scope": "unclassified",
+      "sha256": "6389c157777ce9fb9fb1a68969e6b5c894192b7036868d465f37469b76616190"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "b422b7366a7c9bdd1d7d05aff9493a45f8bdc095",
+      "bytes": 9137,
+      "scope": "unclassified",
+      "sha256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8"
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f",
+      "gitBlob": "afd33024da1381692acf08686f325831e1993f6b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca",
+      "gitBlob": "0e1cf926342a33b8a8c6e59794b8d599c830dbd3"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703",
+      "gitBlob": "bd2da4626f8c53f799c7652ded5807d6c9042de3"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "6389c157777ce9fb9fb1a68969e6b5c894192b7036868d465f37469b76616190",
+      "gitBlob": "7f196886864abb9a76dc2a187c50dd800b63a280"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8",
+      "gitBlob": "b422b7366a7c9bdd1d7d05aff9493a45f8bdc095"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "f0a5e2dab517c7e807f1b7a6a829857cf67e93761492438940e0e304b0b8442f",
+      "gitBlob": "afd33024da1381692acf08686f325831e1993f6b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/hospital-tuning-and-locked-evaluation-b13-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "97c32e5be5fbf9d1e40c3773cf223128c636f31f8594ea52198767f71dde4aca",
+      "gitBlob": "0e1cf926342a33b8a8c6e59794b8d599c830dbd3"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1-provenance.json",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "c0ffd8aab40f614bd0796fb01604044494f1b96040d0232779c181ad669fe703",
+      "gitBlob": "bd2da4626f8c53f799c7652ded5807d6c9042de3"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/hospital-tuning-and-locked-evaluation-b13-v1.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "6389c157777ce9fb9fb1a68969e6b5c894192b7036868d465f37469b76616190",
+      "gitBlob": "7f196886864abb9a76dc2a187c50dd800b63a280"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/images/prompts/peer-reviews/next-gap-305-independent-new-owner-task-fit.json",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "9c936f1bda5c9dc657809c05418c096fd0ddf94aa98d746ab3e9b879b4b63fb8",
+      "gitBlob": "b422b7366a7c9bdd1d7d05aff9493a45f8bdc095"
+    }
+  ],
+  "nativeSvgViews": 2,
+  "mermaidThemeViews": 4,
+  "constructionAndReviewBodiesReadInFull": 3,
+  "teachingPathsAddedPerPin": 2,
+  "supportingPathsAddedPerPin": 3,
+  "sourceArtworkChanged": false,
+  "scientificAndLayoutDefectsObserved": 0,
+  "limits": "Full extent qualitative views. No measured contrast, accessibility, browser hydration, source-site live review, human or expert approval."
+}

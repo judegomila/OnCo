@@ -1,0 +1,28 @@
+{
+  "priorAuditHead": "21a9d0348c28ea9a6aab392af8e08bbfcee479d3",
+  "priorFiles": 970,
+  "protectedEarlierFiles": 955,
+  "protectedPriorPendingFiles": 91,
+  "protectedPriorCohortFiles": 822,
+  "allProtectedBytesUnchanged": true,
+  "sharedArtifactsAllowedToRefresh": [
+    "README.md",
+    "adjacent-concepts.json",
+    "artifact-manifest.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-assets.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ],
+  "changedSourceAssetEntries": 16,
+  "protectedReceiptSha256": "fb46a78756d5e9602c7a070a128696ee9ca387da3e9495820caceb1be2f85eaa",
+  "scope": "Every earlier artifact except the fifteen explicitly shared ledgers, generated indices, readmes, asset index and manifest is byte-identical. All earlier cohort files and frozen pending snapshots are preserved; only 16 reviewed asset entries change."
+}

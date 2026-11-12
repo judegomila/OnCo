@@ -1,0 +1,152 @@
+[
+  {
+    "capture": "engelowski-med.json",
+    "pmid": "29789554",
+    "title": "Synthetic cytokine receptors transmit biological signals using artificial ligands.",
+    "doi": "10.1038/s41467-018-04454-8",
+    "pmcid": "PMC5964073",
+    "pubYear": "2018",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractSha256": "9ea4b73a80e2ecee9ee65759d288d0c4aef8b01727a8a2ea4a9da328edd82da4",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-1-med.json",
+    "pmid": "34627648",
+    "title": "Protein engineering: a driving force toward synthetic immunology.",
+    "doi": "10.1016/j.tibtech.2021.09.005",
+    "pmcid": null,
+    "pubYear": "2022",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Review",
+      "Journal Article"
+    ],
+    "abstractSha256": "83af0af204ab53586a31ab4945ce6e7884cdd6ba3278ae081c980e6cf0d69837",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-2-med.json",
+    "pmid": "31147158",
+    "title": "Naturally occurring and synthetic constitutive-active cytokine receptors in disease and therapy.",
+    "doi": "10.1016/j.cytogfr.2019.05.007",
+    "pmcid": null,
+    "pubYear": "2019",
+    "publicationTypes": [
+      "Review",
+      "Journal Article"
+    ],
+    "abstractSha256": "5fb81f8dfc3a9cb18dcdca8f1243fc481e34d32181ccefc4449911d5ce7179fe",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-3-med.json",
+    "pmid": "35043005",
+    "title": "The use of supercytokines, immunocytokines, engager cytokines, and other synthetic cytokines in immunotherapy.",
+    "doi": "10.1038/s41423-021-00786-6",
+    "pmcid": "PMC8803834",
+    "pubYear": "2022",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "abstractSha256": "b88c01bac1e7e8654032b8e8efad4308829b1100f4dac47b21cb36faa034ba30",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-4-med.json",
+    "pmid": "20562098",
+    "title": "Selective expansion of chimeric antigen receptor-targeted T-cells with potent effector function using interleukin-4.",
+    "doi": "10.1074/jbc.m110.127951",
+    "pmcid": "PMC2919118",
+    "pubYear": "2010",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractSha256": "a1cbf8e59130c76237c484c3e712d9cf520a5c47c57d18407f0e749ede887e3a",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-6-med.json",
+    "pmid": "25466879",
+    "title": "Synthetic immunology: modulating the human immune system.",
+    "doi": "10.1016/j.tibtech.2014.10.006",
+    "pmcid": null,
+    "pubYear": "2015",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Review",
+      "Journal Article"
+    ],
+    "abstractSha256": "c58e913b5080dd1c765c92b91defc7c6fe6cec09b3f2eb7087eba08f3ea6e4a7",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-7-med.json",
+    "pmid": "30738638",
+    "title": "Immunoreceptor Engineering and Synthetic Cytokine Signaling for Therapeutics.",
+    "doi": "10.1016/j.it.2019.01.001",
+    "pmcid": null,
+    "pubYear": "2019",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Review",
+      "Journal Article"
+    ],
+    "abstractSha256": "75e777c7573db0a3de3413c967b736ae461b755ee36bcb02616316cc46cb4a68",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "elicit-rank-8-med.json",
+    "pmid": "36712002",
+    "title": "Drug-Mediated Control of Receptor Valency Enhances Immune Cell Potency.",
+    "doi": "10.1101/2023.01.04.522664",
+    "pmcid": null,
+    "pubYear": "2023",
+    "publicationTypes": [
+      "Preprint",
+      "Journal Article"
+    ],
+    "abstractSha256": "965206b9b257b03b3fbc271eabe001b451504f65d35491a41738bec4d1803371",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "macrophage-pmid-med.json",
+    "pmid": "42182394",
+    "title": "Programmable synthetic cytokine receptors polarize macrophages to user-defined functional states.",
+    "doi": "10.64898/2026.05.12.724672",
+    "pmcid": "PMC13192837",
+    "pubYear": "2026",
+    "publicationTypes": [
+      "research-article",
+      "Preprint",
+      "Journal Article"
+    ],
+    "abstractSha256": "ebd9c891d6ec0b4e5a7d6f5872266bce80013d17b789d9cf0d4a8117f7c52e27",
+    "abstractReadComplete": true
+  },
+  {
+    "capture": "wu-med.json",
+    "pmid": "26405231",
+    "title": "Remote control of therapeutic T cells through a small molecule-gated chimeric receptor.",
+    "doi": "10.1126/science.aab4077",
+    "pmcid": "PMC4721629",
+    "pubYear": "2015",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractSha256": "ae7168d472a038c49bbfdd47433da24d125b7d8247112a96516e8931714761bf",
+    "abstractReadComplete": true
+  }
+]

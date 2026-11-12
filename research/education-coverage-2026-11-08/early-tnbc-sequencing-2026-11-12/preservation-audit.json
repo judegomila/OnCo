@@ -1,0 +1,26 @@
+{
+  "priorFiles": 889,
+  "priorFilesUnchangedBeforeManifestRefresh": 875,
+  "intendedCurrentLedgerAndDocumentationChanges": [
+    "candidates.json",
+    "open-source-assets.json",
+    "adjacent-concepts.json",
+    "README.md",
+    "source-assets.json",
+    "open-items.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/open-source-assets.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json"
+  ],
+  "priorFilesRemoved": 0,
+  "priorPendingFilesPreserved": 82,
+  "allPreviousCohortPacketsUnchanged": true,
+  "allPreviousPendingSnapshotBytesUnchanged": true,
+  "earlierAcceptanceAndPrimaryDepthPreserved": true,
+  "note": "The artifact manifest is rebuilt after this comparison. Current ledgers contain the explicitly recorded semantic field rebases; historical packets are not rewritten."
+}

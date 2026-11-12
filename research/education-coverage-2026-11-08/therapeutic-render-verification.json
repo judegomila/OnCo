@@ -1,0 +1,207 @@
+{
+  "method": "Actual EntityDetail React server rendering with AppRouterContext; no deployment or browser screenshot asserted.",
+  "records": [
+    {
+      "id": "adc",
+      "route": "/technologies/adc/",
+      "asOf": "2026-11-08",
+      "bytes": 227358,
+      "sha256": "675045689652b220c71671c9efe4914567c33640c5dd4fff4af37bb2ca2a10a5",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "site-specific-conjugation",
+      "route": "/technologies/site-specific-conjugation/",
+      "asOf": "2026-11-08",
+      "bytes": 39372,
+      "sha256": "5f2664ec4ced62840a85db6f2d711dae542a10ed9c71cdd2de92e3a9f0612682",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "linker",
+      "route": "/terms/linker/",
+      "asOf": "2026-11-08",
+      "bytes": 28294,
+      "sha256": "284d0d31ce3c4d685f2baac805915c952d1b13d6747cdc04019b46a30d880a08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dar",
+      "route": "/terms/dar/",
+      "asOf": "2026-11-08",
+      "bytes": 26010,
+      "sha256": "1bc7275212a9a270d44384c79834bee949e4dc28e4e6f02c2da7c1898263c47c",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bystander-effect",
+      "route": "/terms/bystander-effect/",
+      "asOf": "2026-11-08",
+      "bytes": 34517,
+      "sha256": "04080ef083e194325cda63d69a2e063f9eacf99a15bc2558686016659f7b2193",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cross-resistance",
+      "route": "/terms/cross-resistance/",
+      "asOf": "2026-11-08",
+      "bytes": 35238,
+      "sha256": "660d7eff44fb3caaac9a27d7ad437118d4a6f52d56132a1cb3bce135aab4092d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "adc-sequencing",
+      "route": "/terms/adc-sequencing/",
+      "asOf": "2026-11-08",
+      "bytes": 37938,
+      "sha256": "b445f2feae9560361b83fd030d93ff9d8d450352c8930f92cf0d5efaa6cc9c04",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bispecific-adc",
+      "route": "/technologies/bispecific-adc/",
+      "asOf": "2026-11-08",
+      "bytes": 61084,
+      "sha256": "b421264cba2026aafa5c9c11253e14395b2d35111534688fab9d9a67121cf13d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "monoclonal-antibody",
+      "route": "/technologies/monoclonal-antibody/",
+      "asOf": "2026-11-08",
+      "bytes": 176298,
+      "sha256": "f3ef218ebfccd391fc1290ec0fee5fdc55cc94f3a34ebc066146b82b3bc766f9",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioligand-therapy",
+      "route": "/technologies/radioligand-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 98782,
+      "sha256": "a0af3329712aeddbef62c4eba8a66e8b98d4bbdb9e8b33d540e573e49d5d2e1e",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dosimetry",
+      "route": "/terms/dosimetry/",
+      "asOf": "2026-11-08",
+      "bytes": 33102,
+      "sha256": "9b2a2781527e0299af7fb5ee6ebff2f19786e1a6375b3ac86285957063f6b181",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioligand-dosimetry",
+      "route": "/technologies/radioligand-dosimetry/",
+      "asOf": "2026-11-08",
+      "bytes": 34336,
+      "sha256": "a012996f2de7f047522892f6e6cbc21c8bbfb629e43d8d186c6f237b61a34947",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioimmunotherapy",
+      "route": "/technologies/radioimmunotherapy/",
+      "asOf": "2026-11-08",
+      "bytes": 45048,
+      "sha256": "e2eb42278f72f83d26baee144eb06af224fb5e53b10b2d2b2cfcbc0710afb1da",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "adc-analytes-and-exposure",
+      "route": "/terms/adc-analytes-and-exposure/",
+      "asOf": "2026-11-08",
+      "bytes": 22849,
+      "sha256": "5c3a88fb08ce5ec42f609563aa1afb63a63287fe617572e49437ad63cdce0479",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "chk1-inhibitor-payloads",
+      "route": "/terms/chk1-inhibitor-payloads/",
+      "asOf": "2026-11-08",
+      "bytes": 23373,
+      "sha256": "aa72fa8d73b23a107a6a3ae95826e368e08a760222ef55ab97c64eb5e7b0a4ff",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "parp-inhibitor-payloads",
+      "route": "/terms/parp-inhibitor-payloads/",
+      "asOf": "2026-11-08",
+      "bytes": 22777,
+      "sha256": "a31fc7105d415800dd46c3dc5a7f9dedcf03734b7b95b05a1026a5b967918630",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "atr-chk1-inhibitors",
+      "route": "/technologies/atr-chk1-inhibitors/",
+      "asOf": "2026-11-08",
+      "bytes": 35549,
+      "sha256": "5a346c1b8b572f0f2dfddcfb7bfc645a5d6ba83b1ea4b3a5da79d03baef63154",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-division",
+      "route": "/terms/cell-division/",
+      "asOf": "2026-11-08",
+      "bytes": 25115,
+      "sha256": "a4d381afc67d06726de8992045c68b589591a51271361f5ba577bf68e3eb6aac",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna",
+      "route": "/terms/rna/",
+      "asOf": "2026-11-08",
+      "bytes": 23276,
+      "sha256": "5f81670032aa551993e30275b07954effca12921cbe9ccb2ed102a4f34732145",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "histone-lactylation",
+      "route": "/terms/histone-lactylation/",
+      "asOf": "2026-11-08",
+      "bytes": 16578,
+      "sha256": "2b2affa502f02dc09bd34d2617ddbe761ee7fba89409f8cc62d83359bc7596cc",
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ],
+  "pagesRead": [
+    "dar",
+    "linker",
+    "site-specific-conjugation",
+    "adc",
+    "adc-analytes-and-exposure",
+    "chk1-inhibitor-payloads",
+    "parp-inhibitor-payloads",
+    "histone-lactylation",
+    "atr-chk1-inhibitors",
+    "monoclonal-antibody",
+    "dosimetry",
+    "radioligand-dosimetry",
+    "radioimmunotherapy",
+    "rna",
+    "cell-division"
+  ],
+  "followUps": [
+    "Removed the inherited homogeneous-DAR guarantee from its schematic label.",
+    "Changed the ATR/CHK1 illustration from PARP trapping to the direct kinase-inhibitor drawing.",
+    "Rerendered all affected records after these corrections."
+  ]
+}

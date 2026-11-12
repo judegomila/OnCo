@@ -1,0 +1,62 @@
+{
+  "checkedOn": "2026-11-10",
+  "canonicalEntities": 22766,
+  "checks": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.84
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.0
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 29.43
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 98.38
+    }
+  ],
+  "testFiles": 284,
+  "testsPassed": 2829,
+  "testsSkipped": 2,
+  "lintErrors": 0,
+  "existingLintWarnings": 7,
+  "dedupe": "9 existing groups; zero DOI/PMID duplicate groups; no new group.",
+  "canonicalInputPreservation": "All 17 existing source owners retain unrelated fields. Composed graph arrays were not copied into source inputs. The older AJCC supplement and the NST date patch are explicit exceptions.",
+  "all22RecordDates": "2026-11-10",
+  "separateCancerDataNestedAnchors": 0,
+  "initialFindingsAndFixes": [
+    "Two narrow data factories needed optional existing asOf fields; the NST cancer patch also required its scoped current date.",
+    "The overview-only reader check omitted a separate cancer Data route; verification now includes the actual route.",
+    "The full suite detected two stale pCR long-summary examples. Both text and current raw English source hash were refreshed; thirteen focused translation checks and the final full suite pass."
+  ],
+  "translationReview": "Spanish and Chinese full pCR examples are model drafts, not a new named language sign-off.",
+  "limits": "No new Next production build, browser hydration/mobile/accessibility check, hosted release or expert sign-off. The pre-existing GRAPH_JSON export limitation is unchanged."
+}

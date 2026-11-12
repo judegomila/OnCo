@@ -1,0 +1,28 @@
+{
+  "checkedOn": "2026-11-09",
+  "workerCommits": [
+    "3d78cf048fc1323091f4567afd286d81fc6ccebd",
+    "7a62395f6a87e45d6037de6f554ae46962f49e37"
+  ],
+  "sourcePagesPerVersion": 14,
+  "sourceVersionEntries": 28,
+  "sourceBlocks": 261,
+  "sharedSemanticRequirements": 49,
+  "sourceRequirementOccurrencesPerVersion": 84,
+  "newTerms": 7,
+  "rootExistingOwnersUpdated": 7,
+  "rootCanonicalOwners": 14,
+  "sharedExistingDraftOwners": 3,
+  "sharedDraftHead": "3ce595e96cb429b3a5580377b55c2cf85b0e8022",
+  "figures": {
+    "paths": 15,
+    "versionEntries": 30
+  },
+  "summaryConsumers": {
+    "entries": 126,
+    "correctedPresent": 27,
+    "EnglishFallbacks": 99
+  },
+  "mainCoverage": "No merged or deployed coverage claimed.",
+  "remaining": "Whole-curriculum reading, remaining assets/literature, preserved immune evidence questions, other residual requirements and product/schema dependencies remain open."
+}

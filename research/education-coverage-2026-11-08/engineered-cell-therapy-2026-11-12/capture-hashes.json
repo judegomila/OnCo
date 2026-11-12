@@ -1,0 +1,1956 @@
+{
+  "files": [
+    {
+      "file": "raw-primary/crossref-10.1038_s41586-025-09212-7.json",
+      "bytes": 32659,
+      "sha256": "07d67e9af2877660363c1b95bc40a2751538e1e339d6d12fa0e8004ce4862542",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41586-025-09212-7.json.receipt.json",
+      "bytes": 341,
+      "sha256": "5ace7134a0cb010cef58d5ae3e75d9daa7903f800c734b0779f2a6f90d769a82",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41591-023-02452-y.json",
+      "bytes": 28077,
+      "sha256": "a74ca90726b0c934b0319aa2983de0124c7ba363090cce1ccdefbdc99a61c5a5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41591-023-02452-y.json.receipt.json",
+      "bytes": 341,
+      "sha256": "586e689e8bc3a96b4c3869ed257de69a092ee614f051477129a484a905cb1618",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41598-020-59736-3.json",
+      "bytes": 33997,
+      "sha256": "2257bcea4899163c71edcd8a607363f3b66e43ee4cc2c659edad19bfb77d912d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41598-020-59736-3.json.receipt.json",
+      "bytes": 341,
+      "sha256": "f6eed41c8ac14c53763ce30ec3f8edd12722ee2c4ad4c6a84ca3068edce8cf36",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41598-025-17342-1.json",
+      "bytes": 20884,
+      "sha256": "55b2d13bd1c706620129f771d4243709699c7e5f1ab5bb57a5d5950c4d0a067c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1038_s41598-025-17342-1.json.receipt.json",
+      "bytes": 341,
+      "sha256": "4e51aa9be293481592233e2017839ba309cc4842530495f29bcf582a24616590",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1371_journal.pone.0002054.json",
+      "bytes": 12857,
+      "sha256": "7314bc723b9dfef14a781583b923f44b7dd6f4cf46465b59a560e0ee5f698c20",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.1371_journal.pone.0002054.json.receipt.json",
+      "bytes": 345,
+      "sha256": "d86c824c758d53deef129423fbfa3a53d32757c059100447c96adcbed74f252c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.15252_emmm.201809158.json",
+      "bytes": 22209,
+      "sha256": "df310d9dbd2e7442b8dae37d75e69124c52e56c504722c4a8dddc17e08b01c72",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-10.15252_emmm.201809158.json.receipt.json",
+      "bytes": 335,
+      "sha256": "104ad6f7f3d3132d22c4d54b199c3b74f0eed23f73e16395dc6192cb039d2001",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-16946036.json",
+      "bytes": 9794,
+      "sha256": "1c970b52d1d326b18f4b0e3abf90b40446181381c926dc9b46c7062dd8ff7b02",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-16946036.json.receipt.json",
+      "bytes": 319,
+      "sha256": "99b5516fc8761657ed8bcb2ed6824e120734e6a5ed243769a1f9e5e5b3b063c0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-20179677.json",
+      "bytes": 22699,
+      "sha256": "1c7579329051f25be1ef7a3adbebcce770d5723c0bc5019d3962632ce71aa171",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-20179677.json.receipt.json",
+      "bytes": 315,
+      "sha256": "e978a015ed6bfed4ec4bea43fdf5dd3529b93d304b48065074c5e86e4038ba31",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-21610146.json",
+      "bytes": 33378,
+      "sha256": "b594bf7ab43620755b0f97408d042a82e8e698629df512ec89b875425ab8df65",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-21742772.json",
+      "bytes": 15560,
+      "sha256": "c1a672404dcf2d9e28f02b6fe2c8471b990e2fcd55586bf134a095ce5f69ec29",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-21742772.json.receipt.json",
+      "bytes": 326,
+      "sha256": "5455cc645c85e3ceba99b1459ce2dea9aac176d30534a61013d873959de0b9d4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-21949831.json",
+      "bytes": 14350,
+      "sha256": "6f500f5f2e8be39bd174bef6c59bf216efab0ee6dfd226a949c62aacf468b039",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-21949831.json.receipt.json",
+      "bytes": 325,
+      "sha256": "4cca02cc5fbadc1645f6441c10ced1580a9d0d1512186b271a641ee51f01e233",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-22047558.json",
+      "bytes": 7083,
+      "sha256": "35e3222f4d0462368bf4aab39d1c02cd973d686c08f9c9698a7c0624543507b0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-22047558.json.receipt.json",
+      "bytes": 317,
+      "sha256": "ad9954357c5832e82625fbcddfde4b399104047bc0a1dbe7c72fe10651e34c0c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-23242161.json",
+      "bytes": 16097,
+      "sha256": "01c3c50f9d780b7f652b379edde1e92192379e08ac9dc697bb666bc3af1905dd",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-23242161.json.receipt.json",
+      "bytes": 313,
+      "sha256": "1aa31dddc5b1ff530d8dc8910a66bc15c951db9215ef31892adb51b60a2e59af",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25212991.json",
+      "bytes": 21444,
+      "sha256": "5b044a9e9d82fd6ce00a09e01ddf7235572651b611e8486f223d80d3215cf755",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25212991.json.receipt.json",
+      "bytes": 326,
+      "sha256": "4aba38d133a65c48f40dadb0073c06c717170491865602d3a6c358c2b5c09649",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25695689.json",
+      "bytes": 18501,
+      "sha256": "6a1b90af8dec7593df9b832e85dd982f6dfaae42b88289df3f80d15079b1a53a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25695689.json.receipt.json",
+      "bytes": 326,
+      "sha256": "7dc617da15b9f9840edd48cc82e01053689d95a5bb6f34c315331ed07acb5ee5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25985798.json",
+      "bytes": 8045,
+      "sha256": "ef353c410d0563a958f80e7b54a8bae5bb6962ffd2089dc65601f4096fb778cf",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-25985798.json.receipt.json",
+      "bytes": 325,
+      "sha256": "c8533ea91390a09af4a3e80de20f0487c69bd112d871c0fb8895c98e5269b49f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26650966.json",
+      "bytes": 9202,
+      "sha256": "686bc575cec8b83c5f032725d370f843c4aa87a0121e2ed54335ba44afd2e482",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26650966.json.receipt.json",
+      "bytes": 316,
+      "sha256": "4d5d5df961f772de21524a3bf7ec37770252f7e4c7aae7c400e177adf563b477",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26830879.json",
+      "bytes": 11933,
+      "sha256": "e63e1218a96025d3c67c9f921a825bf6510143202bdc5c811ca462642f8ec16c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26830879.json.receipt.json",
+      "bytes": 323,
+      "sha256": "d0078297a1b068fd4323b27ed6b8db00fa8357889932b410ec210749bf6860e8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26885860.json",
+      "bytes": 22614,
+      "sha256": "4bba3764ebff8b132b78c6db82d7ef936639b0f81ebf87e84086f4f99902c086",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-26885860.json.receipt.json",
+      "bytes": 325,
+      "sha256": "473b54f85de654b9c27e4bb2aef326d31ef0360f7da6380dccdb6413c0ddced9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-29769722.json",
+      "bytes": 26151,
+      "sha256": "f6070bf14339a78eebff04c484cfb1fe66d48737e38ee0621fa9f1638dbf86e3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-29769722.json.receipt.json",
+      "bytes": 322,
+      "sha256": "da83c96ce57dd8996e81053a4e64a35cb910c6fe92865147a661225a18df6c87",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-29789554.json",
+      "bytes": 24360,
+      "sha256": "2e50ed7b749ae4e90d7ac318f8042ad7478f898f01bda0398a3868aef7d82526",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-29789554.json.receipt.json",
+      "bytes": 323,
+      "sha256": "5a712aca5e74eb0d24869cac0bf8d89a4515c800969b9093835f270cc637cb5f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-30309819.json",
+      "bytes": 18285,
+      "sha256": "55d417e48a55581cd6a2f5d6026f72a8657bcbc985f75d79850594a87195b46b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-30309819.json.receipt.json",
+      "bytes": 324,
+      "sha256": "ace6020518e90b94083e1a2d502837138e3b19dbfb3a9b349823cd951131c1e9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-32023374.json",
+      "bytes": 21682,
+      "sha256": "7a5ed28b1d91ef6b7d8bf74be8cbabfc3b2b8fe9041bd85b2ab4f89735bae481",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-32023374.json.receipt.json",
+      "bytes": 318,
+      "sha256": "9f932bf745af6e76edd8fe4c2f3dcc3078ceb6a6cf3f8e5c2e9497670541569d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-34990237.json",
+      "bytes": 13559,
+      "sha256": "f878d3fd48b3cbb123a89448180c3d14ad92a900df7942cbdc90586324932201",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-34990237.json.receipt.json",
+      "bytes": 320,
+      "sha256": "0e44b8f0e5c43df1d7c1b6a54a1a0c796cfeeabc08fe6054be4b9fd6696da2ae",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-35314843.json",
+      "bytes": 46084,
+      "sha256": "d731d4bbee7bdd8dcd2d64c4de56f9d34c8b0c5219bafa4ba40e00ac84a3bd5b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-35314843.json.receipt.json",
+      "bytes": 323,
+      "sha256": "b532d511e2db06a3e08879df72639e90266e54eba83e2097a48e9e1b37cfd9e3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-38865660.json",
+      "bytes": 25543,
+      "sha256": "5e057f04bd4ebf059bc7a21cb5a20fd3489569d652b0e1acd6a59c83278ec652",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-38865660.json.receipt.json",
+      "bytes": 318,
+      "sha256": "1f2abe9f9cb97ca010068f714008ca6face4cf798b14c6cc308d7a1f220eec50",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-39466024.json",
+      "bytes": 32481,
+      "sha256": "b347408974c9565b8a171b00d9c94d5a0333cf71a2c582c9ac414b5d89d8843d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-39466024.json.receipt.json",
+      "bytes": 326,
+      "sha256": "96e48a4cd7dfdb3b740b19e9ab7d47fc36c0673ea3f58d47be6e71b915e95eab",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-40536974.json",
+      "bytes": 16760,
+      "sha256": "b0b1aef6cb54d6ac9eaeabfa24986789599f42ccb32154e750bb2714df67f39b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-40536974.json.receipt.json",
+      "bytes": 320,
+      "sha256": "9fa1211b00c6072c5c9a1e35c3bdd0f503c67c6f7433b44b38044fded0d24461",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-42711241.json",
+      "bytes": 41807,
+      "sha256": "fc47aee6d2c6021312987b46dc8db6702957fd3533a4a7394097cfa014adebcc",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-42711241.json.receipt.json",
+      "bytes": 323,
+      "sha256": "d68ef712d8a1ac51f1637ee60ec616dcb1202b25f4c7e42a93592ad361986deb",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-JCI86721.json",
+      "bytes": 15563,
+      "sha256": "fdd03e3d0ee8355d18c696c250750cda3e89574a2fdd065236081133e1d066f6",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-JCI86721.json.receipt.json",
+      "bytes": 307,
+      "sha256": "5813c098794b91ebced49080e63e5a8926be988c186c5bfb9608f2fca0e4feab",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC10427427.json",
+      "bytes": 28077,
+      "sha256": "a74ca90726b0c934b0319aa2983de0124c7ba363090cce1ccdefbdc99a61c5a5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC10427427.json.receipt.json",
+      "bytes": 320,
+      "sha256": "7e979e33fcbb9a836ad50a51634150c62d026c667df38538238316be6d2fce46",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC10987173.json",
+      "bytes": 37700,
+      "sha256": "0d635cefc2cfe825c204a014d5d74ad108ba427f133fde4cf06e0fe804271bdb",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC10987173.json.receipt.json",
+      "bytes": 320,
+      "sha256": "6eff3a1fd0e112125f12531d6d98d52e37aae4a7da73223044f792818e2c5d0b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC4964602.json",
+      "bytes": 11642,
+      "sha256": "115b87b3179686e58761affa0a76adf6c6d36edf4c10131fdbbf3b6e21cab02d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC4964602.json.receipt.json",
+      "bytes": 318,
+      "sha256": "b168614c4bf92b3a81dc2e9f329e7c5f3a2d4b3957d3ed3d618bb12b2efb1968",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC7204619.json",
+      "bytes": 13925,
+      "sha256": "262dffeeb3b8d15b0513137442379481da7882e4ff0d11be81c258ece7f82bf8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC7204619.json.receipt.json",
+      "bytes": 317,
+      "sha256": "5407e932eb3b9d48ce158fac6f1c7dbed1e22962106b6224f56432715a7d6b18",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC7686896.json",
+      "bytes": 19,
+      "sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC7686896.json.receipt.json",
+      "bytes": 322,
+      "sha256": "e768c983c0193a8319c30c29df572fc265397bda7c44e93aaabba41d9189132b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC9720259.json",
+      "bytes": 22290,
+      "sha256": "5ab0180625cdd0a9f0a7a31fda4053ddf9cc83c12d77adff90ad2495c0ddcdce",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-PMC9720259.json.receipt.json",
+      "bytes": 318,
+      "sha256": "c4b0a3eb3565b489125b44eb6c9e676311002d63eb83ec49647a3c4e59e854f1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-e012442.json",
+      "bytes": 21510,
+      "sha256": "948b474ffb75787f1754f3be776726430f67cad57297099a78f94ca20594a95d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/crossref-followup-e012442.json.receipt.json",
+      "bytes": 314,
+      "sha256": "6d80994fa1b3809f356add1ef34250047dd31fa4e46955a9288d76e1ccc10566",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41586-025-09212-7.json",
+      "bytes": 22527,
+      "sha256": "8fefd776041436efb17c0242868091a8bda7677c1928eafe9ace51aaff75b9fa",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41586-025-09212-7.json.receipt.json",
+      "bytes": 413,
+      "sha256": "ba174d81ba7d1fd8c515eeb3b6798d50cdb1bda4a061590810e43d9379e0b83c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41591-023-02452-y.json",
+      "bytes": 9998,
+      "sha256": "7df7554df3de0d047bcaea0340d037ac06d53b53d4503fc77208e62f683a6a6b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41591-023-02452-y.json.receipt.json",
+      "bytes": 412,
+      "sha256": "c31b06d15ca8edb22e30aa5d85166b07f17d93cf1ad7e366847f3b4709af7e0c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41598-020-59736-3.json",
+      "bytes": 6504,
+      "sha256": "ae1cb2abaaf8374885c3834214e99da0ea75d760be950eb4deb57c8d7b7bde9a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41598-020-59736-3.json.receipt.json",
+      "bytes": 412,
+      "sha256": "b5c1c066658c2df098e9161db674a9a7de26b2405f2a4e4396756803fa061b9b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41598-025-17342-1.json",
+      "bytes": 7817,
+      "sha256": "566179aa5e26648929d7d978c13a0426424585dd65a834790cf18e45c37a5851",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1038_s41598-025-17342-1.json.receipt.json",
+      "bytes": 412,
+      "sha256": "7c2d899a3081937b041b132249b7fac73a698a9217bb8f011d117f77ee99ffac",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1371_journal.pone.0002054.json",
+      "bytes": 6018,
+      "sha256": "5ba3d798138d321dbe3ba4767e4f4f432656aa2cc12af1ec7c14221e3b1b4f98",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.1371_journal.pone.0002054.json.receipt.json",
+      "bytes": 416,
+      "sha256": "7e0dc23ab01d94ada5f909529476b3920bf6c46b936820df8f49da3d861e59f1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.15252_emmm.201809158.json",
+      "bytes": 10522,
+      "sha256": "eea084d4543a97f6b67e69daa29b7365a13e2cbc2c407c68a171cf460f62a991",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-10.15252_emmm.201809158.json.receipt.json",
+      "bytes": 407,
+      "sha256": "6dafaefb42766e97a4314268c681a62e76ace2f5d46438ec40d8906eda21fd1f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-16946036.json",
+      "bytes": 8957,
+      "sha256": "c5889c15e8e6acd1233d1267da6df1e15bb4f1d64f2c5f7381d80e3c23922012",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-16946036.json.receipt.json",
+      "bytes": 391,
+      "sha256": "d94ca20d686407435ae839db779f99154374386e6d0b9a07968fa48b9d51da77",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-20179677.json",
+      "bytes": 8495,
+      "sha256": "1ffff9efc9e1bf4d832fa02ba371559917b14ddbf516bca3b0501cb79b9e8f38",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-20179677.json.receipt.json",
+      "bytes": 391,
+      "sha256": "991b7af0fa50391abd493ff8e6fbec41e6d8aae5916e14f27f25469481f39890",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-21610146.json",
+      "bytes": 10081,
+      "sha256": "0f1d695135e25b94bfcb3dbd5ebb9f6b80c7e3480573c5a9899f9b911a694820",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-21742772.json",
+      "bytes": 6897,
+      "sha256": "8d40e14a6cdee55108e2548f2f0d03fe28cf2b3b9f0125d6a283e003593a61ce",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-21742772.json.receipt.json",
+      "bytes": 391,
+      "sha256": "f554203bd3bc5adaec5307ac0b026b65173d08303bf3b31564803ae541e8ea45",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-21949831.json",
+      "bytes": 6818,
+      "sha256": "d0e68172e5acdde46208b0707c96b49738089b405797cd25491e7458452f675f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-21949831.json.receipt.json",
+      "bytes": 391,
+      "sha256": "0d678fd50d52a800ccff8537c48d95b6bd37191962c0f5d1023047e1d71e6717",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-22047558.json",
+      "bytes": 9749,
+      "sha256": "c311cefa10219f53543425e132158f5aee454fa724d949767eb77233a87cf5b7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-22047558.json.receipt.json",
+      "bytes": 391,
+      "sha256": "bcf22a30d37aa8f693105b54458bd3618d0d280c5188587f0db53a5d9561d941",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-23242161.json",
+      "bytes": 5556,
+      "sha256": "e0bfde62a68636c4c5d0a97970a9bdb348d95554fe28187665006badf151650d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-23242161.json.receipt.json",
+      "bytes": 391,
+      "sha256": "95cb39b73d3b11bee492d5c7f5234c44dae679a7d56ce1effa913869e958d5a0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25212991.json",
+      "bytes": 10860,
+      "sha256": "7d8585e7b9b808f66e8915cde7f4fd868fd4fdc0256fa21e20cccd2fc5daa73f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25212991.json.receipt.json",
+      "bytes": 392,
+      "sha256": "31328bc6c842ea508edf6993ba04bb484104b252bfb086b54037fb618441411c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25695689.json",
+      "bytes": 11467,
+      "sha256": "ce8b7be1d246764c761b5c2ea332ca21c521783de6038a0bed3d5f45df6a078a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25695689.json.receipt.json",
+      "bytes": 392,
+      "sha256": "9791f057f75a5460e808438ada7c3de0b256373fd49dbc1f120530e5d34fd25c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25985798.json",
+      "bytes": 5334,
+      "sha256": "cc0f757dca1f67b1f9f73e02984b3516f5ffd9cfb1e04f86cb97d213ba0f616b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-25985798.json.receipt.json",
+      "bytes": 391,
+      "sha256": "14b37a4d6fe78537f14bc1976f3d548aaf3f2c099b576dcb3b9628cb5828df59",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26650966.json",
+      "bytes": 6768,
+      "sha256": "85b8afef64cab51d0c70ad4cdbdc2a11bc714ccf176adb15e62380af9742ba11",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26650966.json.receipt.json",
+      "bytes": 391,
+      "sha256": "ff4a6e780543f6fab713513d7d1394d663c467e291f81d4cee8c8a4473b5d746",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26830879.json",
+      "bytes": 10763,
+      "sha256": "c8a01d648b13876509c182fc9d077ef4c4f2b88f75e665a5fa43c473d168a6d7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26830879.json.receipt.json",
+      "bytes": 392,
+      "sha256": "44f78a8bb52093c6dcc050830cf8af10c5f1c3e585d9d914d65ede985306452f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26885860.json",
+      "bytes": 11608,
+      "sha256": "1479221d64bcc482cff2183c3ad2a8f7a021c106a7fcf82fd0ffd11dfe5a315f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-26885860.json.receipt.json",
+      "bytes": 392,
+      "sha256": "c28bc06218fd15483a85353733109ee67a917cc514ba75ade39d7654f9f01cca",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-29769722.json",
+      "bytes": 16997,
+      "sha256": "1bdbff2071c51dbff08aaa973d3e57ae2299ef4394e02226e7e35b337305c174",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-29769722.json.receipt.json",
+      "bytes": 392,
+      "sha256": "78432d350201fe9351f6f3a1872ccf7c1f2a9f1b6e5a26ee5d4b2c2586e30ba1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-29789554.json",
+      "bytes": 10595,
+      "sha256": "3a044c85a77a5239152f26df36f600eb5cb2e05bca2cc65362d2580a1551b3c8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-29789554.json.receipt.json",
+      "bytes": 392,
+      "sha256": "1c86c8e9690d58eb9d1d383acbf6c169959844017eed2ba3de37308311abf9c6",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-30309819.json",
+      "bytes": 15490,
+      "sha256": "bcb78c1643f576a7173a5ebda51e25c24582041e68b87b2b427bca44876017f2",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-30309819.json.receipt.json",
+      "bytes": 392,
+      "sha256": "5ba766fdc1966c5b4f19c5614c3851bc3c0f1d013c3a7c1c4d94587f560522f9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-32023374.json",
+      "bytes": 25926,
+      "sha256": "1672109d9b5360abcf3d53bfdc32c6872956cadf3ce2559f7dcffd73eaa38428",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-32023374.json.receipt.json",
+      "bytes": 392,
+      "sha256": "753bb06e497cb0495f72f2ef13de348623c26b25d000659f87c8deeba6b2bcc9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-34990237.json",
+      "bytes": 16541,
+      "sha256": "a7973e9cc22400037c9e22ca27f5494dcf15afc678c9c60e94932f084bdef883",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-34990237.json.receipt.json",
+      "bytes": 392,
+      "sha256": "aed0e8dfaf4b265b561139dae6cb155958e821b6068c9376450be176a4337ab1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-35314843.json",
+      "bytes": 25519,
+      "sha256": "db4e373fbe5080dc787b0af0cf48e9180b6184c3dbe7f642553630894da3c733",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-35314843.json.receipt.json",
+      "bytes": 392,
+      "sha256": "aeec462960b9b0054c61a456eceddaa9a9055782ff740c444743e447a87f55c2",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-38865660.json",
+      "bytes": 27591,
+      "sha256": "bbf27ec3546756d052622c23713d10a90b607871588ddadda2e67c339c028498",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-38865660.json.receipt.json",
+      "bytes": 392,
+      "sha256": "cb262879bfe60f5fa96fe1319730c01ed584521b867209060dfd32f172a488e7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-39466024.json",
+      "bytes": 16454,
+      "sha256": "effc1fe080ec51fc8950dceabd9567dfa9cf05f32a5cdcd5f0e44c42d613e003",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-39466024.json.receipt.json",
+      "bytes": 392,
+      "sha256": "252119b43ea2d44c6885a7a859090b1588d637fd66c75186dd947efdf03b2b9e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-40536974.json",
+      "bytes": 16624,
+      "sha256": "fbed36d6491cb329571d7178004b03029288b93915cfc2c50c06f59b99920522",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-40536974.json.receipt.json",
+      "bytes": 392,
+      "sha256": "a4ab0dd92adff4cd222cb1ec46a9c1323b958e5fd88472bb9f6b333cec33e96a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-42711241.json",
+      "bytes": 14960,
+      "sha256": "72e0f1195c10f1b4a61830c8d71263942841155724452f3722f3ba30edf993ab",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-42711241.json.receipt.json",
+      "bytes": 392,
+      "sha256": "9d2041e56867d599fac785e251c35803c7a37d35247bffaccfee0f9f4f9c7caa",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC10427427.json",
+      "bytes": 180,
+      "sha256": "cae9d8d896b3d04ff04c23b22388e1467e6e5c0c8d329e54e005e72fd29107dc",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC10427427.json.receipt.json",
+      "bytes": 382,
+      "sha256": "92a816f24df4bb039e6bf420e5c697b9f4ae2938b00cd3562c5705a72128e7a6",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC10987173.json",
+      "bytes": 180,
+      "sha256": "fdf1eb5c207ca330ba1f13bc7f26e30715f86c12f131d757c91c0e602005189b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC10987173.json.receipt.json",
+      "bytes": 382,
+      "sha256": "4334b3bd8954ccd32ee53f76faf89fd9c76a8ccdfbe17081b56f2b4b875153fc",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC4964602.json",
+      "bytes": 179,
+      "sha256": "9bdf231e8892fca53cb8dc61898219e244771972c537453ac520b000a98161d8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC4964602.json.receipt.json",
+      "bytes": 380,
+      "sha256": "1295561cab43120febb4881378430e952a608cf708eca245e955a7be0e53bc2f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC7204619.json",
+      "bytes": 179,
+      "sha256": "74df86e7fc61f41af0535b061e503b86550a7c1db078928e7ec32f78be83da82",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC7204619.json.receipt.json",
+      "bytes": 380,
+      "sha256": "4c2b39069ac038d295f981ba2697e591d90088673f3c68a16c0d96a61c7d245a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC7686896.json",
+      "bytes": 179,
+      "sha256": "08bc71a65afa9217391006e60217a4d75fbedf4d834416643504131a4b5381e7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC7686896.json.receipt.json",
+      "bytes": 380,
+      "sha256": "3c19fa0b55a2d14ad146902d271d88552ad1eebbda309e94f84d2a72a2c568c9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC9720259.json",
+      "bytes": 179,
+      "sha256": "21347118399c99c4476acf068ee746f453b3bee0fb98bdf8ff308805cf900387",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-PMC9720259.json.receipt.json",
+      "bytes": 380,
+      "sha256": "f340b77b517ee6efbafb64929215cbdfbfe3d7e66ab665d8ccd55269702b8a3d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-e012442.json",
+      "bytes": 42729,
+      "sha256": "d8926084aae50507c97bb3b40206c6495bad138a0e1341eb630d06958ff4d581",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-e012442.json.receipt.json",
+      "bytes": 367,
+      "sha256": "b27e339083c04269fa790826ae64c293aae3621e362e5eb98f2fa84af8a35b16",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-JCI86721.json",
+      "bytes": 17510,
+      "sha256": "8658fd86b95aeab9372689d92f5e9855f06c0d993ecadfacdeb9c75c716cb91a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-JCI86721.json.receipt.json",
+      "bytes": 379,
+      "sha256": "5329cb3e7331db6587c6ffae0f1e6c2d4d2577116a8a6831c84a6f64ceab6e7c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC10427427.json",
+      "bytes": 10021,
+      "sha256": "d6fb4fae42cd687e81197d4c0386229b0b1ec63806804d894e758cab8ff143e0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC10427427.json.receipt.json",
+      "bytes": 377,
+      "sha256": "5543e722da75fb8e6547010895a993aa5cdc545f5d7c9f136c15ab05ea815bd0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC10987173.json",
+      "bytes": 10220,
+      "sha256": "44533dea81b8b6ee8a84632932838a29dc011ed3c6322a99d01489253b93e9ae",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC10987173.json.receipt.json",
+      "bytes": 377,
+      "sha256": "c946f58042f81fffc7c534a2a8c644e7b36627e62dcaa11e43e3d936c9f29683",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC4964602.json",
+      "bytes": 8291,
+      "sha256": "3f3f9a798f4d7ba127e4a19f1663460a01e4446869d3b0d519333cad408f7090",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC4964602.json.receipt.json",
+      "bytes": 374,
+      "sha256": "8c9a43e7759f6a82446f7d0545ca1fefd08778d7f9321ca57b8c49f350900a2d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC7204619.json",
+      "bytes": 10230,
+      "sha256": "a62fb4d8fdec51e3dc8c95584d594a5cdf2817a853b4f92c8c8e660bdc67fe43",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC7204619.json.receipt.json",
+      "bytes": 375,
+      "sha256": "ba2f473b95e484d7fbeb3908b2e6b22a7e83bb25108774a730a141770f2e8dea",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC7686896.json",
+      "bytes": 8919,
+      "sha256": "51d0365655e31b11971f278fcdc79828fb6c764b29a0a4c35713c2cc4e158da4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC7686896.json.receipt.json",
+      "bytes": 374,
+      "sha256": "8f90a6c6039b3c3ab60aaef431820fd670f7b2ac0e5595542089f6b48a31860f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC9720259.json",
+      "bytes": 10417,
+      "sha256": "582dd6e01a01b6dd00d427b373fa802f9519be2c504af6e5a1531cbc01f75837",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-PMC9720259.json.receipt.json",
+      "bytes": 375,
+      "sha256": "3961a2ae52f12754ecf5d32cb3761ad9cb08709f9bceb4f560ba3c15dc7035e5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-e012442.json",
+      "bytes": 12443,
+      "sha256": "9ec63e16be8f8a79ab9ae62c358c107b57d770d81c37df8519932e7674f08578",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/epmc-followup-e012442.json.receipt.json",
+      "bytes": 386,
+      "sha256": "7d6ae9b6ada31ebe67106f735b4ed7ddab45462502b01e6ad81f00dec2bad41a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "raw-primary/pmcid-field-test.json",
+      "bytes": 8292,
+      "sha256": "86cf187444780552459f9d17b6a693f2a2ca0fe3e36fa2013df9d128a8c19ced",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/Frank-ASH-primary.pdf",
+      "bytes": 5798,
+      "sha256": "a153bb56593cf509ed71040b3e38b59cdb65f29d64583ed57202468c4a40a735",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC10308799-passages.json",
+      "bytes": 203441,
+      "sha256": "501d9447d32fc306238d7f30ec7b9d6a612e52c1a05748ad11d3f59fc71a03f9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC10308799.xml",
+      "bytes": 211655,
+      "sha256": "c33ccec305a8b571b62b4e42de1ca42f7fdd65ca7cb9a5c77c7c35b5b228525a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC10427427-passages.json",
+      "bytes": 161307,
+      "sha256": "03bbf8aaf9684e26644cf2ced8506a1adf7749cf4d0503debad1e63bc16eebbe",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC10427427.xml",
+      "bytes": 150167,
+      "sha256": "a6a374103cca942f155549ce9cb0e25ffa13994c96c0bb825120df639aa21527",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC10987173.xml",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC11338600-passages.json",
+      "bytes": 68336,
+      "sha256": "5d500bc11cb117ea881c8b8a7c45f7c5a82d0862bf7d1cba4d007471d532e7cc",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC11338600.xml",
+      "bytes": 64939,
+      "sha256": "534febabfa27a56dd61380ad7013f1b6f80ca44077d669f3cecb88b727ab8524",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC11788652-passages.json",
+      "bytes": 95933,
+      "sha256": "0d523bbe6dda00f9d77fb83b1b8374f1b06af6c22d9837f1098880dbe7b11326",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC11788652.xml",
+      "bytes": 93766,
+      "sha256": "78f9ead007a9697afe36c29c5f2cbf0418f4db831eda376b6e41e80554d99fe6",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC12328239-passages.json",
+      "bytes": 174567,
+      "sha256": "f21e2db150a1048bd20d1cf440aa752b4ef2ca82dc561d05cc0bbc6f0f2aaad4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC12328239.xml",
+      "bytes": 162666,
+      "sha256": "571e49ecc8b097700d0baa62fcbd417445a17013bd43a301773c913aa2b10540",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC12410632-passages.json",
+      "bytes": 105749,
+      "sha256": "fd14b72c5b850b23392ca8088a2d845ebcadd05d583f0e54f25621476c8910c9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC12410632.xml",
+      "bytes": 98793,
+      "sha256": "bb495290d6ded4d8135f4912c57ceb70c0b5698326becbcc52e67088e091208a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC13009191-passages.json",
+      "bytes": 83763,
+      "sha256": "040a29eebbc46a334907dfa47f8952fd04b6a6fae1da1524cae2d2c37e239e94",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC13009191.xml",
+      "bytes": 78948,
+      "sha256": "08c840e2f1349d9837c11f1af6b1e3295d53564781e4e1a4aed6b97ac14bd6f8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC13498396.xml",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC2329594.xml",
+      "bytes": 899,
+      "sha256": "037c2dbe610ab2a6516d0f0916f7ad3cdfe016739186de59e5eaecd7043d00ba",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC3236370-passages.json",
+      "bytes": 68641,
+      "sha256": "53ffcd3bedbdce5a5e60ef2532034e9b50aafcbde22541739e8d2aefbee36810",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC3236370.xml",
+      "bytes": 67043,
+      "sha256": "7e8d9c265315bd4d9c8dd426f90130317e3f03d3b411812c1e5460e39230fa5a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC3612507-passages.json",
+      "bytes": 92157,
+      "sha256": "d1c71151a1951ce6fbe1b1216d730492fc4999adab0a4a9bf4890547cf616457",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC3612507.xml",
+      "bytes": 101064,
+      "sha256": "2ca030ff2987a6671878bbcee69764ef2c2ccdd5ab865ee70336663e595afd0c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4433819-passages.json",
+      "bytes": 252741,
+      "sha256": "91e6825520c44f48ba7148cf75d2d8f9bdee917e2cfcbbf8f5bd9f2287aefcd4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4433819.xml",
+      "bytes": 319149,
+      "sha256": "6aa7ab81f197c2e17b61619f46d076d2698babd9ae0a6bc214acf2854f4b6e6f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4692801.xml",
+      "bytes": 899,
+      "sha256": "037c2dbe610ab2a6516d0f0916f7ad3cdfe016739186de59e5eaecd7043d00ba",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4752902-passages.json",
+      "bytes": 85466,
+      "sha256": "e8d04ef60e91076e75851e336ac47887f603c64180bd2dd5188f2cde3dddb572",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4752902.xml",
+      "bytes": 78687,
+      "sha256": "890144902b7b11cbe90d06ef1bfce3c3dd3e436b57bc70e3c262322095cbae02",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4964602-passages.json",
+      "bytes": 40013,
+      "sha256": "0d4b9d230109772e796823b646cff1822cb4f1b93fb4fc191f4f937a36d616d2",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC4964602.xml",
+      "bytes": 40797,
+      "sha256": "85fdc1e0e2f6de727bbcde8e9960310cc8dfc0814e2aa910b0313a499a0cbd06",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC5004935.xml",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC5505184-passages.json",
+      "bytes": 57293,
+      "sha256": "c2dc2de5ce6fe6d1bce81de242330d1b45f563c918858386b75956605748675d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC5505184.xml",
+      "bytes": 53553,
+      "sha256": "25956736cbc94152160c33550db14b5e4f0bac2956dbe93e8c4864f0db007052",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC5964073-passages.json",
+      "bytes": 107116,
+      "sha256": "2bdd31b468deef2539f01590bd078028d2edab9448597142c58b5764bee4448a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC5964073.xml",
+      "bytes": 101572,
+      "sha256": "e059cb981e240426cedc344a24d0d089d6ea8b216e22416e552b8dc02618c56a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC6220327-passages.json",
+      "bytes": 82766,
+      "sha256": "89a4b3fc41c4d3921a9ff56c734344fc181fd3e8c8e115e0b0569e564925ac11",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC6220327.xml",
+      "bytes": 75843,
+      "sha256": "1c6ec9e2e9beaf5f6d3a2e0318f876c90a72be31a405884bb942e67a78fe20df",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC6277484.xml",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7028910-passages.json",
+      "bytes": 108823,
+      "sha256": "e58ea64bd797b2285e71d8ee82c1245e1569046bdf5d108782d00690ec1c8a6c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7028910.xml",
+      "bytes": 103386,
+      "sha256": "e18866c1336f1cc7bdf3cee5201d15595fdb4972be6f5d93ac687d1b5d880f85",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7101242-passages.json",
+      "bytes": 88949,
+      "sha256": "da5fa7127bd1670e93c254d2730f26475bebf666b05d3deac46c2fb3a5108f3d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7101242.xml",
+      "bytes": 96481,
+      "sha256": "4851786062ed2653e688343fa418f3bade994424d69b72ea9a9c1880d0f288ee",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7204619-passages.json",
+      "bytes": 58478,
+      "sha256": "76b7ee6b281b021e3b8d8242e56b871fb2ddac479cf1a1641f39b67e18591350",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7204619.xml",
+      "bytes": 54094,
+      "sha256": "4f5c73059d5e8af32aedbbc48aed29d134e8825c583bc0e65cbb843ff1aadc8d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC7686896.xml",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC9720259-passages.json",
+      "bytes": 100030,
+      "sha256": "3074107b06325e9a82fa9548af95b34a4af4dbacfdce88ed602991ea6fae52f3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/PMC9720259.xml",
+      "bytes": 94066,
+      "sha256": "117ef13ecf76e84e5e45e78ff565a7f3cc87698b1315a0fdd3773bb9ebaad6e4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/efetch-PMC4692801-passages.json",
+      "bytes": 40248,
+      "sha256": "848f5bec15cbc1797cda4d2bb4ddd381738897288163ddd424ccbefdcca2afd7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/efetch-PMC4692801.xml",
+      "bytes": 105129,
+      "sha256": "e79d645ebbcf2998feebb757ea34ed6d23e2f8ff6ede781134a8cb3048c5b278",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/efetch-PMC5004935.xml",
+      "bytes": 17069,
+      "sha256": "fffa889e62d80e35d2e1f53dc0787990dbf88c9a7e9dd8b7bc649eb1e0677ae9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/efetch-PMC6277484.xml",
+      "bytes": 13156,
+      "sha256": "23aaf8907119363a9ca1b1f0ea8d0fb9513c96bca1ffba114f16938455dd33c7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/efetch-PMC7686896.xml",
+      "bytes": 11361,
+      "sha256": "8070e40dc8833fab28e21e0015c014903c1f6832fccdeb28e8aacb474ccf3492",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC10987173.xml",
+      "bytes": 151,
+      "sha256": "5483c38b7f1c08fc1866beca1b73709bb67f4ffb1e3158ac9c0e2d15e65f13d5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC13498396.xml",
+      "bytes": 151,
+      "sha256": "eeb89a762b30dc4235e58f3509d78a2ee3485b3a46bcc5ff45e78fdccdd06a4b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC2329594-passages.json",
+      "bytes": 91479,
+      "sha256": "fe2e8d1bda5eea25cc578da59350adfcbfe5b0bbf2ea2a146a2e9c33cb8e6cfa",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC2329594.xml",
+      "bytes": 112549,
+      "sha256": "0d5283ff8feec581c73018d6c3ea7afd1a0306f43742526ed8182d5a8bca1a53",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC4692801.xml",
+      "bytes": 150,
+      "sha256": "3462642c1b4098a93fed1b23712a219828c476fa4ccb177f182e9003fec72c4c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC5004935.xml",
+      "bytes": 150,
+      "sha256": "5668d3e5d5b503d080796617978660002fb94291c072e18f6baa94467bc56108",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC6277484.xml",
+      "bytes": 150,
+      "sha256": "6e872b3619c109c8ebabdc498efe9afaa09a370e4a653cf97b56b8ae4d75b19a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/epmc-PMC7686896.xml",
+      "bytes": 150,
+      "sha256": "78cd1cedad138163bcaa2dadd7e6c9fabd14afe6da62c8acc438fe2681c96fa5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC10987173-passages.json",
+      "bytes": 122754,
+      "sha256": "a04c4596956057b4e44c0863b45257a94a3acb088a41a9cd14528dd84e4548fe",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC10987173.html",
+      "bytes": 224262,
+      "sha256": "526c54eaa6244d9594282ba76117ca2be72393250bff75c8d1c538181626077d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC10987173.txt",
+      "bytes": 58481,
+      "sha256": "60d431cb8bb80b40ab4667bf03ca6dabada8e1b7f8d6d382093d6edf1efd1e06",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC5004935.html",
+      "bytes": 21475,
+      "sha256": "52290ce20452cda95d1e9fba59183ce6ef9433d62ca9626cb10139cae14aa0f1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC6277484.html",
+      "bytes": 21471,
+      "sha256": "f919b09a65f5cddee75828d025ad1acea8f36ad5e1302f536b1922e1ef777367",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/html-PMC7686896.html",
+      "bytes": 21476,
+      "sha256": "9e062a5170707f6aa03330cbb36e1db5c7dd2c9f7f3150d64927fa2a688b1013",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/pfeiffer-appendix.docx",
+      "bytes": 21563,
+      "sha256": "7d357ed1922ed02d53574c3328899b8ea53452b031264671226cbaa876f8bda0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "body-captures/pfeiffer-jats.xml",
+      "bytes": 133349,
+      "sha256": "67fc6f748af8db526a722bde7f105e38ec0c3ec2af261aa1f44423cb6b40619e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/768723.html",
+      "bytes": 28986,
+      "sha256": "d284eb8aec264f1b06d9e2f0f7326813dd591fc9bd65b926ff096158c49f479c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/768723.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/approved-cellular-and-gene-therapy-products.html",
+      "bytes": 47437,
+      "sha256": "18e28d8d2af59bc44e7bba0d6c72f3b331dea86c5ae4dc110fc617aacd713eb4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/approved-cellular-and-gene-therapy-products.txt",
+      "bytes": 3918,
+      "sha256": "55f2b8565c7f5fa6ac0846be5fd5090537a4491b6acd2c35837f68d10ee7e5d4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/car-t-cells.html",
+      "bytes": 59492,
+      "sha256": "25fdaa0a5f2bbda8b4c71475c4c0b6907ad808418665feeb5a4dd085ea88b504",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/car-t-cells.txt",
+      "bytes": 13289,
+      "sha256": "d271414dcd30ca4266e59ca52f02b85630d81fbdfb31d28be8ad83a7d890953c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/considerations-development-chimeric-antigen-receptor-car-t-cell-products.html",
+      "bytes": 37668,
+      "sha256": "5fa2d434e2bf48241de313faec86afa95fa918d81ca656eb9c81427ea34b3a6e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/considerations-development-chimeric-antigen-receptor-car-t-cell-products.txt",
+      "bytes": 3090,
+      "sha256": "2bb73f5fde3bd66ec26008c387a4305be80fb9c9a3be19a24885bf7b9bc8ee77",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-107296.pdf",
+      "bytes": 634376,
+      "sha256": "b2025e715e75502e811955dd9d010ec5273eb19aa9eb9bc38c585ad911e582f0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-107296.txt",
+      "bytes": 123792,
+      "sha256": "cefc096b3dbadddc3cc93ad1c3fca0ec9354f501b799872b2dafb0c9ae3cf2b0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-113768.pdf",
+      "bytes": 520289,
+      "sha256": "588cfb0815c2d1ab006c506b714fe857df01299a974c9aa37b5c39999a2838f3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-113768.txt",
+      "bytes": 107385,
+      "sha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-147055.pdf",
+      "bytes": 893421,
+      "sha256": "0dde4213a690c031cfa23c5389c4c10fe53b70690f10b5b5ee0449d95cb14896",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-147055.txt",
+      "bytes": 112568,
+      "sha256": "9aedd1b62905961908dd019d94b333b8d08d9291d38af08c302c35c57306659e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-156896.pdf",
+      "bytes": 528619,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-156896.txt",
+      "bytes": 127137,
+      "sha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-180565.pdf",
+      "bytes": 409030,
+      "sha256": "405eb1e2c69d4484c8032dfa065ada915a70b4652e286df0f52ec30a28421e34",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/fda-180565.txt",
+      "bytes": 50275,
+      "sha256": "75ba8ba4a40fc72e76196828f997342200b11bd95f7b5cf736dfa519964cb85e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/hgnc-MUC1.json",
+      "bytes": 1359,
+      "sha256": "05c49d6a41d045267630e730e69025df1747e06505425df33bb58c8b82440476",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/long-term-follow-after-administration-human-gene-therapy-products.html",
+      "bytes": 35969,
+      "sha256": "bd47525ebe97506722bdc8f39ebea86c77f118d928e764420ed566037ae5f067",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/long-term-follow-after-administration-human-gene-therapy-products.txt",
+      "bytes": 2609,
+      "sha256": "d440a8e9ed36e8a7697dafe4523c6c9087753cd6e1edba3f09a8d560ec1d809a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/nci-axi-cel-raw.json",
+      "bytes": 2519,
+      "sha256": "04d80fabc12a015751c5227d676a51b7cd068ca9836868be640d231947eb495c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/nci-axi-cel-receipt.json",
+      "bytes": 255,
+      "sha256": "3ef9696b4091742ad47ae80020c125e7a370b6fcff58f54b333947e3a987d427",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/t-cell-transfer-therapy.html",
+      "bytes": 52053,
+      "sha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/t-cell-transfer-therapy.txt",
+      "bytes": 5939,
+      "sha256": "412906fa39db46b914503aec027142280c6f9055362fa6c997f963203e04900f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/tbmr.html",
+      "bytes": 50355,
+      "sha256": "e3e58fae0e4b716d36dd9f8fcba80cd81fd594f7ca6c25992380552aa922909a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/tbmr.txt",
+      "bytes": 10627,
+      "sha256": "142915365a23c05dffdab5328a57fc6bcc02142e7c0c7844e6f8ecb91b4fa1af",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/uniprot-B2M.json",
+      "bytes": 290616,
+      "sha256": "128c52b3beeb6078cc0af39b6e7f934070fadfa0f3411efde9fb0fdfaac410c9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/uniprot-HLA-DRA.json",
+      "bytes": 122979,
+      "sha256": "2b88049ba457b79a6dc9e14fa39e2b09c6b9ed3d9ec9746e96126fa9ddd222bd",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "official/uniprot-MUC1.json",
+      "bytes": 159242,
+      "sha256": "44c04e46dd6b264af34c4d5ba7295a37729041acc01d36ae2fb5fdd77793cb46",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/cytokine-message-and-receptor-v2-dark.png",
+      "bytes": 1971063,
+      "sha256": "01e29fc825b343481ef5c575c96c5b19ef9fce3d7d28f928c19c309d1b531c18",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/cytokine-message-and-receptor-v2-light.png",
+      "bytes": 2012662,
+      "sha256": "bea69ef1dafbfc4c68952ac43ac6d9f0969e26af478f2b4d1f4752ba84ca14ba",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/instructions-to-car-dark.png",
+      "bytes": 1529601,
+      "sha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/instructions-to-car-light.png",
+      "bytes": 1483699,
+      "sha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/solid-tumor-journey-dark.png",
+      "bytes": 1768080,
+      "sha256": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/solid-tumor-journey-light.png",
+      "bytes": 1583674,
+      "sha256": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/where-cells-are-engineered-v2-dark.png",
+      "bytes": 1728795,
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/later/where-cells-are-engineered-v2-light.png",
+      "bytes": 1681421,
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/cytokine-message-and-receptor-v2-dark.png",
+      "bytes": 1971063,
+      "sha256": "01e29fc825b343481ef5c575c96c5b19ef9fce3d7d28f928c19c309d1b531c18",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/cytokine-message-and-receptor-v2-light.png",
+      "bytes": 2012662,
+      "sha256": "bea69ef1dafbfc4c68952ac43ac6d9f0969e26af478f2b4d1f4752ba84ca14ba",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/instructions-to-car-dark.png",
+      "bytes": 1529601,
+      "sha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/instructions-to-car-light.png",
+      "bytes": 1483699,
+      "sha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/solid-tumor-journey-dark.png",
+      "bytes": 1768080,
+      "sha256": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/solid-tumor-journey-light.png",
+      "bytes": 1583674,
+      "sha256": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/where-cells-are-engineered-v2-dark.png",
+      "bytes": 1728795,
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "figures/original/where-cells-are-engineered-v2-light.png",
+      "bytes": 1681421,
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-1-dark.png",
+      "bytes": 13856,
+      "sha256": "5d3919b581b0ac90cb02061fafcd6d16237ce790e1da6fbca1152f512f1db065",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-1-dark.svg",
+      "bytes": 17050,
+      "sha256": "4aa41dbd44db79ce9a104c29585380d5bc8c839c68da8616ee38d2e24ebfa455",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-1-default.png",
+      "bytes": 12867,
+      "sha256": "e54db481b54b785022cb24bb1aa7fa46a5508f81115e35b7d651c506c14f239d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-1-default.svg",
+      "bytes": 16483,
+      "sha256": "959cdfdac82af5da6b40b3d836a5ce6349ea006d5d5bd90edcf53bb3b300902d",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-2-dark.png",
+      "bytes": 43524,
+      "sha256": "f0f36adbb2a2df589ae065b9203d2a34d8e02a61c2a9260ee132985e57a47dc8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-2-dark.svg",
+      "bytes": 23877,
+      "sha256": "87c7bf119846ce9d3322ad22e8c30f64e47934e18f20e07eed16966f124a4640",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-2-default.png",
+      "bytes": 39249,
+      "sha256": "556ab0b84715bbb4c48e13c82783951926a415f7ff19e3c8235a0ad58ee3d090",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-2-default.svg",
+      "bytes": 23310,
+      "sha256": "094695182b59e6f870788b540055e09f2bf7d18183eb4f825c71d1b4859fe4a8",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-3-dark.png",
+      "bytes": 28803,
+      "sha256": "22d9821029b9236c9fc454540bfc095de28139130cb9fad879baf7e429cbb3cd",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-3-dark.svg",
+      "bytes": 16271,
+      "sha256": "203d24ab0dca845720cd1174ccf71f46beca5d7e0d3127cf6605456c9d36b2db",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-3-default.png",
+      "bytes": 27589,
+      "sha256": "b04067c9470ec77e4727eb6b2e6d02e9f7b915834b816a162d82911090fa758a",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "renders/diagram-3-default.svg",
+      "bytes": 15704,
+      "sha256": "dcf7e9707ed826b40d7bd00db25a4532cbc7c0ae4b944b90d7cff2628b2fffab",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/later-04-in-vivo-delivery-1.mmd",
+      "bytes": 304,
+      "sha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/later-10-read-a-research-product-study-1.mmd",
+      "bytes": 336,
+      "sha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/later-index-1.mmd",
+      "bytes": 498,
+      "sha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/original-06-in-vivo-delivery-1.mmd",
+      "bytes": 304,
+      "sha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/original-10-read-a-research-product-study-1.mmd",
+      "bytes": 336,
+      "sha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "mermaid/original-index-1.mmd",
+      "bytes": 498,
+      "sha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/01-cell-therapy-primer.md",
+      "bytes": 9277,
+      "sha256": "b3e9945a08c843aa20c89d50d753b761d29fce013a3cf20e92db7b34ab5c11d9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/02-choosing-a-target.md",
+      "bytes": 14323,
+      "sha256": "40acb3b03722f6e4f876ff6bc2a56f1e7991aaa5d6a0178945a9bc1229b617d3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/03-engineered-t-cell-building-blocks.md",
+      "bytes": 12634,
+      "sha256": "d57b1a3d008a056f2b593bdbaf92d4de507fac69a4145a49639591cfba706729",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/04-in-vivo-delivery.md",
+      "bytes": 22492,
+      "sha256": "577fef895f04a3cf9f884fc9b4d3ea512f1e13f480a00e20e92ce15b3ed855a3",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/05-cytokines-and-programmable-receptors.md",
+      "bytes": 11465,
+      "sha256": "2323a5165f1fd92b22e61743641b7be6b6ad0769dd0946561f57b3ae5f26f50c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/06-solid-tumor-barriers.md",
+      "bytes": 15720,
+      "sha256": "47a0a99e950cee8c0c3b0a3e9b336cca38c8404c3efc1f52e7497df5149dc5c0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/07-reading-the-safety-plan.md",
+      "bytes": 15518,
+      "sha256": "f61e03b521addadb4a8eaae4496fe6a3596c74500e5eaa209b112df94b1088d7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/08-reading-cell-therapy-evidence.md",
+      "bytes": 12658,
+      "sha256": "58136dd3c56d7520b1bb8e349f63c100ce3857cea67a3f819d9dfcb7249c6fd4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/09-car-tcr-til-comparison.md",
+      "bytes": 10251,
+      "sha256": "db7bf8cc765b4dd164ec28d82d613259dfde090f2931b7a851156b8bd3c3679e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/10-read-a-research-product-study.md",
+      "bytes": 9421,
+      "sha256": "5cc5869caec61ef219dfdef0b00488aa764a165190024d5e04f7a387f101d8f7",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/later/index.md",
+      "bytes": 13538,
+      "sha256": "57a8409197011f9476ffa71639a177777324d31ded6fc8c48f89934114a3099c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/01-cell-therapy-primer.md",
+      "bytes": 9277,
+      "sha256": "b3e9945a08c843aa20c89d50d753b761d29fce013a3cf20e92db7b34ab5c11d9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/02-car-tcr-til-comparison.md",
+      "bytes": 10251,
+      "sha256": "db7bf8cc765b4dd164ec28d82d613259dfde090f2931b7a851156b8bd3c3679e",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/02-choosing-a-target.md",
+      "bytes": 14299,
+      "sha256": "55689ed6c364bd7778bdd3fdda8e1029181381f3431484a918bf40764b2873c5",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/05-engineered-t-cell-building-blocks.md",
+      "bytes": 12541,
+      "sha256": "6c3c3d638ae2ce4ab2f531358166f47967cb30d607ce7e12cf9ecd22aa7e3bf9",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/06-in-vivo-delivery.md",
+      "bytes": 22399,
+      "sha256": "9c96a6a7d61ae23369a68def1d03936210c0f8b41aa003e9e8ac43e98b249e89",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/07-cytokines-and-programmable-receptors.md",
+      "bytes": 11418,
+      "sha256": "a112131e12f80ea2aa52137177c89d04d509e7415634c9ab7c190d44ff7b84ab",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/07-reading-the-safety-plan.md",
+      "bytes": 15494,
+      "sha256": "d89e882e721a4dd763e611d6ecf989490a428bab44da7bf2b08c532becce2395",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/08-solid-tumor-barriers.md",
+      "bytes": 15358,
+      "sha256": "24c7a18477615a87bfee8c6ad60c6ddd262bfbd75b27897dcdbc946ca3b37443",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/09-reading-cell-therapy-evidence.md",
+      "bytes": 12732,
+      "sha256": "f14785e787f09df4be89e082aa673689630e84a1bbdc3d952d282a8a20d68e95",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/10-read-a-research-product-study.md",
+      "bytes": 9311,
+      "sha256": "e18117eda3516a37ac6cef871cdcbeacecece782d5b5eba143391d312ff16b99",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "guide/original/index.md",
+      "bytes": 12278,
+      "sha256": "48df6a06b9001359b10b13a8b74f300349b12a5fb32085d482e0bc40c6c38818",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/01-cell-therapy-primer.diff",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/02-choosing-a-target.diff",
+      "bytes": 2223,
+      "sha256": "cc4e60674f0eb25ce785cd7e3c9f6d3e004623905c1eefa285b7fd877453d9a4",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/03-engineered-t-cell-building-blocks.diff",
+      "bytes": 2896,
+      "sha256": "558aa884c14cc3062be2908e3468eab1edea80b84f721cf00c1ed01d01cc7d50",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/04-in-vivo-delivery.diff",
+      "bytes": 3031,
+      "sha256": "786b48c9e4cabbcfb9fcefc3ea3877fc49342387140dc136d73d669af393de7c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/05-cytokines-and-programmable-receptors.diff",
+      "bytes": 2185,
+      "sha256": "bb238f0dbd138a57f8ef8d72f7a018c6d7f2522f7fce8884e4950bec161ceaaf",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/06-solid-tumor-barriers.diff",
+      "bytes": 4218,
+      "sha256": "ce53908092eab6bdeef0a2744877d7b371a0e14c22ac43d06b46d7a8f6ea64d1",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/07-reading-the-safety-plan.diff",
+      "bytes": 1715,
+      "sha256": "88614683789ec99a6f1203d4125b335f4ffd65d578bcdf34bd7f28e0bd67962c",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/08-reading-cell-therapy-evidence.diff",
+      "bytes": 965,
+      "sha256": "441d8e41b58f38f6040ca1b2f027757f2c8beb0b80df7c90738ee6e098476411",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/09-car-tcr-til-comparison.diff",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/10-read-a-research-product-study.diff",
+      "bytes": 2405,
+      "sha256": "44843ec01596813885653e5f71dbde932754e7147a3e68eecea625397b2bc603",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    },
+    {
+      "file": "diffs/index.diff",
+      "bytes": 19079,
+      "sha256": "3fdc709ed9ae0b56224392aacdd9ee33fc0585dd097a94a6e0006a0c64e116b0",
+      "privateRole": "pinned source, primary response or review artifact; hash is custody only"
+    }
+  ],
+  "privateBodiesAndReviewMediaNotCommitted": true,
+  "readingDepthSeparateFromRetrieval": true
+}

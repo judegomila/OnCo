@@ -1,0 +1,154 @@
+[
+  {
+    "version": "proposal-functional-models",
+    "id": "functional-drug-testing",
+    "fields": [
+      "companies",
+      "institutions"
+    ],
+    "beforeRecordSha256": "0277f8ab63907d3e6e8167213cd13dcd25040bd507c2d8aaa303994a2557422b",
+    "afterRecordSha256": "5bfc69f54a8c2c4c52f8d289832c730e420a584dd2f8d3a75831272358f060d8",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-functional-models",
+    "id": "organoids",
+    "fields": [
+      "companies",
+      "institutions"
+    ],
+    "beforeRecordSha256": "d03acd02c1f7dc6426d67e8a4b38b71d980b65ce3e8412b572b8f7bca4af050c",
+    "afterRecordSha256": "aa1b8477a8f6044337646f72355382043fa05935b92b1d400a4b3521ee0242a4",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-blood-immune-root",
+    "id": "ctdna-mrd-positive",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "716dc908d54b414090b62c80d6f11e0d934845fe3e20769ec40ed8cd14f5261c",
+    "afterRecordSha256": "a209624e2712a0d824da940a9d7a7acd533b8e81a27da7685ff0515dc88d00ab",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-measurement-sequencing",
+    "id": "tmb-high",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "511911c3e92a02eace0b76415136c0e4f452007580952b94d0dad91a02232c6c",
+    "afterRecordSha256": "59660d3214abc62111e2788aa8f38a9de88c7c502b204a51494f5bcf8f1bc378",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-measurement-sequencing",
+    "id": "nsclc",
+    "fields": [
+      "pipeline"
+    ],
+    "beforeRecordSha256": "c4d1119f691ea7ce314d2d038506d7bf898fb1e3c7fa972a889dbc7ffaf93377",
+    "afterRecordSha256": "851a5575a6a3c4e5db85cd0507b68957a67ed4013d080c93bb43a0f1efb742fd",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-measurement-sequencing",
+    "id": "msi-high",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "139c806f0827b329645c32f561d4aab440bc6117449491b9b061bcd645342b4d",
+    "afterRecordSha256": "8ce6012b82d5a442db998722a610e90d35aa9a60691a667b7a089e3803284eea",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-tissue-pathology-root",
+    "id": "pd-l1-cps",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "7629610af5d9f18b37d4f108f3b190209440d618977a94360769e77b741d397e",
+    "afterRecordSha256": "cec0bfabd5cf6f04357cac03d33788fdc86df7aa2119f9fed9c8c620030f67cc",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-low-ihc",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "51580762fa3f7f5f05ac6830056aaaff05502bbace22b588d503532fc5e15007",
+    "afterRecordSha256": "e64e7e9f76d2109048471744e05d7e33e756c6d77caff31e77ef56ae8b4336a8",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ultralow",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "42a69aa73f734aff7bd5ec03341e7235f9a28b1c2890278160933a7b2a60aa87",
+    "afterRecordSha256": "d1163d4797888176698d5968d4a831c856ee0766e867ad3100bd2438ac961ceb",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ihc-0",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "b7d03b3419cf55f2025f74529b45785a0fb0e4434fb396e71f7875be8e57f7d9",
+    "afterRecordSha256": "58e4754b76b97a0a148baa1e374d9d5b210a1648516368fe85dd82218835b67d",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ihc-1-plus",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "c3e9ecdbe2960d0e98276314f7342e099e50ce5b2c326515a7d1e27039d15755",
+    "afterRecordSha256": "e50704824e361b62f506d5c5dc00843e5fad199da9813953b44431a8e9925394",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ihc-2-plus",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "a76212fd292b6f66a242ba1b1d3366db2672f832c8acac95c0cc3a42905afa14",
+    "afterRecordSha256": "3ed643a70bb99b7b461da3ac6dc2cc8beea5af1f57a84b0501fbaee6284fc601",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ihc-3-plus",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "ec4517af51f4e6b2d2e7a7ad375b5326cf8973ab557471dd5188af45a0d5d399",
+    "afterRecordSha256": "14b20a7ce579ed4099c677d5ed27526a474d8f58405490d72cb3902c20da6320",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-therapeutic",
+    "id": "her2-ish-amplified",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "db183fa77db3d3592189c8ada05d917b12dd534eb7638edd7fac6cdf6e6082e7",
+    "afterRecordSha256": "8a943e9878a4d2641912c91df3dafb8cf43889bb023fd06badc55735a76b1d5e",
+    "sourceAssessmentChanged": false
+  },
+  {
+    "version": "proposal-antigen-antibodies",
+    "id": "hla-a-02-01",
+    "fields": [
+      "companionDiagnostics"
+    ],
+    "beforeRecordSha256": "74dcb3451c701c08b9751eeb623b3a8de2e5683ae859405e70619157db5821ff",
+    "afterRecordSha256": "4fcc197ceb2e5b498cc8ae67ad9080985c17138e6baf28a0f3c99c1432da2ada",
+    "sourceAssessmentChanged": false
+  }
+]

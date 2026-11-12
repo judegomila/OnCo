@@ -1,0 +1,400 @@
+{
+  "sourceImageThemeViews": 2,
+  "assetVersionReceipts": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "file": "original-blood-and-imaging-windows-v2-light.png",
+      "bytes": 1890022,
+      "gitBlob": "faeec96a391cd4b94fd3c59ecea1d2d64d582fa3",
+      "sha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "file": "original-blood-and-imaging-windows-v2-dark.png",
+      "bytes": 1954502,
+      "gitBlob": "440b8895aac24bef9c1ab7fc826e3aa910c6986a",
+      "sha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "file": "later-blood-and-imaging-windows-v2-light.png",
+      "bytes": 1890022,
+      "gitBlob": "faeec96a391cd4b94fd3c59ecea1d2d64d582fa3",
+      "sha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "file": "later-blood-and-imaging-windows-v2-dark.png",
+      "bytes": 1954502,
+      "gitBlob": "440b8895aac24bef9c1ab7fc826e3aa910c6986a",
+      "sha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    }
+  ],
+  "imagesViewed": [
+    {
+      "file": "original-blood-and-imaging-windows-v2-light.png",
+      "sha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d",
+      "width": 1024,
+      "height": 1536,
+      "viewed": true
+    },
+    {
+      "file": "original-blood-and-imaging-windows-v2-dark.png",
+      "sha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0",
+      "width": 1024,
+      "height": 1536,
+      "viewed": true
+    }
+  ],
+  "mermaid": {
+    "diagramInstances": 8,
+    "uniqueCodes": 4,
+    "renders": [
+      {
+        "codeSha256": "85c23137cc9162102f0313f235f11ff1bf6a8c5f705d5accff2c7802b7173d0b",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-1-default.png",
+        "renderSha256": "4de152dd12e47eafefc6c12c2175d30f2074b7faab7aa9d9cef3e68ac0417074",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "85c23137cc9162102f0313f235f11ff1bf6a8c5f705d5accff2c7802b7173d0b",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-1-dark.png",
+        "renderSha256": "d64784a902f43ce9f7eb8349da33090490b43484c99ec4b062aab7993e676fdb",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "9c30eae1ac55dc397e4b1abc2220bdedaec8f82f8d736ca37f3a6520c8a64713",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-2-default.png",
+        "renderSha256": "d2d581e9040afa0b6bedd84a95bb14ca32a16428575cb89b4638a4f0296b8754",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "9c30eae1ac55dc397e4b1abc2220bdedaec8f82f8d736ca37f3a6520c8a64713",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-2-dark.png",
+        "renderSha256": "c3cdb4aa6ef7912801ce24252c0041b38d4b6fe937bb16dec25f79c0b8a08100",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "daf359f59d7d5fd2efbeea57793b39d78a85377890a17411eb1cc9a2f4b1ec40",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-3-default.png",
+        "renderSha256": "b46783296dbce851ad97f06c20cce5b5d2ba477a2eb4e11ea9e7726ba29cc2db",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "daf359f59d7d5fd2efbeea57793b39d78a85377890a17411eb1cc9a2f4b1ec40",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-3-dark.png",
+        "renderSha256": "246ab6ae67999d15b26160bdc560857ddb819c68f4614c95f3c47a85a09de9f2",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "6a87b3c95f20bcd7da0c39247b92b7543f1a4fd6dc4119b18367793811e42793",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-4-default.png",
+        "renderSha256": "1b8393647a5d019783fb20b05453ddbd4fa5e10a501f91d54d32e86752629ab2",
+        "width": 168,
+        "height": 544,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 568
+      },
+      {
+        "codeSha256": "6a87b3c95f20bcd7da0c39247b92b7543f1a4fd6dc4119b18367793811e42793",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-4-dark.png",
+        "renderSha256": "fd8a16501066f85a7fe481002da018bf644f8429f00700cf925e708d8d6c5412",
+        "width": 168,
+        "height": 544,
+        "viewed": true,
+        "viewedBy": "Agent whole-extent source-diagram review; not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 568
+      }
+    ],
+    "standaloneAssets": 0,
+    "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check."
+  },
+  "findings": [],
+  "scope": "Both 1024 by 1536 image themes and all eight complete Mermaid theme renders viewed in lesson context. Identical pinned image blobs reuse those views across pins. Symbols, amounts and the simulated imaging feature are schematic, not a measured DNA fraction or cell count. No scientific defect observed against the stated source/caption scope; no live Guide, mobile, measured accessibility, independent expert or learner approval.",
+  "assetReceipts": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "file": "original-blood-and-imaging-windows-v2-light.png",
+      "bytes": 1890022,
+      "gitBlob": "faeec96a391cd4b94fd3c59ecea1d2d64d582fa3",
+      "sha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "file": "original-blood-and-imaging-windows-v2-dark.png",
+      "bytes": 1954502,
+      "gitBlob": "440b8895aac24bef9c1ab7fc826e3aa910c6986a",
+      "sha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "file": "later-blood-and-imaging-windows-v2-light.png",
+      "bytes": 1890022,
+      "gitBlob": "faeec96a391cd4b94fd3c59ecea1d2d64d582fa3",
+      "sha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "file": "later-blood-and-imaging-windows-v2-dark.png",
+      "bytes": 1954502,
+      "gitBlob": "440b8895aac24bef9c1ab7fc826e3aa910c6986a",
+      "sha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0",
+      "width": 1024,
+      "height": 1536,
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "22ff5ec883b008b842f1a3c25fdde91ba62e888241c4245be780b5e148c0929d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "0245c976d4cd77e794b60f47505d2b75b867fd3318358a6149ecca29e7bb07a0"
+    }
+  ],
+  "sourceArtworkChanged": false
+}

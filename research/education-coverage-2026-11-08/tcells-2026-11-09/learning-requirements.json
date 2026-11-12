@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "anergy-history",
+    "owner": "anergy",
+    "text": "Anergy is persistent reduced antigen-driven responsiveness after a defined antigen encounter, assessed with a suitable later challenge. It is not simply resting, a naive identity, missing support at one encounter or failure to divide now. Altered-presenting-cell induction followed by normal-presenting-cell retesting in mouse clones supports this distinction.",
+    "sourcePmids": [
+      "3029267",
+      "12086671"
+    ],
+    "pageBlocks": {
+      "anergy": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        15
+      ],
+      "anergy-vs-exhaustion": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        11,
+        17,
+        18,
+        19
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "anergy history",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "anergy-mechanism",
+    "owner": "anergy",
+    "text": "In defined mechanistic experiments, unbalanced calcium signalling and NFAT without cooperative AP-1 promoted an anergy-associated gene programme. Reduced IL-2, a response-supporting cytokine, can accompany anergy. Signal strength, inhibitory context and experimental definition matter; inadequate costimulation is an example rather than a universal diagnosis.",
+    "sourcePmids": [
+      "12086671",
+      "12471050"
+    ],
+    "pageBlocks": {
+      "anergy": [
+        6,
+        7
+      ],
+      "anergy-vs-exhaustion": [
+        4,
+        9
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "anergy mechanism",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "anergy-controls",
+    "owner": "anergy",
+    "text": "Low IL-2 or a negative ELISpot response alone does not establish anergy. Confirm antigen-specific cells, viable-cell recovery, matched stimulus and responsive comparators, response history and relevant pathway perturbations. Report dividing-cell fractions or cytokine concentration with assay units and conditions. Missing recognition, damaged preparations, suppression or exhaustion remain alternatives.",
+    "sourcePmids": [
+      "3029267",
+      "12086671"
+    ],
+    "pageBlocks": {
+      "anergy": [
+        11,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "anergy-vs-exhaustion": [
+        2,
+        6,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "anergy controls",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "anergy-tolerance",
+    "owner": "anergy",
+    "text": "Anergy can contribute to tolerance of mature immune cells. Protective restraint and tumour immune escape can overlap; changing a laboratory response does not establish restored specificity, tumour access, safe killing or clinical benefit.",
+    "sourcePmids": [
+      "12471050",
+      "7636184"
+    ],
+    "pageBlocks": {
+      "anergy": [
+        7,
+        11,
+        12,
+        15
+      ],
+      "anergy-vs-exhaustion": [
+        9,
+        12,
+        16
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "anergy tolerance",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "anergy-exhaustion-comparison",
+    "owner": "anergy",
+    "text": "Anergy and exhaustion are distinct programmes, not compulsory successive stages or interchangeable labels for dysfunction. Dysfunction is a broader description that may also include senescence, external suppression and missing recognition. Classic clonal anergy often limits growth and IL-2 while retaining effector functions and can respond to added IL-2; adaptive tolerance has broader deficits and can reverse after antigen removal. These distinctions come from model and review evidence, not clinical cutoffs.",
+    "sourcePmids": [
+      "12471050",
+      "17950003"
+    ],
+    "pageBlocks": {
+      "anergy-vs-exhaustion": [
+        1,
+        5,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16
+      ],
+      "anergy": [
+        8,
+        15
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "anergy exhaustion comparison",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "comparison-example",
+    "owner": "anergy",
+    "text": "Fictional independent populations A and B share verified specificity and suitable later stimulation. A has altered initial support followed by a controlled persistent defect; B has persistent stimulation with several functional deficits and compatible programme evidence. These support anergy-compatible and exhaustion-compatible explanations respectively. C with only low IL-2 remains unassigned. Viability, specificity and positive controls are necessary; no one control establishes state and no A-to-B transition or checkpoint-rescue prediction follows.",
+    "sourcePmids": [
+      "3029267",
+      "17950003",
+      "30778252"
+    ],
+    "pageBlocks": {
+      "anergy-vs-exhaustion": [
+        7,
+        8,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "comparison example",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "coreceptor-identity",
+    "owner": "cd4",
+    "text": "In conventional alpha-beta T cells, CD4 supports class-II recognition and CD8 supports class-I recognition through contacts separate from the peptide-inspecting TCR. These co-receptors do not select the peptide or assign a fixed job. CD4 populations include helper and regulatory programmes, and controlled human bladder-tumour experiments demonstrated class-II-dependent cytotoxic CD4 cells. Naive CD8 identity does not establish current killing. This conventional map is not a universal account of unconventional T cells.",
+    "sourcePmids": [
+      "32497499",
+      "15814665"
+    ],
+    "pageBlocks": {
+      "cd4-vs-cd8": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        14,
+        15,
+        17,
+        20,
+        21
+      ],
+      "t-cell": [
+        6,
+        12
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "coreceptor identity",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "presentation-routing",
+    "owner": "cd8",
+    "text": "Class I commonly displays peptides from intracellular proteins and class II commonly displays acquired extracellular material. These are processing routes, not guarantees of target display; cross-presentation can route acquired antigen to class I. Separate tumour display from the antigen-presenting-cell support needed for initial priming.",
+    "sourcePmids": [
+      "9624004",
+      "15814665"
+    ],
+    "pageBlocks": {
+      "cd4-vs-cd8": [
+        5
+      ],
+      "costimulation": [
+        12
+      ],
+      "t-cell-priming-three-signals": [
+        9,
+        13
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "presentation routing",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "coreceptor-geometry",
+    "owner": "cd8",
+    "text": "In schematic conventional contacts, class I has a membrane-anchored heavy chain with associated B2M, which has no separate membrane anchor. Class II has membrane-anchored alpha and beta chains. TCR contacts peptide plus HLA; CD8 or CD4 contacts a separate HLA region. The drawing supplies neither atomic docking coordinates nor evidence of signalling or killing.",
+    "sourcePmids": [],
+    "pageBlocks": {
+      "cd4-vs-cd8": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "coreceptor geometry",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "coreceptor-assay",
+    "owner": "cd4",
+    "text": "Flow panels should identify viable T cells and retain double-positive, double-negative and unresolved events rather than force a CD4/CD8 split. An intracellular cytokine result needs its parent gate, stimulus, background, timing and specimen. In a fictional matched assay, 50/1,000 viable CD4 cells and 10/200 viable CD8 cells are both 5%, although the responding counts differ. Neither fraction establishes natural tumour recognition or killing; incompatible denominators or assays do not rank vaccine platforms.",
+    "sourcePmids": [
+      "32497499"
+    ],
+    "pageBlocks": {
+      "cd4-vs-cd8": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "coreceptor assay",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "cd4-help",
+    "owner": "cd4",
+    "text": "CD4 helper programmes include Th1, Th2, Th17 and follicular helper populations; regulatory function is another CD4 role. Experimental CD40-mediated help can enable antigen-presenting cells to support CD8 cross-priming, but it is not a universal requirement for every response.",
+    "sourcePmids": [
+      "9624004",
+      "12522256"
+    ],
+    "pageBlocks": {
+      "cd4-vs-cd8": [
+        6
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "cd4 help",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "costimulation-identity",
+    "owner": "costimulation",
+    "text": "Costimulation consists of additional supporting receptor interactions alongside antigen recognition, affecting activation, survival, division or differentiation. CD28 is one example, not the whole category or a universal threshold. The same peptide-HLA stimulus can receive different support without changing antigen specificity. Blocking inhibition and adding support are distinct interventions.",
+    "sourcePmids": [
+      "1847722",
+      "21474713"
+    ],
+    "pageBlocks": {
+      "costimulation": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        14,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "costimulation identity",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "costimulation-ligands",
+    "owner": "cd28",
+    "text": "CD28 engages CD80/CD86 (B7) on presenting cells. Controlled B7/CD28 experiments demonstrated support for proliferation and IL-2 responses. CTLA-4 shares these ligands and can capture and degrade them by trans-endocytosis, reducing CD28 support. Shared binding partners do not make CD28 and CTLA-4 equivalent.",
+    "sourcePmids": [
+      "1847722",
+      "21474713"
+    ],
+    "pageBlocks": {
+      "costimulation": [
+        3,
+        4,
+        6,
+        8
+      ],
+      "regulatory-t-cells": [
+        5
+      ],
+      "t-cell-priming-three-signals": [
+        7
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "costimulation ligands",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "costimulation-rescue",
+    "owner": "cd28",
+    "text": "CD28/B7 support was required for effective PD-1 therapy in chronic viral infection and tumour-bearing mouse experiments. In related human lung-cancer observations, proliferating blood CD8 cells after treatment were predominantly CD28-positive. This does not validate CD28 abundance as a stand-alone treatment-selection test.",
+    "sourcePmids": [
+      "28280249"
+    ],
+    "pageBlocks": {
+      "costimulation": [
+        9
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "costimulation rescue",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "costimulation-measurement",
+    "owner": "costimulation",
+    "text": "Compare the same recognition stimulus with and without a specified supporting interaction, using recognition-only, viable-cell and inhibitory-context controls. Measure division, cytokines and killing separately; marker abundance does not establish causal signalling. Engineered intracellular supporting domains change receptor architecture but require product-specific persistence, safety and efficacy tests.",
+    "sourcePmids": [
+      "1847722",
+      "28280249"
+    ],
+    "pageBlocks": {
+      "costimulation": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "costimulation measurement",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "spreading-definition",
+    "owner": "epitope-spreading",
+    "text": "Epitope spreading is additional detected recognition beyond the initially targeted epitope set, potentially within one source protein or across proteins. More response to the same target is expansion. Responses to both directly encoded A and B do not themselves demonstrate spreading. Newly detected is not newly created: baseline sensitivity can miss pre-existing responsive cells.",
+    "sourcePmids": [
+      "33479501"
+    ],
+    "pageBlocks": {
+      "epitope-spreading": [
+        1,
+        2,
+        3,
+        5,
+        7,
+        10,
+        11,
+        13,
+        16,
+        17
+      ],
+      "immunodominance": [
+        8
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "spreading definition",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "spreading-causality",
+    "owner": "epitope-spreading",
+    "text": "Tumour injury can release additional antigen for uptake and presentation, but one follow-up response does not establish that entire causal chain. Define peptide-HLA targets and compare matched baseline and follow-up assays with background, presentation and cross-reactivity controls; assess intervening treatment. Vaccine recruitment or expansion does not normally rewrite mature TCRs. An immune response, including one to healthy self, does not establish recurrence prevention, safety or clinical benefit.",
+    "sourcePmids": [
+      "33479501",
+      "28678778"
+    ],
+    "pageBlocks": {
+      "epitope-spreading": [
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "spreading causality",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "spreading-example",
+    "owner": "epitope-spreading",
+    "text": "In a fictional A/B vaccine experiment, baseline C is undetectable and matched follow-up detects unencoded C, consistent with an additional detected specificity. The A-cell icons are qualitative, not counts. Ten additional receptor sequences without target testing demonstrate repertoire change, not recognition of C; causation and patient benefit remain separate questions.",
+    "sourcePmids": [
+      "33479501"
+    ],
+    "pageBlocks": {
+      "epitope-spreading": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "spreading example",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "dominance-context",
+    "owner": "immunodominance",
+    "text": "Immunodominance is a contextual hierarchy of measured responses, distinct from encoded target count and from epitope spreading. Presentation, precursor frequency, repertoire, priming, HLA, delivery, immune history, tissue and time can change the hierarchy. A favourable binding prediction does not establish immunogenicity, and more encoded targets do not guarantee balanced immunity or independent tumour coverage.",
+    "sourcePmids": [
+      "18641351",
+      "21367907",
+      "33038342"
+    ],
+    "pageBlocks": {
+      "immunodominance": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        14,
+        18,
+        19
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "dominance context",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "dominance-mechanism",
+    "owner": "immunodominance",
+    "text": "Naive precursor frequency is the starting abundance of cells with a relevant specificity. Mouse LCMV and human HLA-A2-restricted HCV experiments linked precursor frequencies to response hierarchies. Binding alone did not strictly predict the hierarchy. These studies provide no universal cancer-vaccine weights, human marker requirement or instruction to remove dominant clones.",
+    "sourcePmids": [
+      "18641351",
+      "21367907"
+    ],
+    "pageBlocks": {
+      "immunodominance": [
+        4,
+        5,
+        7,
+        14,
+        19
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "dominance mechanism",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "dominance-example",
+    "owner": "immunodominance",
+    "text": "Fictional matched IFN-gamma ELISpot means of 45, 11 and 5 spots for A, B and C, minus matched background 5, give 40, 6 and 0 spots per 200,000 plated PBMCs. A dominates that measured response. Protocol replicate and positivity rules classify C as undetectable. Zero adjusted spots do not prove absent tumour display or universal uselessness, nor do three encoded sequences imply three equally effective responses.",
+    "sourcePmids": [],
+    "pageBlocks": {
+      "immunodominance": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "dominance example",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "dominance-assay",
+    "owner": "immunodominance",
+    "text": "A measured hierarchy needs offered targets, compartment, cell denominator, baseline, timing, matched per-target stimulation, background and positive controls. Detection thresholds and in vitro expansion can alter apparent ranking. Peptide response is not evidence of natural tumour display or tumour-cell killing.",
+    "sourcePmids": [
+      "18641351",
+      "33038342"
+    ],
+    "pageBlocks": {
+      "immunodominance": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "dominance assay",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "regulatory-role",
+    "owner": "regulatory-t-cells",
+    "text": "Regulatory T cells are living, context-dependent populations, commonly within CD4, that protect tolerance and may restrain useful antitumour responses. They can develop through thymic or peripheral routes. They are not exhausted effectors. Removing restraint can damage healthy tissue; cell abundance is not a universal prognostic or treatment rule.",
+    "sourcePmids": [
+      "7636184",
+      "12522256",
+      "27111280"
+    ],
+    "pageBlocks": {
+      "regulatory-t-cells": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "t-cell-states": [
+        10,
+        24
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "regulatory role",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "foxp3-limit",
+    "owner": "foxp3",
+    "text": "FOXP3 is a gene-regulating transcription factor important for regulatory programmes in mouse experiments. In defined human cultures, induced FOXP3 expression did not confer suppression; colorectal cancers also contained functionally distinct FOXP3-positive populations. FOXP3 or CD25 positivity alone cannot assign suppressive function. Do not transfer a colorectal association to every cancer or intervention.",
+    "sourcePmids": [
+      "12522256",
+      "17644734",
+      "27111280"
+    ],
+    "pageBlocks": {
+      "regulatory-t-cells": [
+        4,
+        7,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "t-cell-states": [
+        11
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "foxp3 limit",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "regulatory-measurement",
+    "owner": "regulatory-t-cells",
+    "text": "Regulatory mechanisms include CTLA-4-mediated loss of supporting ligands and context-dependent cytokine and growth-signal interactions, including IL-2. Counting cells does not measure suppression. Flow cytometry combines markers, multiplex tissue imaging adds location and a controlled suppression assay measures a specified responder endpoint. Preserve specimen, marker and comparator definitions; bulk RNA cannot assign every cell a location or function, and none of these methods supplies a universal clinical cutoff.",
+    "sourcePmids": [
+      "21474713",
+      "17644734",
+      "7636184"
+    ],
+    "pageBlocks": {
+      "regulatory-t-cells": [
+        5,
+        6,
+        7,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "regulatory measurement",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "exhaustion-programme",
+    "owner": "t-cell-exhaustion",
+    "text": "Exhaustion is a distinct differentiation programme associated with persistent stimulation, altered function, multiple inhibitory receptors and transcriptional and chromatin changes. Mouse TOX experiments identified a central regulator of this programme. It is neither brief tiredness, every weak assay, anergy nor a DNA sequence change. Deficits can be graded and subsets retain different capacities.",
+    "sourcePmids": [
+      "17950003",
+      "31207603",
+      "26205583"
+    ],
+    "pageBlocks": {
+      "t-cell-exhaustion": [
+        1,
+        2,
+        3,
+        6,
+        10,
+        11
+      ],
+      "anergy-vs-exhaustion": [
+        5,
+        9,
+        12
+      ],
+      "t-cell-states": [
+        6
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "exhaustion programme",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "exhaustion-subsets",
+    "owner": "t-cell-exhaustion",
+    "text": "In chronic-infection mice, TCF1-associated progenitor exhausted cells self-renewed and supplied most of the proliferative burst after PD-1 blockade. In mouse tumours, progenitor exhausted cells retained more function and tumour control than terminally exhausted cells and differed in anti-PD-1 response. The melanoma association with longer response duration is human observational evidence, not a universal predictive test or a claim that every terminal cell is inert.",
+    "sourcePmids": [
+      "27501248",
+      "27533016",
+      "30778252"
+    ],
+    "pageBlocks": {
+      "t-cell-exhaustion": [
+        3,
+        5,
+        6,
+        8,
+        9
+      ],
+      "t-cell-states": [
+        7,
+        8,
+        16,
+        17,
+        28
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "exhaustion subsets",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "exhaustion-chromatin",
+    "owner": "t-cell-exhaustion",
+    "text": "In mouse experiments, PD-L1 blockade re-engaged effector transcription with little remodelling of the exhausted chromatin landscape. Reinvigorated cells could become exhausted again under continued high antigen and did not simply become ordinary durable memory. Laboratory reinvigoration is distinct from universal reversal or patient benefit.",
+    "sourcePmids": [
+      "27789795"
+    ],
+    "pageBlocks": {
+      "t-cell-exhaustion": [
+        3,
+        10,
+        11
+      ],
+      "anergy-vs-exhaustion": [
+        9
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "exhaustion chromatin",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "exhaustion-markers",
+    "owner": "t-cell-exhaustion",
+    "text": "PD-1 can accompany activation as well as exhaustion. TCF1 also occurs in naive and memory contexts. TIM-3/CD39, TOX and residency-associated CD103/CD39 require population and assay context; no single marker assigns state or specificity. Combine compatible response history, protein or RNA programmes, receptor identities and controlled function. TOX may be measured by intracellular staining or RNA; this is not a routine universal pathology classifier.",
+    "sourcePmids": [
+      "26205583",
+      "31207603",
+      "30778252",
+      "29942092"
+    ],
+    "pageBlocks": {
+      "t-cell-exhaustion": [
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "anergy-vs-exhaustion": [
+        12
+      ],
+      "t-cell-states": [
+        7,
+        9,
+        11,
+        25,
+        29,
+        30,
+        31
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "exhaustion markers",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "response-origin",
+    "owner": "t-cell-exhaustion",
+    "text": "Paired human basal-cell and squamous-cell skin-cancer biopsies after anti-PD-1 showed expanded clonotypes not previously observed in the same tumour. Clonal replacement and reinvigoration of resident cells are different, potentially overlapping response explanations. Non-detection before therapy is not proof of whole-body absence. Breast-cancer single-cell work identified checkpoint/effector-rich tissue-resident CD8 populations; its early TNBC survival signature was an association, not a general treatment predictor.",
+    "sourcePmids": [
+      "31359002",
+      "29942092"
+    ],
+    "pageBlocks": {
+      "t-cell-exhaustion": [
+        5,
+        7
+      ],
+      "t-cell-states": [
+        8,
+        28
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "response origin",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "priming-signals",
+    "owner": "t-cell-priming-three-signals",
+    "text": "Priming is a naive cell's initial activation in a supporting context. Signal one is TCR recognition of peptide-HLA, signal two includes CD80/CD86-CD28 costimulation and inhibitory context, and signal three includes differentiation-supporting cytokines. The receptor pre-exists the encounter. These signals interact over time; the model is not a three-button checklist and antigen-experienced or engineered cells can have different requirements.",
+    "sourcePmids": [
+      "15814665",
+      "1847722",
+      "9624004"
+    ],
+    "pageBlocks": {
+      "t-cell-priming-three-signals": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        18,
+        19,
+        20
+      ],
+      "costimulation": [
+        7
+      ],
+      "t-cell": [
+        7
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "priming signals",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "priming-cytokines",
+    "owner": "t-cell-priming-three-signals",
+    "text": "IL-12 and type I interferons (alpha/beta) supported naive CD8 survival and cytolytic differentiation in defined experiments. Cytokines are signalling proteins, not nutritional fuel. Type I interferon can connect innate responses to priming, but this does not prescribe a universal cytokine intervention or establish every cGAS-STING step. Dendritic-cell priming support and tumour antigen display answer different questions.",
+    "sourcePmids": [
+      "15814665",
+      "9624004"
+    ],
+    "pageBlocks": {
+      "t-cell-priming-three-signals": [
+        8,
+        9
+      ],
+      "costimulation": [
+        12
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "priming cytokines",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "priming-endpoints",
+    "owner": "t-cell-priming-three-signals",
+    "text": "Division, viable-cell expansion, cytokine production and target-cell death are distinct priming outcomes. In a fictional matched experiment both cultures show three divisions, yet only B kills appropriate targets above target-only background. Measure these outcomes separately with defined starting cells, presenting system, signal perturbation, matched time, peptide loading, HLA, cell ratios and culture conditions. Priming does not establish tumour access, natural display, safe killing or clinical benefit, and stronger stimulation can support unwanted populations.",
+    "sourcePmids": [
+      "15814665"
+    ],
+    "pageBlocks": {
+      "t-cell-priming-three-signals": [
+        4,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "priming endpoints",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcr-structure",
+    "owner": "t-cell-receptor",
+    "text": "A conventional alpha-beta TCR uses paired variable and constant domains to contact peptide plus HLA. The peptide sits in the HLA groove, not a separate TCR peptide pocket. CD3 signalling partners are distinct from recognition chains. Contact loops including junction-spanning CDR3 contribute, but other loops, the partner chain and HLA matter; beta-only or CDR3-only sequence is incomplete.",
+    "sourcePmids": [
+      "31461748",
+      "24952902",
+      "26324409"
+    ],
+    "pageBlocks": {
+      "t-cell-receptor": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        17,
+        18
+      ],
+      "t-cell": [
+        5
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcr structure",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcr-crossreactivity",
+    "owner": "t-cell-receptor",
+    "text": "Cross-reactivity is recognition of multiple targets by a receptor. Defined receptor experiments demonstrated peptide/HLA cross-reactivity, not recognition of every allele by an arbitrary receptor or a universal rate. Greater affinity or a contact drawing does not establish healthy-tissue safety.",
+    "sourcePmids": [
+      "17559580"
+    ],
+    "pageBlocks": {
+      "t-cell-receptor": [
+        3,
+        5,
+        9,
+        14
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcr crossreactivity",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcr-readouts",
+    "owner": "t-cell-receptor",
+    "text": "Sequencing reports sampled receptor identities and abundances under an operational clonotype definition. Paired alpha-beta identities are more complete than beta alone. Peptide-HLA multimer binding, stimulus-induced cellular response, target-cell death and clinical benefit are different endpoints. Include irrelevant-target, HLA and target-only viability controls; peptide-loaded cells can bypass natural processing.",
+    "sourcePmids": [
+      "24952902",
+      "26324409",
+      "31461748"
+    ],
+    "pageBlocks": {
+      "t-cell-receptor": [
+        10,
+        11,
+        13,
+        14,
+        15,
+        16
+      ],
+      "t-cell-repertoire": [
+        10
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcr readouts",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcr-intervention",
+    "owner": "t-cell-receptor",
+    "text": "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+    "sourcePmids": [
+      "24952902",
+      "28678778"
+    ],
+    "pageBlocks": {
+      "t-cell-receptor": [
+        12,
+        14,
+        15,
+        16
+      ],
+      "t-cell-repertoire": [
+        4
+      ],
+      "thymic-output-and-aging": [
+        11
+      ],
+      "epitope-spreading": [
+        7
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcr intervention",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "repertoire-definition",
+    "owner": "tcr-repertoire-clonality",
+    "text": "The repertoire is a distribution of receptor identities and abundances in a stated population and time. A clone is a cellular lineage; a clonotype is an operational sequence grouping. Single-chain labels and paired identities have different resolution. V(D)J assembly and thymic selection contribute diversity, while expansion changes abundance; diversity and total T-cell count are different quantities.",
+    "sourcePmids": [
+      "26324409",
+      "24952902"
+    ],
+    "pageBlocks": {
+      "t-cell-repertoire": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        10,
+        16
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "repertoire definition",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "repertoire-sampling",
+    "owner": "tcr-repertoire-clonality",
+    "text": "Blood, tumour and lymph nodes sample overlapping but different populations. Infection, therapy, age and movement can change a sample; absence from one tube may reflect sampling or detection rather than whole-body absence. A pretreatment blood sample is not a complete stored repertoire. Lower measured diversity after infection may reflect a vigorous response and does not establish cancer specificity, vaccine causation or uniformly worse immunity.",
+    "sourcePmids": [
+      "26324409",
+      "31359002",
+      "22365666"
+    ],
+    "pageBlocks": {
+      "t-cell-repertoire": [
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        16
+      ],
+      "thymic-output-and-aging": [
+        10
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "repertoire sampling",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "repertoire-denominator",
+    "owner": "tcr-repertoire-clonality",
+    "text": "Fictional matched receptor samples contain 10 clonotype A cells among 1,000 T cells (1%) and 10 among 100 (10%). The sampled count remains 10; the changed denominator drives the larger fraction. Absolute expansion requires comparable sampling and calibrated counts, and neither frequency identifies antigen. State sampling depth, chain definition, compartment, method and timing.",
+    "sourcePmids": [],
+    "pageBlocks": {
+      "t-cell-repertoire": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "repertoire denominator",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "complete-field-patch-pending-coordinator",
+    "evidenceVersion": "draft-373"
+  },
+  {
+    "id": "state-history",
+    "owner": "t-cell-states",
+    "text": "Naive describes absence of initial antigen-driven activation, not recent thymic birth. Effector denotes developed response functions, including help or killing; memory can support renewed responses but promises neither permanent protection nor cancer specificity. State categories are not one mandatory developmental trajectory. Anergy, exhaustion, external suppression and regulatory role remain distinct.",
+    "sourcePmids": [
+      "22365666",
+      "17950003",
+      "27533016"
+    ],
+    "pageBlocks": {
+      "t-cell-states": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        14,
+        15,
+        28,
+        32
+      ],
+      "t-cell": [
+        6,
+        7
+      ],
+      "thymic-output-and-aging": [
+        7
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "state history",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "state-identity",
+    "owner": "t-cell-states",
+    "text": "The same paired receptor can occur with different functional phenotypes and response histories. Fictional R1 memory-associated and progenitor-like exhausted observations are separate observations, not a measured transition. Progenitor-like exhaustion is distinct from ordinary memory; shared TCF1 or division does not make their programmes equivalent.",
+    "sourcePmids": [
+      "24952902",
+      "27533016",
+      "30778252"
+    ],
+    "pageBlocks": {
+      "t-cell-states": [
+        7,
+        9,
+        16,
+        17,
+        18,
+        19,
+        22,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "state identity",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "state-function",
+    "owner": "t-cell-states",
+    "text": "Fictional equal-looking PD-1-positive populations near cancer have different controlled peptide responses: one viral and one tumour-peptide directed. Marker and proximity do not establish specificity; peptide response does not establish natural tumour display, access or killing. Checkpoint blockade does not rewrite receptor specificity. Preserve tissue, sampling time, population definitions and controlled function alongside RNA/protein panels; favourable markers or division alone cannot predict benefit.",
+    "sourcePmids": [
+      "24952902",
+      "31359002",
+      "30778252"
+    ],
+    "pageBlocks": {
+      "t-cell-states": [
+        2,
+        3,
+        11,
+        12,
+        13,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "t-cell": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "state function",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcell-family",
+    "owner": "t-cell",
+    "text": "T cells are a lymphocyte family, not every white cell or every lymphocyte. Precursors develop through the thymus, with receptor generation and selection shaping the peripheral pool. Conventional alpha-beta cells recognise peptide-HLA; gamma-delta cells use another, context-dependent receptor system, so conventional peptide-HLA examples do not describe every T cell.",
+    "sourcePmids": [
+      "9872319",
+      "31461748"
+    ],
+    "pageBlocks": {
+      "t-cell": [
+        1,
+        4,
+        5,
+        12
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcell family",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "tcell-measurement",
+    "owner": "t-cell",
+    "text": "T-cell descriptions should separate identity, location, specificity, state and measured function. Flow cytometry uses defined viable-cell gates and panels, tissue staining adds location and sequencing adds receptor identity. Report compartment, denominator, panel and timing. CD3/CD8 positivity and a viral-peptide response establish their tested observations, not cancer recognition or killing by every nearby cell; greater presence or activation does not automatically mean clinical benefit.",
+    "sourcePmids": [
+      "24952902",
+      "32497499"
+    ],
+    "pageBlocks": {
+      "t-cell": [
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "tcell measurement",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "applied-local-pending-integration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "thymus-maintenance",
+    "owner": "thymic-output-and-aging",
+    "text": "Thymic output is release of newly developed T cells; involution is a gradual, variable decline in active tissue rather than a fixed adult-age shutdown. Human age and HIV-treatment measurements support adult output, but no universal individual output rate. Naive-cell maintenance also reflects survival, peripheral division, movement and loss. Human/mouse kinetic comparisons found materially different dependencies; mouse output cannot dictate a human collection or banking rule.",
+    "sourcePmids": [
+      "9872319",
+      "18420820",
+      "22365666"
+    ],
+    "pageBlocks": {
+      "thymic-output-and-aging": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17
+      ],
+      "t-cell-repertoire": [
+        5
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "thymus maintenance",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "trec-denominator",
+    "owner": "thymic-output-and-aging",
+    "text": "TRECs are circular receptor-rearrangement by-products that do not replicate with chromosomes. In a fictional closed ledger, 2 cells with 4 circles become 4 cells with the same 4 circles: average copies per cell decline from 2 to 1. Daughter pairs can carry 2/0 and 1/1 circles, each retaining the parent's 2. Division alone can dilute copies per cell without proving stopped output. Copies per cell and per blood volume answer different questions; the ledger does not count new arrivals, immune age or daily export.",
+    "sourcePmids": [
+      "10973325"
+    ],
+    "pageBlocks": {
+      "thymic-output-and-aging": [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19
+      ]
+    },
+    "evidenceLane": "fictional teaching/arithmetic",
+    "learnerOutcome": "trec denominator",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "thymus-interpretation",
+    "owner": "thymic-output-and-aging",
+    "text": "Naive phenotype is not a recent-emigrant birth certificate. Flow phenotype/counts, kinetic labelling and modelling, receptor sequencing and thymic imaging supply different information; imaging is not a direct daily output count. Interpret measurements with exposure, compartment, observation time, division, survival and movement. Neither more diversity, adult output nor age alone promises a new cancer-recognising receptor, vaccine benefit or a collection recommendation.",
+    "sourcePmids": [
+      "10973325",
+      "18420820",
+      "22365666"
+    ],
+    "pageBlocks": {
+      "thymic-output-and-aging": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "t-cell-repertoire": [
+        5,
+        9
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "thymus interpretation",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  },
+  {
+    "id": "dominance-subsets-model",
+    "owner": "t-cell-states",
+    "text": "In Burger and colleagues' engineered mouse lung tumours, the subdominant response contained heterogeneous TCF1-positive populations, including a CCR6/Tc17-associated subset that did not preferentially benefit from checkpoint blockade. Long-peptide vaccination with the two model antigens and cyclic di-GMP improved the subdominant response; a subdominant-only arm also tested antigen-specific effects. The separate human analyses were associations, not a validated universal TCF1/CCR6 requirement, target-deletion rule or clone-pruning instruction.",
+    "sourcePmids": [
+      "34534464"
+    ],
+    "pageBlocks": {
+      "immunodominance": [
+        7
+      ],
+      "t-cell-states": [
+        9
+      ]
+    },
+    "evidenceLane": "foundational mechanism and bounded measurement interpretation; primary settings retained in field text",
+    "learnerOutcome": "dominance subsets model",
+    "status": "covered-draft",
+    "versions": [
+      "original",
+      "later"
+    ],
+    "sourceVersions": [
+      "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "c96896452386202405c435aa161bc5047919337a"
+    ],
+    "unitAndInterpretation": "Units, populations, model/human boundaries and fictional status are explicit in the exact field excerpt below. No clinical rate or universal threshold is derived.",
+    "workerDisposition": "module-pending-registration",
+    "evidenceVersion": "proposal-tcells"
+  }
+]

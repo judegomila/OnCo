@@ -1,0 +1,4645 @@
+{
+  "oldRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "newRef": "c96896452386202405c435aa161bc5047919337a",
+  "oldMarkdown": 537,
+  "newMarkdown": 550,
+  "newTypeCounts": {
+    "navigation": 7,
+    "concept": 422,
+    "comparison": 12,
+    "guide-lesson": 94,
+    "guide": 15
+  },
+  "samePathCount": 471,
+  "rawIdentical": 86,
+  "teachingIdenticalAtSamePath": 325,
+  "teachingAndRelevantMetadataIdentical": 322,
+  "reviewedTeachingSources": 77,
+  "reviewedWithIdenticalTeaching": 57,
+  "reviewedWithIdenticalTeachingAndMetadata": 57,
+  "removedCount": 66,
+  "addedCount": 79,
+  "reviewedChanged": [
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/central-dogma.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/rna-and-mrna.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/completion-surgery.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/hypofractionation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/index.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/tools/in-vivo-car-t-learning-lab.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": []
+    }
+  ],
+  "samePath": [
+    {
+      "path": "wiki/education/comparisons/index.md",
+      "review": "navigation",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/drug-label-and-off-label-use.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/finding-a-trial.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/investigator-initiated-trials.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/right-to-try.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/cell-and-membrane.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/cell-cycle.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/cell-division-and-why-chemo-hits-dividing-cells.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/epithelial-mesenchymal-transition.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/epithelium-and-stroma.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/organelles-overview.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/allele-and-zygosity.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/central-dogma.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/epigenetics-and-methylation.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/gene-regulation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/vdj-recombination.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/dna.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/enzymes-and-binding.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/gene.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/protein-and-peptide.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/protein-structure-and-domains.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/molecules/rna-and-mrna.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/agonist-and-antagonist.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/feedback-loops.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/ligand-and-receptor.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/phosphorylation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/receptor-types.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/signal-transduction-and-kinases.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/breast-anatomy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/dcis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/internal-mammary-nodes.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/invasive-ductal-carcinoma.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/lymphatic-drainage-and-axilla.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/myoepithelial-cells-and-basement-membrane.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/ajcc-prognostic-staging.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/histologic-grade.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/ki-67.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/n-categories-and-nodal-burden.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/tnm-staging.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/natural-history/tnbc-recurrence-timing-and-sites.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/extranodal-extension.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/residual-cancer-burden.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/sentinel-node-and-axillary-dissection.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/surgical-margins.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/treatment-effect-in-pathology.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/tumor-bed-cellularity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/curative-intent.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/nutrient-sensing-ampk.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/reactive-oxygen-species.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/warburg-effect.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/myc.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/myeloid-derived-suppressor-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-associated-macrophages.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/clonal-evolution.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/cdmo-role.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/actionability.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/response-rates.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/interim-analysis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/anergy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/regulatory-t-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-exhaustion.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/t-cell.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/immune-cell-roster.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/interferons.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/abscopal-effect.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/immune-escape.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/index.md",
+      "review": "navigation",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/foundation-models.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/overfitting.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/lead-time.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/mrd.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/digital-pathology.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "summary"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/copy-number-and-loh.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/hla-loh.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/long-read-and-methylation-sequencing.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/msi.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/sequencing-depth-and-coverage.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/sequencing-reads.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/variant-calling.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/blood-as-a-renewable-sample.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/batch-effects.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/bulk-rna-seq.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/counts-normalization.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/fusion-and-splice-detection.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/gene-expression-signatures.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/immune-deconvolution.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/rna-pathway-scoring.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/measurement/transcriptomics/single-cell-and-single-nucleus-rna-seq.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/adc-conjugation-chemistry.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/adc-cross-resistance.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/adc-payload-classes.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/adc-vs-radioligand-therapy.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-drug-conjugate.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/bispecific-adc.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/ddr-inhibitor-payloads.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/dual-payload-adc.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/radioligand-therapy.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/t-cell-engager.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/tcr-mimics-and-tcr-engagers.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/armoring.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/car-anatomy.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/car-nk.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/cell-therapy-as-a-living-drug.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/logic-gated-cars.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/safety-switches.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t-vs-tcr-engager.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/cell-therapies/til-therapy.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/combination-therapy-rationale.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/dose-and-dose-intensity.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-efflux-transporters.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-target-and-mechanism.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/pharmacokinetics-and-half-life.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/synthetic-lethality.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/therapeutic-index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/ablation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/completion-surgery.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/hypofractionation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/radiation-therapy-basics.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/regional-nodal-irradiation-after-neoadjuvant-therapy.md",
+      "review": "reviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "aliases"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/adc-payload-toxicity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/chemotherapy-induced-nausea.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/immune-related-adverse-event.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/insertional-mutagenesis.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/lymphodepletion.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/neutropenia-and-g-csf.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/on-target-off-tumor-toxicity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pneumonitis.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/02-choosing-a-target.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/07-reading-the-safety-plan.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "objectives",
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "goal",
+        "title"
+      ]
+    },
+    {
+      "path": "wiki/education/guides/index.md",
+      "review": "navigation",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": [
+        "prerequisites"
+      ]
+    },
+    {
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/predicting-response-before-treating/02-check-the-experiment.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/predicting-response-before-treating/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/start-here/index.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "review": "unreviewed",
+      "rawEqual": true,
+      "teachingEqual": true,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "review": "unreviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/images/index.md",
+      "review": "navigation",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/index.md",
+      "review": "navigation",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/index.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": true,
+      "changedMetadataKeys": []
+    },
+    {
+      "path": "wiki/education/tools/in-vivo-car-t-learning-lab.md",
+      "review": "reviewed",
+      "rawEqual": false,
+      "teachingEqual": false,
+      "metadataEqual": false,
+      "changedMetadataKeys": []
+    }
+  ],
+  "removed": [
+    {
+      "path": "wiki/education/cellular-therapies/01-cell-therapy-primer.md",
+      "review": "unreviewed",
+      "exactContentMatches": [
+        "wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer.md"
+      ]
+    },
+    {
+      "path": "wiki/education/cellular-therapies/02-car-tcr-til-comparison.md",
+      "review": "unreviewed",
+      "exactContentMatches": [
+        "wiki/education/guides/engineered-cell-therapy/09-car-tcr-til-comparison.md"
+      ]
+    },
+    {
+      "path": "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/cellular-therapies/08-solid-tumor-barriers.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/cellular-therapies/09-reading-cell-therapy-evidence.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/cellular-therapies/index.md",
+      "review": "navigation",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "review": "reviewed",
+      "exactContentMatches": [
+        "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization.md"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "review": "unreviewed",
+      "exactContentMatches": [
+        "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md"
+      ]
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/01-mechanism.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/02-timing.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/03-overlap-and-sequencing.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/04-decision-questions.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/05-tissue-and-sample-budget.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/local-treatment-modalities/06-comparisons.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/modeling-tumor-response/index.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/modeling-tumor-response/verification-and-feedback-loops.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/01-dna-the-blueprint.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/02-rna-the-activity-layer.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/03-protein-expression-and-activation.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/04-spatial-biology.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/05-functional-drug-response.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/06-ctdna-and-mrd.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/07-from-data-to-care-plan.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/08-profile-residual-tumor.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/02-lipid-and-mtor.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/03-notch-wnt-and-fgfr.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/04-cul3-nrf2-ferroptosis-and-bet.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-pathways/05-oxidative-metabolism-and-stress.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/evee-proposed-pathways.md",
+      "review": "reviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/index.md",
+      "review": "reviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/molecular-profiling/tcr-and-tcr-sequencing.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/00-genes-rna-and-protein.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/01-epithelial-and-breast-tissue.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/02-cell-identity-and-state.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/03-reading-rna-counts.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/04-copies-alleles-and-clones.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/05-splicing-and-dna-repair.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/06-immune-presence-and-recognition.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/07-comparisons-and-evidence.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/08-test-a-copy-aware-clone-model.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/multi-omics-foundations/index.md",
+      "review": "reviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/oncology-101/1-ligands.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/oncology-101/2-dendritic-cells.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/oncology-101/3-t-cell-states.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/oncology-101/4-escape-mechanisms.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/oncology-101/index.md",
+      "review": "navigation",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/reading-a-tumor/immune-hot-vs-cold.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/reading-a-tumor/index.md",
+      "review": "reviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/reading-a-tumor/measuring-t-cell-engagement.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/reading-a-tumor/omics-and-multi-omics.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/04-decision-questions.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/05-tissue-and-sample-budget.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "review": "unreviewed",
+      "exactContentMatches": []
+    },
+    {
+      "path": "wiki/education/targeted-therapy-modalities/index.md",
+      "review": "reviewed",
+      "exactContentMatches": []
+    }
+  ],
+  "added": [
+    {
+      "path": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-receptors.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/experimental-settings.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/tumor-stroma-ratio.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "type": "comparison"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/ovarian-function-suppression-during-chemotherapy.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/pulmonary-function-testing.md",
+      "type": "concept"
+    },
+    {
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/01-cell-therapy-primer.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/08-reading-cell-therapy-evidence.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/engineered-cell-therapy/09-car-tcr-til-comparison.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/how-the-immune-system-fights-cancer/09-read-a-tcr-sequencing-report.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/02-timing.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/predicting-response-before-treating/01-choose-a-model.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/03-read-dna.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/05-read-rna.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/06-read-protein.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/11-read-one-report.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor.md",
+      "type": "guide-lesson"
+    },
+    {
+      "path": "wiki/education/guides/what-multi-omics-tells-us/index.md",
+      "type": "guide"
+    }
+  ],
+  "scope": "Comparison only. No reading/coverage disposition is carried to the newer source automatically.",
+  "checkedOn": "2026-11-09",
+  "metadataComparison": "Every metadata key except operational fields listed in exact-review-carryovers.json; unknown keys count. Comparison does not itself transfer reviews."
+}

@@ -1,0 +1,49 @@
+{
+  "sourceCreditUnchanged": true,
+  "original": {
+    "assessedOrClassified": 291,
+    "denominator": 537,
+    "completeDraft": 280,
+    "openRequirements": 7
+  },
+  "later": {
+    "assessed": 277,
+    "denominator": 550,
+    "completeDraft": 277,
+    "openRequirements": 0
+  },
+  "newBloodSourceCredit": 0,
+  "mainCoverage": 0,
+  "finalReaudits": 0,
+  "staleOrMissingProofs": 0,
+  "sourceClosureExitCode": 2,
+  "catalogCounting": {
+    "method": "Unique ids whose kind is a canonical entity kind, across the explicitly selected proposal versions. Summary entries counted separately by their own id. These inventory counts are not source acceptance.",
+    "priorHead": "7d2d40be871e077c97ebc543087b7b4b61a27569",
+    "priorPublishedOwners": 387,
+    "priorHeadRecountOwners": 390,
+    "current": {
+      "owners": 418,
+      "absentBaseline": 131,
+      "existingBaseline": 287,
+      "summaryConsumers": 2637,
+      "summaryAvailable": 635,
+      "summaryFallback": 2002,
+      "other": {
+        "chemical-observations-sn-38": "reader-chemical-observations",
+        "chemical-observations-dxd": "reader-chemical-observations",
+        "chemical-observations-t030": "reader-chemical-observations",
+        "chemical-observations-mmae": "reader-chemical-observations",
+        "chemical-observations-mmaf": "reader-chemical-observations",
+        "chemical-observations-dm1": "reader-chemical-observations",
+        "chemical-observations-dm4": "reader-chemical-observations",
+        "chemical-observations-pbd-sg3199": "reader-chemical-observations",
+        "chemical-observations-calicheamicin": "reader-chemical-observations",
+        "chemical-observations-duocarmycin": "reader-chemical-observations",
+        "chemical-observations-af-hpa": "reader-chemical-observations",
+        "chemical-observations-dm21-c-maytansinoid-system": "reader-chemical-observations",
+        "expanded-access": "service-directory-entry"
+      }
+    }
+  }
+}

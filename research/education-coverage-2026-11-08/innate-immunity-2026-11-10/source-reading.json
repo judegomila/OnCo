@@ -1,0 +1,4007 @@
+{
+  "sourceVersions": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+      "sourceSha256": "87f0449f375263e9b14767e91aa4a946e80039adf23b21cdd46514046ae110d9",
+      "gitBlob": "f8469527ea3b02f11738f829c517bbc5f8bcfca2",
+      "lesson": "adeno",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "fad4f08d601f00cf946291e59fde277c55d2854b47294bdfb845dad290bf0900",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "156375287969fc78cba0e3060d107c805a0d60bddcec49546711798bb1a2128c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "adeno.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3f0a8fb25d65c49f8bd3c54d6d3f74966457d2cab31265524f1e8a5209c2a369",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "adeno.routes",
+            "adeno.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f3df26a10f919300313232b6adf9d7fd249c6a341d0ee642c2e44625f830d4c8",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "adeno.routes",
+            "adeno.fig-routes",
+            "adeno.mouse-evidence"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "dbab2b5028709422758734d8e9479c13a7c8ad57d994f52fc464a24d42aa18b7",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "adeno.why-cancer",
+            "adeno.ecoh"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ed2f37466e16ab1798cd7087e841486389d7ae20253f54f2fb2a3c7d8460a1f7",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "adeno.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b70222b9234743b1bfdcba725a2a51618f9b83b0ccf42d220623bae5a60049e3",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "adeno.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9807c9d0ea919bfb5d2ac464a70083a5f56f7fe7b4ac0783076373a453564edb",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "adeno.try-cd73"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "06a10c42ba014c9b25ee1072e68c0c62fef14fb703acd3ef88b534fa001938c8",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md",
+      "sourceSha256": "a660565b6581eac5b083ee4ec9e0ddac1d5f924c11be2dcbe35932090992e344",
+      "gitBlob": "6c5cf29cc81620cba1c4fb5884188bb3c318a991",
+      "lesson": "adeno",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "fad4f08d601f00cf946291e59fde277c55d2854b47294bdfb845dad290bf0900",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "156375287969fc78cba0e3060d107c805a0d60bddcec49546711798bb1a2128c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "adeno.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3f0a8fb25d65c49f8bd3c54d6d3f74966457d2cab31265524f1e8a5209c2a369",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "adeno.routes",
+            "adeno.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f3df26a10f919300313232b6adf9d7fd249c6a341d0ee642c2e44625f830d4c8",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "adeno.routes",
+            "adeno.fig-routes",
+            "adeno.mouse-evidence"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "dbab2b5028709422758734d8e9479c13a7c8ad57d994f52fc464a24d42aa18b7",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "adeno.why-cancer",
+            "adeno.ecoh"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ed2f37466e16ab1798cd7087e841486389d7ae20253f54f2fb2a3c7d8460a1f7",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "adeno.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b70222b9234743b1bfdcba725a2a51618f9b83b0ccf42d220623bae5a60049e3",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "adeno.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9807c9d0ea919bfb5d2ac464a70083a5f56f7fe7b4ac0783076373a453564edb",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "adeno.try-cd73"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "06a10c42ba014c9b25ee1072e68c0c62fef14fb703acd3ef88b534fa001938c8",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+      "sourceSha256": "ac237c92dbf373982cae34b8db45e438caaffb6e785b59d3fd67ba26274c2df8",
+      "gitBlob": "9997e8fdce21124f26289d39e1b1b4fdf3e5e166",
+      "lesson": "cyto",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c03294a5da0b69e32b3eeb5e698e37842d0cefcfeeef18e4390bd7c418a11ea5",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d380b13825f4de080ed67b69503ec227152da51f31bc1d39ec8697abc53253aa",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cyto.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7282d2449190310c2e409a5364cc92d812abd12128d02993e0bdc3fa8d68587f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.pleio",
+            "cyto.gradient"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "46ecc1d7b6fd3b3ec68d8b14c848999600f67a8d3215145f6cd1f713dbc7cf1b",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.pleio",
+            "cyto.il2",
+            "cyto.gradient"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "00fd2c2c44f1cc4b4fd67bd3a2c04581499a1937b2c7ba01255622f07e5b49bb",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cyto.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "805ea3deb3cc368f5ecf8c585d7511b852a4f38e9b7de0bb770628132a58b6b0",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "cyto.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "c42ab085fbdd1e2d1c3c9a36d73172b1cc1f16072dc8a0d05fb7e3a3eeae84d3",
+          "heading": "Try it: an average is not a gradient",
+          "learningRequirementIds": [
+            "cyto.fig-average"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7fe7caebf2f67eeada9b04029b8e6b260b4e35b80400294b6ab04cc386829f19",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cyto.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8b6b6508e116e1c8c85f3859499c343432e11c7a75f19119af79c369d4b90c73",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cyto.pleio",
+            "cyto.fig-average"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "24c0d6f7ffa5c679e8f7732b1ac9f5ed84708f00f9180ae758f68df3b58699ae",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.gradient",
+            "cyto.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "6b861fb8961e3b1075eb4ef82eb6850b971eef7814a0b9360cbe32f119fa19e3",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md",
+      "sourceSha256": "f25073a64b2a9c66aefad616c13524a7e60d8baa62d42ffc7c707c0b8378c8c9",
+      "gitBlob": "274393b2d6b44dd65d61c329f2b5dc3ed1c2f2f5",
+      "lesson": "cyto",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c03294a5da0b69e32b3eeb5e698e37842d0cefcfeeef18e4390bd7c418a11ea5",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d380b13825f4de080ed67b69503ec227152da51f31bc1d39ec8697abc53253aa",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cyto.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7282d2449190310c2e409a5364cc92d812abd12128d02993e0bdc3fa8d68587f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.pleio",
+            "cyto.gradient"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "46ecc1d7b6fd3b3ec68d8b14c848999600f67a8d3215145f6cd1f713dbc7cf1b",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.pleio",
+            "cyto.il2",
+            "cyto.gradient"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "00fd2c2c44f1cc4b4fd67bd3a2c04581499a1937b2c7ba01255622f07e5b49bb",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cyto.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "805ea3deb3cc368f5ecf8c585d7511b852a4f38e9b7de0bb770628132a58b6b0",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "cyto.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "c42ab085fbdd1e2d1c3c9a36d73172b1cc1f16072dc8a0d05fb7e3a3eeae84d3",
+          "heading": "Try it: an average is not a gradient",
+          "learningRequirementIds": [
+            "cyto.fig-average"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7fe7caebf2f67eeada9b04029b8e6b260b4e35b80400294b6ab04cc386829f19",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cyto.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8b6b6508e116e1c8c85f3859499c343432e11c7a75f19119af79c369d4b90c73",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cyto.pleio",
+            "cyto.fig-average"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "24c0d6f7ffa5c679e8f7732b1ac9f5ed84708f00f9180ae758f68df3b58699ae",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "cyto.definition",
+            "cyto.gradient",
+            "cyto.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "be6acaaff91a6f42e2cc07d836183c64bcda8add566d741c98d6ef5b4cd4a65b",
+          "heading": "Related concepts",
+          "learningRequirementIds": [
+            "cyto.gradient",
+            "cyto.il2",
+            "cyto.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "6b861fb8961e3b1075eb4ef82eb6850b971eef7814a0b9360cbe32f119fa19e3",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+      "sourceSha256": "90070025148c12c76c9e07c3a4e4566956d3ece7f7ccac746bfdda870d46f0a9",
+      "gitBlob": "b8df0c73c188401bd67a58b41b528d6e48e1c887",
+      "lesson": "chk",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "76a0dd7a8adb18ad1e2935c39f7394732ca4ba59125c3412e4341d826bd6444a",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "252050e302f53b6a592634f88294ba240a5f127c87b9e2b5cf5c5456d58b3425",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "chk.pd1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fd885101a73c519caee72a933c3349aef2f578668d76c3a218df7c23e331aa92",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "chk.pd1",
+            "chk.ctla4",
+            "chk.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "93b4f1b4b75f47081fadc4da5c67178c4bd01349f18dcfdc54cb0edfa6a705aa",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "chk.pd1",
+            "chk.ctla4",
+            "chk.fig-contact",
+            "chk.table"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e5bbb77753888024216e77ef28f793b1914033f73853e188d716f3b53e5451b1",
+          "heading": "Checkpoint sites of action",
+          "learningRequirementIds": [
+            "chk.sites"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "519cc931d9dac4da5219be7a5dd296087aef91f75f433e0e340764122c5bfe96",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "chk.why-cancer",
+            "chk.anchors"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "72ae407e1d9c8a59dca4c2193860fa448a4d8425ae00bc4de2f1411eda48d289",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc567438f61c97c227044d7597ff3aee6a85a64f4f64660ce7d3572704b3c147",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "chk.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "52568962e25e257882480e2dec41bbd8192ad59e224262ea4a9ec7d3da99153e",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "chk.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "68c72c77962efa2d2ecbd15e4834691d2d4df3a5e5c23cbf79ff24ba7ebf6b1d",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e0a21d91fc66eb1833b5fb475670b51caceb7ddfcb67351f9ed0369016ce2570",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "chk.table",
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "bafddaa450ecac34a37c0924e39c0bc44a806f61020ac4307dbfcd13a1ba5bbc",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md",
+      "sourceSha256": "1e4e6ccc6d747686375e4a8bdf714bb6985e1ad9d2fa560743a7c375ea5d2d21",
+      "gitBlob": "4fbeada65eae5738d31982cf1b0812a5c7754f64",
+      "lesson": "chk",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "76a0dd7a8adb18ad1e2935c39f7394732ca4ba59125c3412e4341d826bd6444a",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "252050e302f53b6a592634f88294ba240a5f127c87b9e2b5cf5c5456d58b3425",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "chk.pd1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fd885101a73c519caee72a933c3349aef2f578668d76c3a218df7c23e331aa92",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "chk.pd1",
+            "chk.ctla4",
+            "chk.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "93b4f1b4b75f47081fadc4da5c67178c4bd01349f18dcfdc54cb0edfa6a705aa",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "chk.pd1",
+            "chk.ctla4",
+            "chk.fig-contact",
+            "chk.table"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e5bbb77753888024216e77ef28f793b1914033f73853e188d716f3b53e5451b1",
+          "heading": "Checkpoint sites of action",
+          "learningRequirementIds": [
+            "chk.sites"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "519cc931d9dac4da5219be7a5dd296087aef91f75f433e0e340764122c5bfe96",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "chk.why-cancer",
+            "chk.anchors"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "72ae407e1d9c8a59dca4c2193860fa448a4d8425ae00bc4de2f1411eda48d289",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc567438f61c97c227044d7597ff3aee6a85a64f4f64660ce7d3572704b3c147",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "chk.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "52568962e25e257882480e2dec41bbd8192ad59e224262ea4a9ec7d3da99153e",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "chk.confusions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "68c72c77962efa2d2ecbd15e4834691d2d4df3a5e5c23cbf79ff24ba7ebf6b1d",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e0a21d91fc66eb1833b5fb475670b51caceb7ddfcb67351f9ed0369016ce2570",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "chk.table",
+            "chk.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "bafddaa450ecac34a37c0924e39c0bc44a806f61020ac4307dbfcd13a1ba5bbc",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance.md",
+      "sourceSha256": "e949ac53067c5433d93161339c2aacf211623b9af7470af07f21d617acc836c7",
+      "gitBlob": "301048361db6102fc2b35e15aecd8744f36def6a",
+      "lesson": "tol",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "839814545aa887f9686b0c8e1c864fe49807de12ef3a52bcb2f019a95fc07715",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "882ea864b1088ff43e3a573d06aa96b8be16533e79d6c110423723f32a5d3248",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "tol.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5c8b93052482936bd676f5a75a30ed973c56e2f68de47068c245f5df2ec3fb4e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "tol.definition",
+            "tol.mechanisms",
+            "tol.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ca50f0d01822706f104d0e0760ac458a3df315fcd9e42cab464d0454fb394876",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "tol.definition",
+            "tol.mechanisms",
+            "tol.examples",
+            "tol.ignorance",
+            "tol.fig-diagram"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "643451984cd1d60c2b330b40a7fca3b500e68c4ed5d6e6fd777838009de166a1",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "tol.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "49ab7df6d1b062077fbac9bbbe1c9b616aa0774dec0d4f8844217d4f9f3b9d7d",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cf92b89b5ab9273ed2fb46252e07ac262b46bf9ca8966687aa1e3ce4871056e9",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a558a66a9ac438444ab427dee184f062340187433d6bd20c556fd28a08c854a0",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "106ab1e482ea6cc47de32ca5634ed4652c6e78386fe6bf7f3c50cf1f864cf357",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/peripheral-tolerance.md",
+      "sourceSha256": "735e84bf3e1b33d6376db9a146c3179dbc3d681b1d95a7f94a4a57fe86d87785",
+      "gitBlob": "ff2b16c2db73e5b5c86c064285e60a2d13d4e7e0",
+      "lesson": "tol",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "839814545aa887f9686b0c8e1c864fe49807de12ef3a52bcb2f019a95fc07715",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "882ea864b1088ff43e3a573d06aa96b8be16533e79d6c110423723f32a5d3248",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "tol.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5c8b93052482936bd676f5a75a30ed973c56e2f68de47068c245f5df2ec3fb4e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "tol.definition",
+            "tol.mechanisms",
+            "tol.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ca50f0d01822706f104d0e0760ac458a3df315fcd9e42cab464d0454fb394876",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "tol.definition",
+            "tol.mechanisms",
+            "tol.examples",
+            "tol.ignorance",
+            "tol.fig-diagram"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "643451984cd1d60c2b330b40a7fca3b500e68c4ed5d6e6fd777838009de166a1",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "tol.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "49ab7df6d1b062077fbac9bbbe1c9b616aa0774dec0d4f8844217d4f9f3b9d7d",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cf92b89b5ab9273ed2fb46252e07ac262b46bf9ca8966687aa1e3ce4871056e9",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a558a66a9ac438444ab427dee184f062340187433d6bd20c556fd28a08c854a0",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "tol.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "106ab1e482ea6cc47de32ca5634ed4652c6e78386fe6bf7f3c50cf1f864cf357",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+      "sourceSha256": "ff9d5dd7b6dd1b03b1abc7113f88b39def69879050723c666f5910cc9d0cb532",
+      "gitBlob": "fd38c72df1852c32012e6fa3f62fc0c9d3556c93",
+      "lesson": "sting",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0d01fda8a7d19bf45d98b22718a38be8ddf3a3c93c4436da1cdf21b58927dd0d",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cfe47308079afcedcaf8ee09e115c5cb270ed5242b1c34b0bcf549ad1e58c20f",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "sting.sensor-messenger"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "995ef972b2b9ae1ec0a5b3ff1212413b9e724ee34afd800f8b87ddffde7cba8e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1aea7e4f339986e364f1aacd0fb183cec27ed2503295d7d7afca03699d8f2525",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.sting-traffic",
+            "sting.fig-dna",
+            "sting.downstream"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "230c5d13ca7b3ffd3e941655325781b8343551a833b5e8c871acc65a477913ee",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "87dd07e26b358182aeb463f61e8d13cecd861bae1a2c2cf9d74f7f91efd9f0f2",
+          "heading": "Assay card",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0496bb72e183310fc83c57169a98a3749150d3713d7f31370a9d688fd94026a8",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "874aa9ea3adc2250fe8354f4695f51e107ccdbafad80b984e83397443dc695bc",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "49d12932d42459603499c362c04b48fa7d02eecc3297d67aa689735eb6127537",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "sting.assay-card",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b2924439eb5195a331640d9298a16649aeea8359309463ea72d1baa3c3405ff3",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4146aa37d7711b6deae951c38c9f95e9b1c8410b87ce7fd14c7357f5cda149b4",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+      "sourceSha256": "08a37bc58da9a71d6104ba82d8fde8e85570fa4450325ddb4fd8a5999a742ad9",
+      "gitBlob": "00b6af64579c49c2ec7ec7645769e5464528dad0",
+      "lesson": "sting",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0d01fda8a7d19bf45d98b22718a38be8ddf3a3c93c4436da1cdf21b58927dd0d",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cfe47308079afcedcaf8ee09e115c5cb270ed5242b1c34b0bcf549ad1e58c20f",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "sting.sensor-messenger"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "995ef972b2b9ae1ec0a5b3ff1212413b9e724ee34afd800f8b87ddffde7cba8e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1aea7e4f339986e364f1aacd0fb183cec27ed2503295d7d7afca03699d8f2525",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.sting-traffic",
+            "sting.fig-dna",
+            "sting.downstream"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "230c5d13ca7b3ffd3e941655325781b8343551a833b5e8c871acc65a477913ee",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "87dd07e26b358182aeb463f61e8d13cecd861bae1a2c2cf9d74f7f91efd9f0f2",
+          "heading": "Assay card",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0496bb72e183310fc83c57169a98a3749150d3713d7f31370a9d688fd94026a8",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "874aa9ea3adc2250fe8354f4695f51e107ccdbafad80b984e83397443dc695bc",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "sting.assay-card"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "49d12932d42459603499c362c04b48fa7d02eecc3297d67aa689735eb6127537",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "sting.assay-card",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b2924439eb5195a331640d9298a16649aeea8359309463ea72d1baa3c3405ff3",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "sting.sensor-messenger",
+            "sting.host-vs-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4146aa37d7711b6deae951c38c9f95e9b1c8410b87ce7fd14c7357f5cda149b4",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells.md",
+      "sourceSha256": "cc51fcf0a2267036abfb8456821cfde6f912a94a0f68fd71b9e7d71d3ddd931a",
+      "gitBlob": "d96c5cd3cd542fc099e0746d2c7062f7de73553d",
+      "lesson": "dc",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "89c09b878210a56f4c9e7f78c32f2d87c5f8d32d35c94432400a71c1c0adc6ab",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7e50c6e2c06cf91467ed1c5310b1afecefbfac653cfcb01c379d0a0a95df46ee",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "dc.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4e2fec3e2a50d8451c585cde06b166eac9c814233396bf8a588d2dad9cf9a3bd",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "dc.definition",
+            "dc.state"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "eae075a3940232b51e25d007eb18fc49a1af55da4c76b87a087350ac8984e21e",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "dc.definition",
+            "dc.cdc1",
+            "dc.subsets",
+            "dc.state",
+            "dc.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "47d9178f1f0977f2a0d312626c91ed39318b6c47d79f8327dcf33ba91efdfb58",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "dc.cooperation",
+            "dc.vaccine-hla"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "03a6d464e489434b073bd3a0ce9a69fb41cccf8c188bffe826e02e31b64171fd",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "dc.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "941d23a9c79f9dcb444177c028a627e52cb8705554029ff9b737c293ee149df8",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "ceab6402de6ca040c11c5b3bf671418ad7c001f621e27c6fdddb1b14ed3b743f",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "dc.vaccine-hla"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "279bdd10f4399bc025a975c16127cf8506948155a415f0fac0ca08794404923b",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "dc.subsets",
+            "dc.state",
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d290f0d7f28501cd8a9d53da0c9008ddf04227a0d44a0cb54b0345f034467dbe",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "dc.subsets",
+            "dc.state",
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4ae29acd4613de54551fa9a2d92909cd29c33df040a89d72e630a418e71af4ad",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/dendritic-cells.md",
+      "sourceSha256": "4557e4db0cf116af6534a4647c23f20bc133ad28adf9487bea9cef6ac2dbe383",
+      "gitBlob": "f2e7331eaa01ec207642d0f8c7749f9dd3ef28dc",
+      "lesson": "dc",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "89c09b878210a56f4c9e7f78c32f2d87c5f8d32d35c94432400a71c1c0adc6ab",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7e50c6e2c06cf91467ed1c5310b1afecefbfac653cfcb01c379d0a0a95df46ee",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "dc.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4e2fec3e2a50d8451c585cde06b166eac9c814233396bf8a588d2dad9cf9a3bd",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "dc.definition",
+            "dc.state"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "eae075a3940232b51e25d007eb18fc49a1af55da4c76b87a087350ac8984e21e",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "dc.definition",
+            "dc.cdc1",
+            "dc.subsets",
+            "dc.state",
+            "dc.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "47d9178f1f0977f2a0d312626c91ed39318b6c47d79f8327dcf33ba91efdfb58",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "dc.cooperation",
+            "dc.vaccine-hla"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "03a6d464e489434b073bd3a0ce9a69fb41cccf8c188bffe826e02e31b64171fd",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "dc.routes"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "941d23a9c79f9dcb444177c028a627e52cb8705554029ff9b737c293ee149df8",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "ceab6402de6ca040c11c5b3bf671418ad7c001f621e27c6fdddb1b14ed3b743f",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "dc.vaccine-hla"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "279bdd10f4399bc025a975c16127cf8506948155a415f0fac0ca08794404923b",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "dc.subsets",
+            "dc.state",
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d290f0d7f28501cd8a9d53da0c9008ddf04227a0d44a0cb54b0345f034467dbe",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "dc.subsets",
+            "dc.state",
+            "dc.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4ae29acd4613de54551fa9a2d92909cd29c33df040a89d72e630a418e71af4ad",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+      "sourceSha256": "a1fbb51ff9633f629be899798414d385cc89d69719c2b916e5110c7e6912a0e1",
+      "gitBlob": "26c84e0063446b3bcbb1cdcdc291ca75ad10e654",
+      "lesson": "gd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b15c420b39a4f49be448ee4228a20ff04356d3c52a35b73d6c93299f33383610",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0900e3953e5e1188701e2b89a8a476417954cf0a797c67c545d420a942e2040e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "gd.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "eb0a24983ee20c0f13e31b9a6f7711cf600146e60aa9c43c0071fcc45a250ff6",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.phosphoantigen",
+            "gd.hla",
+            "gd.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6ac3e8c70eb13f8c395f46630afe757adfa37fd4019faaba3e4f05bbdb8ff5a6",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.subsets",
+            "gd.phosphoantigen",
+            "gd.fig-contacts",
+            "gd.hla",
+            "gd.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "200715c89b10adb7a98519997dff928c04954d9d538087725aafe966e4f59590",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "gd.car",
+            "gd.tnbc"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "383cf83723b7394f17a455f239ab4d5cd135e1b4661d1b82f5ed6ab9ac0eeeeb",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b58c0c303c1a01a897d987130f1242cf7e7284b2c22b9189acb9b89c9a8f67e2",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d741df32d118da855c86c9649e28146fd2b0f09f24a7e6e57ac1c3e893023d4b",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8dd1b2b618b7348a6c05abda1f68b9a0ba34136eed603d8c493a47edd51fa740",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.car",
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "34bfba3c2cca0c1a2d1403c0af8d27be150af9491a070b02b264dabe59e2f4d3",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "453ffe09421716d039afcb6208e0fc93feb3845132912cba9d9ee64c038c38d0",
+          "heading": "Sources",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md",
+      "sourceSha256": "214f58f0060f427c6ef44a87f1b8a990b7429c63662263cca4079ea5070fddad",
+      "gitBlob": "6823ba860d4793310bca738aea66993577c5745f",
+      "lesson": "gd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b15c420b39a4f49be448ee4228a20ff04356d3c52a35b73d6c93299f33383610",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0900e3953e5e1188701e2b89a8a476417954cf0a797c67c545d420a942e2040e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "gd.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "eb0a24983ee20c0f13e31b9a6f7711cf600146e60aa9c43c0071fcc45a250ff6",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.phosphoantigen",
+            "gd.hla",
+            "gd.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6ac3e8c70eb13f8c395f46630afe757adfa37fd4019faaba3e4f05bbdb8ff5a6",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.subsets",
+            "gd.phosphoantigen",
+            "gd.fig-contacts",
+            "gd.hla",
+            "gd.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "200715c89b10adb7a98519997dff928c04954d9d538087725aafe966e4f59590",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "gd.car",
+            "gd.tnbc"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "383cf83723b7394f17a455f239ab4d5cd135e1b4661d1b82f5ed6ab9ac0eeeeb",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b58c0c303c1a01a897d987130f1242cf7e7284b2c22b9189acb9b89c9a8f67e2",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d741df32d118da855c86c9649e28146fd2b0f09f24a7e6e57ac1c3e893023d4b",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8dd1b2b618b7348a6c05abda1f68b9a0ba34136eed603d8c493a47edd51fa740",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.car",
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "34bfba3c2cca0c1a2d1403c0af8d27be150af9491a070b02b264dabe59e2f4d3",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "gd.definition",
+            "gd.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "453ffe09421716d039afcb6208e0fc93feb3845132912cba9d9ee64c038c38d0",
+          "heading": "Sources",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+      "sourceSha256": "77010b62fca3ed9cbe4cc21d0e0d7d4f80000d801d723c95733213e7447f81b1",
+      "gitBlob": "8c691c6d9aafbc67d32859643d1fa0798909b202",
+      "lesson": "mac",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7360ba131cac60fc71cc8d6c161b315e57d73f7cc0c69cbce4b97cd638f852ce",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7639b9dca9a42943b483a5815e1d5570505a4cda3197c19d338c153ca9783e91",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "mac.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "50538c82b44df9e3211df21d83c88974c22b6eee9dab486c24c69977c3b1f4e0",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "mac.fig-programs"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "363c30de877df9cb62f50d1e68b0af39e319922256725b59d80a4cc2cfc414c2",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "mac.definition",
+            "mac.m1m2",
+            "mac.spectrum"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "29428e7fb1463ad72938ebe919320bc3c2e0a26eacefaabe0d44f7b2a8311972",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "mac.tam"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "08f96da741d8045e88ed2cabf63e6119da779c6c1521e353abbf28aaa7a4d6e5",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "mac.tam"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "51d48a0cb9e5799427e0872e57a26891a4a285b77835dc53760a7ba7574c0b7f",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "mac.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e1d659892dd58f0065725ff43975b98ea88ecd01c7b3505ec43643989245e3d5",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "mac.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "be38c965214738bea78e3876af166b72981dfa97f40cf4ae14ada5ca6ace99dd",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md",
+      "sourceSha256": "d63c57d7fbba441c494a8edd4790dd37cecc8978e29e9ef5de59fbd26482248c",
+      "gitBlob": "9e126b0a3c1365be1241e23f5340f31a9033a5a0",
+      "lesson": "mac",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7360ba131cac60fc71cc8d6c161b315e57d73f7cc0c69cbce4b97cd638f852ce",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7639b9dca9a42943b483a5815e1d5570505a4cda3197c19d338c153ca9783e91",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "mac.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "50538c82b44df9e3211df21d83c88974c22b6eee9dab486c24c69977c3b1f4e0",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "mac.fig-programs"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "363c30de877df9cb62f50d1e68b0af39e319922256725b59d80a4cc2cfc414c2",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "mac.definition",
+            "mac.m1m2",
+            "mac.spectrum"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "29428e7fb1463ad72938ebe919320bc3c2e0a26eacefaabe0d44f7b2a8311972",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "mac.tam"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "08f96da741d8045e88ed2cabf63e6119da779c6c1521e353abbf28aaa7a4d6e5",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "mac.tam"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "51d48a0cb9e5799427e0872e57a26891a4a285b77835dc53760a7ba7574c0b7f",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "mac.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e1d659892dd58f0065725ff43975b98ea88ecd01c7b3505ec43643989245e3d5",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "mac.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "be38c965214738bea78e3876af166b72981dfa97f40cf4ae14ada5ca6ace99dd",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+      "sourceSha256": "2b2e0606e6266ec7012aebcb67ff4619267f90a1f4fd325f84303b6770c386f1",
+      "gitBlob": "623a82e531a05429877d8c0471ec76efe008410e",
+      "lesson": "nk",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ad5b2c263af20ad8a66f408020e322edf5977331055fbe15ef4b86161c9d5ee2",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "af229a62b54f4d4624dd2a1f480b99d9039b611199e99c8f5abc162455c5e2c0",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "nk.integrate"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e17002e96425ab11d5b2cc3c0611027bbc9750d4f843716c27c4da84e1e09a3f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c46ce9c88c50bb88793a4d1112baa7267977d3362ec7d2b2e1d327226380bdff",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self",
+            "nk.receptors",
+            "nk.education",
+            "nk.b2m",
+            "nk.fig-nk"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1ce049fb5c220638004c8038642727303c1989e34d59c8bb6775eb559af04292",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "nk.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "091ee976b5bef13d12d1529b4eb663125a07e2220ff1e4d76d745b81e8e0b620",
+          "heading": "Worked example",
+          "learningRequirementIds": [
+            "nk.missing-self",
+            "nk.worked"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fdc1d8c0894885cf48fbac8daf38e0e29ebc9edd1b18b7409aa3f13c36d45f47",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "nk.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "963a829b42f62e2243395ce473de623d00ae6896e44f62b95f365761fbf4ed17",
+          "heading": "Read the functional test",
+          "learningRequirementIds": [
+            "nk.assay"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bdcfe791a11b151a5c21548bbca38c62439a4ca027f07b6ddf2f1f89db7cfea4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "nk.worked"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "0422e894d67048b88861943d6db501d3b2d632acf457f3ea73bf8420125a21bd",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "bb8cbcf608ae3900ef924a6504d6dba3eaec52631a5284f29412e16f648bc136",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "nk.missing-self",
+            "nk.assay"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "c10575e8ce5109c216c6b4e32466ba4ecfcd5f122ccfc5be023be3f49877979f",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md",
+      "sourceSha256": "5aa4e70044a6f9fca79ffa1395da9d1008dde5165a22f2ddfdb6ababed48f52c",
+      "gitBlob": "aac7f71317f47fbcfb85eb32370c66ba01aee8d9",
+      "lesson": "nk",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ad5b2c263af20ad8a66f408020e322edf5977331055fbe15ef4b86161c9d5ee2",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "af229a62b54f4d4624dd2a1f480b99d9039b611199e99c8f5abc162455c5e2c0",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "nk.integrate"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e17002e96425ab11d5b2cc3c0611027bbc9750d4f843716c27c4da84e1e09a3f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "02d98ffcfa69f6aaa15103740b0194711398745d18eb8942a08f58927f4509c1",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self",
+            "nk.receptors",
+            "nk.education",
+            "nk.b2m",
+            "nk.fig-nk"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1ce049fb5c220638004c8038642727303c1989e34d59c8bb6775eb559af04292",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "nk.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "091ee976b5bef13d12d1529b4eb663125a07e2220ff1e4d76d745b81e8e0b620",
+          "heading": "Worked example",
+          "learningRequirementIds": [
+            "nk.missing-self",
+            "nk.worked"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fdc1d8c0894885cf48fbac8daf38e0e29ebc9edd1b18b7409aa3f13c36d45f47",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "nk.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "963a829b42f62e2243395ce473de623d00ae6896e44f62b95f365761fbf4ed17",
+          "heading": "Read the functional test",
+          "learningRequirementIds": [
+            "nk.assay"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bdcfe791a11b151a5c21548bbca38c62439a4ca027f07b6ddf2f1f89db7cfea4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "nk.worked"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "0422e894d67048b88861943d6db501d3b2d632acf457f3ea73bf8420125a21bd",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "nk.integrate",
+            "nk.missing-self"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "bb8cbcf608ae3900ef924a6504d6dba3eaec52631a5284f29412e16f648bc136",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "nk.missing-self",
+            "nk.assay"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "14e6e5e7aeb2dbca7fee0e2dcda8e905b54d82d775f637777c2fbc80cc42ec41",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+      "sourceSha256": "020c8cc634ecf86c66349079508ad7283a88f99fee5acaf7179f5927543a5629",
+      "gitBlob": "f890cdfa76cca3827d54ba3e4208c6512e6f2d22",
+      "lesson": "nkt",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "14281cf470553bae007f1accec510db988bf98a9e36613062712b664a94f12fb",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6862aab631aeeff10f1c7aa058a97c100cbb5970bdba9092fca69f233567353b",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "nkt.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e694defd8888104c4b42bbd5771e830134b41c69bfafb290dcede52f6b8ee53d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "nkt.definition",
+            "nkt.cd1d",
+            "nkt.function",
+            "nkt.table-compare"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8cfb2bd926fca4647e41a0a50ff52e6ef64d73182ed7fa386acc090b06068c30",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "nkt.definition",
+            "nkt.cd1d",
+            "nkt.fig-cd1d",
+            "nkt.types",
+            "nkt.table-compare",
+            "nkt.function"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e36388baf2d20d6d0a831f4c3608d60b5d6b9e8f32ac7c4589545be28f4882f",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "nkt.function",
+            "nkt.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1ed8918d84548537d0439934b37cf148d9e589a13a47ceb449ad75bcd63ae700",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d944b0b3a0d77aeb6442bcc8588dd01e1aaad1c5f215f73bba33103f2f525acf",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9acc12a7b028f9e7f76c25f84de01d4f607a4c0d8c0d5e30ebdac4de635b23d9",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "08422609f80b4e23bfb3de78cb9b8db9208926f6854d4826d30cbd0abdff9f23",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "nkt.table-compare"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ee6e74eeffcd0bc5b6480f3c4e1f90ba42e5fc216604f1ddd59f29ea07f21ed6",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "nkt.types",
+            "nkt.function"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "69369c6e010ec6213e5bc3a92c88baf289dfcce4378a19c5baa7f99785202c9d",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md",
+      "sourceSha256": "16998a11796e172a20ead04cdb8677d9c4b5eb6f45d8f8a3854f66c4f2919bf6",
+      "gitBlob": "066b7b42c756c09ad9a949781883bc4bd96271fa",
+      "lesson": "nkt",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "14281cf470553bae007f1accec510db988bf98a9e36613062712b664a94f12fb",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6862aab631aeeff10f1c7aa058a97c100cbb5970bdba9092fca69f233567353b",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "nkt.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e694defd8888104c4b42bbd5771e830134b41c69bfafb290dcede52f6b8ee53d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "nkt.definition",
+            "nkt.cd1d",
+            "nkt.function",
+            "nkt.table-compare"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8cfb2bd926fca4647e41a0a50ff52e6ef64d73182ed7fa386acc090b06068c30",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "nkt.definition",
+            "nkt.cd1d",
+            "nkt.fig-cd1d",
+            "nkt.types",
+            "nkt.table-compare",
+            "nkt.function"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e36388baf2d20d6d0a831f4c3608d60b5d6b9e8f32ac7c4589545be28f4882f",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "nkt.function",
+            "nkt.car"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1ed8918d84548537d0439934b37cf148d9e589a13a47ceb449ad75bcd63ae700",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d944b0b3a0d77aeb6442bcc8588dd01e1aaad1c5f215f73bba33103f2f525acf",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9acc12a7b028f9e7f76c25f84de01d4f607a4c0d8c0d5e30ebdac4de635b23d9",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "nkt.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "08422609f80b4e23bfb3de78cb9b8db9208926f6854d4826d30cbd0abdff9f23",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "nkt.table-compare"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ee6e74eeffcd0bc5b6480f3c4e1f90ba42e5fc216604f1ddd59f29ea07f21ed6",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "nkt.types",
+            "nkt.function"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "69369c6e010ec6213e5bc3a92c88baf289dfcce4378a19c5baa7f99785202c9d",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+      "sourceSha256": "d772a937dacf1c25157646fade70249f5ab46bd2a9793a5a9d5786d5941a5abe",
+      "gitBlob": "943e037569eab737fe24518a384bec57d69ff14f",
+      "lesson": "prr",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "be5af56e6df2a82c0f4dde71e697b58a544e1990c8f844107def11b2c93e508f",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ae008f699e54580bdcf0ecb45bf55d02b5d44a32558a8bb0776a2a195762e286",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "prr.prr-definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bb3ffd22e49d587efde93901292646c53905a3295ffe23f6592a77a4adf525f2",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "prr.prr-definition",
+            "prr.pamp-damp",
+            "prr.dna",
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "99ceaddf8f7816570dfa7f7fc1a649dca81023c9b52c7093f87f8533848db819",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "prr.prr-definition",
+            "prr.pamp-damp",
+            "prr.tlr4",
+            "prr.dna",
+            "prr.fig-dna",
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b6b0f023f36c4fae63f89d9c10988d2ec968e08a46c12408728dd2bb327e720f",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6298afb73ca4b1aa4be82a3e765b8d8fca1b96ba4eabda38d3bac290cb77ca2f",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "prr.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3c055cec4078510d59c20af8dbebc768cf1eea6300aed39ee896e7730e46c999",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "prr.pamp-damp"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9e9d24605854729d15deb9cb21f2e46fa635c00576fd46f971145d4ab79cbbe5",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "prr.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "0c32a65da86ac6c0b9f5f859b644ddc99b987a53453721028ac554cc9de85517",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md",
+      "sourceSha256": "d772a937dacf1c25157646fade70249f5ab46bd2a9793a5a9d5786d5941a5abe",
+      "gitBlob": "943e037569eab737fe24518a384bec57d69ff14f",
+      "lesson": "prr",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "be5af56e6df2a82c0f4dde71e697b58a544e1990c8f844107def11b2c93e508f",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ae008f699e54580bdcf0ecb45bf55d02b5d44a32558a8bb0776a2a195762e286",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "prr.prr-definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bb3ffd22e49d587efde93901292646c53905a3295ffe23f6592a77a4adf525f2",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "prr.prr-definition",
+            "prr.pamp-damp",
+            "prr.dna",
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "99ceaddf8f7816570dfa7f7fc1a649dca81023c9b52c7093f87f8533848db819",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "prr.prr-definition",
+            "prr.pamp-damp",
+            "prr.tlr4",
+            "prr.dna",
+            "prr.fig-dna",
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b6b0f023f36c4fae63f89d9c10988d2ec968e08a46c12408728dd2bb327e720f",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "prr.hmgb1"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6298afb73ca4b1aa4be82a3e765b8d8fca1b96ba4eabda38d3bac290cb77ca2f",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "prr.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3c055cec4078510d59c20af8dbebc768cf1eea6300aed39ee896e7730e46c999",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "prr.pamp-damp"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9e9d24605854729d15deb9cb21f2e46fa635c00576fd46f971145d4ab79cbbe5",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "prr.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "0c32a65da86ac6c0b9f5f859b644ddc99b987a53453721028ac554cc9de85517",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/immune-cell-roster.md",
+      "sourceSha256": "72c3a7690048c2f94835c7fc1e956d9c9aed145672e13e385c6d75780a7e153b",
+      "gitBlob": "b7e598ce4222b3e5e83cfec0994377d4c196b562",
+      "lesson": "roster",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1215cbea11c786a5c59d128be2bda439c091deef59c17e09595c6bc56dc2feee",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "fde651dd30bc330958e91e695537c4e60dc142f8db6707fb81d25cb6c3b7760d",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "roster.principle"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e2c42e705c39d0932ceb6b03201eacb73b82ae63129afe4f14505c1fcba08569",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.states",
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f97290a60721debbe1ece25b48b64965f54941d901a08d05fa20b8911fc9c517",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.table",
+            "roster.states"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2a1af87a32c950aa694436d0ea96ecebb1939c96c3c05a453883eaebc0bfccde",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ef80a7550f00707a948303163cfc804fbbaa7848613c4b5376b39776a4dbaf78",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "roster.denominator"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "82f92d114356b8222c5e2e7f3313d711c11fe72ba3d53961598a26a11de18c43",
+          "heading": "Try it: compare fictional counts",
+          "learningRequirementIds": [
+            "roster.denominator"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7bb7ca2dcf4753aaf425a43b824c1f6585a7bbcd36148ffc85a610dca86c4de2",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3fd9a14f073ef4ef8e6a8b9521d0f9e5b316e3dccde08fff18d9e518d4567936",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a773dae04dbdbd2a3325b8482d15925d44074d0bfb0e654c63bb447a8ecc0515",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "roster.principle"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "05c7d3f651337e6528ee39e37d975f0683c1ffd15c352694f7e5e1ca84f572c0",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/immune-cell-roster.md",
+      "sourceSha256": "f5139334262fc36cf50483d4db8d9aff17c2712c509ab95366c6c592d7f7db5a",
+      "gitBlob": "304a1b0094083a828dcb4434607c84a3114b841c",
+      "lesson": "roster",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1215cbea11c786a5c59d128be2bda439c091deef59c17e09595c6bc56dc2feee",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "fde651dd30bc330958e91e695537c4e60dc142f8db6707fb81d25cb6c3b7760d",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "roster.principle"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e2c42e705c39d0932ceb6b03201eacb73b82ae63129afe4f14505c1fcba08569",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.states",
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f97290a60721debbe1ece25b48b64965f54941d901a08d05fa20b8911fc9c517",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.table",
+            "roster.states"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2a1af87a32c950aa694436d0ea96ecebb1939c96c3c05a453883eaebc0bfccde",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ef80a7550f00707a948303163cfc804fbbaa7848613c4b5376b39776a4dbaf78",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "roster.denominator"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "82f92d114356b8222c5e2e7f3313d711c11fe72ba3d53961598a26a11de18c43",
+          "heading": "Try it: compare fictional counts",
+          "learningRequirementIds": [
+            "roster.denominator"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7bb7ca2dcf4753aaf425a43b824c1f6585a7bbcd36148ffc85a610dca86c4de2",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3fd9a14f073ef4ef8e6a8b9521d0f9e5b316e3dccde08fff18d9e518d4567936",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "roster.principle",
+            "roster.why-cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a773dae04dbdbd2a3325b8482d15925d44074d0bfb0e654c63bb447a8ecc0515",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "roster.principle"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "05c7d3f651337e6528ee39e37d975f0683c1ffd15c352694f7e5e1ca84f572c0",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+      "sourceSha256": "be8431978e73077bd677671a970c7d4b1e15de7c07d72bcff0d653e255a58264",
+      "gitBlob": "30d554288cde6fee796f573ef6bb6ae93bc14fbe",
+      "lesson": "infl",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d102e4396e22f2dc46818bb0d3a1ee139b875a05c2248ccc541d833bff5c0e49",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "37cee6c14f0205d6328aafebf281f1c78ac68d2a6eef3e3f7cc1a7720a71918e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "infl.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3fc5e3758bcc4332b8ee54a1a329492390e7722d0f02363392d75ffd0812df7e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "infl.definition",
+            "infl.response",
+            "infl.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5f04e611a300399f5d4df503e3d0115b9c7f02f2dce691a6aad62f535ebc068a",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "infl.definition",
+            "infl.fig-tissue",
+            "infl.response",
+            "infl.macrophages"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "810990c4248fdddce528e69c8a0c99f68e2397c80419544f9e5485056a837d90",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "infl.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3888d39bd261b26f7db4f24b995786d4ba59cd00a371a95255536714a083b5e5",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "infl.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f806e7dea36c4a94397221c96146322f7662672b3fce4cfb5a96ab9ec014c885",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "infl.macrophages"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "7843494ec9daa30ecff5c1dca6895db10e36cfa1a4d8aeecb5af8db03b4d4576",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "infl.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d5e97aa88e7a7f4fb640a2f1f89d73ea114bcde77621ddeef6fc8a46682eb251",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/inflammation.md",
+      "sourceSha256": "be8431978e73077bd677671a970c7d4b1e15de7c07d72bcff0d653e255a58264",
+      "gitBlob": "30d554288cde6fee796f573ef6bb6ae93bc14fbe",
+      "lesson": "infl",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d102e4396e22f2dc46818bb0d3a1ee139b875a05c2248ccc541d833bff5c0e49",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "37cee6c14f0205d6328aafebf281f1c78ac68d2a6eef3e3f7cc1a7720a71918e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "infl.definition"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3fc5e3758bcc4332b8ee54a1a329492390e7722d0f02363392d75ffd0812df7e",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "infl.definition",
+            "infl.response",
+            "infl.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5f04e611a300399f5d4df503e3d0115b9c7f02f2dce691a6aad62f535ebc068a",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "infl.definition",
+            "infl.fig-tissue",
+            "infl.response",
+            "infl.macrophages"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "810990c4248fdddce528e69c8a0c99f68e2397c80419544f9e5485056a837d90",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "infl.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3888d39bd261b26f7db4f24b995786d4ba59cd00a371a95255536714a083b5e5",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "infl.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f806e7dea36c4a94397221c96146322f7662672b3fce4cfb5a96ab9ec014c885",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "infl.macrophages"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "7843494ec9daa30ecff5c1dca6895db10e36cfa1a4d8aeecb5af8db03b4d4576",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "infl.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d5e97aa88e7a7f4fb640a2f1f89d73ea114bcde77621ddeef6fc8a46682eb251",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity.md",
+      "sourceSha256": "acae3f52919becf8045563d6c5431b52c2fb12d3fdf07910d496dd456fc2fd78",
+      "gitBlob": "831b79a7a1e6ecaaaffe1dec4d95c3bb474f7b69",
+      "lesson": "ia",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "771f17e2d1e02e0150869e2145e99460a5cb54d16df9f67e5f7a24fac499fa73",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "32fbccbc59358c3aea86dece4815f3538653290aea244ca25686531c04d9caae",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "ia.architecture"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "274475e27702e780b6d776a318260733b829021ce639b7345f4f00ebde461225",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.cooperation",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b857e679fa42a787f8abeef7858bace2388b37cccb24e18b4667f1b171c20365",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.cooperation",
+            "ia.table",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d948b5fb7559cbc691816ad9e1af30bed15c499c0c927d00dfa68a0c6e9ba3f4",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8dec7f6d7d770c697e515e2f57a0cd2ecf59f9189f79e5f64350bd62b8cb7445",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "ia.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1180797f33047e1aad3636c693fdfe2f7579cc7ea58ab5095aa7930a13aba8a9",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "29fa08b701f442a93eea8dc50a2ea06baea62502bb419d36f41803ac6acd78f4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4a01e4c8ee4a80f5470e695c9cbbc07a6512e28295a64d7cc11588003aaa9e71",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.table",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "12c4e03087408335e89ef0c48bc191cdd01b7b0058b7cdc10a6d809602e62d0d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "2bfb189dee4cf1fab444f4936ce418a6ddc946fe8595fa4df3450256841573ec",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity.md",
+      "sourceSha256": "fa4b3cda59cc9c918e8beba8ffc495e38011844796f09d72f7c7d5f8111eabd7",
+      "gitBlob": "e837f35a92a6f4fa9de01da56194abc4cd4e536d",
+      "lesson": "ia",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "771f17e2d1e02e0150869e2145e99460a5cb54d16df9f67e5f7a24fac499fa73",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "32fbccbc59358c3aea86dece4815f3538653290aea244ca25686531c04d9caae",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "ia.architecture"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "274475e27702e780b6d776a318260733b829021ce639b7345f4f00ebde461225",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.cooperation",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b857e679fa42a787f8abeef7858bace2388b37cccb24e18b4667f1b171c20365",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.cooperation",
+            "ia.table",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d948b5fb7559cbc691816ad9e1af30bed15c499c0c927d00dfa68a0c6e9ba3f4",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8dec7f6d7d770c697e515e2f57a0cd2ecf59f9189f79e5f64350bd62b8cb7445",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "ia.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1180797f33047e1aad3636c693fdfe2f7579cc7ea58ab5095aa7930a13aba8a9",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "29fa08b701f442a93eea8dc50a2ea06baea62502bb419d36f41803ac6acd78f4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "ia.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4a01e4c8ee4a80f5470e695c9cbbc07a6512e28295a64d7cc11588003aaa9e71",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.table",
+            "ia.exceptions"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "12c4e03087408335e89ef0c48bc191cdd01b7b0058b7cdc10a6d809602e62d0d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "ia.architecture",
+            "ia.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "2bfb189dee4cf1fab444f4936ce418a6ddc946fe8595fa4df3450256841573ec",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/interferons.md",
+      "sourceSha256": "89dfdc008b12a2dc01accff71b315d3a50f1013e96487a89e40380cc82b20bb9",
+      "gitBlob": "6c68b019d65dce3fe82160a4fda8c06fc108ea0e",
+      "lesson": "ifn",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c9e73e20f343143b55ce1d9486c9f5c94451bcb5001ce5eff0e6be86eb9cf88b",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "57427a346ca791c56f633da7a7fb5e96d6e0d2f07f44f7057180d3e0bcdc9b7f",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "ifn.types"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "409395d5b32bc7cb8f1586ad44621a983bb92f7a7e65cf092e21fb36591243db",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.jakstat",
+            "ifn.dunn-benci"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad40699f95591adaa894f2488707401146c50b4a079e2a307bd6b47695c40af5",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.jakstat",
+            "ifn.fig-map"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f6e1c875be25eb67dbe5f139408d945dca1aa9bcea31ef7ee5fee15040a44d3",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "ifn.dunn-benci",
+            "ifn.zaretsky"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d5594982ae8fcbab25d8d0841b8cc589891dbfa76890ceb8b3c5543f3f035c71",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6951d05d8476159633a7d63cba659091335eadbbfca9eb0f36214c313927a836",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9f1d954dadb042fb9a24fe10751d31f22b6ba7e6267f1603e999351a567b84dd",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "298d5fdcb167f4e5d3a2537e6bf988c446347c841a23c88ba75b206a4040f976",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a1e7bf7babdf8db59af540869df18965e7f88fb53d97ef4862368ceeeb18082f",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3ce0e91bf8674a396cfc1c76353c48e7c4f05a30defae2eaec76ef047d73bb8a",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/interferons.md",
+      "sourceSha256": "e671487a5aa0af09f178a44216d6663c9939302e43bc878951bab7a740dc4e83",
+      "gitBlob": "9d146654e9dfceeccd0b110fb62d8d0e77476f4d",
+      "lesson": "ifn",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c9e73e20f343143b55ce1d9486c9f5c94451bcb5001ce5eff0e6be86eb9cf88b",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "57427a346ca791c56f633da7a7fb5e96d6e0d2f07f44f7057180d3e0bcdc9b7f",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "ifn.types"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "409395d5b32bc7cb8f1586ad44621a983bb92f7a7e65cf092e21fb36591243db",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.jakstat",
+            "ifn.dunn-benci"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad40699f95591adaa894f2488707401146c50b4a079e2a307bd6b47695c40af5",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.jakstat",
+            "ifn.fig-map"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f6e1c875be25eb67dbe5f139408d945dca1aa9bcea31ef7ee5fee15040a44d3",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "ifn.dunn-benci",
+            "ifn.zaretsky"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d5594982ae8fcbab25d8d0841b8cc589891dbfa76890ceb8b3c5543f3f035c71",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6951d05d8476159633a7d63cba659091335eadbbfca9eb0f36214c313927a836",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9f1d954dadb042fb9a24fe10751d31f22b6ba7e6267f1603e999351a567b84dd",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "298d5fdcb167f4e5d3a2537e6bf988c446347c841a23c88ba75b206a4040f976",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a1e7bf7babdf8db59af540869df18965e7f88fb53d97ef4862368ceeeb18082f",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "ifn.types",
+            "ifn.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3ce0e91bf8674a396cfc1c76353c48e7c4f05a30defae2eaec76ef047d73bb8a",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics.md",
+      "sourceSha256": "1360ea310ed1de91bc0e08a35d7e926e36777a634b57e90a8f4a10b8e85cdf2e",
+      "gitBlob": "f80fc275140996f8b2b7c06934806cc19758ee6d",
+      "lesson": "lymph",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0f5dd8eedcc2725dc8349ded34178f321ba079a1e566efb3165e63d830354a70",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e0d468ec630034c6b8d0470428977d1637d5625dd6ef2355392232d66d9209e4",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "lymph.route"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9d997c79d197cd35a1252e46120739af2e807304c53de0c848cafb69b1d00416",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.compartments",
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e20b2954dd37628a7e19e7357fb55f2ca56fe5c4e74fe703485c8f1b940a875f",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.compartments",
+            "lymph.fig-routes",
+            "lymph.dc-route",
+            "lymph.ccr7"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "15191d93fbf644432d5682b8cb4448e9faced3bcc2eadf41bd6c68cfab246cf0",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7cef0f954e615cb509e2c142b95723f640e426889e9a6b757ae5fb05eb9639ae",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2b19e7a9ab8ec7de61a67a22bb19d8d144431cb949521f701f49fe45109c4c53",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cc22c0b0d1578bede0965fe0a40416e09f4c876bc00066b224caac2c6bbf8365",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "lymph.dc-route"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c7d64e215e978407ca941e48128ab7cc26ffe49884b585ac3ba4d83a92a1df76",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "7a3dc9665a2108f6511e51fc25c21e1ceb822c3bad7aed9222f4d658863f33ae",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.cancer",
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db18fe23675d56191b2d99df61914cc88b99d8a58aa64835234611893557e900",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics.md",
+      "sourceSha256": "e5fbec591dce43a46d7e64c18ff4e940c2cf6354edb1cba9c3b1a085a23645f9",
+      "gitBlob": "221f8d6eb41c8e1e4c9a7370f2c6083f03a6359c",
+      "lesson": "lymph",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0f5dd8eedcc2725dc8349ded34178f321ba079a1e566efb3165e63d830354a70",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e0d468ec630034c6b8d0470428977d1637d5625dd6ef2355392232d66d9209e4",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "lymph.route"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9d997c79d197cd35a1252e46120739af2e807304c53de0c848cafb69b1d00416",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.compartments",
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e20b2954dd37628a7e19e7357fb55f2ca56fe5c4e74fe703485c8f1b940a875f",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.compartments",
+            "lymph.fig-routes",
+            "lymph.dc-route",
+            "lymph.ccr7"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "15191d93fbf644432d5682b8cb4448e9faced3bcc2eadf41bd6c68cfab246cf0",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7cef0f954e615cb509e2c142b95723f640e426889e9a6b757ae5fb05eb9639ae",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2b19e7a9ab8ec7de61a67a22bb19d8d144431cb949521f701f49fe45109c4c53",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cc22c0b0d1578bede0965fe0a40416e09f4c876bc00066b224caac2c6bbf8365",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "lymph.dc-route"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c7d64e215e978407ca941e48128ab7cc26ffe49884b585ac3ba4d83a92a1df76",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.cancer"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "7a3dc9665a2108f6511e51fc25c21e1ceb822c3bad7aed9222f4d658863f33ae",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "lymph.route",
+            "lymph.cancer",
+            "lymph.measure"
+          ],
+          "disposition": "Exact source-section learning anchors; analogy, recall and takeaway reuse the named requirements without duplicate credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db18fe23675d56191b2d99df61914cc88b99d8a58aa64835234611893557e900",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Source-list or preamble metadata, including named access limits; no separate learning credit."
+        }
+      ]
+    }
+  ],
+  "recapAlignment": {
+    "adeno": {
+      "The intuition": [
+        "adeno.routes",
+        "adeno.why-cancer"
+      ]
+    },
+    "cyto": {
+      "The intuition": [
+        "cyto.definition",
+        "cyto.pleio",
+        "cyto.gradient"
+      ],
+      "Explain it back": [
+        "cyto.pleio",
+        "cyto.fig-average"
+      ],
+      "Takeaway": [
+        "cyto.definition",
+        "cyto.gradient",
+        "cyto.measure"
+      ],
+      "Related concepts": [
+        "cyto.gradient",
+        "cyto.il2",
+        "cyto.why-cancer"
+      ]
+    },
+    "chk": {
+      "The intuition": [
+        "chk.pd1",
+        "chk.ctla4",
+        "chk.why-cancer"
+      ],
+      "Explain it back": [
+        "chk.measure"
+      ],
+      "Takeaway": [
+        "chk.table",
+        "chk.measure"
+      ]
+    },
+    "tol": {
+      "The intuition": [
+        "tol.definition",
+        "tol.mechanisms",
+        "tol.why-cancer"
+      ]
+    },
+    "sting": {
+      "The intuition": [
+        "sting.sensor-messenger",
+        "sting.host-vs-cancer"
+      ],
+      "Explain it back": [
+        "sting.assay-card",
+        "sting.host-vs-cancer"
+      ],
+      "Takeaway": [
+        "sting.sensor-messenger",
+        "sting.host-vs-cancer"
+      ]
+    },
+    "dc": {
+      "The intuition": [
+        "dc.definition",
+        "dc.state"
+      ],
+      "Explain it back": [
+        "dc.subsets",
+        "dc.state",
+        "dc.measure"
+      ],
+      "Takeaway": [
+        "dc.subsets",
+        "dc.state",
+        "dc.measure"
+      ]
+    },
+    "gd": {
+      "The intuition": [
+        "gd.definition",
+        "gd.phosphoantigen",
+        "gd.hla",
+        "gd.car"
+      ],
+      "Explain it back": [
+        "gd.definition",
+        "gd.car",
+        "gd.measure"
+      ],
+      "Takeaway": [
+        "gd.definition",
+        "gd.measure"
+      ]
+    },
+    "nk": {
+      "The intuition": [
+        "nk.integrate",
+        "nk.missing-self"
+      ],
+      "Explain it back": [
+        "nk.integrate",
+        "nk.missing-self"
+      ],
+      "Takeaway": [
+        "nk.missing-self",
+        "nk.assay"
+      ]
+    },
+    "nkt": {
+      "The intuition": [
+        "nkt.definition",
+        "nkt.cd1d",
+        "nkt.function",
+        "nkt.table-compare"
+      ],
+      "Explain it back": [
+        "nkt.table-compare"
+      ],
+      "Takeaway": [
+        "nkt.types",
+        "nkt.function"
+      ]
+    },
+    "prr": {
+      "The intuition": [
+        "prr.prr-definition",
+        "prr.pamp-damp",
+        "prr.dna",
+        "prr.hmgb1"
+      ]
+    },
+    "roster": {
+      "The intuition": [
+        "roster.principle",
+        "roster.states",
+        "roster.why-cancer"
+      ],
+      "Explain it back": [
+        "roster.principle",
+        "roster.why-cancer"
+      ],
+      "Takeaway": [
+        "roster.principle"
+      ]
+    },
+    "infl": {
+      "The intuition": [
+        "infl.definition",
+        "infl.response",
+        "infl.cancer"
+      ]
+    },
+    "ia": {
+      "The intuition": [
+        "ia.architecture",
+        "ia.cooperation",
+        "ia.exceptions"
+      ],
+      "Explain it back": [
+        "ia.architecture",
+        "ia.table",
+        "ia.exceptions"
+      ],
+      "Takeaway": [
+        "ia.architecture",
+        "ia.measure"
+      ]
+    },
+    "ifn": {
+      "The intuition": [
+        "ifn.types",
+        "ifn.jakstat",
+        "ifn.dunn-benci"
+      ],
+      "Explain it back": [
+        "ifn.measure"
+      ],
+      "Takeaway": [
+        "ifn.types",
+        "ifn.measure"
+      ]
+    },
+    "lymph": {
+      "The intuition": [
+        "lymph.route",
+        "lymph.compartments",
+        "lymph.cancer"
+      ],
+      "Explain it back": [
+        "lymph.route",
+        "lymph.cancer"
+      ],
+      "Takeaway": [
+        "lymph.route",
+        "lymph.cancer",
+        "lymph.measure"
+      ]
+    }
+  },
+  "assessmentReuse": "Prior full source assessments and independent evidence review reused only at verified source identities. Coordinator read the 10 residual clauses, every comparison-table cell and all previously unmapped analogy/recall/takeaway sections.",
+  "coordinatorCorrections": [
+    "Review evidence is not relabelled as an original mouse experiment.",
+    "Interferon types are grouped by receptor usage; Greek-letter names do not measure dose or potency.",
+    "Soluble complement defences and chemokine effects on activation remain explicit.",
+    "KEYNOTE-522 benefit has primary endpoint evidence as well as trial links."
+  ],
+  "schemaDisposition": "Existing notes carry each comparison axis and role/limitation pair; no layout-driven schema change."
+}

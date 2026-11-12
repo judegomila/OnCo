@@ -1,0 +1,37 @@
+{
+  "partialRequirements": [
+    {
+      "id": "AG4-008",
+      "requirement": "Supplier agreement is a separate gate without compelled supply; verify rather than infer the source claim that it is the usual or most important bottleneck.",
+      "remaining": [
+        "No comparative evidence was read establishing the source lesson's supplier-bottleneck frequency or importance ranking. The public note explicitly states that the FDA request fraction cannot supply that inference."
+      ]
+    }
+  ],
+  "retainedCatalogueNotRecertified": {
+    "id": "access-catalogue-consent-protocol-qualifications",
+    "title": "Retained trial, consent and protocol catalogue qualifications",
+    "domain": "access-and-regulation",
+    "sourceURLs": [
+      "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent"
+    ],
+    "discoveryOccurrences": [
+      "access-guides:retained clinical-trial summary",
+      "access-guides:retained informed-consent summary",
+      "access-guides:retained trial-protocol summary"
+    ],
+    "review": {
+      "status": "unreviewed",
+      "points": [],
+      "rationale": "New access-guide fields do not recertify older catalogue context. Verify the undated fewer-than-one-in-ten participation statement with a defined population and period; distinguish specific emergency-research consent exceptions from a general deferred-consent rule and verify the cross-jurisdiction child/representative wording; qualify universal amendment-review and untraceable-analysis assertions in the protocol summary. These are separate from the source-first guide requirements and remain queued for direct source review."
+    }
+  },
+  "primaryDepth": "One original-paper abstract, official website projections, four complete official CFR sections, one complete guidance PDF text and targeted passages in other FDA guidance/label PDFs. Zero whole original papers.",
+  "broaderAuditComplete": false,
+  "limits": [
+    "No full Next production build or deployment.",
+    "No new expert, learner, clinical-owner or language approval.",
+    "Source guide diagrams were checked in isolated rendering, not the live Guide page."
+  ]
+}

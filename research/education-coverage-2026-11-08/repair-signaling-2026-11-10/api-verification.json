@@ -1,0 +1,647 @@
+{
+  "phases": [
+    {
+      "phase": "schema",
+      "canonicalOwners": 1,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 3,
+      "generation": [
+        {
+          "phase": "schema",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 33.47
+        },
+        {
+          "phase": "schema",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.91
+        },
+        {
+          "phase": "schema",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.63
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "p09:r2",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r3",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r4",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "ras-mapk.json",
+          "bytes": 39298,
+          "sha256": "2788758bda959f82c5741b250b0e1d2d1393b410de57883d9d6949f28075c819"
+        },
+        {
+          "path": "ras-mapk.md",
+          "bytes": 27054,
+          "sha256": "4431ee55cdd615befa702fd1babad22faec459b442ce54bbfb4e656bbe89121e"
+        }
+      ]
+    },
+    {
+      "phase": "root",
+      "canonicalOwners": 17,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 64,
+      "generation": [
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 29.06
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.78
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.56
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "p00:r1",
+          "owner": "brca",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p00:r2",
+          "owner": "brca",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p00:r3",
+          "owner": "brca",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p00:r4",
+          "owner": "brca",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p01:r1",
+          "owner": "ddr",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p01:r2",
+          "owner": "ddr",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p01:r3",
+          "owner": "ddr",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p01:r4",
+          "owner": "ddr",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p02:r1",
+          "owner": "hrd-genomic-scar-scores",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p02:r2",
+          "owner": "hrd-genomic-scar-scores",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p02:r3",
+          "owner": "hrd-genomic-scar-scores",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p02:r4",
+          "owner": "hrd-genomic-scar-scores",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p03:r1",
+          "owner": "hrd",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p03:r2",
+          "owner": "hrd",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p03:r3",
+          "owner": "hrd",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p03:r4",
+          "owner": "hrd",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p04:r1",
+          "owner": "mutational-signature",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p04:r2",
+          "owner": "mutational-signature",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p04:r3",
+          "owner": "mutational-signature",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p04:r4",
+          "owner": "mutational-signature",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p05:r1",
+          "owner": "homologous-recombination-repair",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p05:r2",
+          "owner": "homologous-recombination-repair",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p05:r3",
+          "owner": "homologous-recombination-repair",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p05:r4",
+          "owner": "homologous-recombination-repair",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p06:r1",
+          "owner": "replication-stress",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p06:r2",
+          "owner": "replication-stress",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p06:r3",
+          "owner": "replication-stress",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p06:r4",
+          "owner": "replication-stress",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p07:r1",
+          "owner": "androgen-receptor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p07:r2",
+          "owner": "androgen-receptor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p07:r3",
+          "owner": "androgen-receptor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p07:r4",
+          "owner": "androgen-receptor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p08:r1",
+          "owner": "brd4",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p08:r2",
+          "owner": "brd4",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p08:r3",
+          "owner": "brd4",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p08:r4",
+          "owner": "brd4",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r1",
+          "owner": "braf",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r2",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r3",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p09:r4",
+          "owner": "ras-mapk",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p10:r1",
+          "owner": "myc",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p10:r2",
+          "owner": "myc",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p10:r3",
+          "owner": "myc",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p10:r4",
+          "owner": "myc",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p11:r1",
+          "owner": "notch",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p11:r2",
+          "owner": "notch",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p11:r3",
+          "owner": "notch",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p11:r4",
+          "owner": "notch",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p12:r1",
+          "owner": "keap1",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p12:r2",
+          "owner": "keap1",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p12:r3",
+          "owner": "keap1",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p12:r4",
+          "owner": "keap1",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p13:r1",
+          "owner": "pi3k-akt-mtor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p13:r2",
+          "owner": "pi3k-akt-mtor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p13:r3",
+          "owner": "pi3k-akt-mtor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p13:r4",
+          "owner": "pi3k-akt-mtor",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p14:r1",
+          "owner": "rtk-activation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p14:r2",
+          "owner": "rtk-activation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p14:r3",
+          "owner": "rtk-activation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p14:r4",
+          "owner": "rtk-activation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p15:r1",
+          "owner": "wnt",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p15:r2",
+          "owner": "wnt",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p15:r3",
+          "owner": "wnt",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "p15:r4",
+          "owner": "wnt",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "hrd.json",
+          "bytes": 18412,
+          "sha256": "6d06020c11bfa195a0f56645d2cbf09cedce6c094159b3b65e83fcd8fe5fe07a"
+        },
+        {
+          "path": "hrd.md",
+          "bytes": 13771,
+          "sha256": "112de39804218f8ddad8bd2fa09fc8f96eb3483e518c5eec39ad24ccf0f5f374"
+        },
+        {
+          "path": "replication-stress.json",
+          "bytes": 9711,
+          "sha256": "f98b9a82335e5d2a5e34150ebc664db149a96f3fac873914146da210bdb7ed56"
+        },
+        {
+          "path": "replication-stress.md",
+          "bytes": 6735,
+          "sha256": "8b65da5a6598f8c3a28a92906f882cc39a07e9981b95c66e9e02760ea716177c"
+        },
+        {
+          "path": "androgen-receptor.json",
+          "bytes": 33370,
+          "sha256": "12e3d0d8a1d147a5029302ea2e6c13e6249e37a78b75d5fe99f4a1e75b0325e9"
+        },
+        {
+          "path": "androgen-receptor.md",
+          "bytes": 20496,
+          "sha256": "bb2d7746929794fc8849699e5dd4989bd97c29ab4d04334c0783e12b12941c24"
+        },
+        {
+          "path": "brd4.json",
+          "bytes": 8362,
+          "sha256": "06be120f6bbcae836981ae135e0903ef1fc56bc0922eb150d2f8e32713489b3b"
+        },
+        {
+          "path": "brd4.md",
+          "bytes": 5617,
+          "sha256": "bd8d06c6293252f6d89f632b36a5d7647747c738d4c8c76521e6dbe5cdb8c467"
+        },
+        {
+          "path": "myc.json",
+          "bytes": 15509,
+          "sha256": "6c788b942921ccce47a6be71c9ce1fc42e740de35aead45c365ac58a50587094"
+        },
+        {
+          "path": "myc.md",
+          "bytes": 10997,
+          "sha256": "386ee4441b822cc33fea12c56d56b94716d5f20217ba1f46294006dca48fe82c"
+        },
+        {
+          "path": "notch.json",
+          "bytes": 8839,
+          "sha256": "6ff8d5897cdfd3ccb73e310c48d1a5772a81a4fe44265c78c60d7a390f07fa28"
+        },
+        {
+          "path": "notch.md",
+          "bytes": 6566,
+          "sha256": "28a943b3d451606fc171737c1cdb6f87590222a2f5b9b1e3ea2ddea7c3015dc1"
+        },
+        {
+          "path": "pi3k-akt-mtor.json",
+          "bytes": 24376,
+          "sha256": "79b7765619d7184b51e7c16d02d464373e09e6bc63b365af5cfb6a950755c489"
+        },
+        {
+          "path": "pi3k-akt-mtor.md",
+          "bytes": 16891,
+          "sha256": "74db809e14e70a638c65aaa87d14a862529b1a9f664c325f0fe54c2b5089bfc8"
+        },
+        {
+          "path": "wnt.json",
+          "bytes": 15543,
+          "sha256": "b52986e3b0e7866c4e0469ef391d57b0ec77f3fbc72af332c7e5b425b40854fb"
+        },
+        {
+          "path": "wnt.md",
+          "bytes": 10922,
+          "sha256": "73317443be4f1f16e17c427447526489746273a015f8967fa1574bf43b51de35"
+        },
+        {
+          "path": "braf.json",
+          "bytes": 37659,
+          "sha256": "7f38ac17760453d74905d86de78b461726a376439256249387e24559a8bc18d8"
+        },
+        {
+          "path": "braf.md",
+          "bytes": 20996,
+          "sha256": "7409c57c900ce670ae01f72575bfe25c971c6b1d94f1fa32daa33dfd2521eeea"
+        },
+        {
+          "path": "brca.json",
+          "bytes": 53729,
+          "sha256": "1ce1ebfa17d2a6772a903ca39319292d7f5106ab7cc8741aefb5414c3c49b58b"
+        },
+        {
+          "path": "brca.md",
+          "bytes": 32673,
+          "sha256": "4bd010622ea136580681da6c2bf2272c270cfa94df24ed2730aa42ad377d8442"
+        },
+        {
+          "path": "ddr.json",
+          "bytes": 14059,
+          "sha256": "5229166b8784ec0503b14b56b020aa6c976b8b57d18a51435defff858bf2ca25"
+        },
+        {
+          "path": "ddr.md",
+          "bytes": 10004,
+          "sha256": "964196d17701a1351f78f0b7f2098d2941b13f3924181bccdc4c141ddd9f6dfa"
+        },
+        {
+          "path": "hrd-genomic-scar-scores.json",
+          "bytes": 8656,
+          "sha256": "1ffac336ce6046c455c8586c6530bdac0ace1a00fc17f7fc2ecf5304026761cf"
+        },
+        {
+          "path": "hrd-genomic-scar-scores.md",
+          "bytes": 7047,
+          "sha256": "62e2412374eb89d9137a11a3c7bd3294388ffd43f23f14942a8530722720c11f"
+        },
+        {
+          "path": "mutational-signature.json",
+          "bytes": 12148,
+          "sha256": "d967310d344b2a5d3419f9762591e9a323ccb4979b766aca25c2180f9f06e74d"
+        },
+        {
+          "path": "mutational-signature.md",
+          "bytes": 9180,
+          "sha256": "9efda181f31af6ce23e2adc320e0dd8cb8a18805e31ffaa5cd048ca46ad8532a"
+        },
+        {
+          "path": "homologous-recombination-repair.json",
+          "bytes": 18739,
+          "sha256": "665c9d597c40f9dc3db7d2176ceed0026f5ce035405e7d6b8ab228df9e190236"
+        },
+        {
+          "path": "homologous-recombination-repair.md",
+          "bytes": 13009,
+          "sha256": "5b6c7623d7cd6a47d726f2f35bccd8ce841fb0e356facbdbe7cbd42d87a5461c"
+        },
+        {
+          "path": "ras-mapk.json",
+          "bytes": 38622,
+          "sha256": "f8e2b7ea0e26932d3933d39cff135b53efe4949c779560cc37722cb7ee72c147"
+        },
+        {
+          "path": "ras-mapk.md",
+          "bytes": 26054,
+          "sha256": "30ea763223f484005615667a76d92c289a097d787f5a6ce148d6f2523bb80c2f"
+        },
+        {
+          "path": "keap1.json",
+          "bytes": 16986,
+          "sha256": "04a77cb15360e2600bd008413cc2e230b06ebfc5e210fc960ac4ddfb9214bfa2"
+        },
+        {
+          "path": "keap1.md",
+          "bytes": 10411,
+          "sha256": "9fc9fee0ba51f1aef993ebde440a06815181f835db8ebfe0f7f9abe823da4eb8"
+        },
+        {
+          "path": "rtk-activation.json",
+          "bytes": 27541,
+          "sha256": "8547094cb34f846a7facc4c0efb5234390d7b3e57e62c5edc4af40fc27076e36"
+        },
+        {
+          "path": "rtk-activation.md",
+          "bytes": 18636,
+          "sha256": "6eff21479c2a757d6bae5dc66e92f4f212ce1834bf24bf9d4b0b031c4fc773ec"
+        }
+      ]
+    }
+  ],
+  "scope": "Actual generators run serially in each owning checkout; all selected canonical JSON equals current graph snapshots and all selected body passages survive actual Markdown."
+}

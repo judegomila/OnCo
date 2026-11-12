@@ -1,0 +1,129 @@
+{
+  "checkedOn": "2026-11-09",
+  "curriculumRequirementsClosed": 4,
+  "newCurriculumReading": 0,
+  "newRecords": 0,
+  "newExistingOwnersAddedToProposal": 18,
+  "existingOwnersTouched": 20,
+  "existingAdjacentFindingClosed": 1,
+  "additionalAdjacentFindingsClosed": 3,
+  "existingProofRehashesAfterExactGrammarReview": [
+    {
+      "recordId": "dna-term",
+      "field": "notes",
+      "reason": "Grammar specifies that an assay, rather than the modified histone itself, measures the response. All other text is byte-identical."
+    }
+  ],
+  "resolvedPublicationIdentities": 19,
+  "newLiteratureOccurrences": 8,
+  "rawCaptureReceipts": 31,
+  "registryIdentities": 4,
+  "rawBodies": "Persistent local cache outside Git; public metadata/hashes only. No previously unavailable historical response is claimed restored.",
+  "validation": {
+    "status": "pass",
+    "renderedOwners": 113,
+    "readerFieldParts": 124,
+    "additionalCancerSections": 6,
+    "build": "Pinned data-branch GRAPH_JSON export blocker retained; no combined-draft build or deployment.",
+    "validate": "22707 entities",
+    "typecheck": "pass",
+    "lint": "0 errors; 7 existing warnings",
+    "biomarkerFocusedTests": "16 passed after fixes",
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2821,
+      "testsSkipped": 2,
+      "durationSeconds": 84.19
+    },
+    "firstFullSuite": {
+      "filesPassed": 281,
+      "filesFailed": 1,
+      "testsPassed": 2819,
+      "testsFailed": 2,
+      "testsSkipped": 2,
+      "durationSeconds": 95.77,
+      "findings": "New UK-spelling violations and a scoring-source allowlist that excluded the actual CAP definition. A short verified quote was also extended before the focused recheck. Approval-source checks and the >10-character quote floor stay unchanged."
+    },
+    "testSpecificationChange": "Only scoring definitions may additionally cite the first-party CAP uploads path. Threshold and companion-diagnostic sources retain the existing narrower allowlist. No retrieval question, expected entity, scoring, floor or budget changed.",
+    "node": "25.9.0; existing Vitest engine-range warning retained",
+    "dedupe": {
+      "groups": 9,
+      "paperCount": 2828,
+      "trialCount": 6521,
+      "newDOIOrPMIDDuplicateGroup": false,
+      "scope": "Same pre-existing groups; no records added by this checkpoint."
+    }
+  },
+  "fieldProofsRehashedAfterStyleReview": [
+    {
+      "recordId": "her2-low-ihc",
+      "field": "notes",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "her2-ihc-0",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "ascent",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "trop2-expression",
+      "field": "scoringRule",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "destiny-breast06",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "dako-pd-l1-22c3-pharmdx",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "trop2",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "trop2",
+      "field": "notes",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "trop2",
+      "field": "biology",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "her2-ihc-0",
+      "field": "summary",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "paper-destiny-breast04-nejm-2022",
+      "field": "caveats",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "paper-destiny-breast06-nejm-2024",
+      "field": "findings",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    },
+    {
+      "recordId": "paper-destiny-breast06-nejm-2024",
+      "field": "notes",
+      "reason": "UK spelling only; the TROP2 scoring source switches to the independently resolved DOI for the same MED paper."
+    }
+  ]
+}

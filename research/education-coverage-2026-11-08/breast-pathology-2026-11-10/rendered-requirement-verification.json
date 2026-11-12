@@ -1,0 +1,2152 @@
+{
+  "canonicalOwners": 22,
+  "exactPassageChecks": 330,
+  "passed": 330,
+  "checks": [
+    {
+      "requirementId": "SR-01-01",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-01",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-03",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-03",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-04",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-05",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-07",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-09",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-09",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-10",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-11",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-11",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-12",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-12",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-13",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-01-13",
+      "recordId": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-01",
+      "recordId": "dcis",
+      "field": "tldr",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-01",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-02",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-03",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-03",
+      "recordId": "dcis",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-04",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-04",
+      "recordId": "dcis",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-05",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-05",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-06",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-07",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-08",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-08",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-09",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-09",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-10",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-10",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-02-11",
+      "recordId": "dcis",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-01",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-02",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-03",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-03",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-04",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-05",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-06",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-07",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-08",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-09",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-09",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-10",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-12",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-03-12",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-01",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-02",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-02",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-03",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-03",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-04",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-05",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-06",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-06",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-07",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-08",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-09",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-10",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-10",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-04-11",
+      "recordId": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-01",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-01",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-02",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-03",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-03",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-04",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-05",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-05",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-06",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-07",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-08",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-09",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-09",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-10",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-11",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-11",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "recordId": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "recordId": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-01",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-02",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-03",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-03",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-04",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-05",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-05",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-06",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-06",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-07",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-08",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-08",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-09",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-10",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-11",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-11",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-06-12",
+      "recordId": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-01",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-02",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-03",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-04",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-04",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-05",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-05",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-06",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-07",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-08",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-08",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-09",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-09",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-10",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-10",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-07-11",
+      "recordId": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-01",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-02",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-03",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-03",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-04",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-05",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-05",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-06",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-06",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-07",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-08",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-09",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-10",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-10",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-08-11",
+      "recordId": "nottingham-grade",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-01",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-01",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-02",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-03",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-04",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-05",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-05",
+      "recordId": "ki-67-index",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-06",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-07",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-08",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-09",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-10",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-09-10",
+      "recordId": "ki-67-index",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-01",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-03",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-04",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-05",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-06",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-06",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-07",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-07",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-08",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-09",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-10",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-10",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-11",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-01",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "recordId": "lymph-node-status",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-03",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-04",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-05",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-06",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-07",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-08",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-08",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-09",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-09",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-10",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-11-10",
+      "recordId": "tnm-staging",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-01",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-02",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-02",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-03",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-03",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-04",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-05",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-06",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-06",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-07",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-07",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-08",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-10",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-12-10",
+      "recordId": "extranodal-extension",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-01",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-01",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-02",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-03",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-04",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-05",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-06",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-07",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "recordId": "lumpectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-09",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-10",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-11",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-12",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-12",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-13-13",
+      "recordId": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-01",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-01",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-02",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-02",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-03",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-04",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-04",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-06",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-07",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-08",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-09",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-09",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-10",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-10",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-11",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-11",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-14-12",
+      "recordId": "pcr",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-01",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-02",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-03",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-04",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-04",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-05",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-05",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-06",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-08",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-08",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-09",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-10",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-11",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-12",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-01",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-02",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-03",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-03",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-04",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-04",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-05",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-06",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-06",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-07",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-08",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-08",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-09",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-09",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-10",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-11",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-12",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-12",
+      "recordId": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-16-13",
+      "recordId": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-01",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-01",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-02",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-03",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-04",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-05",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-06",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-08",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-09",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-09",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-10",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-11",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "recordId": "resection-margins",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-01",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-02",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-02",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-03",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-04",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-05",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-06",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-07",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-08",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-09",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "recordId": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-01",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-02",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-03",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-04",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-04",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-05",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-05",
+      "recordId": "rcb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-06",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-07",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-08",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-09",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-09",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "SR-19-10",
+      "recordId": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    }
+  ],
+  "captures": [
+    {
+      "id": "ki-67-index",
+      "capture": "ki-67-index.html",
+      "sha256": "2a5af5a1b90d5e0d6a5017b11efe4126f6fb5c4855aa17ec95f5f4557d4ff6e7",
+      "bytes": 45544,
+      "currentRefresh": true
+    },
+    {
+      "id": "extranodal-extension",
+      "capture": "extranodal-extension.html",
+      "sha256": "ac9cc5f376029080c56116e78a2e5318d0913e817ed98a942ecbc8a6bb4310ca",
+      "bytes": 37410,
+      "currentRefresh": true
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy",
+      "capture": "sentinel-lymph-node-biopsy.html",
+      "sha256": "3a39dd9beb44b72af1407c50cdbcc2a11a80e5fb3d77aff9d1bb735c01802757",
+      "bytes": 45698,
+      "currentRefresh": true
+    },
+    {
+      "id": "dcis",
+      "capture": "dcis.html",
+      "sha256": "8d77a85b066607cd9e50a6a0ca023e0fa91934460742b02abb451633f564c116",
+      "bytes": 43650,
+      "currentRefresh": true
+    },
+    {
+      "id": "pcr",
+      "capture": "pcr.html",
+      "sha256": "48123bd2f49b29805957d5e4203a1a01384c00a85ad86a930b51b8b27fcd8094",
+      "bytes": 84478,
+      "currentRefresh": true
+    },
+    {
+      "id": "rcb",
+      "capture": "rcb.html",
+      "sha256": "e13f2d64cc577243c56799083564f2ac5ce28f94b502cbb8372a8cb2604fd638",
+      "bytes": 69339,
+      "currentRefresh": true
+    },
+    {
+      "id": "tnm-staging",
+      "capture": "tnm-staging.html",
+      "sha256": "2ca8d463cb0118ec870b5ce15c234b42d23499d231571ff4c04639200b405e5a",
+      "bytes": 47855,
+      "currentRefresh": true
+    },
+    {
+      "id": "terminal-duct-lobular-unit",
+      "capture": "terminal-duct-lobular-unit.html",
+      "sha256": "d8ad0352d3c73f491c4286537b09c501f46a88e5a969ae0385d529324073e1a5",
+      "bytes": 50333,
+      "currentRefresh": true
+    },
+    {
+      "id": "nottingham-grade",
+      "capture": "nottingham-grade.html",
+      "sha256": "c78f51b182c0cf58fc18392c58ff774d2c9c8a5444c955d5a3c33ded6294e7b5",
+      "bytes": 51441,
+      "currentRefresh": true
+    },
+    {
+      "id": "targeted-axillary-dissection",
+      "capture": "targeted-axillary-dissection.html",
+      "sha256": "4b94cc8997a60fd46b7d7e07eb44f6ba4ef577283508781f0e6abdc8ef30f2cb",
+      "bytes": 34468,
+      "currentRefresh": true
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast",
+      "capture": "ajcc-prognostic-stage-breast.html",
+      "sha256": "62d6879da3fd144d980c01457e45f172c3b0aa1e1a30b7e423bb467b20a6cb94",
+      "bytes": 36968,
+      "currentRefresh": true
+    },
+    {
+      "id": "internal-mammary-nodes",
+      "capture": "internal-mammary-nodes.html",
+      "sha256": "0e745739b1efb86680dd87c6c2269aede64754e85ed9110464d34c28ccb18690",
+      "bytes": 25344,
+      "currentRefresh": true
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla",
+      "capture": "lymphatic-drainage-and-axilla.html",
+      "sha256": "9de9e6de93806694f07cc1c316336cc17fd5c9bb9c603c8af8e0ca13527d6f62",
+      "bytes": 25099,
+      "currentRefresh": true
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane",
+      "capture": "myoepithelial-cells-and-basement-membrane.html",
+      "sha256": "9aef41091f382035b00f9079cecd7cae8fdd8d1ba792087e7bf30f345044a565",
+      "bytes": 30434,
+      "currentRefresh": true
+    },
+    {
+      "id": "treatment-effect-in-pathology",
+      "capture": "treatment-effect-in-pathology.html",
+      "sha256": "9a368f9486efcf411206dd8d9f8de974840f5360761e7b66bdeb777e272642f9",
+      "bytes": 28198,
+      "currentRefresh": true
+    },
+    {
+      "id": "tumor-bed-cellularity",
+      "capture": "tumor-bed-cellularity.html",
+      "sha256": "095e79ea6725831029dcf94fbfb2edc320fa5a159986ca91e7a6ba4f448103ef",
+      "bytes": 29035,
+      "currentRefresh": true
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type",
+      "capture": "invasive-breast-carcinoma-no-special-type.html",
+      "sha256": "ec34005b090a854508d90ba4c59eeb52d688d49a7a83f6f964772ad275079ee1",
+      "bytes": 71264,
+      "currentRefresh": true
+    },
+    {
+      "id": "lymph-node-status",
+      "capture": "lymph-node-status.html",
+      "sha256": "7baf8d9853088220ab5c08663c1916bfd813465ff21973d1834a020d1987bd37",
+      "bytes": 34784,
+      "currentRefresh": true
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy",
+      "capture": "breast-conserving-surgery-versus-mastectomy.html",
+      "sha256": "b59da3e0c1a96032c66c8865866134ae046d7b799e1d34cedf39ac714e78ea1b",
+      "bytes": 47166,
+      "currentRefresh": true
+    },
+    {
+      "id": "resection-margins",
+      "capture": "resection-margins.html",
+      "sha256": "3d93c820953a93e44f4554f386beb2558850d03cd0079d4d174fef2eca45b758",
+      "bytes": 56411,
+      "currentRefresh": true
+    },
+    {
+      "id": "lumpectomy",
+      "capture": "lumpectomy.html",
+      "sha256": "6a99b18b4985b7c91bfdbac7390bd30bfffc73273d549901d5c196ae7e1e6a6a",
+      "bytes": 44127,
+      "currentRefresh": true
+    },
+    {
+      "id": "mastectomy",
+      "capture": "mastectomy.html",
+      "sha256": "dfd72afb8e9e9848a2d116f806962d75dceab4509dcd8a6487e0e010df0b5d87",
+      "bytes": 45026,
+      "currentRefresh": true
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type",
+      "route": "/cancers/invasive-breast-carcinoma-no-special-type/data/",
+      "capture": "cancer-data-final.html",
+      "sha256": "659c44efdcd1b2d65c1b74807ee43b556a98b6256a189e8b2457ba645d46c9db",
+      "bytes": 41211,
+      "currentRefresh": true
+    }
+  ],
+  "scope": "Actual EntityDetail server rendering with current graph data. All 22 canonical owners rendered after final runtime fields; the cancer owner additionally uses its actual separate Data route. No browser layout, hydration, mobile or accessibility claim."
+}

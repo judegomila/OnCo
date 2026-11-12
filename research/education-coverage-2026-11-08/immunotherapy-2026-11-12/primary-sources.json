@@ -1,0 +1,1370 @@
+{
+  "publications": [
+    {
+      "id": "pmid-20697067",
+      "pmid": "20697067",
+      "pmcid": "PMC2954133",
+      "doi": "10.1200/jco.2010.28.9793",
+      "title": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+      "authors": "Brody JD, Ai WZ, Czerwinski DK, Torchia JA, Levy M, Advani RH, Kim YH, Hoppe RT, Knox SJ, Shin LK, Wapnir I, Tibshirani RJ, Levy R.",
+      "year": "2010",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/20697067/",
+      "rawCoreSha256": "9f90ce98a40c2365c1ac2aa8e8fe3c6b887b1998bf68cf85933e3a3225daca8e",
+      "crossrefSha256": "1da3f98f14fd270a8ae9cd8641f8cb6d7dc4a215cdc1ecf9a04d302f5e8dc6c1",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "f31ec053dccabff3136336f9744d01d49455f158167ccaad87922dbd5eacf09b",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "20697076",
+            "reference": "J Clin Oncol. 2010 Oct 1;28(28):4295-6. doi: 10.1200/JCO.2010.30.4212",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "21434797",
+            "reference": "Expert Rev Vaccines. 2011 Mar;10(3):295-8. doi: 10.1586/erv.11.6",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-28678778",
+      "pmid": "28678778",
+      "pmcid": "PMC5577644",
+      "doi": "10.1038/nature22991",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "authors": "Ott PA, Hu Z, Keskin DB, Shukla SA, Sun J, Bozym DJ, Zhang W, Luoma A, Giobbie-Hurder A, Peter L, Chen C, Olive O, Carter TA, Li S, Lieb DJ, Eisenhaure T, Gjini E, Stevens J, Lane WJ, Javeri I, Nellaiappan K, Salazar AM, Daley H, Seaman M, Buchbinder EI, Yoon CH, Harden M, Lennon N, Gabriel S, Rodig SJ, Barouch DH, Aster JC, Getz G, Wucherpfennig K, Neuberg D, Ritz J, Lander ES, Fritsch EF, Hacohen N, Wu CJ.",
+      "year": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28678778/",
+      "rawCoreSha256": "b8f0ad4f2e5fbe4b76372f72b4e7974257f618300129898a38a4366b7515e049",
+      "crossrefSha256": "914941da7461510cbdd3923b5baf146eee6c91a40f415a09c258d0f578c7db06",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "0ae615164b93437294eaacaadfbb42788b667b82885820431adaf3100586bf91",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "0e970293b24ead4d78902176dcf682b411618292463927b875f62808ad0652d0",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "5b6002c5ffeb903dd538373ff2d44da008bd93c0d6b0d8d2de35609b753a1e1e",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 3,
+          "normalisedParagraphSha256": "327882ebaeb53bf7bd71021894b4a369db1aa01a137219f500b4b322a307c51c",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 6,
+          "normalisedParagraphSha256": "f50803d0c69e81f43103b2b276019da0769d44fe2cb1cdf3cc8ee469b7467bef",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 7,
+          "normalisedParagraphSha256": "a8c11d84d6872729c45a1b65fedf851a0ddca754fc5f8652689f39ab97db3aa1",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 13,
+          "normalisedParagraphSha256": "911c23c0fbd098720a6badd7755ab5fa1647fb0b6003df299df8991def7c89f7",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 14,
+          "normalisedParagraphSha256": "a6a3a4ca630912e4046292e36212faab44089b32bbff8f8239d801ecc1c5a703",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 29,
+          "normalisedParagraphSha256": "c432abfade174258f7e71b710a59d78e365e8eb66db0f3847b278e4a999ab7bd",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28678778-efetch.xml",
+          "ordinal": 34,
+          "normalisedParagraphSha256": "bd8e0ad1a81a30e01eb69e21c3a6a642cf69167ee08ebaecfb926a4159444b4d",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              13
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "28678783",
+            "reference": "Nature. 2017 Jul 13;547(7662):165-167. doi: 10.1038/nature23093.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "28740114",
+            "reference": "Nat Rev Cancer. 2017 Jul 25;17(8):451. doi: 10.1038/nrc.2017.61.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "28813655",
+            "reference": "Immunity. 2017 Aug 15;47(2):221-223. doi: 10.1016/j.immuni.2017.08.001.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "28867556",
+            "reference": "Trends Mol Med. 2017 Oct;23(10):869-871. doi: 10.1016/j.molmed.2017.08.007.",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "29542692",
+            "reference": "Nature. 2018 Mar 14;555(7696):402. doi: 10.1038/nature25145.",
+            "type": "Erratum in",
+            "orderIn": 5
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-16484453",
+      "pmid": "16484453",
+      "pmcid": null,
+      "doi": "10.1126/science.1122927",
+      "title": "Selective stimulation of T cell subsets with antibody-cytokine immune complexes.",
+      "authors": "Boyman O, Kovar M, Rubinstein MP, Surh CD, Sprent J.",
+      "year": "2006",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/16484453/",
+      "rawCoreSha256": "558320fbc25830e8ca1a53d30256e9b2f5b8759711aa6ae6a198cf900fd83c23",
+      "crossrefSha256": "d52beb01058e32e944abf219997ff1876f946d0315e56763966abf3af8c72bcb",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "fce064ddc0871d8fc8dc21ef586dc7693fa15c9c081507cc87e8de1256b34e7d",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              3,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2006,
+              3,
+              31
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "16574856",
+            "reference": "Science. 2006 Mar 31;311(5769):1875-6. doi: 10.1126/science.1126030",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-25695689",
+      "pmid": "25695689",
+      "pmcid": "PMC4433819",
+      "doi": "10.1158/1078-0432.ccr-14-2085",
+      "title": "Tumor-infiltrating lymphocytes genetically engineered with an inducible gene encoding interleukin-12 for the immunotherapy of metastatic melanoma.",
+      "authors": "Zhang L, Morgan RA, Beane JD, Zheng Z, Dudley ME, Kassim SH, Nahvi AV, Ngo LT, Sherry RM, Phan GQ, Hughes MS, Kammula US, Feldman SA, Toomey MA, Kerkar SP, Restifo NP, Yang JC, Rosenberg SA.",
+      "year": "2015",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/25695689/",
+      "rawCoreSha256": "ce8b7be1d246764c761b5c2ea332ca21c521783de6038a0bed3d5f45df6a078a",
+      "crossrefSha256": "6a1b90af8dec7593df9b832e85dd982f6dfaae42b88289df3f80d15079b1a53a",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "66a97c7d4032c91f38c79c200727f136312cde8a81b3a3bea2735b1ceabadc58",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-25695689-efetch.xml",
+          "ordinal": 22,
+          "normalisedParagraphSha256": "2bacb23189dfd18108953541735daba279aa8784af1e1366f2c5fc786060b51d",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-25695689-efetch.xml",
+          "ordinal": 26,
+          "normalisedParagraphSha256": "5dbbe07688be39b538203a531541d2f78e4a777e91cc9460b72cfc55bc00708e",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-25695689-efetch.xml",
+          "ordinal": 27,
+          "normalisedParagraphSha256": "fac0b6a2a736de012c171def4479618a050933fbac169323d2d4d4b896614c0d",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              5,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2015,
+              5,
+              14
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              5,
+              15
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-21474713",
+      "pmid": "21474713",
+      "pmcid": "PMC3198051",
+      "doi": "10.1126/science.1202947",
+      "title": "Trans-endocytosis of CD80 and CD86: a molecular basis for the cell-extrinsic function of CTLA-4.",
+      "authors": "Qureshi OS, Zheng Y, Nakamura K, Attridge K, Manzotti C, Schmidt EM, Baker J, Jeffery LE, Kaur S, Briggs Z, Hou TZ, Futter CE, Anderson G, Walker LS, Sansom DM.",
+      "year": "2011",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/21474713/",
+      "rawCoreSha256": "1a6f5afff0b40e9157eb01a0b5136d0a0af35e9c5e4118a14fb34cf8c4a0aa31",
+      "crossrefSha256": "14946650e18047ae177f0c781cf40f31e772b145d36dad2132a36eb22f9ea98e",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "4f12420eeb8b8bfc5d32b7bc3e341bcd3283001a24f0fbf6b1402bf6acc8b9f1",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-21474713-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "9acf39c76571e22b3c2d6c6e432f657ebf5b696008e04cee6c56f007b06fd7a9",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-21474713-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "8728b5cb7282988c5f0fdf62288f0e66f74d583ac65b0a9bb23d51861d63983a",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-21474713-efetch.xml",
+          "ordinal": 2,
+          "normalisedParagraphSha256": "d1684944ae19d42c7cf6e22adb57b96e49a87b0f2eee04a6b1b974085b45f482",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-21474713-efetch.xml",
+          "ordinal": 7,
+          "normalisedParagraphSha256": "8cc40f3a5dd6a460afd3e98364d2198423bc667f01f331e1be21d20a735893d1",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              29
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "21527700",
+            "reference": "Science. 2011 Apr 29;332(6029):542-3. doi: 10.1126/science.1206122.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-28280247",
+      "pmid": "28280247",
+      "pmcid": "PMC6286077",
+      "doi": "10.1126/science.aaf1292",
+      "title": "T cell costimulatory receptor CD28 is a primary target for PD-1-mediated inhibition.",
+      "authors": "Hui E, Cheung J, Zhu J, Su X, Taylor MJ, Wallweber HA, Sasmal DK, Huang J, Kim JM, Mellman I, Vale RD.",
+      "year": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28280247/",
+      "rawCoreSha256": "03cb266bdbac5f4a04d0caa772d25592a0b98b003f6b7d5653942de1a2dc1ef1",
+      "crossrefSha256": "5111ab873e09532540904b8bf3463ce43afb27a5aa0924de608ecc895312e847",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "5412c911db0a48b8bdd96ca2633a3108ebdc8cbf55a88964363338a18a37b66b",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-28280247-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "0e22125dc868205b10b2fce922f2f553beebe995ff7bc208ebce753d5be04719",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28280247-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "4fbbebed1f0cd903401352c4aa85a066a55e5552f0b90d24fab37369747453b8",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28280247-efetch.xml",
+          "ordinal": 10,
+          "normalisedParagraphSha256": "1f301896e369b5eb20297cc23ef3bcd05f7c059b651757433a40e888349d0090",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-28280247-efetch.xml",
+          "ordinal": 11,
+          "normalisedParagraphSha256": "1ab67d44ea1dda60f5d6dcd5d94556c11894e8e794a6f0f4c6cb0798bf0663a8",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              31
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "28345633",
+            "reference": "Nat Rev Immunol. 2017 Mar 27;17(4):215. doi: 10.1038/nri.2017.32",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "28360282",
+            "reference": "Science. 2017 Mar 31;355(6332):1373-1374. doi: 10.1126/science.aan1467",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "28423334",
+            "reference": "Immunity. 2017 Apr 18;46(4):529-531. doi: 10.1016/j.immuni.2017.04.003",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "PPR",
+            "id": "PPR33614",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-39282906",
+      "pmid": "39282906",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2409932",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Dent R, McArthur H, Pusztai L, Kümmel S, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Im SA, Untch M, Fasching PA, Mouret-Reynier MA, Foukakis T, Ferreira M, Cardoso F, Zhou X, Karantza V, Tryfonidis K, Aktan G, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2024",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/39282906/",
+      "rawCoreSha256": "7cf737cc112cebb2c1a6f279cde6cb2d93a32bd402a8fc2aae208b760b046e6d",
+      "crossrefSha256": "1b87bf9d4199946a040d90be18fae0036142a32e70b1076ff6ca3642b54a3c5b",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "ee4f52cf14ea1b86c70da83d43b2fb2ceeb0f67e85955d0059214e55ccb265e2",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              28
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              28
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40073316",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1140-1141. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "40073317",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1141. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "40073318",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1141-1142. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "40073319",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1142. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-35857659",
+      "pmid": "35857659",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2202809",
+      "title": "Pembrolizumab plus Chemotherapy in Advanced Triple-Negative Breast Cancer.",
+      "authors": "Cortes J, Rugo HS, Cescon DW, Im SA, Yusof MM, Gallardo C, Lipatov O, Barrios CH, Perez-Garcia J, Iwata H, Masuda N, Torregroza Otero M, Gokmen E, Loi S, Guo Z, Zhou X, Karantza V, Pan W, Schmid P, KEYNOTE-355 Investigators.",
+      "year": "2022",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/35857659/",
+      "rawCoreSha256": "f50cfa0c020547a4cd56e9a8d4b4a90134e8219f7d91a9c24cbfa93871d70f15",
+      "crossrefSha256": "6fdea6313838bebf4ee7ce8489428d74a88b10916c7838ae41b71c9253332a64",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "db29a49390da5e9ed26b461a4da7619bce50f6998b14b9b68b9f80425ac2fb98",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              21
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              21
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35857664",
+            "reference": "N Engl J Med. 2022 Jul 21;387(3):273-274. doi: 10.1056/NEJMe2207532.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "36239656",
+            "reference": "N Engl J Med. 2022 Oct 13;387(15):1435. doi: 10.1056/NEJMc2210919.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "36239657",
+            "reference": "N Engl J Med. 2022 Oct 13;387(15):1435-1436. doi: 10.1056/NEJMc2210919.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-30962585",
+      "pmid": "30962585",
+      "pmcid": null,
+      "doi": "10.1038/s41591-019-0410-x",
+      "title": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+      "authors": "Hammerich L, Marron TU, Upadhyay R, Svensson-Arvelund J, Dhainaut M, Hussein S, Zhan Y, Ostrowski D, Yellin M, Marsh H, Salazar AM, Rahman AH, Brown BD, Merad M, Brody JD.",
+      "year": "2019",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30962585/",
+      "rawCoreSha256": "456c032f8b34ac9207a0f8d7ca082bd3251b52effc27559b60e299e95f36cc9e",
+      "crossrefSha256": "ba46d68096b537228bd6df0ee2c76387eba4e0e55eca79d31b6b3cc40e3c23ef",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "03f1c1619c0f7700c755c54f21da29ca572bd3453e46bcaafb35c92d96a4b545",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              8
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              4,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              5
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-30295695",
+      "pmid": "30295695",
+      "pmcid": "PMC6290929",
+      "doi": "10.1093/annonc/mdy423",
+      "title": "Starting the fight in the tumor: expert recommendations for the development of human intratumoral immunotherapy (HIT-IT).",
+      "authors": "Marabelle A, Andtbacka R, Harrington K, Melero I, Leidner R, de Baere T, Robert C, Ascierto PA, Baurain JF, Imperiale M, Rahimian S, Tersago D, Klumper E, Hendriks M, Kumar R, Stern M, Öhrling K, Massacesi C, Tchakov I, Tse A, Douillard JY, Tabernero J, Haanen J, Brody J.",
+      "year": "2018",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30295695/",
+      "rawCoreSha256": "6c3a3682ba3d95f96270522fbe594cfa28439f95c5f909c42bce087d47e9f9a8",
+      "crossrefSha256": "01d2f90fb645e33ec474655be113bf0c580e4005541c9d19abb6298cda68e729",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "3a11fd4cdc3e4e66625016d0ef2da13772b0ecc580d1c060fca7cf80afc043cb",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 2,
+          "normalisedParagraphSha256": "2be469b4d9ec7c18b0f52afedf58878941f6ba6018a08adbb4ffe319cb46f752",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 3,
+          "normalisedParagraphSha256": "51a88b471fe0e55d291a05e672a55098ea40de06da22db0b7447a6b1fe1961c5",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 20,
+          "normalisedParagraphSha256": "c62a045f1372d763ea538dce8cfad356f3f320c3b0f595375d48ac21e2565ed4",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 21,
+          "normalisedParagraphSha256": "8658054e2f13b35bcc3142c3dae6253521e11b4323dac3fa4da63bf2f93ce60f",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 23,
+          "normalisedParagraphSha256": "97b7df373d1f33e3151f544152a109bbfda8b4714ee6c3357256f51a938564b4",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "pmid-30295695-fulltext.xml",
+          "ordinal": 112,
+          "normalisedParagraphSha256": "e82bd0847bdadb210c7cfa31f7670386970f81e5ac43b5242b5eaeb8caa12cbd",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              11
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-17569868",
+      "pmid": "17569868",
+      "pmcid": null,
+      "doi": "10.1126/science.1138963",
+      "title": "The vaccine adjuvant monophosphoryl lipid A as a TRIF-biased agonist of TLR4.",
+      "authors": "Mata-Haro V, Cekic C, Martin M, Chilton PM, Casella CR, Mitchell TC.",
+      "year": "2007",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/17569868/",
+      "rawCoreSha256": "2285288d177539038f21fba5a0282ac1a497312ae00019956b165e88ec082687",
+      "crossrefSha256": "006a38bd97c6af35952f2dd95b350e74e1e4545c1cf14262bbf4d4de231804b9",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "52e7e1b78d048faf9eb5bdaaa6aeef56aef946e4d9691992feaa2be87f09275a",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              6,
+              15
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "17569850",
+            "reference": "Science. 2007 Jun 15;316(5831):1574-6. doi: 10.1126/science.1144483.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "pmid-23455713",
+      "pmid": "23455713",
+      "pmcid": "PMC3618499",
+      "doi": "10.1038/nm.3105",
+      "title": "Persistent antigen at vaccination sites induces tumor-specific CD8⁺ T cell sequestration, dysfunction and deletion.",
+      "authors": "Hailemichael Y, Dai Z, Jaffarzad N, Ye Y, Medina MA, Huang XF, Dorta-Estremera SM, Greeley NR, Nitti G, Peng W, Liu C, Lou Y, Wang Z, Ma W, Rabinovich B, Sowell RT, Schluns KS, Davis RE, Hwu P, Overwijk WW.",
+      "year": "2013",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/23455713/",
+      "rawCoreSha256": "b2890116e5c2834c0a330ef5deec364766839d986a27b47d694e66ba44a9ce63",
+      "crossrefSha256": "96e53e81fc5f007895736902d5b397326e89fc7f5546ce666c31d0a5df110fc5",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "853721abb223e226baafea56ea867c2d9130a436b820c135facbc29e3a7c0505",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-23455713-fulltext.xml",
+          "ordinal": 10,
+          "normalisedParagraphSha256": "8efc03e8116c0df0b24659d934d3c0e5a52c822956f4738af84bf6a7db72f3a0",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              3,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              4
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "23558621",
+            "reference": "Nat Med. 2013 Apr;19(4):397-8. doi: 10.1038/nm.3113",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "23629498",
+            "reference": "Nat Rev Drug Discov. 2013 May;12(5):343. doi: 10.1038/nrd4014",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "doi-0",
+      "pmid": "28981385",
+      "pmcid": "PMC6075852",
+      "doi": "10.1200/jco.2017.73.7379",
+      "title": "Randomized, Open-Label Phase II Study Evaluating the Efficacy and Safety of Talimogene Laherparepvec in Combination With Ipilimumab Versus Ipilimumab Alone in Patients With Advanced, Unresectable Melanoma.",
+      "authors": "Chesney J, Puzanov I, Collichio F, Singh P, Milhem MM, Glaspy J, Hamid O, Ross M, Friedlander P, Garbe C, Logan TF, Hauschild A, Lebbé C, Chen L, Kim JJ, Gansert J, Andtbacka RHI, Kaufman HL.",
+      "year": "2018",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28981385/",
+      "rawCoreSha256": "f962a4cf1afd270870b7f98f8c6bea660ff11ce7f3209eb260c7625ec1b4aa48",
+      "crossrefSha256": "50e85f05ec4b1098b7dcc8f3aa080c0a9108eea1fdb4f06fab9fab0334628e32",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "f38df50e695551c03b7c7c0ea332e4d03524a26d8f9639ff37096561bb9c5322",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              10
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "extra-buchbinder",
+      "pmid": "26558876",
+      "pmcid": "PMC4892769",
+      "doi": "10.1097/coc.0000000000000239",
+      "title": "CTLA-4 and PD-1 Pathways: Similarities, Differences, and Implications of Their Inhibition.",
+      "authors": "Buchbinder EI, Desai A.",
+      "year": "2016",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/26558876/",
+      "rawCoreSha256": "dddd9c78b3de5c734466b4363e0e0ae3bd796924c3919b81bccf1188f914d3bc",
+      "crossrefSha256": "df6bc5da2b65adfe2b7e2b65a3b185955f7d6e5e3cba796f091a6d8f04c735c9",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "d6fee462caaad0439408df21d860d88d62f10ced6b1cb6d1865f1164f88c48d5",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "extra-buchbinder-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "32a7c20dc90c5c5faf9a6ae2cd4faf612d18647918fc5bb598e7f3a501c6538b",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "extra-buchbinder-efetch.xml",
+          "ordinal": 10,
+          "normalisedParagraphSha256": "6952538c78bdbc4a5efd56c52c2a6db897f55729d353f3e095e4ea14c2bc71d3",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "extra-buchbinder-efetch.xml",
+          "ordinal": 11,
+          "normalisedParagraphSha256": "d8724567bd58f7951952da532dc195cee02cbce1ec345794d9ff6675cd65d615",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        },
+        {
+          "captureFile": "extra-buchbinder-efetch.xml",
+          "ordinal": 12,
+          "normalisedParagraphSha256": "fa007fbcaf6af6a49f7f71c20d20ada9cf341fa8504fb99ffb1c7555479d6bc1",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              2
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "bg-nicola",
+      "pmid": "7696967",
+      "pmcid": null,
+      "doi": null,
+      "title": "Cytokine pleiotropy and redundancy: a view from the receptor.",
+      "authors": "Nicola NA.",
+      "year": "1994",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/7696967/",
+      "rawCoreSha256": "e7ec0ad455ef130cd140cda255d4e80be717ab7812eb3ceb83b37dbb1a34ce5b",
+      "crossrefSha256": null,
+      "registryIdentity": "Unique resolved MED record; no DOI assigned in core response",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "9c1d722a46343d1947ae85aef12a3487f9662928efa16dc18a49c6c07c0f6522",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {},
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "bg-interferon",
+      "pmid": "30995506",
+      "pmcid": "PMC6839410",
+      "doi": "10.1016/j.immuni.2019.03.025",
+      "title": "Shared and Distinct Functions of Type I and Type III Interferons.",
+      "authors": "Lazear HM, Schoggins JW, Diamond MS.",
+      "year": "2019",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30995506/",
+      "rawCoreSha256": "c3de4100f80c887a26fe074dd6221a7a1b327c4730432e7e93f5852c180e1b2d",
+      "crossrefSha256": "e29911e4a65d9054fc433082a93a271825705c89986885c1ac66945cd99d7216",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "3c9710c61f2fa8bd62c2acd47db9eddf32705f5df2a04de00f9bb564cb2af27d",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "bg-interferon-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "ae918f46bb6c4127b712afc63361d98c2f44bc10bf4f97da0307a4c32b5ba2bc",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              4
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "bg-crosspresentation",
+      "pmid": "22790179",
+      "pmcid": null,
+      "doi": "10.1038/nri3254",
+      "title": "Cross-presentation by dendritic cells.",
+      "authors": "Joffre OP, Segura E, Savina A, Amigorena S.",
+      "year": "2012",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22790179/",
+      "rawCoreSha256": "a3b7edce24759bdf6c97982c9852550130955e0c3b07c9fe9629974be825d36c",
+      "crossrefSha256": "4a50c237de61d1d1b80e1c47f7db3b934077ba00d31595660665135759781feb",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "6fd3e4ec0bd192d0d06f5f54e1326bd2cd67deaa5af6f728a87b9c1719c6cdd9",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              7,
+              13
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              8
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "bg-immunodominance",
+      "pmid": "11034600",
+      "pmcid": "PMC2195874",
+      "doi": "10.1084/jem.192.8.1105",
+      "title": "T cells compete for access to antigen-bearing antigen-presenting cells.",
+      "authors": "Kedl RM, Rees WA, Hildeman DA, Schaefer B, Mitchell T, Kappler J, Marrack P.",
+      "year": "2000",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/11034600/",
+      "rawCoreSha256": "868b3756ac7e1e8fbe46a79c4ea9fab0f10d7603962dee28a9570b60b17faaf3",
+      "crossrefSha256": "d48a6b70ecc8f86fac792a0f497429f20742f6edeb4b71cc83d43ceacd9e3711",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "f2ba7207d880bfcd7c7c5da557f6f92960fec081a2154e3139e1259bbd66b0a1",
+      "bodyParagraphReceipts": [],
+      "bodyReading": "Abstract only; successful body download does not imply reading",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2000,
+              10,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2000,
+              10,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2000,
+              10,
+              16
+            ]
+          ]
+        }
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null
+    },
+    {
+      "id": "bg-polyiclc",
+      "pmid": "22065672",
+      "pmcid": "PMC3256967",
+      "doi": "10.1084/jem.20111171",
+      "title": "Synthetic double-stranded RNA induces innate immune responses similar to a live viral vaccine in humans.",
+      "authors": "Caskey M, Lefebvre F, Filali-Mouhim A, Cameron MJ, Goulet JP, Haddad EK, Breton G, Trumpfheller C, Pollak S, Shimeliovich I, Duque-Alarcon A, Pan L, Nelkenbaum A, Salazar AM, Schlesinger SJ, Steinman RM, Sékaly RP.",
+      "year": "2011",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22065672/",
+      "rawCoreSha256": "d37f5d0f657ff10ab4ca2b4bc6efb939e6ec0eac0b4e96cbed0b0a5b01b9f8ae",
+      "crossrefSha256": "8d89d049b97651a7d351ad23ffdae69ad735d0f6036e870d2cac18fda6a4a133",
+      "registryIdentity": "Unique MED hit; title, first author and year agree with Crossref",
+      "completeAbstractRead": true,
+      "abstractTextSha256": "f623230a08f8619eb61b0d0f87642ba3964c3959d0da10b40b2afaf096e7dae7",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "bg-polyiclc-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "2d0d1217dc8ebfa5349d0fb3e5564e5cd614970ae0a97cf1ca3df9d12ab96732",
+          "depth": "Complete targeted paragraph read, not an end-to-end article read"
+        }
+      ],
+      "bodyReading": "Targeted raw body paragraphs",
+      "wholeDocumentRead": false,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              7
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              21
+            ]
+          ]
+        }
+      },
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "22110181",
+            "reference": "J Exp Med. 2011 Nov 21;208(12):2347-9. doi: 10.1084/jem.20112321",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "nci-prevention",
+      "sourceURL": "https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq",
+      "captureSha256": "7c391c0e4f1141efb8e5c7331e58a061bb4d7f4ccd4fa331354b18f6bb368cba",
+      "captureFile": "official-nci-prevention.html",
+      "fetchedUtc": "2026-11-12T18:09:11Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Infections and the two infection-prevention vaccines paragraph, normalised lines 90-96."
+    },
+    {
+      "id": "nci-treatment-vaccines",
+      "sourceURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines",
+      "captureSha256": "dd534491d6a9c6661a2d229111f94e66a0d90c9d2c523e547d481ab27d3bdcca",
+      "captureFile": "official-nci-treatment-vaccines.html",
+      "fetchedUtc": "2026-11-12T18:09:12Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Treatment-versus-prevention and antigen-source paragraphs, lines 56-61. The broad normal-cell-sparing wording later on this page is not adopted; product warnings supply the qualified text."
+    },
+    {
+      "id": "nci-modulators",
+      "sourceURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/immune-system-modulators",
+      "captureSha256": "dde0e4a75360543eebb067e78e2ed6199d2ce3ca176438612c5e3b7740763c51",
+      "captureFile": "official-nci-modulators.html",
+      "fetchedUtc": "2026-11-12T18:09:13Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Cytokines, IL-2, interferon and haematopoietic-support paragraphs, lines 57-65; no wholesale certification of the page."
+    },
+    {
+      "id": "nci-checkpoint",
+      "sourceURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors",
+      "captureSha256": "b9533030ffcb89c4ed75632ffb4babd3fc6c37ee341f27a5532c50c294a4a631",
+      "captureFile": "official-nci-checkpoint.html",
+      "fetchedUtc": "2026-11-12T18:09:13Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Normal regulation, specified blockade and immune-mediated injury, lines 57-60, 79-82 and the inflammation paragraph at line 86."
+    },
+    {
+      "id": "nci-oncolytic-2018",
+      "sourceURL": "https://www.cancer.gov/news-events/cancer-currents-blog/2018/oncolytic-viruses-to-treat-cancer",
+      "captureSha256": "ff4a4648b6c6b277e042b00e11bd984be330b2249eaa0e51f7e97935b1c6ed8a",
+      "captureFile": "official-nci-oncolytic-2018.html",
+      "fetchedUtc": "2026-11-12T18:09:14Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Historical class explanation and specified trial discussion only. Its 2018 statuses are not current access evidence."
+    },
+    {
+      "id": "cdc-adjuvants",
+      "sourceURL": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html",
+      "captureSha256": "0a08fa256b70e9ceaa09a553558feee4665c4c8a1c93ded21aed92042daa546c",
+      "captureFile": "official-cdc-adjuvants.html",
+      "fetchedUtc": "2026-11-12T18:09:15Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Definition, context, local/systemic reactions and development paragraphs, lines 54-66. No blanket adoption of the product table."
+    },
+    {
+      "id": "label-aldesleukin",
+      "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/f3c516ad-d405-4fbe-af6a-962080dbfa7d.xml",
+      "captureSha256": "2f19e4ce8b7b8b4695651cb2c5e08456ffc811bc283e3ee7764695d3ec2c8279",
+      "captureFile": "official-aldesleukin-spl.xml",
+      "fetchedUtc": "2026-11-12T18:09:17Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Boxed warning; 1.1, 1.2 and 2.1. Product-specific adult indications and hospital/intensive-care setting.",
+      "version": "7",
+      "effectiveTime": "20241220",
+      "setId": "f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+    },
+    {
+      "id": "label-pembrolizumab",
+      "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9333c79b-d487-4538-a9f0-71b91a02b287.xml",
+      "captureSha256": "d9428c1af7f2c67836ce8112ed211a7669f3f4495d6d294c283ba3becab8b05e",
+      "captureFile": "official-pembrolizumab-spl.xml",
+      "fetchedUtc": "2026-11-12T18:09:18Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "Sections 1.20 and 12.1; KEYNOTE-522 clinical-study enrolment and phase-isolation paragraph; KEYNOTE-355 design paragraph.",
+      "version": "229",
+      "effectiveTime": "20261016",
+      "setId": "9333c79b-d487-4538-a9f0-71b91a02b287"
+    },
+    {
+      "id": "label-atezolizumab",
+      "sourceURL": "https://api.fda.gov/drug/label.json?search=openfda.brand_name%3A%22TECENTRIQ%22&limit=10",
+      "captureSha256": "d0a65229d5c09923e1f54a7f8837236d228b027ba1e233832b68800485f17fd7",
+      "captureFile": "extra-atezolizumab-openfda.json",
+      "fetchedUtc": "2026-11-12T18:12:40Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "IV Tecentriq mechanism-of-action paragraph, effective 2026-10-13. Hybreza returned separately and not used as a different receptor-blockade result."
+    },
+    {
+      "id": "registry-hammerich",
+      "sourceURL": "https://clinicaltrials.gov/api/v2/studies/NCT01976585",
+      "captureSha256": "a94faa619dc402f00782de6c245cd9482c8d603d145f78d5a1cffe7459e7b41b",
+      "captureFile": "official-hammerich-registry.json",
+      "fetchedUtc": "2026-11-12T18:09:19Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "NCT01976585 identity, title, phase/design, component routes and interventions. Last update 2022-09-22 and status completed; no current recruiting claim."
+    },
+    {
+      "id": "label-tvec",
+      "sourceURL": "https://www.fda.gov/media/94129/download",
+      "captureSha256": "3d867c8e4ebf96c775d5989e8ffecd0812e8081975184b860999cdc7129bf9ab",
+      "captureFile": "official-tvec-label.pdf",
+      "fetchedUtc": "2026-11-12T18:09:16Z",
+      "depth": "Targeted raw sections/passages, not an end-to-end document read",
+      "readExtent": "FDA-hosted label revised February 2023. PDF pages 2, 8 and 13, printed pages 1, 7 and 12 rendered and viewed whole: highlights, infection/wound sections and mechanism. Exact full-indication and intralesional-route paragraphs also read in text layer. Not claimed to be the newest DailyMed revision.",
+      "detail": {
+        "pdfPagesViewed": [
+          2,
+          8,
+          13
+        ],
+        "renderHashes": {
+          "2": "ed86d9670a9753f7556e1c504aaeb3007e6a94a90f68d61eab8e9f62fc549ffd",
+          "8": "77618cca56c2d9df38243483db069ca9f5888c7a8c289b395e8997d162c1acab",
+          "13": "9fcd6dd74e0be5c0b3ca2a725ab8a15c6bcfa64cfa5a5da17562cc24af07c777"
+        }
+      },
+      "currentSPLConfirmation": {
+        "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/64ffb680-ea8c-42fc-9649-9e8c0eb77ddb.xml",
+        "captureSha256": "febe1972dba2215f22435744f725e1f6ea4affba11d0231cc111048bedcdfa0c",
+        "searchIndexSha256": "a61bdf6c74b027915221ab644d413b6ae863c662f257a885a4df47ccafe1888e",
+        "setId": "64ffb680-ea8c-42fc-9649-9e8c0eb77ddb",
+        "version": "28",
+        "effectiveTime": "20241129",
+        "indexPublishedDate": "Nov 09, 2026",
+        "readExtent": "Current sole Imlygic index hit and targeted sections 1, 5.2, 5.3 and 12.1 read. Local indication, limitations, infection/wound risks and exact-mechanism uncertainty agree with the older FDA PDF. Index publication and SPL effective date are distinct; no end-to-end label read."
+      }
+    }
+  ],
+  "notices": [
+    {
+      "id": "ott-2018-corrigendum",
+      "pmid": "29542692",
+      "doi": "10.1038/nature25145",
+      "title": "Corrigendum: An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "year": "2018",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29542692/",
+      "rawNoticeSha256": "969489d85e3092614d021c8cd69734df5b20de152819ddd6f1d1480c06b97d74",
+      "completeNoticeBodyRead": true,
+      "normalisedBodySha256": "de9366f46d160901d6d5e05c9ecf6d997e15f87ec16678ef1aa021b2f2535dcf",
+      "scope": "The raw notice revises data-availability and competing-interest wording. No clinical numerical change is stated in this read notice. Original publication remains separately resolved and source-limited."
+    }
+  ],
+  "counts": {
+    "researchPublications": 19,
+    "completeAbstracts": 19,
+    "crossrefResearchIdentities": 18,
+    "pmidOnlyIdentity": 1,
+    "targetedBodyPapers": 9,
+    "targetedBodyParagraphs": 33,
+    "officialTargetedSources": 11,
+    "fullPdfPagesViewed": 3,
+    "completeCorrectionNoticeBodies": 1,
+    "wholeResearchPapers": 0,
+    "captureReceipts": 73
+  },
+  "limits": [
+    "All 19 research/review abstracts were read completely; nine papers additionally have 33 targeted body paragraphs recorded. No research paper or label was read end to end.",
+    "Ott 2018 correction-notice body was read completely and kept separate from the original article. MED/Crossref comments and preprint links are not treated as retractions.",
+    "Brody and Chesney efetch responses are metadata-only stubs, not full-text evidence. KEYNOTE papers, Hammerich, Boyman and Mata-Haro remain abstract-level here.",
+    "The intratumoral NCI dictionary URL returned a JavaScript shell; its unseen definition is not used. Marabelle and the product route supply the stated route scope.",
+    "The FDA-hosted Imlygic PDF is dated February 2023. The current sole DailyMed hit is separately checked: SPL version 28, effective 2024-11-29, index published 2026-11-09; the targeted indication, limitation, mechanism and infection/wound sections agree. Publication and effective dates are not conflated. Pembrolizumab SPL version 229 is effective 2026-10-16, later than the Guide source-list date.",
+    "Some retained owner catalogue assertions, historical efficacy claims and programme statuses lie outside the adopted lesson evidence and are queued for separate verification.",
+    "Fictional exercises, arithmetic, source-image readings and causal/measurement limits are labelled inference and never presented as clinical results.",
+    "Elicit is not callable; frozen discovery is preserved, no invented report or response. No new live discovery occurrence is added to the 917 frozen occurrences."
+  ]
+}

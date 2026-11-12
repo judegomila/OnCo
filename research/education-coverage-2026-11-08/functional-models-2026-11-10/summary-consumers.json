@@ -1,0 +1,4914 @@
+{
+  "records": [
+    {
+      "id": "bh3-profiling-ar",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (ar)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-ar",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (ar)",
+      "canonicalRecordId": "bioprinting",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (ar)",
+      "canonicalRecordId": "cell-line",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (ar)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (ar)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-ar",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (ar)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "ar",
+      "available": true,
+      "text": "تعطيل كل جين على حدة في الخلايا السرطانية لمعرفة الجينات التي لا تستطيع العيش من دونها."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (ar)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (ar)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (ar)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-ar",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (ar)",
+      "canonicalRecordId": "organoid",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-ar",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (ar)",
+      "canonicalRecordId": "organoids",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (ar)",
+      "canonicalRecordId": "pdx-models",
+      "language": "ar",
+      "available": true,
+      "text": "الطعم الأجنبي المشتق من المريض هو ورم مأخوذ من مريض ويُنمّى في فأر، ويُستخدم لاختبار الأدوية قبل أن تصل إلى البشر."
+    },
+    {
+      "id": "model-organism-ar",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (ar)",
+      "canonicalRecordId": "model-organism",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (ar)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (ar)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-ar",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (ar)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (ar)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (ar)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ar",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ar)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-de",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (de)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-de",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (de)",
+      "canonicalRecordId": "bioprinting",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (de)",
+      "canonicalRecordId": "cell-line",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (de)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (de)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-de",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (de)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "de",
+      "available": true,
+      "text": "Jedes Gen einzeln in Krebszellen ausschalten, um herauszufinden, ohne welche sie nicht überleben können."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-de",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (de)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (de)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-de",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (de)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-de",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (de)",
+      "canonicalRecordId": "organoid",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-de",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (de)",
+      "canonicalRecordId": "organoids",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (de)",
+      "canonicalRecordId": "pdx-models",
+      "language": "de",
+      "available": true,
+      "text": "Ein patientenabgeleitetes Xenotransplantat ist der Tumor eines Patienten, der in einer Maus gezüchtet wird, um Medikamente zu testen, bevor sie beim Menschen ankommen."
+    },
+    {
+      "id": "model-organism-de",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (de)",
+      "canonicalRecordId": "model-organism",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (de)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-de",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (de)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-de",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (de)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (de)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (de)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-de",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (de)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-es",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (es)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-es",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (es)",
+      "canonicalRecordId": "bioprinting",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (es)",
+      "canonicalRecordId": "cell-line",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (es)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (es)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-es",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (es)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "es",
+      "available": true,
+      "text": "Eliminar cada gen uno por uno en células cancerosas para descubrir sin cuáles no pueden vivir."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-es",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (es)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (es)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-es",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (es)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-es",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (es)",
+      "canonicalRecordId": "organoid",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-es",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (es)",
+      "canonicalRecordId": "organoids",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (es)",
+      "canonicalRecordId": "pdx-models",
+      "language": "es",
+      "available": true,
+      "text": "El tumor de un paciente cultivado en un ratón, usado para probar fármacos antes de que lleguen a las personas."
+    },
+    {
+      "id": "model-organism-es",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (es)",
+      "canonicalRecordId": "model-organism",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (es)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-es",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (es)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-es",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (es)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (es)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (es)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-es",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (es)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-fr",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (fr)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-fr",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (fr)",
+      "canonicalRecordId": "bioprinting",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (fr)",
+      "canonicalRecordId": "cell-line",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (fr)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (fr)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-fr",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (fr)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "fr",
+      "available": true,
+      "text": "Inactiver chaque gène, un par un, dans des cellules cancéreuses pour découvrir ceux dont elles ne peuvent pas se passer."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (fr)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (fr)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (fr)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-fr",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (fr)",
+      "canonicalRecordId": "organoid",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-fr",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (fr)",
+      "canonicalRecordId": "organoids",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (fr)",
+      "canonicalRecordId": "pdx-models",
+      "language": "fr",
+      "available": true,
+      "text": "Une xénogreffe dérivée de patient est la tumeur d'un patient cultivée chez une souris, utilisée pour tester des médicaments avant qu'ils n'arrivent chez l'humain."
+    },
+    {
+      "id": "model-organism-fr",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (fr)",
+      "canonicalRecordId": "model-organism",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (fr)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (fr)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-fr",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (fr)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (fr)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (fr)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-fr",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (fr)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-hi",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (hi)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-hi",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (hi)",
+      "canonicalRecordId": "bioprinting",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (hi)",
+      "canonicalRecordId": "cell-line",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (hi)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (hi)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-hi",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (hi)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "hi",
+      "available": true,
+      "text": "कैंसर कोशिकाओं में हर जीन को एक-एक कर बंद करके पता लगाना कि वे किनके बिना नहीं जी सकतीं।"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (hi)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (hi)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (hi)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-hi",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (hi)",
+      "canonicalRecordId": "organoid",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-hi",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (hi)",
+      "canonicalRecordId": "organoids",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (hi)",
+      "canonicalRecordId": "pdx-models",
+      "language": "hi",
+      "available": true,
+      "text": "चूहे में उगाया गया मरीज़ का ट्यूमर, जो दवाओं को लोगों तक पहुँचने से पहले परखने में प्रयुक्त होता है।"
+    },
+    {
+      "id": "model-organism-hi",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (hi)",
+      "canonicalRecordId": "model-organism",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (hi)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (hi)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-hi",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (hi)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (hi)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (hi)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-hi",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (hi)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-ja",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (ja)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-ja",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (ja)",
+      "canonicalRecordId": "bioprinting",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (ja)",
+      "canonicalRecordId": "cell-line",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (ja)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (ja)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-ja",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (ja)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "ja",
+      "available": true,
+      "text": "がん細胞の遺伝子を一つずつノックアウトして、がん細胞がどの遺伝子なしでは生きられないかを見つける方法です。"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (ja)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (ja)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (ja)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-ja",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (ja)",
+      "canonicalRecordId": "organoid",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-ja",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (ja)",
+      "canonicalRecordId": "organoids",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (ja)",
+      "canonicalRecordId": "pdx-models",
+      "language": "ja",
+      "available": true,
+      "text": "患者由来異種移植モデルとは、患者の腫瘍をマウスの体内で育てたもので、薬が人に届く前に試験するために使われます。"
+    },
+    {
+      "id": "model-organism-ja",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (ja)",
+      "canonicalRecordId": "model-organism",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (ja)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (ja)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-ja",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (ja)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (ja)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (ja)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ja",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ja)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-pt",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (pt)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-pt",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (pt)",
+      "canonicalRecordId": "bioprinting",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (pt)",
+      "canonicalRecordId": "cell-line",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (pt)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (pt)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-pt",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (pt)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "pt",
+      "available": true,
+      "text": "Desligar cada gene um a um em células cancerosas para descobrir sem quais elas não conseguem viver."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (pt)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (pt)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (pt)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-pt",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (pt)",
+      "canonicalRecordId": "organoid",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-pt",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (pt)",
+      "canonicalRecordId": "organoids",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (pt)",
+      "canonicalRecordId": "pdx-models",
+      "language": "pt",
+      "available": true,
+      "text": "O tumor de um paciente cultivado em um camundongo, usado para testar drogas antes de chegarem às pessoas."
+    },
+    {
+      "id": "model-organism-pt",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (pt)",
+      "canonicalRecordId": "model-organism",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (pt)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (pt)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-pt",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (pt)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (pt)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (pt)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-pt",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (pt)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-zh",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (zh)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-zh",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (zh)",
+      "canonicalRecordId": "bioprinting",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (zh)",
+      "canonicalRecordId": "cell-line",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (zh)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (zh)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-zh",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (zh)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "zh",
+      "available": true,
+      "text": "在癌细胞中逐个敲除每个基因，找出它们离不开的基因。"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (zh)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "zh",
+      "available": true,
+      "text": "对基因组、药物敏感性和基因依赖性进行过系统分析的大型公共癌细胞系集合，是现代靶点发现背后的参考数据。"
+    },
+    {
+      "id": "functional-drug-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (zh)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (zh)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-zh",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (zh)",
+      "canonicalRecordId": "organoid",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-zh",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (zh)",
+      "canonicalRecordId": "organoids",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (zh)",
+      "canonicalRecordId": "pdx-models",
+      "language": "zh",
+      "available": true,
+      "text": "在小鼠体内生长的患者肿瘤，用于在药物进入人体前测试。"
+    },
+    {
+      "id": "model-organism-zh",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (zh)",
+      "canonicalRecordId": "model-organism",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (zh)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (zh)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-zh",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (zh)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (zh)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (zh)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-zh",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (zh)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-simple",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (simple)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "simple",
+      "available": true,
+      "text": "A laboratory test that measures how a cell's mitochondria respond to defined challenges. This helps researchers study readiness for cell death; it does not by itself establish which treatment will help a patient."
+    },
+    {
+      "id": "bioprinting-simple",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (simple)",
+      "canonicalRecordId": "bioprinting",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (simple)",
+      "canonicalRecordId": "cell-line",
+      "language": "simple",
+      "available": true,
+      "text": "A population of cells maintained through repeated transfers in laboratory culture. Its origin, identity and growth conditions affect what it can model."
+    },
+    {
+      "id": "cell-lines-as-proxy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (simple)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (simple)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-simple",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (simple)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "simple",
+      "available": true,
+      "text": "Knocking out every gene one by one in cancer cells to find the ones they cannot live without."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (simple)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer cell line encyclopedias are large public collections of cancer cells profiled for their genomes, drug sensitivity and gene dependencies, used to find new targets."
+    },
+    {
+      "id": "functional-drug-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (simple)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "simple",
+      "available": true,
+      "text": "Testing medicines on collected living cells or tissue under laboratory conditions. The result describes that sample and experiment; whether using it improves care needs separate evidence."
+    },
+    {
+      "id": "functional-precision-medicine-haematology-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (simple)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "simple",
+      "available": true,
+      "text": "Testing drug responses in collected blood-cancer cells. A result needs the sample, assay and study context; a clinical study of one selection method does not validate every screen."
+    },
+    {
+      "id": "organoid-simple",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (simple)",
+      "canonicalRecordId": "organoid",
+      "language": "simple",
+      "available": true,
+      "text": "A three-dimensional culture that organises selected features of a tissue. A tumour organoid is one type, and its contents need checking before researchers use it to answer a question."
+    },
+    {
+      "id": "organoids-simple",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (simple)",
+      "canonicalRecordId": "organoids",
+      "language": "simple",
+      "available": true,
+      "text": "Cultures grown from a patient's tumour to study selected tissue features and drug responses. They do not recreate the whole patient, and their intended use needs its own evidence."
+    },
+    {
+      "id": "pdx-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (simple)",
+      "canonicalRecordId": "pdx-models",
+      "language": "simple",
+      "available": true,
+      "text": "A patient's tumour grown in a mouse, used to test drugs before they are tried in people."
+    },
+    {
+      "id": "model-organism-simple",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (simple)",
+      "canonicalRecordId": "model-organism",
+      "language": "simple",
+      "available": true,
+      "text": "A model organism is a species studied in the lab, mice above all, to understand biology shared with humans and to test cancer drugs, imperfectly."
+    },
+    {
+      "id": "tumour-spheroid-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (simple)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (simple)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-simple",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (simple)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (simple)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (simple)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "simple",
+      "available": true,
+      "text": "A small engineered culture device for studying selected tumour interactions. Its cells, channels and conditions vary by design and must be measured."
+    },
+    {
+      "id": "in-vitro-in-vivo-simple",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (simple)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "simple",
+      "available": true,
+      "text": "These labels describe an experiment's setting: culture outside the body, removed living material, work in a living organism, or computer modelling. The label alone does not show how reliable a result is."
+    },
+    {
+      "id": "model-context-of-use-ar",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (ar)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-de",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (de)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-es",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (es)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-fr",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (fr)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-hi",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (hi)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-ja",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (ja)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-pt",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (pt)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-zh",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (zh)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-simple",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (simple)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "available": 29,
+  "englishFallback": 151,
+  "decisions": {
+    "decisions": [
+      {
+        "id": "bh3-profiling-ar",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (ar)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "ar",
+        "available": true,
+        "text": "اختبار معملي يقيس مدى قرب خلية ابيضاض الدم من تدمير نفسها، وأي بروتين بقاء يمنعها من ذلك، للتنبؤ بالاستجابة للأدوية من نوع venetoclax.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-ar",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (ar)",
+        "canonicalRecordId": "cell-line",
+        "language": "ar",
+        "available": true,
+        "text": "مجموعة من الخلايا، أُخذت عادةً من ورم قبل عقود، تواصل الانقسام إلى ما لا نهاية في المختبر. هي الأداة الأساسية لأبحاث السرطان: رخيصة وسريعة وقابلة للتكرار بلا حدود، لكنها قريبة بعيدة للورم الحقيقي.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-ar",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (ar)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "ar",
+        "available": true,
+        "text": "تعطيل كل جين على حدة في الخلايا السرطانية لمعرفة الجينات التي لا تستطيع العيش من دونها.",
+        "decision": "retain",
+        "after": "تعطيل كل جين على حدة في الخلايا السرطانية لمعرفة الجينات التي لا تستطيع العيش من دونها.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-ar",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (ar)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "ar",
+        "available": true,
+        "text": "تنمية خلايا السرطان الخاصة بالمريض نفسه في طبق مختبري واختبار الأدوية عليها مباشرة، بدلًا من التخمين استنادًا إلى الجينات.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-ar",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (ar)",
+        "canonicalRecordId": "organoid",
+        "language": "ar",
+        "available": true,
+        "text": "نسخة ثلاثية الأبعاد صغيرة جداً من نسيج أو ورم تُنمّى في المختبر من خلايا المريض نفسه. تحتفظ العضيّات الورمية بقدر أكبر من طبيعة السرطان الأصلي مقارنة بخطوط الخلايا المسطحة، ويمكن استخدامها لتجربة الأدوية على سرطان المريض نفسه.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-ar",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (ar)",
+        "canonicalRecordId": "organoids",
+        "language": "ar",
+        "available": true,
+        "text": "العضيّات المستمدة من المرضى هي نسخ مصغّرة ثلاثية الأبعاد من ورم المريض تُنمّى في المختبر.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-ar",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (ar)",
+        "canonicalRecordId": "pdx-models",
+        "language": "ar",
+        "available": true,
+        "text": "الطعم الأجنبي المشتق من المريض هو ورم مأخوذ من مريض ويُنمّى في فأر، ويُستخدم لاختبار الأدوية قبل أن تصل إلى البشر.",
+        "decision": "retain",
+        "after": "الطعم الأجنبي المشتق من المريض هو ورم مأخوذ من مريض ويُنمّى في فأر، ويُستخدم لاختبار الأدوية قبل أن تصل إلى البشر.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-ar",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (ar)",
+        "canonicalRecordId": "model-organism",
+        "language": "ar",
+        "available": true,
+        "text": "نوع يُدرس في المختبر لفهم البيولوجيا المشتركة مع البشر: الفئران في المقام الأول، إضافة إلى سمك الزرد والذباب والديدان والخميرة. الفئران الحاملة لأورام بشرية هي منصة الاختبار المعيارية لأدوية السرطان، وهي منصة معروفة بعدم كمالها.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-ar",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (ar)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "ar",
+        "available": true,
+        "text": "In vitro تعني \"في الزجاج\": تجارب على خلايا أو جزيئات في طبق مختبري. In vivo تعني \"في الكائن الحي\": تجارب على الحيوانات أو البشر. الدواء الذي يقتل الخلايا السرطانية in vitro لم يتجاوز سوى العقبة الأولى والأسهل.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-de",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (de)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "de",
+        "available": true,
+        "text": "Ein Labortest, der misst, wie nahe eine Leukämiezelle an der Selbstzerstörung ist und welches Überlebensprotein sie davon abhält, um das Ansprechen auf Medikamente vom Typ venetoclax vorherzusagen.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-de",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (de)",
+        "canonicalRecordId": "cell-line",
+        "language": "de",
+        "available": true,
+        "text": "Eine Population von Zellen, meist vor Jahrzehnten aus einem Tumor entnommen, die sich im Labor unbegrenzt weiter teilt. Das Arbeitspferd der Krebsforschung: billig, schnell und beliebig reproduzierbar, aber nur eine entfernte Verwandte eines echten Tumors.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-de",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (de)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "de",
+        "available": true,
+        "text": "Jedes Gen einzeln in Krebszellen ausschalten, um herauszufinden, ohne welche sie nicht überleben können.",
+        "decision": "retain",
+        "after": "Jedes Gen einzeln in Krebszellen ausschalten, um herauszufinden, ohne welche sie nicht überleben können.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-de",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (de)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "de",
+        "available": true,
+        "text": "Die eigenen Krebszellen eines Patienten in einer Schale züchten und Medikamente direkt an ihnen testen, statt anhand der Genetik zu raten.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-de",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (de)",
+        "canonicalRecordId": "organoid",
+        "language": "de",
+        "available": true,
+        "text": "Eine winzige dreidimensionale Version eines Gewebes oder Tumors, die im Labor aus den eigenen Zellen eines Patienten gezüchtet wird. Tumororganoide bewahren mehr vom Charakter des ursprünglichen Krebses als flache Zelllinien und lassen sich nutzen, um Medikamente am Krebs des jeweiligen Patienten zu testen.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-de",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (de)",
+        "canonicalRecordId": "organoids",
+        "language": "de",
+        "available": true,
+        "text": "Patientenabgeleitete Organoide sind winzige 3D-Versionen des Tumors eines Patienten, die im Labor gezüchtet werden.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-de",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (de)",
+        "canonicalRecordId": "pdx-models",
+        "language": "de",
+        "available": true,
+        "text": "Ein patientenabgeleitetes Xenotransplantat ist der Tumor eines Patienten, der in einer Maus gezüchtet wird, um Medikamente zu testen, bevor sie beim Menschen ankommen.",
+        "decision": "retain",
+        "after": "Ein patientenabgeleitetes Xenotransplantat ist der Tumor eines Patienten, der in einer Maus gezüchtet wird, um Medikamente zu testen, bevor sie beim Menschen ankommen.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-de",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (de)",
+        "canonicalRecordId": "model-organism",
+        "language": "de",
+        "available": true,
+        "text": "Eine Art, die im Labor untersucht wird, um die mit dem Menschen geteilte Biologie zu verstehen: allen voran Mäuse, dazu Zebrafische, Fliegen, Würmer und Hefe. Mäuse mit menschlichen Tumoren sind das Standardtestfeld für Krebsmedikamente, und ein notorisch unvollkommenes.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-de",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (de)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "de",
+        "available": true,
+        "text": "In vitro bedeutet \"im Glas\": Experimente an Zellen oder Molekülen in einer Schale. In vivo bedeutet \"im Lebenden\": Experimente an Tieren oder Menschen. Ein Medikament, das Krebszellen in vitro abtötet, hat nur die erste und leichteste Hürde genommen.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-es",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (es)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "es",
+        "available": true,
+        "text": "Una prueba de laboratorio que mide cuán cerca está una célula leucémica de autodestruirse, y qué proteína de supervivencia la está frenando, para predecir la respuesta a fármacos del tipo venetoclax.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-es",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (es)",
+        "canonicalRecordId": "cell-line",
+        "language": "es",
+        "available": true,
+        "text": "Una población de células, generalmente extraídas de un tumor hace décadas, que sigue dividiéndose indefinidamente en el laboratorio. El caballo de batalla de la investigación del cáncer: barata, rápida e infinitamente reproducible, pero una prima lejana de un tumor real.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-es",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (es)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "es",
+        "available": true,
+        "text": "Eliminar cada gen uno por uno en células cancerosas para descubrir sin cuáles no pueden vivir.",
+        "decision": "retain",
+        "after": "Eliminar cada gen uno por uno en células cancerosas para descubrir sin cuáles no pueden vivir.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-es",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (es)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "es",
+        "available": true,
+        "text": "Cultivar las propias células cancerosas del paciente en una placa y probar fármacos directamente sobre ellas, en vez de adivinar por la genética.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-es",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (es)",
+        "canonicalRecordId": "organoid",
+        "language": "es",
+        "available": true,
+        "text": "Una versión tridimensional diminuta de un tejido o tumor cultivada en el laboratorio a partir de las propias células del paciente. Los organoides tumorales conservan más del carácter del cáncer original que las líneas celulares planas y pueden usarse para probar fármacos en el propio cáncer del paciente.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-es",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (es)",
+        "canonicalRecordId": "organoids",
+        "language": "es",
+        "available": true,
+        "text": "Versiones 3D en miniatura del tumor de un paciente cultivadas en el laboratorio.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-es",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (es)",
+        "canonicalRecordId": "pdx-models",
+        "language": "es",
+        "available": true,
+        "text": "El tumor de un paciente cultivado en un ratón, usado para probar fármacos antes de que lleguen a las personas.",
+        "decision": "retain",
+        "after": "El tumor de un paciente cultivado en un ratón, usado para probar fármacos antes de que lleguen a las personas.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-es",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (es)",
+        "canonicalRecordId": "model-organism",
+        "language": "es",
+        "available": true,
+        "text": "Especie que se estudia en el laboratorio para entender la biología que comparte con los humanos: los ratones por encima de todo, además del pez cebra, las moscas, los gusanos y la levadura. Los ratones portadores de tumores humanos son el banco de pruebas estándar para los fármacos contra el cáncer, y uno notoriamente imperfecto.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-es",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (es)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "es",
+        "available": true,
+        "text": "In vitro significa 'en vidrio': experimentos con células o moléculas en una placa. In vivo significa 'en lo vivo': experimentos en animales o personas. Un fármaco que mata células cancerosas in vitro solo ha superado el primer y más fácil obstáculo.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-fr",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (fr)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "fr",
+        "available": true,
+        "text": "Un test de laboratoire qui mesure à quel point une cellule leucémique est proche de s'autodétruire, et quelle protéine de survie la retient, afin de prédire la réponse aux médicaments de type venetoclax.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-fr",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (fr)",
+        "canonicalRecordId": "cell-line",
+        "language": "fr",
+        "available": true,
+        "text": "Une population de cellules, généralement prélevées sur une tumeur il y a des décennies, qui continue de se diviser indéfiniment en laboratoire. L'outil de base de la recherche sur le cancer : peu coûteuse, rapide et reproductible à l'infini, mais une cousine éloignée d'une vraie tumeur.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-fr",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (fr)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "fr",
+        "available": true,
+        "text": "Inactiver chaque gène, un par un, dans des cellules cancéreuses pour découvrir ceux dont elles ne peuvent pas se passer.",
+        "decision": "retain",
+        "after": "Inactiver chaque gène, un par un, dans des cellules cancéreuses pour découvrir ceux dont elles ne peuvent pas se passer.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-fr",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (fr)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "fr",
+        "available": true,
+        "text": "Cultiver les propres cellules cancéreuses d'un patient dans une boîte et tester directement les médicaments sur elles, au lieu de deviner à partir de la génétique.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-fr",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (fr)",
+        "canonicalRecordId": "organoid",
+        "language": "fr",
+        "available": true,
+        "text": "Une version tridimensionnelle miniature d'un tissu ou d'une tumeur, cultivée en laboratoire à partir des propres cellules du patient. Les organoïdes tumoraux conservent davantage le caractère du cancer d'origine que les lignées cellulaires en culture plate et permettent de tester des médicaments sur le cancer du patient lui-même.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-fr",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (fr)",
+        "canonicalRecordId": "organoids",
+        "language": "fr",
+        "available": true,
+        "text": "Les organoïdes dérivés de patients sont des versions miniatures en 3D de la tumeur d'un patient, cultivées en laboratoire.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-fr",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (fr)",
+        "canonicalRecordId": "pdx-models",
+        "language": "fr",
+        "available": true,
+        "text": "Une xénogreffe dérivée de patient est la tumeur d'un patient cultivée chez une souris, utilisée pour tester des médicaments avant qu'ils n'arrivent chez l'humain.",
+        "decision": "retain",
+        "after": "Une xénogreffe dérivée de patient est la tumeur d'un patient cultivée chez une souris, utilisée pour tester des médicaments avant qu'ils n'arrivent chez l'humain.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-fr",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (fr)",
+        "canonicalRecordId": "model-organism",
+        "language": "fr",
+        "available": true,
+        "text": "Une espèce étudiée en laboratoire pour comprendre la biologie partagée avec l'humain : la souris avant tout, plus le poisson-zèbre, les mouches, les vers et la levure. Les souris porteuses de tumeurs humaines sont le banc d'essai standard des médicaments anticancéreux, et un banc d'essai notoirement imparfait.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-fr",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (fr)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "fr",
+        "available": true,
+        "text": "In vitro signifie « dans le verre » : des expériences sur des cellules ou des molécules dans une boîte de culture. In vivo signifie « dans le vivant » : des expériences chez l'animal ou chez l'humain. Un médicament qui tue des cellules cancéreuses in vitro n'a franchi que le premier obstacle, le plus facile.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-hi",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (hi)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "hi",
+        "available": true,
+        "text": "एक प्रयोगशाला परीक्षण जो मापता है कि ल्यूकेमिया कोशिका आत्म-विनाश के कितने करीब है और कौन-सा सर्वाइवल प्रोटीन उसे रोक रहा है, ताकि venetoclax जैसी दवाओं के प्रति प्रतिक्रिया का पूर्वानुमान लगाया जा सके।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-hi",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (hi)",
+        "canonicalRecordId": "cell-line",
+        "language": "hi",
+        "available": true,
+        "text": "कोशिकाओं की एक आबादी, जो आमतौर पर दशकों पहले किसी ट्यूमर से ली गई थी और प्रयोगशाला में अनिश्चित काल तक विभाजित होती रहती है। कैंसर अनुसंधान का मुख्य साधन: सस्ती, तेज़ और असीमित रूप से पुनरुत्पादित करने योग्य, लेकिन असली ट्यूमर की दूर की रिश्तेदार।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-hi",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (hi)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "hi",
+        "available": true,
+        "text": "कैंसर कोशिकाओं में हर जीन को एक-एक कर बंद करके पता लगाना कि वे किनके बिना नहीं जी सकतीं।",
+        "decision": "retain",
+        "after": "कैंसर कोशिकाओं में हर जीन को एक-एक कर बंद करके पता लगाना कि वे किनके बिना नहीं जी सकतीं।",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-hi",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (hi)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "hi",
+        "available": true,
+        "text": "आनुवंशिकी से अनुमान लगाने के बजाय मरीज़ की अपनी कैंसर कोशिकाओं को डिश में उगाकर सीधे उन पर दवाएँ परखना।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-hi",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (hi)",
+        "canonicalRecordId": "organoid",
+        "language": "hi",
+        "available": true,
+        "text": "रोगी की अपनी कोशिकाओं से प्रयोगशाला में उगाया गया किसी ऊतक या ट्यूमर का छोटा त्रि-आयामी रूप। ट्यूमर ऑर्गेनॉइड सपाट कोशिका रेखाओं की तुलना में मूल कैंसर के गुण अधिक बनाए रखते हैं और रोगी के अपने कैंसर पर दवाओं का परीक्षण करने में उपयोग किए जा सकते हैं।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-hi",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (hi)",
+        "canonicalRecordId": "organoids",
+        "language": "hi",
+        "available": true,
+        "text": "प्रयोगशाला में उगाए गए मरीज़ के ट्यूमर के लघु 3D संस्करण।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-hi",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (hi)",
+        "canonicalRecordId": "pdx-models",
+        "language": "hi",
+        "available": true,
+        "text": "चूहे में उगाया गया मरीज़ का ट्यूमर, जो दवाओं को लोगों तक पहुँचने से पहले परखने में प्रयुक्त होता है।",
+        "decision": "retain",
+        "after": "चूहे में उगाया गया मरीज़ का ट्यूमर, जो दवाओं को लोगों तक पहुँचने से पहले परखने में प्रयुक्त होता है।",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-hi",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (hi)",
+        "canonicalRecordId": "model-organism",
+        "language": "hi",
+        "available": true,
+        "text": "प्रयोगशाला में अध्ययन की जाने वाली एक प्रजाति जिससे मनुष्यों के साथ साझा जीव विज्ञान को समझा जाता है: सबसे ऊपर चूहे, साथ में जेब्राफिश, मक्खियां, कीड़े और खमीर। मानव ट्यूमर वाले चूहे कैंसर दवाओं के लिए मानक परीक्षण मंच हैं, और कुख्यात रूप से अपूर्ण भी।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-hi",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (hi)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "hi",
+        "available": true,
+        "text": "In vitro का अर्थ है 'कांच में': किसी डिश में कोशिकाओं या अणुओं पर प्रयोग। In vivo का अर्थ है 'जीवित में': जानवरों या मनुष्यों में प्रयोग। जो दवा in vitro कैंसर कोशिकाओं को मार देती है, उसने केवल पहली और सबसे आसान बाधा पार की है।",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-ja",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (ja)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "ja",
+        "available": true,
+        "text": "白血病細胞がどれほど自壊に近い状態にあるか、そしてどの生存タンパク質がそれを引き止めているかを測る検査で、venetoclax系の薬への反応を予測するために用いる。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-ja",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (ja)",
+        "canonicalRecordId": "cell-line",
+        "language": "ja",
+        "available": true,
+        "text": "多くは数十年前に腫瘍から採取され、実験室で際限なく分裂を続ける細胞の集団。がん研究の主力で、安価で速く無限に再現できるが、本物の腫瘍とは遠い親戚にすぎない。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-ja",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (ja)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "ja",
+        "available": true,
+        "text": "がん細胞の遺伝子を一つずつノックアウトして、がん細胞がどの遺伝子なしでは生きられないかを見つける方法です。",
+        "decision": "retain",
+        "after": "がん細胞の遺伝子を一つずつノックアウトして、がん細胞がどの遺伝子なしでは生きられないかを見つける方法です。",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-ja",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (ja)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "ja",
+        "available": true,
+        "text": "患者自身のがん細胞を培養皿で育て、遺伝子情報から推測するのではなく、薬を直接試して効き目を調べる方法。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-ja",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (ja)",
+        "canonicalRecordId": "organoid",
+        "language": "ja",
+        "available": true,
+        "text": "患者自身の細胞から実験室で育てた、組織や腫瘍の小さな立体版。腫瘍オルガノイドは平面培養の細胞株よりも元のがんの性質をよく保っており、患者自身のがんで薬を試すのに使える。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-ja",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (ja)",
+        "canonicalRecordId": "organoids",
+        "language": "ja",
+        "available": true,
+        "text": "患者由来オルガノイドとは、患者の腫瘍を実験室で培養して作った小さな3D版の腫瘍のことである。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-ja",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (ja)",
+        "canonicalRecordId": "pdx-models",
+        "language": "ja",
+        "available": true,
+        "text": "患者由来異種移植モデルとは、患者の腫瘍をマウスの体内で育てたもので、薬が人に届く前に試験するために使われます。",
+        "decision": "retain",
+        "after": "患者由来異種移植モデルとは、患者の腫瘍をマウスの体内で育てたもので、薬が人に届く前に試験するために使われます。",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-ja",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (ja)",
+        "canonicalRecordId": "model-organism",
+        "language": "ja",
+        "available": true,
+        "text": "ヒトと共有する生物学を理解するために実験室で研究される生物種で、何よりもマウス、さらにゼブラフィッシュ、ハエ、線虫、酵母がある。ヒト腫瘍を移植したマウスは抗がん薬の標準的な試験台であり、しかも不完全であることで悪名高い。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-ja",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (ja)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "ja",
+        "available": true,
+        "text": "In vitroは「ガラスの中で」を意味し、皿の中の細胞や分子を対象とする実験を指す。In vivoは「生体内で」を意味し、動物や人を対象とする実験を指す。In vitroでがん細胞を殺す薬は、最初で最も易しいハードルを越えたにすぎない。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-pt",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (pt)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "pt",
+        "available": true,
+        "text": "Um teste de laboratório que mede quão perto uma célula leucêmica está de se autodestruir, e qual proteína de sobrevivência a está segurando, para prever a resposta a medicamentos do tipo venetoclax.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-pt",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (pt)",
+        "canonicalRecordId": "cell-line",
+        "language": "pt",
+        "available": true,
+        "text": "Uma população de células, geralmente retiradas de um tumor há décadas, que continua a dividir-se indefinidamente no laboratório. O cavalo de batalha da investigação do cancro: barata, rápida e infinitamente reprodutível, mas uma prima distante de um tumor real.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-pt",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (pt)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "pt",
+        "available": true,
+        "text": "Desligar cada gene um a um em células cancerosas para descobrir sem quais elas não conseguem viver.",
+        "decision": "retain",
+        "after": "Desligar cada gene um a um em células cancerosas para descobrir sem quais elas não conseguem viver.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-pt",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (pt)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "pt",
+        "available": true,
+        "text": "Cultivar as próprias células cancerosas do paciente em placa e testar drogas diretamente nelas, em vez de adivinhar pela genética.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-pt",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (pt)",
+        "canonicalRecordId": "organoid",
+        "language": "pt",
+        "available": true,
+        "text": "Uma versão tridimensional minúscula de um tecido ou tumor, cultivada em laboratório a partir das células do próprio doente. Os organoides tumorais conservam mais do carácter do cancro original do que as linhas celulares planas e podem ser usados para testar fármacos no cancro do próprio doente.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-pt",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (pt)",
+        "canonicalRecordId": "organoids",
+        "language": "pt",
+        "available": true,
+        "text": "Versões 3D em miniatura do tumor de um paciente cultivadas em laboratório.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-pt",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (pt)",
+        "canonicalRecordId": "pdx-models",
+        "language": "pt",
+        "available": true,
+        "text": "O tumor de um paciente cultivado em um camundongo, usado para testar drogas antes de chegarem às pessoas.",
+        "decision": "retain",
+        "after": "O tumor de um paciente cultivado em um camundongo, usado para testar drogas antes de chegarem às pessoas.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-pt",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (pt)",
+        "canonicalRecordId": "model-organism",
+        "language": "pt",
+        "available": true,
+        "text": "Uma espécie estudada em laboratório para entender a biologia partilhada com os humanos: os camundongos acima de tudo, além de peixe-zebra, moscas, vermes e leveduras. Camundongos portadores de tumores humanos são o banco de testes padrão para fármacos contra o câncer, e um banco notoriamente imperfeito.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-pt",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (pt)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "pt",
+        "available": true,
+        "text": "In vitro significa 'em vidro': experiências com células ou moléculas numa placa. In vivo significa 'no ser vivo': experiências em animais ou pessoas. Um fármaco que mata células cancerosas in vitro superou apenas o primeiro e mais fácil obstáculo.",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-zh",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (zh)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "zh",
+        "available": true,
+        "text": "一种实验室检测，衡量白血病细胞离自我毁灭有多近，以及是哪种存活蛋白在阻止它，以预测对venetoclax类药物的反应。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "cell-line-zh",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (zh)",
+        "canonicalRecordId": "cell-line",
+        "language": "zh",
+        "available": true,
+        "text": "一群通常在几十年前取自某个肿瘤的细胞，能在实验室中无限分裂下去。它是癌症研究的主力工具：廉价、快速、可无限重复，但与真正的肿瘤只是远亲。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "crispr-screens-zh",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (zh)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "zh",
+        "available": true,
+        "text": "在癌细胞中逐个敲除每个基因，找出它们离不开的基因。",
+        "decision": "retain",
+        "after": "在癌细胞中逐个敲除每个基因，找出它们离不开的基因。",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-zh",
+        "kind": "reader-summary-entry",
+        "name": "Cancer cell line encyclopedias and dependency maps (zh)",
+        "canonicalRecordId": "cancer-cell-line-encyclopedias",
+        "language": "zh",
+        "available": true,
+        "text": "对基因组、药物敏感性和基因依赖性进行过系统分析的大型公共癌细胞系集合，是现代靶点发现背后的参考数据。",
+        "decision": "retain",
+        "after": "对基因组、药物敏感性和基因依赖性进行过系统分析的大型公共癌细胞系集合，是现代靶点发现背后的参考数据。",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-zh",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (zh)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "zh",
+        "available": true,
+        "text": "在培养皿中培养患者自身的癌细胞并直接测试药物，而非从基因猜测。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "functional-precision-medicine-haematology-zh",
+        "kind": "reader-summary-entry",
+        "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (zh)",
+        "canonicalRecordId": "functional-precision-medicine-haematology",
+        "language": "zh",
+        "available": true,
+        "text": "从患者血液或骨髓取出血癌细胞，几天内暴露于一组已上市药物，把能杀死癌细胞又不伤健康细胞的药物用回患者身上；维也纳的一项试验发现，超过一半经多线治疗的患者因此优于上一次治疗。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoid-zh",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (zh)",
+        "canonicalRecordId": "organoid",
+        "language": "zh",
+        "available": true,
+        "text": "在实验室中用患者自身细胞培养出的微型三维组织或肿瘤。肿瘤类器官比平面细胞系更能保留原发癌症的特性，可用于在患者自己的癌症上测试药物。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "organoids-zh",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (zh)",
+        "canonicalRecordId": "organoids",
+        "language": "zh",
+        "available": true,
+        "text": "在实验室培养的患者肿瘤的微型3D版本。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "pdx-models-zh",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (zh)",
+        "canonicalRecordId": "pdx-models",
+        "language": "zh",
+        "available": true,
+        "text": "在小鼠体内生长的患者肿瘤，用于在药物进入人体前测试。",
+        "decision": "retain",
+        "after": "在小鼠体内生长的患者肿瘤，用于在药物进入人体前测试。",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-zh",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (zh)",
+        "canonicalRecordId": "model-organism",
+        "language": "zh",
+        "available": true,
+        "text": "在实验室中研究以理解与人类共有的生物学的物种：首先是小鼠，还有斑马鱼、果蝇、线虫和酵母。携带人类肿瘤的小鼠是抗癌药物的标准试验平台，但也是一个众所周知并不完美的平台。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "tumour-on-chip-zh",
+        "kind": "reader-summary-entry",
+        "name": "Tumour-on-a-chip (zh)",
+        "canonicalRecordId": "tumour-on-chip",
+        "language": "zh",
+        "available": true,
+        "text": "在类血管通道和免疫细胞环境中培养肿瘤细胞的小型微流控装置，让研究者在比培养皿更接近真实的环境中观察药物作用。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "in-vitro-in-vivo-zh",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (zh)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "zh",
+        "available": true,
+        "text": "In vitro意为“在玻璃中”：在培养皿中对细胞或分子进行的实验。In vivo意为“在活体中”：在动物或人体内进行的实验。一种能在体外杀死癌细胞的药物，只是跨过了第一道也是最容易的一道门槛。",
+        "decision": "english-fallback",
+        "after": null,
+        "reason": "Older text carries unsupported prediction, unlimited growth/reproducibility, complete miniature-copy, mandatory validation-rung or unverified compartment claims; select current English fallback."
+      },
+      {
+        "id": "bh3-profiling-simple",
+        "kind": "reader-summary-entry",
+        "name": "BH3 profiling (functional apoptosis testing) (simple)",
+        "canonicalRecordId": "bh3-profiling",
+        "language": "simple",
+        "available": true,
+        "text": "A lab test that measures how close a leukaemia cell is to self-destructing, to predict which drugs will push it over the edge.",
+        "decision": "update-simple",
+        "after": "A laboratory test that measures how a cell's mitochondria respond to defined challenges. This helps researchers study readiness for cell death; it does not by itself establish which treatment will help a patient.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "cell-line-simple",
+        "kind": "reader-summary-entry",
+        "name": "Cell line (simple)",
+        "canonicalRecordId": "cell-line",
+        "language": "simple",
+        "available": true,
+        "text": "A cell line is a population of tumour cells that keeps dividing in the laboratory, cheap and reproducible but a distant cousin of a real tumour.",
+        "decision": "update-simple",
+        "after": "A population of cells maintained through repeated transfers in laboratory culture. Its origin, identity and growth conditions affect what it can model.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "crispr-screens-simple",
+        "kind": "reader-summary-entry",
+        "name": "CRISPR functional genomics (simple)",
+        "canonicalRecordId": "crispr-screens",
+        "language": "simple",
+        "available": true,
+        "text": "Knocking out every gene one by one in cancer cells to find the ones they cannot live without.",
+        "decision": "retain",
+        "after": "Knocking out every gene one by one in cancer cells to find the ones they cannot live without.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-simple",
+        "kind": "reader-summary-entry",
+        "name": "Cancer cell line encyclopedias and dependency maps (simple)",
+        "canonicalRecordId": "cancer-cell-line-encyclopedias",
+        "language": "simple",
+        "available": true,
+        "text": "Cancer cell line encyclopedias are large public collections of cancer cells profiled for their genomes, drug sensitivity and gene dependencies, used to find new targets.",
+        "decision": "retain",
+        "after": "Cancer cell line encyclopedias are large public collections of cancer cells profiled for their genomes, drug sensitivity and gene dependencies, used to find new targets.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "functional-drug-testing-simple",
+        "kind": "reader-summary-entry",
+        "name": "Functional (ex vivo) drug testing (simple)",
+        "canonicalRecordId": "functional-drug-testing",
+        "language": "simple",
+        "available": true,
+        "text": "Growing a patient's cancer cells in a dish and trying drugs on them directly, instead of guessing from the genes.",
+        "decision": "update-simple",
+        "after": "Testing medicines on collected living cells or tissue under laboratory conditions. The result describes that sample and experiment; whether using it improves care needs separate evidence.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "functional-precision-medicine-haematology-simple",
+        "kind": "reader-summary-entry",
+        "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (simple)",
+        "canonicalRecordId": "functional-precision-medicine-haematology",
+        "language": "simple",
+        "available": true,
+        "text": "Blood cancer cells from a patient are exposed within days to a panel of approved drugs, and a Vienna trial found this beat the previous treatment in more than half of patients.",
+        "decision": "update-simple",
+        "after": "Testing drug responses in collected blood-cancer cells. A result needs the sample, assay and study context; a clinical study of one selection method does not validate every screen.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "organoid-simple",
+        "kind": "reader-summary-entry",
+        "name": "Organoid (simple)",
+        "canonicalRecordId": "organoid",
+        "language": "simple",
+        "available": true,
+        "text": "An organoid is a tiny three-dimensional version of a tumour grown in the lab from a patient's own cells, used to test drugs on that patient's cancer.",
+        "decision": "update-simple",
+        "after": "A three-dimensional culture that organises selected features of a tissue. A tumour organoid is one type, and its contents need checking before researchers use it to answer a question.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "organoids-simple",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived organoids (simple)",
+        "canonicalRecordId": "organoids",
+        "language": "simple",
+        "available": true,
+        "text": "Tiny 3D versions of a patient's tumour grown in the lab.",
+        "decision": "update-simple",
+        "after": "Cultures grown from a patient's tumour to study selected tissue features and drug responses. They do not recreate the whole patient, and their intended use needs its own evidence.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "pdx-models-simple",
+        "kind": "reader-summary-entry",
+        "name": "Patient-derived xenografts (simple)",
+        "canonicalRecordId": "pdx-models",
+        "language": "simple",
+        "available": true,
+        "text": "A patient's tumour grown in a mouse, used to test drugs before they are tried in people.",
+        "decision": "retain",
+        "after": "A patient's tumour grown in a mouse, used to test drugs before they are tried in people.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "model-organism-simple",
+        "kind": "reader-summary-entry",
+        "name": "Model organism (simple)",
+        "canonicalRecordId": "model-organism",
+        "language": "simple",
+        "available": true,
+        "text": "A model organism is a species studied in the lab, mice above all, to understand biology shared with humans and to test cancer drugs, imperfectly.",
+        "decision": "retain",
+        "after": "A model organism is a species studied in the lab, mice above all, to understand biology shared with humans and to test cancer drugs, imperfectly.",
+        "reason": "Accurate concise definition or common research use; no universal clinical prediction or mandatory validation sequence is stated."
+      },
+      {
+        "id": "tumour-on-chip-simple",
+        "kind": "reader-summary-entry",
+        "name": "Tumour-on-a-chip (simple)",
+        "canonicalRecordId": "tumour-on-chip",
+        "language": "simple",
+        "available": true,
+        "text": "A tumour-on-a-chip is a small device that grows tumour cells alongside blood-vessel-like channels and immune cells, letting researchers watch drugs act in a more life-like setting than a dish.",
+        "decision": "update-simple",
+        "after": "A small engineered culture device for studying selected tumour interactions. Its cells, channels and conditions vary by design and must be measured.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      },
+      {
+        "id": "in-vitro-in-vivo-simple",
+        "kind": "reader-summary-entry",
+        "name": "In vitro and in vivo (simple)",
+        "canonicalRecordId": "in-vitro-in-vivo",
+        "language": "simple",
+        "available": true,
+        "text": "In vitro means experiments on cells in a dish, and in vivo means experiments in living animals or people, with dish results only the first hurdle.",
+        "decision": "update-simple",
+        "after": "These labels describe an experiment's setting: culture outside the body, removed living material, work in a living organism, or computer modelling. The label alone does not show how reliable a result is.",
+        "reason": "Align the English simplification with the current source-scoped definition."
+      }
+    ],
+    "counts": {
+      "retained": 21,
+      "updatedSimple": 8,
+      "englishFallback": 58
+    },
+    "existingReviewLabelsPreserved": true,
+    "newNamedLanguageReviews": 0
+  },
+  "rootVerification": {
+    "entries": 171,
+    "available": 29,
+    "EnglishFallback": 142,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 152,
+      "rows": [
+        {
+          "id": "bh3-profiling",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bh3-profiling",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "bioprinting",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-line",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-lines-as-proxy",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-tumour-coculture-models",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "crispr-screens",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cancer-cell-line-encyclopedias",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-drug-testing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-precision-medicine-haematology",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoid",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "organoids",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pdx-models",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-organism",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-spheroid-models",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ex-vivo-tumour-fragments",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "functional-model-selection",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "single-cell-mass-assays",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumour-on-chip",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-in-vivo",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "bh3-profiling-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "b805397ebdd61219d6e50e5d6511452cd2ca7b6a21769adbc6f16d5759e14356"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "cca24c128b9b7ee4a76f648a0de67f91123a3823b13bbadcffb9e9b05e8c205b"
+      },
+      {
+        "id": "model-organism-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "e18c4775dbf9a18045f913450b0bff9c09c1a373dfb91c2f0d5f6373f88e7026"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "7056b4e487b45ac5086e6a47ff3ecae40d79f62cc484c412cc49f8802f648711"
+      },
+      {
+        "id": "model-organism-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "bc7625047f3d0d7535a3acf994b286af1addd97d18f6d231befaf77c4dde26e8"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "f51aae95661c690c878c140893f52d5ee4ea32bf389545671bbf0a8ee5b3151a"
+      },
+      {
+        "id": "model-organism-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "aec9f84bc7b8d4a08448b95ab588712c9a092daefd0c2ae4b416cb74396e9770"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "8573ac9209f457846c97f264c49e8e2e43629bb7f5222475798acdc99bff1982"
+      },
+      {
+        "id": "model-organism-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "40b174d0ca8ec5e70c4201b20e1bf317a6213b46e1a65218560f003afe2ccf0b"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "b459ecc2aa4cca428c5bb11c23cf76701d2ec5ee0eae6b28388210eedded9fd2"
+      },
+      {
+        "id": "model-organism-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "db709b271db2f2209e2c4adbeb2912b8d3f45de417ff6f5662af68d1f46c63d9"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "71cc84a47b97b00614905a83ec79400862c19efd439bf17dd70fcb5e4d14fffa"
+      },
+      {
+        "id": "model-organism-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "a91e15d6cdbf8614b275ccabfe7ef0f51cc815203b04638121685a52daf83803"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "95ae12f9cea7f867de3e7dcfc3ff27949a9f71fd0f67dc73302d7d2e740e63cd"
+      },
+      {
+        "id": "functional-drug-testing-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "0283e91ca16ca64962cb3fef03ede1fe1d20540f44b175222bfb0bf6163ce9c1"
+      },
+      {
+        "id": "model-organism-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b5e5116407db7b2dc10f79d463ce2a614242f4c084a3e7e9bec489c4cb580df"
+      },
+      {
+        "id": "bioprinting-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "c9ff5170e785e35af1804aa44bb18e95489dfe4ff6483a188ad326db6874524f"
+      },
+      {
+        "id": "cell-lines-as-proxy-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "bfcd943ed25418f759d2326ffbd2b3352dabd69066218a630e29556216b9b3f1"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "55d7284d4c15baae4b20b3f259a53eae35f34c0d487bde87393af764add0e9c3"
+      },
+      {
+        "id": "functional-drug-testing-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "1542755a37d02dada5f1997063fa083dcd88aded9b458bbfb71263e8de50696f"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "3b739dca14774e398a2c6df9b905089c112968b9426c0ed0996951288720059a"
+      },
+      {
+        "id": "organoid-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "b2b993a4fabb3e3c1aeeadb689a82e3e3584ff0cebbd56b4493cf56384022b5c"
+      },
+      {
+        "id": "organoids-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "76131cf763bb5012ba62144748c7e6035cf98551682091bcbfbe6e9b94f84ab3"
+      },
+      {
+        "id": "pdx-models-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "476d11c8b5fcde92b977610a611b2cb6dda0d969749fdb90fb21ac841e02eb8d"
+      },
+      {
+        "id": "model-organism-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "a683ec60dd53961a30222e8206aeebdfb98fc48dd474e797779ecba804b2c412"
+      },
+      {
+        "id": "tumour-spheroid-models-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "5c875460877c509fcca1e4a8ca3f29ba24d1db3d5ad1ed9c683122c17b95b41b"
+      },
+      {
+        "id": "in-vitro-in-vivo-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+      },
+      {
+        "id": "bh3-profiling-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "a741c7f466f39d4081258438e3f7587debffedf674de099c3e35754a56096a94"
+      },
+      {
+        "id": "bioprinting-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "02fffe0209d48dc8890b5a64cb89baf0588fb0f96568205e063246fcd850c39f"
+      },
+      {
+        "id": "cell-line-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7fbbccab835a257241583f432c065abbb62ce2f76e3e54ef0ed9ac6e54f42630"
+      },
+      {
+        "id": "cell-lines-as-proxy-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "49c37cd1bb33879d8706f7dd5e1ea5762b03b6ca8eab8319800cc12c9cff10ca"
+      },
+      {
+        "id": "immune-tumour-coculture-models-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "252b9ebccbed37907f5dc1994c23c523e02d3c24607fe1f0d83b36fd40053cca"
+      },
+      {
+        "id": "crispr-screens-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "9ea0c766b04584da7039a3305b077525953534d2f873eec17b37ed4f30ec3a0d"
+      },
+      {
+        "id": "cancer-cell-line-encyclopedias-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "164fb88e048a2b33f569767518a4c3c7d46eb9f8c42a9f9909a782f052762911"
+      },
+      {
+        "id": "functional-drug-testing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "8a4a599780ed098d164ef781cc939de67cc6afcf5c1ded44cb7c356acedfb772"
+      },
+      {
+        "id": "functional-precision-medicine-haematology-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7e3e86067571d3eda1049be557cf4e22f174e63d91d110c20d1cd7c4dc061049"
+      },
+      {
+        "id": "organoid-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "0969710c6d52957825d2122fb8bf23f9ba208fcbdd231cbbd25a3b5eeccb2f95"
+      },
+      {
+        "id": "organoids-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "98edcff07fb0a0ec6c7c63bcbe1b06684efa99800350d49a73826b38bef8dfdc"
+      },
+      {
+        "id": "pdx-models-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "58480617fff4819b4df2cc82b7e117b785df9181d20d0b81ba83dad60de43a2d"
+      },
+      {
+        "id": "model-organism-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "2e31afc9f6cb308c56ae8a0244bbc7600ae84f6e6a155f7acd045598d61382f5"
+      },
+      {
+        "id": "tumour-spheroid-models-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "57ef41e7f57d4e6c1fad5952520d645f5bdc176d8238f56dfe26fe44f0db803a"
+      },
+      {
+        "id": "ex-vivo-tumour-fragments-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe3e7e9db2511aec71f9391f034fb94aa4da69589a933b731cb926b5aeb679d2"
+      },
+      {
+        "id": "functional-model-selection-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "9a7e2b9a0de7ce1efec0741b6da6a83410583ebcdeba1de5e08c6b2e450acce2"
+      },
+      {
+        "id": "single-cell-mass-assays-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "7ac5aba9411a727d74019f998bff4ae961e92034d3bc57f512ae75b405040793"
+      },
+      {
+        "id": "tumour-on-chip-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "511171f9c5b309d510d11c4eb8af1c49f2e4461776baf059c2863b601238eba7"
+      },
+      {
+        "id": "in-vitro-in-vivo-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "1b921564ba7d0ecefa1b6ab19a62784a92918d82258652d80ddc679f8627eeb3"
+      }
+    ]
+  },
+  "peerVerification": {
+    "entries": 9,
+    "available": 0,
+    "EnglishFallback": 9,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 8,
+      "rows": [
+        {
+          "id": "model-context-of-use",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "model-context-of-use",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "model-context-of-use-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      },
+      {
+        "id": "model-context-of-use-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "a7acfa318a623b0015e7c799e63d6a7523ddef239764dcd7a1c63dc8181074f1"
+      }
+    ]
+  },
+  "newNamedLanguageApprovals": 0
+}

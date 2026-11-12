@@ -1,0 +1,238 @@
+{
+  "dataCommit": "26b59741dd431156e71159375bf2982a4fb9dcfe",
+  "newCanonicalIds": [],
+  "canonicalChanges": {
+    "graphCount": 22809,
+    "newIds": [],
+    "changedRecords": [
+      {
+        "id": "biopsy",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "cancer-immunity-cycle",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "cancer-stage",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "ctdna-imaging-discordance",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "hallmarks-of-cancer",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "neoadjuvant-adjuvant",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pcr",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pd1",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pembrolizumab",
+        "changedFields": [
+          "asOf",
+          "links",
+          "mechanism",
+          "mechanismSteps"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "tnbc-residual-disease-decision",
+        "changedFields": [
+          "asOf",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "tumour-grade",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      }
+    ],
+    "schemaTypeOnlyChange": "The TNBC term factory now accepts a per-record asOf override, with its default and runtime spread order unchanged."
+  },
+  "sourceChanges": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "sourceSha256": "7f977e1d6c8757ce261c261389ce4e8d983236dfe98fa8cb4092765027680172",
+      "requirementsAccounted": 21,
+      "substantivePoints": 19,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "sourceSha256": "1ac3d873ea58fa0686a9c5d336920d1b527db38f6ba13fe3384234e92df127ea",
+      "requirementsAccounted": 23,
+      "substantivePoints": 21,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "sourceSha256": "4293f75f48a5a8c7344e6503c4f1cc07928a91bf418a3c5ee7a8fd9e980e1aa2",
+      "requirementsAccounted": 21,
+      "substantivePoints": 19,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "sourceSha256": "a105cd5402deb1b19952b586608484c0a823f23cdfe920b4f3b3c86948a325f8",
+      "requirementsAccounted": 11,
+      "substantivePoints": 10,
+      "derivedRecaps": 0,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "sourceSha256": "7f977e1d6c8757ce261c261389ce4e8d983236dfe98fa8cb4092765027680172",
+      "requirementsAccounted": 21,
+      "substantivePoints": 19,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "sourceSha256": "1ae042c7ebcdc500102ff4e6b0753a4f44a0dd8e46f5eb5af7bacfc229cf0e70",
+      "requirementsAccounted": 21,
+      "substantivePoints": 19,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "sourceSha256": "4293f75f48a5a8c7344e6503c4f1cc07928a91bf418a3c5ee7a8fd9e980e1aa2",
+      "requirementsAccounted": 21,
+      "substantivePoints": 19,
+      "derivedRecaps": 1,
+      "sourceScopeMetadata": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "sourceSha256": "a105cd5402deb1b19952b586608484c0a823f23cdfe920b4f3b3c86948a325f8",
+      "requirementsAccounted": 11,
+      "substantivePoints": 10,
+      "derivedRecaps": 0,
+      "sourceScopeMetadata": 1
+    }
+  ],
+  "assetChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+      "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+      "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+      "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+      "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    }
+  ],
+  "priorArrayProofRebases": 160,
+  "shortSummaryChanges": {
+    "withdrawnStaleMachineTranslations": 24,
+    "correctedSimpleEnglishEntries": 3,
+    "currentSelectors": {
+      "entries": 306,
+      "available": 113,
+      "EnglishFallback": 193
+    },
+    "acceptedLongCaches": 2,
+    "acceptedLongCacheScope": "Both are pCR summaries whose source summary is unchanged; new notes remain separate.",
+    "namedLanguageReviewsAdded": 0
+  },
+  "authoritativeMechanismOwner": "The base mechanism is in drugs.ts; pembrolizumab mechanismSteps are overridden by its drug-depth.ts entry. Only that entry is corrected; other template users are queued separately.",
+  "productOrSchemaChange": false,
+  "factoryTypeOnlyChange": "The TNBC term factory now accepts a per-record asOf override, with its default and runtime spread order unchanged."
+}

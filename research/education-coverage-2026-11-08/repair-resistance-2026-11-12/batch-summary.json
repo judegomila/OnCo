@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-12",
+  "dataCommit": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+  "original": {
+    "lessons": 3,
+    "sections": 36,
+    "requirements": 70
+  },
+  "later": {
+    "lessons": 5,
+    "sections": 62,
+    "requirements": 126
+  },
+  "sourceFirstRows": 142,
+  "originallyCodedSubstantive": 127,
+  "assessedSubstantive": 126,
+  "nonCreditRows": 16,
+  "existingRootOwners": 5,
+  "newRegisteredOwners": 1,
+  "rootRequirements": 126,
+  "unappliedPeerRequirements": 0,
+  "connectedParagraphs": 44,
+  "exactFieldReferences": 179,
+  "primaryReadingCounts": {
+    "researchPublications": 30,
+    "completeAbstracts": 30,
+    "targetedBodyPapers": 14,
+    "targetedBodyParagraphs": 51,
+    "targetedTypesetPages": 1,
+    "curatedHumanFunctionEntries": 6,
+    "officialTargetedSources": 4,
+    "correctionNoticesResolved": 2,
+    "correctionTextsReadFromAuthorInstitution": 1,
+    "correctionRawBodiesUnread": 1,
+    "wholeDocuments": 0,
+    "captureReceipts": 119
+  },
+  "summaryStates": 54,
+  "availableTexts": 3,
+  "EnglishFallbacks": 51,
+  "newAdjacentGroups": 1,
+  "priorRootBindingsRebased": 2,
+  "sourceAssetVersionEntriesClassified": 16,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "broaderGoalComplete": false
+}

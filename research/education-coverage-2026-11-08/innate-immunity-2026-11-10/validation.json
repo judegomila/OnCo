@@ -1,0 +1,57 @@
+{
+  "validate": {
+    "exitCode": 0,
+    "entities": 22774
+  },
+  "typecheck": {
+    "exitCode": 0
+  },
+  "lint": {
+    "exitCode": 0,
+    "errors": 0,
+    "existingWarnings": 7
+  },
+  "fullRun": {
+    "testFilesPassed": 283,
+    "testFilesTimedOut": 1,
+    "testFilesTotal": 284,
+    "testsPassed": 2828,
+    "testsSkipped": 2,
+    "remainingFile": "src/app/heavy-pages.test.ts",
+    "failure": "One target-dossier test exceeded its unchanged 30-second guard; no assertion failed."
+  },
+  "isolatedRetry": {
+    "file": "src/app/heavy-pages.test.ts",
+    "exitCode": 0,
+    "testsPassed": 77,
+    "seconds": 20.73,
+    "testCodeAndBudgetsChanged": false
+  },
+  "combinedFinalCoverage": {
+    "testFiles": 284,
+    "testsPassed": 2829,
+    "testsSkipped": 2,
+    "rule": "The final full run plus the isolated retry; not an uninterrupted green full run."
+  },
+  "focused": {
+    "files": 3,
+    "testsPassed": 25
+  },
+  "duplicateSurvey": {
+    "groups": 9,
+    "newDoiGroups": 0,
+    "newPmidGroups": 0,
+    "scope": "Same two registry-id and seven name-survey groups as the prior checkpoint."
+  },
+  "sourceClosure": {
+    "exitCode": 2,
+    "staleOrMissingProofs": 0,
+    "reason": "Real unread curriculum, assets, literature, adjacent work and approval dependencies remain."
+  },
+  "releaseLimits": [
+    "No Next production build",
+    "No browser hydration or mobile review",
+    "No new expert or named-language sign-off",
+    "No main merge or deployment"
+  ]
+}

@@ -1,0 +1,3439 @@
+{
+  "normalisation": "Decode HTML entities; preserve block-tag word boundaries, remove inline markup and collapse whitespace. Raw source files and original passage hashes retained; scientific wording is unchanged.",
+  "evidencePassages": 343,
+  "rawExactMatches": 294,
+  "verifiedAfterDeclaredNormalisation": 343,
+  "problems": [],
+  "checks": [
+    {
+      "requirementId": "aav-vector:R01",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "c5decf1048e1188e871451f3b4a800860e631dafbe00c8b76deed39ef29ae88f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R01",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "cfca039cac785682fd7173864c45a2e7dae495a433a6678dfc486a662e3a8c2b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R01",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "abd3099d2ea77b233b7f1e4f36febcf70bc7b6f243f47609e1a2b11a37dbeccb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R02",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "43d188d9e6a341a80109622c8e4634b4e3f667790d76ef8c9297591d860acdca",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R02",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "16477a1dae70834c20b71885ff0c3975f44cfb00d796c5b917df4dc1e2d3d6d7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R03",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "71899e5f53909c2f44417c8a1eebf3ef0f1b2371182fc789c304b4cc61c0a552",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R03",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "f3051ab136439990b9cd473c603feab49881fed054bd3d09c0909a8b5742204b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R04",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "ae1f9cfa930fa4698b2a40ba72d35d999294dfe51e1f84af48d841b78eb52708",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R04",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "7d0a40fa5dbd2af9a89e7af341e90076290a7e9fbce43bb8fad0f098320891e2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R05",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "c1c25581d84b2231613bdb1aad95000711b53f017b127124eb0d0c084c90eeb9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R05",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "efc24e11fffe8dd937b9fe4d9bfe923623271b2a1dc70f0bdd805288d0de0df0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R06",
+      "source": "manno2006",
+      "depth": "abstract",
+      "passageSha256": "88604740a78db6d1fc4ece81607150771c22aff12d794bda33cf7cffa616f657",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "540ff685d8b29df4c3310f5d1a00d038e2d071b4780cad0fd3748a6a7c23e284"
+    },
+    {
+      "requirementId": "aav-vector:R06",
+      "source": "manno2006",
+      "depth": "abstract",
+      "passageSha256": "ddc96f2cfc102ede1be7f6be9e1ab2dcf6e0ce9ec1599b3667250ab61355d485",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "540ff685d8b29df4c3310f5d1a00d038e2d071b4780cad0fd3748a6a7c23e284"
+    },
+    {
+      "requirementId": "aav-vector:R07",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "90af869cf776d0692de8f5db5f3b97f7a79fb672b3b26086fee2a547a7a49346",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R07",
+      "source": "rana2024",
+      "depth": "abstract",
+      "passageSha256": "fe08d636508d8b32aa386836fea2032ae9aec6795ecffd74916a99c6bb95869a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cf0b72913d0b2f15002b031438709ed27aedf85e1d135445ad5c9ecc2dda4436"
+    },
+    {
+      "requirementId": "aav-vector:R07",
+      "source": "rana2024",
+      "depth": "abstract",
+      "passageSha256": "9635d161b96d2b29743347012a09e72f50732f37a626869af49eff3b93786c45",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cf0b72913d0b2f15002b031438709ed27aedf85e1d135445ad5c9ecc2dda4436"
+    },
+    {
+      "requirementId": "aav-vector:R08",
+      "source": "eyquem2017",
+      "depth": "fulltext",
+      "passageSha256": "d94ecfe7d598fc1224eef4bbb0496c8632e1c0f3c8232158c11710c84f493859",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cd59d70e9fe990fab30cdbd12beb77622811c8601ae3e01e89541fc70a6c8ff0"
+    },
+    {
+      "requirementId": "aav-vector:R08",
+      "source": "eyquem2017",
+      "depth": "fulltext",
+      "passageSha256": "4fbbf974d0122653b036598cd20ff902b7a274ab3737425d2f02d26a85945352",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cd59d70e9fe990fab30cdbd12beb77622811c8601ae3e01e89541fc70a6c8ff0"
+    },
+    {
+      "requirementId": "aav-vector:R08",
+      "source": "eyquem2017",
+      "depth": "abstract",
+      "passageSha256": "0dac271411ce748ca255e41470cf3670261599ad952f74018e9067b1b2a015dc",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "dd84e316bbd3693634267fdd4d80e67e245f6f0798179d7728c9c585f4b5a079"
+    },
+    {
+      "requirementId": "aav-vector:R09",
+      "source": "wu2010",
+      "depth": "abstract",
+      "passageSha256": "c2a468128f31531cb715b805adef63de22500c07563c25bd41acd323d77e1b2a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f5903c4e46b15203b81bfece6401beb9cbdaf109866b0786e6a7ae9c433bdfd7"
+    },
+    {
+      "requirementId": "aav-vector:R09",
+      "source": "wu2010",
+      "depth": "abstract",
+      "passageSha256": "a2f157d765877271f858c8e9aef514da11cb799601f944aad930574e6d4a17a8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f5903c4e46b15203b81bfece6401beb9cbdaf109866b0786e6a7ae9c433bdfd7"
+    },
+    {
+      "requirementId": "aav-vector:R09",
+      "source": "wu2010",
+      "depth": "abstract",
+      "passageSha256": "e619017ad503ad626723fa478563ffaa97dcb9cb27793a6512e5cb19f131649a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f5903c4e46b15203b81bfece6401beb9cbdaf109866b0786e6a7ae9c433bdfd7"
+    },
+    {
+      "requirementId": "aav-vector:R09",
+      "source": "wu2010",
+      "depth": "abstract",
+      "passageSha256": "ce2c341160fe606787bd399e628efa9bf0e5863ece21f20226e5ff39f5e1c7bb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f5903c4e46b15203b81bfece6401beb9cbdaf109866b0786e6a7ae9c433bdfd7"
+    },
+    {
+      "requirementId": "aav-vector:R10",
+      "source": "srivastava1983",
+      "depth": "abstract",
+      "passageSha256": "3ca03304a953ba631ff802b5d9c3d59a1c9280ffa5b6721114614a9d4a504ee9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "52c5ee4c7fcd5a537a35ebc0210b1233b8282430c2d776392e5309ba41b2af27"
+    },
+    {
+      "requirementId": "aav-vector:R10",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "53b77f1f027d34bd8ca1cc8f1138b650a45973fa6d9ef462bbf96d4054c13281",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R10",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "e4d05d5ce1c6bd5189379caf0586a8b569f4da4a1826b9f866e8772cf228e44b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R10",
+      "source": "wu2010",
+      "depth": "abstract",
+      "passageSha256": "c2a468128f31531cb715b805adef63de22500c07563c25bd41acd323d77e1b2a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f5903c4e46b15203b81bfece6401beb9cbdaf109866b0786e6a7ae9c433bdfd7"
+    },
+    {
+      "requirementId": "aav-vector:R11",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "3ce5140c753fc81ee036676fdf587fbed5fee030a61733bad6aef72c58fcaa5d",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "aav-vector:R11",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "425870b99501247e08130a0eb15dc03e339cbd5d150651bfcdc0cb9d8a720e83",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "aav-vector:R12",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "efc24e11fffe8dd937b9fe4d9bfe923623271b2a1dc70f0bdd805288d0de0df0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R12",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "c9354beac86f27742aa9e3e653ce0f9938d56f93fe5d72d2dc03aae026a3c9b2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R12",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "068e19041c12a758117ab75bf3df677c0ac2516eca972b70377629528eafd51f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R13",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "c1c25581d84b2231613bdb1aad95000711b53f017b127124eb0d0c084c90eeb9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R14",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "9016137c0663b4076a7da86e99e400b162d34c96012f238f382614d6ab55f110",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R14",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "a0dacc05a0477ee9c5bc47d0781670512239bdbdc02fb098a211afa1613a23e4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R14",
+      "source": "eyquem2017",
+      "depth": "fulltext",
+      "passageSha256": "d94ecfe7d598fc1224eef4bbb0496c8632e1c0f3c8232158c11710c84f493859",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cd59d70e9fe990fab30cdbd12beb77622811c8601ae3e01e89541fc70a6c8ff0"
+    },
+    {
+      "requirementId": "lentiviral-vector:R01",
+      "source": "miyoshi1998",
+      "depth": "abstract",
+      "passageSha256": "d98babe9cd06c5b4e133f89a939cb11a9d6c33adc4ad4563e373203386bcee01",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "38e07e87ab1cbc786abf7f2276456a6d6b107a24e9e632f3276f56e2f2ba64d0"
+    },
+    {
+      "requirementId": "lentiviral-vector:R01",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "5c342a80ac1de5e1f26ae0f97a7e2056c7f153453b2460c357427957ab21250a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R01",
+      "source": "milone2018",
+      "depth": "abstract",
+      "passageSha256": "8cdef619db307555bba1747f2caf5d3ee91907f4aa7559118e7f6ef8ff2155ae",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "18cfd1a5aad6bbe9882487c49637ced631c7be7a10db010dba619ea43739cb50"
+    },
+    {
+      "requirementId": "lentiviral-vector:R02",
+      "source": "fda113790",
+      "depth": "fulltext",
+      "passageSha256": "18a163c679f3aa80e3d6550bc7d8b7f109ef8c2a20cb1a8731c8563535d9c3ff",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b72ffba665a4e17f7a4f7917a1b89926db330cb7b4e73de6c62057ab1c85327"
+    },
+    {
+      "requirementId": "lentiviral-vector:R02",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "6d251b2f745ba5f0616dfd3aed300f69ef3415230e747687a983edfd40e30cbb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R03",
+      "source": "miyoshi1998",
+      "depth": "abstract",
+      "passageSha256": "26e36d4feed334d9cbf0f7a10b5012758d77eb2de1b2af13f64a0ff8d72d1537",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "38e07e87ab1cbc786abf7f2276456a6d6b107a24e9e632f3276f56e2f2ba64d0"
+    },
+    {
+      "requirementId": "lentiviral-vector:R03",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "31caeba2902a9f1b4b5a2e076ef2c4347dcf6ae1062b3b3e15f3515eb9c13ac0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R04",
+      "source": "philippe2006",
+      "depth": "abstract",
+      "passageSha256": "c5c161d2e260af82b7c0a08fa10f61f92b81c62c2aa07329be80718289b5ff27",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "830a12bd79c9642eb84ef3a765732afb921e51da47f4a339c0404803ec59b39f"
+    },
+    {
+      "requirementId": "lentiviral-vector:R04",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "c9dd851f54045183ec9444c968e72d8573fac2f209c5e486c4b173cdbf9f5ab0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R05",
+      "source": "naldini1996",
+      "depth": "abstract",
+      "passageSha256": "cc1d7b4b4950d048d5fe4713e3730a7dab4702bc4730806366024354ed69e06a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1e3af12a9ca6662cad03272ab61a1e6def8267e75691be7076b7554112d4262c"
+    },
+    {
+      "requirementId": "lentiviral-vector:R05",
+      "source": "naldini1996",
+      "depth": "abstract",
+      "passageSha256": "6f07df5a9773fbe765540e7d2c3641e2bf429fd303a9f22a0171fc93b05798d4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1e3af12a9ca6662cad03272ab61a1e6def8267e75691be7076b7554112d4262c"
+    },
+    {
+      "requirementId": "lentiviral-vector:R06",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "69e5def14ebb6edfd4d3930e7bebabfecb92f29658fe8264e8004b9427402b0b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "lentiviral-vector:R06",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "7398fab63ef18cc522eb7d54518be5a1929dc6b7eee97d9ff8c4e8c33daf6448",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R06",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "e1c926bff27c04de42bcc195ac6390c642b6ba3cca33c1b5a341cb753646d4a2",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R07",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "590778c1191f4c117e575f827d5717de3808fae822bc2b85d582a04f53c8e3b9",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R07",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "3fc2f6688ffcf551810b74b999a98aa2128068b2255d37480d3b0b749fdb2fe3",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R08",
+      "source": "miyoshi1998",
+      "depth": "abstract",
+      "passageSha256": "26e36d4feed334d9cbf0f7a10b5012758d77eb2de1b2af13f64a0ff8d72d1537",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "38e07e87ab1cbc786abf7f2276456a6d6b107a24e9e632f3276f56e2f2ba64d0"
+    },
+    {
+      "requirementId": "lentiviral-vector:R08",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "adda5f3984ce4f831676d9f9e9970cf8cda0bd67eae5af54623f102cae9d0b0a",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R09",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "590778c1191f4c117e575f827d5717de3808fae822bc2b85d582a04f53c8e3b9",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R09",
+      "source": "philippe2006",
+      "depth": "abstract",
+      "passageSha256": "96388205265b2b032da523575247925a511cec970be605b586252c58b96ac6e2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "830a12bd79c9642eb84ef3a765732afb921e51da47f4a339c0404803ec59b39f"
+    },
+    {
+      "requirementId": "lentiviral-vector:R10",
+      "source": "fda113790",
+      "depth": "fulltext",
+      "passageSha256": "69b5d623bcca1e095e4b350484c56f5f6048f304af6034c5bfa1ed54cbe1b235",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b72ffba665a4e17f7a4f7917a1b89926db330cb7b4e73de6c62057ab1c85327"
+    },
+    {
+      "requirementId": "lentiviral-vector:R10",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "8aa217bd6306af3b724c97df0fb7d4d3458ad4f42775a497ac3318256edec84b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R01",
+      "source": "hou2021",
+      "depth": "fulltext",
+      "passageSha256": "275ba922b5434008e8484002c51bcc2a6e7a2335a9876a718e91b1fe00264f62",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c74a8c2498caac6116ae1039fd2aef73d8e76f1d363594b2574c854b94a2c690"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R01",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R02",
+      "source": "hou2021",
+      "depth": "fulltext",
+      "passageSha256": "1b5efee8727a10a8a73fb24eb8709aa83ad9eb9fcdd00f6d5becf88b2850d644",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c74a8c2498caac6116ae1039fd2aef73d8e76f1d363594b2574c854b94a2c690"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R02",
+      "source": "hou2021",
+      "depth": "fulltext",
+      "passageSha256": "400304a39cb153b100833d3cbd9f3d8f6ed1fc4d9e543ef4c50df068cd2baa27",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c74a8c2498caac6116ae1039fd2aef73d8e76f1d363594b2574c854b94a2c690"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R03",
+      "source": "hou2021",
+      "depth": "fulltext",
+      "passageSha256": "074688883c6fe3f9f1490c63b7ca0485aad610fee984a840147dddbf6a276245",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c74a8c2498caac6116ae1039fd2aef73d8e76f1d363594b2574c854b94a2c690"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R03",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "626d0a878549d7e2583254968ec72de8ff5146a0115df9da527e95b6de800bd4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R04",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R04",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "889da3279cd2be81bed937fd4065e4b4618b12ab2b81550c678ab857482bad64",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R05",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "aaec1e66da4220bc6e0f53da98e184474ff1550311a3f80d4a818438023a9bbb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R05",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "54e1610417b98c209ea5b4156f44df267be9415dd6ebc42f0b1ded737429a8d6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R07",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "213bf6d1803473fbe958ccd37dadb4173c57fce0ec1ccb483efea8da40fadaf6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R07",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "33f22589708b21c276a4f5ac735f996e0693fdee6a91b4174b83d856641bf08d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R07",
+      "source": "alasmari2026",
+      "depth": "fulltext",
+      "passageSha256": "aa91a198872e4ac0906f78b11924c3a7b25a1197219e4a373a9547e8f462873e",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "45ebdbe72fb7db767b2d7a8742a8dcd71a3ca18422084f4673bb69d2ee62db02"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R08",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "14d9436b3c2013ea465a9a13e0f81c42fda02a535c36fe79b7aed83590b87cb7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R08",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "54e1610417b98c209ea5b4156f44df267be9415dd6ebc42f0b1ded737429a8d6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R09",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "889da3279cd2be81bed937fd4065e4b4618b12ab2b81550c678ab857482bad64",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R09",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R10",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "ef117507a3058dda05d41b4135c61f04381e8d723768447ecc788bfbdec270a7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R10",
+      "source": "di2022",
+      "depth": "fulltext",
+      "passageSha256": "ed637093538b27c1aae60b6a092544205fbc34e982cbe269e9d9f57a7eb64cab",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "78d52928ab6239e0e47023df5be6f6370bed82b830b3f43d5e4a3cf8c9120b17"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R10",
+      "source": "cheng2020",
+      "depth": "fulltext",
+      "passageSha256": "7bdc4cfb74c63c33795b6dafc12a8f6466fca4c5cef4b960656f1252089fa202",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e9716ff6685169335280e1648a09d3e255fae5376ded8a279f8fedf0d17a31de"
+    },
+    {
+      "requirementId": "rna-lipoplex:R01",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "efae713fea610521d12c160487e4e3d68e0f78d678d428ee17a73dc8b946911e",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R01",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "a4929a9cc2db3a7f8c9d2c7c2613ff1c9adbbecc94c7e8c6f3d4c12fa64fbae3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R02",
+      "source": "rojas2023",
+      "depth": "abstract",
+      "passageSha256": "2d4401b59273f5f9640640239ad6aa3f993e371c274c6b8cea6145a7500fb40f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "63bec9e0a85269942af58b0e4bd2e4daaa7161c70896e160a01ad92d4a523653"
+    },
+    {
+      "requirementId": "rna-lipoplex:R02",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "c3182576db5e6720ae64143149802dc8520093ccabb1aa3bfe50c8a8bc9d015e",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R03",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "ea5139ccc10822fdfe3402284175a1e40b67db0020fba4efa84802573d935d78",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "rna-lipoplex:R03",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "4c25a5d0abdf9be27a79075e4157a581c1d557368ad3abc80129495e59e198cd",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "rna-lipoplex:R04",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "d8a7950bde3028d9529b2e50e0002547da7af6103ef5619ff1371b19089cf948",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "rna-lipoplex:R04",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "b2b2768e4e7972ebbf1292c384412960443eebe773c59f0b9871e892f5291d90",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "rna-lipoplex:R05",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "edabd6f4ac50b63e86bbf777e81d88a43268fba9b8503880f46377c56f2e2478",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "rna-lipoplex:R06",
+      "source": "rojas2023",
+      "depth": "abstract",
+      "passageSha256": "06ca54668ac8692e996b5b8923dd54a3129812e116bdbf58cd5d9ff38f116952",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "63bec9e0a85269942af58b0e4bd2e4daaa7161c70896e160a01ad92d4a523653"
+    },
+    {
+      "requirementId": "rna-lipoplex:R06",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "159da184c829d2b974d5b8ba05cdb041983635ce44567f34416ad9a85b56fb1a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R06",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "8d997504223043f02387803bf967d86536a76cca3d9f09f4fe191954759abef5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R07",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "a3de7b725e0948790691d21fdd916cbbe5c50b9b170fad025d35d2ba716935ea",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R07",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "b478cb8d7247a5dd4df7671de35a47f27c1829a2d8b95b3a91bd3178b256bd37",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R07",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "36885efd55b6d31b75130bd330116b45bddc190d9f20a9a8291d61172f12d156",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "rna-lipoplex:R07",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "b2b2768e4e7972ebbf1292c384412960443eebe773c59f0b9871e892f5291d90",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "rna-lipoplex:R08",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "0d6610032dfc76e5eb5fd69a13f9dd439a965cdb1987f5a65a0cbdbefc3df193",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R08",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "54e1610417b98c209ea5b4156f44df267be9415dd6ebc42f0b1ded737429a8d6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "rna-lipoplex:R08",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "ef2697d762a4dad3cfdbbdb46658fa4d1858ea45d45f4bcc357c22bed3062025",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "rna-lipoplex:R09",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "54e1610417b98c209ea5b4156f44df267be9415dd6ebc42f0b1ded737429a8d6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "rna-lipoplex:R09",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "8d997504223043f02387803bf967d86536a76cca3d9f09f4fe191954759abef5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R09",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "159da184c829d2b974d5b8ba05cdb041983635ce44567f34416ad9a85b56fb1a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R10",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "67fc4bd7e1ea043dab44c5273e3f0c98fe6759757567e51bd4515629b14af583",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "rna-lipoplex:R10",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "64a47e9db30300b89f77c420a0c86e110cf59d2566da345dc7a49cebbef7b0af",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "targeted-lnps:R01",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "02d786d091b433223054cabc1b484754bc2bbdd27ad1d79b2b00bae7c1a890b1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R01",
+      "source": "cheng2020",
+      "depth": "abstract",
+      "passageSha256": "a2612af89d64881097db2625b22a84da87c61715698a2bd8a7eb4d6d82823c01",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "eb27f729fd33b14e4249695b25f3659170b2d4ca4add8040c7c84b9f1ebbd95a"
+    },
+    {
+      "requirementId": "targeted-lnps:R02",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "43c524098c52a5408fd276d22ec6b6f07bb43bdfb2b9613f8c7adbedc6d7f16c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R02",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "02d786d091b433223054cabc1b484754bc2bbdd27ad1d79b2b00bae7c1a890b1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R03",
+      "source": "cheng2020",
+      "depth": "abstract",
+      "passageSha256": "f58e9722c468f7bb6005ea1bff36cc2d9435a0b215d9032e27cc73bc8898ab2a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "eb27f729fd33b14e4249695b25f3659170b2d4ca4add8040c7c84b9f1ebbd95a"
+    },
+    {
+      "requirementId": "targeted-lnps:R03",
+      "source": "cheng2020",
+      "depth": "fulltext",
+      "passageSha256": "9b5dcc744975e5e469a6aca5802cd8e6fa672a7582eeb28aaaca679005445e97",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e9716ff6685169335280e1648a09d3e255fae5376ded8a279f8fedf0d17a31de"
+    },
+    {
+      "requirementId": "targeted-lnps:R04",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "targeted-lnps:R05",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "c8b91888f1b55a319965a18d1049b6e1ac4fb7a6ba7bf14d7036498602194839",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R05",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "d7e63ce1750cc7fd3bc4ea9665a68de817ac61c21c56a320c0df8ad4b8ee3e8f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R05",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "52bc6fd86f9484094e0df9f075f2fd362f4054c3237f7b6ce4b400a6d099b10d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R06",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "00e116d22c8dde4c11ea958548571a79bf0b6429380780f87dc0c5d4cc479a0a",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "targeted-lnps:R06",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "abdfe588b2596db2f7736d02be9c13a89fcd790a1c49903f362639e05a273149",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "targeted-lnps:R06",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "73f66aad5e93787a8249b8ec6942240d6596da8d64278cee95de2a197ce9a95b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "targeted-lnps:R07",
+      "source": "rurik2022",
+      "depth": "abstract",
+      "passageSha256": "5cae26b70259e57f5609eca232c1f7a6fa9edca253aa78e3a187b35cc3ce4784",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "4db225595e9b753a7ce73c77d5a6a5ed7c27f48706232a17401cdeb980d2275f"
+    },
+    {
+      "requirementId": "targeted-lnps:R07",
+      "source": "cheng2020",
+      "depth": "abstract",
+      "passageSha256": "2d8854360ee513fa0884c8c9dce8c01d53105970611857aecfb1c0cf163f3fd2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "eb27f729fd33b14e4249695b25f3659170b2d4ca4add8040c7c84b9f1ebbd95a"
+    },
+    {
+      "requirementId": "targeted-lnps:R07",
+      "source": "eyquem2017",
+      "depth": "fulltext",
+      "passageSha256": "d94ecfe7d598fc1224eef4bbb0496c8632e1c0f3c8232158c11710c84f493859",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cd59d70e9fe990fab30cdbd12beb77622811c8601ae3e01e89541fc70a6c8ff0"
+    },
+    {
+      "requirementId": "targeted-lnps:R08",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "99abb7e8a4e6c1181b786e26f7e32ff05658a8aa5d603729fbfd43b8bf2d0683",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R08",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "02d786d091b433223054cabc1b484754bc2bbdd27ad1d79b2b00bae7c1a890b1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R10",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R10",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "74db6fc8dd10c85ed0ec8dc681397887ae758867c9c4e7fe37c6ccfa150008d4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R11",
+      "source": "rurik2022",
+      "depth": "abstract",
+      "passageSha256": "6256d31f8269b96f25f344e486979686846cf20d7af2285a2442852d38fa46ac",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "4db225595e9b753a7ce73c77d5a6a5ed7c27f48706232a17401cdeb980d2275f"
+    },
+    {
+      "requirementId": "targeted-lnps:R11",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "ef2359cbf314f634a8696ab549b2c496903b2f10e6f69433d81e7ab3de903d85",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "targeted-lnps:R11",
+      "source": "cheng2020",
+      "depth": "fulltext",
+      "passageSha256": "fb7ce4017773a5a7ba0e278da25b6cea435e166c57ad02c99f7c64a51c8b5650",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e9716ff6685169335280e1648a09d3e255fae5376ded8a279f8fedf0d17a31de"
+    },
+    {
+      "requirementId": "transposon:R01",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "c70ce632179cdb3e799c63a15a6494ab13de6d5215496bd049a52f0b7279a3fb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R01",
+      "source": "hudecek2017",
+      "depth": "abstract",
+      "passageSha256": "a2e5c4a963a0caf169114c46d988d5b658fc74eccc4ee5321a379f1167c67619",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d833f2af2e5f75bf6c7f96a769e34ddd9024adf0681aa95ecbddf2ba5f7d34d7"
+    },
+    {
+      "requirementId": "transposon:R02",
+      "source": "ivics1997",
+      "depth": "abstract",
+      "passageSha256": "2cd5d160baf46729f7511da7145a5df385a99cbf0685df592f0dc37e2bd2900a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7d4466662d860a797b157cf99ba8da9ebf656b8c0d7eca9b55b0b4d36f70a2c4"
+    },
+    {
+      "requirementId": "transposon:R02",
+      "source": "kebriaei2016",
+      "depth": "abstract",
+      "passageSha256": "3513be8d4b29156bc97caa880047b9e2404ac3207fb3cb526727041c89bb380f",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d5820fee8dc70a686bf0baf02573442b729c48a29e62af08e570a582a339ae4e"
+    },
+    {
+      "requirementId": "transposon:R03",
+      "source": "ivics1997",
+      "depth": "abstract",
+      "passageSha256": "d39c90a0e15ab5d2b5cd987f1bd3a7d3e4fd534dea667bd601effcefd7092bd3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7d4466662d860a797b157cf99ba8da9ebf656b8c0d7eca9b55b0b4d36f70a2c4"
+    },
+    {
+      "requirementId": "transposon:R04",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "4690012c93cfad38ef4241463dc122640cdd0710a61f09f3f1e7be7260bc0ec9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R05",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "06286d3c872d8c9e08876dc757b353a403af4fd9b642b09a9a4107b63dbcd8b2",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "transposon:R05",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "537a6aafc3ce34f181c28f2698cc897a022a293dab0e9aaac6b3ea63401f60c3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R06",
+      "source": "huang2010",
+      "depth": "abstract",
+      "passageSha256": "121df3854727a6ea3e15e273278997960e794eb9ecea914af61cb53bc0a28576",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6eb080b4d7453d9d1db9b21a957559e060704344a21b33aa0af14e25cf1827f7"
+    },
+    {
+      "requirementId": "transposon:R06",
+      "source": "huang2010",
+      "depth": "abstract",
+      "passageSha256": "50d97579d1604a88d19d088d4afe854763ad5249ca8cde2048dc36905514b37c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6eb080b4d7453d9d1db9b21a957559e060704344a21b33aa0af14e25cf1827f7"
+    },
+    {
+      "requirementId": "transposon:R06",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "55e60f612b55b0aeea7bec4ac3a96dbafa6c140a5e46b8191bbed05184d23d76",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R07",
+      "source": "kebriaei2016",
+      "depth": "abstract",
+      "passageSha256": "abc178aadd07ec23663fe0124154fd1e0eccdb236add4ac6e46aa2564227b6b8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d5820fee8dc70a686bf0baf02573442b729c48a29e62af08e570a582a339ae4e"
+    },
+    {
+      "requirementId": "transposon:R07",
+      "source": "kebriaei2016",
+      "depth": "abstract",
+      "passageSha256": "18e3b98812fa8bf1c2277848081644a1837277ff4574d68291455dfbe5a986a5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d5820fee8dc70a686bf0baf02573442b729c48a29e62af08e570a582a339ae4e"
+    },
+    {
+      "requirementId": "transposon:R08",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "6f90b8cdad4e2abb1e6f9e51e655f94ed185da196504104f674f4eea07dc2ca4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R08",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "7fcb4e8cec94095e591a68b9d473e803aef4ac8ae6d661b2a163fbca6b23cb7c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R09",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "537a6aafc3ce34f181c28f2698cc897a022a293dab0e9aaac6b3ea63401f60c3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R10",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "4690012c93cfad38ef4241463dc122640cdd0710a61f09f3f1e7be7260bc0ec9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R10",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "69e5def14ebb6edfd4d3930e7bebabfecb92f29658fe8264e8004b9427402b0b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "transposon:R11",
+      "source": "ivics1997",
+      "depth": "abstract",
+      "passageSha256": "f5370893437a8ecd6c0bd77132882e7a9bb8413272f265adb8623d43c6aabce3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7d4466662d860a797b157cf99ba8da9ebf656b8c0d7eca9b55b0b4d36f70a2c4"
+    },
+    {
+      "requirementId": "transposon:R11",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "1681ce3d3dc6dc21e5d93f9afe930146b2b30cd55581cb984ab32ecf8d62118b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R11",
+      "source": "huang2010",
+      "depth": "abstract",
+      "passageSha256": "2154f538192c02e8b396ba24bddc81499252c08207b21c3f465042b8da8fdd0f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6eb080b4d7453d9d1db9b21a957559e060704344a21b33aa0af14e25cf1827f7"
+    },
+    {
+      "requirementId": "transposon:R11",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "1557cdedad54f7f12a17cf5915ad51f79d21ff4cd5b295c8300f96138149b209",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "629ee99a85d5ae53ae8086ecb768c4c76681dca3cf45aaf4a6cb7d8e9004f7e6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "c8b91888f1b55a319965a18d1049b6e1ac4fb7a6ba7bf14d7036498602194839",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R02",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "02d786d091b433223054cabc1b484754bc2bbdd27ad1d79b2b00bae7c1a890b1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R02",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "73f66aad5e93787a8249b8ec6942240d6596da8d64278cee95de2a197ce9a95b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R03",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "ea5139ccc10822fdfe3402284175a1e40b67db0020fba4efa84802573d935d78",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R03",
+      "source": "kranz2016",
+      "depth": "abstract",
+      "passageSha256": "edabd6f4ac50b63e86bbf777e81d88a43268fba9b8503880f46377c56f2e2478",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f298ee18bc9912a6a40ee614247edd3364c52c4b549feeac69056f6e6a167361"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R04",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R04",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "6bdf39e03e4e6aa2a2316b3700f30625da4cd7240b298298c846482db1f36c7b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R04",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "abdfe588b2596db2f7736d02be9c13a89fcd790a1c49903f362639e05a273149",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R05",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "9f905cec45dc684d3adf36a181a849602265875cbb4ebc3d3b5a5cfd07ee1040",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R05",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "7cd15c74a941aab8cf6df5b485d643cb8093ee380448e9cdc593497d6be20ed6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "b58cf716c727f3883c57afc7e0c32d0609af7924f4f611b95f16646860394db7",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "99abb7e8a4e6c1181b786e26f7e32ff05658a8aa5d603729fbfd43b8bf2d0683",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "0ba0f082dca933dba4dcb5dab32ddb21301ed325fd28bb160ce8d68a84b9ebc6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "6bdf39e03e4e6aa2a2316b3700f30625da4cd7240b298298c846482db1f36c7b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R08",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "b58cf716c727f3883c57afc7e0c32d0609af7924f4f611b95f16646860394db7",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R08",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "abdfe588b2596db2f7736d02be9c13a89fcd790a1c49903f362639e05a273149",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "codon-optimization:R01",
+      "source": "wu2019",
+      "depth": "abstract",
+      "passageSha256": "c81aee28144269e5a9f37f603251edacff55820f41df3451ac81615bbcf73d11",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c396c44dc17f1f6c911d980b19d15db8bb71577e572260e81d373c6050580f3f"
+    },
+    {
+      "requirementId": "codon-optimization:R01",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "b52bc908b6ea05adeaf646d0fb99ccddf175fa95adf40d36f00df8e8b5d0aac4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R02",
+      "source": "wu2019",
+      "depth": "abstract",
+      "passageSha256": "357b4f19844ef8bd04f58de3f4b9b8b62a371e200a6de2da11fa9a12614d4acd",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c396c44dc17f1f6c911d980b19d15db8bb71577e572260e81d373c6050580f3f"
+    },
+    {
+      "requirementId": "codon-optimization:R02",
+      "source": "wu2019",
+      "depth": "fulltext",
+      "passageSha256": "1ce6e851ccc28a75f544659790b13e53651a381c35fafd0d9810852e8b1a0d11",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5031f672383287495c92fb43e6976bee4577a84e8014bd4f117ae31fee56a559"
+    },
+    {
+      "requirementId": "codon-optimization:R03",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "c0f29205404c1bef31a0a40cd92acc5d201c1c6f7caf4c8ed392c7b1bb027af9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R03",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "a108e98dd38b77be682a3360ca8c85422de9fd87dc7b1a3e3eff25b600baab20",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R04",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "18959ebf44fe5f55622076812db9c564e9435549dd569788e225daa574efacce",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R05",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "5fe7fc2db2aa89ab86d6aca64c77bd12aa3b3f4f570ced5a0d389234af94381b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R06",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "18959ebf44fe5f55622076812db9c564e9435549dd569788e225daa574efacce",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R06",
+      "source": "wu2019",
+      "depth": "abstract",
+      "passageSha256": "88af853166621ff694ffaf4dab5f461f7e4f865c60f24aa3f0055f63c679d921",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c396c44dc17f1f6c911d980b19d15db8bb71577e572260e81d373c6050580f3f"
+    },
+    {
+      "requirementId": "codon-optimization:R07",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "18959ebf44fe5f55622076812db9c564e9435549dd569788e225daa574efacce",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R08",
+      "source": "wu2019",
+      "depth": "fulltext",
+      "passageSha256": "77104e1206780db37d1a1b478acaef3a7e2fa239c9866ca4213aa11897cf58ff",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5031f672383287495c92fb43e6976bee4577a84e8014bd4f117ae31fee56a559"
+    },
+    {
+      "requirementId": "codon-optimization:R08",
+      "source": "mauger2019",
+      "depth": "fulltext",
+      "passageSha256": "a01759da08582327f4aafea54fcc21454ac2969a80125ae1920a16d3d98bc9bf",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0f03192756b1bf2789e2f4679f104f90f0d717195cbd4e0b5337f50fc3abb64a"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R01",
+      "source": "henderson2021",
+      "depth": "abstract",
+      "passageSha256": "e8edbbdb65fcf205efaff197997c1e25604cdc1f7172cd165549886bf5d8c3d1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b982f3f5e58a099c9657b71a8ed5b694c3629ae10088c2187598d7a179a67d1"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R01",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "52a51fefa2fde7e4a87776b3d25798fe22b6f1d9bf9da43878eaa7b50fd21d7b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R02",
+      "source": "henderson2021",
+      "depth": "abstract",
+      "passageSha256": "75f5f7718b4b64e66a0cae7787b53b900c85268d2891cac006dd00c58f021081",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b982f3f5e58a099c9657b71a8ed5b694c3629ae10088c2187598d7a179a67d1"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R02",
+      "source": "henderson2021",
+      "depth": "abstract",
+      "passageSha256": "43dc72e7b715ab85ec7dd2ad2bb2b9e4f1248d4a690b0f02cf1f8699748f42ac",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b982f3f5e58a099c9657b71a8ed5b694c3629ae10088c2187598d7a179a67d1"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R02",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "43161140955f30adc0f3ec7bf0d172329fd2781c97752ac3609ef58f6e7ab47c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R03",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "b26de165e176ad4e64b81628b407e26393494d2e786dd0938350f94d3e3d146f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R03",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "404ccb0d667df2d56b0bbba6af69f7e3d9a621d963d61fe7d233deedfb89fa4f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R03",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "fbf34b8ca7e5a3e44b806da22d36028d2ac5cde533bcd72bad78c85691dc92c5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R04",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "2fd044bac52b828cf7cf09f1ba89f689c873a546a2d2b0596ea9975d0cade228",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R04",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "2aaf2c2ada80c639fba085a3774e73a0b532104f7f5f316641dea08cc20fbc91",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R05",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "61c7030265027a0555085a23331c01f5ffd4817d14f1c93086a8306b7792e4df",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R05",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "051da24bc8bb16f27eca5ebb19831d1378ba2e12f9971d2fafcbe32ac968e9f6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R06",
+      "source": "losada2026",
+      "depth": "abstract",
+      "passageSha256": "a65be7743ba8a0c23df4f212614ffa4380d50fae2378f95e7f2d99fb6067a940",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d3ced01ab599fa0b7291b1a0d457b3f73d2e63dbe4c8d65d11b1c804e1957d02"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R06",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "cb13b3e6a500383b3fe6e7f63fc940d5a0a7fc28bf5a1c04ea9c2f102c593e43",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R06",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "ff995d52ac9e37dff7afd26eb36c932cafc3e73a5ce1a05b6efa91dc6e9079c7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R07",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "ff995d52ac9e37dff7afd26eb36c932cafc3e73a5ce1a05b6efa91dc6e9079c7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R07",
+      "source": "losada2026",
+      "depth": "abstract",
+      "passageSha256": "a65be7743ba8a0c23df4f212614ffa4380d50fae2378f95e7f2d99fb6067a940",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d3ced01ab599fa0b7291b1a0d457b3f73d2e63dbe4c8d65d11b1c804e1957d02"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R08",
+      "source": "henderson2021",
+      "depth": "abstract",
+      "passageSha256": "9f668547d3ac2b705070cd6281d8acc9092d722a74f55f7f4f9c3c3a745f6b76",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "6b982f3f5e58a099c9657b71a8ed5b694c3629ae10088c2187598d7a179a67d1"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R08",
+      "source": "mu2018",
+      "depth": "fulltext",
+      "passageSha256": "43b98a056a6c46687f7e18d6b24f2fd2b597fb5fa36d5416ca9b11fa2a5ae0dc",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e02eb2bf6fe2e0893b2253bafa7d528aff8c8f0b9b9d061e333be6c5126f5ce0"
+    },
+    {
+      "requirementId": "modified-nucleosides:R01",
+      "source": "kariko2005",
+      "depth": "abstract",
+      "passageSha256": "e40a3c46fa8ff42cd9f8b8a86098c7db31e34c589d3f47a0d49e55129187bd36",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "387cbcdb19a450c7d6010bbca13ebed06aaa4f030ef5fc1466ee99fe02df45e3"
+    },
+    {
+      "requirementId": "modified-nucleosides:R01",
+      "source": "andries2015",
+      "depth": "abstract",
+      "passageSha256": "8e35b366902fed0cc8e73979be17646d44868a494ddc38860bee3b67b1a04691",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e408fb45a94f74e8462d7ae7cba58f05b60fb295a1979ff8c5de8649d40f9ad8"
+    },
+    {
+      "requirementId": "modified-nucleosides:R02",
+      "source": "kariko2005",
+      "depth": "abstract",
+      "passageSha256": "1bd844414e5a7b71a3477aa678096c1d35ef1c8e2c4530389ba4b05b9d1b57f8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "387cbcdb19a450c7d6010bbca13ebed06aaa4f030ef5fc1466ee99fe02df45e3"
+    },
+    {
+      "requirementId": "modified-nucleosides:R02",
+      "source": "andries2015",
+      "depth": "abstract",
+      "passageSha256": "906a387c47fadf1903ed0048f7755af6f593e1f8fab98c05c32b0678312334e8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e408fb45a94f74e8462d7ae7cba58f05b60fb295a1979ff8c5de8649d40f9ad8"
+    },
+    {
+      "requirementId": "modified-nucleosides:R03",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "1f835c468ae4c505edfd46830dadbb4d9e62c9fa5bccbf60910d10b9efc07b03",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R04",
+      "source": "mulroney2024",
+      "depth": "abstract",
+      "passageSha256": "4bf68bedd5d299d1547e73dd11039180836c70e6a8774763deaaa64ffe1da7b7",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "95bba11bc12dd2c8fb4574efd4b204d220f9da239d87deb71f95dd0378426e2b"
+    },
+    {
+      "requirementId": "modified-nucleosides:R04",
+      "source": "mulroney2024",
+      "depth": "abstract",
+      "passageSha256": "75c797a4863552f1191850fe4503b7fd787e75508200868e820b327baeee7eb2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "95bba11bc12dd2c8fb4574efd4b204d220f9da239d87deb71f95dd0378426e2b"
+    },
+    {
+      "requirementId": "modified-nucleosides:R04",
+      "source": "mulroney2024",
+      "depth": "abstract",
+      "passageSha256": "cc6353486e48d1537ae145b1004ac536dacb8842cfc61754d1f6f36984ba2f44",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "95bba11bc12dd2c8fb4574efd4b204d220f9da239d87deb71f95dd0378426e2b"
+    },
+    {
+      "requirementId": "modified-nucleosides:R05",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7f7000b8643871b62bcfd0d4ef85823ea8225c8e3914a610b57dfa9fc1459f54",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R06",
+      "source": "andries2015",
+      "depth": "abstract",
+      "passageSha256": "b4fdb3f014ac3c2cb468de517a4cd6cd3a1b880865bac11bd9913184497c742b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e408fb45a94f74e8462d7ae7cba58f05b60fb295a1979ff8c5de8649d40f9ad8"
+    },
+    {
+      "requirementId": "modified-nucleosides:R06",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7b4ee258bba06d8cdb27ab0a8210cac7168da9892866696abb7a919ff940c83d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R07",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7f7000b8643871b62bcfd0d4ef85823ea8225c8e3914a610b57dfa9fc1459f54",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R08",
+      "source": "mulroney2024",
+      "depth": "abstract",
+      "passageSha256": "435c5c283eca0aa2f858c2834f3a93e867ee42a55429c87cf4b1bce4acd1ac62",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "95bba11bc12dd2c8fb4574efd4b204d220f9da239d87deb71f95dd0378426e2b"
+    },
+    {
+      "requirementId": "modified-nucleosides:R08",
+      "source": "andries2015",
+      "depth": "abstract",
+      "passageSha256": "4cae388d6cf69be0209fc6c718f855a497c0630cb26a4790fa53d69a481fc6bf",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e408fb45a94f74e8462d7ae7cba58f05b60fb295a1979ff8c5de8649d40f9ad8"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R01",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "2fd044bac52b828cf7cf09f1ba89f689c873a546a2d2b0596ea9975d0cade228",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R01",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "4ebf71f16076141e39f10a7436d47355a7c702119cff31c49e6c0d4f475ef79b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R02",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "708e05cfc6b479536376aa23873c3ab2c77b6be26f260865fe2c7ec51221355a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R02",
+      "source": "mu2018",
+      "depth": "abstract",
+      "passageSha256": "f0e83e51423a1ca1036548148e7d7cc4be86acd478c0d72c3544151b99ca9331",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "539cc0190e020100fe7fa0ec77ad491a88b8b6331f63fb60a2d4e01192875b96"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R03",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "8ac8b3b55c11a2d54112353bb279f72d2e3948136952addea8f05c34a5cc5188",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R03",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7b4ee258bba06d8cdb27ab0a8210cac7168da9892866696abb7a919ff940c83d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R04",
+      "source": "baiersdorfer2019",
+      "depth": "abstract",
+      "passageSha256": "d5c1c723293333bcef37c9bb2020da134588b156f3533f29e6c0c3623f2e3392",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "13af269bac85cbaae5ab4d8bd1c59988f22ae4f68d85ea6374e1f4f10fdd5dcd"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R04",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "708e05cfc6b479536376aa23873c3ab2c77b6be26f260865fe2c7ec51221355a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R05",
+      "source": "baiersdorfer2019",
+      "depth": "abstract",
+      "passageSha256": "9f14a3d8365bccb57ab38cb118b71df774559631f9689073dbf51f5dd42a3284",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "13af269bac85cbaae5ab4d8bd1c59988f22ae4f68d85ea6374e1f4f10fdd5dcd"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R06",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "2cb34db6960d1c23a21a8430035caf0834ea41fc2e0c8f906ac5f91a80e63958",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R06",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "cb13b3e6a500383b3fe6e7f63fc940d5a0a7fc28bf5a1c04ea9c2f102c593e43",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R07",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "7dc80013c9a5be43f4d9c5866f86230ddb1b42c97ec88247a58e57cb32e6c0bb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R07",
+      "source": "baiersdorfer2019",
+      "depth": "abstract",
+      "passageSha256": "d5c1c723293333bcef37c9bb2020da134588b156f3533f29e6c0c3623f2e3392",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "13af269bac85cbaae5ab4d8bd1c59988f22ae4f68d85ea6374e1f4f10fdd5dcd"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R08",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "a407843f9ff3d3c31a7a8d6f78d90fffa84d44c5cc8c49ff2e7f3b1a25538d29",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R08",
+      "source": "kariko2011",
+      "depth": "fulltext",
+      "passageSha256": "9cb217074f287ae996e442ca0afb88c392ebed21875792efcc1f260178db2e7b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5d9ba511a4257d116dff483808a50fa8b7c040066425691efd65df5cb4d9455b"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "source": "openstax154",
+      "depth": "fulltext",
+      "passageSha256": "149042b4032db10bcc46ae274e3b1b615616c17f968be791e16b4ff793dd334e",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "80e3df6a9642f06689aaec815a7cd33ffb211ac1d6c91ee690674afbba02960c"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "source": "openstax154",
+      "depth": "fulltext",
+      "passageSha256": "0a3995dc6001eaca6acccf2c9b1e794fd9cb842f5527d84ae6aa0d1fd4255a8a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "80e3df6a9642f06689aaec815a7cd33ffb211ac1d6c91ee690674afbba02960c"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "source": "openstax155",
+      "depth": "fulltext",
+      "passageSha256": "58e0bff65cc0d0db87464a7864bc7398c35e292b42d5c2e30fbe3d28a095411c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2c21f59fa5b4330ae7e8ac3206c7a87832465fc658e1e8dc87fc9bfe618d2c34"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "11df133e129eeb7bd0e417a2d28b18856ea9c916adeb83bc9f10f8d69b7fdfec",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R02",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "05d8c2f17308fdd4f02d6bb1b6ff41d6a00bced9cdcddfcd58ddad1ec9b5777d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R02",
+      "source": "gallie1991",
+      "depth": "abstract",
+      "passageSha256": "78bafc8439286d6038859dad033b311a1626a5535ec7d69f2a5f366dfe6debef",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0914ae48e3e812b5accba26c86fe67cf68ff8acfb3bc38f828cfa462d35e9a79"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R02",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "d72e7467b02d33bcec8f0e36ac502eedba4eec9e80340f0a137e96ff57745d9f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R03",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "8e04a0e0d32bae3d7fa0257caca02fde055c916d953a6b85f0d03a7d5111e780",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R03",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "05d8c2f17308fdd4f02d6bb1b6ff41d6a00bced9cdcddfcd58ddad1ec9b5777d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R04",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "23e6601a40c4311008e40ca426d7bd5474ac771295747fcfc4832ae9049876b0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R04",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "95154e2efc3df530cfc26b932a9816ffc58d7a6dc885441f8e48e7df821f65ad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R05",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "d72e7467b02d33bcec8f0e36ac502eedba4eec9e80340f0a137e96ff57745d9f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R05",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "8e04a0e0d32bae3d7fa0257caca02fde055c916d953a6b85f0d03a7d5111e780",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R06",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "11df133e129eeb7bd0e417a2d28b18856ea9c916adeb83bc9f10f8d69b7fdfec",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R06",
+      "source": "gallie1991",
+      "depth": "abstract",
+      "passageSha256": "78bafc8439286d6038859dad033b311a1626a5535ec7d69f2a5f366dfe6debef",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0914ae48e3e812b5accba26c86fe67cf68ff8acfb3bc38f828cfa462d35e9a79"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R06",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "a71ae2471f61e8a72a7a2a8ca67a408db582cc65ae6ecdbddb9015b11dde9e5f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R01",
+      "source": "caron2015",
+      "depth": "fulltext",
+      "passageSha256": "ab18003192c5d5518c0dc262baadf99723cca7bccb860cb2526ca9c58727bf27",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "decc3d765ee0c95ade7b9a6ab4494ddebeed586f11ba053fd647cfebd63e2b10"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R01",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "87f832c8c34ec209b2240b708cd522e6ca73de4131265adce81ab21ad88749ba",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R02",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "a241d52a004bb9c46ca0d84429ee77452875997fce937d1889f7b5b175ba0a95",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R02",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "08e31441c6dbbf876fda6154354eab6a420fb4ea463c5a47d4d120f32a9a2821",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R03",
+      "source": "kreiter2008",
+      "depth": "abstract",
+      "passageSha256": "ce50ba548bc30e1298902270881279d1c65fa6594ddbed2ee6b949330c321817",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "069cc62e7d60baa415586c8ae5de08f35fcc0fc4bbe12b0e34ac1be905dfd36c"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R03",
+      "source": "kreiter2008",
+      "depth": "abstract",
+      "passageSha256": "122822c6e9feafd611df952e7311ad66c0987e06db4a0880dcfedab5d5041172",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "069cc62e7d60baa415586c8ae5de08f35fcc0fc4bbe12b0e34ac1be905dfd36c"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R04",
+      "source": "kreiter2008",
+      "depth": "abstract",
+      "passageSha256": "3693be38f75167d3391a4f73153a41f7e26f10e1770aad48848fdf0c3390dd5d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "069cc62e7d60baa415586c8ae5de08f35fcc0fc4bbe12b0e34ac1be905dfd36c"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R04",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "159da184c829d2b974d5b8ba05cdb041983635ce44567f34416ad9a85b56fb1a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R05",
+      "source": "sahin2017",
+      "depth": "abstract",
+      "passageSha256": "73e9fe37da60456a59284f941088e7baeb26338a332693a838fe1091cf538437",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "143ef11b96fa9a66781a35a1b4e564008d1b0cc3a2f60ca0b80c8751d4dbf660"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R06",
+      "source": "caron2015",
+      "depth": "fulltext",
+      "passageSha256": "655c2e438f4deaec5095ddbad6bd56d4f5f296dd3d881786b90d2a7018efdf98",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "decc3d765ee0c95ade7b9a6ab4494ddebeed586f11ba053fd647cfebd63e2b10"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R06",
+      "source": "caron2015",
+      "depth": "fulltext",
+      "passageSha256": "6b392da149e7c91ac0ff635068facb9e5564296ac9de69cd0455d2a41f4379f1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "decc3d765ee0c95ade7b9a6ab4494ddebeed586f11ba053fd647cfebd63e2b10"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R06",
+      "source": "yadav2014",
+      "depth": "abstract",
+      "passageSha256": "ffdbf72bad1e8fb734474e621148fc64c1179f1b803da7547cd8b23a22d93971",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2a949dd64b994565246e9c472128eb4faf57d9319098d568705334f99bd29427"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R07",
+      "source": "livingston2001",
+      "depth": "abstract",
+      "passageSha256": "e40562f263bd220c0229c29ec06ac8c74bad7689bae3d666e039f9e55e773cd0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "8c307cd4fa231ebc8a1028717e19a21bbb74d387816f163176474c61cf58161f"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R07",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "87f832c8c34ec209b2240b708cd522e6ca73de4131265adce81ab21ad88749ba",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R08",
+      "source": "sahin2017",
+      "depth": "abstract",
+      "passageSha256": "b2c6c2a6e47e5ee5366d962483287f6aa5e9349fe71285228d5ff2db2f92b1ee",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "143ef11b96fa9a66781a35a1b4e564008d1b0cc3a2f60ca0b80c8751d4dbf660"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R08",
+      "source": "rojas2023",
+      "depth": "abstract",
+      "passageSha256": "c9571c1cd1e3e976715308ef420155b3e34ab10748301702162be516c7eaaa93",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "63bec9e0a85269942af58b0e4bd2e4daaa7161c70896e160a01ad92d4a523653"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "43d188d9e6a341a80109622c8e4634b4e3f667790d76ef8c9297591d860acdca",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "naso2017",
+      "depth": "fulltext",
+      "passageSha256": "16477a1dae70834c20b71885ff0c3975f44cfb00d796c5b917df4dc1e2d3d6d7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02dc9011cccc7bc5abd8425966fe223d227b098a0ae6cadacb3ff59c0a52e8fb"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "71899e5f53909c2f44417c8a1eebf3ef0f1b2371182fc789c304b4cc61c0a552",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "f3051ab136439990b9cd473c603feab49881fed054bd3d09c0909a8b5742204b",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "c1c25581d84b2231613bdb1aad95000711b53f017b127124eb0d0c084c90eeb9",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "efc24e11fffe8dd937b9fe4d9bfe923623271b2a1dc70f0bdd805288d0de0df0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "efc24e11fffe8dd937b9fe4d9bfe923623271b2a1dc70f0bdd805288d0de0df0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "schnepp2016",
+      "depth": "abstract",
+      "passageSha256": "c9354beac86f27742aa9e3e653ce0f9938d56f93fe5d72d2dc03aae026a3c9b2",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80"
+    },
+    {
+      "requirementId": "aav-vector:R15",
+      "source": "nakai2001",
+      "depth": "abstract",
+      "passageSha256": "068e19041c12a758117ab75bf3df677c0ac2516eca972b70377629528eafd51f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "98cd5f4b800540021e707b5fe85bf699039c1f84258c6fc3b050fe8fbf8cb99f"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "miyoshi1998",
+      "depth": "abstract",
+      "passageSha256": "26e36d4feed334d9cbf0f7a10b5012758d77eb2de1b2af13f64a0ff8d72d1537",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "38e07e87ab1cbc786abf7f2276456a6d6b107a24e9e632f3276f56e2f2ba64d0"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "31caeba2902a9f1b4b5a2e076ef2c4347dcf6ae1062b3b3e15f3515eb9c13ac0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "philippe2006",
+      "depth": "abstract",
+      "passageSha256": "c5c161d2e260af82b7c0a08fa10f61f92b81c62c2aa07329be80718289b5ff27",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "830a12bd79c9642eb84ef3a765732afb921e51da47f4a339c0404803ec59b39f"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "milone2018",
+      "depth": "fulltext",
+      "passageSha256": "c9dd851f54045183ec9444c968e72d8573fac2f209c5e486c4b173cdbf9f5ab0",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "9897465b11cfdbaae15463e183c5ea2e2423f31f780ab9ee1b32bffb390e00d7"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "590778c1191f4c117e575f827d5717de3808fae822bc2b85d582a04f53c8e3b9",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lentiviral-vector:R11",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "3fc2f6688ffcf551810b74b999a98aa2128068b2255d37480d3b0b749fdb2fe3",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "889da3279cd2be81bed937fd4065e4b4618b12ab2b81550c678ab857482bad64",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "213bf6d1803473fbe958ccd37dadb4173c57fce0ec1ccb483efea8da40fadaf6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "33f22589708b21c276a4f5ac735f996e0693fdee6a91b4174b83d856641bf08d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "alasmari2026",
+      "depth": "fulltext",
+      "passageSha256": "aa91a198872e4ac0906f78b11924c3a7b25a1197219e4a373a9547e8f462873e",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "45ebdbe72fb7db767b2d7a8742a8dcd71a3ca18422084f4673bb69d2ee62db02"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "paramasivam2021",
+      "depth": "fulltext",
+      "passageSha256": "889da3279cd2be81bed937fd4065e4b4618b12ab2b81550c678ab857482bad64",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c900b8338256da23a9019eb2b4c51b90e0f6a6e9052f5e2444c3c30db9610376"
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R11",
+      "source": "paramasivam2021",
+      "depth": "abstract",
+      "passageSha256": "0ac8ad135d430a05dd87d9fd436da1b6a440e450af7b7f20538168aef6aa6ec8",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "cede52cde1dc07267bf77c7c721b4bb1df5b96582e56f920afee6799a495f575"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "efae713fea610521d12c160487e4e3d68e0f78d678d428ee17a73dc8b946911e",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "a4929a9cc2db3a7f8c9d2c7c2613ff1c9adbbecc94c7e8c6f3d4c12fa64fbae3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "a3de7b725e0948790691d21fdd916cbbe5c50b9b170fad025d35d2ba716935ea",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "fulltext",
+      "passageSha256": "b478cb8d7247a5dd4df7671de35a47f27c1829a2d8b95b3a91bd3178b256bd37",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "be211ca766e3d84897258577680d9f306a6f0a03cbf4486dad7e5065943ef249"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "36885efd55b6d31b75130bd330116b45bddc190d9f20a9a8291d61172f12d156",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "appelbaum2025",
+      "depth": "abstract",
+      "passageSha256": "b2b2768e4e7972ebbf1292c384412960443eebe773c59f0b9871e892f5291d90",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "bedf70f7b961ca08bd18763b5523029700d14602ad359ef63365699b33a02c30"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "di2022",
+      "depth": "abstract",
+      "passageSha256": "54e1610417b98c209ea5b4156f44df267be9415dd6ebc42f0b1ded737429a8d6",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "e0a0c1a8f22ac1462d1163b2ed6f3c3e12e5b762ee2cb2027232af39225878b7"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "8d997504223043f02387803bf967d86536a76cca3d9f09f4fe191954759abef5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "rna-lipoplex:R11",
+      "source": "rojas2023",
+      "depth": "fulltext",
+      "passageSha256": "159da184c829d2b974d5b8ba05cdb041983635ce44567f34416ad9a85b56fb1a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "46ab0850896c285097a377aa4678e49d3b049b6287c1066f350510f09f1bb78e"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "c8b91888f1b55a319965a18d1049b6e1ac4fb7a6ba7bf14d7036498602194839",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "d7e63ce1750cc7fd3bc4ea9665a68de817ac61c21c56a320c0df8ad4b8ee3e8f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "52bc6fd86f9484094e0df9f075f2fd362f4054c3237f7b6ce4b400a6d099b10d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "99abb7e8a4e6c1181b786e26f7e32ff05658a8aa5d603729fbfd43b8bf2d0683",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "targeted-lnps:R12",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "74db6fc8dd10c85ed0ec8dc681397887ae758867c9c4e7fe37c6ccfa150008d4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "ivics1997",
+      "depth": "abstract",
+      "passageSha256": "2cd5d160baf46729f7511da7145a5df385a99cbf0685df592f0dc37e2bd2900a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7d4466662d860a797b157cf99ba8da9ebf656b8c0d7eca9b55b0b4d36f70a2c4"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "kebriaei2016",
+      "depth": "abstract",
+      "passageSha256": "3513be8d4b29156bc97caa880047b9e2404ac3207fb3cb526727041c89bb380f",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d5820fee8dc70a686bf0baf02573442b729c48a29e62af08e570a582a339ae4e"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "fda113768",
+      "depth": "fulltext",
+      "passageSha256": "06286d3c872d8c9e08876dc757b353a403af4fd9b642b09a9a4107b63dbcd8b2",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "f064f3ffb60e9e5e5bff4fe2d760cd57073ef75bbc88bcec5a2245b034a4b47c"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "537a6aafc3ce34f181c28f2698cc897a022a293dab0e9aaac6b3ea63401f60c3",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "6f90b8cdad4e2abb1e6f9e51e655f94ed185da196504104f674f4eea07dc2ca4",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "transposon:R12",
+      "source": "kebriaei2016",
+      "depth": "fulltext",
+      "passageSha256": "7fcb4e8cec94095e591a68b9d473e803aef4ac8ae6d661b2a163fbca6b23cb7c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "02ab5a0f33e5ff5753b76a7238a8abc87455183cbc7701b12421c29f584860f4"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "629ee99a85d5ae53ae8086ecb768c4c76681dca3cf45aaf4a6cb7d8e9004f7e6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "c8b91888f1b55a319965a18d1049b6e1ac4fb7a6ba7bf14d7036498602194839",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "e5a57b0a3b57201022fb1bb2b2a9afafcdb1012a862a0ba245d8d9ec11351cad",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "6bdf39e03e4e6aa2a2316b3700f30625da4cd7240b298298c846482db1f36c7b",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "hunter2025",
+      "depth": "abstract",
+      "passageSha256": "abdfe588b2596db2f7736d02be9c13a89fcd790a1c49903f362639e05a273149",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "fda156896",
+      "depth": "fulltext",
+      "passageSha256": "b58cf716c727f3883c57afc7e0c32d0609af7924f4f611b95f16646860394db7",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "99abb7e8a4e6c1181b786e26f7e32ff05658a8aa5d603729fbfd43b8bf2d0683",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R09",
+      "source": "rurik2022",
+      "depth": "fulltext",
+      "passageSha256": "0ba0f082dca933dba4dcb5dab32ddb21301ed325fd28bb160ce8d68a84b9ebc6",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b86730ba91fd4c23268b2442a5506a4056785902a7faf3cf0c0ddf9d25a3fbe7"
+    },
+    {
+      "requirementId": "codon-optimization:R09",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "18959ebf44fe5f55622076812db9c564e9435549dd569788e225daa574efacce",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R09",
+      "source": "mauger2019",
+      "depth": "abstract",
+      "passageSha256": "18959ebf44fe5f55622076812db9c564e9435549dd569788e225daa574efacce",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "0ac54217263a2c16a0fef3655c4d7c88191fceaf3fc6eb7fabe784e2a87df0db"
+    },
+    {
+      "requirementId": "codon-optimization:R09",
+      "source": "wu2019",
+      "depth": "abstract",
+      "passageSha256": "88af853166621ff694ffaf4dab5f461f7e4f865c60f24aa3f0055f63c679d921",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c396c44dc17f1f6c911d980b19d15db8bb71577e572260e81d373c6050580f3f"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "b26de165e176ad4e64b81628b407e26393494d2e786dd0938350f94d3e3d146f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "404ccb0d667df2d56b0bbba6af69f7e3d9a621d963d61fe7d233deedfb89fa4f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "fbf34b8ca7e5a3e44b806da22d36028d2ac5cde533bcd72bad78c85691dc92c5",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "losada2026",
+      "depth": "abstract",
+      "passageSha256": "a65be7743ba8a0c23df4f212614ffa4380d50fae2378f95e7f2d99fb6067a940",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "d3ced01ab599fa0b7291b1a0d457b3f73d2e63dbe4c8d65d11b1c804e1957d02"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "cb13b3e6a500383b3fe6e7f63fc940d5a0a7fc28bf5a1c04ea9c2f102c593e43",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "in-vitro-transcription:R09",
+      "source": "nowak2026",
+      "depth": "fulltext",
+      "passageSha256": "ff995d52ac9e37dff7afd26eb36c932cafc3e73a5ce1a05b6efa91dc6e9079c7",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2364f1a904a27032e46da020bd0920557f381a993ed7f0bf10ad80641ded40c4"
+    },
+    {
+      "requirementId": "modified-nucleosides:R09",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "1f835c468ae4c505edfd46830dadbb4d9e62c9fa5bccbf60910d10b9efc07b03",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R09",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7f7000b8643871b62bcfd0d4ef85823ea8225c8e3914a610b57dfa9fc1459f54",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "modified-nucleosides:R09",
+      "source": "kariko2011",
+      "depth": "abstract",
+      "passageSha256": "7f7000b8643871b62bcfd0d4ef85823ea8225c8e3914a610b57dfa9fc1459f54",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "baiersdorfer2019",
+      "depth": "abstract",
+      "passageSha256": "d5c1c723293333bcef37c9bb2020da134588b156f3533f29e6c0c3623f2e3392",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "13af269bac85cbaae5ab4d8bd1c59988f22ae4f68d85ea6374e1f4f10fdd5dcd"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "708e05cfc6b479536376aa23873c3ab2c77b6be26f260865fe2c7ec51221355a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "2cb34db6960d1c23a21a8430035caf0834ea41fc2e0c8f906ac5f91a80e63958",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "losada2026",
+      "depth": "fulltext",
+      "passageSha256": "cb13b3e6a500383b3fe6e7f63fc940d5a0a7fc28bf5a1c04ea9c2f102c593e43",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "7e60c0f2e1a43d9e7acdf8ea572ae87422a15960d474fe9aeee241a8ee8c0e75"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "baiersdorfer2019",
+      "depth": "fulltext",
+      "passageSha256": "7dc80013c9a5be43f4d9c5866f86230ddb1b42c97ec88247a58e57cb32e6c0bb",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "c1499e1364c79510ca4f1b21b642d354def41951afe97bafe5eff762e534ad16"
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R09",
+      "source": "baiersdorfer2019",
+      "depth": "abstract",
+      "passageSha256": "d5c1c723293333bcef37c9bb2020da134588b156f3533f29e6c0c3623f2e3392",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "13af269bac85cbaae5ab4d8bd1c59988f22ae4f68d85ea6374e1f4f10fdd5dcd"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "openstax154",
+      "depth": "fulltext",
+      "passageSha256": "149042b4032db10bcc46ae274e3b1b615616c17f968be791e16b4ff793dd334e",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "80e3df6a9642f06689aaec815a7cd33ffb211ac1d6c91ee690674afbba02960c"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "openstax154",
+      "depth": "fulltext",
+      "passageSha256": "0a3995dc6001eaca6acccf2c9b1e794fd9cb842f5527d84ae6aa0d1fd4255a8a",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "80e3df6a9642f06689aaec815a7cd33ffb211ac1d6c91ee690674afbba02960c"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "openstax155",
+      "depth": "fulltext",
+      "passageSha256": "58e0bff65cc0d0db87464a7864bc7398c35e292b42d5c2e30fbe3d28a095411c",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2c21f59fa5b4330ae7e8ac3206c7a87832465fc658e1e8dc87fc9bfe618d2c34"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "11df133e129eeb7bd0e417a2d28b18856ea9c916adeb83bc9f10f8d69b7fdfec",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "8e04a0e0d32bae3d7fa0257caca02fde055c916d953a6b85f0d03a7d5111e780",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "kozak1986",
+      "depth": "abstract",
+      "passageSha256": "05d8c2f17308fdd4f02d6bb1b6ff41d6a00bced9cdcddfcd58ddad1ec9b5777d",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "d72e7467b02d33bcec8f0e36ac502eedba4eec9e80340f0a137e96ff57745d9f",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R07",
+      "source": "holtkamp2006",
+      "depth": "abstract",
+      "passageSha256": "8e04a0e0d32bae3d7fa0257caca02fde055c916d953a6b85f0d03a7d5111e780",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "1c981d397d82dc0765acabcf5054d13dd6e167d3aadb15795c2b793eb7fd9421"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "a241d52a004bb9c46ca0d84429ee77452875997fce937d1889f7b5b175ba0a95",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "schubert2016",
+      "depth": "abstract",
+      "passageSha256": "08e31441c6dbbf876fda6154354eab6a420fb4ea463c5a47d4d120f32a9a2821",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "sahin2017",
+      "depth": "abstract",
+      "passageSha256": "73e9fe37da60456a59284f941088e7baeb26338a332693a838fe1091cf538437",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "143ef11b96fa9a66781a35a1b4e564008d1b0cc3a2f60ca0b80c8751d4dbf660"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "caron2015",
+      "depth": "fulltext",
+      "passageSha256": "655c2e438f4deaec5095ddbad6bd56d4f5f296dd3d881786b90d2a7018efdf98",
+      "passageHashMatches": true,
+      "rawExactMatch": false,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "decc3d765ee0c95ade7b9a6ab4494ddebeed586f11ba053fd647cfebd63e2b10"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "caron2015",
+      "depth": "fulltext",
+      "passageSha256": "6b392da149e7c91ac0ff635068facb9e5564296ac9de69cd0455d2a41f4379f1",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "decc3d765ee0c95ade7b9a6ab4494ddebeed586f11ba053fd647cfebd63e2b10"
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R09",
+      "source": "yadav2014",
+      "depth": "abstract",
+      "passageSha256": "ffdbf72bad1e8fb734474e621148fc64c1179f1b803da7547cd8b23a22d93971",
+      "passageHashMatches": true,
+      "rawExactMatch": true,
+      "declaredNormalisedMatch": true,
+      "captureSha256": "2a949dd64b994565246e9c472128eb4faf57d9319098d568705334f99bd29427"
+    }
+  ]
+}

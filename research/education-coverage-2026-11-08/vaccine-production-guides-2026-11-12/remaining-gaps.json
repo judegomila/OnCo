@@ -1,0 +1,54 @@
+{
+  "unrepresentedSubstantiveRows": [],
+  "requiredRetainedSourceWork": [
+    "Verify the primary regulatory basis, product and jurisdiction scope of the retained Nowak-review-attributed 10 ng DNA statement before using it as an acceptance criterion. The secondary review statement is now read and confirmed, but it is not a universal RNA-product limit.",
+    "Facility locations, supply/patent rankings and industrialisation forecasts were intentionally withdrawn pending primary verification. They are not called false, and can only be reintroduced with dated primary support."
+  ],
+  "sourceCautions": [
+    {
+      "source": "tnbc-merit",
+      "scope": "Figure 1 caption glosses q2w as twice a week; main text specifies six weekly and two biweekly administrations with final day 64. The record uses the main-text schedule as every other week, not the erroneous caption gloss.",
+      "credit": "No clinical recommendation or global schedule inference."
+    },
+    {
+      "source": "ct251",
+      "scope": "Crossref supplies the registered abstract. The DOI landing returned 403; no challenge was bypassed."
+    },
+    {
+      "source": "kreiter",
+      "scope": "Initial DOI resolution returned HTTP 503 with no response body retained; fresh Crossref and EPMC retry captures both returned 200."
+    },
+    {
+      "source": "nowak-context",
+      "scope": "The 10 ng/dose statement is confirmed as a statement in this secondary manufacturing review. The underlying primary regulatory basis, applicable product context and jurisdiction remain required verification before treating it as a release criterion. The current field attributes it to the review; the new notes do not adopt a universal RNA cutoff."
+    }
+  ],
+  "accessFailures": [
+    {
+      "attempt": "initial Kreiter DOI resolution",
+      "httpStatus": 503,
+      "responseBodyRetained": false,
+      "disposition": "Transient fetch ended; retry uses new filenames and records raw response."
+    },
+    {
+      "file": "crossref-kreiter-r1.json",
+      "httpStatus": 200,
+      "responseBodyRetained": true
+    },
+    {
+      "file": "epmc-kreiter-r1.json",
+      "httpStatus": 200,
+      "responseBodyRetained": true
+    }
+  ],
+  "limits": [
+    "No original paper, review or FDA guidance was read end to end. Thirteen complete abstracts, specified targeted primary/review paragraphs and eight text pages from four FDA PDFs retain their stated reading depth.",
+    "Conference CT251 is a registered protocol abstract, not a KEYNOTE-942 outcome paper. Its publisher returned 403; the complete publisher-registered Crossref abstract was read.",
+    "Prior owner text and peer fields retain inherited source and acceptance limits. A record update date does not certify every retained registry, company or catalogue assertion.",
+    "Peer component readers use an explicitly process-local lookup overlay. They prove no root graph registration, deployed peer page or main/live integration.",
+    "The residual-DNA statement remains attributed to a secondary review; product/jurisdiction applicability of a primary regulatory criterion remains required work.",
+    "Source image/diagram views are qualitative full-extent checks, not contrast measurement, accessibility, expert, learner or language certification.",
+    "No full Next production build, browser hydration, mobile review or deployment was performed."
+  ],
+  "broaderAuditComplete": false
+}

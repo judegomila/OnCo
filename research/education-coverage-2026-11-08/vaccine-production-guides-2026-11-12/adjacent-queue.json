@@ -1,0 +1,15 @@
+{
+  "newGlobalAdjacentId": "vaccine-manufacturing-retained-context",
+  "openQuestions": [
+    {
+      "id": "residual-dna-regulatory-scope",
+      "requirement": "Verify the primary regulatory basis, product and jurisdiction scope of the retained Nowak-review-attributed 10 ng DNA statement before using it as an acceptance criterion. The secondary review statement is now read and confirmed, but it is not a universal RNA-product limit."
+    },
+    {
+      "id": "withdrawn-commercial-assertions",
+      "requirement": "Facility locations, supply/patent rankings and industrialisation forecasts were intentionally withdrawn pending primary verification. They are not called false, and can only be reintroduced with dated primary support."
+    }
+  ],
+  "newFrozenLiteratureOccurrences": 0,
+  "definedLiteratureOccurrences": 917
+}

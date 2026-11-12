@@ -1,0 +1,18 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "frozenPreexistingArtifacts": 799,
+  "changedByInitialRegeneration": [
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-items.json"
+  ],
+  "allOtherPreexistingArtifactsUnchangedAtThisStep": true,
+  "newSourceReviewsPerPin": 2,
+  "earlierCrossPresentationReferencesRebound": 4,
+  "separatePeerReferencesPreserved": 2,
+  "scope": "Comparison after initial ledger regeneration; README and manifest updates and the final zero-change replay follow separately."
+}

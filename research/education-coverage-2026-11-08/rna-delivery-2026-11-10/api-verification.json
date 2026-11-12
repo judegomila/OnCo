@@ -1,0 +1,1227 @@
+{
+  "phases": [
+    {
+      "phase": "root",
+      "canonicalOwners": 11,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 89,
+      "generation": [
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 29.6
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.79
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.5
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "aav-vector:R01",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R02",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R03",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R03",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R04",
+          "owner": "aav-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R04",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R05",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R06",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R07",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R08",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R09",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R10",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R11",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R11",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R12",
+          "owner": "aav-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R12",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R13",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R13",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R14",
+          "owner": "aav-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "aav-vector:R14",
+          "owner": "aav-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R01",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R02",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R02",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R03",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R04",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R05",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R06",
+          "owner": "lentiviral-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R06",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R07",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R07",
+          "owner": "lentiviral-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R08",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R08",
+          "owner": "lentiviral-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R08",
+          "owner": "lentiviral-vector",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R09",
+          "owner": "lentiviral-vector",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lentiviral-vector:R09",
+          "owner": "lentiviral-vector",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R01",
+          "owner": "lipid-nanoparticle",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R01",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R02",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R03",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R04",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R05",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R06",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R07",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R08",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R08",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R09",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "lipid-nanoparticle:R09",
+          "owner": "lipid-nanoparticle",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R01",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R02",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R02",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R03",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R04",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R04",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R05",
+          "owner": "rna-lipoplex",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R06",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R07",
+          "owner": "rna-lipoplex",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R08",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R08",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R09",
+          "owner": "rna-lipoplex",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rna-lipoplex:R09",
+          "owner": "rna-lipoplex",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R01",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R01",
+          "owner": "targeted-lnps",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R02",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R03",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R04",
+          "owner": "targeted-lnps",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R05",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R06",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R07",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R08",
+          "owner": "targeted-lnps",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R08",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R09",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R09",
+          "owner": "targeted-lnps",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R10",
+          "owner": "targeted-lnps",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-lnps:R10",
+          "owner": "targeted-lnps",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R01",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R01",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R02",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R03",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R04",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R04",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R05",
+          "owner": "transposon",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R06",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R07",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R07",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R08",
+          "owner": "transposon",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R09",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R09",
+          "owner": "transposon",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "transposon:R10",
+          "owner": "transposon",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R01",
+          "owner": "epitope",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "aav-vector.json",
+          "bytes": 8542,
+          "sha256": "f379e1270da100803637632818687ff5fde8dda767d6c459f03ab90119662995"
+        },
+        {
+          "path": "aav-vector.md",
+          "bytes": 8032,
+          "sha256": "4059ef69f408e491744b5f7d0fa11c6dee106ca159cdf568dd986d7c7c38fc9a"
+        },
+        {
+          "path": "lentiviral-vector.json",
+          "bytes": 6684,
+          "sha256": "8c7ad27be72a6d89e91b5e9e61eb03ab0423c4d7f5e087c73afb0313d364686c"
+        },
+        {
+          "path": "lentiviral-vector.md",
+          "bytes": 6176,
+          "sha256": "31d6d7cdeee6d0c1544e08641b796744704639059a9843ac7bbc4b711a764138"
+        },
+        {
+          "path": "lipid-nanoparticle.json",
+          "bytes": 5666,
+          "sha256": "74dff5e4cdd5a5d8493df42cb7dc9b4b3f88dbfee0c45032d8353f56270eee1d"
+        },
+        {
+          "path": "lipid-nanoparticle.md",
+          "bytes": 5189,
+          "sha256": "874ff218c576caa1de6a9f7fcbdcf0e79dfc8e8069807c7937051e24911b53b3"
+        },
+        {
+          "path": "rna-lipoplex.json",
+          "bytes": 5834,
+          "sha256": "6824503bf62606634bc0c6fc47111b6710734748eb162130c3f8959375296dcb"
+        },
+        {
+          "path": "rna-lipoplex.md",
+          "bytes": 5240,
+          "sha256": "04f5f1bf37d2003693f7140c8c210aed149ec896d10a079e55a155db692f82ec"
+        },
+        {
+          "path": "targeted-lnps.json",
+          "bytes": 5889,
+          "sha256": "faa3560c77728a01442d9195d5394e3cf23ba27f118030f2403e550bda08ee8d"
+        },
+        {
+          "path": "targeted-lnps.md",
+          "bytes": 5502,
+          "sha256": "ef3557189869e5412787f74de8d07f0d9fc2f67543a1809a105ac219dd38b3ce"
+        },
+        {
+          "path": "transposon.json",
+          "bytes": 5657,
+          "sha256": "d9981adcac9c39ad5bc1d3f598109388b51c11e9e3db18359e0da93c40f9a997"
+        },
+        {
+          "path": "transposon.md",
+          "bytes": 5083,
+          "sha256": "de5f669c1d35de2a8a457cfa491debd88d29a7593239d1470982645e086e045e"
+        },
+        {
+          "path": "viral-vector-manufacturing.json",
+          "bytes": 6005,
+          "sha256": "6fd317177c16db5effe09ae6a6b1b2832ee75bccfed9da73a2e740b37f9cb763"
+        },
+        {
+          "path": "viral-vector-manufacturing.md",
+          "bytes": 4801,
+          "sha256": "897c27ef20abc090e9eb1b6119d92364187881caa325e8cf638cbd1f4b428685"
+        },
+        {
+          "path": "mrna-lnp-manufacturing.json",
+          "bytes": 8962,
+          "sha256": "2f7c4ba132dc8beae78ff0fc9594fd3e8fbfe741463d22af3050dc1bf37a33f0"
+        },
+        {
+          "path": "mrna-lnp-manufacturing.md",
+          "bytes": 7415,
+          "sha256": "690507c79a2878b567359280547241c1022347525930e2925866fc60c81b8e9a"
+        },
+        {
+          "path": "in-vivo-car-t.json",
+          "bytes": 12767,
+          "sha256": "1de0f85e70489cdf4cbb95636df385fc844733f1594bc55fc7ffe90f07c180f1"
+        },
+        {
+          "path": "in-vivo-car-t.md",
+          "bytes": 9692,
+          "sha256": "f907578671d6c35801eb33a61c261fbdd812f27c831d1fefe7f5759a4f2bab9e"
+        },
+        {
+          "path": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023.json",
+          "bytes": 7154,
+          "sha256": "8233709a8ecdd89a583187dc964e857ece0da6eb544022cdbdf91b5e0ab388e2"
+        },
+        {
+          "path": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023.md",
+          "bytes": 5610,
+          "sha256": "188a9eb522fbf788167a5683a80450835dcb680c4ac5ba42413c2b2f2c84401b"
+        },
+        {
+          "path": "epitope.json",
+          "bytes": 3691,
+          "sha256": "c4a0fb6c9aa576847d343871e41ca8e2d767b2724b9f63b823308a5abd026f29"
+        },
+        {
+          "path": "epitope.md",
+          "bytes": 3081,
+          "sha256": "52592e47246059b866a1c6c86e61d6f2896374f8439953d7ae917ef976c1c11c"
+        }
+      ]
+    },
+    {
+      "phase": "shared",
+      "canonicalOwners": 8,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 73,
+      "generation": [
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 26.68
+        },
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.9
+        },
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.55
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "targeted-lnps:R09",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R02",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R03",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R04",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R05",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+          "owner": "delivery-target-versus-therapeutic-target",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R01",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R02",
+          "owner": "codon-optimization",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R02",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R03",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R04",
+          "owner": "codon-optimization",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R04",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R05",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R06",
+          "owner": "codon-optimization",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "codon-optimization:R07",
+          "owner": "codon-optimization",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R01",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R02",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R03",
+          "owner": "in-vitro-transcription",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R03",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R04",
+          "owner": "in-vitro-transcription",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R05",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R06",
+          "owner": "in-vitro-transcription",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R06",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R07",
+          "owner": "in-vitro-transcription",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "in-vitro-transcription:R07",
+          "owner": "in-vitro-transcription",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R01",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R02",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R03",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R03",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R04",
+          "owner": "modified-rna-nucleosides",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R04",
+          "owner": "modified-rna-nucleosides",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R05",
+          "owner": "modified-rna-nucleosides",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R05",
+          "owner": "modified-rna-nucleosides",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R06",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R07",
+          "owner": "modified-rna-nucleosides",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "modified-nucleosides:R07",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R01",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R02",
+          "owner": "dsrna-impurities",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R03",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R03",
+          "owner": "dsrna-impurities",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R03",
+          "owner": "modified-rna-nucleosides",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R04",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R04",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R05",
+          "owner": "dsrna-impurities",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R05",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R06",
+          "owner": "dsrna-impurities",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R06",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R07",
+          "owner": "dsrna-impurities",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "dsrna-impurities-and-purification:R07",
+          "owner": "dsrna-impurities",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R01",
+          "owner": "mrna-construct-anatomy",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R01",
+          "owner": "mrna-construct-anatomy",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R02",
+          "owner": "mrna-construct-anatomy",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R03",
+          "owner": "mrna-construct-anatomy",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R04",
+          "owner": "mrna-construct-anatomy",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R05",
+          "owner": "mrna-construct-anatomy",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mrna-construct-anatomy:R05",
+          "owner": "mrna-construct-anatomy",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R01",
+          "owner": "multi-epitope-constructs",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R02",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R03",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R04",
+          "owner": "multi-epitope-constructs",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R04",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R05",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R05",
+          "owner": "multi-epitope-constructs",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R05",
+          "owner": "binding-presentation-recognition",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R06",
+          "owner": "multi-epitope-constructs",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R06",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R07",
+          "owner": "multi-epitope-constructs",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-epitope-constructs:R07",
+          "owner": "multi-epitope-constructs",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "mrna-construct-anatomy.json",
+          "bytes": 5511,
+          "sha256": "403f58e07ce8ac44569cb4e2b8dea578793ab71c23b91f65e095a8f9de446d23"
+        },
+        {
+          "path": "mrna-construct-anatomy.md",
+          "bytes": 4859,
+          "sha256": "4cc68864b1f5c91e9ecf6f920019448e99d97c325c0d5f0256d021f752b3e74b"
+        },
+        {
+          "path": "codon-optimization.json",
+          "bytes": 3851,
+          "sha256": "fdbec67b8b804abd1f69df9722a1d2406dc13fdbd1b01aba247c665f410340bb"
+        },
+        {
+          "path": "codon-optimization.md",
+          "bytes": 3440,
+          "sha256": "535490753e8d2d01d99ab9ac6b9892003248271bbaba0dc0dfb953ec4a467a3e"
+        },
+        {
+          "path": "modified-rna-nucleosides.json",
+          "bytes": 4882,
+          "sha256": "ff3484608cad038dc8fad4a3e94c5b471d98c376d4a59f23382c6220408e5e4e"
+        },
+        {
+          "path": "modified-rna-nucleosides.md",
+          "bytes": 4485,
+          "sha256": "f833e35e5c5b35fb16514e97824ae7e0eaf63a3022e5df2881f6301e05abdcb6"
+        },
+        {
+          "path": "in-vitro-transcription.json",
+          "bytes": 5846,
+          "sha256": "e59ecaf0edf31ff8d44a3ca9664206f112d15fe86b1ef857dc68d6625b7f9fbe"
+        },
+        {
+          "path": "in-vitro-transcription.md",
+          "bytes": 5258,
+          "sha256": "59c925dd714ff7a55e2891179adb4e4077bd4ad774bd1505f6d7fa405e7453ca"
+        },
+        {
+          "path": "dsrna-impurities.json",
+          "bytes": 4298,
+          "sha256": "fc4746ef543e50e5e2271f7064f1c1c02bfdddcb139007b43f437f5b2e7d4504"
+        },
+        {
+          "path": "dsrna-impurities.md",
+          "bytes": 3881,
+          "sha256": "bb641d2202dd468048c2e05ec32069072ec0fc4e1315ef6d0b3887add6b76567"
+        },
+        {
+          "path": "multi-epitope-constructs.json",
+          "bytes": 6011,
+          "sha256": "f7156dbbbc9150331c0a63bea1c01f3c6ea68e65ab3be4e6fd8b35126cd2473a"
+        },
+        {
+          "path": "multi-epitope-constructs.md",
+          "bytes": 5480,
+          "sha256": "f60c8eb0266f3e0e48dcccb04f80531d970da10de3f8db34dbcbe02478a5541c"
+        },
+        {
+          "path": "delivery-target-versus-therapeutic-target.json",
+          "bytes": 4704,
+          "sha256": "130e36331813ca46c498ab632e60511386ddb8b91d630c2be9b95f1e54308571"
+        },
+        {
+          "path": "delivery-target-versus-therapeutic-target.md",
+          "bytes": 4348,
+          "sha256": "35ad270b8fa130bad17c0ad41fd3038fd317509fe291b141b4c48784636da6d0"
+        },
+        {
+          "path": "binding-presentation-recognition.json",
+          "bytes": 4615,
+          "sha256": "3e105591202c58703a1919f048022dc207385363645215179d2f68a13606c3b1"
+        },
+        {
+          "path": "binding-presentation-recognition.md",
+          "bytes": 3794,
+          "sha256": "c6cfe44246c815c9c62dbb9ced652d5895077931e7f0ce2e412e499cd393173e"
+        }
+      ]
+    }
+  ],
+  "scope": "Actual generators run serially in each owning checkout; all selected canonical JSON equals current graph snapshots and all selected body passages survive actual Markdown."
+}

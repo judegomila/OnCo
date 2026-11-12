@@ -1,0 +1,1948 @@
+{
+  "w": {
+    "side": "w",
+    "owners": 14,
+    "exactEntityJSON": true,
+    "generation": [
+      {
+        "side": "w",
+        "command": "build-api",
+        "exit": 0,
+        "seconds": 27.09
+      },
+      {
+        "side": "w",
+        "command": "build-openapi",
+        "exit": 0,
+        "seconds": 1.61
+      },
+      {
+        "side": "w",
+        "command": "build-context",
+        "exit": 0,
+        "seconds": 4.04
+      }
+    ],
+    "checks": [
+      {
+        "unit": "absolute-relative-risk-and-nnt:01",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:02",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:03",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:04",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "544eb5336affa4c0474febabd86233c7d51e8e1abc1a3c54e1613fb3c51ea23e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:05",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "7eeedd0f9dd4e9d203210e95b0b86b494c2e72d42b6b17a5c13f123015b1d339",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:06",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "7eeedd0f9dd4e9d203210e95b0b86b494c2e72d42b6b17a5c13f123015b1d339",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:07",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "7eeedd0f9dd4e9d203210e95b0b86b494c2e72d42b6b17a5c13f123015b1d339",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:08",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:09",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "88f643ebc984f8ce1543c06b2927be77a92f68faf41f99584a01ba7a6b1d02ff",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:10",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "971487b3c24aa3d45778d2a298fa615cbdbaaa616bdcb3f1a45f7bae010fc8a6",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:11",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "971487b3c24aa3d45778d2a298fa615cbdbaaa616bdcb3f1a45f7bae010fc8a6",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:12",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "544eb5336affa4c0474febabd86233c7d51e8e1abc1a3c54e1613fb3c51ea23e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absolute-relative-risk-and-nnt:14",
+        "owner": "absolute-benefit",
+        "field": "notes",
+        "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:01",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:02",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:03",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:04",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "00f2a8d97b32228b6affd367cc147a47525f8968d4280ca043e3e6276a611c88",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:05",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "4e153f7623656ea9e41ff91c142ec73164965b70e5cc93a95aaf72f0fff3c3df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:06",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "4e153f7623656ea9e41ff91c142ec73164965b70e5cc93a95aaf72f0fff3c3df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:07",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "4e153f7623656ea9e41ff91c142ec73164965b70e5cc93a95aaf72f0fff3c3df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:08",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:09",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "d15ca5a9d99994f91910cc1d1b7dc79de5686ab842a2c9659d1ad96644a0ef5d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:10",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "00f2a8d97b32228b6affd367cc147a47525f8968d4280ca043e3e6276a611c88",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:11",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "00f2a8d97b32228b6affd367cc147a47525f8968d4280ca043e3e6276a611c88",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:12",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "00f2a8d97b32228b6affd367cc147a47525f8968d4280ca043e3e6276a611c88",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:13",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "4e153f7623656ea9e41ff91c142ec73164965b70e5cc93a95aaf72f0fff3c3df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "confidence-interval:14",
+        "owner": "confidence-interval",
+        "field": "notes",
+        "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:01",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:02",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:03",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "95c52655916edd5ffea051283eb48ec7799dd202cd5d8af7619b71e52c8e9b70",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:04",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:05",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "fffaf5bc4ca42318e5f67dcedbe920b415b6ff2ceb920bdb1aa590f28ebc6a51",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:06",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "fffaf5bc4ca42318e5f67dcedbe920b415b6ff2ceb920bdb1aa590f28ebc6a51",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:07",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "95c52655916edd5ffea051283eb48ec7799dd202cd5d8af7619b71e52c8e9b70",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:08",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "95c52655916edd5ffea051283eb48ec7799dd202cd5d8af7619b71e52c8e9b70",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:09",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "cc5b907c31bdfa5c95d4fb65d916646eeab6317c88fb0ddce2b9348eadf0760c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:10",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "95c52655916edd5ffea051283eb48ec7799dd202cd5d8af7619b71e52c8e9b70",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:11",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "fffaf5bc4ca42318e5f67dcedbe920b415b6ff2ceb920bdb1aa590f28ebc6a51",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:12",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "cc5b907c31bdfa5c95d4fb65d916646eeab6317c88fb0ddce2b9348eadf0760c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:13",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "hazard-ratio:14",
+        "owner": "hazard-ratio",
+        "field": "notes",
+        "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:01",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:02",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:03",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:04",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:05",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "40c23642763fa18de30c9e90a69c3e4e5132f0ca8a84656e422174b4d743ef47",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:06",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "e5a35014cd6f7c80d8010b11d4e748481dcad15d1ed11bb6df539a10830e679d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:07",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "e5a35014cd6f7c80d8010b11d4e748481dcad15d1ed11bb6df539a10830e679d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:08",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "40c23642763fa18de30c9e90a69c3e4e5132f0ca8a84656e422174b4d743ef47",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:09",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "b9061708eaa656cd4ea581d224ada961c668d33627c7bb655fd1ec7ac3648905",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:10",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "b9061708eaa656cd4ea581d224ada961c668d33627c7bb655fd1ec7ac3648905",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:11",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "b9061708eaa656cd4ea581d224ada961c668d33627c7bb655fd1ec7ac3648905",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:12",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "b9061708eaa656cd4ea581d224ada961c668d33627c7bb655fd1ec7ac3648905",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "odds-ratio:13",
+        "owner": "odds-ratio",
+        "field": "notes",
+        "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:01",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:02",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:03",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:04",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "061adfbe23567a0924729d536b3272fb340b6ea2a2910e022ad00ce22d66d665",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:05",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "061adfbe23567a0924729d536b3272fb340b6ea2a2910e022ad00ce22d66d665",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:06",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "7d883d76e335b812043868f4debb01bd222e5a0fd35c6dae712eb6a9029434be",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:07",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "7d883d76e335b812043868f4debb01bd222e5a0fd35c6dae712eb6a9029434be",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:08",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "7d883d76e335b812043868f4debb01bd222e5a0fd35c6dae712eb6a9029434be",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:09",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "061adfbe23567a0924729d536b3272fb340b6ea2a2910e022ad00ce22d66d665",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:10",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "ed2ee048f4a1223331b36c871eab76520c84079067b0c462c32998b6e91471df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:11",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:12",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:13",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "ed2ee048f4a1223331b36c871eab76520c84079067b0c462c32998b6e91471df",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "p-values-and-multiple-testing:15",
+        "owner": "p-value",
+        "field": "notes",
+        "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:01",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:02",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:03",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:04",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:05",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:06",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "2aab6c6c60ac320cffdaa85b7489d6579ed9c955546bc9d7065417ad867fe32d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:07",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "2aab6c6c60ac320cffdaa85b7489d6579ed9c955546bc9d7065417ad867fe32d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:08",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "7337477ea12c6eecbd717add4925df8d4708163453f50ef147aa74e9f86bfbb5",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:09",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "7337477ea12c6eecbd717add4925df8d4708163453f50ef147aa74e9f86bfbb5",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:10",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "7337477ea12c6eecbd717add4925df8d4708163453f50ef147aa74e9f86bfbb5",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:11",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "55171a7d498e1334e06fd69b2908662ee386e72d3ed81ef15c463c559c099c36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:12",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "7337477ea12c6eecbd717add4925df8d4708163453f50ef147aa74e9f86bfbb5",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:13",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "2aab6c6c60ac320cffdaa85b7489d6579ed9c955546bc9d7065417ad867fe32d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:14",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "kaplan-meier:14",
+        "owner": "kaplan-meier-curve",
+        "field": "notes",
+        "passageSha256": "55171a7d498e1334e06fd69b2908662ee386e72d3ed81ef15c463c559c099c36",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:01",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:02",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:03",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:04",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "26f93f9401640f61dbc73f2ea9bab8a500c400575e9a84e38f4112a8bc11ec4b",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:05",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:06",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:07",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:08",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:09",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:09",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "abe2c1e4c12572ab821f50f075c8d435f31d6d3aa3b0dd7f1456309671acc697",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:10",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:10",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "abe2c1e4c12572ab821f50f075c8d435f31d6d3aa3b0dd7f1456309671acc697",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:11",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:12",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:13",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "26f93f9401640f61dbc73f2ea9bab8a500c400575e9a84e38f4112a8bc11ec4b",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:14",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "surrogate-endpoints:14",
+        "owner": "surrogate-validation",
+        "field": "notes",
+        "passageSha256": "abe2c1e4c12572ab821f50f075c8d435f31d6d3aa3b0dd7f1456309671acc697",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:01",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:02",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:03",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:04",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:05",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "99a09e5920db39afc7f640dc9cc2bf5cd0def49cd007354f376d6919949e9ee9",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:06",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:07",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "99a09e5920db39afc7f640dc9cc2bf5cd0def49cd007354f376d6919949e9ee9",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:08",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:09",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "99a09e5920db39afc7f640dc9cc2bf5cd0def49cd007354f376d6919949e9ee9",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:10",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "99a09e5920db39afc7f640dc9cc2bf5cd0def49cd007354f376d6919949e9ee9",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:11",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f47c3b72f8d499bcedc6100ccd707015ee92d9f62c447e98f12589a1f14aca3f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:12",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f47c3b72f8d499bcedc6100ccd707015ee92d9f62c447e98f12589a1f14aca3f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:13",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:14",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:15",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:16",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "2b4a5b044962d34db9f3951023a8892f8fd9684dffbcd4b04a05aa55128e6e6a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:17",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "2b4a5b044962d34db9f3951023a8892f8fd9684dffbcd4b04a05aa55128e6e6a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:18",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:19",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "2b4a5b044962d34db9f3951023a8892f8fd9684dffbcd4b04a05aa55128e6e6a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "survival-endpoints:20",
+        "owner": "efs",
+        "field": "notes",
+        "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:01",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:02",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:03",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:04",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:05",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:06",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:07",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:08",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:09",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:10",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:11",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:12",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:13",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "cross-trial-comparison:14",
+        "owner": "cross-trial-comparison",
+        "field": "notes",
+        "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:01",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:02",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:03",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:04",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:05",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:06",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:07",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:08",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:09",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:10",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:11",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:12",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:13",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "denominators-and-conditional-probability:14",
+        "owner": "denominators-and-conditional-probability",
+        "field": "notes",
+        "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:01",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:02",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:03",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:04",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:05",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "27d75a55a377cd55aaa3caa0c76d1d6e7a94e62a4b00ce6ad7688d25d6ed92b5",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:06",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:07",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:08",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:09",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:10",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:11",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:12",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a73097557fe1fb90a34b5465c4d858ec3585be5040b27952089dd7635eb7e43f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "lead-time-bias:13",
+        "owner": "lead-time-bias",
+        "field": "notes",
+        "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:01",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:02",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:03",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:04",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:05",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:06",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:07",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:08",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:09",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "ed21ebbc13026a45fe25dc6aa2754ea0057808dc7e8c58f6e21e32d87a8615b8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:10",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "ed21ebbc13026a45fe25dc6aa2754ea0057808dc7e8c58f6e21e32d87a8615b8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:11",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "ed21ebbc13026a45fe25dc6aa2754ea0057808dc7e8c58f6e21e32d87a8615b8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:12",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "population-vs-individual-risk:13",
+        "owner": "population-versus-individual-risk",
+        "field": "notes",
+        "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:01",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:02",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:03",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:04",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:05",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:06",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:07",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:08",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:09",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:10",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:11",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "86cfa34e58f2111db204e27780c46563a5c3e7f0566ccef8144a571f8dc57036",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:12",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "86cfa34e58f2111db204e27780c46563a5c3e7f0566ccef8144a571f8dc57036",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:13",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:14",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:15",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reading-a-graph-in-five-passes:16",
+        "owner": "graph-reading",
+        "field": "notes",
+        "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+        "actualMarkdownContainsPassage": true
+      }
+    ],
+    "scope": "Actual JSON/OpenAPI/Markdown generation, serial across the three drafts; no new Next production build, browser hydration or deployment claim"
+  },
+  "f": {
+    "side": "f",
+    "owners": 4,
+    "exactEntityJSON": true,
+    "generation": [
+      {
+        "side": "f",
+        "command": "build-api",
+        "exit": 0,
+        "seconds": 27.4
+      },
+      {
+        "side": "f",
+        "command": "build-openapi",
+        "exit": 0,
+        "seconds": 1.58
+      },
+      {
+        "side": "f",
+        "command": "build-context",
+        "exit": 0,
+        "seconds": 4.11
+      }
+    ],
+    "checks": [
+      {
+        "unit": "absence-of-evidence:01",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:02",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:03",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:04",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:05",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:06",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:07",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "81089edcf3652c5f40c05996883063e0e0cd82ee096c02b3967c6ce9de51095c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:08",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "81089edcf3652c5f40c05996883063e0e0cd82ee096c02b3967c6ce9de51095c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:09",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "190b932d12c612395654c249afa0e08f6b9e9471ac45c3129932c1d5d825936c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:10",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "190b932d12c612395654c249afa0e08f6b9e9471ac45c3129932c1d5d825936c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:11",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:12",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "81089edcf3652c5f40c05996883063e0e0cd82ee096c02b3967c6ce9de51095c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:13",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "019c61e23eeee583bbd9ffe07c22d51c7b5f5936b4c48273a246ff5831065d80",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "absence-of-evidence:15",
+        "owner": "inconclusive-and-negative-evidence",
+        "field": "notes",
+        "passageSha256": "81089edcf3652c5f40c05996883063e0e0cd82ee096c02b3967c6ce9de51095c",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:01",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:02",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:03",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:04",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:05",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:06",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:07",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:08",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:08",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:09",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:10",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:11",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:11",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:12",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:13",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:14",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:15",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "evidence-chain-variant-to-benefit:16",
+        "owner": "measurement-to-benefit-evidence",
+        "field": "notes",
+        "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:01",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:02",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:03",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:04",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:05",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:06",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:07",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:08",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:08",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:09",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:09",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:10",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:11",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "reduction-is-not-regression:11",
+        "owner": "growth-rate-inhibition",
+        "field": "notes",
+        "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:01",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:02",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:03",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:04",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:05",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:06",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:07",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:08",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:09",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:10",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:10",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:11",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:11",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:12",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:13",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "transportability-and-eligibility:13",
+        "owner": "trial-population-transportability",
+        "field": "notes",
+        "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+        "actualMarkdownContainsPassage": true
+      }
+    ],
+    "scope": "Actual JSON/OpenAPI/Markdown generation, serial across the three drafts; no new Next production build, browser hydration or deployment claim"
+  },
+  "s": {
+    "side": "s",
+    "owners": 1,
+    "exactEntityJSON": true,
+    "generation": [
+      {
+        "side": "s",
+        "command": "build-api",
+        "exit": 0,
+        "seconds": 27.83
+      },
+      {
+        "side": "s",
+        "command": "build-openapi",
+        "exit": 0,
+        "seconds": 1.6
+      },
+      {
+        "side": "s",
+        "command": "build-context",
+        "exit": 0,
+        "seconds": 4.04
+      }
+    ],
+    "checks": [
+      {
+        "unit": "immunogenicity-vs-efficacy:01",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:02",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:03",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:04",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:05",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:06",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:07",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "0c522538024a61754746276b46eeec43d6e0a3228c443547c1ace3cbfb83d1fe",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:08",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:09",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:10",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "f2372e307fa34562eabc18d60a8fab734fc20d5a62cd3b85fdca59024a9f04ab",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:11",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "f2372e307fa34562eabc18d60a8fab734fc20d5a62cd3b85fdca59024a9f04ab",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:11",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "d20273207528168d215869b9acf086a06d42e9b86c68bd478a17b91b747c5e51",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:12",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+        "actualMarkdownContainsPassage": true
+      },
+      {
+        "unit": "immunogenicity-vs-efficacy:12",
+        "owner": "immunogenicity-versus-efficacy",
+        "field": "notes",
+        "passageSha256": "0c522538024a61754746276b46eeec43d6e0a3228c443547c1ace3cbfb83d1fe",
+        "actualMarkdownContainsPassage": true
+      }
+    ],
+    "scope": "Actual JSON/OpenAPI/Markdown generation, serial across the three drafts; no new Next production build, browser hydration or deployment claim"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "sourceFirstFindings": {
+    "status": "Questions from source reading; not scientific verdicts or applied corrections",
+    "findings": [
+      {
+        "id": "ST-SF01",
+        "finding": "Universal ADC uptake/only-ADC and own-weapon statements conflict with product-specific and extracellular-release discussion; verify actual routes rather than importing universal categories.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF02",
+        "finding": "Particle-range numbers need radionuclide, mean/maximum and tissue context; molecular retention and radiophysical action are separate.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF03",
+        "finding": "PK tables require exact label version, species/specimen, median/mean/apparent definitions and units. The formation-limited explanation needs source/model support beyond a clearance contrast.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF04",
+        "finding": "The solitomab post-discontinuation fatal-diarrhoea detail needs primary text; general irreversibility caution is not a universal product risk estimate.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF05",
+        "finding": "Molecular HLA restriction must be separated from the trial disease/line/setting; not every population expansion requires a changed drug.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF06",
+        "finding": "Resistance-level boxes can interact. Changing an address, potency, linker or payload is a hypothesis, not an automatic repair of the clinically observed failure.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF07",
+        "finding": "Dual-payload joint-resistance probability, transcription-versus-noncycling claims, automatic durable immune activation and chemistry-escape statements need qualification or actual evidence.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF08",
+        "finding": "Potency in one assay does not scale marrow effects by the same ratio. Biomarker-concentrated response does not alone prove predictive validity or mechanism; scattered responses do not alone disprove it.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF09",
+        "finding": "Universal absent-trial/almost-none/only-delivery-strategy claims require a bounded search or named evidence-gap alternative.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF10",
+        "finding": "Static target-copy counts, format density thresholds and normal-tissue staining cannot alone define delivered dose or a comparative therapeutic window.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF11",
+        "finding": "The target table combines different assays, cohorts and products; its winner/safer/failed-target language is not a direct comparison.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF12",
+        "finding": "Current US indications, no-assay claims, registry phases/recruitment/completion and label warnings need live authoritative checks, separate from the dated source assertions.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF13",
+        "finding": "The relocated originals contain a two-model controlled-delivery example and operational clock details; retain them independently of newer PK examples.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF14",
+        "finding": "Source metadata self-attests source checking; expert/learner review remains pending. Both personal-application bodies remain excluded and private.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF15",
+        "finding": "The Tomabechi citation date and all recalled/named paper identifiers must be independently resolved. A real identifier or framework review does not establish every attached claim.",
+        "status": "verification pending"
+      },
+      {
+        "id": "ST-SF16",
+        "finding": "Original index wording says all three lessons although its core table has five; course-routing metadata and durations are not treatment timing or new science.",
+        "status": "verification pending"
+      }
+    ]
+  },
+  "dispositions": {
+    "ST-SF01": "Product-specific uptake and extracellular release replace universal categories.",
+    "ST-SF02": "Isotope-specific approximate ranges retain the actual table convention.",
+    "ST-SF03": "Named label parameters and release-limited MMAE example; no intrinsic DXd half-life from clearance alone.",
+    "ST-SF04": "The solitomab abstract supports the fatal post-discontinuation event only in that study.",
+    "ST-SF05": "Molecular HLA restriction differs from another clinical setting.",
+    "ST-SF06": "The failure boxes remain overlapping hypotheses.",
+    "ST-SF07": "No low joint-resistance probability, guaranteed quiescent-cell killing or durable immunity.",
+    "ST-SF08": "Fictional potency and marker-response observations do not establish human benefit or proportional harm.",
+    "ST-SF09": "Bounded read-study statements replace global absence; ST4-014 remains source-open.",
+    "ST-SF10": "Static counts, loading and staining are not delivery or safety thresholds.",
+    "ST-SF11": "Different assays, cohorts and products cannot rank intrinsic targets.",
+    "ST-SF12": "Current labels and registries distinguish selection, recruitment, results and availability.",
+    "ST-SF13": "Original A/B direction and three clocks retained; draft inversion fixed before application.",
+    "ST-SF14": "Self-attested checks give no expert/learner approval; personal bodies excluded.",
+    "ST-SF15": "Identifiers resolved, Tomabechi dated 2022, and three formal notices disposed.",
+    "ST-SF16": "Five-lesson/72-minute and six-lesson/86-minute routing are course metadata."
+  },
+  "formalCorrections": [
+    {
+      "originalPMID": "26101915",
+      "correctionPMID": "32206190",
+      "doi": "10.18632/oncotarget.27512",
+      "title": "Correction: Trop-2 is a novel target for solid cancer therapy with sacituzumab govitecan (IMMU-132), an antibody-drug conjugate (ADC).",
+      "captureSha256": "8ffd47f12a74f20820fae3aac29ec137956bff5f3f39d69a8ff4c83251a60c0d",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Changes the release half-life in human serum from 23.98 to 18.82 hours. The new linker note and source link are corrected; original raw captures are preserved.",
+      "repoDisposition": "applied correction to one new note and appended notice link"
+    },
+    {
+      "originalPMID": "32728208",
+      "correctionPMID": "32895501",
+      "doi": "10.1038/s41573-020-0085-5",
+      "title": "Author Correction: Radiopharmaceutical therapy in cancer: clinical advances and challenges.",
+      "captureSha256": "c5de45d1e4fd0f726075f2d59999e55d2571d28d78cbd5dcfae9a867f9f0c751",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Corrects the sentence on lutetium-177 imaging photons and therapeutic beta emission. It does not amend the approximate-range table entries used here.",
+      "repoDisposition": "no change required to the narrowly used original claim"
+    },
+    {
+      "originalPMID": "34759323",
+      "correctionPMID": "35132240",
+      "doi": "10.1038/s41586-021-04299-0",
+      "title": "Author Correction: Structures of the HER2-HER3-NRG1β complex reveal a dynamic dimer interface.",
+      "captureSha256": "3028fb07b42b46d32990097f1af6a75acb3d339e320910a97c3d0bdcedee66fe",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Corrects rotation, software, antibody/mutant and sequence labels in specified figures. It does not amend the orphan/ligand-less HER2 or HER3-bound neuregulin interaction used here.",
+      "repoDisposition": "no change required to the narrowly used original claim"
+    }
+  ],
+  "sourceVisualFindings": [
+    {
+      "id": "SG-V01",
+      "severity": "moderate",
+      "diagrams": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "theme": "dark",
+      "finding": "Inline pale node fills retain pale theme text: highlighted routing nodes and three strategy-category nodes have poor contrast in this renderer. Live Guide theme behavior was not tested."
+    },
+    {
+      "id": "SG-V02",
+      "severity": "scientific-scope",
+      "diagrams": [
+        5
+      ],
+      "finding": "Arrows sort proposals by a teaching framework. They do not prove exclusive failure classes, causally effective redesigns, or that only bispecific binding changes delivery."
+    }
+  ],
+  "independentExpertAcceptance": false
+}

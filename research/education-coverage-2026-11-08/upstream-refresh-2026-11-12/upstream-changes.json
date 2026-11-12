@@ -1,0 +1,1415 @@
+{
+  "base": "72b29117afa707fcb3892f0a22f00ee202a0fbf2",
+  "theirs": "2f25843d31097b6b12824e0a4cc528e4fcdbda99",
+  "ours": "3b125286c28e487a3923d0dfb85c3b1d14fb5996",
+  "files": [
+    {
+      "file": "CHANGELOG.md",
+      "baseSha256": "b1a9fe2c75fbadd39ba47d7b84967d729837c29b1eaa4508a8aff1f05d855446",
+      "upstreamSha256": "dcaebf3d0ae2c38eb08c9a14ed3e2f34ff84b54aafdcb28162b4a88896ce6835"
+    },
+    {
+      "file": "public/freshness.json",
+      "baseSha256": "93aa876a2f148f9a45c17aee72cb14af7937c393c3013c53df841e4c1bdb9b73",
+      "upstreamSha256": "a0e2fbf4774c84402176e9d5a5d07da0740a6e8c339bea0ba987d73c8e541219"
+    },
+    {
+      "file": "public/newsletter/2026-11-12.json",
+      "baseSha256": "9858982e97ce312197907c8112200c2cf92853b1842800d6285397a30a9174c1",
+      "upstreamSha256": "6cf2a497804adf4c44da565c1186e5658ad50aa458f7c5e29d5087456b6b0127"
+    },
+    {
+      "file": "public/newsletter/2026-11-12/index.html",
+      "baseSha256": "eba1a742288dce793256c2526fd931ab9f876c9deff07d06be5e036944f89d9a",
+      "upstreamSha256": "7aecfeabf539ef3ec5890b62e9c5ba50a1162927b1d85f92f6ef4a9a3e62fa81"
+    },
+    {
+      "file": "public/newsletter/feed.xml",
+      "baseSha256": "8d0d96289ba9b564ad758e5ef1d3018bd01cdfc3423d535c9f8e2d437fc1a9f5",
+      "upstreamSha256": "478f620cba6bcb8d3a1645b68d4b238a2aec46e4b4c3a8d6a7dbdf651a2da191"
+    },
+    {
+      "file": "public/newsletter/index.json",
+      "baseSha256": "239a1ea6cc07c0f8c280574eabcdd6a626a44e67cb6c110b4ab756af34926bde",
+      "upstreamSha256": "7a1da999be810da908e56758731f99bde2e54237423b14917fc957f945120c39"
+    },
+    {
+      "file": "public/product-queue.json",
+      "baseSha256": "47f730777a9332f142b57a1297518a97db221b2fcae5fd618c65933b4d81489c",
+      "upstreamSha256": "7121aa8e1ae6531a845a15e7d5d42dacd269307f14e4895c44a2510cc07e1abf"
+    },
+    {
+      "file": "src/data/complementary-gaps-2026-11-supplements.ts",
+      "baseSha256": "d763bd142d4992df8244d89f1ec9bdb7b429d24dda0bcb72d4f0f4d7296d53b3",
+      "upstreamSha256": "079de0a661f84374b27d4a04f6f018edfa4c3f7c0abc5cdac79e8ea95053c917"
+    },
+    {
+      "file": "src/data/devices-gaps-2026-11-diagnostic.ts",
+      "baseSha256": "dec47c8038d81986e97d50a2f30ef41a5b3ce3bedeb4a64fc90b52ed800b3b05",
+      "upstreamSha256": "5d78bbe6702093674575d8ba3c6841f6ba816a85331d5df72e0c9f6bf2db08fe"
+    },
+    {
+      "file": "src/data/institutions/india-ncg.ts",
+      "baseSha256": "0c6c9d2c7b0ea37d32f6a929a4af585d68c981288c9de1ea357982d79adb5a31",
+      "upstreamSha256": "e8cefa3fa2c99d8018ff54a7143487385f03904eb2c44f10282fbff3780aef16"
+    },
+    {
+      "file": "src/data/machines-wave.ts",
+      "baseSha256": "5a49417ff35972a1bb45b6a80fbbbb5ff5bfe396ef343b783d7cb9e3579fda67",
+      "upstreamSha256": "47c1af4e5854ecd8540e8d548c50f00c341b1963d760c1388548032e6545405f"
+    },
+    {
+      "file": "src/data/people-cassian-yee-2026-11.ts",
+      "baseSha256": "6b89a4c37e0f690ca714aaba2cf431f6baf413a565c338ac60396059a9d9131f",
+      "upstreamSha256": "863856acdc9634089e8ce9ad9129c2bb61b5f0e084965e58f060e0898ac13547"
+    },
+    {
+      "file": "src/data/pipeline-trials-wave6.ts",
+      "baseSha256": "c99019e708ff95f5056e439f8363bc152cd97c3a7c1b26076e2a736896b760af",
+      "upstreamSha256": "cfd76939fdb5175bd3047e98d8ae47ea6c371d6b29f452825187a1f1c911c9b7"
+    },
+    {
+      "file": "src/data/protocols/antibacterial-prophylaxis-in-neutropenia.ts",
+      "baseSha256": "1b17c8562168be56aeeb53c1b8ed7eb8325c3447fe9a4f330a02106b1d9dcff0",
+      "upstreamSha256": "e5bba850818a866d875e8efaa29f2778ff85614129bac634b2e4f96a2da877eb"
+    },
+    {
+      "file": "src/data/protocols/anticipatory-nausea-and-vomiting.ts",
+      "baseSha256": "245723d4eee016be224abbd29526d32cb655bbf0cae0816dce3f77fd534cb793",
+      "upstreamSha256": "02da620e3d31a5abde9a8cb529c718c1d269e60e84868fef9db26b1c764300f0"
+    },
+    {
+      "file": "src/data/protocols/anticoagulants-and-antiplatelets-before-endoscopy.ts",
+      "baseSha256": "308943dbd64ec16ae97d703412d18f196604ee83bfbcd47c2c463c89332d5bfe",
+      "upstreamSha256": "90ab0a1ff4502c452a078cb4bbd2de73132d084d1689abe53f380d2d40de493a"
+    },
+    {
+      "file": "src/data/protocols/antifungal-prophylaxis-in-haematology.ts",
+      "baseSha256": "bef76f846de6f4506dd3a61215124a13e71b1daea232ff5878c807a7d95a713a",
+      "upstreamSha256": "9cb82c9c23190c7293c2a6433be2ddf5c12f836fcbb6f9faeea8805429eacd2d"
+    },
+    {
+      "file": "src/data/protocols/antithrombotic-interruption-around-surgery.ts",
+      "baseSha256": "b9242299f84d811a351367194c94b2effa07f6817a65236e8885587bbce28e99",
+      "upstreamSha256": "5d24fb9545a2eb9f589d4e8a3da1c1ad7b9df2ec1278d98c9264da11875c9615"
+    },
+    {
+      "file": "src/data/protocols/bispecific-step-up-dosing.ts",
+      "baseSha256": "187207e0f4d9fc872b195bb3a0513646eb25a47b355bbb6c42689e91cde3e71b",
+      "upstreamSha256": "f040087e681b37fe8a43dee921d2bed60445e7092fcf5382220112f3d8bc2f97"
+    },
+    {
+      "file": "src/data/protocols/bone-marrow-aspirate-and-trephine-biopsy.ts",
+      "baseSha256": "a5b45fd7851917788212235317b0d47be74a1b7f4e2c5e9136b241d57876bad2",
+      "upstreamSha256": "13f0464b158c73b5c70aa5474e098af55bb0ad6c885cbc0553aa18e41fa582e1"
+    },
+    {
+      "file": "src/data/protocols/cancer-associated-vte-treatment.ts",
+      "baseSha256": "79e4e761e3331d2dbeb8b98e031db1209b09101f3d4a11e8da6b6f9db52f7cca",
+      "upstreamSha256": "04c6247a05779c0974a82fb800f77cd2991291fc2e9913bbab072d9cb3f55526"
+    },
+    {
+      "file": "src/data/protocols/car-t-infection-prevention.ts",
+      "baseSha256": "ab2ce65b9865a298befa3967ccafd7a0a44bb635b09b2509c18be7c5f528eb96",
+      "upstreamSha256": "183933cbdbade7eb1578f9aa7626dd3696c2ad00f3a8b7f11cd8d908a8895705"
+    },
+    {
+      "file": "src/data/protocols/care-in-the-last-days-of-life.ts",
+      "baseSha256": "143b6f67addd65370a018670bcecf43ab2c63d2053d3040589513cf87f7d9810",
+      "upstreamSha256": "b66c5edac1948d03370d4be544f3dba1d1aba11dcc1efa30cc96b7155b456faa"
+    },
+    {
+      "file": "src/data/protocols/catheter-related-thrombosis-in-cancer.ts",
+      "baseSha256": "7448a316b70990b2da237beece1308d8bb7a1a9eba06fee268fcff5acf080582",
+      "upstreamSha256": "4ac53cef9eef842a4ce2f23b4425cfcde4af681da4126ac57d551c6c2f3a320a"
+    },
+    {
+      "file": "src/data/protocols/central-line-occlusion-management.ts",
+      "baseSha256": "4196e43bee89788891a79a7c686270bef3c2ae75b35a354b785aa0929096c504",
+      "upstreamSha256": "06f4ea47023f70e39009431500326bf3b85a95c2591cce61a23e13dd05191ced"
+    },
+    {
+      "file": "src/data/protocols/chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention.ts",
+      "baseSha256": "f9272e94c8e06d3c80d738320884e346da4e142278bb328e804c999df11156d4",
+      "upstreamSha256": "08cd0e456292430e8e10c8427f4d8b56386a462e91acc7ca3b9e72a69381f4cf"
+    },
+    {
+      "file": "src/data/protocols/chronic-pain-in-cancer-survivors.ts",
+      "baseSha256": "068c047c84af011c9cb8233d8bdf49c0e6539d84b8445fa980ba42eec0b27f09",
+      "upstreamSha256": "d46c6718473e889ccacbe6b45e6848243b2abcf6babbba377ae8cce5420e237d"
+    },
+    {
+      "file": "src/data/protocols/crs-grading-and-management.ts",
+      "baseSha256": "a4f1c8a7df9311f7c9f36570297b33dead716b45db81830709f07ef071a09b5e",
+      "upstreamSha256": "b4fef4914444917ca3be14168203e7a5c8d71dc716ef0b338d0a66f9bdad9463"
+    },
+    {
+      "file": "src/data/protocols/diagnostic-bronchoscopy-and-ebus-preparation.ts",
+      "baseSha256": "3c7fc90efb74fe6570710e6cfe38cba3135ce87b76fb9204cffbdae0e5e9b38a",
+      "upstreamSha256": "d328b48bf145b7a6a4b9e486647232257b1588a9aae314aeaa419f3ef3a9f49a"
+    },
+    {
+      "file": "src/data/protocols/egfr-inhibitor-rash-prophylaxis.ts",
+      "baseSha256": "d9801b917fcd08c04c77febca9a0cdbe9ed3fc98680e1029fee53863899046d4",
+      "upstreamSha256": "ffc59a0260faad587a803152ba7478a285694774f6f33a2d89aa6ed31b0729e6"
+    },
+    {
+      "file": "src/data/protocols/enhanced-recovery-after-gynaecological-cancer-surgery.ts",
+      "baseSha256": "c84c2db94c12790ced5e6e808a149484b44b5983449c4979e6688d286395c020",
+      "upstreamSha256": "2948cc55841710d4624e9473a97cc13a622554d00e2e392b18cca7f18bf81cee"
+    },
+    {
+      "file": "src/data/protocols/febrile-neutropenia-first-hour.ts",
+      "baseSha256": "9cea60dcd1165edb6e683e0788a1edb433594ed9c377cdd4435283c151361e77",
+      "upstreamSha256": "74141b5be3ea61d9783776eccc5192f164c00905e30dda56ecdf41791032e43b"
+    },
+    {
+      "file": "src/data/protocols/hand-foot-syndrome-prevention-and-dose-modification.ts",
+      "baseSha256": "62c6a12a5dd49fe5d9ecddfc76be5c181e3cd71e49d206f6783da3c70199a702",
+      "upstreamSha256": "1e794f961e4e46e0b1cb527b67414418a4cb6878440028a96ff0c1beb8915509"
+    },
+    {
+      "file": "src/data/protocols/head-and-neck-radiotherapy-oral-mucositis.ts",
+      "baseSha256": "1460773956ba168d5898a170763c5b90bc8d6c307b103e82dc390f018dd0666b",
+      "upstreamSha256": "eb48f8513bfa0d0c5a9d241daed0ca2900d84a3542867e810595fbf548894358"
+    },
+    {
+      "file": "src/data/protocols/hepatitis-b-screening-and-reactivation-prophylaxis.ts",
+      "baseSha256": "7280ddf717f4ed70e7f6966a1942a471c40a8ce994796b6a8aa212bad72c9c55",
+      "upstreamSha256": "dfb27dac8adbd4f6662e601f60cef426ea86dd5eb27ba93204ff0c3e943f2437"
+    },
+    {
+      "file": "src/data/protocols/herpes-simplex-and-zoster-antiviral-prophylaxis.ts",
+      "baseSha256": "b4e045e8d765334a42e672c5ddc6053eed36aa8c8f82365240ca4cc181e3550a",
+      "upstreamSha256": "8f401e5fe1d55faec55d6cd23bdde6849709e9dd99f4f235b9ca4f643d607993"
+    },
+    {
+      "file": "src/data/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options.ts",
+      "baseSha256": "16540184aaa68145d2c5764b1a831d4dfff7a5725e80bccbc5b0dfb8f7a6421b",
+      "upstreamSha256": "dc19a3030a38953873d94cdcc36f605913525dd47cc7afb05abe16ab31e4782f"
+    },
+    {
+      "file": "src/data/protocols/icans-grading-and-management.ts",
+      "baseSha256": "e155fed1cd040a80432e818b5fc8e9063c787202829be9065741227f76a0e6cd",
+      "upstreamSha256": "a3c208909ceda0f8bee324f6d532e9521deaec9c2ff650dd4b9942566d54eba9"
+    },
+    {
+      "file": "src/data/protocols/iec-hs-management.ts",
+      "baseSha256": "8db6621700701416918c7c217b60437291af3c638a7038d87b6c736cee873367",
+      "upstreamSha256": "0b81c988bf5c63e729aef0018d95cce28001287f36fa842954d9055e649d1b80"
+    },
+    {
+      "file": "src/data/protocols/image-guided-core-biopsy-preparation-and-aftercare.ts",
+      "baseSha256": "f062f06f51f8eceaa995621ab9dbdefda5c2d770313a4a9064b2cc54aba52936",
+      "upstreamSha256": "6edeb1a15133372c368d78d4961026ec16779e2a9f4a1a3916e23be2f675afa8"
+    },
+    {
+      "file": "src/data/protocols/irae-colitis.ts",
+      "baseSha256": "1a6907f77d8bcd57727ea2c21772cf3127e0567a14da3fc10ee387513a3344db",
+      "upstreamSha256": "187b455bf8c06d5dd270863075ce46aa29ef0103b46e8d6596f9320835735fc3"
+    },
+    {
+      "file": "src/data/protocols/irae-hepatitis.ts",
+      "baseSha256": "117969b5dbacee51ce840059370d3bf813ebd756b455e09841355040fa5f01b4",
+      "upstreamSha256": "ecf3ba2559d8b468f6b3f8eaf7352368d48a413f3aaf68b273575a2c519cfe27"
+    },
+    {
+      "file": "src/data/protocols/irae-hypophysitis-adrenal.ts",
+      "baseSha256": "73d3b5317cf6626336e393ffe327831e587854bf89cfc0f0023899e40dbd47ab",
+      "upstreamSha256": "a215d3cc1c8e538a66048d299d46ee370e821840ae0557d84ff2b9b0b8fe27f6"
+    },
+    {
+      "file": "src/data/protocols/irae-myocarditis.ts",
+      "baseSha256": "2481ada3ea1e616dbcad825c52f03a347b7793c99c158c37cb86741c8dc0da86",
+      "upstreamSha256": "ef8f1b88bbd24fc8a7930b69f5689250ddab7bd9bd5844878cef595f239185b1"
+    },
+    {
+      "file": "src/data/protocols/irae-nephritis.ts",
+      "baseSha256": "d209e21c793365d514ac4d755b18c95edbdeaf19c4b24f1ab9ed5f856b70d9ef",
+      "upstreamSha256": "7e404d398b05c9556054286735b18223b01084e9de0b1c2582ab0c38953698dd"
+    },
+    {
+      "file": "src/data/protocols/irae-neurological.ts",
+      "baseSha256": "d65a41609253affeffa774025882586530e7cf2b345945d689b035fd36979977",
+      "upstreamSha256": "88c947af1121df9ad2a0bd7cd9743baa20d7dd3555b8a87afff07151f2849e21"
+    },
+    {
+      "file": "src/data/protocols/irae-pneumonitis.ts",
+      "baseSha256": "229aabbfa9948be463ccb49d427e341707e077f3ea250431d01da306e13965a1",
+      "upstreamSha256": "90687931674718897dac74aebe26f0ef7b15655021a78673455301fba693757e"
+    },
+    {
+      "file": "src/data/protocols/irae-skin.ts",
+      "baseSha256": "931fbe88e97f8a896d36c455e95b5d95951e9b534405477dbe25722ae8d4cf62",
+      "upstreamSha256": "7698f996ae5cc86d7e35e34cbb31c89c5155f67ba19571b1896d67fc2cea8939"
+    },
+    {
+      "file": "src/data/protocols/irae-thyroid.ts",
+      "baseSha256": "55da9c74de1a677db96a8ed9a1d089421e126c3e368c0367b25149b7f389028a",
+      "upstreamSha256": "13c5a17504e446dbb0a36af5a0f53136f9aa745c06b86b78895f6ab1046d3641"
+    },
+    {
+      "file": "src/data/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea.ts",
+      "baseSha256": "3cd969a4a377d7ae1faeeaad287865a52f1527f3143b9a0ea6a8a8f40e9a7871",
+      "upstreamSha256": "91ec75ce4386dce8e6533a2d05959b78742722f1bff3a7a5d4a96533164337c5"
+    },
+    {
+      "file": "src/data/protocols/malignant-bowel-obstruction.ts",
+      "baseSha256": "3ecafec3bda01faae88fc0615215dba3346fe04796d176537724dc942cd56604",
+      "upstreamSha256": "3da967c0b86f797a20c630772d0777a4d6f6b573c56842c9977d3d5c71d7370a"
+    },
+    {
+      "file": "src/data/protocols/nausea-and-vomiting-in-advanced-cancer.ts",
+      "baseSha256": "c320d69d56ae4b1c48fdc6b11c58399dc94ce39f39d0c714ed44f50f06440746",
+      "upstreamSha256": "e83da03f3c22c95949dfd13eb4c094a1570ee0ea77bed5e376b44c9b47adaa88"
+    },
+    {
+      "file": "src/data/protocols/neratinib-diarrhoea-prophylaxis-and-dose-escalation.ts",
+      "baseSha256": "e01f640f1b0a04f78bce3d1848a6257dd6a6fbff05adce56da525015dad03556",
+      "upstreamSha256": "99b08285565706ca420323adc58f0cf0608b627523f923fd2410074a1d626387"
+    },
+    {
+      "file": "src/data/protocols/neutropenic-enterocolitis.ts",
+      "baseSha256": "eaf05f06e1eaba65519e3e0974efc088db1f037accb12f65e6038411fa93681f",
+      "upstreamSha256": "91ed92a50ac5f1dcb03c7006ca801510ebbabe3cfd0c7736095f2a03662ea369"
+    },
+    {
+      "file": "src/data/protocols/opioid-switching-and-conversion.ts",
+      "baseSha256": "f0da54cdadc267997c12bc57b54717113e69a0306884241a913d3e396bc1a304",
+      "upstreamSha256": "72865eced602d832b154aa8efc2aa16749a1711f50dbc6032dd346bf8c7885a5"
+    },
+    {
+      "file": "src/data/protocols/oral-mucositis-prevention-and-oral-care.ts",
+      "baseSha256": "b5037c0052dc6e4066f7e87ba74285e71a851e18c23d66356221851eb3455144",
+      "upstreamSha256": "a0efb3faa519fc540616bcb1e3987e9f2c76e9dc905ae180fb0568c4791ce460"
+    },
+    {
+      "file": "src/data/protocols/paediatric-chemotherapy-nausea-vomiting-prevention.ts",
+      "baseSha256": "32983a4af6474e3c74cea0aad43678a96a3ceda2a3c68dd6932db5efb891d7ee",
+      "upstreamSha256": "6c1bc4059af7269dc376482ef3c4a51718252f778375adf3265d682bee931bd0"
+    },
+    {
+      "file": "src/data/protocols/paediatric-fever-and-neutropenia.ts",
+      "baseSha256": "cffc59d9ac838d2e21292b4dd5906782981f799169b6bec09def4b3127f6f55b",
+      "upstreamSha256": "76c91b4993956642675faa4c22b1bc507427748f68537ac19028724d11b9aaca"
+    },
+    {
+      "file": "src/data/protocols/paediatric-procedural-pain-and-sedation.ts",
+      "baseSha256": "2b52102d117ba14a6c8e8c316b66faa54c620164e2c1faa9f43145c245ddcf1b",
+      "upstreamSha256": "cbd53ec140fc81cfd1018682991ec3966de11081edbd1818a7e4ba0a7376daed"
+    },
+    {
+      "file": "src/data/protocols/palliative-sedation-for-refractory-suffering.ts",
+      "baseSha256": "e75c0cc0af7177084e36afafc12afa3aef0a843c749b9cd915eec11bc7ded5a2",
+      "upstreamSha256": "5716b87c075e8f68dd7ca6825ad5bf84fb9570df6277ca2baf08b283e3fd160c"
+    },
+    {
+      "file": "src/data/protocols/radiation-dermatitis-skin-care.ts",
+      "baseSha256": "79e5a27e0d45b1709337aed6bb10f24776c25b61bf573cb3fd48c03b574eeee7",
+      "upstreamSha256": "48050bdc5f28eb5c6a384d115e09e0a92ba6a99ead6d75229246690a152bc840"
+    },
+    {
+      "file": "src/data/protocols/sentinel-node-tracers-and-blue-dye-safety.ts",
+      "baseSha256": "332ba8e260384cf36aa935715dae883f406866d87d7586cd8403cc78a852b03f",
+      "upstreamSha256": "f8462b55f8c151294c4a9a50978e8c799cd90f575e6d239d19f9d60a26a3cff5"
+    },
+    {
+      "file": "src/data/protocols/skin-and-nail-care-during-cancer-drug-treatment.ts",
+      "baseSha256": "3d3e9759789ae6140a4fb66875894684c3ef63a147c2b5d4ccec9f55106cac30",
+      "upstreamSha256": "18c269da1bc2bc4f2c5fb6756d8a55ae738cfb3b2247f9244edf63a9b6b87aff"
+    },
+    {
+      "file": "src/data/protocols/strong-opioids-for-cancer-pain.ts",
+      "baseSha256": "c3479d9b6bcc28c68f76f653a22654949febd60f04d05443c0ffc19d99874f0b",
+      "upstreamSha256": "8f2168f5020ce00e1b239493a6210865e4d01204b1ad7fd5ba4354c809dccd9e"
+    },
+    {
+      "file": "src/data/protocols/suspected-central-line-infection.ts",
+      "baseSha256": "cee0d93f9a50354e41d3115b54317fc8bd8afa073945a8fc3f338bc7e5dc80e1",
+      "upstreamSha256": "397f0c7bd99978623e5660b5da7714b0b0ddc96e2339294ac4b879e6e87e3e53"
+    },
+    {
+      "file": "src/data/protocols/syringe-driver-continuous-subcutaneous-infusion.ts",
+      "baseSha256": "c3e50d08f3edfb9de8bf9d3a28f37b33ac056a839e5e11868faa803d506eb793",
+      "upstreamSha256": "21cf52a35287f957b220f5c4c46a4d2b69e6f47143b879aeb436604fdf8f660a"
+    },
+    {
+      "file": "src/data/protocols/treatment-induced-diarrhoea-grading-and-management.ts",
+      "baseSha256": "8cee4802a006cdd98c9dc8526c323caf868626c427669929873f04e78433e2e8",
+      "upstreamSha256": "e1696034891dd7c375424e3b35efb3951c98598e9746ded29f38baba6ba56950"
+    },
+    {
+      "file": "src/data/protocols/vte-prophylaxis-after-cancer-surgery.ts",
+      "baseSha256": "af538a32675d620e02d8a07c1a1455466cbe71b821141ade5a97b0ae355e7873",
+      "upstreamSha256": "6084e5b8d3a8de4b3902789c48c42853a0a6ad26dff46845aecbe2341deec608"
+    },
+    {
+      "file": "src/data/protocols/vte-risk-assessment-and-thromboprophylaxis-ambulatory.ts",
+      "baseSha256": "840d29ba53f273b884394e493b5b3b4440eea6fe9598b0fea3eaff35f3b4425c",
+      "upstreamSha256": "d43460950de71bfc8350c16521490326426f4c35684fc8b629ae5f22ce765e75"
+    },
+    {
+      "file": "src/data/spikes/breast-treatment.ts",
+      "baseSha256": "6f356897b326c43e024156d8a225f695ef0486cda38103bf5134280e5b6ef79a",
+      "upstreamSha256": "cffabdb6fbaa4c15a56bd9e3a381a27a4972d74b89dff89c7ad5f7d64c8e5472"
+    },
+    {
+      "file": "src/data/spikes/colorectal-core.ts",
+      "baseSha256": "bb11199f68f836ae59b0f0badde3895a7dcb5ccf234571fba59ae70760ee9720",
+      "upstreamSha256": "8d601787ce2d52c62b49a24236caa920762502abf3ffd9388fe59452d58e51e9"
+    },
+    {
+      "file": "src/data/spikes/colorectal-registry-trials.ts",
+      "baseSha256": "edac27971e3bb7d199db17b3c83f518bb81bc690aee42b899caf02245f8bef70",
+      "upstreamSha256": "ab8f48a8bb605f6166c2a559d94ac3e0d43f7c962083202e7e6c3bc7fb2f1b66"
+    },
+    {
+      "file": "src/data/spikes/endometrial.ts",
+      "baseSha256": "b3a197de79a14c81277599b66a8f6ccc2678b6a65962af173c3770a307fa539b",
+      "upstreamSha256": "ef21ffcfbbfe6bd0f5ac648f4c2973807b6ab8f2ae7f3b7e1da1eb16df0ed1cf"
+    },
+    {
+      "file": "src/data/spikes/gallbladder-registry-trials.ts",
+      "baseSha256": "9618489ce1396eac787d928b111e505d5e3f89389cb8c692a7c0df022e01a3ce",
+      "upstreamSha256": "06118ca49fde7d48fb078f06ffcbe57c5322301907e59c256552183cdc00408b"
+    },
+    {
+      "file": "src/data/spikes/lung-registry-trials.ts",
+      "baseSha256": "1ab6b500d26f79449d211cdd68a5835d8c487df5de4b6a46ef3303a27c4b8aac",
+      "upstreamSha256": "536961cc39c14432d2ecd00e8a38b450a2ac31942896d9fcb1e1def712ff651e"
+    },
+    {
+      "file": "src/data/spikes/lymphoma-molecular.ts",
+      "baseSha256": "de76183cc23382833bfadd0f8ca82eb22e7ff1b83ea1f47c121c12677501a610",
+      "upstreamSha256": "29c01f704a1d6ca84246df7ae6d21a75879497b179ac205c9bfad648cd95d6da"
+    },
+    {
+      "file": "src/data/spikes/lymphoma-treatment.ts",
+      "baseSha256": "955284989f2b6bfbe643d620c6374958de3b602aaa81a2cf98db43a1f0522283",
+      "upstreamSha256": "f7a01ef8e5a2872483658396fecce84cf15d3fdf83d7c6aa5215ac5450fec46d"
+    },
+    {
+      "file": "src/data/spikes/pancreatic-registry-trials.ts",
+      "baseSha256": "16084dd9219665bd47d8c45616ffde21f76fbb6c9bb5864c72729807004f09e8",
+      "upstreamSha256": "9873d44dd4ba83c624ace7334be94bb6b206109aaa4cc915645082306bf2595b"
+    },
+    {
+      "file": "src/data/spikes/rejuvenation-transplant.ts",
+      "baseSha256": "5247152615a7f3091e995d0c5ff879191d188131570c8b86de41c8baee8dfbc0",
+      "upstreamSha256": "fa3e30348c61239862383c540de8de635fb6aa9b7cc1f0162157e5fec9bbcee5"
+    },
+    {
+      "file": "src/data/spikes/tnbc-registry-trials.ts",
+      "baseSha256": "51ee16efcf4f31e0529ae99b947fe07c6d555f516c5b2f7a84801e710becb28c",
+      "upstreamSha256": "d5108099784970494fffe0fe36cd9d83ec19d9ae44b74d29fad9ce803bdfd5c1"
+    },
+    {
+      "file": "src/data/supportive-care-gaps-2026-11-terms.ts",
+      "baseSha256": "adae3955d924ce9c6adbf38ebfeb5154b3640bbff7f21854fa4d7f26b0ca46de",
+      "upstreamSha256": "b7ba9c81532a6334f437f006feedf059d3df00fd051f3169a0a7bcd7e7fc09e6"
+    },
+    {
+      "file": "src/data/targets-genes-wave.ts",
+      "baseSha256": "4af156b6c3cc235b54da8fa4b2d5764ca6039ab0be350d6cecc088ba4f0e4027",
+      "upstreamSha256": "18eb0a788ecdb0412af6755b04d859e3a61026aa66f4c0ed49dc8a96c5a2f7b4"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "baseSha256": "3c34c878e72891bed469f1799f03e2ebf0b27b9b60c7adf41e5ec1575925e120",
+      "upstreamSha256": "8f42c02c4f1979570f49049917a17ecf14846023a67123f95dcd133cabe88faa"
+    },
+    {
+      "file": "src/data/terms-cansim-oncology.ts",
+      "baseSha256": "5aaf2f2dd562d6e28f9077b9ed3c77596045647d83018a25002012d5488bc995",
+      "upstreamSha256": "13a1f2b74c49c69f8f69bd981c2d1273fc24d32672e7d26c0ed43b93ea168c41"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "baseSha256": "e03d49ae6c7c623df3643361fe937bd7de2481cfc84db1c61572bebc5bd9415a",
+      "upstreamSha256": "8dbaa3b1032751c037726e86b9f0835b4c7826096b5a5f19de81c137c981eda7"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "baseSha256": "47fad3383deb03b478748748776120ebe9e24d541c5674a345eac9772cab2b83",
+      "upstreamSha256": "091550782e6b7c7f71cf12762d5eb5f6f2f8c002a6a7301bd1efa98ec6c71b00"
+    },
+    {
+      "file": "src/data/trials-soc-wave.ts",
+      "baseSha256": "ec7be7d7dd8f41e7bfe1062bae17bddfb329b6f5a55f16a343a6bff3c8d1f13c",
+      "upstreamSha256": "574dd06dec3f4aac5268e8fe510ab28170f16342ed7c70a2b159547a28a85000"
+    },
+    {
+      "file": "src/lib/term-hover.test.ts",
+      "baseSha256": "94ba70d82dd5135d7f7d84f5eec519eb4cb8c988bc55b995381de67602abd317",
+      "upstreamSha256": "bc68cad65d52213c606199da1df3fcfa537b4c93d50d28d702c6e1cb8261be4d"
+    }
+  ],
+  "changes": [
+    {
+      "file": "src/data/complementary-gaps-2026-11-supplements.ts",
+      "id": "sam-e-supplements",
+      "objectOrdinal": 14,
+      "field": "aka",
+      "before": "[\"SAMe\", \"S-adenosyl-L-methionine\", \"Ademetionine\"]",
+      "after": "[\"S-adenosyl-L-methionine\", \"Ademetionine\"]"
+    },
+    {
+      "file": "src/data/devices-gaps-2026-11-diagnostic.ts",
+      "id": "vacuum-assisted-breast-biopsy",
+      "objectOrdinal": 0,
+      "field": "aka",
+      "before": "[\"Vacuum-assisted biopsy\", \"VAB\", \"Vacuum-assisted excision\", \"Mammotome Revolve\", \"Mammotome Prima MR\", \"EnCor Enspire\", \"EnCor EnCompass\", \"Eviva\", \"EleVation\", \"Brevera\"]",
+      "after": "[\"Vacuum-assisted biopsy\", \"VAB\", \"Vacuum-assisted excision\", \"Mammotome Revolve\", \"Mammotome Prima MR\", \"EnCor Enspire\", \"EnCor EnCompass\", \"Eviva\", \"Brevera\"]"
+    },
+    {
+      "file": "src/data/devices-gaps-2026-11-diagnostic.ts",
+      "id": "tumour-marker-immunoassay-analysers",
+      "objectOrdinal": 16,
+      "field": "aka",
+      "before": "[\"Tumour marker analyser\", \"Elecsys\", \"cobas e\", \"Atellica IM\", \"ADVIA Centaur\", \"Access\", \"VITROS\", \"Lumipulse\"]",
+      "after": "[\"Tumour marker analyser\", \"Elecsys\", \"cobas e\", \"Atellica IM\", \"ADVIA Centaur\", \"Beckman Coulter Access\", \"VITROS\", \"Lumipulse\"]"
+    },
+    {
+      "file": "src/data/institutions/india-ncg.ts",
+      "id": "pallium-india",
+      "objectOrdinal": 23,
+      "field": "aka",
+      "before": "[\"Pallium India -Trivandrum Institute of Palliative Sciences (TIPS)\", \"Trivandrum Institute of Palliative Sciences\", \"TIPS\"]",
+      "after": "[\"Pallium India -Trivandrum Institute of Palliative Sciences (TIPS)\", \"Trivandrum Institute of Palliative Sciences\"]"
+    },
+    {
+      "file": "src/data/machines-wave.ts",
+      "id": "c-arm-linac",
+      "objectOrdinal": 7,
+      "field": "aka",
+      "before": "[\"Clinac\", \"Trilogy\", \"TrueBeam\", \"TrueBeam STx\", \"Edge\", \"VitalBeam\", \"Elekta Synergy\", \"Elekta Infinity\", \"Versa HD\", \"Elekta Harmony\", \"Harmony Pro\", \"Elekta Evo\", \"uRT-linac 506c\", \"Siddharth-II\"]",
+      "after": "[\"Clinac\", \"Trilogy\", \"TrueBeam\", \"TrueBeam STx\", \"Varian Edge\", \"VitalBeam\", \"Elekta Synergy\", \"Elekta Infinity\", \"Versa HD\", \"Elekta Harmony\", \"Harmony Pro\", \"Elekta Evo\", \"uRT-linac 506c\", \"Siddharth-II\"]"
+    },
+    {
+      "file": "src/data/people-cassian-yee-2026-11.ts",
+      "id": "rice-university",
+      "objectOrdinal": 7,
+      "field": "aka",
+      "before": "[\"William Marsh Rice University\", \"Rice\"]",
+      "after": "[\"William Marsh Rice University\"]"
+    },
+    {
+      "file": "src/data/pipeline-trials-wave6.ts",
+      "id": "nct06542250",
+      "objectOrdinal": 62,
+      "field": "aka",
+      "before": "[\"TITANium\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/pipeline-trials-wave6.ts",
+      "id": "nct05329532",
+      "objectOrdinal": 480,
+      "field": "aka",
+      "before": "[\"ModiFY\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/pipeline-trials-wave6.ts",
+      "id": "nct07192588",
+      "objectOrdinal": 720,
+      "field": "aka",
+      "before": "[\"GuARD\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/pipeline-trials-wave6.ts",
+      "id": "nct04868604",
+      "objectOrdinal": 1224,
+      "field": "aka",
+      "before": "[\"SECuRE\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/protocols/antibacterial-prophylaxis-in-neutropenia.ts",
+      "id": "antibacterial-prophylaxis-in-neutropenia",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"levofloxacin\", \"ciprofloxacin\"]"
+    },
+    {
+      "file": "src/data/protocols/anticipatory-nausea-and-vomiting.ts",
+      "id": "anticipatory-nausea-and-vomiting",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"midazolam\"]"
+    },
+    {
+      "file": "src/data/protocols/anticoagulants-and-antiplatelets-before-endoscopy.ts",
+      "id": "anticoagulants-and-antiplatelets-before-endoscopy",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"aspirin\"]",
+      "after": "[\"aspirin\", \"apixaban\", \"rivaroxaban\", \"edoxaban\", \"warfarin\"]"
+    },
+    {
+      "file": "src/data/protocols/antifungal-prophylaxis-in-haematology.ts",
+      "id": "antifungal-prophylaxis-in-haematology",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"posaconazole\"]"
+    },
+    {
+      "file": "src/data/protocols/antithrombotic-interruption-around-surgery.ts",
+      "id": "antithrombotic-interruption-around-surgery",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"aspirin\"]",
+      "after": "[\"aspirin\", \"warfarin\"]"
+    },
+    {
+      "file": "src/data/protocols/bispecific-step-up-dosing.ts",
+      "id": "bispecific-step-up-dosing",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"teclistamab\", \"elranatamab\", \"linvoseltamab\", \"talquetamab\", \"glofitamab\", \"epcoritamab\", \"mosunetuzumab\", \"tocilizumab\", \"dexamethasone\", \"human-normal-immunoglobulin\"]",
+      "after": "[\"teclistamab\", \"elranatamab\", \"linvoseltamab\", \"talquetamab\", \"glofitamab\", \"epcoritamab\", \"mosunetuzumab\", \"tocilizumab\", \"dexamethasone\", \"human-normal-immunoglobulin\", \"anakinra\"]"
+    },
+    {
+      "file": "src/data/protocols/bone-marrow-aspirate-and-trephine-biopsy.ts",
+      "id": "bone-marrow-aspirate-and-trephine-biopsy",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"lidocaine\"]"
+    },
+    {
+      "file": "src/data/protocols/cancer-associated-vte-treatment.ts",
+      "id": "cancer-associated-vte-treatment",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"apixaban\", \"rivaroxaban\", \"edoxaban\", \"warfarin\"]"
+    },
+    {
+      "file": "src/data/protocols/car-t-infection-prevention.ts",
+      "id": "car-t-infection-prevention",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"human-normal-immunoglobulin\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\"]",
+      "after": "[\"human-normal-immunoglobulin\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\", \"valaciclovir\", \"tenofovir\"]"
+    },
+    {
+      "file": "src/data/protocols/care-in-the-last-days-of-life.ts",
+      "id": "care-in-the-last-days-of-life",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"hyoscine\"]"
+    },
+    {
+      "file": "src/data/protocols/catheter-related-thrombosis-in-cancer.ts",
+      "id": "catheter-related-thrombosis-in-cancer",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"apixaban\", \"rivaroxaban\", \"edoxaban\"]"
+    },
+    {
+      "file": "src/data/protocols/central-line-occlusion-management.ts",
+      "id": "central-line-occlusion-management",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"alteplase\", \"urokinase\"]"
+    },
+    {
+      "file": "src/data/protocols/chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention.ts",
+      "id": "chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"paclitaxel\", \"nab-paclitaxel\", \"docetaxel\", \"oxaliplatin\", \"vincristine\", \"bortezomib\"]",
+      "after": "[\"paclitaxel\", \"nab-paclitaxel\", \"docetaxel\", \"oxaliplatin\", \"vincristine\", \"bortezomib\", \"duloxetine\"]"
+    },
+    {
+      "file": "src/data/protocols/chronic-pain-in-cancer-survivors.ts",
+      "id": "chronic-pain-in-cancer-survivors",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"duloxetine\"]"
+    },
+    {
+      "file": "src/data/protocols/crs-grading-and-management.ts",
+      "id": "crs-grading-and-management",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"tocilizumab\", \"siltuximab\", \"dexamethasone\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\", \"methylprednisolone\"]",
+      "after": "[\"tocilizumab\", \"siltuximab\", \"dexamethasone\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\", \"methylprednisolone\", \"anakinra\"]"
+    },
+    {
+      "file": "src/data/protocols/diagnostic-bronchoscopy-and-ebus-preparation.ts",
+      "id": "diagnostic-bronchoscopy-and-ebus-preparation",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[]",
+      "after": "[\"midazolam\", \"propofol\", \"lidocaine\", \"glycopyrronium\"]"
+    },
+    {
+      "file": "src/data/protocols/egfr-inhibitor-rash-prophylaxis.ts",
+      "id": "egfr-inhibitor-rash-prophylaxis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"cetuximab\", \"panitumumab\", \"amivantamab\", \"lazertinib\", \"erlotinib\", \"gefitinib\", \"afatinib\", \"osimertinib\", \"hydrocortisone\"]",
+      "after": "[\"cetuximab\", \"panitumumab\", \"amivantamab\", \"lazertinib\", \"erlotinib\", \"gefitinib\", \"afatinib\", \"osimertinib\", \"hydrocortisone\", \"doxycycline\", \"minocycline\"]"
+    },
+    {
+      "file": "src/data/protocols/enhanced-recovery-after-gynaecological-cancer-surgery.ts",
+      "id": "enhanced-recovery-after-gynaecological-cancer-surgery",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"morphine\"]"
+    },
+    {
+      "file": "src/data/protocols/febrile-neutropenia-first-hour.ts",
+      "id": "febrile-neutropenia-first-hour",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"piperacillin-tazobactam\"]"
+    },
+    {
+      "file": "src/data/protocols/hand-foot-syndrome-prevention-and-dose-modification.ts",
+      "id": "hand-foot-syndrome-prevention-and-dose-modification",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"capecitabine\", \"capox\", \"pegylated-liposomal-doxorubicin\", \"sorafenib\", \"regorafenib\", \"cabozantinib\", \"lenvatinib\", \"sunitinib\", \"tegafur-gimeracil-oteracil\"]",
+      "after": "[\"capecitabine\", \"capox\", \"pegylated-liposomal-doxorubicin\", \"sorafenib\", \"regorafenib\", \"cabozantinib\", \"lenvatinib\", \"sunitinib\", \"tegafur-gimeracil-oteracil\", \"urea-cream\", \"lidocaine\"]"
+    },
+    {
+      "file": "src/data/protocols/head-and-neck-radiotherapy-oral-mucositis.ts",
+      "id": "head-and-neck-radiotherapy-oral-mucositis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"morphine\"]"
+    },
+    {
+      "file": "src/data/protocols/hepatitis-b-screening-and-reactivation-prophylaxis.ts",
+      "id": "hepatitis-b-screening-and-reactivation-prophylaxis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"rituximab\", \"obinutuzumab\"]",
+      "after": "[\"rituximab\", \"obinutuzumab\", \"tenofovir\"]"
+    },
+    {
+      "file": "src/data/protocols/herpes-simplex-and-zoster-antiviral-prophylaxis.ts",
+      "id": "herpes-simplex-and-zoster-antiviral-prophylaxis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"bortezomib\", \"idelalisib\"]",
+      "after": "[\"bortezomib\", \"idelalisib\", \"valaciclovir\"]"
+    },
+    {
+      "file": "src/data/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options.ts",
+      "id": "hot-flushes-on-endocrine-therapy-non-hormonal-options",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"elinzanetant\", \"tamoxifen\", \"letrozole\", \"anastrozole\", \"exemestane\", \"goserelin\", \"leuprolide\", \"megestrol-progestins\"]",
+      "after": "[\"elinzanetant\", \"tamoxifen\", \"letrozole\", \"anastrozole\", \"exemestane\", \"goserelin\", \"leuprolide\", \"megestrol-progestins\", \"venlafaxine\", \"gabapentin\", \"cyproterone\"]"
+    },
+    {
+      "file": "src/data/protocols/icans-grading-and-management.ts",
+      "id": "icans-grading-and-management",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"dexamethasone\", \"tocilizumab\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\"]",
+      "after": "[\"dexamethasone\", \"tocilizumab\", \"axicabtagene-ciloleucel\", \"tisagenlecleucel\", \"lisocabtagene-maraleucel\", \"brexucabtagene-autoleucel\", \"idecabtagene-vicleucel\", \"ciltacabtagene-autoleucel\", \"obecabtagene-autoleucel\", \"levetiracetam\"]"
+    },
+    {
+      "file": "src/data/protocols/iec-hs-management.ts",
+      "id": "iec-hs-management",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"dexamethasone\", \"methylprednisolone\", \"ruxolitinib\", \"etoposide\", \"emapalumab\"]",
+      "after": "[\"dexamethasone\", \"methylprednisolone\", \"ruxolitinib\", \"etoposide\", \"emapalumab\", \"anakinra\"]"
+    },
+    {
+      "file": "src/data/protocols/image-guided-core-biopsy-preparation-and-aftercare.ts",
+      "id": "image-guided-core-biopsy-preparation-and-aftercare",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[]",
+      "after": "[\"warfarin\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-colitis.ts",
+      "id": "irae-colitis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"dostarlimab\", \"tremelimumab\", \"avelumab\", \"prednisone\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"dostarlimab\", \"tremelimumab\", \"avelumab\", \"prednisone\", \"infliximab\", \"vedolizumab\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-hepatitis.ts",
+      "id": "irae-hepatitis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"prednisone\", \"methylprednisolone\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"prednisone\", \"methylprednisolone\", \"infliximab\", \"mycophenolate\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-hypophysitis-adrenal.ts",
+      "id": "irae-hypophysitis-adrenal",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"ipilimumab\", \"nivolumab\", \"pembrolizumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"hydrocortisone\"]",
+      "after": "[\"ipilimumab\", \"nivolumab\", \"pembrolizumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"hydrocortisone\", \"levothyroxine\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-myocarditis.ts",
+      "id": "irae-myocarditis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"methylprednisolone\", \"alemtuzumab\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"methylprednisolone\", \"alemtuzumab\", \"infliximab\", \"mycophenolate\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-nephritis.ts",
+      "id": "irae-nephritis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"infliximab\", \"mycophenolate\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-neurological.ts",
+      "id": "irae-neurological",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"methylprednisolone\", \"human-normal-immunoglobulin\", \"rituximab\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"methylprednisolone\", \"human-normal-immunoglobulin\", \"rituximab\", \"gabapentin\", \"duloxetine\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-pneumonitis.ts",
+      "id": "irae-pneumonitis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"dostarlimab\", \"tremelimumab\", \"avelumab\", \"prednisone\", \"cyclophosphamide\", \"tocilizumab\", \"methylprednisolone\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"dostarlimab\", \"tremelimumab\", \"avelumab\", \"prednisone\", \"cyclophosphamide\", \"tocilizumab\", \"methylprednisolone\", \"infliximab\", \"mycophenolate\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-skin.ts",
+      "id": "irae-skin",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"rituximab\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"rituximab\", \"infliximab\"]"
+    },
+    {
+      "file": "src/data/protocols/irae-thyroid.ts",
+      "id": "irae-thyroid",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\"]",
+      "after": "[\"pembrolizumab\", \"nivolumab\", \"ipilimumab\", \"atezolizumab\", \"durvalumab\", \"cemiplimab\", \"tremelimumab\", \"avelumab\", \"dostarlimab\", \"levothyroxine\"]"
+    },
+    {
+      "file": "src/data/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea.ts",
+      "id": "irinotecan-early-cholinergic-syndrome-and-late-diarrhoea",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"irinotecan\", \"sacituzumab-govitecan\", \"folfiri\", \"folfoxiri\"]",
+      "after": "[\"irinotecan\", \"sacituzumab-govitecan\", \"folfiri\", \"folfoxiri\", \"loperamide\", \"hyoscine\"]"
+    },
+    {
+      "file": "src/data/protocols/malignant-bowel-obstruction.ts",
+      "id": "malignant-bowel-obstruction",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"octreotide-lanreotide\", \"dexamethasone\"]",
+      "after": "[\"octreotide-lanreotide\", \"dexamethasone\", \"haloperidol\", \"metoclopramide\", \"hyoscine\"]"
+    },
+    {
+      "file": "src/data/protocols/nausea-and-vomiting-in-advanced-cancer.ts",
+      "id": "nausea-and-vomiting-in-advanced-cancer",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"dexamethasone\"]",
+      "after": "[\"dexamethasone\", \"metoclopramide\", \"haloperidol\", \"levomepromazine\", \"cyclizine\"]"
+    },
+    {
+      "file": "src/data/protocols/neratinib-diarrhoea-prophylaxis-and-dose-escalation.ts",
+      "id": "neratinib-diarrhoea-prophylaxis-and-dose-escalation",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"neratinib\"]",
+      "after": "[\"neratinib\", \"loperamide\"]"
+    },
+    {
+      "file": "src/data/protocols/neutropenic-enterocolitis.ts",
+      "id": "neutropenic-enterocolitis",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"cytarabine\", \"filgrastim\"]",
+      "after": "[\"cytarabine\", \"filgrastim\", \"piperacillin-tazobactam\"]"
+    },
+    {
+      "file": "src/data/protocols/opioid-switching-and-conversion.ts",
+      "id": "opioid-switching-and-conversion",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"fentanyl\"]",
+      "after": "[\"fentanyl\", \"morphine\", \"oxycodone\"]"
+    },
+    {
+      "file": "src/data/protocols/oral-mucositis-prevention-and-oral-care.ts",
+      "id": "oral-mucositis-prevention-and-oral-care",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"fluorouracil\", \"melphalan\"]",
+      "after": "[\"fluorouracil\", \"melphalan\", \"morphine\"]"
+    },
+    {
+      "file": "src/data/protocols/paediatric-chemotherapy-nausea-vomiting-prevention.ts",
+      "id": "paediatric-chemotherapy-nausea-vomiting-prevention",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"ondansetron\", \"granisetron\", \"palonosetron\", \"aprepitant\", \"dexamethasone\", \"cisplatin\"]",
+      "after": "[\"ondansetron\", \"granisetron\", \"palonosetron\", \"aprepitant\", \"dexamethasone\", \"cisplatin\", \"metoclopramide\"]"
+    },
+    {
+      "file": "src/data/protocols/paediatric-fever-and-neutropenia.ts",
+      "id": "paediatric-fever-and-neutropenia",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"piperacillin-tazobactam\"]"
+    },
+    {
+      "file": "src/data/protocols/paediatric-procedural-pain-and-sedation.ts",
+      "id": "paediatric-procedural-pain-and-sedation",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"ketamine\", \"midazolam\", \"propofol\"]"
+    },
+    {
+      "file": "src/data/protocols/palliative-sedation-for-refractory-suffering.ts",
+      "id": "palliative-sedation-for-refractory-suffering",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"midazolam\", \"levomepromazine\", \"propofol\"]"
+    },
+    {
+      "file": "src/data/protocols/radiation-dermatitis-skin-care.ts",
+      "id": "radiation-dermatitis-skin-care",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"mometasone\"]"
+    },
+    {
+      "file": "src/data/protocols/sentinel-node-tracers-and-blue-dye-safety.ts",
+      "id": "sentinel-node-tracers-and-blue-dye-safety",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"isosulfan-blue\", \"tilmanocept-tc99m\", \"technetium-sulfur-colloid\"]",
+      "after": "[\"isosulfan-blue\", \"tilmanocept-tc99m\", \"technetium-sulfur-colloid\", \"lidocaine\"]"
+    },
+    {
+      "file": "src/data/protocols/skin-and-nail-care-during-cancer-drug-treatment.ts",
+      "id": "skin-and-nail-care-during-cancer-drug-treatment",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"cetuximab\", \"panitumumab\", \"erlotinib\", \"gefitinib\", \"afatinib\", \"capecitabine\", \"fluorouracil\"]",
+      "after": "[\"cetuximab\", \"panitumumab\", \"erlotinib\", \"gefitinib\", \"afatinib\", \"capecitabine\", \"fluorouracil\", \"doxycycline\", \"minocycline\"]"
+    },
+    {
+      "file": "src/data/protocols/strong-opioids-for-cancer-pain.ts",
+      "id": "strong-opioids-for-cancer-pain",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"fentanyl\", \"methylnaltrexone\"]",
+      "after": "[\"fentanyl\", \"methylnaltrexone\", \"morphine\", \"oxycodone\", \"naloxone\"]"
+    },
+    {
+      "file": "src/data/protocols/suspected-central-line-infection.ts",
+      "id": "suspected-central-line-infection",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"urokinase\"]"
+    },
+    {
+      "file": "src/data/protocols/syringe-driver-continuous-subcutaneous-infusion.ts",
+      "id": "syringe-driver-continuous-subcutaneous-infusion",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"cyclizine\"]"
+    },
+    {
+      "file": "src/data/protocols/treatment-induced-diarrhoea-grading-and-management.ts",
+      "id": "treatment-induced-diarrhoea-grading-and-management",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"fluorouracil\", \"capecitabine\", \"irinotecan\", \"sacituzumab-govitecan\", \"idelalisib\", \"pertuzumab\", \"panitumumab\", \"cetuximab\", \"sorafenib\"]",
+      "after": "[\"fluorouracil\", \"capecitabine\", \"irinotecan\", \"sacituzumab-govitecan\", \"idelalisib\", \"pertuzumab\", \"panitumumab\", \"cetuximab\", \"sorafenib\", \"loperamide\"]"
+    },
+    {
+      "file": "src/data/protocols/vte-prophylaxis-after-cancer-surgery.ts",
+      "id": "vte-prophylaxis-after-cancer-surgery",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": null,
+      "after": "[\"apixaban\", \"rivaroxaban\"]"
+    },
+    {
+      "file": "src/data/protocols/vte-risk-assessment-and-thromboprophylaxis-ambulatory.ts",
+      "id": "vte-risk-assessment-and-thromboprophylaxis-ambulatory",
+      "objectOrdinal": 0,
+      "field": "drugs",
+      "before": "[\"aspirin\"]",
+      "after": "[\"aspirin\", \"apixaban\", \"rivaroxaban\"]"
+    },
+    {
+      "file": "src/data/spikes/breast-treatment.ts",
+      "id": "tumour-bed-boost",
+      "objectOrdinal": 9,
+      "field": "aka",
+      "before": "[\"boost\", \"breast boost\", \"radiotherapy boost\", \"boost to the tumour bed\"]",
+      "after": "[\"breast boost\", \"radiotherapy boost\", \"boost to the tumour bed\"]"
+    },
+    {
+      "file": "src/data/spikes/colorectal-core.ts",
+      "id": "peritoneal-carcinomatosis-index",
+      "objectOrdinal": 20,
+      "field": "aka",
+      "before": "[\"PCI\", \"peritoneal carcinomatosis index\", \"Sugarbaker score\", \"peritoneal cancer index score\"]",
+      "after": "[\"peritoneal carcinomatosis index\", \"Sugarbaker score\", \"peritoneal cancer index score\"]"
+    },
+    {
+      "file": "src/data/spikes/colorectal-registry-trials.ts",
+      "id": "nct07071961",
+      "objectOrdinal": 299,
+      "field": "aka",
+      "before": "[\"ReLOAD\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/colorectal-registry-trials.ts",
+      "id": "nct07257653",
+      "objectOrdinal": 382,
+      "field": "aka",
+      "before": "[\"concept\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/colorectal-registry-trials.ts",
+      "id": "nct06204094",
+      "objectOrdinal": 503,
+      "field": "aka",
+      "before": "[\"CASINOs\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/endometrial.ts",
+      "id": "endometrial-molecular-classes",
+      "objectOrdinal": 12,
+      "field": "aka",
+      "before": "[\"ProMisE\", \"ProMisE classifier\", \"molecular classification of endometrial cancer\", \"TCGA endometrial subtypes\", \"WHO 2020 endometrial molecular classification\", \"endometrial molecular class\", \"molecular class\"]",
+      "after": "[\"ProMisE classifier\", \"molecular classification of endometrial cancer\", \"TCGA endometrial subtypes\", \"WHO 2020 endometrial molecular classification\", \"endometrial molecular class\", \"molecular class\"]"
+    },
+    {
+      "file": "src/data/spikes/gallbladder-registry-trials.ts",
+      "id": "nct06037655",
+      "objectOrdinal": 34,
+      "field": "aka",
+      "before": "[\"Modified\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/gallbladder-registry-trials.ts",
+      "id": "nct06892925",
+      "objectOrdinal": 56,
+      "field": "aka",
+      "before": "[\"Spring\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/lung-registry-trials.ts",
+      "id": "nct04153734",
+      "objectOrdinal": 55,
+      "field": "aka",
+      "before": "[\"Evolution\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/lung-registry-trials.ts",
+      "id": "nct05692999",
+      "objectOrdinal": 205,
+      "field": "aka",
+      "before": "[\"Pulse\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/lung-registry-trials.ts",
+      "id": "nct06840704",
+      "objectOrdinal": 280,
+      "field": "aka",
+      "before": "[\"Relief\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/lymphoma-molecular.ts",
+      "id": "lymphoma-bio-htlv1",
+      "objectOrdinal": 16,
+      "field": "aka",
+      "before": "[\"HTLV-1\", \"Human T-lymphotropic virus 1\", \"Tax\", \"HBZ\", \"ATLL\"]",
+      "after": "[\"HTLV-1\", \"Human T-lymphotropic virus 1\", \"HBZ\", \"ATLL\"]"
+    },
+    {
+      "file": "src/data/spikes/lymphoma-treatment.ts",
+      "id": "lymphoma-tx-regimen-alphabet",
+      "objectOrdinal": 0,
+      "field": "aka",
+      "before": "[\"Lymphoma chemotherapy acronyms\", \"R-CHP\", \"DA-EPOCH-R\", \"R-ICE\", \"R-DHAP\", \"R-GemOx\", \"CODOX-M/IVAC\", \"MATRix\", \"BrECADD\", \"SMILE\", \"CHOEP\", \"VR-CAP\", \"R-CVP\", \"BR\"]",
+      "after": "[\"Lymphoma chemotherapy acronyms\", \"R-CHP\", \"DA-EPOCH-R\", \"R-ICE\", \"R-DHAP\", \"R-GemOx\", \"CODOX-M/IVAC\", \"BrECADD\", \"SMILE\", \"CHOEP\", \"VR-CAP\", \"R-CVP\", \"BR\"]"
+    },
+    {
+      "file": "src/data/spikes/pancreatic-registry-trials.ts",
+      "id": "nct06159478",
+      "objectOrdinal": 138,
+      "field": "aka",
+      "before": "[\"Perfume\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/spikes/rejuvenation-transplant.ts",
+      "id": "gvhd-belumosudil-axatilimab-ibrutinib",
+      "objectOrdinal": 6,
+      "field": "aka",
+      "before": "[\"Rezurock\", \"Niktimvo\", \"ROCKstar\", \"AGAVE-201\", \"iNTEGRATE\", \"ROCK2 inhibitor\", \"CSF1R blockade in GvHD\"]",
+      "after": "[\"Rezurock\", \"Niktimvo\", \"ROCKstar\", \"AGAVE-201\", \"ROCK2 inhibitor\", \"CSF1R blockade in GvHD\"]"
+    },
+    {
+      "file": "src/data/spikes/tnbc-registry-trials.ts",
+      "id": "nct05491083",
+      "objectOrdinal": 206,
+      "field": "aka",
+      "before": "[\"ComPACT\"]",
+      "after": "[]"
+    },
+    {
+      "file": "src/data/supportive-care-gaps-2026-11-terms.ts",
+      "id": "neutropenic-enterocolitis-typhlitis",
+      "objectOrdinal": 15,
+      "field": "aka",
+      "before": "[\"Typhlitis\", \"Neutropenic enterocolitis\", \"NEC\", \"Neutropenic colitis\"]",
+      "after": "[\"Typhlitis\", \"Neutropenic enterocolitis\", \"Neutropenic colitis\"]"
+    },
+    {
+      "file": "src/data/targets-genes-wave.ts",
+      "id": "psmb6",
+      "objectOrdinal": 113,
+      "field": "aka",
+      "before": "[\"proteasome 20S subunit beta 6\",\"Proteasome subunit beta type-6\",\"DELTA\"]",
+      "after": "[\"proteasome 20S subunit beta 6\",\"Proteasome subunit beta type-6\"]"
+    },
+    {
+      "file": "src/data/targets-genes-wave.ts",
+      "id": "tnfrsf10b",
+      "objectOrdinal": 422,
+      "field": "aka",
+      "before": "[\"TNF receptor superfamily member 10b\",\"Tumor necrosis factor receptor superfamily member 10B\",\"DR5\",\"KILLER\",\"TRICK2A\",\"TRAIL-R2\",\"TRICKB\",\"CD262\",\"TRAILR2\"]",
+      "after": "[\"TNF receptor superfamily member 10b\",\"Tumor necrosis factor receptor superfamily member 10B\",\"DR5\",\"TRICK2A\",\"TRAIL-R2\",\"TRICKB\",\"CD262\",\"TRAILR2\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "cell-division",
+      "objectOrdinal": 32,
+      "field": "aka",
+      "before": "[\"cell divisions\", \"divide\", \"dividing\", \"divides\", \"dividing cells\", \"rapidly dividing\", \"fast-dividing\", \"replication\", \"replicating\", \"cell replication\"]",
+      "after": "[\"cell divisions\", \"divide\", \"dividing\", \"divides\", \"dividing cells\", \"rapidly dividing\", \"fast-dividing\", \"replicating\", \"cell replication\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "remission",
+      "objectOrdinal": 76,
+      "field": "aka",
+      "before": "[\"remissions\", \"in remission\", \"complete remission\", \"partial remission\", \"durable remission\", \"durable remissions\", \"cure\", \"cured\", \"curable\", \"functional cure\", \"no evidence of disease\", \"NED\", \"disease-free\"]",
+      "after": "[\"remissions\", \"in remission\", \"complete remission\", \"partial remission\", \"durable remission\", \"durable remissions\", \"functional cure\", \"no evidence of disease\", \"NED\", \"disease-free\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "partial-response",
+      "objectOrdinal": 78,
+      "field": "aka",
+      "before": "[\"partial responses\", \"responded\", \"responders\", \"responder\", \"non-responders\", \"non-responder\", \"response rate\", \"response rates\", \"tumour shrinkage\", \"tumor shrinkage\", \"shrank\", \"shrinkage\", \"responds to\", \"responding\"]",
+      "after": "[\"partial responses\", \"responders\", \"responder\", \"non-responders\", \"non-responder\", \"response rate\", \"response rates\", \"tumour shrinkage\", \"tumor shrinkage\", \"shrank\", \"shrinkage\", \"responds to\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "median-survival",
+      "objectOrdinal": 93,
+      "field": "aka",
+      "before": "[\"median overall survival\", \"median OS\", \"median PFS\", \"median progression-free survival\", \"median\", \"median follow-up\", \"median time to\", \"survival curve\", \"survival curves\", \"Kaplan-Meier\", \"Kaplan–Meier\", \"landmark analysis\", \"long tail\"]",
+      "after": "[\"median overall survival\", \"median OS\", \"median PFS\", \"median progression-free survival\", \"median follow-up\", \"median time to\", \"survival curve\", \"survival curves\", \"Kaplan-Meier\", \"Kaplan–Meier\", \"landmark analysis\", \"long tail\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "toxicity-grade",
+      "objectOrdinal": 98,
+      "field": "aka",
+      "before": "[\"toxicity\", \"toxicities\", \"toxic\", \"grade 3\", \"grade 4\", \"grade 5\", \"grade 3-4\", \"grade 3/4\", \"grade 3 or higher\", \"grade ≥3\", \"grade 3+\", \"high-grade toxicity\", \"severe toxicity\", \"CTCAE\", \"treatment-related\", \"treatment-related adverse events\", \"TRAEs\", \"TRAE\", \"serious adverse event\", \"serious adverse events\", \"SAE\", \"discontinuation\", \"discontinuation rate\", \"treatment discontinuation\", \"tolerability\", \"tolerable\", \"well tolerated\", \"well-tolerated\", \"safety profile\", \"manageable\"]",
+      "after": "[\"toxicity\", \"toxicities\", \"grade 3\", \"grade 4\", \"grade 5\", \"grade 3-4\", \"grade 3/4\", \"grade 3 or higher\", \"grade ≥3\", \"grade 3+\", \"high-grade toxicity\", \"severe toxicity\", \"CTCAE\", \"treatment-related\", \"treatment-related adverse events\", \"TRAEs\", \"TRAE\", \"serious adverse event\", \"serious adverse events\", \"SAE\", \"discontinuation\", \"discontinuation rate\", \"treatment discontinuation\", \"tolerability\", \"tolerable\", \"well tolerated\", \"well-tolerated\", \"safety profile\", \"manageable\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "quality-of-life",
+      "objectOrdinal": 100,
+      "field": "aka",
+      "before": "[\"QoL\", \"HRQoL\", \"health-related quality of life\", \"patient-reported outcomes\", \"patient-reported outcome\", \"PROs\", \"PRO\", \"patient-reported\", \"symptom burden\", \"functional status\", \"performance status\", \"ECOG\", \"ECOG 0-1\", \"ECOG performance status\", \"Karnofsky\", \"time to deterioration\", \"wellbeing\"]",
+      "after": "[\"QoL\", \"HRQoL\", \"health-related quality of life\", \"patient-reported outcomes\", \"patient-reported outcome\", \"PRO\", \"patient-reported\", \"symptom burden\", \"functional status\", \"performance status\", \"ECOG\", \"ECOG 0-1\", \"ECOG performance status\", \"Karnofsky\", \"time to deterioration\", \"wellbeing\"]"
+    },
+    {
+      "file": "src/data/terms-basics.ts",
+      "id": "screening",
+      "objectOrdinal": 107,
+      "field": "aka",
+      "before": "[\"cancer screening\", \"screening programme\", \"screening programmes\", \"screening program\", \"screening programs\", \"screened\", \"screening test\", \"screening tests\", \"population screening\", \"overdiagnosis\", \"overdiagnosed\", \"over-diagnosis\", \"overtreatment\", \"false positive\", \"false positives\", \"false-positive\", \"false negative\", \"false negatives\", \"false-negative\", \"sensitivity\", \"specificity\", \"lead-time bias\", \"length-time bias\"]",
+      "after": "[\"cancer screening\", \"screening programme\", \"screening programmes\", \"screening program\", \"screening programs\", \"screened\", \"screening test\", \"screening tests\", \"population screening\", \"overdiagnosis\", \"overdiagnosed\", \"over-diagnosis\", \"overtreatment\", \"false positive\", \"false positives\", \"false-positive\", \"false negative\", \"false negatives\", \"false-negative\", \"specificity\", \"lead-time bias\", \"length-time bias\"]"
+    },
+    {
+      "file": "src/data/terms-cansim-oncology.ts",
+      "id": "batch-effects",
+      "objectOrdinal": 33,
+      "field": "aka",
+      "before": "[\"batch effects\", \"batch effect\", \"batch correction\", \"ComBat\", \"platform effect\", \"cross-platform harmonisation\", \"harmonisation across platforms\"]",
+      "after": "[\"batch effects\", \"batch effect\", \"batch correction\", \"platform effect\", \"cross-platform harmonisation\", \"harmonisation across platforms\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "philadelphia-chromosome",
+      "objectOrdinal": 98,
+      "field": "aka",
+      "before": "[\"Philadelphia\", \"Ph+\", \"Ph-positive\", \"Ph-negative\", \"BCR-ABL\", \"BCR-ABL1\", \"BCR::ABL1\", \"t(9;22)\", \"Philadelphia-positive\", \"Ph+ ALL\", \"p190 transcript\", \"p210 transcript\", \"BCR::ABL1 transcript type\"]",
+      "after": "[\"Ph+\", \"Ph-positive\", \"Ph-negative\", \"BCR-ABL\", \"BCR-ABL1\", \"BCR::ABL1\", \"t(9;22)\", \"Philadelphia-positive\", \"Ph+ ALL\", \"p190 transcript\", \"p210 transcript\", \"BCR::ABL1 transcript type\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "conditioning-regimen",
+      "objectOrdinal": 151,
+      "field": "aka",
+      "before": "[\"conditioning\", \"conditioning chemotherapy\", \"conditioning regimen\", \"myeloablative\", \"myeloablative conditioning\", \"reduced-intensity\", \"reduced-intensity conditioning\", \"RIC\", \"non-myeloablative\", \"total body irradiation\", \"TBI\", \"busulfan-cyclophosphamide\", \"BuCy\", \"BuMel\", \"BEAM\", \"fludarabine-based conditioning\", \"treosulfan-based\"]",
+      "after": "[\"conditioning\", \"conditioning chemotherapy\", \"conditioning regimen\", \"myeloablative\", \"myeloablative conditioning\", \"reduced-intensity\", \"reduced-intensity conditioning\", \"RIC\", \"non-myeloablative\", \"total body irradiation\", \"TBI\", \"busulfan-cyclophosphamide\", \"BuCy\", \"BuMel\", \"fludarabine-based conditioning\", \"treosulfan-based\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "hta",
+      "objectOrdinal": 176,
+      "field": "aka",
+      "before": "[\"HTA\", \"health technology assessment\", \"reimbursement\", \"reimbursed\", \"reimbursement decision\", \"coverage decision\", \"payer\", \"payers\", \"cost-effectiveness\", \"cost effectiveness\", \"cost-effective\", \"QALY\", \"QALYs\", \"quality-adjusted life year\", \"incremental cost-effectiveness ratio\", \"willingness-to-pay threshold\", \"value-based pricing\", \"managed access\", \"Cancer Drugs Fund\", \"technology appraisal\", \"G-BA\", \"AMNOG\", \"HAS\", \"PBAC\", \"CADTH\", \"value assessment\", \"coverage decisions\", \"technology appraisals\"]",
+      "after": "[\"HTA\", \"health technology assessment\", \"reimbursement\", \"reimbursed\", \"reimbursement decision\", \"coverage decision\", \"payer\", \"payers\", \"cost-effectiveness\", \"cost effectiveness\", \"cost-effective\", \"QALY\", \"QALYs\", \"quality-adjusted life year\", \"incremental cost-effectiveness ratio\", \"willingness-to-pay threshold\", \"value-based pricing\", \"managed access\", \"Cancer Drugs Fund\", \"technology appraisal\", \"G-BA\", \"AMNOG\", \"PBAC\", \"CADTH\", \"value assessment\", \"coverage decisions\", \"technology appraisals\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "statistical-significance",
+      "objectOrdinal": 185,
+      "field": "aka",
+      "before": "[\"statistically significant\", \"statistical significance\", \"not statistically significant\", \"did not reach statistical significance\", \"P value\", \"p-value\", \"P<0.05\", \"P = 0.05\", \"one-sided\", \"two-sided\", \"alpha spending\", \"alpha allocation\", \"type I error\", \"multiplicity\", \"multiple comparisons\", \"hierarchical testing\", \"gatekeeping\", \"Bonferroni\", \"powered\", \"underpowered\", \"sample size\", \"statistical power\", \"80% power\", \"90% power\", \"numerically\", \"numerical improvement\", \"trend toward\", \"trend towards\", \"clinically meaningful\", \"clinical significance\", \"sample sizes\"]",
+      "after": "[\"statistically significant\", \"statistical significance\", \"not statistically significant\", \"did not reach statistical significance\", \"P value\", \"p-value\", \"P<0.05\", \"P = 0.05\", \"one-sided\", \"two-sided\", \"alpha spending\", \"alpha allocation\", \"type I error\", \"multiplicity\", \"multiple comparisons\", \"hierarchical testing\", \"gatekeeping\", \"Bonferroni\", \"underpowered\", \"sample size\", \"statistical power\", \"80% power\", \"90% power\", \"numerically\", \"numerical improvement\", \"trend toward\", \"trend towards\", \"clinically meaningful\", \"clinical significance\", \"sample sizes\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "qol-pro",
+      "objectOrdinal": 205,
+      "field": "aka",
+      "before": "[\"QoL\", \"QOL\", \"quality of life\", \"quality-of-life\", \"health-related quality of life\", \"HRQoL\", \"HRQL\", \"PRO\", \"PROs\", \"patient-reported outcome\", \"patient-reported outcomes\", \"patient-reported\", \"patient reported\", \"PRO-CTCAE\", \"EORTC QLQ-C30\", \"QLQ-C30\", \"FACT-G\", \"EQ-5D\", \"symptom burden\", \"symptom scores\", \"functional status\", \"time to deterioration\", \"TTD\", \"global health status\", \"tolerability endpoints\", \"patient experience\", \"financial toxicity questionnaire\", \"symptom score\"]",
+      "after": "[\"QoL\", \"QOL\", \"quality of life\", \"quality-of-life\", \"health-related quality of life\", \"HRQoL\", \"HRQL\", \"PRO\", \"patient-reported outcome\", \"patient-reported outcomes\", \"patient-reported\", \"patient reported\", \"PRO-CTCAE\", \"EORTC QLQ-C30\", \"QLQ-C30\", \"FACT-G\", \"EQ-5D\", \"symptom burden\", \"symptom scores\", \"functional status\", \"time to deterioration\", \"TTD\", \"global health status\", \"tolerability endpoints\", \"patient experience\", \"financial toxicity questionnaire\", \"symptom score\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "antiangiogenic-toxicities",
+      "objectOrdinal": 226,
+      "field": "aka",
+      "before": "[\"proteinuria\", \"bleeding\", \"haemorrhage\", \"hemorrhage\", \"bleeding events\", \"bleeding risk\", \"haemoptysis\", \"epistaxis\", \"gastrointestinal perforation\", \"GI perforation\", \"perforation\", \"bowel perforation\", \"fistula\", \"fistula formation\", \"wound healing\", \"wound-healing complications\", \"impaired wound healing\", \"wound dehiscence\", \"reversible posterior leukoencephalopathy\", \"PRES\", \"VEGF inhibitor toxicity\", \"anti-VEGF toxicity\", \"hold 28 days around surgery\"]",
+      "after": "[\"proteinuria\", \"haemorrhage\", \"hemorrhage\", \"bleeding events\", \"bleeding risk\", \"haemoptysis\", \"epistaxis\", \"gastrointestinal perforation\", \"GI perforation\", \"perforation\", \"bowel perforation\", \"fistula\", \"fistula formation\", \"wound healing\", \"wound-healing complications\", \"impaired wound healing\", \"wound dehiscence\", \"reversible posterior leukoencephalopathy\", \"PRES\", \"VEGF inhibitor toxicity\", \"anti-VEGF toxicity\", \"hold 28 days around surgery\"]"
+    },
+    {
+      "file": "src/data/terms-jargon.ts",
+      "id": "dose-modification",
+      "objectOrdinal": 230,
+      "field": "aka",
+      "before": "[\"dose reduction\", \"dose reductions\", \"dose-reduction\", \"dose reduced\", \"dose interruption\", \"dose interruptions\", \"dose delay\", \"dose delays\", \"treatment delay\", \"dose hold\", \"hold treatment\", \"dose modification\", \"dose modifications\", \"dose adjustment\", \"dose adjustments\", \"discontinuation\", \"discontinuations\", \"discontinued\", \"treatment discontinuation\", \"discontinuation rate\", \"discontinuation due to adverse events\", \"permanent discontinuation\", \"stopped treatment\", \"treatment cessation\", \"relative dose intensity\", \"RDI\", \"adherence\", \"non-adherence\", \"compliance\", \"real-world dosing\", \"starting dose\", \"dose holds\", \"treatment delays\"]",
+      "after": "[\"dose reduction\", \"dose reductions\", \"dose-reduction\", \"dose reduced\", \"dose interruption\", \"dose interruptions\", \"dose delay\", \"dose delays\", \"treatment delay\", \"dose hold\", \"hold treatment\", \"dose modification\", \"dose modifications\", \"dose adjustment\", \"dose adjustments\", \"discontinuation\", \"discontinuations\", \"discontinued\", \"treatment discontinuation\", \"discontinuation rate\", \"discontinuation due to adverse events\", \"permanent discontinuation\", \"stopped treatment\", \"treatment cessation\", \"relative dose intensity\", \"RDI\", \"adherence\", \"non-adherence\", \"real-world dosing\", \"starting dose\", \"dose holds\", \"treatment delays\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "response-adaptive-randomisation",
+      "objectOrdinal": 6,
+      "field": "aka",
+      "before": "[\"response-adaptive randomisation\", \"response-adaptive randomization\", \"adaptive randomisation\", \"adaptive randomization\", \"outcome-adaptive randomisation\", \"randomisation probabilities\", \"randomisation weights\", \"play the winner\", \"graduation\", \"graduated from the trial\", \"graduated\", \"arm dropped\", \"drop the loser\", \"arms dropped for futility\", \"adding arms\", \"arm added\"]",
+      "after": "[\"response-adaptive randomisation\", \"response-adaptive randomization\", \"adaptive randomisation\", \"adaptive randomization\", \"outcome-adaptive randomisation\", \"randomisation probabilities\", \"randomisation weights\", \"play the winner\", \"graduated from the trial\", \"arm dropped\", \"drop the loser\", \"arms dropped for futility\", \"adding arms\", \"arm added\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "bayesian-trial-design",
+      "objectOrdinal": 7,
+      "field": "aka",
+      "before": "[\"Bayesian trial\", \"Bayesian trials\", \"Bayesian analysis\", \"Bayesian methods\", \"Bayesian statistics\", \"posterior probability\", \"posterior probability of benefit\", \"prior\", \"prior distribution\", \"informative prior\", \"sceptical prior\", \"skeptical prior\", \"non-informative prior\", \"credible interval\", \"95% credible interval\", \"probability of superiority\", \"predictive probability\", \"predictive probability of success\", \"Bayesian hierarchical model\", \"hierarchical model\", \"borrowing strength\", \"information borrowing\"]",
+      "after": "[\"Bayesian trial\", \"Bayesian trials\", \"Bayesian analysis\", \"Bayesian methods\", \"Bayesian statistics\", \"posterior probability\", \"posterior probability of benefit\", \"prior distribution\", \"informative prior\", \"sceptical prior\", \"skeptical prior\", \"non-informative prior\", \"credible interval\", \"95% credible interval\", \"probability of superiority\", \"predictive probability\", \"predictive probability of success\", \"Bayesian hierarchical model\", \"hierarchical model\", \"borrowing strength\", \"information borrowing\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "cluster-randomised-trial",
+      "objectOrdinal": 14,
+      "field": "aka",
+      "before": "[\"cluster-randomised\", \"cluster randomised\", \"cluster-randomized\", \"cluster randomized\", \"cluster-randomised trial\", \"cluster randomised trial\", \"cluster-randomized trial\", \"cluster randomized trial\", \"cluster trial\", \"cluster trials\", \"cluster RCT\", \"randomised by village\", \"randomised by practice\", \"randomised by hospital\", \"randomised by cluster\", \"intracluster correlation\", \"intraclass correlation\", \"design effect\", \"clusters\", \"in clusters\"]",
+      "after": "[\"cluster-randomised\", \"cluster randomised\", \"cluster-randomized\", \"cluster randomized\", \"cluster-randomised trial\", \"cluster randomised trial\", \"cluster-randomized trial\", \"cluster randomized trial\", \"cluster trial\", \"cluster trials\", \"cluster RCT\", \"randomised by village\", \"randomised by practice\", \"randomised by hospital\", \"randomised by cluster\", \"intracluster correlation\", \"intraclass correlation\", \"design effect\", \"in clusters\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "trial-protocol",
+      "objectOrdinal": 26,
+      "field": "aka",
+      "before": "[\"trial protocol\", \"study protocol\", \"the protocol\", \"protocol\", \"protocol amendment\", \"protocol amendments\", \"amended protocol\", \"protocol deviation\", \"protocol deviations\", \"protocol violation\", \"protocol synopsis\", \"schedule of assessments\", \"schedule of events\", \"protocol-defined\", \"protocol-specified\", \"per the protocol\", \"eligibility criteria\", \"investigator's brochure\", \"investigator brochure\", \"case report form\", \"CRF\", \"eCRF\", \"SPIRIT\", \"SPIRIT statement\", \"SAP\", \"statistical analysis plan\", \"statistical analysis plans\", \"analysis plan\", \"pre-specified analysis plan\", \"hierarchy of endpoints\", \"testing hierarchy\", \"data cut-off date\", \"database lock\"]",
+      "after": "[\"trial protocol\", \"study protocol\", \"protocol amendment\", \"protocol amendments\", \"amended protocol\", \"protocol deviation\", \"protocol deviations\", \"protocol violation\", \"protocol synopsis\", \"schedule of assessments\", \"schedule of events\", \"protocol-defined\", \"protocol-specified\", \"per the protocol\", \"eligibility criteria\", \"investigator's brochure\", \"investigator brochure\", \"case report form\", \"CRF\", \"eCRF\", \"SPIRIT statement\", \"SAP\", \"statistical analysis plan\", \"statistical analysis plans\", \"analysis plan\", \"pre-specified analysis plan\", \"hierarchy of endpoints\", \"testing hierarchy\", \"data cut-off date\", \"database lock\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "trial-lifecycle",
+      "objectOrdinal": 27,
+      "field": "aka",
+      "before": "[\"trial lifecycle\", \"life cycle of a trial\", \"how a trial works\", \"stages of a trial\", \"from bench to bedside\", \"IND application\", \"investigational new drug application\", \"clinical trial application\", \"CTA\", \"site activation\", \"site initiation\", \"first patient in\", \"first patient dosed\", \"last patient in\", \"last patient last visit\", \"database lock\", \"topline readout\", \"primary completion\", \"primary completion date\", \"study completion\", \"congress presentation\", \"late-breaking abstract\", \"peer-reviewed publication\", \"regulatory submission\", \"filing\", \"label expansion\", \"approval\", \"post-marketing\", \"phase 4\", \"long-term follow-up study\"]",
+      "after": "[\"trial lifecycle\", \"life cycle of a trial\", \"how a trial works\", \"stages of a trial\", \"from bench to bedside\", \"IND application\", \"investigational new drug application\", \"clinical trial application\", \"CTA\", \"site activation\", \"site initiation\", \"first patient in\", \"first patient dosed\", \"last patient in\", \"last patient last visit\", \"database lock\", \"topline readout\", \"primary completion\", \"primary completion date\", \"study completion\", \"congress presentation\", \"late-breaking abstract\", \"peer-reviewed publication\", \"regulatory submission\", \"label expansion\", \"post-marketing\", \"phase 4\", \"long-term follow-up study\"]"
+    },
+    {
+      "file": "src/data/trial-design-wave.ts",
+      "id": "trial-failure-modes",
+      "objectOrdinal": 28,
+      "field": "aka",
+      "before": "[\"trial failure\", \"failed trial\", \"failed trials\", \"negative trial\", \"negative trials\", \"why trials fail\", \"why the trial failed\", \"underpowered\", \"underpowered trial\", \"wrong endpoint\", \"wrong comparator\", \"control arm drift\", \"control arm underperformed\", \"control arm outperformed\", \"control arm did better than expected\", \"historical control comparison\", \"regression to the mean\", \"winner's curse\", \"subgroup fishing\", \"cherry-picked subgroup\", \"post-hoc subgroup\", \"crossover contamination\", \"contamination\", \"diluted effect\", \"treatment dilution\", \"non-adherence\", \"poor adherence\", \"dropout\", \"loss to follow-up\", \"lost to follow-up\", \"immature data\", \"did not replicate\", \"failed to replicate\", \"phase 2 signal did not hold\", \"informative censoring\", \"technically negative\"]",
+      "after": "[\"trial failure\", \"failed trial\", \"failed trials\", \"negative trial\", \"negative trials\", \"why trials fail\", \"why the trial failed\", \"underpowered\", \"underpowered trial\", \"wrong endpoint\", \"wrong comparator\", \"control arm drift\", \"control arm underperformed\", \"control arm outperformed\", \"control arm did better than expected\", \"historical control comparison\", \"regression to the mean\", \"winner's curse\", \"subgroup fishing\", \"cherry-picked subgroup\", \"post-hoc subgroup\", \"crossover contamination\", \"diluted effect\", \"treatment dilution\", \"non-adherence\", \"poor adherence\", \"dropout\", \"loss to follow-up\", \"lost to follow-up\", \"immature data\", \"did not replicate\", \"failed to replicate\", \"phase 2 signal did not hold\", \"informative censoring\", \"technically negative\"]"
+    },
+    {
+      "file": "src/data/trials-soc-wave.ts",
+      "id": "ielsg43",
+      "objectOrdinal": 26,
+      "field": "aka",
+      "before": "[\"IELSG43\", \"IELSG-43\", \"MATRix\"]",
+      "after": "[\"IELSG43\", \"IELSG-43\"]"
+    }
+  ],
+  "changedIds": [
+    "antiangiogenic-toxicities",
+    "antibacterial-prophylaxis-in-neutropenia",
+    "anticipatory-nausea-and-vomiting",
+    "anticoagulants-and-antiplatelets-before-endoscopy",
+    "antifungal-prophylaxis-in-haematology",
+    "antithrombotic-interruption-around-surgery",
+    "batch-effects",
+    "bayesian-trial-design",
+    "bispecific-step-up-dosing",
+    "bone-marrow-aspirate-and-trephine-biopsy",
+    "c-arm-linac",
+    "cancer-associated-vte-treatment",
+    "car-t-infection-prevention",
+    "care-in-the-last-days-of-life",
+    "catheter-related-thrombosis-in-cancer",
+    "cell-division",
+    "central-line-occlusion-management",
+    "chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention",
+    "chronic-pain-in-cancer-survivors",
+    "cluster-randomised-trial",
+    "conditioning-regimen",
+    "crs-grading-and-management",
+    "diagnostic-bronchoscopy-and-ebus-preparation",
+    "dose-modification",
+    "egfr-inhibitor-rash-prophylaxis",
+    "endometrial-molecular-classes",
+    "enhanced-recovery-after-gynaecological-cancer-surgery",
+    "febrile-neutropenia-first-hour",
+    "gvhd-belumosudil-axatilimab-ibrutinib",
+    "hand-foot-syndrome-prevention-and-dose-modification",
+    "head-and-neck-radiotherapy-oral-mucositis",
+    "hepatitis-b-screening-and-reactivation-prophylaxis",
+    "herpes-simplex-and-zoster-antiviral-prophylaxis",
+    "hot-flushes-on-endocrine-therapy-non-hormonal-options",
+    "hta",
+    "icans-grading-and-management",
+    "iec-hs-management",
+    "ielsg43",
+    "image-guided-core-biopsy-preparation-and-aftercare",
+    "irae-colitis",
+    "irae-hepatitis",
+    "irae-hypophysitis-adrenal",
+    "irae-myocarditis",
+    "irae-nephritis",
+    "irae-neurological",
+    "irae-pneumonitis",
+    "irae-skin",
+    "irae-thyroid",
+    "irinotecan-early-cholinergic-syndrome-and-late-diarrhoea",
+    "lymphoma-bio-htlv1",
+    "lymphoma-tx-regimen-alphabet",
+    "malignant-bowel-obstruction",
+    "median-survival",
+    "nausea-and-vomiting-in-advanced-cancer",
+    "nct04153734",
+    "nct04868604",
+    "nct05329532",
+    "nct05491083",
+    "nct05692999",
+    "nct06037655",
+    "nct06159478",
+    "nct06204094",
+    "nct06542250",
+    "nct06840704",
+    "nct06892925",
+    "nct07071961",
+    "nct07192588",
+    "nct07257653",
+    "neratinib-diarrhoea-prophylaxis-and-dose-escalation",
+    "neutropenic-enterocolitis",
+    "neutropenic-enterocolitis-typhlitis",
+    "opioid-switching-and-conversion",
+    "oral-mucositis-prevention-and-oral-care",
+    "paediatric-chemotherapy-nausea-vomiting-prevention",
+    "paediatric-fever-and-neutropenia",
+    "paediatric-procedural-pain-and-sedation",
+    "palliative-sedation-for-refractory-suffering",
+    "pallium-india",
+    "partial-response",
+    "peritoneal-carcinomatosis-index",
+    "philadelphia-chromosome",
+    "psmb6",
+    "qol-pro",
+    "quality-of-life",
+    "radiation-dermatitis-skin-care",
+    "remission",
+    "response-adaptive-randomisation",
+    "rice-university",
+    "sam-e-supplements",
+    "screening",
+    "sentinel-node-tracers-and-blue-dye-safety",
+    "skin-and-nail-care-during-cancer-drug-treatment",
+    "statistical-significance",
+    "strong-opioids-for-cancer-pain",
+    "suspected-central-line-infection",
+    "syringe-driver-continuous-subcutaneous-infusion",
+    "tnfrsf10b",
+    "toxicity-grade",
+    "treatment-induced-diarrhoea-grading-and-management",
+    "trial-failure-modes",
+    "trial-lifecycle",
+    "trial-protocol",
+    "tumour-bed-boost",
+    "tumour-marker-immunoassay-analysers",
+    "vacuum-assisted-breast-biopsy",
+    "vte-prophylaxis-after-cancer-surgery",
+    "vte-risk-assessment-and-thromboprophylaxis-ambulatory"
+  ],
+  "scope": "Static literal-object property changes; runtime and complete source-diff checks follow."
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "file": "med-28123068.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-33308471.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-36970059.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-38231412.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-30030295.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "fda-car-t-guidance.pdf",
+    "readingStatus": "selected passages read",
+    "scope": "January 2024 final. Starting material variability/acceptance, fresh/frozen processing, source tracking, identity, VCN per CAR-positive cell, multiple transgene functions, product availability and manufacturing failure, clinical attrition/bridging. Not a full-document review or automatic in vivo-carrier validation."
+  },
+  {
+    "file": "nci-t-cell-transfer.html",
+    "readingStatus": "captured, not used as evidence",
+    "scope": "No independent full-page reading claimed."
+  },
+  {
+    "file": "nci-autologous.html",
+    "readingStatus": "excluded client-app shell",
+    "scope": "Identical generic HTML shells lacked the requested term. HTTP 200 is not a definition source."
+  },
+  {
+    "file": "nci-allogeneic.html",
+    "readingStatus": "excluded client-app shell",
+    "scope": "Identical generic HTML shells lacked the requested term. HTTP 200 is not a definition source."
+  },
+  {
+    "file": "nci-leukapheresis.html",
+    "readingStatus": "excluded client-app shell",
+    "scope": "Identical generic HTML shells lacked the requested term. HTTP 200 is not a definition source."
+  },
+  {
+    "file": "nci-stem-cell-transplant.html",
+    "readingStatus": "captured, not used as evidence",
+    "scope": "No independent full-page reading claimed."
+  },
+  {
+    "file": "nih-consent-library.pdf",
+    "readingStatus": "selected passages read",
+    "scope": "Version 18, 5 February 2026, pages 18 to 19: supervised leukapheresis, mixed white cells, return circuit, access and citrate/calcium/procedure risks. No universal duration, local risk estimate or medication instruction adopted."
+  },
+  {
+    "file": "fulltext-33308471.xml",
+    "readingStatus": "unavailable",
+    "scope": "HTTP Error 500: "
+  },
+  {
+    "file": "fulltext-38231412.xml",
+    "readingStatus": "selected raw full-text sections read",
+    "scope": "Clinical design; patient characteristics/adverse events; failed B2M/TRAC expansion; HLA-A/B/TRAC laboratory comparisons and three-recipient results. Small uncontrolled groups and different preparation, not randomised edit-only effects. Procedures additionally read to retain regimen variations."
+  },
+  {
+    "file": "fulltext-36970059.xml",
+    "readingStatus": "selected raw full-text sections read",
+    "scope": "Study design, UCART19 manufacturing, qPCR method, blood kinetics, donor/product features and conditioning/host-cell associations. Twenty-five adults overlap CALM; manufacturing expansion and blood kinetics differ."
+  },
+  {
+    "file": "fulltext-30030295.xml",
+    "readingStatus": "unavailable",
+    "scope": "HTTP Error 500: "
+  },
+  {
+    "file": "registry-NCT02808442.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "registry-NCT02746952.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "med-14085017.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-31178392.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-30910382.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "yescarta-label.html",
+    "readingStatus": "selected sections read",
+    "scope": "Complete section 16 and selected section 11 formulation/manufacturing passages. Product-specific storage/shipment/transfer and 5% DMSO with 2.5% albumin. Other indications, doses and safety sections are not certified by this review."
+  },
+  {
+    "file": "kymriah-label.html",
+    "readingStatus": "selected sections read",
+    "scope": "Complete section 16 and selected section 11 formulation/manufacturing passages. Product-specific monitored storage/transport and 7.5% (v/v) DMSO. Not a recipe for other materials."
+  },
+  {
+    "file": "iccbba-coi-standard.pdf",
+    "readingStatus": "selected scope/definitions read",
+    "scope": "ST-028 version 1.1.0, June 2025, scope 1.2 and definitions 1.6 plus cover restrictions. Proprietary standard; no tables or coding algorithm reproduced."
+  },
+  {
+    "file": "iccbba-ig050.pdf",
+    "readingStatus": "selected scope/examples read",
+    "scope": "IG-050 version 1.0.0, December 2023, despite later URL path. Scope and section 2 single-patient one-to-many example; expressly excludes manufacture for multiple recipients. Not a whole-guide review."
+  },
+  {
+    "file": "fda-cmc-townhall.pdf",
+    "readingStatus": "captured, unread, unused",
+    "scope": "No claim adopted."
+  },
+  {
+    "file": "elicit-rank-1-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "elicit-rank-2-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "elicit-rank-3-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "elicit-rank-4-med.json",
+    "readingStatus": "valid zero query",
+    "scope": "No MED match under the exact query; no absence inference."
+  },
+  {
+    "file": "elicit-rank-5-med.json",
+    "readingStatus": "valid zero query",
+    "scope": "No MED match under the exact query; no absence inference."
+  },
+  {
+    "file": "elicit-rank-6-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "elicit-rank-7-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "elicit-rank-8-med.json",
+    "readingStatus": "valid zero query",
+    "scope": "No MED match under the exact query; no absence inference."
+  },
+  {
+    "file": "med-40066375.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-40377509.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "fda-potency-2011.pdf",
+    "readingStatus": "historical scope checked",
+    "scope": "Superseded document, not current policy."
+  },
+  {
+    "file": "fda-gene-cmc-2020.pdf",
+    "readingStatus": "selected passages read",
+    "scope": "January 2020 final, pages 46 to 47: limited-shelf-life ex vivo genetically modified cells, in-process sample, rapid final test, continuing final culture and later-positive follow-up. Not universal early release."
+  },
+  {
+    "file": "elicit-rank-4-crossref.json",
+    "readingStatus": "metadata only",
+    "scope": "Exact DOI/title resolved, no abstract; scientific results not adopted."
+  },
+  {
+    "file": "elicit-rank-5-crossref.json",
+    "readingStatus": "metadata only",
+    "scope": "Exact DOI/title resolved, no abstract; scientific results not adopted."
+  },
+  {
+    "file": "elicit-rank-8-crossref.json",
+    "readingStatus": "metadata only",
+    "scope": "Exact DOI/title resolved, no abstract; scientific results not adopted."
+  },
+  {
+    "file": "fulltext-40066375.xml",
+    "readingStatus": "selected raw full-text sections read",
+    "scope": "Complete methods, key definitions and selected results/manufacturing/OOS subsections. No formal statistical analysis; MSR/SSR cancellation denominator rules retained. No full-paper or figure-image review claimed."
+  },
+  {
+    "file": "registry-NCT04094311.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "fda-potency-final-2026.html",
+    "readingStatus": "specific raw page elements read",
+    "scope": "Final November 2026 title/status, supersession and original-PDF link verified in raw HTML."
+  },
+  {
+    "file": "semantic-NCT03686124.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "fda-potency-final-2026.pdf",
+    "readingStatus": "selected passages read",
+    "scope": "November 2026 final scope/introduction, assay uses, in-use handling and acceptance criteria. Section 351 CGT scope; supersedes January 2011."
+  },
+  {
+    "file": "registry-NCT03229876.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "uk-panel-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-40536974.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "med-34990237.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "depil-med.json",
+    "readingStatus": "complete MED abstract read",
+    "scope": "Independent identity and full abstract checked; experimental/clinical setting retained. See primary-identities.json."
+  },
+  {
+    "file": "registry-NCT06539338.json",
+    "readingStatus": "selected registry protocol fields read",
+    "scope": "Identity, state, phase, intervention, last update and results-presence checked; not complete eligibility, current site/slot availability or an efficacy report."
+  },
+  {
+    "file": "ima203-meeting-abstract.pdf",
+    "readingStatus": "unavailable",
+    "scope": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "file": "lv2019-meeting-abstract.html",
+    "readingStatus": "unavailable",
+    "scope": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "cryoprocess-poster-page.html",
+    "readingStatus": "visible landing-page context read",
+    "scope": "Sponsor FastFacts/poster/video landing page; underlying content requests email/login. Visible marketing text does not establish clinical or independent process performance."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "unrepresentedTeachingRequirements": 0,
+  "sourceReadingLimits": [
+    "Diehl supplementary Figure 2 remains unread; the scoped single-subject Results statement uses the independent reviewer assessment.",
+    "The exact García-Murillas lead-time estimator denominator remains unverified; 144 is not labelled as the number of intervals.",
+    "Other inherited source assessments remain at their recorded abstract or targeted-text depth."
+  ],
+  "pendingReviews": [
+    "Expert and learner assessment",
+    "Named language review for current English fallbacks",
+    "Main merge and live verification",
+    "Whole-corpus final re-audit"
+  ],
+  "wholeGoalRemainsActive": true
+}

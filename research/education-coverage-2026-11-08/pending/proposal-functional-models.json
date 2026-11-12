@@ -1,0 +1,1605 @@
+{
+  "version": "proposal-functional-models",
+  "state": "implemented-draft-not-merged",
+  "rootDraft": 375,
+  "rootBase": "e6c9848c9750b6a2cc9bf9b542124bd7f18b45b8",
+  "sharedDraftHeads": {
+    "draft-371": "833efb4c7309cb601483ce1b56d865f7b4cc7ff2"
+  },
+  "canonicalOwnership": {
+    "root": [
+      "bh3-profiling",
+      "bioprinting",
+      "cell-line",
+      "cell-lines-as-proxy",
+      "immune-tumour-coculture-models",
+      "crispr-screens",
+      "cancer-cell-line-encyclopedias",
+      "functional-drug-testing",
+      "functional-precision-medicine-haematology",
+      "organoid",
+      "organoids",
+      "pdx-models",
+      "model-organism",
+      "tumour-spheroid-models",
+      "ex-vivo-tumour-fragments",
+      "functional-model-selection",
+      "single-cell-mass-assays",
+      "tumour-on-chip",
+      "in-vitro-in-vivo"
+    ],
+    "peer": [
+      "model-context-of-use"
+    ]
+  },
+  "records": [
+    {
+      "id": "bh3-profiling",
+      "kind": "technology",
+      "name": "BH3 profiling (functional apoptosis testing)",
+      "aka": [],
+      "tldr": "BH3 profiling measures mitochondrial responses to defined challenges in sampled cells to investigate readiness for apoptosis and survival dependencies.",
+      "summary": "BH3 profiling challenges the mitochondrial apoptosis system of viable sampled cells using defined peptides after selective plasma-membrane permeabilisation. Protocols read mitochondrial depolarisation or cytochrome-c loss. Baseline priming and dependence patterns differ from the change after a named drug exposure in dynamic profiling. Published experiments link early priming changes with later cytotoxic responses in their studied models and samples; this does not establish a universal companion diagnostic or treatment-selection rule.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bcl-2_family",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bcl-2_family"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://doi.org/10.1016/j.ymeth.2013.04.006"
+        },
+        {
+          "label": "Priming and cytochrome-c protocols",
+          "url": "https://doi.org/10.1007/978-1-4939-8861-7_4"
+        },
+        {
+          "label": "Dynamic BH3 primary experiments",
+          "url": "https://doi.org/10.1016/j.cell.2015.01.042"
+        },
+        {
+          "label": "Butterworth et al. 2016: peptide patterns and inhibitor comparison",
+          "url": "https://doi.org/10.1038/bjc.2016.49"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bcl2-inhibitors"
+      ],
+      "cancers": [
+        "aml",
+        "cll"
+      ],
+      "sections": [
+        "diagnostics",
+        "drug-discovery"
+      ],
+      "technologies": [
+        "functional-drug-testing"
+      ],
+      "targets": [
+        "bcl2"
+      ],
+      "drugs": [
+        "venetoclax",
+        "sonrotoclax"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "apoptosis-bcl2"
+      ],
+      "terms": [],
+      "trials": [
+        "nct03223662"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay card. Input: viable single-cell suspension from tissue, blood or a suitable model, with cell identity and population gating documented. Routine fixed archival tissue cannot supply the starting living cells. Permeabilisation and peptide challenge consume the tested aliquots; cell demand depends on panel, controls and replicates rather than one universal tissue minimum. Output: named peptide response, dose, exposure time and population, reported as protocol-normalised depolarisation or cytochrome-c loss. Drug-minus-vehicle delta priming is in percentage points. Sources: https://doi.org/10.1016/j.ymeth.2013.04.006 ; https://doi.org/10.1007/978-1-4939-8861-7_4",
+        "Normalisation and failure checks. In the Ryan and Letai potential-dye protocol, vehicle and a depolarising control define the assay range: subtract the depolarising-control signal from the sample and vehicle signals. Divide the sample difference by the vehicle difference, subtract that ratio from one and multiply by 100 to obtain percent depolarisation. This is not an absolute percentage of dead cells. In cytochrome-c protocols, read retained or lost signal against the specified controls and gating convention; do not interchange fluorescence retention and release. Poor baseline viability, damaged mitochondria, excessive permeabilisation, wrong cell identity, loss of tumour populations or saturated responses can invalidate comparison. Thresholds are protocol- and study-specific. Sources: https://doi.org/10.1016/j.ymeth.2013.04.006 ; https://doi.org/10.1007/978-1-4939-8861-7_4",
+        "Reading rule. State measured priming, separately measured later death and clinical outcome independently. An early drug-induced priming change can precede detectable killing; it neither identifies a causal variant nor establishes achievable exposure, systemic toxicity or benefit for another population. Source: https://doi.org/10.1016/j.cell.2015.01.042",
+        "BH3 means BCL-2 homology 3. BAX and BAK can permeabilise the mitochondrial outer membrane, releasing cytochrome c from between the mitochondrial membranes into the cytosol. Priming concerns proximity to that threshold, not merely protein abundance. HRK-derived peptide preferentially probes BCL-XL, while BAD-derived peptide also challenges BCL-2 and BCL-W; overlapping patterns and concentrations matter. The assay peptide is not a vaccine-antigen recognition test. Source: https://doi.org/10.1038/bjc.2016.49",
+        "BCL-2, BCL-XL and MCL-1 oppose apoptosis, whereas other family members promote it; a BH3 region is a protein region participating in this signalling. A larger mitochondrial response to the same defined challenge can indicate greater priming, and cytochrome-c release helps initiate downstream death machinery. Strong protein staining alone does not establish functional dependence. Butterworth compared peptide profiles with selective BH3-mimetic inhibitors: using both was more informative when survival involved multiple anti-apoptotic proteins, so discordant readouts warrant investigation. Source: https://doi.org/10.1038/bjc.2016.49",
+        "In a fictional dynamic-profiling experiment, cells pre-exposed to vehicle show 20 percent normalised depolarisation when given a peptide, and cells pre-exposed to the drug show 55 percent for the same peptide. (In the normalisation, peptide-free vehicle wells define 0 percent and the depolarising control defines 100 percent; the 20 percent belongs to vehicle-pre-exposed cells challenged with the peptide.) The increase is 35 percentage points, not a 35 percent killed-cell fraction, a causal variant finding or a safe treatment. Values can exceed 100 percent in the potential-dye protocol, so the scale must not be read as a literal cell-death fraction. Source: https://doi.org/10.1016/j.ymeth.2013.04.006"
+      ],
+      "principle": "Compare mitochondrial responses to defined peptide challenges with protocol-specific controls; dynamic profiling compares drug-treated with vehicle-treated cells.",
+      "strengths": [
+        "Functional measurement of mitochondrial apoptotic readiness",
+        "Can investigate response patterns across survival proteins"
+      ],
+      "limitations": [
+        "Requires viable identified cells and adequate control separation",
+        "Peptide specificity overlaps; a single response may not identify one dependency",
+        "Priming is separate from intact-cell killing and patient benefit"
+      ]
+    },
+    {
+      "id": "bioprinting",
+      "kind": "technology",
+      "name": "Bioprinting of experimental tissue models",
+      "aka": [],
+      "tldr": "Bioprinting places cells or materials in a planned arrangement; the constructed tissue still needs structural and functional checks.",
+      "summary": "Bioprinting controls deposition of biological materials to build an experimental construct. The printing plan, measured final geometry, viable cells and biological function are distinct evidence. Kolesky and colleagues printed cell-containing and removable inks, removed the temporary channel material, added endothelial lining and perfused engineered tissues. This tissue-engineering experiment did not demonstrate a complete human organ or cancer-treatment utility. Yi and colleagues reported a particular glioblastoma chip combining patient-derived tumour cells, endothelial cells and brain-derived matrix; its abstract supports that bounded example.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Kolesky et al. 2016 primary fabrication and channel checks",
+          "url": "https://doi.org/10.1073/pnas.1521342113"
+        },
+        {
+          "label": "Yi et al. 2019 primary abstract",
+          "url": "https://doi.org/10.1038/s41551-019-0363-x"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "tumour-on-chip",
+        "organoids"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model card. Input: defined cells and biomaterials, sometimes viable patient-derived material requiring expansion. Document the source of each component; patient-derived tumour cells do not make every material donor-matched. Fabrication and quality checks consume finite material. Output: measured geometry in micrometres or millimetres, viability or attributed counts, and the separately chosen functional endpoint. Retain actual layout, matrix, cell identities, time and controls; a digital plan is not the final measurement. A printing plan specifies positions, materials and fabrication steps. A bioink is a formulation used to build a biological construct, often containing cells in a supportive material. The extracellular matrix is the surrounding molecular scaffold of tissue; a printing material represents selected features rather than its whole composition. A sacrificial ink is temporary material removed to leave a channel. Some designs deposit cells with the material; another route builds a support that is seeded afterwards. Gelation, adding cell populations and making channels are distinct steps. Kolesky's cell-laden and fugitive-ink method is one documented implementation, rather than proof of every possible printing route. Source: https://doi.org/10.1073/pnas.1521342113",
+        "Channel checks. A temporary channel path becomes a hollow channel after removal; endothelial lining, fluid passage and barrier performance require separate tests. Kolesky's primary figures distinguish these steps and compare diffusional permeability of lined and bare channels. Printing describes fabrication; a chip describes an environment, while organoid self-organisation describes another design axis. More complex fabrication does not automatically validate prediction. Living cells can spread, contract and remodel the initial layout. The actual geometry and cell health therefore need observation after printing as well as a design file. In Kolesky's primary PDF, figures 1 and 2 separate fabrication, viability, endothelial lining and measured permeability of lined versus bare channels. Those checks support those engineered tissues, not a complete organ. Perfusion supplies fluid through the constructed system; it is not full human circulation or drug metabolism.",
+        "Fictional reading exercise. Growth changes when both gel composition and neighbour distance change. The comparison does not isolate proximity. Compare layouts with the same material, starting populations and exposure, and verify the final construct. Failure modes include incorrect placement, cell injury, incompatible material and inadequate transport. Acceptance criteria belong to the design; there is no universal clinical printing threshold. Unequal starting composition is another failure mode, alongside placement, compatibility, cell injury and transport. Printing alone does not establish complete tumour biology or immune recognition."
+      ],
+      "principle": "Deposit defined cells and materials in a planned arrangement, then verify constructed geometry, cell health and the intended function.",
+      "strengths": [
+        "Controls a planned starting arrangement for a defined experimental question"
+      ],
+      "limitations": [
+        "The constructed geometry, cell health and intended function must be measured",
+        "Fabrication alone does not establish whole-tumour biology, immune recognition or patient benefit"
+      ]
+    },
+    {
+      "id": "cell-line",
+      "kind": "term",
+      "name": "Cell line",
+      "aka": [
+        "cell lines",
+        "cell-line",
+        "cell-lines",
+        "cultured cells",
+        "cell culture",
+        "cell cultures",
+        "immortalised",
+        "immortalized",
+        "HeLa",
+        "cancer cell lines",
+        "cancer cell line"
+      ],
+      "tldr": "A cell line is a population maintained through successive transfers in laboratory culture. Its identity, history and growth conditions shape what it can model.",
+      "summary": "A cell line arises through subculture of an initial primary culture. Finite lines have limited proliferative capacity; continuous lines can proliferate for prolonged periods under suitable conditions. Continuous growth does not itself establish malignancy. Lines may attach to surfaces or grow in suspension. Their source, passage history, medium and density shape the selected population. Cancer-line strains can diverge genetically and in drug response, so a familiar name does not guarantee identical biology across laboratories.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Immortalised_cell_line",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immortalised_cell_line"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/"
+        },
+        {
+          "label": "ATCC culture definitions",
+          "url": "https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide"
+        },
+        {
+          "label": "ATCC identity and quality checks",
+          "url": "https://www.atcc.org/-/media/resources/technical-documents/cell-line-authentication-test-recommendations.pdf?rev=7664fa886e5948018dfe198d484bb4eb"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "in-vitro-in-vivo",
+        "organoid",
+        "preclinical",
+        "model-organism",
+        "monoclonal"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "crispr-screens",
+        "organoids",
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model card. Input: documented banked cells or viable material used to establish a culture. Record source and version, medium, density, passage and relevant phenotype. Output belongs to the chosen assay, such as counts, doubling time in hours or a death fraction with its denominator. Passage counts transfers, not a fixed number of divisions. Identity matching by human short tandem repeat profiling, mycoplasma testing and phenotype/growth checks address different questions. Establishment can fail or select subsets; no line-name cutoff predicts clinical sensitivity. Sources: https://www.atcc.org/resources/culture-guides/animal-cell-culture-guide ; https://www.atcc.org/-/media/resources/technical-documents/cell-line-authentication-test-recommendations.pdf?rev=7664fa886e5948018dfe198d484bb4eb Establishing a new line uses finite viable tissue and can select populations. A cell line need not be a monolayer. ATCC uses authentication broadly for verification of identity and freedom from contamination: short tandem repeat profiling compares repeated DNA stretches to test human-line identity, while mycoplasma and other contamination tests and relevant phenotype checks answer additional questions. Passing the identity test does not answer all of them.",
+        "Fictional reading exercise. Two laboratories use the same named line with different medium and passage histories and obtain different drug responses. Check identity, contamination and matched conditions before attributing the difference to one cause. Replicate wells assess a preparation, not independent donors. Growth inhibition relative to a dividing control is not automatically killing. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/",
+        "A simple characterised line is useful for isolating a mechanism, comparing many perturbations and repeating an experiment. Its missing architecture, host drug handling and normal-tissue responses limit the inference, and a tumour-only line cannot test an immune interaction without the required added populations. A more elaborate culture changes selected ingredients; it does not create a universal hierarchy of reliability."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "cell-lines-as-proxy",
+      "kind": "term",
+      "name": "Cell lines as a proxy for patients",
+      "aka": [
+        "cell lines as a patient proxy",
+        "cancer cell lines",
+        "immortalised cell line",
+        "immortalized cell line",
+        "cell line model"
+      ],
+      "tldr": "Cancer cell lines support controlled laboratory experiments, while prediction for a patient requires separate evidence.",
+      "summary": "Cancer cell lines are selected populations maintained in culture. Versions of the same named line can differ genetically and in drug response. The culture does not reproduce the whole tumour, host drug handling or complete immune environment. Transfer to patients therefore depends on the intended intervention, endpoint, population and validation evidence, rather than the line name alone.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Immortalised_cell_line",
+      "links": [
+        {
+          "label": "Barretina et al., The Cancer Cell Line Encyclopedia (Nature 2012)",
+          "url": "https://doi.org/10.1038/nature11003"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immortalised_cell_line"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/"
+        },
+        {
+          "label": "Cell-line definition and culture checks",
+          "url": "https://onco.cc/terms/cell-line/"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "depmap",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "drug-response-sensitivity",
+        "domain-adaptation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A result can be repeatable in one cultured population without predicting a patient outcome. The cell-line definition holds the culture, authentication and assay-reporting details; the question here is transportability. Specify which model feature, intervention and endpoint are expected to transfer to which clinical population, then test that bridge independently. Neither many wells nor a familiar line name establishes that bridge. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/cell-lines-as-patient-proxy."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Cancer biology"
+    },
+    {
+      "id": "immune-tumour-coculture-models",
+      "kind": "technology",
+      "name": "Immune-tumour co-culture models",
+      "aka": [
+        "tumour-immune co-culture",
+        "organoid-immune co-culture",
+        "co-culture immune-tumour models",
+        "tumor organoid T cell co-culture"
+      ],
+      "tldr": "Co-culture places tumour and immune populations together so researchers can measure their interactions with identified cells and appropriate controls.",
+      "summary": "Co-culture studies interactions among defined populations. Dijkstra and colleagues combined autologous blood lymphocytes with tumour organoids from mismatch repair-deficient colorectal cancer and from non-small-cell lung cancer, with enrichment and later killing measurements as separate stages. Neal and colleagues retained native immune components using a specialised air-liquid-interface organoid method. Presence, activation, tumour recognition and killing require different observations; neither model label establishes universal patient prediction.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Dijkstra et al. 2018, Cell: generation of tumour-reactive T cells by co-culture of peripheral blood lymphocytes and tumour organoids",
+          "url": "https://doi.org/10.1016/j.cell.2018.07.009"
+        },
+        {
+          "label": "Neal et al. 2018, Cell: organoid modelling of the tumour immune microenvironment",
+          "url": "https://doi.org/10.1016/j.cell.2018.11.021"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/"
+        },
+        {
+          "label": "Permeable-support compartments",
+          "url": "https://www.corning.com/worldwide/en/products/life-sciences/products/permeable-supports/transwell-guidelines.html"
+        },
+        {
+          "label": "Jenkins et al. 2018: organotypic spheroids and retained compartments",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/"
+        },
+        {
+          "label": "Macdonald et al. 2009: human T-cell allorecognition",
+          "url": "https://doi.org/10.1016/j.immuni.2009.09.025"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "colorectal",
+        "nsclc"
+      ],
+      "sections": [
+        "drug-discovery",
+        "immunotherapy"
+      ],
+      "technologies": [
+        "organoids",
+        "checkpoint-inhibitor",
+        "til-therapy",
+        "tumour-on-chip"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "tils",
+        "organoid"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Controls and compartments. Compare tumour-only, neighbour-only and mixed cultures, with matched vehicle or exposure controls. Direct contact allows contact and exchanged molecules; a selected permeable support can separate cells while allowing exchange, but passage depends on membrane and cells. Previously collected cell-free conditioned medium tests transferred secreted material, not ongoing reciprocal interaction. These comparisons isolate different questions rather than rank culture formats. Source for separated support design: https://www.corning.com/worldwide/en/products/life-sciences/products/permeable-supports/transwell-guidelines.html Autologous populations come from the same person; allogeneic populations come from different people. Human leukocyte antigen (HLA) differences can themselves provoke T-cell recognition in an allogeneic experiment. Macdonald's primary structural study showed HLA- and peptide-dependent human T-cell alloreactivity; it did not validate a tumour-response test. Even autologous cells may lack relevant tumour-reactive cells or change during culture. Source: https://doi.org/10.1016/j.immuni.2009.09.025",
+        "Dijkstra primary study: a two-week enrichment stage preceded a separate three-day organoid-killing assessment. Matched healthy organoids and HLA-blocking comparisons tested specificity; reactions to xenogeneic Geltrex matrix were also investigated. A marker or cytokine signal alone did not substitute for the identified live-cell/death readout. The studied donors and protocol define the scope: the colorectal samples were mismatch repair-deficient, and the defined T-cell response occurred in four of eight patients with MHC class I-positive organoids in the colorectal comparison. No response was observed in the tested MHC class I-deficient lines. These timings are not universal culture windows. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/ Jenkins also described organotypic spheroids retaining autologous immune and stromal components. Added blood lymphocytes and retained tumour neighbours are different preparations; measure retention and function over the actual window rather than assign immune capability exclusively to one format. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/",
+        "Assay card. Retain source donor/site/time for each viable population, autologous or allogeneic relationship, starting ratio, medium, persistence and readout time. Isolation, expansion and assays consume finite material. Report identified live target counts, a death fraction with denominator, or cytokine concentration with units. Check viability, missing reactive cells, incompatible medium, changing ratios, matrix/allogeneic responses and bulk-signal attribution. Quality thresholds are method-specific; replicates from one donor do not establish population validation.",
+        "In a fictional mixed culture, a metabolic signal falls by half, but identified viable tumour-cell counts are unchanged and viable immune-cell counts fall. The bulk decline could come from the immune compartment and does not show 50 percent tumour killing. Population-specific survival and death measurements are needed; activation, recognition and killing remain distinct endpoints."
+      ],
+      "principle": "Define added or retained populations and interaction compartments, then measure population-specific responses with appropriate controls.",
+      "strengths": [
+        "Tests an immune-tumour interaction under controlled, defined conditions",
+        "Can enrich tumour-reactive T cells in a studied protocol",
+        "Can model aspects of checkpoint blockade in specialised systems"
+      ],
+      "limitations": [
+        "Cell proportions and phenotype can change during culture",
+        "Autologous origin alone does not establish tumour specificity",
+        "Body-level exposure, recruitment and clinical utility remain outside the culture alone"
+      ],
+      "since": 2018
+    },
+    {
+      "id": "crispr-screens",
+      "kind": "technology",
+      "name": "CRISPR functional genomics",
+      "aka": [
+        "genome-wide CRISPR screens",
+        "genome-scale CRISPR knockout screens",
+        "pooled CRISPR screens",
+        "CRISPR knockout screens"
+      ],
+      "tldr": "CRISPR screens test how genetic perturbations change cellular fitness or another measured phenotype in defined models.",
+      "summary": "In pooled CRISPR knockout screens, guide sequences track perturbed populations over time. Relative enrichment or depletion supports a fitness effect under the experimental conditions, including proliferation and survival. Guide delivery and editing efficiency, representation, unintended effects and copy-number-dependent cutting can confound interpretation. Independent perturbations and appropriate follow-up strengthen on-target attribution. Knockout and drug inhibition differ in extent, activity and duration, so a genetic hit does not establish a clinically useful drug.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Defining a Cancer Dependency Map: which genes each cancer cell line cannot live without (Cell 2017)",
+          "url": "https://doi.org/10.1016/j.cell.2017.06.010"
+        },
+        {
+          "label": "Shalem et al. 2014, Science: genome-scale CRISPR-Cas9 knockout screening in human cells",
+          "url": "https://doi.org/10.1126/science.1247005"
+        },
+        {
+          "label": "Wang et al. 2014, Science: genetic screens in human cells using the CRISPR-Cas9 system",
+          "url": "https://doi.org/10.1126/science.1246981"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/"
+        },
+        {
+          "label": "Chronos primary method",
+          "url": "https://doi.org/10.1186/s13059-021-02540-7"
+        },
+        {
+          "label": "Mou et al. 2017: exon skipping after editing",
+          "url": "https://doi.org/10.1186/s13059-017-1237-8"
+        },
+        {
+          "label": "El-Brolosy et al. 2019: scoped genetic compensation",
+          "url": "https://doi.org/10.1038/s41586-019-1064-z"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cancer-cell-line-encyclopedias",
+        "immune-tumour-coculture-models"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "synthetic-lethality-approaches"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "algen-biotechnologies",
+        "tango-therapeutics",
+        "light-horse-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay card. Input: enough viable cells to maintain guide representation through delivery, culture and replicate sampling; culture and sequencing consume material. Output: guide counts, log2 fold changes or analysis-specific gene-effect scores, not response probabilities. Retain library, model, screen duration, replicates, quality criteria, analysis version and data release. Non-targeting controls, reference essential genes and concordance across guides assess performance; poor delivery or low representation can leave a screen uninterpretable. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3972032/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4089965/ CRISPR stands for clustered regularly interspaced short palindromic repeats. A guide RNA directs Cas9 to a DNA sequence; repair after cutting can disrupt gene function. The intended target does not guarantee removal of every functional copy in every cell. Measure the edit and its consequence, rather than equate a barcode with complete knockout.",
+        "On-target follow-up is a reading rule: check the edit and functional consequence, reproduce the effect with independent guides or another suitable perturbation, and test whether restoration of the relevant function reverses the phenotype where feasible. Rescue has its own expression and construct controls; failed rescue alone is not proof against the target. This is a causal-comparison framework, not a claim that every published screen performed all these experiments. Responses can include compensation, alternative protein forms or changes in cellular state. Mou reported exon skipping and exon deletions after CRISPR editing, while El-Brolosy studied mutant-mRNA-dependent transcriptional adaptation in zebrafish and mouse models. These bounded findings explain why the resulting RNA, protein and phenotype need checking; they do not establish a universal frequency of compensation. Sources: https://doi.org/10.1186/s13059-017-1237-8 ; https://doi.org/10.1038/s41586-019-1064-z",
+        "Analysis scope. CERES estimates genetic effects while accounting for copy-number cutting effects. Chronos models perturbed population dynamics and was compared with other methods on two pan-cancer datasets and a longitudinal screen. Its reported control separation and bias advantages belong to those comparisons; correction does not make a poor experiment valid. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/ ; https://doi.org/10.1186/s13059-021-02540-7 Cutting several amplified copies can impair growth through DNA damage independently of losing the targeted gene function. In a fictional barcode example, a guide falling from 100 to 20 reads per 10,000 reads has decreased in relative representation; it does not mean that 80 cells died. Proliferation, survival, editing and cutting effects need the separate checks described here.",
+        "Some dependencies are shared broadly and others enriched in a particular lineage or genomic context. A gene needed by normal cells may limit therapeutic selectivity. Knockout can remove a protein, whereas a drug may inhibit only one activity partly or temporarily. Guide abundance after perturbation is not RNA expression, and a negative gene-effect score follows the analysis convention rather than guaranteeing drug sensitivity. No screen alone establishes normal-tissue safety. In a fictional amplified-region example, a strong depletion signal becomes small after cutting-toxicity correction; the original rank alone cannot nominate an inhibitor. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/"
+      ],
+      "principle": "Track guide representation or a specified phenotype after genetic perturbation, then evaluate controls and context before inferring gene function.",
+      "strengths": [
+        "Systematic interrogation of genetic effects under stated conditions"
+      ],
+      "limitations": [
+        "Editing and guide performance vary",
+        "Copy-number cutting effects and culture context can confound fitness",
+        "Genetic effects do not establish drug selectivity or clinical utility"
+      ]
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias",
+      "kind": "technology",
+      "name": "Cancer cell line encyclopedias and dependency maps",
+      "aka": [],
+      "tldr": "Public collections pair cancer cell-line molecular profiles with drug-response or genetic-screen measurements for use as research references.",
+      "summary": "The Cancer Cell Line Encyclopedia reported expression, copy-number and sequencing data from 947 human cancer cell lines, with profiles for 24 anticancer drugs across 479 of them (Barretina 2012). Tsherniak's Cancer Dependency Map analysed 501 RNA-interference loss-of-function screens, and Meyers reported CRISPR-Cas9 screens across 342 lines. These are distinct measurements and datasets, not a universal ground truth for patient response.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Immortalised_cell_line",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immortalised_cell_line"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/"
+        },
+        {
+          "label": "Cancer-line strain variation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/"
+        },
+        {
+          "label": "Barretina et al. 2012: Cancer Cell Line Encyclopedia",
+          "url": "https://doi.org/10.1038/nature11003"
+        },
+        {
+          "label": "Tsherniak et al. 2017: Cancer Dependency Map",
+          "url": "https://doi.org/10.1016/j.cell.2017.06.010"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "drug-discovery",
+        "ai-computation"
+      ],
+      "technologies": [
+        "synthetic-lethality-approaches",
+        "organoids"
+      ],
+      "targets": [
+        "wrn",
+        "prmt5-mtap"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Resource card. Retain the cell-line strain and identity, culture and screen metadata, assay endpoint, library, algorithm and release. A reference dataset is not universal ground truth for patient response. Fitness depletion can result from slower division or reduced survival; independent lines and independent patients define different sampling units. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC6522222/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5709193/"
+      ],
+      "principle": "Molecular profiles, drug-response assays and genetic screens describe different properties of identified cultured populations.",
+      "strengths": [
+        "Public reference data for research and benchmarking",
+        "Comparisons across characterised models"
+      ],
+      "limitations": [
+        "Culture and sample selection affect representation",
+        "Genetic fitness and drug response are distinct measurements",
+        "Patient-level transportability requires separate validation"
+      ]
+    },
+    {
+      "id": "functional-drug-testing",
+      "kind": "technology",
+      "name": "Functional (ex vivo) drug testing",
+      "aka": [],
+      "tldr": "Functional drug testing measures a defined response to medicines in collected living material under laboratory conditions.",
+      "summary": "Functional drug testing exposes a defined living preparation to medicines and measures a specified response. Preparations may use dissociated cells, expanded organoids or short-term tissue cultures. Feasibility, outcome agreement and benefit from using a result to choose care are separate questions and must be tied to the actual assay version, cancer, treatment and setting.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Precision_medicine",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Precision_medicine"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/"
+        },
+        {
+          "label": "Breast-slice assay version and handling",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/"
+        },
+        {
+          "label": "Promega CellTiter-Glo: ATP readout and cellular-content limitations",
+          "url": "https://www.promega.com/-/media/files/resources/protocols/technical-bulletins/0/celltiter-glo-luminescent-cell-viability-assay-protocol.pdf"
+        },
+        {
+          "label": "Restivo et al. 2022: protocol-specific recovery from slow-frozen tumour tissue",
+          "url": "https://doi.org/10.1038/s42003-022-04025-0"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "functional-precision-medicine-haematology",
+        "bh3-profiling",
+        "parsortix-ctc-harvest",
+        "ex-vivo-tumour-fragments",
+        "single-cell-mass-assays",
+        "functional-model-selection"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics",
+        "drug-discovery"
+      ],
+      "technologies": [
+        "organoids"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "certis-oncology-solutions",
+        "known-medicine",
+        "notable-labs",
+        "origin-bio",
+        "zpredicta",
+        "kernis-health",
+        "palitra-bio",
+        "valius",
+        "specicare",
+        "storemytumor",
+        "travera",
+        "first-ascent-biomedical",
+        "kiyatec",
+        "sagemedic",
+        "kyan-technologies",
+        "cancertain",
+        "2curex",
+        "oncosyne"
+      ],
+      "institutions": [
+        "cure-first"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Specimen and assay card. Record donor/site/time, living preparation, transport and processing, initial composition, culture history, assay version, concentrations, exposure duration, replicates and control range. Fixed tissue cannot supply living cells; whether previously frozen material can supply the required viable preparation must be demonstrated for that protocol. Input suitability and recovery must be demonstrated for the method. Testing and endpoint processing use finite material. Output needs units, denominator, normalisation and uncertainty; acceptance criteria must be defined for the actual method. Name whether the preparation is dissociated cells, a fresh fragment or an expanded organoid. Mixed samples include normal neighbours, and expansion can change the represented populations.",
+        "Handling evidence is method-specific. Ladan and colleagues collected breast tissue in their specified medium, cut 300 micrometre slices and assessed morphology, proliferation and apoptosis after three-day exposure. This is not a general transport or storage protocol for all screens. Growth-rate methods show why baseline counts and control division affect interpretation. Retain failures and exclusions; failed preparation is not clinical resistance. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/ Medium, drug access and exposure duration can change the result. Mechanism-relevant controls test whether the claimed interaction can occur; absent required cells or unrealistic exposures can make an experiment uninformative even when a numerical response is available. A laboratory concentration is not a safe human dose.",
+        "Fictional example. A well has half the metabolic signal but the same identified viable tumour-cell endpoint count as control. This establishes a changed proxy, not half the cells killed; endpoint equality also does not reconstruct every division and death. Separate death, target engagement, safe human dosing and clinical benefit remain questions. This is an arithmetic and interpretation exercise, not observed patient data. Possible readouts include cell number, metabolism, mass, growth and death. Adenosine triphosphate (ATP) is a cellular energy molecule measured by some luminescence assays. Promega's primary assay guidance states that cellular ATP content varies with cell type and physiology and can alter the relation between cell number and light output. A lower ATP signal can therefore reflect fewer cells or a per-cell change, rather than a counted death fraction. Source: https://www.promega.com/-/media/files/resources/protocols/technical-bulletins/0/celltiter-glo-luminescent-cell-viability-assay-protocol.pdf",
+        "Restivo and colleagues generated organoids from matched fresh and slow-frozen colorectal tumour tissue from two patients with stage IV disease. Their specified slow-freezing protocol used a cryoprotectant to preserve living material, and the frozen-derived cultures took longer to form than the fresh-derived cultures. This is evidence of recovery under that protocol, not equivalence of all fresh, snap-frozen and viable-cryopreserved samples or a guaranteed turnaround. The handling history, recovery, malignant identity and assay quality need checking for the intended experiment. Preserved molecular material alone does not establish a recoverable living model. Source: https://doi.org/10.1038/s42003-022-04025-0"
+      ],
+      "principle": "Compare defined exposures with matched controls in a characterised viable preparation; attribute the endpoint to the relevant population.",
+      "strengths": [
+        "Tests a drug-response hypothesis directly in a defined preparation",
+        "Can compare several exposures when material permits"
+      ],
+      "limitations": [
+        "Preparation, viability, sampling and turnaround affect feasibility",
+        "Missing components can leave a drug mechanism untested",
+        "Outcome association alone does not establish clinical utility"
+      ]
+    },
+    {
+      "id": "functional-precision-medicine-haematology",
+      "kind": "technology",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT)",
+      "aka": [
+        "drug sensitivity and resistance testing",
+        "DSRT",
+        "functional precision medicine",
+        "single-cell functional screening",
+        "pharmacoscopy"
+      ],
+      "tldr": "Ex vivo drug screening measures responses in collected blood-cancer cells to support research and defined clinical studies; a ranked result requires clinical interpretation.",
+      "summary": "Ex vivo blood-cancer screening measures a specified response in collected malignant and comparator populations. Results depend on the specimen, preparation, treatment exposure and assay. The EXALT study is one clinical investigation of a defined selection approach; a screen result alone does not establish a safe treatment, and failed or uninterpretable experiments are not clinical resistance findings. Generalisation to another cancer, assay or decision strategy requires separate evidence.",
+      "status": "phase-2",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Cancer Discovery 2022: Functional precision medicine provides clinical benefit in advanced aggressive hematologic cancers and identifies exceptional responders (EXALT)",
+          "url": "https://doi.org/10.1158/2159-8290.CD-21-0538"
+        },
+        {
+          "label": "Growth-rate readout interpretation in cell lines: Hafner et al. 2016",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-bio1-organoid-assay-clinical-validation",
+        "bcl2-inhibitors"
+      ],
+      "cancers": [
+        "aml",
+        "cll",
+        "dlbcl",
+        "multiple-myeloma",
+        "all-leukemia",
+        "mds",
+        "leukaemia"
+      ],
+      "sections": [
+        "diagnostics",
+        "drug-discovery"
+      ],
+      "technologies": [
+        "functional-drug-testing",
+        "bh3-profiling",
+        "organoid-guided-therapy-scale",
+        "pdac-organoid-pharmacotyping",
+        "organoids",
+        "high-throughput-screening-libraries"
+      ],
+      "targets": [],
+      "drugs": [
+        "venetoclax",
+        "azacitidine"
+      ],
+      "companies": [
+        "notable-labs"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "medicare-ncd-190-7"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-kornauth-cancer-discov"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay-report axes. Name the malignant population and comparator cells, live input and consumption, drug concentration and exposure, readout and denominator, control range, failures and assay version. A mixed malignant/normal ratio can change through either population; it is not by itself a counted malignant-cell death fraction. Negative or failed experiments do not automatically nominate another clinical treatment. These are reading rules, not changes to the EXALT trial result. Source for growth/readout boundary: https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/",
+        "The prospective EXALT study tested an image-based single-cell selection approach in 143 people with advanced aggressive blood cancers. Fifty-six were treated according to the assay; 30 of those 56 (54 percent) had progression-free survival more than 1.3 times that on their own previous therapy. The comparator was each person's prior therapy in a single-arm study, not randomised standard care. This result does not show that all tested patients benefited or validate another assay or disease setting. Source: https://doi.org/10.1158/2159-8290.CD-21-0538"
+      ],
+      "principle": "A specified viability or imaging assay measures response in identified malignant and comparator cells after defined exposures.",
+      "strengths": [
+        "Tests drug response in collected patient cells under defined laboratory conditions"
+      ],
+      "limitations": [
+        "Results depend on specimen quality, composition, assay and disease setting",
+        "A dish does not reproduce whole-body exposure or complete immunity",
+        "Clinical validity and benefit from a selection strategy require distinct evidence"
+      ],
+      "since": 2022
+    },
+    {
+      "id": "organoid",
+      "kind": "term",
+      "name": "Organoid",
+      "aka": [
+        "organoids",
+        "tumour organoid",
+        "tumour organoids",
+        "tumor organoid",
+        "tumor organoids",
+        "patient-derived organoid",
+        "patient-derived organoids",
+        "PDO",
+        "PDOs",
+        "mini-tumour",
+        "mini-tumours",
+        "3D culture",
+        "three-dimensional culture",
+        "tumoroid",
+        "tumoroids"
+      ],
+      "tldr": "An organoid is a three-dimensional culture that self-organises selected tissue features. Its measured contents determine which questions it can answer.",
+      "summary": "Organoids self-organise selected structural or functional tissue features in three-dimensional culture. Patient-derived tumour organoids are one member of this broader family, rather than complete copies of a patient. Establishment and growth conditions select cells, and identity and relevant properties need checking against the source specimen. Conventional epithelial cultures often omit immune and supporting populations; specialised retention or added co-cultures require method-specific evidence. Their use for mechanism and drug-response experiments does not by itself establish clinical utility.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Organoid",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Organoid"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/"
+        },
+        {
+          "label": "Organoid establishment and identity",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10598932/"
+        },
+        {
+          "label": "Dijkstra tumour identity and overgrowth checks",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/"
+        },
+        {
+          "label": "Sachs et al. 2018: breast-cancer organoid biobank",
+          "url": "https://doi.org/10.1016/j.cell.2017.11.010"
+        },
+        {
+          "label": "Geyer et al. 2023: oxygen and treatment response in PDAC organoids",
+          "url": "https://doi.org/10.1038/s41420-023-01334-z"
+        },
+        {
+          "label": "DeStefanis et al. 2022: baseline size and organoid response assessment",
+          "url": "https://doi.org/10.1038/s41598-022-08937-z"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cell-line",
+        "in-vitro-in-vivo",
+        "preclinical",
+        "model-organism",
+        "hub-organoids"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "organoids",
+        "functional-drug-testing",
+        "pdx-models"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model and assay card. Starting material may be normal tissue, tumour or stem-cell-derived material; retain its source and viable preservation method. Record malignant identity against the specimen, selected or lost populations, matrix/medium, passage and experimental window. Derivation, quality checks, expansion and testing use finite tissue and culture material. A destructive stain or lysate assay consumes its tested aliquot; recovery in another assay is method-specific. No universal specimen amount or organoid-response threshold follows from the name.",
+        "Failure and inference checks. Establishment can fail, normal epithelial cells can overgrow malignant cells, and culture conditions can select branches. Verify tumour identity rather than infer it from growth. Output belongs to the chosen assay: attributed cell counts, death-marker fraction or molecular signal, with units, time and normalisation. Check viability, composition, exposure and controls. A three-dimensional spheroid need not show tissue-like self-organisation, and specialised immune retention does not apply to all cultures. Sources: https://pubmed.ncbi.nlm.nih.gov/30550791/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10598932/ Dijkstra explicitly checked tumour identity to exclude healthy-lung organoid overgrowth: https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/",
+        "Size, matrix, oxygen supply and exposure duration belong in the experiment record because they define conditions for delivery, cell state and the readout. As a bounded example, Geyer's pancreatic organoid study found treatment-response differences between normoxia and hypoxia in specified monocultures and co-cultures. Treat size as a geometry and exposure-control question rather than assume equal supply across differently sized structures. Source: https://doi.org/10.1038/s41420-023-01334-z",
+        "DeStefanis and colleagues tracked nearly 3,500 individual mouse-derived colon-cancer organoids. In that model, organoids at or above a change point of about 308 micrometres at baseline grew more slowly, and individual-organoid tracking was reported to be more sensitive to treatment response than well-level assessment, which averages the whole population in a well. In their 1,740 patient-derived organoids (22 lines, 19 patients) they found no relation between baseline size and growth (R squared 0.023) and no change point in any line. These are findings of one study and model, not a universal size threshold. Source: https://doi.org/10.1038/s41598-022-08937-z",
+        "Fictional reading exercise. An epithelial organoid loses T cells and has lower metabolic signal after treatment. The signal does not establish immune-mediated killing. Adding immune cells creates a new experiment needing identity, persistence and specificity controls. The model can support a direct tumour-cell question while leaving host exposure, organ toxicity and patient benefit untested.",
+        "The word organoid establishes no regulatory status or clinical authorisation. Sachs's breast-cancer biobank generated characterised lines and reported retention of many source features during extended passaging; that supports a particular culture resource, not every preparation or personal treatment prediction. Source: https://doi.org/10.1016/j.cell.2017.11.010"
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "organoids",
+      "kind": "technology",
+      "name": "Patient-derived organoids",
+      "aka": [],
+      "tldr": "Patient-derived tumour organoids are cultures that self-organise selected tissue features and support defined laboratory experiments.",
+      "summary": "Patient-derived tumour organoids are cultures established from a patient's tumour tissue that can be expanded for repeated laboratory experiments when establishment succeeds. They are one member of the broader organoid family defined on the organoid record; establishment selects cells, malignant identity must be checked against the source specimen, and conventional epithelial cultures usually lack immune and supporting populations. Mechanism and drug-response results from them do not by themselves establish clinical utility.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Organoid",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Organoid"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/"
+        },
+        {
+          "label": "Organoid establishment and identity",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10598932/"
+        },
+        {
+          "label": "Dijkstra tumour identity and overgrowth checks",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/"
+        },
+        {
+          "label": "Organoid definition, composition and measurement boundaries",
+          "url": "https://onco.cc/terms/organoid/"
+        },
+        {
+          "label": "Sachs et al. 2018: breast organoid biobank",
+          "url": "https://doi.org/10.1016/j.cell.2017.11.010"
+        },
+        {
+          "label": "Bertotti et al. 2011: xenopatient HER2 study",
+          "url": "https://doi.org/10.1158/2159-8290.CD-11-0109"
+        },
+        {
+          "label": "Calon et al. 2015: stromal cross-talk study",
+          "url": "https://doi.org/10.1038/ng.3225"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "immune-tumour-coculture-models",
+        "tumour-spheroid-models"
+      ],
+      "cancers": [
+        "colorectal"
+      ],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "known-medicine",
+        "zpredicta",
+        "kernis-health",
+        "specicare",
+        "kiyatec",
+        "sagemedic",
+        "2curex",
+        "orakl-oncology",
+        "oncosyne",
+        "signet-therapeutics",
+        "aummune",
+        "cellesce"
+      ],
+      "institutions": [
+        "cure-first"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct06227065",
+        "nct05725200"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-sato-lgr5-organoids-nature-2009",
+        "paper-bertotti-xenopatients-her2-cetuximab-resistant-colorectal-cancer-discov-2011",
+        "paper-calon-stromal-gene-expression-poor-prognosis-colorectal-nat-genet-2015"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Patient-derived organoids can provide expandable material for repeated experiments when establishment succeeds. They are one part of the broader organoid family. The organoid definition holds the shared construction, consumption, quality-control and readout explanation; the technology record concerns their use as a research resource. A successful culture still needs malignant-cell identity and intended-use checks. Sources: https://doi.org/10.1016/j.cell.2017.11.010 ; https://doi.org/10.1016/j.cell.2018.11.021",
+        "Colorectal cancer: Bertotti and colleagues used xenografts from 85 metastatic colorectal cancer samples and found HER2 amplification in a subset of cetuximab-resistant cases (2011). The abstract describes xenografts, not organoids, and does not establish priority before every clinical trial. Calon and colleagues reported that TGF-beta signalling inhibitors blocked cancer-microenvironment cross-talk and halted disease progression in patient-derived organoid and xenograft experiments (2015). Sources: https://doi.org/10.1158/2159-8290.CD-11-0109 ; https://doi.org/10.1038/ng.3225"
+      ],
+      "principle": "Culture viable source cells in a specified environment, then verify the selected tissue features and assay response.",
+      "strengths": [
+        "Material for repeated controlled experiments when establishment succeeds",
+        "Can represent selected source-tumour features"
+      ],
+      "limitations": [
+        "Selection, normal-cell overgrowth and culture changes require checks",
+        "Conventional preparations do not recreate complete host physiology",
+        "Patient prediction and clinical utility need intended-use evidence"
+      ]
+    },
+    {
+      "id": "pdx-models",
+      "kind": "technology",
+      "name": "Patient-derived xenografts",
+      "aka": [],
+      "tldr": "A patient-derived xenograft is patient tumour material grown in another species, commonly a mouse, for experiments under whole-animal exposure.",
+      "summary": "A patient-derived xenograft starts with patient tumour material implanted into another species, commonly an immunodeficient mouse. It can retain relevant tumour features within a different host, while engraftment selects populations and mouse-derived support can replace human stroma and vessels. Whole-animal dosing includes mouse exposure and metabolism, not human physiology. Humanised models add selected components whose identity, compatibility and persistence need checking. Fidelity and patient prediction are question- and method-specific.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Patient_derived_xenograft",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Patient_derived_xenograft"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/"
+        },
+        {
+          "label": "PDX review: timing and selection",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/"
+        },
+        {
+          "label": "PDX establishment and response series",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5834154/"
+        },
+        {
+          "label": "Copy-number conservation and method",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7808565/"
+        },
+        {
+          "label": "NCI Patient-Derived Models Repository: identity and quality",
+          "url": "https://dctd.cancer.gov/drug-discovery-development/reagents-materials/pdmr/models"
+        },
+        {
+          "label": "Yang et al. 2026: specialised humanised immune-stroma model",
+          "url": "https://doi.org/10.1007/s00262-026-04349-4"
+        },
+        {
+          "label": "Ben-David et al. 2017: PDX evolution",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28991255/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "genetically-engineered-mouse-models",
+        "humanised-mouse-models"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "certis-oncology-solutions"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Timing and denominators. Hidalgo's 2014 review described four to eight months to a study-ready model; it is a historical review estimate, not a laboratory guarantee. Izumchenko's series reported 578 successful grafts from 1,163 implanted specimens, described as 49 percent, and a mean 16 weeks from engraftment to drug exposure, with substantial variation. That clock is not the whole biopsy-to-decision interval. Keep submitted, established and interpretable donor models separate. Arithmetic check by OnCo: 578 divided by 1,163 is approximately 49.7 percent; the paper itself states 49 percent. Retain the counts and distinguish the reported percentage from this calculation. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5834154/",
+        "Fidelity is measured, not assumed. Record histology, lineage and relevant molecular features against the source, host strain, site and passage, and species assignment for the mechanism. Ben-David reported mouse-specific copy-number evolution in studied datasets; Woo's direct-DNA analyses reported conservation and showed that measurement method matters. Neither establishes perfect preservation nor inevitable complete divergence for every model. Sources: https://pubmed.ncbi.nlm.nih.gov/28991255/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC7808565/ Engraftment is establishment of growth after implantation; passage transfers an established graft to another host. Reduced growth relative to a control is different from regression below a stated starting burden. Matching molecular features does not validate every drug prediction.",
+        "Assay card. Viable material, establishment, passage and animal experiments consume finite material. Report burden or volume with units, baseline and observation clock, exposure and comparator animals, and donor versus animal counts. Failed engraftment and excluded experiments remain visible. Human-specific binding to tumour cells does not establish activity on mouse stromal targets. A graft tested later in a dish has a different experimental setting. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/",
+        "A fictional example separates denominators: ten donor specimens are submitted, four establish grafts, three yield an interpretable drug experiment and two meet its response criterion. Establishment is 4/10; response among interpretable donor models is 2/3, not a patient-response rate. A human-specific antibody binding a retained tumour receptor also does not establish binding to mouse-derived vessel targets required by a proposed mechanism.",
+        "NCI's model repository uses lineage identity, pathology and human/mouse-content checks and notes that some models evolve with passage. Its procedures and material types are repository-specific. Yang's 2026 primary abstract describes adding patient-derived tumour and mesenchymal cells, human endothelial cells and humanised marrow to a specialised immune-stroma PDX. This is evidence for a defined added-component model, not complete reconstruction of human immunity. Sources: https://dctd.cancer.gov/drug-discovery-development/reagents-materials/pdmr/models ; https://doi.org/10.1007/s00262-026-04349-4"
+      ],
+      "principle": "Establish a graft, characterise source and host compartments, then compare a defined intervention using an explicit growth endpoint.",
+      "strengths": [
+        "Tumour experiments under whole-animal exposure",
+        "Can assess selected source-tumour features over time"
+      ],
+      "limitations": [
+        "Engraftment can fail and favours some tumours: Hidalgo describes a general impression that more aggressive tumours engraft more often (for example hormone-receptor-negative more than hormone-sensitive breast tumours), so collections can over-represent them; take rate varies by tumour type",
+        "Mouse support, metabolism and immunity differ from human care",
+        "Establishment and testing can take months"
+      ]
+    },
+    {
+      "id": "model-organism",
+      "kind": "term",
+      "name": "Model organism",
+      "aka": [
+        "model organisms",
+        "mouse model",
+        "mouse models",
+        "mice",
+        "in mice",
+        "murine",
+        "animal model",
+        "xenograft",
+        "xenografts",
+        "patient-derived xenograft",
+        "patient-derived xenografts",
+        "PDX",
+        "genetically engineered mouse",
+        "GEMM",
+        "GEMMs",
+        "humanised mice",
+        "humanized mice",
+        "zebrafish",
+        "fruit fly",
+        "Drosophila",
+        "yeast",
+        "C. elegans"
+      ],
+      "tldr": "A model organism lets researchers study selected biological questions in a living species. Its relevance depends on the question and measured features.",
+      "summary": "Cancer studies use multiple host designs, including immunodeficient hosts carrying human tumour material, engineered animals and models with selected human components. These retain different immune and stromal environments. Host strain, implantation site, species-reactivity and exposure therefore belong with the result. Animal experiments do not by themselves establish human safety or benefit.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Model_organism",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Model_organism"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/"
+        },
+        {
+          "label": "PDX host-design limits",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "preclinical",
+        "in-vitro-in-vivo",
+        "cell-line",
+        "organoid"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "pdx-models"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model card. Record source, host, site, human and animal compartments, relevant feature checks, intervention, exposure, endpoint units and clock, comparator animals, independent donor and animal counts, failures and intended inference. Added human components need compatibility and persistence evidence; no single label guarantees complete human immunity. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/ Dosing a living host and later exposing removed cells in a dish are separate experiments; specimen history does not determine the setting of the later assay."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "tumour-spheroid-models",
+      "kind": "technology",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture)",
+      "aka": [
+        "multicellular tumour spheroids",
+        "multicellular tumor spheroids",
+        "MCTS",
+        "spheroid models",
+        "hanging-drop spheroids",
+        "ultra-low-attachment spheroids",
+        "3D spheroid culture"
+      ],
+      "tldr": "Tumour spheroids are three-dimensional cell aggregates used for defined laboratory experiments; their preparation and composition must be documented.",
+      "summary": "Kelm and colleagues generated spheroids in hanging drops across several cell lines. In HepG2 cultures they reported a narrower size distribution than growth on non-adherent surfaces: coefficients of variation of 10 to 15 percent versus 40 to 60 percent. They observed organised tissue-like structures in HepG2 and MCF-7 spheroids. A spheroid is not automatically an organoid with selected tissue organisation, and geometry alone does not establish an immune compartment.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Sutherland, McCredie and Inch 1971, Journal of the National Cancer Institute: growth of multicell spheroids in tissue culture as a model of nodular carcinomas",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/5101993/"
+        },
+        {
+          "label": "Kelm et al. 2003, Biotechnology and Bioengineering: hanging-drop generation of homogeneous multicellular tumour spheroids",
+          "url": "https://doi.org/10.1002/bit.10655"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/"
+        },
+        {
+          "label": "Organotypic spheroid composition and method",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "organoids",
+        "cancer-cell-line-encyclopedias",
+        "tumour-on-chip"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "insphero"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "organoid"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay card. Record cell origin, viable input and consumption, composition, size distribution, preparation, exposure duration, measured endpoint and units, controls and independent donors. Check baseline viability, transport and population attribution rather than infer them from shape. No universal size or response cutoff validates a clinical prediction. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/ A growth or metabolic change alone is not a tumour-cell death measurement. Neither a shape nor a method label validates prediction for patients."
+      ],
+      "principle": "Create and characterise a three-dimensional aggregate, then apply a defined assay and compare controls.",
+      "strengths": [
+        "Supports defined experiments using characterised three-dimensional aggregates"
+      ],
+      "limitations": [
+        "Size, composition and preparation affect results",
+        "Immune and stromal function require direct checks",
+        "Growth or proxy change alone does not establish killing or patient prediction"
+      ],
+      "since": 1971
+    },
+    {
+      "id": "ex-vivo-tumour-fragments",
+      "kind": "technology",
+      "name": "Ex vivo tumour fragments and slices",
+      "aka": [],
+      "tldr": "Living tumour pieces can retain local cells and architecture for a defined experiment outside the body, while losing circulating supply and recruitment.",
+      "summary": "Fragment and slice preparations retain selected native tissue relationships rather than expanding a selected culture. Composition and function change with sampling, cutting, diffusion, medium and time. A retained vessel does not demonstrate perfusion, and visible immune cells do not establish the required interaction. Ladan's breast-slice assay and Salmon's human lung-slice migration experiments support different questions; neither validates every fragment test or treatment decision.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Ladan et al. 2023 primary slice assay",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/"
+        },
+        {
+          "label": "Salmon et al. 2012 primary lung-tissue interaction",
+          "url": "https://doi.org/10.1172/jci45817"
+        },
+        {
+          "label": "Hafner et al. 2016: readout interpretation, not fragment validation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Preparation and assay card. Input: suitable viable tissue with donor/site/time, collection and transport conditions, dimensions and culture window. Cutting, quality checks and endpoints consume finite material and limit available conditions. Compare baseline quality and untreated or carrier controls with defined exposures. Attribute counts, stain fractions, movement or metabolic signal to the relevant cells, with units, time and denominator. Thresholds are method-specific rather than a universal fragment score. Fragment names the preparation; a drug screen names an experiment it may support. Different pieces from one tumour can contain different populations, so matched treatments still need composition checks.",
+        "Primary preparation example. Ladan used 300 micrometre slices and three-day exposure in a defined anthracycline-based assay, measuring morphology, proliferation and apoptosis. Diffusion into slices differs from vascular delivery; host metabolic activation, clearance, organ toxicity and new immune recruitment were not recreated. Preparation injury, poor viability, uneven diffusion, changing populations and non-tumour signal can invalidate interpretation. A failed culture is not evidence of clinical resistance. Contamination is another reason for assay failure; short-term response does not establish durable elimination, systemic safety or benefit.",
+        "Endpoint and validation example. Ladan reported 23 usable assays among 30 tumour-containing biopsies; three of the 23 did not proceed to the clinical treatment comparison, leaving 20 evaluable patients and 15 concordant MRI comparisons. The agreement compared sensitive, intermediate and resistant categories after four courses of anthracycline-containing chemotherapy; it is not a binary drug-killing rate. The study did not observe an ex vivo resistant group, limiting assessment of resistance detection. Those denominators, assay version and preoperative setting cannot validate another postoperative choice. Salmon measured matrix-associated T-cell location and movement in viable lung-tumour slices, not treatment-selection benefit.",
+        "Fictional reading exercise. Two fragments with different starting malignant-cell fractions both lose total metabolic signal. Equal tumour killing has not been shown. Verify composition and an attributed death endpoint against controls. Retained neighbours can be useful for an immune question only when their viability and relevant function are demonstrated."
+      ],
+      "principle": "Maintain viable tissue pieces for a defined comparison while measuring retained populations, quality and an attributed response.",
+      "strengths": [],
+      "limitations": []
+    },
+    {
+      "id": "functional-model-selection",
+      "kind": "term",
+      "name": "Comparing tumour-model preparations",
+      "aka": [],
+      "tldr": "Choose a preparation by the biology and time the question requires, then verify its actual components and endpoint.",
+      "summary": "Conventional xenografts, epithelial organoids and short-term fragments make different trade-offs. Xenografts add a living host with mouse support and exposure. Organoids expand selected populations in supplied culture conditions. Fragments can retain local neighbours briefly without perfused circulation. This comparison describes preparations and decision windows; the existing model-context framework owns the broader question of intended-use validation.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "PDX review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/"
+        },
+        {
+          "label": "PDX primary denominators and response definitions",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5834154/"
+        },
+        {
+          "label": "Cartry colorectal organoids",
+          "url": "https://doi.org/10.1186/s13046-023-02853-4"
+        },
+        {
+          "label": "Boileve pancreatic organoids",
+          "url": "https://doi.org/10.1053/j.gastro.2024.05.032"
+        },
+        {
+          "label": "Ladan breast slices",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/"
+        },
+        {
+          "label": "Vlachogiannis gastrointestinal organoids",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6112415/"
+        },
+        {
+          "label": "Voabil et al. 2021: tumour fragments and PD-1 blockade",
+          "url": "https://doi.org/10.1038/s41591-021-01398-3"
+        },
+        {
+          "label": "Sachs et al. 2018: long-term breast organoid culture",
+          "url": "https://doi.org/10.1016/j.cell.2017.11.010"
+        },
+        {
+          "label": "Neal et al. 2018: specialised immune-containing organoids",
+          "url": "https://doi.org/10.1016/j.cell.2018.11.021"
+        },
+        {
+          "label": "DeRose et al. 2011: graft species compartments",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3553601/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "pdx-models",
+        "organoids",
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A conventional xenograft implants viable tumour material into a host; an epithelial organoid grows selected cells in supplied matrix and medium; a fragment or slice retains a cut piece of local tissue. Ladan used 300 micrometre (0.3 millimetre) breast slices. None supplies complete human drug metabolism, healthy-organ toxicity or recruitment of new immune cells from human circulation, and every preparation can fail. Fixed archival tissue cannot supply the living input. Whether frozen material is usable must be shown for the particular protocol; Ladan's assay used fresh tissue.",
+        "Throughput and repetition depend on how material can be expanded. A xenograft can be passaged into further mice, but each drug comparison needs suitable animals and controls. An established organoid line can be expanded and passaged to compare a drug panel; Sachs reported retention of many source features during extended passaging, not unlimited fidelity. A cut piece has a finite culture window and a limited number of matched conditions; it cannot simply be expanded while retaining the same original neighbourhood. Ladan's group described viability for up to a week. These are practical preparation contrasts, not a universal numerical throughput ranking or an assumption that every organoid survives freezing. Sources: https://doi.org/10.1016/j.cell.2017.11.010 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+        "The useful trade-off is preserved biology against time and repeatability. A characterised PDX supports growth under whole-animal dosing, usually on a months-long establishment clock. Expanded organoids support repeated direct tumour-cell experiments and panels, often over weeks; conventional epithelial cultures usually lack immune cells, while Neal's specialised method retained them. A short-term fragment may preserve resident neighbours for a local-interaction question over days, but their function must be demonstrated. No preparation is universally more predictive because it is more complex. Sources: https://doi.org/10.1016/j.cell.2018.11.021 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC4167608/",
+        "The clocks and take rates below belong to different studies. Hidalgo's review described four to eight months to a study-ready PDX. Izumchenko reported 578/1,163 establishment and mean 16 weeks from engraftment to drug exposure, with tumour-type variation: 85 percent in colorectal specimens and 30 percent in breast specimens in that series. Cartry reported a 61.5 percent core-biopsy take rate and six-week median, range four to ten weeks, to a 25-drug colorectal organoid panel. Boileve reported 54/87 establishment (62 percent) and mean 6.8 weeks to a pancreatic chemogram. Ladan used three-day exposures and stated that results can be known in seven to fourteen days; this is a planned window, not an observed turnaround distribution. There were 23/30 usable tests from tumour-containing biopsies. The PDX paper reports 49 percent for 578/1,163; direct count arithmetic is approximately 49.7 percent.",
+        "Ladan's breast-slice pilot found 15/20 category matches (75 percent; reported confidence interval 53 to 89 percent), against a pre-set target of at least 55 percent, between the ex vivo anthracycline assay and MRI response after four courses of anthracycline-containing treatment. Both systems used sensitive, intermediate and resistant categories, and neither observed a resistant tumour. Of five disagreements, three were ex vivo sensitive with intermediate MRI response and two the reverse. Among the 23 successful laboratory tests, six were sensitive and 17 intermediate; among the 20 MRI comparisons, four were sensitive and 16 intermediate. This leaves resistance detection untested rather than established. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+        "Other agreement measures answer different questions. Vlachogiannis reported 88 percent positive and 100 percent negative predictive values in 21 drug-response comparisons in heavily pretreated gastrointestinal cancers. Boileve reported 83.3 percent sensitivity and 92.9 percent specificity in 34 evaluable pretreated pancreatic patients. Izumchenko compared 129 treatments across 92 patients: 112/129 agreement grouped stable disease with partial and complete responses, while exact-category agreement was 91/129. These endpoints and selected denominators cannot be ranked as head-to-head accuracy or taken as proof that model-guided care improves survival.",
+        "Voabil's primary abstract reports that immune-cell reactivation after ex vivo PD-1 blockade in patient-derived tumour fragments predicted clinical response in that study, with perturbation analyses identifying tumour-resident T cells as a key component. This supports a scoped fragment/immune-interaction example, not evidence that choosing treatment from a fragment test improves outcomes. A near-term decision may rule out establishing a new conventional PDX, but does not guarantee a usable fragment; immune presence, movement, recognition and killing remain distinct measurements. Source: https://doi.org/10.1038/s41591-021-01398-3",
+        "Dijkstra's colorectal and lung organoid study used master and working biobanks, cryopreserved cultures and experiments below passage 30. That demonstrates a specified bank-and-recovery workflow for those established organoid cultures. It does not show that every organoid line or fresh tumour fragment can be frozen, recovered and retested with unchanged properties. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6558289/"
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "single-cell-mass-assays",
+      "kind": "technology",
+      "name": "Single-cell mass and growth-rate assays",
+      "aka": [],
+      "tldr": "Repeated calibrated mass measurements can estimate a cell's growth rate; slower mass accumulation does not by itself show cell death.",
+      "summary": "A suspended microchannel resonator weighs a cell relative to the fluid it displaces using the shift in a vibrating beam's frequency. Buoyant mass equals cell volume multiplied by the difference between cell and fluid density. It is not simply diameter or dry mass. Repeatedly measuring the same cell estimates mass accumulation rate; Godin reversed the flow to reintroduce the same cell to the sensor (a dynamic trap) and Cermak used serial sensors along one channel. Stevens investigated drug-response associations in specified cancer models and leukaemia samples, rather than universal clinical prediction.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Godin et al. 2010 buoyant-mass measurement",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2862099/"
+        },
+        {
+          "label": "Cermak et al. 2016 serial sensors and tracking",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5064867/"
+        },
+        {
+          "label": "Stevens et al. 2016 defined drug-response experiments",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5142231/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "drug-discovery",
+        "diagnostics"
+      ],
+      "technologies": [
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay card. Input: viable cells compatible with suspension and channel handling. Record source, identity, preparation losses, fluid and temperature conditions, exposure and observation interval. Calibration maps frequency shifts to mass, often picograms. Tracking repeated readings estimates a slope, often picograms per hour; mass-normalised rates have inverse-time units. Preparation and exposure consume finite material; the physical measurement can preserve cells, but recovery and downstream compatibility depend on the method.",
+        "Quality and inference. Check clumps, cell attribution, instrument drift, calibration, tracking ambiguity and sufficient linked readings. Serial-sensor analyses exclude uncertain matches rather than invent a trajectory. Fluid-density changes can change buoyant mass. A small positive slope still indicates accumulation in the observed interval; later recovery, death and resistance need additional endpoints and time. Many measured cells from one specimen are not many independent patients. No universal rate cutoff establishes clinical sensitivity or immune recognition. Buoyant mass is also not a count of cell divisions. Physical measurement performance, a reproducible drug-response association and validated use for a clinical decision are separate kinds of evidence. Without extra measurements or assumptions, this sensor does not establish dry mass, a death mechanism, immune specificity or patient benefit.",
+        "Fictional arithmetic. A tracked cell rising from 10 to 12 picograms over one hour has a slope of 2 picograms per hour. Comparable groups at 2 and 0.5 picograms per hour differ by (2 minus 0.5) divided by 2, or 75 percent. Both rates are positive. This is a rate reduction, not shrinkage, a killed-cell fraction or patient response. These values are invented.",
+        "The positive research use is a rapid physical response readout and a view of cell-to-cell variation that a population average can conceal. Stevens measured short-term mass accumulation in specified cancer models and leukaemia samples; this can precede a large endpoint-count change, while slower accumulation can occur in living cells. A mixed specimen still requires attribution to the relevant population, and a mass sensor does not supply immune cells or recognition. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC5142231/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5064867/"
+      ],
+      "principle": "Calibrate a frequency shift to buoyant mass and track repeated readings from the same cell to estimate mass accumulation rate.",
+      "strengths": [],
+      "limitations": []
+    },
+    {
+      "id": "tumour-on-chip",
+      "kind": "technology",
+      "name": "Tumour-on-a-chip",
+      "aka": [],
+      "tldr": "A tumour-on-chip is an engineered culture device for studying selected tumour interactions under specified physical and biological conditions.",
+      "summary": "Chip devices can control selected cells, matrix, interfaces, transport or mechanical conditions. Their composition varies: channels do not automatically supply endothelium or immune cells. Huh's lung model separated alveolar and vascular compartments and imposed mechanical strain; Hassell studied lung cancer in defined engineered environments. Jenkins placed immune-containing organotypic spheroids in a collagen microfluidic compartment. These are capabilities of particular systems, not universal chip properties or validation for personal treatment selection.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Organ-on-a-chip",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Organ-on-a-chip"
+        },
+        {
+          "label": "Functional model interpretation: primary evidence",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/"
+        },
+        {
+          "label": "Primary lung-chip geometry",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8335790/"
+        },
+        {
+          "label": "Hassell et al. 2017: physical cues in lung cancer chips",
+          "url": "https://doi.org/10.1016/j.celrep.2017.09.043"
+        },
+        {
+          "label": "Huh et al. 2010: primary lung-chip study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20576885/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bioprinting"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "organoids",
+        "pdx-models"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "mimetas"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Geometry and exposure. A porous interface, a perfused channel and a tissue compartment are separate features. In Huh's design, a membrane separated epithelial and endothelial layers and vacuum channels imposed deformation. Jenkins used collagen containing spheroids in a central channel. These geometries must not be silently interchanged. A fictional one-micromolar inlet illustrates a reading rule: concentration at an inlet is not a measurement at each cell. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC8335790/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/ One micromolar means one micromole per litre; it is the nominal inlet value in this example, not a measured cellular exposure.",
+        "Model and assay card. Record viable cell/tissue sources, matrix, channel geometry, material, flow or exchange conditions, barrier performance, loading losses and quality window. Preparation, loading and endpoint assays use finite material. Report the actual endpoint and units: attributed counts or death, permeability, cytokine concentration or motion, with time and denominator. Verify initial composition, baseline survival and local exposure; incompatible materials, unequal delivery and poor barriers can confound results. Device and assay acceptance criteria are method-specific. A chip may combine bioprinting, organoids or co-culture without recreating complete circulation. Microfluidics controls fluid in small channels. Perfusion supplies fluid through a system; it does not itself recreate human circulation or prove a functional vascular lining. Immune cells, if present, still need recognition and attribution controls. A tumour-on-chip is a living experimental device, whereas an in-silico model computes predictions. A device without the required immune cells cannot test their checkpoint interaction. Cells can alter the engineered environment, so both the design and its measured biological state matter; added detail alone does not establish better prediction.",
+        "In Hassell's defined lung-cancer chip systems, breathing-related physical cues affected growth, invasion and responses to tyrosine kinase inhibitors. This is a context-dependent experimental finding, not a claim that every chip reproduces a whole organ or predicts all cancers. Jenkins described spheroids retaining autologous immune and stromal components in a collagen channel, with components and windows tied to that protocol. Sources: https://doi.org/10.1016/j.celrep.2017.09.043 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5809290/"
+      ],
+      "principle": "Characterise the chosen geometry, components and conditions, then measure the response with matched controls.",
+      "strengths": [
+        "Control over selected physical and biological interactions",
+        "Can examine transport or mechanical effects in a defined setting"
+      ],
+      "limitations": [
+        "Geometry, composition and exposure require measurement",
+        "Material and delivery effects can confound biological interpretation",
+        "Does not reproduce whole-body physiology or establish clinical utility"
+      ]
+    },
+    {
+      "id": "in-vitro-in-vivo",
+      "kind": "term",
+      "name": "In vitro and in vivo",
+      "aka": [
+        "in vitro",
+        "in vivo",
+        "in-vitro",
+        "in-vivo",
+        "ex vivo",
+        "ex-vivo",
+        "in silico",
+        "in the dish",
+        "in a dish",
+        "test tube",
+        "in the laboratory",
+        "laboratory studies",
+        "lab studies",
+        "in animals",
+        "animal studies",
+        "animal models",
+        "animal study"
+      ],
+      "tldr": "Experimental settings describe where and how a test occurs: laboratory culture, removed living material, a living organism or a computational model.",
+      "summary": "In vitro and ex vivo describe work outside the original organism, with terminology varying by preparation and expansion. In vivo refers to work within a living organism, including animals and people; in silico refers to computation. Each setting includes different components and omits others. The label does not establish a universal ranking, human safety or treatment benefit.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/In_vitro",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/In_vitro"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ex-vivo"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://www.fda.gov/files/newsroom/published/roadmap_to_reducing_animal_testing_in_preclinical_safety_studies.pdf"
+        },
+        {
+          "label": "What exactly is 'N' in cell culture and animal experiments?",
+          "url": "https://doi.org/10.1371/journal.pbio.2005282"
+        },
+        {
+          "label": "FDA: context-specific nonclinical studies and new approach methodologies",
+          "url": "https://www.fda.gov/drugs/science-and-research-drugs/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "preclinical",
+        "cell-line",
+        "organoid",
+        "model-organism",
+        "clinical-trial"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "organoids",
+        "pdx-models",
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Setting comparison. In vitro describes laboratory work outside the body, including grown cells and many expanded organoid assays. Ex vivo commonly describes removed living material studied outside its original organism, often briefly with retained local structure. Authors use overlapping terminology, so inspect preparation, expansion and timing. In vivo includes experiments in animals or people; identify species and host. In silico computes a prediction from data rather than directly measuring the predicted response. These terms describe where and how the experiment occurs, not a quality ranking.",
+        "Read each omitted compartment. A tumour-only dish lacks required immune interactions unless those populations are added and shown functional. A fresh slice may retain resident neighbours while losing blood flow and recruitment from circulation. A conventional PDX adds mouse circulation, exposure and metabolism without reproducing an intact human immune system. A computational prediction depends on its data, assumptions and benchmark. Human-derived tissue can be used in both dish and animal models; do not claim that ex vivo is the only setting using human tissue. A living specimen can lose cells, adapt or undergo selection after removal; retaining a structure is not retaining complete physiology. In-vitro preparations can isolate direct effects, compare doses and drugs and support repeats, while omitting perfused blood supply, host metabolism and the original population mix unless specifically reconstructed. Latin labels such as in glass, out of the living and in the living are mnemonics for setting, not quality grades.",
+        "Primary timing examples. Ladan's breast-slice assay used three-day exposures, a stated planned result window of seven to fourteen days, not a measured turnaround distribution and 23/30 usable tests from tumour-containing biopsies. Izumchenko reported 578/1,163 established PDXs and mean 16 weeks from engraftment to exposure, not biopsy to final decision. Ahlmann-Eltze compared gene-perturbation transcriptome predictions with simple baselines; the deep-learning methods did not outperform the simple linear baselines in the tested expression-prediction tasks. This was not a measured patient drug response. None of these examples shows benefit from choosing a treatment using the model. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/ ; https://pmc.ncbi.nlm.nih.gov/articles/PMC5834154/ ; https://pubmed.ncbi.nlm.nih.gov/40759747/",
+        "Terminology scope. NCI's ex vivo dictionary entry describes removal, treatment and return of cells or tissue to the body. That return step distinguishes cell-engineering procedures from laboratory drug testing where the tested sample is not returned. Dosing an animal and later treating removed graft cells in a dish are different experiments. Source: https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ex-vivo",
+        "Regulatory scope. FDA's roadmap to reduce animal testing concerns preclinical safety development, initially focusing on monoclonal antibodies and considering human-based laboratory and computational methods. It is not approval of every organ chip or a recommendation for personal treatment selection. Source: https://www.fda.gov/files/newsroom/published/roadmap_to_reducing_animal_testing_in_preclinical_safety_studies.pdf Decision time limits which preparation is usable: establishing a new conventional PDX generally will not fit a decision due in three weeks, while a characterised short-term assay might fit but can still fail. A treatment needing liver activation also needs the relevant metabolic setting represented; a fresh slice alone omits it. Computation can rank hypotheses without growing a model, but a universal fastest or cheapest claim is not established by the setting label.",
+        "Fictional reading exercise. Compare a graft dosed in a mouse, a fresh human slice exposed outside the body and a computed sensitivity prediction. Identify actual measurement versus prediction, host, retained cells, omitted physiology and clock before drawing an inference. These settings can start from the same tumour; days, weeks or months are illustrative scales rather than guaranteed timelines. No setting is a later validation rung of another.",
+        "An experimental setting and the origin of the material are separate descriptions. Human-derived cells can be studied in vitro, briefly ex vivo or as a graft in vivo. Living-organism work includes animals and people; it does not automatically mean a human clinical trial. Preclinical intervention experiments can continue alongside human studies, so the date relative to a first human dose alone does not validate their treatment claim."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "model-context-of-use",
+      "kind": "term",
+      "name": "Context of use for a tumor model",
+      "aka": [
+        "tumor model fitness for purpose",
+        "functional model scope"
+      ],
+      "tldr": "A model needs the components required to answer its particular question. A model that works for one experiment may leave out the biology needed for another.",
+      "summary": "Tumor models differ in which cancer, stromal and immune components they retain, and those properties can change with the method. A primary organoid study preserved endogenous immune cells and examined checkpoint-blockade responses in that system. This establishes capabilities of a defined model, not a universal ability to predict clinical treatment benefit. The question, retained components, exposure, readout and comparison against relevant observations should accompany a model claim.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Organoid modeling of the tumor immune microenvironment (2018)",
+          "url": "https://doi.org/10.1016/j.cell.2018.11.021"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://www.fda.gov/media/154985/download"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cell-lines-as-proxy",
+        "cell-composition-confound",
+        "external-validation",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "organoids",
+        "pdx-models"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Question-first reading framework. Name the intervention, required cells or processes, endpoint, observation time and intended inference. Predicting a molecular change, culture growth, scan response and benefit from a treatment strategy are different questions. Trust belongs to this question and evidence, not the model name or complexity. Include the consequence of an incorrect answer when deciding how much supporting evidence the use needs.",
+        "Construction and readout. Record source and identity, retained or added populations, viable window, preparation/version and missing components. Define measured or predicted object, units, reference and uncertainty. Check relevant controls, baseline growth and population attribution. A lower count than a dividing control is not necessarily a count below the start. Reliability within a run, independent biological specimens and correctness answer different questions. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/ ; https://pubmed.ncbi.nlm.nih.gov/30550791/ Human-derived cells or tissue are not complete human physiology. Repeatability can preserve a systematic error; a measured treatment effect does not identify its mechanism without comparisons that distinguish alternative explanations.",
+        "Prediction and proposed use. Evaluate outcomes not used to build or tune a rule, retain failures, uncertainty and mismatches, and examine relevant baselines. Attach assay version, population, treatment and endpoint to agreement. Ladan's preoperative breast-slice comparison cannot validate an unrelated postoperative drug or assay. Clinical validity and benefit from using a decision strategy remain distinct; the analytical-versus-clinical-validation owner holds that distinction. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+        "Scoped computational analogy. FDA's 2023 device-simulation guidance distinguishes verification of the mathematical implementation from empirical validation with independent observations, and treats calibration as separate from validation. Its stated scope is first-principles computational models in medical-device submissions, not a blanket rule for every machine-learning system or living culture. We use the distinction as a reading framework, not a universal certification ladder. Source: https://www.fda.gov/media/154985/download",
+        "Fictional example. A tumour-only culture repeatedly responds to Drug A. This does not test an immune-dependent Drug B or prove benefit because the cells came from a patient. Check the required immune interaction, actual intervention, endpoint and independent validation. Repeatability cannot repair a mismatch between question and model. These are invented drugs and a reading exercise. Complexity is useful when it represents biology necessary for the question and remains measurable. A simpler model may isolate a mechanism, while another model is needed for an interaction absent from it. More components alone do not show better prediction.",
+        "Recap. Question, construction, measurement and controls, intended prediction and proposed use are a checklist of distinct questions rather than a mandatory sequence or trust score. State what the model is trusted to answer, the evidence supporting that use and the questions still open."
+      ],
+      "category": "Methods and models"
+    }
+  ],
+  "metadataRefreshMain": "5dca8d9d8a267a7ccf6bfa70c0213fc8363e2d3a"
+}

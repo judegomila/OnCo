@@ -1,0 +1,1570 @@
+{
+  "sources": [
+    {
+      "pmid": "29993362",
+      "doi": "10.7554/elife.31657",
+      "pmcid": "PMC6075866",
+      "title": "Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes.",
+      "firstAuthor": "Lin",
+      "year": "2018",
+      "abstractSha256": "5939ab354abed7eea2d1f8e68ce1c8d68b9cf4bfb5865d058053a9b06ec83ab7",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29993362+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-29993362.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 9990,
+        "sha256": "7c8b8dfa791b46c047dceb40012de65c8dee869172d7dda495c5ab5941ab36c7",
+        "capturedAt": "2026-11-12T19:24:32.310507+00:00"
+      }
+    },
+    {
+      "pmid": "24584193",
+      "doi": "10.1038/nmeth.2869",
+      "pmcid": null,
+      "title": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+      "firstAuthor": "Giesen",
+      "year": "2014",
+      "abstractSha256": "7fa06efdb3e0104543b647dc753011d7a1f7a3089e2a2d5b6560bd0830aee619",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24584193+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-24584193.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 9141,
+        "sha256": "b835615eba69e0025b567bf390a4fb32a6659a3b90347a226f4f0e369472d552",
+        "capturedAt": "2026-11-12T19:24:41.640431+00:00"
+      }
+    },
+    {
+      "pmid": "30193111",
+      "doi": "10.1016/j.cell.2018.08.039",
+      "pmcid": "PMC6132072",
+      "title": "A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging.",
+      "firstAuthor": "Keren",
+      "year": "2018",
+      "abstractSha256": "2244278c2adf40253c9567680a0bd1e0f5a151b640d8370e2a845ff3118a8083",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-30193111.xml",
+          "paragraphIndex": 51,
+          "textSha256": "b56415df0874c76fb3c9226d95835ceac9e990f11258bc312cfc2fa213b34917",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-30193111.xml",
+          "paragraphIndex": 52,
+          "textSha256": "69602cf2f0de536c8e2ef3374758ca169521661c459f2da4e7295000c02494b1",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30193111+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-30193111.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 12636,
+        "sha256": "cf389613071e275dcc6b1b82d1bd86026778646858fce89511ca603bc9cedaa8",
+        "capturedAt": "2026-11-12T19:24:32.316712+00:00"
+      }
+    },
+    {
+      "pmid": "32393914",
+      "doi": "10.1038/s41587-020-0472-9",
+      "pmcid": null,
+      "title": "Multiplex digital spatial profiling of proteins and RNA in fixed tissue.",
+      "firstAuthor": "Merritt",
+      "year": "2020",
+      "abstractSha256": "5ab2c3183bb266c548c89ef6389b40b2a7eb180c07a168cdf9c207ced53e693f",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32393914+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-32393914.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 9190,
+        "sha256": "43004023d610250afd8bf07412c5f09134e124bf9d933abb3dd9ccb11ff17f44",
+        "capturedAt": "2026-11-12T19:24:33.262730+00:00"
+      }
+    },
+    {
+      "pmid": "27365449",
+      "doi": "10.1126/science.aaf2403",
+      "pmcid": null,
+      "title": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics.",
+      "firstAuthor": "Ståhl",
+      "year": "2016",
+      "abstractSha256": "815db332d769e08b07950f6daa26a0e0f36801c3f37d562518647005329b3799",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27365449+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-27365449.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 12500,
+        "sha256": "f66b4980598d8247bccddb07817bbf670e85ee886f74778786e2f23fcb5390d1",
+        "capturedAt": "2026-11-12T19:24:33.321995+00:00"
+      }
+    },
+    {
+      "pmid": "25858977",
+      "doi": "10.1126/science.aaa6090",
+      "pmcid": "PMC4662681",
+      "title": "RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells.",
+      "firstAuthor": "Chen",
+      "year": "2015",
+      "abstractSha256": "acf28ba5a626f89ec82446c134719cf24fdf29425f5ed4259f9ad979ad25bbcd",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-25858977.xml",
+          "paragraphIndex": 6,
+          "textSha256": "b1eb1daf2927c1cf5ba53d845d61650d7dcd5fecdc5baf977cf82ea4be6cc372",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-25858977.xml",
+          "paragraphIndex": 40,
+          "textSha256": "159cd94ba26b68c5f8fa25618426909a341a17f59c54e6db48b1f4051e60bfdf",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25858977+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-25858977.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 7768,
+        "sha256": "45aff96e2f52e0bbded5011379e7f1ab597d9e22f8a474d2e79e48d479d098be",
+        "capturedAt": "2026-11-12T19:24:44.191229+00:00"
+      }
+    },
+    {
+      "pmid": "37608771",
+      "doi": "10.1002/path.6165",
+      "pmcid": "PMC11288334",
+      "title": "Spatial analyses of immune cell infiltration in cancer: current methods and future directions: A report of the International Immuno-Oncology Biomarker Working Group on Breast Cancer.",
+      "firstAuthor": "Page",
+      "year": "2023",
+      "abstractSha256": "070f686a11a672a5ba3cce73e8183939dd56da97b87a8012e136dbde9c678edc",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 2,
+          "textSha256": "e00da5910455fb3ea52ff8474076a3e83b8bbfb139ac5acf29c287769cfb413a",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 22,
+          "textSha256": "ba21e0f842fd0d5d7b1facd03d9e8aadb1eaa69a181e386eb08f0bcd01143990",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 23,
+          "textSha256": "80a371502ad7bfa9a1a4c8841de65bd6cbe229d7274c952e3fd9487fb3ba7efe",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 24,
+          "textSha256": "62d78104495370cdbe6fb011a6062e3af1452a6932b24d1e9cd57e726bc081fc",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 30,
+          "textSha256": "106285e1d65a24c769087a5f5ee220838fd9cb2d9ba2524a32edcfff7074e69a",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 31,
+          "textSha256": "aaa95ab0ba5b4534ae4a9d5c222cda2b6afe8e6da54390c03b65ff632324ae40",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 32,
+          "textSha256": "670fd6f50c9462f9833a4c8f6bdd15e7f6f459a5a65d355fd930561c83e98214",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-37608771.xml",
+          "paragraphIndex": 42,
+          "textSha256": "84dc33f1aa2b75c17404122bfd27c9759ff346e7adb628c12deecbb123e73e48",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37608771+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-37608771.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 53164,
+        "sha256": "f7d7ca1c86d3e3eb59ccc2e7047cac3545644146974a29d049313022085b9a7d",
+        "capturedAt": "2026-11-12T19:24:34.474407+00:00"
+      }
+    },
+    {
+      "pmid": "35449453",
+      "doi": "10.1038/s41416-022-01822-6",
+      "pmcid": "PMC9345858",
+      "title": "Prognostic significance of spatial and density analysis of T lymphocytes in colorectal cancer.",
+      "firstAuthor": "Elomaa",
+      "year": "2022",
+      "abstractSha256": "18cb194de240e03ab8fd30dbf38a0101a86c0cbadb27b3d4f598c92d1c19fcaa",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-35449453.xml",
+          "paragraphIndex": 7,
+          "textSha256": "736be0e88f15b0d5f5e4fc015c135b34df8a133b0dc752ccd188f143e88aaa35",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-35449453.xml",
+          "paragraphIndex": 10,
+          "textSha256": "b0b2adf05ba8edad72d1b1cace1af44b26afad75e44125abd00f0ff29022033c",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-35449453.xml",
+          "paragraphIndex": 17,
+          "textSha256": "4d3cf44774bff501e75b92eef47bd86723816a437a9d884e04f6fb8afc394e11",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35449453+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-35449453.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 10907,
+        "sha256": "5dad1ef613f62507bb02c3fe61e72ef1a28fcc9cf26b214d64175768e841ec6e",
+        "capturedAt": "2026-11-12T19:24:35.548602+00:00"
+      }
+    },
+    {
+      "pmid": "32002281",
+      "doi": "10.1080/2162402x.2019.1659093",
+      "pmcid": "PMC6959449",
+      "title": "Close proximity of immune and tumor cells underlies response to anti-PD-1 based therapies in metastatic melanoma patients.",
+      "firstAuthor": "Gide",
+      "year": "2020",
+      "abstractSha256": "60a3aa4e86863782fd6624976cc0069cd5868cdd6869756a336d9d7cbf5ffa2f",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32002281+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-32002281.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 11110,
+        "sha256": "066891b1877d6d463c566a82da57d21522fb5cdbddccd9dd6465558833fcabff",
+        "capturedAt": "2026-11-12T19:24:36.773280+00:00"
+      }
+    },
+    {
+      "pmid": "26395345",
+      "doi": "10.1186/s13058-015-0638-4",
+      "pmcid": "PMC4579663",
+      "title": "An ecological measure of immune-cancer colocalization as a prognostic factor for breast cancer.",
+      "firstAuthor": "Maley",
+      "year": "2015",
+      "abstractSha256": "52f58a862f92fe8d98040e9dc060b661fe34fdb6340d692a81ac97ce0193e3b9",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-26395345.xml",
+          "paragraphIndex": 3,
+          "textSha256": "2f048adc99d22dac5ef9598d10ecbee3fd3f0780c91281f158bf287afef604d5",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-26395345.xml",
+          "paragraphIndex": 4,
+          "textSha256": "40d6c982d2d216f6bab5ce6025a353041dec4d4a5b57f8e44c12230651acecf4",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26395345+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-26395345.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 9794,
+        "sha256": "f93de660b74440b128d5530e2810a9f17a5b437444143dae7d7b932399bf50a9",
+        "capturedAt": "2026-11-12T19:24:48.319730+00:00"
+      }
+    },
+    {
+      "pmid": "41091832",
+      "doi": "10.1371/journal.pmed.1004647",
+      "pmcid": "PMC12539700",
+      "title": "Prognostic significance of CD8+ T cell Spatial Biomarkers in ER+ and ER- breast cancer: A retrospective cohort study.",
+      "firstAuthor": "Walker",
+      "year": "2025",
+      "abstractSha256": "bc0c5a22ec1320aa8806953fc03bb030386b14c24a151a07d1fe2d50272c7535",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract only",
+      "targetedParagraphs": [],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41091832+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-41091832.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 13372,
+        "sha256": "65be3a9cb39519e47aa08f1d3a8759104ded84e78afbf341c6676d47f0687560",
+        "capturedAt": "2026-11-12T19:24:42.871913+00:00"
+      }
+    },
+    {
+      "pmid": "34266881",
+      "doi": "10.1136/jitc-2020-002197",
+      "pmcid": "PMC8286792",
+      "title": "Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study.",
+      "firstAuthor": "Taube",
+      "year": "2021",
+      "abstractSha256": "e2a18744d9160577f5b3ccca5dd81aecff410708ab19e04c9a7bf882fb60f3b1",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-34266881.xml",
+          "paragraphIndex": 3,
+          "textSha256": "1fb9701cdf3033bffab41e4974156b8b18eda8636ed0c87580bb54437b7027c6",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-34266881.xml",
+          "paragraphIndex": 12,
+          "textSha256": "fc4e21240f229c90c2f9377f996af9ff0a9e1f0b5a334e074818d2e3a1de8530",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-34266881.xml",
+          "paragraphIndex": 26,
+          "textSha256": "851890fce377df0be0ab557df71f8744fff09fa49a6e53270e76ea5f911dbb7a",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-34266881.xml",
+          "paragraphIndex": 27,
+          "textSha256": "fc8c1b9f660e5493c537717ff7cf17ff83ea6556ffc5374f7bf567f329552765",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34266881+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-34266881.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 11660,
+        "sha256": "f2063f93c947cb79ddaf1652a96acdf1c95acdf38b586c5716583c2debcce3e0",
+        "capturedAt": "2026-11-12T19:24:43.854700+00:00"
+      }
+    },
+    {
+      "pmid": "36669472",
+      "doi": "10.1016/j.cell.2022.12.028",
+      "pmcid": "PMC10019067",
+      "title": "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer.",
+      "firstAuthor": "Lin",
+      "year": "2023",
+      "abstractSha256": "c743b938cd257a8e43c938202c7b2d347e30a1557aeaf74cf7a3b7e988605cab",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-36669472.xml",
+          "paragraphIndex": 22,
+          "textSha256": "9094ba7081c246aba4a66b09abad4f04af25cbaa801fa561326f45a785adb0f9",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-36669472.xml",
+          "paragraphIndex": 25,
+          "textSha256": "28aab7c817e4e406b08b084a8e2c5274f3b284d747e7f1426bf4aa197693e1b9",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-36669472.xml",
+          "paragraphIndex": 35,
+          "textSha256": "cf37a85fee47b939f2dbb2e07ca88aba9affa95ea91e532539720873fafdee4d",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-36669472.xml",
+          "paragraphIndex": 36,
+          "textSha256": "61bfd0ead7182e26161b412ac18991fdb2824ae137a7b4ef2ee1d0b88695c7ff",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36669472+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-36669472.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 10237,
+        "sha256": "455f8fbdc29d0b50dfbec5ee1647145e9a3262cf34773cc62e4e5d7b7cb3d918",
+        "capturedAt": "2026-11-12T19:24:44.872523+00:00"
+      }
+    },
+    {
+      "pmid": "32763154",
+      "doi": "10.1016/j.cell.2020.07.005",
+      "pmcid": "PMC7479520",
+      "title": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front.",
+      "firstAuthor": "Schürch",
+      "year": "2020",
+      "abstractSha256": "26e36499abfc5b299d311db56e081ae8effafbc42aee5f36913cd797aa3bf037",
+      "abstractReadInFull": true,
+      "readingDepth": "complete abstract and targeted full-text paragraphs",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-32763154.xml",
+          "paragraphIndex": 46,
+          "textSha256": "4a79b3a30d2347e08d8471b5abbc565262b6d3448d498f05d3a46d266713c31b",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        },
+        {
+          "captureFile": "raw/pmc-32763154.xml",
+          "paragraphIndex": 156,
+          "textSha256": "ce06c47f59c181a9692f6f9568ed0248587df811f48a58f894b0942c05f14f25",
+          "readingDepth": "complete targeted paragraph, not end-to-end paper"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32763154+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-32763154.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 16671,
+        "sha256": "500eab1ef29636a8480ade9016ef5dfe82f6eeb483e86c44a396a077744d6edc",
+        "capturedAt": "2026-11-12T19:31:08.824564+00:00"
+      }
+    },
+    {
+      "pmid": "33125896",
+      "doi": "10.1016/j.cell.2020.10.021",
+      "pmcid": "PMC7658307",
+      "title": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front.",
+      "firstAuthor": "Schürch",
+      "year": "2020",
+      "abstractSha256": null,
+      "abstractReadInFull": false,
+      "readingDepth": "complete correction body; no abstract exists",
+      "targetedParagraphs": [
+        {
+          "captureFile": "raw/pmc-33125896.xml",
+          "paragraphIndex": 0,
+          "textSha256": "a93a304939997e5bc4f10a3768f4607f4f40096f6fd0d90e652167d6c68025e0",
+          "readingDepth": "complete correction body"
+        },
+        {
+          "captureFile": "raw/pmc-33125896.xml",
+          "paragraphIndex": 1,
+          "textSha256": "eb4abacad1c5a01f91b15e3e266e694f0b73e0c1df02d4f87ed14b7d039e8743",
+          "readingDepth": "complete correction body"
+        }
+      ],
+      "registryCapture": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33125896+AND+SRC%3AMED&resultType=core&format=json",
+        "file": "raw/epmc-33125896.json",
+        "httpStatus": 200,
+        "exitCode": 0,
+        "bytes": 3890,
+        "sha256": "626745ce0cc76f21c233239f7365b463a0336662fa16c685577d128ecacfa45c",
+        "capturedAt": "2026-11-12T19:31:15.646522+00:00"
+      }
+    }
+  ],
+  "identityChecks": [
+    {
+      "pmid": "29993362",
+      "doi": "10.7554/elife.31657",
+      "epmcTitle": "Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes.",
+      "crossrefTitle": "Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Lin",
+      "crossrefFirstAuthor": "Lin",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2018",
+      "crossrefDates": {
+        "created": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ],
+        "published-online": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ],
+        "published": [
+          [
+            2018,
+            7,
+            11
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR13053",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/151738",
+            "asserted-by": "object"
+          }
+        ],
+        "is-supplemented-by": [
+          {
+            "id-type": "doi",
+            "id": "10.17504/protocols.io.rpxd5pn",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.31657.050",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.31657.051",
+            "asserted-by": "object"
+          }
+        ],
+        "has-part": [
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.001",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.002",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.003",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.004",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.005",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.006",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.007",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.008",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.009",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.010",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.011",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.012",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.014",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.015",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.016",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.013",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.017",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.018",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.020",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.019",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.021",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.023",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.024",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.022",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.025",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.026",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.027",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.029",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.030",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.028",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.031",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.033",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.032",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.034",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.035",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.036",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.037",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.040",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.038",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.039",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.041",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.042",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.043",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.044",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.045",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.046",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.047",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.048",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.050",
+            "asserted-by": "subject"
+          },
+          {
+            "id-type": "doi",
+            "id": "https://doi.org/10.7554/elife.31657.051",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "24584193",
+      "doi": "10.1038/nmeth.2869",
+      "epmcTitle": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+      "crossrefTitle": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Giesen",
+      "crossrefFirstAuthor": "Giesen",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2014",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2014,
+            4
+          ]
+        ],
+        "created": [
+          [
+            2014,
+            3,
+            2
+          ]
+        ],
+        "published-online": [
+          [
+            2014,
+            3,
+            2
+          ]
+        ],
+        "published": [
+          [
+            2014,
+            3,
+            2
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "24663125",
+            "reference": "Nat Rev Clin Oncol. 2014 May;11(5):240. doi: 10.1038/nrclinonc.2014.57",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718293838.793492686",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "30193111",
+      "doi": "10.1016/j.cell.2018.08.039",
+      "epmcTitle": "A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging.",
+      "crossrefTitle": "A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Keren",
+      "crossrefFirstAuthor": "Keren",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2018",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2018,
+            9
+          ]
+        ],
+        "created": [
+          [
+            2018,
+            9,
+            6
+          ]
+        ],
+        "published": [
+          [
+            2018,
+            9
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "30287896",
+            "reference": "Nat Rev Cancer. 2018 Nov;18(11):666-667. doi: 10.1038/s41568-018-0063-y.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "30323316",
+            "reference": "Nat Rev Cancer. 2018 Nov;18(11):666-667. doi: 10.1038/s41568-018-0069-5.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "30914819",
+            "reference": "Nature. 2019 Mar;567(7749):555-557. doi: 10.1038/d41586-019-00904-5.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "32393914",
+      "doi": "10.1038/s41587-020-0472-9",
+      "epmcTitle": "Multiplex digital spatial profiling of proteins and RNA in fixed tissue.",
+      "crossrefTitle": "Multiplex digital spatial profiling of proteins and RNA in fixed tissue",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Merritt",
+      "crossrefFirstAuthor": "Merritt",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2020",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2020,
+            5
+          ]
+        ],
+        "created": [
+          [
+            2020,
+            5,
+            11
+          ]
+        ],
+        "published-online": [
+          [
+            2020,
+            5,
+            11
+          ]
+        ],
+        "published": [
+          [
+            2020,
+            5
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "27365449",
+      "doi": "10.1126/science.aaf2403",
+      "epmcTitle": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics.",
+      "crossrefTitle": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Ståhl",
+      "crossrefFirstAuthor": "Ståhl",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2016",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2016,
+            7
+          ]
+        ],
+        "created": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ],
+        "published": [
+          [
+            2016,
+            7
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.726472001.793524355",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.726472001.793554182",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.726472001.793520453",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "25858977",
+      "doi": "10.1126/science.aaa6090",
+      "epmcTitle": "RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells.",
+      "crossrefTitle": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Chen",
+      "crossrefFirstAuthor": "Chen",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2015",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2015,
+            4,
+            24
+          ]
+        ],
+        "created": [
+          [
+            2015,
+            4,
+            9
+          ]
+        ],
+        "published": [
+          [
+            2015,
+            4,
+            24
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "25948245",
+            "reference": "Nat Rev Genet. 2015 Jun;16(6):319. doi: 10.1038/nrg3951",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "26013647",
+            "reference": "Trends Immunol. 2015 Jul;36(7):390-1. doi: 10.1016/j.it.2015.05.002",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "26221655",
+            "reference": "Nat Methods. 2015 Jun;12(6):486-7. doi: 10.1038/nmeth.3426",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.725429999.793506309",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.725429999.793514074",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "37608771",
+      "doi": "10.1002/path.6165",
+      "epmcTitle": "Spatial analyses of immune cell infiltration in cancer: current methods and future directions: A report of the International Immuno-Oncology Biomarker Working Group on Breast Cancer.",
+      "crossrefTitle": "Spatial analyses of immune cell infiltration in cancer: current methods and future directions: A report of the International Immuno‐Oncology Biomarker Working Group on Breast Cancer",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Page",
+      "crossrefFirstAuthor": "Page",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2023",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2023,
+            8
+          ]
+        ],
+        "created": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ],
+        "published-online": [
+          [
+            2023,
+            8,
+            23
+          ]
+        ],
+        "published": [
+          [
+            2023,
+            8
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "35449453",
+      "doi": "10.1038/s41416-022-01822-6",
+      "epmcTitle": "Prognostic significance of spatial and density analysis of T lymphocytes in colorectal cancer.",
+      "crossrefTitle": "Prognostic significance of spatial and density analysis of T lymphocytes in colorectal cancer",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Elomaa",
+      "crossrefFirstAuthor": "Elomaa",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2022",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2022,
+            8,
+            1
+          ]
+        ],
+        "created": [
+          [
+            2022,
+            4,
+            21
+          ]
+        ],
+        "published-online": [
+          [
+            2022,
+            4,
+            21
+          ]
+        ],
+        "published": [
+          [
+            2022,
+            4,
+            21
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "32002281",
+      "doi": "10.1080/2162402x.2019.1659093",
+      "epmcTitle": "Close proximity of immune and tumor cells underlies response to anti-PD-1 based therapies in metastatic melanoma patients.",
+      "crossrefTitle": "Close proximity of immune and tumor cells underlies response to anti-PD-1 based therapies in metastatic melanoma patients",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Gide",
+      "crossrefFirstAuthor": "Gide",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2020",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2020,
+            1
+          ]
+        ],
+        "created": [
+          [
+            2019,
+            10,
+            16
+          ]
+        ],
+        "published-online": [
+          [
+            2019,
+            10,
+            16
+          ]
+        ],
+        "published": [
+          [
+            2019,
+            10,
+            16
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "26395345",
+      "doi": "10.1186/s13058-015-0638-4",
+      "epmcTitle": "An ecological measure of immune-cancer colocalization as a prognostic factor for breast cancer.",
+      "crossrefTitle": "An ecological measure of immune-cancer colocalization as a prognostic factor for breast cancer",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Maley",
+      "crossrefFirstAuthor": "Maley",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2015",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2015,
+            12
+          ]
+        ],
+        "created": [
+          [
+            2015,
+            9,
+            22
+          ]
+        ],
+        "published-online": [
+          [
+            2015,
+            9,
+            22
+          ]
+        ],
+        "published": [
+          [
+            2015,
+            9,
+            22
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "41091832",
+      "doi": "10.1371/journal.pmed.1004647",
+      "epmcTitle": "Prognostic significance of CD8+ T cell Spatial Biomarkers in ER+ and ER- breast cancer: A retrospective cohort study.",
+      "crossrefTitle": "Prognostic significance of CD8+ T cell Spatial Biomarkers in ER+ and ER− breast cancer: A retrospective cohort study",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Walker",
+      "crossrefFirstAuthor": "Walker",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2025",
+      "crossrefDates": {
+        "created": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ],
+        "published-online": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ],
+        "published": [
+          [
+            2025,
+            10,
+            15
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40492067",
+            "reference": "medRxiv. 2025 May 28:2025.05.27.25328389. doi: 10.1101/2025.05.27.25328389.",
+            "type": "Update of",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "41805747",
+            "reference": "PLoS Med. 2026 Mar 10;23(3):e1004979. doi: 10.1371/journal.pmed.1004979.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [
+        {
+          "DOI": "10.1371/journal.pmed.1004647",
+          "type": "new_version",
+          "label": "New version",
+          "source": "publisher",
+          "updated": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                21
+              ]
+            ],
+            "date-time": "2025-10-21T00:00:00Z",
+            "timestamp": 1761004800000
+          }
+        }
+      ]
+    },
+    {
+      "pmid": "34266881",
+      "doi": "10.1136/jitc-2020-002197",
+      "epmcTitle": "Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study.",
+      "crossrefTitle": "Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Taube",
+      "crossrefFirstAuthor": "Taube",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2021",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2021,
+            7
+          ]
+        ],
+        "created": [
+          [
+            2021,
+            7,
+            15
+          ]
+        ],
+        "published-online": [
+          [
+            2021,
+            7,
+            15
+          ]
+        ],
+        "published": [
+          [
+            2021,
+            7
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "36669472",
+      "doi": "10.1016/j.cell.2022.12.028",
+      "epmcTitle": "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer.",
+      "crossrefTitle": "Multiplexed 3D atlas of state transitions and immune interaction in colorectal cancer",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Lin",
+      "crossrefFirstAuthor": "Lin",
+      "firstAuthorAgreement": true,
+      "epmcYear": "2023",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2023,
+            1
+          ]
+        ],
+        "created": [
+          [
+            2023,
+            1,
+            19
+          ]
+        ],
+        "published": [
+          [
+            2023,
+            1
+          ]
+        ]
+      },
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36669470",
+            "reference": "Cell. 2023 Jan 19;186(2):235-237. doi: 10.1016/j.cell.2022.12.015",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "PPR",
+            "id": "PPR306263",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2021.03.31.437984",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.742499353.793597974",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": null
+    },
+    {
+      "pmid": "32763154",
+      "doi": "10.1016/j.cell.2020.07.005",
+      "epmcTitle": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front.",
+      "crossrefTitle": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Schürch",
+      "crossrefFirstAuthor": "Schürch",
+      "epmcYear": "2020",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2020,
+            9
+          ]
+        ],
+        "published": [
+          [
+            2020,
+            9
+          ]
+        ]
+      },
+      "sourceType": "primary research",
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33125896",
+            "reference": "Cell. 2020 Oct 29;183(3):838. doi: 10.1016/j.cell.2020.10.021.",
+            "type": "Erratum in",
+            "orderIn": 1
+          },
+          {
+            "source": "PPR",
+            "id": "PPR90093",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      }
+    },
+    {
+      "pmid": "33125896",
+      "doi": "10.1016/j.cell.2020.10.021",
+      "epmcTitle": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front.",
+      "crossrefTitle": "Coordinated Cellular Neighborhoods Orchestrate Antitumoral Immunity at the Colorectal Cancer Invasive Front",
+      "titleAgreement": true,
+      "epmcFirstAuthor": "Schürch",
+      "crossrefFirstAuthor": "Schürch",
+      "epmcYear": "2020",
+      "crossrefDates": {
+        "published-print": [
+          [
+            2020,
+            10
+          ]
+        ],
+        "published": [
+          [
+            2020,
+            10
+          ]
+        ]
+      },
+      "sourceType": "correction notice",
+      "epmcCommentsCorrections": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32763154",
+            "reference": "Cell. 2020 Sep 3;182(5):1341-1359.e19. doi: 10.1016/j.cell.2020.07.005.",
+            "type": "Erratum for",
+            "orderIn": 1
+          }
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "identitiesResolved": 15,
+    "researchAndReviewAbstractsFullyRead": 14,
+    "targetedResearchBodyParagraphs": 27,
+    "researchOrReviewBodiesWithTargetedReads": 8,
+    "completeCorrectionNotices": 1,
+    "wholeResearchPapersRead": 0,
+    "rawCaptures": 43
+  },
+  "limits": [
+    "The 13 assigned publications and one additional neighbourhood-method study have complete abstract reads. The author correction has no abstract; its complete two-paragraph body was read.",
+    "Research bodies were read at targeted-paragraph depth only. Some retrieved bodies were not used beyond their abstracts.",
+    "Crossref initially returned HTTP 429 for Keren; a separately retained later request succeeded without bypassing an access control.",
+    "Gide was published online in 2019 and in a 2020 issue. Those dates are kept distinct.",
+    "Schürch's correction adds an omitted author; the read neighbourhood method is retained.",
+    "The source's biological 7-to-10-micrometre lymphocyte range and universal absence-of-approval assertion are not adopted as verified facts. Geometry is labelled hypothetical and clinical-validation claims are scoped to the cited studies.",
+    "No callable Elicit tool was exposed. No new report, question, abstract response or discovery result is invented. Existing frozen occurrences remain discovery inputs, separate from these primary reads.",
+    "Non-correction commentaries listed in registry metadata were not independently assessed here."
+  ]
+}

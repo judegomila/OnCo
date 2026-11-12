@@ -1,0 +1,72 @@
+[
+  {
+    "sources": [
+      "clonogenic-core.json",
+      "clonogenic-update-core.json"
+    ],
+    "scope": "In-vitro reproductive survival, culture/model/format limits; no clinical durability estimate, fixed assay cutoff or clinical efficacy claim adopted."
+  },
+  {
+    "sources": [
+      "seer-epithelial.html",
+      "seer-summary-stage.pdf"
+    ],
+    "scope": "Normal epithelial organization and manual v3.4 October 2026 in-situ/localized boundaries, pages 9–11. Site-specific exceptions retained; no universal rule for every cancer. Lineage stain versus invasion is an educational interpretation, not a new diagnostic assay validation."
+  },
+  {
+    "sources": [
+      "hgvs-deletion.html",
+      "hgvs-delins.html",
+      "nhgri-frameshift.html"
+    ],
+    "scope": "Coding-transcript frame versus local protein consequence, predicted protein notation and possible stop introduction. No specific variant is declared functional or clinically actionable."
+  },
+  {
+    "sources": [
+      "rag-core.json",
+      "convergent-core.json",
+      "human-tcr-core.json"
+    ],
+    "scope": "2014 ETV6–RUNX1 ALL rearrangement context, mouse influenza TCR-beta convergence and a four-person human naive/memory CD8 study. Available MED abstracts read; fullTextXML requests returned 500. No unavailable methods/figures or personal cancer-response inference adopted."
+  },
+  {
+    "sources": [
+      "mesh-dna-damage.json",
+      "mesh-dna-damage-concept.json",
+      "h2ax-core.json",
+      "h2ax-limits-core.json"
+    ],
+    "scope": "Resolved NLM descriptor/preferred-concept scope distinguishes lesions/repair from possible mutation. Model studies concern histone modification and its lack of unambiguous break specificity; no numeric lesion/foci-to-variant conversion or clinical cutoff."
+  },
+  {
+    "sources": [
+      "pdb-methods.html"
+    ],
+    "scope": "RCSB first-party methods description: crystals/diffraction, NMR restraints/ensembles and cryo-EM ice/projections/model interpretation. No atomic-looking model is declared validated binding or clinical evidence."
+  },
+  {
+    "sources": [
+      "cap-er-core.json",
+      "cap-her2-core.json",
+      "cap-er.html",
+      "cap-her2.html",
+      "yoder-core.json",
+      "dieci-core.json",
+      "acs-core.json",
+      "nci-breast-biomarkers.html",
+      "nci-grade.html"
+    ],
+    "scope": "Guideline diagnostic categories, ER-specific low-positive reporting, control validity, cohort-specific comparisons and grade/classification distinction. CAP page labels the 2023 guideline active but retains historical treatment discussion; its older DESTINY-Breast06/eligibility wording is not adopted as current. NCI broad simplifications, including basal-like/TNBC equivalence, are not used to replace exact categories. Other TNBC outcome, incidence, current therapy and preventive-use claims are not newly revalidated by this checkpoint."
+  },
+  {
+    "sources": [
+      "cap-er-faq.pdf",
+      "nih-dna-damage.html",
+      "rag-full.xml",
+      "convergent-full.xml",
+      "h2ax-limits-full.xml",
+      "medlineplus-variants.html"
+    ],
+    "scope": "Excluded or discovery-only: PDF DNS failure, NCBI page challenge instead of load-bearing raw definition, unavailable XML bodies, and a supplementary broad variant explainer. No facts dependent on unavailable content adopted."
+  }
+]

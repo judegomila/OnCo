@@ -1,0 +1,3841 @@
+{
+  "pr": 369,
+  "head": "baf8dccc3002944e5d0fc0460c5fb1b3066b49c5",
+  "newCount": 34,
+  "modifiedCount": 31,
+  "records": [
+    {
+      "id": "dual-payload-adc",
+      "kind": "technology",
+      "name": "Dual-payload ADC",
+      "aka": [],
+      "tldr": "A dual-payload antibody-drug conjugate carries two different active cargoes on one antibody. The cargoes can share a mechanism or act through different mechanisms.",
+      "summary": "Dual-payload describes what is physically attached: two active cargo species on the same antibody construct. It is independent of whether the antibody recognizes one antigen or two, and differs from separately administering drugs or single-payload conjugates. A defined preparation may control average loading or particular attachment sites; the measured distribution still matters.\n\nPossible aims include different killing routes, a damage/checkpoint combination, or different distribution properties within one mechanism. A mouse-model result, laboratory synergy or trial-design abstract establishes a particular stage of evidence. None guarantees that a second cargo repairs antigen loss, delivery failure or resistance in a person.",
+      "status": "phase-1",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Yamazaki et al., Antibody-drug conjugates with dual payloads for combating breast tumour heterogeneity and drug resistance (Nature Communications 2021)",
+          "url": "https://doi.org/10.1038/s41467-021-23793-7"
+        },
+        {
+          "label": "Publisher abstract",
+          "url": "https://doi.org/10.1158/1538-7445.am2026-6928"
+        },
+        {
+          "label": "Publisher abstract",
+          "url": "https://doi.org/10.1158/1535-7163.targ-25-a124"
+        },
+        {
+          "label": "Publisher abstract",
+          "url": "https://doi.org/10.1158/1538-7445.am2026-4438"
+        },
+        {
+          "label": "Publisher abstract",
+          "url": "https://doi.org/10.1158/1557-3265.d32026-a014"
+        },
+        {
+          "label": "CLIO-8221 phase 1/2 trial-design abstract (2026)",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+        },
+        {
+          "label": "Spycher et al.: dual TOP1 payloads with different bystander properties, AACR abstract (2024)",
+          "url": "https://doi.org/10.1158/1538-7445.AM2024-2600"
+        },
+        {
+          "label": "Ren et al.: sequential-release exatecan/triptolide conjugates in preclinical models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41121984/"
+        },
+        {
+          "label": "Abel et al.: separate sacituzumab govitecan and berzosertib phase 1 regimen",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37227187/"
+        },
+        {
+          "label": "Ravenstijn et al.: dual-payload clinical pharmacology perspective (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42089685/"
+        }
+      ],
+      "tags": [
+        "frontier"
+      ],
+      "related": [
+        "catb-101",
+        "cbb-120",
+        "ctph-03",
+        "can020"
+      ],
+      "cancers": [],
+      "sections": [
+        "adcs"
+      ],
+      "technologies": [
+        "adc",
+        "site-specific-conjugation"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "callio-therapeutics",
+        "axcynsis-therapeutics",
+        "primelink-biotherapeutics",
+        "phrontline-biopharma"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "next-generation-adc-payloads",
+        "ddr-inhibitor-payloads",
+        "atr-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-yamazaki-nat-commun"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Yamazaki reported dual-drug conjugates outperforming co-administration of the single-drug variants in xenograft models with HER2 heterogeneity and resistance. That is a matched experimental comparison, not proof of clinical benefit after a prior TOP1 ADC.",
+        "A 2024 AACR conference abstract described two exatecan-based TOP1 payloads with different bystander properties on one HER2 antibody. Two chemical cargoes therefore need not represent two independent mechanism classes. The abstract is preclinical and does not establish a clinical regimen or benefit.",
+        "The Ren dual-payload platform paired exatecan with triptolide and described initially released triptolide followed by gradual exatecan release in experimental models. Co-attachment does not guarantee simultaneous intracellular release or a constant active-drug ratio.",
+        "Keep per-component identity, attachment sites, mean and distribution of loading, released metabolites, concentration-time profiles and toxicity separate. A total DAR does not reveal the ratio of two cargoes or the ratio reaching a lesion. Two payloads also expand the bioanalytical and immunogenicity questions. For a fixed composition, reducing the antibody dose reduces both attached cargo doses; they cannot then be adjusted as freely as separately administered drugs.",
+        "Use otherwise matched single-cargo conjugates, the unconjugated antibody, free agents and their co-administration as appropriate controls. State antibody dose, each payload dose, schedule, target density and prior resistance selection. Differences in loading, exposure or antibody properties can confound a claimed second-cargo contribution.",
+        "The Abel phase 1 study gave sacituzumab govitecan and berzosertib as separate drugs. Its findings do not establish an attached ATR payload or a dual-payload product. CLIO-8221 instead has a source identifying exatecan and berzosertib on one construct; its trial-design abstract is separate from clinical results.",
+        "A shared delivery defect can defeat both cargoes. A shared transporter or cell-response adaptation can also affect more than one drug. Adding another active agent can add healthy-tissue exposure; it does not by itself establish synergy, independent resistance routes or a useful clinical window."
+      ],
+      "principle": "Attach and characterize each active cargo and its loading. Then measure released species, exposure and combined function for the finished construct.",
+      "generation": "4th (next-gen)",
+      "strengths": [
+        "Can co-deliver specified active cargoes",
+        "Allows testing of complementary mechanisms or distribution properties"
+      ],
+      "limitations": [
+        "Shared target access, uptake or processing failures can affect both cargoes",
+        "Release and tissue exposure need not preserve the manufactured ratio",
+        "Dose reduction can lower both cargoes, while their tolerable and active exposures may differ"
+      ]
+    },
+    {
+      "id": "degrader-antibody-conjugate",
+      "kind": "technology",
+      "name": "Degrader-antibody conjugate (DAC)",
+      "aka": [],
+      "tldr": "A degrader-antibody conjugate delivers a drug that makes a cell remove a selected protein. This changes the payload mechanism while using an antibody to direct delivery.",
+      "summary": "A degrader-antibody conjugate carries a molecular glue or a bifunctional degrader that directs a selected protein to cellular disposal machinery. BRD4-directed conjugates have shown antigen-dependent degradation and antitumor activity in preclinical models. GSPT1-directed ORM-5029 and ORM-6151 reached human studies, but their linked trials are terminated. KIF11 degrader conjugates are another mechanism explored in cellular experiments. Degradation can kill cells and does not guarantee less toxicity, greater potency or access to every intracellular protein; those properties require construct-specific evidence.",
+      "status": "phase-1",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "The first PROTAC: a chimeric molecule that tags a protein for destruction (PNAS 2001)",
+          "url": "https://doi.org/10.1073/pnas.141230798"
+        },
+        {
+          "label": "BRD4 degrader antibody conjugates (2021)",
+          "url": "https://doi.org/10.1021/acs.jmedchem.0c01846"
+        },
+        {
+          "label": "ORM-5029 preclinical abstract (2022)",
+          "url": "https://doi.org/10.1158/1538-7445.AM2022-3933"
+        },
+        {
+          "label": "ORM-5029 trial: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05511844"
+        },
+        {
+          "label": "ORM-6151 trial: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT06419634"
+        },
+        {
+          "label": "KIF11 degrader conjugate cellular study, ASCO abstract (2025)",
+          "url": "https://doi.org/10.1200/JCO.2025.43.16_suppl.3092"
+        }
+      ],
+      "tags": [
+        "frontier"
+      ],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "adcs",
+        "targeted-therapy"
+      ],
+      "technologies": [
+        "adc",
+        "protac-degrader"
+      ],
+      "targets": [],
+      "drugs": [
+        "orm-5029",
+        "orm-6151"
+      ],
+      "companies": [
+        "cullgen",
+        "firefly-bio",
+        "orum-therapeutics",
+        "prelude-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "gspt1-degrader-payloads",
+        "brd4-degrader-payloads",
+        "kif11-degrader-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "adc",
+        "protac-degrader"
+      ],
+      "notes": [],
+      "principle": "Antibody delivers a molecular glue or PROTAC payload; intracellular release triggers targeted degradation.",
+      "generation": "4th (next-gen)",
+      "strengths": [
+        "Antibody-directed delivery of protein-removing agents",
+        "Distinct intracellular mechanisms from DNA-damaging payloads"
+      ],
+      "limitations": [
+        "Release, intracellular access and degradation must all occur",
+        "Target and protein-disposal machinery influence response",
+        "Clinical safety and benefit remain construct-specific"
+      ]
+    },
+    {
+      "id": "immune-stimulating-adc",
+      "kind": "technology",
+      "name": "Immune-stimulating antibody conjugate (ISAC)",
+      "aka": [],
+      "tldr": "An immune-stimulating antibody conjugate carries an intended immune agonist. Target binding, innate activation and useful tumor control remain separate findings.",
+      "summary": "Immune-stimulating conjugates carry innate immune agonists such as TLR7/8 or STING agonists. They differ from an ordinary cytotoxic ADC that produces secondary inflammatory effects and from a protein that bridges a T cell to a target. The actual construct determines which cells receive the cargo and which sensing pathway acts.\n\nPreclinical TLR conjugates have used antigen recognition and Fc-receptor-dependent phagocytosis. XMT-2056 studies tested HER2-directed STING agonism in cancer and tumor-resident immune-cell contexts. These routes cannot be transferred to every antibody, Fc design or immune compartment. Human pharmacodynamic activation, tolerability and comparative benefit require separate evidence.",
+      "status": "phase-2",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)",
+          "url": "https://doi.org/10.1038/s43018-020-00136-x"
+        },
+        {
+          "label": "XMT-2056 preclinical study (2025)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+        },
+        {
+          "label": "XMT-2056 trial: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05514717"
+        },
+        {
+          "label": "TAK-500 trial: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05070247"
+        },
+        {
+          "label": "BDC-1001 trial: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT04278144"
+        },
+        {
+          "label": "Chernyak et al.: TLR-agonist conjugate uptake and myeloid-cell experiments (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/"
+        },
+        {
+          "label": "Janku et al.: NJH395 preclinical and phase 1 non-breast cohort (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/"
+        },
+        {
+          "label": "Oh et al.: T-DXd immune effects in gastric cancer models (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/"
+        },
+        {
+          "label": "Benci et al.: prolonged interferon signaling and checkpoint-resistance programs (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/"
+        },
+        {
+          "label": "BDC-1001 breast-cancer phase 2 registry: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05954143"
+        },
+        {
+          "label": "SBT6050 combination registry: terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05091528"
+        },
+        {
+          "label": "SBT6050 first-in-human registry: unknown status",
+          "url": "https://clinicaltrials.gov/study/NCT04460456"
+        },
+        {
+          "label": "Decout et al., cGAS-STING signalling and therapeutic context (2021 review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33833439/"
+        },
+        {
+          "label": "Heil et al., species-specific TLR7/8 recognition of viral RNA (2004)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14976262/"
+        },
+        {
+          "label": "TAK-500 CCR2-directed STING activation study (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39918395/"
+        },
+        {
+          "label": "TAK-500 anti-CCR2 conjugate PK/PD modelling (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41888610/"
+        },
+        {
+          "label": "TAK-500 STING-conjugate linker study (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41143331/"
+        },
+        {
+          "label": "UniProt TLR7: function and endosomal location",
+          "url": "https://www.uniprot.org/uniprotkb/Q9NYK1/entry"
+        },
+        {
+          "label": "UniProt TLR8: function and endosomal location",
+          "url": "https://www.uniprot.org/uniprotkb/Q9NR97/entry"
+        }
+      ],
+      "tags": [
+        "frontier"
+      ],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "adcs",
+        "immunotherapy"
+      ],
+      "technologies": [
+        "adc",
+        "sting-agonist"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "nbe-therapeutics",
+        "tallac-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "tlr-agonist-payloads",
+        "sting-agonist-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-ackerman-nat-cancer"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Chernyak tested TLR7 and TLR7/8 conjugates whose myeloid activation depended on antigen-expressing cancer cells in the tested assays. The proposed route included Fc-gamma-receptor-dependent phagocytosis. An altered Fc, different target, sensor expression or uptake route needs its own tests.",
+        "Bukhalid reported XMT-2056 activity and reduced systemic inflammation relative to a free STING agonist in mouse models, with immune-mediated neighboring-cell effects in a specified HER2-positive/negative context. These results do not make every ISAC tumor-only or establish a human safety window.",
+        "Measure cargo exposure and uptake, sensor activation, cytokines, antigen presentation, tumor-reactive effector function and target-cell death separately. An adaptive-priming claim needs relevant antigen presentation and functional responding cells; innate myeloid killing and T-cell priming are not interchangeable mechanisms.",
+        "Oh found cGAS-STING/interferon activation and increased PD-L1 after T-DXd in gastric cancer experiments. That cytotoxic product does not thereby acquire an attached STING-agonist payload. Incidental immune effects and deliberately conjugated agonism are different composition claims.",
+        "Janku reported a single-ascending-dose phase 1 study of NJH395 in 18 people with HER2-positive non-breast advanced malignancies. Tumor delivery and type I interferon responses were pharmacodynamic findings; CRS, anti-drug antibodies and neuroinflammation at higher doses were clinical challenges. Neither the cohort nor an interferon marker establishes efficacy in breast cancer.",
+        "Benci linked prolonged interferon signaling to a checkpoint-resistance program in experimental systems and clinical associations. That report did not test an ISAC regimen. It supports examining duration and counter-regulation rather than assuming that a stronger cytokine signal must improve tumor control.",
+        "The named registry captures show XMT-2056 stopped with development discontinued, TAK-500 stopped for clinical futility, BDC-1001 studies stopped by sponsor decision, and the SBT6050 combination study stopped for strategic realignment. The older SBT6050 first-in-human status is unknown. Preserve each reason; a strategic decision is not proof that every related mechanism failed.",
+        "The phase-2 history includes the terminated BDC-1001 breast-cancer study. A class-level development label does not establish that a named trial is open. Verify overall status, facility/cohort availability and the dated source separately.",
+        "The intended cargo is an innate-sensor agonist. cGAS can detect misplaced cytosolic DNA and make cGAMP, which activates STING and downstream type I interferon signalling; mitochondrial DNA also has a normal location, so DNA is not confined to the nucleus. TLR7/8 agonists act through endosomal sensing pathways. Heil’s receptor-deficiency and complementation experiments showed species-specific recognition of GU-rich single-stranded viral RNA by murine TLR7 and human TLR8; a small-molecule agonist imitates a sensing signal rather than supplying viral infection. Chernyak’s experiments included constructs with few agonist molecules attached per antibody; the tested loading is part of the construct, not a universal requirement. Cargo, receptor, cell type and uptake route must be named: an antibody-bound agonist does not guarantee that every exposed cell produces a useful immune response.",
+        "TAK-500 is a CCR2-directed antibody conjugated to a STING agonist, dazostinag, as established by its primary pharmacology and modelling reports. Its registry record supports study design, enrolment and the stated stopping reason; it is not the source of the target identity. The refreshed records list XMT-2056 terminated after 57 participants for discontinued development and TAK-500 terminated after 61 for clinical futility. The two BDC-1001 records are terminated by sponsor decision. The SBT6050 combination record is terminated for strategic realignment, while the earlier first-in-human record remains unknown, last verified in 2022.",
+        "A cross-priming claim needs antigen-presenting cells to take up tumour material, present its antigens and activate responding T cells. A neighbour lacking the antibody’s delivery target might still display an antigen that those T cells recognise; negative for the delivery target does not mean negative for every immune antigen. Myeloid activation, dendritic-cell function, antigen presentation, T-cell access and killing must each be demonstrated in the proposed route. An innate signal, a mouse regression or memory response, and a human response or survival comparison are different endpoints. A proposed clinical test would measure tumour agonist exposure, interferon-related genes and functional immune-cell changes in paired biopsies alongside blood cytokines and dose-limiting harms, before a randomised comparison tests patient benefit.",
+        "The alarm analogy describes an intention, not a guaranteed result. Systemic agonist exposure can cause inflammatory harms, and prolonged interferon signalling can engage counter-regulation. Low target access, an inactive sensor pathway, suppressive cells or poor effector access are different reasons that an immune-cold tumour may not respond. Repeated stimulation calls for serial tests of function and counter-regulation; a first cytokine pulse cannot establish sustained activity or prove that tolerance or exhaustion will occur. As a design hypothesis, adding a TOP1 cargo could join direct injury to an innate agonist, but both actions need separate tests. Oh’s gastric-cancer experiments found dendritic-cell activation and enhanced CD8-mediated killing after T-DXd through the cancer-cell cGAS-STING/interferon pathway. Benci’s experimental resistance programme involved persistent type II interferon and was maintained by both type I and type II signalling. These are mechanistic contexts, not proof that every dual-cargo design produces useful priming. The laboratory studies and small non-breast phase 1 cohort described here do not establish a randomised TNBC benefit or that every design lacks a usable human dose."
+      ],
+      "principle": "Verify target-dependent delivery and the intended innate-sensor response, then test the proposed innate or adaptive effector mechanism and harms in the actual biological setting.",
+      "generation": "4th (next-gen)",
+      "strengths": [
+        "Can test antigen-directed delivery of an innate agonist",
+        "Some constructs engage cancer cells and local immune cells in experimental models"
+      ],
+      "limitations": [
+        "Inflammatory signals can reach healthy tissue",
+        "Receptor expression, uptake, functional antigen presentation and effector access vary",
+        "Cytokine induction or mouse immune memory does not establish patient benefit"
+      ]
+    },
+    {
+      "id": "polr2a",
+      "kind": "target",
+      "name": "POLR2A",
+      "aka": [
+        "RNA polymerase II subunit A",
+        "POLRA",
+        "RPB1"
+      ],
+      "tldr": "POLR2A encodes the largest subunit of RNA polymerase II, which makes RNA from DNA. Researchers study whether losing one gene copy creates a vulnerability to further suppression.",
+      "summary": "RNA polymerase II is a transcription complex; POLR2A encodes its largest catalytic subunit. Amanitin inhibits the complex. This intracellular action is separate from an antibody’s surface delivery target, such as BCMA or TROP2. Normal cells also use this machinery, so target identity alone does not establish tumor selectivity.\n\nThe collateral-vulnerability hypothesis asks whether loss of one POLR2A copy reduces the margin for further suppression. The 2015 colorectal report studied co-deletion near TP53 and amanitin delivery in cell/mouse models. A separate TNBC report used siRNA in nanoparticles. A TP53 mutation does not by itself establish POLR2A copy loss, and these model findings do not establish a clinical eligibility test.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "HGNC: independently resolved POLR2A identity and gene location",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9187"
+        },
+        {
+          "label": "Bushnell et al.: RNA polymerase II/amanitin structural study (2002)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+        },
+        {
+          "label": "Liu et al.: colorectal POLR2A dosage study (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+        },
+        {
+          "label": "Author correction to the colorectal study (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+        },
+        {
+          "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+        },
+        {
+          "label": "Publisher correction to the TNBC study (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+        },
+        {
+          "label": "Author correction to the TNBC study (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+        },
+        {
+          "label": "Retraction notice for a separate HER2-low/17p-loss study (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+        },
+        {
+          "label": "Letschert et al.: amatoxin uptake into human hepatocytes (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+        },
+        {
+          "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tp53",
+        "synthetic-lethality"
+      ],
+      "cancers": [
+        "colorectal",
+        "tnbc",
+        "multiple-myeloma"
+      ],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "pamlectabart-tismanitin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "transcription-inhibitor-payloads",
+        "amanitin-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The colorectal amanitin-conjugate report and the TNBC siRNA-nanoparticle report test distinct delivery systems and models. Tumor regression in either system does not establish the clinical activity of the other.",
+        "The 2015 colorectal study has a 2021 staining-image correction. The 2019 TNBC nanoparticle paper has separate supplementary-material and image corrections. Other reports on a 2018 prostate model and 2021 HER2-low/17p-loss model were retracted in 2026 and are excluded from support.",
+        "Gene dosage can be a research hypothesis without being an approved selection biomarker. Test actual POLR2A copy number/expression and functional dependence rather than substituting a TP53 mutation, a broad 17p label or an unrelated cell-state marker.",
+        "Amanitin transport in engineered cells and human hepatocytes illustrates a normal-organ exposure risk. An antibody, conjugation/release system and intracellular drug must each have evidence; a housekeeping target is not inherently cancer-specific."
+      ],
+      "symbol": "POLR2A",
+      "role": [],
+      "sources": [],
+      "specificitySources": [],
+      "hgnc": "HGNC:9187",
+      "ensembl": "ENSG00000181222",
+      "uniprot": "P24928",
+      "entrez": "5430",
+      "biology": "The approved human gene symbol is POLR2A, at 17p13.1. Its product is part of RNA polymerase II. DNA copy number, RNA/protein abundance, enzymatic activity and drug response are separate measurements; loss of one copy is different from complete loss or any TP53 sequence alteration.",
+      "whereFound": [],
+      "targetClass": "transcription",
+      "prevalence": []
+    },
+    {
+      "id": "payload",
+      "kind": "term",
+      "name": "Payload (ADC)",
+      "aka": [],
+      "tldr": "A payload is the active cargo carried by a delivery product. Its identity and action are different from the molecule used to reach a target.",
+      "summary": "In an antibody-drug conjugate, a chemically attached active cargo is distinct from the antibody and attachment/linker system. Cytotoxic examples act on microtubules, TOP1 or DNA. Other experimental conjugates carry transcription inhibitors, degraders, signaling inhibitors or immune agonists. Radioactive, protein-toxin, oligonucleotide and light-activated products retain their own composition and activation questions.\n\nSome cargoes or their related drugs have also been studied or used outside an ADC. Conjugation does not turn toxicity into a benefit by itself. The finished product needs evidence for delivery, release, useful action and healthy-tissue exposure.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Antibody-drug_conjugate",
+      "links": [
+        {
+          "label": "FDA: clinical pharmacology considerations for cytotoxic antibody-drug conjugates (2024)",
+          "url": "https://www.fda.gov/media/155997/download"
+        },
+        {
+          "label": "Li et al.: released payload and bystander effects in preclinical models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26921341/"
+        },
+        {
+          "label": "Ravenstijn et al.: dual-payload translational considerations (2026 perspective)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42089685/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "next-generation-adc-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "topoisomerase-inhibitors",
+        "degrader-antibody-conjugate",
+        "immune-stimulating-adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Separate an exact chemical species from a mechanism family and a complete drug-linker. A free drug, attached derivative and released metabolite can have different permeability, transport and potency. Those properties should not be filled in from a family label.",
+        "Two cargo species can share a molecular mechanism. Two binding targets do not establish two payloads, and two separately administered products do not establish co-attachment.",
+        "The payload dose, average loading, loading distribution, released-species exposure and antibody dose are different measurements. A radionuclide activity or absorbed dose is not a chemical payload count."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "topoisomerase-i-payloads",
+      "kind": "term",
+      "name": "Topoisomerase-I inhibitor payloads",
+      "aka": [
+        "camptothecin payloads",
+        "TOP1 payloads"
+      ],
+      "tldr": "TOP1 payloads can stabilize a normally temporary enzyme-DNA cutting complex. The resulting injury depends on exposure, the exact chemical and how the cell handles damage.",
+      "summary": "Camptothecin-class TOP1 poisons stabilize the enzyme-DNA cleavage complex and impede DNA resealing. Damage can follow encounters with replication machinery. This is different from merely reducing an enzyme’s activity. SN-38, DXd and exatecan are distinct chemical species, even when they share this mechanism.\n\nRedesign can change potency, transporter handling, permeability, stability and release. These are separate measured properties; no family-wide bystander effect, high tolerated loading or clinical resistance-bypass guarantee follows. Delivery, TOP1 availability, repair/checkpoint behavior and the exposure tolerated by healthy tissues still matter.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Camptothecin",
+      "links": [
+        {
+          "label": "Jo et al.: exatecan TOP1-DNA trapping and ATR-combination models (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+        },
+        {
+          "label": "Weng et al.: traceless antibody-exatecan resistant-model studies (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+        },
+        {
+          "label": "Murase et al.: efflux-mediated T-DXd resistance in gastric/lung models (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41548044/"
+        },
+        {
+          "label": "Abelman et al.: selected patient TOP1 mutations and functional studies (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/"
+        },
+        {
+          "label": "Exploratory retrospective TOP1-alteration conference abstract (2026)",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.e15044"
+        },
+        {
+          "label": "Chun et al.: PBX-7016 preclinical medicinal-chemistry study (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41414896/"
+        },
+        {
+          "label": "Zoppoli et al.: SLFN11 and DNA-damaging drug response (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/"
+        },
+        {
+          "label": "Ogitani et al.: local bystander and distant-tumor controls (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Takegawa et al., DS-8201a in T-DM1-resistant gastric models (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28677116/"
+        },
+        {
+          "label": "Rampa et al., payload factors and sequential conjugates in breast models (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "topoisomerase-inhibitors",
+        "adc-sequencing",
+        "efflux-pump",
+        "bystander-effect"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "izalontamab-brengitecan",
+        "tilatamig-samrotecan",
+        "ak146d1",
+        "puxitatug-samrotecan",
+        "clio-8221",
+        "sacituzumab-govitecan",
+        "trastuzumab-deruxtecan",
+        "datopotamab-deruxtecan",
+        "patritumab-deruxtecan",
+        "ifinatamab-deruxtecan",
+        "raludotatug-deruxtecan",
+        "sacituzumab-tirumotecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Jo compared exatecan with other TOP1 inhibitors in biochemical/cellular models and studied SLFN11/repair context and an ATR combination. Modeled binding contacts and experimental trapping do not establish a clinical superiority or an approved biomarker cutoff.",
+        "Weng tested traceless self-immolative antibody-exatecan conjugates in cells, organoids, xenografts and nonhuman primates. Their activity against specified resistant models is separate from a patient trial showing benefit after a TOP1 ADC.",
+        "Murase selected resistant gastric and lung models with preserved HER2 and internalization, identified increased ABCG2 or ABCB1 and restored sensitivity with knockdown or inhibition. This defines a model-specific efflux route, not the mechanism in every resistant patient.",
+        "Abelman linked particular acquired TOP1 mutations in a selected metastatic-breast cohort with functional resistance experiments. A different mutation, a copy-number change, low expression and efflux are different findings. Do not infer that any TOP1 alteration predicts the same response to every TOP1 drug.",
+        "A 2026 conference analysis pooled baseline TOP1 mutations and copy-number changes in a retrospective cohort and used time to next treatment or discontinuation. The TOP1-altered ADC subgroup was small. These exploratory associations do not validate a clinical selection rule or substitute those endpoints for progression-free or overall survival.",
+        "The PBX-7016 medicinal-chemistry publication reports cell/animal work and authors’ statements about phase 1 development. It does not supply a verified clinical efficacy result or activity against every acquired TOP1 mutant.",
+        "Zoppoli found SLFN11 associations and knockdown effects across several DNA-damaging drug categories. This supports a cell-response dependency in tested systems, not a rule that a non-TOP1 drug automatically bypasses low SLFN11.",
+        "Compare the actual released species at matched exposures, transporter perturbations and appropriate controls. Distinguish binding/trapping, damage markers and completed target death. Use target-positive/negative co-cultures and local versus distant tumor controls for spread, and defined enzymes or cell models for a particular mutant-coverage claim.",
+        "Five design questions need separate tests: potency or TOP1-complex trapping; whether a named transporter removes the released species; membrane passage and local neighbouring-cell exposure; activity against a specified altered enzyme; and linker stability and release. The cell’s TOP1 level, checkpoint and repair response are a further biological context, not another chemical lever. Biochemical potency, cellular killing and affinity are not interchangeable measurements. A potency or transporter advantage must be tested against healthy-tissue exposure and tolerability too; a lower effective concentration does not dictate one dose or payload loading. If target access, uptake or release failed, changing the released chemical alone has not shown that the delivery problem was corrected.",
+        "Jo’s exatecan study modelled two additional contacts beyond three known contacts and measured stronger experimental trapping in its comparison. Takegawa’s gastric-cancer T-DM1-resistant models supported two possible explanations for DS-8201a activity: reduced handling of DXd by the pumps and compensation by the higher drug-to-antibody ratio. Rampa’s engineered breast models also implicated payload factors, notably efflux. These are defined model and construct comparisons, not proof that one chemistry bypasses every clinical resistance mechanism.",
+        "Ogitani’s bystander experiments compared membrane-permeable DXd with the poorly permeable T-DM1 breakdown product Lys-SMCC-DM1, mixed HER2-positive/negative tumours and an opposite-flank tumour. Local killing of target-negative neighbours was not equivalent to a distant systemic effect. Weng’s traceless self-immolative exatecan constructs targeting HER2, HER3 or TROP2 were tested against matched DXd/SN-38 constructs in low-target-expression, large and multidrug-resistant models, with organoid and animal experiments and nonhuman-primate tolerability. Those experiments do not by themselves establish patient benefit after a prior TOP1 conjugate.",
+        "A new payload can be a redesigned member of the same mechanism family or a cargo with a different target. Neither label guarantees escape from a cell-response dependency. Abelman’s selected mutations and experiments do not test every proposed cargo or variant. The PBX-7016 chemistry report supplies preclinical results and the authors’ account of phase 1 development, rather than a verified clinical response result. Compare exact released species at matched exposures, and distinguish model evidence, trial status and patient outcomes."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "exatecan",
+      "kind": "term",
+      "name": "Exatecan",
+      "aka": [
+        "DX-8951",
+        "DX8951"
+      ],
+      "tldr": "Exatecan is a camptothecin-class TOP1 poison. It has been studied as a free drug and as cargo in delivery products; those formulations have different evidence and exposure.",
+      "summary": "Exatecan is a defined chemical, commonly called DX-8951. DXd and other related payloads are separate chemical species or drug-linker systems, not interchangeable names for exatecan. Structure, attachment and the species actually released matter when interpreting potency, transport or safety.\n\nIn a randomized first-line advanced-pancreatic-cancer trial, adding exatecan to gemcitabine did not improve overall survival and increased specified severe blood-cell toxicities. That regimen does not establish that every standalone use failed solely because of toxicity or that attaching exatecan automatically supplies a useful therapeutic window.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "PubChem: independently resolved exatecan chemical identity",
+          "url": "https://pubchem.ncbi.nlm.nih.gov/compound/151115"
+        },
+        {
+          "label": "Abou-Alfa et al.: exatecan/gemcitabine versus gemcitabine randomized trial (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16983112/"
+        },
+        {
+          "label": "Jo et al.: exatecan TOP1-DNA trapping and experimental combinations (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+        },
+        {
+          "label": "Weng et al.: antibody-exatecan conjugates in resistant models (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+        },
+        {
+          "label": "Schmitt et al.: phosphonamidate-linked exatecan constructs (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37828728/"
+        },
+        {
+          "label": "Li et al.: distinct camptothecin derivatives and released species (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31620223/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "topoisomerase-i-payloads",
+        "dxd",
+        "adc-sequencing"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "clio-8221"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "topoisomerase-i-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The Abou-Alfa phase 3 report randomized 349 people to exatecan plus gemcitabine or gemcitabine alone. Median survival was 6.7 versus 6.2 months (P=.52); grade 3/4 neutropenia and thrombocytopenia were more frequent with the combination. This is one defined regimen and comparison.",
+        "Jo reported stronger experimental TOP1-DNA trapping by exatecan than comparison TOP1 inhibitors. Weng evaluated specific traceless antibody-exatecan constructs in resistant models. Neither observation by itself establishes superior patient outcomes or benefit from switching between all related ADCs.",
+        "A phosphonamidate-linker study and a separate camptothecin-derivative study changed solubility, loading or released chemical forms and measured bystander behavior in their own models. A family name does not provide a shared permeability, drug loading, efflux profile or clinical toxicity value.",
+        "Keep the delivery antigen, linker/attached form, released exatecan or derivative, exposure and prior resistance setting separate. Shared TOP1 action can allow cross-resistance, but its frequency and the effect of another treatment depend on the mechanism and clinical context.",
+        "Permeability, transporter handling and payload loading need the exact chemical or construct. No universal derivative profile follows from the exatecan name. The CLIO-8221 source identifies exatecan among two cargoes and supplies trial design, rather than a clinical-benefit result."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "next-generation-adc-payloads",
+      "kind": "term",
+      "name": "Next-generation antibody-conjugate payloads",
+      "aka": [
+        "non-TOP1 payloads",
+        "novel ADC payload mechanisms",
+        "ADC payload diversification"
+      ],
+      "tldr": "Antibodies can carry drugs that block gene reading, remove proteins, interrupt cell signals or activate immune cells. Each approach needs its own evidence that the drug reaches its target and helps people safely.",
+      "summary": "Payload diversification changes what an antibody delivers, independently of which surface antigen it binds. This map includes transcription and splicing inhibitors, repair-checkpoint inhibitors, metabolic and apoptosis agents, targeted protein degraders, immune agonists, signaling inhibitors, and additional tubulin and DNA-interacting scaffolds. Bispecific targeting is a delivery format; dual payload means distinct agents on one construct. Neither label alone establishes a new payload mechanism. Protein toxins, radionuclides, oligonucleotides, photosensitizers and antibody-directed nanocarriers have related delivery questions but retain their own format definitions. Evidence ranges from cell experiments and animal models to early clinical studies; a mechanism change does not by itself establish benefit after a TOP1 antibody-drug conjugate.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+        },
+        {
+          "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/"
+        },
+        {
+          "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/"
+        },
+        {
+          "label": "Yamazaki et al., dual-payload conjugates in breast cancer models (2021)",
+          "url": "https://doi.org/10.1038/s41467-021-23793-7"
+        },
+        {
+          "label": "Carlino et al., Gq/11 inhibitor conjugate phase 1 study (2026)",
+          "url": "https://doi.org/10.1038/s41591-026-04518-z"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "af-hpa",
+        "dm21-c-maytansinoid-system",
+        "transcription-inhibitor-payloads",
+        "amanitin-payloads",
+        "triptolide-payloads",
+        "spliceosome-inhibitor-payloads",
+        "cdk-inhibitor-payloads",
+        "ddr-inhibitor-payloads",
+        "atr-inhibitor-payloads",
+        "nampt-inhibitor-payloads",
+        "bcl-xl-inhibitor-payloads",
+        "mcl1-inhibitor-payloads",
+        "hdac-inhibitor-payloads",
+        "gspt1-degrader-payloads",
+        "brd4-degrader-payloads",
+        "kif11-degrader-payloads",
+        "ksp-inhibitor-payloads",
+        "sting-agonist-payloads",
+        "tlr-agonist-payloads",
+        "gq11-inhibitor-payloads",
+        "pi3k-pikk-inhibitor-payloads",
+        "tubulysin-payloads",
+        "hemiasterlin-payloads",
+        "eribulin-payload",
+        "cryptophycin-payloads",
+        "anthracycline-payloads",
+        "ign-payloads",
+        "pdd-payloads",
+        "protein-alkylator-payloads",
+        "proteasome-inhibitor-payloads",
+        "ferroptosis-conjugate-payloads",
+        "protein-toxin-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "dual-payload-adc",
+        "bispecific-adc",
+        "degrader-antibody-conjugate",
+        "immune-stimulating-adc",
+        "radioimmunotherapy",
+        "antibody-oligonucleotide-conjugates",
+        "photoimmunotherapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "This is a map of publicly described mechanisms, not an exhaustive list of proprietary payload molecules or a ranking of treatments. Follow each concept to the experiment or trial supporting it.",
+        "Chemical redesign also matters within an existing mechanism. The Dolaflexin studies distinguish AF-HPA from its active auristatin F metabolite. The IMGC936 preclinical report describes a peptide-linked DM21-C maytansinoid system. These are distinct cargo designs within the tubulin category, rather than proof that every redesign introduces a new mechanism or avoids clinical resistance."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "transcription-inhibitor-payloads",
+      "kind": "term",
+      "name": "Transcription-inhibitor payloads",
+      "aka": [
+        "RNA polymerase inhibitor payloads",
+        "gene transcription payloads"
+      ],
+      "tldr": "Transcription-directed payloads interfere with the machinery that makes RNA. Antibody delivery is being studied to limit exposure, but each design needs evidence of useful activity and tolerability.",
+      "summary": "Transcription inhibition interrupts RNA production, unlike TOP1 poisons or tubulin inhibitors. Amanitin directly inhibits RNA polymerase II; triptolide interferes with the transcription factor TFIIH. The HDP-101 preclinical study included proliferating and resting myeloma cells. That result does not establish activity against every dormant tumor or clinical resistance mechanism. Targeted delivery, intracellular activity and tolerability must be demonstrated for each construct.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "HDP-101 in proliferating and resting myeloma models (2021)",
+          "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+        },
+        {
+          "label": "Hayashi et al., CD26-directed triptolide conjugate (2019)",
+          "url": "https://doi.org/10.3390/cancers11081138"
+        },
+        {
+          "label": "Bushnell et al.: amanitin/RNA polymerase II structural study (2002)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+        },
+        {
+          "label": "Liu et al.: POLR2A dosage hypothesis in colorectal models (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+        },
+        {
+          "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+        },
+        {
+          "label": "Author correction to the colorectal POLR2A report (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+        },
+        {
+          "label": "Publisher correction to the TNBC nanoparticle report (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+        },
+        {
+          "label": "Author correction to the TNBC nanoparticle report (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+        },
+        {
+          "label": "Retraction notice for a separate HER2-low/17p-loss report (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+        },
+        {
+          "label": "Letschert et al.: amatoxin transport in cells and human hepatocytes (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+        },
+        {
+          "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+        },
+        {
+          "label": "Liu et al., N-acetylcysteine in amatoxin poisoning (2020 systematic review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32609548/"
+        },
+        {
+          "label": "Singh et al., engineered myeloma amanitin-conjugate models (2024 preprint)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38260385/"
+        },
+        {
+          "label": "Papacharisi et al., TROP2-amanitin preclinical studies (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39564769/"
+        },
+        {
+          "label": "Ren et al., exatecan/triptolide preclinical platform (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41121984/"
+        },
+        {
+          "label": "Author correction: colorectal POLR2A report (2021)",
+          "url": "https://www.nature.com/articles/s41586-021-03664-3"
+        },
+        {
+          "label": "Author correction: TNBC nanoparticle report (2020)",
+          "url": "https://www.nature.com/articles/s41565-020-0635-3"
+        },
+        {
+          "label": "Heidelberg Pharma sponsor update, 15 October 2026",
+          "url": "https://heidelberg-pharma.com/en/press-investors/announcements/press-releases-and-ad-hoc-announcements/pr-heidelberg-pharma-reports-on-the-first-nine-months-of-financial-year-2026"
+        },
+        {
+          "label": "HDP-101 trial: dated registry status",
+          "url": "https://clinicaltrials.gov/study/NCT04879043"
+        },
+        {
+          "label": "HDP-101 China trial: dated registry status",
+          "url": "https://clinicaltrials.gov/study/NCT07529782"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "amanitin-payloads",
+        "triptolide-payloads",
+        "cdk-inhibitor-payloads",
+        "spliceosome-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [
+        "polr2a"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Transcription makes RNA from a DNA template; replication copies DNA. Amanitin acts on RNA polymerase II, while triptolide-directed designs interfere with other transcription machinery. A transcription-directed cargo is not automatically the same chemical or target as another member of the category.",
+        "The Figueroa-Vazquez HDP-101 study included proliferating and resting myeloma cells, with BCMA-negative controls and animal models. This establishes an experimental cell-state scope, not eradication of every dormant clone, intrinsic tumor specificity or human benefit.",
+        "The POLR2A dosage hypothesis concerns measured loss of a neighboring essential gene, sometimes with TP53-region deletion. A TP53 point mutation alone does not establish POLR2A loss or a clinical response rule. The colorectal amanitin-conjugate report and the TNBC siRNA-nanoparticle report used different delivery formats.",
+        "Healthy cells also rely on transcription. The chemical species released from a conjugate, linker stability, antigen access, cellular uptake and normal-organ exposure remain relevant. OATP1B3-mediated uptake was studied for amatoxins; it does not give a permeability or toxicity value for every attached derivative.",
+        "The 2015 colorectal dosage report and the 2019 TNBC nanoparticle paper have published corrections. Separate prostate/17p-loss and HER2-low/17p-loss reports were retracted in 2026 and are excluded from support. A corrected or retracted preclinical report must not become an unqualified clinical claim.",
+        "A registry establishes a study design and dated status. Sponsor response reports, model regressions, patient-derived laboratory material and randomized patient outcomes are different evidence types. None should be substituted for an independently reviewed human benefit result.",
+        "RNA polymerase II makes RNA from protein-coding genes; POLR2A encodes its largest catalytic subunit. Bushnell’s alpha-amanitin co-crystal study used yeast polymerase and supported a mechanism for blocking translocation. Transcription is different from copying DNA before division, but non-dividing healthy cells still need it. The Figueroa-Vazquez BCMA-directed amanitin work affected proliferating and resting myeloma cells while sparing BCMA-negative controls. In its mouse models, single intravenous doses produced durable complete remissions; this is not proof of eliminating dormant human disease. In the dosage hypothesis, hemizygous loss means one copy remains at the locus, unlike loss of both copies. The proposed vulnerability concerns reduced capacity of an essential gene co-deleted with TP53, rather than dependence on an activating cancer driver. POLR2A lies beside TP53 on chromosome 17p. In Liu’s colorectal models, expression tracked copy number, suppression acted independently of p53 itself, and an EpCAM-directed amanitin conjugate produced complete regressions in mice. Xu instead tested POLR2A siRNA nanoparticles in TNBC models with hemizygous loss. A TP53 mutation does not establish that copy state, and two copies do not by themselves guarantee a normal-tissue safety margin.",
+        "The 2015 colorectal POLR2A-dosage paper has a 2021 correction replacing two caspase-3 staining panels; the authors state those images were not used for quantitative analysis and the original article was not corrected online. The 2019 TNBC siRNA paper has a 2019 correction to supplementary material and a 2020 correction replacing the Fig. 5j siNT@NPs image. These are distinct from the separate reports retracted in 2026. POLR2A copy loss, a TP53 point mutation, siRNA delivery and an amanitin conjugate remain different biological and delivery questions.",
+        "Liu’s 2020 review concerned N-acetylcysteine treatment in 506 amatoxin-poisoned patients across 13 studies. It is not an incidence study of an antibody conjugate. Letschert’s transporter experiments identified OATP1B3 uptake in engineered cells and human hepatocytes. That helps explain an organ-exposure concern for the studied amatoxin species; it does not prove that every derivative has the same transport, that poisoning predicts conjugate toxicity, or that an antibody automatically creates a safety margin. A transporter-uptake experiment does not quantify passive membrane passage or bystander killing by a released derivative. Those require the actual chemical and appropriately controlled neighbouring-cell experiments; neither potency nor low payload loading substitutes for a measured release and exposure profile.",
+        "Heidelberg Pharma’s October 2026 sponsor update reported that HDP-101 dose escalation had ended in April after 53 treated patients in ten cohorts. In pooled cohorts 5 to 9 it reported 13 responses among 31 evaluable people, about 42%; at the selected phase 2 dose, cohort 9 had 2 among 5, 40%. These counts use different denominators and the report does not establish confirmation or comparative benefit. The two refreshed HDP-101 registry records are recruiting; dated status and sponsor-reported responses are different evidence. These are myeloma reports, not human breast-cancer efficacy evidence. A clinical test of the gene-dosage hypothesis would pre-specify the copy-number or expression measurement, compare outcomes by that measurement, and report liver and other dose-limiting harms against delivered exposure. Laboratory selectivity is not a validated patient-selection rule.",
+        "Singh’s 2024 myeloma study is a preprint using engineered TP53/POLR2A models, not a validated 17p patient-selection test. Papacharisi’s TROP2-amanitin experiments concern pancreatic and breast models. Their abstract reports picomolar cellular EC50 values, mouse xenograft activity and a 9.7 to 10.7 day half-life with no premature payload release in serum for the tested constructs. In the tested refractory pancreatic and TNBC xenografts, the authors reported complete tumour eradication and greater activity than Trodelvy. These are preclinical comparisons, not human efficacy or safety estimates. Ren’s exatecan/triptolide platform report is another preclinical design; its abstract does not establish the TROP2 target or an early human result attributed to it elsewhere. New mechanism, delivery antigen, normal-tissue exposure, released chemical and prior resistance must be assessed separately before inferring a useful next treatment."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "amanitin-payloads",
+      "kind": "term",
+      "name": "Amanitin payloads",
+      "aka": [
+        "alpha-amanitin payload",
+        "amatoxin payloads",
+        "antibody-targeted amanitin conjugates",
+        "ATAC payloads",
+        "tismanitin"
+      ],
+      "tldr": "Amanitin payloads block the machinery that copies genes into messages. Attaching them to an antibody aims to direct their cell-killing action toward cancer cells.",
+      "summary": "Amanitin derivatives inhibit RNA polymerase II. HDP-101, also called pamlectabart tismanitin, links an amanitin derivative to an antibody against BCMA. Published preclinical work found activity in proliferating and resting myeloma cells and tumor regression in mouse models. The linked human trial is a separate safety and activity study. The toxicity of free amanitin and preclinical tolerability of a conjugate must not be treated as the same safety evidence.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "HDP-101 preclinical study (2021)",
+          "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT04879043",
+          "url": "https://clinicaltrials.gov/study/NCT04879043"
+        },
+        {
+          "label": "Papacharisi et al.: TROP2 amanitin-conjugate preclinical study (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39564769/"
+        },
+        {
+          "label": "Letschert et al.: human-hepatocyte amatoxin transport (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+        },
+        {
+          "label": "HDP-101 Chinese phase 1 study and source eligibility discrepancy",
+          "url": "https://clinicaltrials.gov/study/NCT07529782"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [
+        "polr2a"
+      ],
+      "drugs": [
+        "pamlectabart-tismanitin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "transcription-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The active target is RNA polymerase II, whose largest subunit is encoded by POLR2A. BCMA or TROP2 can instead be the antibody delivery address. A source identifying one does not identify the other.",
+        "Papacharisi tested TROP2-directed amanitin conjugates in cells and pancreatic/TNBC xenografts. Potency, reported serum stability and tumor eradication belong to those constructs and models. Their comparison with Trodelvy is not a randomized human comparison.",
+        "The Letschert uptake experiments identified OATP1B3-mediated amatoxin transport in engineered cells and primary human hepatocytes. Passive permeability, bystander activity and normal-organ toxicity still need evaluation for the actual released species; they cannot be assigned from the toxin-family name.",
+        "HDP-101 is being evaluated in separately registered dose-finding/expansion studies. The registry does not establish response benefit, a safe dose or prospective validation of POLR2A or 17p selection. The Chinese study has a source age-field inconsistency, described on the drug record; a generated eligibility summary is not sufficient."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "triptolide-payloads",
+      "kind": "term",
+      "name": "Triptolide payloads",
+      "aka": [
+        "TFIIH inhibitor payloads",
+        "Y-TR1",
+        "Y-TR-1"
+      ],
+      "tldr": "Triptolide payloads interfere with the cell's ability to make messages from its genes. An antibody-linked version has been studied in cancer cells and mice.",
+      "summary": "Y-TR1 combines the CD26-directed antibody YS110 with a triptolide derivative that inhibits the general transcription factor TFIIH. The published study reported altered RNA synthesis and antitumor activity in CD26-positive experimental models. This is preclinical evidence for a transcription-directed conjugate, not evidence that triptolide is an established antibody payload in clinical care.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Hayashi et al., Y-TR1 transcription-inhibitor conjugate (2019)",
+          "url": "https://doi.org/10.3390/cancers11081138"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "transcription-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "spliceosome-inhibitor-payloads",
+      "kind": "term",
+      "name": "Spliceosome-inhibitor payloads",
+      "aka": [
+        "RNA splicing inhibitor payloads",
+        "thailanstatin",
+        "thialanstatin",
+        "spliceostatin payloads"
+      ],
+      "tldr": "These payloads disrupt the editing of gene messages before the cell uses them. Antibody-linked versions have shown activity in laboratory cancer models.",
+      "summary": "Thailanstatin and related spliceostatin-class agents inhibit pre-mRNA splicing. Primary studies demonstrated altered splicing and antigen-dependent killing with thailanstatin antibody conjugates, including activity in a gastric cancer xenograft model. Conjugation method and drug loading affected activity. This is distinct from stopping transcription and from degrading a translation protein. Laboratory activity in resistant cell lines does not establish clinical benefit after another antibody-drug conjugate.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Puthenveetil et al., splicing inhibitors as conjugate payloads (2016)",
+          "url": "https://doi.org/10.1021/acs.bioconjchem.6b00291"
+        },
+        {
+          "label": "Site-specific thailanstatin conjugates (2017)",
+          "url": "https://doi.org/10.1371/journal.pone.0178452"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [
+        "sf3b1"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "cdk-inhibitor-payloads",
+      "kind": "term",
+      "name": "Cyclin-dependent kinase inhibitor payloads",
+      "aka": [
+        "CDK inhibitor payloads",
+        "CDK2/7/9 inhibitor conjugates",
+        "SNS-032 payload",
+        "CDK9 inhibitor payloads"
+      ],
+      "tldr": "These payloads block enzymes that help cells divide or read genes. An antibody may help deliver them to cancer cells that depend on those processes.",
+      "summary": "A cetuximab conjugate carrying SNS-032 was tested in EGFR-expressing triple-negative breast cancer cells, spheroids and xenograft models. SNS-032 inhibits CDK2, CDK7 and CDK9; it should not be described as a selective CDK9 payload. The study supports preclinical cell-cycle-directed delivery. A CDK inhibitor payload is also different from a degrader payload that removes a CDK protein.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Cetuximab-SNS-032 in breast cancer models (2024)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-23-3110"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "transcription-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "ddr-inhibitor-payloads",
+      "kind": "term",
+      "name": "DNA damage response inhibitor payloads",
+      "aka": [
+        "DDR inhibitor payloads",
+        "repair-checkpoint inhibitor payloads"
+      ],
+      "tldr": "These payloads block the systems cells use to cope with damaged DNA. One strategy puts a damage-causing drug and a repair-checkpoint inhibitor on the same antibody.",
+      "summary": "DNA damage response inhibition is a payload mechanism only when the inhibitor is carried by the conjugate. CLIO-8221 combines exatecan with the ATR inhibitor berzosertib on a HER2-directed antibody. Its published trial-design abstract describes preclinical rationale and a phase 1/2 study, not clinical proof that the combination overcomes resistance. Giving a separate PARP, ATR or WEE1 inhibitor alongside an antibody-drug conjugate is a combination regimen, not evidence of that inhibitor being an attached payload.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "CLIO-8221 phase 1/2 trial-design abstract (2026)",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+        },
+        {
+          "label": "Azenosertib plus conjugates: a separate-drug combination study (2026)",
+          "url": "https://doi.org/10.1016/j.isci.2026.116390"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "atr-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "dual-payload-adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [
+        "nct07300943"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "PARP and WEE1 combination studies retrieved in this review were not relabelled as payload studies. Each proposed repair-inhibitor payload needs a source identifying what is physically carried."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "atr-inhibitor-payloads",
+      "kind": "term",
+      "name": "ATR inhibitor payloads",
+      "aka": [
+        "berzosertib payload",
+        "TOP1 plus ATR dual payload",
+        "CLIO-8221 payloads"
+      ],
+      "tldr": "An ATR inhibitor blocks a checkpoint that helps cells survive stress while copying DNA. Combining it with a DNA-damaging payload on one antibody is being tested in early research.",
+      "summary": "CLIO-8221 carries exatecan and berzosertib, pairing TOP1-mediated damage with ATR checkpoint inhibition. The primary trial-design abstract describes preclinical activity and the planned assessment of safety, dosing and activity in people. The direct registry records a phase 1/2 trial. These sources establish the construct and its evaluation, not comparative benefit or a validated biomarker for choosing it after TOP1 treatment.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "CLIO-8221 trial-design abstract (2026)",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT07300943",
+          "url": "https://clinicaltrials.gov/study/NCT07300943"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "dual-payload-adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "ddr-inhibitor-payloads"
+      ],
+      "trials": [
+        "nct07300943"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "nampt-inhibitor-payloads",
+      "kind": "term",
+      "name": "NAMPT inhibitor payloads",
+      "aka": [
+        "NAD depletion payloads",
+        "nicotinamide phosphoribosyltransferase inhibitor payloads"
+      ],
+      "tldr": "These payloads cut off a supply route for a molecule cells need to keep their metabolism working. Antibody delivery is being studied to direct that effect toward tumors.",
+      "summary": "NAMPT inhibitors interfere with nicotinamide adenine dinucleotide, or NAD, salvage. Anti-c-KIT conjugates showed target-dependent efficacy in a gastrointestinal stromal tumor xenograft study. A later primary study examined physicochemical and metabolic optimization of NAMPT inhibitor conjugates for blood and solid tumor models. These are preclinical payload studies; the dependence of healthy tissues on NAD makes selective delivery and tolerability central questions.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Karpov et al., NAMPT inhibitors as conjugate payloads (2018)",
+          "url": "https://doi.org/10.1021/acsmedchemlett.8b00254"
+        },
+        {
+          "label": "Ruedas et al., NAMPT payload optimization (2026)",
+          "url": "https://doi.org/10.1021/acsbiomedchemau.6c00047"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "bcl-xl-inhibitor-payloads",
+      "kind": "term",
+      "name": "BCL-XL inhibitor payloads",
+      "aka": [
+        "clezutoclax",
+        "mirzotamab clezutoclax",
+        "ABBV-155"
+      ],
+      "tldr": "These payloads release a brake that can stop damaged cells from dying. Attaching the drug to an antibody aims to concentrate that effect in cancer cells.",
+      "summary": "BCL-XL is an anti-apoptotic protein. Primary preclinical research tested BCL-XL inhibitor conjugates and showed that drug-linker changes altered cardiovascular, kidney and platelet toxicities in animal studies. The resulting linker-payload was incorporated into the B7-H3-directed mirzotamab clezutoclax, or ABBV-155. The original solid-tumor trial is completed in the registry. This represents an apoptosis-directed payload, not proof that antibody targeting removes all toxicity from BCL-XL inhibition.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Judd et al., BCL-XL inhibitor conjugates (2024)",
+          "url": "https://doi.org/10.1126/sciadv.ado7120"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT03595059",
+          "url": "https://clinicaltrials.gov/study/NCT03595059"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "mcl1-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "mcl1-inhibitor-payloads",
+      "kind": "term",
+      "name": "MCL-1 inhibitor payloads",
+      "aka": [
+        "S64315 payload",
+        "MIK665 payload",
+        "S227928 payload"
+      ],
+      "tldr": "These payloads block another protein that can protect cancer cells from dying. Antibody delivery is being studied to direct that effect toward selected blood cancers.",
+      "summary": "S227928 links the MCL-1 inhibitor S64315, also called MIK665, to a CD74-directed antibody. The primary ASH abstract reported intracellular payload release and target engagement in leukemia models. Single-agent activity was modest in the reported models, while combining the conjugate with the separate BCL-2 inhibitor venetoclax increased activity. This is an MCL-1 payload plus a separate drug, not a dual-payload construct. Preclinical results and a registered early trial do not establish clinical benefit or removal of the safety concerns associated with MCL-1 inhibition.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Maragno et al., S227928 preclinical ASH abstract (2024)",
+          "url": "https://doi.org/10.1182/blood-2024-210048"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT06563804",
+          "url": "https://clinicaltrials.gov/study/NCT06563804"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bcl-xl-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [
+        "mcl1"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The antibody binds CD74 on the cell surface; the payload acts on MCL-1 inside the cell. Approval of a different medicine linked to MCL1 does not establish approval of this conjugate."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "hdac-inhibitor-payloads",
+      "kind": "term",
+      "name": "Histone deacetylase inhibitor payloads",
+      "aka": [
+        "HDAC inhibitor payloads",
+        "ST7612AA1"
+      ],
+      "tldr": "These payloads alter how tightly genetic instructions are packaged and used. Researchers have attached them to antibodies to test targeted control of cancer-cell behavior.",
+      "summary": "Cetuximab conjugates carrying the histone deacetylase inhibitor ST7612AA1 were studied with cleavable and non-cleavable linkers. The primary report demonstrated changes in histone and tubulin acetylation and antitumor activity in animal models. This supports an epigenetic payload concept even when the unconjugated molecule is less cytotoxic than conventional payloads. Human safety and benefit require separate evaluation.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Cini et al., antibody delivery of an HDAC inhibitor (2018)",
+          "url": "https://doi.org/10.1039/c7sc05266a"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "gspt1-degrader-payloads",
+      "kind": "term",
+      "name": "GSPT1 degrader payloads",
+      "aka": [
+        "SMol006",
+        "GSPT1 molecular glue payloads",
+        "translation termination degrader payloads"
+      ],
+      "tldr": "These payloads tell the cell to destroy a protein used to finish making other proteins. The antibody directs the protein-removing drug toward cells carrying its target.",
+      "summary": "ORM-5029 delivers the GSPT1 molecular glue degrader SMol006 using pertuzumab. Its primary preclinical abstract describes GSPT1 depletion, stress responses and antitumor activity in models. GSPT1 acts in translation termination, not RNA transcription. ORM-5029 and the CD33-directed ORM-6151 reached human studies; their linked trials are now terminated. Those trial outcomes must remain visible when describing the promise of this mechanism.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Palacino et al., ORM-5029 preclinical abstract (2022)",
+          "url": "https://doi.org/10.1158/1538-7445.AM2022-3933"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT05511844",
+          "url": "https://clinicaltrials.gov/study/NCT05511844"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT06419634",
+          "url": "https://clinicaltrials.gov/study/NCT06419634"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "degrader-antibody-conjugate"
+      ],
+      "targets": [],
+      "drugs": [
+        "orm-5029",
+        "orm-6151"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "brd4-degrader-payloads",
+      "kind": "term",
+      "name": "BRD4 degrader payloads",
+      "aka": [
+        "BET degrader antibody payloads",
+        "antibody-PROTAC payloads"
+      ],
+      "tldr": "These payloads cause the cell to remove a protein that helps control gene activity. Antibody-linked versions have been tested in cancer cells and mice.",
+      "summary": "BRD4-directed heterobifunctional degraders recruit the cell's protein-disposal machinery rather than simply occupying an enzyme. Primary work demonstrated antigen-dependent BRD4 depletion and antitumor activity with degrader-antibody conjugates in mouse xenografts. This evidence supports antibody-mediated delivery of a degrader but does not establish that every intracellular protein can be reached or that a clinical therapeutic window follows from protein removal.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Dragovich et al., antibody delivery of BRD4 degraders, part 2 (2021)",
+          "url": "https://doi.org/10.1021/acs.jmedchem.0c01846"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "degrader-antibody-conjugate",
+        "protac-degrader"
+      ],
+      "targets": [
+        "brd4"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "kif11-degrader-payloads",
+      "kind": "term",
+      "name": "KIF11 degrader payloads",
+      "aka": [
+        "dKIF976",
+        "Eg5 degrader payloads",
+        "KSP degrader payloads"
+      ],
+      "tldr": "These experimental payloads remove a motor protein needed for cell division. They differ from drugs that block the same motor without removing it.",
+      "summary": "An ASCO preclinical abstract described dKIF976, a cereblon-recruiting KIF11 degrader, and antibody conjugates with antigen-dependent protein degradation and cell-growth inhibition. KIF11 is also called Eg5 or kinesin spindle protein. The reported conjugate experiments were cellular studies; the abstract does not demonstrate clinical activity or an established safety advantage over KIF11 inhibitors.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Feng et al., KIF11 degrader conjugate, ASCO abstract (2025)",
+          "url": "https://doi.org/10.1200/JCO.2025.43.16_suppl.3092"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ksp-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "degrader-antibody-conjugate"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "ksp-inhibitor-payloads",
+      "kind": "term",
+      "name": "Kinesin spindle protein inhibitor payloads",
+      "aka": [
+        "KSP inhibitor payloads",
+        "Eg5 inhibitor payloads",
+        "KIF11 inhibitor payloads",
+        "pyrrole-based KSP payloads"
+      ],
+      "tldr": "These payloads block a motor that cells need to separate their chromosomes. They interrupt division through a different target from drugs that bind the cell's scaffolding.",
+      "summary": "Kinesin spindle protein, also called Eg5 or KIF11, is a motor involved in spindle formation. Primary research linked pyrrole-based inhibitors to antibodies against HER2 and TWEAKR/Fn14 and demonstrated selective activity in cell and animal tumor models. The study emphasized stable conjugation and sustained intracellular exposure. Blocking this motor remains a mitosis-directed strategy; it is not a tubulin-binding mechanism and should not be classified as one.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Lerchen et al., pyrrole-based KSP inhibitor conjugates (2018)",
+          "url": "https://doi.org/10.1002/anie.201807619"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "kif11-degrader-payloads",
+        "tubulin-inhibitor-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "sting-agonist-payloads",
+      "kind": "term",
+      "name": "STING agonist payloads",
+      "aka": [
+        "Immunosynthen",
+        "XMT-2056 payload"
+      ],
+      "tldr": "These payloads activate an internal alarm that can bring immune cells into action. Antibody delivery aims to trigger the alarm near tumors while limiting activation elsewhere.",
+      "summary": "STING is an intracellular sensor pathway involved in innate immunity. XMT-2056 is a HER2-directed conjugate whose STING agonist activated cancer cells and tumor-resident immune cells in preclinical studies. Its development study must be distinguished from its human trial, which the registry now lists as terminated. STING activation is not equivalent to TLR activation, and tumor-directed delivery does not guarantee freedom from systemic inflammation.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "XMT-2056 preclinical pharmacology (2025)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+        },
+        {
+          "label": "STING agonist conjugate platform development (2023)",
+          "url": "https://doi.org/10.1021/acs.jmedchem.3c00907"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT05514717",
+          "url": "https://clinicaltrials.gov/study/NCT05514717"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "immune-stimulating-adc",
+        "sting-agonist"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "tlr-agonist-payloads",
+      "kind": "term",
+      "name": "Toll-like receptor agonist payloads",
+      "aka": [
+        "TLR7/8 agonist payloads",
+        "TLR8 agonist conjugates",
+        "TLR7 agonist conjugates"
+      ],
+      "tldr": "These payloads stimulate immune-cell sensors that recognize danger. The goal is to direct immune activation toward a tumor using an antibody.",
+      "summary": "TLR7/8 agonist antibody conjugates have induced myeloid activation and adaptive immune responses in preclinical studies. The Ackerman study required tumor-antigen recognition, Fc-receptor-dependent phagocytosis and TLR activation, rather than payload toxicity alone. BDC-1001 and SBT6050 are human-study examples. The BDC-1001 registry studies are terminated; one SBT6050 study is of unknown status and another is terminated. Unknown status should not be presented as recruiting.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Ackerman et al., immune-stimulating conjugates (2021)",
+          "url": "https://doi.org/10.1038/s43018-020-00136-x"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT04278144",
+          "url": "https://clinicaltrials.gov/study/NCT04278144"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT05954143",
+          "url": "https://clinicaltrials.gov/study/NCT05954143"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT04460456",
+          "url": "https://clinicaltrials.gov/study/NCT04460456"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT05091528",
+          "url": "https://clinicaltrials.gov/study/NCT05091528"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc",
+        "immune-stimulating-adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "gq11-inhibitor-payloads",
+      "kind": "term",
+      "name": "Gq/11 inhibitor payloads",
+      "aka": [
+        "SDZ475",
+        "DYP688 payload",
+        "GNAQ GNA11 inhibitor conjugates"
+      ],
+      "tldr": "These payloads block a cell signal that drives some melanomas. An antibody carries the inhibitor into cells bearing a melanoma-associated surface protein.",
+      "summary": "DYP688 targets the surface protein PMEL and delivers the Gq/11 inhibitor SDZ475. A published phase 1 study in metastatic uveal melanoma and other GNAQ/GNA11-mutant melanomas reported human safety and preliminary activity. This is direct pathway inhibition rather than a conventional tubulin or DNA-damaging payload. The study was an early dose-escalation trial, so it does not establish a comparative survival benefit or approval.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "DYP688 phase 1 clinical study (2026)",
+          "url": "https://doi.org/10.1038/s41591-026-04518-z"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT05415072",
+          "url": "https://clinicaltrials.gov/study/NCT05415072"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [
+        "nct05415072"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "pi3k-pikk-inhibitor-payloads",
+      "kind": "term",
+      "name": "PI3K/PIKK inhibitor payloads",
+      "aka": [
+        "HMPL-A580 payload",
+        "PI3K/PIKK antibody-targeted therapy conjugates"
+      ],
+      "tldr": "These payloads block enzymes that support cancer-cell growth and stress responses. Antibody delivery is being studied as a way to direct those effects toward tumors.",
+      "summary": "The primary AACR abstract for HMPL-A580 describes an EGFR-directed antibody carrying a PI3K/PIKK inhibitor through a cleavable linker. Cell and xenograft experiments reported intracellular delivery, pathway inhibition and antitumor activity. PI3K and PIKK denote different kinase families; this broad payload label must not be reduced to a single selective kinase target without supporting data. The cited evidence is a preclinical conference abstract, not a clinical efficacy report.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Cai et al., HMPL-A580 preclinical AACR abstract (2026)",
+          "url": "https://doi.org/10.1158/1538-7445.AM2026-4549"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "anthracycline-payloads",
+      "kind": "term",
+      "name": "Anthracycline payloads",
+      "aka": [
+        "PNU-159682",
+        "nemorubicin metabolite payloads",
+        "anthracycline antibody conjugates"
+      ],
+      "tldr": "Antibodies can carry potent relatives of an established chemotherapy family called anthracyclines. Researchers are testing these payloads as another way to kill targeted cancer cells.",
+      "summary": "PNU-159682 is an anthracycline derivative used in experimental antibody conjugates. A primary study of a uPAR-directed PNU-159682 conjugate reported tumor suppression and changes in the immune environment in pancreatic cancer models. It is a distinct scaffold from camptothecin TOP1 payloads. An anthracycline label alone does not establish the dominant mechanism, resistance profile or clinical safety of each derivative.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "uPAR-directed anthracycline conjugate in pancreatic cancer models (2025)",
+          "url": "https://doi.org/10.1126/sciadv.adq0513"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "eribulin-payload",
+      "kind": "term",
+      "name": "Eribulin as an antibody-conjugate payload",
+      "aka": [
+        "ecteribulin payload",
+        "MORAb-202 payload",
+        "halichondrin-derived payloads"
+      ],
+      "tldr": "Eribulin is a drug that disrupts the scaffolding needed for cell division. Linking it to an antibody changes how it is delivered and needs separate evidence from eribulin given on its own.",
+      "summary": "Farletuzumab ecteribulin, or MORAb-202, combines a folate receptor alpha antibody with eribulin through a cleavable linker. Primary preclinical work reported target-dependent activity, bystander killing in coculture, and activity in breast cancer xenografts. Eribulin represents another tubulin-directed scaffold, not a new biological target beyond tubulin. Evidence and toxicity of the conjugate must be kept separate from those of free eribulin.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "MORAb-202 in breast cancer models (2021)",
+          "url": "https://doi.org/10.1111/cas.14898"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "eribulin",
+        "farletuzumab-ecteribulin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "tubulysin-payloads",
+      "kind": "term",
+      "name": "Tubulysin payloads",
+      "aka": [
+        "tubulysin antibody conjugates",
+        "tubulysin analog payloads"
+      ],
+      "tldr": "Tubulysins are another family of drugs that disrupt the cell's scaffolding. Antibody-linked versions are being studied to deliver their cell-killing action more selectively.",
+      "summary": "Tubulysin derivatives are tubulin-directed payloads distinct from auristatins and maytansinoids. A primary comparison of tubulysin antibody conjugates found that conjugation mode and site changed payload stability, pharmacokinetics and efficacy in a gastric cancer xenograft model. Results from a peptide or small-molecule tubulysin conjugate should not be described as antibody-conjugate evidence.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Tubulysin conjugation site, stability and efficacy study (2025)",
+          "url": "https://doi.org/10.1002/open.202400522"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "hemiasterlin-payloads",
+      "kind": "term",
+      "name": "Hemiasterlin payloads",
+      "aka": [
+        "SC209",
+        "tazevibulin payload",
+        "3-aminophenyl hemiasterlin",
+        "SC239 linker-payload"
+      ],
+      "tldr": "Hemiasterlin-derived payloads disrupt the scaffolding used in cell division. One is carried by the experimental antibody drug luveltamab tazevibulin.",
+      "summary": "Luveltamab tazevibulin, or STRO-002, uses the folate receptor alpha antibody to deliver the tubulin-targeting hemiasterlin derivative SC209. SC239 is the linker-warhead used to assemble the conjugate, not a synonym for the released SC209 alone. The primary discovery study reported antigen-dependent killing, bystander activity and efficacy in xenograft models. This is a different scaffold within the tubulin class, not a mechanism unrelated to tubulin.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Discovery of STRO-002 and its hemiasterlin payload (2023)",
+          "url": "https://doi.org/10.1158/1535-7163.MCT-22-0322"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "luveltamab-tazevibulin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "cryptophycin-payloads",
+      "kind": "term",
+      "name": "Cryptophycin payloads",
+      "aka": [
+        "cryptophycin-55",
+        "cryptophycin-52",
+        "aza-cryptophycin payloads"
+      ],
+      "tldr": "Cryptophycin payloads are powerful blockers of cell division. Antibody-linked versions are being investigated to improve how these drugs reach tumors.",
+      "summary": "Cryptophycin-55 derivatives have been attached to trastuzumab and tested in HER2-positive cell lines and mouse xenografts. Cryptophycin-52 is a tubulin inhibitor; the primary conjugate study investigated release and conversion of the cryptophycin-55 prodrug. This is an experimental tubulin-directed scaffold. Activity of the free molecule, prodrug and intact antibody conjugate must be distinguished.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Lai et al., cryptophycin-55/52 antibody conjugates (2020)",
+          "url": "https://doi.org/10.1016/j.ejmech.2020.112364"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "ign-payloads",
+      "kind": "term",
+      "name": "Indolinobenzodiazepine payloads",
+      "aka": [
+        "IGN payloads",
+        "indolinobenzodiazepine dimers",
+        "monoimine IGN"
+      ],
+      "tldr": "These payloads attach a chemical group to DNA and can prevent a cancer cell from surviving. Their chemistry differs from related payloads that join two DNA strands together.",
+      "summary": "Indolinobenzodiazepine dimers, or IGNs, include monoimine DNA alkylators. A primary mechanistic study showed stable DNA adducts and distinguished monoimine IGNs from diimine crosslinking analogues. Sharing a dimer scaffold does not mean that an IGN makes the same DNA crosslinks as a PBD dimer. The mechanism of the particular payload and released catabolite should be recorded.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "IGN DNA-binding and catabolite mechanism study (2019)",
+          "url": "https://doi.org/10.1021/acs.molpharmaceut.9b00675"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pbd-dimer-payloads",
+        "pdd-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "dna-alkylator-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "pdd-payloads",
+      "kind": "term",
+      "name": "Pyridinobenzodiazepine payloads",
+      "aka": [
+        "PDD payloads",
+        "sequence-selective DNA mono-alkylating payloads"
+      ],
+      "tldr": "These experimental payloads are designed to damage selected DNA sequences. They are related to other DNA-binding payloads but have their own chemistry and evidence.",
+      "summary": "Pyridinobenzodiazepines, or PDDs, are sequence-selective DNA mono-alkylators. A primary study linked a PDD monomer derivative to trastuzumab and reported activity in a pancreatic cancer xenograft model. The results support a preclinical payload concept. They do not establish a clinical advantage over TOP1 conjugates or justify assigning the crosslinking mechanism of PBD dimers to PDD monomers.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Andriollo et al., sequence-selective PDD payload (2025)",
+          "url": "https://doi.org/10.1039/d4md01040j"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ign-payloads",
+        "pbd-dimer-payloads"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "dna-alkylator-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "protein-alkylator-payloads",
+      "kind": "term",
+      "name": "Protein-alkylating payloads",
+      "aka": [
+        "PA289",
+        "ProAlk payloads",
+        "cytosolic protein alkylator payloads"
+      ],
+      "tldr": "These experimental payloads are proposed to kill cells by chemically modifying proteins. The reported mechanism is still being investigated.",
+      "summary": "An AACR abstract described PA289, a seco-CBI-based prodrug linker-payload with a glucuronide trigger. The authors proposed alkylation of one or more cytosolic proteins and reported activity in cell and xenograft experiments, with exploratory monkey toxicology. The protein target was not established in the abstract. Protein alkylation should remain an attributed mechanism hypothesis, not be silently recast as proven DNA alkylation or human safety.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Mysliwy et al., PA289 preclinical AACR abstract (2025)",
+          "url": "https://doi.org/10.1158/1538-7445.AM2025-1579"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "proteasome-inhibitor-payloads",
+      "kind": "term",
+      "name": "Proteasome inhibitor payloads",
+      "aka": [
+        "carfilzomib conjugate payload",
+        "lysosomal payload inactivation"
+      ],
+      "tldr": "Blocking a cell's protein-disposal machinery is one proposed payload strategy. A study of antibody-linked carfilzomib shows why a drug that works on its own can lose activity after delivery.",
+      "summary": "Carfilzomib was attached to antibodies against CD22 or HER2, but the resulting conjugates lost their cell-killing potency. The primary study found that lysosomal enzymes could release carfilzomib and then inactivate it. This is negative evidence for those constructs, not evidence that proteasome inhibition can never work as a payload. Intracellular chemical stability must be tested alongside release and target potency.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Carfilzomib conjugates and lysosomal inactivation (2019)",
+          "url": "https://doi.org/10.1124/dmd.119.086595"
+        }
+      ],
+      "tags": [
+        "failure"
+      ],
+      "related": [
+        "proteasome-inhibitor"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "carfilzomib"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "ferroptosis-conjugate-payloads",
+      "kind": "term",
+      "name": "Ferroptosis-inducing payloads and antibody-directed carriers",
+      "aka": [
+        "ferroptosis payloads",
+        "sulfasalazine payload",
+        "IKE antibody nanogel conjugate"
+      ],
+      "tldr": "Ferroptosis is cell death caused by damage to fatty molecules in cell membranes. Antibody-directed carriers are being studied to deliver drugs that trigger it in tumors.",
+      "summary": "A primary study linked an FGFR4 antibody to the ferroptosis inducer sulfasalazine through a cleavable linker and reported target-dependent activity in liver cancer models. A separate study used an anti-PD-L1 antibody linked to a nanogel encapsulating imidazole ketone erastin, or IKE, with ferroptosis and tumor suppression in experimental models. The former is a directly conjugated small-molecule payload; the latter is an antibody-directed nanocarrier. Both are preclinical evidence and should retain their different delivery formats.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FGFR4 conjugate carrying sulfasalazine (2025)",
+          "url": "https://doi.org/10.1016/j.isci.2025.113718"
+        },
+        {
+          "label": "Antibody nanogel delivery of a ferroptosis inducer (2024)",
+          "url": "https://doi.org/10.1016/j.chembiol.2024.10.014"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "These studies concern sulfasalazine and IKE. They do not establish that every inhibitor of the ferroptosis-defense protein GPX4 can be made into a conventional antibody payload."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "protein-toxin-payloads",
+      "kind": "term",
+      "name": "Protein toxin payloads and immunotoxins",
+      "aka": [
+        "ribosome-inactivating protein payloads",
+        "deBouganin",
+        "bouganin conjugates"
+      ],
+      "tldr": "An antibody can deliver a protein toxin that stops a cell making proteins. These larger payloads belong to the related field of immunotoxins and need different delivery and safety studies.",
+      "summary": "DeBouganin is a modified ribosome-inactivating protein. A primary study tested trastuzumab-deBouganin conjugates and an antibody-fragment fusion protein in cells resistant to tubulin-payload conjugates. Both chemical conjugation and fusion-protein delivery were examined. These protein toxins are different from small-molecule degraders such as GSPT1 payloads and from conventional chemotherapy payloads. The cited cellular results do not establish clinical activity after antibody-drug conjugate treatment.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "DeBouganin conjugates and fusion proteins in resistant cells (2016)",
+          "url": "https://doi.org/10.3390/molecules21121741"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "pamlectabart-tismanitin",
+      "kind": "drug",
+      "name": "Pamlectabart tismanitin",
+      "aka": [
+        "HDP-101",
+        "BCMA-ATAC"
+      ],
+      "tldr": "Pamlectabart tismanitin (HDP-101) is an experimental BCMA-directed antibody conjugate carrying an amanitin derivative. Registered studies evaluate safety, dose and activity in relapsed or refractory myeloma.",
+      "summary": "HDP-101 uses BCMA recognition for delivery and an amanitin derivative to inhibit RNA polymerase II. Preclinical studies included proliferating and resting myeloma cells, BCMA-negative controls and animal models; these are separate from patient outcomes.\n\nThe dated registry lists a phase 1/2 study, NCT04879043, and a Chinese phase 1 study, NCT07529782, as recruiting overall. Their enrollment counts are estimates, not treated-patient denominators or local slots. The study listings do not themselves establish comparative benefit, current availability at a facility or a validated POLR2A-based selection rule.",
+      "status": "phase-2",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Figueroa-Vazquez et al.: HDP-101 proliferating/resting myeloma preclinical study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33298585/"
+        },
+        {
+          "label": "HDP-101 phase 1/2 registry, checked November 2026",
+          "url": "https://clinicaltrials.gov/study/NCT04879043"
+        },
+        {
+          "label": "HDP-101 Chinese phase 1 registry, including conflicting age fields",
+          "url": "https://clinicaltrials.gov/study/NCT07529782"
+        }
+      ],
+      "tags": [
+        "pipeline",
+        "ctgov-ingest"
+      ],
+      "related": [],
+      "cancers": [
+        "myeloma-relapsed-refractory"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "bcma"
+      ],
+      "drugs": [],
+      "companies": [
+        "heidelberg-pharma"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct04879043",
+        "nct07529782"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The direct April 2026 Chinese registry record has maximumAge set to 18 Years while its narrative inclusion criterion says age at least 18. The semantic trial result reflects that structured field. This is a contradiction within the registry source, not evidence of a pediatric indication or a corrected adult age limit. Eligibility needs confirmation against the actual protocol and study team.",
+        "The September 2026 main study registry has dose escalation/expansion objectives and estimated enrollment. No results table is posted in the captured records; that alone does not establish that no conference or other clinical report exists.",
+        "A low POLR2A-copy hypothesis is different from a proven selection biomarker. The construct must still reach suitable BCMA-expressing cells and achieve a tolerable exposure. Cell-state activity or tumor regression in models does not establish a benefit after a particular prior ADC in a person."
+      ],
+      "provenance": {
+        "editedBy": "OnCo gap audit, class 5 (company pipeline pages and ClinicalTrials.gov v2)",
+        "editedOn": "2026-11-03"
+      },
+      "code": "HDP-101",
+      "modality": "Antibody-drug conjugate with an amanitin payload (ATAC)",
+      "mechanism": "BCMA-directed antibody delivery of an amanitin derivative that inhibits RNA polymerase II; delivery antigen and intracellular payload target are distinct.",
+      "approvals": [],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    },
+    {
+      "id": "sn-38",
+      "kind": "term",
+      "name": "SN-38",
+      "aka": [
+        "7-ethyl-10-hydroxycamptothecin"
+      ],
+      "tldr": "SN-38 is an irinotecan metabolite used as a DNA-damaging payload in sacituzumab govitecan. Its release, loading and safety need the context of the whole product.",
+      "summary": "SN-38 stabilises the normally temporary TOP1-DNA cleavage complex, interfering with DNA resealing. It is chemically distinct from irinotecan and from the other camptothecin-derived ADC cargo.\n\nThe sacituzumab govitecan label describes a hydrolysable CL2A linkage and mean loading of seven to eight SN-38 molecules per antibody. That is a product example, rather than a loading requirement dictated by free-drug potency. The label warns about neutropenia and diarrhoea; reduced UGT1A1 activity increases specified blood-count risks. A transporter experiment does not establish a clinical sequencing rule.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/SN-38",
+      "links": [
+        {
+          "label": "TRODELVY prescribing information: SN-38, loading and safety",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        },
+        {
+          "label": "Cardillo et al.: prototype CL2A-SN-38 conjugate (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21372224/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump",
+        "topoisomerase-inhibitors",
+        "irinotecan"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "sacituzumab-govitecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "topoisomerase-i-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dxd",
+      "kind": "term",
+      "name": "DXd",
+      "aka": [
+        "MAAA-1181a",
+        "MAAA-1181a; an exatecan derivative"
+      ],
+      "tldr": "DXd is an exatecan-derived topoisomerase poison. Its released chemical, attached linker-drug and complete antibody conjugates are different objects.",
+      "summary": "DXd, also called MAAA-1181a, is the released TOP1 poison. Deruxtecan denotes a linker-DXd component. Neither is simply an alias for every exatecan derivative.\n\nThe T-DXd and Dato-DXd labels describe mean loading of eight and four respectively. A common free chemical does not impose the same loading, exposure or safety on each conjugate. Permeability and local bystander activity were measured for defined species and models; these findings alone do not explain all clinical benefit in HER2-low disease or guarantee limited systemic harm.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Deruxtecan",
+      "links": [
+        {
+          "label": "ENHERTU prescribing information: DXd, loading and transporters",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+        },
+        {
+          "label": "DATROWAY prescribing information: DXd and mean loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"
+        },
+        {
+          "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump",
+        "topoisomerase-inhibitors",
+        "ild"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-deruxtecan",
+        "datopotamab-deruxtecan",
+        "patritumab-deruxtecan",
+        "ifinatamab-deruxtecan",
+        "raludotatug-deruxtecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "topoisomerase-i-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "t030",
+      "kind": "term",
+      "name": "T030 (KL610023)",
+      "aka": [
+        "T030",
+        "KL610023",
+        "Belotecan-derived KL610023"
+      ],
+      "tldr": "T030, also called KL610023, is the belotecan-derived payload in SKB264. It is distinct from the TL033 drug-linker intermediate.",
+      "summary": "The SKB264 preclinical paper identifies KL610023, also named T030, as a belotecan-derived TOP1 inhibitor. TL033 denotes the drug-linker intermediate, and SKB264 denotes the complete TROP2-directed ADC.\n\nThe study reports approximately 7.4 payload molecules per antibody by reversed-phase chromatography and a TOP1-mediated DNA relaxation assay. Its cell and animal work does not establish a specified ABCB1 or ABCG2 comparison against SN-38. Lower efflux susceptibility and better clinical sequencing should remain unestablished here until supported by the relevant direct experiment.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Belotecan",
+      "links": [
+        {
+          "label": "SKB264 structure, TOP1 assay and animal pharmacokinetics (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36620535/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump",
+        "topoisomerase-inhibitors"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "sacituzumab-tirumotecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "topoisomerase-i-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "mmae",
+      "kind": "term",
+      "name": "MMAE",
+      "aka": [
+        "monomethyl auristatin E",
+        "Monomethyl auristatin E"
+      ],
+      "tldr": "MMAE is a tubulin-disrupting auristatin cargo. Its released-drug behaviour helps explain a particular conjugate, but does not make all vedotin products equivalent.",
+      "summary": "Monomethyl auristatin E disrupts tubulin-dependent cell division. Vedotin denotes the linked component used in named ADCs, rather than free MMAE alone.\n\nThe brentuximab vedotin label describes proteolytic release and mean loading of about four. Cellular transporter and bystander experiments need their exact construct and model. Antigen distribution, exposure, processing and sensitivity of neighbouring cells also influence the effect. Peripheral neuropathy and blood-count effects in a named product are clinical findings, distinct from a free-MMAE membrane assay.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Monomethyl_auristatin_E",
+      "links": [
+        {
+          "label": "ADCETRIS prescribing information: MMAE, loading and safety",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+        },
+        {
+          "label": "Li et al.: intracellular MMAE release and bystander models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26921341/"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "enfortumab-vedotin",
+        "brentuximab-vedotin",
+        "tisotumab-vedotin",
+        "telisotuzumab-vedotin",
+        "disitamab-vedotin",
+        "zilovertamab-vedotin",
+        "cmg901"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "mmaf",
+      "kind": "term",
+      "name": "MMAF",
+      "aka": [
+        "monomethyl auristatin F",
+        "Monomethyl auristatin F"
+      ],
+      "tldr": "Free MMAF and the cysteine-containing metabolite released by a mafodotin ADC are different chemicals. Their membrane access and transporter findings must be kept separate.",
+      "summary": "Monomethyl auristatin F is a tubulin-disrupting auristatin. Early experiments inferred reduced access of the free compound to cells; reduced access does not mean zero passage across every membrane or absence of injury to neighbouring healthy tissues.\n\nThe belantamab mafodotin label identifies cys-mcMMAF as a released catabolite. Its transporter statements differ from experiments on free MMAF because the materials are different. The product has ocular and blood-count risks despite limited bystander activity in specified models.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Monomethyl_auristatin_F",
+      "links": [
+        {
+          "label": "Doronina et al.: MMAF conjugates and released catabolites (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16417259/"
+        },
+        {
+          "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "belantamab-mafodotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dm1",
+      "kind": "term",
+      "name": "DM1",
+      "aka": [
+        "mertansine",
+        "Mertansine"
+      ],
+      "tldr": "DM1 is a tubulin-disrupting maytansinoid. Free DM1, the MCC-DM1 component and a lysine-containing released catabolite have different chemical identities.",
+      "summary": "DM1, also called mertansine, is the maytansinoid cargo in trastuzumab emtansine. Emtansine denotes its MCC-DM1 linked component. The product label distinguishes DM1, MCC-DM1 and Lys-MCC-DM1 analytes.\n\nLow permeability measured for a lysine-containing catabolite is not a measurement of free DM1. It also does not establish a clinical requirement for uniformly high HER2 or explain a comparison of whole ADCs by itself. Labelled product risks include thrombocytopenia, liver injury and peripheral neuropathy.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mertansine",
+      "links": [
+        {
+          "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-emtansine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dm4",
+      "kind": "term",
+      "name": "DM4",
+      "aka": [
+        "ravtansine",
+        "Ravtansine"
+      ],
+      "tldr": "DM4 is a tubulin-disrupting maytansinoid. Its linked component, unconjugated form and S-methyl metabolite should be named separately.",
+      "summary": "DM4, also called ravtansine, is attached through sulfo-SPDB in mirvetuximab soravtansine. The product label distinguishes unconjugated DM4 and S-methyl-DM4 and reports P-gp substrate behaviour for both.\n\nRelated SPDB-DM4 experiments describe catabolites and bystander activity in cells and xenografts. Those experiments are not an exact sulfo-SPDB chemical or clinical comparison with DM1. The mirvetuximab label gives mean loading of 3.4 and important ocular and other product risks.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ravtansine",
+      "links": [
+        {
+          "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+        },
+        {
+          "label": "Kellogg et al.: SPDB-DM4 catabolites in cell and xenograft models (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21425776/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "mirvetuximab-soravtansine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-widdison-j-med-chem"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "pbd-sg3199",
+      "kind": "term",
+      "name": "SG3199 (PBD dimer)",
+      "aka": [
+        "SG3199",
+        "pyrrolobenzodiazepine dimer",
+        "Pyrrolobenzodiazepine dimer SG3199"
+      ],
+      "tldr": "SG3199 is a DNA-crosslinking PBD dimer. Tesirine, also called SG3249, is its drug-linker component and is not a free-SG3199 synonym.",
+      "summary": "SG3199 forms DNA crosslinks in the minor groove. Limited helix distortion does not make its damage undetectable or independent of DNA repair: the primary study tested repair-defective and multidrug-resistant cells.\n\nThe loncastuximab tesirine label describes mean loading of 2.3 SG3249 components per antibody and release of SG3199. Potency in a cell panel does not imply a wide clinical safety margin, no transporter susceptibility or activity in every slow-growing tumour. The label and a later cell study give different ABCG2/BCRP findings; both contexts are retained below.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pyrrolobenzodiazepine",
+      "links": [
+        {
+          "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+        },
+        {
+          "label": "SG3199 DNA-crosslinking and resistance models (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29992976/"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "zynlonta"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "pbd-dimer-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "calicheamicin",
+      "kind": "term",
+      "name": "Calicheamicin-family payloads",
+      "aka": [
+        "Enediyne cargo, including modified calicheamicins"
+      ],
+      "tldr": "Calicheamicins are DNA-damaging enediyne cargo. The modified components used in ozogamicin ADCs should be distinguished from unmodified family members.",
+      "summary": "Calicheamicin-family enediynes can produce DNA strand injury after activation. The ozogamicin labels describe chemically modified calicheamicin components and their processing, rather than an interchangeable free chemical for every family member.\n\nGemtuzumab ozogamicin has mean loading of two to three components, while inotuzumab ozogamicin has mean loading of six in the respective labels. Their distributions differ too. A free calicheamicin gamma1 transporter assay is not an assay of every released ozogamicin species. Liver injury and blood-count effects are important product risks.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Calicheamicin",
+      "links": [
+        {
+          "label": "MYLOTARG prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05"
+        },
+        {
+          "label": "BESPONSA prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "gemtuzumab-ozogamicin",
+        "inotuzumab-ozogamicin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "dna-cleaver-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "duocarmycin",
+      "kind": "term",
+      "name": "Duocarmycin-family payloads",
+      "aka": [
+        "DNA-alkylating cargo, including the seco-DUBA design"
+      ],
+      "tldr": "Duocarmycin payload designs damage DNA by alkylation. Their prodrugs, activated chemicals and linker-drugs are distinct, and preclinical activity does not establish benefit in every slow-growing cancer.",
+      "summary": "Duocarmycin designs combine DNA binding and alkylating features. The SYD985 chemistry study distinguishes an inactive seco prodrug from the activated drug and its attached linker-drug. It reports a mean loading of about 2.8 after fractionation of the particular preparation.\n\nThese properties are not interchangeable across all duocarmycin analogues. TULIP tested the complete trastuzumab duocarmazine product in previously treated HER2-positive advanced breast cancer; ocular toxicity affected tolerability. That study does not establish that a payload family treats all indolent or TOP1-resistant cancers.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Duocarmycin",
+      "links": [
+        {
+          "label": "Elgersma et al.: duocarmycin linker-drug design and SYD985 composition (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25635711/"
+        },
+        {
+          "label": "TULIP randomised phase 3 report (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39442070/"
+        },
+        {
+          "label": "Trastuzumab duocarmazine phase 1 study (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31257177/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-duocarmazine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "dna-alkylator-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "af-hpa",
+      "kind": "term",
+      "name": "AF-HPA and auristatin F",
+      "aka": [
+        "AF-HPA",
+        "auristatin F-hydroxypropylamide",
+        "Auristatin F-hydroxypropylamide"
+      ],
+      "tldr": "AF-HPA is an auristatin cargo used in the Dolaflexin platform. It can convert to active auristatin F, which has less access across membranes.",
+      "summary": "The Dolaflexin preclinical studies distinguish membrane-accessible auristatin F-hydroxypropylamide, or AF-HPA, from its less membrane-accessible but still active auristatin F metabolite. Auristatin F is not the same chemical as monomethyl auristatin F.\n\nThe XMT-1536 preclinical report describes roughly 10 to 15 AF-HPA molecules per antibody. This is a preparation-specific report, rather than a fixed mean or a common loading of eight. The earlier polyacetal Fleximer study used a vinca derivative; its platform name must not be treated as evidence for Dolaflexin composition. Cell and animal activity does not establish patient benefit or complete payload confinement.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+        },
+        {
+          "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/"
+        },
+        {
+          "label": "Polyacetal Fleximer with a vinca derivative, a distinct platform (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26113086/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "upifitamab-rilsodotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system",
+      "kind": "term",
+      "name": "DM21-C peptide-linked maytansinoid system",
+      "aka": [
+        "DM21-C"
+      ],
+      "tldr": "DM21-C is a peptide-linked maytansinoid system used in the investigational ADAM9-directed IMGC936 construct. Its attached component and released metabolites should be identified separately.",
+      "summary": "The IMGC936 preclinical report describes a DM21-C maytansinoid system with a cleavable tripeptide, site-specific conjugation and loading of approximately two. Earlier peer-reviewed chemical work studied peptide-cleavable self-immolative maytansinoids with different side chains and stereochemistry. That design family should not be collapsed into DM1 or DM4.\n\nA 2019 conference abstract reports DM51 as a major released catabolite of its DM21-C conjugates by LC-MS. That conference observation does not make DM51 an alias for the attached DM21-C system or identify every compound number in related papers. The IMGC936 phase 1/2 registry is completed and has posted results; no patient-benefit estimate is inferred here from the preclinical report or registry state.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/"
+        },
+        {
+          "label": "Peptide-cleavable self-immolative maytansinoid conjugates (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31620224/"
+        },
+        {
+          "label": "AACR 2019 abstract 538: DM21-C and DM51, conference evidence",
+          "url": "https://doi.org/10.1158/1538-7445.AM2019-538"
+        },
+        {
+          "label": "IMGC936 registry NCT04622774, last update 15 January 2025",
+          "url": "https://clinicaltrials.gov/study/NCT04622774"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "tubulin-inhibitor-payloads"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "cl2a",
+      "kind": "term",
+      "name": "CL2A",
+      "aka": [],
+      "tldr": "CL2A is a hydrolysable linker that can release SN-38 from sacituzumab govitecan. Release is not restricted to tumour tissue.",
+      "summary": "Hydrolysis of the SN-38 linkage. SN-38.\n\nThe prototype studied in 2011 is distinct from every later commercial preparation. Plasma release can contribute to exposure outside targeted cells; it is not confined to acidic tumour tissue.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sacituzumab_govitecan",
+      "links": [
+        {
+          "label": "TRODELVY prescribing information: SN-38, loading and safety",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+        },
+        {
+          "label": "Cardillo et al.: prototype CL2A-SN-38 conjugate (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21372224/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "sn-38",
+        "bystander-effect"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "sacituzumab-govitecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-cardillo-clin-cancer-res"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "ggfg",
+      "kind": "term",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl)",
+      "aka": [],
+      "tldr": "GGFG is a sequence of four amino acids in a protease-cleavable linker used to release DXd. Loading and safety belong to the named conjugate.",
+      "summary": "Proteolytic processing of the tetrapeptide-containing linker. DXd after processing of the linker-drug.\n\nNamed products have different mean loading: T-DXd 8 and Dato-DXd 4. Neither a sequence nor high loading alone establishes safety.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Trastuzumab_deruxtecan",
+      "links": [
+        {
+          "label": "Ogitani et al.: DS-8201a preclinical design (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27026201/"
+        },
+        {
+          "label": "ENHERTU prescribing information: DXd, loading and transporters",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+        },
+        {
+          "label": "DATROWAY prescribing information: DXd and mean loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dxd"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-deruxtecan",
+        "datopotamab-deruxtecan",
+        "patritumab-deruxtecan",
+        "ifinatamab-deruxtecan",
+        "raludotatug-deruxtecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-ogitani-clin-cancer-res"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "mc-vc-pabc",
+      "kind": "term",
+      "name": "mc-Val-Cit-PABC",
+      "aka": [],
+      "tldr": "mc-Val-Cit-PABC is a peptide-containing linker design that releases MMAE after enzymatic processing. Its behaviour depends on the construct and test conditions.",
+      "summary": "Proteolytic cleavage of the valine-citrulline linker and spacer processing. MMAE in the cited vedotin design.\n\nThe whole construct and processing conditions matter. Do not infer universal tumour-only cleavage or a common clinical safety profile.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Brentuximab_vedotin",
+      "links": [
+        {
+          "label": "Doronina et al.: auristatin conjugates (2003)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12778055/"
+        },
+        {
+          "label": "ADCETRIS prescribing information: MMAE, loading and safety",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "mmae",
+        "bystander-effect"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "enfortumab-vedotin",
+        "brentuximab-vedotin",
+        "tisotumab-vedotin",
+        "telisotuzumab-vedotin",
+        "disitamab-vedotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-doronina-nat-biotechnol"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "smcc",
+      "kind": "term",
+      "name": "SMCC (thioether, non-cleavable)",
+      "aka": [],
+      "tldr": "SMCC links DM1 to an antibody without a designed payload-cleavage site. Antibody processing can leave a lysine-containing linker-drug catabolite.",
+      "summary": "Antibody proteolysis; the linker is not designed as a cleavable payload-release site. Lys-MCC-DM1 and other measured DM1-containing analytes, depending on processing and sample.\n\nLow permeability of the lysine-containing catabolite is not a free-DM1 property. This chemistry alone does not explain a head-to-head clinical outcome.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Succinimidyl_4-(N-maleimidomethyl)cyclohexane-1-carboxylate",
+      "links": [
+        {
+          "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Human liver S9 catabolism method and retained linker species (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27206324/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dm1"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-emtansine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "sulfo-spdb",
+      "kind": "term",
+      "name": "Sulfo-SPDB (disulfide)",
+      "aka": [],
+      "tldr": "Sulfo-SPDB is the disulfide linker used with DM4 in mirvetuximab soravtansine. It differs from the related SPDB used in some model experiments.",
+      "summary": "Processing of a disulfide-linked DM4 component. The mirvetuximab label distinguishes unconjugated DM4 and S-methyl-DM4.\n\nDo not equate sulfo-SPDB with the related SPDB linker used in the cited huC242 preclinical experiments.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mirvetuximab_soravtansine",
+      "links": [
+        {
+          "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+        },
+        {
+          "label": "Kellogg et al.: SPDB-DM4 catabolites in cell and xenograft models (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21425776/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dm4"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "mirvetuximab-soravtansine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-kellogg-bioconjug-chem"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "hydrazone",
+      "kind": "term",
+      "name": "Acid-labile hydrazone (AcBut)",
+      "aka": [],
+      "tldr": "A hydrazone is an acid-sensitive linkage used in the modified calicheamicin components of ozogamicin conjugates. The particular product and released species matter.",
+      "summary": "Hydrolysis of the acid-sensitive linkage. A modified calicheamicin species, followed by activation; not necessarily unmodified calicheamicin gamma1.\n\nAcBut and the attached modified calicheamicin component must be named. The two product labels specify different mean loading and distributions.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hydrazone",
+      "links": [
+        {
+          "label": "MYLOTARG prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05"
+        },
+        {
+          "label": "BESPONSA prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "calicheamicin"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "gemtuzumab-ozogamicin",
+        "inotuzumab-ozogamicin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "val-ala",
+      "kind": "term",
+      "name": "Val-Ala dipeptide",
+      "aka": [],
+      "tldr": "Val-Ala is a peptide segment in the tesirine linker-drug system, which releases SG3199 after processing.",
+      "summary": "Proteolytic processing of the valine-alanine-containing tesirine component. SG3199 from the SG3249 (tesirine) drug-linker system.\n\nThe cited ADCT-402 study does not establish that every Val-Ala design is easier to manufacture or clinically safer than every Val-Cit design.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Loncastuximab_tesirine",
+      "links": [
+        {
+          "label": "Zammarchi et al.: ADCT-402 preclinical studies (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29298756/"
+        },
+        {
+          "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pbd-sg3199"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "zynlonta"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-zammarchi-blood"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "mc-non-cleavable",
+      "kind": "term",
+      "name": "Maleimidocaproyl (mc), non-cleavable",
+      "aka": [],
+      "tldr": "In belantamab mafodotin, antibody processing releases cys-mcMMAF, which retains cysteine and the mc linker.",
+      "summary": "Antibody proteolysis; the maleimidocaproyl linkage is protease resistant. cys-mcMMAF in the belantamab mafodotin label.\n\nThe released species retains cysteine and linker material. Catabolism need not mean complete digestion of every antibody molecule.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Doronina et al.: MMAF conjugates and released catabolites (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16417259/"
+        },
+        {
+          "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+        },
+        {
+          "label": "Human liver S9 catabolism method and retained linker species (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27206324/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "mmaf"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "belantamab-mafodotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-doronina-bioconjug-chem"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "hydrophilic-next-gen",
+      "kind": "term",
+      "name": "Hydrophilic linker and carrier designs",
+      "aka": [],
+      "tldr": "Hydrophilic linker and carrier designs are a varied group. Water affinity does not specify a common cargo, release trigger or loading.",
+      "summary": "No common cleavage trigger; specify the actual linker and carrier. Depends on the construct: TOP1 cargo, auristatins, vinca derivatives or other cargo.\n\nHydrophilicity, coupling chemistry and release trigger are separate design features. Dolaflexin uses AF-HPA, whereas the earlier polyacetal Fleximer study used a vinca derivative; neither establishes universal efflux escape or loading of eight.\n\nIn SKB264, sulfonyl-pyrimidine is a coupling feature, while the carbonate linkage is discussed as a release site. A polymer carrier, an antibody attachment group, a solubilising segment and a cleavage trigger are different parts of a design. Assess them for the named construct; none alone proves efflux avoidance or clinical tolerability.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Polyacetal Fleximer with a vinca derivative, a distinct platform (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26113086/"
+        },
+        {
+          "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+        },
+        {
+          "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/"
+        },
+        {
+          "label": "SKB264 structure, TOP1 assay and animal pharmacokinetics (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36620535/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t030",
+        "efflux-pump",
+        "dar"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "upifitamab-rilsodotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "linker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-yurkovetskiy-cancer-res"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads",
+      "kind": "term",
+      "name": "Tubulin inhibitor payloads",
+      "aka": [
+        "auristatins",
+        "auristatin",
+        "maytansinoids",
+        "maytansinoid",
+        "microtubule payloads"
+      ],
+      "tldr": "Tubulin payloads include auristatins and maytansinoids. The exact released chemical and linker affect cell access and handling.",
+      "summary": "MMAE, MMAF, AF-HPA, DM1, DM4 and peptide-linked maytansinoid systems share a broad tubulin mechanism but are distinct designs. The attached component, released catabolite and further metabolite can differ.\n\nFree DM1 must not inherit a Lys-MCC-DM1 membrane measurement. Free MMAF must not inherit the cys-mcMMAF transporter result, and auristatin F is not MMAF. Membrane passage, lysosome-to-cytoplasm transport and export from the cell are different barriers. Product-specific loading, safety and clinical results remain separate from these assays.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mitotic_inhibitor",
+      "links": [
+        {
+          "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+        },
+        {
+          "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+        },
+        {
+          "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "efflux-pump",
+        "bystander-effect",
+        "af-hpa",
+        "dm21-c-maytansinoid-system"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "enfortumab-vedotin",
+        "brentuximab-vedotin",
+        "tisotumab-vedotin",
+        "telisotuzumab-vedotin",
+        "disitamab-vedotin",
+        "zilovertamab-vedotin",
+        "cmg901",
+        "belantamab-mafodotin",
+        "trastuzumab-emtansine",
+        "mirvetuximab-soravtansine",
+        "upifitamab-rilsodotin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "pbd-dimer-payloads",
+      "kind": "term",
+      "name": "DNA crosslinker payloads (PBD dimers)",
+      "aka": [
+        "pyrrolobenzodiazepine dimers",
+        "PBD dimer payloads"
+      ],
+      "tldr": "PBD dimers crosslink DNA. Their free warheads and linker-drugs need separate names, and cell potency does not define a clinical safety margin.",
+      "summary": "Pyrrolobenzodiazepine dimers are DNA-crosslinking cargo designs. SG3199 is a free warhead; SG3249, also called tesirine, is its drug-linker component.\n\nThe SG3199 primary study tested DNA-repair-defective and resistant cells, so limited distortion of DNA does not mean the injury escapes all detection or repair. The loncastuximab label gives a particular mean loading and product safety profile. Neither a common loading near two nor universal low efflux follows from membership in this family.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pyrrolobenzodiazepine",
+      "links": [
+        {
+          "label": "SG3199 DNA-crosslinking and resistance models (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29992976/"
+        },
+        {
+          "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pbd-sg3199"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "zynlonta"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dna-cleaver-payloads",
+      "kind": "term",
+      "name": "DNA cleaver payloads (enediynes)",
+      "aka": [
+        "calicheamicin class",
+        "enediyne cargo"
+      ],
+      "tldr": "Enediyne cargo can injure DNA strands after activation. Calicheamicin-family chemicals, attached components and released modified species are distinct.",
+      "summary": "The ozogamicin ADCs use modified calicheamicin components. A free calicheamicin gamma1 assay is not automatically a measurement of the species released from either complete product.\n\nGemtuzumab ozogamicin and inotuzumab ozogamicin differ in mean loading and distribution in their labels. Product-related liver and blood-count risks cannot be assigned to an interchangeable family-wide dose. Compare the exact chemical, conjugate and clinical setting.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Enediyne",
+      "links": [
+        {
+          "label": "MYLOTARG prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05"
+        },
+        {
+          "label": "BESPONSA prescribing information: modified calicheamicin and loading",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077"
+        },
+        {
+          "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "calicheamicin"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "gemtuzumab-ozogamicin",
+        "inotuzumab-ozogamicin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "dna-alkylator-payloads",
+      "kind": "term",
+      "name": "DNA alkylator payloads",
+      "aka": [
+        "duocarmycins",
+        "seco-DUBA"
+      ],
+      "tldr": "Duocarmycin designs alkylate DNA. Their prodrug activation and preclinical cell effects should be distinguished from a clinical benefit in a defined cancer setting.",
+      "summary": "Duocarmycin designs include an inactive seco prodrug, its activated species and an attached linker-drug. Results for one chemical or construct do not establish permeability, transporter behaviour or resistance avoidance for the whole family.\n\nTrastuzumab duocarmazine has been tested in a randomised trial in previously treated HER2-positive advanced breast cancer. That clinical setting is different from a general claim that DNA alkylation treats every slow-growing or TOP1-resistant tumour.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Duocarmycin",
+      "links": [
+        {
+          "label": "Elgersma et al.: duocarmycin linker-drug design and SYD985 composition (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25635711/"
+        },
+        {
+          "label": "TULIP randomised phase 3 report (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39442070/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "duocarmycin"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-duocarmazine"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "upifitamab-rilsodotin",
+      "kind": "drug",
+      "name": "Upifitamab rilsodotin",
+      "aka": [
+        "XMT-1536",
+        "UpRi"
+      ],
+      "tldr": "Upifitamab rilsodotin is an investigational antibody-drug conjugate directed at NaPi2b, carrying AF-HPA through the Dolaflexin platform.",
+      "summary": "Upifitamab rilsodotin, also called XMT-1536, uses a NaPi2b-directed antibody and the Dolaflexin AF-HPA cargo. The preclinical report describes roughly 10 to 15 payload molecules per antibody, cell and xenograft activity, and conversion of AF-HPA to the less membrane-accessible but active auristatin F metabolite. These findings do not establish patient benefit or complete confinement of the cargo.\n\nNCT03319628 is a registered phase 1/2 study. Its last posted update is 13 November 2023 and records active, no longer recruiting status with 523 participants actually enrolled. A registry state is separate from a clinical outcome, current local access or a product authorisation.",
+      "status": "phase-2",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov: trials of Upifitamab rilsodotin",
+          "url": "https://clinicaltrials.gov/search?intr=Upifitamab%20rilsodotin"
+        },
+        {
+          "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/"
+        },
+        {
+          "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+        },
+        {
+          "label": "NCT03319628 registry, last posted update 13 November 2023",
+          "url": "https://clinicaltrials.gov/study/NCT03319628"
+        }
+      ],
+      "tags": [
+        "pipeline",
+        "ctgov-ingest"
+      ],
+      "related": [],
+      "cancers": [
+        "ovarian",
+        "nsclc"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "slc34a2"
+      ],
+      "drugs": [],
+      "companies": [
+        "mersana"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "af-hpa"
+      ],
+      "trials": [
+        "nct03319628"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "provenance": {
+        "editedBy": "OnCo ingestion (ClinicalTrials.gov v2, registry-only)",
+        "editedOn": "2026-09-16"
+      },
+      "modality": "Antibody-drug conjugate",
+      "mechanism": "An antibody directed at NaPi2b (SLC34A2) carries AF-HPA through the Dolaflexin platform; AF-HPA can convert to active auristatin F.",
+      "approvals": [],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    }
+  ],
+  "normalization": "Actual data-only graph JSON. Baseline TermSchema strips chemicalObservations; combined optional-contract/consumer evidence is retained separately and requires PR376.",
+  "captureOn": "2026-11-11"
+}

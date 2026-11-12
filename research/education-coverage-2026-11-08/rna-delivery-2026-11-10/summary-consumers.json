@@ -1,0 +1,1907 @@
+{
+  "root": {
+    "entries": 90,
+    "available": 29,
+    "EnglishFallback": 61,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 80,
+      "rows": [
+        {
+          "id": "aav-vector",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "aav-vector",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lentiviral-vector",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lipid-nanoparticle",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rna-lipoplex",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "targeted-lnps",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "transposon",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "viral-vector-manufacturing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-lnp-manufacturing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vivo-car-t",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "aav-vector-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "01b77364b1b5a92e5c4670587038a89889521f76cad389cab78b47927c77d62c"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "e23f8a5d9115e2fbadf0f5ca36ab020be5502877ecd1e4c91d8a2b7a78724994"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "bcc9cc181e64f53e88d3397b09bb786df41049d848411aa22030e4a731b8cb54"
+      },
+      {
+        "id": "aav-vector-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "52bed17ec7b423b8bfde5a27303fb0e3cae3cf4cd9ebd24a89d9101879ab0fc3"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "ab4bf5fee473da0aa35bdd7717a181362b1f745458b41f7266dd91ec0060a426"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "6b052a0a867f9eeaa3d3c9c6db179b2a053b8d3342b644479b0bc75c4b0e4186"
+      },
+      {
+        "id": "aav-vector-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "7d6b718f26e0f69435b5e93f42c56ab4b1235bccbcf882a79dd1233741989a8c"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "1c83eb3e5aef925edc52116d7d1359564ddba348cabda9f41ee60791b6893db9"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "d9ca18820ee43ce543b80776399145bd44f0f8f94f2e92f8812aea6ca50f0bfe"
+      },
+      {
+        "id": "aav-vector-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "eea0d63ce86c04b4403192d585378e4ce813cc07c8c3a274ab4fc5038ca30aca"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "97d7ff6544659c0c260a2308dbe46f91f38cb79db706fb98936b40bf08e2c284"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "3c65b93147f33d4d1f4e7f5bf1d6c85bedb53d01d4beb20486478f021f329879"
+      },
+      {
+        "id": "aav-vector-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "947a03ee84cdf695d0ba5d9d90502900b69cb91913e73e974c2b46e9037bb395"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "916bccc2d9b397ca3eec0a30ef2669bde338e129b1ca18f61e40250660f4ac17"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "eb2972a97a20598dad72141cc9bb0f748937240578da5c0d114ab0c98ad7b225"
+      },
+      {
+        "id": "aav-vector-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "88163ec1b46311081a49c79a898659c8b8d6a0a0c832b4aaa00a5f011c9d3119"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "3a5dfa07a752029ebc993a211b992145ed254ca9f2e253002b4b13f7dd61f7cc"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "cf417ee73f86163877e3a822925b53fc8e51850049bfd5bd89a5139b69e6ad89"
+      },
+      {
+        "id": "aav-vector-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "946d9d3c524739b87a5e6c81ffa6120e045d3fb6a8a258459dc57f8e39cc188c"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3abc484deb321f20f4c0211613cde6f3e7c3e4294efb7981242b7d20566793b"
+      },
+      {
+        "id": "in-vivo-car-t-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "38809a773c02593dbff806ea6a392bfee3b7aa5abf034f1bc4ff4c87d85453c1"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "d201818d64928527f867e201a569aa4aa59771fde4b6f0761b041e4bc010bc16"
+      },
+      {
+        "id": "aav-vector-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "894d41292a67adbbb3f331f95de92d16d8925073589685348d88704e8476be7a"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "bdaf45930cfb2e5bdcb255fac75ae4db07febb49822fe6108bf0c92e4ffe5ac0"
+      },
+      {
+        "id": "in-vivo-car-t-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "87b59a52284cf5c045b786d79b007ed351c2b03de40e01d8ba38a586e5279349"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "78b12591aa81eb726944b8c6becda65f4871cf3ecb3fdf01b8f9138c3874ed9a"
+      },
+      {
+        "id": "aav-vector-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "350081bbeededf67875c43d07a75abef0d4757e95c469216e5ce4343647e8951"
+      },
+      {
+        "id": "lentiviral-vector-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "c59427e8476f61cd7887f0e102133dfcc62f0a25d0b19a9797e0c64f51c85e04"
+      },
+      {
+        "id": "lipid-nanoparticle-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "dad58a042934478477382b5e6a6b8c73dcff7ecd9794f6efac69460de3ed30ba"
+      },
+      {
+        "id": "rna-lipoplex-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "9949a1cf47f266787e6441b30938a7ec028b4806a9e304738bd62641cc8154c3"
+      },
+      {
+        "id": "targeted-lnps-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "1a1a81098614a62e531b1091e55f5f8e121393f21fc58681b3bff140202367af"
+      },
+      {
+        "id": "transposon-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "72f1c7ddba68c5078de19b7489b7cd8a9e267f0e7a2e3d850deac3f171c045ef"
+      },
+      {
+        "id": "viral-vector-manufacturing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "be5cf04e885c8337e6b4a90e825f99b07c58dfaa1ab236c9813a2929221a0908"
+      },
+      {
+        "id": "mrna-lnp-manufacturing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "0c6f7a10cbc17a2e7d77ad63114bbf5e6babd512b18e7777325f76fdc2c9b2d2"
+      },
+      {
+        "id": "in-vivo-car-t-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "289f14b06a141e1237a5dda75ea3bd0e4149c223b4ab53dda4c974de14b4a8d4"
+      },
+      {
+        "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "9b992856fd7db1af139a3e143eb9210903cd501a4bdc748bc8bc845d44878d67"
+      }
+    ]
+  },
+  "shared": {
+    "entries": 63,
+    "available": 0,
+    "EnglishFallback": 63,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 56,
+      "rows": [
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mrna-construct-anatomy",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "codon-optimization",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "modified-rna-nucleosides",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "in-vitro-transcription",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dsrna-impurities",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "multi-epitope-constructs",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "delivery-target-versus-therapeutic-target",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "mrna-construct-anatomy-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      },
+      {
+        "id": "mrna-construct-anatomy-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "849a73a883cebf8ba046abbff474103498882708802d49ec1af6dad0b67de7f1"
+      },
+      {
+        "id": "codon-optimization-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "b90f79fd97abb98eb0c194b6757e3cd4891c97da2b9d8fe25798504e9d1a6ad5"
+      },
+      {
+        "id": "modified-rna-nucleosides-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "15eb4df34d6b6c373bcf56166be8e70537a2824411364b17d4b47730fd0e12a2"
+      },
+      {
+        "id": "in-vitro-transcription-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe773d7af75c4a49659fabb00f25720667b7ad8d954b9ca7419c2d847f132521"
+      },
+      {
+        "id": "dsrna-impurities-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "d3aae99de30d2e838062bf7be32adc283dcd9c88ca72737f2051fc83803c0504"
+      },
+      {
+        "id": "multi-epitope-constructs-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "31d824e295393dd4bbaf3dae4d14c055e24928662ebd14b9900276f12e69c144"
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f54ec8f87b93039f6599ef7eb719e64c87fc16cbe899f2af68d2dc28d76b7fd9"
+      }
+    ]
+  },
+  "additionalRootEntries": 81,
+  "additionalSharedEntries": 63,
+  "newNamedLanguageReviews": 0
+}

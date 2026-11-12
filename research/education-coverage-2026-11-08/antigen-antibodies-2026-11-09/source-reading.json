@@ -1,0 +1,428 @@
+{
+  "batch": "antigen-antibodies",
+  "oncoBaseline": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "originalGuideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "laterGuideRef": "c96896452386202405c435aa161bc5047919337a",
+  "pagesAssigned": 16,
+  "pagesFullyRead": 16,
+  "pages": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+      "title": "ADCC, ADCP and CDC: antibody-guided effector mechanisms",
+      "originalSha256": "a1115262099b318786ecd97c91f668dfe1629baedb606c8ba53215c7e8228956",
+      "laterSha256": "d232b6f8c9c0b2a10deb9a2a94337372523310ff6bd3d4e8a0d5a012cd7064b6",
+      "originalGitBlob": "245356675b3b674d7a66157ea1de12756a86c315",
+      "laterGitBlob": "98cc4ec212b871f489b7fa6877b57edfd140c9b5",
+      "originalSections": 9,
+      "laterSections": 9,
+      "teachingBodySignatureOriginal": "6f864c413c2045d24f35323ff87c0b256230b43ba98e16b0a938456b8c21bfae",
+      "teachingBodySignatureLater": "6f864c413c2045d24f35323ff87c0b256230b43ba98e16b0a938456b8c21bfae",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "antibody-coating-adcc-v1-light.png",
+        "antibody-coating-adcp-v1-light.png",
+        "antibody-coating-cdc-v1-light.png"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+      "title": "Antibody structure",
+      "originalSha256": "f82b372d8d86af1a2edf56745425ae603813f3ea67502f189c28a3ac1c18cc9d",
+      "laterSha256": "678a4b50f6ea2a7d4451cd937d480f26e1963234ee56b9e5bc4501c474b87fdd",
+      "originalGitBlob": "ee578e8517e3161d4ee99f9567903f209dd9dcbe",
+      "laterGitBlob": "4ed33e0df130c980f2c724ed438db10a903c2575",
+      "originalSections": 11,
+      "laterSections": 11,
+      "teachingBodySignatureOriginal": "9b6cd6c145533f4cd4e25963eb2ee0fad9e53ca624f4c1ddd1b27b58797bd942",
+      "teachingBodySignatureLater": "9b6cd6c145533f4cd4e25963eb2ee0fad9e53ca624f4c1ddd1b27b58797bd942",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "typical-igg-domains-binding-and-partners-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+      "title": "B cells and plasma cells",
+      "originalSha256": "43f3e88619923a1cbb56bbdb90f1f2925b00a9bb4029ca66aed29157ad104ffc",
+      "laterSha256": "9c91c13d7599b2b9dbdf7b69efef3cf1b875dfdc08e655b5e3e226f0b18ad04f",
+      "originalGitBlob": "d6faf0d4d90ba07f555e53beaedc1ca81bfe4d7e",
+      "laterGitBlob": "1e6e3470440620a55f9d47fd06c67c7e5fc595db",
+      "originalSections": 9,
+      "laterSections": 9,
+      "teachingBodySignatureOriginal": "c20b27b37044cb144e51dca51a505ed2e319ed8269bcc36b08569a6443def056",
+      "teachingBodySignatureLater": "c20b27b37044cb144e51dca51a505ed2e319ed8269bcc36b08569a6443def056",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "title": "Antibody isotypes and Fc silencing",
+      "originalSha256": "660aab96ca8acfdc74842fe652f49b8349ab171d3e8e00d5573f323b70e1f132",
+      "laterSha256": "660aab96ca8acfdc74842fe652f49b8349ab171d3e8e00d5573f323b70e1f132",
+      "originalGitBlob": "e1fb70085c8ac92b63bfaaef8ea9b40ee605ce93",
+      "laterGitBlob": "e1fb70085c8ac92b63bfaaef8ea9b40ee605ce93",
+      "originalSections": 9,
+      "laterSections": 9,
+      "teachingBodySignatureOriginal": "1b3a7f3db38148e558c55495227feaa93c8d7a89198202dd2b4dfaeba59350a5",
+      "teachingBodySignatureLater": "1b3a7f3db38148e558c55495227feaa93c8d7a89198202dd2b4dfaeba59350a5",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "matched-igg-selected-fc-contacts-v1-light.svg",
+        "typical-igg-domains-binding-and-partners-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "title": "Tertiary lymphoid structures",
+      "originalSha256": "99968db5ebab050587f07f16c210411d362c90d95f7eb952511590994392ae3b",
+      "laterSha256": "5d02bfa3f8abf5916a0fe22f2c8149a60a2db0846099feccbd0d4b11cc7a3694",
+      "originalGitBlob": "f6a6342817abe9e4e5e4b5ec5d3eb15778f45de6",
+      "laterGitBlob": "df1b04b3bf81277fa6eb6e387410cedfbd176213",
+      "originalSections": 11,
+      "laterSections": 11,
+      "teachingBodySignatureOriginal": "658fedda3e067695e4008cc212417e07ef79c848702b177a80f2e65f3c20d79c",
+      "teachingBodySignatureLater": "658fedda3e067695e4008cc212417e07ef79c848702b177a80f2e65f3c20d79c",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "immune-aggregate-organized-regions-and-germinal-center-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+      "title": "Antigen and epitope",
+      "originalSha256": "15f84a12ada58c496123c5201dc4f377f0c015de446b2f0fc54020cc2cc429f9",
+      "laterSha256": "2833e4af7c2cfa6622064d75d1ab877a0aa8d0468a43e775faecc52c53b7f131",
+      "originalGitBlob": "1bd6cd99b99b3f433fcf068364a69700846ae7c0",
+      "laterGitBlob": "9464239ca94c66977a9bb30cbcfde9c101e30259",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "22151f32056d3b860cfa7b6982c2fd18122d360e72e230de02873d27ac5a3f27",
+      "teachingBodySignatureLater": "22151f32056d3b860cfa7b6982c2fd18122d360e72e230de02873d27ac5a3f27",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "folded-epitope-and-peptide-hla-surfaces-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+      "title": "Antigen-processing machinery",
+      "originalSha256": "b69e4903ca2c1ff4ff4d0b6334b36e2c26eef1db754f773e16511b27122e5044",
+      "laterSha256": "7ddf8a5e1dedd8f397ad3f42ae79acfb9b5a3111f234e376a7fb7c5bd830a1ad",
+      "originalGitBlob": "cc13cc16677633ca2b620e210ba913dc22cf93fa",
+      "laterGitBlob": "2f4738f8a72d2e87921f012c5dcc5853da00e1f4",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "a138eb07f76247904d1e71c2d064bc0d55069214b1de809d84b268af11c78270",
+      "teachingBodySignatureLater": "a138eb07f76247904d1e71c2d064bc0d55069214b1de809d84b268af11c78270",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "processing-display-recognition-v2-light.png"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "title": "B2M (beta-2 microglobulin)",
+      "originalSha256": "9b5de0a1f30de6703be4ebe98d2c7fd82a342796988533ec27a9f4e93f313ede",
+      "laterSha256": "973bdc607b8856ed1a4d839736397df7079fdce97ff48e16b53aad4f8977c599",
+      "originalGitBlob": "188303789724a75b067d2942b7381778cb888867",
+      "laterGitBlob": "44589e73b344d208c6b7f858b3d31658d9cf7415",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "bbe249c3485067792893f386b7b95223fc23888e8f41c77bbe5db2fdd3d3f907",
+      "teachingBodySignatureLater": "bbe249c3485067792893f386b7b95223fc23888e8f41c77bbe5db2fdd3d3f907",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "b2m-location-and-shared-dependency-v1-light.svg",
+        "processing-display-recognition-v2-light.png"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+      "title": "Binding, presentation and recognition",
+      "originalSha256": "c174fc4bae52cd6178fa1ca609e1b57279b3af46600a2b0dcf740961b61284a4",
+      "laterSha256": "2721ef44c28d2dc09902b77563f9d6bcd14e9455c12c240267ba664f1f87ea7d",
+      "originalGitBlob": "45024d7c001edbe38cbfaefa1f835a9f271fccb9",
+      "laterGitBlob": "a0609e7de3878102cf85d6b09fcbef1c9c897ba8",
+      "originalSections": 11,
+      "laterSections": 11,
+      "teachingBodySignatureOriginal": "c4ded3ea00eb4e47364e2f046237a3a3983c5cc55b244b5566e5277d2ba284b1",
+      "teachingBodySignatureLater": "c4ded3ea00eb4e47364e2f046237a3a3983c5cc55b244b5566e5277d2ba284b1",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "title": "Cross-presentation",
+      "originalSha256": "0d2e222b45737aa9b9a17c92d5c2453eda71a74a23c4625bcabee802b4d5841a",
+      "laterSha256": "dbac4ca174000074a6f044340fe9ac902369ed8dfeae52fdf094b2510fd1d62c",
+      "originalGitBlob": "936bdff89ec149faa8e24bd223c6ba672a48de07",
+      "laterGitBlob": "44b603688e4bbf3d58e2398412263774774bf2de",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "70360df4c8bdeb862e1a17745974a9b6e5a484a1487976f011541b631528ee6d",
+      "teachingBodySignatureLater": "70360df4c8bdeb862e1a17745974a9b6e5a484a1487976f011541b631528ee6d",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "antigen-origin-and-display-routes-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+      "title": "HLA typing and nomenclature",
+      "originalSha256": "e9f17efeaa6e9bca3676cd12e60b91791b43174c499e05d2c37052606f86eabb",
+      "laterSha256": "7cea9a69b1075d20ae7a978e752a82ea2dcb70baa1ad135361d9147740367652",
+      "originalGitBlob": "2a22b43b52ec3f1895a14a224ea82e6cac519f79",
+      "laterGitBlob": "0d192e895f2450218a692465f99fa4e09fdb313b",
+      "originalSections": 13,
+      "laterSections": 13,
+      "teachingBodySignatureOriginal": "8129606381d791a72cf8fb5023471dfb9c279dd5b2ce8ab5d00ae8ffd7a93c88",
+      "teachingBodySignatureLater": "8129606381d791a72cf8fb5023471dfb9c279dd5b2ce8ab5d00ae8ffd7a93c88",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": []
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "title": "HLA (human leukocyte antigen)",
+      "originalSha256": "02b4414e35e0f26b5bbc51096bf9a44a8daa81a6f2e35b6b1cfc3f155c8e7098",
+      "laterSha256": "9951ea7d4cda94a0701c8beb9d3f34fa6bbccfc27ecc08abe567b47d80ae798f",
+      "originalGitBlob": "424dbbf7cfa37fe50168f7f0d308d1e686ef3fa1",
+      "laterGitBlob": "399c375bdfc30de2147e033567f76adac6d8c136",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "bc4f0f834f3b9b6e2413066d37ad3b1afa4bd410ceaf74b0d505240b2de55ad8",
+      "teachingBodySignatureLater": "bc4f0f834f3b9b6e2413066d37ad3b1afa4bd410ceaf74b0d505240b2de55ad8",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "hla-class-i-contacts-v2-light.svg",
+        "hla-class-ii-contacts-v2-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+      "title": "Immunopeptidome: the biological display repertoire",
+      "originalSha256": "52a6d70c081bc45851790a71f4e42f4a64aa81370a7479c17a8c510ea45fe4ab",
+      "laterSha256": "64f84294b2a3d01cb4e5e35b0e66f0d721487fd83510ba28cb435043eca76536",
+      "originalGitBlob": "6f439a0b38ede7536fc3b8871e253e26fd3f4940",
+      "laterGitBlob": "5cffaf99d3a76cc835696dac31f6746003e6fe16",
+      "originalSections": 11,
+      "laterSections": 11,
+      "teachingBodySignatureOriginal": "d4e47a392429bc1538901e734b130bf900ab69ebfbb857e26bd30f678961b38b",
+      "teachingBodySignatureLater": "d4e47a392429bc1538901e734b130bf900ab69ebfbb857e26bd30f678961b38b",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "immunopeptidome-repertoire-and-recovery-v2-light.png"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "title": "Neoantigen",
+      "originalSha256": "ea773f3ee65c36b1803653e7bb1f1dcbf5bab5eb48aabc9b3f96ab569c77d8a4",
+      "laterSha256": "cfdb1972f55479151d3a40cbfbefb37ba46c4df7201ae47323e2d40111a03a2a",
+      "originalGitBlob": "d8fbfd792722f68dce07f492e7196c21487498dc",
+      "laterGitBlob": "62d9890fbfc8da5f02e3a8ee55229be48fb267d7",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "5b9b156b5516a59e934e7305d5230f33693f0a69f9888e73aef140f8fa4944a4",
+      "teachingBodySignatureLater": "5b9b156b5516a59e934e7305d5230f33693f0a69f9888e73aef140f8fa4944a4",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "altered-protein-candidate-evidence-gates-v1-light.svg",
+        "processing-display-recognition-v2-light.png"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "title": "Self-similarity and tolerance",
+      "originalSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+      "laterSha256": "297e79e2f89a4a0e5e3271d899c8062c4552b89ee3f7064efb27cb1274bc688b",
+      "originalGitBlob": "969405f5a20dc2b25456b3942cb8bd50d15db7f5",
+      "laterGitBlob": "dbb2b4305525e010e01892a6f5150d5190008b4b",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "eaf4c525b14cca632f74a221b0f9760c59e5b3bb2c3be06ddbf47a0e8a0de2e8",
+      "teachingBodySignatureLater": "eaf4c525b14cca632f74a221b0f9760c59e5b3bb2c3be06ddbf47a0e8a0de2e8",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "matched-mutant-normal-peptide-responses-v1-light.svg"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "title": "Tumor-associated antigen",
+      "originalSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+      "laterSha256": "beb7cf030be5d4955fdb22b7443a904a2276f8062a186dccfb9bbe67c4d4ccc8",
+      "originalGitBlob": "d9f9e48dd8e03a7733ddc134b6d86f8fab27d7e2",
+      "laterGitBlob": "14d77f717d4348406a84fb57bb2da79a8ecdb934",
+      "originalSections": 12,
+      "laterSections": 12,
+      "teachingBodySignatureOriginal": "4397bf47a9adec8c09ec0f25dc8fb23a9231cd63b90dec0929d5d5b4ba541b50",
+      "teachingBodySignatureLater": "4397bf47a9adec8c09ec0f25dc8fb23a9231cd63b90dec0929d5d5b4ba541b50",
+      "metadataSignatureEqual": true,
+      "teachingSignatureEqual": true,
+      "diffNote": "Only link targets (binding page retargeted from /designing-a-vaccine/... to /guides/personalized-cancer-vaccine/...), used_by lines and generated Used-in block differ; teaching text identical",
+      "sectionsReviewed": "all sections of both versions: preamble, one-sentence summary, intuition, how it works, mechanisms/tables/diagrams, why it matters, measurement, confusions, worked example/try-it, explain-back, takeaway, related, sources",
+      "assessmentReuse": "Later version assessed by reuse of the original assessment after signature match; both inventory entries retained",
+      "figuresReferenced": [
+        "intended-x-and-unintended-y-recognition-v1-light.svg"
+      ]
+    }
+  ],
+  "figures": {
+    "altered-protein-candidate-evidence-gates-v1-light.svg": {
+      "laterSha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "originalSha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "antibody-coating-adcc-v1-light.png": {
+      "laterSha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16",
+      "originalSha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "antibody-coating-adcp-v1-light.png": {
+      "laterSha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d",
+      "originalSha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "antibody-coating-cdc-v1-light.png": {
+      "laterSha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a",
+      "originalSha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "antigen-origin-and-display-routes-v1-light.svg": {
+      "laterSha256": "5fe75052689b996041a3662170bbbf5fd545acafd67c5af72c2b8eafdd11cc1e",
+      "originalSha256": "5fe75052689b996041a3662170bbbf5fd545acafd67c5af72c2b8eafdd11cc1e",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "b2m-location-and-shared-dependency-v1-light.svg": {
+      "laterSha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "originalSha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "folded-epitope-and-peptide-hla-surfaces-v1-light.svg": {
+      "laterSha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+      "originalSha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "hla-class-i-contacts-v2-light.svg": {
+      "laterSha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+      "originalSha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "hla-class-ii-contacts-v2-light.svg": {
+      "laterSha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+      "originalSha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "immune-aggregate-organized-regions-and-germinal-center-v1-light.svg": {
+      "laterSha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9",
+      "originalSha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "immunopeptidome-repertoire-and-recovery-v2-light.png": {
+      "laterSha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9",
+      "originalSha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "intended-x-and-unintended-y-recognition-v1-light.svg": {
+      "laterSha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+      "originalSha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "matched-igg-selected-fc-contacts-v1-light.svg": {
+      "laterSha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+      "originalSha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "matched-mutant-normal-peptide-responses-v1-light.svg": {
+      "laterSha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+      "originalSha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    },
+    "processing-display-recognition-v2-light.png": {
+      "laterSha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "originalSha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "typical-igg-domains-binding-and-partners-v1-light.svg": {
+      "laterSha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35",
+      "originalSha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35",
+      "identical": true,
+      "readDepth": "SVG text labels and structure read (not rasterised)"
+    }
+  }
+}

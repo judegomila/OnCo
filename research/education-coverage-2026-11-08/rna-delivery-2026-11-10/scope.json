@@ -1,0 +1,35 @@
+{
+  "checkedOn": "2026-11-10",
+  "pagesPerVersion": 13,
+  "sourceVersionEntries": 26,
+  "sections": 296,
+  "assessmentRowsRetained": 133,
+  "semanticRequirementsPerVersion": 108,
+  "derivedTakeawaysMapped": 13,
+  "sourceListMetadataRows": 12,
+  "newConcepts": 6,
+  "rootOwnersChanged": 10,
+  "additionalDistinctRootOwners": 9,
+  "sharedOwnersSupplemented": 7,
+  "sharedHead": "961a6994e776d2cf426d0605c14898c9269dbab8",
+  "reusedTeachingOwners": [
+    "epitope",
+    "binding-presentation-recognition"
+  ],
+  "figurePaths": 18,
+  "figureVersionEntries": 36,
+  "newAssetPathsPerVersion": {
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab": 18,
+    "c96896452386202405c435aa161bc5047919337a": 18
+  },
+  "bodyEvidencePassages": 162,
+  "actualJSONOwners": 19,
+  "actualMarkdownPassages": 162,
+  "immutableExportFiles": 38,
+  "summarySelectorsChecked": 153,
+  "additionalConsumerEntries": 144,
+  "literatureOccurrencesAdded": 52,
+  "adjacentFindingsAdded": 4,
+  "newNamedLanguageReviews": 0,
+  "remaining": "Unreviewed corpus/assets/literature, earlier residual source requirements, adjacent findings and schema/product dependencies remain open. No merge or deployment."
+}

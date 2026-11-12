@@ -1,0 +1,578 @@
+{
+  "version": "proposal-blood-immune-shared",
+  "state": "registered-and-rendered-draft; coordinator source-to-field acceptance at recorded evidence scope; not merged",
+  "draft": 373,
+  "captureParentHead": "287652c177e4bb82a509672301bf3bd037c29f63",
+  "actualPeerHead": "60784e5b68938e9a53f6bd166af49e4b28cfcfe3",
+  "records": [
+    {
+      "id": "elispot",
+      "kind": "term",
+      "name": "ELISpot secretion assays",
+      "aka": [
+        "ELISpot",
+        "enzyme-linked immunospot",
+        "IFN-gamma ELISpot"
+      ],
+      "tldr": "This test records spots where sampled cells release a chosen substance. A spot count describes secretion under the test conditions; other assays address recognition or killing.",
+      "summary": "The original enzyme-linked immunospot method counted antibody-secreting cells; cytokine versions are used to examine stimulated immune-cell responses. Cancer Vaccine Consortium proficiency panels showed that sample handling, protocol choices and plate reading affected results. A result needs the measured molecule, stimulation, cell input, background and reporting rule. A positive secretion response alone does not show that the sampled cells recognize or kill an unmodified tumor.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "A solid-phase enzyme-linked immunospot (ELISPOT) assay for enumeration of specific antibody-secreting cells.",
+          "url": "https://doi.org/10.1016/0022-1759(83)90308-3"
+        },
+        {
+          "label": "Results and harmonization guidelines from two large-scale international Elispot proficiency panels conducted by the Cancer Vaccine Consortium (CVC/SVI).",
+          "url": "https://doi.org/10.1007/s00262-007-0380-6"
+        },
+        {
+          "label": "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides.",
+          "url": "https://doi.org/10.1186/1471-2172-9-9"
+        },
+        {
+          "label": "The role of IFN-γ Elispot assay in HIV vaccine research",
+          "url": "https://doi.org/10.1038/nprot.2009.7"
+        },
+        {
+          "label": "Validation of an IFN-gamma ELISpot assay to measure cellular immune responses against viral antigens in non-human primates",
+          "url": "https://doi.org/10.1038/s41434-020-00214-w"
+        },
+        {
+          "label": "ELISPOT Assay to Measure Peptide-specific IFN-γ Production.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34541071/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "intracellular-cytokine-staining",
+        "immune-cytotoxicity-assays",
+        "pbmc-specimens"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Method card, what it measures: cells that secrete a chosen molecule, most often interferon gamma, under defined stimulation, counted as spots on an antibody-coated membrane. How: capture antibodies hold the released molecule near the cell, the cells are removed and detection reagents make localised spots visible. Input: viable cells, often PBMCs, allocated to the test. Prior culture expansion changes the measured population, and the cells are removed before the membrane spots are read. Output: spot-forming units per stated number of input cells, with background handling stated. Thresholds: response and quality rules fixed in advance for that assay and study, so one paper's positivity rule is not imported into another laboratory's report. Failure modes: high background, dead cells, weak stimulation, merged spots, inconsistent counting or failed controls. It cannot tell each receptor's target, natural tumour recognition, safety in healthy tissue or clinical benefit.",
+        "Fictional arithmetic: wells with 100,000 input cells give 30 spots after peptide stimulation and 5 spots with vehicle. Background-subtracted, that is 30 minus 5 = 25 spots per 100,000 cells, or 250 spot-forming units per million input cells. This is an arithmetic summary and not a positivity cut-off, replicates, positive controls and a prespecified response rule still apply, and in mixed PBMCs it is not the frequency of a particular T-cell subset. If the cells came from an expanded culture, the number describes the cultured cells and not the responding fraction of the original blood draw.",
+        "What the evidence does and does not support: the interferon gamma ELISpot is described as measuring the difference in the number of cells secreting the molecule with and without peptide, and interferon gamma is produced predominantly by natural killer and natural killer T cells as well as Th1 CD4 and CD8 effector T cells, so a mixed-cell spot does not by itself name the responding cell (Wykes and Renia protocol). In HIV vaccine research robust ELISpot responses were induced in a phase IIb trial that lacked efficacy, which challenged the assay's predictive power (Streeck 2009), and a validation in cynomolgus monkeys for responses to viral vector antigens (Yang 2022) validates that preparation and species and not cancer efficacy. Peptide added to cells can bypass the tumour's own processing and presentation, so a peptide response needs a separate bridge to natural tumour recognition.",
+        "Receptor sequencing asks which receptor sequences are represented and in what relative abundance. ELISpot asks how many input cells release the chosen molecule under the stated stimulation. An expanded sequence does not establish that it caused a spot, and a spot in mixed cells does not identify a receptor sequence. Connecting identity to recognition or killing requires additional experiments with suitable controls.",
+        "Spot size or intensity is not a measure of target-cell killing. A negative result remains bounded by the number and condition of input cells, the stimulus, chosen secreted molecule, culture history and response rule; it is not a census of every responding cell in the body. Assay reproducibility and a cancer-treatment benefit claim need separate evidence."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "flow-cytometry",
+      "kind": "term",
+      "name": "Flow cytometry (immunophenotyping)",
+      "aka": [
+        "immunophenotype",
+        "immunophenotyping",
+        "multiparameter flow cytometry",
+        "MFC",
+        "next-generation flow",
+        "NGF",
+        "CD markers",
+        "cluster of differentiation"
+      ],
+      "tldr": "A test that measures light signals from individual cells or particles. Stained markers can identify cell types, and specialized assays can examine what those cells are doing.",
+      "summary": "Flow cytometry measures features of prepared cells as they pass through an instrument. Immunophenotyping uses combinations of markers to distinguish cell populations, including in blood-cancer diagnosis and residual-disease testing. Other methods measure intracellular cytokines, degranulation or target-cell death. Primary method studies show that these are different readouts, and validation depends on preparation, panel, controls and analysis gates. The performance of one assay does not automatically validate every use of the platform.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Flow_cytometry",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Flow_cytometry"
+        },
+        {
+          "label": "Determination of antigen-specific memory/effector CD4+ T cell frequencies by flow cytometry: evidence for a novel, antigen-specific homeostatic mechanism in HIV-associated immunodeficiency.",
+          "url": "https://doi.org/10.1172/jci119338"
+        },
+        {
+          "label": "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides.",
+          "url": "https://doi.org/10.1186/1471-2172-9-9"
+        },
+        {
+          "label": "A novel multiparametric flow cytometry-based cytotoxicity assay simultaneously immunophenotypes effector cells: comparisons to a 4 h 51Cr-release assay.",
+          "url": "https://doi.org/10.1016/j.jim.2007.05.013"
+        },
+        {
+          "label": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+          "url": "https://doi.org/10.1016/s0022-1759(03)00265-5"
+        },
+        {
+          "label": "Spectral compensation for flow cytometry: visualization artifacts, limitations, and caveats.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11746088/"
+        },
+        {
+          "label": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (third edition).",
+          "url": "https://doi.org/10.1002/eji.202170126"
+        },
+        {
+          "label": "Cossarizza et al.: flow cytometry and cell sorting guidelines, second edition (2019)",
+          "url": "https://doi.org/10.1002/eji.201970107"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "mrd",
+        "umrd",
+        "blasts",
+        "antigen-escape",
+        "intracellular-cytokine-staining",
+        "peptide-hla-multimer-staining",
+        "immune-cytotoxicity-assays",
+        "pbmc-specimens"
+      ],
+      "cancers": [
+        "aml",
+        "all-leukemia",
+        "cll",
+        "multiple-myeloma"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Denominators, fictional arithmetic: a run records 12,000 events, and after excluding debris, cell pairs and dead-cell events 10,000 recovered gated cells remain, of which 1,000 are T-cell events and 100 bind a reagent. Binding is 100 / 1,000 = 10% of the T-cell parent, 100 / 10,000 = 1% of recovered cells and 100 / 12,000 = 0.83% of recorded events. All three are correct for their own question and exchanging them changes the claim. Nested gates show membership and not area, no cells per millilitre or whole-body total follows, and binding or marker identity does not show killing.",
+        "Method card, what it measures: light scatter and fluorescence from individual events in a prepared cell suspension, grouped by a chosen panel of stains. Input: whole blood, isolated cells or dissociated tissue, where preparation and staining use a defined aliquot and compatibility with later assays depends on fixation and other processing and tissue dissociation removes geography and can recover cell types unevenly. Output: event counts, percent of a named parent population, fluorescence in instrument-dependent units, and cells per volume only with a validated counting method. Controls: instrument checks, unstained and single-stain controls, viability, biological controls and fluorescence-minus-one controls for hard boundaries. Failure modes: dead cells, aggregates, weak markers, nonspecific staining, signal overlap, cell loss and inconsistent gates. It cannot tell unmeasured proteins, original tissue position, antigen specificity from general markers or benefit.",
+        "What compensation does and does not do: in multicolour analysis spectral overlap between detectors needs compensation, and a mathematical and experimental analysis showed that photon-counting statistics add a nonlinear error to compensated parameters while measurement and log-scale binning errors add linear ones, most visibly with red and far-red fluorochromes where less light is emitted (Roederer 2001). Compensation or spectral unmixing therefore corrects overlap and does not repair a poorly chosen stain or set a positivity gate. The community guidelines (Cossarizza 2021) are methods guidance on preparation, panels and analysis and give no universal immune-response cut-off. A degranulation marker on the cell surface is an activity readout that accompanied cytolysis in antigen-specific CD8 T cells and is not itself measured target-cell death (Betts 2003).",
+        "Gating is selection within recorded data, not physical collection. A typical analysis checks acquisition quality, excludes debris and cell pairs, assesses viability where the assay requires it, and identifies populations with a stated marker panel. Intracellular assays may assess viability before fixation; not every flow experiment studies living cells. Fluorescence-minus-one controls omit one stain while retaining the others and can help place a boundary, but do not establish antibody specificity. Tight earlier gates can discard unexpected or rare populations. Automated clusters still need biological and technical checks (Cossarizza 2021). A cell sorter can physically collect selected events for downstream work, subject to recovery, purity and functional-viability requirements; an analytical gate alone does not do this (Cossarizza 2019).",
+        "Absolute counts need a documented counting method, such as a suitable counting-bead standard or an instrument with validated absolute-count capability, with specimen volume and dilution retained. Counts of recorded events, percentages of a gate and cells per original blood volume are different outputs. The 2021 community guidelines describe both bead-based and instrument-based counting in specific protocols; neither makes every marker panel a validated clinical test.",
+        "Scatter and marker panels help define populations under the stated assay, but scatter alone does not uniquely identify a cell type. Low event numbers and rare populations need uncertainty and acceptance rules appropriate to the panel and purpose. A gate boundary, minimum event count or research cluster is not a universal clinical-response threshold, and analytical reproducibility of the panel does not establish treatment benefit."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "intracellular-cytokine-staining",
+      "kind": "term",
+      "name": "Intracellular cytokine staining",
+      "aka": [],
+      "tldr": "This test measures signaling proteins retained inside stimulated cells and identifies which stained cell groups produced them. The result describes a response in the assay.",
+      "summary": "An original multiparameter flow-cytometry study detected intracellular cytokine accumulation after antigen stimulation and measured several cytokines in individual cells. That study concerned viral responses, not cancer-treatment prediction. The stimulated material, measured cytokines, cell groups and analysis gates define the result. Cytokine production is distinct from direct measurement of target-cell death, and assay validation does not by itself establish clinical benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Determination of antigen-specific memory/effector CD4+ T cell frequencies by flow cytometry: evidence for a novel, antigen-specific homeostatic mechanism in HIV-associated immunodeficiency.",
+          "url": "https://doi.org/10.1172/jci119338"
+        },
+        {
+          "label": "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides.",
+          "url": "https://doi.org/10.1186/1471-2172-9-9"
+        },
+        {
+          "label": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+          "url": "https://doi.org/10.1016/s0022-1759(03)00265-5"
+        },
+        {
+          "label": "Standardization of cytokine flow cytometry assays.",
+          "url": "https://doi.org/10.1186/1471-2172-6-13"
+        },
+        {
+          "label": "Standardization of cytokine flow cytometry assays.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15978127/"
+        },
+        {
+          "label": "Cossarizza et al.: flow cytometry and cell sorting guidelines, third edition (2021)",
+          "url": "https://doi.org/10.1002/eji.202170126"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "flow-cytometry",
+        "elispot",
+        "immune-cytotoxicity-assays",
+        "pbmc-specimens"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Method card, what it measures: cytokines retained inside cells during a defined assay, so a response can be assigned to stained cell populations. How: cells get a defined stimulus, a protein-transport inhibitor is present for a stated window so newly made cytokines accumulate, the cells are fixed and made permeable, and flow cytometry reads cytokine stains beside population markers, with a viability stain applied before fixation. Input: viable blood or tissue cells, with separate aliquots per stimulus, and fixed cells cannot go on to living-cell assays. Output: percent cytokine-positive cells within a named parent population, or percent with stated cytokine combinations. Controls: unstimulated or vehicle, a positive stimulation, viability and recovery, single-stain and staining-boundary controls. It cannot tell natural tumour presentation, direct target-cell killing, receptor sequence identity or clinical benefit.",
+        "Precision evidence: in a study among laboratories involved in HIV clinical trials, using a common protocol and a cytomegalovirus pp65 peptide mix, mean inter-laboratory coefficients of variation ranged from 17% to 44% depending on sample type and analysis method, cryopreserved PBMC gave lower variation than whole blood, and centralised analysis with a dynamic gating template cut it by 5% to 20%. Variation was lowest (18% to 24%) for samples with more than 0.5% interferon gamma positive T cells and highest (57% to 82%) for samples below 0.1%, so gating is a major source of variability and precision falls as the responding frequency falls (Maecker 2005). That study supports protocol and gating consistency and does not validate every panel, stimulus or disease.",
+        "Fictional interpretation: a report finds cells positive for both interferon gamma and tumour necrosis factor after peptide stimulation. They are double-cytokine-positive under that assay and may not be called tumour-killing, because natural tumour recognition and death of appropriate targets need separate tests, and a strong response to a broad positive control confirms assay responsiveness and not recognition of the intended peptide. Polyfunctional means meeting the assay's rules for several measured functions, so it always needs its panel and stimulus attached, and a stained subset can contain many receptors.",
+        "The stimulus changes the question. Added peptide can bypass some processing steps; whole protein needs suitable antigen-presenting cells and processing, while broad stimulation tests responsiveness without identifying the intended antigen. The 2021 flow-cytometry guidelines describe brefeldin A and monensin as transport inhibitors and explain that their choice and exposure window can affect what is measured. Intracellular accumulation after inhibition is not a measurement of how much cytokine reached the surrounding medium.",
+        "Cytokine-positive percentages need a named parent gate, and fluorescence intensity uses instrument-dependent units. Poor recovery, handling delays, signal overlap, altered staining after fixation or permeabilisation, background and scarce events can make a small positive population unstable, and inhibitor timing belongs to the protocol. Minimum event counts, positivity boundaries and clinical interpretation need validation for the panel, stimulus and population; there is no universal double-positive percentage that proves tumour killing or treatment benefit."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "peptide-hla-multimer-staining",
+      "kind": "term",
+      "name": "Peptide-HLA multimer staining",
+      "aka": [
+        "peptide-MHC multimer staining",
+        "peptide-HLA tetramer staining",
+        "pMHC multimer staining"
+      ],
+      "tldr": "This test labels cells whose receptors bind a particular displayed peptide under the assay conditions. It helps identify a binding population that can then be studied for function.",
+      "summary": "The original peptide-MHC tetramer study made soluble multimeric peptide-display complexes to identify antigen-specific T cells. Binding correlated with cytotoxicity in the tested systems, but those observations are different measurements. The chosen peptide and HLA molecule define which interaction is tested. Detecting multimer-binding cells does not by itself establish natural display of that peptide by a tumor, successful target-cell killing or a clinical treatment effect.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Phenotypic analysis of antigen-specific T lymphocytes.",
+          "url": "https://doi.org/10.1126/science.274.5284.94"
+        },
+        {
+          "label": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+          "url": "https://doi.org/10.1016/s0022-1759(03)00265-5"
+        },
+        {
+          "label": "A robust method for production of MHC tetramers with small molecule fluorophores.",
+          "url": "https://doi.org/10.1016/j.jim.2006.08.014"
+        },
+        {
+          "label": "Cossarizza et al.: flow cytometry and cell sorting guidelines, third edition (2021)",
+          "url": "https://doi.org/10.1002/eji.202170126"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "binding-presentation-recognition",
+        "intracellular-cytokine-staining",
+        "immune-cytotoxicity-assays"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Method card, what it measures: binding of cells to a specified peptide held by a specified HLA allele, under the staining conditions. How: HLA molecules are assembled with the selected peptide and several copies are attached to a labelled scaffold (a tetramer is one format), cells are exposed and analysed, usually by flow cytometry, with viable-cell and gate selection. Input: blood or tissue cells, where staining uses a defined aliquot and compatibility with later living-cell assays depends on the preparation, and the reagent must match both peptide and allele. Thresholds: gate and positivity rules need background and reagent controls, and no universal percentage shows efficacy. Failure modes: nonspecific binding, weak binding, dead cells, a wrong or poorly formed reagent, chain differences or sampling loss. It cannot tell cytokine response, tumour-cell killing, healthy-tissue specificity or benefit.",
+        "Denominators, fictional arithmetic: 100 stained cells among 10,000 gated CD8 T cells is 1%, and the same 100 among 40,000 viable acquired cells is 0.25%. Both are correct and answer different denominator questions, and neither is a body-wide census or a killing rate. A tetramer-negative result is not a census of every possible relevant receptor, because some receptors bind too weakly for a given staining method, and HLA restriction belongs to the peptide-HLA pair and not the peptide alone.",
+        "What the evidence shows: in the original report, tetramers of HLA-A2 with two HIV-derived peptides or an influenza A matrix peptide bound peptide-specific cytotoxic T cells in vitro and T cells from the blood of HIV-infected people, and binding in general correlated well with cytotoxicity assays (Altman 1996). That is a correlation in those systems and not a rule that binding equals killing for an arbitrary tumour peptide. Tetramers are made by mixing biotinylated MHC with fluorescent streptavidin, and a later method made them with small-molecule fluorophores (Ramachandiran 2007), so reagent preparation is a source of variation. An observed stain shows binding under the tested conditions and does not show natural processing and display of that pair by a tumour.",
+        "Connecting assays is an inference task. A multimer-binding cell with no measured cytokine response need not identify one failed biological step: reagent performance, viability, stimulation, measurement window and each assay's threshold can differ. A cytokine response still does not directly measure target-cell death. Compatible cell sorting and receptor sequencing can connect binding to an operational receptor identity, but natural tumour presentation, recognition and killing remain separate questions to test.",
+        "Avidity describes the combined strength of multiple contacts. Multimerising peptide-HLA ligands can make binding detectable when an individual receptor-ligand contact is weak; the 2021 guidelines also caution that more multimerisation does not always improve detection. The measured output is a gate-defined binding fraction or, with a suitable counting method, a count. Reagent, viability and background controls support that binding measurement, which still requires separate validation before use for treatment selection."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "pbmc-specimens",
+      "kind": "term",
+      "name": "Peripheral blood mononuclear cell specimens",
+      "aka": [
+        "PBMC",
+        "PBMCs",
+        "peripheral blood mononuclear cells"
+      ],
+      "tldr": "This blood-cell preparation contains lymphocytes and monocytes used in many immune tests. Collection and handling affect which cells and responses can be measured.",
+      "summary": "The National Library of Medicine distinguishes mononuclear leukocytes from granulocytes and from monocytes alone. A primary study of immune monitoring in HIV vaccine research found that processing and cryopreservation conditions affected cell recovery, viability and measured antigen responses. Those were assay findings, not a validated cancer-treatment predictor. A blood preparation also samples a different compartment from a tumor biopsy; the specimen and handling conditions belong with its interpretation.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "NLM MeSH: mononuclear leukocytes, definition",
+          "url": "https://id.nlm.nih.gov/mesh/M0012412.json"
+        },
+        {
+          "label": "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials.",
+          "url": "https://doi.org/10.1016/j.jim.2007.02.003"
+        },
+        {
+          "label": "Isolation of mononuclear cells and granulocytes from human blood. Isolation of monuclear cells by one centrifugation, and of granulocytes by combining centrifugation and sedimentation at 1 g.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4179068/"
+        },
+        {
+          "label": "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17382342/"
+        },
+        {
+          "label": "Cossarizza et al.: flow cytometry and cell sorting guidelines, third edition (2021)",
+          "url": "https://doi.org/10.1002/eji.202170126"
+        },
+        {
+          "label": "Cytiva: isolation of mononuclear cells, separation principle and pathological blood specimens",
+          "url": "https://cdn.cytivalifesciences.com/api/public/content/digi-16156-pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "elispot",
+        "intracellular-cytokine-staining",
+        "tcr-repertoire-sequencing",
+        "tissue-preparation-assay-fit"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "What the fraction is: peripheral blood mononuclear cells are circulating white blood cells with a single unsegmented nucleus, mainly lymphocytes and monocytes, with T, B and natural killer cells among them, isolated by layering anticoagulated blood over a density-separation medium and collecting the interface. Most conventional granulocytes and red cells separate elsewhere, but recovery is incomplete, so platelets, red cells or low-density granulocytes can contaminate a preparation, and the label PBMC does not guarantee purity. The classic density-gradient method dates from 1968 (Boyum 1968). Isolation selects a recoverable blood fraction and does not sample tumour or give a complete immune census.",
+        "Handling is evidence: in HIV vaccine assay studies, the time from venipuncture to cryopreservation was the most important parameter, and blood processed at 24 hours compared with within 8 hours lost on average about 8% of PBMC viability, about 32% of cell recovery and 36% to 56% of interferon gamma T-cell frequencies by ELISpot, which led the authors to recommend cryopreservation within 8 hours (Bull 2007). That is a finding for those protocols and assays and is not a universal schedule for cancer assays. A rapidly processed baseline and a delayed follow-up can therefore confound a biological comparison, and a high viability percentage alone does not show that every population or function was preserved.",
+        "Preparation card: input is anticoagulated blood or a blood-cell collection product and separation processes that aliquot and retains a selected cell fraction for compatible downstream assays. Output is recovered cell number, viable-cell percentage, recovery after thawing and measured population fractions, with cells per original blood volume needing a documented calculation. Controls are collection and processing timestamps, anticoagulant, storage, counting and viability methods and matched handling across time points. Thresholds are acceptance rules set for the intended downstream assay and not one universal quality number. Fictional case: two tubes have equally high viability but one recovered far fewer monocytes, so they are not automatically interchangeable for a whole-protein stimulation assay, because monocytes can contribute antigen presentation and viability does not show composition.",
+        "The usable input for a downstream assay is the recovered viable cell preparation, not simply the volume of blood drawn. Fresh isolation, freezing, thawing, washing and any rest period define a sequence of selections, so record recovery, population composition and purity as well as viability. The Cytiva density-separation handbook describes the mononuclear interface, platelet carryover and possible immature-granulocyte contamination in pathological blood. That manufacturer method source does not validate every cancer assay, and an inadequate number of the relevant cells can make a rare-response experiment uninformative.",
+        "A stored PBMC sample is a finite specimen. It does not establish immune infiltration of a tumour, preserve every function or population equally, identify antigen specificity, or guarantee enough material for every later test. In the fictional equal-viability comparison, losing monocytes can affect a whole-protein stimulation because antigen-presenting-cell composition matters; viability alone does not establish interchangeable inputs. Fit and acceptance rules belong to the intended downstream assay."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "tcr-repertoire-sequencing",
+      "kind": "term",
+      "name": "T-cell receptor repertoire sequencing",
+      "aka": [
+        "TCR repertoire sequencing",
+        "TCR sequencing for immune monitoring"
+      ],
+      "tldr": "Receptor sequencing records the immune-receptor sequences sampled from a population of cells. It can track which sequences are present and how their measured abundance changes.",
+      "summary": "An original sequencing study quantified rearranged T-cell receptor beta-chain sequences to examine repertoire diversity. A beta-chain repertoire is a sampled molecular measurement, not a complete map of paired receptors or the antigens they recognize. The specimen, sequencing method and definition of a clonotype belong with the result. Following a sequence over time is distinct from demonstrating its antigen specificity or the function of the cells that carry it.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Comprehensive assessment of T-cell receptor beta-chain diversity in alphabeta T cells.",
+          "url": "https://doi.org/10.1182/blood-2009-04-217604"
+        },
+        {
+          "label": "Phenotypic analysis of antigen-specific T lymphocytes.",
+          "url": "https://doi.org/10.1126/science.274.5284.94"
+        },
+        {
+          "label": "Linking T-cell receptor sequence to functional phenotype at the single-cell level",
+          "url": "https://doi.org/10.1038/nbt.2938"
+        },
+        {
+          "label": "High-resolution analysis of the human T-cell receptor repertoire",
+          "url": "https://doi.org/10.1038/ncomms9081"
+        },
+        {
+          "label": "TIRTL-seq: deep, quantitative and affordable paired TCR repertoire sequencing",
+          "url": "https://doi.org/10.1038/s41592-025-02907-9"
+        },
+        {
+          "label": "NCBI: the standard genetic code",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=cgencodes#SG1"
+        },
+        {
+          "label": "Shugay et al.: towards error-free profiling of immune repertoires (MIGEC, 2014)",
+          "url": "https://doi.org/10.1038/nmeth.2960"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tcr-repertoire-clonality",
+        "clonality-testing",
+        "peptide-hla-multimer-staining",
+        "pbmc-specimens"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Beta match, alpha hidden, fictional: three cells carry beta chains B, B and C, so a bulk beta-chain view lists B, B, C and loses the alpha chains. The paired view keeps alpha X with beta B, alpha Y with beta B and alpha Z with beta C, so the shared beta B does not make alpha X and alpha Y equal. Single-cell methods that sequence the alpha and beta genes of individual T cells retain each pair and can be combined with function-related gene expression, and the same TCR sequence can sit in functionally different cells (Han 2014). A bulk method profiles a mixed sample, often one chain, whereas TIRTL-seq generates paired alpha and beta repertoire data at cohort scale and is distinguished from bulk single-chain data and from single-cell throughput limits (Pogorelyy 2026). Paired identity plus an expression program is more context and is still not evidence of the receptor's antigen.",
+        "Frequency arithmetic, fictional: clonotype A is 10 of 10,000 sampled receptor units at baseline (0.1%) and 20 of 1,000 later (2%). The measured relative frequency rose twentyfold, but these are sampled receptor units and not a census of cells, and other populations contracting, different sampling and method effects can change frequency. Read counts are not always cell counts, because preparation, amplification and transcript abundance can change them, and absolute expansion needs compatible cell-number evidence. A sequence overlap between blood and tumour is detected overlap under a clonotype definition and is not a target, and antigen specificity needs a matching controlled recognition experiment.",
+        "Assay card: measures receptor identities, usually by the complementarity-determining region 3 of the variable region, and their measured representation in the sampled population. How: extract nucleic acid, amplify or capture receptor regions, sequence, then group and count under stated rules, which may use nucleotide or amino-acid sequence, gene segments, one chain or paired chains. Input: blood cells or tissue nucleic acid for bulk methods and compatible cell preparations for single-cell methods, and preparation consumes material. A high-resolution human repertoire method reported chain diversity without sequence-associated or quantitative restrictions (Ruggiero 2015). Failure modes: poor material, shallow sampling, amplification bias, chain mismatch, inconsistent definitions and batch effects. It cannot tell every receptor's target, tissue position, killing or benefit, and a research method is not automatically a treatment-selection test.",
+        "Nucleotide and amino-acid clonotypes need not be the same grouping. The standard genetic code assigns several codons to the same amino acid, so different nucleotide sequences can encode the same receptor segment; amino-acid identity alone is not proof of one cellular lineage. MIGEC introduced molecular-identifier groups to correct PCR and sequencing errors in antibody and T-cell receptor repertoire profiling (Shugay 2014). Such error correction does not restore molecules absent from the sample. Report which chain, grouping rule and abundance unit the method actually used.",
+        "A repertoire report can give a clonotype list, relative frequencies, diversity, clonality and overlap, but there is no universal expansion or clonality threshold that proves tumour specificity. A sequence found in dissociated tumour material does not locate its cell inside a cancer-cell nest. Not detected means absent from the assay result under its sampling and calling rules, while an observed overlap or change nominates a receptor for a separate controlled recognition experiment."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "tcr-repertoire-clonality",
+      "kind": "term",
+      "name": "T-cell receptor repertoire diversity and clonality",
+      "aka": [
+        "TCR repertoire clonality",
+        "TCR repertoire diversity"
+      ],
+      "tldr": "Repertoire measures describe how many receptor identities are sampled and how unevenly they are represented. A dominant sequence does not tell us what its cells recognize.",
+      "summary": "Repertoire sequencing can describe richness and the distribution of sampled receptor sequences. Those summaries depend on the sampled population and the way receptor identities and counts are defined; the original sequencing study found diversity estimates that differed from earlier methods. A repertoire dominated by a clone is a distributional observation. It is distinct from proving tumor specificity, a malignant clone or successful tumor killing, each of which needs additional evidence.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Comprehensive assessment of T-cell receptor beta-chain diversity in alphabeta T cells.",
+          "url": "https://doi.org/10.1182/blood-2009-04-217604"
+        },
+        {
+          "label": "Phenotypic analysis of antigen-specific T lymphocytes.",
+          "url": "https://doi.org/10.1126/science.274.5284.94"
+        },
+        {
+          "label": "PubMed 26324409",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26324409/"
+        },
+        {
+          "label": "PubMed 24952902",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "PubMed 31359002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31359002/"
+        },
+        {
+          "label": "PubMed 22365666",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/"
+        },
+        {
+          "label": "VDJtools: Unifying Post-analysis of T Cell Receptor Repertoires.",
+          "url": "https://doi.org/10.1371/journal.pcbi.1004503"
+        },
+        {
+          "label": "3D: diversity, dynamics, differential testing - a proposed pipeline for analysis of next-generation sequencing T cell repertoire data.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28241742/"
+        },
+        {
+          "label": "VDJtools: diversity-index definitions",
+          "url": "https://vdjtools-doc.readthedocs.io/en/master/diversity.html"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tcr-repertoire-sequencing",
+        "clonality-testing",
+        "immune-cytotoxicity-assays"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The repertoire is a distribution of receptor identities and abundances in a stated population and time. A clone is a cellular lineage; a clonotype is an operational sequence grouping. Single-chain labels and paired identities have different resolution. V(D)J assembly and thymic selection contribute diversity, while expansion changes abundance; diversity and total T-cell count are different quantities.",
+        "Blood, tumour and lymph nodes sample overlapping but different populations. Infection, therapy, age and movement can change a sample; absence from one tube may reflect sampling or detection rather than whole-body absence. A pretreatment blood sample is not a complete stored repertoire. Lower measured diversity after infection may reflect a vigorous response and does not establish cancer specificity, vaccine causation or uniformly worse immunity.",
+        "Fictional matched receptor samples contain 10 clonotype A cells among 1,000 T cells (1%) and 10 among 100 (10%). The sampled count remains 10; the changed denominator drives the larger fraction. Absolute expansion requires comparable sampling and calibrated counts, and neither frequency identifies antigen. State sampling depth, chain definition, compartment, method and timing.",
+        "Metrics and arithmetic, fictional: with natural logarithms Shannon entropy is H = minus the sum of p times ln p, and one normalised clonality convention is 1 minus H / ln K for K observed clonotypes greater than one. Four clonotypes at 25, 25, 25 and 25 of 100 measured molecules give H = ln 4 = 1.386 and clonality 0. The same four at 70, 10, 10 and 10 give H = 0.940, clonality 1 minus 0.940 / 1.386 = 0.32, and an effective number of clonotypes exp(H) = 2.56. Richness is four in both, so many identities can coexist with strong dominance. Software may report Shannon entropy, its exponential or a normalised score, and these are not interchangeable: in the VDJtools documentation the Shannon-Wiener index returns the exponent of the entropy and the normalised index returns the entropy divided by the log of the clonotype count, which is evenness and not 1 minus that ratio, so a clonality built as 1 minus normalised entropy is a different number from either.",
+        "Share against count, fictional: clonotype A is 30 of 100 measured molecules, 30%, and later 30 of 50, 60%. Its measured count did not rise, the total fell, and its relative frequency doubled, so relative enrichment is not absolute expansion and the molecule counts are not blood cell counts. In a published analysis pipeline, clonality was identified as a robust key metric and first choice for measuring TCR repertoire diversity, and in prostate cancer patients given sipuleucel-T the pipeline detected changes in sequence frequency and diversity in blood and prostate tissue (Zhang 2017); that is a methods and example study and sets no response threshold. A diversity-analysis software suite reports repertoire comparison and diversity outputs (Shugay 2015), and formulas, software settings and subsampling depth have to be stated.",
+        "Measurement card: input is a sequencing-derived clonotype table and the calculation consumes no further tissue, though the upstream assay consumes its sample. Output units are a count for richness, dimensionless values for entropy and normalised clonality, and an effective clonotype count for effective diversity. Controls are matched compartments and handling, chain definition, error filtering, abundance units (reads, corrected molecules or cells are not automatically equivalent), depth assessment and replicates or resampling. Subsampling to a comparable depth helps assess sampling effects but cannot recover cells never sampled. A clonality summary does not identify what the receptors recognise, whether cells killed tumour, or whether treatment helped, and there is no universal clonality score that means an immune therapy is working.",
+        "Effective-diversity measures weight a distribution differently. For the inverse-Simpson convention, define D as the sum of squared clonotype fractions and report 1 / D: four equal fractions of 0.25 give 4, whereas 0.70, 0.10, 0.10 and 0.10 give 1 / 0.52, about 1.92. This differs from the Shannon effective diversity of about 2.56 for the same uneven distribution. A fictional sample containing only A and B at 50 molecules each has richness 2 and equal weights; low richness does not imply unequal weights.",
+        "For one observed clonotype, the expression 1 minus H / ln K divides by ln 1, which is zero. Report how the software handles that case rather than silently applying the formula. Low input, unequal depth, amplification bias, sequence errors, changing mixtures and inconsistent clonotype definitions can alter the result. Keep the software version, formula, filtering, input, compartment and abundance units, and inspect the distribution alongside the summary. Analytical reproducibility of a repertoire statistic does not establish a prognostic association or predict treatment benefit."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "immune-cytotoxicity-assays",
+      "kind": "term",
+      "name": "Immune-cell cytotoxicity assays",
+      "aka": [
+        "immune cytotoxicity assay",
+        "target-cell killing assay"
+      ],
+      "tldr": "These experiments measure whether immune cells cause death of specified target cells. The target cells, comparison conditions and timing are part of the result.",
+      "summary": "A primary flow-cytometry method distinguished labeled target cells from immune effector cells and measured target death while characterizing the effector population. The study examined how timing and the effector-to-target ratio affected the assay. Degranulation markers provide a related functional readout, but they measure a step preceding cytolysis. Killing of a laboratory target does not establish recognition of every tumor cell or benefit in the person receiving a treatment.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "A novel multiparametric flow cytometry-based cytotoxicity assay simultaneously immunophenotypes effector cells: comparisons to a 4 h 51Cr-release assay.",
+          "url": "https://doi.org/10.1016/j.jim.2007.05.013"
+        },
+        {
+          "label": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+          "url": "https://doi.org/10.1016/s0022-1759(03)00265-5"
+        },
+        {
+          "label": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+          "url": "https://doi.org/10.1016/j.jim.2019.112668"
+        },
+        {
+          "label": "Cell-based flow cytometry assay to measure cytotoxic activity.",
+          "url": "https://doi.org/10.3791/51105"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "elispot",
+        "peptide-hla-multimer-staining",
+        "cell-therapy-release-testing"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Method card, what it measures: whether specified effector cells cause death of specified target cells under controlled laboratory conditions, at a stated effector-to-target ratio and time. Readouts: flow cytometry that separates labelled targets from effectors and uses death-associated staining, release assays, or imaging over time. A fall in a metabolic or growth signal can reflect slowed growth and not death, so it needs validation as evidence of killing. Controls: target-only survival wells, effector identification and viability, a positive-control response, irrelevant or antigen-negative targets and suitable antigen or presentation perturbations, plus maximum release where relevant. Failure modes: high spontaneous death, mistaken target identity, aggregates, dye transfer, artificial loading, mismatched ratios or a readout that mainly measures growth.",
+        "Background arithmetic, fictional: matched wells of 100 identifiable targets show 30% death without effectors and 40% with them at the same 2-hour endpoint. Raw death is 40%, but 30% occurs without effectors, so the excess is 40 minus 30 = 10 percentage points. That excess is associated with the tested condition and does not identify which deaths the effectors caused, and calling the result 40% immune killing is not justified. A control-normalised specific-lysis formula gives a different quantity from an excess-death calculation, so the method has to be named, and a high baseline death can make the experiment unsuitable.",
+        "Scope of the methods: a flow-based assay labels targets with a dye, adds a dead-cell stain and analyses released nuclei, which lowers errors from target-effector aggregates, and it reported four nuclear staining patterns separating target and effector nuclei and live and dead cells (Rabinovich 2019). A peptide-pulsed target assay compares CFSE-low peptide-loaded and CFSE-high unloaded CD4 T-cell targets and calculates lytic units from specific lysis at several ratios (Noto 2013), so its result belongs to that artificial peptide loading, which can bypass the tumour's own processing. Degranulation (CD107 exposure) preceded cytolysis and was concordant with interferon gamma in the original report, and is distinct from completed target death (Betts 2003). Model-specific killing does not show trafficking, persistence, healthy-tissue safety or patient benefit.",
+        "Keep the identities and preparation of both effector and target cells, whether a cell line, engineered target or patient-derived preparation, together with medium, effector-to-target ratio and exposure time. Culture can change the tested population. The output might be a fraction of identified targets dead, a viable target count, release under a specified normalisation, or a time curve; these are different quantities. A negative is interpretable only when cell health, target suitability and controls support the experiment, and no universal laboratory killing cut-off establishes clinical efficacy. Reproducibility and biological specificity need checking for the specimen, model and intended claim."
+      ],
+      "category": "Immunology"
+    }
+  ]
+}

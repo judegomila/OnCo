@@ -1,0 +1,899 @@
+{
+  "sourceFirst": true,
+  "ownerInspectionBeforeFreeze": false,
+  "laterSources": 2,
+  "originalSources": 0,
+  "sourceInputs": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "sourceSha256": "a65f78123aef1dff27ecded92191ae8076b4900b9ab257b7412a11692a197f80",
+      "gitBlob": "5e0550d1a55de3685c8b6c113f9b0235acb9a438"
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "sourceSha256": "908f3b3678984c3c823b727138b8e76fc3178fb8f1d18e92396d258e10096f54",
+      "gitBlob": "6b9f56feef33854c2ee2a392443f356129371c4f"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "M-001",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Explain how spatial methods retain tissue location while protein and RNA assays measure different molecules.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-002",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Keep one thin tissue section distinct from the whole tumour and from loss of spatial context in a ground-up sample.",
+      "sourceScope": "sampling-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-003",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Assess the claim that every spatial method requires cell segmentation; distinguish cell-assigned results from pooled regions or capture spots.",
+      "sourceScope": "source-claim-requiring-qualification",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-004",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Treat the sampled tissue section as finite and account for assay use of material.",
+      "sourceScope": "sampling-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-005",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Keep observed neighbours separate from evidence of biological interaction.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-006",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Distinguish antibody-tagged protein detection by repeated fluorescence cycles from metal-tag detection by mass.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-007",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain why a question about a drug target on particular cells needs an appropriate protein measurement and cellular assignment.",
+      "sourceScope": "measurement-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-008",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Require marker-specific antibody validation and qualify panel size as a method-specific constraint.",
+      "sourceScope": "assay-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-009",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Distinguish RNA detection using probes or barcoded capture from antibody protein detection and describe broad gene panels.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-010",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Keep transcription separate from protein abundance and cell-surface localisation.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-011",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Preserve the diagram's two independent choices: molecular layer and chosen regions versus the imaged area.",
+      "sourceScope": "diagram-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-012",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Describe digital spatial profiling as tag counts from selected tissue areas rather than a map of individual cells.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-013",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Merritt's region sizes of one to about 5,000 cells and panels of 44 proteins or 1,412 genes, with method-paper scope.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-014",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain pooled regional results and dependence on who selected the regions and why.",
+      "sourceScope": "sampling-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-015",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Distinguish mapping the complete imaged field from assuming that the entire slide or tumour was measured.",
+      "sourceScope": "sampling-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-016",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify Lin's example of up to 60 protein markers on formalin-fixed sections using standard microscopes.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-017",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify Giesen's 32-protein breast-cancer imaging example, subcellular resolution and destruction of the sampled area by laser ablation.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-018",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify Keren's ion-beam example of 36 proteins in 41 triple-negative breast tumours.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-019",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Describe Ståhl's sequencing-based transcriptome capture in human breast cancer, retaining capture-spot mixtures rather than assuming single cells.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-020",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify Chen's 100-to-1,000-gene imaging example, individual RNA molecules and assignment to cells, with a targeted panel.",
+      "sourceScope": "historical-method-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-021",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Keep all cited panel sizes historical and require the actual study method rather than treating them as current platform limits.",
+      "sourceScope": "source-scope-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-022",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Verify the mixed versus compartmentalised immune patterns and survival association in Keren's 41-tumour cohort without turning it into a treatment test.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-023",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Explain when broad RNA mapping supports discovery of cell states and pathways before choosing markers.",
+      "sourceScope": "assay-choice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-024",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Choose predefined regional profiling for known compartments and mapped imaging for borders, neighbourhoods or rare-cell questions.",
+      "sourceScope": "assay-choice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-025",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Carry the analogy's underlying distinction between measured proteins, measured transcripts, chosen samples and spatial maps without treating the analogy as biology.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-026",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Explain why regional readouts and multicellular capture spots make spatial measurement different from universal single-cell resolution.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-027",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Carry the fictional 40-marker versus six-marker comparison: including the relevant target can matter more than panel size.",
+      "sourceScope": "fictional-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-028",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Require protein verification for a targeting question despite detected RNA.",
+      "sourceScope": "measurement-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-029",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Do not infer cell interaction or functional engagement merely from spatial adjacency.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-030",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Distinguish cited research multiplex methods from validated clinical receptor or PD-L1 immunohistochemistry without making an exhaustive regulatory claim.",
+      "sourceScope": "validation-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-031",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "For one spare section and a target-near-T-cells question, specify protein detection for the target, cancer cells and T cells over an appropriate imaged area.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-032",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Explain why regional RNA would not answer which cells carry that protein in the exercise.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "M-033",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Answer the teach-back choice among protein, RNA and predefined regional profiling using the question, measured molecule and sampling design.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-001",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Define spatial proximity metrics as relationships in a cell map and distinguish them from density, with a single two-dimensional section as the sampled object.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-002",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Specify cell type and x-y coordinates as inputs, with image segmentation and cell typing as sources of error.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-003",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define compartment density with its cell-count denominator and tumour-epithelium or stromal area, for example CD8 cells per square millimetre.",
+      "sourceScope": "metric-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-004",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define a radius count and fraction with the reference cell population and distance threshold stated.",
+      "sourceScope": "metric-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-005",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define directed nearest-neighbour distance, including a summary such as the median from each T cell to the closest cancer cell.",
+      "sourceScope": "metric-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-006",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define the directed cross-type nearest-neighbour distribution G-cross across radii and distinguish a curve or its 0-to-20-micrometre area from a single fixed-radius fraction.",
+      "sourceScope": "metric-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-007",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify the immune-tumour versus immune-immune contact ratio used as a mixing-score example.",
+      "sourceScope": "method-specific-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-008",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Treat Morisita-Horn colocalisation as a separate spatial abundance metric rather than assuming all mixing scores share one definition.",
+      "sourceScope": "method-specific-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-009",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain recurring cellular neighbourhoods using the example of clustering each cell's ten nearest neighbours.",
+      "sourceScope": "method-specific-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-010",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define one micrometre as one thousandth of a millimetre.",
+      "sourceScope": "unit-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-011",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Assess the 7-to-10-micrometre lymphocyte size and the proposed two-cell-width interpretation of a 20-micrometre radius; do not equate proximity with contact.",
+      "sourceScope": "source-claim-requiring-qualification",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-012",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Preserve the processing pipeline and analyst choices, while qualifying the diagram's claim that every metric yields one number per region or slide.",
+      "sourceScope": "diagram-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-013",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain why tumour-versus-stromal location matters for contact-dependent T-cell killing without inferring killing from a map.",
+      "sourceScope": "mechanism-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-014",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Elomaa's G-cross example: 983 and independent 246 colorectal-cancer patients, 20-micrometre tumour-to-T-cell scope, cancer-specific survival and adjusted hazard ratios 0.33 (0.20 to 0.52) and 0.15 (0.05 to 0.45), distinct from density.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-015",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Gide's melanoma example: 27 anti-PD-1 monotherapy and 34 combination patients, CD8 cells within 20 micrometres and response association.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-016",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Maley's breast-cancer colocalisation example on routine slides, 486 and 516 women from separate cohorts, with survival association.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-017",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Walker's 1,467-patient CD8 proximity and recurrence-free-survival association compared with CD8 density.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-018",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Keren's 41-tumour triple-negative mixed/compartmentalised pattern association and keep it distinct from prospective prediction.",
+      "sourceScope": "observational-association",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-019",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Keep group associations separate from a validated individual prognosis or treatment-selection rule.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-020",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Assess, rather than silently endorse, the global claim that no locked distance threshold has prospective validation and no distance metric is approved.",
+      "sourceScope": "universal-negative-source-claim",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-021",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Compare standardised compartment-based stromal TIL assessment with distance metrics without assigning all assays a universal validation ranking.",
+      "sourceScope": "validation-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-022",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Retain and recompute the fictional counts: 60 of 200 CD8 cells is 30 percent, while 15 of 300 is five percent after moving the region two millimetres.",
+      "sourceScope": "fictional-arithmetic",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-023",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Explain that a changed analysis region can change the result while the tumour, stain and radius are held fixed in the fictional example.",
+      "sourceScope": "fictional-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-024",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Require section identity and biopsy-versus-resection context when interpreting a spatial result.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-025",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Require cell-defining markers and a check of segmentation and cell calls.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-026",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Report whole-slide versus chosen-region scope, the selector and the selection rule.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-027",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Report the metric, the cell-type pair, the direction or denominator and any radius.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-028",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Separate a threshold fixed before outcome inspection from one fitted to the cohort.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-029",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Require independent validation of the same metric definition.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-030",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Verify Taube's six-site PD-1/PD-L1 proximity reproducibility example and the reported R-squared of 0.82 with its precise scope.",
+      "sourceScope": "analytical-validation-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-031",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Distinguish reproducible measurement from outcome prediction or clinical utility.",
+      "sourceScope": "validation-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-032",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Explain that cells 15 micrometres apart need not interact and adjacency alone cannot establish T-cell functional state.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-033",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Keep the share of T cells near tumour distinct from the share of tumour cells near T cells; reversing the reference population changes the denominator.",
+      "sourceScope": "metric-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-034",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Do not transfer a result between 10-, 20- and 30-micrometre radii without checking the changed definition.",
+      "sourceScope": "interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-035",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Do not treat a cohort-selected cutoff as a clinically validated test.",
+      "sourceScope": "validation-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-036",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Verify Lin's two-dimensional-versus-three-dimensional topology caution: apparent separation, contact and connected structures can differ across sections.",
+      "sourceScope": "sampling-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-037",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Explain how segmentation or signal-spillover errors can create false cell calls and false neighbours.",
+      "sourceScope": "measurement-error",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-038",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "For a fictional 3.2-times-closer report, require matched region-selection rules, comparable specimen types, a fixed metric and radius, and variation between sections of the block.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "P-039",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Answer the teach-back by separating described spatial closeness from proof of interaction and from an individual patient outcome.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    }
+  ],
+  "nonCredit": [
+    {
+      "id": "M-X01",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases and repeated front-matter summary are metadata; substantive definition is represented once."
+    },
+    {
+      "id": "M-X02",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Takeaway repeats the retained measurement and inference requirements and gains no independent point."
+    },
+    {
+      "id": "M-X03",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [
+        11
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identity, source-check date and pending expert/learner status are assessed as source metadata, not scientific coverage."
+    },
+    {
+      "id": "M-X04",
+      "lesson": "spatial-methods-compared",
+      "phase": "later",
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not credited from a link."
+    },
+    {
+      "id": "P-X01",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases and repeated front-matter summary are metadata; substantive definition is represented once."
+    },
+    {
+      "id": "P-X02",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Takeaway repeats the retained measurement and inference requirements and gains no independent point."
+    },
+    {
+      "id": "P-X03",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [
+        11
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identity, source-check date and pending expert/learner status are assessed as source metadata, not scientific coverage."
+    },
+    {
+      "id": "P-X04",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not credited from a link."
+    },
+    {
+      "id": "P-X05",
+      "lesson": "spatial-proximity-metrics",
+      "phase": "later",
+      "sectionOrdinals": [],
+      "creditClass": "excluded-personal-context",
+      "reason": "The personal-case section is excluded from the public inventory and canonical teaching. No personal text is copied."
+    }
+  ],
+  "versionBoundary": "Both assigned sources are later-only census entries. Original spatial teaching elsewhere remains separately censused; no source is closed by thematic overlap."
+}

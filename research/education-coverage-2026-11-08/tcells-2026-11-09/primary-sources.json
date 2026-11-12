@@ -1,0 +1,1323 @@
+{
+  "publications": [
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 1,
+      "occurrenceId": "tcells-primary-10973325",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "10973325",
+      "doi": "10.1038/79549",
+      "title": "Increased cell division but not thymic dysfunction rapidly affects the T-cell receptor excision circle content of the naive T cell population in HIV-1 infection.",
+      "authors": "Hazenberg MD, Otto SA, Cohen Stuart JW, Verschuren MC, Borleffs JC, Boucher CA, Coutinho RA, Lange JM, Rinke de Wit TF, Tsegaye A, van Dongen JJ, Hamann D, de Boer RJ, Miedema F.",
+      "year": "2000",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10973325+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "4018961dcd050017584e75cb31be3c6882b17913112d76293bfc74e7e263911a"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:10973325%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "4018961dcd050017584e75cb31be3c6882b17913112d76293bfc74e7e263911a"
+        }
+      ],
+      "supportedRequirements": [
+        "trec-denominator",
+        "thymus-interpretation"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 2,
+      "occurrenceId": "tcells-primary-12086671",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "12086671",
+      "doi": "10.1016/s0092-8674(02)00767-5",
+      "title": "Transcriptional mechanisms underlying lymphocyte tolerance.",
+      "authors": "Macián F, García-Cózar F, Im SH, Horton HF, Byrne MC, Rao A.",
+      "year": "2002",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12086671+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "8222230c7cf0370e1df311ab1a6082eb95f573c27ef61c8d97d4bb78dca637bd"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12086671%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "8222230c7cf0370e1df311ab1a6082eb95f573c27ef61c8d97d4bb78dca637bd"
+        }
+      ],
+      "supportedRequirements": [
+        "anergy-history",
+        "anergy-mechanism",
+        "anergy-controls"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 3,
+      "occurrenceId": "tcells-primary-12471050",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "12471050",
+      "doi": "10.1146/annurev.immunol.21.120601.141110",
+      "title": "T cell anergy.",
+      "authors": "Schwartz RH.",
+      "year": "2003",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12471050+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "1854c9bd9905f156f84d2a124d5535204d02486fcc20189919f36f6598575620"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12471050%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "1854c9bd9905f156f84d2a124d5535204d02486fcc20189919f36f6598575620"
+        }
+      ],
+      "supportedRequirements": [
+        "anergy-mechanism",
+        "anergy-tolerance",
+        "anergy-exhaustion-comparison"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 4,
+      "occurrenceId": "tcells-primary-12522256",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "12522256",
+      "doi": "10.1126/science.1079490",
+      "title": "Control of regulatory T cell development by the transcription factor Foxp3.",
+      "authors": "Hori S, Nomura T, Sakaguchi S.",
+      "year": "2003",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12522256+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "2de1f0b4a95542c67d1f90ac1bd0b770c924578a142b0ab6384db07873663234"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12522256%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "663156df143f4d68bd4aa3df92ede9b94ac47a31b56ab079673ed368fae47404"
+        }
+      ],
+      "supportedRequirements": [
+        "cd4-help",
+        "regulatory-role",
+        "foxp3-limit"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 5,
+      "occurrenceId": "tcells-primary-15814665",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "15814665",
+      "doi": "10.4049/jimmunol.174.8.4465",
+      "title": "Type I IFNs provide a third signal to CD8 T cells to stimulate clonal expansion and differentiation.",
+      "authors": "Curtsinger JM, Valenzuela JO, Agarwal P, Lins D, Mescher MF.",
+      "year": "2005",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15814665+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "b5aa17fca4e8257e15d06dfc45c3b7f2225c360ef38b672b150d092dd6a37bea"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15814665%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "b5aa17fca4e8257e15d06dfc45c3b7f2225c360ef38b672b150d092dd6a37bea"
+        }
+      ],
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "presentation-routing",
+        "priming-signals",
+        "priming-cytokines",
+        "priming-endpoints"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 6,
+      "occurrenceId": "tcells-primary-17559580",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "17559580",
+      "doi": "10.1111/j.1399-0039.2007.00849.x",
+      "title": "Extraordinary cross-reactivity of an autoimmune T-cell receptor recognizing specific peptides both on autologous and on allogeneic HLA class II molecules.",
+      "authors": "Hansen BE, Rasmussen AH, Jakobsen BK, Ryder LP, Svejgaard A.",
+      "year": "2007",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17559580+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "4d65a97d1c6d6610d46d5735bbd06e57559c0c847701b059489dc15ba2283735"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17559580%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "4d65a97d1c6d6610d46d5735bbd06e57559c0c847701b059489dc15ba2283735"
+        }
+      ],
+      "supportedRequirements": [
+        "tcr-crossreactivity"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 7,
+      "occurrenceId": "tcells-primary-17644734",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "17644734",
+      "doi": "10.1182/blood-2007-06-094656",
+      "title": "Induction of FOXP3 expression in naive human CD4+FOXP3 T cells by T-cell receptor stimulation is transforming growth factor-beta dependent but does not confer a regulatory phenotype.",
+      "authors": "Tran DQ, Ramsey H, Shevach EM.",
+      "year": "2007",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17644734+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "47effa249390170bc3d561325b364c481566e9cea81f36683958dafe4224da73"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17644734%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "47effa249390170bc3d561325b364c481566e9cea81f36683958dafe4224da73"
+        }
+      ],
+      "supportedRequirements": [
+        "foxp3-limit",
+        "regulatory-measurement"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 8,
+      "occurrenceId": "tcells-primary-17950003",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "17950003",
+      "doi": "10.1016/j.immuni.2007.09.006",
+      "title": "Molecular signature of CD8+ T cell exhaustion during chronic viral infection.",
+      "authors": "Wherry EJ, Ha SJ, Kaech SM, Haining WN, Sarkar S, Kalia V, Subramaniam S, Blattman JN, Barber DL, Ahmed R.",
+      "year": "2007",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17950003+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "7a5f173f7e01ed6af87147de7a0e0dd594f313e208f028aebcdd15ea9ac85ee6"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17950003%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "7a5f173f7e01ed6af87147de7a0e0dd594f313e208f028aebcdd15ea9ac85ee6"
+        }
+      ],
+      "supportedRequirements": [
+        "anergy-exhaustion-comparison",
+        "comparison-example",
+        "exhaustion-programme",
+        "state-history"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 9,
+      "occurrenceId": "tcells-primary-18420820",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "18420820",
+      "doi": "10.1073/pnas.0709713105",
+      "title": "Sparse production but preferential incorporation of recently produced naive T cells in the human peripheral pool.",
+      "authors": "Vrisekoop N, den Braber I, de Boer AB, Ruiter AF, Ackermans MT, van der Crabben SN, Schrijver EH, Spierenburg G, Sauerwein HP, Hazenberg MD, de Boer RJ, Miedema F, Borghans JA, Tesselaar K.",
+      "year": "2008",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18420820+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "03e106c2219e0bba104aa91966bf4ece9005b2901345e4314430b1f65db46bd3"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18420820%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "6c18a6784500762a81876a1225f275c6467c62b829c381bbffd925186a6cda6d"
+        }
+      ],
+      "supportedRequirements": [
+        "thymus-maintenance",
+        "thymus-interpretation"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 10,
+      "occurrenceId": "tcells-primary-1847722",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "1847722",
+      "doi": "10.1084/jem.173.3.721",
+      "title": "Binding of the B cell activation antigen B7 to CD28 costimulates T cell proliferation and interleukin 2 mRNA accumulation.",
+      "authors": "Linsley PS, Brady W, Grosmaire L, Aruffo A, Damle NK, Ledbetter JA.",
+      "year": "1991",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A1847722+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "d0aa9f528abddc0d3236b69cc6098d45ca491c05ddeb717107b36b85fd6daaa0"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:1847722%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "d0aa9f528abddc0d3236b69cc6098d45ca491c05ddeb717107b36b85fd6daaa0"
+        }
+      ],
+      "supportedRequirements": [
+        "costimulation-identity",
+        "costimulation-ligands",
+        "costimulation-measurement",
+        "priming-signals"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 11,
+      "occurrenceId": "tcells-primary-18641351",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "18641351",
+      "doi": "10.4049/jimmunol.181.3.2124",
+      "title": "Naive precursor frequencies and MHC binding rather than the degree of epitope diversity shape CD8+ T cell immunodominance.",
+      "authors": "Kotturi MF, Scott I, Wolfe T, Peters B, Sidney J, Cheroutre H, von Herrath MG, Buchmeier MJ, Grey H, Sette A.",
+      "year": "2008",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18641351+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "bcb10c2a9b4f202fd8dffe4b7ca0dde8d4910628cfcf368033448911e16c9f98"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18641351%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "69a134a3b5a5948294a8cf6baef43a1c730b7ae56bf281dfc764a27e0cf6c960"
+        }
+      ],
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-mechanism",
+        "dominance-assay"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 12,
+      "occurrenceId": "tcells-primary-21367907",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "21367907",
+      "doi": "10.1128/jvi.00093-11",
+      "title": "Immunodominance of HLA-A2-restricted hepatitis C virus-specific CD8+ T cell responses is linked to naive-precursor frequency.",
+      "authors": "Schmidt J, Neumann-Haefelin C, Altay T, Gostick E, Price DA, Lohmann V, Blum HE, Thimme R.",
+      "year": "2011",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21367907+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "cd48751e92e8f323d241df62236ef6e595b964d1e746759690a7a62ee064c96b"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21367907%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "59b62e039b999e117d2daf7c7456eca39710946dcd0a3995f0a7161c983050f6"
+        }
+      ],
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-mechanism"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 13,
+      "occurrenceId": "tcells-primary-21474713",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "21474713",
+      "doi": "10.1126/science.1202947",
+      "title": "Trans-endocytosis of CD80 and CD86: a molecular basis for the cell-extrinsic function of CTLA-4.",
+      "authors": "Qureshi OS, Zheng Y, Nakamura K, Attridge K, Manzotti C, Schmidt EM, Baker J, Jeffery LE, Kaur S, Briggs Z, Hou TZ, Futter CE, Anderson G, Walker LS, Sansom DM.",
+      "year": "2011",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21474713+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "bde0587e6a41121bebe17fb8033c424360e5056c391fae51264c4dd6bfa4c839"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21474713%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "212c2df79c47cabaa7d01bff391daa7141681c409eb64c184e44a4db999d4c77"
+        }
+      ],
+      "supportedRequirements": [
+        "costimulation-identity",
+        "costimulation-ligands",
+        "regulatory-measurement"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 14,
+      "occurrenceId": "tcells-primary-22365666",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "22365666",
+      "doi": "10.1016/j.immuni.2012.02.006",
+      "title": "Maintenance of peripheral naive T cells is sustained by thymus output in mice but not humans.",
+      "authors": "den Braber I, Mugwagwa T, Vrisekoop N, Westera L, Mögling R, de Boer AB, Willems N, Schrijver EH, Spierenburg G, Gaiser K, Mul E, Otto SA, Ruiter AF, Ackermans MT, Miedema F, Borghans JA, de Boer RJ, Tesselaar K.",
+      "year": "2012",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22365666+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "fb8ab7229717cd550b670e69c001356ca20e9e191ded4b57eaf7190ae0e34ad1"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22365666%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "b5a2bb7df0f5803fd6c64ef65d0f14666cc79bd6562fdae31d4baade66748ada"
+        }
+      ],
+      "supportedRequirements": [
+        "repertoire-sampling",
+        "state-history",
+        "thymus-maintenance",
+        "thymus-interpretation"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 15,
+      "occurrenceId": "tcells-primary-24952902",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "24952902",
+      "doi": "10.1038/nbt.2938",
+      "title": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+      "authors": "Han A, Glanville J, Hansmann L, Davis MM.",
+      "year": "2014",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24952902+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "7515e898c4d411e2ab5828a60011e9a860c0506831280c360e2046a3e72db2d0"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24952902%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "7515e898c4d411e2ab5828a60011e9a860c0506831280c360e2046a3e72db2d0"
+        }
+      ],
+      "supportedRequirements": [
+        "tcr-structure",
+        "tcr-readouts",
+        "tcr-intervention",
+        "repertoire-definition",
+        "state-identity",
+        "state-function",
+        "tcell-measurement"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 16,
+      "occurrenceId": "tcells-primary-26205583",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "26205583",
+      "doi": "10.1038/nri3862",
+      "title": "Molecular and cellular insights into T cell exhaustion.",
+      "authors": "Wherry EJ, Kurachi M.",
+      "year": "2015",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26205583+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "b11b23a33cf2907d4307af0cdf49ed4683d75e670bd354fbc828e7c6b05dff58"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26205583%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "b11b23a33cf2907d4307af0cdf49ed4683d75e670bd354fbc828e7c6b05dff58"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-programme",
+        "exhaustion-markers"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 17,
+      "occurrenceId": "tcells-primary-27111280",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "27111280",
+      "doi": "10.1038/nm.4086",
+      "title": "Two FOXP3(+)CD4(+) T cell subpopulations distinctly control the prognosis of colorectal cancers.",
+      "authors": "Saito T, Nishikawa H, Wada H, Nagano Y, Sugiyama D, Atarashi K, Maeda Y, Hamaguchi M, Ohkura N, Sato E, Nagase H, Nishimura J, Yamamoto H, Takiguchi S, Tanoue T, Suda W, Morita H, Hattori M, Honda K, Mori M, Doki Y, Sakaguchi S.",
+      "year": "2016",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27111280+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "282c093211999713c9d7472148cae6b2a5408210130b29f501700727394cfa8e"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27111280%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "282c093211999713c9d7472148cae6b2a5408210130b29f501700727394cfa8e"
+        }
+      ],
+      "supportedRequirements": [
+        "regulatory-role",
+        "foxp3-limit"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 18,
+      "occurrenceId": "tcells-primary-27501248",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "27501248",
+      "doi": "10.1038/nature19330",
+      "title": "Defining CD8+ T cells that provide the proliferative burst after PD-1 therapy.",
+      "authors": "Im SJ, Hashimoto M, Gerner MY, Lee J, Kissick HT, Burger MC, Shan Q, Hale JS, Lee J, Nasti TH, Sharpe AH, Freeman GJ, Germain RN, Nakaya HI, Xue HH, Ahmed R.",
+      "year": "2016",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27501248+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "2b6a53bcc12c67f75488a1539e76946409d77f6149cdd755426f7e0fa365b752"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27501248%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "2b6a53bcc12c67f75488a1539e76946409d77f6149cdd755426f7e0fa365b752"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-subsets"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 19,
+      "occurrenceId": "tcells-primary-27533016",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "27533016",
+      "doi": "10.1016/j.immuni.2016.07.021",
+      "title": "T Cell Factor 1-Expressing Memory-like CD8(+) T Cells Sustain the Immune Response to Chronic Viral Infections.",
+      "authors": "Utzschneider DT, Charmoy M, Chennupati V, Pousse L, Ferreira DP, Calderon-Copete S, Danilo M, Alfei F, Hofmann M, Wieland D, Pradervand S, Thimme R, Zehn D, Held W.",
+      "year": "2016",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27533016+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "b5831af0c4dd025b8646b9f534adc6b37b38e7b45c478810a7f2263d0ec48359"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27533016%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "48acbdecc0153e66aea1a61cbbbbf5bea237ff3cb4bd6ae3e707f63b0e8125b6"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-subsets",
+        "state-history",
+        "state-identity"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 20,
+      "occurrenceId": "tcells-primary-27789795",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "27789795",
+      "doi": "10.1126/science.aaf2807",
+      "title": "Epigenetic stability of exhausted T cells limits durability of reinvigoration by PD-1 blockade.",
+      "authors": "Pauken KE, Sammons MA, Odorizzi PM, Manne S, Godec J, Khan O, Drake AM, Chen Z, Sen DR, Kurachi M, Barnitz RA, Bartman C, Bengsch B, Huang AC, Schenkel JM, Vahedi G, Haining WN, Berger SL, Wherry EJ.",
+      "year": "2016",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27789795+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "ec40b13af9fb1909a511ab549d03e777347b83a7597334416e418d2cb0ad3e69"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:27789795%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "ec40b13af9fb1909a511ab549d03e777347b83a7597334416e418d2cb0ad3e69"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-chromatin"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 21,
+      "occurrenceId": "tcells-primary-28280249",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "28280249",
+      "doi": "10.1126/science.aaf0683",
+      "title": "Rescue of exhausted CD8 T cells by PD-1-targeted therapies is CD28-dependent.",
+      "authors": "Kamphorst AO, Wieland A, Nasti T, Yang S, Zhang R, Barber DL, Konieczny BT, Daugherty CZ, Koenig L, Yu K, Sica GL, Sharpe AH, Freeman GJ, Blazar BR, Turka LA, Owonikoko TK, Pillai RN, Ramalingam SS, Araki K, Ahmed R.",
+      "year": "2017",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28280249+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "298d03fbeb5209ecfd5eef2354ffb8813223c78bc8e7c02d30ddfdd998cce670"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28280249%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "dd3b87cb18b04e531729859f0d75d63fe5acda76040b8fbe73502ad15d809ece"
+        }
+      ],
+      "supportedRequirements": [
+        "costimulation-rescue",
+        "costimulation-measurement"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 22,
+      "occurrenceId": "tcells-primary-29942092",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "29942092",
+      "doi": "10.1038/s41591-018-0078-7",
+      "title": "Single-cell profiling of breast cancer T cells reveals a tissue-resident memory subset associated with improved prognosis.",
+      "authors": "Savas P, Virassamy B, Ye C, Salim A, Mintoff CP, Caramia F, Salgado R, Byrne DJ, Teo ZL, Dushyanthen S, Byrne A, Wein L, Luen SJ, Poliness C, Nightingale SS, Skandarajah AS, Gyorki DE, Thornton CM, Beavis PA, Fox SB, Kathleen Cuningham Foundation Consortium for Research into Familial Breast Cancer (kConFab), Darcy PK, Speed TP, Mackay LK, Neeson PJ, Loi S.",
+      "year": "2018",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29942092+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "d62875c309827bf52c4baa49b8212e5111898ee76e430a5226d3bf5e0444c5c0"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29942092%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "d62875c309827bf52c4baa49b8212e5111898ee76e430a5226d3bf5e0444c5c0"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-markers",
+        "response-origin"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 23,
+      "occurrenceId": "tcells-primary-3029267",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "3029267",
+      "doi": "10.1084/jem.165.2.302",
+      "title": "Antigen presentation by chemically modified splenocytes induces antigen-specific T cell unresponsiveness in vitro and in vivo.",
+      "authors": "Jenkins MK, Schwartz RH.",
+      "year": "1987",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A3029267+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "0dcb34efcea4d29c9c5f8085bbfedfc2d58bde7990426710596f65259abe5d59"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:3029267%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "0dcb34efcea4d29c9c5f8085bbfedfc2d58bde7990426710596f65259abe5d59"
+        }
+      ],
+      "supportedRequirements": [
+        "anergy-history",
+        "anergy-controls",
+        "comparison-example"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 24,
+      "occurrenceId": "tcells-primary-30778252",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "30778252",
+      "doi": "10.1038/s41590-019-0312-6",
+      "title": "Subsets of exhausted CD8&lt;sup&gt;+&lt;/sup&gt; T cells differentially mediate tumor control and respond to checkpoint blockade.",
+      "authors": "Miller BC, Sen DR, Al Abosy R, Bi K, Virkud YV, LaFleur MW, Yates KB, Lako A, Felt K, Naik GS, Manos M, Gjini E, Kuchroo JR, Ishizuka JJ, Collier JL, Griffin GK, Maleri S, Comstock DE, Weiss SA, Brown FD, Panda A, Zimmer MD, Manguso RT, Hodi FS, Rodig SJ, Sharpe AH, Haining WN.",
+      "year": "2019",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30778252+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "edb4cd30e73d3afe15daa9c74582328e35f90e1f3fd6236bb4cee10ff782f2f4"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30778252%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "edb4cd30e73d3afe15daa9c74582328e35f90e1f3fd6236bb4cee10ff782f2f4"
+        }
+      ],
+      "supportedRequirements": [
+        "comparison-example",
+        "exhaustion-subsets",
+        "exhaustion-markers",
+        "state-identity",
+        "state-function"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 25,
+      "occurrenceId": "tcells-primary-31207603",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "31207603",
+      "doi": "10.1038/s41586-019-1325-x",
+      "title": "TOX transcriptionally and epigenetically programs CD8&lt;sup&gt;+&lt;/sup&gt; T cell exhaustion.",
+      "authors": "Khan O, Giles JR, McDonald S, Manne S, Ngiow SF, Patel KP, Werner MT, Huang AC, Alexander KA, Wu JE, Attanasio J, Yan P, George SM, Bengsch B, Staupe RP, Donahue G, Xu W, Amaravadi RK, Xu X, Karakousis GC, Mitchell TC, Schuchter LM, Kaye J, Berger SL, Wherry EJ.",
+      "year": "2019",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31207603+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "f972ef6cbb7cca0eaa256679fe0736bf47f9707c0087d9b0c9993ef95e9f2a1d"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31207603%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "f972ef6cbb7cca0eaa256679fe0736bf47f9707c0087d9b0c9993ef95e9f2a1d"
+        }
+      ],
+      "supportedRequirements": [
+        "exhaustion-programme",
+        "exhaustion-markers"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 26,
+      "occurrenceId": "tcells-primary-31359002",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "31359002",
+      "doi": "10.1038/s41591-019-0522-3",
+      "title": "Clonal replacement of tumor-specific T cells following PD-1 blockade.",
+      "authors": "Yost KE, Satpathy AT, Wells DK, Qi Y, Wang C, Kageyama R, McNamara KL, Granja JM, Sarin KY, Brown RA, Gupta RK, Curtis C, Bucktrout SL, Davis MM, Chang ALS, Chang HY.",
+      "year": "2019",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31359002+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "5403b051e3924a3d80c05215859d2d8d35e007e671a18d52cd2288cbf762f2be"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31359002%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "5403b051e3924a3d80c05215859d2d8d35e007e671a18d52cd2288cbf762f2be"
+        }
+      ],
+      "supportedRequirements": [
+        "response-origin",
+        "repertoire-sampling",
+        "state-function"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 27,
+      "occurrenceId": "tcells-primary-31461748",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "31461748",
+      "doi": "10.1038/s41586-019-1537-0",
+      "title": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+      "authors": "Dong, Zheng L, Lin J, Zhang B, Zhu Y, Li N, Xie S, Wang Y, Gao N, Huang Z.",
+      "year": "2019",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31461748+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "a49e9a1a96f9b7024433cbbe87473f43763983abba185cd51f70f4c167fc9b3a"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31461748%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "a49e9a1a96f9b7024433cbbe87473f43763983abba185cd51f70f4c167fc9b3a"
+        }
+      ],
+      "supportedRequirements": [
+        "tcr-structure",
+        "tcr-readouts",
+        "tcell-family"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 28,
+      "occurrenceId": "tcells-primary-32497499",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "32497499",
+      "doi": "10.1016/j.cell.2020.05.017",
+      "title": "Intratumoral CD4<sup>+</sup> T Cells Mediate Anti-tumor Cytotoxicity in Human Bladder Cancer.",
+      "authors": "Oh DY, Kwek SS, Raju SS, Li T, McCarthy E, Chow E, Aran D, Ilano A, Pai CS, Rancan C, Allaire K, Burra A, Sun Y, Spitzer MH, Mangul S, Porten S, Meng MV, Friedlander TW, Ye CJ, Fong L.",
+      "year": "2020",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32497499+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "cebd41801b8312035b62b694b3461788c419f6aefee3837d2f34807059f237de"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32497499%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "ad0dcb0f0536f49cb4b6e833575cb95db7017c9530c15be14c14df01c6b85b56"
+        }
+      ],
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "coreceptor-assay",
+        "tcell-measurement"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 29,
+      "occurrenceId": "tcells-primary-33038342",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "authors": "Wells DK, van Buuren MM, Dang KK, Hubbard-Lucey VM, Sheehan KCF, Campbell KM, Lamb A, Ward JP, Sidney J, Blazquez AB, Rech AJ, Zaretsky JM, Comin-Anduix B, Ng AHC, Chour W, Yu TV, Rizvi H, Chen JM, Manning P, Steiner GM, Doan XC, Tumor Neoantigen Selection Alliance, Merghoub T, Guinney J, Kolom A, Selinsky C, Ribas A, Hellmann MD, Hacohen N, Sette A, Heath JR, Bhardwaj N, Ramsdell F, Schreiber RD, Schumacher TN, Kvistborg P, Defranoux NA.",
+      "year": "2020",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33038342+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "8fb3ed36d6c346b62a8c83e683a207531aaa2c2c7104a219f4fa721de3515981"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33038342%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "59008ee8cbd846e0b6556ecf3197ed343e77201015c6f74295396659ac369389"
+        }
+      ],
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-assay"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 30,
+      "occurrenceId": "tcells-primary-33479501",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "33479501",
+      "doi": "10.1038/s41591-020-01206-4",
+      "title": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma.",
+      "authors": "Hu Z, Leet DE, Allesøe RL, Oliveira G, Li S, Luoma AM, Liu J, Forman J, Huang T, Iorgulescu JB, Holden R, Sarkizova S, Gohil SH, Redd RA, Sun J, Elagina L, Giobbie-Hurder A, Zhang W, Peter L, Ciantra Z, Rodig S, Olive O, Shetty K, Pyrdol J, Uduman M, Lee PC, Bachireddy P, Buchbinder EI, Yoon CH, Neuberg D, Pentelute BL, Hacohen N, Livak KJ, Shukla SA, Olsen LR, Barouch DH, Wucherpfennig KW, Fritsch EF, Keskin DB, Wu CJ, Ott PA.",
+      "year": "2021",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33479501+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "f3bb3717da7113f8e65e5d6df34e569843b14af55471ffbd2999e3478261bb32"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33479501%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "f3bb3717da7113f8e65e5d6df34e569843b14af55471ffbd2999e3478261bb32"
+        }
+      ],
+      "supportedRequirements": [
+        "spreading-definition",
+        "spreading-causality",
+        "spreading-example"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 31,
+      "occurrenceId": "tcells-primary-7636184",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "7636184",
+      "doi": "10.4049/jimmunol.155.3.1151",
+      "title": "Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor alpha-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases.",
+      "authors": "Sakaguchi S, Sakaguchi N, Asano M, Itoh M, Toda M.",
+      "year": "1995",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Europe PMC returns DOI10.1038/ni.1840, which Crossref resolves to a different 2010 CD8-lineage paper. Crossref title/author/year matching resolves the original 1995 paper to DOI10.4049/jimmunol.155.3.1151. Records cite original PMID7636184. Discrepant raw bytes are preserved.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7636184+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "e0cc641e96784ef6cf32051d6c274df06297c93eab88253aad49b83d45b490dd"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:7636184%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "e0cc641e96784ef6cf32051d6c274df06297c93eab88253aad49b83d45b490dd"
+        }
+      ],
+      "supportedRequirements": [
+        "anergy-tolerance",
+        "regulatory-role",
+        "regulatory-measurement"
+      ],
+      "rejectedReturnedDoi": "10.1038/ni.1840",
+      "doiResolutionURLs": [
+        "https://api.crossref.org/works/10.1038%2Fni.1840",
+        "https://api.crossref.org/works?query.bibliographic=Immunologic+self-tolerance+maintained+by+activated+T+cells+expressing+IL-2+receptor+alpha-chains+%28CD25%29.+Breakdown+of+a+single+mechanism+of+self-tolerance+causes+various+autoimmune+diseases.&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A1995-12-31&rows=3"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 32,
+      "occurrenceId": "tcells-primary-9624004",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "9624004",
+      "doi": "10.1038/30996",
+      "title": "Help for cytotoxic-T-cell responses is mediated by CD40 signalling.",
+      "authors": "Bennett SR, Carbone FR, Karamalis F, Flavell RA, Miller JF, Heath WR.",
+      "year": "1998",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9624004+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "056e80154fdd4339c487f73d2d35a9220d5179eb69bd35c60170b5d3b38d2302"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9624004%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "29ffdcc3e3929b075b44c308fee3baf685f9719a8494c3c267b75e487e16b04a"
+        }
+      ],
+      "supportedRequirements": [
+        "presentation-routing",
+        "cd4-help",
+        "priming-signals",
+        "priming-cytokines"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 33,
+      "occurrenceId": "tcells-primary-9872319",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "9872319",
+      "doi": "10.1038/25374",
+      "title": "Changes in thymic function with age and during the treatment of HIV infection.",
+      "authors": "Douek DC, McFarland RD, Keiser PH, Gage EA, Massey JM, Haynes BF, Polis MA, Haase AT, Feinberg MB, Sullivan JL, Jamieson BD, Zack JA, Picker LJ, Koup RA.",
+      "year": "1998",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9872319+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "4a4eb5f02e8573fe23934e1e344d4a90c4e7b18b9e03a1de34a5f7935b06b0e5"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:9872319%20AND%20SRC:MED&format=json&resultType=core",
+          "sha256": "4a4eb5f02e8573fe23934e1e344d4a90c4e7b18b9e03a1de34a5f7935b06b0e5"
+        }
+      ],
+      "supportedRequirements": [
+        "tcell-family",
+        "thymus-maintenance"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 34,
+      "occurrenceId": "tcells-primary-26324409",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "26324409",
+      "doi": "10.1038/ncomms9081",
+      "title": "High-resolution analysis of the human T-cell receptor repertoire.",
+      "authors": "Ruggiero E, Nicolay JP, Fronza R, Arens A, Paruzynski A, Nowrouzi A, Ürenden G, Lulay C, Schneider S, Goerdt S, Glimm H, Krammer PH, Schmidt M, von Kalle C.",
+      "year": "2015",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "resolved identity and abstract",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26324409+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "4764cb14c01bf527d32a5bc8680f0a0c594e8d7d3c6168722ceb8c71d7bc11e8"
+        },
+        {
+          "url": "https://europepmc.org/article/MED/26324409",
+          "sha256": "3809a845cd55c35562564280ddf0c062fabe13758cea9ec570721352495caeb3"
+        }
+      ],
+      "supportedRequirements": [
+        "tcr-structure",
+        "tcr-readouts",
+        "repertoire-definition",
+        "repertoire-sampling"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 35,
+      "occurrenceId": "tcells-primary-28678778",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "28678778",
+      "doi": "10.1038/nature22991",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "authors": "Ott PA, Hu Z, Keskin DB, Shukla SA, Sun J, Bozym DJ, Zhang W, Luoma A, Giobbie-Hurder A, Peter L, Chen C, Olive O, Carter TA, Li S, Lieb DJ, Eisenhaure T, Gjini E, Stevens J, Lane WJ, Javeri I, Nellaiappan K, Salazar AM, Daley H, Seaman M, Buchbinder EI, Yoon CH, Harden M, Lennon N, Gabriel S, Rodig SJ, Barouch DH, Aster JC, Getz G, Wucherpfennig K, Neuberg D, Ritz J, Lander ES, Fritsch EF, Hacohen N, Wu CJ.",
+      "year": "2017",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "resolved identity and abstract",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28678778+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "3a8b08f33cfae41e8c811dbbed20837c755a8d756753062d0b309024d7e4cc07"
+        },
+        {
+          "url": "https://europepmc.org/article/MED/28678778",
+          "sha256": "c1eac18a356563da2b2efdc665555649ed7e9b7584b598b294c55e96ccec6cc1"
+        }
+      ],
+      "supportedRequirements": [
+        "spreading-causality",
+        "tcr-intervention"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 36,
+      "occurrenceId": "tcells-primary-21900604",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "21900604",
+      "doi": "10.1073/pnas.1109438108",
+      "title": "Affinity maturation of human CD4 by yeast surface display and crystal structure of a CD4-HLA-DR1 complex.",
+      "authors": "Wang XX, Li Y, Yin Y, Mo M, Wang Q, Gao W, Wang L, Mariuzza RA.",
+      "year": "2011",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "resolved identity and structural abstract",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21900604+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "126febfb5e6f9f181578322f6be647d86cf7aeaf1b043f90e8ff2f5fcc31822d"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21900604+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "6d8da564ae778632fa83101ef52482ae6e467598034c3e30bda5acfaffbe8095"
+        }
+      ],
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "coreceptor-geometry"
+      ],
+      "originalMetadataURLNote": "Original worker row omitted its URL. The fresh resolved MED request supplies the route; both original capture hash and fresh bytes are preserved."
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 37,
+      "occurrenceId": "tcells-primary-9177355",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "9177355",
+      "doi": "10.1038/42523",
+      "title": "Crystal structure of the complex between human CD8alpha(alpha) and HLA-A2.",
+      "authors": "Gao GF, Tormo J, Gerth UC, Wyer JR, McMichael AJ, Stuart DI, Bell JI, Jones EY, Jakobsen BK.",
+      "year": "1997",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "resolved identity and structural abstract",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9177355+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "e111ed35155af327cd4f673908dd7f3eff5f4a1d74c5c3d3a76a32d69ba1df4b"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9177355+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "c2ba25955415e87f7d3998f4f9d6a8f585d8f37817a2cb80baded83b9faf76b0"
+        }
+      ],
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "coreceptor-geometry"
+      ],
+      "originalMetadataURLNote": "Original worker row omitted its URL. The fresh resolved MED request supplies the route; both original capture hash and fresh bytes are preserved."
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 38,
+      "occurrenceId": "tcells-primary-34534464",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "34534464",
+      "doi": "10.1016/j.cell.2021.08.020",
+      "title": "Antigen dominance hierarchies shape TCF1<sup>+</sup> progenitor CD8 T cell phenotypes in tumors.",
+      "authors": "Burger ML, Cruz AM, Crossland GE, Gaglia G, Ritch CC, Blatt SE, Bhutkar A, Canner D, Kienka T, Tavana SZ, Barandiaran AL, Garmilla A, Schenkel JM, Hillman M, de Los Rios Kobara I, Li A, Jaeger AM, Hwang WL, Westcott PMK, Manos MP, Holovatska MM, Hodi FS, Regev A, Santagata S, Jacks T.",
+      "year": "2021",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "abstract; results on TCF1 heterogeneity; therapeutic vaccination text and Figure 6/S6 legends; vaccination and flow methods. Not every supplemental page independently read.",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Fresh raw MED identity agrees with the cited primary PMID. All 37 original MED abstract bodies match fresh retrieval. Two selected primary full-text identities are separately checked.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34534464+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "ed06c530608fe3effbc89df495aa6580bc429ffb33e0cf850704779dd58a4d60"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8522630/",
+          "sha256": "69f65518d488b19d4c696f858b0de946d947503cf61fa3ff11ac6a14105e247b"
+        }
+      ],
+      "supportedRequirements": [
+        "dominance-subsets-model"
+      ]
+    },
+    {
+      "queryId": "tcells-primary-follow-up",
+      "rank": 39,
+      "occurrenceId": "tcells-primary-12732656",
+      "origin": "Direct primary identifier/source follow-up of assigned T-cell teaching; no new Elicit search",
+      "pmid": "12732656",
+      "doi": "10.1084/jem.20021910",
+      "title": "Signal 3 determines tolerance versus full activation of naive CD8 T cells: dissociating proliferation and development of effector function.",
+      "authors": "Curtsinger JM, Lins DC, Mescher MF.",
+      "year": "2003",
+      "reviewStatus": "screened-primary-id-confirmed",
+      "readingDepth": "identity, abstract, in vitro/in vivo proliferation-versus-cytolysis results, assay methods and Figure 1-3/6/7 legends",
+      "disposition": "bounded-source-support",
+      "claimUse": "Only supported foundational requirements and their stated model/human scope are adopted; no universal clinical marker/cutoff or treatment recommendation.",
+      "resolution": "Original JATS XML gives PMID12732656 and DOI10.1084/jem.20021910; fresh MED agrees. Title case/terminal punctuation differ without an identity conflict.",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12732656+AND+SRC%3AMED&format=json&resultType=core",
+          "sha256": "120f35771a9cfd826851de7f8eef2397729052b131bf73979af76ba889ebefc9"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2193970/fullTextXML",
+          "sha256": "3e30023c81aa2d93a4608559b94310f82330b56cd930cb0432a536418d806d31"
+        }
+      ],
+      "supportedRequirements": [
+        "priming-endpoints",
+        "priming-cytokines"
+      ]
+    }
+  ],
+  "otherSources": [
+    {
+      "id": "P01730",
+      "url": "https://www.uniprot.org/uniprotkb/P01730/entry",
+      "readingDepth": "identity, function and subunit annotation; B2M topology/sequence annotation",
+      "evidenceType": "curated protein reference, not primary trial evidence",
+      "sha256": "2c9c4aab7561d99f2ca98c7f04f084b8c336fdfd4be76e479b7d1649223af9fe",
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "presentation-routing",
+        "coreceptor-geometry"
+      ]
+    },
+    {
+      "id": "P01732",
+      "url": "https://www.uniprot.org/uniprotkb/P01732/entry",
+      "readingDepth": "identity, function and subunit annotation; B2M topology/sequence annotation",
+      "evidenceType": "curated protein reference, not primary trial evidence",
+      "sha256": "9421c04d35e5dce80102acb3524bb3c7e72b6db858328fbbda1b0a100f6bc262",
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "presentation-routing",
+        "coreceptor-geometry"
+      ]
+    },
+    {
+      "id": "P61769",
+      "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+      "readingDepth": "identity, function and subunit annotation; B2M topology/sequence annotation",
+      "evidenceType": "curated protein reference, not primary trial evidence",
+      "sha256": "858a6d0e7de2ee4737a1b85134d3151f05c7f7a63ac16b84ffd97601e5ee5e9b",
+      "supportedRequirements": [
+        "coreceptor-identity",
+        "presentation-routing",
+        "coreceptor-geometry"
+      ]
+    },
+    {
+      "id": "Janeway NBK27098",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK27098/",
+      "readingDepth": "not verified: CAPTCHA returned for original and report=xml capture",
+      "evidenceType": "textbook",
+      "sha256": "de25ce4ac3369184de3d8f85579fc9a569eeb6308d2c102f29c216f7e9ce6a4d",
+      "supportedRequirements": null
+    },
+    {
+      "id": "NCI T cell dictionary",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/t-cell",
+      "readingDepth": "original capture was JavaScript shell; definition not verified",
+      "evidenceType": null,
+      "sha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28",
+      "supportedRequirements": null
+    },
+    {
+      "id": "assigned-public-guide",
+      "url": null,
+      "readingDepth": "all 14 assigned pages in both pinned inventories, with exact section/metadata/figure signatures in source-reading.json",
+      "evidenceType": "public secondary teaching, fictional examples and foundational terminology",
+      "sha256": null,
+      "supportedRequirements": [
+        "anergy-history",
+        "anergy-mechanism",
+        "anergy-controls",
+        "anergy-tolerance",
+        "anergy-exhaustion-comparison",
+        "comparison-example",
+        "coreceptor-identity",
+        "presentation-routing",
+        "coreceptor-geometry",
+        "coreceptor-assay",
+        "cd4-help",
+        "costimulation-identity",
+        "costimulation-ligands",
+        "costimulation-rescue",
+        "costimulation-measurement",
+        "spreading-definition",
+        "spreading-causality",
+        "spreading-example",
+        "dominance-context",
+        "dominance-mechanism",
+        "dominance-example",
+        "dominance-assay",
+        "regulatory-role",
+        "foxp3-limit",
+        "regulatory-measurement",
+        "exhaustion-programme",
+        "exhaustion-subsets",
+        "exhaustion-chromatin",
+        "exhaustion-markers",
+        "response-origin",
+        "priming-signals",
+        "priming-cytokines",
+        "priming-endpoints",
+        "tcr-structure",
+        "tcr-crossreactivity",
+        "tcr-readouts",
+        "tcr-intervention",
+        "repertoire-definition",
+        "repertoire-sampling",
+        "repertoire-denominator",
+        "state-history",
+        "state-identity",
+        "state-function",
+        "tcell-family",
+        "tcell-measurement",
+        "thymus-maintenance",
+        "trec-denominator",
+        "thymus-interpretation",
+        "dominance-subsets-model"
+      ]
+    }
+  ],
+  "scope": "39 publication identities; 37 complete available MED abstracts, selected primary text from two papers, three curated protein references, two unavailable/unused secondary sources and the separately pinned teaching inventory. Fresh MED abstracts match the 37 original response bodies; the DOI discrepancy is explicitly reconciled."
+}

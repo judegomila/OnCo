@@ -1,0 +1,465 @@
+{
+  "diagramInstances": 11,
+  "uniqueCodes": 8,
+  "renders": [
+    {
+      "codeSha256": "de2ee65104e47fa9ebc683e865550e2b4c933167f986945249b6e1aee5d7fa75",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "1f2151d4c9ab93cc2d080fd0201e7a8473eea7c4006a5d2331d3b4d5c395c7b9",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "de2ee65104e47fa9ebc683e865550e2b4c933167f986945249b6e1aee5d7fa75",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "76b84490f44fd23413f190612e05c05820a508c22b0db50a28b60aba50266794",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "4005ed8ecb2d170fdf7be0cbf5157f7a03c8753c8005babd981ad79e1bd0e572",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-default.png",
+      "renderSha256": "03b1a6e3fa482dbfae625cb87d9a1bbea1087b90bc985a4d97c129533dc9ae4b",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "4005ed8ecb2d170fdf7be0cbf5157f7a03c8753c8005babd981ad79e1bd0e572",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-dark.png",
+      "renderSha256": "a4104ce63e995535ea57e90cd51dba4a8d0462bd95cdaca27a4133aa3541b5b9",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "9192cd9aff7aa8514111bd454c6b2dfd15fbccc6bbcf47b07886727a9c08c514",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-default.png",
+      "renderSha256": "ae26567a0d5570e32ecc960a23682a1fc31c6722fd0e13d4996d2fe5a356acdb",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "9192cd9aff7aa8514111bd454c6b2dfd15fbccc6bbcf47b07886727a9c08c514",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-dark.png",
+      "renderSha256": "362548edc70e53ced7b51d828d49d144860a49fcc965283140663e364207993f",
+      "width": 168,
+      "height": 384,
+      "viewed": true
+    },
+    {
+      "codeSha256": "4f9797864c86e02751a468c193873139ea85da552fdfe08d11c5dc1e4d50fac6",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-default.png",
+      "renderSha256": "761627eb29668fb515eca22255af99744341d5b2293fbfa495e075fba3e1b47c",
+      "width": 168,
+      "height": 424,
+      "viewed": true
+    },
+    {
+      "codeSha256": "4f9797864c86e02751a468c193873139ea85da552fdfe08d11c5dc1e4d50fac6",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-dark.png",
+      "renderSha256": "6cd0ff0018731129460b1dec0988b998a59af573c8bf15f0a0ff3eae81b38c4c",
+      "width": 168,
+      "height": 424,
+      "viewed": true
+    },
+    {
+      "codeSha256": "a39b59f0159ba9aef1da8e4fded6da67ecc66a5d01281afe88769098147bbc8d",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-5-default.png",
+      "renderSha256": "3c107b85e786cafbcbe0c0b0c534fe67d983d6b3fdde61263a50c103ec1bf660",
+      "width": 168,
+      "height": 496,
+      "viewed": true
+    },
+    {
+      "codeSha256": "a39b59f0159ba9aef1da8e4fded6da67ecc66a5d01281afe88769098147bbc8d",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-5-dark.png",
+      "renderSha256": "145855c9df4ee681501d9d51bdd1369e4540ace44638d87cfce818d15df9f84a",
+      "width": 168,
+      "height": 496,
+      "viewed": true
+    },
+    {
+      "codeSha256": "0d0ef328f78c176ebdfe8a9f91c8870fc3c2eddccdc8083093c226783a505262",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-6-default.png",
+      "renderSha256": "0540dd7c788363ed0965c576f0675f10984a711a8b68207f00cd6001e0575add",
+      "width": 168,
+      "height": 512,
+      "viewed": true
+    },
+    {
+      "codeSha256": "0d0ef328f78c176ebdfe8a9f91c8870fc3c2eddccdc8083093c226783a505262",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-6-dark.png",
+      "renderSha256": "77569769fc673552b72ea567750937cbfff288fd523184da437eec2a1bcd83dc",
+      "width": 168,
+      "height": 512,
+      "viewed": true
+    },
+    {
+      "codeSha256": "d08c911133a2e8acc37892796309c1c700bfb33e3b19768c3c159c9ba4993b27",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-7-default.png",
+      "renderSha256": "2ad575c1803191940c5e6b79e44572879a6bb6fde99c4936c1ac891f10ac546e",
+      "width": 168,
+      "height": 512,
+      "viewed": true
+    },
+    {
+      "codeSha256": "d08c911133a2e8acc37892796309c1c700bfb33e3b19768c3c159c9ba4993b27",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-7-dark.png",
+      "renderSha256": "09cf0cd09eeb13951af26526621bc5b612cf92ac214f25af69cced50121d0548",
+      "width": 168,
+      "height": 512,
+      "viewed": true
+    },
+    {
+      "codeSha256": "37504e6dc73960c7064cdd8c45ef133553224127880929bc43ad53f269c8a906",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-8-default.png",
+      "renderSha256": "acd992f38b50d6b4c0f6dd73bcc3409c263592b1af2155728c5f8dbb2e5199a8",
+      "width": 168,
+      "height": 608,
+      "viewed": true
+    },
+    {
+      "codeSha256": "37504e6dc73960c7064cdd8c45ef133553224127880929bc43ad53f269c8a906",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-8-dark.png",
+      "renderSha256": "e30466778d5def08ba9d0922df0735a20a5dda319e617e2f0b426675ffbf34ee",
+      "width": 168,
+      "height": 608,
+      "viewed": true
+    }
+  ],
+  "standaloneAssets": 0,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "svgRenders": [
+    {
+      "sourceFile": "whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "theme": "light",
+      "render": "whole-sequence-and-same-origin-events-b13-v1-light.png",
+      "width": 760,
+      "height": 1590,
+      "sha256": "a70b9e134da359c1db3b038137d682fd4873ab55912fb796b24dd6ffb4a6926b",
+      "viewed": true,
+      "renderCanvasWidth": 760,
+      "renderCanvasHeight": 1590
+    },
+    {
+      "sourceFile": "whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "theme": "dark",
+      "render": "whole-sequence-and-same-origin-events-b13-v1-dark.png",
+      "width": 760,
+      "height": 1590,
+      "sha256": "ea8f142d8f7cfff42d2c0be3579f0b5b2993ad1bb32169e92049494ac199153d",
+      "viewed": true,
+      "renderCanvasWidth": 760,
+      "renderCanvasHeight": 1590
+    },
+    {
+      "sourceFile": "kaplan-meier-event-censor-risk-set-light.svg",
+      "theme": "light",
+      "render": "kaplan-meier-event-censor-risk-set-light.png",
+      "width": 960,
+      "height": 1380,
+      "sha256": "7ace9780a1802f8a81968f9a0047f119cb41c8c802a041defc4cfda1ef7be318",
+      "viewed": true,
+      "renderCanvasWidth": 960,
+      "renderCanvasHeight": 1380
+    },
+    {
+      "sourceFile": "kaplan-meier-event-censor-risk-set-dark.svg",
+      "theme": "dark",
+      "render": "kaplan-meier-event-censor-risk-set-dark.png",
+      "width": 960,
+      "height": 1380,
+      "sha256": "3bfc482ce9ac80e86b86265718b1b2dc4cbbbe03011cda77f088982c86dd54f0",
+      "viewed": true,
+      "renderCanvasWidth": 1280,
+      "renderCanvasHeight": 1840
+    }
+  ],
+  "assetReceipts": [
+    {
+      "phase": "original",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "file": "whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "theme": "light",
+      "bytes": 5462,
+      "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271",
+      "gitBlob": "c4878e07bef0cc18e3637c0c8ceac4d5f7ef2282"
+    },
+    {
+      "phase": "original",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "file": "whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "theme": "dark",
+      "bytes": 5462,
+      "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74",
+      "gitBlob": "dd25e1037ee97942d758808d872f7d6c4236eb7c"
+    },
+    {
+      "phase": "original",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+      "file": "kaplan-meier-event-censor-risk-set-light.svg",
+      "theme": "light",
+      "bytes": 15338,
+      "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612",
+      "gitBlob": "f56b5f403b028af6df6d89f1bf0b35495dc1fd8a"
+    },
+    {
+      "phase": "original",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+      "file": "kaplan-meier-event-censor-risk-set-dark.svg",
+      "theme": "dark",
+      "bytes": 15338,
+      "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4",
+      "gitBlob": "ad8d8cf88df5273c68ce0914336838229c1fb6b7"
+    },
+    {
+      "phase": "later",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "file": "whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "theme": "light",
+      "bytes": 5462,
+      "sha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271",
+      "gitBlob": "c4878e07bef0cc18e3637c0c8ceac4d5f7ef2282"
+    },
+    {
+      "phase": "later",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "file": "whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "theme": "dark",
+      "bytes": 5462,
+      "sha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74",
+      "gitBlob": "dd25e1037ee97942d758808d872f7d6c4236eb7c"
+    },
+    {
+      "phase": "later",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+      "file": "kaplan-meier-event-censor-risk-set-light.svg",
+      "theme": "light",
+      "bytes": 15338,
+      "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612",
+      "gitBlob": "f56b5f403b028af6df6d89f1bf0b35495dc1fd8a"
+    },
+    {
+      "phase": "later",
+      "sourcePath": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+      "file": "kaplan-meier-event-censor-risk-set-dark.svg",
+      "theme": "dark",
+      "bytes": 15338,
+      "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4",
+      "gitBlob": "ad8d8cf88df5273c68ce0914336838229c1fb6b7"
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "3dc026fc7563b0b296f78edef5a487fd6bea3ae177f661b3b63f03bf866b5f74"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/images/whole-sequence-and-same-origin-events-b13-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e21ac6d3477f020271c7dc2133f452fe929836114f10a284e19b7fa7bee84271"
+    }
+  ],
+  "sourceArtworkChanged": false,
+  "scientificDefectsObserved": 0,
+  "nativeSvgThemeViews": 4,
+  "mermaidThemeViews": 16,
+  "limits": "Each unique theme/code is viewed at full extent. The dark KM full-page canvas includes extra blank background beyond its viewBox; canvas dimensions are retained separately. No measured contrast, comprehensive accessibility, live-site or expert approval."
+}

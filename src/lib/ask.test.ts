@@ -294,9 +294,13 @@ describe("Ask OnCo end to end", () => {
     expect(a.entities[0].id).toBe("tnbc");
     expect(a.sources[0].id).toBe("tnbc");
     expect(a.sentences[0].cite).toBe(1);
-    expect(a.sentences[0].text).toMatch(/lacks the three receptors \(oestrogen, progesterone, HER2\)/);
+    // Negative categories are assay interpretations, not proof of zero receptor molecules.
+    // The old assertion required that inaccurate absence claim. Keep the diagnostic
+    // threshold, named receptors and citation checks while enforcing the distinction.
+    expect(a.sentences[0].text).toMatch(/classified as oestrogen receptor-negative, progesterone receptor-negative and HER2-negative/);
     const text = answerText(a).toLowerCase();
-    for (const must of ["oestrogen", "progesterone", "her2", "er <1%", "pr <1%"]) expect(text).toContain(must);
+    for (const must of ["oestrogen", "progesterone", "her2", "er and pr nuclear staining below 1 percent", "ihc/ish algorithm"]) expect(text).toContain(must);
+    expect(text).toContain("negative test categories do not mean that every receptor molecule is absent");
     expect(a.followUps).toContain("How is TNBC treated?");
     expect(a.method).toMatch(/nothing is generated/);
     expect(a.readMore.some((r) => r.href === "/cancers/tnbc/")).toBe(true);
@@ -460,6 +464,8 @@ describe("Ask OnCo end to end", () => {
     // 26 Oct 2026, the precision follow-ups: one duplicate paper record and seven duplicate idea records retired into
     // their survivors. Measured immediately before and after at the same figures.
     { date: "2026-10-26", recall: 0.4301, note: "Paganetti RBE review and seven protocol-upgrade idea duplicates merged; extractive rubric 0.6925, both unchanged by the merge" },
+    { date: "2026-11-08", recall: 0.4276, note: "systematic concept audit: restored complete bispecific-antibody aliases and phase 3 context, and explicit second-ADC/same-payload wording; extractive rubric 0.6850; both floors unchanged" },
+    { date: "2026-11-08", recall: 0.4326, note: "cell-therapy education: sourced approved-cancer overview retained in the CAR-T short definition; extractive rubric 0.6875; no ranking or floor change" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

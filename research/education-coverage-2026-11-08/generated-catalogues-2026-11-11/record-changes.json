@@ -1,0 +1,45 @@
+{
+  "canonicalEdits": [],
+  "productOrRegistryEdits": [],
+  "catalogueDispositions": [
+    {
+      "version": "original",
+      "path": "wiki/education/concepts/index.md",
+      "beforeStatus": "navigation",
+      "afterStatus": "navigation",
+      "beforeReviewSha256": "fade9cce89c8d0c67046bcde7c5ad754d900ac998de29f270276c813e1e35b99",
+      "afterReviewSha256": "361924781b5ed7a44eff8558f166c0759df48fe8b5760c48eca68ea68d3126de",
+      "pointsAdded": 0
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/images/index.md",
+      "beforeStatus": "navigation",
+      "afterStatus": "navigation",
+      "beforeReviewSha256": "7db354d0f39d10948046047b3d7274aeced5846ab8791a4563ca2412741fc38f",
+      "afterReviewSha256": "4732372dc833271c26c5d765ee083e6ab630088f489456b680f723ce452d97cc",
+      "pointsAdded": 0
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/concepts/index.md",
+      "beforeStatus": "unreviewed",
+      "afterStatus": "navigation",
+      "beforeReviewSha256": "8c24854dccb10ce185d241140bad90f9d627d74f23a9e8239e8b1d21e7b1f1eb",
+      "afterReviewSha256": "4edab087803d470497e09a1fbdbbdaa6bbee384b467145407dab22fce836b700",
+      "pointsAdded": 0
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/images/index.md",
+      "beforeStatus": "unreviewed",
+      "afterStatus": "navigation",
+      "beforeReviewSha256": "8c24854dccb10ce185d241140bad90f9d627d74f23a9e8239e8b1d21e7b1f1eb",
+      "afterReviewSha256": "3ac3b4c5d5e65d653ca411dc842daf4d20e372c69b8f11d346a89f0bdf346bdc",
+      "pointsAdded": 0
+    }
+  ],
+  "sourceOwnerReviewsChanged": 0,
+  "sourceAssetReviewsChanged": 0,
+  "sourceGuideFilesEdited": false
+}

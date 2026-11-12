@@ -401,4 +401,7 @@ ${absent.map((id) => `  ${JSON.stringify(id)},`).join("\n")}
   console.log(`wrote ${OUT} (${data.length} trials, ${absent.length} with no results posted)`);
 }
 
-main().catch((e) => { console.error(e); process.exit(1); });
+// Keep the transformation importable for bounded regeneration without starting a bulk fetch.
+if (/(?:^|[\\/])fetch-registry-outcomes\.(?:ts|js)$/.test(process.argv[1] ?? "")) {
+  main().catch((e) => { console.error(e); process.exit(1); });
+}

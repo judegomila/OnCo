@@ -1,0 +1,114 @@
+{
+  "dataCommit": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "graphCount": 23023,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck-r2",
+        "exitCode": 0,
+        "seconds": 11.13,
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "lint-r2",
+        "exitCode": 0,
+        "seconds": 1.88,
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "validate-r2",
+        "exitCode": 0,
+        "seconds": 1.94,
+        "logSha256": "83287051c0c0f990efde45efbb1ff58665a4ac8228d1c299ef22ae56f6b5c2f9"
+      },
+      {
+        "name": "full-suite-r2",
+        "exitCode": 0,
+        "seconds": 99.5,
+        "logSha256": "ed32a0cf8ba1da4db4d3f29067eb48a5385629fceaa023f13c7c13201ebda08e"
+      }
+    ],
+    "sourceCodeHashesBefore": {
+      "src/data/breast-pathology-education-2026-11.ts": "13e28f1eb1b37173136bd789f3f2d3d012e7ebf503c52633366ac8ffd0de4456",
+      "src/data/drugs.ts": "40d355d74015ba73c3c7d87f2b2606b135a225f947b46c4b7b6a7f86797a21fd",
+      "src/data/i18n/ar.ts": "fef2a0b31d53f6304e0fa32e2b98debc31775f8a6bda2db262a5c15c2d9a77df",
+      "src/data/i18n/de.ts": "fd79772a5bef0b9a68f7fef9accfec1f86690ca8b9fd33a6113bfcf05ff4b650",
+      "src/data/i18n/es.ts": "0380472aaf10ec19c5127e7344362c2a77651d7d28bce95c046c642f6678350e",
+      "src/data/i18n/fr.ts": "1c6940f0cc4cb5bcb229740ebfd2401cf189ddc9f42159069887374e3e90c336",
+      "src/data/i18n/hi.ts": "3c8a5cacfbe72c7a8ab44685befea9e01454e2e7f542f33deeefc831d5b05c6e",
+      "src/data/i18n/ja.ts": "841b82cfcba4a56d87c213110ab1af6f057f99c25f9f668219a52435b355ae70",
+      "src/data/i18n/pt.ts": "b7cedab45270564aea13a7649612fadc21bcaf0acb5c51d3c2d279a3b14bb4fc",
+      "src/data/i18n/zh.ts": "3c79f32f33f53af2b2ea0bfc1af32e0e89ebbee0c93a0a63a89932070d840b18",
+      "src/data/simple/part-j.ts": "73134f5c5fa6e6ade55f3b396576217d80628a90dbcee1e1dbdde374fc2c40e0",
+      "src/data/spikes/breast-core.ts": "3c804c86f203ee4a249be6447ba84c41520debfae1d6b35bdc7c82578b37a7b5",
+      "src/data/spikes/breast-living.ts": "c8e7fb2cffe2d12d5f6ea07e98f11a84020e369e4238b76cb98d3ef1342ea961",
+      "src/data/spikes/tnbc-molecular.ts": "1040ca4e33debc760cd9d2147d25a0096265078b4f9039695c7e74c7b00795d4",
+      "src/data/spikes/tnbc-treatment.ts": "9d3a2c41dee92efd09c774f41eba48ec101f19ca9ec9ed7e77bf56da0993e394",
+      "src/data/terms-basics.ts": "fb768412c94e35221f5178a445b3037904a26afdd46087e74c154cec6beac9db"
+    },
+    "sourceCodeHashesAfter": {
+      "src/data/breast-pathology-education-2026-11.ts": "13e28f1eb1b37173136bd789f3f2d3d012e7ebf503c52633366ac8ffd0de4456",
+      "src/data/drugs.ts": "40d355d74015ba73c3c7d87f2b2606b135a225f947b46c4b7b6a7f86797a21fd",
+      "src/data/i18n/ar.ts": "fef2a0b31d53f6304e0fa32e2b98debc31775f8a6bda2db262a5c15c2d9a77df",
+      "src/data/i18n/de.ts": "fd79772a5bef0b9a68f7fef9accfec1f86690ca8b9fd33a6113bfcf05ff4b650",
+      "src/data/i18n/es.ts": "0380472aaf10ec19c5127e7344362c2a77651d7d28bce95c046c642f6678350e",
+      "src/data/i18n/fr.ts": "1c6940f0cc4cb5bcb229740ebfd2401cf189ddc9f42159069887374e3e90c336",
+      "src/data/i18n/hi.ts": "3c8a5cacfbe72c7a8ab44685befea9e01454e2e7f542f33deeefc831d5b05c6e",
+      "src/data/i18n/ja.ts": "841b82cfcba4a56d87c213110ab1af6f057f99c25f9f668219a52435b355ae70",
+      "src/data/i18n/pt.ts": "b7cedab45270564aea13a7649612fadc21bcaf0acb5c51d3c2d279a3b14bb4fc",
+      "src/data/i18n/zh.ts": "3c79f32f33f53af2b2ea0bfc1af32e0e89ebbee0c93a0a63a89932070d840b18",
+      "src/data/simple/part-j.ts": "73134f5c5fa6e6ade55f3b396576217d80628a90dbcee1e1dbdde374fc2c40e0",
+      "src/data/spikes/breast-core.ts": "3c804c86f203ee4a249be6447ba84c41520debfae1d6b35bdc7c82578b37a7b5",
+      "src/data/spikes/breast-living.ts": "c8e7fb2cffe2d12d5f6ea07e98f11a84020e369e4238b76cb98d3ef1342ea961",
+      "src/data/spikes/tnbc-molecular.ts": "1040ca4e33debc760cd9d2147d25a0096265078b4f9039695c7e74c7b00795d4",
+      "src/data/spikes/tnbc-treatment.ts": "9d3a2c41dee92efd09c774f41eba48ec101f19ca9ec9ed7e77bf56da0993e394",
+      "src/data/terms-basics.ts": "fb768412c94e35221f5178a445b3037904a26afdd46087e74c154cec6beac9db"
+    },
+    "unchangedDuringGates": true
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "actualEntityHubReaders": 22,
+  "additionalCancerDataReaders": 1,
+  "fieldReferences": 133,
+  "completeParagraphChecks": 184,
+  "missingSourceLinks": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "exactJSONRecords": 22,
+    "exactMarkdownPassages": 202,
+    "openAPI": true,
+    "dedupe": "Passed; no new canonical IDs"
+  },
+  "generationResults": [
+    {
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 27.0
+    },
+    {
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.68
+    },
+    {
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.38
+    },
+    {
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 4.89
+    }
+  ],
+  "secretScan": {
+    "stagedBytes": 63824,
+    "exitCode": 0,
+    "findings": 0
+  },
+  "zeroChangeLedgerReplay": "A separate zero-change-replay receipt is written after comparing every pre-existing audit file, including the pre-replay artifact manifest. That receipt and the final rebuilt manifest are created after the comparison."
+}

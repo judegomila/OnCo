@@ -1,0 +1,1582 @@
+{
+  "version": "proposal-vaccine-presentation-guides-root",
+  "state": "Actual committed registered root fields in unmerged draft #375; no main/live approval",
+  "draft": 375,
+  "committedDataHead": "4f3fa3b55765676ceea5271a2941f5b4c57260bd",
+  "verifiedMergeHead": "076a594161c5fadef62d90154994bd218459a5ce",
+  "records": [
+    {
+      "id": "hla",
+      "kind": "term",
+      "name": "HLA (human leukocyte antigen) and MHC",
+      "aka": [
+        "human leukocyte antigen",
+        "MHC",
+        "major histocompatibility complex",
+        "HLA class I",
+        "HLA class II"
+      ],
+      "tldr": "HLA molecules sit on cells and hold up small pieces of the cell's proteins for T cells to inspect. A T cell reads the fragment together with the particular HLA version holding it.",
+      "summary": "Human leukocyte antigen (HLA) is the human major histocompatibility complex (MHC) system, with two main classes of peptide-display molecule. Classical class I (HLA-A, HLA-B, HLA-C) has a heavy chain, beta-2 microglobulin (B2M) and a bound peptide, is found on most nucleated cells, usually displays peptides from proteins made inside the cell and is read by CD8 T cells. Class II (HLA-DR, HLA-DP, HLA-DQ) has alpha and beta chains with a bound peptide, is mainly on professional antigen-presenting cells (expression can be induced elsewhere), usually displays proteins processed in vesicles, often acquired from outside, and is read by CD4 T cells. These are common routes, not exclusive lists: cross-presentation puts externally acquired antigen on class I without making it class II, and a CD4 response is not proof of matching class I tumour display. CD4 and CD8 are coreceptors and usual recognition partners, not guarantees of cell function. Structural work shows the T-cell receptor lying across the peptide and HLA together (Garboczi et al., 1996), CD8 contacting the class I alpha2 and alpha3 domains and B2M (Gao et al., 1997) and CD4 engaging a separate class II region (Yin et al., 2012); these constructs do not define universal angles or functions.\n\nHLA alleles are shared across people, and a person inherits a combination that is not necessarily unique. Each person inherits two copies each of HLA-A, HLA-B and HLA-C, so a cell can display up to six classical class I variants at once. The IPD-IMGT/HLA statistics page read on 9 November 2026 listed 46,146 HLA alleles, 31,311 class I and 14,835 class II (9,457 HLA-A, 11,328 HLA-B and 9,580 HLA-C alleles). Binding predictors estimate whether a peptide can fit a specified allele's groove, but processing, transport, loading and surface expression decide whether it is displayed. Sarkizova et al. (2020) profiled more than 185,000 peptides eluted from 95 mono-allelic cell lines to learn allele-specific motifs and build prediction models; that is allele-level data, not proof of any cell's display. Kaur et al. (2017) showed that HLA-C surface expression varies across individuals in an allele-specific manner, influenced by the structure of the peptide-binding cleft and peptide diversity; Apps and colleagues found lower HLA-C than HLA-A/B in the analysed healthy-donor peripheral blood lymphocytes with the A*02:01/B*44:02/C*05:01 haplotype; the magnitude differed between flow cytometry and mass spectrometry. This is a defined comparison, not a universal hierarchy. The small HLA-C peptide share observed by Schellens and colleagues in four B lymphoblastoid cell lines was also affected by their assignment method, which gave HLA-A/B precedence; it is not a universal biological fraction.\n\nIn cancer, class I HLA shows peptides to CD8 T cells and is also the main ligand for inhibitory receptors on natural killer cells, so losing it can hide a tumour from T cells while removing a brake on NK cells. HLA-E and HLA-G are nonclassical and vary little between people; HLA-E presents leader peptides from other class I molecules and binds the NK receptor CD94/NKG2A (Braud et al., 1998, with HLA-E tetramers). Tumours can lose a presenting allele (HLA loss of heterozygosity), alter processing or reduce expression, and allele-specific loss differs from complete loss of conventional class I display; targets on retained alleles may remain possible. Tran et al. (2016) documented a colorectal cancer lesion that progressed after T-cell therapy against mutant KRAS G12D, which had lost the chromosome 6 haplotype encoding the restricting HLA-C*08:02; this shows escape in one patient, not a rate. Typing, protein expression, recovered peptide, recognition and killing are different observations, and a conventional surface-target engager avoids peptide-HLA dependence while a peptide-HLA-directed engager keeps it.\n\nB2M is the light chain of classical class I and does not span the membrane; class II contains no B2M, so CD4 T-cell recognition can remain when B2M is lost. B2M also partners other class I-like molecules: UniProt records heterotrimers with HLA-E, HLA-G, HLA-F and MR1 and lists CD1 interactions, and a B2M mutation caused deficiency of the neonatal Fc receptor FcRn in two siblings (Wani et al., 2006), so complete B2M loss can remove more than classical class I. Loss of one HLA allele can leave other presenting alleles usable, whereas loss of functional B2M impairs many class I targets at once, so several peptides on different alleles are not independent protection. A B2M variant, low RNA, absent surface class I and a blood B2M concentration are different observations: one variant does not show complete functional loss, and blood B2M does not count tumour peptide-HLA complexes. Zaretsky et al. (2016) linked a truncating B2M mutation to lost surface class I in one melanoma relapse after PD-1 blockade, which is a mechanism in that setting, not a frequency. Reduced class I display does not guarantee NK-cell killing, because activating signals are still needed.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "IPD-IMGT/HLA statistics page (read 9 November 2026)",
+          "url": "https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/"
+        },
+        {
+          "label": "Garboczi et al., 1996, Nature (PMID 8906788)",
+          "url": "https://doi.org/10.1038/384134a0"
+        },
+        {
+          "label": "Gao et al., 1997, Nature (PMID 9177355)",
+          "url": "https://doi.org/10.1038/42523"
+        },
+        {
+          "label": "Yin et al., 2012, PNAS (PMID 22431638)",
+          "url": "https://doi.org/10.1073/pnas.1118801109"
+        },
+        {
+          "label": "Sarkizova et al., 2020, Nature Biotechnology (PMID 31844290)",
+          "url": "https://doi.org/10.1038/s41587-019-0322-9"
+        },
+        {
+          "label": "Kaur et al., 2017, Nature Communications (PMID 28649982)",
+          "url": "https://doi.org/10.1038/ncomms15924"
+        },
+        {
+          "label": "Braud et al., 1998, Nature (PMID 9486650)",
+          "url": "https://doi.org/10.1038/35869"
+        },
+        {
+          "label": "Tran et al., 2016, New England Journal of Medicine (PMID 27959684)",
+          "url": "https://doi.org/10.1056/nejmoa1609279"
+        },
+        {
+          "label": "Wani et al., 2006, PNAS (PMID 16549777)",
+          "url": "https://doi.org/10.1073/pnas.0600548103"
+        },
+        {
+          "label": "UniProt P61769 (B2M)",
+          "url": "https://www.uniprot.org/uniprotkb/P61769/entry"
+        },
+        {
+          "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        },
+        {
+          "label": "Schellens et al. 2015: naturally processed peptide repertoires in four B lymphoblastoid cell lines",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26375851/"
+        },
+        {
+          "label": "Relative expression levels of the HLA class-I proteins in normal and HIV-infected cells.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25754738/"
+        },
+        {
+          "label": "Wieczorek et al.: MHC groove geometry and peptide-length exceptions (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28367149/"
+        },
+        {
+          "label": "Cachot et al.: direct cytolytic function of tumour-specific human CD4 cells (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33637530/"
+        }
+      ],
+      "tags": [
+        "education-immunology-2026-11"
+      ],
+      "related": [
+        "hla-a",
+        "hla-b",
+        "hla-c",
+        "hla-e",
+        "hla-dr",
+        "hla-dra",
+        "hla-dqa1",
+        "b2m",
+        "hla-typing-and-nomenclature"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "hla-a",
+        "hla-b",
+        "hla-c",
+        "hla-e",
+        "hla-dr",
+        "hla-dra",
+        "hla-dqa1",
+        "b2m"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hla-typing-and-nomenclature",
+        "antigen-processing-machinery",
+        "dendritic-cell-cross-presentation",
+        "nk-cell"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The original abstracts do not establish a universal HLA-C/A/B expression hierarchy. The checkpoint additionally reads Apps and colleagues' primary abstract for a specific haplotype comparison. Lower locus-level expression is background in Kaur and Schellens; Kaur directly tests allele-specific variation, and Schellens reports a method-dependent recovered peptide share.",
+        "Textbook class I and class II structure (Janeway, NBK26926) was not opened: scripted access refused.",
+        "Apps and colleagues found lower HLA-C than HLA-A/B in the analysed healthy-donor peripheral blood lymphocytes with the A*02:01/B*44:02/C*05:01 haplotype; the magnitude differed between flow cytometry and mass spectrometry. This is a defined comparison, not a universal hierarchy. Kaur and colleagues compared HLA-C*05:01 and HLA-C*07:02 in transfected cells and found differences in expression and recovered peptide breadth. In four B lymphoblastoid cell lines, Schellens and colleagues recovered a small HLA-C-assigned peptide fraction; their assignment procedure gave HLA-A/B precedence because HLA-C prediction was less reliable, and they explicitly expected to underestimate HLA-C. A smaller observed share is therefore not a universal biological fraction or evidence of more permissive binding.",
+        "Groove geometry helps explain common peptide lengths without imposing a hard upper limit. Wieczorek and colleagues' 2017 review describes the class-I groove as closed at both ends, usually holding 8 to 10 residues, and the open class-II groove as usually holding 13 to 25. It also describes longer class-I ligands, including solved HLA-A2 complexes with 15-residue peptides. A reported range around 11 is therefore not a ceiling for every class-I ligand. CD4 help does not demonstrate the same target's class-I display. Some CD4 cells can themselves be cytotoxic: Cachot and colleagues directly tested tumour-specific human CD4 cells against tumour cells in defined assays. That result does not make every CD4 response cytotoxic or establish a treatment benefit."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "hla-typing-and-nomenclature",
+      "kind": "term",
+      "name": "HLA allele names and typing reports",
+      "aka": [
+        "HLA nomenclature",
+        "HLA genotyping",
+        "HLA allele name",
+        "HLA typing resolution"
+      ],
+      "tldr": "HLA typing reads the inherited versions of the genes that display protein fragments. The name tells you how precisely the version is known, not whether a tumour still shows a given fragment.",
+      "summary": "In an allele name such as HLA-A*02:01:01:01 the fields carry distinct meanings (official HLA nomenclature). HLA-A is the gene; 02 is the allele group, which often corresponds to a serological antigen; the second field (01) distinguishes protein sequences within the group, since alleles differing there differ in at least one amino-acid-changing substitution; the third field distinguishes synonymous coding differences; the fourth distinguishes differences outside the coding region. An optional suffix gives expression status: N for a null allele, and L, S, C, A or Q for alternatively expressed alleles, L meaning significantly reduced surface expression. A name without a suffix is not a measurement of how much HLA a cancer cell expresses. A shared first field does not establish identical proteins, and a report stating only A*02 at group resolution cannot be silently completed as A*02:01.\n\nPeople generally inherit one copy of each HLA gene from each parent, so a report lists two alleles per locus, which can be the same name. Class I and class II typing describe different display molecules. Typing identifies inheritance; it does not show tumour retention or expression, peptide display or receptor recognition, and a negative display assay does not by itself show the typing was wrong. Loss of an allele in the tumour, or changes in antigen-processing machinery, can interrupt the chain after an accurate typing result. A trial may name an allele and an accepted method; eligibility belongs to the study team and neither a similar name nor correct typing shows targetability.\n\nLaboratory typing starts from an accepted specimen and extracted DNA, tests sequence patterns with primers or probes or reads selected regions by Sanger or next-generation sequencing, optionally after PCR amplification, and compares the result with a reference database (IPD-IMGT/HLA). Hosomichi et al. (2013) describe phase-defined sequencing of six HLA genes by long-range PCR and multiplex sequencing: phasing connects differences on the same inherited copy, and unresolved phase or a missing distinguishing region can leave alternative allele pairs despite good base quality. More reads of the same regions cannot settle such an ambiguity; the distinguishing information must be added, and both alternatives should be kept until it is. Software can infer class I HLA from genome, exome or RNA sequencing: Szolek et al. (2014) reported OptiType's overall accuracy of 97 per cent on their benchmark of RNA, exome and whole-genome data. Capture, coverage and expression affect such inference, and an inference is not automatically a laboratory result accepted for clinical use. Reports should be read with resolution, ambiguity notes, coverage, database version and validation.\n\nThe IPD-IMGT/HLA statistics page read on 9 November 2026 listed 46,146 HLA alleles, 31,311 of them class I and 14,835 class II, so exact allele names matter.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "HLA nomenclature: naming alleles",
+          "url": "https://hla.alleles.org/pages/nomenclature/naming_alleles/"
+        },
+        {
+          "label": "IPD-IMGT/HLA statistics page (read 9 November 2026)",
+          "url": "https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/"
+        },
+        {
+          "label": "Hosomichi et al., 2013, BMC Genomics (PMID 23714642)",
+          "url": "https://doi.org/10.1186/1471-2164-14-355"
+        },
+        {
+          "label": "Szolek et al., 2014, Bioinformatics (PMID 25143287)",
+          "url": "https://doi.org/10.1093/bioinformatics/btu548"
+        }
+      ],
+      "tags": [
+        "education-immunology-2026-11"
+      ],
+      "related": [
+        "hla",
+        "hla-a-02-01",
+        "hla-a02-restriction",
+        "antigen-processing-machinery"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "hla-a",
+        "hla-b",
+        "hla-c"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hla",
+        "hla-a02-restriction"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The page does not print a release number, so the allele counts are dated by the day they were read rather than by release. The Guide cites release 3.66.",
+        "Existing record hla-a-02-01 covers HLA-A*02:01 as an eligibility marker for TCR therapies; this record covers how names and reports are read.",
+        "A fictional report lists HLA-A*02:01 and A*24:02, B*07:02 and B*08:01, and C*07:01 and C*07:02. These are two inherited copies at each of three loci; other people can share them. C*07:01 and C*07:02 name different protein variants despite their shared first field. A prediction for the first is not silently a prediction for the second. Likewise, strong predicted peptide-P binding to A*02:01 and a receptor response to P on A*24:02 do not establish one matched target. Source-protein RNA supplies a different observation. Match peptide, protein allele, model/version and response experiment, then test retention and natural display in the tumour.",
+        "In another fictional report, the observed differences permit two allele pairs because their arrangement between inherited copies remains unresolved. Choosing the pair with better peptide predictions does not resolve phase. Retain both alternatives and request evidence that connects the distinguishing positions on the same copy. Laboratory region coverage, reference version, resolution and ambiguity notes remain relevant even when base calls are high quality. A computational inference should retain its sequencing dataset, software/version and validation; neither a resolved research inference nor an accepted typing report is a peptide-display assay."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "hla-loh",
+      "kind": "term",
+      "name": "HLA loss of heterozygosity",
+      "aka": [],
+      "tldr": "Loss of an inherited HLA gene version can change which peptide-presenting molecules a tumour retains.",
+      "summary": "Human leukocyte antigen molecules normally present peptides to immune cells. HLA loss of heterozygosity concerns which inherited DNA versions remain in the sampled tumour, separately from their expression or current peptide display.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Allele-Specific HLA Loss and Immune Escape in Lung Cancer Evolution.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29107330/"
+        },
+        {
+          "label": "HGNC: HLA-A, HLA-B and HLA-C gene locations",
+          "url": "https://www.genenames.org/tools/search/#!/?query=HLA-A%20OR%20HLA-B%20OR%20HLA-C"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ngs",
+        "hla"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "HLA-A, HLA-B and HLA-C are on chromosome 6. HGNC places HLA-A at 6p22.1 and HLA-B and HLA-C at 6p21.33. One inherited version of each locus comes from each parent, giving up to six distinct classical class-I alleles. A segmental loss can affect several linked loci; total copy count alone does not identify which inherited versions remain.",
+        "McGranahan et al. (2017): LOHHLA found HLA LOH in 36 of 90 (40%) TRACERx non-small-cell lung cancers; it used patient-specific HLA sequences with purity and ploidy; not a prevalence for every breast cancer.",
+        "A loss may be present in one tumour population; normal and other tumour cells contribute reads; weak or indeterminate calls are not proof of retention; one region does not map every lesion.",
+        "DNA loss, reduced allele-specific RNA, reduced surface protein and B2M functional loss are separate findings; B2M loss affects many alleles at once.",
+        "A credible loss call asks which proposed targets depend on the lost allele and what supports presentation through retained alleles; it does not show all targets fail.",
+        "Fictional teaching exercise: Loss of a maternal haplotype carrying A*X, B*Y, C*Z challenges peptides predicted for A*X and for B*Y; retention of paternal alleles does not itself prove display.",
+        "Retain tumour/normal material, typing, named HLA alleles, usable reads, inferred allele copies, confidence, caller version and region sampled. DNA extraction uses material; computational reanalysis does not. Incorrect typing, difficult mapping and low tumour content can obscure loss. Coverage and statistical rules require workflow validation; neither a negative call nor retained DNA proves current display.",
+        "The LOHHLA PCR validation selected 82 regions from 27 tumours predicted to have either all three loci affected by LOH or none. This selection does not establish how often a typical tumour region loses all three loci. The 36-of-90 result describes the separate NSCLC cohort analysis."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "b2m",
+      "kind": "target",
+      "name": "B2M",
+      "aka": [
+        "beta-2-microglobulin",
+        "Beta-2-microglobulin"
+      ],
+      "tldr": "B2M supplies a light-chain protein used by class I HLA and several related complexes. A variant or RNA result alone does not establish loss of these functions.",
+      "summary": "Component of the class I major histocompatibility complex (MHC). Involved in the presentation of peptide antigens to the immune system. Exogenously applied M.tuberculosis EsxA or EsxA-EsxB (or EsxA expressed in host) binds B2M and decreases its export to the cell surface (total protein levels do not change), probably leading to defects in class I antigen presentation.\n\nCIViC holds 7 clinical evidence items and 0 assertions across 4 variants, naming Pembrolizumab, Nivolumab, Anti-PD-L1 Monoclonal Antibody and Immune Checkpoint Inhibitor and others. Open Targets scores its association with cancer at 0.69 (direct and indirect evidence; datatypes literature 0.98, affected pathway 0.61, genetic association 0.00, somatic mutation 0.88). IntOGen calls it a driver in 10 cohorts (4 activating, 6 loss-of-function), covering Cervical Squamous Cell Carcinoma, Diffuse Large B-Cell Lymphoma, NOS, Head and Neck Squamous Cell Carcinoma, Melanoma, Malignant Lymphoma, Non-Hodgkin Lymphoma and others.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "HGNC HGNC:914",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:914"
+        },
+        {
+          "label": "UniProt P61769",
+          "url": "https://www.uniprot.org/uniprotkb/P61769/entry"
+        },
+        {
+          "label": "NCBI Gene 567",
+          "url": "https://www.ncbi.nlm.nih.gov/gene/567"
+        },
+        {
+          "label": "Ensembl ENSG00000166710",
+          "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000166710"
+        },
+        {
+          "label": "Sakata-Yanagimoto et al., Nat Genet 2014: somatic RHOA G17V in angioimmunoblastic T-cell lymphoma",
+          "url": "https://doi.org/10.1038/ng.2872"
+        },
+        {
+          "label": "Palomero et al., Nat Genet 2014: recurrent mutations in epigenetic regulators, RHOA and FYN in peripheral T-cell lymphoma",
+          "url": "https://doi.org/10.1038/ng.2873"
+        },
+        {
+          "label": "Wani et al., 2006, PNAS (PMID 16549777)",
+          "url": "https://doi.org/10.1073/pnas.0600548103"
+        },
+        {
+          "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        }
+      ],
+      "tags": [
+        "cancer-genes-wave"
+      ],
+      "related": [
+        "civic",
+        "open-targets",
+        "intogen",
+        "hla",
+        "antigen-processing-machinery"
+      ],
+      "cancers": [
+        "non-hodgkin-lymphoma",
+        "colorectal",
+        "lung-cancer",
+        "head-and-neck",
+        "cervical",
+        "dlbcl",
+        "melanoma",
+        "mantle-cell-lymphoma"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "antigen-presentation-immunoediting",
+        "epigenetic-reprogramming",
+        "clonal-haematopoiesis"
+      ],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-grasso-immune-evasion-colorectal-cancer-discov-2018"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 5 therapies; IntOGen calls it an activating (Act) driver in 4 cohorts; IntOGen calls it a loss-of-function (LoF) driver in 6 cohorts; CIViC holds 7 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+        "Prevalence not recorded: none of the sources gives a positivity rate.",
+        "Colorectal cancer: inactivating mutation in 3 to 7% overall but 31.0% of MSI-high against 1.5% of microsatellite-stable samples in crc_msk_2026, with biallelic B2M and HLA loss by copy-number change and copy-neutral loss of heterozygosity documented across 1,211 tumours (Grasso 2018). It is an immunoediting scar and the best available explanation for the mismatch repair deficient patients who do not respond to a checkpoint inhibitor.",
+        "Lymphoma, RHOA G17V and the epigenetic mutations of T-follicular-helper lymphoma: A single substitution, G17V, in the small GTPase RHOA produces a protein that does not bind GTP and that blocks the wild-type protein as well. It is specific to the tumour cell, whereas the TET2 mutations that accompany it are found in non-tumour haematopoietic cells too, which places the TET2 lesion earlier, in the stem cell, and makes this lymphoma a disease that grows out of clonal haematopoiesis. Frequency: RHOA G17V in 68% of angioimmunoblastic T-cell lymphoma samples, with every G17V case also carrying a TET2 mutation (Sakata-Yanagimoto 2014); independently, in 22 of 35 angioimmunoblastic cases, 67%, and 8 of 44 peripheral T-cell lymphoma not otherwise specified, 18%, alongside recurrent TET2, DNMT3A and IDH2 mutations and less frequent FYN, ATM, B2M and CD58 lesions (Palomero 2014). What it changes about treatment: Not through an approved test. The hypomethylating agents are used in this disease on the strength of the TET2 and DNMT3A biology rather than on a mutation result, and azacitidine-containing regimens have shown activity in T-follicular-helper histology specifically.",
+        "Teaching distinction from the antigen-antibodies audit (9 November 2026): B2M is the class I light chain and not part of class II; loss of functional B2M affects many class I targets, unlike loss of one HLA allele; B2M also partners HLA-E, HLA-G, HLA-F, MR1 and (via Wani 2006) FcRn. See the hla record.",
+        "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+      ],
+      "provenance": {
+        "editedBy": "Systematic education audit",
+        "editedOn": "2026-11-09",
+        "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+      },
+      "symbol": "B2M",
+      "role": [
+        "drug-target",
+        "oncogene-driver",
+        "tumour-suppressor",
+        "biomarker"
+      ],
+      "evidenceTier": "clinical-evidence",
+      "sources": [
+        {
+          "label": "HGNC HGNC:914",
+          "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:914",
+          "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+        },
+        {
+          "label": "UniProt P61769",
+          "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+          "note": "protein name, function text, keywords and locations (REST API)"
+        },
+        {
+          "label": "CIViC gene B2M",
+          "url": "https://civicdb.org/features/537",
+          "note": "7 evidence items, 0 assertions, 4 variants; diseases: Colorectal Cancer, Melanoma, Lung Cancer, Mantle Cell Lymphoma, Diffuse Large B-cell Lymphoma and 1 more (GraphQL API, CC0)"
+        },
+        {
+          "label": "Open Targets ENSG00000166710",
+          "url": "https://platform.opentargets.org/target/ENSG00000166710/associations",
+          "note": "association with cancer (MONDO_0004992) 0.69; per-cancer scores at or above 0.5: colorectal cancer 0.56, melanoma 0.57, diffuse large B-cell lymphoma 0.67, non-Hodgkin lymphoma 0.72 (GraphQL API, CC0)"
+        },
+        {
+          "label": "IntOGen B2M",
+          "url": "https://www.intogen.org/search?gene=B2M",
+          "note": "driver in 10 cohorts (Act 4, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+        }
+      ],
+      "specificity": "tumour-specific",
+      "distribution": "many-types",
+      "specificityNote": "Tumour-specific alteration: the catalogues call it an oncogene driver (IntOGen cohort analysis finds it activated more often than chance) and a tumour suppressor (IntOGen finds it knocked out more often than chance), so the direction differs between cohorts but the alteration is somatic either way; what a medicine would aim at or exploit is the altered form or its loss, absent from normal cells; no corpus medicine is aimed at it yet. HPA B2M: RNA low tissue specificity; high antibody staining in 7 normal tissues; highest cancer staining urothelial cancer (2 of 11 high). Distribution: 6 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Lymphoma, Colorectal cancer, Lung cancer (all types), Head and neck squamous cell carcinoma, Cervical cancer, Skin cancer (all types)); Open Targets associates it with 1 specific cancer type at or above 0.5 (diffuse large B-cell lymphoma). (Rule 6 of scripts/fetch-target-specificity.ts.)",
+      "specificitySources": [
+        {
+          "label": "UniProt P61769",
+          "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+          "note": "protein name, function text, keywords and locations (REST API)"
+        },
+        {
+          "label": "CIViC gene B2M",
+          "url": "https://civicdb.org/features/537",
+          "note": "7 evidence items, 0 assertions, 4 variants; diseases: Colorectal Cancer, Melanoma, Lung Cancer, Mantle Cell Lymphoma, Diffuse Large B-cell Lymphoma and 1 more (GraphQL API, CC0)"
+        },
+        {
+          "label": "IntOGen B2M",
+          "url": "https://www.intogen.org/search?gene=B2M",
+          "note": "driver in 10 cohorts (Act 4, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+        },
+        {
+          "label": "Human Protein Atlas B2M tissue",
+          "url": "https://www.proteinatlas.org/ENSG00000166710-B2M/tissue",
+          "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+        },
+        {
+          "label": "Open Targets ENSG00000166710 associations",
+          "url": "https://platform.opentargets.org/target/ENSG00000166710/associations",
+          "note": "cancer associations at or above 0.5 (CC0)"
+        }
+      ],
+      "hgnc": "HGNC:914",
+      "ensembl": "ENSG00000166710",
+      "uniprot": "P61769",
+      "entrez": "567",
+      "firstDescribed": 1973,
+      "firstDescribedBasis": "sequence",
+      "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Cunningham B.A. et al, Biochemistry, 1973, \"The complete amino acid sequence of beta 2-microglobulin\".",
+      "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/4586824/",
+      "biology": "Component of the class I major histocompatibility complex (MHC). Involved in the presentation of peptide antigens to the immune system. Exogenously applied M.tuberculosis EsxA or EsxA-EsxB (or EsxA expressed in host) binds B2M and decreases its export to the cell surface (total protein levels do not change), probably leading to defects in class I antigen presentation. Location: Secreted; Cell surface (UniProt). Locus 15q21.1 (HGNC).",
+      "whereFound": [
+        "Non-Hodgkin lymphoma: Open Targets association 0.72 with non-Hodgkin lymphoma (MONDO_0018908); IntOGen driver in 2 cohorts (MLYM, NHL)",
+        "Colorectal cancer: Open Targets association 0.56 with colorectal cancer (MONDO_0005575); CIViC evidence names this disease",
+        "Lung cancer: CIViC evidence names this disease",
+        "Head and neck squamous cell carcinoma: IntOGen driver in 2 cohorts (HNSC)",
+        "Cervical cancer: IntOGen driver in 1 cohort (CESC)",
+        "Diffuse large B-cell lymphoma: Open Targets association 0.67 with diffuse large B-cell lymphoma (MONDO_0018905); CIViC evidence names this disease",
+        "Colorectal cancer: inactivating mutation or deletion (antigen presentation) 3-7%"
+      ],
+      "targetClass": "tumor-suppressor",
+      "prevalence": [
+        {
+          "cancerId": "colorectal",
+          "pct": "3-7",
+          "measure": "Inactivating mutation or deletion (antigen presentation)",
+          "source": "https://www.cbioportal.org/study/summary?id=crc_msk_2026",
+          "note": "cBioPortal: 335 of 7,237, 4.6%, in crc_msk_2026; 39 of 1,134, 3.4%, in crc_msk_2017; 61 of 1,516, 4.0%, in crc_eo_2020; 24 of 534, 4.5%, plus 13 deep deletions of 592, in coadread_tcga_pan_can_atlas_2018; 44 of 619, 7.1%, in coadread_dfci_2016."
+        }
+      ]
+    },
+    {
+      "id": "antigen-processing-machinery",
+      "kind": "term",
+      "name": "Antigen-processing machinery (APM)",
+      "aka": [
+        "APM",
+        "antigen processing"
+      ],
+      "tldr": "Cells cut up proteins, move some fragments to a loading site and place them on display molecules that T cells can inspect. Having a protein inside a cell does not guarantee its fragment is shown.",
+      "summary": "Antigen-processing machinery (APM) is the set of proteins that generate, transport and load peptides onto HLA. A common class I route has five steps. (1) The proteasome cuts intracellular proteins into fragments, which can create a useful peptide or destroy it. (2) The transporter associated with antigen processing, TAP1 with TAP2, moves peptides into the endoplasmic reticulum; Shepherd et al. (1993) showed in a cell-free system that TAP1 is part of an ATP-dependent, sequence-selective peptide translocator. (3) ERAP1 and ERAP2 trim amino acids from the front end. York et al. (2002) found that ERAP1 can enhance or limit presentation by trimming epitopes to 8 to 9 residues, and Saveanu et al. (2005) found complementary human ERAP1 and ERAP2 activity, so more expression does not universally improve display. A class I HLA heavy chain assembles with beta-2 microglobulin (B2M) and a peptide, with helpers such as tapasin. (4) Stable peptide-HLA complexes reach the surface; the peptide stays held by HLA. (5) A compatible T-cell receptor on a conventional CD8 T cell may recognise the pair; recognition is a separate gate and display alone does not show killing.\n\nClass II HLA commonly loads peptides in vesicles that process acquired proteins. An invariant chain protects the new groove and directs it there; after cutting, a remaining fragment is exchanged for other peptides with help from HLA-DM, and conventional CD4 T cells inspect these displays. Cross-presentation lets externally acquired material reach class I. The scheme is a common route, not a rule for every peptide.\n\nA cancer cell may keep an altered protein and still show little of its peptide, and a shared processing defect can affect several targets at once, so adding candidate peptides does not bypass the bottleneck. Low expression, gene loss and a functional defect are different findings: a weak RNA signal does not prove deletion. Interferon gamma can increase presentation machinery when its signalling pathway and the required genes are intact, and cannot replace a deleted B2M or HLA gene. Sucker et al. (2017) described melanoma lesions in which JAK1 or JAK2 defects gave interferon-gamma resistance and evolved into HLA class I negative, T-cell-resistant lesions with antigen-presentation genes silenced and no longer inducible. Zaretsky et al. (2016) found, in biopsies from patients with acquired resistance to PD-1 blockade, JAK1 or JAK2 loss of function in two of four patients and a truncating B2M mutation with lost surface class I in a third. These are melanoma observations, not treatment-benefit evidence.\n\nEvidence layers differ. DNA sequence and copy number show gene retention or alteration but not expression or function; RNA shows sampled gene activity but not protein, assembly or display; protein staining or flow cytometry detects protein but not which peptide is shown; HLA-associated peptide recovery shows a peptide was recovered with HLA in that preparation but not its cell of origin or recognition; controlled T-cell recognition shows function against tested targets. Peptide loading can bypass processing, so rescue by supplied peptide supports a bottleneck under those conditions only. Binding prediction is not presentation, and CD4 help is not proof of CD8 tumour recognition.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Shepherd et al., 1993, Cell (PMID 8348620)",
+          "url": "https://doi.org/10.1016/0092-8674(93)80058-m"
+        },
+        {
+          "label": "York et al., 2002, Nature Immunology (PMID 12436110)",
+          "url": "https://doi.org/10.1038/ni860"
+        },
+        {
+          "label": "Saveanu et al., 2005, Nature Immunology (PMID 15908954)",
+          "url": "https://doi.org/10.1038/ni1208"
+        },
+        {
+          "label": "Sucker et al., 2017, Nature Communications (PMID 28561041)",
+          "url": "https://doi.org/10.1038/ncomms15440"
+        },
+        {
+          "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        },
+        {
+          "label": "Vogt et al. 1996: HLA-DM-catalysed peptide exchange on HLA-DR in vitro",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8790398/"
+        },
+        {
+          "label": "Review: Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28367149/"
+        },
+        {
+          "label": "Sahin et al.: TNBC-MERIT immune responses and scoped presentation-escape observations (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41708868/"
+        }
+      ],
+      "tags": [
+        "education-immunology-2026-11"
+      ],
+      "related": [
+        "hla",
+        "b2m",
+        "dendritic-cell-cross-presentation",
+        "antigen",
+        "epitope",
+        "tap1",
+        "tap2",
+        "erap1",
+        "erap2"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "b2m",
+        "psmb8",
+        "psmb9",
+        "ciita",
+        "jak1",
+        "jak2",
+        "tap1",
+        "tap2",
+        "erap1",
+        "erap2"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hla",
+        "dendritic-cell-cross-presentation",
+        "antigen"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Abstract-depth reads on 9 November 2026. The class II chapter cited by the teaching source (Janeway, NBK26926) refused scripted access, so the invariant chain and HLA-DM description is textbook-level and not checked against the chapter text here.",
+        "The HLA-DM step is independently supported by Vogt and colleagues: in vitro kinetics and binding measurements demonstrated catalytic exchange of invariant-chain-derived CLIP for peptides on HLA-DR. This verifies the exchange mechanism in that system; the inaccessible textbook chapter remains an access failure.",
+        "TAP1, TAP2, ERAP1 and ERAP2 now have separate reviewed-human gene owners. PSMB8, PSMB9 and CIITA retain their existing catalogue owners; this audit does not re-verify every catalogue claim.",
+        "Accessible MHC review: selected invariant-chain, CLIP and HLA-DM sections were read; this is review context in addition to the primary HLA-DM experiment, not an opened Bookshelf chapter.",
+        "In the 14-participant TNBC-MERIT vaccine study, one recurrent tumour had downregulated antigen-presentation transcripts, including B2M, and nearly complete class-I protein loss compared with the earlier specimen. Sahin and colleagues considered B2M downregulation the most probable driver. This was an expression and protein observation in that recurrence, not a demonstrated new B2M DNA mutation, a recurrence probability or proof of a rescue treatment. Allele loss, RNA downregulation and a shared class-I assembly defect require different evidence; adding more source windows does not itself repair the failed step."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "t-cell-receptor",
+      "kind": "term",
+      "name": "T-cell receptor",
+      "aka": [
+        "TCR",
+        "alpha-beta T-cell receptor"
+      ],
+      "tldr": "A conventional T-cell receptor recognises a peptide together with its HLA display. Recognition alone does not show killing.",
+      "summary": "A conventional alpha-beta T-cell receptor uses paired chains to recognise a peptide-HLA surface. Its recognition chains assemble with CD3 signalling partners, as demonstrated in the human TCR-CD3 structural study. CDR3 is an informative variable region, but neither a beta-chain sequence nor CDR3 alone specifies the complete paired receptor or its function.\n\nParticular receptors can cross-react across peptide and HLA contexts; that does not establish a universal cross-reactivity rate. Paired receptor identity, binding, activation, target-cell death and clinical benefit require different evidence. A response by one reconstructed pair to peptide-loaded cells does not establish that another alpha-chain pairing recognises the same target, or that either kills naturally presenting tumour cells. Use irrelevant-target, HLA and target-only viability controls. Peptide loading can bypass natural processing, and contact diagrams are not healthy-tissue safety tests.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        },
+        {
+          "label": "Extraordinary cross-reactivity of an autoimmune T-cell receptor recognizing specific peptides both on autologous and on allogeneic HLA class II molecules.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17559580/"
+        },
+        {
+          "label": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "High-resolution analysis of the human T-cell receptor repertoire.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26324409/"
+        },
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A conventional alpha-beta TCR uses paired variable and constant domains to contact peptide plus HLA. The peptide sits in the HLA groove, not a separate TCR peptide pocket. CD3 signalling partners are distinct from recognition chains. Contact loops including junction-spanning CDR3 contribute, but other loops, the partner chain and HLA matter; beta-only or CDR3-only sequence is incomplete.",
+        "Cross-reactivity is recognition of multiple targets by a receptor. Defined receptor experiments demonstrated peptide/HLA cross-reactivity, not recognition of every allele by an arbitrary receptor or a universal rate. Greater affinity or a contact drawing does not establish healthy-tissue safety.",
+        "Sequencing reports sampled receptor identities and abundances under an operational clonotype definition. Paired alpha-beta identities are more complete than beta alone. Peptide-HLA multimer binding, stimulus-induced cellular response, target-cell death and clinical benefit are different endpoints. Include irrelevant-target, HLA and target-only viability controls; peptide-loaded cells can bypass natural processing.",
+        "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+        "Source scope: teaching synthesis checked against the cited abstracts and specified accessible primary text on 9 November 2026; fictional examples are not clinical observations or treatment-selection rules."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "neoantigen",
+      "kind": "term",
+      "name": "Neoantigen",
+      "aka": [
+        "neoantigens"
+      ],
+      "tldr": "A peptide arising from altered tumour sequence can be an immune target if it is displayed and recognised. Prediction alone does not show safe tumour killing.",
+      "summary": "A tumour sequence change can produce a new peptide sequence, but the altered sequence, its expression, HLA presentation and T-cell recognition are separate findings. Candidate sources include substitutions, frameshifts, fusions and altered RNA joins; a workflow that assessed one class has not necessarily assessed the others.\n\nComputational ranking can consider binding, expression and clonality. In the TESLA study, Wells and colleagues combined tumour-normal exomes, tumour RNA and HLA typing, then tested selected peptides for HLA binding and recognition by existing patient-matched T cells. The study focused on small somatic variants and class I antigens; it did not validate every fusion or splice source, every new response a vaccine might induce, or clinical benefit from a vaccine. A candidate peptide and a favourable prediction do not establish safe recognition of naturally presenting tumour cells.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Neoantigen",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neoantigen"
+        },
+        {
+          "label": "Wells et al.: TESLA prediction, binding and pre-existing T-cell assays (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+        },
+        {
+          "label": "Jones et al.: paired tumour-normal sequencing and interpretation (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+        },
+        {
+          "label": "Carter et al.: purity, ploidy and mutation multiplicity (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+        },
+        {
+          "label": "Wong et al.: formalin-related sequence artefacts (2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24885028/"
+        },
+        {
+          "label": "NHGRI: DNA sequencing overview",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "neoantigen-candidate-selection"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "neoantigen-mrna-vaccine",
+        "tcr-t"
+      ],
+      "targets": [],
+      "drugs": [
+        "intismeran-autogene"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+        "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+        "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+        "In an invented comparison, candidate A has a supported tumour DNA alteration, no support in adequately assessed normal DNA and observed mutant RNA. It has progressed further as a source candidate, but processing, HLA display and T-cell recognition remain untested. Candidate B has tumour DNA support but inadequate normal coverage, so tumour specificity is still unresolved. These are evidence questions, not a numerical ranking algorithm.",
+        "Two more fictional candidates illustrate bounded negatives. Candidate C has only a weakly supported RNA junction and needs reproducibility and artefact checks. Candidate D has strong DNA support but no RNA detection in a shallow assay, which cannot establish that the transcript is absent. None of A to D has demonstrated HLA presentation or T-cell recognition merely from these starting observations.",
+        "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "neoantigen-mrna-vaccine",
+      "kind": "technology",
+      "name": "Personalised neoantigen (mRNA) vaccines",
+      "aka": [],
+      "tldr": "A vaccine made for one patient, encoding the unique mutations in their own tumour, to train the immune system to hunt it.",
+      "summary": "Personalised neoantigen mRNA vaccines encode selected tumour-derived sequences to support antigen-directed immunity. Credible source sequence, delivery, peptide display, T-cell recognition and clinical benefit are separate questions.\n\nMerck and Moderna reported in August 2026 that intismeran autogene (V940/mRNA-4157) with pembrolizumab met recurrence-free and distant-metastasis-free survival endpoints in INTerpath-001 in completely resected stage IIB-IV melanoma. This is the companies' interim report about a combination and population, rather than a finding about every cancer vaccine or a regulatory approval.\n\nRojas and colleagues' 2023 pancreatic phase 1 study treated 16 people with atezolizumab and autogene cevumeran, followed by chemotherapy in 15. The association between an immune response and recurrence-free survival does not isolate the vaccine's causal contribution. A phase 2 resected-pancreatic study, NCT05968326, is active but not recruiting in its registry record.\n\nOther named V940 records have different stages: NCT06077760 in lung cancer is phase 3, NCT06307431 in renal cancer is phase 2, and NCT06305767 in bladder cancer is phase 1/2. The cutaneous squamous-cell study NCT06295809 is terminated for business reasons; that status is not an efficacy result. These are individual registry examples, not an exhaustive trial inventory.",
+      "status": "phase-3",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cancer_vaccine",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+        },
+        {
+          "label": "NCI: how cancer treatment vaccines work",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+        },
+        {
+          "label": "OpenStax: T-cell selection and clonal expansion",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+        },
+        {
+          "label": "Kranz et al.: systemic RNA delivery and antigen-specific responses (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/"
+        },
+        {
+          "label": "Douek et al.: measured adult thymic output and age (1998)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+        },
+        {
+          "label": "Rojas et al.: pancreatic phase 1 combination and immune-response association (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+        },
+        {
+          "label": "Merck and Moderna: company-reported INTerpath-001 interim endpoints (19 August 2026)",
+          "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+        },
+        {
+          "label": "INTerpath-001: registry design and endpoints",
+          "url": "https://clinicaltrials.gov/study/NCT05933577"
+        },
+        {
+          "label": "Autogene cevumeran: phase 2 resected-pancreatic study",
+          "url": "https://clinicaltrials.gov/study/NCT05968326"
+        },
+        {
+          "label": "V940-002: phase 3 lung-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06077760"
+        },
+        {
+          "label": "V940-004: phase 2 renal-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06307431"
+        },
+        {
+          "label": "V940-005: phase 1/2 bladder-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06305767"
+        },
+        {
+          "label": "V940-007: terminated cutaneous squamous-cell study",
+          "url": "https://clinicaltrials.gov/study/NCT06295809"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-neoantigen-immunogenicity-rules",
+        "neoantigen-candidate-selection"
+      ],
+      "cancers": [
+        "melanoma",
+        "pancreatic",
+        "nsclc",
+        "rcc"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "intismeran-autogene",
+        "autogene-cevumeran"
+      ],
+      "companies": [
+        "moderna",
+        "merck",
+        "biontech",
+        "roche-genentech",
+        "gritstone",
+        "serova",
+        "curevac",
+        "evaxion",
+        "gamgee",
+        "geneos-therapeutics",
+        "kernal-biologics",
+        "nykode-therapeutics",
+        "tarebio",
+        "transgene",
+        "echo-immune",
+        "invoke-bio",
+        "ubivac",
+        "breakbio"
+      ],
+      "institutions": [
+        "jaime-leandro-foundation"
+      ],
+      "pathways": [],
+      "terms": [
+        "neoantigen"
+      ],
+      "trials": [
+        "interpath-001",
+        "nct07002203"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "wes-wgs",
+        "rna-seq",
+        "plasmid-dna-manufacturing",
+        "sterile-fill-finish"
+      ],
+      "notes": [
+        "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+        "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+        "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+        "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+        "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+        "Target number, formulation, combination and timing belong to the particular product. The V940 sponsor description specifies up to 34 encoded neoantigens; Rojas and colleagues used autogene cevumeran with up to 20 in their pancreatic study. Neither number is a universal selection score or manufacturing rule. Tolerability and added benefit require evidence for the actual regimen and population; a personalised sequence does not itself establish low toxicity."
+      ],
+      "principle": "A protocol selects tumour-derived sequences and encodes them in an RNA product. Delivery, presentation and priming then require testing. Target count, formulation, route and combinations are product-specific rather than universal features of the platform.",
+      "strengths": [
+        "Patient-specific antigen selection",
+        "Immune responses and clinical outcomes can be measured separately"
+      ],
+      "limitations": [
+        "Prediction does not establish natural presentation or recognition",
+        "Manufacturing time, dose, combinations and toxicity depend on the product and protocol",
+        "Immune response does not establish clinical benefit"
+      ],
+      "since": 2017
+    },
+    {
+      "id": "agretopicity",
+      "kind": "term",
+      "name": "Agretopicity",
+      "aka": [
+        "differential agretopic index",
+        "differential agretopicity index",
+        "DAI",
+        "differential binding affinity"
+      ],
+      "tldr": "Agretopicity concerns how a protein fragment interacts with an immune display molecule. Comparing altered and normal fragments gives a separate predicted score; actual display and immune recognition need tests.",
+      "summary": "Agretopicity concerns a peptide's ability to interact with a major histocompatibility complex (MHC) display molecule, called human leukocyte antigen (HLA) in people. It is distinct from the differential agretopic index (DAI), which compares predicted binding of the mutant peptide with its matching wild-type counterpart against the same molecule. Duan and colleagues named the numerical difference in NetMHC scores between mutated and unmutated sequences the differential agretopic index. They subtracted the wild-type NetMHC score from the mutant score. Ghorani and colleagues instead subtracted predicted mutant affinity from predicted wild-type affinity. Some groups use a ratio, so retain the units, formula and sign convention before comparing values across pipelines.\n\nTwo separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.\n\nA high value does not require strong absolute binding. In that mouse work the protective neoepitopes produced CD8-dependent immunity although their affinity for the mouse class I molecule H-2Kd was orders of magnitude weaker than the conventional 500 nanomolar threshold, which is part of the argument for ranking on the mutant-versus-wild-type comparison rather than on absolute predicted affinity alone.\n\nGhorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.\n\nThe 2020 Tumor Neoantigen Selection Alliance study tested which peptide features predict immunogenicity: 608 predicted epitopes were assessed for T-cell binding in patient-matched samples, and a model integrating peptide features linked to presentation and recognition filtered out 98% of non-immunogenic peptides at a precision above 0.70, then held in an independent cohort of 310 epitopes (Wells and colleagues). Its abstract does not say which features entered the model, so this record does not claim that the study supported or rejected agretopicity.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Duan et al., genomic and bioinformatic profiling of mutational neoepitopes reveals new rules to predict anticancer immunogenicity (J Exp Med 2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25245761/"
+        },
+        {
+          "label": "Ghorani et al., differential binding affinity of mutated peptides for MHC class I is a predictor of survival in advanced lung cancer and melanoma (Ann Oncol 2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29361136/"
+        },
+        {
+          "label": "Wells et al., key parameters of tumor epitope immunogenicity revealed through a consortium approach improve neoantigen prediction (Cell 2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+        },
+        {
+          "label": "Wieczorek et al.: peptide binding and recognition of peptide-MHC complexes (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28367149/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "neoantigen",
+        "neoantigen-mrna-vaccine",
+        "tmb",
+        "interferon-gamma-signature",
+        "cancer-immunity-cycle"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "neoantigen-mrna-vaccine"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "neoantigen",
+        "tmb"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Peptide binding to HLA and T-cell receptor recognition of the peptide-HLA complex are different interactions. The peptide's HLA-binding determinants can be called an agretope; its recognition by a receptor depends on the combined surface. This functional distinction does not prescribe two flat, non-overlapping faces for every complex. A binding prediction or mutant-versus-normal score is not a measurement of natural display, T-cell response, killing or clinical benefit.",
+        "The differential agretopic index is not absolute binding strength: its reference is the peptide's own wild-type version. Sequence self-similarity asks a different question about resemblance to normal human sequences more broadly. The Duan and Ghorani studies concern class I and do not validate a class-II ranking rule. HLA is the human major histocompatibility complex, called MHC in the mouse experiments. Predicted binding differences also do not prove absence of self-tolerance.",
+        "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "nonsense-mediated-decay",
+      "kind": "term",
+      "name": "Nonsense-mediated RNA decay",
+      "aka": [
+        "nonsense-mediated decay",
+        "NMD"
+      ],
+      "tldr": "A cell can reduce some RNA messages when translation stops in an unexpected context. A predicted early stop does not guarantee that every message or protein disappears.",
+      "summary": "Nonsense-mediated decay is RNA surveillance coupled to translation termination. Splicing can leave exon junction protein complexes near later joins in the message. Translation can remove junction-associated proteins; early termination while an appropriate complex remains downstream can help recruit decay machinery in one human route. Stop position, exon architecture, proximity to the start and other transcript features affect susceptibility. A common junction-distance shortcut is a hypothesis, not a universal clinical cutoff.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "The exon-exon junction complex provides a binding platform for factors involved in mRNA export and nonsense-mediated mRNA decay.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11532962/"
+        },
+        {
+          "label": "Translation is required to remove Y14 from mRNAs in the cytoplasm.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12121612/"
+        },
+        {
+          "label": "Intron function in the nonsense-mediated decay of beta-globin mRNA: indications that pre-mRNA splicing in the nucleus can influence mRNA translation in the cytoplasm.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9671053/"
+        },
+        {
+          "label": "The rules and impact of nonsense-mediated mRNA decay in human cancers.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27618451/"
+        },
+        {
+          "label": "Litchfield et al.: frameshift expression, decay escape and immune evidence (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32733040/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "rna",
+        "rna-splicing",
+        "mutation",
+        "gene-expression",
+        "protein"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Human-cancer analyses found that a model containing several rules described RNA effects better than the junction rule alone; compensation could mask loss at gene level. Test the relevant transcript or allele with controls for RNA quality and cell mixture. Protein identity, persistence and function need separate measurements: RNA decay is distinct from protein degradation.",
+        "Candidate selection should reconstruct the affected transcript and translated sequence. A stop-gain terminates translation rather than adding a new amino acid; an unchanged upstream sequence alone does not specify a new mutant peptide. A frameshift can instead create an altered tail before stopping. Litchfield and colleagues found expressed frameshift changes enriched in positions predicted to escape decay and reported associations with checkpoint outcomes in melanoma cohorts, with additional immune-reactivity evidence from vaccine studies. These are context-specific findings, not a rule that every frameshift is expressed, displayed or useful. Mutant RNA and downstream presentation and recognition remain separate questions."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "tcr-t",
+      "kind": "technology",
+      "name": "TCR-T cell therapy",
+      "aka": [
+        "TCR-T",
+        "TCR T cells",
+        "TCR-engineered T cells",
+        "engineered T-cell receptor therapy"
+      ],
+      "tldr": "TCR-T supplies living T cells carrying a selected receptor that recognizes a specified peptide with its presenting HLA molecule. A source-protein name alone does not establish that target.",
+      "summary": "Conventional alpha-beta TCR-T introduces selected paired receptor-chain instructions into therapeutic T cells. The receptor recognizes a displayed peptide-HLA complex, rather than entering the tumor cell to bind the whole source protein. Natural processing, the required HLA allele, surface display, receptor expression and useful cell function remain different questions. This differs from administering a soluble TCR/CD3 protein that recruits other T cells.\n\nAfamitresgene autoleucel (Tecelra) is an approved TCR-T example. FDA initially approved it in 2024 and converted the specified adult use to traditional approval in June 2026, extending the indication to patients aged 12 and older. Its synovial-sarcoma indication retains prior-chemotherapy, selected HLA and MAGE-A4 testing requirements. The full label also contains exclusions and safety requirements; a broad HLA-A*02 label is not a complete eligibility rule.",
+      "status": "approved",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT03967223: IGNYTE-ESO",
+          "url": "https://clinicaltrials.gov/study/NCT03967223"
+        },
+        {
+          "label": "Morgan et al.: receptor gene transfer in metastatic melanoma (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/"
+        },
+        {
+          "label": "Cameron et al.: Titin cross-reactivity of one MAGE-A3 receptor (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23926201/"
+        },
+        {
+          "label": "Dong et al.: human TCR-CD3 complex assembly (2019 abstract)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        },
+        {
+          "label": "WT1/HLA-A*24:02 CAR study in experimental models (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30045840/"
+        },
+        {
+          "label": "Liddy et al.: soluble TCR/CD3 experimental proteins (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22561687/"
+        },
+        {
+          "label": "TECELRA label, revised June 2026: indication, contraindication and receptor design",
+          "url": "https://www.fda.gov/media/180565/download"
+        },
+        {
+          "label": "FDA June 17, 2026 TECELRA conversion/expansion letter",
+          "url": "https://www.fda.gov/media/193220/download"
+        },
+        {
+          "label": "FDA: CAR T-cell product-development guidance, including related engineered lymphocytes (2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Bendle et al.: mixed introduced/endogenous TCR chains and autoimmunity in mouse models (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20400962/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell-engager",
+        "car-t",
+        "cellular-kinetics-and-persistence"
+      ],
+      "cancers": [
+        "sarcoma",
+        "melanoma"
+      ],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [],
+      "targets": [
+        "mage-a4",
+        "gp100",
+        "kras",
+        "tp53"
+      ],
+      "drugs": [
+        "afamitresgene-autoleucel"
+      ],
+      "companies": [
+        "affini-t-therapeutics",
+        "neogene-therapeutics",
+        "invocata",
+        "alaunos",
+        "medigene",
+        "anocca",
+        "captain-t-cell",
+        "neowise-biotechnology",
+        "zelluna",
+        "outpace-bio"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "apheresis-starting-material",
+        "viral-vector-manufacturing",
+        "cell-therapy-cold-chain",
+        "cell-therapy-release-testing"
+      ],
+      "notes": [
+        "Morgan transferred receptor genes into autologous lymphocytes in a metastatic-melanoma study. Introducing selected recognition instructions differs from expanding a tumor-derived population with its existing receptors. Viral transduction describes a delivery method, not the definition of every receptor-engineering process.",
+        "The conventional receptor uses paired alpha and beta chains alongside the CD3 complex. Cloning selected receptor coding sequences means copying instructions; one sequenced chain does not establish a complete functional receptor or its specificity. Expression and assembly in the finished cells require evaluation. The Dong structural study distinguishes recognition chains from associated signaling components. Bendle showed in mouse models that introduced and endogenous chains could form self-reactive mixed receptors; vector and cell-population changes reduced that model risk. This does not supply a clinical risk rate for every TCR-T product.",
+        "Protein expression and HLA typing lie upstream of the displayed ligand. Antigen/HLA loss or impaired presentation can remove one recognition route; retaining another allele does not rescue a receptor requiring the lost allele. A different receptor using a retained allele needs its own specificity and functional evidence.",
+        "In research, test paired receptor expression and naturally presenting targets, with relevant antigen/HLA removal and restoration, irrelevant peptides, unmodified effectors and healthy tissue. Multimer or peptide-loaded reagent binding is different from natural processing, target-cell death or patient benefit. This research validation is distinct from the approved product’s clinical testing rule.",
+        "Cameron investigated fatal cardiac toxicity with one affinity-enhanced MAGE-A3 receptor and identified a cross-reactive Titin peptide presented by HLA-A*01 as the most likely cause. Earlier screening had not detected the hazard. This was a different receptor from the MAGE-A4 product Tecelra; stronger binding does not establish improved specificity or safety for either a new construct or an entire family.",
+        "The June 2026 Tecelra label names HLA-A*02:01P, -A*02:02P, -A*02:03P and -A*02:06P and a MAGE-A4 tumor test in its indication, with a separate HLA-A*02:05P contraindication. The approval letter documents the adult conversion and pediatric expansion. These are product-specific regulatory scopes, not a general rule for every TCR-T.",
+        "Conventional surface-antigen CARs and peptide-HLA-directed receptors have different recognition requirements, but peptide-HLA CARs also exist. The WT1/HLA-A*24:02 CAR study is a preclinical counterexample to saying all intracellular source antigens are unreachable by any CAR. A format change does not supply a missing required peptide-HLA complex.",
+        "For a soluble TCR/CD3 protein, the dosed molecule supplies recognition and recruits available T cells. TCR-T instead supplies receptor-bearing living cells. Protein exposure, cell trafficking/persistence and useful target-dependent function need separate measurements; neither format wins by definition."
+      ],
+      "principle": "Selected alpha-beta recognition chains operate with the cell’s CD3 signaling machinery. The intended target is the particular naturally displayed peptide-HLA complex, not genotype, RNA abundance or source protein alone.",
+      "strengths": [
+        "Can investigate targets derived from intracellular proteins through peptide-HLA display",
+        "A selected receptor can confer recognition on engineered cells in defined settings"
+      ],
+      "limitations": [
+        "Allele and antigen-processing/display dependencies can limit recognition",
+        "Cross-reactivity, healthy-tissue recognition and whole-regimen harms require evaluation",
+        "Receptor-positive cells still need appropriate state, tissue access and function"
+      ],
+      "since": 2024
+    },
+    {
+      "id": "nk-cell",
+      "kind": "term",
+      "name": "NK cell",
+      "aka": [
+        "NK cells",
+        "natural killer cell",
+        "natural killer cells",
+        "natural killer",
+        "NK-cell",
+        "CAR-NK"
+      ],
+      "tldr": "Natural killer cells integrate activating and inhibitory inputs to respond to abnormal cells. An added CAR supplies another recognition route; missing self is one input rather than a guarantee of killing.",
+      "summary": "Some inhibitory NK receptors recognize self HLA class I, while activating receptors respond to other features. Reduced self display can weaken an inhibitory input, but the NK cell, its prior education, activating signals and target context still determine the response. NK cells can also contribute antibody-dependent killing through Fc receptors. Donor-derived or engineered NK-cell products need their own compatibility, persistence and safety assessment rather than a blanket claim that matching or rejection never matters. The principle comes from mouse experiments: lymphoma cells selected for loss of H-2 were less malignant at low dose and were rejected by a non-adaptive mechanism, which suggested that natural killer cells are effectors in a defence system geared to detect reduced self MHC (Kärre et al., 1986); that does not guarantee the same outcome for any human tumour. MHC class I molecules are ligands for killer-cell immunoglobulin-like receptors (Parham, 2005): two-domain KIR2D receptors bind HLA-C alleles and three-domain KIR3D receptors bind HLA-A and HLA-B alleles, and the KIR family includes activating as well as inhibitory members (Mariuzza et al., 2025). CD94/NKG2A binds HLA-E, and HLA-E surface expression was enough to protect target cells from lysis by CD94/NKG2A-positive NK clones (Braud et al., 1998). NKG2D binds class I-related proteins including MICA, MICB and ULBP1 to 3 (Mariuzza et al., 2025), and engagement of NKG2D activated NK and gamma-delta T-cell cytolysis against epithelial tumour cells expressing MICA (Bauer et al., 1999). No single activating receptor dominates, since NK cells integrate synergistic signals from several (Long et al., 2013), and responsiveness depends on prior education: in human cell experiments, cytokine stimulation let hyporesponsive NK cells acquire KIR and function when the cognate MHC was present (Juelke et al., 2009). Loss of one HLA allele is not loss of all class I. Loss of beta-2 microglobulin removed surface class I in one of four relapsing melanoma patients (Zaretsky et al., 2016), and because HLA-E is assembled with beta-2 microglobulin, the KIR and NKG2A restraints would be expected to lift together; that last step is an inference not tested in the cited abstracts. A flow-based cytotoxicity assay that stains target and effector nuclei separately and distinguishes live from dead nuclei has been validated with NK-92 cells, CAR-T cells and tumour-infiltrating lymphocytes (Rabinovich et al., 2019). Target death is not a count of effector cells that released granule contents: surface CD107a marked NK cells that degranulated after stimulation with MHC-devoid targets and correlated with lysis, and also marked a large subset that did not secrete cytokine, so different readouts count different cells (Alter et al., 2004). CD16 is a low-affinity Fc receptor for IgG that mediates antibody-dependent cellular cytotoxicity by NK cells (Liu, 2022), a route separate from missing-self recognition. Neither assay readout shows tumour entry or clinical benefit.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Natural_killer_cell",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Natural_killer_cell"
+        },
+        {
+          "label": "Karre et al.: reduced self-MHC and rejection in mouse lymphoma models (1986)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/"
+        },
+        {
+          "label": "Liu et al.: one cord-blood CAR-NK construct in lymphoid tumors (2020)",
+          "url": "https://doi.org/10.1056/NEJMoa1910607"
+        },
+        {
+          "label": "Recognition of Self and Viral Ligands by NK Cell Receptors.",
+          "url": "https://doi.org/10.1111/imr.13435"
+        },
+        {
+          "label": "MHC class I molecules and KIRs in human history, health and survival.",
+          "url": "https://doi.org/10.1038/nri1570"
+        },
+        {
+          "label": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+          "url": "https://doi.org/10.1038/35869"
+        },
+        {
+          "label": "Activation of NK Cells and T Cells by NKG2D, a Receptor for Stress-Inducible MICA.",
+          "url": "https://doi.org/10.1126/science.285.5428.727"
+        },
+        {
+          "label": "Controlling Natural Killer Cell Responses: Integration of Signals for Activation and Inhibition.",
+          "url": "https://doi.org/10.1146/annurev-immunol-020711-075005"
+        },
+        {
+          "label": "Education of hyporesponsive NK cells by cytokines.",
+          "url": "https://doi.org/10.1002/eji.200939307"
+        },
+        {
+          "label": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        },
+        {
+          "label": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+          "url": "https://doi.org/10.1016/j.jim.2019.112668"
+        },
+        {
+          "label": "CD107a as a functional marker for the identification of natural killer cell activity.",
+          "url": "https://doi.org/10.1016/j.jim.2004.08.008"
+        },
+        {
+          "label": "Evaluating Human Natural Killer Cells Antibody-dependent Cellular Cytotoxicity (ADCC) Using Plate-bound Anti-CD16 Antibodies.",
+          "url": "https://doi.org/10.21769/bioprotoc.4285"
+        },
+        {
+          "label": "Controlling natural killer cell responses: integration of signals for activation and inhibition.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23516982/"
+        },
+        {
+          "label": "Kinetics and peptide dependency of the binding of the inhibitory NK receptor CD94/NKG2-A and the activating receptor CD94/NKG2-C to HLA-E.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10428963/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell",
+        "immune-system",
+        "adcc",
+        "antibody",
+        "fc-effector",
+        "nk-cell-recognition",
+        "perioperative-immune-window"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "car-nk-macrophage",
+        "allogeneic-cell-therapy",
+        "monoclonal-antibody"
+      ],
+      "targets": [
+        "cd56",
+        "fcgr3a",
+        "cd57"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The original missing-self experiment compared mouse lymphoma variants with reduced H-2 expression in defined hosts. It supports an immune-recognition principle, not a universal rule that every HLA-low human tumor is killed by every NK product.",
+        "A CAR, native NK receptors and cytokine support provide different inputs. The cord-blood product in Liu combined all of these design layers; a favorable observation for that construct does not isolate the CAR contribution or establish the same behavior for NK-92, donor blood or pluripotent-cell-derived preparations. NK and NKT cells are different cell families.",
+        "The receptor-level map separates inhibitory KIR/HLA and NKG2A/HLA-E interactions from activating stress-ligand and antibody-Fc inputs. Receptor proteins, genotype, ligand expression, degranulation and controlled target killing are different readouts. A loss of inhibitory display without adequate activating input does not guarantee killing, and a perioperative blood NK measurement does not describe every residual-disease site."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "vaf",
+      "kind": "term",
+      "name": "Variant allele frequency (VAF)",
+      "aka": [],
+      "tldr": "Variant allele frequency is the fraction of informative reads or molecules that support a variant under a test’s definition. It is not directly the fraction of cancer cells.",
+      "summary": "Read-based VAF divides variant-supporting reads by informative reads at the locus. Some assays instead report a molecule-based measure, so keep the laboratory’s definition. Tumor purity, local allele-specific copy number, ploidy, subclonal mixture and assay behavior affect the value. VAF alone cannot assign zygosity, variant origin, the number of clones or a cancer-cell percentage. Changes over time in plasma also require attention to specimen and non-tumor DNA contributors.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allele_frequency",
+      "links": [
+        {
+          "label": "Li et al., Standards and guidelines for the interpretation and reporting of sequence variants in cancer: AMP, ASCO and CAP joint consensus (Journal of Molecular Diagnostics 2017)",
+          "url": "https://doi.org/10.1016/j.jmoldx.2016.10.002"
+        },
+        {
+          "label": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+        },
+        {
+          "label": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/"
+        },
+        {
+          "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "alleles-and-zygosity",
+        "germline-vs-somatic",
+        "gene-amplification"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "cgp",
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-li-j-mol-diagn"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "VAF is the proportion of usable reads or assay-defined molecules supporting the alternate sequence; keep the denominator: 25 of 100 usable observations is 25%.",
+        "CCF is carrier cancer cells over all sampled cancer cells; its inputs have distinct denominators: cell purity p, DNA contribution, pathology cellularity (method-defined, for RCB the tumour-bed area), global ploidy P, local copy number C, mutant multiplicity m.",
+        "With equal recovery per genome copy and diploid normals, tumour DNA contribution is p*P/[p*P+2*(1-p)]; half the cells at ploidy four contribute two thirds of DNA.",
+        "For uniform local copies, expected VAF is p*f*m/[p*C+(1-p)*2]; assumptions: two normal copies, uniform cancer copies, fixed multiplicity, unbiased observations; subclonal copy change needs a richer model.",
+        "Same 50 cancer plus 50 normal cells, every cancer cell carrying one variant copy: expected VAF 50/200=25% with two local cancer copies and 50/150 about 33% with one; CCF stays 100% and purity 50%.",
+        "Purity 0.5, one mutant copy: four local copies with CCF 100% and two local copies with CCF 2/3 both predict VAF 1/6 (about 16.7%); copy evidence separates them; CCF above 100% signals incompatible assumptions.",
+        "High VAF alone cannot establish truncal ancestry or origin or function; a rise after treatment can reflect mixture or copy change as well as carrier expansion; uncertain inputs give alternative CCF fits, not counted cells.",
+        "Retain DNA and copy-state inputs, filtered support denominators, fractions, local copies, multiplicity, purity, model version and alternative fits. New extraction consumes material; reanalysis alone does not. Artifacts, few molecules, recovery bias and uncertain copy/mixture estimates limit conversion. Detection thresholds and model-fit criteria do not establish a universal clonal-target cutoff or treatment benefit."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "tmb",
+      "kind": "term",
+      "name": "Tumour mutational burden (TMB)",
+      "aka": [],
+      "tldr": "Tumour mutational burden is an assay-defined density of eligible DNA mutations, usually reported per million bases.",
+      "summary": "Tumour mutational burden divides eligible somatic mutation counts by an eligible DNA territory, commonly in mutations per megabase. Counting, origin filtering, calibration, specimen and quality rules affect the estimate. It does not directly measure immune recognition, copy-number instability or treatment response. A clinical threshold applies only within its validated assay and disease setting.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tumor_mutational_burden",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tumor_mutational_burden"
+        },
+        {
+          "label": "FDA pembrolizumab label revised July 2026",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+        },
+        {
+          "label": "Merino et al. (2020), in-silico TMB harmonization",
+          "url": "https://friendsofcancerresearch.org/wp-content/uploads/JITC_Establishing_guidelines_to_harmonize-TMB_2.pdf"
+        },
+        {
+          "label": "FDA, 16 October 2026: traditional approval and updated TMB-H indication",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+        },
+        {
+          "label": "KEYTRUDA current prescribing information, sections 1.18 and 2.1",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        },
+        {
+          "label": "Barroso-Sousa et al.: mutation-burden distributions in breast-cancer samples (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32067680/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "nsclc"
+      ],
+      "sections": [],
+      "technologies": [
+        "cgp"
+      ],
+      "targets": [],
+      "drugs": [
+        "pembrolizumab"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-rizvi-mutational-landscape-pd1-science-2015",
+        "paper-rizvi-targeted-ngs-immunotherapy-determinants-jco-2018",
+        "paper-ricciuti-tmb-pd-l1-levels-jama-oncol-2022",
+        "paper-keynote-042-tmb-mutations-ann-oncol-2023",
+        "paper-keynote-189-407-tmb-jtocrr-2023"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "TMB is the density of eligible somatic mutations over the assay reporting region, in mut/Mb (Mb = one million bases); the numerator rules, filters and any calibration are method-specific.",
+        "Panel, exome and genome examine different regions; a cancer-gene-enriched region need not behave as a random genomic sample.",
+        "When laboratories analysed the same exome data with their own regions and pipelines panel TMB estimates varied; this was a computational comparison, not proof of interchangeability for treatment selection.",
+        "More mutations offer more candidate neoantigens, but processing, HLA display and immune function still matter; high TMB neither guarantees checkpoint benefit nor establishes benefit in every cancer.",
+        "On 16 October 2026, FDA converted the U.S. tumour-agnostic pembrolizumab indication to traditional approval and changed its TMB-H criterion from 10 to at least 13 mutations per megabase. Section 1.18 covers adults and children with unresectable or metastatic solid tumours, measured by an FDA-authorised test, that have progressed after prior treatment and have no satisfactory alternative treatment options. This criterion does not replace thresholds in other indications or historical studies.",
+        "Fictional teaching exercise: 24 eligible mutations over 2 Mb is 12 mut/Mb and over 1 Mb is 24 mut/Mb; not comparable clinically without counting and calibration rules; a research result does not establish authorised-test eligibility.",
+        "TMB differs from copy-number instability and from MSI, and a TMB category does not settle an individual outcome.",
+        "Retain specimen type, DNA consumption, eligible mutation classes and reporting territory, germline/artefact filtering, calibration, mut/Mb, quality and uncertainty. Blood and tissue estimates need separate validation. Low tumour signal and uneven coverage can bias the count; both analytical performance and clinical applicability must match the assay, cancer and setting.",
+        "The July 2026 pembrolizumab label describes the TMB supporting KEYNOTE-158 analysis as a prospectively planned retrospective analysis of ten nonrandomized cohorts. That design does not establish TMB-based selection for early triple-negative breast cancer; retain the population, endpoint and clinical setting with the evidence.",
+        "Barroso-Sousa and colleagues analysed 3,969 primary or metastatic breast-cancer samples from six public studies using exome or panel sequencing. Median mutation burden differed across their receptor-defined groups, with the triple-negative group above HER2-positive and hormone-receptor-positive/HER2-negative groups. This is a group comparison with mixed specimen and assay contexts. It does not assign an individual's TMB-high category, predict how many HLA-associated peptides an assay will recover, establish presentation, determine treatment eligibility or show benefit. The study's research threshold belongs to its analysis and does not replace a later label or another assay's rule.",
+        "Lung cancer is where tumour mutational burden was discovered as a predictor of checkpoint benefit (Rizvi 2015) and where it failed as a selector. The biology holds: burden tracks outcome within every PD-L1 stratum in 1,552 patients and is independent of PD-L1 (Rizvi 2018, Ricciuti 2022). The measurement does not: three units are in use (per megabase on a panel, per exome on sequencing, a plasma score), the best data-derived threshold was more than 19 per megabase rather than the licensed 10, and the association vanishes entirely once chemotherapy is added to the checkpoint inhibitor (Garassino 2023). It selects for single-agent immunotherapy only (Mok 2023)."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "genetic-code",
+      "kind": "term",
+      "name": "Genetic code and reading frame",
+      "aka": [
+        "genetic code",
+        "codon",
+        "codons",
+        "reading frame",
+        "open reading frame",
+        "triplet code",
+        "start codon",
+        "stop codon"
+      ],
+      "tldr": "A cell reads messenger RNA in groups of three letters called codons. The code says which amino acid to add or when to stop. Changing the grouping can change the protein.",
+      "summary": "The genetic code maps three-letter codons to amino acids or termination signals. A reading frame specifies how a coding sequence is grouped into consecutive, non-overlapping triplets. A codon is one unit of a message, while a protein-coding gene also includes other sequence and regulatory context; some genes instead produce functional RNA.\n\nAn open reading frame is a stretch without an internal stop in the chosen frame. A candidate start-to-stop segment can help identify a possible coding region, but an open frame alone does not show that a protein is expressed or functional. The reference sequence, transcript and translation table matter.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Genetic_code",
+      "links": [
+        {
+          "label": "Wikipedia: genetic code",
+          "url": "https://en.wikipedia.org/wiki/Genetic_code"
+        },
+        {
+          "label": "NHGRI: codons and the 64-triplet standard code",
+          "url": "https://www.genome.gov/genetics-glossary/Codon"
+        },
+        {
+          "label": "NHGRI: open reading frame",
+          "url": "https://www.genome.gov/genetics-glossary/Open-Reading-Frame"
+        },
+        {
+          "label": "NCBI: standard and vertebrate mitochondrial genetic codes",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+        },
+        {
+          "label": "OpenStax Biology 2e: protein synthesis and initiation context",
+          "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+        },
+        {
+          "label": "HGVS: frameshift descriptions and predicted consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/"
+        },
+        {
+          "label": "HGVS: protein deletions and transcript-dependent consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/"
+        },
+        {
+          "label": "ClinVar: TP53 c.524G>A, p.Arg175His",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/"
+        },
+        {
+          "label": "ClinVar: BRCA1 c.68_69del, p.Glu23fs",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17662/"
+        },
+        {
+          "label": "RefSeq: TP53 transcript NM_000546.6",
+          "url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_000546.6"
+        },
+        {
+          "label": "RefSeq: BRCA1 transcript NM_007294.4",
+          "url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_007294.4"
+        },
+        {
+          "label": "MedlinePlus Genetics: BRCA1",
+          "url": "https://medlineplus.gov/genetics/gene/brca1/"
+        },
+        {
+          "label": "MedlinePlus Genetics: BRCA2",
+          "url": "https://medlineplus.gov/genetics/gene/brca2/"
+        },
+        {
+          "label": "Crick et al.: bacteriophage experiments and coding ratio (1961)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13882203/"
+        },
+        {
+          "label": "NLM archive: Crick et al. 1961 article scan",
+          "url": "https://digirepo.nlm.nih.gov/ext/document/101584582X412/PDF/101584582X412.pdf"
+        },
+        {
+          "label": "Nirenberg: Nobel lecture, The genetic code (1968)",
+          "url": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf"
+        },
+        {
+          "label": "Le et al.: mismatch-repair deficiency and PD-1 blockade (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28596308/"
+        },
+        {
+          "label": "Krüger et al.: mitochondrial termination at AGA and AGG (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36596788/"
+        },
+        {
+          "label": "Wakigawa et al.: mitochondrial termination and frame context (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42481489/"
+        },
+        {
+          "label": "Sakai et al.: BRCA2 secondary mutations and cisplatin resistance (2008)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18264087/"
+        },
+        {
+          "label": "Sakai et al.: functional BRCA2 restoration in ovarian carcinoma models (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dna-term",
+        "central-dogma-information-flow",
+        "gene",
+        "rna",
+        "protein",
+        "mutation",
+        "nonsense-mediated-decay",
+        "brca-reversion-mutations",
+        "neoantigen"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+        "For ordinary cap-dependent eukaryotic initiation, the translation machinery scans from the front of the message and the sequence around AUG helps determine initiation. It need not use the first AUG. Initiation commonly supplies methionine; subsequent processing can change the protein end. Bacterial initiation and mitochondrial translation have their own context, and NCBI lists alternative initiation codons. An AUG within an already translated frame normally adds methionine rather than starting a second protein.",
+        "A fictional letter exercise separates frame from spelling: THE CAT SAW THE DOG groups a string into threes, while starting one letter later gives HEC ATS AWT. Biological codons have synonyms, unlike these ordinary words, so this analogy does not make every single-letter substitution damaging. The exercise identifies grouping, not a protein sequence or an estimate of mutation effects.",
+        "Coding-DNA reports use T where the corresponding RNA sequence uses U. Matching them requires the coding strand and a specified processed transcript; an unprocessed genomic stretch can contain introns. In variant notation, c. numbers coding-DNA positions and p. describes a protein consequence relative to a named reference. The symbols fs, Ter and * denote frameshift and termination. HGVS places predicted protein consequences in parentheses when RNA or protein has not been analysed.",
+        "For NM_000546.6, TP53 c.524G>A changes coding-DNA codon 175 from CGC to CAC, predicting arginine to histidine. HGVS writes an unmeasured protein consequence as p.(Arg175His); ClinVar's reference display uses p.Arg175His. The named RefSeq coding sequence reproduces the substitution. ClinVar VCV000012374 has an expert-panel pathogenic germline classification, but a classification, a protein prediction and a measured functional result are different evidence. This notation example does not establish a treatment response.",
+        "For NM_007294.4, BRCA1 c.68_69del removes the two coding bases AG and is also known as 185delAG. ClinVar VCV000017662 records the consequence as p.Glu23fs. In the exercise, 2 is not divisible by 3, so deleting those bases changes the downstream frame. Deleting three coding bases preserves the downstream grouping, but can remove an amino acid, change the codon at the join or introduce a stop. It does not guarantee a working protein; the actual sequence and transcript need checking.",
+        "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+        "MedlinePlus describes many inherited BRCA1 and BRCA2 risk variants as producing a shortened or absent functional product. Frameshift and nonsense examples illustrate ways to disrupt coding information; these examples and their ClinVar entries do not estimate what fraction of all inherited BRCA variants belong to either class. Secondary tumour changes can sometimes restore a BRCA reading frame or repair function. Restoring a frame, demonstrating repair and predicting a clinical drug response remain separate questions.",
+        "The standard table is nearly universal, not universal. Human mitochondria encode 13 proteins and use a different translation table. NCBI table 2 assigns UGA to tryptophan and AUA to methionine, with AGA and AGG as termination signals. A nuclear variant should not be interpreted with that mitochondrial table. A table assignment also differs from demonstrating the release mechanism: Krüger 2023 tested release at AGA and AGG in a reconstituted mitochondrial system, and Wakigawa 2026 studied release-factor specificity in cellular translation experiments.",
+        "Two historical experiments addressed different questions. Crick and colleagues studied bacteriophage genetics in 1961; combinations of three changes could partly restore function when the individual changes did not. The authors argued for a coding ratio of three or a multiple of three, with three more likely, rather than guaranteeing that every three-base deletion is harmless. Nirenberg's 1968 Nobel lecture recounts his work with Matthaei in which synthetic poly-U directed polyphenylalanine synthesis in cell-free E. coli extracts. That connected U-rich RNA with phenylalanine, while UUU is the corresponding codon in the standard table.",
+        "Le and colleagues studied pembrolizumab in 86 people with advanced mismatch-repair-deficient cancers across 12 tumour types in 2017. They reported objective radiographic responses in 46 of 86, or 53%; this is a cohort outcome, not the response chance for any particular frameshift. Detailed mutant-peptide T-cell experiments used one responding person, and the peptides that scored positive came from frameshifts. A genomic frameshift alone does not establish natural peptide presentation, T-cell recognition or clinical benefit."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "neoantigen-candidate-selection",
+      "kind": "term",
+      "name": "Neoantigen candidate selection",
+      "aka": [
+        "neoantigen design board",
+        "neoantigen target selection"
+      ],
+      "tldr": "Choosing vaccine targets means tracking what supports each candidate and which failures they share. More candidates or a better computer score do not by themselves show broader, safer tumour recognition.",
+      "summary": "A neoantigen design board links source alterations, encoded sequence windows, peptide and human leukocyte antigen (HLA) pairs, experimental evidence and unresolved dependencies. It compares a set of candidates for a stated purpose rather than turning one score into proof of a therapeutic target. A source event can generate several peptide windows, so candidate count and independent tumour coverage differ.\n\nThe evidence ladder has separate steps. Tumour-normal sequence comparison can support an alteration, and mutant RNA can support a sampled transcript without proving protein production or processing. A processing or binding prediction is a model result. Recovered HLA-associated peptide supports the sampled preparation without settling cell origin, receptor recognition or safety. A controlled T-cell response supports the tested stimulus; controlled recognition or killing of naturally presenting tumour cells tests a more direct function. Tissue distribution, persistence, safety and clinical benefit still need their own evidence. A suitable clinical comparison estimates benefit for that population, product and setting, without automatic transfer elsewhere.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Wells et al.: task-specific neoantigen prediction and patient-matched immune assays (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+        },
+        {
+          "label": "Sarkizova et al.: mono-allelic presentation data and allele-specific prediction (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31844290/"
+        },
+        {
+          "label": "NetMHCpan-4.1: output tasks and percentile-rank definitions",
+          "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/"
+        },
+        {
+          "label": "Ghorani et al.: retrospective differential-agretopicity evidence (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29361136/"
+        },
+        {
+          "label": "Lindeboom et al.: transcript-context rules for nonsense-mediated decay (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27618451/"
+        },
+        {
+          "label": "Litchfield et al.: frameshift decay escape and bounded immune findings (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32733040/"
+        },
+        {
+          "label": "Cer et al.: assumptions for IC50 and binding-constant conversion (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19395593/"
+        },
+        {
+          "label": "Purcell et al.: HLA-complex capture, peptide release and mass spectrometry (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31092913/"
+        },
+        {
+          "label": "Altman et al.: specified peptide-MHC tetramers identify binding cells (1996)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8810254/"
+        },
+        {
+          "label": "Wykes and Renia: peptide-specific secretion and ELISpot protocol (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34541071/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "neoantigen",
+        "neoantigen-mrna-vaccine",
+        "hla",
+        "hla-typing-and-nomenclature",
+        "hla-loh",
+        "antigen-processing-machinery",
+        "agretopicity",
+        "nonsense-mediated-decay",
+        "vaf",
+        "genetic-code"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Keep the source event, encoded window and processed epitope separate. The conventional T-cell receptor recognises a peptide together with its HLA molecule. One mutation can supply several windows or pairs, and several class-I alleles can share beta-2 microglobulin (B2M) and processing requirements. A fictional row M simply ends an otherwise unchanged protein early, whereas row N shifts the reading frame and creates an altered tail. N supplies a possible altered sequence; M's stop label alone does not. Neither establishes display or recognition. Reconstruct the actual transcript and sequence, and assess transcript-context-dependent decay rather than treating every truncating event alike.",
+        "A fictional board has ten rows, A to J, from nine events. A and B share Event 1 and allele X: A has supported alteration and mutant RNA, while B is another predicted window. C comes from Event 2, also through X, with an HLA-associated peptide identified but cell origin and recognition unresolved. J comes from Event 9 through X and has controlled tumour-cell recognition, leaving healthy-tissue specificity and durability open. These four rows share X despite their different evidence. Extra windows do not independently protect that shared display route.",
+        "The other fictional rows expose different gaps. D comes from Event 3 through allele Y and has a peptide-stimulated response without natural tumour-recognition evidence. E, Event 4 through Y, has a broad estimated cancer-cell fraction but weak RNA support. F, Event 5 through Z, has RNA and display-prediction agreement but may cover a small subclone. G, Event 6, uses class II and has a peptide-responsive helper population; which cells present it and in what context remain questions. H, Event 7 through Y, has a credible tumour-specific sequence but a similar healthy sequence needing specificity tests. I, Event 8 through Z, has a strong rank with limited model support for that allele. No universal clinical A-to-J order follows.",
+        "Re-read that board under two separate fictional reports, assuming X, Y and Z are classical class-I alleles. Loss of X directly challenges A, B, C and J, without establishing failure of Y or Z. A shared B2M-supported class-I display defect instead challenges A to F and H to J. G's class-II route requires separate presenting-cell and helper-response evidence; it is not an established rescue. Each row's original uncertainty remains. Ten windows from one alteration restricted to a lost allele increase the count without restoring that route.",
+        "If only one experiment can run, state which uncertainty it addresses and what either result would mean. Testing D against naturally presenting tumour cells, with appropriate controls, is one defensible choice. A positive connects the response to those tested cells under those conditions. A negative prompts checks of processing, display, cell state and assay adequacy. Neither result estimates patient benefit, and another experiment may be preferable for another stated goal.",
+        "Keep prediction tasks and units visible. Fictional K has a 0.4% eluted-ligand rank and L a predicted competitive-binding half-maximal inhibitory concentration (IC50) of 40 nanomolar (nM). The numerical values cannot rank K against L: one is a reference-relative score and the other an assay-concentration estimate. IC50 is not automatically an equilibrium binding constant. Compare matched outputs for the exact allele and model/version; a percentile is not a probability of benefit. Differential agretopicity compares mutant and normal predictions and inherits their uncertainty, rather than measuring escape from tolerance or natural recognition.",
+        "An estimated cancer-cell fraction is not a photograph of every cell or evidence that a mutation is truncal across all lesions. Purity, local copy number and altered-copy count affect interpretation of the raw variant read fraction. Similarly, a peptide list is a recovered subset with cell, HLA class, time, capture, database and confidence rules attached. Non-detection requires sensitivity context, and artificial peptide loading can bypass a tumour's own processing. State what was actually tested rather than moving a candidate to a later rung by inference.",
+        "A set can double-count correlated windows and correlated model assumptions. Model agreement is not independent validation; a weighted ensemble needs appropriate held-out evaluation for its task, alleles and population. Class-I and class-II choices can support different response components without guaranteeing recognition or overcoming a shared defect. Immunodominance can concentrate a measured response on a few offered targets. Epitope spreading means additional detected recognition beyond the encoded targets; it is not a substitute for a clinical comparison.",
+        "Maintain selection and exclusion reasons, the two sequences in a mutant-normal comparison, exact HLA protein names, specimen and assay context, model versions, manual overrides and the authorised construct version. Record the strongest observed support and the unresolved question beside each candidate. These are evidence-reading and traceability rules, not a validated scoring formula, a compulsory assay sequence or a personal treatment recommendation.",
+        "In a fictional evidence notebook, peptide A is identified in a mixed-tissue HLA preparation, an A-HLA multimer labels blood cells, post-dose cells produce more spots after A stimulation, and a receptor sequence becomes relatively more frequent. Record identification confidence and cell origin for the first result, allele and staining denominator for the second, and background, viability and culture-expansion history for the third. The sequence result neither identifies which cells made the spots nor proves an absolute increase in that receptor-bearing population. Natural recognition of tumour cells has not been tested and remains a visible gap. A controlled positive tumour-cell assay would strengthen that target under the tested conditions while leaving healthy-tissue safety and patient benefit separate.",
+        "Three physical workflows illustrate that separation. Immunopeptidomics can capture HLA-peptide complexes on an antibody-coated support, release connected peptide molecules and identify their sequences by mass spectrometry. A tetramer puts four specified peptide-HLA units on a shared laboratory scaffold to bind sampled T cells; this is not a native four-HLA receptor. In ELISpot, cells incubate over an antibody-coated capture membrane, then cells are removed and the membrane is washed before developed spots are read. Recovered peptides, reagent binding and secretion-associated spots do not by themselves measure tumour killing. Molecular shapes and illustrative spot counts are schematic rather than quantitative biological observations."
+      ],
+      "category": "Immunology"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-11-10",
+  "lessonsPerRef": 19,
+  "sourceVersions": 38,
+  "sectionSignatures": 418,
+  "learningRequirementsOriginal": 217,
+  "learningRequirementsLater": 218,
+  "exactFieldPassages": 330,
+  "workerRowsPreserved": 236,
+  "nonLearningRows": {
+    "metadata": 10,
+    "adjacentOrLegacy": 7,
+    "duplicateRestatement": 1
+  },
+  "canonicalOwners": 22,
+  "newCanonicalIdentities": 5,
+  "figurePathsPerRef": 40,
+  "figureVersionEntries": 80,
+  "publicationIdentitiesScreened": 29,
+  "mainCoverage": 0,
+  "cleanFinalReaudits": 0
+}

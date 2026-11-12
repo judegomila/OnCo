@@ -1,0 +1,1790 @@
+{
+  "version": "proposal-pathology-result-guides-summary-consumers",
+  "state": "Actual short and long selectors; no new canonical IDs or language review",
+  "draft": 375,
+  "committedDataHead": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "records": [
+    {
+      "id": "biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (ar)",
+      "canonicalRecordId": "biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (ar)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-ar",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (ar)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-ar",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (ar)",
+      "canonicalRecordId": "capecitabine",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (ar)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (ar)",
+      "canonicalRecordId": "dcis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ar)",
+      "canonicalRecordId": "er-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-ar",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (ar)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-ar",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (ar)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ar)",
+      "canonicalRecordId": "her2-low",
+      "language": "ar",
+      "available": true,
+      "text": "أورام تحتوي على قدر قليل من HER2 (IHC 1+ أو 2+ دون تضخيم)، أو على أثر ضئيل منه فقط (ultralow)، كانت أدوية HER2 القديمة تتجاهلها لكن Enhertu قادر على مهاجمتها."
+    },
+    {
+      "id": "her2-positive-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ar)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-ar",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (ar)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (ar)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-ar",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (ar)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-ar",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (ar)",
+      "canonicalRecordId": "olaparib",
+      "language": "ar",
+      "available": true,
+      "text": "كان Olaparib أول مثبّط لـ PARP، وحوّل طفرة BRCA الموروثة من عامل خطر إلى هدف دوائي، بما في ذلك بعد الجراحة في سرطان الثدي."
+    },
+    {
+      "id": "pcr-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ar)",
+      "canonicalRecordId": "pcr",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-ar",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (ar)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-ar",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (ar)",
+      "canonicalRecordId": "rcb",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-ar",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (ar)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ar)",
+      "canonicalRecordId": "tils",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ar",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ar)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (ar)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (de)",
+      "canonicalRecordId": "biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (de)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-de",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (de)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-de",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (de)",
+      "canonicalRecordId": "capecitabine",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (de)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-de",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (de)",
+      "canonicalRecordId": "dcis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-de",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (de)",
+      "canonicalRecordId": "er-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-de",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (de)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-de",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (de)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (de)",
+      "canonicalRecordId": "her2-low",
+      "language": "de",
+      "available": true,
+      "text": "Tumoren mit wenig HER2 (IHC 1+ oder 2+ ohne Amplifikation) oder nur einer Spur davon (ultralow), die ältere HER2-Medikamente ignorierten, die Enhertu aber angreifen kann."
+    },
+    {
+      "id": "her2-positive-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (de)",
+      "canonicalRecordId": "her2-positive",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-de",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (de)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-de",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (de)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-de",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (de)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-de",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (de)",
+      "canonicalRecordId": "olaparib",
+      "language": "de",
+      "available": true,
+      "text": "Olaparib war der erste PARP-Inhibitor und verwandelte eine vererbte BRCA-Mutation von einem Risikofaktor in ein Ziel für Medikamente, auch nach der Operation bei Brustkrebs."
+    },
+    {
+      "id": "pcr-de",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (de)",
+      "canonicalRecordId": "pcr",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-de",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (de)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-de",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (de)",
+      "canonicalRecordId": "rcb",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-de",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (de)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (de)",
+      "canonicalRecordId": "tils",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-de",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (de)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (de)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (es)",
+      "canonicalRecordId": "biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (es)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-es",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (es)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-es",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (es)",
+      "canonicalRecordId": "capecitabine",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (es)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-es",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (es)",
+      "canonicalRecordId": "dcis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-es",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (es)",
+      "canonicalRecordId": "er-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-es",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (es)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-es",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (es)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (es)",
+      "canonicalRecordId": "her2-low",
+      "language": "es",
+      "available": true,
+      "text": "Tumores con un poco de HER2 (IHC 1+ o 2+ sin amplificación), o un rastro (ultrabajo), que los fármacos anti-HER2 antiguos ignoraban pero Enhertu puede atacar."
+    },
+    {
+      "id": "her2-positive-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (es)",
+      "canonicalRecordId": "her2-positive",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-es",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (es)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-es",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (es)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-es",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (es)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-es",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (es)",
+      "canonicalRecordId": "olaparib",
+      "language": "es",
+      "available": true,
+      "text": "El primer inhibidor de PARP, que convirtió una mutación heredada de BRCA de factor de riesgo en diana terapéutica, incluso tras la cirugía en cáncer de mama."
+    },
+    {
+      "id": "pcr-es",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (es)",
+      "canonicalRecordId": "pcr",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-es",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (es)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-es",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (es)",
+      "canonicalRecordId": "rcb",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-es",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (es)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (es)",
+      "canonicalRecordId": "tils",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-es",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (es)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (es)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (fr)",
+      "canonicalRecordId": "biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (fr)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-fr",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (fr)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-fr",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (fr)",
+      "canonicalRecordId": "capecitabine",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (fr)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (fr)",
+      "canonicalRecordId": "dcis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (fr)",
+      "canonicalRecordId": "er-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-fr",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (fr)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-fr",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (fr)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (fr)",
+      "canonicalRecordId": "her2-low",
+      "language": "fr",
+      "available": true,
+      "text": "Des tumeurs qui présentent un peu de HER2 (IHC 1+ ou 2+ sans amplification), ou seulement une trace (ultralow), que les anciens médicaments anti-HER2 ignoraient mais qu'Enhertu peut attaquer."
+    },
+    {
+      "id": "her2-positive-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (fr)",
+      "canonicalRecordId": "her2-positive",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-fr",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (fr)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (fr)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-fr",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (fr)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-fr",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (fr)",
+      "canonicalRecordId": "olaparib",
+      "language": "fr",
+      "available": true,
+      "text": "Olaparib a été le premier inhibiteur de PARP et a transformé la mutation BRCA héréditaire d'un facteur de risque en une cible médicamenteuse, y compris après la chirurgie dans le cancer du sein."
+    },
+    {
+      "id": "pcr-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (fr)",
+      "canonicalRecordId": "pcr",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-fr",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (fr)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-fr",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (fr)",
+      "canonicalRecordId": "rcb",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-fr",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (fr)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (fr)",
+      "canonicalRecordId": "tils",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-fr",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (fr)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (fr)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (hi)",
+      "canonicalRecordId": "biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (hi)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-hi",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (hi)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-hi",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (hi)",
+      "canonicalRecordId": "capecitabine",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (hi)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (hi)",
+      "canonicalRecordId": "dcis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (hi)",
+      "canonicalRecordId": "er-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-hi",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (hi)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-hi",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (hi)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (hi)",
+      "canonicalRecordId": "her2-low",
+      "language": "hi",
+      "available": true,
+      "text": "थोड़े HER2 (IHC 1+ या 2+ बिना एम्प्लिफ़िकेशन) या अंश (अल्ट्रालो) वाले ट्यूमर, जिन्हें पुरानी HER2 दवाएँ अनदेखा करती थीं पर Enhertu पर वार कर सकता है।"
+    },
+    {
+      "id": "her2-positive-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (hi)",
+      "canonicalRecordId": "her2-positive",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-hi",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (hi)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (hi)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-hi",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (hi)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-hi",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (hi)",
+      "canonicalRecordId": "olaparib",
+      "language": "hi",
+      "available": true,
+      "text": "पहला PARP अवरोधक, जिसने विरासती BRCA म्यूटेशन को जोखिम कारक से दवा लक्ष्य बना दिया, स्तन कैंसर में सर्जरी के बाद समेत।"
+    },
+    {
+      "id": "pcr-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (hi)",
+      "canonicalRecordId": "pcr",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-hi",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (hi)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-hi",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (hi)",
+      "canonicalRecordId": "rcb",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-hi",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (hi)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (hi)",
+      "canonicalRecordId": "tils",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-hi",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (hi)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (hi)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (ja)",
+      "canonicalRecordId": "biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (ja)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-ja",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (ja)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-ja",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (ja)",
+      "canonicalRecordId": "capecitabine",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (ja)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (ja)",
+      "canonicalRecordId": "dcis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ja)",
+      "canonicalRecordId": "er-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-ja",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (ja)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-ja",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (ja)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ja)",
+      "canonicalRecordId": "her2-low",
+      "language": "ja",
+      "available": true,
+      "text": "HER2がわずかにある腫瘍（増幅のないIHC 1+または2+）や、ごく微量しかない腫瘍（ウルトラロー）。従来のHER2標的薬は対象にしてこなかったが、Enhertuなら攻撃できる。"
+    },
+    {
+      "id": "her2-positive-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ja)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-ja",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (ja)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (ja)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-ja",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (ja)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-ja",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (ja)",
+      "canonicalRecordId": "olaparib",
+      "language": "ja",
+      "available": true,
+      "text": "Olaparibは最初のPARP阻害薬であり、遺伝性のBRCA変異を単なるリスク要因から薬の標的へと変えた。乳がんでは手術後にも使われるようになった。"
+    },
+    {
+      "id": "pcr-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ja)",
+      "canonicalRecordId": "pcr",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-ja",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (ja)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-ja",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (ja)",
+      "canonicalRecordId": "rcb",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-ja",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (ja)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ja)",
+      "canonicalRecordId": "tils",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ja",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ja)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (ja)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (pt)",
+      "canonicalRecordId": "biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (pt)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-pt",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (pt)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-pt",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (pt)",
+      "canonicalRecordId": "capecitabine",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (pt)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (pt)",
+      "canonicalRecordId": "dcis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (pt)",
+      "canonicalRecordId": "er-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-pt",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (pt)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-pt",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (pt)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (pt)",
+      "canonicalRecordId": "her2-low",
+      "language": "pt",
+      "available": true,
+      "text": "Tumores com um pouco de HER2 (IHC 1+ ou 2+ sem amplificação), ou um traço (ultrabaixo), que drogas anti-HER2 antigas ignoravam mas o Enhertu pode atacar."
+    },
+    {
+      "id": "her2-positive-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (pt)",
+      "canonicalRecordId": "her2-positive",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-pt",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (pt)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (pt)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-pt",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (pt)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-pt",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (pt)",
+      "canonicalRecordId": "olaparib",
+      "language": "pt",
+      "available": true,
+      "text": "O primeiro inibidor de PARP, que transformou uma mutação hereditária de BRCA de fator de risco em alvo terapêutico, inclusive após a cirurgia no câncer de mama."
+    },
+    {
+      "id": "pcr-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (pt)",
+      "canonicalRecordId": "pcr",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-pt",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (pt)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-pt",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (pt)",
+      "canonicalRecordId": "rcb",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-pt",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (pt)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (pt)",
+      "canonicalRecordId": "tils",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-pt",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (pt)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (pt)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (zh)",
+      "canonicalRecordId": "biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (zh)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "breast-margins-and-re-excision-zh",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (zh)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-zh",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (zh)",
+      "canonicalRecordId": "capecitabine",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (zh)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (zh)",
+      "canonicalRecordId": "dcis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (zh)",
+      "canonicalRecordId": "er-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-zh",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (zh)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-zh",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (zh)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (zh)",
+      "canonicalRecordId": "her2-low",
+      "language": "zh",
+      "available": true,
+      "text": "带少量HER2（IHC 1+或2+且无扩增）或微量（超低）的肿瘤，旧HER2药物忽视它们，但Enhertu可以攻击。"
+    },
+    {
+      "id": "her2-positive-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (zh)",
+      "canonicalRecordId": "her2-positive",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-zh",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (zh)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (zh)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-zh",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (zh)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-zh",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (zh)",
+      "canonicalRecordId": "olaparib",
+      "language": "zh",
+      "available": true,
+      "text": "首个PARP抑制剂，把遗传性BRCA突变从风险因素变为药物靶点，包括乳腺癌术后使用。"
+    },
+    {
+      "id": "pcr-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (zh)",
+      "canonicalRecordId": "pcr",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-zh",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (zh)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-zh",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (zh)",
+      "canonicalRecordId": "rcb",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-zh",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (zh)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (zh)",
+      "canonicalRecordId": "tils",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-zh",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (zh)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (zh)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (simple)",
+      "canonicalRecordId": "biopsy",
+      "language": "simple",
+      "available": true,
+      "text": "A biopsy collects cells or tissue for examination. Its findings describe the sampled material and collection time."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (simple)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "A biopsy after drug treatment samples parts of the former breast tumour bed. A negative sample can miss remaining cancer and does not by itself establish that surgery can be omitted."
+    },
+    {
+      "id": "breast-margins-and-re-excision-simple",
+      "kind": "reader-summary-entry",
+      "name": "Margins after breast-conserving surgery, and second operations (simple)",
+      "canonicalRecordId": "breast-margins-and-re-excision",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "capecitabine-simple",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (simple)",
+      "canonicalRecordId": "capecitabine",
+      "language": "simple",
+      "available": true,
+      "text": "The body converts capecitabine tablets into fluorouracil. Taking a medicine by mouth does not remove the risk of serious harm."
+    },
+    {
+      "id": "core-needle-biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (simple)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "simple",
+      "available": true,
+      "text": "A core needle takes small cylinders of tissue; a fine needle collects cells or fluid. Each samples a site, so a useful result depends on the question and the material collected."
+    },
+    {
+      "id": "dcis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (simple)",
+      "canonicalRecordId": "dcis",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (simple)",
+      "canonicalRecordId": "er-status",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-simple",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (simple)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "grade-stage-receptor-breast-simple",
+      "kind": "reader-summary-entry",
+      "name": "Grade, stage and receptor status: three different things on one breast report (simple)",
+      "canonicalRecordId": "grade-stage-receptor-breast",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (simple)",
+      "canonicalRecordId": "her2-low",
+      "language": "simple",
+      "available": true,
+      "text": "Tumours with just a little HER2, which older HER2 drugs ignored but Enhertu can attack."
+    },
+    {
+      "id": "her2-positive-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (simple)",
+      "canonicalRecordId": "her2-positive",
+      "language": "simple",
+      "available": true,
+      "text": "HER2-positive breast cancer has an integrated result showing excess HER2 protein or gene amplification under the testing rules. Whether a particular medicine is suitable is a separate question."
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-simple",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (simple)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ki-67-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (simple)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-simple",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (simple)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "olaparib-simple",
+      "kind": "reader-summary-entry",
+      "name": "Olaparib (simple)",
+      "canonicalRecordId": "olaparib",
+      "language": "simple",
+      "available": true,
+      "text": "The first PARP pill. It turned an inherited BRCA fault into a drug target."
+    },
+    {
+      "id": "pcr-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (simple)",
+      "canonicalRecordId": "pcr",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-simple",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (simple)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "simple",
+      "available": true,
+      "text": "CPS compares certain PD-L1-stained tumour and immune cells with viable tumour cells. Its reported score stops at 100, and its use depends on the assay and treatment setting."
+    },
+    {
+      "id": "rcb-simple",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (simple)",
+      "canonicalRecordId": "rcb",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-simple",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (simple)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "simple",
+      "available": true,
+      "text": "Removed tissue is mapped into selected blocks for examination. Its report describes the examined material, rather than every cell in the tumour or body."
+    },
+    {
+      "id": "tils-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (simple)",
+      "canonicalRecordId": "tils",
+      "language": "simple",
+      "available": true,
+      "text": "Tumour-infiltrating lymphocytes are lymphocytes in tumour tissue. Location, cell identity, the measurement denominator and useful function are separate questions."
+    },
+    {
+      "id": "tnm-staging-simple",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (simple)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (simple)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

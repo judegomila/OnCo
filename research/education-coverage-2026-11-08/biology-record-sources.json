@@ -1,0 +1,1402 @@
+{
+  "scope": "Changed definitions/mechanisms and explicit learning requirements; no clinical eligibility/availability recommendation or expert sign-off. Abstract checks are distinct from the targeted raw methods/PDF checks.",
+  "records": [
+    {
+      "recordId": "cell-lineage-and-state",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31974159/",
+          "publicationId": "31974159",
+          "title": "Lineage tracing on transcriptional landscapes links state to fate during differentiation.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "774a1063d65b4cd619f56672ab9cef5bd41835d27c74e56d0b2a740c94de9b5f"
+        },
+        {
+          "url": "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+          "captureId": "www-nigms-nih-gov-biobeat-2024-11-what-are-stem-cells",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2995ba87101f2f7597fdaacc2967dd276727c0535c5f38f71416853d548a39cd"
+        }
+      ]
+    },
+    {
+      "recordId": "epithelium-and-stroma",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+          "captureId": "training-seer-cancer-gov-anatomy-cells-tissues-membranes-tissues-epithelial-html",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2f2e6561f36336aad8ddca5c2d2211f32df379fe21ba41c5ff4fbead67d722da"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+          "publicationId": "37380767",
+          "title": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "a87d5164a8d951d69c64b88c3361de6a8e5558419ba10c351134708f212604f4"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34493872/",
+          "publicationId": "34493872",
+          "title": "A single-cell and spatially resolved atlas of human breast cancers.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "2035ced25103940aa2314a18ecc6cb828553e283f399f811bf41e9ce0ff25405"
+        }
+      ]
+    },
+    {
+      "recordId": "cellular-compartments",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+          "captureId": "openstax-4-3-eukaryotic-cells",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "706499a351a4f016687bbc4aa4bd7a9a7bff8f44b85ba8fc17445e4b18179ab7"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+          "captureId": "openstax-4-4-the-endomembrane-system-and-proteins",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "438ecf4e339bbbaadc9bcd335008d77d0cda44b05b731277719889efffdb9fe5"
+        },
+        {
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+          "captureId": "www-genome-gov-about-genomics-fact-sheets-Deoxyribonucleic-Acid-Fact-Sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "33c0ca22436012a02584a8cafe5a9cf14594676cc351ef3d818edda80b4516c7"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8689682/",
+          "publicationId": "8689682",
+          "title": "Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "1ab94fb72964d7edd54f7d5f7535f3948d3b31c337211ca3ed8fcdb6f1a541aa"
+        }
+      ]
+    },
+    {
+      "recordId": "alleles-and-zygosity",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Allele",
+          "captureId": "www-genome-gov-genetics-glossary-Allele",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "f4a6a19ba4aa4bad46672df3b187f651c35819ff3177ff5a03a89bb99b5f3212"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Heterozygous",
+          "captureId": "www-genome-gov-genetics-glossary-Heterozygous",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "38e09fb27a7fe2e1c6ae5a6567f1cfb9b1b4498fa11b918fd2daeece8c93e1ed"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Homozygous",
+          "captureId": "www-genome-gov-genetics-glossary-Homozygous",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2907f4818f7f646983c7935c43786de3168353401feefd00afe973b486673f39"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/",
+          "publicationId": "34731645",
+          "title": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "ea904b81a9c3ff423bae057f0a48a6c509709021b0058144622812364e3f4b0d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/",
+          "publicationId": "22544022",
+          "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "63c98740af234ea5409648ec9525ddf29dfec12be79a53a25b4d5af4ff6cbbd8"
+        }
+      ]
+    },
+    {
+      "recordId": "epigenetic-marks",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+          "captureId": "www-genome-gov-about-genomics-fact-sheets-Epigenomics-Fact-Sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2afbc51ce0aa1ee6a81d62f60320441b833192db85ed714151dc3ecf9bac3868"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19829295/",
+          "publicationId": "19829295",
+          "title": "Human DNA methylomes at base resolution show widespread epigenomic differences.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "c96d6a4fa6ef04b85ab5d62cd4b9066c4fa9fafd28a1fba44cbdf3c2958cf68d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/",
+          "publicationId": "1542678",
+          "title": "A genomic sequencing protocol that yields a positive display of 5-methylcytosine residues in individual DNA strands.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "0338a9263a74ed46a165f8043f9c9ca0b5344391ee003e3ecf3e5db2e5dc6a0d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24008380/",
+          "publicationId": "24008380",
+          "title": "Oxidative bisulfite sequencing of 5-methylcytosine and 5-hydroxymethylcytosine.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7b0ffc0be08e8a54df94fd40fe4f63aad91eb437cf1bc85924321b6f0265b101"
+        }
+      ]
+    },
+    {
+      "recordId": "nonsense-mediated-decay",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11532962/",
+          "publicationId": "11532962",
+          "title": "The exon-exon junction complex provides a binding platform for factors involved in mRNA export and nonsense-mediated mRNA decay.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "106a7b0b9b90197fa4800c352e2552401761dafdeed37dc47852e878b00b5c19"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12121612/",
+          "publicationId": "12121612",
+          "title": "Translation is required to remove Y14 from mRNAs in the cytoplasm.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "25aab94e498a932ed73ef9c2f232bef741bd87bd5434f22e167807bf05bbdee5"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9671053/",
+          "publicationId": "9671053",
+          "title": "Intron function in the nonsense-mediated decay of beta-globin mRNA: indications that pre-mRNA splicing in the nucleus can influence mRNA translation in the cytoplasm.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "53e998794d19d488dc7089bc179d7b42e84815579d4960b1bc086464248e4d27"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27618451/",
+          "publicationId": "27618451",
+          "title": "The rules and impact of nonsense-mediated mRNA decay in human cancers.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "29b1284b57d0ddf28e4cf2ffa15786d24cf5f3047a8c278d7cf49a7b1bfa3faf"
+        }
+      ]
+    },
+    {
+      "recordId": "vdj-recombination",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8521468/",
+          "publicationId": "8521468",
+          "title": "Cleavage at a V(D)J recombination signal requires only RAG1 and RAG2 proteins and occurs in two steps.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "0e1eb090036aac306d3471072a8af9fce96f335375420071e07b888c334cc02c"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1547488/",
+          "publicationId": "1547488",
+          "title": "RAG-1-deficient mice have no mature B and T lymphocytes.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "18f28854e23326353354b6d8f27342378e8232c936a58eb11440d134551ef5c0"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24600447/",
+          "publicationId": "24600447",
+          "title": "Immunoglobulin and T Cell Receptor Genes: IMGT(\u00ae) and the Birth and Rise of Immunoinformatics.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "701179be25edcf7b650eef744c53535e754cb151a7b9216089e0939711946fd1"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22918122/",
+          "publicationId": "22918122",
+          "title": "EuroClonality/BIOMED-2 guidelines for interpretation and reporting of Ig/TCR clonality testing in suspected lymphoproliferations.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "999d57caca2fe402e03915ddfc013e2c0738d1a93dc7dce56ddd1c3047b164eb"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20139091/",
+          "publicationId": "20139091",
+          "title": "Non-consensus heptamer sequences destabilize the RAG post-cleavage complex, making ends available to alternative DNA repair pathways.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "2cdcb740324073aaa42f412c00e520fcd25977103057a5e69e7f3c0b42897102"
+        }
+      ]
+    },
+    {
+      "recordId": "protein-structure-and-domains",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.ebi.ac.uk/training/online/courses/proteins-domains/domains-motifs-and-regions/",
+          "captureId": "www-ebi-ac-uk-training-online-courses-proteins-domains-domains-motifs-and-regions",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "6384ffac355d348733424b081812bfef80e76d0982cd6fe37037e60e76e36555"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/",
+          "captureId": "www-ebi-ac-uk-training-online-courses-alphafold-inputs-and-outputs-evaluating-alphafolds-predicted-structures-using-confidence-scores",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "a1e75fd8220b138c59b14e065a9a5374788cd64961acc3c56e20269b77179e26"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+          "captureId": "openstax-protein",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5024620f11ecbd6b5eaae3dc3e9935b97eb513abffd71f74bb03d18d02c3441c"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/",
+          "captureId": "embl-plddt-understanding-local-confidence",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "bec7bd4a4f32be913203d6ef2d4bcfda1d03c2901134bc2970f135b4aab1011b"
+        },
+        {
+          "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/pae-a-measure-of-global-confidence-in-alphafold-predictions/",
+          "captureId": "embl-pae-a-measure-of-global-confidence-in-alphafold-predictions",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "4608a94a60657b1a9b924238c8d1455fda436d3e2c4c43729290b5ac27ace7f8"
+        }
+      ]
+    },
+    {
+      "recordId": "binding-affinity-and-kinetics",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31453222/",
+          "publicationId": "31453222",
+          "title": "A guide to simple, direct, and quantitative in vitro binding assays.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "22beff3c03cc71b67d93d5cf5c16e5a087ecdfcbddfe14b9a06f6ca4fcf92fd2"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6141562/",
+          "publicationId": "6141562",
+          "title": "Operational models of pharmacological agonism.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "4f0fd7087e2d4a9c90c4b72c934e58997b622afb0f1e7cf632561ed5bf17df97"
+        },
+        {
+          "url": "https://iupac.qmul.ac.uk/medchem/ah.html",
+          "captureId": "iupac-qmul-ac-uk-medchem-ah-html",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "d11ca7c508cb5cdf2acc83d56c8596807bafc28e65aded0e415690130f29a0f5"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "captureId": "openstax-6-5-enzymes",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "51820c5d058abd6ffd7c7b8da012f1743055f085d1efa280db699e03c776ac30"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17146042/",
+          "publicationId": "17146042",
+          "title": "A simple classroom teaching technique to help students understand Michaelis-Menten kinetics.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "6f7fd513f9864eb448a406e2cebd44e3986147a97db09cd22e5a5b46eecb0b48"
+        }
+      ]
+    },
+    {
+      "recordId": "feedback-and-feedforward",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17310240/",
+          "publicationId": "17310240",
+          "title": "Growth factor-induced MAPK network topology shapes Erk response determining PC-12 cell fate.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7dc68c988137a42e862d5ab740d189d2b891b593ba9939375157d8fa4158abe3"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16452206/",
+          "publicationId": "16452206",
+          "title": "mTOR inhibition induces upstream receptor tyrosine kinase signaling and activates Akt.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "17c9b3b0da43e585f12b23bad8483889472cea2a06ed9a1597d17c495620bcbf"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14530388/",
+          "publicationId": "14530388",
+          "title": "Structure and function of the feed-forward loop network motif.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "2eedc19f3ead4a0b0ba6145cf187a0a3e144fdd719d172dfeba7950bff39205d"
+        }
+      ]
+    },
+    {
+      "recordId": "receptor-reserve",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6141562/",
+          "publicationId": "6141562",
+          "title": "Operational models of pharmacological agonism.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "4f0fd7087e2d4a9c90c4b72c934e58997b622afb0f1e7cf632561ed5bf17df97"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31244653/",
+          "publicationId": "31244653",
+          "title": "A Receptor Model With Binding Affinity, Activation Efficacy, and Signal Amplification Parameters for Complex Fractional Response Versus Occupancy Data.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "cc405480777224153478ff4add6687ef72ce95eb0754d44d7f1704082021ec10"
+        }
+      ]
+    },
+    {
+      "recordId": "biased-agonism",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24434717/",
+          "publicationId": "24434717",
+          "title": "Estimation of ligand affinity constants for receptor states in functional studies involving the allosteric modulation of G protein-coupled receptors: implications for ligand bias.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "a22d45f001d18843f482fcde86cacdd4fc0de0004dc9319b16ddcbc1801194d6"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27725245/",
+          "publicationId": "27725245",
+          "title": "Estimation of the receptor-state affinity constants of ligands in functional studies using wild type and constitutively active mutant receptors: Implications for estimation of agonist bias.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "52ee9d4383d2ae36edd9b6df4a0f5891e09dff8816e961de5eea871a2317d52a"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31244653/",
+          "publicationId": "31244653",
+          "title": "A Receptor Model With Binding Affinity, Activation Efficacy, and Signal Amplification Parameters for Complex Fractional Response Versus Occupancy Data.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "cc405480777224153478ff4add6687ef72ce95eb0754d44d7f1704082021ec10"
+        }
+      ]
+    },
+    {
+      "recordId": "gene-regulatory-elements",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Promoter",
+          "captureId": "www-genome-gov-genetics-glossary-Promoter",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "cb02a454b8604a505ed955bb27b009a4753fc5e63135776be6fd0d1040866d51"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+          "captureId": "openstax-16-4-eukaryotic-transcription-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "22bb26aeaea94e65e039b8cbe4885c81014a4ed9d3c00a63a4022874235fa321"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29425488/",
+          "publicationId": "29425488",
+          "title": "The Human Transcription Factors.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7b18559a207e9603aa9e8acffe968cff0f38ba06f0f77bfc5f91fe8964ae33c7"
+        }
+      ]
+    },
+    {
+      "recordId": "central-dogma-information-flow",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet",
+          "captureId": "www-genome-gov-about-genomics-educational-resources-fact-sheets-ribonucleic-acid-fact-sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "89995b204e70c34a7c396dfb7711e5672bccc3ab8980b3424584d685d2125e2a"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Codon",
+          "captureId": "www-genome-gov-genetics-glossary-Codon",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5fe797e9b3f2d42f69e07c05edef91e91447588c862c2c61a50e8b98643718c4"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Transcription",
+          "captureId": "www-genome-gov-genetics-glossary-Transcription",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "400883fbf078bd0a8fcf93e1fb905a56ed1d1442b7099c6fb3b6cff32882bdb2"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+          "captureId": "openstax-16-1-regulation-of-gene-expression",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "8c12fcebecf386797371cd8fed80d28613f0ee4cb60d0d12906ea0ed8543d469"
+        }
+      ]
+    },
+    {
+      "recordId": "cell-membrane",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cell_membrane",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+          "captureId": "openstax-5-1-components-and-structure",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "0cea59e2f1136ee9914141e2d86ee8686144741040c5d61f6f4a805ad0dc8bdc"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+          "captureId": "openstax-5-2-passive-transport",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "629c2f2cb22f8b540b1e0e15cc4240b5a16212d7c0fa286395334df308d3a0c3"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+          "captureId": "openstax-5-3-active-transport",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2cde31c60e4a4b4b1dcc9d2cdf7a7f893fe6cae7d2dd294100612d4d04eefc37"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+          "captureId": "openstax-5-4-bulk-transport",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5411e314d89033a8f720519a0640ae68934620b32d610f827831a3bd11761e86"
+        }
+      ]
+    },
+    {
+      "recordId": "cell-cycle",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cell_cycle",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+          "captureId": "openstax-10-2-the-cell-cycle",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "af5bb01d99dff15a6c176dedf3f8f8dc1cbc475e34717ff9f7423cf82a9444af"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+          "captureId": "openstax-org-books-biology-2e-pages-10-3-control-of-the-cell-cycle",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "f1ed80b35c75dd52190d824befc256ffb3ef17604632bef403782978452cba1f"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26131851/",
+          "publicationId": "26131851",
+          "title": "Assaying Cell Cycle Status Using Flow Cytometry.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "dc4ab400b708dfecc74f46836b4045a939c6a555a5fd0bbef232e032f4324796"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11746105/",
+          "publicationId": "11746105",
+          "title": "Doublet discrimination in DNA cell-cycle analysis.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "5389c00dc5ddd5f8228669964d278b322a26ea799da7a3512bb241e78d37f227"
+        }
+      ]
+    },
+    {
+      "recordId": "cell-division",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cell_division",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+          "captureId": "openstax-10-2-the-cell-cycle",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "af5bb01d99dff15a6c176dedf3f8f8dc1cbc475e34717ff9f7423cf82a9444af"
+        },
+        {
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+          "captureId": "www-cancer-gov-about-cancer-treatment-types-chemotherapy",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "35f8bc1bd71bf718b9996f929e37a35db9c6e4beacb79d45ee2a5782368b3437"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27894788/",
+          "publicationId": "27894788",
+          "title": "Neurotoxic mechanisms of paclitaxel are local to the distal axon and independent of transport defects.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "bf18e7fd72d6bf40a9af9ac8326571abe2d754ce0f0bd6ab5d60dc4bdbcd1c7e"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26131851/",
+          "publicationId": "26131851",
+          "title": "Assaying Cell Cycle Status Using Flow Cytometry.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "dc4ab400b708dfecc74f46836b4045a939c6a555a5fd0bbef232e032f4324796"
+        }
+      ]
+    },
+    {
+      "recordId": "differentiation",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cellular_differentiation",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+          "captureId": "www-nigms-nih-gov-biobeat-2024-11-what-are-stem-cells",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2995ba87101f2f7597fdaacc2967dd276727c0535c5f38f71416853d548a39cd"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31974159/",
+          "publicationId": "31974159",
+          "title": "Lineage tracing on transcriptional landscapes links state to fate during differentiation.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "774a1063d65b4cd619f56672ab9cef5bd41835d27c74e56d0b2a740c94de9b5f"
+        }
+      ]
+    },
+    {
+      "recordId": "emt",
+      "kind": "pathway",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Epithelial\u2013mesenchymal_transition",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32300252/",
+          "publicationId": "32300252",
+          "title": "Guidelines and definitions for research on epithelial-mesenchymal transition.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "d727f2687244292ad3cd9e2f924a689d98ffb0653d0b4c866fff125fc635b2ab"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29670281/",
+          "publicationId": "29670281",
+          "title": "Identification of the tumour transition states occurring during EMT.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "0c258204db7923e9a237086982ef38bd98a4fa332670a57637eb3fd27ddd7e37"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26560033/",
+          "publicationId": "26560033",
+          "title": "Epithelial-to-mesenchymal transition is not required for lung metastasis but contributes to chemoresistance.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "9e34c89c16e0dee52e47369899781f72c2b2717c9257900d5540f4c21f55aa80"
+        }
+      ]
+    },
+    {
+      "recordId": "germline-vs-somatic",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Germline_mutation",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+          "captureId": "medlineplus-gov-genetics-understanding-mutationsanddisorders-genemutation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "39167285d7b7fe801d081968b5b2ca562d161bdc77b8d58a14bbd76f64c45819"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Mosaicism",
+          "captureId": "www-genome-gov-genetics-glossary-Mosaicism",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "6a29980357fdcd7d5f7a782e0ebab7e63b40d758f3037431bb0d0014c6cbd85d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/",
+          "publicationId": "25877891",
+          "title": "Personalized genomic analyses for cancer mutation discovery and interpretation.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "26c8fc3023bc7124cca97158a09d7d28907d8694fdda8abb8b8953a213cc3037"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+          "publicationId": "31768066",
+          "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "070eb3eeea34dddd10f7c3f50ae15b6f1d525902ebf7f6e6266a330d9fd6c6c1"
+        },
+        {
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+          "captureId": "nci-hereditary-testing",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "29d074199bb50284b322f8c9ba348115e3419aa311249418fdf75fe1ebfabc39"
+        }
+      ]
+    },
+    {
+      "recordId": "dna-term",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/DNA",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+          "captureId": "www-genome-gov-about-genomics-fact-sheets-Deoxyribonucleic-Acid-Fact-Sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "33c0ca22436012a02584a8cafe5a9cf14594676cc351ef3d818edda80b4516c7"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Chromatin",
+          "captureId": "www-genome-gov-genetics-glossary-Chromatin",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "0b694273f5a4aa8d15adee0b53675a56184bfad9383203984131562379219eb7"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Transcription",
+          "captureId": "www-genome-gov-genetics-glossary-Transcription",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "400883fbf078bd0a8fcf93e1fb905a56ed1d1442b7099c6fb3b6cff32882bdb2"
+        }
+      ]
+    },
+    {
+      "recordId": "rna",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/RNA",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet",
+          "captureId": "www-genome-gov-about-genomics-educational-resources-fact-sheets-ribonucleic-acid-fact-sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "89995b204e70c34a7c396dfb7711e5672bccc3ab8980b3424584d685d2125e2a"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Codon",
+          "captureId": "www-genome-gov-genetics-glossary-Codon",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5fe797e9b3f2d42f69e07c05edef91e91447588c862c2c61a50e8b98643718c4"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+          "captureId": "openstax-16-1-regulation-of-gene-expression",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "8c12fcebecf386797371cd8fed80d28613f0ee4cb60d0d12906ea0ed8543d469"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "captureId": "openstax-16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "10995b9a89f69559febdbee11d29e636d69c6234890db9e1db9e57305dfb04ef"
+        }
+      ]
+    },
+    {
+      "recordId": "gene",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gene",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Gene",
+          "captureId": "www-genome-gov-genetics-glossary-Gene",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "d1ed19631257801c94e5fb1b50d0a1778493ec756cac024a8f038aa3bbe1c48b"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Exon",
+          "captureId": "www-genome-gov-genetics-glossary-Exon",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "697d74544efd243b4d99521e44c03f7f01c59e30f9cab2a8ce06b445228bce93"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Intron",
+          "captureId": "www-genome-gov-genetics-glossary-Intron",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "14c8988c1b92081c42680d7779d21393e7b38d684c954d8cd158787fe2d78584"
+        },
+        {
+          "url": "https://hgvs-nomenclature.org/stable/background/refseq/",
+          "captureId": "hgvs-nomenclature-org-stable-background-refseq",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "0df4eca86cafd49fdc47c42e77cfb3dc9232cc539ef737e12897bfc0266f5606"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "captureId": "openstax-16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "10995b9a89f69559febdbee11d29e636d69c6234890db9e1db9e57305dfb04ef"
+        }
+      ]
+    },
+    {
+      "recordId": "protein",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Protein",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Protein",
+          "captureId": "www-genome-gov-genetics-glossary-Protein",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "0ba03cbc5bc7df23c24a55b3a2b3df5bce4ff0a8040bcdf6b76c02e9d89a29de"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+          "captureId": "openstax-protein",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5024620f11ecbd6b5eaae3dc3e9935b97eb513abffd71f74bb03d18d02c3441c"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+          "captureId": "openstax-16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "984ef47399b1077e3c0e35cd3f542330dc9c9bc811b7d85b6be7c4eb82e93785"
+        }
+      ]
+    },
+    {
+      "recordId": "enzyme",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Enzyme",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "captureId": "openstax-6-5-enzymes",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "51820c5d058abd6ffd7c7b8da012f1743055f085d1efa280db699e03c776ac30"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31453222/",
+          "publicationId": "31453222",
+          "title": "A guide to simple, direct, and quantitative in vitro binding assays.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "22beff3c03cc71b67d93d5cf5c16e5a087ecdfcbddfe14b9a06f6ca4fcf92fd2"
+        },
+        {
+          "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet",
+          "captureId": "www-genome-gov-about-genomics-educational-resources-fact-sheets-ribonucleic-acid-fact-sheet",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "89995b204e70c34a7c396dfb7711e5672bccc3ab8980b3424584d685d2125e2a"
+        }
+      ]
+    },
+    {
+      "recordId": "gene-expression",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gene_expression",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Promoter",
+          "captureId": "www-genome-gov-genetics-glossary-Promoter",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "cb02a454b8604a505ed955bb27b009a4753fc5e63135776be6fd0d1040866d51"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Transcription",
+          "captureId": "www-genome-gov-genetics-glossary-Transcription",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "400883fbf078bd0a8fcf93e1fb905a56ed1d1442b7099c6fb3b6cff32882bdb2"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Codon",
+          "captureId": "www-genome-gov-genetics-glossary-Codon",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "5fe797e9b3f2d42f69e07c05edef91e91447588c862c2c61a50e8b98643718c4"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+          "captureId": "openstax-16-1-regulation-of-gene-expression",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "8c12fcebecf386797371cd8fed80d28613f0ee4cb60d0d12906ea0ed8543d469"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+          "captureId": "openstax-16-4-eukaryotic-transcription-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "22bb26aeaea94e65e039b8cbe4885c81014a4ed9d3c00a63a4022874235fa321"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29425488/",
+          "publicationId": "29425488",
+          "title": "The Human Transcription Factors.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7b18559a207e9603aa9e8acffe968cff0f38ba06f0f77bfc5f91fe8964ae33c7"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25581432/",
+          "publicationId": "25581432",
+          "title": "Gene expression analysis identifies global gene dosage sensitivity in cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "f7aec3d24bae39ca74a9f2125a20fe6b17542b0fab6963c4c833367545112be8"
+        }
+      ]
+    },
+    {
+      "recordId": "rna-splicing",
+      "kind": "pathway",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/s41568-022-00541-7",
+          "publicationId": "36627445",
+          "title": "RNA splicing dysregulation and the hallmarks of cancer.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "1ec33e6683661a0436d87e272297f88b8a19c6ae130a7f484f2de9b64628af20"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Exon",
+          "captureId": "www-genome-gov-genetics-glossary-Exon",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "697d74544efd243b4d99521e44c03f7f01c59e30f9cab2a8ce06b445228bce93"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Intron",
+          "captureId": "www-genome-gov-genetics-glossary-Intron",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "14c8988c1b92081c42680d7779d21393e7b38d684c954d8cd158787fe2d78584"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "captureId": "openstax-16-5-eukaryotic-post-transcriptional-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "10995b9a89f69559febdbee11d29e636d69c6234890db9e1db9e57305dfb04ef"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9671053/",
+          "publicationId": "9671053",
+          "title": "Intron function in the nonsense-mediated decay of beta-globin mRNA: indications that pre-mRNA splicing in the nucleus can influence mRNA translation in the cytoplasm.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "53e998794d19d488dc7089bc179d7b42e84815579d4960b1bc086464248e4d27"
+        },
+        {
+          "url": "https://hgvs-nomenclature.org/stable/background/refseq/",
+          "captureId": "hgvs-nomenclature-org-stable-background-refseq",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "0df4eca86cafd49fdc47c42e77cfb3dc9232cc539ef737e12897bfc0266f5606"
+        }
+      ]
+    },
+    {
+      "recordId": "mutation",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Mutation",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Mutation",
+          "captureId": "www-genome-gov-genetics-glossary-Mutation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "2976e5d32a8969cc0159451425d210f79a367a34ce6720b73d92f5c564a2baea"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Copy-Number-Variation-CNV",
+          "captureId": "www-genome-gov-genetics-glossary-Copy-Number-Variation-CNV",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "6002c83a2711fbda2417bd81da1a116445f0e556d1efc7826a6198e74ddb7bf1"
+        },
+        {
+          "url": "https://www.genome.gov/genetics-glossary/Structural-Variation",
+          "captureId": "www-genome-gov-genetics-glossary-Structural-Variation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "264393cd2532b49ae60e219edad937d2610bc68b98f05d5a2c801bb6a08accff"
+        },
+        {
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/general/",
+          "captureId": "hgvs-nomenclature-org-stable-recommendations-general",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "f5bffb9cab0b946dc1b203ccd1209baafcb616b482771d1ebf28304adb4d0ce7"
+        },
+        {
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/",
+          "captureId": "hgvs-nomenclature-org-stable-recommendations-protein-frameshift",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "a7d5581e88d83bed6012500dead8463545f1abd24f7f59883ca2d39317768fe3"
+        }
+      ]
+    },
+    {
+      "recordId": "ligand",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Ligand_(biochemistry)",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+          "captureId": "openstax-9-1-signaling-molecules-and-cellular-receptors",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "96d0ae445741144ce5ee3f0ff19ec61f01fc1009ce8d4321df08e783806cbc45"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/",
+          "publicationId": "16777603",
+          "title": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "8cd806f0be3cd2c8d4403a55be5c2687b4573a6d55be1ae9715f548b9a7422c2"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11015443/",
+          "publicationId": "11015443",
+          "title": "Engagement of the PD-1 immunoinhibitory receptor by a novel B7 family member leads to negative regulation of lymphocyte activation.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "5417d2d3cee48f35a1ae3ec78f60d09aef0d6783989707cc25265cc3e28736f1"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10593948/",
+          "publicationId": "10593948",
+          "title": "Fibroblast activation protein, a dual specificity serine protease expressed in reactive human tumor stromal fibroblasts.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "0424b77d585f0a107e7bda4cac3420982b02792c9c751bc8a52b7e829c8ceb90"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3690665/",
+          "publicationId": "3690665",
+          "title": "Functional domains of the human estrogen receptor.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "06d234a41f7a52b9cfb56110cffa7690b7b257b8ff6d39160f91e07485e36d7f"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9407067/",
+          "publicationId": "9407067",
+          "title": "Mapping and characterization of the functional domains responsible for the differential activity of the A and B isoforms of the human progesterone receptor.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "85599fe05f01f33a130afb55e28914e00871c921b674c9d464e89bf942d61992"
+        }
+      ]
+    },
+    {
+      "recordId": "receptor",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Receptor_(biochemistry)",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+          "captureId": "openstax-9-1-signaling-molecules-and-cellular-receptors",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "96d0ae445741144ce5ee3f0ff19ec61f01fc1009ce8d4321df08e783806cbc45"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9973260/",
+          "publicationId": "9973260",
+          "title": "Cell membrane and nuclear estrogen receptors (ERs) originate from a single transcript: studies of ERalpha and ERbeta expressed in Chinese hamster ovary cells.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "d718b73e4a49a0b47852bdd2be130908d6b59239fb1cd319f22ae4fb00b1235b"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6141562/",
+          "publicationId": "6141562",
+          "title": "Operational models of pharmacological agonism.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "4f0fd7087e2d4a9c90c4b72c934e58997b622afb0f1e7cf632561ed5bf17df97"
+        }
+      ]
+    },
+    {
+      "recordId": "agonist-antagonist",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Agonist",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://iupac.qmul.ac.uk/medchem/ah.html",
+          "captureId": "iupac-qmul-ac-uk-medchem-ah-html",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "d11ca7c508cb5cdf2acc83d56c8596807bafc28e65aded0e415690130f29a0f5"
+        },
+        {
+          "url": "https://iupac.qmul.ac.uk/medchem/ix.html",
+          "captureId": "iupac-qmul-ac-uk-medchem-ix-html",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "ddd237e6e94849e73207f7ac4ce7fbdcdf37622b3b87d69e079fc77cf8ad9198"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7908406/",
+          "publicationId": "7908406",
+          "title": "Inverse agonist activity of beta-adrenergic antagonists.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "4855534d64f1fff99384e4c501e524a7cb1f0ccd58daf170e15e67551901afb9"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6141562/",
+          "publicationId": "6141562",
+          "title": "Operational models of pharmacological agonism.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "4f0fd7087e2d4a9c90c4b72c934e58997b622afb0f1e7cf632561ed5bf17df97"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14657418/",
+          "publicationId": "14657418",
+          "title": "International Union of Pharmacology Committee on Receptor Nomenclature and Drug Classification. XXXVIII. Update on terms and symbols in quantitative pharmacology.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7cc0a5033a78a89c4be81f207daf0dc50fbc0639da3f8e4c8b12dde1c52574bb"
+        }
+      ]
+    },
+    {
+      "recordId": "signalling-pathway",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Signal_transduction",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+          "captureId": "openstax-9-2-propagation-of-the-signal",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "dca57ed29faead5dafdb637f2df6db4a370bbe1b4fac836f93b6c0e8911c2c42"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17310240/",
+          "publicationId": "17310240",
+          "title": "Growth factor-induced MAPK network topology shapes Erk response determining PC-12 cell fate.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7dc68c988137a42e862d5ab740d189d2b891b593ba9939375157d8fa4158abe3"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/",
+          "publicationId": "16777603",
+          "title": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "8cd806f0be3cd2c8d4403a55be5c2687b4573a6d55be1ae9715f548b9a7422c2"
+        }
+      ]
+    },
+    {
+      "recordId": "kinase",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Kinase",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+          "captureId": "openstax-9-2-propagation-of-the-signal",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "dca57ed29faead5dafdb637f2df6db4a370bbe1b4fac836f93b6c0e8911c2c42"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+          "captureId": "openstax-6-5-enzymes",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "51820c5d058abd6ffd7c7b8da012f1743055f085d1efa280db699e03c776ac30"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/",
+          "publicationId": "16777603",
+          "title": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "8cd806f0be3cd2c8d4403a55be5c2687b4573a6d55be1ae9715f548b9a7422c2"
+        }
+      ]
+    },
+    {
+      "recordId": "phosphorylation",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Protein_phosphorylation",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+          "captureId": "openstax-9-2-propagation-of-the-signal",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "dca57ed29faead5dafdb637f2df6db4a370bbe1b4fac836f93b6c0e8911c2c42"
+        },
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+          "captureId": "openstax-16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+          "verification": "scoped raw source check completed",
+          "rawSha256": "984ef47399b1077e3c0e35cd3f542330dc9c9bc811b7d85b6be7c4eb82e93785"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2432403/",
+          "publicationId": "2432403",
+          "title": "Dephosphorylation or antibody binding to the carboxy terminus stimulates pp60c-src.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "57cb52becc7656b37a2de9677f816f2ebae7e486f4a943ee986ccb6edacbe018"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24719451/",
+          "publicationId": "24719451",
+          "title": "Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "371848586595a4afe86a4e66f2a78ed829674b3bf152c5d5ee639a7772ec20ee"
+        }
+      ]
+    },
+    {
+      "recordId": "pathway-activation-state",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Phosphoproteomics",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2432403/",
+          "publicationId": "2432403",
+          "title": "Dephosphorylation or antibody binding to the carboxy terminus stimulates pp60c-src.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "57cb52becc7656b37a2de9677f816f2ebae7e486f4a943ee986ccb6edacbe018"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24719451/",
+          "publicationId": "24719451",
+          "title": "Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "371848586595a4afe86a4e66f2a78ed829674b3bf152c5d5ee639a7772ec20ee"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17310240/",
+          "publicationId": "17310240",
+          "title": "Growth factor-induced MAPK network topology shapes Erk response determining PC-12 cell fate.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7dc68c988137a42e862d5ab740d189d2b891b593ba9939375157d8fa4158abe3"
+        }
+      ]
+    },
+    {
+      "recordId": "vaf",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.jmoldx.2016.10.002",
+          "publicationId": "27993330",
+          "title": "Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer: A Joint Consensus Recommendation of the Association for Molecular Pathology, American Society of Clinical Oncology, and College of American Pathologists.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "dc14ab5ec2b1a5eceaaa726bee4a770f209af0a6e9c2eb2cf101b92f8428a3e2"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/",
+          "publicationId": "22544022",
+          "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "63c98740af234ea5409648ec9525ddf29dfec12be79a53a25b4d5af4ff6cbbd8"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/",
+          "publicationId": "34731645",
+          "title": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "ea904b81a9c3ff423bae057f0a48a6c509709021b0058144622812364e3f4b0d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+          "publicationId": "31768066",
+          "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "070eb3eeea34dddd10f7c3f50ae15b6f1d525902ebf7f6e6266a330d9fd6c6c1"
+        }
+      ]
+    },
+    {
+      "recordId": "genome-wide-loss-of-heterozygosity",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1200/po.18.00283",
+          "publicationId": "31218271",
+          "title": "Prospective Comprehensive Genomic Profiling of Primary and Metastatic Prostate Tumors.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "5ef9570b54b081fe74f6dde93ba7fb6a5495839f7b4c05952d1117a693d2673b"
+        },
+        {
+          "url": "https://doi.org/10.1200/po.19.00345",
+          "publicationId": "32903788",
+          "title": "Pan-Cancer Analysis of &lt;i&gt;BRCA1&lt;/i&gt; and &lt;i&gt;BRCA2&lt;/i&gt; Genomic Alterations and Their Association With Genomic Instability as Measured by Genome-Wide Loss of Heterozygosity.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "3414702eb6c3a2d1a5fb8d62e408d76f15c36b2572a029d17e7c644634ccfba8"
+        },
+        {
+          "url": "https://doi.org/10.1158/1078-0432.ccr-21-2096",
+          "publicationId": "34740923",
+          "title": "Pan-cancer Analysis of Homologous Recombination Repair-associated Gene Alterations and Genome-wide Loss-of-Heterozygosity Score.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "1fa2698af84c53e009f7568403352cde4ad89e48f93e79959dfbe76057430397"
+        },
+        {
+          "url": "https://doi.org/10.1016/s1470-2045(16)30559-9",
+          "publicationId": "27908594",
+          "title": "Rucaparib in relapsed, platinum-sensitive high-grade ovarian carcinoma (ARIEL2 Part 1): an international, multicentre, open-label, phase 2 trial.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "656f5bc69a3ce55132f0c26949803e60b168c3c184e64665e85000e68603888e"
+        },
+        {
+          "url": "https://doi.org/10.1200/jco.20.01035",
+          "publicationId": "32795228",
+          "title": "Rucaparib in Men With Metastatic Castration-Resistant Prostate Cancer Harboring a BRCA1 or BRCA2 Gene Alteration.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "0eccc2b4d0b6872a4f62f69f14a4cc4da52e74890e8251c0ee9249b5d6ded601"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/",
+          "publicationId": "34731645",
+          "title": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "ea904b81a9c3ff423bae057f0a48a6c509709021b0058144622812364e3f4b0d"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/",
+          "publicationId": "22544022",
+          "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "63c98740af234ea5409648ec9525ddf29dfec12be79a53a25b4d5af4ff6cbbd8"
+        }
+      ]
+    },
+    {
+      "recordId": "gene-amplification",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Gene_duplication",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/",
+          "publicationId": "22544022",
+          "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "63c98740af234ea5409648ec9525ddf29dfec12be79a53a25b4d5af4ff6cbbd8"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25581432/",
+          "publicationId": "25581432",
+          "title": "Gene expression analysis identifies global gene dosage sensitivity in cancer.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "f7aec3d24bae39ca74a9f2125a20fe6b17542b0fab6963c4c833367545112be8"
+        }
+      ]
+    },
+    {
+      "recordId": "clonality-testing",
+      "kind": "technology",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/sj.leu.2403202",
+          "publicationId": "14671650",
+          "title": "Design and standardization of PCR primers and protocols for detection of clonal immunoglobulin and T-cell receptor gene recombinations in suspect lymphoproliferations: report of the BIOMED-2 Concerted Action BMH4-CT98-3936.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "d203e6db780e5948da8fed69cf69a654e9d9804b0a32f127ad71fad9745810df"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22918122/",
+          "publicationId": "22918122",
+          "title": "EuroClonality/BIOMED-2 guidelines for interpretation and reporting of Ig/TCR clonality testing in suspected lymphoproliferations.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "999d57caca2fe402e03915ddfc013e2c0738d1a93dc7dce56ddd1c3047b164eb"
+        }
+      ]
+    },
+    {
+      "recordId": "ig-tcr-clonality",
+      "kind": "biomarker",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/sj.leu.2403202",
+          "publicationId": "14671650",
+          "title": "Design and standardization of PCR primers and protocols for detection of clonal immunoglobulin and T-cell receptor gene recombinations in suspect lymphoproliferations: report of the BIOMED-2 Concerted Action BMH4-CT98-3936.",
+          "verification": "retained DOI independently resolved and abstract read",
+          "rawResponseSha256": "d203e6db780e5948da8fed69cf69a654e9d9804b0a32f127ad71fad9745810df"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22918122/",
+          "publicationId": "22918122",
+          "title": "EuroClonality/BIOMED-2 guidelines for interpretation and reporting of Ig/TCR clonality testing in suspected lymphoproliferations.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "999d57caca2fe402e03915ddfc013e2c0738d1a93dc7dce56ddd1c3047b164eb"
+        }
+      ]
+    },
+    {
+      "recordId": "methylation-arrays",
+      "kind": "term",
+      "asOf": "2026-11-08",
+      "sources": [
+        {
+          "url": "https://en.wikipedia.org/wiki/DNA_methylation",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Illumina_Methylation_Assay",
+          "verification": "pre-existing contextual link retained; not newly certified"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24008380/",
+          "publicationId": "24008380",
+          "title": "Oxidative bisulfite sequencing of 5-methylcytosine and 5-hydroxymethylcytosine.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "7b0ffc0be08e8a54df94fd40fe4f63aad91eb437cf1bc85924321b6f0265b101"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/",
+          "publicationId": "1542678",
+          "title": "A genomic sequencing protocol that yields a positive display of 5-methylcytosine residues in individual DNA strands.",
+          "verification": "independent MED identity and abstract read",
+          "rawResponseSha256": "0338a9263a74ed46a165f8043f9c9ca0b5344391ee003e3ecf3e5db2e5dc6a0d"
+        }
+      ]
+    }
+  ]
+}

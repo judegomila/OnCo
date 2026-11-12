@@ -1,0 +1,1863 @@
+{
+  "dataCommit": "de53831915247c76e4fe4bb384393bacc8f40265",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 3.29
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 28.65
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.9
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 305.17
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "initialGateFindings": {
+    "attempt": 1,
+    "findings": [
+      {
+        "test": "animated-wave8",
+        "cause": "New technology lacked an explicit source-appropriate schematic.",
+        "fix": "Uses the existing static PET detector geometry with a granzyme-tracer-distribution label; no antibody or FDG-specific animation is reused."
+      },
+      {
+        "test": "WhatIsBeingDone",
+        "cause": "The revised MRI lead omitted its source-supported screening application and no longer matched the existing topic selector.",
+        "fix": "Retains the selected high-risk breast-screening application supported by the read official text; selector and floor unchanged."
+      },
+      {
+        "test": "simple",
+        "cause": "Two updated Simple English entries increased the overlong-entry count.",
+        "fix": "Shorten all seven touched entries below 200 characters; budget unchanged."
+      }
+    ],
+    "noThresholdOrTestChanges": true
+  },
+  "postSuiteWhitespaceAdjustment": {
+    "file": "src/data/technologies.ts",
+    "beforeSha256": "5d4f49466d52cdf18dfe623ba0115d0a65e76911b3bc2bc4026ab14dc2c2d97a",
+    "afterSha256": "e777b4a45733cb42c7da27f31e7824a574fc5091b0781f4250e20c705b1dedb8",
+    "printedTypeScriptAstSha256": "a9300b69b3591f23a79fa8a176c5915e2cfb2756c5eea36794c5bd0f32d94e92",
+    "identicalPrintedTypeScriptAst": true,
+    "changedBlankLines": 5,
+    "allOther14DataFilesByteIdenticalToFullSuite": true,
+    "reason": "Final diff whitespace check found five indentation-only blank lines from literal insertion. No string token, syntax token or graph field changed. Full suite is retained at the identical parsed-syntax/graph scope rather than rerun for blank-line spaces."
+  },
+  "postFormatChecks": [
+    {
+      "check": "diff-whitespace",
+      "exitCode": 0
+    },
+    {
+      "check": "edited-file-eslint",
+      "exitCode": 0
+    },
+    {
+      "check": "post-format-typecheck",
+      "exitCode": 0
+    }
+  ],
+  "wholeGraphCount": 23085,
+  "changedExistingOwners": [
+    "breast-cancer-follow-up-after-treatment",
+    "fdg-pet",
+    "immuno-pet",
+    "mammography",
+    "mri",
+    "pet",
+    "pet-ct",
+    "radioligand-dosimetry",
+    "theranostics",
+    "ultrasound"
+  ],
+  "newRegisteredIds": [
+    "granzyme-b-pet"
+  ],
+  "readerPassages": {
+    "readers": 11,
+    "registeredRootReaders": 11,
+    "frozenPeerReaders": 0,
+    "exactFieldExcerptReferences": 195,
+    "uniqueReferencedFieldParagraphs": 62,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "mri",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "pet",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pet",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "fdg-pet",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "fdg-pet",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.0.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.0.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.1.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.1.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.1.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.2.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.2.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.2.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.3.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.3.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.3.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.4.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.4.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.4.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.5.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.5.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.5.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.6.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.6.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.6.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.7.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.7.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.7.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.8.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.8.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.8.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.9.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.9.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.9.quote",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.10.action",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "steps.10.why",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:nice-ng101",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:asco-2013",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:acs-asco-2016",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:esmo-2024",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:asco-2026",
+        "present": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "source-link:asco-2026-summary",
+        "present": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      }
+    ]
+  },
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR of registered root records. No peer overlay, browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "mri",
+        "state": "registered-local-graph",
+        "route": "/technologies/mri/",
+        "sha256": "c3d4bf1c975299d60de266616bc9a92d4089ee4a86e04414b494d722e67406ed",
+        "bytes": 147986,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "ultrasound",
+        "state": "registered-local-graph",
+        "route": "/technologies/ultrasound/",
+        "sha256": "205528a9078d28b39cbce5d476c83b4dc4daa81b9d106a929fd991ed98375121",
+        "bytes": 74083,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "mammography",
+        "state": "registered-local-graph",
+        "route": "/technologies/mammography/",
+        "sha256": "9cf9086ffef4f7476bf337d05c7b4178a3f1056371fdecf97b6290c95139c0fb",
+        "bytes": 85746,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pet",
+        "state": "registered-local-graph",
+        "route": "/technologies/pet/",
+        "sha256": "5f53df50a5582512eb3845fd45214e08687844cf2d092dfb127b078ccde2f495",
+        "bytes": 82132,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fdg-pet",
+        "state": "registered-local-graph",
+        "route": "/technologies/fdg-pet/",
+        "sha256": "35ce1815da895149339c6fb9bd62ccbdaf569538aec6d3f7e4f11d0469bafdeb",
+        "bytes": 49589,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pet-ct",
+        "state": "registered-local-graph",
+        "route": "/technologies/pet-ct/",
+        "sha256": "d4e1dbfb7dc3abcaac8919e95d747231fdf7e48005b2752ff2f97ddb7addcb30",
+        "bytes": 106997,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immuno-pet",
+        "state": "registered-local-graph",
+        "route": "/technologies/immuno-pet/",
+        "sha256": "b3681c66930c4cdaa5f4315fec1e9ac80a5736290c759003f21092ccf0e8996c",
+        "bytes": 55149,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "theranostics",
+        "state": "registered-local-graph",
+        "route": "/terms/theranostics/",
+        "sha256": "a65385f3924b4eeeec3fbf67f78240785de86845dbb70bcdaa5cf0eee7fd0491",
+        "bytes": 57790,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "state": "registered-local-graph",
+        "route": "/technologies/radioligand-dosimetry/",
+        "sha256": "a88a47caf447e588d2cc08939b88cb5b1277044305a1c12834942b7289d12e55",
+        "bytes": 36439,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "state": "registered-local-graph",
+        "route": "/protocols/breast-cancer-follow-up-after-treatment/",
+        "sha256": "6b8e32ba45a513b3c41f731def0ef91d666240f740620bcdf12fbc1df92761e8",
+        "bytes": 82744,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "granzyme-b-pet",
+        "state": "registered-local-graph",
+        "route": "/technologies/granzyme-b-pet/",
+        "sha256": "8904a5ee7a3b34b375b4fc5221e1942420ab73dae8e996fd61bab9c12f807c64",
+        "bytes": 26424,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "exports": {
+    "records": 11,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "mri",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mri",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ultrasound",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "mammography",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "fdg-pet",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "fdg-pet",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pet-ct",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immuno-pet",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "theranostics",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "granzyme-b-pet",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "mri.json",
+        "bytes": 39475,
+        "sha256": "b6ebbc6b83258f9ada504f375afe444254e99ef0822b9b2f17f5280eb9453052"
+      },
+      {
+        "file": "mri.md",
+        "bytes": 28014,
+        "sha256": "918071cffa13b5144ddc1215ab1126cafc90786f0f22015e92f8fc9a0968da4f"
+      },
+      {
+        "file": "ultrasound.json",
+        "bytes": 16601,
+        "sha256": "1278ee37c32ec368433880940b15aa0f6011e752e91cdf03882058526e4f0468"
+      },
+      {
+        "file": "ultrasound.md",
+        "bytes": 12323,
+        "sha256": "daa32f160f9fda607fe444f5cca0dc21d30f483265e476a7caf0319f33656e6e"
+      },
+      {
+        "file": "mammography.json",
+        "bytes": 21202,
+        "sha256": "64e6b0c3d13bbeb621ab714ed4034aefacc204e035a88ebcc8e35497bb8c4cbb"
+      },
+      {
+        "file": "mammography.md",
+        "bytes": 15172,
+        "sha256": "6ffd0e2b0831ee259d2be92c72c362b08b8337f5c0cf152548c37a0ceb671992"
+      },
+      {
+        "file": "pet.json",
+        "bytes": 14642,
+        "sha256": "ad3160dd0d5f412860209ffa6e10611b29d0659a1da23c7690bbc63eeae5cdf3"
+      },
+      {
+        "file": "pet.md",
+        "bytes": 10172,
+        "sha256": "fe1d4c6f7b1e8d15b5327c9fc60fefd7a3615eaf63c68821e3176a805202b4d1"
+      },
+      {
+        "file": "fdg-pet.json",
+        "bytes": 13836,
+        "sha256": "17aa2286941fd730f41d01d3c93a5d3249c7d029b2797424766376d749e66823"
+      },
+      {
+        "file": "fdg-pet.md",
+        "bytes": 9630,
+        "sha256": "05cf024e84cab34740e8558e0afa7def55fca43f34cbdf1c347e42fe455bbc2e"
+      },
+      {
+        "file": "pet-ct.json",
+        "bytes": 26561,
+        "sha256": "b5dbcf0df30981aadd68dacdde71b0cc385680aeb39d43808d885f08c52140fc"
+      },
+      {
+        "file": "pet-ct.md",
+        "bytes": 19601,
+        "sha256": "8a9dc1f95ce8107198ea7eeeb4455ae758efa2194508b69252e4030de23c1747"
+      },
+      {
+        "file": "immuno-pet.json",
+        "bytes": 10232,
+        "sha256": "34252cee9dc1c00c969284d3f2ca9f919ae24fb7c68b7671cc9954b722cd3157"
+      },
+      {
+        "file": "immuno-pet.md",
+        "bytes": 8595,
+        "sha256": "b5b0d3088e3e52a8df7041d26f113f4fa21d07fc45f3fe3b6474e190fa683f28"
+      },
+      {
+        "file": "theranostics.json",
+        "bytes": 10926,
+        "sha256": "8ec8c0fe8a6b18f85a84edf84ca84a21c23abe29c95399fd04b5a3f3aec93686"
+      },
+      {
+        "file": "theranostics.md",
+        "bytes": 9065,
+        "sha256": "f286633961b0ef34b34e01836c3f926c883dc8364f586d8c73bced3f2fb4df90"
+      },
+      {
+        "file": "radioligand-dosimetry.json",
+        "bytes": 4289,
+        "sha256": "5d83d311f1d5bbd6ef6a938ce254e478a6ed9ee7173deaaaf0e9811b76e51948"
+      },
+      {
+        "file": "radioligand-dosimetry.md",
+        "bytes": 3688,
+        "sha256": "c7deb806ed70991fd96289a75a450bbee7e2562ad3d25da34c861ca0dd7aacea"
+      },
+      {
+        "file": "breast-cancer-follow-up-after-treatment.json",
+        "bytes": 25206,
+        "sha256": "da52878a42fc2d74a6355f0b4133704019119f8b308dbf15c9f9a2e37b3cda37"
+      },
+      {
+        "file": "breast-cancer-follow-up-after-treatment.md",
+        "bytes": 12416,
+        "sha256": "53d690cbded330675164a0acb646e0e2ce46fbf2338562dbba666f8d48a4bc7d"
+      },
+      {
+        "file": "granzyme-b-pet.json",
+        "bytes": 3545,
+        "sha256": "ea55ec469049e5579feace0ca52e6c974d7ea9fec15a219b90d328a514aa77b4"
+      },
+      {
+        "file": "granzyme-b-pet.md",
+        "bytes": 3294,
+        "sha256": "fb6cc598c10e81e2338f3cf28c9acfff9580bca3c33927178ecca5320997cc2d"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 99,
+    "texts": 18,
+    "fallbacks": 81,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "mri",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mri",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ultrasound",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mammography",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fdg-pet",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pet-ct",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immuno-pet",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "theranostics",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "granzyme-b-pet",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "sourceVersions": 13,
+  "sectionSignatures": 160,
+  "sourceFigureThemeViews": 12,
+  "sourceAssetVersionEntries": 24,
+  "mermaidInstances": 0,
+  "zeroSecretFindings": true,
+  "scope": "Actual registered graph, EntityDetail server rendering, lazy tables, long-cache selectors and static JSON/Markdown/OpenAPI generation. No full Next build, browser hydration, mobile, deployed page or independent language claim."
+}

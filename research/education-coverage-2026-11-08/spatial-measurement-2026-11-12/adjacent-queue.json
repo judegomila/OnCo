@@ -1,0 +1,51 @@
+{
+  "newGroup": {
+    "id": "spatial-measurement-source-scope",
+    "title": "Spatial assay source qualifications, Guide diagrams and retained platform claims",
+    "domain": "measurement-spatial-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/37608771/",
+      "https://pubmed.ncbi.nlm.nih.gov/32763154/"
+    ],
+    "discoveryOccurrences": [
+      "spatial-measurement-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "The current reading rules and named historical examples are represented in the draft. These separate source-owner and retained-catalogue tasks are not quietly certified by the new field proofs.",
+      "points": [
+        {
+          "id": "guide-spatial-qualifications",
+          "requirement": "Guide owner: qualify universal section/segmentation language, distinguish fixed-radius G-cross values from AUC examples, state that the ten-cell neighbourhood includes the centre, retain survival-data availability within Maley cohort sizes and specify cell-level PD-1/PD-L1 proximity. The original data and source files remain unchanged here.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: qualify universal section/segmentation language, distinguish fixed-radius G-cross values from AUC examples, state that the ten-cell neighbourhood includes the centre, retain survival-data availability within Maley cohort sizes and specify cell-level PD-1/PD-L1 proximity. The original data and source files remain unchanged here."
+          ]
+        },
+        {
+          "id": "guide-spatial-visual-context",
+          "requirement": "Guide owner: qualify the protein branch's blanket cell-resolution label and the single-number terminal node, and improve the two low-contrast amber nodes under the default Mermaid dark theme. Rendered views do not establish live-site accessibility.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: qualify the protein branch's blanket cell-resolution label and the single-number terminal node, and improve the two low-contrast amber nodes under the default Mermaid dark theme. Rendered views do not establish live-site accessibility."
+          ]
+        },
+        {
+          "id": "spatial-legacy-and-absence-claims",
+          "requirement": "The biological seven-to-ten-micrometre lymphocyte range and a worldwide absence-of-approved-proximity-tests assertion are not independently established. The reader uses labelled hypothetical geometry and bounded validation claims instead. Retained instrument-capacity, vendor, research-use and older platform assertions outside the appended fields require their own current source checks.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "The biological seven-to-ten-micrometre lymphocyte range and a worldwide absence-of-approved-proximity-tests assertion are not independently established. The reader uses labelled hypothetical geometry and bounded validation claims instead. Retained instrument-capacity, vendor, research-use and older platform assertions outside the appended fields require their own current source checks."
+          ]
+        }
+      ]
+    }
+  },
+  "globalGroups": 66,
+  "literatureOccurrenceCensusUnchanged": 917
+}

@@ -1,0 +1,2441 @@
+{
+  "version": "proposal-antigen-summary-consumers",
+  "state": "270 actual selectors use corrected English fallback; 63 stale short entries removed. No named language review claimed.",
+  "scope": "Reader consumer entries, not graph records. Long-summary selectors contain no accepted or rejected stored entries for these thirty owners.",
+  "records": [
+    {
+      "id": "antigen-summary-es-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-adcc-adcp-cdc",
+      "canonicalRecordId": "adcc-adcp-cdc",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-antibody-structure",
+      "canonicalRecordId": "antibody-structure",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (es)"
+    },
+    {
+      "id": "antigen-summary-zh-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (fr)"
+    },
+    {
+      "id": "antigen-summary-de-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (de)"
+    },
+    {
+      "id": "antigen-summary-ja-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-b-cells-and-plasma-cells",
+      "canonicalRecordId": "b-cells-and-plasma-cells",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cells, plasmablasts and plasma cells (simple)"
+    },
+    {
+      "id": "antigen-summary-es-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (es)"
+    },
+    {
+      "id": "antigen-summary-zh-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (fr)"
+    },
+    {
+      "id": "antigen-summary-de-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (de)"
+    },
+    {
+      "id": "antigen-summary-ja-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-isotypes-and-fc-silencing",
+      "canonicalRecordId": "isotypes-and-fc-silencing",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody isotypes and Fc silencing (simple)"
+    },
+    {
+      "id": "antigen-summary-es-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-antigen-processing-machinery",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-typing-and-nomenclature",
+      "canonicalRecordId": "hla-typing-and-nomenclature",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA allele names and typing reports (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla",
+      "canonicalRecordId": "hla",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla",
+      "canonicalRecordId": "hla",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla",
+      "canonicalRecordId": "hla",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla",
+      "canonicalRecordId": "hla",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla",
+      "canonicalRecordId": "hla",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla",
+      "canonicalRecordId": "hla",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla",
+      "canonicalRecordId": "hla",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla",
+      "canonicalRecordId": "hla",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla",
+      "canonicalRecordId": "hla",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA (human leukocyte antigen) and MHC (simple)"
+    },
+    {
+      "id": "antigen-summary-es-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-tumor-associated-antigen",
+      "canonicalRecordId": "tumor-associated-antigen",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated antigen (TAA) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (es)"
+    },
+    {
+      "id": "antigen-summary-zh-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (fr)"
+    },
+    {
+      "id": "antigen-summary-de-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (de)"
+    },
+    {
+      "id": "antigen-summary-ja-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-antigen",
+      "canonicalRecordId": "antigen",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antigen (simple)"
+    },
+    {
+      "id": "antigen-summary-es-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (es)"
+    },
+    {
+      "id": "antigen-summary-zh-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (fr)"
+    },
+    {
+      "id": "antigen-summary-de-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (de)"
+    },
+    {
+      "id": "antigen-summary-ja-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-epitope",
+      "canonicalRecordId": "epitope",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Epitope (simple)"
+    },
+    {
+      "id": "antigen-summary-es-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (es)"
+    },
+    {
+      "id": "antigen-summary-zh-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (fr)"
+    },
+    {
+      "id": "antigen-summary-de-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (de)"
+    },
+    {
+      "id": "antigen-summary-ja-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-antibody",
+      "canonicalRecordId": "antibody",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Antibody (simple)"
+    },
+    {
+      "id": "antigen-summary-es-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (es)"
+    },
+    {
+      "id": "antigen-summary-zh-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (fr)"
+    },
+    {
+      "id": "antigen-summary-de-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (de)"
+    },
+    {
+      "id": "antigen-summary-ja-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-b-cell",
+      "canonicalRecordId": "b-cell",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B cell (simple)"
+    },
+    {
+      "id": "antigen-summary-es-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-adcc",
+      "canonicalRecordId": "adcc",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ADCC (antibody-dependent cellular cytotoxicity) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (es)"
+    },
+    {
+      "id": "antigen-summary-zh-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (fr)"
+    },
+    {
+      "id": "antigen-summary-de-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (de)"
+    },
+    {
+      "id": "antigen-summary-ja-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-fc-effector",
+      "canonicalRecordId": "fc-effector",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Fc engineering / effector function (simple)"
+    },
+    {
+      "id": "antigen-summary-es-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-dendritic-cell-cross-presentation",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (es)"
+    },
+    {
+      "id": "antigen-summary-zh-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (fr)"
+    },
+    {
+      "id": "antigen-summary-de-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (de)"
+    },
+    {
+      "id": "antigen-summary-ja-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-complement-in-cancer",
+      "canonicalRecordId": "complement-in-cancer",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Complement in cancer (simple)"
+    },
+    {
+      "id": "antigen-summary-es-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-tertiary-lymphoid-structures",
+      "canonicalRecordId": "tertiary-lymphoid-structures",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Tertiary lymphoid structures (TLS) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-a-02-01",
+      "canonicalRecordId": "hla-a-02-01",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-A*02:01 (HLA typing for TCR therapies) (simple)"
+    },
+    {
+      "id": "antigen-summary-es-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (es)"
+    },
+    {
+      "id": "antigen-summary-zh-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (fr)"
+    },
+    {
+      "id": "antigen-summary-de-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (de)"
+    },
+    {
+      "id": "antigen-summary-ja-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-tap1",
+      "canonicalRecordId": "tap1",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP1 (simple)"
+    },
+    {
+      "id": "antigen-summary-es-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (es)"
+    },
+    {
+      "id": "antigen-summary-zh-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (fr)"
+    },
+    {
+      "id": "antigen-summary-de-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (de)"
+    },
+    {
+      "id": "antigen-summary-ja-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-tap2",
+      "canonicalRecordId": "tap2",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "TAP2 (simple)"
+    },
+    {
+      "id": "antigen-summary-es-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (es)"
+    },
+    {
+      "id": "antigen-summary-zh-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (fr)"
+    },
+    {
+      "id": "antigen-summary-de-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (de)"
+    },
+    {
+      "id": "antigen-summary-ja-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-erap1",
+      "canonicalRecordId": "erap1",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP1 (simple)"
+    },
+    {
+      "id": "antigen-summary-es-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (es)"
+    },
+    {
+      "id": "antigen-summary-zh-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (fr)"
+    },
+    {
+      "id": "antigen-summary-de-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (de)"
+    },
+    {
+      "id": "antigen-summary-ja-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-erap2",
+      "canonicalRecordId": "erap2",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "ERAP2 (simple)"
+    },
+    {
+      "id": "antigen-summary-es-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (es)"
+    },
+    {
+      "id": "antigen-summary-zh-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (fr)"
+    },
+    {
+      "id": "antigen-summary-de-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (de)"
+    },
+    {
+      "id": "antigen-summary-ja-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-b2m",
+      "canonicalRecordId": "b2m",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "B2M (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-b",
+      "canonicalRecordId": "hla-b",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-B (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-c",
+      "canonicalRecordId": "hla-c",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-C (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-dra",
+      "canonicalRecordId": "hla-dra",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DRA (simple)"
+    },
+    {
+      "id": "antigen-summary-es-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (es)"
+    },
+    {
+      "id": "antigen-summary-zh-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (fr)"
+    },
+    {
+      "id": "antigen-summary-de-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (de)"
+    },
+    {
+      "id": "antigen-summary-ja-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-hla-dqa1",
+      "canonicalRecordId": "hla-dqa1",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "HLA-DQA1 (simple)"
+    },
+    {
+      "id": "antigen-summary-es-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (es)"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (fr)"
+    },
+    {
+      "id": "antigen-summary-de-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (de)"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr3a",
+      "canonicalRecordId": "fcgr3a",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR3A (simple)"
+    },
+    {
+      "id": "antigen-summary-es-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (es)"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (fr)"
+    },
+    {
+      "id": "antigen-summary-de-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (de)"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr2a",
+      "canonicalRecordId": "fcgr2a",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2A (simple)"
+    },
+    {
+      "id": "antigen-summary-es-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (es)"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (zh)"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (pt)"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (hi)"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (fr)"
+    },
+    {
+      "id": "antigen-summary-de-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (de)"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (ja)"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (ar)"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr2b",
+      "canonicalRecordId": "fcgr2b",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "FCGR2B (simple)"
+    }
+  ],
+  "sources": [
+    "src/lib/tldr-tables.ts",
+    "src/lib/summary-translations.ts"
+  ]
+}

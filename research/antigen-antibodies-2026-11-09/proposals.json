@@ -1,0 +1,156 @@
+{
+  "note": "Proposals for coordinator integration. Owners are blocked or generated; nothing here is applied.",
+  "supplementProposals": [
+    {
+      "id": "b2m",
+      "notes": [
+        "Teaching distinction from the antigen-antibodies audit (9 November 2026): B2M is the class I light chain and not part of class II; loss of functional B2M affects many class I targets, unlike loss of one HLA allele; B2M also partners HLA-E, HLA-G, HLA-F, MR1 and (via Wani 2006) FcRn. See the hla record."
+      ],
+      "links": [
+        {
+          "label": "Wani et al., 2006, PNAS (PMID 16549777)",
+          "url": "https://doi.org/10.1073/pnas.0600548103"
+        },
+        {
+          "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        }
+      ],
+      "related": [
+        "hla",
+        "antigen-processing-machinery"
+      ]
+    },
+    {
+      "id": "hla-b",
+      "related": [
+        "hla",
+        "hla-typing-and-nomenclature"
+      ],
+      "notes": [
+        "HLA-B is a classical class I heavy-chain gene; the generated one-line description 'a gene whose normal job is to hold cell growth in check' misdescribes it (generator template issue, see adjacent queue)."
+      ]
+    },
+    {
+      "id": "hla-c",
+      "related": [
+        "hla",
+        "hla-typing-and-nomenclature"
+      ],
+      "notes": [
+        "Classical class I heavy-chain gene; surface expression varies allele by allele (Kaur et al., 2017)."
+      ],
+      "links": [
+        {
+          "label": "Kaur et al., 2017, Nature Communications (PMID 28649982)",
+          "url": "https://doi.org/10.1038/ncomms15924"
+        }
+      ]
+    },
+    {
+      "id": "hla-dra",
+      "related": [
+        "hla"
+      ]
+    },
+    {
+      "id": "hla-dqa1",
+      "related": [
+        "hla"
+      ]
+    },
+    {
+      "id": "fcgr3a",
+      "related": [
+        "adcc-adcp-cdc",
+        "isotypes-and-fc-silencing"
+      ]
+    },
+    {
+      "id": "fcgr2a",
+      "related": [
+        "adcc-adcp-cdc"
+      ]
+    },
+    {
+      "id": "fcgr2b",
+      "related": [
+        "adcc-adcp-cdc",
+        "isotypes-and-fc-silencing"
+      ]
+    }
+  ],
+  "blockedOwnerPatches": [
+    {
+      "id": "neoantigen",
+      "ownedBy": "blocked (pending PR 373 / coordinator)",
+      "summaryAppend": "Evidence for a candidate climbs through separate levels: a sampled tumour-specific alteration (is the altered message expressed?), a matched binding prediction (is it naturally processed and displayed?), a recovered HLA-associated peptide (which cells supplied it, and does a receptor recognise it?) and a controlled response to naturally presenting tumour (healthy-tissue specificity and patient benefit remain open). Altered splicing as well as substitutions, insertions, deletions and rearrangements can create candidate sequences, and not every unusual transcript is tumour-exclusive. Different HLA alleles present different fragments of one altered sequence, so one alteration can yield several candidates or none useful. Wells et al. (Cell 2020, PMID 33038342) tested 608 predicted epitopes for patient-matched T-cell binding; Litchfield et al. (Nature Communications 2020, PMID 32733040) linked frameshift mutations that escape nonsense-mediated decay to checkpoint outcomes in melanoma cohorts. Their performance figures do not transfer to other models, cancers or vaccines.",
+      "linksAdd": [
+        "https://doi.org/10.1038/s41467-020-17526-5"
+      ],
+      "reqs": [
+        "R52"
+      ]
+    },
+    {
+      "id": "binding-presentation-recognition",
+      "ownedBy": "blocked (pending PR 373)",
+      "summaryAppend": "Peptide-to-HLA binding and TCR-to-peptide-HLA binding are different contacts. Evidence maps to claims: a binding prediction supports a model estimate for one exact peptide and allele (Reynisson et al., 2020, PMID 32406916); measured binding supports binding under that assay; immunopeptidomics supports association with the recovered preparation (Purcell et al., 2019, PMID 31092913), not guaranteed cancer-cell origin, surface location or complete recovery; peptide-HLA multimer staining shows cells binding a defined reagent (Altman et al., 1996, PMID 8810254), not affinity or killing; only a controlled response to naturally presenting target cells supports recognition or the measured function. Supplied-peptide stimulation can bypass processing, and secretion and target-cell death are different outputs.",
+      "linksAdd": [
+        "https://doi.org/10.1093/nar/gkaa379",
+        "https://doi.org/10.1038/s41596-019-0133-y",
+        "https://doi.org/10.1126/science.274.5284.94",
+        "https://doi.org/10.1016/j.cell.2020.09.015"
+      ],
+      "reqs": [
+        "R50"
+      ]
+    },
+    {
+      "id": "immunopeptidome",
+      "ownedBy": "blocked (pending PR 373)",
+      "aka_add": [
+        "HLA peptidome"
+      ],
+      "summaryAppend": "The immunopeptidome is a biological repertoire in a defined cell population and context; an immunopeptidomics list is a method-dependent subset recovered and identified from a sample. Class I and class II repertoires are separate, and a protein can be abundant while a derived peptide is poorly generated, loaded or retained. Inflammatory signals changed peptide patterns in cancer cell lines (Chong et al., 2018, ovarian cancer cells and interferon gamma, PMID 29242379; Javitt et al., 2019, lung cancer cells and TNF-alpha and interferon gamma acting through HLA-B, PMID 30833945), which shows context-dependent remodelling and not that inflammation adds useful targets. Whole-lysate capture can recover intracellular as well as surface complexes, mixed tissue adds cancer, immune and stromal sources, relative instrument intensity is not surface copies per cell, and a reported sequence can be misassigned (Wilhelm et al., 2021, PMID 34099720). Method B identifying 1,200 peptides against method A's 800 (fictional) shows no biological difference. Sarkizova et al. (2020) gives allele-dependent repertoires from mono-allelic lines.",
+      "linksAdd": [
+        "https://doi.org/10.1074/mcp.tir117.000383",
+        "https://doi.org/10.3389/fimmu.2019.00141",
+        "https://doi.org/10.1038/s41467-021-23713-9",
+        "https://doi.org/10.1038/s41587-019-0322-9",
+        "https://doi.org/10.1038/s41596-019-0133-y"
+      ],
+      "reqs": [
+        "R51"
+      ]
+    },
+    {
+      "id": "self-similarity-immune-recognition",
+      "ownedBy": "blocked (pending PR 373)",
+      "summaryAppend": "Central tolerance removes many T cells that react strongly to self during development and supports regulatory populations, and peripheral tolerance restrains mature cells through limited activation signals, functional unresponsiveness and regulatory T cells; neither means no receptor can bind a self molecule. A tumour-specific mutation can make a peptide distinguishable from its normal counterpart, but display and a responsive receptor are still needed, and there is no universal percentage of identity that makes a target safe. Higher receptor affinity is not automatically more selective. Receptors can cross-react with peptides from unrelated proteins, as in the titin peptide recognised by the MAGE-A3-directed receptor (Cameron et al., 2013, PMID 23926201; Linette et al., 2013, PMID 23770775). Luksza et al. (Nature 2022, PMID 35589842) modelled neoantigen quality, using non-selfness and selfness, in pancreatic cancer survivors; the model is not a clinical safety rule. In a loaded-peptide concentration series, compare mutant and normal peptides at the same concentration with the same HLA and responder; artificial loading leaves natural processing open and a response threshold is not a patient safety threshold.",
+      "linksAdd": [
+        "https://doi.org/10.1182/blood-2013-03-490565",
+        "https://doi.org/10.1038/s41586-022-04735-9"
+      ],
+      "aka_add": [
+        "immune tolerance",
+        "self tolerance"
+      ],
+      "reqs": [
+        "R53"
+      ]
+    }
+  ],
+  "newIdsNotCreated": {
+    "antigen-and-epitope": "existing antigen and epitope records supplemented instead; a combined record would duplicate both names",
+    "cross-presentation": "existing dendritic-cell-cross-presentation already has aka cross-presentation and cross-priming; supplemented",
+    "binding-presentation-and-recognition": "pending PR 373 record binding-presentation-recognition holds this concept (blocked owner)",
+    "immunopeptidome": "id already pending in PR 373 (would collide)",
+    "self-similarity-and-tolerance": "pending PR 373 record self-similarity-immune-recognition (blocked owner)"
+  },
+  "coordinatorResolution": {
+    "checkedOn": "2026-11-09",
+    "state": "All four blocked-owner and eight gene-owner proposals integrated in drafts375/373; four processing genes added. Full audit evidence is in education-coverage-2026-11-08/antigen-antibodies-2026-11-09.",
+    "sharedHead": "4064995963b71f72ac0d1d2bd486454b55838d80"
+  }
+}

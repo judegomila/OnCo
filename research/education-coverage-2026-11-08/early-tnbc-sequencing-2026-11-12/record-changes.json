@@ -1,0 +1,1871 @@
+{
+  "dataCommit": "1c394ddbb1d7b8f05c450df50fcad89226007867",
+  "existingOwnersChanged": [
+    "ascent-05",
+    "bre12-158",
+    "c-trak-tn",
+    "chemotherapy-regimen",
+    "create-x",
+    "de-escalation",
+    "ea1131",
+    "first-line",
+    "keynote-355",
+    "neoadjuvant-adjuvant",
+    "neoadjuvant-versus-adjuvant-breast",
+    "olympia",
+    "pcr",
+    "perioperative-immune-window",
+    "tnbc-residual-disease-decision",
+    "tropion-breast03"
+  ],
+  "newCanonicalIds": [],
+  "newConnectedNotes": 38,
+  "literalFieldChanges": [
+    {
+      "id": "first-line",
+      "before": {
+        "tldr": "First-line is the first treatment for advanced cancer; second-line is what comes after it fails, and so on.",
+        "summary": "Lines of therapy number the successive treatments a patient with advanced cancer receives: first-line is the initial treatment, second-line follows when it fails, and so on, with aliases such as 1L, 2L, front-line and treatment-naive. Drugs are usually approved first in later lines, where control arms are weak, and then move earlier, and each shift to an earlier line reshapes the entire sequence, as happened with ADCs in TNBC in 2026. The concept is central to Project FrontRunner and to the bottlenecks on too many combinations to test, fragmented care and incentives that reward me-too drugs. It also frames the DESTINY-Breast06, FLAURA, MARIPOSA, KEYNOTE-189, HARMONi-2 and NAPOLI-3 papers and ideas on pathology-triggered trial referral and reflex genomic profiling at diagnosis.",
+        "notes": [],
+        "links": [
+          {
+            "label": "NCI Dictionary of Cancer Terms: first-line therapy",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/first-line-therapy"
+          }
+        ],
+        "asOf": "2026-09-04"
+      },
+      "after": {
+        "tldr": "A line of therapy is a treatment strategy counted within a specified disease setting. First-line means the initial strategy in that setting; it does not mean the first medicine a person has ever received.",
+        "summary": "Lines of therapy describe successive treatment strategies under a clinical record or study's stated counting rule. First-line is the initial strategy for the specified disease setting. A later strategy may follow because treatment does not work, stops working or causes intolerable harm. The setting and reason for change belong beside the number.\n\nIn an advanced-cancer trial, first-line can mean no earlier systemic treatment for advanced disease, while previous treatment around surgery remains part of the exposure history and eligibility assessment. Several medicines, repeating cycles and planned blocks can belong to one strategy. A line count does not measure remaining life or establish that treatment options are exhausted.",
+        "notes": [
+          "A regimen specifies the treatment plan; a cycle is a defined interval of treatment and recovery. Neither a third infusion nor a third medicine automatically means third-line treatment. A planned switch between blocks differs from changing strategy after progression. Neoadjuvant and adjuvant describe roles around the main treatment, rather than first and second line.",
+          "Keep four entries together: disease setting, strategy with start and stop dates, reason for change, and the counting convention. Maintenance, a pause, dose reduction or removal of one component must be interpreted under that convention. A database algorithm can draw boundaries differently from the clinical account, so preserve the actual events before assigning a number.",
+          "The 2020 KEYNOTE-355 report studied previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer, while stratifying randomisation by previous exposure to the same chemotherapy class in the neoadjuvant or adjuvant setting. Those descriptions are compatible: prior early-disease treatment and prior advanced-disease treatment are different variables. The example explains the study population, not a current prescribing choice.",
+          "In a fictional history, combination A precedes definitive surgery and medicine B follows it as part of one planned early-disease strategy. Years later, the first systemic strategy for metastatic disease is first-line metastatic under the stated rule of no earlier systemic metastatic treatment. A and B remain in the exposure history. The setting boundary changes what is being counted; it is not a universal rule for every switch or maintenance phase.",
+          "Before comparing studies labelled first-line or later-line, check prior exposure, eligibility, resistance history, tolerability and the comparator. Matching a drug name does not match the populations. To explain a line number, name the disease setting, earlier strategy and counting rule, rather than turning that history label into an individual forecast."
+        ],
+        "links": [
+          {
+            "label": "NCI Dictionary of Cancer Terms: first-line therapy",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/first-line-therapy"
+          },
+          {
+            "label": "NCI: second-line therapy",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/second-line-therapy"
+          },
+          {
+            "label": "Cortes et al., KEYNOTE-355 population and previous early-disease exposure (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33278935/"
+          },
+          {
+            "label": "NCI: chemotherapy cycles and delivery",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "LT1",
+          "text": "A regimen specifies the treatment plan; a cycle is a defined interval of treatment and recovery. Neither a third infusion nor a third medicine automatically means third-line treatment. A planned switch between blocks differs from changing strategy after progression. Neoadjuvant and adjuvant describe roles around the main treatment, rather than first and second line.",
+          "sources": [
+            "nci-api-regimen",
+            "nci-chemotherapy",
+            "nci-api-first-line-therapy",
+            "nci-api-second-line-therapy"
+          ],
+          "scope": "Official definitions plus explicitly bounded counting inference."
+        },
+        {
+          "key": "LT2",
+          "text": "Keep four entries together: disease setting, strategy with start and stop dates, reason for change, and the counting convention. Maintenance, a pause, dose reduction or removal of one component must be interpreted under that convention. A database algorithm can draw boundaries differently from the clinical account, so preserve the actual events before assigning a number.",
+          "sources": [
+            "nci-api-first-line-therapy",
+            "pmid-33278935"
+          ],
+          "scope": "OnCo reading rule; no universal switch or maintenance algorithm asserted."
+        },
+        {
+          "key": "LT3",
+          "text": "The 2020 KEYNOTE-355 report studied previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer, while stratifying randomisation by previous exposure to the same chemotherapy class in the neoadjuvant or adjuvant setting. Those descriptions are compatible: prior early-disease treatment and prior advanced-disease treatment are different variables. The example explains the study population, not a current prescribing choice.",
+          "sources": [
+            "pmid-33278935"
+          ],
+          "scope": "Complete primary abstract read; the example is terminology, not a current-access recommendation."
+        },
+        {
+          "key": "LT4",
+          "text": "In a fictional history, combination A precedes definitive surgery and medicine B follows it as part of one planned early-disease strategy. Years later, the first systemic strategy for metastatic disease is first-line metastatic under the stated rule of no earlier systemic metastatic treatment. A and B remain in the exposure history. The setting boundary changes what is being counted; it is not a universal rule for every switch or maintenance phase.",
+          "sources": [
+            "nci-api-first-line-therapy",
+            "pmid-33278935"
+          ],
+          "scope": "Fictional example and stated counting convention; no empirical interval or outcome."
+        },
+        {
+          "key": "LT5",
+          "text": "Before comparing studies labelled first-line or later-line, check prior exposure, eligibility, resistance history, tolerability and the comparator. Matching a drug name does not match the populations. To explain a line number, name the disease setting, earlier strategy and counting rule, rather than turning that history label into an individual forecast.",
+          "sources": [
+            "pmid-33278935"
+          ],
+          "scope": "Applicability inference from the explicitly different study-history variables."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "46421574cf3b81527955907b1ba069634fa9539f8cad23983bdb429d69349bfd",
+        "summary": "74540667937471c37686ae60abf1eb7c416c278e0cbd8e4c02a5677bc482fa3b",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "3954d14661eb769c00803cb33ff5874622e435071133e62f7b215105cef2381a",
+        "asOf": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992"
+      },
+      "afterHashes": {
+        "tldr": "eb7479975688e8ec8c4252adc4a3bb7c08afd4c985f67ec57532e3dc6fc55112",
+        "summary": "b750771466e8e4851797c11eff29dfffdb164921c019197261037e1d5761e6e9",
+        "notes": "791d7653994bb5035680712d7d0c9885d572e06a65bc7a4e5f1c76a450a18f68",
+        "links": "812c9c49e0c5a7510e003bee2293a032db1c99ef099ecbeaeb1f08ba9f7fb91e",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "neoadjuvant-adjuvant",
+      "before": {
+        "tldr": "Neoadjuvant treatment is given before surgery, adjuvant treatment after it, and perioperative treatment around both phases. The benefit and risks of the timing depend on the disease and complete regimen.",
+        "summary": "Neoadjuvant, adjuvant and perioperative describe timing before surgery, after surgery or across both phases. Neoadjuvant therapy can aim to reduce disease before an operation and provides response information from treated tissue. Adjuvant therapy aims to reduce risk from disease that may remain. A pathological response and a later clinical outcome are different endpoints.\n\nTiming comparisons need the actual population, intervention and comparator. Liu’s two mouse breast-cancer models supported testing preoperative immunotherapy, not a universal human timing rule or proof that retained tumour antigen explains every clinical result. KEYNOTE-522 assigned a complete before-and-after pembrolizumab regimen against its comparator; that design does not independently randomize the two phases and cannot isolate each phase’s contribution.",
+        "notes": [
+          "KEYNOTE-522 tested a selected high-risk, previously untreated early-TNBC population, with chemotherapy plus pembrolizumab or placebo before surgery and pembrolizumab or placebo afterwards. Eight planned 3-week preoperative cycles and nine postoperative cycles correspond to about 24 and 27 weeks; delays and clinical decisions can alter actual timing. The U.S. label describes tumour-size and nodal eligibility and enrolment regardless of PD-L1 expression. A stage label alone is not a personal treatment instruction. The complete regimen comparison did not independently randomise its two phases.",
+          "Neoadjuvant treatment can reduce a tumour before an operation and leave treated tissue for response assessment. Subsequent breast and nodal pathology, radiation indications and further systemic options answer separate questions. Residual disease does not automatically choose one added medicine: prior treatment, biomarker eligibility, the population actually studied and uncertainty about sequencing or combination remain relevant. A pathological response is not a survival estimate or proof that a treatment component can be omitted."
+        ],
+        "links": [
+          {
+            "label": "Improved Efficacy of Neoadjuvant Compared to Adjuvant Immunotherapy to Eradicate Metastatic Disease.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27663893/"
+          },
+          {
+            "label": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neoadjuvant_therapy"
+          },
+          {
+            "label": "KEYTRUDA U.S. prescribing information: sections 1.20, 5.1, 12.1 and 14.20",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+          },
+          {
+            "label": "NCI: triple-negative breast cancer treatment",
+            "url": "https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "tldr": "Neoadjuvant treatment comes before the main treatment, usually surgery; adjuvant treatment follows it to lower recurrence risk. These words describe roles in a plan, while its goal and actual delivery need separate assessment.",
+        "summary": "Neoadjuvant treatment precedes the main treatment, usually surgery; adjuvant treatment follows the main treatment to reduce recurrence risk. Perioperative treatment spans the period around an operation. Neoadjuvant therapy can aim to reduce disease before an operation and provides response information from treated tissue. Adjuvant therapy aims to reduce risk from disease that may remain. A pathological response and a later clinical outcome are different endpoints.\n\nTiming comparisons need the actual population, intervention and comparator. Liu’s two mouse breast-cancer models supported testing preoperative immunotherapy, not a universal human timing rule or proof that retained tumour antigen explains every clinical result. KEYNOTE-522 assigned a complete before-and-after pembrolizumab regimen against its comparator; that design does not independently randomize the two phases and cannot isolate each phase’s contribution.",
+        "notes": [
+          "KEYNOTE-522 tested a selected high-risk, previously untreated early-TNBC population, with chemotherapy plus pembrolizumab or placebo before surgery and pembrolizumab or placebo afterwards. Eight planned 3-week preoperative cycles and nine postoperative cycles correspond to about 24 and 27 weeks; delays and clinical decisions can alter actual timing. The U.S. label describes tumour-size and nodal eligibility and enrolment regardless of PD-L1 expression. A stage label alone is not a personal treatment instruction. The complete regimen comparison did not independently randomise its two phases.",
+          "Neoadjuvant treatment can reduce a tumour before an operation and leave treated tissue for response assessment. Subsequent breast and nodal pathology, radiation indications and further systemic options answer separate questions. Residual disease does not automatically choose one added medicine: prior treatment, biomarker eligibility, the population actually studied and uncertainty about sequencing or combination remain relevant. A pathological response is not a survival estimate or proof that a treatment component can be omitted.",
+          "Either, both or neither surrounding phase may appear in a plan. Chemotherapy, radiation, endocrine and other treatments can have preoperative or postoperative roles in appropriate settings. Systemic therapy travels through the bloodstream; neither timing word means chemotherapy alone. An adjuvant plan can aim to reduce risk even when there is no measurable tumour, and it does not guarantee that recurrence is impossible.",
+          "A drug that happens before a procedure is not automatically neoadjuvant. In a fictional curative-intent plan, systemic treatment precedes definitive breast surgery and additional treatment afterwards aims to reduce recurrence risk. In a different advanced-disease plan, a later procedure relieves a symptom. Both calendars say drug then procedure, but the documented main-treatment role and goal distinguish them.",
+          "Preoperative treatment can provide examination and imaging observations and treated surgical tissue for assessing response. CREATE-X selected residual invasive disease after preoperative chemotherapy; OlympiA included eligible high-risk germline BRCA1/2-associated disease after either neoadjuvant or adjuvant chemotherapy, using different entry rules. These studies show why treatment history and response can affect the next question. They do not make a favourable response a validated surgery-omission rule or prove that every postoperative add-on helps.",
+          "Keep specimen collection, treatment administration and report issue as three dates. A biopsy collected before treatment remains a pretreatment sample even if its report arrives after surgery. Likewise, a planned treatment phase is not proof of administration: holds, substitutions and cancelled visits belong in the delivered record. Timing of a report cannot manufacture a post-treatment observation.",
+          "Treatment timing does not itself establish curative or palliative anticancer intent. Palliative care addresses symptoms, distress and quality of life and can accompany curative care. Thus a fictional postoperative risk-reduction plan is adjuvant even without visible tumour, and a supportive-care visit does not turn it into palliative anticancer treatment. Neoadjuvant chemotherapy (NAC) is one neoadjuvant class; a vaccine adjuvant instead means an ingredient that enhances an immune response."
+        ],
+        "links": [
+          {
+            "label": "Improved Efficacy of Neoadjuvant Compared to Adjuvant Immunotherapy to Eradicate Metastatic Disease.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27663893/"
+          },
+          {
+            "label": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Neoadjuvant_therapy"
+          },
+          {
+            "label": "KEYTRUDA U.S. prescribing information: sections 1.20, 5.1, 12.1 and 14.20",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+          },
+          {
+            "label": "NCI: triple-negative breast cancer treatment",
+            "url": "https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer"
+          },
+          {
+            "label": "NCI: neoadjuvant therapy",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/neoadjuvant-therapy"
+          },
+          {
+            "label": "NCI: adjuvant therapy",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/adjuvant-therapy"
+          },
+          {
+            "label": "NCI: palliative care with or without curative care",
+            "url": "https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet"
+          },
+          {
+            "label": "FDA: vaccine adjuvants and other ingredients",
+            "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/common-ingredients-fda-approved-vaccines"
+          },
+          {
+            "label": "Masuda et al., CREATE-X (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+          },
+          {
+            "label": "Tutt et al., OlympiA eligibility and comparison (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "NA1",
+          "text": "Either, both or neither surrounding phase may appear in a plan. Chemotherapy, radiation, endocrine and other treatments can have preoperative or postoperative roles in appropriate settings. Systemic therapy travels through the bloodstream; neither timing word means chemotherapy alone. An adjuvant plan can aim to reduce risk even when there is no measurable tumour, and it does not guarantee that recurrence is impossible.",
+          "sources": [
+            "nci-api-neoadjuvant-therapy",
+            "nci-api-adjuvant-therapy",
+            "nci-api-systemic-therapy"
+          ],
+          "scope": "Official definitions; possible-phase interpretation, not a prescribed sequence."
+        },
+        {
+          "key": "NA2",
+          "text": "A drug that happens before a procedure is not automatically neoadjuvant. In a fictional curative-intent plan, systemic treatment precedes definitive breast surgery and additional treatment afterwards aims to reduce recurrence risk. In a different advanced-disease plan, a later procedure relieves a symptom. Both calendars say drug then procedure, but the documented main-treatment role and goal distinguish them.",
+          "sources": [
+            "nci-api-neoadjuvant-therapy",
+            "nci-palliative"
+          ],
+          "scope": "Fictional contrast derived from the documented treatment purposes."
+        },
+        {
+          "key": "NA3",
+          "text": "Preoperative treatment can provide examination and imaging observations and treated surgical tissue for assessing response. CREATE-X selected residual invasive disease after preoperative chemotherapy; OlympiA included eligible high-risk germline BRCA1/2-associated disease after either neoadjuvant or adjuvant chemotherapy, using different entry rules. These studies show why treatment history and response can affect the next question. They do not make a favourable response a validated surgery-omission rule or prove that every postoperative add-on helps.",
+          "sources": [
+            "pmid-28564564",
+            "pmid-34081848"
+          ],
+          "scope": "Complete abstracts and targeted OlympiA eligibility paragraphs; no comparison of all modern sequences."
+        },
+        {
+          "key": "NA4",
+          "text": "Keep specimen collection, treatment administration and report issue as three dates. A biopsy collected before treatment remains a pretreatment sample even if its report arrives after surgery. Likewise, a planned treatment phase is not proof of administration: holds, substitutions and cancelled visits belong in the delivered record. Timing of a report cannot manufacture a post-treatment observation.",
+          "sources": [
+            "pmid-32101663",
+            "nci-chemotherapy"
+          ],
+          "scope": "Operational reading inference; no empirical effect attributed to a delay."
+        },
+        {
+          "key": "NA5",
+          "text": "Treatment timing does not itself establish curative or palliative anticancer intent. Palliative care addresses symptoms, distress and quality of life and can accompany curative care. Thus a fictional postoperative risk-reduction plan is adjuvant even without visible tumour, and a supportive-care visit does not turn it into palliative anticancer treatment. Neoadjuvant chemotherapy (NAC) is one neoadjuvant class; a vaccine adjuvant instead means an ingredient that enhances an immune response.",
+          "sources": [
+            "nci-palliative",
+            "nci-api-adjuvant-therapy",
+            "fda-vaccine-ingredients"
+          ],
+          "scope": "Official definitions and explicitly fictional purpose exercise; FDA alternative to blocked CDC page."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "e0007848582fb451d76d68141b653bfe093fc3aa093ad1c2b6a26f81fd652bbd",
+        "summary": "6b7d8fdf3a217594009a142368eedbaaaebf3f57d469b72e5054a800701c8046",
+        "notes": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "links": "33b26fc0a7254bccb3634dc0d4feb4b62a95f7777bbcc5afc963ea19f1b14d30",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "tldr": "b80c7c0274dfb60faef7455ba3baa9a8203d390be2c98c97d80d8531e73d2b38",
+        "summary": "ead74d80d35a2e042133bc4665b427c72ddcefa7e635268bd1798622bb2b6fbe",
+        "notes": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "links": "a97ba53f9cfb800cd06dcc52f97239d41e729cf53e299949792778a4b87c6928",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "de-escalation",
+      "before": {
+        "tldr": "Giving less treatment to patients who are doing well and more to those who are not, using a marker such as scan response, ctDNA or MRD to decide. The aim is to cure the same number of people with less harm.",
+        "summary": "Examples: omitting chemotherapy in low-risk HR-positive breast cancer by genomic assays (TAILORx, MINDACT) or in HER2-positive disease by PET response (PHERGain); shortening adjuvant FOLFOX to 3 months (IDEA); ctDNA-guided omission or escalation of adjuvant chemotherapy in colon cancer (DYNAMIC, CIRCULATE); PET-guided omission of radiotherapy or bleomycin in lymphoma; 12 versus 6 months of trastuzumab (PERSEPHONE); radiotherapy dose reduction in HPV-positive oropharynx cancer (which has repeatedly failed); and MRD-guided stopping in CLL and myeloma. De-escalation trials need non-inferiority designs and large numbers, and are rarely funded by industry. Escalation trials add drugs to non-responders (KEYNOTE-522 residual disease, CheckMate 577).",
+        "notes": [],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT03036488: KEYNOTE-522",
+            "url": "https://clinicaltrials.gov/study/NCT03036488"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT02743494: CheckMate 577",
+            "url": "https://clinicaltrials.gov/study/NCT02743494"
+          }
+        ],
+        "asOf": "2026-09-09"
+      },
+      "after": {
+        "tldr": "Response-adapted treatment uses a defined assessment to guide a planned next step. Continuing, reducing, changing or adding treatment each needs evidence for that strategy and its harms.",
+        "summary": "A response-adapted strategy specifies the population, what is measured, the assessment time, the result that triggers a branch and what happens next. It can continue treatment, switch medicines, add treatment or omit a component. The aim and evidence must be stated for the actual branch; adaptation is not a synonym for less treatment.\n\nA prognostic result can identify risk without proving that changing treatment on its basis improves outcomes. An omission strategy must assess the outcomes and harms of that decision in the relevant population. Noninferiority is one possible design requiring a justified margin, rather than an automatic property of every adaptation study. KEYNOTE-522 compared whole assigned strategies and did not reserve its postoperative phase for residual disease or independently randomise escalation at surgery.",
+        "notes": [
+          "The assessment must match the branch. An imaging change needs its modality, baseline, acquisition time, units and protocol threshold; tissue response needs the sampled sites, adequacy and definition. A change in one lesion is not a complete patient-level assessment, and a blood assay measures circulating material. Predicted pathological complete response is not the surgical finding itself, and a negative biopsy describes only the tissue submitted. Strategy benefit needs a comparator, recurrence or survival endpoint, follow-up and harms. No universal response percentage supplies permission to omit treatment.",
+          "In the 2024 I-SPY2.2 phase 2 report, 106 participants received datopotamab deruxtecan with durvalumab in the first block for high-risk stage II or III breast cancer. Subtype-specific algorithms used serial magnetic resonance imaging volume change and core biopsy to redirect later blocks, including earlier surgery for participants predicted to have a high probability of complete pathological response. The endpoint was assessed at resection. This was a defined research strategy, not permission to cancel surgery or a demonstration of equivalent long-term survival.",
+          "Postoperative adaptation has different comparisons. CREATE-X selected residual HER2-negative invasive disease after chemotherapy; OlympiA selected high-risk germline BRCA1/2-associated HER2-negative disease; EA1131 did not demonstrate that platinum was noninferior or superior to capecitabine in its residual basal-subtype comparison. Those studies do not directly test adding their medicines to the complete pembrolizumab sequence. Risk, a plausible mechanism and eligibility do not independently establish added benefit.",
+          "A baseline marker selecting a medicine differs from an on-treatment response rule. Response adaptation changes a participant's later treatment; response-adaptive randomisation changes assignment probabilities for future participants. A trial can use both. A safety-driven hold or substitution is a further distinct decision: favourable cancer response does not settle whether treatment can safely continue, or prove a changed course equivalent to the original one.",
+          "Consider a fictional early-surgery checkpoint requiring both a specified MRI criterion and an adequate negative biopsy. The scan meets its criterion, but the biopsy is inadequate. The combined AND rule is not met, because an uninterpretable input cannot be replaced by the favourable scan. This exercise supplies no numerical cutoff or treatment instruction; correct branch logic remains separate from evidence that acting on the rule improves clinical outcomes."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT03036488: KEYNOTE-522",
+            "url": "https://clinicaltrials.gov/study/NCT03036488"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT02743494: CheckMate 577",
+            "url": "https://clinicaltrials.gov/study/NCT02743494"
+          },
+          {
+            "label": "Shatsky et al., response-guided I-SPY2.2 Dato-DXd/durvalumab strategy (2024)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39277672/"
+          },
+          {
+            "label": "Masuda et al., CREATE-X residual-disease comparison (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+          },
+          {
+            "label": "Tutt et al., OlympiA (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/"
+          },
+          {
+            "label": "Mayer et al., EA1131 primary report (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34092112/"
+          },
+          {
+            "label": "Cortazar et al., response association and trial-level surrogacy (2014)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "RA1",
+          "text": "The assessment must match the branch. An imaging change needs its modality, baseline, acquisition time, units and protocol threshold; tissue response needs the sampled sites, adequacy and definition. A change in one lesion is not a complete patient-level assessment, and a blood assay measures circulating material. Predicted pathological complete response is not the surgical finding itself, and a negative biopsy describes only the tissue submitted. Strategy benefit needs a comparator, recurrence or survival endpoint, follow-up and harms. No universal response percentage supplies permission to omit treatment.",
+          "sources": [
+            "pmid-39277672",
+            "pmid-24529560"
+          ],
+          "scope": "Abstract-supported readout distinctions and an OnCo measurement/strategy reading rule."
+        },
+        {
+          "key": "RA2",
+          "text": "In the 2024 I-SPY2.2 phase 2 report, 106 participants received datopotamab deruxtecan with durvalumab in the first block for high-risk stage II or III breast cancer. Subtype-specific algorithms used serial magnetic resonance imaging volume change and core biopsy to redirect later blocks, including earlier surgery for participants predicted to have a high probability of complete pathological response. The endpoint was assessed at resection. This was a defined research strategy, not permission to cancel surgery or a demonstration of equivalent long-term survival.",
+          "sources": [
+            "pmid-39277672"
+          ],
+          "scope": "Complete abstract read; detailed full-text routes were unavailable or rate-limited."
+        },
+        {
+          "key": "RA3",
+          "text": "Postoperative adaptation has different comparisons. CREATE-X selected residual HER2-negative invasive disease after chemotherapy; OlympiA selected high-risk germline BRCA1/2-associated HER2-negative disease; EA1131 did not demonstrate that platinum was noninferior or superior to capecitabine in its residual basal-subtype comparison. Those studies do not directly test adding their medicines to the complete pembrolizumab sequence. Risk, a plausible mechanism and eligibility do not independently establish added benefit.",
+          "sources": [
+            "pmid-28564564",
+            "pmid-34081848",
+            "pmid-34092112",
+            "pmid-32101663"
+          ],
+          "scope": "Study-specific abstract evidence; combination limitation inferred from the actual comparisons."
+        },
+        {
+          "key": "RA4",
+          "text": "A baseline marker selecting a medicine differs from an on-treatment response rule. Response adaptation changes a participant's later treatment; response-adaptive randomisation changes assignment probabilities for future participants. A trial can use both. A safety-driven hold or substitution is a further distinct decision: favourable cancer response does not settle whether treatment can safely continue, or prove a changed course equivalent to the original one.",
+          "sources": [
+            "pmid-39277672",
+            "nci-organ-inflammation"
+          ],
+          "scope": "Design and safety reading distinctions; no universal omission or restart rule."
+        },
+        {
+          "key": "RA5",
+          "text": "Consider a fictional early-surgery checkpoint requiring both a specified MRI criterion and an adequate negative biopsy. The scan meets its criterion, but the biopsy is inadequate. The combined AND rule is not met, because an uninterpretable input cannot be replaced by the favourable scan. This exercise supplies no numerical cutoff or treatment instruction; correct branch logic remains separate from evidence that acting on the rule improves clinical outcomes.",
+          "sources": [
+            "pmid-39277672"
+          ],
+          "scope": "Fictional logic exercise; not asserted as the published I-SPY2.2 decision algorithm."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "0cb809634801be62bb79467502d676cdb5c8ec62145dacb888020248916c78e8",
+        "summary": "702f5f8aca4298e0e9eb38c0515581e8c148c55ad5eb5a524a86b51c2ffec37d",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "66b299d9042976687a3cfa1b60a1fa34c3f6d5acd2c50220b75381233a945169",
+        "asOf": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270"
+      },
+      "afterHashes": {
+        "tldr": "968b6118d8deb4d4061fc8f996348cc2452229ebd0f6b6e7cc1f4ad97b51ed5e",
+        "summary": "a8fae09c5b366291cac7793f952ae94ba1e6703d6342b58514860fa95afa7d48",
+        "notes": "0e3d181c953fb033e6bf59ee6b2e719e499cc73edde980d60dfde1eab95e60e3",
+        "links": "03cecd968ef39dcae0e0c7d131298f311e9541e3a2fbd7e3a3c0c741bb00de50",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "before": {
+        "notes": [
+          "C9741 randomised 2,005 women with node-positive primary breast cancer after surgery in a factorial comparison of two-weekly versus three-weekly treatment and sequential versus concurrent schedules. The two-weekly strategy included filgrastim. Its 2003 abstract reports risk ratios of 0.74 for disease-free survival and 0.69 for overall survival, and four-year disease-free survival of 82% versus 75%. These are results for that postoperative comparison and support package. The listed June 2003 erratum was not accessible in this check, so these numbers retain their abstract-level scope.",
+          "The 2019 EBCTCG individual-patient meta-analysis included 37,298 women in 26 early-breast-cancer trials, mostly younger than 70 and with node-positive disease. Across the strategies studied, ten-year recurrence was 28.0% versus 31.4%, breast-cancer mortality 18.9% versus 21.3%, and all-cause mortality 22.1% versus 24.8%. These comparisons do not test every shorter schedule. KEYNOTE-522 studied its own pembrolizumab-containing neoadjuvant and postoperative strategy; neither report establishes that changing the timing of that regimen reproduces the earlier dose-density result."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chemotherapy_regimen"
+          },
+          {
+            "label": "Citron et al., C9741 postoperative schedule comparison (2003)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12668651/"
+          },
+          {
+            "label": "EBCTCG, dose-intensity strategies in 26 randomised trials (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30739743/"
+          },
+          {
+            "label": "Schmid et al., KEYNOTE-522 neoadjuvant strategy (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "C9741 randomised 2,005 women with node-positive primary breast cancer after surgery in a factorial comparison of two-weekly versus three-weekly treatment and sequential versus concurrent schedules. The two-weekly strategy included filgrastim. Its 2003 abstract reports risk ratios of 0.74 for disease-free survival and 0.69 for overall survival, and four-year disease-free survival of 82% versus 75%. These are results for that postoperative comparison and support package. The listed June 2003 erratum was not accessible in this check, so these numbers retain their abstract-level scope.",
+          "The 2019 EBCTCG individual-patient meta-analysis included 37,298 women in 26 early-breast-cancer trials, mostly younger than 70 and with node-positive disease. Across the strategies studied, ten-year recurrence was 28.0% versus 31.4%, breast-cancer mortality 18.9% versus 21.3%, and all-cause mortality 22.1% versus 24.8%. These comparisons do not test every shorter schedule. KEYNOTE-522 studied its own pembrolizumab-containing neoadjuvant and postoperative strategy; neither report establishes that changing the timing of that regimen reproduces the earlier dose-density result.",
+          "Read a combined plan with six entries: disease setting and goal, each medicine's mechanism, the studied population and comparator, route and cadence with sequence, risks with monitoring and supportive care, and the separate local-treatment question. This is a reading aid rather than orders or consent. A laboratory rationale for adding a pathway inhibitor fills the mechanism entry but does not supply the remaining clinical evidence, delivery or safety entries.",
+          "The KEYNOTE-522 card concerns previously untreated stage II or III triple-negative breast cancer and a whole preoperative and postoperative strategy. Four three-week cycles of paclitaxel and carboplatin preceded four with an anthracycline and cyclophosphamide, followed by surgery and up to nine assigned pembrolizumab or placebo cycles. The planned blocks span about 12, 12 and 27 dosing weeks: eight plus nine gives up to 17 assigned doses, approximately a year, with the surgical gap and holds affecting the actual calendar. Its first-602 pCR result, all-1,174 survival analyses and treatment-related safety results have distinct denominators and cutoffs. Radiation indications and the actual breast and node procedures require their own entries. The trial calendar is not a personal administration record.",
+          "The mechanism entry also needs the right class. Paclitaxel stabilises microtubules used in cellular organisation, intracellular transport and division; carboplatin forms DNA cross-links; doxorubicin has DNA intercalation and topoisomerase-II-associated effects; cyclophosphamide is activated to alkylating metabolites. Pembrolizumab binds PD-1 on T cells and blocks interaction with PD-L1 and PD-L2, reducing that inhibitory signalling rather than strengthening every immune function. These are different jobs, not a demonstration that combining more mechanisms improves outcomes. Oral capecitabine is not made mild by its route, nor does its mechanism establish a benefit from adding it to every plan.",
+          "Dose is the amount given; dose intensity describes amount delivered per unit time. Dose-dense scheduling shortens intervals relative to a specified reference, while the therapeutic index concerns useful effect relative to harm. These distinctions do not prove that more frequent delivery always helps. Cancer activity does not imply uniform exposure or sensitivity throughout the body, and normal tissues can also be injured. External-beam radiation treats planned local volumes and can affect nearby healthy structures. Different mechanisms can bring overlapping harms, so a component's hold, substitution or continuation depends on the actual medicines, interactions and purpose rather than a diagram alone.",
+          "Give supportive care its own part of the record. Immune-related inflammation, including pneumonitis, needs clinical attribution; a symptom alone does not name its cause. A low neutrophil count and infection risk differ from the decision to use selected granulocyte colony-stimulating factor (G-CSF) support. Nausea differs from vomiting, and acute, delayed and anticipatory patterns need their timing recorded. Supportive medicines can improve tolerability without treating the cancer itself, and symptoms during a combination can have more than one possible cause.",
+          "In a fictional calendar, block A has four planned visits but only three administrations and one hold. Interim imaging was acquired before that visit was rescheduled; block B was substituted after safety review; surgery has its own operation and specimen-collection dates. The scan reflects its acquisition date and the record shows changed exposure. It does not prove that a delay caused an outcome or that the substituted course preserved exactly the original benefit. Six planned doses with five documented administrations and a cancelled visit likewise establish five administrations, not six.",
+          "Systemic medicines, breast surgery and radiation can contribute different jobs to one goal. Systemic reach does not guarantee activity in every cancer cell, and local treatment is not a ranking of importance. The breast operation and node assessment are separate procedures. Receptor classification alone does not supply stage, earlier exposure, eligibility or safety. To assess a fictional claim that three mechanisms make a combination better, ask for the population, comparator, outcome, follow-up, actual delivery and harms. Neither the intensity nor the number of medicines by itself establishes curative intent."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Chemotherapy_regimen"
+          },
+          {
+            "label": "Citron et al., C9741 postoperative schedule comparison (2003)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12668651/"
+          },
+          {
+            "label": "EBCTCG, dose-intensity strategies in 26 randomised trials (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30739743/"
+          },
+          {
+            "label": "Schmid et al., KEYNOTE-522 neoadjuvant strategy (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          },
+          {
+            "label": "NCI: treatment regimen definition",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/regimen"
+          },
+          {
+            "label": "NCI: chemotherapy delivery and cycles",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+          },
+          {
+            "label": "NCI: breast surgery and separate node assessment",
+            "url": "https://www.cancer.gov/types/breast/treatment/surgery"
+          },
+          {
+            "label": "NCI: radiation roles and normal tissues",
+            "url": "https://www.cancer.gov/types/breast/treatment/radiation"
+          },
+          {
+            "label": "NCI: immune organ inflammation",
+            "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation"
+          },
+          {
+            "label": "NCI: infection and neutropenia",
+            "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection"
+          },
+          {
+            "label": "NCI: nausea and vomiting patterns",
+            "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea"
+          },
+          {
+            "label": "NCI: G-CSF supportive role",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/g-csf"
+          },
+          {
+            "label": "DailyMed: paclitaxel product mechanism",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
+          },
+          {
+            "label": "DailyMed: carboplatin product pharmacology",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=48aa7ef3-9f44-2a08-e054-00144ff88e88"
+          },
+          {
+            "label": "DailyMed: conventional doxorubicin mechanism",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1fd148fb-0fbc-4b6f-b790-23546fb46a71"
+          },
+          {
+            "label": "DailyMed: cyclophosphamide metabolism and mechanism",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bad5bfc-12c0-46a2-8355-1028f108ecbf"
+          },
+          {
+            "label": "KEYTRUDA prescribing information: mechanism and early-TNBC strategy",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228"
+          },
+          {
+            "label": "OpenStax Biology 2e: microtubule transport and division",
+            "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "TC1",
+          "text": "Read a combined plan with six entries: disease setting and goal, each medicine's mechanism, the studied population and comparator, route and cadence with sequence, risks with monitoring and supportive care, and the separate local-treatment question. This is a reading aid rather than orders or consent. A laboratory rationale for adding a pathway inhibitor fills the mechanism entry but does not supply the remaining clinical evidence, delivery or safety entries.",
+          "sources": [
+            "nci-api-regimen",
+            "pmid-32101663",
+            "nci-chemotherapy"
+          ],
+          "scope": "OnCo study-reading card with a fictional untested add-on; no new product indication."
+        },
+        {
+          "key": "TC2",
+          "text": "The KEYNOTE-522 card concerns previously untreated stage II or III triple-negative breast cancer and a whole preoperative and postoperative strategy. Four three-week cycles of paclitaxel and carboplatin preceded four with an anthracycline and cyclophosphamide, followed by surgery and up to nine assigned pembrolizumab or placebo cycles. The planned blocks span about 12, 12 and 27 dosing weeks: eight plus nine gives up to 17 assigned doses, approximately a year, with the surgical gap and holds affecting the actual calendar. Its first-602 pCR result, all-1,174 survival analyses and treatment-related safety results have distinct denominators and cutoffs. Radiation indications and the actual breast and node procedures require their own entries. The trial calendar is not a personal administration record.",
+          "sources": [
+            "pmid-32101663",
+            "pmid-35139274",
+            "pmid-39282906",
+            "nci-breast-surgery",
+            "nci-breast-radiation"
+          ],
+          "scope": "Trial abstracts, stated cycle arithmetic and selected official text; no personal dosing or mandatory radiation sequence."
+        },
+        {
+          "key": "TC3",
+          "text": "The mechanism entry also needs the right class. Paclitaxel stabilises microtubules used in cellular organisation, intracellular transport and division; carboplatin forms DNA cross-links; doxorubicin has DNA intercalation and topoisomerase-II-associated effects; cyclophosphamide is activated to alkylating metabolites. Pembrolizumab binds PD-1 on T cells and blocks interaction with PD-L1 and PD-L2, reducing that inhibitory signalling rather than strengthening every immune function. These are different jobs, not a demonstration that combining more mechanisms improves outcomes. Oral capecitabine is not made mild by its route, nor does its mechanism establish a benefit from adding it to every plan.",
+          "sources": [
+            "label-paclitaxel",
+            "label-carboplatin",
+            "label-doxorubicin",
+            "label-cyclophosphamide",
+            "keytruda-v228",
+            "pmid-28564564",
+            "openstax-cytoskeleton"
+          ],
+          "scope": "Selected labelled mechanism sections and textbook microtubule paragraph; no claim of cancer-only activity or complete mechanism."
+        },
+        {
+          "key": "TC4",
+          "text": "Dose is the amount given; dose intensity describes amount delivered per unit time. Dose-dense scheduling shortens intervals relative to a specified reference, while the therapeutic index concerns useful effect relative to harm. These distinctions do not prove that more frequent delivery always helps. Cancer activity does not imply uniform exposure or sensitivity throughout the body, and normal tissues can also be injured. External-beam radiation treats planned local volumes and can affect nearby healthy structures. Different mechanisms can bring overlapping harms, so a component's hold, substitution or continuation depends on the actual medicines, interactions and purpose rather than a diagram alone.",
+          "sources": [
+            "nci-api-systemic-therapy",
+            "nci-chemotherapy",
+            "nci-breast-radiation"
+          ],
+          "scope": "Official descriptions, operational dose/time definitions and conditional delivery interpretation; earlier schedule-study notes retain their own scope."
+        },
+        {
+          "key": "TC5",
+          "text": "Give supportive care its own part of the record. Immune-related inflammation, including pneumonitis, needs clinical attribution; a symptom alone does not name its cause. A low neutrophil count and infection risk differ from the decision to use selected granulocyte colony-stimulating factor (G-CSF) support. Nausea differs from vomiting, and acute, delayed and anticipatory patterns need their timing recorded. Supportive medicines can improve tolerability without treating the cancer itself, and symptoms during a combination can have more than one possible cause.",
+          "sources": [
+            "nci-organ-inflammation",
+            "nci-neutropenia",
+            "nci-nausea",
+            "nci-api-g-csf"
+          ],
+          "scope": "Targeted official safety teaching; no individual prophylaxis or immune-rechallenge instruction."
+        },
+        {
+          "key": "TC6",
+          "text": "In a fictional calendar, block A has four planned visits but only three administrations and one hold. Interim imaging was acquired before that visit was rescheduled; block B was substituted after safety review; surgery has its own operation and specimen-collection dates. The scan reflects its acquisition date and the record shows changed exposure. It does not prove that a delay caused an outcome or that the substituted course preserved exactly the original benefit. Six planned doses with five documented administrations and a cancelled visit likewise establish five administrations, not six.",
+          "sources": [
+            "nci-chemotherapy",
+            "pmid-32101663"
+          ],
+          "scope": "Fictional documentation exercise and bounded causal reading rule."
+        },
+        {
+          "key": "TC7",
+          "text": "Systemic medicines, breast surgery and radiation can contribute different jobs to one goal. Systemic reach does not guarantee activity in every cancer cell, and local treatment is not a ranking of importance. The breast operation and node assessment are separate procedures. Receptor classification alone does not supply stage, earlier exposure, eligibility or safety. To assess a fictional claim that three mechanisms make a combination better, ask for the population, comparator, outcome, follow-up, actual delivery and harms. Neither the intensity nor the number of medicines by itself establishes curative intent.",
+          "sources": [
+            "nci-api-systemic-therapy",
+            "nci-breast-surgery",
+            "nci-breast-radiation",
+            "pmid-32101663"
+          ],
+          "scope": "Official roles and a fictional mechanism-versus-evidence exercise; no procedure selection."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "notes": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "links": "86bb5c28fe50378cbf2e3accb6181eba5e0e956945971941fd47acb8dbe51324",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "links": "67ce3664f880d6ed36202bc617ac867a3c0affd97167874a71b58fa76f80ca7f",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "tnbc-residual-disease-decision",
+      "before": {
+        "summary": "About a third of patients treated on the KEYNOTE-522 regimen have residual invasive disease at surgery (pathological complete response 64.8 percent with pembrolizumab versus 51.2 percent without, first 602 patients). Residual cancer burden (RCB) grades what is left: in a pooled analysis of 5,161 patients across 12 cohorts, each unit of the continuous RCB score raised the hazard of an event-free survival event, and RCB class was prognostic in every subtype including triple-negative disease. In the preplanned exploratory KEYNOTE-522 analysis, the EFS hazard-ratio estimates for pembrolizumab versus placebo were 0.70 (95% CI 0.38 to 1.31), 0.92 (0.39 to 2.20), 0.52 (0.32 to 0.82) and 1.24 (0.69 to 2.23) for RCB-0 through RCB-3 respectively. These uncertain subgroup estimates do not assign the same proven effect to every class; among RCB-0/1 patients, 21 of 38 EFS events were CNS recurrences.\n\nWhat the trials say about treatment after residual disease: capecitabine for six to eight cycles improved five-year disease-free survival from 56.1 to 69.8 percent and overall survival from 70.3 to 78.8 percent in the triple-negative subgroup of CREATE-X (Japan and Korea, no immunotherapy era); one year of olaparib improved three-year invasive disease-free survival from 77.1 to 85.9 percent and overall survival (hazard ratio 0.68 at the second interim analysis) in germline BRCA carriers in OlympiA, 82 percent of whom had triple-negative disease; platinum was not better than capecitabine in EA1131 (stopped for futility); genomically directed therapy was not better than physician's choice in BRE12-158; and adjuvant pembrolizumab continues to complete a year in the KEYNOTE-522 pathway, with its independent contribution untested (SWOG S1418 will report it). The open randomised trials for this group are ASCENT-05/OptimICE-RD (sacituzumab govitecan with pembrolizumab, 10 UK sites) and TROPION-Breast03 (datopotamab deruxtecan with or without durvalumab, 12 UK sites), both with invasive disease-free survival as the primary endpoint. ctDNA after surgery marks the highest-risk group: in the UK c-TRAK TN trial 27 percent of patients had ctDNA detected within 12 months and 72 percent of those already had metastases on scans when it was found, so testing has to start earlier and be more sensitive before it can steer treatment.",
+        "notes": [
+          "CREATE-X tested capecitabine after residual HER2-negative invasive disease following preoperative chemotherapy. OlympiA tested one year of olaparib after local treatment and neoadjuvant or adjuvant chemotherapy in high-risk HER2-negative disease with a germline BRCA1 or BRCA2 pathogenic or likely pathogenic variant. These are different eligibility groups and comparisons. Their results do not establish a universal choice for everyone with residual TNBC or directly test every combination with the full pembrolizumab pathway. Keep the tested strategy and its uncertainty with the proposed next step."
+        ],
+        "links": [
+          {
+            "label": "Residual cancer burden and long-term survival: pooled analysis of 5,161 patients (Lancet Oncology 2022)",
+            "url": "https://doi.org/10.1016/S1470-2045(21)00589-1"
+          },
+          {
+            "label": "KEYNOTE-522: event-free survival by residual cancer burden (Annals of Oncology 2024)",
+            "url": "https://doi.org/10.1016/j.annonc.2024.02.002"
+          },
+          {
+            "label": "CREATE-X (NEJM 2017)",
+            "url": "https://doi.org/10.1056/NEJMoa1612645"
+          },
+          {
+            "label": "OlympiA (NEJM 2021)",
+            "url": "https://doi.org/10.1056/NEJMoa2105215"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "summary": "In the first-602 KEYNOTE-522 analysis, pathological complete response was 64.8 percent with pembrolizumab versus 51.2 percent with placebo. The complement of 64.8 percent is about 35 percent not meeting that endpoint; it is not a universal rate of histologically confirmed residual disease in everyone treated. Residual cancer burden (RCB) grades what is left: in a pooled analysis of 5,161 patients across 12 cohorts, each unit of the continuous RCB score raised the hazard of an event-free survival event, and RCB class was prognostic in every subtype including triple-negative disease. In the preplanned exploratory KEYNOTE-522 analysis, the EFS hazard-ratio estimates for pembrolizumab versus placebo were 0.70 (95% CI 0.38 to 1.31), 0.92 (0.39 to 2.20), 0.52 (0.32 to 0.82) and 1.24 (0.69 to 2.23) for RCB-0 through RCB-3 respectively. These uncertain subgroup estimates do not assign the same proven effect to every class; among RCB-0/1 patients, 21 of 38 EFS events were CNS recurrences.\n\nWhat the trials say about treatment after residual disease: capecitabine for six to eight cycles improved five-year disease-free survival from 56.1 to 69.8 percent and overall survival from 70.3 to 78.8 percent in the triple-negative subgroup of CREATE-X (Japan and Korea, no immunotherapy era); one year of olaparib improved three-year invasive disease-free survival from 77.1 to 85.9 percent and overall survival (hazard ratio 0.68 at the second interim analysis) in germline BRCA carriers in OlympiA, 82 percent of whom had triple-negative disease; platinum was not better than capecitabine in EA1131 (stopped for futility); genomically directed therapy was not better than physician's choice in BRE12-158; and adjuvant pembrolizumab continues to complete a year in the KEYNOTE-522 pathway, without independent randomisation of that postoperative component in KEYNOTE-522. The open randomised trials for this group are ASCENT-05/OptimICE-RD (sacituzumab govitecan with pembrolizumab, 10 UK sites) and TROPION-Breast03 (datopotamab deruxtecan with or without durvalumab, 12 UK sites), both with invasive disease-free survival as the primary endpoint. In c-TRAK TN, ctDNA was detected in 44 of 161 surveillance participants by 12 months. The separate 72 percent figure was 23 of 32 intervention-allocated participants who already had metastases on staging when ctDNA became positive, not 72 percent of everyone tested. Five started pembrolizumab and none achieved sustained ctDNA clearance; this feasibility result does not establish a survival benefit from a blood-result-guided strategy.",
+        "notes": [
+          "CREATE-X tested capecitabine after residual HER2-negative invasive disease following preoperative chemotherapy. OlympiA tested one year of olaparib after local treatment and neoadjuvant or adjuvant chemotherapy in high-risk HER2-negative disease with a germline BRCA1 or BRCA2 pathogenic or likely pathogenic variant. These are different eligibility groups and comparisons. Their results do not establish a universal choice for everyone with residual TNBC or directly test every combination with the full pembrolizumab pathway. Keep the tested strategy and its uncertainty with the proposed next step.",
+          "Post-neoadjuvant escalation means considering an additional or different treatment after residual tissue cancer is found following preoperative therapy. Residual invasive disease and complete pathological response provide risk information, not a guarantee of recurrence or cure and not proof that every earlier component failed. Grade the amount and sites of residual disease separately from deciding which next intervention improves outcomes. Trial eligibility is not evidence that every proposed medicine helps.",
+          "The evidence ladder keeps complete comparisons separate. KEYNOTE-522 included postoperative assigned treatment regardless of pCR within its whole strategy. CREATE-X tested capecitabine after residual HER2-negative invasive disease following chemotherapy; OlympiA tested a year of olaparib in its high-risk germline BRCA1/2-associated HER2-negative population. Their results do not independently test capecitabine or olaparib added to postoperative pembrolizumab. A control arm that permits pembrolizumab plus capecitabine also does not independently randomise the value of adding capecitabine.",
+          "Three phase 3 ADC studies ask different residual-disease questions. SASCIA, NCT04595565, compares sacituzumab govitecan with physician choice of capecitabine, platinum or observation in high-risk HER2-negative disease. TROPION-Breast03 compares datopotamab deruxtecan with or without durvalumab against investigator choice; its primary iDFS comparison is the combination versus that control. ASCENT-05/OptimICE-RD compares sacituzumab govitecan plus pembrolizumab against pembrolizumab with or without capecitabine. Their retrieved records have no posted tabular results. This statement is limited to those registry checks and does not exclude separate publications or establish a preferred treatment.",
+          "The BRE12-158 preplanned ctDNA analysis studied people who already had residual disease, with survival-linked ctDNA data for 142 participants. Detectable ctDNA was associated with worse distant disease-free survival: hazard ratio 2.99, 95% confidence interval 1.38 to 6.48, with 24-month estimates of 56% versus 81%. There was no pCR comparison group, so it cannot show added prognostic information over a pCR-versus-residual comparison. Association does not establish that changing therapy because of that result improves survival. A negative blood result does not erase residual tissue or an involved margin.",
+          "For postoperative interpretation, use three connected cards. The local card needs operative details, margins, distribution, nodes and relevant radiation evidence. The systemic card needs earlier treatment, receptor and germline criteria, eligibility and a matched treatment comparison. The safety card needs toxicity history, recovery, organ assessment, interactions and clinical review. Recovery can alter timing and local care can affect systemic delivery, but a response label does not answer all three questions.",
+          "In a fictional report after KEYNOTE-522-style treatment, a small invasive breast focus, an involved node and an involved margin coexist with no qualifying germline BRCA1/2 variant and a prior inflammatory event that paused immune treatment. Residual disease means no pCR, but the margin and node require their own local review. Capecitabine has historical residual-disease evidence rather than a proven pembrolizumab add-on effect; OlympiA's germline criterion is not met. A negative ctDNA result changes none of those observed tissue findings. Whether immune treatment can resume is a separate safety question.",
+          "A different fictional person reaches pCR and is offered capecitabine because CREATE-X helped after surgery. CREATE-X required residual invasive disease, so it does not answer that pCR question. Postoperative pembrolizumab was part of the KEYNOTE-522 strategy, but that fact does not isolate the benefit of every remaining dose. Read germline eligibility, earlier treatment and safety before transporting another trial's option. Radiation remains a separate local decision rather than a consequence supplied by the systemic evidence ladder."
+        ],
+        "links": [
+          {
+            "label": "Residual cancer burden and long-term survival: pooled analysis of 5,161 patients (Lancet Oncology 2022)",
+            "url": "https://doi.org/10.1016/S1470-2045(21)00589-1"
+          },
+          {
+            "label": "KEYNOTE-522: event-free survival by residual cancer burden (Annals of Oncology 2024)",
+            "url": "https://doi.org/10.1016/j.annonc.2024.02.002"
+          },
+          {
+            "label": "CREATE-X (NEJM 2017)",
+            "url": "https://doi.org/10.1056/NEJMoa1612645"
+          },
+          {
+            "label": "OlympiA (NEJM 2021)",
+            "url": "https://doi.org/10.1056/NEJMoa2105215"
+          },
+          {
+            "label": "Radovich et al., residual-TNBC ctDNA analysis and denominator (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32644110/"
+          },
+          {
+            "label": "Turner et al., c-TRAK TN surveillance and intervention denominators (2023)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36423745/"
+          },
+          {
+            "label": "Mayer et al., EA1131 (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34092112/"
+          },
+          {
+            "label": "Schneider et al., BRE12-158 randomised comparison (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34910554/"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT04595565: SASCIA",
+            "url": "https://clinicaltrials.gov/study/NCT04595565"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT05629585: TROPION-Breast03",
+            "url": "https://clinicaltrials.gov/study/NCT05629585"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT05633654: ASCENT-05 / OptimICE-RD",
+            "url": "https://clinicaltrials.gov/study/NCT05633654"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "PE1",
+          "text": "Post-neoadjuvant escalation means considering an additional or different treatment after residual tissue cancer is found following preoperative therapy. Residual invasive disease and complete pathological response provide risk information, not a guarantee of recurrence or cure and not proof that every earlier component failed. Grade the amount and sites of residual disease separately from deciding which next intervention improves outcomes. Trial eligibility is not evidence that every proposed medicine helps.",
+          "sources": [
+            "pmid-24529560",
+            "rcb-2007",
+            "pmid-28564564"
+          ],
+          "scope": "Primary prognostic and trial abstracts; no uniform resistance or treatment-selection claim."
+        },
+        {
+          "key": "PE2",
+          "text": "The evidence ladder keeps complete comparisons separate. KEYNOTE-522 included postoperative assigned treatment regardless of pCR within its whole strategy. CREATE-X tested capecitabine after residual HER2-negative invasive disease following chemotherapy; OlympiA tested a year of olaparib in its high-risk germline BRCA1/2-associated HER2-negative population. Their results do not independently test capecitabine or olaparib added to postoperative pembrolizumab. A control arm that permits pembrolizumab plus capecitabine also does not independently randomise the value of adding capecitabine.",
+          "sources": [
+            "pmid-32101663",
+            "pmid-28564564",
+            "pmid-34081848",
+            "registry:NCT05629585",
+            "registry:NCT05633654"
+          ],
+          "scope": "Study-specific design evidence; combination limitation is an inference from the comparisons, not an exhaustive negative literature claim."
+        },
+        {
+          "key": "PE3",
+          "text": "Three phase 3 ADC studies ask different residual-disease questions. SASCIA, NCT04595565, compares sacituzumab govitecan with physician choice of capecitabine, platinum or observation in high-risk HER2-negative disease. TROPION-Breast03 compares datopotamab deruxtecan with or without durvalumab against investigator choice; its primary iDFS comparison is the combination versus that control. ASCENT-05/OptimICE-RD compares sacituzumab govitecan plus pembrolizumab against pembrolizumab with or without capecitabine. Their retrieved records have no posted tabular results. This statement is limited to those registry checks and does not exclude separate publications or establish a preferred treatment.",
+          "sources": [
+            "registry:NCT04595565",
+            "registry:NCT05629585",
+            "registry:NCT05633654"
+          ],
+          "scope": "Current primary registry identification, arms and outcomes read; absence of posted results is explicitly bounded."
+        },
+        {
+          "key": "PE4",
+          "text": "The BRE12-158 preplanned ctDNA analysis studied people who already had residual disease, with survival-linked ctDNA data for 142 participants. Detectable ctDNA was associated with worse distant disease-free survival: hazard ratio 2.99, 95% confidence interval 1.38 to 6.48, with 24-month estimates of 56% versus 81%. There was no pCR comparison group, so it cannot show added prognostic information over a pCR-versus-residual comparison. Association does not establish that changing therapy because of that result improves survival. A negative blood result does not erase residual tissue or an involved margin.",
+          "sources": [
+            "pmid-32644110"
+          ],
+          "scope": "Complete abstract read; the 196-person source description and 142 ctDNA analysis are not silently substituted for the main trial publication's 193 enrolled."
+        },
+        {
+          "key": "PE5",
+          "text": "For postoperative interpretation, use three connected cards. The local card needs operative details, margins, distribution, nodes and relevant radiation evidence. The systemic card needs earlier treatment, receptor and germline criteria, eligibility and a matched treatment comparison. The safety card needs toxicity history, recovery, organ assessment, interactions and clinical review. Recovery can alter timing and local care can affect systemic delivery, but a response label does not answer all three questions.",
+          "sources": [
+            "nci-breast-surgery",
+            "nci-breast-radiation",
+            "nci-organ-inflammation",
+            "pmid-34081848"
+          ],
+          "scope": "OnCo reading framework; coordinated clinical decisions, not a prescription."
+        },
+        {
+          "key": "PE6",
+          "text": "In a fictional report after KEYNOTE-522-style treatment, a small invasive breast focus, an involved node and an involved margin coexist with no qualifying germline BRCA1/2 variant and a prior inflammatory event that paused immune treatment. Residual disease means no pCR, but the margin and node require their own local review. Capecitabine has historical residual-disease evidence rather than a proven pembrolizumab add-on effect; OlympiA's germline criterion is not met. A negative ctDNA result changes none of those observed tissue findings. Whether immune treatment can resume is a separate safety question.",
+          "sources": [
+            "pmid-28564564",
+            "pmid-34081848",
+            "pmid-32101663",
+            "pmid-32644110",
+            "nci-organ-inflammation"
+          ],
+          "scope": "Complete fictional worked case; no individual treatment or margin-management instruction."
+        },
+        {
+          "key": "PE7",
+          "text": "A different fictional person reaches pCR and is offered capecitabine because CREATE-X helped after surgery. CREATE-X required residual invasive disease, so it does not answer that pCR question. Postoperative pembrolizumab was part of the KEYNOTE-522 strategy, but that fact does not isolate the benefit of every remaining dose. Read germline eligibility, earlier treatment and safety before transporting another trial's option. Radiation remains a separate local decision rather than a consequence supplied by the systemic evidence ladder.",
+          "sources": [
+            "pmid-28564564",
+            "pmid-34081848",
+            "pmid-32101663",
+            "nci-breast-radiation"
+          ],
+          "scope": "Fictional eligibility exercise and direct limits of the trial designs."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "summary": "22c06d04da0589a9eb6571036fe1a138e978aa1e39150ae51774a3a270bdc629",
+        "notes": "302098ecee8a0f2306dd2399e627433dcde0c5dd45ec510f58e2187c60e4840e",
+        "links": "c2f6f6530b06db6ac980057d6e661b9ece9eed6aaf72b82a23d48f857272d3a6",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "summary": "d2c1b132e43d74243630a1ab85308ae1895a492509a8dfdb0f4e37528841a8a8",
+        "notes": "0d8cc73ce32e1ad7b0ada9cfb0d4bfad0408ca432322531963efc4f57d79709a",
+        "links": "22b67148a34095dc6d817acfcc121e93687da54f26eee8a5eb87e31a1a129c01",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "neoadjuvant-versus-adjuvant-breast",
+      "before": {
+        "tldr": "Giving the same drugs before surgery rather than after does not change how long a woman lives, but it shrinks the tumour so that more women keep their breast, and it shows whether the drugs worked, which now decides what treatment comes next.",
+        "summary": "The survival question was answered by the Early Breast Cancer Trialists' Collaborative Group, pooling individual data for 4,756 women in ten randomised trials that compared the same chemotherapy given before or after surgery. More than two thirds of women given chemotherapy first had a complete or partial clinical response, and breast-conserving therapy was performed in 65 percent of them against 49 percent of those treated after surgery. There was no significant difference in distant recurrence at fifteen years (38.2 against 38.0 percent), breast cancer mortality (34.4 against 33.7 percent) or death from any cause (40.9 against 41.2 percent).\n\nThere is a cost, and it is local. Fifteen-year local recurrence was 21.4 percent after chemotherapy given first against 15.9 percent after surgery first, an absolute increase of 5.5 percent (rate ratio 1.37, 1.17 to 1.61, p=0.0001). The overview's explanation is that a tumour shrunk by chemotherapy may recur more often after conservation than a tumour of the same measured size that was never shrunk, and its recommendation is careful tumour localisation, detailed pathological assessment and appropriate radiotherapy rather than a retreat from the strategy.\n\nWhat has changed since those trials is the second reason to treat first, which they were not designed to measure: the response itself is information. Whether cancer remains in the breast and nodes at surgery now decides what is given afterwards, and that decision differs by receptor subtype, so it belongs on the subtype pages rather than here. The axillary and radiotherapy consequences are shared and are covered here: targeted axillary dissection for staging the axilla afterwards, ACOSOG Z1071 for why marking the node is necessary, and NSABP B-51, which found that regional nodal irradiation adds nothing once the nodes are pathologically clear.\n\nIn England NICE NG101 recommendations 1.13.25 to 1.13.29 govern radiotherapy after chemotherapy given first, and they key the decision to both the pretreatment stage and the post-treatment pathology.",
+        "notes": [],
+        "links": [
+          {
+            "label": "EBCTCG: chemotherapy before or after surgery, 4,756 women in ten trials (Lancet Oncology 2018)",
+            "url": "https://doi.org/10.1016/S1470-2045(17)30777-5"
+          },
+          {
+            "label": "NICE NG101 recommendations 1.13.25 to 1.13.29, radiotherapy after neoadjuvant chemotherapy",
+            "url": "https://www.nice.org.uk/guidance/ng101"
+          }
+        ],
+        "asOf": "2026-09-25"
+      },
+      "after": {
+        "tldr": "Historical trials comparing the same chemotherapy before or after breast surgery found no significant survival difference. Treatment before surgery increased breast conservation and supplied response information, while local recurrence and modern regimen evidence need separate assessment.",
+        "summary": "The survival question was answered by the Early Breast Cancer Trialists' Collaborative Group, pooling individual data for 4,756 women in ten randomised trials that compared the same chemotherapy given before or after surgery. More than two thirds of women given chemotherapy first had a complete or partial clinical response, and breast-conserving therapy was performed in 65 percent of them against 49 percent of those treated after surgery. There was no significant difference in distant recurrence at fifteen years (38.2 against 38.0 percent), breast cancer mortality (34.4 against 33.7 percent) or death from any cause (40.9 against 41.2 percent).\n\nThere is a cost, and it is local. Fifteen-year local recurrence was 21.4 percent after chemotherapy given first against 15.9 percent after surgery first, an absolute increase of 5.5 percent (rate ratio 1.37, 1.17 to 1.61, p=0.0001). The overview's explanation is that a tumour shrunk by chemotherapy may recur more often after conservation than a tumour of the same measured size that was never shrunk, and its recommendation is careful tumour localisation, detailed pathological assessment and appropriate radiotherapy rather than a retreat from the strategy.\n\nWhat has changed since those trials is the second reason to treat first, which they were not designed to measure: the response itself is information. Whether cancer remains in the breast and nodes at surgery now decides what is given afterwards, and that decision differs by receptor subtype, so it belongs on the subtype pages rather than here. The axillary and radiotherapy consequences are shared and are covered here: targeted axillary dissection for staging the axilla afterwards, ACOSOG Z1071 for why marking the node is necessary, and NSABP B-51, which did not find a statistically significant primary-endpoint benefit from regional irradiation in its selected initially cN1 population that became ypN0. That result does not establish zero effect or omission for all pretreatment stages and postoperative findings.\n\nIn England NICE NG101 recommendations 1.13.25 to 1.13.29 govern radiotherapy after chemotherapy given first, and they key the decision to both the pretreatment stage and the post-treatment pathology.",
+        "notes": [
+          "The EBCTCG timing analysis concerned ten trials that began before 2005 and compared the same chemotherapy before or after surgery; it did not test every modern immune-treatment sequence. Its absence of a statistically significant mortality difference is not proof that timing never matters. The increased frequency of breast conservation came with a higher local-recurrence rate, so localisation, pathological assessment and appropriate local treatment remain part of the interpretation.",
+          "Local decisions retain their own populations. In the clipped-node study, adding evaluation of a previously marked positive node to sentinel dissection reduced false-negative staging in the studied post-neoadjuvant cohort. B-51 instead studied regional irradiation after biopsy-proven cT1 to T3, cN1, M0 disease became ypN0; its primary hazard ratio was 0.88 with 95% confidence interval 0.60 to 1.28 at median 59.5 months. Neither result chooses every person's operation or radiation plan. Pretreatment extent and the actual postoperative findings remain necessary."
+        ],
+        "links": [
+          {
+            "label": "EBCTCG: chemotherapy before or after surgery, 4,756 women in ten trials (Lancet Oncology 2018)",
+            "url": "https://doi.org/10.1016/S1470-2045(17)30777-5"
+          },
+          {
+            "label": "NICE NG101 recommendations 1.13.25 to 1.13.29, radiotherapy after neoadjuvant chemotherapy",
+            "url": "https://www.nice.org.uk/guidance/ng101"
+          },
+          {
+            "label": "Mamounas et al., B-51 primary comparison and uncertainty (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40466065/"
+          },
+          {
+            "label": "Caudle et al., clipped-node assessment after neoadjuvant therapy (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "NB1",
+          "text": "The EBCTCG timing analysis concerned ten trials that began before 2005 and compared the same chemotherapy before or after surgery; it did not test every modern immune-treatment sequence. Its absence of a statistically significant mortality difference is not proof that timing never matters. The increased frequency of breast conservation came with a higher local-recurrence rate, so localisation, pathological assessment and appropriate local treatment remain part of the interpretation.",
+          "sources": [
+            "ebctcg-timing"
+          ],
+          "scope": "Complete primary meta-analysis abstract read; historical chemotherapy comparison retained."
+        },
+        {
+          "key": "NB2",
+          "text": "Local decisions retain their own populations. In the clipped-node study, adding evaluation of a previously marked positive node to sentinel dissection reduced false-negative staging in the studied post-neoadjuvant cohort. B-51 instead studied regional irradiation after biopsy-proven cT1 to T3, cN1, M0 disease became ypN0; its primary hazard ratio was 0.88 with 95% confidence interval 0.60 to 1.28 at median 59.5 months. Neither result chooses every person's operation or radiation plan. Pretreatment extent and the actual postoperative findings remain necessary.",
+          "sources": [
+            "caudle",
+            "b51",
+            "nice-ng101-recommendations"
+          ],
+          "scope": "Complete study abstracts and targeted NICE recommendations 1.13.25 to 1.13.29; no universal omission claim."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "46886e6fcff12e1752d519b143ee8bd65ac28d589aa6f44678636fa34231a4fb",
+        "summary": "e6b9c788e3edc365fea7f67722bd6b9f147dc176aa22b4fb7bb6bb39d7bacc34",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "eac23f5d551ec50720669f2a515fc1bb92344b99740d2f778390e39ff0dc8a24",
+        "asOf": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc"
+      },
+      "afterHashes": {
+        "tldr": "0286abd1da896e587e30e753271b8476ce224e87fc79fd3536bc5f3617a4c097",
+        "summary": "073f01d2e50b4fa8d45d8066a3ffa351110e35fc7056cff95ba82bc4419843fe",
+        "notes": "98683130d83b48c45e61cb8c7d17cd56e147446c52dfafddff9ff5a65600bff0",
+        "links": "18f49ade0b614dbc28455304058b72f2451686ffc39f9aab2f8d6b874554fc16",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "ea1131",
+      "before": {
+        "tldr": "EA1131 asked whether platinum chemotherapy after surgery beats capecitabine for triple-negative breast cancer that survived pre-operative chemotherapy. It was stopped early because platinum was not going to prove better and was more toxic, so capecitabine stayed the standard.",
+        "summary": "ECOG-ACRIN EA1131 (NCT02445391) randomised 415 patients with stage II to III triple-negative breast cancer and residual invasive disease of at least 1 cm after neoadjuvant chemotherapy to four cycles of carboplatin or cisplatin or six cycles of capecitabine; the primary endpoint was three-year invasive disease-free survival in basal-like tumours (77 percent of enrolled patients by PAM50). The trial was closed early after a prespecified futility analysis found platinum unlikely to be superior or non-inferior to capecitabine (JCO 2021; the primary paper is not indexed on Europe PMC, so its hazard ratio is not quoted here). Patient-reported outcomes (Cancer 2024, 296 patients) showed a greater on-treatment symptom burden with capecitabine at cycle 3 despite a similar frequency of clinician-rated adverse events, and a clinically meaningful decline in neurotoxicity scores on platinum. A 2026 post hoc analysis (376 patients, 18 percent Black) found no racial difference in disease-free or overall survival despite worse socioeconomic indices among Black patients. EA1131 keeps capecitabine (CREATE-X) as the non-BRCA post-neoadjuvant standard and is the reason platinum is not offered in that setting.",
+        "notes": [],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT02445391",
+            "url": "https://clinicaltrials.gov/study/NCT02445391"
+          },
+          {
+            "label": "EA1131 patient-reported outcomes (Cancer 2024)",
+            "url": "https://doi.org/10.1002/cncr.35187"
+          },
+          {
+            "label": "EA1131: race, socioeconomic status and outcomes (JCO Oncology Advances 2026)",
+            "url": "https://doi.org/10.1200/OA-25-00177"
+          }
+        ],
+        "asOf": "2026-09-25"
+      },
+      "after": {
+        "tldr": "This trial did not establish platinum chemotherapy as an equally effective or better alternative to capecitabine after residual triple-negative breast cancer. Severe toxicity was more frequent with platinum.",
+        "summary": "ECOG-ACRIN EA1131 (NCT02445391) reported 410 randomised participants with stage II to III triple-negative breast cancer and residual invasive disease of at least 1 cm after neoadjuvant chemotherapy to four cycles of carboplatin or cisplatin or six cycles of capecitabine; the primary endpoint was three-year invasive disease-free survival in basal-like tumours (308 patients in the reported basal-subtype analysis). The trial was closed early after a prespecified futility analysis found platinum unlikely to be superior or non-inferior to capecitabine (JCO 2021). Patient-reported outcomes (Cancer 2024, 296 patients) showed a greater on-treatment symptom burden with capecitabine at cycle 3 despite a similar frequency of clinician-rated adverse events, and a clinically meaningful decline in neurotoxicity scores on platinum. A 2026 post hoc analysis (376 patients, 18 percent Black) found no racial difference in disease-free or overall survival despite worse socioeconomic indices among Black patients. The primary comparison did not justify replacing capecitabine with platinum in this residual basal-subtype population; it does not establish a universal treatment choice or exact equivalence.",
+        "notes": [
+          "The 2021 primary report specified stage II or III TNBC with at least 1 cm of residual breast disease after preoperative chemotherapy. Four platinum cycles were compared with six capecitabine cycles in a noninferiority design with a superiority alternative. Among 308 basal-subtype participants, three-year invasive disease-free survival was 42% (95% confidence interval 30 to 53) versus 49% (39 to 59); grade 3 and 4 toxicity was more frequent with platinum. At median 20 months and 120 primary events, the monitoring committee recommended stopping because further follow-up was unlikely to establish either noninferiority or superiority. This is not proof of exact equality.",
+          "Keep the denominators and versions visible. The primary publication reports 410 randomised participants; the current registry lists 415 actual enrolments and includes an observation arm closed earlier in the study. These are different source counts, not a reason to replace one silently with the other. The registry enrolment field and the publication's analysis population answer different questions."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT02445391",
+            "url": "https://clinicaltrials.gov/study/NCT02445391"
+          },
+          {
+            "label": "EA1131 patient-reported outcomes (Cancer 2024)",
+            "url": "https://doi.org/10.1002/cncr.35187"
+          },
+          {
+            "label": "EA1131: race, socioeconomic status and outcomes (JCO Oncology Advances 2026)",
+            "url": "https://doi.org/10.1200/OA-25-00177"
+          },
+          {
+            "label": "Mayer et al., EA1131 primary randomized report (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34092112/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "EA1",
+          "text": "The 2021 primary report specified stage II or III TNBC with at least 1 cm of residual breast disease after preoperative chemotherapy. Four platinum cycles were compared with six capecitabine cycles in a noninferiority design with a superiority alternative. Among 308 basal-subtype participants, three-year invasive disease-free survival was 42% (95% confidence interval 30 to 53) versus 49% (39 to 59); grade 3 and 4 toxicity was more frequent with platinum. At median 20 months and 120 primary events, the monitoring committee recommended stopping because further follow-up was unlikely to establish either noninferiority or superiority. This is not proof of exact equality.",
+          "sources": [
+            "pmid-34092112"
+          ],
+          "scope": "Complete primary abstract read; earlier secondary-report sentences retain their separate source scope."
+        },
+        {
+          "key": "EA2",
+          "text": "Keep the denominators and versions visible. The primary publication reports 410 randomised participants; the current registry lists 415 actual enrolments and includes an observation arm closed earlier in the study. These are different source counts, not a reason to replace one silently with the other. The registry enrolment field and the publication's analysis population answer different questions.",
+          "sources": [
+            "pmid-34092112",
+            "registry:NCT02445391"
+          ],
+          "scope": "Primary abstract and current registry read; no unstated reconciliation of all enrolment exclusions."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "3f45b37040d3222138e5f9ed1ef3aa0c978255672ae806996c108cafcba802c7",
+        "summary": "ec0707d0f00e39622dd27a9065e8631771a6f2b60da16761015c1a158e6a20f4",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "da5d2437ad9e0d5940e0222629aee257795f3548fd92ca9b72cd091045805466",
+        "asOf": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc"
+      },
+      "afterHashes": {
+        "tldr": "0684379d446aadfe373f40fd2fa4f43f66db12e7c4252aa3a186a8002ba9ab08",
+        "summary": "0422ccc021e9c9d1b9c55ece1ed4fbfe690fe51502c2d82b06f1b8d89b7dc691",
+        "notes": "759a182c9d12070e44c81085fbeed9fde3f19cea667c857b1bd29966e64cc034",
+        "links": "08f896a64c6939ca4abc66e6e8b6e6a4d4757634095f742a3316db5dc8e92535",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "c-trak-tn",
+      "before": {
+        "tldr": "c-TRAK TN, run from the Royal Marsden and the Institute of Cancer Research, was the first trial to use blood tests for tumour DNA to trigger treatment in triple-negative breast cancer. A quarter of patients tested positive within a year, but most of them already had visible metastases on scans, so the test came too late to prevent relapse with pembrolizumab.",
+        "summary": "c-TRAK TN (NCT03145961) registered 208 patients between January 2018 and December 2019 with early triple-negative breast cancer and residual disease after neoadjuvant chemotherapy or stage II to III disease treated with adjuvant chemotherapy; 185 had tumour sequencing, 171 (92.4 percent) had trackable mutations and 161 entered digital PCR ctDNA surveillance every three months for 12 months (18 if samples were missed during the pandemic). ctDNA-positive patients were randomised 2 to 1 to intervention (staging scans, then pembrolizumab for a year if free of recurrence) or blinded observation; a September 2020 amendment closed the observation group. ctDNA was detected in 27.3 percent by 12 months (44 of 161; 95 percent confidence interval 20.6 to 34.9) and seven patients relapsed without prior ctDNA detection. Of 32 patients allocated to intervention, 72 percent (23) already had metastases on staging and four declined pembrolizumab; of the five who started it, none achieved sustained ctDNA clearance, so the second co-primary endpoint was not met. The trial's lesson, that ctDNA surveillance must start earlier and use more sensitive or frequent assays before it can steer adjuvant treatment, shaped the design of the ctDNA-triggered trials now recruiting.",
+        "notes": [
+          "UK sites (registry, 17): Royal Marsden Hospital Chelsea and Sutton, Royal Bournemouth Hospital, Velindre Cancer Centre Cardiff, Western General Hospital Edinburgh, Beatson West of Scotland Cancer Centre Glasgow, Guy's Hospital, Charing Cross Hospital, St Bartholomew's Hospital, University College London Hospitals, Maidstone Hospital, the Christie Manchester, Clatterbridge Cancer Centre, Nottingham University Hospitals, Churchill Hospital Oxford, Weston Park Hospital Sheffield, Royal Cornwall Hospital Truro."
+        ],
+        "asOf": "2026-09-24"
+      },
+      "after": {
+        "tldr": "This study used blood tests to trigger further assessment in early triple-negative breast cancer. Many intervention-allocated participants already had metastases on staging; five who started pembrolizumab did not achieve sustained clearance of tumour DNA.",
+        "summary": "c-TRAK TN (NCT03145961) registered 208 patients between January 2018 and December 2019 with early triple-negative breast cancer and residual disease after neoadjuvant chemotherapy or stage II to III disease treated with adjuvant chemotherapy; 185 had tumour sequencing, 171 (92.4 percent) had trackable mutations and 161 entered digital PCR ctDNA surveillance every three months for 12 months (18 if samples were missed during the pandemic). ctDNA-positive patients were randomised 2 to 1 to intervention (staging scans, then pembrolizumab for a year if free of recurrence) or blinded observation; a September 2020 amendment closed the observation group. ctDNA was detected in 27.3 percent by 12 months (44 of 161; 95 percent confidence interval 20.6 to 34.9) and seven patients relapsed without prior ctDNA detection. Of 32 patients allocated to intervention, 72 percent (23) already had metastases on staging and four declined pembrolizumab; of the five who started it, none achieved sustained ctDNA clearance, so the second co-primary endpoint was not met. The authors emphasised earlier and more sensitive or frequent testing as implications for future study design. The trial did not demonstrate that those changes, or a ctDNA-triggered intervention, improve survival.",
+        "notes": [
+          "UK sites (registry, 17): Royal Marsden Hospital Chelsea and Sutton, Royal Bournemouth Hospital, Velindre Cancer Centre Cardiff, Western General Hospital Edinburgh, Beatson West of Scotland Cancer Centre Glasgow, Guy's Hospital, Charing Cross Hospital, St Bartholomew's Hospital, University College London Hospitals, Maidstone Hospital, the Christie Manchester, Clatterbridge Cancer Centre, Nottingham University Hospitals, Churchill Hospital Oxford, Weston Park Hospital Sheffield, Royal Cornwall Hospital Truro.",
+          "The 72% figure is 23 of 32 participants allocated to the intervention component, not 72% of the 161 surveillance participants or all 44 detected by 12 months. One observation participant was reallocated after the protocol amendment. Seven participants relapsed without previous ctDNA detection. These findings and the five treated participants without sustained clearance describe this surveillance/intervention design; they cannot identify how much earlier detection would change survival or establish a personal result-guided treatment rule."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "CT1",
+          "text": "The 72% figure is 23 of 32 participants allocated to the intervention component, not 72% of the 161 surveillance participants or all 44 detected by 12 months. One observation participant was reallocated after the protocol amendment. Seven participants relapsed without previous ctDNA detection. These findings and the five treated participants without sustained clearance describe this surveillance/intervention design; they cannot identify how much earlier detection would change survival or establish a personal result-guided treatment rule.",
+          "sources": [
+            "pmid-36423745"
+          ],
+          "scope": "Complete primary abstract read; denominator and feasibility limits, not a causal prevention claim."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "a12b36e5863b434c5e066537e47685a468ee9c166620cce8047d811008bf98a3",
+        "summary": "b4adab12f5fe798a127c52d1ab6dbf302886102de19078409a8aa6da6427b5ea",
+        "notes": "fa3c4e976d1c9c8420facea01e4b1ecd6f2218ee49319de2c3300b02a9e9918c",
+        "asOf": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246"
+      },
+      "afterHashes": {
+        "tldr": "39871d03f5ec2726ad33ed6e7737fe061291e7e230b5ee84104175578d8af59a",
+        "summary": "20e9b7d4df98f77e8399b44c1b9752a2363b7d5073bdfb1260d11f807fd633b1",
+        "notes": "223da87b793d5fe95e237c49c33be46df478c8ed649ef99a3c2629ffb1f6e4cb",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "olympia",
+      "before": {
+        "tldr": "Showed that a year of a PARP inhibitor after standard treatment improves survival in women with inherited BRCA mutations.",
+        "notes": [
+          "Second interim overall survival analysis (Annals of Oncology 2022, median follow-up 3.5 years): hazard ratio 0.68 (98.5 percent confidence interval 0.47 to 0.97, p 0.009), four-year overall survival 89.8 versus 86.4 percent, four-year invasive disease-free survival 82.7 versus 75.4 percent, distant disease-free survival 86.5 versus 79.1 percent; no new cases of acute myeloid leukaemia or myelodysplasia. Eligibility (Lynparza label): triple-negative patients needed residual invasive disease after neoadjuvant chemotherapy, or node-positive disease or a tumour of 2 cm or more after adjuvant chemotherapy; 82 percent of the trial was triple-negative. UK: 22 registry sites; NICE TA886 (10 May 2023) commissions the year of olaparib."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT02032823",
+            "url": "https://clinicaltrials.gov/study/NCT02032823"
+          },
+          {
+            "label": "OlympiA overall survival (Annals of Oncology 2022)",
+            "url": "https://doi.org/10.1016/j.annonc.2022.09.159"
+          },
+          {
+            "label": "NICE TA886 (10 May 2023)",
+            "url": "https://www.nice.org.uk/guidance/ta886"
+          },
+          {
+            "label": "Lynparza label (openFDA): OlympiA eligibility and results",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+          },
+          {
+            "label": "OlympiA six-year primary publication",
+            "url": "https://doi.org/10.1016/j.annonc.2026.08.002"
+          }
+        ],
+        "asOf": "2026-10-06"
+      },
+      "after": {
+        "tldr": "OlympiA found better outcomes with one year of olaparib after standard treatment in people with high-risk early breast cancer, inherited BRCA1 or BRCA2 variants and HER2-negative disease.",
+        "notes": [
+          "The 2021 primary comparison randomised 1,836 people with high-risk HER2-negative early breast cancer and germline BRCA1 or BRCA2 pathogenic or likely pathogenic variants to one year of olaparib or placebo after local treatment and chemotherapy. Three-year invasive disease-free survival was 85.9% versus 77.1%, difference 8.8 points (95% confidence interval 4.5 to 13.0), with hazard ratio 0.58 and its prespecified 99.5% interval 0.41 to 0.82. In the TNBC neoadjuvant group, residual invasive disease was required; after adjuvant chemotherapy, eligibility required positive axillary nodes or an invasive primary at least 2 cm. The hormone-receptor-positive entry rules differed. The trial did not establish benefit for every inherited variant, lower-risk situation or somatic-only alteration.",
+          "The 2026 third interim report has median follow-up 6.1 years and describes maintained benefit. Six-year overall survival was 87.5% versus 83.2%, with hazard ratio 0.72 (95% confidence interval 0.56 to 0.93). The authors report an estimated survival difference of 4.4 points (0.9 to 6.7); subtracting the separately rounded percentages gives 4.3, so retain the reported estimate rather than silently treating it as rounded arithmetic. This is longer observation of OlympiA, not a second independent trial or a comparison with postoperative pembrolizumab combinations.",
+          "Second interim overall survival analysis (Annals of Oncology 2022, median follow-up 3.5 years): hazard ratio 0.68 (98.5 percent confidence interval 0.47 to 0.97, p 0.009), four-year overall survival 89.8 versus 86.4 percent, four-year invasive disease-free survival 82.7 versus 75.4 percent, distant disease-free survival 86.5 versus 79.1 percent; no new cases of acute myeloid leukaemia or myelodysplasia. Eligibility (Lynparza label): triple-negative patients needed residual invasive disease after neoadjuvant chemotherapy, or node-positive disease or a tumour of 2 cm or more after adjuvant chemotherapy; 82 percent of the trial was triple-negative. UK: 22 registry sites; NICE TA886 (10 May 2023) commissions the year of olaparib."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT02032823",
+            "url": "https://clinicaltrials.gov/study/NCT02032823"
+          },
+          {
+            "label": "OlympiA overall survival (Annals of Oncology 2022)",
+            "url": "https://doi.org/10.1016/j.annonc.2022.09.159"
+          },
+          {
+            "label": "NICE TA886 (10 May 2023)",
+            "url": "https://www.nice.org.uk/guidance/ta886"
+          },
+          {
+            "label": "Lynparza label (openFDA): OlympiA eligibility and results",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+          },
+          {
+            "label": "OlympiA six-year primary publication",
+            "url": "https://doi.org/10.1016/j.annonc.2026.08.002"
+          },
+          {
+            "label": "Tutt et al., OlympiA primary report and eligibility (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/"
+          },
+          {
+            "label": "Garber et al., OlympiA six-year report (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42636977/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "OL1",
+          "text": "The 2021 primary comparison randomised 1,836 people with high-risk HER2-negative early breast cancer and germline BRCA1 or BRCA2 pathogenic or likely pathogenic variants to one year of olaparib or placebo after local treatment and chemotherapy. Three-year invasive disease-free survival was 85.9% versus 77.1%, difference 8.8 points (95% confidence interval 4.5 to 13.0), with hazard ratio 0.58 and its prespecified 99.5% interval 0.41 to 0.82. In the TNBC neoadjuvant group, residual invasive disease was required; after adjuvant chemotherapy, eligibility required positive axillary nodes or an invasive primary at least 2 cm. The hormone-receptor-positive entry rules differed. The trial did not establish benefit for every inherited variant, lower-risk situation or somatic-only alteration.",
+          "sources": [
+            "pmid-34081848"
+          ],
+          "scope": "Complete abstract and targeted full-text eligibility; no full-paper read claimed."
+        },
+        {
+          "key": "OL2",
+          "text": "The 2026 third interim report has median follow-up 6.1 years and describes maintained benefit. Six-year overall survival was 87.5% versus 83.2%, with hazard ratio 0.72 (95% confidence interval 0.56 to 0.93). The authors report an estimated survival difference of 4.4 points (0.9 to 6.7); subtracting the separately rounded percentages gives 4.3, so retain the reported estimate rather than silently treating it as rounded arithmetic. This is longer observation of OlympiA, not a second independent trial or a comparison with postoperative pembrolizumab combinations.",
+          "sources": [
+            "pmid-42636977"
+          ],
+          "scope": "Complete 2026 abstract read; estimates and rounded arithmetic kept separate."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "eb68f85e15b81e557035a8f481672a11a55980151d124af58d90471c56699a47",
+        "notes": "27698052f6989b434d2ef5c56f7b2b4418c592e4a72290e3f593b2ef078524b8",
+        "links": "682718d288af9705d7b567864ce28dbd5e7194412e51afbf6a925cb993cf9823",
+        "asOf": "60e44b095b242681a6bf189848348a558dc307a5e8df1aab516d8e06e7faef04"
+      },
+      "afterHashes": {
+        "tldr": "cb2b3aa255931f2748ac04316ed75cc1c42d6028081385d28620ea2f1c90127c",
+        "notes": "02d8dd1d421a4d30502f741761ab3924f1354e023fa3bbf1d8387d7f5177c23a",
+        "links": "b2e4a5a7b82bb5bead7d70feefe5ea66d7f5e00bb13f082b46e913d95f9262a0",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "create-x",
+      "before": {
+        "tldr": "CREATE-X showed that giving the tablet chemotherapy capecitabine for six months after surgery, to women whose breast cancer had not fully disappeared with pre-operative chemotherapy, cut deaths; the gain was largest in triple-negative disease, where five-year survival rose from 70 to 79 percent.",
+        "notes": [
+          "Registered as UMIN000000843 with the UMIN Clinical Trials Registry; no ClinicalTrials.gov entry. The 910 randomised patients were split 1 to 1; subgroup arm sizes are not given in the abstract.",
+          "Hand-foot syndrome, the most common adverse reaction, occurred in 73.4 percent of the capecitabine group."
+        ],
+        "asOf": "2026-10-07"
+      },
+      "after": {
+        "tldr": "CREATE-X found that adding capecitabine after surgery improved disease-free and overall survival in people with residual HER2-negative invasive breast cancer after preoperative chemotherapy.",
+        "notes": [
+          "Registered as UMIN000000843 with the UMIN Clinical Trials Registry; no ClinicalTrials.gov entry. The 910 randomised patients were split 1 to 1; subgroup arm sizes are not given in the abstract.",
+          "Hand-foot syndrome, the most common adverse reaction, occurred in 73.4 percent of the capecitabine group.",
+          "The triple-negative subgroup's five-year disease-free survival was 69.8% versus 56.1%, hazard ratio 0.58 (95% confidence interval 0.39 to 0.87), and overall survival 78.8% versus 70.3%, hazard ratio 0.52 (0.30 to 0.90). These are subgroup estimates within the 910-person HER2-negative residual-invasive trial, not the results for every one of its participants. They do not apply to a pCR population that the trial did not enrol or establish an added effect on top of pembrolizumab. A larger-looking subgroup effect alone is not proof of a treatment-by-subgroup interaction."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "CX1",
+          "text": "The triple-negative subgroup's five-year disease-free survival was 69.8% versus 56.1%, hazard ratio 0.58 (95% confidence interval 0.39 to 0.87), and overall survival 78.8% versus 70.3%, hazard ratio 0.52 (0.30 to 0.90). These are subgroup estimates within the 910-person HER2-negative residual-invasive trial, not the results for every one of its participants. They do not apply to a pCR population that the trial did not enrol or establish an added effect on top of pembrolizumab. A larger-looking subgroup effect alone is not proof of a treatment-by-subgroup interaction.",
+          "sources": [
+            "pmid-28564564"
+          ],
+          "scope": "Complete primary abstract read; no claim of proven subgroup superiority."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "3e07671795ec1ed54d1b4bdfb0a23937090913f6dc4a7d3fe501ba23484a4f53",
+        "notes": "20c8f37651d232d2c26c200c3267f30cf7fb69d95fff18f789810479361e2921",
+        "asOf": "76d1562084b80ede48b8bcaa3acf2f92b835f1559225588120cbf9ee68496244"
+      },
+      "afterHashes": {
+        "tldr": "503bc648a971497a198348fde8ec1f15cf16a44d9ed4346ce4623417b8a7e420",
+        "notes": "ded16815a76a0583cc0a97e50ca2ae7f16f688db5a099ac23d63a9b896098a86",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "bre12-158",
+      "before": {
+        "tldr": "BRE12-158 sequenced the cancer left behind after pre-operative chemotherapy and matched a targeted drug to it. Matched therapy was no better than the doctor's usual choice, which increasingly meant capecitabine, and blood-borne tumour DNA after surgery predicted who relapsed.",
+        "asOf": "2026-09-24"
+      },
+      "after": {
+        "tldr": "Sequencing-directed treatment did not show better outcomes than physician choice in this residual triple-negative breast-cancer trial. Detectable tumour DNA in blood was associated with higher recurrence risk, rather than a certain prediction for an individual.",
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "af20470446b20b575ef815845b631348d2a8ad18018d1a9f57cb42da87d77b04",
+        "asOf": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246"
+      },
+      "afterHashes": {
+        "tldr": "5cab8b91a91b643405272bdc451aedc7073648902249fca13615789a514185e5",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "keynote-355",
+      "before": {
+        "tldr": "Established immunotherapy plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression.",
+        "summary": "KEYNOTE-355, trial NCT02819518 sponsored by Merck and published in the New England Journal of Medicine in 2022, established pembrolizumab plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. It randomised 847 patients and met its primary progression-free and overall survival endpoints in tumours with a combined positive score of ten or more, with no benefit below that threshold, which defined the PD-L1 cut-off used today. OnCo links it to triple-negative breast cancer, pembrolizumab, the CPS term, the TNBC roadmap and IMpassion131. It is now being succeeded by ADC-based first-line regimens such as ASCENT-04, and whether chemotherapy remains part of first-line treatment at all is the open question.",
+        "notes": [
+          "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry figure of 882 includes the 32-patient part 1 safety run-in. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "UK access: NICE TA801 (29 June 2022) limits the regimen to CPS 10 or more with immune-cell staining below 1 percent, because atezolizumab with nab-paclitaxel (TA639) is commissioned for the immune-cell-positive group."
+        ],
+        "asOf": "2026-09-04"
+      },
+      "after": {
+        "tldr": "This trial found longer survival with pembrolizumab plus chemotherapy in its selected group with previously untreated advanced triple-negative breast cancer.",
+        "summary": "KEYNOTE-355, trial NCT02819518 sponsored by Merck and published in the New England Journal of Medicine in 2022, established pembrolizumab plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. It randomised 847 patients and met its primary progression-free and overall survival endpoints in tumours with a combined positive score of ten or more, in the prespecified CPS-ten-or-more comparison. This does not prove that the effect is exactly absent in every lower-score group. OnCo links it to triple-negative breast cancer, pembrolizumab, the CPS term, the TNBC roadmap and IMpassion131. Other first-line strategies, including ADC-based regimens, are separate comparisons; this trial alone cannot rank them.",
+        "notes": [
+          "In this study, previously untreated referred to the locally recurrent inoperable or metastatic setting, not to absence of every earlier cancer treatment. The 2020 report stratified randomisation by previous exposure to the same chemotherapy class in neoadjuvant or adjuvant care. The later overall-survival report met its significance criterion for combined positive score ten or more; a nonsignificant broader subgroup or an untested significance comparison does not demonstrate exactly zero effect in each lower-score stratum.",
+          "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry participant-flow table lists 35 starters across the three part-1 groups (11, 14 and 10) and 847 in the randomised part-2 groups (566 and 281), matching 882 total enrolments. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "UK access: NICE TA801 (29 June 2022) limits the regimen to CPS 10 or more with immune-cell staining below 1 percent, because atezolizumab with nab-paclitaxel (TA639) is commissioned for the immune-cell-positive group."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "K31",
+          "text": "In this study, previously untreated referred to the locally recurrent inoperable or metastatic setting, not to absence of every earlier cancer treatment. The 2020 report stratified randomisation by previous exposure to the same chemotherapy class in neoadjuvant or adjuvant care. The later overall-survival report met its significance criterion for combined positive score ten or more; a nonsignificant broader subgroup or an untested significance comparison does not demonstrate exactly zero effect in each lower-score stratum.",
+          "sources": [
+            "pmid-33278935",
+            "kn355-os"
+          ],
+          "scope": "Complete 2020 and 2022 abstracts; terminology and inference limit, not a current-access update."
+        }
+      ],
+      "replaceNotes": [
+        {
+          "before": "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry figure of 882 includes the 32-patient part 1 safety run-in. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "after": "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry participant-flow table lists 35 starters across the three part-1 groups (11, 14 and 10) and 847 in the randomised part-2 groups (566 and 281), matching 882 total enrolments. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "reason": "Do not conflate registry enrolment, safety-stage count and randomised population."
+        }
+      ],
+      "beforeHashes": {
+        "tldr": "51324a29444fbe9e8321b7178dfbbed0136339b6b31d9e730ba5b060d0fd356f",
+        "summary": "38ec2fda1463a95f66ef8cf32feb594b5df4a1d5cb84a2a743aa9952621d9df6",
+        "notes": "b229cdc1f7aa11bb3691446142baceb165c214aa59963cd0d552093cef8bd6c6",
+        "asOf": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992"
+      },
+      "afterHashes": {
+        "tldr": "1d78b7fa2dc3c2dd6fce5be1ec0d2fd37374029461401db93e33ef478c33fa8d",
+        "summary": "e843044404ef60f2bf52f4e7c8a580f32a869f35102f28a45a0a6a5db36367a4",
+        "notes": "4bceeab192f7f705b124437528e60aab7a7e51acff1f9caeb6ba33fdc4f0c6a9",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "ascent-05",
+      "before": {
+        "summary": "ASCENT-05 / OptimICE-RD compares postoperative sacituzumab govitecan plus pembrolizumab with physician choice of pembrolizumab with or without capecitabine for TNBC with residual invasive disease after neoadjuvant treatment. The primary endpoint is invasive disease-free survival. ClinicalTrials.gov record last updated 2026-09-09: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+        "notes": [
+          "ClinicalTrials.gov record last updated 2026-09-09: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "Design paper (Future Oncology 2024): AFT-65/ASCENT-05/OptimICE-RD randomises patients with residual invasive disease after neoadjuvant therapy to sacituzumab govitecan with pembrolizumab or physician's choice of pembrolizumab with or without capecitabine; primary endpoint invasive disease-free survival; registry enrolment 1,514 estimated, primary completion June 2027. UK sites (registry, 10): Hull, University Hospitals Birmingham, Clatterbridge Liverpool, Barts, Guy's, Royal Marsden, the Christie, East and North Hertfordshire (Mount Vernon), Taunton, York."
+        ],
+        "asOf": "2026-10-06"
+      },
+      "after": {
+        "summary": "ASCENT-05 / OptimICE-RD compares postoperative sacituzumab govitecan plus pembrolizumab with physician choice of pembrolizumab with or without capecitabine for TNBC with residual invasive disease after neoadjuvant treatment. The primary endpoint is invasive disease-free survival. ClinicalTrials.gov record last updated 2026-11-04: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+        "notes": [
+          "ClinicalTrials.gov record last updated 2026-11-04: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "Design paper (Future Oncology 2024): AFT-65/ASCENT-05/OptimICE-RD randomises patients with residual invasive disease after neoadjuvant therapy to sacituzumab govitecan with pembrolizumab or physician's choice of pembrolizumab with or without capecitabine; primary endpoint invasive disease-free survival; registry enrolment 1,514 estimated, primary completion June 2027. UK sites (registry, 10): Hull, University Hospitals Birmingham, Clatterbridge Liverpool, Barts, Guy's, Royal Marsden, the Christie, East and North Hertfordshire (Mount Vernon), Taunton, York."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [],
+      "replaceNotes": [
+        {
+          "before": "ClinicalTrials.gov record last updated 2026-09-09: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "after": "ClinicalTrials.gov record last updated 2026-11-04: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "reason": "Current registry last-update date; same study status and comparison."
+        }
+      ],
+      "beforeHashes": {
+        "summary": "08a027f36b6a6434353270735b504690e819770ffe99ede0d684b8ef02b60562",
+        "notes": "d3e13491fb6a2e033aebd5fbb6cdeab03ae93b83661665e6f00b12f108854d57",
+        "asOf": "60e44b095b242681a6bf189848348a558dc307a5e8df1aab516d8e06e7faef04"
+      },
+      "afterHashes": {
+        "summary": "07c50d58f7873b9f44c0cde566e6881426be7cf7f8fb5c123ecfed78a0e02a64",
+        "notes": "918227a97ba4f42d8236fa90bd55c619e5ac5460f5818c150f6a60797b78a5df",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "tropion-breast03",
+      "before": {
+        "summary": "TROPION-Breast03 compares datopotamab deruxtecan plus durvalumab, datopotamab deruxtecan alone, and investigator choice of capecitabine, pembrolizumab or both after surgery for stage I to III TNBC with residual invasive disease following neoadjuvant treatment. The registered primary iDFS comparison is the datopotamab deruxtecan plus durvalumab arm against investigator choice. ClinicalTrials.gov record last updated 2026-06-15: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+        "notes": [
+          "ClinicalTrials.gov record last updated 2026-06-15: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "Design paper (Therapeutic Advances in Medical Oncology 2024): stage I to III triple-negative disease with residual invasive disease at surgery, randomised 2 to 1 to 2 to datopotamab deruxtecan 6 mg/kg for eight cycles with durvalumab for nine, datopotamab alone, or investigator's choice of capecitabine, pembrolizumab or both; primary endpoint invasive disease-free survival for the combination against investigator's choice; registry 1,174 actual, primary completion September 2027. UK sites (registry, 12): Cambridge, Cardiff, Edinburgh, Greater London, London (2), Londonderry, Manchester, Newcastle upon Tyne, Portsmouth, Surrey, Taunton. NICE appraisal GID-TA11835 awaiting development."
+        ],
+        "asOf": "2026-10-06"
+      },
+      "after": {
+        "summary": "TROPION-Breast03 compares datopotamab deruxtecan plus durvalumab, datopotamab deruxtecan alone, and investigator choice of capecitabine, pembrolizumab or both after surgery for stage I to III TNBC with residual invasive disease following neoadjuvant treatment. The registered primary iDFS comparison is the datopotamab deruxtecan plus durvalumab arm against investigator choice. ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+        "notes": [
+          "ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "Design paper (Therapeutic Advances in Medical Oncology 2024): stage I to III triple-negative disease with residual invasive disease at surgery, randomised 2 to 1 to 2 to datopotamab deruxtecan 6 mg/kg for eight cycles with durvalumab for nine, datopotamab alone, or investigator's choice of capecitabine, pembrolizumab or both; primary endpoint invasive disease-free survival for the combination against investigator's choice; registry 1,174 actual, primary completion September 2027. UK sites (registry, 12): Cambridge, Cardiff, Edinburgh, Greater London, London (2), Londonderry, Manchester, Newcastle upon Tyne, Portsmouth, Surrey, Taunton. NICE appraisal GID-TA11835 awaiting development."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [],
+      "replaceNotes": [
+        {
+          "before": "ClinicalTrials.gov record last updated 2026-06-15: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "after": "ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "reason": "Current registry last-update date; same study status and comparison."
+        }
+      ],
+      "beforeHashes": {
+        "summary": "864f8332ed98484eb0a5f87f2859846bf31615c1e6c75a19f50358c5b1a1b0fd",
+        "notes": "153fa711a22f150275b89dac35ab781433184168c37bf60be73a20ec67a01b93",
+        "asOf": "60e44b095b242681a6bf189848348a558dc307a5e8df1aab516d8e06e7faef04"
+      },
+      "afterHashes": {
+        "summary": "3fe21d317f85f44aacb4e9351de34471c2800b578e04d8687553e5d2e13f722d",
+        "notes": "487300eefa452cc0737ab8783902b0b38e5416f4b09eaa94c85474df4300d57c",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "pcr",
+      "before": {
+        "notes": [
+          "In FDA breast-trial guidance, ypT0/Tis ypN0 means no residual invasive cancer on haematoxylin and eosin (H&E) examination of the complete resected breast specimen and all sampled regional nodes after neoadjuvant systemic treatment. Residual DCIS is permitted. The stricter ypT0 ypN0 definition also excludes in situ cancer. Preserve the actual protocol and nodal assessment rules.",
+          "Breast-only clearance is not the combined breast-and-node endpoint. Residual invasive cancer in a sampled node prevents that combined pCR result even when breast invasion is absent or a blood assay is negative. A small negative biopsy, imaging response and negative circulating tumour DNA are different observations.",
+          "Residual DCIS can meet the invasive-clearance definition while still requiring separate margin assessment. In an otherwise qualifying specimen with DCIS but no breast invasion and no residual sampled-node cancer, the permissive definition is met and the stricter one is not. Neither pCR nor a negative local edge certifies cure or absence at every body site.",
+          "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome.",
+          "Trial-level increases in pCR had little association with event-free or overall-survival effects in CTNeoBC (R squared 0.03 and 0.24 respectively). The analysis could not validate pCR as a surrogate for improved long-term outcomes. A study reporting a pCR gain without mature survival comparison cannot infer the size of a survival benefit from the responder association.",
+          "FDA's July 2020 revision 1 guidance concerns pCR endpoints for trial design and accelerated approval in high-risk early-stage breast cancer. It is not an individual treatment or cure rule. In the notation, y denotes assessment after neoadjuvant treatment and p denotes pathological assessment. Sections and stains consume finite tissue; incomplete sampling, unexamined nodes and mixed endpoint definitions can invalidate comparisons.",
+          "KEYNOTE-522 separately demonstrated endpoint and survival results for the whole perioperative regimen in previously untreated stage II or III TNBC. In the 2020 primary pCR analysis of the first 602 randomised participants, pembrolizumab plus neoadjuvant chemotherapy yielded 64.8% pCR versus 51.2% with placebo plus chemotherapy (difference 13.6 percentage points, 95% CI 5.4 to 21.8). The final 2024 overall-survival report covered all 1,174 randomised participants, including postoperative pembrolizumab or placebo: at 60 months, overall survival was 86.6% versus 81.7% (P = 0.002; median follow-up 75.1 months). Survival was measured directly; the pCR gain did not mathematically predict it or isolate which perioperative component produced the benefit.",
+          "In fictional case A, no breast invasion, residual DCIS and no residual cancer in sampled nodes meet ypT0/Tis ypN0 but not ypT0 ypN0. In fictional case B, the same breast finding plus a 4-mm residual invasive nodal deposit meets neither combined endpoint. Identical DCIS-at-ink findings in either case remain a separate margin question.",
+          "Subtract within the same endpoint and analysis: 64.8 minus 51.2 gives a 13.6-percentage-point pCR difference in the first 602 participants; 86.6 minus 81.7 gives 4.9 points in the separately reported 60-month survival estimates for all 1,174. The latter is often rounded to about five more people alive per hundred under the trial comparison. These time-to-event estimates are not literal counts from a complete hundred-person group, an individual forecast or a conversion from the pCR difference.",
+          "Triple-negative disease is where pathological complete response means most: in the CTNeoBC pooled analysis of 11,955 patients, eradication of tumour from breast and nodes (ypT0/is ypN0) was associated with event-free survival hazard ratio 0.24 and overall survival 0.16 in triple-negative disease, the strongest association of any subtype, yet trial-level increases in the rate did not predict survival gains (Cortazar 2014).",
+          "Triple-negative patients reach a complete response more often than others (22 against 11 percent in the MD Anderson series, 1985 to 2004) and then have similar survival, while those with residual disease do worse, particularly in the first three years (Liedtke 2008). Adding pembrolizumab to platinum chemotherapy raised the rate from 51.2 to 64.8 percent in KEYNOTE-522 (Schmid 2020)."
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "In FDA breast-trial guidance, ypT0/Tis ypN0 means no residual invasive cancer on haematoxylin and eosin (H&E) examination of the complete resected breast specimen and all sampled regional nodes after neoadjuvant systemic treatment. Residual DCIS is permitted. The stricter ypT0 ypN0 definition also excludes in situ cancer. Preserve the actual protocol and nodal assessment rules.",
+          "Breast-only clearance is not the combined breast-and-node endpoint. Residual invasive cancer in a sampled node prevents that combined pCR result even when breast invasion is absent or a blood assay is negative. A small negative biopsy, imaging response and negative circulating tumour DNA are different observations.",
+          "Residual DCIS can meet the invasive-clearance definition while still requiring separate margin assessment. In an otherwise qualifying specimen with DCIS but no breast invasion and no residual sampled-node cancer, the permissive definition is met and the stricter one is not. Neither pCR nor a negative local edge certifies cure or absence at every body site.",
+          "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome. The 95% confidence intervals were 0.18 to 0.33 for the triple-negative EFS association and 0.11 to 0.25 for OS.",
+          "Trial-level increases in pCR had little association with event-free or overall-survival effects in CTNeoBC (R squared 0.03 and 0.24 respectively). The analysis could not validate pCR as a surrogate for improved long-term outcomes. A study reporting a pCR gain without mature survival comparison cannot infer the size of a survival benefit from the responder association.",
+          "FDA's July 2020 revision 1 guidance concerns pCR endpoints for trial design and accelerated approval in high-risk early-stage breast cancer. It is not an individual treatment or cure rule. In the notation, y denotes assessment after neoadjuvant treatment and p denotes pathological assessment. Sections and stains consume finite tissue; incomplete sampling, unexamined nodes and mixed endpoint definitions can invalidate comparisons.",
+          "KEYNOTE-522 separately demonstrated endpoint and survival results for the whole perioperative regimen in previously untreated stage II or III TNBC. In the 2020 primary pCR analysis of the first 602 randomised participants, pembrolizumab plus neoadjuvant chemotherapy yielded 64.8% pCR versus 51.2% with placebo plus chemotherapy (difference 13.6 percentage points, 95% CI 5.4 to 21.8). The final 2024 overall-survival report covered all 1,174 randomised participants, including postoperative pembrolizumab or placebo: at 60 months, overall survival was 86.6% versus 81.7% (P = 0.002; median follow-up 75.1 months). Survival was measured directly; the pCR gain did not mathematically predict it or isolate which perioperative component produced the benefit.",
+          "In fictional case A, no breast invasion, residual DCIS and no residual cancer in sampled nodes meet ypT0/Tis ypN0 but not ypT0 ypN0. In fictional case B, the same breast finding plus a 4-mm residual invasive nodal deposit meets neither combined endpoint. Identical DCIS-at-ink findings in either case remain a separate margin question.",
+          "Subtract within the same endpoint and analysis: 64.8 minus 51.2 gives a 13.6-percentage-point pCR difference in the first 602 participants; 86.6 minus 81.7 gives 4.9 points in the separately reported 60-month survival estimates for all 1,174. The latter is often rounded to about five more people alive per hundred under the trial comparison. These time-to-event estimates are not literal counts from a complete hundred-person group, an individual forecast or a conversion from the pCR difference.",
+          "Triple-negative disease is where pathological complete response means most: in the CTNeoBC pooled analysis of 11,955 patients, eradication of tumour from breast and nodes (ypT0/is ypN0) was associated with event-free survival hazard ratio 0.24 and overall survival 0.16 in triple-negative disease, the strongest association of any subtype, yet trial-level increases in the rate did not predict survival gains (Cortazar 2014).",
+          "Triple-negative patients reach a complete response more often than others (22 against 11 percent in the MD Anderson series, 1985 to 2004) and then have similar survival, while those with residual disease do worse, particularly in the first three years (Liedtke 2008). Adding pembrolizumab to platinum chemotherapy raised the rate from 51.2 to 64.8 percent in KEYNOTE-522 (Schmid 2020)."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [],
+      "replaceNotes": [
+        {
+          "before": "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome.",
+          "after": "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome. The 95% confidence intervals were 0.18 to 0.33 for the triple-negative EFS association and 0.11 to 0.25 for OS.",
+          "reason": "Retain primary-study uncertainty beside the association; all earlier note text remains."
+        }
+      ],
+      "beforeHashes": {
+        "notes": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "perioperative-immune-window",
+      "before": {
+        "notes": [
+          "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+          "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+          "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+          "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site."
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence. Horowitz and colleagues frame the perioperative period in days to weeks; that review timeframe is not a universal measured duration of immune suppression or proof of one period of recurrence risk for every person.",
+          "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+          "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+          "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [],
+      "replaceNotes": [
+        {
+          "before": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+          "after": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence. Horowitz and colleagues frame the perioperative period in days to weeks; that review timeframe is not a universal measured duration of immune suppression or proof of one period of recurrence risk for every person.",
+          "reason": "Carry the later-only source-specific timeframe without turning a review framing into a universal outcome claim."
+        }
+      ],
+      "beforeHashes": {
+        "notes": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    }
+  ],
+  "summaryConsumerCorrections": {
+    "scope": "Current exact-table preconditions; no named review changed. Missing table entries retain English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "95c4b6374a8f15e398cca2d32548a6c999e2deb147461105325cc6ff35b4c02d",
+        "afterSha256": "ef5013c9fc877bc0e13bdd43012ad0bfdbe55c49b6967c132939b8c4cdfe4e43",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "ar",
+            "before": "أرست العلاج المناعي مع العلاج الكيميائي كعلاج من الخط الأول لسرطان الثدي الثلاثي السلبي النقيلي ذي التعبير عن PD-L1.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2fff5720c6146136060be7339dd5b329db9436eae615b98976210a2683517fdd",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "ar",
+            "before": "أظهرت أن سنة واحدة من مثبط PARP بعد العلاج المعياري تحسّن البقاء على قيد الحياة لدى النساء الحاملات لطفرات BRCA الوراثية.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2fc1bcfd3895231e29073e35631bfd7729e8bf71a3d5d84c424e3784ea57705a",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "ar",
+            "before": "إعطاء علاج أقل للمرضى الذين تتحسن حالتهم وعلاج أكثر لمن لا تتحسن حالتهم، مع الاستعانة بمؤشر مثل الاستجابة في التصوير أو ctDNA أو MRD لاتخاذ القرار. والهدف هو شفاء العدد نفسه من الأشخاص بضرر أقل.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4c0e959dd1268b0a76610cb8de4e54a30f110abe6f2f44cd5c9bf2436587cf4b",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "ar",
+            "before": "الخط الأول هو العلاج الأول للسرطان المتقدم؛ والخط الثاني هو ما يأتي بعد فشله، وهكذا.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2a563c03d263dab952fdc66b49c436828a88f6099e35bf34f92cf3865e7244ea",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "45db999b83200411154d973c7ddb5abcbb940e373efda400228a92b5e04e9259",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "9fc048fd9b675e11336df16f3e9fb5e14c0bb9ef0fccf456c8d866dc23ad4136",
+        "afterSha256": "10a70ad5d0c89ce0cc433ef0bf8fde10cfc106d0b7b40ec7e7879ee69325e5b1",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "de",
+            "before": "Etablierte Immuntherapie plus Chemotherapie als Erstlinienbehandlung des metastasierten dreifach negativen Brustkrebses mit PD-L1-Expression.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "0c197945c07dfdade078dcb3e60f1d3477db7f3294b0882829fca9984bc527e1",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "de",
+            "before": "Zeigte, dass ein Jahr PARP-Inhibitor nach der Standardbehandlung das Überleben von Frauen mit vererbten BRCA-Mutationen verbessert.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ec97a5afafe117ac818ca3447140345644ac9185720cc7c6ba5fa205b94a5aa9",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "de",
+            "before": "Patienten, denen es gut geht, weniger Behandlung geben und denen, bei denen das nicht der Fall ist, mehr, wobei ein Marker wie das Ansprechen in der Bildgebung, ctDNA oder MRD die Entscheidung leitet. Ziel ist es, ebenso viele Menschen mit weniger Schaden zu heilen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9a2b71f4f3d4c4a9edac55e86097028b0e46b7ed18e034cf9cc5f9ffdc45596f",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "de",
+            "before": "Die Erstlinie ist die erste Behandlung bei fortgeschrittenem Krebs; die Zweitlinie ist das, was nach ihrem Versagen folgt, und so weiter.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "97866e76f858ba282b23298594b4de3ce176da7b0b4ec26bcb2c8d4a258f9afe",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "08ca9a53ace71f1a9573492945104435dbef4dd19605942ebd501b69f11a1f75",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "be6826c18611442e04a6cf0e65e9acab45fb0e541efa9900d7a4287999e568ab",
+        "afterSha256": "d5e5bab4c39164c00c55c004857f094c43e3ee6ff0f371bd2d51cc7fb23a5ea2",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "es",
+            "before": "Estableció la inmunoterapia más quimioterapia como tratamiento de primera línea para el cáncer de mama triple negativo metastásico con expresión de PD-L1.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "b065ef71176092c1d52b1c0537d9fe644ff0472ea1f182e0d440355e4c083421",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "es",
+            "before": "Demostró que un año de un inhibidor de PARP tras el tratamiento estándar mejora la supervivencia en mujeres con mutaciones hereditarias de BRCA.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "071cd3bc098f64dca08190a9b0c58ee4019131a66866f1a581bd584a03fc85e3",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "es",
+            "before": "Dar menos tratamiento a los pacientes que van bien y más a los que no, usando un marcador como la respuesta en las imágenes, el ctDNA o la MRD para decidir. El objetivo es curar al mismo número de personas con menos daño.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3453c1e79a0e150859d0755c2bf6cc50eda4b0ecd39036c88d4a91a41f5ee9c8",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "es",
+            "before": "La primera línea es el primer tratamiento del cáncer avanzado; la segunda línea es lo que viene cuando falla, y así sucesivamente.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9925cc2abcf5eebe693eca068ebe3794005f535eac59855044e1519828bbc058",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "5290a2c1d7c63a22ae0ffe329cc6bdf6ad401581e716450ccf4612d7948a2b52",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "4f7275e5bb3114402a529eed5b621ae60e5187f20c4303072b4091d56d4e6e04",
+        "afterSha256": "58db36ff6ab650d34e2a4d4dbcd8f06657e3227ccfe4e9e07f2b6a35cfcff6d4",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "fr",
+            "before": "A établi l'immunothérapie plus chimiothérapie comme traitement de première ligne du cancer du sein triple négatif métastatique exprimant PD-L1.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "bbf75af53f307d6d6ffa27016baf3f1b4198c60efb50df09e8f86eb142ff1449",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "fr",
+            "before": "A montré qu'un an d'inhibiteur de PARP après le traitement standard améliore la survie des femmes porteuses de mutations héréditaires de BRCA.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "7b0058881be79924f067b14a598a9c58621a444c217c8508c5b759f6b0658d1f",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "fr",
+            "before": "Donner moins de traitement aux patients qui vont bien et davantage à ceux qui ne vont pas bien, en s'appuyant sur un marqueur tel que la réponse à l'imagerie, l'ctDNA ou la MRD pour décider. Le but est de guérir autant de personnes avec moins de dommages.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a6f67a8211d3453c88baf624bdfee8ac7c88602f28d5e812b24dec3d3c69cfa5",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "fr",
+            "before": "La première ligne est le premier traitement d'un cancer avancé ; la deuxième ligne est celui qui vient après son échec, et ainsi de suite.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9f50f1d05e02084ed53e789f74cf055cb5cc0439193ed6611f66e70be92564d9",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "de2f47feeed5a0b6b52a8579d8f705a72e57211a887db1d4e2986afbde4fa10c",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "3a4f5827dd6100f75f4703ae9c28e721be809a04c5011229f18590832ef75d93",
+        "afterSha256": "2c235ef056798dd0c754dfe609abf76b128bc4673dbc2794fb262cb896b22bb8",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "hi",
+            "before": "PD-L1 अभिव्यक्ति वाले मेटास्टैटिक ट्रिपल-निगेटिव स्तन कैंसर के लिए इम्यूनोथेरेपी और कीमोथेरेपी को प्रथम-पंक्ति उपचार के रूप में स्थापित किया।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "534585c59d71fa87dac4a0c32f832073e48b5725ef45622024d0cdb8f6268699",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "hi",
+            "before": "दिखाया कि मानक उपचार के बाद एक साल तक PARP अवरोधक लेने से वंशानुगत BRCA म्यूटेशन वाली महिलाओं में जीवित रहने की दर बेहतर होती है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3298faf45a464d193a71c2439727c48cbb478a61ca13518e9b60358674934cf1",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "hi",
+            "before": "जो मरीज़ अच्छा कर रहे हैं उन्हें कम इलाज देना और जो नहीं कर रहे उन्हें ज़्यादा, और यह तय करने के लिए स्कैन प्रतिक्रिया, ctDNA या MRD जैसे किसी मार्कर का उपयोग करना। उद्देश्य है कम नुकसान के साथ उतने ही लोगों को ठीक करना।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "75c854286bbbdfdf4a8501417834e508beb124f5c6b01ffa0690a771d385342b",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "hi",
+            "before": "पहली पंक्ति उन्नत कैंसर का पहला उपचार है; दूसरी पंक्ति उसके विफल होने पर आती है, और इसी तरह।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "86face02d45b066e0bd45b4fb2f24ba721ff7ff0160315fd9cb45de1ae1953a8",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "efd2ea27e21c94d7ba13f0f096361c804da56977ce39f87712d257cb6e91129d",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "9e33dbfe85b71eb9ed5111974b2e1124e3d41353a9e93998e02bfe0d947486de",
+        "afterSha256": "f501cfd784fa1e892709f5d207844afad9beb4d1f51a798da3ab421258ca50d3",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "ja",
+            "before": "PD-L1発現のある転移性トリプルネガティブ乳がんに対する一次治療として、免疫療法と化学療法の併用を確立した。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "7f42b0a5837d72e96d9e82b7fad9b306dd21ab525081c4f2d798c7cda0f26a67",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "ja",
+            "before": "標準治療後にPARP阻害薬を1年間投与すると、遺伝性BRCA変異を持つ女性の生存が改善することを示した試験である。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f69b1b5551db14903c2c5236413696aa932a16d295437898411047a6033476c2",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "ja",
+            "before": "経過が良好な患者には治療を減らし、良好でない患者には治療を増やすことで、判断には画像上の反応、ctDNA、MRDなどのマーカーを用いる。目的は、より少ない害で同じ数の人を治すことである。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "28e75f9ef50a122853d212b17dc83c48ea79f41ef3c040637613e9757c4a9846",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "ja",
+            "before": "一次治療は進行がんに対して最初に行う治療で、二次治療はそれが効かなくなった後に行う治療、というように続いていく。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6c2b9d8a88d187f2efb30df383c4a08c8f737675b789d3eb101f37538d264663",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "1c4fe8c6236499e64e61ddecced47c10b9e2e2373f2489df4f9bc86327ed75f6",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "e366095e3661539f9ca6f181141b3706d93287d9e18585846c2db40263bcf5b9",
+        "afterSha256": "5ff08bb1b267525a57d1df9b28b3fdb1eacc6eeb9f891ee4c9cce47bd6c5d1df",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "pt",
+            "before": "Estabeleceu a imunoterapia mais quimioterapia como tratamento de primeira linha para o câncer de mama triplo-negativo metastático com expressão de PD-L1.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "88873ad2e9cdae26cd9a244bee2200c54ae8fd008db11dcd0859457c74e8ed12",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "pt",
+            "before": "Mostrou que um ano de um inibidor de PARP após o tratamento padrão melhora a sobrevida em mulheres com mutações hereditárias de BRCA.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6ecb6676374bf89305ab75eafafc4179940c42c5b05a3ddf5883e3f589d7516b",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "pt",
+            "before": "Dar menos tratamento aos pacientes que estão indo bem e mais aos que não estão, usando um marcador como a resposta nos exames de imagem, o ctDNA ou a MRD para decidir. O objetivo é curar o mesmo número de pessoas com menos danos.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4586ae1daefb9d790abefd2483b22c787b0177a3e1d44cb881425fd97dd536e8",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "pt",
+            "before": "Primeira linha é o primeiro tratamento para câncer avançado; segunda linha é o que vem depois que ele falha, e assim por diante.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "701cf12ff0c4a7afec1e37426ddbed1ff1efe06d99f87339969e0b1243ba8787",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "620c8b2ab4a26f564277a790e7f4f44d289036f9270bebd2e6a88f418ca95a85",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "c8cc6f4c371c2f6817e6932019dcc3fb479336428b306441e6e880a49afa8fdd",
+        "afterSha256": "271adc6f992ca21116d0ea4c03d1fecc6394ad276490e963171d96bb77aa1fae",
+        "changes": [
+          {
+            "id": "keynote-355",
+            "language": "zh",
+            "before": "确立了免疫治疗联合化疗作为PD-L1表达的转移性三阴性乳腺癌的一线治疗。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4bee9776400d63675d76f730c72142c43f85f1ebf55fb71cd34210420c978830",
+            "afterSha256": null
+          },
+          {
+            "id": "olympia",
+            "language": "zh",
+            "before": "证明在标准治疗后使用一年PARP抑制剂可改善携带遗传性BRCA突变女性的生存。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2b8d5ad8d608f222bcc47129b04f93814c6cad71139f2c652646d4e1f846e895",
+            "afterSha256": null
+          },
+          {
+            "id": "de-escalation",
+            "language": "zh",
+            "before": "对病情良好的患者减少治疗，对病情不佳的患者加强治疗，并借助影像学反应、ctDNA或MRD等标志物来做决定。目的是在治愈同样多人的同时减少伤害。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "894664a752d780f659390723deb284ef94b2ba926b6b712bbca0b16c4311e505",
+            "afterSha256": null
+          },
+          {
+            "id": "first-line",
+            "language": "zh",
+            "before": "一线是晚期癌症的首个治疗；二线是其失败后的治疗，依此类推。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9858f1da2f76cca700708717dee373e75aac28f2480c3054130423d396493c47",
+            "afterSha256": null
+          }
+        ],
+        "beforeBlankLineCleanupSha256": "15bbfedf8f1b3ee1f3f408f3244a4f84cf86214e36af2dcb4bc36f108dd0f293",
+        "postGateChange": "Only indentation on empty lines removed; all nonblank lines byte-identical."
+      },
+      {
+        "file": "src/data/simple/part-j.ts",
+        "beforeSha256": "07ee00490b32319fb4d35d0ced86e882dcbab5be6af11bb957e17acd0b58c334",
+        "afterSha256": "5abadade0015bbffb7d8a0df6785a793b84e2ce7037f9d56d0c3c3937ed436c2",
+        "changes": [
+          {
+            "id": "de-escalation",
+            "language": "simple",
+            "before": "De-escalation means giving less treatment to patients doing well and more to those who are not, guided by a marker, to cure the same number with less harm.",
+            "after": "A response test can guide a planned next step, but the rule and its effects need evidence. A favourable result alone does not show that less treatment is safe.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "4e1a4489b3299491dafac93d65764022d90b7bddffdb82bce27b0aa481c4b80a",
+            "afterSha256": "4b56a70c9c56d32b3514685e34a6c2d53aa9e4afc37cfd455440e2a7fe21be29"
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-b.ts",
+        "beforeSha256": "30d757f036c88f8f7b625ce762c05d8174a40427a0be6df483cd06446844e2eb",
+        "afterSha256": "b83788d18424c60c36978238f171e7e35e06f20b76f424899b35210bbf85a90c",
+        "changes": [
+          {
+            "id": "olympia",
+            "language": "simple",
+            "before": "Showed a year of a PARP pill after standard treatment helps women with inherited BRCA faults live longer.",
+            "after": "A year of olaparib improved outcomes in selected people with high-risk early breast cancer and inherited BRCA1 or BRCA2 variants. The trial also required HER2-negative disease.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "19933ca4669ddd03141b6f91cf3bcc6e71abe4a9a208b026e7cd57ba33dbd8e5",
+            "afterSha256": "37c57c71124b55fdc6540dab783b29c45daf45385448846bdf5acf3e64d84eb9"
+          },
+          {
+            "id": "keynote-355",
+            "language": "simple",
+            "before": "Established an immune drug plus chemotherapy as first treatment for spread triple-negative breast cancer with PD-L1.",
+            "after": "The trial found a survival benefit in its defined group with previously untreated advanced triple-negative breast cancer. Earlier early-stage treatment did not always exclude people.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "85ec302ad77e2d30bd66f16daa0ad2bfc1637823ad3d717dcfb13337bf02e50b",
+            "afterSha256": "4307fd8744620b8e761f010a9394362ceaf9d2fd4565d25e8323ca350ea08915"
+          },
+          {
+            "id": "first-line",
+            "language": "simple",
+            "before": "First-line is the first treatment for advanced cancer; second-line comes after it stops working, and so on.",
+            "after": "A line is a treatment strategy for a stated disease setting. Several drugs or planned stages can belong to one line.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "a23984685c40da4408e6e6a6b4c768f06ae0c8e6f84fc24e2fccfc6fd07e0648",
+            "afterSha256": "469c23f11a25b37dd918fafcc5b5f5371d5a62ad8063ee90ef3edc3b2f51877d"
+          },
+          {
+            "id": "neoadjuvant-adjuvant",
+            "language": "simple",
+            "before": "Neoadjuvant treatment comes before surgery and adjuvant treatment after it. A regimen spanning both phases does not separately test how much each phase helped.",
+            "after": "Treatment before the main treatment is neoadjuvant; extra treatment afterwards aims to lower the chance of cancer returning. The purpose and actual delivery matter.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "f70761d80541988d3be61f7756e36e4117685e178ef9b0d74019fb5b01cd262f",
+            "afterSha256": "d224e467e6a7413015412fc6a25ce070c31cc3a725cb6baeb5e2bf070c8fbc66"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 32,
+    "correctedSimpleEntries": 5
+  },
+  "allEarlierLinksRetained": true,
+  "earlierNoteExceptions": [
+    {
+      "id": "keynote-355",
+      "replacements": [
+        {
+          "before": "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry figure of 882 includes the 32-patient part 1 safety run-in. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "after": "Design (Lancet 2020): 847 patients randomised 2 to 1 to pembrolizumab or placebo with nab-paclitaxel, paclitaxel or gemcitabine and carboplatin at 209 sites in 29 countries; the registry participant-flow table lists 35 starters across the three part-1 groups (11, 14 and 10) and 847 in the randomised part-2 groups (566 and 281), matching 882 total enrolments. Progression-free survival in CPS 10 or more 9.7 versus 5.6 months (hazard ratio 0.65); final overall survival (NEJM 2022) 23.0 versus 16.1 months in CPS 10 or more (hazard ratio 0.73, p 0.0185), 17.6 versus 16.0 in CPS 1 or more (0.86, not significant) and 17.2 versus 15.5 overall (0.89, not tested). Grade 3 to 5 treatment-related adverse events 68.1 versus 66.9 percent.",
+          "reason": "Do not conflate registry enrolment, safety-stage count and randomised population."
+        }
+      ]
+    },
+    {
+      "id": "ascent-05",
+      "replacements": [
+        {
+          "before": "ClinicalTrials.gov record last updated 2026-09-09: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "after": "ClinicalTrials.gov record last updated 2026-11-04: recruiting. Enrollment is planned at 1514 participants. Primary completion is estimated at 2027-06. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "reason": "Current registry last-update date; same study status and comparison."
+        }
+      ]
+    },
+    {
+      "id": "tropion-breast03",
+      "replacements": [
+        {
+          "before": "ClinicalTrials.gov record last updated 2026-06-15: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "after": "ClinicalTrials.gov record last updated 2026-10-14: active not recruiting. Enrollment is actual at 1174 participants. Primary completion is estimated at 2027-09-20. No tabular results are posted on ClinicalTrials.gov; this does not exclude separate publications.",
+          "reason": "Current registry last-update date; same study status and comparison."
+        }
+      ]
+    },
+    {
+      "id": "pcr",
+      "replacements": [
+        {
+          "before": "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome.",
+          "after": "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome. The 95% confidence intervals were 0.18 to 0.33 for the triple-negative EFS association and 0.11 to 0.25 for OS.",
+          "reason": "Retain primary-study uncertainty beside the association; all earlier note text remains."
+        }
+      ]
+    },
+    {
+      "id": "perioperative-immune-window",
+      "replacements": [
+        {
+          "before": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+          "after": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence. Horowitz and colleagues frame the perioperative period in days to weeks; that review timeframe is not a universal measured duration of immune suppression or proof of one period of recurrence risk for every person.",
+          "reason": "Carry the later-only source-specific timeframe without turning a review framing into a universal outcome claim."
+        }
+      ]
+    }
+  ],
+  "dynamicSupplementScope": "Append to owning literals without materialising load-time supplements. The KEYNOTE-355 correction stays in its existing trial supplement.",
+  "intentionalWithdrawals": [
+    "Unsupported universal ranking, line-counting and timing rules.",
+    "Residual-only KEYNOTE-522 escalation and unsupported universal response-guided omission.",
+    "Global ctDNA-denominator and causal late-detection interpretations.",
+    "EA1131 unindexed claim and universal replacement rule.",
+    "Unqualified eligibility, subgroup-superiority and no-benefit assertions."
+  ],
+  "peerDraftSnapshotsPreserved": true,
+  "sourceGuideAndArtworkUnchanged": true
+}

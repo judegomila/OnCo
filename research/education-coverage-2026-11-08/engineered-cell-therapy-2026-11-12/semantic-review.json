@@ -1,0 +1,1777 @@
+{
+  "sourceFirstInventorySha256": "9118111ebe1913c5326b6213885dcdc37edf787fd971d4bd52c655d9c6234807",
+  "unitFindings": [
+    {
+      "id": "LIV-001",
+      "rationale": "Abundance after administration is attributed to division, survival and redistribution; culture state and the administered input are assessed separately.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-002",
+      "rationale": "The blood-compartment account explicitly separates detectable sequences, viable receptor-bearing cells and useful function at the relevant site.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-003",
+      "rationale": "The added paragraph limits cellular responses to biological signalling without intention and declines benefit or safety from cell number.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-004",
+      "rationale": "Both stated fractions recompute to 20 viable receptor-positive T cells per microlitre despite the changed parent count.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-005",
+      "rationale": "Comparable collection, volume, viable gates and population definitions are explicit conditions on the arithmetic.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-006",
+      "rationale": "Sequence copies, surface receptor, viable-cell counts and functional measurements are explicitly separated.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-007",
+      "rationale": "Starting family and added receptor are separate attributes; NK and NKT are explicitly distinguished.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-008",
+      "rationale": "The fictional cards explicitly decline a product-performance inference from family or source.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-009",
+      "rationale": "Source, engineering location, administered object and native versus added recognition are carried by the source cards and family explanations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-010",
+      "rationale": "A prepared carrier can modify the recipient's own cells; donor-derived prepared cells illustrate another source and route.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-011",
+      "rationale": "The two fictional products state administered carrier versus donor cells and identify source and location independently.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-012",
+      "rationale": "Carrier input is followed through entry, expression, survival and expansion without specifying a final in-body cell dose.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-013",
+      "rationale": "Antibody clearance, carrier exposure, instructions, protein, cells and inflammation are separate time courses.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-014",
+      "rationale": "Activity control, cell elimination, residual cells and injury reversal are distinguished and require measured performance.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-015",
+      "rationale": "The existing kinetics note states that persistent cells can prolong both useful activity and harmful recognition.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-016",
+      "rationale": "Starting-material acceptance, unsuitable cell state, nonconforming or absent lots and donor compatibility remain distinct possible failures.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-017",
+      "rationale": "The conditioning notes separate competing cells, lymphocyte and neutrophil counts, infections and whole-regimen effects.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-018",
+      "rationale": "Recipient-cell delivery and recognition of the intended antigen on healthy tissue are different steps and hazards.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-019",
+      "rationale": "The source cards answer administered object, whose cells and where engineering occurs while leaving availability and benefit unresolved.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-020",
+      "rationale": "The matched blood calculation requires valid absolute counts, parent gates and volume before expansion or loss is assigned.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-021",
+      "rationale": "The carrier card does not determine generated-cell count; the donor-cell card does not establish available supply or clinical success.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "LIV-022",
+      "rationale": "Hunter's human samples, humanised mice and monkeys remain separate; FDA development principles do not become product-efficacy results.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-001",
+      "rationale": "The board asks about accessible epitopes, negative tumour populations and actual healthy-cell recognition, beyond RNA or a disease label.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-002",
+      "rationale": "Within-lesion, between-lesion and treatment-related variation is explicit, as are differences among RNA, soluble protein, stains and finished-receptor access.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-003",
+      "rationale": "TNBC is a subtype; the board supplies recognition specifications and missing tests rather than a treatment ranking.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-004",
+      "rationale": "The universal negative is withdrawn in favour of the evidence actually read: selected preclinical work and a limited phase-I observation.",
+      "qualification": "The curriculum universal negative is narrowed to the studies actually read; no exhaustive absence-of-benefit finding is claimed.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-005",
+      "rationale": "Sun's sacituzumab-derived recognition module, human-tumour work and separate murine toxicity system retain their distinct scopes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-006",
+      "rationale": "B7-H3 synNotch induction of a TROP2 CAR is a sequential rule requiring temporal tests, not two static positive stains.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-007",
+      "rationale": "The archival tissue cohort is separated from TB129 functional testing and the actual mesothelin construct, with healthy recognition unresolved.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-008",
+      "rationale": "The new MUC1 record distinguishes cleavage-product epitopes, repeat-domain staining and RNA, retaining unresolved cleavage and noncancer staining.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-009",
+      "rationale": "Nectin4-7.19 and FAP-12 are named separately, including their cytokines, colorectal/lung models and cross-species recognition limitations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-010",
+      "rationale": "The mAb806-derived construct is distinguished from total EGFR measurement; the tissue, culture and mouse evidence is preclinical.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-011",
+      "rationale": "R12, healthy-donor T cells, the TNBC line, scaffold and TGF-beta/SD-208 perturbation are explicitly retained.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-012",
+      "rationale": "The factor-VII light-chain module in NK-92MI, TNBC models and vascular questions remain product-specific rather than donor-NK or CAR-T results.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-013",
+      "rationale": "CD142 tissue factor is explicitly distinguished from the Thomsen-Friedenreich carbohydrate and their different study identities.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-014",
+      "rationale": "Healthy-tissue questions are requirements; sampled negative pathology or a stain is not certified as complete safe recognition.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-015",
+      "rationale": "The 70/30 accessible-antigen example explicitly contrasts an RNA result and a third-antibody healthy stain without ranking receptors.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-016",
+      "rationale": "The actual binder's functional recognition is required, including the possibility of increased recognition of healthy target-low cells.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-017",
+      "rationale": "Intended antigen on healthy tissue is distinguished from an unintended molecule; molecular specificity does not guarantee tissue selectivity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-018",
+      "rationale": "Idealised OR/AND coverage uses the stated distribution and remains separate from killing, thresholds, timing and healthy selectivity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-019",
+      "rationale": "Conventional TCR recognition requires a naturally processed peptide displayed by its specified HLA complex, not just source-protein expression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-020",
+      "rationale": "Peptide binding and sequence identity are upstream of natural display and cross-reactivity testing; an intracellular source can yield a surface complex.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-021",
+      "rationale": "The named label retains autologous MAGE-A4 peptide-HLA therapy, its specified HLA alleles and synovial-sarcoma population.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-022",
+      "rationale": "Sun's human tumour experiments and human-TROP2/murine-cell injury comparison are explicitly distinct and not human safety estimates.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-023",
+      "rationale": "Induction, receptor persistence after priming, tissue movement and residual healthy recognition are stated as temporal tests.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-024",
+      "rationale": "Missed negative cells, inaccessible intracellular signals, post-treatment variation and inflammatory conditions remain recognition questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-025",
+      "rationale": "The worked explanation requires epitope, tumour distribution, healthy recognition and model/time context rather than an antigen name.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-026",
+      "rationale": "The retained Morgan account specifies receptor, dose and conditioning, and labels the normal-lung mechanism as the authors' single-case hypothesis.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "TGT-027",
+      "rationale": "FDA specificity and functional healthy-recognition recommendations are carried as development principles, without claiming the board's products passed them.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-001",
+      "rationale": "The cell, its genetic instructions and the receptor protein are explicitly three different objects.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-002",
+      "rationale": "The instruction-to-surface-to-contact sequence is explained in prose, with shapes and arrows kept schematic rather than evidence of completed killing.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-003",
+      "rationale": "DNA-template transcription and message translation are defined separately; delivered mRNA starts at translation and later processing remains necessary.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-004",
+      "rationale": "Folding and membrane trafficking occur downstream of sequence detection; DNA positivity leaves functional display unresolved.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-005",
+      "rationale": "Conventional peptide-HLA recognition and accessible-surface-antigen CAR recognition are distinguished without erasing the cell's other inputs.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-006",
+      "rationale": "The actual binder and epitope, finished format and unwanted recognition need assessment separately from purified binding.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-007",
+      "rationale": "The hinge comparison retains expression and cell-contact geometry; Hudecek does not establish universally superior spacer length.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-008",
+      "rationale": "The transmembrane region is assessed for assembly, surface expression and interactions rather than assumed to be a neutral peg.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-009",
+      "rationale": "Baseline signalling, repeated encounters and completed target-cell killing are distinct tests, beyond binding or surface expression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-010",
+      "rationale": "The frozen peer fields define paired-domain scFv and single-domain VHH architectures and explicitly decline a performance hierarchy.",
+      "qualification": "Architecture is carried in frozen PR-373 fields, not a newly integrated root owner.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-011",
+      "rationale": "Hudecek's R11/spacer constraint and Fc-interaction findings remain particular construct and animal observations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-012",
+      "rationale": "Activation and borrowed costimulatory regions are parts within the receptor, rather than independently administered medicines.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-013",
+      "rationale": "Kawalekar's central-memory/respiratory and effector-memory/glycolytic findings retain their human-cell construct scope and reject clinical rankings.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-014",
+      "rationale": "Other receptor parts, starting-cell state, preparation, target and disease are retained when comparing domains.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-015",
+      "rationale": "First-, second- and third-generation labels describe activation plus zero, one or two added costimulatory regions, not quality scores.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-016",
+      "rationale": "Ramos's separately tracked co-infused products have measured kinetics without isolation of either product's contribution to shared tumour response.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-017",
+      "rationale": "Kymriah's label supplies autologous CD19 targeting, murine scFv, CD8 structural segments and 4-1BB/CD3-zeta domains.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-018",
+      "rationale": "The CD8-derived hinge/anchor is separated from the cell population; the label permits other cell populations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-019",
+      "rationale": "Shared parts or autologous source do not transfer the labelled product's outcomes to another construct.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-020",
+      "rationale": "DNA positivity without killing leaves RNA, folding, trafficking, binding and signalling open before a stronger binder is selected.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-021",
+      "rationale": "Misfolding, unstimulated signalling, geometry and healthy recognition are separate failures despite a receptor-positive assay.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-022",
+      "rationale": "The matched hinge exercise preserves purified binding while asking about surface expression and cellular contact geometry.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-023",
+      "rationale": "Simultaneous second-/third-generation infusion and separate kinetics are carried without assigning a shared clinical response to either product.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "CAR-024",
+      "rationale": "Experimental design studies, a named product description and a small clinical comparison retain separate evidence levels.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-001",
+      "rationale": "Engineering outside the body followed by cell infusion is contrasted with administering an instruction carrier that generates modified cells inside.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-002",
+      "rationale": "Cytosolic mRNA translation and nuclear DNA-template transcription are explained alongside omitted entry/release steps and separate functional evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-003",
+      "rationale": "Source and engineering location do not prove absence of conditioning, quality testing or monitoring requirements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-004",
+      "rationale": "Removing individual cell culture leaves carrier manufacture, quality decisions, traceability and recipient readiness unresolved for the actual programme.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-005",
+      "rationale": "Leukapheresis is variable starting material; total collection is not necessarily an adequate viable T-cell input or an accepted lot.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-006",
+      "rationale": "Expansion, selection and activation affect different attributes; a larger count does not establish functional quality or unchanged composition.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-007",
+      "rationale": "Post-preservation viability/function, identity/custody and relevant potency remain separate manufacturing questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-008",
+      "rationale": "Collection-to-infusion time includes handling, testing and clinical readiness, while completed manufacture and eventual infusion use different denominators.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-009",
+      "rationale": "The source change does not remove identity tracking, stability assessment, release decisions or comparability after process changes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-010",
+      "rationale": "The particle's recipient-cell address is separated from the encoded effector's recognition target and downstream safety.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-011",
+      "rationale": "Carrier, payload, transduction, integration and expression are defined as distinct stages rather than equivalent permanent modification.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-012",
+      "rationale": "Usable mRNA delivery reaches the cytosol; RNA, receptor protein, cells and activity need separate duration measurements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-013",
+      "rationale": "Lentiviral RNA-to-DNA, integration and subsequent transcription are distinct from survival, expression, unintended-cell and insertion effects.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-014",
+      "rationale": "AAV nuclear delivery and often episomal persistence retain tissue/division/integration qualifications rather than universal genetic-fate labels.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-015",
+      "rationale": "The cassette/transposase pair requires delivery, and the resulting nonviral system can integrate.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-016",
+      "rationale": "Integration-deficient and self-inactivating lentiviral designs are explicitly different; disabling LTR regulation does not prevent integration.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-017",
+      "rationale": "The targeted-LNP paragraph separates temporary message exposure from an editor's lasting DNA alteration.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-018",
+      "rationale": "Carrier names do not fix administration route; the lipoplex vaccine's APC targeting is not T-cell engineering evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-019",
+      "rationale": "Rurik's mouse cardiac-injury/FAP example remains distinct from human or cancer efficacy.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-020",
+      "rationale": "The Sleeping Beauty report concerns electroporated cells expanded ex vivo and then infused, not direct injection of components.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-021",
+      "rationale": "Hunter's cell samples, humanised-tumour mice and monkey B-cell depletion remain distinct nonclinical experiments.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-022",
+      "rationale": "Frank's abstract does not verify the specified stem-cell-derived model, complete vector and sampled compartments; no detailed new claim is adopted.",
+      "qualification": null,
+      "status": "source-open"
+    },
+    {
+      "id": "DEL-023",
+      "rationale": "The exact Frank T/non-T/mouse parent gates remain source-open because the accessible abstract does not carry them.",
+      "qualification": null,
+      "status": "source-open"
+    },
+    {
+      "id": "DEL-024",
+      "rationale": "Frank's detailed peak/decline, controls and per-animal baseline are not verified by the accessible abstract and receive no coverage credit.",
+      "qualification": null,
+      "status": "source-open"
+    },
+    {
+      "id": "DEL-025",
+      "rationale": "Pfeiffer's activated-human-cell NSG model, separate lymphoma conditions and vehicle/reporter controls are carried explicitly.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-026",
+      "rationale": "Day-seven compartment percentages are verified, but the CD8-negative parent population cannot yet be narrowed to T cells without the supplementary gate.",
+      "qualification": "The source Results says CD8-negative cells; the more specific T-cell parent gate requires Appendix Fig S1A. Supplement retrieval timed out or returned HTML instead of a valid DOCX. Only the verified broader wording is carried.",
+      "status": "partial"
+    },
+    {
+      "id": "DEL-027",
+      "rationale": "B-cell depletion, CAR expression, initial B-cell supply and antigen-driven expansion are separate measurements rather than entry-efficiency estimates.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-028",
+      "rationale": "The experiments retain model, activation state, time, compartment and comparator without claiming a completed human efficacy/safety chain.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-029",
+      "rationale": "Administered carrier/RNA is not the final count or identity of generated cells; the chain asks what entered and became expressed.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-030",
+      "rationale": "Every stage from administered carrier to exposure, entry/release, expression, cell fate, movement and target effects is carried separately.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-031",
+      "rationale": "Fluorescent uptake does not establish usable expression, and two population-level detections do not establish same-cell coexpression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-032",
+      "rationale": "A carrier aliquot, timed blood and tissue biopsy sample different material and do not count every cell or organ.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-033",
+      "rationale": "Sequence copies, viable gated fractions and controlled killing remain separate readouts with specimen and denominator context.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-034",
+      "rationale": "Thresholds and controls are product-specific; the explicitly ex vivo-focused FDA guidance does not validate an in vivo carrier specification.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-035",
+      "rationale": "Failed entry/release, unsuitable state, unintended recipient cells and unsafe healthy-antigen recognition are distinct possible failures.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-036",
+      "rationale": "The ex vivo/in vivo definition explicitly distinguishes an animal test of infused engineered cells from cell generation inside the animal.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-037",
+      "rationale": "Carrier quality and downstream engineered-cell function remain different potency questions after cell culture is removed.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-038",
+      "rationale": "The 60/200, 5/100 and 60/65 fractions are recomputed with their respective denominators and explicitly do not establish exclusive delivery.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-039",
+      "rationale": "Matched receptor, antigen-positive/-negative and relevant healthy-cell controls are required before interpreting recognition effects.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-040",
+      "rationale": "Delivery address, therapeutic recognition and genetic fate are explained with the missing model, time, population or function kept visible.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "DEL-041",
+      "rationale": "Muscle AAV persistence, the NPG-mouse lentiviral example and risk-based follow-up remain separate tissue/model/regulator scopes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-001",
+      "rationale": "Recognition, signalling support and target-cell killing are separate jobs; the added feature does not confer a safe target or patient benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-002",
+      "rationale": "The receptor/support/CAR scenes are explained as intended signalling arrangements and hypothetical assay results, rather than measured clinical improvements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-003",
+      "rationale": "Cytokines are receptor-dependent signalling proteins, not nutritional fuel; exposure and receiving-cell state shape the possible response.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-004",
+      "rationale": "The IL-2 paragraph explicitly includes regulatory and other responding T cells and confines Boyman's formulation findings to mice.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-005",
+      "rationale": "The new pathway note names JAK-STAT as one cytokine route, separates a SMAD-associated response and keeps pathway signals distinct from phenotype.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-006",
+      "rationale": "Engelowski's artificial ligands, receptors and experimental signalling/growth are specified without claiming completed killing or human control.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-007",
+      "rationale": "Drug-gated support requires baseline, exposure and withdrawal tests, beyond a nominal switch design.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-008",
+      "rationale": "Antigen-triggered support requires tests after cells leave the triggering site and after priming ends.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-009",
+      "rationale": "Constitutive signalling raises growth and state questions rather than guaranteeing useful support.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-010",
+      "rationale": "Secreted payloads can affect neighbours or circulation; the design does not guarantee intracellular confinement.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-011",
+      "rationale": "Orthogonality is conditional on measured partner selectivity, and the supportive receptor is distinguished from CAR targeting and secretion.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-012",
+      "rationale": "The dominant-negative receptor is a signalling-interfering variant, distinct from a gene deletion or removal of all suppression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-013",
+      "rationale": "Narayan's prostate-cancer phase-I complete product retains severe CRS and concurrent sepsis, without isolating the armour's causal effect.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-014",
+      "rationale": "TRUCK terminology is expanded and universal is explicitly a historical name rather than universal tumour recognition.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-015",
+      "rationale": "IL-12/macrophage effects on antigen-loss cells belong to the model and do not change the CAR binder's target.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-016",
+      "rationale": "Zhang's IL-12-producing metastatic-melanoma TILs and systemic toxicity are distinguished from the earlier CAR/TRUCK model.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-017",
+      "rationale": "NFAT/activation responsiveness is not tumour-exclusive secretion; production, distribution and systemic effects require separate evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-018",
+      "rationale": "AND/OR/NOT inputs and two independently activating CARs are distinguished, rather than calling any two targets an AND gate.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-019",
+      "rationale": "Sequential priming, induced CAR decay and movement between sites retain a temporal state rather than same-cell simultaneous positivity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-020",
+      "rationale": "Kloss's tuned activation/costimulation and Roybal's induction system remain distinct tested designs, not universal logic-label results.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-021",
+      "rationale": "The equal-input 100/250-cell, 20/25-per-cent killing and 2/18-per-cent injury observations are retained as fictional separate assays.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-022",
+      "rationale": "The count ratio is 2.5; division, survival and loss remain unresolved and the ratio is not a treatment-benefit ratio.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-023",
+      "rationale": "The mixed tumour/healthy-cell findings retain their denominators and uncertainty without defining a body-wide safety window.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-024",
+      "rationale": "Baseline activity, persistent trigger exposure, altered cell states and healthy recognition remain different failures of the support hypothesis.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-025",
+      "rationale": "Signal reduction, retained viable cells, continued CAR function and injury reversal are separate observations and interventions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-026",
+      "rationale": "Each added feature is a hypothesis with function, failure tests and finished-product context, rather than a guaranteed improvement.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PRO-027",
+      "rationale": "The review framework, preclinical designs and distinct early clinical products are kept at their actual evidence levels.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-001",
+      "rationale": "Entry, recognition, useful function and healthy-tissue harm are separate links; more cells do not establish a complete treatment chain.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-002",
+      "rationale": "Movement toward a site and entry through tissue are distinguished, as are blood abundance, biopsy sampling and vessel count versus perfusion.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-003",
+      "rationale": "Vessels, matrix and local signals are possible context variables; a low cell count alone does not identify the limiting cause.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-004",
+      "rationale": "Within-/between-lesion and temporal heterogeneity is retained, and RNA does not specify the receptor-accessible surface feature.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-005",
+      "rationale": "The escape account retains unrecognised populations and changes without attributing intention to cancer or cells.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-006",
+      "rationale": "Conventional CAR surface-target dependence is separated from peptide-HLA dependency and from changes in induced versus baseline display.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-007",
+      "rationale": "Hypoxia, nutrients, inhibitory inputs and chronic stimulation remain distinct hypotheses; exhaustion is a cell-state concept rather than physical fatigue.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-008",
+      "rationale": "Inhibitory-marker expression and suppressor-cell counts are explicitly insufficient to assign a causal input or blockade benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-009",
+      "rationale": "Adenosine generation/receptors and intracellular IDO tryptophan metabolism are separate routes; composition does not demonstrate suppression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-010",
+      "rationale": "The support notes separate detectable persistence from useful function and do not infer oxygen, access or missing antigen from more signalling.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-011",
+      "rationale": "Chen's endogenous-promoter payload work remains a cell/mouse design, separate from generating cells by in vivo carrier delivery.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-012",
+      "rationale": "Healthy intended-antigen injury, unintended binding, CRS and neurologic syndromes are separate outcomes requiring their own functional and clinical observations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-013",
+      "rationale": "The fictional 80/20 population leaves 20 survivors; added effector number does not create their absent antigen.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-014",
+      "rationale": "A complex-model functional contrast calls for controlled tests and does not assign a macrophage, vessel or pathway mechanism.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-015",
+      "rationale": "The specified overlap sums to 100, with OR coverage of 90 and AND coverage of 20 under idealised recognition assumptions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-016",
+      "rationale": "Recognition coverage is explicitly not observed killing, tissue access, useful cell state or healthy-tissue selectivity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-017",
+      "rationale": "The actual epitope/receptor and healthy-recognition questions remain attached when moving from binding to tissue and functional measurements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-018",
+      "rationale": "A working binder, scarce tumour-biopsy cells and possible healthy recognition leave distribution, function and safety independently unresolved.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-019",
+      "rationale": "Targeted instruction delivery and therapeutic recognition have different addresses; the carrier does not make an antigen cancer-exclusive.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-020",
+      "rationale": "An additional target can expand candidate coverage, while neither its logic label nor a support signal establishes safe access or function.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-021",
+      "rationale": "Improved abundance or trafficking does not show retained function, and switching a signal or cells does not undo established injury.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-022",
+      "rationale": "Rising blood counts and sparse biopsies raise sampling/distribution questions before more expansion is selected as the solution.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-023",
+      "rationale": "The broad absence claims are narrowed to the actual preclinical and early human evidence rather than certified from selected products.",
+      "qualification": "No global absence of breast indications or clinical benefit is inferred from a selected product list.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-024",
+      "rationale": "The ROR1 trial retains 21 total, three CLL, ten TNBC, eight NSCLC and one response among 18 pooled solid-tumour participants.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-025",
+      "rationale": "A TNBC subtype or pipeline listing does not specify a receptor target, clinical indication, availability or benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-026",
+      "rationale": "The worked explanation follows access, recognition, function and harm and asks which link each proposed change actually tested.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "BAR-027",
+      "rationale": "NCI mechanism discussion, preclinical payload engineering, phase-I ROR1 observations and consensus taxonomy remain distinct evidence types.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-001",
+      "rationale": "Recipient-cell delivery, intended-antigen healthy recognition, unintended molecular binding, systemic inflammation and delayed genetic effects are separate causal questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-002",
+      "rationale": "The actual receptor's functional healthy-cell recognition is required; a tissue stain alone cannot establish injury or safety.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-003",
+      "rationale": "Cross-reactivity tests and natural-target tests are distinct, with affinity or an expression signal insufficient to establish specificity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-004",
+      "rationale": "Onset, maximum grade, organ effects, intervention and follow-up are separate safety observations in the clinical reporting notes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-005",
+      "rationale": "ICANS needs clinical assessment, a named framework and alternative-cause review, not an immune marker or cell count.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-006",
+      "rationale": "Conditioning, prior treatment and the whole regimen retain blood-count, infection, duration and organ-risk questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-007",
+      "rationale": "Genetic fate and unintended recipient cells require persistence and delayed follow-up evidence, beyond short-term tumour control.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-008",
+      "rationale": "Staining, controlled healthy-cell effects, animal evidence and clinical injury remain separate tiers with species and observation limits.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-009",
+      "rationale": "CRS and ICANS have distinct assessments and timelines; recovery of one does not establish recovery of the other.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-010",
+      "rationale": "The new paragraph names the 2026 abstract-level framework while the retained detailed clinical criteria remain explicitly 2019.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-011",
+      "rationale": "All five added 2026 groupings and T-cell-engager scope are named; timing alone is not diagnostic evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-012",
+      "rationale": "Lymphocytes, neutrophils and infections are distinct, with severity, recovery, previous therapy and regimen contributions retained.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-013",
+      "rationale": "The existing CRS explanation explicitly rejects cytokine-payload absence as protection, and marker/cell changes do not establish organ recovery.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-014",
+      "rationale": "Monitoring intent, interventions actually given and later outcomes are distinguished without inferring causal efficacy from sequence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-015",
+      "rationale": "FDA recommendations remain development/monitoring principles, whereas the paper supplies the clinical interventions actually observed.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-016",
+      "rationale": "The report's treated cancers, receptor-fusion architecture, historical cutoff and two grading frameworks remain separate from other products.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-017",
+      "rationale": "The treated denominator, CRS grade counts and one self-limited ICANS observation are retained exactly.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-018",
+      "rationale": "Amendment INV-01 corrects the frozen paraphrase: six days (1–55) is CRS duration, not onset; treatment and follow-up counts remain exact.",
+      "qualification": "INV-01: the frozen paraphrase mislabels six days (1–55) as onset. The source and new reader correctly call this duration; onset was three days (0–9). The report’s follow-up wording is retained alongside its early fatal events and does not imply that all participants survived for 12 weeks.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-019",
+      "rationale": "No unreported bedside rationale, ICANS treatment or monitoring schedule is supplied, and recovery is not a randomised intervention effect.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-020",
+      "rationale": "Activity regulation and selective cell elimination are different, with residual functions, loss of therapy and irreversible injury considered separately.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-021",
+      "rationale": "Di Stasi's ages, donor cells, haploidentical transplant and GVHD context are specified rather than treated as universal CAR rescue evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-022",
+      "rationale": "Switch expression, trigger tissue reach, response time, surviving/regrowing cells and access to drug and specialist care are separate requirements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-023",
+      "rationale": "The 100-to-five reduction is 95 per cent in matched blood; a lower cytokine result and unchanged injury remain different outcomes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-024",
+      "rationale": "Surviving viable cells, tissue coverage, time and retained function remain explicit after a relative count reduction.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-025",
+      "rationale": "Insertion, consequential gene effects, clonal expansion and malignancy are explicitly distinct observations requiring causal investigation.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-026",
+      "rationale": "Both integrating lentiviral and transposon designs are described; nonviral is not a clinical safety ranking.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-027",
+      "rationale": "ABECMA's warning is confined to its autologous BCMA/CD19 blood-cancer context and lifelong monitoring, without a new experimental incidence claim.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-028",
+      "rationale": "Hamilton's single-centre count and lethal lymphoma retain the axi-cel gammaretroviral identity and absence of evidence for oncogenic integration in that case.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-029",
+      "rationale": "Persistent or delayed effects are assessed by product risk, not one identical follow-up requirement for every carrier.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-030",
+      "rationale": "Untested healthy recognition, incomplete switch reach and short follow-up remain separate weaknesses despite favourable surrogate results.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-031",
+      "rationale": "Six people observed for four weeks cannot prove zero risk or validate an untested rescue mechanism.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-032",
+      "rationale": "The worked explanation separates the measured harm, tested control, time and remaining uncertainty rather than equating lower signal with safety.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "SAF-033",
+      "rationale": "Consensus categories, a product warning, regulator recommendations and causal mechanistic findings retain their own scopes and reading limits.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-001",
+      "rationale": "Signal, dish killing, tissue distribution and whole-body safety remain different claims rather than a single efficacy result.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-002",
+      "rationale": "The carrier-product definition and ex vivo/in vivo distinction require identifying what was administered, not the experiment's animal location alone.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-003",
+      "rationale": "The explicitly fictional nonclinical cards cannot supply a human trial or comparative clinical-benefit result.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-004",
+      "rationale": "Product, antigen, source, setting and comparator remain attached; missing evidence cannot be borrowed from another product's success.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-005",
+      "rationale": "The packet defines carrier, RNA, extracellular epitope/CAR, trigger/support receptor and absence of cell-elimination machinery.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-006",
+      "rationale": "One T-cell donor, selected human model components, technical wells and lot-specific functional versus identity evidence are carried separately.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-007",
+      "rationale": "The stated same-carrier/total-RNA comparator and D-present, D-absent and D-alone controls remain limited to the supplied experiments.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-008",
+      "rationale": "The 24-hour cell table retains all 1,000/100, 60/240, 50/150 and 40 counts with unexposed negative controls.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-009",
+      "rationale": "All four fractions use their own parent population: 50, 25, 20 and 40 per cent respectively.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-010",
+      "rationale": "RNA, surface display and same-cell dual expression are explicitly distinct and do not establish killing or whole-body specificity.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-011",
+      "rationale": "The 48-hour 80/55/50/5 killing observations retain 100 target cells, matched controls and three technical wells from one donor.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-012",
+      "rationale": "The matched assay supports a conditional R/D-associated contribution but supplies neither independent donors nor an uncertainty interval.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-013",
+      "rationale": "The healthy-organoid card retains 48 hours, D in both arms, 90/95 survival, two organoid donors and one T-cell donor.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-014",
+      "rationale": "The five-point difference has no supplied threshold or uncertainty and is not a body-wide safety window.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-015",
+      "rationale": "The mouse card retains administered P versus empty carrier, D in both arms, six mice and no CAR-without-R arm.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-016",
+      "rationale": "The selected blood fraction is 120/200 at day seven, distinct from arm size; only two treated biopsies were sampled.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-017",
+      "rationale": "The 300/1,000 contrast is 70 per cent smaller than control but three times the 100 baseline, not regression or cure.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-018",
+      "rationale": "The group comparison does not isolate R, explain poor infiltration, establish later durability or describe every animal.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-019",
+      "rationale": "Identity in B/C cannot transfer lot A's function; three lots are not three independent biological donors or evidence of post-storage potency.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-020",
+      "rationale": "At 24 hours after withdrawal the signal falls 100 to 20 against continued D at 100, while 90 of 100 cells remain in one donor's technical wells.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-021",
+      "rationale": "Reduced R-associated signal is not cell elimination, absence of CAR recognition or reversal of injury.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-022",
+      "rationale": "The missing human study supplies no clinical denominator; missing evidence is explicitly not a zero-per-cent event rate.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-023",
+      "rationale": "Person-level study-defined objective response is explicitly distinct from the fraction of target cells killed in culture.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-024",
+      "rationale": "Each card retains its product, specimen, controls, denominator, time and uncertainty and asks for the next missing measurement.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-025",
+      "rationale": "The 100/1,000/10,000 logarithmic marks are tenfold ratios, not additive steps or evidence of regression.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-026",
+      "rationale": "The cards expose gaps between expression, control, lot identity and animal effects; they do not join into an unmeasured clinical causal chain.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-027",
+      "rationale": "The connected explanation answers product identity, matched controls, each denominator and outstanding human/safety questions without treating invented data as evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "PKT-028",
+      "rationale": "FDA product-characterisation and functional-development principles frame the reasoning without validating fictional P or a numerical release threshold.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-001",
+      "rationale": "Family, donor/recipient origin, engineering location and administered object are independent attributes rather than a patient-benefit hierarchy.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-002",
+      "rationale": "Conventional CAR recognition requires its accessible surface target and product-specific healthy-recognition evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-003",
+      "rationale": "Conventional alpha-beta TCR-T requires its naturally processed displayed peptide and compatible retained HLA complex.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-004",
+      "rationale": "TIL manufacture starts from tumour-derived cells with existing receptors and variable selection/mixture, not an assumed added receptor.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-005",
+      "rationale": "The added CAR is one NK input; native activation/inhibition, source, support and preparation retain separate evidence requirements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-006",
+      "rationale": "Gamma-delta recognition varies by subset and receptor; phosphoantigen/nonclassical and HLA-restricted examples defeat a universal HLA-free label.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-007",
+      "rationale": "NK and NKT are distinguished and family identity does not establish an efficacy, safety or persistence ranking.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-008",
+      "rationale": "Paired coding chains, finished-cell expression, native population/mixture, actual recognition and healthy testing are separate checks.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-009",
+      "rationale": "Simoni's bystanders and the TIL manufacturing notes separate infiltration, useful tumour reactivity and a manufacturable infusion product.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-010",
+      "rationale": "Liu's particular IL-15/switch cord-blood product shows why neither short persistence nor broad family safety can be inferred universally.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-011",
+      "rationale": "Matched engineered/unmodified effectors and target-positive/-negative cells test antigen dependence rather than expression alone.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-012",
+      "rationale": "The TCR validation paragraph requires removal/restoration of antigen/HLA with viable matched targets before dependency is assigned.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-013",
+      "rationale": "Changing a relevant native NK ligand tests one input, with target viability and other ligand changes controlled.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-014",
+      "rationale": "Gamma-delta testing compares native and added routes with receptor blockade or target perturbation and matched healthy controls.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-015",
+      "rationale": "Activation, cytokine or granule release and completed killing remain distinct; a perturbation does not identify every possible recognition route.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-016",
+      "rationale": "Loss of one allele is distinguished from shared class-I B2M dependency, while class-II alpha/beta composition is explicitly different.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-017",
+      "rationale": "Reduced class-I inhibition does not guarantee NK killing; a conventional CAR retains target, access, function and safety requirements.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-018",
+      "rationale": "A target or cell-family name does not inherit another product's clinical performance or availability.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-019",
+      "rationale": "Loss of A does not establish B-restricted recognition without the corresponding peptide/display, or validate another CAR route.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-020",
+      "rationale": "One antigen-negative line does not show escape prevention; native ligand, healthy recognition and clinical context remain untested.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-021",
+      "rationale": "The receptor-transfer explanation asks for type, paired chains, target/peptide-HLA and functional testing rather than a generic installation claim.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-022",
+      "rationale": "The tumour-origin explanation asks about identities, mixture, selection and actual reactivity, rather than calling every recovered cell tumour-specific.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-023",
+      "rationale": "The CAR-NK explanation retains added and native inputs and explicitly declines comparative benefit or access from sparse family descriptions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-024",
+      "rationale": "The worked explanation uses family, source, engineered change and perturbation tests with unresolved safety and clinical evidence.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "FAM-025",
+      "rationale": "Morgan's receptor-transfer study, Simoni's infiltrate observations and Liu's cord-blood product remain separate experiments and populations.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-001",
+      "rationale": "The study paragraph states product, treated cancers, design, reviewer, cutoff, confirmation rule and participant denominators before its response fractions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-002",
+      "rationale": "Product recognition and participant flow are reconstructed independently; a receptor-fusion name is not a clinical outcome.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-003",
+      "rationale": "Collection, completed/conforming lots, treatment and imaging/evaluability are separated, and noninfusion is not automatically manufacturing failure.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-004",
+      "rationale": "Initial and confirmed responses are separated, as are their assessor/cutoff, response duration, survival and quality of life.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-005",
+      "rationale": "The report is historical single-arm phase-I dose escalation within a phase-I/II programme, rather than a current approval/access claim.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-006",
+      "rationale": "Autologous ex vivo antibody/CD3-epsilon fusion recognises surface mesothelin without the conventional peptide-HLA dependency.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-007",
+      "rationale": "The actual treated cancers are mesothelioma, ovarian cancer and cholangiocarcinoma, without extrapolating a comparator or another disease benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-008",
+      "rationale": "The phase-I intent-to-treat group is 48 consented/apheresed, against 32 infused and 30 response-evaluable people.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-009",
+      "rationale": "The numerator distinguishes six centrally reviewed responses from four confirmed partial responses.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-010",
+      "rationale": "Two grade-5 events preceded post-infusion imaging; missing scans neither rule out harm nor establish causation.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-011",
+      "rationale": "The six responses give 20 per cent of 30 or 12.5 per cent of 48; four confirmed responses give about 13.3 per cent of 30.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-012",
+      "rationale": "The single-arm result does not estimate comparative, durable or cross-disease benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-013",
+      "rationale": "Assessor, time, confirmation and population stay attached, and the 32-person safety denominator is not replaced by 30 response-evaluable people.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-014",
+      "rationale": "A historical data cutoff and source-check date explicitly do not establish recruitment, approval, availability or personal eligibility.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-015",
+      "rationale": "The unchanged observations are recalculated under 30 versus 48 denominators rather than silently changing the population.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-016",
+      "rationale": "The worked explanation supplies mechanism, population, flow and response rule and identifies the unresolved comparison.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "STU-017",
+      "rationale": "The raw Hassan report and targeted participant-flow/safety passages support the ledger rather than a generic trial definition or educational route.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-001",
+      "rationale": "The administered carrier/cells, source, engineering site and later living-cell behaviour are distinguished without a fixed generated-cell dose.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-002",
+      "rationale": "Recognition, supportive/logic design and tissue context remain connected questions rather than proof of a safe complete product.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-003",
+      "rationale": "The evidence-reading paragraphs retain comparator, model, time and population before any preclinical or clinical inference.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-004",
+      "rationale": "Ex vivo/in vivo alternatives converge on measured cells, tissue entry, harm and outcome questions; the route map is not a validated protocol.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-005",
+      "rationale": "DNA, RNA, receptor protein, cell family and activation/costimulation are separate concepts and functions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-006",
+      "rationale": "Conventional TCRs contact a surface peptide-HLA complex, not the intact intracellular source protein.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-007",
+      "rationale": "Native tumour-derived repertoires, added receptors and native NK/gamma-delta inputs remain distinct without a strategy ranking.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-008",
+      "rationale": "The frozen peer fields distinguish binder architecture/soluble-size consequences from affinity, epitope, developability and complete-product function.",
+      "qualification": "Binder-format/profile content depends on frozen peer PR-373 fields; no new root record or duplicate is created.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-009",
+      "rationale": "Added obstacle-directed functions, coverage logic, control mechanisms and cytokine context are separate design questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-010",
+      "rationale": "Tissue context, escape of unrecognised populations and altered cell state remain distinct possible failures.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-011",
+      "rationale": "Source, location, delivery targeting and therapeutic recognition are separated; actual vector designs determine integration and persistence questions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-012",
+      "rationale": "GMP quality systems, one-lot disposition, relevant biological activity and comparability after changes retain distinct scopes.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-013",
+      "rationale": "Conditioning risks, separate acute syndromes and risk-based delayed-genetic assessment are not replaced by a CAR assay.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-014",
+      "rationale": "Preclinical/engineering promise and selected blood-cancer success do not establish comparative solid-tumour benefit.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-015",
+      "rationale": "The in vivo route does not prove easier reversal, less toxicity or a complete clinically useful product.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-016",
+      "rationale": "The original-only route retains candidate discovery/testing, recognition versus connected action and a profile retested in the assembled format.",
+      "qualification": "The original-only route combines an existing root discovery field with frozen peer targeting/profile fields; peer status is retained.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-017",
+      "rationale": "The original-only route distinguishes a cytokine medicine, a measured signal and an engineered cytokine-producing cell.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-018",
+      "rationale": "The original-only route preserves collection, expansion, material/recipient identity, cold handling, relevant potency and process comparability.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-019",
+      "rationale": "The later-only universal B2M claim is corrected to the actual shared class-I dependency, with class-II alpha/beta components separate.",
+      "qualification": "Class-I dependency is substituted for the later Guide index universal every-HLA-dependent-design assertion. Existing B2M note 4 already made this distinction and was not edited.",
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-020",
+      "rationale": "Source is distinct from engineering site, and donor-to-recipient attack versus host rejection remain two conditional incompatibility directions.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-021",
+      "rationale": "Collection-to-infusion interval and never-infused people are distinguished from culture time through the actual 48/32/30 ledger.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-022",
+      "rationale": "The immediate-use ex vivo sterility example retains the named testing approach and later-result plan, without universal post-infusion release timing.",
+      "qualification": null,
+      "status": "covered-draft"
+    },
+    {
+      "id": "MAP-023",
+      "rationale": "The later-only healthy-recognition example explicitly shows why a perfectly specific binder can injure intended-antigen healthy tissue.",
+      "qualification": null,
+      "status": "covered-draft"
+    }
+  ],
+  "independentReview": false,
+  "unrepresentedOrPartialUnits": [
+    "DEL-022",
+    "DEL-023",
+    "DEL-024",
+    "DEL-026"
+  ],
+  "wholeLegacyCatalogueRecertification": false
+}

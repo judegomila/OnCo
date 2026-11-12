@@ -1,0 +1,4375 @@
+{
+  "freezeReceipt": {
+    "frozenAtUtc": "2026-11-12T14:04:25.931858+00:00",
+    "headBeforeFreshOwnerInspection": "017b0871f5cc49fb6988b04252db0afebd0a46d6",
+    "inventorySha256": "9452de6f370de804ad0d4eb022c85bb6fbdc2410172d56615268b6d9e3948621",
+    "rows": 153,
+    "substantive": 131,
+    "nonCredit": 22,
+    "perPhaseSubstantive": {
+      "original": 99,
+      "later": 131
+    },
+    "sourceVersions": 13,
+    "sectionSignatures": 160,
+    "freshCanonicalFieldsInspected": false
+  },
+  "correctedProjection": true,
+  "counts": {
+    "sourceFirstRows": 153,
+    "substantiveUnique": 131,
+    "originalRequirements": 99,
+    "laterRequirements": 131,
+    "representedOriginal": 99,
+    "representedLater": 131,
+    "nonCreditRows": 22,
+    "exactReferences": 195,
+    "uniqueAnchors": 50,
+    "partialUnique": 0
+  },
+  "requirements": [
+    {
+      "id": "S-001",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Scope follow-up to asymptomatic people after curative early-breast treatment and distinguish finding recurrence/new cancer from treating it.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "preamble",
+          "lineStart": 24,
+          "lineEnd": 26,
+          "passageSha256": "525a97ce4341bccf1429d186c003faadd65530afa23f943bc14dc8e0b56ac947"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-002",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "The smoke-alarm/inspection analogy separates earlier finding from better outcome; retain the old-trial and changed-treatment limitation.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "In one sentence",
+          "lineStart": 28,
+          "lineEnd": 32,
+          "passageSha256": "bb71362ebce6f4c5a5ad6ef8a34301a1a596fb920f0fe35b2fddb2aac2c2c2a6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-003",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Attribute the visit and testing recommendations to the actual ASCO 2006/2013 guideline versions, rather than an undated universal rule.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 36,
+          "lineEnd": 43,
+          "passageSha256": "b7a47ee206934c1a8f1d36eb7825a98293b6a90dcf9b2e296246de1b7a5a084f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-004",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify the stated historical ASCO visit schedule: 3 to 6 months for three years, 6 to 12 months in years four/five, then annually.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "90d1228c68bb8ca3da861920f3c58f5440f9a9909cd0ddb7488fba3bde33df71"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-005",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify the first mammogram timing after breast conservation and radiotherapy and subsequent annual imaging; retain which breast tissue remains.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "94f3c2abf35520c5bb7e998423b8e594783929356b8607166a8cc46ee76ee402"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-006",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Assess the asymptomatic routine-testing exclusion for blood panels and the named body-imaging modalities; distinguish indicated diagnostic testing.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "ee4d6026b28b584accfe3f65607f81a34700b256e638ada6849fa151bdac1be8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-007",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Assess the separate CEA, CA 15-3 and CA 27.29 routine-surveillance recommendation without treating a marker as a diagnosis.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "3e1fb5dbbac1ed877804566cfcb91aa9bf489c24ec90af9c2a50f3258f4d2c0e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-008",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Assess the ACS/ASCO survivorship guideline wording and its late-effect, new-cancer and healthy-living scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "ff3258aa47dcf002f2be1d8a06fc1928f344c9a12da2fe9ad276e16b7f7018c1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-009",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "The 2026 SEER presentation is a secondary NCCN summary, not direct NCCN verification; check its visit/mammogram numbers and reconstructed-breast limit at that scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "ff3258aa47dcf002f2be1d8a06fc1928f344c9a12da2fe9ad276e16b7f7018c1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-010",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "High inherited risk and remaining/reconstructed breast anatomy require their own screening context; do not make annual mammography or MRI universal.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "ff3258aa47dcf002f2be1d8a06fc1928f344c9a12da2fe9ad276e16b7f7018c1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-011",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "New or persistent symptoms between scheduled visits prompt evaluation under the clinical plan; retain the examples without inventing a triage protocol.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "How it works",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "78d781944d83969cca979efb7458278d3375decff8a6d677c1957354494837c8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-012",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify GIVIO: 1320 stage I to III women, the added intensive tests, median 71-month follow-up, 20% versus 18% mortality and reported quality of life.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "What the follow-up trials showed",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "9e7da538eeea194d012627c68f1116bd72f472bd8c3d3df2de7de25ce3f3cf02"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-013",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify Rosselli Del Turco: 1243 women, six-month chest/bone scans, earlier/more detected metastases (112 versus 71) and five-year mortality 18.6% versus 19.5%.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "What the follow-up trials showed",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "ebc401b4b754ade72602f6fd5c112fab5cc3ba3613b9227c85c9a256ecf0ebba"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-014",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify the Cochrane pooled 2563-person survival HR 0.98, CI 0.84 to 1.15, retaining intervention, design and historical setting.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "What the follow-up trials showed",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "55248e929512df528100c5c5aec5a55e31718e73bf6e022963c1d94cc3aa32fb"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-015",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Explain lead-time bias using the randomisation clock; a nonsignificant mortality comparison is not proof of identical death times or equivalence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "What the follow-up trials showed",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "55248e929512df528100c5c5aec5a55e31718e73bf6e022963c1d94cc3aa32fb"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-016",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Retain the limitation of old trials and changed imaging/treatment; independently assess or withhold the exhaustive claim that no comparable modern trial exists.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "What the follow-up trials showed",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "55248e929512df528100c5c5aec5a55e31718e73bf6e022963c1d94cc3aa32fb"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-017",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "A qualifying ctDNA signal and recurrence association do not establish localisation or a useful intervention in the early-breast setting.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Blood tests for tumor DNA are still investigational",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "31f16ff3a1707f66b10316ff38542992cd49ef23f55ce6920dab689cae4eaa0c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-018",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Verify c-TRAK TN surveillance: 161 monitored, 27.3% positive by twelve months and seven recurrences without earlier detection.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Blood tests for tumor DNA are still investigational",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "dafface754241141cde73a5200e6d8debc511d3443da2a71d1d26940c113807f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-019",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Keep c-TRAK TN intervention allocation, staging and treated denominators separate: 23 of 32 with metastases, five treated and no sustained clearance.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Blood tests for tumor DNA are still investigational",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "dafface754241141cde73a5200e6d8debc511d3443da2a71d1d26940c113807f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-020",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Keep ESMO 2022 molecular-residual-disease guidance at its dated, setting-specific scope; lead time and imaging disagreement are not clinical utility.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Blood tests for tumor DNA are still investigational",
+          "lineStart": 63,
+          "lineEnd": 65,
+          "passageSha256": "b17e0146d39c2a476e2f7efb0d30c700e706f6e1ffbd5abd46403028a9547df5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-021",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Assess the TNBC first-three-to-five-year recurrence claim and the implied explanation of visit frequency; preserve cohort evidence rather than inventing the guideline rationale.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "4f61f4c9702765a31546a118b4db039b120f3cfe8eb743269812219dad73b812"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-022",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Follow-up includes new cancers, late cardiac/nerve/bone effects and counselling needs; consider false alarms, radiation, anxiety and cost without invented rates.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Why it matters in cancer",
+          "lineStart": 70,
+          "lineEnd": 71,
+          "passageSha256": "3825eaa0e9aa7cf1e9eb92747c42f574923a705a495990293a287f4a5ed3d7e9"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-023",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Normal tumour markers cannot exclude recurrence and high results do not locate it; a positive ctDNA result still needs origin, clinical and imaging context.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 79,
+          "passageSha256": "c8babc897e84702fba07ae18bfaddd4a1049b242fdf21309df2593a6f4fa84bc"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-024",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "Carry the full fictional well-one-year-after-treatment CT/CA15-3 question, with matched historical evidence and guideline context rather than a personal plan.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Try it",
+          "lineStart": 83,
+          "lineEnd": 85,
+          "passageSha256": "890283468d09513165937bbfcd669961ee8f951a3af07e4f438c0bbf55fdd8b1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "S-025",
+      "lesson": "surveillance-after-treatment",
+      "kind": "substantive",
+      "requirement": "The explanation must distinguish earlier detection from demonstrated survival/quality-of-life benefit and avoid a blanket universal claim about all modern follow-up strategies.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Try it",
+          "lineStart": 87,
+          "lineEnd": 95,
+          "passageSha256": "78835f6e21e4214f28ed24e56f136d9e1e3430ba959feb15fea5409498282e55"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-001",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Define breast MRI through magnetic/radiofrequency imaging rather than a count of viable cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "d2565ac0aabbf43061e35db67dcce742da47d47169bcf130d3f49e08d7771639"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "d2565ac0aabbf43061e35db67dcce742da47d47169bcf130d3f49e08d7771639"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-002",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Carry the marker-through-landscape analogy with its limit: brightness and functional labels do not establish cancer-cell identity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "2c0bab50ed51d6fc7ae7c1389cda6539a2a1d413eca2164df2b7fe909e95b500"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "2c0bab50ed51d6fc7ae7c1389cda6539a2a1d413eca2164df2b7fe909e95b500"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-003",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Distinguish MRI from ionising X-rays and describe intravenous gadolinium and pre/postcontrast DCE acquisition at appropriate scope.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 35,
+          "passageSha256": "924108d47d3a27a264773add1a9f2c1d1276f4b710236bcaa0525e4a980decdc"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 35,
+          "passageSha256": "924108d47d3a27a264773add1a9f2c1d1276f4b710236bcaa0525e4a980decdc"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-004",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Enhancement reflects delivery, vascular/tissue distribution and acquisition; shape, distribution and kinetics matter and benign tissue can enhance.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "da468d45f1d9ced201b1da64527dfe4e642961fecef386dc9dfcea409250927e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "da468d45f1d9ced201b1da64527dfe4e642961fecef386dc9dfcea409250927e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-005",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Define BPE as normal fibroglandular enhancement, keep minimal/mild/moderate/marked categories separate from tissue amount and mammographic density.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "460250cc1a943cc942d58e8e90c800b71304d8555737b50aeb32ca408e2d35b2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "460250cc1a943cc942d58e8e90c800b71304d8555737b50aeb32ca408e2d35b2"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-006",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Define NME as a non-mass/non-focus enhancement finding distinguishable from BPE, with overlapping benign/high-risk/malignant causes.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "bb61be04820c8477bea4379bf2dddcb421f7dffa419e8f3772670a39c2cbade1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "bb61be04820c8477bea4379bf2dddcb421f7dffa419e8f3772670a39c2cbade1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-007",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Define research FTV as selected-region voxels meeting enhancement/processing rules; thresholds affect volume and it is not NME length, anatomy or viable-tumour amount.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "01fd15cdb3e1c80c462939d1568ba09d749104cbbdb9915e175bbc4208ca45fe"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "01fd15cdb3e1c80c462939d1568ba09d749104cbbdb9915e175bbc4208ca45fe"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-008",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Retain all four jobs together: DCE acquisition, BPE background, NME morphology and FTV calculation, rather than four estimates of one quantity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "ffd1daf1fbc0b2a404fb5b492051c13e2a050e50d8b09b3c75baabc1a715d3c5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "ffd1daf1fbc0b2a404fb5b492051c13e2a050e50d8b09b3c75baabc1a715d3c5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-009",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Carry the entire fictional image: 60 mm NME span and 0.6 mL selected-voxel volume can coexist; the symbolic grid lacks recalculation inputs and neither establishes histology or cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 47,
+          "lineEnd": 51,
+          "passageSha256": "6f67a223592493847c7464d2746b7d482c5cf1dba372503b07c48a693b2b6a7f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Four report terms to keep separate",
+          "lineStart": 47,
+          "lineEnd": 51,
+          "passageSha256": "6f67a223592493847c7464d2746b7d482c5cf1dba372503b07c48a693b2b6a7f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-010",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Extent/response information and contrast change do not establish tissue pCR; residual disease may be inconspicuous and nonmalignant changes may enhance.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Why it matters in cancer",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "fae7f0468c4d45b6b20d97a03683554b2cc033757012a607d2678e65373e9f46"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Why it matters in cancer",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "fae7f0468c4d45b6b20d97a03683554b2cc033757012a607d2678e65373e9f46"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-011",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Verify the named ACRIN6657/I-SPY1 FTV/recurrence-free-survival study at its cohort/design scope, without a personal calculator or guided-treatment benefit claim.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Why it matters in cancer",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "9701a7061b320955cd44c2bfaa3d645abfcccea5259ab49179342ac4c523e267"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Why it matters in cancer",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "9701a7061b320955cd44c2bfaa3d645abfcccea5259ab49179342ac4c523e267"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-012",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Measurement card: image the prescribed tissue field without removing a specimen; distinguish morphology/enhancement, mm/cm length and cm3/mL volume.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "How it is measured",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "d0af03521def9fea8a2444a65b4c73fc14554ca732fff60bd01f9b3f62e4aba6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "How it is measured",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "d0af03521def9fea8a2444a65b4c73fc14554ca732fff60bd01f9b3f62e4aba6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-013",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Quantitative comparison retains postcontrast time, protocol, region, software and thresholds; motion/misregistration can alter a calculation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "afe18c4dc5cd2d4b6b74ceb44d49998d5c89c4af24146ac7dd27b3444206d6c3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "afe18c4dc5cd2d4b6b74ceb44d49998d5c89c4af24146ac7dd27b3444206d6c3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-014",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "A research FTV of zero means no image volume qualified; a negative regional exam cannot establish zero microscopic or all-body disease.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 65,
+          "passageSha256": "3f098a9dc99d343483a1cdcce4a5a296a50c274899f59e5395a2eda7ffef0071"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 65,
+          "passageSha256": "3f098a9dc99d343483a1cdcce4a5a296a50c274899f59e5395a2eda7ffef0071"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-015",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Keep enhancement/viability, BPE/density, NME/histology and segmentation/cell-count confusions explicitly separate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Common confusions",
+          "lineStart": 69,
+          "lineEnd": 72,
+          "passageSha256": "bd54b1e684fca34f5a9397d658dcf2725f0387110f349daa6e359031f15d97d7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Common confusions",
+          "lineStart": 69,
+          "lineEnd": 72,
+          "passageSha256": "bd54b1e684fca34f5a9397d658dcf2725f0387110f349daa6e359031f15d97d7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-016",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "Retain the whole 60-mm versus 0.6-mL worked question and answer; ask for segmentation/thresholds rather than declaring one wrong or converting to viable cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Try it",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "a3d07ec56648fca421a372d10fd31421cf91a1afd722fb9349b2ade0d9840fab"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Try it",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "a3d07ec56648fca421a372d10fd31421cf91a1afd722fb9349b2ade0d9840fab"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "M-017",
+      "lesson": "breast-mri",
+      "kind": "substantive",
+      "requirement": "The explanation must connect acquisition, pattern and calculation to their actual outputs and limits without losing the clinical tissue-response distinction.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Explain it back",
+          "lineStart": 82,
+          "lineEnd": 88,
+          "passageSha256": "1ed15e5f26c8bde76a1d79fa5ff1de808808d553df218cab84c0ec3fdd506c4a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Explain it back",
+          "lineStart": 82,
+          "lineEnd": 88,
+          "passageSha256": "1ed15e5f26c8bde76a1d79fa5ff1de808808d553df218cab84c0ec3fdd506c4a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-001",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Define diagnostic breast ultrasound as returning acoustic signals describing structures/selected flow, without assigning histology or complete exclusion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "d4ceb5c8b542e3ee63a7ec4d696e8cf6be6e13c5330bffe2bcec19ca8baf6747"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "d4ceb5c8b542e3ee63a7ec4d696e8cf6be6e13c5330bffe2bcec19ca8baf6747"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-002",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Carry the room-echo analogy and beam/time/boundary scope; diagnostic sonography is distinct from therapeutic ultrasound.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "dbd233f639ec9de93d07c880716d18abc8284ecb45c5b77fd53740d1f666e4a8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "dbd233f639ec9de93d07c880716d18abc8284ecb45c5b77fd53740d1f666e4a8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-003",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Describe transducer, gel, high-frequency pulses and returning echo time/strength; orientation changes plane and no ionising X-rays are used.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "d22d5ee4de1e3217e34fdef9d3ae421ab75ab230472a28ff785783f1c249cf63"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "d22d5ee4de1e3217e34fdef9d3ae421ab75ab230472a28ff785783f1c249cf63"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-004",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Separate grayscale structure from Doppler frequency-shift blood-flow information; displayed colour depends on settings and is not malignant-cell staining.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "a8549bc7afdb56b4d1b53b4de4166a09f69ceff0f7c7ee522611ae1d12b90681"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "a8549bc7afdb56b4d1b53b4de4166a09f69ceff0f7c7ee522611ae1d12b90681"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-005",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Interpret shape, orientation, margins, internal echoes and posterior behaviour together; simple cyst, complex and solid findings are not interchangeable diagnoses.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "cc70ae79748a8de12c47dabe00d963a681231df65dd22e189f5c1d176ca05d76"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "cc70ae79748a8de12c47dabe00d963a681231df65dd22e189f5c1d176ca05d76"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-006",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Carry the whole echo-timing image: under common sound-speed assumptions later returns indicate deeper boundaries, while the selected plane supplies no histology or body census.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 43,
+          "passageSha256": "a0f85b935770bb7ec398d38623d59ef0d33686517af044bafff55c1e375f343e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 43,
+          "passageSha256": "a0f85b935770bb7ec398d38623d59ef0d33686517af044bafff55c1e375f343e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-007",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Distinguish focal breast/nodal examination and image-guided needle placement from the evidence supplied by sampled tissue.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Why it matters in cancer",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "65808194bfca1c82bcb035f6dc423f3a57df046ed0dddf7611673a392a7f6bb2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Why it matters in cancer",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "65808194bfca1c82bcb035f6dc423f3a57df046ed0dddf7611673a392a7f6bb2"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-008",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Some cancers/calcifications or MRI findings lack an ultrasound counterpart; DCIS may present as mammographic calcifications without a visible ultrasound mass.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "5bd5e408d90694cfd253a491b3c3ed79cccade9acc0794c3bd71f11a184e5794"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "5bd5e408d90694cfd253a491b3c3ed79cccade9acc0794c3bd71f11a184e5794"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending.",
+      "erratum": "source-first-erratum.json"
+    },
+    {
+      "id": "U-009",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "After treatment the residual finding may contain tumour, treatment change or both; diameter is not viable-cell number and regional imaging is not all-body exclusion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "176678d0334e73688b7a8a6dd7d626953b88ee737b30e2d4985b7f74a3f0a7c4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "176678d0334e73688b7a8a6dd7d626953b88ee737b30e2d4985b7f74a3f0a7c4"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-010",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Measurement card: no removed tissue, defined region, images/dimensions/assessment, axes and mm/cm with location, depth and comparison dates.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it is measured",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "248a50f1bd8f95933134216acff31b0c3f5021b40e87fdb069194512fc0c5bd9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it is measured",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "248a50f1bd8f95933134216acff31b0c3f5021b40e87fdb069194512fc0c5bd9"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-011",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Angle, compression, settings, boundary selection and planes affect measurement; a small difference need not be biological and machine name alone does not ensure comparability.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "333c1e6d64ff466baec81b5cc09cb883fd0e528145ced2ae26330e7c2de11493"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "333c1e6d64ff466baec81b5cc09cb883fd0e528145ced2ae26330e7c2de11493"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-012",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Ultrasound does not establish histology, molecular subtype or complete elimination; reconcile image and tissue evidence with both sampling limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "d9ba947b6df1dcffcdb4819062ad49d70c1e1d31207bfd434328a783742bb5a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "d9ba947b6df1dcffcdb4819062ad49d70c1e1d31207bfd434328a783742bb5a5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-013",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Keep darkness/malignancy, flow/activity, absent correlate/absent lesion and smaller diameter/pathological response confusions explicit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Common confusions",
+          "lineStart": 63,
+          "lineEnd": 66,
+          "passageSha256": "cec7208216d66d3ef3c2b6992bd7c81e1e3668f849f1d4d8334b3b754230099e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Common confusions",
+          "lineStart": 63,
+          "lineEnd": 66,
+          "passageSha256": "cec7208216d66d3ef3c2b6992bd7c81e1e3668f849f1d4d8334b3b754230099e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-014",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "The image question retains the common-speed assumption and withholds cell type or conclusions outside the selected plane.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Try it",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "abccf5da556a3bf8b411ef9a977708fe475a743265c30c10ac54782e5de903d3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Try it",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "abccf5da556a3bf8b411ef9a977708fe475a743265c30c10ac54782e5de903d3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-015",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "Carry the full 18-mm to 15-mm fictional course: recorded dates and a 3-mm length difference do not prove one-sixth of cells killed or tissue pCR.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 74,
+          "passageSha256": "3731d64959174409794fb394d785a0b24bc0431c4f5965109681a7b8961cb0d5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 74,
+          "passageSha256": "3731d64959174409794fb394d785a0b24bc0431c4f5965109681a7b8961cb0d5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "U-016",
+      "lesson": "breast-ultrasound",
+      "kind": "substantive",
+      "requirement": "The explanation must connect acoustic imaging and sampled-tissue examination as useful but distinct observations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Explain it back",
+          "lineStart": 78,
+          "lineEnd": 84,
+          "passageSha256": "947e3cd825475d38d931e14e67c869828a3e118ba6338f9ee2bc49d519beb9e3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Explain it back",
+          "lineStart": 78,
+          "lineEnd": 84,
+          "passageSha256": "947e3cd825475d38d931e14e67c869828a3e118ba6338f9ee2bc49d519beb9e3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-001",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Define low-dose X-ray breast patterns including masses/calcifications, without claiming direct identification of every cancer cell.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "36b2895287dfd0f0f48874b9bff6ffe79ea24b1c7efad0636f8019012dfd26a7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "36b2895287dfd0f0f48874b9bff6ffe79ea24b1c7efad0636f8019012dfd26a7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-002",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Carry the layered-stack/overlap analogy while distinguishing X-ray attenuation from reflection and patterns from a microscopic cell census.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "0a8b54c5d68e0dd35dd0f1ea72c42b846c38098b069e575922b6bbd006ab55d0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "0a8b54c5d68e0dd35dd0f1ea72c42b846c38098b069e575922b6bbd006ab55d0"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-003",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Describe positioning/compression, overlap/motion/thickness and differential transmission through fat and fibroglandular tissue.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "579215b8e5c2df6773ed151587bd39c9267d67796c9175591ed5501738d2d8cb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "579215b8e5c2df6773ed151587bd39c9267d67796c9175591ed5501738d2d8cb"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-004",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Distinguish digital projection mammography from multiple-angle tomosynthesis and computed thin sections, which are not excised histology.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "877185d04f867c3390ba11a2b8f2c7e9ba0d6d5332dd91e7cad479c4ef326416"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "877185d04f867c3390ba11a2b8f2c7e9ba0d6d5332dd91e7cad479c4ef326416"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-005",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Screening and diagnostic examinations describe the question, symptoms/findings and possible additional views, not whether cancer is already proved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "4a2333b1fe11c02fbae4c80c842aa3ecef52fe8bdbf532693bc99651de2e5142"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "4a2333b1fe11c02fbae4c80c842aa3ecef52fe8bdbf532693bc99651de2e5142"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-006",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Carry the full overlapping-depths and reconstructed-versus-stained-section image; fictional shapes do not identify cancer or prove complete detection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 43,
+          "passageSha256": "a6e8cbf9e5ef650bcd52860463a5a06747cd676ff10fa14e07a09d7d74aa916c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 43,
+          "passageSha256": "a6e8cbf9e5ef650bcd52860463a5a06747cd676ff10fa14e07a09d7d74aa916c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-007",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "A mass and calcium deposits are findings whose pattern matters; calcification alone is not malignancy or a viable-cell measure after treatment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "01c9c333765c661f4e22cab27c96734d16a753ccd0ee981bd044fca4b4e2c42a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Why it matters in cancer",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "01c9c333765c661f4e22cab27c96734d16a753ccd0ee981bd044fca4b4e2c42a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-008",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Density is relative fibroglandular appearance/amount and can mask lesions; it is not the proportion of breast occupied by cancer.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "e778efefa312326c945040e64edc53e79cee1865b32d4d77415a8248bccec86f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "e778efefa312326c945040e64edc53e79cee1865b32d4d77415a8248bccec86f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-009",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "A core biopsy adds sampled-tissue examination; image/pathology agreement does not remove either observation's limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "fa7535f4e55dcb6132998b8cc88826eef1c16ad174634926d76a4109564d83a1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "fa7535f4e55dcb6132998b8cc88826eef1c16ad174634926d76a4109564d83a1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-010",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Measurement card: no tissue removed, positioned breast and named findings; a mm/cm span is length/extent rather than cell count or three-dimensional volume.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it is measured",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "11ee21fd64dff16ffae11c1b5286d440c03dc65e53f38ee22a1869d5ced6ae8f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it is measured",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "11ee21fd64dff16ffae11c1b5286d440c03dc65e53f38ee22a1869d5ced6ae8f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-011",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "BI-RADS organizes findings and assessment separately from pathological diagnosis/stage; retain density, prior examinations, dates and comparable views.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "2304d11160b324d9db16d9004959abe7001abdeb59c18492cf11843f03a62935"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "2304d11160b324d9db16d9004959abe7001abdeb59c18492cf11843f03a62935"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-012",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Overlap, density, positioning and lesion type limit detection; no universal image threshold establishes absence of microscopic or all-organ disease.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "8fdeea3b7e790f149e9484764726d2a342d9e061e500f5971174dd4abc98aa91"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "8fdeea3b7e790f149e9484764726d2a342d9e061e500f5971174dd4abc98aa91"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-013",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Keep 3D/histology, calcium/active cancer, density/burden and negative/zero disease confusions explicit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Common confusions",
+          "lineStart": 63,
+          "lineEnd": 66,
+          "passageSha256": "62d1c7b130370d32e467045a5f84093c1d4451a257ee40132d7aacbbcb230341"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Common confusions",
+          "lineStart": 63,
+          "lineEnd": 66,
+          "passageSha256": "62d1c7b130370d32e467045a5f84093c1d4451a257ee40132d7aacbbcb230341"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-014",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "The figure question contrasts X-ray reconstruction with physically sampled prepared tissue, without treating either as a complete disease census.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Try it",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "50fbe87e6372d31284d5d365345760bebdcbb08fea86c008f4bc60790ace9cb6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Try it",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "50fbe87e6372d31284d5d365345760bebdcbb08fea86c008f4bc60790ace9cb6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-015",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "Carry the entire 24-mm calcification/no-mass question: span does not prove invasion, viable extent or an exact ultrasound correlate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 74,
+          "passageSha256": "713d99f646efa66faa32435bf4e358382164c324db112dd465ea402f1bfd08de"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 74,
+          "passageSha256": "713d99f646efa66faa32435bf4e358382164c324db112dd465ea402f1bfd08de"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "A-016",
+      "lesson": "mammography",
+      "kind": "substantive",
+      "requirement": "The explanation must connect visible pattern, assessment and tissue diagnosis while withholding exact viable amount/type from a measured span.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Explain it back",
+          "lineStart": 78,
+          "lineEnd": 84,
+          "passageSha256": "7c3cf9bc687bcd64eac2cc815fa128c56dc525a2f5e81eeb7afd308f163c117f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Explain it back",
+          "lineStart": 78,
+          "lineEnd": 84,
+          "passageSha256": "7c3cf9bc687bcd64eac2cc815fa128c56dc525a2f5e81eeb7afd308f163c117f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-001",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Define PET-CT as named radiotracer distribution plus X-ray anatomy, without malignancy-specific or microscopic-exclusion guarantees.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "e55b8ff71c415dcff864c8234b7d4faf872e90ab0bcf3dfa70425f63aa764b89"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "e55b8ff71c415dcff864c8234b7d4faf872e90ab0bcf3dfa70425f63aa764b89"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-002",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Carry the distribution-map/anatomy-map analogy; tracer molecule, physiology and exam conditions prevent a cancer-label interpretation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "d6110c79aba66ab019f17e14730cf6175f239773b173f348a7023ce65cc0914a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "d6110c79aba66ab019f17e14730cf6175f239773b173f348a7023ce65cc0914a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-003",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Explain radioactive positron emission, positron/electron annihilation photons and reconstruction of activity location.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "153072bcd73ccf63807c194cc1d0105854601c6d4de640c0fa9c3ec20f507c23"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "153072bcd73ccf63807c194cc1d0105854601c6d4de640c0fa9c3ec20f507c23"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-004",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "CT adds anatomy and attenuation correction; low-dose localisation and diagnostic CT with different settings/contrast are not automatically equivalent.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "60cf0799c6942888c8be1c0b7943ee289c7e41c2ba62ec132c8d0e3260c96104"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "60cf0799c6942888c8be1c0b7943ee289c7e41c2ba62ec132c8d0e3260c96104"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-005",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Name 18F-FDG and its glucose-handling scope; physiological/inflammatory avidity and low-signal cancer limit malignancy inference.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "1de03008a45bf15f08694b4e0fab798d1fb9b31850c608a8e65660c1dda4eb54"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "1de03008a45bf15f08694b4e0fab798d1fb9b31850c608a8e65660c1dda4eb54"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-006",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Keep tracer identity with scan identity; FDG cannot substitute for an antibody or other target-directed tracer.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "6e411477e84216ce87e12347c4b34696957a6c3542c3596b79922712a1eed9fd"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "6e411477e84216ce87e12347c4b34696957a6c3542c3596b79922712a1eed9fd"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-007",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Carry the full fictional anatomy/activity and small-region dilution image; the uncalibrated resolution cartoon is not an uptake simulation, cell count or malignant-source label.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 45,
+          "passageSha256": "b662b651f9d7c32db58412312518fd3819daba75bc416f02dd69932c9d6b9da7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 45,
+          "passageSha256": "b662b651f9d7c32db58412312518fd3819daba75bc416f02dd69932c9d6b9da7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-008",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "PET and CT may provide discordant structural/activity information in appropriate detection/staging/response contexts without either determining malignancy alone.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "0f26d1f04a68e69d5638fa3e393e2d6ad226ac4362c8e7eceba1ea44fb5a2543"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Why it matters in cancer",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "0f26d1f04a68e69d5638fa3e393e2d6ad226ac4362c8e7eceba1ea44fb5a2543"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-009",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Explain partial-volume spreading and lower apparent uptake in small structures, alongside background, lesion size and tracer-biology detection limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "9d46c3b98480e410937234e959b6949974e1548d5347463458e1c4d7755b7fee"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Why it matters in cancer",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "9d46c3b98480e410937234e959b6949974e1548d5347463458e1c4d7755b7fee"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-010",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Check actual scan coverage, including the guideline's skull-base-to-mid-thigh example; even whole-body imaging is not complete disease census.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Why it matters in cancer",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "5c341211975157124d07d8bd1dfa8e549e5a9bc9bcefa1fe2f534c28d11c258e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Why it matters in cancer",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "5c341211975157124d07d8bd1dfa8e549e5a9bc9bcefa1fe2f534c28d11c258e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-011",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Measurement card: administered tracer, imaged region and acquisition; distinguish distribution/anatomy from MBq activity and kBq/mL concentration.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "1504b9c6808dea17521913ae2763fc8c74ad60c2559cc1552f671327b6aafc59"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it is measured",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "1504b9c6808dea17521913ae2763fc8c74ad60c2559cc1552f671327b6aafc59"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-012",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Define SUV normalisation to activity and body-size measure; distinguish SUL lean-mass normalisation, SUVmax voxel maximum and SUVmean rather than cancer-cell percentages.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "7d59d15e2346f80043ceb5991d098092555733d35941b1e61ab34f3f439f4a0b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "7d59d15e2346f80043ceb5991d098092555733d35941b1e61ab34f3f439f4a0b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-013",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Assess the PERCIST/SUL statement at the actual response-method scope, not as interchangeability of all uptake metrics.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "7d59d15e2346f80043ceb5991d098092555733d35941b1e61ab34f3f439f4a0b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it is measured",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "7d59d15e2346f80043ceb5991d098092555733d35941b1e61ab34f3f439f4a0b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-014",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Retain uptake time, FDG glucose, calibration, reconstruction and region selection; cross-tracer/protocol raw SUV comparisons are not controlled biology and no universal malignancy/response cutoff is supplied.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "How it is measured",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "ed4263c87cd14a3501e03b850ab12588a4daa16bc186044ab83a2d1e1f183ba6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "How it is measured",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "ed4263c87cd14a3501e03b850ab12588a4daa16bc186044ab83a2d1e1f183ba6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-015",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Keep hot/malignant, SUV reduction/cell reduction, PET-CT/full diagnostic CT and non-avid/no-cancer confusions explicit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Common confusions",
+          "lineStart": 65,
+          "lineEnd": 68,
+          "passageSha256": "0818a124a4921375f3818208a464155e2e9d04673a708728351d15b96b480a1c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Common confusions",
+          "lineStart": 65,
+          "lineEnd": 68,
+          "passageSha256": "0818a124a4921375f3818208a464155e2e9d04673a708728351d15b96b480a1c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-016",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "The low-looking small-region peak does not prove less original tracer; the drawing supplies no calibrated activity estimate or cell identity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "4620e9fcb83f877465beed83024b8cbfac673491fa526590a1c2bdb4ce9e52f1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Try it",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "4620e9fcb83f877465beed83024b8cbfac673491fa526590a1c2bdb4ce9e52f1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-017",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Carry the whole avid-node-after-regional-inflammation example; report uptake under conditions, retain anatomy/history/comparisons/tissue and do not make a non-avid node a negative histology result.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Try it",
+          "lineStart": 74,
+          "lineEnd": 76,
+          "passageSha256": "8bc853887ce6273dab1dfb3869bf1260cfe444a89c0acd98cea8e07b596780b9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Try it",
+          "lineStart": 74,
+          "lineEnd": 76,
+          "passageSha256": "8bc853887ce6273dab1dfb3869bf1260cfe444a89c0acd98cea8e07b596780b9"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-018",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "The explanation must retain named tracer, anatomy, coverage, time and uptake measure, without assigning every cell or excluding microscopic disease.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Explain it back",
+          "lineStart": 80,
+          "lineEnd": 86,
+          "passageSha256": "792a9540309d5d44eb28830274495b4daf0a6224d0ee9c4a939b90723636f836"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Explain it back",
+          "lineStart": 80,
+          "lineEnd": 86,
+          "passageSha256": "792a9540309d5d44eb28830274495b4daf0a6224d0ee9c4a939b90723636f836"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "P-019",
+      "lesson": "pet-ct",
+      "kind": "substantive",
+      "requirement": "Reconcile technical EANM 2015 version 2.0 with the cited 2025 version 3.0, preserving which definitions were actually read rather than silently upgrading their version.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Sources and scope",
+          "lineStart": 97,
+          "lineEnd": 99,
+          "passageSha256": "5323e09cd35e4cc7c91c2fdb8331e954f0ea426fe4439e7fc8e90c545d16b9ec"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Sources and scope",
+          "lineStart": 97,
+          "lineEnd": 99,
+          "passageSha256": "5323e09cd35e4cc7c91c2fdb8331e954f0ea426fe4439e7fc8e90c545d16b9ec"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-001",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Define immuno-PET through a radiolabelled antibody/derived binder and distribution, not a guarantee of target-exclusive uptake or therapeutic benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "005c28c07374492c81f08f58d0fb71c66b73ae5945facb0a80d874fda8dde87c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "preamble",
+          "lineStart": 22,
+          "lineEnd": 24,
+          "passageSha256": "005c28c07374492c81f08f58d0fb71c66b73ae5945facb0a80d874fda8dde87c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-002",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Carry the labelled-binding-tool analogy, including access, failed binding and circulating material; the label does not make a perfect detector.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "71a21bff63ae604dc5f03cb6faebc333812491c300f1820a6d85584f1f78282e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "In one sentence",
+          "lineStart": 26,
+          "lineEnd": 30,
+          "passageSha256": "71a21bff63ae604dc5f03cb6faebc333812491c300f1820a6d85584f1f78282e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-003",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Distinguish full IgG, Fab binding-region fragment and single-domain nanobody formats, whose clearance/penetration/retention/normal-organ tradeoffs have no universal winner.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 35,
+          "passageSha256": "1a7eb8576baa094ae22bae008011012a38108819aecf447f9cb093d8b7a013a8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it works",
+          "lineStart": 34,
+          "lineEnd": 36,
+          "passageSha256": "1a7eb8576baa094ae22bae008011012a38108819aecf447f9cb093d8b7a013a8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-004",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Isotope choice fits binder time course: 89Zr full-antibody multi-day and 68Ga faster-binder examples are product-specific rather than universal timing rules.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "bffb674c80e5009e9f7949c08e895d9420977b3a57019946686e5780f92b5ec6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "bffb674c80e5009e9f7949c08e895d9420977b3a57019946686e5780f92b5ec6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-005",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Unlabelled/therapeutic antibody mass can compete or change distribution/background; less uptake need not be target loss.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "f263e75c9ba2cef4510265ed2af88151752b0ef1f6c41eae5538bed6d4a3f00e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it works",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "f263e75c9ba2cef4510265ed2af88151752b0ef1f6c41eae5538bed6d4a3f00e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-006",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Carry the full labelled/unlabelled-binder visual: isotope, delivery, access, competition, clearance, retention, mass, activity and image time; the conceptual diagram supplies no uptake values.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 47,
+          "passageSha256": "007a64ab9c9a75266df9c1f1c5ba3c0d097b09df593a4fbfa5dfc0d532952719"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 48,
+          "passageSha256": "007a64ab9c9a75266df9c1f1c5ba3c0d097b09df593a4fbfa5dfc0d532952719"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-007",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify Dijkers' 14-person HER2-positive metastatic-breast feasibility study and mass/time effects without extrapolating universal treatment selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Why it matters in cancer",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "0a521efce3b10fa6d7f07bce3e1b8cf91e7644cc2dbe774a685a02e1995bbcd3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "0a521efce3b10fa6d7f07bce3e1b8cf91e7644cc2dbe774a685a02e1995bbcd3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-008",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify Keyaerts' 20-woman primary/metastatic HER2-IHC2+/3+ phase1 safety/distribution/dosimetry study; tumour targeting is not clinical benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Why it matters in cancer",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "6733db097f5f092511e657ebcb58eb2feb470d899202a642649b9573e2eae3b1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "6733db097f5f092511e657ebcb58eb2feb470d899202a642649b9573e2eae3b1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-009",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify Bensch's 22-person three-tumour-type 89Zr-atezolizumab study, heterogeneous/lymphoid/inflammatory signal and exploratory response association; PD-L1 uptake is not malignant-cell specificity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Why it matters in cancer",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "b2b09b72d49b8296aca8f8d5618ceff86eeddb5faac19eb177ca05aaac36bbb6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "b2b09b72d49b8296aca8f8d5618ceff86eeddb5faac19eb177ca05aaac36bbb6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-010",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Separate CD8 antibody-derived tracing from granzyme-B peptide tracing and scope their investigational uses; immune-related biology alone does not make a tracer an antibody.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 62,
+          "lineEnd": 67,
+          "passageSha256": "f571c0ca581996e05eabd7bc20690de847052602f4ca86afc33aa0e4d2d12542"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-011",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify Farwell first-in-human CD8 imaging: 15 participants, ten with tumour uptake, seven of eight receiving immunotherapy and lymphoid/normal-organ distribution.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 66,
+          "lineEnd": 66,
+          "passageSha256": "5099c8f5a536b308c647b6b930f886507668663ef655e5055cedf14728b946a8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-012",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify the 38-person CD8 phase1/2 study, between/within-person uptake, inflamed/desert and tissue-CD8 associations, exploratory survival association and noncorresponding on-treatment lesion changes.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 66,
+          "lineEnd": 69,
+          "passageSha256": "6168de6b4739dfd28c55f4a8d6c61e75ca364aa979e7ee9e9f4bb5aca8c236b9"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-013",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Granzyme-B imaging targets released enzyme with a small labelled peptide; retain T-cell/NK origin, 68Ga/18F examples and the distinction from recognising a specific tumour antigen.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "8c3855c9b04fe07efb4377a5228e87cfca3e13c8eb30cedd73f387108f2e51a7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-014",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Verify Larimer's mouse proof of concept and earlier responder separation before size change without treating it as a validated human response predictor.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "8c3855c9b04fe07efb4377a5228e87cfca3e13c8eb30cedd73f387108f2e51a7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-015",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Resolve the 2026 granzyme-B review and trace human feasibility/safety and threshold/validation claims to their actual evidence; a review or small association is not validated treatment selection.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 69,
+          "passageSha256": "b6e1470b90ca64fdee58831ce076a97098e610a1b16d2ddc325bcde07a696f37"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-016",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Measurement card retains exact binder, isotope, protein mass, administered MBq and timing; micrograms/mg do not mean target-positive cell fraction.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it is measured",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "2745f078242b252570f0d1815c0906062517f0e8fcd76b4222e5c704ae90ded3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "2745f078242b252570f0d1815c0906062517f0e8fcd76b4222e5c704ae90ded3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-017",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Interpret blood-pool/normal-organ background, lesion size and clearance; one image cannot isolate every binding/delivery/retention contribution, receptor occupancy or therapeutic absorbed dose.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "fb9c5da6c6bca775c2742868a7a1bcd9981a0736baab26fb58db3b2c0f0e6626"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "fb9c5da6c6bca775c2742868a7a1bcd9981a0736baab26fb58db3b2c0f0e6626"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-018",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Keep antibody-format meaning, immune-associated peptide distinction, uptake/expression percentage and exploratory correlation/clinical-utility confusions explicit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Common confusions",
+          "lineStart": 67,
+          "lineEnd": 70,
+          "passageSha256": "2dd1967b975660c31e6a98c8c0dfabb45e365b51bbe2f5abc3bd2b7233853328"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Common confusions",
+          "lineStart": 79,
+          "lineEnd": 82,
+          "passageSha256": "2dd1967b975660c31e6a98c8c0dfabb45e365b51bbe2f5abc3bd2b7233853328"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-019",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "CD8 signal is not a cell census or proof of antigen recognition/killing; granzyme release cannot establish its cellular source or a durable response.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Common confusions",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "56ca719e4e15a44d0fff61f9fa5620746a6ecc5d48f320c61d9c84ac3d539d13"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-020",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "Carry the whole lower-uptake-after-same-target-antibody exercise with competition, access, exposure, clearance, mass, time/background and separate tissue/controlled-binding evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Try it",
+          "lineStart": 74,
+          "lineEnd": 76,
+          "passageSha256": "eda5b2f24b83304592262d3441d074bd920b19505fcdbc13576cc560ecab1163"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Try it",
+          "lineStart": 87,
+          "lineEnd": 89,
+          "passageSha256": "eda5b2f24b83304592262d3441d074bd920b19505fcdbc13576cc560ecab1163"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "I-021",
+      "lesson": "immuno-pet",
+      "kind": "substantive",
+      "requirement": "The explanation must connect named antibody tracer, conditions and limitations without automatic treatment choice or cancer-exclusive binding.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Explain it back",
+          "lineStart": 80,
+          "lineEnd": 86,
+          "passageSha256": "e226731128ebabdb8f673c3f62bfabc4c04a0c3769352be860d62f65939e2d26"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Explain it back",
+          "lineStart": 93,
+          "lineEnd": 99,
+          "passageSha256": "e226731128ebabdb8f673c3f62bfabc4c04a0c3769352be860d62f65939e2d26"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-001",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Define target-directed tracer distribution separately from the evidence bridge to a specified therapeutic product and setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "64b9324764d3db25735da8198721eb7030acfcc8d4c2e3d437c37d3ae04e625a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "preamble",
+          "lineStart": 21,
+          "lineEnd": 23,
+          "passageSha256": "64b9324764d3db25735da8198721eb7030acfcc8d4c2e3d437c37d3ae04e625a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-002",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Carry the labelled-key/lock analogy with access, unobserved targets, nonmalignant target sites and different therapeutic cargo limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "eff7115bf178d4d5537d724a486c533c83d7b33e2c675ae9b2ab46fc77d4ae9e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 29,
+          "passageSha256": "eff7115bf178d4d5537d724a486c533c83d7b33e2c675ae9b2ab46fc77d4ae9e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-003",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Name targeting vector and positron-emitting label, with chelator and linker only where the product uses them.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "64736a585f8090ea2ecf6e2ef954dc8e35b860220937837b8d6795d120699671"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "How it works",
+          "lineStart": 33,
+          "lineEnd": 33,
+          "passageSha256": "64736a585f8090ea2ecf6e2ef954dc8e35b860220937837b8d6795d120699671"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-004",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Vectors may be small molecules, peptides or antibodies; accessible surface/intracellular interactions and normal/stromal targets have product-specific scope.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "c5cf3266ec4c3d95f982cbe96bd4677daf952dcf41a5cd9b9c374cddee128152"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "c5cf3266ec4c3d95f982cbe96bd4677daf952dcf41a5cd9b9c374cddee128152"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-005",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Uptake combines delivery, accessible target, binding, retention, clearance and background; RNA/total protein alone cannot establish in-body target availability.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "063c52f19b0afe3c3186290e25dec6a82e68635a1cc7744db8b98b8a34d0bd5d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "063c52f19b0afe3c3186290e25dec6a82e68635a1cc7744db8b98b8a34d0bd5d"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-006",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Carry the entire fictional vector+A versus antibody+B image and time curve; one scan cannot fill a different product's time course and curve area alone is not absorbed dose.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "From imaging to theranostics",
+          "lineStart": 41,
+          "lineEnd": 47,
+          "passageSha256": "65b89b3e99f6148efb638c65df9937ef8a1d8f03e6b56fb51c2e733a1bb13d4a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "From imaging to theranostics",
+          "lineStart": 41,
+          "lineEnd": 47,
+          "passageSha256": "65b89b3e99f6148efb638c65df9937ef8a1d8f03e6b56fb51c2e733a1bb13d4a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-007",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Theranostic imaging links a diagnostic result to a related therapeutic strategy; radioligand therapy delivers its radionuclide's radiation, with a separately evidenced bridge.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "From imaging to theranostics",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "f0c8a403d5f2de1ac7220196945ecaf0f6da5750bdfb1e4961c5060e55f7caa0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "From imaging to theranostics",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "f0c8a403d5f2de1ac7220196945ecaf0f6da5750bdfb1e4961c5060e55f7caa0"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-008",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Scope the 68Ga-PSMA imaging and 177Lu-PSMA mainly-beta mechanism example to the actual prostate setting, without breast eligibility, approval inventory or access claims.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "From imaging to theranostics",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "9f1b7c4321030d0acee9460f0fed69a399d48336bebdb0a2e53a8b3cea59775b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "From imaging to theranostics",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "9f1b7c4321030d0acee9460f0fed69a399d48336bebdb0a2e53a8b3cea59775b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-009",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Shared target does not make vector, isotope, molecular mass, retention and emissions interchangeable; imaging needs product-specific evidence for dose or outcome claims.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "From imaging to theranostics",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "45c98d68ed974e99a64417204b401cbdad558dcab4f01e0449b7a9c86ce6fa94"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "From imaging to theranostics",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "45c98d68ed974e99a64417204b401cbdad558dcab4f01e0449b7a9c86ce6fa94"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-010",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Visible-lesion heterogeneity can add information beyond one tissue sample; low uptake has access/target/size/background/protocol alternatives and high uptake can include nonmalignant cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Why it matters in cancer",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "c7bd7df7667786aaa141f3e8345ce78a3662052e973fadf98eae5fb20d0bfc58"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Why it matters in cancer",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "c7bd7df7667786aaa141f3e8345ce78a3662052e973fadf98eae5fb20d0bfc58"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-011",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Retain three separate questions: detected tracer, sufficiently available target and a useful treatment benefit-harm balance in the matched setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Why it matters in cancer",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "813b83868373d1e15d9ff85b6b333280dc418d713dcd49fb6c51c1bfa952917c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Why it matters in cancer",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "813b83868373d1e15d9ff85b6b333280dc418d713dcd49fb6c51c1bfa952917c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-012",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Measurement card retains exact tracer, MBq, mass, time, coverage and region uptake; mass units and SUV are not radiation dose or expression percentage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "5a634cc08a95ff5227c6106d2b2378c35f33a7421315165ee1f5cae6b72fa574"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "How it is measured",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "5a634cc08a95ff5227c6106d2b2378c35f33a7421315165ee1f5cae6b72fa574"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-013",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Define absorbed-dose Gy as joules/kg and distinguish administered activity, a single SUV and dose; time-integrated activity, emissions and tissue energy deposition require an appropriate model.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "How it is measured",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "93aea370abad74ef499cbb1bc5342a4893f9ba4d16ed29506c86c8ef2bbd87b0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "How it is measured",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "93aea370abad74ef499cbb1bc5342a4893f9ba4d16ed29506c86c8ef2bbd87b0"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-014",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Keep protein/access, one-time uptake/therapeutic dose, shared target/product equivalence and negative/absent disease confusions explicit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Common confusions",
+          "lineStart": 69,
+          "lineEnd": 72,
+          "passageSha256": "f82a6595fcfa35aa69c32ecd0553d076901683a8e09f5b2c9a8db35b3b1eb4f8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Common confusions",
+          "lineStart": 69,
+          "lineEnd": 72,
+          "passageSha256": "f82a6595fcfa35aa69c32ecd0553d076901683a8e09f5b2c9a8db35b3b1eb4f8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-015",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Carry the full target-M small-molecule+A scan versus antibody+B therapy proposal; identify missing therapeutic distribution, time, emissions/decay, tissue dose, safety and outcome evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Try it",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "213a6074becf6df9c20dfc52a62c952f3cc3a20b4cfe5d87e751d3ff936898e1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Try it",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "213a6074becf6df9c20dfc52a62c952f3cc3a20b4cfe5d87e751d3ff936898e1"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-016",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "The explanation must connect the tested tracer, appropriate absorbed-dose assessment and matched clinical benefit evidence without a bright-image shortcut.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Explain it back",
+          "lineStart": 82,
+          "lineEnd": 88,
+          "passageSha256": "7eb8cb040c0087c84bc845dd397be630810e364f8f407258e7583f85e465211b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Explain it back",
+          "lineStart": 82,
+          "lineEnd": 88,
+          "passageSha256": "7eb8cb040c0087c84bc845dd397be630810e364f8f407258e7583f85e465211b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "T-017",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "substantive",
+      "requirement": "Keep PSMA imaging/therapy guidelines and FDA2019 nonclinical-development guidance at their actual product/population/nonclinical scope, not a personal clinical protocol.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Sources and scope",
+          "lineStart": 99,
+          "lineEnd": 101,
+          "passageSha256": "04e6c939f798b10f46748e420c4fe8c6e10203d41857812415ee209fd8103059"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Sources and scope",
+          "lineStart": 99,
+          "lineEnd": 101,
+          "passageSha256": "04e6c939f798b10f46748e420c4fe8c6e10203d41857812415ee209fd8103059"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage pending."
+    },
+    {
+      "id": "breast-mri-R",
+      "lesson": "breast-mri",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Related concepts",
+          "lineStart": 90,
+          "lineEnd": 110
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Related concepts",
+          "lineStart": 90,
+          "lineEnd": 110
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "breast-mri-D",
+      "lesson": "breast-mri",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Takeaway",
+          "lineStart": 86,
+          "lineEnd": 110
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Takeaway",
+          "lineStart": 86,
+          "lineEnd": 110
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "breast-mri-C",
+      "lesson": "breast-mri",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+          "heading": "Sources and scope",
+          "lineStart": 95,
+          "lineEnd": 110
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+          "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+          "heading": "Sources and scope",
+          "lineStart": 95,
+          "lineEnd": 110
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "breast-ultrasound-R",
+      "lesson": "breast-ultrasound",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Related concepts",
+          "lineStart": 86,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Related concepts",
+          "lineStart": 86,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "breast-ultrasound-D",
+      "lesson": "breast-ultrasound",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Takeaway",
+          "lineStart": 82,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Takeaway",
+          "lineStart": 82,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "breast-ultrasound-C",
+      "lesson": "breast-ultrasound",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+          "heading": "Sources and scope",
+          "lineStart": 91,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+          "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+          "heading": "Sources and scope",
+          "lineStart": 91,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "mammography-R",
+      "lesson": "mammography",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Related concepts",
+          "lineStart": 86,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Related concepts",
+          "lineStart": 86,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "mammography-D",
+      "lesson": "mammography",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Takeaway",
+          "lineStart": 82,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Takeaway",
+          "lineStart": 82,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "mammography-C",
+      "lesson": "mammography",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+          "heading": "Sources and scope",
+          "lineStart": 91,
+          "lineEnd": 103
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+          "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+          "heading": "Sources and scope",
+          "lineStart": 91,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "pet-ct-R",
+      "lesson": "pet-ct",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Related concepts",
+          "lineStart": 88,
+          "lineEnd": 106
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Related concepts",
+          "lineStart": 88,
+          "lineEnd": 106
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "pet-ct-D",
+      "lesson": "pet-ct",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Takeaway",
+          "lineStart": 84,
+          "lineEnd": 106
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Takeaway",
+          "lineStart": 84,
+          "lineEnd": 106
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "pet-ct-C",
+      "lesson": "pet-ct",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+          "heading": "Sources and scope",
+          "lineStart": 93,
+          "lineEnd": 106
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+          "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+          "heading": "Sources and scope",
+          "lineStart": 93,
+          "lineEnd": 106
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "immuno-pet-R",
+      "lesson": "immuno-pet",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Related concepts",
+          "lineStart": 88,
+          "lineEnd": 105
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Related concepts",
+          "lineStart": 105,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "immuno-pet-D",
+      "lesson": "immuno-pet",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Takeaway",
+          "lineStart": 84,
+          "lineEnd": 105
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Takeaway",
+          "lineStart": 97,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "immuno-pet-C",
+      "lesson": "immuno-pet",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+          "heading": "Sources and scope",
+          "lineStart": 93,
+          "lineEnd": 105
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "heading": "Sources and scope",
+          "lineStart": 110,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "target-pet-and-theranostic-imaging-R",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Related concepts",
+          "lineStart": 90,
+          "lineEnd": 107
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Related concepts",
+          "lineStart": 90,
+          "lineEnd": 107
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "target-pet-and-theranostic-imaging-D",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Takeaway",
+          "lineStart": 86,
+          "lineEnd": 107
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Takeaway",
+          "lineStart": 86,
+          "lineEnd": 107
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "target-pet-and-theranostic-imaging-C",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+          "heading": "Sources and scope",
+          "lineStart": 95,
+          "lineEnd": 107
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+          "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+          "heading": "Sources and scope",
+          "lineStart": 95,
+          "lineEnd": 107
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "surveillance-after-treatment-R",
+      "lesson": "surveillance-after-treatment",
+      "kind": "routing",
+      "requirement": "Assess linked concepts as routing; unique teaching in explanatory link text must already be represented, without citation-presence credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Related concepts",
+          "lineStart": 97,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "surveillance-after-treatment-D",
+      "lesson": "surveillance-after-treatment",
+      "kind": "derived-recap",
+      "requirement": "Takeaway and explain-it-back repeat the assessed teaching; no extra independent science credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Takeaway",
+          "lineStart": 93,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "surveillance-after-treatment-C",
+      "lesson": "surveillance-after-treatment",
+      "kind": "source-scope",
+      "requirement": "Record dated scope, fictional examples and reading limits separately; a citation or pending review is not verification.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+          "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+          "heading": "Sources and scope",
+          "lineStart": 105,
+          "lineEnd": 124
+        }
+      ],
+      "independentScienceCredit": 0
+    },
+    {
+      "id": "IP-personal-routing",
+      "lesson": "immuno-pet",
+      "kind": "excluded-personal-context",
+      "requirement": "Personal-context routing excluded; no private facts, name or links adopted.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+          "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+          "lineStart": 101,
+          "lineEnd": 103
+        }
+      ],
+      "independentScienceCredit": 0
+    }
+  ]
+}

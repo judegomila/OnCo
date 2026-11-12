@@ -1,0 +1,627 @@
+{
+  "checkedOn": "2026-11-11",
+  "sources": [
+    {
+      "id": "01",
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/technical-operational",
+      "effectiveURL": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/technical-operational",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 30319,
+      "sha256": "3e1cb46c49c22c3b6cb1c041d787e5db55307033eb7201885289dbaf31e09c01",
+      "type": "html",
+      "projectionSha256": "a0ea5525d8be0e677b422f43337d2af29aecf420839116d3fdc2b299cf28ed27",
+      "readingDepth": "Complete NCI technical/operational overview text read; linked 2026 best-practices document and chapters not read.",
+      "adopted": true
+    },
+    {
+      "id": "02",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31398327/",
+      "effectiveURL": "https://pubmed.ncbi.nlm.nih.gov/31398327/",
+      "status": 203,
+      "curlExit": 0,
+      "bytes": 5590,
+      "sha256": "bff02349a082f0933be6f2fa68ad66102ad131e7c6c1a89dfd2e928cfeadf66a",
+      "type": "html",
+      "projectionSha256": "404fd5df2ef4bdbae80aae54af85a816c7d8a71131adaa2685b724d1a80f4861",
+      "readingDepth": "PubMed returned an HTTP 203 access/interstitial body. Not used for abstract or identity; resolved through source 27 instead.",
+      "adopted": false
+    },
+    {
+      "id": "03",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "effectiveURL": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 4836192,
+      "sha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df",
+      "type": "pdf",
+      "projectionSha256": "fae4fd437c6a2b7ac7d7998d6ff7f68535354082677dbaecbf27a8b9f7a74b2a",
+      "readingDepth": "KEYTRUDA July 2026 PDF: targeted section 5.1 opening and pneumonitis passage read. No whole-label read, dose advice or new combination-safety conclusion.",
+      "adopted": true
+    },
+    {
+      "id": "04",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "effectiveURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 52053,
+      "sha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe",
+      "type": "html",
+      "projectionSha256": "da183931acaf62487bc1d4776c07f2121998a02d5fd104cf42f611c7a4eeb324",
+      "readingDepth": "Complete NCI T-cell-transfer page projection read. Adopted only input-source and conditioning/regimen distinctions, not an exhaustive current approval count.",
+      "adopted": true
+    },
+    {
+      "id": "05",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+      "effectiveURL": "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 56855,
+      "sha256": "3785ab12c0f5dd8cb97ed3cc3ce2de0a14dcd23406574328d8fd56705f8f95de",
+      "type": "html",
+      "projectionSha256": "644bc54167d1357c1c0d3014ef1b7ed2dbdbd4c4b7bd1293b57ac7a7487fd70e",
+      "readingDepth": "Complete NCI trial-search page projection read; eligibility preparation and trial-team confirmation.",
+      "adopted": true
+    },
+    {
+      "id": "06",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "effectiveURL": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 52639,
+      "sha256": "f0ffa43b46b44b80de5d7f4aba69425db32a26ba0aa0e328d02a665761987a7e",
+      "type": "html",
+      "projectionSha256": "304ec047fcf43c6d6ed8bffb265122608bf59be390c945a50073633b67ff9b64",
+      "readingDepth": "Complete NCI how-trials-work projection read; eligibility, assignment and placebo groups. No phase-to-individual-benefit guarantee adopted.",
+      "adopted": true
+    },
+    {
+      "id": "07",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/paying",
+      "effectiveURL": "https://www.cancer.gov/research/participate/clinical-trials/paying",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 48656,
+      "sha256": "bdf509946d7720c451e4848fa6ddd3f0319448c5a37751111e67fd4e3ea681e7",
+      "type": "html",
+      "projectionSha256": "6d5586158a5371764caaf74630b3d79eabab4d563a70f1c24b9cceddf84fb4ad",
+      "readingDepth": "Complete NCI payment page projection read; routine care, research and practical costs. Plan-specific payment is not inferred.",
+      "adopted": true
+    },
+    {
+      "id": "08",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/safety",
+      "effectiveURL": "https://www.cancer.gov/research/participate/clinical-trials/safety",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 48414,
+      "sha256": "e932fa4a0bb57ad50e03a88cf8e4ae54d341de95247a75a44cd78f9075629dd5",
+      "type": "html",
+      "projectionSha256": "8b846dbc8c3f991792114a66e6c8716854e5e7c34409ba774b1f339a8b6c33db",
+      "readingDepth": "Complete NCI safety/consent page projection read; ongoing questions, understandable information and withdrawal. No guarantee of safety adopted.",
+      "adopted": true
+    },
+    {
+      "id": "09",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect",
+      "effectiveURL": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 43056,
+      "sha256": "74ccadb2c2ee61f3b27d92ae9746e0896c068cc79ae17cd2647a9aa63edc3614",
+      "type": "html",
+      "projectionSha256": "e43ecbc9bba16ec67df0df0e0f9c98af5c304528284c5f5cc5079d42844328b3",
+      "readingDepth": "Complete NCI what-to-expect projection read; pre-screening, consent, screening and after-participation steps. Automated Request Access flag is a false positive on the genuine results-request sentence.",
+      "adopted": true
+    },
+    {
+      "id": "10",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8",
+      "effectiveURL": "https://unblock.federalregister.gov/",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 10596,
+      "sha256": "073aa75882191f0f5d1b3bcbbebb358cf902ee54a4cc875c72f874f5bcb921bf",
+      "type": "html",
+      "projectionSha256": "6bed2ef99d519862dd58d3712baa726252206671b00d6b51b6a85d7626a62f65",
+      "readingDepth": "Ordinary eCFR page returned a CAPTCHA/request-access body. Not used as regulatory evidence. Official documented API used separately.",
+      "adopted": false
+    },
+    {
+      "id": "11",
+      "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate",
+      "effectiveURL": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 43009,
+      "sha256": "e349986547aebeb62f6b30a30d36210459007e9b33dab503a1779b9f5b1f9743",
+      "type": "html",
+      "projectionSha256": "68b810ffa67cc2a7794149b88e7e324a14ea8fc965529c499a3273e371f535a7",
+      "readingDepth": "Complete Project Facilitate page projection read; role and voluntary company supply. No comparative bottleneck-frequency measurement.",
+      "adopted": true
+    },
+    {
+      "id": "12",
+      "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-treatment-expanded-access-overview",
+      "effectiveURL": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-applications-clinical-treatment-expanded-access-overview",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 35066,
+      "sha256": "b775ccc608bedf6d4abd8cd2e30eaba40b4a1cb7ac449474ccb71c858ac0180a",
+      "type": "html",
+      "projectionSha256": "7f16a0f8737a470f14f7539be4fe174eeed0710aaeb90145a23a7120cf3e9af8",
+      "readingDepth": "Complete FDA expanded-access overview projection read; criteria, responsibilities, route-specific timing and possible hold.",
+      "adopted": true
+    },
+    {
+      "id": "13",
+      "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/physicians-how-request-single-patient-expanded-access-compassionate-use",
+      "effectiveURL": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/physicians-how-request-single-patient-expanded-access-compassionate-use",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 39260,
+      "sha256": "d1bb7937c5e64115d72ab40491d044187917fecb64aaa38febc859d11d323f06",
+      "type": "html",
+      "projectionSha256": "7959e62d183a0397177feb9203e141be7297afd6522e9546740342a5de2e6fb3",
+      "readingDepth": "Complete physician-request page projection read; supplier, forms, review, consent and timing. The forms page denominator and April 2026 guidance retain their distinct wording.",
+      "adopted": true
+    },
+    {
+      "id": "14",
+      "url": "https://www.fda.gov/drugs/investigational-new-drug-ind-application/investigator-initiated-investigational-new-drug-ind-applications",
+      "effectiveURL": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/investigational-new-drug-ind-and-emergency-investigational-new-drug-eind-application-information",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 35479,
+      "sha256": "a2395dbe08d1ee674dd9b032a798c8a994bfeb8c72a12110e89c4086556261fe",
+      "type": "html",
+      "projectionSha256": "38a3d8792e00483a188e2d65a3c26d87a0fca0c730c8155b68f0bf40702f5276",
+      "readingDepth": "Complete FDA investigator-initiated resource-index projection read; links and research/treatment categories, not linked guidance bodies.",
+      "adopted": true
+    },
+    {
+      "id": "15",
+      "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "effectiveURL": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 60119,
+      "sha256": "c56413d488dedc6df60f824b11ef6b36907a10b89da07fb9a9b1f53726c8d42e",
+      "type": "html",
+      "projectionSha256": "6e61bb63650bbef66063328852ea18ac2cacb2d39fed2d735a7ef57a05a8e3b7",
+      "readingDepth": "Targeted IND introduction, application types and three content areas read. Manufacturing and protocol requirements remain product-specific; not the whole linked guidance library.",
+      "adopted": true
+    },
+    {
+      "id": "16",
+      "url": "https://www.fda.gov/media/162793/download",
+      "effectiveURL": "https://www.fda.gov/media/162793/download",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 508449,
+      "sha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77",
+      "type": "pdf",
+      "projectionSha256": "cf7bb23fb04625f9d77bfca0e2d8a6ef8d2d1dda82f3d2a65bb027bef1ec1d6c",
+      "readingDepth": "April 2026 Revision 2 PDF: targeted introduction, Q2 and beginning of Q3, Q6 individual-patient classification, Q11-Q15 passages, and Q24-Q26 in full. No whole-guidance read.",
+      "adopted": true
+    },
+    {
+      "id": "17",
+      "url": "https://www.fda.gov/media/74346/download",
+      "effectiveURL": "https://www.fda.gov/media/74346/download",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 147211,
+      "sha256": "053d6f6c1c98411848dd0fc4278d6d32b0250f043c88b505543c29b14a492dff",
+      "type": "pdf",
+      "projectionSha256": "4d0bac21ccb79dda4e1ed6cb9acaf8a06717716642fcc7793173f683bf94c737",
+      "readingDepth": "December 2016 PDF: targeted distribution/elimination and effective-versus-terminal half-life passages. No whole-guidance read.",
+      "adopted": true
+    },
+    {
+      "id": "18",
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms",
+      "effectiveURL": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 78488,
+      "sha256": "73fc2238e24f8bc046745c216530e6df452c743a4c2bceba0e75d1780ca45a95",
+      "type": "html",
+      "projectionSha256": "acfb426771324888c6832a1450d1d896fbc414e9b036a032f66a7fb681dd08ee",
+      "readingDepth": "Complete FDA request-forms page projection read, including new-IND/protocol distinctions, emergency start points and 99% statement. No supply/benefit probability inferred.",
+      "adopted": true
+    },
+    {
+      "id": "19",
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs",
+      "effectiveURL": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 65049,
+      "sha256": "ac2f83ff4e5ebcf299d9c736169c77a8b3b51c4efee38bf0b92abde5f465bd72",
+      "type": "html",
+      "projectionSha256": "ddf31356b2befe5c99bfea9a3e2e60dbec08d11d000260d0fbe2ac112f7a9716",
+      "readingDepth": "Complete FDA IRB page projection read; responsibility, chair/designated-member procedure, consent and emergency reporting. April 2026 Q11 qualifies the older subsequent-use wording.",
+      "adopted": true
+    },
+    {
+      "id": "20",
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "effectiveURL": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 36045,
+      "sha256": "abfefa99ca9286942dfb91e334dd22095f735d696a8bd22ad39d8302bf868c87",
+      "type": "html",
+      "projectionSha256": "488e12c34aed05eae5f1be6b29ba7ebaf21dc7fc0f7f3dcc0a8d495618d737cf",
+      "readingDepth": "Complete FDA expedited-program overview read; distinguish designation/review support from actual accelerated approval.",
+      "adopted": true
+    },
+    {
+      "id": "21",
+      "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options",
+      "effectiveURL": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 35635,
+      "sha256": "fd3c666d6286c2e619cce36d7a72a323bcfef7e797aa92a444b2140e0f7800af",
+      "type": "html",
+      "projectionSha256": "fe5445d6d0ff3bf747ab352f0ee23795f9add77dc2e8f59d5262afe3d029309c",
+      "readingDepth": "Complete FDA treatment-options overview projection read; route categories only.",
+      "adopted": true
+    },
+    {
+      "id": "22",
+      "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try",
+      "effectiveURL": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 43800,
+      "sha256": "a29d9946acd5a8aef281df8da4040c81c5eae3040daf082834d4cefafc7edcd4",
+      "type": "html",
+      "projectionSha256": "ebd24a6272f2857e8c494a1e7f927f568fc881d9b74c07ad88d99137c28fdf3c",
+      "readingDepth": "Complete federal Right to Try page projection read, including joint patient/product criteria, individual-review limits, consent, voluntary supply and reporting.",
+      "adopted": true
+    },
+    {
+      "id": "23",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individual-patient-expanded-access-applications-form-fda-3926",
+      "effectiveURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individual-patient-expanded-access-applications-form-fda-3926",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 34785,
+      "sha256": "f3088f8b8e30e3dc798b971b9753c999d186d26a347acd2cb702fd50d5315725",
+      "type": "html",
+      "projectionSha256": "86c854093d743d16ae551a298f4109c63fd552510f1ceaaedcd888153252b101",
+      "readingDepth": "Complete Form 3926 guidance landing-page projection read. The linked October 2017 PDF was not read; form scope corroborated by forms page and April 2026 Q6.",
+      "adopted": true
+    },
+    {
+      "id": "24",
+      "url": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label",
+      "effectiveURL": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 33211,
+      "sha256": "5d2155f3735bde461d86d0490d93f116b2d083fc342838c6522b08f81588685c",
+      "type": "html",
+      "projectionSha256": "79361ce5bd24af29765e6f000b7e9e1aaeb6c299f0aa59a1699ea8b69496b93f",
+      "readingDepth": "Complete FDA off-label page projection read; approved product, different disease/route/dose, use-specific evidence and payment.",
+      "adopted": true
+    },
+    {
+      "id": "25",
+      "url": "https://www.law.cornell.edu/cfr/text/21/312.8",
+      "effectiveURL": "https://www.law.cornell.edu/cfr/text/21/312.8",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 38801,
+      "sha256": "056e49dadfdb2d3c78854be89b59f36448170237746eaddecd666f311fd35b8c",
+      "type": "html",
+      "projectionSha256": "d8be65232d3be4a2f4b14bab19266d527c055d2d3a6b9dacbb1dc912ef8009a9",
+      "readingDepth": "Complete Cornell mirror of 21 CFR 312.8 read; corroborated against official eCFR API text, which is the primary regulatory evidence.",
+      "adopted": true
+    },
+    {
+      "id": "26",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-11/title-21.xml?part=312",
+      "effectiveURL": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-11/title-21.xml?part=312",
+      "status": 406,
+      "curlExit": 0,
+      "bytes": 171,
+      "sha256": "ed46cb97b5421e9d7f2fd72ca81c3da59d8d26518689980713a3a75ee74fe460",
+      "type": "html",
+      "projectionSha256": "ec71299affd6e33e68e0fd6aa1bb81c8372d2c7b7e7c96dec20a73ef82673e59",
+      "readingDepth": "First official API response required Accept-Encoding compression; corrected request returned the title latest-issue-date error. These are transport/date errors, not regulatory evidence.",
+      "adopted": false
+    },
+    {
+      "id": "27",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31398327+AND+SRC%3AMED&format=json&resultType=core",
+      "effectiveURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31398327+AND+SRC%3AMED&format=json&resultType=core",
+      "status": 200,
+      "curlExit": 0,
+      "bytes": 11753,
+      "sha256": "4158ea08d95362b21936085e27f8b79d6b3db1aefa3f077317b645796798cf3f",
+      "type": "json",
+      "projectionSha256": "4158ea08d95362b21936085e27f8b79d6b3db1aefa3f077317b645796798cf3f",
+      "readingDepth": "Europe PMC MED core record resolved PMID 31398327, DOI 10.1016/j.cell.2019.07.009 and PMC6939866 to Kula 2019. Full abstract read; no original-paper full text. Metadata authorString repeats Dezfulian; no duplicate author list copied into a paper record.",
+      "adopted": true
+    },
+    {
+      "id": "26-current",
+      "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-09/title-21.xml?part=312",
+      "status": 200,
+      "bytes": 191830,
+      "sha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "readingDepth": "Official API returned HTTP 200 for latest available title issue, 9 November 2026. Sections 312.3, 312.8, 312.305 and 312.310 read completely; rest of part 312 not read.",
+      "adopted": true
+    },
+    {
+      "id": "28",
+      "url": "https://www.fda.gov/media/130326/download",
+      "status": 200,
+      "bytes": 71421,
+      "sha256": "95d0fab4b279b1e7fc96a2544b6649b73325774763f0c7eb120816703b80948d",
+      "readingDepth": "August 2019 placebo/blinding guidance PDF: complete PDF text read, including all three content pages. Guidance status, qualifications and selected designs retained.",
+      "adopted": true
+    },
+    {
+      "id": "29",
+      "url": "https://www.fda.gov/media/156896/download",
+      "status": 200,
+      "bytes": 528619,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "readingDepth": "January 2024 CAR T-cell guidance: section III.C Cellular Starting Material targeted passage read. Generally obtained by leukapheresis, qualified for autologous versus allogeneic starting material; not a whole-guidance read.",
+      "adopted": true
+    }
+  ],
+  "evidencePassages": [
+    {
+      "id": "EA-99",
+      "sourceId": "18",
+      "excerpt": "On average, FDA determines that 99% of all expanded access requests may proceed.",
+      "excerptSha256": "8abe4cd5a8ae62b724b6489479c29068e029816bfb2846ecf6deb4ab68fba76c",
+      "captureSha256": "73fc2238e24f8bc046745c216530e6df452c743a4c2bceba0e75d1780ca45a95",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-CPA",
+      "sourceId": "26-current",
+      "excerpt": "(3) To support its calculation for cost recovery, a sponsor must provide supporting documentation to show that the calculation is consistent with the requirements of paragraphs (d)(1) and, if applicable, (d)(2) of this section. The documentation must be accompanied by a statement that an independent certified public accountant has reviewed and approved the calculations.",
+      "excerptSha256": "c7fb690b2e50aeffc7483cad43b928170c725f91365e8531b168bdec65201348",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-one-year",
+      "sourceId": "26-current",
+      "excerpt": "(4) Unless FDA specifies a shorter period, charging for expanded access to an investigational drug for treatment use under subpart I of this part may continue for 1 year from the time of FDA authorization. A sponsor may request that FDA reauthorize charging for additional periods.",
+      "excerptSha256": "ecff5c6e8f55867c618226a6471e298f2270efca004b7d5c12e2f43e8c089694",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-direct-costs",
+      "sourceId": "26-current",
+      "excerpt": "(1) A sponsor may recover only the direct costs of making its investigational drug available.\n(i) Direct costs are costs incurred by a sponsor that can be specifically and exclusively attributed to providing the drug for the investigational use for which FDA has authorized cost recovery. Direct costs include costs per unit to manufacture the drug (e.g., raw materials, labor, and nonreusable supplies and equipment used to manufacture the quantity of drug needed for the use for which charging is authorized) or costs to acquire the drug from another manufacturing source, and direct costs to ship and handle (e.g., store) the drug.\n(ii) Indirect costs include costs incurred primarily to produce the drug for commercial sale (e.g., costs for facilities and equipment used to manufacture the supply of investigational drug, but that are primarily intended to produce large quantities of drug for eventual commercial sale) and research and development, administrative, labor, or other costs that would be incurred even if the clinical trial or treatment use for which charging is authorized did not occur.",
+      "excerptSha256": "ee0c318b67cb177a22f22c727c970858e5e5d1ac39bb29242598ab11acedd632",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-large-program",
+      "sourceId": "26-current",
+      "excerpt": "(2) For expanded access to an investigational drug for treatment use under §§ 312.315 (intermediate-size patient populations) and 312.320 (treatment IND or treatment protocol), in addition to the direct costs described in paragraph (d)(1)(i) of this section, a sponsor may recover the costs of monitoring the expanded access IND or protocol, complying with IND reporting requirements, and other administrative costs directly associated with the expanded access IND.",
+      "excerptSha256": "1ff809b1f663973c9c775200caa9060b2f8da5e2bede7cdd5c1a0269b2e2880b",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-withdraw-charge",
+      "sourceId": "26-current",
+      "excerpt": "(4) FDA will withdraw authorization to charge if it determines that charging is interfering with the development of a drug for marketing approval or that the criteria for the authorization are no longer being met.",
+      "excerptSha256": "5e4b4798639bba224365766e7da72d584c50010fe2add2260fc68a5897e94b9f",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-start",
+      "sourceId": "26-current",
+      "excerpt": "(d) Beginning treatment—(1) INDs. An expanded access IND goes into effect 30 days after FDA receives the IND or on earlier notification by FDA that the expanded access use may begin.\n(2) Protocols. With the following exceptions, expanded access use under a protocol submitted under an existing IND may begin as described in § 312.30(a).\n(i) Expanded access use under the emergency procedures described in § 312.310(d) may begin when the use is authorized by the FDA reviewing official.\n(ii) Expanded access use under § 312.320 may begin 30 days after FDA receives the protocol or upon earlier notification by FDA that use may begin.",
+      "excerptSha256": "6e54f7c54771258db83901d98b9a61d2e4968a7580432b30f412444f2897bdac",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-15-working",
+      "sourceId": "26-current",
+      "excerpt": "(2) The licensed physician or sponsor must explain how the expanded access use will meet the requirements of §§ 312.305 and 312.310 and must agree to submit an expanded access submission within 15 working days of FDA's authorization of the use.",
+      "excerptSha256": "4873a7356d622569c2b7493b9196b18cf5f5a307f2fdf25116960215b061d264",
+      "captureSha256": "7c20a2f501cf3812acd048c59ab5658c4def0747589104df315cadd4e079d4b4",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-chair",
+      "sourceId": "19",
+      "excerpt": "For individual patient expanded access INDs where the IRB chairperson or another designated IRB member provides concurrence before treatment use begins, the review would follow a different review pathway that is neither full board nor expedited, but rather one in which the IRB chair or designee reviews the relevant documents (as determined by the IRB).  The decision to concur or not (and/or any questions and responses) is documented by the IRB chair or designee. FDA concludes that such a waiver is appropriate for individual patient expanded access INDs for the initial submission, any amendments (e.g., for change in the use or duration of treatment) to the IND, and, if applicable, continuing review. FDA intends to consider a completed Form FDA 3926 with the box in Field 10.b selected and the form signed by the physician to be a request for a waiver under 21 CFR 56.105 of the requirements in § 56.108(c), which relates to full IRB review. When a waiver is requested in this manner, the physician does not receive notice from FDA indicating that the waiver is granted. Alternatively, the physician may request a waiver separately in an amendment to the IND. When the request for waiver is accomplished by submission of a separate waiver request, FDA issues a response to the waiver request",
+      "excerptSha256": "5d35f1ba8c124cfdb607b23e5f20eda3fe8e8391e8d60153f4f6af7f8b6850e7",
+      "captureSha256": "ac2f83ff4e5ebcf299d9c736169c77a8b3b51c4efee38bf0b92abde5f465bd72",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-Q11-discretion",
+      "sourceId": "16",
+      "excerpt": "There can be more than one expanded access emergency use of the same drug at the same\ninstitution. For expanded access use authorized under emergency procedures, the emergency use\nmust be reported to the responsible IRB within 5 working days of initiation of treatment\n(§ 56.104(c)). Generally, once an investigational drug is used in an emergency situation without\nprior IRB approval, any subsequent uses of the investigational drug at that same institution\n\n27\n     See the guidance for institutions and IRBs Institutional Review Board (IRB) Written Procedures (February 2025).\n\n\n                                                          14\n\f                                  Contains Nonbinding Recommendations\n\n\nwould require prior IRB review and approval (§ 56.104(c)). An institution or physician that\nexpects subsequent use of the investigational drug should request review and approval by the\nappropriate IRB after the initial emergency use. However, when prior IRB review and approval\nis not feasible for a subsequent expanded access emergency use at a particular institution, FDA\ndoes not intend to deny 28 the subsequent request for emergency use based on lack of time to\nobtain prospective IRB review, provided that use will be reported to the IRB within 5 working\ndays of initiation of treatment (§ 56.104(c)).",
+      "excerptSha256": "1dd039eb486bd6755a80f4b5c247acfd0b834f17ffb2d77a4c34fd7942985dff",
+      "captureSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-Q24",
+      "sourceId": "16",
+      "excerpt": "For an emergency use, treatment may begin immediately upon authorization (usually provided\nby telephone or other rapid means of communication) by the FDA reviewing official\n(§§ 312.310(d) and 312.305(d)(2)(i)), with a requirement for a written submission\n(IND/protocol) to FDA within 15 working days of the initial authorization (§ 312.310(d)(2)). As\nexplained in Q6 and Q9, FDA anticipates that for expanded access uses authorized under the\nemergency procedures, there typically will not be time to obtain prior IRB approval of the use.\nIn such cases, the emergency use must be reported to the IRB within 5 working days of initiation\nof treatment (§ 56.104(c)).",
+      "excerptSha256": "c3bc026ce35e8302d06dc522b7edc94a93a779f7233448f65d2ddfe5aecb282a",
+      "captureSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-Q25",
+      "sourceId": "16",
+      "excerpt": "When an expanded access IND (not for emergency use) is submitted, the treatment use of the\ndrug may begin when the IND goes into effect and IRB approval has been obtained consistent\nwith 21 CFR part 56 (see § 312.305(c)(4)). As is true for any new IND, an expanded access IND\ngoes into effect 30 days after FDA receives the IND (unless the IND is put on clinical hold, i.e.,\nis not allowed to proceed) or on earlier notification by FDA (§§ 312.40 and 312.305(d)(1)).",
+      "excerptSha256": "4e045ed3735878b525215dc5a359c195dc378fd7b3e3a222680a976bba87126e",
+      "captureSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "EA-Q26",
+      "sourceId": "16",
+      "excerpt": "For an individual patient or intermediate-size patient population expanded access protocol,\nexpanded access to the drug can begin once the expanded access protocol has been submitted to\nFDA and has been approved by an IRB (§§ 312.30(a) and 312.305(d)(2)). For a treatment\nprotocol, however, expanded access may not begin until 30 days after FDA receives the protocol\n(or on earlier notification by FDA (§ 312.305(d)(2)(ii)) and IRB approval has been obtained\nconsistent with 21 CFR part 56 (see § 312.305(c)(4)).",
+      "excerptSha256": "50b8171b1219ea5d54fab003cbb45f075c89e09886ab1f79c25bce4accc9de3a",
+      "captureSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "placebo-selected",
+      "sourceId": "28",
+      "excerpt": "For example, a placebo-controlled study design may be useful or preferred\nin maintenance therapy, in add-on trial designs, in trials of adjuvant therapies (for which standard\n\n1\n  This guidance has been prepared by the Office of Hematology and Oncology Products in the Center for Drug\nEvaluation and Research (CDER) in cooperation with the Center for Biologics Evaluation and Research (CBER) at\nthe Food and Drug Administration.\n2\n For the purposes of this guidance, all references to drugs or drug products include both human drugs and\nbiological products and drug-led and biologic-led combination products regulated by CDER and CBER, unless\notherwise specified. This guidance does not apply to medical devices or device-led combination products regulated\nby the Center for Devices and Radiological Health.\n\n\n                                                        1\n\f                                Contains Nonbinding Recommendations\n\n\nof care is surveillance), and for indications where no treatment is available (best supportive care\ncan be added to both arms to ensure all available care is provided to patients). However, in\ndevelopment programs for malignant hematologic and oncologic disease, the use of a placebo in\ndouble-blind, randomized controlled clinical trials may present practical and ethical concerns.",
+      "excerptSha256": "cce78ca3f4c71ef2664f2c1243a95d66124d615baa487da75ac59b496aefdc83",
+      "captureSha256": "95d0fab4b279b1e7fc96a2544b6649b73325774763f0c7eb120816703b80948d",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "placebo-add-on",
+      "sourceId": "28",
+      "excerpt": "Another option has been to compare the investigational\ndrug product with the placebo, with each added to the standard of care (an add-on trial).",
+      "excerptSha256": "32f8f02a9749294a69d2309c231d58622c9ab51fa2add0e9f204441d0d65a878",
+      "captureSha256": "95d0fab4b279b1e7fc96a2544b6649b73325774763f0c7eb120816703b80948d",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "placebo-blinding",
+      "sourceId": "28",
+      "excerpt": "In many cases, because of the toxicity profile of the active treatment, patients and investigators\nmay infer which treatment patients are receiving, so using a placebo control may not blind the\ntreatment.",
+      "excerptSha256": "feb4371b51ac9149e9ab063967203f0f3c32cfe6f4fcd85b9c5ae225c495c22b",
+      "captureSha256": "95d0fab4b279b1e7fc96a2544b6649b73325774763f0c7eb120816703b80948d",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "trial-eligibility-decision",
+      "sourceId": "05",
+      "excerpt": "Contact the trial team directly. The protocol summary should include the phone number of a person or an office that you can contact for more information. You do not need to talk to the lead researcher (called the \"protocol chair\" or \"principal investigator\") at this time, even if his or her name is given along with the telephone number. Instead, call the number and ask to speak with the \"trial coordinator.\" This person can answer questions from patients and their doctors. It is also the trial coordinator’s job to decide whether you are likely to be eligible to join the trial. However, a final decision will probably not be made until you have met with a doctor who is part of the trial team.",
+      "excerptSha256": "03a2d3355a4b90fd5666335703d6b34d531bd805c08198be4096774039ce281b",
+      "captureSha256": "3785ab12c0f5dd8cb97ed3cc3ce2de0a14dcd23406574328d8fd56705f8f95de",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "trial-assignment",
+      "sourceId": "06",
+      "excerpt": "If you are thinking about joining a clinical trial that includes randomization, it is important to understand that neither you nor your doctor can choose which group you will be assigned to.",
+      "excerptSha256": "b50da76b343cf55d66bbc13abbdca9e83af46938f478ed8c406c78f85cfc28e6",
+      "captureSha256": "f0ffa43b46b44b80de5d7f4aba69425db32a26ba0aa0e328d02a665761987a7e",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "trial-screening",
+      "sourceId": "09",
+      "excerpt": "Around the time you sign the informed consent form, the study team will review your medical history and conduct any necessary tests to make sure you meet all the requirements. You may not be able to take part in the trial based on insights from your medical history or test results. This is called the screening stage, which is more thorough than pre-screening.",
+      "excerptSha256": "b1cabe505e96cd8cf737d3baa64941dd2c6a2dfb9a81b76d3b7c5ca05c1b3ee8",
+      "captureSha256": "74ccadb2c2ee61f3b27d92ae9746e0896c068cc79ae17cd2647a9aa63edc3614",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "consent-continues",
+      "sourceId": "08",
+      "excerpt": "But even after you sign the consent form, you can leave the study at any time. You can always ask questions. And as new information becomes available, the research team will inform you.",
+      "excerptSha256": "98a28f5a28fe2652ed61c62c1a7a2293ff2a3bb16e73747bec8246790370bc00",
+      "captureSha256": "e932fa4a0bb57ad50e03a88cf8e4ae54d341de95247a75a44cd78f9075629dd5",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "trial-costs",
+      "sourceId": "07",
+      "excerpt": "Many clinical trial costs are covered by the sponsor of the study, a patient's insurance plan if one is available, and sometimes there are out-of-pocket costs. Before you join a study, ask the study coordinator which costs are covered and which are not.",
+      "excerptSha256": "3ef9122bab291dd4db796c34e45f52a789b1d19c51a97ad200e0d6533777f8b1",
+      "captureSha256": "bdf509946d7720c451e4848fa6ddd3f0319448c5a37751111e67fd4e3ea681e7",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "TIL-input",
+      "sourceId": "04",
+      "excerpt": "TIL therapy uses T cells called tumor-infiltrating lymphocytes that are found in your tumor. Doctors test these lymphocytes in the lab to find out which ones best recognize your tumor cells. Then, these selected lymphocytes are treated with substances that make them grow to large numbers quickly.",
+      "excerptSha256": "a36cb06dfd399e90196b5a7da50a8c3abee22cb1a9e2dd8ab029981f93efeddc",
+      "captureSha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "CAR-starting-material",
+      "sourceId": "29",
+      "excerpt": "The starting material for CAR T cell manufacture is generally obtained by leukapheresis\n        of patients (for autologous products) or healthy donors (for allogeneic products). Safety\n        and regulatory considerations differ for autologous and allogeneic products, as outlined in\n        section IV.B of this guidance. 4",
+      "excerptSha256": "ccb78000d68d0dd3f7de3ead2e167f26a58b24ffae5d276131e657d0da380a25",
+      "captureSha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "Kula-functional",
+      "sourceId": "27",
+      "excerpt": "Target cells functionally recognized by T cells",
+      "excerptSha256": "8211e6378b9c8a967f5417aab6fbd7e363dccbdfeba175df05e5f9b1de18465c",
+      "captureSha256": "4158ea08d95362b21936085e27f8b79d6b3db1aefa3f077317b645796798cf3f",
+      "scope": "Read raw-source passage. Exact containment is custody evidence; entailment remains the stated coordinator assessment."
+    },
+    {
+      "id": "KEYTRUDA-pneumonitis",
+      "sourceId": "03",
+      "excerpt": "KEYTRUDA can cause immune-mediated pneumonitis.",
+      "excerptSha256": "62986088d129ce69cddacda1a48c719f8f969b339f01fb88ee830127fd1eb874",
+      "captureSha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df",
+      "scope": "One label statement; not evidence that any new combination is safe."
+    }
+  ],
+  "sourceProvidedPaperIdentities": 1,
+  "originalPapersReadInFull": 0,
+  "paperAbstractsRead": 1,
+  "completeAdditionalGuidanceTextRead": [
+    "FDA placebo/blinding, August 2019"
+  ],
+  "officialRegulationIssueDate": "2026-11-09",
+  "latestIssueReason": "11 November API request explicitly reports 9 November as this title's most recent issue; successful documented API request used that issue.",
+  "sourceFindings": [
+    {
+      "id": "AG-SF01",
+      "status": "corrected in owner",
+      "finding": "Existing placebo lead said never instead of standard treatment, and summary said visible effects make blinding impossible. FDA supports selected placebo-only and add-on designs and possible rather than inevitable loss of blinding."
+    },
+    {
+      "id": "AG-SF02",
+      "status": "corrected in owner",
+      "finding": "The retained expanded-access note made subsequent institutional use an absolute prior-IRB rule. April 2026 Q11 describes qualified discretion for subsequent emergency use with prompt reporting."
+    },
+    {
+      "id": "AG-SF03",
+      "status": "open; source assertion unadopted",
+      "finding": "The lesson calls company agreement the usual and most important bottleneck. The cited FDA submitted-request fraction does not measure that frequency or rank obstacles."
+    },
+    {
+      "id": "AG-SF04",
+      "status": "qualified in owner",
+      "finding": "The lesson default nobody charges sentence is limited to sponsor investigational-drug charging permission. It does not establish free care or reimbursement."
+    }
+  ],
+  "inferenceScope": "Dependency and reversibility rules, reuse versus combination conclusions and the six-minus-four worksheet are authored inference from stipulated premises. They are not empirical laboratory protocols, numerical yield forecasts or individual treatment advice.",
+  "retainedBaselineScope": "Only the teaching claims selected by the requirement proofs are assessed here. Older assertions elsewhere in clinical-trial, consent, protocol, biobanking, manufacturing and clinical catalogue fields retain their prior source scope; full-field hashes do not certify every sentence.",
+  "elicit": {
+    "callableToolFound": false,
+    "newSearches": 0,
+    "inventedReports": 0
+  },
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

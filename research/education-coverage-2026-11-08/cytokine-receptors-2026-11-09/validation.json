@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-09",
+  "validate": {
+    "exit": 0,
+    "entities": 22720
+  },
+  "typecheck": {
+    "exit": 0
+  },
+  "lint": {
+    "exit": 0,
+    "errors": 0,
+    "existingWarnings": 7
+  },
+  "focusedTests": {
+    "exit": 0,
+    "files": 4,
+    "passed": 33
+  },
+  "fullSuite": {
+    "exit": 0,
+    "files": 283,
+    "passed": 2827,
+    "existingSkipped": 2,
+    "seconds": 81.56
+  },
+  "sourceLedgers": {
+    "originalExit": 2,
+    "laterExit": 2,
+    "staleOrMissingFieldSectionVersionProofs": 0,
+    "assetFailureKinds": [
+      "Source asset has no scope disposition"
+    ],
+    "reviewedTeachingAssetsWithFailures": 0,
+    "openAssetRolesPerPhase": 1885
+  },
+  "censusRegeneration": {
+    "checked": true,
+    "allIdentitiesScopeReviewsSectionsAndFieldProofsPreserved": true
+  },
+  "renderedOwners": 172,
+  "authoredBodyPartsMatched": 8,
+  "floorsBudgetsRankingAndBenchmarkQuestionsChanged": false,
+  "deployment": "Not merged or deployed.",
+  "duplicateSurvey": {
+    "groupsBefore": 9,
+    "groupsAfter": 9,
+    "newDoiOrPmidDuplicates": 0,
+    "newRegistryDuplicates": 0
+  },
+  "ownerReconciliation": {
+    "owners": 172,
+    "new": 37,
+    "existing": 135,
+    "overlapWithEarlierDraftOwners": 0
+  }
+}

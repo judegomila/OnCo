@@ -1,0 +1,10 @@
+{
+  "kind": "transcription-erratum",
+  "recordedAtUtc": "2026-11-12T14:06:57.893642+00:00",
+  "frozenInventorySha256": "9452de6f370de804ad0d4eb022c85bb6fbdc2410172d56615268b6d9e3948621",
+  "requirementId": "U-008",
+  "before": "Some cancers/calculations or MRI findings lack an ultrasound counterpart; DCIS may present as mammographic calcifications without a visible ultrasound mass.",
+  "after": "Some cancers/calcifications or MRI findings lack an ultrasound counterpart; DCIS may present as mammographic calcifications without a visible ultrasound mass.",
+  "reason": "Corrects a transcription typo to the already read source line 49; no source claim, denominator or coverage scope is changed.",
+  "freshSourceEvidenceUnchanged": true
+}

@@ -1,0 +1,57 @@
+{
+  "sourceFirstFindings": [
+    {
+      "id": "SH-SF01",
+      "status": "primary and field comparison pending",
+      "finding": "Blanket hormone/HER2-drugs-do-not-apply and lacks-targets wording needs testing/indication-specific qualification; do not inherit absolute absence or no-options inference."
+    },
+    {
+      "id": "SH-SF02",
+      "status": "primary and field comparison pending",
+      "finding": "Universal stage-II/III sequencing language needs the actual high-risk study/label eligibility and clinical context, with no individual treatment mandate."
+    },
+    {
+      "id": "SH-SF03",
+      "status": "primary and field comparison pending",
+      "finding": "The regimen trial measures a full perioperative comparison, not independent causal contributions of a phase or drug. Pathology response is a separate observation."
+    },
+    {
+      "id": "SH-SF04",
+      "status": "primary and field comparison pending",
+      "finding": "The universal statement that no trial compared blood-result-based surgery omission needs a defined current search or a qualified reading-rule replacement; no universal absence claim is adopted."
+    },
+    {
+      "id": "SH-SF05",
+      "status": "primary and field comparison pending",
+      "finding": "Keep first-602 pCR and all-1174 survival populations, clocks and estimated probabilities separate. The approximate five-point interpretation is not an individual forecast or literal raw count."
+    },
+    {
+      "id": "SH-SF06",
+      "status": "scope exclusion recorded",
+      "finding": "One personal-application section per pin is excluded from teaching. Its source identity is retained privately; no personal details enter the assessment."
+    },
+    {
+      "id": "SH-SF07",
+      "status": "primary and field comparison pending",
+      "finding": "The original immune-route section has additional steps and alternative recognition details. Preserve them separately and assess its always/main-kind wording rather than importing a universal route or unsourced frequency claim."
+    }
+  ],
+  "dispositions": {
+    "SH-SF01": "Qualified in existing receptor/ADC and updated timing/residual text.",
+    "SH-SF02": "Selected trial/label population and schedule arithmetic, not a universal stage-based instruction.",
+    "SH-SF03": "Full-regimen comparison does not isolate phases or convert pCR to survival.",
+    "SH-SF04": "Universal no-trial assertion replaced by the bounded assay-versus-decision-validation inference.",
+    "SH-SF05": "Both denominators, endpoints, time window, estimates and rounded differences explicit.",
+    "SH-SF06": "Personal application excluded at both source pins; no personal content copied.",
+    "SH-SF07": "Both original-only recognition obligations retained with route/subset scope."
+  },
+  "sourceOnlyVisualFinding": [
+    {
+      "id": "SH-V01",
+      "kind": "source wording",
+      "finding": "The postoperative treatment node says extra medicine if cancer remains. The canonical timing and residual-disease notes qualify this by prior care and trial eligibility; the source diagram owner should qualify its label.",
+      "canonicalTeachingGapRemaining": false
+    }
+  ],
+  "independentSemanticOrExpertAcceptance": false
+}

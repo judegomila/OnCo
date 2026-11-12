@@ -1,0 +1,1261 @@
+{
+  "selectorsChecked": 198,
+  "present": 36,
+  "EnglishFallback": 162,
+  "additionalDistinctEntries": 198,
+  "additionalPresent": 36,
+  "additionalFallback": 162,
+  "longCache": {
+    "accepted": 2,
+    "rejectedStale": 0,
+    "absent": 174,
+    "rows": [
+      {
+        "id": "ki-67-index",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ki-67-index",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "extranodal-extension",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sentinel-lymph-node-biopsy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "dcis",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "es",
+        "stored": true,
+        "accepted": true,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "zh",
+        "stored": true,
+        "accepted": true,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "pcr",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rcb",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tnm-staging",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "terminal-duct-lobular-unit",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nottingham-grade",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "targeted-axillary-dissection",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ajcc-prognostic-stage-breast",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "internal-mammary-nodes",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymphatic-drainage-and-axilla",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "treatment-effect-in-pathology",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-bed-cellularity",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "invasive-breast-carcinoma-no-special-type",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lymph-node-status",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "breast-conserving-surgery-versus-mastectomy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "resection-margins",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "lumpectomy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "mastectomy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      }
+    ]
+  },
+  "staleShortEntriesRemoved": 46,
+  "priorConsumerRefreshes": [],
+  "newNamedLanguageReviews": 0,
+  "refreshedLongExamples": {
+    "canonicalRecordId": "pcr",
+    "languages": [
+      "es",
+      "zh"
+    ],
+    "model": "gpt-6.1-sol example draft",
+    "sourceHashMatchesCurrentEnglish": true,
+    "namedLanguageReview": false,
+    "exampleStatusRetained": true
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Scoped introductory source and current-field assessment complete in the unmerged audit draft; broader audit remains active.",
+  "dataCommit": "26b59741dd431156e71159375bf2982a4fb9dcfe",
+  "original": {
+    "pages": 4,
+    "requirementsAccounted": 76,
+    "substantive": 69,
+    "derivedRecaps": 3,
+    "sourceScopeRows": 4
+  },
+  "later": {
+    "pages": 4,
+    "requirementsAccounted": 74,
+    "substantive": 67,
+    "derivedRecaps": 3,
+    "sourceScopeRows": 4
+  },
+  "sectionSignatures": 88,
+  "excludedPersonalApplications": 2,
+  "originalOnlyRequirements": 2,
+  "canonicalOwnersChanged": 11,
+  "newCanonicalIds": 0,
+  "connectedNotesAdded": 14,
+  "selectedOwners": 34,
+  "exactFieldProofs": 128,
+  "freshImageVariantsViewed": 4,
+  "uniqueMermaidCodesViewedInBothThemes": 5,
+  "newSourceAssetReviewsPerPin": 2,
+  "priorArrayProofRebases": 160,
+  "publicationAbstractsRead": 16,
+  "targetedFullReviewBodies": 1,
+  "wholePapersRead": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "ledgerValidation": [
+    {
+      "phase": "c9689645",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 5,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 403,
+        "implementedCoverage": 397,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 148,
+        "unresolvedSources": 148,
+        "adjacentConcepts": 56,
+        "unresolvedAdjacentConcepts": 32,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3970,
+      "evidencedRequirements": 3964,
+      "openRequirements": 6,
+      "staleOrMissingProofs": 0
+    },
+    {
+      "phase": "7510db6b",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 395,
+        "implementedCoverage": 387,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 143,
+        "unresolvedSources": 143,
+        "adjacentConcepts": 56,
+        "unresolvedAdjacentConcepts": 32,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3752,
+      "evidencedRequirements": 3741,
+      "openRequirements": 11,
+      "staleOrMissingProofs": 0
+    }
+  ],
+  "proposalCensus": {
+    "before": {
+      "entities": 561,
+      "absentBaseline": 160,
+      "existingBaseline": 401,
+      "readerEntries": 3960,
+      "readerTexts": 919,
+      "EnglishFallbacks": 3041
+    },
+    "after": {
+      "entities": 569,
+      "absentBaseline": 160,
+      "existingBaseline": 409,
+      "readerEntries": 4068,
+      "readerTexts": 985,
+      "EnglishFallbacks": 3083
+    }
+  },
+  "zeroChangeLedgerReplay": {
+    "phaseRuns": 2,
+    "artifactsCompared": 721,
+    "changedArtifacts": 0,
+    "ledgerExitCodes": [
+      2,
+      2
+    ],
+    "staleOrMissingProofs": 0,
+    "scope": "All artifact bytes, including the manifest, matched the pre-replay snapshot. This receipt is added after that comparison; the final manifest is rebuilt afterwards."
+  }
+}

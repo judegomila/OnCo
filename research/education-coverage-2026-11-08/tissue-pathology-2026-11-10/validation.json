@@ -1,0 +1,4817 @@
+{
+  "groups": {
+    "root": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.87
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.11
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 29.37
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 102.1
+        }
+      ],
+      "fullSuiteFiles": 284,
+      "fullSuitePassedTests": 2829,
+      "reader": {
+        "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+        "checkout": "<private-capture>",
+        "checks": [
+          {
+            "id": "ihc",
+            "route": "/terms/ihc/",
+            "asOf": "2026-11-10",
+            "bytes": 122398,
+            "sha256": "ba233ad74c2046c7d8bb10c2b9b7688ffdfdfafb4d326b48671a7c55838bd88d",
+            "sourceLinksChecked": 3,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "cps",
+            "route": "/terms/cps/",
+            "asOf": "2026-11-10",
+            "bytes": 53853,
+            "sha256": "8bae72699447a6dfa81f049d17c0b46b709bb91bb1dd71dca84cb7b21412b654",
+            "sourceLinksChecked": 2,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "tils",
+            "route": "/terms/tils/",
+            "asOf": "2026-11-10",
+            "bytes": 61963,
+            "sha256": "b7320bad0d27a7e24de7a1f09236e277091b833141db2dc6915a2accffac2fd4",
+            "sourceLinksChecked": 5,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "core-needle-biopsy",
+            "route": "/terms/core-needle-biopsy/",
+            "asOf": "2026-11-10",
+            "bytes": 35972,
+            "sha256": "90f1de32d765c849d16fa7fbdb3592a21d300540434e8a51b845f5a06095a85d",
+            "sourceLinksChecked": 4,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "tumour-purity",
+            "route": "/terms/tumour-purity/",
+            "asOf": "2026-11-10",
+            "bytes": 37850,
+            "sha256": "de3e47529cf09c1481adcaeebbead3fb2866b0fd13293f61239aca1396e8187c",
+            "sourceLinksChecked": 7,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "h-and-e-staining",
+            "route": "/terms/h-and-e-staining/",
+            "asOf": "2026-11-10",
+            "bytes": 29524,
+            "sha256": "6bf8de4c22920e370a52ca6a742d217d1a667bd35b54bc7a3f63fabff737f5c9",
+            "sourceLinksChecked": 3,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "route": "/terms/digital-pathology-wsi/",
+            "asOf": "2026-11-10",
+            "bytes": 28344,
+            "sha256": "cb520f20dc8701ff0c45fbfde32ab7a3b32b02829b4818de00d947eba6e64592",
+            "sourceLinksChecked": 3,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "pd-l1-cps",
+            "route": "/biomarkers/pd-l1-cps/",
+            "asOf": "2026-11-10",
+            "bytes": 97514,
+            "sha256": "51da05f971e7ee061cc60d74a2fdaa6b433a27fd2c8b4bfcae88b812cf3ea6fe",
+            "sourceLinksChecked": 11,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "route": "/technologies/vacuum-assisted-breast-biopsy/",
+            "asOf": "2026-11-10",
+            "bytes": 41810,
+            "sha256": "7c5d36e7a42dbcf8e77350cb2ba72fa63e8dd3b8b6e3629a667c4fbf1b35a66c",
+            "sourceLinksChecked": 13,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "cfdna",
+            "route": "/terms/cfdna/",
+            "asOf": "2026-11-10",
+            "bytes": 69555,
+            "sha256": "bd7654726d95ce675dc9ce61c9ff9462b952a6d1999f10db7c6d8850276993d1",
+            "sourceLinksChecked": 7,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "route": "/terms/biopsy-after-neoadjuvant-therapy/",
+            "asOf": "2026-11-10",
+            "bytes": 33967,
+            "sha256": "8ccc606ae8f1653fb413bdea5bfa7d0e0f2333020a2141283904f4fd69eee96e",
+            "sourceLinksChecked": 5,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "route": "/terms/tumor-stroma-ratio/",
+            "asOf": "2026-11-10",
+            "bytes": 24954,
+            "sha256": "97a1d5486e9dc79d0c33b60affe5f5693b5f96fbeefb0f4cdf103d4aa2947ebd",
+            "sourceLinksChecked": 7,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "route": "/terms/surgical-resection-specimen/",
+            "asOf": "2026-11-10",
+            "bytes": 20722,
+            "sha256": "08e69fef9ab0954a8f878f7546f0214a1edb61a3053bac18e5f6bfc532c02893",
+            "sourceLinksChecked": 1,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "route": "/terms/blood-as-a-renewable-sample/",
+            "asOf": "2026-11-10",
+            "bytes": 26724,
+            "sha256": "b2e52e9afb3c06ec9382da74f403a5815ccda74e85e10329c670e37e7febf98c",
+            "sourceLinksChecked": 2,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "route": "/terms/myoepithelial-cells-and-basement-membrane/",
+            "asOf": "2026-11-10",
+            "bytes": 30552,
+            "sha256": "c1e8d65f35ae6633007b2a673dd052df608723893367bd68c38ab714563286a2",
+            "sourceLinksChecked": 5,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          }
+        ]
+      },
+      "exports": {
+        "records": 15,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "ihc",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ihc",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cps",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cps",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cps",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "core-needle-biopsy",
+            "field": "notes",
+            "index": 9,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 9,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-purity",
+            "field": "notes",
+            "index": 10,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "h-and-e-staining",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "digital-pathology-wsi",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 9,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 10,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 11,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 12,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 13,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 14,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "pd-l1-cps",
+            "field": "notes",
+            "index": 15,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cfdna",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-stroma-ratio",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "surgical-resection-specimen",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "blood-as-a-renewable-sample",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "ihc.json",
+            "bytes": 32747,
+            "sha256": "0f66ba40a3b4d3801e994a4b3a9659dae950ab39782cd4a12ba53725e31fb1da"
+          },
+          {
+            "file": "ihc.md",
+            "bytes": 24187,
+            "sha256": "f04f04af94f21516146934525b65f7b48749628de6c0f2348cb237565fa94ff2"
+          },
+          {
+            "file": "cps.json",
+            "bytes": 9675,
+            "sha256": "2940b3e17c2b2316f2d8cfbb6d00bf4bc36053fff63d32f90516b4e7a2e50d7b"
+          },
+          {
+            "file": "cps.md",
+            "bytes": 7116,
+            "sha256": "5bff0f5240f6a8c6a800e313d24fbc6fffa7173136cd71c581d38a78f8dc94e1"
+          },
+          {
+            "file": "tils.json",
+            "bytes": 16564,
+            "sha256": "c06fa0d7b032de2f94775c357ec1e4d36aaa02efae0700973ab004fdcc0f8f88"
+          },
+          {
+            "file": "tils.md",
+            "bytes": 12971,
+            "sha256": "9f669a2a0779106a92ac75c2dd626b50d64dc40002a8bfb929fe6d231c2f80e0"
+          },
+          {
+            "file": "core-needle-biopsy.json",
+            "bytes": 9268,
+            "sha256": "dc37a4b6f3b4fdd81b2c9aa4a0b4e86af7ae5810a1f66c2e03485c6014b91440"
+          },
+          {
+            "file": "core-needle-biopsy.md",
+            "bytes": 7896,
+            "sha256": "6b301f808e15bf82d7d656f7157498e550782227f93db0c4ae182df123dc1134"
+          },
+          {
+            "file": "tumour-purity.json",
+            "bytes": 7388,
+            "sha256": "e6b723f79213d97847286a1a518a7cb0450eddc67348644d39bf7904b266cc75"
+          },
+          {
+            "file": "tumour-purity.md",
+            "bytes": 6433,
+            "sha256": "6e8e8a6c454f79c2118f55f80fe52e7d467290fce5462a9c31872f00ef4f339a"
+          },
+          {
+            "file": "h-and-e-staining.json",
+            "bytes": 5575,
+            "sha256": "8756871d43eb06a2a06c40401637568d9c20a65f42023d432195911694bb07c0"
+          },
+          {
+            "file": "h-and-e-staining.md",
+            "bytes": 4541,
+            "sha256": "0e38506a36a168e9f1936a32e2c6914855e5ce539391f4e0d5dfe0c274de4dbd"
+          },
+          {
+            "file": "digital-pathology-wsi.json",
+            "bytes": 5909,
+            "sha256": "b250d594a16e71c47b90b9e95a13d5e26e0104856b3503efbf7bcc5e6fb10c19"
+          },
+          {
+            "file": "digital-pathology-wsi.md",
+            "bytes": 4908,
+            "sha256": "af0bdfa16e5219a60bae121e14dc28b164391c9c0ce4e6baac1347afbe7125ea"
+          },
+          {
+            "file": "pd-l1-cps.json",
+            "bytes": 23474,
+            "sha256": "a63c04f87124bae8ba2d869e87149f377a51b3662f4a3f828c9d8caa53da8499"
+          },
+          {
+            "file": "pd-l1-cps.md",
+            "bytes": 12361,
+            "sha256": "cf7958a8fb5d88a79b389cd9734e123762e1137d56b2d4a14fbc822082cec180"
+          },
+          {
+            "file": "vacuum-assisted-breast-biopsy.json",
+            "bytes": 9373,
+            "sha256": "f92bcc553021b49cedb9cabe21b97468263eafa395a0d6cf80daa3f81d90b5bf"
+          },
+          {
+            "file": "vacuum-assisted-breast-biopsy.md",
+            "bytes": 7961,
+            "sha256": "e3e0a4f85cee7f3224ade1d8978a73a7ee19794348b6a1a1eb2ff06751f9b69a"
+          },
+          {
+            "file": "cfdna.json",
+            "bytes": 21712,
+            "sha256": "fe8fb2b2614a8866fd49aa3c20af636c673b8ccdac0cece697aae087e36bf3ae"
+          },
+          {
+            "file": "cfdna.md",
+            "bytes": 16848,
+            "sha256": "9d67b000aebd793f62a168d9f45a8cc9e9ed8e67f7c8aa46065beab1ef8ca324"
+          },
+          {
+            "file": "biopsy-after-neoadjuvant-therapy.json",
+            "bytes": 6260,
+            "sha256": "71fb3de4a54070767bc6fbe36f65df9608b28b5c1514cd62018695353d6f1ffa"
+          },
+          {
+            "file": "biopsy-after-neoadjuvant-therapy.md",
+            "bytes": 5853,
+            "sha256": "ae75d4bd93860d22258713a517ec7af028a7d6ce67e4f2565e962a6da29ce458"
+          },
+          {
+            "file": "tumor-stroma-ratio.json",
+            "bytes": 5598,
+            "sha256": "9e8d570b7a358ed09744f7414632ffb3af929dad4a79d7adf2d56be6a9448acf"
+          },
+          {
+            "file": "tumor-stroma-ratio.md",
+            "bytes": 5196,
+            "sha256": "cb2b54e5b708fb2aa0509068e2a7ce0423c7b433f2af0be7b86c948fb3e5f371"
+          },
+          {
+            "file": "surgical-resection-specimen.json",
+            "bytes": 3977,
+            "sha256": "775e89acaa83ded23510d3c45f4f986eec7b483e262490a2c43b79029aeac497"
+          },
+          {
+            "file": "surgical-resection-specimen.md",
+            "bytes": 3573,
+            "sha256": "0eb286663200c95f8f8023f1b76f3938a6b62e13f1b34799771dfa227f5303c6"
+          },
+          {
+            "file": "blood-as-a-renewable-sample.json",
+            "bytes": 4290,
+            "sha256": "65f5e3a07d8cb88afb28a9d82605d204951ed6381d3f393ffc1a7f946adb5d11"
+          },
+          {
+            "file": "blood-as-a-renewable-sample.md",
+            "bytes": 3962,
+            "sha256": "888ac26efa5a612bda5e9e3228f50fbcbf1d3d4c16381d6492c669fb192c4318"
+          },
+          {
+            "file": "myoepithelial-cells-and-basement-membrane.json",
+            "bytes": 5462,
+            "sha256": "cd5988c3cc136b266c68fb97d12ee231e5e1dfab8fc790926291101564934e08"
+          },
+          {
+            "file": "myoepithelial-cells-and-basement-membrane.md",
+            "bytes": 4970,
+            "sha256": "d2cb3e057083c0d0ed41be8f5440e306e7188c4dda978ce2ae7d6222a137defe"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 135,
+        "available": 26,
+        "EnglishFallback": 109,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 120,
+          "rows": [
+            {
+              "id": "ihc",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ihc",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cps",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "core-needle-biopsy",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-purity",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "h-and-e-staining",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "digital-pathology-wsi",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "pd-l1-cps",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "vacuum-assisted-breast-biopsy",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cfdna",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biopsy-after-neoadjuvant-therapy",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-stroma-ratio",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "surgical-resection-specimen",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "blood-as-a-renewable-sample",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myoepithelial-cells-and-basement-membrane",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "ihc-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "3edd3b039e22f18494cf4a20bb7ded4bff7eb15dbdb8ce4419be06cd839fd3f5"
+          },
+          {
+            "id": "cps-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "fad06158f43e30c68bb53ca4ee07e6cc8216f15faeeb37b56caf386cf7e1f728"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "3704f71fcaf5bf080df92ddafadcea04ea66712bfa441ce55bdabb5779b88ed6"
+          },
+          {
+            "id": "cps-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "f564c2fbf7994ad2a5484286fce2a95be7543898274ee5a919f5ea2a6f3edb3d"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "006111a6d028276e5b45ffb0fda91f3db36a95c4e23ff90ab20e39054be953db"
+          },
+          {
+            "id": "cps-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "d68a05f5b0d0b22683dff8bdb0bf3e66b44590130604b01457496135ab206108"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "65656037a3211255250302d96f78796f1ae99533dbf83417028931d669665052"
+          },
+          {
+            "id": "cps-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "f728d549f8741ac54c2f13b74685e3f270f7264a84c2467dc91777c6a116c6b9"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "95e95798dc73c9965e3b5cf9a58bb498fc955d95f66de933e8fbe1fb0ee8e027"
+          },
+          {
+            "id": "cps-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "38cec2a472dab34bbd27334dbf9b787b478e1cebc2a3d0bbef1ed76ee0c621bb"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "964086a541dc38cf830b669056aa05ae77fde4f02bc6be7a4cec6a471816d9d6"
+          },
+          {
+            "id": "cps-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "c7b0c4a1a31ba3ca84f9978c57f20e68453c95875f134c1b36fd51c9be7ef956"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "23b738f07911042e77abe5d0fb31970bbb4d42be0382c5ab9ad4e951076b2ecc"
+          },
+          {
+            "id": "cps-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "26ab3a5021a2a470cfb9c2c6257bac53114562c5587490c5dad9f37b4d69e660"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "956d559082d18642165e05158e03f0edf9b236c3f016199f00116ade5f1ee7eb"
+          },
+          {
+            "id": "cps-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "6661517ce46f4875ad6ad048cc29a5a23b16b8e25eb2bc8ca0c2172b9eda5c12"
+          },
+          {
+            "id": "tils-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "c5ee2cded79a47cd1168ab8b97d4b5711d370677d1cce19d5b30bcf33c0c2c0c"
+          },
+          {
+            "id": "core-needle-biopsy-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "5f52b1c26a87a4a15c049b5062c0e8aed81d27af0f1a559943cd401582b132d3"
+          },
+          {
+            "id": "tumour-purity-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "a601585abd4d41fbc818a503a4aa7c1bd700a43bba5fbcc8bb1dab71f1183ee4"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "60cb23a0263c211c01aaa296be3d876242d6ad49d405e751281b5f7874623c46"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "1766b657238e3ba297e53861db69ebf35804685dd983e9e7fc6b2356bd558f4d"
+          },
+          {
+            "id": "tumor-stroma-ratio-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "291e8a4d232ba311a58fe7146bd1c794458dc9c5d8ae3bf1f1038b13a019fe2c"
+          },
+          {
+            "id": "surgical-resection-specimen-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "6517b4086ea91d5701ce8fcff03c3eedb3c6b395f0f1d118fb64936fa90feff7"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "aaadf23e7e8258cb644fb6f12ad9f56878755bb7d529d0af0fde3724838dea66"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          },
+          {
+            "id": "ihc-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5c0f8184c594c5e4c2856d455a591e027add13acc610f8d21ef3ac1d1e2e78d4"
+          },
+          {
+            "id": "cps-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5e27bfa11f08f894f008af026af509f138bad65a8140cc7641639879d6792917"
+          },
+          {
+            "id": "tils-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "7cc9028f311cd7ef35fd549c2fe0b9556e4231dd75ba85dff7d6ca96c47ecf18"
+          },
+          {
+            "id": "core-needle-biopsy-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "56b01ca01401a9feabb842ae11cef3bef0979a711ea019cedae8ae8f63c6b041"
+          },
+          {
+            "id": "tumour-purity-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "bd5223190d27c875b22eeb91060bd0d51a9e7b98851a4a2af7951ad780e0ca52"
+          },
+          {
+            "id": "h-and-e-staining-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "90a549f1131ae9e1d019945cd88ac137f5b8f226cb4feed691198437a5bba80c"
+          },
+          {
+            "id": "digital-pathology-wsi-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "e3d8dd2241467dbc9ee9b1fcbf4ab97125dc94a2684916dc1bd44f8e4454e71e"
+          },
+          {
+            "id": "pd-l1-cps-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "e868e613f42401df9b71aeed0733e78a99e6f6d20c563040c12dc19e4a68db6f"
+          },
+          {
+            "id": "vacuum-assisted-breast-biopsy-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "14a01cfcf44f2da6c9bd66052c0ea6ac6420342c5f2e7d76878dbfa267fbaa19"
+          },
+          {
+            "id": "cfdna-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "6ec1fb7c6088df3f13d34974dcbbadd68d7efd8ba5bacae9187ebd4107fdf24c"
+          },
+          {
+            "id": "biopsy-after-neoadjuvant-therapy-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "dfe354f0d86810a41bf58ef142a0ba65963e126f4370aa8d3555580490fcf735"
+          },
+          {
+            "id": "tumor-stroma-ratio-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "85c9b81ab44c4aab2e9548b4d6031cd7ad2bdcec11e459f0c9a390591a651df2"
+          },
+          {
+            "id": "surgical-resection-specimen-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "03a8347e179c821028804316bf99ae3fa037874c556a92c3f7e93db2a7b39859"
+          },
+          {
+            "id": "blood-as-a-renewable-sample-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "289489032f860df06c983a321742849ba32f9d084b03708aec457d0d5a88787d"
+          },
+          {
+            "id": "myoepithelial-cells-and-basement-membrane-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "8c66b05929a76d2f8d72dae4677241ada2c0ca801fa56ebf4ee608822bde261f"
+          }
+        ]
+      }
+    },
+    "shared": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 2.24
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.11
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.72
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 96.39
+        }
+      ],
+      "fullSuiteFiles": 281,
+      "fullSuitePassedTests": 2813,
+      "reader": {
+        "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+        "checkout": "<private-capture>",
+        "checks": [
+          {
+            "id": "finite-tissue-budget",
+            "route": "/terms/finite-tissue-budget/",
+            "asOf": "2026-11-10",
+            "bytes": 24486,
+            "sha256": "a452b3cec1c887ce071015f3b33d8e3e10e7c305ca93724a015630ddacf3c145",
+            "sourceLinksChecked": 5,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "rna-integrity",
+            "route": "/terms/rna-integrity/",
+            "asOf": "2026-11-10",
+            "bytes": 25283,
+            "sha256": "97a382b54d862e4d6c352a57efb4b596652e573e79d609e0a78fb9692d9bb3aa",
+            "sourceLinksChecked": 8,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "route": "/terms/tissue-preparation-assay-fit/",
+            "asOf": "2026-11-10",
+            "bytes": 27993,
+            "sha256": "ff680947ae965fac28be77adc3f80fa2d0dd29df96a04c79b9764f4c300db3d9",
+            "sourceLinksChecked": 8,
+            "missingSources": 0,
+            "nestedAnchors": 0
+          }
+        ]
+      },
+      "exports": {
+        "records": 3,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "finite-tissue-budget",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "finite-tissue-budget",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "finite-tissue-budget",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "finite-tissue-budget",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "finite-tissue-budget",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "finite-tissue-budget",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "rna-integrity",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tissue-preparation-assay-fit",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "finite-tissue-budget.json",
+            "bytes": 5085,
+            "sha256": "6f0cb078b84b4af639f25c229655ab4454cf6b478f5e46752c909f399f8c63e2"
+          },
+          {
+            "file": "finite-tissue-budget.md",
+            "bytes": 4564,
+            "sha256": "89cf3459094db640ecc1ed55d658060ab9bd6fc8b0272d7a84ed0ded44118510"
+          },
+          {
+            "file": "rna-integrity.json",
+            "bytes": 5798,
+            "sha256": "61ffa4f73561f9f619d315abe657ef340917be8531264fa08f7f892db8ed5b6b"
+          },
+          {
+            "file": "rna-integrity.md",
+            "bytes": 5318,
+            "sha256": "0771c381cc14115323bf71836075d45bf6c1c9eacd326bacc163ca11e74a11cd"
+          },
+          {
+            "file": "tissue-preparation-assay-fit.json",
+            "bytes": 6468,
+            "sha256": "171b084878dc6d1f80bffde138609240d630412a0a107310087e2d37dfe5e567"
+          },
+          {
+            "file": "tissue-preparation-assay-fit.md",
+            "bytes": 5702,
+            "sha256": "df993709e0aaaac0be395865cf5c7fafe05c30afd0c40b674d9ebaa107014e7a"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 27,
+        "available": 0,
+        "EnglishFallback": 27,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 24,
+          "rows": [
+            {
+              "id": "finite-tissue-budget",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "finite-tissue-budget",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "rna-integrity",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tissue-preparation-assay-fit",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "finite-tissue-budget-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          },
+          {
+            "id": "finite-tissue-budget-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "fe6a47ccb02abfb729231ec514c69181740d1c8eb7c04ea4f159096dd0844467"
+          },
+          {
+            "id": "rna-integrity-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "ee4e6cd88e1bdc4c26935d1b7e11df2c5d848b2dbd6f55147619a4bebb84f058"
+          },
+          {
+            "id": "tissue-preparation-assay-fit-simple",
+            "available": false,
+            "fallback": true,
+            "sha256": "7f88fd5822bc8fa7165e273f7f83ea3e8acea178dd2efb950ded696a97a3b402"
+          }
+        ]
+      }
+    }
+  },
+  "readerText": {
+    "fieldPassages": 162,
+    "missing": [],
+    "checks": [
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "08052bd580842c15695a7e97d82f69254488f60defdb80d7f423af49459c2014",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "5c12611e238a530decf4f38d67dde73070ced49610d7d416ff49dce6512189bb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "a819a6286364fd958041ea0d15b604159cdb4d29bd5fbbbe9709df648b46d17c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "338e625e9504d22770109d47802b6334d23543ae894ed721e4ca79f03e7b7801",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "d44b0ac21860b7e44d1e7f472501b481f81818f455feb61e8552fa447ffd94af",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "0b8fc92584f185823062b7c0ef0907bc73a2211b2e68dee811adff3c3feacf02",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "fb137d0cd2c57017915d27bc3509782247cca8195e0a642c651498f08c893921",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "08405c6e5e8bc679a441b67fdb3736d580a766b0f78f52b3a28befc171d128ed",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ihc",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "e68ee0070781204ff85f2965dc9cbdeee7999ddb37fb6c7c90f52e97c2f72cb9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cps",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "751f81585ff8b5d266a39fb7d292d5ce5484abcf5a9a9ac36b8f6bd21551ce39",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cps",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "ca4ae76537b87fb8629b7534f42f7bd820744a3fd5ad6b01155c08d5fdd4676a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cps",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "5a92f47df125f75bd635f334753860df183083e7e81f50226cbb100e7410f9d6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "447efc2cc93c27808f9def90b8c21e8a0469372de06618956b0076d082125683",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "ff8c7245cf9003a7520cc6dd45e988579ff3076719d18e572f282d43a87556f0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "276c99649560fb3f8990fadd8fcf461f2d7dfe27578cd0bc156157a70341764b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "83d3c72f67c60b6ea4878bd9ee70a2a3e43920bca23b01f0c379ef3b784c6a4d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "a5bf77197f859a8e3e8452883ef820f18d12c21843ffe33e1fe592e61b22f7fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "76c4bd9c386c4733b7b5a4b15b5d529fec4f85e9afb21c96ec7b7766129dcaeb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "bdf8071eac4729bc7fcbedd901a6f67b6ff15e55534c601c75ba5607250bf340",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "c65b3e5ffcf97e462a620667f722b6d3f4c19a605697448b688ae93cbacd4685",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "b99c874019b2f6cb8db98d0e62eec7c3edf6d7922aa19ef46fd84d6ecf18a45c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "df8f56cedd106c9b0c48044d6c4bc54555105046112dbd397ed626f3cf1615be",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "5387911c6960866869b37f3a3a0ff3fa528fb59ff96f3dac6df7406456292f2c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "9b5e621ed03f49f7a316466269ff3272fa24e7ece2d3b07a07cd4e2348e25c77",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "4d71092d62661e6e1581520f967fcb0890d5d7428741517fad805fcf515090a9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "7fd3c0cbea55f83c59ec47c6ed9f67090be7cede3c9600377ad051617098edba",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "7d7bc14c28e21e5c10803746cc6a8cc78a4e01d21bdae2898b79511b420a6abd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "d13a24d6eb9a84b619134906f34999109bd00b1f87105f79170624f3d0310703",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "ddb203d22c6c39b3247d6dbf324b830edbcce375845b41f630283478f74204e5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "ce89e902000d0d88d6185adb0e8b22d88e160758fb2cac09195d42c88770701a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "cd6571e090f565d7c50d261281469a80b6bd4469a23151dcb22b8c6ebd4635d3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "f0396d5bc98cea0b069be00e08e482154aea5b0cfa17bc71c6547a1fdccec151",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 8,
+        "passageSha256": "9c4954ab2e56815debd2099b31a7a57b51364cd8c5e1bb9c50fbb1e43dc28682",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "core-needle-biopsy",
+        "field": "notes",
+        "index": 9,
+        "passageSha256": "99b5e7221687f02b5da0a3a315c3b90150e978c32983dd3f5dea5fdfdc735a46",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "cefd7cd08df27cbdf7a441e780c3091a787b42284d95b6354193c51d138ba8af",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "aef83ced55db54b98390dda643613c91e7ef830b41b607fdf77efea795299a9e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "73923d5ae5c308802036010a5160e264b713629317dd9b19bb79494a93188d37",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "09f4ee5179ebbd04a629398c1594d8812bbfab8041ce5f5f79d68b4db6b0cc4d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "570dce734aedba6726e73c74811f056ffa6ced3c7e07430afaaf9e02736e353c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "83fff9cd20ce947e4ea238b6940d29bbfb75b24632d243a0f09bae312c49a216",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "db02f50ae11f6436f117b03312ed86c6a8f97b01d313b5658585c351f5c2506d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "9c8312241ae02677fcfcce99e4b00c653674d1eadc3dfa1142fdf734cebf2d0f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "2dded9bee6bc9df6a77b0f1c17e87943a6fcd0b6b6512d1232d85adb859a7aee",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "b606cd715df22eeb55167b1a0a6f082278c50b673a4f323273e8179604b63666",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 8,
+        "passageSha256": "6acde98b1f7571271d1cff76a0067bfccff94b16dcdb90757826d7976556a7be",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 9,
+        "passageSha256": "9deaeb6dae87048257831de6ab6e75a3e63d5152451c1a437e6a0c841740a0fa",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-purity",
+        "field": "notes",
+        "index": 10,
+        "passageSha256": "276faa8030358ca337ac301f30b74eb3bbe313a808889871afed48bbe63225c7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "ffb4b6f7afa86e7ea01992ec0fa78511f7f4dc48b82f81740e0b8a3fa35901a3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "6caa2c08c2234fd252dc370ac919068c489698200e68c899b57f858280d91a96",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "476a1c74a6076a241a113571db0d15931034d8f41226a46f18b132c0fd74e9d5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "f4463697559a379becc81c115f45435469ab56f5d3c45a7d19352cf46bc7b298",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "36bee5ee53b40defbd77018fc7e9280f365cd8707b1f6ce80a6c8cedb5864826",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "66dcb6abdd5f88c03da45fcddc8033e920676152ff19f2a1ba443fd84487e999",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "57263dd6b1633f39c1e56f8c391b69f32db2ec69d820fb3a934479979c28dddd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "h-and-e-staining",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "44cf5830f6a6407c3602de012ee2de3cd180b1493c5551d7e5863eee37fb828a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "74f30dee97cf659e8245978c3982fa2d2ed5ca6115cbc884d4796e7c64e1cd3b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "6eaec59148a75029027f6b19279c6a452d0eca7770b4cdf034a794051641b69e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "d07d4d9d7fff9dc77d38e301fc636bf0e684c045a70e58ff78fdbf7b04c96bcb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "b4872eb48ca786b43939fe296b93fb447246544b25f5e3f6cea57395c2cff5c5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "1c8e577721950a1007c684e798b61fcc6ba7d2b88ea2700ab82456467982a0ae",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "380486b5d8207dfb3a4c052743d8563b94737fd2e660f8ad7d826a1c2d1fbca8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "05fae9f6a7c831369f83111a7efd11264f7a6afbe4e385d2b6286755be6e4f04",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "5f060dddde4f0b4ec57bf0362d7e20033ed9d926b607ee319e8338e957005ca6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "digital-pathology-wsi",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "a83ac3074e6c2c6f66591226c2586ff75709950121c28099cab35ff55779c24f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "4373b74fded0f4df6147c60f2f1e9b46e3f05d0865382d74184f9082cc780178",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "b3ea64abb0ab066629fb1e9b3090c31a01495f6877b82c6568dc93a7c86b995e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "419a568eec31bbf5db0b6f7e275d0bd058ff563568c5741760efe35c5193cd8f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "c118d10f7ddc3bfb778dd0b14bdb1d0140422338ba0455e4b2cea6c3ab4fd52c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "aeadff34c7a5a117cd0af4d4f8a384cda416723485ad1a6e406a68cd24e83421",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "b0dbde9149caf24c902374ca37907308229648ab9ef826a280ecd3f171c8c651",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "24991abe1ad16e2ebfdac4d743cb41351b3d75f1a3288fd7eb15b090c114a6f4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "e8eeeffe654e11e63c9e4f0e2eda7230d0cade6626f4ea880ff24bdbd757219d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "195fca949cabc11db0d7a1e1f593c6d87c1d86cbb05be09d251a04bd823d4f47",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "a85fe457b00d441133fd3ce0725e2ed3607c88674cdcc0cb6cc087515c27fabc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 8,
+        "passageSha256": "9772ca7a5a77b9ba6ccf5abd8355b565f1bfc118c5c17d05fe09ddeec3c81789",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 9,
+        "passageSha256": "9cb342b238af3888448ab561acd567967bb7cd2c917e4afa404d33de36296bdf",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 10,
+        "passageSha256": "e4cbb4ab44e10d70a6253728383492a378a9de743ebd4e06938c0cd8a03e40d4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 11,
+        "passageSha256": "072ea356cb1b6a8cf8e94ee562a63ddeaabe628bc219e9e71f582d5b2a6658f8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 12,
+        "passageSha256": "e0cbaeb263bc478daf459e98c579d03e65544378d398db597e8c090722a0e6c2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 13,
+        "passageSha256": "7aee608246269697078f738302ed7191be59541c72810125fa3fcc7052a51b3d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 14,
+        "passageSha256": "7a9dd05024bc05ca84869372736526eda1638fc72f6222cee677dcdb0ba4419b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "pd-l1-cps",
+        "field": "notes",
+        "index": 15,
+        "passageSha256": "da1e320e72d595cd6bb067b61d405788397f2b76dabacb97ba037d28cad01d58",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "bcec8c43a833c0d9f3d8dcb7f0b98a2ca4ea5353624bc1b54c7ec7abe6a509ec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "f0eb3c688d40d6c713b10dc1fca09dda655328d9806dc0b73658cbc77e569905",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "8ad2de8e422812a3dc692f7e112155393cf1e6aee08b8a9201cf34727402b69c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "77a4cdb16c906ef8cddb6adaf549544d3672c484c4c0e0287a341c1cf14591d1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "112bb202f8fdd9e9059a641e71b36bc5b5d58f3417758ec84de457b114c4c1d6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "d5bcb57aed6abc3608d43b635243526d84744e5cc9052139f82cacdbed4fdded",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "4a86ac334e0dd29c9fde3aa8440ca3712649eea8aa8c78b522972dd7b9ac7412",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "vacuum-assisted-breast-biopsy",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "f6aa54a2f5fba17c531f2d66e14cc3e55a1c0d3c5947f20644b7d758518ef380",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "34ba2ab9a94b3b3e3721d74e73717a76916ae876846e9167d32851dea4b5cbd8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "35760b71e1d5013a8b0573e37a99b89985d364babc9d41d9643b755612401f4f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "bb92f63772bf8fdf5ef4246edf723d177eb4c42c3d7304074b42605b111a743b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "b0c51aba92354cf1cc8e62c6c5f544a24f99e53b41b1007b29b1d2fa72670154",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "f05eab44b9290b1ae33ff767c500ebdd4a83b5b46527bf589763d44943cdfdb1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "6581da7a64134800e9448f9a5eea42448553db2363e16592b43cb27fe501d5b4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "f1d7cfc20a4dd66fa080ec6b79b2e6042b9e1ab588a3912fd84717631cfe444e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cfdna",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "376cf92fe6b1e53afb765da57f0871235c91742b392f46a679745d5e847f2fbd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "879ff4f1d4da537f2526c62f9b0908fffc31728edca6815086bc5b65fee2369a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "6abba6d1cd081a274f7658267fbd53bba1be8abe6592694fdaa0919912a08d05",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "1f51dbd6a523ce0f12ef2b1bd956cccbdee09541c45a27bcb92a52dcc06796f0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "f4b4196fa7237534ae9ec61d19d3005eddcf7426a4339040ad5c64aeaffb5775",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "2fdd84034d78b057ef08cbeb8656cc9c82dd6bbee698d7616770c45eaf0ef07f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "5fdceadbc7c373d07febc03ab17eed01b4bded796108ee551be5a0170388ccd3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "43e7f70b1d4ca42067d814127a9b15bae21aa883e6d9cd34d69fc22c5bf23ac3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "0202a9a145de2d2edc0b488c4d8567f973f2a624cf0c059683c29dbe119d14af",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "8d9aa92b6e3ee5bdef068b853748ed3b586261071a147feccf49822e8e84c01a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "488e4bd104686ff5a1ab4a8d1e4ee1660972dfe3ad2093dc76111b59955af946",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "2536e0979332a833b65e7875f53401d497c505f6315c5717a9842c4788dceb52",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "4c4fec269a708f45e4c5878623654f2efe9a932db96756e0e94ca1a00f6b2b74",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "0ace16a2e82b35c3911efafe242a91af1c4e5c63262e9dcca317351ddc6da7fb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "3b11fbc8edd6fbb04332cd190ffcf65ab41d7a54cc1b082114e96fb5e30a5ad4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "a57f1147788272d63e9aaf50ee43d2a3d7a5f3794d6e2790dcbf693fd566040e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "0648e563eb5a29a3526b011b2bfd279308544b4d15f7190ad459b4974aad1963",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "ab7567fd7735838d30ba1549f24db91556df1ef5236113652c7cff33eb0d2b68",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "85a600c6607db04f6f58674f253b06cf9cc406ab2665d44649984315ec0a27b5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "f1e0c661acfc613b0dc2b81f989c9f20c7d4f30c25877c1499f28fdeb56e480d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-stroma-ratio",
+        "field": "notes",
+        "index": 7,
+        "passageSha256": "87a440525206326c8c0ba9bcb202668eb2e3f670d0cd74ca200e72da55462e2b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "dad4519f6b69fb1f69e9d8b8a59d02b942fca28b30489bdf3920e08f513b08c4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "09067efda42c0d63169c6aba0cb5d56404e81903468e9fcce868e593987cffd2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "43ef3402d9fce535d6d7eb821e4077689baf9016a51c6924cff6986ae6c68c0f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "94ae187ac85fe768b3d38a6c620cc12cc1164d810af014559f71402a3c234b35",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "4e77b50ebd85966b8393dc0fb2f10ebd0340fe0b4ac86a7e290285ef0ec34d15",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "9335a0b1b2de3b16cd0f2ee383de7ebee40ae0d3c6530f0290a2aafa58a8ccbc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "surgical-resection-specimen",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "3bf1d66509bb78b340a47dfe5d63587bbbd502dff771ebaa5d42117451783389",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "c5870abdbae6b6f4d2f3e0d54612bbc2dd2110ee1734fe07e7d3f4f290b6813d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "9110380537f0e2b8ebf399f0eca1783191e3d82a2ac5036c51de9a47f6fbe1b3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "44d7f2e4c28a616c4df0852e4461e60dd1dbf5dbfa3b3fa2a51a9270f2a12fa1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "a786f202390697c009c6afec21487edd2d2411561a028687bd2981f8fe4b3e48",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "b374935c7a717438b49db28f9f3cd08afd62bbcb160625e64bdaa277608dec1b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "8421899e29e98e6e35c456d984b11af4a473acdac67db5deab50fc47255c7969",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "0aa846a66ceb7a14a4a8ae1973fa52a04d507711b091d7df73557e62552332ea",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "blood-as-a-renewable-sample",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "8bc8abb592ee1baac1827de54501ed1a585b55d2d5d2dc2a88960e363c745aab",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "af81f5b0495e4ca58a052e92d40705ac967aa07952ecff8aa21f324240ea5b97",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "670558ca984d58524c0c03f07a5ae324666829a609e0dd3025c92b85b9419e77",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "ab88c865107eb4c7e377665b3595f3d50cd169bd9bad763f21871133107327cc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "17c3c19fe75da8a65849acb2830b8b11ef354dcf2fdb4236de37282c6f76476a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "881346b7c555231e41177400e1aeba9318308426f2b08abfb133e341b52bd39e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "171bcb25373efa357d208660f388de14160f92ee5d5af34bc6041f518f856f36",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "815c4f92df8d8dd0fc5e28cff6b040a6c3d33c369242d915301840232f19c060",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 5,
+        "passageSha256": "56a9a95a89385795df7a11c2112f0913a5b01390ba8c2a2bfe5ba619a560cfa8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myoepithelial-cells-and-basement-membrane",
+        "field": "notes",
+        "index": 6,
+        "passageSha256": "91c118c2a6bb3c794e35693362be9fbff81ddafadab8513d16f5042348883cac",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "90d91805945188c9a2ea9f9f7a7f5880f76679bd2c015746bb061e162b5bce0a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "6d1fdb60cbba710261f45232415a30bae84369922b1f69dd3b774f1529c6c5e9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "18401f6daa2872eac228419e610a144901c578bec43e819b51c4711da9e7ae4c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "147c819780e2ca9659339f1cde4e0c08587da7ee7f7df3663d4f133a8554b33b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "3a94f689663c43a86defe5c2817d18c1adc8b02193665dd706e0603436c59d5c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "finite-tissue-budget",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "97872e1f8d62e3e6e4507fbca67564b8dd352ed10b0f16784f8f89dd8b54cc84",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "0cf8143ecedc6a1ff1b2336036e2ccdfaa5940bfd52401e593c84142854ba085",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "4e06462661cc7ffcd58dfa8db46b608e8ab1c9a0dcc5f056876955664afb6d69",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "549fd79944167373617f0f0878c3647e068b0f1dc14fab45344b87b92bd5a393",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "1a99dabb0f951a2050e906deb75230c382202604e665b4b4b9f91d9212121eaf",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "af695a95849e7888185510469892fedb255c204f53ffc03474f337afbc36220a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "a8348a49d8fcb3d79d5cee04399cb2bee208806806da291f6569a6b137321a66",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "rna-integrity",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "bc3d5791637ff75c84339d8aa09c40e9a27ddc34f10926df59f2343c8dd44788",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "tldr",
+        "index": 0,
+        "passageSha256": "00b6d21ae24f1107519d0ad6d7de406b6666e881eeb0bb2bc97d07e2a63fd95e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "summary",
+        "index": 0,
+        "passageSha256": "2b68b8c5594457ef620740b2c79813e60570b82f71227eef54b175e743bfaec6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "notes",
+        "index": 0,
+        "passageSha256": "7c3969e43f382c405c276c70efed77029b5ee97c09126eda3e2815ebd79f56ea",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "notes",
+        "index": 1,
+        "passageSha256": "3a5fb2eddd9d71f6aab2676d09edf5b91293fdbc3cb962d1a70355aa2df0270a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "notes",
+        "index": 2,
+        "passageSha256": "87b8fdc39be88c9b81d43cff7785c51e8e6d675dc981e70fa3b0199aa81c92eb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "notes",
+        "index": 3,
+        "passageSha256": "b7513a5a11dc125e610d857274934d08a39081b81cd67c7aaa4e60c387fa3426",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "tissue-preparation-assay-fit",
+        "field": "notes",
+        "index": 4,
+        "passageSha256": "a9015b6d17fb491ae5f5b11c3cd58a792e52096c3ab24d0b9ebe21646fe2c2d5",
+        "inActualReaderText": true
+      }
+    ],
+    "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. No fuzzy, browser, hydration or accessibility claim."
+  },
+  "ownership": {
+    "root": {
+      "before": 22791,
+      "after": 22795,
+      "changedOwners": [
+        "cfdna",
+        "core-needle-biopsy",
+        "cps",
+        "digital-pathology-wsi",
+        "h-and-e-staining",
+        "ihc",
+        "pd-l1-cps",
+        "tils",
+        "tumour-purity",
+        "vacuum-assisted-breast-biopsy"
+      ],
+      "newOwners": [
+        "biopsy-after-neoadjuvant-therapy",
+        "blood-as-a-renewable-sample",
+        "surgical-resection-specimen",
+        "tumor-stroma-ratio"
+      ],
+      "deletedOwners": []
+    },
+    "shared": {
+      "before": 22719,
+      "after": 22719,
+      "changedOwners": [
+        "finite-tissue-budget",
+        "rna-integrity",
+        "tissue-preparation-assay-fit"
+      ]
+    },
+    "wholeGraphChangedOnlyAllowedOwners": true,
+    "allExistingSourceLinksPreserved": true,
+    "nestedGraphNodesUnchanged": true,
+    "automaticCanSimAndCancerNotesPreserved": true
+  },
+  "mainCredit": 0,
+  "expertReviewCredit": 0,
+  "learnerReviewCredit": 0,
+  "newLanguageReviewCredit": 0
+}

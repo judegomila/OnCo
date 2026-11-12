@@ -1,0 +1,12 @@
+{
+  "sourceVersions": 28,
+  "sourceHashesAndGitBlobs": "all match",
+  "blockCount": 1043,
+  "exactLineBlockHashesMatch": 1043,
+  "blockMismatches": [],
+  "figureVersionBlobs": 44,
+  "uniqueFigurePaths": 22,
+  "figureHashesAndBlobs": "all match",
+  "primaryCaptureHashes": "57 checked, zero mismatches",
+  "sourceCodeMaps": "18 source hashes matched; nine unique actual renders viewed"
+}

@@ -1,0 +1,212 @@
+{
+  "scope": "Actual EntityDetail SSR and selected summary HTML, not browser or live-page certification",
+  "canonicalPage": {
+    "id": "pneumonitis",
+    "route": "/terms/pneumonitis/",
+    "asOf": "2026-11-10",
+    "bytes": 34136,
+    "sha256": "73571c6a911c70f1a7cd49b7d346836cdcb8fd92040b7cc5b28a95d2cae7cc5e",
+    "sourceLinksChecked": 5,
+    "missingSources": 0,
+    "nestedAnchors": 0
+  },
+  "fieldTextChecks": {
+    "checks": [
+      [
+        "tldr",
+        0,
+        true
+      ],
+      [
+        "summary",
+        0,
+        true
+      ],
+      [
+        "summary",
+        1,
+        true
+      ],
+      [
+        "summary",
+        2,
+        true
+      ],
+      [
+        "notes",
+        0,
+        true
+      ],
+      [
+        "notes",
+        1,
+        true
+      ],
+      [
+        "notes",
+        2,
+        true
+      ],
+      [
+        "notes",
+        3,
+        true
+      ],
+      [
+        "notes",
+        4,
+        true
+      ]
+    ],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and source links; no browser hydration or deployed-page claim."
+  },
+  "summaryConsumers": {
+    "entries": 9,
+    "available": 0,
+    "EnglishFallback": 9,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 8,
+      "rows": [
+        {
+          "id": "pneumonitis",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pneumonitis",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "pneumonitis-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      },
+      {
+        "id": "pneumonitis-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "c715c2af8cd58b4ff0d51534cb3ce2c1f01a8319aaa4254d50f3683dfef05a33"
+      }
+    ]
+  },
+  "primaryTableViews": [
+    {
+      "file": "datroway-table.png",
+      "sha256": "1bfebc60f444df25189f1655c01a579352579495355d704d7fa050a31d9929b2",
+      "scope": "Targeted primary-label table or footnote visual inspection; source images remain private"
+    },
+    {
+      "file": "enhertu-06.png",
+      "sha256": "eb8bed96c61e70825f4b34ee287b4deecd32fabf33f5eef890810f3691bf7440",
+      "scope": "Targeted primary-label table or footnote visual inspection; source images remain private"
+    },
+    {
+      "file": "enhertu-07.png",
+      "sha256": "83543da78f2a73f52b458069631ce9640a7baab66aa427f08d4a029b02ca2f03",
+      "scope": "Targeted primary-label table or footnote visual inspection; source images remain private"
+    },
+    {
+      "file": "keytruda-table2.png",
+      "sha256": "0444652f628ddcbd3e139fa65817cc754dae92a12179d3051db7f4a819c521fd",
+      "scope": "Targeted primary-label table or footnote visual inspection; source images remain private"
+    }
+  ]
+}

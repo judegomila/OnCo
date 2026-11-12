@@ -1,0 +1,454 @@
+[
+  {
+    "ownerId": "hrd",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "b8653adf8fda699cf624f331b08175e5a6657124895fa11ea97259c023459f96",
+        "newFieldSha256": "0ee1f5cb210829a280278acd23c046778508968adc7d2a2a4036007feeff78e4"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "6742f420e66bf1d46fcebdfdfac906c3244d5568d805bea1833c45130f1cddb1",
+        "newFieldSha256": "45d0d55e3f9340c67466360775b80065308d9d047475aa86462b779af8003da5"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "8bb772aa162825c59a9c2b29a03e02cc40519c39306e584e6df2744ca26a107c",
+        "newFieldSha256": "188e39b86a104afa59bcf0de53942e1e6838ee0a046ab30500d6f55de1881687"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "replication-stress",
+    "fields": [
+      {
+        "field": "analogy",
+        "oldFieldSha256": "7a5d17e41653e982f11c79a6ca47ad45b6ea491e4be29d1b17873c7cd4c57aa7",
+        "newFieldSha256": "4c0685c3ed4bb2a46f3bb3245f6a00fdf691ff1889354914b397e7b7919d3a83"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "47ee4f5f3697313bd8c66ab88fe8673c33b1517c2289f837758dd262f0548afa",
+        "newFieldSha256": "250db521f4b4fb8c1116a3e230b68ae42a55a9cddfdcb7977bc7279861d8a1f3"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "f50855e5c55974458648dfc7b0b45a8ea3692b2ae6b9d5fb783927fc1ce34a7d",
+        "newFieldSha256": "4377a71820f9d0507a181a89f0a4dea94e4ae378fc79b599cd1c6a7ea676ddf0"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "f3c0b9d7880d3dc5f8f091cffccb22e3cf0bb44fa1f9dd93e16c7332ce37d32b",
+        "newFieldSha256": "7312721acf4a9279f7a4eb4f4d8b03996c821e5232d0388adb0888d9b9821d23"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "androgen-receptor",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "abd5426cad6e368862a7f9fc5eeb12e190582121dc034e270052121cf39f0ba2",
+        "newFieldSha256": "cc61f924e5f46165029cec6ac144c12a39d838a30f70875796d7bc0e1e9e1ed2"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "ebdf3b2ef5ca17ffce80bad85079ab371e0fbadfe78effd79d395462ea9c7259",
+        "newFieldSha256": "6b1c578172970b9a860c3d9d07cf2d682b9b98d0fd13b0b83f81c93d4f1a9c3f"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "ab876ad930aa4800d03be8eeba2587159335db012957b6c410258b87a53cb577",
+        "newFieldSha256": "b8e424e2080a224a5f29ab2da30d60311cf9240e5c6ffede5ca509bd3481feac"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "brd4",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "9ae0631fc55f60fea857df73e2f5282345c3cbd3446a30c9380aa2bacb70f0e4",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "c46294aae6b47e9e9c3f4ba4108e6fdc2209c5a5f638c11a7c7fe217edb67058",
+        "newFieldSha256": "596ee4b7c731f7c89af550fd02c3b8a170e13202d8223b78ecb09dfe8db68086"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "4aaffcee1dc7e60dc19c5bef876cd8ee435c5e80c418c4029ff9a119657a6d20",
+        "newFieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "05b42761930b4e711c49f255fbf73f9db49be0fcbb166f90b91cda86cd05a4da",
+        "newFieldSha256": "f32a1449aa0e4835e771dd903c1509649beebfccbc766f5ef2a2cbb2531a493a"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "myc",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "59838a9fce409a92ca438cc82cf9271b69382b8b06a5c6b986d5bc8cf5af9138",
+        "newFieldSha256": "91de140e19f627087f963619e367b8be8bb6b00c3a20e8e64812a2304da9ee16"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "3aca511ba992353a9d8a581335d1f13bd039306ef320a81af278024dde85bad2",
+        "newFieldSha256": "0dce52fbae9a003727486c2d3de6cce88720ac5f87e7078bff856bb207c6560c"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "1b46e4d643fc964eeb9db67d1f0877d192b7ff4a79c26bc84c42b787ba8efa4f",
+        "newFieldSha256": "74d5c7870db7630ff9eef6fcc8507f33ad1930200882e8e6d1f8e8f662135ff6"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "notch",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "8bfbaca1f1512e3554de2ad6084b716f8201e6ad602c10f2f2cdae259913bd0d",
+        "newFieldSha256": "0703244a3d8fd0ba6dec0030559b26164694c443ca18fc46f0f5da9841eef8b0"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "6fd2b3f3d515abcbc7a1064efbf31d9860d5432ebb6a5ff3bb792bd0373bc8ff",
+        "newFieldSha256": "e6a337aa0d207c7e062250897c47f733d57cfb0dd98c19769b4db0204045e474"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "8feed5d9e45a3ba41f365d56c20ac579fe6f633ec8aef3b27c1d8169c02828bb",
+        "newFieldSha256": "8b164bd8faeef6ba176b97494acdfdf83235a8ad083b045c806f3ffa88501e5f"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "pi3k-akt-mtor",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "4e0f4aaa83eb378e81523bef0ad5283637f1d850615d0aa05ed6ebf62f3f9e9d",
+        "newFieldSha256": "e662b09d8ea7c91c4af780d1976873688a864a47d007d78036785ee8a018023b"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "a3f54d65db2b4b0bce7e278666f97bbf76eea49486abdd759a7be09c080e73a8",
+        "newFieldSha256": "0d738b723cce08f039b913f72c3f575f6d51fd60162a696ddfb909f45836fb00"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "bf4b6bb336e97acf0d653388d2535ba01af4b74b7316d8152703687a2cd3d382",
+        "newFieldSha256": "93801388277882de4cf0a48f87dbe1b172b7c6917b1e79306bc4af4e4de7b1d5"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "wnt",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "5a91b976d5678e19bc00074d5882b6adb6001d49bea3250fca7cdf876ba73bac",
+        "newFieldSha256": "370076604ab6a9af88cc2978b2b2e2dfc70e5d41cfda1b22d1be5c64d08f0b35"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "3aa56e3aeec6b1ea3515c5812b3fadb1974b7e510ed813a77b667766849ffd9c",
+        "newFieldSha256": "07e298903aa840c0c902f6682f98d0a118d88cf54cd9f5ef085931a731f09b86"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "42dee9f6607be33a1395a79b4c9d7e51cb68091afa32cf192db416a787e36bb5",
+        "newFieldSha256": "76fecfabb9d09351677b1a772e00933c60d04eff75555d283783c73d6d912664"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "braf",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "6adca9fea82d113542dafdc6c95c263eb0927c6a7b8102793f192a387befc6c7",
+        "newFieldSha256": "3cd3be79eb995ad173e25323902685085184d05c3d0713da7b17df670ce3a431"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "e4ed3c96b64be374c5d160f33b94ef363f5bde56480e5221347021d394aa8bc0",
+        "newFieldSha256": "42fe2ccce639d2ddecdce185bfc951eb141d7ddd20c4aebe4b491ea8e7bd316a"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "76d0a30d671c82541cc9386bda3c6112293bc715387c48201af584f19857c420",
+        "newFieldSha256": "a52f9fcd90f0d90c2a21e6516239ddd6d1c95c61a3519c60be3acb954eec5c87"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "brca",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "bac814be075116797c3b87040673ba519371e3e44cb8462994f857419f4494b2",
+        "newFieldSha256": "c47a3279e4172a324e4bfa1b6b8781cbfdf9ad15c867f7aa2f9933c41cbc88ec"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "a34fa8fbc7a41d679e3320c70acb82f536af88158717185e52419de3fe6360c8",
+        "newFieldSha256": "2f2cd9a92bd7ba5a04b4b9f6a4538eda1717ab038fd878a9591ec5880ee44a97"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "cf69a004c436ee354a11b2b53e91db39a95c5b053c0bc66dd383f4ad61903458",
+        "newFieldSha256": "26064d7c09941174bc2596f5dcfd9027fb69f64b9be8c429020ffcf3c86e1c9b"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "ddr",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "33f34e41f402d9a77fc16ee91f03712a5d93787bdd0d12f81f8b0f3bf721de02",
+        "newFieldSha256": "879e107aa68073264aaf5afc6a06bbf1701f5822db5edcc848c5762cecfd8599"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "2916ca0575c2c3a6071d95cc17b378713607fc82b201f72c4e794ecc0abb3c48",
+        "newFieldSha256": "0472f2a28195ac1968cfe1f2fce66f3373bbe53fdff76da2bb10b6c652155149"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "0c134a9454736a108d61c3e93bf1a7f95e0c55dde739bd4011eb4c5ddc42c09e",
+        "newFieldSha256": "a14687d00bde149ba1bf9d637a6f9aaf71163b75e341bbd5024b260adc9e0999"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "hrd-genomic-scar-scores",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "883e9d7c85f7b7d88d16bb602aa48b63bced5cc1137869d736e3d8702ea7e187",
+        "newFieldSha256": "c9cecfd27aea67d82e4b1822792287ded2ddb879dfaa88f43cb00d3de09b9a92"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "583ce78469f61192ebbc6895493692e30de794d97011e04b456c734c87c589fb",
+        "newFieldSha256": "3279eec849dbba77d8405e12ceb8f3cebe99c9325db017f29019e60211a2eff9"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "28e04ce203437d05217439b2ed9b249326428b9dd8aa69e1f2e6c5e1151e2065",
+        "newFieldSha256": "c2b299b868cf7c90a022001fcc160651102e1b801db725391d1b1331d9712b25"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "mutational-signature",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "29fabe8d9bac93b8b530571904e962c9eb168ba5efbb10d297354b0fb49f9c22",
+        "newFieldSha256": "2c09cd638c38ea6799e345c12e49ac4a7a0f8e82972778268498ced040a26662"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "f08e14eb5b65ff688dfd102f2e3095308149efd82dca7ccb9078c48509e99ff1",
+        "newFieldSha256": "1d5a0e59e925cfdfcac1d29ab044da98bc2cd0bb68f0c254d767e673775dde66"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74d5120c10590bc6fa3e511cd73cb87e505839daaa9013ee1e0167c5c8200659",
+        "newFieldSha256": "512b203bb09682c7ed67a2993fcfae932719e57a16bb134683242c6abed3d9be"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "homologous-recombination-repair",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "a53b8703ad2fe41dec3c958aa41d80bd6a342b1a0f72e2062caa9bc2822ee0ee",
+        "newFieldSha256": "cb52c7294f83f47a081484112c886a2a7bbaf254c599a48cffb6bca0b22e9372"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "4d1b114d75539920763c4ca4e45f8004691318cd58eaaecca27fcecddfa90929",
+        "newFieldSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "d8f67a99c289a331dc10d8044b16ccbe39a64cd3b37628bb7feed0e8132993e7",
+        "newFieldSha256": "939f3568213eef9c69b3bb548f5add91b40c683b9d5e2daea900b7d122155d6b"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "ras-mapk",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "d90f0a97ad4bc7fd8ff6c1aedf7d15db69f01a5b817e8372e88d23bd44522e2d",
+        "newFieldSha256": "493e1bb0f172f20b31ec748ac58fdf9b9d87ac243b3605e0aec50f28c05600f7"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "b408d5d7b188286b97bd564fc498d2c622607458b9f5f27645ab2bb32deb0e0d",
+        "newFieldSha256": "2967a44d3a75c682bae72a66ebd57e1123744054471afc5aa235627da09b919c"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "d71bf669386dc167c343c47a138086aaf61cab8177eb64217dda19c115124c39",
+        "newFieldSha256": "11a4b970385435b063bad103671425fb61fc9e9967e85d2e804477befce0a26c"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  },
+  {
+    "ownerId": "keap1",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "203550de69fd32247aa59c67343c1ec7437181af7576b6b4a0750aca2b15d62b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "5e855bd6e90f3b2259f69e4be0ef98680057b489033607d05ddbd266d3e99ae2",
+        "newFieldSha256": "2222e75c8001938f1419da6d28a54671e24b5a1eed658f989f7c9493ec935e70"
+      },
+      {
+        "field": "provenance",
+        "oldFieldSha256": "021709c6efc6caa6032ffc6e8bc87ffd58102cbcebce744bf7a7a04facd327e2",
+        "newFieldSha256": "2bb1cddd57010a8298407c4e2d3e810562292cce4ac2fb127702cdc84319aca2"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "e712f0d4d9c0bf778f77ddaf9716dc3b83dfb3134805d9538579c68ec79d7491",
+        "newFieldSha256": "164e43a6d9750a783dadbd27d1bd76ddffd5f7502232ae4aaae2dc02f52a3cf4"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "4314ecba6f074076da980e13eed26da02e9f971f4ad95fb483e8f39c07e95c0a",
+        "newFieldSha256": "4314ef166ff51f089195ff5cc220a385f4d2d7509e1b2c9e2081dc153846cbdc"
+      }
+    ],
+    "ownership": "Existing generated identity with explicit handwritten precedence; catalogue fields and lung supplement retained"
+  },
+  {
+    "ownerId": "rtk-activation",
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "de6dcc38216a2ea24143d5b8cedd6c82ea7663fac96611420138f3b822fc8357",
+        "newFieldSha256": "de6e9e673063a089f8b87d70fdfa303930316c12ff3d10e4892688012baa6cd5"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "928028baecff5a258ef1ee6d9237fd490696138befb514f0bfa2fcbe8004c19a",
+        "newFieldSha256": "8d844e613d4b13d0eb619b39219c02a47d88910de61fbec293ac7dac03285fab"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "eab7717c096e8046905b9aa2357e1d7d1c905f0b1b57cb1bb16f3d0ab8cafb40",
+        "newFieldSha256": "70626ac0994123077860ac81c3db6115d246dc4481c06532bf02a2db1645e055"
+      }
+    ],
+    "ownership": "Existing canonical owner supplemented in place"
+  }
+]

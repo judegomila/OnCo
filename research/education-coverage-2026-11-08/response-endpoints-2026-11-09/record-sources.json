@@ -1,0 +1,191 @@
+[
+  {
+    "recordId": "complete-response",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors",
+      "https://www.fda.gov/media/71195/download?attachment=",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "complete-response-term",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_Evaluation_Criteria_in_Solid_Tumors",
+      "https://www.fda.gov/media/71195/download?attachment=",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "duration-of-response",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors",
+      "https://www.fda.gov/media/71195/download?attachment=",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "duration-of-response-term",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_Evaluation_Criteria_in_Solid_Tumors",
+      "https://www.fda.gov/media/71195/download?attachment=",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/23965901/",
+      "https://pubmed.ncbi.nlm.nih.gov/29373071/"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "orr",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors",
+      "https://www.fda.gov/media/71195/download?attachment=",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "recist",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "https://www.fda.gov/media/71195/download?attachment="
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "irecist",
+    "ownerFiles": [
+      "src/data/scoring-systems-gaps-2026-11.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://doi.org/10.1016/S1470-2045(17)30074-8",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/",
+      "https://pubmed.ncbi.nlm.nih.gov/28271869/",
+      "https://recist.eortc.org/irecist/"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "percist",
+    "ownerFiles": [
+      "src/data/scoring-systems-gaps-2026-11.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://doi.org/10.2967/jnumed.108.057307",
+      "https://pubmed.ncbi.nlm.nih.gov/19403881/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified."
+  },
+  {
+    "recordId": "quantitative-imaging-biomarkers",
+    "ownerFiles": [
+      "src/data/diagnostics-wave2.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "status",
+      "aka",
+      "terms",
+      "tldr",
+      "summary",
+      "principle",
+      "strengths",
+      "limitations",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://doi.org/10.1016/j.ejca.2008.10.026",
+      "https://pubmed.ncbi.nlm.nih.gov/19097774/",
+      "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+      "https://www.fda.gov/media/123271/download",
+      "https://qibawiki.rsna.org/index.php/Profiles",
+      "https://qibawiki.rsna.org/images/3/31/QIBAProfileClaimGuidance-2016.02.10.pdf"
+    ],
+    "scope": "Only listed authored fields are checked; unrelated retained references and clinical fields are not certified. Removes an unsupported family-origin year, narrows family status, replaces a redirecting citation with actual profile/guidance links and routes distinct criterion/SUV aliases to the existing canonical owners. No replacement origin date is invented.",
+    "removedFields": [
+      "since"
+    ]
+  }
+]

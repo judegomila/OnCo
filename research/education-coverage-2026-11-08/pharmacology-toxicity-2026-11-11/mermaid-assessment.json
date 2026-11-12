@@ -1,0 +1,150 @@
+{
+  "uniqueDiagramsViewed": 12,
+  "diagrams": [
+    {
+      "sha256": "19f3eb4a3991daf2a95a3fdc479c751e90892ddd4eb887c1c77e510d535eae83",
+      "lessons": [
+        "chemical-probe-vs-drug-and-target-engagement.md"
+      ],
+      "renderSha256": "e4913bc41e7a3a664839160bd12606004fb135b169b89361e48967ca584e929d",
+      "width": 168,
+      "height": 357.59375,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "00cfc612fb2af6361d6d05534ab6577b1e1e54db124663106ba672311974c014",
+      "lessons": [
+        "chemotherapy-induced-nausea.md"
+      ],
+      "renderSha256": "fbed3f39295acef89b017fffe10a625a8ddb436708f2d8a85b4f4d3fa9a873a4",
+      "width": 168,
+      "height": 505,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "2ca870ba7ec0576423e5171edb619bcdb4d9ae05e2912e11d71ddad94b5fce63",
+      "lessons": [
+        "combination-therapy-rationale.md"
+      ],
+      "renderSha256": "366a40510fd6a0808e9637463b2244453f6349afac9b919ba91ba8ba7bacfbb2",
+      "width": 168,
+      "height": 632,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "7fe5cbaed552de270f7a333608dcc9a407e91506857121b34256ca7aa5d4bc38",
+      "lessons": [
+        "cytokine-release-syndrome.md"
+      ],
+      "renderSha256": "1909928969efcc3706b78e2061a913ff2c53ed7e05cdac415525265f6ef6328c",
+      "width": 168,
+      "height": 569,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "f565b1382e926d94792408117ceb41c3bb55b845604bd3f7a0e83c5a4cea13cb",
+      "lessons": [
+        "drug-efflux-transporters.md"
+      ],
+      "renderSha256": "8a22ff4968cea9283117355bd1a5aa42ee006aed0fff55acff68248986732935",
+      "width": 1059.84375,
+      "height": 229,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "The efflux diagram makes delivery to target too certain when the pump condition is absent. Reader prose explicitly retains other possible barriers."
+    },
+    {
+      "sha256": "7373861057a930f60e83d7a323f21874197e6851cb9ffd98b298772f1345f88f",
+      "lessons": [
+        "drug-target-and-mechanism.md"
+      ],
+      "renderSha256": "178a7fe2c464835c83217a17f77a22dcd0684dc53e25a4eb7eb37b8549d3c9fd",
+      "width": 168,
+      "height": 590,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "ae7936e91d4c030f57de740b5baad1fbd72c163c654b7117aafed53063365ef9",
+      "lessons": [
+        "icans.md"
+      ],
+      "renderSha256": "9d3b77bc0e7916ad2b04fd97119df3971da84c6045404b9c7eaa466d540d7634",
+      "width": 168,
+      "height": 611,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "8d15f86b0105814f8655112ff9bf5061a5655f837fc62f1ea79ffcb5b6928ed2",
+      "lessons": [
+        "immune-related-adverse-event.md"
+      ],
+      "renderSha256": "d9b5a12c6a413b5d5ac34abfcd66c0522f2de83fed774a4cf63f3c247de0224f",
+      "width": 168,
+      "height": 548,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "07fa23ad69c383abf001a42fa5127322dff75c40dcbf51a468f606519bee8223",
+      "lessons": [
+        "lymphodepletion.md"
+      ],
+      "renderSha256": "7b6d2078c32b055dc912e313a2af75fdbcda5c44c12ad2dc2a938e95e28d9765",
+      "width": 168,
+      "height": 442,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "157a5c1bbd2dbb9e67b713207ca1b44df1b1c3cb47da0196fd472adb292a2134",
+      "lessons": [
+        "neutropenia-and-g-csf.md"
+      ],
+      "renderSha256": "f8fb2bd496e5be1ad6ad54b6eca5084afd4382f73535a68d9e2a5fada900d859",
+      "width": 168,
+      "height": 590,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "0c8d3fdd8c2172c0f0d833c3f92976a18a0607fb4716518d3a8f5639ee2fd90e",
+      "lessons": [
+        "pharmacokinetics-and-half-life.md"
+      ],
+      "renderSha256": "20b36db58a870f43f428e05527458d2f048ee25c727a81f7dc243503c5a129a8",
+      "width": 168,
+      "height": 403.796875,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    },
+    {
+      "sha256": "0b490df2825e133ee441ae6b4d71714b6e924c49193377debf3c1c2a7945ec5f",
+      "lessons": [
+        "pneumonitis.md"
+      ],
+      "renderSha256": "846e854e1ed45d84a0282d61a5c36aaa21ecd58abc8cae8b0a397dc123549c24",
+      "width": 168,
+      "height": 527,
+      "viewed": true,
+      "method": "Mermaid rendered in headless Chrome and viewed at full extent in native-size composites.",
+      "finding": "No scientific or layout defect found at the diagram's schematic scope."
+    }
+  ],
+  "limits": "Agent static rendering review; no interactive, accessibility or expert acceptance."
+}

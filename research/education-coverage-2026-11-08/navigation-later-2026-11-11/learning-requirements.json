@@ -1,0 +1,11 @@
+{
+  "uniqueScientificRequirementsIntroducedByTheThreeReadPages": [],
+  "rationaleByPath": {
+    "wiki/education/comparisons/index.md": "Read all 99 lines. The tables pose questions and route to named comparisons; they supply no scientific answers, study findings, measurement rules or treatment recommendations. Introductory text gives reading instructions. Acronym expansions are link labels, not new explanatory teaching. Target existence does not verify the linked comparisons.",
+    "wiki/education/guides/index.md": "Read all 34 lines. The numbered list names fifteen learning paths and links to the education home, concept library and terminology. The surrounding text describes navigation and pending review. No scientific definition, test rule, outcome or treatment recommendation is added.",
+    "wiki/education/index.md": "Read all 56 lines. Questions and topic lists describe learning paths; they do not give the scientific answers, outcome figures or eligibility rules. The lookup section routes readers to concept, comparison and terminology owners; the final section routes findings and decisions to their own pages. No patient-specific finding or decision is copied or followed. This is a routing disposition, not verification of the linked topics."
+  },
+  "routingPages": 3,
+  "teachingCoverageAdded": 0,
+  "unreadCatalogueTextNotExcluded": true
+}

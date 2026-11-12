@@ -1,0 +1,2459 @@
+{
+  "method": "Exact UTF-8 excerpt hashes and compact-JSON whole-field hashes verify custody and containment. Exhaustive source-block reading and coordinator semantic comparisons are separate assessments. Repeated recaps and source-scope obligations are explicitly classified, not counted as independent empirical claims.",
+  "version": "proposal-breast-concepts-root",
+  "fieldExcerpts": [
+    {
+      "key": "B1",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B1",
+      "passageSha256": "a474997acb3a084dd9605bdaf0ed675e1f932df794345f9ecbe5144b873cca90",
+      "excerpt": "BRCAness is a research description of resemblance to BRCA-deficient cancers without a known BRCA mutation. Turner and colleagues' original concept was not one standard diagnostic assay. Similar repair marks can suggest a process worth investigating without identifying its cause, whether it is still present, or a future drug response. BRCA1/2 disruption and other mechanisms, including epigenetic changes in gene regulation, can affect repair; a BRCA-like pattern does not establish inheritance or make every repair-gene alteration equivalent.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "B2",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B2",
+      "passageSha256": "e5e9bd50c562b32963f49f473095dc61797d1b116b9aef65e1a2b050f359509e",
+      "excerpt": "Separate cause, history and function. Sequencing can identify a candidate disruption; genomic scars and classifiers describe patterns accumulated in DNA; a functional assay examines an activity under its measurement conditions. Watkins and colleagues' review warns that restoration of repair can make historical scars misleading about current function. That is a qualified interpretation of the biology, not a direct scar-persistence measurement in Cruz's patient series. An earlier high-scar sample and later RAD51 foci can therefore coexist without establishing that either measurement is wrong.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "B3",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B3",
+      "passageSha256": "b4b69252e235f6b86f2b313e0041b9fca49909c206dad4aa7fdada641618d36b",
+      "excerpt": "Waks and colleagues studied paired samples from eight selected patients with germline and/or somatic BRCA-altered metastatic breast cancer and acquired resistance to PARP inhibition or platinum. Four had definite or putative reversions and all four acquired RAD51 foci; six acquired foci overall, of whom three received another DNA-damaging therapy and all three were resistant. Those small, selected denominators support possible restoration mechanisms. They do not provide a population reversion frequency, a universal resistance test or a personal response probability.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "B4",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B4",
+      "passageSha256": "bdc386a0cec3c60e421b070231fde14a3d2007d26a9f1be1dbe2a14d3d01c3f4",
+      "excerpt": "Davies and colleagues' HRDetect classified BRCA-deficient genomic patterns, with 98.7% sensitivity in the study cohort of 560 breast cancers. Forty-seven additional tumours without known BRCA1/2 mutations had high model scores. That is a classifier result, not a measured probability of response or proof of the tumour's current repair function. Cruz and colleagues studied breast/ovarian tumour models and a small retrospective clinical set of ten tumours from eight patients. RAD51 foci were interpreted with cell-cycle and damage context; that work does not validate every RAD51 method or cutoff.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "B6",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 5,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B6",
+      "passageSha256": "29a54a3a3faeaaff08484308656af4be4a390e853fa2d700e266b53e35aeb54b",
+      "excerpt": "As a fictional reading exercise, an earlier sample has a high genomic-scar result and a later sample has RAD51 foci under an assessable protocol. Record both dates, methods and denominators before asking which finding supports a cause, past history or present function. Neither result establishes constitutional origin, guarantees a response, proves that adding another drug helps, or settles trial entry. A drug-induced phenotype in a laboratory can motivate a hypothesis; clinical combination benefit requires evidence in the relevant treatment, population, comparator and endpoint.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "B5",
+      "recordId": "hrd-in-breast-cancer",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 4,
+      "fieldSha256": "4d7aac681170b9c7ecd474513c2e81715adeb7c434c120c60fce7dc74a31f8e3",
+      "passageKey": "B5",
+      "passageSha256": "aa32ce317370d0b80aea2a14fb57feaf18cb49eb94e3b1e5aede8a7518b959f7",
+      "excerpt": "For an assay comparison, keep specimen and collection time, tumour content, named method/version, required DNA or tissue sections, and whether matched normal is needed. Sequencing-derived patterns, model scores and a percentage of assessable cells with RAD51 foci have different units. Poor genomic material, insufficient tumour, an old sample or too few cycling cells can make interpretation fail; in the Waks method, absent RAD51 with fewer than 3% geminin-positive cells was uninterpretable, not evidence of deficiency. Cutoffs do not transfer between methods.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "G4",
+      "recordId": "germline-testing",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "5f496be8f8101312221ad6a5a3adf91afab9be634f106fa1c92768353bfa8606",
+      "passageKey": "G4",
+      "passageSha256": "05232a813a815829ef819ee3135b16e8d176867accb4fb0f947ca857ce897e36",
+      "excerpt": "Testing can have implications for relatives and for privacy, insurance and the wish to know. Discuss these alongside consent and the possible results. A report describes what was tested and found; it is not a complete record of a family or a measurement of the tumour's present repair function. Tumour-only findings, constitutional origin and treatment eligibility need their own evidence. A harmful constitutional variant does not specify whether or when cancer will occur.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "germline-testing:summary:94ac6eaa7a74",
+      "recordId": "germline-testing",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "2e060c2dc9abc585f6593edced32d6af76527b7607a7a7733eed5b668cc2949e",
+      "excerpt": "Germline testing examines DNA from an appropriate non-tumour specimen, often blood or saliva, for constitutional variants. Many are inherited; a constitutional change can also arise newly. Tumour sequencing can reveal a finding that needs germline confirmation, but it does not establish its origin. A multigene panel and a targeted test for a known family variant answer different questions.\n\nTesting includes consent, review of personal and family history, specimen collection, laboratory analysis and interpretation. A pathogenic or likely pathogenic finding may inform care and testing of relatives. It does not guarantee that cancer will occur or that a particular treatment will work. A variant of uncertain significance is not a pathogenic result and should not direct clinical management. A negative result must be interpreted against the genes and variant types the assay could detect and whether a causative family variant is already known.",
+      "passageSha256": "94ac6eaa7a740c4863125d9225b72e0f067190a69c3124b244b6f12410bc9d1a",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "germline-vs-somatic:summary:cfea07f9d9cc",
+      "recordId": "germline-vs-somatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "8921d3b8120d2692dbf6ccbfe474697f2431cdd24799df731804d9d0dc3f1189",
+      "excerpt": "Inherited germline variants came through an egg or sperm and are generally present across many tissues. A de novo constitutional variant need not have been inherited from a parent. Changes arising after fertilization can create mosaic distributions. Somatic variants occur in body-cell lineages, including normal tissues as well as cancers. Origin, distribution, harmfulness and transmissibility are separate questions; neither a variant class nor a large read fraction settles them.",
+      "passageSha256": "cfea07f9d9ccc265aa6cd76355bab653533d72ca05d146adfaf8b703201e9380",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "G2",
+      "recordId": "germline-testing",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "5f496be8f8101312221ad6a5a3adf91afab9be634f106fa1c92768353bfa8606",
+      "passageKey": "G2",
+      "passageSha256": "f5bd707e3c60cd9c6c166e1f5c3db0e7a41af098671625a1a45ef548d2d26233",
+      "excerpt": "Detection and interpretation are separate. The laboratory searches the regions and types of changes its method covers, then classifies a detected variant using evidence such as population frequency, segregation within families and functional studies. The ACMG/AMP framework uses pathogenic, likely pathogenic, uncertain significance, likely benign and benign categories; classifications can change as evidence develops. A VUS does not measure how severe an existing cancer is. That framework concerns Mendelian variant interpretation, not a complete rule for somatic drug selection.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "G3",
+      "recordId": "germline-testing",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "5f496be8f8101312221ad6a5a3adf91afab9be634f106fa1c92768353bfa8606",
+      "passageKey": "G3",
+      "passageSha256": "635515a800a3ca817df65802d87e210b00b7cca968f2952546fc07e609ef28cd",
+      "excerpt": "Keep the specimen, assay/version, genes and regions, covered variant types, reference sequence, exact variant, classification and limitations together. Blood, saliva or a cheek sample does not ordinarily require a tumour block, although the submitted aliquot is used for analysis. Sample adequacy, circumstances affecting whether a specimen represents constitutional DNA, untested regions or change types, and interpretation uncertainty can limit the answer. There is no universal percentage that means hereditary risk and no single positive cutoff shared by all assays.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "G1",
+      "recordId": "germline-testing",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "5f496be8f8101312221ad6a5a3adf91afab9be634f106fa1c92768353bfa8606",
+      "passageKey": "G1",
+      "passageSha256": "a0c2b158610f887aef42dc56a61882097c81da3f341784c66f25b8d6c0b41882",
+      "excerpt": "Consider two fictional negative reports. In one family, a harmful BRCA1 variant is already known and a suitable assay excludes that specific variant in the person tested. This is a true negative for that family finding, not a guarantee against all cancer. In another family, several relatives have had cancer but no causative family variant is known and a panel finds none. That result can be uninformative: family history can remain relevant without proving that a hidden mutation exists. A larger panel can add uncertain findings rather than a clearer explanation. Cascade testing means testing relatives for a confirmed family finding with their own consent and interpretation.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "H3",
+      "recordId": "brca-germline",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "d22311c6ce0bbc778af55e2b86461cb9293ab88fd913bf9e44a8cdec9e07d09b",
+      "passageKey": "H3",
+      "passageSha256": "53eccf7bf8bedf559cc87cf91cb2c9ba1ec66581c8f7a8d2048fb638dcf348da",
+      "excerpt": "A constitutional test and a tumour-function assay answer different questions. A BRCA result does not show whether repair remains impaired in a later tumour sample. In Waks and colleagues' selected series of eight patients with BRCA-altered metastatic breast cancer and acquired resistance, definite or putative reversion changes were found in four. This was a small resistance study, not an estimate of how often reversion occurs in everyone with a BRCA finding.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "H1",
+      "recordId": "gbrca-mutation",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "ba9c779df5e04d009fe321e796e666b2b17f7c3cfb1f713c4603dc90ceafce3b",
+      "passageKey": "H1",
+      "passageSha256": "9ed4b3d9cd4f483e6e495c80f4870bf21342444b2321ad846d9d66c2d2458429",
+      "excerpt": "A maintenance-manual analogy describes susceptibility, not a fixed destiny. BRCA1, BRCA2 and PALB2 participate in homologous repair, but having one of these genes is normal; it is a particular harmful variant that matters. PALB2 means partner and localizer of BRCA2. A person may inherit a harmful BRCA copy while retaining a working copy, with later changes in a cell lineage contributing to tumour development. Other biological and environmental influences still matter. The eventual tumour's repair state cannot be read directly from the inherited-risk label.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "palb2:summary:98e357ad9040",
+      "recordId": "palb2",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "ea4b2d1807306102a94ff640f15f9b6aa30e517aef8214b47c527f86accfe4ba",
+      "excerpt": "Plays a critical role in homologous recombination repair (HRR) through its ability to recruit BRCA2 and RAD51 to DNA breaks. Strongly stimulates the DNA strand-invasion activity of RAD51, stabilises the nucleoprotein filament against a disruptive BRC3-BRC4 polypeptide and helps RAD51 to overcome the suppressive effect of replication protein A (RPA). Functionally cooperates with RAD51AP1 in promoting of D-loop formation by RAD51.",
+      "passageSha256": "98e357ad90400001d9bb7da225c9228d57431819510fad14074ea229f4d1d598",
+      "scope": "first paragraph",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "homologous-recombination-repair:summary:a111615df73b",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "excerpt": "Double-strand breaks can be repaired through matching-template homologous recombination or several end-joining routes. Homologous repair often uses the sister chromatid after DNA copying. The substrate, available template and cell-cycle state affect which route can operate.",
+      "passageSha256": "a111615df73b081715af70cb2e46e935561204e7f589e4d8888c800e37eb45c6",
+      "scope": "first paragraph",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "gbrca-mutation:summary:b8ebabe7f0c7",
+      "recordId": "gbrca-mutation",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "6364596f66fa2aef7145212fa18c958c323fb46a26da6e26d4da00c65e9deb67",
+      "excerpt": "BRCA1 and BRCA2 help maintain DNA through homologous recombination and other processes. A pathogenic constitutional variant can be inherited or arise newly; tumour-only sequencing does not by itself settle that origin. Risks differ by gene, cancer, age and family context, and carrying a harmful variant does not make cancer inevitable.\n\nA confirmed finding can inform counselling, screening, risk-reduction discussions and testing of relatives. Treatment use depends on the precise variant, cancer, stage, prior treatment and the medicine's specific evidence and indication. Different repair genes are not interchangeable. Even a BRCA-altered tumour can develop resistance, including restoration of repair in selected studies.",
+      "passageSha256": "b8ebabe7f0c7b3d5a7e0e084cfb6efb8bbe5b2002c0778175c495fd56f3a9ea4",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "H4",
+      "recordId": "hereditary-cancer-syndromes",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "9984e62b725e64ed8f24264a6380c235ff5bc50d4c9df51718beee6c1d0ec454",
+      "passageKey": "H4",
+      "passageSha256": "6eeb13b897b474dc5e1472bdab6d1d65df07f3ef832f3fa372c1808d821d1c0c",
+      "excerpt": "Breast-cancer susceptibility is gene- and variant-specific. Yang and colleagues analysed 524 families with germline PALB2 pathogenic variants and modelled risks that varied with age and family history; ascertainment also matters when applying a family study. These are group estimates, not the risk of every PALB2 variant or a personal prediction. The absence of known cancer in relatives does not exclude a harmful inherited variant: small families, relatives' ages and incomplete information can limit the pattern that is visible.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "H2",
+      "recordId": "gbrca-mutation",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "ba9c779df5e04d009fe321e796e666b2b17f7c3cfb1f713c4603dc90ceafce3b",
+      "passageKey": "H2",
+      "passageSha256": "2a8d875f6b92ade519979a75a780769092dfcc08d8f23583984f15aad849f2b0",
+      "excerpt": "Consider three fictional reports. A pathogenic constitutional PALB2 variant supports a susceptibility discussion and implications for relatives; a PALB2 VUS leaves its significance uncertain; a BRCA2 finding from tumour-only sequencing leaves constitutional origin unconfirmed. None of the three reports alone supplies an individual cancer forecast or guaranteed response to a drug. Ask which gene and exact variant were found, in which specimen, under which classification, and which question the result can answer.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "M2",
+      "recordId": "secondary-brain-tumours",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "f67c5588b6f84bd7a3048c5114f515d3e5ec01ddecdaf2d1e9b54c08a44c442f",
+      "passageKey": "M2",
+      "passageSha256": "d15a98729fc56e266ed2338eac036e3cb07829b1137151535f254daac5885784",
+      "excerpt": "The denominator and starting clock change a brain-risk estimate. Lin and colleagues identified 116 patients treated for metastatic TNBC at one centre in 2000 to 2006: 14% had CNS involvement at metastatic diagnosis and 46% were diagnosed with it before death. Their CNS definition included parenchymal and leptomeningeal disease, and ascertainment was mostly symptom-led. Dawood and colleagues instead studied 2,448 stage I to III TNBC patients diagnosed in 1990 to 2010: the cumulative incidence of brain metastasis as first recurrence was 3.7% at two years and 5.4% at five years from diagnosis, treating death or another first recurrence as competing events. These are different selected populations and endpoints, not interchangeable early-disease and metastatic risks.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "M3",
+      "recordId": "secondary-brain-tumours",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "f67c5588b6f84bd7a3048c5114f515d3e5ec01ddecdaf2d1e9b54c08a44c442f",
+      "passageKey": "M3",
+      "passageSha256": "2aa39f228ed5475a8e9e6b65baefc303698848084abbac647e1f131e9810b3dd",
+      "excerpt": "Martin and colleagues' population-based study concerned invasive breast cancer diagnosed in 2010 to 2013 and brain metastases recorded at initial diagnosis, including subtype analyses. It was not a lifetime event study. To interpret any such estimate, retain imaging and clinical-record definitions, diagnosis and event dates, follow-up time, deaths, losses and any context-specific biopsy confirmation. Distinguish a diagnosis-time proportion, events per patient-time and cumulative incidence during a stated period. Referral patterns, missed asymptomatic disease, subtype definitions and incomplete follow-up can change what is observed. Historical cohorts cannot calibrate a modern individual forecast or establish a universal subtype ranking or screening interval.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "M5",
+      "recordId": "secondary-brain-tumours",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 4,
+      "fieldSha256": "f67c5588b6f84bd7a3048c5114f515d3e5ec01ddecdaf2d1e9b54c08a44c442f",
+      "passageKey": "M5",
+      "passageSha256": "fca443197ae1ac4a904b1063ba105e0c1b2ee1b9bba10e0eb48b9cd3afd2d74c",
+      "excerpt": "In a fictional cohort of 100 people with complete follow-up for two years from enrolment, 20 recur and five of those 20 have a brain event. The same five are 25% of those who recur and 5% of all enrolled people. Each person is counted once, with the five nested within the 20, not added as five more. These raw fractions assume complete observation; they are not competing-risk estimates. Restarting the clock at recurrence would ask a different question. Before applying a percentage, name the population, event, starting point, time window and follow-up method.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "M1",
+      "recordId": "secondary-brain-tumours",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "f67c5588b6f84bd7a3048c5114f515d3e5ec01ddecdaf2d1e9b54c08a44c442f",
+      "passageKey": "M1",
+      "passageSha256": "0fe28dd3a8e1cebf8af5da4a6c7151102b8e5cd991223dec63adb70a6c7564f5",
+      "excerpt": "A breast-cancer deposit in the brain remains metastatic breast cancer, not a new primary brain cancer. Parenchymal metastases involve brain tissue; leptomeningeal spread involves the thin tissue layers covering the brain and spinal cord. A study of CNS events may include both. Spread and successful growth require several biological steps. In Lockman's two mouse breast-cancer models, blood-tumour barrier permeability and drug uptake varied between and within metastases. This does not establish that every human brain deposit excludes every drug or that all drugs penetrate equally.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "M4",
+      "recordId": "secondary-brain-tumours",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "f67c5588b6f84bd7a3048c5114f515d3e5ec01ddecdaf2d1e9b54c08a44c442f",
+      "passageKey": "M4",
+      "passageSha256": "8d01e99b73e01d16997845fd6dacfc728ff42ff3ddbf44ea8b9e1ce2cf6e425f",
+      "excerpt": "Death can prevent a later brain event and is therefore a competing event, not ordinary loss to follow-up. Likewise, first brain recurrence differs from any brain involvement after other recurrence. A reported share of recurrences with brain involvement needs the original patient denominator before it can describe patient risk. A cohort association does not itself validate a personal calculator or show that scheduled earlier detection improves survival.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "O1",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "a78abc49ba3aa1dd79c28149176cafe5aa9fde38c0b4aee6386e269698fc7909",
+      "passageKey": "O1",
+      "passageSha256": "1370462c968e008f98df00bffdbb806e5be23e7f757bebab0dbe82b17f1c96b0",
+      "excerpt": "A few lit windows show what is detectable, not a census of every room. This analogy does not mean that every limited pattern conceals widespread disease. Synchronous metastases are detected near the initial diagnosis; metachronous metastases are detected later, with the interval defined by the author or protocol. Induced limited disease follows previously widespread disease and systemic treatment. Oligoprogression means a growing subset while other disease remains controlled during treatment. Limited residual or persistent disease means limited visible disease remains after treatment; specify whether it is stable or progressing. These labels are not universal synonyms.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "oligometastatic:summary:e9262606d89c",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "7c214b1c159e8ad05df11cbf90793fd5c39d5f1c74d26a619786bb357c4be2fe",
+      "excerpt": "Oligometastatic disease describes limited detected distant spread, under a specified clinical or study definition. It is a hypothesis that some limited patterns may be amenable to treatment directed at all visible sites; a few visible lesions do not prove a distinct biology or the absence of microscopic disease. Regional lymph nodes alone are not distant metastases.\n\nThe ESTRO-ASTRO consensus describes one to five lesions, with every site safely treatable, while acknowledging that there is no universally established maximum. A consensus definition is not proof of added benefit. Treatment decisions require the cancer setting, prior burden and treatment, comparator, endpoint, safety and the person's goals.",
+      "passageSha256": "e9262606d89c999ba710a9bdf7510431b6981e3a531621caba93abd1669a9b04",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "O5",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 4,
+      "fieldSha256": "a78abc49ba3aa1dd79c28149176cafe5aa9fde38c0b4aee6386e269698fc7909",
+      "passageKey": "O5",
+      "passageSha256": "e7e6358f27c0c2590158ae715e014ba6021735002554fb090175fafadf202468",
+      "excerpt": "Three fictional histories can each contain two lesions now: two newly detected metastases with no earlier distant disease, two residual lesions after treatment of many, or two growing sites amid many stable sites during therapy. The numeral counts a different subset in each history. Keep the earlier burden and dates rather than merging these groups. A response-selected group and a progression-selected group answer different questions; curative intent is a documented goal whose success needs long-term outcome measurement, not an inference from the current count.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "O4",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "a78abc49ba3aa1dd79c28149176cafe5aa9fde38c0b4aee6386e269698fc7909",
+      "passageKey": "O4",
+      "passageSha256": "3b01b467af99595fc0b7fcb5e83e95ea95247849772d8160929362aee15115bf",
+      "excerpt": "Classification uses the imaging and its coverage and sensitivity, lesion and organ counts, locations, sizes, dates, previous burden, systemic treatment and response or progression history. A biopsy may be needed to confirm a finding, but classification is not inherently a tumour-consuming molecular assay. Benign mimics, undetected lesions and missing earlier records can mislead. Keep a protocol's count, timing, primary-control and treatability requirements; five lesions is not a cure cutoff and a molecular result does not universally establish this state.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "O2",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "a78abc49ba3aa1dd79c28149176cafe5aa9fde38c0b4aee6386e269698fc7909",
+      "passageKey": "O2",
+      "passageSha256": "b0656d583e0293009aa188e5a9becbce40329e6b4fa2ff3997d58ad070b70198",
+      "excerpt": "The SABR-COMET randomised phase 2 study enrolled 99 selected patients with different primary cancers, including 18 with breast cancer, a controlled primary and one to five treatable metastases. Its extended follow-up found eight-year overall survival of 27.2% with SABR plus standard care versus 13.6% with standard care alone, with grade 2 or higher acute or late toxicity of 30.3% versus 9.1%. This mixed-cancer result is not a definitive TNBC treatment effect. Control of an irradiated site, delay in progression, survival and symptom relief are different outcomes.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "O3",
+      "recordId": "oligometastatic",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "a78abc49ba3aa1dd79c28149176cafe5aa9fde38c0b4aee6386e269698fc7909",
+      "passageKey": "O3",
+      "passageSha256": "e940badce8a03fd89cc2587919093e424733b6e849637a18e8140cce97ca0821",
+      "excerpt": "NRG-BR002 tested adding ablation to first-line systemic therapy in breast cancer with at most four metastases, controlled primary disease, at most 12 months of first-line therapy without progression, and all visible sites amenable to SBRT or resection. Of 129 enrolled patients, 125 were eligible for analysis and 79% had HR-positive/HER2-negative disease. Median progression-free survival was 23.0 months without ablation and 19.5 months with it; the hazard ratio was 0.92, with a 95% confidence interval of 0.57 to 1.47. Overall survival did not differ significantly and the study did not proceed to phase 3. This does not supply a definitive effect for every subtype or erase a separate symptom-relief goal.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "R1",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "39c90d6834b009f90aac6a3b2028bf220357cdc76f28bb629deac1a5c11c60ec",
+      "passageKey": "R1",
+      "passageSha256": "d48250ba8dc5dc1b7237c5727b39f2a08f8adbac635aa5b1a6a0947c7732384f",
+      "excerpt": "Dent and colleagues studied 1,601 women diagnosed with breast cancer in 1987 to 1997, including 180 with TNBC. Distant-recurrence risk in the TNBC group peaked around three years from diagnosis and then declined. This historical group pattern is not a modern percentage, a personal next-year probability or a deadline after which recurrence cannot occur. Stage, treatment and response affect whether a group is relevant.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "R2",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "39c90d6834b009f90aac6a3b2028bf220357cdc76f28bb629deac1a5c11c60ec",
+      "passageKey": "R2",
+      "passageSha256": "034bd2ea2b85b425823732e298fef8e465489a1a25152ade6ca93da08a283f06",
+      "excerpt": "Reddy and colleagues selected 873 stage I to III patients who were already disease-free five years after diagnosis. Their reported ten-year and fifteen-year recurrence-free intervals were 97% and 95%, measured from diagnosis within that selected group. The historical TNBC definition included some low-hormone-receptor-positive cancers. A fictional newly diagnosed patient cannot directly use those estimates as if selection at five disease-free years had already occurred. The landmark selects who is included; it does not make the endpoints or original clock interchangeable.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "R4",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "39c90d6834b009f90aac6a3b2028bf220357cdc76f28bb629deac1a5c11c60ec",
+      "passageKey": "R4",
+      "passageSha256": "64f8bacc4eb5d421c5318e5432293c5bf61d34063b8eacb9bb9161efb298701a",
+      "excerpt": "A recurrence table needs the population, confirmed event definition and date, starting clock, follow-up, deaths and losses, plus whether it records first recurrence, any later recurrence or several sites in one person. Diagnosis, surgery and randomisation are different starting points. Raw fractions, time-to-event estimates and estimates accounting for competing events are different outputs. A later risk can be lower without being zero; an observed peak is not an individual prediction.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "R3",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "39c90d6834b009f90aac6a3b2028bf220357cdc76f28bb629deac1a5c11c60ec",
+      "passageKey": "R3",
+      "passageSha256": "4bec4daeb5b5143aac96f7d8c2b0e8e4ea35a362d89f3b4fed1d210fb374dfce",
+      "excerpt": "Kennecke and colleagues studied early breast cancers diagnosed in 1986 to 1992 and kept basal-like and triple-negative nonbasal groups separate. Their relative brain and lung patterns compared with luminal A do not supply current absolute risks or a universal ranking of where recurrence will occur. Bone, lung, liver and brain are possible distant sites, not a prediction for one person. A share of recorded sites differs from risk among all original patients, and one person can contribute more than one site.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "R5",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 4,
+      "fieldSha256": "39c90d6834b009f90aac6a3b2028bf220357cdc76f28bb629deac1a5c11c60ec",
+      "passageKey": "R5",
+      "passageSha256": "ac012e3a9f85de986c37e0fac7c06d3dbcdbfcc64d3f5b936273d72e542eeaf2",
+      "excerpt": "Knowing a common site does not establish that a screening schedule saves lives. NCI's breast PDQ summarises older randomised follow-up trials in asymptomatic survivors of stages I to III disease: periodic bone scans, liver ultrasound, chest radiographs and liver-function tests did not improve survival or quality of life over routine examinations. These trials do not test every newer imaging or blood-test strategy, and they do not address ignoring new symptoms or findings. Prognosis and evidence for a surveillance strategy are separate questions.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "E1",
+      "recordId": "er-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "eb9b663c123fb8a14901655153d6a54a1df40e8420bc39b518ae2fc0e7874bd1",
+      "passageKey": "E1",
+      "passageSha256": "e3e73a4ad8eff4ac40ad3299244453dd1a7cc41670100d1e1b876e6943d6f8a9",
+      "excerpt": "Receptor presence is like having machinery able to receive a message; it does not show equal signalling in every cell or equal drug sensitivity. Oestrogen binding can influence gene programmes, while endocrine treatments interfere with hormone production or action. This differs from menopausal hormone replacement. ER is not the same observation as the cell-surface HER2 receptor, and clinical nuclear staining is not a statement that the protein can exist only in that location.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "er-status:summary:467d20d21095",
+      "recordId": "er-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "261cd70fe2cb42149a57331c73b445e2a8604c4ff9a489b453348df00e88d178",
+      "excerpt": "The oestrogen receptor is an intracellular protein involved in responses to oestrogen and regulation of gene expression. A clinical ER result measures receptor staining in identified tumour-cell nuclei, not the amount of oestrogen in blood or every downstream signal.\n\nThe ASCO/CAP invasive-breast guideline uses validated immunohistochemistry: at least 1% stained tumour-cell nuclei is positive, below 1% is negative, and 1% to 10% is reported as ER-low positive. These cancers are heterogeneous and can have features resembling ER-negative disease, but they remain ER-positive. Limited evidence suggests possible endocrine benefit, so the category supports consideration of endocrine treatment rather than a guaranteed response or a treatment mandate.",
+      "passageSha256": "467d20d2109500d4574241aeb6b2b704eed291134fe569e8042995c1798ec1cb",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "nucleus:tldr:c8dd6c9c7f3a",
+      "recordId": "nucleus",
+      "version": "proposal-breast-concepts-root",
+      "field": "tldr",
+      "fieldSha256": "35e0e4f5129b40e8f9628f9e0480e82d86d4af58a52d6ed7d46468f35254a0c5",
+      "excerpt": "The nucleus is a compartment enclosed by a membrane that holds chromosomes containing DNA.",
+      "passageSha256": "c8dd6c9c7f3ae3951a87e270aeef585e0388f59f1cb717e966c52cdee41d87e8",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "E2",
+      "recordId": "er-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "eb9b663c123fb8a14901655153d6a54a1df40e8420bc39b518ae2fc0e7874bd1",
+      "passageKey": "E2",
+      "passageSha256": "fb7ddf36729bfb67e4ee618288c67ae2eed7fe3b856ebe6a4c1e2aed1165bfaf",
+      "excerpt": "The measurement route is tissue, identification of invasive tumour cells, a validated nuclear stain, review of controls, percentage and intensity, then interpretation. Keep the specimen/block and collection context; IHC uses tissue sections. Percentage counts positive nuclei among the intended tumour cells, while intensity describes stain strength. Poor preservation, artefact or failed controls can prevent interpretation: uninterpretable does not mean negative. A bulk RNA result does not replace validated clinical IHC. ASCO/CAP recommends ER testing in DCIS to assess potential endocrine risk reduction, with PR optional there; invasive and in-situ contexts should be stated.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "E3",
+      "recordId": "er-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "eb9b663c123fb8a14901655153d6a54a1df40e8420bc39b518ae2fc0e7874bd1",
+      "passageKey": "E3",
+      "passageSha256": "082e19a828911ab06228155447efe00924867b6dd186de491f82e4361829b9ee",
+      "excerpt": "For a fictional invasive tumour with adequate controls, ER staining in 4% of tumour-cell nuclei is ER-low positive. It is not 4% predicted treatment benefit and is not rounded down to ER-negative because an RNA classifier says basal-like. Preserve the stain denominator, intensity and category alongside that separate expression result. If controls fail, resolve the testing problem before assigning a negative category. ER and PR results remain separate observations.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "P1",
+      "recordId": "pr-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "a0ce710543911d52d4124085bd42f3952f6fecd80135640d39886e9c21a12306",
+      "passageKey": "P1",
+      "passageSha256": "9c09e43b442887591cec49e788f5cc1d73aaa672571f4a159f9a133b86f5a7a9",
+      "excerpt": "PR can bind progesterone and regulate gene programmes, but finding protein in a stained nucleus is not a direct readout of all receptor activity. The ASCO/CAP guideline uses ER to predict potential endocrine benefit and describes PR chiefly as prognostic in ER-positive invasive cancer. A prognostic association and evidence of added benefit from a particular medicine are different questions.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "pr-status:summary:32fbe9cda28e",
+      "recordId": "pr-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "de7ffc02613f5196ce791d2b8ea875b5c87b48e2b6cd786bb30f00148365c740",
+      "excerpt": "The progesterone receptor is an intracellular hormone-response protein. Its tissue stain does not measure circulating progesterone or every interaction with ER signalling. In invasive breast cancer, the ASCO/CAP guideline uses at least 1% positive tumour-cell nuclei for PR positivity and below 1% for negativity; ER-low positive is an ER-specific reporting category.\n\nHR-positive is commonly used for ER-positive, PR-positive or both. Preserve the individual results: ER-positive/PR-negative is not hormone-receptor-negative or triple-negative. PR is primarily prognostic within ER-positive invasive disease. An unusual ER-negative/PR-positive combination should prompt review of the ER stain and controls, not an automatic inference about eligibility for endocrine treatment or a CDK4/6 inhibitor.",
+      "passageSha256": "32fbe9cda28e3d32888cb77aeef631ec26fc3c5283880cda6ec8c454565293e6",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "P2",
+      "recordId": "pr-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "a0ce710543911d52d4124085bd42f3952f6fecd80135640d39886e9c21a12306",
+      "passageKey": "P2",
+      "passageSha256": "39ae1823a2a8304f13a2acaaf41b7ad20c580c5b2c54c8764ae701a6563aaafb",
+      "excerpt": "Start with the identified tissue/lesion and invasive tumour-cell nuclei, then the validated stain, percentage, intensity, controls and final PR interpretation read beside ER. Sections are consumed by the assay. Record the specimen/block and context; preservation problems, scant assessable tumour or failed controls can limit interpretation. Percentage, intensity and composite IHC scores have different units. In-situ testing is a separate context, and no tissue-staining percentage is an individual recurrence or benefit probability.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "P3",
+      "recordId": "pr-status",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "a0ce710543911d52d4124085bd42f3952f6fecd80135640d39886e9c21a12306",
+      "passageKey": "P3",
+      "passageSha256": "32a56b5224cb092ba4a2e47349143d939616be0907d49f6b0733e1efea1c059d",
+      "excerpt": "In a fictional adequately controlled report, ER is 80% and PR is below 1%. The invasive cancer is ER-positive and PR-negative; PR does not cancel ER and the pair is not TNBC. These measurements do not alone choose a drug, quantify benefit or prescribe progesterone. Read each observation before asking the separate treatment question.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "HE4",
+      "recordId": "her2-positive",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "f2771c341e4f92bc58cabf96e49e8a083a75c142952ea7d94c3f26f46fd3ca76",
+      "passageKey": "HE4",
+      "passageSha256": "42232c3d85dbde6d61b9f46ab5d0ae77c5ad8e7520a9b66b957c0095cd2ff2ff",
+      "excerpt": "Read the measurement sequence as IHC pattern, ISH when indicated, integrated status, then a separate evidence and eligibility question. IHC 0 does not mean literally zero protein molecules. An ERBB2 mutation, amplification, RNA abundance, a HER2-enriched expression label and surface protein staining cannot stand in for one another. HER2-low staining can occur within receptor-defined TNBC. Method, setting and treatment-specific evidence remain necessary.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "her2-positive:summary:3ea16c51bc14",
+      "recordId": "her2-positive",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "6a5a92da30eddf64eb75403e92faac0bb9ea515d462bce40451c431358b40f46",
+      "excerpt": "Human epidermal growth factor receptor 2 (HER2) is a cell-surface receptor protein encoded by ERBB2. Gene amplification, protein abundance measured by immunohistochemistry and RNA expression are different observations. In invasive breast cancer, HER2 status integrates the IHC pattern and indicated in-situ hybridisation workup under the applicable guideline. IHC 2+ is equivocal, not half-positive or a completed negative result.\n\nA HER2-positive result and a HER2-enriched RNA subtype are not interchangeable. HER2-low or ultralow staining remains negative for overexpression/amplification in the relevant breast context, while some specified treatment settings use low expression to select an antibody-drug conjugate. A signalling receptor can also serve as a delivery address; neither the label nor one staining category proves pathway dependence, eligibility or individual drug benefit.",
+      "passageSha256": "3ea16c51bc148f7c3ebf317a94430e6800097c0cd0763787c5fae7efadd6c1fe",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "HE1",
+      "recordId": "her2-positive",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "f2771c341e4f92bc58cabf96e49e8a083a75c142952ea7d94c3f26f46fd3ca76",
+      "passageKey": "HE1",
+      "passageSha256": "7f6adc07e4c8f067b7d124bdb014cd166214ee1dfdca737c9d8d5624063605d0",
+      "excerpt": "The September 2026 CAP template distinguishes negative IHC 0 with no detected membrane staining from negative 0+ with faint, incomplete staining in at most 10% of tumour cells. IHC 1+ has faint incomplete staining in more than 10%. A common 2+ pattern is weak to moderate complete staining in more than 10%, but intense complete staining in at most 10% and some incomplete patterns also need workup. IHC 3+ requires intense complete membrane staining in more than 10% of a homogeneous contiguous invasive tumour-cell population. This abbreviated map does not replace the full rules for unusual patterns, artefacts and heterogeneity.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "HE2",
+      "recordId": "her2-positive",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "f2771c341e4f92bc58cabf96e49e8a083a75c142952ea7d94c3f26f46fd3ca76",
+      "passageKey": "HE2",
+      "passageSha256": "7618ede99b9e441b1855520b7a38718cc5008256a974206e5f5ae3141e8d54e6",
+      "excerpt": "Tissue IHC and ISH use sections from an identified specimen/block. IHC reports a membrane pattern category; ISH uses nucleic-acid probes in tissue to assess gene copies. A dual-probe ISH report retains counted cells, mean HER2 signals per cell, mean CEP17 signals per cell and the HER2/CEP17 ratio. In the Abbott PathVysion assay, CEP17 probes an alpha-satellite sequence in chromosome 17's centromeric region. The ratio is dimensionless and differs from the mean HER2 count; neither alone substitutes for the integrated algorithm, concurrent IHC and indicated recounting. Keep preservation, controls and distinct tumour populations visible in the interpretation.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "HE5",
+      "recordId": "her2-low",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "190b60bf6cb53646cb3f969518d7dc31d58751673680f4558c9ea840ebe54004",
+      "passageKey": "HE5",
+      "passageSha256": "9f0255416fba7bb7739a9b4b061210e1821df9aa367bc4440fa90dfaf0af8cd6",
+      "excerpt": "HER2-low generally means IHC 1+ or 2+/ISH-negative in the specified breast-cancer context. The faint incomplete pattern historically within IHC 0 and described as ultralow is separately recorded as negative 0+ in the September 2026 CAP template. Low expression is not the same as HER2 overexpression/amplification and is not necessarily one biological disease. Keep the actual test, integrated result, sample date and treatment setting; one score does not promise response to every antibody-drug conjugate.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "HE3",
+      "recordId": "her2-positive",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "f2771c341e4f92bc58cabf96e49e8a083a75c142952ea7d94c3f26f46fd3ca76",
+      "passageKey": "HE3",
+      "passageSha256": "93f91ace96d8076965518c8cf36eba631718b69ea8c8262e0b254b165b8eac67",
+      "excerpt": "A drawing of a few cells can illustrate complete versus incomplete membrane staining and intensity, but it is not a counted field or a scoring standard. In a fictional comparison, the same faint incomplete pattern in at most 10% versus more than 10% changes 0+ to 1+ under the specified template; it does not establish drug eligibility. For another fictional completed report, IHC 2+, ratio 1.8, mean HER2 3.5 signals per cell and an integrated ISH-negative finding fit the HER2-negative, low-expression range. The ratio is not 1.8 copies and the example is not a complete algorithm or a medicine decision.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "S1",
+      "recordId": "basal-like",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "5c270d8a93175f3fc04d89ae24a0f87cd1e329885f4787d54786ccf126b0df67",
+      "passageKey": "S1",
+      "passageSha256": "1bb2ef12d397d5f8271f0a1c594fba0fcd46f6c2d113b00c465030a691064c73",
+      "excerpt": "Basal-marker immunohistochemistry provides contextual protein evidence, not a stand-alone subtype from ribonucleic acid (RNA) or an exact lineage trace. SOX10 is the gene symbol for SRY-box transcription factor 10; the encoded protein is a transcription factor whose tissue assay commonly assesses nuclear signal. CK5/6 denotes cytokeratins 5 and 6, epithelial structural proteins, while EGFR means epidermal growth factor receptor and is also called HER1. Nielsen and colleagues evaluated an ER, HER2, CK5/6 and EGFR protein surrogate against expression-defined basal-like cancers and in a historical tissue series. A specified research panel is not equivalent to one marker reproducing a full RNA classifier.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "S2",
+      "recordId": "basal-like",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "5c270d8a93175f3fc04d89ae24a0f87cd1e329885f4787d54786ccf126b0df67",
+      "passageKey": "S2",
+      "passageSha256": "259fa302dbe7e838cbcaf34ae5c38cf5803617d02ecbf6658d4821652e896353",
+      "excerpt": "Cimino-Mathews and colleagues found SOX10 nuclear staining in normal myoepithelial cells and in a subset of selected triple-negative and metaplastic breast carcinomas. Their series had 100 invasive cancers, with 38 of 58 basal-like, unclassified TNBC or metaplastic cases staining, compared with two of 42 luminal/HER2 cases. These selected-series frequencies are not universal prevalence or diagnostic sensitivity. SOX10 also occurs in other tumours, including melanoma and peripheral nerve-sheath tumours. Positive staining alone does not prove breast origin, and a negative result does not exclude breast carcinoma.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "S3",
+      "recordId": "basal-like",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 4,
+      "fieldSha256": "5c270d8a93175f3fc04d89ae24a0f87cd1e329885f4787d54786ccf126b0df67",
+      "passageKey": "S3",
+      "passageSha256": "6582640ee42cb35f57682971c669dc193bdaa63a0208056cbeff39f59823dbf6",
+      "excerpt": "Ask which cells carry the signal before interpreting a stain. Two fictional sketches can show SOX10-positive nuclei in benign myoepithelial cells around a duct and in a separate malignant-cell region. They are illustrations, not micrographs, positivity cutoffs or proof from anatomy alone. In a fictional axillary SOX10-positive mass, identify the intended cells and localisation, morphology, other markers and clinical context before assigning an origin. SOX10 does not by itself establish breast origin, basal-like RNA, Lehmann BL1, ancestry, treatment dependence or vaccine benefit.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "S4",
+      "recordId": "basal-like",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 5,
+      "fieldSha256": "5c270d8a93175f3fc04d89ae24a0f87cd1e329885f4787d54786ccf126b0df67",
+      "passageKey": "S4",
+      "passageSha256": "2ee37da95756665d72d66ebbbeba8e4351ffd8a82864c09fcafdd905f3084272",
+      "excerpt": "A stain report needs the tissue/lesion and selected cells, fixation, antibody and protocol, nuclear or other expected localisation, scoring rule, presence, intensity and percentage among the intended cells. Appropriate positive and negative controls, including interpretable internal tissue controls, are needed. Preservation, scant tumour, background and staining of neighbouring benign cells can limit interpretation. Protein presence is not direct transcription-factor activity, an RNA classifier, lineage tracing or a drug-response assay. The percentage of stained tumour cells is not the probability that a treatment will work. Associations with outcome in a tissue cohort do not establish added benefit from a treatment.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "T1",
+      "recordId": "tnbc",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 10,
+      "fieldSha256": "3db1d7271a633497cbe6fd6bcc3f72fbad4cc47912e3ae8975d26b500373aa7c",
+      "passageKey": "T1",
+      "passageSha256": "902ffaae1cd5fd6327176082e920d33921185d193db360d570d049f9c1cfad9f",
+      "excerpt": "TNBC is a receptor-test category requiring completed negative ER, PR and HER2 assessments on the relevant invasive tumour. ER and PR below 1% are negative under the standard breast guideline; ER 1% to 10% is ER-low positive. A pending, unknown or uninterpretable result is not negative. HER2 IHC 2+ needs its indicated workup; IHC and ISH measure protein pattern and gene copies respectively. The three completed results are independent observations assembled into a category, not a causal chain or a complete portrait of tumour biology.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "T4",
+      "recordId": "tnbc",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 13,
+      "fieldSha256": "3db1d7271a633497cbe6fd6bcc3f72fbad4cc47912e3ae8975d26b500373aa7c",
+      "passageKey": "T4",
+      "passageSha256": "c1b63eca4caade226d663c0e6f9f5d83cd4d18729356d8a1119183a8f3eef6e4",
+      "excerpt": "In a fictional adequately controlled report, ER below 1%, PR below 1% and completed HER2 1+ can be both TNBC and HER2-low. Change only ER to 4% and standard TNBC no longer applies: the result is ER-low positive even if a separate RNA classifier reports basal-like. A basal-marker stain, PAM50 or TNBCtype label does not change those receptor measurements. Neither classification alone supplies stage, grade, immune activity, drug eligibility or an individual treatment-benefit probability.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "T3",
+      "recordId": "tnbc",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 12,
+      "fieldSha256": "3db1d7271a633497cbe6fd6bcc3f72fbad4cc47912e3ae8975d26b500373aa7c",
+      "passageKey": "T3",
+      "passageSha256": "6f670caff51ab8a14563ff8e5bfcf9d0c856ea5afa8399885d766cea771cca8d",
+      "excerpt": "Keep specimen/block, site and collection date, the individual ER and PR percentages and interpretations, HER2 IHC and any completed ISH result, controls and adequate invasive tumour. Testing consumes sections. An unresolved test needs resolution rather than a negative label. A general RNA classifier cannot replace these clinical assays, and trial-entry thresholds may differ from standard pathology categories. Results from different sites or dates should be compared with that context rather than selecting three negatives from different specimens to invent a single TNBC result.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "T2",
+      "recordId": "tnbc",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 11,
+      "fieldSha256": "3db1d7271a633497cbe6fd6bcc3f72fbad4cc47912e3ae8975d26b500373aa7c",
+      "passageKey": "T2",
+      "passageSha256": "7d19ba52df51d7b91897c4778c9546fc1c972bd22586f80fd164d41f9695c4dc",
+      "excerpt": "NCI describes TNBC as about 15% of breast cancers and more common among younger women, Black women than White women, and people with certain harmful BRCA variants. These are population associations, not proof of origin or an individual forecast. Its tendency toward faster growth or recurrence does not give every tumour the same course. Clinical TNBC is generally an invasive-cancer classification; a description that it is rarely stage 0 does not make an in-situ lesion equivalent to invasive TNBC. Receptor negativity does not mean no treatment targets: some settings use chemotherapy or immunotherapy, and some HER2-low cancers can meet a specified ADC indication.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "T5",
+      "recordId": "tnbc",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 14,
+      "fieldSha256": "3db1d7271a633497cbe6fd6bcc3f72fbad4cc47912e3ae8975d26b500373aa7c",
+      "passageKey": "T5",
+      "passageSha256": "a313e5b2da4f1b827e523eb1ec4700776da75e9f1e5292a3ca89a166c278560c",
+      "excerpt": "KEYNOTE-522 studied previously untreated stage II or III TNBC. Pembrolizumab with neoadjuvant chemotherapy followed by adjuvant pembrolizumab improved overall survival compared with the chemotherapy/placebo regimen in Schmid and colleagues' final report; overall survival was a secondary endpoint. This is evidence for the tested regimen and population. It does not show that every early TNBC has the same benefit or isolate the contribution of each treatment phase.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "pam50:summary:7dccb96f08a7",
+      "recordId": "pam50",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "1bd2af965bd12c8ad415c515dcbccab5af124941ce0ce0e666b0302533e2d7e5",
+      "excerpt": "PAM50 is a 50-gene expression classifier that compares a sample's pattern across genes with reference patterns. Its development used microarray and quantitative reverse-transcription PCR data. An intrinsic subtype is a classification output, not a percentage of tumour cells, an inherited trait or proof of the tumour's exact cell of origin.\n\nThe core labels are luminal A, luminal B, HER2-enriched and basal-like; research workflows can also include a normal-like reference category. Luminal A and B describe relative luminal/proliferation patterns. HER2-enriched is not the same measurement as HER2 IHC or gene amplification, and basal-like is not synonymous with receptor-defined TNBC or Lehmann BL1. One highly expressed gene or an IHC surrogate does not reproduce the full classifier.",
+      "passageSha256": "7dccb96f08a7621047d56a437a73bf2d74a9e8225e9b72d2023cd8ec21d382aa",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "tnbc-molecular-subtyping:summary:e301732401e0",
+      "recordId": "tnbc-molecular-subtyping",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "49ceee54d57fe03bab20b7bc1babd1def14f1ecf5b0113eadd3963923cca0171",
+      "excerpt": "Lehmann's original TNBCtype system described six expression groups: BL1, BL2, IM, M, MSL and LAR. The 2016 TNBCtype-4 refinement retained BL1, BL2, M and LAR as tumour-focused profiles after evaluating immune and stromal contributions to the IM and MSL signals. Removed-profile samples were reassigned to their second-highest correlated tumour-profile centroid, not automatically to M.\n\nBL1 is associated with cell-cycle/DNA-damage-response programmes; BL2 with growth-factor and myoepithelial-associated expression; M with motility and differentiation; and LAR with luminal and androgen-related transcription. These are classifier associations, not proof of one cause, functional repair deficiency or dependence on an inhibitor.",
+      "passageSha256": "e301732401e04fe3c1ad6f0bd7079710daf5fc1c74828a6cbe3419164b523604",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "C2",
+      "recordId": "curative-intent",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 1,
+      "fieldSha256": "191f127e316607573473dda32b78d6614090c144467454228eb6cb8393a73215",
+      "passageKey": "C2",
+      "passageSha256": "a8697b41069e1a46750351bf1aa614fef5f426cce762c5495a1be82ee78bee81",
+      "excerpt": "For metastatic breast cancer the usual goals are control, longer life and symptom relief, but this statement is not a rule for every metastatic cancer or every selected clinical situation. Chemotherapy can contribute to cure, lower recurrence risk, slow growth or relieve symptoms. Shrinkage alone does not show a greater chance of durable cure. A proposed change needs evidence for the actual decision, along with safety and the person's priorities.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "C3",
+      "recordId": "curative-intent",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 2,
+      "fieldSha256": "191f127e316607573473dda32b78d6614090c144467454228eb6cb8393a73215",
+      "passageKey": "C3",
+      "passageSha256": "b5e91f02c5da1b0f0558c3b43bb3d6cf3a8576e88a96d6ff5bd007f145928c72",
+      "excerpt": "Assess effects using the relevant imaging, pathology, symptoms and defined recurrence or survival endpoints, with their clocks and duration of follow-up. A negative scan, pathological complete response or a fixed number of years does not guarantee that every cancer cell is absent. A recurrence does not prove every earlier treatment lacked benefit. Remission describes an observed decrease or disappearance of signs and symptoms. NCI distinguishes it, including complete remission, from the stronger claim that cancer will never return; observed group outcomes do not determine one person's future.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "curative-intent:summary:d5b6edf8619d",
+      "recordId": "curative-intent",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "4279fc439693c12c30d0c59bc5d47450686c99142e436fd236fd0cb33916bc9d",
+      "excerpt": "Curative intent is a documented aim of durable cancer elimination, not a laboratory result or an individual probability of success. A destination analogy describes a goal; it does not mean that effort determines the outcome. Type and extent of disease, evidence, feasible and safe options, and personal priorities shape the plan.\n\nA treatment can aim to cure, reduce recurrence, control growth or relieve symptoms. Palliative anticancer intent and palliative care are different: symptom, comfort and quality-of-life support can accompany treatment aimed at cure. The number of visits, intensity and side effects do not identify the goal. Complete remission describes the absence of detectable signs under the assessment used, not proof that cancer can never return.",
+      "passageSha256": "d5b6edf8619d170af15686de6f446b13c7c00909c0399aef84076eaf1f665aa9",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "C4",
+      "recordId": "curative-intent",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 3,
+      "fieldSha256": "191f127e316607573473dda32b78d6614090c144467454228eb6cb8393a73215",
+      "passageKey": "C4",
+      "passageSha256": "9dc9ed06bd59fd76d7757dd661cbf6d5703f3a4d918387db7416d4b8f14dbf0c",
+      "excerpt": "Consider a fictional person who has surgery, no visible disease afterwards, planned adjuvant treatment and support for nausea. Nausea care or a palliative-care consultation does not by itself change a documented curative goal. Palliative care can begin during curative treatment and addresses symptoms, function and quality of life; it is not synonymous with hospice or with abandoning anticancer treatment. Ask separately what the plan aims to do and what has actually been measured.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "C1",
+      "recordId": "curative-intent",
+      "version": "proposal-breast-concepts-root",
+      "field": "notes",
+      "index": 0,
+      "fieldSha256": "191f127e316607573473dda32b78d6614090c144467454228eb6cb8393a73215",
+      "passageKey": "C1",
+      "passageSha256": "62c91d9e4edb7cf96f028f9b47465259be291875f12653691fec2dd9b22373f7",
+      "excerpt": "Surgery treats selected tissue, radiotherapy a planned volume and systemic therapy reaches sites through the body, without ensuring equal exposure or sensitivity everywhere. Systemic treatment can aim at cancer too small to detect. In nonmetastatic breast cancer, local and systemic treatments can contribute to a curative plan. Surgery and radiotherapy can also aim at disease control or symptom relief; location alone does not establish intent. Neoadjuvant treatment comes before the main treatment and adjuvant treatment after it; recurrence-reduction treatment can follow surgery when no tumour is visible. Sequence depends on the plan rather than a universal order.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "remission:summary:2618d1b982c0",
+      "recordId": "remission",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "b3e7c6bc4787c5c571e5bb94582b78d8a5e01b851bd9d781a6c5d0993310a8f8",
+      "excerpt": "Remission means a decrease or disappearance of signs and symptoms of cancer. In partial remission, some but not all have disappeared; in complete remission, all have disappeared, although cancer may still remain in the body. The assessment and its criteria depend on the cancer and the test or clinical context. Remission describes what is observed, rather than establishing that every cancer cell has been eliminated or that cancer will never return. The term itself supplies no universal timetable for declaring cure.",
+      "passageSha256": "2618d1b982c0d5e01b7fd606c70a6549bb12801db2a3d723b3273fb2ad963299",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    },
+    {
+      "key": "relapse-recurrence:summary:fec7353d050a",
+      "recordId": "relapse-recurrence",
+      "version": "proposal-breast-concepts-root",
+      "field": "summary",
+      "fieldSha256": "14f05c1850cedd55a38a46055ef1d9355460d0b0a664305c97d2ae118d94a347",
+      "excerpt": "Recurrence is cancer becoming detectable again after a period without detected disease. In breast cancer it can be local in the breast or chest wall, regional in nearby nodes, or distant in other organs; an unrelated second primary is a different event. Surviving cells can contribute to recurrence, but timing alone does not prove a specific resistance or dormancy mechanism.\n\nInterpret the interval with the starting event, stage, treatments, response and follow-up. A blood test may detect molecular evidence in a particular study before clinical recurrence, but there is no universal lead time or automatic proof that acting on it improves outcomes. Care depends on the confirmed disease and its setting.",
+      "passageSha256": "fec7353d050aa3e404e6431a07465f864726e3ed0e8dfd5d29c28cc462606b28",
+      "scope": "Only this exact excerpt is used; no recertification of other catalogue claims.",
+      "actualReaderContainment": true
+    }
+  ],
+  "requirements": [
+    {
+      "id": "brcaness:B001",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B002",
+      "evidenceKeys": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "brcaness:B003",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B004",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B005",
+      "evidenceKeys": [
+        "B2"
+      ]
+    },
+    {
+      "id": "brcaness:B006",
+      "evidenceKeys": [
+        "B3"
+      ]
+    },
+    {
+      "id": "brcaness:B007",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B008",
+      "evidenceKeys": [
+        "B2",
+        "B3"
+      ]
+    },
+    {
+      "id": "brcaness:B009",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B010",
+      "evidenceKeys": [
+        "B4",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B011",
+      "evidenceKeys": [
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B012",
+      "evidenceKeys": [
+        "B2",
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B013",
+      "evidenceKeys": [
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B014",
+      "evidenceKeys": [
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B015",
+      "evidenceKeys": [
+        "B3",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B016",
+      "evidenceKeys": [
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B017",
+      "evidenceKeys": [
+        "B4"
+      ]
+    },
+    {
+      "id": "brcaness:B018",
+      "evidenceKeys": [
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B019",
+      "evidenceKeys": [
+        "B1",
+        "B2",
+        "B3",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B020",
+      "evidenceKeys": [
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B021",
+      "evidenceKeys": [
+        "B2",
+        "B3",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B022",
+      "evidenceKeys": [
+        "B2",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B023",
+      "evidenceKeys": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "id": "germline-testing:B001",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74",
+        "germline-vs-somatic:summary:cfea07f9d9cc"
+      ]
+    },
+    {
+      "id": "germline-testing:B002",
+      "evidenceKeys": [
+        "G2",
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B003",
+      "evidenceKeys": [
+        "G3",
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B004",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B005",
+      "evidenceKeys": [
+        "G2"
+      ]
+    },
+    {
+      "id": "germline-testing:B006",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B007",
+      "evidenceKeys": [
+        "G2",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B008",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B009",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B010",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B011",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B012",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B013",
+      "evidenceKeys": [
+        "G4",
+        "H3"
+      ]
+    },
+    {
+      "id": "germline-testing:B014",
+      "evidenceKeys": [
+        "G3",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B015",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B016",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B017",
+      "evidenceKeys": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B018",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B019",
+      "evidenceKeys": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B020",
+      "evidenceKeys": [
+        "G4"
+      ]
+    },
+    {
+      "id": "germline-testing:B021",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B022",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B023",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B024",
+      "evidenceKeys": [
+        "G2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B001",
+      "evidenceKeys": [
+        "H1"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B002",
+      "evidenceKeys": [
+        "H1"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B003",
+      "evidenceKeys": [
+        "H1",
+        "palb2:summary:98e357ad9040",
+        "homologous-recombination-repair:summary:a111615df73b",
+        "gbrca-mutation:summary:b8ebabe7f0c7"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B004",
+      "evidenceKeys": [
+        "H1",
+        "H3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B005",
+      "evidenceKeys": [
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B006",
+      "evidenceKeys": [
+        "G1",
+        "H2",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B007",
+      "evidenceKeys": [
+        "G1",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B008",
+      "evidenceKeys": [
+        "G4",
+        "H1",
+        "H2",
+        "H3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B009",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B010",
+      "evidenceKeys": [
+        "G3",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B011",
+      "evidenceKeys": [
+        "G3",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B012",
+      "evidenceKeys": [
+        "G2",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B013",
+      "evidenceKeys": [
+        "G4",
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B014",
+      "evidenceKeys": [
+        "G1",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B015",
+      "evidenceKeys": [
+        "G3",
+        "G4",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B016",
+      "evidenceKeys": [
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B017",
+      "evidenceKeys": [
+        "G1",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B018",
+      "evidenceKeys": [
+        "H1",
+        "H4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B001",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B002",
+      "evidenceKeys": [
+        "M1"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B003",
+      "evidenceKeys": [
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B004",
+      "evidenceKeys": [
+        "M1"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B005",
+      "evidenceKeys": [
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B006",
+      "evidenceKeys": [
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B007",
+      "evidenceKeys": [
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B008",
+      "evidenceKeys": [
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B009",
+      "evidenceKeys": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B010",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B011",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B012",
+      "evidenceKeys": [
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B013",
+      "evidenceKeys": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B014",
+      "evidenceKeys": [
+        "M2",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B015",
+      "evidenceKeys": [
+        "M2",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B016",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B017",
+      "evidenceKeys": [
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B018",
+      "evidenceKeys": [
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B019",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B020",
+      "evidenceKeys": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B001",
+      "evidenceKeys": [
+        "O1",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B002",
+      "evidenceKeys": [
+        "O1"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B003",
+      "evidenceKeys": [
+        "O1",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B004",
+      "evidenceKeys": [
+        "O1",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B005",
+      "evidenceKeys": [
+        "O1"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B006",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B007",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B008",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B009",
+      "evidenceKeys": [
+        "O1",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B010",
+      "evidenceKeys": [
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B011",
+      "evidenceKeys": [
+        "O2"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B012",
+      "evidenceKeys": [
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B013",
+      "evidenceKeys": [
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B014",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B015",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B016",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B017",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B018",
+      "evidenceKeys": [
+        "O4",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B019",
+      "evidenceKeys": [
+        "O1",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B020",
+      "evidenceKeys": [
+        "O2",
+        "O3",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B021",
+      "evidenceKeys": [
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B022",
+      "evidenceKeys": [
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B023",
+      "evidenceKeys": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B001",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B002",
+      "evidenceKeys": [
+        "R1"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B003",
+      "evidenceKeys": [
+        "R1"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B004",
+      "evidenceKeys": [
+        "R2"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B005",
+      "evidenceKeys": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B006",
+      "evidenceKeys": [
+        "R3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B007",
+      "evidenceKeys": [
+        "R3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B008",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B009",
+      "evidenceKeys": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B010",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B011",
+      "evidenceKeys": [
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B012",
+      "evidenceKeys": [
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B013",
+      "evidenceKeys": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B014",
+      "evidenceKeys": [
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B015",
+      "evidenceKeys": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B016",
+      "evidenceKeys": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B017",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B001",
+      "evidenceKeys": [
+        "E1",
+        "er-status:summary:467d20d21095",
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B002",
+      "evidenceKeys": [
+        "E1"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B003",
+      "evidenceKeys": [
+        "E1"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B004",
+      "evidenceKeys": [
+        "E2",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B005",
+      "evidenceKeys": [
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B006",
+      "evidenceKeys": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B007",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B008",
+      "evidenceKeys": [
+        "E1",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B009",
+      "evidenceKeys": [
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B010",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B011",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B012",
+      "evidenceKeys": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B013",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B014",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B015",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B016",
+      "evidenceKeys": [
+        "E1",
+        "E2",
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B017",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B018",
+      "evidenceKeys": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B001",
+      "evidenceKeys": [
+        "P1",
+        "pr-status:summary:32fbe9cda28e",
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B002",
+      "evidenceKeys": [
+        "P1"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B003",
+      "evidenceKeys": [
+        "P1"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B004",
+      "evidenceKeys": [
+        "P1",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B005",
+      "evidenceKeys": [
+        "P2",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B006",
+      "evidenceKeys": [
+        "P2",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B007",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B008",
+      "evidenceKeys": [
+        "P1",
+        "P3",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B009",
+      "evidenceKeys": [
+        "P3",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B010",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B011",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B012",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B013",
+      "evidenceKeys": [
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B014",
+      "evidenceKeys": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B015",
+      "evidenceKeys": [
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B016",
+      "evidenceKeys": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "her2:B001",
+      "evidenceKeys": [
+        "HE4",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B002",
+      "evidenceKeys": [
+        "HE4",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B003",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B004",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B005",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B006",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B007",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B008",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B009",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B010",
+      "evidenceKeys": [
+        "HE4",
+        "HE5",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B011",
+      "evidenceKeys": [
+        "HE1",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B012",
+      "evidenceKeys": [
+        "HE3",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B013",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B014",
+      "evidenceKeys": [
+        "HE2"
+      ]
+    },
+    {
+      "id": "her2:B015",
+      "evidenceKeys": [
+        "HE2",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B016",
+      "evidenceKeys": [
+        "HE2",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B017",
+      "evidenceKeys": [
+        "HE2"
+      ]
+    },
+    {
+      "id": "her2:B018",
+      "evidenceKeys": [
+        "HE2",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B019",
+      "evidenceKeys": [
+        "HE1",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B020",
+      "evidenceKeys": [
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B021",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "HE3",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B022",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B023",
+      "evidenceKeys": [
+        "HE2",
+        "HE3",
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B024",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B001",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B002",
+      "evidenceKeys": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B003",
+      "evidenceKeys": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B004",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B005",
+      "evidenceKeys": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B006",
+      "evidenceKeys": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B007",
+      "evidenceKeys": [
+        "S1"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B008",
+      "evidenceKeys": [
+        "S1"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B009",
+      "evidenceKeys": [
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B010",
+      "evidenceKeys": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B011",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B012",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B013",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B014",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B015",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B016",
+      "evidenceKeys": [
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B017",
+      "evidenceKeys": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B018",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "id": "tnbc:B001",
+      "evidenceKeys": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B002",
+      "evidenceKeys": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B003",
+      "evidenceKeys": [
+        "HE1",
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B004",
+      "evidenceKeys": [
+        "HE1",
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B005",
+      "evidenceKeys": [
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B006",
+      "evidenceKeys": [
+        "T1",
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B007",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B008",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B009",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B010",
+      "evidenceKeys": [
+        "T2",
+        "T5"
+      ]
+    },
+    {
+      "id": "tnbc:B011",
+      "evidenceKeys": [
+        "T4",
+        "pam50:summary:7dccb96f08a7",
+        "tnbc-molecular-subtyping:summary:e301732401e0"
+      ]
+    },
+    {
+      "id": "tnbc:B012",
+      "evidenceKeys": [
+        "T1",
+        "T2",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B013",
+      "evidenceKeys": [
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B014",
+      "evidenceKeys": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B015",
+      "evidenceKeys": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B016",
+      "evidenceKeys": [
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B017",
+      "evidenceKeys": [
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B018",
+      "evidenceKeys": [
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B019",
+      "evidenceKeys": [
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B020",
+      "evidenceKeys": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "id": "curative-intent:B001",
+      "evidenceKeys": [
+        "C2",
+        "C3",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B002",
+      "evidenceKeys": [
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B003",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B004",
+      "evidenceKeys": [
+        "C1"
+      ]
+    },
+    {
+      "id": "curative-intent:B005",
+      "evidenceKeys": [
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B006",
+      "evidenceKeys": [
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B007",
+      "evidenceKeys": [
+        "C2"
+      ]
+    },
+    {
+      "id": "curative-intent:B008",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B009",
+      "evidenceKeys": [
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B010",
+      "evidenceKeys": [
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "id": "curative-intent:B011",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B012",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "curative-intent:summary:d5b6edf8619d",
+        "remission:summary:2618d1b982c0"
+      ]
+    },
+    {
+      "id": "curative-intent:B013",
+      "evidenceKeys": [
+        "C3"
+      ]
+    },
+    {
+      "id": "curative-intent:B014",
+      "evidenceKeys": [
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B015",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "remission:summary:2618d1b982c0"
+      ]
+    },
+    {
+      "id": "curative-intent:B016",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    }
+  ],
+  "sourceBlockDispositionsFile": "source-block-acceptance.json",
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "independentExpertOrLearnerAcceptance": false
+}

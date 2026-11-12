@@ -1,0 +1,41 @@
+{
+  "newGlobalAdjacentConcepts": 0,
+  "resolvedExistingFinding": {
+    "group": "study-analysis-population-and-version",
+    "pointId": "itt-retained-summary-context",
+    "before": {
+      "id": "itt-retained-summary-context",
+      "requirement": "Recheck the retained intention-to-treat summary against primary statistical guidance: superiority/non-inferiority scope, modified ITT, evaluable and safety populations, categorical inflation claims and the assertion about default analyses across OnCo trial/drug pages. The new guide comparison uses only the definition and explicit denominator distinctions; it does not certify those broader baseline assertions.",
+      "status": "gap",
+      "evidence": [],
+      "remaining": [
+        "Recheck the retained intention-to-treat summary against primary statistical guidance: superiority/non-inferiority scope, modified ITT, evaluable and safety populations, categorical inflation claims and the assertion about default analyses across OnCo trial/drug pages. The new guide comparison uses only the definition and explicit denominator distinctions; it does not certify those broader baseline assertions."
+      ]
+    },
+    "after": {
+      "id": "itt-retained-summary-context",
+      "requirement": "Recheck the retained intention-to-treat summary against primary statistical guidance: superiority/non-inferiority scope, modified ITT, evaluable and safety populations, categorical inflation claims and the assertion about default analyses across OnCo trial/drug pages. The new guide comparison uses only the definition and explicit denominator distinctions; it does not certify those broader baseline assertions.",
+      "status": "covered-draft",
+      "evidence": [
+        {
+          "recordId": "intention-to-treat",
+          "version": "proposal-evidence-reading-guides-root",
+          "field": "summary",
+          "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+          "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+        },
+        {
+          "recordId": "intention-to-treat",
+          "version": "proposal-evidence-reading-guides-root",
+          "field": "notes",
+          "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+          "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+        }
+      ],
+      "remaining": []
+    }
+  },
+  "sourceOnlyRemainingClause": "5-013: exact I-SPY2 chemotherapy-control methods; not a new adjacent concept or adopted claim.",
+  "frozenLiteratureOccurrencesUnchanged": 917,
+  "newElicitQuestionsOrReports": 0
+}

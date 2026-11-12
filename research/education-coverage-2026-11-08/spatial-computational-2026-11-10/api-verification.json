@@ -1,0 +1,1605 @@
+{
+  "phases": [
+    {
+      "phase": "root",
+      "canonicalOwners": 11,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 106,
+      "generation": [
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 30.03
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.82
+        },
+        {
+          "phase": "root",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.3
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "foundation-models::definition-representation",
+          "owner": "foundation-model",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::transfer-finetune-zeroshot",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::pretraining-overlap",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::performance-scoped",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::labels-not-synonyms",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::failure-modes",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::define-task",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::dataset-roles",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::dataset-roles",
+          "owner": "cross-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::leakage-independent-units",
+          "owner": "data-leakage",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::leakage-independent-units",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::split-questions",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::split-questions",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::baselines-calibration",
+          "owner": "train-test-discipline",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::worked-20-donors",
+          "owner": "train-test-discipline",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::figure-held-out",
+          "owner": "train-test-discipline",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::layers-and-copies",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::evidence-record-pairing",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::measured-vs-imputed",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::factor-models",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::batch-confounding",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::patient-level-splits",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::worked-target-q",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::figure-reports-raster",
+          "owner": "multi-omic-integration",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::figure-specimen-context",
+          "owner": "multi-omic-integration",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::definition",
+          "owner": "overfitting",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::many-features-few-patients",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::three-habits",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::michiels-evidence",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::venet-evidence",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::defence",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::cv-vs-external",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::exact-finding-transcript",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::exact-finding-transcript",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::annotation-not-effect",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::task-specific-scores",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::tool-non-independence",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::clingen-scope",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::clingen-scope",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::somatic-interpretation",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::worked-splice-score",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::figure-two-transcripts",
+          "owner": "variant-effect-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::task-defines-output",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::virtual-perturbation",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::heldout-claims",
+          "owner": "virtual-cell-models",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::portability",
+          "owner": "virtual-cell-models",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::baseline-benchmark",
+          "owner": "virtual-cell-models",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::predicted-not-measured",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::figure-missing-vs-unseen",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::bottom-up",
+          "owner": "mass-spec-proteome",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::bottom-up",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::protein-inference",
+          "owner": "mass-spec-proteome",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::protein-inference",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::fdr-set-level",
+          "owner": "mass-spec-proteome",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::relative-vs-absolute",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::bulk-extract-limits",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::proteogenomic-claim",
+          "owner": "mass-spec-proteome",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::figure-peptide-inference",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::cyclic-not-simultaneous",
+          "owner": "multiplex-immunofluorescence",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::cyclic-not-simultaneous",
+          "owner": "multiplex-immunofluorescence",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::phenotype-is-panel-based",
+          "owner": "multiplex-immunofluorescence",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::denominators-distances",
+          "owner": "multiplex-immunofluorescence",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::proximity-not-recognition",
+          "owner": "multiplex-immunofluorescence",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::validation-scope",
+          "owner": "multiplex-immunofluorescence",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::virtual-mif",
+          "owner": "multiplex-immunofluorescence",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::worked-t-cell-neighbour",
+          "owner": "multiplex-immunofluorescence",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::worked-t-cell-neighbour",
+          "owner": "multiplex-immunofluorescence",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::figure-two-rulers",
+          "owner": "multiplex-immunofluorescence",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::three-strategies",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::capture-unit-not-cell",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::roi-numbers",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::targeted-panel",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::segmentation-assignment",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::imputation",
+          "owner": "spatial-transcriptomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::adjacent-sections",
+          "owner": "spatial-transcriptomics",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::figure-four-layers",
+          "owner": "spatial-transcriptomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::worked-masked-rna-breast",
+          "owner": "foundation-model",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::try-it-receptor-peptide",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::try-it-imputed-r",
+          "owner": "spatial-transcriptomics",
+          "field": "limitations",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::worked-50-gene",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::worked-50-gene",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::try-it-fill-rna",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::try-it-method-ab",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::try-it-two-reports",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::worked-intervention-split",
+          "owner": "train-test-discipline",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::correlation-not-dependency",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::integration-outputs-benefit",
+          "owner": "multi-omic-integration",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::bias-vs-overfitting",
+          "owner": "overfitting",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "overfitting::significant-not-useful",
+          "owner": "overfitting",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::evidence-gaps-differ",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::no-prediction-not-benign",
+          "owner": "variant-effect-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::prioritisation-not-selection",
+          "owner": "virtual-cell-models",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::prioritisation-not-selection",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::worked-new-tissue-intervention",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::aggregate-agreement-hides",
+          "owner": "virtual-cell-models",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::aggregate-agreement-hides",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::untreated-association-not-causal",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::test-set-reuse",
+          "owner": "train-test-discipline",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "foundation-models::table-card",
+          "owner": "foundation-model",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::table-card",
+          "owner": "train-test-discipline",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multi-omic-integration::table-card",
+          "owner": "multi-omic-integration",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "variant-effect-prediction::table-card",
+          "owner": "variant-effect-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "virtual-cell-model::table-card",
+          "owner": "virtual-cell-models",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "mass-spectrometry-proteomics::table-card",
+          "owner": "mass-spec-proteome",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "multiplex-immunofluorescence::table-card",
+          "owner": "multiplex-immunofluorescence",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "spatial-transcriptomics::table-card",
+          "owner": "spatial-transcriptomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "foundation-model.json",
+          "bytes": 8617,
+          "sha256": "afe390c2acce48952fd5c446b661d53bcf69322ab0fd51f75f71bcfad7a53772"
+        },
+        {
+          "path": "foundation-model.md",
+          "bytes": 6725,
+          "sha256": "3da09d96f7da6095c9839c18179317b1e0adcc8b0920329cf77ba876f5d030c6"
+        },
+        {
+          "path": "variant-effect-prediction.json",
+          "bytes": 8112,
+          "sha256": "0b85f568944ea1ff2c57de1417371d883932b370f601a9a74261b03c4642e190"
+        },
+        {
+          "path": "variant-effect-prediction.md",
+          "bytes": 6642,
+          "sha256": "2eccc364764bfab4f4d73b0334cb711c01cd22c26b79f2b99c0ab98955114125"
+        },
+        {
+          "path": "spatial-transcriptomics.json",
+          "bytes": 9060,
+          "sha256": "b36e22271cd60d802e180fc790d1f14a2ee6cbfdd99aab17d023a510571c8a32"
+        },
+        {
+          "path": "spatial-transcriptomics.md",
+          "bytes": 7409,
+          "sha256": "d25228de202bc632bd08acd040af617bb8e0bc2162635364393ffda9a295c746"
+        },
+        {
+          "path": "multiplex-immunofluorescence.json",
+          "bytes": 6162,
+          "sha256": "6bcf32b81fabe84392397bdc9060a6aaea2da9b5662bd021f802259d9ef907d4"
+        },
+        {
+          "path": "multiplex-immunofluorescence.md",
+          "bytes": 5135,
+          "sha256": "81d71e718f43ba83e00596e7a509acc31d17813f146a3d386deb662c2172c00c"
+        },
+        {
+          "path": "overfitting.json",
+          "bytes": 4372,
+          "sha256": "75388ee62058a0be21613d5fd5ce086e199883056aaa52a91cecc967ef13d6c5"
+        },
+        {
+          "path": "overfitting.md",
+          "bytes": 3345,
+          "sha256": "d966ab53168f8f1cd6db934e29f8f067e778fb90a32da121437c6dd43f668567"
+        },
+        {
+          "path": "multi-omic-integration.json",
+          "bytes": 8750,
+          "sha256": "71a836495fa01552a368e42275a8187ce08f7f4b3f797d3a2197285665a456df"
+        },
+        {
+          "path": "multi-omic-integration.md",
+          "bytes": 7160,
+          "sha256": "1679c7526311379745730682730af65f755d5107bb57e4881cc82aa0c18237ab"
+        },
+        {
+          "path": "cross-validation.json",
+          "bytes": 3474,
+          "sha256": "9e97830bced24dd37a87646dcd8040bfb08825171a95ed5256f735588a6a6e2a"
+        },
+        {
+          "path": "cross-validation.md",
+          "bytes": 2693,
+          "sha256": "48c1e4fd22c05fb83ff2e329897f331f0bcac28e386b66354631629cad7beb5c"
+        },
+        {
+          "path": "train-test-discipline.json",
+          "bytes": 6022,
+          "sha256": "826710add95c02b5c66b22475e57ca890cd26f375b01a4d97db325014d8bdf4f"
+        },
+        {
+          "path": "train-test-discipline.md",
+          "bytes": 5210,
+          "sha256": "dc9459d2aec7a983b81330ed646d9edf8e10a586b4458f4295ccc82cb8928eb1"
+        },
+        {
+          "path": "virtual-cell-models.json",
+          "bytes": 7754,
+          "sha256": "34843e24b8763da7ca098aab1052d06f9da7417eaef03068d430fc2e84ce74d2"
+        },
+        {
+          "path": "virtual-cell-models.md",
+          "bytes": 6698,
+          "sha256": "8c73298d14b4105a009df7eef2701ef086516778a3b74d7b66e4268155c875a7"
+        },
+        {
+          "path": "mass-spec-proteome.json",
+          "bytes": 7443,
+          "sha256": "0018252d8ccbe7f6c99a986c888085c287aa68d378c651479d5366f297d84e85"
+        },
+        {
+          "path": "mass-spec-proteome.md",
+          "bytes": 6445,
+          "sha256": "a8d9ef73eeeee0f695770cf0d021bf158cdecebad8cc00861ed85f5444b2ebca"
+        },
+        {
+          "path": "data-leakage.json",
+          "bytes": 3642,
+          "sha256": "1fd48ebcbfa07ed7897e5845022184cea378c1bafbc93f3f3ef060578e5c9307"
+        },
+        {
+          "path": "data-leakage.md",
+          "bytes": 2665,
+          "sha256": "71d153215d52231622ea4f491656eee6b1e15002a9571836b0edef0744620b33"
+        }
+      ]
+    },
+    {
+      "phase": "shared",
+      "canonicalOwners": 8,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 92,
+      "generation": [
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 29.32
+        },
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.81
+        },
+        {
+          "phase": "shared",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.45
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "binding-prediction::prediction-not-observation",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::rank-meaning",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::ba-vs-el-ic50",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::ba-vs-el-ic50",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::record-model-context",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::downstream-chain",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::figure-toy-rank",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::mask-is-estimate",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::detect-segment-phenotype",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::detect-segment-phenotype",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::merge-split-missing",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::merge-split-missing",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::iou",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::iou",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::tissue-specific-validation",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::worked-merged-mask",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::figure-mask-errors",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::workflow-destructive",
+          "owner": "imaging-mass-cytometry",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::workflow-destructive",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::imc-vs-suspension",
+          "owner": "imaging-mass-cytometry",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::imc-vs-suspension",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::interference-not-absent",
+          "owner": "imaging-mass-cytometry",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::panel-selects",
+          "owner": "imaging-mass-cytometry",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::panel-selects",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::proximity-not-interaction",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::worked-double-positive",
+          "owner": "imaging-mass-cytometry",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::worked-double-positive",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::figure-metal-tag",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::repertoire-vs-list",
+          "owner": "immunopeptidome",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::workflow",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::database-and-fdr",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::mixed-origin",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::lysate-and-allele",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::ffpe-compatibility",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::ffpe-compatibility",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::nondetection",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::nondetection",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::kinase-phosphatase",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::enrichment-bias",
+          "owner": "proteomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::enrichment-bias",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::site-localization",
+          "owner": "proteomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::site-localization",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+          "owner": "proteomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::ischemia-handling",
+          "owner": "proteomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::pathway-limits",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::figure-parent-protein",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::reverse-arrangement",
+          "owner": "rppa",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::address-not-position",
+          "owner": "rppa",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::address-not-position",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::antibody-validation",
+          "owner": "rppa",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::dilution-normalisation",
+          "owner": "rppa",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::dilution-normalisation",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::phosphosite-not-occupancy",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::ischemia-no-safe-delay",
+          "owner": "rppa",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::figure-lysate-addresses",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::mrm",
+          "owner": "targeted-proteomics-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::peptide-proxy",
+          "owner": "targeted-proteomics-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::peptide-proxy",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::standards-and-matrix",
+          "owner": "targeted-proteomics-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::standards-and-matrix",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::below-loq-not-zero",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::denominator",
+          "owner": "targeted-proteomics-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::denominator",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::worked-below-loq",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::figure-reportable-range",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::worked-candidates",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::worked-a-b",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::try-it-phospho-r",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::thresholds-are-workflow-rules",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::thresholds-are-workflow-rules",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::allele-and-task-match",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::allele-and-task-match",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::readout-inputs-validation",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::readout-inputs-validation",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::mask-not-measurement",
+          "owner": "cell-segmentation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::mask-not-measurement",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::adds-presentation-evidence",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::adds-presentation-evidence",
+          "owner": "immunopeptidomics",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::binding-vs-identification",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::try-it-database-gap",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::kinase-inference-not-causality",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::precision-vs-accuracy",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::table-evidence",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "binding-prediction::table-evidence",
+          "owner": "peptide-hla-binding-prediction",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "cell-segmentation::table-card",
+          "owner": "cell-segmentation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "imaging-mass-cytometry::table-card",
+          "owner": "imaging-mass-cytometry",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "immunopeptidomics::table-card",
+          "owner": "immunopeptidomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "phosphoproteomics::table-card",
+          "owner": "proteomics",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "rppa::table-card",
+          "owner": "rppa",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::table-card",
+          "owner": "targeted-proteomics-quantification",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "peptide-hla-binding-prediction.json",
+          "bytes": 6292,
+          "sha256": "9603c5107fbe3d6efb2d4b16576c5e17e8bad0e3d62c84a3bf15a14dae683508"
+        },
+        {
+          "path": "peptide-hla-binding-prediction.md",
+          "bytes": 5895,
+          "sha256": "43887723e107e509b3df815c82b140af0521d0dcf929631ffbb015482da5aeff"
+        },
+        {
+          "path": "cell-segmentation.json",
+          "bytes": 5987,
+          "sha256": "fddceb6301bf7109342af55d56d8020af286af1c6ba50f6e74ca1eee7eeb3769"
+        },
+        {
+          "path": "cell-segmentation.md",
+          "bytes": 5574,
+          "sha256": "7ea87ebec35ac2f5e640ee7e8aeeb64c07a1e3aaadab743721d58e7a44f7eab7"
+        },
+        {
+          "path": "imaging-mass-cytometry.json",
+          "bytes": 6477,
+          "sha256": "5602353b7d4893b2ef8273b35544e7c52259731f209c14b9e3a2662ba6a552bd"
+        },
+        {
+          "path": "imaging-mass-cytometry.md",
+          "bytes": 5882,
+          "sha256": "3aca8520ef559f1097da003bb5647bd7bedfd2d90f588cf52033e0da713d51a0"
+        },
+        {
+          "path": "immunopeptidomics.json",
+          "bytes": 7293,
+          "sha256": "dc0c5b596ef929ca3e0b2cf7704f98d6b96f3f7eccbd124e3155d0946d134c23"
+        },
+        {
+          "path": "immunopeptidomics.md",
+          "bytes": 6652,
+          "sha256": "1798025ca9a09149bc56e9298dfa69edb71e9b2f1ea1748b1dfbcc792f12d7f0"
+        },
+        {
+          "path": "proteomics.json",
+          "bytes": 17161,
+          "sha256": "8ed0749d2bf469b957dea843fc1f34e199925ffa3fa2828d5e88dd6de6b56fbd"
+        },
+        {
+          "path": "proteomics.md",
+          "bytes": 13232,
+          "sha256": "4b363abface6bb190b760d200a8723457e5c9e230acc725498a80c904804aab5"
+        },
+        {
+          "path": "rppa.json",
+          "bytes": 7498,
+          "sha256": "3fda5797f6e618f51fa96b4d3ffbb8c00c138edcdd04b88b9a970bdf86a6466c"
+        },
+        {
+          "path": "rppa.md",
+          "bytes": 6451,
+          "sha256": "9aa313b682c6fc1cc3ed71f95e5d9adaa1730ea3fe39bc6574073aebc40a9e54"
+        },
+        {
+          "path": "targeted-proteomics-quantification.json",
+          "bytes": 6428,
+          "sha256": "3f19767e348505e72106c743a2247dbcb6a051e145c4369606edd7ef1848b500"
+        },
+        {
+          "path": "targeted-proteomics-quantification.md",
+          "bytes": 6021,
+          "sha256": "9f5ec21d76da4959ff5c274ed3300616f6ffc5d392b80d34f2cccc810fbc0dbb"
+        },
+        {
+          "path": "immunopeptidome.json",
+          "bytes": 3891,
+          "sha256": "f1d1c6c4f8802daa7aefd532b324ff210e0c2a7f3826d5f1d82195529d8d7472"
+        },
+        {
+          "path": "immunopeptidome.md",
+          "bytes": 3419,
+          "sha256": "9b1b67dc47bd74dc93ae42fa422a6d971807f6b58f63918ea9801856dc654833"
+        }
+      ]
+    },
+    {
+      "phase": "concept",
+      "canonicalOwners": 3,
+      "canonicalJsonMatches": true,
+      "evidencePassages": 17,
+      "generation": [
+        {
+          "phase": "concept",
+          "command": "npx tsx scripts/build-api.ts",
+          "exitCode": 0,
+          "seconds": 27.69
+        },
+        {
+          "phase": "concept",
+          "command": "npx tsx scripts/build-openapi.ts",
+          "exitCode": 0,
+          "seconds": 1.78
+        },
+        {
+          "phase": "concept",
+          "command": "npx tsx scripts/build-context.ts",
+          "exitCode": 0,
+          "seconds": 4.32
+        }
+      ],
+      "checks": [
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::measure-meaning-use",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "tldr",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::analytical-specificity",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::association-vs-benefit",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::worked-drug-a",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::baselines-calibration",
+          "owner": "external-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::external-evaluation",
+          "owner": "external-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::lod-vs-loq",
+          "owner": "detection-versus-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::below-loq-not-zero",
+          "owner": "detection-versus-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::lead-time-outcome-clock",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::accreditation-label-not-utility",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "model-validation-basics::context-shift-no-universal-threshold",
+          "owner": "external-validation",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "targeted-proteomics-and-loq::precision-vs-accuracy",
+          "owner": "detection-versus-quantification",
+          "field": "summary",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::table-evidence",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        },
+        {
+          "requirementId": "analytical-validity-clinical-validity-and-utility::table-evidence",
+          "owner": "analytical-vs-clinical-validation",
+          "field": "notes",
+          "passageInActualMarkdown": true
+        }
+      ],
+      "immutableFiles": [
+        {
+          "path": "analytical-vs-clinical-validation.json",
+          "bytes": 9129,
+          "sha256": "9b4b24dba47e9a5a7932468f931831e33d64906e4f57dae3ebac5be4a2ac7190"
+        },
+        {
+          "path": "analytical-vs-clinical-validation.md",
+          "bytes": 7796,
+          "sha256": "f4e69259b64df22d2b82c690087bb7829086edb087e74e5f5cb2b6e98ac39351"
+        },
+        {
+          "path": "external-validation.json",
+          "bytes": 5437,
+          "sha256": "fe3adfa0193bff1f11c447a2b15d52d16f5ec5a03d14d79f1c9553b3250512b2"
+        },
+        {
+          "path": "external-validation.md",
+          "bytes": 4016,
+          "sha256": "8666ba663dbb161d948508b0a56da1a18d9dd9efe1911a40d476384dc94f03f4"
+        },
+        {
+          "path": "detection-versus-quantification.json",
+          "bytes": 3164,
+          "sha256": "35c90b6c2f05d5c4a55496728a91d683824259aca72551b159b0e51477ae0932"
+        },
+        {
+          "path": "detection-versus-quantification.md",
+          "bytes": 2714,
+          "sha256": "facffdda655276498803738ef8d952b223793d872496c3253bfea549ec15efd1"
+        }
+      ]
+    }
+  ],
+  "scope": "Generators run serially in each owning checkout; selected canonical JSON equals current graph snapshots and every selected body passage survives actual Markdown."
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "location": "ledger.json/items/25/review/points/3/evidence/1",
+    "version": "proposal-biology",
+    "recordId": "genome-wide-loss-of-heterozygosity",
+    "field": "notes",
+    "oldFieldSha256": "4b52dd932abb0330fe10b098ba01a1c59d39fbba493e6a2812af0657d00920f6",
+    "newFieldSha256": "2936ba6d43201ce5b685a678490fc07cec54505ae22c5dd50e5968b0d4fce151",
+    "requiredEarlierContentRetained": true,
+    "permittedChange": "Additional notes and specified UK spelling normalisation of OnCo prose; source quotations unchanged."
+  },
+  {
+    "location": "source-phases/c9689645/ledger.json/items/17/review/points/3/evidence/1",
+    "version": "proposal-biology",
+    "recordId": "genome-wide-loss-of-heterozygosity",
+    "field": "notes",
+    "oldFieldSha256": "4b52dd932abb0330fe10b098ba01a1c59d39fbba493e6a2812af0657d00920f6",
+    "newFieldSha256": "2936ba6d43201ce5b685a678490fc07cec54505ae22c5dd50e5968b0d4fce151",
+    "requiredEarlierContentRetained": true,
+    "permittedChange": "Additional notes and specified UK spelling normalisation of OnCo prose; source quotations unchanged."
+  }
+]

@@ -1,0 +1,1140 @@
+{
+  "checkedOn": "2026-11-09",
+  "renderedOwners": 113,
+  "allOwnersSourceDateAnchorChecks": true,
+  "changedOwners": [
+    {
+      "id": "dako-pd-l1-22c3-pharmdx",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "asOf": "2026-11-09",
+      "bytes": 54109,
+      "sha256": "61bcff79088e7f312748a06a259f3588d21d25a2792fa9ec828f6a83ad1b05ab",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "dna-term",
+      "route": "/terms/dna-term/",
+      "asOf": "2026-11-09",
+      "bytes": 23251,
+      "sha256": "c6f6f30319c064a1876738475c7d1cefabef65fedff708c93e1e6eb3aeabd088",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc",
+      "route": "/cancers/tnbc/",
+      "asOf": "2026-11-09",
+      "bytes": 224339,
+      "sha256": "30d814dade20313abe96390acb1f494062e3fc10d3d11167931ad480fce1b8a9",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "trop2",
+      "route": "/targets/trop2/",
+      "asOf": "2026-11-09",
+      "bytes": 185935,
+      "sha256": "66a2aaeef0ab713f65f004e049b91b6b2ddf2dc627fc7f37e68e1f122212aab5",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "trop2-expression",
+      "route": "/biomarkers/trop2-expression/",
+      "asOf": "2026-11-09",
+      "bytes": 51480,
+      "sha256": "deb723270eae1131166805edd50673d0cff3331c9f0c1d23f3ac503ff9432113",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low",
+      "route": "/terms/her2-low/",
+      "asOf": "2026-11-09",
+      "bytes": 56680,
+      "sha256": "b66ad83c2b118afca52376ac73c1876beabb1f4258bf13546a0bb6f8a76df8fb",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low-and-trop2-adc-eligibility-tnbc",
+      "route": "/terms/her2-low-and-trop2-adc-eligibility-tnbc/",
+      "asOf": "2026-11-09",
+      "bytes": 39266,
+      "sha256": "0cc3fec16857b50b33bb36d8f901cac0b5221091dac2d8941bb787e98021bf50",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low-ihc",
+      "route": "/biomarkers/her2-low-ihc/",
+      "asOf": "2026-11-09",
+      "bytes": 65018,
+      "sha256": "98e2f0921556459bb4fc27e50c595ecd630a80a6dcc90580a7a4aaad21012bf8",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ultralow",
+      "route": "/biomarkers/her2-ultralow/",
+      "asOf": "2026-11-09",
+      "bytes": 51297,
+      "sha256": "5c9173ab220e2d6706187e1649f8a51966547d2e915deb2fccb2a0f3d0dc57f4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-0",
+      "route": "/biomarkers/her2-ihc-0/",
+      "asOf": "2026-11-09",
+      "bytes": 54368,
+      "sha256": "5820c267611df8c9801fe0527e20f6707c819f42fc4f81874cabb12382a267e5",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "route": "/biomarkers/her2-ihc-1-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 45415,
+      "sha256": "3ac8267859830c7ec429871981a86aa767b3145b77f368bb52f88927edeffb2a",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "route": "/biomarkers/her2-ihc-2-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 59886,
+      "sha256": "5e522792ac8d4880069862c37bda6793cc5df93a02bb0f49fab0412a9aac4513",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "route": "/biomarkers/her2-ihc-3-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 80660,
+      "sha256": "3083a633dda9bd6edf173d9a1376fa43980594ec00e4de7387025d9a2ffeb533",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ish-amplified",
+      "route": "/biomarkers/her2-ish-amplified/",
+      "asOf": "2026-11-09",
+      "bytes": 72686,
+      "sha256": "f0996351ce65a42a6c0936738b319db49117a9f30965507fa66f163d8c0e4c29",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "ascent",
+      "route": "/trials/ascent/",
+      "asOf": "2026-11-09",
+      "bytes": 79789,
+      "sha256": "a4999f59c523ce2f8b83ac564861e572fc0a9e4236f65b5a1aa43c7313a7a896",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "destiny-breast04",
+      "route": "/trials/destiny-breast04/",
+      "asOf": "2026-11-09",
+      "bytes": 67424,
+      "sha256": "d7f77f55ddb0b969bd4212ba40b204660f367d9e4d1903202044ca073599fdc4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "destiny-breast06",
+      "route": "/trials/destiny-breast06/",
+      "asOf": "2026-11-09",
+      "bytes": 73606,
+      "sha256": "62b44f83e435a3400202ce3efb94311642ff2c541b2480be944cb06d8576c9f4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-destiny-breast04-nejm-2022",
+      "route": "/key-papers/paper-destiny-breast04-nejm-2022/",
+      "asOf": "2026-11-09",
+      "bytes": 49233,
+      "sha256": "b42c3ee206ebd1149ff57910c762899b7854c57f926f5361b67cab73b8c0f820",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-destiny-breast06-nejm-2024",
+      "route": "/key-papers/paper-destiny-breast06-nejm-2024/",
+      "asOf": "2026-11-09",
+      "bytes": 47631,
+      "sha256": "0cc0de699b69f036181d830b0806d2d18a7f26f4fe75d2af17643be5e9a23020",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-testing-uk-breast",
+      "route": "/terms/her2-testing-uk-breast/",
+      "asOf": "2026-11-09",
+      "bytes": 31190,
+      "sha256": "74e8264a4865669ebfa909dbb3f24e4563f7a102980c8480ccacf744e32b4a65",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "cancerSectionComponents": [
+    {
+      "id": "overview",
+      "route": "/cancers/tnbc/overview/",
+      "bytes": 97275,
+      "sha256": "66207a3da9090cdd9cde6d31586b423baae90947ee673555f3506c5099790c1b"
+    },
+    {
+      "id": "what-it-is",
+      "route": "/cancers/tnbc/what-it-is/",
+      "bytes": 38273,
+      "sha256": "385acd373d6c4525ae43b0ac46bfb7e81e068ce20c5661077abd2fa10b98835c"
+    },
+    {
+      "id": "finding-it",
+      "route": "/cancers/tnbc/finding-it/",
+      "bytes": 51486,
+      "sha256": "b3c157e42f0029860ac515bf773987c3184c3a4563c586a94bc6ab157b2ee2f5"
+    },
+    {
+      "id": "evidence",
+      "route": "/cancers/tnbc/evidence/",
+      "bytes": 80520,
+      "sha256": "e87ed114d0dde46907f8abca293d441767504eaf65090d701e2b28c194343e46"
+    },
+    {
+      "id": "data",
+      "route": "/cancers/tnbc/data/",
+      "bytes": 182871,
+      "sha256": "7cb5fa48b915d60f86569e25690c6b0c17c0d54498cac08aa406d41203bede3d"
+    },
+    {
+      "id": "coming",
+      "route": "/cancers/tnbc/coming/",
+      "bytes": 171561,
+      "sha256": "1a923d1768c45d0afb837eb55f057faf87dc59b2dce5bf2ceaa6b1f24aea9061"
+    }
+  ],
+  "readerFieldChecks": {
+    "checkedOn": "2026-11-09",
+    "checks": [
+      {
+        "recordId": "trop2",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "4b152e841c8aba00fa164a78f15bf0cd761e495e64c81a88bd032b0f9a3f5cef"
+      },
+      {
+        "recordId": "trop2",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c47e957ad3bcd1e18bbc9e62a8be2e0a9c416db9372a2eb316aad4d166da2b23"
+      },
+      {
+        "recordId": "trop2",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "5ac96dcdc12104510b574e2d67770ea87bae036b6637042d9c5286e77086446f"
+      },
+      {
+        "recordId": "trop2",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "b90f5c9362effd51dab68562deb8099e65f15401617dba47676ddfecd92a71e6"
+      },
+      {
+        "recordId": "trop2",
+        "field": "biology",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "32dc1ee95790c3c5adad0370e83b546bd91447550be471d0753f3e7ef46adc1a"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "297ba7e15af54b5aaa0e138c69ae57f5185d6bbaebf62f9ec989b3fc547a3d6d"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "b94892d0e5035292431b054429b1e77b1b266963fa26afc94983b1cc0be913fc"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "e546b9cce3e1f765bce91b88980a04471e54eb1290d8d08270a1832119a50f8b"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e3a19bded1f96f27745f32dab96c1ae2359a5250a7d228393445ebffce7db017"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "cea4fb02e24ff4ec0f6bf641115e686ca8fc6441be78baaa5e43bbb6eeb10ddf"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e3ed4364d5e1261408c7c7abe97b2674d8e55dcc8aec864ef7851abb4130bb61"
+      },
+      {
+        "recordId": "trop2-expression",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "cb6b4eee32829cb884c6d5b16c4d55329d32565f98dd05b4de9132b752593e53"
+      },
+      {
+        "recordId": "her2-low",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "69c0a5114735bdc21ce5897a79fa4d630f5a193d043de93c192f1304f8125775"
+      },
+      {
+        "recordId": "her2-low",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "03c632b1a494a94bd3f1b399d710b4137f97ac78ee4d1a8da1a0dec5e68b5590"
+      },
+      {
+        "recordId": "her2-low",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "a1e11a9cabc3b13b4f5ce9497b888adefb65ffc1eb4bf8c9d96fe6d9304e6d43"
+      },
+      {
+        "recordId": "her2-low",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1"
+      },
+      {
+        "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c74af680ddcda4f2453b33e4f29ec2fa76674f07fc04472b8af4616e9f9f2fc3"
+      },
+      {
+        "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "f4145bbd1d429fd9c4052e9d695de9e1261c20bfc7804266e5dee1b85973d469"
+      },
+      {
+        "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "71ebf435e976f722460ee738b926b5ecb57bfbb9dc7840251cd43ff99455ffd8"
+      },
+      {
+        "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "c613939b49ed12c1170751e01f254d97bbc2f8e143e2bb4fa7c9a9554acc20ca"
+      },
+      {
+        "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "0e9cfc52cfaf0a5aa40f09c7cc5d7bea5acb848f191ce3fd11e9968b19b45317"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "320a1ddcfd296493a717f6042e307b127cbf5b1dbdac45556ba430ef90d12e11"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "365b67a9f72dbf9a01614d02cfcdedad11a378ad2c8adb8e29e352a35be7de89"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "a6c2d9d2bde936b8c27cc0e26d8b6622ab146817e28afe200cfc3bde3f0abf46"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "6aa34c35dbef1ec54e0b351a740794b016909213400b933a12e48e900480f044"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "thresholds",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "60b9c7d445b5a65680a70924be8bd979268cb6189142a78187ab145e8d35c920"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03"
+      },
+      {
+        "recordId": "her2-low-ihc",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c99bf57a71752ed6cdebd43109d6119793787e78336f4fa76134e2138fce0ef1"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "6391936f960f6708d1b7568a3e3e32a3a86231806a4f4de6066522df7d3db12b"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "a4a98ef46cae5284fa2bdfb1c1953e0a9eb630b20ce2d817dfe8b513d7d55122"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "72c30676b0f803090e765fcaa13b1fb72c96e30b857dcc29c490c43697dc9a9e"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "bf44dadb280e5d5e5d010dad46d5116f0acd1588c27af8bd4f67da0439402959"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "81683272c8088d14ac63d4c320256eede8cfacd5ffb4338ecb78e50976d358fe"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "thresholds",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "d85c5c55a80c226de990806542a141f0a46454879e896a65faefcde46c44fdfd"
+      },
+      {
+        "recordId": "her2-ultralow",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e536e05be5c424d41530782d4fc3657c125e8104612db31407fae2563df511b4"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "91a35ca6d1dce0548ae86337e9be791587956ddb920cbe3535909a20e6bd2a28"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "4ac6f69b66c8521f5329ab0633ced778805b7ec6a38c3972f15d3f8d3c885b59"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "9a16ed8dcdf8f05efd3e816f437d2165f1987a82621ba73df1e555001d1d6b4b"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "24758d7d3b6bed7c77820b311c3b6343eb5a0001005c9446c3dd37487f61273a"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "thresholds",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "d85c5c55a80c226de990806542a141f0a46454879e896a65faefcde46c44fdfd"
+      },
+      {
+        "recordId": "her2-ihc-0",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "295eca7cd91dbfe3a7fdeff6276f3ef7c2c4e98e902681c764bca37e5817316a"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "b9c01a9e0ef306e3b435102561cbc6a1bd3c5c394ce9ae06ae6ea007818c6401"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "76a34a1013e25641f2ad093e18ff9289a7eb7eb29471e9de9bdd6b44acd09a34"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "20f2755d534e47471e04fd9d6471e737f4b8f4eb4934b803928969d833511874"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "f7cc09e7df6b3e08598d9016a20c1468b15be6f6a224f7ac31b354ab203dd597"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "thresholds",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "60b9c7d445b5a65680a70924be8bd979268cb6189142a78187ab145e8d35c920"
+      },
+      {
+        "recordId": "her2-ihc-1-plus",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "02954f3607c3af87a7e718b94a5227ed054f5f6f82eda5fa7cec14c3d26fea99"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "381cad932670795f41b077ccb0e5801b91417ff2a7422ea0a6dc20b0a4251050"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "76a4bfe849f23d8f02c330a46a304f1acaedc7b7f2bc08bed062323bcd5c978e"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "87df8f3d95ccfa3db20d69dc4a3f4e1fedeb20cf4e320249a57c42dc97116781"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "4512414a383fae610487343e4f9b4b6375b25459b95e9f674a4c7567510a8f82"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "cc28f858bad7324d0fec7a54febe69213091893b72c4a15e2aa37f470f3a694a"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "thresholds",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "60b9c7d445b5a65680a70924be8bd979268cb6189142a78187ab145e8d35c920"
+      },
+      {
+        "recordId": "her2-ihc-2-plus",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "5445dafa607bbe2fae0c61784ee84207dd876fcdfc15b5facb947562e65d9ee7"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "580e317eee9f88b7da68bbeb50a7930ee1d85cc1e463ff42083430513ec4c93b"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "744cfbc65915b0150dad5145ee1117a1d2ab122b3b15d239b814b72d6f692fec"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "2ee95ba2d95c7781353b16af2965f864f6320f113467b9303b1d3d77b188c648"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "8b0c9354b0c4590e25622299d152fb93a3ffda9a12d3037000ce3bf4d4a32ff3"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e5e535fa284e5f22638d51c5bd74046de1b8478610a65071209e4e4bb428abe4"
+      },
+      {
+        "recordId": "her2-ihc-3-plus",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "06ec3a95139ea95387fb0dd0a648d6ec513fb30a6cb7707da3b5d0bea539500d"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "b8ddb867d2a3f06a1cae6797ad3de58ddace660d026575a77674e3ac7c886fcf"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "ee8378e011ab93338302910f88869bd329e0e3cc91b4006e8554971abfaea440"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "scoringRule",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "5820976a4cbef54d3ddf5a74e2118282a76c1f5ce9c298da80280cbec6239c8a"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "scoringRule",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "fe1eef444e7d684534ab27ee1351b176510cc661f56e52e50237006cef7037e9"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "forPatient",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "f3dde0db6c9513c8da43ef1f9cad3efb52ac5d9fe442069f67e5abd9b532414a"
+      },
+      {
+        "recordId": "her2-ish-amplified",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "3c1531c5617ad6661b116a3bb3e312d52797eff501fd21623f6a832eb9246a33"
+      },
+      {
+        "recordId": "ascent",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "0f82826b43bb7652f492353d4ec42c15425f07713e899f4c22ffb5bd0169551a"
+      },
+      {
+        "recordId": "ascent",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "696236488ea7ea430a44b64818c4c32f9f62d0546ca585f9d35bb2d197837995"
+      },
+      {
+        "recordId": "ascent",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "38ac2b17a5856c01881c3fb302b6d4d20a176bf98bd2ec8d08ccea7f51d02db2"
+      },
+      {
+        "recordId": "ascent",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "a6384c292172d45c0631b1d61e43e4680fd7b52897fee76b64347ccf8554391b"
+      },
+      {
+        "recordId": "destiny-breast04",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "471c94932526d0c135d9ca9de8e33982ab75063033c956c95884903c29228400"
+      },
+      {
+        "recordId": "destiny-breast04",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "bf64f1507009434beb8e1b9f1b7d854d5a4a28e905c1517c3994194a483ad9b8"
+      },
+      {
+        "recordId": "destiny-breast04",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "1d29335890dca17ef44a8a9b125fe1521db5db16e657df13dca73a5ef1daffaa"
+      },
+      {
+        "recordId": "destiny-breast04",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "440b428afa66e67601c98ad7bfba41abfdcf5c930990637f092af49b89cf344b"
+      },
+      {
+        "recordId": "destiny-breast06",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "af505c29b8e034c0ca400174432ac2ea9ca7308f1f5ab64de356a6e3e1d65b96"
+      },
+      {
+        "recordId": "destiny-breast06",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "2f72b9ac785589abd923d74a74361cd28f56b9f3da00a05afc4eec00ba45b97d"
+      },
+      {
+        "recordId": "destiny-breast06",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "11e301e01a4f774a58c57e4ce8f6b607ec3d802c970b6a28788ba3aa47fa5c2f"
+      },
+      {
+        "recordId": "destiny-breast06",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c18f85bc204d39b97b1b3f0e9739c5ef7daa1d5221f3ed5d7d0fba01688c9c0d"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "907a5836af050ccffe5e7ad94b7e24b08d20832af064fd100957150ec8bafa3e"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "ecf3dfbaafc36760cc55f22b3d040e84f38c2546ff3dbe54b4e4a317c71e7d9d"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "e5eb437e3b2c1fbe16c50de41eda39f94314fb6e764fc3ca2dec0b70897d08b2"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "1ca291ea9f1e53bcbd9ff1f9827a2bcc25b51c2f974e9bf53dbf8436bd38fcc4"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "27e0c00b0c3002c4242e788f71650a049ef4c5889422584aa5d3bfe9774600d5"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "b80ecfdff680348aa51b52f7583b7634167eb4722560ebf48e39625ff1161afe"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "findings",
+        "part": 3,
+        "readerBodyMatch": true,
+        "textSha256": "937e0b9ade7a5a8d105e5e860b2344c0c2ef0d217dfbbdaa76a323d239ae377d"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "0faf27d41d20a9ae4ad5eac045b96feba6a792e35a7319ae84c1d635a2b1846e"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "22012d8c8f352a985881624d9802d2275de971723e2800018a7e37471eb00869"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "c0f386101127afa50ca9c4544efe14da1f1ac5b3473a6ebc9449b9d2c281d9d2"
+      },
+      {
+        "recordId": "paper-destiny-breast04-nejm-2022",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "textSha256": "0ba844e2534bfb2070beed912e0c1c2f397ecf92dffe5ca22f088775e5c96714"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "d174e52763e297fe539bd0d9a33b01c4892383b617bf39c6ec2940ce6e6157f4"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e04d4517a51227067198f91e3eef531923e52721586ced39b33251950cec92e6"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "c664030880dc373a7e60eead16118f5c5ae3130af00657a097165cc1d8909cf4"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "291ca7a84f432c35fb22346eb5b4042d2fa23c5cb2c342ca03b3c0922188aebb"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "98506be02c58111460ff928049da5029005789d942c39dc6520a380cc477440f"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "f4fe55f98385d164e57a4fe752c67355a4b3b4e4b13453e2a55bc0d6f9933bde"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "findings",
+        "part": 3,
+        "readerBodyMatch": true,
+        "textSha256": "e7a87f925cf56c4b4c413e02b6fc13fd426f9c9f779bfaf48a8fc1c6e4694877"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "c77cc40b15bff415a507e6dadbdfb065b4a1ddf28e3796fe89900a13e9614654"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "72445ff4957de4270ca8ec4f69c9c225abc7c9bc2da4f9e55d2ccc11c8e0d6c9"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "0e6b4f5e918729d9fde17f47f1e4361c81f520d857d4440cdca5281158bd0c7b"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "textSha256": "3ad7d86eb4a5630a70e11664dced8c300a8a22a6f811db232a82982ee843b127"
+      },
+      {
+        "recordId": "paper-destiny-breast06-nejm-2024",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "e6bf659936a2631ad132eac6cbd91dd7dff0cd22083ec92b94a004798d075064"
+      },
+      {
+        "recordId": "dako-pd-l1-22c3-pharmdx",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "0f03915fc9cd401197777dfb011e853ec2df741cc1a41701efcd76e2bc67c0cb"
+      },
+      {
+        "recordId": "dako-pd-l1-22c3-pharmdx",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "3c95fb6a6e81f3383affe3b3069c7e0f19f8651d432ec9bf13a849836bd875da"
+      },
+      {
+        "recordId": "dako-pd-l1-22c3-pharmdx",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "0506f9381462a8dec4417cca01e5ad28afdd2ebc3154c50f51d75b2bc82132c1"
+      },
+      {
+        "recordId": "dako-pd-l1-22c3-pharmdx",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "057e7c7ab2a389ff82c0aafadb88c2093b6ef35c20809fe1651cfc91224af2cd"
+      },
+      {
+        "recordId": "dako-pd-l1-22c3-pharmdx",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "1294f16779436982416321a1a502613902c6db2d045f1d50f81128ce5f981201"
+      },
+      {
+        "recordId": "her2-testing-uk-breast",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "d266a5e1fd119a84d15b8f2f4fde3e618af184f4bfcde1404cab42f9e1dd2735"
+      },
+      {
+        "recordId": "her2-testing-uk-breast",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "textSha256": "5f6a520f939eee66a48796dd7dd760dbcd2349f1a402b6bc4d34469ab3118454"
+      },
+      {
+        "recordId": "her2-testing-uk-breast",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "textSha256": "e3dd89769e12bd18c53e91499b30c3db9a528bcb44e94bba746b64b75ff8587b"
+      },
+      {
+        "recordId": "her2-testing-uk-breast",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "textSha256": "ac55c1e419cdadda56a7b3724941a73351df8b447e1960ae26f2ce826bb0df8f"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "overview"
+        ],
+        "textSha256": "8e8d098a45cf47903d89e94c8bd6b40a90a40842250d1d7a040e299c20cb828e"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "overview"
+        ],
+        "textSha256": "14fe6ea9c4666f785d15936f6c5fb66bb8e684e03e4634b3a0c7c0019c3f57d9"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "data"
+        ],
+        "textSha256": "86bf9e5692e6aaf82cdcc35e84cd4c0c11b0e880651c684d9c425a267c9d0fa8"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "biomarkers",
+        "part": 0,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "finding-it"
+        ],
+        "textSha256": "821de271e24382d532c41950caa3bf013c28cf5e90b0fe6aa9ff77e4c9caf225"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "subtypes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "overview",
+          "what-it-is"
+        ],
+        "textSha256": "7ddd577cf663beeea3a0ecd53f6f81a5924938ebdc42a1dbf04d3dd9d589db33"
+      },
+      {
+        "recordId": "tnbc",
+        "field": "stateOfArt",
+        "part": 0,
+        "readerBodyMatch": true,
+        "sectionComponents": [
+          "overview"
+        ],
+        "textSha256": "83c1e573f072d35fc071bdb5cd80144756a592f68743a3946567388213bff923"
+      }
+    ],
+    "failed": [],
+    "scope": "Authored expression-review fields and changed TNBC narrative strings, matched in rendered reader text excluding script/style and JSON-LD. Source/date/anchor checks are separate; no hydration, visual QA, live deployment or other clinical sections certified."
+  },
+  "scope": "Actual canonical fields and six routed cancer section components checked. No live deployment, hydration or visual-layout certification."
+}

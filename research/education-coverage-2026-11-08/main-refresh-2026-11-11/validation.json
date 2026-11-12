@@ -1,0 +1,153 @@
+{
+  "checks": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.14
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 18.98
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 28.51
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 112.73
+    },
+    {
+      "group": "root",
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 28.8
+    },
+    {
+      "group": "root",
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.62
+    },
+    {
+      "group": "root",
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.16
+    },
+    {
+      "group": "root",
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 4.66
+    }
+  ],
+  "fullSuite": {
+    "filesPassed": 289,
+    "testsPassed": 2875,
+    "existingSkips": 2
+  },
+  "actualReaders": {
+    "entityPages": 29,
+    "additionalCancerSectionPages": 1,
+    "exactPassages": 247,
+    "missingPassages": 0,
+    "sourceLinksMissing": 0,
+    "nestedAnchors": 0,
+    "upstreamLinkChecks": 45
+  },
+  "actualExports": {
+    "exactJSONRecords": 29,
+    "exactMarkdownPassages": 186,
+    "OpenAPI": true
+  },
+  "dedupe": {
+    "commandExitCode": 0,
+    "existingGroups": 9
+  },
+  "askRecall": {
+    "extractive": 0.4335,
+    "rubric": 0.668,
+    "questions": 100,
+    "floorsChanged": false
+  },
+  "pageWeight": {
+    "recordedCeilings": 14,
+    "allWithinCeilings": true,
+    "budgetsChanged": false
+  },
+  "logs": [
+    {
+      "name": "ask-recall.log",
+      "sha256": "3d3ac72c8d172eb7d5eafe86f946ee020a9ed570679dd2ccf02a3dcea385c68c"
+    },
+    {
+      "name": "gates/full-suite.log",
+      "sha256": "8107f890b5a0038e68a82145d10dd34f2024048da678c5f282e735421d08526c"
+    },
+    {
+      "name": "gates/lint.log",
+      "sha256": "380184405476480433e18808cb64030a36cf2cf274938dbb629131bafd95a732"
+    },
+    {
+      "name": "gates/typecheck.log",
+      "sha256": "ed8420b073d4b44dba56a3ebb139d01e223c69b6bdb9cc3772a93ca5ef4a07d8"
+    },
+    {
+      "name": "gates/validate.log",
+      "sha256": "c672bc142c78c9f58a3973c35aa375bb793ec3bcf69338376fc9d5c508e92738"
+    },
+    {
+      "name": "ledger-r1.log",
+      "sha256": "60e5c06cc7eec83f064f76a678c4874bf00ff1d58460533051e0bd28fd00b14c"
+    },
+    {
+      "name": "page-weight.log",
+      "sha256": "27e765d7c785c5ae16466fa837608fee6bba6aabcd9c609226acaa42ab0fed43"
+    },
+    {
+      "name": "root-build-api.log",
+      "sha256": "ec75d9e57ed3ad32268018807b61d01975bb54980e7331b97a9f6feb13881994"
+    },
+    {
+      "name": "root-build-context.log",
+      "sha256": "77e510ea5544f2dcdb81e53b984109a14c3f6e2bba4ed6316682f1c53d5ab7d8"
+    },
+    {
+      "name": "root-build-openapi.log",
+      "sha256": "19d014584351352555a48de9c6e4a002d284b3297a1d4aabdcad15866075eee4"
+    },
+    {
+      "name": "root-dedupe.log",
+      "sha256": "9c0e8ab6dfa69f3ba395485e67b77d987af654455751d276988008e9196a926f"
+    }
+  ],
+  "limits": [
+    "No full Next production build or new browser/hydration/accessibility certification.",
+    "No fresh external scientific claim review; upstream data changes are inherited from the merged main commit.",
+    "No expert, learner, language, main-coverage or deployment credit."
+  ]
+}

@@ -1,0 +1,845 @@
+{
+  "dataCommit": "12cc76ee50c46bfa211434317bd7a05b94c537d4",
+  "newCanonicalIds": [],
+  "changedCanonicalOwners": 32,
+  "connectedNotesAdded": 43,
+  "exactOwnershipAndPreservation": {
+    "beforeHead": "608c3ed15f2f56c7c2e0b333f5e438a25eaf5884",
+    "afterHead": "608c3ed15f2f56c7c2e0b333f5e438a25eaf5884",
+    "graphCountBefore": 22809,
+    "graphCountAfter": 22809,
+    "sameIds": true,
+    "expectedChangedIds": [
+      "adc",
+      "adc-analytes-and-exposure",
+      "adc-sequencing",
+      "ascent",
+      "b7-h3-expression",
+      "bispecific-adc",
+      "cross-resistance",
+      "dar",
+      "destiny-breast04",
+      "drug-target-and-mechanism",
+      "dual-payload-adc",
+      "enfortumab-vedotin",
+      "her2",
+      "her2-low",
+      "ideate-lung02",
+      "linker",
+      "liv1",
+      "nct04225117",
+      "nectin-4-expression",
+      "payload",
+      "pharmacokinetics",
+      "radioligand-therapy",
+      "t-cell-engager",
+      "targeted-therapy-term",
+      "tarlatamab",
+      "tebentafusp",
+      "therapeutic-index",
+      "trastuzumab",
+      "trastuzumab-deruxtecan",
+      "trastuzumab-emtansine",
+      "trop2-expression",
+      "tropion-breast02"
+    ],
+    "actualChangedIds": [
+      "adc",
+      "adc-analytes-and-exposure",
+      "adc-sequencing",
+      "ascent",
+      "b7-h3-expression",
+      "bispecific-adc",
+      "cross-resistance",
+      "dar",
+      "destiny-breast04",
+      "drug-target-and-mechanism",
+      "dual-payload-adc",
+      "enfortumab-vedotin",
+      "her2",
+      "her2-low",
+      "ideate-lung02",
+      "linker",
+      "liv1",
+      "nct04225117",
+      "nectin-4-expression",
+      "payload",
+      "pharmacokinetics",
+      "radioligand-therapy",
+      "t-cell-engager",
+      "targeted-therapy-term",
+      "tarlatamab",
+      "tebentafusp",
+      "therapeutic-index",
+      "trastuzumab",
+      "trastuzumab-deruxtecan",
+      "trastuzumab-emtansine",
+      "trop2-expression",
+      "tropion-breast02"
+    ],
+    "unexpectedChangedIds": [],
+    "plannedButUnchangedIds": [],
+    "errors": [],
+    "receipts": [
+      {
+        "id": "targeted-therapy-term",
+        "beforeRecordSha256": "48d532eebae4ee66c450da9dbab97be1be70de16ea0324b60ec373a14bbd977a",
+        "afterRecordSha256": "44cf4cf40c86840b5fa46f74f6a702e97a09f1110a7e9bda49e51f78bcca19a8",
+        "changedFields": [
+          "links",
+          "summary",
+          "tldr"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "adc",
+        "beforeRecordSha256": "4b9f491c64c400113151dd77d91b353306c7de0cfb0375579f58af248d95b451",
+        "afterRecordSha256": "7b71dc547f1dc13c4f479414706de9dd0f44eacce63006db2c5596c2dc9ea1cf",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "b29f437a4e10a3472d7fe6ec55467272f0e1dcd0d2ef1a0e53fed3b1d83f067c",
+          "f37cb1db1f1dda21925a5e9870ece99c8547d743a971d70a0e3a79b1f4b5e053",
+          "88f618d4737c6098b40742bfe4bbd4f7c5196005e86470dd760b623137bd650a",
+          "5b99e00dcbaa0cd0bb1239c339c197a7115881507b24d285d3642a7790ba7689",
+          "2ee28b64093c1de9c82a7c32c6c9ebdfc34b4094e18a10bb855a70598909f9ab",
+          "e998bf5c201efe89e43cadac09b992f1bee513792c3758dd03be79b66b9ab055"
+        ]
+      },
+      {
+        "id": "drug-target-and-mechanism",
+        "beforeRecordSha256": "2815bf501fccba34bd73ee92c7be983d1c41fe60213afcb9dc3ed84e9278a788",
+        "afterRecordSha256": "840877b33de8b4d7dde5570f86ba0dece3164ea55f82c86b80c19f6a6681091c",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "0ba81ca54924bdd8ddc9010d89ab881f95a57509a63b11f91eec3a82a6c139ca"
+        ]
+      },
+      {
+        "id": "linker",
+        "beforeRecordSha256": "fd9dde757e0bdc0133d7e4d9cdf28a7ff26a4551d252e90dfcb0ee87b0d2b509",
+        "afterRecordSha256": "610e7f37f3ad8f84c159ee9e5769cda68b9babdf980d7bd5b2bac2b0c9bfe29a",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "a2b28cd3030076c435230081bafa22611ebd7da94b04018adea8031b97798d86",
+          "0cce11b55c0e86a76a636e075e81cce29080492aa05cdd63c9a6de8f6d4f33f2"
+        ]
+      },
+      {
+        "id": "adc-analytes-and-exposure",
+        "beforeRecordSha256": "f3b4c9c8fce620cf8fa7e4d1f1f4a5cb5fc519fd86f2d4323232087d9747ef99",
+        "afterRecordSha256": "c1c2133d7aa3853b4953bbca8c05f884927d84af31bc1f3df8818d197f02c45a",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "98ead3cce75ec7937aafdc0200fdcd71c1e30b6d52e1396c08adfc692a3ada18",
+          "3e1925f329a217de78155ee9d77117b19ff31e12cefa99a43ce05d6d015dd5dd",
+          "2d9f53aaec4a8fa2106f47c0f1a9c3dd3608f69b864c636ed1020f25bc1a27c2"
+        ]
+      },
+      {
+        "id": "pharmacokinetics",
+        "beforeRecordSha256": "e8d8daece4993f61c4ff64fdd261d67107d629a0fe31d82b4d55a7411e05bdcd",
+        "afterRecordSha256": "c3c6c0d2605aaa83400dc32d6d069c222db307168ecdfc9f9f5692a6b915bbe4",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "ad867d0fdc14c7a5e8f35a45d362a06ac01a058ca18bd5264c6331ce2cb4cabb"
+        ]
+      },
+      {
+        "id": "t-cell-engager",
+        "beforeRecordSha256": "b61335fdd746d1a4c178d5c3324f16e61a30eacd951ba0963311bf483d1bf318",
+        "afterRecordSha256": "bf90e74dea2f6aee081121bc649b51fc797d066d511520bb3b82112394025df4",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "1d2229941a1a024293bffda9fec379f19fbd993ae4be1d22a239f4c50b648a2a"
+        ]
+      },
+      {
+        "id": "cross-resistance",
+        "beforeRecordSha256": "d89bec1afc743108315f7378a1be0876ba28044acfcb273cc137f964dac631d0",
+        "afterRecordSha256": "c0c8c31a1576ca447fcb2f786dbe59270443fda42bb1c527b8adf94e89a17831",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "27b0343a006549e2c20bc9a9d5855ba7c5459d5731014ad39d2b3249ec7f060f",
+          "03006cc1089a27cfc4f6b59a4b58e3c4121e3dfcd33badf2b5f6c27a272b946b"
+        ]
+      },
+      {
+        "id": "adc-sequencing",
+        "beforeRecordSha256": "dc62e0cd77813c2300352c5e21cd3d908ccf08f8e34a70639cd2fab7b8c6c454",
+        "afterRecordSha256": "8a4b5003333752c9ef6ad20ef6a046263a3a546af299ab95d4bc24bcea05a027",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "f2d6b283232d1ebd1089588bb94256fba086ce30c43d65f424f954e58915f52e",
+          "0cf374db092e0b9a8bc35b2e4ac5cc3aa35bc6bba9587638455782c3ca74ba2c"
+        ]
+      },
+      {
+        "id": "payload",
+        "beforeRecordSha256": "5603ae45e1031bbf59dbd1c9ca27f06058af18d8e05a56f62971fe26ab86125b",
+        "afterRecordSha256": "69ae902ac85e49516ad98cac0005fbda4d7b4422442ad71eff7005c57b24ca93",
+        "changedFields": [
+          "links",
+          "summary",
+          "tldr",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "4acaa85e3d3b746b9cb3b40b8eb1af48dbd5f89acc47480cb1e863e4343d59fa",
+          "e6deda620a415a3997e973ae4efd52cb38b1de93f6e9d4c6cda04e2b8fe43437",
+          "9eee9739bbaf13b0187e776559bcd131deee070eb2b1ee8d5014f484e3cc24a5",
+          "48a98e3b2a5e03c5c7c66ec3c28a87f22cb2258fd08c7731ae5f53f981724394"
+        ]
+      },
+      {
+        "id": "dual-payload-adc",
+        "beforeRecordSha256": "50d4c5d3264c519d6d11b175e918da2e407defea9af854def24a3d915598bf4b",
+        "afterRecordSha256": "f60b39522f602ccbe3f0d12331a41612b0d69feca1c99fc13c00c50748fd1aeb",
+        "changedFields": [
+          "asOf",
+          "links",
+          "tldr",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "ac993c3f52198e61b6a1a0ed26c4f0003da0e06d355075e8bff7fa03bc66fe40",
+          "72b665b945a54163a9dee617189dadf1d824e57e35ae8907c7a693a233dd045c"
+        ]
+      },
+      {
+        "id": "therapeutic-index",
+        "beforeRecordSha256": "ca97e6fe50fffd677be25cbd7ac332baa6c9a31fb6b5fb47fe7fbe9d8de4e7df",
+        "afterRecordSha256": "0719b2d2973c7757cb8ab8ce7eb898f624401b47e46b3d46b3bf90173541e705",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "187229fcfe11fcb99b033f03121db53e75e24d53dd272cf34477891b66f63572"
+        ]
+      },
+      {
+        "id": "bispecific-adc",
+        "beforeRecordSha256": "1e3c45176aeda9ca4d881d228f5e19e21cb555e12d66cf9c5407de0b3350101e",
+        "afterRecordSha256": "9d7ef94d66f55b4a1fda5e4cf4cad75fd5b58ac6c281eb7e5c83d951a1129631",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "268e1c6df29510dfb1e38a1cadf3b7f8e87c4f394d55843e98a87619ec5dbdfd"
+        ]
+      },
+      {
+        "id": "trop2-expression",
+        "beforeRecordSha256": "762a733868835bdd2236221fa601621d9a78fc7ef55dcb609982832155a182e7",
+        "afterRecordSha256": "fabbc17ed815eaef4a081f3a1d5b9d053a4a0aea10955dbfc39f4ba36aab4ae5",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "10aca72721e725d4536af141d27bba4a616c0502b25a8a2241154577f3ccdb43",
+          "0c9174363942bd3ec7db88590132cc96b084b5a294b93b83eecf410eec8b127b"
+        ]
+      },
+      {
+        "id": "nectin-4-expression",
+        "beforeRecordSha256": "b50a059dacd20181df6f731978b48eeaaba95951c36644dbc52f8887e110217f",
+        "afterRecordSha256": "86151ed610cd6b4344eb69a53e346594861bbc42e32c1d375202e2cbe8e1b028",
+        "changedFields": [
+          "forPatient",
+          "asOf",
+          "links",
+          "summary",
+          "scoringRule",
+          "tldr",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "5f34441cccb3b00b73909f0cd4b1a8a2131174f14602fe7e6861d939c6d9f024",
+          "889c57041bd0fdded681d30e4ed7ba46e9d1646bad16c4b88b0ae484587d979f"
+        ]
+      },
+      {
+        "id": "b7-h3-expression",
+        "beforeRecordSha256": "acb95b4ac86de5cf3e43081cd150889167968a2e66dfe0b93b146b2f1b705757",
+        "afterRecordSha256": "b4fc0313a4f962b0d131ff8760f5eab8beb63f0a1583d8706df921a563b7d11a",
+        "changedFields": [
+          "forPatient",
+          "asOf",
+          "links",
+          "summary",
+          "scoringRule",
+          "tldr",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "9f54817b2c6881485aecbd2a46aa52b2d83cabd4ed920c991e720849fefcdeaf",
+          "6f8f0e28e70710343704a39cdcfaca592cac59ef84aa1231956fc3bec0e379d9"
+        ]
+      },
+      {
+        "id": "liv1",
+        "beforeRecordSha256": "1baebd924f3d3d0f4752646377dd8658a274d2c0a9e9b82bbf29e6acf4339c6c",
+        "afterRecordSha256": "ae81c8769efb09add0579912219e6b4103121bf5539fffefe48c95659c1bbbe4",
+        "changedFields": [
+          "whereFound",
+          "asOf",
+          "links",
+          "summary",
+          "tldr",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "5bc61eaf5e35184fb2ce150799af0ea8dfcf6d607343bfd11644e842e4d9392b"
+        ]
+      },
+      {
+        "id": "radioligand-therapy",
+        "beforeRecordSha256": "b2858dfd10151f03a9c374afd140921ca6bc04f02bd9435c0ec6a8b46354d46f",
+        "afterRecordSha256": "4b0e3f912055be3caffab46cf6cbd1477a76e4cb6435b1e121de6253f143dc37",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "61d0c2a87eda4ea1dc0afcddc10e4539601c40755260ab97efad2208b58c909d",
+          "101302ac91d98981f62f631c7c6a894c5d3a9760b9e4e41a48dcdf060f871be3"
+        ]
+      },
+      {
+        "id": "her2",
+        "beforeRecordSha256": "a29294c9260a66c6b008704a6912d42ac0a1ed5af6c09de872d520c128ddd1bd",
+        "afterRecordSha256": "b4c34a8ab95031970e3b190caaf0ea277bf12969bde79bab1e2c89d167ece88e",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "4be6cc38933a374bc8216b53e4cdf0d3440c076e72e65a5edb9ec2660972a267"
+        ]
+      },
+      {
+        "id": "her2-low",
+        "beforeRecordSha256": "ea57dcd11a25774e5b01cb631978f9058291eb0b2dc27e422d0353a7b97901a4",
+        "afterRecordSha256": "86cdc16cbc118b670728fe207e29798580ac6eb061c2115753f74695bf6d0a10",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "ab685107e5e1f30495ec32b98c4cef36eac07bc9294abbec1a240e7d4e25981f",
+          "21d0a0552a98383916b72b45f48deae4f90604c01300a56007c6059e955dcbb0"
+        ]
+      },
+      {
+        "id": "trastuzumab",
+        "beforeRecordSha256": "de694ebfcce9ab28c12ed321e39d4ae0744a1a4a32f54c0364716defc5b76d56",
+        "afterRecordSha256": "6342b7b109914ec924165076aec447698cbe6120559ca556206cc0632414b1ce",
+        "changedFields": [
+          "asOf",
+          "links"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "tebentafusp",
+        "beforeRecordSha256": "fe4e246cd3edbbafbf33e5849848d131c834942eeffecacdf845a37948394423",
+        "afterRecordSha256": "ae78f5a244d0326b09bcd9970ca4cf9fa8ec8fb498331db37d2f107c4cf02e18",
+        "changedFields": [
+          "asOf",
+          "links",
+          "summary",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "6dc5701f1e0401e9595f4f5e08a4cf86f5b2d67381b66ebff7abe538e56a87f7"
+        ]
+      },
+      {
+        "id": "ascent",
+        "beforeRecordSha256": "96ece193cc3453e3d4e919f13bef896edae8b640f323b358b867b8d48c845308",
+        "afterRecordSha256": "017b92ce547f8b808fe0aa0d883e1ffd53cf346fd7742b9b1e8be01089616f07",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "1a1ce1d8e2f769880661829d338c528dc2856dd97fe512343e05b8bcfef56c42"
+        ]
+      },
+      {
+        "id": "destiny-breast04",
+        "beforeRecordSha256": "9a2cf35ce770a1fa307571fb02f3a125d27b5aa483db70faa22d17744d5dd058",
+        "afterRecordSha256": "bc8ea7579ed738b7dc6dd2d9d9c147b1949a517f968764cbe66ccc71cbcc6551",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "3522955714a0e2ddfdd41d18234ab4c0f9e13ccfb54fe97208bb7dc83b9ba678"
+        ]
+      },
+      {
+        "id": "tropion-breast02",
+        "beforeRecordSha256": "85ec8a41cc287087b7e410b5b5f47cc0e7c86cfc75595c23b49960f0ed1d6d62",
+        "afterRecordSha256": "d475ab06cea7dbfa811f5c1582751030d731ad8807a98edbf78e59fb52e026f2",
+        "changedFields": [
+          "asOf",
+          "links",
+          "tldr"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "ideate-lung02",
+        "beforeRecordSha256": "e850831b7731918ab93fce64870ff51c838978714436586c8aafaf68b8c6c965",
+        "afterRecordSha256": "076a747bb198f8b9007eeee0852098ec4aeb0e817ad85fca3f9b0d1398679fb4",
+        "changedFields": [
+          "asOf",
+          "summary",
+          "tldr"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "nct04225117",
+        "beforeRecordSha256": "da58fd8404b95a73509c608105f762a120bf37ca5d89de564202051569cc65bb",
+        "afterRecordSha256": "a607f3f14e0d6dd10d3596e19892f4bab7b20cb88b979233dd0bdee8dd870dd2",
+        "changedFields": [
+          "asOf",
+          "links",
+          "summary",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "913c62682747babf5112514ed9d31b807597ed853b248576d9811ecc0763a598"
+        ]
+      },
+      {
+        "id": "dar",
+        "beforeRecordSha256": "c63a9a56705be3c2eeb40754fb48f4f0efb3e7018b38c2e02e9b7772b238fee1",
+        "afterRecordSha256": "08d94aa0e4cbf384d327353f1639dbacd6a568ad6162a69e272e9f6a351ef68d",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "newParagraphHashes": [
+          "1bb697ec2b3448306abbae3f3ff6d698c9d37b2b4f81e4aee4189351807d6ea8"
+        ]
+      },
+      {
+        "id": "tarlatamab",
+        "beforeRecordSha256": "e6106b049753a183fa2bb2f90fd6f5e9cf82fe529b78374367f1209fd63db326",
+        "afterRecordSha256": "9b8c65fcafd5308582d6e7579707028876fa3e79b342c51baa0aa451e209d44f",
+        "changedFields": [
+          "dosing",
+          "asOf"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "trastuzumab-deruxtecan",
+        "beforeRecordSha256": "15e8455d41f0622a586deb9195fa7d06be879f1328c0717d77235e1bee4b94d8",
+        "afterRecordSha256": "a8bab651d980d80dbca13a232aa70d98590ea01424e6cb8ab59dcd7d8a38a5d5",
+        "changedFields": [
+          "asOf",
+          "tldr"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "trastuzumab-emtansine",
+        "beforeRecordSha256": "5e823384353f2220cbe9030e7df65ec2770bb82f8c967c639c95606c691c0faa",
+        "afterRecordSha256": "a2e9e0ec54fa6b19920279e7a1f37c41c3f91aff6ff4bc3e185b26746b57bb9d",
+        "changedFields": [
+          "asOf",
+          "links",
+          "summary",
+          "tldr",
+          "mechanism"
+        ],
+        "newParagraphHashes": []
+      },
+      {
+        "id": "enfortumab-vedotin",
+        "beforeRecordSha256": "1fdae5f91d31676d9dd39c881cf779272bb1b999e472fb450673f01902a55570",
+        "afterRecordSha256": "2e04146097baf384e4b3454c8b43e48cbfb81e986df15942f8d3c4fd99a503b7",
+        "changedFields": [
+          "asOf",
+          "summary"
+        ],
+        "newParagraphHashes": []
+      }
+    ],
+    "limits": "Exact readback and preservation only; semantic/source acceptance remains a separate step."
+  },
+  "sourceChanges": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "sourceSha256": "c624301aa7c2859c6ec20e11ea9ccea516ff9854b83c84676ac746df051b3568",
+      "requirementsAccounted": 21,
+      "substantive": 19,
+      "evidencedAtStatedScope": 18,
+      "partial": 1,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "sourceSha256": "7c6bea79bc9837fa20ddf7b3c71c05de110eb8dc1a8595fae50ec0a3a9d41b41",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "evidencedAtStatedScope": 25,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "sourceSha256": "6a473417651ddf64ed6d28744025378732756ebfa5d7c45aff0b33f51a6d79db",
+      "requirementsAccounted": 11,
+      "substantive": 9,
+      "evidencedAtStatedScope": 9,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "sourceSha256": "4929dbecbb400a6ec26e76d0f2cf573fa18c4579a8905bd87b87523bc1351935",
+      "requirementsAccounted": 20,
+      "substantive": 18,
+      "evidencedAtStatedScope": 18,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "sourceSha256": "2786cc883a51ba9d9acb86efa3e9d5210a9841e4ec62fbfc264c357e80c76978",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "evidencedAtStatedScope": 25,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "sourceSha256": "49064aed1f416507a010ca61f4f7eeeab33fe916ac75e45b4fc95a07e797df56",
+      "requirementsAccounted": 23,
+      "substantive": 21,
+      "evidencedAtStatedScope": 21,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "sourceSha256": "08687df0227528b74ed18790807c23cd06ffa788720c6c5e6562d5eee461cba7",
+      "requirementsAccounted": 29,
+      "substantive": 27,
+      "evidencedAtStatedScope": 27,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "sourceSha256": "72e9f3e3ff3f882e59c739867d3e2e90d4fd91b3e3ee64babe9f36361fb3437b",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "evidencedAtStatedScope": 25,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "sourceSha256": "a27063d8207980e78d30ac934d1e7af695910ac2dd5fb0010eb8e9ee884a2e7d",
+      "requirementsAccounted": 29,
+      "substantive": 27,
+      "evidencedAtStatedScope": 27,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "sourceSha256": "f4e9d663c1117709692c7efa9342ca0b5df56e5d81a5c8bf16ee1c43b1ae9e22",
+      "requirementsAccounted": 21,
+      "substantive": 19,
+      "evidencedAtStatedScope": 18,
+      "partial": 1,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "sourceSha256": "64d07ccf099ac931b6c8834bbf37dce23f6d5593cce7d7b6101306a070b3bd16",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "evidencedAtStatedScope": 25,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "sourceSha256": "314ffa8da5adcba2879701b810feeff57dc667ccadaf77c10fdd97cd8e3a9393",
+      "requirementsAccounted": 24,
+      "substantive": 22,
+      "evidencedAtStatedScope": 22,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "sourceSha256": "370f927556ddb3b631421a736a3316a2bec0e075b450996971716fe2443fc923",
+      "requirementsAccounted": 12,
+      "substantive": 10,
+      "evidencedAtStatedScope": 10,
+      "partial": 0,
+      "recaps": 1,
+      "sourceScopeRows": 1
+    }
+  ],
+  "priorArrayProofRebases": 108,
+  "companionDraftUnchanged": {
+    "draft": 369,
+    "heldOwnerCount": 2,
+    "heldBeforeAfterProposals": "Private custody only, not applied; broader peer summary and source scope preserved.",
+    "priorEvidenceReferencesRetained": 10
+  },
+  "shortSummaries": {
+    "withdrawnStaleMachineTranslations": 64,
+    "correctedSimpleEnglishEntries": 8,
+    "lengthCorrections": [
+      {
+        "id": "targeted-therapy-term",
+        "before": "A targeted treatment acts on a particular molecule or process. Some block something cancer needs; others use a molecule to deliver a drug or recruit immune cells. The target name alone does not show that treatment helps or leaves healthy tissue unharmed.",
+        "after": "A targeted treatment acts on a particular molecule or process. Some block cancer growth; others deliver drugs or recruit immune cells. The target name alone does not show benefit or safety.",
+        "length": 189
+      },
+      {
+        "id": "liv1",
+        "before": "LIV-1 is a protein that moves zinc. Researchers have studied using it to deliver a drug to breast cancer cells. Finding the protein or finishing a trial does not by itself show patient benefit or drug availability.",
+        "after": "LIV-1 moves zinc. Researchers study it as an address for drug delivery in breast cancer. Finding it or finishing a trial does not by itself show patient benefit or drug availability.",
+        "length": 182
+      }
+    ],
+    "selectors": {
+      "entries": 387,
+      "available": 199,
+      "EnglishFallback": 188
+    },
+    "acceptedLongCaches": 0,
+    "newLanguageReviews": 0
+  },
+  "factoryChanges": "Existing optional notes, links, scoring rule and date are forwarded without changing the other outputs; the SCLC trial type accepts its existing per-record date. No schema field added.",
+  "generatedOutcomeRow": {
+    "generator": "scripts/fetch-registry-outcomes.ts studyToData",
+    "sourceSha256": "bedf7c01106bdc1b16e6c29df8bd7e4189001b26d97bcb5a96c1e7633cb80210",
+    "registryId": "NCT04225117",
+    "onlyDateChanged": true,
+    "before": {
+      "outcomes": [
+        {
+          "endpoint": "Cohorts 1-8: Confirmed Overall Response Rate (ORR) (Complete Response [CR] and Partial Response [PR]) Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (V)1.1 Per Investigator Assessment",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Cohort 1: HR+/HER2- Breast Cancer",
+              "n": 45,
+              "value": 15.6,
+              "note": "95% CI 6.49 to 29.46; Figures from the ClinicalTrials.gov results section (first posted 2026-04-13), not from a publication"
+            },
+            {
+              "name": "Cohort 2: TNBC Cancer",
+              "n": 42,
+              "value": 19,
+              "note": "95% CI 8.60 to 34.12"
+            },
+            {
+              "name": "Cohort 3: Squamous NSCLC",
+              "n": 23,
+              "value": 4.3,
+              "note": "95% CI 0.11 to 21.95"
+            },
+            {
+              "name": "Cohort 4: Non-squamous NSCLC",
+              "n": 43,
+              "value": 16.3,
+              "note": "95% CI 6.81 to 30.70"
+            },
+            {
+              "name": "Cohort 5: Head and Neck Cancer",
+              "n": 46,
+              "value": 23.9,
+              "note": "95% CI 12.59 to 38.77"
+            },
+            {
+              "name": "Cohort 7: EAC",
+              "n": 42,
+              "value": 9.5,
+              "note": "95% CI 2.66 to 22.62"
+            },
+            {
+              "name": "Cohort 8: ESCC",
+              "n": 44,
+              "value": 18.2,
+              "note": "95% CI 8.19 to 32.71"
+            }
+          ],
+          "source": "https://clinicaltrials.gov/study/NCT04225117?tab=results"
+        },
+        {
+          "endpoint": "Cohort 9: Confirmed ORR (CR and PR) Per RECIST V1.1 Per Investigator Assessment",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Cohort 9: HNSCC",
+              "n": 41,
+              "value": 39,
+              "note": "95% CI 24.20 to 55.50; Figures from the ClinicalTrials.gov results section (first posted 2026-04-13), not from a publication"
+            }
+          ],
+          "source": "https://clinicaltrials.gov/study/NCT04225117?tab=results"
+        }
+      ],
+      "asOf": "2026-09-22",
+      "enrolled": 329,
+      "enrolledBasis": "registry",
+      "yearReported": 2026
+    },
+    "after": {
+      "outcomes": [
+        {
+          "endpoint": "Cohorts 1-8: Confirmed Overall Response Rate (ORR) (Complete Response [CR] and Partial Response [PR]) Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (V)1.1 Per Investigator Assessment",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Cohort 1: HR+/HER2- Breast Cancer",
+              "n": 45,
+              "value": 15.6,
+              "note": "95% CI 6.49 to 29.46; Figures from the ClinicalTrials.gov results section (first posted 2026-04-13), not from a publication"
+            },
+            {
+              "name": "Cohort 2: TNBC Cancer",
+              "n": 42,
+              "value": 19,
+              "note": "95% CI 8.60 to 34.12"
+            },
+            {
+              "name": "Cohort 3: Squamous NSCLC",
+              "n": 23,
+              "value": 4.3,
+              "note": "95% CI 0.11 to 21.95"
+            },
+            {
+              "name": "Cohort 4: Non-squamous NSCLC",
+              "n": 43,
+              "value": 16.3,
+              "note": "95% CI 6.81 to 30.70"
+            },
+            {
+              "name": "Cohort 5: Head and Neck Cancer",
+              "n": 46,
+              "value": 23.9,
+              "note": "95% CI 12.59 to 38.77"
+            },
+            {
+              "name": "Cohort 7: EAC",
+              "n": 42,
+              "value": 9.5,
+              "note": "95% CI 2.66 to 22.62"
+            },
+            {
+              "name": "Cohort 8: ESCC",
+              "n": 44,
+              "value": 18.2,
+              "note": "95% CI 8.19 to 32.71"
+            }
+          ],
+          "source": "https://clinicaltrials.gov/study/NCT04225117?tab=results"
+        },
+        {
+          "endpoint": "Cohort 9: Confirmed ORR (CR and PR) Per RECIST V1.1 Per Investigator Assessment",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Cohort 9: HNSCC",
+              "n": 41,
+              "value": 39,
+              "note": "95% CI 24.20 to 55.50; Figures from the ClinicalTrials.gov results section (first posted 2026-04-13), not from a publication"
+            }
+          ],
+          "source": "https://clinicaltrials.gov/study/NCT04225117?tab=results"
+        }
+      ],
+      "asOf": "2026-11-11",
+      "enrolled": 329,
+      "enrolledBasis": "registry",
+      "yearReported": 2026
+    },
+    "beforeFileSha256": "41b8dc842bd35abb5da8b1099f5ba94a97c950492b2e3ab68945ad7bce9d1a03",
+    "afterFileSha256": "268df58d8b1b839a6cc0849ce1e5b948aaf3c7bae700ac0a6badd6af2a35b790",
+    "otherRowsChanged": 0,
+    "skipped": {}
+  },
+  "fetcherCLI": "Transformation is importable without a bulk fetch; CLI smoke used zero requests and wrote no generated data.",
+  "productChange": false,
+  "changeClass": "product 0  data 28  neither 1   (--cached)"
+}

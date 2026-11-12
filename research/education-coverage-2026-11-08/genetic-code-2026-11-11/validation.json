@@ -1,0 +1,226 @@
+{
+  "dataCommit": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "graphRecords": 23083,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.86
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 0.78
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.92
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 303.75
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "firstRunFinding": "The new term crossed a stale term-population census checkpoint. Its verified denominator was refreshed from 1317 to 1581; target, label and MAX_DRIFT are unchanged. The final category is the existing Genomics & genetics category.",
+  "newIds": [
+    "genetic-code"
+  ],
+  "changedExistingIds": [
+    "brca-reversion-mutations",
+    "dna-term",
+    "mutation"
+  ],
+  "recordFieldReadback": {
+    "checks": [
+      {
+        "recordId": "dna-term",
+        "field": "aka",
+        "exactInputValue": true,
+        "fieldSha256": "7286993c149ebc5242b15660e3c067a0e4879265b68cb4442f06780d5ec49e62"
+      },
+      {
+        "recordId": "dna-term",
+        "field": "related",
+        "exactInputValue": true,
+        "fieldSha256": "dd22014800ec8d1cf9e3361c7240dd9382a231ec74b0b7a4d4dcda5b2ae8a320"
+      },
+      {
+        "recordId": "mutation",
+        "field": "related",
+        "exactInputValue": true,
+        "fieldSha256": "8c877ad8bc05a2a94484caa99bc6f5cbef821406a04f6e839dd775e67f6aaa3e"
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "field": "tldr",
+        "exactInputValue": true,
+        "fieldSha256": "4c2f9c011b8165fe0463e2bece4cae79af242b5c3df2450e4de682ed90365f71"
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "field": "summary",
+        "exactInputValue": true,
+        "fieldSha256": "79d3b6e774b790333a7ccab54794444a7140615cd220e65ffb33e26e9e2847fc"
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "field": "notes",
+        "exactInputValue": true,
+        "fieldSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4"
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "field": "links",
+        "exactInputValue": true,
+        "fieldSha256": "5025abd3905182c62dac5738e42430caf92da633aec1b3fc0af6db04b589c755"
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "field": "asOf",
+        "exactInputValue": true,
+        "fieldSha256": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "id",
+        "exactInputValue": true,
+        "fieldSha256": "4087de4b81d91856cf38a3dfd31da8503f5acc73722d7442b892d2b940019e73"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "kind",
+        "exactInputValue": true,
+        "fieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "name",
+        "exactInputValue": true,
+        "fieldSha256": "4dfaf65225e0ec693ff9ff9b3cec2b08b1cba53d252888288bb03ae9efb4ff46"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "aka",
+        "exactInputValue": true,
+        "fieldSha256": "58fda0c1867be10101ee4ea38aaebd7b07fbf59c904aba7b3a6d9ccc4b01e68e"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "category",
+        "exactInputValue": true,
+        "fieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "asOf",
+        "exactInputValue": true,
+        "fieldSha256": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "tldr",
+        "exactInputValue": true,
+        "fieldSha256": "a1cbbf00926ba6de858528001e0c6d900db87074df228996269b4777dbaedbde"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "summary",
+        "exactInputValue": true,
+        "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "notes",
+        "exactInputValue": true,
+        "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "related",
+        "exactInputValue": true,
+        "fieldSha256": "354656ff71111263774637388539f1e8246e3c76a63b2a8ee3814c0ef22105da"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "links",
+        "exactInputValue": true,
+        "fieldSha256": "7d59e484362d812a4c0e2dd5d11f4319b495c8fece2f3d3d6851b8673e687e88"
+      },
+      {
+        "recordId": "genetic-code",
+        "field": "wikipedia",
+        "exactInputValue": true,
+        "fieldSha256": "a62f5f5a5f87c3efeefe63c930e5c3ed898a175ce9aa048215035c4d2afb2a38"
+      }
+    ],
+    "graphRecords": 23083,
+    "scope": "All authored fields match exact final inputs, including the canonical Genomics & genetics category.",
+    "changedExistingIds": [
+      "brca-reversion-mutations",
+      "dna-term",
+      "mutation"
+    ],
+    "addedIds": [
+      "genetic-code"
+    ]
+  },
+  "readerRecords": 4,
+  "exactFieldReferences": 38,
+  "completeParagraphChecks": 64,
+  "sourceLinksMissing": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "exactJSONEntities": 4,
+    "markdownPassages": 25,
+    "openAPI": true,
+    "dedupe": "passed"
+  },
+  "codonAndSequenceChecks": {
+    "all64CodonsInTwoTables": true,
+    "referenceTranscriptExamples": true,
+    "moduloThreeArithmetic": true
+  },
+  "secretScan": {
+    "files": [
+      "CORRECTIONS.md",
+      "src/data/education-genetic-code-2026-11.ts",
+      "src/data/i18n/zh.ts",
+      "src/data/index.ts",
+      "src/data/terms-basics.ts",
+      "src/data/terms-biomarkers-wave.ts",
+      "src/lib/health-denominators.test.ts"
+    ],
+    "bytesScanned": 28796,
+    "exitCode": 0,
+    "findings": 0,
+    "finalTestedSourceHashesMatch": true
+  },
+  "zeroChangeReplay": "Recorded separately after deterministic replay",
+  "changeClassification": {
+    "product": 0,
+    "data": 5,
+    "neither": 2
+  },
+  "summarySelectorInputPreservation": {
+    "selectorInputFieldsUnchanged": true,
+    "records": 4,
+    "fields": [
+      "tldr",
+      "summary"
+    ],
+    "actualRuntime": "runtime-final-dirty-r4.json",
+    "priorSelectorReceipt": "summary-consumers-final.json"
+  }
+}

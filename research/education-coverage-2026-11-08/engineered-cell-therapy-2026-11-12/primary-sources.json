@@ -1,0 +1,3077 @@
+{
+  "sources": [
+    {
+      "id": "16946036",
+      "pmid": "16946036",
+      "pmcid": "PMC2267026",
+      "doi": "10.1126/science.1129003",
+      "label": "Cancer regression in patients after transfer of genetically engineered lymphocytes. (2006)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "56a0c14d3ed3942c95d587954c7b85b40c4fae75044a9950d7d23a67d538f708",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "16946036",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Cancer Regression in Patients After Transfer of Genetically Engineered Lymphocytes",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1126/science.1129003",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "18446242",
+      "pmid": "18446242",
+      "pmcid": "PMC2329594",
+      "doi": "10.1371/journal.pone.0002054",
+      "label": "A minimal fragment of MUC1 mediates growth of cancer cells. (2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18446242/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "e069f4ee3ff3d5c60cafe3a706d82201f09f53fae0cda82acaac258ef36d3def",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "10.1371/journal.pone.0002054",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "A Minimal Fragment of MUC1 Mediates Growth of Cancer Cells",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1371/journal.pone.0002054",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        10,
+        11,
+        12,
+        18,
+        19
+      ],
+      "bodyPassageFile": "body-captures/epmc-PMC2329594-passages.json",
+      "bodyPassageFileSha256": "fe2e8d1bda5eea25cc578da59350adfcbfe5b0bbf2ea2a146a2e9c33cb8e6cfa"
+    },
+    {
+      "id": "20179677",
+      "pmid": "20179677",
+      "pmcid": "PMC2862534",
+      "doi": "10.1038/mt.2010.24",
+      "label": "Case report of a serious adverse event following the administration of T cells transduced with a chimeric antigen receptor recognizing ERBB2. (2010)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20179677/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "1e5ceb9f45347c595e2230a92d5c135da219601a6fdab8e795234fa0820afe30",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "20179677",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Case Report of a Serious Adverse Event Following the Administration of T Cells Transduced With a Chimeric Antigen Receptor Recognizing ERBB2",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/mt.2010.24",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "21610146",
+      "pmid": "21610146",
+      "pmcid": "PMC3612507",
+      "doi": "10.1158/1078-0432.ccr-11-0351",
+      "label": "Expression of a functional CCR2 receptor enhances tumor localization and tumor eradication by retargeted human T cells expressing a mesothelin-specific chimeric antibody receptor. (2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21610146/",
+      "sourceType": "primary research report",
+      "readingDepth": "Complete abstract and two targeted whole passages (Introduction 11, Methods 29); not a whole-paper read",
+      "abstractSha256": "6269c97a4334afc145272456190d683595078ec72566d82792f912fc0a1cdcdd",
+      "completeAbstractRead": true,
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        11,
+        29
+      ],
+      "bodyPassageFile": "body-captures/PMC3612507-passages.json",
+      "identityChecks": [
+        {
+          "epmcUnique": true,
+          "titleAuthorsYearMatched": true,
+          "crossrefHTTP": "200",
+          "crossrefDOI": "10.1158/1078-0432.ccr-11-0351",
+          "crossrefTitleMatched": true
+        }
+      ]
+    },
+    {
+      "id": "21742772",
+      "pmid": "21742772",
+      "pmcid": null,
+      "doi": "10.1158/0008-5472.can-11-0103",
+      "label": "IL-12 release by engineered T cells expressing chimeric antigen receptors can effectively Muster an antigen-independent macrophage response on tumor cells that have shut down tumor antigen expression. (2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21742772/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "94a7e18291fa02ef547f62ba26927d7444a79f78352177a40bb6013ca2f6cdf8",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "21742772",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "IL-12 Release by Engineered T Cells Expressing Chimeric Antigen Receptors Can Effectively Muster an Antigen-Independent Macrophage Response on Tumor Cells That Have Shut Down Tumor Antigen Expression",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1158/0008-5472.can-11-0103",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "21949831",
+      "pmid": "21949831",
+      "pmcid": "PMC3176802",
+      "doi": "10.1371/journal.pone.0025007",
+      "label": "Structural basis for distinct binding properties of the human galectins to Thomsen-Friedenreich antigen. (2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21949831/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "12d3c834b187a0db09eab63be609d67b0baa19404342303142bc0403fdc5c571",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "21949831",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Structural Basis for Distinct Binding Properties of the Human Galectins to Thomsen-Friedenreich Antigen",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1371/journal.pone.0025007",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "22047558",
+      "pmid": "22047558",
+      "pmcid": "PMC3236370",
+      "doi": "10.1056/nejmoa1106152",
+      "label": "Inducible apoptosis as a safety switch for adoptive cell therapy. (2011)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22047558/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "2001544fd778dc6eee85d562450d40c42a7f4793a1c7836ca585cae7257a31fb",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "22047558",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Inducible Apoptosis as a Safety Switch for Adoptive Cell Therapy",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1056/nejmoa1106152",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "22418702",
+      "pmid": "22418702",
+      "pmcid": "PMC4964602",
+      "doi": "10.1007/s10549-012-2018-4",
+      "label": "Mesothelin, a novel immunotherapy target for triple negative breast cancer. (2012)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22418702/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "d0eb4d87de8f436e96d71031a8418042b51de3dba745123494085a06d2902609",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "PMC4964602",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Mesothelin, a novel immunotherapy target for triple negative breast cancer",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1007/s10549-012-2018-4",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        4,
+        11,
+        13,
+        14,
+        19,
+        20,
+        21,
+        24,
+        43
+      ],
+      "bodyPassageFile": "body-captures/PMC4964602-passages.json",
+      "bodyPassageFileSha256": "0d4b9d230109772e796823b646cff1822cb4f1b93fb4fc191f4f937a36d616d2"
+    },
+    {
+      "id": "23242161",
+      "pmid": "23242161",
+      "pmcid": "PMC5505184",
+      "doi": "10.1038/nbt.2459",
+      "label": "Combinatorial antigen recognition with balanced signaling promotes selective tumor eradication by engineered T cells. (2013)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23242161/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "5c2ce675cb20658d289b1493fe3d4fd13c0bce1d8e422c353b9bf3fc88b8fd3a",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "23242161",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Combinatorial antigen recognition with balanced signaling promotes selective tumor eradication by engineered T cells",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/nbt.2459",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "25212991",
+      "pmid": "25212991",
+      "pmcid": "PMC4692801",
+      "doi": "10.1158/2326-6066.cir-14-0127",
+      "label": "The nonsignaling extracellular spacer domain of chimeric antigen receptors is decisive for in vivo antitumor activity. (2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25212991/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "d6cc35f510ef269235fa892aaa0f3ff76edd1af9b9f768541050dfc6525115ac",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "25212991",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "The Nonsignaling Extracellular Spacer Domain of Chimeric Antigen Receptors Is Decisive for\n                    In Vivo\n                    Antitumor Activity",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1158/2326-6066.cir-14-0127",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        39
+      ],
+      "bodyPassageFile": "body-captures/efetch-PMC4692801-passages.json",
+      "bodyPassageFileSha256": "848f5bec15cbc1797cda4d2bb4ddd381738897288163ddd424ccbefdcca2afd7"
+    },
+    {
+      "id": "25695689",
+      "pmid": "25695689",
+      "pmcid": "PMC4433819",
+      "doi": "10.1158/1078-0432.ccr-14-2085",
+      "label": "Tumor-infiltrating lymphocytes genetically engineered with an inducible gene encoding interleukin-12 for the immunotherapy of metastatic melanoma. (2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "37c2befa51225eb4c4ffbf1a4936a8b0e1836e0a5fe9f841295c5edc61c36fe2",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "25695689",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Tumor-Infiltrating Lymphocytes Genetically Engineered with an Inducible Gene Encoding Interleukin-12 for the Immunotherapy of Metastatic Melanoma",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1158/1078-0432.ccr-14-2085",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "25985798",
+      "pmid": "25985798",
+      "pmcid": null,
+      "doi": "10.1517/14712598.2015.1046430",
+      "label": "TRUCKs: the fourth generation of CARs. (2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25985798/",
+      "sourceType": "review",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "c4b9c096a76c44e6d0698eaba477701363bf783eac1cc392b7b79cabe4b21c8d",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "25985798",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "TRUCKs: the fourth generation of CARs",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1517/14712598.2015.1046430",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "26650966",
+      "pmid": "26650966",
+      "pmcid": "PMC5374867",
+      "doi": "10.1089/hum.2015.136",
+      "label": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle. (2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26650966/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "53692acd75ad1b7158172185f4b20305258f4312f8814d403077002801e62b80",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "26650966",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1089/hum.2015.136",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "26830879",
+      "pmid": "26830879",
+      "pmcid": "PMC4752902",
+      "doi": "10.1016/j.cell.2016.01.011",
+      "label": "Precision Tumor Recognition by T Cells With Combinatorial Antigen-Sensing Circuits. (2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26830879/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "18589916983798be7ad46212b91c70121feb2a6548d6cf3c7bac0232a4b4955a",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "26830879",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Precision Tumor Recognition by T Cells With Combinatorial Antigen-Sensing Circuits",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1016/j.cell.2016.01.011",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        15,
+        27,
+        34
+      ],
+      "bodyPassageFile": "body-captures/PMC4752902-passages.json",
+      "bodyPassageFileSha256": "e8d04ef60e91076e75851e336ac47887f603c64180bd2dd5188f2cde3dddb572"
+    },
+    {
+      "id": "26885860",
+      "pmid": "26885860",
+      "pmcid": "PMC13498396",
+      "doi": "10.1016/j.immuni.2016.01.021",
+      "label": "Distinct Signaling of Coreceptors Regulates Specific Metabolism Pathways and Impacts Memory Development in CAR T Cells. (2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26885860/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "e5b16dd45ef4689dd0d30656ffdd5f471a2e5218e01795f3747bdb989559b8e2",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "26885860",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Distinct Signaling of Coreceptors Regulates Specific Metabolism Pathways and Impacts Memory Development in CAR T Cells",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1016/j.immuni.2016.01.021",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "27482888",
+      "pmid": "27482888",
+      "pmcid": "PMC5004935",
+      "doi": "10.1172/jci86721",
+      "label": "Phase I trials using Sleeping Beauty to generate CD19-specific CAR T cells. (2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27482888/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "8d0fe041d3d3732260c6d0f62a532c041a67eac5d8a1b5a6df6670c334d2e94f",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "JCI86721",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Phase I trials using Sleeping Beauty to generate CD19-specific CAR T cells",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1172/jci86721",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "29769722",
+      "pmid": "29769722",
+      "pmcid": null,
+      "doi": "10.1038/s41586-018-0130-2",
+      "label": "Bystander CD8+ T cells are abundant and phenotypically distinct in human tumour infiltrates. (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "288c00760964712d8cb81e2dc0d47b32a59093f036f04be856f3c91a36afba4d",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "29769722",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Bystander CD8+ T cells are abundant and phenotypically distinct in human tumour infiltrates",
+          "normalisedTitleEqual": false,
+          "crossrefDOI": "10.1038/s41586-018-0130-2",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "29789554",
+      "pmid": "29789554",
+      "pmcid": "PMC5964073",
+      "doi": "10.1038/s41467-018-04454-8",
+      "label": "Synthetic cytokine receptors transmit biological signals using artificial ligands. (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29789554/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "9ea4b73a80e2ecee9ee65759d288d0c4aef8b01727a8a2ea4a9da328edd82da4",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "29789554",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Synthetic cytokine receptors transmit biological signals using artificial ligands",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41467-018-04454-8",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        4,
+        10
+      ],
+      "bodyPassageFile": "body-captures/PMC5964073-passages.json",
+      "bodyPassageFileSha256": "2bdd31b468deef2539f01590bd078028d2edab9448597142c58b5764bee4448a"
+    },
+    {
+      "id": "30224381",
+      "pmid": "30224381",
+      "pmcid": "PMC6220327",
+      "doi": "10.15252/emmm.201809158",
+      "label": "In vivo generation of human CD19-CAR T cells results in B-cell depletion and signs of cytokine release syndrome. (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30224381/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "0f0ff66cf08ac17297ef78975214310c9666a74af2dbfc7d05edb0138c3a6dde",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "10.15252/emmm.201809158",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "In vivo generation of human CD19‐CAR T cells results in B‐cell depletion and signs of cytokine release syndrome",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.15252/emmm.201809158",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        61
+      ],
+      "bodyPassageFile": "body-captures/PMC6220327-passages.json",
+      "bodyPassageFileSha256": "89a4b3fc41c4d3921a9ff56c734344fc181fd3e8c8e115e0b0569e564925ac11"
+    },
+    {
+      "id": "30309819",
+      "pmid": "30309819",
+      "pmcid": "PMC6277484",
+      "doi": "10.1016/j.ymthe.2018.09.009",
+      "label": "In Vivo Fate and Activity of Second- versus Third-Generation CD19-Specific CAR-T Cells in B Cell Non-Hodgkin's Lymphomas. (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "ab510d7d84ae8991b148929bca8c9e4d39c1e6bc4bd8c60fb43df293c9f60562",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "30309819",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "In Vivo Fate and Activity of Second- versus Third-Generation CD19-Specific CAR-T Cells in B Cell Non-Hodgkin’s Lymphomas",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1016/j.ymthe.2018.09.009",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "32023374",
+      "pmid": "32023374",
+      "pmcid": "PMC7101242",
+      "doi": "10.1056/nejmoa1910607",
+      "label": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors. (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32023374/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "6fff5653e8bb30203c6c36fe0bd96c7119539cb7a04ac36c96f8d52edf797858",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "32023374",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1056/nejmoa1910607",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "32071339",
+      "pmid": "32071339",
+      "pmcid": "PMC7028910",
+      "doi": "10.1038/s41598-020-59736-3",
+      "label": "Tissue factor as a new target for CAR-NK cell immunotherapy of triple-negative breast cancer. (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32071339/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "817ff2cea5b70c46b7b5905a7b81353a54f793c496629961215b94153c6033a3",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "10.1038/s41598-020-59736-3",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Tissue factor as a new target for CAR-NK cell immunotherapy of triple-negative breast cancer",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41598-020-59736-3",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        12,
+        18,
+        43
+      ],
+      "bodyPassageFile": "body-captures/PMC7028910-passages.json",
+      "bodyPassageFileSha256": "e58ea64bd797b2285e71d8ee82c1245e1569046bdf5d108782d00690ec1c8a6c"
+    },
+    {
+      "id": "32303620",
+      "pmid": "32303620",
+      "pmcid": "PMC7204619",
+      "doi": "10.1136/jitc-2020-000676",
+      "label": "Inhibition of TGF-β-receptor signaling augments the antitumor function of ROR1-specific CAR T-cells against triple-negative breast cancer. (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32303620/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "ebfcad081f2d1cb8109fa346eed6962363ec9ae5eaa4aee7353ac9203c744c37",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "PMC7204619",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Inhibition of TGF-β-receptor signaling augments the antitumor function of ROR1-specific CAR T-cells against triple-negative breast cancer",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1136/jitc-2020-000676",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        16,
+        24,
+        29,
+        41
+      ],
+      "bodyPassageFile": "body-captures/PMC7204619-passages.json",
+      "bodyPassageFileSha256": "76b7ee6b281b021e3b8d8242e56b871fb2ddac479cf1a1641f39b67e18591350"
+    },
+    {
+      "id": "34990237",
+      "pmid": "34990237",
+      "pmcid": "PMC9983611",
+      "doi": "10.1126/science.abm0594",
+      "label": "CAR T cells produced in vivo to treat cardiac injury. (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34990237/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "4db225595e9b753a7ce73c77d5a6a5ed7c27f48706232a17401cdeb980d2275f",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "34990237",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "CAR T cells produced in vivo to treat cardiac injury",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1126/science.abm0594",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "35314843",
+      "pmid": "35314843",
+      "pmcid": "PMC10308799",
+      "doi": "10.1038/s41591-022-01726-1",
+      "label": "PSMA-targeting TGFβ-insensitive armored CAR T cells in metastatic castration-resistant prostate cancer: a phase 1 trial. (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35314843/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "eb6e801148832fd3a1cbcdfae93f41d69c74348d772bb59b00ec504e0efd4f06",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "35314843",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "PSMA-targeting TGFβ-insensitive armored CAR T cells in metastatic castration-resistant prostate cancer: a phase 1 trial",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41591-022-01726-1",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "36318382",
+      "pmid": "36318382",
+      "pmcid": "PMC10987173",
+      "doi": "10.1007/s10549-022-06783-1",
+      "label": "EGFR as a potent CAR T target in triple negative breast cancer brain metastases. (2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36318382/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "e375da9e4d1bbe17f0342ed6467344e39783373f3fa36b33352a666868c2464a",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "PMC10987173",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "EGFR as a potent CAR T target in triple negative breast cancer brain metastases",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1007/s10549-022-06783-1",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        93,
+        131
+      ],
+      "bodyPassageFile": "body-captures/html-PMC10987173-passages.json",
+      "bodyPassageFileSha256": "a04c4596956057b4e44c0863b45257a94a3acb088a41a9cd14528dd84e4548fe"
+    },
+    {
+      "id": "36479116",
+      "pmid": "36479116",
+      "pmcid": "PMC9720259",
+      "doi": "10.3389/fimmu.2022.958082",
+      "label": "Development of Nectin4/FAP-targeted CAR-T cells secreting IL-7, CCL19, and IL-12 for malignant solid tumors. (2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36479116/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "47cb3c0b3d8c736d96d5ae19f309ee62fd00ae1f57b61de021f28190e11b5d36",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "PMC9720259",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Development of Nectin4/FAP-targeted CAR-T cells secreting IL-7, CCL19, and IL-12 for malignant solid tumors",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.3389/fimmu.2022.958082",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        18,
+        57,
+        59
+      ],
+      "bodyPassageFile": "body-captures/PMC9720259-passages.json",
+      "bodyPassageFileSha256": "3074107b06325e9a82fa9548af95b34a4af4dbacfdce88ed602991ea6fae52f3"
+    },
+    {
+      "id": "37501016",
+      "pmid": "37501016",
+      "pmcid": "PMC10427427",
+      "doi": "10.1038/s41591-023-02452-y",
+      "label": "Mesothelin-targeting T cell receptor fusion construct cell therapy in refractory solid tumors: phase 1/2 trial interim results. (2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37501016/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "4de2fe2688bb819385eca151e338302b8fa2a28c10f05898c22822b9afb9f323",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "PMC10427427",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Mesothelin-targeting T cell receptor fusion construct cell therapy in refractory solid tumors: phase 1/2 trial interim results",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41591-023-02452-y",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        },
+        {
+          "inputKey": "10.1038/s41591-023-02452-y",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Mesothelin-targeting T cell receptor fusion construct cell therapy in refractory solid tumors: phase 1/2 trial interim results",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41591-023-02452-y",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        7,
+        8,
+        11,
+        13,
+        16,
+        19,
+        27,
+        35,
+        36,
+        52,
+        121,
+        123,
+        150,
+        158
+      ],
+      "bodyPassageFile": "body-captures/PMC10427427-passages.json",
+      "bodyPassageFileSha256": "03bbf8aaf9684e26644cf2ced8506a1adf7749cf4d0503debad1e63bc16eebbe"
+    },
+    {
+      "id": "38865660",
+      "pmid": "38865660",
+      "pmcid": "PMC11338600",
+      "doi": "10.1056/nejmoa2401361",
+      "label": "Risk of Second Tumors and T-Cell Lymphoma after CAR T-Cell Therapy. (2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38865660/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "bd1ae36ceaca378af3ec0b485cb77437b2cccd406c48549c31f68bf14b0d0b26",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "38865660",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Risk of Second Tumors and T-Cell Lymphoma after CAR T-Cell Therapy",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1056/nejmoa2401361",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "39466024",
+      "pmid": "39466024",
+      "pmcid": "PMC11788652",
+      "doi": "10.1158/1078-0432.ccr-24-2172",
+      "label": "Phase I Study of ROR1-Specific CAR-T Cells in Advanced Hematopoietic and Epithelial Malignancies. (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39466024/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "39c50bb75de8b3e8d13e8e501ff9b065142a67b64506acc53b7d7fed90d21401",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "39466024",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Phase I Study of ROR1-Specific CAR-T Cells in Advanced Hematopoietic and Epithelial Malignancies",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1158/1078-0432.ccr-24-2172",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "40536974",
+      "pmid": "40536974",
+      "pmcid": null,
+      "doi": "10.1126/science.ads8473",
+      "label": "In vivo CAR T cell generation to treat cancer and autoimmune disease. (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40536974/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "9d8a3fcad21ac109e608dd73da572ea616a3f3bca29d31981c0f2ab42d77f61c",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "40536974",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "In vivo CAR T cell generation to treat cancer and autoimmune disease",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1126/science.ads8473",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "40604285",
+      "pmid": "40604285",
+      "pmcid": "PMC12328239",
+      "doi": "10.1038/s41586-025-09212-7",
+      "label": "Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery. (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40604285/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "14ebd51df56fea4c127d1c9342a5255ce8ce5c21c45cc64c2670ee39baf397da",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "10.1038/s41586-025-09212-7",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Rewiring endogenous genes in CAR T cells for tumour-restricted payload delivery",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41586-025-09212-7",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "40903191",
+      "pmid": "40903191",
+      "pmcid": "PMC12410632",
+      "doi": "10.1136/jitc-2025-012442",
+      "label": "Preclinical evaluation of antitumor activity and toxicity of TROP2-specific CAR-T cells for treatment of triple-negative breast cancer. (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40903191/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "cf823c069a368cc099faca6cc1675230ad04df535318a4cd8a099a31e4fcb984",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "e012442",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "Preclinical evaluation of antitumor activity and toxicity of TROP2-specific CAR-T cells for treatment of triple-negative breast cancer",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1136/jitc-2025-012442",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        27,
+        33,
+        59,
+        79,
+        81,
+        83,
+        88
+      ],
+      "bodyPassageFile": "body-captures/PMC12410632-passages.json",
+      "bodyPassageFileSha256": "fd14b72c5b850b23392ca8088a2d845ebcadd05d583f0e54f25621476c8910c9"
+    },
+    {
+      "id": "41844687",
+      "pmid": "41844687",
+      "pmcid": "PMC13009191",
+      "doi": "10.1038/s41598-025-17342-1",
+      "label": "A targeting lentiviral vector for generation of CAR-T cells in vivo. (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41844687/",
+      "sourceType": "primary research report",
+      "readingDepth": "complete abstract and targeted whole passages only; not end-to-end full text",
+      "abstractSha256": "1039a07d3cdd34ea04fd024fb94593e2b49b0c63766a2c1045726fe5b33d6bcd",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "10.1038/s41598-025-17342-1",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "A targeting lentiviral vector for generation of CAR-T cells in vivo",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1038/s41598-025-17342-1",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": true,
+      "bodyPassageOrdinals": [
+        25,
+        27,
+        40
+      ],
+      "bodyPassageFile": "body-captures/PMC13009191-passages.json",
+      "bodyPassageFileSha256": "040a29eebbc46a334907dfa47f8952fd04b6a6fae1da1524cae2d2c37e239e94"
+    },
+    {
+      "id": "42711241",
+      "pmid": "42711241",
+      "pmcid": null,
+      "doi": "10.1016/j.jtct.2026.05.020",
+      "label": "ASTCT Consensus Grading for Toxicities after Immune Effector Cell Therapy. (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/",
+      "sourceType": "consensus report",
+      "readingDepth": "complete abstract; no whole-paper read claimed",
+      "abstractSha256": "3253a941bd6c533d5931d71e27e99b4b351c00ddc5208eaf9227e7d3b800a445",
+      "completeAbstractRead": true,
+      "identityChecks": [
+        {
+          "inputKey": "42711241",
+          "epmcUnique": true,
+          "crossrefHTTP": "200",
+          "crossrefTitle": "ASTCT Consensus Grading for Toxicities after Immune Effector Cell Therapy",
+          "normalisedTitleEqual": true,
+          "crossrefDOI": "10.1016/j.jtct.2026.05.020",
+          "crossrefUpdates": [],
+          "crossrefType": "journal-article"
+        }
+      ],
+      "bodyRead": false
+    },
+    {
+      "id": "FDA-ABECMA",
+      "label": "FDA Abecma prescribing information, section 5.9",
+      "url": "https://www.fda.gov/media/147055/download",
+      "sourceType": "product prescribing information",
+      "readingDepth": "Secondary-malignancy warning and lifelong monitoring passage, not all safety sections"
+    },
+    {
+      "id": "FDA-CAR-2024",
+      "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+      "url": "https://www.fda.gov/media/156896/download",
+      "sourceType": "nonbinding regulator guidance",
+      "readingDepth": "Targeted III.B, IV.C.2 identity/potency, V.A-D, VI.B.4-B.5, VI.C and opening VI.D.1 passages; not the whole document"
+    },
+    {
+      "id": "FDA-KYMRIAH",
+      "label": "FDA Kymriah prescribing information, section 11",
+      "url": "https://www.fda.gov/media/107296/download",
+      "sourceType": "product prescribing information",
+      "readingDepth": "Section 11 product architecture and preparation only"
+    },
+    {
+      "id": "FDA-LTFU-2020",
+      "label": "FDA long-term follow-up after human gene therapy (January 2020)",
+      "url": "https://www.fda.gov/media/113768/download",
+      "sourceType": "nonbinding regulator guidance",
+      "readingDepth": "Targeted integration, genome-editing and delayed-risk background paragraphs; not the whole document"
+    },
+    {
+      "id": "FDA-TECELRA",
+      "label": "FDA Tecelra prescribing information",
+      "url": "https://www.fda.gov/media/180565/download",
+      "sourceType": "product prescribing information",
+      "readingDepth": "Indications and initial administration instructions; existing detailed label checks retain their earlier scope"
+    },
+    {
+      "id": "HGNC-MUC1",
+      "label": "HGNC:7508, approved human MUC1 identity",
+      "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:7508",
+      "sourceType": "gene nomenclature registry",
+      "readingDepth": "Full raw identity record including symbol, HGNC, Entrez, Ensembl and UniProt joins"
+    },
+    {
+      "id": "INHERITED-aav-vector",
+      "label": "Previously authored canonical teaching: AAV (adeno-associated virus) vector",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "aav-vector",
+      "priorCustodyReferences": [
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "db16f45d444d2976da9bba1c2b95d2bae61b5a7f8effa89f3739cd65657b922e",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "8ee581e55cb05bdf78a5606b8afbf28e9f9860f3ce082c365c303f3b8ecb1a2f",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "notes",
+          "excerptSha256": "ac18ecea3837401ad606d315711751dddf2e77f5709e838a5363a2a8058fc60d",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle.",
+          "url": "https://doi.org/10.1089/hum.2015.136"
+        },
+        {
+          "label": "Extrachromosomal recombinant adeno-associated virus vector genomes are primarily responsible for stable liver transduction in vivo.",
+          "url": "https://doi.org/10.1128/jvi.75.15.6969-6976.2001"
+        },
+        {
+          "label": "Successful transduction of liver in hemophilia by AAV-Factor IX and limitations imposed by the host immune response.",
+          "url": "https://doi.org/10.1038/nm1358"
+        },
+        {
+          "label": "Effect of genome size on AAV vector packaging.",
+          "url": "https://doi.org/10.1038/mt.2009.255"
+        },
+        {
+          "label": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy.",
+          "url": "https://doi.org/10.1007/s40259-017-0234-5"
+        },
+        {
+          "label": "Nucleotide sequence and organization of the adeno-associated virus 2 genome.",
+          "url": "https://doi.org/10.1128/jvi.45.2.555-564.1983"
+        },
+        {
+          "label": "B cell focused transient immune suppression protocol for efficient AAV readministration to the liver.",
+          "url": "https://doi.org/10.1016/j.omtm.2024.101216"
+        },
+        {
+          "label": "Targeting a CAR to the TRAC locus with CRISPR/Cas9 enhances tumour rejection.",
+          "url": "https://doi.org/10.1038/nature21405"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        },
+        {
+          "label": "McCarty et al., 2001: self-complementary AAV in defined cell and animal experiments",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11509958/"
+        },
+        {
+          "label": "McCarty, 2008: review of self-complementary AAV and coding-capacity trade-offs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18682697/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-adenosine-and-ido",
+      "label": "Previously authored canonical teaching: Adenosine and IDO: two separate routes that can restrain immune responses",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "adenosine-and-ido",
+      "priorCustodyReferences": [
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "summary",
+          "excerptSha256": "6dca7af553fabd46167659ac2eb6d3c7fada212d2587278f03e864a22a4ce375",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "summary",
+          "excerptSha256": "cda9369b9577bfa6fdd58f7f381ecbccbca3b0888f7c6ccddf792c06587331ce",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Adenosine generation catalyzed by CD39 and CD73 expressed on regulatory T cells mediates immune suppression.",
+          "url": "https://doi.org/10.1084/jem.20062512"
+        },
+        {
+          "label": "A2A adenosine receptor protects tumors from antitumor T cells.",
+          "url": "https://doi.org/10.1073/pnas.0605251103"
+        },
+        {
+          "label": "Expression of indoleamine 2,3-dioxygenase by plasmacytoid dendritic cells in tumor-draining lymph nodes.",
+          "url": "https://doi.org/10.1172/jci21583"
+        },
+        {
+          "label": "A new method of sampling blood for measurement of plasma adenosine.",
+          "url": "https://doi.org/10.1152/ajpheart.1990.258.4.h1232"
+        },
+        {
+          "label": "Epacadostat plus pembrolizumab versus placebo plus pembrolizumab in patients with unresectable or metastatic melanoma (ECHO-301/KEYNOTE-252): a phase 3, randomised, double-blind study.",
+          "url": "https://doi.org/10.1016/s1470-2045(19)30274-8"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-allogeneic-cell-therapy",
+      "label": "Previously authored canonical teaching: Allogeneic (off-the-shelf) cell therapy",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "Depil et al., 'Off-the-shelf' allogeneic CAR T cells: development and challenges (Nature Reviews Drug Discovery 2020)",
+          "url": "https://doi.org/10.1038/s41573-019-0051-2"
+        },
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Qasim et al., 2017: two-infant donor CAR T-cell report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28123068/"
+        },
+        {
+          "label": "Benjamin et al., 2020: early UCART19 child and adult cohorts",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33308471/"
+        },
+        {
+          "label": "Dupouy et al., 2022: adult CALM cellular kinetics and manufacturing context",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36970059/"
+        },
+        {
+          "label": "Chen et al., 2024: distinct edits, laboratory models and nine recipients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38231412/"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT03229876, dated registry state differs from publication wording",
+          "url": "https://clinicaltrials.gov/study/NCT03229876"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-batch-release",
+      "label": "Previously authored canonical teaching: Batch release (lot disposition)",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "batch-release",
+      "priorCustodyReferences": [
+        {
+          "file": "access-guides-2026-11-11/coverage-proofs.json",
+          "fileSha256": "554d7a123aa513cf05dfee0f4f344b131125b89d8428376d1e5caeb9ed6c105f",
+          "field": "notes",
+          "excerptSha256": "a240e7b6622f4f47557b39429289469773aa621a20ba483525a41ff2a269f49e",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "e37afe13db03ddf53f38a9b6be00cddfd86c3d327f612eabbfe3261c122db496",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "21 CFR 211.192: production record review",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.192"
+        },
+        {
+          "label": "FDA: investigating out-of-specification test results for pharmaceutical production (May 2022)",
+          "url": "https://www.fda.gov/media/158416/download"
+        },
+        {
+          "label": "FDA: quality systems approach to pharmaceutical CGMP regulations (September 2006)",
+          "url": "https://www.fda.gov/media/71023/download"
+        },
+        {
+          "label": "21 CFR 211.22",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.22"
+        },
+        {
+          "label": "21 CFR 211.80",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.80"
+        },
+        {
+          "label": "21 CFR 211.84",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.84"
+        },
+        {
+          "label": "21 CFR 211.142",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.142"
+        },
+        {
+          "label": "21 CFR 610.1",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.1"
+        },
+        {
+          "label": "21 CFR 610.2",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.2"
+        },
+        {
+          "label": "FDA: final Potency Assurance for Cellular and Gene Therapy Products (November 2026 PDF)",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "FDA: final potency-assurance guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "Federal Register: final potency-assurance guidance, 3 November 2026",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-binder-affinity-epitope-developability",
+      "label": "Previously authored canonical teaching: Binder affinity, epitope and developability",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "1e67dc446e812ff2ae95b666ed1f529fe4b47ea09cb0e04a0337c66b70f20f12",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Biophysical properties of the clinical-stage antibody landscape.",
+          "url": "https://doi.org/10.1073/pnas.1616408114"
+        },
+        {
+          "label": "Ways and Parham, 1983: the binding of monoclonal antibodies to cell-surface molecules",
+          "url": "https://doi.org/10.1042/bj2160423"
+        },
+        {
+          "label": "Rudnick et al., 2011: influence of affinity and antigen internalization on uptake and penetration of anti-HER2 antibodies in solid tumors",
+          "url": "https://doi.org/10.1158/0008-5472.can-10-2277"
+        },
+        {
+          "label": "FDA/ICH Q6B: specifications for biotechnological and biological products",
+          "url": "https://www.fda.gov/media/71510/download"
+        },
+        {
+          "label": "Kinna et al., 2026: antibody format matters, a comparative analysis of VHH and scFv domains",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-binder-discovery",
+      "label": "Previously authored canonical teaching: Binder discovery",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "binder-discovery",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "summary",
+          "excerptSha256": "d2c832d90dda33b0e443fb06674aa9bd111141e4764e13ed103f057746f5c703",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Köhler and Milstein, 1976: derivation of specific antibody-producing tissue culture and tumor lines by cell fusion",
+          "url": "https://doi.org/10.1002/eji.1830060713"
+        },
+        {
+          "label": "McCafferty et al., 1990: phage antibodies, filamentous phage displaying antibody variable domains",
+          "url": "https://doi.org/10.1038/348552a0"
+        },
+        {
+          "label": "Boder and Wittrup, 1997: yeast surface display for screening combinatorial polypeptide libraries",
+          "url": "https://doi.org/10.1038/nbt0697-553"
+        },
+        {
+          "label": "Watson et al., 2023: de novo design of protein structure and function with RFdiffusion",
+          "url": "https://doi.org/10.1038/s41586-023-06415-8"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-binder-format-constraints",
+      "label": "Previously authored canonical teaching: Format-dependent binder function",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "binder-format-constraints",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "5fb7660f0b15c16c2bd9ba019622cff1406ad08389b3bb2526505cd437e208a4",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        },
+        {
+          "label": "Junutula et al., 2008: site-specific conjugation of a cytotoxic drug to an antibody improves the therapeutic index",
+          "url": "https://doi.org/10.1038/nbt.1480"
+        },
+        {
+          "label": "Hudecek et al., 2015: the nonsignaling extracellular spacer domain of chimeric antigen receptors is decisive for in vivo antitumor activity",
+          "url": "https://doi.org/10.1158/2326-6066.cir-14-0127"
+        },
+        {
+          "label": "Long et al., 2015: 4-1BB costimulation ameliorates T cell exhaustion induced by tonic signaling of chimeric antigen receptors",
+          "url": "https://doi.org/10.1038/nm.3838"
+        },
+        {
+          "label": "FDA: considerations for the development of CAR T cell products (January 2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-binder-targeting-module",
+      "label": "Previously authored canonical teaching: Binders as targeting modules",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "binder-targeting-module",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "e017ad11179acb1cb8b7d4c46c47d5387c61ad6022b212829557dcd7fd35089a",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+          "url": "https://doi.org/10.1073/pnas.85.16.5879"
+        },
+        {
+          "label": "Naturally occurring antibodies devoid of light chains.",
+          "url": "https://doi.org/10.1038/363446a0"
+        },
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Eshhar et al., 1993: specific activation and targeting of cytotoxic lymphocytes through chimeric single chains",
+          "url": "https://doi.org/10.1073/pnas.90.2.720"
+        },
+        {
+          "label": "Rurik et al., 2022: CAR T cells produced in vivo to treat cardiac injury",
+          "url": "https://doi.org/10.1126/science.abm0594"
+        },
+        {
+          "label": "FDA: clinical pharmacology considerations for antibody-drug conjugates (March 2024)",
+          "url": "https://www.fda.gov/media/155997/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-car-nk-macrophage",
+      "label": "Previously authored canonical teaching: CAR-NK & CAR-macrophage",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "car-nk-macrophage",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "Liu et al., CAR-transduced natural killer cells in CD19-positive lymphoid tumours (NEJM 2020)",
+          "url": "https://doi.org/10.1056/NEJMoa1910607"
+        },
+        {
+          "label": "Klichinsky et al., Human chimeric antigen receptor macrophages for cancer immunotherapy (Nature Biotechnology 2020)",
+          "url": "https://doi.org/10.1038/s41587-020-0462-y"
+        },
+        {
+          "label": "Tang et al.: irradiated CD33-CAR NK-92 cells in an early AML study (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30034945/"
+        },
+        {
+          "label": "Karre et al.: reduced self-MHC and rejection in mouse lymphoma models (1986)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/"
+        },
+        {
+          "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-car-t",
+      "label": "Previously authored canonical teaching: CAR-T cell therapy",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "car-t",
+      "priorCustodyReferences": [
+        {
+          "file": "surface-targeting-2026-11-11/coverage-proofs.json",
+          "fileSha256": "07e0d5239083cd96679fc9722b6267d7756d19158d9fa00b5a81206ce4b79c15",
+          "field": "summary",
+          "excerptSha256": "26ec362216fabf08de817b222e966bcf6c89f0ee6528fd5e5622ace13cc92d1b",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell"
+        },
+        {
+          "label": "Gross, Waks and Eshhar, the first chimeric antigen receptor (PNAS 1989)",
+          "url": "https://doi.org/10.1073/pnas.86.24.10024"
+        },
+        {
+          "label": "Sotillo et al., Cancer Discov 2015: acquired mutations and alternative splicing of CD19 enable resistance to CART-19",
+          "url": "https://doi.org/10.1158/2159-8290.CD-15-1020"
+        },
+        {
+          "label": "Deng et al., Nat Med 2020: single-cell features of the axicabtagene ciloleucel infusion product that track efficacy and toxicity in 24 patients",
+          "url": "https://doi.org/10.1038/s41591-020-1061-7"
+        },
+        {
+          "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "NCI: T-cell transfer therapy and harms",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+        },
+        {
+          "label": "Eshhar et al.: single-chain binding and signaling receptors (1993)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8421711/"
+        },
+        {
+          "label": "Hudecek et al.: spacer composition, Fc interactions and mouse-model activity (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25212991/"
+        },
+        {
+          "label": "Kawalekar et al.: costimulatory domains and human T-cell metabolism (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26885860/"
+        },
+        {
+          "label": "Ramos et al.: co-infused second- and third-generation constructs (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/"
+        },
+        {
+          "label": "Rafiq et al.: WT1 peptide-HLA-targeting CAR proof of concept (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27924074/"
+        },
+        {
+          "label": "CAR signaling-domain library, pooled screening and single-cell analysis (2024 preprint)",
+          "url": "https://doi.org/10.1101/2024.02.26.582129"
+        },
+        {
+          "label": "FDA: approved cellular and gene therapy products",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "FDA: elimination of REMS for named autologous CAR T-cell products (2025)",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor"
+        },
+        {
+          "label": "FDA: boxed-warning changes for T-cell malignancy risk (2024)",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed"
+        },
+        {
+          "label": "NCI: CAR T Cells, Engineering Patients’ Immune Cells",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells"
+        },
+        {
+          "label": "FDA Kymriah prescribing information, section 11",
+          "url": "https://www.fda.gov/media/107296/download"
+        },
+        {
+          "label": "Precision Tumor Recognition by T Cells With Combinatorial Antigen-Sensing Circuits. (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26830879/"
+        },
+        {
+          "label": "Combinatorial antigen recognition with balanced signaling promotes selective tumor eradication by engineered T cells. (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23242161/"
+        },
+        {
+          "label": "Preclinical evaluation of antitumor activity and toxicity of TROP2-specific CAR-T cells for treatment of triple-negative breast cancer. (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40903191/"
+        },
+        {
+          "label": "Phase I Study of ROR1-Specific CAR-T Cells in Advanced Hematopoietic and Epithelial Malignancies. (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39466024/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-cell-manufacturing-outcomes",
+      "label": "Previously authored canonical teaching: Cell-manufacturing outcomes and nonconforming products",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Iwamoto et al., 2025: Japan manufacturing and shipment definitions",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40066375/"
+        },
+        {
+          "label": "UK National CAR T Panel, 2025: source-defined manufacturing failure and patient outcomes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40032870/"
+        },
+        {
+          "label": "Kato et al., 2025: single-arm nonconforming tisagenlecleucel cohort",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40377509/"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT04094311, design and dated registry state",
+          "url": "https://clinicaltrials.gov/study/NCT04094311"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-cell-therapy-cold-chain",
+      "label": "Previously authored canonical teaching: Cryopreservation and cell-therapy cold chain",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "FDA guidance: considerations for the development of CAR T cell products",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+        },
+        {
+          "label": "DailyMed: YESCARTA label captured 9 November 2026, sections 11 and 16",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59"
+        },
+        {
+          "label": "DailyMed: KYMRIAH label captured 9 November 2026, sections 11 and 16",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189"
+        },
+        {
+          "label": "Mazur, 1963: water movement and intracellular freezing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14085017/"
+        },
+        {
+          "label": "Panch et al., 2019: scoped fresh/frozen CAR T-cell comparisons",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31178392/"
+        },
+        {
+          "label": "Wang et al., 2019: post-thaw assay conditions for one CAR T-cell preparation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30910382/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-cell-therapy-release-testing",
+      "label": "Previously authored canonical teaching: Cell-therapy release and potency testing",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "51789e353768cac78cfbc7069aefc2fbcf9e8623348c8a0412167fced624d859",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "ab99f6cb1818f10a1fd55832ca13e6903131fcc982cdf618d73bd9ae4bea13e6",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "FDA: considerations for development of CAR T-cell products",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+        },
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024, identity/VCN/potency sections",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "FDA: human gene-therapy IND CMC guidance, January 2020, limited-shelf-life sterility context",
+          "url": "https://www.fda.gov/media/113760/download"
+        },
+        {
+          "label": "FDA: final potency-assurance guidance, November 2026, original document",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "Federal Register notice 2026-22427, published 3 November 2026: Potency Assurance for Cellular and Gene Therapy Products, guidance availability",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        },
+        {
+          "label": "FDA: Potency Assurance (December 2023 draft, historical)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-central-dogma-information-flow",
+      "label": "Previously authored canonical teaching: Central dogma and molecular information flow",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "central-dogma-information-flow",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "NHGRI: RNA, coding/noncoding functions and reverse transcription",
+          "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/ribonucleic-acid-fact-sheet"
+        },
+        {
+          "label": "NHGRI: codon",
+          "url": "https://www.genome.gov/genetics-glossary/Codon"
+        },
+        {
+          "label": "NHGRI: transcription",
+          "url": "https://www.genome.gov/genetics-glossary/Transcription"
+        },
+        {
+          "label": "OpenStax: regulation across molecular steps",
+          "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-crs",
+      "label": "Previously authored canonical teaching: Cytokine release syndrome (CRS)",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "crs",
+      "priorCustodyReferences": [
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "252b30f6b91df1f3485cfbf412a80e45319b0cb5496816884e419a332514c99b",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "51496b6afffb21231e5fb427375c7402e51822aa0dc05326e4db3b9cd9b7d151",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "4cbb0c6dbc4fe527f973279d5829187e59aa1d6afc54b86942ce0d3250beb8ba",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "label": "Lee et al., ASTCT consensus grading for CRS and neurologic toxicity (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30592986/"
+        },
+        {
+          "label": "Perales et al., ASTCT consensus grading for toxicities after immune effector cell therapy (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/"
+        },
+        {
+          "label": "Giavridis et al., macrophages mediate CRS in a mouse CAR T model (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29808005/"
+        },
+        {
+          "label": "Baumeister et al., CRS and associated acute toxicities in paediatric patients after immune effector cell therapy (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35402259/"
+        },
+        {
+          "label": "Lee et al., ASTCT consensus grading, accepted-manuscript text (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12180426/"
+        },
+        {
+          "label": "Lymphoma Action: CAR-T cell therapy",
+          "url": "https://lymphoma-action.org.uk/information-and-support/lymphoma-treatment/car-t-cell-therapy"
+        },
+        {
+          "label": "NCCN Guidelines for Patients: Immunotherapy Side Effects: CAR T-Cell and Lymphocyte Engager Therapies",
+          "url": "https://www.nccn.org/patientresources/patient-resources/guidelines-for-patients/guidelines-for-patients-details?patientGuidelineId=45"
+        },
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Understanding Cytokine Release Syndrome (CRS) During Cancer Treatment",
+          "url": "https://ncoda.org/pes/understanding-and-managing-cytokine-release-syndrome/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-cytokine",
+      "label": "Previously authored canonical teaching: Cytokine",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "cytokine",
+      "priorCustodyReferences": [
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "notes",
+          "excerptSha256": "c1d865b8c53616f5aac27b1fc273a4a36fd97a8e20e7965ed4788743c690a7c9",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cytokine"
+        },
+        {
+          "label": "Interstitial dendritic cell guidance by haptotactic chemokine gradients.",
+          "url": "https://doi.org/10.1126/science.1228456"
+        },
+        {
+          "label": "Selective stimulation of T cell subsets with antibody-cytokine immune complexes.",
+          "url": "https://doi.org/10.1126/science.1122927"
+        },
+        {
+          "label": "Cytokine pleiotropy and redundancy: a view from the receptor.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7696967/"
+        },
+        {
+          "label": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition).",
+          "url": "https://doi.org/10.1002/eji.201970107"
+        },
+        {
+          "label": "A critical function for type I interferons in cancer immunoediting.",
+          "url": "https://doi.org/10.1038/ni1213"
+        },
+        {
+          "label": "Tumor Interferon Signaling Regulates a Multigenic Resistance Program to Immune Checkpoint Blockade.",
+          "url": "https://doi.org/10.1016/j.cell.2016.11.022"
+        },
+        {
+          "label": "British Society for Immunology: Cytokines, Introduction",
+          "url": "https://www.immunology.org/sites/default/files/2022-08/cytokines%20-%20introduction.pdf"
+        },
+        {
+          "label": "NLM MeSH: Chemokines",
+          "url": "https://id.nlm.nih.gov/mesh/D018925"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-cytokine-therapy",
+      "label": "Previously authored canonical teaching: Cytokines & engineered cytokines",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "cytokine-therapy",
+      "priorCustodyReferences": [
+        {
+          "file": "immunotherapy-2026-11-12/coverage-proofs.json",
+          "fileSha256": "2156f6d9f692efe75d28091fce257641a1e889ab361b55f137f805f0d855117a",
+          "field": "notes",
+          "excerptSha256": "ca71f230fc524719e09d04bbfced9277d807885fe5f26ef96a35fc7bb42b1356",
+          "sourceScope": "Source-backed teaching and explicitly limited reading inference Point C-009: Mouse IL-2-complex results do not establish general human cancer efficacy.",
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "immunotherapy-2026-11-12/coverage-proofs.json",
+          "fileSha256": "2156f6d9f692efe75d28091fce257641a1e889ab361b55f137f805f0d855117a",
+          "field": "notes",
+          "excerptSha256": "6dc671c1968c8962782184ce0393776012ea35f8bc3efc1b09c6f71c9fc94223",
+          "sourceScope": "Source-backed teaching and explicitly limited reading inference Point C-020: Retain endogenous biology versus measurement versus therapy, more activation versus useful immunity, G-CSF support versus cancer killing and secretion versus confinement distinctions.",
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "immunotherapy-2026-11-12/coverage-proofs.json",
+          "fileSha256": "2156f6d9f692efe75d28091fce257641a1e889ab361b55f137f805f0d855117a",
+          "field": "notes",
+          "excerptSha256": "4a1ffc1accbf34ec67d8511a2482f1c84172c5b4989d7f832f943ea5f03ea350",
+          "sourceScope": "Source-constrained mechanism and evidence-reading inference Point C-015: Cytokine support, antigen material and a recognition receptor perform different jobs; cytokine-producing armouring does not itself confer tumour specificity or access.",
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cytokine"
+        },
+        {
+          "label": "NCI: cytokines and haematopoietic growth-factor support",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/immune-system-modulators"
+        },
+        {
+          "label": "Boyman et al.: selective IL-2-antibody complexes in mice (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16484453/"
+        },
+        {
+          "label": "Nicola: cytokine receptor pleiotropy and redundancy (1994)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7696967/"
+        },
+        {
+          "label": "Lazear et al.: shared and distinct interferon functions (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30995506/"
+        },
+        {
+          "label": "Zhang et al.: inducible IL-12 TILs, serum exposure and toxicity (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/"
+        },
+        {
+          "label": "Proleukin U.S. prescribing information: indications and boxed warnings",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-gamma-delta-t-cells",
+      "label": "Previously authored canonical teaching: Gamma-delta T cells",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "priorCustodyReferences": [
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "notes",
+          "excerptSha256": "a2615c8f64dd08f88dbdfcc3bbeaef028f8e329e9e20671f8c178be48de4ae07",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "notes",
+          "excerptSha256": "42a6af6ae0f0865a19e826401f69ef43cc0b9937072e949f885047c9477320a6",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "notes",
+          "excerptSha256": "0525c86ce3f4c5a0941952e36124e1b253ab51bbb97e72d3da3d22dd81e205ce",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "innate-immunity-2026-11-10/coverage-proofs.json",
+          "fileSha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407",
+          "field": "notes",
+          "excerptSha256": "968f45845010b255fae54343d06fa217a128ad409a87fad5de85ba3a225a2cdd",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "start-here-2026-11-11/coverage-proofs.json",
+          "fileSha256": "967558d851f345bb67a18ecaa8b5b0cb1f75b674559157520929361272ee9fa5",
+          "field": "notes",
+          "excerptSha256": "5a6af5d2e221547b7d975c652e092cba6d61d66d010f478deb3702a9fc7dc22f",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Butyrophilin 2A1 is essential for phosphoantigen reactivity by γδ T cells.",
+          "url": "https://doi.org/10.1126/science.aay5516"
+        },
+        {
+          "label": "Identification of a tumor-specific allo-HLA-restricted γδTCR.",
+          "url": "https://doi.org/10.1182/bloodadvances.2019032409"
+        },
+        {
+          "label": "An innate-like Vδ1+ γδ T cell compartment in the human breast is associated with remission in triple-negative breast cancer.",
+          "url": "https://doi.org/10.1126/scitranslmed.aax9364"
+        },
+        {
+          "label": "Chimeric Antigen Receptor-Engineered Human Gamma Delta T Cells: Enhanced Cytotoxicity with Retention of Cross Presentation.",
+          "url": "https://doi.org/10.1016/j.ymthe.2017.12.001"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT06150885",
+          "url": "https://clinicaltrials.gov/study/NCT06150885"
+        },
+        {
+          "label": "Six-of-the-best: unique contributions of γδ T cells to immunology.",
+          "url": "https://doi.org/10.1038/nri3384"
+        },
+        {
+          "label": "Sanz et al., 2023: Deep characterization of human gamma-delta T cell subsets",
+          "url": "https://doi.org/10.3389/fimmu.2023.1148988"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-good-manufacturing-practice",
+      "label": "Previously authored canonical teaching: Good manufacturing practice (GMP)",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "good-manufacturing-practice",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "4f869252899b015ec3174c7cb28cdfd170efda322af8ff69f65b5318dc2d62c7",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "FDA: facts about the current good manufacturing practice (CGMP)",
+          "url": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practice-cgmp"
+        },
+        {
+          "label": "FDA: quality systems approach to pharmaceutical CGMP regulations (September 2006)",
+          "url": "https://www.fda.gov/media/71023/download"
+        },
+        {
+          "label": "FDA: current good manufacturing practice for phase 1 investigational drugs (July 2008)",
+          "url": "https://www.fda.gov/media/70975/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-icans",
+      "label": "Previously authored canonical teaching: ICANS (neurotoxicity)",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "icans",
+      "priorCustodyReferences": [
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "474f6ab042c11b6c9681b003cc76f778ad25f6365e97a82ce188cc301d443293",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "886e228414848a53e7c0f15795f6d1d648329dade49b41563d3c74ce935a586f",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Understanding Immune Effector Cell-Associated Neurotoxicity Syndrome (ICANS)",
+          "url": "https://ncoda.org/pes/understanding-and-managing-immune-effector-cell-associated-neurotoxicity-syndrome-icans/"
+        },
+        {
+          "label": "NCCN Guidelines for Patients: Immunotherapy Side Effects: CAR T-Cell and Lymphocyte Engager Therapies",
+          "url": "https://www.nccn.org/patientresources/patient-resources/guidelines-for-patients/guidelines-for-patients-details?patientGuidelineId=45"
+        },
+        {
+          "label": "Lymphoma Action: CAR-T cell therapy",
+          "url": "https://lymphoma-action.org.uk/information-and-support/lymphoma-treatment/car-t-cell-therapy"
+        },
+        {
+          "label": "ASTCT consensus grading for CRS and ICANS (Lee et al., Biol Blood Marrow Transplant 2019)",
+          "url": "https://doi.org/10.1016/j.bbmt.2018.12.758"
+        },
+        {
+          "label": "Perales et al., ASTCT consensus grading for toxicities after immune effector cell therapy (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/"
+        },
+        {
+          "label": "Gust et al., endothelial activation and blood-brain barrier disruption in neurotoxicity after CD19 CAR T cells (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29025771/"
+        },
+        {
+          "label": "Lee et al., ASTCT consensus grading, accepted-manuscript text (PMC)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12180426/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-insertional-mutagenesis",
+      "label": "Previously authored canonical teaching: Insertional mutagenesis",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "insertional-mutagenesis",
+      "priorCustodyReferences": [
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "6c6f0a6bbd504d9504ab01756d9e9f4ffc1d76a93fc54a00b9d92d93bf8e7af7",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "55b7fac1da5c380ab920f58e967e33e825e13dce143be8872cfb07158d366423",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "bb3549172e097f7616f0f0db17ee8d2d6490267913cec67fc90646ac30592c76",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "392528f84882497d0e9dc39f5c750426b38ffd0bdf5dc477e989518ef1f0b548",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Insertional_mutagenesis"
+        },
+        {
+          "label": "Hacein-Bey-Abina et al., LMO2-associated clonal T cell proliferation after gene therapy for SCID-X1 (2003)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/14564000/"
+        },
+        {
+          "label": "Fraietta et al., disruption of TET2 promotes the efficacy of CD19-targeted T cells (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29849141/"
+        },
+        {
+          "label": "Hamilton et al., second tumors and T-cell lymphoma after CAR T-cell therapy (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38865660/"
+        },
+        {
+          "label": "ABECMA prescribing information (FDA)",
+          "url": "https://www.fda.gov/media/147055/download"
+        },
+        {
+          "label": "FDA: long term follow-up after administration of human gene therapy products (guidance, January 2020)",
+          "url": "https://www.fda.gov/media/113768/download"
+        },
+        {
+          "label": "ABECMA prescribing information, August 2026 version (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b90c1fe7-f5cc-464e-958a-af36e9c26d7c"
+        },
+        {
+          "label": "NCI Drug Dictionary: axicabtagene ciloleucel",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/768723"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-lentiviral-vector",
+      "label": "Previously authored canonical teaching: Lentiviral vector",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "lentiviral-vector",
+      "priorCustodyReferences": [
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "f58f004c8e0e47bd7e98a7c715e09f19090258b72599c70267fe29c744713e1d",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "e06411c8a9ca1673cd97df61fbbba55e6b495939cf543d8619056973c154406a",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "notes",
+          "excerptSha256": "947515051191db37e90cfe6c9a709085051198877fe097fe51832b3f0803842a",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "In vivo gene delivery and stable transduction of nondividing cells by a lentiviral vector.",
+          "url": "https://doi.org/10.1126/science.272.5259.263"
+        },
+        {
+          "label": "Development of a self-inactivating lentivirus vector.",
+          "url": "https://doi.org/10.1128/jvi.72.10.8150-8157.1998"
+        },
+        {
+          "label": "Lentiviral vectors with a defective integrase allow efficient and sustained transgene expression in vitro and in vivo.",
+          "url": "https://doi.org/10.1073/pnas.0606197103"
+        },
+        {
+          "label": "Clinical use of lentiviral vectors.",
+          "url": "https://doi.org/10.1038/s41375-018-0106-0"
+        },
+        {
+          "label": "Considerations for the Development of Chimeric Antigen Receptor (CAR) T Cell Products: guidance for industry, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Testing of Retroviral Vector-Based Human Gene Therapy Products for Replication Competent Retrovirus During Product Manufacture and Patient Follow-up: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113790/download"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-lymphodepletion",
+      "label": "Previously authored canonical teaching: Lymphodepletion before CAR-T",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "lymphodepletion",
+      "priorCustodyReferences": [
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "9fcdcdb74540ae274c270ba8103c5067d591884055504b211468270e278c3117",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "0b2d7b75f0f1a1b8589d7c96df80732016e51dbf79d3b3e94bff81b24e83e8be",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "notes",
+          "excerptSha256": "aa2fdf164bb1191cc3800e0a67e3cc9ea199e54113baae428fafcd61e262d090",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell"
+        },
+        {
+          "label": "Gattinoni et al., removal of homeostatic cytokine sinks by lymphodepletion (2005)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16203864/"
+        },
+        {
+          "label": "Rohaan et al., tumour-infiltrating lymphocyte therapy or ipilimumab in advanced melanoma (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36477031/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-nkt-cells",
+      "label": "Previously authored canonical teaching: Natural killer T (NKT) cells",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "nkt-cells",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "An invariant T cell receptor alpha chain is used by a unique subset of major histocompatibility complex class I-specific CD4+ and CD4-8- T cells in mice and humans.",
+          "url": "https://doi.org/10.1084/jem.180.3.1097"
+        },
+        {
+          "label": "CD1-restricted CD4+ T cells in major histocompatibility complex class II-deficient mice.",
+          "url": "https://doi.org/10.1084/jem.182.4.993"
+        },
+        {
+          "label": "CD1d-restricted and TCR-mediated activation of valpha14 NKT cells by glycosylceramides.",
+          "url": "https://doi.org/10.1126/science.278.5343.1626"
+        },
+        {
+          "label": "Functionally distinct subsets of CD1d-restricted natural killer T cells revealed by CD1d tetramer staining.",
+          "url": "https://doi.org/10.1084/jem.20011786"
+        },
+        {
+          "label": "Differential antitumor immunity mediated by NKT cell subsets in vivo.",
+          "url": "https://doi.org/10.1084/jem.20050953"
+        },
+        {
+          "label": "The crystal structure of human CD1d with and without alpha-galactosylceramide.",
+          "url": "https://doi.org/10.1038/ni1225"
+        },
+        {
+          "label": "The biology of NKT cells.",
+          "url": "https://doi.org/10.1146/annurev.immunol.25.022106.141711"
+        },
+        {
+          "label": "Anti-GD2 CAR-NKT cells in patients with relapsed or refractory neuroblastoma: an interim analysis.",
+          "url": "https://doi.org/10.1038/s41591-020-1074-2"
+        },
+        {
+          "label": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors.",
+          "url": "https://doi.org/10.1056/nejmoa1910607"
+        },
+        {
+          "label": "Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia.",
+          "url": "https://doi.org/10.1056/nejmoa1709866"
+        },
+        {
+          "label": "Benlagha et al., 2000: Identification of glycolipid antigen-specific T cells",
+          "url": "https://doi.org/10.1084/jem.191.11.1895"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-on-target-off-tumour-toxicity",
+      "label": "Previously authored canonical teaching: On-target, off-tumour toxicity and off-target cross-reactivity",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "priorCustodyReferences": [
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "5481d135a0c081fa7cf1746f4364f4332bfe524bc13c3d675090768921f8363e",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+          "fileSha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6",
+          "field": "summary",
+          "excerptSha256": "ebc1acf687a2e66b973431236e0e3eb6bd4c918c07642059d924c988931ef570",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "surface-targeting-2026-11-11/coverage-proofs.json",
+          "fileSha256": "07e0d5239083cd96679fc9722b6267d7756d19158d9fa00b5a81206ce4b79c15",
+          "field": "summary",
+          "excerptSha256": "ea3a40ed1867df28cae638eb2f7f71f05551bbd4384af4e03f8c3121263f9cf4",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Morgan et al., case report of a serious adverse event after ERBB2-directed CAR T cells (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20179677/"
+        },
+        {
+          "label": "Linette et al., cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23770775/"
+        },
+        {
+          "label": "FDA: considerations for the development of CAR T cell products (guidance)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Perales et al., ASTCT consensus grading for toxicities after immune effector cell therapy (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42711241/"
+        },
+        {
+          "label": "Masters et al., clinical toxicity of antibody-drug conjugates: meta-analysis of payloads (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29027591/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-rna-lipoplex",
+      "label": "Previously authored canonical teaching: RNA-lipoplex",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "rna-lipoplex",
+      "priorCustodyReferences": [
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "5eff4f68f20b412cd14480f14394d3d710b9235ecd2be1e0f5d9b0d678744586",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "vaccine-production-guides-2026-11-12/coverage-proofs.json",
+          "fileSha256": "0a6db0b3934129b2ca07a57f04c42883538d37ec12c6c910a365e461fce2a236",
+          "field": "summary",
+          "excerptSha256": "5eff4f68f20b412cd14480f14394d3d710b9235ecd2be1e0f5d9b0d678744586",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+          "url": "https://doi.org/10.1038/nature18300"
+        },
+        {
+          "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+          "url": "https://doi.org/10.1038/s41586-023-06063-y"
+        },
+        {
+          "label": "Impact of PEGylation and hyaluronan functionalization on lipoplex-mediated mRNA delivery to the canine retina.",
+          "url": "https://doi.org/10.1080/10717544.2025.2544688"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-safety-switch-car-t",
+      "label": "Previously authored canonical teaching: Cell-therapy safety switches",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "safety-switch-car-t",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "Di Stasi et al. 2011, NEJM: inducible apoptosis as a safety switch for adoptive cell therapy",
+          "url": "https://doi.org/10.1056/NEJMoa1106152"
+        },
+        {
+          "label": "Wang et al. 2011, Blood: a transgene-encoded cell surface polypeptide (truncated EGFR) for selection, tracking and ablation of engineered cells",
+          "url": "https://doi.org/10.1182/blood-2011-02-337360"
+        },
+        {
+          "label": "Wu et al.: small-molecule ON-switch CAR experiments (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26405231/"
+        },
+        {
+          "label": "Del Bufalo et al.: GD2-CART01 neuroblastoma study and activated suicide gene (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37018492/"
+        },
+        {
+          "label": "FDA: CAR T-cell product-development guidance, including related engineered lymphocytes (2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Inducible apoptosis as a safety switch for adoptive cell therapy. (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22047558/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-scfv-vhh-formats",
+      "label": "Previously authored canonical teaching: Single-chain and single-domain antibody fragments",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "scfv-vhh-formats",
+      "priorCustodyReferences": [
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "3b51b3aee9391c63cdc5d344c6458b364e6bab8fe076ea3b959a2820845cf740",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "binders-cmc-2026-11-10/coverage-proofs.json",
+          "fileSha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025",
+          "field": "notes",
+          "excerptSha256": "d7010a05f19b8b92d15c0a8db259e2cfad44bc67ecd0725abc94025832443d87",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+          "url": "https://doi.org/10.1073/pnas.85.16.5879"
+        },
+        {
+          "label": "Naturally occurring antibodies devoid of light chains.",
+          "url": "https://doi.org/10.1038/363446a0"
+        },
+        {
+          "label": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        },
+        {
+          "label": "Long et al., 2015: 4-1BB costimulation ameliorates T cell exhaustion induced by tonic signaling of chimeric antigen receptors",
+          "url": "https://doi.org/10.1038/nm.3838"
+        },
+        {
+          "label": "NCBI MICAD: L36-Cy5 anti-laminin trimerbody (2004), formats and sizes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20641540/"
+        },
+        {
+          "label": "Bathula et al., 2021: nanobodies, the future of antibody-based immune therapeutics",
+          "url": "https://doi.org/10.1089/cbr.2020.3941"
+        },
+        {
+          "label": "Ward et al., 1989: isolated immunoglobulin variable domains",
+          "url": "https://doi.org/10.1038/341544a0"
+        },
+        {
+          "label": "Roux et al., 1998: nurse-shark NAR structure",
+          "url": "https://doi.org/10.1073/pnas.95.20.11804"
+        },
+        {
+          "label": "Greenberg et al., 1995: shark antigen-receptor gene family",
+          "url": "https://doi.org/10.1038/374168a0"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-t-cell",
+      "label": "Previously authored canonical teaching: T cell",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "t-cell",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "Oh et al., human bladder-tumour CD4 cytotoxicity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32497499/"
+        },
+        {
+          "label": "Han et al., receptor identity and phenotype",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "PubMed 9872319",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+        },
+        {
+          "label": "PubMed 31461748",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-t-cell-exhaustion-term",
+      "label": "Previously authored canonical teaching: T-cell exhaustion and CAR-T persistence",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "t-cell-exhaustion-term",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/T_cell_exhaustion"
+        },
+        {
+          "label": "Siddiqui 2019: stem-like and differentiated PD-1-positive cells in tumour models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30635237/"
+        },
+        {
+          "label": "Deng 2020: 24 lymphoma infusion-product associations",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33020644/"
+        },
+        {
+          "label": "Long 2015: specified CAR constructs and tonic signalling",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25939063/"
+        },
+        {
+          "label": "Kawalekar 2016: coreceptor domains, metabolism and memory in human CAR cells",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26885860/"
+        },
+        {
+          "label": "Awasthi 2025: transgene measurements and disease-specific predictive limits",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40554413/"
+        },
+        {
+          "label": "2026 lymphoma persistence series: selected long-term responders",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42575986/"
+        },
+        {
+          "label": "Myers 2021: humanised CD19 CAR pilot and B-cell surrogate limitations",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34156874/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-t-cell-states",
+      "label": "Previously authored canonical teaching: T-cell states",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "t-cell-states",
+      "priorCustodyReferences": [
+        {
+          "file": "tcells-2026-11-09/coverage-proofs.json",
+          "fileSha256": "bb0f57c953c7285d699be396362de7235253f0721df8a8c30628dbb366af4b8c",
+          "field": "notes",
+          "excerptSha256": "61f972c36d7a4e079eedda7fc5a2535abcdb21da894f3494a2f89025253b35d5",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "tcells-2026-11-09/coverage-proofs.json",
+          "fileSha256": "bb0f57c953c7285d699be396362de7235253f0721df8a8c30628dbb366af4b8c",
+          "field": "notes",
+          "excerptSha256": "1cddd5912202c1fa97572237e7183a224f2f477a2ee0b2307c8d127a67ac1099",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Molecular signature of CD8+ T cell exhaustion during chronic viral infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17950003/"
+        },
+        {
+          "label": "Defining CD8+ T cells that provide the proliferative burst after PD-1 therapy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27501248/"
+        },
+        {
+          "label": "T Cell Factor 1-Expressing Memory-like CD8(+) T Cells Sustain the Immune Response to Chronic Viral Infections.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27533016/"
+        },
+        {
+          "label": "Subsets of exhausted CD8+ T cells differentially mediate tumor control and respond to checkpoint blockade.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30778252/"
+        },
+        {
+          "label": "Clonal replacement of tumor-specific T cells following PD-1 blockade.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31359002/"
+        },
+        {
+          "label": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "Maintenance of peripheral naive T cells is sustained by thymus output in mice but not humans.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/"
+        },
+        {
+          "label": "Burger et al., model-antigen dominance and TCF1 subsets",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34534464/"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-targeted-lnps",
+      "label": "Previously authored canonical teaching: Targeted lipid nanoparticles",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "targeted-lnps",
+      "priorCustodyReferences": [
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "notes",
+          "excerptSha256": "8bbf20cfb61ecdf013faf14b90eafb7acacca95c268ab562a2209970c9a0bc8d",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "c5b7e4cd2495adae1abf5d976279b9a2d1bb758383a60851ddc6df3425317c7f",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "5bd983e94450bf6482975a411eec663e2f14ccacbff04d3a3f426ee5eefbc6a9",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Selective organ targeting (SORT) nanoparticles for tissue-specific mRNA delivery and CRISPR-Cas gene editing.",
+          "url": "https://doi.org/10.1038/s41565-020-0669-6"
+        },
+        {
+          "label": "CAR T cells produced in vivo to treat cardiac injury.",
+          "url": "https://doi.org/10.1126/science.abm0594"
+        },
+        {
+          "label": "In vivo CAR T cell generation to treat cancer and autoimmune disease.",
+          "url": "https://doi.org/10.1126/science.ads8473"
+        },
+        {
+          "label": "Paramasivam et al.: uptake and endosomal delivery measurements in defined cell systems",
+          "url": "https://doi.org/10.1083/jcb.202110137"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-tcr-t",
+      "label": "Previously authored canonical teaching: TCR-T cell therapy",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "tcr-t",
+      "priorCustodyReferences": [],
+      "existingBibliography": [
+        {
+          "label": "ClinicalTrials.gov NCT03967223: IGNYTE-ESO",
+          "url": "https://clinicaltrials.gov/study/NCT03967223"
+        },
+        {
+          "label": "Morgan et al.: receptor gene transfer in metastatic melanoma (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/"
+        },
+        {
+          "label": "Cameron et al.: Titin cross-reactivity of one MAGE-A3 receptor (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23926201/"
+        },
+        {
+          "label": "Dong et al.: human TCR-CD3 complex assembly (2019 abstract)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        },
+        {
+          "label": "WT1/HLA-A*24:02 CAR study in experimental models (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30045840/"
+        },
+        {
+          "label": "Liddy et al.: soluble TCR/CD3 experimental proteins (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22561687/"
+        },
+        {
+          "label": "TECELRA label, revised June 2026: indication, contraindication and receptor design",
+          "url": "https://www.fda.gov/media/180565/download"
+        },
+        {
+          "label": "FDA June 17, 2026 TECELRA conversion/expansion letter",
+          "url": "https://www.fda.gov/media/193220/download"
+        },
+        {
+          "label": "FDA: CAR T-cell product-development guidance, including related engineered lymphocytes (2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Bendle et al.: mixed introduced/endogenous TCR chains and autoimmunity in mouse models (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20400962/"
+        },
+        {
+          "label": "UniProt P61769, reviewed human B2M",
+          "url": "https://www.uniprot.org/uniprotkb/P61769/entry"
+        },
+        {
+          "label": "UniProt P01903, reviewed human HLA-DRA",
+          "url": "https://www.uniprot.org/uniprotkb/P01903/entry"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-til-therapy",
+      "label": "Previously authored canonical teaching: TIL therapy",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "til-therapy",
+      "priorCustodyReferences": [
+        {
+          "file": "access-guides-2026-11-11/coverage-proofs.json",
+          "fileSha256": "554d7a123aa513cf05dfee0f4f344b131125b89d8428376d1e5caeb9ed6c105f",
+          "field": "summary",
+          "excerptSha256": "e3e33d96cca1e9f6d67f8a6824b216f70ff3104d78fb06436a58c25768936bf3",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes"
+        },
+        {
+          "label": "Besser et al., intent-to-treat analysis of TIL therapy at Sheba (Clin Cancer Res 2013)",
+          "url": "https://doi.org/10.1158/1078-0432.ccr-13-0380"
+        },
+        {
+          "label": "NCI: T-cell transfer therapy, collection, engineering and regimen harms",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+        },
+        {
+          "label": "Simoni et al.: bystander CD8 T cells in human tumor infiltrates (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/"
+        },
+        {
+          "label": "Rohaan et al.: specified TIL regimen versus ipilimumab in advanced melanoma (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36477031/"
+        },
+        {
+          "label": "FDA: AMTAGVI product, accelerated indication and supporting documents",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/amtagvi"
+        },
+        {
+          "label": "AMTAGVI label: tumor-derived cells and the complete regimen",
+          "url": "https://www.fda.gov/media/176417/download"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05727904: TILVANCE-301 design and melanoma setting",
+          "url": "https://clinicaltrials.gov/study/NCT05727904"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "INHERITED-transposon",
+      "label": "Previously authored canonical teaching: Transposon systems for cell engineering",
+      "sourceType": "inherited canonical teaching and recorded bibliography assessment",
+      "readingDepth": "The selected canonical excerpt was re-read in this cohort. Underlying sources retain prior recorded depth and are not all freshly re-opened.",
+      "freshPrimaryRead": false,
+      "canonicalRecordId": "transposon",
+      "priorCustodyReferences": [
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "c7302bd70992b4d39ebc11fd6bddb32539bd904a59d78fc44574282164eefcc4",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "summary",
+          "excerptSha256": "49ab1a0ebf7289e2cd60100b14d4915e1edd6d1b8b8df780025a7c03a844b005",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        },
+        {
+          "file": "rna-delivery-2026-11-10/coverage-proofs.json",
+          "fileSha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd",
+          "field": "notes",
+          "excerptSha256": "1ce527f6b2fbf2c735358d86091e447be74fe90be345d5f746d71a66d312d387",
+          "sourceScope": null,
+          "overlapOnly": "Exact passage custody; semantic relevance assessed separately per unit."
+        }
+      ],
+      "existingBibliography": [
+        {
+          "label": "Molecular reconstruction of Sleeping Beauty, a Tc1-like transposon from fish, and its transposition in human cells.",
+          "url": "https://doi.org/10.1016/s0092-8674(00)80436-5"
+        },
+        {
+          "label": "Phase I trials using Sleeping Beauty to generate CD19-specific CAR T cells.",
+          "url": "https://doi.org/10.1172/jci86721"
+        },
+        {
+          "label": "Gene transfer efficiency and genome-wide integration profiling of Sleeping Beauty, Tol2, and piggyBac transposons in human primary T cells.",
+          "url": "https://doi.org/10.1038/mt.2010.141"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        }
+      ],
+      "scope": "Reuse only the bounded claim described by the individual semantic rationale; unrelated or older assertions in the same field are not recertified."
+    },
+    {
+      "id": "NCI-AXICEL",
+      "label": "NCI Drug Dictionary: axicabtagene ciloleucel",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/768723",
+      "sourceType": "official technical dictionary",
+      "readingDepth": "Complete definition from the raw official API; html landing page was an unrendered shell"
+    },
+    {
+      "id": "NCI-CAR",
+      "label": "NCI: CAR T Cells, Engineering Patients’ Immune Cells",
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "sourceType": "official educational page",
+      "readingDepth": "Selected living-product, component, manufacturing and solid-tumour paragraphs; not all sections or linked studies"
+    },
+    {
+      "id": "NCI-TCELL",
+      "label": "NCI: T-cell Transfer Therapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "sourceType": "official educational page",
+      "readingDepth": "Complete captured main-page text. Page updated August 2024; its six-product count is historical and is not adopted"
+    },
+    {
+      "id": "NCI-TME",
+      "label": "NCI: Tumor Biology and Microenvironment Research",
+      "url": "https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tbmr",
+      "sourceType": "official research-programme description",
+      "readingDepth": "Selected stromal/ECM, infiltration, vascular/abnormal-flow and hypoxia passages, not all topics"
+    },
+    {
+      "id": "UniProt-B2M",
+      "label": "UniProt P61769, reviewed human B2M",
+      "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+      "sourceType": "reviewed protein annotation",
+      "readingDepth": "Identity, function and subunit comments; linked papers not independently read"
+    },
+    {
+      "id": "UniProt-HLA-DRA",
+      "label": "UniProt P01903, reviewed human HLA-DRA",
+      "url": "https://www.uniprot.org/uniprotkb/P01903/entry",
+      "sourceType": "reviewed protein annotation",
+      "readingDepth": "Identity, complete function and alpha/beta-chain subunit opening; remaining subunit interactions and linked papers not independently reviewed"
+    },
+    {
+      "id": "UniProt-MUC1",
+      "label": "UniProt P15941, reviewed human mucin-1",
+      "url": "https://www.uniprot.org/uniprotkb/P15941/entry",
+      "sourceType": "reviewed protein annotation",
+      "readingDepth": "Identity, both function comments and subunit comment; linked papers not independently read"
+    }
+  ],
+  "freshReadingReceipt": {
+    "recordedAt": "2026-11-12T22:32:11.511334+00:00",
+    "uniquePapers": 36,
+    "completeAbstractsRead": 36,
+    "papersWithTargetedBodyReads": 14,
+    "targetedPassagesReadIncludingHeadingsOrTableCaptions": 73,
+    "wholePapersRead": 0,
+    "freshExperimentalConsensusAndReviewSourcesKeptDistinct": true,
+    "rawPaperBodiesRetrievedButNotReadAreNotCountedAsReads": true,
+    "sourceInventorySha256": "9118111ebe1913c5326b6213885dcdc37edf787fd971d4bd52c655d9c6234807",
+    "bodyAccessFailuresPreserved": true,
+    "allSourceCatalogIds": [
+      "16946036",
+      "18446242",
+      "20179677",
+      "21742772",
+      "21949831",
+      "22047558",
+      "22418702",
+      "23242161",
+      "25212991",
+      "25695689",
+      "25985798",
+      "26650966",
+      "26830879",
+      "26885860",
+      "27482888",
+      "29769722",
+      "29789554",
+      "30224381",
+      "30309819",
+      "32023374",
+      "32071339",
+      "32303620",
+      "33216892",
+      "34990237",
+      "35314843",
+      "36318382",
+      "36479116",
+      "37501016",
+      "38865660",
+      "39466024",
+      "40536974",
+      "40604285",
+      "40903191",
+      "41844687",
+      "42711241",
+      "FDA-ABECMA",
+      "FDA-CAR-2024",
+      "FDA-KYMRIAH",
+      "FDA-LTFU-2020",
+      "FDA-TECELRA",
+      "HGNC-MUC1",
+      "NCI-AXICEL",
+      "NCI-CAR",
+      "NCI-TCELL",
+      "NCI-TME",
+      "UniProt-B2M",
+      "UniProt-HLA-DRA",
+      "UniProt-MUC1"
+    ],
+    "candidateSourceIds": [
+      "18446242",
+      "21949831",
+      "22047558",
+      "22418702",
+      "23242161",
+      "25212991",
+      "25695689",
+      "26830879",
+      "26885860",
+      "29789554",
+      "30224381",
+      "32071339",
+      "32303620",
+      "36318382",
+      "36479116",
+      "37501016",
+      "38865660",
+      "39466024",
+      "40903191",
+      "41844687",
+      "42711241",
+      "FDA-CAR-2024",
+      "FDA-KYMRIAH",
+      "FDA-LTFU-2020",
+      "HGNC-MUC1",
+      "NCI-AXICEL",
+      "NCI-CAR",
+      "NCI-TCELL",
+      "NCI-TME",
+      "UniProt-B2M",
+      "UniProt-HLA-DRA",
+      "UniProt-MUC1"
+    ],
+    "candidateMappingIsNotCoverageAcceptance": true
+  },
+  "freshSourceCatalogEntries": 49,
+  "depthBoundary": "No whole-paper read is claimed; fetched bodies are distinct from read passages. Existing canonical and peer excerpts retain their inherited source assessment, separately labelled."
+}

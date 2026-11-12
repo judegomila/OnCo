@@ -1,0 +1,1472 @@
+{
+  "version": "proposal-death-metabolism",
+  "state": "Integrated in draft375 only: four new terms and eight existing owners. The ninth existing owner, immunogenic-cell-death, remains in proposal-therapeutic.",
+  "sourceBaseHead": "1d82802f5b924d749c0455b1e9792446962eef3f",
+  "workerHeads": [
+    "722124b6c0a4e3f028da47f843aaea2aec7fd57c",
+    "a4c617a2e260b3ab74c5ce101148f46551b1f4bc"
+  ],
+  "records": [
+    {
+      "id": "apoptosis",
+      "kind": "term",
+      "name": "Apoptosis",
+      "aka": [
+        "apoptotic",
+        "pro-apoptotic",
+        "anti-apoptotic",
+        "undergo apoptosis",
+        "induce apoptosis",
+        "induces apoptosis",
+        "triggers apoptosis"
+      ],
+      "tldr": "Apoptosis is a regulated process that dismantles a cell. Whether the dying cell stimulates protective immunity is a separate question.",
+      "summary": "The mitochondrial route uses BCL-2-family control of BAX and BAK and cytochrome c release. In cell experiments, combined BAX and BAK loss blocked mitochondrial responses to several apoptotic stimuli; this does not establish resistance to all forms of death. Death-receptor signals provide another route. Apoptosis is not inherently immune-silent: anthracycline-treated tumour cells showed calreticulin-dependent immunogenicity in mouse experiments. A death marker, a mitochondrial response and sustained killing answer different questions. Protein abundance alone cannot establish dependence or choose a treatment.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Apoptosis",
+      "links": [
+        {
+          "label": "Primary source, PMID 11326099",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11326099/"
+        },
+        {
+          "label": "Primary source, PMID 17187072",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17187072/"
+        },
+        {
+          "label": "Source identity and scope, PMID 8689682",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8689682/"
+        },
+        {
+          "label": "Source identity and scope, PMID 9727492",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9727492/"
+        },
+        {
+          "label": "Source identity and scope, PMID 29362479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+        },
+        {
+          "label": "Source identity and scope, PMID 24355989",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24355989/"
+        },
+        {
+          "label": "Source identity and scope, PMID 11782314",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11782314/"
+        },
+        {
+          "label": "Source identity and scope, PMID 23291630",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23291630/"
+        },
+        {
+          "label": "Source identity and scope, PMID 32209603",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+        },
+        {
+          "label": "Source identity and scope, PMID 22632970",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
+        },
+        {
+          "label": "Source identity and scope, PMID 29258294",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/"
+        },
+        {
+          "label": "Source identity and scope, PMID 24439385",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "necrosis",
+        "resisting-cell-death",
+        "immunogenic-cell-death",
+        "tumour-suppressor-gene",
+        "ferroptosis-cell-death",
+        "er-stress-and-unfolded-protein-response"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "bcl2",
+        "tp53"
+      ],
+      "drugs": [
+        "venetoclax"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "apoptosis-bcl2",
+        "p53-cell-cycle"
+      ],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Intrinsic apoptosis involves mitochondrial outer-membrane permeabilisation, cytochrome c release into the cytosol, apoptosome assembly and caspase-9 activation upstream of executioner caspases such as caspase-3 and caspase-7. Death-receptor signalling can activate caspase-8; BID cleavage links this route to mitochondria. Initiator and executioner roles differ.",
+        "The BCL-2 family contains survival proteins, including BCL-2, BCL-XL and MCL-1; BH3-only stress mediators, including BIM, BID and PUMA; and pore-forming effectors BAX and BAK. In experimental cells, loss of both BAX and BAK blocked several mitochondrial apoptotic responses, rather than every possible form of death.",
+        "Cytochrome c moves from the mitochondrial intermembrane compartment, including crista stores, across the outer membrane to the cytosol. It does not begin in the matrix. The inner membrane separates these compartments; the spatial sketch is simplified, with no implied pore stoichiometry.",
+        "A stain for BCL-XL measures abundance rather than survival dependence. BCL2 and BCL2L1 are different genes, and inhibitor selectivity matters. Souers and colleagues re-engineered dual BCL-2/BCL-XL inhibition into BCL-2-selective ABT-199, sparing human platelets; early tumour lysis in three refractory chronic lymphocytic leukaemia patients does not establish benefit in every tumour. A mitochondrial response, caspase marker, sustained killing and immune protection remain separate outcomes. Keep cell identity, timing, handling controls and later survival or regrowth with cleaved-caspase assays, membrane readouts and microscopy. Mitochondrial BH3 challenges test readiness under a defined protocol, rather than completed killing or clinical benefit.",
+        "Compare mechanism, morphology, immune consequence and living arrest separately. Apoptosis uses regulated dismantling; necrotic morphology describes boundary failure; ferroptosis requires iron-dependent lipid damage causing death; immunogenicity requires a compatible adaptive response; senescence is a living arrest. These categories are not mutually exclusive outcomes or a universal appearance-based classifier.",
+        "In the fictional killing experiment, rescue by both an iron chelator and a lipid-protecting compound with no caspase-inhibitor rescue supports a ferroptosis hypothesis. Check lipid damage, death timing, perturbation specificity and GPX4 or glutathione-related mechanisms before attribution; immunogenicity is a separate test. A single stain is not enough."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "autophagy",
+      "kind": "pathway",
+      "name": "Autophagy",
+      "aka": [],
+      "tldr": "Autophagy delivers cellular material for breakdown and reuse. The amount present, the rate of recycling and whether cells need it to survive are different questions.",
+      "summary": "Macroautophagy encloses cargo in autophagosomes for lysosomal delivery and breakdown. LC3 abundance alone cannot distinguish increased formation from reduced removal. Tandem fluorescent LC3 reporters exploit different responses to acidic and degradative conditions to examine maturation in cell experiments; interpretation requires appropriate controls. Flux and survival dependence need separate tests. In a randomised phase 2 trial of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel did not improve the primary endpoint of survival at 12 months. A drug trial does not by itself establish selective autophagy dependence in a tumour.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Autophagy",
+      "links": [
+        {
+          "label": "Primary source, PMID 17534139",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/"
+        },
+        {
+          "label": "Primary source, PMID 31120501",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/"
+        },
+        {
+          "label": "Yamamoto et al., Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I (Nature 2020)",
+          "url": "https://doi.org/10.1038/s41586-020-2229-5"
+        },
+        {
+          "label": "Source identity and scope, PMID 33634751",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/"
+        },
+        {
+          "label": "Source identity and scope, PMID 29362479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+        },
+        {
+          "label": "Source identity and scope, PMID 33584716",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/"
+        },
+        {
+          "label": "Source identity and scope, PMID 19250911",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/"
+        },
+        {
+          "label": "Source identity and scope, PMID 19258318",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/"
+        },
+        {
+          "label": "Lysosome biology in autophagy (2020 review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32047650/"
+        },
+        {
+          "label": "The hairpin-type tail-anchored SNARE syntaxin 17 targets to autophagosomes for fusion with endosomes/lysosomes (2012 cell experiments)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23217709/"
+        },
+        {
+          "label": "The ATG conjugation systems are important for degradation of the inner autophagosomal membrane (2016 cell experiments)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27885029/"
+        },
+        {
+          "label": "Autophagosome maturation: An epic journey from the ER to lysosomes (2019 review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30578282/"
+        },
+        {
+          "label": "mTORC1 Activator SLC38A9 Is Required to Efflux Essential Amino Acids from Lysosomes and Use Protein as a Nutrient (2017 cell and transport experiments)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29053970/"
+        },
+        {
+          "label": "Lysosomal metabolomics reveals V-ATPase- and mTOR-dependent regulation of amino acid efflux from lysosomes (2017 lysosomal metabolomics)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29074583/"
+        },
+        {
+          "label": "Atg22 recycles amino acids to link the degradative and recycling functions of autophagy (2006 yeast experiments)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17021250/"
+        }
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "related": [
+        "nutrient-sensing-ampk"
+      ],
+      "cancers": [
+        "pancreatic"
+      ],
+      "sections": [],
+      "technologies": [
+        "kras-inhibitors"
+      ],
+      "targets": [
+        "kras"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "penn-abramson",
+        "cold-spring-harbor"
+      ],
+      "pathways": [
+        "ras-mapk",
+        "pi3k-akt-mtor",
+        "cancer-metabolism",
+        "antigen-presentation-immunoediting"
+      ],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-yamamoto-nature"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Leading programmes: Amaravadi (Penn) on autophagy inhibition trials; Kimmelman (NYU) on PDAC autophagy and MHC-I; Der (UNC) on KRAS/autophagy.",
+        "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+        "A completed macroautophagosome has separate inner and outer membranes, with space between them. When it fuses with a lysosome, the outer membrane joins the lysosomal boundary, while the inner membrane is degraded before enzymes gain access to the enclosed cargo. Itakura and colleagues located syntaxin 17 on completed autophagosomes, and Tsuboyama and colleagues found that loss of ATG conjugation systems markedly delayed inner-membrane degradation even when fusion occurred. A direct-fusion sketch omits intermediate endosomal interactions described in multicellular organisms; it is not the complete route taken by every compartment.",
+        "Product return has evidence in defined systems. In leucine-starved cultured human HEK-293T cells, Wyant and colleagues found that SLC38A9 was needed for leucine made by lysosomal protein breakdown to reach the cytosol; the response also depended on the autophagy protein ATG7. Abu-Remaileh and colleagues measured regulated lysosomal amino-acid exchange in mammalian cells. Yeast experiments identified Atg22, Avt3 and Avt4 as partially redundant vacuolar amino-acid exporters. These results support amino-acid recycling in those systems, without establishing transport of every breakdown product, secretion from the cell or guaranteed growth.",
+        "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+        "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+        "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination."
+      ],
+      "analogy": "A besieged city that starts recycling furniture into firewood. It keeps the lights on through the siege, and burning the 'wanted posters' (MHC) hides its criminals too.",
+      "nodes": [
+        {
+          "id": "stress",
+          "label": "Defined nutrient or drug stress",
+          "x": 15,
+          "y": 30,
+          "targetId": "kras"
+        },
+        {
+          "id": "ulk",
+          "label": "ULK1 / AMPK",
+          "x": 40,
+          "y": 30
+        },
+        {
+          "id": "mtor",
+          "label": "mTORC1 (inhibits)",
+          "x": 40,
+          "y": 70
+        },
+        {
+          "id": "phag",
+          "label": "Autophagosome",
+          "x": 65,
+          "y": 30
+        },
+        {
+          "id": "lys",
+          "label": "Lysosomal delivery and breakdown",
+          "x": 85,
+          "y": 30
+        },
+        {
+          "id": "fuel",
+          "label": "Reused building blocks; test survival",
+          "x": 85,
+          "y": 70
+        },
+        {
+          "id": "mhc",
+          "label": "MHC-I degradation (PDAC)",
+          "x": 65,
+          "y": 90
+        }
+      ],
+      "edges": [
+        {
+          "from": "stress",
+          "to": "ulk",
+          "type": "activates"
+        },
+        {
+          "from": "mtor",
+          "to": "ulk",
+          "type": "inhibits"
+        },
+        {
+          "from": "ulk",
+          "to": "phag",
+          "type": "activates"
+        },
+        {
+          "from": "phag",
+          "to": "lys",
+          "type": "activates"
+        },
+        {
+          "from": "lys",
+          "to": "fuel",
+          "type": "activates"
+        },
+        {
+          "from": "lys",
+          "to": "mhc",
+          "type": "activates"
+        }
+      ],
+      "interventions": [
+        "Clinical drug studies and mechanistic dependence tests answer different questions.",
+        "Assess flux, selected cargo and survival separately with complementary controls."
+      ]
+    },
+    {
+      "id": "necrosis",
+      "kind": "term",
+      "name": "Necrosis",
+      "aka": [
+        "necrotic",
+        "tumour necrosis",
+        "tumor necrosis",
+        "necrotic core"
+      ],
+      "tldr": "Necrosis describes cell and tissue breakdown with loss of membrane integrity. The appearance alone does not identify its cause.",
+      "summary": "Necrotic appearance can follow overwhelming injury or regulated death mechanisms. A late membrane-integrity measurement cannot reconstruct the preceding death sequence. Histology describes the sampled region; necrosis there does not establish the absence of viable tumour elsewhere, treatment success or a particular molecular pathway. Distinguish tissue appearance from a mechanism established by controlled perturbation and complementary readouts. Inflammation and antigen-specific adaptive immune protection are separate outcomes.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Necrosis",
+      "links": [
+        {
+          "label": "Primary source, PMID 29362479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+        },
+        {
+          "label": "Primary source, PMID 32209603",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+        },
+        {
+          "label": "Source identity and scope, PMID 22265413",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22265413/"
+        },
+        {
+          "label": "Source identity and scope, PMID 12110890",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12110890/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "apoptosis",
+        "angiogenesis",
+        "inflammation",
+        "pcr",
+        "immunogenic-cell-death"
+      ],
+      "cancers": [
+        "glioblastoma"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Necrosis describes loss of membrane integrity and tissue breakdown, rather than one molecular route. Overwhelming injury, regulated mechanisms and late secondary necrosis after apoptosis with inadequate clearance can converge on membrane loss. Necrosis is broader than necroptosis.",
+        "RIPK3-dependent MLKL activation is an example regulated necrotic mechanism. Sun and colleagues used biochemical and cellular perturbations to establish MLKL downstream of RIP3; a necrotic region or membrane-impermeant dye alone cannot establish that pathway.",
+        "Histology describes the sampled region; viable tumour may remain elsewhere. A membrane-compromised fraction, qualitative tissue necrosis and method-defined necrotic area answer different questions. Handling, delayed fixation and late sampling affect interpretation, and no universal necrosis percentage identifies a death mechanism or proves treatment success. Preparing and staining a section consumes tissue, while live-cell dye assays use tested aliquots and report a defined membrane-compromised fraction. Clinical morphology and experimental pathway perturbation have different validation contexts.",
+        "HMGB1-deficient necrotic cells produced less inflammation in defined experiments. That result concerns danger signalling, rather than automatic adaptive immune memory. Dye entry after an intervention cannot establish necroptosis, vaccine activity or clinical benefit without the separate causal and host tests."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "senescence",
+      "kind": "pathway",
+      "name": "Cellular senescence",
+      "aka": [],
+      "tldr": "Senescent cells remain alive while their division is durably arrested. Their effects depend on the cells, signals and surrounding tissue.",
+      "summary": "Senescence is a stress-associated cell state with durable cell-cycle arrest and other context-dependent features. Identifying it requires combined measurements rather than one marker. In genetically switchable blood-cancer models, release from senescence allowed renewed division with enhanced clonogenic potential. That experimental result does not predict that every senescent cell will restart or that a person will relapse. Arrest, secretion and effects on neighbouring cells require separate assessment. Model findings do not establish a preferred senolytic treatment.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cellular_senescence",
+      "links": [
+        {
+          "label": "Primary source, PMID 31675495",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31675495/"
+        },
+        {
+          "label": "Primary source, PMID 29258294",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/"
+        },
+        {
+          "label": "Schmitt, Wang & Demaria, Senescence and cancer: role and therapeutic opportunities (Nature Reviews Clinical Oncology 2022)",
+          "url": "https://doi.org/10.1038/s41571-022-00668-4"
+        },
+        {
+          "label": "Source identity and scope, PMID 29362479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+        },
+        {
+          "label": "Source identity and scope, PMID 39121846",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39121846/"
+        },
+        {
+          "label": "Source identity and scope, PMID 19053174",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19053174/"
+        },
+        {
+          "label": "Source identity and scope, PMID 25499914",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25499914/"
+        }
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "cdk46-inhibitor"
+      ],
+      "targets": [
+        "tp53",
+        "cdk4-6",
+        "bcl2"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "mskcc",
+        "cold-spring-harbor",
+        "mayo-clinic"
+      ],
+      "pathways": [
+        "p53-cell-cycle",
+        "apoptosis-bcl2",
+        "inflammation-nfkb",
+        "tumor-microenvironment"
+      ],
+      "terms": [
+        "senescent-cells"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-schmitt-nat-rev-clin-oncol"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Leading programmes: Lowe (MSK) on senescence and immune clearance; Campisi legacy (Buck); Kirkland (Mayo) on senolytics; Demaria (ERIBA Groningen); Peeper (NKI) on one-two punch.",
+        "Senescent cells remain alive and metabolically active while division is durably arrested. Damage, oncogenic signals and treatment stresses can induce the state. It is distinct from death, reversible quiescence, the broader concept of dormancy and immune exhaustion, and is not a synonym for a person's age.",
+        "Low proliferation and increased p21 one day after stress do not establish durable senescence or a harmful secretory programme. Combine cell identity, longitudinal arrest or regrowth assessment and complementary features such as p16, p21, damage markers and senescence-associated beta-galactosidase. Fixed tissue cannot test later recovery, and no universal marker or arrest-duration cutoff works across contexts. Research outputs include method-defined cell fractions, marker intensities and longitudinal proliferation or regrowth. Stained sections and tested cells consume material. Secretions and their functional effects require their own readouts rather than inference from an arrest marker.",
+        "The senescence-associated secretory phenotype varies with cell, stimulus, timing and environment. In Coppé and colleagues' culture experiments, selected secretions promoted epithelial invasiveness; in Demaria and colleagues' mouse skin wounds, senescent cells and PDGF-AA supported repair. Neither experiment establishes a universal harmful mixture or a clinical instruction to remove senescent cells.",
+        "Genetically switchable blood-cancer models showed enhanced clonogenic growth after release from senescence. This supports possible escape in those systems, not inevitable restart, relapse prediction or a preferred senolytic treatment. Arrest, secretion and effects on neighbouring cells require separate tests."
+      ],
+      "analogy": "A workshop can stop making copies while continuing to use energy and send messages. The messages and their effects must be measured in context.",
+      "nodes": [
+        {
+          "id": "dmg",
+          "label": "Oncogene / therapy stress",
+          "x": 15,
+          "y": 30
+        },
+        {
+          "id": "p53",
+          "label": "p53 → p21",
+          "x": 40,
+          "y": 20,
+          "targetId": "tp53"
+        },
+        {
+          "id": "p16",
+          "label": "p16 → RB",
+          "x": 40,
+          "y": 45,
+          "targetId": "cdk4-6"
+        },
+        {
+          "id": "arrest",
+          "label": "Stable arrest",
+          "x": 65,
+          "y": 30
+        },
+        {
+          "id": "sasp",
+          "label": "Variable secretory programme",
+          "x": 65,
+          "y": 70
+        },
+        {
+          "id": "tme",
+          "label": "Context-dependent neighbour effects",
+          "x": 90,
+          "y": 70
+        },
+        {
+          "id": "seno",
+          "label": "Investigational clearance approaches",
+          "x": 90,
+          "y": 30
+        }
+      ],
+      "edges": [
+        {
+          "from": "dmg",
+          "to": "p53",
+          "type": "activates"
+        },
+        {
+          "from": "dmg",
+          "to": "p16",
+          "type": "activates"
+        },
+        {
+          "from": "p53",
+          "to": "arrest",
+          "type": "activates"
+        },
+        {
+          "from": "p16",
+          "to": "arrest",
+          "type": "activates"
+        },
+        {
+          "from": "arrest",
+          "to": "sasp",
+          "type": "activates"
+        },
+        {
+          "from": "sasp",
+          "to": "tme",
+          "type": "activates"
+        },
+        {
+          "from": "seno",
+          "to": "arrest",
+          "type": "inhibits"
+        }
+      ],
+      "interventions": [
+        "Experimental induction, persistence and clearance require separate measurements.",
+        "Model findings do not establish a preferred senolytic treatment."
+      ]
+    },
+    {
+      "id": "warburg-effect",
+      "kind": "term",
+      "name": "Warburg effect",
+      "aka": [],
+      "tldr": "The Warburg effect is a pattern of making lactate from glucose while oxygen is available. It does not mean that mitochondrial energy production has stopped.",
+      "summary": "Aerobic glycolysis can coexist with mitochondrial glucose oxidation and use of other nutrients. Human lung-tumour tracer experiments demonstrated variation within and between tumours, rather than a single cancer-wide metabolic state. The pattern can support proliferation but does not establish an irreplaceable survival requirement. Glucose uptake, lactate release, oxygen consumption and calculated energy production answer different questions. Neither this pattern nor a culture nutrient-removal result supplies a dietary or drug recommendation.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Warburg_effect_(oncology)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Warburg_effect_(oncology)"
+        },
+        {
+          "label": "Source identity and scope, PMID 19460998",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19460998/"
+        },
+        {
+          "label": "Source identity and scope, PMID 26853473",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26853473/"
+        },
+        {
+          "label": "Source identity and scope, PMID 25449966",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25449966/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "metabolic-theory-of-cancer",
+        "oxidative-phosphorylation",
+        "nutrient-sensing-ampk"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "fdg-pet"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "cancer-metabolism",
+        "hif-vhl"
+      ],
+      "terms": [
+        "suv"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The Warburg effect describes substantial glucose-to-lactate metabolism with oxygen available. Glycolysis can supply ATP and lactate formation regenerates a carrier needed for its continuation. Lactate production does not imply absent mitochondrial oxidation, and proliferating normal cells can use aerobic glycolysis too.",
+        "Intraoperative glucose-tracer studies in nine people with non-small-cell lung cancer found enhanced glycolysis alongside glucose oxidation, with heterogeneity within and between tumours and evidence for other nutrient use. These observations do not describe every cancer or establish an irreplaceable survival route.",
+        "FDG imaging measures uptake and trapping of a glucose analogue, not lactate production or a cancer-exclusive process. Respiratory carbon dioxide contributes to medium acidification, so pH change is not pure glycolysis. Keep oxygen conditions, viable-cell normalisation, tracer identity, metabolites and timing with rate measurements; tracer labelling alone is not automatically a complete flux estimate.",
+        "Lactate release, oxygen consumption and labelled glucose reaching mitochondrial metabolites can coexist. High pathway activity, a transcript signature or glucose uptake does not prove survival dependence. A culture nutrient-removal experiment does not establish that changing a person's diet selectively starves a tumour or identifies a medicine. Functional rate or tracer studies use viable cells, slices or a defined in-vivo experiment and consume or perturb material. No universal Warburg-positive threshold predicts treatment benefit; a functional perturbation and survival outcome are separate from the metabolic pattern."
+      ],
+      "category": "Cancer biology"
+    },
+    {
+      "id": "ferroptosis-cell-death",
+      "kind": "pathway",
+      "name": "Ferroptosis & regulated cell death",
+      "aka": [],
+      "tldr": "Ferroptosis is a form of cell death involving iron-dependent membrane-lipid damage. General oxidative stress or one positive marker does not establish this mechanism.",
+      "summary": "Ferroptosis involves iron-dependent membrane-lipid peroxidation and death. Cystine uptake through system xc- can support cysteine and glutathione availability; it does not transport glutathione itself. GPX4 uses glutathione to reduce lipid hydroperoxides, while FSP1 provides a parallel coenzyme-Q-associated defence. Dependence on these routes varies with the model and cellular conditions. Establishing the mechanism requires appropriately controlled measurements of death, lipid damage, iron dependence and rescue, with complementary perturbations. Findings in persistent or mesenchymal model cells do not establish a universal vulnerability or a treatment recommendation. Necrotic appearance, danger signals and adaptive antitumour immunity are separate questions.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ferroptosis",
+      "links": [
+        {
+          "label": "Stockwell, Ferroptosis turns 10 (Cell 2022)",
+          "url": "https://doi.org/10.1016/j.cell.2022.06.003"
+        },
+        {
+          "label": "Viswanathan et al., Dependency of a therapy-resistant state on a lipid peroxidase pathway (Nature 2017)",
+          "url": "https://doi.org/10.1038/nature23007"
+        },
+        {
+          "label": "Source identity and scope, PMID 22632970",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
+        },
+        {
+          "label": "Source identity and scope, PMID 27506793",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27506793/"
+        },
+        {
+          "label": "Source identity and scope, PMID 24439385",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/"
+        },
+        {
+          "label": "Source identity and scope, PMID 31634900",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31634900/"
+        },
+        {
+          "label": "Source identity and scope, PMID 29362479",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+        }
+      ],
+      "tags": [
+        "mechanism"
+      ],
+      "related": [
+        "reactive-oxygen-species"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "bcl2"
+      ],
+      "drugs": [
+        "venetoclax"
+      ],
+      "companies": [],
+      "institutions": [
+        "mskcc",
+        "stanford",
+        "broad-institute"
+      ],
+      "pathways": [
+        "apoptosis-bcl2",
+        "emt",
+        "cancer-metabolism"
+      ],
+      "terms": [
+        "resisting-cell-death",
+        "resistance"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-stockwell-cell",
+        "paper-viswanathan-nature"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Leading programmes: Stockwell (Columbia, coined ferroptosis); Dixon (Stanford); Schreiber (Broad) on persister-cell GPX4 dependence; Jiang (MSK) on ferroptosis in immunotherapy.",
+        "Ferroptosis involves iron-dependent membrane-lipid peroxidation causing death. Erastin experiments implicated cystine uptake through system xc-, connecting cysteine and glutathione supply to antioxidant defence. Vulnerable polyunsaturated lipid chains, iron availability and cellular conditions matter; general reactive-oxygen fluorescence does not establish this mechanism.",
+        "GPX4 uses glutathione to reduce lipid hydroperoxides to lipid alcohols. FSP1 provides a parallel coenzyme-Q radical-trapping defence; it does not replace every GPX4 function or describe the whole protection network. Protein abundance alone does not measure protective activity or predict compound sensitivity.",
+        "Assigning ferroptosis needs convergent measurements of death, lipid damage preceding death, iron dependence and appropriately controlled rescue. Independent genetic and chemical perturbations strengthen attribution; rescue alone is not complete proof. Probe chemistry, concentration, nutrients, cell density and observation time can alter results. A lipid-probe ratio and death fraction are different outputs, with no universal diagnostic staining threshold. Live death and rescue tests consume viable model material. Specify lipid-probe oxidation ratios and independently measured death percentages over a stated interval; a marker snapshot does not reconstruct the full causal sequence.",
+        "A culture with abundant GPX4, a general oxidation signal and no death has not demonstrated ferroptosis. Cell-line and xenograft vulnerabilities do not establish tolerable exposure, selective cancer killing or benefit in patients. Alternative defences can confer resistance, so a strong antioxidant programme is not automatically a treatment vulnerability."
+      ],
+      "analogy": "Ferroptosis is rust. Iron plus oxygen eats through the cell's membranes unless an antioxidant crew (GPX4) keeps repainting them. Cells that changed shape to dodge chemotherapy have thinner paint.",
+      "nodes": [
+        {
+          "id": "cys",
+          "label": "Cystine import (SLC7A11)",
+          "x": 15,
+          "y": 30
+        },
+        {
+          "id": "gsh",
+          "label": "Glutathione",
+          "x": 40,
+          "y": 30
+        },
+        {
+          "id": "gpx4",
+          "label": "GPX4",
+          "x": 65,
+          "y": 30
+        },
+        {
+          "id": "lpo",
+          "label": "Lipid peroxidation",
+          "x": 65,
+          "y": 70
+        },
+        {
+          "id": "iron",
+          "label": "Labile iron (Fenton)",
+          "x": 35,
+          "y": 70
+        },
+        {
+          "id": "ferro",
+          "label": "Ferroptosis",
+          "x": 90,
+          "y": 70
+        },
+        {
+          "id": "mes",
+          "label": "Mesenchymal / persister state",
+          "x": 90,
+          "y": 30
+        },
+        {
+          "id": "apo",
+          "label": "Apoptosis (BCL-2 family)",
+          "x": 15,
+          "y": 90,
+          "targetId": "bcl2"
+        }
+      ],
+      "edges": [
+        {
+          "from": "cys",
+          "to": "gsh",
+          "type": "activates"
+        },
+        {
+          "from": "gsh",
+          "to": "gpx4",
+          "type": "activates"
+        },
+        {
+          "from": "gpx4",
+          "to": "lpo",
+          "type": "inhibits"
+        },
+        {
+          "from": "iron",
+          "to": "lpo",
+          "type": "activates"
+        },
+        {
+          "from": "lpo",
+          "to": "ferro",
+          "type": "activates"
+        },
+        {
+          "from": "mes",
+          "to": "gpx4",
+          "type": "activates"
+        }
+      ],
+      "interventions": [
+        "xCT inhibitors, cyst(e)inase, sulfasalazine repurposing (early trials)",
+        "Radiotherapy and IFN-γ from T cells induce lipid peroxidation",
+        "BH3 mimetics (venetoclax) exploit apoptosis; MCL-1 inhibitors in development",
+        "Persister-cell targeting after EGFR/ALK inhibitors (preclinical)"
+      ]
+    },
+    {
+      "id": "ubiquitin-proteasome-system",
+      "kind": "pathway",
+      "name": "Ubiquitin-proteasome system & protein homeostasis",
+      "aka": [],
+      "tldr": "Ubiquitin can change a protein's interactions, location or fate. Some tags support proteasomal destruction; tagging alone does not establish completed degradation.",
+      "summary": "E1 enzymes activate ubiquitin, E2 enzymes carry it and E3 ligases help select substrates and assemble modifications. Chain architecture and cellular context influence the result; ubiquitination is not universally a destruction signal. Deubiquitinases can remove or remodel tags, and proteasomal degradation is a later process that needs its own evidence. A protein can fall because synthesis changes, cells are lost or degradation increases, so abundance alone does not identify the route. In targeted-degradation experiments, target binding, E3 recruitment, protein loss, proteasome dependence and sustained cellular effects are distinct observations. Proteasome inhibitors and recruited-degradation strategies intervene at different steps; mechanistic measurements do not by themselves establish clinical benefit.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Proteasome",
+      "links": [
+        {
+          "label": "Békés, Langley & Crews, PROTAC targeted protein degraders: the past is prologue (Nat Rev Drug Discov 2022)",
+          "url": "https://doi.org/10.1038/s41573-021-00371-6"
+        },
+        {
+          "label": "Source identity and scope, PMID 6305978",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/"
+        },
+        {
+          "label": "Source identity and scope, PMID 3031653",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/"
+        },
+        {
+          "label": "Source identity and scope, PMID 28421184",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28421184/"
+        },
+        {
+          "label": "Source identity and scope, PMID 19345192",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19345192/"
+        },
+        {
+          "label": "Source identity and scope, PMID 15282312",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15282312/"
+        },
+        {
+          "label": "Source identity and scope, PMID 15958804",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15958804/"
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "mechanics-atlas"
+      ],
+      "related": [
+        "bcma",
+        "androgen-receptor",
+        "er-stress-and-unfolded-protein-response"
+      ],
+      "cancers": [
+        "multiple-myeloma",
+        "mantle-cell-lymphoma",
+        "prostate",
+        "breast-hr-positive"
+      ],
+      "sections": [],
+      "technologies": [
+        "protac-degrader",
+        "molecular-glue-platforms",
+        "degrader-antibody-conjugate"
+      ],
+      "targets": [
+        "mdm2",
+        "hif2a",
+        "estrogen-receptor",
+        "btk"
+      ],
+      "drugs": [
+        "bortezomib",
+        "carfilzomib",
+        "ixazomib",
+        "lenalidomide",
+        "pomalidomide",
+        "iberdomide",
+        "mezigdomide",
+        "golcadomide",
+        "vepdegestrant",
+        "bgb-16673"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "hif-vhl",
+        "p53-mdm2-axis",
+        "inflammation-nfkb",
+        "myc"
+      ],
+      "terms": [
+        "r-iss",
+        "high-risk-myeloma"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-bekes-nat-rev-drug-discov"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Ubiquitin is a small protein attached through enzyme steps: E1 uses ATP for activation, E2 carries activated ubiquitin, and E3 promotes substrate selection and transfer. Reticulocyte experiments separated these functions. E3 families differ in transfer mechanism; no single cartoon specifies all of them.",
+        "Suitable tagged cargo can be unfolded by ATP-dependent proteasomal machinery and broken into fragments, while ubiquitin is removed and reused. Other ubiquitin signals organise interactions rather than destruction, and yeast experiments show overlapping chain functions. Lysosomal autophagy and proteasomal breakdown are distinct routes.",
+        "Protein abundance reflects synthesis and removal. Measure named-substrate decay over time with synthesis, handling and viability controls; restoration of an E3 adaptor can strengthen attribution without proving direct binding or global proteasome failure. Catalytic activity per time, ubiquitinated-cargo intensity and protein lifetime in hours are different readouts. KEAP1 is one CUL3 adaptor for NRF2, so a CUL3 change cannot uniquely identify that substrate. Pulse labelling or a controlled temporary synthesis block can help estimate turnover but may cause stress. Independent perturbation and restoration help distinguish a selected-substrate effect from a secondary response; enzyme engagement alone does not establish selective killing.",
+        "In a randomised trial of 669 people with relapsed myeloma after one to three prior therapies, bortezomib prolonged median time to progression compared with high-dose dexamethasone: 6.22 versus 3.49 months. This historical clinical result does not make an arbitrary E3 variant or abundant protein a predictive treatment biomarker."
+      ],
+      "analogy": "A recycling plant with barcode stickers (ubiquitin) and a shredder (proteasome). Myeloma is a paper mill that produces so much waste it dies when the shredder stops (bortezomib). PROTACs and glues are forged stickers that get the plant to shred the cancer's own machinery.",
+      "nodes": [
+        {
+          "id": "e1",
+          "label": "E1 → E2 ubiquitin",
+          "x": 12,
+          "y": 15
+        },
+        {
+          "id": "e3",
+          "label": "E3 ligase (CRBN, VHL, MDM2)",
+          "x": 40,
+          "y": 15,
+          "targetId": "mdm2"
+        },
+        {
+          "id": "sub",
+          "label": "Substrate (IKZF1/3, p53, HIF)",
+          "x": 70,
+          "y": 15,
+          "targetId": "hif2a"
+        },
+        {
+          "id": "chain",
+          "label": "K48 ubiquitin chain",
+          "x": 70,
+          "y": 45
+        },
+        {
+          "id": "dub",
+          "label": "DUBs (USP7)",
+          "x": 92,
+          "y": 30
+        },
+        {
+          "id": "prot",
+          "label": "26S proteasome (β5)",
+          "x": 70,
+          "y": 75
+        },
+        {
+          "id": "upr",
+          "label": "UPR, IκB → NF-κB",
+          "x": 40,
+          "y": 75
+        },
+        {
+          "id": "glue",
+          "label": "Glues / PROTACs hijack E3",
+          "x": 40,
+          "y": 45,
+          "targetId": "estrogen-receptor"
+        },
+        {
+          "id": "deg",
+          "label": "Degradation",
+          "x": 92,
+          "y": 90
+        },
+        {
+          "id": "chap",
+          "label": "HSP90 chaperones",
+          "x": 12,
+          "y": 75
+        }
+      ],
+      "edges": [
+        {
+          "from": "e1",
+          "to": "e3",
+          "type": "activates"
+        },
+        {
+          "from": "e3",
+          "to": "sub",
+          "type": "activates"
+        },
+        {
+          "from": "sub",
+          "to": "chain",
+          "type": "activates"
+        },
+        {
+          "from": "dub",
+          "to": "chain",
+          "type": "inhibits"
+        },
+        {
+          "from": "chain",
+          "to": "prot",
+          "type": "activates"
+        },
+        {
+          "from": "prot",
+          "to": "deg",
+          "type": "activates"
+        },
+        {
+          "from": "prot",
+          "to": "upr",
+          "type": "inhibits"
+        },
+        {
+          "from": "glue",
+          "to": "e3",
+          "type": "activates"
+        },
+        {
+          "from": "glue",
+          "to": "sub",
+          "type": "activates"
+        },
+        {
+          "from": "chap",
+          "to": "sub",
+          "type": "inhibits"
+        }
+      ],
+      "interventions": [
+        "Proteasome inhibitors bortezomib, carfilzomib, ixazomib in multiple myeloma and mantle cell lymphoma",
+        "Cereblon glues: lenalidomide, pomalidomide; CELMoDs iberdomide, mezigdomide, golcadomide",
+        "PROTACs: vepdegestrant (ER), BGB-16673 (BTK), AR degraders; degrader-antibody conjugates deliver them by antibody",
+        "Reactivating degradation of oncoproteins (MDM2 inhibition for p53) and blocking DUBs are in trials"
+      ]
+    },
+    {
+      "id": "lipid-metabolism-cancer",
+      "kind": "pathway",
+      "name": "Lipid synthesis, uptake & cholesterol",
+      "aka": [],
+      "tldr": "Cells can make, import, store and reuse lipids. The route they use and their dependence on it vary with the cell and conditions.",
+      "summary": "Lipid metabolism includes synthesis, uptake, storage, membrane remodelling and oxidation. Cholesterol regulation and fatty-acid regulation overlap but are not interchangeable. Identify the SREBP member, cellular compartment and measured output rather than treating a transcript, precursor, nuclear fragment, sterol amount and synthesis rate as the same observation. SCAP-SREBP transport responds to endoplasmic reticulum cholesterol in the cited cell experiments. The mevalonate pathway supplies sterols and nonsterol products, including substrates for protein prenylation. Rescue by mevalonate therefore cannot uniquely identify cholesterol as the limiting product. Transcript abundance, lipid abundance, labelled production and a controlled survival-dependence experiment answer different questions. Results from a particular cell model or mouse experiment do not establish a universal tumour vulnerability or a preferred diet or treatment.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fatty_acid_synthesis",
+      "links": [
+        {
+          "label": "Röhrig & Schulze, The multifaceted roles of fatty acid synthesis in cancer (Nat Rev Cancer 2016)",
+          "url": "https://doi.org/10.1038/nrc.2016.89"
+        },
+        {
+          "label": "Source identity and scope, PMID 19041766",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19041766/"
+        },
+        {
+          "label": "Primary SREBP or mevalonate experiment (PubMed 9616204)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9616204/"
+        },
+        {
+          "label": "Primary SREBP or mevalonate experiment (PubMed 22265415)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22265415/"
+        }
+      ],
+      "tags": [
+        "mechanism",
+        "mechanics-atlas"
+      ],
+      "related": [],
+      "cancers": [
+        "ovarian",
+        "prostate",
+        "breast-hr-positive",
+        "endometrial",
+        "hcc"
+      ],
+      "sections": [],
+      "technologies": [
+        "metabolic-therapy",
+        "glp1-agonists-cancer-risk",
+        "bariatric-surgery-cancer-incidence",
+        "mediterranean-plant-forward-diet",
+        "exercise-oncology",
+        "dietitian-led-weight-loss-breast"
+      ],
+      "targets": [
+        "akt",
+        "kras",
+        "estrogen-receptor"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "cancer-metabolism",
+        "ferroptosis-cell-death",
+        "pi3k-akt-mtor",
+        "tumor-dormancy"
+      ],
+      "terms": [
+        "obesity-related-cancers",
+        "energy-balance",
+        "metabolic-syndrome",
+        "body-composition",
+        "deregulating-cellular-energetics"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-rohrig-nat-rev-cancer"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "SCAP and local endoplasmic-reticulum sterol conditions regulate transport of membrane-bound SREBP to the Golgi. Processing releases a fragment that enters the nucleus and regulates lipid synthesis and uptake. Sufficient local sterol supply can retain the complex in the ER; total cellular cholesterol and SREBP RNA do not measure this processing.",
+        "In the fictional supply experiment, nuclear SREBP-2 and uptake messages respond to lipid-poor medium; external lipid supply can reduce the response and compensate for synthesis perturbation. Record medium composition, density, timing and viability before assigning dependence. A supply-sensitive state does not establish the response of a person's tumour. Assess precursor and nuclear regulator, responsive transcripts, cellular sterols and uptake separately from labelled synthesis rates. Use controlled supplementation to test the proposed bottleneck; total amount does not specify production or local sensing.",
+        "In transgenic mice expressing a truncated SREBP-2 construct, Horton and colleagues observed preferential activation of cholesterol synthesis over fatty-acid synthesis in liver and adipose tissue, contrasting it with earlier SREBP-1a results. They separately measured transcripts and synthesis using labelled water. These are relative effects in a named experimental system, not exclusive duties of each family member or proof that a transcript measurement equals flux. Precursor location and nuclear processing require their own measurements.",
+        "Statins inhibit HMG-CoA reductase upstream in the mevalonate pathway, which supplies cholesterol and nonsterol products. In Freed-Pastor and colleagues' breast-cancer 3D cultures, geranylgeranyl pyrophosphate partially rescued an invasive phenotype after mutant-p53 depletion or simvastatin treatment. This illustrates why mevalonate rescue alone cannot uniquely attribute an effect to cholesterol. It does not identify every relevant metabolite, establish a universal cancer dependency or show that a statin perturbation reproduces every change in SCAP-SREBP regulation."
+      ],
+      "analogy": "A factory that must build its own walls. Normal adult tissue buys wall panels from a supplier (dietary fat); cancer reopens its own panel plant (FASN) and, when it lands in a fat depot, simply strips panels off the buildings next door.",
+      "nodes": [
+        {
+          "id": "cit",
+          "label": "Citrate → ACLY → acetyl-CoA",
+          "x": 12,
+          "y": 20
+        },
+        {
+          "id": "acc",
+          "label": "ACC → malonyl-CoA",
+          "x": 40,
+          "y": 20
+        },
+        {
+          "id": "fasn",
+          "label": "FASN → palmitate",
+          "x": 68,
+          "y": 20
+        },
+        {
+          "id": "scd",
+          "label": "SCD1 → membranes",
+          "x": 90,
+          "y": 40
+        },
+        {
+          "id": "srebp",
+          "label": "SREBP (mTORC1, hypoxia)",
+          "x": 40,
+          "y": 50,
+          "targetId": "akt"
+        },
+        {
+          "id": "ampk",
+          "label": "AMPK / LKB1",
+          "x": 12,
+          "y": 50
+        },
+        {
+          "id": "mev",
+          "label": "Mevalonate → cholesterol",
+          "x": 68,
+          "y": 55,
+          "targetId": "kras"
+        },
+        {
+          "id": "cd36",
+          "label": "CD36 uptake from adipocytes",
+          "x": 12,
+          "y": 82
+        },
+        {
+          "id": "fao",
+          "label": "Fatty acid oxidation (CPT1)",
+          "x": 40,
+          "y": 82
+        },
+        {
+          "id": "ferro",
+          "label": "PUFA → ferroptosis",
+          "x": 90,
+          "y": 80
+        },
+        {
+          "id": "obes",
+          "label": "Obesity, insulin, IGF-1",
+          "x": 68,
+          "y": 88
+        }
+      ],
+      "edges": [
+        {
+          "from": "cit",
+          "to": "acc",
+          "type": "activates"
+        },
+        {
+          "from": "acc",
+          "to": "fasn",
+          "type": "activates"
+        },
+        {
+          "from": "fasn",
+          "to": "scd",
+          "type": "activates"
+        },
+        {
+          "from": "srebp",
+          "to": "fasn",
+          "type": "activates"
+        },
+        {
+          "from": "srebp",
+          "to": "mev",
+          "type": "activates"
+        },
+        {
+          "from": "ampk",
+          "to": "srebp",
+          "type": "inhibits"
+        },
+        {
+          "from": "cd36",
+          "to": "fao",
+          "type": "activates"
+        },
+        {
+          "from": "cd36",
+          "to": "scd",
+          "type": "activates"
+        },
+        {
+          "from": "scd",
+          "to": "ferro",
+          "type": "inhibits"
+        },
+        {
+          "from": "obes",
+          "to": "srebp",
+          "type": "activates"
+        },
+        {
+          "from": "obes",
+          "to": "cd36",
+          "type": "activates"
+        }
+      ],
+      "interventions": [
+        "FASN inhibitor denifanstat and SCD1 inhibitors in trials; statins repurposed with mostly negative randomised data",
+        "Weight management, GLP-1 agonists and bariatric surgery reduce obesity-related cancer incidence",
+        "Exercise and dietary pattern interventions during treatment",
+        "Ferroptosis inducers exploit the lipid composition of mesenchymal and persister cells"
+      ]
+    },
+    {
+      "id": "er-stress-and-unfolded-protein-response",
+      "kind": "term",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response",
+      "aka": [],
+      "tldr": "Cells respond to strain on protein folding through several signalling branches. A response does not by itself establish cell death.",
+      "summary": "The unfolded protein response has distinct outputs. IRE1-dependent processing of XBP1 RNA produces a potent transcriptional regulator; total XBP1 message and its spliced fraction are different measurements. PERK phosphorylates eIF2alpha and can reduce translation initiation. ER stress also promotes ATF6 proteolysis, releasing a fragment that acts in the nucleus. These findings come from molecular and cell experiments. Branch activity, adaptation, survival dependence and treatment benefit require separate evidence. Specify branch, timing, total protein or RNA controls and direct growth and death measurements.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Primary source, PMID 11779464",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11779464/"
+        },
+        {
+          "label": "Primary source, PMID 9930704",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9930704/"
+        },
+        {
+          "label": "Primary source, PMID 10564271",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10564271/"
+        },
+        {
+          "label": "Source identity and scope, PMID 22116877",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22116877/"
+        },
+        {
+          "label": "Source identity and scope, PMID 11821395",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11821395/"
+        },
+        {
+          "label": "Source identity and scope, PMID 24670641",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24670641/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "ER stress is an imbalance between protein-folding demand and local capacity; the unfolded protein response is an adaptation programme, not the same thing as the stress. IRE1 processes XBP1 RNA, PERK phosphorylates eIF2alpha and ATF6 processing releases a nuclear regulator. Distinct branches can alter folding capacity, incoming translation and disposal.",
+        "ATF6 travels from ER to Golgi for processing; the released fragment, rather than the intact membrane-bound precursor, acts in the nucleus. Total XBP1 RNA differs from its splice-form fraction. Other kinases can phosphorylate eIF2alpha, so one phosphosite cannot identify the whole response.",
+        "Specify preserved material, RNA quality, isoform-specific methods, total-protein controls, timing and identified cell populations. Splice-form fractions, processed ATF6 and defined phosphoprotein signals are different outputs. Increased XBP1 splicing with stable viable-cell counts supports a branch response, not lethal stress; measure growth and death directly and test causality independently. RNA or protein preparations and compatible tissue stains use material; functional dependence tests require viable cells. Report splice-form fractions, defined phosphosite signals or processed fragments with assay-specific controls, rather than a universal UPR-positive treatment threshold.",
+        "XBP1 depletion altered tumour growth and relapse in defined triple-negative breast cancer models, with an HIF1alpha transcriptional interaction. Model findings and patient expression-signature associations do not establish universal XBP1 dependence, an assay cutoff or a treatment benefit. Successful stress adaptation can support survival."
+      ],
+      "category": "Cancer biology"
+    },
+    {
+      "id": "nutrient-sensing-ampk",
+      "kind": "term",
+      "name": "AMPK energy sensing",
+      "aka": [],
+      "tldr": "AMPK helps cells adjust their work to their energy supply. Slower growth and better survival can occur together.",
+      "summary": "AMP-activated protein kinase responds to cellular energy state. Structural and biochemical experiments showed that ADP binding protects activating phosphorylation without the direct allosteric activation supplied by AMP. In cancer-model experiments during energy stress, AMPK supported NADPH maintenance through changes in fatty-acid metabolism and prolonged survival. Thus activation cannot be read as a universal cancer-killing signal. Preserve the model, energy conditions, timing, perturbation controls and separate measurements of growth and death. A phosphorylation signal does not establish selective drug action or patient benefit.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Primary source, PMID 21399626",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
+        },
+        {
+          "label": "Primary source, PMID 22660331",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22660331/"
+        },
+        {
+          "label": "Source identity and scope, PMID 16054095",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16054095/"
+        },
+        {
+          "label": "Source identity and scope, PMID 18439900",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18439900/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "AMP-activated protein kinase is a catalytic and regulatory complex responding to energy state. AMP and ADP can protect activating phosphorylation, but AMP also supplies direct allosteric activation that ADP does not. ATP, ADP and AMP quantities and ratios are different from a phosphoprotein readout.",
+        "LKB1 and a calcium-sensitive CaMKK2 route can activate AMPK in suitable systems. AMPK can phosphorylate raptor and restrain mTORC1, connecting energy supply to costly growth-related work. An AMPK phosphosite does not uniquely identify glucose deprivation or every nutrient signal.",
+        "During energy stress in model experiments, AMPK preserved reducing power through altered fatty-acid metabolism and supported survival. Increased AMPK and raptor phosphorylation, slower growth and greater survival than an AMPK-deficient comparison are compatible observations. This is not a universal benefit from activating or inhibiting AMPK.",
+        "Keep collection timing, preservation, total protein, antibody specificity and matched perturbations with energy-state and phosphosite measurements. Mixed tissue can combine malignant and nonmalignant responses. Slower growth is not death, an altered gene needs direction-of-function evidence, and a marker change does not make a multitarget drug a selective AMPK intervention. Report concentrations or ratios of energy carriers, normalised activating phosphorylation and defined downstream sites. Preserved tissue can support staining, while viable-model perturbations use material. No universal AMPK-high cutoff establishes vulnerability."
+      ],
+      "category": "Cancer biology"
+    },
+    {
+      "id": "reactive-oxygen-species",
+      "kind": "term",
+      "name": "Reactive oxygen species",
+      "aka": [],
+      "tldr": "Reactive oxygen species are a group of chemicals with different effects. A fluorescent signal needs its chemistry, location and biological consequence explained.",
+      "summary": "Hydrogen-peroxide reporters such as HyPer and HyPer7 measure specified oxidation responses in defined experimental settings. Reporter sensitivity, pH response, compartment and timing affect interpretation. A probe signal is not a universal concentration of all reactive oxygen species or proof of a death mechanism. In matrix-detached mammary epithelial models, antioxidant treatment restored energy production and supported survival. Oncogene-driven mouse experiments also linked NRF2 detoxification to tumour development. These model results do not justify a supplement recommendation. General oxidation, iron-dependent lipid damage, death and clinical benefit are separate claims.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Primary source, PMID 16554833",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16554833/"
+        },
+        {
+          "label": "Primary source, PMID 32130885",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32130885/"
+        },
+        {
+          "label": "Primary source, PMID 19693011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19693011/"
+        },
+        {
+          "label": "Primary source, PMID 21734707",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21734707/"
+        },
+        {
+          "label": "Source identity and scope, PMID 22632970",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reactive oxygen species include chemically different molecules; superoxide is a radical and hydrogen peroxide is not. Location, amount and time affect signalling and damage. A measured level reflects both production and removal, while antioxidant transcripts are neither a production rate nor a species measurement.",
+        "An oxidation-sensitive fluorescence signal needs a named probe, loading and cell-health controls, location, timing and appropriate calibration. HyPer and HyPer7 are peroxide reporters with distinct pH and sensitivity properties, rather than universal measurements of all reactive oxygen species. Fixed-tissue damage staining cannot reconstruct a live chemical rate. Live reporters require viable material or engineered models. Outputs can be relative fluorescence or calibrated ratios; unstimulated, positive, probe-only and cell-health controls address different failure modes. The result is not a universal concentration of all reactive oxygen species.",
+        "A general fluorescent increase does not establish mitochondrial origin, lipid damage, ferroptosis or death. Validate chemistry and compartment first, then follow damage, viability and relevant independent perturbation or rescue over time. No general ROS-positive threshold selects a cancer treatment.",
+        "Antioxidants supported energy recovery and survival in detached mammary epithelial models; oncogene-driven NRF2 detoxification also supported tumour development in experimental settings. Less oxidation cannot therefore be assumed to mean less cancer. These findings do not recommend adding or withholding antioxidant supplements."
+      ],
+      "category": "Cancer biology"
+    },
+    {
+      "id": "oxidative-phosphorylation",
+      "kind": "term",
+      "name": "Oxidative phosphorylation",
+      "aka": [],
+      "tldr": "Oxygen use and cellular energy production are related measurements. Researchers need controlled experiments to work out how much energy a cell produces through mitochondrial respiration.",
+      "summary": "Extracellular flux methods estimate respiratory and glycolytic contributions to energy production under defined assumptions. A respiratory message, measured oxygen use, calculated energy output and dependence for survival are distinct claims. Normalisation, fuel, viable-cell input, collection time and the specified method version belong with a result. Electron transport, proton pumping, return through ATP synthase and uncoupling are distinct steps. The mitochondrial matrix and intermembrane space locate the two sides of the inner membrane; naming these compartments does not supply a universal conversion ratio.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Source identity and scope, PMID 26709455",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26709455/"
+        },
+        {
+          "label": "Source identity and scope, PMID 28270511",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/"
+        },
+        {
+          "label": "Racker and Stoeckenius 1974: proton-pumping vesicle reconstitution",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4272126/"
+        },
+        {
+          "label": "Mookerjee et al. 2018 correction to the ATP-rate method",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6093231/"
+        },
+        {
+          "label": "OpenStax Biology 2e 7.4: mitochondrial oxidative phosphorylation (educational source)",
+          "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+        },
+        {
+          "label": "Assessing mitochondrial dysfunction in cells (2011 methods review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21726199/"
+        },
+        {
+          "label": "Mitochondrial ATP synthase: architecture, function and pathology (2012 ATP-synthase review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21874297/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Respiration and ATP generation are related but different measurements. Mitochondrial and nonmitochondrial oxygen consumption, proton leak and ATP-linked respiration require controlled separation. Respiratory transcripts, normalised oxygen-consumption rates and survival dependence cannot substitute for one another; bulk tissue composition and compensatory fuel use also matter. Oxygen-consumption assays require viable cells or functional preparations rather than routine fixed sections and use or perturb the tested material. Report oxygen per time with justified viable-cell or protein normalisation. Equal baseline respiration and different responses to ATP-synthase inhibition do not by themselves identify which culture will die.",
+        "The fictional oxygen-rate example gives 60 minus 30 = 30 picomoles of oxygen per minute per 10,000 viable cells after ATP-synthase inhibition. This is an inhibitor-sensitive oxygen-rate difference, not picomoles of ATP, a death percentage or a corrected ATP-production calculation. Fuel, normalisation and assay controls remain attached.",
+        "In mitochondria, respiratory electron transfer and proton movement are distinct processes. Some respiratory complexes move protons from the matrix into the intermembrane space; return through ATP synthase can support ATP formation, while other return pathways dissipate the gradient without that synthesis step. These directions do not specify a fixed proton-to-ATP ratio. Protons return from the intermembrane space to the matrix through the membrane-embedded Fo part of ATP synthase. The matrix-facing F1 part uses the transferred energy to make ATP from ADP and inorganic phosphate. Protons provide the driving force; they are not converted into ATP. A parallel proton leak bypasses ATP synthase and dissipates the gradient. In Racker and Stoeckenius' reconstituted vesicles, a light-driven membrane system from Halobacterium supported ATP formation when mitochondrial ATPase was included. Their artificial vesicles pumped in the opposite direction to the intact source cells, so the experiment supports coupling without specifying a universal cellular orientation or ratio.",
+        "Extracellular acidification can include respiration-derived carbon dioxide as well as glycolytic acid production. Keep correction assumptions, normalisation and method version with any calculated ATP rate. The 2018 correction to Mookerjee and colleagues' 2017 method changes the ATP-linked oxygen-rate equation and reports use of a different hyperpolarization factor in some calculations; several numerical rates changed while the authors retained their qualitative conclusions. An inhibitor-sensitive oxygen-rate difference is therefore not itself an ATP rate, and an unversioned fixed conversion should not be inferred."
+      ],
+      "category": "Cancer biology"
+    }
+  ]
+}

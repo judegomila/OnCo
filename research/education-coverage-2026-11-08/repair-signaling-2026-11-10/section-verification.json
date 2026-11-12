@@ -1,0 +1,2166 @@
+[
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+    "version": "original",
+    "sourceSha256": "ea521359a16e6352f895232008065b070f515e70e5e0c8597cc4994da9e67e65",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "ec69104fd8a77c2d56c10b44862706a18cf4744e42ef9d9c37a49a2893ccdddf"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "ed09c2edb791e02475c36e2adbc382dde9b0516ae40d0a7c2cb3a99cedbb037f"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "c016f9b057c9a3c36c3a8fb80c14f8f7114a29bad51f7ce03933fe87ec64d9ae"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "8f77677a9f8132e6a5539e330f85d00cde5a35306373157a3799ffd1f32efaa0"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "cc1b658e1d74f9401bef50649a33227c2207917ab21130aa56c328c9e9fc6d94"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "348b66cd88889833e2db1d7efbb94b273e3c4ec249337555b28c1df0961a9edc"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bf03ebb51d6dbf07efaf584ee66618240b7bd1c97e4429f35752b1681500d3b7"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "fc3fd253ac48c0d4061b99f0348c632b913639dae6fd0db7b6d92bb2cc6c352a"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "519bd925bcd5e5380400c9194a101d96354728551bc8fc1cf839a0c07cc745cf"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "fe443af60866a01b1986b1633cccb4e4c258bdf6c1a63625d29d6907a8af51b4"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "58c2f016db1e1a0d798cdef0d2214a810dc22fe72d8664804e31cce29affbe5b"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "ad8947e5b6cc7c7d13429b3fca69120ea503738b173ad42871f8eb795b647731"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+    "version": "later",
+    "sourceSha256": "16b80f841c5fb9c6fb2134f31297c924e933cc7d14017d29ace0cb28ab9fea04",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "ec69104fd8a77c2d56c10b44862706a18cf4744e42ef9d9c37a49a2893ccdddf"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "ed09c2edb791e02475c36e2adbc382dde9b0516ae40d0a7c2cb3a99cedbb037f"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "c016f9b057c9a3c36c3a8fb80c14f8f7114a29bad51f7ce03933fe87ec64d9ae"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "8f77677a9f8132e6a5539e330f85d00cde5a35306373157a3799ffd1f32efaa0"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "dfb0b2fffbd27cfddc042cb44265cdd112ee55fb96503b59a0ef37679385d1c0"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "348b66cd88889833e2db1d7efbb94b273e3c4ec249337555b28c1df0961a9edc"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bf03ebb51d6dbf07efaf584ee66618240b7bd1c97e4429f35752b1681500d3b7"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "fc3fd253ac48c0d4061b99f0348c632b913639dae6fd0db7b6d92bb2cc6c352a"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "519bd925bcd5e5380400c9194a101d96354728551bc8fc1cf839a0c07cc745cf"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "fe443af60866a01b1986b1633cccb4e4c258bdf6c1a63625d29d6907a8af51b4"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "e1246315219e13a91e86159a4e10b0e13b36f3cc1cfc6b092bac6579d24be6f7"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "d126c7cc1f79867476a4325ab2b728b8d45907ea64336f9953b2c98d89cc0599"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+    "version": "original",
+    "sourceSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "ba85ebf4fda429cb5e7c48d572c51a3360321f8dcf3a08936ab7717dfa740ee8"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "196628fc36c38fb3ee15a52bfed85709e1dd8ffcf303e40d45db214b71ad3689"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "df0df9fa8d491586bad1bdfb525beeec3e29485e8f95d70c151f91711a5328ee"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "375cb395269b72aca2af73e9a462ed721b40de578f4b16575b1abf126674098d"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "0d31eca4fdf14890f96d020d9895a0ece56fa847c392709a8d6dc0c552953965"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "eb8ebf8a098c807ce12e64de18c9800e97e9d4acb4fad0b2144c41303a8670dd"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "40e5490024b47b1c6946fa9eab9a01d0bd5e03973b896c19130f0c83b959f4df"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "e3241039c51c86bd180b612d5c832320b081e216baa3484a28b544a94b92cb64"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "dc0a78cdabd7d2c7fea263d547ee35e76824afb1d4e5adef7b8c4dcd3d4de98c"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "4556fe807a52df4751334013eaaf72d8978b80d2754feac432a9de01802ee829"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "4b20982fbb1b5f963dad376285e71c5647734ca30b0951b46beae181cdc470fd"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "e583e49bec4b6cadb1216c7755328fb7fe04df0b297dec7a94cd675ab15d3106"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+    "version": "later",
+    "sourceSha256": "b6662a79310508d731dfcbd6c306a991b31a37fc509cea1ac82d7f8741082564",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "ba85ebf4fda429cb5e7c48d572c51a3360321f8dcf3a08936ab7717dfa740ee8"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "196628fc36c38fb3ee15a52bfed85709e1dd8ffcf303e40d45db214b71ad3689"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "df0df9fa8d491586bad1bdfb525beeec3e29485e8f95d70c151f91711a5328ee"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "375cb395269b72aca2af73e9a462ed721b40de578f4b16575b1abf126674098d"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "6c63772e791d0b905d569a8fcb4d79dab78e41823be7f9a1ddc9800c4c0cfdbc"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "eb8ebf8a098c807ce12e64de18c9800e97e9d4acb4fad0b2144c41303a8670dd"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "40e5490024b47b1c6946fa9eab9a01d0bd5e03973b896c19130f0c83b959f4df"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "e3241039c51c86bd180b612d5c832320b081e216baa3484a28b544a94b92cb64"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "dc0a78cdabd7d2c7fea263d547ee35e76824afb1d4e5adef7b8c4dcd3d4de98c"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "4556fe807a52df4751334013eaaf72d8978b80d2754feac432a9de01802ee829"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "4b20982fbb1b5f963dad376285e71c5647734ca30b0951b46beae181cdc470fd"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "05c18d61c0da63b94039428b3d83478b31f841b0674e3db13f8126e92f03e1ff"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+    "version": "original",
+    "sourceSha256": "6617a2958b9d4759a227f938c0416ba99e914ec20eefc497bab92d3a52f761a9",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "cb50b4abcfa0a75e2bf54e822a59a9e3210aab221366b4cdcb7796111a0d17af"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7141805027e3922f8189465997228409784fe23d5a06d29c2bf9d52bd220c169"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a3dcb279762d4203bb02b14c4315b8e780141484aba116df476f58bed7966a6c"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "1e4754330049593e48e144d6caec940c85c06b1a61991ae43e4bad9018de9de7"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "3440dd41cf7a809261608d0019e6dec3c38f85aacd9076bc2acbe339d3b6350a"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "07cc98bd001284221d41326ac62c85b8cad372c32dcbc1c0d3aaa52f12aac4c3"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d6dcab48318b1a0b6886568a9b25bd4b6214414199e2c282a1d132a63955067c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "33c2f15a2cb1ad09cdcdb2e84b885a866a4f150bc8ebdf30a9b3f3e8c721d292"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "dd45568c838962e91ddd2c61d428dfd5650db9f2397bed3ffa5afe5cce0a5874"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "cbc1c20175a1fd5b0a6bce29f962a6388fcb5df1cef2281e273b3e2477a3446f"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "d50813d01489134159c54d05ef91affb748192e70c113e846dc81dcc35290235"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "099b47d25235f808a1f1d3fd1030e9f7a8726299907344a1369aa26a32a79b9f"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+    "version": "later",
+    "sourceSha256": "6de19b16381b370eb6aa97c024e59dfa38146d367cf5a05c14a1d0d4d7f8e35d",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "cb50b4abcfa0a75e2bf54e822a59a9e3210aab221366b4cdcb7796111a0d17af"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7141805027e3922f8189465997228409784fe23d5a06d29c2bf9d52bd220c169"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a3dcb279762d4203bb02b14c4315b8e780141484aba116df476f58bed7966a6c"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "3a95990c7f3e2125bdcd042ba16135fe5320f1c6f657dadab6a588a83a0f90d4"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "6afd3e310b259b3cb7bb794b7a74e3d64ed119ea8d71029926efafc1444ba7a4"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "07cc98bd001284221d41326ac62c85b8cad372c32dcbc1c0d3aaa52f12aac4c3"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d6dcab48318b1a0b6886568a9b25bd4b6214414199e2c282a1d132a63955067c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "33c2f15a2cb1ad09cdcdb2e84b885a866a4f150bc8ebdf30a9b3f3e8c721d292"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "dd45568c838962e91ddd2c61d428dfd5650db9f2397bed3ffa5afe5cce0a5874"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "cbc1c20175a1fd5b0a6bce29f962a6388fcb5df1cef2281e273b3e2477a3446f"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "083d81a9d9eddfdce70f918771abd41aac8cdb0be684382183c1d8c3bac92992"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "6b44ac4acdcae2fdbdce1bc094b0c28197d4b86044abac6e3f93deb4c16e7651"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+    "version": "original",
+    "sourceSha256": "ed1f8f06c8f89bacee88536aa9d0a30a0f9d97ef7c2128d4cca302e60e910da3",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3dae9d2cc5b05fd2d1421bfefa1a22ea3ea0180d8fc3ee7fae113fb6162fc429"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "6d38b9b384832b501f3ceebb31cfc7f776bc4a860c1dda873bf45c0eb373d256"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "e988d4b00c4da22fb4a03ec8d647b7dc9966ebb320b1b85af6edbd7c75c131ef"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "75fc9a2adb90969e91f893a65e05d611297a4d560fcb405e8a6a4721c510bc2b"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "85628b20294bfd1e5369de29da2fba0fe1e191e825474a70b117426932a2942c"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "a5cdb05bb6ed6425cec876cad85bdd9e193c3720debe77999b7cf1c10db2cb9e"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "f0eadab273ccd96e8859ddf38331f4e2cdcff45e78b27bb2c17673f38ba8f343"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "40677c351c3d26c4b4a6e91a4e091b7947850554f39e5733899294bee37703af"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "3dd16bb4085c157966f29485dc8b1ea8e391350d9946d50d56755763726de958"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "a14e9e6bb37bd7c5b7eb7cd1a935b8ec102678435c73e940e85ee9cfa11eb54a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "a4f28ceaca5d1f173baee7968cd5e76af2d6fcbcf59c4e75018a374d1be8ef71"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "db7d6db527fab3ed4dba9d5addb5d62478b8679ac603b429722a2290082f7f96"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+    "version": "later",
+    "sourceSha256": "e3df3544b3251e0aff87b3bcfa89617f318cf70af96a18a0307267782ff487e5",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3dae9d2cc5b05fd2d1421bfefa1a22ea3ea0180d8fc3ee7fae113fb6162fc429"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "6d38b9b384832b501f3ceebb31cfc7f776bc4a860c1dda873bf45c0eb373d256"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "e988d4b00c4da22fb4a03ec8d647b7dc9966ebb320b1b85af6edbd7c75c131ef"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "e4d226379f0257875ce64b1770205fc5600669cfa12cb2eaac0e12ff577de26a"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "85628b20294bfd1e5369de29da2fba0fe1e191e825474a70b117426932a2942c"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "a5cdb05bb6ed6425cec876cad85bdd9e193c3720debe77999b7cf1c10db2cb9e"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "f0eadab273ccd96e8859ddf38331f4e2cdcff45e78b27bb2c17673f38ba8f343"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "40677c351c3d26c4b4a6e91a4e091b7947850554f39e5733899294bee37703af"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "3dd16bb4085c157966f29485dc8b1ea8e391350d9946d50d56755763726de958"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "a14e9e6bb37bd7c5b7eb7cd1a935b8ec102678435c73e940e85ee9cfa11eb54a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "a4f28ceaca5d1f173baee7968cd5e76af2d6fcbcf59c4e75018a374d1be8ef71"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "db7d6db527fab3ed4dba9d5addb5d62478b8679ac603b429722a2290082f7f96"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+    "version": "original",
+    "sourceSha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "aa25ccdac76702fe5b87adf10c4de24b5fd928e0cc44c156a062b7e713a835bd"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "4034a5834333c2343f1b61fc0d4f15649d10e1eda846dfcbc89e66f006e1112c"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "229fc9fb09bb2a41f6ff31ef73141073835adc052fcac9a84f3918daf0b9d0e0"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "aa923ae4e20b8903266cf2b1a31a91e493df783b35113d9b572da4537d26c7fe"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "ffcd53504f2277a28411e775526e579e73c301cfe29d393ba0ca04f6fc04623d"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "9a43abaa1f9847b4e53297d9ec1c6b7e5f18dba7887c8af759499e50f14f8ca1"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "11018a8878209cdc9ed6f2209ab52d03cab0f2218b27d768fb85ac4a72d7a2f6"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "04a46b02158dc75fda885a9d5ab11248e694ef87b6f20b8771900bcf9116b646"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6f2267e684b028040a35fffccfca4cf5ef24f41c2447d7be095dceea954f250e"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "73aac6d826f2f58ec53d59c2ef9c258d6d2bb256efb0de0bfa2798739c44d94b"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "d93c1d34394207889231e12ebadd428d30c61073bc37d9dbf661c7ad50cc3416"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "ee6f518e2621983714788539fc8239da5fd278a1645075a7791a7b6ed52b569f"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+    "version": "later",
+    "sourceSha256": "0cc050d82c82fd66c88d0410fc2433c4e372301599029c56a62cbae0f8c542b5",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "aa25ccdac76702fe5b87adf10c4de24b5fd928e0cc44c156a062b7e713a835bd"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "4034a5834333c2343f1b61fc0d4f15649d10e1eda846dfcbc89e66f006e1112c"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "229fc9fb09bb2a41f6ff31ef73141073835adc052fcac9a84f3918daf0b9d0e0"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "aa923ae4e20b8903266cf2b1a31a91e493df783b35113d9b572da4537d26c7fe"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "28aafeff95aa22219eee063f023c6214b2eaff30d7161a4394ea75de739bb03c"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "9a43abaa1f9847b4e53297d9ec1c6b7e5f18dba7887c8af759499e50f14f8ca1"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "11018a8878209cdc9ed6f2209ab52d03cab0f2218b27d768fb85ac4a72d7a2f6"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "04a46b02158dc75fda885a9d5ab11248e694ef87b6f20b8771900bcf9116b646"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6f2267e684b028040a35fffccfca4cf5ef24f41c2447d7be095dceea954f250e"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "73aac6d826f2f58ec53d59c2ef9c258d6d2bb256efb0de0bfa2798739c44d94b"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "d93c1d34394207889231e12ebadd428d30c61073bc37d9dbf661c7ad50cc3416"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "577643f22c57746723522f8c415e19548c4eacd3a2ac58ce6f5040bbd06852c8"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+    "version": "original",
+    "sourceSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "165fe72b77dce812ae395ca3eba34428359041f8b0a6497e703d4e4694b9f470"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "c0bc6ad550004ef57027114dd25b35518c46ae0712186fec85a448322fbc930b"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "7c7ff7200737b86c5588ae6445cfc361d0a30a1ad8844bf862462ee7c04aff2c"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "09aef4b522b34b91f69b19a882df26b421d81ca201b5ab055eb057a65f60e65c"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "12f24fdc713bffd01df0d227d708d102753ac18b5567bc8f474888c0cb2d8ad2"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "382c8fd04ba63e5bacbbbe87e4cbb021f3382b7bf470d3d95440e46d5cd4200a"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "2619905b14d6d5d45199723ac1d19b0949546743170e15077ceeefbe660e5e7c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "24b3c67583e082c5975fb0a6c058d71327051a3b88da41b82deb4c99009ca229"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "8a90d513cd9e9f04af6b420d2dce3dad464a067af6957caa977759364a32a22c"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "feddb1398d4eb25d029356386715e68fd7e87f9c1d856c97012d86d1d4b2d973"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "ebbc7de09989ac1c9bf77210cfeeced99e32a42c5f98b9a7a6d3a002f183caae"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "83f30d8a0e4218dee11483d1ce24d964bc80309d0e9febefce9674ad095449fd"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+    "version": "later",
+    "sourceSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "165fe72b77dce812ae395ca3eba34428359041f8b0a6497e703d4e4694b9f470"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "c0bc6ad550004ef57027114dd25b35518c46ae0712186fec85a448322fbc930b"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "7c7ff7200737b86c5588ae6445cfc361d0a30a1ad8844bf862462ee7c04aff2c"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "09aef4b522b34b91f69b19a882df26b421d81ca201b5ab055eb057a65f60e65c"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "12f24fdc713bffd01df0d227d708d102753ac18b5567bc8f474888c0cb2d8ad2"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "382c8fd04ba63e5bacbbbe87e4cbb021f3382b7bf470d3d95440e46d5cd4200a"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "2619905b14d6d5d45199723ac1d19b0949546743170e15077ceeefbe660e5e7c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "24b3c67583e082c5975fb0a6c058d71327051a3b88da41b82deb4c99009ca229"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "8a90d513cd9e9f04af6b420d2dce3dad464a067af6957caa977759364a32a22c"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "feddb1398d4eb25d029356386715e68fd7e87f9c1d856c97012d86d1d4b2d973"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "ebbc7de09989ac1c9bf77210cfeeced99e32a42c5f98b9a7a6d3a002f183caae"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "83f30d8a0e4218dee11483d1ce24d964bc80309d0e9febefce9674ad095449fd"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+    "version": "original",
+    "sourceSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b13e3a90911775f18273acd9e4eb4365197f795af225ceb60d532d92c352e841"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "11b99496669e108e3ab39cee177ca8eca94db96eba95514e0e107b0f568148f8"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "ad46f7db2eefe6ffb7503de32f5a20a2fa9ffc227bbd1c3492efb470fde8c7ef"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "3c14776a77be0db4d9b610a81a7e6a155b8891636faab90b8f2c6a75b44047c1"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "f85881199500684b39be03ef15d0dcbad32f09fb4684331f1a800fc94794ac28"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "b19957b77c5ec4624a02f1bc0afe53c6dc4ff561bfbaf6431e93eed2fe3740f2"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "eb77e75991bcb710e3dc5f83bb144046bf7cf6e2ea4dfb0486744cc02ac7c42c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "fffea3d0d03f3a57484686634a5ec8022d34dba8f563db633e857d3cf1032115"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "56a72ea34fc61db3ce681ce0d82e8ca1f24931720fc781e92207382101bcc501"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "45cfd7ede2d7b9f6529d1bccc9f48cc4ec3c9f2fff24175b47a4956732e8018a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "611b95201b2f11d604e5064540e58815782cc6db727ba12e276a45260626b48e"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "8cb7c61fded7605dc9600f3675f378bbcd7b69f31bb8c0ec8ab09681da6dbfec"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+    "version": "later",
+    "sourceSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b13e3a90911775f18273acd9e4eb4365197f795af225ceb60d532d92c352e841"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "11b99496669e108e3ab39cee177ca8eca94db96eba95514e0e107b0f568148f8"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "ad46f7db2eefe6ffb7503de32f5a20a2fa9ffc227bbd1c3492efb470fde8c7ef"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "3c14776a77be0db4d9b610a81a7e6a155b8891636faab90b8f2c6a75b44047c1"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "f85881199500684b39be03ef15d0dcbad32f09fb4684331f1a800fc94794ac28"
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "b19957b77c5ec4624a02f1bc0afe53c6dc4ff561bfbaf6431e93eed2fe3740f2"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "eb77e75991bcb710e3dc5f83bb144046bf7cf6e2ea4dfb0486744cc02ac7c42c"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "fffea3d0d03f3a57484686634a5ec8022d34dba8f563db633e857d3cf1032115"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "56a72ea34fc61db3ce681ce0d82e8ca1f24931720fc781e92207382101bcc501"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "45cfd7ede2d7b9f6529d1bccc9f48cc4ec3c9f2fff24175b47a4956732e8018a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "611b95201b2f11d604e5064540e58815782cc6db727ba12e276a45260626b48e"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "8cb7c61fded7605dc9600f3675f378bbcd7b69f31bb8c0ec8ab09681da6dbfec"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "version": "original",
+    "sourceSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "e96070a91811ad94e200794ff939c0f2fbd3d84defa4e3b49af4e7f14266fcf5"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "039a6df673034a9a3650fe40dc96115e76aca530471e463b88db09d424b108b2"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "f7c84582d77f726fac84e8a393b4c387fcc1cbd4bb07831b76eba612d3f3a9d2"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "93934ab1ecb5c77fec709654890406b51f5b1a3ed115a2e6252805f98b78325e"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "d6598027f0fe5bcd30ed1ec5fc416edd3a8fb2300444f20a32971e9fd3395d84"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4e0d21e58e26235eafdaa693228f6e81a6889f167fe25e1e2b2e2487fc259aee"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "cb7d386167424821bf9d7ad45243f19b67fdfd195997e98ef34733a971dda7b7"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "5fba52338c8693b6adaca45699c9f105e7c290a349f3138a42df76251179784b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "e81a6577258e7dc9450a0e67dd7bd75db07b1ac01cfc7ff2a3dc7a9c9efd8128"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "489aa6eb4f810c7f5992f7203e8c849247d720b6a73d138f77b1424623045d0e"
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "9027e3500a62a39a9c556ddd032fab2adef89712ce5b83a7506c82fafa3171ac"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+    "version": "later",
+    "sourceSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "e96070a91811ad94e200794ff939c0f2fbd3d84defa4e3b49af4e7f14266fcf5"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "039a6df673034a9a3650fe40dc96115e76aca530471e463b88db09d424b108b2"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "f7c84582d77f726fac84e8a393b4c387fcc1cbd4bb07831b76eba612d3f3a9d2"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "93934ab1ecb5c77fec709654890406b51f5b1a3ed115a2e6252805f98b78325e"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "d6598027f0fe5bcd30ed1ec5fc416edd3a8fb2300444f20a32971e9fd3395d84"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4e0d21e58e26235eafdaa693228f6e81a6889f167fe25e1e2b2e2487fc259aee"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "cb7d386167424821bf9d7ad45243f19b67fdfd195997e98ef34733a971dda7b7"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "5fba52338c8693b6adaca45699c9f105e7c290a349f3138a42df76251179784b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "e81a6577258e7dc9450a0e67dd7bd75db07b1ac01cfc7ff2a3dc7a9c9efd8128"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "489aa6eb4f810c7f5992f7203e8c849247d720b6a73d138f77b1424623045d0e"
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "9027e3500a62a39a9c556ddd032fab2adef89712ce5b83a7506c82fafa3171ac"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+    "version": "original",
+    "sourceSha256": "1206741be744c6fd1c82507b429f3f0d075dcd5542e3b4a20fda0382b9edc5dc",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "0d553d4bf960d3ad1ace8e4d1fca372d2207887f53cbbe91f0b36da47c940832"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f948a8f8292a50c5a69630c233b476cc6e350e63dbb77133706c2f76bd86e559"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "93811fbd3a2d3b798a85600cd1061f9d3ebfe190e1b642dd2b62b766b84d25a2"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7210cc511f6075f9ae79417a2d3cc10ccc39dac25c3c2eb8168b5edc4312e18b"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "a3de9f8071debe0e803e658b03b6d5399f947046393824c3ce73ae70cc5f3152"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "efd9e65fc4063f5704bf3b8c8cdac510c0ac02b6830ba9acd8282776d9d57537"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "906f904a12880b668daa23584c9b669b1a03d0957f8a0ebce5f186240a50e864"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "0d7b06f817559623d606f5a23c4fd891c4a0bd3b340d5eb3cfe86f51c0a8e397"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6a255935584843e394e91fc1ef12eef5d0e906e74fd6d0a9e930ce3956c02d2b"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "6fdc86a8a63934dcd8d5871a34c7c58963e365203765996147ce3342cc52603c"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "37d3de5f1a76f39b859ef7aac4b06da2ec036a4f9836b8615313b6f31ab1e30f"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "aa7a587b8628e7281c0154610c6c36254cce153a52cd21017ca0a77434353ae8"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+    "version": "later",
+    "sourceSha256": "462dd196dd8f613728c6e70201d742fc122fc21e016105529eb72c85c5040df9",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "0d553d4bf960d3ad1ace8e4d1fca372d2207887f53cbbe91f0b36da47c940832"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f948a8f8292a50c5a69630c233b476cc6e350e63dbb77133706c2f76bd86e559"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "93811fbd3a2d3b798a85600cd1061f9d3ebfe190e1b642dd2b62b766b84d25a2"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7210cc511f6075f9ae79417a2d3cc10ccc39dac25c3c2eb8168b5edc4312e18b"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "a3de9f8071debe0e803e658b03b6d5399f947046393824c3ce73ae70cc5f3152"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "efd9e65fc4063f5704bf3b8c8cdac510c0ac02b6830ba9acd8282776d9d57537"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "906f904a12880b668daa23584c9b669b1a03d0957f8a0ebce5f186240a50e864"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "0d7b06f817559623d606f5a23c4fd891c4a0bd3b340d5eb3cfe86f51c0a8e397"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6a255935584843e394e91fc1ef12eef5d0e906e74fd6d0a9e930ce3956c02d2b"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "6fdc86a8a63934dcd8d5871a34c7c58963e365203765996147ce3342cc52603c"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "37d3de5f1a76f39b859ef7aac4b06da2ec036a4f9836b8615313b6f31ab1e30f"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "aa7a587b8628e7281c0154610c6c36254cce153a52cd21017ca0a77434353ae8"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf.md",
+    "version": "original",
+    "sourceSha256": "57f3b73078b34299ad6924fd2222f25245f71bdf230944f5fda6c0e17e171cf8",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "87d4c12045c87efb5d3e6083e24d3076bc79dcde478d0763e96d1a326cbf0ac5"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "b5566590e2639761c610b269c45eb3f81e6d9a337daab7f553401ccd7a3a9919"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "944925a76bc1461cd74f115ca7ceab1d7250407f8902b41e654245b141d5b2fd"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d373b097de8ae9afd3261d5ded8e0279096eafe1cf793a4d24f3c09b03183a73"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "12c04ea4b6cd5b9278bfc107b8bba2bf5046d200860172eb310913e4b7c1f603"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "614ab56e0e0cd0c9feeb0679085987dcac78ddf14d8a6bc50aed06e34fe6da51"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "33ee6734552fc01e0c1e7b7a6430b7568ae786345dba98d3de47ae84d35aae63"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "83166bdd7a3d323136b02040e2c14e800e49b06bfd120bbe4b7be81d75aa201b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "89a73eaa7477cb8904b602ca0367e06b81fcc25de1fad0ec3993e1538d6d644a"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "1a6b45846e97fbcd73faf49b8f5b2593d6bc189f7c2de6e0775e24311dffae52"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "18bae8e9569d7d6027f76dd4e820ceeda9598089ca73ef273fa7b13878d811f7"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "fc51d4181d3d948bb1d7db59b3d8b14d98eaf8d7a2c31f65c0ed9a9b34fc9af1"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf.md",
+    "version": "later",
+    "sourceSha256": "57f3b73078b34299ad6924fd2222f25245f71bdf230944f5fda6c0e17e171cf8",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "87d4c12045c87efb5d3e6083e24d3076bc79dcde478d0763e96d1a326cbf0ac5"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "b5566590e2639761c610b269c45eb3f81e6d9a337daab7f553401ccd7a3a9919"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "944925a76bc1461cd74f115ca7ceab1d7250407f8902b41e654245b141d5b2fd"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d373b097de8ae9afd3261d5ded8e0279096eafe1cf793a4d24f3c09b03183a73"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "12c04ea4b6cd5b9278bfc107b8bba2bf5046d200860172eb310913e4b7c1f603"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "614ab56e0e0cd0c9feeb0679085987dcac78ddf14d8a6bc50aed06e34fe6da51"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "33ee6734552fc01e0c1e7b7a6430b7568ae786345dba98d3de47ae84d35aae63"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "83166bdd7a3d323136b02040e2c14e800e49b06bfd120bbe4b7be81d75aa201b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "89a73eaa7477cb8904b602ca0367e06b81fcc25de1fad0ec3993e1538d6d644a"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "1a6b45846e97fbcd73faf49b8f5b2593d6bc189f7c2de6e0775e24311dffae52"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "18bae8e9569d7d6027f76dd4e820ceeda9598089ca73ef273fa7b13878d811f7"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "fc51d4181d3d948bb1d7db59b3d8b14d98eaf8d7a2c31f65c0ed9a9b34fc9af1"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/myc.md",
+    "version": "original",
+    "sourceSha256": "96a6a9842483ae1a0f895e4456aabdcede746d1ced8e1062963e2e8f6dc82bae",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "8fa9e6666ea4570cf270a0fe816d9f0106136069069574b955f6d3d6941f9da1"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "b867e275f6fa41f3019faa41652cfb41755f7e5d9b45129bb7b4cd1a628cd77c"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "dde66a4e739b02ff43c1fb7028861cd93b3834e2afc48d495f04b6024ccb146a"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "24b5a4fc272bec8ebc82ed34394a6fd83e3927908b22014da15e43929d5ea04b"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "95a8d9bd6774e126ad0b8494a3a145dd899cee4c7e674c23ae1a5947f12d76ba"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0c9ce25c5a6fecad3f42f292ebc3aa3a3d97f856261b9e2dad2ec585cb38eba6"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "8fc3a2dac6d5a9bda257d7438c863515ea5691a00284878f979bf3ca5dceda87"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "026275e96ac102eca0a72c7f9f30665d6823be0757dfdde610dad67868ebe6b7"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "46ef5173617c8ccce71bbfb751564f82b90dc055a2003160ed208950325bbd0e"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "26cf36b69961455692203d1366c5a78bfce53ecfd60c59f2590978d97bf6374f"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "bd0e147e1afaef016b98eb7be6d3a13fa4dfa440e7b7a9359ac4ead7b3892bb8"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "99247fe70b212977aa8e4e8478b4afaf48070a0cf43b6e1e76aee5100f05d18e"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/myc.md",
+    "version": "later",
+    "sourceSha256": "96a6a9842483ae1a0f895e4456aabdcede746d1ced8e1062963e2e8f6dc82bae",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "8fa9e6666ea4570cf270a0fe816d9f0106136069069574b955f6d3d6941f9da1"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "b867e275f6fa41f3019faa41652cfb41755f7e5d9b45129bb7b4cd1a628cd77c"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "dde66a4e739b02ff43c1fb7028861cd93b3834e2afc48d495f04b6024ccb146a"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "24b5a4fc272bec8ebc82ed34394a6fd83e3927908b22014da15e43929d5ea04b"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "95a8d9bd6774e126ad0b8494a3a145dd899cee4c7e674c23ae1a5947f12d76ba"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0c9ce25c5a6fecad3f42f292ebc3aa3a3d97f856261b9e2dad2ec585cb38eba6"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "8fc3a2dac6d5a9bda257d7438c863515ea5691a00284878f979bf3ca5dceda87"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "026275e96ac102eca0a72c7f9f30665d6823be0757dfdde610dad67868ebe6b7"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "46ef5173617c8ccce71bbfb751564f82b90dc055a2003160ed208950325bbd0e"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "26cf36b69961455692203d1366c5a78bfce53ecfd60c59f2590978d97bf6374f"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "bd0e147e1afaef016b98eb7be6d3a13fa4dfa440e7b7a9359ac4ead7b3892bb8"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "99247fe70b212977aa8e4e8478b4afaf48070a0cf43b6e1e76aee5100f05d18e"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md",
+    "version": "original",
+    "sourceSha256": "f18dd5b63ca2045878417217255834dd0086af08e91d8f5cdd1375fa79edd358",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "0f68a24a676d5fb7fb9f171482438b0a337db216eeb77733896936b72f7082c2"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "a271fd8b74e169f0135bf9a89dbb3e3c36a74018999c90f13482ce6ce23860e3"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "024d67f3e73fe5a43ac97407b6054d986233d3dcaf164a17a373bddd1ed96679"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b4f3825fdab9df838c470d975eb5bc201466aaf5b44ded263a2175a1a0ad7c59"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "4154ba717ff0ecaf54ababacca4e8a9bdf3905863f30f535cebd936ce01833d0"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "1cbd17fd3832faec4449798b87dfeac1ba57ded8251036bc6acf901e2b7b6ae2"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4638c43072e90e6ab59c8baa965af31e5479f091edb26699a2b2a0796eff7e60"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d60741ba61402017435af0d19379f718272c6d4370abee9224493a543c7e850c"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "d1e00969ec94d401d75941feb5857b13be9ca66a5429b3cc956cc6db4a351dad"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "ba01046ff9906c4703b64791e4b44c6c786a7f146c6d6cde11af5ce4e61577df"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "7a3d16c35ad462c28ade66cc1dae3fb37fd7265d996fb4226a0cc0933b4b93bf"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "51339b5e5df393de5e0a8da334519df1e85d6bfc8d3418e4436a5a8d1d68f4be"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "e9bfa6e32c798d67a1f27dafa363b4d8841c1e293505cf167847f786a1a4a397"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md",
+    "version": "later",
+    "sourceSha256": "a71f7b860437a339b3e55175902a39d674a1cd80b8790d94d35fc02220c8b3ba",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "0f68a24a676d5fb7fb9f171482438b0a337db216eeb77733896936b72f7082c2"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "a271fd8b74e169f0135bf9a89dbb3e3c36a74018999c90f13482ce6ce23860e3"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "024d67f3e73fe5a43ac97407b6054d986233d3dcaf164a17a373bddd1ed96679"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b4f3825fdab9df838c470d975eb5bc201466aaf5b44ded263a2175a1a0ad7c59"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "4154ba717ff0ecaf54ababacca4e8a9bdf3905863f30f535cebd936ce01833d0"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "1cbd17fd3832faec4449798b87dfeac1ba57ded8251036bc6acf901e2b7b6ae2"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4638c43072e90e6ab59c8baa965af31e5479f091edb26699a2b2a0796eff7e60"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d60741ba61402017435af0d19379f718272c6d4370abee9224493a543c7e850c"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "d1e00969ec94d401d75941feb5857b13be9ca66a5429b3cc956cc6db4a351dad"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "ba01046ff9906c4703b64791e4b44c6c786a7f146c6d6cde11af5ce4e61577df"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "7a3d16c35ad462c28ade66cc1dae3fb37fd7265d996fb4226a0cc0933b4b93bf"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "dbd87e2f5da0ed4382d1b2de02385208727f1275f29498f256ff285efe46837c"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "e9bfa6e32c798d67a1f27dafa363b4d8841c1e293505cf167847f786a1a4a397"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+    "version": "original",
+    "sourceSha256": "62e254ae08213a760685c0b26a3d9785622a896307902e89ff326dd477a494e5",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "2a5e9371f629b8c22d0ba9a1dc56b5bb81e19c4d492c48e341ef4c63b6e8afd0"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "650473162490c240426482295df3d6755ef1bda56a5eab9dedaa7430fc119b2d"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "230d35c534bfb336fa357f1d7556002dfbf9ea17b5f807401df50ff59f85f698"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "87c012b54a9a15c005e372d24d20d66617d42461510d34750e2aa5a3c6c7dfed"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "00b713fac18db486521aca14cbd76a86818b39dd1bd7083daa72491343f40f7e"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "719e0d066b09db566704b33bf4db2070b3e1530608503e15d70eb838f76cf6be"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "197919a488139faf8e760307c9b4940bec3a82daefcccb1e8915d1d3c34c5080"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0b753f0e84be31a9d96588127078ac75a612c24fdc019e85cc7577568184a20a"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "0265f31030cbf96381b6ec186df0375efe16f06063b4d9e58a3bcb32a7d4eb19"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "35f72b726aef64608be1add9421155b4425cd811f62ebd249f1ae6148803c64a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "c7cbac4f2a198813e11e8413862c4cf0c8a33394298f07b9d5a0207847c2ca7f"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "28a76b06e98fb33219b6802a697982447e7334bea9fcf95b6da33993805146e4"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "dfc8cf95e6c17ec775f9039fc70159a6bc2dbd04127b3c650a472dbe93acc211"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+    "version": "later",
+    "sourceSha256": "6eb3b7977ed1b92b093d6c41cb01c9669318e572fc1424da52b81407ec2c8d09",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "2a5e9371f629b8c22d0ba9a1dc56b5bb81e19c4d492c48e341ef4c63b6e8afd0"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "650473162490c240426482295df3d6755ef1bda56a5eab9dedaa7430fc119b2d"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "230d35c534bfb336fa357f1d7556002dfbf9ea17b5f807401df50ff59f85f698"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "38a775632f3dd311429ab1115d579d975a400a592d213cc1fe4618a16913d68d"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "00b713fac18db486521aca14cbd76a86818b39dd1bd7083daa72491343f40f7e"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "719e0d066b09db566704b33bf4db2070b3e1530608503e15d70eb838f76cf6be"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "197919a488139faf8e760307c9b4940bec3a82daefcccb1e8915d1d3c34c5080"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0b753f0e84be31a9d96588127078ac75a612c24fdc019e85cc7577568184a20a"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "0265f31030cbf96381b6ec186df0375efe16f06063b4d9e58a3bcb32a7d4eb19"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "35f72b726aef64608be1add9421155b4425cd811f62ebd249f1ae6148803c64a"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "c7cbac4f2a198813e11e8413862c4cf0c8a33394298f07b9d5a0207847c2ca7f"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "542e0d84ee74997adc854439310ce01365aafe1254ecdc5f2945ff621e59ccd3"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "dfc8cf95e6c17ec775f9039fc70159a6bc2dbd04127b3c650a472dbe93acc211"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "version": "original",
+    "sourceSha256": "39569d1a5dad15a0d732aaf63307190dbbb7dae833c30ebe61a34399906548c0",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b1f8b6f5f71a7033cb2a34c14d8f87911fcf35565496416529e26ed80949adbf"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1022bc9774e3f4edb1949183ff96ab5bc6168e37a8bb6411c1053ab56862498b"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "ed56170951838b5aed529f05e1388353b8c67a501ef5a69dee6958734f3fb152"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "519a11c96cb870c53b04ef58de18cd3142f4ad4edf55fdbb709b8a5d68ba2d82"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "c88ab186f3c85c4147f923fbff118d5165f78b38875b74ce8fc19da81b4ecc47"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b5df86b54b92175cfa0c3848f0f9d3e3545cf241f0b61383cd5e9c7abe04fe9f"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "9afc1db61ef2ddd2e015df565f21abd2d6fb5e14b638cf9ded523c5d7b1478f2"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "2be58277e3041001d3ef2116d84184b0c6b85c2215a7d26f3cd0038a77b57b6b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "33502f9192beee147c9d90099b2ebbd908fe3b383a06e2ff8713eb76f7ebb682"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "d69ded69b9ac80a0b7252f711ab3c18a3602d8ce08552d3cb9953f841aef26dd"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "67f8bd7b8761005d9dc822b23adc324121b283957396be850a93a008ce00fc1c"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "72a71260ec5438327e8051166fd3a06218d0803f62af690bf82408c06a6401b8"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+    "version": "later",
+    "sourceSha256": "77baf0de68d5e9faf5eb48da476c5881ff244ba8bc7142de552e485bad5a825a",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b1f8b6f5f71a7033cb2a34c14d8f87911fcf35565496416529e26ed80949adbf"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1022bc9774e3f4edb1949183ff96ab5bc6168e37a8bb6411c1053ab56862498b"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "ed56170951838b5aed529f05e1388353b8c67a501ef5a69dee6958734f3fb152"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "519a11c96cb870c53b04ef58de18cd3142f4ad4edf55fdbb709b8a5d68ba2d82"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "c88ab186f3c85c4147f923fbff118d5165f78b38875b74ce8fc19da81b4ecc47"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b5df86b54b92175cfa0c3848f0f9d3e3545cf241f0b61383cd5e9c7abe04fe9f"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "9afc1db61ef2ddd2e015df565f21abd2d6fb5e14b638cf9ded523c5d7b1478f2"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "2be58277e3041001d3ef2116d84184b0c6b85c2215a7d26f3cd0038a77b57b6b"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "33502f9192beee147c9d90099b2ebbd908fe3b383a06e2ff8713eb76f7ebb682"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "d69ded69b9ac80a0b7252f711ab3c18a3602d8ce08552d3cb9953f841aef26dd"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "f046106b1642d2a0b791739f09e8cc2a8861f11769ecfe70738bc38d339eced9"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "72a71260ec5438327e8051166fd3a06218d0803f62af690bf82408c06a6401b8"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "version": "original",
+    "sourceSha256": "c28e304b4c344cbc11d49b4578829503a86916b7eb552b86ed2e5396de18a727",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "afb62a997b74042298dd515bef72b257906377ed8eb3e8a08b1731deeb122483"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7f9368060644ae047152faf65d00d9f60c6778700e46c90ef91d3ea7eeaf47e2"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "eee53b2b9f9cea43ff0da2466e38826852c3ffc1933440a9f6eb418a83bee044"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4a7b3bbad3dc20282be116e5e4fbafe68de8be8359fd3f8745a4b12c6c2c22da"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "c6e9e619088fa00e96b1ed3ccbb762cd136cd1bd3746ea13b26f27df58f6e26c"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "423727ea468c61de05d825f63a95e2de6be84faee99f677ae2a5103d8d2cd804"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "a9b3c0a5110bbc1e67d97d656353ed7f8f0b824246f3962489e90be21f11e01d"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "4b3f318e3c7aca45e573290f750af1616b6a8cc4cc00190fd8b90cc4b0333e18"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "0555b8386c78b7663eddbf42da4759a9cd44e8363d96d49f7a9cc802f6ea8b01"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "95532bc0b09e74cd214ed11fd6e02e4f13a7032a65f627a25f1c715b029dadf2"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "2e06c311537c70d55e83a130ce2c48e426e9cfaeb7a1c028c54e3c0783fb7003"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "280b01bd7bfdccca1d20b36e8c6ffd463b735ea430c6a4c1a40c35716dad0154"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+    "version": "later",
+    "sourceSha256": "b19b7791332c6e180679b985adda3fe954a5d36815308374d0052e33df4075a6",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "afb62a997b74042298dd515bef72b257906377ed8eb3e8a08b1731deeb122483"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7f9368060644ae047152faf65d00d9f60c6778700e46c90ef91d3ea7eeaf47e2"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "eee53b2b9f9cea43ff0da2466e38826852c3ffc1933440a9f6eb418a83bee044"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4a7b3bbad3dc20282be116e5e4fbafe68de8be8359fd3f8745a4b12c6c2c22da"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "c6e9e619088fa00e96b1ed3ccbb762cd136cd1bd3746ea13b26f27df58f6e26c"
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "423727ea468c61de05d825f63a95e2de6be84faee99f677ae2a5103d8d2cd804"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "a9b3c0a5110bbc1e67d97d656353ed7f8f0b824246f3962489e90be21f11e01d"
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "4b3f318e3c7aca45e573290f750af1616b6a8cc4cc00190fd8b90cc4b0333e18"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "0555b8386c78b7663eddbf42da4759a9cd44e8363d96d49f7a9cc802f6ea8b01"
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "95532bc0b09e74cd214ed11fd6e02e4f13a7032a65f627a25f1c715b029dadf2"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "2e06c311537c70d55e83a130ce2c48e426e9cfaeb7a1c028c54e3c0783fb7003"
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "280b01bd7bfdccca1d20b36e8c6ffd463b735ea430c6a4c1a40c35716dad0154"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+    "version": "original",
+    "sourceSha256": "ce5afa6f37f5b60ba2927e86e3ecb4bc7ba1512fb9cd596b43a114010ad6fd53",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "1bf7ae2a17f4c60a981471abc6d6cba466a5c104388cf2a243ed2696734040d3"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2997354b7ad81736f412f4c4bcc00fe8e8757a030482642a23290b1ae625b4aa"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "54c810efccc03ccbc18d8265160a3d36a09d8f6199989299a3b8d94bb6216719"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b6fef1e0083adc98f93bc4f84af26923b4eab001c48da9c28137b5164510e37a"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "e3e169afff472e7d315eeb58bec55ae79c704215d1ecc866b188641c5344c6f7"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "68ff22c55e6fb25bd578363e9ae55df5523722313d9b67078d30d4471c357af5"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d2c74701f76948851651f1254081a1e8c252afbbdbd425f566f0badf788a7db6"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "da464611f8180eee4f55ddfe85cfa2f0e1818defb048307f6a328499bfc40874"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "586436d0c154cc590e41bf5e23f81364a820a219a72f2edda0043255f40899cf"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "38ac05804f186b511cc6c23586ac6d1bf6b9e752764b608da12449173b8e3c31"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "8a2c0a7c3a92292ca0f3b15b98a418240b1a7783b9323faca3bab170548a69e7"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "6f46bb045e3151fbf9905342b3351e2b1f18bc0a8d3aaabddd0e047dbff35ee0"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "e2883befe0cd9d4c1bac01987904643ffc40cff6c747925b87c2737afba40b6f"
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+    "version": "later",
+    "sourceSha256": "35d5e020a6d5d16a2f052fd2a1b5c70090d709599ae3249015f319a71aa37aff",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "1bf7ae2a17f4c60a981471abc6d6cba466a5c104388cf2a243ed2696734040d3"
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2997354b7ad81736f412f4c4bcc00fe8e8757a030482642a23290b1ae625b4aa"
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "54c810efccc03ccbc18d8265160a3d36a09d8f6199989299a3b8d94bb6216719"
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b6fef1e0083adc98f93bc4f84af26923b4eab001c48da9c28137b5164510e37a"
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "e3e169afff472e7d315eeb58bec55ae79c704215d1ecc866b188641c5344c6f7"
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "68ff22c55e6fb25bd578363e9ae55df5523722313d9b67078d30d4471c357af5"
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d2c74701f76948851651f1254081a1e8c252afbbdbd425f566f0badf788a7db6"
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "da464611f8180eee4f55ddfe85cfa2f0e1818defb048307f6a328499bfc40874"
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "586436d0c154cc590e41bf5e23f81364a820a219a72f2edda0043255f40899cf"
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "38ac05804f186b511cc6c23586ac6d1bf6b9e752764b608da12449173b8e3c31"
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "8a2c0a7c3a92292ca0f3b15b98a418240b1a7783b9323faca3bab170548a69e7"
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "b18336d5b643ec16ecc229c0efad1c33ac02b91428ba879aa26217398a4f5a4d"
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "e2883befe0cd9d4c1bac01987904643ffc40cff6c747925b87c2737afba40b6f"
+      }
+    ]
+  }
+]

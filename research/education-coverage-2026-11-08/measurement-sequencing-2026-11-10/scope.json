@@ -1,0 +1,20 @@
+{
+  "checkedOn": "2026-11-10",
+  "lessonsPerRef": 20,
+  "sourceVersions": 40,
+  "sectionSignatures": 454,
+  "headingBlocks": 474,
+  "learningRequirementsPerRef": 156,
+  "excludedRows": 2,
+  "exactFieldPassages": 158,
+  "canonicalOwners": 28,
+  "newCanonicalIdentities": 7,
+  "currentPolicyCanonicalContextsScreened": 20,
+  "reviewedFigurePathsPerRef": 30,
+  "figureVersionEntries": 60,
+  "derivativeRenderReceipts": 28,
+  "publicationOccurrencesScreened": 46,
+  "existingElicitOccurrencesScreened": 15,
+  "mainCoverage": 0,
+  "cleanFinalReaudits": 0
+}

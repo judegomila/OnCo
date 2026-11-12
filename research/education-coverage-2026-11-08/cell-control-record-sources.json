@@ -1,0 +1,422 @@
+[
+  {
+    "recordId": "safety-switch-car-t",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "aka",
+      "asOf",
+      "limitations",
+      "links",
+      "name",
+      "notes",
+      "principle",
+      "related",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "Di Stasi et al. 2011, NEJM: inducible apoptosis as a safety switch for adoptive cell therapy",
+        "url": "https://doi.org/10.1056/NEJMoa1106152"
+      },
+      {
+        "label": "Wang et al. 2011, Blood: a transgene-encoded cell surface polypeptide (truncated EGFR) for selection, tracking and ablation of engineered cells",
+        "url": "https://doi.org/10.1182/blood-2011-02-337360"
+      },
+      {
+        "label": "Wu et al.: small-molecule ON-switch CAR experiments (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26405231/"
+      },
+      {
+        "label": "Del Bufalo et al.: GD2-CART01 neuroblastoma study and activated suicide gene (2023)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37018492/"
+      },
+      {
+        "label": "FDA: CAR T-cell product-development guidance, including related engineered lymphocytes (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "t-cell-engager",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "aka",
+      "asOf",
+      "limitations",
+      "links",
+      "notes",
+      "principle",
+      "related",
+      "since",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bi-specific_T-cell_engager"
+      },
+      {
+        "label": "Liddy et al.: soluble TCR/CD3 ImmTAC constructs (2012)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22561687/"
+      },
+      {
+        "label": "Dao et al.: antibody-derived WT1 peptide-HLA/CD3 engager (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26389576/"
+      },
+      {
+        "label": "Giffin et al.: defined AMG 757 preclinical and exposure models (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33203642/"
+      },
+      {
+        "label": "KIMMTRAK label: peptide-HLA/CD3 protein, intended use and pharmacology",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"
+      },
+      {
+        "label": "FDA tarlatamab application correspondence: BiTE binding domains with an IgG Fc region",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2024/761344Orig1s000AdminCorres.pdf"
+      },
+      {
+        "label": "FDA: tarlatamab traditional approval, DeLLphi-304 and warnings (2025)",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer"
+      },
+      {
+        "label": "FDA: the specified blinatumomab consolidation use in B-cell precursor ALL (2024)",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-blinatumomab-consolidation-cd19-positive-philadelphia-chromosome-negative-b-cell"
+      },
+      {
+        "label": "FDA: teclistamab combination and monotherapy use scopes (2026)",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-teclistamab-combination-daratumumab-hyaluronidase-fihj-relapsed-or-refractory-multiple"
+      },
+      {
+        "label": "Mack et al.: two single-chain Fv fragments in a compact experimental T-cell engager (1995)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7624362/"
+      },
+      {
+        "label": "Bluemel et al.: epitope distance and antigen size in BiTE-directed cell lysis (2010)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20309546/"
+      },
+      {
+        "label": "Kebenko et al.: solitomab phase 1 study in refractory solid tumors (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30221040/"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "tcr-t",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "aka",
+      "asOf",
+      "limitations",
+      "links",
+      "notes",
+      "principle",
+      "related",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "ClinicalTrials.gov NCT03967223: IGNYTE-ESO",
+        "url": "https://clinicaltrials.gov/study/NCT03967223"
+      },
+      {
+        "label": "Morgan et al.: receptor gene transfer in metastatic melanoma (2006)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16946036/"
+      },
+      {
+        "label": "Cameron et al.: Titin cross-reactivity of one MAGE-A3 receptor (2013)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23926201/"
+      },
+      {
+        "label": "Dong et al.: human TCR-CD3 complex assembly (2019 abstract)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+      },
+      {
+        "label": "WT1/HLA-A*24:02 CAR study in experimental models (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30045840/"
+      },
+      {
+        "label": "Liddy et al.: soluble TCR/CD3 experimental proteins (2012)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22561687/"
+      },
+      {
+        "label": "TECELRA label, revised June 2026: indication, contraindication and receptor design",
+        "url": "https://www.fda.gov/media/180565/download"
+      },
+      {
+        "label": "FDA June 17, 2026 TECELRA conversion/expansion letter",
+        "url": "https://www.fda.gov/media/193220/download"
+      },
+      {
+        "label": "FDA: CAR T-cell product-development guidance, including related engineered lymphocytes (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      },
+      {
+        "label": "Bendle et al.: mixed introduced/endogenous TCR chains and autoimmunity in mouse models (2010)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20400962/"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "til-therapy",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "aka",
+      "asOf",
+      "limitations",
+      "links",
+      "notes",
+      "principle",
+      "related",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes"
+      },
+      {
+        "label": "Besser et al., intent-to-treat analysis of TIL therapy at Sheba (Clin Cancer Res 2013)",
+        "url": "https://doi.org/10.1158/1078-0432.ccr-13-0380"
+      },
+      {
+        "label": "NCI: T-cell transfer therapy, collection, engineering and regimen harms",
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+      },
+      {
+        "label": "Simoni et al.: bystander CD8 T cells in human tumor infiltrates (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/"
+      },
+      {
+        "label": "Rohaan et al.: specified TIL regimen versus ipilimumab in advanced melanoma (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36477031/"
+      },
+      {
+        "label": "FDA: AMTAGVI product, accelerated indication and supporting documents",
+        "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/amtagvi"
+      },
+      {
+        "label": "AMTAGVI label: tumor-derived cells and the complete regimen",
+        "url": "https://www.fda.gov/media/176417/download"
+      },
+      {
+        "label": "ClinicalTrials.gov NCT05727904: TILVANCE-301 design and melanoma setting",
+        "url": "https://clinicaltrials.gov/study/NCT05727904"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "car-t",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "asOf",
+      "drugs",
+      "limitations",
+      "links",
+      "notes",
+      "principle",
+      "related",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell"
+      },
+      {
+        "label": "Gross, Waks and Eshhar, the first chimeric antigen receptor (PNAS 1989)",
+        "url": "https://doi.org/10.1073/pnas.86.24.10024"
+      },
+      {
+        "label": "Sotillo et al., Cancer Discov 2015: acquired mutations and alternative splicing of CD19 enable resistance to CART-19",
+        "url": "https://doi.org/10.1158/2159-8290.CD-15-1020"
+      },
+      {
+        "label": "Deng et al., Nat Med 2020: single-cell features of the axicabtagene ciloleucel infusion product that track efficacy and toxicity in 24 patients",
+        "url": "https://doi.org/10.1038/s41591-020-1061-7"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      },
+      {
+        "label": "NCI: T-cell transfer therapy and harms",
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+      },
+      {
+        "label": "Eshhar et al.: single-chain binding and signaling receptors (1993)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8421711/"
+      },
+      {
+        "label": "Hudecek et al.: spacer composition, Fc interactions and mouse-model activity (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25212991/"
+      },
+      {
+        "label": "Kawalekar et al.: costimulatory domains and human T-cell metabolism (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26885860/"
+      },
+      {
+        "label": "Ramos et al.: co-infused second- and third-generation constructs (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/"
+      },
+      {
+        "label": "Rafiq et al.: WT1 peptide-HLA-targeting CAR proof of concept (2017)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27924074/"
+      },
+      {
+        "label": "CAR signaling-domain library, pooled screening and single-cell analysis (2024 preprint)",
+        "url": "https://doi.org/10.1101/2024.02.26.582129"
+      },
+      {
+        "label": "FDA: approved cellular and gene therapy products",
+        "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products"
+      },
+      {
+        "label": "FDA: elimination of REMS for named autologous CAR T-cell products (2025)",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor"
+      },
+      {
+        "label": "FDA: boxed-warning changes for T-cell malignancy risk (2024)",
+        "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "bispecific-antibody",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "asOf",
+      "limitations",
+      "links",
+      "notes",
+      "principle",
+      "since",
+      "strengths",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "FDA: Bispecific Antibody Development Programs guidance (2021), definitions, format, function and quality considerations",
+        "url": "https://www.fda.gov/media/123313/download"
+      }
+    ],
+    "scope": "Actual product/scaffold/study and measurement boundaries reviewed; no expert sign-off or global landscape completeness inferred."
+  },
+  {
+    "recordId": "tarlatamab",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "asOf",
+      "links",
+      "summary",
+      "tldr"
+    ],
+    "sources": [
+      {
+        "label": "FDA label (DailyMed)",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Tarlatamab"
+      },
+      {
+        "label": "NICE TA1091: tarlatamab for extensive-stage small-cell lung cancer after 2 or more treatments (not recommended)",
+        "url": "https://www.nice.org.uk/guidance/ta1091"
+      },
+      {
+        "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Tarlatamab",
+        "url": "https://ncoda.org/pes/tarlatamab/"
+      },
+      {
+        "label": "FDA: tarlatamab traditional approval and separate DeLLphi-304 comparison (2025)",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer"
+      },
+      {
+        "label": "Current IMDELLTRA label: September 2026 monitoring revision and serious warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782"
+      }
+    ],
+    "scope": "Scope correction found on linked rendered cards; source cutoff, endpoint, population and current label remain separate."
+  },
+  {
+    "recordId": "paper-dellphi-301-nejm-2023",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "asOf",
+      "caveats",
+      "findings",
+      "links",
+      "summary",
+      "tldr",
+      "whatItMeans"
+    ],
+    "sources": [
+      {
+        "label": "NEJM 2023",
+        "url": "https://doi.org/10.1056/NEJMoa2307980"
+      },
+      {
+        "label": "ClinicalTrials.gov NCT05060016",
+        "url": "https://clinicaltrials.gov/study/NCT05060016"
+      },
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37861218/"
+      },
+      {
+        "label": "FDA: tarlatamab traditional approval and separate DeLLphi-304 comparison (2025)",
+        "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer"
+      },
+      {
+        "label": "Current IMDELLTRA label: September 2026 monitoring revision and serious warnings",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782"
+      }
+    ],
+    "scope": "Scope correction found on linked rendered cards; source cutoff, endpoint, population and current label remain separate."
+  },
+  {
+    "recordId": "paper-c-144-01-lifileucel-melanoma-jco-2021",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "asOf",
+      "caveats",
+      "findings",
+      "links",
+      "summary",
+      "tldr",
+      "whatItMeans"
+    ],
+    "sources": [
+      {
+        "label": "Sarnaik et al.: exact 2021 C-144-01 report and abstract",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33979178/"
+      },
+      {
+        "label": "ClinicalTrials.gov NCT02360579",
+        "url": "https://clinicaltrials.gov/study/NCT02360579"
+      },
+      {
+        "label": "FDA: February 2024 Amtagvi approval announcement and precise modality scope",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-cellular-therapy-treat-patients-unresectable-or-metastatic-melanoma"
+      },
+      {
+        "label": "AMTAGVI label: intended use, complete regimen and boxed warnings",
+        "url": "https://www.fda.gov/media/176417/download"
+      }
+    ],
+    "scope": "Scope correction found on linked rendered cards; source cutoff, endpoint, population and current label remain separate."
+  }
+]

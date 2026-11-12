@@ -1,0 +1,57 @@
+{
+  "checkedOn": "2026-11-08",
+  "officialSources": [
+    {
+      "source": "FDA Tecelra label and June 17, 2026 approval letter",
+      "scope": "Indication, selected HLA alleles, contraindication, product description and mechanism; adult conversion and pediatric expansion."
+    },
+    {
+      "source": "FDA Amtagvi product and label",
+      "scope": "Indication, conditioning/IL-2 regimen, product description and specific mechanism unknown."
+    },
+    {
+      "source": "FDA tarlatamab, blinatumomab and teclistamab approval pages",
+      "scope": "Named indications/settings and current regulatory examples; no class-wide comparative efficacy inferred."
+    },
+    {
+      "source": "Current NLM KIMMTRAK and IMDELLTRA labels",
+      "scope": "Product/target description, intended uses and protein pharmacology; archived FDA KIMMTRAK link returned 404 and was not treated as content."
+    },
+    {
+      "source": "FDA tarlatamab application administrative correspondence",
+      "scope": "Raw page paragraph identifying DLL3/CD3 single-chain binding domains fused with an IgG Fc region in the half-life-extended BiTE."
+    },
+    {
+      "source": "FDA Bispecific Antibody Development Programs guidance, May 2021",
+      "scope": "Raw sections I, II and III.A read: two specificities can target separate epitopes on one antigen; formats, cell-bridging versus other functions, quality and potency."
+    },
+    {
+      "source": "ClinicalTrials.gov NCT05727904 projected study capture",
+      "scope": "TILVANCE-301 melanoma design, not outcomes, individual access or slots."
+    },
+    {
+      "source": "EMA Removab EPAR",
+      "scope": "Historical EU 2009 authorization and company-requested 2017 commercial withdrawal; explains why an unqualified 2014 class date is removed."
+    },
+    {
+      "source": "FDA February 2024 Amtagvi approval announcement",
+      "scope": "Raw main paragraph: first FDA-approved tumor-derived T-cell immunotherapy; product/modality/jurisdiction scope retained rather than every cellular therapy."
+    },
+    {
+      "source": "Current IMDELLTRA September 2026 SPL, dosing/monitoring text",
+      "scope": "6-to-8-hour cycle-1 day-1/day-8 monitoring in appropriate healthcare setting; next-day assessments and caregiver/proximity instructions remain; 22-to-24-hour text elsewhere is a toxicity/restart instruction and not the current general schedule."
+    },
+    {
+      "source": "ClinicalTrials.gov NCT05060016 projected design",
+      "scope": "Phase 2 randomized open-label dose allocation, not a chemotherapy-controlled efficacy comparison; registry actual enrollment is not substituted for the original publication treated count."
+    }
+  ],
+  "accessLimits": [
+    "Giffin publisher full text returned 403; the independently resolved available abstract and raw FDA correspondence support the limited adopted points.",
+    "The 2021 TCR-structure author-correction body was not acquired; no resolution, stoichiometry or correction-body claim is used.",
+    "An older FDA KIMMTRAK PDF URL returned 404; the current NLM SPL substantive text was read instead."
+  ],
+  "reusedSources": [
+    "Previously captured/read FDA engineered-cell guidance and NCI T-cell-transfer overview, retained in cell-primary."
+  ]
+}

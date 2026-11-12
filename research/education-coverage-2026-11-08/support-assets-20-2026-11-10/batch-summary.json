@@ -1,0 +1,65 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "outcome": "finished classification, not coverage",
+  "counts": {
+    "paths": 20,
+    "versionEntries": 40,
+    "verified": 40,
+    "bodiesReadInFull": 20,
+    "reviewCustody": 11,
+    "authoringProvenance": 9,
+    "teachingBearing": 0,
+    "routing": 0,
+    "readerCopyR01": 0,
+    "identifiersResolved": 14,
+    "escalationsClosed": 0,
+    "coverageCredit": 0
+  },
+  "headlineFindings": [
+    "All 40 version entries match path, bytes, git blob and SHA-256; bodies are identical at both pins.",
+    "No body carries reader-facing alt/caption/lesson text; all 20 stay support. Prior role decisions retained; two decision labels (21, 24) proposed as support-escalated-assertions.",
+    "Owner hashes: 5 bodies cite hashes equal to the current pinned owner; 7 cite historical owner versions (diffs navigation only except 33); 24 mislabels a baseline as 'current'.",
+    "33 is the one material drift: the pinned owner has 2026-11-07 survival-equivalence teaching that the review never saw.",
+    "All 14 embedded PMIDs/PMCIDs resolve to the described papers (Europe PMC), incl. NRG-BR002 JCO 2026.",
+    "Citation findings: scar-persistence claim in 10 rests on an Introduction sentence citing a review; 11 lists 5 URLs but 3 papers; 15 carries two different consensus documents; 31's sources are a survey and a cohort; 23's myoepithelial support is abstract background.",
+    "Raw CAP text (HER2 0/0+, pN1mi/pN1a, ENE measurement) agrees with SVG text I read: leads only, E02/E04/E11 stay open.",
+    "Self-attested PASS flags and body 23's newScientificSourceApproval/newPixelApproval=true are not credited."
+  ],
+  "deliverables": [
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>",
+    "<private-capture>"
+  ],
+  "privateRawDirectories": [
+    "<private-capture>",
+    "<private-capture>"
+  ],
+  "repositoryChanges": 0,
+  "coordinatorIntegrationRequired": true
+}

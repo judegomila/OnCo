@@ -1,0 +1,1727 @@
+{
+  "scope": "Actual EntityDetail SSR body, source URLs and anchor structure. No browser, hydration, responsive or live-deployment claim.",
+  "semanticRequirements": 173,
+  "passed": 215,
+  "checks": [
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::measure-meaning-use",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "tldr",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::analytical-specificity",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "summary",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::association-vs-benefit",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "summary",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "summary",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::worked-drug-a",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::prediction-not-observation",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::rank-meaning",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::ba-vs-el-ic50",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::ba-vs-el-ic50",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::record-model-context",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::downstream-chain",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::figure-toy-rank",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::definition-representation",
+      "ownerId": "foundation-model",
+      "field": "tldr",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::transfer-finetune-zeroshot",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::pretraining-overlap",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::performance-scoped",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::labels-not-synonyms",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::failure-modes",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::define-task",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::dataset-roles",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::dataset-roles",
+      "ownerId": "cross-validation",
+      "field": "summary",
+      "htmlSha256": "041f43e93b8992b4fa402cb443e7b8bfe2f8b471020b1aa86a0ed5284288eaa7",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::leakage-independent-units",
+      "ownerId": "data-leakage",
+      "field": "summary",
+      "htmlSha256": "dea69c85052124569959eb8d9f5b4b2cd1e2b9a93dec704e773dd611d52faf90",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::leakage-independent-units",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::split-questions",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::split-questions",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "model-validation-basics::baselines-calibration",
+      "ownerId": "external-validation",
+      "field": "summary",
+      "htmlSha256": "5a5711fd3f4ca5c40a883eeedc2a43f193d4b6bc7cd838bdf7b4b660f8d0f65f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::baselines-calibration",
+      "ownerId": "train-test-discipline",
+      "field": "summary",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "model-validation-basics::external-evaluation",
+      "ownerId": "external-validation",
+      "field": "summary",
+      "htmlSha256": "5a5711fd3f4ca5c40a883eeedc2a43f193d4b6bc7cd838bdf7b4b660f8d0f65f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::worked-20-donors",
+      "ownerId": "train-test-discipline",
+      "field": "notes",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::figure-held-out",
+      "ownerId": "train-test-discipline",
+      "field": "notes",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::layers-and-copies",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::evidence-record-pairing",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::measured-vs-imputed",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::factor-models",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::batch-confounding",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::patient-level-splits",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::worked-target-q",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::figure-reports-raster",
+      "ownerId": "multi-omic-integration",
+      "field": "notes",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::figure-specimen-context",
+      "ownerId": "multi-omic-integration",
+      "field": "notes",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::definition",
+      "ownerId": "overfitting",
+      "field": "tldr",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::many-features-few-patients",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::three-habits",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::michiels-evidence",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::venet-evidence",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::defence",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::cv-vs-external",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::exact-finding-transcript",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::exact-finding-transcript",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::annotation-not-effect",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::task-specific-scores",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::tool-non-independence",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::clingen-scope",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::clingen-scope",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::somatic-interpretation",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::worked-splice-score",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::figure-two-transcripts",
+      "ownerId": "variant-effect-prediction",
+      "field": "notes",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::task-defines-output",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::virtual-perturbation",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::heldout-claims",
+      "ownerId": "virtual-cell-models",
+      "field": "summary",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::portability",
+      "ownerId": "virtual-cell-models",
+      "field": "summary",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::baseline-benchmark",
+      "ownerId": "virtual-cell-models",
+      "field": "summary",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::predicted-not-measured",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::figure-missing-vs-unseen",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::mask-is-estimate",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::detect-segment-phenotype",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::detect-segment-phenotype",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::merge-split-missing",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::merge-split-missing",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::iou",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::iou",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::tissue-specific-validation",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::worked-merged-mask",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::figure-mask-errors",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::workflow-destructive",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "summary",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::workflow-destructive",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::imc-vs-suspension",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "summary",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::imc-vs-suspension",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::interference-not-absent",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "summary",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::panel-selects",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "summary",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::panel-selects",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::proximity-not-interaction",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::worked-double-positive",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "summary",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::worked-double-positive",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::figure-metal-tag",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::repertoire-vs-list",
+      "ownerId": "immunopeptidome",
+      "field": "tldr",
+      "htmlSha256": "b91ee9ec69490873308d5ae93b7e1f5f6684041b5f6005223e761ef913df1ab9",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::workflow",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::database-and-fdr",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::mixed-origin",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::lysate-and-allele",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::ffpe-compatibility",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::ffpe-compatibility",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::nondetection",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::nondetection",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::bottom-up",
+      "ownerId": "mass-spec-proteome",
+      "field": "summary",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::bottom-up",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::protein-inference",
+      "ownerId": "mass-spec-proteome",
+      "field": "summary",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::protein-inference",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::fdr-set-level",
+      "ownerId": "mass-spec-proteome",
+      "field": "summary",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::relative-vs-absolute",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::bulk-extract-limits",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::proteogenomic-claim",
+      "ownerId": "mass-spec-proteome",
+      "field": "summary",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::figure-peptide-inference",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::cyclic-not-simultaneous",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "summary",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::cyclic-not-simultaneous",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "limitations",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::phenotype-is-panel-based",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "summary",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::denominators-distances",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "summary",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::proximity-not-recognition",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "limitations",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::validation-scope",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "summary",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::virtual-mif",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "limitations",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::worked-t-cell-neighbour",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "limitations",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::worked-t-cell-neighbour",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "summary",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::figure-two-rulers",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "notes",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::kinase-phosphatase",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::enrichment-bias",
+      "ownerId": "proteomics",
+      "field": "summary",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::enrichment-bias",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::site-localization",
+      "ownerId": "proteomics",
+      "field": "summary",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::site-localization",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+      "ownerId": "proteomics",
+      "field": "summary",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::intensity-vs-occupancy",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::ischemia-handling",
+      "ownerId": "proteomics",
+      "field": "summary",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::pathway-limits",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::figure-parent-protein",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::reverse-arrangement",
+      "ownerId": "rppa",
+      "field": "summary",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::address-not-position",
+      "ownerId": "rppa",
+      "field": "summary",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::address-not-position",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::antibody-validation",
+      "ownerId": "rppa",
+      "field": "summary",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::dilution-normalisation",
+      "ownerId": "rppa",
+      "field": "summary",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::dilution-normalisation",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::phosphosite-not-occupancy",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::ischemia-no-safe-delay",
+      "ownerId": "rppa",
+      "field": "summary",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::figure-lysate-addresses",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::three-strategies",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::capture-unit-not-cell",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::roi-numbers",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::targeted-panel",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::segmentation-assignment",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::imputation",
+      "ownerId": "spatial-transcriptomics",
+      "field": "summary",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::adjacent-sections",
+      "ownerId": "spatial-transcriptomics",
+      "field": "limitations",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::figure-four-layers",
+      "ownerId": "spatial-transcriptomics",
+      "field": "notes",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::mrm",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "summary",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::peptide-proxy",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "summary",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::peptide-proxy",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::standards-and-matrix",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "summary",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::standards-and-matrix",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "targeted-proteomics-and-loq::lod-vs-loq",
+      "ownerId": "detection-versus-quantification",
+      "field": "summary",
+      "htmlSha256": "36760fb8f730a05de33d5b00e3726b7255cd908b13f058ca5493625c3e0648eb",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "targeted-proteomics-and-loq::below-loq-not-zero",
+      "ownerId": "detection-versus-quantification",
+      "field": "summary",
+      "htmlSha256": "36760fb8f730a05de33d5b00e3726b7255cd908b13f058ca5493625c3e0648eb",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::below-loq-not-zero",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::denominator",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "summary",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::denominator",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::worked-below-loq",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::figure-reportable-range",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::worked-masked-rna-breast",
+      "ownerId": "foundation-model",
+      "field": "summary",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::worked-candidates",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::worked-a-b",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::try-it-receptor-peptide",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::try-it-phospho-r",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::try-it-imputed-r",
+      "ownerId": "spatial-transcriptomics",
+      "field": "limitations",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::worked-50-gene",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::worked-50-gene",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::try-it-fill-rna",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::try-it-method-ab",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::try-it-two-reports",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::lead-time-outcome-clock",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::accreditation-label-not-utility",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "summary",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::thresholds-are-workflow-rules",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::thresholds-are-workflow-rules",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::allele-and-task-match",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::allele-and-task-match",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::readout-inputs-validation",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "summary",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::readout-inputs-validation",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "model-validation-basics::context-shift-no-universal-threshold",
+      "ownerId": "external-validation",
+      "field": "summary",
+      "htmlSha256": "5a5711fd3f4ca5c40a883eeedc2a43f193d4b6bc7cd838bdf7b4b660f8d0f65f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::worked-intervention-split",
+      "ownerId": "train-test-discipline",
+      "field": "notes",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::correlation-not-dependency",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::integration-outputs-benefit",
+      "ownerId": "multi-omic-integration",
+      "field": "summary",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::bias-vs-overfitting",
+      "ownerId": "overfitting",
+      "field": "summary",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "overfitting::significant-not-useful",
+      "ownerId": "overfitting",
+      "field": "notes",
+      "htmlSha256": "33d6b1804bef369113f2df0bd332a2ce2986ae2c65c460fe995050a390b914c2",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::evidence-gaps-differ",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::no-prediction-not-benign",
+      "ownerId": "variant-effect-prediction",
+      "field": "summary",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::prioritisation-not-selection",
+      "ownerId": "virtual-cell-models",
+      "field": "summary",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::prioritisation-not-selection",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::worked-new-tissue-intervention",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::aggregate-agreement-hides",
+      "ownerId": "virtual-cell-models",
+      "field": "summary",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::aggregate-agreement-hides",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::untreated-association-not-causal",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::test-set-reuse",
+      "ownerId": "train-test-discipline",
+      "field": "tldr",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::mask-not-measurement",
+      "ownerId": "cell-segmentation",
+      "field": "summary",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::mask-not-measurement",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::adds-presentation-evidence",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::adds-presentation-evidence",
+      "ownerId": "immunopeptidomics",
+      "field": "summary",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::binding-vs-identification",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::try-it-database-gap",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::kinase-inference-not-causality",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "targeted-proteomics-and-loq::precision-vs-accuracy",
+      "ownerId": "detection-versus-quantification",
+      "field": "summary",
+      "htmlSha256": "36760fb8f730a05de33d5b00e3726b7255cd908b13f058ca5493625c3e0648eb",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::precision-vs-accuracy",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::table-evidence",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "concept",
+      "requirementId": "analytical-validity-clinical-validity-and-utility::table-evidence",
+      "ownerId": "analytical-vs-clinical-validation",
+      "field": "notes",
+      "htmlSha256": "9561c29878a9d18d42ddba6089180ea49e15e9579f40d5f4b4203f6dc0858cd8",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::table-evidence",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "binding-prediction::table-evidence",
+      "ownerId": "peptide-hla-binding-prediction",
+      "field": "notes",
+      "htmlSha256": "15c0c707d4c2db1de737e29e952ed04b190a667023024d1ee4f812d868b117b5",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "foundation-models::table-card",
+      "ownerId": "foundation-model",
+      "field": "notes",
+      "htmlSha256": "fac4a2848ed8932fb21007cbcc55dd821c14cb1d14831e91f6d47a73fa545e0b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "model-validation-basics::table-card",
+      "ownerId": "train-test-discipline",
+      "field": "notes",
+      "htmlSha256": "bed33cab761ba80ed369ba9f35bb9c051a5e62d47b2e3cdde44bd75d046ef999",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multi-omic-integration::table-card",
+      "ownerId": "multi-omic-integration",
+      "field": "notes",
+      "htmlSha256": "298863ccc513c350f9b7a14f24e425054c928eb904edb7b74cef41e6cfd75b54",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "variant-effect-prediction::table-card",
+      "ownerId": "variant-effect-prediction",
+      "field": "notes",
+      "htmlSha256": "47730fc8dda542a7a5f8c8133f139dcbf49d5ab1389ef2267063d14e5380141b",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "virtual-cell-model::table-card",
+      "ownerId": "virtual-cell-models",
+      "field": "notes",
+      "htmlSha256": "0e58870b659acb0cd99c152cd626581d8dab1addd470238b19460cd3fc631709",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "cell-segmentation::table-card",
+      "ownerId": "cell-segmentation",
+      "field": "notes",
+      "htmlSha256": "a70c9daa4aa838b6cdd57f61cc91dea289bf7c018a5003a9025781b78ea41365",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "imaging-mass-cytometry::table-card",
+      "ownerId": "imaging-mass-cytometry",
+      "field": "notes",
+      "htmlSha256": "5f14b6f6eb30436cec34789b11e59108538a12b1f12028881f3d4e39facefe46",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "immunopeptidomics::table-card",
+      "ownerId": "immunopeptidomics",
+      "field": "notes",
+      "htmlSha256": "4b8f0f4d5479f5112a205566355f23708d6c5b773ad0dc7fcc070c2d3ad079a0",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "mass-spectrometry-proteomics::table-card",
+      "ownerId": "mass-spec-proteome",
+      "field": "notes",
+      "htmlSha256": "9f2df85a82c9420cefca42cfe26c8a6ed7e5a065749cd86e1631f321d1293f65",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "multiplex-immunofluorescence::table-card",
+      "ownerId": "multiplex-immunofluorescence",
+      "field": "notes",
+      "htmlSha256": "23301d56a6a61397d04b4294a31eb87e82524b961a0fde28896717b21adb677d",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "phosphoproteomics::table-card",
+      "ownerId": "proteomics",
+      "field": "notes",
+      "htmlSha256": "1a13dce63755602474fb074c27e541d7f8907adb169e5e01d883db6f83623c3f",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "rppa::table-card",
+      "ownerId": "rppa",
+      "field": "notes",
+      "htmlSha256": "9c2fcb88f6ff175674bb69e58d51339aaa0d683cd7239a637f47c7befaa56dee",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "root",
+      "requirementId": "spatial-transcriptomics::table-card",
+      "ownerId": "spatial-transcriptomics",
+      "field": "notes",
+      "htmlSha256": "51d6d573e8888f80084a9b1dbd52d184a9f79492c578318e5bd2282aeff4cbce",
+      "passageInActualBody": true
+    },
+    {
+      "phase": "shared",
+      "requirementId": "targeted-proteomics-and-loq::table-card",
+      "ownerId": "targeted-proteomics-quantification",
+      "field": "notes",
+      "htmlSha256": "5df43d344788a600498a80b0e67b3971d734b6ceb88053a079150821f3e93c3f",
+      "passageInActualBody": true
+    }
+  ]
+}

@@ -1,0 +1,2627 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "name": "drug-resistance",
+      "file": "original-drug-resistance.md",
+      "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+      "gitBlob": "46fc3525d76171f658492a592d1398ba941089fb",
+      "bytes": 9283,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "name": "ddr-inhibitors",
+      "file": "original-ddr-inhibitors.md",
+      "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+      "gitBlob": "f9f03aedb4f8d080e7efce972df14312608d13d5",
+      "bytes": 11083,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "name": "parp-inhibitors-and-trapping",
+      "file": "original-parp-inhibitors-and-trapping.md",
+      "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+      "gitBlob": "502833c766904557a2874bcce9143b43b463a710",
+      "bytes": 11085,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "name": "brca-reversion-mutations",
+      "file": "later-brca-reversion-mutations.md",
+      "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+      "gitBlob": "f797e1175c3172d3c82fcc578a483c38a66bd660",
+      "bytes": 10967,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "758fe0907c375b752c186fe64f095454c62b9f0d54806680d800b40b42e0d86e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "eb3b3644d5f0f7a5ec6d887810a807fea62de5b15374d245c98d2fd0d2d9a7fc"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a72d573832037681a41d52a78e3b099d91b1287dc1031af47e3361b37e3e3394"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aac4ad977fe201c2a3ae8afbd1d367984d49a4b9c65cb349913887ea99eb6b51"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "50b25191c9a54d1292a10f15ee3e289a0b51344b22a0fee843992f3ac371b916"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e77de5dc3e5bfaa6f9c473fa6f5a96c7adef2704c6576dbc0b5e2d5e9a059567"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6f12c06b362c17c9133b33803f6b42cd05417ba9ed69c69caddd04dbe8562df9"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad1a94663011d0032176a73f2eb85c64ac14addf98f1ea9cd1253f19ea184936"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "935094929fad36bccd2ba26a292a501f605d08de40cd56e5e4f15cdd237ba1df"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bfd288b366cb5851db7b6689c52a6f44b89e0c75dc77a29b408e48caeaabb242"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "144c96668622901736a4cbe0c618a8255803d95b644cab2b5607699e425d03ff"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "e32c6a1fe695eac5e098688103799aaa7fb5ffa6877568c2c669ebab4df6f295"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "ddbf53013a7d67a6d6a08632df66aa2724c921b9d2acce6a8f78370528265302"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "name": "composite-hrd-scores",
+      "file": "later-composite-hrd-scores.md",
+      "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+      "gitBlob": "1beea67c72206b372f58e07c3925d43389b7e73b",
+      "bytes": 10845,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "88a8dcb8ad9acabb6814232ada801cc6fdd0321bd979e706ba0896dc1c1f4e3e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d9705d0fd188b3b6c00af5d902f3edae89ae62f5fc4e821bb18d32340c319094"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0fc9ad7fd1d92209ae876afeb0e62dcca85db0cff37c058f7fca84a52447578c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "546ef2c9c019b7c3280960d977bb591ff997e9cac202335519629b37b7e90fab"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b73c92b7319d43ee5b1698c5770879519d1ba72b58e175e83d102fd49d355a79"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b9d118eaea1fcca10c248e7b09266d5f3e873bb90741a5c8462592228f47b121"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "31a685e194e91ea60944ca64cba2106bc82ca27b7c4eb87e1bb70438bacf76c4"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "321d97e6fa9799b3a5ef9dd27fa80c2c9e0057807a79f2d1a5dea03ac31baf12"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eb44c6ce844e5a77d1e72c7dfb3e2ecaa842215e3f52a9614d9196939c3a38e"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "ca7e608afec03b46405fc12f02d9113cf74f955716dc6ceffc7244e054151788"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "f365f6316b723aab4a2ead2f8292d67fdec0b8f54f406f770a72018966dc1218"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "ab1ce1e238ffc2e99f945566c91df6f60c72d7c8f9455fe5b706ae5628a8a884"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "3dcebea906d49442943d59c095958b53f44346e8882b1eb0af69e144acd3b852"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "name": "drug-resistance",
+      "file": "later-drug-resistance.md",
+      "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+      "gitBlob": "a82002cc01ca4233b67c16700a5b935c4e282aeb",
+      "bytes": 9351,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "name": "ddr-inhibitors",
+      "file": "later-ddr-inhibitors.md",
+      "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+      "gitBlob": "f9f03aedb4f8d080e7efce972df14312608d13d5",
+      "bytes": 11083,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "name": "parp-inhibitors-and-trapping",
+      "file": "later-parp-inhibitors-and-trapping.md",
+      "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+      "gitBlob": "eea95c19810ac5258c4e753dc6a3ac7a80857907",
+      "bytes": 11293,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md"
+    }
+  ],
+  "originalAbsence": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "exactPathAbsent": true,
+      "basenameAbsent": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "exactPathAbsent": true,
+      "basenameAbsent": true
+    }
+  ],
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "R-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "R-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d",
+      "lineStart": 26,
+      "lineEnd": 31,
+      "requirementIds": [
+        "R-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929",
+      "lineStart": 32,
+      "lineEnd": 51,
+      "requirementIds": [
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-015"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f",
+      "lineStart": 52,
+      "lineEnd": 57,
+      "requirementIds": [
+        "R-010",
+        "R-011",
+        "R-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e",
+      "lineStart": 58,
+      "lineEnd": 68,
+      "requirementIds": [
+        "R-013",
+        "R-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f",
+      "lineStart": 69,
+      "lineEnd": 74,
+      "requirementIds": [
+        "R-016",
+        "R-017",
+        "R-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4",
+      "lineStart": 75,
+      "lineEnd": 81,
+      "requirementIds": [
+        "R-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d",
+      "lineStart": 82,
+      "lineEnd": 87,
+      "requirementIds": [
+        "R-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2",
+      "lineStart": 88,
+      "lineEnd": 93,
+      "requirementIds": [
+        "drug-resistance-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40",
+      "lineStart": 94,
+      "lineEnd": 97,
+      "requirementIds": [
+        "drug-resistance-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6",
+      "lineStart": 98,
+      "lineEnd": 106,
+      "requirementIds": [
+        "drug-resistance-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016",
+      "lineStart": 107,
+      "lineEnd": 114,
+      "requirementIds": [
+        "drug-resistance-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "D-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "D-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "D-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e",
+      "lineStart": 30,
+      "lineEnd": 66,
+      "requirementIds": [
+        "D-003",
+        "D-004",
+        "D-005",
+        "D-006",
+        "D-007",
+        "D-008",
+        "D-009",
+        "D-010",
+        "D-011",
+        "D-012",
+        "D-013",
+        "D-014",
+        "D-015",
+        "D-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "D-017",
+        "D-018",
+        "D-019",
+        "D-020",
+        "D-021",
+        "D-022"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23",
+      "lineStart": 73,
+      "lineEnd": 76,
+      "requirementIds": [
+        "D-023",
+        "D-024",
+        "D-025"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386",
+      "lineStart": 77,
+      "lineEnd": 84,
+      "requirementIds": [
+        "D-026"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "D-027"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae",
+      "lineStart": 91,
+      "lineEnd": 96,
+      "requirementIds": [
+        "ddr-inhibitors-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "ddr-inhibitors-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7",
+      "lineStart": 101,
+      "lineEnd": 108,
+      "requirementIds": [
+        "ddr-inhibitors-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2",
+      "lineStart": 109,
+      "lineEnd": 121,
+      "requirementIds": [
+        "ddr-inhibitors-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e",
+      "lineStart": 29,
+      "lineEnd": 32,
+      "requirementIds": [
+        "P-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed",
+      "lineStart": 33,
+      "lineEnd": 64,
+      "requirementIds": [
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007",
+        "P-008",
+        "P-009",
+        "P-010",
+        "P-011",
+        "P-012",
+        "P-013",
+        "P-014",
+        "P-022",
+        "P-023"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f",
+      "lineStart": 65,
+      "lineEnd": 70,
+      "requirementIds": [
+        "P-015",
+        "P-016",
+        "P-017",
+        "P-022"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b",
+      "lineStart": 71,
+      "lineEnd": 74,
+      "requirementIds": [
+        "P-017",
+        "P-018",
+        "P-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1",
+      "lineStart": 75,
+      "lineEnd": 81,
+      "requirementIds": [
+        "P-017",
+        "P-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4",
+      "lineStart": 82,
+      "lineEnd": 92,
+      "requirementIds": [
+        "P-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885",
+      "lineStart": 93,
+      "lineEnd": 98,
+      "requirementIds": [
+        "parp-inhibitors-and-trapping-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74",
+      "lineStart": 99,
+      "lineEnd": 102,
+      "requirementIds": [
+        "parp-inhibitors-and-trapping-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d",
+      "lineStart": 109,
+      "lineEnd": 122,
+      "requirementIds": [
+        "P-024",
+        "parp-inhibitors-and-trapping-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "758fe0907c375b752c186fe64f095454c62b9f0d54806680d800b40b42e0d86e",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "B-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "eb3b3644d5f0f7a5ec6d887810a807fea62de5b15374d245c98d2fd0d2d9a7fc",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "B-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "a72d573832037681a41d52a78e3b099d91b1287dc1031af47e3361b37e3e3394",
+      "lineStart": 29,
+      "lineEnd": 32,
+      "requirementIds": [
+        "B-002",
+        "B-003"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "aac4ad977fe201c2a3ae8afbd1d367984d49a4b9c65cb349913887ea99eb6b51",
+      "lineStart": 33,
+      "lineEnd": 49,
+      "requirementIds": [
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007",
+        "B-008",
+        "B-009",
+        "B-010",
+        "B-011"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "50b25191c9a54d1292a10f15ee3e289a0b51344b22a0fee843992f3ac371b916",
+      "lineStart": 50,
+      "lineEnd": 62,
+      "requirementIds": [
+        "B-012",
+        "B-013",
+        "B-015",
+        "B-016",
+        "B-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "e77de5dc3e5bfaa6f9c473fa6f5a96c7adef2704c6576dbc0b5e2d5e9a059567",
+      "lineStart": 63,
+      "lineEnd": 69,
+      "requirementIds": [
+        "B-018",
+        "B-019",
+        "B-020",
+        "B-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "6f12c06b362c17c9133b33803f6b42cd05417ba9ed69c69caddd04dbe8562df9",
+      "lineStart": 70,
+      "lineEnd": 76,
+      "requirementIds": [
+        "B-022",
+        "B-023",
+        "B-024",
+        "B-025"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "ad1a94663011d0032176a73f2eb85c64ac14addf98f1ea9cd1253f19ea184936",
+      "lineStart": 77,
+      "lineEnd": 80,
+      "requirementIds": [
+        "B-026",
+        "B-027"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "935094929fad36bccd2ba26a292a501f605d08de40cd56e5e4f15cdd237ba1df",
+      "lineStart": 81,
+      "lineEnd": 90,
+      "requirementIds": [
+        "B-028",
+        "B-029"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "bfd288b366cb5851db7b6689c52a6f44b89e0c75dc77a29b408e48caeaabb242",
+      "lineStart": 91,
+      "lineEnd": 96,
+      "requirementIds": [
+        "brca-reversion-mutations-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "144c96668622901736a4cbe0c618a8255803d95b644cab2b5607699e425d03ff",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "brca-reversion-mutations-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "e32c6a1fe695eac5e098688103799aaa7fb5ffa6877568c2c669ebab4df6f295",
+      "lineStart": 101,
+      "lineEnd": 107,
+      "requirementIds": [
+        "brca-reversion-mutations-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "ddbf53013a7d67a6d6a08632df66aa2724c921b9d2acce6a8f78370528265302",
+      "lineStart": 108,
+      "lineEnd": 120,
+      "requirementIds": [
+        "B-014",
+        "brca-reversion-mutations-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "88a8dcb8ad9acabb6814232ada801cc6fdd0321bd979e706ba0896dc1c1f4e3e",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "d9705d0fd188b3b6c00af5d902f3edae89ae62f5fc4e821bb18d32340c319094",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "0fc9ad7fd1d92209ae876afeb0e62dcca85db0cff37c058f7fca84a52447578c",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "C-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "546ef2c9c019b7c3280960d977bb591ff997e9cac202335519629b37b7e90fab",
+      "lineStart": 32,
+      "lineEnd": 47,
+      "requirementIds": [
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "b73c92b7319d43ee5b1698c5770879519d1ba72b58e175e83d102fd49d355a79",
+      "lineStart": 48,
+      "lineEnd": 61,
+      "requirementIds": [
+        "C-013",
+        "C-014",
+        "C-015",
+        "C-016",
+        "C-017",
+        "C-018",
+        "C-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "b9d118eaea1fcca10c248e7b09266d5f3e873bb90741a5c8462592228f47b121",
+      "lineStart": 62,
+      "lineEnd": 66,
+      "requirementIds": [
+        "C-020",
+        "C-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "31a685e194e91ea60944ca64cba2106bc82ca27b7c4eb87e1bb70438bacf76c4",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "C-022",
+        "C-023",
+        "C-024"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "321d97e6fa9799b3a5ef9dd27fa80c2c9e0057807a79f2d1a5dea03ac31baf12",
+      "lineStart": 73,
+      "lineEnd": 76,
+      "requirementIds": [
+        "C-025",
+        "C-026"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "5eb44c6ce844e5a77d1e72c7dfb3e2ecaa842215e3f52a9614d9196939c3a38e",
+      "lineStart": 77,
+      "lineEnd": 86,
+      "requirementIds": [
+        "C-027"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "ca7e608afec03b46405fc12f02d9113cf74f955716dc6ceffc7244e054151788",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "composite-hrd-scores-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "f365f6316b723aab4a2ead2f8292d67fdec0b8f54f406f770a72018966dc1218",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "composite-hrd-scores-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "ab1ce1e238ffc2e99f945566c91df6f60c72d7c8f9455fe5b706ae5628a8a884",
+      "lineStart": 97,
+      "lineEnd": 103,
+      "requirementIds": [
+        "composite-hrd-scores-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "3dcebea906d49442943d59c095958b53f44346e8882b1eb0af69e144acd3b852",
+      "lineStart": 104,
+      "lineEnd": 117,
+      "requirementIds": [
+        "composite-hrd-scores-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "R-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "R-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d",
+      "lineStart": 26,
+      "lineEnd": 31,
+      "requirementIds": [
+        "R-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929",
+      "lineStart": 32,
+      "lineEnd": 51,
+      "requirementIds": [
+        "R-003",
+        "R-004",
+        "R-005",
+        "R-006",
+        "R-007",
+        "R-008",
+        "R-009",
+        "R-015"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f",
+      "lineStart": 52,
+      "lineEnd": 57,
+      "requirementIds": [
+        "R-010",
+        "R-011",
+        "R-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e",
+      "lineStart": 58,
+      "lineEnd": 68,
+      "requirementIds": [
+        "R-013",
+        "R-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f",
+      "lineStart": 69,
+      "lineEnd": 74,
+      "requirementIds": [
+        "R-016",
+        "R-017",
+        "R-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4",
+      "lineStart": 75,
+      "lineEnd": 81,
+      "requirementIds": [
+        "R-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d",
+      "lineStart": 82,
+      "lineEnd": 87,
+      "requirementIds": [
+        "R-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2",
+      "lineStart": 88,
+      "lineEnd": 93,
+      "requirementIds": [
+        "drug-resistance-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40",
+      "lineStart": 94,
+      "lineEnd": 97,
+      "requirementIds": [
+        "drug-resistance-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6",
+      "lineStart": 98,
+      "lineEnd": 106,
+      "requirementIds": [
+        "drug-resistance-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016",
+      "lineStart": 107,
+      "lineEnd": 114,
+      "requirementIds": [
+        "drug-resistance-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "D-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "D-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "D-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e",
+      "lineStart": 30,
+      "lineEnd": 66,
+      "requirementIds": [
+        "D-003",
+        "D-004",
+        "D-005",
+        "D-006",
+        "D-007",
+        "D-008",
+        "D-009",
+        "D-010",
+        "D-011",
+        "D-012",
+        "D-013",
+        "D-014",
+        "D-015",
+        "D-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "D-017",
+        "D-018",
+        "D-019",
+        "D-020",
+        "D-021",
+        "D-022"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23",
+      "lineStart": 73,
+      "lineEnd": 76,
+      "requirementIds": [
+        "D-023",
+        "D-024",
+        "D-025"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386",
+      "lineStart": 77,
+      "lineEnd": 84,
+      "requirementIds": [
+        "D-026"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "D-027"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae",
+      "lineStart": 91,
+      "lineEnd": 96,
+      "requirementIds": [
+        "ddr-inhibitors-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "ddr-inhibitors-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7",
+      "lineStart": 101,
+      "lineEnd": 108,
+      "requirementIds": [
+        "ddr-inhibitors-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2",
+      "lineStart": 109,
+      "lineEnd": 121,
+      "requirementIds": [
+        "ddr-inhibitors-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e",
+      "lineStart": 29,
+      "lineEnd": 32,
+      "requirementIds": [
+        "P-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed",
+      "lineStart": 33,
+      "lineEnd": 64,
+      "requirementIds": [
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007",
+        "P-008",
+        "P-009",
+        "P-010",
+        "P-011",
+        "P-012",
+        "P-013",
+        "P-014",
+        "P-022",
+        "P-023"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f",
+      "lineStart": 65,
+      "lineEnd": 70,
+      "requirementIds": [
+        "P-015",
+        "P-016",
+        "P-017",
+        "P-022"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b",
+      "lineStart": 71,
+      "lineEnd": 74,
+      "requirementIds": [
+        "P-017",
+        "P-018",
+        "P-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1",
+      "lineStart": 75,
+      "lineEnd": 81,
+      "requirementIds": [
+        "P-017",
+        "P-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4",
+      "lineStart": 82,
+      "lineEnd": 92,
+      "requirementIds": [
+        "P-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885",
+      "lineStart": 93,
+      "lineEnd": 98,
+      "requirementIds": [
+        "parp-inhibitors-and-trapping-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74",
+      "lineStart": 99,
+      "lineEnd": 102,
+      "requirementIds": [
+        "parp-inhibitors-and-trapping-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d",
+      "lineStart": 109,
+      "lineEnd": 122,
+      "requirementIds": [
+        "P-024",
+        "parp-inhibitors-and-trapping-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T16:37:38.835342+00:00",
+    "baseHead": "21a9d0348c28ea9a6aab392af8e08bbfcee479d3",
+    "inventorySha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19",
+    "rows": 142,
+    "substantive": 127,
+    "originalVersions": 3,
+    "originalSubstantive": 71,
+    "laterVersions": 5,
+    "laterSubstantive": 127,
+    "nonCredit": 15,
+    "sourceVersions": 8,
+    "sourceSectionSignatures": 98,
+    "sourceFigureFiles": 8,
+    "mermaidRenders": 6,
+    "order": "Five later bodies, three complete original/later diffs, all eight source themes and all six Mermaid renders read before fresh canonical-owner comparison. Three original teaching bodies are reused by exact section identity; two later-only source paths/basenames are absent at the original pin."
+  },
+  "sourceFirstErratum": {
+    "id": "scope-erratum-1",
+    "checkedAtUtc": "2026-11-12T16:38:27.660908+00:00",
+    "frozenInventorySha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19",
+    "requirementId": "P-024",
+    "beforeKind": "substantive",
+    "afterKind": "source-scope",
+    "reason": "The row concerns source dates and authoring/review custody, not distinct scientific teaching. It overlaps the lesson source-scope row and earns no scientific coverage credit. Corrected before any fresh canonical-owner field inspection. Original frozen bytes remain untouched.",
+    "denominatorDelta": {
+      "original": -1,
+      "later": -1
+    },
+    "correctedCounts": {
+      "rows": 142,
+      "substantive": 126,
+      "originalSubstantive": 70,
+      "laterSubstantive": 126,
+      "nonCredit": 16
+    }
+  },
+  "actualSectionVerifier": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+      "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "758fe0907c375b752c186fe64f095454c62b9f0d54806680d800b40b42e0d86e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "eb3b3644d5f0f7a5ec6d887810a807fea62de5b15374d245c98d2fd0d2d9a7fc"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a72d573832037681a41d52a78e3b099d91b1287dc1031af47e3361b37e3e3394"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aac4ad977fe201c2a3ae8afbd1d367984d49a4b9c65cb349913887ea99eb6b51"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "50b25191c9a54d1292a10f15ee3e289a0b51344b22a0fee843992f3ac371b916"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e77de5dc3e5bfaa6f9c473fa6f5a96c7adef2704c6576dbc0b5e2d5e9a059567"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6f12c06b362c17c9133b33803f6b42cd05417ba9ed69c69caddd04dbe8562df9"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad1a94663011d0032176a73f2eb85c64ac14addf98f1ea9cd1253f19ea184936"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "935094929fad36bccd2ba26a292a501f605d08de40cd56e5e4f15cdd237ba1df"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bfd288b366cb5851db7b6689c52a6f44b89e0c75dc77a29b408e48caeaabb242"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "144c96668622901736a4cbe0c618a8255803d95b644cab2b5607699e425d03ff"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "e32c6a1fe695eac5e098688103799aaa7fb5ffa6877568c2c669ebab4df6f295"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "ddbf53013a7d67a6d6a08632df66aa2724c921b9d2acce6a8f78370528265302"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+      "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "88a8dcb8ad9acabb6814232ada801cc6fdd0321bd979e706ba0896dc1c1f4e3e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d9705d0fd188b3b6c00af5d902f3edae89ae62f5fc4e821bb18d32340c319094"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0fc9ad7fd1d92209ae876afeb0e62dcca85db0cff37c058f7fca84a52447578c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "546ef2c9c019b7c3280960d977bb591ff997e9cac202335519629b37b7e90fab"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b73c92b7319d43ee5b1698c5770879519d1ba72b58e175e83d102fd49d355a79"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b9d118eaea1fcca10c248e7b09266d5f3e873bb90741a5c8462592228f47b121"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "31a685e194e91ea60944ca64cba2106bc82ca27b7c4eb87e1bb70438bacf76c4"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "321d97e6fa9799b3a5ef9dd27fa80c2c9e0057807a79f2d1a5dea03ac31baf12"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eb44c6ce844e5a77d1e72c7dfb3e2ecaa842215e3f52a9614d9196939c3a38e"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "ca7e608afec03b46405fc12f02d9113cf74f955716dc6ceffc7244e054151788"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "f365f6316b723aab4a2ead2f8292d67fdec0b8f54f406f770a72018966dc1218"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "ab1ce1e238ffc2e99f945566c91df6f60c72d7c8f9455fe5b706ae5628a8a884"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "3dcebea906d49442943d59c095958b53f44346e8882b1eb0af69e144acd3b852"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+      "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6bc6ba65bb74d4e32292cb3a7474a0715bc40416ab2c42a6fabdde88e8d1bf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a606e08032a882e6f7b9b15ec631345d625b1ca0bda9239a7067acede370b63f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e0d05c192b4d985983485a34a9bdf254d81d88ded4b697fa0b6cbe6d0bcfcc7d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1fda1eb688d278055b5bc9bf40eaeb89770d5d071ca92fe348ca3ca947749929"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e97ed2f3f3a2a9b97e2a3abd2bef20eae82b74ceaba2a34cd0754b0f91145a7f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "90b489770d9befbab2c9e91e8d417b328c9e76fc458ffe4252f1a52d9c410a5e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "236a7f480afef3282659b4a575baad408ba83fec27e10694c72dfd38a66d709f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9063683add5ed222ed468040a2f4662ac06d9630eff81394b4a457f1921febc4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b8641d279bac7f9e19a6a1ee8f8860817a15efacd9479e9267a987dd333fac5d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e837136cbcc7e9a207b9d3be7969ecb46b75ffdda9fdfd54e4e48074f7ea92b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c9d0c2cd4bf0a1717baa398cc213176884232793950fcf911753f7182135bb40"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "933db2dbdd8253c1cdf7f30356fadf6a2c5228427e1489cd5922e5b4281ebfa6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "05465a4ee05579e105d8929c5805f9ffec41dbc298b8af68c3897576e9af9016"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+      "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "22733e5f3bd1d59ac7d4af00a98a807312af542b6a9ef34933424efad569a7f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "750bda045acd9779301a256f59642d75d660884ad4a11faa4c92acd903cb1deb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7c99c7e6ea8fa6692fa92e49297b13911f38027b454cc73180ff464ad79fb29c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a3c64569b1a07820cd15e575ae427826b7355b6cd3fc4be581124857a066e6e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3413684a23511b95ce23b06145878c25da375e6f7b07be9a44663f87e5197805"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad02b411e6c70da96e365ec5c74a40aaba3e4accfea10c6b05e33326a94a0d23"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "67812825e5a53cb81297bfd180d7ec4fbfccab9be6f07f97de8ad04ecd33e386"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41772b0254f813da67be55495c86953c6c7eaaf9fc950065fe425d888cfc322"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "11aa81035e211c16cf3b794e85fbe1c9f0dd961988dff2a16d7d27e97db43aae"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "1a54436759c889194aec97a62cc7d4a48635f64fd2d91ffde358a58a8f9993f8"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "86af9d7a77ca1c6f11c1d9d729114017d3d8a650b3ad642f7cebc42a15cc3af7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "7be86605f489dce14324b6b1c12d86fe6411931d0cfc1901f161ca1470f0ebc2"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+      "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "55b95db6535111aceae3830850cbd158e87a1a0192d1c6e4fd8bb8a9ada0eaf3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3b74eea864a63448e8e1c8b7dc0e3ff297d3df780ef40a51593753523b94634e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a30394a0408a06a28f373fea1c128ccff1adc3982ca8c3a825782fcf2a85b73e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4a2907bda8e139ba7fc6fd18d2d6860190f7690e7694ac8665285405c46ad9ed"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7c5f83731500ed4493e79ea21e52c5eeb643c6b1489d8a3f8496f78721b7f0f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98b0e97042999be9d3f1f9ca2ea7dae8d1efd222055e95795b95ce915786e31b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725fe5d74a72dca80a66f1034bcf8a4aa2215f854f124550ffe48a2bb6b2b9c1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2dc7ca759d4a9dafeb14e695d86d40e13e096b19599036f41e05885d45b915f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "09f29c44961f1862b951fc98f8edf3b39757884fe95492367e50f7bbc689d885"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "44028733ce76df6b5513dd912391237918b4920b1bf92c013983422a8dc6ab74"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bbafa49f855aa1e6b3b7304c998a1bd031e9f7a6717bfb1a821e7bb94a2eea4d"
+        }
+      ]
+    }
+  ],
+  "scope": "All later bodies fully read; originals are assessed by complete diffs and exact unchanged teaching identity. No read of a nonexistent original is invented."
+}

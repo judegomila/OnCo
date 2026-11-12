@@ -1,0 +1,86 @@
+{
+  "sourceAssetVersionEntries": 0,
+  "uniqueSourceFiles": 0,
+  "assets": [],
+  "mermaidInstances": 2,
+  "uniqueMermaid": 2,
+  "mermaidRenders": [
+    {
+      "lesson": "spatial-methods-compared",
+      "sourceSha256": "ed5cd0ee3650c0e43bf168c36d010a86f39aa596263dc35193765a9dd13eb2f2",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-1-default.png",
+        "sha256": "0f62d497908d584d0cd5fa35289019e7d9bc718469030de8747a747c63ecfbec",
+        "width": 360,
+        "height": 598
+      },
+      "viewed": true,
+      "checkedAt": "2026-11-12",
+      "viewScope": "Fresh complete default/dark Chrome render at the SVG viewBox; no live-site, expert or measured accessibility approval."
+    },
+    {
+      "lesson": "spatial-methods-compared",
+      "sourceSha256": "ed5cd0ee3650c0e43bf168c36d010a86f39aa596263dc35193765a9dd13eb2f2",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-1-dark.png",
+        "sha256": "e24d66a9670150655a7db63b42e0a846db70a7b41564d8a39049e86946b0365a",
+        "width": 360,
+        "height": 598
+      },
+      "viewed": true,
+      "checkedAt": "2026-11-12",
+      "viewScope": "Fresh complete default/dark Chrome render at the SVG viewBox; no live-site, expert or measured accessibility approval."
+    },
+    {
+      "lesson": "spatial-proximity-metrics",
+      "sourceSha256": "b8163f65dc0828a6df904b42a38a757a1d88a32ca92858b591c5f79315f1a7a0",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-2-default.png",
+        "sha256": "e42f1bfdee586c764b605364baa7bf43398d02e988eea483564652c6e8bb3453",
+        "width": 168,
+        "height": 744
+      },
+      "viewed": true,
+      "checkedAt": "2026-11-12",
+      "viewScope": "Fresh complete default/dark Chrome render at the SVG viewBox; no live-site, expert or measured accessibility approval."
+    },
+    {
+      "lesson": "spatial-proximity-metrics",
+      "sourceSha256": "b8163f65dc0828a6df904b42a38a757a1d88a32ca92858b591c5f79315f1a7a0",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-2-dark.png",
+        "sha256": "f1754d36e04a7e780cf697c22d111623d5e847d88cf5b0096aaff061ae860943",
+        "width": 168,
+        "height": 744
+      },
+      "viewed": true,
+      "checkedAt": "2026-11-12",
+      "viewScope": "Fresh complete default/dark Chrome render at the SVG viewBox; no live-site, expert or measured accessibility approval."
+    }
+  ],
+  "scope": "Complete pinned source SVG viewBoxes and default/dark Mermaid, rendered in headless Chrome. PNGs retained raw. No live Guide, measured accessibility or expert approval.",
+  "findings": [
+    {
+      "id": "V01",
+      "lesson": "spatial-methods-compared",
+      "severity": "scope",
+      "finding": "The protein branch's cell-resolution label is not a property of every regional protein measurement. Current prose distinguishes pooled regions from assigned cells and historical panel examples from present limits."
+    },
+    {
+      "id": "V02",
+      "lesson": "spatial-proximity-metrics",
+      "severity": "scope",
+      "finding": "The final single-number node is a simplification: curves, local maps and neighbourhood assignments need their own output and aggregation description. Current prose supplies it."
+    },
+    {
+      "id": "V03",
+      "lesson": "spatial-proximity-metrics",
+      "severity": "legibility",
+      "finding": "In the default Mermaid dark theme, the two inline amber-filled nodes retain pale text and are difficult to read. No contrast measurement or live-site theme behaviour was tested."
+    }
+  ]
+}

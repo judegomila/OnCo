@@ -1,0 +1,2442 @@
+{
+  "dataCommit": "1c394ddbb1d7b8f05c450df50fcad89226007867",
+  "sourceReferencesRebound": 109,
+  "assetReferencesRebound": 0,
+  "references": [
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-01",
+      "requirement": "pCR common definition ypT0/Tis ypN0: no residual invasive cancer on H&E of the complete resected breast specimen and all sampled nodes after neoadjuvant systemic therapy; y/p prefixes; DCIS allowed.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-01",
+      "requirement": "pCR common definition ypT0/Tis ypN0: no residual invasive cancer on H&E of the complete resected breast specimen and all sampled nodes after neoadjuvant systemic therapy; y/p prefixes; DCIS allowed.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-02",
+      "requirement": "FDA also recognises stricter ypT0 ypN0 (no invasive or in situ); breast-only clearance is a different endpoint; keep the definition beside the result.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-02",
+      "requirement": "FDA also recognises stricter ypT0 ypN0 (no invasive or in situ); breast-only clearance is a different endpoint; keep the definition beside the result.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-03",
+      "requirement": "Residual DCIS compatible with the common endpoint; still a real finding; margins may need interpretation.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-04",
+      "requirement": "Scan, blood test and tissue endpoint are different; pCR is a checklist with specimen scope, not an all-clear.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-04",
+      "requirement": "Scan, blood test and tissue endpoint are different; pCR is a checklist with specimen scope, not an all-clear.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-06",
+      "requirement": "CTNeoBC: 11,955 patients; TNBC EFS HR 0.24, OS HR 0.16 vs no pCR; association not individual guarantee.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-07",
+      "requirement": "Trial-level R2 0.03 (EFS) and 0.24 (OS); pCR not validated as a surrogate.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-08",
+      "requirement": "In KEYNOTE-522 a pCR gain came with survival gains, but had to be shown directly.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-09",
+      "requirement": "DCIS but no invasive breast cancer and negative sampled nodes meets ypT0/Tis ypN0 not ypT0 ypN0; involved DCIS margin can coexist; positive node with residual invasion breaks the combined endpoint even if blood assay negative.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-09",
+      "requirement": "DCIS but no invasive breast cancer and negative sampled nodes meets ypT0/Tis ypN0 not ypT0 ypN0; involved DCIS margin can coexist; positive node with residual invasion breaks the combined endpoint even if blood assay negative.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-10",
+      "requirement": "Same fictional cases: A meets ypT0/Tis ypN0 only; B (4 mm nodal deposit) meets neither; identical ink findings are a separate margin question.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-10",
+      "requirement": "Same fictional cases: A meets ypT0/Tis ypN0 only; B (4 mm nodal deposit) meets neither; identical ink findings are a separate margin question.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-11",
+      "requirement": "Imaging response, ctDNA negativity and pCR differ; breast-only vs combined; pCR does not mean DCIS excluded in every definition, margins clear or cure; higher pCR rate does not quantify survival benefit.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-11",
+      "requirement": "Imaging response, ctDNA negativity and pCR differ; breast-only vs combined; pCR does not mean DCIS excluded in every definition, margins clear or cure; higher pCR rate does not quantify survival benefit.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-12",
+      "requirement": "Increased pCR rate without mature outcome data cannot establish survival benefit.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:O007",
+      "requirement": "Keep shorter recovery intervals and growth-factor support specific to the tested package.",
+      "index": 1,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Keep shorter recovery intervals and growth-factor support specific to the tested package. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Keep shorter recovery intervals and growth-factor support specific to the tested package.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:O009",
+      "requirement": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.",
+      "index": 0,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:O009",
+      "requirement": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.",
+      "index": 1,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:O010",
+      "requirement": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen.",
+      "index": 0,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-005",
+      "requirement": "A common pCR definition requires no residual invasive disease in breast and sampled regional nodes and permits residual DCIS; retain the actual protocol definition.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-006",
+      "requirement": "Clearance of invasive breast disease does not establish that combined endpoint when invasive regional-node disease remains; node negativity also does not erase invasive breast disease.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-008",
+      "requirement": "The fictional no-invasive-breast-or-node report with residual DCIS and an involved DCIS edge can meet a DCIS-permitting pCR definition while retaining a local margin question.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning; 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning; 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-014",
+      "requirement": "A negative blood assay cannot remove invasive cells seen in tissue, and favourable imaging does not supply an unreported margin result.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-015",
+      "requirement": "The fictional no-invasive-breast, involved-regional-node and negative-blood report does not meet the common combined tissue pCR definition.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted; 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted; 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "pointId": "SH2-007",
+      "requirement": "Keep pembrolizumab with chemotherapy in the appropriate KEYNOTE-522 clinical setting rather than a universal instruction for every stage-II/III patient.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "The selected trial/label setting replaces a universal stage-II/III instruction."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "The selected trial/label setting replaces a universal stage-II/III instruction. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-002",
+      "requirement": "Verify the selected KEYNOTE-522 sequence: approximately 24 preoperative weeks, surgery, indicated radiation and approximately 27 postoperative pembrolizumab weeks, with residual-disease options scoped to evidence.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-002",
+      "requirement": "Verify the selected KEYNOTE-522 sequence: approximately 24 preoperative weeks, surgery, indicated radiation and approximately 27 postoperative pembrolizumab weeks, with residual-disease options scoped to evidence.",
+      "index": 1,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-003",
+      "requirement": "Explain neoadjuvant timing, earlier systemic treatment, possible shrinkage and later pathology assessment without attributing the whole outcome to one phase.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "summary",
+        "fieldSha256": "6b7d8fdf3a217594009a142368eedbaaaebf3f57d469b72e5054a800701c8046",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "summary",
+        "fieldSha256": "ead74d80d35a2e042133bc4665b427c72ddcefa7e635268bd1798622bb2b6fbe",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-003",
+      "requirement": "Explain neoadjuvant timing, earlier systemic treatment, possible shrinkage and later pathology assessment without attributing the whole outcome to one phase.",
+      "index": 1,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-004",
+      "requirement": "Define the relevant pCR assessment of breast and sampled regional nodes under its stated definition, separate from survival and guaranteed cure.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-004",
+      "requirement": "Define the relevant pCR assessment of breast and sampled regional nodes under its stated definition, separate from survival and guaranteed cure.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-005",
+      "requirement": "Chemotherapy and PD-1 blockade act through different processes; avoid an exclusive dividing-cell mechanism or unvalidated omission of another treatment component.",
+      "index": 2,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Distinct cytotoxic processes and PD-1 blockade do not establish an exclusive dividing-cell mechanism or justify omission."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Distinct cytotoxic processes and PD-1 blockade do not establish an exclusive dividing-cell mechanism or justify omission. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-007",
+      "requirement": "Verify the first-602 pCR comparison of 64.8% versus 51.2% at surgery, with a 13.6-percentage-point difference.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-007",
+      "requirement": "Verify the first-602 pCR comparison of 64.8% versus 51.2% at surgery, with a 13.6-percentage-point difference.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-008",
+      "requirement": "Verify the all-1174 five-year survival estimates of 86.6% versus 81.7%, with 4.9 points rounded to about five rather than a personal prediction.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-008",
+      "requirement": "Verify the all-1174 five-year survival estimates of 86.6% versus 81.7%, with 4.9 points rounded to about five rather than a personal prediction.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-009",
+      "requirement": "Do not substitute the pCR difference for the survival difference; endpoint, population and time all matter, including estimate versus literal observed-count interpretation.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-009",
+      "requirement": "Do not substitute the pCR difference for the survival difference; endpoint, population and time all matter, including estimate versus literal observed-count interpretation.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-012",
+      "requirement": "A clinical comparison remains limited by setting, endpoint, follow-up, comparator and uncertainty when transported to another question.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Applicability, endpoints, comparator, follow-up and actual selected population remain attached to the clinical comparison."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Applicability, endpoints, comparator, follow-up and actual selected population remain attached to the clinical comparison. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-014",
+      "requirement": "Build a study claim with population, comparator, outcome and observation window.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The concrete study claim names its population, regimen comparator, endpoint and 60-month window rather than detaching a number."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The concrete study claim names its population, regimen comparator, endpoint and 60-month window rather than detaching a number. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-007",
+      "requirement": "Verify the selected stage-II/III perioperative treatment strategy and approximate pre/postoperative durations, preserving eligibility and indication scope.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Names the selected population, planned pre/post durations, label eligibility and non-isolated treatment phases."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Names the selected population, planned pre/post durations, label eligibility and non-isolated treatment phases. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-008",
+      "requirement": "Keep residual-disease options and uncertainty about the best added treatment separate from a universal postoperative instruction.",
+      "index": 1,
+      "before": {
+        "recordId": "tnbc-residual-disease-decision",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "302098ecee8a0f2306dd2399e627433dcde0c5dd45ec510f58e2187c60e4840e",
+        "explanation": "Further treatment is conditional on prior care and distinct trial eligibility; no score-only or universal added-drug choice is retained."
+      },
+      "after": {
+        "recordId": "tnbc-residual-disease-decision",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "0d8cc73ce32e1ad7b0ada9cfb0d4bfad0408ca432322531963efc4f57d79709a",
+        "explanation": "Further treatment is conditional on prior care and distinct trial eligibility; no score-only or universal added-drug choice is retained. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-009",
+      "requirement": "Interpret the rounded 51-to-65-percent pCR comparison separately from roughly 82-to-87-percent five-year survival, with population, comparator, endpoint and time.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-009",
+      "requirement": "Interpret the rounded 51-to-65-percent pCR comparison separately from roughly 82-to-87-percent five-year survival, with population, comparator, endpoint and time.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-010",
+      "requirement": "Group outcomes do not determine how an individual tumour will respond; the learner must keep the studied question attached to a number.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Population associations and trial estimates explicitly do not forecast an individual course."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Population associations and trial estimates explicitly do not forecast an individual course. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-01",
+      "requirement": "pCR common definition ypT0/Tis ypN0: no residual invasive cancer on H&E of the complete resected breast specimen and all sampled nodes after neoadjuvant systemic therapy; y/p prefixes; DCIS allowed.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-01",
+      "requirement": "pCR common definition ypT0/Tis ypN0: no residual invasive cancer on H&E of the complete resected breast specimen and all sampled nodes after neoadjuvant systemic therapy; y/p prefixes; DCIS allowed.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-02",
+      "requirement": "FDA also recognises stricter ypT0 ypN0 (no invasive or in situ); breast-only clearance is a different endpoint; keep the definition beside the result.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-02",
+      "requirement": "FDA also recognises stricter ypT0 ypN0 (no invasive or in situ); breast-only clearance is a different endpoint; keep the definition beside the result.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-03",
+      "requirement": "Residual DCIS compatible with the common endpoint; still a real finding; margins may need interpretation.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-04",
+      "requirement": "Scan, blood test and tissue endpoint are different; pCR is a checklist with specimen scope, not an all-clear.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-04",
+      "requirement": "Scan, blood test and tissue endpoint are different; pCR is a checklist with specimen scope, not an all-clear.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-05",
+      "requirement": "Measures/how/tissue cost/units/thresholds/failure modes/cannot tell/validation context.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-06",
+      "requirement": "CTNeoBC: 11,955 patients; TNBC EFS HR 0.24, OS HR 0.16 vs no pCR; association not individual guarantee.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-07",
+      "requirement": "Trial-level R2 0.03 (EFS) and 0.24 (OS); pCR not validated as a surrogate.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-08",
+      "requirement": "In KEYNOTE-522 a pCR gain came with survival gains, but had to be shown directly.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-09",
+      "requirement": "DCIS but no invasive breast cancer and negative sampled nodes meets ypT0/Tis ypN0 not ypT0 ypN0; involved DCIS margin can coexist; positive node with residual invasion breaks the combined endpoint even if blood assay negative.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-09",
+      "requirement": "DCIS but no invasive breast cancer and negative sampled nodes meets ypT0/Tis ypN0 not ypT0 ypN0; involved DCIS margin can coexist; positive node with residual invasion breaks the combined endpoint even if blood assay negative.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-10",
+      "requirement": "Same fictional cases: A meets ypT0/Tis ypN0 only; B (4 mm nodal deposit) meets neither; identical ink findings are a separate margin question.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-10",
+      "requirement": "Same fictional cases: A meets ypT0/Tis ypN0 only; B (4 mm nodal deposit) meets neither; identical ink findings are a separate margin question.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-11",
+      "requirement": "Imaging response, ctDNA negativity and pCR differ; breast-only vs combined; pCR does not mean DCIS excluded in every definition, margins clear or cure; higher pCR rate does not quantify survival benefit.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-11",
+      "requirement": "Imaging response, ctDNA negativity and pCR differ; breast-only vs combined; pCR does not mean DCIS excluded in every definition, margins clear or cure; higher pCR rate does not quantify survival benefit.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/pcr.md",
+      "pointId": "breast-SR-14-12",
+      "requirement": "Increased pCR rate without mature outcome data cannot establish survival benefit.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Exact passage, named source scope and actual rendered route/Markdown evidence in breast-pathology-2026-11-10. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:window",
+      "requirement": "Define a transient period around surgery without a universal duration, biomarker or recurrence probability.",
+      "index": 1,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Define a transient period around surgery without a universal duration, biomarker or recurrence probability.",
+        "supportingExcerpt": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+        "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Define a transient period around surgery without a universal duration, biomarker or recurrence probability. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+        "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:nk",
+      "requirement": "Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function.",
+      "index": 1,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:nk",
+      "requirement": "Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function.",
+      "index": 2,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function.",
+        "supportingExcerpt": "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site.",
+        "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe postoperative NK dysfunction and possible suppressive myeloid/Treg changes, keeping blood readouts separate from residual-tissue function. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site.",
+        "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:healing",
+      "requirement": "Describe wound repair, angiogenic/growth and TGFb signals as possible mechanistic influences rather than proof of human metastasis.",
+      "index": 0,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe wound repair, angiogenic/growth and TGFb signals as possible mechanistic influences rather than proof of human metastasis.",
+        "supportingExcerpt": "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site.",
+        "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Describe wound repair, angiogenic/growth and TGFb signals as possible mechanistic influences rather than proof of human metastasis. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "The reviewed perioperative mechanisms include repair-related growth signals, angiogenic changes and TGF-beta-associated regulation. Horowitz’s 2015 review discusses increased growth factors and altered proangiogenic and antiangiogenic signals after tissue injury; these are proposed routes to study, not a measured personal recurrence effect. Angka’s 2017 review describes postoperative myeloid suppressor cells, their recruitment of regulatory T cells and patient-blood-to-mouse experiments involving angiogenesis. Those model and blood observations do not directly measure immune control at every residual-disease site.",
+        "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:surgery",
+      "requirement": "Present a research question without advising avoidance or delay of surgery and without an unsupported universal claim about dissemination.",
+      "index": 0,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Present a research question without advising avoidance or delay of surgery and without an unsupported universal claim about dissemination.",
+        "supportingExcerpt": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+        "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Present a research question without advising avoidance or delay of surgery and without an unsupported universal claim about dissemination. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "The window is a research question about transient changes around an operation, not evidence that avoiding or delaying surgery improves outcomes. Horowitz and colleagues proposed mechanisms by which perioperative stress could facilitate metastasis. The two breast-surgery anaesthesia trials did not detect the tested recurrence or survival advantage. The propranolol-etodolac study measured biomarkers and was not a test of reduced recurrence.",
+        "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:usual-grounds",
+      "requirement": "The cited trials do not establish a recurrence advantage for the tested anesthetic strategies; patient anesthetic choice remains an individualized clinical matter.",
+      "index": 1,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: The cited trials do not establish a recurrence advantage for the tested anesthetic strategies; patient anesthetic choice remains an individualized clinical matter.",
+        "supportingExcerpt": "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+        "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: The cited trials do not establish a recurrence advantage for the tested anesthetic strategies; patient anesthetic choice remains an individualized clinical matter. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+        "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:blood-tissue",
+      "requirement": "Lower blood NK activity does not measure immune action at a residual-disease site.",
+      "index": 0,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Lower blood NK activity does not measure immune action at a residual-disease site.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Lower blood NK activity does not measure immune action at a residual-disease site. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:observational",
+      "requirement": "Distinguish retrospective anesthesia associations, randomized outcomes and biomarker changes.",
+      "index": 0,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish retrospective anesthesia associations, randomized outcomes and biomarker changes.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish retrospective anesthesia associations, randomized outcomes and biomarker changes. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "Keep the measurement level beside the claim. A blood measurement is not a tumour measurement: lower NK-cell function in blood after surgery does not show what immune cells do at a site of residual disease. A biomarker change is not fewer recurrences, as the propranolol and etodolac trial measured markers and not outcomes. An observational or laboratory suggestion is not a trial result, and the two breast cancer anaesthesia trials tested it directly.",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "pointId": "perioperative-immune-window:practice",
+      "requirement": "Laboratory immune effects cannot establish that intravenous-only anesthesia reduces breast-cancer recurrence; report the tested trial comparisons and endpoints.",
+      "index": 0,
+      "before": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "818db95c38fdd9bc7073dac21a954d01ddaba22bc83c25027328bbfac0df48fa",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Laboratory immune effects cannot establish that intravenous-only anesthesia reduces breast-cancer recurrence; report the tested trial comparisons and endpoints.",
+        "supportingExcerpt": "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+        "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde"
+      },
+      "after": {
+        "recordId": "perioperative-immune-window",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "96acf6efce602fb1fa8d0afcd60b483d9e46cb7f6941537e597a973c38e610e3",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Laboratory immune effects cannot establish that intravenous-only anesthesia reduces breast-cancer recurrence; report the tested trial comparisons and endpoints. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded.",
+        "supportingExcerpt": "Worked example (inference). A reader sees that inhaled anaesthetics can suppress immune cells in laboratory studies and asks whether intravenous-only anaesthesia would lower breast cancer recurrence. The laboratory observation raised the idea; the two randomised trials in breast cancer surgery, each with more than 1,600 women analysed, found no difference in recurrence or survival between the anaesthetic strategies tested. Sessler and colleagues concluded that clinicians can use regional or general anaesthesia with respect to recurrence and persistent incisional pain.",
+        "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde"
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:T007",
+      "requirement": "Keep shorter recovery intervals and growth-factor support specific to the tested package.",
+      "index": 1,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Keep shorter recovery intervals and growth-factor support specific to the tested package. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Keep shorter recovery intervals and growth-factor support specific to the tested package.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:T009",
+      "requirement": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.",
+      "index": 0,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:T009",
+      "requirement": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.",
+      "index": 1,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Scope C9741 and the participant-level meta-analysis to their populations and strategies.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+      "pointId": "dose-dense-scheduling:T010",
+      "requirement": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen.",
+      "index": 0,
+      "before": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-therapy-conjugates-root",
+        "field": "notes",
+        "fieldSha256": "2d884f70ad026d84ae60e93b2e8af518a17273c169fa306fba0008481cb36232",
+        "explanation": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen. "
+      },
+      "after": {
+        "recordId": "chemotherapy-regimen",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "1b0d054afea5f20abd3396b5a38a6f4a57a4ce4a8a91a13b519abfdc0c01f0ab",
+        "explanation": "Do not transfer old dose-density results to every pembrolizumab-containing TNBC regimen.  Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-005",
+      "requirement": "A common pCR definition requires no residual invasive disease in breast and sampled regional nodes and permits residual DCIS; retain the actual protocol definition.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-006",
+      "requirement": "Clearance of invasive breast disease does not establish that combined endpoint when invasive regional-node disease remains; node negativity also does not erase invasive breast disease.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-008",
+      "requirement": "The fictional no-invasive-breast-or-node report with residual DCIS and an involved DCIS edge can meet a DCIS-permitting pCR definition while retaining a local margin question.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning; 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning; 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-014",
+      "requirement": "A negative blood assay cannot remove invasive cells seen in tissue, and favourable imaging does not supply an unreported margin result.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "pointId": "PG2-015",
+      "requirement": "The fictional no-invasive-breast, involved-regional-node and negative-blood report does not meet the common combined tissue pCR definition.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-pathology-result-guides-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted; 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning"
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance. Source scope: 05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread; 01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted; Fictional pCR-versus-margin reasoning; no new outcome figure adopted; 15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed; 17:complete calculator main text; 27:targeted CAP residual-bed note, page 34; Fictional equal-footprint example and denominator reasoning Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "pointId": "SH2-007",
+      "requirement": "Keep pembrolizumab with chemotherapy in the appropriate KEYNOTE-522 clinical setting rather than a universal instruction for every stage-II/III patient.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "The selected trial/label setting replaces a universal stage-II/III instruction."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "The selected trial/label setting replaces a universal stage-II/III instruction. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-002",
+      "requirement": "Verify the selected KEYNOTE-522 sequence: approximately 24 preoperative weeks, surgery, indicated radiation and approximately 27 postoperative pembrolizumab weeks, with residual-disease options scoped to evidence.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-002",
+      "requirement": "Verify the selected KEYNOTE-522 sequence: approximately 24 preoperative weeks, surgery, indicated radiation and approximately 27 postoperative pembrolizumab weeks, with residual-disease options scoped to evidence.",
+      "index": 1,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-003",
+      "requirement": "Explain neoadjuvant timing, earlier systemic treatment, possible shrinkage and later pathology assessment without attributing the whole outcome to one phase.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "summary",
+        "fieldSha256": "6b7d8fdf3a217594009a142368eedbaaaebf3f57d469b72e5054a800701c8046",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "summary",
+        "fieldSha256": "ead74d80d35a2e042133bc4665b427c72ddcefa7e635268bd1798622bb2b6fbe",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-003",
+      "requirement": "Explain neoadjuvant timing, earlier systemic treatment, possible shrinkage and later pathology assessment without attributing the whole outcome to one phase.",
+      "index": 1,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-004",
+      "requirement": "Define the relevant pCR assessment of breast and sampled regional nodes under its stated definition, separate from survival and guaranteed cure.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-004",
+      "requirement": "Define the relevant pCR assessment of breast and sampled regional nodes under its stated definition, separate from survival and guaranteed cure.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-005",
+      "requirement": "Chemotherapy and PD-1 blockade act through different processes; avoid an exclusive dividing-cell mechanism or unvalidated omission of another treatment component.",
+      "index": 2,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Distinct cytotoxic processes and PD-1 blockade do not establish an exclusive dividing-cell mechanism or justify omission."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Distinct cytotoxic processes and PD-1 blockade do not establish an exclusive dividing-cell mechanism or justify omission. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-007",
+      "requirement": "Verify the first-602 pCR comparison of 64.8% versus 51.2% at surgery, with a 13.6-percentage-point difference.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-007",
+      "requirement": "Verify the first-602 pCR comparison of 64.8% versus 51.2% at surgery, with a 13.6-percentage-point difference.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-008",
+      "requirement": "Verify the all-1174 five-year survival estimates of 86.6% versus 81.7%, with 4.9 points rounded to about five rather than a personal prediction.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-008",
+      "requirement": "Verify the all-1174 five-year survival estimates of 86.6% versus 81.7%, with 4.9 points rounded to about five rather than a personal prediction.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-009",
+      "requirement": "Do not substitute the pCR difference for the survival difference; endpoint, population and time all matter, including estimate versus literal observed-count interpretation.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-009",
+      "requirement": "Do not substitute the pCR difference for the survival difference; endpoint, population and time all matter, including estimate versus literal observed-count interpretation.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-012",
+      "requirement": "A clinical comparison remains limited by setting, endpoint, follow-up, comparator and uncertainty when transported to another question.",
+      "index": 2,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Applicability, endpoints, comparator, follow-up and actual selected population remain attached to the clinical comparison."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Applicability, endpoints, comparator, follow-up and actual selected population remain attached to the clinical comparison. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "pointId": "SH3-014",
+      "requirement": "Build a study claim with population, comparator, outcome and observation window.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "The concrete study claim names its population, regimen comparator, endpoint and 60-month window rather than detaching a number."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "The concrete study claim names its population, regimen comparator, endpoint and 60-month window rather than detaching a number. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-007",
+      "requirement": "Verify the selected stage-II/III perioperative treatment strategy and approximate pre/postoperative durations, preserving eligibility and indication scope.",
+      "index": 0,
+      "before": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "3a345655e8a30a4664eccda01602c597b793c3791a76816de9661c34c30dbac2",
+        "explanation": "Names the selected population, planned pre/post durations, label eligibility and non-isolated treatment phases."
+      },
+      "after": {
+        "recordId": "neoadjuvant-adjuvant",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "190f0650a5709f243229115c4f11c68d5adc797ccb662480b0cc5ded16ba5257",
+        "explanation": "Names the selected population, planned pre/post durations, label eligibility and non-isolated treatment phases. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-008",
+      "requirement": "Keep residual-disease options and uncertainty about the best added treatment separate from a universal postoperative instruction.",
+      "index": 1,
+      "before": {
+        "recordId": "tnbc-residual-disease-decision",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "302098ecee8a0f2306dd2399e627433dcde0c5dd45ec510f58e2187c60e4840e",
+        "explanation": "Further treatment is conditional on prior care and distinct trial eligibility; no score-only or universal added-drug choice is retained."
+      },
+      "after": {
+        "recordId": "tnbc-residual-disease-decision",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "0d8cc73ce32e1ad7b0ada9cfb0d4bfad0408ca432322531963efc4f57d79709a",
+        "explanation": "Further treatment is conditional on prior care and distinct trial eligibility; no score-only or universal added-drug choice is retained. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-009",
+      "requirement": "Interpret the rounded 51-to-65-percent pCR comparison separately from roughly 82-to-87-percent five-year survival, with population, comparator, endpoint and time.",
+      "index": 0,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-009",
+      "requirement": "Interpret the rounded 51-to-65-percent pCR comparison separately from roughly 82-to-87-percent five-year survival, with population, comparator, endpoint and time.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "pointId": "SHI-010",
+      "requirement": "Group outcomes do not determine how an individual tumour will respond; the learner must keep the studied question attached to a number.",
+      "index": 1,
+      "before": {
+        "recordId": "pcr",
+        "version": "proposal-start-here-root",
+        "field": "notes",
+        "fieldSha256": "93ac825740d2246f3e85773a633e5124d0ff602fd54e4255b82182915b1b2622",
+        "explanation": "Population associations and trial estimates explicitly do not forecast an individual course."
+      },
+      "after": {
+        "recordId": "pcr",
+        "version": "proposal-early-tnbc-sequencing-root",
+        "field": "notes",
+        "fieldSha256": "9de1f83746fcbdf8135af5c7fdde2a7cb458cf7ae5c2d0ab72bc094bc6a55ec0",
+        "explanation": "Population associations and trial estimates explicitly do not forecast an individual course. Rebound only from a matching current-root before hash. Existing teaching remains: added CTNeoBC intervals and the review-specific perioperative timeframe do not erase the old note text. The timing summary retains earlier systemic treatment, possible shrinkage, tissue response and whole-strategy limits. Earlier primary-reading and independent-approval depth is not upgraded."
+      }
+    }
+  ],
+  "scope": "Only matching current-root before fields rebound. Sixteen earlier breast-pathology asset references retain their separate frozen snapshot; none were relabelled current."
+}

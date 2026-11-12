@@ -1,0 +1,17 @@
+{
+  "state": "Three existing owners supplemented and forty support roles adjudicated in draft375 only. No new full-lesson, main, live, expert, learner or language credit.",
+  "base": "0d4f1ec2770e75502ff517d3a31e7f964e93e18f",
+  "ownersChanged": 3,
+  "newSourceLinks": 12,
+  "supportPaths": 40,
+  "supportVersionEntries": 80,
+  "sourceClauses": 17,
+  "clausesWithCurrentFieldProofs": 16,
+  "freshAbstractsRead": 30,
+  "targetedBodiesRead": 9,
+  "wholePapersRead": 0,
+  "freshPngViews": 6,
+  "separateSourcePhases": true,
+  "scientificAndCustodyResidualsRetained": true,
+  "validation": "Validation, TypeScript, lint and full suite passed: 284 files, 2829 tests, two existing skips. Three exact JSON entities, 22 reader segments, 17 Markdown passages and 27 summary selector states verified. Both ledgers replay byte-identically with zero stale/missing current proofs."
+}

@@ -38,11 +38,14 @@ describe("biomarker readouts", () => {
     }
   });
 
-  it("scoring rules quote a source and every label URL is DailyMed, the FDA list, a DOI, ClinicalTrials.gov or the WHO", () => {
+  it("scoring rules quote a defining source and approval sources stay on the label and regulator allowlist", () => {
     const ok = /^https:\/\/(dailymed\.nlm\.nih\.gov|www\.fda\.gov|doi\.org|clinicaltrials\.gov|tumourclassification\.iarc\.who\.int)\//;
+    // CAP's breast reporting template defines scoring directly. A scoring guideline is not an approval
+    // source: thresholds and companion diagnostics keep the narrower existing label/regulator check.
+    const scoringSource = /^https:\/\/www\.cap\.org\/wp-content\/uploads\//;
     for (const bm of readouts) {
       expect(bm.scoringRule.quote.length, bm.id).toBeGreaterThan(10);
-      expect(bm.scoringRule.source, `${bm.id} scoring source`).toMatch(ok);
+      expect(ok.test(bm.scoringRule.source) || scoringSource.test(bm.scoringRule.source), `${bm.id} scoring source`).toBe(true);
       for (const t of bm.thresholds) expect(t.source, `${bm.id} threshold source`).toMatch(ok);
       for (const c of bm.companionDiagnostics) expect(c.source, `${bm.id} cdx source`).toMatch(ok);
     }

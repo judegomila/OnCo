@@ -1,0 +1,241 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "graphRecords": 23083,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.98
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 1.26
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.95
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 305.11
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "authoredFieldReadback": {
+    "checks": [
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "principle",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "strengths",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "limitations",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 13
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "tldr",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "tldr",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "principle",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "strengths",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "limitations",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 2
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 3
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 8
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "asOf",
+        "exactLiteralValue": true
+      }
+    ],
+    "changedExistingIds": [
+      "dendritic-cell-cross-presentation",
+      "neoantigen",
+      "neoantigen-mrna-vaccine",
+      "wes-wgs"
+    ],
+    "newIds": [],
+    "graphRecords": 23083,
+    "priorCrossPresentationTailRetainedExactly": true,
+    "priorRuntimeNotesAndLinksPreserved": true,
+    "matchingPriorReferencesToRebind": 4,
+    "separateDraft373ReferencesRetained": 2
+  },
+  "readerRecords": 12,
+  "exactFieldReferences": 54,
+  "completeParagraphChecks": 151,
+  "sourceLinksMissing": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "exactEntityJSON": 12,
+    "markdownPassages": 85,
+    "openAPI": true,
+    "dedupeExitCode": 0
+  },
+  "summaryConsumerStates": 108,
+  "texts": 29,
+  "EnglishFallbacks": 79,
+  "acceptedLongCaches": 0,
+  "newNamedLanguageReviews": 0,
+  "arithmetic": {
+    "VAFcounterexample": {
+      "purity": 1,
+      "carrierCancerFraction": 1,
+      "mutantMultiplicity": 1,
+      "localCancerCopies": 2,
+      "normalCopies": 2,
+      "expectedVAF": 0.5
+    },
+    "fictionalNominalRatio": {
+      "postFrequency": 0.01,
+      "reliabilityStatement": 0.001,
+      "nominalRatio": 10,
+      "observedBaselineFoldChange": null
+    },
+    "scope": "Stated model arithmetic only; no clinical threshold or patient result."
+  },
+  "sourceIdentities": {
+    "versions": 4,
+    "sectionSignatures": 42,
+    "rawCaptures": 37
+  },
+  "secretScan": {
+    "files": [
+      "CORRECTIONS.md",
+      "src/data/i18n/ar.ts",
+      "src/data/i18n/de.ts",
+      "src/data/i18n/es.ts",
+      "src/data/i18n/fr.ts",
+      "src/data/i18n/hi.ts",
+      "src/data/i18n/ja.ts",
+      "src/data/i18n/pt.ts",
+      "src/data/i18n/zh.ts",
+      "src/data/prometheus-gaps-institutions.ts",
+      "src/data/simple/part-a.ts",
+      "src/data/simple/part-b.ts",
+      "src/data/technologies.ts",
+      "src/data/terms.ts"
+    ],
+    "bytesScanned": 62834,
+    "exitCode": 0,
+    "findings": 0,
+    "finalTestedSourceHashesMatch": true
+  },
+  "floorsBudgetsAndDenominatorSnapshotsChanged": false,
+  "zeroChangeReplay": "Recorded separately after deterministic source-ledger and artifact replay.",
+  "changeClassification": {
+    "product": 0,
+    "data": 13,
+    "neither": 1
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "refreshes": [
+    {
+      "artifact": "source-assets.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "source-assets.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "recordId": "tcr-repertoire-clonality",
+      "version": "draft-373",
+      "field": "notes",
+      "before": "f4ed7cae2ce2102fc4e2c288a07b41b04cf0bceb39372424b4418bd2b40edadd",
+      "after": "314f23b316a9bf8d755a875ef37f564ae69682051248cd903ac91031bb09d33e"
+    }
+  ],
+  "historicalCheckpointPreserved": true,
+  "rule": "Only current accepted proofs and mutable draft views refreshed, with exact surviving excerpts. The original blood implementation-only checkpoint is historical and superseded by this acceptance."
+}

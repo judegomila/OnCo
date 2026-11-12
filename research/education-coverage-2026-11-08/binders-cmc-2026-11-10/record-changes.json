@@ -1,0 +1,1068 @@
+{
+  "identityRemapping": {
+    "recordIds": {
+      "gmp-and-batch-release": "good-manufacturing-practice"
+    },
+    "names": {
+      "How binders are discovered": "Binder discovery"
+    },
+    "omittedAmbiguousAlias": "cGMP"
+  },
+  "changes": [
+    {
+      "ownerId": "binder-discovery",
+      "draft": 375,
+      "newIdentity": true,
+      "fields": [
+        {
+          "field": "aka",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "906f982f1eb1fdf506c6e39d29c863859333fd7e448e2aca74db30df35dc4fc4"
+        },
+        {
+          "field": "asOf",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "a4911dc6f9095684e33df4d3dea144579386f732ce559208e9e855593972c917"
+        },
+        {
+          "field": "companies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "0af78c103ac43ec093757539fef47ed781338d4ba87aa2a8b2bd347ebb47646e"
+        },
+        {
+          "field": "institutions",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "00306011436490ccbd8763b7f3009bc374828a6d3cf0333ab1deb90954a1cbe1"
+        },
+        {
+          "field": "name",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "b927324da5bce4f788e5fe761c81246f1898194d3859478cb1703ec58157e4fc"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "5b3fe8d083d25e19c0dc5f72f2d29bf00d4b1a860fcb30c5231a64878300d96d"
+        },
+        {
+          "field": "pathways",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "provenance",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "d3ab0491d389d2364e0997758099ff978ac52d282774e61c728211d8f5a649ef"
+        },
+        {
+          "field": "sections",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "373a2b4a6dca510f865766741967187141e4fefddcba66c8a7d147f56efede74"
+        },
+        {
+          "field": "tags",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "e17fbb9a731d3c327c094052c09a9a3319e35e0da6f6de012f03b5c9bcca40e6"
+        },
+        {
+          "field": "trials",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "ownerId": "peptide-synthesis-spps",
+      "draft": 375,
+      "newIdentity": true,
+      "fields": [
+        {
+          "field": "aka",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "6315485e946a541bd441e9ea9c95e483f44a6714b20d989a3788caf311c69b8b"
+        },
+        {
+          "field": "asOf",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "e7dd1d9e0667dc69b0b32faa2488ec20ab0c8c51b63fd2baf3494d38245b580a"
+        },
+        {
+          "field": "companies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "ca8aa98398c707c8a763b1f6d037b2ca7264f3f565ff29686f88e0a26a226cb3"
+        },
+        {
+          "field": "institutions",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "d791408e8fbd67f8e91466abbe10e0519179de9b6df28ed61b885dfc17d6f217"
+        },
+        {
+          "field": "name",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "6f36c3a8638917931b27f06f21f8fdf244ee15d4d20bdb140488404329ff41a5"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fcee52b1c5db7af089adb4d31c5077cc88a5fc695bca533d9c60a52eaf176e2c"
+        },
+        {
+          "field": "pathways",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "provenance",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "8be042ee40d8b8d3d30ba68bbc29853c69ac46d5c67c7fde091fb7c2314e7b4f"
+        },
+        {
+          "field": "sections",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "8c645b3b9963cd6cb78f38caa58b8435ce897b4e1c1fa674f714b9b2ce0c826d"
+        },
+        {
+          "field": "tags",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "05b736f7ff75c48962c85bfa04ad2232115abfdd74c778e4f0c4e0529e39e685"
+        },
+        {
+          "field": "trials",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "ownerId": "batch-release",
+      "draft": 375,
+      "newIdentity": true,
+      "fields": [
+        {
+          "field": "aka",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "c1ef396b1dba7e067357bba2c55e4e0cde8780429c867c82af42eda01a8a1856"
+        },
+        {
+          "field": "asOf",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "924094d508ed7db2efc82c9170be05efb505dff59bf376b9b05c312b8dbce62d"
+        },
+        {
+          "field": "companies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "0599078ac894f8a6d6cf9787c096211235f093f0637d55627faeb3a3ccf7fe31"
+        },
+        {
+          "field": "institutions",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "c31516ccdb4dcc8d4c05b30bb136d4c3297c251b4ba583eca439a1ea1d01bc3a"
+        },
+        {
+          "field": "name",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "50e73d7a9d3bb5ead9c9ba57af95cc959bad77628170aa8efc26996ffd685145"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "63b4383b50f48a3bb0dff10e1badfa91496c8951a4bb0260ed685ec99041e090"
+        },
+        {
+          "field": "pathways",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "provenance",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "309d52b3f18813c376d51d2737a366fbb0e1bddc6d8c5e86ad040f6e78ef868b"
+        },
+        {
+          "field": "sections",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "2eb370070953c8734b4f0092885a5ae7dc8268d9dae21531a3cfe645215386dc"
+        },
+        {
+          "field": "tags",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "7cb574f5d0d6d09a9babf558872377c9e61c2b944b7c8f0753978b7f4dedc203"
+        },
+        {
+          "field": "trials",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "ownerId": "platform-vs-personalized-components",
+      "draft": 375,
+      "newIdentity": true,
+      "fields": [
+        {
+          "field": "aka",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "c1242eca3a14a15fd4428cec1e1ff69e494bb4e4c94bcb159dc0f8471875af6c"
+        },
+        {
+          "field": "asOf",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "e7dd1d9e0667dc69b0b32faa2488ec20ab0c8c51b63fd2baf3494d38245b580a"
+        },
+        {
+          "field": "companies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "602e9751358b5251bc663dbe818c800f4f91102103133513d02242d89bc9dbe4"
+        },
+        {
+          "field": "institutions",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "da4d066890779815ff0cc6340bb61622944f0cb666edfae52aa57a8a2c0b653e"
+        },
+        {
+          "field": "name",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "b5637adb6815434fb5b9d018ad2c68657ac10e291416121332b21eab060d7c8b"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "a5e6c561e59b5aeabad17e47dfe27aea7d87e244a81d5c3b7d160cad00409131"
+        },
+        {
+          "field": "pathways",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "provenance",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "48a5ea520c2d2f150d7288d58e7046cec5a9bf06b66e621d98f77473ed5f69b7"
+        },
+        {
+          "field": "sections",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "ab4dfe3166b12fbd9b3b3d7cd89bc1e7636e0119d13b7b5b614df04fd72a6c31"
+        },
+        {
+          "field": "tags",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f026434d5a1ffbcf83eaf5f1685b81a0870d2df38de06bd5b1882b47087df73a"
+        },
+        {
+          "field": "trials",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "ownerId": "cdmo",
+      "draft": 375,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74c5083065281e66f3f0812cae3214327340da742f6bc3538e922f9d38de48a8",
+          "newFieldSha256": "43dd90237939a3041a65814e34680567a11f59a0603a41c3b74920381ed86023"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "4bc7a721a0f85a7f994b50335875c0d0930e76b8e1dbb0283dba1b1054c5c129"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "1ca08db3c0fb0c02dd97c16e1430dc55ea755f047fee761e8d1ddd583fa018ab",
+          "newFieldSha256": "ccf8e94d6903ee407a293baf4ed01a26adb07d63ec0d93fe5470a92b9c3f4485"
+        }
+      ]
+    },
+    {
+      "ownerId": "good-manufacturing-practice",
+      "draft": 375,
+      "newIdentity": true,
+      "fields": [
+        {
+          "field": "aka",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "2deee39381b412a842bb7a06ef699f1596c503dd1e3772d5b7317e4c24645fbc"
+        },
+        {
+          "field": "asOf",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "924094d508ed7db2efc82c9170be05efb505dff59bf376b9b05c312b8dbce62d"
+        },
+        {
+          "field": "companies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "2390ea67eb5c9d94b01b93aa4dff697359aa8a8f32885b522496171b1e06ae83"
+        },
+        {
+          "field": "institutions",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "e868a15a2ae22f12e846c00c596257a59e14b8abcfa1945d08c401313e1699a8"
+        },
+        {
+          "field": "name",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "ae486f8e25c0dbf480b314d93a9fd89aed8ada1808f7437457ea36d5df2908fe"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fd89fff39b76ddd5b47c7867f592f5cc817bda38f90aeaa4e417c0fc3c44853c"
+        },
+        {
+          "field": "pathways",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "provenance",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "eb46f7ddb330fc7b0c607a816432f9bdc23ceaca7a170392d41b6008ce8707dc"
+        },
+        {
+          "field": "sections",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4cf7fcc414d2a0485996b62691e29a73f611a8e16507c244e7275f9eb6f05459"
+        },
+        {
+          "field": "tags",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "0671f9288d2598d8e09b63569676b8d5f68b92aa5babdd422a9b4d5cbba94555"
+        },
+        {
+          "field": "trials",
+          "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "ownerId": "cell-therapy-release-testing",
+      "draft": 375,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "dd74c1bbde403db26bdd71fa464cb54f101e2474c06c03184b67203a2514f854",
+          "newFieldSha256": "e5f0c18ef5e4a0c55e01ff443ffbf793f0f8833fc779efb4a66165e9c388381f"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "ab301c3724daf4db3a3319c5f62c9a68376091b5a53be045a0266801e68ae425"
+        },
+        {
+          "field": "related",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "affd04a7c62f17a93e4eeabb271424a21f195645470c6c601ca2c4fc2695210e"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "0575a43df7f9d69f59384682f63da5c7ecb1a3c2f1622b75ad21886e4424c6b9",
+          "newFieldSha256": "f793812332054c6733483f732c39f785050a186bfb8dd50317d9ad30f0ca1ca5"
+        },
+        {
+          "field": "tldr",
+          "oldFieldSha256": "77b267eea74b21b37541c09dcc5b9924e371ac219446691f4c73fd8aae8db3c1",
+          "newFieldSha256": "7edafb87698b9af219dec64da1c46b9b2bbc8ac5e92707453f5cd4a8cd701576"
+        }
+      ]
+    },
+    {
+      "ownerId": "binder-affinity-epitope-developability",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "56e840560708bc8a2fc9ab502fff75ee2ac1b8d4a573ac70ef4a68cfa59ae746",
+          "newFieldSha256": "0fbcd5a2f0047952448bd450f819db15497095660499c8921722574953964995"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "3941d0f24624228a050c56724edfebe20140442f34e5e56d430fbcf6bca8f0c6"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "f2d66f2b0d35320e98ccf35ae47ca6c3fff19042452e4c2bbee9433698368f55",
+          "newFieldSha256": "fc4d2ccf9ce0927d3a71956d2ae26260bb7a489bad8fb6243cc6b9f440ec202e"
+        }
+      ]
+    },
+    {
+      "ownerId": "binder-targeting-module",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "9ac29c3cdf6bdcd9404257a679d8a1b185dda28412dd880a807b50866ea0a2c1",
+          "newFieldSha256": "02c97f46efe9238c93b247e151e1cc28fd59c12cb04128fb32bbdccb080f4a89"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "768ba85900d55fea07c36cc6107e414430d72f27c73d88d3a3ffb46e46f202b5"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "15a7ed0465bab09ac2791e3f951ce9b7bb45c4bd0e6fc7fd15bfe18ca386f0ca",
+          "newFieldSha256": "6661a5788f197a45324a975f50fffdad3523c99efb98ad2cadb3def0e194b4f4"
+        }
+      ]
+    },
+    {
+      "ownerId": "binder-format-constraints",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "f386726b2d639e37ee7c6f622067bced87eb011fbc78b558e2b538c4f932c230",
+          "newFieldSha256": "bf8b1e75d05bca694327bd847a67707a02433de8144b85dc32dc9f12ecda91fa"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "1d03f711bfed3e45547811e1c9cd89a028d41eda864a83283dcce1483603bfeb"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "29c5dc425df2ba026f49ec91f7d5f5bd8c0bb96f26b67be1c08b8d51c053ed9d",
+          "newFieldSha256": "aea299f29ae772cc2cbf067e802f77608334470042a4a29bc1d61d13b3b04a64"
+        }
+      ]
+    },
+    {
+      "ownerId": "scfv-vhh-formats",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "59c9bdad66a815a9df0dd5984eabef01a506b81efc62ca04893be069369a23f0",
+          "newFieldSha256": "d03486a1df1f8efb4ff9dbb10c91a8920b05dd0ffe23bd8a6e46e0b2b5369f7a"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "88037bbcc80fe6c344913f50cce5e51e7ee932ca25e95c7170d2ded62e7918d0"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "037282eda12e56caa07e633532997abb9ae1dc95d64eb76714c1478dacbea950",
+          "newFieldSha256": "af32ac0459e3c46e19a0c16ac1f0a5dad059b53b677e54e6c7a8aba5952c1d0e"
+        }
+      ]
+    },
+    {
+      "ownerId": "certificate-of-analysis",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "f5553aa62557a0a0547aa8b1bde26e1028ac8aab4075283da746c0f3b5e1d815",
+          "newFieldSha256": "bcf0073a0d075c076f35951c2fc6f3f81212e16dde4a6138857e608bda1b14a7"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "a2a0ed29e42112c6dc3166fd352d6fd3ad128fd966835cd260459e3a609034f8"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "182a0bfdac5a77c2576bfe0611e210a2af9ecf35eb288ddba691c72ae3e0e926",
+          "newFieldSha256": "863b5977ff4974f2f77a2021d0bccc74eea4d6da60ab332b94ff33ad843d5006"
+        }
+      ]
+    },
+    {
+      "ownerId": "chemistry-manufacturing-controls",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "a8874a6b75adc4de7973bea73d0db684872ce2f411f6b70a62798f462b2f3c30",
+          "newFieldSha256": "b138acf60faae00d19f6c3227b74d3f46875ee31ab4babac1fa021e6b9745c40"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "a9bc67eae6f65a2e5e3f0103247fa63b277e83634d3aae0b85c88f4485853fab"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "5fecea06bf2b932fffd15a9575e65dae189990908156077723853f826b347f60",
+          "newFieldSha256": "d32f4c8ea74c7379121e2b59bbaaec2f7fd810917e37fc6b317c51e40e61f4a4"
+        }
+      ]
+    },
+    {
+      "ownerId": "manufacturing-process-comparability",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "1f9c1e2ae1b0f6b72f1d2d23501a855f4e93d89b79392afc7e75da1758438af6",
+          "newFieldSha256": "1df58520f4654c960f3d3d29e77197a02ffd7e661297738b778ae0d40cdbcf0e"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "newFieldSha256": "ea78331d5e27e3e010bc0b293904fb7b21ecad01cbe4abdff1883660231b2aca"
+        },
+        {
+          "field": "summary",
+          "oldFieldSha256": "328c2e0c45df3cf9e88514abb56caa3a0fa160a6293737021d417739d317fe15",
+          "newFieldSha256": "f8c8e231e2a01af1317d54bd7ede24185fcaa9ea82371203f40af1377cc238ee"
+        }
+      ]
+    },
+    {
+      "ownerId": "cell-therapy-release-testing",
+      "draft": 373,
+      "newIdentity": false,
+      "fields": [
+        {
+          "field": "asOf",
+          "oldFieldSha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef",
+          "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "oldFieldSha256": "7ae4c2f4eac9d9385cccd8591c93755c591d01c0e61594b5a3422f6b4a30ea85",
+          "newFieldSha256": "e5f0c18ef5e4a0c55e01ff443ffbf793f0f8833fc779efb4a66165e9c388381f"
+        },
+        {
+          "field": "notes",
+          "oldFieldSha256": "70457955b62e52c0ff42806d4f7031974c0c7f001ba1452ffb756fe51968c576",
+          "newFieldSha256": "ab301c3724daf4db3a3319c5f62c9a68376091b5a53be045a0266801e68ae425"
+        }
+      ]
+    }
+  ],
+  "wholeGraphChecks": [
+    {
+      "side": "w",
+      "canonicalBefore": 22774,
+      "canonicalAfter": 22779,
+      "added": [
+        "binder-discovery",
+        "peptide-synthesis-spps",
+        "batch-release",
+        "platform-vs-personalized-components",
+        "good-manufacturing-practice"
+      ],
+      "changed": [
+        "cell-therapy-release-testing",
+        "cdmo"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "mismatches": [],
+      "missingRelations": [],
+      "schemaParses": 7,
+      "normalization": "Existing canonicalTermCategory applied to raw term category labels; no category code changed."
+    },
+    {
+      "side": "s",
+      "canonicalBefore": 22719,
+      "canonicalAfter": 22719,
+      "added": [],
+      "changed": [
+        "binder-targeting-module",
+        "binder-affinity-epitope-developability",
+        "binder-format-constraints",
+        "scfv-vhh-formats",
+        "chemistry-manufacturing-controls",
+        "certificate-of-analysis",
+        "manufacturing-process-comparability",
+        "cell-therapy-release-testing"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "mismatches": [],
+      "missingRelations": [],
+      "schemaParses": 8
+    }
+  ]
+}

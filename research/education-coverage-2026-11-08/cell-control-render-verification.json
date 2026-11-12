@@ -1,0 +1,100 @@
+{
+  "checkedOn": "2026-11-08",
+  "mode": "Actual EntityDetail server renders; no combined Next build or live deployment claimed",
+  "currentDraftOwnerCount": 93,
+  "scope": "All 93 dated source-bearing owners checked; nine changed rendered overviews/notes and the two linked study narratives/findings/caveats read directly. Existing unrelated linked cards are not globally certified.",
+  "checks": [
+    {
+      "id": "car-t",
+      "route": "/technologies/car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 183495,
+      "sha256": "c3736bcf1c05dcae07cceaafdd8771c8ea6b1b44816d1eef357b079721e590bc",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "safety-switch-car-t",
+      "route": "/technologies/safety-switch-car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 39712,
+      "sha256": "bd164c54920a79dd87242fd90427da5a6dc1a92674a7e431c4b6901fbce3ed01",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "t-cell-engager",
+      "route": "/technologies/t-cell-engager/",
+      "asOf": "2026-11-08",
+      "bytes": 164089,
+      "sha256": "f75cf46bc8be4215d3cc94cff9568ceeee875c8a51a1e84805d4795b1e6ee664",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-t",
+      "route": "/technologies/tcr-t/",
+      "asOf": "2026-11-08",
+      "bytes": 80806,
+      "sha256": "ace0bbce3e4d3256e331d80435271079472cc9a5da1fd3181b6f9c80d3ae835b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "til-therapy",
+      "route": "/technologies/til-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 82561,
+      "sha256": "aabd77f89c8a2020f04522923e1a69e0b275032726591ec6bfbcb1227ce79410",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bispecific-antibody",
+      "route": "/technologies/bispecific-antibody/",
+      "asOf": "2026-11-08",
+      "bytes": 116840,
+      "sha256": "d762de01c5a75e4232b6d9c103cff5cc3d222a270a5abc41c3ff073ea9a0b7e6",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tarlatamab",
+      "route": "/drugs/tarlatamab/",
+      "asOf": "2026-11-08",
+      "bytes": 92982,
+      "sha256": "e15d91c038ef20cf100a6db9adf18ccdc68bec70c65e15dd784fc7d75c66304d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "paper-dellphi-301-nejm-2023",
+      "route": "/key-papers/paper-dellphi-301-nejm-2023/",
+      "asOf": "2026-11-08",
+      "bytes": 51805,
+      "sha256": "296dd6eeac925ce3a55b48f92c64f32a0bee60a997f3a63a1d3f8da22a221123",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "paper-c-144-01-lifileucel-melanoma-jco-2021",
+      "route": "/key-papers/paper-c-144-01-lifileucel-melanoma-jco-2021/",
+      "asOf": "2026-11-08",
+      "bytes": 48675,
+      "sha256": "ba8018751de746afebac5b16696e683641dcf7f31e836ceaf9127b002e8d94c5",
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ],
+  "allOwnersMissingSources": 0,
+  "allOwnersNestedAnchors": 0,
+  "regressionChecks": [
+    "Merged CAR-T has the corrected B-ALL/lymphoma paragraph once, without the old categorical failure note.",
+    "GD2-CART01 activated switch, melanoma TILVANCE-301, exact TCR label scope and current engager monitoring are visible.",
+    "The linked cards keep original study, later comparison and current label scopes separate."
+  ],
+  "limits": [
+    "Shared ordinary-word glossary matching remains an open product follow-up.",
+    "Baseline extra map-route export prevents a full build of this data branch; separate product PR #376 fixes that route, but combined drafts are not built or deployed."
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "removedTranslations": [
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "سبع خطوات يجب أن يستكملها الجهاز المناعي لقتل الورم: إطلاق المستضدات، والتقاطها بواسطة الخلايا المتغصنة، وتحفيز الخلايا التائية في العقد الليمفاوية، والانتقال، والدخول إلى الورم، والتعرّف، والقتل. كل علاج مناعي يدفع خطوة واحدة؛ وكل هروب للسرطان يعيق خطوة واحدة.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "cold-vs-hot",
+      "before": "الأورام «الحارة» مليئة بالخلايا المناعية وتستجيب للعلاج المناعي؛ أما الأورام «الباردة» فقد أبقت الجهاز المناعي خارجها.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "immune-desert-exclusion",
+      "before": "تأتي الأورام في ثلاثة 'أجواء' مناعية: ملتهبة (خلايا T في داخلها، وأدوية نقاط التفتيش تعمل)، ومستبعدة (خلايا T محتجزة عند الحافة)، وصحراوية (لا توجد خلايا T على الإطلاق). معظم السرطانات الشائعة مستبعدة أو صحراوية، وتحويلها إلى 'حارة' هو المشكلة المركزية في العلاج المناعي.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "العلاج المساعد قبل الجراحة (النيوأدجوفانت)، والعلاج المساعد بعد الجراحة (الأدجوفانت)، والعلاج المحيط بالجراحة تعني على التوالي علاجاً يُعطى قبل الجراحة، أو بعدها، أو في الحالتين معاً.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "nk-cell-recognition",
+      "before": "تقوم الخلايا القاتلة الطبيعية بدوريات بحثًا عن الخلايا التي فقدت أوراق هويتها (MHC-I) أو التي تُظهر علامات الإجهاد. السرطانات التي تختبئ من الخلايا التائية بالتخلي عن MHC-I تصبح مكشوفة أمام خلايا NK، إلا إذا تخلّصت أيضًا من علامات الإجهاد، أو غلّفت نفسها بشارة مثبطة ثانية (HLA-E)، أو أغرقت البيئة المحيطة بها بـ TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "immune-exclusion",
+      "before": "ورم تصل إليه الخلايا المناعية لكنها تُوقَف عند حافته، إذ يحجزها النسيج الندبي وإشارات مثل TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "البلاعم المرتبطة بالورم خلايا مناعية يُفترض أن تلتهم الخلايا السرطانية، لكن الورم يعيد تعليمها لتحميه بدلا من ذلك. وهي غالبا أكثر الخلايا المناعية وفرة في الورم.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "Sieben Schritte, die das Immunsystem abschließen muss, um einen Tumor zu töten: Freisetzung von Antigenen, Aufnahme durch dendritische Zellen, Aktivierung der T-Zellen in den Lymphknoten, Wanderung, Eintritt in den Tumor, Erkennung und Abtötung. Jede Immuntherapie setzt an einem Schritt an; jedes Entkommen blockiert einen.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "cold-vs-hot",
+      "before": "„Heiße“ Tumoren sind voller Immunzellen und sprechen auf Immuntherapie an; „kalte“ Tumoren haben das Immunsystem ausgesperrt.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "immune-desert-exclusion",
+      "before": "Tumoren haben drei immunologische 'Wetterlagen': entzündet (T-Zellen im Inneren, Checkpoint-Medikamente wirken), ausgeschlossen (T-Zellen bleiben am Rand hängen) und Wüste (gar keine T-Zellen). Die meisten häufigen Krebsarten sind ausgeschlossen oder Wüste, und sie 'heiß' zu machen ist das zentrale Problem der Immuntherapie.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "Neoadjuvante, adjuvante und perioperative Therapie bezeichnen eine Behandlung, die vor der Operation, nach der Operation oder sowohl davor als auch danach gegeben wird.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "nk-cell-recognition",
+      "before": "Natürliche Killerzellen patrouillieren auf der Suche nach Zellen, die ihre Ausweispapiere (MHC-I) verloren haben oder Stresssignale zeigen. Krebszellen, die sich vor T-Zellen verstecken, indem sie MHC-I ablegen, werden dadurch für NK-Zellen sichtbar, es sei denn, sie werfen auch die Stresssignale ab, hüllen sich in ein zweites hemmendes Abzeichen (HLA-E) oder überschwemmen ihre Umgebung mit TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "immune-exclusion",
+      "before": "Ein Tumor, bei dem die Immunzellen zwar ankommen, aber am Rand aufgehalten werden, zurückgehalten durch Narbengewebe und Signale wie TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "Tumorassoziierte Makrophagen sind Immunzellen, die eigentlich Krebszellen fressen sollten, vom Tumor aber umerzogen werden, um ihn stattdessen zu schützen. Sie sind oft die häufigste Immunzelle in einem Tumor.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "Tratamiento dado antes de la cirugía (neoadyuvante), después (adyuvante) o ambos (perioperatorio).",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "cold-vs-hot",
+      "before": "Los tumores 'calientes' están llenos de células inmunitarias y responden a la inmunoterapia; los 'fríos' han mantenido fuera al sistema inmunitario.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "Siete pasos que el sistema inmunitario debe completar para matar un tumor: liberación de antígenos, captación por las células dendríticas, activación de los linfocitos T en los ganglios linfáticos, desplazamiento, entrada en el tumor, reconocimiento y destrucción. Cada inmunoterapia empuja uno de los pasos; cada escape bloquea uno.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "immune-desert-exclusion",
+      "before": "Los tumores presentan tres 'climas' inmunitarios: inflamado (con células T en su interior, donde los fármacos de puntos de control funcionan), excluido (con células T atascadas en el borde) y desierto (sin células T en absoluto). La mayoría de los cánceres comunes son excluidos o desiertos, y convertirlos en 'calientes' es el problema central de la inmunoterapia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "nk-cell-recognition",
+      "before": "Las células asesinas naturales patrullan en busca de células que han perdido sus documentos de identidad (MHC-I) o que muestran señales de estrés. Los cánceres que se esconden de las células T eliminando el MHC-I se vuelven visibles para las células NK, a menos que también se desprendan de las señales de estrés, se cubran con una segunda insignia inhibidora (HLA-E) o empapen su entorno de TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "immune-exclusion",
+      "before": "Un tumor al que las células inmunitarias llegan pero quedan detenidas en el borde, retenidas por tejido cicatricial y señales como el TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "Los macrófagos asociados al tumor son células inmunitarias que deberían devorar las células cancerosas, pero el tumor las reeduca para que lo protejan. A menudo son la célula inmunitaria más abundante dentro de un tumor.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "Sept étapes que le système immunitaire doit accomplir pour tuer une tumeur : libération des antigènes, capture par les cellules dendritiques, activation des lymphocytes T dans les ganglions lymphatiques, déplacement, entrée dans la tumeur, reconnaissance et destruction. Chaque immunothérapie agit sur une étape ; chaque échappement en bloque une.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "cold-vs-hot",
+      "before": "Les tumeurs « chaudes » sont remplies de cellules immunitaires et répondent à l'immunothérapie ; les tumeurs « froides » ont tenu le système immunitaire à l'écart.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "immune-desert-exclusion",
+      "before": "Les tumeurs présentent trois 'climats' immunitaires : enflammé (lymphocytes T à l'intérieur, les médicaments anti-points de contrôle fonctionnent), exclu (lymphocytes T bloqués en périphérie) et désert (aucun lymphocyte T). La plupart des cancers fréquents sont exclus ou déserts, et les rendre 'chauds' est le problème central de l'immunothérapie.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "Les traitements néoadjuvant, adjuvant et périopératoire désignent respectivement un traitement administré avant la chirurgie, après la chirurgie, ou les deux.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "nk-cell-recognition",
+      "before": "Les cellules tueuses naturelles patrouillent à la recherche de cellules qui ont perdu leurs papiers d'identité (MHC-I) ou qui affichent des signaux de stress. Les cancers qui se cachent des cellules T en abandonnant le MHC-I deviennent visibles pour les cellules NK, à moins qu'ils ne se débarrassent aussi des signaux de stress, ne s'enveloppent d'un second badge inhibiteur (HLA-E) ou n'inondent leur voisinage de TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "immune-exclusion",
+      "before": "Une tumeur où les cellules immunitaires arrivent mais sont bloquées en périphérie, retenues par du tissu cicatriciel et par des signaux tels que le TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "Les macrophages associés aux tumeurs sont des cellules immunitaires censées dévorer les cellules cancéreuses, mais que la tumeur rééduque pour qu'elles la protègent. Ils sont souvent la cellule immunitaire la plus abondante dans une tumeur.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "सर्जरी से पहले (नियोएडजुवेंट), बाद में (एडजुवेंट), या दोनों (पेरिऑपरेटिव) दिया गया उपचार।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "cold-vs-hot",
+      "before": "'गर्म' ट्यूमर प्रतिरक्षा कोशिकाओं से भरे होते हैं और इम्यूनोथेरेपी पर प्रतिक्रिया देते हैं; 'ठंडे' ट्यूमर ने प्रतिरक्षा तंत्र को बाहर रखा है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "ट्यूमर को मारने के लिए प्रतिरक्षा तंत्र को सात चरण पूरे करने होते हैं: एंटीजन का निकलना, डेंड्राइटिक कोशिकाओं द्वारा उन्हें उठाना, लिम्फ नोड्स में T कोशिकाओं को तैयार करना, यात्रा, ट्यूमर में प्रवेश, पहचान और मारना। हर इम्यूनोथेरेपी इनमें से किसी एक चरण को आगे बढ़ाती है; कैंसर का हर बचाव इनमें से किसी एक को रोकता है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "immune-desert-exclusion",
+      "before": "ट्यूमर तीन तरह के प्रतिरक्षा 'मौसम' में आते हैं: सूजनयुक्त (T कोशिकाएं अंदर होती हैं, चेकपॉइंट दवाएं काम करती हैं), बहिष्कृत (T कोशिकाएं किनारे पर अटकी रहती हैं) और मरुस्थल (T कोशिकाएं बिल्कुल नहीं होतीं)। अधिकांश आम कैंसर बहिष्कृत या मरुस्थल प्रकार के होते हैं, और उन्हें 'गर्म' बनाना इम्यूनोथेरेपी की केंद्रीय समस्या है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "nk-cell-recognition",
+      "before": "नेचुरल किलर कोशिकाएँ ऐसी कोशिकाओं की तलाश में गश्त करती हैं जिन्होंने अपने पहचान पत्र (MHC-I) खो दिए हैं या जो तनाव के संकेत दिखा रही हैं। जो कैंसर MHC-I को हटाकर T कोशिकाओं से छिप जाते हैं, वे NK कोशिकाओं को दिखने लगते हैं, जब तक कि वे तनाव के संकेत भी न हटा दें, खुद को एक दूसरे अवरोधक बैज (HLA-E) से न ढक लें, या आसपास के वातावरण को TGF-β से न भर दें।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "immune-exclusion",
+      "before": "ऐसा ट्यूमर जहां प्रतिरक्षा कोशिकाएं पहुंचती तो हैं लेकिन किनारे पर ही रोक दी जाती हैं, निशान ऊतक और TGF-β जैसे संकेतों द्वारा पीछे रखी जाती हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "ट्यूमर-संबद्ध मैक्रोफेज ऐसी प्रतिरक्षा कोशिकाएं हैं जिन्हें कैंसर कोशिकाओं को खा जाना चाहिए, लेकिन ट्यूमर उन्हें फिर से सिखाकर अपनी रक्षा में लगा लेता है। ये अक्सर ट्यूमर में सबसे अधिक संख्या वाली प्रतिरक्षा कोशिका होती हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "免疫系が腫瘍を殺すために完了しなければならない7つのステップです。抗原の放出、樹状細胞による取り込み、リンパ節でのT細胞の活性化、移動、腫瘍への侵入、認識、そして殺傷。どの免疫療法もこのうち1つのステップを後押しし、がんのどの逃避もこのうち1つをブロックします。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "cold-vs-hot",
+      "before": "「ホット」な腫瘍は免疫細胞で満ちていて免疫療法に反応しますが、「コールド」な腫瘍は免疫系を締め出しています。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "immune-desert-exclusion",
+      "before": "腫瘍には3つの免疫の「天候」がある。炎症型（T細胞が内部にあり、チェックポイント薬が効く）、排除型（T細胞が縁で足止めされている）、砂漠型（T細胞が全くない）だ。よくあるがんの多くは排除型か砂漠型で、これらを「ホット」に変えることが免疫療法の中心的な課題となっている。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "術前補助療法（ネオアジュバント）、術後補助療法（アジュバント）、周術期療法とは、それぞれ手術の前、手術の後、またはその両方に行う治療を指す。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "nk-cell-recognition",
+      "before": "ナチュラルキラー細胞は、身分証明書（MHC-I）を失った細胞や、ストレスの目印を出している細胞を見つけようとパトロールしている。MHC-Iを捨ててT細胞から隠れているがんは、そのためにNK細胞から見えるようになる。ただし、ストレスの目印も捨ててしまう、第二の抑制バッジ（HLA-E）を身にまとう、あるいは周囲をTGF-βで満たしてしまう場合は別である。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "immune-exclusion",
+      "before": "免疫細胞は到達するものの、瘢痕組織やTGF-βなどのシグナルに阻まれて腫瘍の辺縁で止められてしまう状態の腫瘍。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "腫瘍関連マクロファージは本来がん細胞を食べるべき免疫細胞だが、腫瘍によって再教育され、逆に腫瘍を守るようになる。腫瘍内で最も多い免疫細胞であることが多い。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "Tratamento dado antes da cirurgia (neoadjuvante), depois da cirurgia (adjuvante) ou ambos (perioperatório).",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "cold-vs-hot",
+      "before": "Tumores 'quentes' estão cheios de células imunes e respondem à imunoterapia; tumores 'frios' mantiveram o sistema imune de fora.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "Sete etapas que o sistema imunológico precisa completar para matar um tumor: liberação de antígenos, captura pelas células dendríticas, ativação das células T nos gânglios linfáticos, deslocamento, entrada no tumor, reconhecimento e destruição. Cada imunoterapia empurra uma etapa; cada escape bloqueia uma.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "immune-desert-exclusion",
+      "before": "Os tumores apresentam três 'climas' imunológicos: inflamado (células T dentro do tumor, os medicamentos de checkpoint funcionam), excluído (células T presas na borda) e deserto (nenhuma célula T). A maioria dos cânceres comuns é do tipo excluído ou deserto, e torná-los 'quentes' é o problema central da imunoterapia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "nk-cell-recognition",
+      "before": "As células natural killer patrulham em busca de células que perderam seus documentos de identidade (MHC-I) ou que exibem sinais de estresse. Os cânceres que se escondem das células T ao descartar o MHC-I tornam-se visíveis para as células NK, a menos que também eliminem os sinais de estresse, se cubram com um segundo distintivo inibidor (HLA-E) ou encharquem a vizinhança com TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "immune-exclusion",
+      "before": "Um tumor a que as células imunitárias chegam mas ficam retidas na periferia, bloqueadas por tecido cicatricial e por sinais como o TGF-β.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "Os macrófagos associados ao tumor são células imunológicas que deveriam devorar as células cancerosas, mas são reeducadas pelo tumor para protegê-lo. Costumam ser a célula imunológica mais abundante em um tumor.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "手术前给予的治疗（新辅助）、手术后（辅助）或两者兼有（围手术期）。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "cold-vs-hot",
+      "before": "“热”肿瘤充满免疫细胞并对免疫治疗有反应；“冷”肿瘤把免疫系统挡在外面。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "免疫系统要杀死肿瘤必须完成的七个步骤：释放抗原、树突状细胞摄取抗原、在淋巴结中启动T细胞、迁移、进入肿瘤、识别以及杀伤。每一种免疫疗法都在推动其中一步；每一种逃逸都在阻断其中一步。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "immune-desert-exclusion",
+      "before": "肿瘤有三种免疫“气候”：炎症型（T细胞在肿瘤内部，检查点药物有效）、排斥型（T细胞被困在边缘）和荒漠型（完全没有T细胞）。大多数常见癌症属于排斥型或荒漠型，把它们变“热”是免疫治疗的核心难题。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "nk-cell-recognition",
+      "before": "自然杀伤细胞四处巡逻，寻找丢失了“身份证件”（MHC-I）或展示出应激信号的细胞。通过丢弃MHC-I来躲避T细胞的癌症会因此被NK细胞发现，除非它们同时也去掉应激信号、给自己披上第二种抑制性标识（HLA-E），或者让周围环境充满TGF-β。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "immune-exclusion",
+      "before": "一种肿瘤，免疫细胞虽已到达，却被阻挡在边缘，受瘢痕组织和TGF-β等信号的阻拦。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "肿瘤相关巨噬细胞是本应吞噬癌细胞的免疫细胞，却被肿瘤“再教育”转而保护肿瘤。它们往往是肿瘤中数量最多的免疫细胞。",
+      "after": "current English fallback"
+    }
+  ],
+  "replacedSimple": [
+    {
+      "file": "src/data/simple/part-b.ts",
+      "id": "tils",
+      "before": "These are immune cells in tumour tissue. A stromal TIL score estimates the area they occupy in the tissue between tumour cells; it does not promise a better outcome or select a treatment.",
+      "after": "Tumour-infiltrating lymphocytes are lymphocytes in tumour tissue. Location, cell identity, the measurement denominator and useful function are separate questions."
+    },
+    {
+      "file": "src/data/simple/part-b.ts",
+      "id": "neoadjuvant-adjuvant",
+      "before": "Treatment given before surgery (neoadjuvant), after surgery (adjuvant), or both.",
+      "after": "Neoadjuvant treatment comes before surgery and adjuvant treatment after it. A regimen spanning both phases does not separately test how much each phase helped."
+    },
+    {
+      "file": "src/data/simple/part-b.ts",
+      "id": "cold-vs-hot",
+      "before": "'Hot' tumours are full of immune cells and respond to immune drugs; 'cold' tumours keep the immune system out.",
+      "after": "Hot, excluded and desert describe where specified immune cells were found in a sample. These patterns alone do not show cancer recognition, killing or treatment benefit."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "cancer-immunity-cycle",
+      "before": "The cancer-immunity cycle is seven steps the immune system must complete to kill a tumour, from releasing its proteins to killing it, and every immune drug pushes one step.",
+      "after": "The cancer-immunity cycle maps steps from tumour material to immune recognition and killing. A positive test at one step does not show that every later step worked."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "immune-desert-exclusion",
+      "before": "Tumours come in three immune weathers, inflamed, excluded or desert; most common cancers keep T cells at the edge or out, and turning them 'hot' is immunotherapy's central problem.",
+      "after": "Few T cells in a sample and T cells gathered outside cancer-cell regions are different patterns. Cells that reach a tumour may still be restrained."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "nk-cell-recognition",
+      "before": "Natural killer cells patrol for cells that lost their identity papers or show stress flags, so cancers hiding from T cells become visible to them unless they add disguises.",
+      "after": "Natural killer cells combine receptor signals. Losing an inhibitory self signal does not guarantee killing: activating signals and the cells’ previous education also matter."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "immune-exclusion",
+      "before": "Immune exclusion describes a tumour where immune cells arrive but are stopped at the edge by scar-like tissue and signals, so immunotherapy works poorly.",
+      "after": "Immune exclusion means cells gather outside cancer-cell regions. Their position does not show what blocked access or which treatment would help."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "tumor-associated-macrophages",
+      "before": "Tumour-associated macrophages are immune cells that should eat cancer cells but are retrained by the tumour to protect it instead, often the commonest immune cell present.",
+      "after": "Macrophages in or around a tumour can have different states and effects. A marker count alone does not show that they suppress immunity or help cancer grow."
+    }
+  ],
+  "addedSimple": [
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "agretopicity",
+      "text": "A score compares predicted immune-display binding of an altered peptide and its normal counterpart. It does not show that the target is naturally displayed or recognised."
+    },
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "adaptive-immune-resistance",
+      "text": "An immune attack can induce signals that restrain it. This feedback differs from a treatment that worked and later stopped working."
+    },
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "perioperative-immune-window",
+      "text": "Surgery can temporarily change immune activity. Blood or laboratory changes do not by themselves show more recurrences or prove that a different anaesthetic improves outcomes."
+    },
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "cd4-t-cell-subsets",
+      "text": "CD4 T cells develop different response programmes. Their signals and gene activity help describe them, but a single marker does not establish what the cells do."
+    }
+  ],
+  "namedLanguageReviews": 0,
+  "reason": "Corrected definitions must not retain the earlier short text. Existing long-summary hash selectors reject changed source summaries automatically. No translation is claimed newly reviewed."
+}

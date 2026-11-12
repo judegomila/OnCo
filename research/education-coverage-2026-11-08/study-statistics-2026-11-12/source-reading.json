@@ -1,0 +1,1252 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "later",
+      "name": "competing-risks",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "file": "later-competing-risks.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+      "gitBlob": "77aeb0248c9632751923290e238de17a5345f56a",
+      "bytes": 8959,
+      "title": "Competing risks and cumulative incidence",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7530806155a4e1c41128abde2add17d1520f068c5eb6c00b59622d68211f1e07"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "75e39e4e6f00071c43693d5e33146d2ba9da21aa3ed476be5591bf49980ff02f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "552c73b63a2841219d616d62f8f8ec6809b2ad5ee5eefb81e96066063212c493"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "de536e8e7bc9490d9b529edf4ea0ccb7b606a42578296f5888ec850baa7edb13"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "4ad605f3582bf3ec647bd145a235c4cf19e6e15d0f3c44403534f88ed63828ca"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "8f2f95dafec9f0e7d44c89fefd25e4b73154993506087e663237734cb0c7b455"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "0b4fc2bf5dc09c10dc129b2905c3b828663119e582038d5a285ad12c559fc8ad"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bb7720b72ab17da03e41bf465f4add1524c6cf0507b1af0126a22d5905248121"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "995ff4b999f0e23fbd95a6a89253399d1a3db3633d779f706c14b255a7e435a1"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "ff431c1be013ba9d8fe3ce637dde170a1aa0f0139e0c82ad7c69a55e52eef609"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "370245a44ea8210d3c1142177245c6ef16bedf98e675194be0ebf6a1cce42545"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "6288ce3c0e54513fd43fa1f0215f6e9c2bca2db6e76254578ca2b4ed7dc45921"
+        }
+      ],
+      "originalVersion": "No file with this name/path exists at the original pin; original inventory retained separately without invented counterparts."
+    },
+    {
+      "phase": "later",
+      "name": "analysis-populations",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "file": "later-analysis-populations.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+      "gitBlob": "5ed53f7c15fffc3faeae9fe5dd04fe689657e910",
+      "bytes": 10010,
+      "title": "Analysis populations: intention-to-treat, per-protocol and safety",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d780fcbf04348704a53c9c98722dc1d4ca48efa5ab5b5a4b7f02d98141e653f9"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5cbd12b6a39cf444bdddad841d68753c2ba3fb914b47bade13215649fbbab7dc"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "57a3c0e74142cfd397e9ddba810cfa05337ac6c82d3f4ce71f4d1356c7e71f37"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0dc864b8b021fc0adad57b05a0a6a3158a0e4b07e19f0108beed48ca89b90611"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "d9b4ad35c7899f8a4aabb70f878e715d6f4ba83f58b469a273ecbace1f5910c2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9825763fcc581d3c5957d6d1b4e7698cfb2ecc1f3213685e6ab61ef3aa130a5a"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "104da4f5fd6178911a3d23387c1dca3e6de07f119f3e450cf65109745de37fcc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3b690a420716f2e744f11115f1e39f574ed92e1422e140f8a035b555df991d8c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "662b9d21f8cf9f4961c0ac1f912b77cfad73261773cad95c3ede0c32439a0c99"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f6a8cedfee9ae195090214d8a7823b077440c7cf90c9ccf5d88dc07fec4b0a8c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "463811e08fb237a47f0d23029a25b4b10d8db622bc275a116b9b6c4092522893"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "64ed82cc0cb54e976b5b304ccde4b5001ddf4e7a23deec5358ddba17d2f9003c"
+        }
+      ],
+      "originalVersion": "No file with this name/path exists at the original pin; original inventory retained separately without invented counterparts."
+    },
+    {
+      "phase": "later",
+      "name": "bayesian-and-adaptive-designs",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "file": "later-bayesian-and-adaptive-designs.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+      "gitBlob": "0e35dedd1b62be7a7e46d8612624142ba64121b9",
+      "bytes": 10342,
+      "title": "Bayesian and adaptive trial designs",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "946a8f18bbea16b886d7b6376ec04abe43365ea85700cab9568f83744c809e4e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5d092fb5f94590a2b6c14cff0ffd6ada0308c1c7f6647720a4686f62c98342ed"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7e4b6146fd353e5d0f56b534a2b84f8ea2eda6918baaf7495363b584afcaef6e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "26f880a8a79867f6e0e33a6c7e3a1927ec71f64e61f372a61323f1880ab528e5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "c85765bb2adf7a9053f4f5b71fa255a35a173e29ce2db15af0b68176fb808d45"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1341e961c9376f9670b38cecc501d06e14ce016ff7ad44080e59e03ac6a01e45"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "b2a8f8101bd3ed6e30282e9ecfca047e21a8f89267b72834ec5c0b0599d54c94"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f8c9343ad648a03c4d22a1f8cd77d219d6c807e54e98c69e878763f664662be9"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a937f027655a7ea798dd8820d2c926e326349f35148004836917adc772bd8143"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "16041a119a709c64c862acca07b3e6670cd6afb6edc545e531c939926fc45a43"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "6d9c48de52a59df319286695cacc7455fa72c204741d3ac3fa7c247da69f17b9"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "6883cd8250553dee3081cd68e66771503216ad6c675e6bba6ae8fb61cc97be3c"
+        }
+      ],
+      "originalVersion": "No file with this name/path exists at the original pin; original inventory retained separately without invented counterparts."
+    },
+    {
+      "phase": "later",
+      "name": "non-inferiority-trials",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "file": "later-non-inferiority-trials.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+      "gitBlob": "85ec8ac60c901139b81a574dd67d69f15280fd68",
+      "bytes": 9630,
+      "title": "Non-inferiority trials",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "476d6f95d3a0735129ad7a5b50647b97463e23255d0f2e2134cb30b668857f0d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2c19051466c00a1395fdd7f9c34b703bdfe2f0dfca0c7bd972aad0858476626b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2a106746f0b4d8ad16ffc405e1cfb7b202e3239ac13f5acbb8e40d4afab9d21d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e9095fcc8d86df9884b59c3a6f7424f3376f610bf727b22201aa2bcb1e3b1164"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b7ce281b8302e0c4d296dcf3ec50797967ec6a7c59f8ac5fe441478d5b94e312"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "4d059bd13f2d21ea4e0ff1794d60c63f27ef96b3c8750835efdd41a7aa3d882c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "950305a74f8ff398e4f253312b703ed85a2d8a05882b6a181ae414eb6c70abec"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "17f8b860aab8c885b055d0f5429130606f8bf11e7c814e56e4e2afb552bf1e43"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "fded9488103316f060007373a4883980295e3f422f297289d120a14456a19a4b"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "78eab93e57d51d88cf98fd91913fe8260500f8dd7c35811744ae206e7134893e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a88da0bbba34024d3dac7d28314159b4d59770c62edfb28dfd878c68e5ad2d08"
+        }
+      ],
+      "originalVersion": "No file with this name/path exists at the original pin; original inventory retained separately without invented counterparts."
+    },
+    {
+      "phase": "later",
+      "name": "statistical-power-and-sample-size",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "file": "later-statistical-power-and-sample-size.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+      "gitBlob": "48a92d40580ed192e5203f734acd394b8eeceb41",
+      "bytes": 8517,
+      "title": "Statistical power and sample size",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "96d5af51761c27fd45e465658fe703862fa03af0d62b3a6b87cf747ddf18a9c8"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4bf596755854b242fb10955a7e32af11219dcc931af231a026657c1aebc31440"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2b86542857b2d6b114a11ccefbb86d63ad157a36d49325042f2e96fa833bbf97"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c9c069d74f14f26a5d8f6a990b33086cfa60273f36c7d3a672d5cea2a1901860"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ae04e9c01543aed4dfdbf09692dc43438c2a69219e2b03c282abf7c2d43a1d0b"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c5cedf03517a478a3ba3655ee80bca95dffe2fd29dc985a4b856ed1a3f0c3bcc"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d37d73821419284478a67c1b5b5cc6a8aa85402b736b347c52c5a084da319b2c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d75a47af09b75e6cfe744308aa2fbfa217e2e463f83b03e07882835dceff8a3c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b687a7e1e1519815c0e25ef4d4e6083775a9f51190c919f152ab6ed642c313f5"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ca73e14e40e29b8861f64d83705775fce543648a2719d5eb584169525cf8f9c3"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4819739963a37cff972b70fe245429859b516721625468847ba2e7f5a6288230"
+        }
+      ],
+      "originalVersion": "No file with this name/path exists at the original pin; original inventory retained separately without invented counterparts."
+    }
+  ],
+  "originalAbsence": {
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "pathsChecked": [
+      "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md"
+    ],
+    "gitTreePaths": 2446,
+    "samePathsPresent": 0,
+    "sameBasenamesPresent": [],
+    "scope": "No original counterpart at assigned source names/paths. Related teaching elsewhere is a separate source, not an invented version."
+  },
+  "sectionDispositions": [
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "7530806155a4e1c41128abde2add17d1520f068c5eb6c00b59622d68211f1e07",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "75e39e4e6f00071c43693d5e33146d2ba9da21aa3ed476be5591bf49980ff02f",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "552c73b63a2841219d616d62f8f8ec6809b2ad5ee5eefb81e96066063212c493",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "C-001",
+        "C-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "de536e8e7bc9490d9b529edf4ea0ccb7b606a42578296f5888ec850baa7edb13",
+      "lineStart": 34,
+      "lineEnd": 46,
+      "requirementIds": [
+        "C-001",
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "4ad605f3582bf3ec647bd145a235c4cf19e6e15d0f3c44403534f88ed63828ca",
+      "lineStart": 47,
+      "lineEnd": 60,
+      "requirementIds": [
+        "C-007",
+        "C-008"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "8f2f95dafec9f0e7d44c89fefd25e4b73154993506087e663237734cb0c7b455",
+      "lineStart": 61,
+      "lineEnd": 71,
+      "requirementIds": [
+        "C-009",
+        "C-010",
+        "C-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "0b4fc2bf5dc09c10dc129b2905c3b828663119e582038d5a285ad12c559fc8ad",
+      "lineStart": 72,
+      "lineEnd": 78,
+      "requirementIds": [
+        "C-012",
+        "C-013",
+        "C-014",
+        "C-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "bb7720b72ab17da03e41bf465f4add1524c6cf0507b1af0126a22d5905248121",
+      "lineStart": 79,
+      "lineEnd": 85,
+      "requirementIds": [
+        "C-016",
+        "C-017",
+        "C-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "995ff4b999f0e23fbd95a6a89253399d1a3db3633d779f706c14b255a7e435a1",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "C-019"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "ff431c1be013ba9d8fe3ce637dde170a1aa0f0139e0c82ad7c69a55e52eef609",
+      "lineStart": 92,
+      "lineEnd": 97,
+      "requirementIds": [
+        "C-020",
+        "competing-risks-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "370245a44ea8210d3c1142177245c6ef16bedf98e675194be0ebf6a1cce42545",
+      "lineStart": 98,
+      "lineEnd": 101,
+      "requirementIds": [
+        "C-020",
+        "competing-risks-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "6288ce3c0e54513fd43fa1f0215f6e9c2bca2db6e76254578ca2b4ed7dc45921",
+      "lineStart": 109,
+      "lineEnd": 119,
+      "requirementIds": [
+        "competing-risks-R",
+        "competing-risks-D",
+        "competing-risks-S"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "d780fcbf04348704a53c9c98722dc1d4ca48efa5ab5b5a4b7f02d98141e653f9",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "5cbd12b6a39cf444bdddad841d68753c2ba3fb914b47bade13215649fbbab7dc",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "57a3c0e74142cfd397e9ddba810cfa05337ac6c82d3f4ce71f4d1356c7e71f37",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "A-003"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "0dc864b8b021fc0adad57b05a0a6a3158a0e4b07e19f0108beed48ca89b90611",
+      "lineStart": 32,
+      "lineEnd": 47,
+      "requirementIds": [
+        "A-002",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "A-008",
+        "A-009",
+        "A-010"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "d9b4ad35c7899f8a4aabb70f878e715d6f4ba83f58b469a273ecbace1f5910c2",
+      "lineStart": 48,
+      "lineEnd": 60,
+      "requirementIds": [
+        "A-011",
+        "A-012",
+        "A-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "9825763fcc581d3c5957d6d1b4e7698cfb2ecc1f3213685e6ab61ef3aa130a5a",
+      "lineStart": 61,
+      "lineEnd": 65,
+      "requirementIds": [
+        "A-014",
+        "A-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "104da4f5fd6178911a3d23387c1dca3e6de07f119f3e450cf65109745de37fcc",
+      "lineStart": 66,
+      "lineEnd": 71,
+      "requirementIds": [
+        "A-016",
+        "A-017",
+        "A-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "3b690a420716f2e744f11115f1e39f574ed92e1422e140f8a035b555df991d8c",
+      "lineStart": 72,
+      "lineEnd": 78,
+      "requirementIds": [
+        "A-019",
+        "A-020",
+        "A-021"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "662b9d21f8cf9f4961c0ac1f912b77cfad73261773cad95c3ede0c32439a0c99",
+      "lineStart": 79,
+      "lineEnd": 84,
+      "requirementIds": [
+        "A-022"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f6a8cedfee9ae195090214d8a7823b077440c7cf90c9ccf5d88dc07fec4b0a8c",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "A-023",
+        "analysis-populations-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "463811e08fb237a47f0d23029a25b4b10d8db622bc275a116b9b6c4092522893",
+      "lineStart": 91,
+      "lineEnd": 94,
+      "requirementIds": [
+        "A-023",
+        "analysis-populations-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "64ed82cc0cb54e976b5b304ccde4b5001ddf4e7a23deec5358ddba17d2f9003c",
+      "lineStart": 102,
+      "lineEnd": 113,
+      "requirementIds": [
+        "analysis-populations-R",
+        "analysis-populations-D",
+        "analysis-populations-S"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "946a8f18bbea16b886d7b6376ec04abe43365ea85700cab9568f83744c809e4e",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "B-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "5d092fb5f94590a2b6c14cff0ffd6ada0308c1c7f6647720a4686f62c98342ed",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "B-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "7e4b6146fd353e5d0f56b534a2b84f8ea2eda6918baaf7495363b584afcaef6e",
+      "lineStart": 29,
+      "lineEnd": 34,
+      "requirementIds": [
+        "B-002",
+        "B-003"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "26f880a8a79867f6e0e33a6c7e3a1927ec71f64e61f372a61323f1880ab528e5",
+      "lineStart": 35,
+      "lineEnd": 46,
+      "requirementIds": [
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007",
+        "B-008",
+        "B-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "c85765bb2adf7a9053f4f5b71fa255a35a173e29ce2db15af0b68176fb808d45",
+      "lineStart": 47,
+      "lineEnd": 61,
+      "requirementIds": [
+        "B-010",
+        "B-011",
+        "B-012",
+        "B-013",
+        "B-014",
+        "B-015",
+        "B-016",
+        "B-017",
+        "B-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "1341e961c9376f9670b38cecc501d06e14ce016ff7ad44080e59e03ac6a01e45",
+      "lineStart": 62,
+      "lineEnd": 75,
+      "requirementIds": [
+        "B-019",
+        "B-020",
+        "B-021",
+        "B-022",
+        "B-023"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "b2a8f8101bd3ed6e30282e9ecfca047e21a8f89267b72834ec5c0b0599d54c94",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "B-024",
+        "B-025",
+        "B-026"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f8c9343ad648a03c4d22a1f8cd77d219d6c807e54e98c69e878763f664662be9",
+      "lineStart": 82,
+      "lineEnd": 89,
+      "requirementIds": [
+        "B-026",
+        "B-027"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a937f027655a7ea798dd8820d2c926e326349f35148004836917adc772bd8143",
+      "lineStart": 90,
+      "lineEnd": 95,
+      "requirementIds": [
+        "B-028"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "16041a119a709c64c862acca07b3e6670cd6afb6edc545e531c939926fc45a43",
+      "lineStart": 96,
+      "lineEnd": 101,
+      "requirementIds": [
+        "B-028",
+        "bayesian-and-adaptive-designs-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "6d9c48de52a59df319286695cacc7455fa72c204741d3ac3fa7c247da69f17b9",
+      "lineStart": 102,
+      "lineEnd": 105,
+      "requirementIds": [
+        "bayesian-and-adaptive-designs-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "6883cd8250553dee3081cd68e66771503216ad6c675e6bba6ae8fb61cc97be3c",
+      "lineStart": 114,
+      "lineEnd": 125,
+      "requirementIds": [
+        "bayesian-and-adaptive-designs-R",
+        "bayesian-and-adaptive-designs-D",
+        "bayesian-and-adaptive-designs-S"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "476d6f95d3a0735129ad7a5b50647b97463e23255d0f2e2134cb30b668857f0d",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "N-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2c19051466c00a1395fdd7f9c34b703bdfe2f0dfca0c7bd972aad0858476626b",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "N-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "2a106746f0b4d8ad16ffc405e1cfb7b202e3239ac13f5acbb8e40d4afab9d21d",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "N-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "e9095fcc8d86df9884b59c3a6f7424f3376f610bf727b22201aa2bcb1e3b1164",
+      "lineStart": 34,
+      "lineEnd": 53,
+      "requirementIds": [
+        "N-003",
+        "N-004",
+        "N-005",
+        "N-006",
+        "N-007",
+        "N-008",
+        "N-009",
+        "N-010",
+        "N-011",
+        "N-012",
+        "N-013",
+        "N-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "b7ce281b8302e0c4d296dcf3ec50797967ec6a7c59f8ac5fe441478d5b94e312",
+      "lineStart": 54,
+      "lineEnd": 63,
+      "requirementIds": [
+        "N-015",
+        "N-016",
+        "N-017",
+        "N-018",
+        "N-019"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "4d059bd13f2d21ea4e0ff1794d60c63f27ef96b3c8750835efdd41a7aa3d882c",
+      "lineStart": 64,
+      "lineEnd": 69,
+      "requirementIds": [
+        "N-020",
+        "N-021"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "950305a74f8ff398e4f253312b703ed85a2d8a05882b6a181ae414eb6c70abec",
+      "lineStart": 70,
+      "lineEnd": 77,
+      "requirementIds": [
+        "N-022",
+        "N-023",
+        "N-024",
+        "N-025"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "17f8b860aab8c885b055d0f5429130606f8bf11e7c814e56e4e2afb552bf1e43",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "N-026"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "fded9488103316f060007373a4883980295e3f422f297289d120a14456a19a4b",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "N-026",
+        "non-inferiority-trials-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "78eab93e57d51d88cf98fd91913fe8260500f8dd7c35811744ae206e7134893e",
+      "lineStart": 90,
+      "lineEnd": 93,
+      "requirementIds": [
+        "non-inferiority-trials-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "a88da0bbba34024d3dac7d28314159b4d59770c62edfb28dfd878c68e5ad2d08",
+      "lineStart": 102,
+      "lineEnd": 113,
+      "requirementIds": [
+        "non-inferiority-trials-R",
+        "non-inferiority-trials-D",
+        "non-inferiority-trials-S"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "96d5af51761c27fd45e465658fe703862fa03af0d62b3a6b87cf747ddf18a9c8",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "4bf596755854b242fb10955a7e32af11219dcc931af231a026657c1aebc31440",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "2b86542857b2d6b114a11ccefbb86d63ad157a36d49325042f2e96fa833bbf97",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "P-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "c9c069d74f14f26a5d8f6a990b33086cfa60273f36c7d3a672d5cea2a1901860",
+      "lineStart": 32,
+      "lineEnd": 53,
+      "requirementIds": [
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007",
+        "P-008",
+        "P-009",
+        "P-010",
+        "P-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "ae04e9c01543aed4dfdbf09692dc43438c2a69219e2b03c282abf7c2d43a1d0b",
+      "lineStart": 54,
+      "lineEnd": 58,
+      "requirementIds": [
+        "P-012",
+        "P-013",
+        "P-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "c5cedf03517a478a3ba3655ee80bca95dffe2fd29dc985a4b856ed1a3f0c3bcc",
+      "lineStart": 59,
+      "lineEnd": 65,
+      "requirementIds": [
+        "P-015",
+        "P-016",
+        "P-017",
+        "P-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "d37d73821419284478a67c1b5b5cc6a8aa85402b736b347c52c5a084da319b2c",
+      "lineStart": 66,
+      "lineEnd": 73,
+      "requirementIds": [
+        "P-019",
+        "P-020",
+        "P-021",
+        "P-022"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "d75a47af09b75e6cfe744308aa2fbfa217e2e463f83b03e07882835dceff8a3c",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "P-023"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "b687a7e1e1519815c0e25ef4d4e6083775a9f51190c919f152ab6ed642c313f5",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "P-024",
+        "statistical-power-and-sample-size-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "ca73e14e40e29b8861f64d83705775fce543648a2719d5eb584169525cf8f9c3",
+      "lineStart": 86,
+      "lineEnd": 89,
+      "requirementIds": [
+        "P-024",
+        "statistical-power-and-sample-size-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "4819739963a37cff972b70fe245429859b516721625468847ba2e7f5a6288230",
+      "lineStart": 98,
+      "lineEnd": 111,
+      "requirementIds": [
+        "statistical-power-and-sample-size-R",
+        "statistical-power-and-sample-size-D",
+        "statistical-power-and-sample-size-S"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully. The exact path and basename are absent at the original pin; no original counterpart is inferred."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T15:35:08.277856+00:00",
+    "baseHead": "fdd4e328e4859ba49dadb2335dc253eb23cffa78",
+    "inventorySha256": "b7ce1570db3e6b19c12f4064f2705b0b77e7f1cd093a93394805d1e7b95e3252",
+    "rows": 136,
+    "substantive": 121,
+    "originalVersions": 0,
+    "originalSubstantive": 0,
+    "laterVersions": 5,
+    "laterSubstantive": 121,
+    "nonCredit": 15,
+    "sourceVersions": 5,
+    "sourceSectionSignatures": 58,
+    "order": "All five later sources read in full before any fresh canonical-owner field inspection. Source errors and qualifiers remain assessable obligations, not adopted facts."
+  },
+  "scope": "All five later bodies read in full; original absence is verified, not a claimed read of nonexistent counterparts."
+}

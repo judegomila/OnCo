@@ -1,0 +1,948 @@
+{
+  "bodyPaths": 40,
+  "versionEntries": 80,
+  "pathBytesReadOnceAcrossIdenticalPairs": 80544,
+  "wholeBodyReads": 40,
+  "sectionSignaturesClaimedForBodies": 0,
+  "receipts": [
+    {
+      "batch": "r26",
+      "index": 0,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1755,
+      "gitBlob": "30256ddd454bd7efde0080a181cca28034523768",
+      "sourceSha256": "a64efaff2bf74c1b91263f60c5f67642c4858628e5662104e30306f1d96a39ea"
+    },
+    {
+      "batch": "r26",
+      "index": 0,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1755,
+      "gitBlob": "30256ddd454bd7efde0080a181cca28034523768",
+      "sourceSha256": "a64efaff2bf74c1b91263f60c5f67642c4858628e5662104e30306f1d96a39ea"
+    },
+    {
+      "batch": "r26",
+      "index": 1,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-light-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4363,
+      "gitBlob": "910b371864618042f4211e3eedb5216fdc63c041",
+      "sourceSha256": "4c5ce092cf5c8b4ee482f2992d1c92269581efd95c807c21cabf6311ca9d18cb"
+    },
+    {
+      "batch": "r26",
+      "index": 1,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-light-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4363,
+      "gitBlob": "910b371864618042f4211e3eedb5216fdc63c041",
+      "sourceSha256": "4c5ce092cf5c8b4ee482f2992d1c92269581efd95c807c21cabf6311ca9d18cb"
+    },
+    {
+      "batch": "r26",
+      "index": 2,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4673,
+      "gitBlob": "0176350710170e9f5665c52e2abb638289daa871",
+      "sourceSha256": "587d2845fe5e9ba24deea3b16b227c05c8ecf392cbd9eb9510ebf92828c5f7c5"
+    },
+    {
+      "batch": "r26",
+      "index": 2,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4673,
+      "gitBlob": "0176350710170e9f5665c52e2abb638289daa871",
+      "sourceSha256": "587d2845fe5e9ba24deea3b16b227c05c8ecf392cbd9eb9510ebf92828c5f7c5"
+    },
+    {
+      "batch": "r26",
+      "index": 3,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1701,
+      "gitBlob": "1474472ffef7546b66b8f92fa525536fc2d66321",
+      "sourceSha256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87"
+    },
+    {
+      "batch": "r26",
+      "index": 3,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1701,
+      "gitBlob": "1474472ffef7546b66b8f92fa525536fc2d66321",
+      "sourceSha256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87"
+    },
+    {
+      "batch": "r26",
+      "index": 4,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1862,
+      "gitBlob": "6e81aeffb3cf4ef8168e5050fae99638677bc6b5",
+      "sourceSha256": "9d508444381b1c398b33c01b3b3df5da53e5f3a3c97fbae617817e3779d0c6c6"
+    },
+    {
+      "batch": "r26",
+      "index": 4,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1862,
+      "gitBlob": "6e81aeffb3cf4ef8168e5050fae99638677bc6b5",
+      "sourceSha256": "9d508444381b1c398b33c01b3b3df5da53e5f3a3c97fbae617817e3779d0c6c6"
+    },
+    {
+      "batch": "r26",
+      "index": 5,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1589,
+      "gitBlob": "4198e56a5dcc9da7b60f3ee1b3a04df218692eee",
+      "sourceSha256": "4bb10f5cd8d581e36b61cdb882b1c17b792fc3eb2b47206a13a4638279b3f03b"
+    },
+    {
+      "batch": "r26",
+      "index": 5,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1589,
+      "gitBlob": "4198e56a5dcc9da7b60f3ee1b3a04df218692eee",
+      "sourceSha256": "4bb10f5cd8d581e36b61cdb882b1c17b792fc3eb2b47206a13a4638279b3f03b"
+    },
+    {
+      "batch": "r26",
+      "index": 6,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8621,
+      "gitBlob": "ea708c2c07f33bbada2bbbb88e806a4596f1b08e",
+      "sourceSha256": "18406c1f2026e80c675592b5c403b01a66eaae7e5be451dde083010c4da403f9"
+    },
+    {
+      "batch": "r26",
+      "index": 6,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8621,
+      "gitBlob": "ea708c2c07f33bbada2bbbb88e806a4596f1b08e",
+      "sourceSha256": "18406c1f2026e80c675592b5c403b01a66eaae7e5be451dde083010c4da403f9"
+    },
+    {
+      "batch": "r26",
+      "index": 7,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 5222,
+      "gitBlob": "a0c12d4d9c8f930ce451e1924b8201b0ceb0f5f8",
+      "sourceSha256": "4905fdf0fc444ca7c2e1665f911c13fca9ec2d4735edafe89af6a8e26b0cfec5"
+    },
+    {
+      "batch": "r26",
+      "index": 7,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 5222,
+      "gitBlob": "a0c12d4d9c8f930ce451e1924b8201b0ceb0f5f8",
+      "sourceSha256": "4905fdf0fc444ca7c2e1665f911c13fca9ec2d4735edafe89af6a8e26b0cfec5"
+    },
+    {
+      "batch": "r26",
+      "index": 8,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1377,
+      "gitBlob": "6ce4acf196eb6e048ba444522ee0a78386137975",
+      "sourceSha256": "21d061bec5e753cf5d1bbf022b585efc69bd591405b7f33040245e78a2c2f246"
+    },
+    {
+      "batch": "r26",
+      "index": 8,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1377,
+      "gitBlob": "6ce4acf196eb6e048ba444522ee0a78386137975",
+      "sourceSha256": "21d061bec5e753cf5d1bbf022b585efc69bd591405b7f33040245e78a2c2f246"
+    },
+    {
+      "batch": "r26",
+      "index": 9,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1264,
+      "gitBlob": "f9cb7e573c1b9c1e66d21dfbdfd466f5eac147f3",
+      "sourceSha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3"
+    },
+    {
+      "batch": "r26",
+      "index": 9,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1264,
+      "gitBlob": "f9cb7e573c1b9c1e66d21dfbdfd466f5eac147f3",
+      "sourceSha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3"
+    },
+    {
+      "batch": "r26",
+      "index": 10,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 5170,
+      "gitBlob": "f333f5346a515fd80ea3eb32d7e56ce2d55e18d1",
+      "sourceSha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a"
+    },
+    {
+      "batch": "r26",
+      "index": 10,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 5170,
+      "gitBlob": "f333f5346a515fd80ea3eb32d7e56ce2d55e18d1",
+      "sourceSha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a"
+    },
+    {
+      "batch": "r26",
+      "index": 11,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 3491,
+      "gitBlob": "23c0607409573010c38ac5d23e5caaf2ec58c5b5",
+      "sourceSha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5"
+    },
+    {
+      "batch": "r26",
+      "index": 11,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 3491,
+      "gitBlob": "23c0607409573010c38ac5d23e5caaf2ec58c5b5",
+      "sourceSha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5"
+    },
+    {
+      "batch": "r26",
+      "index": 12,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1374,
+      "gitBlob": "c2665f46a5d77125a7e1995e1b2fea0ca6251718",
+      "sourceSha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9"
+    },
+    {
+      "batch": "r26",
+      "index": 12,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1374,
+      "gitBlob": "c2665f46a5d77125a7e1995e1b2fea0ca6251718",
+      "sourceSha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9"
+    },
+    {
+      "batch": "r26",
+      "index": 13,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4983,
+      "gitBlob": "006a88c28d94f1eff830a09e59e293e6f4a0e2a1",
+      "sourceSha256": "47ae3c103ec6b01a0c68ae3e540b810d9c4360deba080f36afe4a2551af311e0"
+    },
+    {
+      "batch": "r26",
+      "index": 13,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4983,
+      "gitBlob": "006a88c28d94f1eff830a09e59e293e6f4a0e2a1",
+      "sourceSha256": "47ae3c103ec6b01a0c68ae3e540b810d9c4360deba080f36afe4a2551af311e0"
+    },
+    {
+      "batch": "r26",
+      "index": 14,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1609,
+      "gitBlob": "ab0ccde6509a3ec222b9bf001e67ce07bd49f750",
+      "sourceSha256": "de6773137ea92eb4a94c74f435af1daa2952d1ba8f729849cd44888536917cb7"
+    },
+    {
+      "batch": "r26",
+      "index": 14,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1609,
+      "gitBlob": "ab0ccde6509a3ec222b9bf001e67ce07bd49f750",
+      "sourceSha256": "de6773137ea92eb4a94c74f435af1daa2952d1ba8f729849cd44888536917cb7"
+    },
+    {
+      "batch": "r26",
+      "index": 15,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1730,
+      "gitBlob": "72766b0b57c9788012d8e062262387c27c6c232c",
+      "sourceSha256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721"
+    },
+    {
+      "batch": "r26",
+      "index": 15,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1730,
+      "gitBlob": "72766b0b57c9788012d8e062262387c27c6c232c",
+      "sourceSha256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721"
+    },
+    {
+      "batch": "r26",
+      "index": 16,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1459,
+      "gitBlob": "dbc93008d53468300b74ff1df00fbbd86f1cdc9f",
+      "sourceSha256": "2532e189a8a67e5e014dffdd2bf43ad503118c875e9d682c9dfbf0f1a2602ff8"
+    },
+    {
+      "batch": "r26",
+      "index": 16,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1459,
+      "gitBlob": "dbc93008d53468300b74ff1df00fbbd86f1cdc9f",
+      "sourceSha256": "2532e189a8a67e5e014dffdd2bf43ad503118c875e9d682c9dfbf0f1a2602ff8"
+    },
+    {
+      "batch": "r26",
+      "index": 17,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 11710,
+      "gitBlob": "93e1554011dba36b26fc3d27737f0a7b8f50134f",
+      "sourceSha256": "9e0ce415cfd91dcf571bf2f1b6be2684616ea1392f3ca2f041b5def5b7198119"
+    },
+    {
+      "batch": "r26",
+      "index": 17,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 11710,
+      "gitBlob": "93e1554011dba36b26fc3d27737f0a7b8f50134f",
+      "sourceSha256": "9e0ce415cfd91dcf571bf2f1b6be2684616ea1392f3ca2f041b5def5b7198119"
+    },
+    {
+      "batch": "r26",
+      "index": 18,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1437,
+      "gitBlob": "73b219b962cb8f72275fd83c4ad7f80d5299d307",
+      "sourceSha256": "eb6cf7a71a9bbd894c4d9878651fd34c0132d061fd42054260898d2ce5ed9b61"
+    },
+    {
+      "batch": "r26",
+      "index": 18,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1437,
+      "gitBlob": "73b219b962cb8f72275fd83c4ad7f80d5299d307",
+      "sourceSha256": "eb6cf7a71a9bbd894c4d9878651fd34c0132d061fd42054260898d2ce5ed9b61"
+    },
+    {
+      "batch": "r26",
+      "index": 19,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1982,
+      "gitBlob": "07c1e5ba646743967f05a8653aab7c8061b0b983",
+      "sourceSha256": "213f12735e0c8bcb37f44b1bc07c47175da4adda86551d99d98fb3df82032858"
+    },
+    {
+      "batch": "r26",
+      "index": 19,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1982,
+      "gitBlob": "07c1e5ba646743967f05a8653aab7c8061b0b983",
+      "sourceSha256": "213f12735e0c8bcb37f44b1bc07c47175da4adda86551d99d98fb3df82032858"
+    },
+    {
+      "batch": "r27",
+      "index": 0,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/binding-is-only-one-step-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 652,
+      "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+      "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+    },
+    {
+      "batch": "r27",
+      "index": 0,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/binding-is-only-one-step-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 652,
+      "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+      "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+    },
+    {
+      "batch": "r27",
+      "index": 1,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 732,
+      "gitBlob": "541053954dadf697b7365abcc8083e776b2860b7",
+      "sourceSha256": "a91797928629991646ecc0b31931ea33108b107b3707caf62ad86e9291c605f8"
+    },
+    {
+      "batch": "r27",
+      "index": 1,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 732,
+      "gitBlob": "541053954dadf697b7365abcc8083e776b2860b7",
+      "sourceSha256": "a91797928629991646ecc0b31931ea33108b107b3707caf62ad86e9291c605f8"
+    },
+    {
+      "batch": "r27",
+      "index": 2,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 764,
+      "gitBlob": "1e02471529184bf4fed60428b4f5fe872cae120e",
+      "sourceSha256": "a7ad2914bc9c903c24d2e9c7e3689db1fe2e230a9d178334d639bcf2bfb46234"
+    },
+    {
+      "batch": "r27",
+      "index": 2,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 764,
+      "gitBlob": "1e02471529184bf4fed60428b4f5fe872cae120e",
+      "sourceSha256": "a7ad2914bc9c903c24d2e9c7e3689db1fe2e230a9d178334d639bcf2bfb46234"
+    },
+    {
+      "batch": "r27",
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 716,
+      "gitBlob": "f67084c56fdaf90bb5e204e17fa0e5880d278e72",
+      "sourceSha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364"
+    },
+    {
+      "batch": "r27",
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 716,
+      "gitBlob": "f67084c56fdaf90bb5e204e17fa0e5880d278e72",
+      "sourceSha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364"
+    },
+    {
+      "batch": "r27",
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 600,
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+    },
+    {
+      "batch": "r27",
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 600,
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+    },
+    {
+      "batch": "r27",
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 746,
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+    },
+    {
+      "batch": "r27",
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 746,
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+    },
+    {
+      "batch": "r27",
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 540,
+      "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+      "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+    },
+    {
+      "batch": "r27",
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 540,
+      "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+      "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+    },
+    {
+      "batch": "r27",
+      "index": 7,
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 645,
+      "gitBlob": "f84ebd304f984514066e2e5df1e366d88f06c65c",
+      "sourceSha256": "dd9f0e8bf52cc86f50f4fea4d052f80c8f5c151a1c7ba7ef87deb1d2753bea42"
+    },
+    {
+      "batch": "r27",
+      "index": 7,
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 645,
+      "gitBlob": "f84ebd304f984514066e2e5df1e366d88f06c65c",
+      "sourceSha256": "dd9f0e8bf52cc86f50f4fea4d052f80c8f5c151a1c7ba7ef87deb1d2753bea42"
+    },
+    {
+      "batch": "r27",
+      "index": 8,
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 835,
+      "gitBlob": "d8aa018fdf7080f63b3e3a2bdff657dde8979f5a",
+      "sourceSha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c"
+    },
+    {
+      "batch": "r27",
+      "index": 8,
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 835,
+      "gitBlob": "d8aa018fdf7080f63b3e3a2bdff657dde8979f5a",
+      "sourceSha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c"
+    },
+    {
+      "batch": "r27",
+      "index": 9,
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 631,
+      "gitBlob": "96c14bff7c910b6b170b82cb3f7b3ddbc53b1096",
+      "sourceSha256": "4aac97afca3ea4c6b86366adc8eeeca46331bf96163d266c1ea0b7ce6a406519"
+    },
+    {
+      "batch": "r27",
+      "index": 9,
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 631,
+      "gitBlob": "96c14bff7c910b6b170b82cb3f7b3ddbc53b1096",
+      "sourceSha256": "4aac97afca3ea4c6b86366adc8eeeca46331bf96163d266c1ea0b7ce6a406519"
+    },
+    {
+      "batch": "r27",
+      "index": 10,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 506,
+      "gitBlob": "7c40535218fb69cd49315d87daeec5ae5f23e343",
+      "sourceSha256": "8c25f260c562b54137c2058db55ae4bc52420ca4e94bdb65a86b71206892ce71"
+    },
+    {
+      "batch": "r27",
+      "index": 10,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 506,
+      "gitBlob": "7c40535218fb69cd49315d87daeec5ae5f23e343",
+      "sourceSha256": "8c25f260c562b54137c2058db55ae4bc52420ca4e94bdb65a86b71206892ce71"
+    },
+    {
+      "batch": "r27",
+      "index": 11,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 524,
+      "gitBlob": "2d9087d142c906e826e918e6a0a56e1b51c0750b",
+      "sourceSha256": "01ba713977950000e53a929134ee83afa7da4602a25c5ef9bc53ff854b3409eb"
+    },
+    {
+      "batch": "r27",
+      "index": 11,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 524,
+      "gitBlob": "2d9087d142c906e826e918e6a0a56e1b51c0750b",
+      "sourceSha256": "01ba713977950000e53a929134ee83afa7da4602a25c5ef9bc53ff854b3409eb"
+    },
+    {
+      "batch": "r27",
+      "index": 12,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 753,
+      "gitBlob": "27b5a277e54a1d602883ffc6a7695a1fe9c9b2f7",
+      "sourceSha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d"
+    },
+    {
+      "batch": "r27",
+      "index": 12,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 753,
+      "gitBlob": "27b5a277e54a1d602883ffc6a7695a1fe9c9b2f7",
+      "sourceSha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d"
+    },
+    {
+      "batch": "r27",
+      "index": 13,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 615,
+      "gitBlob": "833fb68fb7e8e7bef53fd067dddcbbee22d259f9",
+      "sourceSha256": "4b7964e21a2714485cbfda9d47beb151f5e9611b4c339fd6447d1960a267edbc"
+    },
+    {
+      "batch": "r27",
+      "index": 13,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 615,
+      "gitBlob": "833fb68fb7e8e7bef53fd067dddcbbee22d259f9",
+      "sourceSha256": "4b7964e21a2714485cbfda9d47beb151f5e9611b4c339fd6447d1960a267edbc"
+    },
+    {
+      "batch": "r27",
+      "index": 14,
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 625,
+      "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+      "sourceSha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d"
+    },
+    {
+      "batch": "r27",
+      "index": 14,
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 625,
+      "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+      "sourceSha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d"
+    },
+    {
+      "batch": "r27",
+      "index": 15,
+      "path": "wiki/education/guides/from-variant-to-drug/images/prompts/functional-experiment-evidence-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 618,
+      "gitBlob": "8ba909a172546e9a27c001f82175903464af6389",
+      "sourceSha256": "be9246d1203cf8b357dc4396b2a526b9d2e19f7b7d1142c58f34c6a6018f02dc"
+    },
+    {
+      "batch": "r27",
+      "index": 15,
+      "path": "wiki/education/guides/from-variant-to-drug/images/prompts/functional-experiment-evidence-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 618,
+      "gitBlob": "8ba909a172546e9a27c001f82175903464af6389",
+      "sourceSha256": "be9246d1203cf8b357dc4396b2a526b9d2e19f7b7d1142c58f34c6a6018f02dc"
+    },
+    {
+      "batch": "r27",
+      "index": 16,
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 739,
+      "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+      "sourceSha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+    },
+    {
+      "batch": "r27",
+      "index": 16,
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 739,
+      "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+      "sourceSha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+    },
+    {
+      "batch": "r27",
+      "index": 17,
+      "path": "wiki/education/guides/start-here/images/prompts/report-questions-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 739,
+      "gitBlob": "7b909fa4f8b3c1b1c22fab7ec6d9c5fd37120826",
+      "sourceSha256": "b23e9360a3e5aa3f57febe874400d04ff34e88bd9fd9c757645f673d83f856a4"
+    },
+    {
+      "batch": "r27",
+      "index": 17,
+      "path": "wiki/education/guides/start-here/images/prompts/report-questions-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 739,
+      "gitBlob": "7b909fa4f8b3c1b1c22fab7ec6d9c5fd37120826",
+      "sourceSha256": "b23e9360a3e5aa3f57febe874400d04ff34e88bd9fd9c757645f673d83f856a4"
+    },
+    {
+      "batch": "r27",
+      "index": 18,
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 540,
+      "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+      "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+    },
+    {
+      "batch": "r27",
+      "index": 18,
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 540,
+      "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+      "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+    },
+    {
+      "batch": "r27",
+      "index": 19,
+      "path": "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows-v2-dark-call.txt",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 652,
+      "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+      "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+    },
+    {
+      "batch": "r27",
+      "index": 19,
+      "path": "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows-v2-dark-call.txt",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 652,
+      "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+      "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+    }
+  ],
+  "contextPagesRead": [
+    "autophagy",
+    "homologous-recombination-and-hrd",
+    "oxidative-phosphorylation"
+  ],
+  "newFullLessonCoverageCredit": 0,
+  "paragraphReadReceipts": [
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 0,
+      "passageSha256": "d5b0b52d8d80a7fc594f03ca5e67058b154c0565e07ce631caa6d6ac9c48a0dc",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "e22da4ecb921a1c15ed4f418d1001ef7ad199169e5d8d591df15e710f48a2d25",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 9,
+      "passageSha256": "df3faf887055ec08636e3e7a88b82e045e7e84c7f089eee25ab70962ddba6c12",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 10,
+      "passageSha256": "e2d260b0745be2168b1fe7a5006e2629dd9c8d3aac782f67952cbeb1dd60d8ab",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 11,
+      "passageSha256": "f286bd0432c2080e2a5c40319a0ca19d613a5fa52e019aaeff32a6566a7a8ed3",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 12,
+      "passageSha256": "3e8ac96df06f99e9fcf7d8e1cff897ca0fc5d098d00b4e619bd937c0cd0199c3",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 13,
+      "passageSha256": "777a55d8393a3621f6ce89834d7bba6b44859376111871d3ab1d292b925adc8f",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "melia2020",
+      "bodyParagraphIndex": 34,
+      "passageSha256": "b851ae4eecca2ae82644b48305b7eddbe5e07fa8923768a5faba2478448d94b0",
+      "captureSha256": "15aba0cc1a689de15c4284bd595946c79b025627999923baf2e3a3835429c2f3",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 2,
+      "passageSha256": "a99ecc5361183a969f1679dfb5071a3b2c541ce3a259b91f070e46dd35d29fde",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 7,
+      "passageSha256": "8540a90dbeef0ae3cf60362b5031339a971f129743f9891abfd60900c4f4b63b",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 15,
+      "passageSha256": "2a2074f2bc346d74c5ff842b258d6fbdab894375f3066e332ff939a75b2eaba8",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 18,
+      "passageSha256": "e2d680f2d5db5811eee9f39387de6c7d55f0226fe25e7f4e8a4cccc75e8052d8",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 19,
+      "passageSha256": "82ae01fd832e5b6cbbe8a2ce5ab89f915a136be4ee3dc34396be05da3ed05c4a",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 20,
+      "passageSha256": "a037ea00b4dd34f0951659aed9b4f07ac203e9fa1efe81dfa171859eaf490b54",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "5f3ab25f84dd935051e0b720fd2550bdd1037a7987d6291c36bde56d8c1d39a9",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 33,
+      "passageSha256": "b0e25b977d0c834f32154fe34a97c87db3afd00128dae07ae3cf4c9d105b2de9",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 36,
+      "passageSha256": "849564ffba4b0dc6afd3d6ddb8aadeae3fc4950e88b2ba3513ecc863d7eba113",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "krejci2012",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "2b5a059415d62e735a54d359b438eef8355d1b8d6d388a1e959e75f6912a1355",
+      "captureSha256": "530767a077eb8fae9249aef218ccefdbb3b91cf4b042c7e4db68fe396fcfcc76",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "krejci2012",
+      "bodyParagraphIndex": 2,
+      "passageSha256": "495f3060811b3a35e8baa0764bd55b4d3a4926c723e14ba2afad025c322a2705",
+      "captureSha256": "530767a077eb8fae9249aef218ccefdbb3b91cf4b042c7e4db68fe396fcfcc76",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "jonckheere2012",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "0dac85e7bd1ac9d531f9a202e3b97fb16e66cae627aa04c01f49fc8dbbddb4b3",
+      "captureSha256": "b49a9d82bef48dadbba0bf1f91bb8b88702dcb6a5fe44441abe29fe1c057b6dc",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "jonckheere2012",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "1e1557bbeec5e870a2780efc15b9d75bb4e3695ddfd8daa0cc4340a1f8351192",
+      "captureSha256": "b49a9d82bef48dadbba0bf1f91bb8b88702dcb6a5fe44441abe29fe1c057b6dc",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 4,
+      "passageSha256": "e4f0611be280841bfd7349bb433a3a4b3852fdcc9027bb9df9e443ca0d623b3a",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 5,
+      "passageSha256": "61b398b7099a566eb9c5c33e828ad3d91775f7e75e2b3f6181b1262a94817d6e",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "d1e2b5ef4bbfc10f6e9da5b4a120e31fb1a6a154d24583fa9a2d61d34529496e",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 8,
+      "passageSha256": "09fcd392713a52373c16c6b9fc052e18ff89fde0d3d0a57aaa438091f82866e6",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 0,
+      "passageSha256": "beaa10399eee491b4482c608e33c38f41e5a6abec4968830fbaffc4538d76622",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "ac238302ccb232be36a9ac98c2ef5b995f1ecb2656d175b5676892abb1fb3616",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 14,
+      "passageSha256": "435275116acbe236f210b4a9b734dc9a49c73d3d8d848d934805bffae7946751",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 16,
+      "passageSha256": "543688ab7f7ae017b78e6c660dc23f571d38c8d56fd3217e66c8a58706c54fa8",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 25,
+      "passageSha256": "396167132cb8761d5153171b9a1aab22433fbde7e1893a2239ccebe04d2ac72a",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    }
+  ],
+  "reusedReading": "Source packets and other figure/owner assessments remain at their recorded depth. The six PNGs below were freshly viewed by the coordinator."
+}

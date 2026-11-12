@@ -1,0 +1,42 @@
+{
+  "checkedOn": "2026-11-09",
+  "newCurriculumSourcesRead": 2,
+  "newCurriculumRequirements": 11,
+  "curriculumRequirementsClosed": 12,
+  "earlierLabDurabilityRequirementClosed": 1,
+  "adjacentFindingsClosed": 1,
+  "adjacentRequirementsClosed": 4,
+  "newRecords": 0,
+  "newExistingOwnersAddedToProposal": 9,
+  "resolvedMEDIdentities": 5,
+  "newLiteratureOccurrences": 5,
+  "allAvailableMEDAbstractsRead": 5,
+  "rawAndParsedCaptureReceipts": 25,
+  "parsedPrimaryWebCaptureCount": 1,
+  "blockedOrUnrelatedBodies": "Explicitly excluded; metadata and hashes retained. Parsed primary text is a distinct evidence source, not restoration of original HTTP bodies.",
+  "renderedOwners": 158,
+  "readerFieldParts": 53,
+  "typeOnlyHelperChange": "Per-record asOf is permitted in the existing term input helper; runtime constructor unchanged.",
+  "rawBodies": "Persistent local cache outside Git; no patient, lesson or article body republished.",
+  "validation": {
+    "status": "passed",
+    "testFloorsAndBudgetsChanged": false,
+    "build": "No combined-draft export/deployment; previously documented pinned-main GRAPH_JSON blocker retained.",
+    "entities": 22716,
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "preexistingWarnings": 7
+    },
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2821,
+      "existingSkips": 2,
+      "durationSeconds": 105.14
+    },
+    "closureExitCode": 2,
+    "staleFieldProofs": 0,
+    "sourceInputIsolation": "All 537 source hashes verified in the isolated pinned checkout after the active checkout advanced."
+  },
+  "persistentRenderedBundle": "render-checkpoints/response-endpoints-2026-11-09-r1"
+}

@@ -1,0 +1,1788 @@
+{
+  "version": "proposal-breast-summary-consumers",
+  "state": "Current selector snapshots; stale source-dependent short text falls back to current English. No new named language review.",
+  "records": [
+    {
+      "id": "ki-67-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (ar)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-ar",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (ar)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (ar)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (ar)",
+      "canonicalRecordId": "dcis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ar)",
+      "canonicalRecordId": "pcr",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-ar",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (ar)",
+      "canonicalRecordId": "rcb",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ar",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ar)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (ar)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-ar",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (ar)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-ar",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (ar)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-ar",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (ar)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-ar",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (ar)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-ar",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (ar)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-ar",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (ar)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-ar",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (ar)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (ar)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-ar",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (ar)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (ar)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "ar",
+      "available": true,
+      "text": "ما إذا كان السرطان قد وصل إلى العقد اللمفاوية المجاورة، وهي المصافي الواقعة على مسار التصريف اللمفاوي. إنه أقوى مؤشر منفرد على خروج السرطان من العضو، ويوجّه معظم القرارات المتعلقة بالعلاج الإضافي بعد الجراحة."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (ar)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-ar",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (ar)",
+      "canonicalRecordId": "resection-margins",
+      "language": "ar",
+      "available": true,
+      "text": "ما إذا كانت حافة النسيج المستأصل خالية من السرطان. R0 تعني خالية تحت المجهر، وR1 تعني وجود سرطان مجهري عند الحافة، وR2 تعني بقاء ورم ظاهر للعين. وR0 هي المقصود بعبارة 'الاستئصال الكامل'."
+    },
+    {
+      "id": "lumpectomy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (ar)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "ar",
+      "available": true,
+      "text": "استئصال الورم فقط مع حافة من أنسجة الثدي السليمة، مع الحفاظ على الثدي؛ ويتبعه العلاج الإشعاعي في الغالب."
+    },
+    {
+      "id": "mastectomy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (ar)",
+      "canonicalRecordId": "mastectomy",
+      "language": "ar",
+      "available": true,
+      "text": "استئصال الثدي بالكامل. يُجرى بسبب السرطان، أو وقائياً لدى النساء ذوات الخطر الوراثي المرتفع جداً."
+    },
+    {
+      "id": "ki-67-index-de",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (de)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-de",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (de)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (de)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-de",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (de)",
+      "canonicalRecordId": "dcis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-de",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (de)",
+      "canonicalRecordId": "pcr",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-de",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (de)",
+      "canonicalRecordId": "rcb",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-de",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (de)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-de",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (de)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-de",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (de)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-de",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (de)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-de",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (de)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-de",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (de)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-de",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (de)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-de",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (de)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-de",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (de)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (de)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-de",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (de)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-de",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (de)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "de",
+      "available": true,
+      "text": "Ob der Krebs die benachbarten Lymphknoten erreicht hat, die Filter entlang der Lymphabflusswege. Es ist der stärkste einzelne Hinweis darauf, ob der Krebs das Organ verlassen hat, und bestimmt die meisten Entscheidungen über eine Zusatzbehandlung nach der Operation."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-de",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (de)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-de",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (de)",
+      "canonicalRecordId": "resection-margins",
+      "language": "de",
+      "available": true,
+      "text": "Ob der Rand des entfernten Gewebes frei von Krebs ist. R0 bedeutet unter dem Mikroskop frei, R1 bedeutet mikroskopisch Krebs am Rand, R2 bedeutet sichtbar zurückgelassener Tumor. R0 ist das, was 'vollständige Resektion' bedeutet."
+    },
+    {
+      "id": "lumpectomy-de",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (de)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "de",
+      "available": true,
+      "text": "Es wird nur der Tumor mit einem Saum gesunden Brustgewebes entfernt und die Brust erhalten; fast immer folgt eine Strahlentherapie."
+    },
+    {
+      "id": "mastectomy-de",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (de)",
+      "canonicalRecordId": "mastectomy",
+      "language": "de",
+      "available": true,
+      "text": "Die Entfernung der gesamten Brust. Sie erfolgt wegen Krebs oder vorbeugend bei Frauen mit sehr hohem erblichem Risiko."
+    },
+    {
+      "id": "ki-67-index-es",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (es)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-es",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (es)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (es)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-es",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (es)",
+      "canonicalRecordId": "dcis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-es",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (es)",
+      "canonicalRecordId": "pcr",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-es",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (es)",
+      "canonicalRecordId": "rcb",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-es",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (es)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-es",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (es)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-es",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (es)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-es",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (es)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-es",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (es)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-es",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (es)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-es",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (es)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-es",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (es)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-es",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (es)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (es)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-es",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (es)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-es",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (es)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "es",
+      "available": true,
+      "text": "Si el cáncer ha llegado a los ganglios linfáticos cercanos, los filtros situados a lo largo del drenaje linfático. Es el predictor individual más fuerte de si el cáncer ha escapado del órgano y determina la mayoría de las decisiones sobre tratamiento adicional tras la cirugía."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-es",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (es)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-es",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (es)",
+      "canonicalRecordId": "resection-margins",
+      "language": "es",
+      "available": true,
+      "text": "Si el borde del tejido extirpado está libre de cáncer. R0 significa limpio al microscopio, R1 significa cáncer microscópico en el borde, R2 significa que quedó tumor visible. R0 es lo que significa 'resección completa'."
+    },
+    {
+      "id": "lumpectomy-es",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (es)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "es",
+      "available": true,
+      "text": "Extirpar solo el tumor con un margen de tejido mamario normal, conservando la mama; casi siempre seguido de radioterapia."
+    },
+    {
+      "id": "mastectomy-es",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (es)",
+      "canonicalRecordId": "mastectomy",
+      "language": "es",
+      "available": true,
+      "text": "Extirpar toda la mama. Se hace por cáncer o de forma preventiva en mujeres con un riesgo hereditario muy alto."
+    },
+    {
+      "id": "ki-67-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (fr)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-fr",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (fr)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (fr)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (fr)",
+      "canonicalRecordId": "dcis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (fr)",
+      "canonicalRecordId": "pcr",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-fr",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (fr)",
+      "canonicalRecordId": "rcb",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-fr",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (fr)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (fr)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-fr",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (fr)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-fr",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (fr)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-fr",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (fr)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-fr",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (fr)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-fr",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (fr)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-fr",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (fr)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-fr",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (fr)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (fr)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-fr",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (fr)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (fr)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "fr",
+      "available": true,
+      "text": "Indique si le cancer a atteint les ganglions lymphatiques voisins, les filtres situés le long du drainage lymphatique. C'est le facteur prédictif le plus puissant pour savoir si le cancer a quitté l'organe, et il oriente la plupart des décisions de traitement complémentaire après la chirurgie."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (fr)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-fr",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (fr)",
+      "canonicalRecordId": "resection-margins",
+      "language": "fr",
+      "available": true,
+      "text": "Indique si le bord du tissu retiré est exempt de cancer. R0 signifie sain au microscope, R1 signifie cancer microscopique au bord, R2 signifie tumeur visible laissée en place. R0 est ce que veut dire 'résection complète'."
+    },
+    {
+      "id": "lumpectomy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (fr)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "fr",
+      "available": true,
+      "text": "Retirer uniquement la tumeur avec une marge de tissu mammaire sain, en conservant le sein ; presque toujours suivie d'une radiothérapie."
+    },
+    {
+      "id": "mastectomy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (fr)",
+      "canonicalRecordId": "mastectomy",
+      "language": "fr",
+      "available": true,
+      "text": "Retirer la totalité du sein. Pratiquée en cas de cancer, ou à titre préventif chez les femmes présentant un risque héréditaire très élevé."
+    },
+    {
+      "id": "ki-67-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (hi)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-hi",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (hi)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (hi)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (hi)",
+      "canonicalRecordId": "dcis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (hi)",
+      "canonicalRecordId": "pcr",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-hi",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (hi)",
+      "canonicalRecordId": "rcb",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-hi",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (hi)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (hi)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-hi",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (hi)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-hi",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (hi)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-hi",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (hi)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-hi",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (hi)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-hi",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (hi)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-hi",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (hi)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-hi",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (hi)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (hi)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-hi",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (hi)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (hi)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "hi",
+      "available": true,
+      "text": "क्या कैंसर पास के लिम्फ नोड्स तक पहुंच गया है, जो लसीका जल निकासी के मार्ग में फिल्टर हैं। यह इस बात का सबसे मजबूत एकल पूर्वानुमान है कि कैंसर अंग से बाहर निकल गया है या नहीं, और सर्जरी के बाद अतिरिक्त उपचार के अधिकांश निर्णय इसी पर आधारित होते हैं।"
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (hi)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-hi",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (hi)",
+      "canonicalRecordId": "resection-margins",
+      "language": "hi",
+      "available": true,
+      "text": "निकाले गए ऊतक का किनारा कैंसर से मुक्त है या नहीं। R0 का अर्थ है सूक्ष्मदर्शी में साफ़, R1 का अर्थ है किनारे पर सूक्ष्म कैंसर, R2 का अर्थ है दिखने वाला ट्यूमर पीछे छूट गया। 'पूर्ण उच्छेदन' का मतलब R0 ही है।"
+    },
+    {
+      "id": "lumpectomy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (hi)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "hi",
+      "available": true,
+      "text": "केवल ट्यूमर को सामान्य स्तन ऊतक के एक किनारे के साथ निकालना, स्तन को बचाए रखते हुए; इसके बाद लगभग हमेशा रेडियोथेरेपी की जाती है।"
+    },
+    {
+      "id": "mastectomy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (hi)",
+      "canonicalRecordId": "mastectomy",
+      "language": "hi",
+      "available": true,
+      "text": "पूरे स्तन को निकालना। यह कैंसर के लिए, या बहुत अधिक वंशानुगत जोखिम वाली महिलाओं में निवारक रूप से किया जाता है।"
+    },
+    {
+      "id": "ki-67-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (ja)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-ja",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (ja)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (ja)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (ja)",
+      "canonicalRecordId": "dcis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ja)",
+      "canonicalRecordId": "pcr",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-ja",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (ja)",
+      "canonicalRecordId": "rcb",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ja",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ja)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (ja)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-ja",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (ja)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-ja",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (ja)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-ja",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (ja)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-ja",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (ja)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-ja",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (ja)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-ja",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (ja)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-ja",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (ja)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (ja)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-ja",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (ja)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (ja)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "ja",
+      "available": true,
+      "text": "がんが近くのリンパ節、すなわちリンパの流れに沿ったフィルターに達しているかどうか。がんが臓器の外へ出たかを示す単一で最も強力な予測因子であり、手術後の追加治療に関する決定の大半を左右する。"
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (ja)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-ja",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (ja)",
+      "canonicalRecordId": "resection-margins",
+      "language": "ja",
+      "available": true,
+      "text": "切除した組織の端にがんが残っていないかどうかを示す。R0は顕微鏡で見てもがんがないこと、R1は端に顕微鏡レベルのがんがあること、R2は目に見える腫瘍が残っていることを意味する。「完全切除」とはR0のことである。"
+    },
+    {
+      "id": "lumpectomy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (ja)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "ja",
+      "available": true,
+      "text": "腫瘍とその周囲の正常な乳腺組織だけを切除し、乳房を残す手術。ほぼ常に放射線治療が続く。"
+    },
+    {
+      "id": "mastectomy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (ja)",
+      "canonicalRecordId": "mastectomy",
+      "language": "ja",
+      "available": true,
+      "text": "乳房全体を切除する手術。がんの治療として、または遺伝的リスクが非常に高い女性では予防的に行われる。"
+    },
+    {
+      "id": "ki-67-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (pt)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-pt",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (pt)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (pt)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (pt)",
+      "canonicalRecordId": "dcis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (pt)",
+      "canonicalRecordId": "pcr",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-pt",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (pt)",
+      "canonicalRecordId": "rcb",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-pt",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (pt)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (pt)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-pt",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (pt)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-pt",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (pt)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-pt",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (pt)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-pt",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (pt)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-pt",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (pt)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-pt",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (pt)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-pt",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (pt)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (pt)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-pt",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (pt)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (pt)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "pt",
+      "available": true,
+      "text": "Se o câncer alcançou os linfonodos próximos, os filtros ao longo da drenagem linfática. É o preditor isolado mais forte de que o câncer escapou do órgão, e orienta a maioria das decisões sobre tratamento adicional após a cirurgia."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (pt)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-pt",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (pt)",
+      "canonicalRecordId": "resection-margins",
+      "language": "pt",
+      "available": true,
+      "text": "Se a borda do tecido removido está livre de câncer. R0 significa livre ao microscópio, R1 significa câncer microscópico na borda, R2 significa tumor visível deixado para trás. R0 é o que 'ressecção completa' significa."
+    },
+    {
+      "id": "lumpectomy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (pt)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "pt",
+      "available": true,
+      "text": "Remover apenas o tumor com uma margem de tecido mamário normal, preservando a mama; quase sempre seguida de radioterapia."
+    },
+    {
+      "id": "mastectomy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (pt)",
+      "canonicalRecordId": "mastectomy",
+      "language": "pt",
+      "available": true,
+      "text": "Remover toda a mama. Feita por causa de câncer, ou preventivamente em mulheres com risco hereditário muito alto."
+    },
+    {
+      "id": "ki-67-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (zh)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-zh",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (zh)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (zh)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (zh)",
+      "canonicalRecordId": "dcis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (zh)",
+      "canonicalRecordId": "pcr",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-zh",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (zh)",
+      "canonicalRecordId": "rcb",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-zh",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (zh)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (zh)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-zh",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (zh)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-zh",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (zh)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-zh",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (zh)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-zh",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (zh)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-zh",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (zh)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-zh",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (zh)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-zh",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (zh)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (zh)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-zh",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (zh)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (zh)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "zh",
+      "available": true,
+      "text": "癌症是否已经到达附近的淋巴结，即淋巴引流通路上的过滤站。这是判断癌症是否已逸出原发器官的单一最强预测指标，也决定了术后大多数关于追加治疗的决策。"
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (zh)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-zh",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (zh)",
+      "canonicalRecordId": "resection-margins",
+      "language": "zh",
+      "available": true,
+      "text": "指切除组织的边缘是否没有癌细胞。R0表示显微镜下切缘干净，R1表示切缘有显微镜下可见的癌，R2表示留下了肉眼可见的肿瘤。所谓“完全切除”指的就是R0。"
+    },
+    {
+      "id": "lumpectomy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (zh)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "zh",
+      "available": true,
+      "text": "仅切除肿瘤及其周围一圈正常乳腺组织，保留乳房；之后几乎总是接受放疗。"
+    },
+    {
+      "id": "mastectomy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (zh)",
+      "canonicalRecordId": "mastectomy",
+      "language": "zh",
+      "available": true,
+      "text": "切除整个乳房。用于治疗癌症，或在遗传风险极高的女性中作为预防措施进行。"
+    },
+    {
+      "id": "ki-67-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ki-67 index (proliferation by IHC) (simple)",
+      "canonicalRecordId": "ki-67-index",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extranodal-extension-simple",
+      "kind": "reader-summary-entry",
+      "name": "Extranodal extension (ENE) (simple)",
+      "canonicalRecordId": "extranodal-extension",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Sentinel node biopsy (simple)",
+      "canonicalRecordId": "sentinel-lymph-node-biopsy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dcis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ductal carcinoma in situ (DCIS) (simple)",
+      "canonicalRecordId": "dcis",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pcr-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (simple)",
+      "canonicalRecordId": "pcr",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rcb-simple",
+      "kind": "reader-summary-entry",
+      "name": "Residual cancer burden (RCB) (simple)",
+      "canonicalRecordId": "rcb",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-simple",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (simple)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "terminal-duct-lobular-unit-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ducts, lobules and the terminal duct lobular unit (simple)",
+      "canonicalRecordId": "terminal-duct-lobular-unit",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nottingham-grade-simple",
+      "kind": "reader-summary-entry",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3) (simple)",
+      "canonicalRecordId": "nottingham-grade",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-axillary-dissection-simple",
+      "kind": "reader-summary-entry",
+      "name": "Targeted axillary dissection (simple)",
+      "canonicalRecordId": "targeted-axillary-dissection",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast-simple",
+      "kind": "reader-summary-entry",
+      "name": "AJCC 8th edition prognostic stage for breast cancer (simple)",
+      "canonicalRecordId": "ajcc-prognostic-stage-breast",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "internal-mammary-nodes-simple",
+      "kind": "reader-summary-entry",
+      "name": "Internal mammary nodes (simple)",
+      "canonicalRecordId": "internal-mammary-nodes",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla-simple",
+      "kind": "reader-summary-entry",
+      "name": "Breast lymphatic drainage and the axilla (simple)",
+      "canonicalRecordId": "lymphatic-drainage-and-axilla",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-simple",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (simple)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "treatment-effect-in-pathology-simple",
+      "kind": "reader-summary-entry",
+      "name": "Treatment effect in breast pathology (simple)",
+      "canonicalRecordId": "treatment-effect-in-pathology",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-bed-cellularity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed cellularity (simple)",
+      "canonicalRecordId": "tumor-bed-cellularity",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type-simple",
+      "kind": "reader-summary-entry",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma) (simple)",
+      "canonicalRecordId": "invasive-breast-carcinoma-no-special-type",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymph-node-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node status (node-positive / node-negative) (simple)",
+      "canonicalRecordId": "lymph-node-status",
+      "language": "simple",
+      "available": true,
+      "text": "Lymph node status is whether the cancer has reached nearby lymph nodes, the strongest predictor of whether it has escaped the organ and a driver of treatment after surgery."
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Breast conservation or mastectomy (simple)",
+      "canonicalRecordId": "breast-conserving-surgery-versus-mastectomy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "resection-margins-simple",
+      "kind": "reader-summary-entry",
+      "name": "Resection margins (R0 / R1 / R2) (simple)",
+      "canonicalRecordId": "resection-margins",
+      "language": "simple",
+      "available": true,
+      "text": "Resection margins tell whether the edge of the removed tissue is free of cancer, with R0 meaning clear under the microscope and R2 meaning visible tumour left."
+    },
+    {
+      "id": "lumpectomy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lumpectomy (breast-conserving surgery) (simple)",
+      "canonicalRecordId": "lumpectomy",
+      "language": "simple",
+      "available": true,
+      "text": "A lumpectomy removes only the tumour with a rim of normal breast and keeps the breast, almost always followed by radiotherapy."
+    },
+    {
+      "id": "mastectomy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Mastectomy (simple)",
+      "canonicalRecordId": "mastectomy",
+      "language": "simple",
+      "available": true,
+      "text": "A mastectomy removes the whole breast, done to treat cancer or to prevent it in women with a very high inherited risk."
+    }
+  ]
+}

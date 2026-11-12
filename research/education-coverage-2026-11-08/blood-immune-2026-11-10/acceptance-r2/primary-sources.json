@@ -1,0 +1,69 @@
+{
+  "inheritedRegistry": "../primary-sources.json",
+  "newAssessments": [
+    {
+      "sourceId": "FDA-ctDNA-2024",
+      "url": "https://www.fda.gov/media/183874/download",
+      "readDepth": "Complete extracted introduction and sections IV.A-C, including sampling, specimen handling, complete-workflow validation, clinical/contrived samples, input range, precision, accuracy and representative designs. Not the entire guidance.",
+      "scope": "Nonbinding November 2024 curative-intent solid-tumour drug-development guidance."
+    },
+    {
+      "sourceId": "Cossarizza2021",
+      "doi": "10.1002/eji.202170126",
+      "pmid": "34910301",
+      "readDepth": "Targeted sections S47, S120, S525, S528-S532 and S556-S557, plus prior gating/counting sections. Not the whole guideline.",
+      "scope": "Distinguish stimulus/APC requirements, inhibitor choice/window, multivalent avidity and assay-specific controls; do not adopt universal times, doses, gate orders or simplified peptide-length statements."
+    },
+    {
+      "sourceId": "Shugay2014",
+      "doi": "10.1038/nmeth.2960",
+      "pmid": "24793455",
+      "readDepth": "Crossref and Europe PMC identity match; complete raw abstract read.",
+      "scope": "Molecular-identifier-group error correction in antibody/TCR repertoire profiling; no fresh full-method or original-template counting validation claim."
+    },
+    {
+      "sourceId": "Powles2025",
+      "doi": "10.1056/NEJMoa2511885",
+      "pmid": "41124204",
+      "readDepth": "Crossref and Europe PMC title, first author and year match; complete raw abstract read.",
+      "scope": "IMvigor011 randomised eligible ctDNA-positive patients after cystectomy; keep its population and strategy separate from category-wide utility."
+    },
+    {
+      "sourceId": "FDA-P260004-2026",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/P260004B.pdf",
+      "readDepth": "Authoritative web PDF text for SSED sections I-II, limitations and device-description/qualitative-output passages; PMA database indication text. Not all 66 pages.",
+      "scope": "Dated Signatera CDx bladder-cancer indication and qualitative call, not every MRD test.",
+      "accessDiscrepancy": "Direct command-line retrieval returned 404; the web tool supplied the FDA PMA page and parsed primary PDF. No raw-PDF byte-capture or new full-document reading is claimed."
+    },
+    {
+      "sourceId": "Cytiva-mononuclear-handbook",
+      "url": "https://cdn.cytivalifesciences.com/api/public/content/digi-16156-pdf",
+      "readDepth": "Separation-principle and pathological-specimen passages in the preserved raw PDF/text.",
+      "scope": "Manufacturer technical method; mononuclear interface, platelets and immature-granulocyte contamination, not universal cancer-assay clinical validation."
+    },
+    {
+      "sourceId": "NCBI-standard-genetic-code",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi?chapter=cgencodes#SG1",
+      "readDepth": "Raw standard-code table and explanatory text.",
+      "scope": "Codon degeneracy supports the stated nucleotide-to-amino-acid grouping inference; no empirical T-cell-lineage frequency is inferred."
+    },
+    {
+      "sourceId": "VDJtools-diversity-documentation",
+      "url": "https://vdjtools-doc.readthedocs.io/en/master/diversity.html",
+      "readDepth": "Raw CalcDiversityStats definitions and original/resampled-data comparison guidance.",
+      "scope": "Keep entropy, its exponential, normalised entropy and inverse Simpson distinct; fictional arithmetic and the K=1 singularity are deductions from stated formulas."
+    },
+    {
+      "sourceId": "OpenStax-nucleosome",
+      "url": "https://openstax.org/books/biology-2e/pages/10-key-terms",
+      "readDepth": "Raw nucleosome definition and relevant key-term context.",
+      "scope": "Basic DNA/histone definition only; no textbook figure, exercise or prose copied."
+    }
+  ],
+  "continuingLimits": [
+    "Diehl supplementary Figure 2 remains unread; the scoped single-subject Results statement uses the independent reviewer assessment.",
+    "The exact García-Murillas lead-time estimator denominator remains unverified; 144 is not labelled as the number of intervals.",
+    "Other inherited source assessments remain at their recorded abstract or targeted-text depth."
+  ],
+  "elicit": "Tool discovery exposes no callable Elicit research API. Existing frozen discovery remains separate; no report links, questions, JSON responses or evidence are invented."
+}

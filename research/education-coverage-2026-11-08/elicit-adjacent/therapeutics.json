@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:28.046Z",
+  "request": {
+    "query": "Which primary studies identify important distinctions across next-generation oncology payloads, targeted degradation, immune agonists, metabolic and epigenetic agents, radiation biology, therapeutic delivery and mechanism-specific resistance?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-81843541",
+        "title": "Next Generation Payloads for ADCs",
+        "authors": [
+          "L. N. Tumey"
+        ],
+        "year": 2018,
+        "doi": "10.1007/978-3-319-78154-9_8",
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e9d001065d628c01a4a5ef4d6eb52b6dd7383a0c1d6c6c58609468c67cf8d7be",
+          "characters": 594
+        }
+      },
+      {
+        "elicitId": "ss-289849765",
+        "title": "Radiation induces an EGFR-dependent lactate-epigenetic program underlying synergy with EGFR inhibition",
+        "authors": [
+          "Hong-Xia Cheng",
+          "Lu Meng",
+          "Shi-Lan Luo",
+          "Chen-Hui Zhao",
+          "Xie-Song Luo",
+          "Jing-Xiang Pang",
+          "Qing-Yu Jiang",
+          "Yang-Hai Xiong",
+          "Pei-Wen Zhu",
+          "Kun Guo",
+          "Xiao-Mei Gong"
+        ],
+        "year": 2026,
+        "doi": "10.1007/s13402-026-01238-x",
+        "pmid": "42399513",
+        "venue": "Cellular Oncology",
+        "citedByCount": 0,
+        "urls": [
+          "https://doi.org/10.1007/s13402-026-01238-x"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1007/s13402-026-01238-x",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "2691a58f001401cd64c5c708f65d83b0478f6e0ee98c7919c7876f68997b3a98",
+          "characters": 2062
+        }
+      },
+      {
+        "elicitId": "ss-283627506",
+        "title": "Next Generation Antibody–Drug Conjugates: Molecular Design Innovations And Overcoming Resistance – A Comprehensive Review",
+        "authors": [],
+        "year": 2025,
+        "doi": "10.64149/j.ver.8.16s.217-224",
+        "pmid": null,
+        "venue": "Vascular and Endovascular Review",
+        "citedByCount": 0,
+        "urls": [
+          "https://verjournal.com/index.php/ver/article/download/1204/1008"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://verjournal.com/index.php/ver/article/download/1204/1008",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "58e720995a44458bb51695d47510d4eb5b2c3ad992f5f79df7939bae5d7c917c",
+          "characters": 988
+        }
+      },
+      {
+        "elicitId": "ss-284983310",
+        "title": "Targeting metabolic-epigenetic-immune axis in cancer: molecular mechanisms and therapeutic implications",
+        "authors": [
+          "Xing Wang",
+          "Xi-Yuan Luo",
+          "Rui-Ling Xiao",
+          "Xiaohong Liu",
+          "Feihan Zhou",
+          "Decheng Jiang",
+          "Jialu Bai",
+          "Ming Cui",
+          "Lei You",
+          "Yu-Pei Zhao"
+        ],
+        "year": 2026,
+        "doi": "10.1038/s41392-025-02334-4",
+        "pmid": "41582215",
+        "venue": "Signal Transduction and Targeted Therapy",
+        "citedByCount": 46,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC12832610/pdf/41392_2025_Article_2334.pdf",
+          "https://www.nature.com/articles/s41392-025-02334-4.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41392-025-02334-4.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "ed41f7d96e14c12a20b6272e344d2b7ae68c18d34e2704284e8c46aa1bcf2098",
+          "characters": 2042
+        }
+      },
+      {
+        "elicitId": "ss-290413429",
+        "title": "Next-Generation Anticancer Modalities: A Systematic Review of Antibody–Drug Conjugates, Bispecific Antibodies, CAR-T Cell Therapy, Cancer Vaccines, and Radioligand Therapy",
+        "authors": [
+          "Vakhidat Z Elmursieva",
+          "Amina M Umaeva",
+          "A. Maleeva",
+          "Daria A Fokina",
+          "Marina B. Khordaeva",
+          "Marina M Dadaeva",
+          "Laura A Machieva",
+          "Albert A. Kottoev",
+          "R. Magomadova Khava",
+          "Khadishat M Bisultanova",
+          "Aminat R Malsagova",
+          "Muslimat S Misaeva",
+          "Khava Kh Sulumova",
+          "Ibragim R Evloev",
+          "I. Elina",
+          "M. Shamil",
+          "A. Ivan",
+          "S. Klimatova Hyadi"
+        ],
+        "year": 2026,
+        "doi": "10.59256/ijrtmr.20260604013",
+        "pmid": null,
+        "venue": "International Journal Of Recent Trends In Multidisciplinary Research",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.ijrtmr.com/archiver/archives/next_generation_anticancer_modalities_a_systematic_review_of_antibody_drug_conjugates_bispecific_antibodies_car_t_cell_therapy_cancer_vaccines_and_radioligand_therapy.pdf"
+        ],
+        "studyTypeTags": [
+          "Review",
+          "Systematic Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.ijrtmr.com/archiver/archives/next_generation_anticancer_modalities_a_systematic_review_of_antibody_drug_conjugates_bispecific_antibodies_car_t_cell_therapy_cancer_vaccines_and_radioligand_therapy.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "0d1cfa10fa436092db8a4a92dfb922efe8769c08d754fd96d1ec2ad06cb8943e",
+          "characters": 1726
+        }
+      },
+      {
+        "elicitId": "ss-283974437",
+        "title": "Precision Therapeutics Across Cancer, Immunology, and Pain.",
+        "authors": [
+          "Mahmoud A. Elkhalifa",
+          "Robert B. Kargbo"
+        ],
+        "year": 2025,
+        "doi": "10.1021/acsmedchemlett.5c00735",
+        "pmid": "41531964",
+        "venue": "ACS Medicinal Chemistry Letters",
+        "citedByCount": 0,
+        "urls": [
+          "https://pubs.acs.org/doi/pdf/10.1021/acsmedchemlett.5c00735?ref=article_openPDF"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pubs.acs.org/doi/pdf/10.1021/acsmedchemlett.5c00735?ref=article_openPDF",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "7ac006d217e03ca53fc9f3c7852f22c6b0e3258334be7c833b94b3b7a63b2cf4",
+          "characters": 554
+        }
+      },
+      {
+        "elicitId": "ss-281443498",
+        "title": "Beyond Inhibition: Emerging Small-Molecule Modalities in Oncology (Molecular Glues, Covalents, and Radiotheranostics)",
+        "authors": [
+          "Salvation Ifechukwude Atalor",
+          "Aliaa Mohammed Mahmoud Soliman",
+          "O. K. Adedokun",
+          "Abayomi Modinat Aina",
+          "C. Unegbu",
+          "Okoroafor Dorcas Okayo",
+          "V. Jonathan",
+          "Kingsley Ugonna Ugoagwu",
+          "A. O. Olaniyi"
+        ],
+        "year": 2025,
+        "doi": "10.63946/aubiomed/17089",
+        "pmid": null,
+        "venue": "Australian Journal of Biomedical Research",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.aubiomed.org/download/beyond-inhibition-emerging-small-molecule-modalities-in-oncology-molecular-glues-covalents-and-17089.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.aubiomed.org/download/beyond-inhibition-emerging-small-molecule-modalities-in-oncology-molecular-glues-covalents-and-17089.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "72a78b72ed0a38011fa2c2f7b9d0b30c59ec873a26a4136e3e365be5075fb47a",
+          "characters": 1319
+        }
+      },
+      {
+        "elicitId": "ss-289383947",
+        "title": "Integrating antibody-drug conjugates, multispecific antibodies, targeted protein degradation, and nanomedicine in precision oncology.",
+        "authors": [
+          "Imran Ali",
+          "Mir Faiza",
+          "Arshad Mehmood",
+          "Zhi-Ping Wang",
+          "Zhang Fang",
+          "Xin-Yu Zhang"
+        ],
+        "year": 2026,
+        "doi": "10.1080/1061186X.2026.2687011",
+        "pmid": "42310934",
+        "venue": "Journal of drug targeting (Print)",
+        "citedByCount": 5,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e7a2d3a6b7bc14061d6fe09bd9484d4d4cc51c1abad1108cb132c0f292e0940a",
+          "characters": 1527
+        }
+      },
+      {
+        "elicitId": "ss-287239745",
+        "title": "Molecularly Targeted Therapies in Oncology: Mechanisms, Resistance, and Combination Strategies",
+        "authors": [
+          "Klaudia Giercuszkiewicz-Haśnik",
+          "B. Morak-Młodawska",
+          "M. Jeleń"
+        ],
+        "year": 2026,
+        "doi": "10.3390/molecules31071195",
+        "pmid": "41976235",
+        "venue": "Molecules",
+        "citedByCount": 11,
+        "urls": [
+          "https://doi.org/10.3390/molecules31071195",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13074999/pdf/molecules-31-01195.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.3390/molecules31071195",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "d10b89d2d2c0f2b12c2f2c984cdd14bb3af61d0f0a83d0db3ae2414a40326d14",
+          "characters": 1664
+        }
+      },
+      {
+        "elicitId": "ss-289050927",
+        "title": "From Undruggable to Degradable: Strategic Expansion of Targeted Protein Degradation in Cancer Therapy.",
+        "authors": [
+          "Jiyoon Sung",
+          "Yun-Su Seo",
+          "Jae-Young Lee"
+        ],
+        "year": 2026,
+        "doi": "10.1016/j.ymthe.2026.05.031",
+        "pmid": "42237536",
+        "venue": "Molecular Therapy",
+        "citedByCount": 4,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13555557/"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13555557/",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-282201972",
+        "title": "Proteolysis‐targeting chimeras in cancer therapy: Targeted protein degradation for next‐generation treatment",
+        "authors": [
+          "Yamile Abuchard Anaya",
+          "Mariana Barragan",
+          "R. Bracho",
+          "S. Shaham",
+          "Debasish Bandyopadhyay",
+          "Elias George",
+          "D. Nguyen",
+          "Manish K. Tripathi"
+        ],
+        "year": 2025,
+        "doi": "10.1002/cncr.70132",
+        "pmid": "41108678",
+        "venue": "Cancer",
+        "citedByCount": 24,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cncr.70132"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cncr.70132",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a0b2a017b37e05f1d627c476c3c168615ddc76da1a92bbc203a0a448d0e56dbf",
+          "characters": 1365
+        }
+      },
+      {
+        "elicitId": "ss-214781351",
+        "title": "Next-generation immuno-oncology agents: current momentum shifts in cancer immunotherapy",
+        "authors": [
+          "C. Pan",
+          "Hong-Tao Liu",
+          "Elizabeth Robins",
+          "Wen-Ru Song",
+          "De-Long Liu",
+          "Zi-Hai Li",
+          "Lei Zheng"
+        ],
+        "year": 2020,
+        "doi": "10.1186/s13045-020-00862-w",
+        "pmid": "32245497",
+        "venue": "Journal of Hematology & Oncology",
+        "citedByCount": 210,
+        "urls": [
+          "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-020-00862-w"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-020-00862-w",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "1f3aeba88a4e9a5418538d97d9a87ebcdffcb4d29e099e1ade637be5f533a8a6",
+          "characters": 1649
+        }
+      },
+      {
+        "elicitId": "ss-290593151",
+        "title": "Recent Advances in Cancer Treatment Drugs: The Developmental Journey from Preclinical Discovery to Market Approval",
+        "authors": [
+          "Rokonuzzaman",
+          "Nazmul Islam"
+        ],
+        "year": 2026,
+        "doi": "10.47191/ijpbms/v6-i7-05",
+        "pmid": null,
+        "venue": "International Journal of Pharmaceutical and Bio-Medical Science",
+        "citedByCount": 0,
+        "urls": [
+          "https://ijpbms.com/index.php/ijpbms/article/download/994/700"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://ijpbms.com/index.php/ijpbms/article/download/994/700",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9feedcd67cc2f759b63df9754206c574c60f2d8ab5b77c8e2f747b196c678be4",
+          "characters": 1030
+        }
+      },
+      {
+        "elicitId": "ss-221109864",
+        "title": "Molecular Targeted Radiosensitizers: Opportunities and Challenges",
+        "authors": [
+          "H. Willers",
+          "I. Eke"
+        ],
+        "year": 2020,
+        "doi": "10.1007/978-3-030-49701-9",
+        "pmid": null,
+        "venue": "Cancer Drug Discovery and Development",
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "6e9d468ce95a1658030154d8dd5232af97970ecac115284477d4a6923c331337",
+          "characters": 294
+        }
+      },
+      {
+        "elicitId": "ss-283705005",
+        "title": "Next‐Generation Proteolysis‐Targeting Chimeras in Precision Oncology: Multifunctional Designs, Emerging Modalities, and Translational Prospects in Targeted Protein Degradation",
+        "authors": [
+          "Mohamed S. Nafie",
+          "M. Diab",
+          "Asmaa S. A. Yassen",
+          "Amany M. Elshamy",
+          "M. Eltohamy",
+          "Haytham O. Tawfik",
+          "S. Fahmy"
+        ],
+        "year": 2025,
+        "doi": "10.1002/ddr.70192",
+        "pmid": "41362117",
+        "venue": "Drug development research (Print)",
+        "citedByCount": 10,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ddr.70192"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ddr.70192",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "1af819e35efec2ee00b6c4b8ea49cbebf0ec2811411496d5f6fadadf6d1a9f59",
+          "characters": 1709
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "9d60c9932912078bef396f9d64f188a992821db875403ac34e51f218c19366c7",
+    "rawBytes": 31950,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

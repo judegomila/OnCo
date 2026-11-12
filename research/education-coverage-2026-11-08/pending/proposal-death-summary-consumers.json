@@ -1,0 +1,1064 @@
+{
+  "version": "proposal-death-summary-consumers",
+  "state": "117 additional checked selectors: nine unchanged ICD entries contain text and 108 use corrected English fallback. Seventy-two stale short entries removed.",
+  "scope": "Consumer entries, not graph owners or named language reviews. Actual comparison found no overlap with the earlier 702 snapshotted selectors.",
+  "records": [
+    {
+      "id": "death-summary-ar-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (ar)"
+    },
+    {
+      "id": "death-summary-ar-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (ar)"
+    },
+    {
+      "id": "death-summary-ar-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (ar)"
+    },
+    {
+      "id": "death-summary-ar-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (ar)"
+    },
+    {
+      "id": "death-summary-ar-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (ar)"
+    },
+    {
+      "id": "death-summary-ar-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (ar)"
+    },
+    {
+      "id": "death-summary-ar-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "ar",
+      "available": true,
+      "text": "الموت الخلوي المولِّد للمناعة طريقة للموت تُنبّه الجهاز المناعي، على خلاف الاستماتة الصامتة.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (ar)"
+    },
+    {
+      "id": "death-summary-ar-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (ar)"
+    },
+    {
+      "id": "death-summary-ar-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (ar)"
+    },
+    {
+      "id": "death-summary-ar-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (ar)"
+    },
+    {
+      "id": "death-summary-ar-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (ar)"
+    },
+    {
+      "id": "death-summary-ar-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (ar)"
+    },
+    {
+      "id": "death-summary-ar-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "ar",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (ar)"
+    },
+    {
+      "id": "death-summary-de-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (de)"
+    },
+    {
+      "id": "death-summary-de-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (de)"
+    },
+    {
+      "id": "death-summary-de-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (de)"
+    },
+    {
+      "id": "death-summary-de-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (de)"
+    },
+    {
+      "id": "death-summary-de-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (de)"
+    },
+    {
+      "id": "death-summary-de-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (de)"
+    },
+    {
+      "id": "death-summary-de-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "de",
+      "available": true,
+      "text": "Immunogener Zelltod ist eine Art zu sterben, die das Immunsystem alarmiert, anders als die stille Apoptose.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (de)"
+    },
+    {
+      "id": "death-summary-de-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (de)"
+    },
+    {
+      "id": "death-summary-de-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (de)"
+    },
+    {
+      "id": "death-summary-de-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (de)"
+    },
+    {
+      "id": "death-summary-de-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (de)"
+    },
+    {
+      "id": "death-summary-de-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (de)"
+    },
+    {
+      "id": "death-summary-de-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "de",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (de)"
+    },
+    {
+      "id": "death-summary-es-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (es)"
+    },
+    {
+      "id": "death-summary-es-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (es)"
+    },
+    {
+      "id": "death-summary-es-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (es)"
+    },
+    {
+      "id": "death-summary-es-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (es)"
+    },
+    {
+      "id": "death-summary-es-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (es)"
+    },
+    {
+      "id": "death-summary-es-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (es)"
+    },
+    {
+      "id": "death-summary-es-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "es",
+      "available": true,
+      "text": "Una forma de morir que alerta al sistema inmunitario, a diferencia de la apoptosis silenciosa.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (es)"
+    },
+    {
+      "id": "death-summary-es-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (es)"
+    },
+    {
+      "id": "death-summary-es-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (es)"
+    },
+    {
+      "id": "death-summary-es-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (es)"
+    },
+    {
+      "id": "death-summary-es-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (es)"
+    },
+    {
+      "id": "death-summary-es-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (es)"
+    },
+    {
+      "id": "death-summary-es-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "es",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (es)"
+    },
+    {
+      "id": "death-summary-fr-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (fr)"
+    },
+    {
+      "id": "death-summary-fr-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (fr)"
+    },
+    {
+      "id": "death-summary-fr-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (fr)"
+    },
+    {
+      "id": "death-summary-fr-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (fr)"
+    },
+    {
+      "id": "death-summary-fr-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (fr)"
+    },
+    {
+      "id": "death-summary-fr-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (fr)"
+    },
+    {
+      "id": "death-summary-fr-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "fr",
+      "available": true,
+      "text": "La mort cellulaire immunogène est une façon de mourir qui alerte le système immunitaire, contrairement à l'apoptose silencieuse.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (fr)"
+    },
+    {
+      "id": "death-summary-fr-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (fr)"
+    },
+    {
+      "id": "death-summary-fr-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (fr)"
+    },
+    {
+      "id": "death-summary-fr-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (fr)"
+    },
+    {
+      "id": "death-summary-fr-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (fr)"
+    },
+    {
+      "id": "death-summary-fr-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (fr)"
+    },
+    {
+      "id": "death-summary-fr-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "fr",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (fr)"
+    },
+    {
+      "id": "death-summary-hi-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (hi)"
+    },
+    {
+      "id": "death-summary-hi-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (hi)"
+    },
+    {
+      "id": "death-summary-hi-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (hi)"
+    },
+    {
+      "id": "death-summary-hi-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (hi)"
+    },
+    {
+      "id": "death-summary-hi-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (hi)"
+    },
+    {
+      "id": "death-summary-hi-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (hi)"
+    },
+    {
+      "id": "death-summary-hi-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "hi",
+      "available": true,
+      "text": "मरने का ऐसा तरीक़ा जो प्रतिरक्षा तंत्र को चेताता है, शांत एपोप्टोसिस के विपरीत।",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (hi)"
+    },
+    {
+      "id": "death-summary-hi-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (hi)"
+    },
+    {
+      "id": "death-summary-hi-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (hi)"
+    },
+    {
+      "id": "death-summary-hi-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (hi)"
+    },
+    {
+      "id": "death-summary-hi-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (hi)"
+    },
+    {
+      "id": "death-summary-hi-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (hi)"
+    },
+    {
+      "id": "death-summary-hi-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "hi",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (hi)"
+    },
+    {
+      "id": "death-summary-ja-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (ja)"
+    },
+    {
+      "id": "death-summary-ja-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (ja)"
+    },
+    {
+      "id": "death-summary-ja-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (ja)"
+    },
+    {
+      "id": "death-summary-ja-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (ja)"
+    },
+    {
+      "id": "death-summary-ja-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (ja)"
+    },
+    {
+      "id": "death-summary-ja-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (ja)"
+    },
+    {
+      "id": "death-summary-ja-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "ja",
+      "available": true,
+      "text": "免疫原性細胞死は、静かなアポトーシスとは異なり、免疫系に警報を発する死に方である。",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (ja)"
+    },
+    {
+      "id": "death-summary-ja-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (ja)"
+    },
+    {
+      "id": "death-summary-ja-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (ja)"
+    },
+    {
+      "id": "death-summary-ja-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (ja)"
+    },
+    {
+      "id": "death-summary-ja-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (ja)"
+    },
+    {
+      "id": "death-summary-ja-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (ja)"
+    },
+    {
+      "id": "death-summary-ja-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "ja",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (ja)"
+    },
+    {
+      "id": "death-summary-pt-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (pt)"
+    },
+    {
+      "id": "death-summary-pt-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (pt)"
+    },
+    {
+      "id": "death-summary-pt-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (pt)"
+    },
+    {
+      "id": "death-summary-pt-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (pt)"
+    },
+    {
+      "id": "death-summary-pt-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (pt)"
+    },
+    {
+      "id": "death-summary-pt-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (pt)"
+    },
+    {
+      "id": "death-summary-pt-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "pt",
+      "available": true,
+      "text": "Um modo de morrer que alerta o sistema imune, ao contrário da apoptose silenciosa.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (pt)"
+    },
+    {
+      "id": "death-summary-pt-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (pt)"
+    },
+    {
+      "id": "death-summary-pt-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (pt)"
+    },
+    {
+      "id": "death-summary-pt-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (pt)"
+    },
+    {
+      "id": "death-summary-pt-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (pt)"
+    },
+    {
+      "id": "death-summary-pt-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (pt)"
+    },
+    {
+      "id": "death-summary-pt-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "pt",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (pt)"
+    },
+    {
+      "id": "death-summary-zh-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (zh)"
+    },
+    {
+      "id": "death-summary-zh-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (zh)"
+    },
+    {
+      "id": "death-summary-zh-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (zh)"
+    },
+    {
+      "id": "death-summary-zh-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (zh)"
+    },
+    {
+      "id": "death-summary-zh-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (zh)"
+    },
+    {
+      "id": "death-summary-zh-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (zh)"
+    },
+    {
+      "id": "death-summary-zh-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "zh",
+      "available": true,
+      "text": "一种能警示免疫系统的死亡方式，不同于静默的凋亡。",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (zh)"
+    },
+    {
+      "id": "death-summary-zh-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (zh)"
+    },
+    {
+      "id": "death-summary-zh-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (zh)"
+    },
+    {
+      "id": "death-summary-zh-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (zh)"
+    },
+    {
+      "id": "death-summary-zh-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (zh)"
+    },
+    {
+      "id": "death-summary-zh-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (zh)"
+    },
+    {
+      "id": "death-summary-zh-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "zh",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (zh)"
+    },
+    {
+      "id": "death-summary-simple-apoptosis",
+      "canonicalRecordId": "apoptosis",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Apoptosis (simple)"
+    },
+    {
+      "id": "death-summary-simple-autophagy",
+      "canonicalRecordId": "autophagy",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Autophagy (simple)"
+    },
+    {
+      "id": "death-summary-simple-necrosis",
+      "canonicalRecordId": "necrosis",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Necrosis (simple)"
+    },
+    {
+      "id": "death-summary-simple-senescence",
+      "canonicalRecordId": "senescence",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Cellular senescence (simple)"
+    },
+    {
+      "id": "death-summary-simple-warburg-effect",
+      "canonicalRecordId": "warburg-effect",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Warburg effect (simple)"
+    },
+    {
+      "id": "death-summary-simple-ferroptosis-cell-death",
+      "canonicalRecordId": "ferroptosis-cell-death",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ferroptosis & regulated cell death (simple)"
+    },
+    {
+      "id": "death-summary-simple-immunogenic-cell-death",
+      "canonicalRecordId": "immunogenic-cell-death",
+      "language": "simple",
+      "available": true,
+      "text": "A way of dying that alerts the immune system.",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenic cell death (simple)"
+    },
+    {
+      "id": "death-summary-simple-ubiquitin-proteasome-system",
+      "canonicalRecordId": "ubiquitin-proteasome-system",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Ubiquitin-proteasome system & protein homeostasis (simple)"
+    },
+    {
+      "id": "death-summary-simple-lipid-metabolism-cancer",
+      "canonicalRecordId": "lipid-metabolism-cancer",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Lipid synthesis, uptake & cholesterol (simple)"
+    },
+    {
+      "id": "death-summary-simple-er-stress-and-unfolded-protein-response",
+      "canonicalRecordId": "er-stress-and-unfolded-protein-response",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Endoplasmic reticulum stress and the unfolded protein response (simple)"
+    },
+    {
+      "id": "death-summary-simple-nutrient-sensing-ampk",
+      "canonicalRecordId": "nutrient-sensing-ampk",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "AMPK energy sensing (simple)"
+    },
+    {
+      "id": "death-summary-simple-reactive-oxygen-species",
+      "canonicalRecordId": "reactive-oxygen-species",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Reactive oxygen species (simple)"
+    },
+    {
+      "id": "death-summary-simple-oxidative-phosphorylation",
+      "canonicalRecordId": "oxidative-phosphorylation",
+      "language": "simple",
+      "available": false,
+      "text": null,
+      "kind": "reader-summary-entry",
+      "name": "Oxidative phosphorylation (simple)"
+    }
+  ],
+  "sources": [
+    "src/lib/tldr-tables.ts",
+    "src/lib/summary-translations.ts"
+  ]
+}

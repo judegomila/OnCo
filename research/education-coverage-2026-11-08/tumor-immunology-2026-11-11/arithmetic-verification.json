@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "fictional": [
+    "0.4/2 = 20% eligible stromal area",
+    "30/100 = 30% counted lymphocytes",
+    "(0.4+0.6)/(4+1) = 20%, versus unweighted (10%+60%)/2 = 35%",
+    "One of five equal eligible area units = 20%; eight/eight/two symbols compare count and location, with no clinical threshold"
+  ],
+  "studyDenominators": [
+    "7/39 = 17.95% enrolled and 7/21 = 33.33% evaluable; these do not estimate radiation-alone efficacy"
+  ]
+}

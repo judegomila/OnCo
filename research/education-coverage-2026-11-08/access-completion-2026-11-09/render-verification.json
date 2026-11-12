@@ -1,0 +1,48 @@
+{
+  "renderedOwners": 93,
+  "scope": "All 93 current draft owners refreshed; no nested anchors or missing source URLs. Four changed owners dated November 9; other existing checkpoint dates retained. Authored narratives read separately.",
+  "changedOwners": [
+    {
+      "id": "trial-search-site-verification",
+      "route": "/terms/trial-search-site-verification/",
+      "asOf": "2026-11-09",
+      "bytes": 26324,
+      "sha256": "c6d2f37961abb7e746e4667cb0d8042dc4471f66cd42825e3bf5d80a5600c4a0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "companion-diagnostic",
+      "route": "/technologies/companion-diagnostic/",
+      "asOf": "2026-11-09",
+      "bytes": 188355,
+      "sha256": "8251ec632137fe46b10bbe1a6316a1ed2e7893941be29b08b77f30ee5b8f1c6a",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "companion-diagnostic-term",
+      "route": "/terms/companion-diagnostic-term/",
+      "asOf": "2026-11-09",
+      "bytes": 73007,
+      "sha256": "a184adb1dfcc9fa585db34348492c511daed9ca7b2a7a03a08f89a75ae3235f1",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "expanded-access",
+      "route": "/terms/expanded-access/",
+      "asOf": "2026-11-09",
+      "bytes": 31174,
+      "sha256": "2ea5b299ba6ebb60d5d02190b210d7900a24e35a5a73e053c17c0c06cffa9742",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "checkedOn": "2026-11-09",
+  "authoredChangedOwnerNotesRead": 11
+}

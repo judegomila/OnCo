@@ -1,0 +1,30 @@
+{
+  "checks": [
+    {
+      "expression": "60/200",
+      "actual": 0.3,
+      "expected": 0.3
+    },
+    {
+      "expression": "15/300",
+      "actual": 0.05,
+      "expected": 0.05
+    },
+    {
+      "expression": "20/1000",
+      "actual": 0.02,
+      "expected": 0.02
+    },
+    {
+      "expression": "20-7",
+      "actual": 13,
+      "expected": 13
+    },
+    {
+      "expression": "20-10",
+      "actual": 10,
+      "expected": 10
+    }
+  ],
+  "scope": "Fictional counts, unit conversion and explicitly hypothetical circular-cell geometry, not measured biological sizes or patient findings."
+}

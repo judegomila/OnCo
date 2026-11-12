@@ -44,12 +44,13 @@ export const radiationTechnologies: TechnologyInput[] = [
     principle: "Measure or constrain respiratory motion so the planned dose lands on the target rather than on the tissue it moves through.",
     strengths: ["Smaller margins and less normal tissue dose", "Enables stereotactic treatment of moving targets", "Reduces heart dose in breast radiotherapy"], limitations: ["Longer sessions", "Some patients cannot hold their breath", "Fiducial placement is invasive"],
     technologies: ["sbrt", "mr-linac", "imrt-igrt"], terms: ["deep-inspiration-breath-hold", "fiducial-markers"], cancers: ["nsclc", "hcc", "pancreatic"], links: [{ label: "Wikipedia", url: W("Respiratory_gating") }] }),
-  tech({ id: "hypofractionated-radiotherapy", trials: ["start-b", "import-low", "rapido", "nct05838729"], name: "Hypofractionated radiotherapy", status: "established", since: 2008,
-    tldr: "Fewer, larger daily doses instead of the classic five to seven weeks of small ones. Large trials in breast and prostate cancer showed the same control with the same or fewer late effects and far less time in hospital.",
-    summary: "For decades radiotherapy was given in 1.8 to 2 Gy fractions over many weeks on the assumption that small fractions spared normal tissue. The UK START trials showed that 40 Gy in 15 fractions over three weeks matched 50 Gy in 25 for breast cancer; FAST-Forward cut this to 26 Gy in five fractions over one week; CHHiP showed 60 Gy in 20 fractions was as good as 74 Gy in 37 for prostate cancer, and PACE-B and HYPO-RT-PC took prostate treatment down to five to seven sessions. Hypofractionation is now standard for most breast and prostate cases and is spreading to other sites, with obvious benefits for patients and for overstretched departments.",
-    principle: "Tumours with a low alpha/beta ratio (breast, prostate) are as sensitive to fraction size as late-responding normal tissue, so larger fractions lose nothing in control while shortening treatment.",
-    strengths: ["One to three weeks instead of five to seven", "Same cancer control in randomised trials", "Frees machine capacity"], limitations: ["Long-term follow-up still accruing for the shortest schedules", "Not suitable where large volumes of normal tissue are treated", "Requires precise setup"],
-    technologies: ["imrt-igrt", "sbrt"], terms: ["hypofractionation", "alpha-beta-ratio", "biologically-effective-dose"], cancers: ["breast-hr-positive", "breast-her2-positive", "tnbc", "prostate"], links: [{ label: "Wikipedia", url: W("Hypofractionated_radiation_therapy") }] }),
+  tech({
+    asOf:"2026-11-09", id: "hypofractionated-radiotherapy", trials: ["start-b", "import-low", "rapido", "nct05838729"], name: "Hypofractionated radiotherapy", status: "established", since: 2008,
+    tldr: "Hypofractionation uses larger radiation doses per treatment than a specified comparison schedule, usually with fewer treatments. Control and harms depend on the whole tested regimen.",
+    summary: "Hypofractionation uses larger doses per fraction relative to a stated conventional comparison, commonly with fewer treatments. Keep total gray, dose per fraction, count, spacing, overall duration and treatment volume together. For equal fractions, total physical dose is the fraction count multiplied by dose per fraction; this arithmetic does not establish biological equivalence. Acceleration changes overall timing; a boost changes the dose to a selected region. Hypofractionation does not by itself identify stereotactic delivery.\n\nBiological response depends on tissue, repair and timing, rather than total physical dose alone. Alpha/beta is a model parameter in gray describing fraction-size sensitivity. Under the linear-quadratic model and its assumptions, a lower ratio predicts greater sensitivity to fraction size at the same total physical dose. Historical teaching values near 10 gray for early effects and 3 for late effects are conventions, not universal constants. A planned START-A/pilot meta-analysis estimated 4.6 gray for tumour control, with confidence interval 1.1 to 8.1, and 3.4 for late photographic breast change, with interval 2.3 to 4.5. Keep the model, endpoint and uncertainty.\n\nSTART-B compared 50 gray in 25 fractions over five weeks with 40 in 15 over three weeks after surgery for early breast cancer, assessing local-regional relapse and late effects. FAST-Forward tested 40 gray in 15 fractions over three weeks against 27 or 26 in five over one week to the whole breast or chest wall. Its five-year report supported non-inferiority of 26 gray for breast relapse under the trial margin; 27 gray produced more normal-tissue effects. These results do not validate every five-visit course, nodal field, reirradiation plan or immune-priming schedule.",
+    principle: "Fraction size, timing and exposed tissues influence biological response. The complete schedule needs clinical evaluation for disease control and normal-tissue effects.",
+    strengths: ["Can reduce treatment visits in evidence-supported settings","Specified shorter regimens have been tested in randomised comparisons"], limitations: ["A model or visit count does not establish arbitrary schedule equivalence","Evidence depends on population, volumes, follow-up and the full regimen","The shortest schedules and new settings need their own control and harm data"],
+    technologies: ["imrt-igrt", "sbrt"], terms: ["hypofractionation", "alpha-beta-ratio", "biologically-effective-dose"], cancers: ["breast-hr-positive", "breast-her2-positive", "tnbc", "prostate"], links: [{"label":"Wikipedia","url":"https://en.wikipedia.org/wiki/Hypofractionated_radiation_therapy"},{"label":"NICE NG131: prostate cancer, diagnosis and management","url":"https://www.nice.org.uk/guidance/ng131/chapter/Recommendations"},{"label":"Donovan et al., patient-reported outcomes 12 years after localized prostate cancer treatment (NEJM Evidence 2023)","url":"https://doi.org/10.1056/EVIDoa2300018"},{"label":"IAEA 2005: dose response, fractionation and model conventions","url":"https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf"},{"label":"START-A 2008: planned alpha/beta meta-analysis and its uncertainty","url":"https://pubmed.ncbi.nlm.nih.gov/18356109/"},{"label":"START ten-year report, 2013","url":"https://pubmed.ncbi.nlm.nih.gov/24055415/"},{"label":"FAST-Forward five-year primary report, 2020","url":"https://pubmed.ncbi.nlm.nih.gov/32580883/"},{"label":"NCI: external-beam delivery and schedules","url":"https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"}] }),
   tech({ id: "sabr-oligometastases", name: "Stereotactic ablative radiotherapy for oligometastatic disease", status: "emerging", since: 2019,
     tldr: "Treating every visible metastasis with ablative doses when there are only a few, on the idea that some patients with limited spread can still be controlled or cured.",
     summary: "The oligometastatic hypothesis, proposed in 1995, holds that some cancers spread to a handful of sites before becoming widespread, and that ablating those sites can change the course of the disease. The SABR-COMET randomised phase 2 trial reported in 2019 that stereotactic treatment of one to five metastases lengthened survival compared with standard care, with some added toxicity. Phase 3 trials (SABR-COMET-3 and -10, NRG-BR002 in breast cancer, and prostate-specific studies) are now testing the approach cancer by cancer, and it has become common practice in prostate, lung and kidney cancer with limited spread.",
@@ -154,7 +155,7 @@ export const radiationTechnologies: TechnologyInput[] = [
     technologies: ["radiomics", "imrt-igrt"], terms: ["alpha-beta-ratio"], links: [{ label: "Wikipedia", url: W("Radiogenomics") }] }),
 ];
 
-type Tm = Omit<TermInput, "kind" | "asOf">;
+type Tm = Omit<TermInput, "kind" | "asOf"> & { asOf?: string };
 const tm = (x: Tm): TermInput => ({ kind: "term", asOf, tags, ...x });
 export const radiationTerms: TermInput[] = [
   tm({ id: "alpha-beta-ratio", name: "Alpha/beta ratio", category: "Treatment jargon", wikipedia: W("Linear-quadratic_model"),
@@ -184,9 +185,39 @@ export const radiationTerms: TermInput[] = [
     summary: "Soft-tissue tumours in the prostate, liver, pancreas and lung are hard to see on the X-ray images used for daily setup. Fiducial markers implanted under ultrasound or endoscopic guidance show up clearly and let the couch be shifted to the tumour's true position; electromagnetic transponders report position continuously during the beam. Fiducials make stereotactic treatment of moving targets possible and are being joined by markerless tracking on MRI and with AI.",
     technologies: ["respiratory-motion-management", "sbrt", "imrt-igrt"], cancers: ["prostate", "hcc", "pancreatic"], links: [{ label: "Wikipedia", url: W("Fiducial_marker") }] }),
   tm({ id: "tumour-hypoxia", name: "Tumour hypoxia", category: "Biology basics", wikipedia: W("Tumor_hypoxia"),
-    tldr: "Regions of a tumour that have outgrown their blood supply and are short of oxygen. They resist radiotherapy and some chemotherapy, and drive the tumour to become more aggressive.",
-    summary: "Fast-growing tumours have chaotic, leaky blood vessels, leaving pockets of cells living on very little oxygen. Hypoxic cells need up to three times the radiation dose to be killed, switch on HIF-driven survival programmes, become more invasive and are selected for genomic instability. Hypoxia can be imaged with PET tracers, measured by gene signatures and targeted with sensitisers, hypoxia-activated drugs, hyperthermia and dose escalation.",
-    technologies: ["tumour-hypoxia-modification", "radiosensitisers", "hyperthermia"], links: [{ label: "Wikipedia", url: W("Tumor_hypoxia") }] }),
+    tldr: "Hypoxia is reduced local oxygen availability relative to tissue needs. A response marker or vessel count is not a direct oxygen measurement.",
+    summary: "Oxygen conditions reflect delivery, diffusion and consumption and can vary across a tumour and over time. HIF-linked responses include oxygen-sensitive protein regulation, but other molecular processes can alter the same readouts. Direct oxygen measurements, protein assays and RNA signatures therefore require different interpretations.",
+    technologies: ["tumour-hypoxia-modification", "radiosensitisers", "hyperthermia"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tumor_hypoxia"
+  },
+  {
+    "label": "Wang et al., Hypoxia-inducible factor 1 is a basic-helix-loop-helix-PAS heterodimer regulated by cellular O2 tension. (1995)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7539918/"
+  },
+  {
+    "label": "Jaakkola et al., Targeting of HIF-alpha to the von Hippel-Lindau ubiquitylation complex by O2-regulated prolyl hydroxylation. (2001)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11292861/"
+  },
+  {
+    "label": "Semenza, Hypoxia-inducible factors in physiology and medicine. (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22304911/"
+  },
+  {
+    "label": "Quantitative visualization of hypoxia and proliferation gradients (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31867322/"
+  }
+] ,
+"notes": [
+  "Hypoxia is reduced local oxygen availability relative to tissue needs. It is different from complete absence of oxygen and from a permanent defect in mitochondria. Delivery, functioning vessels, diffusion distance and oxygen consumption all matter, and conditions change across regions and time. Removing tissue interrupts delivery, so collection and handling can change the state being studied.",
+  "HIF-1 contains alpha and beta protein subunits. Under oxygen-replete conditions, oxygen-dependent modification of the alpha subunit enables VHL-associated degradation; limiting that regulation can stabilise it. Jaakkola and the Semenza review describe this mechanism and additional regulation. HIF RNA, alpha-protein stability and the resulting transcriptional response are different quantities. Alternative molecular regulation can alter HIF, so neither protein staining nor an RNA signature is a calibrated oxygen meter.",
+  "The cited 2019 spatial method used mouse pancreatic-cancer xenografts, a perfusion tracer and separate hypoxia and proliferation markers, with cell segmentation and distance analysis. Its model, preparation and marker definitions matter. It does not supply a universal human vessel-distance cutoff or establish that changing oxygen will reverse immune exclusion or improve treatment. Producing lactate while oxygen is available, often called the Warburg effect, also does not by itself establish hypoxia or a survival dependency.",
+  "An oxygen study may measure local partial pressure in situ or use suitable tissue for a defined response-protein or RNA assay. Report which output was measured. Retain region, time, calibration, handling, cell identity and factors that can alter HIF independently of oxygen; destructive assays use finite material. Thresholds must fit the method and purpose. Vessel density is not flow, HIF abundance is not oxygen concentration, and a specimen average can hide poorly oxygenated regions.",
+  "In a fictional biopsy with a high hypoxia-response score, the score alone gives neither an exact oxygen level nor proof that every region is hypoxic. Cell mixture and alternative regulation remain possible explanations, and individual prognosis requires different evidence. Oxygen symbols in a schematic illustrate supply, distance and consumption without measured concentrations or a universal gradient; supply and demand are separate from the response program."
+],
+"asOf": "2026-11-10"
+}),
   tm({ id: "oxygen-enhancement-ratio", name: "Oxygen enhancement ratio", category: "Biology basics", wikipedia: W("Oxygen_enhancement_ratio"),
     tldr: "How many times more radiation a cell without oxygen needs to be killed compared with the same cell with oxygen: about 2.5 to 3 for X-rays, close to 1 for the heaviest particle beams.",
     summary: "Oxygen reacts with the free radicals radiation creates in DNA and makes the damage permanent, so oxygenated cells die at lower doses. The oxygen enhancement ratio is near 3 for photons and protons and falls toward 1 for high-LET radiation such as carbon ions and neutrons, which is one argument for particle therapy in hypoxic tumours and for boron neutron capture therapy.",
@@ -198,7 +229,33 @@ export const radiationTerms: TermInput[] = [
   tm({ id: "radiation-pneumonitis", name: "Radiation pneumonitis and lung fibrosis", category: "Side effects", wikipedia: W("Radiation_pneumonitis"),
     tldr: "Inflammation of the lung one to six months after chest radiotherapy, causing cough, breathlessness and fever; usually settles with steroids but can leave permanent scarring.",
     summary: "Radiation pneumonitis follows treatment of lung, oesophageal, breast and lymphoma targets and depends on the volume of lung receiving moderate doses (the V20 and mean lung dose constraints exist to limit it), on chemotherapy and immunotherapy given alongside, and on pre-existing lung disease. Symptomatic pneumonitis is treated with a tapering course of corticosteroids; the late phase is fibrosis of the treated lung, which is permanent. Immunotherapy after chemoradiation (PACIFIC) raised pneumonitis rates and is now a routine consideration.",
-    technologies: ["radioprotectors", "imrt-igrt", "proton-therapy"], cancers: ["nsclc", "sclc", "esophageal"], links: [{ label: "Wikipedia", url: W("Radiation_pneumonitis") }] }),
+    technologies: ["radioprotectors", "imrt-igrt", "proton-therapy"], cancers: ["nsclc", "sclc", "esophageal"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Radiation_pneumonitis"
+  },
+  {
+    "label": "Cancer Research UK: coping with breathlessness when you have lung cancer",
+    "url": "https://www.cancerresearchuk.org/about-cancer/lung-cancer/living-with/coping-with-breathlessness"
+  },
+  {
+    "label": "NICE NG122: lung cancer, management",
+    "url": "https://www.nice.org.uk/guidance/ng122/chapter/Management"
+  },
+  {
+    "label": "Macmillan: durvalumab (Imfinzi)",
+    "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab"
+  },
+  {
+    "label": "Trastuzumab emtansine prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+  }
+] ,
+"notes": [
+  "Overlap with drug lung injury: radiation pneumonitis is inflammation inside the radiation field, and it can coexist with drug-induced ILD, so attribution needs the treatment timeline. The trastuzumab emtansine label sets a separate rule for radiation pneumonitis in the adjuvant setting (permanent discontinuation for grade 3 or higher, or grade 2 not responding to standard treatment) and reports it in 1.8 per cent (11 of 623) of patients given adjuvant radiotherapy with that drug, two of them grade 3."
+],
+"asOf": "2026-11-11"
+}),
   tm({ id: "radiation-necrosis", related: ["floretyrosine-f18"], name: "Radiation necrosis (brain)", category: "Side effects", wikipedia: W("Radiation_necrosis"),
     tldr: "Death of brain tissue months to years after radiosurgery or high-dose brain radiotherapy, which can look exactly like tumour growing back on a scan.",
     summary: "Radiation necrosis affects a minority of patients after stereotactic radiosurgery to brain metastases and after high-dose treatment of gliomas, more often with larger volumes and with concurrent immunotherapy or targeted drugs. It causes swelling and symptoms that mimic progression; perfusion MRI, amino-acid PET and sometimes biopsy separate the two. Treatment is steroids, bevacizumab for refractory cases, and occasionally surgery or laser ablation.",

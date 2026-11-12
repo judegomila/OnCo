@@ -1,0 +1,344 @@
+{
+  "uniquePaths": 14,
+  "uniquePinnedEntries": 28,
+  "manifestEmbedEntries": 32,
+  "assets": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+      "gitBlob": "c506744448eb52cfd9643e77cf5a8168807a66bc",
+      "sourceSha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f",
+      "role": "teaching",
+      "pointIds": [
+        "alkylating-agents:T005",
+        "alkylating-agents:T006",
+        "alkylating-agents:T009",
+        "alkylating-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+      "gitBlob": "09134660461dd953721b0b420c98eb6b577fc890",
+      "sourceSha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64",
+      "role": "teaching",
+      "pointIds": [
+        "alkylating-agents:T005",
+        "alkylating-agents:T006",
+        "alkylating-agents:T009",
+        "alkylating-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+      "gitBlob": "6bc950e43ddf1549a1f19b8d25bd42146ecbdbb3",
+      "sourceSha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+      "role": "teaching",
+      "pointIds": [
+        "platinum-agents:T008",
+        "platinum-agents:T009",
+        "platinum-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+      "gitBlob": "e14ff0546393702f18e5afa68a5ea871f927e4a3",
+      "sourceSha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+      "role": "teaching",
+      "pointIds": [
+        "platinum-agents:T008",
+        "platinum-agents:T009",
+        "platinum-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-dark.svg",
+      "gitBlob": "a32e6f496dc9c880fa9b780c81deda2f47058a31",
+      "sourceSha256": "2f57537437d4e0077837b0390e5a5a62e4e6ae467f70d334989291955fdfd5f1",
+      "role": "teaching",
+      "pointIds": [
+        "anthracyclines:T004",
+        "anthracyclines:T005",
+        "anthracyclines:T007"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-light.svg",
+      "gitBlob": "536d062f8ebe13f38679064e0d5493454ae5f7c9",
+      "sourceSha256": "bc2fe6e4a55ae094a8766a6ea72ac4f87bdf30ce04c0c2f9b889a8cac1b71784",
+      "role": "teaching",
+      "pointIds": [
+        "anthracyclines:T004",
+        "anthracyclines:T005",
+        "anthracyclines:T007"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-dark.svg",
+      "gitBlob": "7de95f95c0ede4036e162af1c4222b4068cd76ad",
+      "sourceSha256": "7c9c1a1be9dfd43704d1c4ff558c91b350076211e5ee785657a7f8dfe0fe67d2",
+      "role": "teaching",
+      "pointIds": [
+        "capecitabine-and-fluoropyrimidines:T004",
+        "capecitabine-and-fluoropyrimidines:T005",
+        "capecitabine-and-fluoropyrimidines:T009"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-light.svg",
+      "gitBlob": "12ce60dc04adef1b4d8cc20495d00915913a8c15",
+      "sourceSha256": "067b12f2c26a78ab78d0044973c343e73b71443516faf55fce3447265f660744",
+      "role": "teaching",
+      "pointIds": [
+        "capecitabine-and-fluoropyrimidines:T004",
+        "capecitabine-and-fluoropyrimidines:T005",
+        "capecitabine-and-fluoropyrimidines:T009"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+      "gitBlob": "a4790a3cbbf5546a11152bd384c6ca9ceabb799c",
+      "sourceSha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be",
+      "role": "teaching",
+      "pointIds": [
+        "chemotherapy:T016",
+        "chemotherapy:T017",
+        "chemotherapy:T018"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+      "gitBlob": "922a1cc6f4a694057f31ddbc52d8304ffbc1e4d3",
+      "sourceSha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167",
+      "role": "teaching",
+      "pointIds": [
+        "chemotherapy:T016",
+        "chemotherapy:T017",
+        "chemotherapy:T018"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "gitBlob": "3e6e1ffee75d9521e397bdcdcd186a4cd4c3a25e",
+      "sourceSha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+      "role": "teaching",
+      "pointIds": [
+        "dose-dense-scheduling:T017",
+        "dose-dense-scheduling:T018"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "gitBlob": "6e68993be626ce370b4a5525d614caf4fa20e971",
+      "sourceSha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+      "role": "teaching",
+      "pointIds": [
+        "dose-dense-scheduling:T017",
+        "dose-dense-scheduling:T018"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-dark.svg",
+      "gitBlob": "9359474cd73f8597f73a2046c32687d8c0e1afb0",
+      "sourceSha256": "bc5a67ba2093483cf553a59bfad2fcf3d983269455bf63b94c6f4c1a147ee18b",
+      "role": "teaching",
+      "pointIds": [
+        "taxanes:T008",
+        "taxanes:T009",
+        "taxanes:T010"
+      ]
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-light.svg",
+      "gitBlob": "db41bd6ebf4e77430374c51cd3471d0907d20a5a",
+      "sourceSha256": "1251bc83a80fcabd594c7fb83e568095c8005be6d27b101aff35432764ad5930",
+      "role": "teaching",
+      "pointIds": [
+        "taxanes:T008",
+        "taxanes:T009",
+        "taxanes:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-dark.svg",
+      "gitBlob": "c506744448eb52cfd9643e77cf5a8168807a66bc",
+      "sourceSha256": "0c499e21404a496f0c1a0e7d04bed9f344ddc4c2e635c566f3a912931072d58f",
+      "role": "teaching",
+      "pointIds": [
+        "alkylating-agents:T005",
+        "alkylating-agents:T006",
+        "alkylating-agents:T009",
+        "alkylating-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/alkyl-attachments-and-prodrug-activation-v1-light.svg",
+      "gitBlob": "09134660461dd953721b0b420c98eb6b577fc890",
+      "sourceSha256": "90160f48d42f89f0746e335fbdee3e0cc973d2a9b4d83bf40f134f068177eb64",
+      "role": "teaching",
+      "pointIds": [
+        "alkylating-agents:T005",
+        "alkylating-agents:T006",
+        "alkylating-agents:T009",
+        "alkylating-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+      "gitBlob": "6bc950e43ddf1549a1f19b8d25bd42146ecbdbb3",
+      "sourceSha256": "3f2314d8675fd1ddcb075b2934f3e192388c711dfabc6115a015a5acaf3cac33",
+      "role": "teaching",
+      "pointIds": [
+        "platinum-agents:T008",
+        "platinum-agents:T009",
+        "platinum-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+      "gitBlob": "e14ff0546393702f18e5afa68a5ea871f927e4a3",
+      "sourceSha256": "dee2c420d1d8aaaa4284e29806cfb661b380e8f7d8cafaf999dc2e42d59b42fa",
+      "role": "teaching",
+      "pointIds": [
+        "platinum-agents:T008",
+        "platinum-agents:T009",
+        "platinum-agents:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-dark.svg",
+      "gitBlob": "a32e6f496dc9c880fa9b780c81deda2f47058a31",
+      "sourceSha256": "2f57537437d4e0077837b0390e5a5a62e4e6ae467f70d334989291955fdfd5f1",
+      "role": "teaching",
+      "pointIds": [
+        "anthracyclines:T004",
+        "anthracyclines:T005",
+        "anthracyclines:T007"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/transient-cut-and-stabilized-cleavage-v1-light.svg",
+      "gitBlob": "536d062f8ebe13f38679064e0d5493454ae5f7c9",
+      "sourceSha256": "bc2fe6e4a55ae094a8766a6ea72ac4f87bdf30ce04c0c2f9b889a8cac1b71784",
+      "role": "teaching",
+      "pointIds": [
+        "anthracyclines:T004",
+        "anthracyclines:T005",
+        "anthracyclines:T007"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-dark.svg",
+      "gitBlob": "7de95f95c0ede4036e162af1c4222b4068cd76ad",
+      "sourceSha256": "7c9c1a1be9dfd43704d1c4ff558c91b350076211e5ee785657a7f8dfe0fe67d2",
+      "role": "teaching",
+      "pointIds": [
+        "capecitabine-and-fluoropyrimidines:T004",
+        "capecitabine-and-fluoropyrimidines:T005",
+        "capecitabine-and-fluoropyrimidines:T009"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/activation-metabolite-jobs-and-clearance-v1-light.svg",
+      "gitBlob": "12ce60dc04adef1b4d8cc20495d00915913a8c15",
+      "sourceSha256": "067b12f2c26a78ab78d0044973c343e73b71443516faf55fce3447265f660744",
+      "role": "teaching",
+      "pointIds": [
+        "capecitabine-and-fluoropyrimidines:T004",
+        "capecitabine-and-fluoropyrimidines:T005",
+        "capecitabine-and-fluoropyrimidines:T009"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-dark.svg",
+      "gitBlob": "a4790a3cbbf5546a11152bd384c6ca9ceabb799c",
+      "sourceSha256": "e5034656cf90192dfe941f9d3cce59f81a95f4ce1838605e8246d9668d8529be",
+      "role": "teaching",
+      "pointIds": [
+        "chemotherapy:T016",
+        "chemotherapy:T017",
+        "chemotherapy:T018"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/five-cellular-mechanism-locations-v1-light.svg",
+      "gitBlob": "922a1cc6f4a694057f31ddbc52d8304ffbc1e4d3",
+      "sourceSha256": "071b4572c7580ffced65f9d7465a77eb095365cf8640470ccadbf59a67d3d167",
+      "role": "teaching",
+      "pointIds": [
+        "chemotherapy:T016",
+        "chemotherapy:T017",
+        "chemotherapy:T018"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "gitBlob": "3e6e1ffee75d9521e397bdcdcd186a4cd4c3a25e",
+      "sourceSha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+      "role": "teaching",
+      "pointIds": [
+        "dose-dense-scheduling:T017",
+        "dose-dense-scheduling:T018"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "gitBlob": "6e68993be626ce370b4a5525d614caf4fa20e971",
+      "sourceSha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+      "role": "teaching",
+      "pointIds": [
+        "dose-dense-scheduling:T017",
+        "dose-dense-scheduling:T018"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-dark.svg",
+      "gitBlob": "9359474cd73f8597f73a2046c32687d8c0e1afb0",
+      "sourceSha256": "bc5a67ba2093483cf553a59bfad2fcf3d983269455bf63b94c6f4c1a147ee18b",
+      "role": "teaching",
+      "pointIds": [
+        "taxanes:T008",
+        "taxanes:T009",
+        "taxanes:T010"
+      ]
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/microtubule-dynamics-and-cellular-jobs-v1-light.svg",
+      "gitBlob": "db41bd6ebf4e77430374c51cd3471d0907d20a5a",
+      "sourceSha256": "1251bc83a80fcabd594c7fb83e568095c8005be6d27b101aff35432764ad5930",
+      "role": "teaching",
+      "pointIds": [
+        "taxanes:T008",
+        "taxanes:T009",
+        "taxanes:T010"
+      ]
+    }
+  ],
+  "role": "All direct figures remain teaching; no points are earned by provenance or citation presence. Six Mermaid diagrams are inline lesson teaching, not additional asset paths."
+}

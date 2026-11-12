@@ -1,0 +1,96 @@
+{
+  "root": {
+    "validateEntities": 22779,
+    "typecheckExitCode": 0,
+    "lintExitCode": 0,
+    "lintErrors": 0,
+    "existingLintWarnings": 7,
+    "fullSuiteFilesPassed": 284,
+    "fullSuiteTestsPassed": 2829,
+    "existingTestsSkipped": 2,
+    "afterConsumerChanges": {
+      "summarySelectorFilesPassed": 3,
+      "summarySelectorTestsPassed": 31,
+      "auditAndCorpusFilesPassed": 4,
+      "auditAndCorpusTestsPassed": 51
+    }
+  },
+  "shared": {
+    "head": "390ad658620b31deeebb9438c88cd959751f68aa",
+    "validateEntities": 22719,
+    "typecheckExitCode": 0,
+    "lintExitCode": 0,
+    "lintErrors": 0,
+    "existingLintWarnings": 7,
+    "fullSuiteFilesPassed": 281,
+    "fullSuiteTestsPassed": 2813,
+    "existingTestsSkipped": 2
+  },
+  "wholeGraphOwnership": "Only the seven root owners and eight shared owners changed; no unrelated graph record changed. Five root IDs are newly registered.",
+  "doiPositiveCacheAdditions": {
+    "w": [
+      "10.1002/eji.1830060713",
+      "10.1007/s00253-007-1142-2",
+      "10.1007/s00262-010-0844-y",
+      "10.1016/j.ymthe.2026.06.017",
+      "10.1038/341544a0",
+      "10.1038/348552a0",
+      "10.1038/363446a0",
+      "10.1038/374168a0",
+      "10.1038/nbt.1480",
+      "10.1038/nbt0697-553",
+      "10.1038/nm.3838",
+      "10.1038/s41587-019-0390-x",
+      "10.1038/s41598-019-56943-5",
+      "10.1039/c4cc03065f",
+      "10.1042/bj2160423",
+      "10.1073/pnas.1616408114",
+      "10.1073/pnas.85.16.5879",
+      "10.1073/pnas.95.20.11804",
+      "10.1089/cbr.2020.3941",
+      "10.1126/science.abm0594",
+      "10.1158/0008-5472.can-10-2277",
+      "10.1158/2326-6066.cir-14-0127"
+    ],
+    "s": [
+      "10.1002/eji.1830060713",
+      "10.1007/s00253-007-1142-2",
+      "10.1007/s00262-010-0844-y",
+      "10.1016/j.ymthe.2026.06.017",
+      "10.1038/341544a0",
+      "10.1038/348552a0",
+      "10.1038/363446a0",
+      "10.1038/374168a0",
+      "10.1038/nbt.1480",
+      "10.1038/nbt0697-553",
+      "10.1038/nm.3838",
+      "10.1038/s41587-019-0390-x",
+      "10.1038/s41598-019-56943-5",
+      "10.1039/c4cc03065f",
+      "10.1042/bj2160423",
+      "10.1073/pnas.1616408114",
+      "10.1073/pnas.85.16.5879",
+      "10.1073/pnas.95.20.11804",
+      "10.1089/cbr.2020.3941",
+      "10.1126/science.abm0594",
+      "10.1158/0008-5472.can-10-2277",
+      "10.1158/2326-6066.cir-14-0127"
+    ]
+  },
+  "duplicateSurvey": {
+    "groupsPerDraft": 9,
+    "newDoiOrPmidDuplicateGroups": 0,
+    "scope": "The same two registry-id and seven name-survey groups as the preceding checkpoint."
+  },
+  "sourceClosure": {
+    "exitCode": 2,
+    "staleOrMissingProofs": 0,
+    "reason": "Unread curriculum, assets and literature, seven earlier requirements, adjacent work and product-approval dependencies remain."
+  },
+  "releaseLimits": [
+    "No new Next production build",
+    "No browser hydration, mobile or accessibility certification",
+    "No new expert or named-language sign-off",
+    "No main merge or deployment"
+  ]
+}

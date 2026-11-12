@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-11-09",
+  "scope": "Close the newer lab receptor distinction, add sourced receptor architecture/evidence boundaries and expand the source census beyond Markdown.",
+  "knowledgeGraphOwners": 172,
+  "newGraphEntities": 37,
+  "existingGraphOwners": 135,
+  "newInThisCheckpoint": [
+    "synthetic-cytokine-receptors"
+  ],
+  "existingOwnerLinkUpdated": "armored-car",
+  "nonGraphDirectoryConsumers": 1,
+  "originalCurriculumRequirements": {
+    "evidenced": 341,
+    "total": 349
+  },
+  "laterCurriculumRequirements": {
+    "evidenced": 328,
+    "total": 329
+  },
+  "adjacent": {
+    "total": 22,
+    "represented": 21,
+    "open": 1
+  },
+  "literatureOccurrences": {
+    "total": 291,
+    "screened": 186,
+    "unreviewed": 105
+  },
+  "sourceAssetPhases": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "totalAssets": 1888,
+      "reviewedTeachingAssets": 3,
+      "unclassifiedAssets": 1885
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "totalAssets": 1888,
+      "reviewedTeachingAssets": 3,
+      "unclassifiedAssets": 1885
+    }
+  ],
+  "standaloneTeachingRequirementsPerPhase": 8,
+  "captureCounts": {
+    "rawPrimaryRequests": 19,
+    "rawRegistryPages": 1,
+    "elicitResponses": 1
+  },
+  "completeMedAbstractsRead": 10,
+  "schemaFindingsOpen": 5,
+  "finalCompleteReaudits": 0,
+  "limitations": [
+    "Independent source-version counts overlap and are not added.",
+    "All remaining image, provenance and archive roles stay open until an actual scope disposition.",
+    "Draft #375 and product #376 are not merged or deployed.",
+    "Goal remains active."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "frozenFilesSearched": 15,
+  "identifierMatches": [
+    {
+      "file": "elicit-adjacent/cell-therapies.json",
+      "fileSha256": "e5fa1ce463e45d6d045bcd66ce6a3fafefa41e9f652cbaefce90cd6ecd889bb3",
+      "sourceIds": [
+        "32023374"
+      ]
+    }
+  ],
+  "newElicitQuestions": 0,
+  "newElicitReports": 0,
+  "literatureOccurrenceCensusUnchanged": 917,
+  "scope": "Frozen identifier overlap only, not new Elicit output, a paper-identity decision or claim-level evidence. No callable Elicit discovery tool was found; generic orchestration tools do not count as Elicit access."
+}

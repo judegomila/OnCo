@@ -1,0 +1,1844 @@
+{
+  "dataCommit": "9c35a999031089605de1286fcc981e21dd688f4c",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 11.1
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 30.05
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.98
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 307.71
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "allSeventeenDataFilesByteIdenticalToGateInputs": true,
+  "graphCount": 23088,
+  "changedRootIds": [
+    "aldesleukin",
+    "checkpoint-inhibitor",
+    "cytokine-therapy",
+    "in-situ-vaccination",
+    "oncolytic-virus",
+    "shared-antigen-vaccine",
+    "talimogene-laherparepvec",
+    "vaccines-and-oncolytic-viruses"
+  ],
+  "newIds": [
+    "intratumoral-immunotherapy",
+    "vaccine-adjuvants"
+  ],
+  "rootReaders": 10,
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR of the selected registered draft-root records; no peer overlay. No browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "state": "registered-local-graph",
+        "route": "/terms/vaccines-and-oncolytic-viruses/",
+        "sha256": "c7d64be09b953a69ddfc3c3b17261bc6cd0444fe93647e495c4288c427b1ff44",
+        "bytes": 46248,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cytokine-therapy",
+        "state": "registered-local-graph",
+        "route": "/technologies/cytokine-therapy/",
+        "sha256": "738c8744d55817bf6e376e4cab4bdf1427acbaa93e0b4450c7882114b499d59c",
+        "bytes": 95456,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "state": "registered-local-graph",
+        "route": "/technologies/checkpoint-inhibitor/",
+        "sha256": "ab957a264c8bbea9344bd20b3e7a3dfcda184cfb96afe465a47a194450ed1b6e",
+        "bytes": 270793,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "in-situ-vaccination",
+        "state": "registered-local-graph",
+        "route": "/technologies/in-situ-vaccination/",
+        "sha256": "1e1d1b7d179e645df63944ad390a2fb7dfc9f5fff361b8460615e71f09e452fb",
+        "bytes": 50319,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "oncolytic-virus",
+        "state": "registered-local-graph",
+        "route": "/technologies/oncolytic-virus/",
+        "sha256": "afa55f33e42bb52b01160206d36d39282d1f36914c7b48103efb668ca15a5f76",
+        "bytes": 98341,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "state": "registered-local-graph",
+        "route": "/drugs/talimogene-laherparepvec/",
+        "sha256": "1f5d27c5d23248e6bda3a969a4d54c6e59f99b3835e92c297e71d9de1e1df6a6",
+        "bytes": 74315,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "aldesleukin",
+        "state": "registered-local-graph",
+        "route": "/drugs/aldesleukin/",
+        "sha256": "16c84518c6ad61c52033251ab3b3f68c74ecd2b3f8d1af7f4cafdbab0a6efa43",
+        "bytes": 68752,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "state": "registered-local-graph",
+        "route": "/technologies/shared-antigen-vaccine/",
+        "sha256": "fbfc0fc8c644ac2d54956dbf2aa47cf3d9afe3bc82f525c6451fae231362c853",
+        "bytes": 66265,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "state": "registered-local-graph",
+        "route": "/terms/intratumoral-immunotherapy/",
+        "sha256": "ec6205d9b70bef2ce48795b54a60a2a40cb05f530c3a0372e92ca1296c80dda8",
+        "bytes": 34711,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "state": "registered-local-graph",
+        "route": "/terms/vaccine-adjuvants/",
+        "sha256": "48ed1f93a255ef81ca6501cd881e9abeca088094b36736cfda6b9d0da9796572",
+        "bytes": 31404,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "readerPassages": {
+    "readers": 10,
+    "registeredRootReaders": 10,
+    "frozenPeerReaders": 0,
+    "exactFieldExcerptReferences": 137,
+    "uniqueReferencedFieldParagraphs": 64,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 11,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "summary",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "summary",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      }
+    ]
+  },
+  "rootExports": {
+    "records": 10,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cytokine-therapy",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oncolytic-virus",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "aldesleukin",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "vaccines-and-oncolytic-viruses.json",
+        "bytes": 9920,
+        "sha256": "bdbd9e285ec333d5be829fa759dfa5939934d638360bd8cf36575e11b094b871"
+      },
+      {
+        "file": "vaccines-and-oncolytic-viruses.md",
+        "bytes": 8543,
+        "sha256": "3f870077e0f35eea6c005ef98094d7b2707b1c1c877ea10b92b5fdfd58f49ca1"
+      },
+      {
+        "file": "cytokine-therapy.json",
+        "bytes": 17989,
+        "sha256": "37a2ee21267a4675c4b0be8d8ef957acc8a6e2d05a984451b19627e01c210874"
+      },
+      {
+        "file": "cytokine-therapy.md",
+        "bytes": 13988,
+        "sha256": "39fed4679109fae3403e046b7d02a542e584d20e8782624fafd5b4c51bf78275"
+      },
+      {
+        "file": "checkpoint-inhibitor.json",
+        "bytes": 303428,
+        "sha256": "5c85d394cc6a6768e055fd9464cde648c126f54855b85a9f7586fca2681828d4"
+      },
+      {
+        "file": "checkpoint-inhibitor.md",
+        "bytes": 233975,
+        "sha256": "5cdfae3afb14db8c08c262aa19b1578e7a2e9800917249c78f3049c73dca815b"
+      },
+      {
+        "file": "in-situ-vaccination.json",
+        "bytes": 11654,
+        "sha256": "b5ca24b01a2c78c03ffed386352850c939ae9ad068e18bd10e43e4c0b872fa64"
+      },
+      {
+        "file": "in-situ-vaccination.md",
+        "bytes": 10120,
+        "sha256": "b746c55c37906a511a41b80c938102cfe691d784738576201a1754b82a6a8337"
+      },
+      {
+        "file": "oncolytic-virus.json",
+        "bytes": 25784,
+        "sha256": "ed6d91d16971dd90e9f26a9dfbba26d263dde6b93a99a158c1ca731f87ae3f3f"
+      },
+      {
+        "file": "oncolytic-virus.md",
+        "bytes": 19074,
+        "sha256": "29e3558e5adfbd5d711d012083fbaedb65766aa355ba0aa60441db75650bbb40"
+      },
+      {
+        "file": "talimogene-laherparepvec.json",
+        "bytes": 8087,
+        "sha256": "a77c811c785f5922e689caff90b58ca7ab846afcf8953866d4e791e1d1db1b2a"
+      },
+      {
+        "file": "talimogene-laherparepvec.md",
+        "bytes": 5059,
+        "sha256": "4f33cbdf593b08796b7bcc92ebf3704d79586532abe13d0c8828f2ee7d0f53d6"
+      },
+      {
+        "file": "aldesleukin.json",
+        "bytes": 8334,
+        "sha256": "48b3ebf46b88834d7de6770a4baca4b93ddc09564fe29a9cbe9dcc8b4f632733"
+      },
+      {
+        "file": "aldesleukin.md",
+        "bytes": 6680,
+        "sha256": "cad00af35aab5d6efc132a486c396da38db7ea98910e4bc5258c6c912618a303"
+      },
+      {
+        "file": "shared-antigen-vaccine.json",
+        "bytes": 14014,
+        "sha256": "cacce23d034c9b0d71c8eb8f472ccfce417202f7b5159879058b5b9131895001"
+      },
+      {
+        "file": "shared-antigen-vaccine.md",
+        "bytes": 9931,
+        "sha256": "7cd6a771e2c7871749ada47ee15a10b985da2fd7901dce9a71f983f5f0a34aad"
+      },
+      {
+        "file": "intratumoral-immunotherapy.json",
+        "bytes": 6719,
+        "sha256": "b9c1d5044a5c72c0926ff0ff4edc7dec6a0163cf17b5b15e7a2b1c07c0ec3c7d"
+      },
+      {
+        "file": "intratumoral-immunotherapy.md",
+        "bytes": 6024,
+        "sha256": "dd2b636d636dce8501f99c982c578d04e636bfce947e8a3700f0abbfd8f9d48f"
+      },
+      {
+        "file": "vaccine-adjuvants.json",
+        "bytes": 6807,
+        "sha256": "08451a6a9e88e9190ab08036da8cb5936f14c326ce9086ff71dbbebfaaaa82d8"
+      },
+      {
+        "file": "vaccine-adjuvants.md",
+        "bytes": 6115,
+        "sha256": "e566968fbdd3d1e24941b220ca8378f88300b286c6ce9e153b42eec719c5afbe"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 90,
+    "texts": 32,
+    "fallbacks": 58,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cytokine-therapy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "in-situ-vaccination",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oncolytic-virus",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "aldesleukin",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intratumoral-immunotherapy",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "vaccine-adjuvants",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "zeroSecretFindings": true,
+  "scope": "Actual graph, EntityDetail SSR, lazy consumer tables, static JSON/Markdown/OpenAPI and dedupe. No full Next build, browser hydration, mobile, deployed-page or independent acceptance claim."
+}

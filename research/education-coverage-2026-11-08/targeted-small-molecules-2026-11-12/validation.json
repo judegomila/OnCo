@@ -1,0 +1,1127 @@
+{
+  "dataCommit": "dc2eb11265c65f5508278281b8f7685e90d4a134",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 11.05
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 29.69
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.93
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 308.51
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "graphCount": 23090,
+  "changedExistingIds": [
+    "cdk46-inhibitor",
+    "pi3k-akt-mtor-inhibitors",
+    "egfr",
+    "arpi",
+    "brd4"
+  ],
+  "newIds": [
+    "cdk-inhibitors"
+  ],
+  "allNineCommittedDataAndCorrectionFilesEqualFullGateBytes": true,
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR of the selected registered draft-root records; no peer overlay. No browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "arpi",
+        "state": "registered-local-graph",
+        "route": "/terms/arpi/",
+        "sha256": "71693fac4088443517df7661cd0778b219c86f16534f31ed68453873f0ee7fce",
+        "bytes": 55158,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "brd4",
+        "state": "registered-local-graph",
+        "route": "/targets/brd4/",
+        "sha256": "1e7abf28daabbb6d0a0f3c29dfc90aa96371c55e44f1ce795c6963ab234dd53b",
+        "bytes": 72860,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "egfr",
+        "state": "registered-local-graph",
+        "route": "/targets/egfr/",
+        "sha256": "701bccd229fded8115efbf537749c9b7ef35bba04ac78596cd545c54a5f248b6",
+        "bytes": 321174,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "state": "registered-local-graph",
+        "route": "/technologies/pi3k-akt-mtor-inhibitors/",
+        "sha256": "ef89928c88a686774b104b014acd8d8b34c63fdd61e955c3876ab9b5d7647a5a",
+        "bytes": 71912,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "state": "registered-local-graph",
+        "route": "/technologies/cdk46-inhibitor/",
+        "sha256": "27e2b2e30c56cf2f7c4d3d0b12b1ebeea5ed501cf059d5b0f83df24685a01c47",
+        "bytes": 69291,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cdk-inhibitors",
+        "state": "registered-local-graph",
+        "route": "/terms/cdk-inhibitors/",
+        "sha256": "eb54f11a1fa60a378bb13ee19d224768a72800a79b9077cce059182ae8f5083b",
+        "bytes": 41386,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "readerPassages": {
+    "readers": 6,
+    "registeredRootReaders": 6,
+    "frozenPeerReaders": 0,
+    "exactFieldExcerptReferences": 121,
+    "uniqueReferencedFieldParagraphs": 44,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "arpi",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      }
+    ]
+  },
+  "rootExports": {
+    "records": 6,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "arpi",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "arpi",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brd4",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "egfr",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cdk-inhibitors",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "arpi.json",
+        "bytes": 10677,
+        "sha256": "330e3d82bce4bf2a074a121286f9815c32a49130e40ebf0ed817d68b27540488"
+      },
+      {
+        "file": "arpi.md",
+        "bytes": 9224,
+        "sha256": "0722babf4b68b33fcb1454f2c5ef8ddd996db2cbc783cd7d792c5c377b3c5750"
+      },
+      {
+        "file": "brd4.json",
+        "bytes": 12087,
+        "sha256": "799ed9bd1e6d326d56bd03a30de0e6742b9dc3ae41ec2c3ede6806fce6c535c2"
+      },
+      {
+        "file": "brd4.md",
+        "bytes": 9269,
+        "sha256": "f0569e78a5f39c205b0afe6062b3de815a1ef6261ea1236059b338a05d17f3b3"
+      },
+      {
+        "file": "egfr.json",
+        "bytes": 66398,
+        "sha256": "11331209c02844f7766ddfdb7b2c429d930fa24775a07c3f7462183c441b42de"
+      },
+      {
+        "file": "egfr.md",
+        "bytes": 41585,
+        "sha256": "15e7cc0214eeaa050cc6c5fe84595204b5831dc25db6b2e2b2255f294c90eb69"
+      },
+      {
+        "file": "pi3k-akt-mtor-inhibitors.json",
+        "bytes": 15684,
+        "sha256": "db55735bfce56d70fc6a21084a14e08c5a430a628337f89f6a4170e5d30ea2b7"
+      },
+      {
+        "file": "pi3k-akt-mtor-inhibitors.md",
+        "bytes": 12982,
+        "sha256": "a4a8d4f5b156c03ee3950ae184b4e5018bd1910ce2904e959deeaf170ef5160d"
+      },
+      {
+        "file": "cdk46-inhibitor.json",
+        "bytes": 17886,
+        "sha256": "68043b765707a2244a4f265185a89cc461162b68800d3e2230a499d0cd87f4a1"
+      },
+      {
+        "file": "cdk46-inhibitor.md",
+        "bytes": 13200,
+        "sha256": "8ee1557edbfa5e0b2b62b32499e46e2120069b9b17273dd8811fbac1814e6bb0"
+      },
+      {
+        "file": "cdk-inhibitors.json",
+        "bytes": 7574,
+        "sha256": "43fff6157dfc1f417da80b65228950b95465b71085dad6c115c5ecd114ecd5ce"
+      },
+      {
+        "file": "cdk-inhibitors.md",
+        "bytes": 7009,
+        "sha256": "c6401b4e6001782c5ad79bd69fe77596b69f8863d509b5076f75653548397b5b"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 54,
+    "texts": 30,
+    "fallbacks": 24,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "arpi",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "arpi",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brd4",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "egfr",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cdk-inhibitors",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "zeroSecretFindings": true,
+  "scope": "Current registered graph, actual EntityDetail SSR and static JSON/Markdown/OpenAPI generation. No full Next build, hydration, mobile, deployed-page or independent acceptance claim."
+}

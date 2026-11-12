@@ -1,0 +1,134 @@
+{
+  "sourceAccessLimits": [
+    {
+      "source": "Alberts NBK26879, Brown NBK21114 and Cooper NBK9900",
+      "failure": "NCBI returned reCAPTCHA rather than chapter text",
+      "alternative": "Accessible OpenStax section and raw primary repair papers used for specific teaching; inaccessible text not inferred."
+    },
+    {
+      "source": "Nobel 2015 scientific background PDF",
+      "failure": "HTTP 403",
+      "alternative": "No copied/assumed PDF contents; primary repair work plus accessible textbook used."
+    },
+    {
+      "source": "Popova publisher full text",
+      "failure": "HTTP 403",
+      "alternative": "Original article PDF retrieved from author-associated site, title/authors/DOI/year matched MED/Crossref identity; page5457 read."
+    },
+    {
+      "source": "Telli comparator rendering",
+      "failure": "BioC full-text extraction prints >42 in some passages while raw MED abstract states >=42",
+      "disposition": "Canonical text names the boundary and source role without silently equating renderings. Exact comparison requires checking typeset original if implementing the threshold."
+    },
+    {
+      "source": "Birkbak 2013 correction DOI 10.1158/2159-8290.CD-13-0326",
+      "failure": "Initial Europe PMC returned no record; correction text not independently read",
+      "disposition": "No correction-body claim or coverage credited; metadata remains explicit."
+    },
+    {
+      "source": "other primary full-text requests",
+      "failure": "HTTP500/timeouts/429 as recorded in retrieval-private and alternatives-private receipts",
+      "disposition": "Successful alternative passages and raw abstracts used only to their documented depth; no implied complete article review."
+    }
+  ],
+  "adjacentFindings": [
+    "repair-assay-owner-definitions",
+    "repair-checkpoint-dependence-scope",
+    "repair-clinical-landscape-scope"
+  ],
+  "workerRemainingGaps": {
+    "requirementReconciliation": [
+      {
+        "requirementId": "7510db6b:p00:r3",
+        "kind": "prior-denominator-correction",
+        "reason": "later-version addition incorrectly duplicated into original requirement inventory",
+        "credit": 0
+      },
+      {
+        "requirementId": "7510db6b:p01:r4",
+        "kind": "prior-denominator-correction",
+        "reason": "later-version addition incorrectly duplicated into original requirement inventory",
+        "credit": 0
+      },
+      {
+        "requirementId": "7510db6b:p04:r4",
+        "kind": "prior-denominator-correction",
+        "reason": "later-version addition incorrectly duplicated into original requirement inventory",
+        "credit": 0
+      }
+    ],
+    "integrations": [
+      {
+        "ownerId": "brca",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "ddr",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "hrd-genomic-scar-scores",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "mutational-signature",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "homologous-recombination-repair",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "ras-mapk",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "keap1",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      },
+      {
+        "ownerId": "rtk-activation",
+        "status": "coordinator-only complete-field patch; zero integrated coverage"
+      }
+    ],
+    "sourceAccessLimits": [
+      {
+        "source": "Alberts NBK26879, Brown NBK21114 and Cooper NBK9900",
+        "failure": "NCBI returned reCAPTCHA rather than chapter text",
+        "alternative": "Accessible OpenStax section and raw primary repair papers used for specific teaching; inaccessible text not inferred."
+      },
+      {
+        "source": "Nobel 2015 scientific background PDF",
+        "failure": "HTTP 403",
+        "alternative": "No copied/assumed PDF contents; primary repair work plus accessible textbook used."
+      },
+      {
+        "source": "Popova publisher full text",
+        "failure": "HTTP 403",
+        "alternative": "Original article PDF retrieved from author-associated site, title/authors/DOI/year matched MED/Crossref identity; page5457 read."
+      },
+      {
+        "source": "Telli comparator rendering",
+        "failure": "BioC full-text extraction prints >42 in some passages while raw MED abstract states >=42",
+        "disposition": "Canonical text names the boundary and source role without silently equating renderings. Exact comparison requires checking typeset original if implementing the threshold."
+      },
+      {
+        "source": "Birkbak 2013 correction DOI 10.1158/2159-8290.CD-13-0326",
+        "failure": "Initial Europe PMC returned no record; correction text not independently read",
+        "disposition": "No correction-body claim or coverage credited; metadata remains explicit."
+      },
+      {
+        "source": "other primary full-text requests",
+        "failure": "HTTP500/timeouts/429 as recorded in retrieval-private and alternatives-private receipts",
+        "disposition": "Successful alternative passages and raw abstracts used only to their documented depth; no implied complete article review."
+      }
+    ],
+    "readerFigureParity": "All actual figures assessed; canonical textual teaching is mapped. No original figure copied and no visual-parity claim.",
+    "openAssignedRequirements": [],
+    "sourceBlockedRequirementRows": [],
+    "clinicalScope": "Assay/model/population and eligibility constraints remain explicit, not personal treatment recommendations."
+  },
+  "resolution": "All 125 applicable versioned source requirements have exact draft text and reader/export evidence. Worker patch-pending statuses are historical; eight coordinator patches are applied. Three original-version rows are excluded as later-only teaching. Source access limitations do not imply unread text was verified.",
+  "schema": "The RAS narrative is synchronized while draft376 retains its own nodes/edges and pending product approval.",
+  "clinicalLandscape": "Earlier unscoped lead paragraphs are replaced, not certified as current clinical guidance."
+}

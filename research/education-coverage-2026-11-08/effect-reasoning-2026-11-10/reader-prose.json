@@ -1,0 +1,865 @@
+{
+  "paragraphs": [
+    {
+      "lesson": "absence-of-evidence",
+      "owner": "inconclusive-and-negative-evidence",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "8729ce7eb170079dc75b17bcb780f442ef9761f3047ffa145b1c7d70ca64413f",
+      "unitIds": [
+        "absence-of-evidence:01",
+        "absence-of-evidence:02",
+        "absence-of-evidence:03",
+        "absence-of-evidence:04",
+        "absence-of-evidence:05",
+        "absence-of-evidence:06",
+        "absence-of-evidence:11"
+      ]
+    },
+    {
+      "lesson": "absence-of-evidence",
+      "owner": "inconclusive-and-negative-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "81089edcf3652c5f40c05996883063e0e0cd82ee096c02b3967c6ce9de51095c",
+      "unitIds": [
+        "absence-of-evidence:07",
+        "absence-of-evidence:08",
+        "absence-of-evidence:12",
+        "absence-of-evidence:15"
+      ]
+    },
+    {
+      "lesson": "absence-of-evidence",
+      "owner": "inconclusive-and-negative-evidence",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "190b932d12c612395654c249afa0e08f6b9e9471ac45c3129932c1d5d825936c",
+      "unitIds": [
+        "absence-of-evidence:09",
+        "absence-of-evidence:10"
+      ]
+    },
+    {
+      "lesson": "absence-of-evidence",
+      "owner": "inconclusive-and-negative-evidence",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "019c61e23eeee583bbd9ffe07c22d51c7b5f5936b4c48273a246ff5831065d80",
+      "unitIds": [
+        "absence-of-evidence:13"
+      ]
+    },
+    {
+      "lesson": "absolute-relative-risk-and-nnt",
+      "owner": "absolute-benefit",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "8a60c207194dfd2609db765431dfd160933100a187cc1e8ba9b97a9aad3d62dc",
+      "unitIds": [
+        "absolute-relative-risk-and-nnt:01",
+        "absolute-relative-risk-and-nnt:02",
+        "absolute-relative-risk-and-nnt:03",
+        "absolute-relative-risk-and-nnt:08",
+        "absolute-relative-risk-and-nnt:14"
+      ]
+    },
+    {
+      "lesson": "absolute-relative-risk-and-nnt",
+      "owner": "absolute-benefit",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "544eb5336affa4c0474febabd86233c7d51e8e1abc1a3c54e1613fb3c51ea23e",
+      "unitIds": [
+        "absolute-relative-risk-and-nnt:04",
+        "absolute-relative-risk-and-nnt:12"
+      ]
+    },
+    {
+      "lesson": "absolute-relative-risk-and-nnt",
+      "owner": "absolute-benefit",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "7eeedd0f9dd4e9d203210e95b0b86b494c2e72d42b6b17a5c13f123015b1d339",
+      "unitIds": [
+        "absolute-relative-risk-and-nnt:05",
+        "absolute-relative-risk-and-nnt:06",
+        "absolute-relative-risk-and-nnt:07"
+      ]
+    },
+    {
+      "lesson": "absolute-relative-risk-and-nnt",
+      "owner": "absolute-benefit",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "88f643ebc984f8ce1543c06b2927be77a92f68faf41f99584a01ba7a6b1d02ff",
+      "unitIds": [
+        "absolute-relative-risk-and-nnt:09"
+      ]
+    },
+    {
+      "lesson": "absolute-relative-risk-and-nnt",
+      "owner": "absolute-benefit",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "971487b3c24aa3d45778d2a298fa615cbdbaaa616bdcb3f1a45f7bae010fc8a6",
+      "unitIds": [
+        "absolute-relative-risk-and-nnt:10",
+        "absolute-relative-risk-and-nnt:11"
+      ]
+    },
+    {
+      "lesson": "confidence-interval",
+      "owner": "confidence-interval",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "7dad134c9cdc29d151381896172f293b273ad32073b5a70e20a2d23bfc228455",
+      "unitIds": [
+        "confidence-interval:01",
+        "confidence-interval:02",
+        "confidence-interval:03",
+        "confidence-interval:08",
+        "confidence-interval:14"
+      ]
+    },
+    {
+      "lesson": "confidence-interval",
+      "owner": "confidence-interval",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "00f2a8d97b32228b6affd367cc147a47525f8968d4280ca043e3e6276a611c88",
+      "unitIds": [
+        "confidence-interval:04",
+        "confidence-interval:10",
+        "confidence-interval:11",
+        "confidence-interval:12"
+      ]
+    },
+    {
+      "lesson": "confidence-interval",
+      "owner": "confidence-interval",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "4e153f7623656ea9e41ff91c142ec73164965b70e5cc93a95aaf72f0fff3c3df",
+      "unitIds": [
+        "confidence-interval:05",
+        "confidence-interval:06",
+        "confidence-interval:07",
+        "confidence-interval:13"
+      ]
+    },
+    {
+      "lesson": "confidence-interval",
+      "owner": "confidence-interval",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "d15ca5a9d99994f91910cc1d1b7dc79de5686ab842a2c9659d1ad96644a0ef5d",
+      "unitIds": [
+        "confidence-interval:09"
+      ]
+    },
+    {
+      "lesson": "hazard-ratio",
+      "owner": "hazard-ratio",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "7a9f266f2663fed2f14f2cd3e63a8695e44aa0e1c886db30127ed38666ebccdf",
+      "unitIds": [
+        "hazard-ratio:01",
+        "hazard-ratio:02",
+        "hazard-ratio:04",
+        "hazard-ratio:13",
+        "hazard-ratio:14"
+      ]
+    },
+    {
+      "lesson": "hazard-ratio",
+      "owner": "hazard-ratio",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "95c52655916edd5ffea051283eb48ec7799dd202cd5d8af7619b71e52c8e9b70",
+      "unitIds": [
+        "hazard-ratio:03",
+        "hazard-ratio:07",
+        "hazard-ratio:08",
+        "hazard-ratio:10"
+      ]
+    },
+    {
+      "lesson": "hazard-ratio",
+      "owner": "hazard-ratio",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "fffaf5bc4ca42318e5f67dcedbe920b415b6ff2ceb920bdb1aa590f28ebc6a51",
+      "unitIds": [
+        "hazard-ratio:05",
+        "hazard-ratio:06",
+        "hazard-ratio:11"
+      ]
+    },
+    {
+      "lesson": "hazard-ratio",
+      "owner": "hazard-ratio",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "cc5b907c31bdfa5c95d4fb65d916646eeab6317c88fb0ddce2b9348eadf0760c",
+      "unitIds": [
+        "hazard-ratio:09",
+        "hazard-ratio:12"
+      ]
+    },
+    {
+      "lesson": "odds-ratio",
+      "owner": "odds-ratio",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "4de7cbe5a9452505ce7350d38490c0105a18ce68c6953efa8c3e3ce9b8bb9f36",
+      "unitIds": [
+        "odds-ratio:01",
+        "odds-ratio:02",
+        "odds-ratio:03",
+        "odds-ratio:04",
+        "odds-ratio:13"
+      ]
+    },
+    {
+      "lesson": "odds-ratio",
+      "owner": "odds-ratio",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "40c23642763fa18de30c9e90a69c3e4e5132f0ca8a84656e422174b4d743ef47",
+      "unitIds": [
+        "odds-ratio:05",
+        "odds-ratio:08"
+      ]
+    },
+    {
+      "lesson": "odds-ratio",
+      "owner": "odds-ratio",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "e5a35014cd6f7c80d8010b11d4e748481dcad15d1ed11bb6df539a10830e679d",
+      "unitIds": [
+        "odds-ratio:06",
+        "odds-ratio:07"
+      ]
+    },
+    {
+      "lesson": "odds-ratio",
+      "owner": "odds-ratio",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "b9061708eaa656cd4ea581d224ada961c668d33627c7bb655fd1ec7ac3648905",
+      "unitIds": [
+        "odds-ratio:09",
+        "odds-ratio:10",
+        "odds-ratio:11",
+        "odds-ratio:12"
+      ]
+    },
+    {
+      "lesson": "p-values-and-multiple-testing",
+      "owner": "p-value",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "c4218db2f7a424ed54ed7f4c5df255470627daefad0d033a85bbe2cc621cb380",
+      "unitIds": [
+        "p-values-and-multiple-testing:01",
+        "p-values-and-multiple-testing:02",
+        "p-values-and-multiple-testing:03",
+        "p-values-and-multiple-testing:11",
+        "p-values-and-multiple-testing:12",
+        "p-values-and-multiple-testing:15"
+      ]
+    },
+    {
+      "lesson": "p-values-and-multiple-testing",
+      "owner": "p-value",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "061adfbe23567a0924729d536b3272fb340b6ea2a2910e022ad00ce22d66d665",
+      "unitIds": [
+        "p-values-and-multiple-testing:04",
+        "p-values-and-multiple-testing:05",
+        "p-values-and-multiple-testing:09"
+      ]
+    },
+    {
+      "lesson": "p-values-and-multiple-testing",
+      "owner": "p-value",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "7d883d76e335b812043868f4debb01bd222e5a0fd35c6dae712eb6a9029434be",
+      "unitIds": [
+        "p-values-and-multiple-testing:06",
+        "p-values-and-multiple-testing:07",
+        "p-values-and-multiple-testing:08"
+      ]
+    },
+    {
+      "lesson": "p-values-and-multiple-testing",
+      "owner": "p-value",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "ed2ee048f4a1223331b36c871eab76520c84079067b0c462c32998b6e91471df",
+      "unitIds": [
+        "p-values-and-multiple-testing:10",
+        "p-values-and-multiple-testing:13"
+      ]
+    },
+    {
+      "lesson": "immunogenicity-vs-efficacy",
+      "owner": "immunogenicity-versus-efficacy",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "072d6c5051bfcd6cbda77ba362d6a7ac2b029614136a1e0a07ed4c5411e7507a",
+      "unitIds": [
+        "immunogenicity-vs-efficacy:01",
+        "immunogenicity-vs-efficacy:02",
+        "immunogenicity-vs-efficacy:03",
+        "immunogenicity-vs-efficacy:04",
+        "immunogenicity-vs-efficacy:05",
+        "immunogenicity-vs-efficacy:06",
+        "immunogenicity-vs-efficacy:08",
+        "immunogenicity-vs-efficacy:09",
+        "immunogenicity-vs-efficacy:12"
+      ]
+    },
+    {
+      "lesson": "immunogenicity-vs-efficacy",
+      "owner": "immunogenicity-versus-efficacy",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "0c522538024a61754746276b46eeec43d6e0a3228c443547c1ace3cbfb83d1fe",
+      "unitIds": [
+        "immunogenicity-vs-efficacy:07",
+        "immunogenicity-vs-efficacy:12"
+      ]
+    },
+    {
+      "lesson": "immunogenicity-vs-efficacy",
+      "owner": "immunogenicity-versus-efficacy",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "f2372e307fa34562eabc18d60a8fab734fc20d5a62cd3b85fdca59024a9f04ab",
+      "unitIds": [
+        "immunogenicity-vs-efficacy:10",
+        "immunogenicity-vs-efficacy:11"
+      ]
+    },
+    {
+      "lesson": "immunogenicity-vs-efficacy",
+      "owner": "immunogenicity-versus-efficacy",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "d20273207528168d215869b9acf086a06d42e9b86c68bd478a17b91b747c5e51",
+      "unitIds": [
+        "immunogenicity-vs-efficacy:11"
+      ]
+    },
+    {
+      "lesson": "kaplan-meier",
+      "owner": "kaplan-meier-curve",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "d3132e83ff23cc93db6bddc28f74e3a927929b9e90649ce652925fe44a173a23",
+      "unitIds": [
+        "kaplan-meier:01",
+        "kaplan-meier:02",
+        "kaplan-meier:03",
+        "kaplan-meier:04",
+        "kaplan-meier:05",
+        "kaplan-meier:14"
+      ]
+    },
+    {
+      "lesson": "kaplan-meier",
+      "owner": "kaplan-meier-curve",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "2aab6c6c60ac320cffdaa85b7489d6579ed9c955546bc9d7065417ad867fe32d",
+      "unitIds": [
+        "kaplan-meier:06",
+        "kaplan-meier:07",
+        "kaplan-meier:13"
+      ]
+    },
+    {
+      "lesson": "kaplan-meier",
+      "owner": "kaplan-meier-curve",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "7337477ea12c6eecbd717add4925df8d4708163453f50ef147aa74e9f86bfbb5",
+      "unitIds": [
+        "kaplan-meier:08",
+        "kaplan-meier:09",
+        "kaplan-meier:10",
+        "kaplan-meier:12"
+      ]
+    },
+    {
+      "lesson": "kaplan-meier",
+      "owner": "kaplan-meier-curve",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "55171a7d498e1334e06fd69b2908662ee386e72d3ed81ef15c463c559c099c36",
+      "unitIds": [
+        "kaplan-meier:11",
+        "kaplan-meier:14"
+      ]
+    },
+    {
+      "lesson": "survival-endpoints",
+      "owner": "efs",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f639346eb6256d8eb8bd50f0f67f61155cb221f60c38fd5456578bdaebf0660d",
+      "unitIds": [
+        "survival-endpoints:01",
+        "survival-endpoints:02",
+        "survival-endpoints:03",
+        "survival-endpoints:04",
+        "survival-endpoints:06",
+        "survival-endpoints:08",
+        "survival-endpoints:13",
+        "survival-endpoints:14",
+        "survival-endpoints:15",
+        "survival-endpoints:18",
+        "survival-endpoints:20"
+      ]
+    },
+    {
+      "lesson": "survival-endpoints",
+      "owner": "efs",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "99a09e5920db39afc7f640dc9cc2bf5cd0def49cd007354f376d6919949e9ee9",
+      "unitIds": [
+        "survival-endpoints:05",
+        "survival-endpoints:07",
+        "survival-endpoints:09",
+        "survival-endpoints:10"
+      ]
+    },
+    {
+      "lesson": "survival-endpoints",
+      "owner": "efs",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "f47c3b72f8d499bcedc6100ccd707015ee92d9f62c447e98f12589a1f14aca3f",
+      "unitIds": [
+        "survival-endpoints:11",
+        "survival-endpoints:12"
+      ]
+    },
+    {
+      "lesson": "survival-endpoints",
+      "owner": "efs",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "2b4a5b044962d34db9f3951023a8892f8fd9684dffbcd4b04a05aa55128e6e6a",
+      "unitIds": [
+        "survival-endpoints:16",
+        "survival-endpoints:17",
+        "survival-endpoints:19"
+      ]
+    },
+    {
+      "lesson": "surrogate-endpoints",
+      "owner": "surrogate-validation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "c28b26e64d869bc5e7af8f700c6de71ef0a313129659c80b038b7fe705ca774c",
+      "unitIds": [
+        "surrogate-endpoints:01",
+        "surrogate-endpoints:02",
+        "surrogate-endpoints:03",
+        "surrogate-endpoints:11",
+        "surrogate-endpoints:12",
+        "surrogate-endpoints:14"
+      ]
+    },
+    {
+      "lesson": "surrogate-endpoints",
+      "owner": "surrogate-validation",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "26f93f9401640f61dbc73f2ea9bab8a500c400575e9a84e38f4112a8bc11ec4b",
+      "unitIds": [
+        "surrogate-endpoints:04",
+        "surrogate-endpoints:13"
+      ]
+    },
+    {
+      "lesson": "surrogate-endpoints",
+      "owner": "surrogate-validation",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "f82b895cefe166d9c1830fefab5104ac3b6f1e9807a8c31e54793531f501134e",
+      "unitIds": [
+        "surrogate-endpoints:05",
+        "surrogate-endpoints:06",
+        "surrogate-endpoints:07",
+        "surrogate-endpoints:08",
+        "surrogate-endpoints:09",
+        "surrogate-endpoints:10"
+      ]
+    },
+    {
+      "lesson": "surrogate-endpoints",
+      "owner": "surrogate-validation",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "abe2c1e4c12572ab821f50f075c8d435f31d6d3aa3b0dd7f1456309671acc697",
+      "unitIds": [
+        "surrogate-endpoints:09",
+        "surrogate-endpoints:10",
+        "surrogate-endpoints:14"
+      ]
+    },
+    {
+      "lesson": "cross-trial-comparison",
+      "owner": "cross-trial-comparison",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+      "unitIds": [
+        "cross-trial-comparison:01",
+        "cross-trial-comparison:02",
+        "cross-trial-comparison:03",
+        "cross-trial-comparison:04",
+        "cross-trial-comparison:05",
+        "cross-trial-comparison:11",
+        "cross-trial-comparison:12",
+        "cross-trial-comparison:14"
+      ]
+    },
+    {
+      "lesson": "cross-trial-comparison",
+      "owner": "cross-trial-comparison",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+      "unitIds": [
+        "cross-trial-comparison:06",
+        "cross-trial-comparison:07",
+        "cross-trial-comparison:08"
+      ]
+    },
+    {
+      "lesson": "cross-trial-comparison",
+      "owner": "cross-trial-comparison",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+      "unitIds": [
+        "cross-trial-comparison:09",
+        "cross-trial-comparison:10",
+        "cross-trial-comparison:13"
+      ]
+    },
+    {
+      "lesson": "denominators-and-conditional-probability",
+      "owner": "denominators-and-conditional-probability",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+      "unitIds": [
+        "denominators-and-conditional-probability:01",
+        "denominators-and-conditional-probability:02",
+        "denominators-and-conditional-probability:03",
+        "denominators-and-conditional-probability:04",
+        "denominators-and-conditional-probability:05",
+        "denominators-and-conditional-probability:13",
+        "denominators-and-conditional-probability:14"
+      ]
+    },
+    {
+      "lesson": "denominators-and-conditional-probability",
+      "owner": "denominators-and-conditional-probability",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+      "unitIds": [
+        "denominators-and-conditional-probability:07",
+        "denominators-and-conditional-probability:08",
+        "denominators-and-conditional-probability:09"
+      ]
+    },
+    {
+      "lesson": "denominators-and-conditional-probability",
+      "owner": "denominators-and-conditional-probability",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+      "unitIds": [
+        "denominators-and-conditional-probability:06",
+        "denominators-and-conditional-probability:10",
+        "denominators-and-conditional-probability:11",
+        "denominators-and-conditional-probability:12"
+      ]
+    },
+    {
+      "lesson": "evidence-chain-variant-to-benefit",
+      "owner": "measurement-to-benefit-evidence",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+      "unitIds": [
+        "evidence-chain-variant-to-benefit:01",
+        "evidence-chain-variant-to-benefit:02",
+        "evidence-chain-variant-to-benefit:03",
+        "evidence-chain-variant-to-benefit:04",
+        "evidence-chain-variant-to-benefit:15",
+        "evidence-chain-variant-to-benefit:16"
+      ]
+    },
+    {
+      "lesson": "evidence-chain-variant-to-benefit",
+      "owner": "measurement-to-benefit-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+      "unitIds": [
+        "evidence-chain-variant-to-benefit:05",
+        "evidence-chain-variant-to-benefit:06",
+        "evidence-chain-variant-to-benefit:07",
+        "evidence-chain-variant-to-benefit:08",
+        "evidence-chain-variant-to-benefit:09",
+        "evidence-chain-variant-to-benefit:10",
+        "evidence-chain-variant-to-benefit:11",
+        "evidence-chain-variant-to-benefit:12",
+        "evidence-chain-variant-to-benefit:14"
+      ]
+    },
+    {
+      "lesson": "evidence-chain-variant-to-benefit",
+      "owner": "measurement-to-benefit-evidence",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+      "unitIds": [
+        "evidence-chain-variant-to-benefit:08",
+        "evidence-chain-variant-to-benefit:11",
+        "evidence-chain-variant-to-benefit:13"
+      ]
+    },
+    {
+      "lesson": "lead-time-bias",
+      "owner": "lead-time-bias",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+      "unitIds": [
+        "lead-time-bias:01",
+        "lead-time-bias:02",
+        "lead-time-bias:03",
+        "lead-time-bias:04",
+        "lead-time-bias:10",
+        "lead-time-bias:13"
+      ]
+    },
+    {
+      "lesson": "lead-time-bias",
+      "owner": "lead-time-bias",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "27d75a55a377cd55aaa3caa0c76d1d6e7a94e62a4b00ce6ad7688d25d6ed92b5",
+      "unitIds": [
+        "lead-time-bias:05"
+      ]
+    },
+    {
+      "lesson": "lead-time-bias",
+      "owner": "lead-time-bias",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+      "unitIds": [
+        "lead-time-bias:06",
+        "lead-time-bias:07",
+        "lead-time-bias:08",
+        "lead-time-bias:09",
+        "lead-time-bias:11"
+      ]
+    },
+    {
+      "lesson": "lead-time-bias",
+      "owner": "lead-time-bias",
+      "field": "notes",
+      "index": 5,
+      "passageSha256": "a73097557fe1fb90a34b5465c4d858ec3585be5040b27952089dd7635eb7e43f",
+      "unitIds": [
+        "lead-time-bias:12"
+      ]
+    },
+    {
+      "lesson": "population-vs-individual-risk",
+      "owner": "population-versus-individual-risk",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+      "unitIds": [
+        "population-vs-individual-risk:01",
+        "population-vs-individual-risk:02",
+        "population-vs-individual-risk:03",
+        "population-vs-individual-risk:04",
+        "population-vs-individual-risk:05",
+        "population-vs-individual-risk:12",
+        "population-vs-individual-risk:13"
+      ]
+    },
+    {
+      "lesson": "population-vs-individual-risk",
+      "owner": "population-versus-individual-risk",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+      "unitIds": [
+        "population-vs-individual-risk:06",
+        "population-vs-individual-risk:07",
+        "population-vs-individual-risk:08"
+      ]
+    },
+    {
+      "lesson": "population-vs-individual-risk",
+      "owner": "population-versus-individual-risk",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "ed21ebbc13026a45fe25dc6aa2754ea0057808dc7e8c58f6e21e32d87a8615b8",
+      "unitIds": [
+        "population-vs-individual-risk:09",
+        "population-vs-individual-risk:10",
+        "population-vs-individual-risk:11"
+      ]
+    },
+    {
+      "lesson": "reading-a-graph-in-five-passes",
+      "owner": "graph-reading",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+      "unitIds": [
+        "reading-a-graph-in-five-passes:01",
+        "reading-a-graph-in-five-passes:02",
+        "reading-a-graph-in-five-passes:03",
+        "reading-a-graph-in-five-passes:04",
+        "reading-a-graph-in-five-passes:05",
+        "reading-a-graph-in-five-passes:06",
+        "reading-a-graph-in-five-passes:07",
+        "reading-a-graph-in-five-passes:14",
+        "reading-a-graph-in-five-passes:16"
+      ]
+    },
+    {
+      "lesson": "reading-a-graph-in-five-passes",
+      "owner": "graph-reading",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+      "unitIds": [
+        "reading-a-graph-in-five-passes:08",
+        "reading-a-graph-in-five-passes:09",
+        "reading-a-graph-in-five-passes:10",
+        "reading-a-graph-in-five-passes:13",
+        "reading-a-graph-in-five-passes:15"
+      ]
+    },
+    {
+      "lesson": "reading-a-graph-in-five-passes",
+      "owner": "graph-reading",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "86cfa34e58f2111db204e27780c46563a5c3e7f0566ccef8144a571f8dc57036",
+      "unitIds": [
+        "reading-a-graph-in-five-passes:11",
+        "reading-a-graph-in-five-passes:12"
+      ]
+    },
+    {
+      "lesson": "reduction-is-not-regression",
+      "owner": "growth-rate-inhibition",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+      "unitIds": [
+        "reduction-is-not-regression:01",
+        "reduction-is-not-regression:02",
+        "reduction-is-not-regression:03",
+        "reduction-is-not-regression:04",
+        "reduction-is-not-regression:09",
+        "reduction-is-not-regression:11"
+      ]
+    },
+    {
+      "lesson": "reduction-is-not-regression",
+      "owner": "growth-rate-inhibition",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+      "unitIds": [
+        "reduction-is-not-regression:05",
+        "reduction-is-not-regression:06",
+        "reduction-is-not-regression:07",
+        "reduction-is-not-regression:08"
+      ]
+    },
+    {
+      "lesson": "reduction-is-not-regression",
+      "owner": "growth-rate-inhibition",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+      "unitIds": [
+        "reduction-is-not-regression:08",
+        "reduction-is-not-regression:09",
+        "reduction-is-not-regression:10",
+        "reduction-is-not-regression:11"
+      ]
+    },
+    {
+      "lesson": "transportability-and-eligibility",
+      "owner": "trial-population-transportability",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+      "unitIds": [
+        "transportability-and-eligibility:01",
+        "transportability-and-eligibility:02",
+        "transportability-and-eligibility:03",
+        "transportability-and-eligibility:04",
+        "transportability-and-eligibility:08",
+        "transportability-and-eligibility:10",
+        "transportability-and-eligibility:11",
+        "transportability-and-eligibility:13"
+      ]
+    },
+    {
+      "lesson": "transportability-and-eligibility",
+      "owner": "trial-population-transportability",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+      "unitIds": [
+        "transportability-and-eligibility:05",
+        "transportability-and-eligibility:06",
+        "transportability-and-eligibility:07"
+      ]
+    },
+    {
+      "lesson": "transportability-and-eligibility",
+      "owner": "trial-population-transportability",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+      "unitIds": [
+        "transportability-and-eligibility:09",
+        "transportability-and-eligibility:10",
+        "transportability-and-eligibility:11",
+        "transportability-and-eligibility:12",
+        "transportability-and-eligibility:13"
+      ]
+    }
+  ],
+  "uniqueRetainedOwnNote": "The Kaplan-Meier event-fraction calculation does not specify a constant between-group hazard ratio. In Royston and Parmar's 2013 simulations, log-rank significance levels remained close to their planned value under the studied proportional and nonproportional patterns, while power differed. That illustrates why a model assumption, a test's calibration and its power are separate questions; it is not proof that every survival analysis is valid."
+}

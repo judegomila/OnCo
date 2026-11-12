@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-11-08",
+  "proposal": {
+    "url": "https://github.com/judegomila/OnCo/pull/369",
+    "head": "b5a3c341deb1f5cce51dcb3791b239898eea3647",
+    "records": 39,
+    "newRecords": 32,
+    "existingUpdates": 7
+  },
+  "previousSnapshotHead": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef",
+  "reviewedSourceRequirementsClosed": 20,
+  "newSourceReading": 0,
+  "literatureOccurrencesAdded": 20,
+  "sourceCustody": "Primary resolution, correction/retraction reading scopes, registry captures, hashes and rendered receipts are in draft #369 research/payloads-2026-11-08/follow-up. Original response/abstract bodies stay outside the public checkout.",
+  "externalEligibilityDependency": "NCT07529782 contradicts itself; no corrected eligibility limit is asserted.",
+  "open": [
+    "CHK1/repair-directed attached-cargo verification",
+    "Legacy comparison properties and derivative identities",
+    "Legacy modular exact-component inference",
+    "Global same/reflect explanatory alias matching"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Coordinator source-to-field acceptance in registered drafts, at recorded evidence scope. Not main or live.",
+  "originalLessons": 13,
+  "laterLessons": 16,
+  "originalRequirements": 206,
+  "laterRequirements": 250,
+  "unionTeachingRequirements": 251,
+  "exactFieldProofs": 359,
+  "changedOrNewCanonicalOwners": 17,
+  "newRootTerms": 4,
+  "actualVersionedRecordSnapshots": 18,
+  "sourceFigureFiles": 22,
+  "sourceFigureVersionEntries": 44,
+  "mermaidInstances": 28,
+  "distinctMermaidRendersViewed": 16,
+  "actualReaderAndMarkdownPassages": 162,
+  "sourceLimitsRetained": true,
+  "goalStillActive": true
+}

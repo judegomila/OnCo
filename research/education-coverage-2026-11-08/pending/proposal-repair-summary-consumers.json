@@ -1,0 +1,1383 @@
+{
+  "version": "proposal-repair-summary-consumers",
+  "state": "153 additional actual short-summary selectors use the corrected English fallback. Nine matching RAS selectors were also checked in the schema draft without counting those pairs twice. No new named language review.",
+  "records": [
+    {
+      "id": "hrd-ar",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (ar)",
+      "canonicalRecordId": "hrd",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (ar)",
+      "canonicalRecordId": "replication-stress",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (ar)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-ar",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (ar)",
+      "canonicalRecordId": "brd4",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-ar",
+      "kind": "reader-summary-entry",
+      "name": "MYC (ar)",
+      "canonicalRecordId": "myc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-ar",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (ar)",
+      "canonicalRecordId": "notch",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-ar",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (ar)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-ar",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (ar)",
+      "canonicalRecordId": "wnt",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-ar",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (ar)",
+      "canonicalRecordId": "braf",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-ar",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (ar)",
+      "canonicalRecordId": "brca",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (ar)",
+      "canonicalRecordId": "ddr",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-ar",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (ar)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-ar",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (ar)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-ar",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (ar)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-ar",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (ar)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-ar",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (ar)",
+      "canonicalRecordId": "keap1",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (ar)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-de",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (de)",
+      "canonicalRecordId": "hrd",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (de)",
+      "canonicalRecordId": "replication-stress",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (de)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-de",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (de)",
+      "canonicalRecordId": "brd4",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-de",
+      "kind": "reader-summary-entry",
+      "name": "MYC (de)",
+      "canonicalRecordId": "myc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-de",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (de)",
+      "canonicalRecordId": "notch",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-de",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (de)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-de",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (de)",
+      "canonicalRecordId": "wnt",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-de",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (de)",
+      "canonicalRecordId": "braf",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-de",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (de)",
+      "canonicalRecordId": "brca",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (de)",
+      "canonicalRecordId": "ddr",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-de",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (de)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-de",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (de)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-de",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (de)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-de",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (de)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-de",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (de)",
+      "canonicalRecordId": "keap1",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-de",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (de)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-es",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (es)",
+      "canonicalRecordId": "hrd",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (es)",
+      "canonicalRecordId": "replication-stress",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (es)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-es",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (es)",
+      "canonicalRecordId": "brd4",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-es",
+      "kind": "reader-summary-entry",
+      "name": "MYC (es)",
+      "canonicalRecordId": "myc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-es",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (es)",
+      "canonicalRecordId": "notch",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-es",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (es)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-es",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (es)",
+      "canonicalRecordId": "wnt",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-es",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (es)",
+      "canonicalRecordId": "braf",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-es",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (es)",
+      "canonicalRecordId": "brca",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (es)",
+      "canonicalRecordId": "ddr",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-es",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (es)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-es",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (es)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-es",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (es)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-es",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (es)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-es",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (es)",
+      "canonicalRecordId": "keap1",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-es",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (es)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-fr",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (fr)",
+      "canonicalRecordId": "hrd",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (fr)",
+      "canonicalRecordId": "replication-stress",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (fr)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-fr",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (fr)",
+      "canonicalRecordId": "brd4",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-fr",
+      "kind": "reader-summary-entry",
+      "name": "MYC (fr)",
+      "canonicalRecordId": "myc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-fr",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (fr)",
+      "canonicalRecordId": "notch",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-fr",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (fr)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-fr",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (fr)",
+      "canonicalRecordId": "wnt",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-fr",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (fr)",
+      "canonicalRecordId": "braf",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-fr",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (fr)",
+      "canonicalRecordId": "brca",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (fr)",
+      "canonicalRecordId": "ddr",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-fr",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (fr)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-fr",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (fr)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-fr",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (fr)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-fr",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (fr)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-fr",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (fr)",
+      "canonicalRecordId": "keap1",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (fr)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-hi",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (hi)",
+      "canonicalRecordId": "hrd",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (hi)",
+      "canonicalRecordId": "replication-stress",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (hi)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-hi",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (hi)",
+      "canonicalRecordId": "brd4",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-hi",
+      "kind": "reader-summary-entry",
+      "name": "MYC (hi)",
+      "canonicalRecordId": "myc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-hi",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (hi)",
+      "canonicalRecordId": "notch",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-hi",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (hi)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-hi",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (hi)",
+      "canonicalRecordId": "wnt",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-hi",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (hi)",
+      "canonicalRecordId": "braf",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-hi",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (hi)",
+      "canonicalRecordId": "brca",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (hi)",
+      "canonicalRecordId": "ddr",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-hi",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (hi)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-hi",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (hi)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-hi",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (hi)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-hi",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (hi)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-hi",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (hi)",
+      "canonicalRecordId": "keap1",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (hi)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-ja",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (ja)",
+      "canonicalRecordId": "hrd",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (ja)",
+      "canonicalRecordId": "replication-stress",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (ja)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-ja",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (ja)",
+      "canonicalRecordId": "brd4",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-ja",
+      "kind": "reader-summary-entry",
+      "name": "MYC (ja)",
+      "canonicalRecordId": "myc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-ja",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (ja)",
+      "canonicalRecordId": "notch",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-ja",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (ja)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-ja",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (ja)",
+      "canonicalRecordId": "wnt",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-ja",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (ja)",
+      "canonicalRecordId": "braf",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-ja",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (ja)",
+      "canonicalRecordId": "brca",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (ja)",
+      "canonicalRecordId": "ddr",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-ja",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (ja)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-ja",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (ja)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-ja",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (ja)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-ja",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (ja)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-ja",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (ja)",
+      "canonicalRecordId": "keap1",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (ja)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-pt",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (pt)",
+      "canonicalRecordId": "hrd",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (pt)",
+      "canonicalRecordId": "replication-stress",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (pt)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-pt",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (pt)",
+      "canonicalRecordId": "brd4",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-pt",
+      "kind": "reader-summary-entry",
+      "name": "MYC (pt)",
+      "canonicalRecordId": "myc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-pt",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (pt)",
+      "canonicalRecordId": "notch",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-pt",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (pt)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-pt",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (pt)",
+      "canonicalRecordId": "wnt",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-pt",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (pt)",
+      "canonicalRecordId": "braf",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-pt",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (pt)",
+      "canonicalRecordId": "brca",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (pt)",
+      "canonicalRecordId": "ddr",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-pt",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (pt)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-pt",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (pt)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-pt",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (pt)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-pt",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (pt)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-pt",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (pt)",
+      "canonicalRecordId": "keap1",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (pt)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-zh",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (zh)",
+      "canonicalRecordId": "hrd",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (zh)",
+      "canonicalRecordId": "replication-stress",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (zh)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-zh",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (zh)",
+      "canonicalRecordId": "brd4",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-zh",
+      "kind": "reader-summary-entry",
+      "name": "MYC (zh)",
+      "canonicalRecordId": "myc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-zh",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (zh)",
+      "canonicalRecordId": "notch",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-zh",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (zh)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-zh",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (zh)",
+      "canonicalRecordId": "wnt",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-zh",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (zh)",
+      "canonicalRecordId": "braf",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-zh",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (zh)",
+      "canonicalRecordId": "brca",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (zh)",
+      "canonicalRecordId": "ddr",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-zh",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (zh)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-zh",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (zh)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-zh",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (zh)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-zh",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (zh)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-zh",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (zh)",
+      "canonicalRecordId": "keap1",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (zh)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-simple",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) (simple)",
+      "canonicalRecordId": "hrd",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "replication-stress-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA replication stress (simple)",
+      "canonicalRecordId": "replication-stress",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "androgen-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "Androgen receptor (simple)",
+      "canonicalRecordId": "androgen-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brd4-simple",
+      "kind": "reader-summary-entry",
+      "name": "BRD4 (simple)",
+      "canonicalRecordId": "brd4",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myc-simple",
+      "kind": "reader-summary-entry",
+      "name": "MYC (simple)",
+      "canonicalRecordId": "myc",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "notch-simple",
+      "kind": "reader-summary-entry",
+      "name": "Notch signalling (simple)",
+      "canonicalRecordId": "notch",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pi3k-akt-mtor-simple",
+      "kind": "reader-summary-entry",
+      "name": "PI3K / AKT / mTOR (simple)",
+      "canonicalRecordId": "pi3k-akt-mtor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wnt-simple",
+      "kind": "reader-summary-entry",
+      "name": "Wnt / β-catenin (simple)",
+      "canonicalRecordId": "wnt",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "braf-simple",
+      "kind": "reader-summary-entry",
+      "name": "BRAF (simple)",
+      "canonicalRecordId": "braf",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-simple",
+      "kind": "reader-summary-entry",
+      "name": "BRCA1 / BRCA2 (HRD) (simple)",
+      "canonicalRecordId": "brca",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ddr-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA damage response & homologous recombination (simple)",
+      "canonicalRecordId": "ddr",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-genomic-scar-scores-simple",
+      "kind": "reader-summary-entry",
+      "name": "HRD genomic scar scores (GIS, LOH, HRDetect) (simple)",
+      "canonicalRecordId": "hrd-genomic-scar-scores",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mutational-signature-simple",
+      "kind": "reader-summary-entry",
+      "name": "Mutational signature (simple)",
+      "canonicalRecordId": "mutational-signature",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "homologous-recombination-repair-simple",
+      "kind": "reader-summary-entry",
+      "name": "Double-strand break repair: HR versus end joining (simple)",
+      "canonicalRecordId": "homologous-recombination-repair",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ras-mapk-simple",
+      "kind": "reader-summary-entry",
+      "name": "RAS / RAF / MEK / ERK (MAPK) (simple)",
+      "canonicalRecordId": "ras-mapk",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keap1-simple",
+      "kind": "reader-summary-entry",
+      "name": "KEAP1 (simple)",
+      "canonicalRecordId": "keap1",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rtk-activation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Receptor tyrosine kinase activation (simple)",
+      "canonicalRecordId": "rtk-activation",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

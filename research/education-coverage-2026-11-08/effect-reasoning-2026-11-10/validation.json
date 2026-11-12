@@ -1,0 +1,299 @@
+{
+  "drafts": {
+    "w": {
+      "validateEntities": 22784,
+      "commands": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.86
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.0
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 29.37
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 101.1
+        }
+      ],
+      "fullSuiteFiles": 284,
+      "fullSuiteTests": 2829,
+      "existingSkippedTests": 2,
+      "lintErrors": 0,
+      "existingLintWarnings": 7
+    },
+    "f": {
+      "validateEntities": 22712,
+      "commands": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 2.31
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.4
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 29.23
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 93.04
+        }
+      ],
+      "fullSuiteFiles": 281,
+      "fullSuiteTests": 2813,
+      "existingSkippedTests": 2,
+      "lintErrors": 0,
+      "existingLintWarnings": 7
+    },
+    "s": {
+      "validateEntities": 22719,
+      "commands": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 2.34
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.14
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 29.36
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 89.98
+        }
+      ],
+      "fullSuiteFiles": 281,
+      "fullSuiteTests": 2813,
+      "existingSkippedTests": 2,
+      "lintErrors": 0,
+      "existingLintWarnings": 7
+    }
+  },
+  "duplicateSurvey": {
+    "groupsPerDraft": 9,
+    "newDoiOrPmidDuplicateGroups": 0
+  },
+  "doiCache": [
+    {
+      "side": "w",
+      "positiveAdditions": [
+        {
+          "doi": "10.1007/s10654-016-0149-3",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations"
+        },
+        {
+          "doi": "10.1016/j.annonc.2025.11.020",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": [
+            "Durvalumab with carboplatin/paclitaxel and bevacizumab followed by durvalumab and bevacizumab with or without olaparib maintenance in newly diagnosed non-BRCA-mutated advanced ovarian cancer"
+          ]
+        },
+        {
+          "doi": "10.1080/00031305.2016.1154108",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "The ASA Statement on                     <i>p</i>                     -Values: Context, Process, and Purpose"
+        },
+        {
+          "doi": "10.1083/jcb.202001064",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "SuperPlots: Communicating reproducibility and variability in cell biology"
+        },
+        {
+          "doi": "10.1111/j.2517-6161.1972.tb00899.x",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Regression Models and Life-Tables"
+        },
+        {
+          "doi": "10.1136/bmj.310.6977.452",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "The number needed to treat: a clinically useful measure of treatment effect"
+        },
+        {
+          "doi": "10.1136/bmj.317.7168.1309",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Confidence intervals for the number needed to treat"
+        },
+        {
+          "doi": "10.1136/bmj.320.7247.1468",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Statistics Notes: The odds ratio"
+        },
+        {
+          "doi": "10.1158/1078-0432.ccr-20-3901",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": [
+            "FDA Approval Summary: Lurbinectedin for the Treatment of Metastatic Small Cell Lung Cancer"
+          ]
+        },
+        {
+          "doi": "10.1186/1471-2288-13-152",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Restricted mean survival time: an alternative to the hazard ratio for the design and analysis of randomized trials with a time-to-event outc"
+        },
+        {
+          "doi": "10.1214/ss/1009211805",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Confounding and Collapsibility in Causal Inference"
+        }
+      ],
+      "globalFetchedPreserved": "2026-11-05",
+      "existingEntriesChanged": 0
+    },
+    {
+      "side": "f",
+      "positiveAdditions": [
+        {
+          "doi": "10.1038/nmeth.3853",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs"
+        },
+        {
+          "doi": "10.1111/j.1467-985x.2010.00673.x",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "The Use of Propensity Scores to Assess the Generalizability of Results from Randomized Trials"
+        },
+        {
+          "doi": "10.1126/science.1233606",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Monitoring Drug Target Engagement in Cells and Tissues Using the Cellular Thermal Shift Assay"
+        },
+        {
+          "doi": "10.7554/elife.92311",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Replication of null results: Absence of evidence or evidence of absence?"
+        }
+      ],
+      "globalFetchedPreserved": "2026-11-05",
+      "existingEntriesChanged": 0
+    },
+    {
+      "side": "s",
+      "positiveAdditions": [
+        {
+          "doi": "10.1038/s41591-020-01206-4",
+          "resolver": "Crossref",
+          "titleAsReturnedOrRecorded": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma"
+        }
+      ],
+      "globalFetchedPreserved": "2026-11-05",
+      "existingEntriesChanged": 0
+    }
+  ],
+  "cacheFollowup": [
+    {
+      "side": "w",
+      "exit": 0,
+      "seconds": 8.26
+    },
+    {
+      "side": "f",
+      "exit": 0,
+      "seconds": 8.14
+    },
+    {
+      "side": "s",
+      "exit": 0,
+      "seconds": 8.08
+    }
+  ],
+  "limits": [
+    "No new Next production page build",
+    "No browser hydration or mobile/accessibility certification",
+    "No expert or named language sign-off",
+    "No merge or deployment"
+  ],
+  "afterMetadata": {
+    "focusedFilesPassed": 3,
+    "focusedTestsPassed": 34,
+    "checks": [
+      "education-coverage",
+      "audit",
+      "education-summary-consumers"
+    ],
+    "zeroChangeSourceReplay": true,
+    "staleOrMissingEvidence": 0
+  }
+}

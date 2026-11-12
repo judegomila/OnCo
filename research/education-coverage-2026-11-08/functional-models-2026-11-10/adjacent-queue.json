@@ -1,0 +1,12 @@
+{
+  "newGlobalFinding": "functional-model-legacy-target-context",
+  "existingQueuesRetained": true,
+  "guideArtworkIssues": "BH3 and single-cell figure layout collisions retained for Guide owner.",
+  "sourceAccessLimits": [
+    "NIH Assay Guidance Manual NBK144065: challenge/access page; full chapter not read. Official Promega ATP technical bulletin and Hafner supply the adopted interpretation.",
+    "Janeway NBK27163: access/challenge page; no full chapter credit. Macdonald primary raw abstract supports the bounded HLA allorecognition mechanism.",
+    "Voabil full article not read here: resident T-cell reactivation/clinical-response association restricted to verified raw abstract.",
+    "Yang 2026 humanized immune-stroma PDX restricted to abstract; no general conventional-PDX immune claim.",
+    "Fraser protocol full-article scope remains as recorded previously; mitochondrial/BAX/BAK and peptide interpretation supported by accessible Ryan/Butterworth targeted text."
+  ]
+}

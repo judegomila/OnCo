@@ -1,0 +1,197 @@
+{
+  "version": "proposal-blood-immune-peer",
+  "state": "registered-and-rendered-draft; coordinator source-to-field acceptance at recorded evidence scope; not merged",
+  "draft": 371,
+  "captureParentHead": "d497baaeb8adac1e3ccd3af27e8d83f305820a23",
+  "actualPeerHead": "199b055bc9e6965aae80225d46b7963003cfdf34",
+  "records": [
+    {
+      "id": "finite-molecule-sampling",
+      "kind": "term",
+      "name": "Finite-molecule sampling in blood tests",
+      "aka": [
+        "ctDNA molecular sampling",
+        "independent molecules versus sequencing reads"
+      ],
+      "tldr": "A small blood sample contains a finite number of original DNA molecules. Sequencing copies of those molecules more deeply cannot recover a tumor molecule that never entered the analyzed sample.",
+      "summary": "Original molecule availability, recovery and technical errors place different limits on cell-free DNA analysis. A primary error-suppression study combined molecular barcoding and background correction to improve detection in a defined assay. Another primary comparison examined tumor-informed and tumor-naive assays on matched breast cancer samples. Their findings do not create one universal detection limit: sample input, tracked features and the complete workflow remain part of the result.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Molecular recovery and digital error suppression (2016)",
+          "url": "https://doi.org/10.1038/nbt.3520"
+        },
+        {
+          "label": "Matched comparison of tumor-DNA assays (2023)",
+          "url": "https://doi.org/10.15252/emmm.202216505"
+        },
+        {
+          "label": "FDA: statistical guidance for diagnostic-test studies (March 2007)",
+          "url": "https://www.fda.gov/media/71147/download"
+        },
+        {
+          "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna-shedding-negative-results",
+        "detection-versus-quantification",
+        "tumor-informed-assay-design"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For independent random target-molecule counts with Poisson mean lambda, the chance of none is exp(-lambda). At lambda = 1 this is 36.8%, so an average of one does not guarantee a molecule. In a fictional model, an evaluated aliquot supplies 4,500 independent amplifiable opportunities at one locus, each with a target-allele probability of 1 in 10,000. The expected target count is 0.45. If target counts follow a Poisson distribution, the chance of no target is exp(-0.45), 63.8%. Twenty independent loci with the same opportunity count and probability give an expected total of 9 and exp(-9), 0.012%, for none. Independence, equal recovery and one retained target being sufficient are assumptions of this model. These are not measured clinical false-negative rates. A tumour-DNA fraction cannot simply replace the target-allele probability without assumptions about copy number, variant multiplicity and which tumour clones carry the variant. More reads cannot recover an original molecule absent from the aliquot.",
+        "A worked example: in a multiplex PCR assay with a theoretical limit of 1 / (4,500 copies x variants), one sample not detected with 4,500 amplifiable copies was detected at 7.9 parts per million when re-assayed with 27,000 copies, and the authors note that detection at the theoretical limit rests on a single mutant molecule and is subject to the stochastic nature of sampling (Santonja 2023). A nominal detection limit from high-input validation material may not apply to a low-input clinical sample, so a laboratory with a 95% detection claim at 30 units of input cannot attach the same claim to a sample with 5 units without supporting data.",
+        "Analytical detection and clinical sensitivity answer different questions. FDA diagnostic-test guidance dated March 2007 defines clinical sensitivity by the proportion testing positive among people who have the specified condition, judged against the reference standard in the intended-use population. In a residual-disease study, disease definition, follow-up, draw schedule, evaluable samples and recurrence sites shape that denominator. An analytical limit measured in prepared material does not supply that clinical proportion, and a negative test does not establish absence of cancer.",
+        "Following a blood test from body to result separates biological availability, inclusion in the evaluated aliquot, recovery through processing, and the final calling rule. Low shedding, handling losses, background or a failed quality criterion can interrupt different steps. Repeated draws observe different times, but tumour biology and handling can make their errors correlated; they are not automatically independent repeats. A failed sample or an unbuildable reference needs its stated failure disposition rather than being silently called negative.",
+        "A validation report needs the evaluated plasma volume, recovered DNA and independent molecular coverage, together with the feature-level and combined calling rules. FDA's November 2024 drug-development guidance asks for representative clinical specimens, relevant input ranges, precision and accuracy, and comparability of any contrived reference samples. Testing one prepared input cannot show that every clinical sample has the same recovery, detection probability or outcome-based sensitivity."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy",
+      "kind": "term",
+      "name": "Blood-cell variants in liquid biopsy",
+      "aka": [
+        "clonal hematopoiesis and plasma variant origin",
+        "white blood cell sequencing for cfDNA interpretation"
+      ],
+      "tldr": "A DNA change found in plasma may come from blood cells rather than a tumor. Establishing where a change came from is part of interpreting a liquid biopsy.",
+      "summary": "A primary study compared plasma cell-free DNA, matched white blood cells and tumor samples and found substantial contributions from clonal hematopoiesis to plasma variants. Matched blood-cell sequencing helped attribute origin. A technically real somatic variant is not necessarily tumor-derived, and origin cannot be assigned from the gene name alone. This measurement problem is distinct from assessing the future health implications of a blood-cell clone.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Matched plasma, blood-cell and tumor sequencing study (2019)",
+          "url": "https://doi.org/10.1038/s41591-019-0652-7"
+        },
+        {
+          "label": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis",
+          "url": "https://doi.org/10.1038/s41588-020-00710-0"
+        },
+        {
+          "label": "Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes",
+          "url": "https://doi.org/10.1056/NEJMoa1408617"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna",
+        "vaf",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "clonal-haematopoiesis"
+      ],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "How common it is: in paired plasma and white-blood-cell sequencing, 53.2% of cfDNA mutations in 124 people with metastatic cancer and 81.6% in 47 people without cancer had features of clonal haematopoiesis, and variants that could not be separated from white-blood-cell DNA kept an explicit ambiguous category (Razavi 2019). Blood-cell clones also fall into gene groups: DNMT3A, TET2 and ASXL1 with age (Jaiswal 2014) and TP53, PPM1D and CHEK2 selected by radiation, platinum and topoisomerase II inhibitors (Bolton 2020). A gene often mutated in tumours is therefore not proof of tumour origin.",
+        "Attribution rule: matched white-blood-cell sequencing is the standard comparison, but its gene coverage, depth and detection rules matter, a clone below its sensitivity can stay unseen, and subtracting every blood match is not a complete method because a variant can be present in blood and tumour. In a fictional case the same variant V is detected in plasma and blood cells and not in the sampled tumour. That supports a blood-cell contribution, and tumour non-detection is not a biological zero because it is bounded by coverage, sensitivity, timing and the region sampled."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "detection-versus-quantification",
+      "kind": "term",
+      "name": "Detection and quantification limits",
+      "aka": [
+        "limit of detection",
+        "limit of quantification",
+        "limit of quantitation",
+        "LoD versus LoQ"
+      ],
+      "tldr": "A test may detect that a signal is present before it can measure its amount reliably. Both limits need to be defined for the method and sample conditions.",
+      "summary": "A detection limit concerns the lowest amount that can be detected under stated conditions; a quantitation limit concerns an amount measurable with suitable accuracy and precision. These are analytical properties, distinct from the proportion of patients with a condition who test positive. Input, recovery, background, calling rules and acceptable error influence what a stated limit means. The FDA/ICH source supplies general analytical definitions for drug procedures, not certification of any particular clinical tumor-DNA assay. The ICH Q2(R2) glossary, as reproduced in FDA guidance, defines the detection limit as the lowest amount of an analyte that can be detected but not necessarily quantitated as an exact value, and the quantitation limit as the lowest amount that can be quantitatively determined with suitable precision and accuracy. It defines accuracy as closeness of agreement between an accepted reference value and the measured value, and precision as the closeness of agreement, or scatter, between a series of measurements of the same homogeneous sample, which is usually expressed as a variance, standard deviation or coefficient of variation. Mass spectrometry assay validation also considers the limit of the blank, the lower limit of quantification, linearity and parallelism (Carr and colleagues, 2014).",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "FDA/ICH Q2(R2): analytical procedure validation, glossary",
+          "url": "https://www.fda.gov/media/161201/download"
+        },
+        {
+          "label": "Primary limit-of-detection estimation method (2004)",
+          "url": "https://doi.org/10.1373/clinchem.2003.029983"
+        },
+        {
+          "label": "FDA: biomarker technical review, terminology appendix (November 2018)",
+          "url": "https://www.fda.gov/media/119431/download"
+        },
+        {
+          "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "CLSI: harmonized analytical terminology",
+          "url": "https://htd.clsi.org/listterms.asp?button=Submit"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "sensitivity-specificity",
+        "analytical-vs-clinical-validation",
+        "finite-molecule-sampling"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A detection call and a reliable amount are different claims: the limit of detection describes detection probability under specified conditions and the limit of quantitation describes where a number is reliable, and the two have separate validation criteria. A value detected below the quantitative range does not support an exact fold change. In ctDNA reporting, a concentration such as mean tumour molecules per millilitre, a fraction such as variant allele fraction and a call are different quantities, so the fictional 0.01% variant allele fraction (100 parts per million of variant alleles) cannot be compared with a 0.2 molecules per millilitre report without both assays' methods and calibration.",
+        "Detection and quantitation need different validation criteria. The terminology appendix of a November 2018 FDA technical review defines a detection limit using a specified detection probability and a quantitation limit using stated accuracy, or bias and precision, requirements. That review concerns a malaria biomarker, not an oncology-assay validation. The distinction explains why detection below a validated quantitative range does not justify an exact fold change; a commonly used 95% detection criterion is a specified convention, not a property guaranteed for every input or sample.",
+        "Validation of an amount needs the stated bias and precision criteria in the relevant specimen matrix, input range and measuring interval, with appropriate reference material and controls. A nominal detection limit describes its own conditions; it does not predict whether a different assay would miss a particular printed result. Keep the assay version and collection time with a trend, and treat failed input quality separately from a negative detection call.",
+        "The limit of blank describes an upper background response at a specified probability. A limit of detection concerns an amount that can be detected under stated false-call and detection-probability conditions; LoD95 specifies 95 per cent detection in the tested workflow. It is not a line above which every repeat must be positive, nor 95 per cent certainty that a person has disease. A limit of quantitation requires stated quantitative accuracy, including bias and imprecision goals. The limits answer different questions and have no universal spacing; they may coincide under a particular method and its criteria.",
+        "Evaluate repeated blanks and low-level specimens across the conditions the claim covers. Each finite set of repeats needs representative clinical specimens or suitably equivalent reference inputs. Record the analyte, amount or concentration units, specimen matrix, input, workflow boundary, assay version and acceptable false-positive, false-negative and quantitative-error rates. Matrix means the material surrounding the analyte; reference material with a known added analyte amount needs justified equivalence to the clinical specimen. A limit measured on purified material is not automatically a collection-to-report limit. Contamination, nonspecific signal, calibration bias, poor recovery, unrepresentative targets, different lots or operators and inadequate input can change performance. Calibration-slope sensitivity, analytical detection capability and clinical sensitivity are different uses of the same word.",
+        "A clinical decision threshold answers a different question from analytical detection or quantitation. Clinical sensitivity counts positive results among people meeting a defined reference condition; it cannot be converted directly from a laboratory detection limit. Analytical limits alone do not establish tumour location, prognosis, improved recurrence detection or benefit from acting on a result. Comparing assays requires their own specimen, input, calibration and clinical-validation evidence.",
+        "Fictional assay example: the blank-response axis describes background readings, while a separate known-input axis has LoD95 at 2 units. At that input, the assumption leaves about 5 per cent of repeated tests undetected. A signal near 4 units is detected but remains below an assumed quantitation limit of 8 units. It therefore does not establish an exact 33 per cent rise from 3 to 4. These invented amounts, curves and limits belong to this example; neither the spacing nor the missed-repeat fraction is a personal disease probability."
+      ],
+      "category": "Diagnostics & imaging"
+    }
+  ]
+}

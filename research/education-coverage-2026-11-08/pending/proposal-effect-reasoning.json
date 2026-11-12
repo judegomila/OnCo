@@ -1,0 +1,1598 @@
+{
+  "version": "proposal-effect-reasoning",
+  "state": "implemented-draft-not-merged",
+  "sharedDraftHeads": {
+    "draft-371": "b87f99a239c692b98564d0ac5c6c8a459fb938fd",
+    "draft-373": "81ba4451081a20825cd7b526da708c4cc52701c9"
+  },
+  "rootDraft": 375,
+  "rootBase": "3aa36f5455c2d926d7766a78442f4ca512a1a270",
+  "canonicalOwnership": {
+    "w": [
+      "lead-time-bias",
+      "efs",
+      "hazard-ratio",
+      "hazard-ratio-basics",
+      "confidence-interval",
+      "p-value",
+      "kaplan-meier-curve",
+      "absolute-benefit",
+      "surrogate-validation",
+      "odds-ratio",
+      "cross-trial-comparison",
+      "denominators-and-conditional-probability",
+      "population-versus-individual-risk",
+      "graph-reading"
+    ],
+    "f": [
+      "inconclusive-and-negative-evidence",
+      "measurement-to-benefit-evidence",
+      "growth-rate-inhibition",
+      "trial-population-transportability"
+    ],
+    "s": [
+      "immunogenicity-versus-efficacy"
+    ]
+  },
+  "records": [
+    {
+      "id": "lead-time-bias",
+      "kind": "term",
+      "name": "Lead time, and lead-time bias",
+      "aka": [
+        "lead time",
+        "lead-time",
+        "lead time bias",
+        "screening lead time",
+        "lead time in prostate cancer screening"
+      ],
+      "tldr": "Finding a cancer earlier starts the survival clock sooner, even if the date of death does not change. Counting that extra time as longer life is lead-time bias. Survival measured from diagnosis alone cannot establish that screening saves lives.",
+      "summary": "Lead time is the interval between the moment a screening test finds a cancer and the moment that cancer would have been diagnosed because it caused symptoms. Lead-time bias is what happens when survival is measured from diagnosis: a man whose cancer is found five years earlier appears to survive five years longer even if the date of his death is unchanged. It is why survival from diagnosis is unreliable on its own as a measure of whether a screening programme works, and why randomised screening trials report mortality in the whole invited population instead.\n\nFor prostate-specific antigen screening, estimated lead time depends on the definition and population. The following numbers are model estimates from specified settings, not a ranking of lead times across cancers. Draisma and Etzioni ran three independently built models of prostate cancer progression and detection, all calibrated to Surveillance, Epidemiology, and End Results incidence in United States men aged 54 to 80 between 1985 and 2000. Among screen-detected cancers that would have surfaced in the man's lifetime, mean lead time was 5.4 to 6.9 years across the three models; the original MISCAN model fitted instead to the Rotterdam section of the European screening trial gave 7.9 years. Published estimates before that work spanned 3 to 12 years. The three models agreed closely with each other for any single definition of lead time and disagreed substantially across definitions, which is the paper's real finding: the number is a property of the question, not of the disease.\n\nThe consequence is practical. Lead time is what generates overdiagnosis: if the lead time is longer than the man's remaining life, the cancer would never have troubled him, and the same modelling put overdiagnosis at 23 to 42 percent of screen-detected cancers in the United States calibration and 66 percent in the Rotterdam one. It is also why the 2018 United States task force statement expresses benefit as deaths and metastatic cases prevented per 1,000 men screened over about 13 years rather than as a survival rate, and why the two 2009 randomised trials, ERSPC and PLCO, are the evidence rather than any registry series.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lead_time_bias",
+      "links": [
+        {
+          "label": "Draisma et al., Journal of the National Cancer Institute 2009: lead time and overdiagnosis in prostate-specific antigen screening, importance of methods and context",
+          "url": "https://doi.org/10.1093/jnci/djp001"
+        },
+        {
+          "label": "Welch and Albertsen, Journal of the National Cancer Institute 2009: prostate cancer diagnosis and treatment after the introduction of prostate-specific antigen screening, 1986 to 2005",
+          "url": "https://doi.org/10.1093/jnci/djp278"
+        },
+        {
+          "label": "US Preventive Services Task Force, JAMA 2018: screening for prostate cancer, recommendation statement",
+          "url": "https://doi.org/10.1001/jama.2018.3710"
+        },
+        {
+          "label": "Schroder et al., New England Journal of Medicine 2009 (ERSPC): screening and prostate cancer mortality in a randomised European study",
+          "url": "https://doi.org/10.1056/nejmoa0810084"
+        },
+        {
+          "label": "NCI: screening statistics and lead-time bias",
+          "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+        },
+        {
+          "label": "FDA: ctDNA in curative-intent drug development (2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+          "url": "https://doi.org/10.1016/j.annonc.2022.11.005"
+        },
+        {
+          "label": "OncoGuide: lead-time-bias (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md"
+        },
+        {
+          "label": "Rosselli Del Turco et al., JAMA 1994: intensive diagnostic follow-up",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7848404/"
+        },
+        {
+          "label": "GIVIO Investigators, JAMA 1994: follow-up testing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8182811/"
+        },
+        {
+          "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+          "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+        }
+      ],
+      "tags": [
+        "gu",
+        "prostate-glossary"
+      ],
+      "related": [
+        "overdiagnosis",
+        "number-needed-to-screen",
+        "overtreatment",
+        "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009",
+        "prostate-screening-psa-mri",
+        "ctdna-monitoring-lead-time"
+      ],
+      "cancers": [
+        "prostate",
+        "prostate-low-risk",
+        "prostate-intermediate-risk"
+      ],
+      "sections": [
+        "early-detection",
+        "prevention"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "overdiagnosis",
+        "overtreatment",
+        "number-needed-to-screen",
+        "screening",
+        "psa"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-overdiagnosis",
+        "b-early-detection",
+        "b-trial-design"
+      ],
+      "keyPapers": [
+        "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009",
+        "paper-welch-albertsen-psa-era-diagnosis-treatment-jnci-2009",
+        "paper-schroder-erspc-screening-mortality-nejm-2009"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Why a five-year survival rate cannot settle a screening argument. Three biases push it up without anyone living longer: lead-time bias, because the clock starts earlier; length bias, because a test that samples the population at intervals preferentially catches slow-growing cancers that sit around waiting to be found; and overdiagnosis, because cancers that would never have surfaced are added to the numerator of survivors. All three run in the same direction. Mortality in a randomised invited population is immune to all three, which is why it is the endpoint the trials used.",
+        "Lead time is not the same as overdiagnosis, although the two are produced by the same mechanism. Lead time is how much earlier the diagnosis came. Overdiagnosis is the case where the lead time exceeded the rest of the man's life, so the diagnosis never needed to come at all. A long lead time with a long life left is exactly what screening is for.",
+        "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+        "Length bias favours conditions with longer detectable preclinical periods. Overdiagnosis means detecting disease that would not have caused clinical harm during the person's lifetime. Neither is another name for lead-time bias. Screening examples explain the distinctions but cannot establish their magnitude in post-treatment molecular monitoring.",
+        "A monitoring strategy includes its schedule, positive-result rule and resulting action. Comparing that strategy with a meaningful alternative from a common origin, such as randomisation, can assess clinical outcomes and harms. Counting all assigned participants avoids selecting only those with detectable earlier signals. Analysis must also address when groups entered, how follow-up ended, whether positive tests triggered extra imaging and whether people without prior detection were omitted. c-TRAK TN tested a specific blood-surveillance and intervention design; its detection and feasibility findings do not establish a beneficial intervention window for every early signal. A fictional contrast of median survival of 24 months after blood detection versus 18 after imaging detection, without a common-origin comparison, cannot show that testing saves lives. Some or all of the difference could arise from the earlier clock or other group differences.",
+        "The same timing distinction extends beyond the prostate-screening context of this record. Historical breast-cancer surveillance trials illustrate why strategy and outcome must stay together. Rosselli Del Turco and colleagues' 1994 trial enrolled 1,243 surgically treated patients with unilateral invasive breast cancer and no metastases. Adding six-monthly chest radiographs and bone scans detected more isolated intrathoracic and bone metastases, 112 versus 71, and the report described earlier detection of recurrences in that group; five-year relapse-free survival, which stops at detection, was significantly lower with intensive follow-up, while five-year mortality was 18.6% versus 19.5%, with no mortality improvement reported. The separate GIVIO trial enrolled 1,320 women and reported no overall-survival or quality-of-life difference, and no significant difference in time to recurrence detection. Thus the trials should not both be described as showing earlier detection: only the first reported it. Their results do not establish equivalence or the effects of modern imaging and treatment, and a nonsignificant comparison is not proof of exactly zero benefit.",
+        "In ctDNA monitoring studies, measured lead time is the date of a defined later event minus the date of the first qualifying positive blood sample, and it is conditional: a median over people with both an earlier positive and a later recurrence leaves out recurrences with no earlier positive, and people who are positive but have not yet recurred are censored. In a prospective breast-cancer study with blood taken every 3 months in the first year and every 6 months after, detection preceded clinical relapse by a median of 10.7 months (95% CI 8.1 to 19.1) in a combined cohort of 144, and brain-only relapse was detected in 1 of 6 patients (Garcia-Murillas 2019). Because draws and scans are both intermittent, the gap begins at an observed draw and cannot locate biological onset, and an earlier signal shows earlier detection and not longer survival, which is the lead-time bias problem.",
+        "State how lead time was estimated. A simple median of completed positive-to-recurrence intervals is conditional on that selected group; a time-to-event analysis can also incorporate censored follow-up. People without a prior positive and people positive without a later recurrence therefore need explicit dispositions under the study definition. They are not automatically zero-month, infinite or missing intervals interchangeable across studies.",
+        "A fictional timing problem illustrates why group entry matters: if a group is defined by a blood-positive result at month 6, its members had to remain observable until that result. Assigning their earlier follow-up to the positive group can create immortal-time bias. A prespecified landmark or a time-varying exposure analysis addresses different timing questions; the comparison must state its origin, eligibility and handling of later events. This is a study-design reading rule, not evidence that a surveillance policy improves outcomes."
+      ],
+      "category": "Epidemiology & prevention"
+    },
+    {
+      "id": "efs",
+      "kind": "term",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS)",
+      "aka": [
+        "EFS",
+        "DFS",
+        "iDFS",
+        "RFS",
+        "event-free survival",
+        "recurrence-free survival",
+        "recurrence-free",
+        "relapse-free survival",
+        "relapse-free",
+        "invasive disease-free survival",
+        "distant disease-free survival",
+        "distant recurrence-free",
+        "failure-free survival",
+        "time to recurrence"
+      ],
+      "tldr": "In early-stage cancer: how long patients stay free of recurrence, progression, or death.",
+      "summary": "Event-free survival and its relatives, disease-free survival, invasive disease-free survival and recurrence-free survival, are the endpoints used in early-stage cancer to measure how long patients stay free of recurrence, progression or death. Event definitions differ by trial: EFS in KEYNOTE-522 counts progression that precludes surgery, iDFS in monarchE and NATALEE counts invasive recurrence, second cancers and death, and RFS is the measure in INTerpath-001 (V940-001). Use of an endpoint to support a particular approval does not make every endpoint with that name a validated substitute for overall survival. FDA guidance distinguishes direct clinical benefit, established surrogate evidence and the less established surrogate evidence that can support accelerated approval, with confirmatory obligations. They appear in the NADINA, KEYNOTE-716, KEYNOTE-689, MATTERHORN, ZUMA-7, ASCENT-05 / OptimICE-RD and TROPION-Breast03 trial records, in the Neuroblastoma (paediatric) entry and in the KEYNOTE-522 and CheckMate 816 papers.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Disease-free_survival",
+      "links": [
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "Updated Standardized Definitions for Efficacy End Points (STEEP) in Adjuvant Breast Cancer Clinical Trials: STEEP Version 2.0.",
+          "url": "https://doi.org/10.1200/JCO.20.03613"
+        },
+        {
+          "label": "Proposal for standardized definitions for efficacy end points in adjuvant breast cancer trials: the STEEP system.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17513820/"
+        },
+        {
+          "label": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35139274/"
+        },
+        {
+          "label": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26858290/"
+        },
+        {
+          "label": "Conroy, N Engl J Med 2018: PRODIGE 24, modified FOLFIRINOX or gemcitabine as adjuvant therapy (disease-free survival primary endpoint)",
+          "url": "https://doi.org/10.1056/nejmoa1809775"
+        },
+        {
+          "label": "Punt, JNCI 2007: endpoints in adjuvant treatment trials, systematic review and proposed definitions (disease-free survival)",
+          "url": "https://doi.org/10.1093/jnci/djm024"
+        },
+        {
+          "label": "OncoGuide: survival-endpoints (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md"
+        },
+        {
+          "label": "Therneau, Crowson and Atkinson: multi-state models and competing risks (September 2026)",
+          "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "surrogate-validation",
+        "surrogate-endpoint",
+        "pcr",
+        "mrd",
+        "os",
+        "group-sequential-design",
+        "absolute-benefit"
+      ],
+      "cancers": [
+        "pancreatic"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "clinical-benefit-response"
+      ],
+      "trials": [
+        "keynote-522",
+        "natalee",
+        "interpath-001",
+        "monarche",
+        "keynote-564",
+        "adaura",
+        "challenge"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Disease-free survival is the primary endpoint of the adjuvant pancreatic cancer trials: in PRODIGE 24 median disease-free survival was 21.6 months with modified FOLFIRINOX against 12.8 months with gemcitabine (hazard ratio 0.58 for a cancer-related event, second cancer or death), and overall survival followed (Conroy 2018). The definition, time from randomisation to any event irrespective of cause, follows the adjuvant-trial consensus (Punt 2007).",
+        "A survival endpoint defines when the clock starts and which outcomes stop it, usually at the first qualifying event. Overall survival counts death from any cause. Event-free survival uses its protocol's prespecified event set; a neoadjuvant trial may include progression preventing definitive surgery, recurrence, a second primary cancer and death. Disease-free survival is also study-defined and cannot automatically be exchanged for event-free or invasive disease-free survival. Progression-free survival usually counts objective progression or death, with scan criteria, assessment times and missing-assessment rules attached. Participant dates, event types, follow-up status, censoring and cutoff determine the resulting curve, time-specific estimate or rate comparison and its uncertainty. An acronym or a second operation alone does not establish which events count. FDA's December 2018 nonbinding guidance discusses evidence by indication and pathway. It describes progression-free survival as able, depending on disease, context and effect size, to support accelerated approval, support traditional approval or represent direct clinical benefit. This does not universally validate it as a substitute for overall survival. A favourable distant-event endpoint does not settle local control or overall survival. An endpoint association also differs from proof that acting on a biomarker improves outcomes.",
+        "In the event table reproduced by STEEP 2.0 in 2021, invasive disease-free survival counts invasive local, regional, distant and contralateral breast events, a second nonbreast invasive primary, and death from any cause; in situ disease is excluded. STEEP 2.0 defines invasive breast cancer-free survival as a distinct endpoint excluding second nonbreast primaries, rather than silently removing them from invasive disease-free survival. Distant recurrence-free interval counts distant recurrence or breast-cancer death under STEEP, whereas its distant relapse-free survival row counts death from any cause. The paper's actual rules remain essential. A person alive after a local invasive recurrence with no distant recurrence can therefore have an invasive disease-free-survival event without an overall-survival or distant-recurrence-free-interval event. These rules are read from the 2021 table; the trial's own starting clock, first-event and competing-event rules still need checking.",
+        "The starting date may be randomisation, consent, surgery or biomarker assessment. KEYNOTE-522 used pathological complete response and event-free survival as co-primary endpoints; renaming its event-free-survival result invasive disease-free survival changes the claim. For a fictional participant with progression at month 12 and death at month 30, both measured from randomisation, progression-free survival stops at month 12 while overall survival continues to month 30. Those dates describe a known individual history, not censoring or a survival-probability estimate. A postoperative cohort or another endpoint requires its own origin and event rules.",
+        "Among 1,000 fictional participants, suppose 50 first recurrences are recorded and 20 are assigned to site X, with some follow-up incomplete. The calculation 20/50 = 40% describes the share of recorded first recurrences assigned to X. The calculation 20/1,000 = 2% describes a crude fraction of enrolled participants with that recorded event. Neither supplies five-year risk. Death before recurrence prevents recurrence, and another first site prevents X from being the first site; later recurrence at X is a different endpoint. A cumulative-incidence analysis can account for follow-up and competing events under its assumptions. The nonparametric Aalen-Johansen estimator supplies that estimate, while Fine-Gray regression models covariate effects on the subdistribution hazard. The method-name attribution comes from Therneau, Crowson and Atkinson's technical vignette, separately from Austin's competing-risk discussion. Turning the 40% site share into everyone's five-year risk changes both denominator and horizon without a supporting analysis."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "hazard-ratio",
+      "kind": "term",
+      "name": "Hazard ratio (HR)",
+      "aka": [
+        "HR 0",
+        "HR 1",
+        "HR of",
+        "HR for death",
+        "HR for progression",
+        "HR for recurrence",
+        "HRs",
+        "Cox proportional hazards",
+        "proportional hazards"
+      ],
+      "tldr": "A hazard ratio is a number comparing the rate of bad events in two groups. A treatment-versus-control ratio of 0.5 means half the instantaneous event rate among those still at risk under that comparison; it does not mean half the cumulative event probability.",
+      "summary": "The hazard ratio (HR) is a single number comparing the rate of bad events, such as death or progression, between two groups in a trial; an HR of one half describes half the instantaneous event rate among those still at risk under that comparison. It comes from Cox proportional hazards models, an HR below 1 favours the numerator group for an undesirable event, when that group is the experimental arm, and a confidence interval excluding 1 indicates statistical significance. The HR says nothing about absolute benefit or how long it lasts, so it features in ideas on powering trials for a benefit patients would value, crossover-adjusted survival and Bayesian shrinkage for subgroup claims. The term is referenced by the Pancreatic ductal adenocarcinoma entry, Michael LeBlanc, the bottlenecks on trial design and trial diversity, and ideas on Bayesian borrowing and a rulebook for external control arms.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hazard_ratio",
+      "links": [
+        {
+          "label": "Regression Models and Life-Tables",
+          "url": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x"
+        },
+        {
+          "label": "NIST: exponential-model formulas",
+          "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm"
+        },
+        {
+          "label": "The hazards of hazard ratios.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20010207/"
+        },
+        {
+          "label": "OncoGuide: hazard-ratio (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md"
+        },
+        {
+          "label": "Boyd et al., 2012: average hazard-ratio interpretation and censoring",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22763957/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hazard-ratio-basics",
+        "confidence-interval",
+        "p-value",
+        "kaplan-meier-curve",
+        "absolute-benefit",
+        "os",
+        "pfs",
+        "crossover",
+        "sample-size-re-estimation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "challenge"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A hazard is an instantaneous event rate among people still at risk, rather than the fraction of everyone enrolled who has had an event by a date. A hazard ratio divides one group's hazard by its reference group's hazard for a defined endpoint. A true ratio of one at a time means equal hazards at that time; the numerator determines the direction. As arithmetic from that definition, treatment/control HR 0.70 describes a 30% lower hazard under the model. It does not mean 30 percentage points fewer events, 30% longer survival or a 30% reduction in each person's probability. Reversing the comparison gives 1/0.70, about 1.43. Neither direction supplies five-year absolute benefit without further outcome information and assumptions.",
+        "In a Cox proportional-hazards model, proportionality means the ratio stays constant over time; the two hazards themselves need not be constant. An adjusted estimate depends on the included covariates and their coding, and adjustment does not remove unmeasured confounding. Read event and censoring times, comparison direction, analysis population and confidence interval with the model assessment. A reported HR may average changing effects, and an estimated HR of one does not establish that the curves are identical. Crossing curves can raise concern about proportionality without diagnosing every model failure. Time-specific rates or other prespecified summaries may be more informative. Cause-specific and subdistribution hazard ratios answer different competing-risk questions and cannot be substituted for one another.",
+        "A fictional exponential model makes the distinction between rate and risk visible. Assume constant control and treatment hazards of 0.10 and 0.07 per year, one event type and no competing events. The hazard ratio is 0.70, but the risk by time t is 1 - exp(-hazard × t). At five years, risks are about 39.3% and 29.5%: a risk ratio of about 0.75 and a difference of about 9.8 percentage points. Constant hazard lines therefore coexist with rising accumulated risks. Real studies need their actual curves and model checks. Only under the constant-hazard exponential assumptions does treatment median survival divided by control median survival equal 1/HR; an HR is not generally a ratio of medians. These invented numbers are not personal prognosis estimates.",
+        "Randomisation balances baseline groups in expectation, without guaranteeing identical realised groups or later risk sets. As follow-up proceeds, an HR compares people who have remained event-free, and treatment can change who those people are. Hernán's 2010 critique explains why that selection complicates a causal interpretation and recommends appropriately adjusted survival curves or risks at fixed times. Read the endpoint, curves, absolute outcomes and uncertainty beside the ratio. An adjusted biomarker association does not demonstrate that using the marker to select treatment improves outcomes. Boyd, Kittelson and Gillen (2012) argue that a marginal hazard ratio can still be useful as an average description over the observed data when hazards are not proportional. They also explain that the usual unweighted estimate can depend on the censoring distribution and study an estimator intended to remove that dependence under their assumptions. A defined average summary therefore needs its estimand, observation period, estimation method and censoring assumptions stated; it does not automatically become a fixed-time risk contrast or an individual causal effect."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "hazard-ratio-basics",
+      "kind": "term",
+      "name": "Reading a hazard ratio",
+      "aka": [
+        "hazard ratios",
+        "relative risk",
+        "risk reduction",
+        "relative risk reduction",
+        "reduced the risk of",
+        "lower risk of death",
+        "risk of death or progression",
+        "risk of progression or death",
+        "relative risks"
+      ],
+      "tldr": "A hazard ratio of 0.70 means that at any given moment the event rate among people still at risk in the treatment group is 30% lower than in the comparison group under the model. It says nothing about how many months that is worth.",
+      "summary": "A hazard ratio compares instantaneous event rates among people who remain at risk. Its value alone does not specify absolute survival probabilities or a difference between median survival times. Read it with event counts, follow-up, survival curves and uncertainty. A proportional-hazards model treats the hazard ratio as constant over time; if it changes, one summary ratio can conceal that change. Comparing later at-risk groups also requires care because their membership can differ, even after initial randomisation.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hazard_ratio",
+      "links": [
+        {
+          "label": "Cox: proportional-hazards model",
+          "url": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x"
+        },
+        {
+          "label": "Hernan: interpretation of hazard ratios",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20010207/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hazard-ratio",
+        "confidence-interval",
+        "p-value",
+        "median-survival",
+        "os",
+        "pfs",
+        "endpoint",
+        "absolute-benefit",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "confidence-interval",
+      "kind": "term",
+      "name": "Confidence interval",
+      "aka": [
+        "confidence intervals",
+        "95% CI",
+        "95% confidence interval",
+        "95%CI",
+        "interval estimate",
+        "margin of error"
+      ],
+      "tldr": "A confidence interval shows an estimate's precision under a stated method. A 95% method covers the fixed true value in about 95% of repeated valid applications; it does not assign a 95% probability to the value lying in this particular interval.",
+      "summary": "Because a trial studies a sample rather than every patient in the world, its estimate carries uncertainty, and the confidence interval expresses it: more information often narrows the interval, while the method, data structure and assumptions also matter. For a conventional matching two-sided 95% interval and test, a hazard-ratio interval that excludes 1.0 corresponds to a p-value below 0.05; for a difference in months or percentage points, the interval must exclude zero. Reading the interval rather than just the point estimate shows how large or small the true benefit could plausibly be, and limits close to no effect should be read with the whole interval, clinical question and assumptions. Their position alone does not quantify how the result would change under different data or analyses.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Confidence_interval",
+      "links": [
+        {
+          "label": "NIST: confidence limits and repeated coverage",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm"
+        },
+        {
+          "label": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+        },
+        {
+          "label": "Greenland et al., 2016: statistical tests and confidence-interval interpretation",
+          "url": "https://doi.org/10.1007/s10654-016-0149-3"
+        },
+        {
+          "label": "OncoGuide: confidence-interval (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "p-value",
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "randomised-trial",
+        "endpoint",
+        "statistical-significance",
+        "non-inferiority-margin",
+        "absolute-benefit",
+        "bayesian-trial-design",
+        "sample-size-re-estimation",
+        "odds-ratio",
+        "population-versus-individual-risk"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A frequentist confidence interval describes estimation precision using a procedure with a stated coverage rate under its assumptions. Across repeated valid applications, a 95% procedure would include the fixed true parameter in 95% of its intervals. This does not assign a 95% probability to that parameter being inside one interval after it has been calculated, or describe a range containing 95% of patients. The result depends on the data structure, estimator, confidence level, model and calculation method, including adjustment, missing-data handling and multiplicity. More observations often improve precision but do not remove biased measurement, confounding or a wrong model.",
+        "The no-difference value is zero for differences and one for ratios. Including it does not prove equality. A fictional hazard ratio of 0.70 with an interval of 0.35 to 1.40 leaves substantial benefit and harm compatible with the analysis; 0.70 with an interval of 0.65 to 0.76 is more precise. Neither establishes personal benefit or applicability to another population. Likewise, a risk-difference interval of -8 to +10 percentage points does not establish equivalence. That requires justified, preferably prespecified lower and upper bounds and a suitable equivalence analysis; non-inferiority asks a separate question about one permitted-loss margin. Compare groups by estimating their difference directly, rather than judging whether two separate intervals overlap. Many unadjusted intervals also raise a multiplicity problem.",
+        "For a fictional binary outcome in 50 of 100 independent people, the normal-approximation standard error is sqrt(0.50 × 0.50/100) = 0.05. The approximate 95% interval is 0.50 ± 1.96 × 0.05, or 40.2% to 59.8%. With 5,000 of 10,000 people, the proportion stays 50% but the standard error becomes 0.005 and the interval 49.02% to 50.98%. Small counts, proportions near zero or one, clustering and incomplete outcomes may require other methods. A hand-picked set of ten such intervals, nine containing a fixed 50% truth and one missing it, illustrates coverage but does not measure a procedure's coverage rate. A 95% method need not cover in exactly 95% of a small set. Narrower bounds indicate greater sampling precision, not less bias.",
+        "A prediction interval addresses a future observation and includes additional variability. A Bayesian credible interval gives a probability interpretation conditional on the chosen model and prior. These are different constructions, not alternative names for a frequentist confidence interval."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "p-value",
+      "kind": "term",
+      "name": "P-value",
+      "aka": [
+        "p-values",
+        "p value",
+        "p values",
+        "p<0.05",
+        "p < 0.05",
+        "p<0.001",
+        "p < 0.001",
+        "significance level",
+        "two-sided",
+        "one-sided",
+        "nominal p",
+        "nominally significant",
+        "did not reach statistical significance",
+        "not statistically significant",
+        "non-significant",
+        "nonsignificant"
+      ],
+      "tldr": "The probability of a test statistic at least as extreme as observed, assuming the specified null model and all analysis assumptions. A value below 0.05 is conventionally called statistically significant. It does not give the probability that this finding is false or measure the size of a benefit.",
+      "summary": "A small p-value means the result would be unlikely under the specified null model and analysis assumptions, but it does not measure how big or how clinically meaningful the effect is; a trivial benefit in a huge trial can have a tiny p-value while a large benefit in a small trial can miss significance. Trials with several endpoints or several interim looks must control their overall error allowance using the planned method (such as hierarchical testing or alpha spending), which is why an endpoint can be 'nominally significant' yet not count formally. The confidence interval conveys the same information about significance while also showing the size of the effect, and is generally more useful.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/P-value",
+      "links": [
+        {
+          "label": "The ASA Statement on p -Values: Context, Process, and Purpose",
+          "url": "https://doi.org/10.1080/00031305.2016.1154108"
+        },
+        {
+          "label": "ASA: official statement principles (2016)",
+          "url": "https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf"
+        },
+        {
+          "label": "FDA: multiple endpoints in clinical trials (2022)",
+          "url": "https://www.fda.gov/media/162416/download"
+        },
+        {
+          "label": "OncoGuide: p-values-and-multiple-testing (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "endpoint",
+        "randomised-trial",
+        "statistical-significance",
+        "group-sequential-design",
+        "bayesian-trial-design",
+        "prespecified-vs-post-hoc"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A p-value is calculated for a specified null hypothesis and analysis. Assuming that null model and the other analysis assumptions are true, it is the probability of a test statistic at least as extreme as the one observed. A small value indicates poor fit to that model; it is not the probability that the hypothesis is true, that the result occurred “by chance”, or that the selected finding is false. In particular, p = 0.03 does not mean a 97% probability of benefit. Omics analyses may test thousands of genes or pathways, and reporting only the most striking result hides the search. A selected small value can generate a hypothesis without establishing a drug dependency or clinical benefit. Error control cannot repair biased measurement or an irrelevant comparison, and prespecification reduces analytical flexibility without guaranteeing a sound design.",
+        "With multiple hypotheses, the family-wise error rate is the probability of at least one false rejection in a defined family. The false discovery rate is the expected proportion of false rejections among the findings selected, conventionally zero when none are selected. They control different quantities. A confirmatory trial may allocate its error allowance across endpoints and interim analyses or use a prespecified testing sequence; exploratory analyses have a different role. Interpretation needs the complete family, hypotheses, test assumptions, one- or two-sided specification, order and chosen error-control method. Label raw and adjusted p-values and show effects and intervals beside them. Post hoc choices of outcomes, cutpoints or subgroups must remain visible.",
+        "Suppose twenty independent valid tests all have true null hypotheses and each has a 5% false-rejection probability. The chance of at least one false rejection is 1 - 0.95^20, about 64.2%. For one, five and twenty tests, this chance is about 5%, 22.6% and 64.2%, respectively. This fictional calculation concerns the whole search, not the truth probability of an individual finding. Bonferroni divides a family allowance of 0.05 by twenty, giving 0.0025 per test: p = 0.03 passes an unadjusted 0.05 threshold but fails this correction. Correlation changes the independent-tests calculation; Bonferroni control itself does not require independence when the individual tests are valid. Family definition and method choice still matter.",
+        "If fifty pathways were tested and one reported p = 0.04, a Bonferroni threshold for that family at 0.05 would be 0.05/50 = 0.001. The reported result fails that threshold; it does not prove the pathway has no biological role. The full results, planned method, effect estimate and uncertainty are needed. Missing a significance threshold can reflect low power and does not establish no effect. Conversely, a tiny p-value can accompany an effect too small to matter clinically. Equivalence and non-inferiority require their own justified margins and analyses. A diagnostic false-positive rate is a different quantity from a multiple-testing allowance. A Bayesian analysis can instead report posterior probabilities conditional on its specified model and prior. Those probabilities answer a different question from a p-value."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "kaplan-meier-curve",
+      "kind": "term",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards",
+      "aka": [
+        "Kaplan-Meier curve",
+        "Kaplan-Meier curves",
+        "Kaplan–Meier curve",
+        "KM curve",
+        "KM curves",
+        "KM plot",
+        "Kaplan-Meier estimate",
+        "Kaplan-Meier estimator",
+        "Kaplan-Meier analysis",
+        "Kaplan-Meier method",
+        "censored",
+        "censoring",
+        "censor",
+        "censored observations",
+        "censored at last follow-up",
+        "number at risk",
+        "at-risk table",
+        "log-rank test",
+        "log-rank",
+        "Cox model",
+        "Cox regression",
+        "proportional hazards assumption",
+        "non-proportional hazards",
+        "nonproportional hazards",
+        "delayed separation",
+        "delayed separation of the curves",
+        "crossing curves",
+        "the curves cross",
+        "step function",
+        "survival probability"
+      ],
+      "tldr": "A Kaplan-Meier curve shows the share of patients still alive (or still free of progression) at each point in time; it steps down at each event and uses everyone's follow-up even if they have not had the event yet.",
+      "summary": "Survival endpoints are awkward because at the moment of analysis most patients have not died or progressed and have been followed for different lengths of time. The Kaplan-Meier method handles this by working through time step by step: at each event it multiplies the survival probability so far by the fraction of patients still at risk who survived that moment. Patients who are alive at their last visit are censored, meaning they contribute follow-up up to that point and then drop out of the calculation without being counted as an event. The result is the stepped curve in every trial paper, with a number-at-risk table underneath showing how many patients remain at each time; when that number gets small, the tail of the curve is unreliable however dramatic it looks. The median survival is where the curve crosses 50 percent, and a fixed-time estimate such as five-year survival is read off at that time.\n\nThe log-rank test compares survival distributions. The usual constant-effect Cox model assumes proportional hazards, meaning a constant hazard ratio over time. The Kaplan-Meier calculation itself does not impose a constant between-group hazard ratio. Nonproportional hazards can reduce the power of a log-rank comparison and make a single hazard ratio an incomplete account of treatment effect. A prespecified restricted mean survival-time contrast describes the difference in areas under the curves up to a stated horizon; a fixed-time survival contrast answers another question. Neither a late plateau nor a group hazard ratio predicts one individual's future.\n\nCensoring hides a trap. The method assumes patients censored at a given time are no more or less likely to have the event than those still being followed. If patients leave a trial because they are doing badly, or are censored when they start another therapy, the curve is biased upwards. Informative censoring is one reason progression-free survival read from investigator scans can flatter an open-label trial, and one reason the estimand framework asks trialists to say in advance how they will treat patients who switch, stop or are lost.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kaplan-Meier_estimator",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kaplan-Meier_estimator"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "NIST: Kaplan-Meier calculation",
+          "url": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm"
+        },
+        {
+          "label": "Analysis of survival by tumor response.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6668489/"
+        },
+        {
+          "label": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26858290/"
+        },
+        {
+          "label": "Royston and Parmar, 2013: restricted mean survival time and nonproportional hazards",
+          "url": "https://doi.org/10.1186/1471-2288-13-152"
+        },
+        {
+          "label": "OncoGuide: kaplan-meier (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md"
+        },
+        {
+          "label": "Therneau, Crowson and Atkinson: multi-state models and competing risks (September 2026)",
+          "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "os",
+        "pfs",
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "median-survival",
+        "landmark-survival",
+        "data-maturity",
+        "estimand",
+        "confidence-interval",
+        "crossover",
+        "graph-reading"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "pacific"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A Kaplan-Meier curve estimates the probability of remaining free of a defined event from a stated starting time while accounting for incomplete follow-up. At each event time, the previous estimate is multiplied by the fraction of people still at risk just before that time who avoid the event. Right censoring means observation ended without the event being seen, for example at cutoff or loss to follow-up. It leaves the current height unchanged but removes that person from later risk sets. A censor tick is neither an event nor proof of permanent event freedom. Interpretation requires censoring to be sufficiently independent of future event time within the analysis; losing contact because disease is worsening can bias the estimate.",
+        "Five fictional participants start follow-up for first recurrence, with no deaths in this example. One recurrence at month 1 leaves 4/5, or 80%, recurrence-free. One person is censored at month 2, so the estimate remains 80% but only three are at risk before the next recurrence at month 3. The new estimate is (4/5) × (2/3) = 8/15, about 53.3%. Subtracting two observed recurrences from the original five would ignore the missing later observation. The censored person is known to have been recurrence-free only through month 2; the group estimate does not fill in that person's month-3 outcome. The example stops at month 3 and supplies no later outcome, confidence interval or individual prognosis.",
+        "A five-year curve height is an estimate from its stated origin. A landmark analysis instead selects people meeting a condition at a later time, such as being observed and event-free at month 6, then evaluates subsequent outcomes. It changes the population and clock and handles early events differently from the original trial comparison. Classifying people by a later response can also bias survival comparisons if timing is mishandled. Read the endpoint, origin, cutoff, censoring rules, confidence intervals and number-at-risk table together. At-risk counts are changing denominators, not new enrolment; a flat late tail may rest on very few people and does not establish cure. Median survival is when the curve reaches 50%; “not reached” means it did not reach that level during observed follow-up. Median follow-up describes observation time. Neither statement implies there were no events. Curve height is not a hazard ratio, and curve separation needs a suitable study design for a causal interpretation.",
+        "Treating deaths that occur before the recurrence of interest as censoring and calculating one minus Kaplan-Meier targets a different quantity from cumulative incidence and can overstate that real-world recurrence probability. Cumulative incidence addresses that competing-risk question. The nonparametric Aalen-Johansen estimator estimates state probabilities, including cumulative incidence as a competing-risk special case, under the relevant event, observation and censoring assumptions. Fine-Gray regression is a separate model for covariate effects on the subdistribution hazard. Austin and colleagues' 2016 tutorial supports the bias and hazard distinctions; Therneau, Crowson and Atkinson's September 2026 technical vignette separately supplies the Aalen-Johansen method name and its relationship to cumulative incidence. Neither estimator removes the need for an appropriate event definition and follow-up.",
+        "The Kaplan-Meier event-fraction calculation does not specify a constant between-group hazard ratio. In Royston and Parmar's 2013 simulations, log-rank significance levels remained close to their planned value under the studied proportional and nonproportional patterns, while power differed. That illustrates why a model assumption, a test's calibration and its power are separate questions; it is not proof that every survival analysis is valid."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "absolute-benefit",
+      "kind": "term",
+      "name": "Absolute versus relative benefit (number needed to treat)",
+      "aka": [
+        "absolute benefit",
+        "absolute risk reduction",
+        "absolute risk",
+        "absolute difference",
+        "absolute gain",
+        "percentage-point difference",
+        "percentage points",
+        "relative benefit",
+        "relative risk reduction",
+        "relative reduction",
+        "number needed to treat",
+        "NNT",
+        "number needed to harm",
+        "NNH",
+        "one in every",
+        "out of 100",
+        "per 100 patients",
+        "per 100 treated",
+        "how many patients benefit",
+        "baseline risk",
+        "risk difference",
+        "difference in medians",
+        "months gained",
+        "median gain"
+      ],
+      "tldr": "A relative benefit says the risk fell by a third; an absolute benefit says how many people out of 100 were actually spared, which depends on how common the bad event was to begin with, and is the number that matters for deciding whether a treatment is worth its side effects.",
+      "summary": "Trial results are often headlined as relative effects: a treatment-versus-control hazard ratio of 0.72 describes a 28 percent lower hazard for the stated event under that model, rather than a 28 percent reduction in fixed-time recurrence risk. Carrying a relative effect to another population requires relevant assumptions and population fit; the ratio alone does not say how many people were helped. That requires the baseline risk. Cutting a risk of recurrence from 30 percent to 21 percent is a nine-percentage-point absolute reduction, and about eleven people must be treated for one of them to be spared a recurrence. Cutting a risk from 3 percent to 2.1 percent is the same relative reduction, a 0.9-point absolute reduction, and more than a hundred people must be treated to spare one. The side effects, cost and inconvenience fall on everyone treated, so the absolute benefit is the number to weigh them against.\n\nCHALLENGE illustrates the arithmetic in the corpus. Five-year disease-free survival was 80.3 percent with the exercise programme against 73.9 percent with health education, a hazard ratio of 0.72 and an absolute gain of about six percentage points, so roughly one in sixteen participants avoided a recurrence or death in that window. KEYNOTE-564 reported a disease-free survival hazard ratio of 0.72 as well; how many patients that helps depends on the recurrence risk of the population enrolled, which is why adjuvant trials restrict entry to higher-risk stages where the absolute benefit is worth a year of treatment. The Trials in plain words page on this site converts every trial result with structured outcomes into people out of 100 for exactly this reason.\n\nDifferences in medians are a third way of describing the same result and the easiest to misread. A median gain of two months means the middle patient in each arm differed by two months; it does not mean every patient gained two months, and when a survival curve has a long tail, as with immunotherapy, the median can understate the benefit to the minority who do very well. A trustworthy report gives the relative effect, the absolute difference at a stated time point, and the medians, and says which population they apply to.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Number_needed_to_treat",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Number_needed_to_treat"
+        },
+        {
+          "label": "CONSORT statement: reporting randomised trials",
+          "url": "https://www.consort-statement.org/"
+        },
+        {
+          "label": "The number needed to treat: a clinically useful measure of treatment effect.",
+          "url": "https://doi.org/10.1136/bmj.310.6977.452"
+        },
+        {
+          "label": "Calculating the number needed to treat for trials where the outcome is time to an event.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/"
+        },
+        {
+          "label": "Confidence intervals for the number needed to treat.",
+          "url": "https://doi.org/10.1136/bmj.317.7168.1309"
+        },
+        {
+          "label": "OncoGuide: absolute-relative-risk-and-nnt (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "confidence-interval",
+        "median-survival",
+        "landmark-survival",
+        "kaplan-meier-curve",
+        "os",
+        "efs",
+        "cross-trial-comparison",
+        "denominators-and-conditional-probability"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "challenge",
+        "keynote-564",
+        "adaura"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Absolute risk is the chance of a defined event by a stated time. For an undesirable event, absolute risk reduction is control risk minus treatment risk, the risk ratio is treatment risk divided by control risk, and relative risk reduction is one minus that ratio. When the absolute reduction is positive, number needed to treat is its reciprocal, using a fraction rather than a percentage. Risks are percentages, absolute differences are percentage points, ratios have no units, and number needed to treat refers to people over the specified horizon. The population, comparator, event direction and time must match. With incomplete follow-up, suitable time-specific estimates are needed; dividing recorded events by enrolment may answer a different question.",
+        "The sign carries the meaning. If a fictional adverse effect occurs in 6% of controls and 8% with treatment over one year, the absolute risk increase is 2 percentage points and the number needed to harm is 1/0.02 = 50 over that year. Calling it a benefit number needed to treat would reverse the result. A zero absolute difference has no finite reciprocal; a risk ratio is undefined if control risk is zero. For a desirable outcome, define improvement in the opposite direction before calculating.",
+        "Suppose a fictional comparison estimates first recurrence or death by five years at 20% with control and 14% with the new strategy. The absolute reduction is 6 percentage points, the risk ratio is 0.14/0.20 = 0.70, and the relative reduction is 30%. The five-year number needed to treat is 1/0.06, about 16.7, rounded up to 17. Thinking of two groups of 100 gives 20 versus 14 expected events, not paired observations showing which six people were helped. This is an average contrast between strategies; it does not mean every seventeenth person benefits. Harms require their own outcomes and calculations.",
+        "Uncertainty belongs beside the absolute difference. In a fictional five-year example, an absolute risk reduction interval of 2 to 10 percentage points transforms to a number-needed-to-treat interval of 10 to 50. If the risk-difference interval crosses zero, its reciprocal passes through infinity into regions representing benefit and harm. Showing the risk-difference interval may communicate that uncertainty more clearly than one apparently bounded interval for number needed to treat.",
+        "A one-third relative risk reduction could mean 3 events becoming 2 per 100, or 30 becoming 20. Baseline risk changes the absolute difference. A hazard ratio compares conditional rates rather than fixed-time risks, so its reciprocal is not number needed to treat and the ratio alone supplies no absolute risk reduction. Three-year and five-year estimates answer different questions. Avoiding an event by a date does not establish permanent cure, and a favourable number needed to treat does not combine toxicity, quality of life and benefit into one decision. All numbers here are fictional arithmetic examples, rather than clinical thresholds or predictions."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "surrogate-validation",
+      "kind": "term",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust",
+      "aka": [
+        "surrogate validation",
+        "validated surrogate endpoint",
+        "validation of surrogate endpoints",
+        "surrogate threshold effect",
+        "trial-level correlation",
+        "trial-level association",
+        "patient-level correlation",
+        "individual-level surrogacy",
+        "meta-analytic validation",
+        "meta-analysis of surrogacy",
+        "reasonably likely surrogate",
+        "reasonably likely to predict",
+        "accepted surrogate",
+        "surrogate for overall survival",
+        "surrogate for OS",
+        "does not correlate with survival",
+        "did not translate into survival",
+        "PFS-OS correlation",
+        "pCR-EFS correlation",
+        "MRD as an endpoint",
+        "MRD negativity as endpoint",
+        "stage shift without mortality benefit",
+        "FDA table of surrogate endpoints"
+      ],
+      "tldr": "A surrogate endpoint only deserves trust if trials have shown that moving it moves the outcome that matters, in that disease and for that kind of drug; some stand-ins have passed that test, several have not, and the record differs endpoint by endpoint.",
+      "summary": "A marker can be associated with a later outcome without being validated as a substitute for it. For treatment-effect surrogacy, the question is whether changes caused by treatment in the proposed surrogate predict changes in the outcome of interest. Trial-level validation examines treatment effects across suitable randomised studies, with attention to disease, treatment class, endpoint and intended outcome. A patient-level association alone cannot establish that relationship.\n\nNamed examples require their own population, regimen and analysis. In the final TROPION-Breast01 analysis of previously treated hormone-receptor-positive, HER2-negative advanced breast cancer, overall survival was not statistically significantly improved (hazard ratio 1.01, 95% confidence interval 0.83 to 1.22); this does not establish exactly zero effect. Later antibody-drug-conjugate use was imbalanced between arms (12.3% with datopotamab deruxtecan and 24.0% with chemotherapy); the authors note that it may have affected the survival result. DUO-O met its progression-free-survival endpoints for a specified multi-drug strategy in newly diagnosed non-BRCA-mutated advanced ovarian cancer, while the reported overall-survival analysis was interim at 39% maturity. BEAT-meso tested adding atezolizumab to bevacizumab and chemotherapy in advanced pleural mesothelioma: progression-free survival improved, while its primary overall-survival comparison did not meet statistical significance. These are distinct comparisons, rather than interchangeable evidence that progression-free survival cannot matter.\n\nOlaratumab is not an example of approval resting on response rate alone. FDA's 2016 review described an uncertain survival estimate from a small randomised study as central to accelerated approval and did not regard its response-rate effect as clinically meaningful. ANNOUNCE subsequently did not confirm the survival benefit. Lurbinectedin's 2020 accelerated approval instead relied on response rate and duration of response. ATLANTIS tested lower-dose lurbinectedin combined with doxorubicin against chemotherapy in relapsed small-cell lung cancer; it did not demonstrate a statistically significant survival improvement. That result must retain its combination, dose and comparator rather than being described as a test of the approved monotherapy regimen.\n\nFor a trial that improves a surrogate, ask whether trial-level validation applies to this disease, treatment class and intended outcome. Read the clinical-outcome estimate and its uncertainty for benefit and harm compatible with the data, and check the status of any required confirmatory trial. A nonsignificant survival comparison alone establishes neither equivalence nor absence of harm.\n\nOther linked records include CodeBreaK 200, adjuvant trials, residual-disease trials and UKCTOCS screening. They remain related studies, rather than interchangeable validation of a surrogate. This account does not reassert their previously listed outcome or regulatory-validation claims, which require source-specific verification. The linked trial-design bottleneck and proposal for independent surrogate validation extend the methodological questions.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Surrogate_endpoint",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Surrogate_endpoint"
+        },
+        {
+          "label": "FDA table of surrogate endpoints that were the basis of drug approval or licensure",
+          "url": "https://www.fda.gov/drugs/development-resources/table-surrogate-endpoints-were-basis-drug-approval-or-licensure"
+        },
+        {
+          "label": "FDA guidance: clinical trial endpoints for the approval of cancer drugs and biologics",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics"
+        },
+        {
+          "label": "The validation of surrogate endpoints in meta-analyses of randomized experiments.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12933525/"
+        },
+        {
+          "label": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+        },
+        {
+          "label": "Evaluation of pathological complete response as surrogate endpoint in neoadjuvant randomised clinical trials of early stage breast cancer: systematic review and meta-analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34933868/"
+        },
+        {
+          "label": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+        },
+        {
+          "label": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/"
+        },
+        {
+          "label": "TROPION-Breast01 final OS, Pistilli et al. 2026",
+          "url": "https://doi.org/10.1016/j.annonc.2025.12.017"
+        },
+        {
+          "label": "DUO-O, Harter et al. 2026",
+          "url": "https://doi.org/10.1016/j.annonc.2025.11.020"
+        },
+        {
+          "label": "BEAT-meso, Felip et al. 2025",
+          "url": "https://doi.org/10.1016/j.annonc.2024.12.014"
+        },
+        {
+          "label": "ANNOUNCE, Tap et al. 2020",
+          "url": "https://doi.org/10.1001/jama.2020.1707"
+        },
+        {
+          "label": "ATLANTIS, Aix et al. 2023",
+          "url": "https://doi.org/10.1016/s2213-2600(22)00309-5"
+        },
+        {
+          "label": "FDA 2016 olaratumab multidisciplinary review: clinical director, printed page 188",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2016/761038Orig1s000MultiDisciplineR.pdf"
+        },
+        {
+          "label": "FDA approval summary: lurbinectedin, 2021",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-20-3901"
+        },
+        {
+          "label": "OncoGuide: surrogate-endpoints (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "surrogate-endpoint",
+        "pcr",
+        "pfs",
+        "os",
+        "efs",
+        "orr",
+        "mrd",
+        "recist",
+        "accelerated-approval",
+        "confirmatory-trial",
+        "crossover",
+        "trial-failure-modes"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "keynote-522",
+        "tropion-breast01",
+        "codebreak-200",
+        "monarche",
+        "natalee",
+        "adaura",
+        "perseus",
+        "captivate",
+        "announce",
+        "atlantis",
+        "ukctocs",
+        "imvigor011"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-design"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A surrogate is a measured outcome used in place of a direct clinical-benefit outcome, with evidence needed for that substitution in the intended setting. Two relationships must be separated: people with a favourable marker may have better outcomes, while treatments that improve that marker may or may not improve the outcome. The first is a prognostic association; the second concerns agreement between treatment effects across suitable randomised comparisons. A treatment can change another pathway, later disease or toxicity as well as the marker. Validation is specific to disease, treatment context and intended outcome. An early measure is not automatically validated, and regulatory acceptance in one programme does not transfer to another. “Validated” and “reasonably likely to predict benefit” carry different evidence claims. Even a pathology or imaging response does not capture every benefit and harm.",
+        "Imagine twenty fictional people grouped by whether they achieved pathological complete response, with complete event follow-up to three years. A difference in events between those groups would describe an association after response was achieved, rather than preserve a randomised treatment comparison. Across six fictional randomised trials, a different analysis would compare each trial's treatment-related gain in response with its gain in three-year event-free survival, both in percentage points. Those are different units of evidence; neither constructed example is the CTNeoBC dataset. Similarly, a fictional trial increasing complete response from 40/100 to 55/100 establishes a 15-percentage-point response difference under its definition, with uncertainty still needed. Immature survival follow-up does not supply a proven survival gain.",
+        "Pathological complete response is assessed in the surgical specimen after neoadjuvant treatment, rather than a presurgical scan or biopsy. Retain the exact definition, such as ypT0/Tis ypN0 meaning no invasive disease in breast or nodes, and how missing surgery or specimens affect denominators. CTNeoBC pooled 11,955 people from 12 trials: achieving that response was associated with event-free-survival HR 0.48 and overall-survival HR 0.36; corresponding triple-negative subgroup estimates were 0.24 and 0.16. Yet trial-level R-squared was 0.03 for event-free survival (95% interval 0.00 to 0.25) and 0.24 for overall survival (0.00 to 0.70). Conforti and colleagues' analysis of 54 trials and 32,611 participants found R-squared 0.14 (95% interval 0.00 to 0.29) for disease-free and 0.08 (0.00 to 0.22) for overall survival. R-squared here is the share of variation in the treatment effects on survival that is explained by the treatment effects on pathological complete response; 1 would be a perfect fit. Thus response can be strongly associated with outcomes among participants while remaining a weak substitute for treatment effects across trials. This fitted association is not an individually validated risk prediction. These fitted associations concern variation in treatment effects across trials, with substantial uncertainty; they are not personal prognosis models.",
+        "A weak trial-level association does not mean no regimen can improve both endpoints. KEYNOTE-522 reported a 13.6-percentage-point pathological-response gain and subsequently event-free and overall-survival gains, each in its own analysis. One regimen's success does not validate the surrogate across regimens. For every comparison, retain population, intervention, comparator, assessment time and response uncertainty, then separately the survival event definition, starting clock and follow-up. A response association and a demonstrated treatment benefit remain different claims."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "odds-ratio",
+      "kind": "term",
+      "name": "Odds ratio",
+      "aka": [
+        "odds ratio",
+        "OR"
+      ],
+      "tldr": "An odds ratio compares events with non-events in two groups. Odds use a different denominator from probability, so doubling the odds does not generally double the chance.",
+      "summary": "An odds ratio divides the odds of an event in one group by the odds in a reference group. Probability uses all assessed outcomes in the denominator; odds compare events with non-events. The two scales can differ substantially when an event is common. An odds ratio does not supply an absolute risk or a causal treatment effect by itself. Its interpretation depends on outcome coding, the comparison, follow-up and model adjustment; a case-control sample does not reveal population prevalence from its case fraction.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CDC: risk ratios and odds ratios",
+          "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+        },
+        {
+          "label": "Statistics notes. The odds ratio.",
+          "url": "https://doi.org/10.1136/bmj.320.7247.1468"
+        },
+        {
+          "label": "Confounding and Collapsibility in Causal Inference",
+          "url": "https://doi.org/10.1214/ss/1009211805"
+        },
+        {
+          "label": "Hernan and Robins: Causal Inference: What If",
+          "url": "https://miguelhernan.org/whatifbook"
+        },
+        {
+          "label": "OncoGuide: odds-ratio (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Probability counts events among everyone; odds count events relative to non-events. In a fictional bag with 20 red and 80 blue counters, the probability of red is 20/100 = 20%, but the odds are 20/80 = 0.25. For probability p, odds are p/(1 - p). An odds ratio divides one group's odds by the reference group's odds for a defined event. A value above one means higher odds in the numerator group; whether that is favourable depends on whether the event is response or harm. Specify the event, comparator and horizon. When events are rare in both groups the odds ratio can approximate the risk ratio; when they are common it can differ substantially and cannot be applied directly as a multiplier to a percentage.",
+        "Logistic regression commonly reports odds ratios. An estimate per one unit of a predictor differs from one per ten units, so its increment and outcome coding matter. Report the adjustment set and confidence interval alongside the estimate. An adjusted odds ratio can differ from the unadjusted value even without confounding, a property called noncollapsibility. A change after adjustment alone therefore does not prove confounding, and adjustment alone does not establish causation.",
+        "In a fictional comparison with complete response assessment, 40 of 100 people respond in group A and 20 of 100 in group B. A's response probability uses all 100 people, whereas its response odds use the 60 nonresponders. The response risk ratio is 0.40/0.20 = 2; the odds ratio is (40/60)/(20/80), about 2.67; and the absolute response difference is 20 percentage points. The same counts support three different measures. “2.67 times the odds” does not mean “2.67 times the chance”, and the study design determines whether a causal claim is justified.",
+        "Case-control studies deliberately sample cases and controls, so the case fraction in that sample is not population prevalence and cannot simply supply absolute risk. Zero counts can make a raw odds ratio zero, infinite or undefined; estimation method and uncertainty matter. Reversing the comparison takes the reciprocal. For another fictional example, 20 adverse events among 100 people versus 10 among 100 gives a risk ratio of 2 but an odds ratio of (20/80)/(10/90) = 2.25. A response odds ratio is also different from a survival hazard ratio. An assay-based association with response does not quantify the benefit of acting on a biomarker; its model, endpoint and treatment comparison need their own evidence. All counts here are invented."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "cross-trial-comparison",
+      "kind": "term",
+      "name": "Cross-trial comparison",
+      "aka": [
+        "cross-trial comparison",
+        "indirect treatment comparison"
+      ],
+      "tldr": "Results from separate studies can differ because the people, care or measurements differ. Comparing their headline percentages does not by itself show which treatment works better.",
+      "summary": "A comparison between separate studies must account for differences in participants, treatment, background care, endpoints, clocks and follow-up. Randomisation protects the comparison within a trial; it does not randomise participants between unrelated trials. Formal indirect comparisons can retain within-trial contrasts through a common comparator, but depend on compatible effect modifiers and methods. A higher headline percentage in one study is insufficient to rank treatments.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "The results of direct and indirect treatment comparisons in meta-analysis of randomized controlled trials.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9250266/"
+        },
+        {
+          "label": "Cochrane: network comparisons and transitivity",
+          "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-11"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: cross-trial-comparison (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A higher percentage in one paper is a reason to examine its study, rather than proof that its treatment is better. Randomisation protects comparisons within a trial, not between separately conducted trials. Comparing their experimental arms discards that protection. Disease burden, biomarker assay and threshold, prior treatment, background care, dose, endpoint rules, analysis population and follow-up can differ. Formal indirect comparison through a common comparator preserves each trial's treatment-versus-control contrast but still requires compatible questions and methods. Pooling active arms across trials is prone to bias, and even an adjusted indirect estimate remains less secure than a suitable direct comparison (Bucher and colleagues, 1997). Network meta-analysis adds a transitivity assumption: important effect modifiers must be sufficiently comparable across the network. A shared drug name or statistical agreement cannot establish that unmeasured compatibility. Similar endpoint labels can hide different definitions: a clinical benefit rate may include different durations of stable disease. Adjustment for measured differences does not remove every bias, and lower hazard ratios against different comparators cannot automatically rank treatments.",
+        "Two fictional single-arm studies each enrol 100 people with the same response definition, assessment period and complete denominator. In the favourable baseline group, A has 40 responses among 80 people (50%) and B has 12 among 20 (60%). In the other group, A has 4/20 (20%) and B 24/80 (30%). Overall, A has 44% response and B 36%, despite B's higher rate in both groups. A enrolled an 80/20 mixture of the two groups, while B enrolled 20/80. Composition reverses the headline ranking. This arithmetic does not establish that B is superior: people were not randomised between studies, and one measured feature cannot resolve every difference.",
+        "A fictional vaccine report of 90% recurrence-free at two years in selected postoperative patients cannot be ranked against 30% objective response in a different advanced-disease drug study. Immune response, pathological response, imaging response and survival are different outcomes in different settings. A comparative effect estimate needs a shared clinical question and defensible design. For time-to-event results, align the event definition, origin, assessment schedule, cutoff and follow-up as well as population and care. FDA's December 2018 endpoint guidance warns that external survival comparisons can reflect selection, imaging and supportive-care differences. Neither fictional example certifies an actual indirect comparison."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "kind": "term",
+      "name": "Denominators and conditional probability",
+      "aka": [
+        "conditional probability",
+        "denominator"
+      ],
+      "tldr": "A percentage answers a question about a particular group. Name that group before interpreting the number, and keep unknown outcomes separate from measured non-response.",
+      "summary": "A proportion identifies an outcome within a defined group. The denominator might be everyone enrolled, everyone treated, people with an evaluable scan, or only people with a recurrence; those answer different questions. Conditional probability makes the specified group explicit and is not a statement of causation. Repeated measurements do not create new independent people. Unknown outcomes and incomplete follow-up require explicit handling rather than being silently treated as measured non-response.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Hernan and Robins: Causal Inference: What If",
+          "url": "https://miguelhernan.org/whatifbook"
+        },
+        {
+          "label": "CONSORT 2025: explanation and elaboration",
+          "url": "https://www.bmj.com/content/389/bmj-2024-081124"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: denominators-and-conditional-probability (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "“Half had a response” is incomplete until the counted group is named. The numerator counts observations meeting the event rule; the denominator identifies the relevant group or observation amount. Conditional probability P(A | B) means the probability of A among those satisfying B, with P(A | B) = P(A and B)/P(B) when P(B) is positive. It is undefined if that conditioning probability is zero. “Given” does not mean “caused by”, and the probability of a positive test among people with disease differs from the probability of disease among people with a positive test. People, lesions, blood draws and wells supply different denominators. Events per person-time are a rate, not a simple probability; repeated samples do not become independent patients. A group defined by treatment response may also be selected by underlying biology, so a conditional frequency does not show that the treatment caused the difference. A changed proportion needs its reference proportion attached, because percentages and percentage points answer different questions.",
+        "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+        "In a separate complete fictional cohort of 100 people, twenty recur and five of those have brain involvement. Brain involvement is 5/20 = 25% among those with recurrence and 5/100 = 5% in the original cohort. Neither is a personal forecast. In another example with forty enrolled, thirty treated, twenty evaluable and eight responses, 8/20 = 40% describes the evaluable group, whereas 8/40 = 20% describes observed responders among everyone enrolled without establishing the other outcomes. Incomplete follow-up also means recorded events divided by enrolment may not estimate risk at a chosen time; survival or competing-risk methods address defined questions under their assumptions. Safety and efficacy tables can use different analysis sets, and biomarker subgroups or later landmarks change who contributes. Multiple reports from the same participants add no independent people. Exclusion because progression prevented assessment can itself affect interpretation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "kind": "term",
+      "name": "Population versus individual risk",
+      "aka": [
+        "population risk",
+        "individual risk",
+        "personal risk"
+      ],
+      "tldr": "A group event frequency does not determine one person's future. A personal probability estimate needs a suitable model, relevant inputs and evaluation in the setting where it will be used.",
+      "summary": "An observed group frequency describes a specified outcome, population, treatment context and time horizon. A probability estimate for an individual adds a prediction model and relevant inputs, with uncertainty. Ranking people well does not establish accurate probabilities, and performance in one hospital, subgroup or treatment era does not establish performance elsewhere. A model predicting outcomes under existing care also does not automatically estimate the benefit of changing that care.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "NCI: understanding cancer prognosis",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+        },
+        {
+          "label": "TRIPOD-Cluster: model evaluation across settings",
+          "url": "https://www.bmj.com/content/380/bmj-2022-071058"
+        },
+        {
+          "label": "Hernan and Robins: Causal Inference: What If",
+          "url": "https://miguelhernan.org/whatifbook"
+        },
+        {
+          "label": "OncoGuide: population-vs-individual-risk (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+        "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+        "A model that ranks outcomes well at Hospital A may need evaluation at Hospital B before its printed probabilities can be trusted there, particularly if treatment and follow-up differ. Relevant calibration, outcome definitions, horizon, inputs and uncertainty matter. A post-treatment test cannot simply replace a model's required pretreatment input, or vice versa. Risk under current care is also different from benefit from changing care: outcome prediction alone does not estimate a treatment effect. An uncertain but appropriately evaluated estimate can help a discussion without promising an outcome. A confidence interval for a group parameter is not a range of individual futures, and a narrow subgroup may contain too little information for precise personalisation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "graph-reading",
+      "kind": "term",
+      "name": "Reading scientific graphs",
+      "aka": [
+        "graph reading",
+        "figure reading",
+        "five-pass graph reading"
+      ],
+      "tldr": "Read a graph with its caption and methods: identify who was measured, what changed, the outcome, the comparison and the uncertainty. A visible pattern does not supply those missing details.",
+      "summary": "A scientific graph needs its caption and methods to identify the population, independent measurement unit, intervention, outcome, comparison and uncertainty. Axis scale, baseline and time origin can change what a visible difference means. Biological units and repeated technical measurements must remain distinct, and different error bars describe different quantities. A plotted association, growth reduction or late survival plateau requires its own interpretation before any claim about causality or patient benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "SuperPlots: Communicating reproducibility and variability in cell biology.",
+          "url": "https://doi.org/10.1083/jcb.202001064"
+        },
+        {
+          "label": "NIST: graphical techniques",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda33.htm"
+        },
+        {
+          "label": "CONSORT 2025: reporting randomized trials",
+          "url": "https://www.bmj.com/content/389/bmj-2024-081123"
+        },
+        {
+          "label": "OncoGuide: reading-a-graph-in-five-passes (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read a graph as an answer to a question before interpreting its shape. Establish who or what contributes independent observations, what intervention was given and when, which outcome and units the axes show, what baseline or control supplies the comparison, and what uncertainty or missing information remains. Entry criteria, dose, measurement site, time origin and follow-up can change the answer. A whole product and one component are different interventions; cell activity, tumour size, recurrence and survival are different outcomes. A mouse-volume graph cannot become a patient-survival result because the plotted separation is large. This five-pass reading habit is a teaching synthesis, not a score certifying a study; an explicitly unreported independent sample count remains useful information.",
+        "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+        "In a fictional animal experiment, four independent animals contribute to each group. Both groups start with average tumour volume 100 cubic millimetres; at day 28, control averages 1,000 and treated 300. The treated average is 70% below control but three times its starting size: reduced growth relative to control, rather than shrinkage below baseline. Twenty wells from one animal would still represent one independent animal. For a Kaplan-Meier curve, the same reading habit requires event definition, starting clock, censoring and numbers still at risk. A flat late tail based on few observations cannot support a precise late estimate simply because it looks stable."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "inconclusive-and-negative-evidence",
+      "kind": "term",
+      "name": "Inconclusive results and evidence against an effect",
+      "aka": [
+        "absence of evidence versus evidence of absence",
+        "interpretation of null results"
+      ],
+      "tldr": "A study may fail to find an effect because the effect is small or because the study is not informative enough. Its estimate and uncertainty help distinguish those possibilities.",
+      "summary": "A primary methodological analysis of replication projects, including cancer biology, showed that nonsignificant original and replication results can both be inconclusive. Failure to cross a significance threshold does not establish equivalence. Evidence against a meaningful effect needs a question, margin or model suited to that claim and enough information to distinguish relevant possibilities. A precise negative result and an untested idea should remain different evidence states.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Null-result replication and evidence of absence (2024)",
+          "url": "https://doi.org/10.7554/eLife.92311"
+        },
+        {
+          "label": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+        },
+        {
+          "label": "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5502906/"
+        },
+        {
+          "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
+        },
+        {
+          "label": "OncoGuide: absence-of-evidence (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "statistical-significance",
+        "non-inferiority-margin",
+        "reproducibility"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "“We did not find it” needs a description of where and how we looked. A literature search can establish that no relevant publication was found within its queries, synonyms, databases, access and cutoff date; it cannot substitute for a biological experiment. A negative assay means no signal met the detection rule in the tested preparation. Its interpretation depends on the material, recovery, units, controls, sensitivity, threshold, time and compartment sampled. A false negative occurs when the condition is present but the test says otherwise. A study missing a significance threshold asks a third question: whether the data met that analysis's decision rule. Its population, comparator, endpoint, effect scale, uncertainty, follow-up and missing-data rules determine what remains open.",
+        "Read the effect estimate and confidence interval together. Too few events can leave a study with low power and an interval compatible with meaningful benefit and harm. Precision concerns sampling uncertainty under the analysis; it does not remove bias. Evidence excluding a large effect need not exclude a smaller one, and an unresolved effect is neither evidence of benefit nor proof of exactly zero effect. Equivalence testing asks whether an effect lies within justified lower and upper bounds, preferably specified before seeing results, using an appropriate analysis. Non-inferiority instead asks whether a treatment is worse than its comparator by more than a prespecified margin. Neither question is settled by failing to reject a zero difference, and meaningful margins depend on the outcome and setting.",
+        "If no exact-variant drug-response study is found in the documented search, the proposed drug match remains unsupported. That absence establishes neither resistance nor benefit. A normal functional result also covers only the measured function under its assay conditions. A protein-function test may miss an effect on RNA processing. Disease mechanism, assay validity and the particular function tested must remain attached to the conclusion.",
+        "In a fictional randomised study, the new treatment minus control difference in one-year event risk is -2 percentage points, with a 95% confidence interval from -12 to +8 points. The interval includes both appreciable benefit and harm; it does not support a claim of identical outcomes. It also crosses illustrative equivalence bounds of -5 and +5 points. Those bounds are invented for this example, rather than a universal definition of an unimportant effect. Even a narrower interval would need a sound design, justified prespecified bounds and the appropriate analysis. These numbers are not a patient estimate."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "measurement-to-benefit-evidence",
+      "kind": "term",
+      "name": "Evidence from measurement to patient benefit",
+      "aka": [],
+      "tldr": "A reliable measurement, a biological explanation and a useful treatment decision each need evidence. This map helps readers identify which part of a claim has actually been tested.",
+      "summary": "A useful reading framework follows the observation through its interpretation, mechanism, intervention and patient outcome. These are questions to examine, not a mandatory experimental sequence. An accurate assay can measure a marker that does not predict treatment benefit; a compound can bind a protein without proving that its effect depends on that protein. A model can reproduce an experiment without predicting an outcome in people. Each linked concept identifies a different evidence boundary and the source supporting it.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: biomarkers, roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        },
+        {
+          "label": "Cellular target-engagement study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        },
+        {
+          "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
+        },
+        {
+          "label": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30137196/"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: evidence-chain-variant-to-benefit (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antigen-expression-and-response",
+        "binding-site-barrier",
+        "antibody-internalization-trafficking",
+        "lysosomal-payload-egress",
+        "drug-target-engagement",
+        "experimental-versus-clinical-exposure",
+        "prognostic-versus-predictive-biomarkers",
+        "functional-variant-evidence",
+        "blood-cell-variants-liquid-biopsy",
+        "ctdna-shedding-negative-results",
+        "detection-versus-quantification",
+        "finite-molecule-sampling",
+        "tumor-informed-assay-design",
+        "biomarker-qualification-context",
+        "test-agreement-versus-accuracy",
+        "growth-rate-inhibition",
+        "cytostasis-versus-cell-death",
+        "on-target-drug-validation",
+        "model-context-of-use",
+        "confounding-by-indication",
+        "immortal-time-bias",
+        "target-trial-emulation",
+        "competing-risks",
+        "trial-population-transportability",
+        "biomarker-cutpoint-selection",
+        "decision-curve-net-benefit",
+        "inconclusive-and-negative-evidence",
+        "analytical-vs-clinical-validation",
+        "cancer-drivers-vs-actionable"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+        "Expression and controlled functional evidence for the exact alteration can strengthen a biological interpretation; another alteration in the same gene may behave differently. Perturbation with rescue or complementary controls can test dependence, because an active pathway need not be necessary for growth. A drug-effect claim needs relevant exposure and evidence that the compound reaches and interacts with its intended target; other drug actions or failure to reach tumour remain possible. Activation, loss of function and high protein abundance do not all imply that inhibiting the named protein will help. Other cells, parallel pathways and treatment history can change that hypothesis. A protein-only construct may miss RNA-processing effects, so a normal assay is not proof that a variant is harmless. Brnich's functional-classification recommendations address assay relevance; Mateo's actionability framework separately distinguishes relevant human, adjacent clinical and preclinical evidence. Neither framework turns pathogenicity into drug sensitivity or an evidence grade into treatment access. Repeated predictions may share data or assumptions and are not independent experiments.",
+        "Each claim needs its own measurement. Sequence identity, specimen, assay version, controls and interpretation establish what was tested. Altered-transcript proportion, normalised protein activity, cell growth at a defined exposure and participant response rate have different units and meanings; combining them into one score can hide those differences. Target engagement is separate from downstream change, cancer-cell death, tumour response and survival. At the clinical step, disease, biomarker, treatment setting and comparator must match the claim, with outcome definition, follow-up, harms and uncertainty retained. A biochemical signal alone does not establish clinical benefit, eligibility, availability or an individual's outcome. The model above is fictional, and the FDA's dated 2018 endpoint guidance is used for these outcome distinctions."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "kind": "term",
+      "name": "Growth-rate correction in drug-response assays",
+      "aka": [
+        "GR metrics",
+        "growth rate inhibition metrics",
+        "GR50",
+        "GRmax"
+      ],
+      "tldr": "Two cell cultures can appear differently sensitive to a drug because they divide at different speeds. Growth-rate measures account for divisions during the experiment when comparing drug effects.",
+      "summary": "The primary growth-rate inhibition study showed that conventional concentration-response metrics can depend on how many cell divisions occur during an assay. It developed corrected measures using initial measurements and the treated and untreated cell populations. These measures help interpret experiments in dividing cells under the method's assumptions; they do not remove exposure, measurement or model-context limitations, and they are not predictions of treatment benefit in a person.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary growth-rate inhibition metrics study (2016)",
+          "url": "https://doi.org/10.1038/nmeth.3853"
+        },
+        {
+          "label": "RECIST 1.1: original response-assessment guideline",
+          "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: reduction-is-not-regression (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-response-sensitivity",
+        "cytostasis-versus-cell-death",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+        "Clinical RECIST assessment uses a sum of selected lesion diameters, with rules for lymph nodes, non-target disease and new lesions. A mouse-volume percentage in cubic millimetres cannot be inserted into a diameter threshold measured in millimetres. Partial response compares with baseline; target-lesion progression compares with the smallest previous sum, commonly called the nadir, and applies its specified thresholds. Overall response also considers the rest of the disease, so one shrinking lesion does not make the person an overall responder. Cell number, metabolic activity and target-cell death are also distinct readouts, not interchangeable tumour-size measurements. The measured object, units, time, reference, calculation, controls and excluded observations determine what a reduction means.",
+        "In another fictional example, a tumour starts at 100 cubic millimetres and later measures 60 while control measures 300. It is 40% below its own start, supporting regression under this volume assessment, and 80% below the concurrent control. These percentages answer different questions. Neither supplies a RECIST response category, complete eradication or patient benefit. Shrinkage can leave measurable disease, and disappearance on a scan does not prove eradication. Duration, other disease sites, harms and clinical outcomes still need assessment. The volume examples are fictional; RECIST clinical criteria and the FDA's December 2018 outcome guidance address separate measurement and interpretation frameworks."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "trial-population-transportability",
+      "kind": "term",
+      "name": "Transporting trial evidence to another population",
+      "aka": [
+        "clinical trial transportability",
+        "trial generalizability",
+        "eligibility and target population"
+      ],
+      "tldr": "A trial result describes the people and setting studied. Applying it elsewhere requires checking the differences that could change benefit or harm.",
+      "summary": "A primary methodological framework used trial-participation propensity scores to assess similarity between trial participants and a target population. Its worked example was outside oncology; it provides a way to examine generalizability, not a validated cancer-treatment matching rule. Weighting measured characteristics depends on assumptions and sufficient overlap. Disease, treatment setting, prior therapy and other possible effect modifiers still matter, and an average trial effect is not an individual forecast.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary framework for trial generalizability (2011)",
+          "url": "https://doi.org/10.1111/j.1467-985X.2010.00673.x"
+        },
+        {
+          "label": "Study Designs for Extending Causal Inferences From a Randomized Trial to a Target Population.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536837/"
+        },
+        {
+          "label": "Dahabreh and colleagues: transportability methods, May 2019 v1",
+          "url": "https://arxiv.org/pdf/1905.07764"
+        },
+        {
+          "label": "NCI: finding a trial and checking eligibility",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+        },
+        {
+          "label": "OncoGuide: transportability-and-eligibility (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "external-validation",
+        "subgroup-analysis",
+        "confounding-by-indication"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Eligibility asks whether someone meets protocol entry rules. Transportability asks whether a treatment-effect estimate can extend to a specified target population or setting. Randomisation assigns treatment within an enrolled sample; it does not randomly select that sample from everyone who might receive treatment. Eligible, invited, enrolled and followed people can differ. First specify the target population and align disease, treatment history, intervention and background care, comparator, endpoint and clock. A change of sequence or comparator may change the question itself. A prognostic factor predicts outcomes, while an effect modifier changes a treatment contrast on a specified scale. Even a constant relative effect can yield different absolute benefits when baseline risks differ. A marker or cancer label shared between heavily pretreated metastatic and early postoperative settings does not bridge differences in biology, competing risks, tolerance and endpoints.",
+        "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+        "Protocol eligibility can depend on disease, prior treatment, organ function, safety history and assay definitions, and needs study-team confirmation. Meeting criteria guarantees neither benefit, enrolment nor an available slot. If a fictional trial allows older adults but enrols almost nobody with a particular organ limitation, matching its age rule does not establish its average effect for that group. Actual representation, safety data, treatment context, overlap and the assumptions bridging populations remain necessary, with follow-up, harms and uncertainty considered. No universal similarity score certifies that bridge. An adjusted estimate is not automatically established, and even a well-supported population effect is not a person's guaranteed outcome. The examples here are fictional and provide no actual eligibility or access determination."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "immunogenicity-versus-efficacy",
+      "kind": "term",
+      "name": "Immunogenicity and clinical efficacy",
+      "aka": [],
+      "tldr": "An intervention can produce a measurable immune response. Whether it improves a clinical outcome is a separate question about people receiving the intervention.",
+      "summary": "A phase 1 personal neoantigen-vaccine report and its follow-up examined immune responses in small melanoma cohorts. Such work can demonstrate biological activity, persistence and broadening of responses. It does not by itself isolate the treatment effect on recurrence or survival from other explanations. An immune-assay endpoint, a clinical outcome and a comparative efficacy estimate should retain their distinct definitions and study designs.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://doi.org/10.1038/nature22991"
+        },
+        {
+          "label": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma.",
+          "url": "https://doi.org/10.1038/s41591-020-01206-4"
+        },
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: immunogenicity-vs-efficacy (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md"
+        },
+        {
+          "label": "OncoGuide: positive immune assay, recurrence and combined-treatment attribution",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md#worked-example-a-positive-assay-and-a-recurrence"
+        },
+        {
+          "label": "OncoGuide: receptor changes and tumour-DNA attribution",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response.md#try-it"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "elispot",
+        "immune-cytotoxicity-assays",
+        "surrogate-validation",
+        "binding-presentation-recognition"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Immunogenicity asks whether an intervention elicits an immune response; clinical efficacy asks what adding it changes in a defined clinical endpoint, population and comparison. An immune result can justify further investigation without settling whether adding the intervention improves outcomes. For a therapeutic cancer vaccine, antigen-stimulated secretion and recurrence over follow-up answer different questions. The immune result needs its specimen, stimulus, preparation, timing, controls and denominator. The clinical result needs the intervention components, comparator, outcome rule, starting clock, follow-up, missing-data handling, harms and uncertainty. A surrogate endpoint also needs evidence connecting it to clinical benefit in that setting. Comparing standard care plus vaccine with the same care without vaccine can address the addition. Randomisation strengthens attribution, while measurement quality and follow-up remain necessary. Even a clinical outcome difference does not identify the particular clone or immune mechanism that caused it. The FDA's 2018 endpoint guidance informs these general distinctions, rather than current regulatory or treatment advice.",
+        "ELISpot measures secretion under defined stimulation. Supplying peptide can bypass natural processing, and laboratory expansion changes which cells and states are measured. In the 2017 phase I melanoma vaccine study by Ott and colleagues, the selected assay passages distinguish direct ex vivo measurements from responses detected after peptide-driven expansion. That specific study supports assay interpretation; it is not an added-benefit comparison for every vaccine. A change in receptor frequency alone establishes neither antigen specificity nor vaccine-induced function, and a weak blood signal can miss responses in tissue. Natural tumour recognition, location, function and safety require their own evidence.",
+        "Consider a fictional single-arm vaccine study in which peptide-reactive cells appear and some participants later recur. The measured immune response can remain real. Recurrence does not identify whether natural antigen display, tissue access, cell state or immune escape limited its effect, and without a suitable clinical comparison the recurrence frequency cannot isolate the vaccine's contribution from standard care or selection. In a second fictional example, circulating tumour DNA becomes undetectable after standard treatment plus vaccine. This tumour-derived DNA result is not an immune measurement. Timing, treatment effects, sampling and detection limits prevent attributing clearance to the vaccine alone. These observations supply no calculable added-efficacy estimate and do not prove an effect of zero.",
+        "A related fictional example finds a clone becoming more frequent after treatment while circulating tumour DNA is no longer detected. This establishes a receptor-repertoire change alongside a tumour-DNA result, not that the clone eliminated the cancer. Relative frequency can rise because that clone increased, others declined, or both. Tumour specificity, function, causal attribution and assay detection limits remain separate questions, and timing, other treatments, shedding and sampling can also shape a tumour-DNA result. Suitable comparisons and target-specific experiments strengthen attribution; temporal coincidence alone does not supply it."
+      ],
+      "category": "Endpoints"
+    }
+  ]
+}

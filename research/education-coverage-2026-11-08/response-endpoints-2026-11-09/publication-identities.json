@@ -1,0 +1,67 @@
+[
+  {
+    "captureFile": "recist-core.json",
+    "source": "MED",
+    "id": "19097774",
+    "title": "New response evaluation criteria in solid tumours: revised RECIST guideline (version 1.1).",
+    "doi": "10.1016/j.ejca.2008.10.026",
+    "pmcid": null,
+    "authors": "Eisenhauer EA, Therasse P, Bogaerts J, Schwartz LH, Sargent D, Ford R, Dancey J, Arbuck S, Gwyther S, Mooney M, Rubinstein L, Shankar L, Dodd L, Kaplan R, Lacombe D, Verweij J.",
+    "firstPublicationDateAsReturned": "2009-01-01",
+    "abstractSha256": "f61067d1f4dc21ca1b8c2c2b808fff29337b2c3f0f817f87eeffba89025a5751",
+    "availableAbstractRead": true,
+    "scope": "Complete MED abstract read; full-text/guidance use is separately specified. No abstract/article body republished."
+  },
+  {
+    "captureFile": "cbr-examples-core.json",
+    "source": "MED",
+    "id": "29373071",
+    "title": "Enzalutamide for the Treatment of Androgen Receptor-Expressing Triple-Negative Breast Cancer.",
+    "doi": "10.1200/jco.2016.71.3495",
+    "pmcid": "PMC5858523",
+    "authors": "Traina TA, Miller K, Yardley DA, Eakle J, Schwartzberg LS, O'Shaughnessy J, Gradishar W, Schmid P, Winer E, Kelly C, Nanda R, Gucalp A, Awada A, Garcia-Estevez L, Trudeau ME, Steinberg J, Uppal H, Tudor IC, Peterson A, Cortes J.",
+    "firstPublicationDateAsReturned": "2018-01-26",
+    "abstractSha256": "11946020f773821361f4498e2035b1ca98d86763487a564a8b3781ccef41b475",
+    "availableAbstractRead": true,
+    "scope": "Complete MED abstract read; full-text/guidance use is separately specified. No abstract/article body republished."
+  },
+  {
+    "captureFile": "cbr-examples-core.json",
+    "source": "MED",
+    "id": "23965901",
+    "title": "Phase II trial of bicalutamide in patients with androgen receptor-positive, estrogen receptor-negative metastatic Breast Cancer.",
+    "doi": "10.1158/1078-0432.ccr-12-3327",
+    "pmcid": "PMC4086643",
+    "authors": "Gucalp A, Tolaney S, Isakoff SJ, Ingle JN, Liu MC, Carey LA, Blackwell K, Rugo H, Nabell L, Forero A, Stearns V, Doane AS, Danso M, Moynahan ME, Momen LF, Gonzalez JM, Akhtar A, Giri DD, Patil S, Feigin KN, Hudis CA, Traina TA, Translational Breast Cancer Research Consortium (TBCRC 011).",
+    "firstPublicationDateAsReturned": "2013-08-21",
+    "abstractSha256": "e098d5bb5e3ab45b12ecbec5f97df5e993e2f0a171e7c5fece853f5568df46a6",
+    "availableAbstractRead": true,
+    "scope": "Complete MED abstract read; full-text/guidance use is separately specified. No abstract/article body republished."
+  },
+  {
+    "captureFile": "criteria-med-quoted.json",
+    "source": "MED",
+    "id": "28271869",
+    "title": "iRECIST: guidelines for response criteria for use in trials testing immunotherapeutics.",
+    "doi": "10.1016/s1470-2045(17)30074-8",
+    "pmcid": "PMC5648544",
+    "authors": "Seymour L, Bogaerts J, Perrone A, Ford R, Schwartz LH, Mandrekar S, Lin NU, Litière S, Dancey J, Chen A, Hodi FS, Therasse P, Hoekstra OS, Shankar LK, Wolchok JD, Ballinger M, Caramella C, de Vries EGE, RECIST working group.",
+    "firstPublicationDateAsReturned": "2017-03-02",
+    "abstractSha256": "92dd418edb9b4165f1822c5f09f00fe23d89f8f676c23425029a061b5f0b3011",
+    "availableAbstractRead": true,
+    "scope": "Complete MED abstract read; full-text/guidance use is separately specified. No abstract/article body republished."
+  },
+  {
+    "captureFile": "criteria-med-quoted.json",
+    "source": "MED",
+    "id": "19403881",
+    "title": "From RECIST to PERCIST: Evolving Considerations for PET response criteria in solid tumors.",
+    "doi": "10.2967/jnumed.108.057307",
+    "pmcid": "PMC2755245",
+    "authors": "Wahl RL, Jacene H, Kasamon Y, Lodge MA.",
+    "firstPublicationDateAsReturned": "2009-05-01",
+    "abstractSha256": "1acfd083fd7c10e16318dd3ae0b9399b713dc105f4a309f8e59fb35598d90574",
+    "availableAbstractRead": true,
+    "scope": "Complete MED abstract read; full-text/guidance use is separately specified. No abstract/article body republished."
+  }
+]

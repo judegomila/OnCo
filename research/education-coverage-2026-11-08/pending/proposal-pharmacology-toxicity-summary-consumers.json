@@ -1,0 +1,3408 @@
+{
+  "version": "proposal-pharmacology-toxicity-summary-consumers",
+  "state": "Actual nine short selectors in the changed root and companion drafts; 110 present entries and 268 English fallbacks. Simple text unreviewed; no named-language acceptance. Older branch-specific snapshots remain separately identified.",
+  "records": [
+    {
+      "id": "crs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (ar)",
+      "canonicalRecordId": "crs",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-ar",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (ar)",
+      "canonicalRecordId": "icans",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (ar)",
+      "canonicalRecordId": "irae",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-ar",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (ar)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-ar",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (ar)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-ar",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (ar)",
+      "canonicalRecordId": "neutropenia",
+      "language": "ar",
+      "available": true,
+      "text": "نقص في العدلات، وهي خلايا الدم البيضاء التي تحارب البكتيريا، بسبب تأثير العلاج الكيميائي على نخاع العظم. يصل عادة إلى أدنى مستوى له (الحضيض) بعد 7-14 يوما من كل دورة ويتعافى قبل الدورة التالية؛ وأثناء انخفاضه يكون خطر العدوى مرتفعا."
+    },
+    {
+      "id": "febrile-neutropenia-ar",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (ar)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "ar",
+      "available": true,
+      "text": "حمّى لدى مريض قضى العلاج الكيميائي على خلايا الدم البيضاء التي تحارب العدوى عنده. إنها حالة طبية طارئة: فمن دون خلايا مناعية قد تتحول عدوى عادية إلى عدوى قاتلة في غضون ساعات، لذلك تُبدأ المضادات الحيوية فورًا."
+    },
+    {
+      "id": "g-csf-growth-factors-ar",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (ar)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (ar)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "ar",
+      "available": true,
+      "text": "دورة قصيرة من العلاج الكيميائي (عادةً فلودارابين وسيكلوفوسفاميد) تُعطى في الأيام السابقة لتسريب CAR-T لإزالة الخلايا اللمفاوية الخاصة بالمريض، مما يوفر المساحة وإشارات النمو اللازمة لتكاثر الخلايا المهندسة."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (ar)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (ar)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-ar",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (ar)",
+      "canonicalRecordId": "ild",
+      "language": "ar",
+      "available": true,
+      "text": "داء الرئة الخلالي (ILD) هو التهاب في الرئة، وهو أثر جانبي خطير لبعض أدوية ADC (خصوصاً Enhertu) وللعلاج المناعي."
+    },
+    {
+      "id": "radiation-pneumonitis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (ar)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ar)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-ar",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (ar)",
+      "canonicalRecordId": "half-life",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (ar)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (ar)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (ar)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (ar)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-ar",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (ar)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-ar",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (ar)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-ar",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (ar)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "ar",
+      "available": true,
+      "text": "إيجاد جين ثانٍ لا يحتاجه السرطان إلا لأن جينه الأول معطّل، ثم استهداف هذا الجين الثاني."
+    },
+    {
+      "id": "small-molecule-ar",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (ar)",
+      "canonicalRecordId": "small-molecule",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-ar",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (ar)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-ar",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (ar)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (ar)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (ar)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-ar",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (ar)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (ar)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-ar",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (ar)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ar)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (ar)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (ar)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "ar",
+      "available": true,
+      "text": "إيقاف المبيضين مؤقتاً بالحقن (أو استئصالهما) حتى يُحرم سرطان المرأة قبل انقطاع الطمث من الإستروجين."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-ar",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (ar)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-ar",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (ar)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "ar",
+      "available": true,
+      "text": "أدوية مصممة لضرب جزيء محدد يعتمد عليه السرطان، وهو عادة بروتين ينتجه جين متحوّر أو مضخَّم، مع ترك الخلايا الطبيعية سالمة نسبياً. يُفحص الورم أولاً لمعرفة ما إذا كان يحمل الهدف."
+    },
+    {
+      "id": "dose-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dose (ar)",
+      "canonicalRecordId": "dose",
+      "language": "ar",
+      "available": true,
+      "text": "كمية الدواء المُعطاة، وعدد مرات إعطائه، ومدة العلاج. لطالما أُعطيت أدوية السرطان بأعلى جرعة يستطيع المريض تحمّلها، وتدفع الجهات التنظيمية الآن نحو جرعات تُختار على أساس الفائدة لا على أساس القدرة على التحمّل."
+    },
+    {
+      "id": "payload-ar",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (ar)",
+      "canonicalRecordId": "payload",
+      "language": "ar",
+      "available": true,
+      "text": "الحمولة هي السم الذي يحمله ADC، وهي عادةً علاج كيميائي شديد السمية إلى درجة لا تسمح بإعطائه وحده."
+    },
+    {
+      "id": "roc-auc-ar",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ar)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (ar)",
+      "canonicalRecordId": "dose-modification",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (ar)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-de",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (de)",
+      "canonicalRecordId": "crs",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-de",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (de)",
+      "canonicalRecordId": "icans",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (de)",
+      "canonicalRecordId": "irae",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-de",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (de)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-de",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (de)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-de",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (de)",
+      "canonicalRecordId": "neutropenia",
+      "language": "de",
+      "available": true,
+      "text": "Ein Mangel an Neutrophilen, den weißen Blutkörperchen, die Bakterien bekämpfen, verursacht durch die Schädigung des Knochenmarks durch Chemotherapie. Er erreicht meist 7-14 Tage nach jedem Zyklus seinen Tiefpunkt (Nadir) und erholt sich vor dem nächsten; solange die Werte niedrig sind, ist das Infektionsrisiko hoch."
+    },
+    {
+      "id": "febrile-neutropenia-de",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (de)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "de",
+      "available": true,
+      "text": "Fieber bei einem Patienten, dessen infektionsbekämpfende weiße Blutkörperchen durch die Chemotherapie ausgelöscht wurden. Es ist ein medizinischer Notfall: Ohne Immunzellen kann eine gewöhnliche Infektion binnen Stunden tödlich werden, deshalb werden sofort Antibiotika gegeben."
+    },
+    {
+      "id": "g-csf-growth-factors-de",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (de)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-de",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (de)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "de",
+      "available": true,
+      "text": "Eine kurze Chemotherapie (meist Fludarabin und Cyclophosphamid) in den Tagen vor einer CAR-T-Infusion, die die eigenen Lymphozyten des Patienten beseitigt und so Platz und Wachstumssignale schafft, damit sich die veränderten Zellen vermehren können."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (de)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-de",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (de)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-de",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (de)",
+      "canonicalRecordId": "ild",
+      "language": "de",
+      "available": true,
+      "text": "Die interstitielle Lungenerkrankung (ILD) ist eine Lungenentzündung, eine schwere Nebenwirkung einiger ADCs (insbesondere Enhertu) und der Immuntherapie."
+    },
+    {
+      "id": "radiation-pneumonitis-de",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (de)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-de",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (de)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-de",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (de)",
+      "canonicalRecordId": "half-life",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (de)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (de)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (de)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-de",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (de)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-de",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (de)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-de",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (de)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-de",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (de)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "de",
+      "available": true,
+      "text": "Ein zweites Gen finden, das ein Krebs nur deshalb braucht, weil sein erstes Gen defekt ist, und dann dieses zweite Gen angreifen."
+    },
+    {
+      "id": "small-molecule-de",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (de)",
+      "canonicalRecordId": "small-molecule",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-de",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (de)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-de",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (de)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (de)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-de",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (de)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-de",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (de)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (de)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-de",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (de)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (de)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-de",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (de)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-de",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (de)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "de",
+      "available": true,
+      "text": "Die Eierstöcke vorübergehend mit Spritzen abschalten (oder entfernen), damit der Krebs einer Frau vor der Menopause kein Östrogen mehr bekommt."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-de",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (de)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-de",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (de)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "de",
+      "available": true,
+      "text": "Medikamente, die gezielt ein bestimmtes Molekül treffen sollen, von dem der Krebs abhängt, meist ein Protein aus einem mutierten oder amplifizierten Gen, und normale Zellen dabei weitgehend verschonen. Der Tumor wird zuvor getestet, ob er die Zielstruktur trägt."
+    },
+    {
+      "id": "dose-de",
+      "kind": "reader-summary-entry",
+      "name": "Dose (de)",
+      "canonicalRecordId": "dose",
+      "language": "de",
+      "available": true,
+      "text": "Wie viel von einem Medikament gegeben wird, wie oft und wie lange. Krebsmedikamente wurden lange in der höchsten Dosis verabreicht, die ein Patient aushält; inzwischen drängen die Zulassungsbehörden auf Dosen, die nach dem Nutzen und nicht nach der Verträglichkeit gewählt werden."
+    },
+    {
+      "id": "payload-de",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (de)",
+      "canonicalRecordId": "payload",
+      "language": "de",
+      "available": true,
+      "text": "Die Payload ist das Gift, das ein ADC transportiert, meist eine Chemotherapie, die für sich allein viel zu giftig wäre."
+    },
+    {
+      "id": "roc-auc-de",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (de)",
+      "canonicalRecordId": "roc-auc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-de",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (de)",
+      "canonicalRecordId": "dose-modification",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-de",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (de)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-es",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (es)",
+      "canonicalRecordId": "crs",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-es",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (es)",
+      "canonicalRecordId": "icans",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (es)",
+      "canonicalRecordId": "irae",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-es",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (es)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-es",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (es)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-es",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (es)",
+      "canonicalRecordId": "neutropenia",
+      "language": "es",
+      "available": true,
+      "text": "Escasez de neutrófilos, los glóbulos blancos que combaten las bacterias, causada porque la quimioterapia daña la médula ósea. Suele tocar fondo (el nadir) 7-14 días después de cada ciclo y se recupera antes del siguiente; mientras está baja, el riesgo de infección es alto."
+    },
+    {
+      "id": "febrile-neutropenia-es",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (es)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "es",
+      "available": true,
+      "text": "Fiebre en un paciente cuyos glóbulos blancos, encargados de combatir las infecciones, han sido eliminados por la quimioterapia. Es una emergencia médica: sin células inmunitarias, una infección corriente puede volverse mortal en horas, por lo que los antibióticos se inician de inmediato."
+    },
+    {
+      "id": "g-csf-growth-factors-es",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (es)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-es",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (es)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "es",
+      "available": true,
+      "text": "Un ciclo corto de quimioterapia (normalmente fludarabina y ciclofosfamida) administrado en los días previos a la infusión de CAR-T para eliminar los linfocitos propios del paciente, dejando espacio y señales de crecimiento para que las células modificadas se expandan."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (es)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-es",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (es)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-es",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (es)",
+      "canonicalRecordId": "ild",
+      "language": "es",
+      "available": true,
+      "text": "Inflamación pulmonar, un efecto secundario grave de algunos ADC (sobre todo Enhertu) y de la inmunoterapia."
+    },
+    {
+      "id": "radiation-pneumonitis-es",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (es)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-es",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (es)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-es",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (es)",
+      "canonicalRecordId": "half-life",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (es)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (es)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (es)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-es",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (es)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-es",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (es)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-es",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (es)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-es",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (es)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "es",
+      "available": true,
+      "text": "Encontrar un segundo gen que un cáncer necesita solo porque el primero está roto, y atacar ese segundo gen."
+    },
+    {
+      "id": "small-molecule-es",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (es)",
+      "canonicalRecordId": "small-molecule",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-es",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (es)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-es",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (es)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (es)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-es",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (es)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-es",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (es)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (es)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-es",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (es)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (es)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-es",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (es)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-es",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (es)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "es",
+      "available": true,
+      "text": "Apagar temporalmente los ovarios con inyecciones (o extirparlos) para que el cáncer de una mujer premenopáusica se quede sin estrógeno."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-es",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (es)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-es",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (es)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "es",
+      "available": true,
+      "text": "Fármacos diseñados para atacar una molécula concreta de la que depende el cáncer, normalmente una proteína producida por un gen mutado o amplificado, dejando relativamente intactas las células normales. El tumor se analiza primero para ver si tiene la diana."
+    },
+    {
+      "id": "dose-es",
+      "kind": "reader-summary-entry",
+      "name": "Dose (es)",
+      "canonicalRecordId": "dose",
+      "language": "es",
+      "available": true,
+      "text": "Cuánto fármaco se administra, con qué frecuencia y durante cuánto tiempo. Los fármacos contra el cáncer se han administrado durante mucho tiempo a la dosis más alta que el paciente puede soportar, y ahora los reguladores impulsan dosis elegidas por su beneficio y no por su tolerabilidad."
+    },
+    {
+      "id": "payload-es",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (es)",
+      "canonicalRecordId": "payload",
+      "language": "es",
+      "available": true,
+      "text": "El veneno que lleva un ADC. Normalmente una quimioterapia demasiado tóxica para darse sola."
+    },
+    {
+      "id": "roc-auc-es",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (es)",
+      "canonicalRecordId": "roc-auc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-es",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (es)",
+      "canonicalRecordId": "dose-modification",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-es",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (es)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (fr)",
+      "canonicalRecordId": "crs",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-fr",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (fr)",
+      "canonicalRecordId": "icans",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (fr)",
+      "canonicalRecordId": "irae",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-fr",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (fr)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-fr",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (fr)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-fr",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (fr)",
+      "canonicalRecordId": "neutropenia",
+      "language": "fr",
+      "available": true,
+      "text": "Un manque de neutrophiles, les globules blancs qui combattent les bactéries, causé par l'atteinte de la moelle osseuse par la chimiothérapie. Il atteint généralement son point le plus bas (le nadir) 7-14 jours après chaque cycle et se rétablit avant le suivant ; pendant la période basse, le risque d'infection est élevé."
+    },
+    {
+      "id": "febrile-neutropenia-fr",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (fr)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "fr",
+      "available": true,
+      "text": "Fièvre chez un patient dont les globules blancs qui combattent les infections ont été détruits par la chimiothérapie. C'est une urgence médicale : sans cellules immunitaires, une infection banale peut devenir mortelle en quelques heures, d'où la mise en route immédiate des antibiotiques."
+    },
+    {
+      "id": "g-csf-growth-factors-fr",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (fr)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (fr)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "fr",
+      "available": true,
+      "text": "Une courte cure de chimiothérapie (généralement fludarabine et cyclophosphamide) administrée dans les jours précédant une perfusion de CAR-T pour éliminer les propres lymphocytes du patient, ce qui libère de la place et des signaux de croissance pour que les cellules modifiées se multiplient."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (fr)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (fr)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-fr",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (fr)",
+      "canonicalRecordId": "ild",
+      "language": "fr",
+      "available": true,
+      "text": "La pneumopathie interstitielle (ILD) est une inflammation du poumon, un effet secondaire grave de certains ADC (en particulier Enhertu) et de l'immunothérapie."
+    },
+    {
+      "id": "radiation-pneumonitis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (fr)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (fr)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-fr",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (fr)",
+      "canonicalRecordId": "half-life",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (fr)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (fr)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (fr)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (fr)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-fr",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (fr)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-fr",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (fr)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-fr",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (fr)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "fr",
+      "available": true,
+      "text": "Trouver un deuxième gène dont un cancer a besoin uniquement parce que son premier gène est défaillant, puis cibler ce deuxième gène."
+    },
+    {
+      "id": "small-molecule-fr",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (fr)",
+      "canonicalRecordId": "small-molecule",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-fr",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (fr)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-fr",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (fr)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (fr)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (fr)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-fr",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (fr)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (fr)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-fr",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (fr)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (fr)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (fr)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (fr)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "fr",
+      "available": true,
+      "text": "Mettre temporairement les ovaires au repos par des injections (ou les retirer) afin de priver d'œstrogènes le cancer d'une femme non ménopausée."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-fr",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (fr)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-fr",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (fr)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "fr",
+      "available": true,
+      "text": "Des médicaments conçus pour frapper une molécule précise dont le cancer dépend, généralement une protéine produite par un gène muté ou amplifié, tout en épargnant relativement les cellules normales. La tumeur est d'abord testée pour vérifier qu'elle porte la cible."
+    },
+    {
+      "id": "dose-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dose (fr)",
+      "canonicalRecordId": "dose",
+      "language": "fr",
+      "available": true,
+      "text": "La quantité de médicament administrée, à quelle fréquence et pendant combien de temps. Les médicaments anticancéreux ont longtemps été donnés à la dose maximale que le patient peut supporter, et les autorités réglementaires poussent désormais vers des doses choisies pour leur bénéfice plutôt que pour leur tolérance."
+    },
+    {
+      "id": "payload-fr",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (fr)",
+      "canonicalRecordId": "payload",
+      "language": "fr",
+      "available": true,
+      "text": "La charge utile est le poison transporté par un ADC, généralement une chimiothérapie bien trop toxique pour être administrée seule."
+    },
+    {
+      "id": "roc-auc-fr",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (fr)",
+      "canonicalRecordId": "roc-auc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (fr)",
+      "canonicalRecordId": "dose-modification",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (fr)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (hi)",
+      "canonicalRecordId": "crs",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-hi",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (hi)",
+      "canonicalRecordId": "icans",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (hi)",
+      "canonicalRecordId": "irae",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-hi",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (hi)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-hi",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (hi)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-hi",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (hi)",
+      "canonicalRecordId": "neutropenia",
+      "language": "hi",
+      "available": true,
+      "text": "न्यूट्रोफिल की कमी, यानी बैक्टीरिया से लड़ने वाली श्वेत रक्त कोशिकाओं की कमी, जो कीमोथेरेपी के अस्थि मज्जा पर असर से होती है। यह आम तौर पर हर चक्र के 7-14 दिन बाद सबसे निचले स्तर (नादिर) पर पहुंचती है और अगले चक्र से पहले ठीक हो जाती है; जब यह कम होती है, संक्रमण का खतरा ज्यादा रहता है।"
+    },
+    {
+      "id": "febrile-neutropenia-hi",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (hi)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "hi",
+      "available": true,
+      "text": "ऐसे रोगी में बुखार जिसकी संक्रमण से लड़ने वाली श्वेत रक्त कोशिकाएं कीमोथेरेपी से नष्ट हो गई हैं। यह एक चिकित्सा आपात स्थिति है: प्रतिरक्षा कोशिकाओं के बिना एक साधारण संक्रमण घंटों में जानलेवा हो सकता है, इसलिए एंटीबायोटिक तुरंत शुरू किए जाते हैं।"
+    },
+    {
+      "id": "g-csf-growth-factors-hi",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (hi)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (hi)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "hi",
+      "available": true,
+      "text": "CAR-T इन्फ्यूजन से पहले के दिनों में दिया जाने वाला कीमोथेरेपी का छोटा कोर्स (आमतौर पर फ्लूडाराबिन और साइक्लोफॉस्फामाइड), जो रोगी के अपने लिम्फोसाइट्स को साफ करता है ताकि इंजीनियर्ड कोशिकाओं के बढ़ने के लिए जगह और वृद्धि संकेत मिल सकें।"
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (hi)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (hi)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-hi",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (hi)",
+      "canonicalRecordId": "ild",
+      "language": "hi",
+      "available": true,
+      "text": "फेफड़े की सूजन, कुछ ADC (विशेषकर Enhertu) और इम्यूनोथेरेपी का गंभीर दुष्प्रभाव।"
+    },
+    {
+      "id": "radiation-pneumonitis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (hi)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (hi)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-hi",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (hi)",
+      "canonicalRecordId": "half-life",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (hi)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (hi)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (hi)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (hi)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-hi",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (hi)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-hi",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (hi)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-hi",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (hi)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "hi",
+      "available": true,
+      "text": "ऐसा दूसरा जीन खोजना जिसकी कैंसर को केवल इसलिए ज़रूरत है क्योंकि पहला टूटा है, फिर दूसरे पर वार करना।"
+    },
+    {
+      "id": "small-molecule-hi",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (hi)",
+      "canonicalRecordId": "small-molecule",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-hi",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (hi)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-hi",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (hi)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (hi)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (hi)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-hi",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (hi)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (hi)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-hi",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (hi)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (hi)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (hi)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (hi)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "hi",
+      "available": true,
+      "text": "इंजेक्शन से अंडाशयों को अस्थायी रूप से बंद करना (या उन्हें निकाल देना) ताकि रजोनिवृत्ति-पूर्व महिला के कैंसर को एस्ट्रोजन न मिले।"
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-hi",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (hi)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-hi",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (hi)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "hi",
+      "available": true,
+      "text": "ऐसी दवाएँ जो कैंसर के लिए ज़रूरी किसी विशेष अणु को निशाना बनाने के लिए बनाई गई हैं, जो आम तौर पर किसी म्यूटेटेड या एम्प्लिफ़ाइड जीन से बना प्रोटीन होता है, और सामान्य कोशिकाओं को अपेक्षाकृत छोड़ देती हैं। पहले ट्यूमर की जाँच की जाती है कि उसमें वह लक्ष्य है या नहीं।"
+    },
+    {
+      "id": "dose-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dose (hi)",
+      "canonicalRecordId": "dose",
+      "language": "hi",
+      "available": true,
+      "text": "किसी दवा की कितनी मात्रा दी जाती है, कितनी बार और कितने समय तक। कैंसर की दवाएँ लंबे समय से उस सबसे ऊँची खुराक पर दी जाती रही हैं जिसे मरीज़ सह सके, और अब नियामक ऐसी खुराकों पर ज़ोर दे रहे हैं जो सहनशीलता के बजाय लाभ के आधार पर चुनी जाएँ।"
+    },
+    {
+      "id": "payload-hi",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (hi)",
+      "canonicalRecordId": "payload",
+      "language": "hi",
+      "available": true,
+      "text": "ADC द्वारा ले जाया गया ज़हर। आमतौर पर अकेले देने के लिए बहुत विषैली कीमोथेरेपी।"
+    },
+    {
+      "id": "roc-auc-hi",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (hi)",
+      "canonicalRecordId": "roc-auc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (hi)",
+      "canonicalRecordId": "dose-modification",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (hi)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (ja)",
+      "canonicalRecordId": "crs",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-ja",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (ja)",
+      "canonicalRecordId": "icans",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (ja)",
+      "canonicalRecordId": "irae",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-ja",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (ja)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-ja",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (ja)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-ja",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (ja)",
+      "canonicalRecordId": "neutropenia",
+      "language": "ja",
+      "available": true,
+      "text": "細菌と戦う白血球である好中球の不足で、化学療法が骨髄を傷害することによって起こる。通常、各サイクルの7-14日後に最低値(ナディア)に達し、次のサイクル前に回復する。低値の間は感染リスクが高い。"
+    },
+    {
+      "id": "febrile-neutropenia-ja",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (ja)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "ja",
+      "available": true,
+      "text": "化学療法で感染と戦う白血球が失われた患者に起こる発熱である。免疫細胞がなければ普通の感染症でも数時間で命に関わるため、医学的な緊急事態として直ちに抗菌薬を開始する。"
+    },
+    {
+      "id": "g-csf-growth-factors-ja",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (ja)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (ja)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "ja",
+      "available": true,
+      "text": "CAR-T輸注の数日前に行う短期間の化学療法（通常はフルダラビンとシクロホスファミド）。患者自身のリンパ球を取り除き、改変された細胞が増殖するための場所と増殖シグナルを確保する。"
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (ja)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (ja)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-ja",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (ja)",
+      "canonicalRecordId": "ild",
+      "language": "ja",
+      "available": true,
+      "text": "間質性肺疾患（ILD）は肺の炎症であり、一部のADC（特にEnhertu）と免疫療法の重大な副作用である。"
+    },
+    {
+      "id": "radiation-pneumonitis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (ja)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ja)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-ja",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (ja)",
+      "canonicalRecordId": "half-life",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (ja)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (ja)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (ja)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (ja)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-ja",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (ja)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-ja",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (ja)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-ja",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (ja)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "ja",
+      "available": true,
+      "text": "最初の遺伝子が壊れているためにがんが頼らざるを得なくなった2番目の遺伝子を見つけ、その2番目の遺伝子を攻撃する方法。"
+    },
+    {
+      "id": "small-molecule-ja",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (ja)",
+      "canonicalRecordId": "small-molecule",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-ja",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (ja)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-ja",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (ja)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (ja)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (ja)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-ja",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (ja)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (ja)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-ja",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (ja)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ja)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (ja)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (ja)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "ja",
+      "available": true,
+      "text": "注射で卵巣の働きを一時的に止める（または卵巣を摘出する）ことで、閉経前の女性のがんからエストロゲンを断つ治療。"
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-ja",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (ja)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-ja",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (ja)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "ja",
+      "available": true,
+      "text": "がんが依存している特定の分子、通常は変異または増幅した遺伝子が作るタンパク質を狙い、正常な細胞には比較的影響を与えないように設計された薬である。まず腫瘍を検査し、その標的を持っているかどうかを確認する。"
+    },
+    {
+      "id": "dose-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dose (ja)",
+      "canonicalRecordId": "dose",
+      "language": "ja",
+      "available": true,
+      "text": "薬をどれだけ、どの頻度で、どのくらいの期間投与するか。がんの薬は長らく患者が耐えられる最大量で投与されてきたが、現在は規制当局が、耐えられるかではなく利益に基づいて用量を選ぶことを求めている。"
+    },
+    {
+      "id": "payload-ja",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (ja)",
+      "canonicalRecordId": "payload",
+      "language": "ja",
+      "available": true,
+      "text": "ペイロードとは、ADCが運ぶ毒のことで、通常は単独で投与するには毒性が強すぎる化学療法薬です。"
+    },
+    {
+      "id": "roc-auc-ja",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ja)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (ja)",
+      "canonicalRecordId": "dose-modification",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (ja)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (pt)",
+      "canonicalRecordId": "crs",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-pt",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (pt)",
+      "canonicalRecordId": "icans",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (pt)",
+      "canonicalRecordId": "irae",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-pt",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (pt)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-pt",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (pt)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-pt",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (pt)",
+      "canonicalRecordId": "neutropenia",
+      "language": "pt",
+      "available": true,
+      "text": "Escassez de neutrófilos, os glóbulos brancos que combatem bactérias, causada pela quimioterapia ao atingir a medula óssea. Costuma atingir o ponto mais baixo (o nadir) 7-14 dias após cada ciclo e recupera antes do seguinte; enquanto está baixa, o risco de infeção é alto."
+    },
+    {
+      "id": "febrile-neutropenia-pt",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (pt)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "pt",
+      "available": true,
+      "text": "Febre em um paciente cujos glóbulos brancos de defesa foram eliminados pela quimioterapia. É uma emergência médica: sem células imunes, uma infecção comum pode se tornar fatal em horas, por isso os antibióticos são iniciados imediatamente."
+    },
+    {
+      "id": "g-csf-growth-factors-pt",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (pt)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (pt)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "pt",
+      "available": true,
+      "text": "Um ciclo curto de quimioterapia (geralmente fludarabina e ciclofosfamida) administrado nos dias anteriores à infusão de CAR-T para eliminar os próprios linfócitos do paciente, abrindo espaço e sinais de crescimento para que as células modificadas se expandam."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (pt)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (pt)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-pt",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (pt)",
+      "canonicalRecordId": "ild",
+      "language": "pt",
+      "available": true,
+      "text": "Inflamação pulmonar, um efeito colateral grave de alguns ADCs (especialmente Enhertu) e da imunoterapia."
+    },
+    {
+      "id": "radiation-pneumonitis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (pt)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (pt)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-pt",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (pt)",
+      "canonicalRecordId": "half-life",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (pt)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (pt)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (pt)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (pt)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-pt",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (pt)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-pt",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (pt)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-pt",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (pt)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "pt",
+      "available": true,
+      "text": "Encontrar um segundo gene de que um câncer precisa só porque o primeiro está quebrado, e então atingir o segundo."
+    },
+    {
+      "id": "small-molecule-pt",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (pt)",
+      "canonicalRecordId": "small-molecule",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-pt",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (pt)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-pt",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (pt)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (pt)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (pt)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-pt",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (pt)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (pt)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-pt",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (pt)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (pt)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (pt)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (pt)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "pt",
+      "available": true,
+      "text": "Desligar temporariamente os ovários com injeções (ou removê-los) para que o cancro de uma mulher na pré-menopausa fique privado de estrogénio."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-pt",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (pt)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-pt",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (pt)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "pt",
+      "available": true,
+      "text": "Medicamentos projetados para atingir uma molécula específica da qual o câncer depende, geralmente uma proteína produzida por um gene mutado ou amplificado, poupando relativamente as células normais. O tumor é testado primeiro para ver se carrega o alvo."
+    },
+    {
+      "id": "dose-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dose (pt)",
+      "canonicalRecordId": "dose",
+      "language": "pt",
+      "available": true,
+      "text": "Quanto de um medicamento é administrado, com que frequência e durante quanto tempo. Os medicamentos oncológicos têm sido dados há muito na dose mais alta que o paciente consegue suportar, e os reguladores estão agora a promover doses escolhidas pelo benefício e não pela tolerabilidade."
+    },
+    {
+      "id": "payload-pt",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (pt)",
+      "canonicalRecordId": "payload",
+      "language": "pt",
+      "available": true,
+      "text": "O veneno que um ADC carrega. Geralmente uma quimioterapia tóxica demais para ser dada sozinha."
+    },
+    {
+      "id": "roc-auc-pt",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (pt)",
+      "canonicalRecordId": "roc-auc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (pt)",
+      "canonicalRecordId": "dose-modification",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (pt)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (zh)",
+      "canonicalRecordId": "crs",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "icans-zh",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (zh)",
+      "canonicalRecordId": "icans",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (zh)",
+      "canonicalRecordId": "irae",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "side-effect-vs-adverse-event-zh",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (zh)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctcae-grading-zh",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (zh)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neutropenia-zh",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (zh)",
+      "canonicalRecordId": "neutropenia",
+      "language": "zh",
+      "available": true,
+      "text": "中性粒细胞（对抗细菌的白细胞）缺乏，由化疗损伤骨髓引起。通常在每个周期后7-14天降至最低点（谷值），并在下一周期前恢复；在低值期间，感染风险很高。"
+    },
+    {
+      "id": "febrile-neutropenia-zh",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (zh)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "zh",
+      "available": true,
+      "text": "指抗感染的白细胞被化疗清除后的患者出现发热。这是一种医疗急症：没有免疫细胞，普通感染可在数小时内致命，因此需要立即开始使用抗生素。"
+    },
+    {
+      "id": "g-csf-growth-factors-zh",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (zh)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphodepletion-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (zh)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "zh",
+      "available": true,
+      "text": "在CAR-T输注前几天给予的短程化疗（通常为氟达拉滨和环磷酰胺），用于清除患者自身的淋巴细胞，为工程化细胞的扩增腾出空间并提供生长信号。"
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (zh)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (zh)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ild-zh",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (zh)",
+      "canonicalRecordId": "ild",
+      "language": "zh",
+      "available": true,
+      "text": "肺部炎症，是部分ADC（尤其Enhertu）和免疫治疗的严重副作用。"
+    },
+    {
+      "id": "radiation-pneumonitis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (zh)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "zh",
+      "available": true,
+      "text": "放射性肺炎与肺纤维化：胸部放疗后一到六个月出现的肺部炎症，引起咳嗽、气促和发热；通常经激素治疗缓解，但可能留下永久性瘢痕。"
+    },
+    {
+      "id": "pharmacokinetics-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (zh)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "half-life-zh",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (zh)",
+      "canonicalRecordId": "half-life",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (zh)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efflux-pump-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (zh)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-efflux-pumps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (zh)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "therapeutic-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (zh)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "backbone-add-on-zh",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (zh)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-zh",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (zh)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "synthetic-lethality-approaches-zh",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (zh)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "zh",
+      "available": true,
+      "text": "找到癌症仅因第一个基因损坏才需要的第二个基因，然后打击第二个。"
+    },
+    {
+      "id": "small-molecule-zh",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (zh)",
+      "canonicalRecordId": "small-molecule",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mechanism-of-action-recovery-zh",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (zh)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-zh",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (zh)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (zh)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "insertional-mutagenesis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (zh)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-zh",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (zh)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pulmonary-function-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (zh)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemical-probe-zh",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (zh)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-and-mechanism-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (zh)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "secondary-malignancy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (zh)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ovarian-function-suppression-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (zh)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "zh",
+      "available": true,
+      "text": "通过注射暂时关闭卵巢功能（或切除卵巢），使绝经前女性的癌症失去雌激素的供应。"
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-zh",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (zh)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-zh",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (zh)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "zh",
+      "available": true,
+      "text": "专门设计用来攻击癌症所依赖的某个特定分子的药物，这个分子通常是由突变或扩增的基因产生的蛋白，同时相对不影响正常细胞。用药前先检测肿瘤，看它是否携带该靶点。"
+    },
+    {
+      "id": "dose-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dose (zh)",
+      "canonicalRecordId": "dose",
+      "language": "zh",
+      "available": true,
+      "text": "药物给多少、多久给一次、给多长时间。长期以来，抗癌药一直按患者所能承受的最高剂量给药，如今监管机构正在推动按获益而非耐受性来选择剂量。"
+    },
+    {
+      "id": "payload-zh",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (zh)",
+      "canonicalRecordId": "payload",
+      "language": "zh",
+      "available": true,
+      "text": "ADC携带的毒素。通常是毒性太强、无法单独给药的化疗。"
+    },
+    {
+      "id": "roc-auc-zh",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (zh)",
+      "canonicalRecordId": "roc-auc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-modification-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (zh)",
+      "canonicalRecordId": "dose-modification",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (zh)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome (CRS) (simple)",
+      "canonicalRecordId": "crs",
+      "language": "simple",
+      "available": true,
+      "text": "Immune-cell activation can cause widespread inflammation called cytokine release syndrome. Doctors assess the symptoms and other possible causes; a cytokine level alone does not diagnose it."
+    },
+    {
+      "id": "icans-simple",
+      "kind": "reader-summary-entry",
+      "name": "ICANS (neurotoxicity) (simple)",
+      "canonicalRecordId": "icans",
+      "language": "simple",
+      "available": true,
+      "text": "Immune-effector treatment can affect language, attention and other brain functions. A cognitive score is one part of assessing these changes, alongside other possible causes."
+    },
+    {
+      "id": "irae-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (simple)",
+      "canonicalRecordId": "irae",
+      "language": "simple",
+      "available": true,
+      "text": "An immune-related side effect is harm attributed to treatment-driven immune activity. A symptom during treatment does not by itself prove an immune cause."
+    },
+    {
+      "id": "side-effect-vs-adverse-event-simple",
+      "kind": "reader-summary-entry",
+      "name": "Side effect versus adverse event (simple)",
+      "canonicalRecordId": "side-effect-vs-adverse-event",
+      "language": "simple",
+      "available": true,
+      "text": "An adverse event is an unwanted medical change recorded during treatment or follow-up. Recording it does not prove that the treatment caused it."
+    },
+    {
+      "id": "ctcae-grading-simple",
+      "kind": "reader-summary-entry",
+      "name": "CTCAE toxicity grading (grade 3-4 adverse events) (simple)",
+      "canonicalRecordId": "ctcae-grading",
+      "language": "simple",
+      "available": true,
+      "text": "CTCAE gives event-specific grades for how severe a medical problem is. The grade does not say what caused it, and reports must name the scale version."
+    },
+    {
+      "id": "neutropenia-simple",
+      "kind": "reader-summary-entry",
+      "name": "Neutropenia (simple)",
+      "canonicalRecordId": "neutropenia",
+      "language": "simple",
+      "available": true,
+      "text": "Neutropenia is a shortage of neutrophils, the white blood cells that fight bacteria, caused by chemotherapy hitting the bone marrow, leaving patients open to infection."
+    },
+    {
+      "id": "febrile-neutropenia-simple",
+      "kind": "reader-summary-entry",
+      "name": "Febrile neutropenia (simple)",
+      "canonicalRecordId": "febrile-neutropenia",
+      "language": "simple",
+      "available": true,
+      "text": "Febrile neutropenia is fever in a patient whose infection-fighting white cells have been wiped out by chemotherapy, an emergency needing antibiotics within the hour."
+    },
+    {
+      "id": "g-csf-growth-factors-simple",
+      "kind": "reader-summary-entry",
+      "name": "Growth factors: G-CSF and febrile neutropenia prevention (simple)",
+      "canonicalRecordId": "g-csf-growth-factors",
+      "language": "simple",
+      "available": true,
+      "text": "These medicines help the bone marrow produce and recover neutrophils, a type of white blood cell. Their use depends on the treatment and the person's infection risk."
+    },
+    {
+      "id": "lymphodepletion-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lymphodepletion before CAR-T (simple)",
+      "canonicalRecordId": "lymphodepletion",
+      "language": "simple",
+      "available": true,
+      "text": "Lymphodepletion is a short course of chemotherapy given before a CAR-T infusion to clear out the patient's own lymphocytes, making room for the engineered cells to expand."
+    },
+    {
+      "id": "ovarian-function-after-chemotherapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function after chemotherapy: who recovers, and when (simple)",
+      "canonicalRecordId": "ovarian-function-after-chemotherapy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pneumonitis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pneumonitis (simple)",
+      "canonicalRecordId": "pneumonitis",
+      "language": "simple",
+      "available": true,
+      "text": "Pneumonitis means inflammation in lung tissue. A new cough or breathing difficulty needs prompt assessment because several conditions can cause similar symptoms."
+    },
+    {
+      "id": "ild-simple",
+      "kind": "reader-summary-entry",
+      "name": "Interstitial lung disease (ILD) / pneumonitis (simple)",
+      "canonicalRecordId": "ild",
+      "language": "simple",
+      "available": true,
+      "text": "Inflammation of the lungs, a serious side effect of some antibody-drugs and immune drugs."
+    },
+    {
+      "id": "radiation-pneumonitis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Radiation pneumonitis and lung fibrosis (simple)",
+      "canonicalRecordId": "radiation-pneumonitis",
+      "language": "simple",
+      "available": true,
+      "text": "Radiation pneumonitis is inflammation of the lung one to six months after chest radiotherapy, causing cough and breathlessness, which can leave permanent scarring."
+    },
+    {
+      "id": "pharmacokinetics-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (simple)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "simple",
+      "available": true,
+      "text": "Pharmacokinetics describes how a medicine moves through the body and how its concentration changes over time. The amount given, exposure and biological effect are different measurements."
+    },
+    {
+      "id": "half-life-simple",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (simple)",
+      "canonicalRecordId": "half-life",
+      "language": "simple",
+      "available": true,
+      "text": "A half-life describes how long a named drug concentration takes to fall by half under stated conditions. It does not by itself say when another dose is safe or when an effect ends."
+    },
+    {
+      "id": "dose-dense-chemotherapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (simple)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "simple",
+      "available": true,
+      "text": "Dose-dense treatment shortens the gaps between treatments, while metronomic treatment uses repeated lower doses. Benefits, harms and supportive care depend on the particular regimen."
+    },
+    {
+      "id": "efflux-pump-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (simple)",
+      "canonicalRecordId": "efflux-pump",
+      "language": "simple",
+      "available": true,
+      "text": "An efflux pump moves particular substances out of a cell. Some pumps can lower exposure to cancer drugs or the payload released by an antibody-drug conjugate."
+    },
+    {
+      "id": "drug-efflux-pumps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug efflux pumps (ABC transporters) (simple)",
+      "canonicalRecordId": "drug-efflux-pumps",
+      "language": "simple",
+      "available": true,
+      "text": "Drug transporters can move certain medicines out of cells. Finding a transporter does not show how active it is or which treatment will work."
+    },
+    {
+      "id": "therapeutic-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (simple)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "simple",
+      "available": true,
+      "text": "A therapeutic index compares doses that produce defined useful and harmful effects. It is a ratio, not a dose range or a personal safety guarantee."
+    },
+    {
+      "id": "backbone-add-on-simple",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (simple)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "simple",
+      "available": true,
+      "text": "An add-on is tested with a reference treatment called the backbone. The study must show what the combination adds in benefit and harm."
+    },
+    {
+      "id": "synthetic-lethality-simple",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality (simple)",
+      "canonicalRecordId": "synthetic-lethality",
+      "language": "simple",
+      "available": true,
+      "text": "Two changes can kill a cell together even when either change alone is tolerated. A genetic finding alone does not show that a particular drug will produce this effect."
+    },
+    {
+      "id": "synthetic-lethality-approaches-simple",
+      "kind": "reader-summary-entry",
+      "name": "Synthetic lethality approaches (simple)",
+      "canonicalRecordId": "synthetic-lethality-approaches",
+      "language": "simple",
+      "available": true,
+      "text": "Finding a second gene a cancer needs only because its first gene is broken, then attacking that second gene."
+    },
+    {
+      "id": "small-molecule-simple",
+      "kind": "reader-summary-entry",
+      "name": "Small molecule drug (simple)",
+      "canonicalRecordId": "small-molecule",
+      "language": "simple",
+      "available": true,
+      "text": "Some small-molecule medicines can reach targets inside cells. Small size alone does not prove entry, oral absorption, selectivity or safety."
+    },
+    {
+      "id": "mechanism-of-action-recovery-simple",
+      "kind": "reader-summary-entry",
+      "name": "Mechanism-of-action recovery and known-biology probes (simple)",
+      "canonicalRecordId": "mechanism-of-action-recovery",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-side-effects-breast-simple",
+      "kind": "reader-summary-entry",
+      "name": "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs (simple)",
+      "canonicalRecordId": "adc-side-effects-breast",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antiemetic-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antiemetics for chemotherapy-induced nausea and vomiting (simple)",
+      "canonicalRecordId": "antiemetic-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "Antiemetic medicines help prevent or treat nausea and vomiting. These are separate symptoms, and prevention depends on the treatment and individual circumstances."
+    },
+    {
+      "id": "insertional-mutagenesis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Insertional mutagenesis (simple)",
+      "canonicalRecordId": "insertional-mutagenesis",
+      "language": "simple",
+      "available": true,
+      "text": "Added genetic material can disrupt a gene or how it is controlled. An insertion or a growing cell clone does not by itself show that cancer has formed."
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-simple",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (simple)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "simple",
+      "available": true,
+      "text": "A treatment can harm healthy tissue that carries the target it was designed to recognise. This differs from mistakenly recognising another molecule."
+    },
+    {
+      "id": "pulmonary-function-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pulmonary function testing (simple)",
+      "canonicalRecordId": "pulmonary-function-testing",
+      "language": "simple",
+      "available": true,
+      "text": "Lung tests measure airflow, lung volume and how gas passes into the blood. A result describes function but does not by itself identify the cause of a problem."
+    },
+    {
+      "id": "chemical-probe-simple",
+      "kind": "reader-summary-entry",
+      "name": "Chemical probe (simple)",
+      "canonicalRecordId": "chemical-probe",
+      "language": "simple",
+      "available": true,
+      "text": "A chemical probe is a research tool used to change a biological process and test what it does. It needs suitable controls and is not automatically a medicine."
+    },
+    {
+      "id": "drug-target-and-mechanism-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (simple)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "simple",
+      "available": true,
+      "text": "A drug target is the molecule or structure a treatment acts on. Its mechanism describes how that action produces an effect, with separate evidence needed for benefit in people."
+    },
+    {
+      "id": "secondary-malignancy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Secondary malignancy (therapy-related cancer) (simple)",
+      "canonicalRecordId": "secondary-malignancy",
+      "language": "simple",
+      "available": true,
+      "text": "A secondary malignancy is a new cancer distinct from the first. Developing it after treatment does not by itself show that treatment caused it."
+    },
+    {
+      "id": "ovarian-function-suppression-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ovarian function suppression (OFS) (simple)",
+      "canonicalRecordId": "ovarian-function-suppression",
+      "language": "simple",
+      "available": true,
+      "text": "Ovarian function suppression means switching off the ovaries with injections or surgery so a younger woman's breast cancer is starved of oestrogen."
+    },
+    {
+      "id": "lymphoma-bio-lineage-antigen-cost-simple",
+      "kind": "reader-summary-entry",
+      "name": "What it costs to aim at a lineage antigen (simple)",
+      "canonicalRecordId": "lymphoma-bio-lineage-antigen-cost",
+      "language": "simple",
+      "available": true,
+      "text": "Some lymphoma treatments recognise targets also found on healthy cells. Harm from those shared targets differs from unintended binding or cytokine-driven inflammation."
+    },
+    {
+      "id": "targeted-therapy-term-simple",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (simple)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "simple",
+      "available": true,
+      "text": "Targeted therapy means drugs designed to hit a specific molecule the cancer depends on while sparing normal cells, with the tumour tested first for that target."
+    },
+    {
+      "id": "dose-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dose (simple)",
+      "canonicalRecordId": "dose",
+      "language": "simple",
+      "available": true,
+      "text": "Dose is how much of a drug is given, how often and for how long, and regulators now push for doses chosen for benefit rather than maximum tolerability."
+    },
+    {
+      "id": "payload-simple",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (simple)",
+      "canonicalRecordId": "payload",
+      "language": "simple",
+      "available": true,
+      "text": "The poison an antibody-drug carries. Usually chemotherapy far too strong to give on its own."
+    },
+    {
+      "id": "roc-auc-simple",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (simple)",
+      "canonicalRecordId": "roc-auc",
+      "language": "simple",
+      "available": true,
+      "text": "A score can put people in the right order while getting their numerical risks wrong. Good ranking alone does not show that using the score helps patients."
+    },
+    {
+      "id": "dose-modification-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dose reduction, interruption and discontinuation (simple)",
+      "canonicalRecordId": "dose-modification",
+      "language": "simple",
+      "available": true,
+      "text": "Dose modification means pausing a drug until a problem settles, restarting at a lower dose or stopping for good, the everyday tools for living with side effects."
+    },
+    {
+      "id": "lymphoma-tx-crs-icans-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine release syndrome and ICANS: grading and management (simple)",
+      "canonicalRecordId": "lymphoma-tx-crs-icans",
+      "language": "simple",
+      "available": true,
+      "text": "Inflammation and brain-related symptoms after immune-effector treatment need separate assessment and recovery records. Care depends on the product and clinical findings."
+    },
+    {
+      "id": "drug-target-engagement-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (ar)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-ar",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (ar)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (de)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-de",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (de)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (es)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-es",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (es)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (fr)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-fr",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (fr)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (hi)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-hi",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (hi)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (ja)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-ja",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (ja)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (pt)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-pt",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (pt)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (zh)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-zh",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (zh)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "drug-target-engagement-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug target engagement (simple)",
+      "canonicalRecordId": "drug-target-engagement",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-drug-validation-simple",
+      "kind": "reader-summary-entry",
+      "name": "On-target validation of drug effects (simple)",
+      "canonicalRecordId": "on-target-drug-validation",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

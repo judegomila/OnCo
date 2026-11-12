@@ -1,0 +1,66 @@
+{
+  "requestURL": "https://api.crossref.org/works?query.title=Combined+Top1+and+CHK+Inhibitor+Dual-Payload+Strategy+for+Synergistic+Reversal+of+Tumor+Drug+Resistance&rows=3",
+  "rawResponseSha256": "0635e39f1df65aa51d55b17a08f5c43540ba0e297eee25e72b5b3f79ed43f81d",
+  "items": [
+    {
+      "DOI": "10.1158/1557-3265.d32026-a067",
+      "title": [
+        "Abstract A067: Combined Top1 and CHK Inhibitor Dual-Payload Strategy for Synergistic Reversal of Tumor Drug Resistance"
+      ],
+      "URL": "https://doi.org/10.1158/1557-3265.d32026-a067",
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            21
+          ]
+        ]
+      },
+      "container-title": [
+        "Clinical Cancer Research"
+      ]
+    },
+    {
+      "DOI": "10.1158/1538-7445.am2026-2964",
+      "title": [
+        "Abstract 2964: Identification of synergistic dual payload combinations for antibody-drug conjugates to overcome resistance through resistance modeling."
+      ],
+      "URL": "https://doi.org/10.1158/1538-7445.am2026-2964",
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ]
+      },
+      "container-title": [
+        "Cancer Research"
+      ]
+    },
+    {
+      "DOI": "10.18609/bci.2026.012",
+      "title": [
+        "Dual-target, dual-payload ADCs to overcome tumor heterogeneity and resistance"
+      ],
+      "URL": "https://doi.org/10.18609/bci.2026.012",
+      "type": "journal-article",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            31
+          ]
+        ]
+      },
+      "container-title": [
+        "Bioconjugate Insights"
+      ]
+    }
+  ]
+}

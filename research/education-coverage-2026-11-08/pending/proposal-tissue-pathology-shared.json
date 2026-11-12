@@ -1,0 +1,224 @@
+{
+  "version": "proposal-tissue-pathology-shared",
+  "state": "Registered and rendered draft with coordinator source-to-field acceptance at recorded evidence scope; not main or live.",
+  "draft": 373,
+  "captureParentHead": "60784e5b68938e9a53f6bd166af49e4b28cfcfe3",
+  "companionCommittedHead": "9fe34050c74adc5d6fc949fcaab86393ba84b162",
+  "records": [
+    {
+      "id": "finite-tissue-budget",
+      "kind": "term",
+      "name": "Finite tissue and specimen allocation",
+      "aka": [
+        "finite tissue budget",
+        "tissue allocation for testing"
+      ],
+      "tldr": "Sections, extractions and destructive tests consume stored tissue. Planning several tests requires knowing what material remains and which uses it must support.",
+      "summary": "NCI biospecimen guidance places pathology oversight of tissue release alongside the need to protect complete medical evaluation. It also treats divided and extracted material as traceable derivative samples. A thoracic small-specimen guideline addresses triage and handling for multiple ancillary studies in its own clinical scope. The general resource issue is finite material, not a universal order of tests: remaining tissue and assay requirements need to be established for the actual specimen.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "NCI Best Practices for Biospecimen Resources, fourth edition (2026)",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro"
+        },
+        {
+          "label": "Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies: Guideline From the College of American Pathologists in Collaboration With the American College of Chest Physicians, Association for Molecular Pathology, American Society of Cytopathology, American Thoracic Society, Pulmonary Pathology Society, Papanicolaou Society of Cytopathology, Society of Interventional Radiology, and Society of Thoracic Radiology.",
+          "url": "https://doi.org/10.5858/arpa.2020-0119-cp"
+        },
+        {
+          "label": "Biospecimen & Biorepository Basics - NCI",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/basics"
+        },
+        {
+          "label": "CAP practical breast grossing guide excerpt",
+          "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf"
+        },
+        {
+          "label": "NCI Biospecimen Evidence-Based Practices: snap-freezing of post-surgical tissue",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "specimen-provenance",
+        "tissue-preparation-assay-fit",
+        "preanalytics-sample-stabilisation",
+        "biopsy"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Cutting sections moves material from the block onto slides; extraction consumes a portion and loses its original architecture. Stored images and datasets can be copied and reanalysed but cannot refill the archive. A newly collected biopsy is another procedure and time point, and a growing culture is a changed system rather than replenishment of the original specimen.",
+        "An aliquot is an allocated portion. Retain site, date, treatment context, preservation, region, quantity, prior uses, remaining material, permissions and custody. A block list or ten remaining slides does not prove that relevant malignant cells remain. Returning a block does not replace extracted tissue.",
+        "Fictional small block: one proposed extraction remains possible after diagnostic needs are protected, while two teams request overlapping RNA tests. Compare questions, validated inputs, existing-data reuse, permissions and expected material use with pathology before allocation. No universal section count, percentage budget or clinical priority follows from this exercise.",
+        "Specimen allocation starts by identifying the available portions, assessing their suitability, estimating method-specific use and recording consumption. Blocks, slides, frozen pieces and cell aliquots are finite inputs; their counts alone do not establish adequacy. Record remaining portions with section thickness, area or analyte amounts and the relevant context. Receiving-laboratory requirements and diagnostic priorities apply, rather than a universal test budget. Outdated inventories, unrecognised exhaustion, unsuitable regions and duplicated destructive work can waste material. Specimen governance supports reliable testing but is not itself a clinical biomarker and does not establish whether a test changes care or another procedure is appropriate."
+      ],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "rna-integrity",
+      "kind": "term",
+      "name": "RNA integrity and assay suitability",
+      "aka": [
+        "RNA integrity number",
+        "RIN score",
+        "DV200 RNA quality"
+      ],
+      "tldr": "RNA quality measurements describe the condition of extracted RNA. Their usefulness depends on the measurement workflow the material will enter.",
+      "summary": "The original RNA Integrity Number method summarized electrophoretic features to standardize quality assessment. DV200 describes the proportion of RNA fragments longer than 200 nucleotides. Comparisons of fixed and frozen tissue found that fragment-distribution measures and functional amplification assays could be more informative for particular workflows. The NCI preanalytical-variables study likewise found method-dependent sensitivity to handling effects. An integrity score is therefore not a universal pass or fail rule for every RNA assay; input, preparation and intended measurement still matter.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+          "url": "https://doi.org/10.1186/1471-2199-7-3"
+        },
+        {
+          "label": "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples.",
+          "url": "https://doi.org/10.1038/s41598-018-24781-6"
+        },
+        {
+          "label": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.",
+          "url": "https://doi.org/10.5858/arpa.2018-0172-oa"
+        },
+        {
+          "label": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16448564/"
+        },
+        {
+          "label": "Effects of tissue handling on RNA integrity and microarray measurements from resected breast cancers.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22034635/"
+        },
+        {
+          "label": "Robustness of RNA sequencing on older formalin-fixed paraffin-embedded tissue from high-grade ovarian serous adenocarcinomas.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31059554/"
+        },
+        {
+          "label": "Technical Note: RNA Sequencing",
+          "url": "https://support.illumina.com/content/dam/illumina-marketing/documents/products/technotes/evaluating-rna-quality-from-ffpe-samples-technical-note-470-2014-001.pdf"
+        },
+        {
+          "label": "NCI Biospecimen Evidence-Based Practices: snap-freezing of post-surgical tissue",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tissue-preparation-assay-fit",
+        "rna-seq",
+        "preanalytics-sample-stabilisation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "RNA integrity concerns molecular condition and fragment distribution, while yield measures recovered quantity. RNases, handling, fixation chemistry and storage can affect recovered molecules. An electropherogram separates size-associated signal. Integrity does not measure malignant-cell share, viability, protein abundance or transcript function.",
+        "Schroeder developed RIN from multiple electropherogram features using a trained statistical model. Its 1 to 10 scale runs from degraded to more intact RNA and is not a percentage. DV200 describes measured fragments longer than 200 nucleotides; it does not certify every transcript. In a fictional area illustration, 6 of 10 selected signal-area units above 200 nucleotides give 60%. This is not a computation of RIN or an assay acceptance rule.",
+        "Illumina describes DV200 for its RNA enrichment workflows and cautions that RIN can be insensitive in degraded FFPE samples. The older fixed ovarian-tumour study assessed shorter-fragment metrics and library performance because RIN and DV200 did not capture all limitations. Those findings and kit cutoffs must stay with their protocols, rather than becoming universal input rules.",
+        "Fictional fixed RNA has low RIN but is accepted for a validated short-target expression assay and rejected for a full-length transcript workflow. These decisions can be consistent because the questions need different evidence. Passing input QC does not establish library complexity or gene recovery; a weak negative can reflect failed recovery rather than biological absence. Gene counts do not prove full-length or splice structure.",
+        "RNA quality assessment uses an aliquot of an extract, which itself consumed specimen material. Examine the fragment-size distribution and method-specific quality summary, then check downstream recovery. Report RIN on its 1 to 10 scale, DV200 as a percentage, RNA quantity in nanograms and relevant library or recovery metrics. Acceptance depends on preservation, input amount and the intended assay; there is no universal RIN or DV200 pass cutoff. Poor extraction, degradation, chemical damage, contaminants, insufficient quantity or an uninterpretable trace can limit testing. Integrity does not measure tumour purity, cell viability, protein abundance or transcript function, and a research suitability metric is not a diagnostic result."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "tissue-preparation-assay-fit",
+      "kind": "term",
+      "name": "Tissue preparation and assay suitability",
+      "aka": [
+        "FFPE versus fresh-frozen versus viable tissue",
+        "specimen fitness for purpose"
+      ],
+      "tldr": "Fixed, frozen and living tissue preserve different properties. A preparation that works for one test may not support another.",
+      "summary": "Paired-specimen studies found that fixation and extraction changed nucleic-acid measurements relative to fresh-frozen material. Viable organoid studies examine a different property: whether living cells can establish the studied culture. Preserved morphology, recoverable DNA or RNA, and viable cell behavior are therefore different specimen requirements. No preparation is universally best; the intended measurement and evidence for that particular workflow determine suitability.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen and formalin-fixed paraffin-embedded samples of human cancer and normal tissue.",
+          "url": "https://doi.org/10.1371/journal.pone.0098187"
+        },
+        {
+          "label": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.",
+          "url": "https://doi.org/10.5858/arpa.2018-0172-oa"
+        },
+        {
+          "label": "A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity.",
+          "url": "https://doi.org/10.1016/j.cell.2017.11.010"
+        },
+        {
+          "label": "NCI Biospecimen Evidence-Based Practices: snap-freezing of post-surgical tissue",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf"
+        },
+        {
+          "label": "Biospecimen & Biorepository Basics - NCI",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/basics"
+        },
+        {
+          "label": "Surgical Pathology Reports - NCI",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+        },
+        {
+          "label": "Analysis of chemical modification of RNA from formalin-fixed samples and optimization of molecular biology applications for such samples.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10536153/"
+        },
+        {
+          "label": "Organoid Modeling of the Tumor Immune Microenvironment.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "preanalytics-sample-stabilisation",
+        "rna-integrity",
+        "finite-tissue-budget",
+        "organoids"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Formalin-fixed paraffin-embedded material preserves architecture and supports assays validated for its altered molecules, but cannot restore the original living cells. Snap-freezing preserves material for molecular analysis; the NCI protocol excludes viability, sorting and culture endpoints. A viable-cell vial requires verified recovery, identity and function for its intended assay. No preparation label measures tumour content.",
+        "Masuda experimentally demonstrated chemical modifications of fixed RNA and effects on amplification. Recovering RNA or DNA does not undo fixation or establish a viable cell. Fixed material can still support suitable molecular assays. Fresh and frozen labels describe handling history rather than a verified fraction of living malignant cells.",
+        "Fictional archive: a fixed block, a snap-frozen piece and a vial labelled viable are offered for a cell-growth perturbation. None of these labels alone establishes suitability. The fixed block cannot supply its original living cells; the frozen piece may not be preserved for viable recovery; the viable vial needs recovery, relevant cell identity and model function checked. A successful culture can select a changed cell mixture rather than reproduce the archive.",
+        "Preparation can irreversibly close options. If fixed molecular assays and living-cell experiments are both contemplated, their inputs and separate aliquots need planning before processing, while protecting diagnostic requirements. There is no universally best preparation; dividing finite tissue also has a cost.",
+        "Assess suitability by documenting preservation, checking which cells are represented and applying quality checks for the intended assay or living-cell workflow. Sections, tissue pieces and cell aliquots are finite, and destructive quality checks also use material. Report analyte-appropriate yield and quality, or viable-cell recovery and function when those are required. The receiving method defines acceptance: a preservation label alone guarantees no pass. Delayed stabilisation, incompatible fixative, degraded analyte, poor thaw recovery and missing target cells can defeat the question. Validation on fixed tissue does not automatically transfer to frozen or cultured material, and input suitability alone proves neither clinical accuracy, tumour-wide representation nor patient drug response."
+      ],
+      "category": "Diagnostics & imaging"
+    }
+  ]
+}

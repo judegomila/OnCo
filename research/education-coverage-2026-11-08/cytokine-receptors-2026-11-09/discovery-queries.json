@@ -1,0 +1,21 @@
+[
+  {
+    "queryId": "synthetic-cytokine-receptor-evidence",
+    "cli": "@oncobase/oncobase@0.2.3",
+    "provider": "Elicit API",
+    "endpoint": "https://elicit.com/api/v2/search/papers",
+    "retrievedAt": "2026-11-09T23:00:53.819Z",
+    "request": {
+      "query": "How have synthetic cytokine receptors been engineered to control immune cell growth and function, and what preclinical versus clinical evidence supports these constructs?",
+      "searchMode": "semantic",
+      "maxResults": 8,
+      "corpus": "elicit"
+    },
+    "warnings": [],
+    "responseSha256": "0350ebe8edcddc1b50013cd765b2dc01a9f14591e4ee7cdae2d0986c468e5b65",
+    "returned": 8,
+    "reportURL": null,
+    "reportURLNote": "The API returned no interactive question or report URL. Complete JSON response retained outside Git.",
+    "semanticNcts": []
+  }
+]

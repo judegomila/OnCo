@@ -1,0 +1,15 @@
+{
+  "newGlobalAdjacentId": "vaccine-presentation-source-followups",
+  "openQuestions": [
+    {
+      "id": "altman-1998-notice",
+      "requirement": "Read and resolve the Science 1998;280(5371):1821 erratum linked to Altman 1996 before certifying that historical method in full; current core definitions also have independent modern support."
+    },
+    {
+      "id": "retained-tmb-lung-context",
+      "requirement": "Recheck and source the retained TMB lung-context paragraph, including its superlatives, every-stratum language, licensed-threshold date and chemotherapy/selector claims. The new breast-sample median comparison does not certify those assertions."
+    }
+  ],
+  "newFrozenLiteratureOccurrences": 0,
+  "definedLiteratureOccurrences": 917
+}

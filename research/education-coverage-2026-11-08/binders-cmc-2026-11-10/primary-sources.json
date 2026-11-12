@@ -1,0 +1,902 @@
+{
+  "sourceContexts": [
+    {
+      "sourceId": "cmc-source-01",
+      "identity": "PMID 21406401 / PMC3077882 / 10.1158/0008-5472.can-10-2277",
+      "doi": "10.1158/0008-5472.can-10-2277",
+      "pmid": "21406401",
+      "citedBy": [
+        "affinity"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json): title, authors Rudnick, year 2011 match; lesson cites PMC id only",
+      "readingDepth": "abstract + open-access full-text excerpt (SK-OV-3 xenograft sentence)",
+      "claimsVerified": "SK-OV-3 human ovarian xenografts in scid mice; four variants KD 270-0.56 nmol/L same epitope; moderate affinity highest accumulation; highest-affinity perivascular 20.4 vs 84.8 um. Lesson claims verified. Full methods not read beyond that excerpt (lesson says full manuscript and methods checked; I did not).",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-02",
+      "identity": "PMID 28096333 / 10.1073/pnas.1616408114",
+      "doi": "10.1073/pnas.1616408114",
+      "pmid": "28096333",
+      "citedBy": [
+        "affinity"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json): Jain 2017 matches",
+      "readingDepth": "abstract only",
+      "claimsVerified": "137 antibodies, 48 approved, IgG1 constructs, a dozen assays, empirical boundaries. NOT verified: lesson's 'one assay warning is not a definitive forecast of failure' (an interpretation, not in abstract).",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-03",
+      "identity": "FDA/ICH Q6B 1999 (media/71510)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "affinity",
+        "cmc"
+      ],
+      "identityAssessment": "downloaded from FDA, text extracted",
+      "readingDepth": "characterisation, biological activity, specification definition sections read",
+      "claimsVerified": "characterisation items; specification definition (1.2). Aggregate-testing section not separately read.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-04",
+      "identity": "PMID 8421711 / 10.1073/pnas.90.2.720",
+      "doi": "10.1073/pnas.90.2.720",
+      "pmid": "8421711",
+      "citedBy": [
+        "targeting-module"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "scFv-gamma/zeta chimeric receptors in a cytolytic T-cell hybridoma, IL-2 and hapten-specific lysis. Lesson claim verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-05",
+      "identity": "PMID 34990237 / 10.1126/science.abm0594",
+      "doi": "10.1126/science.abm0594",
+      "pmid": "34990237",
+      "citedBy": [
+        "targeting-module"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "CD5-targeted LNP, CAR mRNA, mouse heart failure. NOT verified: that the CAR targets activated fibroblasts (abstract says antifibrotic only; full text PMC9983611 fetch failed HTTP 500).",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-06",
+      "identity": "10.1038/s41586-023-06415-8 / PMID 37433327",
+      "doi": "10.1038/s41586-023-06415-8",
+      "pmid": "37433327",
+      "citedBy": [
+        "targeting-module",
+        "discovery"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract + open-access full text (design/screening paragraph)",
+      "claimsVerified": "95 designs per target, E. coli, single-point BLI at 10 uM, 19% success definition, subset titrations nanomolar (~30 nM HA, IL-7Ra). Lesson claims verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-07",
+      "identity": "FDA ADC clinical pharmacology guidance March 2024 (media/155997)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "targeting-module"
+      ],
+      "identityAssessment": "title and date read from cover",
+      "readingDepth": "terminology section read this round (total antibody, unconjugated antibody, unconjugated payload; scope caveat)",
+      "claimsVerified": "definitions and the statement that principles may not apply to other ADC types; cover date March 2024",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-08",
+      "identity": "PMID 825377 / 10.1002/eji.1830060713",
+      "doi": "10.1002/eji.1830060713",
+      "pmid": "825377",
+      "citedBy": [
+        "discovery"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "fusion, ~10% anti-SRBC, cloned lines. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-09",
+      "identity": "PMID 2247164 / 10.1038/348552a0",
+      "doi": "10.1038/348552a0",
+      "pmid": "2247164",
+      "citedBy": [
+        "discovery"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "V domains displayed on fd phage; specific binding; one-in-a-million isolation. Verified at abstract level.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-10",
+      "identity": "PMID 9181578 / 10.1038/nbt0697-553",
+      "doi": "10.1038/nbt0697-553",
+      "pmid": "9181578",
+      "citedBy": [
+        "discovery"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "scFv with threefold lower dissociation rate; quantitative flow cytometry. Lesson's 'separate display measurement' NOT verified (not in abstract).",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-11",
+      "identity": "PMID 18641636 / 10.1038/nbt.1480",
+      "doi": "10.1038/nbt.1480",
+      "pmid": "18641636",
+      "citedBy": [
+        "format"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "anti-MUC16 THIOMAB-type conjugate: equal efficacy in xenografts, higher tolerated dose in rats and cynomolgus. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-12",
+      "identity": "PMID 25212991 / 10.1158/2326-6066.cir-14-0127",
+      "doi": "10.1158/2326-6066.cir-14-0127",
+      "pmid": "25212991",
+      "citedBy": [
+        "format"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract (full text PMC4692801 fetch failed)",
+      "claimsVerified": "long IgG4 spacer works in vitro, fails in vivo via Fc receptor on myeloid cells. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-13",
+      "identity": "PMID 25939063 / 10.1038/nm.3838",
+      "doi": "10.1038/nm.3838",
+      "pmid": "25939063",
+      "citedBy": [
+        "format",
+        "scfv"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract (open-access full text downloaded, not read in depth)",
+      "claimsVerified": "tonic CD3-zeta signalling from scFv clustering; CD19 CAR exception; 4-1BB vs CD28. Verified at abstract level.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-14",
+      "identity": "FDA CAR T guidance Jan 2024 (media/156896)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "format",
+        "coa",
+        "comparability",
+        "platform"
+      ],
+      "identityAssessment": "downloaded; title/date from cover",
+      "readingDepth": "targeted passages: COA/VCN, chain of identity, identity/potency, comparability starting material, antigen-dependent/independent; this round also: comparability, lot-release insufficiency, statistical-methods and COA/VCN passages",
+      "claimsVerified": "claims in these passages verified. Rest of the 127 kB document not read.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-15",
+      "identity": "PMID 3045807 / 10.1073/pnas.85.16.5879",
+      "doi": "10.1073/pnas.85.16.5879",
+      "pmid": "3045807",
+      "citedBy": [
+        "scfv"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "15-aa linker, Mr 26,354, Ka 3.2e7 vs Fab 1.9e8. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-16",
+      "identity": "PMID 8502296 / 10.1038/363446a0",
+      "doi": "10.1038/363446a0",
+      "pmid": "8502296",
+      "citedBy": [
+        "scfv"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "camel heavy-chain IgG, Mr 100K, no light chain, no CH1. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-17",
+      "identity": "PMID 20641540 (NCBI MICAD entry L36-Cy5 anti-laminin trimerbody)",
+      "doi": null,
+      "pmid": "20641540",
+      "citedBy": [
+        "scfv"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json): record is a book-chapter style database entry about a trimerbody imaging agent, not a size monograph",
+      "readingDepth": "abstract (full entry text)",
+      "claimsVerified": "mAb ~150 kDa, scFv 25-30 kDa verified; lesson body says 25 to 27 kDa, which this source does not say. Secondary, product-specific entry used for general sizes.",
+      "issues": "DISCREPANCY: lesson body 25-27 kDa vs source 25-30 kDa.",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-18",
+      "identity": "PMID 32936001 / 10.1089/cbr.2020.3941",
+      "doi": "10.1089/cbr.2020.3941",
+      "pmid": "32936001",
+      "citedBy": [
+        "scfv"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract only",
+      "claimsVerified": "'as low as 15 kDa'. Lesson body says 12 to 15 kDa; the 12 is not supported by what I read.",
+      "issues": "DISCREPANCY: 12 kDa lower bound unverified.",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-19",
+      "identity": "PMID 6197968 / 10.1042/bj2160423",
+      "doi": "10.1042/bj2160423",
+      "pmid": "6197968",
+      "citedBy": [
+        "scfv",
+        "affinity"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract",
+      "claimsVerified": "Fab 1.9e7 /M vs avidity 1.3e9 /M, enhancement factor 68 (Scatchard) and larger in realistic models. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-20",
+      "identity": "21 CFR 211.192",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "batch-release"
+      ],
+      "identityAssessment": "eCFR API text, 2025-01-01 version",
+      "readingDepth": "full section",
+      "claimsVerified": "QC unit reviews records before release; investigation of unexplained discrepancy or spec failure. Verified. Not checked: whether text changed after 2025-01-01 (current text assumed same).",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-21",
+      "identity": "FDA OOS guidance May 2022 (media/158416)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "batch-release"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "scope footnote, retesting section, conclusion section",
+      "claimsVerified": "scope excludes biological assays; 'testing into compliance' sentence. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-22",
+      "identity": "FDA quality systems approach Sept 2006 (media/71023)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "gmp",
+        "batch-release"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "quality-unit and QC/QA sections read this round",
+      "claimsVerified": "quality-unit role only.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-23",
+      "identity": "FDA contract manufacturing quality agreements Nov 2016 (media/86193)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "cdmo"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "scope, delegation sentence, deviation sentence, section headings",
+      "claimsVerified": "verified: cannot delegate CGMP responsibilities; commercial scope; investigational by analogy.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-24",
+      "identity": "ICH Q10 (media/71553) section 2.7",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "cdmo"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "section 2.7 first paragraph",
+      "claimsVerified": "verified; document date April 2009 appears in text.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-25",
+      "identity": "FDA/ICH Q7 Sept 2016",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "coa"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "7.30-7.31 and 11.40-11.42",
+      "claimsVerified": "verified. Document date/title read from file name and cover; not rechecked.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-26",
+      "identity": "FDA GT CMC guidance Jan 2020 (media/113760)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "cmc"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "date, CQA paragraph, stability paragraph, specification paragraphs read this round; full body not read",
+      "claimsVerified": "partial",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-27",
+      "identity": "FDA CMC flexibilities May 2026 (media/192321)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "cmc"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "title, date, immediate implementation statement, footnote 11",
+      "claimsVerified": "partial; stage-dependent flexibility statement verified at that level.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-28",
+      "identity": "FDA Phase 1 CGMP guidance July 2008 (media/70975)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "gmp"
+      ],
+      "identityAssessment": "downloaded (FDA page links media/70975)",
+      "readingDepth": "introduction",
+      "claimsVerified": "exempt from part 211 under 210.2(c); CGMP under 501(a)(2)(B). Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-29",
+      "identity": "FDA CGMP facts page",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "gmp"
+      ],
+      "identityAssessment": "fetched HTML",
+      "readingDepth": "definition paragraph",
+      "claimsVerified": "verified incl. 'C stands for current'.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-30",
+      "identity": "FDA/ICH Q5E June 2005 (media/71489)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "comparability"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "comparability definition paragraph",
+      "claimsVerified": "'highly similar... no adverse impact' verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-31",
+      "identity": "FDA manufacturing changes and comparability draft July 2023",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "comparability"
+      ],
+      "identityAssessment": "fetched HTML 9 Nov 2026",
+      "readingDepth": "status banner",
+      "claimsVerified": "still 'Draft Not for implementation'.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-32",
+      "identity": "FDA potency tests Jan 2011 (media/79856)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "potency"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "surrogate/assay matrix passages",
+      "claimsVerified": "verified but SUPERSEDED.",
+      "issues": "STALE: lesson cites it as current.",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-33",
+      "identity": "FDA potency assurance FINAL Nov 2026 (media/196183)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "potency"
+      ],
+      "identityAssessment": "downloaded; states it supersedes January 2011 guidance",
+      "readingDepth": "introduction, sample-after-cryopreservation, multiple assays, reference materials headings",
+      "claimsVerified": "The lesson cites the Dec 2023 draft 'still labeled draft'; it is now final.",
+      "issues": "resolved in this round: see new entry",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-34",
+      "identity": "PMID 31959774 / 10.1038/s41598-019-56943-5",
+      "doi": "10.1038/s41598-019-56943-5",
+      "pmid": "31959774",
+      "citedBy": [
+        "spps"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract + open-access full text (Results, Fig 2 legend, table footnotes)",
+      "claimsVerified": "30-mers <35 min; 15-16-mers <20 min; ESI-MS main product for all 29; RP-HPLC purity; vendor 10/29 >95%; 400/598 (67%) earlier. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-35",
+      "identity": "PMID 24938489 / PMC4161149 / 10.1039/c4cc03065f",
+      "doi": "10.1039/c4cc03065f",
+      "pmid": "24938489",
+      "citedBy": [
+        "spps"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract + open-access full text (aggregation passages)",
+      "claimsVerified": "aggregation-prone sequences, backbone protection improved quality and yield; verified at that level. Lesson cites PMC id only.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-36",
+      "identity": "PMID 37165196 / 10.1038/s41586-023-06063-y",
+      "doi": "10.1038/s41586-023-06063-y",
+      "pmid": "37165196",
+      "citedBy": [
+        "platform"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract only",
+      "claimsVerified": "phase I, 16 patients, up to 20 neoantigens, 8/16 responders. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-37",
+      "identity": "PMID 31932728 / 10.1038/s41587-019-0390-x",
+      "doi": "10.1038/s41587-019-0390-x",
+      "pmid": "31932728",
+      "citedBy": [
+        "platform"
+      ],
+      "identityAssessment": "Europe PMC MED/DOI search (europepmc-resolution.json)",
+      "readingDepth": "abstract only",
+      "claimsVerified": "SNP-7/8a ~20 nm irrespective of peptide; mice (179 neoantigens), NHP mock neoantigens. Verified.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-38",
+      "identity": "FDA vaccine CMC guidance Jan 1999 (media/73614)",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "platform"
+      ],
+      "identityAssessment": "downloaded",
+      "readingDepth": "table of contents only",
+      "claimsVerified": "headings identity, purity and impurities, potency present; body not read.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-39",
+      "identity": "NCI monoclonal antibodies page",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "targeting-module"
+      ],
+      "identityAssessment": "fetched HTML",
+      "readingDepth": "NOT read",
+      "claimsVerified": "access ok; claim not verified",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-40",
+      "identity": "10.1007/s00262-010-0844-y / PMID 20309546",
+      "doi": "10.1007/s00262-010-0844-y",
+      "pmid": "20309546",
+      "citedBy": [
+        "draft-373 binder owners",
+        "affinity",
+        "format"
+      ],
+      "identityAssessment": "Crossref (title, authors Bluemel et al. incl. Baeuerle, published 23 March 2010, Cancer Immunology, Immunotherapy) and Europe PMC MED (PMID 20309546, 2010); titles equal",
+      "readingDepth": "abstract (Europe PMC); full text not read",
+      "claimsVerified": "similar BiTE binding affinity to MCSP, large differences in lysis of CHO cells; membrane-proximal domain D3 binders more potent; smaller antigens lysed better. Used in notes with its model limits.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-41",
+      "identity": "10.1016/j.ymthe.2026.06.017 / PMID 42272105",
+      "doi": "10.1016/j.ymthe.2026.06.017",
+      "pmid": "42272105",
+      "citedBy": [
+        "draft-373 binder owners",
+        "format",
+        "affinity"
+      ],
+      "identityAssessment": "Crossref (Kinna et al., Molecular Therapy, September 2026) and Europe PMC MED (PMID 42272105, 2026); title equals the draft's link label",
+      "readingDepth": "abstract only; full text not read",
+      "claimsVerified": "ten VHH/scFv pairs against CD123 selected for comparable targeting and kinetics (KD 10^-9 to 10^-11 M); VHH Tm50 +7.85 C, less aggregation, favourable surface charge; higher IL2 and IFNg in vitro and better survival in an AML xenograft. Authors conclude VHH is preferred; this is one target and one mouse model.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-42",
+      "identity": "FDA Potency Assurance for Cellular and Gene Therapy Products, final (media/196183), Federal Register 2026-22427, FDA guidance page",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "potency",
+        "cell-therapy-release-testing"
+      ],
+      "identityAssessment": "raw PDF downloaded 9 November 2026: cover date November 2026, text says it supersedes the January 2011 potency-tests guidance. FDA guidance page: Final, docket FDA-2023-D-4299, content current 11/02/2026. Federal Register API: public-inspection filing 2 November 2026, publication date 3 November 2026, notice says it finalises the draft of 28 December 2023.",
+      "readingDepth": "introduction, regulatory-framework and assay-control sections (suitability, reference materials, qualification and validation, sample after all steps, MOA relationship)",
+      "claimsVerified": "final status, supersession, document date versus publication date, assay-control statements. Federal Register website pages blocked scripts; the developer API returned the raw record.",
+      "issues": "The older Draft page (December 2023) still exists at a different FDA URL and still reads Draft; that is a separate, older page, not current status.",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    },
+    {
+      "sourceId": "cmc-source-43",
+      "identity": "FDA potency tests Jan 2011 (media/79856) historical status",
+      "doi": null,
+      "pmid": null,
+      "citedBy": [
+        "potency"
+      ],
+      "identityAssessment": "downloaded; January 2011",
+      "readingDepth": "surrogate/matrix passages",
+      "claimsVerified": "historical teaching (assay matrix, surrogate) kept separate from later guidance; now superseded as stated above.",
+      "issues": "",
+      "attribution": "Preserved scoped worker source assessment, reconciled with independent source review. Not a new end-to-end coordinator read."
+    }
+  ],
+  "additionalPublicationIdentities": [
+    {
+      "sourceId": "cmc-additional-greenberg1995",
+      "pmid": "7877689",
+      "doi": "10.1038/374168a0",
+      "title": "A new antigen receptor gene family that undergoes rearrangement and extensive somatic diversification in sharks.",
+      "authors": "Greenberg AS, Avila D, Hughes M, Hughes A, McKinney EC, Flajnik MF.",
+      "year": "1995",
+      "readingDepth": "Coordinator read the raw abstract; single-domain architecture statements only. The full shark receptor is distinguished from its variable binding domain.",
+      "rawAbstractSha256": "e9f77f3ba806c85981d5316747b47fb34436dc130fa33fd439826a260d576697",
+      "registryCaptureSha256": "07141e144535e611e1678f05acf218ed7680d1fdcb9ebb7bfe859149e099c7f4"
+    },
+    {
+      "sourceId": "cmc-additional-roux1998",
+      "pmid": "9751746",
+      "doi": "10.1073/pnas.95.20.11804",
+      "title": "Structural analysis of the nurse shark (new) antigen receptor (NAR): molecular convergence of NAR and unusual mammalian immunoglobulins.",
+      "authors": "Roux KH, Greenberg AS, Greene L, Strelets L, Avila D, McKinney EC, Flajnik MF.",
+      "year": "1998",
+      "readingDepth": "Coordinator read the raw abstract; single-domain architecture statements only. The full shark receptor is distinguished from its variable binding domain.",
+      "rawAbstractSha256": "837e7ad8b042da83825617f13bd02138efffd8a5d4dbea3355abb39d877ec84c",
+      "registryCaptureSha256": "07141e144535e611e1678f05acf218ed7680d1fdcb9ebb7bfe859149e099c7f4"
+    },
+    {
+      "sourceId": "cmc-additional-harmsen2007",
+      "pmid": "17704915",
+      "doi": "10.1007/s00253-007-1142-2",
+      "title": "Properties, production, and applications of camelid single-domain antibody fragments.",
+      "authors": "Harmsen MM, De Haard HJ.",
+      "year": "2007",
+      "readingDepth": "Coordinator read the raw abstract; single-domain architecture statements only. The full shark receptor is distinguished from its variable binding domain.",
+      "rawAbstractSha256": "f9e090d0657e47ab079854232eec8ffe3d033648e2fc28f739f2a68e0e643119",
+      "registryCaptureSha256": "07141e144535e611e1678f05acf218ed7680d1fdcb9ebb7bfe859149e099c7f4"
+    },
+    {
+      "sourceId": "cmc-additional-ward1989",
+      "pmid": "2677748",
+      "doi": "10.1038/341544a0",
+      "title": "Binding activities of a repertoire of single immunoglobulin variable domains secreted from Escherichia coli.",
+      "authors": "Ward ES, Güssow D, Griffiths AD, Jones PT, Winter G.",
+      "year": "1989",
+      "readingDepth": "Coordinator read the raw abstract; single-domain architecture statements only. The full shark receptor is distinguished from its variable binding domain.",
+      "rawAbstractSha256": "f3be2c2d709947047f02d5d1eaa2b660715f337429fa8c75e33fcb3a917241d7",
+      "registryCaptureSha256": "07141e144535e611e1678f05acf218ed7680d1fdcb9ebb7bfe859149e099c7f4"
+    }
+  ],
+  "coordinatorOfficialSourceCaptures": [
+    {
+      "sourceId": "fda-potency-final-2026",
+      "rawCaptureSha256": "332476a39563b63a7be407525c59dc70bddf3f850e64c58cb02e54f7d9b02884",
+      "bytes": 489319,
+      "readingDepth": "Targeted introduction, supersession, scope and assay-control passages; document dated November 2026, no issuance day inferred."
+    },
+    {
+      "sourceId": "fda-potency-notice-2026-22427",
+      "rawCaptureSha256": "9b3a86764fd7fcbf0e1567fb262dd1298be99f25b9cb6143886c836bed25752d",
+      "bytes": 4593,
+      "readingDepth": "Official API identity and publication date 2026-11-03; finalises the 2023-12-28 draft."
+    },
+    {
+      "sourceId": "fda-potency-historical-draft-route",
+      "rawCaptureSha256": "18931df5f512800d921e7f2baa54f89a391833a3fa2c701b0f10e4260d07185a",
+      "bytes": 36320,
+      "readingDepth": "Raw main text: December 2023 draft at the older route."
+    },
+    {
+      "sourceId": "fda-potency-final-route",
+      "rawCaptureSha256": "5169f7675698594b2e315c8d598f32b659519406203f869a869ba509a8a90ea3",
+      "bytes": 37433,
+      "readingDepth": "Raw main text: final November 2026 guidance at the guidance-industry-prefixed route; content-current date is not an issuance day."
+    },
+    {
+      "sourceId": "fda-platform-designation-draft",
+      "rawCaptureSha256": "267126067d617c267a2b9a1d26019f2c3d01d16f197f0352498e06a6925fb6ad",
+      "bytes": 34856,
+      "readingDepth": "Targeted official description: May 2024 draft, separate formal section 506K designation programme."
+    }
+  ],
+  "independentReview": {
+    "sourcedRequirements": 57,
+    "independentlyReconfirmedRaw": 23,
+    "partlyRechecked": 3,
+    "carriedForwardNotReopened": 31,
+    "flaggedPremiseBackedRows": 24,
+    "scope": "The reviewer read all later lessons, compared originals by diff, and reviewed all 81 authored requirements. Prior reading scopes are retained for 31 sourced rows rather than relabelled fresh full-text reads.",
+    "targetedSourceFindings": [
+      {
+        "sourceIdentity": "FDA OOS guidance Revision 1 May 2022 (media/158416)",
+        "rawPassageSha256": [
+          "ae348cc6720b3dff11e774841395e28408a5b95f8772fb9b1fae146bcbeb4dd1",
+          "1b8c3df7d09643038ebd77934ce2c83320a0cb05c628852d43f2c048d9f6bff4",
+          "5f62d43c3f898739789665654876c1dd10a3720a2a98484b888c9dcba4610ee5"
+        ],
+        "reviewFinding": "Applied note reproduces the example correctly. Precision: guidance is scoped to CDER-regulated drugs; a CBER cell product is outside its direct scope, which is a stronger reason than the biological-assay footnote alone.",
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA/ICH Q6B (media/71510)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA quality systems guidance Sept 2006 (media/71023)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA quality agreements Nov 2016 (media/86193)",
+        "rawPassageSha256": [
+          "280db87661a4bfbd12187a684ab1a9801d2ed6c8a7130eb5f738c5d2da054f86",
+          "ac750c60a9a248b242b4e1948752ac19d4f573469b20f12d9fe1dbce340693d8",
+          "a4a24f4488815a788121747917f67a4a28c941520bcd141f3798b29c324f13ee"
+        ],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "ICH Q10 2.7 (media/71553)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "ICH Q7 11.4",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA CAR T guidance Jan 2024 (media/156896)",
+        "rawPassageSha256": [
+          "6461522da99e1d5e69f8dd3a1b1140c5275f20221fe4677c0d771a06c8bfd821",
+          "19d10478540cd7aa0db6f16f84cb96fab9ce3cdc222e7c959611461cb22d0d19",
+          "996a7b6fec59c420e90bfd48d297a50e0ae4da59a98bb2a9c214a30076975cd5",
+          "a294abc6ba0090ae4e9a6a30ec35d58bf7a03832967c96be373e84a11a42a35a"
+        ],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA/ICH Q5E (media/71489)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA Phase 1 CGMP 2008 (media/70975)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA CGMP facts page (modified 2025-11-21)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA GT CMC Jan 2020 (media/113760)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA CMC flexibilities May 2026 (media/192321)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "FDA vaccine CMC Jan 1999 (media/73614)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Truex 2020 (PMC6971261 full text)",
+        "rawPassageSha256": [
+          "89c443de85e347d740ac4deea21351ea73ac24f885d4aa00f4550b5e458f58d0",
+          "22ad42c4336f64f7ccb7ea0a7b9cec396540da8cd2295296b1e3dd742bdb47de",
+          "fbe5bf21a1f9070d7d5eaa417ff6b8283bc87f24fc22a26b0dbd4ad1d4fdd548",
+          "3266c3b7cf420eabc4281a99300ae8d527fef9c5b4b25b1fbcf90f8a639f0e4f"
+        ],
+        "reviewFinding": "Applied SPPS summary juxtaposes 67% (all peptides) with 10 of 29 (a hand-picked difficult subset). Add \"29 particularly difficult peptides\".",
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Watson 2023 (NCBI efetch PMC10468394)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Rojas 2023 (NCBI efetch PMC10171177)",
+        "rawPassageSha256": [],
+        "reviewFinding": "Applied summary omits that this is a combination regimen with atezolizumab and chemotherapy; add it.",
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Lynn 2020 (NCBI efetch PMC7065950)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Rurik 2022 (NCBI efetch PMC9983611)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Hudecek 2015",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "MICAD (PMID 20641540)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      },
+      {
+        "sourceIdentity": "Bathula 2021 (PMID 32936001)",
+        "rawPassageSha256": [],
+        "reviewFinding": null,
+        "scope": "Prior independent targeted raw-source read; raw quotations stay in private captures."
+      }
+    ],
+    "accessFailures": [
+      {
+        "source": "Europe PMC fullTextXML PMC11030089 (Bluemel)",
+        "result": "HTTP 500; NCBI efetch returns 3 kB metadata only; abstract used"
+      },
+      {
+        "source": "Europe PMC fullTextXML PMC10171177, PMC7065950, PMC10468394, PMC9983611",
+        "result": "HTTP 503/500 intermittently; accessible alternative NCBI efetch db=pmc succeeded for all four"
+      },
+      {
+        "source": "Boder and Wittrup 1997 full text; Menendez and Scott 2005; Chao 2006",
+        "result": "paywalled or no abstract; not read"
+      },
+      {
+        "source": "eCFR versioner date 2026-11-09",
+        "result": "HTTP 404 (past issue date 2026-11-06); 2026-11-06 used; Accept-Encoding required"
+      },
+      {
+        "source": "FDA landing page status",
+        "result": "served draft metadata; see P-POTENCY"
+      },
+      {
+        "source": "live Elicit",
+        "result": "not callable from this session; supplied Elicit occurrences list is empty (literatureOccurrences []); no Elicit evidence used"
+      }
+    ],
+    "notReRead": [
+      "Kohler 1976",
+      "McCafferty 1990",
+      "Huston 1988",
+      "Hamers-Casterman 1993",
+      "Ways and Parham 1983",
+      "Rudnick 2011",
+      "Jain 2017",
+      "Junutula 2008",
+      "Long 2015",
+      "Eshhar 1993",
+      "Abdel-Aal 2014",
+      "NCI monoclonal antibodies page",
+      "FDA ADC 2024 body",
+      "21 CFR 211.192 text re-read yes; Q6B aggregate section no"
+    ]
+  },
+  "coordinatorReconciliation": [
+    "The two potency-assurance FDA URLs are distinct pages, explaining the old draft/final disagreement. The final PDF hash matches the independent capture.",
+    "Truex vendor benchmark deliberately selected difficult sequences.",
+    "Rojas trial combined atezolizumab and vaccine in 16 recipients, followed by chemotherapy in 15.",
+    "Kinna measured thermal unfolding and particle distributions separately from in-silico aggregation scores; xenografts used MOLM-14 cells, not an AML patient donor.",
+    "US manufacturer release and conditional official FDA lot release have different regulatory scopes.",
+    "Single-domain binding fragments do not make the whole nurse-shark receptor single-domain."
+  ],
+  "limits": "Abstract-only, targeted-passage and carried-forward assessments remain separate. NCI and other failed source bodies are not treated as read. Live Elicit was not callable; no new Elicit results or report links are claimed."
+}

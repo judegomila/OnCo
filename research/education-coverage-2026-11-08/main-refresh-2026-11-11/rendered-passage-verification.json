@@ -1,0 +1,2230 @@
+{
+  "fieldPassages": 247,
+  "missing": [],
+  "checks": [
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "994a43678a809590c6dfe0aa7a1bd8b7b7d2d58fa9623b58bb4d751411ae2a9d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "84dbff451f49ff57174fc3aa9bd33ec09e2ef9f907911de9abd526e1d47030f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e1fc223a7abb4631fd77468dadfbfe7a3623ba1ef5f8729ed3d0d673fedc545d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "e3069118c3613a50f9438d82b863128afb660a0ac4e6252725748238cb649814",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "fabaade8989dcaf6997089ec97235a68f1ca841311fb189eb60a4eb2b046edb6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "daf4c231ffb6f6beeee1c822c53db06828a64e9ea00329b0fd116513ecd8afe8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "strengths",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "ad5a727853a6f5ef8e40fdf8eb7f0d89abcfd5614a83154178be400b17d22891",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "60b735739aca6120f3a8d8918f5f619de8e68d5d0d9c010e7c7ea80db036c906",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "4215f6481d3e82f642c296a635b6664b9fd93c4cff174b039ffa29f2f69c6b06",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "d8a92e0ae6c14b434f328e20e0197d2afac6892c6da37d6481fe77aa150b5ff7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a252506771b760f8325265be52f4b2bb458592e5b8d30ab3c02eaa4fc4309933",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "1f711dbe09e83ef986658e550e4818fb21688fa91f92c0929990a12408bd92b3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dadb2bd5c012fc2672f1eee3745c4bd41af6211869b8f7f06d9c533a3305b3f4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3dbd134ee48572fa389d900c27bb05e6a60f050fde1a519d6bd115b83498e369",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "382a7c823ef4c70a007c860ea7549b09a00fd4d4f851acc40041156965859261",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "94dc7b67c11d903b640034703663b08de8404fc70e34e4aa1648571f8efaa497",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "c6fbeb2f0420d95db0f91e11fe5f8462f8dfd61dcdcc94d39e9a9de80b34ca20",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f50f2eabf4a43cbdcd8f6c1b638f14fbf9ada388b41db613644691d56df5f9ba",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "1f566c2017cb1749272a183f6e8bca05f3e1e6aae8124930e7de77139f33ec49",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "c73c7c7bc6e124e5ed9e6451f919f0cadb41be4078806c7828a2269c1a5fcfad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "217c4f968c0959a7e1f4025c138d4c0a76c239aff1552cfdbe1c0cbe7371a9ec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "dcbfdc78fb601563b04fd501dd2fac8b95c65d9e787e8f979daec7dfa874fa55",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "d93659cbd476ace254d03f34128cca7b560fa5ad2fad6f95cd711f1498ad66e7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c749608a4cfd85e8e39e1f51fb70b2600bc653ae0fc1a20230413f111bbc1517",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9a2aba7117f3c01142058e0b299de0d787a7124bbb9caf05b2d2a1e543816058",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "7abdbd08fe1cfe5e778b34a7d5c02a34003ed0b1c6be40ac4f02390acc1743cc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "0ca6d49625a6317a87c3cab966767d36972f40d0b745d712d63b497f74686112",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "98bc37beafe0ca2a66c17a9367974ec4c0c317d83227840e675fc0fe194f765f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "8734fcf4aebbcfba3d362535a52bd126f23463ca14cbcffdd51e5bbe7edcc9f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "b01847a4c53c63317479af288b1120dfd74288c52d187e332de74d53ba044f16",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "36b36b1f387bc83e80f6eb9555dfa1f2f22af60292674ea82c2295c369e20a14",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "ff7955029ad6426a63c0ce24f410ea192d8fb3c62f5e80e81433f36512430006",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "3b90a250788f1e9dbe717922590b186eb3069056ab9efde528fa79641aaf673c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "04c1a1ec65799b04cf73bb30e4e94bbfd859c29b7e4de7225da65c461b40c141",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "801cdc5371b37791be92b1b7c413576d8103fd1ebe8656694df0d63cf9087e6c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "47d28ea08ce0b4ee582748a2470b51a6a3e9dece90ab44b77fc3ca352913ef11",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dd41766d29b466b06d5cd9c00837f5ae38a621813361ad080ec4ecb588abedda",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3a521280b51ff767ad03e0cb0297d274b7bb5ad2d439b7c3d156a2387ca9c15d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "1aa040542798352be03a8b3fdb7f0a5f7966d91fca346af14b6c453ef243506b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c334a59d335752d6d2a023a425c07f009de81c40cf2b85d99f1b0606acf78cb2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "2934f94603b30314943613b10f7db8c619ba745378db5c9be36e3e4dbf612feb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "e328b41c625972842fea86f3347918ff4fad721776f489a489af89e0a48d4043",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "23eb70d5fa1024218239bc2fc748511e7c0bd15838bcf5e52d798b5cb004d984",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e050c95c30e52996b6671b6bef0947f8dc1a99089f481072c40a9087936e7331",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "0904699eb84b8d4e8ec4d60cd7e42eb56442bbffa64a24066681a7046c4c03ca",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d3ee8263581c83459363fd54bd88a22b1ef88020a628e3f0bad31e0e5e2dd02b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "a7379093645ed4af31a638119091f4d89cd661875c69d8079a5a64d3f6021902",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d183243e515760123ead3230d9d440abfec6041475778bc8af07b4d11e5bd08a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "8f1e42902131f8cd912010c998394e01b1b025eb42f34cd34b3e2d82630beb46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "d48e2ee9499f05ec18b9a408148f8b48bf1762cf805b6f351f1fb1cc0faa733e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e3865fc8a71674a278016e012d960d3009315eaa37a67eacc44c0772770c3795",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "4f60be337e45b5885168f33c6334f87325a080b37861c4c0a8ebc6544b1b3c9e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "cebb2249a647e35de0ce076ceb37c6db32a5b56427ba24f10b62a757ef1f59f5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "72f40b36704726e0ac6284df8aaec064096806787eb2db15271831292acd0f0c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "07a58d51f344a2f0f5cbacb0426ac6525d4e5b6d7342e7b3b6966c532fe57c9b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "fe8147330fa844b231cb7a4a75fe92412409e8dda22812f3e7e1e812e7e5d362",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a57b9ae2597d984581ff786079fc9536a5957ce2fa71d766fe403bceab705dfe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a18ed77aba86ae3aa1089f31ea62ea42e449763034134fd48870446a35dc3768",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "af034884d7d3fb045186ab8e173cb3cc0813802a85fa855b4cdd677e5e40852f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "5cb3d8c519d94dfb224decd311b41b639f05ca26779c25abb32b17678ca22a6b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "780cc555b1a65fb7d37b2ba48133f0e11db2bf1c00d9e470e0e9e5233bc8f559",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "d651a2835e3f36b83cd0d198cbdedc20e426b9c3cedf750253838255b349e38d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "62d4746d0403e4335f9d93898a4f3c25e6537b82c3cf31ff57c0e4dfbd63064b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "af00ccc5ccc6d0b40e563a92e95ee641de564b51de12bc1f350aec6572d49e9d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "06721aab6b4c2e566f84f9045fd0a0bd33525a6b9a67408d1705f73bcd76300d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "26b11e986601ca3b4d873e1365bd025dfb97df177a4fc22b0e1cec5b4b34c7d1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "502cc9f845f395d21116ec1b1c21619228892b7fbddec452cf80f55ead3a5007",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "60d3333d118511e7b8f14e9bec56a9c763b71ddc0a455b7e92dde451c9567c46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "379267efcd7cb8beef9d4f480eb0784521e1c1a1eff8b567b67037f76134c881",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "75d6ded47859feec7b2ad0708b363720b13fc17ac42bc3ff00b9b5aaff8eb8b8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d3d9f468f9260527962d0eda80f3f95217d89d14af443eaa6c8808ae4c10c5f3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "dfcbdda19b774b7f47912049031dd235726920d71cb6f8a923e772edf8c73a81",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "12a7f26e8e6b091d05665da17513357ed3c68e7dafd3385d3492fbe3cbb3af6c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "91cc5c4b1876aea281a7b379e298918fb3495c37a304b9c5b12e7c8772bab26d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "24600a7563ba6faf21e6383be291a28222f04296ab1c3d840dfdb2c8ddf273a3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "c5ae1b02043fec93f161bc085f4e1c3a1a5e65f1a2a62cc38b1fc0d92656b379",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "8a9d7c1e148962222d1f6272b0caf72debae293a48be66289ee25cc5f651b592",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "58747f4ac9c93152c8a0b874c11a8a754590ea66e4801ca6d2e1cbda687d37c9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e521c7ea20b6f5070735e9abf69075d5aa4a59cd960c6735f1c3c71cccf19af2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "1ae1fc34f29725048a87b701d44923c8b125306a7b522c8a1208835a6c92e75a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b811cd4d8bc36a16b997966cb8310367eca310b203427f864c174732b5c0e2d8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "5ba77e4e133800558da9806a3cad214efb703d2eb8ed8a3c184a1956e9ff9367",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "b964fb01ae7d2f46eb6196784b32fb80fc1b9d657ba5ddf47393fceabbfb3fe2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9b491571984c87003b5a99be722e24f8b7df00137dbc65868aff460de526d59e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "7316f86912cc2170af5055a36738414c4451b65997326828dda2f6470f2c4a50",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "bcd177205059bc05795c331e1d5c0d29f838789b0d8a595daa9393b1004a5490",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f9a0c1cc2d1c7cdd3b19bdfc421a115daf5e5c0f69c44396af171283fefe97da",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d505e97742175a0b7513fbad4b611d294dada58f2ef5d4a4da49b4eb295be0ab",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "strengths",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "b6590ec01a69448561b2497cd3989ad401d271e7f18bb1d1cde58cf9818483b8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "61832f5dc1fb27bce3f19f35b9202a3b153a7fc7f5dbab705321ab3a385bb378",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "307ee2c96c5fecb697bd785f10ca1101ef70fd7943a3ab05e95876de931e92cd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "functional-drug-testing",
+      "field": "limitations",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "9f8b867d285c1895f04ce2a236e45caf83afaf991d585ea6202a121c6c3fdd59",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-0",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e536e05be5c424d41530782d4fc3657c125e8104612db31407fae2563df511b4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-0",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-0",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "91a35ca6d1dce0548ae86337e9be791587956ddb920cbe3535909a20e6bd2a28",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-0",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-1-plus",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "295eca7cd91dbfe3a7fdeff6276f3ef7c2c4e98e902681c764bca37e5817316a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-1-plus",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b9c01a9e0ef306e3b435102561cbc6a1bd3c5c394ce9ae06ae6ea007818c6401",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-1-plus",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-2-plus",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "02954f3607c3af87a7e718b94a5227ed054f5f6f82eda5fa7cec14c3d26fea99",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-2-plus",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "381cad932670795f41b077ccb0e5801b91417ff2a7422ea0a6dc20b0a4251050",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-2-plus",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "76a4bfe849f23d8f02c330a46a304f1acaedc7b7f2bc08bed062323bcd5c978e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-2-plus",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-2-plus",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "cc9fc77f67e62f3e5cb6aefd7b451e79eb4473656b6f25672e26d71e82cbc954",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "5445dafa607bbe2fae0c61784ee84207dd876fcdfc15b5facb947562e65d9ee7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "580e317eee9f88b7da68bbeb50a7930ee1d85cc1e463ff42083430513ec4c93b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "744cfbc65915b0150dad5145ee1117a1d2ab122b3b15d239b814b72d6f692fec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "30cd415c71ba451e47c6f6e297b7091b588ed2354a625f97274704464d05dbdd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "cc375fdf168d82e3b7aaacad58e7f09bb56eda11c2ac4a8e45ed151117a03e21",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "06ec3a95139ea95387fb0dd0a648d6ec513fb30a6cb7707da3b5d0bea539500d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b8ddb867d2a3f06a1cae6797ad3de58ddace660d026575a77674e3ac7c886fcf",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "ee8378e011ab93338302910f88869bd329e0e3cc91b4006e8554971abfaea440",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3c1531c5617ad6661b116a3bb3e312d52797eff501fd21623f6a832eb9246a33",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "7219ad48560e265f88932e1fcf973a911f4f8ec6b890c40a3ed02da7dbfd6138",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c03e197da38fd7d01db7e7e710e06a42a5e783ec8d076773aca2c5d648ad1eba",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-low-ihc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "0e9cfc52cfaf0a5aa40f09c7cc5d7bea5acb848f191ce3fd11e9968b19b45317",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-low-ihc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "320a1ddcfd296493a717f6042e307b127cbf5b1dbdac45556ba430ef90d12e11",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9e0604c75f508c2450d1ab2e27ba122e5c54ae5f156fd7f2e6c5278acbc27e03",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "74d480aef75bef981ff282215b387a86d015df8777dbf774295edfc6fcf3d880",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ultralow",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c99bf57a71752ed6cdebd43109d6119793787e78336f4fa76134e2138fce0ef1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ultralow",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "6391936f960f6708d1b7568a3e3e32a3a86231806a4f4de6066522df7d3db12b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ultralow",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "a4a98ef46cae5284fa2bdfb1c1953e0a9eb630b20ce2d817dfe8b513d7d55122",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ultralow",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c0d4f3d45cd16e673783393b34cdaf04371764f64e6e3ef808c4cae3fdc772f1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "her2-ultralow",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "8b8712c4fac8e4c33a724d905913cc654f82aa276ac3fc307d7bab4540119d56",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "hla-a-02-01",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "2647dd0b87daf28745e02ac5eec70e18f0f1b26c121808a53705107310b1982d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "hla-a-02-01",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "cb5f4621ac786f850fc9118d20d483095159daf8971a9065a83c1877cf94f14f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4824624cd68452a4ae9a0c84a6ea5e7e5d0e49a9e39f4974b2df9672acd4e117",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "3d108f91b72b337ab476c5c35117ae293ff0d45bc9f791166fc0fdeae2bbdc26",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "5e116d4fb7c237ab622a827f3f8731c4b577f43ca4a33c3dc2daa1ba1c38aa70",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "943d967093830ed60f011ab9b98504bb1addb232ec414f39d3112fc71fe5458c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "adcc07ea3aab6f99a737276004056df3f336a4d42c5b16b0db6ab9917b3207c5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "1173d7538c28ae06333a3756452b7d22844048e7d07c8a03ef2df1b565cfc622",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "0df84acf0f68c3e29e45853d4d73d8944588720abfc8aa71967e4142d57bc97f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "45b1667b4f231c6283bcd4fa7a26893b57c493b81a897773f2f337432d3d4ec3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "msi-high",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "7cdd3bc192b792069db90f839b16b8b7defd652c1f2eabbccf1d820eedb6ef48",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "608f325453476379e5b158d7c447f9bd4314b7c419ad17436bf9b61a27189507",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a066f8164fceaafebcacef57c45813523c3bde3da4253998a1a6643eecc1f370",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "984b3087070cd8d143d67888564d73e8d048b53077f10e7d67c467a48f01d7bb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "110725353aa768733c69a42f83bff19b082705f2574b561ca628ae41c37b107b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "90e95617c4f1da39a79cd0e4a07d99bd1813f4d8b753ef6db3f10f90fa9a4958",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 4,
+      "segment": "summary paragraph",
+      "passageSha256": "65b805e43572a9a592921618e22174374c2e97d993ca4d666c52b53e0ce9ee23",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 5,
+      "segment": "summary paragraph",
+      "passageSha256": "eb63b606180488a2d9f1138606e82c86cae08da1bbb7d12109d2f8ceba00df43",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 6,
+      "segment": "summary paragraph",
+      "passageSha256": "38fbf58f5481383839211bc4579a4e5a32573646f643e7ef35cb489b6b804dec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 7,
+      "segment": "summary paragraph",
+      "passageSha256": "9210f336ddadf600f96cc925d778f00cf0b5d8e66c9f7465567f2a0894b73e4b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 8,
+      "segment": "summary paragraph",
+      "passageSha256": "264d127ad5af51692f98aef1883c9d6aa46eee5ecc27eedd8db3281859d0c05c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 9,
+      "segment": "summary paragraph",
+      "passageSha256": "85b51ff85d29630222b473f2bab2ba1df1f0935c044f4e422eb59bfe19345ae6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 10,
+      "segment": "summary paragraph",
+      "passageSha256": "dc80614f6d257faf092849a6c6662d97b724e4ebb20a4f64ee4c7525049fc6ea",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 11,
+      "segment": "summary paragraph",
+      "passageSha256": "595b99674e4dc81aa5e2d35091ec2d364d647b38555e9d6ed21977cb6984210f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "summary",
+      "index": 12,
+      "segment": "summary paragraph",
+      "passageSha256": "6a1f9eca96ee87ea65bc299982d4e54f569735e2189918ebca208f35ca1d66f0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "149b118267776ebebec5060e4658db90570f6982d2082cae5fad86e02ed7a6d3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "432d9fd733b8d41200d28c0c0b35ed38709c78c6e764e3e80d7035c7631d0761",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "27df7ebfba363480558c04a310412865f65f9677211c3d8a732bac47764e6180",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "fc8fdc8a270d79476a0f2c8084d51a743b124f91dab878de39a789c172ae4488",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "a817493c43fa52a844f107cecceb9e808cf4a97149d6aa3cc9190bf39d40341d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "93abb7473bb41e3897ec909c2dc566fd80a6556d482a6b968aa9d85fa5721530",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "9b7fb385cb63e3a5158fbf5c753d7c4246782d7f378bfdaf7358d9bda43e80da",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "263de05acfc6cc62046d13174cc24d6a098316bd320217f3f89b77ff7c82c83c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "e2e9152d450eb55b527431d81dded9f1a705f01a60bfee92a0bd2ee4ab0d5d6f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "ffecbd41273405413d56aa58077f2893a2c4df9ed630dbda6625bfde30795b5b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "6bdb4192069e83d9e165c87fe97dfbda064b86e88494fcca69011c822acfa605",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 11,
+      "segment": "field or note",
+      "passageSha256": "00a979388e91072d3d68fbd04f0d33ec859d2800399ee71104fa45f0faea0fe5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 12,
+      "segment": "field or note",
+      "passageSha256": "e390572d083ce7cf82de61a0a3120002efaf3288d863ba7300c7a00d20a7bfaf",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 13,
+      "segment": "field or note",
+      "passageSha256": "3792860cb76b610756dbf4592adefdb96fea9d56ef98e69d43eeac615ceb7c23",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 14,
+      "segment": "field or note",
+      "passageSha256": "7f1b547066891d4999e5d32febfd6379c1e31076e227244366f3f5eb41df220b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 15,
+      "segment": "field or note",
+      "passageSha256": "4f1db79eed3864dabe8dff49ade380e03b422bc099530aab556f7b3bad9e5d7e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 16,
+      "segment": "field or note",
+      "passageSha256": "e43693ca95ca6a6604699d4da3351b11855598bf43dfa0b9737b793a2f11b471",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 17,
+      "segment": "field or note",
+      "passageSha256": "9f48cf46913e78060224566b3f187a8cff1a048a26cdf9ef26ba0f70db559b8f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 18,
+      "segment": "field or note",
+      "passageSha256": "8beae0100b4d9ea6ecf99115bbd8dacd47a279edf10abd96fda2f35869c49edc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 19,
+      "segment": "field or note",
+      "passageSha256": "0c4aa175d0982256c67a8cdec1e3bd582add910c410fe48ed43fd1d02bd2ec71",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 20,
+      "segment": "field or note",
+      "passageSha256": "526eb52bdda7283ba1a99e74450d730a5030d0e7cdd749f69a457e2fa366c234",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 21,
+      "segment": "field or note",
+      "passageSha256": "abe03326dc3c91ebb503e676300a6d4bdf258df2a643af3fa4a48efe3194cf46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 22,
+      "segment": "field or note",
+      "passageSha256": "85ac8acbdb031221a31176fbd7dd944739501a8f44e277ae63ac435971835e67",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nsclc",
+      "field": "notes",
+      "index": 23,
+      "segment": "field or note",
+      "passageSha256": "a22f360a545f3ad3400157914245d5ce4f81a1f93e6d8d07ec946ea0d48ddcc8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "cb8ce46296dedc1dff990b9693cdae871c5668722e7b155c71ffa635ed25f621",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a8a0906252b749b856180db95014eb02964dc7b2fab0543735a819e1e41ac837",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "fc4cb068e24cfee31e38e2c6cf1f30bd77dbf556c95de903d24f2473a40d6c1b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "a6df2df578bee5cbad52015fe61f48f5f76cf9bfa5cabe7cfa6cc0535c10c9d5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b8855341e76f11e745ed45c640f48e377fbe0b3dfd27a411b86f04389c009f66",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "719719f1af2614a051b09b4f466bdf89d3691f11126e2b4783d222964893b14a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "strengths",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "d4fbe2a6ed1dfc2e068d5d496dd0342fb21cbacfc1fc9fb0423a7128a8f6d8d2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "73bb42468d389a29dd1030be9b7388eb6f513c68aae5babab194ec61664f08b7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "233cc133b84c97b9dfe13ce503d5336e6c22dd8edcd60be4f588501393500fb4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "organoids",
+      "field": "limitations",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "339733356f2e3215af395e38392836d04587971bdef1707bcadb2de2dc700c39",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4373b74fded0f4df6147c60f2f1e9b46e3f05d0865382d74184f9082cc780178",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b3ea64abb0ab066629fb1e9b3090c31a01495f6877b82c6568dc93a7c86b995e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "419a568eec31bbf5db0b6f7e275d0bd058ff563568c5741760efe35c5193cd8f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "c118d10f7ddc3bfb778dd0b14bdb1d0140422338ba0455e4b2cea6c3ab4fd52c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "aeadff34c7a5a117cd0af4d4f8a384cda416723485ad1a6e406a68cd24e83421",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "b0dbde9149caf24c902374ca37907308229648ab9ef826a280ecd3f171c8c651",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "24991abe1ad16e2ebfdac4d743cb41351b3d75f1a3288fd7eb15b090c114a6f4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "e8eeeffe654e11e63c9e4f0e2eda7230d0cade6626f4ea880ff24bdbd757219d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "195fca949cabc11db0d7a1e1f593c6d87c1d86cbb05be09d251a04bd823d4f47",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "a85fe457b00d441133fd3ce0725e2ed3607c88674cdcc0cb6cc087515c27fabc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "9772ca7a5a77b9ba6ccf5abd8355b565f1bfc118c5c17d05fe09ddeec3c81789",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "9cb342b238af3888448ab561acd567967bb7cd2c917e4afa404d33de36296bdf",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "e4cbb4ab44e10d70a6253728383492a378a9de743ebd4e06938c0cd8a03e40d4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 11,
+      "segment": "field or note",
+      "passageSha256": "072ea356cb1b6a8cf8e94ee562a63ddeaabe628bc219e9e71f582d5b2a6658f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 12,
+      "segment": "field or note",
+      "passageSha256": "e0cbaeb263bc478daf459e98c579d03e65544378d398db597e8c090722a0e6c2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 13,
+      "segment": "field or note",
+      "passageSha256": "7aee608246269697078f738302ed7191be59541c72810125fa3fcc7052a51b3d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 14,
+      "segment": "field or note",
+      "passageSha256": "7a9dd05024bc05ca84869372736526eda1638fc72f6222cee677dcdb0ba4419b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 15,
+      "segment": "field or note",
+      "passageSha256": "da1e320e72d595cd6bb067b61d405788397f2b76dabacb97ba037d28cad01d58",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "1fa8c5d8bd3f723ec0cff5e364c2b73d6d008738dcdcfbb8aac2dff560b3acd7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "5179538ff8488244e057e9cee6d71b745cf94ffaf1f991a663931937dbbd8a22",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "54fb57151054660dbaf52ab8668926c2c41d6a32533dde5c6ea11f3fb9600ead",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f76f7bb7d2568584a543977bd7d67091dc1031b045b1c28c2f42f5e53c401ce8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "2145f357d03860326b7468cf4ee9edf39f19bd1e0140e3515eab1b03b8ef752f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "12418bb023b35e84d706d4c18cc36e5870246c8294f25557218c47b34890bcca",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "352e033a5e848066b2016eca73b19c9b224565f069cc90a088434eafc4ab7956",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "57dfc25bd974fea2c694dd4db3bf74aa28422dbb6cf0b8a834ccebb8c2332963",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "1590880a3a0c18305f414906a6989ec7d2e4eace58db36caf0133e2c301197cb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "907b0d88b134ff37c43b4d3101b3741867741b6fd9c90db11bfdadf5366695fd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "cd974c5a1de4de13bb229f8fd158f128bfb2375b537886ebcbc95d096fc5ec2c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "672038dc582c4a73ea0a665da23b56f1ad2a572fd88a4519ed3d113db1e6aa88",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "50eb3db8f9697aee278b94741b93aa18beadd0f58841b8cc81a09b13fee00f02",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "21ddacb2b35a8b9be100e0286071194fff3a7de964accea6e75d80a9b0cc306a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "8c83b4096f82c3997dc4c505836822e637477ef3fd1a732c89ce26a7f7313803",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "6278e677cb747010180843f830a53d9c06d576e6eded88f3d04fe6dcada20865",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7b7914c9854ced486283e3fcd9ab6cf9460d481bc681760f9caecb01979381a9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a7cf33ece8eb0dada3e9b9a70bfccb64a09cf8c59719f6514ae4558e5a386670",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d1849fd117303ada68d2e176e919e7bdea34f714e8a71612caf395a6eb60500f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "da06a6df048c2d093e37b2a1727d65ba89a864bd193c19e80082a711605934b7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c2668ee2586ebabbab2136737ef428f1d94f0bc5fb4fed56886205243a1d8546",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "d9275dc01169635f8e0ea65781aa9b58bb9fd2ade4f654a07e33c69426974a1b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "e832d0820498dde222d0f3d639272fdc8edcc4987d2961e348ce740f1fa2126f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "441eeee9c2efa527779baaa90ac058a32bb687bbf818c87043a55299a0dbd24f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "5e09f455c0e68adf6ceb8c409e83b593b7b3290b37d64c3877af305d219177d0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d03cb6a2d83f08591fc40ca2d3a6a264aaa156d4a7eee9c8b6f0eb67482c0698",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "14da2890291b9b46fa1982f1257c457cb8b3144f3dd33f3802162d40663fbf37",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "3a90e2e63f51c88d80b88e22e0c3066207a52090dff7ed041b2c891f77463980",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "407e4676a97d79f6b5e21d1c3ee5479c4dec1fc23d62db30a8be97d8d44be710",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "2374a8d6d44e1d040e604f19ac84012fed855355dd55589102c7664fc59c4b2b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "9a8b5e7517a26b7c7af2b483e15594af6929a1e480f9279adbab83f4435a9580",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "2b427a65e053250b712c9eb6cdf8c9b90b5ef18ff317f590cdab803760db74d4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "34f7cfc301c85cc133b44860a242b7c5cdd26c97d5038f43ad7fd1e2c00b2d17",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "89c02c8100db44f0f40ec008834ca69b4a48ee5401fbdb2414adbb465f9f7a25",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "ad22e1812f2966d8024e1fb12e11151795c0dcde467ddbb867540cd628f9cf16",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f27d2bfb3dc5713707286ff12023849b3f9018d3cf7b833399c8e313f4dd33b9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "865bd2806f3aadc5b5aa44b422107b72709a184fe9bc10745b29070ddbc91ab8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9211362af1a34ba965a54c9e097b26d971cb7dbbdc4d48bc31cf96b158713d37",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "7c47caf603daacf3d3308e16f56f66f2fd887e0c6cbf6e37a3e4b7e1ede522ff",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "3dcc528090a08683dc8ed0a29910b73de8c93b10f67f868157cdb033bf595fe6",
+      "inActualReaderText": true
+    }
+  ],
+  "method": "Exact normalized text from actual EntityDetail SSR and, for NSCLC notes, its real /cancers/nsclc/data/ CancerSectionPage SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+}

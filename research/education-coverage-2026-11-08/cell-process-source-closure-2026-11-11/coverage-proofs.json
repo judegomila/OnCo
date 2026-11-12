@@ -1,0 +1,334 @@
+{
+  "sourceClauses": 17,
+  "clausesWithExactCurrentFields": 16,
+  "mainCoverage": 0,
+  "newLessonCoveragePoints": 0,
+  "proofs": [
+    {
+      "id": "MA1",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "yim2020",
+        "melia2020"
+      ],
+      "evidence": [
+        {
+          "recordId": "autophagy",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+          "passage": "A completed macroautophagosome has separate inner and outer membranes, with space between them.",
+          "passageSha256": "4577eab155b3c836bb8339ccab35f291ca4c8fb5fb3eb2172e42ab966577f138"
+        }
+      ],
+      "remaining": [
+        "A visible gap width is a drawing convention, not a measured dimension."
+      ]
+    },
+    {
+      "id": "MA2",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "yim2020"
+      ],
+      "evidence": [
+        {
+          "recordId": "autophagy",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+          "passage": "When it fuses with a lysosome, the outer membrane joins the lysosomal boundary, while the inner membrane is degraded before enzymes gain access to the enclosed cargo.",
+          "passageSha256": "f6881e44ef3af1a682e41bae88dd20a14379ee2063561344258ca596faed3f80"
+        }
+      ],
+      "remaining": [
+        "The hourglass contour and colour join are schematic; no empirical contour shape is asserted."
+      ]
+    },
+    {
+      "id": "MA3",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "tsuboyama2016"
+      ],
+      "evidence": [
+        {
+          "recordId": "autophagy",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+          "passage": "Tsuboyama and colleagues found that loss of ATG conjugation systems markedly delayed inner-membrane degradation even when fusion occurred.",
+          "passageSha256": "09c535e1812515313b236974a0ed89cdb97a60ee85e9c4327cbc8ec207b9712f"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "MA4",
+      "status": "qualified-partial",
+      "sourceIds": [
+        "wyant2017",
+        "aburemaileh2017",
+        "atg22_2006"
+      ],
+      "evidence": [
+        {
+          "recordId": "autophagy",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+          "passage": "Product return has evidence in defined systems. In leucine-starved cultured human HEK-293T cells, Wyant and colleagues found that SLC38A9 was needed for leucine made by lysosomal protein breakdown to reach the cytosol; the response also depended on the autophagy protein ATG7. Abu-Remaileh and colleagues measured regulated lysosomal amino-acid exchange in mammalian cells. Yeast experiments identified Atg22, Avt3 and Avt4 as partially redundant vacuolar amino-acid exporters. These results support amino-acid recycling in those systems, without establishing transport of every breakdown product, secretion from the cell or guaranteed growth.",
+          "passageSha256": "46b2dcacbf58850e551d68799ddeec1965a43591a345d79a4e3c4ece38bf9f6b"
+        }
+      ],
+      "remaining": [
+        "These studies do not establish all non-amino-acid products or export from individually identified autolysosomes. Intact transport rather than rupture is an interpretation of transporter experiments."
+      ]
+    },
+    {
+      "id": "MA5",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "zhao2019"
+      ],
+      "evidence": [
+        {
+          "recordId": "autophagy",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+          "passage": "A direct-fusion sketch omits intermediate endosomal interactions described in multicellular organisms; it is not the complete route taken by every compartment.",
+          "passageSha256": "e7856bc0db68ad5a066f8131319d6395b02a3216bed345a45f6edf5c1b79f27e"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "MA6",
+      "status": "authored-drawing-convention",
+      "sourceIds": [],
+      "evidence": [],
+      "remaining": [
+        "The Guide caption owner may explicitly add that colours are conventions. Shape and size are already called schematic; this does not require invented literature proof."
+      ],
+      "coverageCredit": 0
+    },
+    {
+      "id": "HR1",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "hr_biochem2025"
+      ],
+      "evidence": [
+        {
+          "recordId": "homologous-recombination-repair",
+          "version": "proposal-repair-signaling",
+          "field": "summary",
+          "fieldSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+          "passage": "Preparing a double-strand break for homologous repair includes DNA end resection in the 5′ to 3′ direction, leaving protruding 3′ single-stranded ends.",
+          "passageSha256": "f98d31d76f64ac3d7dbcce872fc549275dc351f5b122503207493e7a330f1307"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "HR3",
+      "status": "qualified-scope",
+      "sourceIds": [
+        "krejci2012",
+        "yang2020"
+      ],
+      "evidence": [
+        {
+          "recordId": "homologous-recombination-repair",
+          "version": "proposal-repair-signaling",
+          "field": "summary",
+          "fieldSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+          "passage": "RAD51 helps a prepared strand find and pair with a complementary strand in matching duplex DNA, displacing the other template strand into a D-loop.",
+          "passageSha256": "aae59e4331624740aac0ad1921cbf1e06e45d8cb7a7195a4aea6cc57d1312e00"
+        }
+      ],
+      "remaining": [
+        "The exact word antiparallel is not quoted from the selected passages. The record uses complementary pairing; the Guide orientation is an interpretation of the stated DNA topology, not an independent human RAD51 structural measurement."
+      ]
+    },
+    {
+      "id": "HR4",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "hr_biochem2025",
+        "jasin2000"
+      ],
+      "evidence": [
+        {
+          "recordId": "homologous-recombination-repair",
+          "version": "proposal-repair-signaling",
+          "field": "summary",
+          "fieldSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+          "passage": "Synthesis-dependent strand annealing can finish as a noncrossover repair: the extended strand leaves the template and pairs with the other broken end. Other homologous-repair routes can have crossover outcomes, so using an intact template does not mean every repair leaves donor and recipient arrangements unchanged.",
+          "passageSha256": "363177224502303594313a43802ea78f9a8f0615f6253f412de404749bbd7c5f"
+        }
+      ],
+      "remaining": [
+        "Template stays in the Guide is already scoped to one successful illustrative route, so it is not rejected as a universal claim."
+      ]
+    },
+    {
+      "id": "OX4",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "jonckheere2012"
+      ],
+      "evidence": [
+        {
+          "recordId": "oxidative-phosphorylation",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+          "passage": "The matrix-facing F1 part uses the transferred energy to make ATP from ADP and inorganic phosphate. Protons provide the driving force; they are not converted into ATP.",
+          "passageSha256": "a74f6c01edeac3d92961caac2a0ed7068f5c25a3b312694b21064b6e32c26449"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "OX-flow",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "jonckheere2012",
+        "brand2011"
+      ],
+      "evidence": [
+        {
+          "recordId": "oxidative-phosphorylation",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+          "passage": "Protons return from the intermembrane space to the matrix through the membrane-embedded Fo part of ATP synthase.",
+          "passageSha256": "e8ff80b6693fd97985f479117b098684971ec0bfa2f9edc465077929a27c369c"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "OX-leak",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "brand2011"
+      ],
+      "evidence": [
+        {
+          "recordId": "oxidative-phosphorylation",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+          "passage": "A parallel proton leak bypasses ATP synthase and dissipates the gradient.",
+          "passageSha256": "b23ba069a6b2580b31a00b075940c57f8f4f0741db355258052312415072a824"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "E3-substrate-selection",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "deshaies2009",
+        "zheng2017"
+      ],
+      "evidence": [
+        {
+          "recordId": "ubiquitin-proteasome-system",
+          "version": "proposal-death-metabolism",
+          "field": "summary",
+          "fieldSha256": "ccb2b15e4ff481f65d2a1514b8ae2609ef51aeea88b70be228e25a46f8670f8c",
+          "passage": "E1 enzymes activate ubiquitin, E2 enzymes carry it and E3 ligases help select substrates and assemble modifications.",
+          "passageSha256": "35e6937dfe0fd4ec36ac76b189906e58b6e0c1e0b9aea302b82dd6600615bb00"
+        }
+      ],
+      "remaining": [
+        "This confirms the general selection statement at abstract scope, not a literal substrate-Q experiment in the drawing."
+      ]
+    },
+    {
+      "id": "PERK",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "shi1998_pek",
+        "harding1999_perk"
+      ],
+      "evidence": [
+        {
+          "recordId": "er-stress-and-unfolded-protein-response",
+          "version": "proposal-death-metabolism",
+          "field": "summary",
+          "fieldSha256": "a97d4dbcef52b20f3674d0a51c2f93b232e7932fe6615ecfdec24263851bd5c5",
+          "passage": "PERK phosphorylates eIF2alpha and can reduce translation initiation.",
+          "passageSha256": "509244b68f631125a8bcbc6cf018790767954c72899f10f3f853bf60976f8b57"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "other-eIF2alpha-kinases",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "pakos2016",
+        "shi1998_pek"
+      ],
+      "evidence": [
+        {
+          "recordId": "er-stress-and-unfolded-protein-response",
+          "version": "proposal-death-metabolism",
+          "field": "notes",
+          "fieldSha256": "aacfa05341bf0ec1fca3c82891e4255954b84f8648b1b9d0b1e78fdb7df83bd8",
+          "passage": "Other kinases can phosphorylate eIF2alpha, so one phosphosite cannot identify the whole response.",
+          "passageSha256": "67a22889a902f59fc1fe8d008cb450eb2d76667de48a064b331146893880c52a"
+        }
+      ],
+      "remaining": []
+    },
+    {
+      "id": "mixture-assignment",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "deconstructsigs2016",
+        "huang2018"
+      ],
+      "evidence": [
+        {
+          "recordId": "mutational-signature",
+          "version": "proposal-repair-signaling",
+          "field": "summary",
+          "fieldSha256": "1d5a0e59e925cfdfcac1d29ab044da98bc2cd0bb68f0c254d767e673775dde66",
+          "passage": "For 100 mutations, a 50/50 mixture gives 35, 35, 20, 10; a 60/40 mixture gives 36, 34, 20, 10. The close reconstructions illustrate ambiguity; these are arithmetic examples, not fitted SBS3 data or observed biological results.",
+          "passageSha256": "c3c310434dd73f243350db250359f7338093a74de0aeb5c76809b936e9187de1"
+        }
+      ],
+      "remaining": [
+        "Arithmetic is independently reproduced; the prior method interpretation is retained at its recorded depth."
+      ]
+    },
+    {
+      "id": "GS1",
+      "status": "represented-at-stated-scope",
+      "sourceIds": [
+        "birkbak2012",
+        "watkins2014"
+      ],
+      "evidence": [
+        {
+          "recordId": "hrd-genomic-scar-scores",
+          "version": "proposal-repair-signaling",
+          "field": "summary",
+          "fieldSha256": "3279eec849dbba77d8405e12ceb8f3cebe99c9325db017f29019e60211a2eff9",
+          "passage": "Loss of heterozygosity means losing one parental version, with or without a reduction in total copy number.",
+          "passageSha256": "466bdac88e4638b4be7227618dd3e6f95a0d1fbcf3a85863b7414467c57f8645"
+        }
+      ],
+      "remaining": [
+        "A/B, A/absent and A/A are figure notation; no new figure view is claimed for genomic scars."
+      ]
+    }
+  ],
+  "hashMethod": "SHA-256 of compact UTF-8 JSON for full runtime field and exact UTF-8 excerpt. Existence checks do not replace semantic/source assessment."
+}

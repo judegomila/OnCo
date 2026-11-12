@@ -1,0 +1,2323 @@
+{
+  "hunks": [
+    {
+      "file": "terms-basics.ts",
+      "hunk": 1,
+      "sha256": "b13b5a173ea65f95e4bfbe77f112ec1dbd3b3ac736cf5722723705d86b2b31b6",
+      "oursIds": [],
+      "theirsIds": [],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "terms-cansim-oncology.ts",
+      "hunk": 1,
+      "sha256": "fb205219ac15a8075a5396a74068482890ddd76ccb31e6a5a610623766875288",
+      "oursIds": [
+        "batch-effects"
+      ],
+      "theirsIds": [
+        "batch-effects"
+      ],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "terms-jargon.ts",
+      "hunk": 1,
+      "sha256": "2ba175a65de558659a8502045d0ff26564086e0d48f44a434fe2b4ad50e2d19f",
+      "oursIds": [
+        "intention-to-treat",
+        "prespecified-vs-post-hoc",
+        "subgroup-analysis",
+        "statistical-significance"
+      ],
+      "theirsIds": [
+        "intention-to-treat",
+        "prespecified-vs-post-hoc",
+        "subgroup-analysis",
+        "statistical-significance"
+      ],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "terms-jargon.ts",
+      "hunk": 2,
+      "sha256": "b6d81a8e28280f7f2f4d0023b1f1f019800261da2a2e8a00ba3682a8f527e966",
+      "oursIds": [
+        "data-maturity",
+        "qol-pro"
+      ],
+      "theirsIds": [
+        "data-maturity",
+        "qol-pro"
+      ],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "terms-jargon.ts",
+      "hunk": 3,
+      "sha256": "60516e2a71c447eac5361f527c9be32a51e16af9eb3cf11663d6c8f1e5e2d9c7",
+      "oursIds": [
+        "antiangiogenic-toxicities",
+        "secondary-malignancy",
+        "late-effects",
+        "hypogammaglobulinaemia",
+        "dose-modification"
+      ],
+      "theirsIds": [
+        "antiangiogenic-toxicities",
+        "secondary-malignancy",
+        "late-effects",
+        "hypogammaglobulinaemia",
+        "dose-modification"
+      ],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "trial-design-wave.ts",
+      "hunk": 1,
+      "sha256": "a308d53268ae3e57d7522e3354a4bcf185df59ac18162692045322bbd2d5d958",
+      "oursIds": [],
+      "theirsIds": [],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    },
+    {
+      "file": "trial-design-wave.ts",
+      "hunk": 2,
+      "sha256": "70b85a47cf917c74924c5163513be651a1dfc010fc94cdd24a38cdfdad53eb3d",
+      "oursIds": [],
+      "theirsIds": [],
+      "decision": "Keep current audited object fields and apply only the reviewed upstream aka removals; independent base-to-current alias changes are preserved."
+    }
+  ],
+  "fieldDecisions": {
+    "sourceChecks": [
+      {
+        "file": "src/data/complementary-gaps-2026-11-supplements.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/devices-gaps-2026-11-diagnostic.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/institutions/india-ncg.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/machines-wave.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/people-cassian-yee-2026-11.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/pipeline-trials-wave6.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/antibacterial-prophylaxis-in-neutropenia.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/anticipatory-nausea-and-vomiting.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/anticoagulants-and-antiplatelets-before-endoscopy.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/antifungal-prophylaxis-in-haematology.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/antithrombotic-interruption-around-surgery.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/bispecific-step-up-dosing.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/bone-marrow-aspirate-and-trephine-biopsy.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/cancer-associated-vte-treatment.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/car-t-infection-prevention.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/care-in-the-last-days-of-life.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/catheter-related-thrombosis-in-cancer.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/central-line-occlusion-management.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/chronic-pain-in-cancer-survivors.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/crs-grading-and-management.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/diagnostic-bronchoscopy-and-ebus-preparation.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/egfr-inhibitor-rash-prophylaxis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/enhanced-recovery-after-gynaecological-cancer-surgery.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/febrile-neutropenia-first-hour.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/hand-foot-syndrome-prevention-and-dose-modification.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/head-and-neck-radiotherapy-oral-mucositis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/hepatitis-b-screening-and-reactivation-prophylaxis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/herpes-simplex-and-zoster-antiviral-prophylaxis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/icans-grading-and-management.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/iec-hs-management.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/image-guided-core-biopsy-preparation-and-aftercare.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-colitis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-hepatitis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-hypophysitis-adrenal.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-myocarditis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-nephritis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-neurological.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-pneumonitis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-skin.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irae-thyroid.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/malignant-bowel-obstruction.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/nausea-and-vomiting-in-advanced-cancer.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/neratinib-diarrhoea-prophylaxis-and-dose-escalation.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/neutropenic-enterocolitis.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/opioid-switching-and-conversion.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/oral-mucositis-prevention-and-oral-care.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/paediatric-chemotherapy-nausea-vomiting-prevention.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/paediatric-fever-and-neutropenia.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/paediatric-procedural-pain-and-sedation.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/palliative-sedation-for-refractory-suffering.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/radiation-dermatitis-skin-care.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/sentinel-node-tracers-and-blue-dye-safety.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/skin-and-nail-care-during-cancer-drug-treatment.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/strong-opioids-for-cancer-pain.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/suspected-central-line-infection.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/syringe-driver-continuous-subcutaneous-infusion.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/treatment-induced-diarrhoea-grading-and-management.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/vte-prophylaxis-after-cancer-surgery.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/protocols/vte-risk-assessment-and-thromboprophylaxis-ambulatory.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/breast-treatment.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/colorectal-core.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/colorectal-registry-trials.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/endometrial.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/gallbladder-registry-trials.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/lung-registry-trials.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/lymphoma-molecular.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/lymphoma-treatment.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/pancreatic-registry-trials.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/rejuvenation-transplant.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/spikes/tnbc-registry-trials.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/supportive-care-gaps-2026-11-terms.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/targets-genes-wave.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/terms-cansim-oncology.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "allOtherParsedSourceIdentical": true
+      },
+      {
+        "file": "src/data/trials-soc-wave.ts",
+        "allOtherParsedSourceIdentical": true
+      }
+    ],
+    "decisions": [
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "cell-division",
+        "removedByUpstream": [
+          "replication"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "asOf",
+          "notes",
+          "links",
+          "tldr",
+          "summary",
+          "related"
+        ],
+        "resolvedAka": [
+          "cell divisions",
+          "divide",
+          "dividing",
+          "divides",
+          "dividing cells",
+          "rapidly dividing",
+          "fast-dividing",
+          "replicating",
+          "cell replication"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "remission",
+        "removedByUpstream": [
+          "cure",
+          "cured",
+          "curable"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "summary",
+          "asOf",
+          "links"
+        ],
+        "resolvedAka": [
+          "remissions",
+          "in remission",
+          "complete remission",
+          "partial remission",
+          "durable remission",
+          "durable remissions",
+          "functional cure",
+          "no evidence of disease",
+          "NED",
+          "disease-free"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "partial-response",
+        "removedByUpstream": [
+          "responded",
+          "responding"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "partial responses",
+          "responders",
+          "responder",
+          "non-responders",
+          "non-responder",
+          "response rate",
+          "response rates",
+          "tumour shrinkage",
+          "tumor shrinkage",
+          "shrank",
+          "shrinkage",
+          "responds to"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "median-survival",
+        "removedByUpstream": [
+          "median"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "median overall survival",
+          "median OS",
+          "median PFS",
+          "median progression-free survival",
+          "median follow-up",
+          "median time to",
+          "survival curve",
+          "survival curves",
+          "Kaplan-Meier",
+          "Kaplan–Meier",
+          "landmark analysis",
+          "long tail"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "toxicity-grade",
+        "removedByUpstream": [
+          "toxic"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "toxicity",
+          "toxicities",
+          "grade 3",
+          "grade 4",
+          "grade 5",
+          "grade 3-4",
+          "grade 3/4",
+          "grade 3 or higher",
+          "grade ≥3",
+          "grade 3+",
+          "high-grade toxicity",
+          "severe toxicity",
+          "CTCAE",
+          "treatment-related",
+          "treatment-related adverse events",
+          "TRAEs",
+          "TRAE",
+          "serious adverse event",
+          "serious adverse events",
+          "SAE",
+          "discontinuation",
+          "discontinuation rate",
+          "treatment discontinuation",
+          "tolerability",
+          "tolerable",
+          "well tolerated",
+          "well-tolerated",
+          "safety profile",
+          "manageable"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "quality-of-life",
+        "removedByUpstream": [
+          "PROs"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "QoL",
+          "HRQoL",
+          "health-related quality of life",
+          "patient-reported outcomes",
+          "patient-reported outcome",
+          "PRO",
+          "patient-reported",
+          "symptom burden",
+          "functional status",
+          "performance status",
+          "ECOG",
+          "ECOG 0-1",
+          "ECOG performance status",
+          "Karnofsky",
+          "time to deterioration",
+          "wellbeing"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-basics.ts",
+        "id": "screening",
+        "removedByUpstream": [
+          "sensitivity"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "cancer screening",
+          "screening programme",
+          "screening programmes",
+          "screening program",
+          "screening programs",
+          "screened",
+          "screening test",
+          "screening tests",
+          "population screening",
+          "overdiagnosis",
+          "overdiagnosed",
+          "over-diagnosis",
+          "overtreatment",
+          "false positive",
+          "false positives",
+          "false-positive",
+          "false negative",
+          "false negatives",
+          "false-negative",
+          "specificity",
+          "lead-time bias",
+          "length-time bias"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-cansim-oncology.ts",
+        "id": "batch-effects",
+        "removedByUpstream": [
+          "ComBat"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "links",
+          "tldr",
+          "summary",
+          "notes",
+          "asOf"
+        ],
+        "resolvedAka": [
+          "batch effects",
+          "batch effect",
+          "batch correction",
+          "platform effect",
+          "cross-platform harmonisation",
+          "harmonisation across platforms"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "philadelphia-chromosome",
+        "removedByUpstream": [
+          "Philadelphia"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "Ph+",
+          "Ph-positive",
+          "Ph-negative",
+          "BCR-ABL",
+          "BCR-ABL1",
+          "BCR::ABL1",
+          "t(9;22)",
+          "Philadelphia-positive",
+          "Ph+ ALL",
+          "p190 transcript",
+          "p210 transcript",
+          "BCR::ABL1 transcript type"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "conditioning-regimen",
+        "removedByUpstream": [
+          "BEAM"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "conditioning",
+          "conditioning chemotherapy",
+          "conditioning regimen",
+          "myeloablative",
+          "myeloablative conditioning",
+          "reduced-intensity",
+          "reduced-intensity conditioning",
+          "RIC",
+          "non-myeloablative",
+          "total body irradiation",
+          "TBI",
+          "busulfan-cyclophosphamide",
+          "BuCy",
+          "BuMel",
+          "fludarabine-based conditioning",
+          "treosulfan-based"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "hta",
+        "removedByUpstream": [
+          "HAS"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "HTA",
+          "health technology assessment",
+          "reimbursement",
+          "reimbursed",
+          "reimbursement decision",
+          "coverage decision",
+          "payer",
+          "payers",
+          "cost-effectiveness",
+          "cost effectiveness",
+          "cost-effective",
+          "QALY",
+          "QALYs",
+          "quality-adjusted life year",
+          "incremental cost-effectiveness ratio",
+          "willingness-to-pay threshold",
+          "value-based pricing",
+          "managed access",
+          "Cancer Drugs Fund",
+          "technology appraisal",
+          "G-BA",
+          "AMNOG",
+          "PBAC",
+          "CADTH",
+          "value assessment",
+          "coverage decisions",
+          "technology appraisals"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "statistical-significance",
+        "removedByUpstream": [
+          "powered"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "statistically significant",
+          "statistical significance",
+          "not statistically significant",
+          "did not reach statistical significance",
+          "P value",
+          "p-value",
+          "P<0.05",
+          "P = 0.05",
+          "one-sided",
+          "two-sided",
+          "alpha spending",
+          "alpha allocation",
+          "type I error",
+          "multiplicity",
+          "multiple comparisons",
+          "hierarchical testing",
+          "gatekeeping",
+          "Bonferroni",
+          "underpowered",
+          "sample size",
+          "statistical power",
+          "80% power",
+          "90% power",
+          "numerically",
+          "numerical improvement",
+          "trend toward",
+          "trend towards",
+          "clinically meaningful",
+          "clinical significance",
+          "sample sizes"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "qol-pro",
+        "removedByUpstream": [
+          "PROs"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "QoL",
+          "QOL",
+          "quality of life",
+          "quality-of-life",
+          "health-related quality of life",
+          "HRQoL",
+          "HRQL",
+          "PRO",
+          "patient-reported outcome",
+          "patient-reported outcomes",
+          "patient-reported",
+          "patient reported",
+          "PRO-CTCAE",
+          "EORTC QLQ-C30",
+          "QLQ-C30",
+          "FACT-G",
+          "EQ-5D",
+          "symptom burden",
+          "symptom scores",
+          "functional status",
+          "time to deterioration",
+          "TTD",
+          "global health status",
+          "tolerability endpoints",
+          "patient experience",
+          "financial toxicity questionnaire",
+          "symptom score"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "antiangiogenic-toxicities",
+        "removedByUpstream": [
+          "bleeding"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "proteinuria",
+          "haemorrhage",
+          "hemorrhage",
+          "bleeding events",
+          "bleeding risk",
+          "haemoptysis",
+          "epistaxis",
+          "gastrointestinal perforation",
+          "GI perforation",
+          "perforation",
+          "bowel perforation",
+          "fistula",
+          "fistula formation",
+          "wound healing",
+          "wound-healing complications",
+          "impaired wound healing",
+          "wound dehiscence",
+          "reversible posterior leukoencephalopathy",
+          "PRES",
+          "VEGF inhibitor toxicity",
+          "anti-VEGF toxicity",
+          "hold 28 days around surgery"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "id": "dose-modification",
+        "removedByUpstream": [
+          "compliance"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "tldr",
+          "summary",
+          "notes",
+          "links",
+          "asOf"
+        ],
+        "resolvedAka": [
+          "dose reduction",
+          "dose reductions",
+          "dose-reduction",
+          "dose reduced",
+          "dose interruption",
+          "dose interruptions",
+          "dose delay",
+          "dose delays",
+          "treatment delay",
+          "dose hold",
+          "hold treatment",
+          "dose modification",
+          "dose modifications",
+          "dose adjustment",
+          "dose adjustments",
+          "discontinuation",
+          "discontinuations",
+          "discontinued",
+          "treatment discontinuation",
+          "discontinuation rate",
+          "discontinuation due to adverse events",
+          "permanent discontinuation",
+          "stopped treatment",
+          "treatment cessation",
+          "relative dose intensity",
+          "RDI",
+          "adherence",
+          "non-adherence",
+          "real-world dosing",
+          "starting dose",
+          "dose holds",
+          "treatment delays"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "response-adaptive-randomisation",
+        "removedByUpstream": [
+          "graduation",
+          "graduated"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [
+            "graduation",
+            "graduated"
+          ],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "links",
+          "tldr",
+          "summary",
+          "asOf",
+          "notes"
+        ],
+        "resolvedAka": [
+          "response-adaptive randomisation",
+          "response-adaptive randomization",
+          "adaptive randomisation",
+          "adaptive randomization",
+          "outcome-adaptive randomisation",
+          "randomisation probabilities",
+          "randomisation weights",
+          "play the winner",
+          "graduated from the trial",
+          "arm dropped",
+          "drop the loser",
+          "arms dropped for futility",
+          "adding arms",
+          "arm added"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "bayesian-trial-design",
+        "removedByUpstream": [
+          "prior"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [
+            "prior"
+          ],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "links",
+          "tldr",
+          "summary",
+          "asOf",
+          "notes"
+        ],
+        "resolvedAka": [
+          "Bayesian trial",
+          "Bayesian trials",
+          "Bayesian analysis",
+          "Bayesian methods",
+          "Bayesian statistics",
+          "posterior probability",
+          "posterior probability of benefit",
+          "prior distribution",
+          "informative prior",
+          "sceptical prior",
+          "skeptical prior",
+          "non-informative prior",
+          "credible interval",
+          "95% credible interval",
+          "probability of superiority",
+          "predictive probability",
+          "predictive probability of success",
+          "Bayesian hierarchical model",
+          "hierarchical model",
+          "borrowing strength",
+          "information borrowing"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "cluster-randomised-trial",
+        "removedByUpstream": [
+          "clusters"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "cluster-randomised",
+          "cluster randomised",
+          "cluster-randomized",
+          "cluster randomized",
+          "cluster-randomised trial",
+          "cluster randomised trial",
+          "cluster-randomized trial",
+          "cluster randomized trial",
+          "cluster trial",
+          "cluster trials",
+          "cluster RCT",
+          "randomised by village",
+          "randomised by practice",
+          "randomised by hospital",
+          "randomised by cluster",
+          "intracluster correlation",
+          "intraclass correlation",
+          "design effect",
+          "in clusters"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "trial-protocol",
+        "removedByUpstream": [
+          "the protocol",
+          "protocol",
+          "SPIRIT"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [
+          "notes",
+          "asOf",
+          "links",
+          "summary"
+        ],
+        "resolvedAka": [
+          "trial protocol",
+          "study protocol",
+          "protocol amendment",
+          "protocol amendments",
+          "amended protocol",
+          "protocol deviation",
+          "protocol deviations",
+          "protocol violation",
+          "protocol synopsis",
+          "schedule of assessments",
+          "schedule of events",
+          "protocol-defined",
+          "protocol-specified",
+          "per the protocol",
+          "eligibility criteria",
+          "investigator's brochure",
+          "investigator brochure",
+          "case report form",
+          "CRF",
+          "eCRF",
+          "SPIRIT statement",
+          "SAP",
+          "statistical analysis plan",
+          "statistical analysis plans",
+          "analysis plan",
+          "pre-specified analysis plan",
+          "hierarchy of endpoints",
+          "testing hierarchy",
+          "data cut-off date",
+          "database lock"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "trial-lifecycle",
+        "removedByUpstream": [
+          "filing",
+          "approval"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "trial lifecycle",
+          "life cycle of a trial",
+          "how a trial works",
+          "stages of a trial",
+          "from bench to bedside",
+          "IND application",
+          "investigational new drug application",
+          "clinical trial application",
+          "CTA",
+          "site activation",
+          "site initiation",
+          "first patient in",
+          "first patient dosed",
+          "last patient in",
+          "last patient last visit",
+          "database lock",
+          "topline readout",
+          "primary completion",
+          "primary completion date",
+          "study completion",
+          "congress presentation",
+          "late-breaking abstract",
+          "peer-reviewed publication",
+          "regulatory submission",
+          "label expansion",
+          "post-marketing",
+          "phase 4",
+          "long-term follow-up study"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "id": "trial-failure-modes",
+        "removedByUpstream": [
+          "contamination"
+        ],
+        "qualifiedAliasesAdded": [],
+        "currentIndependentAliasChanges": {
+          "removed": [],
+          "added": []
+        },
+        "preservedCurrentFields": [],
+        "resolvedAka": [
+          "trial failure",
+          "failed trial",
+          "failed trials",
+          "negative trial",
+          "negative trials",
+          "why trials fail",
+          "why the trial failed",
+          "underpowered",
+          "underpowered trial",
+          "wrong endpoint",
+          "wrong comparator",
+          "control arm drift",
+          "control arm underperformed",
+          "control arm outperformed",
+          "control arm did better than expected",
+          "historical control comparison",
+          "regression to the mean",
+          "winner's curse",
+          "subgroup fishing",
+          "cherry-picked subgroup",
+          "post-hoc subgroup",
+          "crossover contamination",
+          "diluted effect",
+          "treatment dilution",
+          "non-adherence",
+          "poor adherence",
+          "dropout",
+          "loss to follow-up",
+          "lost to follow-up",
+          "immature data",
+          "did not replicate",
+          "failed to replicate",
+          "phase 2 signal did not hold",
+          "informative censoring",
+          "technically negative"
+        ],
+        "resolution": "Retain all current non-alias fields and independent alias changes; apply the individually reviewed upstream alias removal/qualification."
+      }
+    ],
+    "scope": "Reviewed record-property reconciliation, not object-literal union. All source outside upstream aka/drugs arrays is syntax-identical at the two upstream pins."
+  },
+  "resolvedFiles": {
+    "ours": "3b125286c28e487a3923d0dfb85c3b1d14fb5996",
+    "theirs": "2f25843d31097b6b12824e0a4cc528e4fcdbda99",
+    "files": [
+      {
+        "file": "src/data/terms-basics.ts",
+        "currentBeforeSha256": "117cac1125d223b121bace774771f2fb53c6dbfd0cc62ba08a7996d06b94ae23",
+        "resolvedSha256": "c943b79d6e874cc88ea7ac64dce4b3d3f5e9627ac44deabe6c9333275e7e6ee2",
+        "recordDecisions": [
+          {
+            "id": "cell-division",
+            "beforeAka": [
+              "cell divisions",
+              "divide",
+              "dividing",
+              "divides",
+              "dividing cells",
+              "rapidly dividing",
+              "fast-dividing",
+              "replication",
+              "replicating",
+              "cell replication"
+            ],
+            "afterAka": [
+              "cell divisions",
+              "divide",
+              "dividing",
+              "divides",
+              "dividing cells",
+              "rapidly dividing",
+              "fast-dividing",
+              "replicating",
+              "cell replication"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "remission",
+            "beforeAka": [
+              "remissions",
+              "in remission",
+              "complete remission",
+              "partial remission",
+              "durable remission",
+              "durable remissions",
+              "cure",
+              "cured",
+              "curable",
+              "functional cure",
+              "no evidence of disease",
+              "NED",
+              "disease-free"
+            ],
+            "afterAka": [
+              "remissions",
+              "in remission",
+              "complete remission",
+              "partial remission",
+              "durable remission",
+              "durable remissions",
+              "functional cure",
+              "no evidence of disease",
+              "NED",
+              "disease-free"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "partial-response",
+            "beforeAka": [
+              "partial responses",
+              "responded",
+              "responders",
+              "responder",
+              "non-responders",
+              "non-responder",
+              "response rate",
+              "response rates",
+              "tumour shrinkage",
+              "tumor shrinkage",
+              "shrank",
+              "shrinkage",
+              "responds to",
+              "responding"
+            ],
+            "afterAka": [
+              "partial responses",
+              "responders",
+              "responder",
+              "non-responders",
+              "non-responder",
+              "response rate",
+              "response rates",
+              "tumour shrinkage",
+              "tumor shrinkage",
+              "shrank",
+              "shrinkage",
+              "responds to"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "median-survival",
+            "beforeAka": [
+              "median overall survival",
+              "median OS",
+              "median PFS",
+              "median progression-free survival",
+              "median",
+              "median follow-up",
+              "median time to",
+              "survival curve",
+              "survival curves",
+              "Kaplan-Meier",
+              "Kaplan–Meier",
+              "landmark analysis",
+              "long tail"
+            ],
+            "afterAka": [
+              "median overall survival",
+              "median OS",
+              "median PFS",
+              "median progression-free survival",
+              "median follow-up",
+              "median time to",
+              "survival curve",
+              "survival curves",
+              "Kaplan-Meier",
+              "Kaplan–Meier",
+              "landmark analysis",
+              "long tail"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "toxicity-grade",
+            "beforeAka": [
+              "toxicity",
+              "toxicities",
+              "toxic",
+              "grade 3",
+              "grade 4",
+              "grade 5",
+              "grade 3-4",
+              "grade 3/4",
+              "grade 3 or higher",
+              "grade ≥3",
+              "grade 3+",
+              "high-grade toxicity",
+              "severe toxicity",
+              "CTCAE",
+              "treatment-related",
+              "treatment-related adverse events",
+              "TRAEs",
+              "TRAE",
+              "serious adverse event",
+              "serious adverse events",
+              "SAE",
+              "discontinuation",
+              "discontinuation rate",
+              "treatment discontinuation",
+              "tolerability",
+              "tolerable",
+              "well tolerated",
+              "well-tolerated",
+              "safety profile",
+              "manageable"
+            ],
+            "afterAka": [
+              "toxicity",
+              "toxicities",
+              "grade 3",
+              "grade 4",
+              "grade 5",
+              "grade 3-4",
+              "grade 3/4",
+              "grade 3 or higher",
+              "grade ≥3",
+              "grade 3+",
+              "high-grade toxicity",
+              "severe toxicity",
+              "CTCAE",
+              "treatment-related",
+              "treatment-related adverse events",
+              "TRAEs",
+              "TRAE",
+              "serious adverse event",
+              "serious adverse events",
+              "SAE",
+              "discontinuation",
+              "discontinuation rate",
+              "treatment discontinuation",
+              "tolerability",
+              "tolerable",
+              "well tolerated",
+              "well-tolerated",
+              "safety profile",
+              "manageable"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "quality-of-life",
+            "beforeAka": [
+              "QoL",
+              "HRQoL",
+              "health-related quality of life",
+              "patient-reported outcomes",
+              "patient-reported outcome",
+              "PROs",
+              "PRO",
+              "patient-reported",
+              "symptom burden",
+              "functional status",
+              "performance status",
+              "ECOG",
+              "ECOG 0-1",
+              "ECOG performance status",
+              "Karnofsky",
+              "time to deterioration",
+              "wellbeing"
+            ],
+            "afterAka": [
+              "QoL",
+              "HRQoL",
+              "health-related quality of life",
+              "patient-reported outcomes",
+              "patient-reported outcome",
+              "PRO",
+              "patient-reported",
+              "symptom burden",
+              "functional status",
+              "performance status",
+              "ECOG",
+              "ECOG 0-1",
+              "ECOG performance status",
+              "Karnofsky",
+              "time to deterioration",
+              "wellbeing"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "screening",
+            "beforeAka": [
+              "cancer screening",
+              "screening programme",
+              "screening programmes",
+              "screening program",
+              "screening programs",
+              "screened",
+              "screening test",
+              "screening tests",
+              "population screening",
+              "overdiagnosis",
+              "overdiagnosed",
+              "over-diagnosis",
+              "overtreatment",
+              "false positive",
+              "false positives",
+              "false-positive",
+              "false negative",
+              "false negatives",
+              "false-negative",
+              "sensitivity",
+              "specificity",
+              "lead-time bias",
+              "length-time bias"
+            ],
+            "afterAka": [
+              "cancer screening",
+              "screening programme",
+              "screening programmes",
+              "screening program",
+              "screening programs",
+              "screened",
+              "screening test",
+              "screening tests",
+              "population screening",
+              "overdiagnosis",
+              "overdiagnosed",
+              "over-diagnosis",
+              "overtreatment",
+              "false positive",
+              "false positives",
+              "false-positive",
+              "false negative",
+              "false negatives",
+              "false-negative",
+              "specificity",
+              "lead-time bias",
+              "length-time bias"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          }
+        ]
+      },
+      {
+        "file": "src/data/terms-cansim-oncology.ts",
+        "currentBeforeSha256": "5b0051f4c86d7669bafc6464053a07b8d8051edf288168868eaee49b18bccff0",
+        "resolvedSha256": "acd2c856cab5b666cb9407459239e5c1daa8867a7f823ab675cb8ed17802000d",
+        "recordDecisions": [
+          {
+            "id": "batch-effects",
+            "beforeAka": [
+              "batch effects",
+              "batch effect",
+              "batch correction",
+              "ComBat",
+              "platform effect",
+              "cross-platform harmonisation",
+              "harmonisation across platforms"
+            ],
+            "afterAka": [
+              "batch effects",
+              "batch effect",
+              "batch correction",
+              "platform effect",
+              "cross-platform harmonisation",
+              "harmonisation across platforms"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          }
+        ]
+      },
+      {
+        "file": "src/data/terms-jargon.ts",
+        "currentBeforeSha256": "423e84577dbd653ef93cbad7d9e8c8a79bd16064ffd8b0e99e47b2d68aac6e3e",
+        "resolvedSha256": "a6a44b41ac814ca0f7c093bbbef9bf000736b140c8ab4ff3efc14b958ea16c82",
+        "recordDecisions": [
+          {
+            "id": "philadelphia-chromosome",
+            "beforeAka": [
+              "Philadelphia",
+              "Ph+",
+              "Ph-positive",
+              "Ph-negative",
+              "BCR-ABL",
+              "BCR-ABL1",
+              "BCR::ABL1",
+              "t(9;22)",
+              "Philadelphia-positive",
+              "Ph+ ALL",
+              "p190 transcript",
+              "p210 transcript",
+              "BCR::ABL1 transcript type"
+            ],
+            "afterAka": [
+              "Ph+",
+              "Ph-positive",
+              "Ph-negative",
+              "BCR-ABL",
+              "BCR-ABL1",
+              "BCR::ABL1",
+              "t(9;22)",
+              "Philadelphia-positive",
+              "Ph+ ALL",
+              "p190 transcript",
+              "p210 transcript",
+              "BCR::ABL1 transcript type"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "conditioning-regimen",
+            "beforeAka": [
+              "conditioning",
+              "conditioning chemotherapy",
+              "conditioning regimen",
+              "myeloablative",
+              "myeloablative conditioning",
+              "reduced-intensity",
+              "reduced-intensity conditioning",
+              "RIC",
+              "non-myeloablative",
+              "total body irradiation",
+              "TBI",
+              "busulfan-cyclophosphamide",
+              "BuCy",
+              "BuMel",
+              "BEAM",
+              "fludarabine-based conditioning",
+              "treosulfan-based"
+            ],
+            "afterAka": [
+              "conditioning",
+              "conditioning chemotherapy",
+              "conditioning regimen",
+              "myeloablative",
+              "myeloablative conditioning",
+              "reduced-intensity",
+              "reduced-intensity conditioning",
+              "RIC",
+              "non-myeloablative",
+              "total body irradiation",
+              "TBI",
+              "busulfan-cyclophosphamide",
+              "BuCy",
+              "BuMel",
+              "fludarabine-based conditioning",
+              "treosulfan-based"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "hta",
+            "beforeAka": [
+              "HTA",
+              "health technology assessment",
+              "reimbursement",
+              "reimbursed",
+              "reimbursement decision",
+              "coverage decision",
+              "payer",
+              "payers",
+              "cost-effectiveness",
+              "cost effectiveness",
+              "cost-effective",
+              "QALY",
+              "QALYs",
+              "quality-adjusted life year",
+              "incremental cost-effectiveness ratio",
+              "willingness-to-pay threshold",
+              "value-based pricing",
+              "managed access",
+              "Cancer Drugs Fund",
+              "technology appraisal",
+              "G-BA",
+              "AMNOG",
+              "HAS",
+              "PBAC",
+              "CADTH",
+              "value assessment",
+              "coverage decisions",
+              "technology appraisals"
+            ],
+            "afterAka": [
+              "HTA",
+              "health technology assessment",
+              "reimbursement",
+              "reimbursed",
+              "reimbursement decision",
+              "coverage decision",
+              "payer",
+              "payers",
+              "cost-effectiveness",
+              "cost effectiveness",
+              "cost-effective",
+              "QALY",
+              "QALYs",
+              "quality-adjusted life year",
+              "incremental cost-effectiveness ratio",
+              "willingness-to-pay threshold",
+              "value-based pricing",
+              "managed access",
+              "Cancer Drugs Fund",
+              "technology appraisal",
+              "G-BA",
+              "AMNOG",
+              "PBAC",
+              "CADTH",
+              "value assessment",
+              "coverage decisions",
+              "technology appraisals"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "statistical-significance",
+            "beforeAka": [
+              "statistically significant",
+              "statistical significance",
+              "not statistically significant",
+              "did not reach statistical significance",
+              "P value",
+              "p-value",
+              "P<0.05",
+              "P = 0.05",
+              "one-sided",
+              "two-sided",
+              "alpha spending",
+              "alpha allocation",
+              "type I error",
+              "multiplicity",
+              "multiple comparisons",
+              "hierarchical testing",
+              "gatekeeping",
+              "Bonferroni",
+              "powered",
+              "underpowered",
+              "sample size",
+              "statistical power",
+              "80% power",
+              "90% power",
+              "numerically",
+              "numerical improvement",
+              "trend toward",
+              "trend towards",
+              "clinically meaningful",
+              "clinical significance",
+              "sample sizes"
+            ],
+            "afterAka": [
+              "statistically significant",
+              "statistical significance",
+              "not statistically significant",
+              "did not reach statistical significance",
+              "P value",
+              "p-value",
+              "P<0.05",
+              "P = 0.05",
+              "one-sided",
+              "two-sided",
+              "alpha spending",
+              "alpha allocation",
+              "type I error",
+              "multiplicity",
+              "multiple comparisons",
+              "hierarchical testing",
+              "gatekeeping",
+              "Bonferroni",
+              "underpowered",
+              "sample size",
+              "statistical power",
+              "80% power",
+              "90% power",
+              "numerically",
+              "numerical improvement",
+              "trend toward",
+              "trend towards",
+              "clinically meaningful",
+              "clinical significance",
+              "sample sizes"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "qol-pro",
+            "beforeAka": [
+              "QoL",
+              "QOL",
+              "quality of life",
+              "quality-of-life",
+              "health-related quality of life",
+              "HRQoL",
+              "HRQL",
+              "PRO",
+              "PROs",
+              "patient-reported outcome",
+              "patient-reported outcomes",
+              "patient-reported",
+              "patient reported",
+              "PRO-CTCAE",
+              "EORTC QLQ-C30",
+              "QLQ-C30",
+              "FACT-G",
+              "EQ-5D",
+              "symptom burden",
+              "symptom scores",
+              "functional status",
+              "time to deterioration",
+              "TTD",
+              "global health status",
+              "tolerability endpoints",
+              "patient experience",
+              "financial toxicity questionnaire",
+              "symptom score"
+            ],
+            "afterAka": [
+              "QoL",
+              "QOL",
+              "quality of life",
+              "quality-of-life",
+              "health-related quality of life",
+              "HRQoL",
+              "HRQL",
+              "PRO",
+              "patient-reported outcome",
+              "patient-reported outcomes",
+              "patient-reported",
+              "patient reported",
+              "PRO-CTCAE",
+              "EORTC QLQ-C30",
+              "QLQ-C30",
+              "FACT-G",
+              "EQ-5D",
+              "symptom burden",
+              "symptom scores",
+              "functional status",
+              "time to deterioration",
+              "TTD",
+              "global health status",
+              "tolerability endpoints",
+              "patient experience",
+              "financial toxicity questionnaire",
+              "symptom score"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "antiangiogenic-toxicities",
+            "beforeAka": [
+              "proteinuria",
+              "bleeding",
+              "haemorrhage",
+              "hemorrhage",
+              "bleeding events",
+              "bleeding risk",
+              "haemoptysis",
+              "epistaxis",
+              "gastrointestinal perforation",
+              "GI perforation",
+              "perforation",
+              "bowel perforation",
+              "fistula",
+              "fistula formation",
+              "wound healing",
+              "wound-healing complications",
+              "impaired wound healing",
+              "wound dehiscence",
+              "reversible posterior leukoencephalopathy",
+              "PRES",
+              "VEGF inhibitor toxicity",
+              "anti-VEGF toxicity",
+              "hold 28 days around surgery"
+            ],
+            "afterAka": [
+              "proteinuria",
+              "haemorrhage",
+              "hemorrhage",
+              "bleeding events",
+              "bleeding risk",
+              "haemoptysis",
+              "epistaxis",
+              "gastrointestinal perforation",
+              "GI perforation",
+              "perforation",
+              "bowel perforation",
+              "fistula",
+              "fistula formation",
+              "wound healing",
+              "wound-healing complications",
+              "impaired wound healing",
+              "wound dehiscence",
+              "reversible posterior leukoencephalopathy",
+              "PRES",
+              "VEGF inhibitor toxicity",
+              "anti-VEGF toxicity",
+              "hold 28 days around surgery"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "dose-modification",
+            "beforeAka": [
+              "dose reduction",
+              "dose reductions",
+              "dose-reduction",
+              "dose reduced",
+              "dose interruption",
+              "dose interruptions",
+              "dose delay",
+              "dose delays",
+              "treatment delay",
+              "dose hold",
+              "hold treatment",
+              "dose modification",
+              "dose modifications",
+              "dose adjustment",
+              "dose adjustments",
+              "discontinuation",
+              "discontinuations",
+              "discontinued",
+              "treatment discontinuation",
+              "discontinuation rate",
+              "discontinuation due to adverse events",
+              "permanent discontinuation",
+              "stopped treatment",
+              "treatment cessation",
+              "relative dose intensity",
+              "RDI",
+              "adherence",
+              "non-adherence",
+              "compliance",
+              "real-world dosing",
+              "starting dose",
+              "dose holds",
+              "treatment delays"
+            ],
+            "afterAka": [
+              "dose reduction",
+              "dose reductions",
+              "dose-reduction",
+              "dose reduced",
+              "dose interruption",
+              "dose interruptions",
+              "dose delay",
+              "dose delays",
+              "treatment delay",
+              "dose hold",
+              "hold treatment",
+              "dose modification",
+              "dose modifications",
+              "dose adjustment",
+              "dose adjustments",
+              "discontinuation",
+              "discontinuations",
+              "discontinued",
+              "treatment discontinuation",
+              "discontinuation rate",
+              "discontinuation due to adverse events",
+              "permanent discontinuation",
+              "stopped treatment",
+              "treatment cessation",
+              "relative dose intensity",
+              "RDI",
+              "adherence",
+              "non-adherence",
+              "real-world dosing",
+              "starting dose",
+              "dose holds",
+              "treatment delays"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          }
+        ]
+      },
+      {
+        "file": "src/data/trial-design-wave.ts",
+        "currentBeforeSha256": "190e58ba7608b56e4e90ea64460e7d34faa80b7fb0978eb2a7aba17a1865db9d",
+        "resolvedSha256": "2f0b9cd439d2d23a2481e1ea539239c2f72f948f955fffbd9a86358d12168382",
+        "recordDecisions": [
+          {
+            "id": "response-adaptive-randomisation",
+            "beforeAka": [
+              "response-adaptive randomisation",
+              "response-adaptive randomization",
+              "adaptive randomisation",
+              "adaptive randomization",
+              "outcome-adaptive randomisation",
+              "randomisation probabilities",
+              "randomisation weights",
+              "play the winner",
+              "graduated from the trial",
+              "arm dropped",
+              "drop the loser",
+              "arms dropped for futility",
+              "adding arms",
+              "arm added"
+            ],
+            "afterAka": [
+              "response-adaptive randomisation",
+              "response-adaptive randomization",
+              "adaptive randomisation",
+              "adaptive randomization",
+              "outcome-adaptive randomisation",
+              "randomisation probabilities",
+              "randomisation weights",
+              "play the winner",
+              "graduated from the trial",
+              "arm dropped",
+              "drop the loser",
+              "arms dropped for futility",
+              "adding arms",
+              "arm added"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "bayesian-trial-design",
+            "beforeAka": [
+              "Bayesian trial",
+              "Bayesian trials",
+              "Bayesian analysis",
+              "Bayesian methods",
+              "Bayesian statistics",
+              "posterior probability",
+              "posterior probability of benefit",
+              "prior distribution",
+              "informative prior",
+              "sceptical prior",
+              "skeptical prior",
+              "non-informative prior",
+              "credible interval",
+              "95% credible interval",
+              "probability of superiority",
+              "predictive probability",
+              "predictive probability of success",
+              "Bayesian hierarchical model",
+              "hierarchical model",
+              "borrowing strength",
+              "information borrowing"
+            ],
+            "afterAka": [
+              "Bayesian trial",
+              "Bayesian trials",
+              "Bayesian analysis",
+              "Bayesian methods",
+              "Bayesian statistics",
+              "posterior probability",
+              "posterior probability of benefit",
+              "prior distribution",
+              "informative prior",
+              "sceptical prior",
+              "skeptical prior",
+              "non-informative prior",
+              "credible interval",
+              "95% credible interval",
+              "probability of superiority",
+              "predictive probability",
+              "predictive probability of success",
+              "Bayesian hierarchical model",
+              "hierarchical model",
+              "borrowing strength",
+              "information borrowing"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "cluster-randomised-trial",
+            "beforeAka": [
+              "cluster-randomised",
+              "cluster randomised",
+              "cluster-randomized",
+              "cluster randomized",
+              "cluster-randomised trial",
+              "cluster randomised trial",
+              "cluster-randomized trial",
+              "cluster randomized trial",
+              "cluster trial",
+              "cluster trials",
+              "cluster RCT",
+              "randomised by village",
+              "randomised by practice",
+              "randomised by hospital",
+              "randomised by cluster",
+              "intracluster correlation",
+              "intraclass correlation",
+              "design effect",
+              "clusters",
+              "in clusters"
+            ],
+            "afterAka": [
+              "cluster-randomised",
+              "cluster randomised",
+              "cluster-randomized",
+              "cluster randomized",
+              "cluster-randomised trial",
+              "cluster randomised trial",
+              "cluster-randomized trial",
+              "cluster randomized trial",
+              "cluster trial",
+              "cluster trials",
+              "cluster RCT",
+              "randomised by village",
+              "randomised by practice",
+              "randomised by hospital",
+              "randomised by cluster",
+              "intracluster correlation",
+              "intraclass correlation",
+              "design effect",
+              "in clusters"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "trial-protocol",
+            "beforeAka": [
+              "trial protocol",
+              "study protocol",
+              "the protocol",
+              "protocol",
+              "protocol amendment",
+              "protocol amendments",
+              "amended protocol",
+              "protocol deviation",
+              "protocol deviations",
+              "protocol violation",
+              "protocol synopsis",
+              "schedule of assessments",
+              "schedule of events",
+              "protocol-defined",
+              "protocol-specified",
+              "per the protocol",
+              "eligibility criteria",
+              "investigator's brochure",
+              "investigator brochure",
+              "case report form",
+              "CRF",
+              "eCRF",
+              "SPIRIT",
+              "SPIRIT statement",
+              "SAP",
+              "statistical analysis plan",
+              "statistical analysis plans",
+              "analysis plan",
+              "pre-specified analysis plan",
+              "hierarchy of endpoints",
+              "testing hierarchy",
+              "data cut-off date",
+              "database lock"
+            ],
+            "afterAka": [
+              "trial protocol",
+              "study protocol",
+              "protocol amendment",
+              "protocol amendments",
+              "amended protocol",
+              "protocol deviation",
+              "protocol deviations",
+              "protocol violation",
+              "protocol synopsis",
+              "schedule of assessments",
+              "schedule of events",
+              "protocol-defined",
+              "protocol-specified",
+              "per the protocol",
+              "eligibility criteria",
+              "investigator's brochure",
+              "investigator brochure",
+              "case report form",
+              "CRF",
+              "eCRF",
+              "SPIRIT statement",
+              "SAP",
+              "statistical analysis plan",
+              "statistical analysis plans",
+              "analysis plan",
+              "pre-specified analysis plan",
+              "hierarchy of endpoints",
+              "testing hierarchy",
+              "data cut-off date",
+              "database lock"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "trial-lifecycle",
+            "beforeAka": [
+              "trial lifecycle",
+              "life cycle of a trial",
+              "how a trial works",
+              "stages of a trial",
+              "from bench to bedside",
+              "IND application",
+              "investigational new drug application",
+              "clinical trial application",
+              "CTA",
+              "site activation",
+              "site initiation",
+              "first patient in",
+              "first patient dosed",
+              "last patient in",
+              "last patient last visit",
+              "database lock",
+              "topline readout",
+              "primary completion",
+              "primary completion date",
+              "study completion",
+              "congress presentation",
+              "late-breaking abstract",
+              "peer-reviewed publication",
+              "regulatory submission",
+              "filing",
+              "label expansion",
+              "approval",
+              "post-marketing",
+              "phase 4",
+              "long-term follow-up study"
+            ],
+            "afterAka": [
+              "trial lifecycle",
+              "life cycle of a trial",
+              "how a trial works",
+              "stages of a trial",
+              "from bench to bedside",
+              "IND application",
+              "investigational new drug application",
+              "clinical trial application",
+              "CTA",
+              "site activation",
+              "site initiation",
+              "first patient in",
+              "first patient dosed",
+              "last patient in",
+              "last patient last visit",
+              "database lock",
+              "topline readout",
+              "primary completion",
+              "primary completion date",
+              "study completion",
+              "congress presentation",
+              "late-breaking abstract",
+              "peer-reviewed publication",
+              "regulatory submission",
+              "label expansion",
+              "post-marketing",
+              "phase 4",
+              "long-term follow-up study"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          },
+          {
+            "id": "trial-failure-modes",
+            "beforeAka": [
+              "trial failure",
+              "failed trial",
+              "failed trials",
+              "negative trial",
+              "negative trials",
+              "why trials fail",
+              "why the trial failed",
+              "underpowered",
+              "underpowered trial",
+              "wrong endpoint",
+              "wrong comparator",
+              "control arm drift",
+              "control arm underperformed",
+              "control arm outperformed",
+              "control arm did better than expected",
+              "historical control comparison",
+              "regression to the mean",
+              "winner's curse",
+              "subgroup fishing",
+              "cherry-picked subgroup",
+              "post-hoc subgroup",
+              "crossover contamination",
+              "contamination",
+              "diluted effect",
+              "treatment dilution",
+              "non-adherence",
+              "poor adherence",
+              "dropout",
+              "loss to follow-up",
+              "lost to follow-up",
+              "immature data",
+              "did not replicate",
+              "failed to replicate",
+              "phase 2 signal did not hold",
+              "informative censoring",
+              "technically negative"
+            ],
+            "afterAka": [
+              "trial failure",
+              "failed trial",
+              "failed trials",
+              "negative trial",
+              "negative trials",
+              "why trials fail",
+              "why the trial failed",
+              "underpowered",
+              "underpowered trial",
+              "wrong endpoint",
+              "wrong comparator",
+              "control arm drift",
+              "control arm underperformed",
+              "control arm outperformed",
+              "control arm did better than expected",
+              "historical control comparison",
+              "regression to the mean",
+              "winner's curse",
+              "subgroup fishing",
+              "cherry-picked subgroup",
+              "post-hoc subgroup",
+              "crossover contamination",
+              "diluted effect",
+              "treatment dilution",
+              "non-adherence",
+              "poor adherence",
+              "dropout",
+              "loss to follow-up",
+              "lost to follow-up",
+              "immature data",
+              "did not replicate",
+              "failed to replicate",
+              "phase 2 signal did not hold",
+              "informative censoring",
+              "technically negative"
+            ],
+            "allOtherCurrentLiteralFieldsPreserved": true
+          }
+        ]
+      }
+    ],
+    "scope": "Explicit alias-field reconciliation in four files. Current audited prose, notes, sources, dates and other code preserved; upstream ordinary-word alias cleanup retained. No object or field-array union resolver used."
+  },
+  "receiptScope": "Exact file receipts, explicit alias decisions and all preserved field names are public. Per-field hashes remain in the private verification capture; whole-graph comparison and the two committed parents reproduce field preservation."
+}

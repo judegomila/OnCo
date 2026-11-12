@@ -1,0 +1,1436 @@
+{
+  "dataCommit": "4f3fa3b55765676ceea5271a2941f5b4c57260bd",
+  "verifiedMergeHead": "076a594161c5fadef62d90154994bd218459a5ce",
+  "documents": [
+    {
+      "key": "hla",
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "title": "HLA and antigen presentation in vaccine design",
+      "bytes": 12261,
+      "sourceSha256": "323dd885091536402eb9e0f5fca537e364692503c6712a18ac71499fa0758aa4",
+      "gitBlob": "2617b962771306ab91076ef79da670f8fecaf002",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3c9fef8c12585af538c9d5a154a704f1d3ec6662b4560812af6f6b16bcaaf8a1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "24dc3c58384dcec70fe05be12d41b067664df09c08dd692c413acd5c66c0a5fa"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b74682d5cb94a54e03fe33d09d925760cded3aa309500413cb767f654b41ca34"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d2835eb6896669783f8567fa1c7f5bc4039562dc31bec7c6ee44dd0c83915dfd"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "399c967aa3ea69deeb6e4b88b682ae29f653b3d8659e1f1c5b209c7068bc0b06"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "826b8c3581e1163e55fe44a46aec7214bc29ed5b9a00dcb3a87d6ba529504bc4"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd179ba98d6f117249069b94036ad3af38107257f23493e6bb3d3217f49fdd29"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ed30639d1f853785065f42c16e24fb2cd2572f5e0b5011591e54bacd024240cf"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "26bcab858284ed2f56dc6f4a916057de36e5b1018423e1a7d1aca7f111a935b0"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bfcd2d9c06545ee35f9315d742e99436c1dff44b31df91f4f2015e4f902c1b08"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "bc76b2cde31ab8d2e80395368ced24ad3ac4cf9e7b866d6dfddb667e76f09074"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "8ab6a546f6b5c6ae47580274390aed632ea7673ffe67cb360f44132f431d9542"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "c770ea1d0924d579280b6a3bd2cff26a674057e0176f2340f90673c187247330"
+        }
+      ],
+      "projectionSha256": "720bef41dcec01bc7e03daba0ad0f2e1b87361e7feba500eaf4020acc86a4c34",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "raw identity, frontmatter and full line diff read against fully read later version; not separately re-read line by line"
+    },
+    {
+      "key": "assays",
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "title": "Measure presentation, binding and response",
+      "bytes": 12776,
+      "sourceSha256": "67e66aca403d2e62ba2c4fd06a791f3194c570d9de17969b21eb4818ae8e0718",
+      "gitBlob": "3882669c7979be9e8c18bcbc0763a74abc7abf88",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "248db218c2016e602f522ec8ba068745c8a16f3d033a930070a973cfa76d949c"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c525127885e927d5fdf44f2258a7f4b6cc19ddb15732b568ccfb6e6b12bfb09c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "aa206c1da48286dacde62741ce9f228ac65fbb926b96c77e1557967af6c8bfc1"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "2cfcaa843045c37cf9914ac2b251de716613d867a3bd4c2c7b1dc13309b5cd04"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "addb690b561d3636f8d7a0b743a1d57470df2715be9b41fd819d80b0d407a24f"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "6a67e86792c8ce65c45b3ee1e9935aea7c825c3f6242786e6bcf5fbc23deeb5a"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "d1d8a128892e76e6ca42544d74bc3e8e1509c0a7fc783c93a3eab564809bda0d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2888988280833817540b7840752448274c7e565c862d0ef93f35828001815fe7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "bdc7646d54c22ced7d9ef2ea8c2e3bfc3950372afaf82ebcd9dac2336159de27"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "feb8ec707f60e4f1b8f9e9fdf0e65d2180e4116ecd2ed6872abc7d2a29c4d357"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "6f7ce93c1aad43b85f346b6f5a3716e4e95c0ea6e6d4bef626804bd22b8da8cc"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "e103b76da1c3f58075ab45acfdd6c8e43b9f57ff00a7c1683147871c562fe8ca"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "c4d72616f3c80116617de247afe967ac3049974f298382376a5c6d5dc67bb11f"
+        }
+      ],
+      "projectionSha256": "8adc947f5cc0d7878962526da5ef506094fa3efa3785eb048128c69e71bf8d3b",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "raw identity, frontmatter and full line diff read against fully read later version; not separately re-read line by line"
+    },
+    {
+      "key": "board",
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "title": "Read a neoantigen design board",
+      "bytes": 14651,
+      "sourceSha256": "e58c992fd4c009739f47e40aa03322ad34d7623e93fde3f9d35dd0105631bc41",
+      "gitBlob": "d9838b62f0d8720c4b31024d0e85311f560fcc04",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b9a3bc20c45b153efac42978a5966a2f68ea094c713696ab377be3202434bcf5"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "66fbc1b4d5813322a4a3a4f8f600bead9c6d1832ffa4d2e87f5222571abd47e7"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bcf5a9ce6ce9b24dd719c3322911c10a0c4c763cba20fa03d42057c727870817"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a4f191f8c1095d9c9fed0d51ede828cb12d18a35a1284feadd8dfc6f83ad8ccf"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0a2952a065e0fb065d075514cf809ec8d47b92e21c320289eec2ac80332aefcf"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "e3d6ad78ecb2b080400ba0f31a9e245bcf8a1adf70887bb30044686edec962ec"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "32567e949cd84ad54886d19e6226998c195e43a4a4afe1ecfe1268a3066d985f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8c7e909f0096707095d061f437cd72c8fdb7758d2159c0c328623c8467e45160"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "40e101c19b99078e0182f613ec006c854b96089e5be36ffee2ad7f104df46a81"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "f44a9e9d9eec289efb6426ce704bf1c8b90992786f710bd84a11a77bacef1951"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "be256cba9c6d4008cb89ba1ab1222913e48c231882d06990260417f937e28cab"
+        }
+      ],
+      "projectionSha256": "fcf61251e261918ae2ea8a6f1a6ebb8d22bbcc6986420ffa450a7e92fbda2c3d",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "raw identity, frontmatter and full line diff read against fully read later version; not separately re-read line by line"
+    },
+    {
+      "key": "hla",
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "title": "HLA and antigen presentation in vaccine design",
+      "bytes": 12222,
+      "sourceSha256": "c0b91c032503c6fdd46bdd9d119a57119018143e682e42eb0c9f22d0ef896440",
+      "gitBlob": "384b36281cc99544909615ef49e1ab1bfcc5b4b0",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6e46348445f03b9172ef3f91cbd7c98c58f8b96a9cfaac7b0174f0c5937c5eed"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "55103130eba859e06fc62c7a2f220000813e11767fb515504b7ccf72d1534eed"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2c6ede5aea42095fd0a108af47200a1a3c0da014188863dcb360e7dc067f91c0"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "1060d55307487d06caa501f95026421f86de50defe114754371d3a931a55a2b6"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "339a647182571bdd19e7cd54a60a699629c79e4fedadea0c33d72c7ced6dfd72"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "15d9f1f286db5bbd48e14309435328b9f798ebac73c962d459a235c0d8aa8b47"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d3676ae8f93f7dface6308086d3010dec518dff9644b6f481d50667070e2de64"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ff1dcac2271280a7ff8477a179819246acc12cc93df00d5e95fae5670d8d3200"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2bed8117d201eec0c829485afb60bfb35226a5f900298d0b614830df8a097e1f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "c1bb350725fae5064d632a50fb49d97dd892a37d3bb72e3eaa1c1f9d3b243b88"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "72926071605d6f240551e42db06e7e8cc7c89d50de0986bb14d0ee59ed1749cc"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "8c635d4c11429b9c3be38f6447f877d4a131bc60a64f5a65261064e42fc7ed15"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "d5d388f5edaf52ddb30cbfe2a40b064dda87de04a246022affceb30f81dbace1"
+        }
+      ],
+      "projectionSha256": "c06fde606340cf5382fa4ed1dba13a3334b676e6349d3f944910da3ddcd9bf44",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "later projection read in full plus raw frontmatter; original all changes read against the full later version"
+    },
+    {
+      "key": "assays",
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "title": "Measure presentation, binding and response",
+      "bytes": 12761,
+      "sourceSha256": "b10447e5c6d5d1d11c0ea93f61f613d1eb36112aed490ce9425433867a5a099b",
+      "gitBlob": "61ff5a8f0aae835a1b985c2b27b9a04d3f8c4ac1",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9068da306cf845966215418d2bc6442e6a0b439724efb42e2699a502a242e63d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3f9861aad9d264956a814a6a0c7741a2bc5341cd4e0334c520ab669d4f0fec4f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e207afafdb4e6b281e92b2e2f044303c191bad8f53a1b8986dc0816779ef1e47"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "888ffe5c82540783ff8ceebbd5d0fe2fdb47bc890c1dee15bcc2ff3173cbafa9"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "719d07dfd3c812b8ee0b50c842270c1eb267abb9498ff12cddde4a0d919269f1"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b3a3a2b15bd684bb2016ddf2bb064ca5f70458bdb8851609a0f3dafeda725ce2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "81e96f946f7063a4c54c320794fcf452b89e1d414a4bef0f1b3ea959ab654caf"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c4b69e62d5527ecc605245888617609407be51054143bae8ef35f533cd64c189"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "7aadffa4eafd4ce7e1c5a49b096438fcabf6e5f0b4da0af8e6c218482516686c"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "5289df6a11bae1eabe6ff26b94775e1c66f47c28842598694870b042d541f432"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "422849910bf151855cc2b1b8b87b07890bca6e55feb8ef0ab74d5515dec55bcb"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "5c6924d97c9194a25975384ac76e0033b65d4cfcbe70e888e30f7d4b5a593a20"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "4aa8b5ad29a05034b7504ffb700b26df9e4efa01150adeb8c3f960996fe481a3"
+        }
+      ],
+      "projectionSha256": "9197c7645a21b73b15e326e5f656dc8ef75405e340972d2f4e673644687a6051",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "later projection read in full plus raw frontmatter; original all changes read against the full later version"
+    },
+    {
+      "key": "board",
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "title": "Read a neoantigen design board",
+      "bytes": 14569,
+      "sourceSha256": "2b748737d241458eefea2c1a84757a8e83f495977cb79fd2fb95d31e4215b7f8",
+      "gitBlob": "38ad1b0fbd63ed882bcc2c694e8bcd96c7a1cbfe",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2d5fdafa6216486b167f1c7c4f4217c969f0ef8c0b9f43369da17096d635a719"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a20c4f083a50b0700c0a56e8e5c4f96d31123d1ea8b39c344702fc1ca4be4bb1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "403653145a88d533d3e638fc9cdfa57b8ba3a7e7abce85026863a14e3bcc09c7"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "eafd51c4efed33bb91b1f08063a75d3f640b7aa5b26f19646426451525f4399a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9892d5a5e880e600d98acfca578f0e345f41a8ffc6c67c4660186f7e6736b982"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "d87deb4ef4fabb65e1bfc686abbc7770faec2d5bdc56857ad4612d6f9ea65a72"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "7226b408782402f4318a414d1379f85db72d646cec7ea6bfdb120ecb585cdab0"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "30006ef7bb2ca9dbfcfc7e9ec4a79d9e58087dea2dd1ffa41cff8d958064b7c8"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "25c0315826e5e269ad05b461387d9eaaa37e1579dc0d76a439e6592d3ab39389"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "723ae8b94266cb91d97635f547ab16565d1635fde9349043f074f20aaa2b207b"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "212b39c27e56be7bdee010260fdb987b4169bb062e88f741cd61660d2a064bf8"
+        }
+      ],
+      "projectionSha256": "9ab5da98568ce7d74b8af08f6f1297b0abc9ea190d68fa55ea8f30b0dd1c1fcd",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readingDepth": "later projection read in full plus raw frontmatter; original all changes read against the full later version"
+    }
+  ],
+  "readingMode": {
+    "hla": "two routing/filename changes only",
+    "assays": "routing/filename sentence and relocated image URL only",
+    "board": "agretopicity paragraphs substantively reworded; both versions read separately in diff, plus routing change"
+  },
+  "sourceFirstFreeze": {
+    "sha256": "a191a377c0e8ccb57cd6afefff29c438adf396e2385606c81211407eebbeccc7",
+    "bytes": 37598,
+    "rows": 102,
+    "teachingByPin": {
+      "original": 88,
+      "later": 87
+    },
+    "nonCredit": 14,
+    "ownerFieldsOpenedBeforeFreeze": false
+  },
+  "sectionDispositions": [
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "3c9fef8c12585af538c9d5a154a704f1d3ec6662b4560812af6f6b16bcaaf8a1",
+      "requirementIds": [
+        "hla-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "24dc3c58384dcec70fe05be12d41b067664df09c08dd692c413acd5c66c0a5fa",
+      "requirementIds": [
+        "hla-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b74682d5cb94a54e03fe33d09d925760cded3aa309500413cb767f654b41ca34",
+      "requirementIds": [
+        "hla-02",
+        "hla-03",
+        "hla-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "d2835eb6896669783f8567fa1c7f5bc4039562dc31bec7c6ee44dd0c83915dfd",
+      "requirementIds": [
+        "hla-05",
+        "hla-06",
+        "hla-07"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "399c967aa3ea69deeb6e4b88b682ae29f653b3d8659e1f1c5b209c7068bc0b06",
+      "requirementIds": [
+        "hla-08",
+        "hla-09",
+        "hla-10",
+        "hla-11",
+        "hla-12"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "826b8c3581e1163e55fe44a46aec7214bc29ed5b9a00dcb3a87d6ba529504bc4",
+      "requirementIds": [
+        "hla-13",
+        "hla-14",
+        "hla-15",
+        "hla-16"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "bd179ba98d6f117249069b94036ad3af38107257f23493e6bb3d3217f49fdd29",
+      "requirementIds": [
+        "hla-17"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ed30639d1f853785065f42c16e24fb2cd2572f5e0b5011591e54bacd024240cf",
+      "requirementIds": [
+        "hla-18",
+        "hla-19"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "26bcab858284ed2f56dc6f4a916057de36e5b1018423e1a7d1aca7f111a935b0",
+      "requirementIds": [
+        "hla-20"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "bfcd2d9c06545ee35f9315d742e99436c1dff44b31df91f4f2015e4f902c1b08",
+      "requirementIds": [
+        "hla-21"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "bc76b2cde31ab8d2e80395368ced24ad3ac4cf9e7b866d6dfddb667e76f09074",
+      "requirementIds": [
+        "hla-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "8ab6a546f6b5c6ae47580274390aed632ea7673ffe67cb360f44132f431d9542",
+      "requirementIds": [
+        "hla-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "c770ea1d0924d579280b6a3bd2cff26a674057e0176f2340f90673c187247330",
+      "requirementIds": [
+        "hla-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "248db218c2016e602f522ec8ba068745c8a16f3d033a930070a973cfa76d949c",
+      "requirementIds": [
+        "assays-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "c525127885e927d5fdf44f2258a7f4b6cc19ddb15732b568ccfb6e6b12bfb09c",
+      "requirementIds": [
+        "assays-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "aa206c1da48286dacde62741ce9f228ac65fbb926b96c77e1557967af6c8bfc1",
+      "requirementIds": [
+        "assays-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "2cfcaa843045c37cf9914ac2b251de716613d867a3bd4c2c7b1dc13309b5cd04",
+      "requirementIds": [
+        "assays-03",
+        "assays-04",
+        "assays-05",
+        "assays-06",
+        "assays-07",
+        "assays-31"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "addb690b561d3636f8d7a0b743a1d57470df2715be9b41fd819d80b0d407a24f",
+      "requirementIds": [
+        "assays-08",
+        "assays-09",
+        "assays-10"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "6a67e86792c8ce65c45b3ee1e9935aea7c825c3f6242786e6bcf5fbc23deeb5a",
+      "requirementIds": [
+        "assays-11",
+        "assays-12",
+        "assays-13",
+        "assays-14"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "d1d8a128892e76e6ca42544d74bc3e8e1509c0a7fc783c93a3eab564809bda0d",
+      "requirementIds": [
+        "assays-15",
+        "assays-16",
+        "assays-17",
+        "assays-18",
+        "assays-19",
+        "assays-20",
+        "assays-21",
+        "assays-22"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "2888988280833817540b7840752448274c7e565c862d0ef93f35828001815fe7",
+      "requirementIds": [
+        "assays-23",
+        "assays-24",
+        "assays-25",
+        "assays-26",
+        "assays-27"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "bdc7646d54c22ced7d9ef2ea8c2e3bfc3950372afaf82ebcd9dac2336159de27",
+      "requirementIds": [
+        "assays-28",
+        "assays-29"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "feb8ec707f60e4f1b8f9e9fdf0e65d2180e4116ecd2ed6872abc7d2a29c4d357",
+      "requirementIds": [
+        "assays-30"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "6f7ce93c1aad43b85f346b6f5a3716e4e95c0ea6e6d4bef626804bd22b8da8cc",
+      "requirementIds": [
+        "assays-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "e103b76da1c3f58075ab45acfdd6c8e43b9f57ff00a7c1683147871c562fe8ca",
+      "requirementIds": [
+        "assays-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/03-immunopeptidomics.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "c4d72616f3c80116617de247afe967ac3049974f298382376a5c6d5dc67bb11f",
+      "requirementIds": [
+        "assays-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "b9a3bc20c45b153efac42978a5966a2f68ea094c713696ab377be3202434bcf5",
+      "requirementIds": [
+        "board-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "66fbc1b4d5813322a4a3a4f8f600bead9c6d1832ffa4d2e87f5222571abd47e7",
+      "requirementIds": [
+        "board-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bcf5a9ce6ce9b24dd719c3322911c10a0c4c763cba20fa03d42057c727870817",
+      "requirementIds": [
+        "board-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "a4f191f8c1095d9c9fed0d51ede828cb12d18a35a1284feadd8dfc6f83ad8ccf",
+      "requirementIds": [
+        "board-01",
+        "board-02",
+        "board-03",
+        "board-04",
+        "board-05"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "0a2952a065e0fb065d075514cf809ec8d47b92e21c320289eec2ac80332aefcf",
+      "requirementIds": [
+        "board-06",
+        "board-07",
+        "board-08",
+        "board-09",
+        "board-10",
+        "board-11",
+        "board-12",
+        "board-13",
+        "board-14",
+        "board-15",
+        "board-16",
+        "board-17",
+        "board-36"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "e3d6ad78ecb2b080400ba0f31a9e245bcf8a1adf70887bb30044686edec962ec",
+      "requirementIds": [
+        "board-18",
+        "board-19",
+        "board-20",
+        "board-21",
+        "board-22",
+        "board-23",
+        "board-24",
+        "board-25",
+        "board-26",
+        "board-27",
+        "board-28"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "32567e949cd84ad54886d19e6226998c195e43a4a4afe1ecfe1268a3066d985f",
+      "requirementIds": [
+        "board-29",
+        "board-30",
+        "board-31",
+        "board-32",
+        "board-33"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "8c7e909f0096707095d061f437cd72c8fdb7758d2159c0c328623c8467e45160",
+      "requirementIds": [
+        "board-34",
+        "board-35"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "40e101c19b99078e0182f613ec006c854b96089e5be36ffee2ad7f104df46a81",
+      "requirementIds": [
+        "board-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "f44a9e9d9eec289efb6426ce704bf1c8b90992786f710bd84a11a77bacef1951",
+      "requirementIds": [
+        "board-scope-05"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/04-how-to-read-a-neoantigen-design-board.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "be256cba9c6d4008cb89ba1ab1222913e48c231882d06990260417f937e28cab",
+      "requirementIds": [
+        "board-scope-06"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "6e46348445f03b9172ef3f91cbd7c98c58f8b96a9cfaac7b0174f0c5937c5eed",
+      "requirementIds": [
+        "hla-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "55103130eba859e06fc62c7a2f220000813e11767fb515504b7ccf72d1534eed",
+      "requirementIds": [
+        "hla-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "2c6ede5aea42095fd0a108af47200a1a3c0da014188863dcb360e7dc067f91c0",
+      "requirementIds": [
+        "hla-02",
+        "hla-03",
+        "hla-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "1060d55307487d06caa501f95026421f86de50defe114754371d3a931a55a2b6",
+      "requirementIds": [
+        "hla-05",
+        "hla-06",
+        "hla-07"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "339a647182571bdd19e7cd54a60a699629c79e4fedadea0c33d72c7ced6dfd72",
+      "requirementIds": [
+        "hla-08",
+        "hla-09",
+        "hla-10",
+        "hla-11",
+        "hla-12"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "15d9f1f286db5bbd48e14309435328b9f798ebac73c962d459a235c0d8aa8b47",
+      "requirementIds": [
+        "hla-13",
+        "hla-14",
+        "hla-15",
+        "hla-16"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "d3676ae8f93f7dface6308086d3010dec518dff9644b6f481d50667070e2de64",
+      "requirementIds": [
+        "hla-17"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ff1dcac2271280a7ff8477a179819246acc12cc93df00d5e95fae5670d8d3200",
+      "requirementIds": [
+        "hla-18",
+        "hla-19"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "2bed8117d201eec0c829485afb60bfb35226a5f900298d0b614830df8a097e1f",
+      "requirementIds": [
+        "hla-20"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "c1bb350725fae5064d632a50fb49d97dd892a37d3bb72e3eaa1c1f9d3b243b88",
+      "requirementIds": [
+        "hla-21"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "72926071605d6f240551e42db06e7e8cc7c89d50de0986bb14d0ee59ed1749cc",
+      "requirementIds": [
+        "hla-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "8c635d4c11429b9c3be38f6447f877d4a131bc60a64f5a65261064e42fc7ed15",
+      "requirementIds": [
+        "hla-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "d5d388f5edaf52ddb30cbfe2a40b064dda87de04a246022affceb30f81dbace1",
+      "requirementIds": [
+        "hla-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "9068da306cf845966215418d2bc6442e6a0b439724efb42e2699a502a242e63d",
+      "requirementIds": [
+        "assays-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "3f9861aad9d264956a814a6a0c7741a2bc5341cd4e0334c520ab669d4f0fec4f",
+      "requirementIds": [
+        "assays-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e207afafdb4e6b281e92b2e2f044303c191bad8f53a1b8986dc0816779ef1e47",
+      "requirementIds": [
+        "assays-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "888ffe5c82540783ff8ceebbd5d0fe2fdb47bc890c1dee15bcc2ff3173cbafa9",
+      "requirementIds": [
+        "assays-03",
+        "assays-04",
+        "assays-05",
+        "assays-06",
+        "assays-07",
+        "assays-31"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "719d07dfd3c812b8ee0b50c842270c1eb267abb9498ff12cddde4a0d919269f1",
+      "requirementIds": [
+        "assays-08",
+        "assays-09",
+        "assays-10"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "b3a3a2b15bd684bb2016ddf2bb064ca5f70458bdb8851609a0f3dafeda725ce2",
+      "requirementIds": [
+        "assays-11",
+        "assays-12",
+        "assays-13",
+        "assays-14"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "81e96f946f7063a4c54c320794fcf452b89e1d414a4bef0f1b3ea959ab654caf",
+      "requirementIds": [
+        "assays-15",
+        "assays-16",
+        "assays-17",
+        "assays-18",
+        "assays-19",
+        "assays-20",
+        "assays-21",
+        "assays-22"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "c4b69e62d5527ecc605245888617609407be51054143bae8ef35f533cd64c189",
+      "requirementIds": [
+        "assays-23",
+        "assays-24",
+        "assays-25",
+        "assays-26",
+        "assays-27"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "7aadffa4eafd4ce7e1c5a49b096438fcabf6e5f0b4da0af8e6c218482516686c",
+      "requirementIds": [
+        "assays-28",
+        "assays-29"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "5289df6a11bae1eabe6ff26b94775e1c66f47c28842598694870b042d541f432",
+      "requirementIds": [
+        "assays-30"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "422849910bf151855cc2b1b8b87b07890bca6e55feb8ef0ab74d5515dec55bcb",
+      "requirementIds": [
+        "assays-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "5c6924d97c9194a25975384ac76e0033b65d4cfcbe70e888e30f7d4b5a593a20",
+      "requirementIds": [
+        "assays-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/05-measuring-presentation-and-response.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "4aa8b5ad29a05034b7504ffb700b26df9e4efa01150adeb8c3f960996fe481a3",
+      "requirementIds": [
+        "assays-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "2d5fdafa6216486b167f1c7c4f4217c969f0ef8c0b9f43369da17096d635a719",
+      "requirementIds": [
+        "board-scope-01"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a20c4f083a50b0700c0a56e8e5c4f96d31123d1ea8b39c344702fc1ca4be4bb1",
+      "requirementIds": [
+        "board-scope-02"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "403653145a88d533d3e638fc9cdfa57b8ba3a7e7abce85026863a14e3bcc09c7",
+      "requirementIds": [
+        "board-scope-03"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "eafd51c4efed33bb91b1f08063a75d3f640b7aa5b26f19646426451525f4399a",
+      "requirementIds": [
+        "board-01",
+        "board-02",
+        "board-03",
+        "board-04",
+        "board-05"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9892d5a5e880e600d98acfca578f0e345f41a8ffc6c67c4660186f7e6736b982",
+      "requirementIds": [
+        "board-06",
+        "board-07",
+        "board-08",
+        "board-09",
+        "board-10",
+        "board-11",
+        "board-12",
+        "board-13",
+        "board-14",
+        "board-15",
+        "board-16",
+        "board-17"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "d87deb4ef4fabb65e1bfc686abbc7770faec2d5bdc56857ad4612d6f9ea65a72",
+      "requirementIds": [
+        "board-18",
+        "board-19",
+        "board-20",
+        "board-21",
+        "board-22",
+        "board-23",
+        "board-24",
+        "board-25",
+        "board-26",
+        "board-27",
+        "board-28"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "7226b408782402f4318a414d1379f85db72d646cec7ea6bfdb120ecb585cdab0",
+      "requirementIds": [
+        "board-29",
+        "board-30",
+        "board-31",
+        "board-32",
+        "board-33"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "30006ef7bb2ca9dbfcfc7e9ec4a79d9e58087dea2dd1ffa41cff8d958064b7c8",
+      "requirementIds": [
+        "board-34",
+        "board-35"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "25c0315826e5e269ad05b461387d9eaaa37e1579dc0d76a439e6592d3ab39389",
+      "requirementIds": [
+        "board-scope-04"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "723ae8b94266cb91d97635f547ab16565d1635fde9349043f074f20aaa2b207b",
+      "requirementIds": [
+        "board-scope-05"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/04-reading-a-design-board.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "212b39c27e56be7bdee010260fdb987b4169bb062e88f741cd61660d2a064bf8",
+      "requirementIds": [
+        "board-scope-06"
+      ],
+      "disposition": "Full later section plus exact original-version reconciliation; teaching and recap/source scope remain separate."
+    }
+  ],
+  "sourceBodiesPublished": false,
+  "sourceVersions": 6,
+  "sectionSignatures": 74
+}

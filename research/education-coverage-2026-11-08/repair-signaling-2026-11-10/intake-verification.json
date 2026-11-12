@@ -1,0 +1,4249 @@
+{
+  "sourceIdentities": [
+    {
+      "sourceId": "10206645",
+      "title": "A presenilin-1-dependent gamma-secretase-like protease mediates release of Notch intracellular domain.",
+      "authors": "De Strooper B, Annaert W, Cupers P, Saftig P, Craessaerts K, Mumm JS, Schroeter EH, Schrijvers V, Wolfe MS, Ray WJ, Goate A, Kopan R.",
+      "year": "1999",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "10549283",
+      "title": "Brca1 controls homology-directed DNA repair.",
+      "authors": "Moynahan ME, Chiu JW, Koller BH, Jasin M.",
+      "year": "1999",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "10618369",
+      "title": "Structural interactions of fibroblast growth factor receptor with its ligands.",
+      "authors": "Stauber DJ, DiGabriele AD, Hendrickson WA.",
+      "year": "2000",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "10880452",
+      "title": "Sister chromatid gene conversion is a prominent double-strand break repair pathway in mammalian cells.",
+      "authors": "Johnson RD, Jasin M.",
+      "year": "2000",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "10882062",
+      "title": "A ligand-induced extracellular cleavage regulates gamma-secretase-like proteolytic activation of Notch1.",
+      "authors": "Mumm JS, Schroeter EH, Saxena MT, Griesemer A, Tian X, Pan DJ, Ray WJ, Kopan R.",
+      "year": "2000",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "11029007",
+      "title": "LDL-receptor-related proteins in Wnt signal transduction.",
+      "authors": "Tamai K, Semenov M, Kato Y, Spokony R, Liu C, Katsuyama Y, Hess F, Saint-Jeannet JP, He X.",
+      "year": "2000",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "11248153",
+      "title": "Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2.",
+      "authors": "Slamon DJ, Leyland-Jones B, Shak S, Fuchs H, Paton V, Bajamonde A, Fleming T, Eiermann W, Wolter J, Pegram M, Baselga J, Norton L.",
+      "year": "2001",
+      "publicationTypes": [
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "11834740",
+      "title": "Wnt signaling controls the phosphorylation status of beta-catenin.",
+      "authors": "van Noort M, Meeldijk J, van der Zee R, Destree O, Clevers H.",
+      "year": "2002",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "11955436",
+      "title": "Control of beta-catenin phosphorylation/degradation by a dual-kinase mechanism.",
+      "authors": "Liu C, Li Y, Semenov M, Han C, Baeg GH, Tan Y, Zhang Z, Lin X, He X.",
+      "year": "2002",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12068308",
+      "title": "Mutations of the BRAF gene in human cancer.",
+      "authors": "Davies H, Bignell GR, Cox C, Stephens P, Edkins S, Clegg S, Teague J, Woffendin H, Garnett MJ, Bottomley W, Davis N, Dicks E, Ewing R, Floyd Y, Gray K, Hall S, Hawes R, Hughes J, Kosmidou V, Menzies A, Mould C, Parker A, Stevens C, Watt S, Hooper S, Wilson R, Jayatilake H, Gusterson BA, Cooper C, Shipley J, Hargrave D, Pritchard-Jones K, Maitland N, Chenevix-Trench G, Riggins GJ, Bigner DD, Palmieri G, Cossu A, Flanagan A, Nicholson A, Ho JW, Leung SY, Yuen ST, Weber BL, Seigler HF, Darrow TL, Paterson H, Marais R, Marshall CJ, Wooster R, Stratton MR, Futreal PA.",
+      "year": "2002",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12150926",
+      "title": "Raptor, a binding partner of target of rapamycin (TOR), mediates TOR action.",
+      "authors": "Hara K, Maruki Y, Long X, Yoshino K, Oshiro N, Hidayat S, Tokunaga C, Avruch J, Yonezawa K.",
+      "year": "2002",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12172553",
+      "title": "TSC2 is phosphorylated and inhibited by Akt and suppresses mTOR signalling.",
+      "authors": "Inoki K, Li Y, Zhu T, Wu J, Guan KL.",
+      "year": "2002",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12543779",
+      "title": "BRD4-NUT fusion oncogene: a novel mechanism in aggressive carcinoma.",
+      "authors": "French CA, Miyoshi I, Kubonishi I, Grier HE, Perez-Atayde AR, Fletcher JA.",
+      "year": "2003",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12791985",
+      "title": "Sensing DNA damage through ATRIP recognition of RPA-ssDNA complexes.",
+      "authors": "Zou L, Elledge SJ.",
+      "year": "2003",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "12869586",
+      "title": "Rheb GTPase is a direct target of TSC2 GAP activity and regulates mTOR signaling.",
+      "authors": "Inoki K, Li Y, Xu T, Guan KL.",
+      "year": "2003",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "1322500",
+      "title": "Raf-1 activates MAP kinase-kinase.",
+      "authors": "Kyriakis JM, App H, Zhang XF, Banerjee P, Brautigan DL, Rapp UR, Avruch J.",
+      "year": "1992",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15249583",
+      "title": "The TSC1-2 tumor suppressor controls insulin-PI3K signaling via regulation of IRS proteins.",
+      "authors": "Harrington LS, Findlay GM, Gray A, Tolkacheva T, Wigfield S, Rebholz H, Barnett J, Leslie NR, Cheng S, Shepherd PR, Gout I, Downes CP, Lamb RF.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15282312",
+      "title": "Oxidative stress sensor Keap1 functions as an adaptor for Cul3-based E3 ligase to regulate proteasomal degradation of Nrf2.",
+      "authors": "Kobayashi A, Kang MI, Okawa H, Ohtsuji M, Zenke Y, Chiba T, Igarashi K, Yamamoto M.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15472075",
+      "title": "Activating mutations of NOTCH1 in human T cell acute lymphoblastic leukemia.",
+      "authors": "Weng AP, Ferrando AA, Lee W, Morris JP, Silverman LB, Sanchez-Irizarry C, Blacklow SC, Look AT, Aster JC.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15572695",
+      "title": "Keap1 is a redox-regulated substrate adaptor protein for a Cul3-dependent ubiquitin ligase complex.",
+      "authors": "Zhang DD, Lo SC, Cross JV, Templeton DJ, Hannink M.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15718470",
+      "title": "Phosphorylation and regulation of Akt/PKB by the rictor-mTOR complex.",
+      "authors": "Sarbassov DD, Guertin DA, Ali SM, Sabatini DM.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "15829967",
+      "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy.",
+      "authors": "Farmer H, McCabe N, Lord CJ, Tutt AN, Johnson DA, Richardson TB, Santarosa M, Dillon KJ, Hickson I, Knights C, Martin NM, Jackson SP, Smith GC, Ashworth A.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "16109377",
+      "title": "Recruitment of P-TEFb for stimulation of transcriptional elongation by the bromodomain protein Brd4.",
+      "authors": "Yang Z, Yik JH, Chen R, He N, Jang MK, Ozato K, Zhou Q.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "16452206",
+      "title": "mTOR inhibition induces upstream receptor tyrosine kinase signaling and activates Akt.",
+      "authors": "O'Reilly KE, Rojo F, She QB, Solit D, Mills GB, Smith D, Lane H, Hofmann F, Hicklin DJ, Ludwig DL, Baselga J, Rosen N.",
+      "year": "2006",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "16777603",
+      "title": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+      "authors": "Zhang X, Gureasko J, Shen K, Cole PA, Kuriyan J.",
+      "year": "2006",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "17020408",
+      "title": "Dysfunctional KEAP1-NRF2 interaction in non-small-cell lung cancer.",
+      "authors": "Singh A, Misra V, Thimmulappa RK, Lee H, Ames S, Hoque MO, Herman JG, Baylin SB, Sidransky D, Gabrielson E, Brock MV, Biswal S.",
+      "year": "2006",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "17136094",
+      "title": "Oncogene-induced senescence is a DNA damage response triggered by DNA hyper-replication.",
+      "authors": "Di Micco R, Fumagalli M, Cicalese A, Piccinin S, Gasparini P, Luise C, Schurra C, Garre' M, Nuciforo PG, Bensimon A, Maestro R, Pelicci PG, d'Adda di Fagagna F, d'Adda di Fagagna F.",
+      "year": "2006",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "17141155",
+      "title": "Monounsaturated fatty acid modification of Wnt protein: its role in Wnt secretion.",
+      "authors": "Takada R, Satomi Y, Kurata T, Ueno N, Norioka S, Kondoh H, Takao T, Takada S.",
+      "year": "2006",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "18584027",
+      "title": "Alternative-NHEJ is a mechanistically distinct pathway of mammalian chromosome break repair.",
+      "authors": "Bennardo N, Cheng A, Huang N, Stark JM.",
+      "year": "2008",
+      "publicationTypes": [
+        "Comparative Study",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "18716624",
+      "title": "Modelling Myc inhibition as a cancer therapy.",
+      "authors": "Soucek L, Whitfield J, Martins CP, Finch AJ, Murphy DJ, Sodir NM, Karnezis AN, Swigart LB, Nasi S, Evan GI.",
+      "year": "2008",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "19258318",
+      "title": "ULK1.ATG13.FIP200 complex mediates mTOR signaling and is essential for autophagy.",
+      "authors": "Ganley IG, Lam du H, Wang J, Ding X, Chen S, Jiang X.",
+      "year": "2009",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "19359544",
+      "title": "Development of a second-generation antiandrogen for treatment of advanced prostate cancer.",
+      "authors": "Tran C, Ouk S, Clegg NJ, Chen Y, Watson PA, Arora V, Wongvipat J, Smith-Jones PM, Yoo D, Kwon A, Wasielewska T, Welsbie D, Chen CD, Higano CS, Beer TM, Hung DT, Scher HI, Jung ME, Sawyers CL.",
+      "year": "2009",
+      "publicationTypes": [
+        "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "2006410",
+      "title": "Max: a helix-loop-helix zipper protein that forms a sequence-specific DNA-binding complex with Myc.",
+      "authors": "Blackwood EM, Eisenman RN.",
+      "year": "1991",
+      "publicationTypes": [
+        "Comparative Study",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "20179705",
+      "title": "RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF.",
+      "authors": "Poulikakos PI, Zhang C, Bollag G, Shokat KM, Rosen N.",
+      "year": "2010",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "20729832",
+      "title": "Purified human BRCA2 stimulates RAD51-mediated recombination.",
+      "authors": "Jensen RB, Carreira A, Kowalczykowski SC.",
+      "year": "2010",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "20871596",
+      "title": "Selective inhibition of BET bromodomains.",
+      "authors": "Filippakopoulos P, Qi J, Picaud S, Shen Y, Smith WB, Fedorov O, Morse EM, Keates T, Hickman TT, Felletar I, Philpott M, Munro S, McKeown MR, Wang Y, Christie AL, West N, Cameron MJ, Schwartz B, Heightman TD, La Thangue N, French CA, Wiest O, Kung AL, Knapp S, Bradner JE.",
+      "year": "2010",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "21529715",
+      "title": "Nucleotide deficiency promotes genomic instability in early stages of cancer development.",
+      "authors": "Bester AC, Roniger M, Oren YS, Im MM, Sarni D, Chaoat M, Bensimon A, Zamir G, Shewach DS, Kerem B.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "21701511",
+      "title": "DNA interstrand crosslink repair and cancer.",
+      "authors": "Deans AJ, West SC.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "review",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "21734707",
+      "title": "Oncogene-induced Nrf2 transcription promotes ROS detoxification and tumorigenesis.",
+      "authors": "DeNicola GM, Karreth FA, Humpton TJ, Gopinathan A, Wei C, Frese K, Mangal D, Yu KH, Yeo CJ, Calhoun ES, Scrimieri F, Winter JM, Hruban RH, Iacobuzio-Donahue C, Kern SE, Blair IA, Tuveson DA.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "21798897",
+      "title": "Exome sequencing of head and neck squamous cell carcinoma reveals inactivating mutations in NOTCH1.",
+      "authors": "Agrawal N, Frederick MJ, Pickering CR, Bettegowda C, Chang K, Li RJ, Fakhry C, Xie TX, Zhang J, Wang J, Zhang N, El-Naggar AK, Jasser SA, Weinstein JN, Treviño L, Drummond JA, Muzny DM, Wu Y, Wood LD, Hruban RH, Westra WH, Koch WM, Califano JA, Gibbs RA, Sidransky D, Vogelstein B, Velculescu VE, Papadopoulos N, Wheeler DA, Kinzler KW, Myers JN.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "21889194",
+      "title": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc.",
+      "authors": "Delmore JE, Issa GC, Lemieux ME, Rahl PB, Shi J, Jacobs HM, Kastritis E, Gilpatrick T, Paranal RM, Qi J, Chesi M, Schinzel AC, McKeown MR, Heffernan TP, Vakoc CR, Bergsagel PL, Ghobrial IM, Richardson PG, Young RA, Hahn WC, Anderson KC, Kung AL, Bradner JE, Mitsiades CS.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "22144499",
+      "title": "Pathology of breast and ovarian cancers among BRCA1 and BRCA2 mutation carriers: results from the Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA).",
+      "authors": "Mavaddat N, Barrowdale D, Andrulis IL, Domchek SM, Eccles D, Nevanlinna H, Ramus SJ, Spurdle A, Robson M, Sherman M, Mulligan AM, Couch FJ, Engel C, McGuffog L, Healey S, Sinilnikova OM, Southey MC, Terry MB, Goldgar D, O'Malley F, John EM, Janavicius R, Tihomirova L, Hansen TV, Nielsen FC, Osorio A, Stavropoulou A, Benítez J, Manoukian S, Peissel B, Barile M, Volorio S, Pasini B, Dolcetti R, Putignano AL, Ottini L, Radice P, Hamann U, Rashid MU, Hogervorst FB, Kriege M, van der Luijt RB, HEBON, Peock S, Frost D, Evans DG, Brewer C, Walker L, Rogers MT, Side LE, Houghton C, EMBRACE, Weaver J, Godwin AK, Schmutzler RK, Wappenschmidt B, Meindl A, Kast K, Arnold N, Niederacher D, Sutter C, Deissler H, Gadzicki D, Preisler-Adams S, Varon-Mateeva R, Schönbuchner I, Gevensleben H, Stoppa-Lyonnet D, Belotti M, Barjhoux L, GEMO Study Collaborators, Isaacs C, Peshkin BN, Caldes T, de la Hoya M, Cañadas C, Heikkinen T, Heikkilä P, Aittomäki K, Blanco I, Lazaro C, Brunet J, Agnarsson BA, Arason A, Barkardottir RB, Dumont M, Simard J, Montagna M, Agata S, D'Andrea E, Yan M, Fox S, kConFab Investigators, Rebbeck TR, Rubinstein W, Tung N, Garber JE, Wang X, Fredericksen Z, Pankratz VS, Lindor NM, Szabo C, Offit K, Sakr R, Gaudet MM, Singer CF, Tea MK, Rappaport C, Mai PL, Greene MH, Sokolenko A, Imyanitov E, Toland AE, Senter L, Sweet K, Thomassen M, Gerdes AM, Kruse T, Caligo M, Aretini P, Rantala J, von Wachenfeld A, Henriksson K, SWE-BRCA Collaborators, Steele L, Neuhausen SL, Nussbaum R, Beattie M, Odunsi K, Sucheston L, Gayther SA, Nathanson K, Gross J, Walsh C, Karlan B, Chenevix-Trench G, Easton DF, Antoniou AC, Consortium of Investigators of Modifiers of BRCA1/2.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "22430491",
+      "title": "MYC pathway activation in triple-negative breast cancer is synthetic lethal with CDK inhibition.",
+      "authors": "Horiuchi D, Kusdra L, Huskey NE, Chandriani S, Lenburg ME, Gonzalez-Angulo AM, Creasman KJ, Bazarov AV, Smyth JW, Davis SE, Yaswen P, Mills GB, Esserman LJ, Goga A.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "22576213",
+      "title": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents.",
+      "authors": "Birkbak NJ, Wang ZC, Kim JY, Eklund AC, Li Q, Tian R, Bowman-Colin C, Li Y, Greene-Colozzi A, Iglehart JD, Tung N, Ryan PD, Garber JE, Silver DP, Szallasi Z, Richardson AL.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "22933060",
+      "title": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation.",
+      "authors": "Popova T, Manié E, Rieunier G, Caux-Moncoutier V, Tirapo C, Dubois T, Delattre O, Sigal-Zafrani B, Bollet M, Longy M, Houdayer C, Sastre-Garau X, Vincent-Salomon A, Stoppa-Lyonnet D, Stern MH.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "23047548",
+      "title": "Patterns of genomic loss of heterozygosity predict homologous recombination repair defects in epithelial ovarian cancer.",
+      "authors": "Abkevich V, Timms KM, Hennessy BT, Potter J, Carey MS, Meyer LA, Smith-McCune K, Broaddus R, Lu KH, Chen J, Tran TV, Williams D, Iliev D, Jammulapati S, FitzGerald LM, Krivak T, DeLoia JA, Gutin A, Mills GB, Lanchbury JS.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "23852170",
+      "title": "An APOBEC cytidine deaminase mutagenesis pattern is widespread in human cancers.",
+      "authors": "Roberts SA, Lawrence MS, Klimczak LJ, Grimm SA, Fargo D, Stojanov P, Kiezun A, Kryukov GV, Carter SL, Saksena G, Harris S, Shah RR, Resnick MA, Getz G, Gordenin DA.",
+      "year": "2013",
+      "publicationTypes": [
+        "Research Support, N.I.H., Intramural",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "23945592",
+      "title": "Signatures of mutational processes in human cancer.",
+      "authors": "Alexandrov LB, Nik-Zainal S, Wedge DC, Aparicio SA, Behjati S, Biankin AV, Bignell GR, Bolli N, Borg A, Børresen-Dale AL, Boyault S, Burkhardt B, Butler AP, Caldas C, Davies HR, Desmedt C, Eils R, Eyfjörd JE, Foekens JA, Greaves M, Hosoda F, Hutter B, Ilicic T, Imbeaud S, Imielinski M, Jäger N, Jones DT, Jones D, Knappskog S, Kool M, Lakhani SR, López-Otín C, Martin S, Munshi NC, Nakamura H, Northcott PA, Pajic M, Papaemmanuil E, Paradiso A, Pearson JV, Puente XS, Raine K, Ramakrishna M, Richardson AL, Richter J, Rosenstiel P, Schlesner M, Schumacher TN, Span PN, Teague JW, Totoki Y, Tutt AN, Valdés-Mas R, van Buuren MM, van 't Veer L, Vincent-Salomon A, Waddell N, Yates LR, Australian Pancreatic Cancer Genome Initiative, ICGC Breast Cancer Consortium, ICGC MMML-Seq Consortium, ICGC PedBrain, Zucman-Rossi J, Futreal PA, McDermott U, Lichter P, Meyerson M, Grimmond SM, Siebert R, Campo E, Shibata T, Pfister SM, Campbell PJ, Stratton MR.",
+      "year": "2013",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "25043028",
+      "title": "Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis.",
+      "authors": "Sabò A, Kress TR, Pelizzola M, de Pretis S, Gorski MM, Tesi A, Morelli MJ, Bora P, Doni M, Verrecchia A, Tonelli C, Fagà G, Bianchi V, Ronchi A, Low D, Müller H, Guccione E, Campaner S, Amati B.",
+      "year": "2014",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "25643323",
+      "title": "Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ.",
+      "authors": "Kent T, Chandramouly G, McDevitt SM, Ozdemir AY, Pomerantz RT.",
+      "year": "2015",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "26711467",
+      "title": "Application of Mass Spectrometry Profiling to Establish Brusatol as an Inhibitor of Global Protein Synthesis.",
+      "authors": "Vartanian S, Ma TP, Lee J, Haverty PM, Kirkpatrick DS, Yu K, Stokoe D.",
+      "year": "2016",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "26735014",
+      "title": "Response and resistance to BET bromodomain inhibitors in triple-negative breast cancer.",
+      "authors": "Shu S, Lin CY, He HH, Witwicki RM, Tabassum DP, Roberts JM, Janiszewska M, Huh SJ, Liang Y, Ryan J, Doherty E, Mohammed H, Guo H, Stover DG, Ekram MB, Brown J, D'Santos C, Krop IE, Dillon D, McKeown M, Ott C, Qi J, Ni M, Rao PK, Duarte M, Wu SY, Chiang CM, Anders L, Young RA, Winer E, Letai A, Barry WT, Carroll JS, Long H, Brown M, Liu XS, Meyer CA, Bradner JE, Polyak K.",
+      "year": "2016",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "26957554",
+      "title": "Homologous Recombination Deficiency (HRD) Score Predicts Response to Platinum-Containing Neoadjuvant Chemotherapy in Patients with Triple-Negative Breast Cancer.",
+      "authors": "Telli ML, Timms KM, Reid J, Hennessy B, Mills GB, Jensen KC, Szallasi Z, Barry WT, Winer EP, Tung NM, Isakoff SJ, Ryan PD, Greene-Colozzi A, Gutin A, Sangale Z, Iliev D, Neff C, Abkevich V, Jones JT, Lanchbury JS, Hartman AR, Garber JE, Ford JM, Silver DP, Richardson AL.",
+      "year": "2016",
+      "publicationTypes": [
+        "Clinical Trial, Phase II",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "26976114",
+      "title": "Clinical Response of Carcinomas Harboring the BRD4-NUT Oncoprotein to the Targeted Bromodomain Inhibitor OTX015/MK-8628.",
+      "authors": "Stathis A, Zucca E, Bekradda M, Gomez-Roca C, Delord JP, de La Motte Rouge T, Uro-Coste E, de Braud F, Pelosi G, French CA.",
+      "year": "2016",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Case Reports",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "27310713",
+      "title": "Refinement of Triple-Negative Breast Cancer Molecular Subtypes: Implications for Neoadjuvant Chemotherapy Selection.",
+      "authors": "Lehmann BD, Jovanović B, Chen X, Estrada MV, Johnson KN, Shyr Y, Moses HL, Sanders ME, Pietenpol JA.",
+      "year": "2016",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "27453047",
+      "title": "Essential Roles for Polymerase θ-Mediated End Joining in the Repair of Chromosome Breaks.",
+      "authors": "Wyatt DW, Feng W, Conlin MP, Yousefzadeh MJ, Roberts SA, Mieczkowski P, Wood RD, Gupta GP, Ramsden DA.",
+      "year": "2016",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "28288110",
+      "title": "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures.",
+      "authors": "Davies H, Glodzik D, Morganella S, Yates LR, Staaf J, Zou X, Ramakrishna M, Martin S, Boyault S, Sieuwerts AM, Simpson PT, King TA, Raine K, Eyfjord JE, Kong G, Borg Å, Birney E, Stunnenberg HG, van de Vijver MJ, Børresen-Dale AL, Martens JW, Span PN, Lakhani SR, Vincent-Salomon A, Sotiriou C, Tutt A, Thompson AM, Van Laere S, Richardson AL, Viari A, Campbell PJ, Stratton MR, Nik-Zainal S.",
+      "year": "2017",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "28930678",
+      "title": "DNA Ligase IV Guides End-Processing Choice during Nonhomologous End Joining.",
+      "authors": "Conlin MP, Reid DA, Small GW, Chang HH, Watanabe G, Lieber MR, Ramsden DA, Rothenberg E.",
+      "year": "2017",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "29635390",
+      "title": "RAD51 foci as a functional biomarker of homologous recombination repair and PARP inhibitor resistance in germline BRCA-mutated breast cancer.",
+      "authors": "Cruz C, Castroviejo-Bermejo M, Gutiérrez-Enríquez S, Llop-Guevara A, Ibrahim YH, Gris-Oliver A, Bonache S, Morancho B, Bruna A, Rueda OM, Lai Z, Polanska UM, Jones GN, Kristel P, de Bustos L, Guzman M, Rodríguez O, Grueso J, Montalban G, Caratú G, Mancuso F, Fasani R, Jiménez J, Howat WJ, Dougherty B, Vivancos A, Nuciforo P, Serres-Créixams X, Rubio IT, Oaknin A, Cadogan E, Barrett JC, Caldas C, Baselga J, Saura C, Cortés J, Arribas J, Jonkers J, Díez O, O'Connor MJ, Balmaña J, Serra V.",
+      "year": "2018",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "31822498",
+      "title": "TBCRC 032 IB/II Multicenter Study: Molecular Insights to AR Antagonist and PI3K Inhibitor Efficacy in Patients with AR<sup>+</sup> Metastatic Triple-Negative Breast Cancer.",
+      "authors": "Lehmann BD, Abramson VG, Sanders ME, Mayer EL, Haddad TC, Nanda R, Van Poznak C, Storniolo AM, Nangia JR, Gonzalez-Ericsson PI, Sanchez V, Johnson KN, Abramson RG, Chen SC, Shyr Y, Arteaga CL, Wolff AC, Pietenpol JA, Translational Breast Cancer Research Consortium.",
+      "year": "2020",
+      "publicationTypes": [
+        "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Multicenter Study",
+        "Clinical Trial, Phase I",
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "32025018",
+      "title": "The repertoire of mutational signatures in human cancer.",
+      "authors": "Alexandrov LB, Kim J, Haradhvala NJ, Huang MN, Tian Ng AW, Wu Y, Boot A, Covington KR, Gordenin DA, Bergstrom EN, Islam SMA, Lopez-Bigas N, Klimczak LJ, McPherson JR, Morganella S, Sabarinathan R, Wheeler DA, Mustonen V, PCAWG Mutational Signatures Working Group, Getz G, Rozen SG, Stratton MR, PCAWG Consortium.",
+      "year": "2020",
+      "publicationTypes": [
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "32245699",
+      "title": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer.",
+      "authors": "Waks AG, Cohen O, Kochupurakkal B, Kim D, Dunn CE, Buendia Buendia J, Wander S, Helvie K, Lloyd MR, Marini L, Hughes ME, Freeman SS, Ivy SP, Geradts J, Isakoff S, LoRusso P, Adalsteinsson VA, Tolaney SM, Matulonis U, Krop IE, D'Andrea AD, Winer EP, Lin NU, Shapiro GI, Wagle N.",
+      "year": "2020",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "selected claim-relevant primary sections read"
+    },
+    {
+      "sourceId": "33941878",
+      "title": "Phase 1 study of single-agent WNT974, a first-in-class Porcupine inhibitor, in patients with advanced solid tumours.",
+      "authors": "Rodon J, Argilés G, Connolly RM, Vaishampayan U, de Jonge M, Garralda E, Giannakis M, Smith DC, Dobson JR, McLaughlin ME, Seroutou A, Ji Y, Morawiak J, Moody SE, Janku F.",
+      "year": "2021",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Multicenter Study",
+        "Clinical Trial, Phase I",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "3798106",
+      "title": "Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene.",
+      "authors": "Slamon DJ, Clark GM, Wong SG, Levin WJ, Ullrich A, McGuire WL.",
+      "year": "1987",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "38341432",
+      "title": "Structural role for DNA Ligase IV in promoting the fidelity of non-homologous end joining.",
+      "authors": "Stinson BM, Carney SM, Walter JC, Loparo JJ.",
+      "year": "2024",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "4610583",
+      "title": "An N-glycosidase from Escherichia coli that releases free uracil from DNA containing deaminated cytosine residues.",
+      "authors": "Lindahl T.",
+      "year": "1974",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "8503013",
+      "title": "Complexes of Ras.GTP with Raf-1 and mitogen-activated protein kinase kinase.",
+      "authors": "Moodie SA, Willumsen BM, Weber MJ, Wolfman A.",
+      "year": "1993",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "9368760",
+      "title": "3-Phosphoinositide-dependent protein kinase-1 (PDK1): structural and functional homology with the Drosophila DSTPK61 kinase.",
+      "authors": "Alessi DR, Deak M, Casamayor A, Caudwell FB, Morrice N, Norman DG, Gaffney P, Reese CB, MacDougall CN, Harbison D, Ashworth A, Bownes M.",
+      "year": "1997",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "9488723",
+      "title": "DNA double-stranded breaks induce histone H2AX phosphorylation on serine 139.",
+      "authors": "Rogakou EP, Pilch DR, Orr AH, Ivanova VS, Bonner WM.",
+      "year": "1998",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "9593664",
+      "title": "The tumor suppressor, PTEN/MMAC1, dephosphorylates the lipid second messenger, phosphatidylinositol 3,4,5-trisphosphate.",
+      "authors": "Maehama T, Dixon JE.",
+      "year": "1998",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    },
+    {
+      "sourceId": "9620803",
+      "title": "Notch-1 signalling requires ligand-induced proteolytic release of intracellular domain.",
+      "authors": "Schroeter EH, Kisslinger JA, Kopan R.",
+      "year": "1998",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "primary-publication",
+      "abstractAvailable": true,
+      "abstractReading": "raw primary abstract read; prior 22 reads reused and remaining cited abstracts read in completion",
+      "fullTextReading": "not read; claims restricted to abstract and logical teaching inference"
+    }
+  ],
+  "captureChecks": [
+    {
+      "sourceId": "10206645",
+      "sha256": "9f237fcd3cacfd5bc2efdcc012e34070d235c994b2bf543d4c3e23d8768431cd",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10206645%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "10549283",
+      "sha256": "760f70de6237656564615b520a8d8ec830a40ed7dffbdd6f9b62d621f51a903f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10549283%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "10618369",
+      "sha256": "b7429fcbb7e5941e448334a7a77aee402358505cce53a05ab22541cefbd6668c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10618369%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "10880452",
+      "sha256": "e0025cb8c804fc6c291850efeb3c8e105d8c99458b89df1843fb60a2f9716d0f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC313931&format=json&resultType=core"
+    },
+    {
+      "sourceId": "10882062",
+      "sha256": "e725b063ed37e290bb819bb9738a7d31f00d7099258bebc40da948dd07fb61a1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10882062%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "11029007",
+      "sha256": "8bdd8a97e831ac25a59557beb6ec5be4899c080889f5576adc6b2b5906178706",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11029007%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "11248153",
+      "sha256": "cb37f046e951664000d0eaf9329a4aad061627573e7928a236832908e655aa6a",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11248153%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "11834740",
+      "sha256": "b4a718c73336d49943860931f2cf83058bd901a30b43a1c5a14ce31c14b2b815",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11834740%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "11955436",
+      "sha256": "86ef66789099d4c00f07babcb4557475a98d4d00826fc6722a9e925e1a1d6532",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11955436%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12068308",
+      "sha256": "b8cb5146ccce5b3257c963a89e39bad35ce32bb9da9d193e2b1ca44924a9d4d0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12068308%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12150926",
+      "sha256": "7b4a6b1d162883d55d01f5c52a0ecbf50a8abe6916c8ba9dc206de420810b003",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12150926%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12172553",
+      "sha256": "b331994ad0c8090a946648d428d4f8daebc2e57254638a4d98716682c3e3c02d",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12172553%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12543779",
+      "sha256": "95826b6cd356dfa0b2ea7a533a4ad7bf4bca788fc3c71a62b148020e742056ad",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12543779%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12791985",
+      "sha256": "0e7af8d9270a35b630e4423f8985d1e7510174ca4c307f3bdb9f6b294c3b3cf8",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12791985%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "12869586",
+      "sha256": "98757fa14914e48f1e22bb7eccd8589d24819eb8ce861295b675345a5bd8f8ad",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12869586%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "1322500",
+      "sha256": "48afb61e2a8d0c66a133161b0920cfcfd0bd12528f21e38197d661f8a31d2c2b",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A1322500%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15249583",
+      "sha256": "aad12ffa5d1f8ed760b0b36830d28f22c112d28790fe31062b0b2fc8b8d90950",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15249583%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15282312",
+      "sha256": "5463fb48803852828cacb6d8accae17ee383ed50aa1c0498d04f9aa5f35eace1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15282312%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15472075",
+      "sha256": "9eedf829e43d71133ce590ac17230bcc50e48801fe9e5cba742d22cef93310ea",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15472075%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15572695",
+      "sha256": "1c847e5f9d2defd918515b65f16a754af7e108877c0331c1de44f4e8c6f8f000",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15572695%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15718470",
+      "sha256": "c2ce8bfb2837cbccf0b3461acb887b662f6083fe42867ce13624c216492baa3c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15718470%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "15829967",
+      "sha256": "18f519ae94b005e8306c3e1f5e43116d09f6f98dfa2ae6cc4f37ecbc63ef0cb4",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15829967%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "16109377",
+      "sha256": "a6a0b14e110a1df6ed73c723a3b668ec1985b9ec8a937a77713ecf4d106b963c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16109377%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "16452206",
+      "sha256": "17c9b3b0da43e585f12b23bad8483889472cea2a06ed9a1597d17c495620bcbf",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16452206%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "16777603",
+      "sha256": "8cd806f0be3cd2c8d4403a55be5c2687b4573a6d55be1ae9715f548b9a7422c2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16777603%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "17020408",
+      "sha256": "7bdc27802cc46356f4529f99a6b9aae90b70d73b91583080eb4ddacaaad16804",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17020408%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "17136094",
+      "sha256": "7ada22654001a41f017da4db9616819ca6a78fd0ae47c07f08785140ba0d4c70",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17136094%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "17141155",
+      "sha256": "fe360744e36d725414b2b60fdf25e603487b69430662e3717076d938f7817628",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17141155%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "18584027",
+      "sha256": "6f61702414bdfd3924a2c25e8e330923f9020424d6e8ef9500fa5b5ee9a77a39",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18584027%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "18716624",
+      "sha256": "295efa4fc3c4d59fa9f23e0da976ed387b260d7de31d4dc489d750e1db28f95e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18716624%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "19258318",
+      "sha256": "c1531c9b662989cca09ca07bacd0d9eae9fa722e597a9aca4bd0834fc133d8b1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19258318%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "19359544",
+      "sha256": "4222004bb2c19a24a68556ce2e40e471dcccee9b5dcd05568de0f728ae9e16ab",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19359544%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "2006410",
+      "sha256": "f2f05f68fad2502d6130e84c740e4a86b6b78d66af4616d71f3a94ee354f34da",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A2006410%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "20179705",
+      "sha256": "b0fbebcd54c36f08071d0c2b846c327918ed71483625ffbdecaee0009b7fb707",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20179705%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "20729832",
+      "sha256": "cf2b9875b7d82c9227867e61ffaac1818c8ab3a5d9c83f841c06b9e54e6c0017",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC2952063&format=json&resultType=core"
+    },
+    {
+      "sourceId": "20871596",
+      "sha256": "1ac373bd84d20f828afb3ae41bb88308fb8849e15ca219c815c1824648355aaf",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20871596%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "21529715",
+      "sha256": "ed5c3d083542bafc193b8612ff90e7468c82677e02d19775627a469f642b61b9",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC3740329&format=json&resultType=core"
+    },
+    {
+      "sourceId": "21701511",
+      "sha256": "b4bd06c82c76390e5344138fe8fef801aed60918a53e422e1aa09c95d592fe9f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21701511%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "21734707",
+      "sha256": "a072574e34e98f04db0a71c6b6cf47452dfc4f1df4652c36a94fb9a0cd98631d",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21734707%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "21798897",
+      "sha256": "7be520f1633f02448ffa4c192b9cfee4507d761c64d2e44047c86e894a4b22c0",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21798897%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "21889194",
+      "sha256": "686ba06835df954efb0946e5ba3f310d834f8378b85ab49798a82f720d524035",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21889194%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "22144499",
+      "sha256": "ae5a7464869b6d4185a406b8fe089e620356ab7aa8b526fc8d08d8957cdcdc7e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22144499%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "22430491",
+      "sha256": "6f6296808ad4189d5c8af06549eb1cc20e518fda1e6d2fabb102ecaaab9f5b6c",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22430491%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "22576213",
+      "sha256": "f669af4f5f40a30b41817e0ced292d71b83d57b9a71fa76992698307ac2a8cac",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22576213%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "22933060",
+      "sha256": "448c25f69870f8a40692fce9d34569203b945ffe2d5c3126f616638d15b8da4b",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22933060%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "23047548",
+      "sha256": "a747a326ec1677c911fb3eff668d59e83cd5e83ddb9cc0aa8bc100d37e4af296",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23047548%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "23852170",
+      "sha256": "c9237c7f0eb00bec38287428bfcb5b65120c53eb5622d36ffc8ace594937e319",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23852170%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "23945592",
+      "sha256": "4b348e0259169e9ea842fbd0020110c474cda8a84f2299cda0aaf36e093ebcdc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23945592%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "25043028",
+      "sha256": "2d72a7d3fc1bd4140fc08f4b9069f59cd8f7d10fdca18acee4c91f0d61755579",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25043028%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "25643323",
+      "sha256": "374a99cc7c0a3f2fb2f5d2f42b363aa5148ae25a3ef5d6e87408f10252746aaa",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC4351179&format=json&resultType=core"
+    },
+    {
+      "sourceId": "26711467",
+      "sha256": "3756aa1165950e2a001a0d1253e52978e5d80b4a14afc9b16618b8cdca627fdc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26711467%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "26735014",
+      "sha256": "6b9ad28e8508b8e1269349c9ed7a812015a44fa11876884aee3c8d3d86db1d2b",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC4854653&format=json&resultType=core"
+    },
+    {
+      "sourceId": "26957554",
+      "sha256": "29c107e75dfe001346ace1840f77b63ffb080d95216752845c0b9b1711d96879",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26957554%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "26976114",
+      "sha256": "e1d1332e13a7ba7042fc9b642ff0fdecd7f45e1c368252dea1c0e345c3de67c1",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26976114%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "27310713",
+      "sha256": "631e620ad869a9d15119b04bd42a231fadee494c2834eaaf3ce892f4f7b8d00f",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27310713%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "27453047",
+      "sha256": "685fb2e1dd79de6c915b9124cca16a6d1ae37920bfa99547c88a856987ce23ae",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC4992412&format=json&resultType=core"
+    },
+    {
+      "sourceId": "28288110",
+      "sha256": "ca9928808106917058e27519494b1cff55456c0dddc991008b0ae1d04ec58123",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28288110%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "28930678",
+      "sha256": "f0203b049dcfff315556c114d2f6051efc5c6655d90bf6ae08781817bc277989",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC5649367&format=json&resultType=core"
+    },
+    {
+      "sourceId": "29635390",
+      "sha256": "011625d5c172427514bea571b859fcb2efe2c493019b2afab76b6caaacd50a78",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC5961353&format=json&resultType=core"
+    },
+    {
+      "sourceId": "31822498",
+      "sha256": "e4eb8fb0b54d35df0fd688372c3ce8279aa9c6e6f4f24af77ce520145052d8a2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31822498%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "32025018",
+      "sha256": "674b95a80805490781922c7331a279c7cc0128602f5709752295a87ea145ba7d",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32025018%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "32245699",
+      "sha256": "bb37a138f4ca39688a0fea97762f15318e6c066ae429acc6e3bc1d9d758ac63e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7946408&format=json&resultType=core"
+    },
+    {
+      "sourceId": "33941878",
+      "sha256": "17e5733033f3f0fbdd8dfb2e91c56a7ae77af1f8ebc5308236756b2696beae86",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33941878%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "3798106",
+      "sha256": "260e9d0cb5a6e0e5bd5c82d5db57b8e296db381538221eb404854b43861414da",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A3798106%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "38341432",
+      "sha256": "aaf7cdb735a1d9fb6121cc5e4116d0496f896240cf35c3931070a1aadfc76ea3",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC10858965&format=json&resultType=core"
+    },
+    {
+      "sourceId": "4610583",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:4610583%20AND%20SRC:MED&format=json&resultType=core",
+      "file": "med-4610583.json",
+      "sha256": "512cda2576eb4472af1a1ffad44a65c5730f27030e9c4c5b912598024e234216",
+      "reusedCapture": true,
+      "reason": "Completion packet has no MEDReceipt for this identity; independently retrieved."
+    },
+    {
+      "sourceId": "8503013",
+      "sha256": "0c724a14fb029a71c7921a9295b2040619720c646838bba90065367d2c048122",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8503013%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "9368760",
+      "sha256": "08ccb1af2bf7a3a6b38a35dee141ee3392462804ecd51302a43289a7bf61e2ec",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9368760%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "9488723",
+      "sha256": "0a2629c50344643dda9c2c9a1f2758e21421ba73da8c9b96235383a4c3ef31e2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9488723%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "9593664",
+      "sha256": "0e14d51ab8db8bbf06ebe7537993bfeb5104d7d1b92f19b716e80c0a30928ce5",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9593664%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "9620803",
+      "sha256": "5bfcec7c0aec63e241db224728b11b4145494e0629bcea60203cae37f4f94b89",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9620803%20AND%20SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "sourceId": "fda-capivasertib",
+      "sha256": "14859f80ea9047ed57fac751afebdb2cef48960d1f0e8ffd8972636fc7a1f019",
+      "kind": "official"
+    },
+    {
+      "sourceId": "nci-brca",
+      "sha256": "e413a2d76af9eff767ff5f06481ab0b73e3fceda33a14bd89babd18d8684b901",
+      "kind": "official"
+    },
+    {
+      "sourceId": "olaparib-dailymed",
+      "sha256": "87a1eacb03a7496086867782edf389624f5ce0b2b6766aa42f2f0404fcc47af1",
+      "kind": "official-label"
+    },
+    {
+      "sourceId": "openstax",
+      "sha256": "19d165aa5eb5bece0d3b5af6ddf33314c7c4c581e881f4a5dfdd239aec9e8ec7",
+      "kind": "textbook"
+    }
+  ],
+  "fullTextCaptureChecks": [
+    {
+      "sourceId": "17020408",
+      "file": "PMC1584412.xml",
+      "sha256": "2d5a871e5e640041f9182d7b06d06b6363de1591f9373a4fe40838707c4016bf"
+    },
+    {
+      "sourceId": "18584027",
+      "file": "PMC2430616.xml",
+      "sha256": "a2b795df9ee4677b24744ff4dc688b28c16c4b6d2beb79d60a516bb744b6bea2"
+    },
+    {
+      "sourceId": "20179705",
+      "file": "PMC3178447.xml",
+      "sha256": "2ae6274aa758ffb984180cfe3ba03d1ebd357bba72d3bc055dd0c55496bb9c1a"
+    },
+    {
+      "sourceId": "20729832",
+      "file": "PMC2952063.xml",
+      "sha256": "725f5b7f266b7e3fd559a10d1fba4f0c7c302c19ca4e918c4b2a97f371b1dbda"
+    },
+    {
+      "sourceId": "21529715",
+      "file": "PMC3740329.alt",
+      "sha256": "7b3211e8cb3b39e79fc9822c5c653e7f897d2256a8c7fe188e52041a4802bbe2"
+    },
+    {
+      "sourceId": "22144499",
+      "file": "PMC3272407.alt",
+      "sha256": "7b3db6edfcf3facad5166354acb8ae252d07a40cc62e74367ccc928cfbd402af"
+    },
+    {
+      "sourceId": "22430491",
+      "file": "PMC3328367.xml",
+      "sha256": "2569d738a9c0871cda3505f9608949d0037f9c40f7084805b6f52055a858470d"
+    },
+    {
+      "sourceId": "22576213",
+      "file": "PMC3806629.alt",
+      "sha256": "ab6b3f46b16477c239b4c4cae2efe6c4816793ee2dade1f6bee22bb51b09dcc2"
+    },
+    {
+      "sourceId": "22933060",
+      "file": "popova-author.pdf",
+      "sha256": "789e8e1fbc4bf3eacdbbd1eecf857f375443a2e39d740e8c8265646ff2852565"
+    },
+    {
+      "sourceId": "23047548",
+      "file": "PMC3493866.xml",
+      "sha256": "407d87990dd4c62a48020c5c14cdbd6d1d14f3a6ba453ba75195b24289836cf0"
+    },
+    {
+      "sourceId": "23945592",
+      "file": "PMC3776390.xml",
+      "sha256": "a389cc173ed23556bc023c009569e68424f0efed8b844f9b4b464d0482fe7a40"
+    },
+    {
+      "sourceId": "25643323",
+      "file": "PMC4351179.xml",
+      "sha256": "526a01d79889f729d9849487ed4b293b313f5454de0db5510a71293427bff737"
+    },
+    {
+      "sourceId": "26735014",
+      "file": "PMC4854653.xml",
+      "sha256": "4018f57a61bf622e1f3ced3bedd15a1b1a909624380a291b184a4ab10dfdf924"
+    },
+    {
+      "sourceId": "26957554",
+      "file": "PMC6773427.alt",
+      "sha256": "bb137acba5b1a67569032c8550019bfe637d1b3a6a68da498f0743be61898db4"
+    },
+    {
+      "sourceId": "26976114",
+      "file": "PMC4854801.alt",
+      "sha256": "dc3e8362a878dac2c1cc32d15aa2f1556bbf4fe6ae150a4b1bca0f0c0a6ad0df"
+    },
+    {
+      "sourceId": "27310713",
+      "file": "PMC4911051.xml",
+      "sha256": "3e6195b0d05bff5491e1fbe3e402738d9b6f3dcd004160964a58e725cf589c33"
+    },
+    {
+      "sourceId": "28288110",
+      "file": "PMC5833945.alt",
+      "sha256": "49098d9dd9ff7e82634acc2711371f1b82baf00c6d7ed7175a147faa29650493"
+    },
+    {
+      "sourceId": "29635390",
+      "file": "PMC5961353.xml",
+      "sha256": "a0d543ef0b9d15cfa8220b13b87af715aad8c78a6fe8003bf90e261feb228669"
+    },
+    {
+      "sourceId": "29635390",
+      "file": "PMC5961353.alt",
+      "sha256": "4b38b182affd37d3e283a80abac270f8cfe6761db0ec663f60303bfbec95d07c"
+    },
+    {
+      "sourceId": "31822498",
+      "file": "PMC7196503.alt",
+      "sha256": "e77a039f1e7fe6bd454ec886b026260da18c1df3e7c145099a0610268509726c"
+    },
+    {
+      "sourceId": "32025018",
+      "file": "PMC7054213.xml",
+      "sha256": "d4ecef46f90aa2fcb2f7b4fcdbfd68d9402f89d4354c7ecca147aeb3c45f499f"
+    },
+    {
+      "sourceId": "32245699",
+      "file": "PMC7946408.alt",
+      "sha256": "a13c2406b5d6cfe87aecbd6a653dc3533f64f9d7fb77f63d5a8ba72df4b5d20a"
+    },
+    {
+      "sourceId": "38341432",
+      "file": "PMC10858965.xml",
+      "sha256": "a6359e107fa0f5809d74841cdcdb74d0a569de348d8143bcd48b651242ac48b4"
+    }
+  ],
+  "pages": [
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+      "sourceSha256": "ea521359a16e6352f895232008065b070f515e70e5e0c8597cc4994da9e67e65",
+      "gitBlob": "eaa39bc66dc571cf75a8575384bbb8d281c3aabe",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+      "sourceSha256": "16b80f841c5fb9c6fb2134f31297c924e933cc7d14017d29ace0cb28ab9fea04",
+      "gitBlob": "c96b281c13167130dbec3143ce077b24314f94bc",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "sourceSha256": "d99d445d8ba51eb142d786a19da981ea7b40c7eaa62f74c59f8cdd82ee537328",
+      "gitBlob": "4bef5017bbc6870044006b8f8a067991b7fa3a11",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md",
+      "sourceSha256": "b6662a79310508d731dfcbd6c306a991b31a37fc509cea1ac82d7f8741082564",
+      "gitBlob": "95406d1ae19d1dd79da7ca6bf8285fecaabad80b",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+      "sourceSha256": "6617a2958b9d4759a227f938c0416ba99e914ec20eefc497bab92d3a52f761a9",
+      "gitBlob": "cdce9741b145361a18901fe6bc6f5b25bca3cd2e",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md",
+      "sourceSha256": "6de19b16381b370eb6aa97c024e59dfa38146d367cf5a05c14a1d0d4d7f8e35d",
+      "gitBlob": "774b12618ce2939199faf1bdd788d6d69963101d",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+      "sourceSha256": "ed1f8f06c8f89bacee88536aa9d0a30a0f9d97ef7c2128d4cca302e60e910da3",
+      "gitBlob": "afbdde0163b68107d5076a9c9293cfc9bd4de60b",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md",
+      "sourceSha256": "e3df3544b3251e0aff87b3bcfa89617f318cf70af96a18a0307267782ff487e5",
+      "gitBlob": "c3b620e625bad04a08dcbcb806fc7d0e018d117a",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+      "sourceSha256": "92cced8f09a083c2bd62f8e84c6d71339b021b4e714e234bbd9014d0e36aa3e8",
+      "gitBlob": "fb11f63890b91de4926337ef87ca4a9b0cab2fa7",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md",
+      "sourceSha256": "0cc050d82c82fd66c88d0410fc2433c4e372301599029c56a62cbae0f8c542b5",
+      "gitBlob": "b836b1bde147c5e7b6a1437aa122181120da1450",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+      "sourceSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+      "gitBlob": "89e05c71f68a61ea1a3f749fd2fb5750cebc9b59",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md",
+      "sourceSha256": "97deb3212bb9e141486ef1779c694a93c092e10c1e0f7303ac5ec8d678a852ca",
+      "gitBlob": "89e05c71f68a61ea1a3f749fd2fb5750cebc9b59",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "sourceSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+      "gitBlob": "fb36821633b6498c12794d4d636e1610d937afdb",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md",
+      "sourceSha256": "1f5ee9f92e07854e9250a2e73c6ece3b60e2223572db95468ca7054fde1b19bd",
+      "gitBlob": "fb36821633b6498c12794d4d636e1610d937afdb",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+      "sourceSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+      "gitBlob": "62c743476ef1a54aa554c68bd830dd678a0b93e1",
+      "manifestSectionDenominator": 11
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/androgen-receptor-signaling.md",
+      "sourceSha256": "f0e26082978b5caedc7aa178f1fc4019fb0899523ab4163c88ce491cb1a5c239",
+      "gitBlob": "62c743476ef1a54aa554c68bd830dd678a0b93e1",
+      "manifestSectionDenominator": 11
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "sourceSha256": "1206741be744c6fd1c82507b429f3f0d075dcd5542e3b4a20fda0382b9edc5dc",
+      "gitBlob": "2348968d37c469e00123918ec7d4c37adad6b123",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/bet-bromodomain-proteins.md",
+      "sourceSha256": "462dd196dd8f613728c6e70201d742fc122fc21e016105529eb72c85c5040df9",
+      "gitBlob": "990df6c63ed47188a044a953e2f43fb71a228aff",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf.md",
+      "sourceSha256": "57f3b73078b34299ad6924fd2222f25245f71bdf230944f5fda6c0e17e171cf8",
+      "gitBlob": "f91a3ec27c3704100e302367a78c16dc98d8faf7",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/mapk-ras-raf.md",
+      "sourceSha256": "57f3b73078b34299ad6924fd2222f25245f71bdf230944f5fda6c0e17e171cf8",
+      "gitBlob": "f91a3ec27c3704100e302367a78c16dc98d8faf7",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/myc.md",
+      "sourceSha256": "96a6a9842483ae1a0f895e4456aabdcede746d1ced8e1062963e2e8f6dc82bae",
+      "gitBlob": "332927f0df61f62218ee11cceefe6dbd8e9046e2",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/myc.md",
+      "sourceSha256": "96a6a9842483ae1a0f895e4456aabdcede746d1ced8e1062963e2e8f6dc82bae",
+      "gitBlob": "332927f0df61f62218ee11cceefe6dbd8e9046e2",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md",
+      "sourceSha256": "f18dd5b63ca2045878417217255834dd0086af08e91d8f5cdd1375fa79edd358",
+      "gitBlob": "cd72595f8f5cd4304e34a48cd24ca420d4b780bb",
+      "manifestSectionDenominator": 13
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/notch-signaling.md",
+      "sourceSha256": "a71f7b860437a339b3e55175902a39d674a1cd80b8790d94d35fc02220c8b3ba",
+      "gitBlob": "6ba7d0dbda1ff0455f20dc0e4e3b7cf157e827f4",
+      "manifestSectionDenominator": 13
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+      "sourceSha256": "62e254ae08213a760685c0b26a3d9785622a896307902e89ff326dd477a494e5",
+      "gitBlob": "1c0cdc1c3d36c87a640bad8dbb3804c30ab2c02b",
+      "manifestSectionDenominator": 13
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md",
+      "sourceSha256": "6eb3b7977ed1b92b093d6c41cb01c9669318e572fc1424da52b81407ec2c8d09",
+      "gitBlob": "f3b7ff6413be8d8a5555d94602c06eba78a6c10a",
+      "manifestSectionDenominator": 13
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+      "sourceSha256": "39569d1a5dad15a0d732aaf63307190dbbb7dae833c30ebe61a34399906548c0",
+      "gitBlob": "a6ade324bfa3b23a8c0b215f5a20000d142a0b9e",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/pi3k-akt-mtor.md",
+      "sourceSha256": "77baf0de68d5e9faf5eb48da476c5881ff244ba8bc7142de552e485bad5a825a",
+      "gitBlob": "db5332cfec6336728e559ce875c7367a91e9c92d",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+      "sourceSha256": "c28e304b4c344cbc11d49b4578829503a86916b7eb552b86ed2e5396de18a727",
+      "gitBlob": "fab465e2c7681e036529a47197abf18d73551fdd",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/receptor-tyrosine-kinases.md",
+      "sourceSha256": "b19b7791332c6e180679b985adda3fe954a5d36815308374d0052e33df4075a6",
+      "gitBlob": "c83e5d9aff6220302309dab6c3c78525156e9722",
+      "manifestSectionDenominator": 12
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+      "sourceSha256": "ce5afa6f37f5b60ba2927e86e3ecb4bc7ba1512fb9cd596b43a114010ad6fd53",
+      "gitBlob": "8b6fec45a27ccd338a5d86872673e62c1a1fd003",
+      "manifestSectionDenominator": 13
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/wnt-beta-catenin.md",
+      "sourceSha256": "35d5e020a6d5d16a2f052fd2a1b5c70090d709599ae3249015f319a71aa37aff",
+      "gitBlob": "a19aa2926b76bfa36decb952000c85daa2f4dc1d",
+      "manifestSectionDenominator": 13
+    }
+  ],
+  "assets": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "bytes": 2207242,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "bytes": 1959146,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "bytes": 2207242,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "bytes": 1959146,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+      "gitBlob": "97816c17a03b742945b36ed87735f8589b47ba21",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+      "gitBlob": "3175494a1a7d4e96c656c54dd5c2afe7b57fdac6",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+      "gitBlob": "97816c17a03b742945b36ed87735f8589b47ba21",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+      "gitBlob": "3175494a1a7d4e96c656c54dd5c2afe7b57fdac6",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+      "gitBlob": "547be6f79ba704c4bc0d7e06cb273ec58ce45324",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+      "gitBlob": "317b79392ca3bd77c1b64e2a7f641b6cf92ab4a0",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+      "gitBlob": "547be6f79ba704c4bc0d7e06cb273ec58ce45324",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+      "gitBlob": "317b79392ca3bd77c1b64e2a7f641b6cf92ab4a0",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+      "gitBlob": "ae60b9b6047cac2b2c4049ad4a957741478acf59",
+      "bytes": 1878964,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+      "gitBlob": "6b6258556dd7fa4fe094ad5bdf7a9ae19dfdbfb2",
+      "bytes": 1970547,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+      "gitBlob": "ae60b9b6047cac2b2c4049ad4a957741478acf59",
+      "bytes": 1878964,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+      "gitBlob": "6b6258556dd7fa4fe094ad5bdf7a9ae19dfdbfb2",
+      "bytes": 1970547,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+      "gitBlob": "6538164edfcac17bd3d919a796fef3e606e10b69",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+      "gitBlob": "b60e4f3b29a5fdf6764869ea9cb263c3455d2d7a",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+      "gitBlob": "6538164edfcac17bd3d919a796fef3e606e10b69",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+      "gitBlob": "b60e4f3b29a5fdf6764869ea9cb263c3455d2d7a",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6",
+      "gitBlob": "8bf175d2f4a20873b895e8ec34e88278f1a202d9",
+      "bytes": 50404,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27",
+      "gitBlob": "33276c9ad5259f6ad3d3a1ba07964b6844bb3830",
+      "bytes": 50403,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6",
+      "gitBlob": "8bf175d2f4a20873b895e8ec34e88278f1a202d9",
+      "bytes": 50404,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27",
+      "gitBlob": "33276c9ad5259f6ad3d3a1ba07964b6844bb3830",
+      "bytes": 50403,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "gitBlob": "1f7c03215774629f810c75f0505d3be89a0d0b30",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "gitBlob": "d70d498a2d14188727bdf9de543e11cc24a18fb8",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "gitBlob": "1f7c03215774629f810c75f0505d3be89a0d0b30",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "gitBlob": "d70d498a2d14188727bdf9de543e11cc24a18fb8",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "gitBlob": "cf13dc706a906d2a50c06ef85014eb924aecc2c5",
+      "bytes": 2314767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "gitBlob": "ba8688647f8e504f1c76ecf449ee45626ab9c342",
+      "bytes": 1935562,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+      "gitBlob": "9a106b5c4eff627f56151a15975b1f2c2b92d323",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+      "gitBlob": "faf1c04eba8549c48d710772e726aef94d59b91c",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "gitBlob": "cf13dc706a906d2a50c06ef85014eb924aecc2c5",
+      "bytes": 2314767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "gitBlob": "ba8688647f8e504f1c76ecf449ee45626ab9c342",
+      "bytes": 1935562,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+      "gitBlob": "9a106b5c4eff627f56151a15975b1f2c2b92d323",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+      "gitBlob": "faf1c04eba8549c48d710772e726aef94d59b91c",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "gitBlob": "066cd2ee25553f64b7f58872cb3e65e4a434a9dc",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "gitBlob": "11a2a969de1c14860dd6641d8197bc6a8495afe6",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "gitBlob": "066cd2ee25553f64b7f58872cb3e65e4a434a9dc",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "gitBlob": "11a2a969de1c14860dd6641d8197bc6a8495afe6",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c",
+      "gitBlob": "2e52ced642e1d66c22a9fed02e8a8bc5a3b820f3",
+      "bytes": 2233764,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "96773634d1b462fafd764ed57e3a1f335e441325015c9384f0ca4b04a5d39747",
+      "gitBlob": "6e271bf4695cc98b450350187b8028eb16dbb569",
+      "bytes": 2396516,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c",
+      "gitBlob": "2e52ced642e1d66c22a9fed02e8a8bc5a3b820f3",
+      "bytes": 2233764,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "96773634d1b462fafd764ed57e3a1f335e441325015c9384f0ca4b04a5d39747",
+      "gitBlob": "6e271bf4695cc98b450350187b8028eb16dbb569",
+      "bytes": 2396516,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+      "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+      "bytes": 1976767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+      "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+      "bytes": 1964729,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+      "gitBlob": "a78f84d70c42b192e90feaafc95213b006997d09",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+      "gitBlob": "94d7c0da30cdb9832d101a7ed79a64b0e34c5581",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+      "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+      "bytes": 1976767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+      "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+      "bytes": 1964729,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+      "gitBlob": "a78f84d70c42b192e90feaafc95213b006997d09",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+      "gitBlob": "94d7c0da30cdb9832d101a7ed79a64b0e34c5581",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+      "gitBlob": "c8b445d457522a604137070dd5f384baa98e7286",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+      "gitBlob": "72efad26e98fe353b6c40b05d5a649c6e159fc1a",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+      "gitBlob": "c8b445d457522a604137070dd5f384baa98e7286",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+      "gitBlob": "72efad26e98fe353b6c40b05d5a649c6e159fc1a",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+      "gitBlob": "a5bbfd5522a81f0154326e119ee5a8780c77cd5a",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+      "gitBlob": "14b06921da5ffe96665d6f1f7466afee564702f2",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+      "gitBlob": "a5bbfd5522a81f0154326e119ee5a8780c77cd5a",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+      "gitBlob": "14b06921da5ffe96665d6f1f7466afee564702f2",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    }
+  ],
+  "renders": [
+    {
+      "file": "7510db6b-hr-matching-template-route-v1-light.png.review.png",
+      "sha256": "7b3c09c925a3cbd4ab65e2a418648616752992f9af9b0c3bbd0a600991354232",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-dna-lesions-and-selected-repair-jobs-v1-light.svg.review.png",
+      "sha256": "5540514007d48b0d66c903321385f6fe65865a7808273b41dc003006fcb5d940",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-genomic-scars-chromosome-tracks-v1-light.svg.review.png",
+      "sha256": "fba9cbfb471158f0b3c393cb3111cd5c5ac33c1bb92379feb254057a51faa750",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-scar-and-current-function-v1-light.png.review.png",
+      "sha256": "55793ab730c8453120a34f54165bbceb5a47eb7f8a298bf9ddbe3c8c982f6ee1",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-mutational-signature-mixtures-v1-light.svg.review.png",
+      "sha256": "70af5c45b4950c7603d6f39ec7993278f7dc3e2c6e5e83d365853e62a4623a92",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nhej-mmej-selected-toy-ends-v2-light.svg.review.png",
+      "sha256": "40ae1f9878cf57cae964962c0fbce9f5b2c2186607461bb48f99e467588f851e",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-replication-fork-and-timed-toy-tracks-v1-light.svg.review.png",
+      "sha256": "93673fa721f78ae666f0afc5398f7b005e51652918230e1f68dfd5543077ac82",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-receptor-reach-and-relay-v1-light.png.review.png",
+      "sha256": "7b76978b3d872289b8ee55c10224b7292d118eacc27a44ec384d869c9ac17bdd",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ar-binding-regions-and-evidence-b12-v1-light.svg.review.png",
+      "sha256": "c0fc2cd7be137d483fb4bf15c21cd2ffea2845560faeea7be5da7eca7875f8ee",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-bet-mark-pocket-and-depletion-v1-light.svg.review.png",
+      "sha256": "7624e2ab70a6d4485bf1b8d10a89db28129cdf4d6fb1ca856e4e03d3c7d8c906",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-notch-contact-to-nucleus-v4-20261011-light.png.review.png",
+      "sha256": "7f8afc343fd26d4088025c3f9fd94114194351d63d14331fecec63b1baccb82b",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ubiquitin-selected-cargo-v5-light.png.review.png",
+      "sha256": "28bba1f2ea4974a3ded6b95c6f525178b3cce6a390d6bac67d75ce2a0aa8880a",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nrf2-specific-turnover-inset-b12-v1-light.svg.review.png",
+      "sha256": "1b74e47aed0581c84f8324b846d302a78d0d00a181e0478ee0939b04ea0e39b7",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-pi3k-lipids-and-two-mtor-complexes-v2-light.svg.review.png",
+      "sha256": "0e8bff0f505c8bb87a586d692e8bce20020fb11d2faa55766502e405b40961a2",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-shared-upstream-block-and-downstream-escape-v1-light.svg.review.png",
+      "sha256": "36dd2b098c98d303119fe485882a6e20ada1823f805a97ef02ca2aa60e71aee7",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-matching-template-route-v1-dark.png.review.png",
+      "sha256": "72020e8f37c8b150eb260f5e230064b84c629dd4cb5d12756397b4d1f25ae9cf",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-dna-lesions-and-selected-repair-jobs-v1-dark.svg.review.png",
+      "sha256": "5328209a419622ebfab0cf91e9cf9b69534d80593e7127dd1a8670ad05ffa4e8",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-genomic-scars-chromosome-tracks-v1-dark.svg.review.png",
+      "sha256": "90b46308c0f7f750917b9b39713331528b295383d3b9b1b3df671deeb877b9e6",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-scar-and-current-function-v1-dark.png.review.png",
+      "sha256": "7845f123501f648dc81d007427359e11ccb6830650b8ab966245e8c403101ead",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-mutational-signature-mixtures-v1-dark.svg.review.png",
+      "sha256": "5c81c732e609ec5acd5fd8fbb26986956b2f5b5e935b76081ae8595940f7014d",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nhej-mmej-selected-toy-ends-v2-dark.svg.review.png",
+      "sha256": "9670432c4e2f09b73ec8f4d7afb7ce3bafc8302eb632a606962c428851cbb9c9",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-replication-fork-and-timed-toy-tracks-v1-dark.svg.review.png",
+      "sha256": "3ef788721d4660c23462ea6c0269879f2c07034d7caef14d2a53dcbb9898fcd4",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-receptor-reach-and-relay-v1-dark.png.review.png",
+      "sha256": "d3d948e2a0ac87e164d4d0bfbcc6fc45e19cbf25f8658981369e93b550855692",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ar-binding-regions-and-evidence-b12-v1-dark.svg.review.png",
+      "sha256": "f86240bac4b0a1d22a81714b47d646b2f5d19237f9e8422f46e0ddab0b90d380",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-bet-mark-pocket-and-depletion-v1-dark.svg.review.png",
+      "sha256": "7b9f1da88c0bcd0ebbadba11f021d4f5226152958286a8efd0f7ea97e16490f3",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-notch-contact-to-nucleus-v4-20261011-dark.png.review.png",
+      "sha256": "6daf1087e790689ff8e3a16b7c19a7b74254d48be89bbbc7d7aef8deca01c253",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ubiquitin-selected-cargo-v5-dark.png.review.png",
+      "sha256": "e3bcf1bfd75cbb25e314641268f3e91d1da5968c2a0343e05c344220d3398c93",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nrf2-specific-turnover-inset-b12-v1-dark.svg.review.png",
+      "sha256": "3372774385edb42dd7f385b32e80454ae3c93d688f3c11baedd7edb2a21ea3ef",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-pi3k-lipids-and-two-mtor-complexes-v2-dark.svg.review.png",
+      "sha256": "570ad1ad67c1db436d4900ed021e80c6a01e80ef25fac03bc89bd432efa2dc57",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-shared-upstream-block-and-downstream-escape-v1-dark.svg.review.png",
+      "sha256": "88ab4aa496ae0ee2938c38b6cba8514ac08c14019b23bf60191a84b303319456",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    }
+  ],
+  "inheritedDOIs": [
+    {
+      "doi": "10.1016/j.molcel.2022.05.004",
+      "title": [
+        "Hallmarks of DNA replication stress"
+      ],
+      "authors": [
+        {
+          "given": "Sneha",
+          "family": "Saxena",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lee",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "replication-stress",
+          "label": "Saxena & Zou, Hallmarks of DNA replication stress (Molecular Cell 2022)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1016%2Fj.molcel.2022.05.004",
+      "file": "crossref-6b74d2347258.json",
+      "sha256": "ec8477c83366c53e576cc0a7bae504433d3f20fca4714390fc292f390f616ee9",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1038/s41571-021-00549-2",
+      "title": [
+        "The MYC oncogene — the grand orchestrator of cancer growth and immune evasion"
+      ],
+      "authors": [
+        {
+          "given": "Renumathy",
+          "family": "Dhanasekaran",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3271-1427",
+          "authenticated-orcid": false,
+          "given": "Anja",
+          "family": "Deutzmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wadie D.",
+          "family": "Mahauad-Fernandez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6547-8393",
+          "authenticated-orcid": false,
+          "given": "Aida S.",
+          "family": "Hansen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arvin M.",
+          "family": "Gouw",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dean W.",
+          "family": "Felsher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            9,
+            10
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "myc",
+          "label": "Dhanasekaran et al., The MYC oncogene: the grand orchestrator of cancer growth and immune evasion (Nature Reviews Clinical Oncology 2022)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1038%2Fs41571-021-00549-2",
+      "file": "crossref-288b8bef6023.json",
+      "sha256": "2ac364667d54502b4cc3616a164d3fec858bece09d2a3d1f1a89091112d07460"
+    },
+    {
+      "doi": "10.1038/s41591-024-02875-1",
+      "title": [
+        "Locoregional delivery of IL-13Rα2-targeting CAR-T cells in recurrent high-grade glioma: a phase 1 trial"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-4915-8207",
+          "authenticated-orcid": false,
+          "given": "Christine E.",
+          "family": "Brown",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan C.",
+          "family": "Hibbard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Darya",
+          "family": "Alizadeh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M. Suzette",
+          "family": "Blanchard",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Heini M.",
+          "family": "Natri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dongrui",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julie R.",
+          "family": "Ostberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brenda",
+          "family": "Aguilar",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jamie R.",
+          "family": "Wagner",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jinny A.",
+          "family": "Paul",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renate",
+          "family": "Starr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robyn A.",
+          "family": "Wong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wuyang",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noah",
+          "family": "Shulkin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maryam",
+          "family": "Aftabizadeh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8084-661X",
+          "authenticated-orcid": false,
+          "given": "Aleksandr",
+          "family": "Filippov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ammar",
+          "family": "Chaudhry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julie A.",
+          "family": "Ressler",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julie",
+          "family": "Kilpatrick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paige",
+          "family": "Myers-McNamara",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mike",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Leo D.",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1557-159X",
+          "authenticated-orcid": false,
+          "given": "Russell C.",
+          "family": "Rockne",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph",
+          "family": "Georges",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jana",
+          "family": "Portnow",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael E.",
+          "family": "Barish",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8146-0997",
+          "authenticated-orcid": false,
+          "given": "Massimo",
+          "family": "D’Apuzzo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas E.",
+          "family": "Banovich",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2803-4152",
+          "authenticated-orcid": false,
+          "given": "Stephen J.",
+          "family": "Forman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Behnam",
+          "family": "Badie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            7
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "myc",
+          "label": "OMO-103 first-in-human (Nature Medicine 2024)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1038%2Fs41591-024-02875-1",
+      "file": "crossref-03d4cd908aca.json",
+      "sha256": "b01d0fb5dd1cbe4f7d8c55031a0e705192de8c6684aa81a408d5bb09e8610443",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1146/annurev-pathol-052016-100127",
+      "title": [
+        "The Varied Roles of Notch in Cancer"
+      ],
+      "authors": [
+        {
+          "given": "Jon C.",
+          "family": "Aster",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Pathology, Brigham and Women's Hospital and Harvard Medical School, Boston, Massachusetts 02115;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Warren S.",
+          "family": "Pear",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Pathology and Laboratory Medicine, Abramson Family Cancer Research Institute, Perelman School of Medicine at the University of Pennsylvania, Philadelphia, Pennsylvania 19104"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephen C.",
+          "family": "Blacklow",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, Massachusetts 02115"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            24
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "notch",
+          "label": "Aster, Pear & Blacklow, The varied roles of Notch in cancer (Annual Review of Pathology 2017)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1146%2Fannurev-pathol-052016-100127",
+      "file": "crossref-433535485ea7.json",
+      "sha256": "bf2846809124bb3c937a2fa066d42d38bde76f8554fea5b785436bd91ab86237",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1056/nejmoa1910962",
+      "title": [
+        "Niraparib in Patients with Newly Diagnosed Advanced Ovarian Cancer"
+      ],
+      "authors": [
+        {
+          "given": "Antonio",
+          "family": "González-Martín",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bhavana",
+          "family": "Pothuri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ignace",
+          "family": "Vergote",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "René",
+          "family": "DePont Christensen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Whitney",
+          "family": "Graybill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mansoor R.",
+          "family": "Mirza",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Colleen",
+          "family": "McCormick",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Domenica",
+          "family": "Lorusso",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paul",
+          "family": "Hoskins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gilles",
+          "family": "Freyer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Klaus",
+          "family": "Baumann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kris",
+          "family": "Jardon",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrés",
+          "family": "Redondo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard G.",
+          "family": "Moore",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christof",
+          "family": "Vulsteke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Roisin E.",
+          "family": "O’Cearbhaill",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bente",
+          "family": "Lund",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Floor",
+          "family": "Backes",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pilar",
+          "family": "Barretina-Ginesta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ashley F.",
+          "family": "Haggerty",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maria J.",
+          "family": "Rubio-Pérez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark S.",
+          "family": "Shahin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giorgia",
+          "family": "Mangili",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "William H.",
+          "family": "Bradley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ilan",
+          "family": "Bruchim",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kaiming",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Izabela A.",
+          "family": "Malinowska",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Divya",
+          "family": "Gupta",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bradley J.",
+          "family": "Monk",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "From Grupo Español de Investigación en Cáncer de Ovario (GEICO) and the Medical Oncology Department, Clínica Universidad de Navarra (A.G.-M.) and GEICO and Hospital Universitario La Paz-IdiPAZ (A.R.), Madrid, GEICO and Medical Oncology, Catalan Institute of Oncology, Girona Biomedical Research Institute, and the Department of Medical Sciences, Medical School University of Girona, Girona (P.B.-G.), and GEICO and Hospital Universitario Reina Sofía, Cordoba (M.J.R.-P.) — all in Spain; the Gynecologic..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            19
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "hrd-genomic-scar-scores",
+          "label": "PRIMA: niraparib maintenance in advanced ovarian cancer, with the largest benefit in HRD-positive tumours (New England Journal of Medicine 2019)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1910962",
+      "file": "crossref-86b863d4ec25.json",
+      "sha256": "c87279a644a06b20d4ef71d0f542f327964458f5ecc3f7e31335f34562b19014",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1038/nm.4292",
+      "title": [
+        "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures"
+      ],
+      "authors": [
+        {
+          "given": "Helen",
+          "family": "Davies",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dominik",
+          "family": "Glodzik",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sandro",
+          "family": "Morganella",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucy R",
+          "family": "Yates",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Johan",
+          "family": "Staaf",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xueqing",
+          "family": "Zou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manasa",
+          "family": "Ramakrishna",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sancha",
+          "family": "Martin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sandrine",
+          "family": "Boyault",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1341-5400",
+          "authenticated-orcid": false,
+          "given": "Anieta M",
+          "family": "Sieuwerts",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter T",
+          "family": "Simpson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tari A",
+          "family": "King",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5634-1539",
+          "authenticated-orcid": false,
+          "given": "Keiran",
+          "family": "Raine",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jorunn E",
+          "family": "Eyfjord",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gu",
+          "family": "Kong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Åke",
+          "family": "Borg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ewan",
+          "family": "Birney",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hendrik G",
+          "family": "Stunnenberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marc J",
+          "family": "van de Vijver",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne-Lise",
+          "family": "Børresen-Dale",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3428-3366",
+          "authenticated-orcid": false,
+          "given": "John W M",
+          "family": "Martens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Paul N",
+          "family": "Span",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sunil R",
+          "family": "Lakhani",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne",
+          "family": "Vincent-Salomon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christos",
+          "family": "Sotiriou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8715-2901",
+          "authenticated-orcid": false,
+          "given": "Andrew",
+          "family": "Tutt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alastair M",
+          "family": "Thompson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Steven",
+          "family": "Van Laere",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrea L",
+          "family": "Richardson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alain",
+          "family": "Viari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peter J",
+          "family": "Campbell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael R",
+          "family": "Stratton",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Serena",
+          "family": "Nik-Zainal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            13
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "hrd-genomic-scar-scores",
+          "label": "Nature Medicine 2017: HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1038%2Fnm.4292",
+      "file": "crossref-d5328921ba13.json",
+      "sha256": "dd1a38a4f4c2d9e445188cb1823f1f927201809fff8d17df4032e3dfa42a44fa"
+    },
+    {
+      "doi": "10.1038/nrm.2017.48",
+      "title": [
+        "Non-homologous DNA end joining and alternative pathways to double-strand break repair"
+      ],
+      "authors": [
+        {
+          "given": "Howard H. Y.",
+          "family": "Chang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicholas R.",
+          "family": "Pannunzio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Noritaka",
+          "family": "Adachi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael R.",
+          "family": "Lieber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            5,
+            17
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "homologous-recombination-repair",
+          "label": "Chang, Pannunzio, Adachi & Lieber, Non-homologous DNA end joining and alternative pathways to double-strand break repair (Nat Rev Mol Cell Biol 2017)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1038%2Fnrm.2017.48",
+      "file": "crossref-3eeb398bfae7.json",
+      "sha256": "0d495908768d16e6a001e9fa2a1f55b66e579527a1d2dc55d8934f3d873f9e68",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1126/science.aam7344",
+      "title": [
+        "PARP inhibitors: Synthetic lethality in the clinic"
+      ],
+      "authors": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-3226-0515",
+          "authenticated-orcid": false,
+          "given": "Christopher J.",
+          "family": "Lord",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Cancer Research UK Gene Function Laboratory and Breast Cancer Now Toby Robins Research Centre, The Institute of Cancer Research, London SW3 6JB, UK."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1446-7878",
+          "authenticated-orcid": false,
+          "given": "Alan",
+          "family": "Ashworth",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California, San Francisco (UCSF), Helen Diller Family Comprehensive Cancer Center, 1450 Third Street, San Francisco, CA 94158, USA."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            17
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "homologous-recombination-repair",
+          "label": "Lord & Ashworth, PARP inhibitors: synthetic lethality in the clinic (Science 2017)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.aam7344",
+      "file": "crossref-2ff3aea3af91.json",
+      "sha256": "c4349b22da4651750699bd98530da4d428f8e557d2025f464c8c75e313138e54",
+      "reusedCapture": true
+    },
+    {
+      "doi": "10.1016/j.cell.2010.06.011",
+      "title": [
+        "Cell Signaling by Receptor Tyrosine Kinases"
+      ],
+      "authors": [
+        {
+          "given": "Mark A.",
+          "family": "Lemmon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph",
+          "family": "Schlessinger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2010,
+            6
+          ]
+        ]
+      },
+      "uses": [
+        {
+          "ownerId": "rtk-activation",
+          "label": "Lemmon & Schlessinger, Cell signaling by receptor tyrosine kinases (Cell 2010)"
+        }
+      ],
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2010.06.011",
+      "file": "crossref-ad0ccf0b63d3.json",
+      "sha256": "471333fc339708dd549742176edf08fe682d8610380d6deab520f9adda1f95fd"
+    }
+  ],
+  "counts": {
+    "sourceRecords": 75,
+    "resolvedPublications": 71,
+    "officialOrTextbook": 4,
+    "sourceVersions": 32,
+    "sections": 388,
+    "figureEntries": 60,
+    "figurePaths": 30,
+    "actualWorkerRenders": 30,
+    "inheritedDOIsResolved": 9
+  }
+}

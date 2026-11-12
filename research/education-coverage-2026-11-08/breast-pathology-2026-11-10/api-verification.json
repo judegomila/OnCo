@@ -1,0 +1,2227 @@
+{
+  "canonicalOwners": 22,
+  "canonicalJsonMatches": true,
+  "evidencePassages": 330,
+  "generation": [
+    {
+      "command": "tsx scripts/build-api.ts",
+      "exitCode": 0,
+      "seconds": 27.79
+    },
+    {
+      "command": "tsx scripts/build-openapi.ts",
+      "exitCode": 0,
+      "seconds": 1.63
+    },
+    {
+      "command": "tsx scripts/build-context.ts",
+      "exitCode": 0,
+      "seconds": 4.08
+    }
+  ],
+  "checks": [
+    {
+      "requirementId": "SR-01-01",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-01",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-02",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "summary",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-03",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-03",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-04",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-05",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-06",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-07",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-08",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-09",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-09",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-10",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-11",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-11",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-12",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-12",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-13",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-01-13",
+      "owner": "terminal-duct-lobular-unit",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-01",
+      "owner": "dcis",
+      "field": "tldr",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-01",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-02",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-03",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-03",
+      "owner": "dcis",
+      "field": "summary",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-04",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-04",
+      "owner": "dcis",
+      "field": "summary",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-05",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-05",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-06",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-07",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-08",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-08",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-09",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-09",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-10",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-10",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-02-11",
+      "owner": "dcis",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-01",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-02",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-03",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-03",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-04",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-05",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-06",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-07",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-08",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-09",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-09",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-10",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-11",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-12",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-03-12",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-01",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-02",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-02",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-03",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-03",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-04",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-05",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-06",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-06",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-07",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-08",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-09",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-10",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-10",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-04-11",
+      "owner": "invasive-breast-carcinoma-no-special-type",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-01",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-01",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-02",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-03",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-03",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-04",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-05",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-05",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-06",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-07",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-08",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-09",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-09",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-10",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-11",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-11",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "owner": "lymphatic-drainage-and-axilla",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-05-12",
+      "owner": "internal-mammary-nodes",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-01",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-02",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-03",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-03",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-04",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-05",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-05",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-06",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-06",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-07",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-08",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-08",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-09",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-10",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-11",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-11",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-06-12",
+      "owner": "myoepithelial-cells-and-basement-membrane",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-01",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-02",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-03",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-04",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-04",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-05",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-05",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-06",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-07",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-08",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-08",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-09",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-09",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-10",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-10",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-07-11",
+      "owner": "ajcc-prognostic-stage-breast",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-01",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-02",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-03",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-03",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-04",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-05",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-05",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-06",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-06",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-07",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-08",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-09",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-10",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-10",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-08-11",
+      "owner": "nottingham-grade",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-01",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-01",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-02",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-03",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-04",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-05",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-05",
+      "owner": "ki-67-index",
+      "field": "summary",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-06",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-07",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-08",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-09",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-10",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-09-10",
+      "owner": "ki-67-index",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-01",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-02",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-03",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-04",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-05",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-06",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-06",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-07",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-07",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-08",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-09",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-10",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-10",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-11",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-10-12",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-01",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "owner": "lymph-node-status",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-02",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-03",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-04",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-05",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-06",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-07",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-08",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-08",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-09",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-09",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-10",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-11-10",
+      "owner": "tnm-staging",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-01",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-02",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-02",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-03",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-03",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-04",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-05",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-06",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-06",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-07",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-07",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-08",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-10",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-12-10",
+      "owner": "extranodal-extension",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-01",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-01",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-02",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-03",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-04",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-05",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-06",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-07",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "owner": "lumpectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-08",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-09",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-10",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-11",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-12",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-12",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-13-13",
+      "owner": "breast-conserving-surgery-versus-mastectomy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-01",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-01",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-02",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-02",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-03",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-04",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-04",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-05",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-06",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-07",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-08",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-09",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-09",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-10",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-10",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-11",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-11",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-14-12",
+      "owner": "pcr",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-01",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-02",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-03",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-04",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-04",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-05",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-05",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-06",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-07",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-08",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-08",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-09",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-10",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-11",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-12",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-13",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-15-14",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-01",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-02",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-03",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-03",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-04",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-04",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-05",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-06",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-06",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-07",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-08",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-08",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-09",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-09",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-10",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-11",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-12",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-12",
+      "owner": "sentinel-lymph-node-biopsy",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-16-13",
+      "owner": "targeted-axillary-dissection",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-01",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-01",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-02",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-03",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-04",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-05",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-06",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-07",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-08",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-09",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-09",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-10",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-11",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-17-12",
+      "owner": "resection-margins",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-01",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-02",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-02",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-03",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-04",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-05",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-06",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-07",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-08",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-09",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-18-10",
+      "owner": "treatment-effect-in-pathology",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-01",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-02",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-03",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-04",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-04",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-05",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-05",
+      "owner": "rcb",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-06",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-07",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-08",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-09",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-09",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    },
+    {
+      "requirementId": "SR-19-10",
+      "owner": "tumor-bed-cellularity",
+      "field": "notes",
+      "passageInActualMarkdown": true
+    }
+  ],
+  "immutableFiles": [
+    {
+      "path": "ki-67-index.json",
+      "bytes": 8426,
+      "sha256": "75ce9faecfe7baca1c3a96f13d6206fb44036a169e19403d8b7b1e759f110af3"
+    },
+    {
+      "path": "ki-67-index.md",
+      "bytes": 6005,
+      "sha256": "9a9ce4eb09575a0cc744271014dc6f48672447d2e76cdcdd58bc16ee5cad83dc"
+    },
+    {
+      "path": "extranodal-extension.json",
+      "bytes": 7702,
+      "sha256": "b134dc24e4b47fc56d6b3992c0d09497e5133c00f60661391e631c92283db014"
+    },
+    {
+      "path": "extranodal-extension.md",
+      "bytes": 6498,
+      "sha256": "88764b6832d7919ed64647db38b2bf9b2faef5e9e04db9e1d035f7df42a04886"
+    },
+    {
+      "path": "sentinel-lymph-node-biopsy.json",
+      "bytes": 10654,
+      "sha256": "439cc053ec6b92f34d713e98ee8986ffd6c67cc590c51d6fa99d247232e54042"
+    },
+    {
+      "path": "sentinel-lymph-node-biopsy.md",
+      "bytes": 8731,
+      "sha256": "a8bf3e3c003864f3d7ed7b77799828d3e5d2354423793573811fd976bb2db1c9"
+    },
+    {
+      "path": "dcis.json",
+      "bytes": 7103,
+      "sha256": "e912a6a4e1ed1b6d53e9b57b6eced2809a46ce95be1a2551bee726ae24bbf856"
+    },
+    {
+      "path": "dcis.md",
+      "bytes": 6152,
+      "sha256": "7308ef29e03effe8c25f0afece6e3d2386957a524f7a7a39d79ea7386d33ca6e"
+    },
+    {
+      "path": "pcr.json",
+      "bytes": 23719,
+      "sha256": "ccefdd81cdb5be30d6c7f125e9ec2a960188a21ce19937e2602c2ae30b4bbd7f"
+    },
+    {
+      "path": "pcr.md",
+      "bytes": 18128,
+      "sha256": "4e51e3cfa9adab1d1b83afaedd9708eab5d69b0f4e09eda24c1377b6180d1e68"
+    },
+    {
+      "path": "rcb.json",
+      "bytes": 17371,
+      "sha256": "2eb12b7f961beeaa33fc29a0c188081280617ac2f2ec6f75d6d38c2641728691"
+    },
+    {
+      "path": "rcb.md",
+      "bytes": 14778,
+      "sha256": "c0e357b6cc7469f275552da0950a005858388c02a0a4c3bed63967c8a008ad8c"
+    },
+    {
+      "path": "tnm-staging.json",
+      "bytes": 14717,
+      "sha256": "cb1155e4c9e69a1a469f375e0359582a20396059546e105c2db70ca03a279024"
+    },
+    {
+      "path": "tnm-staging.md",
+      "bytes": 11144,
+      "sha256": "709bf831f63d1f94cb6aa0cb788e5e71b764ae647146a63bd19815f7f113c59e"
+    },
+    {
+      "path": "terminal-duct-lobular-unit.json",
+      "bytes": 8917,
+      "sha256": "bedd004dd0ef4e72c88f507599f87a0b9795423913f8de05b4b61326856b5c42"
+    },
+    {
+      "path": "terminal-duct-lobular-unit.md",
+      "bytes": 7624,
+      "sha256": "d69083038e73f7d585b7442d65f31157c8ce05747a9412fa98b3b54eb0268e01"
+    },
+    {
+      "path": "nottingham-grade.json",
+      "bytes": 9010,
+      "sha256": "d036a0b71db3a89567af052b7c887bace753944bb045e4b016ac564011af45bb"
+    },
+    {
+      "path": "nottingham-grade.md",
+      "bytes": 7635,
+      "sha256": "8e097a246cf8b5486db3312e68df6a6256e45996dc62392d916a49212732aad0"
+    },
+    {
+      "path": "targeted-axillary-dissection.json",
+      "bytes": 7104,
+      "sha256": "19654c63210f0558629e58a2e3541f5a96d3ef80c2f5e06c1c3212fc5679b57d"
+    },
+    {
+      "path": "targeted-axillary-dissection.md",
+      "bytes": 6051,
+      "sha256": "71ef44e0fd30345292600e7c420218c9b21050b14c73f0506fb3a157a32a46d7"
+    },
+    {
+      "path": "ajcc-prognostic-stage-breast.json",
+      "bytes": 7034,
+      "sha256": "7a57299e3356b2d5fcde1a8ae82e38cdb398e7f4aadfb6dff0655e2aafe70451"
+    },
+    {
+      "path": "ajcc-prognostic-stage-breast.md",
+      "bytes": 6220,
+      "sha256": "2aff5a19f10a80b0a9a4f342438e4d56e8938706e6ba5553e6d154ece0f44516"
+    },
+    {
+      "path": "internal-mammary-nodes.json",
+      "bytes": 4261,
+      "sha256": "16fe8462dcd0217f44098004b9e331de0665fa7d33c9fcea29edd217a1907451"
+    },
+    {
+      "path": "internal-mammary-nodes.md",
+      "bytes": 3758,
+      "sha256": "9e833a6915dc745bef0e718a0115816655a77ce555d251472e5aa588c5cc8312"
+    },
+    {
+      "path": "lymphatic-drainage-and-axilla.json",
+      "bytes": 3857,
+      "sha256": "ab6c328bae48b34c130bab0a3abcfc29353c413e0435b8165b7be70fbaec0d60"
+    },
+    {
+      "path": "lymphatic-drainage-and-axilla.md",
+      "bytes": 3391,
+      "sha256": "4a57bf29774e7c9ebb8776fb6e2ef62789af8a77f36db62d4cfd2f1826bb2fc1"
+    },
+    {
+      "path": "myoepithelial-cells-and-basement-membrane.json",
+      "bytes": 5340,
+      "sha256": "8af4fe1d6e9bd9dc8cffe9972742159825c262187dc2fc063856bf12dced11b9"
+    },
+    {
+      "path": "myoepithelial-cells-and-basement-membrane.md",
+      "bytes": 4888,
+      "sha256": "436f9b04763dfc236035f1994a39733573641a6555d26279567c2dc22897deba"
+    },
+    {
+      "path": "treatment-effect-in-pathology.json",
+      "bytes": 4307,
+      "sha256": "8ff51d5ac767d6d684445a11cb13e5ced1586532a476c173b3758c17bb57fe02"
+    },
+    {
+      "path": "treatment-effect-in-pathology.md",
+      "bytes": 3935,
+      "sha256": "bb587256e349d18ef08cbf0027276dc00de48cc67bdfd5e5fe7501c598191bb4"
+    },
+    {
+      "path": "tumor-bed-cellularity.json",
+      "bytes": 4509,
+      "sha256": "45153e0982cd92aa07fece82e99d07beea378386d05a4dfae28497ade287fa29"
+    },
+    {
+      "path": "tumor-bed-cellularity.md",
+      "bytes": 4145,
+      "sha256": "f16ac682a6f40fde2e5e50182b21b78bade390b8e320c587f4c29aebcf7f6c5d"
+    },
+    {
+      "path": "invasive-breast-carcinoma-no-special-type.json",
+      "bytes": 10353,
+      "sha256": "d3f255b4cda6796175cb3b0fb2854f7f52df11391756d87afc91221ae4719055"
+    },
+    {
+      "path": "invasive-breast-carcinoma-no-special-type.md",
+      "bytes": 11989,
+      "sha256": "19c9578f8bed6211092e658cb2b33d94dd28ae5cba8a2868da338d32ba20b881"
+    },
+    {
+      "path": "lymph-node-status.json",
+      "bytes": 8028,
+      "sha256": "6c2ad34957642ace300c2d7d92c8decca38aae9e4cef102e3fe8876e5a6f2ae4"
+    },
+    {
+      "path": "lymph-node-status.md",
+      "bytes": 6994,
+      "sha256": "62876f26d77734740ec9ca32a2b3e55cb1c8c32ebd7c74bf8f437c10bc41f23b"
+    },
+    {
+      "path": "breast-conserving-surgery-versus-mastectomy.json",
+      "bytes": 8797,
+      "sha256": "f9b716151f28d289ef922651c98a8cde4400e2a5a777e9fdd4fc580d5ef92b91"
+    },
+    {
+      "path": "breast-conserving-surgery-versus-mastectomy.md",
+      "bytes": 7737,
+      "sha256": "d9f444c3423ab7825ece29409a02125028b701b22df737e313360e7763dad6fa"
+    },
+    {
+      "path": "resection-margins.json",
+      "bytes": 14198,
+      "sha256": "b917ba74eac0bb40c7cd45ff4510ce5cfc0790ecc5aac19013683d2b28b14365"
+    },
+    {
+      "path": "resection-margins.md",
+      "bytes": 11309,
+      "sha256": "afec3766c99ba45562e827d9700df624aa5f5524fbece482fb17c6705def91bc"
+    },
+    {
+      "path": "lumpectomy.json",
+      "bytes": 11354,
+      "sha256": "5c7a189f0b98114288a293835aca8e0beae92df89f1b1f9bc41f26757f9bdf3f"
+    },
+    {
+      "path": "lumpectomy.md",
+      "bytes": 9033,
+      "sha256": "8e39558ae92fb9c555506aae5137ff83454be216cf677b53d3b82e6cf29eac06"
+    },
+    {
+      "path": "mastectomy.json",
+      "bytes": 11669,
+      "sha256": "d8b80072558795bab436eb97742d8491d70c6caae828e18ff3fa81c63618081a"
+    },
+    {
+      "path": "mastectomy.md",
+      "bytes": 9041,
+      "sha256": "c9cef1508f14913a883a7c485d1ee5d6004f37ee8812fb2bec822e79efe215e3"
+    }
+  ],
+  "scope": "Actual entity JSON, OpenAPI and Markdown generators. No new Next page build, hydration, browser-layout or deployment claim."
+}

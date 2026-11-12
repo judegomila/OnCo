@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cholesterol-and-srebp-members",
+    "owner": "lipid-metabolism-cancer",
+    "field": "notes",
+    "exactExcerpt": "In transgenic mice expressing a truncated SREBP-2 construct, Horton and colleagues observed preferential activation of cholesterol synthesis over fatty-acid synthesis in liver and adipose tissue, contrasting it with earlier SREBP-1a results. They separately measured transcripts and synthesis using labelled water. These are relative effects in a named experimental system, not exclusive duties of each family member or proof that a transcript measurement equals flux. Precursor location and nuclear processing require their own measurements.",
+    "sources": [
+      "9616204",
+      "19041766"
+    ],
+    "scope": "Horton raw abstract, earlier SCAP-SREBP selected primary text; transgenic/model scope"
+  },
+  {
+    "id": "cholesterol-and-srebp-rescue",
+    "owner": "lipid-metabolism-cancer",
+    "field": "notes",
+    "exactExcerpt": "Statins inhibit HMG-CoA reductase upstream in the mevalonate pathway, which supplies cholesterol and nonsterol products. In Freed-Pastor and colleagues' breast-cancer 3D cultures, geranylgeranyl pyrophosphate partially rescued an invasive phenotype after mutant-p53 depletion or simvastatin treatment. This illustrates why mevalonate rescue alone cannot uniquely attribute an effect to cholesterol. It does not identify every relevant metabolite, establish a universal cancer dependency or show that a statin perturbation reproduces every change in SCAP-SREBP regulation.",
+    "sources": [
+      "22265415"
+    ],
+    "scope": "Selected primary Results/Discussion and Figure 5 context in author-manuscript XML; no clinical extrapolation"
+  },
+  {
+    "id": "oxidative-phosphorylation-gradient",
+    "owner": "oxidative-phosphorylation",
+    "field": "notes",
+    "exactExcerpt": "In mitochondria, respiratory electron transfer and proton movement are distinct processes. Some respiratory complexes move protons from the matrix into the intermembrane space; return through ATP synthase can support ATP formation, while other return pathways dissipate the gradient without that synthesis step. The illustrated arrows identify paths, not a fixed proton-to-ATP ratio. In Racker and Stoeckenius' reconstituted vesicles, a light-driven membrane system from Halobacterium supported ATP formation when mitochondrial ATPase was included. Their artificial vesicles pumped in the opposite direction to the intact source cells, so the experiment supports coupling without specifying a universal cellular orientation or ratio.",
+    "sources": [
+      "4272126",
+      "OpenStax Biology 2e 7.4"
+    ],
+    "scope": "Original paper Summary/Introduction via indexed transcription, not a downloaded PDF; accessible educational text for mitochondrial compartments"
+  },
+  {
+    "id": "oxidative-phosphorylation-method-version",
+    "owner": "oxidative-phosphorylation",
+    "field": "notes",
+    "exactExcerpt": "Extracellular acidification can include respiration-derived carbon dioxide as well as glycolytic acid production. Keep correction assumptions, normalisation and method version with any calculated ATP rate. The 2018 correction to Mookerjee and colleagues' 2017 method changes the ATP-linked oxygen-rate equation and reports use of a different hyperpolarization factor in some calculations; several numerical rates changed while the authors retained their qualitative conclusions. An inhibitor-sensitive oxygen-rate difference is therefore not itself an ATP rate, and an unversioned fixed conversion should not be inferred.",
+    "sources": [
+      "25449966",
+      "30097494"
+    ],
+    "scope": "Primary abstract and official full correction text via web retrieval; direct XML/HTML access failures retained"
+  }
+]

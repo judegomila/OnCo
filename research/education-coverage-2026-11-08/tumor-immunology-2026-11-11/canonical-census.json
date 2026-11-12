@@ -1,0 +1,320 @@
+{
+  "reserved": [
+    "agretopicity",
+    "adaptive-immune-resistance",
+    "perioperative-immune-window",
+    "cd4-t-cell-subsets"
+  ],
+  "semanticNeighbors": [
+    {
+      "catalog": "root",
+      "id": "resistance",
+      "kind": "term",
+      "name": "Drug resistance (primary and acquired)",
+      "aka": [
+        "acquired resistance",
+        "primary resistance",
+        "adaptive resistance",
+        "pre-existing resistance",
+        "resistance mechanism",
+        "resistance mechanisms",
+        "resistant clone",
+        "resistant clones",
+        "resistant subclone",
+        "resistant subclones",
+        "bypass pathways",
+        "bypass signalling",
+        "bypass resistance",
+        "chemoresistance",
+        "chemoresistant",
+        "chemotherapy resistance",
+        "TKI resistance",
+        "TKI-resistant",
+        "drug-resistant",
+        "therapy-resistant",
+        "become resistant",
+        "becomes resistant",
+        "escape mechanism",
+        "escape mechanisms",
+        "escape mutation",
+        "escape mutations",
+        "reversion mutations",
+        "BRCA reversion",
+        "on-target mutations",
+        "compound resistance mutations",
+        "confers resistance",
+        "emergence of resistance",
+        "overcome resistance",
+        "resistance alteration",
+        "resistance pathway",
+        "resistant disease"
+      ]
+    },
+    {
+      "catalog": "root",
+      "id": "regulatory-t-cells",
+      "kind": "term",
+      "name": "Regulatory T cells",
+      "aka": [
+        "Treg",
+        "Tregs",
+        "regulatory T cell"
+      ]
+    },
+    {
+      "catalog": "root",
+      "id": "immunonutrition-perioperative",
+      "kind": "technology",
+      "name": "Immunonutrition before cancer surgery",
+      "aka": []
+    },
+    {
+      "catalog": "root",
+      "id": "rrm2b",
+      "kind": "target",
+      "name": "RRM2B",
+      "aka": [
+        "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+        "Ribonucleoside-diphosphate reductase subunit M2 B",
+        "p53R2"
+      ]
+    },
+    {
+      "catalog": "root",
+      "id": "srms",
+      "kind": "target",
+      "name": "SRMS",
+      "aka": [
+        "src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites",
+        "Tyrosine-protein kinase Srms",
+        "dJ697K14.1",
+        "PTK70",
+        "C20orf148"
+      ]
+    },
+    {
+      "catalog": "shared",
+      "id": "resistance",
+      "kind": "term",
+      "name": "Drug resistance (primary and acquired)",
+      "aka": [
+        "acquired resistance",
+        "primary resistance",
+        "adaptive resistance",
+        "pre-existing resistance",
+        "resistance mechanism",
+        "resistance mechanisms",
+        "resistant clone",
+        "resistant clones",
+        "resistant subclone",
+        "resistant subclones",
+        "bypass pathways",
+        "bypass signalling",
+        "bypass resistance",
+        "chemoresistance",
+        "chemoresistant",
+        "chemotherapy resistance",
+        "TKI resistance",
+        "TKI-resistant",
+        "drug-resistant",
+        "therapy-resistant",
+        "become resistant",
+        "becomes resistant",
+        "escape mechanism",
+        "escape mechanisms",
+        "escape mutation",
+        "escape mutations",
+        "reversion mutations",
+        "BRCA reversion",
+        "on-target mutations",
+        "compound resistance mutations",
+        "confers resistance",
+        "emergence of resistance",
+        "overcome resistance",
+        "resistance alteration",
+        "resistance pathway",
+        "resistant disease"
+      ]
+    },
+    {
+      "catalog": "shared",
+      "id": "self-similarity-immune-recognition",
+      "kind": "term",
+      "name": "Self-similarity and immune-recognition specificity",
+      "aka": [
+        "peptide self-similarity and immune specificity",
+        "TCR cross-recognition"
+      ]
+    },
+    {
+      "catalog": "shared",
+      "id": "immunonutrition-perioperative",
+      "kind": "technology",
+      "name": "Immunonutrition before cancer surgery",
+      "aka": []
+    },
+    {
+      "catalog": "shared",
+      "id": "t-cell",
+      "kind": "term",
+      "name": "T cell",
+      "aka": [
+        "T cells",
+        "T-cell",
+        "T-cells",
+        "T lymphocyte",
+        "T lymphocytes",
+        "cytotoxic T cell",
+        "cytotoxic T cells",
+        "CD8 T cell",
+        "CD8 T cells",
+        "CD8+ T cell",
+        "CD8+ T cells",
+        "CD8+",
+        "CD4+",
+        "helper T cell",
+        "helper T cells",
+        "regulatory T cell",
+        "regulatory T cells",
+        "Treg",
+        "Tregs",
+        "killer T cell",
+        "killer T cells",
+        "T-cell exhaustion",
+        "exhausted T cells"
+      ]
+    },
+    {
+      "catalog": "shared",
+      "id": "rrm2b",
+      "kind": "target",
+      "name": "RRM2B",
+      "aka": [
+        "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+        "Ribonucleoside-diphosphate reductase subunit M2 B",
+        "p53R2"
+      ]
+    },
+    {
+      "catalog": "shared",
+      "id": "srms",
+      "kind": "target",
+      "name": "SRMS",
+      "aka": [
+        "src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites",
+        "Tyrosine-protein kinase Srms",
+        "dJ697K14.1",
+        "PTK70",
+        "C20orf148"
+      ]
+    },
+    {
+      "catalog": "peer",
+      "id": "resistance",
+      "kind": "term",
+      "name": "Drug resistance (primary and acquired)",
+      "aka": [
+        "acquired resistance",
+        "primary resistance",
+        "adaptive resistance",
+        "pre-existing resistance",
+        "resistance mechanism",
+        "resistance mechanisms",
+        "resistant clone",
+        "resistant clones",
+        "resistant subclone",
+        "resistant subclones",
+        "bypass pathways",
+        "bypass signalling",
+        "bypass resistance",
+        "chemoresistance",
+        "chemoresistant",
+        "chemotherapy resistance",
+        "TKI resistance",
+        "TKI-resistant",
+        "drug-resistant",
+        "therapy-resistant",
+        "become resistant",
+        "becomes resistant",
+        "escape mechanism",
+        "escape mechanisms",
+        "escape mutation",
+        "escape mutations",
+        "reversion mutations",
+        "BRCA reversion",
+        "on-target mutations",
+        "compound resistance mutations",
+        "confers resistance",
+        "emergence of resistance",
+        "overcome resistance",
+        "resistance alteration",
+        "resistance pathway",
+        "resistant disease"
+      ]
+    },
+    {
+      "catalog": "peer",
+      "id": "immunonutrition-perioperative",
+      "kind": "technology",
+      "name": "Immunonutrition before cancer surgery",
+      "aka": []
+    },
+    {
+      "catalog": "peer",
+      "id": "t-cell",
+      "kind": "term",
+      "name": "T cell",
+      "aka": [
+        "T cells",
+        "T-cell",
+        "T-cells",
+        "T lymphocyte",
+        "T lymphocytes",
+        "cytotoxic T cell",
+        "cytotoxic T cells",
+        "CD8 T cell",
+        "CD8 T cells",
+        "CD8+ T cell",
+        "CD8+ T cells",
+        "CD8+",
+        "CD4+",
+        "helper T cell",
+        "helper T cells",
+        "regulatory T cell",
+        "regulatory T cells",
+        "Treg",
+        "Tregs",
+        "killer T cell",
+        "killer T cells",
+        "T-cell exhaustion",
+        "exhausted T cells"
+      ]
+    },
+    {
+      "catalog": "peer",
+      "id": "rrm2b",
+      "kind": "target",
+      "name": "RRM2B",
+      "aka": [
+        "ribonucleotide reductase regulatory TP53 inducible subunit M2B",
+        "Ribonucleoside-diphosphate reductase subunit M2 B",
+        "p53R2"
+      ]
+    },
+    {
+      "catalog": "peer",
+      "id": "srms",
+      "kind": "target",
+      "name": "SRMS",
+      "aka": [
+        "src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites",
+        "Tyrosine-protein kinase Srms",
+        "dJ697K14.1",
+        "PTK70",
+        "C20orf148"
+      ]
+    }
+  ],
+  "exactPendingOwnerHits": [],
+  "review": "The four proposed subjects are narrower/different than general resistance, the CD4 co-receptor, Tregs and perioperative treatment timing. Their mechanism and measurement scope requires full owner review, not just lexical absence."
+}

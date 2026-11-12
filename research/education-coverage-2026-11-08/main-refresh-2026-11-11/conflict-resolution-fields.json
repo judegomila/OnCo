@@ -1,0 +1,56 @@
+[
+  {
+    "id": "functional-drug-testing",
+    "file": "src/data/technologies.ts",
+    "fields": {
+      "companies": [
+        "certis-oncology-solutions",
+        "known-medicine",
+        "notable-labs",
+        "origin-bio",
+        "zpredicta",
+        "kernis-health",
+        "palitra-bio",
+        "valius",
+        "specicare",
+        "storemytumor",
+        "travera",
+        "first-ascent-biomedical",
+        "kiyatec",
+        "sagemedic",
+        "kyan-technologies",
+        "cancertain",
+        "2curex",
+        "oncosyne"
+      ],
+      "institutions": [
+        "cure-first"
+      ]
+    },
+    "reason": "Preserve main reclassification of Cure First as an institution while retaining audited teaching fields."
+  },
+  {
+    "id": "organoids",
+    "file": "src/data/technologies.ts",
+    "fields": {
+      "companies": [
+        "known-medicine",
+        "zpredicta",
+        "kernis-health",
+        "specicare",
+        "kiyatec",
+        "sagemedic",
+        "2curex",
+        "orakl-oncology",
+        "oncosyne",
+        "signet-therapeutics",
+        "aummune",
+        "cellesce"
+      ],
+      "institutions": [
+        "cure-first"
+      ]
+    },
+    "reason": "Preserve main reclassification of Cure First as an institution while retaining audited teaching fields."
+  }
+]

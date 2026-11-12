@@ -1,0 +1,34 @@
+[
+  {
+    "files": [
+      "prior-and-tonic-core.json"
+    ],
+    "scope": "Complete available MED abstracts read. Long tonic-signalling and Kawalekar metabolism/memory comparisons apply to specified constructs/cell experiments, not all clinical products. Deng 24-patient infusion-product associations do not validate a corrective modification or universal clinical selector."
+  },
+  {
+    "files": [
+      "stemlike-exhaustion-search.json"
+    ],
+    "scope": "All four returned MED abstracts read. Siddiqui functional subset experiments are tumour-model evidence with human-cell observations; marker/state and checkpoint-response scope retained. The three other studies remain screened, unused viral/preclinical work. No unavailable full article is claimed read."
+  },
+  {
+    "files": [
+      "transgene-2025-core.json",
+      "transgene-pmc.html"
+    ],
+    "scope": "Complete MED abstract and selected full-text measurement, B-cell recovery, relapse and discussion passages read. Full-text title/PMID/DOI checked against MED. Disease, tissue, qPCR sensitivity, recovery definitions and transplant/censoring limits are retained; no personal or universal relapse cutoff."
+  },
+  {
+    "files": [
+      "humanized-cd19-core.json",
+      "huCART19-pmc.html"
+    ],
+    "scope": "Three MED identities, both available complete abstracts and selected huCART19 B-cell-aplasia/results passages read. Full-text title/PMID/DOI independently matched. Recovery without subsequent relapse and relapse without prior recovery do not isolate untreated natural history: reinfusion/transplantation occurred. One additional MED item supplies no abstract and is unused."
+  },
+  {
+    "files": [
+      "decade-persistence-2026-core.json"
+    ],
+    "scope": "Complete MED abstract read, not full text. The selected five-of-eight tested long-term-responder result is not an all-patient persistence rate; three had B-cell aplasia. No required duration or whole-body killing is established."
+  }
+]

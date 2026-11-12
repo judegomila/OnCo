@@ -1,0 +1,95 @@
+[
+  {
+    "files": [
+      "ablation-consensus-pmc.html",
+      "lubner-mechanisms-pmc.html",
+      "med-25738477.json",
+      "med-22933102.json",
+      "med-9787063.json",
+      "rsna-acr-ablation.html"
+    ],
+    "scope": "Resolved publication identities and complete MED abstracts read. Selected consensus definitions/parameters/success-follow-up sections and microwave mechanisms read, not every article. Device power/time/temperature, coverage and viability are not interchangeable. Calf-liver experiment is ex vivo; six-test-swine kidney rim and proposed renal margin are not a universal human boundary. Historical freezing advice/device inventory are not adopted as current prescriptions."
+  },
+  {
+    "files": [
+      "icd-pmc.html",
+      "med-32209603.json"
+    ],
+    "scope": "Consensus definition, assay and in-vivo model/clinical interpretation sections read. DAMPs, apoptosis or peripheral markers do not alone establish protective adaptive immunity; mouse vaccination is not established human disease. No immune-optimal dose inferred."
+  },
+  {
+    "files": [
+      "iaea-radiation-physics-2005.pdf",
+      "iaea-bed-cervical-2014.pdf",
+      "nci-radiation-basics.html",
+      "nci-external-beam.html",
+      "med-35283342.json",
+      "med-20233825.json"
+    ],
+    "scope": "2005 handbook sections 2.5, 14.4, 14.6, 14.7 and 14.8 read for units, damage, repair and model context. Additional PDF filename carries a retrieval label, but its own title/copyright resolves it to IAEA 2013 Human Health Reports 6; only Appendix XI BED model passage used. BED-versus-delivery distinction is an explicit educational inference from model and technical-delivery definitions. No numeric BED equivalence, safe distance, personal dose plan or old clinical threshold adopted. ASTRO technical consensus and Timmerman peripheral-inoperable setting are limited to complete available abstracts."
+  },
+  {
+    "files": [
+      "med-18356109.json",
+      "med-24055415.json",
+      "med-32580883.json"
+    ],
+    "scope": "Complete MED identities/abstracts read. START-A/pilot planned meta-analysis provides endpoint-specific uncertain alpha/beta; START-B and five-year FAST-Forward use exact populations/regimens/endpoints. No arbitrary five-visit, nodal, reirradiation or immune-optimal equivalence."
+  },
+  {
+    "files": [
+      "booster-pmc.html",
+      "curb-pmc.html",
+      "nrg-br002-pmc.html",
+      "pacific5-pmc.html"
+    ],
+    "scope": "Complete MED abstracts and selected full-text methods/results/population/endpoint/harms sections read, not every supplement. BOOSTER 65 randomised/62 main analysis, PFS before randomisation, separate randomisation clock, exploratory modality selection and separate 97-person cytokine cohort retained. Overall-survival interval/test and thermal-subgroup count conflicts are disclosed. CURB primary journal report overrides review histology shorthand, not its quoted abstract. NRG-BR002 eligible population, 95% versus 70% intervals and one-sided/stratified tests stay distinct. PACIFIC original primary versus 2022 updated cutoff/follow-up remain separate; five-year survival is not cure."
+  },
+  {
+    "files": [
+      "b51-pmc.html",
+      "z0011-pmc.html",
+      "med-25439688.json",
+      "amaros-ten-year-core.json",
+      "residual-classification-core.json",
+      "nci-breast-surgery.html",
+      "nci-lumpectomy.html",
+      "nci-mastectomy.html",
+      "nci-breast-radiation.html"
+    ],
+    "scope": "Complete available MED abstracts; selected B-51 population, methods/fields, events, isolated-cell caveat and follow-up context and Z0011 methods/results/limitations read. B-51 full report defines clinical N1 anatomically, not as pathological 1-3 nodes; ypN0i+ allowed but no subgroup frequency/outcome collected. Z0011 available abstract/full text first-report-year wording conflicts with its cited bibliography; overview omits that year rather than guesses. Surgery-first evidence does not answer A011202 residual disease. AMAROS 2014 and ten-year 2023 abstract versions stay separate. IASLC traditional R definitions and lung proposal do not universalise breast margin standards. Other retained quantitative breast margin standards are not newly certified."
+  },
+  {
+    "files": [
+      "fda-radiopharmaceutical-2019.pdf",
+      "fda-pluvicto-july2026.html",
+      "eanm-guideline-pmc.html"
+    ],
+    "scope": "FDA nonclinical guidance exposure/dosimetry context read; not a universal clinical protocol. Exact July 2026 PSMA product/diagnostic/ARPI/disease announcement is a dated example, not an exhaustive current label or cross-cancer indication. 2023 joint EANM/SNMMI selection/dosimetry sections and complete MED abstract read; then-approved fixed activity/nonmandatory individual dosimetry and unconfirmed adaptation benefit remain scoped. European legal text is not adopted as current legal advice."
+  },
+  {
+    "files": [
+      "nci-residual-tumor-table.html",
+      "sir-ablation-reporting.pdf",
+      "curb-conference-2022-crossref.json",
+      "elicit-presentation-crossref.json"
+    ],
+    "scope": "NCI table returned HTTP 200 challenge content and supplies no claim. Original SIR PDF had TLS failure; same DOI/PMID full-text PMC alternative used. Two Crossref 429 failures leave those discovery identifiers unverified and unused as load-bearing evidence."
+  },
+  {
+    "files": [
+      "elicit-lung-cohort-core.json",
+      "elicit-breast-review-core.json",
+      "elicit-practical-review-core.json",
+      "elicit-immune-preprint-crossref.json",
+      "curb-conference-2021-crossref.json"
+    ],
+    "scope": "Screened discovery follow-ups only at per-occurrence depth. Complete available MED abstracts or Crossref posted-content abstract read; no absent full-text or clinical validation claimed."
+  },
+  {
+    "files": [
+      "new-paper-esummary.json"
+    ],
+    "scope": "Four new paper identities independently resolved through NCBI ESummary and read; titles, years and DOIs agree with the resolved MED records. The existing parser appends only these four to paper-ids.json, preserving every legacy entry and the legacy snapshot date. Current retrieval time/hash is recorded here, not claimed for old entries."
+  }
+]

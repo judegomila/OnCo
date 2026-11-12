@@ -1,0 +1,230 @@
+{
+  "sourceFirstInventoryFrozenBeforeCandidateComparison": true,
+  "inventoriesKeptSeparate": true,
+  "versions": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+      "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+      "gitBlob": "b5c19c49d7c69e902ccd97bfdf04fbadd25e2903",
+      "bytes": 8867,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing.md",
+      "sha256": "24d66ae7ea70292cf269d6b1b8620a86a095594d1267e03e85944d7b04c04ed7",
+      "gitBlob": "9d69b1afb5d2a73bdc83d68f8b79facd72c79e21",
+      "bytes": 8540,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes.md",
+      "sha256": "82ffd0d8d785fe6aabd378b673d66d8e7feb03e619ace013e70079bf1e40bdb6",
+      "gitBlob": "9991c68517743a4332504bb785ed75f621dd4db2",
+      "bytes": 7713,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+      "sha256": "4811d8be06df4f089cb32708a273e8fb02307559d2467825d790395128ef802e",
+      "gitBlob": "05ac482d4afa6621d6f43c3519972931e8f94b79",
+      "bytes": 8951,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "sha256": "6b5a0e5284f7ad2ca707d834f8ba8955eca7aa63f4c8c0fd731777a416e83f90",
+      "gitBlob": "fb855853ca4c7f138b1ca476373cc8ff2421c0af",
+      "bytes": 8821,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/tnbc-recurrence-timing-and-sites.md",
+      "sha256": "4a5f62c6d7894223be02c64734e61f916ac3e923f188ffca1e205200d15b56a8",
+      "gitBlob": "e4237b9b7ba93e2cd738f310e6aeaf4336fecbde",
+      "bytes": 7852,
+      "sectionSignatures": 9
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor.md",
+      "sha256": "05808be468f3e601393b0770504a920eb8b1922dee9034deba2facd18640392e",
+      "gitBlob": "32b1997721cc8ceb1e8d16a3b527789c507a2920",
+      "bytes": 7843,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+      "sha256": "7b2d07a2c964ad19f0dddc2f39e7fe29bd5344d1367f4d57f5e95ad8560bbd17",
+      "gitBlob": "81b0e9d64e893f84908233c948a81022c617f3eb",
+      "bytes": 10357,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor.md",
+      "sha256": "c6b0c77500564d208e7f28860ce90b2782bdadca77fdb3e80a4bbadb0a2c8b6c",
+      "gitBlob": "100807c485792f3da8dd7210f00762e971f805e3",
+      "bytes": 7686,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "sha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+      "gitBlob": "fda09610c1b3bf865d235aca4c0802c485e7b899",
+      "bytes": 8379,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc.md",
+      "sha256": "9aa0e24b6d27ce171e6f22b2015db1198385a7c0a9d2f9f86dc165c20fbe1d46",
+      "gitBlob": "5ce26500d9d32f0fd661e4e6173bea7153babeb4",
+      "bytes": 10759,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/curative-intent.md",
+      "sha256": "22642f312e673f5b97209dc0b67c5309b9a9d90c9a98388be35556d94b7a6f74",
+      "gitBlob": "f721ee881e21d46b535dd5f95ff3bf486c4551cf",
+      "bytes": 7676,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/brcaness.md",
+      "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+      "gitBlob": "b5c19c49d7c69e902ccd97bfdf04fbadd25e2903",
+      "bytes": 8867,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/germline-testing.md",
+      "sha256": "3ac2ed22954d18dfd0ee863563ca001c7e1ef8b8196416223b7373a7e626ecc5",
+      "gitBlob": "1234db90607207d71022f7944dd73af14098636c",
+      "bytes": 8549,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/hereditary-breast-cancer-genes.md",
+      "sha256": "78ccbe50de32245a8c2aecbc52124daaeb05fb47353608c551b665f73aa89e19",
+      "gitBlob": "31c41dc143e5aa6e2cc0fd09597b0f161cab8202",
+      "bytes": 7722,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/brain-metastasis-risk.md",
+      "sha256": "f77a73b82820b0a93fb94cae4cd5f05e7a256ce82e383c5e08e27f496fd50c68",
+      "gitBlob": "f8947f62baf0ea027f370e99836b3996a54d1d25",
+      "bytes": 9270,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/oligometastatic-disease.md",
+      "sha256": "9f4974fd85a639429f1d5047fe2be9fffc04be356079a6c39ea17cd11b61eb02",
+      "gitBlob": "d8b36760162b25c369a8598ca39cfd77fe9e2eb4",
+      "bytes": 8885,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/natural-history/tnbc-recurrence-timing-and-sites.md",
+      "sha256": "bd1a7c964b0d8d61862a81c4cbfacdb853aeb55e4aa84c09503032b420f47b89",
+      "gitBlob": "d2ed473e8d322dddb94f3ea5834228578e34849e",
+      "bytes": 8173,
+      "sectionSignatures": 9
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/estrogen-receptor.md",
+      "sha256": "65e9cc40a6b4dee53e61f19744ed416293fc827d8f6d9ee4c2c9e1e74c1583aa",
+      "gitBlob": "f3e555d7bf163995a40b896e2cd8629201f36769",
+      "bytes": 7822,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/her2.md",
+      "sha256": "44d5468fd7be020ef2f353e6b66450d961021b5dfa174e61b43ac333e93edbac",
+      "gitBlob": "f305ea8b9ee7057d8e2d0bd4e469f9a6bd6a3407",
+      "bytes": 10748,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/progesterone-receptor.md",
+      "sha256": "1593a3dea10b04a7f86da818933d829125c825a14c8d61385ce480a0fec8504d",
+      "gitBlob": "751311d6356668395d67fc1cb9e5b3d964d14112",
+      "bytes": 7665,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/sox10-and-basal-markers.md",
+      "sha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+      "gitBlob": "fda09610c1b3bf865d235aca4c0802c485e7b899",
+      "bytes": 8379,
+      "sectionSignatures": 11
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc.md",
+      "sha256": "7a858db799bfbac58553ac39a2268fec386f58761611499335e73777b12ff1fe",
+      "gitBlob": "10c413cbf37ccae7c79f344e50b5b1aed12519bb",
+      "bytes": 10613,
+      "sectionSignatures": 12
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/curative-intent.md",
+      "sha256": "e352ea17cc73f859dc058417667a5ac046ca5a9095ad12d6f58d8490274db3d0",
+      "gitBlob": "9d253d92c5eb737875af1afbb850f16d04290341",
+      "bytes": 7885,
+      "sectionSignatures": 11
+    }
+  ],
+  "sourceSectionsVerified": 266,
+  "sourceBlocks": {
+    "original": 462,
+    "later": 466
+  },
+  "reading": "All twelve later lessons were read end to end and re-read against the owner fields. All twelve originals were compared by complete diff or exact identity. All 432 non-routing block pairs reconcile after link-target and whitespace normalisation, with one separately inspected inline surveillance-link addition. The four extra later blocks are routing only.",
+  "rawSourceBodiesPublished": false,
+  "sourceReviewLimits": "Primary reading remains abstract or selected-passage depth as listed; no whole-paper or independent expert certification."
+}

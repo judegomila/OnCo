@@ -1,0 +1,2804 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "version": "proposal-vaccine-data-guides-root",
+  "rows": [
+    {
+      "id": "V01",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        2
+      ],
+      "requirement": "Vaccination can prime or expand antigen-reactive cells without normally genetically rewriting the receptors of mature T cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "t-cell-receptor",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "3a46509edc5df2ddade4aa39099dbdc8d9aed5784c7402af9714170e870ae950",
+          "excerpt": "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+          "excerptSha256": "c5fdc6fd15f9f8b242baf727b1cc0e2b1caf7423d8769f44f48cfd317632d41a"
+        }
+      ],
+      "entailment": "The existing receptor note explicitly distinguishes recruitment or expansion of mature specificities from introduction of engineered receptor sequences.",
+      "sourceScope": [
+        "OpenStax 21.3 clonal-selection/expansion paragraphs; this is the ordinary vaccine mechanism, not an assertion about every possible intervention."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v01"
+    },
+    {
+      "id": "V02",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        1
+      ],
+      "requirement": "A conventional T-cell receptor recognizes peptide with HLA; a tumour DNA alteration is an upstream antigen source, not the directly recognized object.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "t-cell-receptor",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "b10da4b31bc8e50e0294015ea9f6e941b69b43dbaee44ff4eacf78629728d09f",
+          "excerpt": "A conventional alpha-beta T-cell receptor uses paired chains to recognise a peptide-HLA surface. Its recognition chains assemble with CD3 signalling partners, as demonstrated in the human TCR-CD3 structural study. CDR3 is an informative variable region, but neither a beta-chain sequence nor CDR3 alone specifies the complete paired receptor or its function.",
+          "excerptSha256": "2f323d37b2ce797978c9af5dab46aa369a3445e1efa16d429a29a7b2bb771010"
+        },
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+          "excerptSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f"
+        }
+      ],
+      "entailment": "The receptor paragraph defines peptide-HLA recognition, while the source paragraph makes the DNA alteration an upstream candidate. Together they prevent equating a mutation call with the recognised object.",
+      "sourceScope": [
+        "OpenStax presentation paragraphs and Wells consortium methods; conventional peptide-HLA recognition is the stated scope."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v02"
+    },
+    {
+      "id": "V03",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0
+      ],
+      "requirement": "Keep innate sensing and a specific adaptive response distinct.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+          "excerptSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc"
+        }
+      ],
+      "entailment": "The paragraph explicitly identifies innate sensing and specific adaptive responses as interacting but different observations.",
+      "sourceScope": [
+        "OpenStax 42.2 opening and Kranz 2016 abstract; no vaccine efficacy is inferred from innate sensing."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v03"
+    },
+    {
+      "id": "V04",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Credible tumour sequences, target selection and product construction are successive questions after the recognition mechanism is understood.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+          "excerptSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f"
+        },
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+          "excerptSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc"
+        }
+      ],
+      "entailment": "The source paragraph places understanding recognition before source-list, HLA, selection and construction questions, with the receptor paragraph explaining the mechanism.",
+      "sourceScope": [
+        "A reading framework derived from the guide and the distinct measurements in Wells; not a universal clinical manufacturing protocol."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v04"
+    },
+    {
+      "id": "V05",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A matching receptor can be present at low frequency before antigen exposure; appropriate activation can select and increase responding cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+          "excerptSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc"
+        }
+      ],
+      "entailment": "The text names an already matching population, possible low starting frequency and activation/selection in a supporting context.",
+      "sourceScope": [
+        "Textbook clonal selection and expansion; no numerical repertoire size or individual response probability is adopted."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v05"
+    },
+    {
+      "id": "V06",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Adult thymic output declines with age but does not cease at a universal twentieth-birthday cutoff; retain the measurement and population scope of the supporting study.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "thymic-output-and-aging",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "3e4008a5810c143f31a1f83d4d8c87d7beeb1c8ac5f8a061a9291972ee155c51",
+          "excerpt": "Human studies support continued thymic output into adulthood, with age-related decline rather than a fixed birthday shutdown. Existing naive cells can also survive and divide outside the thymus. Human and mouse kinetic studies found different contributions of thymic output and peripheral division; mouse dependence on new output cannot be transferred directly to adult humans.",
+          "excerptSha256": "b16bc3848b8ddba405ed0b3d1317c16ebbdcfc8c13608bfb71c9424486ac21ba"
+        }
+      ],
+      "entailment": "The existing paragraph describes continued adult output, age-related decline and peripheral maintenance instead of a fixed birthday shutdown.",
+      "sourceScope": [
+        "Douek 1998 abstract: TCR-rearrangement-product measurements, age and HIV-treatment context, with no universal individual export rate or cancer benefit."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v06"
+    },
+    {
+      "id": "V07",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A pre-dose blood sample is a limited comparison, not a complete inventory of every receptor.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "excerptSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4"
+        }
+      ],
+      "entailment": "The fictional pre-dose report is explicitly limited to blood sampling and cannot establish absence from blood or the whole body.",
+      "sourceScope": [
+        "Premise-backed sampling inference; not a measured whole-body repertoire census."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v07"
+    },
+    {
+      "id": "V08",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Priming denotes initial activation of a naive T cell.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "t-cell-priming-three-signals",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "ddeb11f85eb5eb3fbe1fc4355693116b78f58ea1a8d5f4e08a4fccce45e5f3cd",
+          "excerpt": "Priming is a naive cell's initial activation in a supporting context. Signal one is TCR recognition of peptide-HLA, signal two includes CD80/CD86-CD28 costimulation and inhibitory context, and signal three includes differentiation-supporting cytokines. The receptor pre-exists the encounter. These signals interact over time; the model is not a three-button checklist and antigen-experienced or engineered cells can have different requirements.",
+          "excerptSha256": "c0c01076838d48609cfcf365b8a568bd61049beb7e11f3d197b31ccdc8281d27"
+        }
+      ],
+      "entailment": "The existing paragraph defines priming as a naive cell's initial activation, retaining the supporting context.",
+      "sourceScope": [
+        "Established activation teaching; only the definition is used, not a fresh certification of every cytokine experiment in that owner."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v08"
+    },
+    {
+      "id": "V09",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Dendritic-cell peptide display and supporting signals contribute to priming.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+          "excerptSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d"
+        }
+      ],
+      "entailment": "Dendritic-cell display and supporting signals are explicitly named as contributions to naive-cell priming.",
+      "sourceScope": [
+        "OpenStax activation context and Kranz abstract; no claim that display alone is sufficient."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v09"
+    },
+    {
+      "id": "V10",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Direct presentation after a cell translates vaccine RNA and class-I cross-presentation of acquired antigen are distinct routes.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "dendritic-cell-cross-presentation",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "71dc8845dba286b7bb69d61ac4baebc1d20953fca25a28222eaf55a6d0591605",
+          "excerpt": "Cross-presentation names a display process, whereas cross-priming names the activation of naive CD8 T cells through it, which needs supporting signals and its own readout. Direct presentation remains possible: a dendritic cell that receives vaccine messenger RNA and makes the protein itself presents it directly. A cell can also acquire already assembled peptide-HLA complexes from another cell (cross-dressing), which does not show processing by the recipient (Wakim and Bevan, Nature 2011, PMID 21455179, mouse viral infection). External antigen on class II is not cross-presentation.",
+          "excerptSha256": "a5c83a5b13208796419cb6ad90eed6f00bae51d85b496b56ba45808dd8415dc0"
+        }
+      ],
+      "entailment": "The retained paragraph distinguishes direct presentation by an RNA-transfected cell from acquisition/display routes and from naive-cell cross-priming.",
+      "sourceScope": [
+        "Joffre review abstract defines cross-presentation; Kranz abstract supports encoded-antigen expression in dendritic cells. Older cross-dressing details retain their earlier recorded source scope."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v10"
+    },
+    {
+      "id": "V11",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "After priming, effector cells still need access to the tumour, a displayed recognized target and functional capacity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+          "excerptSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d"
+        }
+      ],
+      "entailment": "The paragraph separately requires tumour access, an appropriate displayed target and retained function after priming.",
+      "sourceScope": [
+        "Mechanistic dependency/reading inference, not a promised trafficking rate, killing result or treatment benefit."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v11"
+    },
+    {
+      "id": "V12",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "A shared antigen-processing defect can limit several candidate targets, rather than being solved by adding more source sequences.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "antigen-processing-machinery",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "d455d0b31d2a485b633de647d02310d2f72ea4e0f1aa6db595d7e0c54b7d6671",
+          "excerpt": "A cancer cell may keep an altered protein and still show little of its peptide, and a shared processing defect can affect several targets at once, so adding candidate peptides does not bypass the bottleneck.",
+          "excerptSha256": "81b8dd98ac3a58565d0cea6bc55064f7baf6e736bbcfa5b6e80c7580f5aa7530"
+        }
+      ],
+      "entailment": "The exact sentence states that a shared processing defect can affect several targets and that adding peptide candidates does not bypass it.",
+      "sourceScope": [
+        "Zaretsky 2016 abstract supplies the bounded melanoma B2M/class-I-loss example; no universal defect frequency is claimed."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v12"
+    },
+    {
+      "id": "V13",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "The delivery-to-presentation-to-activation-to-access-to-recognition-to-benefit sequence is a set of separately testable dependencies, not a guarantee of killing or durable benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+          "excerptSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d"
+        }
+      ],
+      "entailment": "The text states the priming-to-attack dependencies, rejects a guaranteed or strict timing chain, and requires separate killing and durable-benefit outcomes.",
+      "sourceScope": [
+        "The rendered six-box diagram is read as dependencies. Its vertical order is not evidence that tumour display starts after trafficking."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v13"
+    },
+    {
+      "id": "V14",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "A fictional blood peptide-response increase supports a response in the sampled compartment, without establishing tumour entry, natural recognition or recurrence prevention.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+          "excerptSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51"
+        }
+      ],
+      "entailment": "The fictional blood-response example explicitly leaves tumour entry, natural recognition and recurrence prevention unestablished.",
+      "sourceScope": [
+        "An invented worked example interpreted through assay/endpoint distinctions, not a patient cohort."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v14"
+    },
+    {
+      "id": "V15",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Repeating a blood count cannot by itself test natural tumour recognition or added clinical efficacy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+          "excerptSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51"
+        }
+      ],
+      "entailment": "The paragraph says that repeating the blood measurement cannot resolve tumour recognition or the clinical comparison.",
+      "sourceScope": [
+        "A premise-backed measurement rule; no diagnostic sensitivity or causal effect is assigned."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v15"
+    },
+    {
+      "id": "V16",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Rare or absent matching cells, inappropriate delivery, inadequate display or supporting signals, and later access/function barriers are different failure modes requiring different measurements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+          "excerptSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51"
+        }
+      ],
+      "entailment": "Rare or unavailable matching cells, delivery, display/support, access and function are separately named failure modes requiring different measurements.",
+      "sourceScope": [
+        "A mechanism-based failure framework, not measured frequencies or a treatment-selection algorithm."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v16"
+    },
+    {
+      "id": "V17",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A tenfold increase in a sampled receptor sequence reports increased representation; specificity, absolute cell expansion and cancer killing are separate questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "excerptSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802"
+        }
+      ],
+      "entailment": "The tenfold sequence example is explicitly a representation change, distinct from new specificity, absolute expansion, killing and benefit.",
+      "sourceScope": [
+        "The tenfold value is fictional; no actual cell count or receptor-function assay is supplied."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v17"
+    },
+    {
+      "id": "V18",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "In the fictional clone-Q exercise, pre-dose non-detection with a stated 0.1% reliability limit is not proof that Q was absent.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "excerptSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4"
+        }
+      ],
+      "entailment": "Non-detection under the fictional 0.1% reliability statement is explicitly not proof of absence.",
+      "sourceScope": [
+        "Fictional compatible-assay premise; 0.1% is not a clinical threshold or an exact upper confidence bound."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v18"
+    },
+    {
+      "id": "V19",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A later 1% frequency supports first detection and possible enrichment, but an unmeasured baseline does not supply an exact observed fold change.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "excerptSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4"
+        }
+      ],
+      "entailment": "The post-dose 1% result earns first detection/possible enrichment but no exact observed fold change from an unmeasured baseline.",
+      "sourceScope": [
+        "Fictional sampling and denominator assumptions; nominal 1/0.1 is not an observed baseline-to-follow-up fold change."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v19"
+    },
+    {
+      "id": "V20",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Relative receptor frequency and absolute cell expansion differ; compatible counts and sampling are needed to infer the latter.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "excerptSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4"
+        }
+      ],
+      "entailment": "Compatible absolute-cell counts are explicitly required to infer expansion rather than frequency change alone.",
+      "sourceScope": [
+        "A denominator distinction, not a claim that sequencing proportions count cells directly."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v20"
+    },
+    {
+      "id": "V21",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A peptide-stimulated mixture response is not automatically assigned to clone Q without linkage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "excerptSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802"
+        }
+      ],
+      "entailment": "The mixture peptide response is explicitly unlinked to Q and therefore cannot assign Q's specificity.",
+      "sourceScope": [
+        "Fictional mixture assay; the response is not traced to a paired receptor or a naturally presenting tumour."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v21"
+    },
+    {
+      "id": "V22",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "First detection and a separate peptide response establish neither receptor rewriting, natural tumour recognition nor a clinical outcome comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "excerptSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802"
+        }
+      ],
+      "entailment": "The text withholds receptor creation, tumour killing and clinical benefit from first detection or an unlinked stimulation result.",
+      "sourceScope": [
+        "Premise-backed inference; no receptor rewriting, natural recognition or outcome comparison was measured."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v22"
+    },
+    {
+      "id": "V23",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "The 0.1%, 1% and tenfold examples are invented assumptions with compatible methods and sampling, not clinical thresholds or patient observations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen-mrna-vaccine",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+          "excerpt": "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "excerptSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802"
+        }
+      ],
+      "entailment": "The final sentence identifies all three numbers as invented premises under comparable sampling and methods.",
+      "sourceScope": [
+        "No patient observations, assay-performance estimates or treatment cutoffs are introduced."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-v23"
+    },
+    {
+      "id": "VE01",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "The Mermaid repeats the six-stage dependency chain already assessed in V13; render and inspect it but award no second teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "VE02",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Explain-it-back restates V01 and V11 without a new independent requirement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "VE03",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Takeaway and next-step routing recap the priming-to-benefit distinction.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "VE04",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Source list and review/schedule limitations describe evidence scope; citation presence alone earns no scientific coverage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "D01",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        3
+      ],
+      "requirement": "DNA, RNA and protein measurements address different biological layers.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+          "excerptSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f"
+        }
+      ],
+      "entailment": "DNA, RNA and protein are explicitly different questions rather than interchangeable evidence.",
+      "sourceScope": [
+        "Wells consortium inputs and downstream peptide/HLA/T-cell experiments, not a proof that every input produces a target."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d01"
+    },
+    {
+      "id": "D02",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        1
+      ],
+      "requirement": "A vaccine source list requires alteration identity, tumour specificity and biological support before HLA matching and target selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+          "excerptSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f"
+        }
+      ],
+      "entailment": "Alteration identity, tumour specificity and biological support are required before HLA matching, target selection and construction.",
+      "sourceScope": [
+        "A source-list framework grounded in distinct inputs, not a validated target-scoring algorithm."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d02"
+    },
+    {
+      "id": "D03",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "A longer source list may add uncertain calls as well as genuine candidates.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+          "excerptSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f"
+        }
+      ],
+      "entailment": "The paragraph explicitly states that adding candidates may add uncertain calls as well as real ones.",
+      "sourceScope": [
+        "A logical reading rule about candidate lists, with no estimated false-positive rate."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d03"
+    },
+    {
+      "id": "D04",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Variant calling infers alterations from prepared molecules, aligned reads, a reference, support and competing explanations; it does not directly observe a complete tumour genome.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "variant-calling",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "154e3fd3df1a1ed887ca33fc66474c1473e098c9250d3b7b464f2e518e3ef9ca",
+          "excerpt": "Variant calling assesses whether observed sequence or regional evidence supports a difference from a reference or comparison sample. Evidence quality, independent fragments, local depth, error models and the alteration class matter. Annotation describes possible consequence after calling; neither annotation nor a passed filter independently proves function or treatment relevance. Negative calls retain the workflow coverage and detection limits.",
+          "excerptSha256": "15c5486e71114e05fb9c2c3fa7bb79abf8c1064b519fe776fdcb8a9054b09cca"
+        }
+      ],
+      "entailment": "The owner describes evidence assessment, a reference/comparison, quality, error models and bounded negatives, rather than direct observation of a complete genome.",
+      "sourceScope": [
+        "Jones 2015 targeted/exome methods: aligned data, class-specific calling, stringent coverage/error criteria and manual candidate inspection."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d04"
+    },
+    {
+      "id": "D05",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Matched normal comparison helps distinguish inherited from acquired sequence findings.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "tumor-normal-vs-tumor-only-sequencing",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "5d918b2b352e2faae9ad3878a983693c42e1276a7db92e7833f5410d3cd50ebf",
+          "excerpt": "Evidence in the normal supports constitutional origin; adequate tumour and normal depth with no normal support supports somatic origin; inadequate normal depth leaves an attribution gap and absence there is uninformative.",
+          "excerptSha256": "f0cc2bdf555a5d8247e5d99c24d03e5275fda8c62db437b150df9ebaf1df2f00"
+        }
+      ],
+      "entailment": "The paragraph conditions inherited/acquired attribution on adequate tumour and normal evidence.",
+      "sourceScope": [
+        "Jones 2015 abstract and paired-analysis methods; no universal accuracy or automatic hereditary diagnosis."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d05"
+    },
+    {
+      "id": "D06",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A somatic sequence change does not by itself establish malignancy, because acquired changes can occur in nonmalignant cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "germline-vs-somatic",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "8921d3b8120d2692dbf6ccbfe474697f2431cdd24799df731804d9d0dc3f1189",
+          "excerpt": "Inherited germline variants came through an egg or sperm and are generally present across many tissues. A de novo constitutional variant need not have been inherited from a parent. Changes arising after fertilization can create mosaic distributions. Somatic variants occur in body-cell lineages, including normal tissues as well as cancers. Origin, distribution, harmfulness and transmissibility are separate questions; neither a variant class nor a large read fraction settles them.",
+          "excerptSha256": "cfea07f9d9ccc265aa6cd76355bab653533d72ca05d146adfaf8b703201e9380"
+        }
+      ],
+      "entailment": "The text explicitly includes normal tissues in somatic lineages and separates origin from harmfulness.",
+      "sourceScope": [
+        "MedlinePlus origin/mosaicism paragraphs and Razavi 2019 abstract including controls without cancer; no claim that every blood variant is benign."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d06"
+    },
+    {
+      "id": "D07",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Normal-specimen suitability, sampling and contamination must be assessed.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "tumor-normal-vs-tumor-only-sequencing",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "5d918b2b352e2faae9ad3878a983693c42e1276a7db92e7833f5410d3cd50ebf",
+          "excerpt": "Retain specimen identity, suitable normal tissue, extraction consumption, reference coordinates, both support counts and fractions, attribution rules and uncertainty. Normal sampling need not require a second tumour biopsy. Mismatch, contamination, low normal coverage and rare constitutional variants can mislead; validate the intended somatic/germline workflow and confirmation policy separately.",
+          "excerptSha256": "d451f1c43f574160f9ccec00d5502515d60cc96436c423e71d2ba0e9cf18718c"
+        }
+      ],
+      "entailment": "The note lists specimen identity, suitable normal, mismatch, contamination, low coverage and confirmation policy.",
+      "sourceScope": [
+        "Jones comparison-sample limitations plus the bounded specimen-role interpretation; not a universal normal-sampling prescription."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d07"
+    },
+    {
+      "id": "D08",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Tumour-only analysis estimates some inherited/acquired distinctions but does not always establish them confidently.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "tumor-normal-vs-tumor-only-sequencing",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "5d918b2b352e2faae9ad3878a983693c42e1276a7db92e7833f5410d3cd50ebf",
+          "excerpt": "Tumour-only workflows infer origin from population databases, allele fractions and models; rare germline variants may be absent from databases; a hotspot or familiar gene does not prove tumour-only origin.",
+          "excerptSha256": "131d2e837bbcd870fad91e5794e63ff9e76913a6329e38cbc1c8376df9de4122"
+        }
+      ],
+      "entailment": "The text describes tumour-only attribution as inference from databases/fractions/models and explains why rare germline changes can remain unresolved.",
+      "sourceScope": [
+        "Jones 2015 abstract and methods; numerical false-positive results remain specific to that study's pipelines."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d08"
+    },
+    {
+      "id": "D09",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For tumour DNA, record call support, coverage, artefacts, tumour fraction and copy number.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+          "excerptSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04"
+        }
+      ],
+      "entailment": "The tumour-DNA sentence explicitly records coverage, artefacts, tumour fraction and copy number with support.",
+      "sourceScope": [
+        "Jones methods and Wong 2014 abstract; no universal minimum depth, purity or allele-fraction cutoff."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d09"
+    },
+    {
+      "id": "D10",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For normal DNA, absence is conditional on the appropriate comparison, sampling and detection limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+          "excerptSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04"
+        }
+      ],
+      "entailment": "The matched-normal sentence explicitly makes absence conditional on suitability, sampling, coverage and detection limits.",
+      "sourceScope": [
+        "A bounded-negative reading rule with Jones paired-analysis context; adequately covered does not mean omniscient."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d10"
+    },
+    {
+      "id": "D11",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For tumour RNA, assess altered transcript support, mixed-cell origin, expression depth and RNA processing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+          "excerptSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04"
+        }
+      ],
+      "entailment": "The RNA sentence names altered transcript support, mixed cells, expression depth and processing.",
+      "sourceScope": [
+        "Wells distinct tumour RNA input and the guide's measurement framework; no cell-of-origin or translation guarantee from bulk RNA."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d11"
+    },
+    {
+      "id": "D12",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Protein or peptide detection needs method coverage, cell-of-origin and detection-limit context.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+          "excerptSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04"
+        }
+      ],
+      "entailment": "The final sentence keeps protein/peptide method coverage, cell origin and detection limits separate from DNA/RNA evidence.",
+      "sourceScope": [
+        "Wells binding and patient-matched T-cell validation are not a whole natural peptidome or clinical efficacy assay."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d12"
+    },
+    {
+      "id": "D13",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Targeted panels, whole exomes and whole genomes examine selected, largely coding and broader sequence territories respectively.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "wes-wgs",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "982398552c5c2a71125cac77744d51b8baf91d2dcfdff961314a0958db8af8e5",
+          "excerpt": "A targeted panel reads selected regions; whole-exome enrichment focuses mainly on protein-coding exons, while whole-genome sequencing samples a broader DNA territory. Breadth and usable local depth differ. A broader assay does not automatically supply adequate depth, reliable structural calls or a useful vaccine target. Check the platform, preparation, validated regions and alteration classes before interpreting a negative result.",
+          "excerptSha256": "4774efa6bd3185474c9d34cba772d1ee6ffa769500474709a3e331640bd6020c"
+        }
+      ],
+      "entailment": "The paragraph identifies panel territory, mostly coding exome enrichment and broader genome sampling.",
+      "sourceScope": [
+        "MedlinePlus exome/genome definitions and Jones targeted/exome methods; intended territory is distinct from perfect coverage."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d13"
+    },
+    {
+      "id": "D14",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Greater sequencing breadth does not itself ensure sufficient depth, accurate structural calls or a useful antigen.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "wes-wgs",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "982398552c5c2a71125cac77744d51b8baf91d2dcfdff961314a0958db8af8e5",
+          "excerpt": "A targeted panel reads selected regions; whole-exome enrichment focuses mainly on protein-coding exons, while whole-genome sequencing samples a broader DNA territory. Breadth and usable local depth differ. A broader assay does not automatically supply adequate depth, reliable structural calls or a useful vaccine target. Check the platform, preparation, validated regions and alteration classes before interpreting a negative result.",
+          "excerptSha256": "4774efa6bd3185474c9d34cba772d1ee6ffa769500474709a3e331640bd6020c"
+        }
+      ],
+      "entailment": "It explicitly withholds automatic depth, reliable structural calls and useful antigen inference from breadth alone.",
+      "sourceScope": [
+        "Workflow-specific scope reading, not a comparative platform-performance claim."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d14"
+    },
+    {
+      "id": "D15",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "VAF is a proportion of usable reads or assay-defined molecules supporting an allele at a specified locus.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "vaf",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "8c904d31c888ce2c54ae24f02f57a2d28d05c920293f0f621a12b1ce0149dffc",
+          "excerpt": "VAF is the proportion of usable reads or assay-defined molecules supporting the alternate sequence; keep the denominator: 25 of 100 usable observations is 25%.",
+          "excerptSha256": "62fc6c088cf9e8cfa2e29fa7327955060e2e0ca773595045e9213f6635edb6e1"
+        }
+      ],
+      "entailment": "The existing note defines usable read or assay-molecule denominators at the alternate sequence.",
+      "sourceScope": [
+        "Assay-defined fraction teaching; molecule-based values are not silently treated as read-based values."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d15"
+    },
+    {
+      "id": "D16",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Normal-cell admixture, local copy number and mutant-copy multiplicity affect VAF.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "vaf",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "2c8cdb92ac50f30f9656fab1fb39407cb3089743d49c1754446873baeb339093",
+          "excerpt": "Read-based VAF divides variant-supporting reads by informative reads at the locus. Some assays instead report a molecule-based measure, so keep the laboratory’s definition. Tumor purity, local allele-specific copy number, ploidy, subclonal mixture and assay behavior affect the value. VAF alone cannot assign zygosity, variant origin, the number of clones or a cancer-cell percentage. Changes over time in plasma also require attention to specimen and non-tumor DNA contributors.",
+          "excerptSha256": "2309c414401d154a19b222f08f5cc79483e62115303d8168dc77842df7bda721"
+        }
+      ],
+      "entailment": "The summary names purity, allele-specific copies, ploidy, mixture and assay behaviour as determinants of the value.",
+      "sourceScope": [
+        "Carter 2012 abstract and targeted purity/ploidy/multiplicity text; no universal fit or conversion."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d16"
+    },
+    {
+      "id": "D17",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4,
+        7
+      ],
+      "requirement": "Read fraction is not automatically cancer-cell fraction; a half-read observation cannot be converted to half the cancer cells without purity, copy-number and multiplicity assumptions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "vaf",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "summary",
+          "fieldSha256": "2c8cdb92ac50f30f9656fab1fb39407cb3089743d49c1754446873baeb339093",
+          "excerpt": "Read-based VAF divides variant-supporting reads by informative reads at the locus. Some assays instead report a molecule-based measure, so keep the laboratory’s definition. Tumor purity, local allele-specific copy number, ploidy, subclonal mixture and assay behavior affect the value. VAF alone cannot assign zygosity, variant origin, the number of clones or a cancer-cell percentage. Changes over time in plasma also require attention to specimen and non-tumor DNA contributors.",
+          "excerptSha256": "2309c414401d154a19b222f08f5cc79483e62115303d8168dc77842df7bda721"
+        },
+        {
+          "recordId": "vaf",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "8c904d31c888ce2c54ae24f02f57a2d28d05c920293f0f621a12b1ce0149dffc",
+          "excerpt": "For uniform local copies, expected VAF is p*f*m/[p*C+(1-p)*2]; assumptions: two normal copies, uniform cancer copies, fixed multiplicity, unbiased observations; subclonal copy change needs a richer model.",
+          "excerptSha256": "91e8f7b899ea0077a9c67a82fbb97b794471e7b1b6429eede70a040e8ff9e869"
+        }
+      ],
+      "entailment": "The summary rejects direct conversion to a cancer-cell percentage and the model formula shows the missing assumptions. With pure diploid cancer and one altered copy per cell, 50% VAF is compatible with 100% carrier cancer cells.",
+      "sourceScope": [
+        "The counterexample is algebra under the explicitly stated diploid-normal, uniform-copy, fixed-multiplicity and unbiased-observation assumptions, not clinical data."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d17"
+    },
+    {
+      "id": "D18",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Truncal ancestry across sampled branches differs from a subclone carried by only a subset of cancer cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+          "excerptSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226"
+        }
+      ],
+      "entailment": "The text separates a sampled cancer-cell fraction from truncal ancestry across branches and subclonal membership.",
+      "sourceScope": [
+        "Carter subclonal-model context and a definition-based ancestry reading rule, not a universal clinical clonality threshold."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d18"
+    },
+    {
+      "id": "D19",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "One small biopsy need not establish the alteration distribution across all sites.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+          "excerptSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226"
+        }
+      ],
+      "entailment": "One small biopsy explicitly does not establish distribution across every site.",
+      "sourceScope": [
+        "Sampling inference; unobserved sites are not assigned an alteration state."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d19"
+    },
+    {
+      "id": "D20",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Neither ancestry nor allele fraction demonstrates peptide display.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+          "excerptSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226"
+        }
+      ],
+      "entailment": "The paragraph explicitly says that read fraction and ancestry do not demonstrate displayed peptide.",
+      "sourceScope": [
+        "Genomic distribution and presentation are distinct evidence layers; no antigen-display frequency is inferred."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d20"
+    },
+    {
+      "id": "D21",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate A has tumour DNA, adequate normal absence and mutant RNA; this is further evidence progression but not demonstrated presentation or T-cell recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "In an invented comparison, candidate A has a supported tumour DNA alteration, no support in adequately assessed normal DNA and observed mutant RNA. It has progressed further as a source candidate, but processing, HLA display and T-cell recognition remain untested. Candidate B has tumour DNA support but inadequate normal coverage, so tumour specificity is still unresolved. These are evidence questions, not a numerical ranking algorithm.",
+          "excerptSha256": "fd13366123b89fe541307f51915244204f29eef7906c14cce2dc15c7c3b04f6c"
+        }
+      ],
+      "entailment": "Candidate A's DNA, assessed-normal absence and mutant RNA earn progress on source evidence but leave processing, display and recognition untested.",
+      "sourceScope": [
+        "Invented candidate premises, not a validated clinical score or an observed patient."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d21"
+    },
+    {
+      "id": "D22",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate B has inadequate normal coverage, leaving tumour specificity unresolved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "In an invented comparison, candidate A has a supported tumour DNA alteration, no support in adequately assessed normal DNA and observed mutant RNA. It has progressed further as a source candidate, but processing, HLA display and T-cell recognition remain untested. Candidate B has tumour DNA support but inadequate normal coverage, so tumour specificity is still unresolved. These are evidence questions, not a numerical ranking algorithm.",
+          "excerptSha256": "fd13366123b89fe541307f51915244204f29eef7906c14cce2dc15c7c3b04f6c"
+        }
+      ],
+      "entailment": "Candidate B's inadequate normal coverage explicitly leaves specificity unresolved.",
+      "sourceScope": [
+        "Invented bounded-negative example, not a claim that every normal-negative variant is tumour-specific."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d22"
+    },
+    {
+      "id": "D23",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate C has a weakly supported RNA junction and needs reproducibility and artefact checks.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Two more fictional candidates illustrate bounded negatives. Candidate C has only a weakly supported RNA junction and needs reproducibility and artefact checks. Candidate D has strong DNA support but no RNA detection in a shallow assay, which cannot establish that the transcript is absent. None of A to D has demonstrated HLA presentation or T-cell recognition merely from these starting observations.",
+          "excerptSha256": "40ac6ee7fe4daa10d96c05a2bb7afa56b6cd8c752103c0c4b04a534fcf45282b"
+        }
+      ],
+      "entailment": "The weak RNA-only junction in C explicitly needs reproducibility and artefact assessment.",
+      "sourceScope": [
+        "Invented evidence gap; agreement on the same reads does not create independent molecular confirmation."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d23"
+    },
+    {
+      "id": "D24",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate D has strong DNA and shallow-RNA non-detection; lack of RNA detection is not definitive absence of expression.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Two more fictional candidates illustrate bounded negatives. Candidate C has only a weakly supported RNA junction and needs reproducibility and artefact checks. Candidate D has strong DNA support but no RNA detection in a shallow assay, which cannot establish that the transcript is absent. None of A to D has demonstrated HLA presentation or T-cell recognition merely from these starting observations.",
+          "excerptSha256": "40ac6ee7fe4daa10d96c05a2bb7afa56b6cd8c752103c0c4b04a534fcf45282b"
+        }
+      ],
+      "entailment": "Candidate D's shallow RNA non-detection explicitly fails to establish absence of expression.",
+      "sourceScope": [
+        "Invented sampling/sensitivity limitation, not a biological expression result."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d24"
+    },
+    {
+      "id": "D25",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Fixation, alignment, contamination and uncertain junctions can generate misleading candidate calls.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function.",
+          "excerptSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224"
+        }
+      ],
+      "entailment": "Fixation, contamination, misalignment and uncertain junctions are explicitly named sources of misleading candidates.",
+      "sourceScope": [
+        "Wong 2014 abstract supports fixation damage; Jones methods support mapping/error/manual checks. The Wong article body was not read."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d25"
+    },
+    {
+      "id": "D26",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Sampling can miss a genuine alteration.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+          "excerptSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226"
+        }
+      ],
+      "entailment": "Insufficient sampling or an unobserved region remains an evidence gap rather than a demonstrated negative alteration state.",
+      "sourceScope": [
+        "A bounded sampling inference, not an estimated assay false-negative rate."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d26"
+    },
+    {
+      "id": "D27",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A transcript/reference mismatch can change translation of an altered sequence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function.",
+          "excerptSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224"
+        }
+      ],
+      "entailment": "The chosen reference transcript is explicitly required when translating an alteration.",
+      "sourceScope": [
+        "Reference-dependent interpretation; no new specific transcript/protein variant or clinical response is asserted."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d27"
+    },
+    {
+      "id": "D28",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Retain methods, versions, coverage and manual decisions so each candidate remains traceable to its evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "represented-draft",
+      "evidence": [
+        {
+          "recordId": "neoantigen",
+          "version": "proposal-vaccine-data-guides-root",
+          "field": "notes",
+          "fieldSha256": "7b398a252c565eb9b39bb973a9d95798c28e11c0b8f1558f8c8501ef14e285cd",
+          "excerpt": "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function.",
+          "excerptSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224"
+        }
+      ],
+      "entailment": "Specimen, coordinates, transcript/reference, methods, versions, coverage, thresholds and manual decisions are all retained for traceability.",
+      "sourceScope": [
+        "Jones manual candidate review and Wells reference/pipeline context; this reading framework is not a laboratory calling protocol."
+      ],
+      "remaining": [],
+      "ledgerPointId": "vaccine-data-d28"
+    },
+    {
+      "id": "DE01",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "The half-read exercise is assessed by D17 and receives no additional independent credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "DE02",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Explain-it-back recaps comparison, expression and presentation/recognition boundaries.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "DE03",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Takeaway and next-step link repeat the separate source-quality, expression and tumour-coverage questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    },
+    {
+      "id": "DE04",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        10
+      ],
+      "requirement": "Source listings and the distinction between a reading framework and a laboratory protocol are scope metadata.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "status": "recap-routing-scope-no-independent-credit",
+      "evidence": [],
+      "entailment": "No unique additional teaching is excluded; the related scientific statements are mapped in the teaching rows. The source/diagram scope is retained separately.",
+      "sourceScope": [
+        "Scope/recap only, not citation-presence credit."
+      ],
+      "remaining": [],
+      "ledgerPointId": null
+    }
+  ],
+  "fieldReferences": 54,
+  "hashRecipe": "fieldSha256 = SHA256(compact UTF-8 JSON of the actual field); excerptSha256 = SHA256(exact UTF-8 excerpt). Containment and semantic explanation are separate checks.",
+  "readerVerification": {
+    "scope": "Actual EntityDetail SSR, whole paragraphs and source hrefs; no browser hydration, responsive or deployed-page claim.",
+    "records": 12,
+    "fieldReferences": 54,
+    "completeParagraphChecks": 151,
+    "checks": [
+      {
+        "recordId": "t-cell-receptor",
+        "label": "V01:0",
+        "paragraph": 0,
+        "passageSha256": "c5fdc6fd15f9f8b242baf727b1cc0e2b1caf7423d8769f44f48cfd317632d41a",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "V02:0",
+        "paragraph": 0,
+        "passageSha256": "2f323d37b2ce797978c9af5dab46aa369a3445e1efa16d429a29a7b2bb771010",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "V02:1",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V03:0",
+        "paragraph": 0,
+        "passageSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "V04:0",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V04:1",
+        "paragraph": 0,
+        "passageSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V05:0",
+        "paragraph": 0,
+        "passageSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "V06:0",
+        "paragraph": 0,
+        "passageSha256": "b16bc3848b8ddba405ed0b3d1317c16ebbdcfc8c13608bfb71c9424486ac21ba",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V07:0",
+        "paragraph": 0,
+        "passageSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "V08:0",
+        "paragraph": 0,
+        "passageSha256": "c0c01076838d48609cfcf365b8a568bd61049beb7e11f3d197b31ccdc8281d27",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V09:0",
+        "paragraph": 0,
+        "passageSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "V10:0",
+        "paragraph": 0,
+        "passageSha256": "a5c83a5b13208796419cb6ad90eed6f00bae51d85b496b56ba45808dd8415dc0",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V11:0",
+        "paragraph": 0,
+        "passageSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "V12:0",
+        "paragraph": 0,
+        "passageSha256": "81b8dd98ac3a58565d0cea6bc55064f7baf6e736bbcfa5b6e80c7580f5aa7530",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V13:0",
+        "paragraph": 0,
+        "passageSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V14:0",
+        "paragraph": 0,
+        "passageSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V15:0",
+        "paragraph": 0,
+        "passageSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V16:0",
+        "paragraph": 0,
+        "passageSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V17:0",
+        "paragraph": 0,
+        "passageSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V18:0",
+        "paragraph": 0,
+        "passageSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V19:0",
+        "paragraph": 0,
+        "passageSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V20:0",
+        "paragraph": 0,
+        "passageSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V21:0",
+        "paragraph": 0,
+        "passageSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V22:0",
+        "paragraph": 0,
+        "passageSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "V23:0",
+        "paragraph": 0,
+        "passageSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D01:0",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D02:0",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D03:0",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "D04:0",
+        "paragraph": 0,
+        "passageSha256": "15c5486e71114e05fb9c2c3fa7bb79abf8c1064b519fe776fdcb8a9054b09cca",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "D05:0",
+        "paragraph": 0,
+        "passageSha256": "f0cc2bdf555a5d8247e5d99c24d03e5275fda8c62db437b150df9ebaf1df2f00",
+        "present": true
+      },
+      {
+        "recordId": "germline-vs-somatic",
+        "label": "D06:0",
+        "paragraph": 0,
+        "passageSha256": "cfea07f9d9ccc265aa6cd76355bab653533d72ca05d146adfaf8b703201e9380",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "D07:0",
+        "paragraph": 0,
+        "passageSha256": "d451f1c43f574160f9ccec00d5502515d60cc96436c423e71d2ba0e9cf18718c",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "D08:0",
+        "paragraph": 0,
+        "passageSha256": "131d2e837bbcd870fad91e5794e63ff9e76913a6329e38cbc1c8376df9de4122",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D09:0",
+        "paragraph": 0,
+        "passageSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D10:0",
+        "paragraph": 0,
+        "passageSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D11:0",
+        "paragraph": 0,
+        "passageSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D12:0",
+        "paragraph": 0,
+        "passageSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "D13:0",
+        "paragraph": 0,
+        "passageSha256": "4774efa6bd3185474c9d34cba772d1ee6ffa769500474709a3e331640bd6020c",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "D14:0",
+        "paragraph": 0,
+        "passageSha256": "4774efa6bd3185474c9d34cba772d1ee6ffa769500474709a3e331640bd6020c",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "D15:0",
+        "paragraph": 0,
+        "passageSha256": "62fc6c088cf9e8cfa2e29fa7327955060e2e0ca773595045e9213f6635edb6e1",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "D16:0",
+        "paragraph": 0,
+        "passageSha256": "2309c414401d154a19b222f08f5cc79483e62115303d8168dc77842df7bda721",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "D17:0",
+        "paragraph": 0,
+        "passageSha256": "2309c414401d154a19b222f08f5cc79483e62115303d8168dc77842df7bda721",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "D17:1",
+        "paragraph": 0,
+        "passageSha256": "91e8f7b899ea0077a9c67a82fbb97b794471e7b1b6429eede70a040e8ff9e869",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D18:0",
+        "paragraph": 0,
+        "passageSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D19:0",
+        "paragraph": 0,
+        "passageSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D20:0",
+        "paragraph": 0,
+        "passageSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D21:0",
+        "paragraph": 0,
+        "passageSha256": "fd13366123b89fe541307f51915244204f29eef7906c14cce2dc15c7c3b04f6c",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D22:0",
+        "paragraph": 0,
+        "passageSha256": "fd13366123b89fe541307f51915244204f29eef7906c14cce2dc15c7c3b04f6c",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D23:0",
+        "paragraph": 0,
+        "passageSha256": "40ac6ee7fe4daa10d96c05a2bb7afa56b6cd8c752103c0c4b04a534fcf45282b",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D24:0",
+        "paragraph": 0,
+        "passageSha256": "40ac6ee7fe4daa10d96c05a2bb7afa56b6cd8c752103c0c4b04a534fcf45282b",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D25:0",
+        "paragraph": 0,
+        "passageSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D26:0",
+        "paragraph": 0,
+        "passageSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D27:0",
+        "paragraph": 0,
+        "passageSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "D28:0",
+        "paragraph": 0,
+        "passageSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "6a02392623d58bcd63648166fc77e58d40434fb17dbdbed9e200621371cb8644",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "81e9bdd4f2c3a2953a444a57bbe0e7c0eee34196c0f5ee803fe9f2e5d86b8367",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "3ad925505f957896cfca873ae781ff545316c5e61332ba7e100d5c5b1c67ee4f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "summary:0",
+        "paragraph": 2,
+        "passageSha256": "ac32e3f6394aca6909a166a6b301405256b7bcf3264d2c579b3024c5103134a1",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "summary:0",
+        "paragraph": 3,
+        "passageSha256": "8960354ffd58f27386579fa7d6b077b366b85400caf709adbf7e67a7439c9512",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "44bbe61e6c35124cb2c75a047a4b9297cf6bf056c667156b54924eaa3b005cfc",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "8b63941fe3864ba6a505cf1ce145679f6cc0ebfdc8465b78d894f75b3986587d",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "4fcbe2a1f95ea045be5f3cd7d940f6293eaf2db07b10354179efe0e4dcadee51",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "669097a083764763ddff6d9608d78951268ce174548c26eccdd6f4fedf5191f4",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "ace82b3e553460112c5e54567b2753d246f8e2c1a95a4586aa7dcf58892e0802",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "d0aabc3c2e21e79d1cb6b82c7ce26230d1c0c65156f5ab5b97b4ee619b95a42d",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "48099c0d6da8c588ccdfa24cc1f89a2f397b305cb223443c333773183ce347e8",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "4cc3ae1e6092ae5fa518137ec3a1db8c07cbfde9af11e78fa9bbef46d5530e75",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "6f860213d63a2f3879a7663b0ecf187c07b369fe89f9d613744efed6581aee75",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "ef5526dd36a5e0427cc556c29448f1f8d01b6ed0180ab9c7c275a8ac3eb3899f",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "21bc14bc265499b2f17587039addbdd9f1fcd6b5dc56fe514bbe3f2317d5ce04",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "692912bd8302d20d7019597fdbbc3df9c6ace8b3174988cefa42123abb74d226",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "fd13366123b89fe541307f51915244204f29eef7906c14cce2dc15c7c3b04f6c",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "40ac6ee7fe4daa10d96c05a2bb7afa56b6cd8c752103c0c4b04a534fcf45282b",
+        "present": true
+      },
+      {
+        "recordId": "neoantigen",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "24cf52c1560e0d64337ab037d91a2fe6a80788a7c1cb98912d398dbb1b8a8224",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "96f5bd92d6740a6258e14b86ca55ec8d4f0217e0ed0ffc6975cea9adfe21d8de",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "ffd88a02c7817d3e1470c8c836bd9bd8d7cd848624d0843939400ca020390735",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "4774efa6bd3185474c9d34cba772d1ee6ffa769500474709a3e331640bd6020c",
+        "present": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "fa93f1b63477a91c54e5151e56eeae7ba7e31fafe9823f40edddcb7e08460ccc",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "ad3066cbaa6040a1887a8dc1c8c63fc6a00f4700a919bb0eade546ce68740202",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "1eb985b4bd0dcfe2425c4cc09774a8e38ee3adc319547d4d08a5aec5e10eed2f",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "854d42f36f46b1cc068d500ecaaa0dc3218f300bda861e2e17642f29b79d2371",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "summary:0",
+        "paragraph": 2,
+        "passageSha256": "a5c83a5b13208796419cb6ad90eed6f00bae51d85b496b56ba45808dd8415dc0",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "a80c5dc4a925f75e21f4c1af20e44c39f4a589436de37d61a8f1b8311af5f132",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "dd1ce9083872be30484ab3d5bbaf7a5c7534cb28e690279aed49a5f07509b802",
+        "present": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "6d50fbe0c5e8ff1f16b8657f5d3d6a0965db3e06a94385699fda87795c513ca4",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "c0476619a6b52f72de89db8dc85bc84d8860759c526a0efef6140133c85e5855",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "3fb6ef7469f276570d3a10e15d68858dc98624473f4cb97d0db7751d818dd5df",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "148df4f112daa696e904dacb4694e6be6a8ad067336294b5c8ad06a7a80b387a",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "c0c01076838d48609cfcf365b8a568bd61049beb7e11f3d197b31ccdc8281d27",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "9d315b1f858127c7b38716ca895688ca3a8519972e1fe45b8e60fe22479de638",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "e29a2698d11ea5d93a07fead183cee3651e09317f9be7ac13398bcc5df294051",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-priming-three-signals",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "7e4af4e5a28dbf45d86d7dabe77efd3488de5884238cfcf74eece23589a36565",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "2bb349a95358bffadfb115ebbc26a3768e40d2ec7551d163d0beca00bc1647d5",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "2f323d37b2ce797978c9af5dab46aa369a3445e1efa16d429a29a7b2bb771010",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "0d42afb2b527d5b740f6c5ffaca7bc1f2aea5c156dddec8cb98de70a6d4e7ea8",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "7102ae46ba5b25ed349f66d555772fd696ae137299a36f378c7f30a563da611b",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "2e62a34fd6f343e99850e1a1aed336ff0e844dbdf9e215dcd8ff73a4fce79c99",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "4ce4c3b43b3520b6051c86125e40005971f9a637cdbf59b6b1afedf3a61d6a83",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "c5fdc6fd15f9f8b242baf727b1cc0e2b1caf7423d8769f44f48cfd317632d41a",
+        "present": true
+      },
+      {
+        "recordId": "t-cell-receptor",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "7e4af4e5a28dbf45d86d7dabe77efd3488de5884238cfcf74eece23589a36565",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "80a567bb91a8ff0c1732cb058268274eb303ba73e4594e1e5010ef260c9ae499",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "b16bc3848b8ddba405ed0b3d1317c16ebbdcfc8c13608bfb71c9424486ac21ba",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "92ed9db73a3d27d31dd140eb4314eba7a3fb7f75d1ecba1471c8947a0403664a",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "3da8f73c30ac2a82664a913ef8a79b8bda917a5740bc89b9642836f2f4cd3fea",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "979b837f5f9dde9da7afaa4b99d93fe970c7b6c80a1c271e94c9d2b0bb362e3b",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "3a7ae241d479df156434564aae9410f7770ae50f6ec9585215eea1e75aa058b5",
+        "present": true
+      },
+      {
+        "recordId": "thymic-output-and-aging",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "7e4af4e5a28dbf45d86d7dabe77efd3488de5884238cfcf74eece23589a36565",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "021a2ba7f77baa824ad2ac9e3581113b3e7c2808b6c333a1a3bce3f134272e3a",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "26f208c2aa5675daf5a1dced2c010ad7af68f30b9e281e3543657a809430870d",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "960c0641bb1599af11f9632f393ce5e99feea47b62d3d495756efb09b5551cbb",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "summary:0",
+        "paragraph": 2,
+        "passageSha256": "d7b4822a8f7321660a11f593f48402be735564f05df46436ff442e36b6d34330",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "summary:0",
+        "paragraph": 3,
+        "passageSha256": "88ca7c30b57869b50681f1f10dbae367bebb750c6c9c11e7bd66285d80643f6e",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "65e4d17da3a341febd8912fb2ac658828d589f5f90915b7cd171ed4eed060c54",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "1710d6829885bec24a8588f9dbb808a41b27da3d7a18139851cf480813eaf0f6",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "ddaffdd82e411e45e4683b53acefe3eed23287e19668db3827ab3b2aea93c60c",
+        "present": true
+      },
+      {
+        "recordId": "antigen-processing-machinery",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "dc619e58ee648f69a1f69bdf0909c3ead9f4fc4f021617a5db4d154429c474df",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "91dd0e107f73e92a396099650f8b5fb72392b6048f587dcf2cb9b7492ed3a394",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "15c5486e71114e05fb9c2c3fa7bb79abf8c1064b519fe776fdcb8a9054b09cca",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "58d971a4bc88c1e04b6437de8b9238bcaaedad43544c9eb61d55089d51668355",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "169566581e77671ff40f243ffa3ae0d4be71fd5f0edeabc9d315581fb53eeb4c",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "ca4f28572dd06363b14b5a3c590b435afe0fe19f18763e2008dc3703ae869168",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "4d5149704b1ab7fdc2ae9348263c820f9496143b252b0cae9d44ecf807ca18aa",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "159261fab2cb7fd4a42010810a64a0cd8c31f33b7a612546be4b3dee71727a10",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "90a07801db777e3d526662d50e7f992f16a25ce580e19fef01f9bcc0751ef0fc",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:6",
+        "paragraph": 0,
+        "passageSha256": "ba4ef456ce29af7f89f7639c2069137a6b8fbb16cb6bb77f2548e553536db223",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:7",
+        "paragraph": 0,
+        "passageSha256": "0b9a4311a09ec049c381a8497944004f6ba0b75a2a678ccb2e3dd7b3ca661bfd",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:8",
+        "paragraph": 0,
+        "passageSha256": "72ef8dff5f60333bcc8c9ae392cf4aef5569515e96b183ec2d000c89787fca1c",
+        "present": true
+      },
+      {
+        "recordId": "variant-calling",
+        "label": "notes:9",
+        "paragraph": 0,
+        "passageSha256": "0178f21a9863a8ef1583fea0032de857559cdc805098cef6eeddb3c010b4f531",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "679321ed1846d52bb1dc338adb2dfe3d121d9e9ad1341e2c1bebaecc6a56c94b",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "d54d0c052f58b1f5c57473022f044c479e1bae0b670bbffcfc151749fa99213d",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "d54d0c052f58b1f5c57473022f044c479e1bae0b670bbffcfc151749fa99213d",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "f0cc2bdf555a5d8247e5d99c24d03e5275fda8c62db437b150df9ebaf1df2f00",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "131d2e837bbcd870fad91e5794e63ff9e76913a6329e38cbc1c8376df9de4122",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "5a7f8b55c4d5dd9b3d5e37e4a2ddf6675ae61465e1a2e85ad2cf74d6b02fd5b4",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "0fc59e4220bc53f089d8e1b0c0b6403bc09809379eac1f0774fcbe870d7f4707",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "e4d8cfd9743b09909d59d49853f241e26228ba06d6d930a0d7c4da333d708d37",
+        "present": true
+      },
+      {
+        "recordId": "tumor-normal-vs-tumor-only-sequencing",
+        "label": "notes:6",
+        "paragraph": 0,
+        "passageSha256": "d451f1c43f574160f9ccec00d5502515d60cc96436c423e71d2ba0e9cf18718c",
+        "present": true
+      },
+      {
+        "recordId": "germline-vs-somatic",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "bec1fd32b4196ce31b90ce8b200cd35fbc2eb16f7c41d51d09583379f808e60a",
+        "present": true
+      },
+      {
+        "recordId": "germline-vs-somatic",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "cfea07f9d9ccc265aa6cd76355bab653533d72ca05d146adfaf8b703201e9380",
+        "present": true
+      },
+      {
+        "recordId": "germline-vs-somatic",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "36ffe6a2de8b6a59d11b50a733c3acc916054526d269f8ea39a75873ea8cf603",
+        "present": true
+      },
+      {
+        "recordId": "germline-vs-somatic",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "d21b94ebc0048272f7addd92476811564fb47a4d54ffcc7372002a99b2e4fe6e",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "f5e9f94f410976c938914bd6c7c22c9487464c2af3cdcd5c9b5f462dc51cdbcb",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "2309c414401d154a19b222f08f5cc79483e62115303d8168dc77842df7bda721",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "62fc6c088cf9e8cfa2e29fa7327955060e2e0ca773595045e9213f6635edb6e1",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "4dc98721fda5c027d81f53f44e596835427676ba1e5deb9bc040e5d9e14fcfa2",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "dd64f2e971f3c491a6b5bec39a355466e71cc3fcb06ceedd10b9509b8fdd85ec",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "91e8f7b899ea0077a9c67a82fbb97b794471e7b1b6429eede70a040e8ff9e869",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "7ff449a0cb59080302426fbce29dc057f21196a7af299a473a3caba8a97760d7",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "5710c76baa1aeed913357af09df40bf7509fd7578c430cf3dfcd2b46638c2ffd",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:6",
+        "paragraph": 0,
+        "passageSha256": "2b85c7c54e2036d12c7e8bc5984b14baad6fee035361a910abf6fe17850ffdad",
+        "present": true
+      },
+      {
+        "recordId": "vaf",
+        "label": "notes:7",
+        "paragraph": 0,
+        "passageSha256": "a0df63f973257e8511e57923ab9826c6feecbdd229e6c42d75e9451ccf68dec8",
+        "present": true
+      }
+    ],
+    "failures": []
+  },
+  "independentSemanticAcceptance": false,
+  "mainCredit": 0,
+  "liveCredit": 0
+}

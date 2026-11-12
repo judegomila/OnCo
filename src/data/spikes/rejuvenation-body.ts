@@ -37,7 +37,7 @@ const REJ = "rejuvenation";
 const SUP = "supportive-care";
 
 const T = (grade: EvidenceGrade, extra: string[] = []) => ["rejuvenation", "survivorship", `evidence:${grade}`, ...extra];
-const tech = (x: Omit<TechnologyInput, "kind" | "asOf">): TechnologyInput => ({ kind: "technology", asOf, ...x });
+const tech = (x: Omit<TechnologyInput, "kind" | "asOf"> & { asOf?: string }): TechnologyInput => ({ kind: "technology", asOf, ...x });
 
 // Sources used by more than one record.
 const ACSM_2019 = doi("Exercise Guidelines for Cancer Survivors: Consensus Statement from International Multidisciplinary Roundtable (Med Sci Sports Exerc 2019)", "10.1249/MSS.0000000000002116");
@@ -212,9 +212,55 @@ const hormones: TechnologyInput[] = [
     summary: "Alkylating drugs destroy primordial follicles, and because the ovarian reserve is fixed at birth, the loss is permanent. What varies is how much reserve was there to begin with, which is why age is the strongest predictor.\n\nThe best prospective data come from a cohort of 595 American women aged 20 to 45 who kept daily bleeding records for a median of 45 months. In the month after standard doxorubicin and cyclophosphamide, with or without a taxane, about 16 per cent had monthly bleeding, against 48 per cent after cyclophosphamide, methotrexate and fluorouracil. After the anthracycline regimens there was \"a slow recovery phase of about 9 months followed by a plateau, during which almost half continued monthly bleeding for the remainder of the follow-up period\". The companion analysis of 466 women in the same cohort found that about 41 per cent had at least six months of amenorrhoea and a further 29 per cent at least a year; roughly half of those with six months of amenorrhoea and 29 per cent of those with a year resumed bleeding within the next three years, \"usually in the year after their amenorrheic episode\". Of the 23 per cent who had two years without a period, 10 per cent bled again \"but none had regular menses\". Both cohorts were recruited between 1998 and 2002, so they describe older regimens; OnCo could not find an equivalent prospective dataset for today's schedules.\n\nTemporary ovarian suppression during chemotherapy is the one intervention that changes this. In the POEMS trial, 257 premenopausal women with hormone-receptor-negative breast cancer were randomised to chemotherapy with or without goserelin; among the 135 with complete primary endpoint data the ovarian failure rate at two years was 8 per cent with goserelin and 22 per cent without, and pregnancies occurred in 21 against 11 per cent of the 218 evaluable women. The trial's own authors note that \"missing data weaken interpretation of the findings\". Pooling 873 patients across five trials, premature ovarian insufficiency occurred in 14.1 per cent with the agonist and 30.9 per cent without, with more pregnancies and no difference in disease-free or overall survival.\n\nASCO's position is deliberately careful: \"There is conflicting evidence to recommend gonadotrophin-releasing hormone agonists (GnRHa) and other means of ovarian suppression for fertility preservation\", and \"GnRHa should not be used in place of proven fertility preservation methods.\" Egg, embryo and ovarian tissue freezing remain the methods that preserve fertility, and they belong before treatment starts.\n\nWhat comes back, and when: partial, age-dependent, and mostly settled within the first year or two. Return of periods is not the same as return of fertility, and ovarian reserve after recovery is lower than it was, which matters for anyone planning a pregnancy years later. Two years of amenorrhoea after chemotherapy is, on this evidence, close to the end of the story.",
     principle: "Cyclophosphamide and other alkylating agents damage primordial follicles directly and the growing follicle pool indirectly, accelerating depletion of a reserve that cannot be replenished. A gonadotrophin-releasing hormone agonist suppresses the pituitary axis and may reduce ovarian perfusion and recruitment during the exposure, which is the proposed, unproven mechanism of protection.",
     strengths: ["A prospective cohort with daily records, so the recovery curve is real rather than recalled", "Randomised and pooled evidence that ovarian suppression during chemotherapy reduces ovarian failure", "Age and regimen let an individual estimate be given before treatment starts"],
-    limitations: ["The recovery data describe regimens from 1998 to 2002", "Resumption of periods overstates the fertility that remains", "The guideline calls the evidence for ovarian suppression conflicting and will not let it replace egg or embryo freezing"],
+    limitations: [
+  "The recovery data describe regimens from 1998 to 2002.",
+  "Resumption of periods does not establish normal ovarian reserve or fertility.",
+  "The 2025 ASCO update allows GnRH agonists as an adjunct in breast cancer and says they should not replace established fertility-preservation methods; it updates the earlier 2018 guidance."
+],
     cancers: ["breast-hr-positive", "tnbc", "hodgkin-lymphoma", "all-leukemia", "cervical"], drugs: ["cyclophosphamide", "doxorubicin", "goserelin", "leuprolide", "tamoxifen"], technologies: ["fertility-preservation", "menopause-after-cancer-treatment", "survivorship-care-plan", "cancer-treatment-bone-loss"], terms: ["ovarian-function-suppression", "menopause-after-chemotherapy-breast", "aya-oncology", "late-effects"], bottlenecks: ["b-survivorship"], related: ["idea-acc-default-fertility-preservation-referral"],
-    links: [doi("POEMS: goserelin for ovarian protection during breast cancer adjuvant chemotherapy (NEJM 2015)", "10.1056/NEJMoa1413204"), doi("GnRH agonists during chemotherapy for preservation of ovarian function: individual patient data meta-analysis (JCO 2018)", "10.1200/JCO.2018.78.0858"), doi("Incidence, time course and determinants of menstrual bleeding after breast cancer treatment (JCO 2006)", "10.1200/JCO.2005.03.3969"), doi("Incidence and time course of bleeding after long-term amenorrhoea after breast cancer treatment (Cancer 2010)", "10.1002/cncr.25106"), ASCO_FERTILITY_2018] }),
+    links: [
+  {
+    "label": "POEMS: goserelin for ovarian protection during breast cancer adjuvant chemotherapy (NEJM 2015)",
+    "url": "https://doi.org/10.1056/NEJMoa1413204"
+  },
+  {
+    "label": "GnRH agonists during chemotherapy for preservation of ovarian function: individual patient data meta-analysis (JCO 2018)",
+    "url": "https://doi.org/10.1200/JCO.2018.78.0858"
+  },
+  {
+    "label": "Incidence, time course and determinants of menstrual bleeding after breast cancer treatment (JCO 2006)",
+    "url": "https://doi.org/10.1200/JCO.2005.03.3969"
+  },
+  {
+    "label": "Incidence and time course of bleeding after long-term amenorrhoea after breast cancer treatment (Cancer 2010)",
+    "url": "https://doi.org/10.1002/cncr.25106"
+  },
+  {
+    "label": "Fertility Preservation in Patients With Cancer: ASCO guideline update (JCO 2018)",
+    "url": "https://doi.org/10.1200/JCO.2018.78.1914"
+  },
+  {
+    "label": "Del Mastro et al., triptorelin and early menopause, PROMISE-GIM6 (2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21771987/"
+  },
+  {
+    "label": "Moore et al., final analysis of POEMS/SWOG S0230 (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30371800/"
+  },
+  {
+    "label": "Lambertini et al., GnRH agonists during chemotherapy, individual-patient meta-analysis (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29718793/"
+  },
+  {
+    "label": "Su et al., ASCO fertility preservation guideline update (2025)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40106739/"
+  }
+] ,
+"notes": [
+  "Menstrual recovery after chemotherapy, preserved ovarian reserve and later pregnancy are different outcomes. Periods can return while reserve remains reduced. The 2025 ASCO fertility-preservation guideline treats GnRH agonists during chemotherapy as a possible adjunct in breast cancer, not a replacement for established preservation methods. The protection trials are described with their separate populations and endpoints in the ovarian-function-suppression record; they do not estimate an individual's chance of recovery after an already completed course."
+],
+"asOf": "2026-11-11"
+}),
 
   tech({ id: "menopause-after-cancer-treatment", related: ["elinzanetant"], name: "Menopause brought on by cancer treatment, and the options for it", sections: [REJ, SUP, "hormonal"], status: "established", wikipedia: W("Menopause"), tags: T("strong"),
     tldr: "Treatment can bring on menopause in a week rather than a decade, and the usual answer, hormone replacement, is often unavailable. The non-hormonal options now have real trial evidence: elinzanetant cut moderate to severe hot flushes by three and a half episodes a day more than placebo in women on endocrine therapy, and venlafaxine and oxybutynin also beat placebo.",

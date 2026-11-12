@@ -1,0 +1,4824 @@
+{
+  "records": 20,
+  "proofs": 602,
+  "missing": [],
+  "checks": [
+    {
+      "unit": "IND-001",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-001",
+      "owner": "bh3-profiling",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "65a931d53d9b5e72714dcfc4696557dce06ee85b8d0c0af777adb074efb4b029"
+    },
+    {
+      "unit": "IND-001",
+      "owner": "bh3-profiling",
+      "field": "strengths",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "407f59759874cd7f2e9084386616bd6b9357e2dbdb3f100c6a549b9a982b2649"
+    },
+    {
+      "unit": "IND-002",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-002",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-002",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-002",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-003",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-003",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-003",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-004",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-004",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-004",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-005",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-005",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-006",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-006",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-006",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-007",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-007",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-007",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-007",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-008",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-008",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-008",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-008",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-009",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-009",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-009",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-009",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-009",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-010",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-010",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-010",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-010",
+      "owner": "bh3-profiling",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "cffdea42510da735b90c50a48d1c3e8510376eb8f6ab6df96ba3ea6a8e66b22b"
+    },
+    {
+      "unit": "IND-010",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-011",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-011",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-012",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-013",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-014",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-015",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "ab87b22a7e3d392e4cb39f64495d9dcbc4a879d1d0e6c78543570adfdca878ce"
+    },
+    {
+      "unit": "IND-015",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-016",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-017",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-017",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-017",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-017",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-017",
+      "owner": "bh3-profiling",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "20dcfc8f456144bdc32898516943b04b7356a203aedced6c3c12d097f639c32d"
+    },
+    {
+      "unit": "IND-018",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "ef95672aeb9fd9d906dc70d00f937063e2ff3ade8fcf49af6ad08def5f4e51bc"
+    },
+    {
+      "unit": "IND-018",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-019",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-019",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-019",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-019",
+      "owner": "bh3-profiling",
+      "field": "strengths",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "20d20b2d8927a21cb52e7614ecb8cad3635de79ee9f753e08290253691ca8e6d"
+    },
+    {
+      "unit": "IND-019",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-020",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-020",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-020",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-020",
+      "owner": "bh3-profiling",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "529079990ea69024d0b19c35cd0eb4c3d44381e6e991a841a1292e612e03dabb"
+    },
+    {
+      "unit": "IND-021",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "1b3291bae2ddadcb82585f5d4c3c765f8729a8c0a3274b396141aa71d3544cf6"
+    },
+    {
+      "unit": "IND-021",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-021",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-021",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-022",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "1b3291bae2ddadcb82585f5d4c3c765f8729a8c0a3274b396141aa71d3544cf6"
+    },
+    {
+      "unit": "IND-022",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "81dddbcaf6827c83236969d9461d2ba676801cfafd379d2f04dcc1c047685c3f"
+    },
+    {
+      "unit": "IND-022",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2537acb70f722e9ce407773a72aeaa18caf8bdaa87be01419e048594035e0295"
+    },
+    {
+      "unit": "IND-022",
+      "owner": "bh3-profiling",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "85ccf94155c0738109e07b3f55efd6b30f3be9533579e099f0aa4f8d0d927f86"
+    },
+    {
+      "unit": "IND-023",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-023",
+      "owner": "bioprinting",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "681d523d9eb7bb849a3e2681b8f9797f4f08bf902e825fc8ddcce38b285d0a51"
+    },
+    {
+      "unit": "IND-023",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-024",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-024",
+      "owner": "bioprinting",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "681d523d9eb7bb849a3e2681b8f9797f4f08bf902e825fc8ddcce38b285d0a51"
+    },
+    {
+      "unit": "IND-024",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-025",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-025",
+      "owner": "bioprinting",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "200db5b4f396e064147995176fa541e09406594ee4f6ee956bd72e0e24c14dd0"
+    },
+    {
+      "unit": "IND-026",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-026",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-026",
+      "owner": "bioprinting",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "200db5b4f396e064147995176fa541e09406594ee4f6ee956bd72e0e24c14dd0"
+    },
+    {
+      "unit": "IND-027",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-027",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-028",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-028",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-028",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-029",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-030",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-030",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-031",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-031",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-032",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-032",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-033",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-034",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-035",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-035",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-036",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-037",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-037",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-037",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-038",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-038",
+      "owner": "bioprinting",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "200db5b4f396e064147995176fa541e09406594ee4f6ee956bd72e0e24c14dd0"
+    },
+    {
+      "unit": "IND-038",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-039",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-039",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30f238926d3dbe4fca69a45e96b20b2a59c746c6be9aace8f70a39deca082ec1"
+    },
+    {
+      "unit": "IND-039",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-039",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-040",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-040",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "89370d3416c10d25663ac81f09fba0c65016bb8be303f6b6d210d552f8468531"
+    },
+    {
+      "unit": "IND-041",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-041",
+      "owner": "bioprinting",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "200db5b4f396e064147995176fa541e09406594ee4f6ee956bd72e0e24c14dd0"
+    },
+    {
+      "unit": "IND-042",
+      "owner": "bioprinting",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e9e8de5bee8abf9e5185ea4d4275ecdf12e4ed11bd7b965b917a6384cb6b5dd2"
+    },
+    {
+      "unit": "IND-042",
+      "owner": "bioprinting",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "3bc5c51c226db9f344a33068c1f2947d2d769fafa102c070beb893a19e903231"
+    },
+    {
+      "unit": "IND-043",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-043",
+      "owner": "cell-line",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "dd0276606c6932a45693f87e92c3762df96941adcfeca18b5c46624268c84864"
+    },
+    {
+      "unit": "IND-044",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-044",
+      "owner": "cell-line",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "2109099eeb0e9e6c70ad06a6bafdeb176cb2e19edce9ae3615f4538ccc79946f"
+    },
+    {
+      "unit": "IND-045",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-045",
+      "owner": "cell-line",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "2109099eeb0e9e6c70ad06a6bafdeb176cb2e19edce9ae3615f4538ccc79946f"
+    },
+    {
+      "unit": "IND-046",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-046",
+      "owner": "cell-line",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "2109099eeb0e9e6c70ad06a6bafdeb176cb2e19edce9ae3615f4538ccc79946f"
+    },
+    {
+      "unit": "IND-047",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-048",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-049",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "ddeb750c0831c65317c55d3e3c7c779c04b27a90b9f2ce1fd0e7ec4bb48a0ea9"
+    },
+    {
+      "unit": "IND-049",
+      "owner": "cell-lines-as-proxy",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "039693815e6f327a7ec0efae948f6efa8f92ce9c4933776a94a6170b57e249a1"
+    },
+    {
+      "unit": "IND-050",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-051",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-052",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-053",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-054",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-054",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-055",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-055",
+      "owner": "cell-lines-as-proxy",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "039693815e6f327a7ec0efae948f6efa8f92ce9c4933776a94a6170b57e249a1"
+    },
+    {
+      "unit": "IND-055",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "ddeb750c0831c65317c55d3e3c7c779c04b27a90b9f2ce1fd0e7ec4bb48a0ea9"
+    },
+    {
+      "unit": "IND-056",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-057",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-057",
+      "owner": "cell-line",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "2109099eeb0e9e6c70ad06a6bafdeb176cb2e19edce9ae3615f4538ccc79946f"
+    },
+    {
+      "unit": "IND-057",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-058",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-059",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "217fe25cbdb5d91024aa8b3c290e3ae688e8200472bc102fbefecf9d591f5470"
+    },
+    {
+      "unit": "IND-059",
+      "owner": "cell-line",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "2109099eeb0e9e6c70ad06a6bafdeb176cb2e19edce9ae3615f4538ccc79946f"
+    },
+    {
+      "unit": "IND-060",
+      "owner": "cell-line",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "993e1eb1191d80ed5917e430ec3e72d2738510421dacd44d33daa75fbe7a5fe0"
+    },
+    {
+      "unit": "IND-061",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-061",
+      "owner": "immune-tumour-coculture-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "6347606d19ac7d9487baff566ca1e2ecee85e7fa84964601cf20ad5d437757b2"
+    },
+    {
+      "unit": "IND-061",
+      "owner": "immune-tumour-coculture-models",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "82a4205385be10722e056d4fb8b6517b89c3c53649523becb29196261b982eef"
+    },
+    {
+      "unit": "IND-062",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-062",
+      "owner": "immune-tumour-coculture-models",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f62a1380031be7308db10f2aee9486e29fd67f41a2f97ed37b6a0cf4dfbaa893"
+    },
+    {
+      "unit": "IND-062",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-063",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-064",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-064",
+      "owner": "immune-tumour-coculture-models",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "85a0b0ed011465a203fca68dd12a19d4da5849b0115f0425790c1d074469b5ed"
+    },
+    {
+      "unit": "IND-064",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-065",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "1ac53dae441c14fb049d327cf52a2c788215605f55763f4d70f5c85f506eb494"
+    },
+    {
+      "unit": "IND-065",
+      "owner": "immune-tumour-coculture-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "6347606d19ac7d9487baff566ca1e2ecee85e7fa84964601cf20ad5d437757b2"
+    },
+    {
+      "unit": "IND-065",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-066",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "1ac53dae441c14fb049d327cf52a2c788215605f55763f4d70f5c85f506eb494"
+    },
+    {
+      "unit": "IND-066",
+      "owner": "immune-tumour-coculture-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "6347606d19ac7d9487baff566ca1e2ecee85e7fa84964601cf20ad5d437757b2"
+    },
+    {
+      "unit": "IND-066",
+      "owner": "tumour-on-chip",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4fa41d237193243f1824c8f2df43a343aef42f8e6a8170120c691fe648a3a413"
+    },
+    {
+      "unit": "IND-067",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-067",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-068",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-068",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-068",
+      "owner": "immune-tumour-coculture-models",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "cdc373a45147aa3125f101dce436f712f63453dd3a4b3d90d64ce1277bb71c2d"
+    },
+    {
+      "unit": "IND-068",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "dc256ba7bdb5e6346115a0fc445f15a3c6ee7d8dd13b3f46af0514a9958ea4c8"
+    },
+    {
+      "unit": "IND-069",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-070",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-071",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-072",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-073",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-074",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-074",
+      "owner": "immune-tumour-coculture-models",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "85a0b0ed011465a203fca68dd12a19d4da5849b0115f0425790c1d074469b5ed"
+    },
+    {
+      "unit": "IND-074",
+      "owner": "immune-tumour-coculture-models",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "cdc373a45147aa3125f101dce436f712f63453dd3a4b3d90d64ce1277bb71c2d"
+    },
+    {
+      "unit": "IND-075",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-075",
+      "owner": "immune-tumour-coculture-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "6347606d19ac7d9487baff566ca1e2ecee85e7fa84964601cf20ad5d437757b2"
+    },
+    {
+      "unit": "IND-076",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "8da9f2ee239e125944d0a5369fe84f9d20b6819a3172cd27b95074f41461f32d"
+    },
+    {
+      "unit": "IND-076",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "1ac53dae441c14fb049d327cf52a2c788215605f55763f4d70f5c85f506eb494"
+    },
+    {
+      "unit": "IND-077",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "dc256ba7bdb5e6346115a0fc445f15a3c6ee7d8dd13b3f46af0514a9958ea4c8"
+    },
+    {
+      "unit": "IND-077",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-078",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "a8813db079f1741dc3cdfe015e1039610314076ddc130967ab2ab68e91e12e30"
+    },
+    {
+      "unit": "IND-079",
+      "owner": "immune-tumour-coculture-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "1ac53dae441c14fb049d327cf52a2c788215605f55763f4d70f5c85f506eb494"
+    },
+    {
+      "unit": "IND-080",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-080",
+      "owner": "crispr-screens",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4b33fbc0943a34887bda04ecbdfe98eb5c6ef4a90fc922264844a5986dbaeeff"
+    },
+    {
+      "unit": "IND-081",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-081",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-082",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-082",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-082",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-083",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-083",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-084",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-084",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-085",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "b8867c2367c32c3a3552d1890084fb85020df8e0057f0f35d227d691c0cbc63b"
+    },
+    {
+      "unit": "IND-086",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "b8867c2367c32c3a3552d1890084fb85020df8e0057f0f35d227d691c0cbc63b"
+    },
+    {
+      "unit": "IND-086",
+      "owner": "crispr-screens",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "9abe166a0a35abdd38b4d56b998bcc6c6183adfffdc8d1e0046001e396d3931c"
+    },
+    {
+      "unit": "IND-086",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-086",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "48a7939e21dfde2f82ddb1557dca8f6701b1e00719b371bb2fb3350953889be8"
+    },
+    {
+      "unit": "IND-087",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "b8867c2367c32c3a3552d1890084fb85020df8e0057f0f35d227d691c0cbc63b"
+    },
+    {
+      "unit": "IND-087",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-088",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "b8867c2367c32c3a3552d1890084fb85020df8e0057f0f35d227d691c0cbc63b"
+    },
+    {
+      "unit": "IND-088",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-088",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-089",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "48a7939e21dfde2f82ddb1557dca8f6701b1e00719b371bb2fb3350953889be8"
+    },
+    {
+      "unit": "IND-089",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-089",
+      "owner": "cancer-cell-line-encyclopedias",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a2dbb73e2681b5677586fe4420d3ab98473956d6c54ccc1b93c7145887a6cfc4"
+    },
+    {
+      "unit": "IND-090",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-090",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-091",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-092",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-093",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-094",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-094",
+      "owner": "crispr-screens",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "2bf0f4cb71e73c0b014608af3827ac5b66849cfda3e6ae4f195fb55f146f4242"
+    },
+    {
+      "unit": "IND-095",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-095",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "48a7939e21dfde2f82ddb1557dca8f6701b1e00719b371bb2fb3350953889be8"
+    },
+    {
+      "unit": "IND-096",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-096",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "650901303f458f1303392b981fc79a3ffb97661b5754650209b3a6cb2b763e6b"
+    },
+    {
+      "unit": "IND-097",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "48a7939e21dfde2f82ddb1557dca8f6701b1e00719b371bb2fb3350953889be8"
+    },
+    {
+      "unit": "IND-097",
+      "owner": "crispr-screens",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4800217c67ccce8ea1de8a219f06c73733ae5f6085a060c6e775b8994141105c"
+    },
+    {
+      "unit": "IND-097",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-098",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "48a7939e21dfde2f82ddb1557dca8f6701b1e00719b371bb2fb3350953889be8"
+    },
+    {
+      "unit": "IND-099",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "c052b945896a9528c40a4e194148b18dae94e553d6e6679843d5cac9d446dfdc"
+    },
+    {
+      "unit": "IND-099",
+      "owner": "crispr-screens",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "b8fde24e548bc52917123936ab35e34392965c751a26357db9fd5bb926064c07"
+    },
+    {
+      "unit": "IND-099",
+      "owner": "crispr-screens",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "9abe166a0a35abdd38b4d56b998bcc6c6183adfffdc8d1e0046001e396d3931c"
+    },
+    {
+      "unit": "IND-100",
+      "owner": "crispr-screens",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "b8867c2367c32c3a3552d1890084fb85020df8e0057f0f35d227d691c0cbc63b"
+    },
+    {
+      "unit": "IND-101",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-101",
+      "owner": "functional-drug-testing",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "9b491571984c87003b5a99be722e24f8b7df00137dbc65868aff460de526d59e"
+    },
+    {
+      "unit": "IND-102",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-102",
+      "owner": "functional-drug-testing",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7316f86912cc2170af5055a36738414c4451b65997326828dda2f6470f2c4a50"
+    },
+    {
+      "unit": "IND-102",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-103",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-103",
+      "owner": "functional-drug-testing",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7316f86912cc2170af5055a36738414c4451b65997326828dda2f6470f2c4a50"
+    },
+    {
+      "unit": "IND-104",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-104",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "bcd177205059bc05795c331e1d5c0d29f838789b0d8a595daa9393b1004a5490"
+    },
+    {
+      "unit": "IND-105",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-105",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-106",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-106",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-106",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-107",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-107",
+      "owner": "functional-drug-testing",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7316f86912cc2170af5055a36738414c4451b65997326828dda2f6470f2c4a50"
+    },
+    {
+      "unit": "IND-107",
+      "owner": "functional-drug-testing",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "9f8b867d285c1895f04ce2a236e45caf83afaf991d585ea6202a121c6c3fdd59"
+    },
+    {
+      "unit": "IND-108",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-109",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-110",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-111",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-111",
+      "owner": "functional-drug-testing",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "307ee2c96c5fecb697bd785f10ca1101ef70fd7943a3ab05e95876de931e92cd"
+    },
+    {
+      "unit": "IND-111",
+      "owner": "functional-precision-medicine-haematology",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "77fd528f4924cab9735cecd73e9e404ed980eb4d60b7aaaa96e13c9f8e7cdb7c"
+    },
+    {
+      "unit": "IND-111",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d52c0c0529fc1b4c1cb9ab98567501dadc22a9f801cc1798ba140426e849306c"
+    },
+    {
+      "unit": "IND-111",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-112",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-113",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-113",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-114",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-114",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-115",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-115",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-115",
+      "owner": "functional-drug-testing",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "f9a0c1cc2d1c7cdd3b19bdfc421a115daf5e5c0f69c44396af171283fefe97da"
+    },
+    {
+      "unit": "IND-116",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-116",
+      "owner": "functional-drug-testing",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "61832f5dc1fb27bce3f19f35b9202a3b153a7fc7f5dbab705321ab3a385bb378"
+    },
+    {
+      "unit": "IND-117",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-117",
+      "owner": "functional-drug-testing",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7316f86912cc2170af5055a36738414c4451b65997326828dda2f6470f2c4a50"
+    },
+    {
+      "unit": "IND-117",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "f3ad5bd4e84a31c728d17e7155c5a35902fe4b33c8de11b067716b4149afe298"
+    },
+    {
+      "unit": "IND-118",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6600e345c2fd11fe9aa64f80b2fe2292a1026603ccd77574a0810168f226c2ab"
+    },
+    {
+      "unit": "IND-118",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "850f0ae5fdf45ba803e8143764fffef2c87ab892e6297202f441453f61798d24"
+    },
+    {
+      "unit": "IND-119",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-119",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78b75af269f9719fc71e7704579e74dfa75882ef166b9723f4be7c88030e771c"
+    },
+    {
+      "unit": "IND-120",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-120",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78b75af269f9719fc71e7704579e74dfa75882ef166b9723f4be7c88030e771c"
+    },
+    {
+      "unit": "IND-120",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-121",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-121",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-122",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-122",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-123",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-123",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-124",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-124",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-125",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-125",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e4d13be75a517a34cbb88abe5f98a5ee62cb430d467e55870ab0bf6446989f06"
+    },
+    {
+      "unit": "IND-125",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "850f0ae5fdf45ba803e8143764fffef2c87ab892e6297202f441453f61798d24"
+    },
+    {
+      "unit": "IND-126",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-126",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-126",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78b75af269f9719fc71e7704579e74dfa75882ef166b9723f4be7c88030e771c"
+    },
+    {
+      "unit": "IND-127",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "850f0ae5fdf45ba803e8143764fffef2c87ab892e6297202f441453f61798d24"
+    },
+    {
+      "unit": "IND-127",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-128",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-128",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e4d13be75a517a34cbb88abe5f98a5ee62cb430d467e55870ab0bf6446989f06"
+    },
+    {
+      "unit": "IND-129",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-130",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-130",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "850f0ae5fdf45ba803e8143764fffef2c87ab892e6297202f441453f61798d24"
+    },
+    {
+      "unit": "IND-130",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "378972a8b0d72532e31b6159235ffd29eb4d40889e55ab75a1e272a428d32325"
+    },
+    {
+      "unit": "IND-131",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-131",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-132",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "2c26b5c83945199bdc57b83553aac63dace884ab1a1ef91156b5328c2c0af6c3"
+    },
+    {
+      "unit": "IND-133",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-133",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78b75af269f9719fc71e7704579e74dfa75882ef166b9723f4be7c88030e771c"
+    },
+    {
+      "unit": "IND-134",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-135",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-135",
+      "owner": "in-vitro-in-vivo",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "0f908ef1b57fe83192c201b0949eee263d941e169e426cfedaf2b5cc4fd34c3c"
+    },
+    {
+      "unit": "IND-136",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-137",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-137",
+      "owner": "in-vitro-in-vivo",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "fdf0b0924c307ba9e3c54c52b16546d7db56b044504b1650779089bf0a852dda"
+    },
+    {
+      "unit": "IND-138",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-138",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-138",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-139",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-139",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-140",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-140",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-141",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-141",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-141",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-142",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-143",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-143",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-144",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-145",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-145",
+      "owner": "in-vitro-in-vivo",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "fdf0b0924c307ba9e3c54c52b16546d7db56b044504b1650779089bf0a852dda"
+    },
+    {
+      "unit": "IND-146",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "4af2c1e6c67a380e93e9272241f2c0018d64b2130515f2177c40ef88aa9214dd"
+    },
+    {
+      "unit": "IND-147",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-148",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-148",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-148",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-148",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-149",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "656b3c9ef4680c6ad959f38744f086d5d1099fe0cf415a20fa3e80ebbe5581e4"
+    },
+    {
+      "unit": "IND-149",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-150",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-150",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885"
+    },
+    {
+      "unit": "IND-150",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "4af2c1e6c67a380e93e9272241f2c0018d64b2130515f2177c40ef88aa9214dd"
+    },
+    {
+      "unit": "IND-151",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-151",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-151",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "656b3c9ef4680c6ad959f38744f086d5d1099fe0cf415a20fa3e80ebbe5581e4"
+    },
+    {
+      "unit": "IND-151",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-152",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3"
+    },
+    {
+      "unit": "IND-152",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab"
+    },
+    {
+      "unit": "IND-152",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-153",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "4af2c1e6c67a380e93e9272241f2c0018d64b2130515f2177c40ef88aa9214dd"
+    },
+    {
+      "unit": "IND-153",
+      "owner": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc"
+    },
+    {
+      "unit": "IND-154",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "94bf3e339bcb6ca57b973a980d14257a91148396f227c18489d40dc366e24d52"
+    },
+    {
+      "unit": "IND-154",
+      "owner": "model-context-of-use",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "1fc43c7473c6b5b50af477538f9dc6c5a4ee5dae2a4d635f43b704272a07af00"
+    },
+    {
+      "unit": "IND-155",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "94bf3e339bcb6ca57b973a980d14257a91148396f227c18489d40dc366e24d52"
+    },
+    {
+      "unit": "IND-156",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "94bf3e339bcb6ca57b973a980d14257a91148396f227c18489d40dc366e24d52"
+    },
+    {
+      "unit": "IND-157",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-157",
+      "owner": "model-context-of-use",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "84869360d90fded9e91b6fda9004fe4e16b7459c2710571dd2d124396bd48018"
+    },
+    {
+      "unit": "IND-157",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "3c97e776207761aaffabcedf0e5b0060fa55d64aa4ecbeca79382f6113f83b51"
+    },
+    {
+      "unit": "IND-157",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-158",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-159",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c4fbfe836d904828615098d7d783223592663cfd8c867b3c8e987c7d3aff55a5"
+    },
+    {
+      "unit": "IND-160",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-161",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "e5f2954230bf9af7cfac627d03734e177943566ff03f546ed6455524868d3b85"
+    },
+    {
+      "unit": "IND-162",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "3c97e776207761aaffabcedf0e5b0060fa55d64aa4ecbeca79382f6113f83b51"
+    },
+    {
+      "unit": "IND-162",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-163",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "94bf3e339bcb6ca57b973a980d14257a91148396f227c18489d40dc366e24d52"
+    },
+    {
+      "unit": "IND-164",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-165",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-166",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-166",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-167",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-168",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-168",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "e5f2954230bf9af7cfac627d03734e177943566ff03f546ed6455524868d3b85"
+    },
+    {
+      "unit": "IND-169",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "6ff6364d44a96d167f2876c54f5a88383123f4c7ccab156441f8998eaba7c723"
+    },
+    {
+      "unit": "IND-169",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-170",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "3c97e776207761aaffabcedf0e5b0060fa55d64aa4ecbeca79382f6113f83b51"
+    },
+    {
+      "unit": "IND-171",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "3c97e776207761aaffabcedf0e5b0060fa55d64aa4ecbeca79382f6113f83b51"
+    },
+    {
+      "unit": "IND-171",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "e5f2954230bf9af7cfac627d03734e177943566ff03f546ed6455524868d3b85"
+    },
+    {
+      "unit": "IND-172",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "3403de5c91c780bbd7e054434c79aa6014b4dec2cb9ae6da2923f368b604b5a9"
+    },
+    {
+      "unit": "IND-172",
+      "owner": "model-context-of-use",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c4fbfe836d904828615098d7d783223592663cfd8c867b3c8e987c7d3aff55a5"
+    },
+    {
+      "unit": "IND-173",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-173",
+      "owner": "organoid",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "609d382bc158a2bc6c002dd19f377e5beb4e5c2581490a684aaa1613e87e42f9"
+    },
+    {
+      "unit": "IND-173",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-174",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-174",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-174",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-174",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-174",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-175",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-175",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-175",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-176",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-176",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-177",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-177",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-177",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-177",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-177",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-178",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-178",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-179",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-179",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-179",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-179",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoids",
+      "field": "strengths",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "719719f1af2614a051b09b4f466bdf89d3691f11126e2b4783d222964893b14a"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoids",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "fc4cb068e24cfee31e38e2c6cf1f30bd77dbf556c95de903d24f2473a40d6c1b"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-180",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-181",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-182",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-182",
+      "owner": "tumour-spheroid-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e4a0c90af21fcdf526a434c69248de9855866b7e946cd96810696a0ab6e111b7"
+    },
+    {
+      "unit": "IND-183",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-183",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-183",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-183",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-184",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-184",
+      "owner": "organoids",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "b8855341e76f11e745ed45c640f48e377fbe0b3dfd27a411b86f04389c009f66"
+    },
+    {
+      "unit": "IND-185",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-186",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-187",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-187",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-187",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-187",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-188",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-188",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-188",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-188",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-189",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-189",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-189",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-189",
+      "owner": "organoids",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "73bb42468d389a29dd1030be9b7388eb6f513c68aae5babab194ec61664f08b7"
+    },
+    {
+      "unit": "IND-190",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "96bad2042bc8ae1e6979bdff0f3c4ed95d2a61df9eac17cea40929b252ae24c1"
+    },
+    {
+      "unit": "IND-190",
+      "owner": "organoids",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "233cc133b84c97b9dfe13ce503d5336e6c22dd8edcd60be4f588501393500fb4"
+    },
+    {
+      "unit": "IND-190",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "546f8f2c98007d06f3c124f210646becdd45e409899fce6a79c33b74ddb77142"
+    },
+    {
+      "unit": "IND-190",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "f9861f6d90388353205293c55fc819d64f0ba58e7f3275ed8c05e03e81a0de3a"
+    },
+    {
+      "unit": "IND-190",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "c64c25596e2c9da8021be5f7267be824b1c3e40e99937699374385c4c89f4f4a"
+    },
+    {
+      "unit": "IND-191",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "921ec8f4426650b77cf4b406ff93b89e55b554455419f9caf5cb94d7ff3588b0"
+    },
+    {
+      "unit": "IND-191",
+      "owner": "organoids",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "339733356f2e3215af395e38392836d04587971bdef1707bcadb2de2dc700c39"
+    },
+    {
+      "unit": "IND-192",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-193",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "8a75e1904f9e2789bf6a36d1780f70a4e6fb67aed06634d58e8cc522bc8580bc"
+    },
+    {
+      "unit": "IND-194",
+      "owner": "organoid",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "921ec8f4426650b77cf4b406ff93b89e55b554455419f9caf5cb94d7ff3588b0"
+    },
+    {
+      "unit": "IND-195",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-195",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-196",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-196",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-196",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-197",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-197",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-197",
+      "owner": "pdx-models",
+      "field": "limitations",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "88a1d96efb3fdf61e71a5cf6890db6b7f431d9d9e90ebf4e3dcff4efb649accb"
+    },
+    {
+      "unit": "IND-198",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-198",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-199",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-200",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-200",
+      "owner": "pdx-models",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "0a51837880a766a1f32d80d6af903dcfb0db3b7977c720e89f5331dd0653e5b9"
+    },
+    {
+      "unit": "IND-201",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-201",
+      "owner": "model-organism",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a380bef2850b931d059652f1eeef4489749e870c9fd9c5ec3b0c5127b52f16c1"
+    },
+    {
+      "unit": "IND-202",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-202",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-202",
+      "owner": "pdx-models",
+      "field": "strengths",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e69db6b0c2e0f226d1569f9cb00d2333b9732715a95ada55ae7906995f496ee5"
+    },
+    {
+      "unit": "IND-203",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-203",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-204",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-204",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-205",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-205",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-206",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-206",
+      "owner": "model-organism",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a380bef2850b931d059652f1eeef4489749e870c9fd9c5ec3b0c5127b52f16c1"
+    },
+    {
+      "unit": "IND-207",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-207",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-208",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-209",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-210",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-210",
+      "owner": "pdx-models",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "5d21590071212e1a89b52f3356b3d0d95c58e28bb1d50430882a4b64b9e0878d"
+    },
+    {
+      "unit": "IND-211",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-211",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-211",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-212",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-212",
+      "owner": "pdx-models",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "e509e831746e2c9a38b7b029b58976ee6c510849c54d8b3db7591bfa277a70f6"
+    },
+    {
+      "unit": "IND-213",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-213",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-214",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "b19f116007eb99fd3ce9ae8b0d441b487166e0e08397afe57502f0d92ffff913"
+    },
+    {
+      "unit": "IND-214",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "bc87e720231aaf8ec3caaf6f94176718014ecb0278f232277e480694d23829a9"
+    },
+    {
+      "unit": "IND-215",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "3d89a9ff688043823799dcaded407122d0463961de9a8aec60a89483a79ad499"
+    },
+    {
+      "unit": "IND-215",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5f6dc35ef346599cfd0e1f74c663e80c2eb32cdc06df42b1f48bf8b97e89b94a"
+    },
+    {
+      "unit": "IND-216",
+      "owner": "pdx-models",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "0b668eb32f6a8298d24551c07059b400596d59746afe7042a159fac0ba3a1b6a"
+    },
+    {
+      "unit": "IND-217",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-217",
+      "owner": "functional-model-selection",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "5630d245fe86c6235faba09bf36cc24fca1025069681ada0d826272b4c7677c3"
+    },
+    {
+      "unit": "IND-217",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "3f2ea58a47588ccc8c48e9c8b453119a15d164d0f624ab42dd9402ceedf1ea9b"
+    },
+    {
+      "unit": "IND-218",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-218",
+      "owner": "functional-model-selection",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78c83ef18dafc5e1f775b4e785221b5b23a6566f0a5dc78869ff1807c6d91e4a"
+    },
+    {
+      "unit": "IND-218",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-219",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-219",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30aec2d57efdce13ad7e96807a6707b496b1ffc8a420eccf268696e2503d732f"
+    },
+    {
+      "unit": "IND-220",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30aec2d57efdce13ad7e96807a6707b496b1ffc8a420eccf268696e2503d732f"
+    },
+    {
+      "unit": "IND-220",
+      "owner": "functional-model-selection",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78c83ef18dafc5e1f775b4e785221b5b23a6566f0a5dc78869ff1807c6d91e4a"
+    },
+    {
+      "unit": "IND-220",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-220",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-221",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30aec2d57efdce13ad7e96807a6707b496b1ffc8a420eccf268696e2503d732f"
+    },
+    {
+      "unit": "IND-221",
+      "owner": "functional-model-selection",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78c83ef18dafc5e1f775b4e785221b5b23a6566f0a5dc78869ff1807c6d91e4a"
+    },
+    {
+      "unit": "IND-221",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-222",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-222",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-223",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "3f2ea58a47588ccc8c48e9c8b453119a15d164d0f624ab42dd9402ceedf1ea9b"
+    },
+    {
+      "unit": "IND-224",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "3f2ea58a47588ccc8c48e9c8b453119a15d164d0f624ab42dd9402ceedf1ea9b"
+    },
+    {
+      "unit": "IND-225",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-225",
+      "owner": "functional-model-selection",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78c83ef18dafc5e1f775b4e785221b5b23a6566f0a5dc78869ff1807c6d91e4a"
+    },
+    {
+      "unit": "IND-225",
+      "owner": "pdx-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "604e88f32970354524fbf3097ff1358360518e9aed4fd4d20b4c47afc1d54044"
+    },
+    {
+      "unit": "IND-225",
+      "owner": "organoid",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "e0ba5377f39231a06badd0774082aac3ee2b2777cbff7aa114a77988ca37f2ee"
+    },
+    {
+      "unit": "IND-225",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-226",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "30aec2d57efdce13ad7e96807a6707b496b1ffc8a420eccf268696e2503d732f"
+    },
+    {
+      "unit": "IND-226",
+      "owner": "functional-drug-testing",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "bcd177205059bc05795c331e1d5c0d29f838789b0d8a595daa9393b1004a5490"
+    },
+    {
+      "unit": "IND-226",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 7,
+      "exactRenderedText": true,
+      "passageSha256": "7231248fd470a4c002e4d29e09af022eb044f639d1358cad9f9f12dbbac848a0"
+    },
+    {
+      "unit": "IND-227",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-227",
+      "owner": "functional-model-selection",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "78c83ef18dafc5e1f775b4e785221b5b23a6566f0a5dc78869ff1807c6d91e4a"
+    },
+    {
+      "unit": "IND-227",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-228",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "c75a7f030e84db13fd853b945c27cafab103f8330e445207942e7d79e5e7d9a2"
+    },
+    {
+      "unit": "IND-228",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "86d6ddf6941be9b10c8c5b84715c522e7be163047d5dc851f36a0f988f9394bb"
+    },
+    {
+      "unit": "IND-229",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "86d6ddf6941be9b10c8c5b84715c522e7be163047d5dc851f36a0f988f9394bb"
+    },
+    {
+      "unit": "IND-230",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-230",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-231",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-231",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-232",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-232",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "e38c7185a9cdb0159acfed5e6950181ef788451b2d14ed143bc9c85138aa48af"
+    },
+    {
+      "unit": "IND-232",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-233",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-234",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 4,
+      "exactRenderedText": true,
+      "passageSha256": "c75a7f030e84db13fd853b945c27cafab103f8330e445207942e7d79e5e7d9a2"
+    },
+    {
+      "unit": "IND-234",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "850f0ae5fdf45ba803e8143764fffef2c87ab892e6297202f441453f61798d24"
+    },
+    {
+      "unit": "IND-235",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "86d6ddf6941be9b10c8c5b84715c522e7be163047d5dc851f36a0f988f9394bb"
+    },
+    {
+      "unit": "IND-236",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 5,
+      "exactRenderedText": true,
+      "passageSha256": "86d6ddf6941be9b10c8c5b84715c522e7be163047d5dc851f36a0f988f9394bb"
+    },
+    {
+      "unit": "IND-237",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-238",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-238",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "7db4e7cff7bea0b2526ad6b9451ced8904432b856dac028a8f570c7d4be9d60b"
+    },
+    {
+      "unit": "IND-238",
+      "owner": "immune-tumour-coculture-models",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "6347606d19ac7d9487baff566ca1e2ecee85e7fa84964601cf20ad5d437757b2"
+    },
+    {
+      "unit": "IND-239",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "8105cf90782f36e301285c71920e9442793316366ffab66eea2fa94199499fbe"
+    },
+    {
+      "unit": "IND-239",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 6,
+      "exactRenderedText": true,
+      "passageSha256": "9df0adbf6469a467eab928f83b07952796316b77c80f6a6546ce2d3db9af208b"
+    },
+    {
+      "unit": "IND-240",
+      "owner": "functional-model-selection",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "3f2ea58a47588ccc8c48e9c8b453119a15d164d0f624ab42dd9402ceedf1ea9b"
+    },
+    {
+      "unit": "IND-240",
+      "owner": "ex-vivo-tumour-fragments",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "bf06aa93a6119b3074419d32da926de59c06dfd5f16516bb9adf8ca7548e913d"
+    },
+    {
+      "unit": "IND-240",
+      "owner": "pdx-models",
+      "field": "limitations",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "5d21590071212e1a89b52f3356b3d0d95c58e28bb1d50430882a4b64b9e0878d"
+    },
+    {
+      "unit": "IND-241",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-241",
+      "owner": "single-cell-mass-assays",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "573278f99f92a292a122c437d3d5456640dfff46ee64480a6e33efef7838f23c"
+    },
+    {
+      "unit": "IND-241",
+      "owner": "single-cell-mass-assays",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "c4819d857195fcd6fdb5ba5ceb4570429d7e7ca46c136d345dfd6cf0a926ef25"
+    },
+    {
+      "unit": "IND-242",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-242",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-242",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-243",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d2ec2cf4b0d1a1168cf29e32f0115e13ca60bc30637a93e7f378f5849ce3f528"
+    },
+    {
+      "unit": "IND-243",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-244",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-244",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-245",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-245",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-245",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-246",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "6fa82175334f921f5310da55c848bb832391682e4f4134358ccca096031ae2be"
+    },
+    {
+      "unit": "IND-246",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-246",
+      "owner": "single-cell-mass-assays",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "573278f99f92a292a122c437d3d5456640dfff46ee64480a6e33efef7838f23c"
+    },
+    {
+      "unit": "IND-246",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-247",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "6fa82175334f921f5310da55c848bb832391682e4f4134358ccca096031ae2be"
+    },
+    {
+      "unit": "IND-247",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-248",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-249",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-250",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-251",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-251",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-252",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a11715cf7e94912980cd43fc009f182df266c666ecd64714c3b0a0e2805ae3b1"
+    },
+    {
+      "unit": "IND-252",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-253",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-253",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-254",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-254",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-255",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d2ec2cf4b0d1a1168cf29e32f0115e13ca60bc30637a93e7f378f5849ce3f528"
+    },
+    {
+      "unit": "IND-255",
+      "owner": "single-cell-mass-assays",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "8dcbecf2cf2bf604de9b09202b2216f51ea7c1e308c779fa243ebecd623375bf"
+    },
+    {
+      "unit": "IND-255",
+      "owner": "single-cell-mass-assays",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "573278f99f92a292a122c437d3d5456640dfff46ee64480a6e33efef7838f23c"
+    },
+    {
+      "unit": "IND-255",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-256",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d2ec2cf4b0d1a1168cf29e32f0115e13ca60bc30637a93e7f378f5849ce3f528"
+    },
+    {
+      "unit": "IND-256",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-257",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d2ec2cf4b0d1a1168cf29e32f0115e13ca60bc30637a93e7f378f5849ce3f528"
+    },
+    {
+      "unit": "IND-257",
+      "owner": "single-cell-mass-assays",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "573278f99f92a292a122c437d3d5456640dfff46ee64480a6e33efef7838f23c"
+    },
+    {
+      "unit": "IND-257",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4d8a720ade1d4f3252b72a99dcafca38c4ce4aa0d043f22cf0afc0af5a0a103a"
+    },
+    {
+      "unit": "IND-258",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 3,
+      "exactRenderedText": true,
+      "passageSha256": "6fa82175334f921f5310da55c848bb832391682e4f4134358ccca096031ae2be"
+    },
+    {
+      "unit": "IND-258",
+      "owner": "single-cell-mass-assays",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "d2ec2cf4b0d1a1168cf29e32f0115e13ca60bc30637a93e7f378f5849ce3f528"
+    },
+    {
+      "unit": "IND-259",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-259",
+      "owner": "tumour-on-chip",
+      "field": "tldr",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "95a34e9a93f174a778ca72d3095608060b7a84efc079d6c74fd1d01d1ac3304d"
+    },
+    {
+      "unit": "IND-260",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-261",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-261",
+      "owner": "tumour-on-chip",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4fa41d237193243f1824c8f2df43a343aef42f8e6a8170120c691fe648a3a413"
+    },
+    {
+      "unit": "IND-261",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-262",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5bcb0509c9a9fe95ecb6bfcf1d65885a237e5fbca9761fb72b21a31d7f77640c"
+    },
+    {
+      "unit": "IND-262",
+      "owner": "tumour-on-chip",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4fa41d237193243f1824c8f2df43a343aef42f8e6a8170120c691fe648a3a413"
+    },
+    {
+      "unit": "IND-262",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-263",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5bcb0509c9a9fe95ecb6bfcf1d65885a237e5fbca9761fb72b21a31d7f77640c"
+    },
+    {
+      "unit": "IND-263",
+      "owner": "tumour-on-chip",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4fa41d237193243f1824c8f2df43a343aef42f8e6a8170120c691fe648a3a413"
+    },
+    {
+      "unit": "IND-264",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-264",
+      "owner": "tumour-on-chip",
+      "field": "principle",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "321510acdf27416bc88620d42559c647e837125713cd8f7468f434a1efc557e7"
+    },
+    {
+      "unit": "IND-264",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-265",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-266",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-266",
+      "owner": "tumour-on-chip",
+      "field": "strengths",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "e1771759a413cc00f9d58fe4e1dc09928012ef0ba05d6471f5b6e18e34dd3d8c"
+    },
+    {
+      "unit": "IND-266",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-267",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-268",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-269",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-270",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-271",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-272",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-272",
+      "owner": "tumour-on-chip",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "06ba85e7105bd71e43819a2c59a50a67bf73110b90b58bc9ab638a7cb8d787a9"
+    },
+    {
+      "unit": "IND-272",
+      "owner": "tumour-on-chip",
+      "field": "summary",
+      "index": null,
+      "exactRenderedText": true,
+      "passageSha256": "4fa41d237193243f1824c8f2df43a343aef42f8e6a8170120c691fe648a3a413"
+    },
+    {
+      "unit": "IND-273",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-274",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-274",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-275",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "87872573e8da686cd60d546fa100c3a652d520b45a4fdcc7835d0c860f5260a2"
+    },
+    {
+      "unit": "IND-276",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 1,
+      "exactRenderedText": true,
+      "passageSha256": "4ec87ac7096cc72170be483de90104eec9d246f88b928acbaff96a2d6d716ba3"
+    },
+    {
+      "unit": "IND-276",
+      "owner": "tumour-on-chip",
+      "field": "limitations",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "06ba85e7105bd71e43819a2c59a50a67bf73110b90b58bc9ab638a7cb8d787a9"
+    },
+    {
+      "unit": "IND-276",
+      "owner": "tumour-on-chip",
+      "field": "strengths",
+      "index": 0,
+      "exactRenderedText": true,
+      "passageSha256": "a33bf2ec32980f6b01e6dd5a354b100ae5cb113f46570729a565e26085f82b9e"
+    },
+    {
+      "unit": "IND-277",
+      "owner": "tumour-on-chip",
+      "field": "notes",
+      "index": 2,
+      "exactRenderedText": true,
+      "passageSha256": "5bcb0509c9a9fe95ecb6bfcf1d65885a237e5fbca9761fb72b21a31d7f77640c"
+    }
+  ],
+  "scope": "Exact EntityDetail SSR text, source hrefs and nested-anchor checks; no browser hydration or deployed-page claim."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "scope-erratum-1",
+  "checkedAtUtc": "2026-11-12T16:38:27.660908+00:00",
+  "frozenInventorySha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19",
+  "requirementId": "P-024",
+  "beforeKind": "substantive",
+  "afterKind": "source-scope",
+  "reason": "The row concerns source dates and authoring/review custody, not distinct scientific teaching. It overlaps the lesson source-scope row and earns no scientific coverage credit. Corrected before any fresh canonical-owner field inspection. Original frozen bytes remain untouched.",
+  "denominatorDelta": {
+    "original": -1,
+    "later": -1
+  },
+  "correctedCounts": {
+    "rows": 142,
+    "substantive": 126,
+    "originalSubstantive": 70,
+    "laterSubstantive": 126,
+    "nonCredit": 16
+  }
+}

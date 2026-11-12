@@ -1,0 +1,723 @@
+{
+  "publicationOccurrences": 48,
+  "checks": [
+    {
+      "sourceId": "schnepp2016",
+      "pmid": "26650966",
+      "doi": "10.1089/hum.2015.136",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "169b1ee860d9acf57445ce78e7ae82ad772feb73933a608936647b93b108024a",
+      "crossrefCaptureSha256": "33eab6def9fff2f7692416994cf24622203125637d79d774898fe0e1bc322e1c"
+    },
+    {
+      "sourceId": "nakai2001",
+      "pmid": "11435577",
+      "doi": "10.1128/jvi.75.15.6969-6976.2001",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "d53ad814f1f6053da9fd78da143c2557880cc776efddc2e60f9b8f87b945867b",
+      "crossrefCaptureSha256": "39de39665f28bc7d20465bce16557117d5ce8be39aca0e4557c446529322c28f"
+    },
+    {
+      "sourceId": "manno2006",
+      "pmid": "16474400",
+      "doi": "10.1038/nm1358",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "cf9164c48ee1e0898e4cd8f308650ad4a4af8ae9d9011dde121f2ae9c2a710ba",
+      "crossrefCaptureSha256": "860021f02d0140cd0158e06ca8e43370b68459eeabda3fa371c7f5c10813d81b"
+    },
+    {
+      "sourceId": "wu2010",
+      "pmid": "19904234",
+      "doi": "10.1038/mt.2009.255",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "fe82561715c2c4854d7d5d5f985ad2c5e0aba62508f995dfe057e91deac21329",
+      "crossrefCaptureSha256": "9934d71b45a94725cd932565946ef7eeeb1fba994bf8ec7e4d994f3aeb72c9ae"
+    },
+    {
+      "sourceId": "naldini1996",
+      "pmid": "8602510",
+      "doi": "10.1126/science.272.5259.263",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "2ec4b1345300421c9b4baa460840c8b02bf23999221fcf5ef30b3f735d6086ca",
+      "crossrefCaptureSha256": "f6e301c6fac981d5e0f54c9c6e54cd1de5d8795f295cc0700b1b35c9b650cbef"
+    },
+    {
+      "sourceId": "miyoshi1998",
+      "pmid": "9733856",
+      "doi": "10.1128/jvi.72.10.8150-8157.1998",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "cc61422d90b6fa0fc7122beefd4641b68078bcc2bc8feeffe9a021b457461666",
+      "crossrefCaptureSha256": "75010458759461ac8496a4d289e0e37f7bbb4a6560fe864ade9c3d81d78f0105"
+    },
+    {
+      "sourceId": "philippe2006",
+      "pmid": "17095605",
+      "doi": "10.1073/pnas.0606197103",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "ba227e12ab98c26bb52f5f18e9876afd62179557540af55514f87691d741d21e",
+      "crossrefCaptureSha256": "8a528ea9868e92acc377dee5b4e166b2686db563ab3dcb09e754499cceb39cd4"
+    },
+    {
+      "sourceId": "paramasivam2021",
+      "pmid": "34882187",
+      "doi": "10.1083/jcb.202110137",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "5109f0b89b866344f210499c1f28f3465ab6305b471a3bc18241234258fb2a4a",
+      "crossrefCaptureSha256": "94bf43450c499fa37961d52bdbc5b794abeb38eab47037fcdeb6adc37ca02d34"
+    },
+    {
+      "sourceId": "di2022",
+      "pmid": "35080707",
+      "doi": "10.1007/s11095-022-03166-5",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "21518d4bc32008e4ceecf4425c6adba43408571c4e6717074e0f13f9f2329a06",
+      "crossrefCaptureSha256": "9e06d2872a5a321ab3b89a453ee74e7e80c9cd25a9aacd0c124036d0f2f8697e"
+    },
+    {
+      "sourceId": "cheng2020",
+      "pmid": "32251383",
+      "doi": "10.1038/s41565-020-0669-6",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "0a9967612f8c8bbdd50a490d6df9b9514d5f33cf89c1b51b0a5346574f8ec0e3",
+      "crossrefCaptureSha256": "d82001121d52e2b273c2c4fec79d54f7bbcaf87e253dc4aa04a0465f02cab622"
+    },
+    {
+      "sourceId": "kranz2016",
+      "pmid": "27281205",
+      "doi": "10.1038/nature18300",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "fe387f25dca682787834d22aa30bcf7d0e2fff0afbd9b86986891b10cec5d955",
+      "crossrefCaptureSha256": "0c99425568eacb1bc41b2527418351244c144048699437fcd88aa86c53466d84"
+    },
+    {
+      "sourceId": "rojas2023",
+      "pmid": "37165196",
+      "doi": "10.1038/s41586-023-06063-y",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "05ea20c2b760c08205eece35994bed7eb86d5404233d62fa08a5eefa7547fa40",
+      "crossrefCaptureSha256": "1615e10fe429602dc8f8b0c54e3b640464b37222e2cacaacb4646a9342a40017"
+    },
+    {
+      "sourceId": "rurik2022",
+      "pmid": "34990237",
+      "doi": "10.1126/science.abm0594",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "2d713415d50e6756d132bcab599fd186a1d16c306d4b35c458d0b41a6de32631",
+      "crossrefCaptureSha256": "347236298379dd07eb93f138c1656f188306d35242dcdb46ea4764907bc05ea0"
+    },
+    {
+      "sourceId": "hunter2025",
+      "pmid": "40536974",
+      "doi": "10.1126/science.ads8473",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "90019bf36f503ce1c8f89c5df68401dd443bae29cf30c339df31ddd4f57bfcc7",
+      "crossrefCaptureSha256": "a75755720ab29b7b274e9f0fdead6d69ed8786f4d3550987e526be84848dca58"
+    },
+    {
+      "sourceId": "ivics1997",
+      "pmid": "9390559",
+      "doi": "10.1016/s0092-8674(00)80436-5",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "ac17240f9f27e4121d660862b82c5dabe3ba2dd1afa4d1cabda80fb795262293",
+      "crossrefCaptureSha256": "bc1d993803f632fd1495b8fe8496d5e249da5b7a7a6ab4472073c8a76a65ac6b"
+    },
+    {
+      "sourceId": "kebriaei2016",
+      "pmid": "27482888",
+      "doi": "10.1172/jci86721",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "7ad89119f33b10b3225a45660c232e79267d79872fbd8788938e314e23a75b4d",
+      "crossrefCaptureSha256": "7774855a5021be5f28e6529e02cf0a37cde8a3e4724c66832b132e01ffda27af"
+    },
+    {
+      "sourceId": "huang2010",
+      "pmid": "20606646",
+      "doi": "10.1038/mt.2010.141",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "3a048122c96bb583ffaff0878ad24fb2fd8d04923fb6bffd2fc09839a5d8c8c9",
+      "crossrefCaptureSha256": "891c7531610e91d77c77441a4d69462febbc2b2c18287c0aee1b4ae772d7f302"
+    },
+    {
+      "sourceId": "wu2019",
+      "pmid": "31012849",
+      "doi": "10.7554/elife.45396",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "423d7799367d74379f767b617e83f7b3af956ced149ba565c435c76e9d8b4543",
+      "crossrefCaptureSha256": "7398e3e2450228f03e6a223fad6457f620e471c6a357782bf51e471c8222821a"
+    },
+    {
+      "sourceId": "mauger2019",
+      "pmid": "31712433",
+      "doi": "10.1073/pnas.1908052116",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "4ac44bcb43a092bdaa2f8e5b76423f3a1b5c17832fa678faec1569d5051d2193",
+      "crossrefCaptureSha256": "bc9218d7b8536567030aa601507bd9d4441faf1f2cb920d0ad8e2545bbcf3e3f"
+    },
+    {
+      "sourceId": "henderson2021",
+      "pmid": "33524237",
+      "doi": "10.1002/cpz1.39",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "medCaptureSha256": "7cdc6ab74d0f6291199a956edba56d208100b51c274ff4544de167a25c571627",
+      "crossrefCaptureSha256": "2e49ffdd9d10eba06cf00e3a1361a9b22b20c92f2eef22dca32482a16c126fc9"
+    },
+    {
+      "sourceId": "mu2018",
+      "pmid": "29534222",
+      "doi": "10.1093/nar/gky177",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "19cfbed093b25a1eeb817bda033ce50c33754170c7fffccefdc1cfccc28efb03",
+      "crossrefCaptureSha256": "f58b4827e6057ec8b7949ed27d1935551fe5d39ea531c74a6e8af92f97bd80c1"
+    },
+    {
+      "sourceId": "kariko2005",
+      "pmid": "16111635",
+      "doi": "10.1016/j.immuni.2005.06.008",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "50a42f8d617f0957b43c1e3dd61cc9b435ac1b1bfcbf9b4bcbf62af556a0cded",
+      "crossrefCaptureSha256": "1df5a73b21ff5b57742207be0725da19b5b5c2a5a18298ce9fa335149c46c783"
+    },
+    {
+      "sourceId": "andries2015",
+      "pmid": "26342664",
+      "doi": "10.1016/j.jconrel.2015.08.051",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "d18f3cb9fa050c84bf1e877eb1b705e3fd273bcbac613c3de8acfadbe3de25a7",
+      "crossrefCaptureSha256": "c9842f65b8d4df52ffbee415d3d60e447215ab0d582c0edbba76e34a0c9d8941"
+    },
+    {
+      "sourceId": "kariko2011",
+      "pmid": "21890902",
+      "doi": "10.1093/nar/gkr695",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "medCaptureSha256": "8d66dc1c1637a510955d558c46ec50a451464acb962f6ec6d6260b8b8daf69df",
+      "crossrefCaptureSha256": "63e2e091df1b753eae8986f4526d63edb842e4a21c5a724ff47c26691d444206"
+    },
+    {
+      "sourceId": "mulroney2024",
+      "pmid": "38057663",
+      "doi": "10.1038/s41586-023-06800-3",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "6ea3a112fc7b45906e8edebe4d738dc4f5af6aa60788f14933ce24b499e1887c",
+      "crossrefCaptureSha256": "ae5c298fd3f244c54643944dfc01231bc3d02c876fc5974e94c57500a64744b7"
+    },
+    {
+      "sourceId": "baiersdorfer2019",
+      "pmid": "30933724",
+      "doi": "10.1016/j.omtn.2019.02.018",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "853d8b62962e15625394c1daae35fbf8f3b2acfd4f1e24191cbcba83f509a002",
+      "crossrefCaptureSha256": "2768fb79103fcbdbe4fa07119ba39eb0824e57b227f47f6b791461dd8a9bfffd"
+    },
+    {
+      "sourceId": "kozak1986",
+      "pmid": "3943125",
+      "doi": "10.1016/0092-8674(86)90762-2",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "165ae867969edef21d4f200817c698d2c0b089c008c52b08abab223e62b84e14",
+      "crossrefCaptureSha256": "7e9d21ce6ecfc84816db9f5490b9a2004c22fd743f359973a131294224521675"
+    },
+    {
+      "sourceId": "gallie1991",
+      "pmid": "1682219",
+      "doi": "10.1101/gad.5.11.2108",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "medCaptureSha256": "a8d76a2e7136b506adef59d3586fab68b494a18f0d38053026920fe051337137",
+      "crossrefCaptureSha256": "aad6e7e3eb959787b8efdcc2514f2410497f7a3ea48ca02c9443c7185a87a096"
+    },
+    {
+      "sourceId": "holtkamp2006",
+      "pmid": "16940422",
+      "doi": "10.1182/blood-2006-04-015024",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "258e2844f01a1290c9d03f08880e8c917712c057eeb524bc38532f1307649626",
+      "crossrefCaptureSha256": "3252494d82f0ce939e84cafa1d546c7aba8d037915ae79601e2ad900be320829"
+    },
+    {
+      "sourceId": "schubert2016",
+      "pmid": "26813686",
+      "doi": "10.1186/s13073-016-0263-6",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "13a94b819b989f645ec1737fcbfac34310779f388d549f99283341df4ca7fecd",
+      "crossrefCaptureSha256": "3f20dfa391234882375ee2ec9f4d97763a98e213de4063c3db316835e30411b8"
+    },
+    {
+      "sourceId": "kreiter2008",
+      "pmid": "18097032",
+      "doi": "10.4049/jimmunol.180.1.309",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "2eb9b953274f9f92dff704edf4606f78f71b66effffd962569b51a8904ebb414",
+      "crossrefCaptureSha256": "f0f8e13224faa5ae86735dc54565b0813d063e55b347cd324f7843e6bf1f4d29"
+    },
+    {
+      "sourceId": "sahin2017",
+      "pmid": "28678784",
+      "doi": "10.1038/nature23003",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "4a8a9701079abd75243c477488f4b1bc3614ecfac7d3f18b34edba13026c385f",
+      "crossrefCaptureSha256": "6726f488914b8c8d83af53896cd09ca41208cc5dbd96c3c9afc68d461abc84aa"
+    },
+    {
+      "sourceId": "naso2017",
+      "pmid": "28669112",
+      "doi": "10.1007/s40259-017-0234-5",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "3e04b275f715eb5746671d712812ce4d7dd16ddd6ddf9eda9c959aea5e3adfc1",
+      "crossrefCaptureSha256": "24d82a5001cba5c9afe4f73a5f953a31ff7ecfcdd69207c579e3300d21994dd4"
+    },
+    {
+      "sourceId": "hou2021",
+      "pmid": "34394960",
+      "doi": "10.1038/s41578-021-00358-0",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "f6ddd16cd725927e862e982acde118826e4d426a5e74b784865009bbca94fa3e",
+      "crossrefCaptureSha256": "a0c0345b6508b6011e1f9172b65b1850c50fe150b2f73a76fc7c4a9a19a125b2"
+    },
+    {
+      "sourceId": "milone2018",
+      "pmid": "29654266",
+      "doi": "10.1038/s41375-018-0106-0",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "cb358f625ce6c896c93b59262ea932f35ba7e229513e0cb900540062e42d4db2",
+      "crossrefCaptureSha256": "406ad72e593a5c357d7ae137218a28853b6e02897b2a5cb34bc8ad20f8d85669"
+    },
+    {
+      "sourceId": "rana2024",
+      "pmid": "38440160",
+      "doi": "10.1016/j.omtm.2024.101216",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "274e738de0589e9cc64c3981830982ef081a9826b87c9e0b7c09dd9c87f4a989",
+      "crossrefCaptureSha256": "0728ba3027a999580422679141f7ee37495f69b6147e80d2bac4936f9d8b1045"
+    },
+    {
+      "sourceId": "eyquem2017",
+      "pmid": "28225754",
+      "doi": "10.1038/nature21405",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "223ede0f3a3eaf18e3c4797e87a48588c9cf0fb9522129e6703d14d5de2593f7",
+      "crossrefCaptureSha256": "dbbe80b21e2ad61fdf5a27156f4c363b48ee2ff560b08f36c3407e5e21e0e3a3"
+    },
+    {
+      "sourceId": "caron2015",
+      "pmid": "26628741",
+      "doi": "10.1074/mcp.o115.052431",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "d34d6510444720555c56de384e68c071a707145e28071da42acbffc4f6885c5f",
+      "crossrefCaptureSha256": "6f195b5edff4c4ce2414327868127ae20f974cbf7d7b7818e4ea87a35a02d765"
+    },
+    {
+      "sourceId": "srivastava1983",
+      "pmid": "6300419",
+      "doi": "10.1128/jvi.45.2.555-564.1983",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "a9936aba4c928e3704873a556f2d98318fc2b9e8858ef3356015669de8ed54ac",
+      "crossrefCaptureSha256": "28f4ec78e51f84594db432b4ba26c6d9f59aa49ab64fccf882cdd9d160c28d9b"
+    },
+    {
+      "sourceId": "appelbaum2025",
+      "pmid": "40804358",
+      "doi": "10.1080/10717544.2025.2544688",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "353be2923d8b5a126c311270b987ba9382d8fbb5bd00559ce72e44439f389413",
+      "crossrefCaptureSha256": "550645725276a47904649f6ba0c491de7b810a49603772b3830dcb5200406885"
+    },
+    {
+      "sourceId": "losada2026",
+      "pmid": "42334490",
+      "doi": "10.1007/s00216-026-06615-x",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "02c1ed039d5f2a5da85d7e4e4c8f76c6a890f8fefd38ae51ba82a7e322fbc28b",
+      "crossrefCaptureSha256": "d1284b432c6ae8f2014b38d3a86b81e55437af20639b402eb9a8af4c0ade4019"
+    },
+    {
+      "sourceId": "alasmari2026",
+      "pmid": "42514871",
+      "doi": "10.3390/pharmaceutics18070790",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "cfaec50a3256a96a719840f9d43b79f3202562a9ff82afd71af19a821f39bbae",
+      "crossrefCaptureSha256": "64212a20d43e4e72d7e45cc81029a003117741b410e7682430aabac31c239f95"
+    },
+    {
+      "sourceId": "nowak2026",
+      "pmid": "41557011",
+      "doi": "10.1007/s11033-026-11455-0",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "944a5a270ab888d7f5a015829a5dde4596a63344b4adae6bd7888f3df4b5e003",
+      "crossrefCaptureSha256": "e3ea925b8bdeda8fd3309a93889134f885d725b4c04ae66904f57aee2e4218b3"
+    },
+    {
+      "sourceId": "yadav2014",
+      "pmid": "25428506",
+      "doi": "10.1038/nature14001",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "medCaptureSha256": "535a103a30652dc8325d705e24c0022743227fe3772694b59ea26d7602844d60",
+      "crossrefCaptureSha256": "0675411a3898c075fc4a04c94f59bb698ae67c328c538b99ed7c6f339e66c47e"
+    },
+    {
+      "sourceId": "hudecek2017",
+      "pmid": "28402189",
+      "doi": "10.1080/10409238.2017.1304354",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "80ad59ad6ea18ca236bc5ee62ed72a3e9f0db5f13f39621fcb7237e971c9ea86",
+      "crossrefCaptureSha256": "af56da1f076b510ba3121c94ca2a95a018ebdc18b087fbd2d6f8c3217d120d9d"
+    },
+    {
+      "sourceId": "livingston2001",
+      "pmid": "11535313",
+      "doi": "10.1016/s0264-410x(01)00233-x",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Evaluation Study",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "a07410882534d3dd78dc01eae8b2c39e8a944082c17ade5471f8345a721ace8a",
+      "crossrefCaptureSha256": "358172a4e5fcf33638aeaa1e892e490ff27021e1b43766b77e8088bc169c3a83"
+    },
+    {
+      "sourceId": "minegishi2024",
+      "pmid": "38382459",
+      "doi": "10.1111/cas.16118",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "136557c7ea91e8881f97ffe6cca7884cbb915c4a7bcf0cef2c44af70ce9bd639",
+      "crossrefCaptureSha256": "a0c4143143d46c116d428b611baf44339d029cb21f065e913ccf0b8b23fe184e"
+    },
+    {
+      "sourceId": "abelin2024",
+      "pmid": "39095021",
+      "doi": "10.1016/j.mcpro.2024.100823",
+      "titleMatch": true,
+      "doiMatch": true,
+      "firstAuthorsMatch": true,
+      "indexedTypes": [
+        "Historical Article",
+        "research-article",
+        "Journal Article"
+      ],
+      "medCaptureSha256": "6d85c38f820db531f775ebd9c228f07437c4091e1d9c1536f603e25468532182",
+      "crossrefCaptureSha256": "4747621b588c02e37d8ba6e4a18309573d09c40314751dac20650711696a4e8f"
+    }
+  ],
+  "objections": [],
+  "normalisation": "Decode entity-escaped markup before stripping tags and punctuation; preserves N1 in the Mulroney title."
+}

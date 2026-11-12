@@ -1,0 +1,15 @@
+# Innate-immunity education checkpoint
+
+Sixteen lessons at both pinned Guide versions now have 114 teaching requirements represented in draft #375. All 32 source identities, 337 section signatures and 177 authored field passages are checked. Sixteen source-list rows remain separate metadata. Every comparison-table role, limit and recognition-system axis is explicit in prose; no new schema is needed for its layout.
+
+Eight concepts are registered: adenosine and IDO, dendritic cells, gamma-delta T cells, interferon types, macrophage states, NKT cells, pattern recognition and peripheral tolerance. Twelve existing owners are supplemented. Existing short definitions are preserved; the new terms use current English fallback. Interferon singular and plural lookup move to the dedicated family term, and the ambiguous short alias DCs is not introduced.
+
+The source record distinguishes model findings, human observations, clinical trial results and interpretation rules. New evidence closes the inherited-versus-assembled receptor distinction, NK-marker limits, HMGB1 redox-form activity and separate protein, RNA and function measurements. KEYNOTE-522 has endpoint evidence as well as trial links. The 107 publication-identity contexts retain their reading depths; fourteen sources were freshly resolved/read by the coordinator, with earlier assessments reused by identity. Most papers remain abstract-only or targeted-passage reads. Live Elicit was unavailable; frozen discovery remains separate from claim verification.
+
+Twenty full-extent light/dark figure views by the independent reviewer are reused after forty version-entry checks. Nine source-artwork defects remain documented, including a missing arrowhead on one branch. No artwork or raw source body is copied here. Source-access failures and unverified earlier catalogue assertions remain named.
+
+All twenty actual entity JSON exports equal the graph. All 177 passages appear in actual EntityDetail server rendering and generated Markdown. The 180 short-summary selectors contain ninety existing translations and ninety English fallbacks; no full-summary cache applies. No new language review is claimed.
+
+Validation, TypeScript and lint pass, with seven existing warnings. In the final full run, 283 files passed and one heavy-page test exceeded its unchanged thirty-second guard. All 77 tests in that file passed alone. Together these checks cover 284 files and 2,829 passing tests, with two existing skips. The duplicate survey retains nine prior groups, without new DOI or PubMed duplicates. Test code, floors and page budgets are unchanged.
+
+This is draft integration, not coverage merged into main or a deployment. No new Next production build, browser hydration, mobile/accessibility check, expert review or named-language sign-off is claimed. [Source and field proofs](coverage-proofs.json), [source reading](source-reading.json), [source identities](primary-sources.json), [figures](figures.json), [validation](validation.json) and [remaining work](remaining-gaps.json) retain the evidence and its limits.

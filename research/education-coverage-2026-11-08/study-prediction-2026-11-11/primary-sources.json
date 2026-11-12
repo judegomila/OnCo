@@ -1,0 +1,1014 @@
+{
+  "sources": [
+    {
+      "id": "araujo2016",
+      "title": "Understanding Variation in Sets of N-of-1 Trials",
+      "doi": "10.1371/journal.pone.0167167",
+      "pmid": "27907056",
+      "pmcid": "PMC5131970",
+      "arxiv": null,
+      "readingDepth": "Fresh Crossref and Europe PMC identity and full raw abstract, targeted full-text carryover, periods, randomization and analysis passages.",
+      "rawCaptures": [
+        {
+          "sha256": "272708aada9375677b65f252393d672c53a12a6b57441c870de2b3d90e2295bb",
+          "bytes": 18589,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "9981799c995a0b8c5893f62b82ac2b721f7a84994bd782e6b1d35167cdba9951",
+          "bytes": 186263,
+          "captureKind": "fulltext.xml"
+        },
+        {
+          "sha256": "483f21a73a7c0e1b05b31ef60d70b3c1f24f2ad97a548e1bb44c124684c57590",
+          "bytes": 5057,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "arrive2020",
+      "title": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research.",
+      "doi": "10.1371/journal.pbio.3000410",
+      "pmid": "32663219",
+      "pmcid": "PMC7360023",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "349b6e03b74b4cf5effb85f7c939f94bbd09c55f0e3c5a495e0469b404ff8048",
+          "bytes": 14186,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "c7dcea7a915dd686d5983769ac16da483e9c0b467e4a35bbe5dd9f6c8552b542",
+          "bytes": 25970,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "arriveee2020",
+      "title": "Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0.",
+      "doi": "10.1371/journal.pbio.3000411",
+      "pmid": "32663221",
+      "pmcid": "PMC7360025",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "7d8fbdad501fe3639d65698df761d2762f43c4e4ff16b7579052ecc9c3cf1e9b",
+          "bytes": 411324,
+          "captureKind": "bioc.xml"
+        },
+        {
+          "sha256": "d3d108b89c3fe82eacdb3ecf5c9f119eb1147eb857b8ddbc2f5d1c7415767784",
+          "bytes": 14312,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "3d2e850024885204b15fa394534b39cee808b6f6c8ed02dfc6c713c1fbab313f",
+          "bytes": 90594,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "arrowsmith2015",
+      "title": "The promise and peril of chemical probes",
+      "doi": "10.1038/nchembio.1867",
+      "pmid": "26196764",
+      "pmcid": "PMC4706458",
+      "arxiv": null,
+      "readingDepth": "Reused hash-verified prior primary text, targeted orthogonal probes, negative controls and complementary genetic methods; not a new full reading.",
+      "rawCaptures": [],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "asa2016",
+      "title": "The ASA Statement on p-Values: Context, Process, and Purpose",
+      "doi": "10.1080/00031305.2016.1154108",
+      "pmid": null,
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Inherited scoped primary assessment; current identifier resolution; no newly read full text.",
+      "rawCaptures": [
+        {
+          "sha256": "7f69b972604a353eb2e2cb60e0240d5d45a6e3aec319dfe10a5155fee00c7fe2",
+          "bytes": 10726,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "ballman2015",
+      "title": "Biomarker: Predictive or Prognostic?",
+      "doi": "10.1200/JCO.2015.63.3651",
+      "pmid": "26392104",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "98975a18553a0a76835dcb0426bb7d65020efdbfc298a84fbf3c128074ba5004",
+          "bytes": 4592,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "41661584bee73e98127a32b02daa019799eb57fc3688da155ced6f35395a8c5c",
+          "bytes": 2726,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "barker2009",
+      "title": "I-SPY 2: an adaptive breast cancer trial design in the setting of neoadjuvant chemotherapy.",
+      "doi": "10.1038/clpt.2009.68",
+      "pmid": "19440188",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "b6d80a2dae44cb54e40b904d04ee4c6b3d1a389e83a50790b55ec6968223f29f",
+          "bytes": 4880,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "099a81437b611cac990e14d0c92bf574114a94c87f5848d7a4d399e54a741b4b",
+          "bytes": 4155,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "bassler2010",
+      "title": "Stopping randomized trials early for benefit and estimation of treatment effects: systematic review and meta-regression analysis.",
+      "doi": "10.1001/jama.2010.310",
+      "pmid": "20332404",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "c73aa4ca9e8f200e20fa45eedaaf146349ff300b35c5ebd7acdf79af6ddbec4d",
+          "bytes": 1930,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "0f662487d080e4fece83f4b820e5dbfb56aa386ab123b7b53020e4407199b9b4",
+          "bytes": 12623,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "bh1995",
+      "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "pmid": null,
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "d9842e3150108ef852a58bf63e81f356b41e930cfa299c89654f23a9a59ffe76",
+          "bytes": 7792,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "by2001",
+      "title": "The control of the false discovery rate in multiple testing under dependency",
+      "doi": "10.1214/aos/1013699998",
+      "pmid": null,
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "7e1d08c11ba3ac0a526e3227c959a573ae7353f14483f8bffb89caebfff4a356",
+          "bytes": 12718,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "care2013",
+      "title": "The CARE guidelines: consensus-based clinical case reporting guideline development.",
+      "doi": "10.3238/arztebl.2013.0603",
+      "pmid": "24078847",
+      "pmcid": "PMC3784031",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "cdecb6c23cd3ad03cd2db3d154be57749249f13f17a4ff514bba60c9cf6d8f79",
+          "bytes": 9906,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "111e8752fc2ed955f51f176dd807cf3bba5bffd74d8e2756a33b4ceb07ca4d5b",
+          "bytes": 8394,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+          "bytes": 6140,
+          "captureKind": "bioc.xml"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "choi2018",
+      "title": "Studying cancer immunotherapy using patient-derived xenografts (PDXs) in humanized mice",
+      "doi": "10.1038/s12276-018-0115-0",
+      "pmid": "30089794",
+      "pmcid": "PMC6082857",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "ccdd2799dc64e360c328a6efe3f8505cd43723acec62ded8dac45e189e3d07be",
+          "bytes": 83302,
+          "captureKind": "bioc.xml"
+        },
+        {
+          "sha256": "a49d79ae0c5bc0602f2eb28fec876659aa58515b82ad9a21ca33c4d981d960dc",
+          "bytes": 5335,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "545acf007ded20c39497fbf2c157020c11862b838cf2e5dd54e0ef223c37cc41",
+          "bytes": 31201,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "clsi-htd",
+      "url": "https://htd.clsi.org/listterms.asp?button=Submit",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "cochrane-ch10",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "consort2025",
+      "title": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+      "doi": "10.1371/journal.pmed.1004587",
+      "pmid": "40228477",
+      "pmcid": "PMC11996237",
+      "arxiv": null,
+      "readingDepth": "Fresh BioC checklist items on allocation, blinding, analyses, missing data and reporting roles; complete abstract read.",
+      "rawCaptures": [
+        {
+          "sha256": "ea7ec54ef0255b7b46b35087dc35b5319b1e1801b64ebb0204804506c030a309",
+          "bytes": 28876,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "e1b9df5f68b0dd3d40823e239bfa6fcf926823f528f63d71f9f45bf65e0c2842",
+          "bytes": 21571,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "ee07810c1c683212f43115e1539fab13f48b81b7a21bcd688fa635156180f9f1",
+          "bytes": 97676,
+          "captureKind": "bioc.xml"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "consortabs2008",
+      "title": "CONSORT for reporting randomized controlled trials in journal and conference abstracts: explanation and elaboration.",
+      "doi": "10.1371/journal.pmed.0050020",
+      "pmid": "18215107",
+      "pmcid": "PMC2211558",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "0c3e1c19c406b0056b135cb7a70ca9288b195362441aaf89ff60702100a8bcb2",
+          "bytes": 6823,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "9451cc6e8ca559dbba29de4fdbd59e8dd925ae4a0aa36c7f4621062e56709b51",
+          "bytes": 18581,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "ctgov-metadata",
+      "url": "https://clinicaltrials.gov/api/v2/studies/metadata",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "cutofffinder2012",
+      "title": "Cutoff Finder: a comprehensive and straightforward Web application enabling rapid biomarker cutoff optimization.",
+      "doi": "10.1371/journal.pone.0051862",
+      "pmid": "23251644",
+      "pmcid": "PMC3522617",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "e7781983c409ea62463e4010c919ac86fa07a3e33b3e1f3b0ebf7b453dddd9ee",
+          "bytes": 72297,
+          "captureKind": "bioc.xml"
+        },
+        {
+          "sha256": "c92e7e88b5599e47820825ba9e3e011568b3a2cbee3547046436da657fdaa479",
+          "bytes": 14148,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "ec73fdcbda54f9f6144dbf40daaaf016519ef51deeed1a26d23f5053ce25215d",
+          "bytes": 6983,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "fda-cdx",
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-ctdna",
+      "url": "https://www.fda.gov/media/183874/download",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-diag",
+      "url": "https://www.fda.gov/media/71147/download",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-ich-e9",
+      "url": "https://www.fda.gov/media/71336/download",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-nams",
+      "url": "https://www.fda.gov/drugs/science-and-research-drugs/cder-streamlined-nonclinical-studies-and-acceptable-new-approach-methodologies-nams",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-phases",
+      "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-preclinical",
+      "url": "https://www.fda.gov/patients/drug-development-process/step-2-preclinical-research",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "fda-rwe",
+      "url": "https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "geyer2022",
+      "title": "Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer.",
+      "doi": "10.1016/j.annonc.2022.09.159",
+      "pmid": "36228963",
+      "pmcid": "PMC10207856",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "49e78d1e850c16ec381bfe98f2d749c9b36aca3ef380f4a9339e179f48fdc7a4",
+          "bytes": 75984,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "fc8e1ab27c51db8ee39884ead78d14767b74bdc9de02b5536e8758ab923b335e",
+          "bytes": 95726,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "84fcd714293dfe19372b882b7d67926bab79df9537658088312d4f6cb7db7921",
+          "bytes": 96738,
+          "captureKind": "bioc.xml"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "hafner2016",
+      "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+      "doi": "10.1038/nmeth.3853",
+      "pmid": "27135972",
+      "pmcid": "PMC4887336",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "0b44361b7104376566a0c0e29f4b7ca9a2bdb7ed919113b64536b2012afc674c",
+          "bytes": 19149,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "2b390dd048b42fc54b378e8a5a058a2e7adfbc84f94f5b7dd445b1ab285eb97e",
+          "bytes": 7231,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "hanley1982",
+      "title": "The meaning and use of the area under a receiver operating characteristic (ROC) curve.",
+      "doi": "10.1148/radiology.143.1.7063747",
+      "pmid": "7063747",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "8721a9a523185da7d2b7f487df69683bdf8eecc073d84ecb4ea827e9c3e7d280",
+          "bytes": 3420,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "e121f65bd17adbea365bd86cbd703f2694cc0561c198ae6a773e692f24c60e72",
+          "bytes": 1991,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "hernan2016jce",
+      "title": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+      "doi": "10.1016/j.jclinepi.2016.04.014",
+      "pmid": "27237061",
+      "pmcid": "PMC5124536",
+      "arxiv": null,
+      "readingDepth": "Fresh BioC targeted time-zero and trial-emulation passages; complete abstract read.",
+      "rawCaptures": [
+        {
+          "sha256": "723750fd305811b3d1f95cd2344f7a10495f0a758f8782d6721f855e30e03788",
+          "bytes": 11164,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "edbf2b1d5170f9cf7186318edbacc790d9cc4fc70bcbb73ebe66c2b93999b8ce",
+          "bytes": 6982,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "9e7f7b95f6c6db5803109b374c34b2eb9d3f369fd0400f460fc9d3dfb8b5c058",
+          "bytes": 47548,
+          "captureKind": "bioc.xml"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "higgins2009",
+      "title": "A re-evaluation of random-effects meta-analysis.",
+      "doi": "10.1111/j.1467-985X.2008.00552.x",
+      "pmid": "19381330",
+      "pmcid": "PMC2667312",
+      "arxiv": null,
+      "readingDepth": "Inherited exact text assessment and targeted model/prediction/few-study passages read again; current identifiers and abstract verified.",
+      "rawCaptures": [
+        {
+          "sha256": "9836eebeffdc2534e1491be8200bfbcca8bb565929618abcaf828ac025ee8cce",
+          "bytes": 4657,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "f5fca4a235f2e3ca5922afafd8739ca69cebd5729d8fb51787eefd8ec4bafefc",
+          "bytes": 26795,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "ich-e10",
+      "url": "https://database.ich.org/sites/default/files/E10_Guideline.pdf",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "icmje-corrections",
+      "url": "https://www.icmje.org/recommendations/browse/publishing-and-editorial-issues/corrections-and-version-control.html",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "lazic2018",
+      "title": "What exactly is 'N' in cell culture and animal experiments?",
+      "doi": "10.1371/journal.pbio.2005282",
+      "pmid": "29617358",
+      "pmcid": "PMC5902037",
+      "arxiv": null,
+      "readingDepth": "Fresh BioC definitions and experimental-unit criteria and examples; complete abstract read.",
+      "rawCaptures": [
+        {
+          "sha256": "c4af62ac5a410c50a7386b4a129bbcae26c2ebb265f972aa1f18e8c5171ba9a4",
+          "bytes": 67068,
+          "captureKind": "bioc.xml"
+        },
+        {
+          "sha256": "18be4cada936b4dd3656e3f5a9e59e734cb6c7607d948071666ba5f5b51fa563",
+          "bytes": 13075,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "ce2256dcc8919b683cab1eb13e84df0e2327ba64cdbb6da62666b8b553fec3c6",
+          "bytes": 5963,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "liao2021",
+      "title": "Analysis of N-of-1 trials using Bayesian distributed lag model with autocorrelated errors",
+      "doi": null,
+      "pmid": null,
+      "pmcid": null,
+      "arxiv": "2112.13991",
+      "readingDepth": "Fresh arXiv version-1 HTML, targeted abstract/introduction carryover and temporal-correlation passages; preprint, not a clinical recommendation.",
+      "rawCaptures": [],
+      "sourceType": "preprint methods"
+    },
+    {
+      "id": "linnet2004",
+      "title": "Partly nonparametric approach for determining the limit of detection.",
+      "doi": "10.1373/clinchem.2003.029983",
+      "pmid": "14764644",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "08035d74ee901877bf03e2f872ba6cacaa4edf320c1eeb0283c3c5f596cf4630",
+          "bytes": 8959,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "cccb8f38fb25f384ebba172fef6f947531e6c6f2741a0cec246e7f0b1172870c",
+          "bytes": 4915,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "mandrekar2010",
+      "title": "Receiver Operating Characteristic Curve in Diagnostic Test Assessment",
+      "doi": "10.1097/JTO.0b013e3181ec173d",
+      "pmid": "20736804",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "70097c4e8d7c4cd6a7f6f58aa7c6eeecfbfec4e6ebf09a08c1eacca80a5aaf38",
+          "bytes": 3520,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "9f1a09480c99c0861edb5c2de171780398537f200fa8546e6a7721c8a652ab60",
+          "bytes": 4085,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "masuda2017",
+      "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "doi": "10.1056/nejmoa1612645",
+      "pmid": "28564564",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "ef8b6b3c6016a12cb4663819aab7e2133661f2534f53fc7c17c668ebfd3099b6",
+          "bytes": 39010,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "cca33e98cde1da88f684fac3b1b9ef74ad883db8fc04093cfa98f8ab6fb93a1c",
+          "bytes": 7678,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "mateo2018-escat",
+      "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+      "doi": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "pmcid": "PMC6158764",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "0154de9c2a8a7f9e8db6e91095c7f526d86d218727b2d45be594b4aae2644631",
+          "bytes": 24237,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "9a913f4a10a2d08d30e263ac0304312b69e31129a7f0b5f0d17cd70dd93e86a3",
+          "bytes": 13780,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "mayer2021",
+      "title": "Randomized Phase III Postoperative Trial of Platinum-Based Chemotherapy Versus Capecitabine in Patients With Residual Triple-Negative Breast Cancer Following Neoadjuvant Chemotherapy: ECOG-ACRIN EA1131.",
+      "doi": "10.1200/jco.21.00976",
+      "pmid": "34092112",
+      "pmcid": "PMC8577688",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "fb396eb896a3bcf84ea447f0bd46dfee0ff52f6d42abbfca6b560f43c681b214",
+          "bytes": 14058,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "33ffb4388168cd0946fe12c9c4f44cf711be6e98d6d3643cd91fe7299bb1d47d",
+          "bytes": 16119,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "nci-howtrials",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "oncokb-levels",
+      "url": "https://www.oncokb.org/content/files/levelOfEvidence/V2/LevelsOfEvidence.pdf",
+      "readingDepth": "Targeted definitions or relevant passages, with inherited official assessment where recorded; not a full-document claim.",
+      "sourceType": "official framework, standard terminology, reporting or regulator guidance"
+    },
+    {
+      "id": "park2016",
+      "title": "Adaptive Randomization of Neratinib in Early Breast Cancer",
+      "doi": "10.1056/NEJMoa1513750",
+      "pmid": "27406346",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "ee5548270a75d353994cf77f7009e7b4920884e8da3912b9c1b04174d1aa68b7",
+          "bytes": 101301,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "724c4fc0f85d993c35f9e8f9bc46823e68f530820a9d3a2a7f3ced8ae104f79d",
+          "bytes": 9539,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "prisma2020",
+      "title": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews.",
+      "doi": "10.1136/bmj.n71",
+      "pmid": "33782057",
+      "pmcid": "PMC8005924",
+      "arxiv": null,
+      "readingDepth": "Inherited scoped primary assessment; current identifier resolution; no newly read full text.",
+      "rawCaptures": [
+        {
+          "sha256": "807701322ba2adf5e6aa26410275e4ed5fe81004a95915e5f22bbeaf1190b5a7",
+          "bytes": 12950,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "0028794595dda76ec12f5040c582422cfc02a49c8d022dd344d919dee501b703",
+          "bytes": 14486,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "riley2024",
+      "title": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study.",
+      "doi": "10.1136/bmj-2023-074820",
+      "pmid": "38224968",
+      "pmcid": "PMC10788734",
+      "arxiv": null,
+      "readingDepth": "Inherited exact full-text capture, targeted censoring, competing-event and overall-error sections read again. No new full reading.",
+      "rawCaptures": [
+        {
+          "sha256": "ce020b208ac8519c093b4f6b3d35a33a1513437a533bfd9c29106dcb614f8616",
+          "bytes": 15215,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "3896a8b816bb3cd16f66a26f77611ab4d4edc065fac13c076db9c0595bc704de",
+          "bytes": 6666,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "royston2006",
+      "title": "Dichotomizing continuous predictors in multiple regression: a bad idea",
+      "doi": "10.1002/sim.2331",
+      "pmid": "16217841",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "4df6fd8918827abd43b99ecdaacad38935fca8784ba62fb2ca1faa25a6f36a9a",
+          "bytes": 5087,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "a0901fd1bc08f51dcfe813d85aa4b48db5c74c1a9fc550728113e7de9d32a992",
+          "bytes": 7244,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "rugo2016",
+      "title": "Adaptive Randomization of Veliparib–Carboplatin Treatment in Breast Cancer",
+      "doi": "10.1056/NEJMoa1513749",
+      "pmid": "27406347",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "465008dcbd11e0164a1a7af9388ee8b1556750a99877cb2e3a06ab4df2d4be6a",
+          "bytes": 101108,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "6e77a6d2db7193c8d65cc8c87fe7a99372dfb8a5d896304caa236e0283dc05d2",
+          "bytes": 9065,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "schmid2020",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "doi": "10.1056/nejmoa1910549",
+      "pmid": "32101663",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "55dd1f207550a2cbf1e8499e656f9b2c666c2567681a411cb5b85d834c216e5c",
+          "bytes": 69628,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "3c6f735451cd64628129ec48971089b01fd233117eb0ceffac6e579d89929aca",
+          "bytes": 12339,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "schmid2022",
+      "title": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+      "doi": "10.1056/nejmoa2112651",
+      "pmid": "35139274",
+      "pmcid": null,
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "b761028a3ebcece099ac333bc98695b4b3a2ebe375c9f2a2ddb815ff7f54bebd",
+          "bytes": 42336,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "e012ce71a3a11d8a9b96e60b22e90d16d0c9cb918dbe98ef03d7d65ee0c610c1",
+          "bytes": 113725,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "schuemie2018",
+      "title": "Empirical confidence interval calibration for population-level effect estimation studies in observational healthcare data",
+      "doi": "10.1073/pnas.1708282114",
+      "pmid": "29531023",
+      "pmcid": "PMC5856503",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+          "bytes": 6140,
+          "captureKind": "bioc.xml"
+        },
+        {
+          "sha256": "6b6fa85489747a00f69bc6a0680a742fbe20a35a285bbd22f80c1516860a3a14",
+          "bytes": 7844,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "55cfd62be3d4fea1a8504cb63e454e5cff904dfc4e0816b7bee4cf6c80375c28",
+          "bytes": 16236,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "sensres2017",
+      "title": "Measuring Cancer Drug Sensitivity and Resistance in Cultured Cells.",
+      "doi": "10.1002/cpch.21",
+      "pmid": "28628199",
+      "pmcid": "PMC5538315",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "ce15a6fb72bb99e7939b957550c8862fd7df017485ee23dc5c638a54c6be9fb2",
+          "bytes": 6580,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "a5d61254aa516f83e5d07dfbfd63ae33c4c55c5030c2f017e85ebb573ac82cc5",
+          "bytes": 8616,
+          "captureKind": "crossref.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "strobe2007",
+      "title": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies.",
+      "doi": "10.1371/journal.pmed.0040296",
+      "pmid": "17941714",
+      "pmcid": "PMC2020495",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "ce077e40c40d7dbae3ae339a2cdedc03be1808482eb3a5442215d74511261344",
+          "bytes": 8085,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "bd0a1bb98a4536ee22635b9df85ddb43c2761af8bbef1bc00177e15ab87f345c",
+          "bytes": 5971,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "tutt2021",
+      "title": "Adjuvant Olaparib for Patients with &lt;i&gt;BRCA1&lt;/i&gt;- or &lt;i&gt;BRCA2&lt;/i&gt;-Mutated Breast Cancer.",
+      "doi": "10.1056/nejmoa2105215",
+      "pmid": "34081848",
+      "pmcid": "PMC9126186",
+      "arxiv": null,
+      "readingDepth": "Complete raw abstract read; no new full-text claim.",
+      "rawCaptures": [
+        {
+          "sha256": "d17d91305aa3c276d81824681ff5ac103b82b5497dea76ce9cfde360a3c51049",
+          "bytes": 53722,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "20ec6666bf3d08fa15c8a0eab6ebdf507f51f93d457de8b09a94cd6d09ffea9a",
+          "bytes": 187127,
+          "captureKind": "epmc.json"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "uno2011",
+      "title": "On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data.",
+      "doi": "10.1002/sim.4154",
+      "pmid": "21484848",
+      "pmcid": "PMC3079915",
+      "arxiv": null,
+      "readingDepth": "Fresh NCBI manuscript, targeted methods and assumptions; complete raw abstract read.",
+      "rawCaptures": [
+        {
+          "sha256": "e100e77fdc3edb59a9fa45b93735bc0cdf42f7f0a557bacc13bae3b66539abb6",
+          "bytes": 200046,
+          "captureKind": "efetch.xml"
+        },
+        {
+          "sha256": "63f30247caada150005a0539f45d8614b451b6e234652e26925ef7e21f6ff305",
+          "bytes": 6421,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "21bbc218ff58f26a6db2b5eb90ff4675662cffd42e09d2ca21dca2c50ff61c21",
+          "bytes": 21476,
+          "captureKind": "pmc.html"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    },
+    {
+      "id": "vancalster2019",
+      "title": "Calibration: the Achilles heel of predictive analytics.",
+      "doi": "10.1186/s12916-019-1466-7",
+      "pmid": "31842878",
+      "pmcid": "PMC6912996",
+      "arxiv": null,
+      "readingDepth": "Fresh BioC paragraphs on calibration levels, curve, intercept and slope; complete abstract read.",
+      "rawCaptures": [
+        {
+          "sha256": "8f9ad38de6e2c661ffb79d43dc933675975ba5bfbb1850e02851f546dab00bce",
+          "bytes": 21398,
+          "captureKind": "crossref.json"
+        },
+        {
+          "sha256": "5eb6de749ca084713b7c33acf9ce79203e323d8da0292f55f2376c896adf8fa2",
+          "bytes": 8330,
+          "captureKind": "epmc.json"
+        },
+        {
+          "sha256": "854d1a7fcaf7196194a56f451b6d382bc7b6907f890b2e632143269f80f9cb36",
+          "bytes": 55770,
+          "captureKind": "bioc.xml"
+        }
+      ],
+      "sourceType": "publication; actual methods, consensus or clinical type retained in authored text"
+    }
+  ],
+  "completeFreshAbstractsRead": 37,
+  "fullDocumentReadingClaim": false,
+  "additionalIdentity": "Araujo 2016 verified through Crossref and Europe PMC; Arrowsmith reused at its verified scope.",
+  "accessLimits": [
+    "CENT statement and explanation returned 403; inherited AHRQ and BEST bodies remain unread. Accessible alternatives supply the adopted clauses.",
+    "Several BioC URLs returned No result error pages and some endpoints returned 429 or 500. Such bodies are not scientific text.",
+    "Uno PMC HTML was a reCAPTCHA interstitial; ordinary NCBI efetch returned the author manuscript and supplied the methods.",
+    "TRIPOD+AI indexes an erratum and CENT indexes a 2016 erratum. Neither unavailable correction is claimed read or used to establish new claims.",
+    "Most clinical studies are abstract-only. Non-inferiority, maturity and cutoff examples retain their actual design and date context."
+  ],
+  "elicit": {
+    "callable": false,
+    "newReports": [],
+    "scope": "No live Elicit tool; frozen discovery remains separate from verified support."
+  },
+  "limits": "Source identity, reading depth, conditional mathematical reasoning, exact field containment and semantic acceptance are separate.",
+  "freshCandidateDoiOrPmidIdentityChecks": 46
+}

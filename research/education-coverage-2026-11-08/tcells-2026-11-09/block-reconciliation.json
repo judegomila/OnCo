@@ -1,0 +1,4233 @@
+[
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:01",
+    "page": "anergy-vs-exhaustion",
+    "section": "# Anergy versus exhaustion",
+    "sourceBlockSha256": "723bc241a181ee153983eef7f7aa78f0a463398beaba19e584d78ce2e40e7eae",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-exhaustion-comparison"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-exhaustion-comparison"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:02",
+    "page": "anergy-vs-exhaustion",
+    "section": "## What they share",
+    "sourceBlockSha256": "b5b8ef476e0960eebd226c46b3711402218e7fa35059031c19b29f4bc7e047b1",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:03",
+    "page": "anergy-vs-exhaustion",
+    "section": "## What they share",
+    "sourceBlockSha256": "c806b4398b42e1366fb1186c064e75a6e7a7284e3a5a0d04d928b2bf680e2213",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:04",
+    "page": "anergy-vs-exhaustion",
+    "section": "## The axis is response history plus evidence",
+    "sourceBlockSha256": "5e545b9d16ae02e27874ff5dddc2627a1c76bf846e244fbd98532edef335244d",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-mechanism"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-mechanism"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:05",
+    "page": "anergy-vs-exhaustion",
+    "section": "## The axis is response history plus evidence",
+    "sourceBlockSha256": "0dba06d5a1b522ed907a513572090a6d98adb21fcb65b183b51420e9c6cd9bf4",
+    "requirementIds": [
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:06",
+    "page": "anergy-vs-exhaustion",
+    "section": "## The axis is response history plus evidence",
+    "sourceBlockSha256": "baa4fcc1831672c3646a37a65696dd0ae0c5e501d2d78bed1c03e386d55a04be",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:07",
+    "page": "anergy-vs-exhaustion",
+    "section": "## The axis is response history plus evidence",
+    "sourceBlockSha256": "cc783b8358544981ce6f3b28a169d799d1bca54495c9a11ea5ad0e4e5308ffdb",
+    "requirementIds": [
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:08",
+    "page": "anergy-vs-exhaustion",
+    "section": "## The axis is response history plus evidence",
+    "sourceBlockSha256": "c93cf8503d1f90b4319a6c06f0f463169535ec37599e837bdf5c5c3e94ab127a",
+    "requirementIds": [
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:09",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Compare the same questions",
+    "sourceBlockSha256": "a525adf67e1a4e03dab5c45c22ed99140de8e82b784d96abe25a64c19cc29eb4",
+    "requirementIds": [
+      "anergy-mechanism",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-mechanism",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:10",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Compare the same questions",
+    "sourceBlockSha256": "e682356595e72ad8b33d0e0302de150da989d672b334dbaafcfc92bac958bc65",
+    "requirementIds": [
+      "anergy-controls",
+      "anergy-exhaustion-comparison"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls",
+      "anergy-exhaustion-comparison"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:11",
+    "page": "anergy-vs-exhaustion",
+    "section": "## When each explanation helps",
+    "sourceBlockSha256": "58b946dc1e626fc85c4c748685a9d5b151bf02425fb769a36b22629619f532d0",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls",
+      "anergy-exhaustion-comparison"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls",
+      "anergy-exhaustion-comparison"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:12",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "38fec30e5fac7a9e564fe6209669e228dda235cc4c507d5de10a59a529746d37",
+    "requirementIds": [
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme",
+      "exhaustion-markers"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "exhaustion-programme",
+      "exhaustion-markers"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:13",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Try it: two histories and one unresolved sample",
+    "sourceBlockSha256": "b28f75dcf841fdf98e8ef2ab13991f2ce56f577ae6a95f12d2621b1355d39a28",
+    "requirementIds": [
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:14",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Try it: two histories and one unresolved sample",
+    "sourceBlockSha256": "e7acdfadfbc0121908e09612c79e5a9fcb116e5b88e8228c660a4eb140c090ab",
+    "requirementIds": [
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:15",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Try it: two histories and one unresolved sample",
+    "sourceBlockSha256": "54928761ea43acb7141660b6d34e65e17d9f218ceb11ce75ea396f62bcc1be10",
+    "requirementIds": [
+      "anergy-controls",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:16",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Try it: two histories and one unresolved sample",
+    "sourceBlockSha256": "8349f22e12123494fcc274f98b9cfa2edfa38b585fb63e26425b8fb0f763da26",
+    "requirementIds": [
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:17",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "69c3e626d6024c44dc2ad3c8e5a51f22977cf51bd2a5619e8b7428d43f11a3f9",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:18",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "47b4ef98dfa113a21df90750eff5356f7398f37511a110836e7a487a19a39d6c",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls",
+      "comparison-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls",
+      "comparison-example"
+    ]
+  },
+  {
+    "initialBlockId": "anergy-vs-exhaustion:source:19",
+    "page": "anergy-vs-exhaustion",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "e623610e704700cece1530f0faf365f438c3079b99a651a4130ee25e9d4ebaa9",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:01",
+    "page": "anergy",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "f9f7a13d377788f68d830a24b2d43f351ad194b73dd08dcc96e7e95537f4206a",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:02",
+    "page": "anergy",
+    "section": "## The intuition",
+    "sourceBlockSha256": "df49ea379382d6633f16d8705941d3cbb7258e662a37b7751d55b77a947b6d51",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:03",
+    "page": "anergy",
+    "section": "## The intuition",
+    "sourceBlockSha256": "86d4e445202bf34a2833989344042d85b4807b8cdb9f60ae13fe7c7930392980",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:04",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "2a849e5e91cf1808f3351d4416e7a4ef27f80887b015f26b7942bf41aacf63c4",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:05",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "44e1cfecf43e65befa1f5e58f2c1e3c97c2d25d15214ca352972b86bdb662db6",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:06",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "d0b8bfb4d38b2262037b304f522f1a76511da00ea20760724af533eef1e648a7",
+    "requirementIds": [
+      "anergy-mechanism"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-mechanism"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:07",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "08f3a38bddd870281217d30d984bfbc7311ed0793c153176a27c0a924629ec24",
+    "requirementIds": [
+      "anergy-mechanism",
+      "anergy-tolerance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-mechanism",
+      "anergy-tolerance"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:08",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "85db7340a5314f4f31d58816d0da4a6ac9e7687fb0784e2bdd48b3b493c93106",
+    "requirementIds": [
+      "anergy-exhaustion-comparison"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-exhaustion-comparison"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:09",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "58b594bc81b9d39a0a8abf3318e3bc62f164c3e4627b56c1b736722ad1e76b72",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:10",
+    "page": "anergy",
+    "section": "## How it works",
+    "sourceBlockSha256": "d3c9d230135acfd94a64df1f258d446d41672aeca8fbb0fcc14f4b96d7c38da6",
+    "requirementIds": [
+      "anergy-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:11",
+    "page": "anergy",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "984ce10ca6679920b486082e526f7283e21000504e48ac937edc3eccfd37f722",
+    "requirementIds": [
+      "anergy-controls",
+      "anergy-tolerance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls",
+      "anergy-tolerance"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:12",
+    "page": "anergy",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "27d3b7c373e01e706a4debbf2bc6cdcba4e52a234202c6afe9d4c9fefdca9d0a",
+    "requirementIds": [
+      "anergy-tolerance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-tolerance"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:13",
+    "page": "anergy",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "2ed9b93bb15e1592a535573687e99b1959caa120d8ddffb562232bc192f4959d",
+    "requirementIds": [
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:14",
+    "page": "anergy",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "c4d1899c53f2d3aaf9f2253cf327e52368103f9944be2ec2999a622f0382b93d",
+    "requirementIds": [
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:15",
+    "page": "anergy",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "9f95f6c9165206c11e128ef1f55e13523ceb00dbf59472aa50d30d0669a3b130",
+    "requirementIds": [
+      "anergy-history",
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-history",
+      "anergy-controls",
+      "anergy-tolerance",
+      "anergy-exhaustion-comparison"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:16",
+    "page": "anergy",
+    "section": "## Try it",
+    "sourceBlockSha256": "6a3f6dfa98e3af922075392804ea8f2985e2d5c0e2e54a94a442f690b84e8c40",
+    "requirementIds": [
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "anergy:source:17",
+    "page": "anergy",
+    "section": "## Try it",
+    "sourceBlockSha256": "ae4e5d6c3df98781d45fabb6cd225c44e3bbb857d5f592febd4ed5a232d1a465",
+    "requirementIds": [
+      "anergy-controls"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "anergy-controls"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:01",
+    "page": "cd4-vs-cd8",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "ebd69fb9ac22ed67c9e88eb39d5e851961a7c5687af03d33272be9efbab4d492",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:02",
+    "page": "cd4-vs-cd8",
+    "section": "## The intuition",
+    "sourceBlockSha256": "b86ca33d2f2b639ad3a71b9c2f5ea6230449ce3d6018ad240e2fcfca74fe497b",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:03",
+    "page": "cd4-vs-cd8",
+    "section": "## The intuition",
+    "sourceBlockSha256": "37574dcf44708ec27141ab5edad102d6e694582b661bed2d942ee224c6874a65",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:04",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "a12316834de063827f30d062bf60dba10e8c1f3090fd7acc228d3db447aaa3c9",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:05",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "8edfe9ea416cb5c38c563d51934e912366d6f45b1b1a52c5a8687665c85b812a",
+    "requirementIds": [
+      "presentation-routing"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "presentation-routing"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:06",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "e22623ccbf55fd1992938a9e020fee78d94332cdf4af0f3302abfbcda9b83109",
+    "requirementIds": [
+      "coreceptor-identity",
+      "cd4-help"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "cd4-help"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:07",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "229de89d0a8cb2cc3e8b1592db70fafb2cf9b791c5cf6584225b58380452525e",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:08",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "18781e7c4b9da193b3548c158e6e8f4d9ff151fc25ade4e1967eab27847b1e3f",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:09",
+    "page": "cd4-vs-cd8",
+    "section": "## How it works",
+    "sourceBlockSha256": "9a9a011d7bc69d73228304906cc6c1ea00b36aa61c55bb25d7d32c20b0fccf21",
+    "requirementIds": [
+      "coreceptor-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:10",
+    "page": "cd4-vs-cd8",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "c9ac87fba0aa52420942c25e4c1d2b65038b6bb2a138ec2904109bd2b401d3a6",
+    "requirementIds": [
+      "coreceptor-geometry"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "coreceptor-geometry"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:11",
+    "page": "cd4-vs-cd8",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "2e0328c993e4ac8bcccb040b2acef2c7938109f81ec40e99e733d713564cbdd1",
+    "requirementIds": [
+      "coreceptor-geometry"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-geometry"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:12",
+    "page": "cd4-vs-cd8",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "e43d5398b7b66aeb590145bdadeec120f21dc82af973e645094b443d223672cf",
+    "requirementIds": [
+      "coreceptor-geometry"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "coreceptor-geometry"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:13",
+    "page": "cd4-vs-cd8",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "9ac40ad5e7d8d82ba59c8ccdbb7ec57252ddf672b7f32aa6fd4bf48db8d22754",
+    "requirementIds": [
+      "coreceptor-geometry"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-geometry"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:14",
+    "page": "cd4-vs-cd8",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "b5f8c5db3f8275f9e1138343814051234b86cd42121baa961f33c54beb958e5b",
+    "requirementIds": [
+      "coreceptor-identity",
+      "coreceptor-geometry"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "coreceptor-geometry"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:15",
+    "page": "cd4-vs-cd8",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "5cfcad2b121024abb94497ac2f38f3d307c91c273051079aae59c73e9de4c5ee",
+    "requirementIds": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:16",
+    "page": "cd4-vs-cd8",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "bfb7740429e93fc0f0f4cc6833ab897b938d31ddb6ae43dfc545f109fd9c0207",
+    "requirementIds": [
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:17",
+    "page": "cd4-vs-cd8",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "2d62969b2e56d81d93955c75d28a1b697c95b3358538dc897d22fb5e5f500e89",
+    "requirementIds": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:18",
+    "page": "cd4-vs-cd8",
+    "section": "## Try it",
+    "sourceBlockSha256": "b1497305bdece6a6c2ff20bc63e50167c67747c92b53ca49c23a8bea6a5541c7",
+    "requirementIds": [
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:19",
+    "page": "cd4-vs-cd8",
+    "section": "## Try it",
+    "sourceBlockSha256": "80e0adf7ba46441f106df9c02a39ad229ddad80f29adb13563463a7bd565a0cd",
+    "requirementIds": [
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:20",
+    "page": "cd4-vs-cd8",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "b0d7340a6ccb7a486eb2f73a88f365332b9fcabd5b3197232de9a40645240f8d",
+    "requirementIds": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "cd4-vs-cd8:source:21",
+    "page": "cd4-vs-cd8",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "23b24037136afc8252089b0043130cd166af09b77936551b005b604190c53b5d",
+    "requirementIds": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "coreceptor-assay"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:01",
+    "page": "costimulation",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "7ea5b5ba95a4f4dafa12fd2c45118c833dc296a64d27b244a931e7414b0f4143",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:02",
+    "page": "costimulation",
+    "section": "## The intuition",
+    "sourceBlockSha256": "52f0d6b6297442e5af9addb5871e0532b61d8956c69c909f2a5862d6059bc7f1",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:03",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "c05af6166e283db6385f3e1514b4c62ccd163e79e89d0eaf8213a5310d119a1c",
+    "requirementIds": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:04",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "96abcb86809e87f0035ff3d28b2de5c582c7ac9d6dfe83de12a4e1887defbba9",
+    "requirementIds": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:05",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "b70dc1b890d2e9fe9f9045d2f74bc885f65ee1e3ee68400347634e9dc8903247",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:06",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "2314dd4baea01f012c3da8f0e4d64f91fdb82c69213a3e734435fb035e214b78",
+    "requirementIds": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity",
+      "costimulation-ligands"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:07",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "033558455a970582bfaf535748cd0156ccb5ed3c9f949a63525e7adc6f39783e",
+    "requirementIds": [
+      "costimulation-identity",
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity",
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:08",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "744e4eadc3030bcfbcc65ad7c3dcff6aa65204edba24652310a67de7f4e3fcf7",
+    "requirementIds": [
+      "costimulation-ligands"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-ligands"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:09",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "9f9b1ddc99ee8bc7bcbb3ad0a132b734a33933619075514845f95fb844f18398",
+    "requirementIds": [
+      "costimulation-rescue"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-rescue"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:10",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "17223b5fe475175056b25b9a52cef1ff80ef723d2742dff22546403686514231",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:11",
+    "page": "costimulation",
+    "section": "## How it works",
+    "sourceBlockSha256": "d6dc9758e418d9f823d53d575cc1e381d6ec007ee4ebb67872b9fcb3109eb547",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:12",
+    "page": "costimulation",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "29a00439c5fd045cec0b2f8a5d5aefabc520dd835817303a16fb5ead4ceead73",
+    "requirementIds": [
+      "presentation-routing",
+      "costimulation-measurement",
+      "priming-cytokines"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "presentation-routing",
+      "costimulation-measurement",
+      "priming-cytokines"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:13",
+    "page": "costimulation",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "1444b75e0a32674dc21b9f5696e4d0954b6c6986d320d54ce94f2d1020f5e7ee",
+    "requirementIds": [
+      "costimulation-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:14",
+    "page": "costimulation",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "924cdb6a9a0ac05ac0e58266982a619acffad84b2837ba27e7afe9b67c9bd386",
+    "requirementIds": [
+      "costimulation-identity",
+      "costimulation-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity",
+      "costimulation-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:15",
+    "page": "costimulation",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "589366afa7fc13e81169cd9201c6a9dcb04d300733420caa3c9e23b4e149a192",
+    "requirementIds": [
+      "costimulation-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:16",
+    "page": "costimulation",
+    "section": "## Try it",
+    "sourceBlockSha256": "05d68b64eae21e9f808c7dc27e6ea6d2506d96af49f1680344e2726d21fcfa87",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:17",
+    "page": "costimulation",
+    "section": "## Try it",
+    "sourceBlockSha256": "7bc4e7472744b0a86638804c95bafe6d7a7bbd37788e543792f4fb00e7d9b900",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:18",
+    "page": "costimulation",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "1871ac1e7e905ebfb9d9e3a18db8ad143e3772d12736b0cfe9ce3b4a8ba94ed3",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "costimulation:source:19",
+    "page": "costimulation",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "a7c1615623efb8ecffc69c56c2e8e5f3be3ee12ee4b9a777f18688334ef043ef",
+    "requirementIds": [
+      "costimulation-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-identity"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:01",
+    "page": "epitope-spreading",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "7ea9d0c858dd6f835fdf22d9ce523b29383eb8e5cf8954780c65fd0a16b5b239",
+    "requirementIds": [
+      "spreading-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:02",
+    "page": "epitope-spreading",
+    "section": "## The intuition",
+    "sourceBlockSha256": "3d213474cdd3431374501f8bd1689de62b2cca1f835d780af9fcec6c89a26106",
+    "requirementIds": [
+      "spreading-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "spreading-definition"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:03",
+    "page": "epitope-spreading",
+    "section": "## The intuition",
+    "sourceBlockSha256": "03abeb4e416b32ea616669291cc87498dc508329108914db6401082c6f2e457b",
+    "requirementIds": [
+      "spreading-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "spreading-definition"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:04",
+    "page": "epitope-spreading",
+    "section": "## How it works",
+    "sourceBlockSha256": "034b6d5b0020bbc3ea8b08836af070c1a4d47d783f100497a082e2741555951d",
+    "requirementIds": [
+      "spreading-causality"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:05",
+    "page": "epitope-spreading",
+    "section": "## How it works",
+    "sourceBlockSha256": "ef607211b4a06e171c129a9f3d0593e6bc22f66bdcca379ffec8fb7f85c13996",
+    "requirementIds": [
+      "spreading-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:06",
+    "page": "epitope-spreading",
+    "section": "## How it works",
+    "sourceBlockSha256": "9ca4aae8f1bccc422acf4aa92ce4838e8404b720d58326c4852fd9029711a2dd",
+    "requirementIds": [
+      "spreading-causality"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:07",
+    "page": "epitope-spreading",
+    "section": "## How it works",
+    "sourceBlockSha256": "c2c2ff854aafac13418f460d6c8c7eb3e8e033eed0b29ffdf12b9ce6e53e96f0",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-causality",
+      "tcr-intervention"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-causality",
+      "tcr-intervention"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:08",
+    "page": "epitope-spreading",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "819c13a341e70b5544c10b774b4b0e148ba13536088fee382ec79727a83c982f",
+    "requirementIds": [
+      "spreading-causality"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:09",
+    "page": "epitope-spreading",
+    "section": "## Worked example",
+    "sourceBlockSha256": "7555a068e29fb2164dd5db076b8237b5bd88a5c9106cfa8f1f29a6de032b82ec",
+    "requirementIds": [
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:10",
+    "page": "epitope-spreading",
+    "section": "## Worked example",
+    "sourceBlockSha256": "e309b9915b00fef97b45cd137032d63cf2da22f6e95f3cbba70ca6f5f6d993b4",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-causality",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-causality",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:11",
+    "page": "epitope-spreading",
+    "section": "## Worked example",
+    "sourceBlockSha256": "57d9de982be688d414eb4f416eb8613883c92e82ad77f9a50996f3a3ed80340c",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:12",
+    "page": "epitope-spreading",
+    "section": "## Worked example",
+    "sourceBlockSha256": "a290323a61fe34d24981d26ae5dec5791a3eb8b32b6f54867390966c44d05dc7",
+    "requirementIds": [
+      "spreading-causality",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:13",
+    "page": "epitope-spreading",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "f5bf585c87c7ecb702d90f556a7178432db302d4ba403c6a8bb4dd101e43829d",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-causality",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-causality",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:14",
+    "page": "epitope-spreading",
+    "section": "## Try it",
+    "sourceBlockSha256": "b596fe3a30274df7866823da4597232a2a27ca1a9f95729a136851b5bf4ba45a",
+    "requirementIds": [
+      "spreading-causality",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:15",
+    "page": "epitope-spreading",
+    "section": "## Try it",
+    "sourceBlockSha256": "9c34512fb061a2a336030ce3a33a939a6880e585e34385a0039e39f04c2cd205",
+    "requirementIds": [
+      "spreading-causality",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-causality",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:16",
+    "page": "epitope-spreading",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "2a332a43b4bb4afc2f0798b8389d3c8170f9128d05b4ff02913987e0d7d1caa9",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "epitope-spreading:source:17",
+    "page": "epitope-spreading",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "079949885db84450114b9d0b5ac483a48a7551469fc2070a9058c5456c4526f9",
+    "requirementIds": [
+      "spreading-definition",
+      "spreading-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "spreading-example"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:01",
+    "page": "immunodominance",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "0179d9a9ab630864d9168ee55f87fa1316ea8aae4d3707302f458e1569c405eb",
+    "requirementIds": [
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:02",
+    "page": "immunodominance",
+    "section": "## The intuition",
+    "sourceBlockSha256": "a1a8e9b2b569eae2d5ef6b227f63d559221ef26fe3d380efaa2b9b28c0dd6e7a",
+    "requirementIds": [
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:03",
+    "page": "immunodominance",
+    "section": "## The intuition",
+    "sourceBlockSha256": "97c0e66a8427dd26379f50050bd9ef37e1f870385f554ed3324a6250e07c4995",
+    "requirementIds": [
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:04",
+    "page": "immunodominance",
+    "section": "## How it works",
+    "sourceBlockSha256": "89280ed43271803c531739a2196da6a217a898f2c5635158625c77fa5ffcc088",
+    "requirementIds": [
+      "dominance-context",
+      "dominance-mechanism"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context",
+      "dominance-mechanism"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:05",
+    "page": "immunodominance",
+    "section": "## How it works",
+    "sourceBlockSha256": "6a763eaa026e2f0ec952a77797fe554cdcf56a02fdfa1d5fdc401a520042f47c",
+    "requirementIds": [
+      "dominance-context",
+      "dominance-mechanism"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context",
+      "dominance-mechanism"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:06",
+    "page": "immunodominance",
+    "section": "## How it works",
+    "sourceBlockSha256": "5799c2e5b940e036dda741b8fdaf8c30ac807dc83d6af857a00bb9baeb03b5f6",
+    "requirementIds": [
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:07",
+    "page": "immunodominance",
+    "section": "## How it works",
+    "sourceBlockSha256": "d03d9265a91b1c7004dc979d4862b1e87e08aef5a1a0ee3388dadae7a7e37f7a",
+    "requirementIds": [
+      "dominance-mechanism",
+      "dominance-subsets-model"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-mechanism",
+      "dominance-subsets-model"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:08",
+    "page": "immunodominance",
+    "section": "## How it works",
+    "sourceBlockSha256": "4e91a82f8ebcb328208cf983c834092b59c443004920400c7e92fc356c388cfe",
+    "requirementIds": [
+      "spreading-definition",
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "spreading-definition",
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:09",
+    "page": "immunodominance",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "92f8600c3c1bedb36837c2d3f5b2012e7b35df25b4d250bc945b00fa446d7065",
+    "requirementIds": [
+      "dominance-context"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:10",
+    "page": "immunodominance",
+    "section": "## Worked example",
+    "sourceBlockSha256": "a48066c74145b718e6a7afcbf8e58149f147ada4f7b9e3e48c06114302b1f789",
+    "requirementIds": [
+      "dominance-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "dominance-example"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:11",
+    "page": "immunodominance",
+    "section": "## Worked example",
+    "sourceBlockSha256": "f42ac5451517d21e3727fce426376ed32fc57e87fdf05061034e8c6cf9eefd8b",
+    "requirementIds": [
+      "dominance-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-example"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:12",
+    "page": "immunodominance",
+    "section": "## Worked example",
+    "sourceBlockSha256": "1a5519d6b7e396c0c2c386858f0c9233878ae70b5649c3124e00cfa97d621d57",
+    "requirementIds": [
+      "dominance-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-example"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:13",
+    "page": "immunodominance",
+    "section": "## Worked example",
+    "sourceBlockSha256": "5bd99f70fb043a3abdce882880d7039f111749e3c4ce3266e21ba30563adcee2",
+    "requirementIds": [
+      "dominance-example",
+      "dominance-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-example",
+      "dominance-assay"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:14",
+    "page": "immunodominance",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "ea10728df5ff35471a1b72ed61a8f63dbbd2ab64bf7421471287f27f7531ab03",
+    "requirementIds": [
+      "dominance-context",
+      "dominance-mechanism",
+      "dominance-example",
+      "dominance-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context",
+      "dominance-mechanism",
+      "dominance-example",
+      "dominance-assay"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:15",
+    "page": "immunodominance",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "e8c13af4b0217534df1190028d5abada7a58401e9ad8a53fc7e476f6fdc462eb",
+    "requirementIds": [
+      "dominance-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-assay"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:16",
+    "page": "immunodominance",
+    "section": "## Try it",
+    "sourceBlockSha256": "9bf99f1b0e49d844a7d6f132f4a58b0f03b74c9730a9b7383a1f1304eee08c30",
+    "requirementIds": [
+      "dominance-example",
+      "dominance-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-example",
+      "dominance-assay"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:17",
+    "page": "immunodominance",
+    "section": "## Try it",
+    "sourceBlockSha256": "ece1f8cba38e536430c0f6e2b3a1393e0bb44b876c5a12846f9c03cbede145ca",
+    "requirementIds": [
+      "dominance-example",
+      "dominance-assay"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-example",
+      "dominance-assay"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:18",
+    "page": "immunodominance",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "446b57536f22cc8752a5e7ede5fcaa1c7d893bf6a914e9f48220132c95717ead",
+    "requirementIds": [
+      "dominance-context",
+      "dominance-example"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context",
+      "dominance-example"
+    ]
+  },
+  {
+    "initialBlockId": "immunodominance:source:19",
+    "page": "immunodominance",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "10f991d1929ff33be4109f5698e26a28fc0cc693fed1eee89865d9ab530c2d5b",
+    "requirementIds": [
+      "dominance-context",
+      "dominance-mechanism"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "dominance-context",
+      "dominance-mechanism"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:01",
+    "page": "regulatory-t-cells",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "ad33519a721c39d16bf9286e54fe80bf7098f67d92368daf9c19557894e35b53",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:02",
+    "page": "regulatory-t-cells",
+    "section": "## The intuition",
+    "sourceBlockSha256": "f691e8115f123811d8f0a9c4495c29a0289494cfb0e49214fc743ff208c71a92",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:03",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "5af986c7c5823f8124d983beb2e3054efebfc94e77cb07f4ece9bb9eba9686c9",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:04",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "368a1b24c7832aaa4979119395c8c87bdb3db941840fe3279c30287bca287ba2",
+    "requirementIds": [
+      "foxp3-limit"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "foxp3-limit"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:05",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "68b140f47d47fdb53f4841013d7e4e1e89b23b96e14a9fa90f4022d2dcd638ce",
+    "requirementIds": [
+      "costimulation-ligands",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-ligands",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:06",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "34093931cd559dcf5182fd4d55885c19e42eb248855cda0775ae01f59b919fd1",
+    "requirementIds": [
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:07",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "d08e76ac63328fa15dcfe6b3f749c0e838d033f72acd6b06eafcf9bb14703cad",
+    "requirementIds": [
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:08",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "645faf37d4310f7445b6e28d91c9e987b0a1f9487d0d6cfec44988eb89d74bfe",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:09",
+    "page": "regulatory-t-cells",
+    "section": "## How it works",
+    "sourceBlockSha256": "c0d243525231e2d29204509d181f6ea8ffac7a09085f4160c8f35aa2646636b9",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:10",
+    "page": "regulatory-t-cells",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "e6cfacc10f4f7287eee467a0a31be136caae63365d3c8a9fea906587699c78c2",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:11",
+    "page": "regulatory-t-cells",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "3753b258e621e81b71720352ef6cea4fe8a7e7606dc9cca3c947d70cb7c18b07",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:12",
+    "page": "regulatory-t-cells",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "74a626ae4be10458a69a852b827e24abdb72622f83962c9989560ae137659b5e",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:13",
+    "page": "regulatory-t-cells",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "f87d112382f22e49a9675a65bb1a56d8e668a1aa976a5fa0fb272a43360dc317",
+    "requirementIds": [
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:14",
+    "page": "regulatory-t-cells",
+    "section": "## Try it",
+    "sourceBlockSha256": "7b410357e29c0220adf4c8940334a8b57eaf8bd7d4b47cae889895cfddf3dd54",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:15",
+    "page": "regulatory-t-cells",
+    "section": "## Try it",
+    "sourceBlockSha256": "2b0c324aa490118b9e26108c0f6964e54aed90b7e1840a82cb4f014c731bad09",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:16",
+    "page": "regulatory-t-cells",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "1abbfb0abe8c7e70f1b4cc012c2fc56ab12d72f5371b2b22a48c728c9e850f60",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "regulatory-t-cells:source:17",
+    "page": "regulatory-t-cells",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "0529044fefbe67598cf59ab7c0b98b479a0feabb91a161a248d4c2ddd6f83ccd",
+    "requirementIds": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "foxp3-limit",
+      "regulatory-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:01",
+    "page": "t-cell-exhaustion",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "8899e186b2fde738d2b4f40b9a7d3de608f4280bd65eea57ad32cc37b4617db6",
+    "requirementIds": [
+      "exhaustion-programme"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:02",
+    "page": "t-cell-exhaustion",
+    "section": "## The intuition",
+    "sourceBlockSha256": "6283a6daa019f490d7c30121f6d0b9a7c275901f2341f56e67a80ea46fd7d8a8",
+    "requirementIds": [
+      "exhaustion-programme"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "exhaustion-programme"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:03",
+    "page": "t-cell-exhaustion",
+    "section": "## How it works",
+    "sourceBlockSha256": "7a2a9023e7cdbd8e14109f0ffdd77b022de0d144e286e228d123c9270c107b6f",
+    "requirementIds": [
+      "exhaustion-programme",
+      "exhaustion-subsets",
+      "exhaustion-chromatin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme",
+      "exhaustion-subsets",
+      "exhaustion-chromatin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:04",
+    "page": "t-cell-exhaustion",
+    "section": "## How it works",
+    "sourceBlockSha256": "b1be18ea002091b3552d468ddd2037e26e35f9620634a066144c3f676f1e975f",
+    "requirementIds": [
+      "exhaustion-markers"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:05",
+    "page": "t-cell-exhaustion",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "927e25dbe801a3f571a931c82c36d497d7bddbdd3ac9cb00b875d2299e63be95",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "response-origin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "response-origin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:06",
+    "page": "t-cell-exhaustion",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "e48941a4075a6327a79d636c6561329cce5ebed1b19d68d3b26b1c81152b2f3f",
+    "requirementIds": [
+      "exhaustion-programme",
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme",
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:07",
+    "page": "t-cell-exhaustion",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "23fa4b91c4c201f2c94ddb11b1bea93c1dc38f07b8c704a51aa14731d108c820",
+    "requirementIds": [
+      "exhaustion-markers",
+      "response-origin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "response-origin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:08",
+    "page": "t-cell-exhaustion",
+    "section": "## Try it",
+    "sourceBlockSha256": "5de7baab3d96dbc0ec1d8b56597b71da3026d2503d1023f022feda9fbc73f91d",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:09",
+    "page": "t-cell-exhaustion",
+    "section": "## Try it",
+    "sourceBlockSha256": "b8c4b04d61e7a2bf1d1a258be8c98c52b722d74ac1ce15a0fedd112dd4d49638",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "exhaustion-markers"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:10",
+    "page": "t-cell-exhaustion",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "3ee23c180b1a75f1d33d79545b127b5df29cc1f2beeda52ac157fce38a11e46e",
+    "requirementIds": [
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-exhaustion:source:11",
+    "page": "t-cell-exhaustion",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "b257f2ceda92484754da88d289a99ac927e5da6139509a94fdaee6786c024b6b",
+    "requirementIds": [
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme",
+      "exhaustion-chromatin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:01",
+    "page": "t-cell-priming-three-signals",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "cdd75b3ed46b87eb4ad4b70ddbe220acb5633758d3087eca71845c07fed124be",
+    "requirementIds": [
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:02",
+    "page": "t-cell-priming-three-signals",
+    "section": "## The intuition",
+    "sourceBlockSha256": "fb37ad0fff172d5884e8c4a9b21652249c7454eaac6ab6d43791999c589f1123",
+    "requirementIds": [
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:03",
+    "page": "t-cell-priming-three-signals",
+    "section": "## The intuition",
+    "sourceBlockSha256": "3da6544159512fbee1f5813e94f1658c12a527623ce8cbcfc9bb3918075a8e96",
+    "requirementIds": [
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:04",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "60b16a60d1d8316f364436150ed524d898d8a29ac695cebd862b62bc150fab83",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:05",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "3f65a7cd49519abea1e787b142ea67ddee6518ba53e7b8804451d16615b7aad8",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:06",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "a8747cc4918e7869ac89c90f836dc23588e0fd736c0b31d2c9f3111d37627240",
+    "requirementIds": [
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:07",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "a9056329a16a6176d1f3332f1b3ca01d140cbff145daee04fa8379e3220a8fee",
+    "requirementIds": [
+      "costimulation-ligands",
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "costimulation-ligands",
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:08",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "102d7bd9a2cfde90221f16f1821c42ee9d7813dc6ec91aab925c98933a87b417",
+    "requirementIds": [
+      "priming-cytokines"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-cytokines"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:09",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "509ad7156de53558e5d93e5ae570b8dfb633f1cd46c13ed39c68fab4888e2e43",
+    "requirementIds": [
+      "presentation-routing",
+      "priming-signals",
+      "priming-cytokines"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "presentation-routing",
+      "priming-signals",
+      "priming-cytokines"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:10",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "fbf6819c5434276366cf41c7c500cebb1fbaebf6353d4f03c4559ee390f629d6",
+    "requirementIds": [
+      "priming-signals"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:11",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "6c40ab73e84a51a1d69a43fc78f86d2e886006feee567c02839429100b441b54",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:12",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it works",
+    "sourceBlockSha256": "1b9d1743136871581f482307d2e0678cb1011961feb650456b9ce49306006b20",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:13",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "771db77b3bc6316da817aee3d29afa0ec1bdb2cda219b3cf96f2591f7516461a",
+    "requirementIds": [
+      "presentation-routing",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "presentation-routing",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:14",
+    "page": "t-cell-priming-three-signals",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "439be3cc8228e74fa332a2c18bb580c91944ee4c3b83d444fe68476b9f71850a",
+    "requirementIds": [
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:15",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Worked example",
+    "sourceBlockSha256": "8e2aa731afb9fcbe3757a7a002500dc9945d89dd07bb98a3b51a3cfccd8d9367",
+    "requirementIds": [
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:16",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Try it",
+    "sourceBlockSha256": "8c3e2fa9c773b96ca26b285f153273f941673c6ee6d4f82c6436d06d81d49dc1",
+    "requirementIds": [
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:17",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Try it",
+    "sourceBlockSha256": "3974aa6dc6f99dcc25588e2d7938ee469816714049e2f2e22d6bd732d270aba7",
+    "requirementIds": [
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:18",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "92e0d17f90c56f7045b1ede4e2182bf198b3d9406e3aebe99d95610ad3a12493",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:19",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "0cf95fd687434437e89ba1bd85676041635ac78094dd576334eee829b159cc94",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-priming-three-signals:source:20",
+    "page": "t-cell-priming-three-signals",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "3c76fedc6ae7164dcdaac204527880abf3a0a26d4467c84052b31bc4689088b8",
+    "requirementIds": [
+      "priming-signals",
+      "priming-endpoints"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "priming-endpoints"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:01",
+    "page": "t-cell-receptor",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "9cac64979d435654a54a67139bc9eab56eb19688e8c9fe18c6524167abef23e1",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:02",
+    "page": "t-cell-receptor",
+    "section": "## The intuition",
+    "sourceBlockSha256": "c8684e5fa615ed4e7e58071ec96c9699fbdf14a15d4b4c3127bdac611ef64600",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:03",
+    "page": "t-cell-receptor",
+    "section": "## The intuition",
+    "sourceBlockSha256": "8f04543a6fc62d7b0ada2262d34a4f63fe018356e15a7166528519886b9c32b1",
+    "requirementIds": [
+      "tcr-crossreactivity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "tcr-crossreactivity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:04",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "6eced2f630c92aea1d8e519fe2158c78d8374a141a525f2588129d47b683bbb6",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:05",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "29493d1dd9486390ab34ac7cb400fa6b81c9062559bc1ca0c3a2e3e97598e61e",
+    "requirementIds": [
+      "tcr-structure",
+      "tcr-crossreactivity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure",
+      "tcr-crossreactivity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:06",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "c4294ecd1de7747d3a7222cc83466c5c273e2ba7a42680d315c9346a108eec9f",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:07",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "37b9ef864a4ff4632616b17915f499b827982ce7412c89062e4fd02ec4eb6b78",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:08",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "b26cc5efc9b3a3f016d2b45a91e3f5ed74d15e28cf7c46a725c4395650b8e0b3",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:09",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "a589e72e04518df1649fec58b75e10d38bf91b56d8e91537c4681c38e95207fe",
+    "requirementIds": [
+      "tcr-crossreactivity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-crossreactivity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:10",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "68491553a5d1d88b761fd098821ae05c03410c87c9dface3df30c0b8825779a6",
+    "requirementIds": [
+      "tcr-structure",
+      "tcr-readouts"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "tcr-structure",
+      "tcr-readouts"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:11",
+    "page": "t-cell-receptor",
+    "section": "## How it works",
+    "sourceBlockSha256": "0c7b9c413d95aa05595ce0932315660287dc0dbeb9aaf02aa91e51462cd3aa7d",
+    "requirementIds": [
+      "tcr-structure",
+      "tcr-readouts"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure",
+      "tcr-readouts"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:12",
+    "page": "t-cell-receptor",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "09fceb72131ec39ac13220d0591415f9831ea9ec2ec12d4713dfea84c57d26d5",
+    "requirementIds": [
+      "tcr-intervention"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-intervention"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:13",
+    "page": "t-cell-receptor",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "b4c0cb4fbb9466ef09574549aebdb17bee36d5eac1382f3c34cb600f0e9f5844",
+    "requirementIds": [
+      "tcr-readouts"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-readouts"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:14",
+    "page": "t-cell-receptor",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "04027a71a9f35bc2dcbb57979c5de4fc9ef5187f3cf098150b71fad4c8c67d2a",
+    "requirementIds": [
+      "tcr-crossreactivity",
+      "tcr-readouts",
+      "tcr-intervention"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-crossreactivity",
+      "tcr-readouts",
+      "tcr-intervention"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:15",
+    "page": "t-cell-receptor",
+    "section": "## Try it",
+    "sourceBlockSha256": "95a62b4362528914c0bc0817d148e07ad94131ff1eec0da16dab540bf1d39e23",
+    "requirementIds": [
+      "tcr-readouts",
+      "tcr-intervention"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-readouts",
+      "tcr-intervention"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:16",
+    "page": "t-cell-receptor",
+    "section": "## Try it",
+    "sourceBlockSha256": "6b0068b4fbe3903772b93607b7ec935caea6e4f9fe57c2863a99b8f6ec14972c",
+    "requirementIds": [
+      "tcr-readouts",
+      "tcr-intervention"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-readouts",
+      "tcr-intervention"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:17",
+    "page": "t-cell-receptor",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "14acfe70ecdb39b3913d05fd5316f74c8336b8d4dc34251644956eb5e44e65a5",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-receptor:source:18",
+    "page": "t-cell-receptor",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "26c04e13e4009647b3ca4a91d4b541e9208be66c2da11cf9ce78b97967de3b62",
+    "requirementIds": [
+      "tcr-structure"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:01",
+    "page": "t-cell-repertoire",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "515facdb0ce7d23bac94e4901e3976154f4153dc8d9aef156bb129cfbbad1e0f",
+    "requirementIds": [
+      "repertoire-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-definition"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:02",
+    "page": "t-cell-repertoire",
+    "section": "## The intuition",
+    "sourceBlockSha256": "5543cfc51077f258ef571533bf43b5877580bc16a0d34775e1459597cb28449e",
+    "requirementIds": [
+      "repertoire-definition",
+      "repertoire-sampling"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "repertoire-definition",
+      "repertoire-sampling"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:03",
+    "page": "t-cell-repertoire",
+    "section": "## How it works",
+    "sourceBlockSha256": "30da3ab1c2e2e44b40a00326b0a8ee2c7945b9fd63d56cd81f352e7d4add9176",
+    "requirementIds": [
+      "repertoire-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-definition"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:04",
+    "page": "t-cell-repertoire",
+    "section": "## How it works",
+    "sourceBlockSha256": "05b7e1edc8d2917701a11b22cd395db7614eba894aa2ff439ec5a2ef50938392",
+    "requirementIds": [
+      "tcr-intervention",
+      "repertoire-definition"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-intervention",
+      "repertoire-definition"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:05",
+    "page": "t-cell-repertoire",
+    "section": "## How it works",
+    "sourceBlockSha256": "b001adf52fefbe99b8634a28e728a263eeed6a890f593700780feb8058b3e897",
+    "requirementIds": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:06",
+    "page": "t-cell-repertoire",
+    "section": "## How it works",
+    "sourceBlockSha256": "943bda6233ec40b849e4c317917a0bb1171add40a2210411d2e6048530987ff7",
+    "requirementIds": [
+      "repertoire-sampling"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-sampling"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:07",
+    "page": "t-cell-repertoire",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "b439c3a31e380ca43e40ffc88af48c66e004d56a5ca732e088183ee56b4b6ca7",
+    "requirementIds": [
+      "repertoire-definition",
+      "repertoire-sampling"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-definition",
+      "repertoire-sampling"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:08",
+    "page": "t-cell-repertoire",
+    "section": "## Worked example",
+    "sourceBlockSha256": "18b2b7a61ee875229b36cd07ea34f14f4d0133c1a8c8ab176c833d2a7fb8e616",
+    "requirementIds": [
+      "repertoire-sampling"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-sampling"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:09",
+    "page": "t-cell-repertoire",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "5572de8b4514e1b98e98009af7740bd8b0b1e94bf5aca7df09b13787faf8c79a",
+    "requirementIds": [
+      "repertoire-definition",
+      "repertoire-sampling",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-definition",
+      "repertoire-sampling",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:10",
+    "page": "t-cell-repertoire",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "1f6ec2a93895a5cc02fdea2b064bd29f406fcf1a69641b0201b70210b5527fed",
+    "requirementIds": [
+      "tcr-readouts",
+      "repertoire-definition",
+      "repertoire-sampling",
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-readouts",
+      "repertoire-definition",
+      "repertoire-sampling",
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:11",
+    "page": "t-cell-repertoire",
+    "section": "## Try it",
+    "sourceBlockSha256": "e85bda69ba9ab5515992a72607838708388928ee944bc7e3bcf919b41fa12c23",
+    "requirementIds": [
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:12",
+    "page": "t-cell-repertoire",
+    "section": "## Try it",
+    "sourceBlockSha256": "dadff023f6f4a2a829004b3ec777edf339b9d1a48e710f36e2b6d45e956bf89a",
+    "requirementIds": [
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:13",
+    "page": "t-cell-repertoire",
+    "section": "## Try it",
+    "sourceBlockSha256": "9fc75814eba6e593370ed3e085b12d0aec87f364745d207451e7bf76b0e9b62e",
+    "requirementIds": [
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:14",
+    "page": "t-cell-repertoire",
+    "section": "## Try it",
+    "sourceBlockSha256": "3816752e74d9cd84c7f498bc7d04635695336f6aaa2df6a1f8341eb7489bacf4",
+    "requirementIds": [
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:15",
+    "page": "t-cell-repertoire",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "a97ed2d1f498719f8421cc652d8001e83a5dd79adeeb8713ec5c30458d464151",
+    "requirementIds": [
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-repertoire:source:16",
+    "page": "t-cell-repertoire",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "4154adfa7021832ab8fe5b53ff8b6fa07b6eb09cc15a57db344b881f5b495223",
+    "requirementIds": [
+      "repertoire-definition",
+      "repertoire-sampling",
+      "repertoire-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-definition",
+      "repertoire-sampling",
+      "repertoire-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:01",
+    "page": "t-cell-states",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "ad6e299b636365b81857c9fc4f4e009dcc3d4586c2fb1d97fd207862635c32f5",
+    "requirementIds": [
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:02",
+    "page": "t-cell-states",
+    "section": "## The intuition",
+    "sourceBlockSha256": "decd530d986106c8993375803f7b169a7692ea46338d964d913fdf446901ab43",
+    "requirementIds": [
+      "state-history",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "state-history",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:03",
+    "page": "t-cell-states",
+    "section": "## The intuition",
+    "sourceBlockSha256": "833283ca481643a795eb7522ceb619ff8c2f67ee316bf176307a1b4e763f0a37",
+    "requirementIds": [
+      "state-history",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "state-history",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:04",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "ad30e60bf9413818e87233d660ed0f8b5625ac8c651b802f25b87f5b954b0223",
+    "requirementIds": [
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:05",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "09a00b9fedd68efef0fbff104ee04375b8c5be4577bafac545b2ec264bddecbe",
+    "requirementIds": [
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:06",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "bfb8d0eddf730d5b12042f9e9c34ddb4f6a404a36512c68fcee70bfa227b6e07",
+    "requirementIds": [
+      "exhaustion-programme",
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-programme",
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:07",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "61ea9b3446172d6e530fd86b95c85674b1c0ed118e0f3076b4ddc3a945da60a1",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "exhaustion-markers",
+      "state-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "exhaustion-markers",
+      "state-identity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:08",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "efec14437edd42d83c6fa17f31f4ed9c2f582cfa3779ee0a571fd0c4cd0cd085",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "response-origin"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "response-origin"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:09",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "35cc0d7e5c002046c0102d27a3d39294a9c00a554e7d99116a0286f20264b69d",
+    "requirementIds": [
+      "exhaustion-markers",
+      "state-identity",
+      "dominance-subsets-model"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "state-identity",
+      "dominance-subsets-model"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:10",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "abc39ff5e5354418dac002ed257effcac1b9f2c2f61121a2ced634a8a3cffb86",
+    "requirementIds": [
+      "regulatory-role",
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role",
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:11",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "80a23647904a140520b58cdf1b47373f7ac1ffd1c790fe55079537c7be331bc2",
+    "requirementIds": [
+      "foxp3-limit",
+      "exhaustion-markers",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "foxp3-limit",
+      "exhaustion-markers",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:12",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "c4fad59d3fab46fc427fb713699e9a8dc6ded2a4ebc6a7f5e37df7c936eced4e",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:13",
+    "page": "t-cell-states",
+    "section": "## How it works",
+    "sourceBlockSha256": "92df0d653813b5314c481af7571c981fada23e1d9425a3b35b5378ec2a74ceba",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:14",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "f4c7df8f3b745b787e4eadaa4dd03a740537a724a7f332177716e7ada173b65c",
+    "requirementIds": [
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:15",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "4a77a13efcc289708e88ed53f135266969608a49f0ae48eba73268907ef736ce",
+    "requirementIds": [
+      "state-history"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:16",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "91617a1aee6d2596fddbb9ca1357c2da8aaded6b3ecd752e362817915655df0a",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "state-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "state-identity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:17",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "579c9f863de36297333292e750a6536bf71d66e5ede5e276bd635a6c83ae82af",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "state-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "state-identity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:18",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "f63c8d8f2ce0df19eae7b9338b19fc1d99e1088c784a3ba6b0b351ce1e0d2ab1",
+    "requirementIds": [
+      "state-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "state-identity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:19",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "57dd5aa7676ae57dd4e2759709d2623e938afe5504fce88c2d017dc817ceebd9",
+    "requirementIds": [
+      "state-identity"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-identity"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:20",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "68f55537e5caf3a4d126dde6629f992b09a0b86636b67c1dbc5d77c52e2ec7d1",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:21",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "8668bcac0ab066798d2876d4427e2aeffcfc21eb05f10287b0c10419eecb252b",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:22",
+    "page": "t-cell-states",
+    "section": "### Shared visual reference",
+    "sourceBlockSha256": "babef7c2b2b87fa5a66b27977243aeac24aa7c28d55c6320ff63423eb5738f43",
+    "requirementIds": [
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:23",
+    "page": "t-cell-states",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "01e22693f63456002277cb793cbafc39a7f7ef21ba14c125c48cb92bf3a6acb1",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:24",
+    "page": "t-cell-states",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "a85cb9eb1270d74b03717884cf3431500406806347a69d16c27a8ea1fd56038e",
+    "requirementIds": [
+      "regulatory-role"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "regulatory-role"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:25",
+    "page": "t-cell-states",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "3cdb0fd3fb8e9fdc6ee26c49cce68bc857264c5f0eef451f05f110c8bcbb3d5e",
+    "requirementIds": [
+      "exhaustion-markers",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:26",
+    "page": "t-cell-states",
+    "section": "## Worked example",
+    "sourceBlockSha256": "1ae0aa4c31d87ca8ae4b1bf53461bffccf6611f50d3b230d5e8f2be565f983c6",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:27",
+    "page": "t-cell-states",
+    "section": "## Worked example",
+    "sourceBlockSha256": "9e61e6b161ce7fe7487666aea21b5ad10e6c9bdffe8bfc873b5270d5b52d756f",
+    "requirementIds": [
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:28",
+    "page": "t-cell-states",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "0840031bc017086490da5752520775ad89a9a508cf71e8996a2ac98a6c867216",
+    "requirementIds": [
+      "exhaustion-subsets",
+      "response-origin",
+      "state-history",
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-subsets",
+      "response-origin",
+      "state-history",
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:29",
+    "page": "t-cell-states",
+    "section": "## Try it",
+    "sourceBlockSha256": "f7138f2fa1591957198101de3d30a42f8efdcb176aa44746ce6e88fdbabeb0ef",
+    "requirementIds": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:30",
+    "page": "t-cell-states",
+    "section": "## Try it",
+    "sourceBlockSha256": "5697f91c3f09adb681dae0f0fc8938efc6c43f76420f8cc4f6a634deb88a2367",
+    "requirementIds": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:31",
+    "page": "t-cell-states",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "e2277d565ebe9045c99c764c00f08ce268050ce6601903f04bb8d863258783b0",
+    "requirementIds": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "exhaustion-markers",
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell-states:source:32",
+    "page": "t-cell-states",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "4ad5c950e8d03bb75334c495fbb69d6190da3274686c56641c6cbc459bc6b3c4",
+    "requirementIds": [
+      "state-history",
+      "state-identity",
+      "state-function"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history",
+      "state-identity",
+      "state-function"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:01",
+    "page": "t-cell",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "92495eb2920c66c3db7357e1cab438bde766bde2bfeb48e2ecd8cbffd105541e",
+    "requirementIds": [
+      "tcell-family"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcell-family"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:02",
+    "page": "t-cell",
+    "section": "## The intuition",
+    "sourceBlockSha256": "dfadc098549371081b5bb9904513356e172e2ecf9be7e0d3da5f27c6a74ee219",
+    "requirementIds": [
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:03",
+    "page": "t-cell",
+    "section": "## The intuition",
+    "sourceBlockSha256": "db3989d3191617ae9dae26afb2c356fcd38c9c23780430388af9e1868f795716",
+    "requirementIds": [
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:04",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "9e2d0b60c615e14491baf9b6b92995a9c6888a13e81e6030d931056005ac8ddf",
+    "requirementIds": [
+      "tcell-family"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcell-family"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:05",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "8f9af55765fc1832b04d979d3de7ad632af203d7666a654bfb970aac88054057",
+    "requirementIds": [
+      "tcr-structure",
+      "tcell-family"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-structure",
+      "tcell-family"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:06",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "837da4f6e444c862e65bf8443ff937761e234ddf9c75ce985109d269ccb10bcc",
+    "requirementIds": [
+      "coreceptor-identity",
+      "state-history",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "state-history",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:07",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "52ca769153cb245a5e7394de8b5b072964249e1c6bb68e17923b3533de3d2da0",
+    "requirementIds": [
+      "priming-signals",
+      "state-history",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "priming-signals",
+      "state-history",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:08",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "cf6d5d4291966b93c8f60f90b7273aec8e1c5cc3d95406dc488516aa1481b7ce",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:09",
+    "page": "t-cell",
+    "section": "## How it works",
+    "sourceBlockSha256": "4df1faa55fb7a2cdb366c9c1ebc810f8165e978e84defe9e222cb847ffbabaa4",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:10",
+    "page": "t-cell",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "c563e7ba1747a425d455fb17fd4efd911a9b444af1d3b83e4426b408537c5f5f",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:11",
+    "page": "t-cell",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "0f84e96db524ec657ae945b02a616f0c5384be93965f504e5c93474892fe105e",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:12",
+    "page": "t-cell",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "1d32262dd4dc2c0f5e7e6ad254c7acb2cd5efb3d1e187fea033d3b05ca87e5c0",
+    "requirementIds": [
+      "coreceptor-identity",
+      "state-function",
+      "tcell-family",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "coreceptor-identity",
+      "state-function",
+      "tcell-family",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:13",
+    "page": "t-cell",
+    "section": "## Try it",
+    "sourceBlockSha256": "8f626b078e55ac0e16c1a9923502202e5f2cde8ccc722407500f5c4ebcc78936",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:14",
+    "page": "t-cell",
+    "section": "## Try it",
+    "sourceBlockSha256": "a50d342ab09826be23f1860667370f94fbf30113da4e97dbd7df5864299a9870",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:15",
+    "page": "t-cell",
+    "section": "## Explain it back",
+    "sourceBlockSha256": "6865ab3bb68e3cfb01404a44d58fea4bf233d8de42a5d1dbc7de76f03bbaa825",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "t-cell:source:16",
+    "page": "t-cell",
+    "section": "## Takeaway",
+    "sourceBlockSha256": "40c759843f6a4f2d070fb9d3f10b17284cc1cca64157cffe30faa9f740f4a6d3",
+    "requirementIds": [
+      "state-function",
+      "tcell-measurement"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-function",
+      "tcell-measurement"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:01",
+    "page": "thymic-output-and-aging",
+    "section": "## In one sentence",
+    "sourceBlockSha256": "e077d4ab4ebc55cc32084096f5df48b5d020d8da9fc56ce54da905b6f05cda27",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:02",
+    "page": "thymic-output-and-aging",
+    "section": "## The intuition",
+    "sourceBlockSha256": "aca26c7fb15a59e13fcf53d7399148ae2b06729b352c22a691165ce4a36eae72",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:03",
+    "page": "thymic-output-and-aging",
+    "section": "## The intuition",
+    "sourceBlockSha256": "e16b6e5e02f753b728996da81b644d69ccd24130b52433cc0b489569fe963c14",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "analogy wrapper",
+        "disposition": "excluded from literal biological claims; underlying mechanism mapped to listed requirements"
+      }
+    ],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:04",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "1c2cc1d40f672e83ffbafa1828fb1598941a6566d34c33cf9b8ececa25251349",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:05",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "213cd0b90c6a918a789d7ea381284cbb15e34ef214de71fa6ba3dfdcfce64bfc",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:06",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "760233e3881c087404d6370b9a5d354b46c468bad962b8f741f35fcb332996b8",
+    "requirementIds": [
+      "thymus-maintenance"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:07",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "dc596c5299e8554a9c1b63ea21d58f9b66c16e0acd599c2af02a4725f41ea526",
+    "requirementIds": [
+      "state-history",
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "state-history",
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:08",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "93e75dbfa11621a5842ed63e638e975b454cd103b1473c58fed7d873809a8541",
+    "requirementIds": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source diagram code",
+        "disposition": "read in context; diagram lesson retained in mapped text; no copied diagram required"
+      }
+    ],
+    "proofRequirements": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:09",
+    "page": "thymic-output-and-aging",
+    "section": "## How it works",
+    "sourceBlockSha256": "2b99c06d4db7335a8aacd954caa1138ed0a58573299d681c30f8005d28a9bba1",
+    "requirementIds": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:10",
+    "page": "thymic-output-and-aging",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "c4529631440e5d06f30fbcd225a1e5c26615aaec2279bd7d96ea49374379152f",
+    "requirementIds": [
+      "repertoire-sampling",
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "repertoire-sampling",
+      "thymus-maintenance",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:11",
+    "page": "thymic-output-and-aging",
+    "section": "## Why it matters in cancer",
+    "sourceBlockSha256": "46f78b9ba616c677aa29819da9b52515332ffef93ed39f6abd6bd708dd533a6f",
+    "requirementIds": [
+      "tcr-intervention",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "tcr-intervention",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:12",
+    "page": "thymic-output-and-aging",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "09163b9e5c820bc6bb9f76d2a3dbce4e116284c1b5ebd7c80d879cd41caba4d7",
+    "requirementIds": [
+      "trec-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [
+      {
+        "type": "source artwork",
+        "disposition": "reviewed privately; not copied to public Git; figure lesson mapped below"
+      }
+    ],
+    "proofRequirements": [
+      "trec-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:13",
+    "page": "thymic-output-and-aging",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "5f5a44a5f3924c1af6264358252c9e560c8cd0298598b877edc154cad8d5843f",
+    "requirementIds": [
+      "trec-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "trec-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:14",
+    "page": "thymic-output-and-aging",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "5bf1cb37ea8a33ec7fd452a100d67c614ebb1c097804f8802b169af2995bba89",
+    "requirementIds": [
+      "trec-denominator"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "trec-denominator"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:15",
+    "page": "thymic-output-and-aging",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "c734cd945851d0f82f0bfab588f455adea5af2bf83343d6fae509260d023dd80",
+    "requirementIds": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:16",
+    "page": "thymic-output-and-aging",
+    "section": "## How it is measured",
+    "sourceBlockSha256": "a77fd550b2e1c63c923ac39c3db0a22102d2bacc0e6e10fca6babbc9f9781924",
+    "requirementIds": [
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:17",
+    "page": "thymic-output-and-aging",
+    "section": "## Common confusions",
+    "sourceBlockSha256": "0b4043dcdabb9940e04d8e5b8c34067ee24ee910e16f901f0afee352712b4d0d",
+    "requirementIds": [
+      "thymus-maintenance",
+      "trec-denominator",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "thymus-maintenance",
+      "trec-denominator",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:18",
+    "page": "thymic-output-and-aging",
+    "section": "## Try it",
+    "sourceBlockSha256": "ab3292017de66c64333e7dd0a91215b8ce536b6cbbf4e763e9f58e4f964b6422",
+    "requirementIds": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ]
+  },
+  {
+    "initialBlockId": "thymic-output-and-aging:source:19",
+    "page": "thymic-output-and-aging",
+    "section": "## Try it",
+    "sourceBlockSha256": "9e43c02919975804e74747fdd38f37d65432e003dbf9e579c94d71ba0bec6014",
+    "requirementIds": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ],
+    "disposition": "assessed; represented by shared concept requirements",
+    "componentExclusions": [],
+    "proofRequirements": [
+      "trec-denominator",
+      "thymus-interpretation"
+    ]
+  }
+]

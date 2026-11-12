@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-11-09",
+  "knowledgeGraphOwners": 180,
+  "newGraphEntities": 40,
+  "newGraphEntityKinds": {
+    "term": 31,
+    "paper": 5,
+    "trial": 4
+  },
+  "existingGraphOwners": 140,
+  "thisCheckpoint": {
+    "newOwners": [
+      "chain-of-identity-and-custody",
+      "ex-vivo-cell-expansion",
+      "cell-manufacturing-outcomes"
+    ],
+    "existingOwners": [
+      "allogeneic-cell-therapy",
+      "apheresis",
+      "cell-therapy-cold-chain",
+      "cell-therapy-orchestration-software",
+      "car-t-manufacturing-process",
+      "in-vivo-car-t"
+    ],
+    "separatelyOwnedFollowup": {
+      "pr": 373,
+      "head": "1329c14243c52b30fab3459bb0c68eadb63bdd8b",
+      "owners": [
+        "cell-therapy-release-testing",
+        "vein-to-vein-time"
+      ]
+    },
+    "markdownSourcesPerPin": 9,
+    "newLearningRequirementsPerPin": 42,
+    "figuresPerPin": 16
+  },
+  "nonGraphConsumers": {
+    "directory": 1,
+    "summaryEntries": 72,
+    "summaryTextAvailable": 65,
+    "explicitEnglishFallbacks": 7,
+    "summaryEntriesChangedIn375": 47,
+    "additionalInlineChineseExportChanged": 1
+  },
+  "sourceVersions": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 94,
+        "implementedCoverage": 89,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 441,
+        "unresolvedSources": 441,
+        "adjacentConcepts": 23,
+        "unresolvedAdjacentConcepts": 1,
+        "openSchemaGaps": 5,
+        "unreviewedLiteratureOccurrences": 108,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 391,
+      "evidencedRequirements": 383,
+      "openRequirements": 8
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 0,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 86,
+        "implementedCoverage": 85,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 460,
+        "unresolvedSources": 465,
+        "adjacentConcepts": 23,
+        "unresolvedAdjacentConcepts": 1,
+        "openSchemaGaps": 5,
+        "unreviewedLiteratureOccurrences": 108,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 371,
+      "evidencedRequirements": 370,
+      "openRequirements": 1
+    }
+  ],
+  "adjacent": {
+    "total": 23,
+    "represented": 22,
+    "open": 1
+  },
+  "literature": {
+    "totalOccurrences": 313,
+    "screened": 205,
+    "unreviewed": 108
+  },
+  "schemaFindingsOpen": 5,
+  "completeFinalReaudits": 0,
+  "state": "Active goal. Drafts are not merged/public coverage. No complete census review, expert sign-off or deployment is claimed.",
+  "sourceAssetPhases": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "total": 1888,
+      "reviewedTeaching": 19,
+      "unclassified": 1869
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "total": 1888,
+      "reviewedTeaching": 19,
+      "unclassified": 1869
+    }
+  ]
+}

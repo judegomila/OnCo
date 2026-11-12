@@ -1,0 +1,1545 @@
+{
+  "version": "proposal-effect-summary-consumers",
+  "state": "Actual selected short-summary entries; existing labels retained and no new language approval claimed.",
+  "records": [
+    {
+      "id": "lead-time-bias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ar)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (ar)",
+      "canonicalRecordId": "efs",
+      "language": "ar",
+      "available": true,
+      "text": "في السرطان في مراحله المبكرة: المدة التي يبقى فيها المرضى دون انتكاس أو تقدم للمرض أو وفاة."
+    },
+    {
+      "id": "hazard-ratio-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (ar)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (ar)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ar",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ar)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-ar",
+      "kind": "reader-summary-entry",
+      "name": "P-value (ar)",
+      "canonicalRecordId": "p-value",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-ar",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (ar)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-ar",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (ar)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (ar)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-ar",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (ar)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ar)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ar)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ar",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ar)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ar)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-de",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (de)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-de",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (de)",
+      "canonicalRecordId": "efs",
+      "language": "de",
+      "available": true,
+      "text": "Bei Krebs im Frühstadium: wie lange Patienten ohne Rückfall, Fortschreiten der Erkrankung oder Tod bleiben."
+    },
+    {
+      "id": "hazard-ratio-de",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (de)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (de)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-de",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (de)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-de",
+      "kind": "reader-summary-entry",
+      "name": "P-value (de)",
+      "canonicalRecordId": "p-value",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-de",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (de)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-de",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (de)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-de",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (de)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-de",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (de)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-de",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (de)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-de",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (de)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-de",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (de)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (de)",
+      "canonicalRecordId": "graph-reading",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-es",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (es)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-es",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (es)",
+      "canonicalRecordId": "efs",
+      "language": "es",
+      "available": true,
+      "text": "En cáncer temprano: cuánto tiempo permanecen los pacientes libres de recaída, progresión o muerte."
+    },
+    {
+      "id": "hazard-ratio-es",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (es)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (es)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-es",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (es)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-es",
+      "kind": "reader-summary-entry",
+      "name": "P-value (es)",
+      "canonicalRecordId": "p-value",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-es",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (es)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-es",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (es)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-es",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (es)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-es",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (es)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-es",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (es)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-es",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (es)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-es",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (es)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (es)",
+      "canonicalRecordId": "graph-reading",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (fr)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (fr)",
+      "canonicalRecordId": "efs",
+      "language": "fr",
+      "available": true,
+      "text": "Dans le cancer à un stade précoce : combien de temps les patients restent sans récidive, sans progression ni décès."
+    },
+    {
+      "id": "hazard-ratio-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (fr)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (fr)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-fr",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (fr)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-fr",
+      "kind": "reader-summary-entry",
+      "name": "P-value (fr)",
+      "canonicalRecordId": "p-value",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-fr",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (fr)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-fr",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (fr)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (fr)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-fr",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (fr)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (fr)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (fr)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-fr",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (fr)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (fr)",
+      "canonicalRecordId": "graph-reading",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (hi)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (hi)",
+      "canonicalRecordId": "efs",
+      "language": "hi",
+      "available": true,
+      "text": "प्रारंभिक कैंसर में: मरीज़ कितनी देर पुनरावृत्ति, प्रगति या मृत्यु से मुक्त रहते हैं।"
+    },
+    {
+      "id": "hazard-ratio-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (hi)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (hi)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-hi",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (hi)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-hi",
+      "kind": "reader-summary-entry",
+      "name": "P-value (hi)",
+      "canonicalRecordId": "p-value",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-hi",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (hi)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-hi",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (hi)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (hi)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-hi",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (hi)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (hi)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (hi)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-hi",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (hi)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (hi)",
+      "canonicalRecordId": "graph-reading",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ja)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (ja)",
+      "canonicalRecordId": "efs",
+      "language": "ja",
+      "available": true,
+      "text": "早期がんにおいて、患者が再発や進行、死亡なしに過ごせる期間のこと。"
+    },
+    {
+      "id": "hazard-ratio-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (ja)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (ja)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ja",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ja)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-ja",
+      "kind": "reader-summary-entry",
+      "name": "P-value (ja)",
+      "canonicalRecordId": "p-value",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-ja",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (ja)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-ja",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (ja)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (ja)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-ja",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (ja)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ja)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ja)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ja",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ja)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ja)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (pt)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (pt)",
+      "canonicalRecordId": "efs",
+      "language": "pt",
+      "available": true,
+      "text": "No câncer inicial: quanto tempo os pacientes permanecem livres de recorrência, progressão ou morte."
+    },
+    {
+      "id": "hazard-ratio-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (pt)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (pt)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-pt",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (pt)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-pt",
+      "kind": "reader-summary-entry",
+      "name": "P-value (pt)",
+      "canonicalRecordId": "p-value",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-pt",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (pt)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-pt",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (pt)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (pt)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-pt",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (pt)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (pt)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (pt)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-pt",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (pt)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (pt)",
+      "canonicalRecordId": "graph-reading",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (zh)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (zh)",
+      "canonicalRecordId": "efs",
+      "language": "zh",
+      "available": true,
+      "text": "在早期癌症中：患者保持无复发、无进展、无死亡的时间。"
+    },
+    {
+      "id": "hazard-ratio-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (zh)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (zh)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-zh",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (zh)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-zh",
+      "kind": "reader-summary-entry",
+      "name": "P-value (zh)",
+      "canonicalRecordId": "p-value",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-zh",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (zh)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "zh",
+      "available": true,
+      "text": "Kaplan-Meier 曲线显示在每个时间点仍然存活（或仍未进展）的患者比例；每发生一次事件曲线就下降一个台阶，并利用所有人的随访时间，即使他们尚未发生事件。"
+    },
+    {
+      "id": "absolute-benefit-zh",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (zh)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "zh",
+      "available": true,
+      "text": "相对获益说风险下降了三分之一；绝对获益说每 100 人中实际有多少人免于不良结局，这取决于该事件原本有多常见，也是判断治疗是否值得其副作用的关键数字。"
+    },
+    {
+      "id": "surrogate-validation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (zh)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "zh",
+      "available": true,
+      "text": "替代终点只有在试验证明“它的变化会带来真正重要结局的变化”时才值得信任，且需针对该疾病和该类药物；有些替代终点通过了检验，有些没有，各终点的记录各不相同。"
+    },
+    {
+      "id": "odds-ratio-zh",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (zh)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (zh)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (zh)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-zh",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (zh)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (zh)",
+      "canonicalRecordId": "graph-reading",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (simple)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (simple)",
+      "canonicalRecordId": "efs",
+      "language": "simple",
+      "available": true,
+      "text": "In early cancer, how long patients stay free of the cancer coming back."
+    },
+    {
+      "id": "hazard-ratio-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (simple)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (simple)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-simple",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (simple)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-simple",
+      "kind": "reader-summary-entry",
+      "name": "P-value (simple)",
+      "canonicalRecordId": "p-value",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-simple",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (simple)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "simple",
+      "available": true,
+      "text": "A Kaplan-Meier curve shows the share of patients still alive or free of progression at each point in time, stepping down each time an event happens."
+    },
+    {
+      "id": "absolute-benefit-simple",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (simple)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "simple",
+      "available": true,
+      "text": "A relative benefit says the risk fell by a third, while an absolute benefit says how many people out of 100 were actually spared, which is the number that matters when weighing side effects."
+    },
+    {
+      "id": "surrogate-validation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (simple)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "simple",
+      "available": true,
+      "text": "A surrogate endpoint only deserves trust if trials have shown that moving it also moves the outcome that matters, and the record differs from one endpoint to the next."
+    },
+    {
+      "id": "odds-ratio-simple",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (simple)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (simple)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (simple)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-simple",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (simple)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (simple)",
+      "canonicalRecordId": "graph-reading",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (ar)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (ar)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-ar",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (ar)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (ar)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (de)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (de)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-de",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (de)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-de",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (de)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (es)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (es)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-es",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (es)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-es",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (es)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (fr)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (fr)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-fr",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (fr)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (fr)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (hi)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (hi)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-hi",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (hi)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (hi)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (ja)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (ja)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-ja",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (ja)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (ja)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (pt)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (pt)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-pt",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (pt)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (pt)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (zh)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (zh)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-zh",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (zh)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (zh)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (simple)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (simple)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-simple",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (simple)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (simple)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (ar)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-de",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (de)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-es",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (es)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (fr)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (hi)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (ja)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (pt)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (zh)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (simple)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

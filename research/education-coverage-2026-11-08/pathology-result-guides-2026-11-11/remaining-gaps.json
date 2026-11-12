@@ -1,0 +1,53 @@
+{
+  "unrepresentedGuideRequirements": [],
+  "unreadCorrectionNotices": {
+    "id": "pathology-guide-linked-errata-review",
+    "title": "Read the linked CTNeoBC and NRG-BR005 errata at primary-text depth",
+    "domain": "pathology-and-response-evidence",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+      "https://pubmed.ncbi.nlm.nih.gov/40332918/"
+    ],
+    "discoveryOccurrences": [
+      "pathology-result-guides:CTNeoBC MED correction link, PMID 30860051",
+      "pathology-result-guides:NRG-BR005 MED correction link, PMID 40465236"
+    ],
+    "review": {
+      "status": "unreviewed",
+      "points": [],
+      "rationale": "Correction identities/links were found, but their bodies were not read. No scope is guessed and no new CTNeoBC or NRG numerical claim is adopted. Read the actual correction notices before independently recertifying the retained numerical catalogue passages; this is separate from the scoped guide definitions and qualitative biopsy limit."
+    }
+  },
+  "sourceDepthLimits": "Only selected teaching clauses are assessed. Full-field hashes do not recertify retained WHO, NICE, other trials, jurisdictions, prevalence estimates, monitoring advice or catalogue claims elsewhere in the selected owners.",
+  "failedAndNonContentCaptures": [
+    {
+      "sourceId": "18",
+      "reason": "CAP documents host DNS failure; official current www.cap.org capture 27 succeeded"
+    },
+    {
+      "sourceId": "20",
+      "reason": "DailyMed service URL redirected to home page, not label; capture 28 contains the real label"
+    },
+    {
+      "sourceIds": [
+        "25",
+        "26",
+        "31",
+        "33"
+      ],
+      "reason": "EPMC XML HTTP 500 or NCBI 429; failures preserved. Targeted full text came from successful NCBI 29/30/32 and PMC HTML 35."
+    },
+    {
+      "sourceId": "34",
+      "reason": "Historical XML contains metadata and abstract only, no body; not credited as full text."
+    }
+  ],
+  "broaderAuditComplete": false,
+  "limits": [
+    "Zero whole original papers read in this cohort.",
+    "No full Next production build or deployment.",
+    "No new independent expert, learner, owner or language approval.",
+    "Guide figures/diagrams viewed in isolated Chrome renders, not the live Guide site.",
+    "Provenance generator and historical owner-hash claims are not independently authenticated."
+  ]
+}

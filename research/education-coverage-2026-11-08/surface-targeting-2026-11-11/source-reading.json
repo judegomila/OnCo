@@ -1,0 +1,2773 @@
+{
+  "documents": [
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "title": "Separate the address from the killing mechanism",
+      "sourceSha256": "08687df0227528b74ed18790807c23cd06ffa788720c6c5e6562d5eee461cba7",
+      "gitBlob": "486929d28295e19e8090b199b79615724a158a84",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0c4a0284905f306a3c034e3b8364c5cf257e0e8fa731252d56ee4240aa733b3f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "caed4e33eb0b856764d49dae87836160eb8db19cffdafc977e51be9485297578"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8b78123260f0d5214491435d63261a7ee338ab53b7f4804d0d90c8c2b5a2932c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d8ef4874e98f197a2356ea848c83afbf199c3294e56b6fee21df75095541d932"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9710e9e29f6cafaba56b9b92baab4c1989b5d14caf200fa6726d7addf3ac7392"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "58979eb24858376f0a2b7a90e2781813f1dcf5688e5635a5c3ca455b9b31f690"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "1cbcfe0b4a45e506bc2565c1287abccf2d98cfbdf6ca46138b3fe4c765f170ae"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "fa8beb6e397927994b947ad951edbcd63405a4b7413bd0c98fbb80c62159cee6"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "36774f408539617c2c5fceb3ca2abdfb01fbf58c5c654f643910ba667a69bd2c"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "6ed3c91222b4cc76816342e173ab2f615cce5fc6a1d3d77a2cdc60e21bc03191"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ca56036435dbd8cf48d64d3b09e4e4f755f9a46069928f89102e962cfd7dbe40"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "title": "Follow delivery, exposure, and the treatment clock",
+      "sourceSha256": "72e9f3e3ff3f882e59c739867d3e2e90d4fd91b3e3ee64babe9f36361fb3437b",
+      "gitBlob": "52cfcbaeec2fb3cf608ad3acf50658e987f1deb0",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "037b1a549972be209369b43759d92455a167799923708c82a5480159abd7cf97"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d33f93679a44465e53ffe08612399c4b561144e24ece0161e9d6990a2c83e90c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ea6e149b50c7adb6fd63bc5ae87820fe457f484441c95aeb0de55cce5787858e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "practice-or-worked-example",
+          "sha256": "d217a5894a814557dd1a75fbbcafa1149cec56c827a0013bac28d1ab0ca610a0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ca2f56b0a3c502c5193522fd2dc3fcc485cc9d3bbd15dacab2ceae5373e6cc05"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "3062697f475cd9859d4a61aed6bb7b182107c297572a6d760b4a057e09a390e1"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "47be2f00796e81f024d6bd37fcd929cc60bc469ae9aba6aa499ffa8d80105fe5"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "55b999442f9ef480e3138e71dcc242ac61047cfa21309c66ee896727849eb636"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "4428419cce9db68984866d499c4f7349b49e8b12509338c698368a267e2464b8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "2d444a26ba0b2dc904cade7bbc14ab41d5ee969eda6969c26ee4d891912699a7"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "title": "Compare formats with evidence and normal-tissue risk",
+      "sourceSha256": "a27063d8207980e78d30ac934d1e7af695910ac2dd5fb0010eb8e9ee884a2e7d",
+      "gitBlob": "5f9333f9bbd6602ea0163c73fdb7a3adc43e5b85",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f240ee6b5ffbcd98aaa0498028b48d2341cb9495e5ef27fcff48a6733cab1bb5"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ebe16ad774ec177a2cc9fb45608dd3df182908aa06ecebd14c9f4fc6ad105c85"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8ad2275821340bf53f5e793a33a16fc6bcbd2fae82f3c146d916d018d9c5a453"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5704bc08c2e976d14e2bff2d6e4749219b317d4882da1f93a28ae3b5cbd35b47"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e826476efd03a965391e062bc20b8f814149861a4be19d52d62588ceee3ba8e4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "6f188f4444c685f6760f162fbbaf7798d4071369c29d583918649c55f90502de"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "9d53f17cb27e049eabf97613b3e699dc1489b7118ac3e8516fdef66b7ce3bbf4"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "5443d94a018127b5677a3f460203034bd03771d34a4983dc3774c21bd643de14"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a4d53ac54492bee472dff7e2e202a92cb778cbd40f9a17061ce74224a21f2f14"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "7d6eb55cb06a431cfaa3c8a14ecb48f1caefe8cfe92d241b75ef08c115be500c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c2e3d43be524a52e4243b6ac13c0a3c3f72c2d0b667d696ba6793f36572cebbf"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "29367b3e5a5f6788135bb0116faade1b7dfa45af0c41d2aeb7dc7e432be6f484"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "title": "Match the payload to the failure",
+      "sourceSha256": "c624301aa7c2859c6ec20e11ea9ccea516ff9854b83c84676ac746df051b3568",
+      "gitBlob": "2747a936ff096e79dab2f20f69ba5c1fb6399962",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "8b5ca2b2602d9c6322ed02b0cc06e2ac5589784606cda72d4ac1e8b3babe9bde"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a015193ec7028b03bb1cdbb2ec04c76f1c2e7857196843220baba768070f369f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7b2edceccd08e18623824fcdce9a4cc2b62f77ce4bb70b8b71c454c45bff67e9"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "fa0e98abf085accad9672677f58c05a2123d5290c491770d08db5e1e4f9c5776"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "5b290e9eaf93b22d49fe6a9784e1380d17fc1d66340e90bd318ddf339e0b9674"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "ffd7c239324dcd746832fe2e41e314548d7808119f009dbdad16ba98d7686c6e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4e3dc74a3ebfa4c2f0d98e9f65d8746f40cef6ea4715f1ae5c95dd383aa50681"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "6e9b35513d275ca79e640bb96ea6947925e2a1a52dbf972f13a1ec8ea12ea9f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e522d9f738f45e9d31544adb83a253e8f13f7e6cd9a013f58c6e9d41e42efe2"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "5ce9987de665686fa398b4d01b1bd36bbf6d43c64ac4b63ffa0f6b1806848a4a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b7739b73706317719f981044602bafda6c83d667b5aa242ce71fde29ec8b0311"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "title": "Match the payload to the failure",
+      "sourceSha256": "f4e9d663c1117709692c7efa9342ca0b5df56e5d81a5c8bf16ee1c43b1ae9e22",
+      "gitBlob": "07d0f84606325c9280e36ff906dbeeb82c48c4fb",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "8b5ca2b2602d9c6322ed02b0cc06e2ac5589784606cda72d4ac1e8b3babe9bde"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "259b5259e0d987f574cbf2cf63edc38bffcacce7c9709187afc09b6c03d468da"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7b2edceccd08e18623824fcdce9a4cc2b62f77ce4bb70b8b71c454c45bff67e9"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "fa0e98abf085accad9672677f58c05a2123d5290c491770d08db5e1e4f9c5776"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "5b290e9eaf93b22d49fe6a9784e1380d17fc1d66340e90bd318ddf339e0b9674"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "ffd7c239324dcd746832fe2e41e314548d7808119f009dbdad16ba98d7686c6e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4e3dc74a3ebfa4c2f0d98e9f65d8746f40cef6ea4715f1ae5c95dd383aa50681"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "6e9b35513d275ca79e640bb96ea6947925e2a1a52dbf972f13a1ec8ea12ea9f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e522d9f738f45e9d31544adb83a253e8f13f7e6cd9a013f58c6e9d41e42efe2"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "5ce9987de665686fa398b4d01b1bd36bbf6d43c64ac4b63ffa0f6b1806848a4a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b7739b73706317719f981044602bafda6c83d667b5aa242ce71fde29ec8b0311"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "title": "Read a new payload strategy",
+      "sourceSha256": "7c6bea79bc9837fa20ddf7b3c71c05de110eb8dc1a8595fae50ec0a3a9d41b41",
+      "gitBlob": "5ca8109f5f70dc95a121efdc59f717e2b9162afe",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e580cd5117f9dc0a172569b5ac8c627ee98f0acda2eecc94c9a631b9d3194c56"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8cca41ca85afd8f62e58ad4f42f7fcf3c9ae7f27765bba4151e1092d9bb6b9f1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6465a80b654ef2cc1844ed6247ad00fab827e466960e61aa016df1b47c439c6c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "61ad623d5070c3b5cf4c75d5aac54cf625cf85f7b71ffdfbbe3a285a0aa35ae6"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "867ddd4655332e9ca48a90bd01c2d053f46afbc63b83be290fce71fbf025f710"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b46e8ba146fbeac3efcfe64b11ed1e3d673fc412ded5b7b72376217f8602c8dd"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d7e7dbc5d6c6d43a3513c17188c48f6bdef28b693108af399fdf52fc0c6b554"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd9456d6c12b23644408f863c74384dd1c29db7be24cde86e0d4bd60b7b530f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "82982e72dc7816a1b3f22b23ea1df9ba69ca9dca2242ac3f2dccba7c688ec59d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "4bbebbee2f6fdb5c2ddfb950bf19cc321510b0e88dd6b02fe416e0d1c824178b"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "title": "Read a new payload strategy",
+      "sourceSha256": "64d07ccf099ac931b6c8834bbf37dce23f6d5593cce7d7b6101306a070b3bd16",
+      "gitBlob": "22ec2aac67e7a839e69206b241df6b19d52da775",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e580cd5117f9dc0a172569b5ac8c627ee98f0acda2eecc94c9a631b9d3194c56"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b3c39666965e6ef5e454f1cf9f11d2004b1d6ba4104abc198cd883c09c265d01"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6465a80b654ef2cc1844ed6247ad00fab827e466960e61aa016df1b47c439c6c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "61ad623d5070c3b5cf4c75d5aac54cf625cf85f7b71ffdfbbe3a285a0aa35ae6"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "867ddd4655332e9ca48a90bd01c2d053f46afbc63b83be290fce71fbf025f710"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b46e8ba146fbeac3efcfe64b11ed1e3d673fc412ded5b7b72376217f8602c8dd"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d7e7dbc5d6c6d43a3513c17188c48f6bdef28b693108af399fdf52fc0c6b554"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd9456d6c12b23644408f863c74384dd1c29db7be24cde86e0d4bd60b7b530f4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "a57f84b083c1939e940976d72f81e5ed7d4bece83f4bbc825c804ee580af2d12"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "4bbebbee2f6fdb5c2ddfb950bf19cc321510b0e88dd6b02fe416e0d1c824178b"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "title": "Choose a target worth aiming at",
+      "sourceSha256": "314ffa8da5adcba2879701b810feeff57dc667ccadaf77c10fdd97cd8e3a9393",
+      "gitBlob": "d0f1eb1aabe9d03e6668fddacdab17ad83e17702",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "69e8ecf45214a174c0c57787570a002b59dd7c9e61711cb5cfe3bb55f3bcb678"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f1a9b9231d6156cbf5e7ba6f2f43664a740f55c198eece7bbff142b9c43879a8"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "631ae1a648494bd39d91762e8845f70aa98726b4053c0e0898eb0d3020c0ce1a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4f39d52c8a3a872784777c001fd0dbaceff9eea41cebd08e063fc926658f09d3"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7fa1b0f5f9039c91a90f05f160c4294085410359de6237173862bb4addcbce97"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "f87319153ba710c5de7a5d779706943cb3229cf09912b1b3704d4cabac2f21dd"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "0b5f70a422aa04db93860387b2f24281c5a4a60af487144b8d4704f6c6fe477a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "c760686c4cea3485fa6e4d16eacbeea60618e09af2e14a8b5bc2ccca6bff5d4a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "b2f78bd6701d25de9bc386b397c930d0c122201b5c5c540345153f88f737b43f"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "title": "Aiming a drug at a surface target",
+      "sourceSha256": "6a473417651ddf64ed6d28744025378732756ebfa5d7c45aff0b33f51a6d79db",
+      "gitBlob": "8ac3d889e965216470be4cffdac1b9ae03dc66a3",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a382190b89ef8f27172115b9b0128b9b2021ff0e0a4670194b8143cff78f8000"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "df919f649b0267a01a5ea9ff3c215deb6781022a6eba1bd79a63c48caca7943f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "82664e63c4f05d9e0bbd0e1dc2fa23d85f761578a5b0dabbd9ad90a0782b08ef"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "723f1247e7a0b1ee97f3940bda130f6e2e371717cf173bb4be899ab3d02f4bb9"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d4de10d141bc7ee26f1bff2b887f69f4bacb22649da7b781e46d19cabf38f0c0"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "148518bf271436d92e1127c8e4bdebdcd8944442c1897cf3f27f5024dc6a37d0"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "1b7aec6afb8f966af34c3f0de4c2a4f7ca5fdf79f3dc0844aa84cfa7059530b3"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "5cd5ab6eb94226558532029e0d69577c2647d86c87aea240521dba1bb7d5e85e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "65f95335c19b792e6519566779841f3140be90ce71645e76e128c465adc6ae51"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "title": "Aiming a drug at a surface target",
+      "sourceSha256": "370f927556ddb3b631421a736a3316a2bec0e075b450996971716fe2443fc923",
+      "gitBlob": "b917b3ac46dfef439df490a541e84d9e2505b50a",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ec075c6f2cca91e6cf8f5ba46b8078ff3477e7dd498d26ba67e2a4350c2a8568"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "760caa3547965b84aa2041547676f8a05a853275aac898532960ae0064edb5e0"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "18fbeb64c319ce6eb0b33822a23e4beffa25f44e62259e4f61e089120eafbbf2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "072ebc9af5bdd45a356e5165b014ee82632e31a5e21ebf012c15f9ba38a42b13"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8659922cc8dbe3a43d8d75f157483b4ab4cb9700b149a7288cba0a80029fa3a1"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "d17890bf4b9c147bccbed8d2db84255c1b8f555feff80c59f4d417a8d665ce3f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "5497c38fb09b6e8693616dd3cddb6f1cafedb94e062f38db90e75c5925dc1deb"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "5cd5ab6eb94226558532029e0d69577c2647d86c87aea240521dba1bb7d5e85e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "5d6ed3a4e0425dd50b268a1ad1883f6eda7d58d2da9ac330de0fce733f779824"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "laterPath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "title": "Separate the address from the killing mechanism",
+      "sourceSha256": "4929dbecbb400a6ec26e76d0f2cf573fa18c4579a8905bd87b87523bc1351935",
+      "gitBlob": "be7c372c9ce49a0292b613017b3b6c953bb5f768",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "83b10fd81234cb242aecf67c7bcc87d032415a1045f6695e2215a2e3fa7c17c6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "64f34714d589c1dbbb7d7e864df2180cd0cd1145455580f30095d2853017d24c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5a7eab3347d5c04307a498813ee04cf2bb0d8a8ed5caca53197175ea15bb2ced"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "619fb71302d8985d6eb7a00954d23bf97cfeceb2fdc5e704396425b3810b3937"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "7830d646545131c684b1b092d8dfc5f3574b4ac77a8b7b90c26f06bd31c60ac9"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "24716b0bdc6f123c183cbb604b71065730c4a7770f77ed5741f734413d542ebb"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "cba5d96ce57433cb054389699c82b48d374325ccf8978d8df9596fbc659b5992"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8f791af0f74b7051e4ae655df9bacef21cb3d8e386d2854ae1466be35f914708"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "f062b8257305fe5cab08cf8bce4cbae692baaab4ef0c202ca277bb64a9938d12"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "803e2d4d4fada094238832d9048145219697ce3446d25d07e14dcdc7bdf43e5a"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "laterPath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "title": "Follow delivery, exposure, and the treatment clock",
+      "sourceSha256": "2786cc883a51ba9d9acb86efa3e9d5210a9841e4ec62fbfc264c357e80c76978",
+      "gitBlob": "bff9a0771796a8ce0cd402138f3a96aeac14f368",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42b1faa3aa9aed60c0aed568627f15f834d82f1f33aaceaabc2d48ca7b1801ec"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2cf1da78f1f97bff58431ca0328c79acf2674cab69bccd96ae0283b479469113"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0527b9762c8457daed5cde4fa5d9d3f58cd7dd81ef099fc51909c2c539f7feff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "practice-or-worked-example",
+          "sha256": "5d3a1f081eb1b22adbc186e2fcb736e91adf34a3f6054b195e1c22949bd5ce61"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "035f3f9a6bf2b14f3a96c5ec58ba3742e4fc544a18284f32bb89c4f395a5bb6e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "418a3ef89f7a17db264f6841d0d2a5db7608ac9bcde49cf4d289f6ad396f43ff"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "762b1d8a10d4fb0a5fc4a8e9d1e23416ef1ee21ca22eab1087daeb0231957eeb"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "b5df7f333be7fe7e4173629245dc96f1ab5e451e74e9edb3d6400cf78175bb7d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b230df3c57aa3d9f74d35622f0b8acc9a12311e05956440e0c85186762b01093"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2a9a71781226cc01b693671398f754910ffe15787dd394457a0f0a15151cfa37"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "49cd0d901573031e2cc36aa982a5723496502dda6cae09c929c71f8b6303836c"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "laterPath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "title": "Compare formats with evidence and normal-tissue risk",
+      "sourceSha256": "49064aed1f416507a010ca61f4f7eeeab33fe916ac75e45b4fc95a07e797df56",
+      "gitBlob": "10a2b458a188853bf0e94db062ec95b7b1bc61cd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ef81e109af5fccb0959f5d0a20cd71834a84ea8e9325729c8b5ea7ac13969f4e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "86599724ad80ed21cd0c303e1548ae683edcb0b4fdbfdf2dafba8cec1521d562"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d1f14cfc5840acfedd5bfcb5e7645cb03c53dadc4466fe35856a124821ba7c22"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "fce9a9f3fb64ee1c1783c6356ff5a653a6e8aeb146ac15646bf3805731b47941"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "97e171ec851c0a97e42d010a8cc411945bd2904f490c298c64fa3c57376dc316"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "f5e8d426d5103a04bd7a295cc4f597a3d5f9580c33b703d47f50bc043baef7da"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "7c242391ae1a560778a9e46b81726fa89890046cb0257b88e5a6770bbe5cdf6e"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "6c0929b4fcaac55b3877371cf6ae2aab784275acc3d1d97782855e31d866276c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "aec3b51855ea2fb7a4b04b42a905f3fc1e7cfae2228a09a5a2385a884b5183f1"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "21e0a5906724758641966cd884e2e0635e0b1abc576006a5c014e6d380d8cb92"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "a8ad8f7bb59c821958ecf131d0cfd296b25e689402fb673d0f62ca6a2b3e68be"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "e4cdc0fcab5b40496e05390acde3e2b3bfa2a8539cc032974eab818c1c38312e"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    }
+  ],
+  "sourceFirstFreeze": {
+    "baseHead": "608c3ed15f2f56c7c2e0b333f5e438a25eaf5884",
+    "freshCandidateFieldsOpened": false,
+    "sourceVersions": 13,
+    "sections": 135,
+    "originalPages": 6,
+    "laterPages": 7,
+    "requirementsByVersion": {
+      "original": {
+        "substantive": 117,
+        "derived-recap": 6,
+        "source-scope": 6
+      },
+      "later": {
+        "substantive": 155,
+        "derived-recap": 7,
+        "source-scope": 7
+      }
+    },
+    "readingProjections": 36,
+    "rawBodiesPublished": false,
+    "receipts": [
+      {
+        "file": "cohort-source-inputs.json",
+        "sha256": "9bd4bd9d52052f0c650a00f007d8645c966bb918a64b6e3191d042d24c81e81d"
+      },
+      {
+        "file": "legacy-counterpart-inputs.json",
+        "sha256": "d0408f9a90a4106decb752a4440257e501a7eb20ab854b95c0e5988a727d9e92"
+      },
+      {
+        "file": "cohort-expanded-source-inputs.json",
+        "sha256": "13420393992cbef91eb7d16de719fe1d191bd65ffcda880fb208005bd90239e9"
+      },
+      {
+        "file": "source-structure.json",
+        "sha256": "031567e44ca20f7dee2e7a9495ff2df052bd8f246875e06c57f14e5e843ae5e5"
+      },
+      {
+        "file": "legacy-source-structure.json",
+        "sha256": "fa28ff57909d8f7e15b111c36927b82c23e064d748998862ee086e61a4ad206e"
+      },
+      {
+        "file": "version-reconciliation.json",
+        "sha256": "5e0db18d1d966de33a364354d260e7bdefdf3a015fbe6c792cbd5312e3fc981e"
+      },
+      {
+        "file": "legacy-version-reconciliation.json",
+        "sha256": "0a315fbcc11b5f16e1bd6095755f3172a1ab2207f56ef85109f1a145276618cb"
+      },
+      {
+        "file": "source-first-learning-requirements.json",
+        "sha256": "9760dc97a184bfca2040ead0d08b991e7d5c767e2e2feb9292846516ae82e21e"
+      },
+      {
+        "file": "source-first-findings.json",
+        "sha256": "aeccb7d3953e9cd554609525e47c69956d1cca8d2fa6854650ac0b65a442b0c0"
+      },
+      {
+        "file": "reading-manifest.json",
+        "sha256": "8e2eb248015341d8b242fccab9e1e48a3932e64b95dbd4683ddfcf4f145c01ff"
+      }
+    ]
+  },
+  "readingScope": "Full general teaching at both pins; relocated and changed original sections separately reconciled. Personal bodies excluded.",
+  "sectionDispositions": [
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "0c4a0284905f306a3c034e3b8364c5cf257e0e8fa731252d56ee4240aa733b3f",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "caed4e33eb0b856764d49dae87836160eb8db19cffdafc977e51be9485297578",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "The address and the action",
+      "sourceSectionSha256": "8b78123260f0d5214491435d63261a7ee338ab53b7f4804d0d90c8c2b5a2932c",
+      "requirementIds": [
+        "ST1-001",
+        "ST1-002",
+        "ST1-003",
+        "ST1-004",
+        "ST1-005"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "How each format actually kills",
+      "sourceSectionSha256": "d8ef4874e98f197a2356ea848c83afbf199c3294e56b6fee21df75095541d932",
+      "requirementIds": [
+        "ST1-019",
+        "ST1-020",
+        "ST1-021",
+        "ST1-022",
+        "ST1-023",
+        "ST1-024",
+        "ST1-025",
+        "ST1-026"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Two kinds of target at the surface",
+      "sourceSectionSha256": "9710e9e29f6cafaba56b9b92baab4c1989b5d14caf200fa6726d7addf3ac7392",
+      "requirementIds": [
+        "ST1-006",
+        "ST1-007",
+        "ST1-008",
+        "ST1-009",
+        "ST1-010"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Worked example: one binder, four proposals",
+      "sourceSectionSha256": "58979eb24858376f0a2b7a90e2781813f1dcf5688e5635a5c3ca455b9b31f690",
+      "requirementIds": [
+        "ST1-011",
+        "ST1-012",
+        "ST1-013",
+        "ST1-014",
+        "ST1-015",
+        "ST1-016"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "1cbcfe0b4a45e506bc2565c1287abccf2d98cfbdf6ca46138b3fe4c765f170ae",
+      "requirementIds": [
+        "ST1-017",
+        "ST1-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "fa8beb6e397927994b947ad951edbcd63405a4b7413bd0c98fbb80c62159cee6",
+      "requirementIds": [
+        "ST1-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "36774f408539617c2c5fceb3ca2abdfb01fbf58c5c654f643910ba667a69bd2c",
+      "requirementIds": [
+        "ST1-028"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "6ed3c91222b4cc76816342e173ab2f615cce5fc6a1d3d77a2cdc60e21bc03191",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "ca56036435dbd8cf48d64d3b09e4e4f755f9a46069928f89102e962cfd7dbe40",
+      "requirementIds": [
+        "ST1-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "037b1a549972be209369b43759d92455a167799923708c82a5480159abd7cf97",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "d33f93679a44465e53ffe08612399c4b561144e24ece0161e9d6990a2c83e90c",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Follow the product through the cell",
+      "sourceSectionSha256": "ea6e149b50c7adb6fd63bc5ae87820fe457f484441c95aeb0de55cce5787858e",
+      "requirementIds": [
+        "ST2-001",
+        "ST2-002",
+        "ST2-003",
+        "ST2-004",
+        "ST2-005",
+        "ST2-006",
+        "ST2-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Worked example: three real exposure curves",
+      "sourceSectionSha256": "d217a5894a814557dd1a75fbbcafa1149cec56c827a0013bac28d1ab0ca610a0",
+      "requirementIds": [
+        "ST2-019",
+        "ST2-020",
+        "ST2-021",
+        "ST2-022",
+        "ST2-023"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Exposure is more than the amount infused",
+      "sourceSectionSha256": "ca2f56b0a3c502c5193522fd2dc3fcc485cc9d3bbd15dacab2ceae5373e6cc05",
+      "requirementIds": [
+        "ST2-008",
+        "ST2-009",
+        "ST2-010",
+        "ST2-011",
+        "ST2-012",
+        "ST2-013",
+        "ST2-014",
+        "ST2-015",
+        "ST2-024"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "3062697f475cd9859d4a61aed6bb7b182107c297572a6d760b4a057e09a390e1",
+      "requirementIds": [
+        "ST2-016",
+        "ST2-017",
+        "ST2-025"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "47be2f00796e81f024d6bd37fcd929cc60bc469ae9aba6aa499ffa8d80105fe5",
+      "requirementIds": [
+        "ST2-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "55b999442f9ef480e3138e71dcc242ac61047cfa21309c66ee896727849eb636",
+      "requirementIds": [
+        "ST2-033"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "4428419cce9db68984866d499c4f7349b49e8b12509338c698368a267e2464b8",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "2d444a26ba0b2dc904cade7bbc14ab41d5ee969eda6969c26ee4d891912699a7",
+      "requirementIds": [
+        "ST2-034"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "f240ee6b5ffbcd98aaa0498028b48d2341cb9495e5ef27fcff48a6733cab1bb5",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "ebe16ad774ec177a2cc9fb45608dd3df182908aa06ecebd14c9f4fc6ad105c85",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Compare the requirements, not just the target name",
+      "sourceSectionSha256": "8ad2275821340bf53f5e793a33a16fc6bcbd2fae82f3c146d916d018d9c5a453",
+      "requirementIds": [
+        "ST3-001",
+        "ST3-002",
+        "ST3-003",
+        "ST3-004",
+        "ST3-005",
+        "ST3-006"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Keep the recognition requirement explicit",
+      "sourceSectionSha256": "5704bc08c2e976d14e2bff2d6e4749219b317d4882da1f93a28ae3b5cbd35b47",
+      "requirementIds": [
+        "ST3-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Normal-tissue expression changes the comparison",
+      "sourceSectionSha256": "e826476efd03a965391e062bc20b8f814149861a4be19d52d62588ceee3ba8e4",
+      "requirementIds": [
+        "ST3-008",
+        "ST3-009",
+        "ST3-010"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Worked example: three evidence cards",
+      "sourceSectionSha256": "6f188f4444c685f6760f162fbbaf7798d4071369c29d583918649c55f90502de",
+      "requirementIds": [
+        "ST3-011",
+        "ST3-012",
+        "ST3-013",
+        "ST3-014"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "From a model result to a clinical claim",
+      "sourceSectionSha256": "9d53f17cb27e049eabf97613b3e699dc1489b7118ac3e8516fdef66b7ce3bbf4",
+      "requirementIds": [
+        "ST3-015",
+        "ST3-016",
+        "ST3-017",
+        "ST3-018",
+        "ST3-019",
+        "ST3-020",
+        "ST3-022",
+        "ST3-023",
+        "ST3-024",
+        "ST3-025",
+        "ST3-026",
+        "ST3-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "5443d94a018127b5677a3f460203034bd03771d34a4983dc3774c21bd643de14",
+      "requirementIds": [
+        "ST3-001",
+        "ST3-002",
+        "ST3-003",
+        "ST3-004",
+        "ST3-005",
+        "ST3-006",
+        "ST3-007",
+        "ST3-008",
+        "ST3-009",
+        "ST3-010",
+        "ST3-011",
+        "ST3-012",
+        "ST3-013",
+        "ST3-014",
+        "ST3-015",
+        "ST3-016",
+        "ST3-017",
+        "ST3-018",
+        "ST3-019",
+        "ST3-020",
+        "ST3-021",
+        "ST3-022",
+        "ST3-023",
+        "ST3-024",
+        "ST3-025",
+        "ST3-026",
+        "ST3-027",
+        "ST3-028",
+        "ST3-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "a4d53ac54492bee472dff7e2e202a92cb778cbd40f9a17061ce74224a21f2f14",
+      "requirementIds": [
+        "ST3-021"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "7d6eb55cb06a431cfaa3c8a14ecb48f1caefe8cfe92d241b75ef08c115be500c",
+      "requirementIds": [
+        "ST3-028"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "c2e3d43be524a52e4243b6ac13c0a3c3f72c2d0b667d696ba6793f36572cebbf",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "29367b3e5a5f6788135bb0116faade1b7dfa45af0c41d2aeb7dc7e432be6f484",
+      "requirementIds": [
+        "ST3-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "8b5ca2b2602d9c6322ed02b0cc06e2ac5589784606cda72d4ac1e8b3babe9bde",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "a015193ec7028b03bb1cdbb2ec04c76f1c2e7857196843220baba768070f369f",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Three ways an ADC can stop working",
+      "sourceSectionSha256": "7b2edceccd08e18623824fcdce9a4cc2b62f77ce4bb70b8b71c454c45bff67e9",
+      "requirementIds": [
+        "ST4-001",
+        "ST4-002",
+        "ST4-003",
+        "ST4-004"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "The evidence behind this idea",
+      "sourceSectionSha256": "fa0e98abf085accad9672677f58c05a2123d5290c491770d08db5e1e4f9c5776",
+      "requirementIds": [
+        "ST4-005",
+        "ST4-006",
+        "ST4-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Worked example: three fictional resistant tumors",
+      "sourceSectionSha256": "5b290e9eaf93b22d49fe6a9784e1380d17fc1d66340e90bd318ddf339e0b9674",
+      "requirementIds": [
+        "ST4-008",
+        "ST4-009",
+        "ST4-010",
+        "ST4-011"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Sort the real breast-cancer ADCs the same way",
+      "sourceSectionSha256": "ffd7c239324dcd746832fe2e41e314548d7808119f009dbdad16ba98d7686c6e",
+      "requirementIds": [
+        "ST4-012",
+        "ST4-013",
+        "ST4-014",
+        "ST4-015"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "4e3dc74a3ebfa4c2f0d98e9f65d8746f40cef6ea4715f1ae5c95dd383aa50681",
+      "requirementIds": [
+        "ST4-016",
+        "ST4-017",
+        "ST4-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "6e9b35513d275ca79e640bb96ea6947925e2a1a52dbf972f13a1ec8ea12ea9f4",
+      "requirementIds": [
+        "ST4-019"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "3e522d9f738f45e9d31544adb83a253e8f13f7e6cd9a013f58c6e9d41e42efe2",
+      "requirementIds": [
+        "ST4-020"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "5ce9987de665686fa398b4d01b1bd36bbf6d43c64ac4b63ffa0f6b1806848a4a",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "b7739b73706317719f981044602bafda6c83d667b5aa242ce71fde29ec8b0311",
+      "requirementIds": [
+        "ST4-021"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "8b5ca2b2602d9c6322ed02b0cc06e2ac5589784606cda72d4ac1e8b3babe9bde",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "259b5259e0d987f574cbf2cf63edc38bffcacce7c9709187afc09b6c03d468da",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Three ways an ADC can stop working",
+      "sourceSectionSha256": "7b2edceccd08e18623824fcdce9a4cc2b62f77ce4bb70b8b71c454c45bff67e9",
+      "requirementIds": [
+        "ST4-001",
+        "ST4-002",
+        "ST4-003",
+        "ST4-004"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "The evidence behind this idea",
+      "sourceSectionSha256": "fa0e98abf085accad9672677f58c05a2123d5290c491770d08db5e1e4f9c5776",
+      "requirementIds": [
+        "ST4-005",
+        "ST4-006",
+        "ST4-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Worked example: three fictional resistant tumors",
+      "sourceSectionSha256": "5b290e9eaf93b22d49fe6a9784e1380d17fc1d66340e90bd318ddf339e0b9674",
+      "requirementIds": [
+        "ST4-008",
+        "ST4-009",
+        "ST4-010",
+        "ST4-011"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Sort the real breast-cancer ADCs the same way",
+      "sourceSectionSha256": "ffd7c239324dcd746832fe2e41e314548d7808119f009dbdad16ba98d7686c6e",
+      "requirementIds": [
+        "ST4-012",
+        "ST4-013",
+        "ST4-014",
+        "ST4-015"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "4e3dc74a3ebfa4c2f0d98e9f65d8746f40cef6ea4715f1ae5c95dd383aa50681",
+      "requirementIds": [
+        "ST4-016",
+        "ST4-017",
+        "ST4-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "6e9b35513d275ca79e640bb96ea6947925e2a1a52dbf972f13a1ec8ea12ea9f4",
+      "requirementIds": [
+        "ST4-019"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "3e522d9f738f45e9d31544adb83a253e8f13f7e6cd9a013f58c6e9d41e42efe2",
+      "requirementIds": [
+        "ST4-020"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "5ce9987de665686fa398b4d01b1bd36bbf6d43c64ac4b63ffa0f6b1806848a4a",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "b7739b73706317719f981044602bafda6c83d667b5aa242ce71fde29ec8b0311",
+      "requirementIds": [
+        "ST4-021"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "e580cd5117f9dc0a172569b5ac8c627ee98f0acda2eecc94c9a631b9d3194c56",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "8cca41ca85afd8f62e58ad4f42f7fcf3c9ae7f27765bba4151e1092d9bb6b9f1",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "The four questions",
+      "sourceSectionSha256": "6465a80b654ef2cc1844ed6247ad00fab827e466960e61aa016df1b47c439c6c",
+      "requirementIds": [
+        "ST5-001",
+        "ST5-002",
+        "ST5-003",
+        "ST5-004",
+        "ST5-005",
+        "ST5-006",
+        "ST5-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Sort the strategies",
+      "sourceSectionSha256": "61ad623d5070c3b5cf4c75d5aac54cf625cf85f7b71ffdfbbe3a285a0aa35ae6",
+      "requirementIds": [
+        "ST5-008",
+        "ST5-009",
+        "ST5-010",
+        "ST5-011",
+        "ST5-012",
+        "ST5-013",
+        "ST5-014",
+        "ST5-015",
+        "ST5-016"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Worked example: three fictional press releases",
+      "sourceSectionSha256": "867ddd4655332e9ca48a90bd01c2d053f46afbc63b83be290fce71fbf025f710",
+      "requirementIds": [
+        "ST5-017",
+        "ST5-018",
+        "ST5-019",
+        "ST5-020",
+        "ST5-021",
+        "ST5-022"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "b46e8ba146fbeac3efcfe64b11ed1e3d673fc412ded5b7b72376217f8602c8dd",
+      "requirementIds": [
+        "ST5-001",
+        "ST5-002",
+        "ST5-003",
+        "ST5-004",
+        "ST5-005",
+        "ST5-006",
+        "ST5-007",
+        "ST5-008",
+        "ST5-009",
+        "ST5-010",
+        "ST5-011",
+        "ST5-012",
+        "ST5-013",
+        "ST5-014",
+        "ST5-015",
+        "ST5-016",
+        "ST5-017",
+        "ST5-018",
+        "ST5-019",
+        "ST5-020",
+        "ST5-021",
+        "ST5-022",
+        "ST5-023",
+        "ST5-024",
+        "ST5-025",
+        "ST5-026",
+        "ST5-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "8d7e7dbc5d6c6d43a3513c17188c48f6bdef28b693108af399fdf52fc0c6b554",
+      "requirementIds": [
+        "ST5-023",
+        "ST5-024"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "bd9456d6c12b23644408f863c74384dd1c29db7be24cde86e0d4bd60b7b530f4",
+      "requirementIds": [
+        "ST5-026"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "82982e72dc7816a1b3f22b23ea1df9ba69ca9dca2242ac3f2dccba7c688ec59d",
+      "requirementIds": [
+        "ST5-025"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "4bbebbee2f6fdb5c2ddfb950bf19cc321510b0e88dd6b02fe416e0d1c824178b",
+      "requirementIds": [
+        "ST5-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "e580cd5117f9dc0a172569b5ac8c627ee98f0acda2eecc94c9a631b9d3194c56",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "b3c39666965e6ef5e454f1cf9f11d2004b1d6ba4104abc198cd883c09c265d01",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "The four questions",
+      "sourceSectionSha256": "6465a80b654ef2cc1844ed6247ad00fab827e466960e61aa016df1b47c439c6c",
+      "requirementIds": [
+        "ST5-001",
+        "ST5-002",
+        "ST5-003",
+        "ST5-004",
+        "ST5-005",
+        "ST5-006",
+        "ST5-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Sort the strategies",
+      "sourceSectionSha256": "61ad623d5070c3b5cf4c75d5aac54cf625cf85f7b71ffdfbbe3a285a0aa35ae6",
+      "requirementIds": [
+        "ST5-008",
+        "ST5-009",
+        "ST5-010",
+        "ST5-011",
+        "ST5-012",
+        "ST5-013",
+        "ST5-014",
+        "ST5-015",
+        "ST5-016"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Worked example: three fictional press releases",
+      "sourceSectionSha256": "867ddd4655332e9ca48a90bd01c2d053f46afbc63b83be290fce71fbf025f710",
+      "requirementIds": [
+        "ST5-017",
+        "ST5-018",
+        "ST5-019",
+        "ST5-020",
+        "ST5-021",
+        "ST5-022"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "b46e8ba146fbeac3efcfe64b11ed1e3d673fc412ded5b7b72376217f8602c8dd",
+      "requirementIds": [
+        "ST5-001",
+        "ST5-002",
+        "ST5-003",
+        "ST5-004",
+        "ST5-005",
+        "ST5-006",
+        "ST5-007",
+        "ST5-008",
+        "ST5-009",
+        "ST5-010",
+        "ST5-011",
+        "ST5-012",
+        "ST5-013",
+        "ST5-014",
+        "ST5-015",
+        "ST5-016",
+        "ST5-017",
+        "ST5-018",
+        "ST5-019",
+        "ST5-020",
+        "ST5-021",
+        "ST5-022",
+        "ST5-023",
+        "ST5-024",
+        "ST5-025",
+        "ST5-026",
+        "ST5-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "8d7e7dbc5d6c6d43a3513c17188c48f6bdef28b693108af399fdf52fc0c6b554",
+      "requirementIds": [
+        "ST5-023",
+        "ST5-024"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "bd9456d6c12b23644408f863c74384dd1c29db7be24cde86e0d4bd60b7b530f4",
+      "requirementIds": [
+        "ST5-026"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "a57f84b083c1939e940976d72f81e5ed7d4bece83f4bbc825c804ee580af2d12",
+      "requirementIds": [
+        "ST5-025"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "4bbebbee2f6fdb5c2ddfb950bf19cc321510b0e88dd6b02fe416e0d1c824178b",
+      "requirementIds": [
+        "ST5-027"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "69e8ecf45214a174c0c57787570a002b59dd7c9e61711cb5cfe3bb55f3bcb678",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "f1a9b9231d6156cbf5e7ba6f2f43664a740f55c198eece7bbff142b9c43879a8",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "The four questions",
+      "sourceSectionSha256": "631ae1a648494bd39d91762e8845f70aa98726b4053c0e0898eb0d3020c0ce1a",
+      "requirementIds": [
+        "ST6-001",
+        "ST6-002",
+        "ST6-003",
+        "ST6-004",
+        "ST6-005",
+        "ST6-006",
+        "ST6-007",
+        "ST6-008",
+        "ST6-009",
+        "ST6-010",
+        "ST6-011"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "The real candidates in triple-negative breast cancer",
+      "sourceSectionSha256": "4f39d52c8a3a872784777c001fd0dbaceff9eea41cebd08e063fc926658f09d3",
+      "requirementIds": [
+        "ST6-012",
+        "ST6-013",
+        "ST6-014",
+        "ST6-015",
+        "ST6-016",
+        "ST6-017",
+        "ST6-018",
+        "ST6-019",
+        "ST6-020",
+        "ST6-021"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "7fa1b0f5f9039c91a90f05f160c4294085410359de6237173862bb4addcbce97",
+      "requirementIds": [
+        "ST6-001",
+        "ST6-002",
+        "ST6-003",
+        "ST6-004",
+        "ST6-005",
+        "ST6-006",
+        "ST6-007",
+        "ST6-008",
+        "ST6-009",
+        "ST6-010",
+        "ST6-011",
+        "ST6-012",
+        "ST6-013",
+        "ST6-014",
+        "ST6-015",
+        "ST6-016",
+        "ST6-017",
+        "ST6-018",
+        "ST6-019",
+        "ST6-020",
+        "ST6-021",
+        "ST6-022",
+        "ST6-023",
+        "ST6-024"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "f87319153ba710c5de7a5d779706943cb3229cf09912b1b3704d4cabac2f21dd",
+      "requirementIds": [
+        "ST6-022"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "0b5f70a422aa04db93860387b2f24281c5a4a60af487144b8d4704f6c6fe477a",
+      "requirementIds": [
+        "ST6-023"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "c760686c4cea3485fa6e4d16eacbeea60618e09af2e14a8b5bc2ccca6bff5d4a",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "b2f78bd6701d25de9bc386b397c930d0c122201b5c5c540345153f88f737b43f",
+      "requirementIds": [
+        "ST6-024"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "a382190b89ef8f27172115b9b0128b9b2021ff0e0a4670194b8143cff78f8000",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "The big ideas",
+      "sourceSectionSha256": "df919f649b0267a01a5ea9ff3c215deb6781022a6eba1bd79a63c48caca7943f",
+      "requirementIds": [
+        "STI-001",
+        "STI-002",
+        "STI-003",
+        "STI-004",
+        "STI-005",
+        "STI-006",
+        "STI-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "The map",
+      "sourceSectionSha256": "82664e63c4f05d9e0bbd0e1dc2fa23d85f761578a5b0dabbd9ad90a0782b08ef",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Lessons",
+      "sourceSectionSha256": "723f1247e7a0b1ee97f3940bda130f6e2e371717cf173bb4be899ab3d02f4bb9",
+      "requirementIds": [
+        "STI-011"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Supporting topics",
+      "sourceSectionSha256": "d4de10d141bc7ee26f1bff2b887f69f4bacb22649da7b781e46d19cabf38f0c0",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Concepts you will use",
+      "sourceSectionSha256": "148518bf271436d92e1127c8e4bdebdcd8944442c1897cf3f27f5024dc6a37d0",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Build an evidence ledger",
+      "sourceSectionSha256": "1b7aec6afb8f966af34c3f0de4c2a4f7ca5fdf79f3dc0844aa84cfa7059530b3",
+      "requirementIds": [
+        "STI-008"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "personal application (excluded)",
+      "sourceSectionSha256": "5cd5ab6eb94226558532029e0d69577c2647d86c87aea240521dba1bb7d5e85e",
+      "requirementIds": [],
+      "disposition": "Excluded personal application; identity only"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "What is still uncertain",
+      "sourceSectionSha256": "65f95335c19b792e6519566779841f3140be90ce71645e76e128c465adc6ae51",
+      "requirementIds": [
+        "STI-009",
+        "STI-012"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "ec075c6f2cca91e6cf8f5ba46b8078ff3477e7dd498d26ba67e2a4350c2a8568",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "The big ideas",
+      "sourceSectionSha256": "760caa3547965b84aa2041547676f8a05a853275aac898532960ae0064edb5e0",
+      "requirementIds": [
+        "STI-001",
+        "STI-002",
+        "STI-003",
+        "STI-004",
+        "STI-005",
+        "STI-006",
+        "STI-007",
+        "STI-010"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "The map",
+      "sourceSectionSha256": "18fbeb64c319ce6eb0b33822a23e4beffa25f44e62259e4f61e089120eafbbf2",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Lessons",
+      "sourceSectionSha256": "072ebc9af5bdd45a356e5165b014ee82632e31a5e21ebf012c15f9ba38a42b13",
+      "requirementIds": [
+        "STI-011"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Supporting topics",
+      "sourceSectionSha256": "8659922cc8dbe3a43d8d75f157483b4ab4cb9700b149a7288cba0a80029fa3a1",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Concepts you will use",
+      "sourceSectionSha256": "d17890bf4b9c147bccbed8d2db84255c1b8f555feff80c59f4d417a8d665ce3f",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "Build an evidence ledger",
+      "sourceSectionSha256": "5497c38fb09b6e8693616dd3cddb6f1cafedb94e062f38db90e75c5925dc1deb",
+      "requirementIds": [
+        "STI-008"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "personal application (excluded)",
+      "sourceSectionSha256": "5cd5ab6eb94226558532029e0d69577c2647d86c87aea240521dba1bb7d5e85e",
+      "requirementIds": [],
+      "disposition": "Excluded personal application; identity only"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+      "heading": "What is still uncertain",
+      "sourceSectionSha256": "5d6ed3a4e0425dd50b268a1ad1883f6eda7d58d2da9ac330de0fce733f779824",
+      "requirementIds": [
+        "STI-009",
+        "STI-012"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "83b10fd81234cb242aecf67c7bcc87d032415a1045f6695e2215a2e3fa7c17c6",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "64f34714d589c1dbbb7d7e864df2180cd0cd1145455580f30095d2853017d24c",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "The address and the action",
+      "sourceSectionSha256": "5a7eab3347d5c04307a498813ee04cf2bb0d8a8ed5caca53197175ea15bb2ced",
+      "requirementIds": [
+        "ST1-001",
+        "ST1-002",
+        "ST1-003",
+        "ST1-004",
+        "ST1-005"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Two kinds of target at the surface",
+      "sourceSectionSha256": "619fb71302d8985d6eb7a00954d23bf97cfeceb2fdc5e704396425b3810b3937",
+      "requirementIds": [
+        "ST1-006",
+        "ST1-007",
+        "ST1-008",
+        "ST1-009",
+        "ST1-010"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Worked example: the fictional target M",
+      "sourceSectionSha256": "7830d646545131c684b1b092d8dfc5f3574b4ac77a8b7b90c26f06bd31c60ac9",
+      "requirementIds": [
+        "ST1-011",
+        "ST1-012",
+        "ST1-013",
+        "ST1-014",
+        "ST1-015",
+        "ST1-016"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "24716b0bdc6f123c183cbb604b71065730c4a7770f77ed5741f734413d542ebb",
+      "requirementIds": [
+        "ST1-017"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "cba5d96ce57433cb054389699c82b48d374325ccf8978d8df9596fbc659b5992",
+      "requirementIds": [
+        "ST1-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "8f791af0f74b7051e4ae655df9bacef21cb3d8e386d2854ae1466be35f914708",
+      "requirementIds": [
+        "ST1-028"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "f062b8257305fe5cab08cf8bce4cbae692baaab4ef0c202ca277bb64a9938d12",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "803e2d4d4fada094238832d9048145219697ce3446d25d07e14dcdc7bdf43e5a",
+      "requirementIds": [
+        "ST1-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "42b1faa3aa9aed60c0aed568627f15f834d82f1f33aaceaabc2d48ca7b1801ec",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "2cf1da78f1f97bff58431ca0328c79acf2674cab69bccd96ae0283b479469113",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Follow the product through the cell",
+      "sourceSectionSha256": "0527b9762c8457daed5cde4fa5d9d3f58cd7dd81ef099fc51909c2c539f7feff",
+      "requirementIds": [
+        "ST2-001",
+        "ST2-002",
+        "ST2-003",
+        "ST2-004",
+        "ST2-005",
+        "ST2-006",
+        "ST2-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Worked example: two models, one binding result",
+      "sourceSectionSha256": "5d3a1f081eb1b22adbc186e2fcb736e91adf34a3f6054b195e1c22949bd5ce61",
+      "requirementIds": [
+        "ST2-026",
+        "ST2-027",
+        "ST2-028"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Exposure is more than the amount infused",
+      "sourceSectionSha256": "035f3f9a6bf2b14f3a96c5ec58ba3742e4fc544a18284f32bb89c4f395a5bb6e",
+      "requirementIds": [
+        "ST2-008",
+        "ST2-009",
+        "ST2-010",
+        "ST2-011",
+        "ST2-012",
+        "ST2-013",
+        "ST2-014",
+        "ST2-015"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Keep three practical clocks separate",
+      "sourceSectionSha256": "418a3ef89f7a17db264f6841d0d2a5db7608ac9bcde49cf4d289f6ad396f43ff",
+      "requirementIds": [
+        "ST2-029",
+        "ST2-030",
+        "ST2-031"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "762b1d8a10d4fb0a5fc4a8e9d1e23416ef1ee21ca22eab1087daeb0231957eeb",
+      "requirementIds": [
+        "ST2-016",
+        "ST2-017"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "b5df7f333be7fe7e4173629245dc96f1ab5e451e74e9edb3d6400cf78175bb7d",
+      "requirementIds": [
+        "ST2-018"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "b230df3c57aa3d9f74d35622f0b8acc9a12311e05956440e0c85186762b01093",
+      "requirementIds": [
+        "ST2-033"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "2a9a71781226cc01b693671398f754910ffe15787dd394457a0f0a15151cfa37",
+      "requirementIds": [
+        "ST2-032"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/02-timing.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "49cd0d901573031e2cc36aa982a5723496502dda6cae09c929c71f8b6303836c",
+      "requirementIds": [
+        "ST2-034"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "preamble",
+      "sourceSectionSha256": "ef81e109af5fccb0959f5d0a20cd71834a84ea8e9325729c8b5ea7ac13969f4e",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Where this step sits",
+      "sourceSectionSha256": "86599724ad80ed21cd0c303e1548ae683edcb0b4fdbfdf2dafba8cec1521d562",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Compare the requirements, not just the target name",
+      "sourceSectionSha256": "d1f14cfc5840acfedd5bfcb5e7645cb03c53dadc4466fe35856a124821ba7c22",
+      "requirementIds": [
+        "ST3-001",
+        "ST3-002",
+        "ST3-003",
+        "ST3-004",
+        "ST3-005",
+        "ST3-006"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Keep the recognition requirement explicit",
+      "sourceSectionSha256": "fce9a9f3fb64ee1c1783c6356ff5a653a6e8aeb146ac15646bf3805731b47941",
+      "requirementIds": [
+        "ST3-007"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Normal-tissue expression changes the comparison",
+      "sourceSectionSha256": "97e171ec851c0a97e42d010a8cc411945bd2904f490c298c64fa3c57376dc316",
+      "requirementIds": [
+        "ST3-008",
+        "ST3-009",
+        "ST3-010"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Worked example: three fictional evidence cards",
+      "sourceSectionSha256": "f5e8d426d5103a04bd7a295cc4f597a3d5f9580c33b703d47f50bc043baef7da",
+      "requirementIds": [
+        "ST3-011",
+        "ST3-012",
+        "ST3-013",
+        "ST3-014"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "From a model result to a clinical claim",
+      "sourceSectionSha256": "7c242391ae1a560778a9e46b81726fa89890046cb0257b88e5a6770bbe5cdf6e",
+      "requirementIds": [
+        "ST3-015",
+        "ST3-016",
+        "ST3-017",
+        "ST3-018",
+        "ST3-019",
+        "ST3-020"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "What can go wrong at this step",
+      "sourceSectionSha256": "6c0929b4fcaac55b3877371cf6ae2aab784275acc3d1d97782855e31d866276c",
+      "requirementIds": [
+        "ST3-001",
+        "ST3-002",
+        "ST3-003",
+        "ST3-004",
+        "ST3-005",
+        "ST3-006",
+        "ST3-007",
+        "ST3-008",
+        "ST3-009",
+        "ST3-010",
+        "ST3-011",
+        "ST3-012",
+        "ST3-013",
+        "ST3-014",
+        "ST3-015",
+        "ST3-016",
+        "ST3-017",
+        "ST3-018",
+        "ST3-019",
+        "ST3-020",
+        "ST3-021",
+        "ST3-028",
+        "ST3-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Try it",
+      "sourceSectionSha256": "aec3b51855ea2fb7a4b04b42a905f3fc1e7cfae2228a09a5a2385a884b5183f1",
+      "requirementIds": [
+        "ST3-021"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Explain it back",
+      "sourceSectionSha256": "21e0a5906724758641966cd884e2e0635e0b1abc576006a5c014e6d380d8cb92",
+      "requirementIds": [
+        "ST3-028"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Takeaway",
+      "sourceSectionSha256": "a8ad8f7bb59c821958ecf131d0cfd296b25e689402fb673d0f62ca6a2b3e68be",
+      "requirementIds": [],
+      "disposition": "Explicit source/routing/recap scope"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+      "heading": "Sources and scope",
+      "sourceSectionSha256": "e4cdc0fcab5b40496e05390acde3e2b3bfa2a8539cc032974eab818c1c38312e",
+      "requirementIds": [
+        "ST3-029"
+      ],
+      "disposition": "Source-first semantic obligations assigned"
+    }
+  ],
+  "artifacts": {
+    "method": "Fresh headless Chrome rendering from every distinct pinned Mermaid code in default and dark themes; full diagram views in vertically paired review images, no source changes.",
+    "uniqueCodes": 9,
+    "themeViews": 18,
+    "externalImageScanVersions": 13,
+    "externalImageInstances": 0,
+    "findings": [
+      {
+        "id": "SG-V01",
+        "severity": "moderate",
+        "diagrams": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "theme": "dark",
+        "finding": "Inline pale node fills retain pale theme text: highlighted routing nodes and three strategy-category nodes have poor contrast in this renderer. Live Guide theme behavior was not tested."
+      },
+      {
+        "id": "SG-V02",
+        "severity": "scientific-scope",
+        "diagrams": [
+          5
+        ],
+        "finding": "Arrows sort proposals by a teaching framework. They do not prove exclusive failure classes, causally effective redesigns, or that only bispecific binding changes delivery."
+      }
+    ],
+    "diagrams": [
+      {
+        "ordinal": 1,
+        "codeSha256": "db5eaae562dc537e7c27bba2e3af579362cb595222c87178735da3c2d11d1149",
+        "sourcePath": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "section": "Follow the product through the cell",
+        "theme": "default",
+        "renderSha256": "bc065605566a49b521088bad2f206b0c333a73d8baecbf881d0dbe6766afa681",
+        "svgSha256": "0fbf22177aa4f97e4a55aa98c6fe26bb434c44e67eb4fbf28be5832ac8ba45bc",
+        "width": 168,
+        "height": 531.796875,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 1,
+        "codeSha256": "db5eaae562dc537e7c27bba2e3af579362cb595222c87178735da3c2d11d1149",
+        "sourcePath": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "section": "Follow the product through the cell",
+        "theme": "dark",
+        "renderSha256": "9a894c11dfc4bb212ca8e6aefd7931927018eee354d69023a5ae7f230f6d0d1c",
+        "svgSha256": "7bea8959671e3536365b5bd691333db8756581698eafe26f6dba81c960f7167b",
+        "width": 168,
+        "height": 531.796875,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 2,
+        "codeSha256": "f6248da334ec896292806a493ead133e271a06f481ab06b7720797da1d7b9256",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "802a906f524399cc621b392b91a78f10d7e9c53e13bee2d9b27e437e22a25e6b",
+        "svgSha256": "ff8cb2630a82fa5d471ad416c217a042df17c07a637d70c3c213dfb0e150bbdd",
+        "width": 744,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 2,
+        "codeSha256": "f6248da334ec896292806a493ead133e271a06f481ab06b7720797da1d7b9256",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "d27f0421eaa916aef47e7fd3c4c619942f177bac65e171c97a03646d7802c312",
+        "svgSha256": "67b6f5c73b96c85ec393e85e44ec74b6c923df5acd20a9eb4d1018dfcb452e78",
+        "width": 744,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 3,
+        "codeSha256": "f0fe83e2b7e166faf436e53dda04f4320d15d4f491e94314b2ea1daed739e887",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "b4c62a56e6ce111f60f08f4636ad17ce43bafb93aaa5aad571e87779f39f3274",
+        "svgSha256": "7aaf57d76111c45f59a48a01022eabdb626efb8a2af68a17dd326e7b48d7f521",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 3,
+        "codeSha256": "f0fe83e2b7e166faf436e53dda04f4320d15d4f491e94314b2ea1daed739e887",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "9b8088f43b39afd5cab6566855023da977fd28ae7fdbf879f63cc2b664af64e6",
+        "svgSha256": "50b47533f41880284b35845d90df14b74610b04d8ab11960bf2f86013abbc33d",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 4,
+        "codeSha256": "88a9de4b21ca25e437e2986fd0aed66fe0a014be6d15f30fdd289ffabf05ad2a",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "82f21d5578ead648428c0c96940f0aa0cb2117ec0bf3c36b5bdc14cb8b21abfd",
+        "svgSha256": "90c0efd9bfcd0ca9d9bf51ef85cb90a713db3ea99005d1806b256e56f15e51ca",
+        "width": 936,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 4,
+        "codeSha256": "88a9de4b21ca25e437e2986fd0aed66fe0a014be6d15f30fdd289ffabf05ad2a",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "a322541c2832f3364a48a54146487a373cf199b14f24f0d6cdf0d1822bd61886",
+        "svgSha256": "8c265a8041499ef2f7ae5ae60811e9d9353e62bf869f8b80b8fbd8d27fb2a0bf",
+        "width": 936,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 5,
+        "codeSha256": "5a1255545ef4cb2a002ba3cc99c2b3bca128e8fe30e229a12cfcc0406b177e48",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Sort the strategies",
+        "theme": "default",
+        "renderSha256": "56246528417130e3208612bfc87222cddc0059a9b7622a74ee794be5105c1390",
+        "svgSha256": "7d3d01196cbae75da6f33d3e2328ba7c57d4b298cab300b1430ee1ed78e2dd9e",
+        "width": 1200,
+        "height": 301.578125,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 5,
+        "codeSha256": "5a1255545ef4cb2a002ba3cc99c2b3bca128e8fe30e229a12cfcc0406b177e48",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Sort the strategies",
+        "theme": "dark",
+        "renderSha256": "38405ce2c56dda2f21b9820e515706ec71f664981488137dacde50e10628211e",
+        "svgSha256": "c9efedc5976760b341afad6c40cd7a2d223882140561f62d3a39c35ab676ee46",
+        "width": 1200,
+        "height": 301.578125,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 6,
+        "codeSha256": "c4b1c66fa5bc592644544b65c680fc170720d49af36b61b6f059d293b6002aa0",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "367331af6eb25421efe9b57487bb99daa9da74a853d70484cd8de2e4ce5a96ba",
+        "svgSha256": "880bfe7facc4217aabd1333b8d5b37af75c7c1bce0a0764905795b3301311c72",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 6,
+        "codeSha256": "c4b1c66fa5bc592644544b65c680fc170720d49af36b61b6f059d293b6002aa0",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "399839c0db3d33e079aea627a23375a1779dc97c2f70d03c5a364629215a531d",
+        "svgSha256": "c984a4d7d9c8b9cb279be89dbf9c697fe32787d8dffcf8c5e1b1f2c2d4fc649b",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 7,
+        "codeSha256": "62e62b92452526f56c61b33dac1adb9a2f3a6e17fbd5b2a3c39dce45c437dd9e",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "c9921bfd76398051e66fc0843f879a90c89210b819ce030dda0e59799846f570",
+        "svgSha256": "458bd7195a19fb0c12efb4bec4db8373f9f9e5ab833d2d60932d72e072175cbb",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 7,
+        "codeSha256": "62e62b92452526f56c61b33dac1adb9a2f3a6e17fbd5b2a3c39dce45c437dd9e",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "f2c95a78053e31f900d255b2ad4f03d56ba2c05a75ba54bc1a45f01f91b93aea",
+        "svgSha256": "7e0bbd555ce5c56ec24471b26073413c3f1ef15231d58380285d9064601f15c7",
+        "width": 1128,
+        "height": 112,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 8,
+        "codeSha256": "f39de4995b221afca12877cb688420c3047f3163abb3c516f9a517d4223134d4",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "section": "The map",
+        "theme": "default",
+        "renderSha256": "f9a3a6b5277950773fd10b6b57238eb4ece134671f167cfa50174f69d1224b73",
+        "svgSha256": "77082b78b5c028bd94363bbdd5d088bc14a64070ffd21949891b7d750728b958",
+        "width": 936,
+        "height": 136,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 8,
+        "codeSha256": "f39de4995b221afca12877cb688420c3047f3163abb3c516f9a517d4223134d4",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "section": "The map",
+        "theme": "dark",
+        "renderSha256": "f5abc0f9af2de14dd9d53f32a967a7ee3489b01358807c130c07fb3091cad86b",
+        "svgSha256": "60e59e5f017f99d10af446075a0963aa9aae86354cb93630b6ab6b57dc3eb6b5",
+        "width": 936,
+        "height": 136,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 9,
+        "codeSha256": "21db810c5dea39a20fb68ccf18f98d1ecc2587f60a9fc55937fa97ee6a1065d8",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "section": "The map",
+        "theme": "default",
+        "renderSha256": "63ba017e35dd8e578b10190f07cbfd60d1845ae55d666c76bf62680f87f7aafc",
+        "svgSha256": "2678908b270f17d656bcb65a155ad12aadc8d7d1a2d7cf7d02ea0d9192c6bf95",
+        "width": 1128,
+        "height": 136,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      },
+      {
+        "ordinal": 9,
+        "codeSha256": "21db810c5dea39a20fb68ccf18f98d1ecc2587f60a9fc55937fa97ee6a1065d8",
+        "sourcePath": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "section": "The map",
+        "theme": "dark",
+        "renderSha256": "7442c1b6bfbb2abbcb3162f1631da6292287e97339f410a235f1c089f92a9cef",
+        "svgSha256": "8fd4aa57e4d0fe594216b58349c127f230490f4d088481a7dcf1cadbd251c820",
+        "width": 1128,
+        "height": 136,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewScope": "complete diagram at render extent; paired theme review"
+      }
+    ],
+    "expertApproval": false,
+    "learnerApproval": false,
+    "credit": 0,
+    "newStandaloneAssetDispositions": 0,
+    "scope": "Embedded Mermaid rendered in both themes; no external image embeds in the 13 source versions. No Guide production CSS, accessibility, expert or learner approval."
+  },
+  "rawBodiesPublished": false
+}

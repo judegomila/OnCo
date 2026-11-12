@@ -1,0 +1,86 @@
+{
+  "unrepresentedCohortRequirements": [],
+  "scopedQualifiedAssessments": [
+    {
+      "id": "BET-003",
+      "qualification": "A fixed cartoon mark is not an empirical unchanged-acetylation result."
+    },
+    {
+      "id": "CDK-003",
+      "qualification": "The pictured kinase jobs overlap and do not exhaust each kinase's functions."
+    },
+    {
+      "id": "CDK-009",
+      "qualification": "CDK9 elongation is source-backed. The short-lived-transcript part is framed as a conditional assay-reading rule; no universal empirical drug response is asserted."
+    },
+    {
+      "id": "EGFR-003",
+      "qualification": "The cargo arrow is a contact/delivery schematic, not a molecular processing measurement."
+    },
+    {
+      "id": "PIK-003",
+      "qualification": "The selected pathway omits branches and uses indirect connections."
+    },
+    {
+      "id": "PIK-004",
+      "qualification": "A single fictional phosphosite contrast does not establish the feedback route."
+    }
+  ],
+  "retainedCatalogueAndDepthFollowUps": {
+    "id": "targeted-small-molecule-source-scope",
+    "title": "Targeted inhibitor source depth and retained catalogue claims",
+    "domain": "therapeutics-targeted-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/23064645/",
+      "https://pubmed.ncbi.nlm.nih.gov/29373071/",
+      "https://clinicaltrials.gov/study/NCT01889238"
+    ],
+    "discoveryOccurrences": [
+      "targeted-small-molecules-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional coverage credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Current field representation and source-depth limits are explicit. This preserves separate work on retained catalogue assertions and source deepening rather than certifying them through a new asOf or an adjacent class definition.",
+      "points": [
+        {
+          "id": "targeted-retained-catalogue-claims",
+          "requirement": "Retained ARPI, CDK4/6, EGFR, BRD4 and PI3K/AKT/mTOR catalogue scalars, older prevalence/resistance figures and linked clinical programmes outside the named corrections need their own current primary checks. The new general CDK class does not independently assess the narrower pending conjugated-payload records.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Retained ARPI, CDK4/6, EGFR, BRD4 and PI3K/AKT/mTOR catalogue scalars, older prevalence/resistance figures and linked clinical programmes outside the named corrections need their own current primary checks. The new general CDK class does not independently assess the narrower pending conjugated-payload records."
+          ]
+        },
+        {
+          "id": "targeted-source-deepening",
+          "requirement": "Traina, Carey and O'Reilly full bodies remain inaccessible on the recorded legal routes; their complete abstracts retain their actual scope. Traina CBR stability and single-arm design are independently checked in the matched primary registry. Find a source specifying the short-lived transcript species and response before replacing the current conditional CDK9 assay-reading rule with a general empirical claim. Registry commentaries were not read beyond the listed funding correction.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Traina, Carey and O'Reilly full bodies remain inaccessible on the recorded legal routes; their complete abstracts retain their actual scope. Traina CBR stability and single-arm design are independently checked in the matched primary registry. Find a source specifying the short-lived transcript species and response before replacing the current conditional CDK9 assay-reading rule with a general empirical claim. Registry commentaries were not read beyond the listed funding correction."
+          ]
+        }
+      ]
+    }
+  },
+  "sourceReadingLimits": [
+    "All 16 assigned complete abstracts were read. Forty complete targeted BioC body paragraphs from eight papers were read, not whole research papers. The funding correction was read in full.",
+    "BioC returned non-article error bodies for Traina, Carey, O'Reilly and the correction. PMC E-utilities returned metadata/abstract only for the first three. Their PMC HTML routes returned reCAPTCHA and Europe PMC fullTextXML returned HTTP 500. The Traina Europe PMC PDF route returned HTTP 403. No challenge was bypassed.",
+    "The Traina clinical-benefit definition and single-arm design were verified from the ClinicalTrials.gov study joined to the publication, with the matching phase II title and 118 participants. The registry uses 85% confidence intervals whereas the publication abstract gives 95% intervals; the new prose does not mix these intervals.",
+    "NCI Drug Dictionary pages initially returned JavaScript shells. The page configuration disclosed the official drugdictionary API; its published contract and complete matching DrugTerm JSON definitions were retrieved and read. This is separate from the general NCI Glossary API.",
+    "Piha-Paul was published online in November 2019 and in a 2020 issue. Lehmann, TRACES and CAPItello-290 also have online dates before their issue years. Those differences are not identifier conflicts.",
+    "Reviewed UniProt annotations and official technical definitions remain their own evidence tier. Underlying cited papers and linked NCI drug-summary or trial pages were not independently read here.",
+    "The generic short-lived-transcript clause is carried as a conditional RNA-assay reading rule. It is not asserted as a universal measured response to every CDK9 drug. Fixed acetyl marks, selected CDK roles, cargo processing and indirect feedback arrows are schematic conventions.",
+    "The FDA 2023 capivasertib and 2025 sunvozertinib examples are dated notifications with their stated test, disease, treatment and accelerated-approval conditions. They are not a comprehensive current eligibility survey.",
+    "Older catalogue scalars, cohort frequencies and earlier linked-study claims outside the explicitly amended clauses remain at their recorded prior scope, not freshly verified by an updated asOf.",
+    "No callable Elicit tool was exposed. No new Elicit question, report, identifier or response is invented. Frozen literature screening remains separate from these source reads."
+  ],
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "broaderGoalComplete": false
+}

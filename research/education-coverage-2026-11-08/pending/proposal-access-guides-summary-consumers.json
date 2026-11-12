@@ -1,0 +1,2195 @@
+{
+  "version": "proposal-access-guides-summary-consumers",
+  "state": "Actual short and long-cache selectors; no new graph records or language approval.",
+  "draft": 375,
+  "committedDataHead": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "records": [
+    {
+      "id": "accelerated-approval-ar",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (ar)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "ar",
+      "available": true,
+      "text": "موافقة من FDA تستند إلى أدلة مبكرة (مثل انكماش الورم) بشرط أن تليها تجربة تأكيدية."
+    },
+    {
+      "id": "apheresis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (ar)",
+      "canonicalRecordId": "apheresis",
+      "language": "ar",
+      "available": true,
+      "text": "يفصل الفِصاد مكونات من الدم ويعيد مكونات أخرى إلى الدورة الدموية. ويجمع فصاد الكريات البيضاء مزيجاً غنياً بهذه الخلايا يمكن أن يكون مادة أولية لعلاج خلوي أو للبحث."
+    },
+    {
+      "id": "backbone-add-on-ar",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (ar)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ar",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ar)",
+      "canonicalRecordId": "batch-release",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-ar",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (ar)",
+      "canonicalRecordId": "biobanking",
+      "language": "ar",
+      "available": true,
+      "text": "مجمدات مليئة بعينات أورام أُخذت بموافقة أصحابها ومرتبطة ببيانات سريرية، ويعتمد عليها كل برنامج للمؤشرات الحيوية وتطوير الأدوية."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (ar)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (ar)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "ar",
+      "available": true,
+      "text": "دراسة بحثية تختبر علاجاً في متطوعين وفق قواعد صارمة، لمعرفة ما إذا كان آمناً وما إذا كان فعالاً. وقد مر كل دواء سرطان معتمد بعدة تجارب منها."
+    },
+    {
+      "id": "drug-target-and-mechanism-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ar)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (ar)",
+      "canonicalRecordId": "ethics-review",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-ar",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (ar)",
+      "canonicalRecordId": "expanded-access",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-ar",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (ar)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "ar",
+      "available": true,
+      "text": "اثنان من برامج FDA المعجّلة: يمنح Fast Track الأدوية الموجهة لاحتياجات خطيرة غير ملباة اجتماعات أكثر تواتراً مع FDA ومراجعة متدرجة؛ وRMAT هو المقابل للعلاجات الخلوية والجينية. ولا يضمن أي منهما الاعتماد ولا يغيّر معيار الأدلة."
+    },
+    {
+      "id": "informed-consent-ar",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (ar)",
+      "canonicalRecordId": "informed-consent",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-ar",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (ar)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-ar",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (ar)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-ar",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (ar)",
+      "canonicalRecordId": "label-indication",
+      "language": "ar",
+      "available": true,
+      "text": "ملصق الدواء (النشرة الرسمية) هو الوثيقة التي تحدد بدقة المرضى المعتمد لهم الدواء (دواعي الاستعمال)، وبأي جرعة، ومع أي تحذيرات. وكل سرطان جديد أو خط علاجي أو توليفة تُضاف إليه تُعد توسيعاً لدواعي الاستعمال، ويُعتمد عبر طلب تكميلي."
+    },
+    {
+      "id": "off-label-ar",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (ar)",
+      "canonicalRecordId": "off-label",
+      "language": "ar",
+      "available": true,
+      "text": "وصف دواء معتمد لاستخدام غير مدرج في نشرته الرسمية، مثل سرطان مختلف أو مرحلة أبكر. أمر قانوني وشائع في علاج الأورام، لكن شركات التأمين قد ترفض الدفع، وغالباً ما تكون الأدلة أضعف."
+    },
+    {
+      "id": "pharmacokinetics-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ar)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-ar",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (ar)",
+      "canonicalRecordId": "placebo",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ar)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-ar",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (ar)",
+      "canonicalRecordId": "right-to-try",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-ar",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (ar)",
+      "canonicalRecordId": "rna-seq",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ar)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (ar)",
+      "canonicalRecordId": "til-therapy",
+      "language": "ar",
+      "available": true,
+      "text": "تُجمع الخلايا المناعية التي وجدت طريقها بالفعل إلى داخل الورم، ثم تُنمّى حتى تبلغ المليارات، وتُعاد إلى الجسم."
+    },
+    {
+      "id": "trial-phases-ar",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ar)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-ar",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (ar)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-ar",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (ar)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-ar",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (ar)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "ar",
+      "available": true,
+      "text": "في علاج CAR-T، عدد الأيام من جمع خلايا المريض إلى تسريب المنتج النهائي، وعادة ما يكون ثلاثة إلى ستة أسابيع. كل يوم مهم حين يكون المرض عدوانياً، وتحد القدرة التصنيعية (المواعيد المتاحة) من عدد المرضى الذين يمكن علاجهم."
+    },
+    {
+      "id": "accelerated-approval-de",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (de)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "de",
+      "available": true,
+      "text": "Zulassung durch die FDA auf Grundlage früher Belege (etwa einer Tumorverkleinerung) unter der Bedingung, dass eine bestätigende Studie folgt."
+    },
+    {
+      "id": "apheresis-de",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (de)",
+      "canonicalRecordId": "apheresis",
+      "language": "de",
+      "available": true,
+      "text": "Bei der Apherese werden Bestandteile aus dem Blut abgetrennt und andere in den Kreislauf zurückgeführt. Die Leukapherese sammelt ein Gemisch mit vielen weissen Blutkörperchen, das Ausgangsmaterial für eine Zelltherapie oder Forschung sein kann."
+    },
+    {
+      "id": "backbone-add-on-de",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (de)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-de",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (de)",
+      "canonicalRecordId": "batch-release",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-de",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (de)",
+      "canonicalRecordId": "biobanking",
+      "language": "de",
+      "available": true,
+      "text": "Gefrierschränke voller Tumorproben, die mit Einwilligung gespendet und mit klinischen Daten verknüpft wurden und auf die jedes Biomarker- und Medikamentenprogramm angewiesen ist."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (de)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (de)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "de",
+      "available": true,
+      "text": "Eine Forschungsstudie, die eine Behandlung an Freiwilligen unter strengen Regeln prüft, um herauszufinden, ob sie sicher ist und ob sie wirkt. Jedes zugelassene Krebsmedikament hat mehrere durchlaufen."
+    },
+    {
+      "id": "drug-target-and-mechanism-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (de)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-de",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (de)",
+      "canonicalRecordId": "ethics-review",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-de",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (de)",
+      "canonicalRecordId": "expanded-access",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-de",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (de)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "de",
+      "available": true,
+      "text": "Zwei der beschleunigten Programme der FDA: Fast Track gewährt Arzneimitteln für schwerwiegende ungedeckte Bedarfe häufigere Treffen mit der FDA und eine fortlaufende Prüfung; RMAT ist das Gegenstück für Zell- und Gentherapien. Keines garantiert die Zulassung oder ändert den Evidenzstandard."
+    },
+    {
+      "id": "informed-consent-de",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (de)",
+      "canonicalRecordId": "informed-consent",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-de",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (de)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-de",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (de)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-de",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (de)",
+      "canonicalRecordId": "label-indication",
+      "language": "de",
+      "available": true,
+      "text": "Die Fachinformation (das Label) eines Medikaments ist das offizielle Dokument, das genau festlegt, für welche Patienten (die Indikation) es zugelassen ist, in welcher Dosis und mit welchen Warnhinweisen. Jede neu hinzugefügte Krebsart, Therapielinie oder Kombination ist eine Indikationserweiterung, die über einen Ergänzungsantrag zugelassen wird."
+    },
+    {
+      "id": "off-label-de",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (de)",
+      "canonicalRecordId": "off-label",
+      "language": "de",
+      "available": true,
+      "text": "Die Verordnung eines zugelassenen Medikaments für eine Anwendung, die nicht in der offiziellen Zulassung steht, etwa eine andere Krebsart oder ein früheres Stadium. In der Onkologie legal und verbreitet, doch Versicherer können die Zahlung verweigern, und die Belege sind oft dünner."
+    },
+    {
+      "id": "pharmacokinetics-de",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (de)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-de",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (de)",
+      "canonicalRecordId": "placebo",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (de)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-de",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (de)",
+      "canonicalRecordId": "right-to-try",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-de",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (de)",
+      "canonicalRecordId": "rna-seq",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (de)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (de)",
+      "canonicalRecordId": "til-therapy",
+      "language": "de",
+      "available": true,
+      "text": "Immunzellen, die bereits von selbst in den Tumor gelangt sind, werden entnommen, auf Milliarden vermehrt und zurückgegeben."
+    },
+    {
+      "id": "trial-phases-de",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (de)",
+      "canonicalRecordId": "trial-phases",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-de",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (de)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-de",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (de)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-de",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (de)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "de",
+      "available": true,
+      "text": "Bei CAR-T die Zahl der Tage von der Entnahme der Patientenzellen bis zur Infusion des fertigen Produkts, typischerweise drei bis sechs Wochen. Jeder Tag zählt, wenn die Erkrankung aggressiv ist, und die Produktionskapazität (Slots) begrenzt, wie viele Patienten behandelt werden können."
+    },
+    {
+      "id": "accelerated-approval-es",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (es)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "es",
+      "available": true,
+      "text": "Aprobación de la FDA basada en evidencia temprana (como la reducción del tumor) a condición de que siga un ensayo confirmatorio."
+    },
+    {
+      "id": "apheresis-es",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (es)",
+      "canonicalRecordId": "apheresis",
+      "language": "es",
+      "available": true,
+      "text": "La aféresis separa componentes de la sangre y devuelve otros a la circulación. La leucaféresis recoge una mezcla rica en glóbulos blancos que puede servir de material inicial para terapia celular o investigación."
+    },
+    {
+      "id": "backbone-add-on-es",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (es)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-es",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (es)",
+      "canonicalRecordId": "batch-release",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-es",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (es)",
+      "canonicalRecordId": "biobanking",
+      "language": "es",
+      "available": true,
+      "text": "Congeladores llenos de muestras tumorales donadas con consentimiento y acompañadas de datos clínicos, de las que depende todo programa de biomarcadores y de fármacos."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (es)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (es)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "es",
+      "available": true,
+      "text": "Un estudio de investigación que prueba un tratamiento en voluntarios bajo reglas estrictas, para averiguar si es seguro y si funciona. Todo fármaco contra el cáncer aprobado pasó por varios."
+    },
+    {
+      "id": "drug-target-and-mechanism-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (es)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-es",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (es)",
+      "canonicalRecordId": "ethics-review",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-es",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (es)",
+      "canonicalRecordId": "expanded-access",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-es",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (es)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "es",
+      "available": true,
+      "text": "Dos de los programas acelerados de la FDA: Fast Track concede a los fármacos para necesidades graves no cubiertas reuniones más frecuentes con la FDA y revisión continua; RMAT es el equivalente para terapias celulares y génicas. Ninguno garantiza la aprobación ni cambia el estándar de evidencia."
+    },
+    {
+      "id": "informed-consent-es",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (es)",
+      "canonicalRecordId": "informed-consent",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-es",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (es)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-es",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (es)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-es",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (es)",
+      "canonicalRecordId": "label-indication",
+      "language": "es",
+      "available": true,
+      "text": "La ficha técnica de un fármaco es el documento oficial que indica exactamente para qué pacientes (la indicación) está aprobado, a qué dosis y con qué advertencias. Cada nuevo cáncer, línea de tratamiento o combinación que se le añade es una ampliación de indicación, aprobada mediante una solicitud complementaria."
+    },
+    {
+      "id": "off-label-es",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (es)",
+      "canonicalRecordId": "off-label",
+      "language": "es",
+      "available": true,
+      "text": "Recetar un fármaco aprobado para un uso que no figura en su ficha técnica oficial, por ejemplo otro cáncer o un estadio más temprano. Es legal y frecuente en oncología, pero las aseguradoras pueden negarse a pagar y la evidencia suele ser más débil."
+    },
+    {
+      "id": "pharmacokinetics-es",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (es)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-es",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (es)",
+      "canonicalRecordId": "placebo",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (es)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-es",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (es)",
+      "canonicalRecordId": "right-to-try",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-es",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (es)",
+      "canonicalRecordId": "rna-seq",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (es)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (es)",
+      "canonicalRecordId": "til-therapy",
+      "language": "es",
+      "available": true,
+      "text": "Las células inmunitarias que ya han llegado al tumor se extraen, se cultivan hasta miles de millones y se devuelven."
+    },
+    {
+      "id": "trial-phases-es",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (es)",
+      "canonicalRecordId": "trial-phases",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-es",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (es)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-es",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (es)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-es",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (es)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "es",
+      "available": true,
+      "text": "En la CAR-T, el número de días desde la extracción de las células del paciente hasta la infusión del producto terminado, normalmente de tres a seis semanas. Cada día cuenta cuando la enfermedad es agresiva, y la capacidad de fabricación (los huecos o slots) limita cuántos pacientes pueden tratarse."
+    },
+    {
+      "id": "accelerated-approval-fr",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (fr)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "fr",
+      "available": true,
+      "text": "Approbation de la FDA fondée sur des preuves précoces (comme la réduction de la tumeur), à condition qu'un essai de confirmation suive."
+    },
+    {
+      "id": "apheresis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (fr)",
+      "canonicalRecordId": "apheresis",
+      "language": "fr",
+      "available": true,
+      "text": "L'aphérèse sépare des composants du sang et en renvoie d'autres dans la circulation. La leucaphérèse recueille un mélange riche en globules blancs pouvant servir de matière de départ pour une thérapie cellulaire ou la recherche."
+    },
+    {
+      "id": "backbone-add-on-fr",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (fr)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-fr",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (fr)",
+      "canonicalRecordId": "batch-release",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-fr",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (fr)",
+      "canonicalRecordId": "biobanking",
+      "language": "fr",
+      "available": true,
+      "text": "Des congélateurs remplis d'échantillons tumoraux prélevés avec consentement et associés à des données cliniques, dont dépend tout programme de biomarqueurs ou de médicaments."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (fr)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (fr)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "fr",
+      "available": true,
+      "text": "Une étude de recherche qui teste un traitement chez des volontaires selon des règles strictes, pour savoir s'il est sûr et s'il est efficace. Chaque médicament anticancéreux approuvé en a traversé plusieurs."
+    },
+    {
+      "id": "drug-target-and-mechanism-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (fr)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (fr)",
+      "canonicalRecordId": "ethics-review",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-fr",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (fr)",
+      "canonicalRecordId": "expanded-access",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-fr",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (fr)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "fr",
+      "available": true,
+      "text": "Deux des programmes accélérés de la FDA : Fast Track offre aux médicaments répondant à des besoins graves non couverts des réunions plus fréquentes avec la FDA et une évaluation continue ; RMAT en est l'équivalent pour les thérapies cellulaires et géniques. Aucun des deux ne garantit l'approbation ni ne modifie le niveau de preuve exigé."
+    },
+    {
+      "id": "informed-consent-fr",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (fr)",
+      "canonicalRecordId": "informed-consent",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-fr",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (fr)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-fr",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (fr)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-fr",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (fr)",
+      "canonicalRecordId": "label-indication",
+      "language": "fr",
+      "available": true,
+      "text": "La notice officielle d'un médicament (son étiquetage) est le document qui précise exactement pour quels patients (l'indication) il est approuvé, à quelle dose et avec quelles mises en garde. Chaque nouveau cancer, ligne de traitement ou association qui y est ajouté constitue une extension d'indication, approuvée par une demande supplémentaire."
+    },
+    {
+      "id": "off-label-fr",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (fr)",
+      "canonicalRecordId": "off-label",
+      "language": "fr",
+      "available": true,
+      "text": "Prescrire un médicament approuvé pour un usage qui ne figure pas sur son étiquetage officiel, par exemple un autre cancer ou un stade plus précoce. Légal et courant en oncologie, mais les assureurs peuvent refuser de payer et les preuves sont souvent plus minces."
+    },
+    {
+      "id": "pharmacokinetics-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (fr)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-fr",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (fr)",
+      "canonicalRecordId": "placebo",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (fr)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-fr",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (fr)",
+      "canonicalRecordId": "right-to-try",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-fr",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (fr)",
+      "canonicalRecordId": "rna-seq",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (fr)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (fr)",
+      "canonicalRecordId": "til-therapy",
+      "language": "fr",
+      "available": true,
+      "text": "Des cellules immunitaires qui ont déjà pénétré dans la tumeur sont prélevées, multipliées jusqu'à plusieurs milliards, puis réinjectées."
+    },
+    {
+      "id": "trial-phases-fr",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (fr)",
+      "canonicalRecordId": "trial-phases",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-fr",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (fr)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-fr",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (fr)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-fr",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (fr)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "fr",
+      "available": true,
+      "text": "Pour les CAR-T, le nombre de jours entre le prélèvement des cellules du patient et la perfusion du produit fini, généralement de trois à six semaines. Chaque jour compte quand la maladie est agressive, et la capacité de fabrication (les créneaux) limite le nombre de patients pouvant être traités."
+    },
+    {
+      "id": "accelerated-approval-hi",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (hi)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "hi",
+      "available": true,
+      "text": "प्रारंभिक साक्ष्य (जैसे ट्यूमर सिकुड़ना) पर FDA मंज़ूरी, इस शर्त पर कि पुष्टि परीक्षण बाद में हो।"
+    },
+    {
+      "id": "apheresis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (hi)",
+      "canonicalRecordId": "apheresis",
+      "language": "hi",
+      "available": true,
+      "text": "अफेरेसिस रक्त से कुछ घटक अलग करके बाकी घटकों को परिसंचरण में लौटाता है। ल्यूकाफेरेसिस श्वेत रक्त कोशिकाओं से भरपूर मिश्रण एकत्र करता है, जो कोशिका उपचार या शोध का शुरुआती पदार्थ हो सकता है।"
+    },
+    {
+      "id": "backbone-add-on-hi",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (hi)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-hi",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (hi)",
+      "canonicalRecordId": "batch-release",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-hi",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (hi)",
+      "canonicalRecordId": "biobanking",
+      "language": "hi",
+      "available": true,
+      "text": "सहमति से लिए गए ट्यूमर नमूनों और उनके साथ जुड़े नैदानिक डेटा से भरे फ्रीज़र, जिन पर हर बायोमार्कर और दवा कार्यक्रम निर्भर करता है।"
+    },
+    {
+      "id": "cell-manufacturing-outcomes-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (hi)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (hi)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "hi",
+      "available": true,
+      "text": "एक शोध अध्ययन, जो सख़्त नियमों के तहत स्वयंसेवकों में किसी उपचार का परीक्षण करता है, यह जानने के लिए कि वह सुरक्षित है या नहीं और काम करता है या नहीं। हर स्वीकृत कैंसर दवा ऐसे कई परीक्षणों से गुज़री है।"
+    },
+    {
+      "id": "drug-target-and-mechanism-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (hi)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (hi)",
+      "canonicalRecordId": "ethics-review",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-hi",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (hi)",
+      "canonicalRecordId": "expanded-access",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-hi",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (hi)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "hi",
+      "available": true,
+      "text": "FDA के दो त्वरित कार्यक्रम: Fast Track गंभीर अपूर्ण ज़रूरतों वाली दवाओं को FDA के साथ अधिक बार बैठकें और रोलिंग समीक्षा देता है; RMAT कोशिका और जीन थेरेपी के लिए इसका समकक्ष है। इनमें से कोई भी स्वीकृति की गारंटी नहीं देता या प्रमाण के मानक को नहीं बदलता।"
+    },
+    {
+      "id": "informed-consent-hi",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (hi)",
+      "canonicalRecordId": "informed-consent",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-hi",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (hi)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-hi",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (hi)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-hi",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (hi)",
+      "canonicalRecordId": "label-indication",
+      "language": "hi",
+      "available": true,
+      "text": "किसी दवा का लेबल वह आधिकारिक दस्तावेज़ है जो बताता है कि यह ठीक किन रोगियों (संकेत) के लिए, किस खुराक पर और किन चेतावनियों के साथ स्वीकृत है। इसमें जोड़ा गया हर नया कैंसर, उपचार की पंक्ति या संयोजन लेबल विस्तार है, जिसे पूरक आवेदन के माध्यम से मंज़ूरी मिलती है।"
+    },
+    {
+      "id": "off-label-hi",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (hi)",
+      "canonicalRecordId": "off-label",
+      "language": "hi",
+      "available": true,
+      "text": "किसी मंज़ूरशुदा दवा को उसके आधिकारिक लेबल पर न दिए गए उपयोग के लिए लिखना, जैसे कोई अलग कैंसर या पहले का चरण। ऑन्कोलॉजी में यह वैध और आम है, लेकिन बीमा कंपनियाँ भुगतान से मना कर सकती हैं और सबूत अक्सर कमज़ोर होते हैं।"
+    },
+    {
+      "id": "pharmacokinetics-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (hi)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-hi",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (hi)",
+      "canonicalRecordId": "placebo",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (hi)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-hi",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (hi)",
+      "canonicalRecordId": "right-to-try",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-hi",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (hi)",
+      "canonicalRecordId": "rna-seq",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (hi)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (hi)",
+      "canonicalRecordId": "til-therapy",
+      "language": "hi",
+      "available": true,
+      "text": "जो प्रतिरक्षा कोशिकाएँ पहले ही ट्यूमर तक पहुँच चुकी हैं उन्हें निकालकर अरबों तक बढ़ाया और वापस दिया जाता है।"
+    },
+    {
+      "id": "trial-phases-hi",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (hi)",
+      "canonicalRecordId": "trial-phases",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-hi",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (hi)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-hi",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (hi)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-hi",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (hi)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "hi",
+      "available": true,
+      "text": "CAR-T में, मरीज की कोशिकाएं लेने से तैयार उत्पाद के इन्फ्यूजन तक के दिनों की संख्या, आम तौर पर तीन से छह सप्ताह। जब बीमारी आक्रामक हो तो हर दिन महत्वपूर्ण होता है, और निर्माण क्षमता (स्लॉट) यह सीमित करती है कि कितने मरीजों का इलाज हो सकता है।"
+    },
+    {
+      "id": "accelerated-approval-ja",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (ja)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "ja",
+      "available": true,
+      "text": "腫瘍の縮小などの早期の証拠に基づくFDAの承認で、その後に確認試験を行うことが条件となる。"
+    },
+    {
+      "id": "apheresis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (ja)",
+      "canonicalRecordId": "apheresis",
+      "language": "ja",
+      "available": true,
+      "text": "アフェレーシスは血液から成分を分離し、ほかの成分を循環に戻します。白血球アフェレーシスでは、細胞療法や研究の出発材料となる白血球を多く含む混合物を採取します。"
+    },
+    {
+      "id": "backbone-add-on-ja",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (ja)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ja",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ja)",
+      "canonicalRecordId": "batch-release",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-ja",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (ja)",
+      "canonicalRecordId": "biobanking",
+      "language": "ja",
+      "available": true,
+      "text": "同意を得て集められた腫瘍検体と、それに対応する臨床データで満たされた冷凍庫。あらゆるバイオマーカーや医薬品の開発プログラムはこれに依存している。"
+    },
+    {
+      "id": "cell-manufacturing-outcomes-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (ja)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (ja)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "ja",
+      "available": true,
+      "text": "厳格な規則のもとで志願者に治療を試し、安全かどうか、効くかどうかを確かめる研究である。承認されたがん治療薬はどれも、複数の臨床試験を経ている。"
+    },
+    {
+      "id": "drug-target-and-mechanism-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ja)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (ja)",
+      "canonicalRecordId": "ethics-review",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-ja",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (ja)",
+      "canonicalRecordId": "expanded-access",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-ja",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (ja)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "ja",
+      "available": true,
+      "text": "FDAの迅速化プログラムのうちの2つである。Fast Trackは重篤で未充足のニーズに対する薬剤にFDAとのより頻繁な会合とローリング審査を与え、RMATは細胞・遺伝子治療におけるその対応版である。いずれも承認を保証するものではなく、証拠の基準を変えるものでもない。"
+    },
+    {
+      "id": "informed-consent-ja",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (ja)",
+      "canonicalRecordId": "informed-consent",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-ja",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (ja)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-ja",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (ja)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-ja",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (ja)",
+      "canonicalRecordId": "label-indication",
+      "language": "ja",
+      "available": true,
+      "text": "薬の添付文書（ラベル）は、その薬がどの患者（適応）に対して、どの用量で、どんな警告のもとに承認されているかを正確に記した公式文書である。新たながん種、治療ライン、併用療法が追加されるたびに適応拡大となり、追加申請を通じて承認される。"
+    },
+    {
+      "id": "off-label-ja",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (ja)",
+      "canonicalRecordId": "off-label",
+      "language": "ja",
+      "available": true,
+      "text": "承認済みの薬を、公式の添付文書に記載のない用途、例えば別のがんやより早い病期に処方すること。がん診療では合法で一般的だが、保険者が支払いを拒むことがあり、エビデンスも薄いことが多い。"
+    },
+    {
+      "id": "pharmacokinetics-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ja)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-ja",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (ja)",
+      "canonicalRecordId": "placebo",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ja)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-ja",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (ja)",
+      "canonicalRecordId": "right-to-try",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-ja",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (ja)",
+      "canonicalRecordId": "rna-seq",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ja)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (ja)",
+      "canonicalRecordId": "til-therapy",
+      "language": "ja",
+      "available": true,
+      "text": "すでに腫瘍の中に入り込んでいる免疫細胞を取り出し、数十億個にまで増やしてから体に戻します。"
+    },
+    {
+      "id": "trial-phases-ja",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ja)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-ja",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (ja)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-ja",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (ja)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-ja",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (ja)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "ja",
+      "available": true,
+      "text": "CAR-Tにおいて、患者の細胞を採取してから完成品を輸注するまでの日数で、通常3週間から6週間である。疾患が急速に進行する場合は一日一日が重要であり、製造能力(スロット)が治療できる患者数を制限する。"
+    },
+    {
+      "id": "accelerated-approval-pt",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (pt)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "pt",
+      "available": true,
+      "text": "Aprovação da FDA baseada em evidência inicial (como encolhimento do tumor) com a condição de que um ensaio confirmatório se siga."
+    },
+    {
+      "id": "apheresis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (pt)",
+      "canonicalRecordId": "apheresis",
+      "language": "pt",
+      "available": true,
+      "text": "A aférese separa componentes do sangue e devolve outros à circulação. A leucaférese recolhe uma mistura rica em glóbulos brancos que pode servir de material inicial para uma terapia celular ou investigação."
+    },
+    {
+      "id": "backbone-add-on-pt",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (pt)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-pt",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (pt)",
+      "canonicalRecordId": "batch-release",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-pt",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (pt)",
+      "canonicalRecordId": "biobanking",
+      "language": "pt",
+      "available": true,
+      "text": "Freezers cheios de amostras tumorais doadas com consentimento e acompanhadas de dados clínicos, dos quais depende todo programa de biomarcadores e de medicamentos."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (pt)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (pt)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "pt",
+      "available": true,
+      "text": "Um estudo de pesquisa que testa um tratamento em voluntários sob regras rigorosas, para descobrir se ele é seguro e se funciona. Todo medicamento contra o câncer aprovado passou por vários."
+    },
+    {
+      "id": "drug-target-and-mechanism-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (pt)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (pt)",
+      "canonicalRecordId": "ethics-review",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "expanded-access-pt",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (pt)",
+      "canonicalRecordId": "expanded-access",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fast-track-rmat-pt",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (pt)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "pt",
+      "available": true,
+      "text": "Dois dos programas acelerados da FDA: o Fast Track dá a medicamentos para necessidades graves não atendidas reuniões mais frequentes com a FDA e revisão contínua; o RMAT é o equivalente para terapias celulares e gênicas. Nenhum garante aprovação nem altera o padrão de evidência."
+    },
+    {
+      "id": "informed-consent-pt",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (pt)",
+      "canonicalRecordId": "informed-consent",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigational-new-drug-application-pt",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (pt)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-pt",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (pt)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-pt",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (pt)",
+      "canonicalRecordId": "label-indication",
+      "language": "pt",
+      "available": true,
+      "text": "A bula de um medicamento é o documento oficial que declara exatamente para quais pacientes (a indicação) ele está aprovado, em qual dose e com quais advertências. Cada novo câncer, linha de tratamento ou combinação acrescentada a ela é uma expansão de indicação, aprovada por meio de um pedido suplementar."
+    },
+    {
+      "id": "off-label-pt",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (pt)",
+      "canonicalRecordId": "off-label",
+      "language": "pt",
+      "available": true,
+      "text": "Prescrever um medicamento aprovado para um uso não listado na sua bula oficial, por exemplo outro câncer ou um estágio mais inicial. É legal e comum na oncologia, mas as seguradoras podem se recusar a pagar e as evidências costumam ser mais fracas."
+    },
+    {
+      "id": "pharmacokinetics-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (pt)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-pt",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (pt)",
+      "canonicalRecordId": "placebo",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (pt)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-pt",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (pt)",
+      "canonicalRecordId": "right-to-try",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-pt",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (pt)",
+      "canonicalRecordId": "rna-seq",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (pt)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (pt)",
+      "canonicalRecordId": "til-therapy",
+      "language": "pt",
+      "available": true,
+      "text": "Células imunes que já encontraram o caminho até o tumor são colhidas, multiplicadas aos bilhões e devolvidas."
+    },
+    {
+      "id": "trial-phases-pt",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (pt)",
+      "canonicalRecordId": "trial-phases",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-pt",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (pt)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-search-site-verification-pt",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (pt)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-pt",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (pt)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "pt",
+      "available": true,
+      "text": "Na CAR-T, o número de dias entre a coleta das células do paciente e a infusão do produto acabado, normalmente de três a seis semanas. Cada dia conta quando a doença é agressiva, e a capacidade de fabricação (vagas ou slots) limita quantos pacientes podem ser tratados."
+    },
+    {
+      "id": "accelerated-approval-zh",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (zh)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "zh",
+      "available": true,
+      "text": "FDA基于早期证据（如肿瘤缩小）的批准，条件是随后进行确证试验。"
+    },
+    {
+      "id": "apheresis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (zh)",
+      "canonicalRecordId": "apheresis",
+      "language": "zh",
+      "available": true,
+      "text": "单采术分离血液中的部分成分，并将其他成分送回循环。白细胞单采术收集富含白细胞的混合物，可用作细胞疗法或研究的起始材料。"
+    },
+    {
+      "id": "backbone-add-on-zh",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (zh)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-zh",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (zh)",
+      "canonicalRecordId": "batch-release",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-zh",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (zh)",
+      "canonicalRecordId": "biobanking",
+      "language": "zh",
+      "available": true,
+      "text": "装满经知情同意的肿瘤样本及配套临床数据的冷冻库，每一个生物标志物和药物研发项目都依赖于它。"
+    },
+    {
+      "id": "cell-manufacturing-outcomes-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (zh)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (zh)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "zh",
+      "available": true,
+      "text": "一种在严格规则下于志愿者身上测试治疗方法的研究，以弄清它是否安全、是否有效。每一种获批的抗癌药都经历过好几项。"
+    },
+    {
+      "id": "drug-target-and-mechanism-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (zh)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ethics-review-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (zh)",
+      "canonicalRecordId": "ethics-review",
+      "language": "zh",
+      "available": true,
+      "text": "试验在纳入任何人之前，须由独立伦理委员会（美国为 IRB，英国为研究伦理委员会）审查方案和知情同意书，判断风险是否合理、参与者是否受到保护，并持续监督直至试验结束。"
+    },
+    {
+      "id": "expanded-access-zh",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (zh)",
+      "canonicalRecordId": "expanded-access",
+      "language": "zh",
+      "available": true,
+      "text": "重病患者无法参加试验时获得未批准药物的合规途径：医生向企业申请，企业同意，监管机构审查，单个患者通常几天内完成。"
+    },
+    {
+      "id": "fast-track-rmat-zh",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (zh)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "zh",
+      "available": true,
+      "text": "FDA的两项加速计划：Fast Track为针对严重未满足需求的药物提供更频繁的FDA会议和滚动审评；RMAT是细胞和基因疗法的对应计划。两者都不保证获批，也不改变证据标准。"
+    },
+    {
+      "id": "informed-consent-zh",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (zh)",
+      "canonicalRecordId": "informed-consent",
+      "language": "zh",
+      "available": true,
+      "text": "知情同意是一段谈话加一份签署的文件：当事人了解试验包含什么、可能出什么问题、有哪些替代选择以及可以随时退出，然后自愿同意参加。"
+    },
+    {
+      "id": "investigational-new-drug-application-zh",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (zh)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-zh",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (zh)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-zh",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (zh)",
+      "canonicalRecordId": "label-indication",
+      "language": "zh",
+      "available": true,
+      "text": "药品说明书是官方文件，明确规定该药获批用于哪些患者（适应症）、剂量多少以及有哪些警告。每新增一种癌症、治疗线数或联合用药，都属于适应症扩展，需通过补充申请获批。"
+    },
+    {
+      "id": "off-label-zh",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (zh)",
+      "canonicalRecordId": "off-label",
+      "language": "zh",
+      "available": true,
+      "text": "将已获批药物用于其官方说明书未列出的用途，例如另一种癌症或更早的分期。在肿瘤学中合法且常见，但保险公司可能拒绝付费，且证据往往较为薄弱。"
+    },
+    {
+      "id": "pharmacokinetics-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (zh)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "placebo-zh",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (zh)",
+      "canonicalRecordId": "placebo",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (zh)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "right-to-try-zh",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (zh)",
+      "canonicalRecordId": "right-to-try",
+      "language": "zh",
+      "available": true,
+      "text": "2018年美国法律允许危及生命疾病的患者绕过FDA直接向企业申请已通过一期试验的药物；企业仍有决定权，实际上大多数获取仍通过更早的扩展使用途径。"
+    },
+    {
+      "id": "rna-seq-zh",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (zh)",
+      "canonicalRecordId": "rna-seq",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (zh)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (zh)",
+      "canonicalRecordId": "til-therapy",
+      "language": "zh",
+      "available": true,
+      "text": "已进入肿瘤的免疫细胞被取出、扩增至数十亿并回输。"
+    },
+    {
+      "id": "trial-phases-zh",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (zh)",
+      "canonicalRecordId": "trial-phases",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-zh",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (zh)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "zh",
+      "available": true,
+      "text": "方案是试验运行所依据的规则手册，在开始前写就：谁可以参加、接受什么治疗、何时测量什么、答案如何计算；统计分析计划把最后一部分写得足够详细，使任何人都无法在看到数据后再挑选分析方法。"
+    },
+    {
+      "id": "trial-search-site-verification-zh",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (zh)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-zh",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (zh)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "zh",
+      "available": true,
+      "text": "对于CAR-T，指从采集患者细胞到输注成品之间的天数，通常为三到六周。当疾病侵袭性强时每一天都至关重要，而生产能力（排产名额）限制了可治疗的患者数量。"
+    },
+    {
+      "id": "accelerated-approval-simple",
+      "kind": "reader-summary-entry",
+      "name": "Accelerated approval (simple)",
+      "canonicalRecordId": "accelerated-approval",
+      "language": "simple",
+      "available": true,
+      "text": "Early FDA approval based on promising signs, on condition that a confirming trial follows."
+    },
+    {
+      "id": "apheresis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (simple)",
+      "canonicalRecordId": "apheresis",
+      "language": "simple",
+      "available": true,
+      "text": "A machine separates some blood components and returns others to the body. Collecting white blood cells gives a mixture that may be used to start a cell therapy or a research study."
+    },
+    {
+      "id": "backbone-add-on-simple",
+      "kind": "reader-summary-entry",
+      "name": "Backbone, add-on and monotherapy (simple)",
+      "canonicalRecordId": "backbone-add-on",
+      "language": "simple",
+      "available": true,
+      "text": "An add-on is tested with a reference treatment called the backbone. The study must show what the combination adds in benefit and harm."
+    },
+    {
+      "id": "batch-release-simple",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (simple)",
+      "canonicalRecordId": "batch-release",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biobanking-simple",
+      "kind": "reader-summary-entry",
+      "name": "Biobanking and tissue procurement (simple)",
+      "canonicalRecordId": "biobanking",
+      "language": "simple",
+      "available": true,
+      "text": "Freezers full of donated tumour samples with matching medical records, which every new test and drug programme depends on."
+    },
+    {
+      "id": "cell-manufacturing-outcomes-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-manufacturing outcomes and nonconforming products (simple)",
+      "canonicalRecordId": "cell-manufacturing-outcomes",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clinical-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial (simple)",
+      "canonicalRecordId": "clinical-trial",
+      "language": "simple",
+      "available": true,
+      "text": "A clinical trial is a research study testing a treatment in volunteers under strict rules to learn whether it is safe and whether it works."
+    },
+    {
+      "id": "drug-target-and-mechanism-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (simple)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "simple",
+      "available": true,
+      "text": "A drug target is the molecule or structure a treatment acts on. Its mechanism describes how that action produces an effect, with separate evidence needed for benefit in people."
+    },
+    {
+      "id": "ethics-review-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ethics review (IRB, research ethics committee) (simple)",
+      "canonicalRecordId": "ethics-review",
+      "language": "simple",
+      "available": true,
+      "text": "Before a trial can enrol anyone, an independent ethics committee reviews the plan and the consent form to decide whether the risks are justified and participants are protected."
+    },
+    {
+      "id": "expanded-access-simple",
+      "kind": "reader-summary-entry",
+      "name": "Expanded access (compassionate use) (simple)",
+      "canonicalRecordId": "expanded-access",
+      "language": "simple",
+      "available": true,
+      "text": "Expanded access is the regulated way a seriously ill patient who cannot join a trial can get an unapproved drug, with the doctor asking the company and the regulator reviewing the request."
+    },
+    {
+      "id": "fast-track-rmat-simple",
+      "kind": "reader-summary-entry",
+      "name": "Fast Track and RMAT designations (simple)",
+      "canonicalRecordId": "fast-track-rmat",
+      "language": "simple",
+      "available": true,
+      "text": "Fast Track and RMAT are FDA programmes giving drugs for serious unmet needs, and cell and gene therapies, more meetings and rolling review, without guaranteeing approval."
+    },
+    {
+      "id": "informed-consent-simple",
+      "kind": "reader-summary-entry",
+      "name": "Informed consent (simple)",
+      "canonicalRecordId": "informed-consent",
+      "language": "simple",
+      "available": true,
+      "text": "Informed consent is the conversation and signed form in which a person learns what a trial involves and what might go wrong, then freely agrees to take part."
+    },
+    {
+      "id": "investigational-new-drug-application-simple",
+      "kind": "reader-summary-entry",
+      "name": "Investigational New Drug application (simple)",
+      "canonicalRecordId": "investigational-new-drug-application",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "investigator-initiated-trials-simple",
+      "kind": "reader-summary-entry",
+      "name": "Investigator-initiated trials and study responsibilities (simple)",
+      "canonicalRecordId": "investigator-initiated-trials",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "label-indication-simple",
+      "kind": "reader-summary-entry",
+      "name": "Label, indication and label expansion (simple)",
+      "canonicalRecordId": "label-indication",
+      "language": "simple",
+      "available": true,
+      "text": "A drug's label is the official document stating exactly which patients it is approved for, and each new cancer or setting added is a label expansion."
+    },
+    {
+      "id": "off-label-simple",
+      "kind": "reader-summary-entry",
+      "name": "Off-label (simple)",
+      "canonicalRecordId": "off-label",
+      "language": "simple",
+      "available": true,
+      "text": "Off-label means prescribing an approved drug for a use not listed on its official label, which is legal and common in cancer care but insurers may refuse to pay."
+    },
+    {
+      "id": "pharmacokinetics-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (simple)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "simple",
+      "available": true,
+      "text": "Pharmacokinetics describes how a medicine moves through the body and how its concentration changes over time. The amount given, exposure and biological effect are different measurements."
+    },
+    {
+      "id": "placebo-simple",
+      "kind": "reader-summary-entry",
+      "name": "Placebo (simple)",
+      "canonicalRecordId": "placebo",
+      "language": "simple",
+      "available": true,
+      "text": "A placebo is an inactive comparison treatment. A cancer trial may give standard care plus a placebo or use another justified design. Check what each group receives in the study plan and consent form."
+    },
+    {
+      "id": "randomised-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (simple)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "simple",
+      "available": true,
+      "text": "Chance assigns people to different treatment groups. This helps make a fair comparison, but does not guarantee identical groups or complete follow-up."
+    },
+    {
+      "id": "right-to-try-simple",
+      "kind": "reader-summary-entry",
+      "name": "Right to Try Act 2018 and state right-to-try laws (simple)",
+      "canonicalRecordId": "right-to-try",
+      "language": "simple",
+      "available": true,
+      "text": "The Right to Try Act is a 2018 US law letting seriously ill patients ask a company directly for a drug that has passed phase 1, though companies still decide."
+    },
+    {
+      "id": "rna-seq-simple",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (simple)",
+      "canonicalRecordId": "rna-seq",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (simple)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "til-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "TIL therapy (simple)",
+      "canonicalRecordId": "til-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "Immune cells that already found their way into the tumour are taken out, grown to billions, and put back."
+    },
+    {
+      "id": "trial-phases-simple",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (simple)",
+      "canonicalRecordId": "trial-phases",
+      "language": "simple",
+      "available": true,
+      "text": "Trial phases describe the questions being studied, such as dose, safety and treatment comparison. A phase number does not promise benefit or tell you how treatment is assigned."
+    },
+    {
+      "id": "trial-protocol-simple",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (simple)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "simple",
+      "available": true,
+      "text": "The trial protocol is the rulebook a trial is run by, written before it starts, and the statistical analysis plan fixes how the answer will be calculated."
+    },
+    {
+      "id": "trial-search-site-verification-simple",
+      "kind": "reader-summary-entry",
+      "name": "Clinical trial search, site verification and screening (simple)",
+      "canonicalRecordId": "trial-search-site-verification",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vein-to-vein-time-simple",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (simple)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "simple",
+      "available": true,
+      "text": "Vein-to-vein time is the number of days from collecting a patient's cells for CAR-T to infusing the finished product, typically three to six weeks."
+    }
+  ]
+}

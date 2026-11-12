@@ -1,0 +1,70 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "queued": [
+    {
+      "id": "Q1",
+      "item": "lumpectomy-vs-mastectomy.md lesson-level assessment of the 2026-11-07 survival-equivalence block (NSABP B-06 PMID 12393820, Milan I PMID 12393819 as cited by owner; resolve before use)",
+      "why": "post-dates review 33"
+    },
+    {
+      "id": "Q2",
+      "item": "Watkins 2014 'Genomic scars as biomarkers of homologous recombination deficiency' (Breast Cancer Res 16:211): resolve and read for scar persistence after restoration",
+      "why": "primary lead for E07"
+    },
+    {
+      "id": "Q3",
+      "item": "HER2 owner prose changed after the cited review version (2026 0 vs 0+ sentence): needs a lesson-level read against CAP 1.6.2.0 and the 2023 SOR",
+      "why": "E02"
+    },
+    {
+      "id": "Q4",
+      "item": "brain-metastasis-risk: competing-event link added at L; check the competing-risks target page and the fictional denominator framing together",
+      "why": "E09"
+    },
+    {
+      "id": "Q5",
+      "item": "sox10 lesson: confirm the benign myoepithelial SOX10 claim with a primary immunohistochemistry source; abstract only states it as prior knowledge",
+      "why": "E10"
+    },
+    {
+      "id": "Q6",
+      "item": "NRG-BR002 (JCO 2026) full results: read before the oligometastatic owner relies on any breast-specific outcome",
+      "why": "E08"
+    },
+    {
+      "id": "Q7",
+      "item": "coordinator source table: relabel consensus/survey entries (31908301, 32388150, 36030639) as non-primary",
+      "why": "C07"
+    },
+    {
+      "id": "Q8",
+      "item": "resolve source commits 64923746, 8ff971e6, b3704aa2, afe15cdb, 558b7599, 98a29eb7, 5cb06c95 in the canonical remote",
+      "why": "custody"
+    },
+    {
+      "id": "Q9",
+      "item": "shared owner myoepithelial-cells-and-basement-membrane.md changed at L (db9645c5 -> 844e299c); decide whether the sox10 review's shared-owner reuse still holds",
+      "why": "C03"
+    }
+  ]
+}

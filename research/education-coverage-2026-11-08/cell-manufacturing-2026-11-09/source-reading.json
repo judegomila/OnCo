@@ -1,0 +1,1631 @@
+{
+  "conceptsPerPin": 9,
+  "requirementsPerPin": 42,
+  "sourceComparison": [
+    {
+      "name": "autologous-vs-allogeneic-cell-therapy.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+          "sourceSha256": "9006144039ae248dd31f369197b26eae267813700e8b0ee2eeb47b2346c74136",
+          "metadata": {
+            "title": "Autologous versus allogeneic cell therapy",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "autologous",
+              "allogeneic",
+              "autologous cell therapy",
+              "allogeneic cell therapy"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "d88aebbd6ea8e1e0f6ffe360416f4189702a51c96f1512e595d48395b04dce70",
+            "metadataSha256": "7828e37128647106edb8d919e691b455ac38db5131c229d774824674dd8e9b21"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "dfae3b45d36f5e8742b5ee8395b41269d0fce4ee4a4217ad53eb2f2dc4302ecf"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "60419e2277c7b063ee7b394a30a06948b591f7aa20bac780a0bc96b48929875f"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "9ed3ea7b04982a73012e95a4c1ae7887eb2739059fce9d2fb3ce40f7f86ab973"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "e498561e42f4b748f89aa582df68598a52a648d168d6550a8a9363f0e5971e05"
+            },
+            {
+              "ordinal": 4,
+              "kind": "source-scope",
+              "sha256": "493c5015798440a78a2b7633d81b6ee704e4a024bf3a03f094ea0151ee61e915"
+            },
+            {
+              "ordinal": 5,
+              "kind": "additional-teaching",
+              "sha256": "489363487ef33e7b2bbea5b11ef809e9f8431240f737c2deb5d928de54afe7a3"
+            },
+            {
+              "ordinal": 6,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "e6c5e79a4da98eb9973ccf6c393a82dd35372249062e1ce6d7f64b43d83004c1"
+            },
+            {
+              "ordinal": 7,
+              "kind": "practice-or-worked-example",
+              "sha256": "0da2754e9d5dff10913b966170a25c284119a7aaa93b8a9f756091a96cf02eb6"
+            },
+            {
+              "ordinal": 8,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "4f2397300e0cf91152ca71629af10edcf771a22c9b52fb64bfe435ac450f0f86"
+            },
+            {
+              "ordinal": 9,
+              "kind": "practice-or-worked-example",
+              "sha256": "4a369611128574bee513a2afdd5a784a417deb6fc4fc839c9ca796982ab6ffdb"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "d7887f0b4912568d195fd8f676592cfd7272570865584671d105ed1e9fbf8c27"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+          "sourceSha256": "01881b596e7d3d0dc5d573852f21d9827fbfbd918713f109d0fb4870ce9f38af",
+          "metadata": {
+            "title": "Autologous versus allogeneic cell therapy",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "autologous",
+              "allogeneic",
+              "autologous cell therapy",
+              "allogeneic cell therapy"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "d88aebbd6ea8e1e0f6ffe360416f4189702a51c96f1512e595d48395b04dce70",
+            "metadataSha256": "7828e37128647106edb8d919e691b455ac38db5131c229d774824674dd8e9b21"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "dfae3b45d36f5e8742b5ee8395b41269d0fce4ee4a4217ad53eb2f2dc4302ecf"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "60419e2277c7b063ee7b394a30a06948b591f7aa20bac780a0bc96b48929875f"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "9ed3ea7b04982a73012e95a4c1ae7887eb2739059fce9d2fb3ce40f7f86ab973"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "e498561e42f4b748f89aa582df68598a52a648d168d6550a8a9363f0e5971e05"
+            },
+            {
+              "ordinal": 4,
+              "kind": "source-scope",
+              "sha256": "493c5015798440a78a2b7633d81b6ee704e4a024bf3a03f094ea0151ee61e915"
+            },
+            {
+              "ordinal": 5,
+              "kind": "additional-teaching",
+              "sha256": "489363487ef33e7b2bbea5b11ef809e9f8431240f737c2deb5d928de54afe7a3"
+            },
+            {
+              "ordinal": 6,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "e6c5e79a4da98eb9973ccf6c393a82dd35372249062e1ce6d7f64b43d83004c1"
+            },
+            {
+              "ordinal": 7,
+              "kind": "practice-or-worked-example",
+              "sha256": "0da2754e9d5dff10913b966170a25c284119a7aaa93b8a9f756091a96cf02eb6"
+            },
+            {
+              "ordinal": 8,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "4f2397300e0cf91152ca71629af10edcf771a22c9b52fb64bfe435ac450f0f86"
+            },
+            {
+              "ordinal": 9,
+              "kind": "practice-or-worked-example",
+              "sha256": "4a369611128574bee513a2afdd5a784a417deb6fc4fc839c9ca796982ab6ffdb"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "d7887f0b4912568d195fd8f676592cfd7272570865584671d105ed1e9fbf8c27"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "chain-of-identity-and-custody.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+          "sourceSha256": "24313004b5ad002f45251bd8fb9e91dee1d19c1d36e5c3ac1e7a5306a2c8d44f",
+          "metadata": {
+            "title": "Chain of identity and custody",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "chain of identity",
+              "chain of custody",
+              "COI",
+              "COC"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "e04df111673575341910a9f5274ee10f115c5cdb7ea70677e88f45844ec73a17",
+            "metadataSha256": "2dc845ca151f77cc8d95b4e2fd26492b55424fa0e878208715f36970924752e7"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "fe0bb2c4a3a6cb8f2d89b6c25491cf3fdb8b13b379a2883a19d3e123fe88fd52"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "787fac2f95b98a7e5c62563108fdc5213324556c149e48bea5d25d5bf8c1e370"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "df033c1a48ba656e2544cfd114d0d4594a68a9fca56e3cfd5dad8d4a258dc7b9"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "1207357af00dbf7255db214d7c208808f829a70ca6a8b0a028c8b16142350c37"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "810ed53ee36a61f4b510b1e8bad6aa0d3ba981de91d48f0ec66844a7e666189e"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "1b5716967cde54cd8cbbaec363ba54b31a08eb6ddbad84da5a449c00bbf15bb0"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "a3b4109952bc2e14ce10a71ed1474f5c5ac14efc46b11802fc47cf7504b062d8"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "8fd764984752e22390069435db47787b43dc234d26f1d2d951657a40427afaa5"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "7d8f6bbbedcd9404dfdf12d73d1da3b822231eba1c22fefde3dc20a7577bd01f"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "25b87acfdb015970d5f9fe7b1ed32682b63ce2d8562cdd89a8329779345c38f6"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+          "sourceSha256": "1b33bebb2948d8323d718d8fe3c4953ca2981b2a1ae9175183e998c65cca583f",
+          "metadata": {
+            "title": "Chain of identity and custody",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "chain of identity",
+              "chain of custody",
+              "COI",
+              "COC"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "e04df111673575341910a9f5274ee10f115c5cdb7ea70677e88f45844ec73a17",
+            "metadataSha256": "2dc845ca151f77cc8d95b4e2fd26492b55424fa0e878208715f36970924752e7"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "fe0bb2c4a3a6cb8f2d89b6c25491cf3fdb8b13b379a2883a19d3e123fe88fd52"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "787fac2f95b98a7e5c62563108fdc5213324556c149e48bea5d25d5bf8c1e370"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "df033c1a48ba656e2544cfd114d0d4594a68a9fca56e3cfd5dad8d4a258dc7b9"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "1207357af00dbf7255db214d7c208808f829a70ca6a8b0a028c8b16142350c37"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "810ed53ee36a61f4b510b1e8bad6aa0d3ba981de91d48f0ec66844a7e666189e"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "1b5716967cde54cd8cbbaec363ba54b31a08eb6ddbad84da5a449c00bbf15bb0"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "a3b4109952bc2e14ce10a71ed1474f5c5ac14efc46b11802fc47cf7504b062d8"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "8fd764984752e22390069435db47787b43dc234d26f1d2d951657a40427afaa5"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "7d8f6bbbedcd9404dfdf12d73d1da3b822231eba1c22fefde3dc20a7577bd01f"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "25b87acfdb015970d5f9fe7b1ed32682b63ce2d8562cdd89a8329779345c38f6"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "cryopreservation.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+          "sourceSha256": "27f116192499910cdb28687814c6fcc9ca3cf80933d367779680590bb75d2fe6",
+          "metadata": {
+            "title": "Cryopreservation of living cells",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "cryopreservation",
+              "viable cryopreservation",
+              "cryopreserved cells"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "2e46242056a99c49bd633173080661ec397db8b9baf886e5a1f3f6108f5e0e92",
+            "metadataSha256": "40893fd7f8ba14ecd4ca3e65152a6819ca31442267c58c6c0a29e0dc7abfa512"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "a61004af6c0a30d884fe0fa2d4c7ab84c7f52f929d7a172bccc65318d9fcc922"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "0988a24f6dba6dcbc037a53688c5e4d98e17b022371a773c4808b9a5e9507afe"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "ed0a8b0a38a2e0bb412f6ab28ec6b2d10d342e49f78db3fe052e355bb4cb52da"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "60bf09ba154e8436fbeb6b0a65aa1ed45e78de4b2596a3e5eb0424676d9af372"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "1629cd2baa4e71f3ea3c96ba09bb6d5f6b3d7abaaf4f679348f650512758554c"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "22b908c0add15a03c9e172ab8939592f94dd7f2d60cbc344fec7989426e8702a"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "162f1c182ad24c5d7f0e99578544a028e3919e125404d7a72d4076c1e6a5b199"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c53525c8ed6219fe2734b7d63ec2fa30961f67495b6b598b7b0d771599dcb2d8"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "e6f9d99b33400247b00ca951f65b9bd55d3875737720beaff87cc7097163994d"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "02e916d6e6858c2c59781c86b100871d89d91d83f4e079e0cc2010d3650a3e0c"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "254b7a39b83c78840e0ea0605ffc73bccc5504909a039c5502c67d235022381e"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/cryopreservation.md",
+          "sourceSha256": "f5cd9202b39e59d54144c21caa81fde0857dee9a813114ffacd213e3c4040d9a",
+          "metadata": {
+            "title": "Cryopreservation of living cells",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "cryopreservation",
+              "viable cryopreservation",
+              "cryopreserved cells"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "c085f7befdefb10aea4d26259c669d352a67407c0ba8b0ab96ece8b3906aeacf",
+            "metadataSha256": "40893fd7f8ba14ecd4ca3e65152a6819ca31442267c58c6c0a29e0dc7abfa512"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "a61004af6c0a30d884fe0fa2d4c7ab84c7f52f929d7a172bccc65318d9fcc922"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "0988a24f6dba6dcbc037a53688c5e4d98e17b022371a773c4808b9a5e9507afe"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "ed0a8b0a38a2e0bb412f6ab28ec6b2d10d342e49f78db3fe052e355bb4cb52da"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "75d7f2602a03bbead66488a7f19ee6c0112f8317413c3b19ee8f88d1f428ec98"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "cef196227cded8ecd9007b3f1dee9d53b1a1dbc4be878b0e1476be14840fc4ae"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "22b908c0add15a03c9e172ab8939592f94dd7f2d60cbc344fec7989426e8702a"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "162f1c182ad24c5d7f0e99578544a028e3919e125404d7a72d4076c1e6a5b199"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c53525c8ed6219fe2734b7d63ec2fa30961f67495b6b598b7b0d771599dcb2d8"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "e6f9d99b33400247b00ca951f65b9bd55d3875737720beaff87cc7097163994d"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "02e916d6e6858c2c59781c86b100871d89d91d83f4e079e0cc2010d3650a3e0c"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "85a52bd804dad27323d3e77e56a1d0d9b1278b4d091d1cec289c9bc48b0b626d"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": false
+    },
+    {
+      "name": "ex-vivo-cell-expansion.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+          "sourceSha256": "5d32d8f7f3af65d08401907c231173bc465f5d3b07d0938cec9fd38bd111629d",
+          "metadata": {
+            "title": "Ex vivo cell expansion",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "ex vivo cell expansion",
+              "ex-vivo expansion",
+              "cell expansion"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "628b6d2b71d0329b2948ad13e08ecb0c5ea3cfe40104ddcfd636d22e4dc75450",
+            "metadataSha256": "e3e9c7cf29dc62e45de69d161de9b6bc029a99cac0b4d2714b986e8e334b95eb"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "45d76f17d231c9593447b5eae40cb29150794da1234d640afbc032797652735a"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "438c3631309d2675e38bf5ee110d045e790f11288d3470076c4fd2810ec5c95b"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "d6ee89e8b2c503b445d1a3b92e6def8bcde970512af1608704b2fe576e3cc1ea"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "ad35fc2697147b3a13e9c31223027338cfa6fd9fb6465e38f0ffb8d50d393ca2"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "0734fdf8b3c12a35c200532674af2ba992091dc89345d0320b8531b9804b07f7"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c0dd7eb2454ae110998e96de7eedec295f4fb6d05a0e5d06d47f740c4940a055"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "c4ca5d387791cf31677ef11f1d5ee37133174e5439552ea29256bdfd4d894d81"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "73d0fc22f308e2ceaf7cec017709291084893d3822c3cfb781c15eb2cbac211a"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "b8a732fc9ba74a907293d3d0e859afad2b1fbfc26e715b52205a6705c3d01307"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "1c16d6574ff925e64da2cbd1d88d697b1528ae6d27ab90e5e7238a4912fbeba8"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-cell-expansion.md",
+          "sourceSha256": "3ef1479a44ad2548b5582d0631ef33ab036a38e1f5f068fb32181b0ed8deff8e",
+          "metadata": {
+            "title": "Ex vivo cell expansion",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "ex vivo cell expansion",
+              "ex-vivo expansion",
+              "cell expansion"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "628b6d2b71d0329b2948ad13e08ecb0c5ea3cfe40104ddcfd636d22e4dc75450",
+            "metadataSha256": "e3e9c7cf29dc62e45de69d161de9b6bc029a99cac0b4d2714b986e8e334b95eb"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "45d76f17d231c9593447b5eae40cb29150794da1234d640afbc032797652735a"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "438c3631309d2675e38bf5ee110d045e790f11288d3470076c4fd2810ec5c95b"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "d6ee89e8b2c503b445d1a3b92e6def8bcde970512af1608704b2fe576e3cc1ea"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "ad35fc2697147b3a13e9c31223027338cfa6fd9fb6465e38f0ffb8d50d393ca2"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "0734fdf8b3c12a35c200532674af2ba992091dc89345d0320b8531b9804b07f7"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c0dd7eb2454ae110998e96de7eedec295f4fb6d05a0e5d06d47f740c4940a055"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "c4ca5d387791cf31677ef11f1d5ee37133174e5439552ea29256bdfd4d894d81"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "73d0fc22f308e2ceaf7cec017709291084893d3822c3cfb781c15eb2cbac211a"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "b8a732fc9ba74a907293d3d0e859afad2b1fbfc26e715b52205a6705c3d01307"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "1c16d6574ff925e64da2cbd1d88d697b1528ae6d27ab90e5e7238a4912fbeba8"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "ex-vivo-vs-in-vivo-engineering.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+          "sourceSha256": "84bd66c5cd1f1611f54d7ea07eeab4f30026ebbad4387638b8e8b2d2102b8648",
+          "metadata": {
+            "title": "Ex vivo versus in vivo cell engineering",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "ex vivo engineering",
+              "in vivo engineering"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "08745b7a1087c2396a02a0880bdb3ce85e7fd805b9bedd3d0d20b85f01226c8e",
+            "metadataSha256": "65717467cbb8a0d4f326ef2e02df6860cbd1fac513d1a384ad35e623d5bac6a1"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "e229ed5c194d9f136c8d7d73dc78ae7f3fde935322df9a47313c5ff7635e970e"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "362393c35ccbdba957ae1ce237703ea74a5ce5fe7d63b0b4862c61d5ba812e45"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "bee1dbe9f5a6144ba01edb46b67da208b35dbdd714b4279b111863e539975aae"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "6aea339dc499126298e7b5fd8f33602e02c9c48ba447501adea277f2fa7da5b1"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "3ec934e06c3536a3bde1ef07c51a620b10175524484fcb7a01f9d4bc71070629"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "d860831895e7170a2df55b301a2f19a9ae470f2d191628370c9df4e3db5d8e76"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "72d355af6e909568fc4e87da0331dc2fcc8f1d87c15b004a88b33633ff1e6618"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "10749d81bcebc9f6f4cc65ec4165915a5f9c336cf8364bc455b6567106947dd0"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "f78d81cd08842262ee714d6a98f9a47b430f2908fc7376431b4fe0d96977a4ec"
+            },
+            {
+              "ordinal": 9,
+              "kind": "practice-or-worked-example",
+              "sha256": "c124ff387a769af04e9adc10df8cb15d90840fe953cd3135bef3817f1d56f446"
+            },
+            {
+              "ordinal": 10,
+              "kind": "additional-teaching",
+              "sha256": "47aec582521d6d012e7d4620065544cef77270c4542840dff01624f2eab775e6"
+            },
+            {
+              "ordinal": 11,
+              "kind": "source-scope",
+              "sha256": "2157058604c4c0967fe9a5be4b08ff5c4a246bead638c186d2130352e52571c1"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+          "sourceSha256": "be0ca93840a3a9c4ff47de53dcb5b2bbc8376584457d24e695e3a8a424d707e7",
+          "metadata": {
+            "title": "Ex vivo versus in vivo cell engineering",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "ex vivo engineering",
+              "in vivo engineering"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "08745b7a1087c2396a02a0880bdb3ce85e7fd805b9bedd3d0d20b85f01226c8e",
+            "metadataSha256": "65717467cbb8a0d4f326ef2e02df6860cbd1fac513d1a384ad35e623d5bac6a1"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "e229ed5c194d9f136c8d7d73dc78ae7f3fde935322df9a47313c5ff7635e970e"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "362393c35ccbdba957ae1ce237703ea74a5ce5fe7d63b0b4862c61d5ba812e45"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "bee1dbe9f5a6144ba01edb46b67da208b35dbdd714b4279b111863e539975aae"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "6aea339dc499126298e7b5fd8f33602e02c9c48ba447501adea277f2fa7da5b1"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "3ec934e06c3536a3bde1ef07c51a620b10175524484fcb7a01f9d4bc71070629"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "d860831895e7170a2df55b301a2f19a9ae470f2d191628370c9df4e3db5d8e76"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "72d355af6e909568fc4e87da0331dc2fcc8f1d87c15b004a88b33633ff1e6618"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "10749d81bcebc9f6f4cc65ec4165915a5f9c336cf8364bc455b6567106947dd0"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "f78d81cd08842262ee714d6a98f9a47b430f2908fc7376431b4fe0d96977a4ec"
+            },
+            {
+              "ordinal": 9,
+              "kind": "practice-or-worked-example",
+              "sha256": "c124ff387a769af04e9adc10df8cb15d90840fe953cd3135bef3817f1d56f446"
+            },
+            {
+              "ordinal": 10,
+              "kind": "additional-teaching",
+              "sha256": "47aec582521d6d012e7d4620065544cef77270c4542840dff01624f2eab775e6"
+            },
+            {
+              "ordinal": 11,
+              "kind": "source-scope",
+              "sha256": "2157058604c4c0967fe9a5be4b08ff5c4a246bead638c186d2130352e52571c1"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "leukapheresis.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+          "sourceSha256": "26f0c2a45843274be66919cb097f5a1290d1ea2564c29df06b8375d57d1447b9",
+          "metadata": {
+            "title": "Leukapheresis and the collected leukopak",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "leukapheresis",
+              "leukopak",
+              "leukopac",
+              "leucapheresis"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "4b051c439f5a14c99bf45f3af23d898892be0ccd196d0d4ca26d9b911677bac0",
+            "metadataSha256": "a2b69be78d99a67b4f3db53287980b8f1a5fd349d2f003963dcd8fffd039b943"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "769fc98476ab9f5fee197fbd7ad3614a7bfcba3706c7e39e228932de9f26cd58"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "aa71d2ab0716d2a45880dd6b7cc91a79ae6efbe7a5844b61969da4e786b1fdfb"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "198886a6778c28a1b0574b15ed4ef8b7b632da8bf232336c596fd8ef572f147e"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "cdc0d67316616f12b968e1ae69cbb69865978a84dc63ac38e72c630f05bf409a"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "e86ca8f1043338e899417d9acf6d1a96ac09f48581a382e2ee776a0b1462bcf6"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "77bb731693a90c4449d779eafba748f6265fa9bd0eedff59678fa0cac7471704"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "6a10ea0b4b374690da81434a5c9716a858956606944f99cf6035554bf7bdaa3b"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c2fc79887ab7b86a7578aa3b94969126cdb3519511c6cd44530ad2e7be5b21ed"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "4bc2287656ba38da53ce5b233e43b00be0ea57838b4f4c2696d66bd6c76edee0"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "cf47843af7d86678322038f8f0f1897cc4f514bfdb6da82572a97b634ffc8372"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/leukapheresis.md",
+          "sourceSha256": "5c1f444d8ac33400c4720f8aa99441b9c44c163575bfba0faf15347040b30f11",
+          "metadata": {
+            "title": "Leukapheresis and the collected leukopak",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "leukapheresis",
+              "leukopak",
+              "leukopac",
+              "leucapheresis"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "4b051c439f5a14c99bf45f3af23d898892be0ccd196d0d4ca26d9b911677bac0",
+            "metadataSha256": "a2b69be78d99a67b4f3db53287980b8f1a5fd349d2f003963dcd8fffd039b943"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "769fc98476ab9f5fee197fbd7ad3614a7bfcba3706c7e39e228932de9f26cd58"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "aa71d2ab0716d2a45880dd6b7cc91a79ae6efbe7a5844b61969da4e786b1fdfb"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "198886a6778c28a1b0574b15ed4ef8b7b632da8bf232336c596fd8ef572f147e"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "cdc0d67316616f12b968e1ae69cbb69865978a84dc63ac38e72c630f05bf409a"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "e86ca8f1043338e899417d9acf6d1a96ac09f48581a382e2ee776a0b1462bcf6"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "77bb731693a90c4449d779eafba748f6265fa9bd0eedff59678fa0cac7471704"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "6a10ea0b4b374690da81434a5c9716a858956606944f99cf6035554bf7bdaa3b"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "c2fc79887ab7b86a7578aa3b94969126cdb3519511c6cd44530ad2e7be5b21ed"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "4bc2287656ba38da53ce5b233e43b00be0ea57838b4f4c2696d66bd6c76edee0"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "cf47843af7d86678322038f8f0f1897cc4f514bfdb6da82572a97b634ffc8372"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "manufacturing-failure-and-out-of-specification-product.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md",
+          "sourceSha256": "9e053ff85f7759e4ceceecc5204649b6e16b08b342e47b0a865ef88958819479",
+          "metadata": {
+            "title": "Manufacturing failure and out-of-specification product",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "manufacturing failure",
+              "out-of-specification product",
+              "out of specification",
+              "OOS product",
+              "manufacturing success rate"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "359160fe3cff3e23075371b827a162a556910a5fda46026d98962c02ef31980e",
+            "metadataSha256": "c0e4ac68f43e33294f73156cbb02a77f2b24b6493af17984a4118dc7d4665a54"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "cd195de6099ca0ae84ec82e3c18d1e15aef1ee1274c3883c0b6b05e6c0d436ed"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "d86f84077591c0d08a40fd1e7945d1145af16b52429a45b4cdb16ada898aed29"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "4994eda73f861afcc034d93723075dfb1762d9a785ef6ad76f3c61fe735beb18"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "622f34cf29de2a97c194c0ca343bd7c860c8fc6052e03c6208b1d6037df12142"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "daea77e16162f3e2d45d05edfcb410d3f8eb20c922de997802280eba03632cd3"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "46ab349b9ad8a39f12d7b2536a08832411e369cb5054a206d567962a7505b994"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "be7df1a8d64dd8ab648505e4bceba149ee08622a8bed0ef54c2fa46c74e9bae7"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "5ab29675b0de21763df9f5a9135f7b6e64bb79c8649a640c01c16029dc58fa6a"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "4066e7ca82f35a0327a28f44adceb86c6290bcf6382342037532dec8dc333c14"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "dd3b0dfb7043584dd4628c67ed6b44971170e09da4266674115f9ff46a7ad247"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "cd7976906df1bab84098f202bb868d10ff7c0196308698d5a91cfd5173d2242f"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md",
+          "sourceSha256": "9e053ff85f7759e4ceceecc5204649b6e16b08b342e47b0a865ef88958819479",
+          "metadata": {
+            "title": "Manufacturing failure and out-of-specification product",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "manufacturing failure",
+              "out-of-specification product",
+              "out of specification",
+              "OOS product",
+              "manufacturing success rate"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "359160fe3cff3e23075371b827a162a556910a5fda46026d98962c02ef31980e",
+            "metadataSha256": "c0e4ac68f43e33294f73156cbb02a77f2b24b6493af17984a4118dc7d4665a54"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "cd195de6099ca0ae84ec82e3c18d1e15aef1ee1274c3883c0b6b05e6c0d436ed"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "d86f84077591c0d08a40fd1e7945d1145af16b52429a45b4cdb16ada898aed29"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "4994eda73f861afcc034d93723075dfb1762d9a785ef6ad76f3c61fe735beb18"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "622f34cf29de2a97c194c0ca343bd7c860c8fc6052e03c6208b1d6037df12142"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "daea77e16162f3e2d45d05edfcb410d3f8eb20c922de997802280eba03632cd3"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "46ab349b9ad8a39f12d7b2536a08832411e369cb5054a206d567962a7505b994"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "be7df1a8d64dd8ab648505e4bceba149ee08622a8bed0ef54c2fa46c74e9bae7"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "5ab29675b0de21763df9f5a9135f7b6e64bb79c8649a640c01c16029dc58fa6a"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "4066e7ca82f35a0327a28f44adceb86c6290bcf6382342037532dec8dc333c14"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "dd3b0dfb7043584dd4628c67ed6b44971170e09da4266674115f9ff46a7ad247"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "cd7976906df1bab84098f202bb868d10ff7c0196308698d5a91cfd5173d2242f"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "release-testing-for-cell-products.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+          "sourceSha256": "7d2426b82646f7d66df3ea4dec906b14d55022fad1d34ec236c5c4edc8f7cd40",
+          "metadata": {
+            "title": "Release testing for cell products: separate quality questions",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "cell-product release testing",
+              "cell therapy release testing",
+              "release testing for cell products"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "cda0e67213c15669b309a53be9faa0cbdfd2226680ac5281c2bbddfbb36dbafb",
+            "metadataSha256": "f487558fb467111809b21768c477cfc1427ae8e5bbffec6e3bef1498ebe117ba"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "2ca986235491d3da5f86f90acf305e8666c35dffe55f342f87ca8b1f6ba3df6e"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "4dd571498618c1cc3398284838d5bba0dafa37a2c224bc9963b4ba033096e900"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "e28e85227492a40e9911d49656494707d496e12b5796082384a31edb70b46cf6"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "aed30d33a052f6ac1a0a3a0bcbffa20d1ca91e0af12831be7d9282ed7e468e4d"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "0e168de980fa108e030e01d5da4fc327df34fdbc7cdf8ae4ebdb3932b7aaf4a3"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "a5b3d247cb8c9c3528e328f594dd669e52f35ea34b6a17823368bfeb0300289d"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "8453d8fd260129e095ce98d49cb6cd41a3ac336e4446aaaba75b512e44f71703"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "06c4a85203d4455dedebe87c5f40ff030569a8bd112bb48d66d8af683041f1c8"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "eaa82b624e4754993c7293ff0f02a3f85d3d58685ebe743cc905051fb6c06359"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "9ed4f5611c76300a44315ed23fdd1ac415435d83c229014ec4aacc4da62c520e"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "e9bc5c16c72639009e4eab307e83b1fcd61420ab5e4335730c2a14c8b06e56d0"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/release-testing-for-cell-products.md",
+          "sourceSha256": "00daa5bb24e9a92d9f757bad566a4524286bcf4206961d2821e12fabaf0e0b8e",
+          "metadata": {
+            "title": "Release testing for cell products: separate quality questions",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "cell-product release testing",
+              "cell therapy release testing",
+              "release testing for cell products"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "cda0e67213c15669b309a53be9faa0cbdfd2226680ac5281c2bbddfbb36dbafb",
+            "metadataSha256": "f487558fb467111809b21768c477cfc1427ae8e5bbffec6e3bef1498ebe117ba"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "2ca986235491d3da5f86f90acf305e8666c35dffe55f342f87ca8b1f6ba3df6e"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "4dd571498618c1cc3398284838d5bba0dafa37a2c224bc9963b4ba033096e900"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "e28e85227492a40e9911d49656494707d496e12b5796082384a31edb70b46cf6"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "aed30d33a052f6ac1a0a3a0bcbffa20d1ca91e0af12831be7d9282ed7e468e4d"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "0e168de980fa108e030e01d5da4fc327df34fdbc7cdf8ae4ebdb3932b7aaf4a3"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "a5b3d247cb8c9c3528e328f594dd669e52f35ea34b6a17823368bfeb0300289d"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "8453d8fd260129e095ce98d49cb6cd41a3ac336e4446aaaba75b512e44f71703"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "06c4a85203d4455dedebe87c5f40ff030569a8bd112bb48d66d8af683041f1c8"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "eaa82b624e4754993c7293ff0f02a3f85d3d58685ebe743cc905051fb6c06359"
+            },
+            {
+              "ordinal": 9,
+              "kind": "additional-teaching",
+              "sha256": "9ed4f5611c76300a44315ed23fdd1ac415435d83c229014ec4aacc4da62c520e"
+            },
+            {
+              "ordinal": 10,
+              "kind": "source-scope",
+              "sha256": "e9bc5c16c72639009e4eab307e83b1fcd61420ab5e4335730c2a14c8b06e56d0"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    },
+    {
+      "name": "vein-to-vein-time.md",
+      "versions": [
+        {
+          "key": "7510db6b",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+          "sourceSha256": "079fcce10294d9a6ed44f0f0d02beb1dab41477907a46f981cceb490f90e3583",
+          "metadata": {
+            "title": "Vein-to-vein time",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "vein-to-vein time",
+              "vein to vein",
+              "vein-to-vein"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "1ca51ade6c2af698aae4fce7c4063815d161832aa68f6691152ea68db98308c3",
+            "metadataSha256": "fe1eeb60e0b8e41f8d8f82a97697fd540d9122daa2a22c139a2c0a0c8ddbd1d8"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "3c17f293e380a6b8f44b4c2d19fb8dd98d5ef6f760c912bae75d9199308371c8"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "e4a0430a5390947ee956ea1283eff32f69bb743e122598e860c918855a0dcb81"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "9f9ead67f8ff70cc2a09d0200e0885d908a55612a89c59f4f7edfa56a7dbd153"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "b89b8707f0dea3f7f153f087243aa3a1ad69cb76cf7736efd078eeba9ef3c984"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "f0fb0ad3280c778caf3b5124fa82bec350e2af05f60e169a448f928c5a44fc77"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "f35439524ebeb0f5243ea0f7dd73141508f9ad512691d20fe279ee698ecf5447"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "10347637d8a0db0a1e9d3eb803e876cdbe8a1414bb792eb747375b2baf37ff48"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "ffea512bdf5bb53e3d5b5d96513b46bf52652fdd331f9998a5a97cf20b5f2488"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "075d4e854d86dbe055b4e91897abf471df8c5b637f4352a800f916a1b0f57849"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "0449441ab76d71821ddd822c2773e9d78dcd427b85972b936eb4195a3d6610ea"
+            }
+          ]
+        },
+        {
+          "key": "c9689645",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/vein-to-vein-time.md",
+          "sourceSha256": "ae613bdc1ba09de0ea8ddbf665815678aeb6d910fa8636e63abfa41156dc714b",
+          "metadata": {
+            "title": "Vein-to-vein time",
+            "type": "concept",
+            "domain": "engineering-and-manufacturing/cell-manufacturing",
+            "aliases": [
+              "vein-to-vein time",
+              "vein to vein",
+              "vein-to-vein"
+            ]
+          },
+          "signature": {
+            "teachingSha256": "1ca51ade6c2af698aae4fce7c4063815d161832aa68f6691152ea68db98308c3",
+            "metadataSha256": "fe1eeb60e0b8e41f8d8f82a97697fd540d9122daa2a22c139a2c0a0c8ddbd1d8"
+          },
+          "sections": [
+            {
+              "ordinal": 0,
+              "kind": "preamble",
+              "sha256": "3c17f293e380a6b8f44b4c2d19fb8dd98d5ef6f760c912bae75d9199308371c8"
+            },
+            {
+              "ordinal": 1,
+              "kind": "additional-teaching",
+              "sha256": "e4a0430a5390947ee956ea1283eff32f69bb743e122598e860c918855a0dcb81"
+            },
+            {
+              "ordinal": 2,
+              "kind": "additional-teaching",
+              "sha256": "9f9ead67f8ff70cc2a09d0200e0885d908a55612a89c59f4f7edfa56a7dbd153"
+            },
+            {
+              "ordinal": 3,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "b89b8707f0dea3f7f153f087243aa3a1ad69cb76cf7736efd078eeba9ef3c984"
+            },
+            {
+              "ordinal": 4,
+              "kind": "additional-teaching",
+              "sha256": "f0fb0ad3280c778caf3b5124fa82bec350e2af05f60e169a448f928c5a44fc77"
+            },
+            {
+              "ordinal": 5,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "f35439524ebeb0f5243ea0f7dd73141508f9ad512691d20fe279ee698ecf5447"
+            },
+            {
+              "ordinal": 6,
+              "kind": "practice-or-worked-example",
+              "sha256": "10347637d8a0db0a1e9d3eb803e876cdbe8a1414bb792eb747375b2baf37ff48"
+            },
+            {
+              "ordinal": 7,
+              "kind": "mechanism-measurement-interpretation",
+              "sha256": "ffea512bdf5bb53e3d5b5d96513b46bf52652fdd331f9998a5a97cf20b5f2488"
+            },
+            {
+              "ordinal": 8,
+              "kind": "practice-or-worked-example",
+              "sha256": "075d4e854d86dbe055b4e91897abf471df8c5b637f4352a800f916a1b0f57849"
+            },
+            {
+              "ordinal": 9,
+              "kind": "source-scope",
+              "sha256": "0449441ab76d71821ddd822c2773e9d78dcd427b85972b936eb4195a3d6610ea"
+            }
+          ]
+        }
+      ],
+      "teachingAndMetadataEqual": true
+    }
+  ],
+  "figureReading": {
+    "state": "All sixteen light/dark source figures inspected outside Git; canonical mapping pending.",
+    "readings": [
+      {
+        "concept": "autologous-vs-allogeneic-cell-therapy.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Source panel distinguishes recipient/donor origin. The donor-to-recipient and recipient-to-donor arrows match labels and colours. The location panel is separate. The surrounding caption qualifies possible immune directions without incidence or a universal safety ranking.",
+        "remaining": "Repair the actual allogeneic record's identified risk and availability claims."
+      },
+      {
+        "concept": "chain-of-identity-and-custody.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both images label fictional source/recipient A, collection A and lot A, then branch the lot into two doses and a test sample while retaining the parent link. Custody is a separate handler/time lane. Recipient matching, lot review and final disposition remain separate. This is a single-recipient teaching scenario, compatible with the bounded IG-050 example scope.",
+        "remaining": "Canonical record mapping and field evidence still pending."
+      },
+      {
+        "concept": "cryopreservation.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both themes show a fictional 100-viable-cell input, 80 recovered cells, 72 live and 8 nonlive; 20 are not recovered. The dot grid contains the matching 72/8/20 groups. Recovered-set viability is 72/80 = 90%, while viable input recovery is 72/100 = 72%. Counts are in millions; no clinical potency or threshold follows.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      },
+      {
+        "concept": "ex-vivo-cell-expansion.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both themes distinguish enrichment (20 intended cells remain while other cells fall from 80 to 5) from a separate five-fold culture expansion (20 to 100 million viable cells). Fractions 20/100 and 20/25 are correct. Activation and killing require separate state/activity measurements.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      },
+      {
+        "concept": "ex-vivo-vs-in-vivo-engineering.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both PNG themes show ex vivo collection/engineering/testing/cell infusion, versus in vivo delivery of instructions. The mRNA illustration locates translation in cytoplasm; the DNA illustration includes nuclear transcription and mRNA export before translation. Carrier-to-T-cell targeting is separate from CAR-to-antigen recognition. These are schematic examples, without proving cell specificity, tissue distribution, integration, duration, clinical eligibility or benefit.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      },
+      {
+        "concept": "leukapheresis.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both themes show blood leaving circulation for a separator, a return stream to circulation and a distinct collected white-cell fraction. The collection is explicitly mixed lymphocytes plus monocytes with variable proportions. The diagram disclaims a finished therapy and complete recovery; it makes no treatment-success or fixed-duration claim.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      },
+      {
+        "concept": "release-testing-for-cell-products.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both themes show a fictional 100-cell grid: 60 live receptor-positive, 20 other live and 20 nonlive, with an 80-live-cell bracket. Ratios 60/80 = 75%, 80/100 = 80%, and 60/100 = 60% use distinct named denominators. Nonlive receptor status is not given. Expression is distinguished from potency.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      },
+      {
+        "concept": "vein-to-vein-time.md",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "assessment": "Both themes retain fictional elapsed days 0 collection, 7 culture end, 12 release and 18 infusion. Total clock is 18 days and culture clock 7 days. A separate fictional 10-person collection cohort has 8 infused and 2 never infused; non-infusion is reported separately, not assigned a waiting time or merged with the single workflow.",
+        "remaining": "Canonical field mapping and source-asset ledger evidence pending."
+      }
+    ],
+    "allFiguresViewed": 16
+  },
+  "figures": [
+    {
+      "concept": "autologous-vs-allogeneic-cell-therapy.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "autologous-vs-allogeneic-cell-therapy-light.svg",
+      "rendered": "autologous-vs-allogeneic-cell-therapy-light-view.png",
+      "sourceSha256": "2b5783fa0b2811c004d1375f6ebe78adfbe81e0fd12f22ec929baf5700165400",
+      "renderedSha256": "db0ebe95af3fa3bd988b932d3179e1b99275169fb995b7837272dfe72cd350b4"
+    },
+    {
+      "concept": "autologous-vs-allogeneic-cell-therapy.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/donor-recipient-source-and-recognition-directions-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "autologous-vs-allogeneic-cell-therapy-dark.svg",
+      "rendered": "autologous-vs-allogeneic-cell-therapy-dark-view.png",
+      "sourceSha256": "723c54d9eb0f15d29866709411aa524e5b6778a438e4c07f98dfc36816a3274c",
+      "renderedSha256": "990879e0286719506ac6486c073023610e54f860fe63549201e3362e90f20b83"
+    },
+    {
+      "concept": "chain-of-identity-and-custody.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "chain-of-identity-and-custody-light.svg",
+      "rendered": "chain-of-identity-and-custody-light-view.png",
+      "sourceSha256": "93ee957d57d80192a6d804640fd751ff7602fad683944a4eb420e1a28842fef6",
+      "renderedSha256": "52d801efe3d6e23e6e993638e96f9f36315b59a83f1dfebc129daa453ca6b707"
+    },
+    {
+      "concept": "chain-of-identity-and-custody.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/branching-identity-and-custody-records-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "chain-of-identity-and-custody-dark.svg",
+      "rendered": "chain-of-identity-and-custody-dark-view.png",
+      "sourceSha256": "8e9db57503bd304958f1a24238cbcb1c67fcbbebb600a1dda8fc5b0a5c21cb32",
+      "renderedSha256": "d67aab211b7c4ac41514edf13812e76c998ea89a67b8d369c3e34ebbd79e70be"
+    },
+    {
+      "concept": "cryopreservation.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "cryopreservation-light.svg",
+      "rendered": "cryopreservation-light-view.png",
+      "sourceSha256": "d33e29f4a0e4fd1425ce8f41fa67f1d1ca2205e13c77ff8cbc77a6df024f99ea",
+      "renderedSha256": "36b0ce991fc56ac198b38929f10f9c836630020155ffb90c6b4842fd72c650dd"
+    },
+    {
+      "concept": "cryopreservation.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/recovered-viability-and-input-recovery-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "cryopreservation-dark.svg",
+      "rendered": "cryopreservation-dark-view.png",
+      "sourceSha256": "197239c962bacfa79c2cc41bb56536ac452611f67bf0d49221b9c3a36cbfc16a",
+      "renderedSha256": "e79660b1095bbe696e30290f763a47bdc22a85467748bf95df0358c7d0590181"
+    },
+    {
+      "concept": "ex-vivo-cell-expansion.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "ex-vivo-cell-expansion-light.svg",
+      "rendered": "ex-vivo-cell-expansion-light-view.png",
+      "sourceSha256": "30a398773ce8e32481c64621a8754cb160155fe15b7ca5b713f4d2aa68112096",
+      "renderedSha256": "a247584ee7d73b23ebc142339bfd30168f859072a2f7da204d2e5d6364e68424"
+    },
+    {
+      "concept": "ex-vivo-cell-expansion.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/enrichment-expansion-and-activation-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "ex-vivo-cell-expansion-dark.svg",
+      "rendered": "ex-vivo-cell-expansion-dark-view.png",
+      "sourceSha256": "7f1edd808d9d04ce0f7fa87c7eab6af352f08bc35139e49133e3d42f7024341d",
+      "renderedSha256": "7ec05ec33e197a88bf4a5c20116683d9989a52bbe546b161149815428fe7c9ae"
+    },
+    {
+      "concept": "ex-vivo-vs-in-vivo-engineering.md",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "ex-vivo-vs-in-vivo-engineering-light.png",
+      "rendered": "ex-vivo-vs-in-vivo-engineering-light-view.png",
+      "sourceSha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "renderedSha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+    },
+    {
+      "concept": "ex-vivo-vs-in-vivo-engineering.md",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "ex-vivo-vs-in-vivo-engineering-dark.png",
+      "rendered": "ex-vivo-vs-in-vivo-engineering-dark-view.png",
+      "sourceSha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "renderedSha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+    },
+    {
+      "concept": "leukapheresis.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "leukapheresis-light.svg",
+      "rendered": "leukapheresis-light-view.png",
+      "sourceSha256": "3aa23f0666a449bacead7508474b12b6d5f61597da026f3fe9fe4fa82e191629",
+      "renderedSha256": "3d82be5c6ae7ac24f4284aafe960895fc42e7a657fcd7d0068db2a3a9d062724"
+    },
+    {
+      "concept": "leukapheresis.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/leukapheresis-collection-and-return-streams-b10-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "leukapheresis-dark.svg",
+      "rendered": "leukapheresis-dark-view.png",
+      "sourceSha256": "d398b10e72ad6a8f5477864c039f9492876387f4711a0714792a9b92e8204412",
+      "renderedSha256": "9194254a9f51ed39a3154f6ef03265ceb00a7ed7dee4b0a01d780e54385c3d4f"
+    },
+    {
+      "concept": "release-testing-for-cell-products.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "release-testing-for-cell-products-light.svg",
+      "rendered": "release-testing-for-cell-products-light-view.png",
+      "sourceSha256": "5c3e805d61e3c4daf2b0e78a4affe75ec50c1fd2b1777bc36334af351cca9980",
+      "renderedSha256": "414347dc2a4b0fe3329de0ce937065b45303b162f7806a294d7ff159885e409b"
+    },
+    {
+      "concept": "release-testing-for-cell-products.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/nested-live-and-receptor-positive-denominators-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "release-testing-for-cell-products-dark.svg",
+      "rendered": "release-testing-for-cell-products-dark-view.png",
+      "sourceSha256": "2498d27df92876655655b5575ba25039d54aedb117f4987a4ef2b9eb515c664d",
+      "renderedSha256": "945333971d6a0c53c77be4a96f56c243918725b8c6de4fc676858a609077bdda"
+    },
+    {
+      "concept": "vein-to-vein-time.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "vein-to-vein-time-light.svg",
+      "rendered": "vein-to-vein-time-light-view.png",
+      "sourceSha256": "3009c1120bac3084d940c475c3ef81c12611c25c4972b7b222df9a61988b7f9f",
+      "renderedSha256": "2b57469aeac077566eee9a4f9137810dabfb33e3acf3842e0f7015b92fedb17b"
+    },
+    {
+      "concept": "vein-to-vein-time.md",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/images/collection-infusion-and-culture-clocks-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "original": "vein-to-vein-time-dark.svg",
+      "rendered": "vein-to-vein-time-dark-view.png",
+      "sourceSha256": "88c4e0107a696ce79761553fdd64d2067fe23960445257a3a7eb1b722a6d4a08",
+      "renderedSha256": "15db2ae514d97a1f7d979f1cf01cc5e0af6578c3ed8661078d718b88ab3c237f"
+    }
+  ],
+  "scope": "General public teaching and metadata only; source bodies, source diagrams and review derivatives remain outside public Git. Eight exact teaching/metadata signatures; one separately read cryopreservation delta. Source illustrations are schematics, not empirical clinical observations."
+}

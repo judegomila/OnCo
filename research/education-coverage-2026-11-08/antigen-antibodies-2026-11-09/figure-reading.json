@@ -1,0 +1,255 @@
+{
+  "figures": [
+    {
+      "figure": "typical-igg-domains-binding-and-partners-v1-light.svg",
+      "originalSvgSha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35",
+      "directRenderPngSha256": "453d11e91c5081e33ab24a82cd564f7fa1d9d3fc8174294a03e2f1cd15d275ce",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "453d11e91c5081e33ab24a82cd564f7fa1d9d3fc8174294a03e2f1cd15d275ce",
+      "pages": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md; wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "requirements": [
+        "R07",
+        "R08"
+      ],
+      "ownersAffected": [
+        "antibody-structure",
+        "isotypes-and-fc-silencing"
+      ],
+      "contentDescribed": "Two heavy and two light chains; VH/CH1/VL/CL Fab arms, hinge, Fc of CH2+CH3 from both heavy chains; caption that Fc partners may engage and binding does not guarantee killing.",
+      "contributesOrContradicts": "Supports the Fab/Fc/hinge definitions and 'Fc is not an automatic kill command' in antibody-structure. No contradiction with the record.",
+      "legibilityOrRenderingNotes": "Legibility defect in the render: VL overlaps VH and CL overlaps CH1 so two domain labels are partly occluded; the Fab leader points at CL. Teaching content intact; for the figure owner, no record change.",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "matched-igg-selected-fc-contacts-v1-light.svg",
+      "originalSvgSha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be",
+      "directRenderPngSha256": "9125c9367e3befea4efc9c62e298acd85eb7327fcd4ea5b912e6673a3f96f4cf",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "9125c9367e3befea4efc9c62e298acd85eb7327fcd4ea5b912e6673a3f96f4cf",
+      "pages": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+      "requirements": [
+        "R17",
+        "R18"
+      ],
+      "ownersAffected": [
+        "isotypes-and-fc-silencing",
+        "fc-effector"
+      ],
+      "contentDescribed": "Two matched IgG sketches with identical green target-binding tips; panel 2 Fc gamma receptor and C1q contacts 'Reduced is a tested comparison'; panel 3 FcRn recycling in a vesicle 'Binding? Exposure? Measure separately'; footer 'no safety ranking'.",
+      "contributesOrContradicts": "Supports holding recognition constant, reduction being a tested comparison and FcRn as a separate measurement, all carried in the isotypes record and the fc-effector supplement. No contradiction.",
+      "legibilityOrRenderingNotes": "none",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+      "originalSvgSha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9",
+      "directRenderPngSha256": "65d4ab00abcdb52e35717affdfa92005067ef67ebe483ed3d08384c4f740dd7c",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "65d4ab00abcdb52e35717affdfa92005067ef67ebe483ed3d08384c4f740dd7c",
+      "pages": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "requirements": [
+        "R19",
+        "R20"
+      ],
+      "ownersAffected": [
+        "tertiary-lymphoid-structures"
+      ],
+      "contentDescribed": "Three scenes: loose mixed T (circles) and B (diamonds) aggregate; separate T region and B follicle; follicle with a germinal-centre ellipse; caption 'Criteria vary by study'.",
+      "contributesOrContradicts": "Supports the aggregate, follicle and germinal-centre ladder in the TLS supplement. It shows no follicular dendritic cells, so it neither supports nor contradicts the CD23 maturity criterion, which the record takes from the Vanhersecke full text, not the figure.",
+      "legibilityOrRenderingNotes": "The germinal-centre glyph is a small unlabelled polygon inside an ellipse and is hard to read; schematic only.",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+      "originalSvgSha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96",
+      "directRenderPngSha256": "7324a02e4d23017b435e129ee48b3e2d50623d8963f97010ed42a907e393c62e",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "7324a02e4d23017b435e129ee48b3e2d50623d8963f97010ed42a907e393c62e",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+      "requirements": [
+        "R23",
+        "R24",
+        "R25"
+      ],
+      "ownersAffected": [
+        "antigen",
+        "epitope"
+      ],
+      "contentDescribed": "One protein with three distant sequence segments meeting on a folded surface for an antibody tip; a fragment of the same protein held by HLA under a TCR; 'Same source is not same surface. Recognition is not a killing result'.",
+      "contributesOrContradicts": "Supports the conformational-epitope and peptide-plus-restricting-HLA sentences added to epitope and antigen. No contradiction.",
+      "legibilityOrRenderingNotes": "none",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "antigen-origin-and-display-routes-v1-light.svg",
+      "originalSvgSha256": "5fe75052689b996041a3662170bbbf5fd545acafd67c5af72c2b8eafdd11cc1e",
+      "directRenderPngSha256": "f8737665743a5ddfa2fcc2f5de03dff657f71614b03c247209afe824550824e7",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "f8737665743a5ddfa2fcc2f5de03dff657f71614b03c247209afe824550824e7",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "requirements": [
+        "R45",
+        "R46"
+      ],
+      "ownersAffected": [
+        "dendritic-cell-cross-presentation"
+      ],
+      "contentDescribed": "Three panels: direct (protein made and processed in the presenter, presenter HLA); cross-presentation (protein received from a donor, processed by the recipient); cross-dressing (intact donor peptide-HLA complex transferred, donor HLA kept, no new processing step shown); footer 'Display shown is not priming tested; uptake alone does not show display'.",
+      "contributesOrContradicts": "Supports the display-versus-priming and cross-dressing distinctions in the dendritic-cell-cross-presentation supplement. It does not depict class II exclusion or vaccine-RNA direct presentation, which the supplement states from the page text.",
+      "legibilityOrRenderingNotes": "none",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "b2m-location-and-shared-dependency-v1-light.svg",
+      "originalSvgSha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad",
+      "directRenderPngSha256": "287cfca274585c7ee2adcd7258eccbeb50b94928b6a9aef2b702ddbd96869eb3",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "287cfca274585c7ee2adcd7258eccbeb50b94928b6a9aef2b702ddbd96869eb3",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+      "requirements": [
+        "R30",
+        "R31",
+        "R33"
+      ],
+      "ownersAffected": [
+        "hla"
+      ],
+      "contentDescribed": "Class I locating peptide, heavy chain and B2M (B2M does not span the membrane); one of three illustrative alleles lost; all three displays impaired by a shared assembly defect; 'Class II uses a different assembly. A variant alone does not prove loss'.",
+      "contributesOrContradicts": "Supports the allele-loss versus shared-assembly-defect paragraph of the hla record. No contradiction. It does not show B2M's other partners (HLA-E, MR1, FcRn); those come from UniProt and Wani 2006 in the record.",
+      "legibilityOrRenderingNotes": "none",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "hla-class-i-contacts-v2-light.svg",
+      "originalSvgSha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+      "directRenderPngSha256": "304987ffa13983aac141845dbe96fc6d8ef749f91440cf851e696f6218a3f58a",
+      "identicalInBothPinnedRefs": true,
+      "derivativeSvgSha256": "f9935f416425250b0dedf7cb121f835285609acb60a68ec0e219fa549087dd65",
+      "derivativePngSha256": "5d71e13fe47da3539601384116a4e93b8c6ec1e8850ee556020b3809a9fce884",
+      "directRenderResult": "entirely black image (sharp/librsvg does not resolve var(--x) in fill and stroke attributes); the directly rendered black PNG is also retained",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "requirements": [
+        "R34"
+      ],
+      "ownersAffected": [
+        "hla"
+      ],
+      "contentDescribed": "TCR over a peptide in a heavy-chain groove with B2M beside the heavy chain, membrane-anchored heavy chain; CD8 drawn as a dimer contacting a lower heavy-chain point; 'no function promise'.",
+      "contributesOrContradicts": "Consistent with the hla record's class I description and with Gao et al. 1997, whose abstract has CD8alpha-alpha contacting the HLA-A2 alpha2 and alpha3 domains and also B2M; the figure draws only a heavy-chain contact point, a simplification the record does not repeat.",
+      "legibilityOrRenderingNotes": "The original SVG renders blank black in sharp/librsvg because fills use var(--x) presentation attributes; inspected through a variable-substituted derivative.",
+      "visuallyInspected": true,
+      "derivativeSvgPrivateFilename": "hla-class-i-contacts-v2-light.varsubst.svg"
+    },
+    {
+      "figure": "hla-class-ii-contacts-v2-light.svg",
+      "originalSvgSha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+      "directRenderPngSha256": "304987ffa13983aac141845dbe96fc6d8ef749f91440cf851e696f6218a3f58a",
+      "identicalInBothPinnedRefs": true,
+      "derivativeSvgSha256": "7a68ae84f6d7c05df125a6951c16bbbadcbd22881cdc300467d444a220077d25",
+      "derivativePngSha256": "e86ad5b9a793afd2d3881707115704dbd0e8c8d9a3d0a47817d8c688d83a8322",
+      "directRenderResult": "entirely black image (sharp/librsvg does not resolve var(--x) in fill and stroke attributes); the directly rendered black PNG is also retained",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "requirements": [
+        "R34"
+      ],
+      "ownersAffected": [
+        "hla"
+      ],
+      "contentDescribed": "Alpha and beta chains both crossing the membrane, peptide in groove, TCR over peptide-plus-HLA, one CD4 strand contacting the lower beta-chain region; no B2M.",
+      "contributesOrContradicts": "Consistent with the record's class II description (alpha and beta chains, no B2M, CD4 partner) and the Yin 2012 abstract (TCR and CD4 engage one pMHC without contacting each other). No contradiction.",
+      "legibilityOrRenderingNotes": "same blank-render defect as class I in the original SVG",
+      "visuallyInspected": true,
+      "derivativeSvgPrivateFilename": "hla-class-ii-contacts-v2-light.varsubst.svg"
+    },
+    {
+      "figure": "altered-protein-candidate-evidence-gates-v1-light.svg",
+      "originalSvgSha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1",
+      "directRenderPngSha256": "b4cd68d320f32740c0eb5ab63602dd57f9848b80ee3bb7182794cbe79c1541ba",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "b4cd68d320f32740c0eb5ab63602dd57f9848b80ee3bb7182794cbe79c1541ba",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "requirements": [
+        "R52"
+      ],
+      "ownersAffected": [],
+      "contentDescribed": "Abstract blocks: normal versus altered with one changed block; candidate fragment to class I display ('Naturally processed and displayed?'); display to receptor ('Compatible receptor response?'); 'No clinical benefit or safety inferred'.",
+      "contributesOrContradicts": "Supports the evidence-ladder patch proposed for the blocked neoantigen owner. No applied record uses it, so R52 stays open.",
+      "legibilityOrRenderingNotes": "none",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "matched-mutant-normal-peptide-responses-v1-light.svg",
+      "originalSvgSha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2",
+      "directRenderPngSha256": "023af05bf87afe05da6425c34ef61321df3e687a1d3bb1260add3d9f528515c3",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "023af05bf87afe05da6425c34ef61321df3e687a1d3bb1260add3d9f528515c3",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "requirements": [
+        "R53"
+      ],
+      "ownersAffected": [],
+      "contentDescribed": "Fictional loaded-peptide curves read from the plot: mutant about 5, 28, 70, 90 and normal about 3, 18, 61, 86 per cent activated responders at 1, 10, 100, 1000 nM (log axis, 24 h); 'Both curves rise: this receptor also responds to normal peptide. Natural display / safety: open'.",
+      "contributesOrContradicts": "Matches the page's stated invented values and its message; supports the cross-reactivity wording in the self-similarity patch proposal only. Invented numbers are deliberately not carried into any record.",
+      "legibilityOrRenderingNotes": "The headline 'Same concentration, different receptor responses' can be read as discrimination while the caption concludes the opposite; the page text resolves it. For the figure owner.",
+      "visuallyInspected": true
+    },
+    {
+      "figure": "intended-x-and-unintended-y-recognition-v1-light.svg",
+      "originalSvgSha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9",
+      "directRenderPngSha256": "33a801c6ef2ec557a881f70704467cb2d6380e59ff8cd997c6bbbd87fd23cb7c",
+      "identicalInBothPinnedRefs": true,
+      "derivativePngSha256": "33a801c6ef2ec557a881f70704467cb2d6380e59ff8cd997c6bbbd87fd23cb7c",
+      "pages": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+      "requirements": [
+        "R48"
+      ],
+      "ownersAffected": [
+        "tumor-associated-antigen"
+      ],
+      "contentDescribed": "Panel 1: a CAR recognising X on both tumour and healthy cells (on-target, off-tumour); panel 2: the same TCR recognising peptide X and peptide Y on HLA (off-target cross-reactivity); 'Less X does not prove safety. Removing X does not remove Y'.",
+      "contributesOrContradicts": "Supports the two-hazard distinction in tumor-associated-antigen. Fictional X/Y with no rates; none carried into the record.",
+      "legibilityOrRenderingNotes": "Minor: the arrow overlaps the 'Same TCR' label.",
+      "visuallyInspected": true
+    }
+  ],
+  "initialRasterReads": {
+    "antibody-coating-adcc-v1-light.png": {
+      "laterSha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16",
+      "originalSha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "antibody-coating-adcp-v1-light.png": {
+      "laterSha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d",
+      "originalSha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "antibody-coating-cdc-v1-light.png": {
+      "laterSha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a",
+      "originalSha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "immunopeptidome-repertoire-and-recovery-v2-light.png": {
+      "laterSha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9",
+      "originalSha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9",
+      "identical": true,
+      "readDepth": "viewed as image"
+    },
+    "processing-display-recognition-v2-light.png": {
+      "laterSha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "originalSha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3",
+      "identical": true,
+      "readDepth": "viewed as image"
+    }
+  },
+  "renderingCorrection": "Two HLA SVGs needed CSS-variable substitution for librsvg. This establishes a renderer limitation, not a broken source SVG.",
+  "nonScientificMaintenanceNotes": [
+    "typical-igg label occlusion",
+    "immune-aggregate small unlabelled GC glyph",
+    "matched-mutant-normal headline reads as discrimination",
+    "hla class I/II SVGs use var() presentation attributes some renderers cannot resolve"
+  ],
+  "unviewedVariants": "Dark and other unassigned supporting assets remain independently unclassified; no inferred visual credit."
+}

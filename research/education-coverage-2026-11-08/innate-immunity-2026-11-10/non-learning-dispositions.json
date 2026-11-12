@@ -1,0 +1,114 @@
+[
+  {
+    "id": "adeno.sources",
+    "page": "adeno",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "cyto.sources",
+    "page": "cyto",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "Janeway sections 2-19 and 2-20 (NBK27122) still behind reCAPTCHA; re-tested in this batch."
+  },
+  {
+    "id": "chk.sources",
+    "page": "chk",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "tol.sources",
+    "page": "tol",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "Immunobiology self-tolerance chapter (NBK27174) behind reCAPTCHA. Xing and Hogquist 2012 is an accessible stand-in for the T-cell content, not the Guide source."
+  },
+  {
+    "id": "sting.sources",
+    "page": "sting",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "dc.sources",
+    "page": "dc",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "gd.sources",
+    "page": "gd",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "mac.sources",
+    "page": "mac",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "nk.sources",
+    "page": "nk",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "NCBI Bookshelf NBK565844 behind reCAPTCHA. The KIR allele split is supported by Mariuzza 2025 full text, not by Parham."
+  },
+  {
+    "id": "nkt.sources",
+    "page": "nkt",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "prr.sources",
+    "page": "prr",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "Molecular Biology of the Cell chapter (NBK26846) behind reCAPTCHA."
+  },
+  {
+    "id": "roster.sources",
+    "page": "roster",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "Janeway components chapter (NBK27092) behind reCAPTCHA."
+  },
+  {
+    "id": "infl.sources",
+    "page": "infl",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "ia.sources",
+    "page": "ia",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "Janeway principles chapter (NBK27090) behind reCAPTCHA."
+  },
+  {
+    "id": "ifn.sources",
+    "page": "ifn",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": ""
+  },
+  {
+    "id": "lymph.sources",
+    "page": "lymph",
+    "kind": "source-list-metadata",
+    "disposition": "metadata-only (no teaching credit)",
+    "sourceAccessLimits": "NCI Dictionary lymph-system page is a JavaScript shell; Janeway components chapter blocked."
+  }
+]

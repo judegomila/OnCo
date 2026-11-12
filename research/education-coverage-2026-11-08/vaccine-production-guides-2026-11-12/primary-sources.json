@@ -1,0 +1,712 @@
+{
+  "checkedOn": "2026-11-12",
+  "sourceReadingBegan": "2026-11-11",
+  "publicationIdentities": 13,
+  "journalIdentities": 12,
+  "conferenceIdentities": 1,
+  "completeAbstractsRead": 13,
+  "wholeOriginalPapersRead": 0,
+  "rawCaptures": 40,
+  "sources": [
+    {
+      "id": "schubert",
+      "type": "journal-publication",
+      "pmid": "26813686",
+      "doi": "10.1186/s13073-016-0263-6",
+      "pmcid": "PMC4728757",
+      "title": "Designing string-of-beads vaccines with optimal spacers.",
+      "firstAuthor": "Schubert",
+      "year": 2016,
+      "registries": {
+        "europePmcCapture": "epmc-schubert.json",
+        "crossrefCapture": "crossref-schubert.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "3ea1ab09960e9e9bd60d90100dbb4991a1b81381cc11dabfd71672c841b1fb23",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "wu",
+      "type": "journal-publication",
+      "pmid": "31012849",
+      "doi": "10.7554/elife.45396",
+      "pmcid": "PMC6529216",
+      "title": "Translation affects mRNA stability in a codon-dependent manner in human cells.",
+      "firstAuthor": "Wu",
+      "year": 2019,
+      "registries": {
+        "europePmcCapture": "epmc-wu-resolved.json",
+        "crossrefCapture": "crossref-wu.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "c396c44dc17f1f6c911d980b19d15db8bb71577e572260e81d373c6050580f3f",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "kariko2005",
+      "type": "journal-publication",
+      "pmid": "16111635",
+      "doi": "10.1016/j.immuni.2005.06.008",
+      "pmcid": null,
+      "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+      "firstAuthor": "Karikó",
+      "year": 2005,
+      "registries": {
+        "europePmcCapture": "epmc-kariko2005.json",
+        "crossrefCapture": "crossref-kariko2005.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "387cbcdb19a450c7d6010bbca13ebed06aaa4f030ef5fc1466ee99fe02df45e3",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "rojas",
+      "type": "journal-publication",
+      "pmid": "37165196",
+      "doi": "10.1038/s41586-023-06063-y",
+      "pmcid": "PMC10171177",
+      "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+      "firstAuthor": "Rojas",
+      "year": 2023,
+      "registries": {
+        "europePmcCapture": "epmc-rojas.json",
+        "crossrefCapture": "crossref-rojas.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract plus specified targeted body entries",
+      "abstractTextSha256": "c2fa3a3f649cb5c9ad5466bd3ff8bc8a5f50a4f1d390ae5fc3770bcf8fb1dd95",
+      "bodyReadParagraphIndices": [
+        45,
+        59
+      ],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "kozak",
+      "type": "journal-publication",
+      "pmid": "3943125",
+      "doi": "10.1016/0092-8674(86)90762-2",
+      "pmcid": null,
+      "title": "Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes.",
+      "firstAuthor": "Kozak",
+      "year": 1986,
+      "registries": {
+        "europePmcCapture": "epmc-kozak.json",
+        "crossrefCapture": "crossref-kozak.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "b8dee62f0f926edc5dc66bc4b3b6fd11db3bc8058661871d2b28103973334001",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "tnbc-merit",
+      "type": "journal-publication",
+      "pmid": "41708868",
+      "doi": "10.1038/s41586-025-10004-2",
+      "pmcid": "PMC13017525",
+      "title": "Individualized mRNA vaccines evoke durable T cell immunity in adjuvant TNBC.",
+      "firstAuthor": "Sahin",
+      "year": 2026,
+      "registries": {
+        "europePmcCapture": "epmc-tnbc-merit.json",
+        "crossrefCapture": "crossref-tnbc-merit.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract plus specified targeted body entries",
+      "abstractTextSha256": "7f91f6b06a0fa92888e2a9d8738f7d6a79125c8d61e83fd41e910868cecd251e",
+      "bodyReadParagraphIndices": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        8,
+        45,
+        46,
+        47,
+        48
+      ],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "weber",
+      "type": "journal-publication",
+      "pmid": "38246194",
+      "doi": "10.1016/s0140-6736(23)02268-7",
+      "pmcid": null,
+      "title": "Individualised neoantigen therapy mRNA-4157 (V940) plus pembrolizumab versus pembrolizumab monotherapy in resected melanoma (KEYNOTE-942): a randomised, phase 2b study.",
+      "firstAuthor": "Weber",
+      "year": 2024,
+      "registries": {
+        "europePmcCapture": "epmc-weber.json",
+        "crossrefCapture": "crossref-weber.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "068907477663201879087af6c21858cad272b2c9d58bd3f0e223f19ec1eccdd2",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "kariko2011",
+      "type": "journal-publication",
+      "pmid": "21890902",
+      "doi": "10.1093/nar/gkr695",
+      "pmcid": "PMC3241667",
+      "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+      "firstAuthor": "Karikó",
+      "year": 2011,
+      "registries": {
+        "europePmcCapture": "epmc-kariko2011.json",
+        "crossrefCapture": "crossref-kariko2011.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract plus specified targeted body entries",
+      "abstractTextSha256": "11e5ab3cfdcd61b9562bb56ac35e90f289e6fd4dfe8561d8f9aeda3674c765db",
+      "bodyReadParagraphIndices": [
+        4
+      ],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "truex",
+      "type": "journal-publication",
+      "pmid": "31959774",
+      "doi": "10.1038/s41598-019-56943-5",
+      "pmcid": "PMC6971261",
+      "title": "Automated Flow Synthesis of Tumor Neoantigen Peptides for Personalized Immunotherapy.",
+      "firstAuthor": "Truex",
+      "year": 2020,
+      "registries": {
+        "europePmcCapture": "epmc-truex.json",
+        "crossrefCapture": "crossref-truex.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract plus specified targeted body entries",
+      "abstractTextSha256": "141351bb0fc70386fd0ea5dbe2fea881202b7009e2bd99c6d50f5ff1620bf236",
+      "bodyReadParagraphIndices": [
+        38,
+        45,
+        49
+      ],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "kreiter",
+      "type": "journal-publication",
+      "pmid": "18097032",
+      "doi": "10.4049/jimmunol.180.1.309",
+      "pmcid": null,
+      "title": "Increased antigen presentation efficiency by coupling antigens to MHC class I trafficking signals.",
+      "firstAuthor": "Kreiter",
+      "year": 2008,
+      "registries": {
+        "europePmcCapture": "epmc-kreiter-r1.json",
+        "crossrefCapture": "crossref-kreiter-r1.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract only",
+      "abstractTextSha256": "069cc62e7d60baa415586c8ae5de08f35fcc0fc4bbe12b0e34ac1be905dfd36c",
+      "bodyReadParagraphIndices": [],
+      "wholeOriginalPaperRead": false
+    },
+    {
+      "id": "ct251",
+      "type": "conference-protocol-abstract",
+      "doi": "10.1158/1538-7445.am2025-ct251",
+      "title": "Abstract CT251: Phase 3 INTerpath-009 study: Individualized neoantigen therapy V940 (mRNA-4157) plus pembrolizumab for resected stage II-IIIB (N2) NSCLC with incomplete pathological response to neoadjuvant immunochemotherapy",
+      "firstAuthor": "Cascone",
+      "year": 2025,
+      "registries": {
+        "crossrefCapture": "crossref-ct251.json",
+        "europePmcHits": 0
+      },
+      "readDepth": "Complete publisher-registered abstract supplied in Crossref; publisher HTML returned 403.",
+      "abstractTextSha256": "88f933489660b116baa6e9ee9d95abb3558fde3020481b313441d80349983932",
+      "wholeOriginalPaperRead": false,
+      "scope": "INTerpath-009 lung-cancer protocol formulation description; not a KEYNOTE-942 outcome report or a current recruitment-status check."
+    },
+    {
+      "id": "losada-context",
+      "type": "journal-review",
+      "contextOnly": true,
+      "pmid": "42334490",
+      "pmcid": "PMC13541854",
+      "doi": "10.1007/s00216-026-06615-x",
+      "title": "From nucleotides to intact transcripts through oligonucleotides: Integrated chromatographic strategies for therapeutic mRNA characterization.",
+      "firstAuthor": "Losada",
+      "year": 2026,
+      "registries": {
+        "europePmcCapture": "epmc-losada-context.json",
+        "crossrefCapture": "crossref-losada-context.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract and specified targeted review passages, not original experimental or regulatory evidence",
+      "bodyReadParagraphIndices": [
+        5,
+        19,
+        99
+      ],
+      "wholeOriginalPaperRead": false,
+      "wholeReviewRead": false,
+      "abstractTextSha256": "d3ced01ab599fa0b7291b1a0d457b3f73d2e63dbe4c8d65d11b1c804e1957d02"
+    },
+    {
+      "id": "nowak-context",
+      "type": "journal-review",
+      "contextOnly": true,
+      "pmid": "41557011",
+      "pmcid": "PMC12819531",
+      "doi": "10.1007/s11033-026-11455-0",
+      "title": "Process and analytical strategies for the safe production of mRNA vaccines and therapeutics.",
+      "firstAuthor": "Nowak",
+      "year": 2026,
+      "registries": {
+        "europePmcCapture": "epmc-nowak-context.json",
+        "crossrefCapture": "crossref-nowak-context.json",
+        "doiTitleFirstAuthorYearAgree": true
+      },
+      "readDepth": "complete abstract and specified targeted review passages, not original experimental or regulatory evidence",
+      "bodyReadParagraphIndices": [
+        6,
+        14,
+        135
+      ],
+      "wholeOriginalPaperRead": false,
+      "wholeReviewRead": false,
+      "abstractTextSha256": "982073f6d53d98fb2768ad3c3ff89bebbc0015cec32037e1d08685ed8d5501e4"
+    }
+  ],
+  "officialDocuments": [
+    {
+      "id": "fda-q5e",
+      "sourceURL": "https://www.fda.gov/media/71489/download",
+      "rawPdfSha256": "5eee33fc79634a0edd60a5e403e500a1339c15cf24b38b28c38e9be86a0ecaf5",
+      "pdfTextPagesRead": [
+        5,
+        6
+      ],
+      "readDepth": "specified whole text pages only; no end-to-end document or visual PDF review claimed",
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "fda-quality2016",
+      "sourceURL": "https://www.fda.gov/media/86193/download",
+      "rawPdfSha256": "0af8c1222054c0449c524daaf349c6f57a0a3497e978ee4c0cba8ecaf7c16118",
+      "pdfTextPagesRead": [
+        4,
+        6,
+        7
+      ],
+      "readDepth": "specified whole text pages only; no end-to-end document or visual PDF review claimed",
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "fda-cmc1999",
+      "sourceURL": "https://www.fda.gov/media/73614/download",
+      "rawPdfSha256": "10021352c8cc9b00767a140b93a7e2eae025f60c84e48af977de11c827c8a3c7",
+      "pdfTextPagesRead": [
+        5
+      ],
+      "readDepth": "specified whole text pages only; no end-to-end document or visual PDF review claimed",
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "fda-cancer2011",
+      "sourceURL": "https://www.fda.gov/media/82312/download",
+      "rawPdfSha256": "6ec8bb43330915bb80796c7a9f107a55a80f00948b253b4242d6b4bc1cffcd89",
+      "pdfTextPagesRead": [
+        4,
+        12
+      ],
+      "readDepth": "specified whole text pages only; no end-to-end document or visual PDF review claimed",
+      "wholeDocumentRead": false
+    }
+  ],
+  "inheritedContexts": [
+    {
+      "artifact": "rna-delivery-2026-11-10/primary-sources.json",
+      "sha256": "80704d43da659bffb39b8a234430f7504cf765cb7e0c861bbfb9a0e340ded59e",
+      "scope": "Only unchanged cited owner fields used in this comparison; earlier recorded reading limits and incomplete independent acceptance stay in force. No new full-text read or whole-field scientific certification."
+    },
+    {
+      "artifact": "binders-cmc-2026-11-10/primary-sources.json",
+      "sha256": "9b334face78c0eb4b6c76274383b836d22dd1ff0111561fb1bf98bf555ddebc4",
+      "scope": "Only unchanged cited owner fields used in this comparison; earlier recorded reading limits and incomplete independent acceptance stay in force. No new full-text read or whole-field scientific certification."
+    },
+    {
+      "artifact": "effect-reasoning-2026-11-10/primary-sources.json",
+      "sha256": "aebc38156c21f335f16e4ac950734ec6b3137be3d9537f037d11b72710a02957",
+      "scope": "Only unchanged cited owner fields used in this comparison; earlier recorded reading limits and incomplete independent acceptance stay in force. No new full-text read or whole-field scientific certification."
+    },
+    {
+      "artifact": "vaccine-presentation-guides-2026-11-11/primary-sources.json",
+      "sha256": "d7d3dd8a33c987436606bf36151c5d4fcb97cf9abb83e70fe6ca8e343efbe0ff",
+      "scope": "Only unchanged cited owner fields used in this comparison; earlier recorded reading limits and incomplete independent acceptance stay in force. No new full-text read or whole-field scientific certification."
+    },
+    {
+      "artifact": "antigen-antibodies-2026-11-09/primary-sources.json",
+      "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020",
+      "scope": "Only unchanged cited owner fields used in this comparison; earlier recorded reading limits and incomplete independent acceptance stay in force. No new full-text read or whole-field scientific certification."
+    }
+  ],
+  "sourceCautions": [
+    {
+      "source": "tnbc-merit",
+      "scope": "Figure 1 caption glosses q2w as twice a week; main text specifies six weekly and two biweekly administrations with final day 64. The record uses the main-text schedule as every other week, not the erroneous caption gloss.",
+      "credit": "No clinical recommendation or global schedule inference."
+    },
+    {
+      "source": "ct251",
+      "scope": "Crossref supplies the registered abstract. The DOI landing returned 403; no challenge was bypassed."
+    },
+    {
+      "source": "kreiter",
+      "scope": "Initial DOI resolution returned HTTP 503 with no response body retained; fresh Crossref and EPMC retry captures both returned 200."
+    },
+    {
+      "source": "nowak-context",
+      "scope": "The 10 ng/dose statement is confirmed as a statement in this secondary manufacturing review. The underlying primary regulatory basis, applicable product context and jurisdiction remain required verification before treating it as a release criterion. The current field attributes it to the review; the new notes do not adopt a universal RNA cutoff."
+    }
+  ],
+  "elicit": {
+    "callableScientificInterface": false,
+    "toolSearchMatches": [
+      "delegate_task description",
+      "task_status description"
+    ],
+    "reportsCreated": 0,
+    "questionsCreated": 0,
+    "frozenOccurrencesUnchanged": 917
+  },
+  "captureHashes": [
+    {
+      "file": "epmc-schubert.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13073-016-0263-6%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs13073-016-0263-6%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 5501,
+      "sha256": "67c718c0229993b23180031f2c38e3acaeabafa3ec900de14b8284d99333493a"
+    },
+    {
+      "file": "crossref-schubert.json",
+      "url": "https://api.crossref.org/works/10.1186%2Fs13073-016-0263-6",
+      "finalURL": "https://api.crossref.org/works/10.1186%2Fs13073-016-0263-6",
+      "httpStatus": 200,
+      "bytes": 16426,
+      "sha256": "3d1adcf4b32d8f16b317300baa175a1f1c16a4228da683264e3aa3c547329409"
+    },
+    {
+      "file": "body-schubert.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4728757/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4728757/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 135796,
+      "sha256": "1a3aefe61aa92adf9c6dbf203cefe68f10ea3482a7b25fa258ee825a836f1ce8"
+    },
+    {
+      "file": "epmc-wu.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH_LAST%3AWu+AND+FIRST_PDATE%3A%5B2019-01-01+TO+2019-12-31%5D+AND+JOURNAL%3AeLife+AND+%28stability+OR+codon%29&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH_LAST%3AWu+AND+FIRST_PDATE%3A%5B2019-01-01+TO+2019-12-31%5D+AND+JOURNAL%3AeLife+AND+%28stability+OR+codon%29&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 261,
+      "sha256": "7e8a300e34b2abfd870a53c819f1f472c278b9e4645db9f29b2e8a721277f7b5"
+    },
+    {
+      "file": "epmc-kariko2005.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16111635+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16111635+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 7815,
+      "sha256": "2cb12ab1f4322ba1d8d2a0533ff63bc7537f7d299721b8d03fbe0d7dd507101b"
+    },
+    {
+      "file": "crossref-kariko2005.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.immuni.2005.06.008",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.immuni.2005.06.008",
+      "httpStatus": 200,
+      "bytes": 12671,
+      "sha256": "828595c140a2e2728e60aee0407f43167fc1e6a3dda9f2c8eaab640534876193"
+    },
+    {
+      "file": "epmc-rojas.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41586-023-06063-y%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41586-023-06063-y%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 27173,
+      "sha256": "51054cb2a093f10f023553d429b4759de060cec323412cd3e2ca098de7ffd7ab"
+    },
+    {
+      "file": "crossref-rojas.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41586-023-06063-y",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41586-023-06063-y",
+      "httpStatus": 200,
+      "bytes": 39655,
+      "sha256": "690d35e3845a6800e5459d3cce2b7d14f2f39f4d586ef8125ace419e0c8fbfd1"
+    },
+    {
+      "file": "body-rojas.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10171177/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10171177/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 231321,
+      "sha256": "9eb2155b453ea95f5a46d115bb9bf935932ce34643b8aed37ee6cd5a48125a9a"
+    },
+    {
+      "file": "epmc-kozak.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A3943125+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A3943125+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 4901,
+      "sha256": "9b417d6a612a8456e9637b7983375db2b24b72c8faf4bd1f2c696881d9802b83"
+    },
+    {
+      "file": "crossref-kozak.json",
+      "url": "https://api.crossref.org/works/10.1016%2F0092-8674%2886%2990762-2",
+      "finalURL": "https://api.crossref.org/works/10.1016%2F0092-8674%2886%2990762-2",
+      "httpStatus": 200,
+      "bytes": 16310,
+      "sha256": "766fbb56897554cd08650113ff1adfdb719c1c21e37af0604846cdc8c2cab4bf"
+    },
+    {
+      "file": "epmc-tnbc-merit.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41586-025-10004-2%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41586-025-10004-2%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 11231,
+      "sha256": "769b0af3da7e9f0a448cc8b6ce768502f8387695de65ed2720a856ea101ec43d"
+    },
+    {
+      "file": "crossref-tnbc-merit.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41586-025-10004-2",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41586-025-10004-2",
+      "httpStatus": 200,
+      "bytes": 26496,
+      "sha256": "445182580ea7b647a5ff0c5bbf20e228b2322b3e3fcec7860e4e425dc1e588d8"
+    },
+    {
+      "file": "body-tnbc-merit.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13017525/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13017525/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 182980,
+      "sha256": "f84d8fb3af5d532e5f10b1d67fb915a26687a9dba99466844564f35020873fe5"
+    },
+    {
+      "file": "epmc-weber.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38246194+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38246194+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 14193,
+      "sha256": "1947763d349e75624862d29b5bc88bdae26f006aaca5019c53792cc61966e783"
+    },
+    {
+      "file": "crossref-weber.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2823%2902268-7",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2823%2902268-7",
+      "httpStatus": 200,
+      "bytes": 18700,
+      "sha256": "ff6694cd0a038290bead9fa2a2f065fb1f3b710fe77ac94f50b943105e5b9a62"
+    },
+    {
+      "file": "epmc-ct251.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.AM2025-CT251%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.AM2025-CT251%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 201,
+      "sha256": "8307cf26a8a71739071ecb195a4729a8ad422cb9022170ec7c03ad7e47027dc3"
+    },
+    {
+      "file": "epmc-kariko2011.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21890902+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21890902+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 6412,
+      "sha256": "0a44c6c589d2da2816c894995a69c4f3ab8edaa786adfff12f0ced07fea6379e"
+    },
+    {
+      "file": "crossref-kariko2011.json",
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkr695",
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkr695",
+      "httpStatus": 200,
+      "bytes": 14427,
+      "sha256": "25fc64c0c3b7ee723df9566ee0f0a9a85bea6077b3742a8cc21c8b50c22c9ddf"
+    },
+    {
+      "file": "body-kariko2011.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3241667/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3241667/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 81938,
+      "sha256": "719bcb45a11078870e1208d8a15b5e6ef8d6a18d326fc0c5790073a57f4aa951"
+    },
+    {
+      "file": "epmc-truex.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41598-019-56943-5%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41598-019-56943-5%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 10763,
+      "sha256": "584d9d50dfcf4eeaf9392ca017aac0ed09bcd6fffc0ac275a60d93cf98601332"
+    },
+    {
+      "file": "crossref-truex.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41598-019-56943-5",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41598-019-56943-5",
+      "httpStatus": 200,
+      "bytes": 17746,
+      "sha256": "11f094676cd4356c34b9efd53c3ed736d479e68c524652884f3481877ed97de1"
+    },
+    {
+      "file": "body-truex.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6971261/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6971261/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 99193,
+      "sha256": "0491bd07667aed219a784c80f80e3bbcc6afcde9dc69cdc99b0d0e249255dac6"
+    },
+    {
+      "file": "fda-q5e.pdf",
+      "url": "https://www.fda.gov/media/71489/download",
+      "finalURL": "https://www.fda.gov/media/71489/download",
+      "httpStatus": 200,
+      "bytes": 59492,
+      "sha256": "5eee33fc79634a0edd60a5e403e500a1339c15cf24b38b28c38e9be86a0ecaf5"
+    },
+    {
+      "file": "fda-cmc1999.pdf",
+      "url": "https://www.fda.gov/media/73614/download",
+      "finalURL": "https://www.fda.gov/media/73614/download",
+      "httpStatus": 200,
+      "bytes": 158259,
+      "sha256": "10021352c8cc9b00767a140b93a7e2eae025f60c84e48af977de11c827c8a3c7"
+    },
+    {
+      "file": "fda-quality2016.pdf",
+      "url": "https://www.fda.gov/media/86193/download",
+      "finalURL": "https://www.fda.gov/media/86193/download",
+      "httpStatus": 200,
+      "bytes": 125737,
+      "sha256": "0af8c1222054c0449c524daaf349c6f57a0a3497e978ee4c0cba8ecaf7c16118"
+    },
+    {
+      "file": "fda-cancer2011.pdf",
+      "url": "https://www.fda.gov/media/82312/download",
+      "finalURL": "https://www.fda.gov/media/82312/download",
+      "httpStatus": 200,
+      "bytes": 76935,
+      "sha256": "6ec8bb43330915bb80796c7a9f107a55a80f00948b253b4242d6b4bc1cffcd89"
+    },
+    {
+      "file": "epmc-wu-resolved.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7554%2Felife.45396%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.7554%2Felife.45396%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 6547,
+      "sha256": "47a6ff0a52746d897485773f497133b53aa4fdb91c4ebb22ca40fab0bb3b0d68"
+    },
+    {
+      "file": "crossref-wu.json",
+      "url": "https://api.crossref.org/works/10.7554%2Felife.45396",
+      "finalURL": "https://api.crossref.org/works/10.7554%2Felife.45396",
+      "httpStatus": 200,
+      "bytes": 26462,
+      "sha256": "24da6d9b5896dde83946d19a511000da3eb3f721882c96b6ed08f44cbe3f30e6"
+    },
+    {
+      "file": "body-wu.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6529216/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6529216/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 217966,
+      "sha256": "1cdfd2795d205ef201fce49302208a84aa040fd976a55e51de823fdf4caf6a60"
+    },
+    {
+      "file": "crossref-ct251.json",
+      "url": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2025-CT251",
+      "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2025-CT251",
+      "httpStatus": 200,
+      "bytes": 8081,
+      "sha256": "9f4fa7f7e2caa337e0da419be2bf3f818a5c2dcd483439df3c3ab78bb8b38b24"
+    },
+    {
+      "file": "publisher-ct251.html",
+      "url": "https://doi.org/10.1158/1538-7445.AM2025-CT251",
+      "finalURL": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT251/761839/Abstract-CT251-Phase-3-INTerpath-009-study",
+      "httpStatus": 403,
+      "bytes": 5903,
+      "sha256": "cbe6adac245b37d63541663f4103daadb637ea24ef0d45c927aa770846e8dde4"
+    },
+    {
+      "file": "crossref-kreiter-r1.json",
+      "url": "https://api.crossref.org/works/10.4049%2Fjimmunol.180.1.309",
+      "finalURL": "https://api.crossref.org/works/10.4049%2Fjimmunol.180.1.309",
+      "httpStatus": 200,
+      "bytes": 10680,
+      "sha256": "0908bd721ba730dd56729b67169225e77f2bb70b947d4dab43981eb429e706ab"
+    },
+    {
+      "file": "epmc-kreiter-r1.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.4049%2Fjimmunol.180.1.309%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.4049%2Fjimmunol.180.1.309%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 9064,
+      "sha256": "175e57f45b3d2f7d757c1e5670bbf19806b130e077c5139ed9b6f3652673642a"
+    },
+    {
+      "file": "epmc-losada-context.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs00216-026-06615-x%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs00216-026-06615-x%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 8306,
+      "sha256": "f3140735cdbc0cd7c637e8b73f561e2959982086bf3fe41f05f83b61c197db75"
+    },
+    {
+      "file": "crossref-losada-context.json",
+      "url": "https://api.crossref.org/works/10.1007%2Fs00216-026-06615-x",
+      "finalURL": "https://api.crossref.org/works/10.1007%2Fs00216-026-06615-x",
+      "httpStatus": 200,
+      "bytes": 50613,
+      "sha256": "095eeb63676aa521089471ee09a93a40f1fc687579ea6a6306712f385fd734d2"
+    },
+    {
+      "file": "body-losada-context.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13541854/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13541854/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 225723,
+      "sha256": "aafe6f1a2c645686e357bd96ccc9364099f7ecfc2d1de4db4de55321dd2aee59"
+    },
+    {
+      "file": "epmc-nowak-context.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11033-026-11455-0%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs11033-026-11455-0%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 7042,
+      "sha256": "54e056194d334ffacd80f2fddcb17c30b6d1a5623669c6e8fa0aa67a18519e55"
+    },
+    {
+      "file": "crossref-nowak-context.json",
+      "url": "https://api.crossref.org/works/10.1007%2Fs11033-026-11455-0",
+      "finalURL": "https://api.crossref.org/works/10.1007%2Fs11033-026-11455-0",
+      "httpStatus": 200,
+      "bytes": 63830,
+      "sha256": "998aa301c175cf4c1ae272d774391a1c85108f176d965011d235c032ac0b3bfb"
+    },
+    {
+      "file": "body-nowak-context.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12819531/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12819531/fullTextXML",
+      "httpStatus": 200,
+      "bytes": 233789,
+      "sha256": "52797787dbf4032525621275c66ff6da12b579acca5c6461a303b9467008e26f"
+    }
+  ]
+}

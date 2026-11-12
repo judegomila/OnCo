@@ -1,0 +1,3572 @@
+{
+  "version": "proposal-main-refresh-b1-summary-consumers",
+  "state": "Actual selectors after integration; no new graph records or language approval.",
+  "draft": 375,
+  "committedDataHead": "f28dabca920a3387f285c7293400321c599c6324",
+  "records": [
+    {
+      "id": "adc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (ar)",
+      "canonicalRecordId": "adc",
+      "language": "ar",
+      "available": true,
+      "text": "المقترن بين الضد والدواء يشبه صاروخاً موجهاً: يتوجه الضد إلى الخلية السرطانية، فتبتلعه، ثم يطلق علاجاً كيميائياً شديد الفعالية إلى درجة لا يمكن إعطاؤه وحده أبداً."
+    },
+    {
+      "id": "adc-analytes-and-exposure-ar",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (ar)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-ar",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (ar)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "ar",
+      "available": true,
+      "text": "السؤال الذي لا يزال مفتوحاً حول ما إذا كان ADC ثانٍ يعمل بعد فشل الأول، خصوصاً عندما يحمل كلاهما النوع نفسه من الحمولة الدوائية."
+    },
+    {
+      "id": "antibody-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ar)",
+      "canonicalRecordId": "antibody",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (ar)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-ar",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (ar)",
+      "canonicalRecordId": "ascent",
+      "language": "ar",
+      "available": true,
+      "text": "التجربة التي أثبتت أن ADC موجهًا لـ TROP2 يمكنه مضاعفة البقاء تقريبًا في سرطان الثدي الثلاثي السلبي الذي سبق علاجه بكثافة."
+    },
+    {
+      "id": "b7-h3-expression-ar",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (ar)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (ar)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "ar",
+      "available": true,
+      "text": "الـ ADC ثنائي النوعية هو ADC يلتقط جسمه المضاد بروتينَين مختلفَين على الخلية السرطانية، فيلتصق بالورم بشكل أفضل وبالأنسجة السليمة بشكل أقل."
+    },
+    {
+      "id": "bystander-effect-ar",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (ar)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "ar",
+      "available": true,
+      "text": "عندما تتسرب الحمولة المُحرَّرة من الخلية المستهدفة وتقتل الخلايا المجاورة لها، بما في ذلك الخلايا التي لا تحمل الهدف."
+    },
+    {
+      "id": "car-t-ar",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (ar)",
+      "canonicalRecordId": "car-t",
+      "language": "ar",
+      "available": true,
+      "text": "تُستخرج الخلايا التائية من المريض، وتُزوَّد بمستقبِل اصطناعي يتعرف على السرطان، ثم تُضاعَف وتُعاد إلى الجسم كدواء حي."
+    },
+    {
+      "id": "cross-resistance-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (ar)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "ar",
+      "available": true,
+      "text": "عندما يصبح سرطان مقاوم لدواء ما مقاوما أيضا لدواء آخر لم يتعرض له قط، لأن الدواءين يشتركان في آلية واحدة. وهذا هو الشاغل الرئيسي عند تحديد ترتيب (تسلسل) الأدوية المتشابهة."
+    },
+    {
+      "id": "dar-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (ar)",
+      "canonicalRecordId": "dar",
+      "language": "ar",
+      "available": true,
+      "text": "نسبة الدواء إلى الجسم المضاد (DAR) هي عدد جزيئات الحمولة المحمولة على كل جسم مضاد، وعادةً ما تكون من 2 إلى 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-ar",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (ar)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "ar",
+      "available": true,
+      "text": "Datopotamab deruxtecan (Datroway) هو ثاني ADC يستهدف TROP2 ويشترك مع Enhertu في الحمولة الدوائية نفسها. وفي عام 2026 أصبح خيارًا في الخط الأول لمريضات سرطان الثدي الثلاثي السلبي اللواتي لا يمكنهن تلقي العلاج المناعي."
+    },
+    {
+      "id": "destiny-breast04-ar",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (ar)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "ar",
+      "available": true,
+      "text": "أنشأت فئة جديدة من سرطان الثدي، HER2-low، بإثبات أن Enhertu يعمل في الأورام التي كانت تُسمى سابقاً سلبية HER2."
+    },
+    {
+      "id": "drug-target-and-mechanism-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ar)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (ar)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-ar",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (ar)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "ar",
+      "available": true,
+      "text": "Enfortumab vedotin هو دواء ADC يستهدف Nectin-4، وقد ضاعف تقريباً مدة البقاء على قيد الحياة في سرطان المثانة المتقدم عند دمجه مع pembrolizumab."
+    },
+    {
+      "id": "half-life-ar",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (ar)",
+      "canonicalRecordId": "half-life",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (ar)",
+      "canonicalRecordId": "her2",
+      "language": "ar",
+      "available": true,
+      "text": "مستقبِل لإشارات النمو. بعض السرطانات تنتج كمية مفرطة منه، وقد غيّرت الأدوية التي تحجبه أو تستخدمه كموقع للارتباط مسار هذه السرطانات تغييراً جذرياً."
+    },
+    {
+      "id": "her2-low-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ar)",
+      "canonicalRecordId": "her2-low",
+      "language": "ar",
+      "available": true,
+      "text": "أورام تحتوي على قدر قليل من HER2 (IHC 1+ أو 2+ دون تضخيم)، أو على أثر ضئيل منه فقط (ultralow)، كانت أدوية HER2 القديمة تتجاهلها لكن Enhertu قادر على مهاجمتها."
+    },
+    {
+      "id": "ideate-lung02-ar",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (ar)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-ar",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (ar)",
+      "canonicalRecordId": "linker",
+      "language": "ar",
+      "available": true,
+      "text": "الرابط هو الوثاق الكيميائي بين الجسم المضاد والحمولة الدوائية. ويجب أن يثبت في الدم وأن ينفلت داخل الورم."
+    },
+    {
+      "id": "liv1-ar",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (ar)",
+      "canonicalRecordId": "liv1",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-ar",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (ar)",
+      "canonicalRecordId": "nct04225117",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-ar",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (ar)",
+      "canonicalRecordId": "nct06644781",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-ar",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (ar)",
+      "canonicalRecordId": "nct06925737",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-ar",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (ar)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-ar",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (ar)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-ar",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (ar)",
+      "canonicalRecordId": "payload",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ar)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (ar)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "ar",
+      "available": true,
+      "text": "دواء يعثر على خلايا الورم ويحمل ذرة مشعة تشعّها من داخل الجسم."
+    },
+    {
+      "id": "sacituzumab-govitecan-ar",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (ar)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "ar",
+      "available": true,
+      "text": "أول ADC يستهدف TROP2. يوصل علاجًا كيميائيًا قويًا مباشرة إلى خلايا سرطان الثدي والمثانة، وأصبح الآن خيارًا في الخط الأول لعلاج سرطان الثدي الثلاثي السلبي."
+    },
+    {
+      "id": "t-cell-engager-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (ar)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "ar",
+      "available": true,
+      "text": "دواء جاهز للاستخدام يربط فيزيائياً خلية T قاتلة بخلية سرطانية، فيفرض الهجوم عليها."
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ar)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-ar",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (ar)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (ar)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "ar",
+      "available": true,
+      "text": "أول مُشرِك للخلايا التائية يحسّن البقاء في ورم صلب شائع، وهو سرطان الرئة صغير الخلايا."
+    },
+    {
+      "id": "tebentafusp-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (ar)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "ar",
+      "available": true,
+      "text": "أول دواء يحسّن البقاء في الميلانوما العنبية النقيلية، وأول دواء ثنائي النوعية قائم على TCR."
+    },
+    {
+      "id": "therapeutic-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (ar)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-ar",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (ar)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "ar",
+      "available": true,
+      "text": "أول جسم مضاد موجه لورم صلب (1998)، وقد حوّل سرطان الثدي الإيجابي لـ HER2 من أسوأ الأنواع الفرعية إلى واحد من أكثرها قابلية للعلاج."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-ar",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (ar)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-ar",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (ar)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-ar",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (ar)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-ar",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (ar)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (ar)",
+      "canonicalRecordId": "irae",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (de)",
+      "canonicalRecordId": "adc",
+      "language": "de",
+      "available": true,
+      "text": "Ein Antikörper-Wirkstoff-Konjugat ist eine Lenkrakete: Ein Antikörper steuert die Tumorzelle an, wird von ihr aufgenommen und setzt eine Chemotherapie frei, die so stark ist, dass sie allein niemals gegeben werden könnte."
+    },
+    {
+      "id": "adc-analytes-and-exposure-de",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (de)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-de",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (de)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "de",
+      "available": true,
+      "text": "Die offene Frage, ob ein zweites ADC wirkt, nachdem das erste versagt hat, besonders wenn beide dieselbe Art von Wirkstoffladung tragen."
+    },
+    {
+      "id": "antibody-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (de)",
+      "canonicalRecordId": "antibody",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (de)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-de",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (de)",
+      "canonicalRecordId": "ascent",
+      "language": "de",
+      "available": true,
+      "text": "Die Studie, die bewies, dass ein TROP2-ADC das Überleben beim stark vorbehandelten dreifach negativen Brustkrebs nahezu verdoppeln kann."
+    },
+    {
+      "id": "b7-h3-expression-de",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (de)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-de",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (de)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "de",
+      "available": true,
+      "text": "Ein bispezifisches ADC ist ein ADC, dessen Antikörper zwei verschiedene Proteine auf der Krebszelle packt, sodass es besser am Tumor haftet und weniger an gesundem Gewebe."
+    },
+    {
+      "id": "bystander-effect-de",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (de)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "de",
+      "available": true,
+      "text": "Wenn die freigesetzte Wirkstofffracht aus der Zielzelle austritt und deren Nachbarzellen abtötet, einschließlich Zellen, denen die Zielstruktur fehlt."
+    },
+    {
+      "id": "car-t-de",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (de)",
+      "canonicalRecordId": "car-t",
+      "language": "de",
+      "available": true,
+      "text": "Die T-Zellen eines Patienten werden entnommen, mit einem synthetischen Rezeptor ausgestattet, der den Krebs erkennt, vermehrt und als lebendes Medikament zurückgegeben."
+    },
+    {
+      "id": "cross-resistance-de",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (de)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "de",
+      "available": true,
+      "text": "Wenn ein Krebs, der gegen ein Medikament resistent geworden ist, auch gegen ein anderes resistent ist, mit dem er nie in Kontakt kam, weil beide denselben Wirkmechanismus haben. Das ist die zentrale Sorge bei der Entscheidung über die Reihenfolge (Sequenzierung) ähnlicher Medikamente."
+    },
+    {
+      "id": "dar-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (de)",
+      "canonicalRecordId": "dar",
+      "language": "de",
+      "available": true,
+      "text": "Das Wirkstoff-Antikörper-Verhältnis (DAR) gibt an, wie viele Payload-Moleküle auf jedem Antikörper sitzen, typischerweise 2 bis 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-de",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (de)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "de",
+      "available": true,
+      "text": "Datopotamab deruxtecan (Datroway) ist das zweite TROP2-ADC und nutzt denselben Payload wie Enhertu. 2026 wurde es zu einer Erstlinienoption für Patientinnen mit dreifach negativem Brustkrebs, die keine Immuntherapie erhalten können."
+    },
+    {
+      "id": "destiny-breast04-de",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (de)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "de",
+      "available": true,
+      "text": "Schuf eine neue Kategorie von Brustkrebs, HER2-low, indem gezeigt wurde, dass Enhertu bei Tumoren wirkt, die zuvor als HER2-negativ galten."
+    },
+    {
+      "id": "drug-target-and-mechanism-de",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (de)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-de",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (de)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-de",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (de)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "de",
+      "available": true,
+      "text": "Enfortumab vedotin ist ein ADC gegen Nectin-4, das in Kombination mit pembrolizumab das Überleben bei fortgeschrittenem Blasenkrebs fast verdoppelt hat."
+    },
+    {
+      "id": "half-life-de",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (de)",
+      "canonicalRecordId": "half-life",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (de)",
+      "canonicalRecordId": "her2",
+      "language": "de",
+      "available": true,
+      "text": "Ein Rezeptor für Wachstumssignale. Manche Krebsarten bilden viel zu viel davon, und Medikamente, die ihn blockieren oder als Andockstelle nutzen, haben diese Krebsarten grundlegend verändert."
+    },
+    {
+      "id": "her2-low-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (de)",
+      "canonicalRecordId": "her2-low",
+      "language": "de",
+      "available": true,
+      "text": "Tumoren mit wenig HER2 (IHC 1+ oder 2+ ohne Amplifikation) oder nur einer Spur davon (ultralow), die ältere HER2-Medikamente ignorierten, die Enhertu aber angreifen kann."
+    },
+    {
+      "id": "ideate-lung02-de",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (de)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-de",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (de)",
+      "canonicalRecordId": "linker",
+      "language": "de",
+      "available": true,
+      "text": "Der Linker ist die chemische Verbindung zwischen Antikörper und Wirkstoffladung. Er muss im Blut halten und im Tumor loslassen."
+    },
+    {
+      "id": "liv1-de",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (de)",
+      "canonicalRecordId": "liv1",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-de",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (de)",
+      "canonicalRecordId": "nct04225117",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-de",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (de)",
+      "canonicalRecordId": "nct06644781",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-de",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (de)",
+      "canonicalRecordId": "nct06925737",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-de",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (de)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-de",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (de)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-de",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (de)",
+      "canonicalRecordId": "payload",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-de",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (de)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (de)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "de",
+      "available": true,
+      "text": "Ein Medikament, das Tumorzellen findet und ein radioaktives Atom trägt, das sie von innen heraus im Körper bestrahlt."
+    },
+    {
+      "id": "sacituzumab-govitecan-de",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (de)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "de",
+      "available": true,
+      "text": "Das erste ADC, das auf TROP2 zielt. Es bringt eine starke Chemotherapie direkt zu Brust- und Blasenkrebszellen und ist heute eine Erstlinienoption beim triple-negativen Brustkrebs."
+    },
+    {
+      "id": "t-cell-engager-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (de)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "de",
+      "available": true,
+      "text": "Ein sofort verfügbares Medikament, das eine Killer-T-Zelle physisch mit einer Krebszelle verbindet und so den Angriff erzwingt."
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (de)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-de",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (de)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-de",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (de)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "de",
+      "available": true,
+      "text": "Der erste T-Zell-Engager, der das Überleben bei einem häufigen soliden Tumor, dem kleinzelligen Lungenkrebs, verbessert."
+    },
+    {
+      "id": "tebentafusp-de",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (de)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "de",
+      "available": true,
+      "text": "Das erste Medikament, das das Überleben beim metastasierten Aderhautmelanom verbessert, und der erste TCR-basierte bispezifische Wirkstoff."
+    },
+    {
+      "id": "therapeutic-index-de",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (de)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-de",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (de)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "de",
+      "available": true,
+      "text": "Der erste zielgerichtete Antikörper für einen soliden Tumor (1998), der HER2-positiven Brustkrebs vom schlimmsten Subtyp zu einem der am besten behandelbaren machte."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-de",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (de)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-de",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (de)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-de",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (de)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-de",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (de)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (de)",
+      "canonicalRecordId": "irae",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (es)",
+      "canonicalRecordId": "adc",
+      "language": "es",
+      "available": true,
+      "text": "Un misil guiado: un anticuerpo se dirige a la célula tumoral, es engullido y libera una quimioterapia tan potente que nunca podría darse sola."
+    },
+    {
+      "id": "adc-analytes-and-exposure-es",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (es)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-es",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (es)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "es",
+      "available": true,
+      "text": "La pregunta abierta de si un segundo ADC funciona tras fallar el primero, sobre todo cuando ambos llevan el mismo tipo de carga."
+    },
+    {
+      "id": "antibody-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (es)",
+      "canonicalRecordId": "antibody",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (es)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-es",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (es)",
+      "canonicalRecordId": "ascent",
+      "language": "es",
+      "available": true,
+      "text": "El ensayo que demostró que un ADC anti-TROP2 podía casi duplicar la supervivencia en el cáncer de mama triple negativo muy pretratado."
+    },
+    {
+      "id": "b7-h3-expression-es",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (es)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-es",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (es)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "es",
+      "available": true,
+      "text": "Un ADC cuyo anticuerpo agarra dos proteínas distintas de la célula cancerosa, de modo que se adhiere mejor al tumor y menos al tejido sano."
+    },
+    {
+      "id": "bystander-effect-es",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (es)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "es",
+      "available": true,
+      "text": "Cuando una carga liberada sale de la célula diana y mata a sus vecinas, incluidas las que carecen de la diana."
+    },
+    {
+      "id": "car-t-es",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (es)",
+      "canonicalRecordId": "car-t",
+      "language": "es",
+      "available": true,
+      "text": "Se extraen las células T del paciente, se les da un receptor sintético que reconoce el cáncer, se multiplican y se devuelven como fármaco vivo."
+    },
+    {
+      "id": "cross-resistance-es",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (es)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "es",
+      "available": true,
+      "text": "Cuando un cáncer que se ha vuelto resistente a un fármaco también lo es a otro que nunca ha recibido, porque ambos comparten un mecanismo. Es la principal preocupación al decidir el orden (secuenciación) de fármacos similares."
+    },
+    {
+      "id": "dar-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (es)",
+      "canonicalRecordId": "dar",
+      "language": "es",
+      "available": true,
+      "text": "Cuántas moléculas de carga viajan en cada anticuerpo, normalmente de 2 a 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-es",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (es)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "es",
+      "available": true,
+      "text": "El segundo ADC anti-TROP2, con la misma carga que Enhertu. En 2026 se convirtió en opción de primera línea para pacientes con cáncer de mama triple negativo que no pueden recibir inmunoterapia."
+    },
+    {
+      "id": "destiny-breast04-es",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (es)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "es",
+      "available": true,
+      "text": "Creó una nueva categoría de cáncer de mama, HER2-low, al demostrar que Enhertu funciona en tumores antes considerados HER2-negativos."
+    },
+    {
+      "id": "drug-target-and-mechanism-es",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (es)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-es",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (es)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-es",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (es)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "es",
+      "available": true,
+      "text": "Un ADC contra Nectin-4 que, combinado con pembrolizumab, casi duplicó la supervivencia en cáncer de vejiga avanzado."
+    },
+    {
+      "id": "half-life-es",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (es)",
+      "canonicalRecordId": "half-life",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (es)",
+      "canonicalRecordId": "her2",
+      "language": "es",
+      "available": true,
+      "text": "Un receptor de señales de crecimiento. Algunos cánceres producen demasiado, y los fármacos que lo bloquean o lo usan como punto de anclaje han transformado esos cánceres."
+    },
+    {
+      "id": "her2-low-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (es)",
+      "canonicalRecordId": "her2-low",
+      "language": "es",
+      "available": true,
+      "text": "Tumores con un poco de HER2 (IHC 1+ o 2+ sin amplificación), o un rastro (ultrabajo), que los fármacos anti-HER2 antiguos ignoraban pero Enhertu puede atacar."
+    },
+    {
+      "id": "ideate-lung02-es",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (es)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-es",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (es)",
+      "canonicalRecordId": "linker",
+      "language": "es",
+      "available": true,
+      "text": "El enlace químico entre anticuerpo y carga. Debe resistir en la sangre y soltarse dentro del tumor."
+    },
+    {
+      "id": "liv1-es",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (es)",
+      "canonicalRecordId": "liv1",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-es",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (es)",
+      "canonicalRecordId": "nct04225117",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-es",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (es)",
+      "canonicalRecordId": "nct06644781",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-es",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (es)",
+      "canonicalRecordId": "nct06925737",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-es",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (es)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-es",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (es)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-es",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (es)",
+      "canonicalRecordId": "payload",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-es",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (es)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (es)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "es",
+      "available": true,
+      "text": "Un fármaco que encuentra las células tumorales y lleva un átomo radiactivo que las irradia desde dentro del cuerpo."
+    },
+    {
+      "id": "sacituzumab-govitecan-es",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (es)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "es",
+      "available": true,
+      "text": "El primer ADC dirigido a TROP2. Entrega una quimioterapia potente directamente a las células del cáncer de mama y vejiga y ya es opción de primera línea en cáncer de mama triple negativo."
+    },
+    {
+      "id": "t-cell-engager-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (es)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "es",
+      "available": true,
+      "text": "Un fármaco listo para usar que une físicamente una célula T asesina a una célula cancerosa, forzando el ataque."
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (es)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-es",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (es)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-es",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (es)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "es",
+      "available": true,
+      "text": "El primer captador de células T que mejoró la supervivencia en un tumor sólido común, el cáncer de pulmón de células pequeñas."
+    },
+    {
+      "id": "tebentafusp-es",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (es)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "es",
+      "available": true,
+      "text": "El primer fármaco que mejoró la supervivencia en melanoma uveal metastásico, y el primer biespecífico basado en TCR."
+    },
+    {
+      "id": "therapeutic-index-es",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (es)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-es",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (es)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "es",
+      "available": true,
+      "text": "El primer anticuerpo dirigido para un tumor sólido (1998), que convirtió el cáncer de mama HER2-positivo del peor subtipo en uno de los más tratables."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-es",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (es)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-es",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (es)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-es",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (es)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-es",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (es)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (es)",
+      "canonicalRecordId": "irae",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (fr)",
+      "canonicalRecordId": "adc",
+      "language": "fr",
+      "available": true,
+      "text": "Un conjugué anticorps-médicament est un missile guidé : un anticorps se dirige vers la cellule tumorale, y est absorbé, puis libère une chimiothérapie si puissante qu'elle ne pourrait jamais être administrée seule."
+    },
+    {
+      "id": "adc-analytes-and-exposure-fr",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (fr)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-fr",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (fr)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "fr",
+      "available": true,
+      "text": "La question encore ouverte de savoir si un second ADC fonctionne après l'échec du premier, surtout lorsque les deux transportent le même type de charge utile."
+    },
+    {
+      "id": "antibody-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (fr)",
+      "canonicalRecordId": "antibody",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (fr)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-fr",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (fr)",
+      "canonicalRecordId": "ascent",
+      "language": "fr",
+      "available": true,
+      "text": "L'essai qui a prouvé qu'un ADC anti-TROP2 pouvait presque doubler la survie dans le cancer du sein triple négatif lourdement prétraité."
+    },
+    {
+      "id": "b7-h3-expression-fr",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (fr)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (fr)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "fr",
+      "available": true,
+      "text": "Un ADC bispécifique est un ADC dont l'anticorps s'accroche à deux protéines différentes de la cellule cancéreuse, ce qui lui permet de mieux se fixer à la tumeur et moins aux tissus sains."
+    },
+    {
+      "id": "bystander-effect-fr",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (fr)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "fr",
+      "available": true,
+      "text": "Lorsque la charge libérée s'échappe de la cellule ciblée et tue ses voisines, y compris des cellules dépourvues de la cible."
+    },
+    {
+      "id": "car-t-fr",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (fr)",
+      "canonicalRecordId": "car-t",
+      "language": "fr",
+      "available": true,
+      "text": "Les lymphocytes T du patient sont prélevés, dotés d'un récepteur synthétique qui reconnaît le cancer, multipliés, puis réinjectés comme un médicament vivant."
+    },
+    {
+      "id": "cross-resistance-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (fr)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "fr",
+      "available": true,
+      "text": "Lorsqu'un cancer devenu résistant à un médicament résiste aussi à un autre qu'il n'a jamais reçu, parce que les deux partagent un même mécanisme. C'est la principale préoccupation lorsqu'on décide de l'ordre (séquençage) de médicaments similaires."
+    },
+    {
+      "id": "dar-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (fr)",
+      "canonicalRecordId": "dar",
+      "language": "fr",
+      "available": true,
+      "text": "Le rapport médicament/anticorps (DAR) est le nombre de molécules de charge utile portées par chaque anticorps, généralement de 2 à 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-fr",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (fr)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "fr",
+      "available": true,
+      "text": "Datopotamab deruxtecan (Datroway) est le deuxième ADC ciblant TROP2 et partage la charge utile d'Enhertu. En 2026, il est devenu une option de première ligne pour les patientes atteintes d'un cancer du sein triple négatif qui ne peuvent pas recevoir d'immunothérapie."
+    },
+    {
+      "id": "destiny-breast04-fr",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (fr)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "fr",
+      "available": true,
+      "text": "A créé une nouvelle catégorie de cancer du sein, HER2-low, en montrant qu'Enhertu agit dans des tumeurs jusque-là qualifiées de HER2-négatives."
+    },
+    {
+      "id": "drug-target-and-mechanism-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (fr)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (fr)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-fr",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (fr)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "fr",
+      "available": true,
+      "text": "Enfortumab vedotin est un ADC dirigé contre Nectin-4 qui, associé au pembrolizumab, a presque doublé la survie dans le cancer de la vessie avancé."
+    },
+    {
+      "id": "half-life-fr",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (fr)",
+      "canonicalRecordId": "half-life",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (fr)",
+      "canonicalRecordId": "her2",
+      "language": "fr",
+      "available": true,
+      "text": "Un récepteur de signaux de croissance. Certains cancers en produisent beaucoup trop, et les médicaments qui le bloquent ou s'en servent comme point d'ancrage ont changé la donne pour ces cancers."
+    },
+    {
+      "id": "her2-low-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (fr)",
+      "canonicalRecordId": "her2-low",
+      "language": "fr",
+      "available": true,
+      "text": "Des tumeurs qui présentent un peu de HER2 (IHC 1+ ou 2+ sans amplification), ou seulement une trace (ultralow), que les anciens médicaments anti-HER2 ignoraient mais qu'Enhertu peut attaquer."
+    },
+    {
+      "id": "ideate-lung02-fr",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (fr)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-fr",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (fr)",
+      "canonicalRecordId": "linker",
+      "language": "fr",
+      "available": true,
+      "text": "Le linker est l'attache chimique entre l'anticorps et la charge utile. Il doit tenir dans le sang et se détacher à l'intérieur de la tumeur."
+    },
+    {
+      "id": "liv1-fr",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (fr)",
+      "canonicalRecordId": "liv1",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-fr",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (fr)",
+      "canonicalRecordId": "nct04225117",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-fr",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (fr)",
+      "canonicalRecordId": "nct06644781",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-fr",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (fr)",
+      "canonicalRecordId": "nct06925737",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-fr",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (fr)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-fr",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (fr)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-fr",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (fr)",
+      "canonicalRecordId": "payload",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (fr)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (fr)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "fr",
+      "available": true,
+      "text": "Un médicament qui trouve les cellules tumorales et transporte un atome radioactif qui les irradie depuis l'intérieur du corps."
+    },
+    {
+      "id": "sacituzumab-govitecan-fr",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (fr)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "fr",
+      "available": true,
+      "text": "Le premier ADC ciblant TROP2. Il délivre une chimiothérapie puissante directement aux cellules des cancers du sein et de la vessie, et constitue désormais une option de première ligne dans le cancer du sein triple négatif."
+    },
+    {
+      "id": "t-cell-engager-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (fr)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "fr",
+      "available": true,
+      "text": "Un médicament prêt à l'emploi qui relie physiquement un lymphocyte T tueur à une cellule cancéreuse, forçant l'attaque."
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (fr)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-fr",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (fr)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (fr)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "fr",
+      "available": true,
+      "text": "Le premier engageur de lymphocytes T à améliorer la survie dans une tumeur solide fréquente, le cancer du poumon à petites cellules."
+    },
+    {
+      "id": "tebentafusp-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (fr)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "fr",
+      "available": true,
+      "text": "Le premier médicament à améliorer la survie dans le mélanome uvéal métastatique, et le premier bispécifique fondé sur un TCR."
+    },
+    {
+      "id": "therapeutic-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (fr)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-fr",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (fr)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "fr",
+      "available": true,
+      "text": "Le premier anticorps ciblé pour une tumeur solide (1998), qui a fait passer le cancer du sein HER2 positif du pire sous-type à l'un des plus faciles à traiter."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-fr",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (fr)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-fr",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (fr)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-fr",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (fr)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-fr",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (fr)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (fr)",
+      "canonicalRecordId": "irae",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (hi)",
+      "canonicalRecordId": "adc",
+      "language": "hi",
+      "available": true,
+      "text": "एक निर्देशित मिसाइल: एंटीबॉडी ट्यूमर कोशिका तक पहुँचता है, निगला जाता है और ऐसी शक्तिशाली कीमोथेरेपी छोड़ता है जो अकेले कभी नहीं दी जा सकती।"
+    },
+    {
+      "id": "adc-analytes-and-exposure-hi",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (hi)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-hi",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (hi)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "hi",
+      "available": true,
+      "text": "खुला प्रश्न कि पहले ADC के विफल होने के बाद दूसरा काम करता है या नहीं, विशेषकर जब दोनों में एक ही प्रकार का पेलोड हो।"
+    },
+    {
+      "id": "antibody-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (hi)",
+      "canonicalRecordId": "antibody",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (hi)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-hi",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (hi)",
+      "canonicalRecordId": "ascent",
+      "language": "hi",
+      "available": true,
+      "text": "वह परीक्षण जिसने सिद्ध किया कि एक TROP2 ADC भारी पूर्व-उपचार वाले ट्रिपल-निगेटिव स्तन कैंसर में जीवित रहने की अवधि लगभग दोगुनी कर सकता है।"
+    },
+    {
+      "id": "b7-h3-expression-hi",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (hi)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (hi)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "hi",
+      "available": true,
+      "text": "एक ADC जिसका एंटीबॉडी कैंसर कोशिका पर दो अलग प्रोटीन पकड़ता है, इसलिए ट्यूमर से बेहतर और स्वस्थ ऊतक से कम चिपकता है।"
+    },
+    {
+      "id": "bystander-effect-hi",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (hi)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "hi",
+      "available": true,
+      "text": "जब छूटा पेलोड लक्षित कोशिका से रिसकर पड़ोसी कोशिकाओं को मारता है, लक्ष्य-रहित कोशिकाओं समेत।"
+    },
+    {
+      "id": "car-t-hi",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (hi)",
+      "canonicalRecordId": "car-t",
+      "language": "hi",
+      "available": true,
+      "text": "मरीज़ की T-कोशिकाएँ निकाली जाती हैं, उन्हें कैंसर पहचानने वाला कृत्रिम रिसेप्टर दिया जाता है, बढ़ाया जाता है और जीवित दवा के रूप में वापस डाला जाता है।"
+    },
+    {
+      "id": "cross-resistance-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (hi)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "hi",
+      "available": true,
+      "text": "जब कोई कैंसर एक दवा के प्रति प्रतिरोधी हो जाने पर ऐसी दूसरी दवा के प्रति भी प्रतिरोधी हो जाता है जो उसने कभी नहीं देखी, क्योंकि दोनों का तंत्र समान है। समान दवाओं का क्रम (सीक्वेंसिंग) तय करने में यही केंद्रीय चिंता है।"
+    },
+    {
+      "id": "dar-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (hi)",
+      "canonicalRecordId": "dar",
+      "language": "hi",
+      "available": true,
+      "text": "हर एंटीबॉडी पर कितने पेलोड अणु सवार हैं, आमतौर पर 2 से 8।"
+    },
+    {
+      "id": "datopotamab-deruxtecan-hi",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (hi)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "hi",
+      "available": true,
+      "text": "दूसरा TROP2 ADC, Enhertu का पेलोड साझा करता है। 2026 में यह उन ट्रिपल-नेगेटिव स्तन कैंसर मरीज़ों के लिए पहली पंक्ति विकल्प बना जो इम्यूनोथेरेपी नहीं ले सकते।"
+    },
+    {
+      "id": "destiny-breast04-hi",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (hi)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "hi",
+      "available": true,
+      "text": "यह दिखाकर कि Enhertu उन ट्यूमरों में काम करता है जिन्हें पहले HER2-नेगेटिव कहा जाता था, इसने स्तन कैंसर की एक नई श्रेणी, HER2-low, बनाई।"
+    },
+    {
+      "id": "drug-target-and-mechanism-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (hi)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (hi)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-hi",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (hi)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "hi",
+      "available": true,
+      "text": "Nectin-4 के विरुद्ध ADC जिसने pembrolizumab के साथ उन्नत मूत्राशय कैंसर में जीवनकाल लगभग दोगुना किया।"
+    },
+    {
+      "id": "half-life-hi",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (hi)",
+      "canonicalRecordId": "half-life",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (hi)",
+      "canonicalRecordId": "her2",
+      "language": "hi",
+      "available": true,
+      "text": "एक वृद्धि-संकेत रिसेप्टर। कुछ कैंसर इसे बहुत ज़्यादा बनाते हैं, और इसे रोकने या इससे जुड़ने वाली दवाओं ने उन कैंसरों को बदल दिया।"
+    },
+    {
+      "id": "her2-low-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (hi)",
+      "canonicalRecordId": "her2-low",
+      "language": "hi",
+      "available": true,
+      "text": "थोड़े HER2 (IHC 1+ या 2+ बिना एम्प्लिफ़िकेशन) या अंश (अल्ट्रालो) वाले ट्यूमर, जिन्हें पुरानी HER2 दवाएँ अनदेखा करती थीं पर Enhertu पर वार कर सकता है।"
+    },
+    {
+      "id": "ideate-lung02-hi",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (hi)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-hi",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (hi)",
+      "canonicalRecordId": "linker",
+      "language": "hi",
+      "available": true,
+      "text": "एंटीबॉडी और पेलोड के बीच रासायनिक बंधन। इसे रक्त में टिकना और ट्यूमर के भीतर छूटना चाहिए।"
+    },
+    {
+      "id": "liv1-hi",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (hi)",
+      "canonicalRecordId": "liv1",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-hi",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (hi)",
+      "canonicalRecordId": "nct04225117",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-hi",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (hi)",
+      "canonicalRecordId": "nct06644781",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-hi",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (hi)",
+      "canonicalRecordId": "nct06925737",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-hi",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (hi)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-hi",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (hi)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-hi",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (hi)",
+      "canonicalRecordId": "payload",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (hi)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (hi)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "hi",
+      "available": true,
+      "text": "एक दवा जो ट्यूमर कोशिकाओं को खोजती है और रेडियोधर्मी परमाणु ले जाती है जो उन्हें शरीर के भीतर से विकिरित करता है।"
+    },
+    {
+      "id": "sacituzumab-govitecan-hi",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (hi)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "hi",
+      "available": true,
+      "text": "पहला TROP2-लक्षित ADC। यह शक्तिशाली कीमोथेरेपी सीधे स्तन और मूत्राशय कैंसर कोशिकाओं तक पहुँचाता है और अब ट्रिपल-नेगेटिव स्तन कैंसर में पहली पंक्ति का विकल्प है।"
+    },
+    {
+      "id": "t-cell-engager-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (hi)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "hi",
+      "available": true,
+      "text": "एक तैयार दवा जो मारक T-कोशिका को कैंसर कोशिका से भौतिक रूप से जोड़कर हमले पर मजबूर करती है।"
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (hi)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-hi",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (hi)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (hi)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "hi",
+      "available": true,
+      "text": "आम ठोस ट्यूमर, स्मॉल-सेल फेफड़े के कैंसर, में जीवनकाल सुधारने वाला पहला T-सेल एंगेजर।"
+    },
+    {
+      "id": "tebentafusp-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (hi)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "hi",
+      "available": true,
+      "text": "मेटास्टैटिक यूवियल मेलेनोमा में जीवनकाल सुधारने वाली पहली दवा, और पहला TCR-आधारित बाइस्पेसिफिक।"
+    },
+    {
+      "id": "therapeutic-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (hi)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-hi",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (hi)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "hi",
+      "available": true,
+      "text": "ठोस ट्यूमर के लिए पहला लक्षित एंटीबॉडी (1998), जिसने HER2-पॉज़िटिव स्तन कैंसर को सबसे बुरे उपप्रकार से सबसे उपचार-योग्य में बदल दिया।"
+    },
+    {
+      "id": "trastuzumab-deruxtecan-hi",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (hi)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-hi",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (hi)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-hi",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (hi)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-hi",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (hi)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (hi)",
+      "canonicalRecordId": "irae",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (ja)",
+      "canonicalRecordId": "adc",
+      "language": "ja",
+      "available": true,
+      "text": "抗体薬物複合体は誘導ミサイルのようなものだ。抗体が腫瘍細胞をめざして向かい、細胞内に取り込まれ、単独では決して投与できないほど強力な化学療法薬を放出する。"
+    },
+    {
+      "id": "adc-analytes-and-exposure-ja",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (ja)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-ja",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (ja)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "ja",
+      "available": true,
+      "text": "最初のADCが効かなくなった後に2つ目のADCが効くのかどうかという未解決の問題。特に両者が同じ種類のペイロードを運んでいる場合が問題になる。"
+    },
+    {
+      "id": "antibody-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ja)",
+      "canonicalRecordId": "antibody",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (ja)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-ja",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (ja)",
+      "canonicalRecordId": "ascent",
+      "language": "ja",
+      "available": true,
+      "text": "TROP2 ADCが、治療歴の多いトリプルネガティブ乳がんの生存期間をほぼ2倍にできることを証明した試験である。"
+    },
+    {
+      "id": "b7-h3-expression-ja",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (ja)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (ja)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "ja",
+      "available": true,
+      "text": "二重特異性ADCは、抗体ががん細胞の2種類の異なるタンパク質をつかむADCで、腫瘍にはよりしっかり結合し、健康な組織には結合しにくくなります。"
+    },
+    {
+      "id": "bystander-effect-ja",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (ja)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "ja",
+      "available": true,
+      "text": "放出されたペイロードが標的細胞から漏れ出し、標的を持たない細胞も含めて周囲の細胞を殺す現象である。"
+    },
+    {
+      "id": "car-t-ja",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (ja)",
+      "canonicalRecordId": "car-t",
+      "language": "ja",
+      "available": true,
+      "text": "患者のT細胞を取り出し、がんを認識する人工の受容体を組み込み、増やしてから、生きた薬として体に戻す。"
+    },
+    {
+      "id": "cross-resistance-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (ja)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "ja",
+      "available": true,
+      "text": "ある薬に耐性を獲得したがんが、一度も使っていない別の薬にも耐性を示すこと。両者の作用機序が共通しているために起こる。類似した薬の使用順序（シークエンス）を決める際の中心的な懸念である。"
+    },
+    {
+      "id": "dar-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (ja)",
+      "canonicalRecordId": "dar",
+      "language": "ja",
+      "available": true,
+      "text": "薬物抗体比(DAR)は、1つの抗体に搭載されるペイロード分子の数であり、通常2から8である。"
+    },
+    {
+      "id": "datopotamab-deruxtecan-ja",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (ja)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "ja",
+      "available": true,
+      "text": "Datopotamab deruxtecan（Datroway）は2番目のTROP2 ADCで、Enhertuと同じペイロードを持つ。2026年には、免疫療法を受けられないトリプルネガティブ乳がんの患者に対する一次治療の選択肢となった。"
+    },
+    {
+      "id": "destiny-breast04-ja",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (ja)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "ja",
+      "available": true,
+      "text": "以前はHER2陰性と呼ばれていた腫瘍にEnhertuが効くことを示し、HER2低発現という乳がんの新しいカテゴリーを生み出した。"
+    },
+    {
+      "id": "drug-target-and-mechanism-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (ja)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (ja)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-ja",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (ja)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "ja",
+      "available": true,
+      "text": "Enfortumab vedotinはNectin-4を標的とするADCで、pembrolizumabとの併用により進行膀胱がんの生存期間をほぼ2倍に延ばした。"
+    },
+    {
+      "id": "half-life-ja",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (ja)",
+      "canonicalRecordId": "half-life",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (ja)",
+      "canonicalRecordId": "her2",
+      "language": "ja",
+      "available": true,
+      "text": "増殖シグナルを受け取る受容体。一部のがんはこれを過剰に作り出しており、これをブロックする薬や、これを目印にして取り付く薬が、そうしたがんの状況を一変させた。"
+    },
+    {
+      "id": "her2-low-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ja)",
+      "canonicalRecordId": "her2-low",
+      "language": "ja",
+      "available": true,
+      "text": "HER2がわずかにある腫瘍（増幅のないIHC 1+または2+）や、ごく微量しかない腫瘍（ウルトラロー）。従来のHER2標的薬は対象にしてこなかったが、Enhertuなら攻撃できる。"
+    },
+    {
+      "id": "ideate-lung02-ja",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (ja)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-ja",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (ja)",
+      "canonicalRecordId": "linker",
+      "language": "ja",
+      "available": true,
+      "text": "リンカーは抗体とペイロードをつなぐ化学的な紐である。血中では保持され、腫瘍の内部で切り離されなければならない。"
+    },
+    {
+      "id": "liv1-ja",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (ja)",
+      "canonicalRecordId": "liv1",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-ja",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (ja)",
+      "canonicalRecordId": "nct04225117",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-ja",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (ja)",
+      "canonicalRecordId": "nct06644781",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-ja",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (ja)",
+      "canonicalRecordId": "nct06925737",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-ja",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (ja)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-ja",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (ja)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-ja",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (ja)",
+      "canonicalRecordId": "payload",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (ja)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (ja)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "ja",
+      "available": true,
+      "text": "腫瘍細胞を見つけ出す薬に放射性原子を載せて運び、体の内側から腫瘍細胞に放射線を当てる。"
+    },
+    {
+      "id": "sacituzumab-govitecan-ja",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (ja)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "ja",
+      "available": true,
+      "text": "TROP2を標的とする初のADC。強力な化学療法薬を乳がんや膀胱がんの細胞に直接届け、現在はトリプルネガティブ乳がんの一次治療の選択肢になっている。"
+    },
+    {
+      "id": "t-cell-engager-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (ja)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "ja",
+      "available": true,
+      "text": "既製品として使える薬で、キラーT細胞とがん細胞を物理的につなぎ合わせ、攻撃を強制する。"
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ja)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-ja",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (ja)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (ja)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "ja",
+      "available": true,
+      "text": "よくみられる固形がんである小細胞肺がんで、生存期間の延長を示した初めてのT細胞エンゲージャーです。"
+    },
+    {
+      "id": "tebentafusp-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (ja)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "ja",
+      "available": true,
+      "text": "転移性ぶどう膜黒色腫で生存期間の延長を示した初めての薬であり、TCRを基にした初めての二重特異性薬でもあります。"
+    },
+    {
+      "id": "therapeutic-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (ja)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-ja",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (ja)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "ja",
+      "available": true,
+      "text": "固形がんに対する初めての分子標的抗体薬（1998年）で、HER2陽性乳がんを最も予後の悪いサブタイプから最も治療しやすいサブタイプの一つへと変えました。"
+    },
+    {
+      "id": "trastuzumab-deruxtecan-ja",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (ja)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-ja",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (ja)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-ja",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (ja)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-ja",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (ja)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (ja)",
+      "canonicalRecordId": "irae",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (pt)",
+      "canonicalRecordId": "adc",
+      "language": "pt",
+      "available": true,
+      "text": "Um míssil guiado: um anticorpo vai até a célula tumoral, é engolido e libera uma quimioterapia tão potente que nunca poderia ser dada sozinha."
+    },
+    {
+      "id": "adc-analytes-and-exposure-pt",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (pt)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-pt",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (pt)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "pt",
+      "available": true,
+      "text": "A pergunta em aberto sobre se um segundo ADC funciona após a falha do primeiro, especialmente quando ambos carregam o mesmo tipo de carga."
+    },
+    {
+      "id": "antibody-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (pt)",
+      "canonicalRecordId": "antibody",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (pt)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-pt",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (pt)",
+      "canonicalRecordId": "ascent",
+      "language": "pt",
+      "available": true,
+      "text": "O ensaio que provou que um ADC anti-TROP2 podia quase duplicar a sobrevida no câncer de mama triplo-negativo intensamente pré-tratado."
+    },
+    {
+      "id": "b7-h3-expression-pt",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (pt)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (pt)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "pt",
+      "available": true,
+      "text": "Um ADC cujo anticorpo agarra duas proteínas diferentes na célula cancerosa, de modo que gruda melhor no tumor e menos no tecido saudável."
+    },
+    {
+      "id": "bystander-effect-pt",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (pt)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "pt",
+      "available": true,
+      "text": "Quando uma carga liberada vaza da célula-alvo e mata as vizinhas, inclusive células sem o alvo."
+    },
+    {
+      "id": "car-t-pt",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (pt)",
+      "canonicalRecordId": "car-t",
+      "language": "pt",
+      "available": true,
+      "text": "As células T do paciente são retiradas, recebem um receptor sintético que reconhece o câncer, são multiplicadas e devolvidas como droga viva."
+    },
+    {
+      "id": "cross-resistance-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (pt)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "pt",
+      "available": true,
+      "text": "Quando um câncer que se tornou resistente a um medicamento também é resistente a outro que nunca recebeu, porque os dois compartilham um mecanismo. É a principal preocupação ao decidir a ordem (sequenciamento) de medicamentos semelhantes."
+    },
+    {
+      "id": "dar-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (pt)",
+      "canonicalRecordId": "dar",
+      "language": "pt",
+      "available": true,
+      "text": "Quantas moléculas de carga viajam em cada anticorpo, tipicamente de 2 a 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-pt",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (pt)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "pt",
+      "available": true,
+      "text": "O segundo ADC anti-TROP2, com a mesma carga do Enhertu. Em 2026 tornou-se opção de primeira linha para pacientes com câncer de mama triplo-negativo que não podem receber imunoterapia."
+    },
+    {
+      "id": "destiny-breast04-pt",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (pt)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "pt",
+      "available": true,
+      "text": "Criou uma nova categoria de câncer de mama, HER2-low, ao mostrar que Enhertu funciona em tumores antes chamados de HER2-negativos."
+    },
+    {
+      "id": "drug-target-and-mechanism-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (pt)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (pt)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-pt",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (pt)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "pt",
+      "available": true,
+      "text": "Um ADC contra Nectin-4 que, combinado com pembrolizumabe, quase dobrou a sobrevida no câncer de bexiga avançado."
+    },
+    {
+      "id": "half-life-pt",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (pt)",
+      "canonicalRecordId": "half-life",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (pt)",
+      "canonicalRecordId": "her2",
+      "language": "pt",
+      "available": true,
+      "text": "Um receptor de sinal de crescimento. Alguns cânceres produzem muito dele, e drogas que o bloqueiam ou o usam como ponto de ancoragem transformaram esses cânceres."
+    },
+    {
+      "id": "her2-low-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (pt)",
+      "canonicalRecordId": "her2-low",
+      "language": "pt",
+      "available": true,
+      "text": "Tumores com um pouco de HER2 (IHC 1+ ou 2+ sem amplificação), ou um traço (ultrabaixo), que drogas anti-HER2 antigas ignoravam mas o Enhertu pode atacar."
+    },
+    {
+      "id": "ideate-lung02-pt",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (pt)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-pt",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (pt)",
+      "canonicalRecordId": "linker",
+      "language": "pt",
+      "available": true,
+      "text": "A amarra química entre anticorpo e carga. Deve resistir no sangue e soltar dentro do tumor."
+    },
+    {
+      "id": "liv1-pt",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (pt)",
+      "canonicalRecordId": "liv1",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-pt",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (pt)",
+      "canonicalRecordId": "nct04225117",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06644781-pt",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (pt)",
+      "canonicalRecordId": "nct06644781",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct06925737-pt",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (pt)",
+      "canonicalRecordId": "nct06925737",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nectin-4-expression-pt",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (pt)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-pt",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (pt)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-pt",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (pt)",
+      "canonicalRecordId": "payload",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (pt)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (pt)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "pt",
+      "available": true,
+      "text": "Uma droga que encontra células tumorais e carrega um átomo radioativo que as irradia de dentro do corpo."
+    },
+    {
+      "id": "sacituzumab-govitecan-pt",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (pt)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "pt",
+      "available": true,
+      "text": "O primeiro ADC voltado para TROP2. Entrega uma quimioterapia forte diretamente às células de câncer de mama e bexiga e hoje é opção de primeira linha no câncer de mama triplo-negativo."
+    },
+    {
+      "id": "t-cell-engager-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (pt)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "pt",
+      "available": true,
+      "text": "Uma droga pronta para uso que liga fisicamente uma célula T assassina a uma célula cancerosa, forçando o ataque."
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (pt)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-pt",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (pt)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (pt)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "pt",
+      "available": true,
+      "text": "O primeiro engajador de células T a melhorar a sobrevida em um tumor sólido comum, o câncer de pulmão de pequenas células."
+    },
+    {
+      "id": "tebentafusp-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (pt)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "pt",
+      "available": true,
+      "text": "A primeira droga a melhorar a sobrevida no melanoma uveal metastático, e o primeiro biespecífico baseado em TCR."
+    },
+    {
+      "id": "therapeutic-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (pt)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-pt",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (pt)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "pt",
+      "available": true,
+      "text": "O primeiro anticorpo-alvo para um tumor sólido (1998), que transformou o câncer de mama HER2-positivo do pior subtipo em um dos mais tratáveis."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-pt",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (pt)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-pt",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (pt)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-pt",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (pt)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-pt",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (pt)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (pt)",
+      "canonicalRecordId": "irae",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (zh)",
+      "canonicalRecordId": "adc",
+      "language": "zh",
+      "available": true,
+      "text": "一枚制导导弹：抗体归巢到肿瘤细胞，被吞入后释放一种强到永远无法单独给药的化疗。"
+    },
+    {
+      "id": "adc-analytes-and-exposure-zh",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (zh)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-zh",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (zh)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "zh",
+      "available": true,
+      "text": "一个悬而未决的问题：第一个ADC失败后第二个是否有效，尤其当两者载荷类型相同时。"
+    },
+    {
+      "id": "antibody-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (zh)",
+      "canonicalRecordId": "antibody",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (zh)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-zh",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (zh)",
+      "canonicalRecordId": "ascent",
+      "language": "zh",
+      "available": true,
+      "text": "这项试验证明，TROP2 ADC可使经过多线治疗的三阴性乳腺癌患者的生存期几乎翻倍。"
+    },
+    {
+      "id": "b7-h3-expression-zh",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (zh)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (zh)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "zh",
+      "available": true,
+      "text": "其抗体抓住癌细胞上两种不同蛋白的ADC，因此更粘肿瘤、更少粘健康组织。"
+    },
+    {
+      "id": "bystander-effect-zh",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (zh)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "zh",
+      "available": true,
+      "text": "释放的载荷漏出靶细胞并杀死邻近细胞，包括不带靶点的细胞。"
+    },
+    {
+      "id": "car-t-zh",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (zh)",
+      "canonicalRecordId": "car-t",
+      "language": "zh",
+      "available": true,
+      "text": "取出患者T细胞，赋予识别癌症的合成受体，扩增后回输作为活的药物。"
+    },
+    {
+      "id": "cross-resistance-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (zh)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "zh",
+      "available": true,
+      "text": "指癌症对一种药物产生耐药后，对另一种从未用过的药物也耐药，因为两者的作用机制相同。这是决定同类药物使用顺序（序贯）时的核心顾虑。"
+    },
+    {
+      "id": "dar-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (zh)",
+      "canonicalRecordId": "dar",
+      "language": "zh",
+      "available": true,
+      "text": "每个抗体上搭载的载荷分子数，通常为2到8。"
+    },
+    {
+      "id": "datopotamab-deruxtecan-zh",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (zh)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "zh",
+      "available": true,
+      "text": "第二个TROP2 ADC，与Enhertu共用载荷。2026年成为无法接受免疫治疗的三阴性乳腺癌患者的一线选择。"
+    },
+    {
+      "id": "destiny-breast04-zh",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (zh)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "zh",
+      "available": true,
+      "text": "通过证明Enhertu对以往被称为HER2阴性的肿瘤有效，开创了乳腺癌的一个新类别：HER2低表达。"
+    },
+    {
+      "id": "drug-target-and-mechanism-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (zh)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dual-payload-adc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (zh)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "enfortumab-vedotin-zh",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (zh)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "zh",
+      "available": true,
+      "text": "针对Nectin-4的ADC，与pembrolizumab联用使晚期膀胱癌生存几乎翻倍。"
+    },
+    {
+      "id": "half-life-zh",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (zh)",
+      "canonicalRecordId": "half-life",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (zh)",
+      "canonicalRecordId": "her2",
+      "language": "zh",
+      "available": true,
+      "text": "一种生长信号受体。部分癌症产生过多，阻断它或以它为停靶点的药物改变了这些癌症。"
+    },
+    {
+      "id": "her2-low-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (zh)",
+      "canonicalRecordId": "her2-low",
+      "language": "zh",
+      "available": true,
+      "text": "带少量HER2（IHC 1+或2+且无扩增）或微量（超低）的肿瘤，旧HER2药物忽视它们，但Enhertu可以攻击。"
+    },
+    {
+      "id": "ideate-lung02-zh",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (zh)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "linker-zh",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (zh)",
+      "canonicalRecordId": "linker",
+      "language": "zh",
+      "available": true,
+      "text": "抗体与载荷之间的化学系带。必须在血液中牢固，在肿瘤内松开。"
+    },
+    {
+      "id": "liv1-zh",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (zh)",
+      "canonicalRecordId": "liv1",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nct04225117-zh",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (zh)",
+      "canonicalRecordId": "nct04225117",
+      "language": "zh",
+      "available": true,
+      "text": "一项在晚期实体瘤中评估Enfortumab vedotin、Pembrolizumab的2期试验，由Astellas Pharma Global Development, Inc.开展，进行中、不再招募。"
+    },
+    {
+      "id": "nct06644781-zh",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (zh)",
+      "canonicalRecordId": "nct06644781",
+      "language": "zh",
+      "available": true,
+      "text": "一项在食管癌中评估Ifinatamab deruxtecan、Docetaxel的3期试验，由Daiichi Sankyo开展，正在招募。"
+    },
+    {
+      "id": "nct06925737-zh",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (zh)",
+      "canonicalRecordId": "nct06925737",
+      "language": "zh",
+      "available": true,
+      "text": "一项在前列腺癌中评估Ifinatamab deruxtecan、Docetaxel、Prednisone的3期试验，由Merck Sharp & Dohme LLC开展，正在招募。"
+    },
+    {
+      "id": "nectin-4-expression-zh",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (zh)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-zh",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (zh)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "payload-zh",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (zh)",
+      "canonicalRecordId": "payload",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pharmacokinetics-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (zh)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "radioligand-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (zh)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "zh",
+      "available": true,
+      "text": "找到肿瘤细胞并携带放射性原子从体内照射它们的药物。"
+    },
+    {
+      "id": "sacituzumab-govitecan-zh",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (zh)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "zh",
+      "available": true,
+      "text": "首个靶向TROP2的ADC。把强效化疗直接递送到乳腺癌和膀胱癌细胞，如今是三阴性乳腺癌一线选择。"
+    },
+    {
+      "id": "t-cell-engager-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (zh)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "zh",
+      "available": true,
+      "text": "现成药物，把杀伤性T细胞与癌细胞物理连接，迫使攻击。"
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (zh)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-zh",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (zh)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tarlatamab-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (zh)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "zh",
+      "available": true,
+      "text": "首个在常见实体瘤（小细胞肺癌）中改善生存的T细胞衔接器。"
+    },
+    {
+      "id": "tebentafusp-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (zh)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "zh",
+      "available": true,
+      "text": "首个改善转移性葡萄膜黑色素瘤生存的药物，也是首个基于TCR的双特异性药物。"
+    },
+    {
+      "id": "therapeutic-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (zh)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-zh",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (zh)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "zh",
+      "available": true,
+      "text": "首个实体瘤靶向抗体（1998年），把HER2阳性乳腺癌从最差亚型变为最可治疗的亚型之一。"
+    },
+    {
+      "id": "trastuzumab-deruxtecan-zh",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (zh)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trastuzumab-emtansine-zh",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (zh)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trop2-expression-zh",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (zh)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-zh",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (zh)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "irae-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (zh)",
+      "canonicalRecordId": "irae",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (simple)",
+      "canonicalRecordId": "adc",
+      "language": "simple",
+      "available": true,
+      "text": "A guided missile: an antibody finds the cancer cell, gets swallowed, and releases a chemotherapy far too strong to give on its own."
+    },
+    {
+      "id": "adc-analytes-and-exposure-simple",
+      "kind": "reader-summary-entry",
+      "name": "ADC analytes and exposure (simple)",
+      "canonicalRecordId": "adc-analytes-and-exposure",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-sequencing-simple",
+      "kind": "reader-summary-entry",
+      "name": "ADC sequencing (simple)",
+      "canonicalRecordId": "adc-sequencing",
+      "language": "simple",
+      "available": true,
+      "text": "The open question of whether a second antibody-drug works after the first one fails."
+    },
+    {
+      "id": "antibody-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (simple)",
+      "canonicalRecordId": "antibody",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-structure-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody structure (Fab, Fc and hinge) (simple)",
+      "canonicalRecordId": "antibody-structure",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ascent-simple",
+      "kind": "reader-summary-entry",
+      "name": "ASCENT (simple)",
+      "canonicalRecordId": "ascent",
+      "language": "simple",
+      "available": true,
+      "text": "The trial that proved a TROP2 antibody-drug could nearly double survival in heavily treated triple-negative breast cancer."
+    },
+    {
+      "id": "b7-h3-expression-simple",
+      "kind": "reader-summary-entry",
+      "name": "B7-H3 (CD276) expression (simple)",
+      "canonicalRecordId": "b7-h3-expression",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bispecific-adc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Bispecific ADC (simple)",
+      "canonicalRecordId": "bispecific-adc",
+      "language": "simple",
+      "available": true,
+      "text": "An antibody-drug whose antibody grabs two different proteins on the cancer cell, so it sticks to the tumour better and to healthy tissue less."
+    },
+    {
+      "id": "bystander-effect-simple",
+      "kind": "reader-summary-entry",
+      "name": "Bystander effect (ADC) (simple)",
+      "canonicalRecordId": "bystander-effect",
+      "language": "simple",
+      "available": true,
+      "text": "When the released poison leaks out of the target cell and kills neighbouring cancer cells too."
+    },
+    {
+      "id": "car-t-simple",
+      "kind": "reader-summary-entry",
+      "name": "CAR-T cell therapy (simple)",
+      "canonicalRecordId": "car-t",
+      "language": "simple",
+      "available": true,
+      "text": "A patient's T cells are removed, given a made-to-order receptor that recognises the cancer, multiplied, and put back as a living drug."
+    },
+    {
+      "id": "cross-resistance-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cross-resistance (simple)",
+      "canonicalRecordId": "cross-resistance",
+      "language": "simple",
+      "available": true,
+      "text": "Cross-resistance is when a cancer resistant to one drug is also resistant to another it has never seen because they share a mechanism, which matters when ordering treatments."
+    },
+    {
+      "id": "dar-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug-to-antibody ratio (DAR) (simple)",
+      "canonicalRecordId": "dar",
+      "language": "simple",
+      "available": true,
+      "text": "How many poison molecules ride on each antibody, usually between 2 and 8."
+    },
+    {
+      "id": "datopotamab-deruxtecan-simple",
+      "kind": "reader-summary-entry",
+      "name": "Datopotamab deruxtecan (simple)",
+      "canonicalRecordId": "datopotamab-deruxtecan",
+      "language": "simple",
+      "available": true,
+      "text": "The second TROP2 antibody-drug. In 2026 it became a first treatment for triple-negative breast cancer patients who cannot have immune drugs."
+    },
+    {
+      "id": "destiny-breast04-simple",
+      "kind": "reader-summary-entry",
+      "name": "DESTINY-Breast04 (simple)",
+      "canonicalRecordId": "destiny-breast04",
+      "language": "simple",
+      "available": true,
+      "text": "Created a new category, HER2-low, by showing Enhertu works in tumours once called HER2-negative."
+    },
+    {
+      "id": "drug-target-and-mechanism-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drug target and mechanism of action (simple)",
+      "canonicalRecordId": "drug-target-and-mechanism",
+      "language": "simple",
+      "available": true,
+      "text": "A drug target is the molecule or structure a treatment acts on. Its mechanism describes how that action produces an effect, with separate evidence needed for benefit in people."
+    },
+    {
+      "id": "dual-payload-adc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dual-payload ADC (simple)",
+      "canonicalRecordId": "dual-payload-adc",
+      "language": "simple",
+      "available": true,
+      "text": "One antibody-drug conjugate can carry two different active materials. They may act in the same way or in different ways. Two materials do not guarantee that a treatment will overcome resistance."
+    },
+    {
+      "id": "enfortumab-vedotin-simple",
+      "kind": "reader-summary-entry",
+      "name": "Enfortumab vedotin (simple)",
+      "canonicalRecordId": "enfortumab-vedotin",
+      "language": "simple",
+      "available": true,
+      "text": "An antibody-drug against Nectin-4 that, with pembrolizumab, nearly doubled survival in advanced bladder cancer."
+    },
+    {
+      "id": "half-life-simple",
+      "kind": "reader-summary-entry",
+      "name": "Half-life (simple)",
+      "canonicalRecordId": "half-life",
+      "language": "simple",
+      "available": true,
+      "text": "A half-life describes how long a named drug concentration takes to fall by half under stated conditions. It does not by itself say when another dose is safe or when an effect ends."
+    },
+    {
+      "id": "her2-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2 (simple)",
+      "canonicalRecordId": "her2",
+      "language": "simple",
+      "available": true,
+      "text": "A protein that tells cells to grow. Some cancers make far too much of it, and drugs that block it or dock onto it have changed those cancers completely."
+    },
+    {
+      "id": "her2-low-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (simple)",
+      "canonicalRecordId": "her2-low",
+      "language": "simple",
+      "available": true,
+      "text": "Tumours with just a little HER2, which older HER2 drugs ignored but Enhertu can attack."
+    },
+    {
+      "id": "ideate-lung02-simple",
+      "kind": "reader-summary-entry",
+      "name": "IDeate-Lung02 (simple)",
+      "canonicalRecordId": "ideate-lung02",
+      "language": "simple",
+      "available": true,
+      "text": "This trial compares ifinatamab deruxtecan with other treatment for small-cell lung cancer that has returned. Trial recruitment does not show whether the drug helps."
+    },
+    {
+      "id": "linker-simple",
+      "kind": "reader-summary-entry",
+      "name": "Linker (ADC) (simple)",
+      "canonicalRecordId": "linker",
+      "language": "simple",
+      "available": true,
+      "text": "The chemical tether between an antibody and its poison. It must hold in the blood and let go inside the tumour."
+    },
+    {
+      "id": "liv1-simple",
+      "kind": "reader-summary-entry",
+      "name": "LIV-1 (SLC39A6) (simple)",
+      "canonicalRecordId": "liv1",
+      "language": "simple",
+      "available": true,
+      "text": "LIV-1 moves zinc. Researchers study it as an address for drug delivery in breast cancer. Finding it or finishing a trial does not by itself show patient benefit or drug availability."
+    },
+    {
+      "id": "nct04225117-simple",
+      "kind": "reader-summary-entry",
+      "name": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) (simple)",
+      "canonicalRecordId": "nct04225117",
+      "language": "simple",
+      "available": true,
+      "text": "Astellas ran this phase 2 trial of enfortumab vedotin, alone or with pembrolizumab, in several advanced solid tumours, and its results have been posted."
+    },
+    {
+      "id": "nct06644781-simple",
+      "kind": "reader-summary-entry",
+      "name": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01) (simple)",
+      "canonicalRecordId": "nct06644781",
+      "language": "simple",
+      "available": true,
+      "text": "IDeate-Esophageal01 from Daiichi Sankyo tests ifinatamab deruxtecan against docetaxel in previously treated squamous oesophageal cancer, and the trial is recruiting."
+    },
+    {
+      "id": "nct06925737-simple",
+      "kind": "reader-summary-entry",
+      "name": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001) (simple)",
+      "canonicalRecordId": "nct06925737",
+      "language": "simple",
+      "available": true,
+      "text": "Merck is testing ifinatamab deruxtecan in people with prostate cancer that has spread, with docetaxel and prednisone also recorded, and the trial is recruiting."
+    },
+    {
+      "id": "nectin-4-expression-simple",
+      "kind": "reader-summary-entry",
+      "name": "Nectin-4 expression (simple)",
+      "canonicalRecordId": "nectin-4-expression",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "on-target-off-tumour-toxicity-simple",
+      "kind": "reader-summary-entry",
+      "name": "On-target, off-tumour toxicity and off-target cross-reactivity (simple)",
+      "canonicalRecordId": "on-target-off-tumour-toxicity",
+      "language": "simple",
+      "available": true,
+      "text": "A treatment can harm healthy tissue that carries the target it was designed to recognise. This differs from mistakenly recognising another molecule."
+    },
+    {
+      "id": "payload-simple",
+      "kind": "reader-summary-entry",
+      "name": "Payload (ADC) (simple)",
+      "canonicalRecordId": "payload",
+      "language": "simple",
+      "available": true,
+      "text": "A payload is the active material a treatment carries to a target. What it does differs from how the treatment finds the target."
+    },
+    {
+      "id": "pharmacokinetics-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pharmacokinetics (PK), half-life and exposure (simple)",
+      "canonicalRecordId": "pharmacokinetics",
+      "language": "simple",
+      "available": true,
+      "text": "Pharmacokinetics describes how a medicine moves through the body and how its concentration changes over time. The amount given, exposure and biological effect are different measurements."
+    },
+    {
+      "id": "radioligand-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Radioligand therapy (beta emitters) (simple)",
+      "canonicalRecordId": "radioligand-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "A drug that finds tumour cells and carries a radioactive atom that treats them from inside the body."
+    },
+    {
+      "id": "sacituzumab-govitecan-simple",
+      "kind": "reader-summary-entry",
+      "name": "Sacituzumab govitecan (simple)",
+      "canonicalRecordId": "sacituzumab-govitecan",
+      "language": "simple",
+      "available": true,
+      "text": "The first antibody-drug aimed at TROP2. It delivers strong chemotherapy directly to breast and bladder cancer cells."
+    },
+    {
+      "id": "t-cell-engager-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell engagers (bispecific) (simple)",
+      "canonicalRecordId": "t-cell-engager",
+      "language": "simple",
+      "available": true,
+      "text": "An off-the-shelf drug that physically links a killer T cell to a cancer cell, forcing the attack."
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (simple)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-therapy-term-simple",
+      "kind": "reader-summary-entry",
+      "name": "Targeted therapy (simple)",
+      "canonicalRecordId": "targeted-therapy-term",
+      "language": "simple",
+      "available": true,
+      "text": "A targeted treatment acts on a particular molecule or process. Some block cancer growth; others deliver drugs or recruit immune cells. The target name alone does not show benefit or safety."
+    },
+    {
+      "id": "tarlatamab-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tarlatamab (simple)",
+      "canonicalRecordId": "tarlatamab",
+      "language": "simple",
+      "available": true,
+      "text": "The first immune-cell-recruiting drug to help people live longer with a common solid tumour, small-cell lung cancer."
+    },
+    {
+      "id": "tebentafusp-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tebentafusp (simple)",
+      "canonicalRecordId": "tebentafusp",
+      "language": "simple",
+      "available": true,
+      "text": "The first drug to help people live longer with eye melanoma that has spread."
+    },
+    {
+      "id": "therapeutic-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "Therapeutic index (therapeutic window) (simple)",
+      "canonicalRecordId": "therapeutic-index",
+      "language": "simple",
+      "available": true,
+      "text": "A therapeutic index compares doses that produce defined useful and harmful effects. It is a ratio, not a dose range or a personal safety guarantee."
+    },
+    {
+      "id": "trastuzumab-simple",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab (simple)",
+      "canonicalRecordId": "trastuzumab",
+      "language": "simple",
+      "available": true,
+      "text": "The first targeted antibody for a solid tumour (1998), which transformed HER2-positive breast cancer."
+    },
+    {
+      "id": "trastuzumab-deruxtecan-simple",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab deruxtecan (simple)",
+      "canonicalRecordId": "trastuzumab-deruxtecan",
+      "language": "simple",
+      "available": true,
+      "text": "Trastuzumab deruxtecan carries the drug DXd through an antibody that binds HER2. Whether a person can receive it depends on the cancer setting and the label’s testing rules."
+    },
+    {
+      "id": "trastuzumab-emtansine-simple",
+      "kind": "reader-summary-entry",
+      "name": "Trastuzumab emtansine (simple)",
+      "canonicalRecordId": "trastuzumab-emtansine",
+      "language": "simple",
+      "available": true,
+      "text": "Trastuzumab emtansine carries the drug DM1 through an antibody that binds HER2. Its label defines particular uses in HER2-positive breast cancer."
+    },
+    {
+      "id": "trop2-expression-simple",
+      "kind": "reader-summary-entry",
+      "name": "TROP2 expression (simple)",
+      "canonicalRecordId": "trop2-expression",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tropion-breast02-simple",
+      "kind": "reader-summary-entry",
+      "name": "TROPION-Breast02 (simple)",
+      "canonicalRecordId": "tropion-breast02",
+      "language": "simple",
+      "available": true,
+      "text": "This trial compared datopotamab deruxtecan with chemotherapy in advanced triple-negative breast cancer that had not yet been treated, when immunotherapy was not an option."
+    },
+    {
+      "id": "irae-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-related adverse events (irAEs) (simple)",
+      "canonicalRecordId": "irae",
+      "language": "simple",
+      "available": true,
+      "text": "Checkpoint drugs can make immune activity harm the bowel, skin, liver, lungs or hormone glands. Treatment depends on the organ and severity and may include steroids or hormone replacement."
+    }
+  ]
+}

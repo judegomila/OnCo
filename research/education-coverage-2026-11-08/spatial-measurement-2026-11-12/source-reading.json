@@ -1,0 +1,620 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "title": "Spatial protein versus spatial RNA methods",
+      "aliases": [
+        "spatial methods compared",
+        "spatial protein vs spatial RNA",
+        "spatial proteomics vs spatial transcriptomics",
+        "region-of-interest vs whole-slide spatial profiling",
+        "spatial omics comparison"
+      ],
+      "sourceType": "comparison",
+      "domain": "measurement/proteins-and-spatial",
+      "sourceSha256": "a65f78123aef1dff27ecded92191ae8076b4900b9ab257b7412a11692a197f80",
+      "gitBlob": "5e0550d1a55de3685c8b6c113f9b0235acb9a438",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5996d1cf77e9ee3167280d5cc9480c2ea9c7fdcbbb824b3a536232f4d5b78bc0"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "38f0386bcfa0b8775df8f7478599afc87226b39e0b05f86eb86d714574e3a5e5"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2b89b1098d5f53bc72ab54ed6466d1eba8985562a6114d5675154d12785ea412"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c759ece2967427d1ab23147181197819e2ef46d76c4c5e548c1ac538a64945a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2ff46842d1bb9762e75026b054104fc3ba4401998a5d01ac1c05e47d9d2b7b68"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "26a9dbe3d2d97c25e4d57464641b2aafe8208093214ce4734855f0bb577840b8"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "f814f8eac5325f0df7f508c0a776bdbca7db0d8254b780e1f35e18ba52598f70"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "43a0f047c148d395d6ce37008bb7f18c7f263b9b09cd5a0a38ea1a76ea6d1c2f"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "f91d7da809f991d0fb1e67c44a79334094c0d7b6d70383cc420b64515b9b45b7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "25cb1c31e3c20334fe44b6dacf83f7050e72ef480161a9eabc8d3e0b9bf76ead"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "4624a64169ff120dfbca628a84ecd47304461961356f5098b5d00ebbc06d0cf8"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d34f3e2ad1760806baed30913bba7bacf7eabdb3820c6d4036f6a64d990f7275"
+        }
+      ],
+      "bytes": 10753,
+      "lines": 130
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "title": "Spatial proximity metrics: distance, mixing and neighborhoods",
+      "aliases": [
+        "spatial proximity metrics",
+        "proximity score",
+        "nearest-neighbor distance",
+        "G-cross function",
+        "mixing score",
+        "cellular neighborhoods",
+        "immune-tumor colocalization",
+        "distance to tumor cells"
+      ],
+      "sourceType": "concept",
+      "domain": "measurement/proteins-and-spatial",
+      "sourceSha256": "908f3b3678984c3c823b727138b8e76fc3178fb8f1d18e92396d258e10096f54",
+      "gitBlob": "6b9f56feef33854c2ee2a392443f356129371c4f",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a97f2ae36599609770d942e25af327001aa7ee10211f9469095bb9b14ce61ffe"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2ce7015f3cbb7d2ba80a95e396801c2e8ce7e9c88160c75edd64d2ec5f31dbee"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "acd8c4784ed1c609b9c00ea936b763871b142c9741f82112cc821cc3d11cd8c2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5a4ed6ed66eb6a800efd8c63abc1939760a4e9da70f27b1122f5f8a544bbc3e9"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d4e1f0f01263e65f14ad9ecbd2cef2b3e0d1f3d455d556ed6903aa8e5b6dccef"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "97f5684faebfb12959eafbef28e74687f8a2c2f803ff55a24825c6a181744a33"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "911b7f1fe2053097ec73015dcdb1f24d7d7d1a4004caad51ec1ce18a1c8eb432"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3e8b8a22da1902aac5210707dfd83fd61068dc942a226b7ce307690711b2a8b9"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b3fb2f7c1852edaa4430e027468d6a27c2b84ad399bf6b59bb20adf2851b27c4"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "19e431f88d29789bb44e689d34e121e7e5e66d5bfecc7964553bba4957e32760"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "1303f828dae3758a06ee23df0e56c9fe2d8fc2a23f1412fdc70715cb63ea7856"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "355c2e7fa143ccbb2bf22c807c2f7ee6b58d4db104b606db59d0c4366043fc4d"
+        }
+      ],
+      "bytes": 11170,
+      "lines": 142
+    }
+  ],
+  "actualSectionVerifier": [
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "sourceSha256": "a65f78123aef1dff27ecded92191ae8076b4900b9ab257b7412a11692a197f80",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5996d1cf77e9ee3167280d5cc9480c2ea9c7fdcbbb824b3a536232f4d5b78bc0"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "38f0386bcfa0b8775df8f7478599afc87226b39e0b05f86eb86d714574e3a5e5"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2b89b1098d5f53bc72ab54ed6466d1eba8985562a6114d5675154d12785ea412"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c759ece2967427d1ab23147181197819e2ef46d76c4c5e548c1ac538a64945a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2ff46842d1bb9762e75026b054104fc3ba4401998a5d01ac1c05e47d9d2b7b68"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "26a9dbe3d2d97c25e4d57464641b2aafe8208093214ce4734855f0bb577840b8"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "f814f8eac5325f0df7f508c0a776bdbca7db0d8254b780e1f35e18ba52598f70"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "43a0f047c148d395d6ce37008bb7f18c7f263b9b09cd5a0a38ea1a76ea6d1c2f"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "f91d7da809f991d0fb1e67c44a79334094c0d7b6d70383cc420b64515b9b45b7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "25cb1c31e3c20334fe44b6dacf83f7050e72ef480161a9eabc8d3e0b9bf76ead"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "4624a64169ff120dfbca628a84ecd47304461961356f5098b5d00ebbc06d0cf8"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d34f3e2ad1760806baed30913bba7bacf7eabdb3820c6d4036f6a64d990f7275"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "sourceSha256": "908f3b3678984c3c823b727138b8e76fc3178fb8f1d18e92396d258e10096f54",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a97f2ae36599609770d942e25af327001aa7ee10211f9469095bb9b14ce61ffe"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2ce7015f3cbb7d2ba80a95e396801c2e8ce7e9c88160c75edd64d2ec5f31dbee"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "acd8c4784ed1c609b9c00ea936b763871b142c9741f82112cc821cc3d11cd8c2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5a4ed6ed66eb6a800efd8c63abc1939760a4e9da70f27b1122f5f8a544bbc3e9"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d4e1f0f01263e65f14ad9ecbd2cef2b3e0d1f3d455d556ed6903aa8e5b6dccef"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "97f5684faebfb12959eafbef28e74687f8a2c2f803ff55a24825c6a181744a33"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "911b7f1fe2053097ec73015dcdb1f24d7d7d1a4004caad51ec1ce18a1c8eb432"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3e8b8a22da1902aac5210707dfd83fd61068dc942a226b7ce307690711b2a8b9"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b3fb2f7c1852edaa4430e027468d6a27c2b84ad399bf6b59bb20adf2851b27c4"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "19e431f88d29789bb44e689d34e121e7e5e66d5bfecc7964553bba4957e32760"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "1303f828dae3758a06ee23df0e56c9fe2d8fc2a23f1412fdc70715cb63ea7856"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "355c2e7fa143ccbb2bf22c807c2f7ee6b58d4db104b606db59d0c4366043fc4d"
+        }
+      ]
+    }
+  ],
+  "sectionDispositions": [
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 0,
+      "sha256": "5996d1cf77e9ee3167280d5cc9480c2ea9c7fdcbbb824b3a536232f4d5b78bc0",
+      "kind": "preamble",
+      "inventoryRows": [
+        "M-X01"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 1,
+      "sha256": "38f0386bcfa0b8775df8f7478599afc87226b39e0b05f86eb86d714574e3a5e5",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-001"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 2,
+      "sha256": "2b89b1098d5f53bc72ab54ed6466d1eba8985562a6114d5675154d12785ea412",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-002",
+        "M-003",
+        "M-004",
+        "M-005"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 3,
+      "sha256": "5c759ece2967427d1ab23147181197819e2ef46d76c4c5e548c1ac538a64945a",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-006",
+        "M-007",
+        "M-008",
+        "M-009",
+        "M-010",
+        "M-011"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 4,
+      "sha256": "2ff46842d1bb9762e75026b054104fc3ba4401998a5d01ac1c05e47d9d2b7b68",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-012",
+        "M-013",
+        "M-014",
+        "M-015"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 5,
+      "sha256": "26a9dbe3d2d97c25e4d57464641b2aafe8208093214ce4734855f0bb577840b8",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-016",
+        "M-017",
+        "M-018",
+        "M-019",
+        "M-020",
+        "M-021"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 6,
+      "sha256": "f814f8eac5325f0df7f508c0a776bdbca7db0d8254b780e1f35e18ba52598f70",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-022",
+        "M-023",
+        "M-024",
+        "M-025"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 7,
+      "sha256": "43a0f047c148d395d6ce37008bb7f18c7f263b9b09cd5a0a38ea1a76ea6d1c2f",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "M-026",
+        "M-027",
+        "M-028",
+        "M-029",
+        "M-030"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 8,
+      "sha256": "f91d7da809f991d0fb1e67c44a79334094c0d7b6d70383cc420b64515b9b45b7",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "M-031",
+        "M-032"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 9,
+      "sha256": "25cb1c31e3c20334fe44b6dacf83f7050e72ef480161a9eabc8d3e0b9bf76ead",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "M-033"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 10,
+      "sha256": "4624a64169ff120dfbca628a84ecd47304461961356f5098b5d00ebbc06d0cf8",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "M-X02"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+      "phase": "later",
+      "ordinal": 11,
+      "sha256": "d34f3e2ad1760806baed30913bba7bacf7eabdb3820c6d4036f6a64d990f7275",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "M-X03"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 0,
+      "sha256": "a97f2ae36599609770d942e25af327001aa7ee10211f9469095bb9b14ce61ffe",
+      "kind": "preamble",
+      "inventoryRows": [
+        "P-X01"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 1,
+      "sha256": "2ce7015f3cbb7d2ba80a95e396801c2e8ce7e9c88160c75edd64d2ec5f31dbee",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "P-001"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 2,
+      "sha256": "acd8c4784ed1c609b9c00ea936b763871b142c9741f82112cc821cc3d11cd8c2",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "P-001"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 3,
+      "sha256": "5a4ed6ed66eb6a800efd8c63abc1939760a4e9da70f27b1122f5f8a544bbc3e9",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "P-002",
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007",
+        "P-008",
+        "P-009",
+        "P-010",
+        "P-011",
+        "P-012"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 4,
+      "sha256": "d4e1f0f01263e65f14ad9ecbd2cef2b3e0d1f3d455d556ed6903aa8e5b6dccef",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "P-013",
+        "P-014",
+        "P-015",
+        "P-016",
+        "P-017",
+        "P-018",
+        "P-019",
+        "P-020",
+        "P-021"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 5,
+      "sha256": "97f5684faebfb12959eafbef28e74687f8a2c2f803ff55a24825c6a181744a33",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "P-022",
+        "P-023"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 6,
+      "sha256": "911b7f1fe2053097ec73015dcdb1f24d7d7d1a4004caad51ec1ce18a1c8eb432",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "P-024",
+        "P-025",
+        "P-026",
+        "P-027",
+        "P-028",
+        "P-029",
+        "P-030",
+        "P-031"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 7,
+      "sha256": "3e8b8a22da1902aac5210707dfd83fd61068dc942a226b7ce307690711b2a8b9",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "P-032",
+        "P-033",
+        "P-034",
+        "P-035",
+        "P-036",
+        "P-037"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 8,
+      "sha256": "b3fb2f7c1852edaa4430e027468d6a27c2b84ad399bf6b59bb20adf2851b27c4",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "P-038"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 9,
+      "sha256": "19e431f88d29789bb44e689d34e121e7e5e66d5bfecc7964553bba4957e32760",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "P-039"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 10,
+      "sha256": "1303f828dae3758a06ee23df0e56c9fe2d8fc2a23f1412fdc70715cb63ea7856",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "P-X02"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-proximity-metrics.md",
+      "phase": "later",
+      "ordinal": 11,
+      "sha256": "355c2e7fa143ccbb2bf22c807c2f7ee6b58d4db104b606db59d0c4366043fc4d",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "P-X03"
+      ]
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAt": "2026-11-12T19:23:52.113837+00:00",
+    "inventorySha256": "dae63daa6bb5409dc3e3a9b618d35f5f0850d0fbdcc34d81647634651cd75af9",
+    "substantiveRows": 72,
+    "nonCreditRows": 9,
+    "totalRows": 81,
+    "ownersInspectedBeforeFreeze": false,
+    "sourceSha256s": [
+      "a65f78123aef1dff27ecded92191ae8076b4900b9ab257b7412a11692a197f80",
+      "908f3b3678984c3c823b727138b8e76fc3178fb8f1d18e92396d258e10096f54"
+    ]
+  },
+  "originalCounterparts": [],
+  "scope": "Two later bodies fully read. No filename or source-census counterpart at the original pin. Earlier spatial sources remain independently censused; no original lesson is credited by shared topic."
+}

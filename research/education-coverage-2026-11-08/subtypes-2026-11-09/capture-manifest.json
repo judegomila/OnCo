@@ -1,0 +1,570 @@
+[
+  {
+    "file": "med-21633166.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21633166+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:13.571295+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21633166+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8059,
+    "sha256": "2e37c52e01ad67a4407ae0aa227b67dbb5ea6262f05dba4a92131343f630f917",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-27310713.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27310713+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:14.471576+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27310713+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11194,
+    "sha256": "b5a9309bc1070351af6c0f579426a8c9b34450a7dd3f262a7bfe0fac24de607e",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-10963602.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10963602+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:16.059930+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10963602+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6781,
+    "sha256": "ec9b3012fc6c88ab2505d0173529050cbf0973823ff6d537e6f13fd0af558922",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-19204204.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19204204+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:17.283956+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19204204+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10279,
+    "sha256": "3d3b363c400d5d5a4905707303977a8e3736f5f8ae20e21c428c71c42ed340cb",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-23035882.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23035882+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:18.328422+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23035882+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12007,
+    "sha256": "051a8e372e40c1781ee90d572a2248b9b081d1bc09f1f076c921936dc454a21d",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-21718502.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21718502+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:19.356788+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21718502+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7069,
+    "sha256": "d259f6d13f08664dfafd349487084e4283635eecb5f5c0f95035862a4403733e",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "med-25208879.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25208879+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:02:20.033565+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25208879+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9961,
+    "sha256": "3bfbdb5163cbb01f39e07cb7e82c5971beaf09587813a75ecd1a260bc9d54eb0",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "lehmann-2011.html",
+    "url": "https://www.jci.org/articles/view/45014",
+    "capturedAt": "2026-11-09T22:02:20.711327+00:00",
+    "status": 200,
+    "finalURL": "https://www.jci.org/articles/view/45014",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 221730,
+    "sha256": "3f5fd2f1c03cb7d8dabea07a605fe9d6b5dfbd47ee4f596354498b918f991d3b",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "lehmann-2016.html",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157368",
+    "capturedAt": "2026-11-09T22:02:21.737138+00:00",
+    "status": 200,
+    "finalURL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157368",
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 238813,
+    "sha256": "8f0b30f69afe7b1cb9bf6f1d9cb5f4f5990a280822b94ae190f08e58e7b320b9",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "fda-k130010.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf",
+    "capturedAt": "2026-11-09T22:02:22.703907+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "disposition": "unavailable request; not used as a body"
+  },
+  {
+    "file": "fda-k130010-letter.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf13/K130010.pdf",
+    "capturedAt": "2026-11-09T22:04:09.536168+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "disposition": "unavailable request; not used as a body"
+  },
+  {
+    "file": "fda-k130010-summary-query.pdf",
+    "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf?attachment=",
+    "capturedAt": "2026-11-09T22:04:09.901211+00:00",
+    "error": "HTTP Error 404: Not Found",
+    "disposition": "unavailable request; not used as a body"
+  },
+  {
+    "file": "nice-htg719-recommendations.html",
+    "url": "https://www.nice.org.uk/guidance/htg719/chapter/1-Recommendations",
+    "capturedAt": "2026-11-09T22:04:10.137768+00:00",
+    "status": 200,
+    "finalURL": "https://www.nice.org.uk/guidance/htg719/chapter/1-Recommendations",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 31763,
+    "sha256": "85d710b3a5bc1f873c894742e825f380c82b4e653706433c16125cbbe1ebc860",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "nice-htg719-tests.html",
+    "url": "https://www.nice.org.uk/guidance/htg719/chapter/2-The-diagnostic-tests",
+    "capturedAt": "2026-11-09T22:04:11.128562+00:00",
+    "status": 200,
+    "finalURL": "https://www.nice.org.uk/guidance/htg719/chapter/2-The-diagnostic-tests",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 38240,
+    "sha256": "45b381623a9b3fbed8f92fd1668ad28c61daddaea0c091575ede77215a9db65c",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-1-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.21037%2Fatm.2020.03.194%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:06:56.441774+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.21037%2Fatm.2020.03.194%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4216,
+    "sha256": "65207256f3f7664a4769a5155148b8446246cfc7e7b8fc2a4c399188a667c5df",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-3-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1634%2Ftheoncologist.2019-0982%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:06:57.788130+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1634%2Ftheoncologist.2019-0982%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11898,
+    "sha256": "cbc3a97e7e7f7a378ba43e07d049766b34c6a8a596b407d1b0c07c9bf3fdc244",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-4-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.4137%2FCIN.S9983%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:06:58.624854+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.4137%2FCIN.S9983%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 5599,
+    "sha256": "36a6e7d1d7500f85652a459c304fff2d2acdd06ea9a66d01f24decbf420e1f7c",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-5-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1159%2F000519255%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:06:59.431330+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1159%2F000519255%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10180,
+    "sha256": "1c7178494abd9b1f9f54a120b8454b2856d6614dd7efb0162f1eb8501d8b60a7",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-6-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs19-p4-06-13%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:07:00.185656+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs19-p4-06-13%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 217,
+    "sha256": "33a7bf31918e751acd7de6cb9a273d24da4fa850da2bd9ee692336657a878afb",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-7-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fcncr.28914%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:07:00.798829+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fcncr.28914%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 5815,
+    "sha256": "437993dc5fa2c85bbef021be2737bb51e75e0720d4fba503bcc420429cce86e4",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "elicit-rank-8-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.SABCS14-P2-04-07%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:07:06.821008+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.SABCS14-P2-04-07%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 217,
+    "sha256": "083d7ead6c2593b2098de37901169a99429b5c3a2d3b64a94100c4ad7d9e3388",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "masuda-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.ccr-13-0799%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:42.465800+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1078-0432.ccr-13-0799%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8498,
+    "sha256": "2deedcf08b204c5c67697cbe86544d1d3658129d231d7e50ee8260fa68099b81",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "loibl-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fannonc%2Fmdy460%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:43.202769+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fannonc%2Fmdy460%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 16259,
+    "sha256": "bbff86c48bfdfc097b1a8b543a8dac9a4ad07823002cd5f252013713b72252ea",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "lehmann-che-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fbcr3421%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:44.837404+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fbcr3421%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 13051,
+    "sha256": "00e3fa0509d14779ae82b35cc2507dc7b3bac85be4bf999b6c2ef9b2b8c6106e",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prat-claudin-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fbcr2635%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:45.551228+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fbcr2635%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9884,
+    "sha256": "1b9b1bb2136e6abd2dd99799259fd6cb7540c7dc8070cbb11c569f5808db1459",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "fougner-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-020-15574-5%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:46.235541+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41467-020-15574-5%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6524,
+    "sha256": "a23b00763d674b3d543711083b9af7e69fbc008f65aee9549e7efe4cb971993c",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-1-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.3011%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:50.805553+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.3011%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 216,
+    "sha256": "b25e1be817ad91eb46c935490cad3fcc9bb5bcc0065b28a6bb634ec36500d5f4",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-2-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fs1470-2045%2823%2900579-x%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:55.190807+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fs1470-2045%2823%2900579-x%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 17837,
+    "sha256": "70f7d0153060b6e33459553e0395bc9a65fb982bb9b5edd8ed381a3f071403ce",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-3-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fijms27115040%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:55.859741+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fijms27115040%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8995,
+    "sha256": "31bca52e2defa25c05d6326f0956e51e988ea9724f95d984e53d9841e3c348f7",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-4-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs22-ot3-27-01%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:09:56.573987+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs22-ot3-27-01%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 218,
+    "sha256": "194d6f1422de6eacddffc198785e7d506f943461ade9b70d6217693db8405ce4",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-5-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.528%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:10:00.495692+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.528%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 215,
+    "sha256": "796e6a6565ad22bceec8d7badeb388857744b8286544e9f4e02682687f492f8e",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-6-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1055%2Fa-2373-8257%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:10:01.188541+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1055%2Fa-2373-8257%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 202,
+    "sha256": "81187e44650ccfb5631130b2a9ba36a1a2e9079b9602d6754953d18f1176e1f6",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-7-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41422-023-00795-2%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:10:01.805821+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41422-023-00795-2%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12329,
+    "sha256": "d3d5dc9acfd28d027c2fb2d91926ecd929cbec0f02c63915acac31bf105e5b8e",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-8-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffimmu.2026.1859601%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T22:10:02.457577+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3389%2Ffimmu.2026.1859601%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7216,
+    "sha256": "3a22e84bede2573b94c788e8b1078f80e7eaf9379bec05d5ec123cfa87648648",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "registry-NCT01592825.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT01592825",
+    "capturedAt": "2026-11-09T22:10:06.701498+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT01592825",
+    "contentType": "application/json",
+    "bytes": 9688,
+    "sha256": "a47c9dd7bcdeb92a8107866d2a59d31a7c8753b597223ede9fe240e400583956",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "registry-NCT01642771.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT01642771",
+    "capturedAt": "2026-11-09T22:10:06.884320+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT01642771",
+    "contentType": "application/json",
+    "bytes": 25131,
+    "sha256": "ebec36db03397fc817b1b73a272d4a7ccdcac0296c1ae4e604cce53999a09cd7",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "registry-NCT03805399.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT03805399",
+    "capturedAt": "2026-11-09T22:10:07.064253+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03805399",
+    "contentType": "application/json",
+    "bytes": 15134,
+    "sha256": "996f81ad62f405cbc5e59c47a7d98aa60339bb3bf9715a9636930adb39ab44ec",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "registry-NCT04395989.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04395989",
+    "capturedAt": "2026-11-09T22:10:07.233877+00:00",
+    "status": 200,
+    "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT04395989",
+    "contentType": "application/json",
+    "bytes": 13468,
+    "sha256": "cbf73f8d2654344786d6a3c91ee98600c0e94d5774d4cf9130e0d38f6bac67b2",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "initial-rank-6-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.sabcs19-p4-06-13",
+    "capturedAt": "2026-11-09T22:11:20.994089+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.sabcs19-p4-06-13",
+    "contentType": "application/json",
+    "bytes": 8450,
+    "sha256": "7711adaf379da4e33b217d157f4088c02a90369ed948fbfad969becb74172a4b",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "initial-rank-8-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.SABCS14-P2-04-07",
+    "capturedAt": "2026-11-09T22:11:21.284096+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.SABCS14-P2-04-07",
+    "contentType": "application/json",
+    "bytes": 8689,
+    "sha256": "ced522b8cfcc1522fc8587e03e5766ad14e252ea77ef5896845fff1118f6dc88",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-1-crossref.json",
+    "url": "https://api.crossref.org/works/10.1200%2Fjco.2023.41.16_suppl.3011",
+    "capturedAt": "2026-11-09T22:11:21.532433+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1200%2Fjco.2023.41.16_suppl.3011",
+    "contentType": "application/json",
+    "bytes": 7502,
+    "sha256": "d59b07b92177c133e8b145cba8d8249071125d7ab00c20b6d7f3c90bbde4bf0d",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-4-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.sabcs22-ot3-27-01",
+    "capturedAt": "2026-11-09T22:11:21.781069+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1158%2F1538-7445.sabcs22-ot3-27-01",
+    "contentType": "application/json",
+    "bytes": 11048,
+    "sha256": "f9b13814c6d11e2ec742062e55777d573e5b710f1dc74b1524f6651845458772",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-5-crossref.json",
+    "url": "https://api.crossref.org/works/10.1200%2Fjco.2023.41.16_suppl.528",
+    "capturedAt": "2026-11-09T22:11:22.017941+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1200%2Fjco.2023.41.16_suppl.528",
+    "contentType": "application/json",
+    "bytes": 5549,
+    "sha256": "b3090538d9f1fc60affe55b7e7f2089a2ab3008dbb3e4b8161aadbed93a09f23",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "prospective-rank-6-crossref.json",
+    "url": "https://api.crossref.org/works/10.1055%2Fa-2373-8257",
+    "capturedAt": "2026-11-09T22:11:22.262855+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1055%2Fa-2373-8257",
+    "contentType": "application/json",
+    "bytes": 2151,
+    "sha256": "d23e3f634c5abf973aa53ae4a012676aeb60f208de4e7f0e5754c342114b1d97",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "fda-k130010-identity.json",
+    "url": "https://api.fda.gov/device/510k.json?search=k_number%3A%22K130010%22",
+    "capturedAt": "2026-11-09T22:12:20.076990+00:00",
+    "status": 200,
+    "finalURL": "https://api.fda.gov/device/510k.json?search=k_number%3A%22K130010%22",
+    "contentType": "application/json; charset=utf-8",
+    "bytes": 1890,
+    "sha256": "50273905faadd81c1dc43e76f5626571bcfa17c684686f31ffd489d8a1dc7ab6",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "parker-fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2667820/fullTextXML",
+    "capturedAt": "2026-11-09T22:15:31.670190+00:00",
+    "error": "HTTP Error 500: ",
+    "disposition": "unavailable request; not used as a body"
+  },
+  {
+    "file": "elloumi-fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3151208/fullTextXML",
+    "capturedAt": "2026-11-09T22:15:32.961224+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3151208/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 113674,
+    "sha256": "cc1ea270ce7b24d4ba44babd541abdb195ee93c922deba3ac1687b38350c6285",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "ncbi-esummary-38211606.json",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=38211606",
+    "capturedAt": "2026-11-09T22:24:25.732967+00:00",
+    "status": 200,
+    "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&retmode=json&id=38211606",
+    "contentType": "application/json; charset=UTF-8",
+    "bytes": 3434,
+    "sha256": "b710afb28599b8b5eb5fdb80eb0a63b0f372c2b5444bd17e97958742f75c1700",
+    "disposition": "captured; scoped review below"
+  },
+  {
+    "file": "fda-and-discovery-web-response.json",
+    "persistedAt": "2026-11-09T22:10:08.682Z",
+    "captureKind": "parsed primary/discovery response; includes an Elicit-docs timeout",
+    "bytes": 16210,
+    "sha256": "4d560988ff5d9a975549ce47ac1a289bbd7e6bc0be67db24866060ca0036a670",
+    "disposition": "selected parsed primary/discovery text; not original HTTP/PDF bytes"
+  },
+  {
+    "file": "fda-primary-pdf-sections-web-response.json",
+    "persistedAt": "2026-11-09T22:10:08.739Z",
+    "captureKind": "selected parsed original FDA PDF text; not original PDF bytes",
+    "bytes": 27575,
+    "sha256": "8d0278e9eed2e54707ae082fb23116c526df44123799559c73982bad68a099b6",
+    "disposition": "selected parsed primary/discovery text; not original HTTP/PDF bytes"
+  },
+  {
+    "file": "nice-web-error-response.json",
+    "persistedAt": "2026-11-09T22:10:08.786Z",
+    "captureKind": "excluded request error; raw NICE pages are captured separately",
+    "bytes": 414,
+    "sha256": "f569ea8f8715cacb5a0afde82aafa8b794a0b863a48891f4e9520603853b8fea",
+    "disposition": "excluded request error"
+  },
+  {
+    "file": "prospective-primary-search-web-response.json",
+    "persistedAt": "2026-11-09T22:10:08.828Z",
+    "captureKind": "discovery search only; primary identities resolved separately",
+    "bytes": 35004,
+    "sha256": "7efad651ab62e07e7cf75cc85b8172299fe02b9618fb496402f1ac5cc44dcc04",
+    "disposition": "selected parsed primary/discovery text; not original HTTP/PDF bytes"
+  },
+  {
+    "file": "intrinsic-primary-web-response.json",
+    "persistedAt": "2026-11-09T22:39:10.247Z",
+    "captureKind": "parsed primary pages: Elloumi selected text and excluded Parker challenge; raw Elloumi XML separately captured",
+    "bytes": 16945,
+    "sha256": "375effe8c518f024ceb485b3c8ddafecb356e1c57dff29fc213f5fc20df7f81e",
+    "disposition": "selected parsed primary/discovery text; not original HTTP/PDF bytes"
+  },
+  {
+    "file": "elicit-subtype-validation.json",
+    "capturedAt": "2026-11-09T22:04:54.752Z",
+    "captureKind": "complete Elicit CLI response outside Git",
+    "bytes": 23752,
+    "sha256": "a455d86be5e46d9f9a7533dcd652862f48e00fecb9ccaaf84874fa8bc91c3ce1",
+    "disposition": "discovery; each of eight occurrences separately screened"
+  },
+  {
+    "file": "elicit-prospective-subtype-strategies.json",
+    "capturedAt": "2026-11-09T22:07:57.451Z",
+    "captureKind": "complete Elicit CLI response outside Git",
+    "bytes": 23196,
+    "sha256": "265b3e5117986d63939db81bf0f3e355fe9e92cdb50a62483557c1c01165c80e",
+    "disposition": "discovery; each of eight occurrences separately screened"
+  }
+]

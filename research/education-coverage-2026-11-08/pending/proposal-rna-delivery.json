@@ -1,0 +1,718 @@
+{
+  "version": "proposal-rna-delivery",
+  "state": "Integrated in draft375 only: six new delivery concepts and three additional existing owners. In-vivo-car-t retains proposal-therapeutic ownership; seven RNA construct owners remain in draft373.",
+  "sourceBaseHead": "b74eec3fd6cb7dacbc2a89ac28a3679338f1abc1",
+  "workerHeads": [
+    "97302ef09c7c317f8b7a8ef1bb4a5d89d0f78add",
+    "8addc9cd1a01da21f751905b471120be2a599ecc"
+  ],
+  "records": [
+    {
+      "id": "aav-vector",
+      "kind": "term",
+      "name": "AAV (adeno-associated virus) vector",
+      "aka": [
+        "AAV",
+        "rAAV",
+        "recombinant AAV",
+        "adeno-associated viral vector",
+        "adeno-associated virus vector"
+      ],
+      "tldr": "An AAV vector is a small engineered virus particle used to carry a DNA cassette into cells. Reaching a cell, keeping the DNA and making useful protein are separate steps, and each needs its own evidence in the cells that matter.",
+      "summary": "Recombinant AAV replaces the viral coding sequence with a designed cassette and regulatory sequences. The protein shell (capsid) influences which cells the particle enters; the cassette decides what those cells could make. The DNA still has to reach the nucleus and act as a template before RNA and protein appear, and an AAV is a different virus from an adenovirus.\n\nWhere the DNA sits was measured in different systems. In sequential muscle biopsies taken 3 and 12 months after an intramuscular AAV vector expressing alpha-1 antitrypsin, most vector DNA was double-stranded circular episomes, and clones recovered from the biopsies were transcriptionally active (Schnepp and colleagues; abstract read, full text not retrievable). After partial hepatectomy in mice, extrachromosomal genomes were the main form behind liver expression and in most cases no more than about 10 per cent of stably transduced genomes had integrated, although one of three mice at a higher dose had 67 per cent integrated genomes (Nakai and colleagues). That shows the usual behaviour of the tested vectors in those tissues, not that integration never happens, and persistent DNA does not show an intact cassette, enough protein or a surviving functional cell: in the muscle study the episomal inverted terminal repeats ranged from fully intact to severely deleted, so counting vector DNA is a different measurement from showing a working cassette.\n\nImmunity and capacity also limit what a lot can do. In a phase 1/2 study in seven people with severe haemophilia B, an AAV2 factor IX vector infused through the hepatic artery reached therapeutic levels at the highest dose but expression lasted about 8 weeks; the authors' further studies suggested that cell-mediated immunity against capsid antigens destroyed transduced hepatocytes (Manno and colleagues). Neutralising antibodies against the capsid are why re-dosing is hard: a review notes that systemic AAV dosing needs patient stratification by antibody level and that re-administration then becomes very difficult (Naso and colleagues), and a 2024 mouse study, which opens by noting that AAV typically induces long-lasting neutralising antibodies that prevent re-administration, found that transient B-cell depletion (anti-CD20 with anti-BAFF) before hepatic AAV8 delivery allowed effective re-administration (Rana and colleagues). Whether a given product can be given again is a product-specific question, and that mouse experiment does not establish a clinical re-dosing protocol. For packaging, the AAV2 genome is a single-stranded DNA of 4,675 nucleotides (Srivastava and colleagues) and the original self-complementary-vector experiment used an inverted repeat that could pair with itself, bypassing synthesis of the second strand (McCarty and colleagues, 2001). McCarty's later review describes the trade-off as losing half the coding capacity. Report the capsid, cassette configuration and length being measured with a capacity figure; a measured packaged-genome length and usable coding capacity answer different questions. In the study of plasmid-encoded vectors of 4.7 to 8.7 kb in AAV2, AAV5 and AAV8 capsids, packaged genomes never exceeded 5.2 kb; genomes from plasmids over 5 kb were heterogeneous and truncated at the 5' end, and reporter expression in cells at high multiplicity of infection was substantially lower than from genomes under 5 kb (Wu and colleagues). FDA follow-up guidance says vectors such as AAV that do not tend to integrate or reactivate generally carry a lower risk of delayed adverse events, while product-specific modifications may change that, so safety is assessed per product.\n\nAAV also appears in cell-engineering workflows without being the lasting product. In primary human T cells in culture, Cas9 mRNA and guide RNA were electroporated and a recombinant AAV6 vector added 2 to 4 hours later supplied a repair template encoding a CD19 CAR, which was knocked into the TRAC locus; the edited cells outperformed conventionally generated CAR T cells in a mouse leukaemia model (Eyquem and colleagues). There the AAV carried a donor template into cells outside the body and the lasting change was the knocked-in receptor, so an AAV in a workflow does not show direct targeting of T cells in a patient. Capsid variants differ in tissue tropism, for example AAV8 for liver in rodents and non-human primates (Naso and colleagues).\n\nMuscle and liver observations, T-cell editing in culture and mouse leukaemia experiments answer different questions. Muscle or liver persistence does not establish how another cassette behaves in dividing T cells. A capsid that favours a tissue is a delivery feature, separate from what the encoded protein recognises; the cited experiments do not establish benefit for people with cancer.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle.",
+          "url": "https://doi.org/10.1089/hum.2015.136"
+        },
+        {
+          "label": "Extrachromosomal recombinant adeno-associated virus vector genomes are primarily responsible for stable liver transduction in vivo.",
+          "url": "https://doi.org/10.1128/jvi.75.15.6969-6976.2001"
+        },
+        {
+          "label": "Successful transduction of liver in hemophilia by AAV-Factor IX and limitations imposed by the host immune response.",
+          "url": "https://doi.org/10.1038/nm1358"
+        },
+        {
+          "label": "Effect of genome size on AAV vector packaging.",
+          "url": "https://doi.org/10.1038/mt.2009.255"
+        },
+        {
+          "label": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy.",
+          "url": "https://doi.org/10.1007/s40259-017-0234-5"
+        },
+        {
+          "label": "Nucleotide sequence and organization of the adeno-associated virus 2 genome.",
+          "url": "https://doi.org/10.1128/jvi.45.2.555-564.1983"
+        },
+        {
+          "label": "B cell focused transient immune suppression protocol for efficient AAV readministration to the liver.",
+          "url": "https://doi.org/10.1016/j.omtm.2024.101216"
+        },
+        {
+          "label": "Targeting a CAR to the TRAC locus with CRISPR/Cas9 enhances tumour rejection.",
+          "url": "https://doi.org/10.1038/nature21405"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        },
+        {
+          "label": "McCarty et al., 2001: self-complementary AAV in defined cell and animal experiments",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11509958/"
+        },
+        {
+          "label": "McCarty, 2008: review of self-complementary AAV and coding-capacity trade-offs",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18682697/"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "gene-delivery"
+      ],
+      "related": [
+        "lentiviral-vector",
+        "transposon"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "viral-vector-manufacturing",
+        "in-vivo-car-t"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Measure vector DNA with its cell or tissue denominator and distinguish genome integrity, DNA form, RNA, protein and function. An average DNA count does not identify an episome or an insertion site. A long-lived signal in one tissue does not establish survival, expression or genetic inheritance in a different dividing-cell population. Nonintegrated genomes can be diluted as cells divide. In Nakai's mouse liver-regeneration experiment, vector genomes per cell and factor IX expression fell after partial hepatectomy, whereas the integrated transposon comparator retained expression; this is a defined tissue/regeneration comparison."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "lentiviral-vector",
+      "kind": "term",
+      "name": "Lentiviral vector",
+      "aka": [
+        "lentivirus vector",
+        "lentiviral gene transfer",
+        "self-inactivating lentiviral vector",
+        "SIN vector",
+        "integration-deficient lentiviral vector"
+      ],
+      "tldr": "A lentiviral vector is an engineered virus particle that delivers genetic instructions into cells, and in most designs those instructions are inserted into a chromosome. Getting in, being inserted, making protein and doing the intended job are four separate claims.",
+      "summary": "Common lentiviral vectors package an RNA genome. After entry the RNA is reverse-transcribed into DNA, and in an integrating design the enzyme integrase helps insert that DNA into the cell's chromosomes, where an internal promoter can drive the encoded protein. The envelope proteins influence which cells the particle enters; changing the envelope changes delivery, not what an encoded receptor recognises.\n\nThree design labels are easy to confuse. Replication-defective means the delivered particle lacks the machinery to propagate as an ordinary virus, which does not replace testing: FDA guidance sets out testing of retroviral vector products, lentiviral ones included, for replication-competent virus during manufacture and in patient follow-up. Self-inactivating means regulatory sequences in the long terminal repeats are disabled: in the original design a 133 base-pair deletion in the U3 region of the 3' repeat was copied to the 5' repeat after reverse transcription and integration, and the vector still expressed from an internal promoter in rat brain and eye (Miyoshi and colleagues). It does not mean the cassette cannot integrate. Integration-deficient means integrase is mutated: with a class 1 integrase mutation, residual integration was lower than with intact integrase by a factor of 500 to 1,250, expression was transient in dividing cell lines and long-lived in non-dividing neural cultures and in mouse brain, consistent with an episomal genome (Philippe and colleagues). The name does not promise zero integration or lasting expression in dividing cells such as T cells.\n\nThe foundational HIV-based design transduced HeLa cells and rat fibroblasts blocked in the cell cycle and primary human macrophages, and gave stable gene transfer into terminally differentiated neurons in vivo (Naldini and colleagues; abstract read). FDA follow-up guidance notes that the activity of retroviral vectors, lentiviral ones included, comes from an integration event that is generally not directed to specific genomic sites, which raises the possibility of disrupting important genes; the risk depends on the whole product and cells.\n\nIn clinical use, third-generation self-inactivating vectors disrupt the promoter and enhancer activity of the long terminal repeat, non-integrating vectors lacking integrase have been investigated to avoid insertional mutagenesis, and recombination during manufacture could in theory produce replication-competent retrovirus or lentivirus, which is why lots are tested (Milone and O'Doherty, review).\n\nMeasurement keeps layers apart. For CAR T products FDA recommends testing vector lots for transducing units per millilitre in a suitable cell line or healthy donor cells, and reporting vector copy number, the average number of integrations per CAR-positive cell; dividing by all cells, including CAR-negative ones, lowers the reported figure, so the denominator has to be stated (FDA, January 2024). Particle or genome counts, a functional titre, copies per cell, receptor-positive percentage and antigen-dependent activity answer different questions, a particle can be counted yet not transduce, and an average copy number does not show each cell's copy number or insertion sites. These are laboratory, animal and regulatory sources, not evidence of benefit in cancer.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "In vivo gene delivery and stable transduction of nondividing cells by a lentiviral vector.",
+          "url": "https://doi.org/10.1126/science.272.5259.263"
+        },
+        {
+          "label": "Development of a self-inactivating lentivirus vector.",
+          "url": "https://doi.org/10.1128/jvi.72.10.8150-8157.1998"
+        },
+        {
+          "label": "Lentiviral vectors with a defective integrase allow efficient and sustained transgene expression in vitro and in vivo.",
+          "url": "https://doi.org/10.1073/pnas.0606197103"
+        },
+        {
+          "label": "Clinical use of lentiviral vectors.",
+          "url": "https://doi.org/10.1038/s41375-018-0106-0"
+        },
+        {
+          "label": "Considerations for the Development of Chimeric Antigen Receptor (CAR) T Cell Products: guidance for industry, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Testing of Retroviral Vector-Based Human Gene Therapy Products for Replication Competent Retrovirus During Product Manufacture and Patient Follow-up: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113790/download"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "gene-delivery"
+      ],
+      "related": [
+        "aav-vector",
+        "transposon"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "viral-vector-manufacturing",
+        "car-t-manufacturing-process",
+        "in-vivo-car-t"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "An integrated cassette can be copied with chromosomal DNA during division, while expression, survival, tissue access and antigen-dependent activity require separate observations. Insertion-site analysis and clonal dominance contribute to product-specific risk assessment; an average copy count does not describe every cell or integration. A particle count can remain high when functional titre on the stated test system is low. Observations in sampled T cells do not identify all unintended recipient cells."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "lipid-nanoparticle",
+      "kind": "term",
+      "name": "Lipid nanoparticles for RNA delivery",
+      "aka": [
+        "LNP",
+        "LNPs",
+        "lipid nanoparticle",
+        "RNA lipid nanoparticle",
+        "mRNA-LNP"
+      ],
+      "tldr": "A lipid nanoparticle is a formulated fat-based carrier that protects RNA and helps it enter cells. Getting into a cell, releasing usable RNA into the cell fluid and making protein are separate steps, and a particle can succeed at the first without the others.",
+      "summary": "A typical RNA-delivery lipid nanoparticle combines an ionisable lipid, a phospholipid, cholesterol and a polyethylene glycol lipid around the RNA; the proportions, lipid identities and preparation change behaviour, so the label LNP alone does not name a product. Ionisable lipids change charge with pH. In common designs they are more protonated in an acidic environment and less charged at physiological pH; the extent depends on the lipid and its environment. This can support membrane interactions during endosomal escape, whose performance remains formulation- and cell-dependent (Hou and colleagues, review). Cells usually take particles into endosomes, and messenger RNA is translated by ribosomes in the cytosol, so usable delivery needs the RNA to leave the endosome. Ordinary messenger RNA does not need to enter the nucleus.\n\nUptake and expression were measured separately in primary human adipocytes, fibroblasts and HeLa cells with six LNP formulations of similar size (54 to 73 nm) carrying eGFP mRNA: total uptake was necessary but not a sufficient predictor of delivery, one formulation gave the highest eGFP expression despite moderate uptake, prolonged uptake impaired endosomal acidification and left mRNA in compartments unproductive for delivery, and early endocytic and recycling compartments had the highest probability of escape (Paramasivam and colleagues). In that study eGFP expression served as a proxy for release; it did not measure the fraction of RNA that escaped.\n\nWhere particles go depends on formulation and route. In female BALB/c mice given luciferase-mRNA LNPs by intramuscular, subcutaneous or intravenous injection, some intramuscular particles reached the liver and spleen, smaller particles more than larger ones, bigger particles tended to stay at the injection site, and liver expression was the most prominent; exposure and expression were not linearly related (Di and colleagues). Mouse distribution is not another product's distribution in people, and local injection does not establish local delivery. Readouts answer different questions: particle size, RNA integrity and encapsulated fraction describe the product; a labelled lipid or labelled RNA shows where a label went, not that intact RNA arrived or was released; and protein per identified live cell shows expression. In the mouse study a lipid label (DiR or deuterium-labelled cholesterol) and luciferase activity were measured separately and did not track each other linearly, and every figure needs its denominator (all cells, live cells or expressing cells). Uptake and protein are different fractions: in the six-formulation study the formulation with the highest eGFP expression had only moderate uptake, so a formulation that takes up in more cells can still make protein in fewer. Message and effect also run on separate clocks: in cultured mouse T cells CAR expression from LNP mRNA peaked at 24 hours and fell over the next days (Rurik and colleagues), and the same RNA in particles of different size or by a different route distributed differently, so the same RNA is not the same product.\n\nThe cancer relevance is as a carrier of antigen-encoding RNA or of instructions for engineering immune cells. The carrier, where it goes, which cells make protein and what that protein does are different questions; none of these studies is evidence of clinical benefit.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Endosomal escape of delivered mRNA from endosomal recycling tubules visualized at the nanoscale.",
+          "url": "https://doi.org/10.1083/jcb.202110137"
+        },
+        {
+          "label": "Biodistribution and Non-linear Gene Expression of mRNA LNPs Affected by Delivery Route and Particle Size.",
+          "url": "https://doi.org/10.1007/s11095-022-03166-5"
+        },
+        {
+          "label": "Selective organ targeting (SORT) nanoparticles for tissue-specific mRNA delivery and CRISPR-Cas gene editing.",
+          "url": "https://doi.org/10.1038/s41565-020-0669-6"
+        },
+        {
+          "label": "Lipid nanoparticles for mRNA delivery.",
+          "url": "https://doi.org/10.1038/s41578-021-00358-0"
+        },
+        {
+          "label": "CAR T cells produced in vivo to treat cardiac injury.",
+          "url": "https://doi.org/10.1126/science.abm0594"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "rna-delivery"
+      ],
+      "related": [
+        "rna-lipoplex",
+        "targeted-lnps"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "mrna-lnp-manufacturing",
+        "in-vivo-car-t",
+        "neoantigen-mrna-vaccine"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "rna-lipoplex",
+      "kind": "term",
+      "name": "RNA-lipoplex",
+      "aka": [
+        "RNA-LPX",
+        "RNA lipoplex",
+        "lipoplex RNA vaccine",
+        "mRNA-lipoplex nanoparticles"
+      ],
+      "tldr": "An RNA-lipoplex is a particle in which RNA is complexed with lipids. Its behaviour depends on the exact lipids, charge balance and route, so a result for one lipoplex does not transfer to another product.",
+      "summary": "RNA carries negative charge, and positively charged lipid components can associate with it. RNA-lipoplex names a family of formulations, and the final particle need not be positively charged: net charge depends on the balance of RNA and lipid, the ingredients and the preparation. The naming overlaps with lipid nanoparticles, so the actual composition and properties matter more than the acronym.\n\nIn one study of the approach, intravenous RNA-lipoplexes were aimed at dendritic cells by adjusting net charge, without adding a molecular ligand; the particles protected RNA from ribonucleases, were taken up and expressed in dendritic cells and macrophages in lymphoid compartments, and triggered interferon-alpha release from plasmacytoid dendritic cells and macrophages, with antigen-specific T-cell responses and tumour rejection in the authors' in vivo experiments (Kranz and colleagues; the abstract also reports a phase I trial in which three people with melanoma had been treated at a low dose when it was published). An innate-immune signal is not antigen expression, antigen-specific immunity or clinical benefit.\n\nThe pancreatic cancer vaccine autogene cevumeran shows how specific a lipoplex product is. In the phase I trial each patient's vaccine held two uridine mRNA strands, each encoding up to 10 neoepitopes, formulated in lipoplex nanoparticles of about 400 nm made from the cationic lipid DOTMA and the phospholipid DOPE, given intravenously (Rojas and colleagues, methods). That trial gave atezolizumab and the vaccine to 16 people and then a modified FOLFIRINOX regimen to 15, so it describes one product within a treatment sequence and neither ranks lipoplexes against lipid nanoparticles nor isolates the vaccine's effect.\n\nA commercial cationic-lipid lipoplex reagent shows how far charge and properties can vary. In vitro, eGFP mRNA lipoplexes formed in pure water measured 98.7 to 121.5 nm by dynamic light scattering and had zeta potentials from -14.4 to -58.7 mV across reagent lots, so a cationic lipid does not guarantee a positive particle, and the value was measured for that preparation, medium and lot (Appelbaum and colleagues; canine retina and cell lines, no cancer setting). The same study separates uptake from expression: after subretinal injection eGFP mRNA was detected in all retinal cell types but protein was limited to the retinal pigment epithelium. A product with the same antigen sequence but different lipids or route is not the same product: particle size and route changed where mRNA LNPs went in mice (Di and colleagues), and the Rojas product is described by its own composition, route and protocol.\n\nFor messenger RNA, being inside an endosome is not enough: it must reach the cytosol to be translated. The endosomal-release experiments summarised under lipid nanoparticles used LNPs, not lipoplexes, so they do not by themselves describe a lipoplex.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+          "url": "https://doi.org/10.1038/nature18300"
+        },
+        {
+          "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+          "url": "https://doi.org/10.1038/s41586-023-06063-y"
+        },
+        {
+          "label": "Impact of PEGylation and hyaluronan functionalization on lipoplex-mediated mRNA delivery to the canine retina.",
+          "url": "https://doi.org/10.1080/10717544.2025.2544688"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "rna-delivery"
+      ],
+      "related": [
+        "lipid-nanoparticle",
+        "targeted-lnps"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "mrna-lnp-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ],
+      "targets": [],
+      "drugs": [
+        "autogene-cevumeran"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Appelbaum and colleagues measured RNA complexation by gel electrophoresis separately from light-scattering size and zeta potential in stated media and reagent lots. Report the assay and denominator behind any complexed or encapsulated fraction, and assess RNA integrity separately. These product measurements do not establish cytosolic release or expression. In a vaccine, expression in an antigen-presenting cell is also an earlier observation than peptide display, antigen-specific recognition or tumour control."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "targeted-lnps",
+      "kind": "term",
+      "name": "Targeted lipid nanoparticles",
+      "aka": [
+        "targeted LNP",
+        "tLNP",
+        "tLNPs",
+        "selective organ targeting",
+        "SORT",
+        "antibody-directed lipid nanoparticles"
+      ],
+      "tldr": "Targeted lipid nanoparticles use a surface ligand or a changed lipid mix to favour particular cells or organs. Enrichment in a tissue is not the same as working protein made only in the intended cell type.",
+      "summary": "Two strategies are separate. A ligand strategy adds a binding molecule such as an antibody to the particle surface so it recognises a marker on intended cells; binding must still lead to uptake and usable release, and the marker may sit on other cells. A formulation strategy changes the lipids: selective organ targeting (SORT) added a supplemental lipid to otherwise standard LNPs and, after intravenous injection in mice, shifted delivery toward lung, spleen or liver; with a Cre reporter, the lung formulation edited about 40 per cent of epithelial and 65 per cent of endothelial cells, the spleen formulation 12 per cent of B cells and 10 per cent of T cells, and the liver formulation 93 per cent of hepatocytes (Cheng and colleagues, as reported). These are measured results in mice, not a rule connecting a composition to an organ in people.\n\nA CD5-directed example shows both the aim and its limit. CD5-targeted LNPs carrying modified mRNA for a chimeric antigen receptor against fibroblast activation protein were tested in activated mouse T cells in culture (81 per cent expressed a GFP reporter and 83 per cent the receptor, against 7 per cent with isotype-control antibody particles) and then injected intravenously into mice with angiotensin II and phenylephrine induced cardiac injury. Receptor expression appeared in each major T-cell subset by flow cytometry (87 per cent of receptor-positive T cells were CD4-positive), bioluminescence showed spleen targeting only with CD5 particles, and liver expression occurred with both CD5 and control particles, so an organ-level signal and the identity of the expressing cells were measured separately; treatment reduced fibrosis and restored cardiac function in these mice (Rurik and colleagues, author manuscript). The delivery address was CD5 and the encoded receptor recognised a different target. This was a fibrosis model, not a cancer trial, and the authors disclose patents on the platforms.\n\nA later study used targeted LNPs to deliver mRNA to specific T-cell subsets; its abstract reports reprogrammed CD8-positive T cells in samples from healthy donors and people with autoimmune disease, tumour control in humanised mice and B-cell depletion in cynomolgus monkeys (Hunter and colleagues; abstract only, full text not retrievable). Each of those is a different experiment in a different setting, and none is evidence of benefit against solid tumours in people.\n\nEnrichment is not exclusivity. In a Cre-reporter experiment recombination appeared in 81.1 per cent of CD4-positive and 75.6 per cent of CD8-positive splenocytes but also in 15.0 per cent of CD3-negative cells, mainly B cells, dendritic cells and macrophages (Rurik and colleagues), and the 87 per cent figure above is a share of receptor-positive cells, not the share of CD4 T cells that expressed the receptor, so the denominator matters. Cargo type also matters for how long the effect lasts: RNA encoding a receptor produced transient CAR T cells in that study, whereas RNA encoding a genome editor can leave a lasting DNA change, as when SORT lipid nanoparticles delivered Cas9 mRNA and guide RNA to edit cells in mice (Cheng and colleagues) and Cas9 mRNA with an AAV repair template knocked a CAR into T cells in culture (Eyquem and colleagues).\n\nOrgan signal, cell identity, protein function and clinical effect need separate measurements, with matched untargeted controls and identified intended and unintended recipient populations.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Selective organ targeting (SORT) nanoparticles for tissue-specific mRNA delivery and CRISPR-Cas gene editing.",
+          "url": "https://doi.org/10.1038/s41565-020-0669-6"
+        },
+        {
+          "label": "CAR T cells produced in vivo to treat cardiac injury.",
+          "url": "https://doi.org/10.1126/science.abm0594"
+        },
+        {
+          "label": "In vivo CAR T cell generation to treat cancer and autoimmune disease.",
+          "url": "https://doi.org/10.1126/science.ads8473"
+        },
+        {
+          "label": "Paramasivam et al.: uptake and endosomal delivery measurements in defined cell systems",
+          "url": "https://doi.org/10.1083/jcb.202110137"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "rna-delivery"
+      ],
+      "related": [
+        "lipid-nanoparticle",
+        "rna-lipoplex"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "in-vivo-car-t",
+        "mrna-lnp-manufacturing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For messenger RNA, usable delivery includes reaching the cytosol for translation. Material detected in an endosome is an earlier observation. Report particle or cargo amount per stated tissue quantity separately from protein amount or the protein-positive fraction within each identified live-cell subset. Include intended and unintended recipient populations, matched controls, route and sampling time; an organ-level signal cannot identify every expressing cell."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "transposon",
+      "kind": "term",
+      "name": "Transposon systems for cell engineering",
+      "aka": [
+        "DNA transposon",
+        "transposase",
+        "Sleeping Beauty transposon",
+        "piggyBac",
+        "nonviral gene insertion"
+      ],
+      "tldr": "An engineered DNA transposon is a gene-insertion system in which an enzyme, the transposase, places a designed cassette into a cell's DNA. A separate method has to deliver the pieces first, and non-viral does not mean non-integrating.",
+      "summary": "A transposon system has two parts: a cargo cassette flanked by boundary sequences, and a transposase that recognises those boundaries and catalyses insertion. The transposase can be supplied as protein or through instructions that make it, and the cell has to receive both in usable form; the system does not itself deliver anything. Sleeping Beauty was reconstructed from inactive fish elements, and its transposase bound the inverted repeats and mediated precise cut-and-paste transposition in fish, mouse and human cells (Ivics and colleagues).\n\nIn one reported clinical example, two phase I trials in 26 people (7 autologous, 19 allogeneic) electroporated peripheral blood mononuclear cells with Sleeping Beauty transposon and transposase plasmids encoding a CD19-specific CAR and expanded them on activating and propagating cells for a median of 28 days. The abstract reports 2,200 to 2,500-fold ex vivo expansion, 84 per cent CAR expression, no integration hotspots, no acute or late toxicities reported, and CAR T-cell persistence averaging 201 days in autologous and 51 days in allogeneic recipients; the discussion states that the products were free of detectable SB11 transposase (Kebriaei and colleagues). That is a feasibility and safety report in small uncontrolled trials, and it describes cells engineered outside the body, not injected components.\n\nSystems differ. In primary human T cells from peripheral blood and cord blood, piggyBac gave the highest stable gene transfer efficiency in the peripheral-blood cells and the most integrants in both, Tol2 and piggyBac were more likely to promote clonal expansion than Sleeping Beauty, and Tol2 and piggyBac integrated near transcription start sites and CpG islands while Sleeping Beauty integrations looked random (Huang and colleagues). That is a laboratory comparison, not a ranking of safety in patients. Insertion-site sequencing recovers only some junctions: in the Sleeping Beauty trial's 33 independent libraries most shared fewer than 20 per cent of sites with any other library, which the authors read as arguing against common hotspots, although some pairs shared over 40 per cent and 100,000 of 571,533 unique integrations were mapped. That describes those libraries, not every insertion or later clone, and an average copy number hides differences between cells. FDA follow-up guidance states that integration by transposon elements is not directed to specific sites and that continuing transposase in target cells creates the potential for remobilising an inserted element, so transposase persistence and cassette persistence are separate measurements.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Molecular reconstruction of Sleeping Beauty, a Tc1-like transposon from fish, and its transposition in human cells.",
+          "url": "https://doi.org/10.1016/s0092-8674(00)80436-5"
+        },
+        {
+          "label": "Phase I trials using Sleeping Beauty to generate CD19-specific CAR T cells.",
+          "url": "https://doi.org/10.1172/jci86721"
+        },
+        {
+          "label": "Gene transfer efficiency and genome-wide integration profiling of Sleeping Beauty, Tol2, and piggyBac transposons in human primary T cells.",
+          "url": "https://doi.org/10.1038/mt.2010.141"
+        },
+        {
+          "label": "Long Term Follow-Up After Administration of Human Gene Therapy Products: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113768/download"
+        }
+      ],
+      "tags": [
+        "delivery-vehicle",
+        "gene-delivery"
+      ],
+      "related": [
+        "lentiviral-vector",
+        "aav-vector",
+        "idea-reg-non-viral-cart-manufacturing"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "car-t",
+        "car-t-manufacturing-process"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "An inserted cassette can be copied with chromosomal DNA during cell division; that genetic persistence does not guarantee continued expression, cell survival or useful activity. Report insertion sites, copy-number denominator, receptor-positive cells, retained transposase and antigen-dependent function separately. A mean copy count cannot recover the distribution across cells or all insertion sites."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "viral-vector-manufacturing",
+      "kind": "technology",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV)",
+      "aka": [],
+      "tldr": "Producing the engineered viruses that carry a CAR gene into T cells. Viral vector manufacturing is a long-standing bottleneck for cell and gene therapy.",
+      "summary": "Lentiviral vectors for CAR-T are made by transient transfection of HEK293 cells with plasmid DNA, or increasingly by stable producer cell lines; AAV serves in vivo gene therapy. Capacity shortages in 2018-2022 delayed trials; large CDMOs (Lonza, Thermo Fisher, Charles River, Oxford Biomedica) and in-house plants (Kite, Novartis, BMS) have since expanded. Titre, empty-capsid ratio, and cost per dose are the quality and economic levers. Retroviral and lentiviral lots are also tested for replication-competent virus during manufacture and again in patient follow-up, under FDA guidance of January 2020. A vector's capacity is a manufacturing constraint too. The AAV2 genome is a single-stranded DNA of 4,675 nucleotides (Srivastava and colleagues, 1983), a review gives about 4.8 kb for AAV genomes and about 3.3 kb of capacity for self-complementary designs (Naso and colleagues), and these are sizes of the genomes and designs named, not a universal packaging limit. In one laboratory study of plasmid-encoded AAV2, AAV5 and AAV8 vectors of 4.7 to 8.7 kb, packaged genomes never exceeded 5.2 kb, genomes from plasmids over 5 kb were heterogeneous and truncated at the 5' end, and reporter expression at high multiplicity of infection was substantially lower than from genomes under 5 kb (Wu and colleagues, 2010).",
+      "status": "established",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+        },
+        {
+          "label": "Testing of Retroviral Vector-Based Human Gene Therapy Products for Replication Competent Retrovirus During Product Manufacture and Patient Follow-up: guidance for industry, January 2020",
+          "url": "https://www.fda.gov/media/113790/download"
+        },
+        {
+          "label": "Effect of genome size on AAV vector packaging.",
+          "url": "https://doi.org/10.1038/mt.2009.255"
+        },
+        {
+          "label": "Nucleotide sequence and organization of the adeno-associated virus 2 genome.",
+          "url": "https://doi.org/10.1128/jvi.45.2.555-564.1983"
+        },
+        {
+          "label": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy.",
+          "url": "https://doi.org/10.1007/s40259-017-0234-5"
+        },
+        {
+          "label": "Clinical use of lentiviral vectors.",
+          "url": "https://doi.org/10.1038/s41375-018-0106-0"
+        }
+      ],
+      "tags": [
+        "supporting"
+      ],
+      "related": [
+        "aav-vector",
+        "lentiviral-vector",
+        "transposon"
+      ],
+      "cancers": [],
+      "sections": [
+        "cell-therapy",
+        "drug-discovery"
+      ],
+      "technologies": [
+        "car-t",
+        "plasmid-dna-manufacturing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "lonza",
+        "oxford-biomedica",
+        "thermo-fisher",
+        "charles-river"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "plasmid-dna-manufacturing"
+      ],
+      "notes": [],
+      "principle": "Packaging and transfer plasmids co-transfected into producer cells; harvested particles are purified by chromatography and tested for titre, potency, and replication competence.",
+      "strengths": [
+        "Mature quality systems",
+        "Stable producer lines lowering cost"
+      ],
+      "limitations": [
+        "Long lead times and high cost",
+        "Batch variability",
+        "Plasmid supply dependency"
+      ]
+    },
+    {
+      "id": "mrna-lnp-manufacturing",
+      "kind": "technology",
+      "name": "mRNA and lipid nanoparticle manufacturing",
+      "aka": [],
+      "tldr": "An mRNA cancer vaccine is made without cells: a DNA template is copied into RNA by an enzyme in a tank, cleaned up, and wrapped in tiny fat bubbles. For personalised vaccines the whole run is done once for each patient, against that patient's own tumour mutations, in a few weeks.",
+      "summary": "mRNA manufacture begins with a plasmid DNA template (covered in the plasmid record), which is linearised and transcribed in vitro by T7 RNA polymerase with a cap analogue and modified nucleotides. The RNA is purified by tangential flow filtration and chromatography (oligo-dT affinity, and reverse-phase or cellulose steps that remove the double-stranded RNA that triggers unwanted inflammation), then mixed with an ionisable lipid, a phospholipid, cholesterol and a PEG-lipid in a microfluidic or T-junction mixer so lipid nanoparticles self-assemble around it. The particles are buffer-exchanged, sterile-filtered, filled and frozen. Every step is cell-free, which is why COVID-19 vaccines could be scaled in months, and the same enzymes, cap analogues, lipids and single-use mixers are the supply chain for cancer vaccines.\n\nPersonalised neoantigen vaccines change the logistics. For intismeran autogene (mRNA-4157, Moderna with Merck) the tumour and blood are sequenced, up to thirty-four neoantigens are chosen by algorithm, a patient-specific plasmid is made and the RNA and nanoparticle steps are run as a single-patient GMP batch, with a turnaround of weeks; Moderna produces these at its Norwood, Massachusetts, site and has built a dedicated individualised therapy facility in Marlborough. BioNTech makes autogene cevumeran in Mainz on a similar cycle. Constraints are ionisable lipid patents and supply, enzyme and cap analogue suppliers, and the per-patient release testing that has to be as fast as the manufacture. A Phase 3 trial in melanoma (with pembrolizumab) and trials in lung and pancreatic cancer will decide whether this factory model is worth industrialising.\n\nTwo details matter when reading a product description. First, double-stranded RNA can arise from the transcription step itself: in one study T7 polymerase started transcription from a promoter-less DNA end and made an antisense strand that paired with the intended RNA and stimulated the innate sensor MDA5, and the effect fell with modified nucleotides or a lower magnesium concentration (Mu and colleagues). Purification was tested separately: HPLC removed contaminants including double-stranded RNA from nucleoside-modified transcripts and raised translation 10 to 1,000-fold in primary cells (Karikó and colleagues), and a cellulose method removed at least 90 per cent of double-stranded RNA with over 65 per cent recovery, taking out duplexes of 30 base pairs or longer while most of a 21 base-pair duplex remained (Baiersdörfer and colleagues). Second, a lipid nanoparticle is not the only formulation in use: in the pancreatic cancer phase I trial of autogene cevumeran each patient's vaccine held two uridine mRNA strands, each encoding up to 10 neoepitopes, formulated as lipoplex nanoparticles of about 400 nm made from the cationic lipid DOTMA and the phospholipid DOPE and given intravenously (Rojas and colleagues). Release testing is layered: a review of mRNA analytics lists identity and modification analysis, poly(A) tail, RNA content and integrity, double-stranded RNA and residual DNA as separate attributes, and a review of mRNA manufacturing cites a regulator-recommended residual DNA limit of 10 ng per dose (Losada and colleagues; Nowak and colleagues). Particle size and composition measurements do not by themselves show that usable RNA reaches the cytosol of the intended cell.",
+      "status": "phase-3",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "FDA guidance: CMC information for human gene therapy INDs",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MRNA_vaccine"
+        },
+        {
+          "label": "An origin of the immunogenicity of in vitro transcribed RNA.",
+          "url": "https://doi.org/10.1093/nar/gky177"
+        },
+        {
+          "label": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+          "url": "https://doi.org/10.1093/nar/gkr695"
+        },
+        {
+          "label": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+          "url": "https://doi.org/10.1016/j.omtn.2019.02.018"
+        },
+        {
+          "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+          "url": "https://doi.org/10.1038/s41586-023-06063-y"
+        },
+        {
+          "label": "From nucleotides to intact transcripts through oligonucleotides: Integrated chromatographic strategies for therapeutic mRNA characterization.",
+          "url": "https://doi.org/10.1007/s00216-026-06615-x"
+        },
+        {
+          "label": "Process and analytical strategies for the safe production of mRNA vaccines and therapeutics.",
+          "url": "https://doi.org/10.1007/s11033-026-11455-0"
+        }
+      ],
+      "tags": [
+        "manufacturing-wave"
+      ],
+      "related": [
+        "lipid-nanoparticle",
+        "rna-lipoplex",
+        "targeted-lnps"
+      ],
+      "cancers": [
+        "melanoma",
+        "pancreatic",
+        "nsclc"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine",
+        "single-use-bioprocessing",
+        "sterile-fill-finish",
+        "cell-therapy-cold-chain",
+        "shared-antigen-vaccine"
+      ],
+      "targets": [],
+      "drugs": [
+        "intismeran-autogene",
+        "autogene-cevumeran"
+      ],
+      "companies": [
+        "moderna",
+        "biontech",
+        "merck",
+        "aldevron",
+        "touchlight",
+        "thermo-fisher",
+        "lonza"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "provenance": {
+        "editedBy": "OnCo manufacturing expansion",
+        "editedOn": "2026-09-17"
+      },
+      "principle": "Cell-free enzymatic synthesis of RNA from a DNA template, purified and encapsulated in self-assembling lipid nanoparticles; personalised products run the whole chain once per patient.",
+      "strengths": [
+        "No cell culture, so weeks not months",
+        "Sequence can change without changing the process",
+        "Same platform for shared and personalised antigens"
+      ],
+      "limitations": [
+        "Cold chain at minus 20 or minus 70 degrees",
+        "Lipid and enzyme supply and patents",
+        "Per-patient release testing must keep pace"
+      ],
+      "since": 2020
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "kind": "paper",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer",
+      "aka": [],
+      "tldr": "Individualised mRNA vaccines encoding up to 20 of each patient's tumour mutations generated strong T-cell responses in half of pancreatic cancer patients after surgery, and those responders had far fewer relapses.",
+      "summary": "In this phase 1 study at Memorial Sloan Kettering, 16 patients with resected pancreatic ductal adenocarcinoma received atezolizumab followed by autogene cevumeran, an individualised uridine mRNA-lipoplex vaccine encoding up to 20 predicted neoantigens manufactured within about nine weeks of surgery, and then modified FOLFIRINOX chemotherapy. The vaccine expanded high-magnitude neoantigen-specific T cells in 8 of 16 patients. At a median follow-up of 18 months, responders had not reached median recurrence-free survival whereas non-responders had a median of 13.4 months (hazard ratio 0.08). Vaccine-induced T-cell clones were shown to be newly generated and, in a 2025 follow-up, persisted for years with continued separation of recurrence curves. A randomised phase 2 trial (IMCODE003) in the same setting is under way.",
+      "asOf": "2026-09-08",
+      "links": [
+        {
+          "label": "PubMed search",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT04161755",
+          "url": "https://clinicaltrials.gov/study/NCT04161755"
+        },
+        {
+          "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+          "url": "https://doi.org/10.1038/s41586-023-06063-y"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "vaccine-plus-pd1",
+        "paper-sethna-rna-neoantigen-vaccine-long-lived-t-cells-nature-2025"
+      ],
+      "cancers": [
+        "pancreatic",
+        "melanoma"
+      ],
+      "sections": [],
+      "technologies": [
+        "neoantigen-mrna-vaccine"
+      ],
+      "targets": [
+        "pd1"
+      ],
+      "drugs": [
+        "autogene-cevumeran",
+        "atezolizumab",
+        "intismeran-autogene"
+      ],
+      "companies": [
+        "biontech",
+        "roche-genentech"
+      ],
+      "institutions": [
+        "mskcc"
+      ],
+      "pathways": [],
+      "terms": [
+        "neoantigen",
+        "tmb"
+      ],
+      "trials": [
+        "interpath-001"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-immunotherapy-response",
+        "b-manufacturing-cell-therapy",
+        "b-tme-immunosuppression"
+      ],
+      "keyPapers": [],
+      "journals": [
+        "nature"
+      ],
+      "dependsOn": [],
+      "notes": [],
+      "journal": "Nature",
+      "year": 2023,
+      "doi": "10.1038/s41586-023-06063-y",
+      "pmid": "37165196",
+      "authors": "Rojas LA, Sethna Z, Soares KC, et al.",
+      "paperType": "translational",
+      "findings": [
+        "16 patients with resected pancreatic cancer; atezolizumab, then individualised mRNA neoantigen vaccine (up to 20 neoantigens), then mFOLFIRINOX.",
+        "Vaccine manufactured and delivered within about 9 weeks of surgery in most patients.",
+        "High-magnitude neoantigen-specific T-cell responses in 8 of 16 (50%).",
+        "Median recurrence-free survival not reached in responders vs 13.4 months in non-responders; hazard ratio 0.08.",
+        "Responding T-cell clones were de novo and persisted for up to several years in the 2025 follow-up."
+      ],
+      "whatItMeans": "Pancreatic cancer was thought to be immunologically inert because of its low mutation burden; this study showed that with the right vaccine platform its few neoantigens can still be targeted. It is the strongest human evidence so far that personalised cancer vaccines can generate durable, tumour-specific immunity, and it justifies the randomised trials now running in pancreatic cancer and melanoma. Benefit is not yet proven, because responders may simply have had more immunogenic tumours.",
+      "caveats": [
+        "Tiny, non-randomised study; the association between immune response and recurrence could reflect confounding.",
+        "Half the patients did not mount a response, for reasons that are only partly understood (for example, splenectomy).",
+        "Manufacturing an individual vaccine within weeks of surgery is expensive and logistically complex.",
+        "Clinical benefit awaits the randomised IMCODE003 result."
+      ],
+      "changedPractice": false,
+      "participants": 16
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "actualSelectorChecks": 27,
+  "present": 0,
+  "EnglishFallbacks": 27,
+  "tldrsChanged": 0,
+  "translationsRemoved": 0,
+  "longSummaryCacheAccepted": 0,
+  "namedLanguageReview": 0,
+  "scope": "Existing short English leads are unchanged. Lazy-loaded tables and long-cache hash selectors were checked; missing summaries use English fallback. No new language acceptance."
+}

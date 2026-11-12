@@ -1,0 +1,17 @@
+{
+  "route": "/free/#expanded-access",
+  "method": "actual FreePage static server render; no browser or deployment claim",
+  "bytes": 138951,
+  "sha256": "6b7e2ccf353d47d5cc4d1ac90524c626855656492df9947555702a036261071e",
+  "selectedEntry": "expanded-access",
+  "directoryFieldsVisible": [
+    "name",
+    "what",
+    "who",
+    "where"
+  ],
+  "sourceLinkPresent": true,
+  "canonicalAccessLink": "/terms/expanded-access",
+  "scope": "One actual directory card checked within the full server-rendered page. Other cards are not certified; no hosted/live verification.",
+  "ownerType": "service-directory-entry; not a knowledge-graph entity"
+}

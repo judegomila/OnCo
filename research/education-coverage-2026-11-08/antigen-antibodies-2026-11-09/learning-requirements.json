@@ -1,0 +1,509 @@
+[
+  {
+    "id": "R01",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "Distinguish ADCC, ADCP and CDC by what acts (effector cell, phagocyte, complement) and what happens",
+    "status": "covered-draft",
+    "owner": "adcc-adcp-cdc",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R02",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "Opsonisation and Fc as the link between coating and effectors",
+    "status": "covered-draft",
+    "owner": "adcc-adcp-cdc",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R03",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "Binding, contact, deposition and pore are earlier steps than completed target death; assay outputs named per mechanism",
+    "status": "covered-draft",
+    "owner": "adcc-adcp-cdc",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R04",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "Evidence tiers: mouse imaging (Gül), mouse tumour models (Clynes), IgG hexamers and C1q (Diebolder); not human benefit",
+    "status": "covered-draft",
+    "owner": "adcc-adcp-cdc",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R05",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "ADCC is not an NK-exclusive label",
+    "status": "covered-draft",
+    "owner": "adcc",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R06",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "requirement": "Complement deposition is not completed CDC; complement dependence controls",
+    "status": "covered-draft",
+    "owner": "complement-in-cancer",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R07",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "requirement": "Heavy/light chain, variable binding site, Fab versus variable region, Fc origin of name, hinge",
+    "status": "covered-draft",
+    "owner": "antibody-structure",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R08",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "requirement": "Fc is not an automatic kill command; binding and effector contributions are separate",
+    "status": "covered-draft",
+    "owner": "antibody-structure",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R09",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "requirement": "Binding measurement: purified protein versus cells, nM concentrations, signal is not affinity",
+    "status": "covered-draft",
+    "owner": "antibody-structure",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R10",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "requirement": "Same-target antibodies can act differently (block, payload, bispecific); typical Y is not every format",
+    "status": "covered-draft",
+    "owner": "antibody",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R11",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "requirement": "B-cell receptor recognition versus T-cell peptide-HLA recognition; recognition versus activation and T-cell help",
+    "status": "covered-draft",
+    "owner": "b-cells-and-plasma-cells",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R12",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "requirement": "Plasmablast, plasma cell and memory B cell are different stages; plasma cell is not blood plasma",
+    "status": "covered-draft",
+    "owner": "b-cells-and-plasma-cells",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R13",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "requirement": "Blimp-1 deletion mouse experiment: activation is not enough for secretion",
+    "status": "covered-draft",
+    "owner": "b-cells-and-plasma-cells",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R14",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "requirement": "Immunoglobulin RNA in tumour samples does not show cancer-cell origin; marker panels and denominators",
+    "status": "covered-draft",
+    "owner": "b-cells-and-plasma-cells",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R14b",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "requirement": "Short-form B cell record states plasma cell, plasmablast, memory distinctions and Ig RNA caution",
+    "status": "covered-draft",
+    "owner": "b-cell",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R15",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "requirement": "Isotype/subclass definitions; class switching versus affinity-changing mutation",
+    "status": "covered-draft",
+    "owner": "isotypes-and-fc-silencing",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R16",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "requirement": "Pembrolizumab is a humanised IgG4 kappa antibody; intended job is receptor blockade",
+    "status": "covered-draft",
+    "owner": "isotypes-and-fc-silencing",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R17",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "requirement": "Fc silencing is selective and species-dependent (Lo 2017)",
+    "status": "covered-draft",
+    "owner": "isotypes-and-fc-silencing",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R18",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "requirement": "FcRn recycling is a separate measurement from Fc gamma receptor silencing; IgG4 not universally silent",
+    "status": "covered-draft",
+    "owner": "fc-effector",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R19",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "requirement": "Aggregate, follicle and germinal centre are different architectural levels; tertiary is location not stage",
+    "status": "covered-draft",
+    "owner": "tertiary-lymphoid-structures",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R20",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "requirement": "Mature TLS definition by CD23-positive dendritic-morphology cell; cohort association; counts",
+    "status": "covered-draft",
+    "owner": "tertiary-lymphoid-structures",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R21",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "requirement": "Prognostic association is not treatment-predictive proof; no universal rule",
+    "status": "covered-draft",
+    "owner": "tertiary-lymphoid-structures",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R22",
+    "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "requirement": "Assay card: density with area and criteria, worked 2/4 mm2 = 0.5 per mm2, failure modes",
+    "status": "covered-draft",
+    "owner": "tertiary-lymphoid-structures",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R23",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+    "requirement": "Antigen versus epitope versus immunogenicity",
+    "status": "covered-draft",
+    "owner": "antigen",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R24",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+    "requirement": "Epitope can be linear or conformational; isolated-protein binding does not show accessibility on cells",
+    "status": "covered-draft",
+    "owner": "epitope",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R25",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+    "requirement": "T-cell target is peptide plus restricting HLA; same peptide on another HLA is another surface",
+    "status": "covered-draft",
+    "owner": "epitope",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R26",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "requirement": "Five-step class I route (proteasome, TAP, ERAP and loading, display, recognition) with primary evidence",
+    "status": "covered-draft",
+    "owner": "antigen-processing-machinery",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R27",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "requirement": "Class II route: invariant chain, HLA-DM, CD4",
+    "status": "covered-draft",
+    "owner": "antigen-processing-machinery",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R28",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "requirement": "Low expression, gene loss and function differ; interferon gamma cannot replace a deleted gene; melanoma examples",
+    "status": "covered-draft",
+    "owner": "antigen-processing-machinery",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R29",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "requirement": "Evidence layers DNA, RNA, protein, peptide recovery, T-cell function; peptide loading bypasses processing",
+    "status": "covered-draft",
+    "owner": "antigen-processing-machinery",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R30",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "requirement": "B2M is class I light chain, no membrane span, absent from class II",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R31",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "requirement": "B2M loss versus single allele loss; independent protection not provided by many peptides",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R32",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "requirement": "B2M partners HLA-E, HLA-G, HLA-F, MR1, CD1, FcRn (Wani)",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R33",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "requirement": "Variant, RNA, surface protein and blood B2M are different observations; Zaretsky truncation example",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R34",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "requirement": "Class I and class II table: structure, location, peptide supply, T-cell partner; cross-presentation does not make class II",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R35",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "requirement": "Six classical class I variants; IPD-IMGT/HLA allele counts (46,146 / 31,311 / 14,835) with read date",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R36",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "requirement": "HLA-E, CD94/NKG2A and class I as NK ligand; loss hides from T cells but removes NK brake",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R37",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "requirement": "Typing versus retained-allele and display; Tran 2016 HLA-C*08:02 loss",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R38",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "requirement": "Distinguish allele-specific HLA-C expression, a scoped HLA-A/B/C comparison and a method-dependent observed peptide share, without inferring a universal expression hierarchy or binding advantage.",
+    "status": "covered-draft",
+    "owner": "hla",
+    "workerDisposition": "partially-covered-claim-unverified",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R39",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Allele name fields and suffixes N, L, S, C, A, Q; no suffix is not an expression measure",
+    "status": "covered-draft",
+    "owner": "hla-typing-and-nomenclature",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R40",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Group-level A*02 cannot be completed as A*02:01",
+    "status": "covered-draft",
+    "owner": "hla-typing-and-nomenclature",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R41",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Phasing and ambiguous allele pairs; more reads of same regions do not resolve",
+    "status": "covered-draft",
+    "owner": "hla-typing-and-nomenclature",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R42",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Software inference (OptiType 97 per cent in its benchmark) is not a clinical laboratory result",
+    "status": "covered-draft",
+    "owner": "hla-typing-and-nomenclature",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R43",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Four observations kept apart: inherited typing, tumour retention/expression, display, recognition; eligibility belongs to study team",
+    "status": "covered-draft",
+    "owner": "hla-typing-and-nomenclature",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R44",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "requirement": "Typing resolution on the HLA-A*02:01 biomarker record",
+    "status": "covered-draft",
+    "owner": "hla-a-02-01",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R45",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+    "requirement": "Cross-presentation (display) versus cross-priming (activation)",
+    "status": "covered-draft",
+    "owner": "dendritic-cell-cross-presentation",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R46",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+    "requirement": "Direct presentation by vaccine-transfected cell; cross-dressing is not recipient processing; class II external antigen excluded",
+    "status": "covered-draft",
+    "owner": "dendritic-cell-cross-presentation",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R47",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+    "requirement": "TAA versus neoantigen; accessible surface antigen versus peptide-HLA; RNA is not a recognition surface",
+    "status": "covered-draft",
+    "owner": "tumor-associated-antigen",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R48",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+    "requirement": "On-target off-tumour versus off-target cross-reactivity; MAGE-A3/titin example is one receptor not a rate",
+    "status": "covered-draft",
+    "owner": "tumor-associated-antigen",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R49",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+    "requirement": "A shared antigen does not restore a lost HLA display route; coverage is a hypothesis",
+    "status": "covered-draft",
+    "owner": "tumor-associated-antigen",
+    "workerDisposition": "covered-pending-integration",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R50",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+    "requirement": "Peptide-HLA binding, presentation (recovery) and TCR recognition are different claims; evidence table (prediction, binding, immunopeptidomics, multimer, natural target)",
+    "status": "covered-draft",
+    "owner": "binding-presentation-recognition",
+    "note": "pending PR 373 record, blocked owner: patch proposed",
+    "workerDisposition": "open-proposed-patch",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R51",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+    "requirement": "Immunopeptidome (biological set) versus recovered list; whole-lysate compartments; mixed-tissue origin; intensity not copies; fictional 800 versus 1,200 counts",
+    "status": "covered-draft",
+    "owner": "immunopeptidome",
+    "note": "pending PR 373 record, blocked owner: patch proposed",
+    "workerDisposition": "open-proposed-patch",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R52",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "requirement": "Neoantigen candidate evidence ladder (sequence, prediction, recovered peptide, natural recognition); splice and frameshift sources",
+    "status": "covered-draft",
+    "owner": "neoantigen",
+    "note": "blocked owner: patch proposed",
+    "workerDisposition": "open-proposed-patch",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R53",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+    "requirement": "Central and peripheral tolerance as mechanisms; receptor cross-reactivity (titin); sequence similarity versus receptor specificity; invented 5/28/70/90 versus 3/18/61/86 per cent loaded-peptide series",
+    "status": "covered-draft",
+    "owner": "self-similarity-immune-recognition",
+    "note": "pending PR 373 record, blocked owner: patch proposed; tolerance mechanisms not in that record",
+    "workerDisposition": "open-proposed-patch",
+    "origin": "pinned teaching"
+  },
+  {
+    "id": "R54",
+    "page": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "requirement": "PSMB8, PSMB9, CIITA, TAP1/2, ERAP1/2 as separate target records",
+    "status": "covered-draft",
+    "owner": "psmb8, psmb9, ciita (generated, hand-edit prohibited); no TAP/ERAP records",
+    "note": "not taught by the page beyond APM; adjacent queue",
+    "workerDisposition": "open-out-of-scope",
+    "origin": "adjacent discovery"
+  },
+  {
+    "id": "R55",
+    "sourcePath": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "requirement": "Breast and melanoma studies associate organised immune responses with outcomes, retaining each study's specimens, methods and setting.",
+    "status": "covered-draft",
+    "origin": "pinned teaching; omission found by independent review"
+  }
+]

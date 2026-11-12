@@ -1,0 +1,1943 @@
+{
+  "dataCommit": "179d222f910fd6786a123cea5c74fd85ab7db417",
+  "sourceVersions": 9,
+  "sectionSignatures": 94,
+  "documents": [
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "file": "original-01-write-the-exact-claim.md",
+      "bytes": 8505,
+      "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+      "gitBlob": "f88d35c8e005c87ef41b8d4f757117ceec5d007e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d9ce3a7abbb56590820059b2f5663d5dc69852ccd99d8fd8fed1632e2dffe832"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a2150882f0726d021c10c073faea9fecaf2ca36feb7505274752655261350062"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "dfd31f26619ab9778fc3db614f54cfd019b726c962f362877d5f6cb564de4987"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "ee7b4e8b4101be9ade0cfc95767789ca825c7c863cd8784511c09e49ef8b26af"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "f922abdbd0432f668e6dd7b7db71adc5bb3f8f728c0d4505b325986cb990a9f4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "a75bdbb05bd90819d6d058a14d6dcf66500fbf0455f0862a2e5f31c58ca8f9a1"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb85992f479c6a568df8dd7e21f994a5ecb11aa790dfb3eaef532d91f4927f11"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3c228a50ccd8fe04169d229d2a5702934062b65db470457e7e4b8aab0ef2d394"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "2e69c27e1a436ea36fc1a81d3086809e1c23cd4e1228283c69263fd17e0b8ff4"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "924f4998225135a1d109229a6cbce0eb566aaaf14bfc97f9064557b2ef2182d8"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "file": "original-02-read-the-validation.md",
+      "bytes": 12757,
+      "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+      "gitBlob": "32155261526c89f787acdf8b4fe90eaca5044594",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "85a437081e98eb406e586db67fa6e1b0d98dfc211a3fee88055fad3eca11e7ac"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "97dd0bd0c7540203849514c95b46465cc2001ea5b2e5348c233a8b75e35b8625"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed3636889b86f76a67a217d23b458d615f62da524e293f823bf0b9dd50454348"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a03d13045f70831c9e0e9c4612968ea41419dd8990a38c822f6ff02ae1cb34f2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "11f004cb7f66834255283367e2fe7f09df22fc69fa3df40cd93b3cb14d79a1f3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f794286757c74bf991f01d8033b72d215273f1bf47bbd814ba9b14adb97faa90"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "16cb17c1b7a06073d13ef41e771c8755fc598c3ce6bec45b835671da9c1a45be"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "1340d0d7e10f5dd5f27c5b7910ba992613935368cce5532c3fecccc58ec358b9"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "692ff55524c44b870ae87c0fbb964e70597855998a05c0ea7dd205a0f650bc85"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "69c00c264bb57fb302289f1a40fedf7eb097771b3492282cb7805f4437482ecc"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "45c8612e01c403c3c5070a8da5a82495a8bc0dfd4777ad96b855075d2090ba05"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "44abc1e23240aca47a924f49f8bc020108d8547d92cf4a9d98077802b04f3d70"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "file": "original-03-connect-evidence-to-a-decision.md",
+      "bytes": 8215,
+      "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+      "gitBlob": "b2ea65dddbf9ab36b52cddf1360ccab1f8df5394",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5662c52a9d8dbeeec1082bb79a01bcfac724775aee482bbf91cbd2f8d0c55e2e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "83c1b3d277d2d8a80fef843f99650c04f3e989b5ae026df3e742a6d856c8165f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "98e48912ce95ee33b0f1f527831b80385012fb08906918db29cf28eb99935a2d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "96dd6e0ec44c791f4e6d9d81f18ee2f9675480566b732ed4d343fff547d31521"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "a08d11cf9927a6dc6fb22e7057887d19fb4d2e72e9ee8f03dfab83c75e471072"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "799e8d603a87d6ee6cf7b2356e8a01f5c77c31b5f0ae752fd523ebe4aa362155"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "fbc8c2bfa4644aca15998f9d5a44638fccc1f5f936c8b54e1b6161ed196e437d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "766315eea8b0a494087a6334d754c6103d928eaa5fb1ea850f813d950ece28b4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b17465fd0990cc591e981005decf5f9d27e13fce17da0aac8e56681a545de8be"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c7165187fe77cd1be2852b0ec4fcafab2f9a67800035202699061c0fc600faf9"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b7c55b05bd1403845529d4e6f2f127752cbe098306a7e7febb165d69a923fa98"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "file": "original-index.md",
+      "bytes": 7067,
+      "sourceSha256": "ed4458972d49e4a761f605ec95dcad61ca6448465d81bd9108fc2a45c1a3f0ce",
+      "gitBlob": "79d920a8ad02500e864a71358aacdd435222d5eb",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2bcd94b9909d6e0a1f6fe662a7fd0204f5201a53e49b830686e310ddb299feb0"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "3512e0959f458574ee6522d7a0b89a4676ad30ea82d4e015c2c39607f5e8ae27"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bab69678f091426a72b5b3660a6508b9ca970ea6cb00af6914ceb4b0d51896ef"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "7e6e70a5d7b3cfac79115ec4b61be8746c64b04ba48e15c184df068fb3376280"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7657ec9bef79a04b5bf88b119c64649aed250953fe3eb2645c1a99b6c59dd5b2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c1072a224cd33f9017bf6624ae1cb4cecbc8d76cfd1540ff6f62f4df874e8558"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "b5dabea654b14a72621f66cd24a4f32871c359f5307cb6e2ab55e5be87f54a96"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "bef251c2c610fca5a9558d188dcdba03811a251a6fbfe62622f0109d3485d7ae"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "file": "later-01-write-the-exact-claim.md",
+      "bytes": 8513,
+      "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+      "gitBlob": "8e357e8e9c9028c21f70ce7f5caeec1474853ba1",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d9ce3a7abbb56590820059b2f5663d5dc69852ccd99d8fd8fed1632e2dffe832"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a2150882f0726d021c10c073faea9fecaf2ca36feb7505274752655261350062"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "dfd31f26619ab9778fc3db614f54cfd019b726c962f362877d5f6cb564de4987"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "b9a2fdbf26134f8cea7f4b604fc996b44d68d5e2b049748110e2760f94fa20c9"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "f922abdbd0432f668e6dd7b7db71adc5bb3f8f728c0d4505b325986cb990a9f4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "a75bdbb05bd90819d6d058a14d6dcf66500fbf0455f0862a2e5f31c58ca8f9a1"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb85992f479c6a568df8dd7e21f994a5ecb11aa790dfb3eaef532d91f4927f11"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3c228a50ccd8fe04169d229d2a5702934062b65db470457e7e4b8aab0ef2d394"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "2e69c27e1a436ea36fc1a81d3086809e1c23cd4e1228283c69263fd17e0b8ff4"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "924f4998225135a1d109229a6cbce0eb566aaaf14bfc97f9064557b2ef2182d8"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "file": "later-02-read-the-validation.md",
+      "bytes": 12998,
+      "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+      "gitBlob": "acdece15c44e388dd2b95fd6b440bb4c2935f944",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "85a437081e98eb406e586db67fa6e1b0d98dfc211a3fee88055fad3eca11e7ac"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "97dd0bd0c7540203849514c95b46465cc2001ea5b2e5348c233a8b75e35b8625"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed3636889b86f76a67a217d23b458d615f62da524e293f823bf0b9dd50454348"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a03d13045f70831c9e0e9c4612968ea41419dd8990a38c822f6ff02ae1cb34f2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "11f004cb7f66834255283367e2fe7f09df22fc69fa3df40cd93b3cb14d79a1f3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f794286757c74bf991f01d8033b72d215273f1bf47bbd814ba9b14adb97faa90"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "16cb17c1b7a06073d13ef41e771c8755fc598c3ce6bec45b835671da9c1a45be"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "807da185bcc73090272a770b2a7b896a37bb723ad2858450d789559c2d19b6c5"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "692ff55524c44b870ae87c0fbb964e70597855998a05c0ea7dd205a0f650bc85"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "69c00c264bb57fb302289f1a40fedf7eb097771b3492282cb7805f4437482ecc"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "45c8612e01c403c3c5070a8da5a82495a8bc0dfd4777ad96b855075d2090ba05"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "44abc1e23240aca47a924f49f8bc020108d8547d92cf4a9d98077802b04f3d70"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "file": "later-03-connect-evidence-to-a-decision.md",
+      "bytes": 8215,
+      "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+      "gitBlob": "b2ea65dddbf9ab36b52cddf1360ccab1f8df5394",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5662c52a9d8dbeeec1082bb79a01bcfac724775aee482bbf91cbd2f8d0c55e2e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "83c1b3d277d2d8a80fef843f99650c04f3e989b5ae026df3e742a6d856c8165f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "98e48912ce95ee33b0f1f527831b80385012fb08906918db29cf28eb99935a2d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "96dd6e0ec44c791f4e6d9d81f18ee2f9675480566b732ed4d343fff547d31521"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "a08d11cf9927a6dc6fb22e7057887d19fb4d2e72e9ee8f03dfab83c75e471072"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "799e8d603a87d6ee6cf7b2356e8a01f5c77c31b5f0ae752fd523ebe4aa362155"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "fbc8c2bfa4644aca15998f9d5a44638fccc1f5f936c8b54e1b6161ed196e437d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "766315eea8b0a494087a6334d754c6103d928eaa5fb1ea850f813d950ece28b4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b17465fd0990cc591e981005decf5f9d27e13fce17da0aac8e56681a545de8be"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c7165187fe77cd1be2852b0ec4fcafab2f9a67800035202699061c0fc600faf9"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b7c55b05bd1403845529d4e6f2f127752cbe098306a7e7febb165d69a923fa98"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "file": "later-04-ask-product-specific-questions.md",
+      "bytes": 13594,
+      "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+      "gitBlob": "c4391db35c9ce12da8f20f759dff1d54d77cb7bd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "8800f84f8001a4a3368e31e8a590f438368cc608aadda650f5d76452a68f64af"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "04e9a4f3bcbd8d5098385c6f3520318eec549ec6ac31d4b6af565d6a42d51ac1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "42780d759a43746dbc2f1f9403c7e3ccaef6947ba6f270cb11155205e7012d22"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "ba012407aeacfa741d7aa0f7cbae556d79a310c95857baccdf4c74e0c34dd31d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "37117ed77794f7284f5a6a3d1b974ea2e8df0e85380dee151e098e1aae97b5d5"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "ef60cd08d8f84ea70060a5b65e9727a48a53e1d84748f8e773dcbaeb9c6bc24f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4a3c7fee37c05b76a6e040dc09e8bfe9ae8b61ea10fc82180d47352157b35cd5"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ac005efe83e94d2de1dcb83b378d00af00842b9ebcf5668a7bff27ec7f037d31"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8a96210f941e8cc815ec0a025fbcccc22a32f08648d032ea657b690ec7a11af5"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "a9caa4b37d74c86d31380438ad0bb82c545fc9963dcc7111670c650e165c70f1"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e9ef7e8a34b40f224c1b0bd21fe82ffafba0a04ace0c138bbbebb8ca88bdc89d"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a216532613ded66302062ac540cf8396a5144d358947a64752eebd85592f2bb2"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "file": "later-index.md",
+      "bytes": 7391,
+      "sourceSha256": "0f7fd55417ba85c4ed64380c2d1870b08bf7898645f57c08e16eb71d481e6a1d",
+      "gitBlob": "42246f51ab77bbeae44330ed177fde8984225044",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2bcd94b9909d6e0a1f6fe662a7fd0204f5201a53e49b830686e310ddb299feb0"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9dc8a9951db6c8a2977bf8781cd171c908d277cef0abc7a8cffa01cd7d5454ea"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0ad4134714665afb4ef042f82b4f37297589326f8d0961a98bdca95a24567979"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "7f8663c31764fa57db01e145a7903983d54bb4489063d10d2bd08e3a578d5bda"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "67a04f218b51e6bc45be8d54234a58c923e59bc76dc2998608f9babacdacd734"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c1072a224cd33f9017bf6624ae1cb4cecbc8d76cfd1540ff6f62f4df874e8558"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "b5dabea654b14a72621f66cd24a4f32871c359f5307cb6e2ab55e5be87f54a96"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "bef251c2c610fca5a9558d188dcdba03811a251a6fbfe62622f0109d3485d7ae"
+        }
+      ]
+    }
+  ],
+  "readingMode": "Full later guide/index reading and full exact original/later diffs completed before fresh canonical-owner field inspection. Previous domain/audit exposure is acknowledged; no independent expert-review claim.",
+  "versionReconciliation": "Claim chapter repoints the oversight link. Validation gains a later-only analysis-population clause and repoints that link. Decision bodies are byte-identical. Product-format chapter is later-only; the later overview adds that step and its map node. Original unchanged lines are not independently re-read.",
+  "sourceFirstFreeze": {
+    "sha256": "cf6d7e7552fac4a5797348135425c29f4fcdfcff534862621aedf9611c6d5fb5",
+    "bytes": 119328,
+    "rows": 103,
+    "kinds": {
+      "substantive": 87,
+      "non-credit": 8,
+      "derived-map": 8
+    },
+    "substantivePerPhase": {
+      "original": 65,
+      "later": 87
+    },
+    "perLesson": {
+      "claim": 21,
+      "validation": 33,
+      "decision": 18,
+      "format": 23,
+      "map": 8
+    },
+    "personalCaseSectionsExcluded": 2
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "d9ce3a7abbb56590820059b2f5663d5dc69852ccd99d8fd8fed1632e2dffe832",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "claim-01",
+        "claim-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a2150882f0726d021c10c073faea9fecaf2ca36feb7505274752655261350062",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "claim-01",
+        "claim-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "dfd31f26619ab9778fc3db614f54cfd019b726c962f362877d5f6cb564de4987",
+      "lineStart": 28,
+      "lineEnd": 39,
+      "requirementIds": [
+        "claim-01",
+        "claim-02",
+        "claim-03",
+        "claim-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "ee7b4e8b4101be9ade0cfc95767789ca825c7c863cd8784511c09e49ef8b26af",
+      "lineStart": 40,
+      "lineEnd": 57,
+      "requirementIds": [
+        "claim-05",
+        "claim-06",
+        "claim-07",
+        "claim-08",
+        "claim-09"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "f922abdbd0432f668e6dd7b7db71adc5bb3f8f728c0d4505b325986cb990a9f4",
+      "lineStart": 58,
+      "lineEnd": 67,
+      "requirementIds": [
+        "claim-10",
+        "claim-11",
+        "claim-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "a75bdbb05bd90819d6d058a14d6dcf66500fbf0455f0862a2e5f31c58ca8f9a1",
+      "lineStart": 68,
+      "lineEnd": 74,
+      "requirementIds": [
+        "claim-13",
+        "claim-14",
+        "claim-15",
+        "claim-16"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "bb85992f479c6a568df8dd7e21f994a5ecb11aa790dfb3eaef532d91f4927f11",
+      "lineStart": 75,
+      "lineEnd": 80,
+      "requirementIds": [
+        "claim-17",
+        "claim-18"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "3c228a50ccd8fe04169d229d2a5702934062b65db470457e7e4b8aab0ef2d394",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "claim-19"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "2e69c27e1a436ea36fc1a81d3086809e1c23cd4e1228283c69263fd17e0b8ff4",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "claim-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "924f4998225135a1d109229a6cbce0eb566aaaf14bfc97f9064557b2ef2182d8",
+      "lineStart": 93,
+      "lineEnd": 101,
+      "requirementIds": [
+        "claim-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "85a437081e98eb406e586db67fa6e1b0d98dfc211a3fee88055fad3eca11e7ac",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "validation-01",
+        "validation-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "97dd0bd0c7540203849514c95b46465cc2001ea5b2e5348c233a8b75e35b8625",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "validation-01",
+        "validation-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ed3636889b86f76a67a217d23b458d615f62da524e293f823bf0b9dd50454348",
+      "lineStart": 28,
+      "lineEnd": 37,
+      "requirementIds": [
+        "validation-01",
+        "validation-02",
+        "validation-03",
+        "validation-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "a03d13045f70831c9e0e9c4612968ea41419dd8990a38c822f6ff02ae1cb34f2",
+      "lineStart": 38,
+      "lineEnd": 57,
+      "requirementIds": [
+        "validation-05",
+        "validation-06",
+        "validation-07",
+        "validation-08",
+        "validation-09",
+        "validation-10",
+        "validation-11",
+        "validation-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "11f004cb7f66834255283367e2fe7f09df22fc69fa3df40cd93b3cb14d79a1f3",
+      "lineStart": 58,
+      "lineEnd": 69,
+      "requirementIds": [
+        "validation-13",
+        "validation-14",
+        "validation-15",
+        "validation-16",
+        "validation-17",
+        "validation-18"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f794286757c74bf991f01d8033b72d215273f1bf47bbd814ba9b14adb97faa90",
+      "lineStart": 70,
+      "lineEnd": 80,
+      "requirementIds": [
+        "validation-19",
+        "validation-20",
+        "validation-21"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "16cb17c1b7a06073d13ef41e771c8755fc598c3ce6bec45b835671da9c1a45be",
+      "lineStart": 81,
+      "lineEnd": 99,
+      "requirementIds": [
+        "validation-22",
+        "validation-23",
+        "validation-24",
+        "validation-25",
+        "validation-26"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "1340d0d7e10f5dd5f27c5b7910ba992613935368cce5532c3fecccc58ec358b9",
+      "lineStart": 100,
+      "lineEnd": 107,
+      "requirementIds": [
+        "validation-27",
+        "validation-28",
+        "validation-29"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "692ff55524c44b870ae87c0fbb964e70597855998a05c0ea7dd205a0f650bc85",
+      "lineStart": 108,
+      "lineEnd": 113,
+      "requirementIds": [
+        "validation-30"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "69c00c264bb57fb302289f1a40fedf7eb097771b3492282cb7805f4437482ecc",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "validation-30"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "45c8612e01c403c3c5070a8da5a82495a8bc0dfd4777ad96b855075d2090ba05",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "validation-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "44abc1e23240aca47a924f49f8bc020108d8547d92cf4a9d98077802b04f3d70",
+      "lineStart": 126,
+      "lineEnd": 133,
+      "requirementIds": [
+        "validation-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "5662c52a9d8dbeeec1082bb79a01bcfac724775aee482bbf91cbd2f8d0c55e2e",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "decision-01",
+        "decision-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "83c1b3d277d2d8a80fef843f99650c04f3e989b5ae026df3e742a6d856c8165f",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "decision-01",
+        "decision-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "98e48912ce95ee33b0f1f527831b80385012fb08906918db29cf28eb99935a2d",
+      "lineStart": 28,
+      "lineEnd": 35,
+      "requirementIds": [
+        "decision-01",
+        "decision-02",
+        "decision-03"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "96dd6e0ec44c791f4e6d9d81f18ee2f9675480566b732ed4d343fff547d31521",
+      "lineStart": 36,
+      "lineEnd": 52,
+      "requirementIds": [
+        "decision-04",
+        "decision-05",
+        "decision-06"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "a08d11cf9927a6dc6fb22e7057887d19fb4d2e72e9ee8f03dfab83c75e471072",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "decision-07",
+        "decision-08",
+        "decision-09",
+        "decision-10"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "799e8d603a87d6ee6cf7b2356e8a01f5c77c31b5f0ae752fd523ebe4aa362155",
+      "lineStart": 63,
+      "lineEnd": 72,
+      "requirementIds": [
+        "decision-11",
+        "decision-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "fbc8c2bfa4644aca15998f9d5a44638fccc1f5f936c8b54e1b6161ed196e437d",
+      "lineStart": 73,
+      "lineEnd": 79,
+      "requirementIds": [
+        "decision-13",
+        "decision-14"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "766315eea8b0a494087a6334d754c6103d928eaa5fb1ea850f813d950ece28b4",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "decision-15"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "b17465fd0990cc591e981005decf5f9d27e13fce17da0aac8e56681a545de8be",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "decision-16"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "c7165187fe77cd1be2852b0ec4fcafab2f9a67800035202699061c0fc600faf9",
+      "lineStart": 92,
+      "lineEnd": 97,
+      "requirementIds": [
+        "decision-16",
+        "decision-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "b7c55b05bd1403845529d4e6f2f127752cbe098306a7e7febb165d69a923fa98",
+      "lineStart": 98,
+      "lineEnd": 104,
+      "requirementIds": [
+        "decision-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "2bcd94b9909d6e0a1f6fe662a7fd0204f5201a53e49b830686e310ddb299feb0",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "map-01"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "3512e0959f458574ee6522d7a0b89a4676ad30ea82d4e015c2c39607f5e8ae27",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "map-01"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bab69678f091426a72b5b3660a6508b9ca970ea6cb00af6914ceb4b0d51896ef",
+      "lineStart": 30,
+      "lineEnd": 43,
+      "requirementIds": [
+        "map-02"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "7e6e70a5d7b3cfac79115ec4b61be8746c64b04ba48e15c184df068fb3376280",
+      "lineStart": 44,
+      "lineEnd": 53,
+      "requirementIds": [
+        "map-02"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "7657ec9bef79a04b5bf88b119c64649aed250953fe3eb2645c1a99b6c59dd5b2",
+      "lineStart": 54,
+      "lineEnd": 65,
+      "requirementIds": [
+        "map-03"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "c1072a224cd33f9017bf6624ae1cb4cecbc8d76cfd1540ff6f62f4df874e8558",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "requirementIds": [],
+      "disposition": "Personal-context section excluded; identity only, no public teaching or copied case text."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "b5dabea654b14a72621f66cd24a4f32871c359f5307cb6e2ab55e5be87f54a96",
+      "lineStart": 70,
+      "lineEnd": 75,
+      "requirementIds": [
+        "map-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "bef251c2c610fca5a9558d188dcdba03811a251a6fbfe62622f0109d3485d7ae",
+      "lineStart": 76,
+      "lineEnd": 82,
+      "requirementIds": [
+        "map-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "d9ce3a7abbb56590820059b2f5663d5dc69852ccd99d8fd8fed1632e2dffe832",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "claim-01",
+        "claim-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a2150882f0726d021c10c073faea9fecaf2ca36feb7505274752655261350062",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "claim-01",
+        "claim-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "dfd31f26619ab9778fc3db614f54cfd019b726c962f362877d5f6cb564de4987",
+      "lineStart": 28,
+      "lineEnd": 39,
+      "requirementIds": [
+        "claim-01",
+        "claim-02",
+        "claim-03",
+        "claim-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "b9a2fdbf26134f8cea7f4b604fc996b44d68d5e2b049748110e2760f94fa20c9",
+      "lineStart": 40,
+      "lineEnd": 57,
+      "requirementIds": [
+        "claim-05",
+        "claim-06",
+        "claim-07",
+        "claim-08",
+        "claim-09"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "f922abdbd0432f668e6dd7b7db71adc5bb3f8f728c0d4505b325986cb990a9f4",
+      "lineStart": 58,
+      "lineEnd": 67,
+      "requirementIds": [
+        "claim-10",
+        "claim-11",
+        "claim-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "a75bdbb05bd90819d6d058a14d6dcf66500fbf0455f0862a2e5f31c58ca8f9a1",
+      "lineStart": 68,
+      "lineEnd": 74,
+      "requirementIds": [
+        "claim-13",
+        "claim-14",
+        "claim-15",
+        "claim-16"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "bb85992f479c6a568df8dd7e21f994a5ecb11aa790dfb3eaef532d91f4927f11",
+      "lineStart": 75,
+      "lineEnd": 80,
+      "requirementIds": [
+        "claim-17",
+        "claim-18"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "3c228a50ccd8fe04169d229d2a5702934062b65db470457e7e4b8aab0ef2d394",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "claim-19"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "2e69c27e1a436ea36fc1a81d3086809e1c23cd4e1228283c69263fd17e0b8ff4",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "claim-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "924f4998225135a1d109229a6cbce0eb566aaaf14bfc97f9064557b2ef2182d8",
+      "lineStart": 93,
+      "lineEnd": 101,
+      "requirementIds": [
+        "claim-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "85a437081e98eb406e586db67fa6e1b0d98dfc211a3fee88055fad3eca11e7ac",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "validation-01",
+        "validation-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "97dd0bd0c7540203849514c95b46465cc2001ea5b2e5348c233a8b75e35b8625",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "validation-01",
+        "validation-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ed3636889b86f76a67a217d23b458d615f62da524e293f823bf0b9dd50454348",
+      "lineStart": 28,
+      "lineEnd": 37,
+      "requirementIds": [
+        "validation-01",
+        "validation-02",
+        "validation-03",
+        "validation-04"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "a03d13045f70831c9e0e9c4612968ea41419dd8990a38c822f6ff02ae1cb34f2",
+      "lineStart": 38,
+      "lineEnd": 57,
+      "requirementIds": [
+        "validation-05",
+        "validation-06",
+        "validation-07",
+        "validation-08",
+        "validation-09",
+        "validation-10",
+        "validation-11",
+        "validation-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "11f004cb7f66834255283367e2fe7f09df22fc69fa3df40cd93b3cb14d79a1f3",
+      "lineStart": 58,
+      "lineEnd": 69,
+      "requirementIds": [
+        "validation-13",
+        "validation-14",
+        "validation-15",
+        "validation-16",
+        "validation-17",
+        "validation-18"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f794286757c74bf991f01d8033b72d215273f1bf47bbd814ba9b14adb97faa90",
+      "lineStart": 70,
+      "lineEnd": 80,
+      "requirementIds": [
+        "validation-19",
+        "validation-20",
+        "validation-21"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "16cb17c1b7a06073d13ef41e771c8755fc598c3ce6bec45b835671da9c1a45be",
+      "lineStart": 81,
+      "lineEnd": 99,
+      "requirementIds": [
+        "validation-22",
+        "validation-23",
+        "validation-24",
+        "validation-25",
+        "validation-26"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "807da185bcc73090272a770b2a7b896a37bb723ad2858450d789559c2d19b6c5",
+      "lineStart": 100,
+      "lineEnd": 107,
+      "requirementIds": [
+        "validation-27",
+        "validation-28",
+        "validation-29",
+        "validation-31"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "692ff55524c44b870ae87c0fbb964e70597855998a05c0ea7dd205a0f650bc85",
+      "lineStart": 108,
+      "lineEnd": 113,
+      "requirementIds": [
+        "validation-30"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "69c00c264bb57fb302289f1a40fedf7eb097771b3492282cb7805f4437482ecc",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "validation-30"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "45c8612e01c403c3c5070a8da5a82495a8bc0dfd4777ad96b855075d2090ba05",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "validation-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "44abc1e23240aca47a924f49f8bc020108d8547d92cf4a9d98077802b04f3d70",
+      "lineStart": 126,
+      "lineEnd": 133,
+      "requirementIds": [
+        "validation-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "5662c52a9d8dbeeec1082bb79a01bcfac724775aee482bbf91cbd2f8d0c55e2e",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "decision-01",
+        "decision-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "83c1b3d277d2d8a80fef843f99650c04f3e989b5ae026df3e742a6d856c8165f",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "decision-01",
+        "decision-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "98e48912ce95ee33b0f1f527831b80385012fb08906918db29cf28eb99935a2d",
+      "lineStart": 28,
+      "lineEnd": 35,
+      "requirementIds": [
+        "decision-01",
+        "decision-02",
+        "decision-03"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "96dd6e0ec44c791f4e6d9d81f18ee2f9675480566b732ed4d343fff547d31521",
+      "lineStart": 36,
+      "lineEnd": 52,
+      "requirementIds": [
+        "decision-04",
+        "decision-05",
+        "decision-06"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "a08d11cf9927a6dc6fb22e7057887d19fb4d2e72e9ee8f03dfab83c75e471072",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "decision-07",
+        "decision-08",
+        "decision-09",
+        "decision-10"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "799e8d603a87d6ee6cf7b2356e8a01f5c77c31b5f0ae752fd523ebe4aa362155",
+      "lineStart": 63,
+      "lineEnd": 72,
+      "requirementIds": [
+        "decision-11",
+        "decision-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "fbc8c2bfa4644aca15998f9d5a44638fccc1f5f936c8b54e1b6161ed196e437d",
+      "lineStart": 73,
+      "lineEnd": 79,
+      "requirementIds": [
+        "decision-13",
+        "decision-14"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "766315eea8b0a494087a6334d754c6103d928eaa5fb1ea850f813d950ece28b4",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "decision-15"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "b17465fd0990cc591e981005decf5f9d27e13fce17da0aac8e56681a545de8be",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "decision-16"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "c7165187fe77cd1be2852b0ec4fcafab2f9a67800035202699061c0fc600faf9",
+      "lineStart": 92,
+      "lineEnd": 97,
+      "requirementIds": [
+        "decision-16",
+        "decision-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "b7c55b05bd1403845529d4e6f2f127752cbe098306a7e7febb165d69a923fa98",
+      "lineStart": 98,
+      "lineEnd": 104,
+      "requirementIds": [
+        "decision-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "8800f84f8001a4a3368e31e8a590f438368cc608aadda650f5d76452a68f64af",
+      "lineStart": 24,
+      "lineEnd": 30,
+      "requirementIds": [
+        "format-01",
+        "format-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "04e9a4f3bcbd8d5098385c6f3520318eec549ec6ac31d4b6af565d6a42d51ac1",
+      "lineStart": 31,
+      "lineEnd": 34,
+      "requirementIds": [
+        "format-01",
+        "format-90"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "42780d759a43746dbc2f1f9403c7e3ccaef6947ba6f270cb11155205e7012d22",
+      "lineStart": 35,
+      "lineEnd": 40,
+      "requirementIds": [
+        "format-01",
+        "format-02"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "ba012407aeacfa741d7aa0f7cbae556d79a310c95857baccdf4c74e0c34dd31d",
+      "lineStart": 41,
+      "lineEnd": 55,
+      "requirementIds": [
+        "format-03",
+        "format-04",
+        "format-05",
+        "format-06"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "37117ed77794f7284f5a6a3d1b974ea2e8df0e85380dee151e098e1aae97b5d5",
+      "lineStart": 56,
+      "lineEnd": 65,
+      "requirementIds": [
+        "format-07",
+        "format-08",
+        "format-09",
+        "format-10"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "ef60cd08d8f84ea70060a5b65e9727a48a53e1d84748f8e773dcbaeb9c6bc24f",
+      "lineStart": 66,
+      "lineEnd": 84,
+      "requirementIds": [
+        "format-11",
+        "format-12",
+        "format-13",
+        "format-14",
+        "format-15"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "4a3c7fee37c05b76a6e040dc09e8bfe9ae8b61ea10fc82180d47352157b35cd5",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "format-16",
+        "format-17"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ac005efe83e94d2de1dcb83b378d00af00842b9ebcf5668a7bff27ec7f037d31",
+      "lineStart": 91,
+      "lineEnd": 97,
+      "requirementIds": [
+        "format-18"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "8a96210f941e8cc815ec0a025fbcccc22a32f08648d032ea657b690ec7a11af5",
+      "lineStart": 98,
+      "lineEnd": 105,
+      "requirementIds": [
+        "format-19",
+        "format-20",
+        "format-21"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "a9caa4b37d74c86d31380438ad0bb82c545fc9963dcc7111670c650e165c70f1",
+      "lineStart": 106,
+      "lineEnd": 111,
+      "requirementIds": [
+        "format-21"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "e9ef7e8a34b40f224c1b0bd21fe82ffafba0a04ace0c138bbbebb8ca88bdc89d",
+      "lineStart": 112,
+      "lineEnd": 117,
+      "requirementIds": [
+        "format-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "a216532613ded66302062ac540cf8396a5144d358947a64752eebd85592f2bb2",
+      "lineStart": 118,
+      "lineEnd": 127,
+      "requirementIds": [
+        "format-91"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "2bcd94b9909d6e0a1f6fe662a7fd0204f5201a53e49b830686e310ddb299feb0",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "map-11"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "9dc8a9951db6c8a2977bf8781cd171c908d277cef0abc7a8cffa01cd7d5454ea",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "map-11"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "0ad4134714665afb4ef042f82b4f37297589326f8d0961a98bdca95a24567979",
+      "lineStart": 30,
+      "lineEnd": 44,
+      "requirementIds": [
+        "map-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "7f8663c31764fa57db01e145a7903983d54bb4489063d10d2bd08e3a578d5bda",
+      "lineStart": 45,
+      "lineEnd": 55,
+      "requirementIds": [
+        "map-12"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "67a04f218b51e6bc45be8d54234a58c923e59bc76dc2998608f9babacdacd734",
+      "lineStart": 56,
+      "lineEnd": 67,
+      "requirementIds": [
+        "map-13"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "c1072a224cd33f9017bf6624ae1cb4cecbc8d76cfd1540ff6f62f4df874e8558",
+      "lineStart": 68,
+      "lineEnd": 71,
+      "requirementIds": [],
+      "disposition": "Personal-context section excluded; identity only, no public teaching or copied case text."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "b5dabea654b14a72621f66cd24a4f32871c359f5307cb6e2ab55e5be87f54a96",
+      "lineStart": 72,
+      "lineEnd": 77,
+      "requirementIds": [
+        "map-14"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "bef251c2c610fca5a9558d188dcdba03811a251a6fbfe62622f0109d3485d7ae",
+      "lineStart": 78,
+      "lineEnd": 84,
+      "requirementIds": [
+        "map-14"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit scope remain distinct."
+    }
+  ],
+  "personalCaseSectionsExcluded": 2,
+  "sourceBodiesPublished": false
+}

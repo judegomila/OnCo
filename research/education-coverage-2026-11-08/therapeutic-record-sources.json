@@ -1,0 +1,492 @@
+[
+  {
+    "recordId": "adc",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/155997/download",
+        "capture": "fda-adc-pharmacology",
+        "verification": "Background/definitions, dose and exposure-response, bioanalytical sections; scope is cytotoxic small-molecule ADCs, recommendations rather than a universal requirement.",
+        "rawSha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/",
+        "identity": "26101915",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "d94d42c4dcecdcaf6d6a8b709e1ad96705fd8c3b3d93bc3af6c02ea6f9fb87fe"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36741448/",
+        "identity": "36741448",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "134737e61da17acc312c2a12fdd385aabc8d87fc97837b132cba6562e54eb270"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/",
+        "identity": "27166974",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7af6f32ad754e235a1835f6ad585a4065489ede96dead917b3f1ba856c853304"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/",
+        "identity": "41591991",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "6948150f992879c7481f8805596cd75fd220606589debc25c4f63a93291abcae"
+      },
+      {
+        "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+        "verification": "previously verified in the access-primary manifest; corresponding treatment and intended-use scope retained"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21768293/",
+        "identity": "21768293",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "6a7ad49209f48661df261d5799f9bf21e0b64c1d36048581d7d37ebc4ad387fd"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30131388/",
+        "identity": "30131388",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "0cf6e8972b15b3c54957a59e73a51a4a92121f69e8a84dc7d89254c3ff8b1a86"
+      }
+    ]
+  },
+  {
+    "recordId": "site-specific-conjugation",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18641636/",
+        "identity": "18641636",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "a0364e0c0d805133dbd33a693047ff146a441073668b01328924be7977c6ee48"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26076429/",
+        "identity": "26076429",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "a2d36aad056afa2c0553f760ec5c62ce6cceffb83d46b79757bddff499ffb437"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15501986/",
+        "identity": "15501986",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7f231082cd8a620a768b98b41fdf8b9cdac2dea65385a7050de301b36e8e18a4"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/",
+        "identity": "26101915",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "d94d42c4dcecdcaf6d6a8b709e1ad96705fd8c3b3d93bc3af6c02ea6f9fb87fe"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36741448/",
+        "identity": "36741448",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "134737e61da17acc312c2a12fdd385aabc8d87fc97837b132cba6562e54eb270"
+      }
+    ]
+  },
+  {
+    "recordId": "linker",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/",
+        "identity": "26101915",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "d94d42c4dcecdcaf6d6a8b709e1ad96705fd8c3b3d93bc3af6c02ea6f9fb87fe"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36741448/",
+        "identity": "36741448",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "134737e61da17acc312c2a12fdd385aabc8d87fc97837b132cba6562e54eb270"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/",
+        "identity": "27166974",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7af6f32ad754e235a1835f6ad585a4065489ede96dead917b3f1ba856c853304"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26076429/",
+        "identity": "26076429",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "a2d36aad056afa2c0553f760ec5c62ce6cceffb83d46b79757bddff499ffb437"
+      }
+    ]
+  },
+  {
+    "recordId": "dar",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15501986/",
+        "identity": "15501986",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7f231082cd8a620a768b98b41fdf8b9cdac2dea65385a7050de301b36e8e18a4"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18641636/",
+        "identity": "18641636",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "a0364e0c0d805133dbd33a693047ff146a441073668b01328924be7977c6ee48"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26076429/",
+        "identity": "26076429",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "a2d36aad056afa2c0553f760ec5c62ce6cceffb83d46b79757bddff499ffb437"
+      }
+    ]
+  },
+  {
+    "recordId": "bystander-effect",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/",
+        "identity": "27166974",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7af6f32ad754e235a1835f6ad585a4065489ede96dead917b3f1ba856c853304"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/",
+        "identity": "26101915",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "d94d42c4dcecdcaf6d6a8b709e1ad96705fd8c3b3d93bc3af6c02ea6f9fb87fe"
+      }
+    ]
+  },
+  {
+    "recordId": "cross-resistance",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/",
+        "identity": "41591991",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "6948150f992879c7481f8805596cd75fd220606589debc25c4f63a93291abcae"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/",
+        "identity": "39745368",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "8771b10ae13411d3808bb6b60362abd7b008a1414266b33cfb6435fa7e5e960f"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30131388/",
+        "identity": "30131388",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "0cf6e8972b15b3c54957a59e73a51a4a92121f69e8a84dc7d89254c3ff8b1a86"
+      }
+    ]
+  },
+  {
+    "recordId": "adc-sequencing",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/",
+        "identity": "39745368",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "8771b10ae13411d3808bb6b60362abd7b008a1414266b33cfb6435fa7e5e960f"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/",
+        "identity": "41591991",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "6948150f992879c7481f8805596cd75fd220606589debc25c4f63a93291abcae"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30131388/",
+        "identity": "30131388",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "0cf6e8972b15b3c54957a59e73a51a4a92121f69e8a84dc7d89254c3ff8b1a86"
+      }
+    ]
+  },
+  {
+    "recordId": "bispecific-adc",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://clinicaltrials.gov/study/NCT06382142",
+        "verification": "identity/design checked in registry-checks.json; no current access claim"
+      },
+      {
+        "url": "https://clinicaltrials.gov/study/NCT06304974",
+        "verification": "identity/design checked in registry-checks.json; no current access claim"
+      },
+      {
+        "url": "https://doi.org/10.1158/1538-7445.am2024-2616",
+        "capture": "bispecific-context",
+        "verification": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+        "rawResponseSha256": "ccfb6f3f23321896179d6f3f667f8e7eb98f039ce1e882e4e700d4c2e6141fcc"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26766593/",
+        "identity": "26766593",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "1d2a30dc4f55147fce7899175e3cfc4e35572e7203c3bfe693ef91f1506a650a"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28108597/",
+        "identity": "28108597",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "fe0ab27b2904a6383fee98006574546b04780b3a46bc79661911e32a75234f5d"
+      }
+    ]
+  },
+  {
+    "recordId": "monoclonal-antibody",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+        "capture": "nci-monoclonal",
+        "verification": "Specific recognition, distinct antibody-mediated immune actions and product-dependent adverse effects.",
+        "rawSha256": "f4c8ab37554869c3bbd8480161043460493c3c246b858ce47e5e94bdfd887335"
+      },
+      {
+        "url": "https://www.fda.gov/media/71510/download",
+        "capture": "fda-q6b",
+        "verification": "Characterization, structural heterogeneity, biological activity and quantity distinctions; not stand-alone clinical efficacy.",
+        "rawSha256": "01db1f979d47a395ddff4322edd6ae9364882528ae2bfc3cc4f05a594101e453"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26766593/",
+        "identity": "26766593",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "1d2a30dc4f55147fce7899175e3cfc4e35572e7203c3bfe693ef91f1506a650a"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21768293/",
+        "identity": "21768293",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "6a7ad49209f48661df261d5799f9bf21e0b64c1d36048581d7d37ebc4ad387fd"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30131388/",
+        "identity": "30131388",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "0cf6e8972b15b3c54957a59e73a51a4a92121f69e8a84dc7d89254c3ff8b1a86"
+      }
+    ]
+  },
+  {
+    "recordId": "radioligand-therapy",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/129547/download",
+        "capture": "fda-radiopharmaceutical",
+        "verification": "Scope, targeting vector versus organ-seeking products, biodistribution/daughter considerations; nonclinical development, not a clinical dosing protocol.",
+        "rawSha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+        "verification": "pre-existing contextual source retained; no new certification"
+      },
+      {
+        "url": "https://www.epa.gov/radiation/radiation-terms-and-units",
+        "capture": "epa-radiation",
+        "verification": "Activity in becquerels and absorbed energy per mass in gray; not a patient dose limit.",
+        "rawSha256": "c7d13afa7dc3013a82aa91c02fb7ecb2fb34cb10511fb4894d72e6632af8f71a"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34161051/",
+        "identity": "34161051",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "41e78fb2bc23767a461eccd40f898f68d51efc0cc73f486d36ba77cbd5d10c0e"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28076709/",
+        "identity": "28076709",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "243fdbdd1c71f19e56bd3fefcc1b6f4f5d3f07160168610d59f9ceb2fbc13932"
+      }
+    ]
+  },
+  {
+    "recordId": "dosimetry",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.epa.gov/radiation/radiation-terms-and-units",
+        "capture": "epa-radiation",
+        "verification": "Activity in becquerels and absorbed energy per mass in gray; not a patient dose limit.",
+        "rawSha256": "c7d13afa7dc3013a82aa91c02fb7ecb2fb34cb10511fb4894d72e6632af8f71a"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+        "verification": "pre-existing contextual source retained; no new certification"
+      },
+      {
+        "url": "https://www.fda.gov/media/129547/download",
+        "capture": "fda-radiopharmaceutical",
+        "verification": "Scope, targeting vector versus organ-seeking products, biodistribution/daughter considerations; nonclinical development, not a clinical dosing protocol.",
+        "rawSha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c"
+      }
+    ]
+  },
+  {
+    "recordId": "radioligand-dosimetry",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+        "verification": "pre-existing contextual source retained; no new certification"
+      },
+      {
+        "url": "https://www.epa.gov/radiation/radiation-terms-and-units",
+        "capture": "epa-radiation",
+        "verification": "Activity in becquerels and absorbed energy per mass in gray; not a patient dose limit.",
+        "rawSha256": "c7d13afa7dc3013a82aa91c02fb7ecb2fb34cb10511fb4894d72e6632af8f71a"
+      },
+      {
+        "url": "https://www.fda.gov/media/129547/download",
+        "capture": "fda-radiopharmaceutical",
+        "verification": "Scope, targeting vector versus organ-seeking products, biodistribution/daughter considerations; nonclinical development, not a clinical dosing protocol.",
+        "rawSha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c"
+      }
+    ]
+  },
+  {
+    "recordId": "radioimmunotherapy",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/129547/download",
+        "capture": "fda-radiopharmaceutical",
+        "verification": "Scope, targeting vector versus organ-seeking products, biodistribution/daughter considerations; nonclinical development, not a clinical dosing protocol.",
+        "rawSha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5680544/",
+        "verification": "pre-existing contextual source retained; no new certification"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23714732/",
+        "identity": "23714732",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "14d218ab1cb33cc84c1f832830aba7e6554fef5a291b28dd0bf1a86bd8804da5"
+      }
+    ]
+  },
+  {
+    "recordId": "adc-analytes-and-exposure",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://www.fda.gov/media/155997/download",
+        "capture": "fda-adc-pharmacology",
+        "verification": "Background/definitions, dose and exposure-response, bioanalytical sections; scope is cytotoxic small-molecule ADCs, recommendations rather than a universal requirement.",
+        "rawSha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42089685/",
+        "identity": "42089685",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "cd77da8e938ce82a549bbe9600297beb7f699320ba9b202c428b45ee5a621277"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15501986/",
+        "identity": "15501986",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "7f231082cd8a620a768b98b41fdf8b9cdac2dea65385a7050de301b36e8e18a4"
+      }
+    ]
+  },
+  {
+    "recordId": "chk1-inhibitor-payloads",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1158/1538-7445.am2026-1714",
+        "capture": "chk1-payload",
+        "verification": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+        "rawResponseSha256": "5667c3eabada98231b013fad2b98b1c7e13e61723dbc9587530d561cbc114f6e"
+      }
+    ]
+  },
+  {
+    "recordId": "parp-inhibitor-payloads",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://doi.org/10.1158/1538-7445.am2025-5467",
+        "capture": "parp-payload",
+        "verification": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+        "rawResponseSha256": "02686f55122491399bba2a146dfa3c669cf581c9e924e0abdbcab1cc375f7b0d"
+      }
+    ]
+  },
+  {
+    "recordId": "atr-chk1-inhibitors",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37277454/",
+        "identity": "37277454",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "efb4c714fa96fb8c9852e46b1b3cbc86e5b9c5fc5d09879ff5ba86e25cec9443"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32510664/",
+        "identity": "32510664",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "0d3ef7cf06090acf9d82d2e21075a7689f9a8a84f012f6628b126e855ca26121"
+      },
+      {
+        "url": "https://doi.org/10.1158/1557-3265.d32026-a003",
+        "capture": "atr-payload",
+        "verification": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+        "rawResponseSha256": "57c4dddcdee5553ff7733a3c7e1497dd3acc41fe1d9b0725c71a64c482167fde"
+      },
+      {
+        "url": "https://doi.org/10.1158/1538-7445.am2026-1714",
+        "capture": "chk1-payload",
+        "verification": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+        "rawResponseSha256": "5667c3eabada98231b013fad2b98b1c7e13e61723dbc9587530d561cbc114f6e"
+      }
+    ]
+  },
+  {
+    "recordId": "histone-lactylation",
+    "asOf": "2026-11-08",
+    "scope": "Authored fields and stated learning requirements only. Neither connected records nor every neighboring claim is recertified.",
+    "sources": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31645732/",
+        "identity": "31645732",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "4b6dedc256b1a010c45d610feb1a896490c67498834c499d623ac3f6be94fc34"
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399513/",
+        "identity": "42399513",
+        "verification": "independent MED identity and abstract read",
+        "rawResponseSha256": "24915925f1c4ab52c3787cf1a20d46cc5efea76b8a517d483ef4349dbd7510b1"
+      }
+    ]
+  }
+]

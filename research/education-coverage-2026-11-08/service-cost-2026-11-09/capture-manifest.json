@@ -1,0 +1,38 @@
+[
+  {
+    "file": "fda-expanded-access-information.html",
+    "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+    "capturedAt": "2026-11-09T22:48:39.065739+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 38427,
+    "sha256": "7200efe5cbac09b8254cd0ac70eaf2bfbdb892a0df8152932269dbce239221ba"
+  },
+  {
+    "file": "fda-expanded-access-patients.html",
+    "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+    "capturedAt": "2026-11-09T22:53:57.021545+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 65594,
+    "sha256": "63d61baa3805821ad5f51762db69eb942bb407e0814fac786d01ba4ccbbb406f"
+  },
+  {
+    "file": "fda-information-web.json",
+    "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+    "capturedAt": "2026-11-09",
+    "captureType": "web.run parsed primary response; separate from raw HTML",
+    "bytes": 7551,
+    "sha256": "f9cd6e10e2c23c15d5f01a07f88deb2b4e7540b0ed522a942a2534b793610b1b"
+  },
+  {
+    "file": "fda-patients-web.json",
+    "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+    "capturedAt": "2026-11-09",
+    "captureType": "web.run parsed primary response; separate from raw HTML",
+    "bytes": 18647,
+    "sha256": "e2fe6a7aff8875a9af43f39af52561c5a9f4e2a49d9f57b45389e91a299e38db"
+  }
+]

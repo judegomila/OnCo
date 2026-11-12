@@ -1,0 +1,178 @@
+{
+  "sourceVersions": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/index.md",
+      "sha256": "2ab576adbca2590af05461266fd36a5e1df710943518b21a44cea826e67a2534",
+      "gitBlob": "312b0477c77dfc3096abcf1cb90f436c55bd15ba",
+      "bytes": 114004,
+      "lines": 457,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6fe3023a71d0278c23707089b437b34b4a88ec8c2e8ce7c7902ea667b766def8"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "43635b8666dab3ba4f51aed03c974e85bf62523ee4ee490e4903970e013224a3"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e2809a4254103d8d57dff133159f35146848eecd070b1a5bcc4c1f9c66cb08d9"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "cde9be6bcaa99d4c75beb1f123d055a9df32918bc23449eeca15569141a3b4f0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7268637ed5dd8860469f7be4b4cf04bc38e75be359699e5cdec6c0aa9b503f28"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b6d05bb16ed8367f91ab64935d5e027210c7d60055c0e3a31e2d4628b021b2c5"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "bb7c55e367048e957fa5b1ae1d28cabf88246672c673398f4f258e018714eedf"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "54d88ebbb342bbad39c2a08622c6a0342c3d85fb48c0e87658a2b324ee08730b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "ba23d3bc12df4cbab259d6bd0e604f69d9ec8a5fd5f9bab8d414a7e2800c34f3"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "110b6caaa6d457831b1118ab7f47d79eadbb93d9b592b27b228048c0a81e604c"
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/images/index.md",
+      "sha256": "4c6f128dc691c6a1f2d9995158cfc97a1aacc37c04d7c30b624b09bac3c3f338",
+      "gitBlob": "592c3e3dc756979e9444ef5e8be7e7659896bd74",
+      "bytes": 172494,
+      "lines": 398,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "173b30ea563e36d918b6e936a9b1e262e445842db8cb3a74c7ae2e238e1aa077"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c2a9e189871f70942b2d25ff7d3cb466ba5b2841d973e2d6be41cd2d1ca3b650"
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/index.md",
+      "sha256": "6a154f017a52d7e53f273af7bc36bc9bbb7271d6e49aa676d7b8c32992608748",
+      "gitBlob": "0dca7fa4ef27ffba7ae9c37f2e1282771447460b",
+      "bytes": 132312,
+      "lines": 753,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "8b0bdd591cb018c9483a8c27689db81805acfa3074b45055c7fbd3218ba5a34d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f9f0e403c328b279767a816ff6fedf20c2e8163ae4804ee66cdf329493278cef"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "95e5bb6b6eb28d19dd5679785614e417b4e2bf9bc2d571008005a9b0f0aae774"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "23592297c8ec9e924c83cf0166855e5f96f2776c4f07745b619a17a3910513de"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "500d320da827b1ebc2f34700a1a2ab4cd8597b60e9934fd17d4c76d889c7db2e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "da973c2f28cef8ec0917a05c253550af7ea54acc4480a619ba7f329bfd9d5440"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4ad3c50d504beae61a7b6cbd9bb674fb13a88e8827a128d83de6343a227880a1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "4405dde16f69c83a0fc0126400a971785eea92814b5e4258ef1ce6e7f80f33ef"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "a930dbd5be05a1a2f11a0e5df2f93b56b6051023e323cf0da6ac1239db347105"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e6cb1c6be502ba5f50cf19644b9293591792b4acf3e13c9fbab9e8852204e4f9"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "ef09e4059823064a7a8a3a9d9ad1f58bb1135781a33e53cdfe871e2233349340"
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/images/index.md",
+      "sha256": "ab5c575c9192cc2638312e8e557b5b677d351ba642ab79f2ce6493808de8ad47",
+      "gitBlob": "188298957b127b9daf9fc164d673584faa37a485",
+      "bytes": 172322,
+      "lines": 397,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "185e7dfa2d067629c7fe719fc44ea2c2cb1ad6724ba655158338d8213afa6959"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c2a9e189871f70942b2d25ff7d3cb466ba5b2841d973e2d6be41cd2d1ca3b650"
+        }
+      ]
+    }
+  ],
+  "readingMode": "All later scientific text and owner labels read verbatim, plus the two distinct original scientific texts and three changed original labels. Other original entry text reused only by exact UTF-8 text identity. All ancillary source text was read at both pins. Destinations, filenames and repetitive table syntax were checked technically rather than recited as prose.",
+  "readingBatches": 28,
+  "wholePrimaryPapersReadForThisClassification": 0,
+  "freshImageOrMermaidViews": 0,
+  "rawSourceBodiesPublished": false
+}

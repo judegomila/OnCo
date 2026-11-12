@@ -1,0 +1,571 @@
+{
+  "scope": "Exact private-source capture metadata only. HTTP 200 does not establish content or reading.",
+  "rawRequests": [
+    {
+      "file": "med-28123068.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28123068+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:22:31.050566+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28123068+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 13742,
+      "sha256": "57d6e61f9cd55c2af002b8a3d5db3421accad0ba97fc4dd972d0dff1bcc8f0a3"
+    },
+    {
+      "file": "med-33308471.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33308471+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:22:32.028152+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33308471+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 26147,
+      "sha256": "54bf04e156c3c86565d6f20f9e9b29163728dc78d1d202e96886a2076caec857"
+    },
+    {
+      "file": "med-36970059.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36970059+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:22:33.011662+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36970059+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11206,
+      "sha256": "f7c8b70921a44aff64b4a7d8744b44f81458d9d3056b7c5939977e1f99f8afe6"
+    },
+    {
+      "file": "med-38231412.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38231412+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:22:33.888279+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38231412+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 13554,
+      "sha256": "c247b3f929c596f67ff1dfe7b5619aad454024edc581417053b052209e9b5af0"
+    },
+    {
+      "file": "med-30030295.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30030295+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:22:42.404470+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30030295+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 14816,
+      "sha256": "f4833525b4b3cadae2bcfff4dcf19deb48cefa83c90284e7c8ea8d22b787dd51"
+    },
+    {
+      "file": "fda-car-t-guidance.pdf",
+      "url": "https://www.fda.gov/media/156896/download",
+      "capturedAt": "2026-11-09T23:22:51.293248+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/156896/download",
+      "contentType": "application/pdf",
+      "bytes": 528619,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7"
+    },
+    {
+      "file": "nci-t-cell-transfer.html",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "capturedAt": "2026-11-09T23:22:51.749127+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 52053,
+      "sha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe"
+    },
+    {
+      "file": "nci-autologous.html",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/autologous",
+      "capturedAt": "2026-11-09T23:22:52.037375+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/autologous",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 29258,
+      "sha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28"
+    },
+    {
+      "file": "nci-allogeneic.html",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/allogeneic",
+      "capturedAt": "2026-11-09T23:22:52.142049+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/allogeneic",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 29258,
+      "sha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28"
+    },
+    {
+      "file": "nci-leukapheresis.html",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/leukapheresis",
+      "capturedAt": "2026-11-09T23:22:52.302179+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/leukapheresis",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 29258,
+      "sha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28"
+    },
+    {
+      "file": "nci-stem-cell-transplant.html",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant",
+      "capturedAt": "2026-11-09T23:22:52.455981+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 66907,
+      "sha256": "f4a8f6f12624efd201d9c6899bc1f365970d63c03b1bab1c968084b37ad10ce1"
+    },
+    {
+      "file": "nih-consent-library.pdf",
+      "url": "https://irbo.nih.gov/documents/306/2026_02_05_Consent_Library_v18.pdf",
+      "capturedAt": "2026-11-09T23:22:52.671155+00:00",
+      "status": 200,
+      "finalURL": "https://irbo.nih.gov/documents/306/2026_02_05_Consent_Library_v18.pdf",
+      "contentType": "application/pdf",
+      "bytes": 1193650,
+      "sha256": "d9227991b6eea41adfd070ef98af15e71b3aba978e09a645895d110d62fbf556"
+    },
+    {
+      "file": "fulltext-33308471.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11773457/fullTextXML",
+      "capturedAt": "2026-11-09T23:26:39.855690+00:00",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "file": "fulltext-38231412.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10794471/fullTextXML",
+      "capturedAt": "2026-11-09T23:26:41.128469+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10794471/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 129551,
+      "sha256": "a6360d5f93057490861552a73fe39a89db2477765bc6cdc3cec6494a2cd6e0a3"
+    },
+    {
+      "file": "fulltext-36970059.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10035397/fullTextXML",
+      "capturedAt": "2026-11-09T23:27:04.358762+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10035397/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 154297,
+      "sha256": "aacbf79206940ee2e4bad0781761a7b3c3b91eaa925e1701ea3ccf60ca81967e"
+    },
+    {
+      "file": "fulltext-30030295.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8274631/fullTextXML",
+      "capturedAt": "2026-11-09T23:27:06.712767+00:00",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "file": "registry-NCT02808442.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02808442",
+      "capturedAt": "2026-11-09T23:27:07.849070+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT02808442",
+      "contentType": "application/json",
+      "bytes": 8717,
+      "sha256": "a9d4bd247fb58373de1e6c856777fd3ad4137903737402e84239d574377f81d7"
+    },
+    {
+      "file": "registry-NCT02746952.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT02746952",
+      "capturedAt": "2026-11-09T23:27:08.209699+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT02746952",
+      "contentType": "application/json",
+      "bytes": 11313,
+      "sha256": "751cf2decacceca97acbb517b57322f31af09ef28baac194ab80ab526263e35a"
+    },
+    {
+      "file": "med-14085017.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14085017+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:30:11.874107+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14085017+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 4459,
+      "sha256": "0ad0c5a7e7d0a684421b42ce3546270cdc26590dd579ac66e07004353a89ef63"
+    },
+    {
+      "file": "med-31178392.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31178392+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:30:12.560506+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31178392+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 12033,
+      "sha256": "6330bb90787c0161364b172867e5aae7ab34a5dc659e3f7289e6bba75eed026c"
+    },
+    {
+      "file": "med-30910382.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30910382+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:30:18.092628+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30910382+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 10964,
+      "sha256": "46f11cc3046d5cfc47c6f37eadd95d5f075c41136810ef21f8cda4bd2566bb93"
+    },
+    {
+      "file": "yescarta-label.html",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59",
+      "capturedAt": "2026-11-09T23:30:18.984441+00:00",
+      "status": 200,
+      "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 310737,
+      "sha256": "522bd5a84a796d8602eb6da0a39a66005349f8ce4f1637fab3b2636e88723526"
+    },
+    {
+      "file": "kymriah-label.html",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189",
+      "capturedAt": "2026-11-09T23:30:19.767368+00:00",
+      "status": 200,
+      "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 273214,
+      "sha256": "c0acba032e31aea6bc45f6899877fc20a978cc3b23a0d03447793839ac6a7a26"
+    },
+    {
+      "file": "iccbba-coi-standard.pdf",
+      "url": "https://iccbba.org/wp-content/uploads/2025/08/1a7593_0aa7a5f7202c4b43be4cc11bcd2048ef.pdf",
+      "capturedAt": "2026-11-09T23:30:20.416394+00:00",
+      "status": 200,
+      "finalURL": "https://iccbba.org/wp-content/uploads/2025/08/1a7593_0aa7a5f7202c4b43be4cc11bcd2048ef.pdf",
+      "contentType": "application/pdf",
+      "bytes": 470076,
+      "sha256": "b1121c93e0d3cb61efddaa877482545c3a67b300aa71163551e98a0b27732db5"
+    },
+    {
+      "file": "iccbba-ig050.pdf",
+      "url": "https://iccbba.org/wp-content/uploads/2025/08/1a7593_badfaf3c48d443f78006340096a671e0.pdf",
+      "capturedAt": "2026-11-09T23:30:20.827772+00:00",
+      "status": 200,
+      "finalURL": "https://iccbba.org/wp-content/uploads/2025/08/1a7593_badfaf3c48d443f78006340096a671e0.pdf",
+      "contentType": "application/pdf",
+      "bytes": 488894,
+      "sha256": "faa86cac146d67049e86bdb1424d4c094d9ac02d80f9ee5a0fccdf04d453e7ef"
+    },
+    {
+      "file": "fda-cmc-townhall.pdf",
+      "url": "https://www.fda.gov/media/180664/download",
+      "capturedAt": "2026-11-09T23:30:21.180546+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/180664/download",
+      "contentType": "application/pdf",
+      "bytes": 354277,
+      "sha256": "d2d26557ef85a022b50a1ff5d0fddaeaa79b39b20d51acf11f31ad876c4142aa"
+    },
+    {
+      "file": "elicit-rank-1-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40745920+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:07.791113+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40745920+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7742,
+      "sha256": "4737ff5ef5fd1d77c2bcdcdbe0a21c95d9064c7b5cd29038d3f88950fe781f4b"
+    },
+    {
+      "file": "elicit-rank-2-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36276077+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:08.502105+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36276077+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7494,
+      "sha256": "3846a2753479ff51e5b78a63a829f0c9cff2595fafa3cff3e097f590ff3bedfa"
+    },
+    {
+      "file": "elicit-rank-3-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36225930+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:09.135805+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36225930+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7435,
+      "sha256": "66bd21d843ee1f54e948e45f6be824d4c3132990cfc592a360a2d8f14fd266c4"
+    },
+    {
+      "file": "elicit-rank-4-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fjitc-2025-sitc2025.0579%22+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:09.891019+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fjitc-2025-sitc2025.0579%22+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 214,
+      "sha256": "01a788feeb9e719740938af92ad47becbcec8285ad6d2a73a9b13bcbb26f43b9"
+    },
+    {
+      "file": "elicit-rank-5-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jtct.2023.12.275%22+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:10.530167+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jtct.2023.12.275%22+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 209,
+      "sha256": "5300cf49059974c4ed43d301f04b4194fe6050995f7b83c86ad585a6f22276ce"
+    },
+    {
+      "file": "elicit-rank-6-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42553327+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:12.810563+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42553327+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6503,
+      "sha256": "57eae600bb5f0b4b5a497f975530b3dcb1a146e37eaf496fb923df7f6fb13188"
+    },
+    {
+      "file": "elicit-rank-7-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35502223+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:14.929471+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35502223+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7190,
+      "sha256": "ca8f08b8cd4c79c8e0ec1f3200bc879bf5805bdb2c749bf595ad42c7c1ed095e"
+    },
+    {
+      "file": "elicit-rank-8-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.18609%2Fcgti.2025.147%22+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:33:15.895261+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.18609%2Fcgti.2025.147%22+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 205,
+      "sha256": "2da0879f0c4e1055e8a88925d7ab296724ff0aadf605dec71bc7f773086db98b"
+    },
+    {
+      "file": "med-40066375.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40066375+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:36:18.751196+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40066375+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5403,
+      "sha256": "c2996f5b3cb323108eb59971b65c22c45ca67c4b2c56f0af8b1f1d56333f3646"
+    },
+    {
+      "file": "med-40377509.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40377509+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-09T23:36:19.581879+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40377509+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 9774,
+      "sha256": "03395c9ef60cfd93da4b63f8f1a47beaca5f0e1005758442f15933443f8afca9"
+    },
+    {
+      "file": "fda-potency-2011.pdf",
+      "url": "https://www.fda.gov/media/79856/download",
+      "capturedAt": "2026-11-09T23:36:20.297868+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/79856/download",
+      "contentType": "application/pdf",
+      "bytes": 124398,
+      "sha256": "719867bb74289b4d8be0a625086604c14e70f40031af6a44d5d0b992675cbe57"
+    },
+    {
+      "file": "fda-gene-cmc-2020.pdf",
+      "url": "https://www.fda.gov/media/113760/download",
+      "capturedAt": "2026-11-09T23:36:20.689138+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/113760/download",
+      "contentType": "application/pdf",
+      "bytes": 477900,
+      "sha256": "8bfad57bf0044fa38e1b5d0b3d6f195105e7decc6b689fda74a4403885570d5f"
+    },
+    {
+      "file": "elicit-rank-4-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fjitc-2025-sitc2025.0579",
+      "capturedAt": "2026-11-09T23:40:11.724515+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fjitc-2025-sitc2025.0579",
+      "contentType": "application/json",
+      "bytes": 4486,
+      "sha256": "fee426684f12a2ced608c3e51021ee76b1919a597dabffefef6b3db2bef39d95"
+    },
+    {
+      "file": "elicit-rank-5-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jtct.2023.12.275",
+      "capturedAt": "2026-11-09T23:40:11.993562+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.jtct.2023.12.275",
+      "contentType": "application/json",
+      "bytes": 4876,
+      "sha256": "2a94d086ef4ed847319853469e08f56a36775d1cc5dab67589afc00dc15bf022"
+    },
+    {
+      "file": "elicit-rank-8-crossref.json",
+      "url": "https://api.crossref.org/works/10.18609%2Fcgti.2025.147",
+      "capturedAt": "2026-11-09T23:40:12.238597+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.18609%2Fcgti.2025.147",
+      "contentType": "application/json",
+      "bytes": 2357,
+      "sha256": "321ee5e46c2770b1bf2f83885f231dbaabcfbe11f7dca9da4c9d43b9f8d19dc1"
+    },
+    {
+      "file": "fulltext-40066375.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11891598/fullTextXML",
+      "capturedAt": "2026-11-09T23:40:12.485228+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11891598/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 53330,
+      "sha256": "f4cac976d90b3be83b2e691b321903041f694bbc2672b0394416811d2bf331a9"
+    },
+    {
+      "file": "registry-NCT04094311.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04094311",
+      "capturedAt": "2026-11-09T23:40:22.877128+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT04094311",
+      "contentType": "application/json",
+      "bytes": 19263,
+      "sha256": "1670d87585e83c47aa35764d16e7cc868920d969f4559e134b2e0f33d44179a3"
+    },
+    {
+      "file": "fda-potency-final-2026.html",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+      "capturedAt": "2026-11-09T23:56:50.652126+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 37506,
+      "sha256": "534a3447f274bd436aa88efe970d3a6a72daa619f63c89c142a56ce59c7f71fc"
+    },
+    {
+      "file": "semantic-NCT03686124.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03686124",
+      "capturedAt": "2026-11-09T23:56:50.897212+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03686124",
+      "contentType": "application/json",
+      "bytes": 20967,
+      "sha256": "f04e51306b700e7f8d15c81fb502b0147c83f393df467908f849381970e6e7e2"
+    },
+    {
+      "file": "fda-potency-final-2026.pdf",
+      "url": "https://www.fda.gov/media/196183/download",
+      "capturedAt": "2026-11-09T23:59:53.511291+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/196183/download",
+      "contentType": "application/pdf",
+      "bytes": 489319,
+      "sha256": "332476a39563b63a7be407525c59dc70bddf3f850e64c58cb02e54f7d9b02884"
+    },
+    {
+      "file": "registry-NCT03229876.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03229876",
+      "capturedAt": "2026-11-10T00:00:58.178839+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03229876",
+      "contentType": "application/json",
+      "bytes": 9432,
+      "sha256": "ba12f725122d9bf5f177b90065a90bf634ab418cbb9bb880c67731bcf1c416fc"
+    },
+    {
+      "file": "uk-panel-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41408-025-01225-9%22+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-10T00:00:58.345343+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41408-025-01225-9%22+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11813,
+      "sha256": "2056990f50bc124fd417566ec583b5cb9506b1621ba8ce5993516775f6f6d714"
+    },
+    {
+      "file": "med-40536974.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40536974+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-10T00:30:32.273962+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40536974+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 16625,
+      "sha256": "9ef9ca3199145cfb832c99198a38d180876aabd9b6dc29c2bc6c8ff22a9ecb60"
+    },
+    {
+      "file": "med-34990237.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34990237+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-10T00:30:33.675990+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34990237+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 16542,
+      "sha256": "594934c15af4a5e64ada36e925826b23d59c09184b69feccf6f60208aa349924"
+    },
+    {
+      "file": "depil-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41573-019-0051-2%22+AND+SRC%3AMED&format=json&resultType=core",
+      "capturedAt": "2026-11-10T00:32:17.309508+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fs41573-019-0051-2%22+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5793,
+      "sha256": "a2a272923905cde4185eb8f5c869f1e84f45b9ebed08dfb9d036e9df0967763d"
+    },
+    {
+      "file": "registry-NCT06539338.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT06539338",
+      "capturedAt": "2026-11-10T00:32:18.065279+00:00",
+      "status": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT06539338",
+      "contentType": "application/json",
+      "bytes": 14070,
+      "sha256": "7308cb132406d472d8b1b6c1a4914dfda61e7bcc5dae25e823fd7dcf98ab51f1"
+    },
+    {
+      "file": "ima203-meeting-abstract.pdf",
+      "url": "https://jitc.bmj.com/content/13/Suppl_2/A658.full.pdf",
+      "capturedAt": "2026-11-10T00:43:58.671896+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "file": "lv2019-meeting-abstract.html",
+      "url": "https://www.astctjournal.org/article/S2666-6367%2823%2902010-9/fulltext",
+      "capturedAt": "2026-11-10T00:43:58.836711+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "cryoprocess-poster-page.html",
+      "url": "https://www.insights.bio/cell-and-gene-therapy-insights/journal/article/3676/cryoprocessed-leukapheresis-using-an-automated-closed-system-a-highquality-starting-material-for-autologous-and-allogeneic-cart-cell-therapy-manufactu",
+      "capturedAt": "2026-11-10T00:43:58.962067+00:00",
+      "status": 200,
+      "finalURL": "https://www.insights.bio/cell-and-gene-therapy-insights/journal/article/3676/cryoprocessed-leukapheresis-using-an-automated-closed-system-a-highquality-starting-material-for-autologous-and-allogeneic-cart-cell-therapy-manufactu",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 58703,
+      "sha256": "8d4d6e019f65ab5eb0de04a09c6bca559027def39138f5e806b426319aebd399"
+    }
+  ],
+  "additionalDiscoveryReceipts": [
+    {
+      "file": "web-discovery.json",
+      "bytes": 17625,
+      "sha256": "c890b4b068f02fd72b90b130d2ad686424ced4c30147c1af70ae34ad735cacbf",
+      "kind": "parsed web discovery response; raw sources independently checked for used claims"
+    },
+    {
+      "file": "fda-potency-final-web.json",
+      "bytes": 6383,
+      "sha256": "d825cfb2f2f42678e0284d2a0d750600fa8879f2bb83be37d4316ddcad287c2d",
+      "kind": "parsed web discovery response; raw sources independently checked for used claims"
+    },
+    {
+      "file": "publisher-search-2026-11-09.json",
+      "bytes": 29656,
+      "sha256": "cbe15321b306ff8f5f269ede30bff918b4e070b0601fa7d3c63c99e2ae7ec464",
+      "kind": "parsed web discovery response; raw sources independently checked for used claims"
+    },
+    {
+      "file": "publisher-opened-2026-11-09.json",
+      "bytes": 4574,
+      "sha256": "c611e0e8ed69df1f987792fa4a64c97b181e2bd9cfb4e5c91e730385e0830f14",
+      "kind": "parsed web discovery response; raw sources independently checked for used claims"
+    }
+  ],
+  "elicitResponse": {
+    "file": "elicit-manufacturing-process.json",
+    "bytes": 19232,
+    "sha256": "da5eddea4863a072c4d838903172dd298f2e830cddf34cba2fb8e1eb12835060",
+    "custody": "Complete unmodified JSON retained outside public Git; no report/question URL returned."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "sourceOpen": [
+    {
+      "requirement": "IND-107",
+      "lesson": "cytokine-release-syndrome",
+      "remaining": [
+        "Detailed ASTCT 2026 full text is access-blocked; 2019 criteria are explicitly attributed and supported."
+      ]
+    },
+    {
+      "requirement": "IND-117",
+      "lesson": "icans",
+      "remaining": [
+        "Detailed ASTCT 2026 full text is access-blocked; 2019 criteria are explicitly attributed and supported."
+      ]
+    }
+  ],
+  "externalDependencies": [
+    "ASTCT 2026 detailed full text access",
+    "Expert and learner assessment",
+    "Named-language and Simple-English review",
+    "Main merge and publication after applicable owner approval"
+  ],
+  "broaderLegacyScope": "Retained baseline assertions not used in these requirement proofs are not freshly certified. Removed overbroad legacy leads and their before values are recorded in record-changes.",
+  "verifiedConsumers": [
+    "Both serialized complete gate chains",
+    "42 actual EntityDetail pages and 235 exact text segments",
+    "42 exact entity JSON exports and 190 Markdown field passages",
+    "OpenAPI generation and duplicate survey",
+    "378 actual short-summary selector states"
+  ],
+  "notCertified": [
+    "Complete Next production build or hydration",
+    "Expert, learner or named-language acceptance",
+    "Main merge or deployment"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "route": "/cancers/nsclc/data/",
+  "component": "CancerSectionPage",
+  "bytes": 259096,
+  "sha256": "b9ce01532fdf0455c748b87ce3d0cf1b5b2a4935b618e9fcd8b81c9839a47d86",
+  "scope": "Actual asynchronous route component rendered with its data section; no browser hydration or deployed-page claim."
+}

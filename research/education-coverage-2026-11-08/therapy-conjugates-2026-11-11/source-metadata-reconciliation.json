@@ -1,0 +1,1936 @@
+[
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 33,
+    "sourceTextSha256": "70192b76c86e7dfc9a09948144727c2b2cb3b3a1deeeb3553d0f127f43cfc22b",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 34,
+    "sourceTextSha256": "1a626c39eef455922568235caf5038a537c08de793712b56dc6750c4265efb82",
+    "linkedLaterInstructionalPoints": [
+      "antibody-tumor-penetration:T001",
+      "antibody-tumor-penetration:T004",
+      "antibody-tumor-penetration:T005",
+      "antibody-tumor-penetration:T006",
+      "antibody-tumor-penetration:T007",
+      "antibody-tumor-penetration:T008",
+      "antibody-tumor-penetration:T015",
+      "antibody-tumor-penetration:T016",
+      "antibody-tumor-penetration:T017",
+      "antibody-tumor-penetration:T019",
+      "antibody-tumor-penetration:T020"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 35,
+    "sourceTextSha256": "31383424db3b87c54c72180fdd38997f6bc603f8c2be8f5b3f87980c834124d5",
+    "linkedLaterInstructionalPoints": [
+      "antibody-tumor-penetration:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 36,
+    "sourceTextSha256": "887ca5299ca1760deed9cdfcd7cc979c3aa53507414cb0cfb592c9b15386fdd3",
+    "linkedLaterInstructionalPoints": [
+      "antibody-tumor-penetration:T008",
+      "antibody-tumor-penetration:T017"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 37,
+    "sourceTextSha256": "f41f7acc2dc0e588add0232b4387634adb42cc0bbd169036c19ecd53d205c06f",
+    "linkedLaterInstructionalPoints": [
+      "antibody-tumor-penetration:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "sourceUnit": 38,
+    "sourceTextSha256": "bde64143f27180f475d0f547412f8f8228c4c87d3c0633b52035bf8421f20237",
+    "linkedLaterInstructionalPoints": [
+      "antibody-tumor-penetration:T013"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 39,
+    "sourceTextSha256": "e5b596f4b745f6854f1e2900e67c2f33a84fa327e203b3b45ab2b49d52a9b85e",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 40,
+    "sourceTextSha256": "75e8a96688bf6417a27a8557217bd82fa7e7a87fe17ece78ea63db891d634efb",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 41,
+    "sourceTextSha256": "c05e730212c65709dee868d82bf61762b433ce42307acf24eabe1ad1620254ed",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T008",
+      "immune-stimulating-adc:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 42,
+    "sourceTextSha256": "a8c968c535e6b4e04a906cef5990eefc1aad8711ef39a2a09156ab7576161ce3",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T008",
+      "immune-stimulating-adc:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 43,
+    "sourceTextSha256": "eb5d9519a466322ec00c00eabe733c1ebe8d74ca6896569dd08fff727ba4f80b",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T010",
+      "immune-stimulating-adc:T013",
+      "immune-stimulating-adc:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "8bb96339238da4341b0e526992a43a591dd8f2a6fcb3765f1f0d4cd55c40c1a5",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T012",
+      "immune-stimulating-adc:T017"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "c8549aac483fe5b00b976297fede9077b9d8609b26df0b941fc78eecd2dcf919",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T003",
+      "immune-stimulating-adc:T013"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "40b0edb8d07188c51980cd8110ce98cead0024957181032d187640f29337805b",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T011",
+      "immune-stimulating-adc:T014",
+      "immune-stimulating-adc:T023",
+      "immune-stimulating-adc:T024"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "f2463c456b9b0702aa2ebc129ddc2f56507a01c902cc24a067c34511fe13aa26",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T019"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 43,
+    "sourceTextSha256": "8eb4f8b6992b808536ffb332c624222b16170a695dd4ce4fbe69a417e72fc1d2",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "35cb982254d899ea868836b202018d74cf65f3a9d8a581c30f091a72c5c3fe32",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T003"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "178590f68a86296e5a1813ad66d31efedfc4ffe048fc24f153bb37eff23c3958",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T022"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "9ae0381d46af7adc051714f0241d7b1501a84fa7b3a2afc15a44a45799df52a8",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 48,
+    "sourceTextSha256": "0910a9953a14cdef269eb3d77b59af8222b78889ab4342f3ba4ac7d081552483",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T006",
+      "next-generation-top1-payloads:T012",
+      "next-generation-top1-payloads:T025"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 50,
+    "sourceTextSha256": "0e7f42b1745bca8edba4b09fb25e3f8f59aeb6796d1d080f8f5f11ecf02dab40",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T009",
+      "next-generation-top1-payloads:T015",
+      "next-generation-top1-payloads:T019",
+      "next-generation-top1-payloads:T020"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 51,
+    "sourceTextSha256": "33767d56160eea77b109f7f3369904e69d46db9033ea663da79689737a3a5644",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T007",
+      "next-generation-top1-payloads:T023"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 52,
+    "sourceTextSha256": "869304c591cc1ab78c290e0c9abdd260a7fd442d8a01b64995062c488144c662",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T008",
+      "next-generation-top1-payloads:T019",
+      "next-generation-top1-payloads:T025"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 53,
+    "sourceTextSha256": "7f619f0f27e3d0f1405af07af52dc70e3c6c67bfe380ff3daf9dbfbf96b3b7e5",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T014",
+      "next-generation-top1-payloads:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 39,
+    "sourceTextSha256": "b5a1841c5d916ecce57524b9ffb1b922694db4b979109abe79a9bcf5d6401353",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 40,
+    "sourceTextSha256": "2cd2f180894487b44c837febc192f1d5558cf5c0be23d7c3a8803b2d06849440",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 41,
+    "sourceTextSha256": "b2516d8629bc66ef45a3fc608007feb5cba713b49990e55e2f43b8405aec3f7e",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T005",
+      "transcription-inhibitor-payloads:T015",
+      "transcription-inhibitor-payloads:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 42,
+    "sourceTextSha256": "e3eaf460be4ce7e84c485a05ecc45422bea0ad4210c5fcdafee2de9732e80eae",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T006",
+      "transcription-inhibitor-payloads:T015",
+      "transcription-inhibitor-payloads:T022",
+      "transcription-inhibitor-payloads:T023"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 43,
+    "sourceTextSha256": "18016cd1de35af7fa0eb67fd1cab868ed5622e8f9030d438070d11e64b6dacbc",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T006",
+      "transcription-inhibitor-payloads:T014",
+      "transcription-inhibitor-payloads:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "73c8438d138342d7e4ab4f7fbec7ea42375b91022f2174af6b8d87f888d718ef",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T010"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "f619b9e880ef2de2936a8984d087a5005d38d176b61254efbe14081f98754cb4",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "b0a8636800f91a66d2e8192c230714c6e0b9fc048c3777bda019c64f5e4c0a61",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T001",
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T024"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 48,
+    "sourceTextSha256": "b0b8bfa7850cb15b82f2cb20bc349db5c327531d3a816db89065d9546da73bbf",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 49,
+    "sourceTextSha256": "37509790cdeeca623141566e5ce3dec302752d939e7f8f9268f52309ff7b0829",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T018"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "00caecb883a96964410c5993e24b719bebe1c32db6792e70b828dd54204cb071",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "0f5fb8e34a29f85d3cf05527a2fcd49cbbcb8376000e8f56b4e453ab74258314",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T001",
+      "alkylating-agents:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "abaa84cb2f478714cb55d105b35d3561c81094d0e0ecf80fe98e214dd8a80a9d",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T006",
+      "alkylating-agents:T009",
+      "alkylating-agents:T013"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 32,
+    "sourceTextSha256": "bec8e9e5dc493ea5f3a4f927e85b89cac647fc55bfb74ea0692e4247986aa6b7",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T006",
+      "alkylating-agents:T009",
+      "alkylating-agents:T010",
+      "alkylating-agents:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 33,
+    "sourceTextSha256": "81445957e20c86ad468a93a2c8f363250dcd08aab0a82c28bf432d3ab8b42b4b",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "08a4c78039a2d9a590df1faeb642c97049efaf6b59bdc66b4900181ddc9d9edf",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "bb363289c20c37d7816561598e905809cce0efbd9bfb028700c280367c5ba07c",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T001",
+      "anthracyclines:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "7c0c26d1bf5e3635aaa3ab31e65ebe0b9edd525f1ec50c11be8dc85aa1e89cab",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation. No epirubicin-specific efficacy, dosing or toxicity is derived from this dictionary link."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "7e4acb0772b8eefb2a0dd23c8edf5d7c29e6b007713001c06ce4586d60b1e038",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T004",
+      "anthracyclines:T005",
+      "anthracyclines:T007"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "f99f9e84e17242cff106d064753b5a883e42f92f29de429680852ea502d16abd",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T001",
+      "anthracyclines:T004",
+      "anthracyclines:T011",
+      "anthracyclines:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "5d904c03a19018c479ddcf62c39efb6a820b8c99a56a58965044bcf2a2ea62f5",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "a711adedaab1055c2f1a1ce0597e123c89fdb6a2ea0387f16e7ae72b358fc256",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T001",
+      "capecitabine-and-fluoropyrimidines:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "8e3383e915b0a78e776c6c29e618f8c96ca436a6beafd63be3cf4308c1e11978",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T004",
+      "capecitabine-and-fluoropyrimidines:T005",
+      "capecitabine-and-fluoropyrimidines:T006",
+      "capecitabine-and-fluoropyrimidines:T007",
+      "capecitabine-and-fluoropyrimidines:T008",
+      "capecitabine-and-fluoropyrimidines:T014",
+      "capecitabine-and-fluoropyrimidines:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "81ffecad82e0451168fc95e640d66bf68d104ca5694413cd5698a13942c0cd65",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T006",
+      "capecitabine-and-fluoropyrimidines:T007",
+      "capecitabine-and-fluoropyrimidines:T008",
+      "capecitabine-and-fluoropyrimidines:T014",
+      "capecitabine-and-fluoropyrimidines:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "5b87373820f5e7bdad0d73b8179dff7bb9fce8578bc5455670cbe7f79821d8d2",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T010",
+      "capecitabine-and-fluoropyrimidines:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "9bcb6620f502ff05f1257694ffa1002a5bbd78b060a0c470ac38eac57331f491",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "8a182ca14ef84c619436cda4ac550ca2b519b1cb0b74acd422358f2af5048f2d",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T001",
+      "chemotherapy:T014",
+      "chemotherapy:T019",
+      "chemotherapy:T029",
+      "chemotherapy:T030"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "51590c7f7acdcda086e96f8f729c0d5707eef1126e7cf458d5e8d52a116b136f",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T007"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "1b9c6f838837e38138c9e5a01fdc83c1bcd6268a0c84dba7ee589631aeef6375",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T005",
+      "chemotherapy:T013",
+      "chemotherapy:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 48,
+    "sourceTextSha256": "f6b03fedac7459dea6359b74ce72717e6a97ca16d6ce24c1ba2adee3ac2c3302",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T009",
+      "chemotherapy:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "b0974a3935c879a2394f9cc1e25d5905b879c7e7b20a19b0d2b103651e543c13",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "88ae9a85206bb719a4c2eda21d326209967034acee29e18add124f4e4478e472",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T001",
+      "dose-dense-scheduling:T004",
+      "dose-dense-scheduling:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "8ae68c3e584756c7438306407a9e1b69cbb3520f1745073f4fef9946714199ea",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T007",
+      "dose-dense-scheduling:T009"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "c7176b77225e7f7a0a71c0ed75d6d28e1839e020f3350a183d76afffdbf799b9",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T009"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "02a4a0b70ed625e908fbac00bd3d96c5d83c7771fc33e4505ef8fc2933ceef46",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T010",
+      "dose-dense-scheduling:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "438c226c1ab2f4c52ab638d6ba28c8e4fe75326d516055c7af5ce18f2ecd95e8",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "c9eb6a246a8d74c5ce7dedd13d9c1bbf641da14a5e7e6247ee3b78796d1190e1",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T001",
+      "platinum-agents:T004",
+      "platinum-agents:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "4fcce8f922162142c400ca2a643ced3e4e5d8e32ce09683657439ba5d8db7c02",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T001",
+      "platinum-agents:T004",
+      "platinum-agents:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "cb1317039868135c8f96a30ddd8591806e9810984c44b70c96a0864407f616e5",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T005",
+      "platinum-agents:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "d1913c55e5b2d6b695924490b51668cd367e1418e5bb47737c55a54610d0e66b",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T012",
+      "platinum-agents:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "e8be26c9da81d4e636b4fb703f2ceb9c2515e7201bda69ef1c144b84cc0ab732",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "d9b10505944cf35fed7646b9c340aaa5e70dc074a64f2e4e9e86198d669debe5",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T004",
+      "taxanes:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "fbed158fc63a0b7c8e1d29a384e9d274e58c760c1c3a20915b841b82153294db",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T004",
+      "taxanes:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "0e6f45595c59ea4f32f6108bebffaddfcd05063e7b2ee24f2cc73be07f9ff460",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation. Schiff has no accessible abstract in this check; the adopted mechanism instead uses the named product labels."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "042fb74d59f8dee3260fee9e3897245d925d71b9fabe5642ff2d81f80c28efec",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 32,
+    "sourceTextSha256": "257312e2bc80b11e0fadd90bfa7f9a80bb6a83115d6649b61a7c0905bb475218",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T006",
+      "taxanes:T007",
+      "taxanes:T012",
+      "taxanes:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 24,
+    "sourceTextSha256": "76e6dbb838ceff86cb16dd6d64118ffdefb0406fea6def2e4be01ac56a2727d3",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 25,
+    "sourceTextSha256": "5347fb0aa882ad0ad4aecee3fb977f81782204aae64c7cee5875f9af441b1520",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T001",
+      "topoisomerase-i-inhibitors:T003",
+      "topoisomerase-i-inhibitors:T004",
+      "topoisomerase-i-inhibitors:T005",
+      "topoisomerase-i-inhibitors:T008",
+      "topoisomerase-i-inhibitors:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "9d559dc76ed2ea076c282b7ffc6f7c04ae561a5c0ceccb63d179d2e2c4d6e7f1",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T004",
+      "topoisomerase-i-inhibitors:T013",
+      "topoisomerase-i-inhibitors:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "7f3eca506d5ac6a3153fa796808e5e47582021891252f179cad91c192fb777ef",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T006",
+      "topoisomerase-i-inhibitors:T010"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "c5b676622e913be848018cd5d8028fde317a338107e850d3d3fb54876939fb26",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "be603e6fcabb3f16c553a8ca83aef55cb154845f632375fa715b242aaf524f79",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "21f4036929a42ed8f04c78c9f3ffede270fe25421197275c525f3ce5b45aef61",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "later",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "947f181db6907ae455dcadbd4183b4cbfda38af74109bb4abbd1fb3c1be82020",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 40,
+    "sourceTextSha256": "372a02b64741a343ed87e46d67eba64bd588596fdaa9826f0a4c980d1d2e74b2",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 41,
+    "sourceTextSha256": "2ee90ebaa48c4dbadcb952851a79c79e68b5de6878cf30991edc9074b475867e",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 43,
+    "sourceTextSha256": "5756c18d1a4188e685f24ac2773d66025f700de19b3672783775e9579ecacfcf",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T008",
+      "immune-stimulating-adc:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "eb5d9519a466322ec00c00eabe733c1ebe8d74ca6896569dd08fff727ba4f80b",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T010",
+      "immune-stimulating-adc:T013",
+      "immune-stimulating-adc:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "8c55d04e113b62a4c310f3822aa820576f2589315c956045febeecb2d9b8d594",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T012",
+      "immune-stimulating-adc:T017"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "c8549aac483fe5b00b976297fede9077b9d8609b26df0b941fc78eecd2dcf919",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T003",
+      "immune-stimulating-adc:T013"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "de87311fb4d1a4c3bf85942435875766e8de3b0fe3cbed910ece035cf081e6a3",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T011",
+      "immune-stimulating-adc:T014",
+      "immune-stimulating-adc:T023",
+      "immune-stimulating-adc:T024"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+    "sourceUnit": 48,
+    "sourceTextSha256": "f26ea9cc4090660a280ac0e5ce1a14f9142e07ddfabc4723a80e282d69cc8c42",
+    "linkedLaterInstructionalPoints": [
+      "immune-stimulating-adc:T019"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "fd2228d096b7e32bd57c30147702bf08464c3ffeb78dae4738dcb6d02c5abca5",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "35cb982254d899ea868836b202018d74cf65f3a9d8a581c30f091a72c5c3fe32",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T003"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 49,
+    "sourceTextSha256": "5a06f3c1d62b1030d39709d64bdd3bda74dfaaeff82b0d02b345fb64d83f857c",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T022"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 50,
+    "sourceTextSha256": "44125e78c64ad6cf81f16cc52fd5538668c0231b7b939e39e5ce44162213f97c",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 51,
+    "sourceTextSha256": "652d294d705dc56bebb9809e086920e24dddf850f402cc70367077cd8621fcfa",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T006",
+      "next-generation-top1-payloads:T012",
+      "next-generation-top1-payloads:T025"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 53,
+    "sourceTextSha256": "ec3b3e204b4043a1989a162e59b415da8b72547dceaa8ef1424064a625b3ea47",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T009",
+      "next-generation-top1-payloads:T015",
+      "next-generation-top1-payloads:T019",
+      "next-generation-top1-payloads:T020"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 54,
+    "sourceTextSha256": "08321059c3959df6fedab969b3047196513ceb3c04a28be838e5ea4fbc62ecae",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T007",
+      "next-generation-top1-payloads:T023"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 55,
+    "sourceTextSha256": "28b168852bdbd46582eeb9e16136bda3a58c2c3536429ba5c613c9a202930020",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T008",
+      "next-generation-top1-payloads:T019",
+      "next-generation-top1-payloads:T025"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+    "sourceUnit": 56,
+    "sourceTextSha256": "7f619f0f27e3d0f1405af07af52dc70e3c6c67bfe380ff3daf9dbfbf96b3b7e5",
+    "linkedLaterInstructionalPoints": [
+      "next-generation-top1-payloads:T014",
+      "next-generation-top1-payloads:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 40,
+    "sourceTextSha256": "6ebd9abc6311261d4a824a977d99378c2d3b2fb78e27d9f1282aa7b1dff0959a",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 41,
+    "sourceTextSha256": "2cd2f180894487b44c837febc192f1d5558cf5c0be23d7c3a8803b2d06849440",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 42,
+    "sourceTextSha256": "c354a27fa8b926be26fc030a048112b8e92b1067510e87e8c128e9295d690af8",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T005",
+      "transcription-inhibitor-payloads:T015",
+      "transcription-inhibitor-payloads:T021"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 43,
+    "sourceTextSha256": "00c07bbffa942c6f93f63e48084b25b915de95930243ae239420eb5128925fbc",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T006",
+      "transcription-inhibitor-payloads:T015",
+      "transcription-inhibitor-payloads:T022",
+      "transcription-inhibitor-payloads:T023"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "81d8e43ae84872225aa1992b2705e0570d24c2731e444087903901a77d1993ad",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T006",
+      "transcription-inhibitor-payloads:T014",
+      "transcription-inhibitor-payloads:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "104b6a128c96dc3221bdad047544c737d536e96f4abe1c5009a61d76f3b7c62f",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T010"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "45dc8098158eaae373438d25271fa16ae55b79ef24ddf5bbe802f76716325575",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "89746b80995fec7e7be1c0d93296195fde63977e85f1702263064cf958a18fe3",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T001",
+      "transcription-inhibitor-payloads:T008",
+      "transcription-inhibitor-payloads:T024"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 49,
+    "sourceTextSha256": "e1ec719f3223063c02537ffb4867d0babf217c99fca9f86dc4d7647990da9ee7",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 50,
+    "sourceTextSha256": "5ff22b591ab2c1f6d2c371dc8cbbb24efe7110ef54b7d5e539e3e69125be9a58",
+    "linkedLaterInstructionalPoints": [
+      "transcription-inhibitor-payloads:T018"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+    "sourceUnit": 51,
+    "sourceTextSha256": "64b907c5ef85f563f37ac8be82f3b16a5da5ee922bcdc48face0beda61e75215",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "00caecb883a96964410c5993e24b719bebe1c32db6792e70b828dd54204cb071",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "0f5fb8e34a29f85d3cf05527a2fcd49cbbcb8376000e8f56b4e453ab74258314",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T001",
+      "alkylating-agents:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "abaa84cb2f478714cb55d105b35d3561c81094d0e0ecf80fe98e214dd8a80a9d",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T006",
+      "alkylating-agents:T009",
+      "alkylating-agents:T013"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "bec8e9e5dc493ea5f3a4f927e85b89cac647fc55bfb74ea0692e4247986aa6b7",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T006",
+      "alkylating-agents:T009",
+      "alkylating-agents:T010",
+      "alkylating-agents:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+    "sourceUnit": 32,
+    "sourceTextSha256": "81445957e20c86ad468a93a2c8f363250dcd08aab0a82c28bf432d3ab8b42b4b",
+    "linkedLaterInstructionalPoints": [
+      "alkylating-agents:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "08a4c78039a2d9a590df1faeb642c97049efaf6b59bdc66b4900181ddc9d9edf",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "bb363289c20c37d7816561598e905809cce0efbd9bfb028700c280367c5ba07c",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T001",
+      "anthracyclines:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "7c0c26d1bf5e3635aaa3ab31e65ebe0b9edd525f1ec50c11be8dc85aa1e89cab",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation. No epirubicin-specific efficacy, dosing or toxicity is derived from this dictionary link."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "7e4acb0772b8eefb2a0dd23c8edf5d7c29e6b007713001c06ce4586d60b1e038",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T004",
+      "anthracyclines:T005",
+      "anthracyclines:T007"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/anthracyclines.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "f99f9e84e17242cff106d064753b5a883e42f92f29de429680852ea502d16abd",
+    "linkedLaterInstructionalPoints": [
+      "anthracyclines:T001",
+      "anthracyclines:T004",
+      "anthracyclines:T011",
+      "anthracyclines:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "5d904c03a19018c479ddcf62c39efb6a820b8c99a56a58965044bcf2a2ea62f5",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "a711adedaab1055c2f1a1ce0597e123c89fdb6a2ea0387f16e7ae72b358fc256",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T001",
+      "capecitabine-and-fluoropyrimidines:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "8e3383e915b0a78e776c6c29e618f8c96ca436a6beafd63be3cf4308c1e11978",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T004",
+      "capecitabine-and-fluoropyrimidines:T005",
+      "capecitabine-and-fluoropyrimidines:T006",
+      "capecitabine-and-fluoropyrimidines:T007",
+      "capecitabine-and-fluoropyrimidines:T008",
+      "capecitabine-and-fluoropyrimidines:T014",
+      "capecitabine-and-fluoropyrimidines:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "81ffecad82e0451168fc95e640d66bf68d104ca5694413cd5698a13942c0cd65",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T006",
+      "capecitabine-and-fluoropyrimidines:T007",
+      "capecitabine-and-fluoropyrimidines:T008",
+      "capecitabine-and-fluoropyrimidines:T014",
+      "capecitabine-and-fluoropyrimidines:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/capecitabine-and-fluoropyrimidines.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "5b87373820f5e7bdad0d73b8179dff7bb9fce8578bc5455670cbe7f79821d8d2",
+    "linkedLaterInstructionalPoints": [
+      "capecitabine-and-fluoropyrimidines:T010",
+      "capecitabine-and-fluoropyrimidines:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 44,
+    "sourceTextSha256": "9bcb6620f502ff05f1257694ffa1002a5bbd78b060a0c470ac38eac57331f491",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 45,
+    "sourceTextSha256": "8a182ca14ef84c619436cda4ac550ca2b519b1cb0b74acd422358f2af5048f2d",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T001",
+      "chemotherapy:T014",
+      "chemotherapy:T019",
+      "chemotherapy:T029",
+      "chemotherapy:T030"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 46,
+    "sourceTextSha256": "51590c7f7acdcda086e96f8f729c0d5707eef1126e7cf458d5e8d52a116b136f",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T007"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 47,
+    "sourceTextSha256": "1b9c6f838837e38138c9e5a01fdc83c1bcd6268a0c84dba7ee589631aeef6375",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T005",
+      "chemotherapy:T013",
+      "chemotherapy:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/chemotherapy.md",
+    "sourceUnit": 48,
+    "sourceTextSha256": "f6b03fedac7459dea6359b74ce72717e6a97ca16d6ce24c1ba2adee3ac2c3302",
+    "linkedLaterInstructionalPoints": [
+      "chemotherapy:T009",
+      "chemotherapy:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "b0974a3935c879a2394f9cc1e25d5905b879c7e7b20a19b0d2b103651e543c13",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "88ae9a85206bb719a4c2eda21d326209967034acee29e18add124f4e4478e472",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T001",
+      "dose-dense-scheduling:T004",
+      "dose-dense-scheduling:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "8ae68c3e584756c7438306407a9e1b69cbb3520f1745073f4fef9946714199ea",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T007",
+      "dose-dense-scheduling:T009"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "c7176b77225e7f7a0a71c0ed75d6d28e1839e020f3350a183d76afffdbf799b9",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T009"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "02a4a0b70ed625e908fbac00bd3d96c5d83c7771fc33e4505ef8fc2933ceef46",
+    "linkedLaterInstructionalPoints": [
+      "dose-dense-scheduling:T010",
+      "dose-dense-scheduling:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "438c226c1ab2f4c52ab638d6ba28c8e4fe75326d516055c7af5ce18f2ecd95e8",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "c9eb6a246a8d74c5ce7dedd13d9c1bbf641da14a5e7e6247ee3b78796d1190e1",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T001",
+      "platinum-agents:T004",
+      "platinum-agents:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "4fcce8f922162142c400ca2a643ced3e4e5d8e32ce09683657439ba5d8db7c02",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T001",
+      "platinum-agents:T004",
+      "platinum-agents:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "cb1317039868135c8f96a30ddd8591806e9810984c44b70c96a0864407f616e5",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T005",
+      "platinum-agents:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "d1913c55e5b2d6b695924490b51668cd367e1418e5bb47737c55a54610d0e66b",
+    "linkedLaterInstructionalPoints": [
+      "platinum-agents:T012",
+      "platinum-agents:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "e8be26c9da81d4e636b4fb703f2ceb9c2515e7201bda69ef1c144b84cc0ab732",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "d9b10505944cf35fed7646b9c340aaa5e70dc074a64f2e4e9e86198d669debe5",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T004",
+      "taxanes:T005"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "fbed158fc63a0b7c8e1d29a384e9d274e58c760c1c3a20915b841b82153294db",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T004",
+      "taxanes:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "0e6f45595c59ea4f32f6108bebffaddfcd05063e7b2ee24f2cc73be07f9ff460",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T004"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation. Schiff has no accessible abstract in this check; the adopted mechanism instead uses the named product labels."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "042fb74d59f8dee3260fee9e3897245d925d71b9fabe5642ff2d81f80c28efec",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T016"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/taxanes.md",
+    "sourceUnit": 32,
+    "sourceTextSha256": "257312e2bc80b11e0fadd90bfa7f9a80bb6a83115d6649b61a7c0905bb475218",
+    "linkedLaterInstructionalPoints": [
+      "taxanes:T001",
+      "taxanes:T006",
+      "taxanes:T007",
+      "taxanes:T012",
+      "taxanes:T014"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 24,
+    "sourceTextSha256": "76e6dbb838ceff86cb16dd6d64118ffdefb0406fea6def2e4be01ac56a2727d3",
+    "linkedLaterInstructionalPoints": [],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Reading date, evidence tier, review status or selected-evidence boundary. These are metadata; worldwide absence claims are not adopted and public source cards retain actual reading depth."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 25,
+    "sourceTextSha256": "5347fb0aa882ad0ad4aecee3fb977f81782204aae64c7cee5875f9af441b1520",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T001",
+      "topoisomerase-i-inhibitors:T003",
+      "topoisomerase-i-inhibitors:T004",
+      "topoisomerase-i-inhibitors:T005",
+      "topoisomerase-i-inhibitors:T008",
+      "topoisomerase-i-inhibitors:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 26,
+    "sourceTextSha256": "9d559dc76ed2ea076c282b7ffc6f7c04ae561a5c0ceccb63d179d2e2c4d6e7f1",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T004",
+      "topoisomerase-i-inhibitors:T013",
+      "topoisomerase-i-inhibitors:T015"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 27,
+    "sourceTextSha256": "7f3eca506d5ac6a3153fa796808e5e47582021891252f179cad91c192fb777ef",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T006",
+      "topoisomerase-i-inhibitors:T010"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 28,
+    "sourceTextSha256": "c5b676622e913be848018cd5d8028fde317a338107e850d3d3fb54876939fb26",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T011"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 29,
+    "sourceTextSha256": "be603e6fcabb3f16c553a8ca83aef55cb154845f632375fa715b242aaf524f79",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 30,
+    "sourceTextSha256": "21f4036929a42ed8f04c78c9f3ffede270fe25421197275c525f3ce5b45aef61",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T006"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  },
+  {
+    "version": "original",
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/topoisomerase-i-inhibitors.md",
+    "sourceUnit": 31,
+    "sourceTextSha256": "947f181db6907ae455dcadbd4183b4cbfda38af74109bb4abbd1fb3c1be82020",
+    "linkedLaterInstructionalPoints": [
+      "topoisomerase-i-inhibitors:T012"
+    ],
+    "role": "source-metadata",
+    "credit": 0,
+    "disposition": "Duplicate scientific qualifier: represented or explicitly corrected in the linked instructional points; no additional teaching credit for the citation."
+  }
+]

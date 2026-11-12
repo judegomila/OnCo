@@ -1,0 +1,1444 @@
+{
+  "entries": 126,
+  "available": 27,
+  "missingEnglishFallbacks": 99,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 112,
+    "rows": [
+      {
+        "id": "anergy",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "anergy",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "costimulation",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "regulatory-t-cells",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-receptor",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-states",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pd1-checkpoint",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd28",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "foxp3",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd4",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cd8",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ]
+  },
+  "namedReviewEntries": 0,
+  "scope": "Actual lazy-loaded tables and summary-cache selectors; selected-text SSR, not browser hydration or fluent-language sign-off.",
+  "rows": [
+    {
+      "id": "anergy-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "anergy-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "54598cb42911117732fd7a191fd3e77ff357d311aaa487514b81b627ed4bbad0"
+    },
+    {
+      "id": "costimulation-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "costimulation-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "859ed0d3500b9ace874314233a116bcfcccf9325e171580661d8f9040d508077"
+    },
+    {
+      "id": "regulatory-t-cells-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "regulatory-t-cells-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "aebdfd4c5293ae2afaed42d11261590b885f6f1d5ede04d250836f2ba7afb7f2"
+    },
+    {
+      "id": "t-cell-priming-three-signals-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-priming-three-signals-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "22ce5cfd4943988f987b5d90ec31a9043f23b2069a2b9eec0802c85ad90fc2a0"
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "02501d54095a3f1ce50b0e3d0c9abb7cc09e1beb8c00347c2d7c60c62aaf3b74"
+    },
+    {
+      "id": "t-cell-states-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "t-cell-states-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "635703fe199eeec65e71f21ccd06ad7a3baed3372c57a1763c8db999750f5286"
+    },
+    {
+      "id": "thymic-output-and-aging-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "thymic-output-and-aging-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "2d5b62cb1a31263b6b9355f8252364bf6aaefb3968a21e6c72a8a9a7a489ce20"
+    },
+    {
+      "id": "pd1-checkpoint-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "e4360db354698fb50f739804e64a0530fab2f4c8d212dbe7d19719e13e499f04"
+    },
+    {
+      "id": "pd1-checkpoint-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "b86907ff24c170b1caba6a7068a176098570650e154ed1cb0e626ba38f4043a8"
+    },
+    {
+      "id": "pd1-checkpoint-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "2f5e440754d03ba69a5ac96c236894708ae7400f4c2c57972e6b2ced70c4a77d"
+    },
+    {
+      "id": "pd1-checkpoint-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "9c8af5d85af29469eb65122577a1229c3aca85ba993930b662eab665bcd4163e"
+    },
+    {
+      "id": "pd1-checkpoint-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "fe59129463e28047540bf79f05e3e44f0faa03c5fa6ae195e29f26a3972aaeaf"
+    },
+    {
+      "id": "pd1-checkpoint-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "b0b9083f0b482b1e5cc0467f73ff6fb8bef19716407277be2e29f34a41975c83"
+    },
+    {
+      "id": "pd1-checkpoint-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "3f4d71046cf8f17940013d16f4d10f48d0054a9b0fce4a578ed0c6d26cf23f4a"
+    },
+    {
+      "id": "pd1-checkpoint-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "3a7c5524c7c924deb3c16a980541e832dde696b06a21adcafa3a2a94cb224532"
+    },
+    {
+      "id": "pd1-checkpoint-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "4fc7b033059f403494983a422c757cd99310f84c64d15e1671ba410f5348838b"
+    },
+    {
+      "id": "t-cell-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "a1cbc157cd187a32d2d31fdaacc2d037f08d522f9e87c064724f844dd8c7e788"
+    },
+    {
+      "id": "t-cell-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "a47d9832be292b4cfaaa72ab7af371d74c54fc66a4944af5ab06a9a3a2bc3477"
+    },
+    {
+      "id": "t-cell-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "98f9e8fdca03bdadf098420e23eefc0bfe2589cc8049fbc4c97a4b81ae11d7cf"
+    },
+    {
+      "id": "t-cell-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "e51931f55aa39087cbd75011afc39cc66a58158e6c01b5ee80e5e7154c6381cd"
+    },
+    {
+      "id": "t-cell-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "1740b85291f015deaaefa000536d21cc1a1aca4c08d223d269a8ffdd383013e1"
+    },
+    {
+      "id": "t-cell-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "85c4b0cef2a1bda787673dd6a90364e0ba6ac45e537de52dd99653f12ba04283"
+    },
+    {
+      "id": "t-cell-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "c73250873b45321204f87a90e3faf72139b4bef600c3275f415195c190718dec"
+    },
+    {
+      "id": "t-cell-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "562a96ce1dff69e0b42f21813fcf21e28b26a5660f09b46e1a66d9f828dc3330"
+    },
+    {
+      "id": "t-cell-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "c1f15f0d7a87bfe50342c1c5dc848d7842c5ac0baf20b99e5864dead45dadf7a"
+    },
+    {
+      "id": "t-cell-exhaustion-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "4a4021f60182224bdb6e37d677214a5b3689f67e84af011455f46e520facc7c5"
+    },
+    {
+      "id": "t-cell-exhaustion-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "a26d78a7688d3beebabe03e905f4bf5d199fd48bb3dee6e3ff1e13d75f295ac3"
+    },
+    {
+      "id": "t-cell-exhaustion-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "ae5f7ef60c4e4ab1a011fd8ed6c54a0830bec038c47e13dc7b116edeabb9b622"
+    },
+    {
+      "id": "t-cell-exhaustion-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "406ffc6dc09bdd6c7c25aae1a235668e78f13fd461366bbf46bad4cd69568636"
+    },
+    {
+      "id": "t-cell-exhaustion-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "a7a45184dd7b2ff2a2264178f00539943d6064cde13f04ed94a08e202e6cf66b"
+    },
+    {
+      "id": "t-cell-exhaustion-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "c6dff5f18b941207c3d42f332db6471500ac7a34620509787786624bdaabe093"
+    },
+    {
+      "id": "t-cell-exhaustion-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "ae2f2e0d907003597880636a5d385429f086df45c54d032a513af97ffde33af8"
+    },
+    {
+      "id": "t-cell-exhaustion-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "2fb4af04f59a785c6adffb8428007972f2b6cf7188699aed642e6355cc13a903"
+    },
+    {
+      "id": "t-cell-exhaustion-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "e0f5fb2cf6a1c1deb7bf4a46c27eefc5fe6d4033c4602955db6fc17e6b0c336a"
+    },
+    {
+      "id": "cd28-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "cd28-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "d9ba47f15cecf765f7977f75af08bdc2aaf6b15ed659962be7b090c383a4699f"
+    },
+    {
+      "id": "foxp3-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "foxp3-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "23ccdb3342214272619719e70758ed4602736a253d375b3571cde865a389838f"
+    },
+    {
+      "id": "cd4-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd4-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "13ad107d21c76d9c98bbd9717eeb591a5dd091b13881ec8fd5aceef67b1e1c3d"
+    },
+    {
+      "id": "cd8-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    },
+    {
+      "id": "cd8-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "62021adb71c515cb611a557cae983e93f6bbe90bed52908a99e949c2c6666814"
+    }
+  ]
+}

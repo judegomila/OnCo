@@ -1,0 +1,2179 @@
+{
+  "publications": [
+    {
+      "id": "pmid-18264087",
+      "aliases": [],
+      "pmid": "18264087",
+      "pmcid": "PMC2577037",
+      "doi": "10.1038/nature06633",
+      "title": "Secondary mutations as a mechanism of cisplatin resistance in BRCA2-mutated cancers.",
+      "authors": "Sakai W, Swisher EM, Karlan BY, Agarwal MK, Higgins J, Friedman C, Villegas E, Jacquemont C, Farrugia DJ, Couch FJ, Urban N, Taniguchi T.",
+      "year": "2008",
+      "firstPublicationDate": "2008-02-10",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/18264087/",
+      "rawCoreSha256": "b0a64e6983a68b3c712a7cd72bd98835b75bbb461a7d17f2d278dd4a73ab9cbd",
+      "rawCrossrefSha256": "7124036933e2b7b3d48dab64cb99b33dcda213bbde6d9bbbb1c0d1617690a333",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2008,
+              2,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              2
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "43f623b83335d460ebb7f224f59636357cee722ab61b9e38fe77019c85f8cb02",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "18305536",
+            "reference": "Nature. 2008 Feb 28;451(7182):1066-7. doi: 10.1038/4511066a.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-18264088",
+      "aliases": [],
+      "pmid": "18264088",
+      "pmcid": null,
+      "doi": "10.1038/nature06548",
+      "title": "Resistance to therapy caused by intragenic deletion in BRCA2.",
+      "authors": "Edwards SL, Brough R, Lord CJ, Natrajan R, Vatcheva R, Levine DA, Boyd J, Reis-Filho JS, Ashworth A.",
+      "year": "2008",
+      "firstPublicationDate": "2008-02-10",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/18264088/",
+      "rawCoreSha256": "8508d5c70018477548597777d2c59698ee817db8a21f6b0b8aa50f56140bbfdd",
+      "rawCrossrefSha256": "9a71a211946ebc56285ff636073e98c9d31f8743b7352b4914d6cc8bf3774c7a",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2008,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2008,
+              2,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              2
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "044f994760f9052a9e6dc47dd8a736ba7d5be0e78c7f8ca57a0b5a993d5a7aa1",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "18305536",
+            "reference": "Nature. 2008 Feb 28;451(7182):1066-7. doi: 10.1038/4511066a.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-33091561",
+      "aliases": [],
+      "pmid": "33091561",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2020.10.470",
+      "title": "A meta-analysis of reversion mutations in BRCA genes identifies signatures of DNA end-joining repair mechanisms driving therapy resistance.",
+      "authors": "Tobalina L, Armenia J, Irving E, O'Connor MJ, Forment JV.",
+      "year": "2021",
+      "firstPublicationDate": "2020-10-19",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/33091561/",
+      "rawCoreSha256": "7ba6dd518b8e754d875443ca9f10e8fcef21712172b0dc1c392b93f90a968888",
+      "rawCrossrefSha256": "e4bc2b71f358eee83a7cc8a68ea171a4affa61c25ba4e77e064a34fb4d1433fd",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "a1020691a628b7848dd8eb23f3b24a6d7831fc7d5f5051858b220c432061070b",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR191236",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-32699032",
+      "aliases": [],
+      "pmid": "32699032",
+      "pmcid": "PMC7611203",
+      "doi": "10.1158/2159-8290.cd-19-1485",
+      "title": "Clinical BRCA1/2 Reversion Analysis Identifies Hotspot Mutations and Predicted Neoantigens Associated with Therapy Resistance.",
+      "authors": "Pettitt SJ, Frankum JR, Punta M, Lise S, Alexander J, Chen Y, Yap TA, Haider S, Tutt ANJ, Lord CJ.",
+      "year": "2020",
+      "firstPublicationDate": "2020-07-22",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/32699032/",
+      "rawCoreSha256": "b4bbb727a7d6fa42e6be01969996070477df70e87c398daa2fbd4b74d878c384",
+      "rawCrossrefSha256": "d5fe6b9df1cf38873c84cffbfb3d7f74f3d25456cc04e203945e916ddb6af570",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "02ec909ef16231c2d877acfa7c73c25a0331829cb9c59f113a49e958d391adfd",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-32699032-efetch.xml",
+          "ordinal": 15,
+          "normalisedParagraphSha256": "bec6a27fbcd93ee1ee2946660b4250de5153e98d2fc73243229f0c4095306e85",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32699032-efetch.xml",
+          "ordinal": 16,
+          "normalisedParagraphSha256": "e00faac2c0fd9c1c47c7d427ffc880dd230c51b9b2a9f84eb1e541ea0da838a3",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32699032-efetch.xml",
+          "ordinal": 17,
+          "normalisedParagraphSha256": "0a9fb29f88d2ca9ce16fa921a23845b3c241064b04dd6cb70b80f012c82e44f7",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32699032-efetch.xml",
+          "ordinal": 25,
+          "normalisedParagraphSha256": "8601d1e2fd0c139a85875410488da91d7179be3e1f0b55b806c2109293c86157",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32699032-efetch.xml",
+          "ordinal": 33,
+          "normalisedParagraphSha256": "ce7ee2fd027d4a6b12ed89f458c7b8eadea22dc6552b462e9ef7ca34f357d709",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-30425037",
+      "aliases": [],
+      "pmid": "30425037",
+      "pmcid": null,
+      "doi": "10.1158/2159-8290.cd-18-0715",
+      "title": "BRCA Reversion Mutations in Circulating Tumor DNA Predict Primary and Acquired Resistance to the PARP Inhibitor Rucaparib in High-Grade Ovarian Carcinoma.",
+      "authors": "Lin KK, Harrell MI, Oza AM, Oaknin A, Ray-Coquard I, Tinker AV, Helman E, Radke MR, Say C, Vo LT, Mann E, Isaacson JD, Maloney L, O'Malley DM, Chambers SK, Kaufmann SH, Scott CL, Konecny GE, Coleman RL, Sun JX, Giordano H, Brenton JD, Harding TC, McNeish IA, Swisher EM.",
+      "year": "2019",
+      "firstPublicationDate": "2018-11-13",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30425037/",
+      "rawCoreSha256": "9b243801d42efb5c4734937a1a44379c46bfa06369b4a41e239478f65b8e2534",
+      "rawCrossrefSha256": "b140b7a6d7d8c6828cf8ca8ee3254f4f83359ae38c0cf38e9e22d147b2b45508",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "d4cf5377bfc88326a356e3c4c63b5ee9bd04f9a6753341348dd96bb54851ec1a",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-28765325",
+      "aliases": [],
+      "pmid": "28765325",
+      "pmcid": "PMC5728372",
+      "doi": "10.1158/1078-0432.ccr-17-0544",
+      "title": "Diverse BRCA1 and BRCA2 Reversion Mutations in Circulating Cell-Free DNA of Therapy-Resistant Breast or Ovarian Cancer.",
+      "authors": "Weigelt B, Comino-Méndez I, de Bruijn I, Tian L, Meisel JL, García-Murillas I, Fribbens C, Cutts R, Martelotto LG, Ng CKY, Lim RS, Selenica P, Piscuoglio S, Aghajanian C, Norton L, Murali R, Hyman DM, Borsu L, Arcila ME, Konner J, Reis-Filho JS, Greenberg RA, Robson ME, Turner NC.",
+      "year": "2017",
+      "firstPublicationDate": "2017-08-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28765325/",
+      "rawCoreSha256": "5633ae7921af60af6b2e6f8f91fc0dc6f294e1dbb1ae9eb0936fc27d18b9082d",
+      "rawCrossrefSha256": "85433726919fb64bdbe554b3451c9934c5b570ae00d6a244a390a308b2032021",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "e149c3d002f547c2dc96b5758c438329016aac562b2d36d6e18ac9dca952e749",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-32245699",
+      "aliases": [],
+      "pmid": "32245699",
+      "pmcid": "PMC7946408",
+      "doi": "10.1016/j.annonc.2020.02.008",
+      "title": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer.",
+      "authors": "Waks AG, Cohen O, Kochupurakkal B, Kim D, Dunn CE, Buendia Buendia J, Wander S, Helvie K, Lloyd MR, Marini L, Hughes ME, Freeman SS, Ivy SP, Geradts J, Isakoff S, LoRusso P, Adalsteinsson VA, Tolaney SM, Matulonis U, Krop IE, D'Andrea AD, Winer EP, Lin NU, Shapiro GI, Wagle N.",
+      "year": "2020",
+      "firstPublicationDate": "2020-02-20",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/32245699/",
+      "rawCoreSha256": "18967ef6234aa3a25966fb3877cd486af72a2c4cb007c82c173d5e362803ee17",
+      "rawCrossrefSha256": "206a79439fff0ddb292b59c1a6c9a0b5b209a35f7fbe1536607d76ecebef5394",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              5
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "0bdf145b242daa84c8f5ca0ed3d3e0ad634034742acace154efec60931f53a58",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-32245699-efetch.xml",
+          "ordinal": 6,
+          "normalisedParagraphSha256": "ae27e7fb9193763c82aa6acf36788a66bdf03672b1a715c3e54062928d3a8f95",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32245699-efetch.xml",
+          "ordinal": 8,
+          "normalisedParagraphSha256": "3fe3a1af1ba27b15d14178da3aad100ad69a688a57b2535eb032967996ebf59f",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32245699-efetch.xml",
+          "ordinal": 11,
+          "normalisedParagraphSha256": "4ce69ff759f545b2360774bb54c062785d18ce8265d1df333d34d1c653b7e381",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32245699-efetch.xml",
+          "ordinal": 12,
+          "normalisedParagraphSha256": "3def195ddcbdddb39c81b2d38fff9296eea2ac855c5793965bdc323b55af11d0",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-32245699-efetch.xml",
+          "ordinal": 15,
+          "normalisedParagraphSha256": "8d5fc20e9e2f546328a620cb3ff26af2909153b0a4b4c43ffb1182c13c6ab7b9",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR101694",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-39103848",
+      "aliases": [],
+      "pmid": "39103848",
+      "pmcid": "PMC11299415",
+      "doi": "10.1186/s12943-024-02048-1",
+      "title": "BRCA1 secondary splice-site mutations drive exon-skipping and PARP inhibitor resistance.",
+      "authors": "Nesic K, Krais JJ, Wang Y, Vandenberg CJ, Patel P, Cai KQ, Kwan T, Lieschke E, Ho GY, Barker HE, Bedo J, Casadei S, Farrell A, Radke M, Shield-Artin K, Penington JS, Geissler F, Kyran E, Betsch R, Xu L, Zhang F, Dobrovic A, Olesen I, Kristeleit R, Oza A, McNeish I, Ratnayake G, Traficante N, Australian Ovarian Cancer Study, DeFazio A, Bowtell DDL, Harding TC, Lin K, Swisher EM, Kondrashova O, Scott CL, Johnson N, Wakefield MJ.",
+      "year": "2024",
+      "firstPublicationDate": "2024-08-05",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/39103848/",
+      "rawCoreSha256": "c1c7518c636964f6c51337fe09bbae0ead623aba9d9375c1639bb0f0478de431",
+      "rawCrossrefSha256": "37081d4d3f4307363cac9489dc6b3b45ce43dcaf982fbf07201679bfc19e1f31",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              8,
+              5
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "6f38b393e3d250f234a5ab3921683c892f59c4540a5d80d0f2367aa2aa7517c8",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36993400",
+            "reference": "medRxiv. 2023 Aug 28:2023.03.20.23287465. doi: 10.1101/2023.03.20.23287465.",
+            "type": "Update of",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-26957554",
+      "aliases": [],
+      "pmid": "26957554",
+      "pmcid": "PMC6773427",
+      "doi": "10.1158/1078-0432.ccr-15-2477",
+      "title": "Homologous Recombination Deficiency (HRD) Score Predicts Response to Platinum-Containing Neoadjuvant Chemotherapy in Patients with Triple-Negative Breast Cancer.",
+      "authors": "Telli ML, Timms KM, Reid J, Hennessy B, Mills GB, Jensen KC, Szallasi Z, Barry WT, Winer EP, Tung NM, Isakoff SJ, Ryan PD, Greene-Colozzi A, Gutin A, Sangale Z, Iliev D, Neff C, Abkevich V, Jones JT, Lanchbury JS, Hartman AR, Garber JE, Ford JM, Silver DP, Richardson AL.",
+      "year": "2016",
+      "firstPublicationDate": "2016-03-08",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/26957554/",
+      "rawCoreSha256": "9cc131a060e17ea26aa37cdf9b0e0e19f43eb062f0b329e2944cfa0208023496",
+      "rawCrossrefSha256": "9a3348cc207bd02bd4c70a99ef3432485be4d19177b1f9b72ea821a6289a2584",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              8,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "c598a4b3f492999c802b8f32d9239e8fcc9dd806bf4546c41a86e367745bc6e4",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 4,
+          "normalisedParagraphSha256": "796619796bb125ae60994d600ee7f191fb5da65dbaa095341d6f7b7642f08178",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 9,
+          "normalisedParagraphSha256": "8358a4946fd2923178572c07ee99ea12b3b0f51c66749aa303fcd945cd4d319e",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 12,
+          "normalisedParagraphSha256": "dd04afd746816b3c83c4f8afeff9a157b809ebdf76ca7401088a80e053ef40cd",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 13,
+          "normalisedParagraphSha256": "d3ea5389dc3ef948997300be2f2b2620d5716eae176f473ab6170d0d6925d477",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 21,
+          "normalisedParagraphSha256": "da8aabe96ef29e3fcf6d3ecb600947040e98900868f024401efa17af7da88fc8",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-26957554-efetch.xml",
+          "ordinal": 35,
+          "normalisedParagraphSha256": "7a1a157dae965d25a17d564a638ccc8184d5a9d1988afaa82e41fdcf820d9d23",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-31562799",
+      "aliases": [],
+      "pmid": "31562799",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa1910962",
+      "title": "Niraparib in Patients with Newly Diagnosed Advanced Ovarian Cancer.",
+      "authors": "González-Martín A, Pothuri B, Vergote I, DePont Christensen R, Graybill W, Mirza MR, McCormick C, Lorusso D, Hoskins P, Freyer G, Baumann K, Jardon K, Redondo A, Moore RG, Vulsteke C, O'Cearbhaill RE, Lund B, Backes F, Barretina-Ginesta P, Haggerty AF, Rubio-Pérez MJ, Shahin MS, Mangili G, Bradley WH, Bruchim I, Sun K, Malinowska IA, Li Y, Gupta D, Monk BJ, PRIMA/ENGOT-OV26/GOG-3012 Investigators.",
+      "year": "2019",
+      "firstPublicationDate": "2019-09-28",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/31562799/",
+      "rawCoreSha256": "56a53c31c65828baa64d22227bb746f0ca20fe7a9fc24b2b57b92419ce8d6f09",
+      "rawCrossrefSha256": "fd27595ea724782625539a106434dc4518fc6a45682ee99714b590496bd91155",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              19
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              19
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "7263e92d1dd5b4e3cdd69a5b4f384a27fdf5b8ca33cd1012dc18fa11c7f8c268",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "31851805",
+            "reference": "N Engl J Med. 2019 Dec 19;381(25):2471-2474. doi: 10.1056/NEJMe1914488",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "32294361",
+            "reference": "N Engl J Med. 2020 Apr 16;382(16):1572-1573. doi: 10.1056/NEJMc2000644",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-27908594",
+      "aliases": [],
+      "pmid": "27908594",
+      "pmcid": null,
+      "doi": "10.1016/s1470-2045(16)30559-9",
+      "title": "Rucaparib in relapsed, platinum-sensitive high-grade ovarian carcinoma (ARIEL2 Part 1): an international, multicentre, open-label, phase 2 trial.",
+      "authors": "Swisher EM, Lin KK, Oza AM, Scott CL, Giordano H, Sun J, Konecny GE, Coleman RL, Tinker AV, O'Malley DM, Kristeleit RS, Ma L, Bell-McGuinn KM, Brenton JD, Cragun JM, Oaknin A, Ray-Coquard I, Harrell MI, Mann E, Kaufmann SH, Floquet A, Leary A, Harding TC, Goble S, Maloney L, Isaacson J, Allen AR, Rolfe L, Yelensky R, Raponi M, McNeish IA.",
+      "year": "2017",
+      "firstPublicationDate": "2016-11-29",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/27908594/",
+      "rawCoreSha256": "42e62d65c1b4db5cb400616f02c6026ae397915ba490a66886dae511cf3bfaab",
+      "rawCrossrefSha256": "f854b2192a590c43a1e3a1997073272dffce4a39aaa0fafd9de261a5b442596c",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "566b28fb7de1de6c623e2710e0e18c2044ab2ee8a8c26464881fd7d60ada87f0",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "27908593",
+            "reference": "Lancet Oncol. 2017 Jan;18(1):8-9. doi: 10.1016/S1470-2045(16)30621-0.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "27958296",
+            "reference": "Nat Rev Clin Oncol. 2017 Feb;14(2):71. doi: 10.1038/nrclinonc.2016.207.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-28288110",
+      "aliases": [],
+      "pmid": "28288110",
+      "pmcid": "PMC5833945",
+      "doi": "10.1038/nm.4292",
+      "title": "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures.",
+      "authors": "Davies H, Glodzik D, Morganella S, Yates LR, Staaf J, Zou X, Ramakrishna M, Martin S, Boyault S, Sieuwerts AM, Simpson PT, King TA, Raine K, Eyfjord JE, Kong G, Borg Å, Birney E, Stunnenberg HG, van de Vijver MJ, Børresen-Dale AL, Martens JW, Span PN, Lakhani SR, Vincent-Salomon A, Sotiriou C, Tutt A, Thompson AM, Van Laere S, Richardson AL, Viari A, Campbell PJ, Stratton MR, Nik-Zainal S.",
+      "year": "2017",
+      "firstPublicationDate": "2017-03-13",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28288110/",
+      "rawCoreSha256": "abbad4e039485d97f4dac8e136f6e5b445379d12ec23488b08c354a030365f09",
+      "rawCrossrefSha256": "dd1a38a4f4c2d9e445188cb1823f1f927201809fff8d17df4032e3dfa42a44fa",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              13
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "615aa09bcf8befbf6ac8682ca6e6f5bfe87b83b662725e5380060951763003a1",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-28288110-efetch.xml",
+          "ordinal": 32,
+          "normalisedParagraphSha256": "e51d27e83e13d14c2ecc1d1fe0d2c0715004e281c6e61d6fcf20eef6735c2443",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-28288110-efetch.xml",
+          "ordinal": 34,
+          "normalisedParagraphSha256": "3b3baf30e3d54d722334ca32d6f49fd8e8f0794353aa8b7a53a6b68543492a32",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-28288110-efetch.xml",
+          "ordinal": 56,
+          "normalisedParagraphSha256": "3ab6532ddb8b5b4b2d898105fc18d1c34dd6e11fbf9729a915bffbe2be9943af",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-28288110-efetch.xml",
+          "ordinal": 79,
+          "normalisedParagraphSha256": "1cb62d038ed0c85b4613daff8738ae50bfbe6603a693fdbcfbdb6e9ae27d9547",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-30335131",
+      "aliases": [],
+      "pmid": "30335131",
+      "pmcid": null,
+      "doi": "10.1093/annonc/mdy460",
+      "title": "Survival analysis of carboplatin added to an anthracycline/taxane-based neoadjuvant chemotherapy and HRD score as predictor of response-final results from GeparSixto.",
+      "authors": "Loibl S, Weber KE, Timms KM, Elkin EP, Hahnen E, Fasching PA, Lederer B, Denkert C, Schneeweiss A, Braun S, Salat CT, Rezai M, Blohmer JU, Zahm DM, Jackisch C, Gerber B, Klare P, Kümmel S, Schem C, Paepke S, Schmutzler R, Rhiem K, Penn S, Reid J, Nekljudova V, Hartman AR, von Minckwitz G, Untch M.",
+      "year": "2018",
+      "firstPublicationDate": "2018-12-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30335131/",
+      "rawCoreSha256": "af849cbb05b5c1fc2b9996d648332364722ca99e69f2a40235047a597b4d38f6",
+      "rawCrossrefSha256": "8dd217360215115d6e19480cc8eb893c5f982913a886d53481a8174e1dd24cf9",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              12
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "c6016ca4155fea8bb9127ef75d060a2a54b8f12181682e50b6f727e3a7af1d33",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "30395152",
+            "reference": "Ann Oncol. 2018 Dec 1;29(12):2278-2280. doi: 10.1093/annonc/mdy494",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-29713086",
+      "aliases": [],
+      "pmid": "29713086",
+      "pmcid": "PMC6372067",
+      "doi": "10.1038/s41591-018-0009-7",
+      "title": "Carboplatin in BRCA1/2-mutated and triple-negative breast cancer BRCAness subgroups: the TNT Trial.",
+      "authors": "Tutt A, Tovey H, Cheang MCU, Kernaghan S, Kilburn L, Gazinska P, Owen J, Abraham J, Barrett S, Barrett-Lee P, Brown R, Chan S, Dowsett M, Flanagan JM, Fox L, Grigoriadis A, Gutin A, Harper-Wynne C, Hatton MQ, Hoadley KA, Parikh J, Parker P, Perou CM, Roylance R, Shah V, Shaw A, Smith IE, Timms KM, Wardley AM, Wilson G, Gillett C, Lanchbury JS, Ashworth A, Rahman N, Harries M, Ellis P, Pinder SE, Bliss JM.",
+      "year": "2018",
+      "firstPublicationDate": "2018-04-30",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29713086/",
+      "rawCoreSha256": "90f78b26ba52e1a4ff815913be151780f36d75db1f6effb136909fc90d91c102",
+      "rawCrossrefSha256": "0c5d9aeb9a0342cc1c95bd7255d96476067cae7eaafe21ac35b5a85f9ff65957",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              4,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              5
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "4d6a7b4ccebe2bd817e3c30f24c42a85eff01b48a859fb05cb96455eac7b3ab2",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "29736021",
+            "reference": "Nat Med. 2018 May;24(5):535-537. doi: 10.1038/s41591-018-0033-7.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "30976601",
+            "reference": "Stem Cell Investig. 2019 Feb 22;6:4. doi: 10.21037/sci.2019.02.01.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-31851799",
+      "aliases": [],
+      "pmid": "31851799",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa1911361",
+      "title": "Olaparib plus Bevacizumab as First-Line Maintenance in Ovarian Cancer.",
+      "authors": "Ray-Coquard I, Pautier P, Pignata S, Pérol D, González-Martín A, Berger R, Fujiwara K, Vergote I, Colombo N, Mäenpää J, Selle F, Sehouli J, Lorusso D, Guerra Alía EM, Reinthaller A, Nagao S, Lefeuvre-Plesse C, Canzler U, Scambia G, Lortholary A, Marmé F, Combe P, de Gregorio N, Rodrigues M, Buderath P, Dubot C, Burges A, You B, Pujade-Lauraine E, Harter P, PAOLA-1 Investigators.",
+      "year": "2019",
+      "firstPublicationDate": "2019-12-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/31851799/",
+      "rawCoreSha256": "8cd1e4dec5d73462194752bf97c1cb2f96a47f9343dda9f6cc10513027d07246",
+      "rawCrossrefSha256": "dae822e62bd3965a3025304dfe6057953e0c140f481b8e6c4800d5d0b47f8b5b",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              19
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              19
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "c34fe33a57262ed55611e09aaa65a70009e575bbb3de4fd79cb0ef82ac36b2ce",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "31851805",
+            "reference": "N Engl J Med. 2019 Dec 19;381(25):2471-2474",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "31928926",
+            "reference": "Lancet Oncol. 2020 Feb;21(2):e71",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "32294362",
+            "reference": "N Engl J Med. 2020 Apr 16;382(16):1573",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "32294363",
+            "reference": "N Engl J Med. 2020 Apr 16;382(16):1573-1574",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-20371346",
+      "aliases": [],
+      "pmid": "20371346",
+      "pmcid": "PMC2851638",
+      "doi": "10.1016/j.cell.2010.02.027",
+      "title": "A chromatin-mediated reversible drug-tolerant state in cancer cell subpopulations.",
+      "authors": "Sharma SV, Lee DY, Li B, Quinlan MP, Takahashi F, Maheswaran S, McDermott U, Azizian N, Zou L, Fischbach MA, Wong KK, Brandstetter K, Wittner B, Ramaswamy S, Classon M, Settleman J.",
+      "year": "2010",
+      "firstPublicationDate": "2010-04-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/20371346/",
+      "rawCoreSha256": "bcd714d0ef1a953afbd630c7de7876146f4a0a812d2a74654a46707a228e359f",
+      "rawCrossrefSha256": "7e62a2b5796be3dd98fdaf7d181386c4cac6e15d192918979ffb02972fe16f4c",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              4
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "db4c9ab66c2938dfdf3d794bbdc8764c6b1a8bd5ba62c80e6042fd6c430e5561",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-20371346-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "17c7979f9d4cd525a45759e97149318bedfb22a5c72f25e721dd4a5fe0682c2c",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-20371346-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "469e9f73662b370a16a336c9e61184557d9067ae10b5fba55b3146f87856aaa1",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-20371346-efetch.xml",
+          "ordinal": 2,
+          "normalisedParagraphSha256": "de857dc0c8426d98a45cee298f23b9039b3f793c474b753e90f5b52816f2ebd9",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-20371346-efetch.xml",
+          "ordinal": 3,
+          "normalisedParagraphSha256": "020071a2e20c50760670ff564e1f305946004ce15036f640d2b15a8b12fc0267",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-20371346-efetch.xml",
+          "ordinal": 7,
+          "normalisedParagraphSha256": "226b05987892625eeede7bcf19f249df8ab0a10b203631781e19d537c6fdf33b",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "20371339",
+            "reference": "Cell. 2010 Apr 2;141(1):18-20. doi: 10.1016/j.cell.2010.03.020.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-21490603",
+      "aliases": [],
+      "pmid": "21490603",
+      "pmcid": null,
+      "doi": "10.1038/nchembio.573",
+      "title": "Selective killing of ATM- or p53-deficient cancer cells through inhibition of ATR.",
+      "authors": "Reaper PM, Griffiths MR, Long JM, Charrier JD, Maccormick S, Charlton PA, Golec JM, Pollard JR.",
+      "year": "2011",
+      "firstPublicationDate": "2011-04-13",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/21490603/",
+      "rawCoreSha256": "a12b0f0c1741c2bcd8c6b19988ef7d91965a9f89383f0a63f9b203a2a2808594",
+      "rawCrossrefSha256": "cf79ef6792b09f1bd508458d6e020fd78c41033769a743ef01c00838814554dd",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              4,
+              13
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              7
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "0d8763cb2b897ff386c32249dc7906dfde085714deb5f9fe88429202ea023d28",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-32510664",
+      "aliases": [],
+      "pmid": "32510664",
+      "pmcid": "PMC7938394",
+      "doi": "10.1634/theoncologist.2020-0491",
+      "title": "A Phase II Single Arm Pilot Study of the CHK1 Inhibitor Prexasertib (LY2606368) in BRCA Wild-Type, Advanced Triple-Negative Breast Cancer.",
+      "authors": "Gatti-Mays ME, Karzai FH, Soltani SN, Zimmer A, Green JE, Lee MJ, Trepel JB, Yuno A, Lipkowitz S, Nair J, McCoy A, Lee JM.",
+      "year": "2020",
+      "firstPublicationDate": "2020-06-24",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/32510664/",
+      "rawCoreSha256": "f83439f6ba6cf966e75be91cc518e849fb8ee6275bf4f59d72466a14bd8404e7",
+      "rawCrossrefSha256": "9232b479e51e111c558804d3f502c3dc5e05ee0de89b1aadbb60ca10aada5e27",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              12,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "3fcbac83ba806baf23d367e24721ce33f28c1cd7b418ad21f06de111ff21372f",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-19887545",
+      "aliases": [],
+      "pmid": "19887545",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-09-0463",
+      "title": "Small-molecule inhibition of Wee1 kinase by MK-1775 selectively sensitizes p53-deficient tumor cells to DNA-damaging agents.",
+      "authors": "Hirai H, Iwasawa Y, Okada M, Arai T, Nishibata T, Kobayashi M, Kimura T, Kaneko N, Ohtani J, Yamanaka K, Itadani H, Takahashi-Suzuki I, Fukasawa K, Oki H, Nambu T, Jiang J, Sakai T, Arakawa H, Sakamoto T, Sagara T, Yoshizumi T, Mizuarai S, Kotani H.",
+      "year": "2009",
+      "firstPublicationDate": "2009-11-03",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/19887545/",
+      "rawCoreSha256": "9192f400d330ed27bbfb2974202076082f7d550e80fd021967ef049d4cdc9a72",
+      "rawCrossrefSha256": "4cb3d5f236ed50753dfd317608e429c0730eeaf99a9b3fbb3d30fda84a7a7973",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              11,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              11,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              11,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "a2d435c71d2604159fe2cf303edf43984a2bafdd822235a494ebb443a325416f",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-34140467",
+      "aliases": [],
+      "pmid": "34140467",
+      "pmcid": "PMC8211653",
+      "doi": "10.1038/s41467-021-23463-8",
+      "title": "Polθ inhibitors elicit BRCA-gene synthetic lethality and target PARP inhibitor resistance.",
+      "authors": "Zatreanu D, Robinson HMR, Alkhatib O, Boursier M, Finch H, Geo L, Grande D, Grinkevich V, Heald RA, Langdon S, Majithiya J, McWhirter C, Martin NMB, Moore S, Neves J, Rajendra E, Ranzani M, Schaedler T, Stockley M, Wiggins K, Brough R, Sridhar S, Gulati A, Shao N, Badder LM, Novo D, Knight EG, Marlow R, Haider S, Callen E, Hewitt G, Schimmel J, Prevo R, Alli C, Ferdinand A, Bell C, Blencowe P, Bot C, Calder M, Charles M, Curry J, Ekwuru T, Ewings K, Krajewski W, MacDonald E, McCarron H, Pang L, Pedder C, Rigoreau L, Swarbrick M, Wheatley E, Willis S, Wong AC, Nussenzweig A, Tijsterman M, Tutt A, Boulton SJ, Higgins GS, Pettitt SJ, Smith GCM, Lord CJ.",
+      "year": "2021",
+      "firstPublicationDate": "2021-06-17",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/34140467/",
+      "rawCoreSha256": "d1ea09ac0ec10bde55c97d1335b07eea7558898fc5dffa873878ab4146713323",
+      "rawCrossrefSha256": "4610d7c11be3ad0fdfda3a915e9c684a50e99f504df0e37e73f687f74d4ecfca",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              17
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "debf066afc1920235701d23935357b2553c799b7004df2e619b5ce4a823409b9",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-34140467-fulltext.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "01fcbb98689be50cbb0b417faacb66c50704f468022d91bd985194e7a080c26e",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34312492",
+            "reference": "Nat Rev Cancer. 2021 Sep;21(9):540. doi: 10.1038/s41568-021-00394-6.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "35121938",
+            "reference": "Nat Cancer. 2021 Jun;2(6):581-583. doi: 10.1038/s43018-021-00225-5.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-34216544",
+      "aliases": [],
+      "pmid": "34216544",
+      "pmcid": "PMC9089372",
+      "doi": "10.1016/j.molcel.2021.06.011",
+      "title": "Replication gaps are a key determinant of PARP inhibitor synthetic lethality with BRCA deficiency.",
+      "authors": "Cong K, Peng M, Kousholt AN, Lee WTC, Lee S, Nayak S, Krais J, VanderVere-Carozza PS, Pawelczak KS, Calvo J, Panzarino NJ, Turchi JJ, Johnson N, Jonkers J, Rothenberg E, Cantor SB.",
+      "year": "2021",
+      "firstPublicationDate": "2021-07-02",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/34216544/",
+      "rawCoreSha256": "3a4922d67077e666f9002cdc2a4cae030b3e0ffe217ea0bc8bfacfbaeee48545",
+      "rawCrossrefSha256": "c7cf3ff8585765d2512b44b3501e4fe77a4daad591b33bae31c19dccc7ab9f0a",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              8
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              8
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "a674d5cd98d76479285cf1233dbf3777bcadadccb0d7b8b4bb0a3303b526dc1b",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "2dc20f22b845991b7c24e5ef9a657ebcc42d8d1f5d19280d2834240139e3c3b3",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 1,
+          "normalisedParagraphSha256": "d337afb40bac55d3bf4469f1cae038e886a58c196aee0d5013467e86d5d4a394",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 2,
+          "normalisedParagraphSha256": "890be09a311ce801e6589739980db6fc8d15978c869c279f7d506c4bb47fa147",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 4,
+          "normalisedParagraphSha256": "1f3d9f023ebb4a21141525307bfd8203c7e8a6ea3791f1dd95845e471a88c166",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 17,
+          "normalisedParagraphSha256": "9a821c2876a2d001e371b9e647e7f47c14752ac2ee2b0082de6f61bbdfd04369",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-34216544-efetch.xml",
+          "ordinal": 18,
+          "normalisedParagraphSha256": "ff7543b3442827158750a81017662bc58430e33238abfddf2e4cca1f47a912e4",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34358459",
+            "reference": "Mol Cell. 2021 Aug 5;81(15):3227. doi: 10.1016/j.molcel.2021.07.015",
+            "type": "Erratum in",
+            "orderIn": 1
+          },
+          {
+            "source": "PPR",
+            "id": "PPR93726",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-23118055",
+      "aliases": [],
+      "pmid": "23118055",
+      "pmcid": "PMC3528345",
+      "doi": "10.1158/0008-5472.can-12-2753",
+      "title": "Trapping of PARP1 and PARP2 by Clinical PARP Inhibitors.",
+      "authors": "Murai J, Huang SY, Das BB, Renaud A, Zhang Y, Doroshow JH, Ji J, Takeda S, Pommier Y.",
+      "year": "2012",
+      "firstPublicationDate": "2012-11-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/23118055/",
+      "rawCoreSha256": "52b894fe41311e963d662b1465d0faf1617c59609473f40deb0c83d1cd2005a1",
+      "rawCrossrefSha256": "a0c892b0d23be32a2c9c1d35f1431f7dfb60a5414da5cc6baf71c494d7ae229e",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              11,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "014e185d209b00a26f811d66b4c32a486625931eeba46e2332a441ad32976005",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34782321",
+            "reference": "Cancer Res. 2021 Nov 15;81(22):5605-5607. doi: 10.1158/0008-5472.CAN-21-3201.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmid-24356813",
+      "aliases": [],
+      "pmid": "24356813",
+      "pmcid": "PMC3946062",
+      "doi": "10.1158/1535-7163.mct-13-0803",
+      "title": "Stereospecific PARP trapping by BMN 673 and comparison with olaparib and rucaparib.",
+      "authors": "Murai J, Huang SY, Renaud A, Zhang Y, Ji J, Takeda S, Morris J, Teicher B, Doroshow JH, Pommier Y.",
+      "year": "2014",
+      "firstPublicationDate": "2013-12-19",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/24356813/",
+      "rawCoreSha256": "3cdf4a9a5b5e5936488e652d809e7c3f3e6429cfb648f7d7352546c5f6bf82d4",
+      "rawCrossrefSha256": "8b15642be0bfc5434f3fdc014954f769358f609ed7d9d8e56a0bdb0c0be0a9f3",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              2,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "5b95022b6da32ba9561bd7a90a88e87108b83c9c56e378b8dcf21e9df2e98494",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmid-24356813-efetch.xml",
+          "ordinal": 0,
+          "normalisedParagraphSha256": "b44c6ff7ab1d569b94218678df157dc8a27ee34ce35d517386979496fa6f4c37",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-24356813-efetch.xml",
+          "ordinal": 17,
+          "normalisedParagraphSha256": "dbb07f6e6662c03fddf3ab0592cc4a9c5a07af3d6acca677a5db9d558cc2bf56",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-24356813-efetch.xml",
+          "ordinal": 18,
+          "normalisedParagraphSha256": "fadec4d7ddc43c2dc74f3cf72975c1e132f24ec42cf9e71499dd14e00557e697",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmid-24356813-efetch.xml",
+          "ordinal": 23,
+          "normalisedParagraphSha256": "57150562d1ae94d1071f3f410334fd8d5103c64e4dc5aedb234d681982db22fd",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "pmc-PMC8224818",
+      "aliases": [
+        "pmid-34179826"
+      ],
+      "pmid": "34179826",
+      "pmcid": "PMC8224818",
+      "doi": "10.1038/s43018-021-00203-x",
+      "title": "A first-in-class Polymerase Theta Inhibitor selectively targets Homologous-Recombination-Deficient Tumors.",
+      "authors": "Zhou J, Gelot C, Pantelidou C, Li A, Yücel H, Davis RE, Färkkilä A, Kochupurakkal B, Syed A, Shapiro GI, Tainer JA, Blagg BSJ, Ceccaldi R, D'Andrea AD.",
+      "year": "2021",
+      "firstPublicationDate": "2021-06-17",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/34179826/",
+      "rawCoreSha256": "1a40487ed948345e3c24d9bcbffcb9e54524c2b12a8c584df8e1422c5f1eaec6",
+      "rawCrossrefSha256": "c5e0c01cf44ddb4e6bdfdd4858e659b46139ff96adec914a7c09c6d34f939b08",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              17
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "7f7fe8c883141248b1eee8b3204c43186d277cff4a536e6dca06bd7cda1028e7",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "pmc-PMC8224818-efetch.xml",
+          "ordinal": 24,
+          "normalisedParagraphSha256": "6aad983596f7c9af29a354cb423dda4135ecc4a3a9e6bf96ef9a492e0e12a75e",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "pmc-PMC8224818-efetch.xml",
+          "ordinal": 26,
+          "normalisedParagraphSha256": "8e4fc4d05abe55a2a4af614bd853e5b001d2fa6af2caf951b9c1cfe58be5606c",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34312492",
+            "reference": "Nat Rev Cancer. 2021 Sep;21(9):540. doi: 10.1038/s41568-021-00394-6",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "35121938",
+            "reference": "Nat Cancer. 2021 Jun;2(6):581-583. doi: 10.1038/s43018-021-00225-5",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "PPR",
+            "id": "PPR167702",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "doi-nature03445",
+      "aliases": [
+        "pmid-15829967"
+      ],
+      "pmid": "15829967",
+      "pmcid": null,
+      "doi": "10.1038/nature03445",
+      "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy.",
+      "authors": "Farmer H, McCabe N, Lord CJ, Tutt AN, Johnson DA, Richardson TB, Santarosa M, Dillon KJ, Hickson I, Knights C, Martin NM, Jackson SP, Smith GC, Ashworth A.",
+      "year": "2005",
+      "firstPublicationDate": "2005-04-01",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/15829967/",
+      "rawCoreSha256": "a6738e9230646c260eb272c8484d5b3aa30034034a7254a7609e0b614cf36ae1",
+      "rawCrossrefSha256": "8f0e278e4726cfa242365b2dd49040831423a58e50014fe990914ef201e06cfe",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              4
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "ea58a1292adfbf8b70f0e1badf590941cc3a406dd79f005a598dcc11dba59838",
+      "bodyReading": "Abstract only; body retrieval is not a read",
+      "bodyParagraphReceipts": [],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "extra-bozic",
+      "aliases": [
+        "pmid-23805382"
+      ],
+      "pmid": "23805382",
+      "pmcid": "PMC3691570",
+      "doi": "10.7554/elife.00747",
+      "title": "Evolutionary dynamics of cancer in response to targeted combination therapy.",
+      "authors": "Bozic I, Reiter JG, Allen B, Antal T, Chatterjee K, Shah P, Moon YS, Yaqubie A, Kelly N, Le DT, Lipson EJ, Chapman PB, Diaz LA, Vogelstein B, Nowak MA.",
+      "year": "2013",
+      "firstPublicationDate": "2013-06-25",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/23805382/",
+      "rawCoreSha256": "a9527e93ff8156a368ddd17757ece6b4bc9a4dd000adc12843504336b95f3fd1",
+      "rawCrossrefSha256": "ac03a55b18b581d6ff2c1aa2e08a0b1fbc3b0aa9ccfd308310a1e6407c82c47c",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              25
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              6,
+              25
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "62796578144f2396d84aa589e9a488f4af9acb35f5bbd97b075419369ee93446",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "extra-bozic-fulltext.xml",
+          "ordinal": 11,
+          "normalisedParagraphSha256": "3cc5d4d56a43cd03b5a47b735060e4b567f1fe0c3b12d438a3689a290df3a4bb",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "extra-bozic-fulltext.xml",
+          "ordinal": 13,
+          "normalisedParagraphSha256": "83e19af36d74f23ec7f3487f2e0c52ad3ab0d88783b658ce58289bb6e621df6a",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "extra-bozic-fulltext.xml",
+          "ordinal": 16,
+          "normalisedParagraphSha256": "8812fb6c6d2c4a9d13dd527619dcf174f1cf93a23b6901d55806ab9ddad6014b",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "extra-bozic-fulltext.xml",
+          "ordinal": 51,
+          "normalisedParagraphSha256": "e40180bd18c73438d0ccb42339c6b92f30ca0adebc784755cfa02ec071ccf16a",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "extra-bozic-fulltext.xml",
+          "ordinal": 55,
+          "normalisedParagraphSha256": "377e9779f5f4c16e0984d9b6d0d1ed334a92687d5a9b8be5ad770acf39cb8cc4",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "23856749",
+            "reference": "Nat Rev Clin Oncol. 2013 Sep;10(9):488. doi: 10.1038/nrclinonc.2013.131.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "23868257",
+            "reference": "Nature. 2013 Jul 18;499(7458):291-2. doi: 10.1038/499291a.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "extra-sak2009",
+      "aliases": [
+        "pmid-19654294"
+      ],
+      "pmid": "19654294",
+      "pmcid": "PMC2754824",
+      "doi": "10.1158/0008-5472.can-09-1178",
+      "title": "Functional restoration of BRCA2 protein by secondary BRCA2 mutations in BRCA2-mutated ovarian carcinoma.",
+      "authors": "Sakai W, Swisher EM, Jacquemont C, Chandramohan KV, Couch FJ, Langdon SP, Wurz K, Higgins J, Villegas E, Taniguchi T.",
+      "year": "2009",
+      "firstPublicationDate": "2009-08-04",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/19654294/",
+      "rawCoreSha256": "3269938e7fb55132fa11318fca8a46cdf760623685fc3aed49c33051a0f8d759",
+      "rawCrossrefSha256": "40f20d29831ce69d6329a75847dfeeda0997b8ad7ef5ddab92fe2219e4675dcb",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              8,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              8,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              8,
+              15
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "bebdafed76ca0aeb22617952d53d145401a2fce42d9b7d583e7745d14421df8e",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "extra-sak2009-efetch.xml",
+          "ordinal": 17,
+          "normalisedParagraphSha256": "82732f4b74ea48119b9a666fcb241bd3d7f16d2ea798a28b5eb2b2e119a5cdb7",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "function-pmid-23047548",
+      "aliases": [
+        "pmid-23047548"
+      ],
+      "pmid": "23047548",
+      "pmcid": "PMC3493866",
+      "doi": "10.1038/bjc.2012.451",
+      "title": "Patterns of genomic loss of heterozygosity predict homologous recombination repair defects in epithelial ovarian cancer.",
+      "authors": "Abkevich V, Timms KM, Hennessy BT, Potter J, Carey MS, Meyer LA, Smith-McCune K, Broaddus R, Lu KH, Chen J, Tran TV, Williams D, Iliev D, Jammulapati S, FitzGerald LM, Krivak T, DeLoia JA, Gutin A, Mills GB, Lanchbury JS.",
+      "year": "2012",
+      "firstPublicationDate": "2012-10-09",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/23047548/",
+      "rawCoreSha256": "eda1a830ea4636f2ed310e6e1ab5fc5d69ab73481568980f29d471b890bdb71f",
+      "rawCrossrefSha256": "c3b1fdd50ffdf367a9729365c49491c4596492a64cf62c8a0d7b6347efc06a8a",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              9
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              11
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "4618ea8e8eaa0cc9b97e7e3ddfb4189a8cf02c1709fc1bd093a80fdbeadf0979",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "function-pmid-23047548-fulltext.xml",
+          "ordinal": 23,
+          "normalisedParagraphSha256": "f4a8d3dc6c0d5ecdbd48b15780fa4ac54a5c1316d9b7af8d205e36d6fcd10d93",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "function-pmid-23047548-fulltext.xml",
+          "ordinal": 25,
+          "normalisedParagraphSha256": "6a1d3c6df86bc053e674b01e73e4de79b7e6fc2dcb2d6945bdac614d9740a459",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "function-pmid-23047548-fulltext.xml",
+          "ordinal": 26,
+          "normalisedParagraphSha256": "bbe5b1990fbacb4929261c434a278b753572ed099f88480123a97b381464c178",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "function-pmid-23047548-fulltext.xml",
+          "ordinal": 27,
+          "normalisedParagraphSha256": "a8a645038d9c73b028f216e146993e73dac7e9d5d2e87c5dfc4c5f674d4caef3",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "function-pmid-22576213",
+      "aliases": [
+        "pmid-22576213"
+      ],
+      "pmid": "22576213",
+      "pmcid": "PMC3806629",
+      "doi": "10.1158/2159-8290.cd-11-0206",
+      "title": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents.",
+      "authors": "Birkbak NJ, Wang ZC, Kim JY, Eklund AC, Li Q, Tian R, Bowman-Colin C, Li Y, Greene-Colozzi A, Iglehart JD, Tung N, Ryan PD, Garber JE, Silver DP, Szallasi Z, Richardson AL.",
+      "year": "2012",
+      "firstPublicationDate": "2012-03-22",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22576213/",
+      "rawCoreSha256": "9b5764f2f124dea1770e36f7e388acf2e8f88f4bd3eb660608a1f22b1f02654b",
+      "rawCrossrefSha256": "1799e2e2959a1b36c68a4e6ccd00a6520ab802cc7d2ef6d8c1192740433c7b58",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              4,
+              1
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              4,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              4,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "d1e25670530ef9365f7310b6f5d59b6f30e7001eb868e17743709f41d256ed96",
+      "bodyReading": "Targeted primary paragraphs",
+      "bodyParagraphReceipts": [
+        {
+          "captureFile": "function-pmid-22576213-efetch.xml",
+          "ordinal": 5,
+          "normalisedParagraphSha256": "4bed8c7140cf4cd3258910a6528eb1dbe49386e5a7fdb9f6e812b829b8b993e1",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "function-pmid-22576213-efetch.xml",
+          "ordinal": 6,
+          "normalisedParagraphSha256": "a9ef4e23d014a640a85b0b5fc9e22a2e1cdb8eefe0f4acb91eb273177e4cc169",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        },
+        {
+          "captureFile": "function-pmid-22576213-efetch.xml",
+          "ordinal": 7,
+          "normalisedParagraphSha256": "2834fc20f7203ee5d4bf87a263aadee0707e6e104f1380ef82aa5f46fb4fa9aa",
+          "extent": "Targeted body paragraph read; no whole-document claim"
+        }
+      ],
+      "pdfReading": null,
+      "updateMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "reference": "Cancer Discov. 2013 Aug;3(8):952",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    },
+    {
+      "id": "function-pmid-22933060",
+      "aliases": [
+        "pmid-22933060"
+      ],
+      "pmid": "22933060",
+      "pmcid": null,
+      "doi": "10.1158/0008-5472.can-12-1470",
+      "title": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation.",
+      "authors": "Popova T, Manié E, Rieunier G, Caux-Moncoutier V, Tirapo C, Dubois T, Delattre O, Sigal-Zafrani B, Bollet M, Longy M, Houdayer C, Sastre-Garau X, Vincent-Salomon A, Stoppa-Lyonnet D, Stern MH.",
+      "year": "2012",
+      "firstPublicationDate": "2012-08-29",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22933060/",
+      "rawCoreSha256": "e2a68534e80dacae10ee54f4560ffe44b8008cdd9ca3c8b1bf47c0e5640af93a",
+      "rawCrossrefSha256": "7c4e9a8e9440184c9a83cb79391d0a7b4ff4a5deff999a06e4bf48e906f17451",
+      "titleAndFirstAuthorAgree": true,
+      "registryDateFields": {
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2012,
+              10,
+              31
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              11,
+              1
+            ]
+          ]
+        }
+      },
+      "completeAbstractRead": true,
+      "abstractTextSha256": "08323adf98c794d7193128c1d490007df6d09a56676d0dd70b5a3802ace77b2a",
+      "bodyReading": "Targeted typeset primary page",
+      "bodyParagraphReceipts": [],
+      "pdfReading": {
+        "captureFile": "method-popova-author-copy.pdf",
+        "sha256": "789e8e1fbc4bf3eacdbbd1eecf857f375443a2e39d740e8c8265646ff2852565",
+        "source": "Public posted article PDF, title, DOI, first author and year match the resolved publisher identity. No claim of byte identity to the blocked publisher file.",
+        "readExtent": "Printed page 5457, PDF page 4, rendered and viewed completely; filtering, smoothing and within-arm counting passage also read in the text layer."
+      },
+      "updateMetadata": null,
+      "crossrefUpdateMetadata": null,
+      "wholeDocumentRead": false
+    }
+  ],
+  "curatedFunctionSources": [
+    {
+      "id": "uniprot-atm",
+      "gene": "ATM",
+      "accession": "Q13315",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/Q13315/entry",
+      "captureFile": "function-uniprot-atm.json",
+      "captureSha256": "10cfeaef0673e144ed81e35ded9b0b0612454af269efef0998d0b08630d10e34",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "756a22bad01cfb848cec8c54a6242996dc48c3657a7191b65e11edc5b306b02f"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    },
+    {
+      "id": "uniprot-prkdc",
+      "gene": "PRKDC",
+      "accession": "P78527",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/P78527/entry",
+      "captureFile": "function-uniprot-prkdc.json",
+      "captureSha256": "e1eef9a8b21c822355c91a769d7d6758e31d1c039d98dae512ed86c32f170030",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "c4ab884519e8174c857c04e7bc60f7b924c371659f1e8b8053852d37b778e24a"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    },
+    {
+      "id": "uniprot-chek1",
+      "gene": "CHEK1",
+      "accession": "O14757",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/O14757/entry",
+      "captureFile": "function-uniprot-chek1.json",
+      "captureSha256": "beee90da43e0d5e728f133a7579822d716a6f508285ad6f78f6ab8f7e6d30847",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "b5cc884080dc63d122052f97bfcafaf53940f2115e513c39ad39c684cef10ba8",
+        "02b714ff3b63af4db5cbb021c6a7487d99ff616e4e66dcda4655e983c6b8ec30"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    },
+    {
+      "id": "uniprot-atr",
+      "gene": "ATR",
+      "accession": "Q13535",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/Q13535/entry",
+      "captureFile": "function-uniprot-atr-search.json",
+      "captureSha256": "07f7ba2cbc17e2f50b3c2e2f34908660f16b55c8b02c8e9943ae146313f76251",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "434cabb5b1daa78abbd2811ad2556f6be1aa92581b6306f789f5c1f07dec8db4"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    },
+    {
+      "id": "uniprot-wee1",
+      "gene": "WEE1",
+      "accession": "P30291",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/P30291/entry",
+      "captureFile": "function-uniprot-wee1-search.json",
+      "captureSha256": "1a6b545fa0c0edd74e22cdf75f419c5aea2e4afe327a60581273766d0c32044a",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "4b5e690f8b7545f090b37a604fb51ac7626b36aa06d948e906d65ba304bb22d5"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    },
+    {
+      "id": "uniprot-p53",
+      "gene": "TP53",
+      "accession": "P04637",
+      "sourceURL": "https://www.uniprot.org/uniprotkb/P04637/entry",
+      "captureFile": "function-p53-search.json",
+      "captureSha256": "c79a4b82c7e306819d3ea6ef90f7f607ce0df5560a2bb8e71fca835db390b4b1",
+      "depth": "Targeted curated human protein-function text; no claim to read all annotation or its cited primary papers",
+      "functionTextSha256": [
+        "c6f3c59d6a00eaf771bd783dfb28cdb99516873c55f6c0e30d7c631758e02d94"
+      ],
+      "scope": "Roles and substrate effects only; not clinical variant selection or efficacy."
+    }
+  ],
+  "officialSources": [
+    {
+      "id": "nci-targeted",
+      "captureFile": "official-r2-nci-targeted-therapies.html",
+      "captureSha256": "6c1db6031d1acd207d674f2bcd802d28836cf3bf420c1b4f48638e7198a53569",
+      "sourceURL": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "fetchedUtc": "2026-11-12T16:42:51Z",
+      "depth": "Targeted raw passages, not end-to-end document reading",
+      "scope": "Selected resistance and adverse-effect paragraphs; background, not a disease-specific clinical switching rule."
+    },
+    {
+      "id": "nci-par-assay",
+      "captureFile": "official-r2-nci-par-assay.html",
+      "captureSha256": "687016b110ddad1071f9b7ef2d283edbdb6ab5800e1738eb3878edfdbb513526",
+      "sourceURL": "https://dctd.cancer.gov/drug-discovery-development/assays/pharmacodynamic-biomarker-assays/additional",
+      "fetchedUtc": "2026-11-12T16:42:53Z",
+      "depth": "Targeted raw passages, not end-to-end document reading",
+      "scope": "PAR immunoassay paragraph 20 and assay scope; product-level output differs from chromatin occupancy."
+    },
+    {
+      "id": "label-olaparib",
+      "captureFile": "official-r2-olaparib-current-spl.xml",
+      "captureSha256": "e9d8a53fd857ca32a7bbeb95cf565e7ac56d9126d92f0f3ce88f6f9fda4a77c9",
+      "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/741ff3e3-dc1a-45a6-84e5-2481b27131aa.xml",
+      "fetchedUtc": "2026-11-12T16:42:55Z",
+      "depth": "Targeted raw passages, not end-to-end document reading",
+      "scope": "Targeted U.S. indication sections for ovarian plus bevacizumab and high-risk early breast; PAOLA-1 exploratory HRD-negative paragraph.",
+      "setId": "741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+      "version": "38",
+      "effectiveTime": "20250710"
+    },
+    {
+      "id": "label-niraparib",
+      "captureFile": "official-r2-niraparib-current-spl.xml",
+      "captureSha256": "8f3ea5449ff322d922e05092a9de45cb6243384d42c4f8d678957204b790a7b2",
+      "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b7f675e2-159c-490c-b6f4-3f16d9492b7d.xml",
+      "fetchedUtc": "2026-11-12T16:42:56Z",
+      "depth": "Targeted raw passages, not end-to-end document reading",
+      "scope": "Targeted current first-line indication and PRIMA clinical-study definition; current eligibility separated from 2019 PFS results.",
+      "setId": "b7f675e2-159c-490c-b6f4-3f16d9492b7d",
+      "version": "10",
+      "effectiveTime": "20260728"
+    }
+  ],
+  "notices": [
+    {
+      "id": "cong-2021-author-order-erratum",
+      "doi": "10.1016/j.molcel.2021.07.015",
+      "pmid": "34358459",
+      "identity": "MED and Crossref resolved; original DOI is 10.1016/j.molcel.2021.06.011",
+      "reading": "Posted erratum text read from the author-associated Washington University institutional record; it swaps Turchi and Jonkers in author order. Publisher landing was a redirect shell and its API returned 429.",
+      "sourceURL": "https://profiles.wustl.edu/en/publications/erratum-replication-gaps-are-a-key-determinant-of-parp-inhibitor-/",
+      "captureSha256": "599c8290360ac16b3f0a803f4a63ef2b70dca88d560bc886f0d8a6ef7e46932e",
+      "noScientificRevisionAssertedBeyondReadNotice": true
+    },
+    {
+      "id": "birkbak-2013-correction",
+      "doi": "10.1158/2159-8290.CD-13-0326",
+      "identity": "Original MED correction pointer and resolved Crossref title/year/journal/volume/page match the publisher correction",
+      "reading": "Identity only. Raw publisher HTML and PDF return 403. Web retrieval displays an omitted TCGA acknowledgement but that wording is not adopted as a verified raw notice. Original counting-rule passage is separately read in the raw PMC article.",
+      "sourceURL": "https://doi.org/10.1158/2159-8290.CD-13-0326",
+      "captureSha256": "03657232e3300fd35dec90bcfcd735fcc65fcc7689583a3db9c4e6420777a28a",
+      "claimFromUnreadNotice": false
+    }
+  ],
+  "counts": {
+    "researchPublications": 30,
+    "completeAbstracts": 30,
+    "targetedBodyPapers": 14,
+    "targetedBodyParagraphs": 51,
+    "targetedTypesetPages": 1,
+    "curatedHumanFunctionEntries": 6,
+    "officialTargetedSources": 4,
+    "correctionNoticesResolved": 2,
+    "correctionTextsReadFromAuthorInstitution": 1,
+    "correctionRawBodiesUnread": 1,
+    "wholeDocuments": 0,
+    "captureReceipts": 119
+  },
+  "limits": [
+    "No source was read end to end. All 30 research abstracts were read completely; 14 papers also have targeted body or typeset-method reading.",
+    "Birkbak correction raw body remains blocked; no assumption of harmlessness or unseen wording. Cong notice is read from an author institution, not the blocked publisher API.",
+    "Sakai 2008 and Gatti-Mays body responses do not contain valid article bodies; their evidence remains abstract-level. Other inaccessible or unread bodies are not credited as full text.",
+    "NCI drug-dictionary definitions for ceralasertib and adavosertib returned JavaScript shells. The cited FDA olaparib PDF URL returned 404; current DailyMed SPL supplied the specific label passages.",
+    "The initial official capture-log race was repaired with separate registries and a fresh official fetch. Excluded initial bodies have no invented retrieval-time receipt.",
+    "Elicit is not callable in this session. Frozen discovery remains separate from source verification; no report link or response is invented.",
+    "Curated UniProt functions support background protein roles, not the original papers cited inside every annotation.",
+    "Model, assay and label scope does not establish a personal treatment choice, access, expert approval or present clinical benefit."
+  ]
+}

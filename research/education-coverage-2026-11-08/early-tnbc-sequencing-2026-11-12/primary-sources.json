@@ -1,0 +1,1414 @@
+{
+  "checkedOn": "2026-11-12",
+  "publications": [
+    {
+      "sourceId": "pmid-33278935",
+      "pmid": "33278935",
+      "pmcid": null,
+      "doi": "10.1016/s0140-6736(20)32531-9",
+      "title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer (KEYNOTE-355): a randomised, placebo-controlled, double-blind, phase 3 clinical trial.",
+      "authors": "Cortes J, Cescon DW, Rugo HS, Nowecki Z, Im SA, Yusof MM, Gallardo C, Lipatov O, Barrios CH, Holgado E, Iwata H, Masuda N, Otero MT, Gokmen E, Loi S, Guo Z, Zhao J, Aktan G, Karantza V, Schmid P, KEYNOTE-355 Investigators.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33278935/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "be824932cc52ea325543086c9808b0d2dec38f99c9cb3addee3da5636653a368",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "d2508959b0552d850c4fd4fc60d2478d332887d06c1867f8fb196f4c5e752ca2",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "689b33e74f32a7a5d921f4b657b017aa0d80b063183f2b5639753d64e83c8fdb",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34217392",
+            "reference": "Lancet. 2021 Jul 3;398(10294):24. doi: 10.1016/S0140-6736(21)00380-9",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-28564564",
+      "pmid": "28564564",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa1612645",
+      "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "authors": "Masuda N, Lee SJ, Ohtani S, Im YH, Lee ES, Yokota I, Kuroi K, Im SA, Park BW, Kim SB, Yanagita Y, Ohno S, Takao S, Aogi K, Iwata H, Jeong J, Kim A, Park KH, Sasano H, Ohashi Y, Toi M.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "c17ed986e4c993ab696b29d472a6e5ec43224748ae01595bd574c8cd69f4a1ec",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "19ead5f377702e6017c843878bc67612e674b0f4c3592f44b1ec1e36a55a7640",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "4c7006313189c13e9653d61dfbd6ff33b8dd63d33d89c78a08a39f5318a8f32f",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Comparative Study",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "28834475",
+            "reference": "N Engl J Med. 2017 Aug 24;377(8):791. doi: 10.1056/NEJMc1708487.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "28836422",
+            "reference": "N Engl J Med. ;377(8):790-1. doi: 10.1056/NEJMc1708487.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.727674364.793562859",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-34081848",
+      "pmid": "34081848",
+      "pmcid": "PMC9126186",
+      "doi": "10.1056/nejmoa2105215",
+      "title": "Adjuvant Olaparib for Patients with BRCA1 - or BRCA2 -Mutated Breast Cancer.",
+      "authors": "Tutt ANJ, Garber JE, Kaufman B, Viale G, Fumagalli D, Rastogi P, Gelber RD, de Azambuja E, Fielding A, Balmaña J, Domchek SM, Gelmon KA, Hollingsworth SJ, Korde LA, Linderholm B, Bandos H, Senkus E, Suga JM, Shao Z, Pippas AW, Nowecki Z, Huzarski T, Ganz PA, Lucas PC, Baker N, Loibl S, McConnell R, Piccart M, Schmutzler R, Steger GG, Costantino JP, Arahmani A, Wolmark N, McFadden E, Karantza V, Lakhani SR, Yothers G, Campbell C, Geyer CE, OlympiA Clinical Trial Steering Committee and Investigators.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "747f4f3d5ef449dafeebf09edbfa88e50f781252bf73e1c680e3f9fef4cc702d",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "d17d91305aa3c276d81824681ff5ac103b82b5497dea76ce9cfde360a3c51049",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete abstract plus 9 targeted body paragraphs on design, eligibility, baseline composition and interpretation; not the whole paper.",
+      "abstractTextSha256": "41badbe14adc31731646888146997bdded3906d882be4eba52d755f87b9dd522",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34282304",
+            "reference": "Nat Rev Clin Oncol. 2021 Oct;18(10):607-608. doi: 10.1038/s41571-021-00544-7.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "34614336",
+            "reference": "N Engl J Med. 2021 Oct 7;385(15):1439. doi: 10.1056/NEJMc2112373.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "34614337",
+            "reference": "N Engl J Med. 2021 Oct 7;385(15):1439-1440. doi: 10.1056/NEJMc2112373.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-32101663",
+      "pmid": "32101663",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Pusztai L, McArthur H, Kümmel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Foukakis T, Fasching PA, Cardoso F, Untch M, Jia L, Karantza V, Zhao J, Aktan G, Dent R, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "8460af83265a4464cced7a70dce467a772785ef5dbad0fe38ce53edb3f0e3a1f",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "a2918531078d649a11ea80d188b42c831c856983f1d9b46bdaf29c79375d9345",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "a0e167731fb26b80d946a029ed9b31026b27bca6e88bfbe3ea0344c9a8d87ee5",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32127649",
+            "reference": "Nat Rev Clin Oncol. 2020 Apr;17(4):196. doi: 10.1038/s41571-020-0349-3",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "32145769",
+            "reference": "Lancet Oncol. 2020 Apr;21(4):e183. doi: 10.1016/S1470-2045(20)30154-6",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "32561940",
+            "reference": "Strahlenther Onkol. 2020 Sep;196(9):841-843. doi: 10.1007/s00066-020-01641-9",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "32579834",
+            "reference": "N Engl J Med. 2020 Jun 25;382(26):e108. doi: 10.1056/NEJMc2006684",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "36152640",
+            "reference": "Int J Radiat Oncol Biol Phys. 2022 Nov 1;114(3):377-381. doi: 10.1016/j.ijrobp.2022.05.024",
+            "type": "Comment in",
+            "orderIn": 5
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737441116.793571810",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737441116.793581142",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-39282906",
+      "pmid": "39282906",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2409932",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Dent R, McArthur H, Pusztai L, Kümmel S, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Im SA, Untch M, Fasching PA, Mouret-Reynier MA, Foukakis T, Ferreira M, Cardoso F, Zhou X, Karantza V, Tryfonidis K, Aktan G, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "302110595db267301742483ea9d8bcf01c20a4d2a7d43c5e68531cec8009ab62",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "a2e6658c5ff659b8c327725512f3018e4468d75091ee38b68ef2c765137a5baf",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "82d0ce73730e834e33535d9e10435c5570fbba13e85e42b7d5b686137a6fcccc",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40073316",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1140-1141. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "40073317",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1141. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "40073318",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1141-1142. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "40073319",
+            "reference": "N Engl J Med. 2025 Mar 13;392(11):1142. doi: 10.1056/NEJMc2416491.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-42636977",
+      "pmid": "42636977",
+      "pmcid": "PMC13729705",
+      "doi": "10.1016/j.annonc.2026.08.002",
+      "title": "Sustained benefit of adjuvant olaparib in women with germline BRCA1- and BRCA2-associated high-risk HER2-negative early breast cancer: updated results from the OlympiA phase III trial.",
+      "authors": "Garber JE, Cameron D, Campbell C, Yothers G, Taboada M, El-Abed S, Rastogi P, McConnell R, Correa A, Delaloge S, Liu WT, Sharma P, Bergh J, Janni W, Balmaña J, Loman N, Španić T, Friedman S, Freeman T, Armstrong A, Korde L, Im S, Sagara Y, Viale G, Bliss J, Gianni L, Jóhannsson Ó, Zoppoli G, Martinez De Dueñas E, Marmé F, Fein L, Arnedos M, Ford J, Schmutzler R, Loibl S, Linderholm B, Lakhani SR, Gnant M, Gelmon K, Domchek SM, Senkus E, Eisen A, Jager A, Piccart M, Phillips KA, Traina T, Stickeler E, Singer CF, Shao Z, Liu X, Tipping H, Aktan G, Martinez M, Canon JL, Takahashi M, Yasojima H, Middleton K, Pristauz-Telsnigg G, Pfeiler G, Virani S, Valdes-Albini F, Wolmark N, Diaz Mesa I, Paterson V, Gelber RD, Geyer CE, Tutt ANJ.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42636977/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "2b521705d3d648446ae155af9cdb1d8f4b7b3007d6244c64ea4c559163011034",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "e1fd4493908e2dda3118ab36860f35f3306b006f20a41bcbe33b3b6bee5aba41",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "72142af55f3ea9130660d748f25617aa46a436e10f6133e1ead515ccecb517a8",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-34092112",
+      "pmid": "34092112",
+      "pmcid": "PMC8577688",
+      "doi": "10.1200/jco.21.00976",
+      "title": "Randomized Phase III Postoperative Trial of Platinum-Based Chemotherapy Versus Capecitabine in Patients With Residual Triple-Negative Breast Cancer Following Neoadjuvant Chemotherapy: ECOG-ACRIN EA1131.",
+      "authors": "Mayer IA, Zhao F, Arteaga CL, Symmans WF, Park BH, Burnette BL, Tevaarwerk AJ, Garcia SF, Smith KL, Makower DF, Block M, Morley KA, Jani CR, Mescher C, Dewani SJ, Tawfik B, Flaum LE, Mayer EL, Sikov WM, Rodler ET, Wagner LI, DeMichele AM, Sparano JA, Wolff AC, Miller KD.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34092112/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "6a3366f34d847c63f31e64b1ed16173ee5ee128775e0824004bdde9142713594",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "fb396eb896a3bcf84ea447f0bd46dfee0ff52f6d42abbfca6b560f43c681b214",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "865b26cd14376934fd12069d7e2d5cb9a0f03fcec31349c534c070541d3ca906",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34554822",
+            "reference": "J Clin Oncol. 2021 Nov 1;39(31):3519-3521. doi: 10.1200/JCO.21.01537",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "34554848",
+            "reference": "J Clin Oncol. 2021 Nov 1;39(31):3522-3524. doi: 10.1200/JCO.21.01905",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "34554850",
+            "reference": "J Clin Oncol. 2021 Nov 1;39(31):3521-3522. doi: 10.1200/JCO.21.01757",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-34910554",
+      "pmid": "34910554",
+      "pmcid": null,
+      "doi": "10.1200/jco.21.01657",
+      "title": "BRE12-158: A Postneoadjuvant, Randomized Phase II Trial of Personalized Therapy Versus Treatment of Physician's Choice for Patients With Residual Triple-Negative Breast Cancer.",
+      "authors": "Schneider BP, Jiang G, Ballinger TJ, Shen F, Chitambar C, Nanda R, Falkson C, Lynce FC, Gallagher C, Isaacs C, Blaya M, Paplomata E, Walling R, Daily K, Mahtani R, Thompson MA, Graham R, Cooper ME, Pavlick DC, Albacker LA, Gregg J, Solzak JP, Chen YH, Bales CL, Cantor E, Hancock BA, Kassem N, Helft P, O'Neil B, Storniolo AMV, Badve S, Miller KD, Radovich M.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34910554/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "03cfc5785ae047267542db28f5037ba1621b171799c229476eb9eaa7afbe29fa",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "5a2ace8ab667ee1588087bd92e10f0e6cc7b8baf398a0018126677fb1b2296d6",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "0bfb1bfa6eba765f5874e9c04d6add7a80399a75ad89a4b27f815e76dabcd86e",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase II",
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35357888",
+            "reference": "J Clin Oncol. 2022 Jun 10;40(17):1962-1963. doi: 10.1200/JCO.22.00153",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-32644110",
+      "pmid": "32644110",
+      "pmcid": "PMC7349081",
+      "doi": "10.1001/jamaoncol.2020.2295",
+      "title": "Association of Circulating Tumor DNA and Circulating Tumor Cells After Neoadjuvant Chemotherapy With Disease Recurrence in Patients With Triple-Negative Breast Cancer: Preplanned Secondary Analysis of the BRE12-158 Randomized Clinical Trial.",
+      "authors": "Radovich M, Jiang G, Hancock BA, Chitambar C, Nanda R, Falkson C, Lynce FC, Gallagher C, Isaacs C, Blaya M, Paplomata E, Walling R, Daily K, Mahtani R, Thompson MA, Graham R, Cooper ME, Pavlick DC, Albacker LA, Gregg J, Solzak JP, Chen YH, Bales CL, Cantor E, Shen F, Storniolo AMV, Badve S, Ballinger TJ, Chang CL, Zhong Y, Savran C, Miller KD, Schneider BP.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32644110/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "04a94053f43e5d4cb1527618df74ea364c94c748b8e1e54a958e0e458b696a7f",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "7b9a862a8733af4fbfb10185e44433cde492b63a3ca025043320e5e232d6d55d",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "3dbae153ca60f5ed0236ea7474acc5ddcf0750df2ce1b60764a7d96721f9bbc0",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase II",
+          "brief-report",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32644099",
+            "reference": "JAMA Oncol. 2020 Sep 1;6(9):1332-1333. doi: 10.1001/jamaoncol.2020.2285",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-36423745",
+      "pmid": "36423745",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2022.11.005",
+      "title": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+      "authors": "Turner NC, Swift C, Jenkins B, Kilburn L, Coakley M, Beaney M, Fox L, Goddard K, Garcia-Murillas I, Proszek P, Hall P, Harper-Wynne C, Hickish T, Kernaghan S, Macpherson IR, Okines AFC, Palmieri C, Perry S, Randle K, Snowdon C, Stobart H, Wardley AM, Wheatley D, Waters S, Winter MC, Hubank M, Allen SD, Bliss JM, c-TRAK TN investigators.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36423745/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "1b0b2db191810491e20b6ce86f91ce277b05eef66cd65bf7a269e3225e5ff751",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "0083e5963148dff0fa54674fbaa746abe363c2245e1afebd40a3ad97bfb9f2d4",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "2c8cbc3fc31ee92717a56bc54f00ce5b0c184bccc3653fdeea4daaba259c58a1",
+      "publicationTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-39277672",
+      "pmid": "39277672",
+      "pmcid": "PMC12089997",
+      "doi": "10.1038/s41591-024-03267-1",
+      "title": "Datopotamab-deruxtecan plus durvalumab in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial.",
+      "authors": "Shatsky RA, Trivedi MS, Yau C, Nanda R, Rugo HS, Davidian M, Tsiatis B, Wallace AM, Chien AJ, Stringer-Reasor E, Boughey JC, Omene C, Rozenblit M, Kalinsky K, Elias AD, Vaklavas C, Beckwith H, Williams N, Arora M, Nangia C, Roussos Torres ET, Thomas B, Albain KS, Clark AS, Falkson C, Hershman DL, Isaacs C, Thomas A, Tseng J, Sanford A, Yeung K, Boles S, Chen YY, Huppert L, Jahan N, Parker C, Giridhar K, Howard FM, Blackwood MM, Sanft T, Li W, Onishi N, Asare AL, Beineke P, Norwood P, Brown-Swigart L, Hirst GL, Matthews JB, Moore B, Symmans WF, Price E, Heditsian D, LeStage B, Perlmutter J, Pohlmann P, DeMichele A, Yee D, van 't Veer LJ, Hylton NM, Esserman LJ.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39277672/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "358ace2bb34fd5af58530644cb22dc5196cda3a46634f80c9babacffdd8d3791",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "c4755abbe921c754cf947d9ed9eae40165472bc64056161eb8ef4a678be013c4",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "b2072e49f2d9a0b7396a399581b4fb903ff519fce1c58b279b1edb7f8f75abe6",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase II",
+          "research-article",
+          "Adaptive Clinical Trial",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-35139274",
+      "pmid": "35139274",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2112651",
+      "title": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Dent R, Pusztai L, McArthur H, Kümmel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Untch M, Fasching PA, Cardoso F, Andersen J, Patt D, Danso M, Ferreira M, Mouret-Reynier MA, Im SA, Ahn JH, Gion M, Baron-Hay S, Boileau JF, Ding Y, Tryfonidis K, Aktan G, Karantza V, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35139274/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "48a9c0a03a9ef2901b0e5db2ccc66c53f08a1c06097a4ea7d484308a1cb647c3",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "4c251508f41b3228be4e8c11cb30ebd13605eb3a671d737d2858b11a0e601275",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "e08c8dbe596be34d3cf029cbbf1073813dd655b28f25a02d25f32e0b71b9ee82",
+      "publicationTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35217781",
+            "reference": "Nat Rev Clin Oncol. 2022 Apr;19(4):220. doi: 10.1038/s41571-022-00614-4",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "35507497",
+            "reference": "N Engl J Med. 2022 May 5;386(18):1771. doi: 10.1056/NEJMc2203316",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-24529560",
+      "pmid": "24529560",
+      "pmcid": null,
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "authors": "Cortazar P, Zhang L, Untch M, Mehta K, Costantino JP, Wolmark N, Bonnefoi H, Cameron D, Gianni L, Valagussa P, Swain SM, Prowell T, Loibl S, Wickerham DL, Bogaerts J, Baselga J, Perou C, Blumenthal G, Blohmer J, Mamounas EP, Bergh J, Semiglazov V, Justice R, Eidtmann H, Paik S, Piccart M, Sridhara R, Fasching PA, Slaets L, Tang S, Gerber B, Geyer CE, Pazdur R, Ditsch N, Rastogi P, Eiermann W, von Minckwitz G.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "817c23136e80540c1a67b572a337e01ee6768e655caea7bcdcc368d23af0b5bc",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "747798b876ff50ae6b814a4987a77b2366e6b5e0581803eefed0500896742a45",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "33dc90114e564985962aa78de79bb79a937c9ab26f60d0c267dcc44cfbda64af",
+      "publicationTypes": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "24529559",
+            "reference": "Lancet. 2014 Jul 12;384(9938):115-6. doi: 10.1016/S0140-6736(14)60034-9",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "24985755",
+            "reference": "Breast. 2014 Oct;23(5):690-1. doi: 10.1016/j.breast.2014.06.007",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "25706462",
+            "reference": "Lancet. 2015 Jan 10;385(9963):113. doi: 10.1016/S0140-6736(15)60016-2",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "25706463",
+            "reference": "Lancet. 2015 Jan 10;385(9963):113. doi: 10.1016/S0140-6736(15)60015-0",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "25706464",
+            "reference": "Lancet. 2015 Jan 10;385(9963):114-5. doi: 10.1016/S0140-6736(15)60018-6",
+            "type": "Comment in",
+            "orderIn": 5
+          },
+          {
+            "source": "MED",
+            "id": "25706465",
+            "reference": "Lancet. 2015 Jan 10;385(9963):114. doi: 10.1016/S0140-6736(15)60017-4",
+            "type": "Comment in",
+            "orderIn": 6
+          },
+          {
+            "source": "MED",
+            "id": "27892994",
+            "reference": "JAMA Oncol. 2017 Mar 1;3(3):416. doi: 10.1001/jamaoncol.2016.3941",
+            "type": "Comment in",
+            "orderIn": 7
+          },
+          {
+            "source": "MED",
+            "id": "30860051",
+            "reference": "Lancet. 2019 Mar 9;393(10175):986. doi: 10.1016/S0140-6736(18)32772-7",
+            "type": "Erratum in",
+            "orderIn": 8
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-12393820",
+      "pmid": "12393820",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa022152",
+      "title": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+      "authors": "Fisher B, Anderson S, Bryant J, Margolese RG, Deutsch M, Fisher ER, Jeong JH, Wolmark N.",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "8c937379bb0932eb4cc3ada2ac57dceec791c23975cb3bc1ed4e661d48f91bb3",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "956bd3e12075962fa91c43454ec7ad1509585552b292a179c1cd6db8dcd17068",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "935ae560b7f53e587a3407222dc1edf68ff3f1e5ed091e0fd81c035d60187ddd",
+      "publicationTypes": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "12393826",
+            "reference": "N Engl J Med. 2002 Oct 17;347(16):1270-1. doi: 10.1056/NEJMe020112",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "12584378",
+            "reference": "N Engl J Med. 2003 Feb 13;348(7):657-60; author reply 657-60. doi: 10.1056/NEJM200302133480716",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "12587568",
+            "reference": "N Engl J Med. 2003 Feb 13;348(7):657-60; author reply 657-60.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "12587570",
+            "reference": "N Engl J Med. 2003 Feb 13;348(7):657-60; author reply 657-60.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "pmid-12393819",
+      "pmid": "12393819",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa020989",
+      "title": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+      "authors": "Veronesi U, Cascinelli N, Mariani L, Greco M, Saccozzi R, Luini A, Aguilar M, Marubini E.",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "ff0a6a3839472e4782da9cc9dd8fe68982845cd07686296a06f6c9c4415b9cd6",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "a57ea3db61870ce38318c30570298a2b8361cf7b974ccfd4645f2d572d3132b8",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "ed7d2c173d7375ddf6f32a3ea4c460699f4ece91bff123ee8be29cd54e881f8b",
+      "publicationTypes": {
+        "pubType": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "12393826",
+            "reference": "N Engl J Med. 2002 Oct 17;347(16):1270-1. doi: 10.1056/NEJMe020112",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "12584378",
+            "reference": "N Engl J Med. 2003 Feb 13;348(7):657-60; author reply 657-60. doi: 10.1056/NEJM200302133480716",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "12587570",
+            "reference": "N Engl J Med. 2003 Feb 13;348(7):657-60; author reply 657-60.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "rcb-2007",
+      "pmid": "17785706",
+      "pmcid": null,
+      "doi": "10.1200/jco.2007.10.6823",
+      "title": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+      "authors": "Symmans WF, Peintinger F, Hatzis C, Rajan R, Kuerer H, Valero V, Assad L, Poniecka A, Hennessy B, Green M, Buzdar AU, Singletary SE, Hortobagyi GN, Pusztai L.",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "0f884d58e32f8d35183873e89b92136b5a798260fcf2435ac9778e68f894cb57",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "5bfffe4e34ce67eb7cc304409a79ad478657affd5a204dfb16b4f0c15ec83c1a",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "758cf7614457f4eec7d999a046e4362b68a73a501cdf496b4eeaec2978d42409",
+      "publicationTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Evaluation Study",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "18565900",
+            "reference": "J Clin Oncol. 2008 Jun 20;26(18):3094; author reply 3095. doi: 10.1200/JCO.2008.16.7817",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "ebctcg-timing",
+      "pmid": "29242041",
+      "pmcid": "PMC5757427",
+      "doi": "10.1016/s1470-2045(17)30777-5",
+      "title": "Long-term outcomes for neoadjuvant versus adjuvant chemotherapy in early breast cancer: meta-analysis of individual patient data from ten randomised trials.",
+      "authors": "Early Breast Cancer Trialists' Collaborative Group (EBCTCG).",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29242041/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "78644b89feaa6231243b1b5ae7d65b61a585213b0e1ddad2fda658f59de5bdfa",
+      "crossrefStatus": 429,
+      "crossrefCaptureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "identityDisposition": "Crossref unavailable",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "3d63b204a59d864e3642fbd82e7a2f3c4b66f3b2adbe34e3a2069a82d8b01f4d",
+      "publicationTypes": {
+        "pubType": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "29242042",
+            "reference": "Lancet Oncol. 2018 Jan;19(1):2-3. doi: 10.1016/S1470-2045(17)30914-2.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "29508753",
+            "reference": "Lancet Oncol. 2018 Mar;19(3):e128. doi: 10.1016/S1470-2045(18)30115-3.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "29508754",
+            "reference": "Lancet Oncol. 2018 Mar;19(3):e129. doi: 10.1016/S1470-2045(18)30118-9.",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "29508755",
+            "reference": "Lancet Oncol. 2018 Mar;19(3):e130. doi: 10.1016/S1470-2045(18)30120-7.",
+            "type": "Comment in",
+            "orderIn": 4
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "periop-review",
+      "pmid": "25601442",
+      "pmcid": "PMC5497123",
+      "doi": "10.1038/nrclinonc.2014.224",
+      "title": "Exploiting the critical perioperative period to improve long-term cancer outcomes.",
+      "authors": "Horowitz M, Neeman E, Sharon E, Ben-Eliyahu S.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25601442/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "431e1d43a1969cdf8121a6e25be4096c29c75aef3c9a97904c0ebc8ac81edc66",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "4de90df0c2cdb4c84f284e8372eca2297fc7bad45643145fd17c3c313bcc6ba6",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "28cdf33d0cd26ec6d8112f36f66e587c750dbc084402d8c3b8ad64129d8bcc5e",
+      "publicationTypes": {
+        "pubType": [
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "b51",
+      "pmid": "40466065",
+      "pmcid": "PMC12269788",
+      "doi": "10.1056/nejmoa2414859",
+      "title": "Omitting Regional Nodal Irradiation after Response to Neoadjuvant Chemotherapy.",
+      "authors": "Mamounas EP, Bandos H, White JR, Julian TB, Khan AJ, Shaitelman SF, Torres MA, Vicini FA, Ganz PA, McCloskey SA, Lucas PC, Gupta N, Li XA, McCormick B, Smith B, Tendulkar RD, Kavadi VS, Matsumoto K, Seaward SA, Irvin WJ, Lin JY, Mutter RW, Muanza TM, Stromberg J, Jagsi R, Weiss AC, Curran WJ, Wolmark N.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40466065/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "d17e216ffb3d88103bf62677065af6aac2f4f5d5ed0dbecc0d0ea1718553b005",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "6af7210c7461297949bb09d2a2c8df38f633da636de21c7e92031598e6d14a17",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "f2415942e8a082bb46749cb8c057cad483c12b8b432abe05f8bbfd9ed0ba8702",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "research-article",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40834313",
+            "reference": "N Engl J Med. 2025 Aug 21;393(8):10.1056/NEJMc2509175#sa1. doi: 10.1056/NEJMc2509175.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "40948912",
+            "reference": "Gland Surg. 2025 Aug 31;14(8):1415-1417. doi: 10.21037/gs-2025-240.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "41378042",
+            "reference": "Transl Cancer Res. 2025 Nov 30;14(11):7472-7477. doi: 10.21037/tcr-2025-1837.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "caudle",
+      "pmid": "26811528",
+      "pmcid": "PMC4933133",
+      "doi": "10.1200/jco.2015.64.0094",
+      "title": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+      "authors": "Caudle AS, Yang WT, Krishnamurthy S, Mittendorf EA, Black DM, Gilcrease MZ, Bedrosian I, Hobbs BP, DeSnyder SM, Hwang RF, Adrada BE, Shaitelman SF, Chavez-MacGregor M, Smith BD, Candelaria RP, Babiera GV, Dogan BE, Santiago L, Hunt KK, Kuerer HM.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "236ad443d485a63ea770a2726dfd8c43d4d3423792ac40b73bdf6c7f29f4090e",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "5b05376a3d302dec6299059085f5a32a8281bfe0c0b51edd0aba0ab76262323e",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "b28357a2de964935efc78dda477755d2b8f17692b49432a1e04dc3dabe22633f",
+      "publicationTypes": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "27562286",
+            "reference": "Gland Surg. 2016 Aug;5(4):450-2. doi: 10.21037/gs.2016.07.02",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    },
+    {
+      "sourceId": "asco-pembro-guideline",
+      "pmid": "35417251",
+      "pmcid": null,
+      "doi": "10.1200/jco.22.00503",
+      "title": "Use of Immune Checkpoint Inhibitor Pembrolizumab in the Treatment of High-Risk, Early-Stage Triple-Negative Breast Cancer: ASCO Guideline Rapid Recommendation Update.",
+      "authors": "Korde LA, Somerfield MR, Hershman DL, Neoadjuvant Chemotherapy, Endocrine Therapy, and Targeted Therapy for Breast Cancer Guideline Expert Panel.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35417251/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "940fbf2ff75733b9187b6687cf4c76a7ef15f6d2ec76caac9b58f21fac0f1e20",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "d3a78d4ce74fc6403eac36c363602a271dbe7dc29f8b4716548297ffe6ac95c0",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "44cda22813449c117df8d8d412152ec24bb20dab1da71d600a154a5344028f5b",
+      "publicationTypes": {
+        "pubType": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": true
+    },
+    {
+      "sourceId": "kn355-os",
+      "pmid": "35857659",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2202809",
+      "title": "Pembrolizumab plus Chemotherapy in Advanced Triple-Negative Breast Cancer.",
+      "authors": "Cortes J, Rugo HS, Cescon DW, Im SA, Yusof MM, Gallardo C, Lipatov O, Barrios CH, Perez-Garcia J, Iwata H, Masuda N, Torregroza Otero M, Gokmen E, Loi S, Guo Z, Zhou X, Karantza V, Pan W, Schmid P, KEYNOTE-355 Investigators.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/",
+      "registry": "Europe PMC core record",
+      "metadataCaptureSha256": "0d65359b8be4ef7e2af613a5f1b0f097f5b4093f44c381a871d1bc695ce16604",
+      "crossrefStatus": 200,
+      "crossrefCaptureSha256": "f5d1da76786fd93830447cbd1a13c3c78205dde0639cc2ec5536f0249c624827",
+      "identityDisposition": "agrees",
+      "readingDepth": "Complete raw abstract read; no whole-paper reading claim.",
+      "abstractTextSha256": "4507aae516f4b58a098cab4483bb6dadb01ad282ba74c947400a09dc60f7855a",
+      "publicationTypes": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35857664",
+            "reference": "N Engl J Med. 2022 Jul 21;387(3):273-274. doi: 10.1056/NEJMe2207532.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "36239656",
+            "reference": "N Engl J Med. 2022 Oct 13;387(15):1435. doi: 10.1056/NEJMc2210919.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "36239657",
+            "reference": "N Engl J Med. 2022 Oct 13;387(15):1435-1436. doi: 10.1056/NEJMc2210919.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": [],
+      "contextOnly": false
+    }
+  ],
+  "officialDefinitions": [
+    {
+      "sourceId": "nci-api-adjuvant-therapy",
+      "termId": 45587,
+      "termName": "adjuvant therapy",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "adjuvant-therapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/adjuvant-therapy",
+      "captureSha256": "8e950ea4641bad49befe59a882c72891ef4e47202be071557e51839bb7b34998",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-first-line-therapy",
+      "termId": 346494,
+      "termName": "first-line therapy",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "first-line-therapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/first-line-therapy",
+      "captureSha256": "9e6c3b633818aff9f8d0a2e78267102b6cb5361a553a3901546b200b5c7f9709",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-follow-up-care",
+      "termId": 774384,
+      "termName": "follow-up care",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "follow-up-care",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/follow-up-care",
+      "captureSha256": "3042bc6b4aec233f0e641e020cb7b0a8ce7c737c7c75c57d15c8b8b979d172ed",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-g-csf",
+      "termId": 46075,
+      "termName": "G-CSF",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "g-csf",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/g-csf",
+      "captureSha256": "5a4f1242600e6e30f38afa58ef69e18e2a33f3bcffe81836875b69df663cd4c6",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-granulocyte-colony-stimulating-factor",
+      "termId": 46749,
+      "termName": "granulocyte colony-stimulating factor",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "granulocyte-colony-stimulating-factor",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/granulocyte-colony-stimulating-factor",
+      "captureSha256": "8dc0e5a082c6a2622d88ce8b264773e0ac572808218f126b3986bc95fb670e26",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-neoadjuvant-therapy",
+      "termId": 45800,
+      "termName": "neoadjuvant therapy",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "neoadjuvant-therapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/neoadjuvant-therapy",
+      "captureSha256": "3515c4d8a9aca5c13c71eebdaba7afb1ff5ef5dd42a88e979fb73913c10575ce",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-regimen",
+      "termId": 45864,
+      "termName": "regimen",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "regimen",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/regimen",
+      "captureSha256": "c7f98882b98d3a865c06962ce114eed3f511f909777fed96c13ff03767ac3111",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-second-line-therapy",
+      "termId": 346513,
+      "termName": "second-line therapy",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "second-line-therapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/second-line-therapy",
+      "captureSha256": "33cd399db4c227c38e0d188200ba6ba805828b9c6c2e16ab382a7106903856d9",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    },
+    {
+      "sourceId": "nci-api-systemic-therapy",
+      "termId": 45922,
+      "termName": "systemic therapy",
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "systemic-therapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/systemic-therapy",
+      "captureSha256": "7c5ce32e5c2e067c9baaba1ee3953e957dd9675ea1f696355fea53b2eb09942f",
+      "readingDepth": "Complete raw API definition and identity read, not the full linked patient-care pages."
+    }
+  ],
+  "registries": [
+    {
+      "sourceId": "registry:NCT04595565",
+      "nct": "NCT04595565",
+      "url": "https://clinicaltrials.gov/study/NCT04595565",
+      "captureSha256": "169e9376a942d65c6d7f19ba97dd9562cd84cd497928f1394b4161dc3feb7d6b",
+      "studyTitle": "Phase III Postneoadjuvant Study Evaluating Sacituzumab Govitecan, an Antibody Drug Conjugate in Primary HER2-negative Breast Cancer Patients With High Relapse Risk After Standard Neoadjuvant Treatment - SASCIA",
+      "lastUpdate": {
+        "date": "2026-04-22",
+        "type": "ACTUAL"
+      },
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": {
+        "count": 1332,
+        "type": "ESTIMATED"
+      },
+      "hasPostedResults": false,
+      "readingDepth": "Identification, status, design, treatment arms and primary outcome; specified eligibility sections for the three ADC studies. KEYNOTE-355 participant-flow counts also read. Secondary outcomes, all contacts and all tabular results not reviewed."
+    },
+    {
+      "sourceId": "registry:NCT05629585",
+      "nct": "NCT05629585",
+      "url": "https://clinicaltrials.gov/study/NCT05629585",
+      "captureSha256": "3344e351417db776937615a22a4b7a13d0e4a44b4b2ec692401c9cfa0f87a9bf",
+      "studyTitle": "A Phase 3 Open-label, Randomised Study of Datopotamab Deruxtecan (DatoDXd) With or Without Durvalumab Versus Investigator's Choice of Therapy in Patients With Stage I-III Triple-negative Breast Cancer Who Have Residual Invasive Disease in the Breast and/or Axillary Lymph Nodes at Surgical Resection Following Neoadjuvant Systemic Therapy (TROPION-Breast03)",
+      "lastUpdate": {
+        "date": "2026-10-14",
+        "type": "ACTUAL"
+      },
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": {
+        "count": 1174,
+        "type": "ACTUAL"
+      },
+      "hasPostedResults": false,
+      "readingDepth": "Identification, status, design, treatment arms and primary outcome; specified eligibility sections for the three ADC studies. KEYNOTE-355 participant-flow counts also read. Secondary outcomes, all contacts and all tabular results not reviewed."
+    },
+    {
+      "sourceId": "registry:NCT05633654",
+      "nct": "NCT05633654",
+      "url": "https://clinicaltrials.gov/study/NCT05633654",
+      "captureSha256": "9b4ce233134f242109c9f4c4f6f598e12a6bb12d9774183700d83c6dc1efc05d",
+      "studyTitle": "A Randomized, Open-label, Phase 3 Study of Adjuvant Sacituzumab Govitecan and Pembrolizumab Versus Treatment of Physician's Choice in Patients With Triple Negative Breast Cancer Who Have Residual Invasive Disease After Surgery and Neoadjuvant Therapy",
+      "lastUpdate": {
+        "date": "2026-11-04",
+        "type": "ACTUAL"
+      },
+      "status": "RECRUITING",
+      "enrollment": {
+        "count": 1514,
+        "type": "ESTIMATED"
+      },
+      "hasPostedResults": false,
+      "readingDepth": "Identification, status, design, treatment arms and primary outcome; specified eligibility sections for the three ADC studies. KEYNOTE-355 participant-flow counts also read. Secondary outcomes, all contacts and all tabular results not reviewed."
+    },
+    {
+      "sourceId": "registry:NCT02445391",
+      "nct": "NCT02445391",
+      "url": "https://clinicaltrials.gov/study/NCT02445391",
+      "captureSha256": "a27729e0ec94fcf45ff4119a4983f1956f61415ad059c29727e52362f9e5764a",
+      "studyTitle": "A Randomized Phase III Post-operative Trial of Platinum Based Chemotherapy vs. Capecitabine in Patients With Residual Triple-Negative Basal-Like Breast Cancer Following Neoadjuvant Chemotherapy",
+      "lastUpdate": {
+        "date": "2026-11-02",
+        "type": "ACTUAL"
+      },
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": {
+        "count": 415,
+        "type": "ACTUAL"
+      },
+      "hasPostedResults": true,
+      "readingDepth": "Identification, status, design, treatment arms and primary outcome; specified eligibility sections for the three ADC studies. KEYNOTE-355 participant-flow counts also read. Secondary outcomes, all contacts and all tabular results not reviewed."
+    },
+    {
+      "sourceId": "registry:NCT02819518",
+      "nct": "NCT02819518",
+      "url": "https://clinicaltrials.gov/study/NCT02819518",
+      "captureSha256": "0b22972a498d7c405107577ba1e5aa909694624bd742c1af15f5cf96cbbe97b7",
+      "studyTitle": "A Randomized, Double-Blind, Phase III Study of Pembrolizumab (MK-3475) Plus Chemotherapy vs Placebo Plus Chemotherapy for Previously Untreated Locally Recurrent Inoperable or Metastatic Triple Negative Breast Cancer - (KEYNOTE-355)",
+      "lastUpdate": {
+        "date": "2024-11-27",
+        "type": "ACTUAL"
+      },
+      "status": "COMPLETED",
+      "enrollment": {
+        "count": 882,
+        "type": "ACTUAL"
+      },
+      "hasPostedResults": true,
+      "readingDepth": "Identification, status, design, treatment arms and primary outcome; specified eligibility sections for the three ADC studies. KEYNOTE-355 participant-flow counts also read. Secondary outcomes, all contacts and all tabular results not reviewed."
+    }
+  ],
+  "labels": [
+    {
+      "sourceId": "label-paclitaxel",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/15ca4829-8fee-45f9-b4bc-b31c15732cd6.xml",
+      "captureSha256": "41eed9d17e2850f087e4bf26f986b1b8d204f694f1415633fb56fab2935e5433",
+      "setId": "15ca4829-8fee-45f9-b4bc-b31c15732cd6",
+      "version": "6",
+      "effectiveDate": "20250611",
+      "readingDepth": "Targeted 12.1 mechanism read. No full-label or complete prescribing-instruction claim."
+    },
+    {
+      "sourceId": "label-carboplatin",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/48aa7ef3-9f44-2a08-e054-00144ff88e88.xml",
+      "captureSha256": "fbc387bfebaa2bd4d0cf04147551e38a57fae25536aebe697a9e3d5e242a99ca",
+      "setId": "48aa7ef3-9f44-2a08-e054-00144ff88e88",
+      "version": "9",
+      "effectiveDate": "20261106",
+      "readingDepth": "Targeted Clinical pharmacology DNA cross-links paragraph read. No full-label or complete prescribing-instruction claim."
+    },
+    {
+      "sourceId": "label-doxorubicin",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/1fd148fb-0fbc-4b6f-b790-23546fb46a71.xml",
+      "captureSha256": "03fe0ad9b1b06f3b754e208d6b143ed20aa28365d06452221519592a48f2610d",
+      "setId": "1fd148fb-0fbc-4b6f-b790-23546fb46a71",
+      "version": "28",
+      "effectiveDate": "20260505",
+      "readingDepth": "Targeted 12.1 mechanism read. No full-label or complete prescribing-instruction claim."
+    },
+    {
+      "sourceId": "label-cyclophosphamide",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5bad5bfc-12c0-46a2-8355-1028f108ecbf.xml",
+      "captureSha256": "c32ca806eeac1a6a260767a9be52142259101461e0296135ffa390dc7236e120",
+      "setId": "5bad5bfc-12c0-46a2-8355-1028f108ecbf",
+      "version": "1",
+      "effectiveDate": "20261015",
+      "readingDepth": "Targeted 12.1 mechanism and 12.3 metabolism read. No full-label or complete prescribing-instruction claim."
+    },
+    {
+      "sourceId": "keytruda-v228",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228",
+      "captureSha256": "c03f2e04d5146825592ff1e30e141b68fd2fbc105123f9529e1a514d89078f16",
+      "requestedVersion": "228",
+      "readingDepth": "Selected early-TNBC indication, mechanism, safety and study-design paragraphs only; not the whole label. Requested version and observed label content remain separate."
+    }
+  ],
+  "officialAndTextbookSources": [
+    {
+      "sourceId": "nci-chemotherapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "captureSha256": "c518dd806c7fef0cc2b5ce8f4576528e3a44030d48f10f60c853880662a7c3e7",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-palliative",
+      "url": "https://www.cancer.gov/about-cancer/advanced-cancer/care-choices/palliative-care-fact-sheet",
+      "captureSha256": "fcc385274bc587e4591e21d3990c9d36d9a2a46926a12cf398733752cd100edc",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-breast-surgery",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery",
+      "captureSha256": "185bf8e6f87e6e30d6aac4e3e519719e0cc38076639aa82ab022054e74b3f326",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-breast-radiation",
+      "url": "https://www.cancer.gov/types/breast/treatment/radiation",
+      "captureSha256": "1dd12fc5306a64ccf3b99bff187bce78f0ff44e268eb4bc65a8f6691f52b0400",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-organ-inflammation",
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation",
+      "captureSha256": "1b781ef4046839b97ef01c1db6c688fe3072b0838d1a7c6f692b06ebb3c11f1a",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-neutropenia",
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+      "captureSha256": "6d7a4e9b19c1c1c9df4f50f11f0fc1d47a2fe0ee4fdd9f28f2f98a689713ef9f",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nci-nausea",
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea",
+      "captureSha256": "7cf0f4c9972f86c99edeed04bf2046be0c102ad03b3f8e54e69ad781d8cca622",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "fda-vaccine-ingredients",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/common-ingredients-fda-approved-vaccines",
+      "captureSha256": "a3ef5384d793188c583dd627d660f8a01cb9567b97abe03d36b48f2cd557d857",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "nice-ng101-recommendations",
+      "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+      "captureSha256": "c681a91583bc3145133e59aa3de15302b390c96b41a120883c752cac54118a69",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    },
+    {
+      "sourceId": "openstax-cytoskeleton",
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-the-cytoskeleton",
+      "captureSha256": "306a2a18e76f1c614155fba23cfa3edae85b16583e43defe9264ba8a3b4aeeca",
+      "readingDepth": "Selected relevant paragraphs only; not a whole-page or whole-guidance reading claim."
+    }
+  ],
+  "counts": {
+    "publicationIdentities": 22,
+    "completeAbstractsRead": 22,
+    "wholeOriginalPapersRead": 0,
+    "targetedOlympiaBodyParagraphs": 9,
+    "requests": 96,
+    "retainedRawBodies": 95
+  },
+  "elicit": {
+    "scientificInterfaceCallable": false,
+    "searchedToolMetadata": [
+      "mcp__t3_code__delegate_task",
+      "mcp__t3_code__task_status"
+    ],
+    "reason": "Only task-orchestration tools mention the string; no scientific Elicit interface. No new question, report or response invented.",
+    "frozenLiteratureDenominator": 917
+  },
+  "limits": [
+    "No whole original paper, book or guidance read.",
+    "Europe PMC fullTextXML returned 500; some NCBI efetch responses contain metadata/abstract only. Those are not counted as article bodies.",
+    "I-SPY2.2 full-text efetch and BioC attempts returned rate limits; adopted description is abstract-level only. No challenge bypass.",
+    "CDC adjuvant page returned 403; FDA ingredient text supplies the adopted definition.",
+    "NCI dictionary pages are shells; valid raw NCI Glossary API definitions supply adopted definitions. Two requested glossary slugs returned 404 and supply no claims.",
+    "The first KEYNOTE-522 OS core capture was incomplete JSON; retained and replaced by a separately hashed targeted refetch.",
+    "Doxorubicin FDA 2019 PDF request timed out without a retained body; the current conventional-product DailyMed SPL supplies the adopted mechanism.",
+    "EBCTCG timing Crossref request returned 429; its DOI and identity resolve through Europe PMC.",
+    "ASCO 2022 abstract describes guideline methodology only; no recommendation is inferred from it.",
+    "Earlier assertions in unchanged portions of canonical records retain prior source scope and do not gain blanket re-verification."
+  ],
+  "inheritedCaptureRecheck": {
+    "sourceId": "pmid:20534341",
+    "doi": "10.1016/j.chembiol.2010.04.012",
+    "priorIdentityPacket": "therapy-conjugates-2026-11-11/primary-sources.json",
+    "captureSha256": "51ed12b048d379f94ea78423e242886ceb10281ae9b8f7cb766001e27ed81171",
+    "bodyPresent": true,
+    "targetedParagraphsReRead": 2,
+    "passageHashes": [
+      "0cbd22379ffd12c97936c93e47a59be6fa5f73be9942b171dd76327df3c2720f",
+      "2ad3b9ae71bc3bcee2276945d3b765e7afc987fc658aa613e7a35765486b5d78"
+    ],
+    "supports": "Existing anthracycline definition of topoisomerase-II strand passage and religation, and inhibition of religation by doxorubicin; no new cardiac-risk review.",
+    "scope": "Two paragraphs re-read from the exact earlier NCBI full-body capture. Prior identifier resolution retained; not a new live identity query or whole-document reading."
+  }
+}

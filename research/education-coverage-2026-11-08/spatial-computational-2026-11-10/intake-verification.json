@@ -1,0 +1,19 @@
+{
+  "sourceVersions": 34,
+  "sectionSignatures": 374,
+  "requirementAnchors": 346,
+  "assetEntries": 154,
+  "renderReceipts": 30,
+  "claimCapturesRehashed": 69,
+  "patchFieldAnchorsMatched": 52,
+  "sourceSpecificCorrection": "IC50 endpoint support upgraded from a title-only citation to the Cer 2009 methods paper. FFPE adaptation remains unverified.",
+  "inheritedCorrections": [
+    "No universal 80/20 minimum",
+    "No claim to measure every protein",
+    "No exclusive route from mass spectrometry to all phosphosite information",
+    "No guarantee that a model returning no response to mutation-driven drugs is correct",
+    "No unqualified clinical-response superiority claim for multiplex imaging",
+    "Foundation-model and variant-effect short definitions scoped to defined tasks"
+  ],
+  "schemaDisposition": "Existing notes carry reading guides, assay cards and worked examples. No new schema field is required for this batch; optional cross-assay comparison remains a separate product idea."
+}

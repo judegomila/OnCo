@@ -1,0 +1,80 @@
+{
+  "dataCommit": "2e738bd26428b70dd929f51876816ffbdb860ea0",
+  "graphRecords": 23084,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 3.03
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 28.86
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.89
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 303.56
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 13,
+    "warningFilesUnchangedByCohort": true
+  },
+  "schemaParses": 32,
+  "readerRecords": 32,
+  "registeredRootReaders": 14,
+  "frozenPeerReaders": 18,
+  "exactFieldReferences": 149,
+  "uniqueReferencedFieldParagraphs": 87,
+  "sourceLinksMissing": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "rootExactEntityJSON": 14,
+    "rootMarkdownPassages": 111,
+    "openAPI": true,
+    "dedupeExitCode": 0
+  },
+  "summaryConsumerStates": 288,
+  "texts": 29,
+  "EnglishFallbacks": 259,
+  "acceptedLongCaches": 0,
+  "namedLanguageReviewsChanged": 0,
+  "sourceIdentities": {
+    "versions": 6,
+    "sectionSignatures": 72,
+    "rawCaptures": 40
+  },
+  "secretScan": {
+    "files": [
+      "src/data/manufacturing-wave.ts",
+      "src/data/technologies.ts",
+      "src/data/simple/part-o.ts",
+      "src/data/i18n/zh.ts",
+      "CORRECTIONS.md"
+    ],
+    "diffBytes": 47812,
+    "exitCode": 0,
+    "findings": 0,
+    "unchangedSinceFinalGates": true
+  },
+  "floorsBudgetsAndDenominatorSnapshotsChanged": false,
+  "zeroChangeReplay": "Recorded separately after source-ledger regeneration and artifact replay."
+}

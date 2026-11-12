@@ -1,0 +1,275 @@
+{
+  "renderer": "Installed mermaid-cli with isolated headless Chrome, default theme at max dimension 2400; source code bytes matched before rendering. Not a Guide deployment, hydration or responsive check.",
+  "instances": [
+    {
+      "version": "original",
+      "page": "apoptosis-and-bcl2-family",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "1b2baad38ade42f02d5bb2d2800782a3c8e41bb09480dc5b88370ab0ea850f30",
+      "reused": false,
+      "render": {
+        "codeSha256": "1b2baad38ade42f02d5bb2d2800782a3c8e41bb09480dc5b88370ab0ea850f30",
+        "pngSha256": "0cfeeaeee86ff1e55d4f01446ffe26a052d1596b352e1ac647c9fcd69b16165c",
+        "page": "apoptosis-and-bcl2-family"
+      }
+    },
+    {
+      "version": "later",
+      "page": "apoptosis-and-bcl2-family",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "1b2baad38ade42f02d5bb2d2800782a3c8e41bb09480dc5b88370ab0ea850f30",
+      "reused": true,
+      "render": {
+        "codeSha256": "1b2baad38ade42f02d5bb2d2800782a3c8e41bb09480dc5b88370ab0ea850f30",
+        "pngSha256": "0cfeeaeee86ff1e55d4f01446ffe26a052d1596b352e1ac647c9fcd69b16165c",
+        "page": "apoptosis-and-bcl2-family"
+      }
+    },
+    {
+      "version": "original",
+      "page": "apoptosis-vs-necrosis-vs-ferroptosis",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "a3b65e038107adf8fdac061df2602e70d5c6f0cf627c08bdc5851d34a459811d",
+      "reused": false,
+      "render": {
+        "codeSha256": "a3b65e038107adf8fdac061df2602e70d5c6f0cf627c08bdc5851d34a459811d",
+        "pngSha256": "3bb4c75650b6623cf38effa6c85e56450ae6ad42d27a671f8ab3d9d5afbc9ccb",
+        "page": "apoptosis-vs-necrosis-vs-ferroptosis"
+      }
+    },
+    {
+      "version": "later",
+      "page": "apoptosis-vs-necrosis-vs-ferroptosis",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "a3b65e038107adf8fdac061df2602e70d5c6f0cf627c08bdc5851d34a459811d",
+      "reused": true,
+      "render": {
+        "codeSha256": "a3b65e038107adf8fdac061df2602e70d5c6f0cf627c08bdc5851d34a459811d",
+        "pngSha256": "3bb4c75650b6623cf38effa6c85e56450ae6ad42d27a671f8ab3d9d5afbc9ccb",
+        "page": "apoptosis-vs-necrosis-vs-ferroptosis"
+      }
+    },
+    {
+      "version": "original",
+      "page": "ferroptosis",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "3277e90cdfba79775f40be241e8711414dbd57bcd5d3d6af2a392e8f6bd5b757",
+      "reused": false,
+      "render": {
+        "codeSha256": "3277e90cdfba79775f40be241e8711414dbd57bcd5d3d6af2a392e8f6bd5b757",
+        "pngSha256": "2e6129216402152171fa2cf6fc05e4ec50f0d260438c03d5bdb0573788d03972",
+        "page": "ferroptosis"
+      }
+    },
+    {
+      "version": "later",
+      "page": "ferroptosis",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "3277e90cdfba79775f40be241e8711414dbd57bcd5d3d6af2a392e8f6bd5b757",
+      "reused": true,
+      "render": {
+        "codeSha256": "3277e90cdfba79775f40be241e8711414dbd57bcd5d3d6af2a392e8f6bd5b757",
+        "pngSha256": "2e6129216402152171fa2cf6fc05e4ec50f0d260438c03d5bdb0573788d03972",
+        "page": "ferroptosis"
+      }
+    },
+    {
+      "version": "original",
+      "page": "immunogenic-cell-death",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "78390fb580b878dbca13c8dc1631829acc3f5b7ed534d1eb9bf16c3512e00e22",
+      "reused": false,
+      "render": {
+        "codeSha256": "78390fb580b878dbca13c8dc1631829acc3f5b7ed534d1eb9bf16c3512e00e22",
+        "pngSha256": "f62ad247adcf573e1acbfa117da95f1f20a6f9d0b90f14871e9643a12d27546f",
+        "page": "immunogenic-cell-death"
+      }
+    },
+    {
+      "version": "later",
+      "page": "immunogenic-cell-death",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "78390fb580b878dbca13c8dc1631829acc3f5b7ed534d1eb9bf16c3512e00e22",
+      "reused": true,
+      "render": {
+        "codeSha256": "78390fb580b878dbca13c8dc1631829acc3f5b7ed534d1eb9bf16c3512e00e22",
+        "pngSha256": "f62ad247adcf573e1acbfa117da95f1f20a6f9d0b90f14871e9643a12d27546f",
+        "page": "immunogenic-cell-death"
+      }
+    },
+    {
+      "version": "original",
+      "page": "er-stress-and-unfolded-protein-response",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "8b94f31f6cbb05a6970b655d7bc62263c2b86cf02a346aeeab1129d46a3e2e52",
+      "reused": false,
+      "render": {
+        "codeSha256": "8b94f31f6cbb05a6970b655d7bc62263c2b86cf02a346aeeab1129d46a3e2e52",
+        "pngSha256": "a42ceb4d2303a0569c7418f8d1cd1ab68deb91fafbade4082580920e44ca8a3c",
+        "page": "er-stress-and-unfolded-protein-response"
+      }
+    },
+    {
+      "version": "later",
+      "page": "er-stress-and-unfolded-protein-response",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "8b94f31f6cbb05a6970b655d7bc62263c2b86cf02a346aeeab1129d46a3e2e52",
+      "reused": true,
+      "render": {
+        "codeSha256": "8b94f31f6cbb05a6970b655d7bc62263c2b86cf02a346aeeab1129d46a3e2e52",
+        "pngSha256": "a42ceb4d2303a0569c7418f8d1cd1ab68deb91fafbade4082580920e44ca8a3c",
+        "page": "er-stress-and-unfolded-protein-response"
+      }
+    },
+    {
+      "version": "original",
+      "page": "nutrient-sensing-ampk",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "1d7bdc3adf3bf4e996a43a000f81f3c5aa58d2bc181d0d0033812c52cb501570",
+      "reused": false,
+      "render": {
+        "codeSha256": "1d7bdc3adf3bf4e996a43a000f81f3c5aa58d2bc181d0d0033812c52cb501570",
+        "pngSha256": "6488aa71b44827a7e167cc4246c4de132a5f862016372326b2e506b6875422af",
+        "page": "nutrient-sensing-ampk"
+      }
+    },
+    {
+      "version": "later",
+      "page": "nutrient-sensing-ampk",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "1d7bdc3adf3bf4e996a43a000f81f3c5aa58d2bc181d0d0033812c52cb501570",
+      "reused": true,
+      "render": {
+        "codeSha256": "1d7bdc3adf3bf4e996a43a000f81f3c5aa58d2bc181d0d0033812c52cb501570",
+        "pngSha256": "6488aa71b44827a7e167cc4246c4de132a5f862016372326b2e506b6875422af",
+        "page": "nutrient-sensing-ampk"
+      }
+    },
+    {
+      "version": "original",
+      "page": "oxidative-phosphorylation",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "fa1f043a093cfbf1d3bcb1fbec56de9fa63b84f88ed2cd95f329572b007c78f2",
+      "reused": false,
+      "render": {
+        "codeSha256": "fa1f043a093cfbf1d3bcb1fbec56de9fa63b84f88ed2cd95f329572b007c78f2",
+        "pngSha256": "7046eecc18ebad6bed2f14fe5d3e772e5d942659c73507e17fa86268b640e0b7",
+        "page": "oxidative-phosphorylation"
+      }
+    },
+    {
+      "version": "later",
+      "page": "oxidative-phosphorylation",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "fa1f043a093cfbf1d3bcb1fbec56de9fa63b84f88ed2cd95f329572b007c78f2",
+      "reused": true,
+      "render": {
+        "codeSha256": "fa1f043a093cfbf1d3bcb1fbec56de9fa63b84f88ed2cd95f329572b007c78f2",
+        "pngSha256": "7046eecc18ebad6bed2f14fe5d3e772e5d942659c73507e17fa86268b640e0b7",
+        "page": "oxidative-phosphorylation"
+      }
+    },
+    {
+      "version": "original",
+      "page": "reactive-oxygen-species",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "30b81f18c7965be0df03ef72dc8b0c90e887f7583dfdf65a5a4a5d02c04d7a0f",
+      "reused": false,
+      "render": {
+        "codeSha256": "30b81f18c7965be0df03ef72dc8b0c90e887f7583dfdf65a5a4a5d02c04d7a0f",
+        "pngSha256": "c5a0938ccbb5cc8027782b5a91f3df16300e7ee92f490bc501af3d7bb66ca8b4",
+        "page": "reactive-oxygen-species"
+      }
+    },
+    {
+      "version": "later",
+      "page": "reactive-oxygen-species",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "30b81f18c7965be0df03ef72dc8b0c90e887f7583dfdf65a5a4a5d02c04d7a0f",
+      "reused": true,
+      "render": {
+        "codeSha256": "30b81f18c7965be0df03ef72dc8b0c90e887f7583dfdf65a5a4a5d02c04d7a0f",
+        "pngSha256": "c5a0938ccbb5cc8027782b5a91f3df16300e7ee92f490bc501af3d7bb66ca8b4",
+        "page": "reactive-oxygen-species"
+      }
+    },
+    {
+      "version": "original",
+      "page": "warburg-effect",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceCodeSha256": "8168ba104f21107792dcc6a0befd09715da4bb2eea9011811cf2b0ae5fb57a49",
+      "reused": false,
+      "render": {
+        "codeSha256": "8168ba104f21107792dcc6a0befd09715da4bb2eea9011811cf2b0ae5fb57a49",
+        "pngSha256": "0a60532dffbfb0cb451a93490f7f380349697063643d150e650ce0e7f13237b6",
+        "page": "warburg-effect"
+      }
+    },
+    {
+      "version": "later",
+      "page": "warburg-effect",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceCodeSha256": "8168ba104f21107792dcc6a0befd09715da4bb2eea9011811cf2b0ae5fb57a49",
+      "reused": true,
+      "render": {
+        "codeSha256": "8168ba104f21107792dcc6a0befd09715da4bb2eea9011811cf2b0ae5fb57a49",
+        "pngSha256": "0a60532dffbfb0cb451a93490f7f380349697063643d150e650ce0e7f13237b6",
+        "page": "warburg-effect"
+      }
+    }
+  ],
+  "uniqueRenders": [
+    {
+      "codeSha256": "1b2baad38ade42f02d5bb2d2800782a3c8e41bb09480dc5b88370ab0ea850f30",
+      "pngSha256": "0cfeeaeee86ff1e55d4f01446ffe26a052d1596b352e1ac647c9fcd69b16165c",
+      "page": "apoptosis-and-bcl2-family"
+    },
+    {
+      "codeSha256": "a3b65e038107adf8fdac061df2602e70d5c6f0cf627c08bdc5851d34a459811d",
+      "pngSha256": "3bb4c75650b6623cf38effa6c85e56450ae6ad42d27a671f8ab3d9d5afbc9ccb",
+      "page": "apoptosis-vs-necrosis-vs-ferroptosis"
+    },
+    {
+      "codeSha256": "3277e90cdfba79775f40be241e8711414dbd57bcd5d3d6af2a392e8f6bd5b757",
+      "pngSha256": "2e6129216402152171fa2cf6fc05e4ec50f0d260438c03d5bdb0573788d03972",
+      "page": "ferroptosis"
+    },
+    {
+      "codeSha256": "78390fb580b878dbca13c8dc1631829acc3f5b7ed534d1eb9bf16c3512e00e22",
+      "pngSha256": "f62ad247adcf573e1acbfa117da95f1f20a6f9d0b90f14871e9643a12d27546f",
+      "page": "immunogenic-cell-death"
+    },
+    {
+      "codeSha256": "8b94f31f6cbb05a6970b655d7bc62263c2b86cf02a346aeeab1129d46a3e2e52",
+      "pngSha256": "a42ceb4d2303a0569c7418f8d1cd1ab68deb91fafbade4082580920e44ca8a3c",
+      "page": "er-stress-and-unfolded-protein-response"
+    },
+    {
+      "codeSha256": "1d7bdc3adf3bf4e996a43a000f81f3c5aa58d2bc181d0d0033812c52cb501570",
+      "pngSha256": "6488aa71b44827a7e167cc4246c4de132a5f862016372326b2e506b6875422af",
+      "page": "nutrient-sensing-ampk"
+    },
+    {
+      "codeSha256": "fa1f043a093cfbf1d3bcb1fbec56de9fa63b84f88ed2cd95f329572b007c78f2",
+      "pngSha256": "7046eecc18ebad6bed2f14fe5d3e772e5d942659c73507e17fa86268b640e0b7",
+      "page": "oxidative-phosphorylation"
+    },
+    {
+      "codeSha256": "30b81f18c7965be0df03ef72dc8b0c90e887f7583dfdf65a5a4a5d02c04d7a0f",
+      "pngSha256": "c5a0938ccbb5cc8027782b5a91f3df16300e7ee92f490bc501af3d7bb66ca8b4",
+      "page": "reactive-oxygen-species"
+    },
+    {
+      "codeSha256": "8168ba104f21107792dcc6a0befd09715da4bb2eea9011811cf2b0ae5fb57a49",
+      "pngSha256": "0a60532dffbfb0cb451a93490f7f380349697063643d150e650ce0e7f13237b6",
+      "page": "warburg-effect"
+    }
+  ],
+  "count": 9,
+  "visualInspection": "All nine complete default-theme renders viewed with their lesson mechanisms; reused across eighteen byte-matched version instances.",
+  "scientificScopeNotes": {
+    "apoptosis-vs-necrosis-vs-ferroptosis": "The source uses permanent-arrest and usually-quiet shorthand. Canonical records instead retain durable/context-dependent arrest and immune-context evidence.",
+    "immunogenic-cell-death": "The linear route is a mechanism sketch; canonical definition requires adaptive-response evidence in a suitable context, not danger signals alone.",
+    "all": "Shapes, node counts and arrows are schematic; no probability, fixed ratio or clinical benefit is inferred."
+  }
+}

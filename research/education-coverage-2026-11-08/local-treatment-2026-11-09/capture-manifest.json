@@ -1,0 +1,520 @@
+[
+  {
+    "file": "med-41213939.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41213939+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:04.993035+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41213939+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12384,
+    "sha256": "9bf625469d1e0118fa202b306b8d036db7a93fda743c5688d2d801875615375a"
+  },
+  {
+    "file": "med-35108059.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35108059+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:04.993196+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35108059+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 14555,
+    "sha256": "fd746f0e410036629b421de1c11ec54f22e7440b8252e493aa17e06492aa06d0"
+  },
+  {
+    "file": "med-38104577.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38104577+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:04.993295+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38104577+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 20646,
+    "sha256": "4af38a95498d3ad2123fa50a8f62ce7c54c5fc5f9f282cf7014da8bcaf0e6abb"
+  },
+  {
+    "file": "med-40466065.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40466065+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:04.993360+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40466065+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 18621,
+    "sha256": "60e111c0782b3e110b8672cea28b83be94cdaee9709f8429ba1d32cbbe814095"
+  },
+  {
+    "file": "med-42842849.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42842849+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:05.916871+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42842849+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 13229,
+    "sha256": "223dbf3b40a778ec025030ea630db65adffa0e578c707d91ec21d45720b9826c"
+  },
+  {
+    "file": "med-32209603.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32209603+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:15:05.971221+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32209603+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 25861,
+    "sha256": "4b6d188923745acb42a16a5443b6e8330ca8595bd65266c7f0d2d65a5adca76a"
+  },
+  {
+    "file": "fda-radiopharmaceutical-2019.pdf",
+    "url": "https://www.fda.gov/media/129547/download",
+    "capturedAt": "2026-11-09T19:15:06.050579+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/media/129547/download",
+    "contentType": "application/pdf",
+    "bytes": 171528,
+    "sha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c"
+  },
+  {
+    "file": "booster-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12603194/",
+    "capturedAt": "2026-11-09T19:15:06.575826+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12603194/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 185206,
+    "sha256": "89500f508e7e489d62fc86493f31691e42e3b580fc3887a00227fd2d608b8dab"
+  },
+  {
+    "file": "nrg-br002-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13647293/",
+    "capturedAt": "2026-11-09T19:15:06.672755+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13647293/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 200483,
+    "sha256": "ac3437a6270f37c928deb9d22627f198ffbb3921d63fc24f6422c4e9cbc473ef"
+  },
+  {
+    "file": "icd-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7064135/",
+    "capturedAt": "2026-11-09T19:21:10.560119+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7064135/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 602415,
+    "sha256": "4a17447fc411fae5e168e9ffbddee2955344636dcecc66b1987e5683b127efe7"
+  },
+  {
+    "file": "pacific5-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9015199/",
+    "capturedAt": "2026-11-09T19:21:10.560359+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9015199/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 236252,
+    "sha256": "a84aa188af280732034ecb41fd75fae564556a1cdec20f0728be668c59562426"
+  },
+  {
+    "file": "curb-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10880046/",
+    "capturedAt": "2026-11-09T19:21:10.560444+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10880046/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 280125,
+    "sha256": "2806da80fd6b048fed46b51cf3baaa26be594ca705d026cce9269c7a129e6141"
+  },
+  {
+    "file": "b51-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/",
+    "capturedAt": "2026-11-09T19:21:10.560504+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 212112,
+    "sha256": "6677a37e39f1261af862d306d48531ffcdc7a79bfdd47212f64a485e4d8e6e43"
+  },
+  {
+    "file": "nci-external-beam.html",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+    "capturedAt": "2026-11-09T19:21:10.966465+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 58212,
+    "sha256": "d6f7cb42948d27915cf2b8008c2a014dc6febd41668ce3fe5e438c4ba3abe427"
+  },
+  {
+    "file": "nci-breast-pdq.html",
+    "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+    "capturedAt": "2026-11-09T19:21:11.058149+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 810189,
+    "sha256": "07833b9f6d4edcc27970bdcb8e4058e247da06293635991f373826ec82cb8247"
+  },
+  {
+    "file": "rsna-acr-ablation.html",
+    "url": "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+    "capturedAt": "2026-11-09T19:21:11.082464+00:00",
+    "status": 200,
+    "finalURL": "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 56715,
+    "sha256": "e238177c95ef2bee3e03e9c21685fa703cb881c3959916de793855877419d935"
+  },
+  {
+    "file": "sir-ablation-reporting.pdf",
+    "url": "https://www.scvir.org/clinical/cpg/Image_guid_tumor_abl_standztion_termn_reportin_10yr.pdf",
+    "capturedAt": "2026-11-09T19:21:11.226304+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+  },
+  {
+    "file": "med-25442132.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25442132+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:20.870781+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25442132+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 15145,
+    "sha256": "b2b8b60a257fc3b3cfe484d529ec32ef010e42427d9008dc4f2c055faa0c0129"
+  },
+  {
+    "file": "med-22933102.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22933102+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:20.871042+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22933102+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6044,
+    "sha256": "e112759221c01b1e8a20072c6326e147281fe87a87f683fe92dd229001060e08"
+  },
+  {
+    "file": "med-25738477.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25738477+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:20.871119+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25738477+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6203,
+    "sha256": "4a0c81690eb963b2479de5d37a1e13061163694a3b4cf335734548d29f992733"
+  },
+  {
+    "file": "med-9787063.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9787063+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:20.871171+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9787063+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4760,
+    "sha256": "3affbf03504f1a7468d64142450f009ab28282d5f70624ffee583626464b7c03"
+  },
+  {
+    "file": "med-35283342.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35283342+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:21.949288+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35283342+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6991,
+    "sha256": "ed737d8f77ea018af6cb8dd42bf9db35f9d1b97bc8a1d41017a9e75b741d546a"
+  },
+  {
+    "file": "med-20233825.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20233825+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:21.952864+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20233825+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9403,
+    "sha256": "4e0362b39dcb896e6249cd25f88423fe0d7c3fd3477ff1c6cd62226228a3db2d"
+  },
+  {
+    "file": "med-24055415.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24055415+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:21.980795+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24055415+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12865,
+    "sha256": "19cdbd7ae23860aaabd0647063ace623159e6c976901a2ac84b0aad537ba930d"
+  },
+  {
+    "file": "med-18356109.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18356109+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:22.595138+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18356109+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 14305,
+    "sha256": "96e70b8888c57d27c69dc3a618b7f453e0be726ab3dc2fe48362cbe858731413"
+  },
+  {
+    "file": "med-32580883.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32580883+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:22:22.605576+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32580883+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 19222,
+    "sha256": "7db5a80b1f8f930f4ecd4f83c1f725e7415cffe65a85873a2872544b9dc4431b"
+  },
+  {
+    "file": "ablation-consensus-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7660986/",
+    "capturedAt": "2026-11-09T19:22:22.669525+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7660986/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 499045,
+    "sha256": "350ed96f685d406308fff700fac7d5e3f4ec7836edaa7bcf50c06c44e1a26ebe"
+  },
+  {
+    "file": "lubner-mechanisms-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/",
+    "capturedAt": "2026-11-09T19:22:23.156045+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 261648,
+    "sha256": "d23bcbc78e1851943648586f8dec32dee5305f874788477838e893a3a36c24cc"
+  },
+  {
+    "file": "nci-cryosurgery.html",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery",
+    "capturedAt": "2026-11-09T19:22:23.619441+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 54412,
+    "sha256": "469a485f05474839691b85573f4ed7c1b269edf2b4529e3656c22741ce5ecd89"
+  },
+  {
+    "file": "iaea-radiation-physics-2005.pdf",
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+    "capturedAt": "2026-11-09T19:22:23.851376+00:00",
+    "status": 200,
+    "finalURL": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+    "contentType": "application/pdf",
+    "bytes": 7211436,
+    "sha256": "da4e3b5af19ed9506a812fea6704ff15cf55991902684a17759dbc7cbba05da0"
+  },
+  {
+    "file": "nci-radiation-basics.html",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+    "capturedAt": "2026-11-09T19:22:24.091081+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 60907,
+    "sha256": "d6d779326066bf717c6e00ae9be86c82bb78e8d2edd323c023663917609e060e"
+  },
+  {
+    "file": "med-28898379.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28898379+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.027047+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28898379+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11530,
+    "sha256": "bac73c84ce239bc692b1fd9d17ae312557e05c0f7e452627cbbcea3beb5dff05"
+  },
+  {
+    "file": "med-25439688.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25439688+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.027303+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25439688+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 16976,
+    "sha256": "cfd9ced180d074adbda578f77e0b8a91b3b22729c2758d5cc098479f69f526f7"
+  },
+  {
+    "file": "eanm-snmmiguideline-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs00259-023-06255-8&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.027394+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs00259-023-06255-8&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 16890,
+    "sha256": "2fd24e68e6086a8987bffa5f62086ecced0d05ae9007c993e6a1cbbc6d792adf"
+  },
+  {
+    "file": "elicit-lung-cohort-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.cllc.2024.07.009&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.027453+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.cllc.2024.07.009&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9267,
+    "sha256": "bdda5c429b59942a29dba4ba56015e6c339512176bf6a97366b858b476500b6c"
+  },
+  {
+    "file": "elicit-breast-review-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs10585-024-10312-3&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.722530+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs10585-024-10312-3&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9595,
+    "sha256": "c152fe8b5a44f5a3c0469010a08d80d2c409ac728fede652c3f4ca488a7ab0a1"
+  },
+  {
+    "file": "elicit-practical-review-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.21.01719&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:25:22.889613+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.21.01719&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4859,
+    "sha256": "f4509be047c1519a4174c5e0fe6a563e20b3bc378b21aa249ccda9b41616d72a"
+  },
+  {
+    "file": "nci-breast-surgery.html",
+    "url": "https://www.cancer.gov/types/breast/treatment/surgery",
+    "capturedAt": "2026-11-09T19:25:22.910800+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/treatment/surgery",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 39224,
+    "sha256": "31ff4585d405de812aeb8d340cac5f1f363bc5c2274b9b908274fb51acd02045"
+  },
+  {
+    "file": "nci-lumpectomy.html",
+    "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+    "capturedAt": "2026-11-09T19:25:23.713547+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 46310,
+    "sha256": "ba423cacb0e2ea486f1245eb52f1cef86ccbfcb97b223464bf160ea30650879d"
+  },
+  {
+    "file": "nci-mastectomy.html",
+    "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+    "capturedAt": "2026-11-09T19:25:23.803984+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 53321,
+    "sha256": "9064159343e0dcccd8ba2d70f7edf29c6fd2d83a43497d51d386e95325411a4c"
+  },
+  {
+    "file": "nci-breast-radiation.html",
+    "url": "https://www.cancer.gov/types/breast/treatment/radiation",
+    "capturedAt": "2026-11-09T19:25:23.916076+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/treatment/radiation",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 50929,
+    "sha256": "1dd12fc5306a64ccf3b99bff187bce78f0ff44e268eb4bc65a8f6691f52b0400"
+  },
+  {
+    "file": "fda-pluvicto-july2026.html",
+    "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy",
+    "capturedAt": "2026-11-09T19:25:24.012109+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 37469,
+    "sha256": "78b1fc03920579af9fc663c8ad52f6179e33ca250d9ecb04e0457f3f51ecfd7a"
+  },
+  {
+    "file": "curb-conference-2022-crossref.json",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.ijrobp.2022.09.008",
+    "capturedAt": "2026-11-09T19:29:16.036891+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "file": "curb-conference-2021-crossref.json",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.ijrobp.2021.09.014",
+    "capturedAt": "2026-11-09T19:29:16.037121+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1016%2Fj.ijrobp.2021.09.014",
+    "contentType": "application/json",
+    "bytes": 8546,
+    "sha256": "4b53e49665a23ac7cda7bbc3d59a91fe77bf303cb7b950eb5712b02314fb0a11"
+  },
+  {
+    "file": "elicit-immune-preprint-crossref.json",
+    "url": "https://api.crossref.org/works/10.21203%2Frs.3.rs-3547043%2Fv1",
+    "capturedAt": "2026-11-09T19:29:16.037208+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.21203%2Frs.3.rs-3547043%2Fv1",
+    "contentType": "application/json",
+    "bytes": 19292,
+    "sha256": "ebb0d4de6bf9fc17ff2e37f309ef34f590c79218177324dcf091d7a248e976ba"
+  },
+  {
+    "file": "elicit-presentation-crossref.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.sabcs19-pl2",
+    "capturedAt": "2026-11-09T19:29:16.037265+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "file": "amaros-ten-year-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.22.01565&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:29:16.300680+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.22.01565&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 13067,
+    "sha256": "cb14ba6a40ccaadbce8d9394d90ec488049532b7803e90e6056f031117103914"
+  },
+  {
+    "file": "eanm-guideline-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10317889/",
+    "capturedAt": "2026-11-09T19:30:19.698643+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10317889/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 354306,
+    "sha256": "e39c013c88da219df0957a91f7464598cb186f1ced5a57b3d965bb19af0865e4"
+  },
+  {
+    "file": "z0011-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672806/",
+    "capturedAt": "2026-11-09T19:30:19.698903+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5672806/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 225256,
+    "sha256": "2d99f2ff6df4ee960a9989294fbd8fd1101bbc578fcba85f634589fc11d8b107"
+  },
+  {
+    "file": "residual-classification-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38569931+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:48:21.186639+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38569931+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9271,
+    "sha256": "f5cf8cf19c7564fd9dc9c7105fba524a88c0e08047e74c8ae254a395d372898c"
+  },
+  {
+    "file": "nci-residual-tumor-table.html",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK65791.1/table/CDR0000062893__195/?report=objectonly",
+    "capturedAt": "2026-11-09T19:48:21.186915+00:00",
+    "status": 200,
+    "finalURL": "https://www.ncbi.nlm.nih.gov/books/NBK65791.1/table/CDR0000062893__195/?report=objectonly",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21632,
+    "sha256": "4278b1b652f146346c3a95ede771ae76ef7706bdba24785d72af747527a2491f"
+  },
+  {
+    "file": "med-20656229.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20656229+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T19:59:55.080092+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20656229+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 5793,
+    "sha256": "fb5f72dd09e1cf1ab01411826d1faa5c803f315ee1fedb47f15837667e9b1e8f"
+  },
+  {
+    "file": "iaea-bed-cervical-2014.pdf",
+    "url": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf",
+    "capturedAt": "2026-11-09T20:11:39.828638+00:00",
+    "status": 200,
+    "finalURL": "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf",
+    "contentType": "application/pdf",
+    "bytes": 2688174,
+    "sha256": "6da90060809465c120841b273883d94921ba9db70be2f483029dfcd83634c91e"
+  }
+]

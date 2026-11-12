@@ -1,0 +1,2167 @@
+{
+  "dataCommit": "9c35a999031089605de1286fcc981e21dd688f4c",
+  "records": [
+    {
+      "id": "vaccines-and-oncolytic-viruses",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-17",
+          "after": "2026-11-12",
+          "beforeSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+            },
+            {
+              "label": "NCI: cancer prevention and infection-prevention vaccines",
+              "url": "https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq"
+            },
+            {
+              "label": "NCI: cancer treatment vaccines",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+            },
+            {
+              "label": "Brody et al.: local radiation and CpG in 15 lymphoma participants (2010)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+            },
+            {
+              "label": "Ott et al.: personalised long-peptide melanoma vaccine (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            },
+            {
+              "label": "Kedl et al.: mouse T-cell competition for antigen-presenting cells (2000)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11034600/"
+            },
+            {
+              "label": "CDC: vaccine-adjuvant definition and reactions",
+              "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html"
+            }
+          ],
+          "beforeSha256": "6415b46bb586a5f59fea6ad52d26ac1ef763f0bc0973228f36e9c78754931bdd",
+          "afterSha256": "fe45cd98a88ae75b2d39d5b86af6b8be68be65c51c95666f8f2f29efa67659d5"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Cancer-vaccine strategies seek useful recognition of cancer-associated targets. Their purpose is different from vaccination against an infection that can cause cancer: HPV and hepatitis B vaccines reduce infection-related cancer risk, rather than treat an established tumour. A therapeutic vaccine can be studied after removal of visible cancer to reduce recurrence risk; that timing does not turn it into infection prevention. Teaching recognition is an aim, not a guarantee that responding cells will reach and control the cancer.",
+            "Describe a vaccine along three independent axes: its purpose, how its targets are selected, and what material is supplied. Personalised selection uses information or material from one person's tumour and can still include targets shared with other people. Shared targets can be tumour-associated proteins or recurring mutation-derived neoantigens. Neither label proves that every cancer cell contains and displays the target. RNA can encode shared targets, and a personalised product can contain peptides. A three-axis comparison therefore classifies designs without ranking their effectiveness.",
+            "A designed product supplies planned antigen material or instructions for making it. An in-situ approach instead uses tumour material already within the body while trying to support presentation and immune activation. Injury or injection alone does not show that vaccination succeeded. These categories describe antigen sources; they do not determine route, peptide display, personalisation or clinical benefit. The dedicated in-situ vaccination and intratumoral immunotherapy records distinguish a learning strategy from a delivery route.",
+            "Brody's 2010 phase I/II study treated 15 people with low-grade B-cell lymphoma using low-dose radiation to one tumour and an injected CpG TLR9 agonist at that site. At distant untreated sites, one participant had a complete response and three had partial responses. This is evidence for a particular multicomponent regimen in that lymphoma group. It does not establish that every local injury creates a vaccine, that the same result occurs in breast cancer, or that this strategy outperforms a supplied-antigen vaccine.",
+            "Ott's 2017 melanoma study illustrates personalised selection without RNA delivery. Six people received a vaccine containing long peptides selected from their own tumours with poly-ICLC, an immune stimulus. The study demonstrated manufacturing feasibility and assay-defined antigen-reactive responses. Some T-cell preparations also recognised the person's tumour cells, while others did not under the tested conditions. This early, nonrandomised study cannot rank all peptide and RNA platforms or isolate the contribution of each ingredient.",
+            "Follow a proposed vaccine response through separate questions. Is the antigen supplied or available with suitable supporting signals? Is it processed and displayed, and are suitable cells primed or expanded? Do those cells reach the tumour, recognise naturally displayed targets and maintain useful function? Finally, does the complete intervention improve a clinical outcome with acceptable harms? Variation between tumour cells, differences in target display and immune restraint can affect different steps. The sequence is a way to investigate dependencies, not a promise that each stage follows automatically.",
+            "Manufacturing feasibility, immunogenicity and clinical benefit are different endpoints. An immune assay needs its stated cell population, supplied antigen, controls, sampling time and response definition. Reactivity in blood to added peptide does not by itself establish recognition of naturally processed targets on cancer cells; recognition in a model does not establish fewer recurrences. A clinical comparison needs the population, accompanying treatments, endpoint, follow-up and harms. A positive result at one level cannot substitute for the next.",
+            "Adding target sequences does not guarantee equally broad functional immunity. Responses can be concentrated on a subset of epitopes, a pattern called immunodominance; Ott's study found different response frequencies across selected targets and T-cell populations. A vaccine adjuvant is an ingredient intended to support an immune response. Adjuvant cancer treatment instead means treatment after the main treatment. These uses of the same word describe different things.",
+            "In a fictional study, an RNA product encoding shared tumour-associated antigens is given after surgery, and an antigen-reactive blood response is detected. Its purpose is therapeutic risk reduction, its target selection is shared, and its supplied material is RNA. Nothing in those facts demonstrates personalised manufacture, natural tumour recognition or reduced recurrence. Those conclusions require their own product, assay and clinical evidence."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "7f4142238825f2c7d9ed88c803438f6b6f2d26af5074b60af07fcb44de8e39c2"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "vaccine-adjuvants",
+            "intratumoral-immunotherapy",
+            "in-situ-vaccination",
+            "shared-antigen-vaccine"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "f82dfcec8d603f07ebac9a4afe95db33fd64b53812e968f38fca4d482d24e175"
+        },
+        "summary": {
+          "before": "Two kinds of vaccine matter in oncology. Preventive vaccines stop the infections that cause cancer: HPV vaccination prevents most cervical cancers and hepatitis B vaccination prevents many liver cancers. Therapeutic vaccines are given to people who already have cancer and aim to train T cells against tumour proteins. They come in several forms: off-the-shelf vaccines against antigens shared by many tumours, personalised vaccines built from the mutations in one patient's tumour (usually as mRNA), dendritic cell vaccines made from the patient's own immune cells, and bacterial vectors engineered to carry tumour antigens.\n\nOncolytic viruses are a related idea from the other direction. A weakened or engineered virus infects tumour cells preferentially, multiplies inside them and bursts them, releasing tumour antigens and inflammatory signals that draw immune cells in. Talimogene laherparepvec, a modified herpes virus injected into melanoma deposits, was the first to be approved.\n\nFor decades therapeutic vaccines disappointed in late-stage trials, largely because tumours suppress the T cells they raise. The current wave pairs vaccines with checkpoint inhibitors so those T cells can act, and personalised mRNA vaccines are now in phase 3 trials in melanoma and other cancers. Sipuleucel-T, a dendritic cell product for prostate cancer, remains the one approved therapeutic vaccine in the older sense.",
+          "after": "Cancer-vaccine strategies differ in purpose, target selection and supplied material. Infection-prevention vaccines reduce the risk from cancer-causing infections. Therapeutic strategies aim at cancer-associated targets, including after removal of visible disease. Personalised selection, shared targets and RNA or peptide delivery are separate design choices.\n\nOncolytic viruses are a related approach in which viral activity can injure susceptible tumour cells and release material that may support an immune response. Infection, tumour recognition and useful clinical control remain distinct. A product-specific result cannot establish benefit for every vaccine, virus, cancer or setting.",
+          "beforeSha256": "af7e0de8b6bda90c58b61852285145e1713ae04071b111836c0ca8b50a5c347a",
+          "afterSha256": "efd1f50155659313b75a1d0f88e15276a19876035c014c1f7486859a73968ad1"
+        },
+        "tldr": {
+          "before": "Cancer vaccines teach the immune system to recognise proteins on tumour cells; oncolytic viruses infect and burst cancer cells while raising the alarm to immunity.",
+          "after": "Cancer vaccines aim to support immune recognition of cancer targets. Oncolytic viruses can injure susceptible cancer cells; useful tumour-directed immunity and clinical benefit need separate evidence.",
+          "beforeSha256": "50e2eba02dfa4809b7c8adc0c13fdfe3009881252681f1a036dba585c068fc41",
+          "afterSha256": "5764dfe283b1df5675cec021d8f626c3009209c5e4109930528f06d19e5e38d4"
+        }
+      }
+    },
+    {
+      "id": "cytokine-therapy",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "limitations": {
+          "before": [
+            "Systemic toxicity; preferential Treg expansion (IL-2)"
+          ],
+          "after": [
+            "Useful and unwanted responses depend on molecule, formulation, receptor and cell state",
+            "Local production does not guarantee confined exposure",
+            "Immune-cell expansion alone does not establish cancer control"
+          ],
+          "beforeSha256": "c0c3e204ecee3bd82b2efbdbccfd7b0f5b86541385fea9493e43206a349f3e8d",
+          "afterSha256": "ff3968b31bca8b86bbd2a4c69c1d76fdceec6fe9739973a287b4417f840e2d79"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cytokine"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cytokine"
+            },
+            {
+              "label": "NCI: cytokines and haematopoietic growth-factor support",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/immune-system-modulators"
+            },
+            {
+              "label": "Boyman et al.: selective IL-2-antibody complexes in mice (2006)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16484453/"
+            },
+            {
+              "label": "Nicola: cytokine receptor pleiotropy and redundancy (1994)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/7696967/"
+            },
+            {
+              "label": "Lazear et al.: shared and distinct interferon functions (2019)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30995506/"
+            },
+            {
+              "label": "Zhang et al.: inducible IL-12 TILs, serum exposure and toxicity (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/"
+            },
+            {
+              "label": "Proleukin U.S. prescribing information: indications and boxed warnings",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+            }
+          ],
+          "beforeSha256": "e2f81e371f3b22d9824fa2dfde53da83b7fd5254ca3e912ce452eb39e1f1346b",
+          "afterSha256": "17ed6cf037febaec381b18af2a4f2677bcbacab27f16c58ddd6e786729fe2c25"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "A cytokine is a signalling protein, and cytokine treatment supplies the protein or causes cells to produce it. The response depends on the molecule, the receiving receptor system, the cell's previous state and its exposure. A neighbourhood-message analogy is useful only to this extent: receiving a signal does not give a cell the correct cancer target or a literal instruction to fight it. IL-2 can influence lymphocyte growth and activity; interferons have different receptors and effects, so one cytokine name cannot stand for every immune signal.",
+            "IL-2 can support regulatory T cells as well as other responding lymphocytes. Boyman and colleagues showed in mice that different IL-2-antibody complexes preferentially expanded different T-cell populations, including CD8 cells or CD4 regulatory T cells. The formulation changed the biological effect. Receptor composition, sensitivity and cell state therefore matter when studying a cytokine design; these mouse experiments do not establish human cancer benefit from every complex or from a larger dose.",
+            "Circulating protein, local formulations and engineered cytokine-producing cells are different exposure strategies. A local origin does not guarantee local confinement: the signal can reach the circulation and persist elsewhere. In Zhang's 2015 dose-escalation study, 33 people with metastatic melanoma received transferred tumour-infiltrating cells engineered with inducible IL-12. Higher cell doses were associated with high serum IL-12 and interferon gamma and serious liver, fever and circulatory toxicities. The finding concerns that construct and regimen; it does not establish the safety or harm of every armoured cell product.",
+            "The U.S. Proleukin prescribing information specifies aldesleukin for adults with metastatic renal cell carcinoma or metastatic melanoma. Its boxed warning includes potentially fatal capillary leak and requires administration in a hospital with an intensive-care facility. These are medicine-specific indications and precautions, not an indication or toxicity rate for all cytokines. Mechanistic plausibility or a diagnosis alone does not select a cytokine regimen.",
+            "Haematopoietic growth factors support blood-cell production. For example, G-CSF used to reduce infection risk from low white-cell counts during cancer treatment is supportive care; that use does not by itself establish direct cancer killing. Endogenous cytokine biology, measuring a signal and administering a therapy are different activities. More activation is not automatically more useful immunity, and secretion by an engineered cell is not proof of confined exposure.",
+            "A fictional spatial comparison has two equal-sized compartments with cytokine concentrations of 0 and 20 picograms per millilitre, while another has 10 and 10. Both means are 10, but the spatial patterns differ. A whole-sample mean cannot establish directed chemotaxis, which concerns movement in relation to a chemical pattern, an appropriate receiver and a route the cell can traverse. This simplified drawing neither measures migration nor states a requirement for every kind of cell movement.",
+            "Measure exposure, receptor signalling, absolute cell number, cell state, functional activity and tumour outcomes separately. A larger sampled cell population can reflect more division, less loss or redistribution into the sampled compartment. A blood count does not by itself describe the tumour. Likewise, a high cytokine concentration or inflammation does not establish efficacy: persistence of useful activity and adverse effects need their own measurements.",
+            "For a cytokine design, follow the molecule, formulation and route to tissue exposure, receptor and cell state, useful and unwanted responses, and then clinical outcomes and harms. This is a set of conditional questions. Antigen material, a recognition receptor and cytokine support perform different jobs: adding cytokine-producing armouring does not itself supply cancer specificity or a route into the tumour. The actual combination and disease setting need evidence.",
+            "Suppose a fictional cytokine study reports more circulating T cells after treatment but no measurement of their targets or tumour recognition. The count changed, but the result does not identify which populations changed, whether division, survival or redistribution caused it, or whether those cells can recognise and affect the cancer. Functional testing, clinical outcomes, durability and safety remain separate questions."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "c318e9f705e39183928178afe94de3a8c977d83c34bbb0f6903727318e3ba03a"
+        },
+        "principle": {
+          "before": "Systemic or targeted delivery of T- and NK-cell growth factors.",
+          "after": "Deliver a specified signalling protein, or support its production, to change responses in cells with the relevant receptor system; measure useful effects and harms under the actual exposure conditions.",
+          "beforeSha256": "675da53a8cc1c72da85a2548555654b1825f1d458b508bde4d27889c386421c2",
+          "afterSha256": "b6856ccf34478eb654ccc6f40f109c429f4152c36039c705d2fbca6317623c89"
+        },
+        "related": {
+          "before": [
+            "immunocytokines"
+          ],
+          "after": [
+            "immunocytokines",
+            "intratumoral-immunotherapy",
+            "vaccine-adjuvants",
+            "cytokine",
+            "interferons"
+          ],
+          "beforeSha256": "0fb2ccda061e3286d8b58835ae8660de87ab18300e158d95831d82d491c59638",
+          "afterSha256": "e19dc210311edb807d3efa622b21610d1d3b903f25d9c9492e6dbc4c9286aabe"
+        },
+        "tldr": {
+          "before": "Cytokine therapy gives immune-signalling proteins as drugs. High-dose interleukin-2 was the first immunotherapy to cure some melanomas, at great toxicity.",
+          "after": "Cytokine therapy supplies immune-signalling proteins or cells that produce them. Effects depend on the molecule, receiving cells and exposure, with benefits and harms specific to the regimen.",
+          "beforeSha256": "8944af09aa34dc1b9548b04ffbed211eabcf56d9aa825d1643422d6c2bea2984",
+          "afterSha256": "c0b980eb26bae7dd344d8174e4c05e9e3ad3e2386f93afc769f2ee96d0632edd"
+        }
+      }
+    },
+    {
+      "id": "checkpoint-inhibitor",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-10",
+          "after": "2026-11-12",
+          "beforeSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Checkpoint_inhibitor"
+            },
+            {
+              "label": "FDA, 16 October 2026: updated tumour-agnostic TMB-H indication",
+              "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+            },
+            {
+              "label": "KEYTRUDA current prescribing information, sections 1.8, 1.9, 1.18 and 2.1",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+            },
+            {
+              "label": "NICE NG122: lung cancer, management",
+              "url": "https://www.nice.org.uk/guidance/ng122/chapter/Management"
+            },
+            {
+              "label": "Macmillan: pembrolizumab (Keytruda)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab"
+            },
+            {
+              "label": "Macmillan: durvalumab (Imfinzi)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab"
+            },
+            {
+              "label": "Macmillan: atezolizumab (Tecentriq)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/atezolizumab"
+            },
+            {
+              "label": "Green et al., Blood 2010: selective 9p24.1 amplification and PD-1 ligand induction through JAK2 in Hodgkin lymphoma and mediastinal large B-cell lymphoma",
+              "url": "https://doi.org/10.1182/blood-2010-05-282780"
+            },
+            {
+              "label": "Roemer et al., J Clin Oncol 2016: PD-L1 and PD-L2 genetic alterations in 108 classical Hodgkin lymphomas",
+              "url": "https://doi.org/10.1200/JCO.2016.66.4482"
+            },
+            {
+              "label": "Ansell et al., N Engl J Med 2015: nivolumab in relapsed or refractory Hodgkin lymphoma (23 patients)",
+              "url": "https://doi.org/10.1056/NEJMoa1411087"
+            },
+            {
+              "label": "Roemer et al., J Clin Oncol 2018: MHC class II and PD-L1 expression predict outcome after PD-1 blockade in classical Hodgkin lymphoma (CheckMate 205)",
+              "url": "https://doi.org/10.1200/JCO.2017.77.3994"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Checkpoint_inhibitor"
+            },
+            {
+              "label": "FDA, 16 October 2026: updated tumour-agnostic TMB-H indication",
+              "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+            },
+            {
+              "label": "KEYTRUDA current prescribing information, sections 1.8, 1.9, 1.18 and 2.1",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+            },
+            {
+              "label": "Qureshi et al.: CTLA-4 captures CD80 and CD86 (2011)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21474713/"
+            },
+            {
+              "label": "Hui et al.: PD-1, Shp2 and preferential CD28 dephosphorylation (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28280247/"
+            },
+            {
+              "label": "Buchbinder and Desai: CTLA-4 and PD-1 pathway emphases (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26558876/"
+            },
+            {
+              "label": "Schmid et al.: final KEYNOTE-522 overall survival (2024)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/"
+            },
+            {
+              "label": "Cortes et al.: KEYNOTE-355 overall survival (2022)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/"
+            },
+            {
+              "label": "U.S. Tecentriq label: PD-L1 mechanism via openFDA",
+              "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22TECENTRIQ%22"
+            },
+            {
+              "label": "NCI: checkpoint inhibitors and immune-related injury",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors"
+            },
+            {
+              "label": "NICE NG122: lung cancer, management",
+              "url": "https://www.nice.org.uk/guidance/ng122/chapter/Management"
+            },
+            {
+              "label": "Macmillan: pembrolizumab (Keytruda)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab"
+            },
+            {
+              "label": "Macmillan: durvalumab (Imfinzi)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab"
+            },
+            {
+              "label": "Macmillan: atezolizumab (Tecentriq)",
+              "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/atezolizumab"
+            },
+            {
+              "label": "Green et al., Blood 2010: selective 9p24.1 amplification and PD-1 ligand induction through JAK2 in Hodgkin lymphoma and mediastinal large B-cell lymphoma",
+              "url": "https://doi.org/10.1182/blood-2010-05-282780"
+            },
+            {
+              "label": "Roemer et al., J Clin Oncol 2016: PD-L1 and PD-L2 genetic alterations in 108 classical Hodgkin lymphomas",
+              "url": "https://doi.org/10.1200/JCO.2016.66.4482"
+            },
+            {
+              "label": "Ansell et al., N Engl J Med 2015: nivolumab in relapsed or refractory Hodgkin lymphoma (23 patients)",
+              "url": "https://doi.org/10.1056/NEJMoa1411087"
+            },
+            {
+              "label": "Roemer et al., J Clin Oncol 2018: MHC class II and PD-L1 expression predict outcome after PD-1 blockade in classical Hodgkin lymphoma (CheckMate 205)",
+              "url": "https://doi.org/10.1200/JCO.2017.77.3994"
+            }
+          ],
+          "beforeSha256": "c3cab72bad3295770eaf8c6e2e6273f9a656b94d07613f0c9199ae98f2f4d5a5",
+          "afterSha256": "0a53e10c311e066eb9c95317e86ef2aa18aa2681543eff615c3c73da282740f8"
+        },
+        "notes": {
+          "before": [
+            "Colorectal cancer: the sharpest biomarker split in oncology. In mismatch repair deficient disease, responses run from 31% (single-agent nivolumab, previously treated) to 68% pathological complete response (four weeks of neoadjuvant nivolumab plus ipilimumab); in microsatellite-stable disease, the phase 3 test of atezolizumab with or without a MEK inhibitor was no better than regorafenib (Eng 2019). The only credible microsatellite-stable signal is the Fc-enhanced CTLA-4 antibody botensilimab with balstilimab, 17% response in 101 evaluable patients (Bullock 2024).",
+            "Lung cancer: NICE NG122 places checkpoint treatment at four separate points, which is why the same side-effect list keeps reappearing. Before and after surgery: nivolumab with chemotherapy (1.6.8), durvalumab with platinum chemotherapy (1.6.9) and pembrolizumab with platinum chemotherapy (1.6.10) for resectable disease. After chemoradiotherapy: durvalumab for locally advanced unresectable disease with PD-L1 on 1 percent or more of tumour cells (1.6.18), and for limited-stage small-cell disease that has not progressed (1.10.6). For advanced disease: the treatment pathways organised by PD-L1 below or at or above 50 percent. For extensive-stage small-cell disease: durvalumab or atezolizumab added to chemotherapy (1.11.3).",
+            "Lung cancer: the biomarker story in one line is that PD-L1 selects and nothing else does reliably. A 50% threshold by 22C3 supported first-line monotherapy where a 5% threshold by 28-8 did not (Reck 2016, Carbone 2017), tumour mutational burden failed once chemotherapy was added (Garassino 2023), and STK11 and KEAP1 predict poor benefit only in KRAS-mutant tumours (Ricciuti 2022). In small-cell disease the inflamed transcriptional subtype gains most from adding immunotherapy to chemotherapy, which is the first credible explanation of why the benefit is confined to a minority (Gay 2021).",
+            "Lymphoma: the contrast between Hodgkin lymphoma and everything else is genetic rather than mysterious. The 9p24.1 amplicon carries both PD-1 ligand genes and JAK2, which induces them further, so one copy-number event raises the brake twice over; 97% of 108 classical Hodgkin lymphomas carried concordant alterations of the two loci (Green 2010, Roemer 2016). PD-1 blockade gave an objective response in 20 of 23 heavily pre-treated Hodgkin patients (Ansell 2015). In B-cell non-Hodgkin lymphoma outside the mediastinal group, single-agent checkpoint blockade does very little. Within the responsive group, what predicts complete remission is expression of MHC class II rather than class I on the Hodgkin and Reed-Sternberg cells, which points to a CD4 T cell as the effector (Roemer 2018)."
+          ],
+          "after": [
+            "Checkpoint antibodies interrupt specified inhibitory contacts. PD-1 is a receptor with two partners, PD-L1 and PD-L2; PD-L1 is a distinct molecule found on cancer and non-cancer cells. The pembrolizumab label describes blockade of PD-1 binding to both ligands. Atezolizumab instead binds PD-L1 and blocks its PD-1 and B7.1 interactions; directly blocking PD-L1 does not directly block the separate PD-1/PD-L2 contact. These target-specific descriptions are more precise than treating all checkpoint drugs as one switch.",
+            "The pathways also differ inside and between cells. Hui's 2017 biochemical reconstitution and intact-cell experiments found that PD-1-recruited Shp2 preferentially dephosphorylated CD28 over the T-cell receptor, not that CD28 was the only possible affected signal. CTLA-4 and CD28 share CD80 and CD86. Qureshi's human and mouse cell experiments showed CTLA-4 capture and removal of these ligands from an opposing cell, reducing available costimulation. Contact and capture cartoons show these distinct receptor jobs; their molecule counts and positions are schematic, not a complete mechanism or a clinical comparison of blocking antibodies.",
+            "CTLA-4 is often emphasised during priming in lymphoid sites and PD-1 during ongoing responses in tissues. These are overlapping emphases, not exclusive addresses: CD28-related regulation can also matter later. LAG-3, TIM-3 and TIGIT have their own biology rather than being interchangeable versions of PD-1. A regulator identified in an experimental model does not establish benefit from blocking it in another population; each intervention needs its own evidence.",
+            "KEYNOTE-522 randomised 1,174 people with previously untreated stage II or III triple-negative breast cancer to pembrolizumab or placebo with chemotherapy before surgery, followed by continuation of the assigned antibody or placebo after surgery. At a median follow-up of 75.1 months, estimated 60-month overall survival was 86.6 per cent versus 81.7 per cent. Enrolment did not require PD-L1 positivity. The trial compared the whole perioperative regimen and was not designed to isolate the contribution of each treatment phase. These group results do not predict one person's outcome.",
+            "KEYNOTE-355 studied 847 people with previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer. In the PD-L1 combined-positive-score-at-least-10 subgroup, pembrolizumab plus chemotherapy gave median overall survival of 23.0 months versus 16.1 with placebo plus chemotherapy, with a death hazard ratio of 0.73. A median divides a study group in half; it is not an individual forecast. The October 2026 U.S. pembrolizumab label has no PD-L1 qualifier for its high-risk early-stage TNBC regimen, while its advanced TNBC indications with chemotherapy or sacituzumab govitecan specify CPS at least 10 and an FDA-authorised test. The sacituzumab combination is a separate labelled regimen, not the KEYNOTE-355 comparison. Population, regimen, scoring context and evidence must stay together.",
+            "Checkpoint blockade changes an inhibitory interaction; it does not install a new recognition receptor or reconstruct required HLA machinery that has been genetically lost. That last statement concerns missing machinery, not a claim that checkpoint treatment can never affect regulated HLA expression. Recognition, access and cell state remain separate dependencies. Vaccines, engineered cell receptors and cytokines change different inputs, and a plausible combination still needs regimen-specific benefit and safety evidence.",
+            "In a fictional sample containing PD-1-positive T cells, staining does not identify every cell's target, functional state or capacity to respond to an antibody. It does not show that all those cells are exhausted or that a drug will awaken all of them. Similarly, interrupting inhibition cannot alone solve a missing target-display component. Checkpoint biology, drug action, marker measurement and prediction of clinical benefit are separate claims.",
+            "The multiple-controls analogy has two possible branches: interrupting regulation can support useful cancer-directed activity and can also injure healthy tissue. Neither outcome is guaranteed for a person. Normal checkpoint regulation helps limit immune injury, and immune-related adverse events can involve several organs. Assess activity, durability and harms in the relevant population rather than equating more immune activity with exclusively tumour-directed benefit.",
+            "Colorectal cancer: the sharpest biomarker split in oncology. In mismatch repair deficient disease, responses run from 31% (single-agent nivolumab, previously treated) to 68% pathological complete response (four weeks of neoadjuvant nivolumab plus ipilimumab); in microsatellite-stable disease, the phase 3 test of atezolizumab with or without a MEK inhibitor was no better than regorafenib (Eng 2019). The only credible microsatellite-stable signal is the Fc-enhanced CTLA-4 antibody botensilimab with balstilimab, 17% response in 101 evaluable patients (Bullock 2024).",
+            "Lung cancer: NICE NG122 places checkpoint treatment at four separate points, which is why the same side-effect list keeps reappearing. Before and after surgery: nivolumab with chemotherapy (1.6.8), durvalumab with platinum chemotherapy (1.6.9) and pembrolizumab with platinum chemotherapy (1.6.10) for resectable disease. After chemoradiotherapy: durvalumab for locally advanced unresectable disease with PD-L1 on 1 percent or more of tumour cells (1.6.18), and for limited-stage small-cell disease that has not progressed (1.10.6). For advanced disease: the treatment pathways organised by PD-L1 below or at or above 50 percent. For extensive-stage small-cell disease: durvalumab or atezolizumab added to chemotherapy (1.11.3).",
+            "Lung cancer: the biomarker story in one line is that PD-L1 selects and nothing else does reliably. A 50% threshold by 22C3 supported first-line monotherapy where a 5% threshold by 28-8 did not (Reck 2016, Carbone 2017), tumour mutational burden failed once chemotherapy was added (Garassino 2023), and STK11 and KEAP1 predict poor benefit only in KRAS-mutant tumours (Ricciuti 2022). In small-cell disease the inflamed transcriptional subtype gains most from adding immunotherapy to chemotherapy, which is the first credible explanation of why the benefit is confined to a minority (Gay 2021).",
+            "Lymphoma: the contrast between Hodgkin lymphoma and everything else is genetic rather than mysterious. The 9p24.1 amplicon carries both PD-1 ligand genes and JAK2, which induces them further, so one copy-number event raises the brake twice over; 97% of 108 classical Hodgkin lymphomas carried concordant alterations of the two loci (Green 2010, Roemer 2016). PD-1 blockade gave an objective response in 20 of 23 heavily pre-treated Hodgkin patients (Ansell 2015). In B-cell non-Hodgkin lymphoma outside the mediastinal group, single-agent checkpoint blockade does very little. Within the responsive group, what predicts complete remission is expression of MHC class II rather than class I on the Hodgkin and Reed-Sternberg cells, which points to a CD4 T cell as the effector (Roemer 2018)."
+          ],
+          "beforeSha256": "c991c15264398ac8733c2cad74dc4d1ab9e39c26142cacbe337a6b6dfb3b86b1",
+          "afterSha256": "9ff9c929c637d5a9d1a8ed87ea61722bb35e79cd92c0eb937851519729868956"
+        },
+        "principle": {
+          "before": "Blocking inhibitory receptor-ligand interactions restores T-cell priming (CTLA-4) and effector function (PD-1).",
+          "after": "Interrupt a specified inhibitory receptor-ligand interaction; effective cancer recognition, access, function and clinical benefit remain separate questions.",
+          "beforeSha256": "1809061e1285398325d81e15eb1f8e203b6b0632e4a3c0927bc5d5d90e596a06",
+          "afterSha256": "181a88f5b6f5fd354e764dd069c64c60068cac6b5e4ddd995db5c952d25046d3"
+        },
+        "related": {
+          "before": [
+            "tigit-blockade",
+            "tim3-blockade",
+            "checkpoint-inhibitor-baseline-and-monitoring",
+            "irae-colitis",
+            "irae-diabetes",
+            "irae-haematological",
+            "irae-hepatitis",
+            "irae-hypophysitis-adrenal",
+            "irae-myocarditis",
+            "irae-nephritis",
+            "irae-neurological",
+            "irae-ocular",
+            "irae-pneumonitis",
+            "irae-rechallenge",
+            "irae-rheumatological",
+            "irae-skin",
+            "irae-steroid-taper-and-pjp",
+            "irae-thyroid"
+          ],
+          "after": [
+            "tigit-blockade",
+            "tim3-blockade",
+            "immune-checkpoint",
+            "intratumoral-immunotherapy",
+            "vaccines-and-oncolytic-viruses",
+            "checkpoint-inhibitor-baseline-and-monitoring",
+            "irae-colitis",
+            "irae-diabetes",
+            "irae-haematological",
+            "irae-hepatitis",
+            "irae-hypophysitis-adrenal",
+            "irae-myocarditis",
+            "irae-nephritis",
+            "irae-neurological",
+            "irae-ocular",
+            "irae-pneumonitis",
+            "irae-rechallenge",
+            "irae-rheumatological",
+            "irae-skin",
+            "irae-steroid-taper-and-pjp",
+            "irae-thyroid"
+          ],
+          "beforeSha256": "dd20508da1943250d2ec39486076e5a2d7d8eb10583207af946f5ef9e518ee59",
+          "afterSha256": "2d809cbb6c344103795df05a0dc87181706b97e38c60f4b4fa227288d601217a"
+        },
+        "tldr": {
+          "before": "Immune checkpoint inhibitors are antibodies against CTLA-4, PD-1 or PD-L1 that release the brakes on T cells so they attack the cancer. They are approved in more than 20 tumour types and produce lasting, sometimes curative responses that chemotherapy rarely does, but most patients do not respond and autoimmune side effects are the cost.",
+          "after": "Checkpoint inhibitors block specified immune-regulatory interactions. They can support cancer-directed activity and can also cause immune-related injury; benefit depends on the cancer, regimen and setting.",
+          "beforeSha256": "a07cf5893d58fae0ea3b2be24b07f9e16491fd97351d242d5cda72d795b9734e",
+          "afterSha256": "7d4b7c51540f25c98a8db6a0068d08853b1507e1316f464be75bc257b9617ab9"
+        }
+      }
+    },
+    {
+      "id": "in-situ-vaccination",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-11",
+          "after": "2026-11-12",
+          "beforeSha256": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "ClinicalTrials.gov: in situ vaccination cancer",
+              "url": "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer"
+            },
+            {
+              "label": "ICD consensus: antigens, host, assay and model requirements",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+            },
+            {
+              "label": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+            },
+            {
+              "label": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+            },
+            {
+              "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            }
+          ],
+          "after": [
+            {
+              "label": "ClinicalTrials.gov: in situ vaccination cancer",
+              "url": "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer"
+            },
+            {
+              "label": "ICD consensus: antigens, host, assay and model requirements",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+            },
+            {
+              "label": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+            },
+            {
+              "label": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+            },
+            {
+              "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            },
+            {
+              "label": "Marabelle et al.: terminology and reporting recommendations (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30295695/"
+            },
+            {
+              "label": "Joffre et al.: cross-presentation by dendritic cells (2012)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22790179/"
+            }
+          ],
+          "beforeSha256": "76669801b8b13da7af8f0ae25fc85aa42e3950f578f1dcb2f824f7ed3e66932b",
+          "afterSha256": "762360371c8d0b8ba35a39bec74cd2a994735ae16ce9ed97c2b3cbca8daea272"
+        },
+        "notes": {
+          "before": [
+            "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+            "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+            "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+            "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+            "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event."
+          ],
+          "after": [
+            "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+            "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+            "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+            "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+            "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+            "For T-cell-directed therapeutic strategies, compare the antigen source and what can be selected beforehand. An in-situ approach uses tumour material in the body and selects a site and intervention; a supplied design selects planned composition or encoded targets using adequate sample information or material. Defined peptide or encoded targets differ from broader cell preparations. Manufacturing a product does not mean every peptide ultimately displayed is known or controlled. The room-material versus teaching-kit analogy describes these inputs, not assured learning or a winner.",
+            "Priming is initial activation of a naive T cell. Cross-presentation places externally acquired material on class I HLA in a presenting cell; that event is distinct from a cancer cell naturally displaying a recognised target. Both strategies still need evidence of presentation, suitable priming or expansion, tumour access, useful function, outcomes and harms. Dashed links in a comparison diagram mark questions to investigate, not successful completion of each step.",
+            "The required opportunity depends on the method. A lesion-based local approach needs available tumour material at an identified, safely accessible site. A supplied product needs appropriate information or material and a workable manufacturing and delivery plan. If no identifiable lesion is accessible, that removes the stated opportunity for that local method; it does not show that another vaccine is feasible or choose treatment. Match a research question about local material and support to that design, or one about planned antigen selection to a supplied design, then compare complete strategies in suitable studies.",
+            "Injection specifies a route, and using one person's tumour material is not equivalent to manufacturing a selected personalised vaccine. A study can combine local tumour material with a supplied antigen product; report both sources rather than forcing one exclusive category. Personalisation, platform and route are independent descriptors. Local shrinkage, an immune assay and control at another lesion remain different outcomes.",
+            "Consider two fictional cards. A uses accessible tumour material with a local intervention and immune stimulus; B supplies selected encoded targets based on sample information. Neither gives outcome data. A does not specify a fixed presented mixture, and B does not guarantee processing, HLA display or natural tumour recognition. For both, investigate presentation, priming, access and function and then matched clinical outcomes and harms. If A's lesion becomes inaccessible, B is not thereby chosen. If B is added to A, the study now uses both antigen sources.",
+            "The examples answer different questions. Brody used radiation plus injected CpG in low-grade lymphoma. Hammerich used Flt3 ligand, low-dose radiation and poly-ICLC in indolent lymphoma, with accompanying models; the reported new responsiveness to PD-1 blockade was in mice. Ott's melanoma study supplied selected long peptides with poly-ICLC. These are not a head-to-head efficacy ranking, evidence for a breast-cancer regimen or an individual eligibility assessment."
+          ],
+          "beforeSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+          "afterSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed"
+        },
+        "related": {
+          "before": [
+            "abscopal-effect",
+            "cancer-immunity-cycle"
+          ],
+          "after": [
+            "abscopal-effect",
+            "cancer-immunity-cycle",
+            "intratumoral-immunotherapy",
+            "vaccine-adjuvants",
+            "vaccines-and-oncolytic-viruses"
+          ],
+          "beforeSha256": "8af25008ec1f9d0e268fa1db06f26078710243073ae4a166ed29ebbadac3b2e0",
+          "afterSha256": "0b0e670f7cf5f8f458031e0b99be5315af89a9d7c8fb5ca31944db946e475a83"
+        }
+      }
+    },
+    {
+      "id": "oncolytic-virus",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "limitations": {
+          "before": [
+            "Most products still need a lesion that can be injected",
+            "Pre-existing and rapidly rising neutralising antibody blocks intravenous delivery and repeat dosing",
+            "Approvals rest on response rates; randomised survival benefit has not been shown",
+            "The randomised combination with checkpoint blockade in melanoma was negative",
+            "Manufacturing yields are far below what intravenous dosing would need"
+          ],
+          "after": [
+            "Delivery, replication and immune effects differ between products",
+            "An injected response does not establish systemic immune control",
+            "Infection, local injury and systemic harms remain product-specific",
+            "Clinical outcome claims need the actual regimen, population and comparator"
+          ],
+          "beforeSha256": "0902b4b104775a8a5faa64fac7bffd447308693c95972b9a0cd9d84afb5c1ba4",
+          "afterSha256": "e2195d1c526cf0eb40a868b2e2b8c9b8b025e6db1936e9a6e221046772b806b6"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Oncolytic_virus"
+            },
+            {
+              "label": "Oncolytic virotherapy on OnCo: history, approvals, engineering and failures",
+              "url": "https://onco.cc/virotherapy/"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Oncolytic_virus"
+            },
+            {
+              "label": "Oncolytic virotherapy on OnCo: history, approvals, engineering and failures",
+              "url": "https://onco.cc/virotherapy/"
+            },
+            {
+              "label": "FDA Imlygic label: mechanism uncertainty, local indication and infection precautions",
+              "url": "https://www.fda.gov/media/94129/download"
+            },
+            {
+              "label": "Chesney et al.: randomised T-VEC plus ipilimumab phase II trial (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28981385/"
+            },
+            {
+              "label": "NCI: historical 2018 oncolytic-virus explanation",
+              "url": "https://www.cancer.gov/news-events/cancer-currents-blog/2018/oncolytic-viruses-to-treat-cancer"
+            },
+            {
+              "label": "Ott et al.: separate antigen-processing and tumour-recognition tests (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            }
+          ],
+          "beforeSha256": "94d2c4ac079b9fe3acf9f18491626b66112a5dfd7bb210c8d8c88f500c35861a",
+          "afterSha256": "1694ffcd14848f049f7a6d0fb438e022bb86e42e254fa2d386af781615b14928"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Oncolytic viruses use viral activity to injure susceptible tumour cells and may also support immune effects. Natural viral properties and engineered changes can alter replication or add signalling proteins; different platforms have different entry, replication and immune requirements. A replication-vehicle analogy does not establish universal tumour targeting or healthy-cell sparing. Infection, productive replication, injury, released tumour material and useful antigen presentation are distinct steps. Replication alone is not successful vaccination, and this treatment purpose differs from preventing an infection.",
+            "Talimogene laherparepvec is a modified herpes simplex virus type 1 product. The U.S. label describes modification for tumour replication and GM-CSF production, tumour lysis and a possible antitumour immune response, while stating that the exact mechanism is unknown. Its specified use is local treatment of unresectable cutaneous, subcutaneous and nodal melanoma lesions recurrent after surgery; improved overall survival and visceral-metastasis effects have not been established. Herpetic infection, local wound complications and other adverse effects remain possible, so injection is not proof of confinement or normal-cell safety.",
+            "Chesney's randomised phase II trial compared talimogene laherparepvec plus ipilimumab with ipilimumab alone in 198 people with advanced unresectable melanoma. Investigator-assessed objective response was 39 per cent versus 18 per cent; grade 3 or greater adverse events occurred in 45 versus 35 per cent. This comparison concerns that combination, population and response endpoint. It is separate from the virus's labelled local indication and does not establish survival benefit, an immune mechanism for every response or efficacy in breast cancer.",
+            "A modified-HSV teaching cartoon can separate conditional entry into a susceptible cell, replication and injury, and release of new particles and tumour material. The particles are not the same as released tumour antigen, and the symbol counts are not measured yields. The drawing supplies no literal entry route, nuclear-versus-cytoplasmic replication or assembly map. Its cell boundaries and interiors are schematic, and no whole-body benefit or universal selectivity follows from the image.",
+            "Antiviral and tumour-targeted responses concern different antigens. In a two-test teaching example, the same T-cell sample is offered a viral-target test and a tumour-target test, with separate class-I HLA holders, peptides and symbolic receptors. HLA compatibility and verified presentation are conditions to check. The receptor shapes establish neither molecular binding nor a shared clone, and released material is not automatically processed into the displayed peptide. Question marks supply no response result. Clearing viral targets does not establish recognition of uninfected cancer cells.",
+            "Suitable tests distinguish verified compatible presentation, irrelevant-peptide or background responses, antigen-negative targets and a positive assay control. Added peptide can bypass natural processing. Reactivity to that peptide does not by itself establish recognition of naturally presenting uninfected tumour cells, tissue access or killing. Ott's melanoma experiments illustrate the distinction by testing peptide-loaded cells, antigen-encoding presenting cells and autologous tumour cells separately; their results do not fill in the unanswered viral-versus-tumour cartoon.",
+            "Suppose a fictional study reports viral entry and cancer-cell death plus immune cells reactive to a viral protein. It shows viral activity and an antiviral response under the tested conditions. Naturally processed tumour recognition and useful cancer control remain separate questions. Measure infected-tissue effects, antitumour immunity and clinical outcomes over time; an injected-lesion response does not establish exposure or control elsewhere, and systemic co-treatment complicates attribution.",
+            "The NCI's 2018 explanation describes early research on viral killing, immune effects and combinations. Trial plans and statuses in that historical account describe that time, rather than present access. Current availability depends on the particular product, indication, jurisdiction and trial record. Historical class background cannot establish a current treatment opportunity."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "5135274b92386ee0bbd79e4fb66b7c709162a4f12fc49f1aaf2664657d4c0d30"
+        },
+        "principle": {
+          "before": "An attenuated or naturally tumour-selective virus replicates in tumour cells whose antiviral signalling is defective, lyses them, and releases tumour antigens, viral pathogen-associated patterns and any encoded transgene into the tumour, converting lysis into an in situ immunisation.",
+          "after": "Use specified viral properties or engineered changes to investigate tumour-cell infection, replication and injury, with possible immune effects. Released material and antiviral activity do not by themselves establish effective antitumour vaccination.",
+          "beforeSha256": "03599e8f3e9ccebae801433928cd25d11230f673bdecf746ac3db7f45db82192",
+          "afterSha256": "b4984d34387b2d03aaa6f81edf6da2f3d7bfb99c4c15267afe69e2fbcbf5b17a"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "intratumoral-immunotherapy",
+            "in-situ-vaccination",
+            "vaccines-and-oncolytic-viruses"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "f1a55031feb1f5210c7d73eaf157c659c67bf26561892ae24b9422ffb1acc7fc"
+        },
+        "strengths": {
+          "before": [
+            "Kills by a mechanism unrelated to chemotherapy or targeted agents, so cross-resistance is unlikely",
+            "Toxicity largely does not overlap with other cancer drugs, which is the main argument for combining",
+            "Turns dying tumour cells into an antigen source in place, with an encoded adjuvant",
+            "Responses in uninjected lesions have been documented, which is evidence of a systemic immune effect"
+          ],
+          "after": [
+            "Provides a route to investigate direct viral injury alongside immune effects",
+            "Can make tumour material available in place",
+            "Local and uninjected-lesion effects can be measured separately"
+          ],
+          "beforeSha256": "8faf35464091c948dd273bc5c3f6a7234dbb696ab6fef4631132bf3b48a679e7",
+          "afterSha256": "a6b5d60e44c9acf0121ee1bf750dbb711dbbcee42ef19cc38750ee8e56385009"
+        },
+        "tldr": {
+          "before": "Viruses engineered to infect and burst cancer cells while leaving normal cells alone, and to alert the immune system in the process.",
+          "after": "Oncolytic viruses can infect and injure susceptible tumour cells and may support an immune response. Useful tumour recognition, clinical benefit and safety depend on the product and setting.",
+          "beforeSha256": "24b4e0a25936377352221d865d2d4854b5fff1de00bc4ef1ea84c2c7284f6906",
+          "afterSha256": "4ffe2217ccbff4608e735aad5721c23ae4e821560c74671e4336948575536da6"
+        }
+      }
+    },
+    {
+      "id": "talimogene-laherparepvec",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "FDA label (DailyMed)",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talimogene%20laherparepvec"
+            }
+          ],
+          "after": [
+            {
+              "label": "FDA label (DailyMed)",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talimogene%20laherparepvec"
+            },
+            {
+              "label": "FDA Imlygic prescribing information: exact indication, mechanism and harms",
+              "url": "https://www.fda.gov/media/94129/download"
+            }
+          ],
+          "beforeSha256": "846e42844978f5a4a939a618e3d389087777ce4b75b6904ab3d7acf3bb819a4b",
+          "afterSha256": "d4cb79f6f78f311c7d509f1bade0bf27a80349e295f9364a0a6866e44f7db79c"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "The U.S. Imlygic label limits the indication to local treatment of specified unresectable melanoma lesions recurrent after surgery and states that improved overall survival and visceral-metastasis effects have not been shown. Its mechanism section describes modified HSV-1, tumour lysis and possible immune effects, with the exact mechanism unknown. Herpetic infection and injection-site complications are possible. This is not a guarantee of healthy-cell sparing or an indication for breast cancer."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "e28fa304cc50e4158fdbcb2afeeda90e2fd756abe69cdf418eac53f800d4b1ed"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "intratumoral-immunotherapy"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "34f0bf26076ade4e58e6db7cf020c3c81b88efc3f2fa069bf19a3743105c7e48"
+        },
+        "summary": {
+          "before": "Talimogene laherparepvec (T-VEC) is a herpes simplex virus type 1 with ICP34.5 and ICP47 deleted, so it replicates in tumour cells but not healthy ones, and it expresses GM-CSF to attract antigen-presenting cells. It was the first approved oncolytic virus (2015), injected into unresectable melanoma lesions at 10^6 PFU/mL initially, then 10^8 PFU/mL 3 weeks later and every 2 weeks. In OPTiM the durable response rate was 16% versus 2% for GM-CSF alone. Uptake has been modest because responses concentrate in injected lesions, and the MASTERKEY-265 combination with pembrolizumab did not improve progression-free or overall survival. Amgen markets it; its legacy is proving the principle that later viruses build on. For a newcomer: the first cancer-killing virus approved, useful mainly for accessible skin lesions.",
+          "after": "Talimogene laherparepvec (T-VEC) is a herpes simplex virus type 1 with ICP34.5 and ICP47 deleted, designed to support replication within tumours without guaranteeing normal-cell safety, and it expresses GM-CSF to attract antigen-presenting cells. It was the first FDA-approved oncolytic virus (2015), injected into unresectable melanoma lesions at 10^6 PFU/mL initially, then 10^8 PFU/mL 3 weeks later and every 2 weeks. In OPTiM the durable response rate was 16% versus 2% for GM-CSF alone. Uptake has been modest because responses concentrate in injected lesions, and the MASTERKEY-265 combination with pembrolizumab did not improve progression-free or overall survival. Amgen markets it; its legacy is proving the principle that later viruses build on. The U.S. indication is local treatment of specified unresectable melanoma lesions recurrent after surgery.",
+          "beforeSha256": "8022947be4b60681b43a9c7e13fc5e28d9a433cdab3821af696b8f6c0b8e4fe7",
+          "afterSha256": "a112f16379ffe4d0031a5f0c88ac6a65103ac4e054e1412a203cf32370e27390"
+        },
+        "tldr": {
+          "before": "Talimogene laherparepvec (T-VEC, Imlygic) was the first approved oncolytic virus (2015), injected into melanoma skin lesions.",
+          "after": "Talimogene laherparepvec is a modified herpes virus used by injection for local treatment of specified unresectable melanoma lesions.",
+          "beforeSha256": "4dd4f1c141a9ec4a40f950e8e6c48f208679decf912103ec2fa72f664d059f06",
+          "afterSha256": "846ae91a618d2dcc4581c9383b0e908493e75d220a4e06fa69edc791a3523425"
+        }
+      }
+    },
+    {
+      "id": "aldesleukin",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-08",
+          "after": "2026-11-12",
+          "beforeSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Label (DailyMed)",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aldesleukin"
+            }
+          ],
+          "after": [
+            {
+              "label": "Label (DailyMed)",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aldesleukin"
+            },
+            {
+              "label": "Proleukin U.S. prescribing information: adult indications and boxed warnings",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+            }
+          ],
+          "beforeSha256": "b5f192c0b7f5ca81ac099914630a7b6bd088bffa36dda4cbf2cd25be6c6edc46",
+          "afterSha256": "52ec9b6ea62a79a1bd9eaaa013c2535cec80594b8d2a93506909f770f00e3c82"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "The Proleukin U.S. label specifies adults with metastatic renal cell carcinoma or metastatic melanoma. The boxed warning includes potentially fatal capillary leak, neurologic toxicities and serious infections and calls for hospital administration with an intensive-care facility. These medicine-specific statements should not be generalised to every IL-2 construct or other cytokine. A treatment's immune-cell effects and its clinical outcomes remain separate measurements."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "06f84345816505c23feb1b3a4e38da3641cee7af1d3730ada01770e413409399"
+        }
+      }
+    },
+    {
+      "id": "shared-antigen-vaccine",
+      "implementation": "committed-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "First trial of a vaccine against the shared neoantigens of mismatch-repair-deficient cancers (Clinical Cancer Research 2020)",
+              "url": "https://doi.org/10.1158/1078-0432.CCR-19-3517"
+            },
+            {
+              "label": "ClinicalTrials.gov NCT05726864: AMPLIFY-7P",
+              "url": "https://clinicaltrials.gov/study/NCT05726864"
+            }
+          ],
+          "after": [
+            {
+              "label": "First trial of a vaccine against the shared neoantigens of mismatch-repair-deficient cancers (Clinical Cancer Research 2020)",
+              "url": "https://doi.org/10.1158/1078-0432.CCR-19-3517"
+            },
+            {
+              "label": "ClinicalTrials.gov NCT05726864: AMPLIFY-7P",
+              "url": "https://clinicaltrials.gov/study/NCT05726864"
+            },
+            {
+              "label": "NCI: antigen sources for cancer treatment vaccines",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+            },
+            {
+              "label": "Ott et al.: a personal selection delivered as long peptides (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            }
+          ],
+          "beforeSha256": "f3acd6324a3d745a07174162a5e1ad14adecd85d4a56961b18ecb94b893e7aa9",
+          "afterSha256": "222af8d3921bdd5f1d7dbab3393cd69fa3ce68a2aa00fd23b6591f1dfe4b3ad9"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Shared antigen selection describes a target found across people; it does not alone specify peptide, RNA, vector or cellular delivery, or guarantee an identical finished product for every person. Shared tumour-associated antigens and recurring mutation-derived targets are different sources. A personalised selection can include a shared target. Presence of a target sequence also does not establish natural peptide display on every cancer cell or a useful immune response."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "9e095feaf34f36ceb6c7af90d7cef69a4f877e91dd4007ceb11db0b43b23017a"
+        },
+        "principle": {
+          "before": "A pre-manufactured antigen (peptide, mRNA, viral vector, dendritic cell) is given with an adjuvant.",
+          "after": "Supply selected shared cancer-associated targets or instructions for making them in a specified vaccine design; antigen selection, delivery platform and manufacturing personalisation are separate attributes.",
+          "beforeSha256": "fc5561dc91e9e1732416aeb6ece83206e93bb37619d2b477af0cc78df9b55466",
+          "afterSha256": "c1005d50ba41d6ccb9572092dad71f7a8dcb137744c44d2297651ee29335c9ec"
+        },
+        "related": {
+          "before": [
+            "idea-splice-neoantigens"
+          ],
+          "after": [
+            "idea-splice-neoantigens",
+            "vaccine-adjuvants",
+            "vaccines-and-oncolytic-viruses"
+          ],
+          "beforeSha256": "9104c51a81e9b889935d191ce443b7ef14e21f0ede0034663d30bef1ddcaa44d",
+          "afterSha256": "fc6fcdcbe1e97a8906352cdba567ba0a5aed3b1b8a710b96167aefe043381edc"
+        }
+      }
+    },
+    {
+      "id": "intratumoral-immunotherapy",
+      "implementation": "newly-registered-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "aka": {
+          "before": null,
+          "after": [
+            "Intratumoural immunotherapy",
+            "Intralesional immunotherapy"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "71664014da7095f91aadc2e2cd1447b1a2da303d0aae045b7998608be91c2c8f"
+        },
+        "asOf": {
+          "before": null,
+          "after": "2026-11-12",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "bottlenecks": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "cancers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "category": {
+          "before": null,
+          "after": "Immunology",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4d370c6d27e81908290101cf5b679fedf1cc9a298b3b9c20502d7e337b10cec9"
+        },
+        "companies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "dependsOn": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "drugs": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "id": {
+          "before": null,
+          "after": "intratumoral-immunotherapy",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "77eef8f368f07f7339c5429260529eeeb0e2f5551e9aed64e04d32199e056d2b"
+        },
+        "institutions": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "journals": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "keyPapers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "kind": {
+          "before": null,
+          "after": "term",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        "links": {
+          "before": null,
+          "after": [
+            {
+              "label": "Marabelle et al.: intratumoral terminology and reporting (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30295695/"
+            },
+            {
+              "label": "Hammerich et al.: defined lymphoma in-situ regimen and mouse combination evidence (2019)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+            },
+            {
+              "label": "NCT01976585: Flt3 ligand, poly-ICLC and low-dose radiation",
+              "url": "https://clinicaltrials.gov/study/NCT01976585"
+            },
+            {
+              "label": "FDA Imlygic prescribing information: local indication and limitations",
+              "url": "https://www.fda.gov/media/94129/download"
+            },
+            {
+              "label": "Ott et al.: separate peptide, processing and tumour-recognition assays (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            }
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "a63ad917bf352e5d97ace257e0fa84eeb7e19eb028cf30c61396d5d66199acf6"
+        },
+        "name": {
+          "before": null,
+          "after": "Intratumoral immunotherapy",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "7834ffb5e7fca43c6839ec92d66c28bc18539752ba3daaf01f9bc2f97896f45a"
+        },
+        "notes": {
+          "before": null,
+          "after": [
+            "Intratumoral means within a tumour; intralesional means within a lesion. Intratumoral immunotherapy combines a route with an immune-directed treatment purpose. The name does not identify the substance, and a locally injected cytotoxic drug need not be immunotherapy. An in-situ vaccination strategy seeks useful immune learning from material in the body; it is not a synonym for every injection. Local-material and learning analogies leave direct drug effects and procedure risks unresolved.",
+            "A lesion-based injection needs an identified site that can be reached safely by the specified method. The accessible lesion may not represent every other tumour site. Entry of a needle does not establish uniform distribution, confined exposure or systemic safety. Recruitment or activation of presenting cells, antigen collection and priming can be investigated, while travel to another lesion, natural recognition and sustained function remain separate questions. Inflammation, local injury, infection and systemic effects depend on the product and procedure.",
+            "Hammerich's 2019 report studied a particular strategy in indolent non-Hodgkin lymphoma: Flt3 ligand, low-dose radiation and the TLR3 agonist poly-ICLC. NCT01976585 specifies intratumoral Flt3 ligand and poly-ICLC with low-dose radiotherapy. It does not make every injected immune agent the same intervention. Marabelle's 2018 paper is an expert terminology and reporting recommendation, rather than a trial establishing efficacy of the class.",
+            "Keep three measurements separate. Changes in size or tissue at the injected lesion show local observations. Controlled assays of antigen-reactive cells ask an immune-response question but leave natural recognition and function elsewhere unresolved. Changes at uninjected lesions ask another question, while the injection's added effect and longer-term patient benefit need a suitable comparison. Report each component's route and serial injected and uninjected lesion results. An uninjected lesion can still receive systemic co-treatment, so it need not be untreated.",
+            "The U.S. Imlygic label specifies talimogene laherparepvec for local treatment of unresectable cutaneous, subcutaneous and nodal melanoma lesions recurrent after initial surgery. It states that improved overall survival and an effect on visceral metastases have not been shown. A local melanoma indication does not establish whole-body benefit or a breast-cancer indication. Intralesional administration also does not remove the label's infection, wound and other product-specific precautions.",
+            "In a fictional study, the injected lesion shrinks, a controlled immune assay becomes positive and a separate lesion stays unchanged. The observations establish local and assay activity under their stated definitions, without demonstrating distant control. The result also does not establish that no immune-learning event occurred. Testing naturally presenting targets, relevant function, later outcomes and harms addresses additional questions.",
+            "For radiation, an abscopal effect describes an observation outside the irradiated field. After an injection, describe an uninjected-lesion response and name concurrent treatments before attributing it to the injection or to immunity. Marabelle's expert panel specifically distinguished injected from noninjected lesions because systemic co-treatment can expose both. A combination's name alone does not reveal which component was injected."
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "06a46a3712da294231040573610da0ebc2118045ab504771c998c1595c302e60"
+        },
+        "pathways": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "people": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "related": {
+          "before": null,
+          "after": [
+            "in-situ-vaccination",
+            "oncolytic-virus",
+            "talimogene-laherparepvec",
+            "itrecist",
+            "abscopal-effect",
+            "cytokine-therapy",
+            "vaccine-adjuvants",
+            "checkpoint-inhibitor"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "5e999af46ea753df8c481272d8bd029d4766aac03383f413695ed5c8d2c2f7f8"
+        },
+        "sections": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "summary": {
+          "before": null,
+          "after": "Intratumoral describes a route into a tumour, while immunotherapy describes the intended immune-directed action. Products, injection methods and accompanying treatments differ. A lesion-based method needs an identified safely accessible site; local delivery does not guarantee confined exposure or systemic safety.\n\nAn in-situ vaccination strategy is one possible use of local tumour material, rather than a synonym for every injection. Evidence must distinguish injected-lesion changes, controlled immune assays, uninjected-lesion outcomes and the whole regimen’s benefits and harms.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "47ca04bc2ef5f43e959421490c0bb22ea115845208dc8597cf0c47440aa5b223"
+        },
+        "tags": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "targets": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "technologies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "terms": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "tldr": {
+          "before": null,
+          "after": "Intratumoral immunotherapy delivers an immune-directed treatment within a tumour. Local effects, immune responses and control of other lesions need separate evidence.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "a31994dd756d3042c0f6f78d29f89a2e75fbf12bf0e6d7868486847ca77e1692"
+        },
+        "trials": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    },
+    {
+      "id": "vaccine-adjuvants",
+      "implementation": "newly-registered-draft-root",
+      "anchorHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+      "fields": {
+        "aka": {
+          "before": null,
+          "after": [
+            "Vaccine adjuvant",
+            "Immune adjuvants"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "3c9a840bbb97df51ad012557526b81daf670d8fb3ba52ea240c67ea0dbe923e1"
+        },
+        "asOf": {
+          "before": null,
+          "after": "2026-11-12",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "bottlenecks": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "cancers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "category": {
+          "before": null,
+          "after": "Immunology",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4d370c6d27e81908290101cf5b679fedf1cc9a298b3b9c20502d7e337b10cec9"
+        },
+        "companies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "dependsOn": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "drugs": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "id": {
+          "before": null,
+          "after": "vaccine-adjuvants",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "0545b2ba76217872223bd98c0adf342b583fc052d282f15bb292743e5a37146c"
+        },
+        "institutions": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "journals": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "keyPapers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "kind": {
+          "before": null,
+          "after": "term",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        "links": {
+          "before": null,
+          "after": [
+            {
+              "label": "CDC: adjuvant ingredients and local/systemic reactions",
+              "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html"
+            },
+            {
+              "label": "Mata-Haro et al.: MPLA, TLR4 and TRIF-biased signalling in mice (2007)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17569868/"
+            },
+            {
+              "label": "Caskey et al.: stabilised synthetic double-stranded RNA in human volunteers (2011)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22065672/"
+            },
+            {
+              "label": "Ott et al.: long peptides with poly-ICLC in melanoma (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+            },
+            {
+              "label": "Hailemichael et al.: persistent short-peptide depots in mouse melanoma (2013)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23455713/"
+            }
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "881e2c87e7319b2602a13a1d86dbeaf36d78915248551364e400864c0986f4d3"
+        },
+        "name": {
+          "before": null,
+          "after": "Vaccine adjuvants",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "2f1f2eaf3326be32cfa7ae4f46cfa8abb4467575b2b1174329731983f00abc91"
+        },
+        "notes": {
+          "before": null,
+          "after": [
+            "A vaccine adjuvant is an ingredient intended to support an immune response to vaccine antigen. In a topic-and-teaching-context analogy, antigen supplies a possible target while the adjuvant changes the context; it does not choose a mature T cell's receptor specificity. Ingredients can affect recruitment, antigen availability, activation and supporting signals through different pathways. An antigen-acquisition diagram with one example sensor and a later priming encounter is simplified: antigen and context have distinct jobs, adjuvants can act on other cells, and a useful response still needs testing.",
+            "Mata-Haro's 2007 experiments studied monophosphoryl lipid A, an LPS-derived TLR4 agonist. In mice, its lower inflammatory toxicity relative to LPS was associated with biased TRIF signalling while retaining adjuvant activity. This is a defined molecule, comparison and model. It does not establish a universal safe amount, route-independent safety or a rule that more innate stimulation improves human cancer outcomes.",
+            "Delivery and adjuvant activity can overlap but answer different questions. Material entering a cell does not establish useful priming, and a lipid carrier's immune effects depend on its composition, payload, route and exposure. Recognition of antigen, entry into tumour tissue, useful function and safety remain separate requirements. Experience with an ingredient in an infection-prevention vaccine does not by itself establish efficacy in cancer treatment.",
+            "Ott's personal melanoma vaccine combined selected long peptides with poly-ICLC, a stabilised synthetic double-stranded RNA immune stimulus. The study's antigen-reactive responses concern that package. There was no randomised estimate of the adjuvant's independent contribution, so the result cannot determine what the same peptides would have done without it or rank every alternative adjuvant.",
+            "Hailemichael's 2013 mouse melanoma experiments found that a persistent short-gp100-peptide depot in incomplete Freund's adjuvant could draw vaccine-reactive T cells to the vaccination site, with dysfunction and deletion. A nonpersisting formulation shifted localisation toward tumours under the tested conditions. The study also found less sequestration and different activity with a longer peptide in the depot formulation. Persistence is therefore not automatically better, but these experiments do not show that every depot adjuvant fails in humans.",
+            "Assess presenting-cell activation, antigen-specific antibody or T-cell responses, persistence and harms with the cell population, units, background controls and sampling time stated. To isolate an adjuvant's contribution, use suitable comparisons with the same antigen and relevant conditions. Changing antigen, carrier and adjuvant together measures a package; it cannot assign the result to one ingredient. Clinical tumour outcomes require separate evidence from an immune assay.",
+            "A vaccine adjuvant is an immune-supporting ingredient, while adjuvant cancer treatment is given after the main treatment. Redness, fever or a high cytokine signal is not proof of useful antigen-specific immunity. A larger measured response may involve different cells, durability and harms, so neither more inflammation nor more stimulation is an automatic success criterion.",
+            "In a fictional comparison, formulations A and B contain the same antigen. A causes more redness; B gives a larger controlled antigen-specific assay response. A has a stronger observed local reaction and B a stronger response under the assay's definition, but neither result establishes cancer control. Check route, sampling, controls, persistence and harms, then the appropriate clinical outcomes, before assigning a benefit to an ingredient."
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "3709079f5b0381d1411d5ddeef5797e6bb90e0c97aa6e3de183da7577c51bcbb"
+        },
+        "pathways": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "people": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "related": {
+          "before": null,
+          "after": [
+            "vaccines-and-oncolytic-viruses",
+            "neoantigen-mrna-vaccine",
+            "shared-antigen-vaccine",
+            "in-situ-vaccination",
+            "intratumoral-immunotherapy",
+            "cytokine-therapy",
+            "dendritic-cell-cross-presentation"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "a19ef3b10fd7d39fd49db197e677d4a1ba3b3f5868738de4c73a1f2912986b3d"
+        },
+        "sections": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "summary": {
+          "before": null,
+          "after": "Vaccine adjuvants support the immune context in which antigen is encountered. Their actions can involve different sensing, recruitment, antigen-availability and activation pathways. Antigen specificity, delivery, useful priming and tumour control remain distinct questions.\n\nThe ingredient meaning differs from adjuvant cancer treatment after the main treatment. An adjuvant’s contribution needs a suitable comparison, and immune assay responses, clinical outcomes and harms need separate measurement.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "1c13be4d7624d9f2e957374a23f500fa25fd19b17c7fdf635bd9229fdad3155f"
+        },
+        "tags": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "targets": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "technologies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "terms": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "tldr": {
+          "before": null,
+          "after": "A vaccine adjuvant is an ingredient intended to support an immune response. Its effects depend on the antigen, formulation and exposure; more inflammation does not establish cancer benefit.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "05fa0a7cf8e839bcc332de87eaba06cab965abb04c7fc804c4379133bfddccc3"
+        },
+        "trials": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    }
+  ],
+  "existingOwners": 8,
+  "newRegisteredRecords": 2,
+  "newIds": [
+    "intratumoral-immunotherapy",
+    "vaccine-adjuvants"
+  ],
+  "literalOwnerReceipts": {
+    "baseHead": "6386be7921d00e5285f92d33ce43a76688d39b43",
+    "owners": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "file": "src/data/terms-modalities.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "V01",
+          "V02",
+          "V03",
+          "V04",
+          "V05",
+          "V06",
+          "V07",
+          "V08",
+          "V09"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "cytokine-therapy",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "principle",
+          "limitations"
+        ],
+        "appendedNotes": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "principle"
+        ],
+        "appendedNotes": [
+          "I01",
+          "I02",
+          "I03",
+          "I04",
+          "I05",
+          "I06",
+          "I07",
+          "I08"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "in-situ-vaccination",
+        "file": "src/data/frontier.ts",
+        "scalarFields": [],
+        "appendedNotes": [
+          "S01",
+          "S02",
+          "S03",
+          "S04",
+          "S05",
+          "S06"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "oncolytic-virus",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "principle",
+          "strengths",
+          "limitations"
+        ],
+        "appendedNotes": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "file": "src/data/drugs.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "D01"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "aldesleukin",
+        "file": "src/data/gap-fill.ts",
+        "scalarFields": [],
+        "appendedNotes": [
+          "L01"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "principle"
+        ],
+        "appendedNotes": [
+          "H01"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      }
+    ],
+    "files": [
+      {
+        "file": "src/data/drugs.ts",
+        "beforeSha256": "9903c073395523a2aa97243a2463574cf669511db6e59098eb1aa79147a627b3",
+        "afterSha256": "ae2061aef65fd7ab7d6cfbd043e8cad0c6fcf7d4967fd4f8e87271a89895a01c",
+        "edits": [
+          {
+            "id": "talimogene-laherparepvec",
+            "field": "tldr"
+          },
+          {
+            "id": "talimogene-laherparepvec",
+            "field": "summary"
+          },
+          {
+            "id": "talimogene-laherparepvec",
+            "field": "asOf"
+          },
+          {
+            "id": "talimogene-laherparepvec",
+            "field": "links"
+          },
+          {
+            "id": "talimogene-laherparepvec",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/technologies.ts",
+        "beforeSha256": "afb2e2d9bf77fb366cbbdf202642ac5371cb3f509002549051242b92b39b5b5a",
+        "afterSha256": "bbc58c30409a849d81fb0f3e38d73428fb5dd9752586dfa0c45aae9f2e68c2fa",
+        "edits": [
+          {
+            "id": "cytokine-therapy",
+            "field": "tldr"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "principle"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "limitations"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "asOf"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "links"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "related"
+          },
+          {
+            "id": "cytokine-therapy",
+            "field": "insert-properties"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "tldr"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "principle"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "asOf"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "links"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "related"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "field": "insert-properties"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "tldr"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "principle"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "strengths"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "limitations"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "asOf"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "links"
+          },
+          {
+            "id": "oncolytic-virus",
+            "field": "insert-properties"
+          },
+          {
+            "id": "shared-antigen-vaccine",
+            "field": "principle"
+          },
+          {
+            "id": "shared-antigen-vaccine",
+            "field": "asOf"
+          },
+          {
+            "id": "shared-antigen-vaccine",
+            "field": "links"
+          },
+          {
+            "id": "shared-antigen-vaccine",
+            "field": "related"
+          },
+          {
+            "id": "shared-antigen-vaccine",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/gap-fill.ts",
+        "beforeSha256": "8f5c6e4ab2c4afe46c29d24aa12b25e9d09f1354c685adab8b4a99594034af0b",
+        "afterSha256": "9d6632799d76193489be09911836030a0450819a4b37c55bab2485520b8521f9",
+        "edits": [
+          {
+            "id": "aldesleukin",
+            "field": "links"
+          },
+          {
+            "id": "aldesleukin",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/terms-modalities.ts",
+        "beforeSha256": "b464001f21362ed80881efcac570cc63c980fb400f527e9874e4dbe96b6743a7",
+        "afterSha256": "b025b32c8a6963acb1363d0d0a635bcc74c6944a6aa276c0ad2765141c767df7",
+        "edits": [
+          {
+            "id": "vaccines-and-oncolytic-viruses",
+            "field": "tldr"
+          },
+          {
+            "id": "vaccines-and-oncolytic-viruses",
+            "field": "summary"
+          },
+          {
+            "id": "vaccines-and-oncolytic-viruses",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/frontier.ts",
+        "beforeSha256": "fa736436749e9aa14339406d6df16b53e803b52b19cc3dbe7afcf0eb7d27995f",
+        "afterSha256": "7c7bd3bc070bb61fc6c9a6c94aa5ba97958861324a50b0bdbc9d27cb786859c4",
+        "edits": [
+          {
+            "id": "in-situ-vaccination",
+            "field": "asOf"
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes"
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "links"
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "related"
+          }
+        ]
+      }
+    ],
+    "runtimeSupplementsMaterialised": false
+  },
+  "moduleRegistration": {
+    "module": "src/data/education-immunotherapy-2026-11.ts",
+    "export": "educationImmunotherapy202611Terms",
+    "registeredIds": [
+      "intratumoral-immunotherapy",
+      "vaccine-adjuvants"
+    ],
+    "registry": "src/data/index.ts",
+    "registryBeforeSha256": "0563751b3beab0dd6085b4b7534a28ff1078996abef4ac4255dcb738d68efb62",
+    "registryAfterSha256": "4809499d6ed0192bcd3534fceacad78c22ec63f49efbb7b10ff1ee74e11ea32d",
+    "scope": "Local draft-root registration only; no main/live credit"
+  },
+  "summaryConsumers": {
+    "scope": "Current exact-table preconditions; no named review changed. Missing table entries retain English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "55a8453bdc55a819a6bff4b1acb8014593576616d0300815b88889bb592272e7",
+        "afterSha256": "f9eed8000fe396adf47f7ecbfad29747d73fcecabf15f72d47163d1a1eef56be",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "ar",
+            "before": "Talimogene laherparepvec (T-VEC, Imlygic) كان أول فيروس حالّ للأورام يحصل على الموافقة (2015)، ويُحقن في آفات الميلانوما الجلدية.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "7084ed6d1e1236e8ce7c0374852d42cc770957f753dd5ca9b222e79dfa1c8a7c",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "ar",
+            "before": "فيروسات مُهندَسة لتصيب الخلايا السرطانية وتفجّرها من دون المساس بالخلايا السليمة، ولتنبيه الجهاز المناعي في أثناء ذلك.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "27280c7ad33be1ccf3319da6ed2ad2d1fa19e8d5d5c50990e431eca63df96dd6",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "ar",
+            "before": "العلاج بالسيتوكينات يعطي بروتينات الإشارات المناعية على شكل أدوية. وكان الإنترلوكين-2 عالي الجرعة أول علاج مناعي يشفي بعض حالات الميلانوما، لكن بسمّية كبيرة.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ab456ffb90a182c617e6c0e81b363dc8533d0defc138782a6bf5d481a2f2efc3",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "ar",
+            "before": "أجسام مضادة تُحرر الخلايا المناعية من مكابحها لتتمكن من مهاجمة السرطان. وهي تشفي أقلية من المرضى في كثير من أنواع السرطان، وهو أمر نادراً ما يحققه العلاج الكيميائي.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4a08918e9d573839e106c9fce31bd2e40fbce7250eabc41bd3b217de2c83ac8e",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "108e61a1ca1351b345d7a34e3854f3ba698a5623e9d008d638d4adad07f3630f",
+        "afterSha256": "7ab0b5ce2cb7f0dea957676647685344d345473ffd5f700d81f5a847bcbaa2f5",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "de",
+            "before": "Talimogene laherparepvec (T-VEC, Imlygic) war das erste zugelassene onkolytische Virus (2015), das in Hautläsionen des Melanoms injiziert wird.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "afe207d86cf396356486a2ea133f6035bb9746b70f4b926147e2ff9be578b1bb",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "de",
+            "before": "Viren, die so verändert wurden, dass sie Krebszellen infizieren und zum Platzen bringen, normale Zellen aber in Ruhe lassen und dabei zugleich das Immunsystem alarmieren.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a3399e0ba56016d808f228252ec5df8f4a55952124cc21188e600b18a4b14a9f",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "de",
+            "before": "Die Zytokintherapie verabreicht Signalproteine des Immunsystems als Medikamente. Hochdosiertes Interleukin-2 war die erste Immuntherapie, die einige Melanome heilte, allerdings bei großer Toxizität.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5a1fbe861126b6ee89fbb335ec656851c8398f7d643ff165e4634663263dbd56",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "de",
+            "before": "Antikörper, die die Bremsen der Immunzellen lösen, damit diese den Krebs angreifen können. Sie heilen bei vielen Krebsarten eine Minderheit der Patienten, was Chemotherapie nur selten schafft.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "e44d44aa29e80607153ae63b0bef4d5e2940e9fb88c61297e1c034b64c2cfa5e",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "d3b21796fbe443e3509e2df3fead1256c17c32dee27a821345c5b3e3a2926f36",
+        "afterSha256": "e3bb27ebc43e0fe561e05a35df674fc11e7650a782f3d5d8f8df4527a7a2e8a1",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "es",
+            "before": "El primer virus oncolítico aprobado (2015), inyectado en lesiones cutáneas de melanoma.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a2e9c846d382f7d88ab58a540d60ab12a5b227603605873cbda2f6a8fc3a9d05",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "es",
+            "before": "Proteínas de señalización inmunitaria administradas como fármacos. La interleucina-2 en dosis altas fue la primera inmunoterapia en curar algunos melanomas, con gran toxicidad.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ba75b39f006795f12d03c69b176e512c2733f1a2a251b3b4b473b263cb2a1847",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "es",
+            "before": "Virus diseñados para infectar y reventar las células cancerosas dejando intactas las normales, y para alertar al sistema inmunitario en el proceso.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a170d968dedb0542befec1d0b224b4fe851fe2aab1fdfb1e2eb3d0f7ec28f94d",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "es",
+            "before": "Anticuerpos que liberan los frenos de las células inmunitarias para que ataquen el cáncer. Curan a una minoría de pacientes en muchos cánceres, algo que la quimioterapia rara vez logra.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9c01a76dbf74332a20bcd9ece0e07e89d23d74959132eb3fca5f3e6d52f87aff",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "58f0556815e573256f8c983c3ae2ff850f8460805b01cb761560a716d4faa1a9",
+        "afterSha256": "052b6dd5dd19b96f974b6da561f3953e1cdfceb18a4379b2136d183d69920808",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "fr",
+            "before": "Talimogene laherparepvec (T-VEC, Imlygic) a été le premier virus oncolytique approuvé (2015), injecté dans les lésions cutanées du mélanome.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "7f85cf1e6317ac6cc0ab0f205565a421e648935f38c47da9aed20c1aa539bfcf",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "fr",
+            "before": "Virus modifiés pour infecter et faire éclater les cellules cancéreuses tout en épargnant les cellules normales, et pour alerter le système immunitaire au passage.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "008f505e3d7ad7c28603ac3d1a9fff9be6dcf7518dc1e009dd0e1d83d3d6330f",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "fr",
+            "before": "La thérapie par cytokines administre comme médicaments des protéines de signalisation immunitaire. L'interleukine-2 à haute dose a été la première immunothérapie à guérir certains mélanomes, au prix d'une grande toxicité.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3066536a92c7d962fa6eebeae30acab4699962632e058666f451d8de325c1877",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "fr",
+            "before": "Des anticorps qui relâchent les freins des cellules immunitaires pour qu'elles puissent attaquer le cancer. Ils guérissent une minorité de patients dans de nombreux cancers, ce que la chimiothérapie fait rarement.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "af01fb1744e9ed537f2d6b29f750a74d911a9cbf8a5585c103816d68f1637347",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "855a4980369bd2f7ed2617c0c309e689bec0abc53bc8a4728891b70abc94c275",
+        "afterSha256": "bb37f244cdabf1e99d6bf57a8848e9c06a5bd412e5d04ba5481710efa59d325d",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "hi",
+            "before": "पहला स्वीकृत ऑन्कोलिटिक वायरस (2015), मेलेनोमा त्वचा घावों में इंजेक्ट किया जाता है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3e5ffd7ae088d03f4eb566edebcdd2d63997850a63bffdc98af814508bdf37a8",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "hi",
+            "before": "दवा के रूप में दी गई प्रतिरक्षा-संकेत प्रोटीनें। उच्च-खुराक इंटरल्यूकिन-2 कुछ मेलेनोमा ठीक करने वाली पहली इम्यूनोथेरेपी थी, भारी विषाक्तता के साथ।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "8b0a2a2e856f331b8c3326ee9a73d14dbc4c32b6de5370ad2d5917c5beb9a44e",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "hi",
+            "before": "ऐसे इंजीनियर वायरस जो कैंसर कोशिकाओं को संक्रमित करके फोड़ते हैं, सामान्य कोशिकाओं को छोड़ते हैं और साथ में प्रतिरक्षा तंत्र को चेताते हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "c4e0a5f8a9d99eeb734d6908459670ba1fd4852d76f998238b40d52e2bdfc13e",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "hi",
+            "before": "प्रतिरक्षा कोशिकाओं के ब्रेक छोड़ने वाले एंटीबॉडी ताकि वे कैंसर पर हमला कर सकें। कई कैंसरों में अल्पसंख्यक मरीज़ों को ठीक करते हैं, जो कीमोथेरेपी शायद ही करती है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d4f2313dcfc3eb437c9f876be1aed8d0a066fc2de0c08975a876a9ff796cab2d",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "55346db94103d83a90f1cf66e0023dc60a16826b04f85c006eacf2cf9be18da4",
+        "afterSha256": "703afddd4f5be8f49e1f7b8ae25685b3f2fa406457f971c8399ac548e4fe4b9a",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "ja",
+            "before": "Talimogene laherparepvec（T-VEC、Imlygic）は初めて承認された腫瘍溶解性ウイルス（2015年）であり、黒色腫の皮膚病変に注射して用いる。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "87820e8153f08e02ae482a6919e2b5c198ba0f71916da0485a68c2d4bcadc173",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "ja",
+            "before": "がん細胞に感染して破裂させる一方で正常な細胞には手を出さず、その過程で免疫系に警報を発するように設計されたウイルス。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "b2c97a841d50dd0a2a9abeec86de9a5a4dbc2742bf78647f82eb1224e3e0ce7c",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "ja",
+            "before": "サイトカイン療法は、免疫のシグナルを伝えるタンパク質を薬として投与する治療です。高用量のインターロイキン2は、一部のメラノーマを治癒させた最初の免疫療法でしたが、その毒性は非常に強いものでした。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ca10e60b5855a2575c5c51ca3465d46294f05e90ed9a451e3193a6b6c868f542",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "ja",
+            "before": "免疫細胞のブレーキを外し、がんを攻撃できるようにする抗体薬。多くの種類のがんで少数ながら患者を治癒に導いており、これは化学療法ではめったに起こらないことである。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "1c0d6fe7b5dca11997f9c9fce9ad7c4df0e122d43f69582b11601b2a7a08e153",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "118a14f4a51458b7f3779eb978d5c5424a0bb73e60a4228a0e1461aedd82a825",
+        "afterSha256": "e74535a921af25b2ee5f319b624ec6715035cf6b99139f9e2403562e76a1dc75",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "pt",
+            "before": "O primeiro vírus oncolítico aprovado (2015), injetado em lesões de pele de melanoma.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "be5256bdc79925bb5b5367f4bc81d9a1f8fc911bb3f7260eae6d0435d32e42c3",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "pt",
+            "before": "Proteínas de sinalização imune dadas como drogas. A interleucina-2 em alta dose foi a primeira imunoterapia a curar alguns melanomas, com grande toxicidade.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "79e475d4921647a1f81066e33824e520442539e84202c17671d6d7bd5de696e8",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "pt",
+            "before": "Vírus projetados para infectar e estourar células cancerosas deixando as normais em paz, e alertar o sistema imune no processo.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "fb815de818b081d537ee2d4a43b47dcd154b20dae0d6dac285928d2345be0886",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "pt",
+            "before": "Anticorpos que soltam os freios das células imunes para que ataquem o câncer. Curam uma minoria de pacientes em muitos cânceres, algo que a quimioterapia raramente faz.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "cadc3c07c0540bb5066cdf5e0c003ac5c50e78e079a2444f75f0fd3b2ba75b61",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "966c33a1b58349934cc226dbc027d8bac95f18e9fbc4af8e819b39dd1b29c2d0",
+        "afterSha256": "dbbe219692dd059b58c458b305ff64eb22a9cab8e9de577680d82a8db3ccb9ad",
+        "changes": [
+          {
+            "id": "vaccines-and-oncolytic-viruses",
+            "language": "zh",
+            "before": "癌症疫苗训练免疫系统识别肿瘤细胞上的蛋白；溶瘤病毒感染并裂解癌细胞，同时向免疫系统发出警报。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6b4fe3e0f55095f045e527ceefe192624c8ce79648ef755131ff5d9f9fbc21e6",
+            "afterSha256": null
+          },
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "zh",
+            "before": "首个获批的溶瘤病毒（2015年），注射到黑色素瘤皮肤病灶中。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "67777e8594644cabfbd7b3bc344b40740f3634d926b9f140cf0e3cd7a37ed065",
+            "afterSha256": null
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "zh",
+            "before": "作为药物给予的免疫信号蛋白。大剂量白介素-2是首个治愈部分黑色素瘤的免疫治疗，毒性巨大。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d151ed7cd913622c83aed4991547ee30cf5913e4649fbfdc73c7727b92e308af",
+            "afterSha256": null
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "zh",
+            "before": "被改造成感染并爆破癌细胞、放过正常细胞、同时警示免疫系统的病毒。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5c182a398848a6dc36dea649104a58687bb38046dbfb71c227bcf75e76034ed9",
+            "afterSha256": null
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "zh",
+            "before": "松开免疫细胞刹车、让其攻击癌症的抗体。它们在多种癌症中治愈少数患者，这是化疗很少做到的。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d6e645541818522888867280a6a87166bc6d4fce0030bc99d7547a5d4de7f4b8",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-o.ts",
+        "beforeSha256": "133a90e16f4112a7aa64b668803f7e1770d4105b73ec7f3195845797abdbb2d0",
+        "afterSha256": "977ceddbe6b73b30efe45092a7f109a8171e9245d2a466c025f239a7f7399607",
+        "changes": [
+          {
+            "id": "vaccines-and-oncolytic-viruses",
+            "language": "simple",
+            "before": "Cancer vaccines teach the immune system to recognise proteins on tumour cells, while oncolytic viruses infect and burst cancer cells and raise the alarm to the immune system.",
+            "after": "Cancer vaccines aim to help immune cells recognise cancer targets. Cancer-killing viruses can injure some tumour cells; useful immunity and patient benefit need separate evidence.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "3870c9429d090f1b768bd29841f333241638294d586c67fc11d7d9ba133574dd",
+            "afterSha256": "27a467a46c542348e1f7b25f91110d78b26465a5b5e39916cf96cc667c90c70d"
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-a.ts",
+        "beforeSha256": "15d597e6fa986efffb634f4917ae40fe54b536bfcc8a2af9a96d7036e8baf032",
+        "afterSha256": "0a10f3d8a0c842aeb6a65cc9bc9a6b718ce9ca9009d42a18924b5b50785089b3",
+        "changes": [
+          {
+            "id": "talimogene-laherparepvec",
+            "language": "simple",
+            "before": "The first approved cancer-killing virus, from 2015, injected into melanoma skin lesions.",
+            "after": "This modified herpes virus is injected for local treatment of specified melanoma lesions that cannot be removed by surgery.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "22160c72cc90c38168dbc89dcf726e3250b5b3f3e6b0c466a503c2b15d00e62c",
+            "afterSha256": "466a1b1d7ccc06cadd3077f635ca9db863717b978facc68a8c63bb5a60a3864d"
+          },
+          {
+            "id": "cytokine-therapy",
+            "language": "simple",
+            "before": "Immune-signalling proteins given as drugs. The first cured some melanomas but with very heavy side effects.",
+            "after": "These treatments supply immune-signalling proteins or cells that make them. Their effects depend on the protein, the receiving cells and exposure.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "e771e1c48304319fb89444c725d29372de6023c1dec63fc13ad45eb4c7452b47",
+            "afterSha256": "c7cdfeae8a9b356ab82df7bb393316ad881b2d6e2db7d2fc9d74e39522f70282"
+          },
+          {
+            "id": "oncolytic-virus",
+            "language": "simple",
+            "before": "Viruses engineered to infect and burst cancer cells while leaving normal cells alone, alerting the immune system as they do.",
+            "after": "These viruses can infect and injure susceptible cancer cells. They can also cause harm; a useful immune response against the cancer needs separate evidence.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "187cfa777ed8db8e99f29faf97ad66edbe216f61891dde7f8ea9e0b1ccb9fdab",
+            "afterSha256": "a5f27c4f5a9f65a4fc46b26390a5ffa982ca7f503a2257be177559fd8ca2a10f"
+          },
+          {
+            "id": "checkpoint-inhibitor",
+            "language": "simple",
+            "before": "Antibodies that release the brakes on immune cells so they can attack the cancer. They cure a minority of patients across many cancers.",
+            "after": "These medicines block a particular immune-control interaction. They can support cancer-directed activity and can also injure healthy tissue.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "f83948d8db54b73668a92779c1dba0566ab91a4998069787bd69c49367be2ca4",
+            "afterSha256": "85dbf2fc31cb7c0837e92058fdc0877584a94979240294886c168a9cfd468bea"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 33,
+    "correctedSimpleEntries": 5
+  },
+  "rawFoldInputs": {
+    "scope": "Retired unreviewed raw Chinese fold inputs for the same selected owners. These are separate from the currently selected translations withdrawn, and receive no second canonical-language slot count.",
+    "rows": []
+  },
+  "upstreamComparison": {
+    "incorporatedMain": "72b29117afa707fcb3892f0a22f00ee202a0fbf2",
+    "checkedMain": "2f25843d31097b6b12824e0a4cc528e4fcdbda99",
+    "checks": [
+      {
+        "id": "vaccines-and-oncolytic-viruses",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/terms-modalities.ts"
+        ]
+      },
+      {
+        "id": "cytokine-therapy",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/technologies.ts"
+        ]
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/technologies.ts"
+        ]
+      },
+      {
+        "id": "in-situ-vaccination",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/frontier.ts"
+        ]
+      },
+      {
+        "id": "oncolytic-virus",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/technologies.ts"
+        ]
+      },
+      {
+        "id": "talimogene-laherparepvec",
+        "baseLiteralCount": 2,
+        "mainLiteralCount": 2,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/drugs.ts",
+          "src/data/virotherapy.ts"
+        ]
+      },
+      {
+        "id": "aldesleukin",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/gap-fill.ts"
+        ]
+      },
+      {
+        "id": "shared-antigen-vaccine",
+        "baseLiteralCount": 1,
+        "mainLiteralCount": 1,
+        "allLiteralBodiesEqual": true,
+        "mainFiles": [
+          "src/data/technologies.ts"
+        ]
+      }
+    ],
+    "newBroadOwnerMatches": [],
+    "scope": "Literal canonical-object comparison at current fetched main. Runtime supplement and pending census are separate."
+  },
+  "scope": "All prior notes, links and relationships preserved. No load-time supplement materialised. Known categorical scalar errors corrected and exact before/after values retained. Historical catalogue scope remains explicit; no peer owner edited.",
+  "newOwnerAliasCensus": {
+    "pendingFiles": 95,
+    "newOwnerMatchesOnlyOwnSnapshot": true,
+    "matches": [
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "intratumoral-immunotherapy",
+        "label": "intratumoral-immunotherapy",
+        "expectedOwnerId": "intratumoral-immunotherapy"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "intratumoral-immunotherapy",
+        "label": "Intratumoral immunotherapy",
+        "expectedOwnerId": "intratumoral-immunotherapy"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "intratumoral-immunotherapy",
+        "label": "Intratumoural immunotherapy",
+        "expectedOwnerId": "intratumoral-immunotherapy"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "intratumoral-immunotherapy",
+        "label": "Intralesional immunotherapy",
+        "expectedOwnerId": "intratumoral-immunotherapy"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "vaccine-adjuvants",
+        "label": "vaccine-adjuvants",
+        "expectedOwnerId": "vaccine-adjuvants"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "vaccine-adjuvants",
+        "label": "Vaccine adjuvants",
+        "expectedOwnerId": "vaccine-adjuvants"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "vaccine-adjuvants",
+        "label": "Vaccine adjuvant",
+        "expectedOwnerId": "vaccine-adjuvants"
+      },
+      {
+        "file": "proposal-immunotherapy-root.json",
+        "version": "proposal-immunotherapy-root",
+        "recordId": "vaccine-adjuvants",
+        "label": "Immune adjuvants",
+        "expectedOwnerId": "vaccine-adjuvants"
+      }
+    ],
+    "rootAliasChecks": "Exact name/id/alias check passed in registered graph; before graph lacked both new ids."
+  }
+}

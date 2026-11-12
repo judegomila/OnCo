@@ -1,0 +1,1383 @@
+{
+  "version": "proposal-therapy-conjugates-summary-consumers",
+  "state": "Actual nine short selectors: 31 present entries and 122 English fallbacks. Simplified English is not a named-language review; no accepted stale long summary.",
+  "records": [
+    {
+      "id": "chemotherapy-term-ar",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (ar)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (ar)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-ar",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (ar)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-ar",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (ar)",
+      "canonicalRecordId": "anthracycline",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-ar",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (ar)",
+      "canonicalRecordId": "taxane",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-ar",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (ar)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-ar",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (ar)",
+      "canonicalRecordId": "platinum",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-ar",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (ar)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-ar",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (ar)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "ar",
+      "available": true,
+      "text": "العلاج الكيميائي الذي ظهر عام 1957 ولا يزال يشكّل العمود الفقري لعلاج سرطانات الأمعاء والمعدة والبنكرياس والشرج والرأس والعنق والثدي، ويُستخدم أيضًا على شكل كريم لعلاج الآفات السابقة للسرطان في الجلد."
+    },
+    {
+      "id": "capecitabine-ar",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (ar)",
+      "canonicalRecordId": "capecitabine",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (ar)",
+      "canonicalRecordId": "tubulin",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (ar)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (ar)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (ar)",
+      "canonicalRecordId": "adc",
+      "language": "ar",
+      "available": true,
+      "text": "المقترن بين الضد والدواء يشبه صاروخاً موجهاً: يتوجه الضد إلى الخلية السرطانية، فتبتلعه، ثم يطلق علاجاً كيميائياً شديد الفعالية إلى درجة لا يمكن إعطاؤه وحده أبداً."
+    },
+    {
+      "id": "chemotherapy-term-de",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (de)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (de)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-de",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (de)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-de",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (de)",
+      "canonicalRecordId": "anthracycline",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-de",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (de)",
+      "canonicalRecordId": "taxane",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-de",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (de)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-de",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (de)",
+      "canonicalRecordId": "platinum",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-de",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (de)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-de",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (de)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "de",
+      "available": true,
+      "text": "Die Chemotherapie aus dem Jahr 1957, die bis heute das Rückgrat der Behandlung von Darm-, Magen-, Bauchspeicheldrüsen-, Anal-, Kopf-Hals- und Brustkrebs bildet und als Creme gegen Krebsvorstufen der Haut eingesetzt wird."
+    },
+    {
+      "id": "capecitabine-de",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (de)",
+      "canonicalRecordId": "capecitabine",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-de",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (de)",
+      "canonicalRecordId": "tubulin",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (de)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (de)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (de)",
+      "canonicalRecordId": "adc",
+      "language": "de",
+      "available": true,
+      "text": "Ein Antikörper-Wirkstoff-Konjugat ist eine Lenkrakete: Ein Antikörper steuert die Tumorzelle an, wird von ihr aufgenommen und setzt eine Chemotherapie frei, die so stark ist, dass sie allein niemals gegeben werden könnte."
+    },
+    {
+      "id": "chemotherapy-term-es",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (es)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (es)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-es",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (es)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-es",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (es)",
+      "canonicalRecordId": "anthracycline",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-es",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (es)",
+      "canonicalRecordId": "taxane",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-es",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (es)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-es",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (es)",
+      "canonicalRecordId": "platinum",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-es",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (es)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-es",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (es)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "es",
+      "available": true,
+      "text": "La quimioterapia de 1957 que sigue siendo la base del tratamiento de los cánceres de intestino, estómago, páncreas, ano, cabeza y cuello y mama, y que se usa en crema para las lesiones precancerosas de la piel."
+    },
+    {
+      "id": "capecitabine-es",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (es)",
+      "canonicalRecordId": "capecitabine",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-es",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (es)",
+      "canonicalRecordId": "tubulin",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (es)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (es)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (es)",
+      "canonicalRecordId": "adc",
+      "language": "es",
+      "available": true,
+      "text": "Un misil guiado: un anticuerpo se dirige a la célula tumoral, es engullido y libera una quimioterapia tan potente que nunca podría darse sola."
+    },
+    {
+      "id": "chemotherapy-term-fr",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (fr)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (fr)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-fr",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (fr)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-fr",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (fr)",
+      "canonicalRecordId": "anthracycline",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-fr",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (fr)",
+      "canonicalRecordId": "taxane",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-fr",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (fr)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-fr",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (fr)",
+      "canonicalRecordId": "platinum",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-fr",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (fr)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-fr",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (fr)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "fr",
+      "available": true,
+      "text": "La chimiothérapie de 1957 qui reste le pilier du traitement des cancers de l'intestin, de l'estomac, du pancréas, de l'anus, de la tête et du cou et du sein, et qui s'utilise en crème pour les lésions précancéreuses de la peau."
+    },
+    {
+      "id": "capecitabine-fr",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (fr)",
+      "canonicalRecordId": "capecitabine",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (fr)",
+      "canonicalRecordId": "tubulin",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (fr)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (fr)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (fr)",
+      "canonicalRecordId": "adc",
+      "language": "fr",
+      "available": true,
+      "text": "Un conjugué anticorps-médicament est un missile guidé : un anticorps se dirige vers la cellule tumorale, y est absorbé, puis libère une chimiothérapie si puissante qu'elle ne pourrait jamais être administrée seule."
+    },
+    {
+      "id": "chemotherapy-term-hi",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (hi)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (hi)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-hi",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (hi)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-hi",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (hi)",
+      "canonicalRecordId": "anthracycline",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-hi",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (hi)",
+      "canonicalRecordId": "taxane",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-hi",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (hi)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-hi",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (hi)",
+      "canonicalRecordId": "platinum",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-hi",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (hi)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-hi",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (hi)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "hi",
+      "available": true,
+      "text": "1957 की यह कीमोथेरेपी आज भी आंत, पेट, अग्न्याशय, गुदा, सिर और गर्दन तथा स्तन के कैंसर के इलाज की रीढ़ है, और त्वचा की कैंसर-पूर्व अवस्थाओं के लिए क्रीम के रूप में भी इस्तेमाल होती है।"
+    },
+    {
+      "id": "capecitabine-hi",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (hi)",
+      "canonicalRecordId": "capecitabine",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (hi)",
+      "canonicalRecordId": "tubulin",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (hi)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (hi)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (hi)",
+      "canonicalRecordId": "adc",
+      "language": "hi",
+      "available": true,
+      "text": "एक निर्देशित मिसाइल: एंटीबॉडी ट्यूमर कोशिका तक पहुँचता है, निगला जाता है और ऐसी शक्तिशाली कीमोथेरेपी छोड़ता है जो अकेले कभी नहीं दी जा सकती।"
+    },
+    {
+      "id": "chemotherapy-term-ja",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (ja)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (ja)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-ja",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (ja)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-ja",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (ja)",
+      "canonicalRecordId": "anthracycline",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-ja",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (ja)",
+      "canonicalRecordId": "taxane",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-ja",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (ja)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-ja",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (ja)",
+      "canonicalRecordId": "platinum",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-ja",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (ja)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-ja",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (ja)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "ja",
+      "available": true,
+      "text": "1957年に登場した化学療法薬で、今も大腸がん、胃がん、膵臓がん、肛門がん、頭頸部がん、乳がんの治療の中心であり、皮膚の前がん病変にはクリームとしても使われている。"
+    },
+    {
+      "id": "capecitabine-ja",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (ja)",
+      "canonicalRecordId": "capecitabine",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (ja)",
+      "canonicalRecordId": "tubulin",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (ja)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (ja)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (ja)",
+      "canonicalRecordId": "adc",
+      "language": "ja",
+      "available": true,
+      "text": "抗体薬物複合体は誘導ミサイルのようなものだ。抗体が腫瘍細胞をめざして向かい、細胞内に取り込まれ、単独では決して投与できないほど強力な化学療法薬を放出する。"
+    },
+    {
+      "id": "chemotherapy-term-pt",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (pt)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (pt)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-pt",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (pt)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-pt",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (pt)",
+      "canonicalRecordId": "anthracycline",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-pt",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (pt)",
+      "canonicalRecordId": "taxane",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-pt",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (pt)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-pt",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (pt)",
+      "canonicalRecordId": "platinum",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-pt",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (pt)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-pt",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (pt)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "pt",
+      "available": true,
+      "text": "A quimioterapia de 1957 que continua sendo a base do tratamento dos cânceres de intestino, estômago, pâncreas, ânus, cabeça e pescoço e mama, e que é usada em creme para lesões pré-cancerosas da pele."
+    },
+    {
+      "id": "capecitabine-pt",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (pt)",
+      "canonicalRecordId": "capecitabine",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (pt)",
+      "canonicalRecordId": "tubulin",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (pt)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (pt)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (pt)",
+      "canonicalRecordId": "adc",
+      "language": "pt",
+      "available": true,
+      "text": "Um míssil guiado: um anticorpo vai até a célula tumoral, é engolido e libera uma quimioterapia tão potente que nunca poderia ser dada sozinha."
+    },
+    {
+      "id": "chemotherapy-term-zh",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (zh)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cytotoxic-chemotherapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (zh)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemotherapy-regimen-zh",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (zh)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anthracycline-zh",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (zh)",
+      "canonicalRecordId": "anthracycline",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "taxane-zh",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (zh)",
+      "canonicalRecordId": "taxane",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "alkylating-agent-zh",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (zh)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platinum-zh",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (zh)",
+      "canonicalRecordId": "platinum",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-inhibitors-zh",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (zh)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "fluorouracil-zh",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (zh)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "zh",
+      "available": true,
+      "text": "这种1957年问世的化疗药物至今仍是肠癌、胃癌、胰腺癌、肛门癌、头颈癌和乳腺癌治疗的基石，也以乳膏形式用于皮肤癌前病变。"
+    },
+    {
+      "id": "capecitabine-zh",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (zh)",
+      "canonicalRecordId": "capecitabine",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tubulin-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (zh)",
+      "canonicalRecordId": "tubulin",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dose-dense-chemotherapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (zh)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-tumor-penetration-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (zh)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (zh)",
+      "canonicalRecordId": "adc",
+      "language": "zh",
+      "available": true,
+      "text": "一枚制导导弹：抗体归巢到肿瘤细胞，被吞入后释放一种强到永远无法单独给药的化疗。"
+    },
+    {
+      "id": "chemotherapy-term-simple",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (simple)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "simple",
+      "available": true,
+      "text": "Chemotherapy medicines affect different cell processes. They can kill cancer cells or slow their growth, and healthy cells can be affected too."
+    },
+    {
+      "id": "cytotoxic-chemotherapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cytotoxic chemotherapy (simple)",
+      "canonicalRecordId": "cytotoxic-chemotherapy",
+      "language": "simple",
+      "available": true,
+      "text": "These medicines can kill cancer cells or stop their growth. Their benefits and harms depend on the drug, treatment plan and cancer setting."
+    },
+    {
+      "id": "chemotherapy-regimen-simple",
+      "kind": "reader-summary-entry",
+      "name": "Regimen and cycles (simple)",
+      "canonicalRecordId": "chemotherapy-regimen",
+      "language": "simple",
+      "available": true,
+      "text": "A regimen sets out the medicines, amounts and timing. A cycle is a defined period of treatment and recovery; its length depends on the plan."
+    },
+    {
+      "id": "anthracycline-simple",
+      "kind": "reader-summary-entry",
+      "name": "Anthracyclines (doxorubicin, epirubicin) (simple)",
+      "canonicalRecordId": "anthracycline",
+      "language": "simple",
+      "available": true,
+      "text": "Anthracyclines affect DNA and an enzyme that cuts and reseals it. They can also harm the heart, sometimes after treatment has ended."
+    },
+    {
+      "id": "taxane-simple",
+      "kind": "reader-summary-entry",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel) (simple)",
+      "canonicalRecordId": "taxane",
+      "language": "simple",
+      "available": true,
+      "text": "Taxanes change how microtubules grow and shorten. These structures help cells divide and do other jobs, so healthy tissue can be affected too."
+    },
+    {
+      "id": "alkylating-agent-simple",
+      "kind": "reader-summary-entry",
+      "name": "Alkylating agents and antimetabolites (simple)",
+      "canonicalRecordId": "alkylating-agent",
+      "language": "simple",
+      "available": true,
+      "text": "These are two different drug families. Alkylating agents attach chemical groups to molecules such as DNA; antimetabolites interfere with chemicals cells normally use."
+    },
+    {
+      "id": "platinum-simple",
+      "kind": "reader-summary-entry",
+      "name": "Platinum agents (simple)",
+      "canonicalRecordId": "platinum",
+      "language": "simple",
+      "available": true,
+      "text": "Platinum medicines can attach to DNA and link sites together. That does not by itself show that a cell dies or that a treatment will work."
+    },
+    {
+      "id": "topoisomerase-inhibitors-simple",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads) (simple)",
+      "canonicalRecordId": "topoisomerase-inhibitors",
+      "language": "simple",
+      "available": true,
+      "text": "These medicines can trap an enzyme on DNA during a temporary cut. Further damage depends on the medicine, exposure and cell response."
+    },
+    {
+      "id": "fluorouracil-simple",
+      "kind": "reader-summary-entry",
+      "name": "Fluorouracil (5-FU) (simple)",
+      "canonicalRecordId": "fluorouracil",
+      "language": "simple",
+      "available": true,
+      "text": "Fluorouracil is the 1957 chemotherapy that remains the backbone of treatment for bowel, stomach, pancreatic, anal and head and neck cancers, and a cream for skin precancers."
+    },
+    {
+      "id": "capecitabine-simple",
+      "kind": "reader-summary-entry",
+      "name": "Capecitabine (simple)",
+      "canonicalRecordId": "capecitabine",
+      "language": "simple",
+      "available": true,
+      "text": "The body converts capecitabine tablets into fluorouracil. Taking a medicine by mouth does not remove the risk of serious harm."
+    },
+    {
+      "id": "tubulin-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin (microtubules) (simple)",
+      "canonicalRecordId": "tubulin",
+      "language": "simple",
+      "available": true,
+      "text": "Tubulin builds microtubules used in division, transport and cell organisation. Medicines can change these structures without every exposed cell dying."
+    },
+    {
+      "id": "dose-dense-chemotherapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dose-dense and metronomic chemotherapy (simple)",
+      "canonicalRecordId": "dose-dense-chemotherapy",
+      "language": "simple",
+      "available": true,
+      "text": "Dose-dense treatment shortens the gaps between treatments, while metronomic treatment uses repeated lower doses. Benefits, harms and supportive care depend on the particular regimen."
+    },
+    {
+      "id": "antibody-tumor-penetration-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody penetration into tumours (simple)",
+      "canonicalRecordId": "antibody-tumor-penetration",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody-drug conjugate (ADC) (simple)",
+      "canonicalRecordId": "adc",
+      "language": "simple",
+      "available": true,
+      "text": "A guided missile: an antibody finds the cancer cell, gets swallowed, and releases a chemotherapy far too strong to give on its own."
+    },
+    {
+      "id": "immune-stimulating-adc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (ar)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (ar)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (ar)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (de)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (de)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (de)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (es)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (es)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (es)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (fr)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (fr)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (fr)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (hi)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (hi)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (hi)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (ja)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (ja)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (ja)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (pt)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (pt)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (pt)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (zh)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transcription-inhibitor-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (zh)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (zh)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-stimulating-adc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-stimulating antibody conjugate (ISAC) (simple)",
+      "canonicalRecordId": "immune-stimulating-adc",
+      "language": "simple",
+      "available": true,
+      "text": "The antibody carries a drug intended to stimulate immune sensing. Delivery, immune activation and useful tumour control each need evidence."
+    },
+    {
+      "id": "transcription-inhibitor-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "Transcription-inhibitor payloads (simple)",
+      "canonicalRecordId": "transcription-inhibitor-payloads",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "topoisomerase-i-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "Topoisomerase-I inhibitor payloads (simple)",
+      "canonicalRecordId": "topoisomerase-i-payloads",
+      "language": "simple",
+      "available": true,
+      "text": "These drug cargoes can trap an enzyme on DNA during a temporary cut. The chemical, exposure and cell response determine what happens next."
+    }
+  ]
+}

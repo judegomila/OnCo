@@ -75,7 +75,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this
   // gauge asks about, so the denominator moves with them.
   { id: "bottleneck-ideas", total: 55, label: "Bottlenecks with ten or more ideas" },
-  { id: "term-wikipedia", total: 1317, label: "Terms with a Wikipedia link, or checked and found to have none" },
+  // 11 November 2026: inherited glossary additions and the education audit brought the term census from 1,317 to
+  // 1,581. The new genetic-code entry is a glossary term, the population this gauge asks about. Record the live
+  // population; the label, completeness target and drift threshold are unchanged.
+  { id: "term-wikipedia", total: 1581, label: "Terms with a Wikipedia link, or checked and found to have none" },
   { id: "stale", total: 22343, label: "Records checked in the last 60 days" },
   { id: "kind-size", total: 18, label: "Open kinds with 25 or more records" },
   { id: "reviewed", total: 21770, label: "Records a named human reviewer has signed off" },

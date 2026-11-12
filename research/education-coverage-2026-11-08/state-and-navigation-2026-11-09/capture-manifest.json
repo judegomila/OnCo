@@ -1,0 +1,72 @@
+[
+  {
+    "file": "prior-and-tonic-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A26885860%20OR%20EXT_ID%3A33020644%20OR%20EXT_ID%3A25939063%29%20AND%20SRC%3AMED&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T20:22:38.905138+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A26885860%20OR%20EXT_ID%3A33020644%20OR%20EXT_ID%3A25939063%29%20AND%20SRC%3AMED&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 40731,
+    "sha256": "c4f209347f016fb2b574ca97db77e45400bb0b9b4d079325d39a00d68c94b854"
+  },
+  {
+    "file": "transgene-2025-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1182/bloodadvances.2024014995&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T20:22:38.905513+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1182/bloodadvances.2024014995&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12174,
+    "sha256": "4da262ce8bb737face0d0ef9c7d9a2034f0c022b36382d97b8bcadbbcf3ca0a9"
+  },
+  {
+    "file": "decade-persistence-2026-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41591-026-04578-1&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T20:22:38.905639+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038/s41591-026-04578-1&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 21657,
+    "sha256": "d65c960a45995df988f2c37cad4138e5f11c7721cbcc6aa63dbb5c74ce2812a5"
+  },
+  {
+    "file": "humanized-cd19-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC9851702%20OR%20TITLE%3A%22Humanized%20CD19-Targeted%20Chimeric%20Antigen%20Receptor%22&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T20:22:38.905762+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC9851702%20OR%20TITLE%3A%22Humanized%20CD19-Targeted%20Chimeric%20Antigen%20Receptor%22&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 36312,
+    "sha256": "f9ab3e25f4cee08e9a41b4510be78b0b80aa7321017e2ed2eaa6784479357ec6"
+  },
+  {
+    "file": "stemlike-exhaustion-search.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22TCF1%22%20AND%20%28TITLE%3A%22exhausted%22%20OR%20TITLE%3A%22stem-like%22%29%20AND%20FIRST_PDATE%3A%5B2018-01-01%20TO%202020-12-31%5D&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T20:22:39.900732+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22TCF1%22%20AND%20%28TITLE%3A%22exhausted%22%20OR%20TITLE%3A%22stem-like%22%29%20AND%20FIRST_PDATE%3A%5B2018-01-01%20TO%202020-12-31%5D&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 47109,
+    "sha256": "f8f9308ddaf7e380f5c3e87df63ed1a9604c393b95c78255839a412e18107631"
+  },
+  {
+    "file": "transgene-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12405623/",
+    "capturedAt": "2026-11-09T20:26:36.207969+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12405623/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 180261,
+    "sha256": "57a6517ff7a8ed3d0f0e2ee50c6ec1aac195199e5adac1abfc109aa9730610d3"
+  },
+  {
+    "file": "huCART19-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851702/",
+    "capturedAt": "2026-11-09T20:26:36.208272+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851702/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 202863,
+    "sha256": "9d480c0845ab2ea8ed11ae2dd1d84ce70c297f04617337224a7039cb72fd2f29"
+  }
+]

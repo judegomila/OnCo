@@ -1,0 +1,145 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Duplicate-only catalogue dispositions complete at both pins; underlying scientific and asset work remains open.",
+  "sourceVersions": 4,
+  "sectionSignaturesReproduced": 25,
+  "originalEntries": {
+    "conceptDefinitions": 400,
+    "imageAlternatives": 381
+  },
+  "laterEntries": {
+    "conceptDefinitions": 434,
+    "imageAlternatives": 380
+  },
+  "definitionOwnerCopies": 834,
+  "completeAltOwnerCopies": 757,
+  "strictPrefixAltCopies": 4,
+  "activeImageAndDarkPairChecks": 761,
+  "readingBatchesCompleted": 28,
+  "newLaterRoutingDispositions": 2,
+  "originalRoutingDispositionsRechecked": 2,
+  "newTeachingRequirements": 0,
+  "newCanonicalRecords": 0,
+  "newSourceAssetReviewCredit": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "firstLedgerReplay": [
+    {
+      "phase": "c9689645",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 5,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 399,
+        "implementedCoverage": 393,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 152,
+        "unresolvedSources": 152,
+        "adjacentConcepts": 55,
+        "unresolvedAdjacentConcepts": 31,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3903,
+      "evidencedRequirements": 3897,
+      "openRequirements": 6,
+      "staleOrMissingProofs": 0
+    },
+    {
+      "phase": "7510db6b",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 391,
+        "implementedCoverage": 383,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 147,
+        "unresolvedSources": 147,
+        "adjacentConcepts": 55,
+        "unresolvedAdjacentConcepts": 31,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3683,
+      "evidencedRequirements": 3672,
+      "openRequirements": 11,
+      "staleOrMissingProofs": 0
+    }
+  ],
+  "secondLedgerReplay": {
+    "phases": [
+      {
+        "phase": "c9689645",
+        "exitCode": 2,
+        "stats": {
+          "totalSources": 550,
+          "conceptOrComparison": 434,
+          "guideOrLesson": 109,
+          "navigation": 7,
+          "navigationReviewed": 5,
+          "navigationWithTeachingContent": 2,
+          "semanticallyReviewed": 399,
+          "implementedCoverage": 393,
+          "mainCoverage": 0,
+          "unresolvedContentItems": 152,
+          "unresolvedSources": 152,
+          "adjacentConcepts": 55,
+          "unresolvedAdjacentConcepts": 31,
+          "openSchemaGaps": 6,
+          "unreviewedLiteratureOccurrences": 0,
+          "readyForFinalReaudit": false
+        },
+        "requirements": 3903,
+        "evidencedRequirements": 3897,
+        "openRequirements": 6,
+        "staleOrMissingProofs": 0
+      },
+      {
+        "phase": "7510db6b",
+        "exitCode": 2,
+        "stats": {
+          "totalSources": 537,
+          "conceptOrComparison": 411,
+          "guideOrLesson": 112,
+          "navigation": 14,
+          "navigationReviewed": 7,
+          "navigationWithTeachingContent": 7,
+          "semanticallyReviewed": 391,
+          "implementedCoverage": 383,
+          "mainCoverage": 0,
+          "unresolvedContentItems": 147,
+          "unresolvedSources": 147,
+          "adjacentConcepts": 55,
+          "unresolvedAdjacentConcepts": 31,
+          "openSchemaGaps": 6,
+          "unreviewedLiteratureOccurrences": 0,
+          "readyForFinalReaudit": false
+        },
+        "requirements": 3683,
+        "evidencedRequirements": 3672,
+        "openRequirements": 11,
+        "staleOrMissingProofs": 0
+      }
+    ],
+    "unchangedArtifactFiles": 707,
+    "changedFiles": []
+  },
+  "validation": {
+    "sourceCoverageTestFile": "scripts/education-coverage.test.ts",
+    "focusedTestsPassed": 12,
+    "canonicalDataOrProductChanged": false,
+    "fullSuiteRerunForMetadataOnlyChange": false,
+    "inheritedFullSuiteScope": "Application fields unchanged since the breast checkpoint, which passed 289 files and 2875 tests with two skips."
+  }
+}

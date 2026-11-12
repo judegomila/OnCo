@@ -1,0 +1,2563 @@
+{
+  "workerInventory": [
+    {
+      "id": "cfdna-vs-ctdna:r1",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "cfDNA is DNA outside intact cells and ctDNA is its tumour-derived portion, related materials and not rival tests",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r2",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Most healthy-donor cfDNA comes from blood cells (55% white cells, 30% erythrocyte progenitors, 10% endothelium, 1% liver by methylation atlas)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r3",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Scale: 166 bp peak, 90 to 150 bp tumour enrichment, 3.3 pg per haploid copy, 4,500 copies about 15 ng input, ppm-level detection, 0.045 copies of one variant at 1 per 100,000",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r4",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Detection by stage and tumour type (localised breast 50%, colorectal 73%) shows shedding varies",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r5",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "A plasma variant is not automatically tumour-derived: blood-cell clones, matched white-cell sequencing, tumour comparison and origin filters address different ambiguities",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r6",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Collection and processing: blood-cell breakdown before separation dilutes the tumour fraction; extraction retains only some molecules",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r7",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Yield is not origin: doubling total DNA yield does not give a tumour-DNA fold change (worked comparison)",
+      "sections": [
+        "Worked comparison: yield is not origin"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r8",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Assay card: measures, input, output units, thresholds, failure modes, cannot tell, validation",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r9",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Variant Q in plasma and matched white-blood-cell DNA without tumour comparison is not a tumour marker (Try it)",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r10",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Different intended uses of ctDNA (genotyping, response research, MRD) and that blood DNA cannot locate a lesion; CTCs are a separate analyte",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "cfdna-vs-ctdna:r11",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "River-of-paper analogy and its limit that a fragment is not one living cell",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "cfdna-vs-ctdna:r12",
+      "lesson": "cfdna-vs-ctdna",
+      "requirement": "Figure: pool, ctDNA subset and a separate source-assignment task; symbols do not encode amounts",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r1",
+      "lesson": "chip",
+      "requirement": "CH versus CHIP: CHIP is a defined category (VAF at least 2%, no detectable blood cancer) within the wider phenomenon; VAF is not a cell percentage",
+      "sections": [
+        "In one sentence",
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r2",
+      "lesson": "chip",
+      "requirement": "A clone below the CHIP cut-off can still put a real mutation into plasma and is not thereby tumour-derived or an error",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r3",
+      "lesson": "chip",
+      "requirement": "Gene groups: DNMT3A, TET2, ASXL1 with age (9.5% at 70 to 79); TP53, PPM1D, CHEK2 selected by therapy",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r4",
+      "lesson": "chip",
+      "requirement": "TP53 trap: a gene mutated in tumours and selected in blood cells can come from either compartment",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r5",
+      "lesson": "chip",
+      "requirement": "Scale: 53.2% and 81.6% of plasma mutations had CH features; ambiguous-source category",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r6",
+      "lesson": "chip",
+      "requirement": "Matched white-blood-cell sequencing is the standard comparison with its own coverage and depth limits; subtracting every blood match is not complete",
+      "sections": [
+        "How it works",
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r7",
+      "lesson": "chip",
+      "requirement": "Parallel-compartment figure: V in plasma and blood cells but not tumour supports blood contribution; tumour non-detection is bounded",
+      "sections": [
+        "How it works",
+        "Try it"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r8",
+      "lesson": "chip",
+      "requirement": "Assay card and why it matters: selecting tracking targets, resistance variants, low-level signals; CHIP is not a leukaemia diagnosis",
+      "sections": [
+        "How it is measured",
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r9",
+      "lesson": "chip",
+      "requirement": "Mermaid: blood-cell clone to plasma variant to source assignment or retained uncertainty",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "chip:r10",
+      "lesson": "chip",
+      "requirement": "Tree-branch analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "circulating-tumor-cells:r1",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "A CTC is a cell classified under an assay's capture and identification rules; free DNA is a separate analyte",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r2",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Enrichment selects: EpCAM, cytokeratin, CD45-negative is one operational definition; physical methods have different bias; marker independence is not unbiased recovery",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r3",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Parsortix-type size and stiffness capture can miss blood-like cells; harvested set is not every tumour cell",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r4",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "EMT can alter epithelial markers: a reason to examine capture limits and not proof of a miss",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r5",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Prognostic versus clinical utility: 177-patient cohort, SWOG S0500 early switch did not improve overall survival",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r6",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "The 5 per 7.5 mL cutoff belongs to the historical metastatic breast assay and is not a minimum cell definition",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r7",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Assay card: input, time, units, controls, failure modes, validation tier (FDA clearance for defined uses)",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r8",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Zero qualifying cells in 7.5 mL does not exclude circulating tumour cells and does not determine ctDNA (Try it); cell count is not a DNA fraction; capture is not a census; circulation is not a metastasis; prognosis is not a treatment rule",
+      "sections": [
+        "Try it",
+        "Explain it back",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r9",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Figure and Mermaid: marker selection, recovered versus unselected cells and free DNA; blood volume to validated interpretation",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "circulating-tumor-cells:r10",
+      "lesson": "circulating-tumor-cells",
+      "requirement": "Whole-piece-of-machinery analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "ctdna-imaging-discordance:r1",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Discordance: blood molecular call and imaging result sample different material, regions, times and signals",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r2",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Blood side: finite cfDNA aliquot, shedding variation, recovery, background, detection limit; negative can coexist with disease",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r3",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Imaging side: MRI enhancement or volume is a physical signal, not a viable-cell count; residual abnormality need not be all tumour",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r4",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Evidence: ctDNA and MRI functional tumour volume correlated in an 84-patient pilot, agreement incomplete, no universal redirection rule",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r5",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Time matters: ctDNA half-life claim (114 minutes, one subject) could not be verified from accessible raw text and is withheld",
+      "sections": [
+        "How it works",
+        "Sources and scope"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r6",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "A mismatch is a question: check dates, qualifications, region, finding; positive variant needs source attribution",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r7",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Assay card comparing blood and imaging side by side, including what each cannot tell; blood is not a whole-body scan, an image is not a viable-tumour count, concordance is not independent proof",
+      "sections": [
+        "How it is measured",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r8",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Finite input: thousands of genome copies can leave no tumour molecule in the aliquot",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r9",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "No qualifying ctDNA with abnormal MRI does not show scar (Try it)",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r10",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Mermaid: dates and setting, blood and imaging signals, compare scope and limits, resolve with evidence",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-imaging-discordance:r11",
+      "lesson": "ctdna-imaging-discordance",
+      "requirement": "Shoreline photograph analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "ctdna-units:r1",
+      "lesson": "ctdna-units",
+      "requirement": "A ctDNA number is meaningful only with its measured quantity, unit and detection criteria",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r2",
+      "lesson": "ctdna-units",
+      "requirement": "MTM/mL, PPM, VAF and tumour fraction are different quantities with boundaries (table)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r3",
+      "lesson": "ctdna-units",
+      "requirement": "Rescaling to PPM only for the same quantity; 0.01% VAF is 100 PPM of variant alleles, not a tumour fraction",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r4",
+      "lesson": "ctdna-units",
+      "requirement": "Concentration and fraction move differently: same 4 molecules per mL, 20% versus 10% with more background (figure)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r5",
+      "lesson": "ctdna-units",
+      "requirement": "Detection call versus reliable amount: LoD and LoQ have different validation",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r6",
+      "lesson": "ctdna-units",
+      "requirement": "Assay card: input volume is not recovered input; thresholds; failure modes; no universal scale or cross-assay fold change",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r7",
+      "lesson": "ctdna-units",
+      "requirement": "Evidence for MTM/mL (Magbanua) and ppm allele fractions (Santonja) as assay-specific figures",
+      "sections": [
+        "Sources and scope"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r8",
+      "lesson": "ctdna-units",
+      "requirement": "Try it: 0.01% VAF versus 0.2 MTM/mL cannot be compared or converted",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r9",
+      "lesson": "ctdna-units",
+      "requirement": "Attach assay version, time point and units before interpreting a trend",
+      "sections": [
+        "Why it matters in cancer",
+        "Takeaway"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "ctdna-units:r10",
+      "lesson": "ctdna-units",
+      "requirement": "Teaspoon-and-percentage analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "fragmentomics-and-methylation:r1",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Fragmentomics reads length, breakpoints, ends and genomic distribution; methylation reads chemical marks at CpG sites; features can complement mutation tracking without establishing location, stage or benefit",
+      "sections": [
+        "In one sentence",
+        "How it works",
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r2",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "166 bp nucleosome-linked peak and tumour fragments shorter on average: a distribution shift, 90 to 150 bp enrichment",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r3",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Methylation: not sequence change, CpG sites, conversion methods; normal cells carry patterns too",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r4",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Atlas and deconvolution estimate source contributions; tissue injury also changes patterns; origin alone is not cancer",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r5",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Classifiers assign scores; proof of principle in defined cohorts does not transfer across population, protocol or assay version",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r6",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Preanalytics: tube and time can alter fragmentation patterns and end sequences although sizes look similar",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r7",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Measured features then reference and model then source estimate; inference is not a cell census (figure and Mermaid)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r8",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Assay card: units, thresholds (score not calibrated probability), controls, validation tier",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r9",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Try it: higher scores under a new transport protocol do not prove more cancer DNA",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r10",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Common confusions: shorter is not cancer, methylation is not abnormality, one classifier is not all liquid biopsies",
+      "sections": [
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "fragmentomics-and-methylation:r11",
+      "lesson": "fragmentomics-and-methylation",
+      "requirement": "Torn-page analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "lead-time:r1",
+      "lesson": "lead-time",
+      "requirement": "Measured lead time is the interval between a defined earlier test signal and a defined later event, conditional on who can be measured",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r2",
+      "lesson": "lead-time",
+      "requirement": "The definition needs rules: event type, blood date, blinding, triggered scans, treatment on the signal",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r3",
+      "lesson": "lead-time",
+      "requirement": "Intermittent sampling: the gap depends on both schedules and does not locate biological onset",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r4",
+      "lesson": "lead-time",
+      "requirement": "Denominator and censoring: median among those with both signal and event; recurrences without prior positive; censored positives",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r5",
+      "lesson": "lead-time",
+      "requirement": "Landmark and immortal-time care when estimating outcomes after a positive result",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r6",
+      "lesson": "lead-time",
+      "requirement": "Six-person arithmetic: gaps 2, 4, 6, 8, median 5 months, two detection failures excluded (figure and Try it)",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r7",
+      "lesson": "lead-time",
+      "requirement": "Earlier signal is not benefit; lead-time bias; do not rank assays from unrelated medians",
+      "sections": [
+        "Why it matters in cancer",
+        "Takeaway"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r8",
+      "lesson": "lead-time",
+      "requirement": "Real studies: 10.7-month median lead time with 3-then-6-monthly draws; c-TRAK TN 27.3% detection, 7 relapses without prior detection",
+      "sections": [
+        "Sources and scope"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r9",
+      "lesson": "lead-time",
+      "requirement": "Assay card: units, thresholds, failure modes, validation",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "lead-time:r10",
+      "lesson": "lead-time",
+      "requirement": "Two-alarms analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r1",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Four gates: material enters blood, is included in the aliquot, is recovered, meets the calling rule (Mermaid)",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r2",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Finite sampling: Poisson chance of zero is exp(minus lambda), 36.8% at an average of one; not a clinical false-negative rate (figure)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r3",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Worked scale: 4,500 copies at 0.01% gives 0.45 copies, 64% zero; 20 variants gives 9 copies, 0.01% zero",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r4",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Recovery and representation: reads are not independent molecules; targets add opportunities but not complete recovery",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r5",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Analytical discrimination: LoD under conditions; nominal LoD may not apply to low-input samples; quality failures not silently negative",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r6",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Analytical detection differs from clinical sensitivity (denominator, schedule, site mix)",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r7",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Assay card and common confusions: depth, input, repeated draws not independent",
+      "sections": [
+        "How it is measured",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r8",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Try it: 95% claim at 30 units cannot be attached to 5 units without data",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r9",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Real example of the limit: 1/(4,500 x variants) theoretical limit and re-assay at 27,000 copies",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "limit-of-detection-and-sampling:r10",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirement": "Microphone analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "mrd:r1",
+      "lesson": "mrd",
+      "requirement": "MRD has three expansions (minimal, measurable, molecular); check which a paper means",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r2",
+      "lesson": "mrd",
+      "requirement": "Blood cancers use flow or molecular methods; solid tumours use plasma features; thresholds are not interchangeable",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r3",
+      "lesson": "mrd",
+      "requirement": "Residual disease on surgical pathology (residual cancer burden) is a different measurement from a blood call",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r4",
+      "lesson": "mrd",
+      "requirement": "A positive call is consistent with remaining disease and associated with recurrence in a studied setting; not location or guarantee; negative leaves sampling limits",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r5",
+      "lesson": "mrd",
+      "requirement": "MRD can enrich a research cohort; changing treatment needs clinical-utility evidence; marker clearance as a surrogate needs validation",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r6",
+      "lesson": "mrd",
+      "requirement": "Assay card: specimen, output, no universal cutoff, cannot tell cure or location",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r7",
+      "lesson": "mrd",
+      "requirement": "Try it: negative plasma with residual invasive cancer at surgery is not necessarily an error",
+      "sections": [
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "mrd:r8",
+      "lesson": "mrd",
+      "requirement": "Related concepts routing to tumour-informed, discordance and surveillance pages (later-only section)",
+      "sections": [
+        "Related concepts"
+      ],
+      "type": "metadata",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "mrd:r9",
+      "lesson": "mrd",
+      "requirement": "Garden-inspection analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r1",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Tumour-informed: features selected from a sampled tumour, tracked in later plasma; tumour-naive: predefined features and rules",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r2",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Comparison table: reference, initial material, important and shared limits (figure on reference strategy)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r3",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Why tracking many variants lowers the limit: 1/(copies x variants) = 4.7 ppm; whole-genome integration",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r4",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Same-sample evidence: tumour-informed most sensitive at low levels (2.4 ppm, 4.7 ppm)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r5",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Costs of tumour-informed design: tissue, time, new clones; tumour-naive faster but needs more signal",
+      "sections": [
+        "How it works",
+        "When each wins"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r6",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "When each wins table and mental model (warrant versus patrol)",
+      "sections": [
+        "When each wins"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r7",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Input contract worked comparison: reference-build failure is not a negative plasma result",
+      "sections": [
+        "Worked comparison: read the input contract"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r8",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Cohort comparability: 90% versus 75% detection does not rank assays (Try it)",
+      "sections": [
+        "Why it matters in cancer",
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r9",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Assay card; personalised is not individually validated; blood-cell filter and tumour reference are different problems",
+      "sections": [
+        "How it is measured",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:r10",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirement": "Fingerprint analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "elispot:r1",
+      "lesson": "elispot",
+      "requirement": "ELISpot counts spots from cells secreting a chosen molecule under defined stimulation; it does not watch killing",
+      "sections": [
+        "In one sentence",
+        "The intuition",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r2",
+      "lesson": "elispot",
+      "requirement": "Controls and replicates: negative background, positive control, predefined criteria, viability",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r3",
+      "lesson": "elispot",
+      "requirement": "Mixed-cell assay does not identify responding cell type; spot size is not a killing meter",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r4",
+      "lesson": "elispot",
+      "requirement": "SFU per million arithmetic: (30 minus 5) x 10 = 250; not a cutoff or a subset frequency (figure)",
+      "sections": [
+        "Read the visual",
+        "Try it",
+        "Explain it back"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r5",
+      "lesson": "elispot",
+      "requirement": "Peptide stimulation bypasses natural processing; a peptide response needs a bridge to tumour recognition",
+      "sections": [
+        "Why it matters in cancer",
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r6",
+      "lesson": "elispot",
+      "requirement": "Assay card: input, output, thresholds, failure modes, validation tier",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r7",
+      "lesson": "elispot",
+      "requirement": "Expanded culture result describes cultured cells, not the original draw",
+      "sections": [
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "elispot:r8",
+      "lesson": "elispot",
+      "requirement": "Spot-count versus TCR sequencing and related routing",
+      "sections": [
+        "Common confusions",
+        "Related concepts"
+      ],
+      "type": "metadata",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "elispot:r9",
+      "lesson": "elispot",
+      "requirement": "Droplet-catching plate analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "flow-cytometry:r1",
+      "lesson": "flow-cytometry",
+      "requirement": "Flow measures light from individual particles; an event may be a cell, pair or debris",
+      "sections": [
+        "In one sentence",
+        "The intuition",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r2",
+      "lesson": "flow-cytometry",
+      "requirement": "Panels, compensation and unmixing, gating; neither repairs a poor stain (Mermaid)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r3",
+      "lesson": "flow-cytometry",
+      "requirement": "A percentage must name its parent: nested gates 12,000 / 10,000 / 1,000 / 100 (figure and worked example)",
+      "sections": [
+        "Worked example",
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r4",
+      "lesson": "flow-cytometry",
+      "requirement": "Absolute counts need counting beads or validated volume",
+      "sections": [
+        "How it works",
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r5",
+      "lesson": "flow-cytometry",
+      "requirement": "Assay card: input, output, controls (FMO), thresholds, failure modes, validation",
+      "sections": [
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r6",
+      "lesson": "flow-cytometry",
+      "requirement": "Dissociation removes geography; suspension is a prepared sample, not a map",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r7",
+      "lesson": "flow-cytometry",
+      "requirement": "Marker expression is not function; analysis is not sorting",
+      "sections": [
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "flow-cytometry:r8",
+      "lesson": "flow-cytometry",
+      "requirement": "Checkpoint-badges analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r1",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Cytotoxicity assays test whether effectors cause death of specified targets under controlled conditions at stated ratio and time",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r2",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Readouts: flow, release, imaging; growth or metabolic fall is not death by itself (Mermaid)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r3",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Controls: target-only, positive, irrelevant targets, antigen and HLA perturbations",
+      "sections": [
+        "How it works",
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r4",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Peptide-loaded targets can bypass natural presentation; model-specific results",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r5",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Background arithmetic: 40% raw death minus 30% target-only = 10 percentage points excess (figure)",
+      "sections": [
+        "Worked example"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r6",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Excess death versus control-normalised specific lysis are different quantities; high baseline death",
+      "sections": [
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r7",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Cytokine production, degranulation and growth reduction are not killing",
+      "sections": [
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r8",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Assay card: input, output, thresholds, failure modes, what it cannot tell",
+      "sections": [
+        "Assay card",
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "functional-cytotoxicity-assays:r9",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirement": "Lock-and-key analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "intracellular-cytokine-staining:r1",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "ICS measures cytokines retained inside cells during a defined assay and assigns a response to stained populations",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r2",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Stimulus types, transport inhibition window, fixation and permeabilisation, viability stain before fixation (Mermaid, figure)",
+      "sections": [
+        "How it works",
+        "Read the visual"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r3",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Polyfunctional means meeting the assay's rules for several functions; panel and stimulus dependent",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r4",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Standardisation evidence: inter-laboratory variation falls with responding frequency; gating is a source of variability",
+      "sections": [
+        "Sources and scope",
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r5",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Assay card: input consumed and fixed, units, controls, thresholds, failure modes, validation",
+      "sections": [
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r6",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Double-cytokine-positive is not tumour-killing; positive control is not intended-peptide recognition",
+      "sections": [
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r7",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "ICS complements ELISpot and does not give receptor sequence",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "intracellular-cytokine-staining:r8",
+      "lesson": "intracellular-cytokine-staining",
+      "requirement": "Outbox analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r1",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Multimer staining labels cells whose receptors bind a specified peptide-HLA under assay conditions; not a tumour cell",
+      "sections": [
+        "In one sentence",
+        "The intuition",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r2",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Peptide and allele define what was tested; mismatched or poor reagent makes a negative uninformative; weak binders missed",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r3",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Multivalent avidity on a labelled scaffold (figure); tetramer as one format",
+      "sections": [
+        "Read the visual",
+        "How it works"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r4",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Binding is not natural tumour display or killing; combined with receptor sequencing links binding to cell identity",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r5",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Denominators: 1% of gated CD8 versus 0.25% of viable cells (Try it)",
+      "sections": [
+        "Try it",
+        "Explain it back",
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r6",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Assay card: input, output, thresholds, failure modes, validation tier",
+      "sections": [
+        "How it is measured"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r7",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Agreement and disagreement across assays connect or reveal missing steps; ELISpot as follow-up",
+      "sections": [
+        "Why it matters in cancer",
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peptide-hla-multimer-staining:r8",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirement": "Test-piece analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r1",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "PBMCs are circulating mononuclear white cells (lymphocytes, monocytes); mononuclear describes the nucleus; PBMCs are not all blood cells and isolation is not T-cell purification",
+      "sections": [
+        "In one sentence",
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r2",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Density separation, interface, incomplete recovery and contamination; PBMC label is not purity (figure)",
+      "sections": [
+        "How it works",
+        "Read the visual"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r3",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Counting, viability, fresh versus frozen; thawing effects; viability alone does not prove function (Mermaid)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r4",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Blood is not tumour: repeat sampling versus compartment difference",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r5",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Handling is evidence: matched processing across time points; cell banking limits; freezing is not guaranteed preservation",
+      "sections": [
+        "Why it matters in cancer",
+        "Common confusions"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r6",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Preparation card: input, output, controls, thresholds, failure modes, validation",
+      "sections": [
+        "Preparation card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r7",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Equal viability but fewer monocytes: not interchangeable (worked example)",
+      "sections": [
+        "Worked example"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:r8",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirement": "Mixed-crowd analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "tcr-clonality-metrics:r1",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Clonality metrics summarise unevenness of receptor identities and do not identify what receptors recognise",
+      "sections": [
+        "In one sentence",
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r2",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Richness, Shannon entropy, normalised clonality, effective diversity: formulas and non-interchangeability",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r3",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Abundance units (reads, molecules, cells), depth, chain definition; subsampling cannot recover unsampled cells (Mermaid)",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r4",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Relative enrichment versus absolute expansion: 30 of 100 to 30 of 50 (figure); richness is not evenness; a shared sequence is not proven cancer specificity; one number is not the whole repertoire",
+      "sections": [
+        "Worked example",
+        "Read the visual",
+        "Common confusions"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r5",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Even versus uneven same-richness distributions (figure)",
+      "sections": [
+        "Read the visual"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r6",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Measurement card: input, units, controls, thresholds, failure modes, validation",
+      "sections": [
+        "Measurement card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r7",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "No universal clonality score means therapy is working; association needs separate clinical evidence",
+      "sections": [
+        "Why it matters in cancer",
+        "Measurement card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-clonality-metrics:r8",
+      "lesson": "tcr-clonality-metrics",
+      "requirement": "Playlist analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    },
+    {
+      "id": "tcr-sequencing:r1",
+      "lesson": "tcr-sequencing",
+      "requirement": "TCR sequencing identifies sampled receptor sequences and abundances; a sequence is an identity to investigate, not a target or killing result",
+      "sections": [
+        "In one sentence",
+        "The intuition",
+        "Takeaway"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r2",
+      "lesson": "tcr-sequencing",
+      "requirement": "CDR3 and clonotype grouping rules; bulk versus single-cell paired chains; paired identity plus expression",
+      "sections": [
+        "How it works"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r3",
+      "lesson": "tcr-sequencing",
+      "requirement": "A shared beta chain can hide different alpha chains (figure, common confusions)",
+      "sections": [
+        "How it works",
+        "Common confusions"
+      ],
+      "type": "figure",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r4",
+      "lesson": "tcr-sequencing",
+      "requirement": "Read counts are not cell counts; molecular labels; frequency can rise because others contract",
+      "sections": [
+        "How it works",
+        "Try it"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r5",
+      "lesson": "tcr-sequencing",
+      "requirement": "Assay card: input, output, thresholds, failure modes, validation tier",
+      "sections": [
+        "Assay card"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r6",
+      "lesson": "tcr-sequencing",
+      "requirement": "Blood versus tumour compartments; tissue sequence does not show position relative to cancer-cell nests",
+      "sections": [
+        "Why it matters in cancer"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r7",
+      "lesson": "tcr-sequencing",
+      "requirement": "Overlap and frequency change establish detection only; antigen specificity needs controlled recognition (worked example)",
+      "sections": [
+        "Worked example",
+        "Explain it back"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r8",
+      "lesson": "tcr-sequencing",
+      "requirement": "Frequency 0.1% to 2% is twentyfold relative, not a body-wide cell count (Try it)",
+      "sections": [
+        "Try it"
+      ],
+      "type": "learning",
+      "countsAsLearningRequirement": true
+    },
+    {
+      "id": "tcr-sequencing:r9",
+      "lesson": "tcr-sequencing",
+      "requirement": "Label-reading analogy",
+      "sections": [
+        "The intuition"
+      ],
+      "type": "restatement",
+      "countsAsLearningRequirement": false
+    }
+  ],
+  "independentInventory": [
+    {
+      "id": "cfdna-vs-ctdna:i1",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "cfDNA is the pool and ctDNA its tumour subset; not rival tests",
+      "anchor": "cfdna.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "cfdna-vs-ctdna:i2",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "healthy-donor sources 55/30/10/1 (Moss)",
+      "anchor": "cfdna.notes[0]",
+      "status": "carried",
+      "note": "verified in abstract"
+    },
+    {
+      "id": "cfdna-vs-ctdna:i3",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "scale: 166 bp peak (maternal plasma), tumour 90-150 bp, 3.3 pg/copy, 4,500 copies about 15 ng, 0.045 copy at 1 in 100,000",
+      "anchor": "cfdna.notes[1]",
+      "status": "carried",
+      "note": "Lo 2010 scope is pregnancy plasma; candidate states it; cancer scope comes only from Mouliere 2018"
+    },
+    {
+      "id": "cfdna-vs-ctdna:i4",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "Bettegowda detection by stage",
+      "anchor": "ctdna.notes[0]",
+      "status": "carried",
+      "note": "numbers verified; the lesson row for breast sits in ctdna not cfdna"
+    },
+    {
+      "id": "cfdna-vs-ctdna:i5",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "yield is not origin (2 versus 4 ng)",
+      "anchor": "cfdna.notes[2]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "cfdna-vs-ctdna:i6",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "variant in plasma not automatically tumour; paired WBC",
+      "anchor": "cfdna.notes[2]; ctdna.notes[1]",
+      "status": "carried",
+      "note": "Razavi 53.2%/81.6% verified"
+    },
+    {
+      "id": "cfdna-vs-ctdna:i7",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "collection and processing dilute tumour fraction",
+      "anchor": "cfdna.notes[4]",
+      "status": "carried-with-defect",
+      "note": "NCI wording amended"
+    },
+    {
+      "id": "cfdna-vs-ctdna:i8",
+      "lesson": "cfdna-vs-ctdna",
+      "unit": "method card and cfDNA/ctDNA comparison rows",
+      "anchor": "cfdna.notes[3]",
+      "status": "carried",
+      "note": "comparison table rows only partly carried: no explicit attribution-row text"
+    },
+    {
+      "id": "chip:i1",
+      "lesson": "chip",
+      "unit": "CH versus CHIP; 2% VAF; VAF is not percent of cells",
+      "anchor": "clonal-haematopoiesis.notes[1]",
+      "status": "carried-with-defect",
+      "note": "VAF-not-percent-of-cells not carried; 2% source unread here; amended with note 6"
+    },
+    {
+      "id": "chip:i2",
+      "lesson": "chip",
+      "unit": "gene groups and selecting exposures (Jaiswal, Bolton, Coombs)",
+      "anchor": "clonal-haematopoiesis.notes[2]",
+      "status": "carried",
+      "note": "numbers verified"
+    },
+    {
+      "id": "chip:i3",
+      "lesson": "chip",
+      "unit": "TP53 trap",
+      "anchor": "clonal-haematopoiesis.notes[3]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "chip:i4",
+      "lesson": "chip",
+      "unit": "Razavi scale and ambiguous category",
+      "anchor": "clonal-haematopoiesis.notes[3]",
+      "status": "carried",
+      "note": "ambiguous category verified in methods text"
+    },
+    {
+      "id": "chip:i5",
+      "lesson": "chip",
+      "unit": "matched WBC comparison limits; subtract-every-match not enough",
+      "anchor": "clonal-haematopoiesis.notes[3]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "chip:i6",
+      "lesson": "chip",
+      "unit": "worked V and 0.8% VAF",
+      "anchor": "clonal-haematopoiesis.notes[4]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "chip:i7",
+      "lesson": "chip",
+      "unit": "somatic is not malignant; no dismissal age; therapy selects existing clones",
+      "anchor": "amended note 6",
+      "status": "gap",
+      "note": "omitted in candidate"
+    },
+    {
+      "id": "chip:i8",
+      "lesson": "chip",
+      "unit": "blood-cell-variants owner (pr-371)",
+      "anchor": "blood-cell-variants-liquid-biopsy proposal[0..1]",
+      "status": "proposal-only",
+      "note": "no graph credit"
+    },
+    {
+      "id": "circulating-tumor-cells:i1",
+      "lesson": "circulating-tumor-cells",
+      "unit": "count is recovery under rules; EpCAM operational definition; physical methods bias",
+      "anchor": "ctc-capture.notes[0]; parsortix.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "circulating-tumor-cells:i2",
+      "lesson": "circulating-tumor-cells",
+      "unit": "negative capture does not predict ctDNA",
+      "anchor": "ctc-capture.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "circulating-tumor-cells:i3",
+      "lesson": "circulating-tumor-cells",
+      "unit": "Allard performance figures",
+      "anchor": "ctc-capture.notes[1]",
+      "status": "carried",
+      "note": "verified"
+    },
+    {
+      "id": "circulating-tumor-cells:i4",
+      "lesson": "circulating-tumor-cells",
+      "unit": "Cristofanilli 5 per 7.5 mL; prognosis versus utility",
+      "anchor": "ctc-capture.notes[2]; cellsearch.notes[0]",
+      "status": "carried-with-defect",
+      "note": "2.7 versus 7.0 is the training set"
+    },
+    {
+      "id": "circulating-tumor-cells:i5",
+      "lesson": "circulating-tumor-cells",
+      "unit": "SWOG S0500 numbers",
+      "anchor": "ctc-capture.notes[2]; cellsearch.notes[1]",
+      "status": "carried",
+      "note": "verified"
+    },
+    {
+      "id": "circulating-tumor-cells:i6",
+      "lesson": "circulating-tumor-cells",
+      "unit": "EMT and capture limits",
+      "anchor": "existing ctc-capture limitations",
+      "status": "gap",
+      "note": "queued by worker; not carried in notes"
+    },
+    {
+      "id": "circulating-tumor-cells:i7",
+      "lesson": "circulating-tumor-cells",
+      "unit": "FDA clearance scope (K031588)",
+      "anchor": "cellsearch summary (existing)",
+      "status": "gap",
+      "note": "K031588 not read by worker or here"
+    },
+    {
+      "id": "circulating-tumor-cells:i8",
+      "lesson": "circulating-tumor-cells",
+      "unit": "viability and downstream assays need own validation",
+      "anchor": "ctc-capture.notes[0]; parsortix.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-imaging-discordance:i1",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "different material, region, time, signal",
+      "anchor": "ctdna-imaging-discordance summary; notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-imaging-discordance:i2",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "blood and imaging cards",
+      "anchor": "notes[1..3]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-imaging-discordance:i3",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "Magbanua 84 patients rho 0.49/0.42/0.42/0.43",
+      "anchor": "notes[4]; summary",
+      "status": "carried",
+      "note": "verified in full text"
+    },
+    {
+      "id": "ctdna-imaging-discordance:i4",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "no signal with abnormal MRI is not scar",
+      "anchor": "notes[5]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-imaging-discordance:i5",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "CH origin check",
+      "anchor": "notes[6]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-imaging-discordance:i6",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "Diehl half-life 114 min, one subject",
+      "anchor": "notes[7]",
+      "status": "carried-with-defect",
+      "note": "withheld by worker; verified here in PMC results text and restored with scope"
+    },
+    {
+      "id": "ctdna-imaging-discordance:i7",
+      "lesson": "ctdna-imaging-discordance",
+      "unit": "finite input blood sampling",
+      "anchor": "notes[5]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i1",
+      "lesson": "ctdna-units",
+      "unit": "MTM/mL, PPM, VAF, tumour fraction with boundaries",
+      "anchor": "ctdna-units.notes[1..4]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i2",
+      "lesson": "ctdna-units",
+      "unit": "concentration versus fraction 4/20 versus 4/40",
+      "anchor": "ctdna-units.notes[5]; ctdna-tumour-fraction.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i3",
+      "lesson": "ctdna-units",
+      "unit": "100 PPM VAF is not tumour fraction",
+      "anchor": "ctdna-units.notes[6]; ctdna-tumour-fraction.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i4",
+      "lesson": "ctdna-units",
+      "unit": "detection versus quantitation",
+      "anchor": "ctdna-units.notes[7]; detection-versus-quantification proposal",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i5",
+      "lesson": "ctdna-units",
+      "unit": "finite input; printed zero",
+      "anchor": "ctdna-units.notes[8]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "ctdna-units:i6",
+      "lesson": "ctdna-units",
+      "unit": "evidence read",
+      "anchor": "ctdna-units.notes[9]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "fragmentomics-and-methylation:i1",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "measured features then model then inference",
+      "anchor": "fragmentomics.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "fragmentomics-and-methylation:i2",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "mouliere 90-150 bp, Cristiano, Snyder",
+      "anchor": "fragmentomics.notes[1]",
+      "status": "carried",
+      "note": "verified"
+    },
+    {
+      "id": "fragmentomics-and-methylation:i3",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "preanalytical effects (van der Pol)",
+      "anchor": "fragmentomics.notes[2]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "fragmentomics-and-methylation:i4",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "166 bp nucleosome size fact, nucleosome definition",
+      "anchor": "cfdna.notes[1]",
+      "status": "carried",
+      "note": "carried in a different owner; fragmentomics owner lacks it"
+    },
+    {
+      "id": "fragmentomics-and-methylation:i5",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "CpG, conversion, deconvolution, classifier scope",
+      "anchor": "cfdna-methylation-testing.notes[0..1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "fragmentomics-and-methylation:i6",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "shorter is not cancer; most short fragments are normal",
+      "anchor": "fragmentomics.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "fragmentomics-and-methylation:i7",
+      "lesson": "fragmentomics-and-methylation",
+      "unit": "tissue injury adds normal organ DNA",
+      "anchor": "cfdna-methylation-testing.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "lead-time:i1",
+      "lesson": "lead-time",
+      "unit": "definition and rules",
+      "anchor": "ctdna-monitoring-lead-time summary; notes[0..1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "lead-time:i2",
+      "lesson": "lead-time",
+      "unit": "intermittent sampling cannot locate onset",
+      "anchor": "notes[5]; continuous-ctdna-monitoring.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "lead-time:i3",
+      "lesson": "lead-time",
+      "unit": "selected-median denominator, censoring",
+      "anchor": "notes[3..4]; amended lead-time-bias",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "lead-time:i4",
+      "lesson": "lead-time",
+      "unit": "six-person arithmetic median 5",
+      "anchor": "notes[3]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "lead-time:i5",
+      "lesson": "lead-time",
+      "unit": "García-Murillas and c-TRAK TN",
+      "anchor": "notes[6..7]",
+      "status": "carried",
+      "note": "erratum 2020 read: changes 91.5 to 90.9% assays and 88.4 to 79.3% of 29 relapses; none of the numbers used"
+    },
+    {
+      "id": "lead-time:i6",
+      "lesson": "lead-time",
+      "unit": "lead-time bias on the current statistics owner",
+      "anchor": "lead-time-bias root notes[2..5] (existing)",
+      "status": "carried",
+      "note": "already carried by current root; proposal rebased"
+    },
+    {
+      "id": "lead-time:i7",
+      "lesson": "lead-time",
+      "unit": "laboratory reporting delay matters",
+      "anchor": "ctdna-monitoring-lead-time summary",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i1",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "four gates",
+      "anchor": "finite-molecule-sampling proposal; mrd-testing.notes[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i2",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "Poisson exp(-1) 36.8%, exp(-0.45) 63.8%, exp(-9) 0.012%",
+      "anchor": "mrd-testing.notes[0]; finite-molecule-sampling[0]",
+      "status": "carried",
+      "note": "arithmetic verified"
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i3",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "read depth is not independent molecules",
+      "anchor": "mrd-testing.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i4",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "nominal LoD does not transfer to low input",
+      "anchor": "finite-molecule-sampling[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i5",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "analytical versus clinical sensitivity",
+      "anchor": "none",
+      "status": "gap",
+      "note": "clinical-sensitivity definition not carried in any candidate field"
+    },
+    {
+      "id": "limit-of-detection-and-sampling:i6",
+      "lesson": "limit-of-detection-and-sampling",
+      "unit": "detection versus quantitation",
+      "anchor": "detection-versus-quantification[0]",
+      "status": "proposal-only",
+      "note": "no source opened for it"
+    },
+    {
+      "id": "mrd:i1",
+      "lesson": "mrd",
+      "unit": "three expansions; check which",
+      "anchor": "mrd.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "mrd:i2",
+      "lesson": "mrd",
+      "unit": "flow, molecular, plasma thresholds not interchangeable; ELN AML",
+      "anchor": "mrd.notes[0]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "mrd:i3",
+      "lesson": "mrd",
+      "unit": "residual cancer burden is tissue endpoint; plasma negative with surgical residual",
+      "anchor": "mrd.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "mrd:i4",
+      "lesson": "mrd",
+      "unit": "MRD negative is method-bound",
+      "anchor": "mrd.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "mrd:i5",
+      "lesson": "mrd",
+      "unit": "utility needs separate evidence",
+      "anchor": "mrd summary existing",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "mrd:i6",
+      "lesson": "mrd",
+      "unit": "surveillance routing (later only)",
+      "anchor": "none",
+      "status": "carried",
+      "note": "routing; no learning credit"
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i1",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "FDA design contract",
+      "anchor": "tumour-informed-assay.notes[0]",
+      "status": "carried",
+      "note": "verified against FDA IV.A"
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i2",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "1/(copies x variants)=1 in 211,500, 4.7 ppm; 2.4 ppm",
+      "anchor": "tumour-informed-assay.notes[1]; mrd-testing.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i3",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "Zviran WGS",
+      "anchor": "mrd-testing.notes[1]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i4",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "cost of tissue, time, new clones",
+      "anchor": "tumour-informed-assay.notes[0]",
+      "status": "carried",
+      "note": "tissue after neoadjuvant therapy and Sharma 2026 not carried"
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i5",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "when each wins table and mental model",
+      "anchor": "none",
+      "status": "gap",
+      "note": ""
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i6",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "A/B input contract: reference build failure not a negative",
+      "anchor": "none",
+      "status": "gap",
+      "note": "queued by worker"
+    },
+    {
+      "id": "tumor-informed-vs-tumor-naive-mrd-assays:i7",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "unit": "90 percent versus 75 percent",
+      "anchor": "tumour-informed-assay.notes[2]",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "elispot:i1",
+      "lesson": "elispot",
+      "unit": "method card",
+      "anchor": "elispot[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "elispot:i2",
+      "lesson": "elispot",
+      "unit": "250 SFU arithmetic, expanded cultures",
+      "anchor": "elispot[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "elispot:i3",
+      "lesson": "elispot",
+      "unit": "peptide bypass, IFN-γ producers, Streeck, Yang scope",
+      "anchor": "elispot[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "elispot:i4",
+      "lesson": "elispot",
+      "unit": "TCR sequencing versus ELISpot",
+      "anchor": "none",
+      "status": "gap",
+      "note": "routing"
+    },
+    {
+      "id": "flow-cytometry:i1",
+      "lesson": "flow-cytometry",
+      "unit": "nested denominators 10%/1%/0.83%",
+      "anchor": "flow[0] both versions",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "flow-cytometry:i2",
+      "lesson": "flow-cytometry",
+      "unit": "method card, FMO",
+      "anchor": "flow[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "flow-cytometry:i3",
+      "lesson": "flow-cytometry",
+      "unit": "compensation not a gate; degranulation not death",
+      "anchor": "flow[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "flow-cytometry:i4",
+      "lesson": "flow-cytometry",
+      "unit": "gating sequence, clustering caution, flow is not sorting",
+      "anchor": "none",
+      "status": "gap",
+      "note": ""
+    },
+    {
+      "id": "functional-cytotoxicity-assays:i1",
+      "lesson": "functional-cytotoxicity-assays",
+      "unit": "method card and controls",
+      "anchor": "cytotoxicity[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "functional-cytotoxicity-assays:i2",
+      "lesson": "functional-cytotoxicity-assays",
+      "unit": "30 versus 40 percent, 10 point excess",
+      "anchor": "cytotoxicity[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "functional-cytotoxicity-assays:i3",
+      "lesson": "functional-cytotoxicity-assays",
+      "unit": "methods scope Rabinovich, Noto, Betts",
+      "anchor": "cytotoxicity[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "intracellular-cytokine-staining:i1",
+      "lesson": "intracellular-cytokine-staining",
+      "unit": "method card",
+      "anchor": "ICS[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "intracellular-cytokine-staining:i2",
+      "lesson": "intracellular-cytokine-staining",
+      "unit": "precision evidence",
+      "anchor": "ICS[1]",
+      "status": "proposal-only",
+      "note": "wording amended"
+    },
+    {
+      "id": "intracellular-cytokine-staining:i3",
+      "lesson": "intracellular-cytokine-staining",
+      "unit": "double-positive is not killing; polyfunctional",
+      "anchor": "ICS[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "peptide-hla-multimer-staining:i1",
+      "lesson": "peptide-hla-multimer-staining",
+      "unit": "method card",
+      "anchor": "multimer[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "peptide-hla-multimer-staining:i2",
+      "lesson": "peptide-hla-multimer-staining",
+      "unit": "1% versus 0.25%",
+      "anchor": "multimer[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "peptide-hla-multimer-staining:i3",
+      "lesson": "peptide-hla-multimer-staining",
+      "unit": "Altman correlation, tetramer production",
+      "anchor": "multimer[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:i1",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "unit": "definition and purity",
+      "anchor": "pbmc[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:i2",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "unit": "handling evidence Bull 2007",
+      "anchor": "pbmc[1]",
+      "status": "proposal-only",
+      "note": "verified"
+    },
+    {
+      "id": "peripheral-blood-mononuclear-cells:i3",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "unit": "preparation card and monocyte case",
+      "anchor": "pbmc[2]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "tcr-clonality-metrics:i1",
+      "lesson": "tcr-clonality-metrics",
+      "unit": "repertoire, denominator",
+      "anchor": "existing 3 notes",
+      "status": "carried",
+      "note": ""
+    },
+    {
+      "id": "tcr-clonality-metrics:i2",
+      "lesson": "tcr-clonality-metrics",
+      "unit": "entropy arithmetic H=0.940 clonality 0.32 exp(H) 2.56",
+      "anchor": "clonality[3]",
+      "status": "proposal-only",
+      "note": "verified"
+    },
+    {
+      "id": "tcr-clonality-metrics:i3",
+      "lesson": "tcr-clonality-metrics",
+      "unit": "30 of 100 to 30 of 50",
+      "anchor": "clonality[4]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "tcr-clonality-metrics:i4",
+      "lesson": "tcr-clonality-metrics",
+      "unit": "measurement card",
+      "anchor": "clonality[5]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "tcr-sequencing:i1",
+      "lesson": "tcr-sequencing",
+      "unit": "beta match alpha hidden",
+      "anchor": "tcr-seq[0]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "tcr-sequencing:i2",
+      "lesson": "tcr-sequencing",
+      "unit": "0.1% to 2% frequency",
+      "anchor": "tcr-seq[1]",
+      "status": "proposal-only",
+      "note": ""
+    },
+    {
+      "id": "tcr-sequencing:i3",
+      "lesson": "tcr-sequencing",
+      "unit": "assay card, CDR3",
+      "anchor": "tcr-seq[2]",
+      "status": "proposal-only",
+      "note": ""
+    }
+  ],
+  "denominatorsSeparate": true,
+  "workerRows": 170,
+  "independentUnits": 97,
+  "sourceToFieldAcceptance": "Pending coordinator requirement-by-requirement semantic acceptance; neither inventory is replaced by a field count."
+}

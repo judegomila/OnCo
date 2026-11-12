@@ -1,0 +1,135 @@
+{
+  "checkedOn": "2026-11-09",
+  "renderedOwners": 95,
+  "allOwnersSourceDateAnchorChecks": true,
+  "changedOwners": [
+    {
+      "id": "epithelium-and-stroma",
+      "route": "/terms/epithelium-and-stroma/",
+      "asOf": "2026-11-09",
+      "bytes": 22424,
+      "sha256": "b4864c3c3507e669a6b60910c5fb016cbb86a7fc5bb1be5debcaf09f050c340a",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "vdj-recombination",
+      "route": "/terms/vdj-recombination/",
+      "asOf": "2026-11-09",
+      "bytes": 27472,
+      "sha256": "0d836e944921ea9394e29aee99a39df8cbf44ea5f33f1b98b7a6d769ddd4ae7f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "protein-structure-and-domains",
+      "route": "/terms/protein-structure-and-domains/",
+      "asOf": "2026-11-09",
+      "bytes": 21331,
+      "sha256": "2eb90f6fa7b306b5d6da33a7feee352cdf1700365894f069d1abc221c6fa6457",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cell-division",
+      "route": "/terms/cell-division/",
+      "asOf": "2026-11-09",
+      "bytes": 26472,
+      "sha256": "0fa337b753dc80f7879bef03f77a804c3ccf224ec4c68c9b0b54b070bc6fa4c2",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "dna-term",
+      "route": "/terms/dna-term/",
+      "asOf": "2026-11-09",
+      "bytes": 23238,
+      "sha256": "33eb47fa6c841c104b038f5d4d546886bcb08f63eb7a5187d285fcd87ab8a27b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "mutation",
+      "route": "/terms/mutation/",
+      "asOf": "2026-11-09",
+      "bytes": 28231,
+      "sha256": "d14014a5dc9f460503895207e677a6b9a9fa177a1a6f25e813e4fe5b416112ef",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc",
+      "route": "/cancers/tnbc/",
+      "asOf": "2026-11-09",
+      "bytes": 223459,
+      "sha256": "77c5f68f3c02bdc940a1e285072563300a74c6108b733988d5d1b126b50ccb20",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "er-pr-negative-threshold",
+      "route": "/terms/er-pr-negative-threshold/",
+      "asOf": "2026-11-09",
+      "bytes": 39135,
+      "sha256": "4fd056d23a6249558ec0b42cc27328581ddb470ddc77e5078aede7a9887f8b41",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "cancerSectionComponents": [
+    {
+      "id": "tnbc",
+      "section": "what-it-is",
+      "route": "/cancers/tnbc/what-it-is/",
+      "asOf": "2026-11-09",
+      "bytes": 38055,
+      "sha256": "80ff6e17a22b44e94244bc50ee34005d22d821883db993cf22c3808ba242e5ad",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tnbc",
+      "section": "finding-it",
+      "route": "/cancers/tnbc/finding-it/",
+      "asOf": "2026-11-09",
+      "bytes": 51697,
+      "sha256": "d6a3cf4065b04acb39a4ef6a68103cea8dd62ed4800cbffa9aa943f6c58d8a89",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tnbc",
+      "section": "evidence",
+      "route": "/cancers/tnbc/evidence/",
+      "asOf": "2026-11-09",
+      "bytes": 80528,
+      "sha256": "eaf113ceff064a586144b0ea58039bf475f84ef66680fbd6184b1f1479251a11",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tnbc",
+      "section": "coming",
+      "route": "/cancers/tnbc/coming/",
+      "asOf": "2026-11-09",
+      "bytes": 171561,
+      "sha256": "1a923d1768c45d0afb837eb55f057faf87dc59b2dce5bf2ceaa6b1f24aea9061",
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tnbc",
+      "section": "data",
+      "route": "/cancers/tnbc/data/",
+      "asOf": "2026-11-09",
+      "bytes": 182705,
+      "sha256": "36eb6aed9115f4cebbb8e9e6a9b1206422b46e8ad2d184ca39f6ac6dcd259b10",
+      "nestedAnchors": 0
+    }
+  ],
+  "readScope": "Seven added biology notes, threshold tldr and three summary paragraphs, TNBC tldr/definition, notes 0/6/12, classification biomarkers/diagnosis/subtype/open question and the two specifically changed historical classification notes. Reader-body text checked excluding JSON-LD. Cancer section content rendered separately because the hub routes long sections to subpages; not a live deployment or full visual/hydration check."
+}

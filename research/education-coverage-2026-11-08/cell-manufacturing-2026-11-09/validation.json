@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-11-09",
+  "validate": {
+    "exit": 0,
+    "entities": 22723
+  },
+  "typecheck": {
+    "exit": 0
+  },
+  "lint": {
+    "exit": 0,
+    "errors": 0,
+    "existingWarnings": 7
+  },
+  "fullSuite": {
+    "exit": 0,
+    "filesPassed": 284,
+    "testsPassed": 2829,
+    "existingSkipped": 2,
+    "seconds": 106.55
+  },
+  "finalDataFollowup": {
+    "change": "Assign three supported term categories after the smallest reader exposed Clinic basics fallback; remove an unnecessary chronology characterisation after selected clinical-procedure reading.",
+    "focusedTests": {
+      "exit": 0,
+      "files": 4,
+      "testsPassed": 23,
+      "seconds": 10.2
+    },
+    "freshValidate": true,
+    "allReadersRerenderedAndBodyRechecked": true
+  },
+  "renders": {
+    "entityDetailPages": 180,
+    "tnbcSections": 6,
+    "subtypeSections": 6,
+    "newBodyPartsMatched": 86,
+    "sourceDateAndAnchorChecks": true,
+    "smallestNewReaderRead": true,
+    "finalArchive": "cell-manufacturing-2026-11-09-r3",
+    "supersededArchives": [
+      "cell-manufacturing-2026-11-09-r1",
+      "cell-manufacturing-2026-11-09-r2"
+    ]
+  },
+  "duplicateSurvey": {
+    "exit": 0,
+    "groups": 9,
+    "newIdentifierDuplicateGroups": 0
+  },
+  "sourceLedgers": {
+    "originalExit": 2,
+    "laterExit": 2,
+    "staleOrMissingFieldSectionVersionProofs": 0,
+    "reviewedTeachingAssetsWithFailures": 0,
+    "assetFailureKinds": [
+      "Source asset has no scope disposition"
+    ],
+    "unclassifiedAssetsPerRef": 1869,
+    "scope": "Closure still fails on real unread or unresolved work; no closed-audit claim."
+  },
+  "assetRegeneration": {
+    "allIdentitiesScopeReviewsSectionsAndProofsPreserved": true
+  },
+  "canonicalOwnerOverlapWithOlderDrafts": 0,
+  "floorsBudgetsRankingAndBenchmarkQuestionsChanged": false,
+  "rawSourcesLessonBodiesDiagramsAndReviewHtmlAdded": 0,
+  "gitleaks": "Staged scan required before commit; commit proceeded only after exit 0.",
+  "deployment": "No merge, browser/hosted verification or deployment.",
+  "privateLogReceipts": {
+    "validate-manufacturing375-final.log": {
+      "bytes": 354,
+      "sha256": "e4ef4bdab2318dccd0aa4638a928def1386ecb9cf924e270ac8e616e71a8123d"
+    },
+    "typecheck-manufacturing375-final.log": {
+      "bytes": 40,
+      "sha256": "ed8420b073d4b44dba56a3ebb139d01e223c69b6bdb9cc3772a93ca5ef4a07d8"
+    },
+    "lint-manufacturing375-final.log": {
+      "bytes": 1388,
+      "sha256": "5289500a14e156a0f3a4a24bd3d40e5eeaf9e6488b840d5dbfa2762a49cfdd69"
+    },
+    "full-manufacturing375.log": {
+      "bytes": 946,
+      "sha256": "0620fcec9ccdb19ed8404dac4e62a4aeed37041fa60b282f5b946b5c438e459a"
+    },
+    "focused-manufacturing375-final.log": {
+      "bytes": 846,
+      "sha256": "3fbad4d55dd4807158b71c5306d7b6e85aa3a485c0f42f684c906baa4a0a17ce"
+    },
+    "dedupe-manufacturing375.log": {
+      "bytes": 2613,
+      "sha256": "8db0050c9d4bf6365e32815dab3912566a7f74ba4a7779339e903ef3166310df"
+    },
+    "ledgers-manufacturing375-final.log": {
+      "bytes": 1157,
+      "sha256": "90f0b7510edaa86af8a20252a19ccc0946d54a6f49eddcf87c1f6a76b6d03fcd"
+    }
+  }
+}

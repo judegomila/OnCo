@@ -1,0 +1,593 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "newCanonicalIds": [],
+  "existingOwnersChanged": [
+    "dendritic-cell-cross-presentation",
+    "neoantigen",
+    "neoantigen-mrna-vaccine",
+    "wes-wgs"
+  ],
+  "beforeAndAfterLiteralProposals": {
+    "baseHead": "96f633212088b79b8f17c89b6823028d0505bff5",
+    "newCanonicalIds": [],
+    "rows": [
+      {
+        "id": "neoantigen-mrna-vaccine",
+        "name": "Personalised neoantigen (mRNA) vaccines",
+        "file": "src/data/technologies.ts",
+        "expectedSourceFileSha256": "1b15bd8f903b2c38351f929a46f20b5b10b5d6c1cb10974c6cd59c679fef763a",
+        "beforeRuntimeRecordSha256": "13d7a51fb255055b8323bd1fc38e770eaa598e342646b04b4a3550f9d7938d86",
+        "beforeRuntimeFields": {
+          "summary": "Intismeran autogene (V940/mRNA-4157, Moderna/Merck) with pembrolizumab met RFS and DMFS endpoints in the phase 3 INTerpath-001 trial in resected stage IIB-IV melanoma (August 2026), the first positive phase 3 for an individualised neoantigen therapy. Autogene cevumeran (BioNTech/Genentech) showed durable T-cell responses correlating with recurrence-free survival in pancreatic cancer (phase 1, Balachandran) and is in phase 2. Phase 3 trials in NSCLC, RCC, bladder, and cutaneous squamous cell carcinoma are ongoing.",
+          "principle": "Tumour and normal DNA are sequenced, neoantigens are predicted computationally (up to 34 epitopes), and a patient-specific mRNA is made in lipid nanoparticles for dendritic cell presentation and T-cell priming, usually with PD-1 blockade.",
+          "strengths": [
+            "Fully personalised, low toxicity",
+            "Adjuvant setting where tumour burden is low"
+          ],
+          "limitations": [
+            "6-8 week manufacturing",
+            "Cost",
+            "Neoantigen prediction is imperfect; low-TMB tumours have few targets"
+          ],
+          "notes": [],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+            }
+          ],
+          "asOf": "2026-09-04"
+        },
+        "beforeLiteralFields": {
+          "summary": "Intismeran autogene (V940/mRNA-4157, Moderna/Merck) with pembrolizumab met RFS and DMFS endpoints in the phase 3 INTerpath-001 trial in resected stage IIB-IV melanoma (August 2026), the first positive phase 3 for an individualised neoantigen therapy. Autogene cevumeran (BioNTech/Genentech) showed durable T-cell responses correlating with recurrence-free survival in pancreatic cancer (phase 1, Balachandran) and is in phase 2. Phase 3 trials in NSCLC, RCC, bladder, and cutaneous squamous cell carcinoma are ongoing.",
+          "principle": "Tumour and normal DNA are sequenced, neoantigens are predicted computationally (up to 34 epitopes), and a patient-specific mRNA is made in lipid nanoparticles for dendritic cell presentation and T-cell priming, usually with PD-1 blockade.",
+          "strengths": [
+            "Fully personalised, low toxicity",
+            "Adjuvant setting where tumour burden is low"
+          ],
+          "limitations": [
+            "6-8 week manufacturing",
+            "Cost",
+            "Neoantigen prediction is imperfect; low-TMB tumours have few targets"
+          ],
+          "notes": {
+            "$missing": true
+          },
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": {
+                "$expression": "W(\"Cancer_vaccine\")"
+              }
+            }
+          ],
+          "asOf": {
+            "$expression": "asOf",
+            "$shorthand": true
+          }
+        },
+        "literalAfter": {
+          "summary": "Personalised neoantigen mRNA vaccines encode selected tumour-derived sequences to support antigen-directed immunity. Credible source sequence, delivery, peptide display, T-cell recognition and clinical benefit are separate questions.\n\nMerck and Moderna reported in August 2026 that intismeran autogene (V940/mRNA-4157) with pembrolizumab met recurrence-free and distant-metastasis-free survival endpoints in INTerpath-001 in completely resected stage IIB-IV melanoma. This is the companies' interim report about a combination and population, rather than a finding about every cancer vaccine or a regulatory approval.\n\nRojas and colleagues' 2023 pancreatic phase 1 study treated 16 people with atezolizumab and autogene cevumeran, followed by chemotherapy in 15. The association between an immune response and recurrence-free survival does not isolate the vaccine's causal contribution. A phase 2 resected-pancreatic study, NCT05968326, is active but not recruiting in its registry record.\n\nOther named V940 records have different stages: NCT06077760 in lung cancer is phase 3, NCT06307431 in renal cancer is phase 2, and NCT06305767 in bladder cancer is phase 1/2. The cutaneous squamous-cell study NCT06295809 is terminated for business reasons; that status is not an efficacy result. These are individual registry examples, not an exhaustive trial inventory.",
+          "principle": "A protocol selects tumour-derived sequences and encodes them in an RNA product. Delivery, presentation and priming then require testing. Target count, formulation, route and combinations are product-specific rather than universal features of the platform.",
+          "strengths": [
+            "Patient-specific antigen selection",
+            "Immune responses and clinical outcomes can be measured separately"
+          ],
+          "limitations": [
+            "Prediction does not establish natural presentation or recognition",
+            "Manufacturing time, dose, combinations and toxicity depend on the product and protocol",
+            "Immune response does not establish clinical benefit"
+          ],
+          "notes": [
+            "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+            "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+            "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+            "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+            "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+            "Target number, formulation, combination and timing belong to the particular product. The V940 sponsor description specifies up to 34 encoded neoantigens; Rojas and colleagues used autogene cevumeran with up to 20 in their pancreatic study. Neither number is a universal selection score or manufacturing rule. Tolerability and added benefit require evidence for the actual regimen and population; a personalised sequence does not itself establish low toxicity."
+          ],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+            },
+            {
+              "label": "NCI: how cancer treatment vaccines work",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+            },
+            {
+              "label": "OpenStax: T-cell selection and clonal expansion",
+              "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+            },
+            {
+              "label": "Kranz et al.: systemic RNA delivery and antigen-specific responses (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/"
+            },
+            {
+              "label": "Douek et al.: measured adult thymic output and age (1998)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+            },
+            {
+              "label": "Rojas et al.: pancreatic phase 1 combination and immune-response association (2023)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+            },
+            {
+              "label": "Merck and Moderna: company-reported INTerpath-001 interim endpoints (19 August 2026)",
+              "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+            },
+            {
+              "label": "INTerpath-001: registry design and endpoints",
+              "url": "https://clinicaltrials.gov/study/NCT05933577"
+            },
+            {
+              "label": "Autogene cevumeran: phase 2 resected-pancreatic study",
+              "url": "https://clinicaltrials.gov/study/NCT05968326"
+            },
+            {
+              "label": "V940-002: phase 3 lung-cancer study",
+              "url": "https://clinicaltrials.gov/study/NCT06077760"
+            },
+            {
+              "label": "V940-004: phase 2 renal-cancer study",
+              "url": "https://clinicaltrials.gov/study/NCT06307431"
+            },
+            {
+              "label": "V940-005: phase 1/2 bladder-cancer study",
+              "url": "https://clinicaltrials.gov/study/NCT06305767"
+            },
+            {
+              "label": "V940-007: terminated cutaneous squamous-cell study",
+              "url": "https://clinicaltrials.gov/study/NCT06295809"
+            }
+          ],
+          "asOf": "2026-11-11"
+        },
+        "reason": "Adds self-contained priming and sampling exercises. Retains the supported phase 3 report with company attribution, corrects named programme phases/status, scopes antigen counts, and removes unsupported class-wide low-toxicity and manufacturing-time claims."
+      },
+      {
+        "id": "neoantigen",
+        "name": "Neoantigen",
+        "file": "src/data/terms.ts",
+        "expectedSourceFileSha256": "199b8f0749507fbd51fbf98dd6bb9083072df6251563187ce48d65b4b4cf4fc7",
+        "beforeRuntimeRecordSha256": "7005918434724055e1dbd3b75f66b641903b402a30e9acaad010c68ecc978fe0",
+        "beforeRuntimeFields": {
+          "tldr": "A protein fragment created by a tumour mutation that the immune system has never seen before, so it can attack it without harming normal cells.",
+          "summary": "Arise from missense mutations, frameshifts, fusions, and splice variants; must be processed and presented on the patient's HLA. Predicted computationally (binding affinity, expression, clonality). The targets of personalised mRNA vaccines and neoantigen-specific TCR-T; higher TMB means more candidates.",
+          "notes": [],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Neoantigen"
+            }
+          ],
+          "asOf": "2026-09-04"
+        },
+        "beforeLiteralFields": {
+          "tldr": "A protein fragment created by a tumour mutation that the immune system has never seen before, so it can attack it without harming normal cells.",
+          "summary": "Arise from missense mutations, frameshifts, fusions, and splice variants; must be processed and presented on the patient's HLA. Predicted computationally (binding affinity, expression, clonality). The targets of personalised mRNA vaccines and neoantigen-specific TCR-T; higher TMB means more candidates.",
+          "notes": {
+            "$missing": true
+          },
+          "links": {
+            "$missing": true
+          },
+          "asOf": {
+            "$missing": true
+          }
+        },
+        "literalAfter": {
+          "tldr": "A peptide arising from altered tumour sequence can be an immune target if it is displayed and recognised. Prediction alone does not show safe tumour killing.",
+          "summary": "A tumour sequence change can produce a new peptide sequence, but the altered sequence, its expression, HLA presentation and T-cell recognition are separate findings. Candidate sources include substitutions, frameshifts, fusions and altered RNA joins; a workflow that assessed one class has not necessarily assessed the others.\n\nComputational ranking can consider binding, expression and clonality. In the TESLA study, Wells and colleagues combined tumour-normal exomes, tumour RNA and HLA typing, then tested selected peptides for HLA binding and recognition by existing patient-matched T cells. The study focused on small somatic variants and class I antigens; it did not validate every fusion or splice source, every new response a vaccine might induce, or clinical benefit from a vaccine. A candidate peptide and a favourable prediction do not establish safe recognition of naturally presenting tumour cells.",
+          "notes": [
+            "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+            "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+            "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+            "In an invented comparison, candidate A has a supported tumour DNA alteration, no support in adequately assessed normal DNA and observed mutant RNA. It has progressed further as a source candidate, but processing, HLA display and T-cell recognition remain untested. Candidate B has tumour DNA support but inadequate normal coverage, so tumour specificity is still unresolved. These are evidence questions, not a numerical ranking algorithm.",
+            "Two more fictional candidates illustrate bounded negatives. Candidate C has only a weakly supported RNA junction and needs reproducibility and artefact checks. Candidate D has strong DNA support but no RNA detection in a shallow assay, which cannot establish that the transcript is absent. None of A to D has demonstrated HLA presentation or T-cell recognition merely from these starting observations.",
+            "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function."
+          ],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Neoantigen"
+            },
+            {
+              "label": "Wells et al.: TESLA prediction, binding and pre-existing T-cell assays (2020)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+            },
+            {
+              "label": "Jones et al.: paired tumour-normal sequencing and interpretation (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+            },
+            {
+              "label": "Carter et al.: purity, ploidy and mutation multiplicity (2012)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+            },
+            {
+              "label": "Wong et al.: formalin-related sequence artefacts (2014)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24885028/"
+            },
+            {
+              "label": "NHGRI: DNA sequencing overview",
+              "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet"
+            }
+          ],
+          "asOf": "2026-11-11"
+        },
+        "reason": "Replaces an unconditional novelty/safety claim with separate sequence, display, recognition and safety evidence. Adds the source-list measurement card and four explicitly fictional candidate comparisons."
+      },
+      {
+        "id": "wes-wgs",
+        "name": "Whole-exome & whole-genome sequencing",
+        "file": "src/data/technologies.ts",
+        "expectedSourceFileSha256": "1b15bd8f903b2c38351f929a46f20b5b10b5d6c1cb10974c6cd59c679fef763a",
+        "beforeRuntimeRecordSha256": "4b9f4f85c30eb058e919fc0191c24ec19a1b583c895ed30d71c0ab0038c49548",
+        "beforeRuntimeFields": {
+          "tldr": "Reading all the genes (exome) or the entire DNA (genome) of a tumour, rather than a chosen panel.",
+          "summary": "WGS reveals structural variants, mutational signatures (HRD, APOBEC, tobacco), whole-genome doubling, and non-coding drivers. Used by national programmes (Genomics England, Hartwig) and for neoantigen prediction in personalised vaccines. Long-read sequencing (PacBio, Oxford Nanopore) resolves complex rearrangements and methylation in one run.",
+          "principle": "Shotgun sequencing of the whole genome (or exon-captured fraction) at 30-100x depth, tumour-normal paired.",
+          "strengths": [
+            "Unbiased",
+            "Signatures and structural variants"
+          ],
+          "limitations": [
+            "Cost, data volume, interpretation",
+            "Lower depth than panels for subclonal variants"
+          ],
+          "notes": [
+            "Lung cancer: whole-genome sequencing found what panels cannot. Biallelic TP53 and RB1 inactivation by complex rearrangement and the oncogenic TP73 isoform in small-cell disease (George 2015), three copy-number subtypes and the decades-long lead time of the slow subtype in never smokers (Zhang 2021), and the branched clonal history that shows small-cell transformation is set up before treatment begins (Lee 2017)."
+          ],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Whole_genome_sequencing"
+            }
+          ],
+          "asOf": "2026-09-04"
+        },
+        "beforeLiteralFields": {
+          "tldr": "Reading all the genes (exome) or the entire DNA (genome) of a tumour, rather than a chosen panel.",
+          "summary": "WGS reveals structural variants, mutational signatures (HRD, APOBEC, tobacco), whole-genome doubling, and non-coding drivers. Used by national programmes (Genomics England, Hartwig) and for neoantigen prediction in personalised vaccines. Long-read sequencing (PacBio, Oxford Nanopore) resolves complex rearrangements and methylation in one run.",
+          "principle": "Shotgun sequencing of the whole genome (or exon-captured fraction) at 30-100x depth, tumour-normal paired.",
+          "strengths": [
+            "Unbiased",
+            "Signatures and structural variants"
+          ],
+          "limitations": [
+            "Cost, data volume, interpretation",
+            "Lower depth than panels for subclonal variants"
+          ],
+          "notes": {
+            "$missing": true
+          },
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": {
+                "$expression": "W(\"Whole_genome_sequencing\")"
+              }
+            }
+          ],
+          "asOf": {
+            "$expression": "asOf",
+            "$shorthand": true
+          }
+        },
+        "literalAfter": {
+          "tldr": "Exome sequencing targets mostly protein-coding exons; genome sequencing samples DNA more broadly. Both have coverage and detection limits.",
+          "summary": "With suitable preparation and analysis, WGS can reveal structural variants, mutational signatures (HRD, APOBEC, tobacco), whole-genome doubling, and non-coding drivers. Used by national programmes (Genomics England, Hartwig) and for neoantigen prediction in personalised vaccines. Suitable long-read sequencing (PacBio, Oxford Nanopore) can help resolve complex rearrangements and methylation in one run.",
+          "principle": "An exome workflow enriches selected exonic regions, while a genome workflow samples a much broader DNA territory. Pairing with normal DNA, depth and variant callers depend on the assay.",
+          "strengths": [
+            "Broader sequence sampling than a selected gene panel",
+            "Can support copy-number, structural and signature analyses with a suitable workflow"
+          ],
+          "limitations": [
+            "Coverage and detection differ by region and alteration class",
+            "Depth, input quality, cost and interpretation depend on the protocol"
+          ],
+          "notes": [
+            "A targeted panel reads selected regions; whole-exome enrichment focuses mainly on protein-coding exons, while whole-genome sequencing samples a broader DNA territory. Breadth and usable local depth differ. A broader assay does not automatically supply adequate depth, reliable structural calls or a useful vaccine target. Check the platform, preparation, validated regions and alteration classes before interpreting a negative result."
+          ],
+          "links": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Whole_genome_sequencing"
+            },
+            {
+              "label": "MedlinePlus Genetics: exome and genome sequencing scope",
+              "url": "https://medlineplus.gov/genetics/understanding/testing/sequencing/"
+            },
+            {
+              "label": "Jones et al.: targeted versus exome workflows and call validation (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+            }
+          ],
+          "asOf": "2026-11-11"
+        },
+        "reason": "Corrects all-genes/perfect-genome shorthand, a universal depth/pairing rule and unqualified bias/depth comparisons. The prior lung-cancer note remains supplied by its existing supplement, rather than being copied into this literal owner."
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "name": "Dendritic-cell cross-presentation (cDC1)",
+        "file": "src/data/prometheus-gaps-institutions.ts",
+        "expectedSourceFileSha256": "20e9fc7c55a6f4be0e7172fc165c5b998cf4eb9c5237025b6b8e5f0b092d1db2",
+        "beforeRuntimeRecordSha256": "e6bd9b6042e0c1085ce9e1d57a79ef6a2b8f06e27244ce53487c2e8ca2fc56ea",
+        "beforeRuntimeFields": {
+          "summary": "Most cells display on MHC class I only peptides from proteins they make themselves, so a CD8 T cell is normally primed by an infected or transformed cell's own antigen. Cross-presentation is the route by which certain dendritic cells take up exogenous antigen (from dead cells or debris), move it from the phagosome into the cytosolic processing pathway and load it onto MHC class I, priming CD8 T cells against antigens they did not synthesise. The subset specialised for this is the type 1 conventional dendritic cell (cDC1): CD8alpha+ and CD103+ in mice, CD141 (BDCA-3)+ in humans, dependent on FLT3 ligand and the transcription factor BATF3 for development, internalising necrotic-cell material through CLEC9A (DNGR-1), a receptor for polymerised actin, and expressing the chemokine receptor XCR1, which favours contact with CD8 T cells (Alfaro et al., 2013).\n\nThe in vivo proof came from Batf3-deficient mice (Hildner et al., Science 2008): they lacked CD8alpha+ dendritic cells, their dendritic cells were defective in cross-presentation, and they failed to reject highly immunogenic syngeneic tumours. In mouse melanoma, CD103+ dendritic cells were the only antigen-presenting cells carrying intact antigen to lymph nodes and priming tumour-specific CD8 T cells, and they were required for PD-L1 blockade to work; expanding them with FLT3 ligand and activating them with intratumoral poly I:C improved responses to PD-L1 and BRAF inhibition (Salmon et al., Immunity 2016). This is why a scarcity of cDC1 in a tumour is read as one cause of a cold, checkpoint-resistant tumour, and why vaccine designs target antigen to cDC1 receptors such as CLEC9A, or expand and activate these cells, rather than relying on bulk monocyte-derived dendritic cells.\n\nCross-presentation names a display process, whereas cross-priming names the activation of naive CD8 T cells through it, which needs supporting signals and its own readout. Direct presentation remains possible: a dendritic cell that receives vaccine messenger RNA and makes the protein itself presents it directly. A cell can also acquire already assembled peptide-HLA complexes from another cell (cross-dressing), which does not show processing by the recipient (Wakim and Bevan, Nature 2011, PMID 21455179, mouse viral infection). External antigen on class II is not cross-presentation.",
+          "links": [
+            {
+              "label": "Hildner et al., Batf3 deficiency reveals a critical role for CD8alpha+ dendritic cells in cytotoxic T cell immunity, Science 2008 (PMID 19008445)",
+              "url": "https://doi.org/10.1126/science.1164206"
+            },
+            {
+              "label": "Salmon et al., Expansion and activation of CD103+ dendritic cell progenitors at the tumor site enhances tumor responses to therapeutic PD-L1 and BRAF inhibition, Immunity 2016 (PMID 27096321)",
+              "url": "https://doi.org/10.1016/j.immuni.2016.03.012"
+            },
+            {
+              "label": "Alfaro et al., Specialized dendritic cells in cross-presentation of exogenous antigens to cytotoxic T lymphocytes (review in Spanish, English abstract), An Sist Sanit Navar 2013 (PMID 24406364)",
+              "url": "https://doi.org/10.4321/s1137-66272013000300016"
+            },
+            {
+              "label": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11120766/"
+            },
+            {
+              "label": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20479116/"
+            },
+            {
+              "label": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21455179/"
+            }
+          ],
+          "asOf": "2026-11-09"
+        },
+        "beforeLiteralFields": {
+          "summary": "Most cells display on MHC class I only peptides from proteins they make themselves, so a CD8 T cell is normally primed by an infected or transformed cell's own antigen. Cross-presentation is the route by which certain dendritic cells take up exogenous antigen (from dead cells or debris), move it from the phagosome into the cytosolic processing pathway and load it onto MHC class I, priming CD8 T cells against antigens they did not synthesise. The subset specialised for this is the type 1 conventional dendritic cell (cDC1): CD8alpha+ and CD103+ in mice, CD141 (BDCA-3)+ in humans, dependent on FLT3 ligand and the transcription factor BATF3 for development, internalising necrotic-cell material through CLEC9A (DNGR-1), a receptor for polymerised actin, and expressing the chemokine receptor XCR1, which favours contact with CD8 T cells (Alfaro et al., 2013).\n\nThe in vivo proof came from Batf3-deficient mice (Hildner et al., Science 2008): they lacked CD8alpha+ dendritic cells, their dendritic cells were defective in cross-presentation, and they failed to reject highly immunogenic syngeneic tumours. In mouse melanoma, CD103+ dendritic cells were the only antigen-presenting cells carrying intact antigen to lymph nodes and priming tumour-specific CD8 T cells, and they were required for PD-L1 blockade to work; expanding them with FLT3 ligand and activating them with intratumoral poly I:C improved responses to PD-L1 and BRAF inhibition (Salmon et al., Immunity 2016). This is why a scarcity of cDC1 in a tumour is read as one cause of a cold, checkpoint-resistant tumour, and why vaccine designs target antigen to cDC1 receptors such as CLEC9A, or expand and activate these cells, rather than relying on bulk monocyte-derived dendritic cells.\n\nCross-presentation names a display process, whereas cross-priming names the activation of naive CD8 T cells through it, which needs supporting signals and its own readout. Direct presentation remains possible: a dendritic cell that receives vaccine messenger RNA and makes the protein itself presents it directly. A cell can also acquire already assembled peptide-HLA complexes from another cell (cross-dressing), which does not show processing by the recipient (Wakim and Bevan, Nature 2011, PMID 21455179, mouse viral infection). External antigen on class II is not cross-presentation.",
+          "links": [
+            {
+              "label": "Hildner et al., Batf3 deficiency reveals a critical role for CD8alpha+ dendritic cells in cytotoxic T cell immunity, Science 2008 (PMID 19008445)",
+              "url": "https://doi.org/10.1126/science.1164206"
+            },
+            {
+              "label": "Salmon et al., Expansion and activation of CD103+ dendritic cell progenitors at the tumor site enhances tumor responses to therapeutic PD-L1 and BRAF inhibition, Immunity 2016 (PMID 27096321)",
+              "url": "https://doi.org/10.1016/j.immuni.2016.03.012"
+            },
+            {
+              "label": "Alfaro et al., Specialized dendritic cells in cross-presentation of exogenous antigens to cytotoxic T lymphocytes (review in Spanish, English abstract), An Sist Sanit Navar 2013 (PMID 24406364)",
+              "url": "https://doi.org/10.4321/s1137-66272013000300016"
+            },
+            {
+              "label": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11120766/"
+            },
+            {
+              "label": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20479116/"
+            },
+            {
+              "label": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21455179/"
+            }
+          ],
+          "asOf": "2026-11-09"
+        },
+        "literalAfter": {
+          "summary": "Class I HLA commonly displays fragments of proteins made within the presenting cell. Cross-presentation means displaying externally acquired antigen on class I HLA. Naive CD8 T-cell priming is a further activation step requiring an appropriate presenting cell and supporting signals; tumour-cell display alone does not establish priming. The subset specialised for this is the type 1 conventional dendritic cell (cDC1): CD8alpha+ and CD103+ in mice, CD141 (BDCA-3)+ in humans, dependent on FLT3 ligand and the transcription factor BATF3 for development, internalising necrotic-cell material through CLEC9A (DNGR-1), a receptor for polymerised actin, and expressing the chemokine receptor XCR1, which favours contact with CD8 T cells (Alfaro et al., 2013).\n\nThe in vivo proof came from Batf3-deficient mice (Hildner et al., Science 2008): they lacked CD8alpha+ dendritic cells, their dendritic cells were defective in cross-presentation, and they failed to reject highly immunogenic syngeneic tumours. In mouse melanoma, CD103+ dendritic cells were the only antigen-presenting cells carrying intact antigen to lymph nodes and priming tumour-specific CD8 T cells, and they were required for PD-L1 blockade to work; expanding them with FLT3 ligand and activating them with intratumoral poly I:C improved responses to PD-L1 and BRAF inhibition (Salmon et al., Immunity 2016). This is why a scarcity of cDC1 in a tumour is read as one cause of a cold, checkpoint-resistant tumour, and why vaccine designs target antigen to cDC1 receptors such as CLEC9A, or expand and activate these cells, rather than relying on bulk monocyte-derived dendritic cells.\n\nCross-presentation names a display process, whereas cross-priming names the activation of naive CD8 T cells through it, which needs supporting signals and its own readout. Direct presentation remains possible: a dendritic cell that receives vaccine messenger RNA and makes the protein itself presents it directly. A cell can also acquire already assembled peptide-HLA complexes from another cell (cross-dressing), which does not show processing by the recipient (Wakim and Bevan, Nature 2011, PMID 21455179, mouse viral infection). External antigen on class II is not cross-presentation.",
+          "links": [
+            {
+              "label": "Hildner et al., Batf3 deficiency reveals a critical role for CD8alpha+ dendritic cells in cytotoxic T cell immunity, Science 2008 (PMID 19008445)",
+              "url": "https://doi.org/10.1126/science.1164206"
+            },
+            {
+              "label": "Salmon et al., Expansion and activation of CD103+ dendritic cell progenitors at the tumor site enhances tumor responses to therapeutic PD-L1 and BRAF inhibition, Immunity 2016 (PMID 27096321)",
+              "url": "https://doi.org/10.1016/j.immuni.2016.03.012"
+            },
+            {
+              "label": "Alfaro et al., Specialized dendritic cells in cross-presentation of exogenous antigens to cytotoxic T lymphocytes (review in Spanish, English abstract), An Sist Sanit Navar 2013 (PMID 24406364)",
+              "url": "https://doi.org/10.4321/s1137-66272013000300016"
+            },
+            {
+              "label": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11120766/"
+            },
+            {
+              "label": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20479116/"
+            },
+            {
+              "label": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21455179/"
+            },
+            {
+              "label": "Joffre et al.: cross-presentation and dendritic-cell routes (review, 2012)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22790179/"
+            },
+            {
+              "label": "OpenStax: conventional T-cell presentation and activation",
+              "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response"
+            }
+          ],
+          "asOf": "2026-11-11"
+        },
+        "reason": "Removes the statement that tumour-cell class-I display normally primes naive CD8 cells and the implication that every cross-presentation event follows the cytosolic route. Prior model findings and the correct direct/cross-presentation distinction are retained."
+      }
+    ],
+    "sourceFirstInventorySha256": "ae7d163ae5c3cd04ba841cc2dfae822ca644bbad639803b7e88dd0d678e5cce3",
+    "connectedNewNotes": 13,
+    "mainCredit": 0,
+    "liveCredit": 0
+  },
+  "runtimeReadback": {
+    "checks": [
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "principle",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "strengths",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "limitations",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 13
+      },
+      {
+        "recordId": "neoantigen-mrna-vaccine",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "tldr",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 6
+      },
+      {
+        "recordId": "neoantigen",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "tldr",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "principle",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "strengths",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "limitations",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "notes",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 2
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 3
+      },
+      {
+        "recordId": "wes-wgs",
+        "field": "asOf",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "summary",
+        "exactLiteralValue": true
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "links",
+        "newAndPriorValuesPreserved": true,
+        "composedLength": 8
+      },
+      {
+        "recordId": "dendritic-cell-cross-presentation",
+        "field": "asOf",
+        "exactLiteralValue": true
+      }
+    ],
+    "changedExistingIds": [
+      "dendritic-cell-cross-presentation",
+      "neoantigen",
+      "neoantigen-mrna-vaccine",
+      "wes-wgs"
+    ],
+    "newIds": [],
+    "graphRecords": 23083,
+    "priorCrossPresentationTailRetainedExactly": true,
+    "priorRuntimeNotesAndLinksPreserved": true,
+    "matchingPriorReferencesToRebind": 4,
+    "separateDraft373ReferencesRetained": 2
+  },
+  "summaryConsumerDelta": {
+    "states": 108,
+    "beforeTexts": 45,
+    "beforeEnglishFallbacks": 63,
+    "afterTexts": 29,
+    "afterEnglishFallbacks": 79,
+    "withdrawnUnreviewedEntries": 16,
+    "simpleCorrections": 2,
+    "acceptedLongCaches": 0,
+    "newLanguageApprovals": 0,
+    "changedObservationIds": [
+      "neoantigen-ar",
+      "wes-wgs-ar",
+      "neoantigen-de",
+      "wes-wgs-de",
+      "neoantigen-es",
+      "wes-wgs-es",
+      "neoantigen-fr",
+      "wes-wgs-fr",
+      "neoantigen-hi",
+      "wes-wgs-hi",
+      "neoantigen-ja",
+      "wes-wgs-ja",
+      "neoantigen-pt",
+      "wes-wgs-pt",
+      "neoantigen-zh",
+      "wes-wgs-zh",
+      "neoantigen-simple",
+      "wes-wgs-simple"
+    ]
+  },
+  "earlierContributorArraysPreserved": true,
+  "wgsLungNote": "Its existing supplement still supplies the unchanged note; it was not copied into the literal owner.",
+  "sourceGuideUnchanged": true
+}

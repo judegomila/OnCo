@@ -1,0 +1,77 @@
+{
+  "checks": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.86
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.2
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 28.57
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 91.47
+    }
+  ],
+  "fullSuite": {
+    "filesPassed": 284,
+    "testsPassed": 2829,
+    "existingSkips": 2
+  },
+  "actualReaders": {
+    "records": 3,
+    "exactSegments": 22,
+    "missingSources": 0,
+    "nestedAnchors": 0,
+    "analogyConfirmed": true
+  },
+  "exports": {
+    "exactJSONEntities": 3,
+    "exactMarkdownPassages": 17,
+    "OpenApiAndDedupeGeneration": true
+  },
+  "ledgerReplay": {
+    "filesCompared": 624,
+    "differences": [],
+    "method": "Two consecutive source-ledger CLI runs, compared across all public audit artifacts except the manifest itself.",
+    "closureExitCode": 2,
+    "meaning": "Unfinished overall audit, with zero stale or missing current field proofs."
+  },
+  "summarySelectors": {
+    "checked": 27,
+    "present": 0,
+    "EnglishFallback": 27,
+    "unchangedShortLeads": true
+  },
+  "productionBuild": false,
+  "browserHydration": false,
+  "expertLearnerLanguageAcceptance": false
+}

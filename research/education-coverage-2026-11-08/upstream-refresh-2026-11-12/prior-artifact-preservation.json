@@ -1,0 +1,34 @@
+{
+  "priorFiles": 1013,
+  "protectedPriorFiles": 1000,
+  "priorPendingFilesPreserved": 95,
+  "priorCohortFilesPreserved": 861,
+  "allProtectedBytesUnchanged": true,
+  "allPriorPendingAndCohortBytesUnchanged": true,
+  "sourceAssetsAndAdjacentBytesUnchanged": true,
+  "changedSharedAccounts": [
+    "README.md",
+    "candidates.json",
+    "ledger.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json"
+  ],
+  "allowedSharedAccounts": [
+    "README.md",
+    "artifact-manifest.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ],
+  "activeEvidenceBindingsRebased": 0,
+  "newTeachingOrScienceCredit": 0
+}

@@ -1,0 +1,882 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "documents": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "title": "Why a personalized cancer vaccine can help",
+      "bytes": 6773,
+      "sourceSha256": "77161e04e1d0c54e5f02ca4919c418e5677f27c717323c66efbb5d0a915f2017",
+      "gitBlob": "3b77685ea94867f6975d35b729989747923f07d7",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "98757c72897895814eecaa7c764d8279137835a5510c7e4439eab9364c5c4178"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c441353ea89b5185bce68ac76f8048418ca6fb467364525ca459c931136d347f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "89565e757839540b058140d82d4aa9d660b3516e245215ddd0b4a45b505fb30a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "b52ae8df2c3c68cd3f54637219063db76b9da533ec14502986def7126ef50a8a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "c35dca8c5e65accbf4f8d7126bc837c5044e075602e1db8c573adfdc3987a550"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1ffdbf746faaf82bb8337414875891224e19e2a4aa14aa341513b45edc66b07f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "e8eaaaa2f8386640edbbd7cf223823f889c6323a3c31f8dbfa9ccc4fe7fe472d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "6eab5152433e5ddc919ade8ec208c3178ad86b85ba1df66ffa2db4365b2a7093"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "d30a395be9dcad0fa517e961059d30b718722d5fe4110a50626951139ca65455"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "10bbae22b6f9936425e555703f400436317666173c1698f5ad79319bd1feb8f7"
+        }
+      ],
+      "projectionSha256": "e5e01aa23a6c1b48e296c7c00c599f52f4bf3bb86433af8373f4857ae37cc9d9",
+      "excludedPersonalSections": 0,
+      "generalTeachingRead": true,
+      "scope": "Complete general lesson read at this pin; no personal-case sections or standalone images. Related/prerequisite chapters retain their own independent census disposition."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "title": "Read tumor and normal data before choosing targets",
+      "bytes": 6690,
+      "sourceSha256": "be9767870ef9bb0b9a52bf20f3fc2e33d5bad2ca6a59f91a89dc3715ea2ddfd2",
+      "gitBlob": "b2f7f662485536776f1ad11d4ef14cb81627f979",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f2e19a18383c94307569a327fb4212cd4a150a8a1f90ecfe2f5a1ad1d53ada7e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "448079ef7b80eb522eb74fa82c0a74782115b033945d417285c80aa764b848d2"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "29df5c14b6098b44839f1d52269d1802cf4a960f9347e3785624be0c490b5e4a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d95b19047fb11a81c25880730ffc2e68a9450c248cdb0bd7b3a0bee8d105d5a7"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "382ed9d044c1c2a8ce008923b9420f5e3e4b6e3590211fc0eda119b68b50efff"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "35631a23d2c46d44e289c3fa4125f367102b5634e86bc93ee2bff7b18488227f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "2f407956ad689a4a3aac073333f90712666b8c705342f72d0d8fb95a26394a00"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "91ceb45d5d0b89e3e8da0cd5cbc4cd3010bc468ecde349dd0eb9147609cd43a7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd96ca9c682e84fe59443cf6a74f7c37db1b8a857b0b82ec14deccba365d17fe"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "98d59be02916352903e191899a2bd18911593ae2289cac8ae762fe083f16365e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "88e75ea0ec7d683e683e05846910ec8776200d32545fdb63c7e3116c3dfd4a1e"
+        }
+      ],
+      "projectionSha256": "7d0264db3a092e26caa5db09597885a18dea00a1d48018bcb390cc14d46b882a",
+      "excludedPersonalSections": 0,
+      "generalTeachingRead": true,
+      "scope": "Complete general lesson read at this pin; no personal-case sections or standalone images. Related/prerequisite chapters retain their own independent census disposition."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "title": "Why a personalized cancer vaccine can help",
+      "bytes": 6773,
+      "sourceSha256": "77161e04e1d0c54e5f02ca4919c418e5677f27c717323c66efbb5d0a915f2017",
+      "gitBlob": "3b77685ea94867f6975d35b729989747923f07d7",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "611fbc2dbe77af76934ac8ec4cfc4eb47d791cc2982f6e9b456c7f6f1a788b35"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "954adc741c073c52d99499f3458137a15c0b5642fffcda31880388a4ac399bda"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f385064c2bff55ec767a874b128ef4e4c3beb6b2aecb33cecfd620aeef0c26d4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f5f2ea6c469aa6f2d110d3e61b7fe9325cd60da2878fda3e15fefb3e1be73723"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "8ba03641941add15b190bd456e54a256c920d377b6294749b1d92354cd4a346c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "2380cba243d75bad51b283d80434576aee4d01b17b6883a0a296dcd9f6256f07"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "046f868a2d366b3c047a6d8adebcde7619265023cf31be8b7334dd3f8c1acf0f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "edab252f879ef72c57ca369ba2fe0bcfc3064658f9be2bfebd90800c53b51930"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "f26c397382a55cb165bea210a682f6a22f3da165d2eb5306e710df348b036284"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "06346b308d3e8789df2ef29b14c707f1326526f7460840acbc0756b6235be87c"
+        }
+      ],
+      "projectionSha256": "e5e01aa23a6c1b48e296c7c00c599f52f4bf3bb86433af8373f4857ae37cc9d9",
+      "excludedPersonalSections": 0,
+      "generalTeachingRead": true,
+      "scope": "Complete general lesson read at this pin; no personal-case sections or standalone images. Related/prerequisite chapters retain their own independent census disposition."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "title": "Read tumor and normal data before choosing targets",
+      "bytes": 6681,
+      "sourceSha256": "cd265268ddf197d04c821a296b07ef183a86b2db2deba92724b7599729b052f7",
+      "gitBlob": "dab3ca6f8b4789abbdb9687d76bdddb61ddc34f9",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f2e19a18383c94307569a327fb4212cd4a150a8a1f90ecfe2f5a1ad1d53ada7e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "448079ef7b80eb522eb74fa82c0a74782115b033945d417285c80aa764b848d2"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "29df5c14b6098b44839f1d52269d1802cf4a960f9347e3785624be0c490b5e4a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d95b19047fb11a81c25880730ffc2e68a9450c248cdb0bd7b3a0bee8d105d5a7"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "eab489e7c2dbb0a3e4228b314bb2b430e3c328d08338ba8f8285021bc1d8f08c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "35631a23d2c46d44e289c3fa4125f367102b5634e86bc93ee2bff7b18488227f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "2f407956ad689a4a3aac073333f90712666b8c705342f72d0d8fb95a26394a00"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "91ceb45d5d0b89e3e8da0cd5cbc4cd3010bc468ecde349dd0eb9147609cd43a7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd96ca9c682e84fe59443cf6a74f7c37db1b8a857b0b82ec14deccba365d17fe"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "3aed2ab9e73fdb189dc59f988d95f899ddd4b4daa0a0da5ddf5dd6c9a3f9ec4c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "fb5c8de836747fb3c627fe575cd179bf6a8c6605b695684ff422305794f21b89"
+        }
+      ],
+      "projectionSha256": "71d93618633324465806c0bd6357e8cb5ba16123d953abc7fb07275d20759085",
+      "excludedPersonalSections": 0,
+      "generalTeachingRead": true,
+      "scope": "Complete general lesson read at this pin; no personal-case sections or standalone images. Related/prerequisite chapters retain their own independent census disposition."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "file": "learning-requirements.json",
+    "sha256": "ae7d163ae5c3cd04ba841cc2dfae822ca644bbad639803b7e88dd0d678e5cce3",
+    "rows": 59,
+    "teachingRows": 51,
+    "recapRoutingScopeRows": 8,
+    "beforeFreshOwnerComparison": true
+  },
+  "originalRelocation": {
+    "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md": "wiki/education/designing-a-vaccine/index.md"
+  },
+  "sectionDispositions": [
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "98757c72897895814eecaa7c764d8279137835a5510c7e4439eab9364c5c4178",
+      "heading": "preamble",
+      "requirementIds": [
+        "V01",
+        "V02",
+        "V03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "c441353ea89b5185bce68ac76f8048418ca6fb467364525ca459c931136d347f",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "V02",
+        "V04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "89565e757839540b058140d82d4aa9d660b3516e245215ddd0b4a45b505fb30a",
+      "heading": "The intuition: expand a matching reader",
+      "requirementIds": [
+        "V01",
+        "V05",
+        "V06",
+        "V07"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "b52ae8df2c3c68cd3f54637219063db76b9da533ec14502986def7126ef50a8a",
+      "heading": "Priming and tumor killing happen in different places",
+      "requirementIds": [
+        "V08",
+        "V09",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "VE01"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "c35dca8c5e65accbf4f8d7126bc837c5044e075602e1db8c573adfdc3987a550",
+      "heading": "A worked example",
+      "requirementIds": [
+        "V14",
+        "V15"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "1ffdbf746faaf82bb8337414875891224e19e2a4aa14aa341513b45edc66b07f",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "V16"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "e8eaaaa2f8386640edbbd7cf223823f889c6323a3c31f8dbfa9ccc4fe7fe472d",
+      "heading": "Try it",
+      "requirementIds": [
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "6eab5152433e5ddc919ade8ec208c3178ad86b85ba1df66ffa2db4365b2a7093",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "VE02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "d30a395be9dcad0fa517e961059d30b718722d5fe4110a50626951139ca65455",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "VE03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "10bbae22b6f9936425e555703f400436317666173c1698f5ad79319bd1feb8f7",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "VE04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "f2e19a18383c94307569a327fb4212cd4a150a8a1f90ecfe2f5a1ad1d53ada7e",
+      "heading": "preamble",
+      "requirementIds": [
+        "D01",
+        "D02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "448079ef7b80eb522eb74fa82c0a74782115b033945d417285c80aa764b848d2",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "D02",
+        "D03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "29df5c14b6098b44839f1d52269d1802cf4a960f9347e3785624be0c490b5e4a",
+      "heading": "The intuition: compare before calling a difference",
+      "requirementIds": [
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "d95b19047fb11a81c25880730ffc2e68a9450c248cdb0bd7b3a0bee8d105d5a7",
+      "heading": "What the measurements contribute",
+      "requirementIds": [
+        "D01",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "382ed9d044c1c2a8ce008923b9420f5e3e4b6e3590211fc0eda119b68b50efff",
+      "heading": "Allele fraction is not tumor coverage",
+      "requirementIds": [
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "35631a23d2c46d44e289c3fa4125f367102b5634e86bc93ee2bff7b18488227f",
+      "heading": "Worked example: maintain an evidence ledger",
+      "requirementIds": [
+        "D21",
+        "D22",
+        "D23",
+        "D24"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "2f407956ad689a4a3aac073333f90712666b8c705342f72d0d8fb95a26394a00",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "D25",
+        "D26",
+        "D27",
+        "D28"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "91ceb45d5d0b89e3e8da0cd5cbc4cd3010bc468ecde349dd0eb9147609cd43a7",
+      "heading": "Try it",
+      "requirementIds": [
+        "D17",
+        "DE01"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bd96ca9c682e84fe59443cf6a74f7c37db1b8a857b0b82ec14deccba365d17fe",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "DE02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "98d59be02916352903e191899a2bd18911593ae2289cac8ae762fe083f16365e",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "DE03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "88e75ea0ec7d683e683e05846910ec8776200d32545fdb63c7e3116c3dfd4a1e",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "DE04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "611fbc2dbe77af76934ac8ec4cfc4eb47d791cc2982f6e9b456c7f6f1a788b35",
+      "heading": "preamble",
+      "requirementIds": [
+        "V01",
+        "V02",
+        "V03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "954adc741c073c52d99499f3458137a15c0b5642fffcda31880388a4ac399bda",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "V02",
+        "V04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "f385064c2bff55ec767a874b128ef4e4c3beb6b2aecb33cecfd620aeef0c26d4",
+      "heading": "The intuition: expand a matching reader",
+      "requirementIds": [
+        "V01",
+        "V05",
+        "V06",
+        "V07"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "f5f2ea6c469aa6f2d110d3e61b7fe9325cd60da2878fda3e15fefb3e1be73723",
+      "heading": "Priming and tumor killing happen in different places",
+      "requirementIds": [
+        "V08",
+        "V09",
+        "V10",
+        "V11",
+        "V12",
+        "V13",
+        "VE01"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "8ba03641941add15b190bd456e54a256c920d377b6294749b1d92354cd4a346c",
+      "heading": "A worked example",
+      "requirementIds": [
+        "V14",
+        "V15"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "2380cba243d75bad51b283d80434576aee4d01b17b6883a0a296dcd9f6256f07",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "V16"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "046f868a2d366b3c047a6d8adebcde7619265023cf31be8b7334dd3f8c1acf0f",
+      "heading": "Try it",
+      "requirementIds": [
+        "V17",
+        "V18",
+        "V19",
+        "V20",
+        "V21",
+        "V22",
+        "V23"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "edab252f879ef72c57ca369ba2fe0bcfc3064658f9be2bfebd90800c53b51930",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "VE02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "f26c397382a55cb165bea210a682f6a22f3da165d2eb5306e710df348b036284",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "VE03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "06346b308d3e8789df2ef29b14c707f1326526f7460840acbc0756b6235be87c",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "VE04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "f2e19a18383c94307569a327fb4212cd4a150a8a1f90ecfe2f5a1ad1d53ada7e",
+      "heading": "preamble",
+      "requirementIds": [
+        "D01",
+        "D02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "448079ef7b80eb522eb74fa82c0a74782115b033945d417285c80aa764b848d2",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "D02",
+        "D03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "29df5c14b6098b44839f1d52269d1802cf4a960f9347e3785624be0c490b5e4a",
+      "heading": "The intuition: compare before calling a difference",
+      "requirementIds": [
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "d95b19047fb11a81c25880730ffc2e68a9450c248cdb0bd7b3a0bee8d105d5a7",
+      "heading": "What the measurements contribute",
+      "requirementIds": [
+        "D01",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "eab489e7c2dbb0a3e4228b314bb2b430e3c328d08338ba8f8285021bc1d8f08c",
+      "heading": "Allele fraction is not tumor coverage",
+      "requirementIds": [
+        "D15",
+        "D16",
+        "D17",
+        "D18",
+        "D19",
+        "D20"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "35631a23d2c46d44e289c3fa4125f367102b5634e86bc93ee2bff7b18488227f",
+      "heading": "Worked example: maintain an evidence ledger",
+      "requirementIds": [
+        "D21",
+        "D22",
+        "D23",
+        "D24"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "2f407956ad689a4a3aac073333f90712666b8c705342f72d0d8fb95a26394a00",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "D25",
+        "D26",
+        "D27",
+        "D28"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "91ceb45d5d0b89e3e8da0cd5cbc4cd3010bc468ecde349dd0eb9147609cd43a7",
+      "heading": "Try it",
+      "requirementIds": [
+        "D17",
+        "DE01"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bd96ca9c682e84fe59443cf6a74f7c37db1b8a857b0b82ec14deccba365d17fe",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "DE02"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "3aed2ab9e73fdb189dc59f988d95f899ddd4b4daa0a0da5ddf5dd6c9a3f9ec4c",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "DE03"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/02-reading-tumor-and-normal-data.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "fb5c8de836747fb3c627fe575cd179bf6a8c6605b695684ff422305794f21b89",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "DE04"
+      ],
+      "disposition": "Full general teaching section read; scientific, fictional and recap/source-scope roles remain separate."
+    }
+  ],
+  "standaloneImageAssets": 0,
+  "mermaidInstances": 2,
+  "uniqueMermaidCodes": 1,
+  "sourceBodiesPublished": false
+}

@@ -1,0 +1,59 @@
+{
+  "diagramInstances": 2,
+  "uniqueCodes": 1,
+  "renders": [
+    {
+      "codeSha256": "c62f63d007dc16b1120f2a129680bad1699fefa706a8171f09fc5f0fcf3b34a5",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/index.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "663f89670a854eea5ce924a3f86d2be0347110d62c21017c13fc156d1a3aa2d6",
+      "width": 168,
+      "height": 768,
+      "viewed": true,
+      "viewScope": "Full native image extent inspected; boxes and arrows are legible in both themes. No measured contrast or live-page claim."
+    },
+    {
+      "codeSha256": "c62f63d007dc16b1120f2a129680bad1699fefa706a8171f09fc5f0fcf3b34a5",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/index.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "b6d67aa2ef11b86f42ebe703df223e84ae5709845ce18596a20214b153edd980",
+      "width": 168,
+      "height": 768,
+      "viewed": true,
+      "viewScope": "Full native image extent inspected; boxes and arrows are legible in both themes. No measured contrast or live-page claim."
+    }
+  ],
+  "standaloneAssets": 0,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "findings": [
+    {
+      "severity": "reading-note",
+      "issue": "The vertical arrow chain is a dependency schematic. It does not show that tumour presentation begins only after T cells arrive; the new reader text will state separately required conditions.",
+      "disposition": "Reader text explicitly treats these as separately testable dependencies, without requiring a strict temporal order."
+    }
+  ]
+}

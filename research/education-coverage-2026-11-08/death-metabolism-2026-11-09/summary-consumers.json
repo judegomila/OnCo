@@ -1,0 +1,1342 @@
+{
+  "entries": 117,
+  "available": 9,
+  "missingEnglishFallbacks": 108,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 104,
+    "rows": [
+      {
+        "id": "apoptosis",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "apoptosis",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "autophagy",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "necrosis",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "senescence",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "warburg-effect",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ]
+  },
+  "namedReviewEntries": 0,
+  "scope": "Actual lazy-loaded tables and summary-cache selectors; selected-text SSR, not browser hydration or fluent-language sign-off.",
+  "rows": [
+    {
+      "id": "death-summary-ar-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-ar-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-ar-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-ar-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-ar-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-ar-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-ar-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "55ba56ebdda407e5f8b132b8627c346ac63a37ad891f9f8c6e028ae74c23491e"
+    },
+    {
+      "id": "death-summary-ar-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-ar-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-ar-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-ar-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-ar-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-ar-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-de-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-de-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-de-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-de-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-de-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-de-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-de-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "43515677cf40096b224a25c041035cf5922e8c7d47875dd9345434949f5fbbec"
+    },
+    {
+      "id": "death-summary-de-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-de-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-de-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-de-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-de-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-de-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-es-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-es-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-es-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-es-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-es-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-es-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-es-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "52ba1849ebc60b1ccd0326d906ded22bd64d16c17651ee6ae841896f1ee01cb0"
+    },
+    {
+      "id": "death-summary-es-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-es-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-es-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-es-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-es-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-es-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-fr-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-fr-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-fr-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-fr-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-fr-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-fr-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-fr-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "dc9445b867bc1a02aa1481a83e34505d15e2fb4312cb340458804e4a7b3ec4fd"
+    },
+    {
+      "id": "death-summary-fr-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-fr-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-fr-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-fr-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-fr-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-fr-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-hi-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-hi-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-hi-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-hi-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-hi-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-hi-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-hi-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "fcde4c4f143ad81eca11974fbd2f5a608527f8149042958f3cdbfa41ca5f45f2"
+    },
+    {
+      "id": "death-summary-hi-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-hi-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-hi-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-hi-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-hi-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-hi-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-ja-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-ja-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-ja-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-ja-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-ja-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-ja-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-ja-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "850495ebcf1711b1c809fd080635e5e7551e72f69bc334a57b0af007c8ada910"
+    },
+    {
+      "id": "death-summary-ja-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-ja-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-ja-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-ja-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-ja-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-ja-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-pt-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-pt-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-pt-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-pt-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-pt-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-pt-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-pt-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "bbf01fffcc7c995f43a3a58d85aba8004103ecb50e7d2dbc55d8084ce7ffb4c5"
+    },
+    {
+      "id": "death-summary-pt-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-pt-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-pt-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-pt-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-pt-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-pt-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-zh-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-zh-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-zh-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-zh-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-zh-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-zh-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-zh-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "9f71b5a9f53c202490a843ebeda720fa267ffb0cfb85cb354cc144dd13a44f74"
+    },
+    {
+      "id": "death-summary-zh-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-zh-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-zh-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-zh-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-zh-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-zh-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    },
+    {
+      "id": "death-summary-simple-apoptosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "afb767cb8d1c13e461f1e2798a81d30235de9f200db4f5e1c81ba36bbefab7d7"
+    },
+    {
+      "id": "death-summary-simple-autophagy",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ce13dbd1b5d84b762c6da292e44806bbaede862f7d96c8cd571517070df8e75"
+    },
+    {
+      "id": "death-summary-simple-necrosis",
+      "available": false,
+      "fallback": true,
+      "sha256": "86c7e823236f6588978efb9ccc63846e71741ac9e44376ab923433615afec75e"
+    },
+    {
+      "id": "death-summary-simple-senescence",
+      "available": false,
+      "fallback": true,
+      "sha256": "09c35e1877d0dd0f3e890357b2f38fbe1bd437b57007f8d1de557061999bae21"
+    },
+    {
+      "id": "death-summary-simple-warburg-effect",
+      "available": false,
+      "fallback": true,
+      "sha256": "0bd0c80b7407bd7628b4c9a0e8bb47079f436174da760565eda1f448563e1043"
+    },
+    {
+      "id": "death-summary-simple-ferroptosis-cell-death",
+      "available": false,
+      "fallback": true,
+      "sha256": "291cc7f5e20faa6166ab7ff1652df0b795d6603956793f5be3388ab010e1d033"
+    },
+    {
+      "id": "death-summary-simple-immunogenic-cell-death",
+      "available": true,
+      "fallback": false,
+      "sha256": "1701f092b8b55f492b5745ac239870b760ca6a2d30a8a0c228dd5b6ce995f4b1"
+    },
+    {
+      "id": "death-summary-simple-ubiquitin-proteasome-system",
+      "available": false,
+      "fallback": true,
+      "sha256": "f0661897af22bba8345a1c349f40dd3e6db4ec780ab9fd9c9f1a6f61b53fd341"
+    },
+    {
+      "id": "death-summary-simple-lipid-metabolism-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "016a54c34604234b4f2d35e7882119dcba7f303eed6c37b2ca964bc570851367"
+    },
+    {
+      "id": "death-summary-simple-er-stress-and-unfolded-protein-response",
+      "available": false,
+      "fallback": true,
+      "sha256": "a9d6dc932f57ee6ceccf821dc8b91118db837b7f5baf90b21ef82df9116306c0"
+    },
+    {
+      "id": "death-summary-simple-nutrient-sensing-ampk",
+      "available": false,
+      "fallback": true,
+      "sha256": "71495ea388e5533ee812e22a51ce3cbe51286597c1b4c1e64da7d84bd2fe6012"
+    },
+    {
+      "id": "death-summary-simple-reactive-oxygen-species",
+      "available": false,
+      "fallback": true,
+      "sha256": "f3f1533f3f1857e5a436d2e1fac84383d46af38d213e40683ff729ec58c39e7e"
+    },
+    {
+      "id": "death-summary-simple-oxidative-phosphorylation",
+      "available": false,
+      "fallback": true,
+      "sha256": "8b6e0d8a23a8801303bc796d4d4cf2ee5100e3fb156703cc6f1a27bc8901e71e"
+    }
+  ]
+}

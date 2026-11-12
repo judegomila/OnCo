@@ -1,0 +1,1029 @@
+{
+  "version": "draft-369-376-chemical-consumers",
+  "state": "Actual temporary integration of data #369 and product #376; neither merged nor deployed. Audit consumer owners, not new canonical graph entities.",
+  "dataHead": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+  "productHead": "d994b257f1c4ad6ddc2681ab1dee20ec01bd0ffe",
+  "records": [
+    {
+      "id": "chemical-observations-sn-38",
+      "kind": "reader-chemical-observations",
+      "name": "SN-38 chemical observations",
+      "canonicalRecordId": "sn-38",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "TRODELVY prescribing information: SN-38, loading and safety",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SN-38"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Hydrolysis of the CL2A linkage releases SN-38 from sacituzumab govitecan.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SN-38"
+          },
+          "context": "Paired ABCG2-expressing and control cell models.",
+          "method": "Cell survival with transporter perturbation and Ko143 inhibition.",
+          "statement": "ABCG2-associated resistance to SN-38 was reversed by inhibition in the reported cell assays.",
+          "evidenceType": "experimental",
+          "limitation": "A cellular resistance experiment does not validate a patient biomarker or a transporter-inhibitor combination.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCG2"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "TRODELVY prescribing information: SN-38, loading and safety",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SN-38"
+          },
+          "conjugate": {
+            "name": "Sacituzumab govitecan"
+          },
+          "context": "The named Sacituzumab govitecan product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes a mean of seven to eight SN-38 molecules per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-dxd",
+      "kind": "reader-chemical-observations",
+      "name": "DXd chemical observations",
+      "canonicalRecordId": "dxd",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "ENHERTU prescribing information: DXd, loading and transporters",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DXd"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Deruxtecan denotes the linker-DXd component; lysosomal processing releases DXd.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DXd (DXd 1 in the cited experiment)"
+          },
+          "context": "Artificial-membrane assay at pH 5.0 and 7.4.",
+          "method": "Parallel artificial membrane permeability assay, four-hour incubation.",
+          "statement": "DXd 1 had higher measured permeability than the tested DXd 2 and Lys-SMCC-DM1 species.",
+          "evidenceType": "experimental",
+          "limitation": "The comparison concerns these exact chemicals and assay conditions, rather than every exatecan derivative.",
+          "property": "membrane-access"
+        },
+        {
+          "sources": [
+            {
+              "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DXd released from DS-8201a"
+          },
+          "context": "Mixed HER2-positive/negative cell cultures and local versus distant mouse tumour controls.",
+          "method": "Co-culture survival and xenograft experiments.",
+          "statement": "Neighbouring target-negative cells were affected in the tested mixed models; a separate distant target-negative tumour was not.",
+          "evidenceType": "experimental",
+          "limitation": "Local bystander activity does not establish a clinical explanation for all HER2-low benefit or absence of systemic toxicity.",
+          "property": "bystander-killing"
+        },
+        {
+          "sources": [
+            {
+              "label": "ENHERTU prescribing information: DXd, loading and transporters",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DXd"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The label lists DXd as a substrate of P-gp, BCRP, MRP1, OATP1B1, OATP1B3 and MATE2-K.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1",
+            "ABCG2",
+            "ABCC1",
+            "OATP1B1",
+            "OATP1B3",
+            "MATE2-K"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "ENHERTU prescribing information: DXd, loading and transporters",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Deruxtecan linker-DXd component"
+          },
+          "conjugate": {
+            "name": "Trastuzumab deruxtecan"
+          },
+          "context": "The named Trastuzumab deruxtecan product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately eight attached components per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        },
+        {
+          "sources": [
+            {
+              "label": "DATROWAY prescribing information: DXd and mean loading",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Deruxtecan linker-DXd component"
+          },
+          "conjugate": {
+            "name": "Datopotamab deruxtecan"
+          },
+          "context": "The named Datopotamab deruxtecan product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately four attached components per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-t030",
+      "kind": "reader-chemical-observations",
+      "name": "T030 (KL610023) chemical observations",
+      "canonicalRecordId": "t030",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "SKB264 structure, TOP1 assay and animal pharmacokinetics (2023)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36620535/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "KL610023 (T030)"
+          },
+          "context": "SKB264 composition and animal pharmacokinetic study.",
+          "method": "Structure characterisation, reversed-phase chromatography and LC-MS/MS.",
+          "statement": "The paper distinguishes the KL610023 payload from the TL033 drug-linker intermediate and the complete SKB264 ADC.",
+          "evidenceType": "experimental",
+          "limitation": "The cited study does not establish lower ABCB1 or ABCG2 susceptibility than SN-38 in a specified transporter assay.",
+          "property": "chemical-identity"
+        },
+        {
+          "sources": [
+            {
+              "label": "SKB264 structure, TOP1 assay and animal pharmacokinetics (2023)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36620535/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "KL610023"
+          },
+          "conjugate": {
+            "name": "SKB264"
+          },
+          "context": "The named SKB264 product or preparation described by the source.",
+          "method": "Reversed-phase chromatography of the preclinical preparation.",
+          "statement": "Approximately 7.4 payload molecules per antibody were reported for the tested preparation.",
+          "evidenceType": "experimental",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-mmae",
+      "kind": "reader-chemical-observations",
+      "name": "MMAE chemical observations",
+      "canonicalRecordId": "mmae",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "ADCETRIS prescribing information: MMAE, loading and safety",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "MMAE"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Proteolytic processing of brentuximab vedotin releases MMAE.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "MMAE"
+          },
+          "context": "ABCB1-expressing and control cell lines.",
+          "method": "Paired-cell cytotoxicity and transporter-inhibitor experiments.",
+          "statement": "ABCB1 expression conferred resistance in the tested cell systems.",
+          "evidenceType": "experimental",
+          "limitation": "Substrate behaviour in cells is separate from a validated clinical cross-resistance rule.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "Li et al.: intracellular MMAE release and bystander models (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26921341/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "MMAE released from the tested ADC"
+          },
+          "context": "Target-positive/negative mixed cell and tumour models.",
+          "method": "Intracellular release and bystander cytotoxicity experiments.",
+          "statement": "The study links intracellular MMAE release to bystander killing in its specified models.",
+          "evidenceType": "experimental",
+          "limitation": "Antibody delivery, processing, exposure and recipient-cell sensitivity also matter.",
+          "property": "bystander-killing"
+        },
+        {
+          "sources": [
+            {
+              "label": "ADCETRIS prescribing information: MMAE, loading and safety",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "MMAE-linked component"
+          },
+          "conjugate": {
+            "name": "Brentuximab vedotin"
+          },
+          "context": "The named Brentuximab vedotin product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately four MMAE molecules per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-mmaf",
+      "kind": "reader-chemical-observations",
+      "name": "MMAF chemical observations",
+      "canonicalRecordId": "mmaf",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "Doronina et al.: MMAF conjugates and released catabolites (2006)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16417259/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Free MMAF"
+          },
+          "context": "Comparison with related auristatins in cell assays.",
+          "method": "Free-compound cytotoxicity and conjugate catabolism experiments.",
+          "statement": "The authors inferred reduced free-compound cell access; this is not proof of zero permeability across every membrane.",
+          "evidenceType": "experimental",
+          "property": "membrane-access"
+        },
+        {
+          "sources": [
+            {
+              "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "cys-mcMMAF"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Antibody processing releases the cysteine-containing mcMMAF species, rather than simply free MMAF.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Free MMAF"
+          },
+          "context": "HEK293 cells expressing ABCB1, ABCG2 or ABCC1.",
+          "method": "Three-day cytotoxicity comparison with vector-control cells.",
+          "statement": "These three transporters did not confer resistance to free MMAF in the confirmatory assays.",
+          "evidenceType": "experimental",
+          "limitation": "This is not a transporter result for cys-mcMMAF.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1",
+            "ABCG2",
+            "ABCC1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "cys-mcMMAF"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The label lists OATP1B1, OATP1B3, MRP1, MRP2, MRP3 and BSEP substrate behaviour and possible P-gp substrate behaviour.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "OATP1B1",
+            "OATP1B3",
+            "ABCC1",
+            "ABCC2",
+            "ABCC3",
+            "BSEP",
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "BLENREP prescribing information: mcMMAF and cys-mcMMAF",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aef7c34c-fef8-407c-99c0-a68aded53c60"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Mafodotin (mcMMAF) component"
+          },
+          "conjugate": {
+            "name": "Belantamab mafodotin"
+          },
+          "context": "The named Belantamab mafodotin product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately four mafodotin components per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-dm1",
+      "kind": "reader-chemical-observations",
+      "name": "DM1 chemical observations",
+      "canonicalRecordId": "dm1",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM1"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The label distinguishes these plasma analytes; emtansine denotes the MCC-DM1 component.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "chemical-identity"
+        },
+        {
+          "sources": [
+            {
+              "label": "Ogitani et al.: released species, membrane assays and local bystander models (2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Lys-SMCC-DM1"
+          },
+          "context": "Artificial-membrane comparison with two specified DXd derivatives.",
+          "method": "Parallel artificial membrane permeability assay at pH 5.0 and 7.4.",
+          "statement": "The charged catabolite had low measured permeability under these conditions.",
+          "evidenceType": "experimental",
+          "limitation": "This is not a measurement of free DM1 and does not establish a required uniform HER2 level in patients.",
+          "property": "membrane-access"
+        },
+        {
+          "sources": [
+            {
+              "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Free DM1"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "DM1 is reported as a P-gp substrate.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "KADCYLA prescribing information: description, mechanism and pharmacology",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM1"
+          },
+          "conjugate": {
+            "name": "Trastuzumab emtansine"
+          },
+          "context": "The named Trastuzumab emtansine product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes a mean of 3.5 DM1 molecules per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-dm4",
+      "kind": "reader-chemical-observations",
+      "name": "DM4 chemical observations",
+      "canonicalRecordId": "dm4",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM4"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The mirvetuximab soravtansine label distinguishes DM4 from its S-methyl metabolite.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "chemical-identity"
+        },
+        {
+          "sources": [
+            {
+              "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Unconjugated DM4"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Unconjugated DM4 is reported as a P-gp substrate.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "S-methyl-DM4"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "S-methyl-DM4 is reported as a P-gp substrate.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "Kellogg et al.: SPDB-DM4 catabolites in cell and xenograft models (2011)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21425776/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Catabolites of the tested SPDB-DM4 conjugate"
+          },
+          "context": "huC242 conjugate cell and mouse xenograft experiments.",
+          "method": "Catabolite characterisation and preclinical activity comparison.",
+          "statement": "The disulfide-linked construct generated membrane-accessible metabolites and bystander effects in the tested models.",
+          "evidenceType": "experimental",
+          "limitation": "SPDB is not identical to the sulfo-SPDB linker in mirvetuximab; do not treat this as a matched clinical comparison with DM1.",
+          "property": "bystander-killing"
+        },
+        {
+          "sources": [
+            {
+              "label": "ELAHERE prescribing information: DM4, sulfo-SPDB and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=00c424b5-6ccd-48ab-9e88-1986451120e2"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM4"
+          },
+          "conjugate": {
+            "name": "Mirvetuximab soravtansine"
+          },
+          "context": "The named Mirvetuximab soravtansine product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately 3.4 DM4 molecules per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-pbd-sg3199",
+      "kind": "reader-chemical-observations",
+      "name": "SG3199 (PBD dimer) chemical observations",
+      "canonicalRecordId": "pbd-sg3199",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SG3199"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Tesirine (SG3249) is the drug-linker component; processing releases the SG3199 PBD dimer.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "SG3199 DNA-crosslinking and resistance models (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29992976/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SG3199"
+          },
+          "context": "Paired multidrug-resistant and sensitive human cell lines.",
+          "method": "Cell-survival comparison and verapamil reversal.",
+          "statement": "The 2018 study found transporter-associated resistance despite retained cytotoxicity in these models.",
+          "evidenceType": "experimental",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SG3199"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The label reports P-gp substrate behaviour and no BCRP substrate behaviour.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1",
+            "ABCG2"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SG3199"
+          },
+          "context": "HEK293 cells expressing ABCB1, ABCG2 or ABCC1.",
+          "method": "Confirmatory three-day cell-survival assays.",
+          "statement": "The 2026 study reports resistance with each of these transporters.",
+          "evidenceType": "experimental",
+          "limitation": "The ABCG2 finding differs from the BCRP statement in the product label. Preserve both contexts; neither establishes a clinical selection rule.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1",
+            "ABCG2",
+            "ABCC1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Unconjugated SG3199"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "The label reports no inhibition of the listed transporters at clinically relevant unconjugated concentrations; inhibition is a different endpoint from being a substrate.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "transporter-inhibition",
+          "transporters": [
+            "ABCB1",
+            "ABCG2"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "ZYNLONTA prescribing information: SG3199, SG3249 and transporter statements",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=af54af12-3edf-4301-8bc5-0446bc813c1d"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SG3249 (tesirine)"
+          },
+          "conjugate": {
+            "name": "Loncastuximab tesirine"
+          },
+          "context": "The named Loncastuximab tesirine product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes approximately 2.3 SG3249 components per antibody.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-calicheamicin",
+      "kind": "reader-chemical-observations",
+      "name": "Calicheamicin-family payloads chemical observations",
+      "canonicalRecordId": "calicheamicin",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "MYLOTARG prescribing information: modified calicheamicin and loading",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "N-acetyl-gamma-calicheamicin dimethylhydrazide"
+          },
+          "context": "Statement in the named product prescribing information.",
+          "method": "Label statement; a detailed experimental protocol is not provided here.",
+          "statement": "Gemtuzumab ozogamicin hydrolytic processing releases a modified calicheamicin species.",
+          "evidenceType": "label-stated",
+          "limitation": "This statement does not establish a patient selection threshold or all-species property.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "Paired-cell transporter studies of specified ADC payloads (2026)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41668804/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Calicheamicin gamma1"
+          },
+          "context": "ABCB1-expressing and vector-control human cell lines.",
+          "method": "Paired-cell survival assays with transporter inhibition.",
+          "statement": "ABCB1 conferred resistance to the tested free compound.",
+          "evidenceType": "experimental",
+          "limitation": "Calicheamicin gamma1 is not chemically identical to the modified species released from an ozogamicin ADC.",
+          "property": "transporter-substrate",
+          "transporters": [
+            "ABCB1"
+          ]
+        },
+        {
+          "sources": [
+            {
+              "label": "MYLOTARG prescribing information: modified calicheamicin and loading",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=32fd2bb2-1cfa-4250-feb8-d7956c794e05"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "N-acetyl-gamma-calicheamicin component"
+          },
+          "conjugate": {
+            "name": "Gemtuzumab ozogamicin"
+          },
+          "context": "The named Gemtuzumab ozogamicin product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes an average of two to three components per antibody, with a predominantly zero-to-six distribution.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        },
+        {
+          "sources": [
+            {
+              "label": "BESPONSA prescribing information: modified calicheamicin and loading",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc7014b1-c775-411d-b374-8113248b4077"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "N-acetyl-gamma-calicheamicin component"
+          },
+          "conjugate": {
+            "name": "Inotuzumab ozogamicin"
+          },
+          "context": "The named Inotuzumab ozogamicin product or preparation described by the source.",
+          "method": "Description in the named product prescribing information.",
+          "statement": "The label describes an average of six components per antibody, with a two-to-eight distribution.",
+          "evidenceType": "label-stated",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-duocarmycin",
+      "kind": "reader-chemical-observations",
+      "name": "Duocarmycin-family payloads chemical observations",
+      "canonicalRecordId": "duocarmycin",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "Elgersma et al.: duocarmycin linker-drug design and SYD985 composition (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25635711/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "SYD985 duocarmycin linker-drug"
+          },
+          "context": "Preclinical chemical design and trastuzumab-conjugate characterisation.",
+          "method": "Synthesis, cell studies, chromatographic fractionation and animal studies.",
+          "statement": "The design distinguishes the inactive seco prodrug, active duocarmycin and attached linker-drug.",
+          "evidenceType": "experimental",
+          "limitation": "A property measured for one duocarmycin analogue is not a family-wide result.",
+          "property": "chemical-identity"
+        },
+        {
+          "sources": [
+            {
+              "label": "Elgersma et al.: duocarmycin linker-drug design and SYD985 composition (2015)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25635711/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "Duocarmycin linker-drug"
+          },
+          "conjugate": {
+            "name": "SYD985"
+          },
+          "context": "The named SYD985 product or preparation described by the source.",
+          "method": "Chemical characterisation and hydrophobic-interaction chromatographic fractionation.",
+          "statement": "The fractionated preparation had a mean loading of about 2.8 and predominantly DAR2 and DAR4 species.",
+          "evidenceType": "experimental",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-af-hpa",
+      "kind": "reader-chemical-observations",
+      "name": "AF-HPA and auristatin F chemical observations",
+      "canonicalRecordId": "af-hpa",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "AF-HPA"
+          },
+          "context": "Dolaflexin preclinical conjugate and metabolite studies.",
+          "method": "Cell and animal characterisation.",
+          "statement": "Membrane-accessible AF-HPA can convert to the less membrane-accessible but active auristatin F species.",
+          "evidenceType": "experimental",
+          "limitation": "Auristatin F is distinct from MMAF; the conversion does not establish complete confinement or human safety.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "AF-HPA"
+          },
+          "conjugate": {
+            "name": "XMT-1536"
+          },
+          "context": "The named XMT-1536 product or preparation described by the source.",
+          "method": "Composition reported for the preclinical conjugate preparation.",
+          "statement": "The preclinical report describes approximately 10 to 15 AF-HPA molecules per antibody; no fixed mean is inferred from that range.",
+          "evidenceType": "experimental",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    },
+    {
+      "id": "chemical-observations-dm21-c-maytansinoid-system",
+      "kind": "reader-chemical-observations",
+      "name": "DM21-C peptide-linked maytansinoid system chemical observations",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "chemicalObservations": [
+        {
+          "sources": [
+            {
+              "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM21-C linker-payload system"
+          },
+          "context": "IMGC936 preclinical design.",
+          "method": "Chemical design, cell assays, xenografts and nonhuman primate studies.",
+          "statement": "DM21-C is used with a cleavable tripeptide and site-specific conjugation in IMGC936.",
+          "evidenceType": "experimental",
+          "limitation": "The preclinical report does not establish patient benefit or a universal property of all maytansinoids.",
+          "property": "chemical-identity"
+        },
+        {
+          "sources": [
+            {
+              "label": "AACR 2019 abstract 538: DM21-C and DM51",
+              "url": "https://doi.org/10.1158/1538-7445.AM2019-538"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM51"
+          },
+          "context": "Conjugates described in AACR 2019 abstract 538. This is conference evidence, not a patient outcome report.",
+          "method": "LC-MS identification of a major catabolite in the reported conjugate experiments.",
+          "statement": "The abstract identifies DM51 as a major released catabolite of its DM21-C conjugates.",
+          "evidenceType": "conference-abstract",
+          "limitation": "DM51 is not an alias for the attached DM21-C system. The Elicit DOI spelling resolved to a different canonical DOI in Crossref; that discrepancy is retained in the source receipt.",
+          "property": "release"
+        },
+        {
+          "sources": [
+            {
+              "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/"
+            }
+          ],
+          "checkedOn": "2026-11-09",
+          "species": {
+            "name": "DM21-C maytansinoid system"
+          },
+          "conjugate": {
+            "name": "IMGC936"
+          },
+          "context": "The named IMGC936 product or preparation described by the source.",
+          "method": "Design and characterisation of the preclinical site-specific construct.",
+          "statement": "The preclinical report describes loading of approximately two.",
+          "evidenceType": "experimental",
+          "limitation": "This report does not assign a loading constant to every construct carrying this cargo or infer a patient dose.",
+          "property": "conjugate-loading"
+        }
+      ]
+    }
+  ],
+  "source": "Actual graph, matched SSR, build-api.ts, build-context.ts and build-openapi.ts; source overlays restored by byte hash."
+}

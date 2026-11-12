@@ -1,0 +1,272 @@
+[
+  {
+    "fileName": "additional-capture-receipts.json",
+    "sha256": "42dd79a60a15a271525af390b902c60a853bd4d8fc4ea01e258500b6f4382d92",
+    "bytes": 1124,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-approval-announcement.html",
+    "sha256": "93b112e434154ba1f328351434ef6185acb12c933bec0ee486ee266fc8ffe588",
+    "bytes": 38233,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-approval-announcement.txt",
+    "sha256": "13b321c71f80c74d6ad8897c27aee881894c01df226e5846583c1751e0c0f433",
+    "bytes": 10693,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-label.pdf",
+    "sha256": "01e10280f9c1f1709a13a97f461089b1c270c4003df6d38c4568d1ddefccb412",
+    "bytes": 358331,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-label.txt",
+    "sha256": "4fa3fbfeba9020092ecaaebba72615174466beeaf1a4467afe8c3c8861a41ed1",
+    "bytes": 52967,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-product.html",
+    "sha256": "acdb5e5116195e7ef78774385c720328d0baac0f337f3912f8d3930010d8fbb8",
+    "bytes": 33348,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "amtagvi-product.txt",
+    "sha256": "f9e40553a5e0369309ff1047b10834f27cd48cad4889da94998a66ae18624293",
+    "bytes": 1317,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "blinatumomab-approval.html",
+    "sha256": "30ad9b265dbce82d3a76dced489584be7e26c2e8bd891f6bf1ef23f9fcca3b83",
+    "bytes": 38412,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "blinatumomab-approval.txt",
+    "sha256": "c3f14dfdf1bfdec53df528649cd042f9d869a55698c5875d3a8a9e227fd4967c",
+    "bytes": 5168,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "capture-receipts.json",
+    "sha256": "ee146cf88c85dbf11a0467e9c0a3fd084a9320b5328458fd2b0a98863eb51447",
+    "bytes": 1013,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "dellphi301-design.json",
+    "sha256": "ccb65a949f2dc52c901c64864e1db33c0e9a92530a4aad0502b3214f4c09cf93",
+    "bytes": 317,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "engager-additional-primary.json",
+    "sha256": "db871c20ac9e2b94cf43a3e5eaefdb36009787627abee5808280a1fd57fefcaa",
+    "bytes": 23027,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "engager-capture-receipts.json",
+    "sha256": "217df069c457e6629286647abf53f0622612fa6cd3eaba98e6a8280f0ba42167",
+    "bytes": 614,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "engager-format-access.json",
+    "sha256": "1eec86483215326994b105f4a858c9cd9140c736aab04d9b076365c38307c741",
+    "bytes": 470,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "europepmc.json",
+    "sha256": "1b6d12884d128fb4199dec9404b73e0b2c7e006d3b6f94f11277c085457f0eff",
+    "bytes": 70347,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "fda-bispecific-guidance.pdf",
+    "sha256": "f1b8c1dbce5d7f898af635e55c97cb02f0fc4a9247afa7eca2cf00049c267b44",
+    "bytes": 85991,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "fda-bispecific-guidance.txt",
+    "sha256": "a1ccf6dd5e1e0413d2318f9db266d48ffb16b6c46982ecb5d326c46c6c80f0db",
+    "bytes": 25106,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-fda-correspondence.pdf",
+    "sha256": "05201bb03a45fa861ce04df880b1e91384cd4b98f4e2929011d34c6a0c05a7c7",
+    "bytes": 4537730,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-fda-correspondence.txt",
+    "sha256": "37576b32e36feccea01c9f9c640538f1432305d249c7c1b85c5331e50739e981",
+    "bytes": 211455,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-label-receipt.json",
+    "sha256": "f3fdf77919ced430994521904d76cac1aa80fec44e8186236840d350bd05d1e7",
+    "bytes": 259,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-label.html",
+    "sha256": "ddde09d0b13d8a983fcdd0c0a78938a2a4badf20a9836683f947f01574d655ff",
+    "bytes": 282209,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-label.txt",
+    "sha256": "114bc07fb5342d091c116a93d3e3b4024e610e8b4b805ed8b27963d005a5dd7d",
+    "bytes": 91589,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "imdelltra-spl-search.json",
+    "sha256": "9ae4dfaaf832bc02df5cc3a2b7dcf3cbc297640eda9106cc4d5bc3a235b9803d",
+    "bytes": 528,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "kimmtrak-label-receipt.json",
+    "sha256": "8768c7c0c95ff29a354e85333541373761ebc8d157f3e0c72b2bdcd1db7e1da9",
+    "bytes": 398,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "kimmtrak-label.html",
+    "sha256": "463010476e4c5781f540ed1c8a4ab38b473561d58dc4e9e339ac6a31f1813312",
+    "bytes": 200812,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "kimmtrak-label.txt",
+    "sha256": "7623e89a0855530ca88cef05a0906085289c91ad15f4315e22d0eafbb2376cbd",
+    "bytes": 48579,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "kimmtrak-spl-search.json",
+    "sha256": "72880757b766a554e4520d1379be4cc2c370b53cf642e419cb1f25eb457d2ecb",
+    "bytes": 559,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "removab-ema-receipt.json",
+    "sha256": "78a9f90c359dc6ab24ba8019e858be4ce4f396aabf48187dcbe9e45e9b402b9a",
+    "bytes": 216,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "removab-ema.html",
+    "sha256": "538c0337f0c32e6188726272c48a0842bd197a31fcdfb476d86a748445cb0092",
+    "bytes": 170611,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "removab-ema.txt",
+    "sha256": "be8f5645244c213bdb639973aa1ce82c865b3730746da83adf54d14f5b140962",
+    "bytes": 21241,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "rendered-card-papers.json",
+    "sha256": "97015d9bf7ac2de8c2381665c241a357feb07fee850686da174ae3837fd51233",
+    "bytes": 103140,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "supplement-primary.json",
+    "sha256": "6cfcf4db7f52a0321360611595576ffb506e501b4bc8f8d424ba91c7d55e639a",
+    "bytes": 70538,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tarlatamab-approval.html",
+    "sha256": "672daf81078c537fa79a4a11fd51b64ca0564560c4873bff150140dd04e11f7a",
+    "bytes": 37916,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tarlatamab-approval.txt",
+    "sha256": "719663b9582ac7a982862175556f99ec73fda987818e46b304851154b5f88029",
+    "bytes": 4080,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tcr-mispairing.json",
+    "sha256": "3e39580b26931b99e27764debcb2b824491d85554625484777dc3901e36aac89",
+    "bytes": 6485,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tcr-structure.json",
+    "sha256": "3cbd1aa0ef35e7c209c712cc06babe9eb9b5881cb35b4fcb46998fb147e6a18b",
+    "bytes": 13175,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tcr-til-primary.json",
+    "sha256": "c82e108efd1e0a4f473b5af77d4fc912a47d52213efc5356979d4b4621f2dcea",
+    "bytes": 199984,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tecelra-2026-label.pdf",
+    "sha256": "405eb1e2c69d4484c8032dfa065ada915a70b4652e286df0f52ec30a28421e34",
+    "bytes": 409030,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tecelra-2026-label.txt",
+    "sha256": "75ba8ba4a40fc72e76196828f997342200b11bd95f7b5cf736dfa519964cb85e",
+    "bytes": 50275,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tecelra-2026-letter.pdf",
+    "sha256": "10b6b9cd5cf2a8fea7f810745cda70dc7b37bff22ac0ea8fef43f96da7f503ea",
+    "bytes": 429144,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tecelra-2026-letter.txt",
+    "sha256": "87f68bc5b63142dffdf5dec831a631f6fd3c2073638ffa8457aeaaea421b9987",
+    "bytes": 11664,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tecelra-product.html",
+    "sha256": "b094307b3ac351a52cd10ba0bdbb4a72cf786454f17d28011579189cddda370e",
+    "bytes": 31695,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "teclistamab-approval.html",
+    "sha256": "874c8c95d131ca64b498acd9159c11273e73c1a79a7f7326c6a6a8a1104e6785",
+    "bytes": 37555,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "teclistamab-approval.txt",
+    "sha256": "8c727cfb9cabf0bb28d892c4958a65474e180ce473557cb35fe8319d44d61e67",
+    "bytes": 4734,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  },
+  {
+    "fileName": "tilvance-registry.json",
+    "sha256": "557c0955ec255efe71ee508fa0841bbae4e8317bd9b3b4594c9158752302cbdc",
+    "bytes": 3937,
+    "retention": "Exact capture/reading file retained outside public checkout; no abstract or manuscript body republished"
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-light.svg",
+    "sha256": "2c7c59713e695634100e4d529fbea2460c70af6a4a519deb02ee29b440578808",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-anergy-vs-exhaustion-comparison-history-v1-light.svg.png",
+    "renderSha256": "dc0f21c4751a20105cbc328171340a2d41f2fef8516aa6ed6c7200aaa897d410",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "anergy-vs-exhaustion",
+        "pageSha256": "30112eb77234c36f6b007afa433537831dde3be942bf90ba24732ba7cf5d31ed",
+        "captionContextSha256": "05881757e9b5fc569bc0234ede3a6ee33ecca8a95da7feaf9e678f1b8f07521f"
+      }
+    ],
+    "lesson": "Separate A and B history cards; C remains unresolved. No A-to-B arrow or classifier.",
+    "requirementId": "comparison-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/anergy-vs-exhaustion-comparison-history-v1-light.svg",
+    "sha256": "2c7c59713e695634100e4d529fbea2460c70af6a4a519deb02ee29b440578808",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-anergy-vs-exhaustion-comparison-history-v1-light.svg.png",
+    "renderSha256": "dc0f21c4751a20105cbc328171340a2d41f2fef8516aa6ed6c7200aaa897d410",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "anergy-vs-exhaustion",
+        "pageSha256": "f3dbd810663553089ec0ea5b9e5742f42bc578eda1b0e3248c58a465adff63d4",
+        "captionContextSha256": "05881757e9b5fc569bc0234ede3a6ee33ecca8a95da7feaf9e678f1b8f07521f"
+      }
+    ],
+    "lesson": "Separate A and B history cards; C remains unresolved. No A-to-B arrow or classifier.",
+    "requirementId": "comparison-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+    "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-hla-class-i-contacts-v2-light.svg.png",
+    "renderSha256": "7c4af6c20f21d46eba964c4b4e4af3902c6797fefaf005bd06f6ae4061c6623d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "cd4-vs-cd8",
+        "pageSha256": "be360f1503d091b3596aef47d6863a54a469cb4d3062520f3013236677ad8821",
+        "captionContextSha256": "e8dab71adca15ddd6abe2970cc24283f0160621d98c3c0ca8b409f758341b713"
+      }
+    ],
+    "lesson": "TCR meets peptide/HLA; CD8 has a separate contact; B2M has no membrane anchor. Shape does not imply function.",
+    "requirementId": "coreceptor-geometry",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+    "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-hla-class-ii-contacts-v2-light.svg.png",
+    "renderSha256": "3d254102c9acabc107721e29864fe24eafe6f2b361138a0471ee819d9f74ebab",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "cd4-vs-cd8",
+        "pageSha256": "be360f1503d091b3596aef47d6863a54a469cb4d3062520f3013236677ad8821",
+        "captionContextSha256": "8ead450ec013c85b1b72c11142520626804f1062680ce578e19645671ea05c9c"
+      }
+    ],
+    "lesson": "Both HLA chains cross membrane; CD4 contacts lower HLA separately from TCR. No helper/killer assignment.",
+    "requirementId": "coreceptor-geometry",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+    "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-hla-class-i-contacts-v2-light.svg.png",
+    "renderSha256": "7c4af6c20f21d46eba964c4b4e4af3902c6797fefaf005bd06f6ae4061c6623d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "cd4-vs-cd8",
+        "pageSha256": "b85a4b6913ba883f3b32d895b0a8f81904cc692639a49f86cb639e76e616c60d",
+        "captionContextSha256": "e8dab71adca15ddd6abe2970cc24283f0160621d98c3c0ca8b409f758341b713"
+      }
+    ],
+    "lesson": "TCR meets peptide/HLA; CD8 has a separate contact; B2M has no membrane anchor. Shape does not imply function.",
+    "requirementId": "coreceptor-geometry",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+    "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-hla-class-ii-contacts-v2-light.svg.png",
+    "renderSha256": "3d254102c9acabc107721e29864fe24eafe6f2b361138a0471ee819d9f74ebab",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "cd4-vs-cd8",
+        "pageSha256": "b85a4b6913ba883f3b32d895b0a8f81904cc692639a49f86cb639e76e616c60d",
+        "captionContextSha256": "8ead450ec013c85b1b72c11142520626804f1062680ce578e19645671ea05c9c"
+      }
+    ],
+    "lesson": "Both HLA chains cross membrane; CD4 contacts lower HLA separately from TCR. No helper/killer assignment.",
+    "requirementId": "coreceptor-geometry",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+    "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-same-antigen-different-supporting-contacts-v1-light.svg.png",
+    "renderSha256": "74460169fa98848e78f2ce72aec664f60d4f58c8601b38fc11a87c86203122d8",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "costimulation",
+        "pageSha256": "fbd39b10d0e62cd10ffcc5ed2eefad27caf055fb4a7d324ae30209bf86582d3d",
+        "captionContextSha256": "eb0111e73575d29103805bc7790480513df4370cca7e2ec27084e13fc3476dc5"
+      }
+    ],
+    "lesson": "Identical recognition in A/B despite different CD28 support; CTLA-4 removes shared ligands. Response remains measured.",
+    "requirementId": "costimulation-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/same-antigen-different-supporting-contacts-v1-light.svg",
+    "sha256": "75aa5ca482736385e36ae46ef6800b368db5e8b4921e48f3f0b12db6c873b5b3",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-same-antigen-different-supporting-contacts-v1-light.svg.png",
+    "renderSha256": "74460169fa98848e78f2ce72aec664f60d4f58c8601b38fc11a87c86203122d8",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "costimulation",
+        "pageSha256": "14318e1e0648773e1a1d49ed32ebd4cc64851f3d50ed2412e5b9db92a0218302",
+        "captionContextSha256": "eb0111e73575d29103805bc7790480513df4370cca7e2ec27084e13fc3476dc5"
+      }
+    ],
+    "lesson": "Identical recognition in A/B despite different CD28 support; CTLA-4 removes shared ligands. Response remains measured.",
+    "requirementId": "costimulation-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+    "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-encoded-targets-and-detected-specificities-v1-light.svg.png",
+    "renderSha256": "8e981bca3f95de0022fcda3c7fcee162af588feff41c99a366762a24c67a7d2d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "epitope-spreading",
+        "pageSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+        "captionContextSha256": "d67c777b52c3df268a8ef3967479bd1df1157ec013c3a403fd34199f2d2dca55"
+      }
+    ],
+    "lesson": "Encoded A/B remains fixed; C changes from ND to detected. More A is expansion; icons are qualitative.",
+    "requirementId": "spreading-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/encoded-targets-and-detected-specificities-v1-light.svg",
+    "sha256": "2b2220af3c67f57526760688bac30f84862b25bf31d3b4c5d401d2118e8a9529",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-encoded-targets-and-detected-specificities-v1-light.svg.png",
+    "renderSha256": "8e981bca3f95de0022fcda3c7fcee162af588feff41c99a366762a24c67a7d2d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "epitope-spreading",
+        "pageSha256": "a0eb6d8fcd3a86ba9a16b760596c3eeab62df535f831f75413ad4b0eae75d9cc",
+        "captionContextSha256": "d67c777b52c3df268a8ef3967479bd1df1157ec013c3a403fd34199f2d2dca55"
+      }
+    ],
+    "lesson": "Encoded A/B remains fixed; C changes from ND to detected. More A is expansion; icons are qualitative.",
+    "requirementId": "spreading-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+    "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-encoded-count-and-matched-per-target-response-v1-light.svg.png",
+    "renderSha256": "d46ecdf7868023e91352ac4bfa94ffb1f0304396c8e181244c8f284099d89e8c",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "immunodominance",
+        "pageSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+        "captionContextSha256": "f99bf06d0fd273901acce5bbe2d454399a89bfea8da9c49ccd134b3fca4d9dd2"
+      }
+    ],
+    "lesson": "Raw-minus-background equations 45-5=40, 11-5=6, 5-5=0 retain denominator 200,000; zero is not absent display.",
+    "requirementId": "dominance-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/encoded-count-and-matched-per-target-response-v1-light.svg",
+    "sha256": "dd8febf82e8fe6032c430dbe9608f595cd802bd15e85d0ee96b5dbe3a40c1783",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-encoded-count-and-matched-per-target-response-v1-light.svg.png",
+    "renderSha256": "d46ecdf7868023e91352ac4bfa94ffb1f0304396c8e181244c8f284099d89e8c",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "immunodominance",
+        "pageSha256": "1ef05685928e0402eb760469394bb85ee3a1f0558efbbe444d28789aebbeafae",
+        "captionContextSha256": "f99bf06d0fd273901acce5bbe2d454399a89bfea8da9c49ccd134b3fca4d9dd2"
+      }
+    ],
+    "lesson": "Raw-minus-background equations 45-5=40, 11-5=6, 5-5=0 retain denominator 200,000; zero is not absent display.",
+    "requirementId": "dominance-example",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+    "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-priming-contact-context-and-distinct-outcomes-v1-light.svg.png",
+    "renderSha256": "e8e3db7ebf03ee2c3d64946b2cfe294706b06884727eb0591cf9b754f073ee36",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-priming-three-signals",
+        "pageSha256": "406f2b855c34ad24b0a5dbf5fcb8d230e6e7151b41715f4bcf43eb2c1379b929",
+        "captionContextSha256": "40debd64562505e39d30806ad9e1b04957375bdc7e4cdd2fa078cc51898fc9b9"
+      }
+    ],
+    "lesson": "One encounter locates recognition, CD28 support and cytokines; division is distinct from cytolysis, access and benefit.",
+    "requirementId": "priming-endpoints",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/priming-contact-context-and-distinct-outcomes-v1-light.svg",
+    "sha256": "24b3cc082f75ac4b5007d93cf770b2d50f054d2b17569b256154cb4d52fcaf4f",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-priming-contact-context-and-distinct-outcomes-v1-light.svg.png",
+    "renderSha256": "e8e3db7ebf03ee2c3d64946b2cfe294706b06884727eb0591cf9b754f073ee36",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-priming-three-signals",
+        "pageSha256": "53e91c73ec8432d9318bd26b3edcd671298e95f14cc0503b417c8815df1f87e8",
+        "captionContextSha256": "40debd64562505e39d30806ad9e1b04957375bdc7e4cdd2fa078cc51898fc9b9"
+      }
+    ],
+    "lesson": "One encounter locates recognition, CD28 support and cytokines; division is distinct from cytolysis, access and benefit.",
+    "requirementId": "priming-endpoints",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+    "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-tcr-paired-chains-and-cd3-contact-v1-light.svg.png",
+    "renderSha256": "2ddff8773c0d39ed16efb43ff5b1bf5d409c6194807934194534d2e8ca835772",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-receptor",
+        "pageSha256": "90f7682ce546992f9f2429765acd952d02c6bd34e5cf08dd24a69ac29331340c",
+        "captionContextSha256": "62c638223b85241445cbb05f9e4e73db135947f9b25872aaa871704cf693a6f4"
+      }
+    ],
+    "lesson": "Paired alpha/beta variable and constant domains, CDR3/contact loops and separate CD3 partners face peptide in HLA; contact is not safe killing. Both themes reviewed.",
+    "requirementId": "tcr-structure",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+    "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-tcr-paired-chains-and-cd3-contact-v1-dark.svg.png",
+    "renderSha256": "36c7d56ef92d8cbc8e8b479807116523f0dd55e087357f1494686d169338d08e",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-receptor",
+        "pageSha256": "90f7682ce546992f9f2429765acd952d02c6bd34e5cf08dd24a69ac29331340c",
+        "captionContextSha256": "62c638223b85241445cbb05f9e4e73db135947f9b25872aaa871704cf693a6f4"
+      }
+    ],
+    "lesson": "Paired alpha/beta variable and constant domains, CDR3/contact loops and separate CD3 partners face peptide in HLA; contact is not safe killing. Both themes reviewed.",
+    "requirementId": "tcr-structure",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-light.svg",
+    "sha256": "981359a9d381144cb49dcd164f44877e28add2fd14b6d6585656226d201bdee0",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-tcr-paired-chains-and-cd3-contact-v1-light.svg.png",
+    "renderSha256": "2ddff8773c0d39ed16efb43ff5b1bf5d409c6194807934194534d2e8ca835772",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-receptor",
+        "pageSha256": "bc5a8f0d4fcea7722cd9ed2b69c00920fa2c76b62cda57df4d0dfe724e9c2333",
+        "captionContextSha256": "62c638223b85241445cbb05f9e4e73db135947f9b25872aaa871704cf693a6f4"
+      }
+    ],
+    "lesson": "Paired alpha/beta variable and constant domains, CDR3/contact loops and separate CD3 partners face peptide in HLA; contact is not safe killing. Both themes reviewed.",
+    "requirementId": "tcr-structure",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/tcr-paired-chains-and-cd3-contact-v1-dark.svg",
+    "sha256": "3d9c84afb81aaaf37c89430659e6304363ffe5d1200ee723cbbcb3f77b2171fe",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-tcr-paired-chains-and-cd3-contact-v1-dark.svg.png",
+    "renderSha256": "36c7d56ef92d8cbc8e8b479807116523f0dd55e087357f1494686d169338d08e",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-receptor",
+        "pageSha256": "bc5a8f0d4fcea7722cd9ed2b69c00920fa2c76b62cda57df4d0dfe724e9c2333",
+        "captionContextSha256": "62c638223b85241445cbb05f9e4e73db135947f9b25872aaa871704cf693a6f4"
+      }
+    ],
+    "lesson": "Paired alpha/beta variable and constant domains, CDR3/contact loops and separate CD3 partners face peptide in HLA; contact is not safe killing. Both themes reviewed.",
+    "requirementId": "tcr-structure",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+    "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-fixed-clone-count-changing-sample-denominator-v1-light.svg.png",
+    "renderSha256": "d1de4201d312ab7fe634abc46c1cf638f8a0b0bcd7c29b8cb4e269ab0806add7",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-repertoire",
+        "pageSha256": "c950f9ba5e3c791bf4243529e6cf2c22cae4ce4f6b944f03f59990f3f280ae0a",
+        "captionContextSha256": "437840f43d1fea2990f33f587032695a5aea732ddd9e139f96490854815797f8"
+      }
+    ],
+    "lesson": "Both rows contain ten A symbols; fraction rises from 1% to 10% because denominator changes.",
+    "requirementId": "repertoire-denominator",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/fixed-clone-count-changing-sample-denominator-v1-light.svg",
+    "sha256": "dc160a6f1709a05cb77f42d896da3bd6d67b37fb697f6e4430927e91e3431ecd",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-fixed-clone-count-changing-sample-denominator-v1-light.svg.png",
+    "renderSha256": "d1de4201d312ab7fe634abc46c1cf638f8a0b0bcd7c29b8cb4e269ab0806add7",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-repertoire",
+        "pageSha256": "5da5fbca3c7c05d07ab9a4fb8e106498fb9152e5584da499fda02f57c91e9091",
+        "captionContextSha256": "437840f43d1fea2990f33f587032695a5aea732ddd9e139f96490854815797f8"
+      }
+    ],
+    "lesson": "Both rows contain ten A symbols; fraction rises from 1% to 10% because denominator changes.",
+    "requirementId": "repertoire-denominator",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-light.svg",
+    "sha256": "4e764bdcd7fccd3ab2dfad010a4e5d68e2352ca9e042d5fe5cb79520cce6324f",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-state-contexts-v2-light.svg.png",
+    "renderSha256": "8ce7951811cd3d6fb57de30dbe0006e29b46e9bb7ae01701e6ad043972a6152d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "d70901ed83d5a59cc22cc249cca9e69ff2c9b98c7a9888191ececb7065d53ce9",
+        "captionContextSha256": "fb51e497d709f02897ca79d54240595458fe816c483668827a50cb84e6640fb1"
+      }
+    ],
+    "lesson": "Four independent context cards, no universal trajectory arrows.",
+    "requirementId": "state-history",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-light.svg",
+    "sha256": "04d7943f26d0988fb66564b4b291e85c4099b6eea21851a2700f3174c5e1af59",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-exhausted-subsets-v2-light.svg.png",
+    "renderSha256": "7d6a868077351d55ec676af4cdb8a19edbc34183403ee1bd8cf6a4605aa2931e",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "d70901ed83d5a59cc22cc249cca9e69ff2c9b98c7a9888191ececb7065d53ce9",
+        "captionContextSha256": "5e57552e387094bbd47d6af2805ba18f9e5eb515d44cbb89fe0b92ac10b0cb75"
+      }
+    ],
+    "lesson": "Ordinary memory remains separate; only a model-scoped dashed progenitor-to-differentiated relation is shown.",
+    "requirementId": "state-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg",
+    "sha256": "2407071f8af4d6830504b2cfa4db168dd8cbfa61864e6347b72f38219045adfa",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-receptor-identity-context-v2-light.svg.png",
+    "renderSha256": "573ae7f2645a6f241ffb9a66f771d39ba5f423a0d6c5495040591b770f15c525",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "d70901ed83d5a59cc22cc249cca9e69ff2c9b98c7a9888191ececb7065d53ce9",
+        "captionContextSha256": "fd059430e0a9bf773c46b4a90ea3bc00701f593e2c5f7e31b284e2885110773f"
+      }
+    ],
+    "lesson": "Same R1 receptor labels accompany different histories; no transition arrow or target inference.",
+    "requirementId": "state-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg",
+    "sha256": "f7e830c5ff460f6c6751ce68d242a64f2273a778e7f801dd32fc285874a046b9",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-controlled-peptide-tests-v2-light.svg.png",
+    "renderSha256": "002a09cf46935e2c054ab5f5428f120186717a472dd60e1e1b1b768ae20e8f7d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "d70901ed83d5a59cc22cc249cca9e69ff2c9b98c7a9888191ececb7065d53ce9",
+        "captionContextSha256": "a6e09067273855426e033c5cdcab09476e122b93e7694d3e650abd13df2100f2"
+      }
+    ],
+    "lesson": "Equal-looking PD-1 populations have viral versus tumour-peptide tests; natural display/access/killing remain open.",
+    "requirementId": "state-function",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/state-contexts-v2-light.svg",
+    "sha256": "4e764bdcd7fccd3ab2dfad010a4e5d68e2352ca9e042d5fe5cb79520cce6324f",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-state-contexts-v2-light.svg.png",
+    "renderSha256": "8ce7951811cd3d6fb57de30dbe0006e29b46e9bb7ae01701e6ad043972a6152d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "c4f07e7152e34a93ddd2f2f2a915aa93e586c24d25897d0a71c527609f89785c",
+        "captionContextSha256": "fb51e497d709f02897ca79d54240595458fe816c483668827a50cb84e6640fb1"
+      }
+    ],
+    "lesson": "Four independent context cards, no universal trajectory arrows.",
+    "requirementId": "state-history",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/exhausted-subsets-v2-light.svg",
+    "sha256": "04d7943f26d0988fb66564b4b291e85c4099b6eea21851a2700f3174c5e1af59",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-exhausted-subsets-v2-light.svg.png",
+    "renderSha256": "7d6a868077351d55ec676af4cdb8a19edbc34183403ee1bd8cf6a4605aa2931e",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "c4f07e7152e34a93ddd2f2f2a915aa93e586c24d25897d0a71c527609f89785c",
+        "captionContextSha256": "5e57552e387094bbd47d6af2805ba18f9e5eb515d44cbb89fe0b92ac10b0cb75"
+      }
+    ],
+    "lesson": "Ordinary memory remains separate; only a model-scoped dashed progenitor-to-differentiated relation is shown.",
+    "requirementId": "state-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/receptor-identity-context-v2-light.svg",
+    "sha256": "2407071f8af4d6830504b2cfa4db168dd8cbfa61864e6347b72f38219045adfa",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-receptor-identity-context-v2-light.svg.png",
+    "renderSha256": "573ae7f2645a6f241ffb9a66f771d39ba5f423a0d6c5495040591b770f15c525",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "c4f07e7152e34a93ddd2f2f2a915aa93e586c24d25897d0a71c527609f89785c",
+        "captionContextSha256": "fd059430e0a9bf773c46b4a90ea3bc00701f593e2c5f7e31b284e2885110773f"
+      }
+    ],
+    "lesson": "Same R1 receptor labels accompany different histories; no transition arrow or target inference.",
+    "requirementId": "state-identity",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/controlled-peptide-tests-v2-light.svg",
+    "sha256": "f7e830c5ff460f6c6751ce68d242a64f2273a778e7f801dd32fc285874a046b9",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-controlled-peptide-tests-v2-light.svg.png",
+    "renderSha256": "002a09cf46935e2c054ab5f5428f120186717a472dd60e1e1b1b768ae20e8f7d",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "t-cell-states",
+        "pageSha256": "c4f07e7152e34a93ddd2f2f2a915aa93e586c24d25897d0a71c527609f89785c",
+        "captionContextSha256": "a6e09067273855426e033c5cdcab09476e122b93e7694d3e650abd13df2100f2"
+      }
+    ],
+    "lesson": "Equal-looking PD-1 populations have viral versus tumour-peptide tests; natural display/access/killing remain open.",
+    "requirementId": "state-function",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+    "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg.png",
+    "renderSha256": "18fcbbddb79876dc632c91d12988d1b48a67c543fec5a1d9b976fc15ed9abe56",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "thymic-output-and-aging",
+        "pageSha256": "b5081df019b7a3bf935ba92cdbb1ac6e897336e7b7f24bd74f85307017cb17cd",
+        "captionContextSha256": "1e8900ec8ea80f113c9cacd0bcfb01cae2215df383f6fc7596193101c8e349df"
+      }
+    ],
+    "lesson": "2 cells/4 circles become 4 cells/4 circles, with uneven daughter allocation; copies per cell halve, arrivals unmeasured.",
+    "requirementId": "trec-denominator",
+    "originalArtworkCopiedToGit": false
+  },
+  {
+    "inventory": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "path": "wiki/education/concepts/immunology/t-cells/images/new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg",
+    "sha256": "1e8f43e1b8936340e8a87e113e1b7c8bfa8b062982b5d1153fb97fc301a725e1",
+    "sameBytesAcrossPinnedVersions": true,
+    "review": "render visually inspected with SVG labels and page caption; shared across exact-byte-identical inventories",
+    "render": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/parallel-round1-2026-11-09/t-cells/completion-r1/figures/later-new-arrivals-peripheral-division-and-trec-ledger-v1-light.svg.png",
+    "renderSha256": "18fcbbddb79876dc632c91d12988d1b48a67c543fec5a1d9b976fc15ed9abe56",
+    "renderer": "sharp; source-defined CSS variables resolved to their literal source colours where librsvg lacked variable support",
+    "contexts": [
+      {
+        "page": "thymic-output-and-aging",
+        "pageSha256": "cb1688913967ad752afe297186ec8a09b1bc6f2d2eaa334187aff535999818cf",
+        "captionContextSha256": "1e8900ec8ea80f113c9cacd0bcfb01cae2215df383f6fc7596193101c8e349df"
+      }
+    ],
+    "lesson": "2 cells/4 circles become 4 cells/4 circles, with uneven daughter allocation; copies per cell halve, arrivals unmeasured.",
+    "requirementId": "trec-denominator",
+    "originalArtworkCopiedToGit": false
+  }
+]

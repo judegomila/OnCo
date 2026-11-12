@@ -1,0 +1,1626 @@
+{
+  "version": "proposal-functional-summary-consumers",
+  "state": "Actual selected summary entries; existing review labels preserved and no new language approval claimed.",
+  "records": [
+    {
+      "id": "bh3-profiling-ar",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (ar)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-ar",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (ar)",
+      "canonicalRecordId": "bioprinting",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (ar)",
+      "canonicalRecordId": "cell-line",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (ar)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (ar)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-ar",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (ar)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "ar",
+      "available": true,
+      "text": "تعطيل كل جين على حدة في الخلايا السرطانية لمعرفة الجينات التي لا تستطيع العيش من دونها."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (ar)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (ar)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (ar)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-ar",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (ar)",
+      "canonicalRecordId": "organoid",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-ar",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (ar)",
+      "canonicalRecordId": "organoids",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (ar)",
+      "canonicalRecordId": "pdx-models",
+      "language": "ar",
+      "available": true,
+      "text": "الطعم الأجنبي المشتق من المريض هو ورم مأخوذ من مريض ويُنمّى في فأر، ويُستخدم لاختبار الأدوية قبل أن تصل إلى البشر."
+    },
+    {
+      "id": "model-organism-ar",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (ar)",
+      "canonicalRecordId": "model-organism",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (ar)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-ar",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (ar)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-ar",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (ar)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (ar)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (ar)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ar",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ar)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-de",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (de)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-de",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (de)",
+      "canonicalRecordId": "bioprinting",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (de)",
+      "canonicalRecordId": "cell-line",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (de)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (de)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-de",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (de)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "de",
+      "available": true,
+      "text": "Jedes Gen einzeln in Krebszellen ausschalten, um herauszufinden, ohne welche sie nicht überleben können."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-de",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (de)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (de)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-de",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (de)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-de",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (de)",
+      "canonicalRecordId": "organoid",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-de",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (de)",
+      "canonicalRecordId": "organoids",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (de)",
+      "canonicalRecordId": "pdx-models",
+      "language": "de",
+      "available": true,
+      "text": "Ein patientenabgeleitetes Xenotransplantat ist der Tumor eines Patienten, der in einer Maus gezüchtet wird, um Medikamente zu testen, bevor sie beim Menschen ankommen."
+    },
+    {
+      "id": "model-organism-de",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (de)",
+      "canonicalRecordId": "model-organism",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (de)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-de",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (de)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-de",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (de)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (de)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (de)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-de",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (de)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-es",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (es)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-es",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (es)",
+      "canonicalRecordId": "bioprinting",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (es)",
+      "canonicalRecordId": "cell-line",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (es)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (es)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-es",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (es)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "es",
+      "available": true,
+      "text": "Eliminar cada gen uno por uno en células cancerosas para descubrir sin cuáles no pueden vivir."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-es",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (es)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (es)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-es",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (es)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-es",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (es)",
+      "canonicalRecordId": "organoid",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-es",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (es)",
+      "canonicalRecordId": "organoids",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (es)",
+      "canonicalRecordId": "pdx-models",
+      "language": "es",
+      "available": true,
+      "text": "El tumor de un paciente cultivado en un ratón, usado para probar fármacos antes de que lleguen a las personas."
+    },
+    {
+      "id": "model-organism-es",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (es)",
+      "canonicalRecordId": "model-organism",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (es)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-es",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (es)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-es",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (es)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (es)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (es)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-es",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (es)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-fr",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (fr)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-fr",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (fr)",
+      "canonicalRecordId": "bioprinting",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (fr)",
+      "canonicalRecordId": "cell-line",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (fr)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (fr)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-fr",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (fr)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "fr",
+      "available": true,
+      "text": "Inactiver chaque gène, un par un, dans des cellules cancéreuses pour découvrir ceux dont elles ne peuvent pas se passer."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (fr)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (fr)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (fr)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-fr",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (fr)",
+      "canonicalRecordId": "organoid",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-fr",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (fr)",
+      "canonicalRecordId": "organoids",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (fr)",
+      "canonicalRecordId": "pdx-models",
+      "language": "fr",
+      "available": true,
+      "text": "Une xénogreffe dérivée de patient est la tumeur d'un patient cultivée chez une souris, utilisée pour tester des médicaments avant qu'ils n'arrivent chez l'humain."
+    },
+    {
+      "id": "model-organism-fr",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (fr)",
+      "canonicalRecordId": "model-organism",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (fr)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-fr",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (fr)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-fr",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (fr)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (fr)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (fr)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-fr",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (fr)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-hi",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (hi)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-hi",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (hi)",
+      "canonicalRecordId": "bioprinting",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (hi)",
+      "canonicalRecordId": "cell-line",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (hi)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (hi)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-hi",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (hi)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "hi",
+      "available": true,
+      "text": "कैंसर कोशिकाओं में हर जीन को एक-एक कर बंद करके पता लगाना कि वे किनके बिना नहीं जी सकतीं।"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (hi)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (hi)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (hi)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-hi",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (hi)",
+      "canonicalRecordId": "organoid",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-hi",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (hi)",
+      "canonicalRecordId": "organoids",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (hi)",
+      "canonicalRecordId": "pdx-models",
+      "language": "hi",
+      "available": true,
+      "text": "चूहे में उगाया गया मरीज़ का ट्यूमर, जो दवाओं को लोगों तक पहुँचने से पहले परखने में प्रयुक्त होता है।"
+    },
+    {
+      "id": "model-organism-hi",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (hi)",
+      "canonicalRecordId": "model-organism",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (hi)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-hi",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (hi)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-hi",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (hi)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (hi)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (hi)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-hi",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (hi)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-ja",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (ja)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-ja",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (ja)",
+      "canonicalRecordId": "bioprinting",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (ja)",
+      "canonicalRecordId": "cell-line",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (ja)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (ja)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-ja",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (ja)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "ja",
+      "available": true,
+      "text": "がん細胞の遺伝子を一つずつノックアウトして、がん細胞がどの遺伝子なしでは生きられないかを見つける方法です。"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (ja)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (ja)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (ja)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-ja",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (ja)",
+      "canonicalRecordId": "organoid",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-ja",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (ja)",
+      "canonicalRecordId": "organoids",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (ja)",
+      "canonicalRecordId": "pdx-models",
+      "language": "ja",
+      "available": true,
+      "text": "患者由来異種移植モデルとは、患者の腫瘍をマウスの体内で育てたもので、薬が人に届く前に試験するために使われます。"
+    },
+    {
+      "id": "model-organism-ja",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (ja)",
+      "canonicalRecordId": "model-organism",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (ja)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-ja",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (ja)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-ja",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (ja)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (ja)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (ja)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ja",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ja)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-pt",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (pt)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-pt",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (pt)",
+      "canonicalRecordId": "bioprinting",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (pt)",
+      "canonicalRecordId": "cell-line",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (pt)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (pt)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-pt",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (pt)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "pt",
+      "available": true,
+      "text": "Desligar cada gene um a um em células cancerosas para descobrir sem quais elas não conseguem viver."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (pt)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-drug-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (pt)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (pt)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-pt",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (pt)",
+      "canonicalRecordId": "organoid",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-pt",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (pt)",
+      "canonicalRecordId": "organoids",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (pt)",
+      "canonicalRecordId": "pdx-models",
+      "language": "pt",
+      "available": true,
+      "text": "O tumor de um paciente cultivado em um camundongo, usado para testar drogas antes de chegarem às pessoas."
+    },
+    {
+      "id": "model-organism-pt",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (pt)",
+      "canonicalRecordId": "model-organism",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (pt)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-pt",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (pt)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-pt",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (pt)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (pt)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (pt)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-pt",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (pt)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-zh",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (zh)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bioprinting-zh",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (zh)",
+      "canonicalRecordId": "bioprinting",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (zh)",
+      "canonicalRecordId": "cell-line",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-lines-as-proxy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (zh)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (zh)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-zh",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (zh)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "zh",
+      "available": true,
+      "text": "在癌细胞中逐个敲除每个基因，找出它们离不开的基因。"
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (zh)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "zh",
+      "available": true,
+      "text": "对基因组、药物敏感性和基因依赖性进行过系统分析的大型公共癌细胞系集合，是现代靶点发现背后的参考数据。"
+    },
+    {
+      "id": "functional-drug-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (zh)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-precision-medicine-haematology-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (zh)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoid-zh",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (zh)",
+      "canonicalRecordId": "organoid",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "organoids-zh",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (zh)",
+      "canonicalRecordId": "organoids",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pdx-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (zh)",
+      "canonicalRecordId": "pdx-models",
+      "language": "zh",
+      "available": true,
+      "text": "在小鼠体内生长的患者肿瘤，用于在药物进入人体前测试。"
+    },
+    {
+      "id": "model-organism-zh",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (zh)",
+      "canonicalRecordId": "model-organism",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-spheroid-models-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (zh)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-zh",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (zh)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-zh",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (zh)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (zh)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (zh)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-zh",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (zh)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bh3-profiling-simple",
+      "kind": "reader-summary-entry",
+      "name": "BH3 profiling (functional apoptosis testing) (simple)",
+      "canonicalRecordId": "bh3-profiling",
+      "language": "simple",
+      "available": true,
+      "text": "A laboratory test that measures how a cell's mitochondria respond to defined challenges. This helps researchers study readiness for cell death; it does not by itself establish which treatment will help a patient."
+    },
+    {
+      "id": "bioprinting-simple",
+      "kind": "reader-summary-entry",
+      "name": "Bioprinting of experimental tissue models (simple)",
+      "canonicalRecordId": "bioprinting",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-line-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell line (simple)",
+      "canonicalRecordId": "cell-line",
+      "language": "simple",
+      "available": true,
+      "text": "A population of cells maintained through repeated transfers in laboratory culture. Its origin, identity and growth conditions affect what it can model."
+    },
+    {
+      "id": "cell-lines-as-proxy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell lines as a proxy for patients (simple)",
+      "canonicalRecordId": "cell-lines-as-proxy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-tumour-coculture-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-tumour co-culture models (simple)",
+      "canonicalRecordId": "immune-tumour-coculture-models",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "crispr-screens-simple",
+      "kind": "reader-summary-entry",
+      "name": "CRISPR functional genomics (simple)",
+      "canonicalRecordId": "crispr-screens",
+      "language": "simple",
+      "available": true,
+      "text": "Knocking out every gene one by one in cancer cells to find the ones they cannot live without."
+    },
+    {
+      "id": "cancer-cell-line-encyclopedias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cancer cell line encyclopedias and dependency maps (simple)",
+      "canonicalRecordId": "cancer-cell-line-encyclopedias",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer cell line encyclopedias are large public collections of cancer cells profiled for their genomes, drug sensitivity and gene dependencies, used to find new targets."
+    },
+    {
+      "id": "functional-drug-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Functional (ex vivo) drug testing (simple)",
+      "canonicalRecordId": "functional-drug-testing",
+      "language": "simple",
+      "available": true,
+      "text": "Testing medicines on collected living cells or tissue under laboratory conditions. The result describes that sample and experiment; whether using it improves care needs separate evidence."
+    },
+    {
+      "id": "functional-precision-medicine-haematology-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo drug sensitivity screening in blood cancers (EXALT) (simple)",
+      "canonicalRecordId": "functional-precision-medicine-haematology",
+      "language": "simple",
+      "available": true,
+      "text": "Testing drug responses in collected blood-cancer cells. A result needs the sample, assay and study context; a clinical study of one selection method does not validate every screen."
+    },
+    {
+      "id": "organoid-simple",
+      "kind": "reader-summary-entry",
+      "name": "Organoid (simple)",
+      "canonicalRecordId": "organoid",
+      "language": "simple",
+      "available": true,
+      "text": "A three-dimensional culture that organises selected features of a tissue. A tumour organoid is one type, and its contents need checking before researchers use it to answer a question."
+    },
+    {
+      "id": "organoids-simple",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived organoids (simple)",
+      "canonicalRecordId": "organoids",
+      "language": "simple",
+      "available": true,
+      "text": "Cultures grown from a patient's tumour to study selected tissue features and drug responses. They do not recreate the whole patient, and their intended use needs its own evidence."
+    },
+    {
+      "id": "pdx-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Patient-derived xenografts (simple)",
+      "canonicalRecordId": "pdx-models",
+      "language": "simple",
+      "available": true,
+      "text": "A patient's tumour grown in a mouse, used to test drugs before they are tried in people."
+    },
+    {
+      "id": "model-organism-simple",
+      "kind": "reader-summary-entry",
+      "name": "Model organism (simple)",
+      "canonicalRecordId": "model-organism",
+      "language": "simple",
+      "available": true,
+      "text": "A model organism is a species studied in the lab, mice above all, to understand biology shared with humans and to test cancer drugs, imperfectly."
+    },
+    {
+      "id": "tumour-spheroid-models-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour spheroid models (hanging-drop and ultra-low-attachment culture) (simple)",
+      "canonicalRecordId": "tumour-spheroid-models",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ex-vivo-tumour-fragments-simple",
+      "kind": "reader-summary-entry",
+      "name": "Ex vivo tumour fragments and slices (simple)",
+      "canonicalRecordId": "ex-vivo-tumour-fragments",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "functional-model-selection-simple",
+      "kind": "reader-summary-entry",
+      "name": "Comparing tumour-model preparations (simple)",
+      "canonicalRecordId": "functional-model-selection",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-mass-assays-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell mass and growth-rate assays (simple)",
+      "canonicalRecordId": "single-cell-mass-assays",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-on-chip-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-on-a-chip (simple)",
+      "canonicalRecordId": "tumour-on-chip",
+      "language": "simple",
+      "available": true,
+      "text": "A small engineered culture device for studying selected tumour interactions. Its cells, channels and conditions vary by design and must be measured."
+    },
+    {
+      "id": "in-vitro-in-vivo-simple",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (simple)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "simple",
+      "available": true,
+      "text": "Check whether a result was measured in a laboratory, removed living tissue, a living animal or person, or a computer model. Each setting includes and leaves out different things."
+    },
+    {
+      "id": "model-context-of-use-ar",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (ar)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-de",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (de)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-es",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (es)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-fr",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (fr)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-hi",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (hi)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-ja",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (ja)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-pt",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (pt)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-zh",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (zh)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "model-context-of-use-simple",
+      "kind": "reader-summary-entry",
+      "name": "Context of use for a tumor model (simple)",
+      "canonicalRecordId": "model-context-of-use",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

@@ -1,0 +1,2610 @@
+{
+  "dataCommit": "12cc76ee50c46bfa211434317bd7a05b94c537d4",
+  "sourceFirstBeforeFreshCandidateComparison": true,
+  "uniqueRows": 176,
+  "rows": [
+    {
+      "id": "STI-001",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Separate a surface delivery address from a survival dependency; a named protein does not choose an action or establish benefit.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Target/dependence, accessible recognition, engagement, biological effect and clinical benefit are explicitly distinct observations.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "STI-002",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Binding, delivery, processing, immune activation and killing are separate observations with different measurements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Binding, trafficking, active-material measurement, functional effect and survival each have their own assay and endpoint.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "STI-003",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Keep intact surface recognition separate from a specified peptide-HLA recognition route and its molecular requirements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Intact-surface and exact peptide-HLA recognition routes have distinct molecular requirements.",
+      "sourceScope": "Current label recognition clauses plus retained conventional-receptor and engineered-cell assessments at prior source scope.",
+      "remaining": []
+    },
+    {
+      "id": "STI-004",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "A shared target can have different risks under different product actions and exposure histories.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A shared address is not shared exposure/action or normal-tissue safety; intended and unintended recognition and inflammation remain distinct.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "STI-005",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Keep clinical benefit with the actual product, population, disease setting and comparator.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The actual product, population, prior treatment, comparator and endpoint accompany the examples; eligibility is not an efficacy comparison.",
+      "sourceScope": "Resolved trial abstracts and selected DB04 methods, plus current product-label clauses; no trial ranking.",
+      "remaining": []
+    },
+    {
+      "id": "STI-006",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "A retained address after resistance does not establish that a second product bypasses the measured delivery, payload or cell-response failure.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Retained expression supports an address observation; delivery, response, resistance bypass and safety need separate evidence.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "STI-007",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Read new payload proposals as biological hypotheses and require evidence matched to the particular claimed failure, without a single-study or universal absence claim.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each proposed cargo has a falsifiable biological bet and staged model/exposure/harm and clinical comparisons. No single-study certificate or unsearched universal absence is asserted.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "STI-008",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "Build an evidence ledger",
+      "requirement": "Carry observation, supported conclusion, unresolved question and next discriminating measurement through the format comparison; keep tissue signal, live-cell binding, delivery, model function and clinical comparison separate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The text carries observation, supported inference, remaining explanation and a discriminating measurement rather than promoting assay activity to clinical benefit.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "STI-009",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "What is still uncertain",
+      "requirement": "Retain spatial heterogeneity, inaccessible target, omitted model components and unrealistic exposure as limits on inference to clinical benefit.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Spatial, model-component, achievable-exposure and sampling limits are explicit.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "STI-010",
+      "chapter": "I",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "The big ideas",
+      "requirement": "Apply the later target-selection frame across amount, normal tissues, format-specific behaviour and within-tumour distribution without claiming sufficient universal thresholds.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Amount, normal tissues, actual-format behaviour and heterogeneity remain joint questions. Static receptor count and loading do not establish a cumulative delivery ceiling or universal cutoff.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "STI-011",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "Lessons",
+      "requirement": "Course order, duration, supporting links and concept lists are routing/learning metadata; the original five-lesson 72-minute and later six-lesson 86-minute paths are not pharmacological schedules.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "STI-012",
+      "chapter": "I",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md"
+      },
+      "section": "What is still uncertain",
+      "requirement": "Retain primary-experiment versus label/framework source tiers and pending expert/learner review; do not award scientific credit from source-check metadata or copied link lists.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-001",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "The address and the action",
+      "requirement": "Distinguish the recognised feature from the therapeutic format, action and experiment that actually measured a change.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Target/dependence, accessible recognition, engagement, biological effect and clinical benefit are explicitly distinct observations.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-002",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "The address and the action",
+      "requirement": "Trastuzumab and trastuzumab deruxtecan can use a related HER2 antibody address while signal effects and chemical-payload effects remain distinct.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The same HER2 address is separated from signal/Fc effects and chemical-payload action.",
+      "sourceScope": "IV HERCEPTIN mechanism, named ADC label mechanisms and retained molecule identity; no head-to-head mechanistic cause attribution.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-003",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "The address and the action",
+      "requirement": "Verify the defined mouse eight-versus-four drug-loading comparison and three-fold clearance claim, retaining construct, species and the distinction from a human dosing rule.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The exact cAC10-MMAE E8/E4 comparison, equal antibody dose, mouse xenografts and three-fold mouse clearance are retained.",
+      "sourceScope": "Hamblett 2004 resolved abstract read; not a whole-paper or human-dose claim.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-004",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "The address and the action",
+      "requirement": "Cargo loading and hydrophobicity can change aggregation, clearance and product behaviour; a tested binder is not automatically a tested finished product.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Loading, mixture and hydrophobicity can affect the finished construct; the comparison remains product- and mouse-specific.",
+      "sourceScope": "Hamblett and Lyon resolved abstracts plus premise-backed full-construct interpretation.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-005",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "The address and the action",
+      "requirement": "A protein name or tissue signal does not establish an exposed live-cell epitope, delivery throughout a tumour or functional dependence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Target/dependence, accessible recognition, engagement, biological effect and clinical benefit are explicitly distinct observations.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-006",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Two kinds of target at the surface",
+      "requirement": "An exposed intact-protein feature can be recognised without peptide-HLA display; an intracellular source protein can instead supply an accessible peptide-HLA complex.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "An accessible epitope need not be a displayed peptide; a peptide-HLA recogniser instead binds the specified complex.",
+      "sourceScope": "Prior structure/TCR evidence preserved plus current KIMMTRAK recognition clause; no new certification of every structural assertion.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-007",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Two kinds of target at the surface",
+      "requirement": "A conventional TCR recognises the peptide-HLA pair rather than the source protein alone; retain the exact restricting complex.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The conventional paired alpha-beta receptor recognises peptide together with HLA, not source protein alone.",
+      "sourceScope": "Retained conventional-TCR assessment at its recorded source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-008",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Two kinds of target at the surface",
+      "requirement": "Separate an antibody-derived TCR mimic, an engineered soluble TCR and a TCR on living engineered cells; a peptide-HLA binder is not automatically an engager.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The antibody mimic, TCR-derived soluble protein and engineered receptor-bearing cell are separate objects; a mimic does not automatically recruit effectors.",
+      "sourceScope": "Retained construct studies and the current KIMMTRAK label; no cross-scaffold transfer of clinical benefit.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-009",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Two kinds of target at the surface",
+      "requirement": "Verify tebentafusp as a dosed peptide-HLA-A*02:01/CD3 recognition-and-recruitment example, with its molecular restriction.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A dosed gp100 peptide-HLA-A*02:01/CD3 protein is distinguished from engineered cells and retains the exact molecular restriction.",
+      "sourceScope": "KIMMTRAK description and mechanism read directly.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-010",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Two kinds of target at the surface",
+      "requirement": "A typical surface CAR has intracellular signalling components, whereas a surface engager recruits through CD3; avoiding native peptide recognition does not remove immune-cell functional requirements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The common CAR has intracellular signalling; the engager recruits through CD3. Neither removing native specificity nor changing scaffold supplies useful effectors.",
+      "sourceScope": "NCI selected CAR manufacture/signalling passages, current KIMMTRAK/IMDELLTRA mechanisms and retained CAR construct assessments.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-011",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "In the fictional stain/live-cell example, separate a tissue protein signal from controlled target-associated binding, without inferring survival dependence or productive action.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional M observation is limited to tissue signal and controlled binding; four format-specific next experiments are stated, without invented downstream outcomes.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-012",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "For a proposed blocking antibody, require a measured relevant signal change and its effect on survival rather than binding alone.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional M observation is limited to tissue signal and controlled binding; four format-specific next experiments are stated, without invented downstream outcomes.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-013",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "For a proposed ADC, require active-payload formation/delivery and a payload-appropriate cell response rather than binding alone.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional M observation is limited to tissue signal and controlled binding; four format-specific next experiments are stated, without invented downstream outcomes.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-014",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "For a proposed engager, test T-cell-dependent activation and killing with target-negative and no-T-cell conditions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional M observation is limited to tissue signal and controlled binding; four format-specific next experiments are stated, without invented downstream outcomes.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-015",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "For a proposed radiolabelled product, measure time-dependent distribution and absorbed dose in tumour and vulnerable tissue; binding supplies neither.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional M observation is limited to tissue signal and controlled binding; four format-specific next experiments are stated, without invented downstream outcomes.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-016",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Worked example",
+      "requirement": "Transferring a binder from a poorly processing ADC to an engager is a new product hypothesis; re-test binding/geometry, productive contact, normal tissues and clinical benefit.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A processing-escape proposal remains a new construct requiring its own binding, geometry, effectors, normal-tissue and clinical evidence.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-017",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Keep stain versus access, recognition versus dependence, HLA versus immune independence, and shared target versus shared safety as separate failure-of-inference questions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The text carries observation, supported inference, remaining explanation and a discriminating measurement rather than promoting assay activity to clinical benefit.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-018",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Try it",
+      "requirement": "In the measured B2M-loss exercise, loss of the specified class-I peptide-HLA target does not remove an independently accessible intact target or establish any downstream product effect.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The stipulated loss of a measured class-I peptide-HLA feature is separate from independently measured intact M. No downstream product result is inferred.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-019",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify the trastuzumab signal-blockade/Fc-effector account against its actual mechanism sources, with dependence or compatible immune-effector requirements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "HER2 signal effects and compatible Fc-effector recruitment are separate antibody actions, with no automatic survival-dependence conclusion.",
+      "sourceScope": "IV HERCEPTIN section 12.1 read plus retained antibody function scope.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-020",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify sacituzumab govitecan/TROP2/SN-38 and the product-specific active-payload route.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "TROP2/SN-38 product identity is retained with hydrolysis inside and around tumour cells; active exposure and susceptibility remain necessary.",
+      "sourceScope": "TRODELVY label plus targeted 2015 release text and complete 2020 correction notice; 18.82-hour human-serum in-vitro value replaces 23.98 hours.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-021",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify trastuzumab deruxtecan/HER2/DXd and datopotamab deruxtecan/TROP2/DXd as specified TOP1-payload products.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Both HER2/DXd and TROP2/DXd examples retain their address and TOP1 payload, without making their finished products equivalent.",
+      "sourceScope": "The two current U.S. SPL mechanism sections.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-022",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify trastuzumab emtansine/DM1 and enfortumab vedotin/MMAE, with microtubule effects rather than TOP1 inhibition and no automatic death inference.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "DM1 and MMAE are microtubule-directed material; delivery and the cellular response remain separate from binding.",
+      "sourceScope": "KADCYLA and PADCEV mechanism text; the full-conjugate reading rule is inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-023",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify tarlatamab DLL3/CD3 activation, cytokines and target-cell lysis, retaining the functional T-cell requirement and immune toxicity scope.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The named DLL3/CD3 product, available useful T cells, separately measured activation/cytokine/lysis endpoints and boxed immune toxicity are represented.",
+      "sourceScope": "IMDELLTRA selected mechanism/warning text, with retained general functional assay boundaries.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-024",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Verify lutetium-177-PSMA-617 radiation damage and crossfire; state whether quoted beta/alpha tissue ranges are mean, maximum or another measure, with radionuclide context.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Energy deposition beyond a carrying cell, isotope-specific approximate ranges, retention and normal-tissue dose are explicit. The table is not mislabelled as mean or maximum.",
+      "sourceScope": "Sgouros selected review table/body and complete correction notice; VISION abstract and FDA 2019 glossary, not a full original review.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-025",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "The engineered-cell comparison concerns living products that can expand or persist and need trafficking/function; a blood-cancer approval example does not establish a solid-tumour result or worldwide approval inventory.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Living products may expand/persist and require trafficking/function; named blood-cancer approvals do not establish solid-tumour efficacy or worldwide approval completeness.",
+      "sourceScope": "NCI selected CAR passages and existing product-specific evidence; no new universal approval inventory.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-026",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "How each format actually kills",
+      "requirement": "Assess rather than inherit the universal only-ADC internalisation and own-weapon claims; extracellular release, product retention and recognition/action route need product-specific qualification.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Internalisation and processing are construct-specific, with specified extracellular release and radionuclide retention routes; no universal only-ADC or intrinsic-weapon rule remains.",
+      "sourceScope": "TRODELVY mechanism, corrected developer release experiment, Sgouros selected text and product-specific inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-027",
+      "chapter": "1",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Verify the HER2-HER3/no-known-HER2-ligand structural example and do not draw a growth factor binding directly to HER2 as an established interaction.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Neuregulin is bound to HER3 in the examined complex; HER2 is described as ligand-less. Therapeutic-antibody recognition is distinguished from that ligand interaction.",
+      "sourceScope": "Diwanji BioC targeted passages plus complete 2022 correction notice; no clinical response inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-028",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The binder/format/binding-assay teach-back reuses the recognition, action and separate-evidence requirements without creating an independent empirical claim.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST1-029",
+      "chapter": "1",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/01-mechanism.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/01-mechanism.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "Keep label mechanisms, primary experiments, reviews and fictional exercises at their read scope; no treatment selection, clinical access or expert/learner approval follows from citations.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-001",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "Treat reach, binding, uptake, processing, active-payload access and cellular response as a product-specific sequence rather than guaranteed completion.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-002",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "Controlled viable-cell binding tests recognition and does not establish whole-tumour delivery.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-003",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "A trafficking assay must distinguish internal from surface material and does not by itself show active-payload formation.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-004",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "Measure the relevant active payload/catabolite and compartment; its detection does not establish sufficient injury or death.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-005",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "A process-appropriate functional readout and a time-dependent survival readout answer different questions, neither proving clinical benefit or safety.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-006",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "A fluorescent antibody-associated label does not automatically track attachment, release or cytosolic active-payload delivery.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each observation has a named species, compartment, time and control. Binding, internalisation, active-material detection, functional consequence and survival do not stand in for each other.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-007",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Follow the product through the cell",
+      "requirement": "Resolve and scope the SLC46A3/T-DM1 lysosomal-catabolite transport example, including publication date, without a universal transporter requirement.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Direct Lys-SMCC-DM1 transport by SLC46A3 is stated for experimental T-DM1 catabolite handling, not every payload; the linked paper is dated 2022.",
+      "sourceScope": "Tomabechi 2022 resolved abstract, not its 2023 indexing year.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-008",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Define administered dose, named-species concentration over time/place, pharmacokinetics and pharmacodynamics as distinct quantities.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Administered amount, named-species concentration over time/place and biological effect are distinct quantities.",
+      "sourceScope": "Current FDA ADC component guidance plus retained FDA PK terminology and premise-backed interpretation.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-009",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Conjugated product, total antibody and unconjugated payload require appropriate separate measurements; an antibody curve is not tumour active-payload exposure.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Conjugated product, total antibody, released species and catabolites are different measurements; antibody signal is not tumour active-drug exposure.",
+      "sourceScope": "March 2024 FDA ADC guidance targeted bioanalytical section.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-010",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Verify gradual extracellular as well as intracellular SN-38 release for the specified SG linker, qualifying activity by local exposure and susceptibility rather than everywhere-it-goes killing.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Specific gradual intra-/extracellular release is distinguished from effective human local exposure or killing everywhere the drug travels.",
+      "sourceScope": "TRODELVY mechanism; targeted developer text and full release correction, not a human-tumour release map.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-011",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Engager format classes and half-life-extension descriptions can overlap; names alone supply no concentration curve, schedule or safety advantage.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Compact BiTE, Fc-containing and half-life extension describe overlapping design features; none alone supplies exposure, schedule or safety.",
+      "sourceScope": "Retained defined-construct assessments and current IMDELLTRA description.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-012",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Declining protein exposure or stopping administration does not guarantee immediate reversal of inflammation or injury; distinguish observed product-specific toxicity from a class rule.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "In one 65-patient phase 1 study the half-life was 4.5 hours and a grade 3 diarrhoea event progressed to grade 5 after stopping; this is a product-specific counterexample to guaranteed reversal.",
+      "sourceScope": "Kebenko 2018 resolved raw abstract; no class incidence inferred.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-013",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Living engineered-cell expansion, decline and persistence differ from freely circulating protein clearance and do not guarantee durable control.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Cell expansion, persistence and trafficking are separate from freely circulating protein clearance and do not guarantee control.",
+      "sourceScope": "NCI selected CAR text and premise-backed distinction, not a quantified persistence claim.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-014",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Radioactive decay, biological distribution/clearance and absorbed tissue dose are separate questions; tracer accumulation does not establish therapeutic dose or safety.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Decay, biological distribution and dose differ; tracer brightness does not establish time-integrated therapeutic dose or organ safety.",
+      "sourceScope": "FDA 2019 glossary and Sgouros selected review table/body.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-015",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Separate product-development, batch manufacture/release and post-dose exposure/effect clocks; a six-month project estimate is not a universal duration of drug action.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-016",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "A late survival endpoint alone does not identify which earlier delivery or biological step caused a difference; use matched controls and time points.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A late survival difference does not uniquely locate an earlier failure; matched binding/uptake and measured active material limit but do not uniquely identify the cause.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-017",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Material readiness, clinical authorisation, eligibility and a treatment site are distinct availability gates.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-018",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Try it",
+      "requirement": "In the fictional two-week-antibody report, require active-payload measurement and a relevant mechanism/effect assay, retaining spatial and sampling limits rather than inferring action in every cell.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional two-week antibody signal does not measure every cancer cell or active action-compartment exposure.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-019",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Worked example: three real exposure curves",
+      "requirement": "Verify SG conjugate 6.5-day and free-SN-38 22-to-24-hour values, preserving specimen, species, median/apparent parameter definitions and label version.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Serum, metastatic-breast setting, median 6.5 days/22 hours and the separately reported 6.7-day terminal/24-hour apparent values retain their definitions.",
+      "sourceScope": "Complete relevant named and unnamed TRODELVY PK subsections in the corrected SPL V3 projection.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-020",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Worked example: three real exposure curves",
+      "requirement": "Verify T-DXd conjugate 5.4-to-5.7-day and DXd 5.4-to-6.1-day values with their actual label populations, specimen and statistical/parameter definitions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The label-specific conjugate and released-species median/apparent values, populations and assay-matrix limitations are retained rather than merged.",
+      "sourceScope": "ENHERTU and DATROWAY relevant PK subsections in SPL V3; not whole-label certification.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-021",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Worked example: three real exposure curves",
+      "requirement": "Verify Dato-DXd conjugate 4.8-day and released-DXd approximately 5.5-day apparent half-lives with their exact source context.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The label-specific conjugate and released-species median/apparent values, populations and assay-matrix limitations are retained rather than merged.",
+      "sourceScope": "ENHERTU and DATROWAY relevant PK subsections in SPL V3; not whole-label certification.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-022",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Worked example: three real exposure curves",
+      "requirement": "Assess the ongoing-formation interpretation of apparent free-payload half-life and the quoted 18 L/hour versus 0.4 L/day clearances; clearance alone does not determine an intrinsic half-life without distribution/model context.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "PADCEV explicitly identifies release-limited MMAE elimination. DXd clearance alone does not establish intrinsic half-life; company-authored preclinical design rationale is distinguished from later human label parameters.",
+      "sourceScope": "PADCEV/ENHERTU PK, Nakada selected J-STAGE paragraphs and affiliation metadata; not a human safety inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-023",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Worked example: three real exposure curves",
+      "requirement": "Blood-derived exposure curves need not have identical shapes and do not measure intracellular active payload throughout a tumour.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Similar half-life values do not make curves identical or supply action-compartment exposure throughout a tumour.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-024",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Exposure is more than the amount infused",
+      "requirement": "Distinguish company-authored animal short-payload-half-life design work from human apparent DXd kinetics; do not convert design intent into proven tumour selectivity or safety.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "PADCEV explicitly identifies release-limited MMAE elimination. DXd clearance alone does not establish intrinsic half-life; company-authored preclinical design rationale is distinguished from later human label parameters.",
+      "sourceScope": "PADCEV/ENHERTU PK, Nakada selected J-STAGE paragraphs and affiliation metadata; not a human safety inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-025",
+      "chapter": "2",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Verify the specific solitomab patient whose diarrhoea progressed to a fatal event after discontinuation, without broadening it to every product or patient.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "In one 65-patient phase 1 study the half-life was 4.5 hours and a grade 3 diarrhoea event progressed to grade 5 after stopping; this is a product-specific counterexample to guaranteed reversal.",
+      "sourceScope": "Kebenko 2018 resolved raw abstract; no class incidence inferred.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-026",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Worked example: two models, one binding result",
+      "requirement": "Retain original Models A/B: same controlled binding and uptake, different measured active action-compartment material and later survival under stated conditions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The original A/B direction is preserved: B has less action-site material and more surviving cells. Free-material testing discriminates hypotheses but does not prove a unique linker defect or select human care.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-027",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Worked example: two models, one binding result",
+      "requirement": "The A/B difference is after uptake but does not uniquely implicate the linker; processing, transport and other factors remain possible.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The original A/B direction is preserved: B has less action-site material and more surviving cells. Free-material testing discriminates hypotheses but does not prove a unique linker defect or select human care.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-028",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Worked example: two models, one binding result",
+      "requirement": "Test free active material with verified action-compartment exposure; sensitivity supports investigating delivery/processing while persistent insensitivity motivates payload-response tests, without selecting a human treatment.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The original A/B direction is preserved: B has less action-site material and more surviving cells. Free-material testing discriminates hypotheses but does not prove a unique linker defect or select human care.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-029",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Keep three practical clocks separate",
+      "requirement": "Retain the original development clock from candidate design through testing/development and the question of whether a clinically usable product exists.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-030",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Keep three practical clocks separate",
+      "requirement": "Retain the original manufacturing clock from a specified batch through quality release, distinct from developing a new product.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-031",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Keep three practical clocks separate",
+      "requirement": "Retain the original dosing/effect clock with a supported schedule and monitoring question; repeated protein dosing and personalised cell manufacture are separate tasks.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-032",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md"
+      },
+      "section": "Takeaway",
+      "requirement": "The original supporting link distinguishes overlapping research dependencies from concurrent clinical treatment; neither a modality name nor a project timeline authorises a treatment combination.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Development, batch quality release and post-dose exposure/effect are separate clocks. Clinical authorisation, material, eligibility, site and concurrent-use evidence are not supplied by a project timeline.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-033",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The dose/exposure/effect teach-back reuses the named-species, place, time and biological-readout distinctions.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST2-034",
+      "chapter": "2",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/02-timing.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/02-timing.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "Retain label-human PK, company-authored design work, regulator component guidance and model-specific transport/toxicity reading depths separately; no dose, duration, access or expert-review promise.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-001",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "A retained target after progression does not identify the resistance mechanism or show that another product avoids it.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Retained expression supports an address observation; delivery, response, resistance bypass and safety need separate evidence.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-002",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "Compare blocking antibody versus ADC as functional signal dependence versus chemical delivery and sensitivity, not a universal efficacy ranking.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Signal/dependence and chemical delivery/susceptibility are different jobs without a format-wide efficacy ranking.",
+      "sourceScope": "Named product label mechanisms plus inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-003",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "Compare ADC versus surface engager as chemical delivery/response versus productive immune contact and access.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "ADC processing, productive immune contact and administered engineered cells have different geometry, exposure, trafficking and functional requirements.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-004",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "Compare surface engager versus CAR as dosed recruiting protein versus receptor-engineered living cells, with geometry, signalling, exposure, trafficking and safety re-tested.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "ADC processing, productive immune contact and administered engineered cells have different geometry, exposure, trafficking and functional requirements.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-005",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "Compare ADC versus radioligand through chemical versus radiation action, distribution and dose; chemical resistance does not establish radiation sensitivity.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Chemical resistance does not establish radiation sensitivity; carrier distribution and absorbed dose need their own measurements.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-006",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Compare the requirements, not just the target name",
+      "requirement": "Neither stopping protein dosing nor an unvalidated engineered-cell switch guarantees reversible injury; persistence does not guarantee control or universal safety advantage.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Stopping a dose or adding a switch does not guarantee reversing an established injury, and persistence is not a safety advantage.",
+      "sourceScope": "Solitomab abstract counterexample plus retained construct-specific toxicity reasoning.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-007",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Keep the recognition requirement explicit",
+      "requirement": "TCR cells and peptide-HLA soluble engagers retain their exact target-complex requirement; intact-surface CAR/engager recognition can avoid that requirement without solving other barriers.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Conventional intact-surface recognition can avoid native peptide-HLA recognition while specialised complex-targeting products retain the specified complex and other effector barriers.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-008",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Normal-tissue expression changes the comparison",
+      "requirement": "Tumour enrichment over healthy tissue does not establish safety; accessible density, binding, exposure, action and full-product live-tissue evidence matter.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Enrichment is not safety; intended healthy-tissue recognition, unintended molecular cross-reactivity and inflammation remain separate and can coexist.",
+      "sourceScope": "Morgan resolved abstract and retained targeted full-text assessment, current PADCEV warning and assay-specific M-Rabet abstract.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-009",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Normal-tissue expression changes the comparison",
+      "requirement": "Separate on-target off-tumour recognition, unintended-target cross-reactivity and inflammatory toxicity, allowing more than one mechanism per event.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Enrichment is not safety; intended healthy-tissue recognition, unintended molecular cross-reactivity and inflammation remain separate and can coexist.",
+      "sourceScope": "Morgan resolved abstract and retained targeted full-text assessment, current PADCEV warning and assay-specific M-Rabet abstract.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-010",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Normal-tissue expression changes the comparison",
+      "requirement": "Verify the Morgan HER2-CAR single-event lung-injury example and the authors proposed low-normal-HER2 mechanism; do not infer a class risk estimate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The HER2-CAR event retains dose/conditioning, a single patient and the authors' proposed lung mechanism; it supplies no class risk estimate.",
+      "sourceScope": "Current Morgan abstract plus unchanged prior full-text-scoped paragraph; this cohort does not newly certify every autopsy detail.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-011",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Worked example",
+      "requirement": "Card A: controlled binding/uptake with low active material and independent action-compartment activity supports a processing/delivery hypothesis, not proof that a new linker works.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The three stipulated cards separate processing, useful effector access and normal-tissue recognition, each with its own next test and no format preference.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-012",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Worked example",
+      "requirement": "Card B: accessible target with scarce useful local T cells leaves access/function unresolved for an engager; engineered cells add their own requirements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The three stipulated cards separate processing, useful effector access and normal-tissue recognition, each with its own next test and no format preference.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-013",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Worked example",
+      "requirement": "Card C: accurate recognition of an important normal-cell target can produce harm; tolerability of an earlier product does not establish safety of a different action.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The three stipulated cards separate processing, useful effector access and normal-tissue recognition, each with its own next test and no format preference.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-014",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Worked example",
+      "requirement": "Use observation, supported conclusion, unresolved bottleneck and next discriminating test rather than converting plausible mechanism into a product preference.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The text carries observation, supported inference, remaining explanation and a discriminating measurement rather than promoting assay activity to clinical benefit.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-015",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Binding, controlled model activity, human observations and comparative benefit/harm are different evidence types with distinct inferential limits.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The text carries observation, supported inference, remaining explanation and a discriminating measurement rather than promoting assay activity to clinical benefit.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-016",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify ASCENT 468-person brain-metastasis-excluded primary population, prior-taxane/metastatic setting and physician-choice chemotherapy comparator rather than treating it as all randomised patients or early disease.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The 468-person no-brain-metastasis primary population, prior taxane and physician-choice comparator accompany PFS/OS and their hazard ratios.",
+      "sourceScope": "ASCENT 2021 resolved primary abstract; existing additional subgroup and UK catalogue text is not re-certified.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-017",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify ASCENT PFS 5.6 versus 1.7 months, HR 0.41, and OS 12.1 versus 6.7 months, HR 0.48, retaining endpoint, analysis population and comparator.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The 468-person no-brain-metastasis primary population, prior taxane and physician-choice comparator accompany PFS/OS and their hazard ratios.",
+      "sourceScope": "ASCENT 2021 resolved primary abstract; existing additional subgroup and UK catalogue text is not re-certified.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-018",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify Nathan 2021 tebentafusp in previously untreated HLA-A*02:01-positive metastatic uveal melanoma with its randomised investigator-selected comparator; the original survival claim remains product/population-specific.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The original 378-patient untreated HLA-A*02:01-positive metastatic-uveal comparison retains its actual investigator choices.",
+      "sourceScope": "Nathan 2021 resolved abstract and current KIMMTRAK clinical-study table.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-019",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Do not transfer these results to every engager, intact-surface product, breast cancer, postoperative use, post-same-payload ADC setting or an untested comparator.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Molecular restriction is different from testing another disease, line or setting. None of these results transfers automatically to another product, breast/postoperative use or prior-ADC sequence.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-020",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Keep product, disease, biomarker definition, prior treatment, comparator, endpoint and follow-up attached; eligibility/access cannot supply a missing efficacy comparison.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The actual product, population, prior treatment, comparator and endpoint accompany the examples; eligibility is not an efficacy comparison.",
+      "sourceScope": "Resolved trial abstracts and selected DB04 methods, plus current product-label clauses; no trial ranking.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-021",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Try it",
+      "requirement": "In the retained-target brochure, expression is the limited observation; resistance bypass and greater safety remain separate hypotheses requiring appropriate evidence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Retained expression supports an address observation; delivery, response, resistance bypass and safety need separate evidence.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-022",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify DESTINY-Breast04 total 557, HR-positive 494 and HR-negative 63, prior-chemotherapy HER2-low setting and physician-choice comparator.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The total 557, 494 HR-positive and 63 HR-negative randomisation counts, prior chemotherapy, HER2-low definition and physician-choice comparator remain attached.",
+      "sourceScope": "DB04 resolved primary abstract; existing corrected analysis-population nuance retained.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-023",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify the all-patient DB04 PFS 9.9 versus 5.1 months, HR 0.50, and OS 23.4 versus 16.8 months, HR 0.64; the primary endpoint was PFS in the HR-positive cohort and the 63 HR-negative patients were a subgroup.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Overall PFS/OS and hazard ratios are separated from the HR-positive primary endpoint, exploratory HR-negative analysis and later follow-up.",
+      "sourceScope": "DB04 abstract plus complete original statistical-analysis paragraph; no separately powered HR-negative claim.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-024",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify DB04 drug-related ILD 12.1% and fatal 0.8% within that trial rather than a universal or cross-product rate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The trial-specific 12.1% drug-related ILD/pneumonitis and 0.8% grade 5 are not assigned as a universal product/class rate.",
+      "sourceScope": "DB04 original raw abstract, with prior field wording preserved.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-025",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Resolve the 2026 TROPION-Breast02 report and verify 644 untreated advanced-TNBC patients not eligible for immunotherapy and its investigator-choice chemotherapy comparison.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The 644 untreated advanced-TNBC participants unsuitable for immunotherapy, investigator-choice comparator and actual PFS/OS hazard ratios remain product/population-specific.",
+      "sourceScope": "Dent 2026 resolved Annals abstract and relevant DATROWAY label text; later UK/EU catalogue assertions are not re-certified.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-026",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Verify TB02 PFS 10.8 versus 5.6 months, HR 0.57, and OS 23.7 versus 18.7 months, HR 0.79, with the actual population and endpoint context.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The 644 untreated advanced-TNBC participants unsuitable for immunotherapy, investigator-choice comparator and actual PFS/OS hazard ratios remain product/population-specific.",
+      "sourceScope": "Dent 2026 resolved Annals abstract and relevant DATROWAY label text; later UK/EU catalogue assertions are not re-certified.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-027",
+      "chapter": "3",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "From a model result to a clinical claim",
+      "requirement": "Qualify the claim that the tebentafusp population cannot be widened without changing the drug: molecular peptide-HLA restriction is distinct from evidence in another disease, line or setting.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Molecular restriction is different from testing another disease, line or setting. None of these results transfers automatically to another product, breast/postoperative use or prior-ADC sequence.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-028",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The comparison teach-back reuses the recognition, measured failure, normal-tissue and clinical-evidence questions without an independent result.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST3-029",
+      "chapter": "3",
+      "sourcePaths": {
+        "original": "wiki/education/targeted-therapy-modalities/06-comparisons.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/03-comparisons.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "Clinical examples illustrate trial scope, not a current approval inventory, treatment ranking or expert/learner sign-off.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-001",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Three ways an ADC can stop working",
+      "requirement": "Use delivery, payload action and cell response as an organising framework, not a proven clinical cause classifier or universally independent sequential jobs.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Delivery, payload action and response organise overlapping hypotheses. Neither format change nor one sampled mechanism validates a clinical cause classifier or automatic rescue.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-002",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Three ways an ADC can stop working",
+      "requirement": "Delivery failures can involve target, uptake or active-material access; a target/format change is a testable hypothesis, not assured repair.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Delivery, payload action and response organise overlapping hypotheses. Neither format change nor one sampled mechanism validates a clinical cause classifier or automatic rescue.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-003",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Three ways an ADC can stop working",
+      "requirement": "Payload-action failures can involve export or altered target; a new address carrying the same class can retain the vulnerability.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Delivery, payload action and response organise overlapping hypotheses. Neither format change nor one sampled mechanism validates a clinical cause classifier or automatic rescue.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-004",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Three ways an ADC can stop working",
+      "requirement": "Damage repair/tolerance can limit the cell response; blocking repair or changing action requires its own activity and safety evidence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Delivery, payload action and response organise overlapping hypotheses. Neither format change nor one sampled mechanism validates a clinical cause classifier or automatic rescue.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-005",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "The evidence behind this idea",
+      "requirement": "Resolve Rampa 2026 and verify retained target, efflux-driven resistance and different-payload activity in the actual breast cell/mouse models, not a clinical switch result.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Rampa's selected resistant breast lines and nude-mouse xenografts, efflux and tested MMAF results remain model observations, not a patient-switch result.",
+      "sourceScope": "Rampa resolved abstract and selected mouse-model/result paragraphs.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-006",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "The evidence behind this idea",
+      "requirement": "Resolve Abelman 2025 and verify 4/31 post-ADC versus 3/420 never-ADC TOP1 mutation observations and three previously undetected variants, retaining assay and cohort limitations rather than automatic acquisition/causation.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "4/31 versus 3/420 and three previously undetected variants retain the selected institutional/plasma scope; S57C was already detectable and non-detection is not absence.",
+      "sourceScope": "Abelman abstract plus targeted cohort/baseline/functional text.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-007",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "The evidence behind this idea",
+      "requirement": "These two studies do not themselves test a patient payload-switch strategy; a general absence-of-all-trials claim needs a bounded search or qualified evidence-gap statement.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The bounded statement describes what the two read mechanism studies did, without claiming a complete search for absent clinical trials.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-008",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Worked example",
+      "requirement": "Model A: lost M with free-payload sensitivity supports testing an alternative address, conditional on its expression/delivery and product evidence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Lost M plus sensitivity with verified action-site delivery motivates testing another accessible address and full-product delivery.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-009",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Worked example",
+      "requirement": "Model B: retained M and resistance to the tested TOP1 material motivate another action; do not turn a fictional observation into a quantified likelihood that every new TOP1 ADC fails.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Retained M and the stipulated TOP1/microtubule contrast motivate another action without inventing a failure probability for every TOP1 conjugate.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-010",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Worked example",
+      "requirement": "Model C: pump-blocker-associated restoration motivates a specific export hypothesis and controls; it is not proof from an inhibitor alone or a promise that a class switch escapes every pump.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Pump-blocker restoration motivates a controlled export hypothesis; inhibitor off-target effects and shared efflux remain possible.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-011",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Worked example",
+      "requirement": "Verify MMAE as a P-glycoprotein substrate in the relevant source context, so a microtubule label alone does not establish export evasion.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "MMAE is identified as a P-glycoprotein substrate, preventing a microtubule-class label from being treated as guaranteed pump escape.",
+      "sourceScope": "PADCEV in-vitro drug-interaction section read.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-012",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Sort the real breast-cancer ADCs the same way",
+      "requirement": "Verify the US-dated TROP2/SN-38 SG and TROP2/DXd Dato-DXd placements and indication scope.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Four named current U.S. label examples retain address, payload and different eligibility/testing settings rather than a target-only treatment choice.",
+      "sourceScope": "Four current U.S. labels; not an exhaustive approval inventory.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-013",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Sort the real breast-cancer ADCs the same way",
+      "requirement": "Verify HER2/DXd T-DXd and HER2/DM1 T-DM1, retaining HER2-positive versus low-expression indication differences.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Four named current U.S. label examples retain address, payload and different eligibility/testing settings rather than a target-only treatment choice.",
+      "sourceScope": "Four current U.S. labels; not an exhaustive approval inventory.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-014",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Sort the real breast-cancer ADCs the same way",
+      "requirement": "Verify the dated US no-approved-TROP2-microtubule and TNBC-ADC TOP1-column statements rather than global absence or a statement about all TNBC drugs.",
+      "class": "substantive",
+      "disposition": "partial; named source claim not adopted",
+      "entailment": "The record explicitly limits the examples to four named labels. No exhaustive dated U.S. negative approval inventory has been established.",
+      "sourceScope": "Four positive label examples only.",
+      "remaining": [
+        "The source's no-approved-TROP2-microtubule and all-TNBC-ADC-TOP1 negative inventory claims are not verified or adopted. A bounded authoritative inventory search remains required."
+      ]
+    },
+    {
+      "id": "ST4-015",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Sort the real breast-cancer ADCs the same way",
+      "requirement": "Reading across/down the target-payload grid changes a design axis, not proven response; target level alone does not validate treatment selection.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Changing either axis is a design change rather than a measured probability of response; target alone does not validate selection.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-016",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Patient resistance mechanisms can be incompletely sampled and heterogeneous; blood and tissue see different changes and one tumour can contain multiple failures.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Delivery, payload action and response organise overlapping hypotheses. Neither format change nor one sampled mechanism validates a clinical cause classifier or automatic rescue.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-017",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "A shorter later-line benefit alone does not identify cross-resistance; qualify the universal later-treatments-are-shorter wording and retain selection/disease-history confounding.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Later-line duration can reflect disease history and selection, so it is not a cause-specific cross-resistance measurement.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-018",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "What can go wrong at this step",
+      "requirement": "Payload changes can change toxicities; use product-specific nerve, eye, marrow, gastrointestinal and lung evidence rather than a universal safety ranking or identical deruxtecan warnings.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Product-specific toxicity examples are not directly ranked across studies; the normal-tissue and label cautions prevent a universal safety or identical-warning inference.",
+      "sourceScope": "Current PADCEV/SG/TDXd/Dato/TDM1 warning passages plus inherited prior labelled rates. Other numeric examples in the retained note are not newly re-verified.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-019",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Try it",
+      "requirement": "For fictional 25% responses after prior ADC, preserve the prior agents/classes, actual progression on TOP1 ADC, response denominator/duration, target entry rule and harms; neither prior benefit duration nor response alone substitutes for a valid comparative benefit test.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The stipulated 25% report retains actual prior agents/progression, denominator/duration, target entry and harms. Activity alone does not establish comparative benefit.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-020",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The failure/next-test teach-back reuses the measured-bottleneck framework without selecting a clinical treatment.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST4-021",
+      "chapter": "4",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "Keep model reversal, observational mutation cohorts, reviews and labels separate; expert/learner review and a validated clinical sequencing rule remain unclaimed.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-001",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "State the biological process and the rationale for antibody delivery versus the active material alone; use a measurable hypothesis rather than a marketing-based verdict.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each proposed cargo has a falsifiable biological bet and staged model/exposure/harm and clinical comparisons. No single-study certificate or unsearched universal absence is asserted.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-002",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Locate the proposed delivery, action or cell-response problem, while assessing rather than inheriting the claim that changing one level can do nothing for another.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-003",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Define therapeutic-window failure with the relevant exposure, tissue and endpoint rather than a universal effective/harmful-dose gap.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "An experimental ratio and a range retain their useful/harmful endpoints, time, population and exposure; no universal safe dose gap is inferred.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-004",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Heterogeneity can leave cells without the proposed vulnerability; presence in a model or most cells does not establish complete patient coverage.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A cohort prevalence or one core cannot establish every cell's proposed vulnerability, full delivery or patient coverage.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-005",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Assess payload amount, loading and potency relative to delivered active concentration; a handful-per-antibody shorthand is not a universal delivery ceiling.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-006",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Immune stimulation can create inflammatory harm and a mismatched causal hypothesis can make a redesign irrelevant; neither is established by the format name.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Immune activation can produce harm; a mismatched causal bet is not rescued by naming a format.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-007",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "The four questions",
+      "requirement": "Specify staged discriminating experiments and the clinical comparison matching a post-TOP1 claim; one trial does not universally settle mechanism, safety and benefit, and TOP1-naive activity does not answer the same question.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each proposed cargo has a falsifiable biological bet and staged model/exposure/harm and clinical comparisons. No single-study certificate or unsearched universal absence is asserted.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-008",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Tubulin switching is a different target/action hypothesis; do not assume every TOP1 defence is absent or every pump differs.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-009",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Redesigned TOP1 agents can change potency, transport and permeability while retaining class vulnerabilities; measured improvements require the full conjugate and appropriate resistant models.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-010",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "A dual-payload proposal must demonstrate both active exposures and a meaningful comparison; shared delivery/efflux/tolerance can protect against both, so no unsupported low joint-resistance probability is inferred.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The specified mouse comparison does not show a low joint-resistance probability; each payload needs loading, release/exposure, single-payload comparisons and combined-harm assessment.",
+      "sourceScope": "Yamazaki resolved abstract; Company C reasoning uses stipulated model/no-patient premises.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-011",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "DDR/checkpoint-inhibitor payloads propose changing damage response but remain chemical interventions with biomarker, exposure and normal-tissue requirements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Damage-response, transcription and innate-activation designs require their own chemical, cell-state, biomarker, exposure and safety evidence. No quiescent-cell killing or durable memory is assumed.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-012",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Transcription-inhibitor payloads require drug/model-specific evidence for effects in noncycling cells; do not adopt a blanket DNA/tubulin-spares-quiescent-cells or guaranteed killing contrast.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Damage-response, transcription and innate-activation designs require their own chemical, cell-state, biomarker, exposure and safety evidence. No quiescent-cell killing or durable memory is assumed.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-013",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Immune-stimulating conjugates propose innate activation and downstream immune effects; durable immunity outliving the drug is a hypothesis requiring its own evidence, not an automatic consequence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Damage-response, transcription and innate-activation designs require their own chemical, cell-state, biomarker, exposure and safety evidence. No quiescent-cell killing or durable memory is assumed.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-014",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Bispecific/biparatopic designs can alter binding, uptake or processing with a familiar payload, but do not guarantee it or uniquely exhaust delivery strategies.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Two-address binding is a testable delivery design among other carrier/linker/release approaches; it does not uniquely exhaust the solutions or guarantee uptake.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-015",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Alpha radioconjugates require radionuclide/carrier retention, distribution, dose and biological evidence; qualify no-uptake/no-export and hard-to-repair claims by what was actually measured.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-016",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sort the strategies",
+      "requirement": "Assess the claims that only bispecifics address delivery and only cell-response rows escape chemistry; the framework is not a mutually exclusive taxonomy or established safety-predictability ranking.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The proposed delivery/action/response categories overlap. Each redesign needs its own full-construct exposure, relevant resistant model, response and normal-tissue evidence; potency, density, alpha or class names are not sufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-017",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "Fictional Company A has a stated 100-fold model-potency claim and no treated patients; preserve assay/comparator and do not infer improved human benefit or a proportional marrow effect.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The stipulated 100-fold cell-potency result and mouse regression with no patients provide neither proportional marrow toxicity nor human efficacy, export evasion or a therapeutic window.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-018",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "Company A needs resistant-model, delivery/exposure and human tolerability evidence; more potency does not itself establish export evasion, target-mutation rescue or a therapeutic window.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The stipulated 100-fold cell-potency result and mouse regression with no patients provide neither proportional marrow toxicity nor human efficacy, export evasion or a therapeutic window.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-019",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "Fictional Company B has model activity and six dose-escalation patients without a comparative benefit result; the repair-blocking bet and proposed biomarker need mechanistic and clinical tests.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Six uncontrolled dose-escalation participants do not establish comparative benefit, predictive biomarker validity or mechanism; concentration or dispersion of responses alone is insufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-020",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "For Company B, response concentration in a biomarker group is not alone predictive validity or proof of mechanism; lack of concentration alone does not show the mechanism is absent.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Six uncontrolled dose-escalation participants do not establish comparative benefit, predictive biomarker validity or mechanism; concentration or dispersion of responses alone is insufficient.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-021",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "Fictional Company C has mouse/resistant-line activity and no treated patients; two actions on one antibody do not guarantee two effective intracellular exposures.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Company C's resistant-cell/mouse premise with no patients leaves each active intracellular exposure, relevant single-payload comparisons and combined harms unresolved.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-022",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Worked example",
+      "requirement": "Company C needs relevant single-payload comparisons, adequate loading/exposure and combined-toxicity tests rather than comparison only with no treatment.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Company C's resistant-cell/mouse premise with no patients leaves each active intracellular exposure, relevant single-payload comparisons and combined harms unresolved.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-023",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Try it",
+      "requirement": "Four shrinkages among 18 fictional patients describe an uncontrolled activity observation, not a biomarker-qualified benefit estimate or a known mechanism.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Four shrinkages among 18 fictional patients are uncontrolled activity. The post-TOP1 claim still needs progression history, dose harm, exposure, target/response evidence and meaningful active-material/full-conjugate comparisons.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-024",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Try it",
+      "requirement": "The checkpoint-payload exercise requires prior-TOP1 progression detail, dose-limiting harm, adequate active exposure, target/biomarker evidence and a meaningful free-drug/full-conjugate comparison.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Four shrinkages among 18 fictional patients are uncontrolled activity. The post-TOP1 claim still needs progression history, dose harm, exposure, target/response evidence and meaningful active-material/full-conjugate comparisons.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-025",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Takeaway",
+      "requirement": "Replace or bound the almost-none-have-run-the-study assertion; the actual evidence gaps and next test must be named rather than inferred from unsearched global absence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each proposed cargo has a falsifiable biological bet and staged model/exposure/harm and clinical comparisons. No single-study certificate or unsearched universal absence is asserted.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-026",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The four-question teach-back and common-confusion list recap hypotheses, evidence levels, prior treatment, toxicity and heterogeneity without an independent empirical result.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST5-027",
+      "chapter": "5",
+      "sourcePaths": {
+        "original": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md",
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/05-read-a-new-payload-strategy.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "The three framework papers do not certify every strategy-specific claim; linked reviews are discovery references until their relevant primary support is read. No clinical ranking or sequencing advice follows.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-001",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Assess abundance, normal tissue, format behaviour and heterogeneous distribution together; no universal target threshold or sufficient checklist is established.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Amount, normal tissues, actual-format behaviour and heterogeneity remain joint questions. Static receptor count and loading do not establish a cumulative delivery ceiling or universal cutoff.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-002",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "A static surface-copy count and loading ratio do not by themselves impose an absolute cumulative delivered-dose ceiling across receptor turnover, time and release routes.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Amount, normal tissues, actual-format behaviour and heterogeneity remain joint questions. Static receptor count and loading do not establish a cumulative delivery ceiling or universal cutoff.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-003",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Resolve Jacot 2025 and verify 225/228 membrane-positive nonmetastatic TNBCs and 58.8% strong/high staining with the actual antibody, H-score boundary and cohort.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Jacot's Enzo antibody, H-score bins, nonmetastatic cohort, 225/228 membrane-positive and 58.8% strong group retain their assay and cohort.",
+      "sourceScope": "Jacot resolved raw abstract; no harmonised clinical threshold inferred.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-004",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Resolve Izci 2022 and verify 589 scored TNBCs and high 16.5%, medium 25.3%, low 58.2% with its actual assay/cutoffs; do not treat the two series as harmonised prevalence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Izci's 589 scored denominator and 97/149/343 groups are kept distinct from the 685 overall patients and from a positivity denominator.",
+      "sourceScope": "Izci abstract plus targeted assay/table/results/discussion reading; its discussion's 589/685 positivity shorthand is not adopted.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-005",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Verify the Damelin ADC-target survey and its no-optimal-parameter finding within that dated target set rather than a universal impossibility claim.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The dated Damelin survey could not formalise optimal parameters in its target set; this does not establish universal impossibility.",
+      "sourceScope": "Damelin 2015 resolved raw abstract.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-006",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Verify Stepan TROP2 normal/tumour expression at transcript and protein levels; distribution, accessible protein and product toxicity are separate measurements.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Normal-tissue transcript/protein expression, accessible live-cell exposure, label testing policy and product safety remain separate.",
+      "sourceScope": "Stepan 2011 resolved raw abstract; not a universal normal-tissue atlas.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-007",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Verify M-Rabet Nectin-4 membrane staining in 62% of 61 TNBCs and no detected adult-normal signal in that particular assay, without claiming universal normal-tissue absence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "62% of 61 TNBC samples and the negative adult-normal assay result retain assay scope rather than universal absence.",
+      "sourceScope": "M-Rabet 2017 resolved raw abstract.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-008",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Qualify product-specific ADC uptake/release requirements, radioligand binding/retention and optional internalisation, and engager geometry/density without universal format thresholds.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Processing, retention and immune contact depend on the product; the platform name supplies no generic low-density ranking or universal threshold.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-009",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Assess the low-density-engager versus potent-ADC comparison as product-specific, not a generic ranking supplied by a format name.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Processing, retention and immune contact depend on the product; the platform name supplies no generic low-density ranking or universal threshold.",
+      "sourceScope": "Premise-backed reading rule; the named product results retain separate source depth.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-010",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "Verify Seaman B7-H3 cancer-cell and tumour-vessel expression and the specific MMAE-versus-PBD conjugate results in mouse models; keep payload, compartment and model together.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The tested MMAE cancer-cell and PBD dual-compartment mouse results retain the antibody, payload, compartment and model.",
+      "sourceScope": "Seaman abstract plus selected MMAE/expression passages; no human breast prevalence or efficacy inference.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-011",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The four questions",
+      "requirement": "A single core/site/date can miss heterogeneous expression; bystander and dual-address strategies are conditional examples, not guaranteed coverage or an exhaustive set of solutions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A single site/date can miss heterogeneity; bystander/two-address approaches are conditional examples rather than an exhaustive guarantee.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-012",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Verify both TROP2-ADC US-label statements and lack of a required TROP2 selection assay at the stated date, using each actual product label.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each actual U.S. label has its own indications without requiring a TROP2 selection assay; other biomarker and setting requirements remain.",
+      "sourceScope": "Both current label indication/selection sections read.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-013",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Verify Denkert pooled 2310 HER2-non-amplified tumours from four neoadjuvant trials and HER2-low in 395/1162 HR-negative tumours; this is a testing category in a selected population, not a new receptor protein.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The 2310 pooled, four-trial nonamplified population and 395/1162 HR-negative HER2-low subset retain the assay definition and selected population.",
+      "sourceScope": "Denkert 2021 resolved raw abstract; no universal TNBC prevalence inferred.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-014",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Keep HER2-low staining separate from indication eligibility and product-specific cardiac assessment; verify the cited LVEF monitoring requirement without an individual monitoring instruction.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "HER2 score, indication and cardiac assessment are distinct; before-treatment and regular clinically indicated LVEF assessment is label-scoped.",
+      "sourceScope": "ENHERTU section 5.3 read directly, not a personal monitoring instruction.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-015",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Nectin-4 normal-tissue findings do not establish a safety advantage; retain the enfortumab severe/fatal skin warning and resolve any cited alternative normal-expression surveys before use.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "A negative normal-tissue assay does not establish a safety advantage; severe/fatal skin reactions remain an actual product warning.",
+      "sourceScope": "M-Rabet assay-specific abstract and PADCEV boxed warning. No unread alternative normal-tissue survey is adopted.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-016",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Resolve EV-202 and verify 42 advanced-TNBC participants, confirmed ORR 19.0% and disease control 57.1%, with study threshold and noncomparative design rather than a target ranking.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "42 TNBC participants, ORR 19.0%, DCR 57.1%, failure to meet the threshold and nonrandomised design remain separate from the whole 329-person programme.",
+      "sourceScope": "Raw Crossref publisher-registered abstract and current registry; no numeric threshold is invented from blocked publisher text.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-017",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Keep B7-H3 dual-compartment preclinical work separate from a verified TNBC prevalence estimate or breast approval.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Preclinical compartments do not supply a validated TNBC prevalence or a breast indication.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-018",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Verify the three named ifinatamab phase-3 registry states and their lung, prostate and oesophageal populations at a dated capture; registry phase/recruitment is not efficacy or access.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Each of three dated phase 3 recruiting studies keeps its actual disease. The Lung02 primary outcome is OS, with response secondary, and no posted results.",
+      "sourceScope": "Six raw registry records selected identity/status/condition/phase/outcome fields; no protocol-wide or access claim.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-019",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Resolve Sussman LIV-1 expression, hormonal-treatment retention, TNBC upregulation and specific conjugate trafficking; cancer-type expression does not supply a normal-tissue denominator.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Sussman's expression, hormonal-treatment retention, TNBC upregulation and actual MMAE trafficking model are separate from a normal-tissue denominator or clinical validation.",
+      "sourceScope": "Sussman 2014 resolved raw abstract.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-020",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Verify the two ladiratuzumab registry completion states independently of approval or current availability; a completed trial is not an approved therapy.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Both ladiratuzumab study states are completed, not terminated; completion does not establish approval, an open site or availability.",
+      "sourceScope": "Two raw ClinicalTrials.gov status records checked on 11 November 2026.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-021",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "The real candidates in triple-negative breast cancer",
+      "requirement": "Assess the TROP2-wins/Nectin-4-better-but-lost ranking: different assays, cohorts, products and study designs do not establish a direct comparative target, safety or clinical-efficacy hierarchy.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "Unrelated tissue surveys, a phase 2 cohort and randomised trials cannot rank the intrinsic target, safety or product efficacy.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-022",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "Try it",
+      "requirement": "For a fictional 85%-positive/minimal-normal-staining proposal, require antibody/cutoff/cohort, cells per tumour, normal tissues/method, full-product distribution, processing and payload evidence; no IHC rate alone validates the address.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at stated source scope",
+      "entailment": "The fictional 85% claim still needs assay/cutoff/cohort, within-tumour and normal-tissue coverage, and full-product delivery and response evidence.",
+      "sourceScope": "Premise-backed interpretation of separately measured quantities; not a new empirical or clinical result.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-023",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "Explain it back",
+      "requirement": "The quantity/normal-tissue/format/distribution teach-back and confusion list recap the qualified selection questions without a new outcome.",
+      "class": "derived-recap",
+      "disposition": "derived recap; no independent teaching credit",
+      "entailment": "The recap and navigation metadata reuse their substantive chapter proofs without an independent empirical result.",
+      "sourceScope": "Course routing/duration does not describe a pharmacological schedule.",
+      "remaining": []
+    },
+    {
+      "id": "ST6-024",
+      "chapter": "6",
+      "sourcePaths": {
+        "later": "wiki/education/guides/aiming-a-drug-at-a-surface-target/06-choose-a-target.md"
+      },
+      "section": "Sources and scope",
+      "requirement": "Retain assay-specific prevalence, model work, labels and registry status at their own source depths; no individual recommendation, current access promise or expert/learner approval.",
+      "class": "source-scope",
+      "disposition": "source-scope metadata; no teaching credit",
+      "entailment": "Sources, read depth and pending expert/learner review remain separate from coverage.",
+      "sourceScope": "See primary-sources.json.",
+      "remaining": []
+    }
+  ],
+  "countsByVersion": {
+    "original": {
+      "represented in registered audit-draft fields at stated source scope": 116,
+      "derived recap; no independent teaching credit": 6,
+      "source-scope metadata; no teaching credit": 6,
+      "partial; named source claim not adopted": 1
+    },
+    "later": {
+      "represented in registered audit-draft fields at stated source scope": 154,
+      "derived recap; no independent teaching credit": 7,
+      "source-scope metadata; no teaching credit": 7,
+      "partial; named source claim not adopted": 1
+    }
+  },
+  "noIndependentCreditForRecapsOrSourceScope": true
+}

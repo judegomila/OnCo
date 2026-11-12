@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-09",
+  "validate": {
+    "exit": 0,
+    "entities": 22719
+  },
+  "typecheck": {
+    "exit": 0
+  },
+  "lint": {
+    "exit": 0,
+    "errors": 0,
+    "existingWarnings": 7
+  },
+  "focusedTests": {
+    "exit": 0,
+    "files": 2,
+    "passed": 12
+  },
+  "fullSuite": {
+    "exit": 0,
+    "files": 283,
+    "passed": 2825,
+    "existingSkipped": 2,
+    "seconds": 99.6
+  },
+  "sourceLedgers": {
+    "originalExit": 2,
+    "laterPhaseExit": 2,
+    "staleOrMissingProofs": 0,
+    "reason": "Unread and residual work is still open; not a completed audit."
+  },
+  "floorsBudgetsRankingAndBenchmarkQuestionsChanged": false,
+  "deployment": "Not merged or deployed."
+}

@@ -1,0 +1,12 @@
+{
+  "sourceVersionsVerified": 28,
+  "sourceBlocksReconciled": 261,
+  "sharedRequirements": 49,
+  "figureInventoryEntriesVerified": 30,
+  "figurePaths": 15,
+  "verifiedWorkerCommits": [
+    "3d78cf048fc1323091f4567afd286d81fc6ccebd",
+    "7a62395f6a87e45d6037de6f554ae46962f49e37"
+  ],
+  "scope": "Custody/integrity checks support the worker assessments; coordinator separately read the resolved primary abstracts and selected full-text/curated-reference passages, and checked actual current record body evidence."
+}

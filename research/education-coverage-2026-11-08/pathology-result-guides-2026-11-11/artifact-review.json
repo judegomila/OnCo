@@ -1,0 +1,375 @@
+{
+  "diagramInstances": 10,
+  "uniqueCodes": 5,
+  "renders": [
+    {
+      "codeSha256": "62cc68748558b63441ecdfd96d20c5b61e5e71e90183fe0f341ae2c50a4e8b36",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "5380d25dcf31ae49519024fe1d7777edb3b4ce44d7105f9cd25af664f2d9cf7a",
+      "width": 168,
+      "height": 496,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "62cc68748558b63441ecdfd96d20c5b61e5e71e90183fe0f341ae2c50a4e8b36",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "f0a2b0eed08e63ce6c30af37845f66cbf3d8a052653bfa85c9f9bb13137a2f62",
+      "width": 168,
+      "height": 496,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "98bd1d6491c0615a97f665f52ef3b9306865bed8b7aa64b0ac983a552c7b75e7",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-default.png",
+      "renderSha256": "af2f0d1e01982e28e6bf4e410147c44286e2518372d7edf2b8834e49bf44016d",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "98bd1d6491c0615a97f665f52ef3b9306865bed8b7aa64b0ac983a552c7b75e7",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-dark.png",
+      "renderSha256": "0fead4ef2d9575a5ac0a08f3bae73f35e9242ae897aa8f3ad7204b7745c2534f",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "ce4622ad7c9542fab8cc1f86d30e535c12d64644305e392adec89fff99f87dd9",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-default.png",
+      "renderSha256": "80f92a3b5fd3c1af642dcabe09f481d90558255daa235aa1bbb2e536db11c9ff",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "ce4622ad7c9542fab8cc1f86d30e535c12d64644305e392adec89fff99f87dd9",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-dark.png",
+      "renderSha256": "f671009ad9bc09d0bf50b3abdb123d90a8cdcf1e361f47a26fb3add680a1306d",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "952aef858b38fce16a9796e6023aa080fa5f437609384091eb23e64e772b5056",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-default.png",
+      "renderSha256": "1081d6588d1a0a0ea423b6f78322b28cfcf15d53215c2ad0aca70e7912f2ba2e",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "952aef858b38fce16a9796e6023aa080fa5f437609384091eb23e64e772b5056",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-dark.png",
+      "renderSha256": "1b703c679beafeb2db04f31bef18fc806e06be2646720ddace581d5c44eea758",
+      "width": 168,
+      "height": 312,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "fd4dbe0d6da2738fbc682de1a509cfbcdf4ac86caffb77802a5519642249b397",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-5-default.png",
+      "renderSha256": "4466a722d6fc559cf253e5ff9a9a3710077975c3a33960858105d2a73ff4f390",
+      "width": 168,
+      "height": 496,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    },
+    {
+      "codeSha256": "fd4dbe0d6da2738fbc682de1a509cfbcdf4ac86caffb77802a5519642249b397",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-5-dark.png",
+      "renderSha256": "5ec7ed947f3c383e53ff63e59f954fad71aa42d2ee3bd346bf0c01c0342ad236",
+      "width": 168,
+      "height": 496,
+      "viewed": true,
+      "view": "Whole native-extent headless-Chrome render viewed; no cropped span",
+      "finding": "No scientific or legibility defect observed"
+    }
+  ],
+  "standaloneAssets": 2,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "noNativeGuidePageOrAccessibilityCertification": true,
+  "standaloneAssetReview": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+      "bytes": 8103,
+      "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338",
+      "gitBlob": "c13704c0a4cc3e286d5e0a46b0df6ce6a3074d96",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+      "bytes": 8103,
+      "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0",
+      "gitBlob": "1f02409d202f94f4626ff39d305ef866685dcd44",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+      "bytes": 8103,
+      "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338",
+      "gitBlob": "c13704c0a4cc3e286d5e0a46b0df6ce6a3074d96",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+      "bytes": 8103,
+      "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0",
+      "gitBlob": "1f02409d202f94f4626ff39d305ef866685dcd44",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+      "bytes": 2332,
+      "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+      "gitBlob": "f6b46c59421e27a093acc8a71a98821f8435760a",
+      "scope": "teaching",
+      "role": "fictional worked data",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Complete fictional data JSON body read; every plan/record/collection/addendum value and 4/3/1 counts agree with both viewed SVGs and the current owner passage. No clinical regimen, hold cause or outcome inferred."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+      "bytes": 2332,
+      "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+      "gitBlob": "f6b46c59421e27a093acc8a71a98821f8435760a",
+      "scope": "teaching",
+      "role": "fictional worked data",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Complete fictional data JSON body read; every plan/record/collection/addendum value and 4/3/1 counts agree with both viewed SVGs and the current owner passage. No clinical regimen, hold cause or outcome inferred."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-provenance.json",
+      "bytes": 4896,
+      "sha256": "e5a7d4c5ea8eb459d6dd3d87b3ef28e8e246803faecd534af3cfae5f99cfb5c2",
+      "gitBlob": "28b7feadbf6e0f3df87538764283a0516d1b97cb",
+      "scope": "supporting",
+      "role": "documented-mixed provenance with duplicate reader copy",
+      "coverageCredit": 0,
+      "rationale": "Complete provenance body read; embedded caption and alt equal the owner at both pins, and toy/SVG hashes match. This is supporting mixed provenance with duplicated reader copy, no teaching credit. Historical before/prospective owner hashes match neither pin; generator/authoring claims are self-attestations, not scientific, owner, expert or learner approval."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-provenance.json",
+      "bytes": 4896,
+      "sha256": "e5a7d4c5ea8eb459d6dd3d87b3ef28e8e246803faecd534af3cfae5f99cfb5c2",
+      "gitBlob": "28b7feadbf6e0f3df87538764283a0516d1b97cb",
+      "scope": "supporting",
+      "role": "documented-mixed provenance with duplicate reader copy",
+      "coverageCredit": 0,
+      "rationale": "Complete provenance body read; embedded caption and alt equal the owner at both pins, and toy/SVG hashes match. This is supporting mixed provenance with duplicated reader copy, no teaching credit. Historical before/prospective owner hashes match neither pin; generator/authoring claims are self-attestations, not scientific, owner, expert or learner approval."
+    }
+  ],
+  "standaloneThemeRenders": [
+    {
+      "theme": "light",
+      "width": 360,
+      "height": 760,
+      "renderSha256": "39d1fc36fbcbe46b4f6f2628ca016a33acb1f23bf4664fc81616ce07b042be7f",
+      "viewed": true,
+      "finding": "All clock labels and connectors legible; fictional held-versus-administered and addendum-to-A relationships agree with context"
+    },
+    {
+      "theme": "dark",
+      "width": 360,
+      "height": 760,
+      "renderSha256": "91e4d3b9a1e00e3420e709d31d9ddd8fe68380df1c43bf732c6d25e543698af5",
+      "viewed": true,
+      "finding": "All clock labels and connectors legible; fictional held-versus-administered and addendum-to-A relationships agree with context"
+    }
+  ],
+  "custodyChecks": [
+    {
+      "version": "original",
+      "captionExactSubstring": true,
+      "altExactSubstring": true,
+      "ownerBeforeMatches": false,
+      "ownerProspectiveMatches": false,
+      "toyHashMatches": true,
+      "imageHashesMatch": true
+    },
+    {
+      "version": "later",
+      "captionExactSubstring": true,
+      "altExactSubstring": true,
+      "ownerBeforeMatches": false,
+      "ownerProspectiveMatches": false,
+      "toyHashMatches": true,
+      "imageHashesMatch": true
+    }
+  ]
+}

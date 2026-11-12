@@ -1,0 +1,90 @@
+{
+  "keywordPlan": {
+    "queries": [
+      {
+        "id": "chk1-conjugate-aliases",
+        "params": {
+          "query.term": "(\"antibody\" OR \"conjugate\" OR \"ADC\") AND (\"CHK1\" OR \"CHEK1\" OR \"checkpoint kinase 1\" OR \"AZD7762\" OR \"prexasertib\")"
+        }
+      }
+    ]
+  },
+  "keywordManifest": {
+    "source": "ClinicalTrials.gov API v2",
+    "complete": true,
+    "queries": [
+      {
+        "id": "chk1-conjugate-aliases",
+        "params": {
+          "query.term": "(\"antibody\" OR \"conjugate\" OR \"ADC\") AND (\"CHK1\" OR \"CHEK1\" OR \"checkpoint kinase 1\" OR \"AZD7762\" OR \"prexasertib\")"
+        },
+        "complete": true,
+        "pages": 1,
+        "retrievedCount": 4,
+        "totalCount": 4
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "chk1-conjugate-aliases/page-0001.json",
+        "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28%22antibody%22+OR+%22conjugate%22+OR+%22ADC%22%29+AND+%28%22CHK1%22+OR+%22CHEK1%22+OR+%22checkpoint+kinase+1%22+OR+%22AZD7762%22+OR+%22prexasertib%22%29&format=json&pageSize=100&countTotal=true",
+        "retrievedAt": "2026-11-09T07:10:16.527098+00:00",
+        "bytes": 57564,
+        "sha256": "53ee821fd0756dd4a9a71d4c0a81b640f331c3666d10c1cb9f547391dd16e085"
+      }
+    ],
+    "uniqueRecords": 4,
+    "statuses": {
+      "COMPLETED": 4
+    }
+  },
+  "identifierPlan": {
+    "queries": [
+      {
+        "id": "semantic-and-paper-identifiers",
+        "params": {
+          "filter.ids": "NCT01870596,NCT02124148,NCT02514603,NCT02555644,NCT02808650,NCT02873975,NCT03057145,NCT03495323,NCT03678883,NCT03735446,NCT04508803,NCT05659732,NCT05827614,NCT05983523"
+        }
+      }
+    ]
+  },
+  "identifierManifest": {
+    "source": "ClinicalTrials.gov API v2",
+    "complete": true,
+    "queries": [
+      {
+        "id": "semantic-and-paper-identifiers",
+        "params": {
+          "filter.ids": "NCT01870596,NCT02124148,NCT02514603,NCT02555644,NCT02808650,NCT02873975,NCT03057145,NCT03495323,NCT03678883,NCT03735446,NCT04508803,NCT05659732,NCT05827614,NCT05983523"
+        },
+        "complete": true,
+        "pages": 1,
+        "retrievedCount": 14,
+        "totalCount": 14
+      }
+    ],
+    "artifacts": [
+      {
+        "path": "semantic-and-paper-identifiers/page-0001.json",
+        "url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT01870596%2CNCT02124148%2CNCT02514603%2CNCT02555644%2CNCT02808650%2CNCT02873975%2CNCT03057145%2CNCT03495323%2CNCT03678883%2CNCT03735446%2CNCT04508803%2CNCT05659732%2CNCT05827614%2CNCT05983523&format=json&pageSize=100&countTotal=true",
+        "retrievedAt": "2026-11-09T07:13:03.350860+00:00",
+        "bytes": 419800,
+        "sha256": "6c71d89226f2e2831eb7102ff4a7497815c58fcf83232cc4276a8a7d6b257647"
+      }
+    ],
+    "uniqueRecords": 14,
+    "statuses": {
+      "COMPLETED": 9,
+      "ACTIVE_NOT_RECRUITING": 1,
+      "TERMINATED": 2,
+      "RECRUITING": 2
+    }
+  },
+  "counts": {
+    "keywordRows": 4,
+    "semanticRows": 10,
+    "directUniqueIds": 14,
+    "identifierPages": 1
+  },
+  "rawResponses": "Retained outside checkout; public protocol contacts/narrative bodies not copied here."
+}

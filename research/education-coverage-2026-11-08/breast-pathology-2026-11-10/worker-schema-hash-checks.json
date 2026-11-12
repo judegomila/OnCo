@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ki-67-index",
+    "sha": "3d0b4ca0b5040781132bc5969286599e3c2da3d81a4be9e43f8c5921c7205610",
+    "expected": "3d0b4ca0b5040781132bc5969286599e3c2da3d81a4be9e43f8c5921c7205610",
+    "match": true
+  },
+  {
+    "id": "extranodal-extension",
+    "sha": "4bb56dfee177d6d2b3d028f98b191b224b401f31f83812e276c91eecfcf4b65c",
+    "expected": "4bb56dfee177d6d2b3d028f98b191b224b401f31f83812e276c91eecfcf4b65c",
+    "match": true
+  },
+  {
+    "id": "sentinel-lymph-node-biopsy",
+    "sha": "a0166e62d203695067f1f58a4afd93a428b71938aa9a496d7cc7fdd2e2b5e7ab",
+    "expected": "a0166e62d203695067f1f58a4afd93a428b71938aa9a496d7cc7fdd2e2b5e7ab",
+    "match": true
+  },
+  {
+    "id": "dcis",
+    "sha": "5b89bb3e2bedf0d6faa66cef8b456d1e1b9cad6b1574337ae14665abca189563",
+    "expected": "5b89bb3e2bedf0d6faa66cef8b456d1e1b9cad6b1574337ae14665abca189563",
+    "match": true
+  },
+  {
+    "id": "pcr",
+    "sha": "d1240e83b052c74d133392fa126350ef8b7246aa8de1184e320ecded8e07876f",
+    "expected": "d1240e83b052c74d133392fa126350ef8b7246aa8de1184e320ecded8e07876f",
+    "match": true
+  },
+  {
+    "id": "rcb",
+    "sha": "251c438b2b183fd6a24977b66ae26be8d91cad8a3f64083c64d9b41f611d6ef5",
+    "expected": "251c438b2b183fd6a24977b66ae26be8d91cad8a3f64083c64d9b41f611d6ef5",
+    "match": true
+  },
+  {
+    "id": "tnm-staging",
+    "sha": "28c878bfb3399e6551d5db296c4e585a4694488f633405bb044d6c56488879a5",
+    "expected": "28c878bfb3399e6551d5db296c4e585a4694488f633405bb044d6c56488879a5",
+    "match": true
+  },
+  {
+    "id": "terminal-duct-lobular-unit",
+    "sha": "1d123127ef38418cac252d4c3ed562fc6c15700aad22706fa86a6561c8d92c7f",
+    "expected": "1d123127ef38418cac252d4c3ed562fc6c15700aad22706fa86a6561c8d92c7f",
+    "match": true
+  },
+  {
+    "id": "nottingham-grade",
+    "sha": "b37d798bc4672f877d72a6c449bce14ea5025afc3c59655dacf9607f89ee2fb4",
+    "expected": "b37d798bc4672f877d72a6c449bce14ea5025afc3c59655dacf9607f89ee2fb4",
+    "match": true
+  },
+  {
+    "id": "targeted-axillary-dissection",
+    "sha": "212233f58219a863e4d9509dc6f885b078fb551ac356dda03ba735e5880c2653",
+    "expected": "212233f58219a863e4d9509dc6f885b078fb551ac356dda03ba735e5880c2653",
+    "match": true
+  },
+  {
+    "id": "ajcc-prognostic-stage-breast",
+    "sha": "452c25beb8b6bdd1029da7bc8e363f5166cc38f11c6b4c4e9348f398ab51894b",
+    "expected": "452c25beb8b6bdd1029da7bc8e363f5166cc38f11c6b4c4e9348f398ab51894b",
+    "match": true
+  },
+  {
+    "id": "internal-mammary-nodes",
+    "sha": "21397a9bb998e07257e697e760c58aa0d176ac1dacb0d1b1b18d925942d1eb78",
+    "expected": "21397a9bb998e07257e697e760c58aa0d176ac1dacb0d1b1b18d925942d1eb78",
+    "match": true
+  },
+  {
+    "id": "lymphatic-drainage-and-axilla",
+    "sha": "ca0016cb8585bdfff29501a75b3bc62d9d276ef5f8af4538b4e02de714a440f4",
+    "expected": "ca0016cb8585bdfff29501a75b3bc62d9d276ef5f8af4538b4e02de714a440f4",
+    "match": true
+  },
+  {
+    "id": "myoepithelial-cells-and-basement-membrane",
+    "sha": "80774f21b57bf43f2a1dcde315dd7441cd47fa21ff864c11b67d9de7235b6c7b",
+    "expected": "80774f21b57bf43f2a1dcde315dd7441cd47fa21ff864c11b67d9de7235b6c7b",
+    "match": true
+  },
+  {
+    "id": "treatment-effect-in-pathology",
+    "sha": "186b845d44c544372748796307e2cc51ee0aec78642e5af1b5d4e275361b3a3d",
+    "expected": "186b845d44c544372748796307e2cc51ee0aec78642e5af1b5d4e275361b3a3d",
+    "match": true
+  },
+  {
+    "id": "tumor-bed-cellularity",
+    "sha": "de9429028cb262cb36f8373bb48b7d1f5ed945f1ea01900634721bfa66670bad",
+    "expected": "de9429028cb262cb36f8373bb48b7d1f5ed945f1ea01900634721bfa66670bad",
+    "match": true
+  }
+]

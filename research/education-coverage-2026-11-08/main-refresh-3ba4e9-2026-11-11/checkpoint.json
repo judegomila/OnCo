@@ -1,0 +1,340 @@
+{
+  "dataCommit": "0e5f9c4f095f1a7973a557e2bcc07a22b7b96df6",
+  "previousAuditHead": "fb4a18cb98fb47dbc177f1f635b5cfef1f99e4ca",
+  "upstreamHead": "3ba4e9bc582d1cc7eb9ea5ff5a30efc55b5c78d0",
+  "originalArtifactsPreservedAtMerge": 778,
+  "overviewIntentionallyRefreshed": true,
+  "beforeGraphRecords": 23023,
+  "afterGraphRecords": 23082,
+  "newIds": [
+    "alteplase",
+    "anakinra",
+    "apixaban",
+    "central-line-associated-bloodstream-infection",
+    "chemotherapy-induced-nausea-and-vomiting",
+    "ciprofloxacin",
+    "cyclizine",
+    "cyproterone",
+    "dalteparin",
+    "doxycycline",
+    "drug-desensitisation",
+    "duloxetine",
+    "edoxaban",
+    "enoxaparin",
+    "ethanol-lock-therapy",
+    "gabapentin",
+    "glycopyrronium",
+    "haloperidol",
+    "hyoscine",
+    "hypercalcaemia-of-malignancy",
+    "iec-hs",
+    "infliximab",
+    "insomnia-in-cancer",
+    "ketamine",
+    "leukostasis",
+    "levetiracetam",
+    "levofloxacin",
+    "levomepromazine",
+    "levothyroxine",
+    "lidocaine",
+    "loperamide",
+    "medication-related-osteonecrosis-of-the-jaw",
+    "metoclopramide",
+    "midazolam",
+    "midline-catheters",
+    "minocycline",
+    "mometasone",
+    "morphine",
+    "mycophenolate",
+    "naloxone",
+    "neutropenic-enterocolitis-typhlitis",
+    "osteoradionecrosis",
+    "oxycodone",
+    "pericardial-tamponade",
+    "piperacillin-tazobactam",
+    "posaconazole",
+    "propofol",
+    "raised-intracranial-pressure-in-cancer",
+    "rivaroxaban",
+    "siadh",
+    "tenofovir",
+    "tinzaparin",
+    "tunnelled-cuffed-central-venous-catheters",
+    "urea-cream",
+    "urokinase",
+    "valaciclovir",
+    "vedolizumab",
+    "venlafaxine",
+    "warfarin"
+  ],
+  "removedIds": [],
+  "changedIds": [
+    "1948",
+    "1954",
+    "1967",
+    "1970",
+    "1971",
+    "1972",
+    "1975",
+    "1976",
+    "1978",
+    "1979",
+    "1980",
+    "1985",
+    "1987",
+    "1989",
+    "1993",
+    "1994",
+    "1995",
+    "1996",
+    "1998",
+    "1999",
+    "2001",
+    "2002",
+    "2004",
+    "2006",
+    "2008",
+    "2010",
+    "2011",
+    "2012",
+    "2014",
+    "2015",
+    "2016",
+    "2025",
+    "2026",
+    "a166",
+    "aml",
+    "antiemetic-therapy",
+    "bone-marrow-biopsy-devices",
+    "bone-modifying-agents",
+    "brain-metastases",
+    "cancer-associated-thrombosis",
+    "car-t",
+    "catheter-lock-solutions",
+    "cbt-insomnia-cancer",
+    "central-venous-access",
+    "chemotherapy-side-effects-colorectal",
+    "crs",
+    "deutenzalutamide",
+    "eras-perioperative-nutrition",
+    "extravasation-infusion-reaction",
+    "febrile-neutropenia",
+    "fertility-preservation",
+    "hand-foot-syndrome",
+    "head-and-neck",
+    "hot-flushes-on-hormone-therapy",
+    "icans",
+    "immune-colitis",
+    "implanted-ports",
+    "infusion-devices-vascular-access",
+    "irae",
+    "izalontamab-brengitecan",
+    "lymphoma-tx-hepatitis-b-reactivation",
+    "lymphoma-tx-pjp-and-infection-prophylaxis",
+    "malignant-pleural-effusion",
+    "multiple-myeloma",
+    "neutropenia",
+    "pain-management",
+    "palliative-care",
+    "palliative-sedation",
+    "peripheral-neuropathy",
+    "picc-lines",
+    "radiation-dermatitis",
+    "rash-skin-toxicity",
+    "sclc",
+    "tsh-suppression",
+    "tumor-lysis-syndrome",
+    "vte"
+  ],
+  "selectedRecordDeltas": [
+    {
+      "id": "antiemetic-therapy",
+      "fields": [
+        "terms",
+        "drugs"
+      ]
+    },
+    {
+      "id": "car-t",
+      "fields": [
+        "terms"
+      ]
+    },
+    {
+      "id": "crs",
+      "fields": [
+        "terms",
+        "drugs"
+      ]
+    },
+    {
+      "id": "febrile-neutropenia",
+      "fields": [
+        "terms",
+        "drugs"
+      ]
+    },
+    {
+      "id": "icans",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "irae",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "neutropenia",
+      "fields": [
+        "drugs"
+      ]
+    }
+  ],
+  "literalUpstreamPreservation": [
+    {
+      "id": "izalontamab-brengitecan",
+      "file": "src/data/drugs.ts",
+      "upstreamChangedFields": [
+        "approvals",
+        "summary",
+        "links"
+      ],
+      "fullLiteralEqualsUpstream": true
+    },
+    {
+      "id": "a166",
+      "file": "src/data/drugs-pipeline-wave1.ts",
+      "upstreamChangedFields": [
+        "approvals"
+      ],
+      "fullLiteralEqualsUpstream": true
+    },
+    {
+      "id": "deutenzalutamide",
+      "file": "src/data/company-pipeline-gap.ts",
+      "upstreamChangedFields": [
+        "approvals",
+        "tldr",
+        "summary",
+        "links"
+      ],
+      "fullLiteralEqualsUpstream": true
+    },
+    {
+      "id": "fertility-preservation",
+      "file": "src/data/gap-fill.ts",
+      "upstreamChangedFields": [
+        "summary",
+        "cancers",
+        "links"
+      ],
+      "fullLiteralEqualsUpstream": true
+    },
+    {
+      "id": "eras-perioperative-nutrition",
+      "file": "src/data/nutrition.ts",
+      "upstreamChangedFields": [
+        "aka"
+      ],
+      "fullLiteralEqualsUpstream": true
+    }
+  ],
+  "manualConflict": {
+    "file": "src/data/index.ts",
+    "resolution": "Retained the audited repair target registry and the three new upstream supportive-care arrays. No overlapping record literals unioned."
+  },
+  "newUpstreamRecords": {
+    "drug": 43,
+    "technology": 3,
+    "term": 13
+  },
+  "upstreamScientificCredit": 0,
+  "curriculumCreditAdded": 0,
+  "companyApprovalScope": "Three inherited China approval descriptions are company-reported; regulator notices remain unread. No independent regulatory verification is claimed.",
+  "aggregate": {
+    "dataCommit": "0e5f9c4f095f1a7973a557e2bcc07a22b7b96df6",
+    "rootGraphRecords": 23082,
+    "phaseChecks": [
+      {
+        "phase": "original",
+        "stats": {
+          "totalSources": 537,
+          "conceptOrComparison": 411,
+          "guideOrLesson": 112,
+          "navigation": 14,
+          "navigationReviewed": 7,
+          "navigationWithTeachingContent": 7,
+          "semanticallyReviewed": 412,
+          "implementedCoverage": 402,
+          "mainCoverage": 0,
+          "unresolvedContentItems": 128,
+          "unresolvedSources": 128,
+          "adjacentConcepts": 59,
+          "unresolvedAdjacentConcepts": 35,
+          "openSchemaGaps": 6,
+          "unreviewedLiteratureOccurrences": 0,
+          "readyForFinalReaudit": false
+        },
+        "assessedOrClassified": 419,
+        "ordinaryUnreviewed": 118,
+        "requirements": 4042,
+        "evidencedRequirements": 4029,
+        "openRequirements": 13,
+        "assetScopes": {
+          "unclassified": 1341,
+          "teaching": 483,
+          "supporting": 64
+        }
+      },
+      {
+        "phase": "later",
+        "stats": {
+          "totalSources": 550,
+          "conceptOrComparison": 434,
+          "guideOrLesson": 109,
+          "navigation": 7,
+          "navigationReviewed": 5,
+          "navigationWithTeachingContent": 2,
+          "semanticallyReviewed": 421,
+          "implementedCoverage": 413,
+          "mainCoverage": 0,
+          "unresolvedContentItems": 132,
+          "unresolvedSources": 132,
+          "adjacentConcepts": 59,
+          "unresolvedAdjacentConcepts": 35,
+          "openSchemaGaps": 6,
+          "unreviewedLiteratureOccurrences": 0,
+          "readyForFinalReaudit": false
+        },
+        "assessedOrClassified": 426,
+        "ordinaryUnreviewed": 124,
+        "requirements": 4309,
+        "evidencedRequirements": 4301,
+        "openRequirements": 8,
+        "assetScopes": {
+          "unclassified": 1341,
+          "teaching": 483,
+          "supporting": 64
+        }
+      }
+    ],
+    "registeredProposalReceipts": 67,
+    "selectedCanonicalIds": 594,
+    "selectedAbsentBaseline": 160,
+    "selectedExistingBaseline": 434,
+    "readerObservationIds": 4548,
+    "distinctCanonicalLanguageSlots": 4518,
+    "availableTexts": 1218,
+    "EnglishFallbacks": 3300,
+    "literatureScope": "917 defined occurrences identity/relevance-screened, not blanket claim or full-text verification.",
+    "mainCredit": 0,
+    "liveCredit": 0,
+    "broaderGoalComplete": false
+  },
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "broaderGoalComplete": false
+}

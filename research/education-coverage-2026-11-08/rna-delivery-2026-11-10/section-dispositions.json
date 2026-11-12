@@ -1,0 +1,4188 @@
+[
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "54712848c53c1a4d56f71b71e1c7de3f139ee0c3b90b9c00b24dd8d1d9beddac",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "c81c6a5f9d88c4736b8207d5a7524db1ea07172d25c763b386937e69920b2a13",
+    "requirementIds": [
+      "aav-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "5dad01da670523659614e33565abd6c530e59d56121a27a6ca7fc083626284db",
+    "requirementIds": [
+      "aav-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "5b8a82693b6fff1f721c318ca335d298bd9a8d1e8e30ff1e82dfd47491d3c0c9",
+    "requirementIds": [
+      "aav-vector:R01",
+      "aav-vector:R02",
+      "aav-vector:R03",
+      "aav-vector:R04",
+      "aav-vector:R05",
+      "aav-vector:R06",
+      "aav-vector:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "406250e63780cf1c868c7f1b322cea3736450f5a9413ff0e63e131942c525454",
+    "requirementIds": [
+      "aav-vector:R08",
+      "aav-vector:R09",
+      "aav-vector:R10",
+      "aav-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "aacc4f9461c5aae3d538d9983d7d0a9e958718eb3ad0cda83b728130b85b2654",
+    "requirementIds": [
+      "aav-vector:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "99785aebffaaa077899f7a19424e367487c06473e1c542bcdd7cf061ccac82f2",
+    "requirementIds": [
+      "aav-vector:R05",
+      "aav-vector:R13"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "6874c908940a8e6b64e0e2b82433ecd6a47684be64f17d2caef517a9a6585efe",
+    "requirementIds": [
+      "aav-vector:R14"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5a74dd5f81a088a38077b489e3c8fb8db5ffcfe04c0c3a0d1180ada0f945b504",
+    "requirementIds": [
+      "aav-vector:R14"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "1678bd26105ca663503729725d8e8e89a0391c3100f2f3d536fd6138946f7333",
+    "requirementIds": [
+      "aav-vector:R15"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "123ca66d54e21de9ff7fb0136617275ea9b009456632aa729acde9e3b6bcf4e0",
+    "requirementIds": [
+      "aav-vector:R09",
+      "aav-vector:R10",
+      "aav-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "81ba799dfdc1756a34d8fbe62e285b2c8acf96f82540c26533f5f432012d5ec4",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "add2f36ec3315af713104bd9703a814b7be58147b691781fa01be6ad30b3d1eb",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "273610e56c7a8f54143e274e1ceef1226d69f510c7dad749d8452d3f44c31b08",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "1cd32b680eb214d968f63afec97861207c237f0837b26ede875d569ff0defa76",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01",
+      "delivery-targeting-vs-cancer-targeting:R02",
+      "delivery-targeting-vs-cancer-targeting:R03",
+      "delivery-targeting-vs-cancer-targeting:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "55cdc34aa51bcd426ee0696f1db8d76c2fcc5f2b645235f0c8743bddfebac607",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R04",
+      "delivery-targeting-vs-cancer-targeting:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b3de8fc799dcba6815ec598147e152ac0966171c8d81ca4c84b351ac68026cc8",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Worked example",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5923be8dac1b28b77f9c2d26357c24da3c715d3dbd8496f577935c94146ef02b",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "5bda2edbd211745a5be036c24586845540da74f7d322ccfa34b9243431fd13f4",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "dc0a0772caac4b40e0c76fc0d7fec817a3fab4cc9437a3b6af9cb25c22428536",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "9f176ceff4a8488f18e88a2a893214d0baa128ed886379c3ad6a0d87b0c9c1ec",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "d2705de5a7312ed0aa4b45a4a5de1b3a2cdf654d9cb7012327d401406b9719b4",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "original",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e68ca7094fabba0eee8dc97b1f89eb6a616fb5086f614ebd71f9d43b292d0532",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "4df711a95f3fc94e0412e078d277f96f9c404e354bbc71b54fa0f9aa85b771e8",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "b5315aebacab0b189321220037144cfc2f251841c2f5b0e3fdd9252a36e9c45d",
+    "requirementIds": [
+      "lentiviral-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "87b0f8d3666f320a93ae86cfbad2a1ffb9e8cda3b3a42a82c10bc864a9313812",
+    "requirementIds": [
+      "lentiviral-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "71e044d1298db5a80206357e50cf2a7dcfaf3737f95cc8d8439d6dd4364c3774",
+    "requirementIds": [
+      "lentiviral-vector:R01",
+      "lentiviral-vector:R02",
+      "lentiviral-vector:R03",
+      "lentiviral-vector:R04",
+      "lentiviral-vector:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "06478ae1eace5171f30a17f403b848115d0952e70880d64ca81f3951591f3d9c",
+    "requirementIds": [
+      "lentiviral-vector:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "918fce90372f74b65e17a930205f2d3a40f93c3094f7b56c90fd1ea3ec0c1acc",
+    "requirementIds": [
+      "lentiviral-vector:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Worked example",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "fbb2c10a0eb5454083e516577911090d0ed18483c7fb9fde213d5f1b457f0696",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "93db559b17f188fd4a4d31bea7a3336135c4ac82eccd51115d5d10bf85564f2b",
+    "requirementIds": [
+      "lentiviral-vector:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "408c13769fa0b7cc2165842fd73ad454d2b4ddb01847f58475af6f145ce37390",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5e3dfb60877d62bc40c5bacd9d307a319b06172af131bb5a4373542f049750fc",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "caebce46130dce69e5751625eb8feb6b4ac7c9d221bff518ab86cd41bbf73bbc",
+    "requirementIds": [
+      "lentiviral-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "original",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "98e837aca2fd6f4e2de976d354a71a51af78f96c53193daafaee0986caa6ff16",
+    "requirementIds": [
+      "lentiviral-vector:R05",
+      "lentiviral-vector:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "5c751d975b1ca2601e910ef773ba2cd5eff636ec56a068c68a9869ee317a065c",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "f31e4a1896cb16038eb4cf8c8413a1cc3807631bcd1d7f9552d64cf87fbd0b4e",
+    "requirementIds": [
+      "lipid-nanoparticle:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "edad995d9bc1e05b8aaba7611e97d8723ccf8be6251c559b2f858c6e7970bdf7",
+    "requirementIds": [
+      "lipid-nanoparticle:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "a8f954e3c7696a8483fbe14a419b02b41ad774b645184fb8cd444b8c2f39d2b0",
+    "requirementIds": [
+      "lipid-nanoparticle:R02",
+      "lipid-nanoparticle:R03",
+      "lipid-nanoparticle:R04",
+      "lipid-nanoparticle:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "d277f1d409aa8742f78ba34f32d4e138c67a63ddf242b883ae498090012273ae",
+    "requirementIds": [
+      "lipid-nanoparticle:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "8fbfd8e65ba179ed7b9ff667b3596b2c6ba42ebd60d14288a6c1125fa592d2a5",
+    "requirementIds": [
+      "lipid-nanoparticle:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5d5c66d47f6cd4e4d6b8fbb9a0f2e2008f23cfb2a1f06a66c6eb2ed39d320a30",
+    "requirementIds": [
+      "lipid-nanoparticle:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "d3575c4d6d980fc02ac8f41b67c6fbac19e099da152c5cd1477ab13211c32e36",
+    "requirementIds": [
+      "lipid-nanoparticle:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4db09626f28f7293576e79f2f7d4afe2c198c97f747b01c483971a77823583c9",
+    "requirementIds": [
+      "lipid-nanoparticle:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "f0474a32c821234dcef556eec5212f25d68e9f15375175a20c1d3f361b5ecbc2",
+    "requirementIds": [
+      "lipid-nanoparticle:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "bc8e860dc755f994a6df2cfc7759232215be3c958d5841733c81b8b9cefd0c4f",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "original",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "565b025e28ab72ef966dee4911ebb5c8bf7d744e6f2eb2f49e0a40731d3c0a4e",
+    "requirementIds": [
+      "lipid-nanoparticle:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "cbd8e4580c555eaacfe090789498229b485f42dcbee615188a6771d137f92191",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "67260b1773226a9fb7673544e59ef6ce42a98dadb3414b619d761b5c8cd0952c",
+    "requirementIds": [
+      "rna-lipoplex:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "0c4d789e66172b46e97d2c1adfbb23b0c593fcbb81ad373bee6b1f000c824f02",
+    "requirementIds": [
+      "rna-lipoplex:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "cd6aa956563f03e58f0978d8c39bdf05e4936b15c13379a916d6ee98d17ebd45",
+    "requirementIds": [
+      "rna-lipoplex:R01",
+      "rna-lipoplex:R02",
+      "rna-lipoplex:R03",
+      "rna-lipoplex:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "53b56157e252f5af19b0f6d4ea714d8de6d19e65969e96c96f59856e3dd0c789",
+    "requirementIds": [
+      "rna-lipoplex:R05",
+      "rna-lipoplex:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "c5793744f3efac3a5dad25ad68dfe9e91afdb57718e8c1fafbb17e88dba138af",
+    "requirementIds": [
+      "rna-lipoplex:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4b2a87ba7b8b4c8399cc9196c22a06c2ba967c031f111b8b5185b3f3f4e86dd0",
+    "requirementIds": [
+      "rna-lipoplex:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6b49bd6659d32e9699ef968ce6d08c0894f9d36e1a2cda4e1389a1d63c727eff",
+    "requirementIds": [
+      "rna-lipoplex:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "0cdbbf026a48e7e691dc200f30019fdd30d1ec0240a549de310d9d458f8498b7",
+    "requirementIds": [
+      "rna-lipoplex:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "a40badf8c7aa3a05bbddae99206e8c2a14c0392eb2f324fa506424a42a61c73b",
+    "requirementIds": [
+      "rna-lipoplex:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "61f4ee191b62a69f68f4e6a7dcf95957bb28843c4760fff80e2bc7e074240371",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "original",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "c4f748853f62f43cdf1321bfb224c44d3b0ac30f07d086dd3edc9a6c95ded028",
+    "requirementIds": [
+      "rna-lipoplex:R06",
+      "rna-lipoplex:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "4462e4558f10a2f24da14935f0ef9595fd6547d683ea314621420fd88df89211",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "9b62f7a30d97ab6c6c028a0075e5f6b1a2f284bbaf88739f44f7ac666fcf5ad7",
+    "requirementIds": [
+      "targeted-lnps:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "191509b50cd881346fc8f3aa8cd5cd89a6425888b353d64f90f219b89e49a647",
+    "requirementIds": [
+      "targeted-lnps:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "24d4399795aff7c6275215ae46c95b1f3de9c87e9121a543a02140df3a514e7a",
+    "requirementIds": [
+      "targeted-lnps:R02",
+      "targeted-lnps:R03",
+      "targeted-lnps:R04",
+      "targeted-lnps:R05",
+      "targeted-lnps:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "b9ad50981b3794fd1fbc20d62715b58abaee402f0fa3bf71c19889a0f0e190d3",
+    "requirementIds": [
+      "targeted-lnps:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "99fa740ebf455e17981f197c35df721e3825b8bb788172e476f4f8e1f0aff8b6",
+    "requirementIds": [
+      "targeted-lnps:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "3e44526637ec41192c182a64962dc5ba4640ba2c38a2673bf62b3e4e33045d91",
+    "requirementIds": [
+      "targeted-lnps:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "75033bc55fc3acedf8866f2309d8a0709f6bdea61ba7e7ac189d0cfd31acdd80",
+    "requirementIds": [
+      "targeted-lnps:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "42a9eee7669f7f9237edee4381812c0291e7c0a65666bec61c642aa658744799",
+    "requirementIds": [
+      "targeted-lnps:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "178f4bcd382fe53ed378def9c7b86fc7165c4c0f47f026fa5b90648bfef8cd29",
+    "requirementIds": [
+      "targeted-lnps:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "8293b00072bcdb42312bd3114afce0c3dcd8612249c1f53ed08365e04f197691",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "original",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "58c314d0e16b3997c8f0b175c4ff14a7b61539cebc5ab9f7bd28e75067ad78d8",
+    "requirementIds": [
+      "targeted-lnps:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "3438f3e90dfccf8b0fa70b5f4deeaad284779d55ccb13cb238edd1d2ea2c75f9",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "ae91bd3d69367adfdb0789544d97e6cd4d9ef5b82dd4b147c0ae0ad70da3ed27",
+    "requirementIds": [
+      "transposon:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "f2ea63bd6a4e597e8e1c0f0410fafb85668d479c991e88897da08fbddef0a9f4",
+    "requirementIds": [
+      "transposon:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "e1e421f9f25e0f73b51f30090b5cad6f938bac7fb9ed19c1298e68e91e23323a",
+    "requirementIds": [
+      "transposon:R02",
+      "transposon:R03",
+      "transposon:R04",
+      "transposon:R05",
+      "transposon:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "8f5c06aa13477185e1bd80cfeba614d22de8d4e9d67f76df1fabf3111b9dde70",
+    "requirementIds": [
+      "transposon:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "740e1bbe335b83450a4513abd49d9cb81668419f0e177328ed4f7b90eae0ee82",
+    "requirementIds": [
+      "transposon:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "f65ea061cfc39df4f804d466121bb755c92cc8e63eb07d3bc4a783ade0c0b552",
+    "requirementIds": [
+      "transposon:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "ad9c917b804ab3f829171402c760678ba69d49c5da5cc1087c4e0bc37557522c",
+    "requirementIds": [
+      "transposon:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "776c694c770214659341671183442a12e66295c9895c8118be29527ff8427141",
+    "requirementIds": [
+      "transposon:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "0cff0eb0bb037ba9b704ead75a7c3fa825b4524da39596483b234c3dbc3a5903",
+    "requirementIds": [
+      "transposon:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "transposon",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "76a7ce21c5339f6d0390713612a68b2004c7d1eb5e5c175e747c108e71196aa3",
+    "requirementIds": [
+      "transposon:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "f40d7eba31c4ed5cda6a4110429287e4517c7c7a5342c9dd9fb1d19cc2b8e7bc",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "4c7ba98345d07e5a8c785873c9e50fb78c362c0bef4d62885335b2507363ff76",
+    "requirementIds": [
+      "codon-optimization:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "d0a92671f88438939f480afcbdbd8cfc73aaf5403aa6bae3f83d3837b1678584",
+    "requirementIds": [
+      "codon-optimization:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6339c2b46cba20c2e92caa5fb6aa91403782363bdc917d418f09f696269b1b12",
+    "requirementIds": [
+      "codon-optimization:R01",
+      "codon-optimization:R02",
+      "codon-optimization:R03",
+      "codon-optimization:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "214389ec42eb37490d7005843a9d607f114948c31e4516f20b768f63609c3a96",
+    "requirementIds": [
+      "codon-optimization:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "63f5c5e751ad74642972bc6df80f32b56c2bfe23a3690bc5319352c3dab7f6ff",
+    "requirementIds": [
+      "codon-optimization:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "ae2e9f0e46ef00e7acd037fe9d56402726bae2782d7ad828ae9782e86f86ed06",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4faeb4b9596b3f0abcd87166e62a6ca484818c7613e3c651179c956fb929fd67",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "49ec0380abe86628c653ac9e156dc76db7c1e3670e7955810b4b89ec6779c454",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "3e63bb68323941b209e55c3bef8aa29830d56ea6df6937c18dc7f5b217ba24f4",
+    "requirementIds": [
+      "codon-optimization:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e7587f8a2e649f93732745dd8943d510e3ac0e414a636e8e878f1f6eb75f1101",
+    "requirementIds": [
+      "codon-optimization:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "6960d10c729d110cff4f3c472c32f3525821dca0abdc3bd07e16b470f7d30901",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "b47367fbc816c08b5ba7d1bbe5843f6cd6f01cb7efccac7d3cf89be0e844fea5",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "3d8294b87b52b4e03b7138ccf69cd5ab1357fc21e3ecab2b5d6ee88634899e87",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "42a155d029fb6c5849280ca2696c3809daae91192dd06b35f3c3e13e7ee3cf12",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01",
+      "dsrna-impurities-and-purification:R02",
+      "dsrna-impurities-and-purification:R03",
+      "dsrna-impurities-and-purification:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "9c2fca29f98233f3ae307098dead7663703c7e60d1482d6558e38acfeaa7cc4f",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "94cb2febef8e0e62c71d33f8dff3960abcac0420171f68411390a64318ad12db",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "797938693b4837331ba5cccfbe87add4329f2244c6e498038a82033cc06b9acc",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "05d79032e74c7f559fd579710eb58a6c7b520905d6abcc2e92364c88561ceb71",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "eff5c9fec0045c0f6e7425ca3ea6531b9673e7baf1da97ae5cc6a0484cd6c4cd",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "db2d1525e432eeee3c0dd451abcff4fa62138f7202a4452c93b45cdf2e7b98a9",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "050c58925180b5f0e2dbb8e905ccc3d6d725d79d2918b7c12f644fc3a85bae37",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "0d3cf3d06cd3c22562f589a12bb5e832e2f49183744354f649ab19f3de7ae25d",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "d43a547b62c86fc31a06ec9ba829d7563811fc85c936fb67c447d347db0635f2",
+    "requirementIds": [
+      "in-vitro-transcription:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "0690e6b0d2ec9c782568c80c9d5676e0f98e43f3ffa0d50204ca1682a5ae4285",
+    "requirementIds": [
+      "in-vitro-transcription:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b82872aa88451d93f90056a38358efe571759fe3972ff647ecb367ed3d167aef",
+    "requirementIds": [
+      "in-vitro-transcription:R01",
+      "in-vitro-transcription:R02",
+      "in-vitro-transcription:R03",
+      "in-vitro-transcription:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "623bea4e966724ee3a45161713a406f0d0f7ae116e4889378c59e837a6405694",
+    "requirementIds": [
+      "in-vitro-transcription:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "1ff3e219240c8179499d7f41c1f0324da9e80bd1bd21cb59c2e834fe73232769",
+    "requirementIds": [
+      "in-vitro-transcription:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "da200fcedc33f999812be9807b857791a16c795b020f2e088e08d28ae5446a6c",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "57d85f925c19dbb6b0e84166e89997367a2036d8b34fd673dcaa499c9c17855b",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "663b964e822c02cbbba2c2c423482ae28397cc61917193b44ef38324b365f07a",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "24d05d212eab2d76af7ace9395b3f91831e63ec54875e2c0918db585ab562653",
+    "requirementIds": [
+      "in-vitro-transcription:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "8f6d4e313355f8c8675b4b07b8397289c7fc0cf3e9843f851f37237eaa1bec55",
+    "requirementIds": [
+      "in-vitro-transcription:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "a4910024d4a90ac77dd27fc9f3c3d36e73d71a2e57b364a88cec3932d3907d09",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "66d3dc95f46a76b23cc3c739711faaa60b28ebe1612cb50fee8e3a4006336412",
+    "requirementIds": [
+      "modified-nucleosides:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "5440f83d8b0d0689ee010a1af23c23180d65cbb33af0aba5178fe066cb49863e",
+    "requirementIds": [
+      "modified-nucleosides:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "8b09ac9c406998cbda9ae4bee3547d556119c5d379775245eafb8bcc2e2abf7e",
+    "requirementIds": [
+      "modified-nucleosides:R01",
+      "modified-nucleosides:R02",
+      "modified-nucleosides:R03",
+      "modified-nucleosides:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "3d72608973ab03ba8304b97f617f27e7d5fc9cc47144e3eb972a8b907b23292d",
+    "requirementIds": [
+      "modified-nucleosides:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "d7df7eeba15b86baf333c6b4f1e668042639df42886ec2738e20b8c104b93683",
+    "requirementIds": [
+      "modified-nucleosides:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b8164da41c41a5d12a8a092073537ace96fa55d8c07c19acfd24580b1456e5b9",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "aa0c24853bf839513d198bf1e4e7ac3c232e84b072b443824dfe9df65328f7d9",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "00ae3de671f0549f5a519026a92d5088c2e93e7f2583cc23269ae4722e2a661e",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "89f5b43201699cebfa08b039a3ab55fcb259716907fa26419a3baa24bc8ef83c",
+    "requirementIds": [
+      "modified-nucleosides:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e0c5d1f0abc054ab15460054c443e3a2272ce2065148e528aafba50ccd7b978b",
+    "requirementIds": [
+      "modified-nucleosides:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "da3238c4aea81c1015167e0a6536574037468210ac5e5093b2480b0f5cea1d43",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "326900ecb373fd8fb9582aa465630651e2da4f529fbe4d6b4fba29b0e8880dc9",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "079e90df19e2e7d8296b8d66cc97fc3f0c341af4c8efd7cf12a27c37a0d1424b",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "bddbe2dc6852a9d0512e5c321bbb30f30174e0a49670525b6ed1bb0b5810a1a9",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01",
+      "mrna-construct-anatomy:R02"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "aefd7e4f66c335e8a3ecdc1d42891a68a4bc056753247855e53b1e5723a33787",
+    "requirementIds": [
+      "mrna-construct-anatomy:R03"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "bd4120aebeb6894eab02ead4a5feb6929db7176003303f1f8e37b63b42bb044e",
+    "requirementIds": [
+      "mrna-construct-anatomy:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "265477e003f4d55a07459a17ab4bea4a4e926cb0eaf34662997aba89628a5fee",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "7e1378d6b7e49c437c18f72bd6f45fd095c91a4817f7a47f6a4ec931273dfb94",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "660180eecce60882410889e9bed74cac3aa50bb527dd6c11321a0083452edd06",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "21a531f30eaee53c025bd1115625efbfe41da49931ce99f6c02ea0f74a84b3c2",
+    "requirementIds": [
+      "mrna-construct-anatomy:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "ae1960556ca1c4b885f347e47bec45fa1223363fd22c82e747fabc97552bd6d3",
+    "requirementIds": [
+      "mrna-construct-anatomy:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "c3ed0cd907aa88847db23308464a886562688ae650d10e07d3149b7868e99675",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "d461cffb889b9fc7347573b7f6142a91998c8ded71ed93032cd7314999fc9069",
+    "requirementIds": [
+      "multi-epitope-constructs:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "dbde712b1900b0691306de07a094599a0df4b14e21e508c9e079f2999edb9440",
+    "requirementIds": [
+      "multi-epitope-constructs:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6577cf4fed4e22dca601a108cd74a1c4f9fbfb69c109ce3c3ffc7465bd7537b6",
+    "requirementIds": [
+      "multi-epitope-constructs:R01",
+      "multi-epitope-constructs:R02",
+      "multi-epitope-constructs:R03",
+      "multi-epitope-constructs:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "b831d7da74291308c9371f818644e9fd4c82ec9ea555773e9958dd90a2d1ca57",
+    "requirementIds": [
+      "multi-epitope-constructs:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "7d56749d580d202709f60ca7c921d05f3c4f936a68488d73338099d42093008c",
+    "requirementIds": [
+      "multi-epitope-constructs:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "9d48a0033633048f482361c43c32d74162a9002b89404bc023575e45f8912a1f",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "fd40e8427ca6b2259823dc8cbe2af849bce2cb54bd9c1cf5eafa5f0ec4d38a4d",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "be56f2c5a2f8e84a53ffdf403bf4ca48b2fc7c1e2c5ab9ae662a2909afdb96f4",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "a447161a74f061bc9fefb7570a3480486ebbbc4ecb1108c49a5fb250d2864626",
+    "requirementIds": [
+      "multi-epitope-constructs:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "original",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "32562572a13bf9e9d5c89ca5f150ea220c1529a9d23309164099695b397bfe71",
+    "requirementIds": [
+      "multi-epitope-constructs:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "54712848c53c1a4d56f71b71e1c7de3f139ee0c3b90b9c00b24dd8d1d9beddac",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "c81c6a5f9d88c4736b8207d5a7524db1ea07172d25c763b386937e69920b2a13",
+    "requirementIds": [
+      "aav-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "5dad01da670523659614e33565abd6c530e59d56121a27a6ca7fc083626284db",
+    "requirementIds": [
+      "aav-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "5b8a82693b6fff1f721c318ca335d298bd9a8d1e8e30ff1e82dfd47491d3c0c9",
+    "requirementIds": [
+      "aav-vector:R01",
+      "aav-vector:R02",
+      "aav-vector:R03",
+      "aav-vector:R04",
+      "aav-vector:R05",
+      "aav-vector:R06",
+      "aav-vector:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "e2868fc20b34ae2ed02c3d5fbefacb8bb9f0d718c5d93616bd8466c023f2ad42",
+    "requirementIds": [
+      "aav-vector:R08",
+      "aav-vector:R09",
+      "aav-vector:R10",
+      "aav-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "aacc4f9461c5aae3d538d9983d7d0a9e958718eb3ad0cda83b728130b85b2654",
+    "requirementIds": [
+      "aav-vector:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "99785aebffaaa077899f7a19424e367487c06473e1c542bcdd7cf061ccac82f2",
+    "requirementIds": [
+      "aav-vector:R05",
+      "aav-vector:R13"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "6874c908940a8e6b64e0e2b82433ecd6a47684be64f17d2caef517a9a6585efe",
+    "requirementIds": [
+      "aav-vector:R14"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5a74dd5f81a088a38077b489e3c8fb8db5ffcfe04c0c3a0d1180ada0f945b504",
+    "requirementIds": [
+      "aav-vector:R14"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "1678bd26105ca663503729725d8e8e89a0391c3100f2f3d536fd6138946f7333",
+    "requirementIds": [
+      "aav-vector:R15"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "aav-vector",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "c1075bf803dec9280ce99ec62ef2a586e97f10bdabd5210efe1f2799648d7e78",
+    "requirementIds": [
+      "aav-vector:R09",
+      "aav-vector:R10",
+      "aav-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "81ba799dfdc1756a34d8fbe62e285b2c8acf96f82540c26533f5f432012d5ec4",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "add2f36ec3315af713104bd9703a814b7be58147b691781fa01be6ad30b3d1eb",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "273610e56c7a8f54143e274e1ceef1226d69f510c7dad749d8452d3f44c31b08",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "1cd32b680eb214d968f63afec97861207c237f0837b26ede875d569ff0defa76",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R01",
+      "delivery-targeting-vs-cancer-targeting:R02",
+      "delivery-targeting-vs-cancer-targeting:R03",
+      "delivery-targeting-vs-cancer-targeting:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "55cdc34aa51bcd426ee0696f1db8d76c2fcc5f2b645235f0c8743bddfebac607",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R04",
+      "delivery-targeting-vs-cancer-targeting:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b3de8fc799dcba6815ec598147e152ac0966171c8d81ca4c84b351ac68026cc8",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Worked example",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5923be8dac1b28b77f9c2d26357c24da3c715d3dbd8496f577935c94146ef02b",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "5bda2edbd211745a5be036c24586845540da74f7d322ccfa34b9243431fd13f4",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "dc0a0772caac4b40e0c76fc0d7fec817a3fab4cc9437a3b6af9cb25c22428536",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "9f176ceff4a8488f18e88a2a893214d0baa128ed886379c3ad6a0d87b0c9c1ec",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "d2705de5a7312ed0aa4b45a4a5de1b3a2cdf654d9cb7012327d401406b9719b4",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "version": "later",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e68ca7094fabba0eee8dc97b1f89eb6a616fb5086f614ebd71f9d43b292d0532",
+    "requirementIds": [
+      "delivery-targeting-vs-cancer-targeting:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "4df711a95f3fc94e0412e078d277f96f9c404e354bbc71b54fa0f9aa85b771e8",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "b5315aebacab0b189321220037144cfc2f251841c2f5b0e3fdd9252a36e9c45d",
+    "requirementIds": [
+      "lentiviral-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "87b0f8d3666f320a93ae86cfbad2a1ffb9e8cda3b3a42a82c10bc864a9313812",
+    "requirementIds": [
+      "lentiviral-vector:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "71e044d1298db5a80206357e50cf2a7dcfaf3737f95cc8d8439d6dd4364c3774",
+    "requirementIds": [
+      "lentiviral-vector:R01",
+      "lentiviral-vector:R02",
+      "lentiviral-vector:R03",
+      "lentiviral-vector:R04",
+      "lentiviral-vector:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "06478ae1eace5171f30a17f403b848115d0952e70880d64ca81f3951591f3d9c",
+    "requirementIds": [
+      "lentiviral-vector:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "918fce90372f74b65e17a930205f2d3a40f93c3094f7b56c90fd1ea3ec0c1acc",
+    "requirementIds": [
+      "lentiviral-vector:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Worked example",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "fbb2c10a0eb5454083e516577911090d0ed18483c7fb9fde213d5f1b457f0696",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "93db559b17f188fd4a4d31bea7a3336135c4ac82eccd51115d5d10bf85564f2b",
+    "requirementIds": [
+      "lentiviral-vector:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "408c13769fa0b7cc2165842fd73ad454d2b4ddb01847f58475af6f145ce37390",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5e3dfb60877d62bc40c5bacd9d307a319b06172af131bb5a4373542f049750fc",
+    "requirementIds": [
+      "lentiviral-vector:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "caebce46130dce69e5751625eb8feb6b4ac7c9d221bff518ab86cd41bbf73bbc",
+    "requirementIds": [
+      "lentiviral-vector:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lentiviral-vector",
+    "version": "later",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "98e837aca2fd6f4e2de976d354a71a51af78f96c53193daafaee0986caa6ff16",
+    "requirementIds": [
+      "lentiviral-vector:R05",
+      "lentiviral-vector:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "5c751d975b1ca2601e910ef773ba2cd5eff636ec56a068c68a9869ee317a065c",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "f31e4a1896cb16038eb4cf8c8413a1cc3807631bcd1d7f9552d64cf87fbd0b4e",
+    "requirementIds": [
+      "lipid-nanoparticle:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "edad995d9bc1e05b8aaba7611e97d8723ccf8be6251c559b2f858c6e7970bdf7",
+    "requirementIds": [
+      "lipid-nanoparticle:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "a8f954e3c7696a8483fbe14a419b02b41ad774b645184fb8cd444b8c2f39d2b0",
+    "requirementIds": [
+      "lipid-nanoparticle:R02",
+      "lipid-nanoparticle:R03",
+      "lipid-nanoparticle:R04",
+      "lipid-nanoparticle:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "d277f1d409aa8742f78ba34f32d4e138c67a63ddf242b883ae498090012273ae",
+    "requirementIds": [
+      "lipid-nanoparticle:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "8fbfd8e65ba179ed7b9ff667b3596b2c6ba42ebd60d14288a6c1125fa592d2a5",
+    "requirementIds": [
+      "lipid-nanoparticle:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "5d5c66d47f6cd4e4d6b8fbb9a0f2e2008f23cfb2a1f06a66c6eb2ed39d320a30",
+    "requirementIds": [
+      "lipid-nanoparticle:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "d3575c4d6d980fc02ac8f41b67c6fbac19e099da152c5cd1477ab13211c32e36",
+    "requirementIds": [
+      "lipid-nanoparticle:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4db09626f28f7293576e79f2f7d4afe2c198c97f747b01c483971a77823583c9",
+    "requirementIds": [
+      "lipid-nanoparticle:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "f0474a32c821234dcef556eec5212f25d68e9f15375175a20c1d3f361b5ecbc2",
+    "requirementIds": [
+      "lipid-nanoparticle:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "bc8e860dc755f994a6df2cfc7759232215be3c958d5841733c81b8b9cefd0c4f",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "lipid-nanoparticle",
+    "version": "later",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "565b025e28ab72ef966dee4911ebb5c8bf7d744e6f2eb2f49e0a40731d3c0a4e",
+    "requirementIds": [
+      "lipid-nanoparticle:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "cbd8e4580c555eaacfe090789498229b485f42dcbee615188a6771d137f92191",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "67260b1773226a9fb7673544e59ef6ce42a98dadb3414b619d761b5c8cd0952c",
+    "requirementIds": [
+      "rna-lipoplex:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "0c4d789e66172b46e97d2c1adfbb23b0c593fcbb81ad373bee6b1f000c824f02",
+    "requirementIds": [
+      "rna-lipoplex:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "cd6aa956563f03e58f0978d8c39bdf05e4936b15c13379a916d6ee98d17ebd45",
+    "requirementIds": [
+      "rna-lipoplex:R01",
+      "rna-lipoplex:R02",
+      "rna-lipoplex:R03",
+      "rna-lipoplex:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "53b56157e252f5af19b0f6d4ea714d8de6d19e65969e96c96f59856e3dd0c789",
+    "requirementIds": [
+      "rna-lipoplex:R05",
+      "rna-lipoplex:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "c5793744f3efac3a5dad25ad68dfe9e91afdb57718e8c1fafbb17e88dba138af",
+    "requirementIds": [
+      "rna-lipoplex:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4b2a87ba7b8b4c8399cc9196c22a06c2ba967c031f111b8b5185b3f3f4e86dd0",
+    "requirementIds": [
+      "rna-lipoplex:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6b49bd6659d32e9699ef968ce6d08c0894f9d36e1a2cda4e1389a1d63c727eff",
+    "requirementIds": [
+      "rna-lipoplex:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "0cdbbf026a48e7e691dc200f30019fdd30d1ec0240a549de310d9d458f8498b7",
+    "requirementIds": [
+      "rna-lipoplex:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "a40badf8c7aa3a05bbddae99206e8c2a14c0392eb2f324fa506424a42a61c73b",
+    "requirementIds": [
+      "rna-lipoplex:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "61f4ee191b62a69f68f4e6a7dcf95957bb28843c4760fff80e2bc7e074240371",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "rna-lipoplex",
+    "version": "later",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "c4f748853f62f43cdf1321bfb224c44d3b0ac30f07d086dd3edc9a6c95ded028",
+    "requirementIds": [
+      "rna-lipoplex:R06",
+      "rna-lipoplex:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "4462e4558f10a2f24da14935f0ef9595fd6547d683ea314621420fd88df89211",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "9b62f7a30d97ab6c6c028a0075e5f6b1a2f284bbaf88739f44f7ac666fcf5ad7",
+    "requirementIds": [
+      "targeted-lnps:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "191509b50cd881346fc8f3aa8cd5cd89a6425888b353d64f90f219b89e49a647",
+    "requirementIds": [
+      "targeted-lnps:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "24d4399795aff7c6275215ae46c95b1f3de9c87e9121a543a02140df3a514e7a",
+    "requirementIds": [
+      "targeted-lnps:R02",
+      "targeted-lnps:R03",
+      "targeted-lnps:R04",
+      "targeted-lnps:R05",
+      "targeted-lnps:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "b9ad50981b3794fd1fbc20d62715b58abaee402f0fa3bf71c19889a0f0e190d3",
+    "requirementIds": [
+      "targeted-lnps:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "What to measure",
+    "kind": "additional-teaching",
+    "sectionSha256": "99fa740ebf455e17981f197c35df721e3825b8bb788172e476f4f8e1f0aff8b6",
+    "requirementIds": [
+      "targeted-lnps:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "3e44526637ec41192c182a64962dc5ba4640ba2c38a2673bf62b3e4e33045d91",
+    "requirementIds": [
+      "targeted-lnps:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "75033bc55fc3acedf8866f2309d8a0709f6bdea61ba7e7ac189d0cfd31acdd80",
+    "requirementIds": [
+      "targeted-lnps:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "42a9eee7669f7f9237edee4381812c0291e7c0a65666bec61c642aa658744799",
+    "requirementIds": [
+      "targeted-lnps:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "178f4bcd382fe53ed378def9c7b86fc7165c4c0f47f026fa5b90648bfef8cd29",
+    "requirementIds": [
+      "targeted-lnps:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Related concepts",
+    "kind": "additional-teaching",
+    "sectionSha256": "8293b00072bcdb42312bd3114afce0c3dcd8612249c1f53ed08365e04f197691",
+    "requirementIds": [],
+    "status": "excluded: navigation links to sibling pages; no teaching claim",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "targeted-lnps",
+    "version": "later",
+    "ordinal": 11,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "58c314d0e16b3997c8f0b175c4ff14a7b61539cebc5ab9f7bd28e75067ad78d8",
+    "requirementIds": [
+      "targeted-lnps:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "3438f3e90dfccf8b0fa70b5f4deeaad284779d55ccb13cb238edd1d2ea2c75f9",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "ae91bd3d69367adfdb0789544d97e6cd4d9ef5b82dd4b147c0ae0ad70da3ed27",
+    "requirementIds": [
+      "transposon:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "f2ea63bd6a4e597e8e1c0f0410fafb85668d479c991e88897da08fbddef0a9f4",
+    "requirementIds": [
+      "transposon:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "e1e421f9f25e0f73b51f30090b5cad6f938bac7fb9ed19c1298e68e91e23323a",
+    "requirementIds": [
+      "transposon:R02",
+      "transposon:R03",
+      "transposon:R04",
+      "transposon:R05",
+      "transposon:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "8f5c06aa13477185e1bd80cfeba614d22de8d4e9d67f76df1fabf3111b9dde70",
+    "requirementIds": [
+      "transposon:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "740e1bbe335b83450a4513abd49d9cb81668419f0e177328ed4f7b90eae0ee82",
+    "requirementIds": [
+      "transposon:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "f65ea061cfc39df4f804d466121bb755c92cc8e63eb07d3bc4a783ade0c0b552",
+    "requirementIds": [
+      "transposon:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "ad9c917b804ab3f829171402c760678ba69d49c5da5cc1087c4e0bc37557522c",
+    "requirementIds": [
+      "transposon:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "776c694c770214659341671183442a12e66295c9895c8118be29527ff8427141",
+    "requirementIds": [
+      "transposon:R10"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "0cff0eb0bb037ba9b704ead75a7c3fa825b4524da39596483b234c3dbc3a5903",
+    "requirementIds": [
+      "transposon:R12"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "transposon",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "76a7ce21c5339f6d0390713612a68b2004c7d1eb5e5c175e747c108e71196aa3",
+    "requirementIds": [
+      "transposon:R11"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "f40d7eba31c4ed5cda6a4110429287e4517c7c7a5342c9dd9fb1d19cc2b8e7bc",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "4c7ba98345d07e5a8c785873c9e50fb78c362c0bef4d62885335b2507363ff76",
+    "requirementIds": [
+      "codon-optimization:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "d0a92671f88438939f480afcbdbd8cfc73aaf5403aa6bae3f83d3837b1678584",
+    "requirementIds": [
+      "codon-optimization:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6339c2b46cba20c2e92caa5fb6aa91403782363bdc917d418f09f696269b1b12",
+    "requirementIds": [
+      "codon-optimization:R01",
+      "codon-optimization:R02",
+      "codon-optimization:R03",
+      "codon-optimization:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "214389ec42eb37490d7005843a9d607f114948c31e4516f20b768f63609c3a96",
+    "requirementIds": [
+      "codon-optimization:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "63f5c5e751ad74642972bc6df80f32b56c2bfe23a3690bc5319352c3dab7f6ff",
+    "requirementIds": [
+      "codon-optimization:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "ae2e9f0e46ef00e7acd037fe9d56402726bae2782d7ad828ae9782e86f86ed06",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "4faeb4b9596b3f0abcd87166e62a6ca484818c7613e3c651179c956fb929fd67",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "49ec0380abe86628c653ac9e156dc76db7c1e3670e7955810b4b89ec6779c454",
+    "requirementIds": [
+      "codon-optimization:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "3e63bb68323941b209e55c3bef8aa29830d56ea6df6937c18dc7f5b217ba24f4",
+    "requirementIds": [
+      "codon-optimization:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "codon-optimization",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e7587f8a2e649f93732745dd8943d510e3ac0e414a636e8e878f1f6eb75f1101",
+    "requirementIds": [
+      "codon-optimization:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "6960d10c729d110cff4f3c472c32f3525821dca0abdc3bd07e16b470f7d30901",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "b47367fbc816c08b5ba7d1bbe5843f6cd6f01cb7efccac7d3cf89be0e844fea5",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "3d8294b87b52b4e03b7138ccf69cd5ab1357fc21e3ecab2b5d6ee88634899e87",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "42a155d029fb6c5849280ca2696c3809daae91192dd06b35f3c3e13e7ee3cf12",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R01",
+      "dsrna-impurities-and-purification:R02",
+      "dsrna-impurities-and-purification:R03",
+      "dsrna-impurities-and-purification:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "9c2fca29f98233f3ae307098dead7663703c7e60d1482d6558e38acfeaa7cc4f",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "94cb2febef8e0e62c71d33f8dff3960abcac0420171f68411390a64318ad12db",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "797938693b4837331ba5cccfbe87add4329f2244c6e498038a82033cc06b9acc",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "05d79032e74c7f559fd579710eb58a6c7b520905d6abcc2e92364c88561ceb71",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "eff5c9fec0045c0f6e7425ca3ea6531b9673e7baf1da97ae5cc6a0484cd6c4cd",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "db2d1525e432eeee3c0dd451abcff4fa62138f7202a4452c93b45cdf2e7b98a9",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "dsrna-impurities-and-purification",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "050c58925180b5f0e2dbb8e905ccc3d6d725d79d2918b7c12f644fc3a85bae37",
+    "requirementIds": [
+      "dsrna-impurities-and-purification:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "0d3cf3d06cd3c22562f589a12bb5e832e2f49183744354f649ab19f3de7ae25d",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "d43a547b62c86fc31a06ec9ba829d7563811fc85c936fb67c447d347db0635f2",
+    "requirementIds": [
+      "in-vitro-transcription:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "0690e6b0d2ec9c782568c80c9d5676e0f98e43f3ffa0d50204ca1682a5ae4285",
+    "requirementIds": [
+      "in-vitro-transcription:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b82872aa88451d93f90056a38358efe571759fe3972ff647ecb367ed3d167aef",
+    "requirementIds": [
+      "in-vitro-transcription:R01",
+      "in-vitro-transcription:R02",
+      "in-vitro-transcription:R03",
+      "in-vitro-transcription:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "623bea4e966724ee3a45161713a406f0d0f7ae116e4889378c59e837a6405694",
+    "requirementIds": [
+      "in-vitro-transcription:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "1ff3e219240c8179499d7f41c1f0324da9e80bd1bd21cb59c2e834fe73232769",
+    "requirementIds": [
+      "in-vitro-transcription:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "da200fcedc33f999812be9807b857791a16c795b020f2e088e08d28ae5446a6c",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "57d85f925c19dbb6b0e84166e89997367a2036d8b34fd673dcaa499c9c17855b",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "663b964e822c02cbbba2c2c423482ae28397cc61917193b44ef38324b365f07a",
+    "requirementIds": [
+      "in-vitro-transcription:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "24d05d212eab2d76af7ace9395b3f91831e63ec54875e2c0918db585ab562653",
+    "requirementIds": [
+      "in-vitro-transcription:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "in-vitro-transcription",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "8f6d4e313355f8c8675b4b07b8397289c7fc0cf3e9843f851f37237eaa1bec55",
+    "requirementIds": [
+      "in-vitro-transcription:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "a4910024d4a90ac77dd27fc9f3c3d36e73d71a2e57b364a88cec3932d3907d09",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "66d3dc95f46a76b23cc3c739711faaa60b28ebe1612cb50fee8e3a4006336412",
+    "requirementIds": [
+      "modified-nucleosides:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "5440f83d8b0d0689ee010a1af23c23180d65cbb33af0aba5178fe066cb49863e",
+    "requirementIds": [
+      "modified-nucleosides:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "8b09ac9c406998cbda9ae4bee3547d556119c5d379775245eafb8bcc2e2abf7e",
+    "requirementIds": [
+      "modified-nucleosides:R01",
+      "modified-nucleosides:R02",
+      "modified-nucleosides:R03",
+      "modified-nucleosides:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "3d72608973ab03ba8304b97f617f27e7d5fc9cc47144e3eb972a8b907b23292d",
+    "requirementIds": [
+      "modified-nucleosides:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "d7df7eeba15b86baf333c6b4f1e668042639df42886ec2738e20b8c104b93683",
+    "requirementIds": [
+      "modified-nucleosides:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "b8164da41c41a5d12a8a092073537ace96fa55d8c07c19acfd24580b1456e5b9",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "aa0c24853bf839513d198bf1e4e7ac3c232e84b072b443824dfe9df65328f7d9",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "00ae3de671f0549f5a519026a92d5088c2e93e7f2583cc23269ae4722e2a661e",
+    "requirementIds": [
+      "modified-nucleosides:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "89f5b43201699cebfa08b039a3ab55fcb259716907fa26419a3baa24bc8ef83c",
+    "requirementIds": [
+      "modified-nucleosides:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "modified-nucleosides",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "e0c5d1f0abc054ab15460054c443e3a2272ce2065148e528aafba50ccd7b978b",
+    "requirementIds": [
+      "modified-nucleosides:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "da3238c4aea81c1015167e0a6536574037468210ac5e5093b2480b0f5cea1d43",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "326900ecb373fd8fb9582aa465630651e2da4f529fbe4d6b4fba29b0e8880dc9",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "079e90df19e2e7d8296b8d66cc97fc3f0c341af4c8efd7cf12a27c37a0d1424b",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "bddbe2dc6852a9d0512e5c321bbb30f30174e0a49670525b6ed1bb0b5810a1a9",
+    "requirementIds": [
+      "mrna-construct-anatomy:R01",
+      "mrna-construct-anatomy:R02"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "aefd7e4f66c335e8a3ecdc1d42891a68a4bc056753247855e53b1e5723a33787",
+    "requirementIds": [
+      "mrna-construct-anatomy:R03"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "bd4120aebeb6894eab02ead4a5feb6929db7176003303f1f8e37b63b42bb044e",
+    "requirementIds": [
+      "mrna-construct-anatomy:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "265477e003f4d55a07459a17ab4bea4a4e926cb0eaf34662997aba89628a5fee",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "7e1378d6b7e49c437c18f72bd6f45fd095c91a4817f7a47f6a4ec931273dfb94",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "660180eecce60882410889e9bed74cac3aa50bb527dd6c11321a0083452edd06",
+    "requirementIds": [
+      "mrna-construct-anatomy:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "21a531f30eaee53c025bd1115625efbfe41da49931ce99f6c02ea0f74a84b3c2",
+    "requirementIds": [
+      "mrna-construct-anatomy:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "mrna-construct-anatomy",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "ae1960556ca1c4b885f347e47bec45fa1223363fd22c82e747fabc97552bd6d3",
+    "requirementIds": [
+      "mrna-construct-anatomy:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 0,
+    "heading": "preamble",
+    "kind": "preamble",
+    "sectionSha256": "c3ed0cd907aa88847db23308464a886562688ae650d10e07d3149b7868e99675",
+    "requirementIds": [],
+    "status": "excluded: title heading only; no teaching content",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 1,
+    "heading": "In one sentence",
+    "kind": "additional-teaching",
+    "sectionSha256": "d461cffb889b9fc7347573b7f6142a91998c8ded71ed93032cd7314999fc9069",
+    "requirementIds": [
+      "multi-epitope-constructs:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 2,
+    "heading": "The intuition",
+    "kind": "additional-teaching",
+    "sectionSha256": "dbde712b1900b0691306de07a094599a0df4b14e21e508c9e079f2999edb9440",
+    "requirementIds": [
+      "multi-epitope-constructs:R01"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 3,
+    "heading": "How it works",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "6577cf4fed4e22dca601a108cd74a1c4f9fbfb69c109ce3c3ffc7465bd7537b6",
+    "requirementIds": [
+      "multi-epitope-constructs:R01",
+      "multi-epitope-constructs:R02",
+      "multi-epitope-constructs:R03",
+      "multi-epitope-constructs:R04"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 4,
+    "heading": "Why it matters in cancer",
+    "kind": "additional-teaching",
+    "sectionSha256": "b831d7da74291308c9371f818644e9fd4c82ec9ea555773e9958dd90a2d1ca57",
+    "requirementIds": [
+      "multi-epitope-constructs:R05"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 5,
+    "heading": "How it is measured",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "7d56749d580d202709f60ca7c921d05f3c4f936a68488d73338099d42093008c",
+    "requirementIds": [
+      "multi-epitope-constructs:R06"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 6,
+    "heading": "Common confusions",
+    "kind": "mechanism-measurement-interpretation",
+    "sectionSha256": "9d48a0033633048f482361c43c32d74162a9002b89404bc023575e45f8912a1f",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 7,
+    "heading": "Try it",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "fd40e8427ca6b2259823dc8cbe2af849bce2cb54bd9c1cf5eafa5f0ec4d38a4d",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 8,
+    "heading": "Explain it back",
+    "kind": "practice-or-worked-example",
+    "sectionSha256": "be56f2c5a2f8e84a53ffdf403bf4ca48b2fc7c1e2c5ab9ae662a2909afdb96f4",
+    "requirementIds": [
+      "multi-epitope-constructs:R07"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 9,
+    "heading": "Takeaway",
+    "kind": "additional-teaching",
+    "sectionSha256": "a447161a74f061bc9fefb7570a3480486ebbbc4ecb1108c49a5fb250d2864626",
+    "requirementIds": [
+      "multi-epitope-constructs:R09"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  },
+  {
+    "page": "multi-epitope-constructs",
+    "version": "later",
+    "ordinal": 10,
+    "heading": "Sources and scope",
+    "kind": "source-scope",
+    "sectionSha256": "32562572a13bf9e9d5c89ca5f150ea220c1529a9d23309164099695b397bfe71",
+    "requirementIds": [
+      "multi-epitope-constructs:R08"
+    ],
+    "status": "assessed",
+    "sourcePath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a"
+  }
+]

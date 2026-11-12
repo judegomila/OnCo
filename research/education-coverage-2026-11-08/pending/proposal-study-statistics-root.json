@@ -1,0 +1,1083 @@
+{
+  "version": "proposal-study-statistics-root",
+  "state": "Actual committed registered-root fields in unmerged draft #375; no main/live approval",
+  "draft": 375,
+  "committedDataHead": "bca89126d8a7bab3940c5dfc20010411507fe83f",
+  "records": [
+    {
+      "id": "intention-to-treat",
+      "kind": "term",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis",
+      "aka": [
+        "ITT",
+        "intention-to-treat",
+        "intent-to-treat",
+        "ITT population",
+        "ITT analysis",
+        "modified intention-to-treat",
+        "mITT",
+        "per-protocol",
+        "per protocol",
+        "per-protocol population",
+        "as-treated",
+        "evaluable population",
+        "efficacy-evaluable",
+        "response-evaluable",
+        "safety population",
+        "full analysis set",
+        "analysis population",
+        "randomised population"
+      ],
+      "tldr": "An intention-to-treat analysis keeps participants in the groups to which they were randomly assigned. Missing outcomes and departures from treatment still need an explicit analysis plan.",
+      "summary": "Intention to treat is an analysis principle preserving the original randomised assignment, including people who change or stop treatment. ICH E9 describes a full analysis set as close as possible to all randomised participants and requires justification of exclusions. Missing outcomes remain a potential source of bias. Per-protocol and modified populations need explicit, prespecified definitions; their roles depend on the clinical question and design. The E9(R1) estimand framework links that question to the treatment conditions, population, outcome, handling of intercurrent events and summary measure. Read the actual report rather than assuming a default analysis population.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis"
+        },
+        {
+          "label": "ICH E9: statistical principles, analysis sets and safety (September 1998)",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        },
+        {
+          "label": "CONSORT 2025: transparent reporting of randomised trials",
+          "url": "https://doi.org/10.1136/bmj-2024-081123"
+        },
+        {
+          "label": "Schmid et al., 2020: KEYNOTE-522 initial endpoint populations",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+        },
+        {
+          "label": "Loibl et al., 2018: BrighTNess efficacy and safety populations",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29501363/"
+        },
+        {
+          "label": "Abraha and Montedori, 2010: modified intention-to-treat review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20547685/"
+        },
+        {
+          "label": "Hollis and Campbell, 1999: intention-to-treat reporting survey",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10480822/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "non-inferiority",
+        "prespecified-vs-post-hoc",
+        "double-blind",
+        "control-arm",
+        "estimand",
+        "non-inferiority-margin",
+        "trial-failure-modes",
+        "randomised-trial"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "persephone",
+        "tailorx"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The intention-to-treat principle follows everyone in the group to which they were randomly assigned, including people who stop, switch or never start treatment. Keeping that assignment protects the comparison against selection after randomisation; it does not supply an unobserved outcome. ICH E9 describes a full analysis set as close as possible to all randomised participants, with limited, justified exclusions. Its 2021 addendum asks which treatment effect is intended and how treatment changes are reflected. A treatment-policy question uses relevant outcomes despite specified treatment changes, while a hypothetical question targets a stated alternative scenario. Neither label makes missing data harmless.",
+        "A per-protocol set uses prespecified requirements such as sufficient treatment exposure, relevant measurements and absence of major protocol violations. It is not simply everyone who finished, and adherence can be related to treatment and outcome. ICH E9 recommends the full analysis set for the primary superiority comparison apart from exceptions. In non-inferiority or equivalence, dilution towards no difference can instead make similarity too easy to claim; the roles of analysis sets and sensitivity analyses need careful justification. Selecting adherent participants does not automatically restore an unbiased causal comparison.",
+        "Read the exact definition behind modified intention-to-treat, evaluable and safety populations. A modified set might require a dose, a baseline result or another condition; the name supplies no universal rule. Report all assigned participants, those analysed, exclusion reasons, missing outcomes, grouping and observation window. Safety commonly includes exposed participants, with the actual grouping and exposure denominator specified. These sets can differ from an efficacy comparison. No default analysis population should be assumed for a trial or drug page without checking its report.",
+        "Fictional denominator example: four responses among 20 people give 20%. If ten people without documented response are excluded and the four responses remain, four of ten gives 40%. This illustrates how that particular exclusion changes the reported rate; it is not evidence that every evaluable analysis inflates response by a known amount. The reason for missing assessment, prespecified rules and the scientific question still matter.",
+        "An analysis population specifies who enters an analysis and how people are grouped. Randomisation protects the comparison in expectation, rather than making observed baseline groups identical. Selecting people afterwards can undo that protection. Think of comparing two school programmes using everyone assigned or just those who completed: completion can depend on the programme and on factors related to the outcome. Per-protocol criteria are prespecified adherence and violation rules, not simply a preference for a tidier result. Those retained are commonly compared in their assigned groups; check the actual protocol. As-treated groups follow actual treatment received, with an explicit rule for non-starters. Safety sets commonly require at least one dose and group by treatment received; definitions remain study-specific.",
+        "ICH E9 permits limited, justified exclusions from a full analysis set. For an eligibility violation, its safeguards include measuring the criterion before randomisation, objective detection, equal scrutiny across groups and exclusion of every detected violation of that criterion. Excluding non-starters can preserve the principle only under suitable conditions, such as the decision to start being unaffected by knowledge of assignment. Prespecification alone does not remove treatment-related selection bias. An intention-to-treat label keeps assigned groups; it neither means everyone completed treatment nor supplies missing outcomes.",
+        "In a fictional trial with complete follow-up, arm A assigns 100 people: 80 complete treatment and 16 recur; 20 stop and ten recur. All assigned A participants therefore have 26/100 recurrences, or 26%. Arm B also has 26/100. Restrict A to completers and the comparison becomes 16/80 = 20% against 26%, an apparent six-percentage-point advantage created by this selection. No measured frailty difference is specified, and equal observed rates do not prove a zero treatment effect in the population. Removing people changes the question as well as the denominator.",
+        "KEYNOTE-522 randomised 1,174 participants with early triple-negative breast cancer, 784 to pembrolizumab plus chemotherapy and 390 to placebo plus chemotherapy. Its 2020 report assessed pathological complete response in the first 602 randomised participants, reporting 64.8% versus 51.2%, a 13.6-percentage-point difference. Event-free survival concerned all 1,174. The early surgical-response subset followed assignment; calling it an as-randomised analysis does not mean that all 1,174 entered that first pCR analysis. In BrighTNess, efficacy was intention-to-treat in 634 participants and safety included 628 who received at least one dose. These efficacy, safety and endpoint-specific denominators answer different questions.",
+        "Abraha and Montedori reviewed 475 trials reporting modified intention-to-treat. Eighty per cent excluded participants after randomisation, under varied definitions; their search ended in December 2006. Hollis and Campbell examined reports from four journals in 1997: among 119 mentioning intention-to-treat, 12 excluded non-starters, three did not analyse all participants as allocated, and 89 (75%) had missing primary outcomes. These are distinct, potentially overlapping features, not one combined exclusion count. Check the actual inclusion rules, arm-specific exclusions, reasons and missing-outcome methods rather than trusting the label.",
+        "For superiority, retaining assignment commonly protects against overoptimistic selection. For non-inferiority, dilution towards similarity can make a conclusion easier, but nonadherence, crossover and missing data do not invariably bias every study in that direction. A per-protocol comparison may be informative and still selected. An evaluable-response subset can omit people without a scan, changing a response rate; a harms analysis can use a different exposed population. Report the grouping and observation window, and ask which estimand each analysis targets. Neither an intention-to-treat nor per-protocol label guarantees an unbiased answer.",
+        "Suppose a fictional report shows an eight-percentage-point advantage among protocol completers, but a two-point, imprecise advantage under intention-to-treat. The latter addresses assignment to the treatment strategy; the former is a selected comparison. Ask who was excluded from each arm, why, when the rules were set and how outcomes after stopping or switching were collected. The larger selected estimate is not automatically the true treatment effect, and the imprecise assigned-group result does not prove no benefit."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "estimand",
+      "kind": "term",
+      "name": "Estimands and intercurrent events (ICH E9(R1))",
+      "aka": [
+        "estimand",
+        "estimands",
+        "estimand framework",
+        "ICH E9(R1)",
+        "E9(R1)",
+        "intercurrent event",
+        "intercurrent events",
+        "treatment policy strategy",
+        "treatment policy estimand",
+        "hypothetical strategy",
+        "hypothetical estimand",
+        "composite strategy",
+        "while on treatment strategy",
+        "principal stratum",
+        "principal stratum strategy",
+        "sensitivity analysis",
+        "sensitivity analyses",
+        "missing data",
+        "missing data handling",
+        "handling of missing data",
+        "discontinued treatment",
+        "treatment discontinuation",
+        "rescue medication",
+        "subsequent anticancer therapy",
+        "what the trial is estimating"
+      ],
+      "tldr": "An estimand is a precise statement of what question a trial is answering, including what to do about patients who switch treatment, stop early or start another drug; the ICH E9(R1) framework makes trials write this down before they start.",
+      "summary": "An estimand precisely describes the treatment effect a trial intends to estimate. ICH E9(R1) specifies treatment conditions, target population, outcome variable, handling of relevant intercurrent events and a population-level summary. Stopping treatment, switching or receiving additional therapy can change the clinical question; they do not automatically justify deleting a participant. Death may prevent a later measurement from existing, whereas loss to follow-up can leave a relevant outcome missing. Choose the estimand before the estimator and align collection, assumptions and analysis to that question. A sensitivity analysis targets the same estimand under alternative assumptions; an analysis targeting a different effect is supplementary.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Estimand",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Estimand"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "ICH E9(R1), 2021: estimands and sensitivity analysis",
+          "url": "https://www.fda.gov/media/148473/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "intention-to-treat",
+        "crossover",
+        "non-inferiority-margin",
+        "kaplan-meier-curve",
+        "primary-endpoint",
+        "prespecified-vs-post-hoc",
+        "trial-protocol",
+        "os"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "vision",
+        "psmafore",
+        "persephone"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A treatment-policy strategy uses relevant outcomes regardless of the specified intercurrent event, such as adding another therapy. A hypothetical strategy instead asks about an explicitly defined alternative scenario; its answer requires appropriate assumptions and estimation. A composite can count death or another intercurrent event as part of failure. While-on-treatment strategies restrict the outcome question to the period before that event. Principal-stratum questions concern groups defined by potential intercurrent events, not just the observed adherent subset. Different events can need different strategies in one estimand.",
+        "Distinguish the target effect, method and missing data. Treatment discontinuation does not necessarily stop outcome collection. Death is not simply a missing later symptom score when that score no longer exists. Keeping assigned groups and collecting follow-up are important, but an analysis-population label alone does not fully specify the estimand. Comparisons after switching, excluding switchers and hypothetical no-switch estimates need their own questions and assumptions; they cannot be ranked by a blanket rule that one is always truer."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "bayesian-trial-design",
+      "kind": "term",
+      "name": "Bayesian trial design",
+      "aka": [
+        "Bayesian trial",
+        "Bayesian trials",
+        "Bayesian analysis",
+        "Bayesian methods",
+        "Bayesian statistics",
+        "posterior probability",
+        "posterior probability of benefit",
+        "prior distribution",
+        "informative prior",
+        "sceptical prior",
+        "skeptical prior",
+        "non-informative prior",
+        "credible interval",
+        "95% credible interval",
+        "probability of superiority",
+        "predictive probability",
+        "predictive probability of success",
+        "Bayesian hierarchical model",
+        "hierarchical model",
+        "borrowing strength",
+        "information borrowing"
+      ],
+      "tldr": "Bayesian analysis combines a starting probability model with study data to update uncertainty about a specified effect. Its conclusions depend on the model and assumptions.",
+      "summary": "Bayesian inference combines a prior distribution and likelihood to obtain a posterior distribution for specified parameters, such as a treatment effect. A posterior probability or credible interval is conditional on those assumptions. Predictive probability averages over uncertainty to describe a specified future observation or trial outcome. These are different from a p-value, an individual response probability or guaranteed treatment benefit. Bayesian inference and adaptive design are separate choices: either can be used without the other. Informative borrowing requires relevant external data and sensitivity assessment; a minimally informative prior does not guarantee that every analysis equals a conventional one.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Bayesian_statistics",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Bayesian_statistics"
+        },
+        {
+          "label": "FDA guidance: adaptive designs for clinical trials of drugs and biologics",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics-guidance-industry"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "FDA, January 2026: Bayesian methodology, draft not for implementation",
+          "url": "https://www.fda.gov/media/190505/download"
+        },
+        {
+          "label": "FDA, 2019: adaptive designs, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78495/download"
+        },
+        {
+          "label": "Rugo et al., 2016: veliparib-carboplatin in I-SPY2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27406347/"
+        },
+        {
+          "label": "Park et al., 2016: neratinib in I-SPY2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27406346/"
+        },
+        {
+          "label": "Nanda et al., 2020: pembrolizumab in I-SPY2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32053137/"
+        },
+        {
+          "label": "Loibl et al., 2018: BrighTNess",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29501363/"
+        },
+        {
+          "label": "Schmid et al., 2020: KEYNOTE-522",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+        },
+        {
+          "label": "Cortazar et al., 2014: CTNeoBC pooled analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+        },
+        {
+          "label": "Khoury et al., 2024: response-guided I-SPY2.2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39277671/"
+        },
+        {
+          "label": "FDA, July 2020: pCR in early breast-cancer trials supporting accelerated approval",
+          "url": "https://www.fda.gov/media/83507/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "seamless-adaptive",
+        "response-adaptive-randomisation",
+        "dose-escalation-design",
+        "external-control-arm",
+        "basket-trial",
+        "p-value",
+        "confidence-interval",
+        "statistical-significance"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "digital-twins-trials"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nmtrc003"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-design"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A weather forecast is an analogy for updating uncertainty: a starting forecast is revised when new observations arrive. In a trial, the prior describes parameters before the data, the likelihood describes data under the model, and Bayes theorem produces the posterior. The prior, likelihood and target effect must be stated. A 95% credible interval contains 95% of posterior probability under that model. A confidence interval is defined through the coverage of its procedure across repeated samples; a p-value measures compatibility with a specified null model. None is a model-free probability that a medicine works. Sensitivity to plausible priors and likelihood assumptions matters.",
+        "Predictive probability concerns a specified future event. In I-SPY2, graduation used the modelled chance that a future, equally randomised 300-person neoadjuvant phase 3 trial would show statistical superiority on pathological complete response against the same control in a defined signature. It averaged conventional power over current uncertainty about the two response rates. A fictional 90% predictive probability therefore needs that endpoint, signature, design, success criterion and model attached. It is not a 90% chance that a particular patient responds, survives or is cured, and it is not an observed phase 3 result.",
+        "The reported I-SPY2 phase 2 platform enrolled high-risk stage II or III breast cancer and compared additions to standard neoadjuvant chemotherapy. Baseline hormone-receptor status, HER2 status and a 70-gene assay defined eight randomisation subtypes; ten overlapping signatures were prespecified for efficacy assessment. Longitudinal MRI tumour volume helped predict eventual pCR within the model. That imaging prediction is distinct from measured surgical pCR. Assignment could favour regimens with more promising modelled response in a subtype, without guaranteeing the best treatment for each participant.",
+        "In the 2016 reports, graduation required at least 85% predictive probability of success in the specified 300-person trial. An arm could stop for futility below 10% predictive probability in every relevant signature. Accrual stopped at graduation before all surgical outcomes were available; probabilities were updated as those outcomes arrived. Neratinib graduated in HER2-positive, hormone-receptor-negative disease with estimated pCR of 56% versus 33%, but its final predictive probability was 79%. Crossing the interim threshold and having a lower final probability are compatible with this prespecified process.",
+        "Veliparib plus carboplatin had estimated triple-negative pCR of 51% versus 26% and 88% predictive probability of success. The 72 experimental and 44 concurrent-control participants were the broader HER2-negative comparison, not the triple-negative subgroup counts. Pembrolizumab later had estimated triple-negative pCR of 60% versus 22%; 29 participants received pembrolizumab in that subgroup, within 69 pembrolizumab-treated HER2-negative participants. It graduated in all three tested signatures. Its 181 controls covered the broader HER2-negative comparison, rather than all being triple-negative. These are model-estimated rates with uncertainty, not raw fractions from 29 people and a universal comparator.",
+        "A screen of a combination does not isolate each component. BrighTNess randomised 634 participants and reported pCR of 53% with veliparib plus carboplatin, 58% with carboplatin and 31% with neither addition. The triplet-versus-doublet comparison was not significant; that is not proof that veliparib contributes exactly zero. KEYNOTE-522 reported 64.8% versus 51.2% pCR in its first-602 analysis, with carboplatin already in both chemotherapy arms. A similar direction across studies does not transfer the effect size across changed comparators, populations and regimens, or validate an exploratory biomarker for choosing treatment.",
+        "I-SPY2 illustrates a signal-finding design intended to make confirmatory development more focused. Those reports are not a randomised comparison proving that the platform is more efficient than every alternative design. Nanda and colleagues did report exploratory event-free survival, including 93% at three years among participants with pCR; this is not a confirmatory randomised survival-benefit estimate. CTNeoBC distinguished the prognosis of people achieving pCR from trial-level surrogacy: its pooled analysis could not validate treatment-induced pCR improvement as a surrogate for improved event-free or overall survival. Graduation alone supplies neither survival proof nor approval or routine access.",
+        "In I-SPY2.2, adaptation also concerns an enrolled person’s later treatment. Khoury and colleagues describe three sequential blocks: an experimental block A, subtype-tailored taxane-based block B and doxorubicin-cyclophosphamide block C. Serial MRI and core biopsy guide redirection and can support a recommendation for early surgery instead of later blocks. This within-person response-guided pathway is different from changing assignment probabilities for the next participant. Its pCR prediction, measured surgical outcome and eventual clinical benefit remain separate."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "response-adaptive-randomisation",
+      "kind": "term",
+      "name": "Response-adaptive randomisation",
+      "aka": [
+        "response-adaptive randomisation",
+        "response-adaptive randomization",
+        "adaptive randomisation",
+        "adaptive randomization",
+        "outcome-adaptive randomisation",
+        "randomisation probabilities",
+        "randomisation weights",
+        "play the winner",
+        "graduated from the trial",
+        "arm dropped",
+        "drop the loser",
+        "arms dropped for futility",
+        "adding arms",
+        "arm added"
+      ],
+      "tldr": "A response-adaptive trial can change the chance of assigning later participants to each treatment using accumulating outcomes. The rules and analysis must account for those changes.",
+      "summary": "Response-adaptive randomisation changes assignment probabilities for newly enrolled participants using accumulating response data under specified rules. A conventional design can use a fixed allocation other than one to one. Adaptive assignment may favour an arm that currently looks more promising; it does not establish which treatment is best for each person. Dropping an arm, adding one and early stopping are separate design choices. FDA’s final 2019 nonbinding guidance discusses both potential advantages and controversy, particularly about efficiency in two-arm trials. Inferential methods must account for the actual design.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Adaptive_design_(medicine)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adaptive_design_(medicine)"
+        },
+        {
+          "label": "FDA guidance: adaptive designs for clinical trials of drugs and biologics",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics-guidance-industry"
+        },
+        {
+          "label": "FDA, 2019: adaptive designs, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78495/download"
+        },
+        {
+          "label": "FDA, 2022: master protocols in oncology, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/120721/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "seamless-adaptive",
+        "bayesian-trial-design",
+        "basket-umbrella-platform",
+        "stratified-randomisation",
+        "futility",
+        "data-monitoring-committee",
+        "pcr"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "n-of-1-platforms",
+        "digital-twins-trials"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "stampede",
+        "myelomatch"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-design"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Prespecified adaptations can alter sample size, stop for benefit or futility, change allocation or change eligibility. Bayesian and frequentist methods can each support adaptive designs; a Bayesian analysis need not adapt anything. A platform can add or drop arms without using response-adaptive assignment. FDA’s 2019 guidance recommends planning and evaluating operating characteristics, including power, false-positive probability, estimation and trial conduct. Simulations explore plausible null and alternative scenarios and operational assumptions. Neither an appealing ethical rationale nor simulated performance guarantees that every participant receives a better treatment.",
+        "Planned rules and protection of interim information reduce opportunities for biased decisions. Repeatedly looking at comparative outcomes and changing the design ad hoc cannot be analysed as though nothing changed. An unplanned change nevertheless needs assessment of its timing, access to results, rationale and effect on inference, rather than a blanket declaration that every observation is invalid. For response-adaptive allocation, outcomes must arrive in time to inform later assignments; delayed outcomes and changing case mix can complicate interpretation."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "master-protocol",
+      "kind": "term",
+      "name": "Master protocol (platform, basket and umbrella trials)",
+      "aka": [
+        "platform trial",
+        "basket trial",
+        "umbrella trial",
+        "master protocol",
+        "master protocols",
+        "platform trials",
+        "basket trials",
+        "umbrella trials",
+        "multi-arm multi-stage",
+        "MAMS",
+        "adaptive platform trial"
+      ],
+      "tldr": "A master protocol is one trial framework that tests several treatments, several cancers or both under a single set of rules, so new drugs can join and leave without a new trial being built each time. Platform trials add and drop arms over the years, basket trials test one drug across cancers that share a mutation, and umbrella trials test several drugs matched to biomarkers within one cancer.",
+      "summary": "A master protocol coordinates multiple substudies within an overall trial structure. It can evaluate one or more investigational drugs in one or more disease subtypes. Basket, umbrella and platform arrangements organise those questions differently. A master protocol can use a fixed or adaptive design; it need not use Bayesian inference, a shared control or response-adaptive randomisation. FDA’s 2022 oncology guidance describes potential efficiencies and design challenges rather than a universal reduction in required participants.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Basket_trial",
+      "links": [
+        {
+          "label": "Wikipedia: basket trial",
+          "url": "https://en.wikipedia.org/wiki/Basket_trial"
+        },
+        {
+          "label": "FDA guidance 2022: Master Protocols, efficient clinical trial design strategies to expedite development of oncology drugs and biologics",
+          "url": "https://www.fda.gov/media/120721/download"
+        },
+        {
+          "label": "FDA, 2019: adaptive designs, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78495/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "i-spy-1",
+        "i-spy-2",
+        "i-spy-2-2",
+        "stampede",
+        "myelomatch",
+        "pediatric-match",
+        "lung-map",
+        "lung-map-s1400i",
+        "lung-map-s1800a",
+        "nci-match",
+        "combomatch",
+        "tapur",
+        "dart-s1609",
+        "plasmamatch",
+        "gbm-agile",
+        "precision-promise",
+        "beat-aml-master-trial",
+        "determine-trial",
+        "national-lung-matrix-trial",
+        "focus4",
+        "alchemist",
+        "mypathway",
+        "i-predict",
+        "winther",
+        "cupisco",
+        "target-national",
+        "basket-umbrella-platform",
+        "seamless-adaptive",
+        "interim-analysis"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "digital-twins-trials",
+        "n-of-1-platforms",
+        "cgp",
+        "ai-trial-matching"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "i-spy-1",
+        "i-spy-2",
+        "i-spy-2-2",
+        "stampede",
+        "myelomatch",
+        "pediatric-match",
+        "lung-map",
+        "lung-map-s1400i",
+        "lung-map-s1800a",
+        "nci-match",
+        "combomatch",
+        "tapur",
+        "dart-s1609",
+        "plasmamatch",
+        "gbm-agile",
+        "precision-promise",
+        "beat-aml-master-trial",
+        "determine-trial",
+        "national-lung-matrix-trial",
+        "focus4",
+        "alchemist",
+        "mypathway",
+        "i-predict",
+        "winther",
+        "cupisco",
+        "target-national"
+      ],
+      "people": [
+        "laura-esserman",
+        "nicholas-james",
+        "mahesh-parmar",
+        "roy-herbst",
+        "keith-flaherty",
+        "razelle-kurzrock"
+      ],
+      "bottlenecks": [
+        "b-trial-design",
+        "b-trial-enrolment",
+        "b-rare-cancers"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Sharing a suitable control and infrastructure can reduce duplication, but there is no general rule that each added drug needs half as many participants. The scientific comparison still needs a relevant control, compatible eligibility and assessment, enough information and appropriate handling of multiple questions. A platform’s arm addition or stopping, allocation adaptation and an individual’s later response-guided treatment are separate features. Assess the actual protocol and operating characteristics before claiming an efficiency gain."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "seamless-adaptive",
+      "kind": "term",
+      "name": "Seamless, adaptive and Bayesian trial designs",
+      "aka": [
+        "seamless",
+        "seamless phase 2/3",
+        "seamless phase 1/2",
+        "phase 1/2",
+        "phase 2/3",
+        "adaptive design",
+        "adaptive trial",
+        "adaptive randomisation",
+        "response-adaptive randomisation",
+        "Bayesian",
+        "Bayesian adaptive",
+        "Bayesian design",
+        "I-SPY 2",
+        "I-SPY",
+        "master protocol",
+        "sample size re-estimation",
+        "adaptive enrichment",
+        "biomarker-selected",
+        "biomarker-enriched",
+        "all-comers",
+        "unselected",
+        "unselected population",
+        "adaptive designs",
+        "master protocols",
+        "all-comer",
+        "unselected populations"
+      ],
+      "tldr": "Some trials join stages or use planned changes as data accumulate. Those design choices need appropriate analysis; they do not guarantee faster studies or better treatment.",
+      "summary": "Seamless designs connect trial stages within an overall protocol. Adaptive designs allow prospectively planned changes based on accumulating data, such as a sample-size change or early stopping. Bayesian analysis combines a prior and likelihood; it can be used in either fixed or adaptive designs. Platform structure, changing assignment for future participants and response-guided treatment changes for an enrolled participant are different features. Potential efficiency depends on the question, assumptions and operating characteristics, with safeguards for interim information and bias.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Adaptive_design_(medicine)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Adaptive_design_(medicine)"
+        },
+        {
+          "label": "FDA guidance: adaptive designs for clinical trials of drugs and biologics",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics-guidance-industry"
+        },
+        {
+          "label": "FDA, 2019: adaptive designs, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78495/download"
+        },
+        {
+          "label": "FDA, January 2026: Bayesian methodology, draft not for implementation",
+          "url": "https://www.fda.gov/media/190505/download"
+        },
+        {
+          "label": "FDA, 2022: master protocols in oncology, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/120721/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "basket-umbrella-platform",
+        "interim-analysis",
+        "first-in-human",
+        "basket-trial",
+        "umbrella-trial",
+        "response-adaptive-randomisation",
+        "bayesian-trial-design",
+        "sample-size-re-estimation",
+        "smart-design",
+        "biomarker-stratified-design",
+        "pragmatic-trial",
+        "registry-based-trial",
+        "decentralised-trial",
+        "n-of-1-trial",
+        "cluster-randomised-trial",
+        "stepped-wedge-design",
+        "non-inferiority-margin",
+        "stratified-randomisation",
+        "group-sequential-design",
+        "dose-escalation-design",
+        "data-monitoring-committee",
+        "estimand",
+        "trial-failure-modes",
+        "window-of-opportunity-trial",
+        "master-protocol"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "digital-twins-trials",
+        "n-of-1-platforms"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "stampede",
+        "nrg-hn002-hn005",
+        "rejoice-ovarian01",
+        "myelomatch",
+        "pediatric-match",
+        "aspen-06"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Trials"
+    },
+    {
+      "id": "non-inferiority",
+      "kind": "term",
+      "name": "Non-inferiority trial",
+      "aka": [
+        "non-inferiority",
+        "noninferiority",
+        "non-inferior",
+        "noninferior",
+        "non-inferiority margin",
+        "non-inferiority trial",
+        "non-inferiority design",
+        "met non-inferiority",
+        "superiority",
+        "superiority trial",
+        "superiority design",
+        "equivalence",
+        "equivalence trial",
+        "non-inferiority designs",
+        "non-inferiority margins",
+        "non-inferiority trials"
+      ],
+      "tldr": "A non-inferiority trial asks whether a new option avoids losing more than an agreed amount of benefit. It can still leave some loss compatible with the data.",
+      "summary": "Non-inferiority seeks to exclude a loss worse than a prespecified, clinically justified margin against an effective control. The endpoint direction, confidence level, population and active-control assumptions matter. A shorter, simpler or less burdensome treatment can motivate the question, but those advantages need evidence of their own. A nonsignificant superiority test does not establish non-inferiority. Adherence, crossover, missing outcomes and analysis-population selection can threaten the conclusion; neither intention-to-treat nor per-protocol is automatically conservative in every design.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Non-inferiority_trial",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Non-inferiority_trial"
+        },
+        {
+          "label": "FDA, 2016: non-inferiority trials, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78504/download"
+        },
+        {
+          "label": "ICH E9, 1998: analysis sets and statistical planning",
+          "url": "https://www.fda.gov/media/71336/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "de-escalation",
+        "hypofractionation",
+        "intention-to-treat",
+        "statistical-significance",
+        "non-inferiority-margin",
+        "randomised-trial",
+        "stepped-wedge-design",
+        "estimand",
+        "trial-failure-modes"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "sano",
+        "persephone",
+        "fast-forward",
+        "pace-b",
+        "tailorx",
+        "dynamic",
+        "convert"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Think of replacing a bridge with a lighter design. An agreed limit on lost performance defines what must be ruled out, while the uncertainty around the estimate determines whether it has been ruled out. The analogy does not establish exact equality or safety. Superiority seeks evidence on the favourable side of no difference at the specified inferential level. Non-inferiority rules out the unacceptable worse side; equivalence instead requires excluding unacceptable differences in both directions. A statistically detectable loss smaller than the accepted margin can coexist with non-inferiority.",
+        "Less surgery, radiation or systemic treatment can motivate de-escalation, but each strategy needs its own design and acceptable tradeoff. A valid non-inferiority conclusion stays tied to the studied population, comparator, outcome, margin, confidence level and follow-up. It does not mean no participant was harmed, nor that an uncertain result crossing the margin proves harm. Retrospectively declaring non-inferiority after failed superiority lacks the protection of a justified prespecified margin and analysis plan. A planned non-inferiority-then-superiority sequence must address its testing and multiplicity rules."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "non-inferiority-margin",
+      "kind": "term",
+      "name": "Non-inferiority margin and equivalence trials",
+      "aka": [
+        "non-inferiority margin",
+        "noninferiority margin",
+        "the margin",
+        "pre-specified margin",
+        "prespecified margin",
+        "equivalence margin",
+        "equivalence design",
+        "bioequivalence",
+        "biosimilar equivalence",
+        "upper bound of the confidence interval",
+        "acceptable loss of efficacy",
+        "absolute margin",
+        "relative margin",
+        "non-inferiority boundary",
+        "noninferiority boundary"
+      ],
+      "tldr": "The margin is the amount of benefit a trial is allowed to lose and still call the new treatment good enough; it is chosen before the trial starts, and where it is set decides what the result means.",
+      "summary": "The non-inferiority margin is the largest loss the trial intends to exclude, justified by the effective control and clinical context. In FDA’s 2016 framework, M1 represents the control effect assumed to persist in the new trial, estimated from historical evidence rather than measured against concurrent placebo. M2 is the largest clinically acceptable loss and is commonly smaller. Constancy and assay sensitivity connect that historical evidence to the present setting. Equivalence requires both sides of an acceptable interval, whereas non-inferiority tests the unacceptable worse side. The confidence level and effect orientation must accompany the margin.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Non-inferiority_trial",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Non-inferiority_trial"
+        },
+        {
+          "label": "FDA guidance: non-inferiority clinical trials to establish effectiveness",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/non-inferiority-clinical-trials"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "FDA, 2016: non-inferiority trials, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78504/download"
+        },
+        {
+          "label": "ICH E9, 1998: analysis sets and statistical planning",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "Giuliano et al., 2017: Z0011 ten-year report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28898379/"
+        },
+        {
+          "label": "Giuliano et al., 2011: Z0011 design and closure",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21304082/"
+        },
+        {
+          "label": "Earl et al., 2019: PERSEPHONE",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31178152/"
+        },
+        {
+          "label": "Mayer et al., 2021: EA1131",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34092112/"
+        },
+        {
+          "label": "Piaggio et al., 2012: reporting non-inferiority and equivalence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23268518/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "non-inferiority",
+        "randomised-trial",
+        "intention-to-treat",
+        "confidence-interval",
+        "de-escalation",
+        "hypofractionation",
+        "trial-failure-modes",
+        "estimand"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "persephone",
+        "fast-forward",
+        "pace-b",
+        "tailorx",
+        "dynamic",
+        "convert",
+        "sano"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-design"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "If the new-versus-standard hazard ratio is for an unwanted event, values above one are worse. With margin 1.3, an appropriate upper confidence bound below 1.3 can establish the specified non-inferiority claim, even if the estimate is above one. FDA’s 2016 guidance generally uses a two-sided 95% interval, corresponding to a one-sided 2.5% test. Some academic trials use a one-sided 5% test, equivalent in bound to a two-sided 90% interval. Bounds from different confidence levels are not interchangeable. The hypothetical event-hazard ratio 1.15 with 95% interval 1.02 to 1.28 is both worse than one statistically and below a 1.3 margin.",
+        "M1 needs credible historical evidence that the active control works and reason to expect a relevant effect in the new trial. Assay sensitivity is the capacity to distinguish effective from ineffective treatment; an active-control trial without placebo cannot directly remeasure the historical control effect. Population, co-treatment, endpoint measurement and conduct affect constancy. M2 expresses the clinically acceptable sacrifice, not an arbitrary universal fraction. Poor adherence, crossover or missing follow-up can obscure differences, but their direction depends on the circumstances. Per-protocol selection does not automatically fix the problem.",
+        "ACOSOG Z0011 studied selected women with T1 or T2 breast cancer, no palpable axillary adenopathy and one or two involved sentinel nodes, with planned lumpectomy, tangential whole-breast irradiation and systemic therapy. It compared sentinel-node surgery alone with completion axillary dissection. At ten years, overall survival was 86.3% versus 83.6%; the death hazard ratio was 0.85 and its one-sided 95% upper confidence bound 1.16, below the 1.3 margin. This does not establish safety for every nodal burden, mastectomy without radiation or neoadjuvant setting. The original plan was 1,900 participants and 500 deaths; 891 were randomised. The reports describe low accrual and fewer deaths than expected, with the 2011 account specifying closure on pooled low mortality before a formal arm comparison. The ten-year analysis was not prespecified. Reduced information is a limitation to interpret, rather than automatic proof that every non-inferiority result is invalid.",
+        "PERSEPHONE compared six with twelve months of trastuzumab in HER2-positive early breast cancer among people eligible for chemotherapy. Its margin allowed a three-percentage-point loss in four-year disease-free survival. The observed rates were 89.4% versus 89.8%, with hazard ratio 1.07 and 90% confidence interval 0.93 to 1.24, meeting its prespecified criterion. Cardiac-toxicity treatment stops were 61/1,939 (3%) versus 146/1,894 (8%); those exposure denominators differ from the 4,088-person efficacy population. The result supports the named duration comparison and criteria, not every form of shorter treatment.",
+        "EA1131 compared platinum chemotherapy with capecitabine after residual triple-negative breast cancer, with the primary comparison in basal-subtype disease. It planned non-inferiority followed by superiority. The trial stopped after 410 of the planned 775 participants were randomised. At analysis, 120 invasive-disease-free-survival events represented 61% information; three-year estimates in the basal group were 42% with platinum and 49% with capecitabine. The futility decision did not establish equivalence or non-inferiority. Stopping without adequate evidence for the planned benefit is different from proving treatments interchangeable.",
+        "Relative and absolute margins answer different questions. Translating a hazard-ratio margin into an absolute survival loss requires a baseline survival probability, time horizon and model. Under proportional hazards one uses the corresponding survival relationship; an absolute loss need not increase monotonically across every baseline risk. Repeatedly accepting a somewhat worse active comparator can, under some conditions, erode preserved benefit across generations, often called biocreep. That is a risk to examine, not an inevitable result of every sequence of trials.",
+        "In a fictional four-year disease-free-survival trial, the allowed loss is three percentage points. A one-point worse estimate with a 90% interval from 2.6 points worse to 0.6 better stays within that worse boundary. A second 90% interval from 3.6 points worse to 1.6 better crosses it. Under the stated one-sided 5% rule, the first establishes the specified non-inferiority and the second is inconclusive. The second interval does not prove harm, and the first does not prove identical benefit. Always state which direction is worse and which confidence level the design used."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "sample-size-re-estimation",
+      "kind": "term",
+      "name": "Statistical power, sample size and re-estimation",
+      "aka": [
+        "sample size re-estimation",
+        "sample size reassessment",
+        "blinded sample size re-estimation",
+        "unblinded sample size re-estimation",
+        "sample size calculation",
+        "power calculation",
+        "powered to detect",
+        "80% power",
+        "90% power",
+        "the trial was powered",
+        "adequately powered",
+        "event-driven",
+        "events required",
+        "target number of events",
+        "number of events",
+        "information fraction",
+        "effect size",
+        "assumed hazard ratio",
+        "assumed effect",
+        "conditional power",
+        "promising zone",
+        "expected number of events"
+      ],
+      "tldr": "Power is the chance that a specified study detects a specified true effect. Sample size, follow-up, variation and the size of the effect all shape that chance.",
+      "summary": "Statistical power is the probability that a specified test rejects its null hypothesis under a stated true alternative. Planning requires an effect size, significance level, desired power, outcome variability and design assumptions. Participant count and information are different: in many survival designs the number and timing of events, allocation, accrual and censoring drive precision. Sample-size re-estimation is a planned adaptation to accumulating information. Non-comparative and comparative adaptations have different implications and need appropriate analysis; statistical validity is not guaranteed merely by calling a re-estimation blinded.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Statistical_power",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Statistical_power"
+        },
+        {
+          "label": "FDA guidance: adaptive designs for clinical trials of drugs and biologics",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/adaptive-design-clinical-trials-drugs-and-biologics-guidance-industry"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "ICH E9, 1998: analysis sets and statistical planning",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "FDA, 2019: adaptive designs, final nonbinding guidance",
+          "url": "https://www.fda.gov/media/78495/download"
+        },
+        {
+          "label": "Schoenfeld, 1983: sample-size formula for proportional hazards",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6354290/"
+        },
+        {
+          "label": "Anderson: gsSurv technical manual, fixed-design event approximations",
+          "url": "https://keaven.github.io/gsSurv/nsurv.html"
+        },
+        {
+          "label": "Aebi et al., 2014: CALOR design changes and results",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24439313/"
+        },
+        {
+          "label": "Giuliano et al., 2017: Z0011 follow-up and information",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28898379/"
+        },
+        {
+          "label": "Hoenig and Heisey, 2001: The Abuse of Power",
+          "url": "https://doi.org/10.1198/000313001300339897"
+        },
+        {
+          "label": "Button et al., 2013: power and reliability in neuroscience",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23571845/"
+        },
+        {
+          "label": "Button et al., 2013: erratum",
+          "url": "https://doi.org/10.1038/nrn3502"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "statistical-significance",
+        "seamless-adaptive",
+        "interim-analysis",
+        "group-sequential-design",
+        "trial-failure-modes",
+        "confidence-interval",
+        "data-maturity",
+        "hazard-ratio"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "dream3r",
+        "add-aspirin",
+        "adaura"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-design"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A flashlight can readily reveal a sofa but miss a coin; its sensitivity is meaningful only after saying what it should detect. Likewise, a power calculation needs the target effect and model. Clinical relevance informs that target, but not every design uses one universal smallest-effect prescription. Alpha is the false-positive probability under the specified null; two-sided 5% is common, not a rule for every design or endpoint. At a specified alternative, 80% power means about one in five repeated studies would miss the rejection criterion, and 90% power means about one in ten. These are not probabilities that the treatment works or that a particular patient benefits.",
+        "For a simple two-arm proportional-hazards approximation with equal allocation, two-sided alpha 0.05 and power 0.80, the target event count is approximately 4 × (z0.975 + z0.80)² / [log(HR)]². Here HR is the planned alternative hazard ratio, not an observed effect plugged in after the study. Using unrounded standard-normal quantiles and rounding the final event target upward gives 121 events for HR 0.60, 247 for 0.70, 347 for 0.74 and 1,189 for 0.85. The displayed rounded quantiles 1.96 and 0.84 can change the last rounded integer. This is an asymptotic proportional-hazards design approximation, not a universal calculator for non-proportional hazards or every survival analysis.",
+        "With those formula assumptions fixed, halving the magnitude of the log hazard ratio quadruples the event requirement. For treatment allocation fraction q, the factor 4 becomes 1/[q(1 − q)]; changing equal allocation to two to one increases the event target by 12.5%. Events are not participants. Converting an event target to recruitment requires assumptions about baseline event frequency, accrual, follow-up and censoring. A high participant count with few relevant events can leave limited information, while design, timing and the survival model still matter.",
+        "CALOR studied chemotherapy after completely excised isolated locoregional breast-cancer recurrence. Its original design planned 977 participants and 347 disease-free-survival events for HR 0.74. A 2008 amendment, before outcome results were available, targeted HR 0.60 with 265 participants and 124 events. Accrual stopped with 162 participants because recruitment was slow. In the 2014 analysis, the overall hazard ratio was 0.59 (95% confidence interval 0.35 to 0.99). The protocol’s 124-event target remains its actual design figure; it need not exactly equal the simple 121-event approximation. These are the named overall-cohort results, not later receptor-subgroup estimates.",
+        "Z0011 planned 1,900 participants and 500 deaths but randomised 891, with lower accrual and mortality than anticipated. Its 2011 report says that even reaching the participant target would have required more than twenty years to observe 500 deaths at the realised rate. Participant recruitment therefore does not establish that the planned event information was reached. The ten-year result and its confidence interval should be read with that history and its selected clinical population.",
+        "A small study with a nonsignificant result may still allow a clinically useful benefit within its confidence interval. Calling it underpowered requires a particular alternative and design. A study well powered for HR 0.60 can be poorly powered for HR 0.85. A main-effect power calculation does not guarantee adequate information for subgroup differences or treatment-by-biomarker interaction. Conversely, a very large study can detect an effect smaller than the clinical threshold of interest. Keep effect size, uncertainty and clinical importance together.",
+        "Selecting small studies because they achieved significance can favour unusually large estimated effects. That is a conditional selection problem, not proof that every small significant estimate is exaggerated. An early benefit stop also needs its planned sequential rule and an estimate appropriate to that rule. Rare-harm frequency and precision can require much larger exposure than an efficacy comparison: observing no harm does not prove that its true risk is zero. These are reasoning limits, not a universal numerical correction or a prediction for an individual study.",
+        "Hoenig and Heisey explain why the usual observed-power calculation, obtained by treating the study’s estimated effect as the true effect, adds no independent explanation to the corresponding p-value. Use the effect estimate and confidence interval to assess what the data allow. This criticism does not invalidate prospective power planning, conditional or predictive power for a defined continuation decision, or planning a future study for a clinically specified effect. A power value without its target alternative is incomplete.",
+        "A fictional equal-allocation study was planned for HR 0.70 with 247 events under the two-sided 5%, 80%-power approximation. If the true HR were instead 0.85, the same approximation would require 1,189 events for 80% power. At 247 events, normal-approximation power for HR 0.85 is about 25%. That does not make the real effect known or prove that a nonsignificant result means no benefit. State the assumed effect, alpha, event information and achieved follow-up before interpreting what a study could detect."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "other-cause-mortality",
+      "kind": "term",
+      "name": "Other-cause mortality",
+      "aka": [
+        "death from other causes",
+        "competing mortality",
+        "non-cancer mortality",
+        "competing risk of death",
+        "other cause mortality"
+      ],
+      "tldr": "Dying of something that is not the cancer. In prostate cancer most men do, which makes it the outcome that decides how much any treatment can possibly help. It is also where the inequality that survives equal cancer care shows up, and almost no cancer service measures it.",
+      "summary": "Other-cause mortality is death from causes other than the disease under study. For disease-specific death, a different cause of death is a competing event: it prevents that disease-specific death from subsequently occurring. Mutual exclusivity of observed first events does not itself prove statistical dependence of latent event times. Cumulative incidence describes disease-specific event probability in the presence of competing causes; Aalen-Johansen estimates its curve. Cause-specific Cox and Fine-Gray regression address different hazards, and neither hazard ratio is the probability itself. The clinical importance depends on the population, follow-up and endpoint.\n\nIt carries the equity finding, which is why it has an entry here. Dess and Spratt assembled individual patient data on men with clinical T1 to T4, N0 to N1, M0 prostate cancer from three cohorts with progressively tighter control of access to care: the Surveillance, Epidemiology, and End Results registry (296,273 men), five equal-access Veterans Affairs medical centres (3,972 men, all treated surgically) and four pooled National Cancer Institute randomised radiotherapy trials (5,854 men), with inverse probability weighting for demographic, cancer and treatment differences. Prostate cancer-specific mortality in Black men fell from an age-adjusted subdistribution hazard ratio of 1.30 in the registry to 1.09 after weighting, was not significantly different in the equal-access surgical cohort (0.85), and was significantly lower in the randomised trial cohort (0.81). Other-cause mortality stayed significantly higher in two of the three: 1.30 in the weighted registry cohort and 1.17 in the weighted trial cohort.\n\nWhat that means operationally. Once treatment and access are equalised, the excess prostate cancer death largely disappears and the excess death from everything else does not. A prostate cancer service that measures only cancer-specific mortality has therefore made itself blind to the larger surviving gap, in a population it sees regularly for years and treats with androgen deprivation, a therapy that worsens metabolic and bone health. The caveats belong with the finding: these are United States cohorts with a United States access gradient, the analysis is retrospective despite the weighting, and it addresses mortality after diagnosis at a given stage rather than the higher incidence and younger age at presentation in Black men.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "Dess et al., JAMA Oncology 2019: association of Black race with prostate cancer-specific and other-cause mortality",
+          "url": "https://doi.org/10.1001/jamaoncol.2019.0826"
+        },
+        {
+          "label": "US Preventive Services Task Force, JAMA 2018: screening for prostate cancer, recommendation statement",
+          "url": "https://doi.org/10.1001/jama.2018.3710"
+        },
+        {
+          "label": "Austin, Lee and Fine, 2016: competing-risk analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26858290/"
+        },
+        {
+          "label": "Therneau, Crowson and Atkinson, September 2026: competing risks and Aalen-Johansen",
+          "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
+        }
+      ],
+      "tags": [
+        "gu",
+        "prostate-glossary"
+      ],
+      "related": [
+        "idea-prostate-other-cause-mortality-as-a-reported-service-outcome",
+        "paper-dess-black-race-prostate-mortality-jama-oncol-2019",
+        "hazard-ratio",
+        "treatment-induced-bone-loss"
+      ],
+      "cancers": [
+        "prostate",
+        "prostate-low-risk",
+        "prostate-intermediate-risk",
+        "prostate-high-risk",
+        "prostate-mhspc",
+        "prostate-nmcrpc"
+      ],
+      "sections": [
+        "supportive-care",
+        "hormonal",
+        "early-detection"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hazard-ratio",
+        "adt",
+        "quality-of-life",
+        "overtreatment",
+        "screening"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-survivorship",
+        "b-aging-comorbidity",
+        "b-global-access",
+        "b-trial-diversity"
+      ],
+      "keyPapers": [
+        "paper-dess-black-race-prostate-mortality-jama-oncol-2019",
+        "paper-bill-axelson-spcg-4-29-year-nejm-2018",
+        "paper-wilt-pivot-prostatectomy-observation-nejm-2017"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Competing events and ordinary loss to follow-up are different. Cumulative incidence estimates the probability of the chosen cause before a competing event, using event-free survival in each increment. Fine-Gray is a regression model for a subdistribution hazard; it is not the cumulative-incidence estimator. Cause-specific Cox can instead remove competing events from its event-free risk set. Read the event definition, time horizon and fitted model before interpreting a hazard ratio as risk.",
+        "Competing mortality is one issue when comparing localised-treatment studies, but a difference between trial results cannot be attributed to it alone. Population, detection setting, treatment, follow-up and statistical uncertainty also need examination. This record does not establish a single causal explanation for differences between SPCG-4 and PIVOT.",
+        "For an individual man, the practical version of this word is his own health apart from the cancer. It is the reason a guideline talks about life expectancy and comorbidity before it talks about grade group, and the reason watchful waiting exists as a plan distinct from active surveillance."
+      ],
+      "category": "Endpoints"
+    }
+  ]
+}

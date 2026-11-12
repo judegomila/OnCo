@@ -1,0 +1,208 @@
+[
+  {
+    "file": "engelowski-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29789554%20AND%20SRC:MED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:00:47.999561+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:29789554%20AND%20SRC:MED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10596,
+    "sha256": "682e5a335130a2657b5b6fe4dccb5b52f5a0f44d30842d578fe224d012b06a8f"
+  },
+  {
+    "file": "engelowski-crossref.json",
+    "url": "https://api.crossref.org/works/10.1038%2Fs41467-018-04454-8",
+    "capturedAt": "2026-11-09T23:00:48.809275+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1038%2Fs41467-018-04454-8",
+    "contentType": "application/json",
+    "bytes": 24360,
+    "sha256": "2e50ed7b749ae4e90d7ac318f8042ad7478f898f01bda0398a3868aef7d82526"
+  },
+  {
+    "file": "engelowski-fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5964073/fullTextXML",
+    "capturedAt": "2026-11-09T23:00:49.164436+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5964073/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 125134,
+    "sha256": "cdce869c03a1a0852331ff6f7d102f8a650f6bf492200ed3a283899a21dd4d11"
+  },
+  {
+    "file": "enoda-platform.html",
+    "url": "https://www.enoda.bio/",
+    "capturedAt": "2026-11-09T23:00:51.123932+00:00",
+    "status": 200,
+    "finalURL": "https://www.enoda.bio/",
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 369491,
+    "sha256": "59bb6f8389796e0e99792f80c02b872794a12ce9cecf1bccaaf5c602557ad00b"
+  },
+  {
+    "file": "elicit-rank-1-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34627648+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:01:58.176247+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34627648+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4588,
+    "sha256": "3a732c4ff15ddd32fc36f53038f94e93b00159e4e9e2a01e616ff39c8cde76f1"
+  },
+  {
+    "file": "elicit-rank-2-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31147158+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:05.541798+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31147158+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4501,
+    "sha256": "6e0763e2f49ab79dccf1ec8f84e8ec8232e723089a66d5db7146334fd792949c"
+  },
+  {
+    "file": "elicit-rank-3-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35043005+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:06.226286+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35043005+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9048,
+    "sha256": "c4f71e1d44434f50e1741570b4519c89153e7597416480aaeae75c23e9998386"
+  },
+  {
+    "file": "elicit-rank-4-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20562098+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:07.309815+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20562098+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9921,
+    "sha256": "1f0dabf136515da1cc64aefeb693dbb0953cde73e7f621e04a224a7a33a04b10"
+  },
+  {
+    "file": "elicit-rank-5-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1126%2FSCIENCE.359.6379.1004-P%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:08.010806+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1126%2FSCIENCE.359.6379.1004-P%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 214,
+    "sha256": "9c46495ef8e8964cce2f079087db95539115dd00cf757a5bf5f0603c3f6d3c5e"
+  },
+  {
+    "file": "elicit-rank-6-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25466879+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:15.479081+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25466879+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6889,
+    "sha256": "f55e8cb6068e2dcff4cf800013e263b96474c5eddcc11707159703b925ada910"
+  },
+  {
+    "file": "elicit-rank-7-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30738638+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:16.298048+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30738638+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6418,
+    "sha256": "a80778177cf3ea80aad3ef037c52b5f8a929d4a0f30b29b5b42c99a26205ab2c"
+  },
+  {
+    "file": "elicit-rank-8-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36712002+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:17.200783+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36712002+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 3969,
+    "sha256": "bdf9d7ec9184b12622e29a6675e95994dacf84dd65fb6c2e6e1992d6f6287f99"
+  },
+  {
+    "file": "macrophage-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Programmable+synthetic+cytokine+receptors+polarize+macrophages+to+user-defined+functional+states%22+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:17.871462+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Programmable+synthetic+cytokine+receptors+polarize+macrophages+to+user-defined+functional+states%22+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 281,
+    "sha256": "a605ecc18875327e6e8561f8604addd9acc3e2d477e09266bfbb5e90123ccae4"
+  },
+  {
+    "file": "macrophage-fulltext.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13192837/fullTextXML",
+    "capturedAt": "2026-11-09T23:02:54.791716+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13192837/fullTextXML",
+    "contentType": "application/xml",
+    "bytes": 161814,
+    "sha256": "266027b67beac640d3de7b0ef0d57e685e033314e79c7ca36dbd073971bb381f"
+  },
+  {
+    "file": "macrophage-pmc-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PMC13192837%20AND%20SRC:PMC&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:02:56.237109+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PMC13192837%20AND%20SRC:PMC&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 242,
+    "sha256": "7380df3795cea66eae9775d6fea2828356d6f244b01008570f047fc6e8849b02"
+  },
+  {
+    "file": "elicit-rank-5-crossref.json",
+    "url": "https://api.crossref.org/works/10.1126%2FSCIENCE.359.6379.1004-P",
+    "capturedAt": "2026-11-09T23:02:56.846592+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.1126%2FSCIENCE.359.6379.1004-P",
+    "contentType": "application/json",
+    "bytes": 2092,
+    "sha256": "8520996940c4523dc92f1fad0aa982b212c2140219e368b9c40df2034e979ebc"
+  },
+  {
+    "file": "macrophage-pmid-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42182394+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:03:46.501017+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42182394+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9719,
+    "sha256": "42134d5f51c38e5ff70c5fc1c67d3fb2b5793f7bda199173cdb22be57f53c7bc"
+  },
+  {
+    "file": "macrophage-crossref.json",
+    "url": "https://api.crossref.org/works/10.64898%2F2026.05.12.724672",
+    "capturedAt": "2026-11-09T23:03:47.278909+00:00",
+    "status": 200,
+    "finalURL": "https://api.crossref.org/works/10.64898%2F2026.05.12.724672",
+    "contentType": "application/json",
+    "bytes": 19760,
+    "sha256": "96b6051062e99c57b0e04c1578c44e666e1718e2a8e1aa424c929c274b3968c1"
+  },
+  {
+    "file": "wu-med.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26405231%20AND%20SRC:MED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T23:11:02.963946+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26405231%20AND%20SRC:MED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9835,
+    "sha256": "0b5dcb5f644670c64d7c1f735c37d4c57ec9e23204cb318ff6e29716e463808b"
+  },
+  {
+    "file": "registry/synthetic-cytokine-receptors/page-0001.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22synthetic+cytokine+receptor%22+OR+%22synthetic+cytokine+receptors%22&format=json&pageSize=100&countTotal=true",
+    "capturedAt": "2026-11-09T23:01:36.039627+00:00",
+    "bytes": 31,
+    "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8",
+    "captureType": "Raw ClinicalTrials.gov API page; zero-result search."
+  },
+  {
+    "file": "elicit-synthetic-receptors.json",
+    "url": "https://elicit.com/api/v2/search/papers",
+    "capturedAt": "2026-11-09T23:00:53.819Z",
+    "bytes": 10272,
+    "sha256": "0350ebe8edcddc1b50013cd765b2dc01a9f14591e4ee7cdae2d0986c468e5b65",
+    "captureType": "Complete Elicit request/response envelope outside Git; abstracts not copied."
+  }
+]

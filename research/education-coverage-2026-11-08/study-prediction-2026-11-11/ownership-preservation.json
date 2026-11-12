@@ -1,0 +1,45 @@
+[
+  {
+    "group": "root",
+    "beforeGraphRecords": 22800,
+    "afterGraphRecords": 22805,
+    "changedOnlyAllowedOwners": true,
+    "changedIds": [
+      "ppv",
+      "real-world-evidence",
+      "trial-phases",
+      "randomised-trial",
+      "in-vitro-in-vivo",
+      "preclinical",
+      "n-of-1-trial",
+      "group-sequential-design",
+      "futility",
+      "prespecified-vs-post-hoc",
+      "subgroup-analysis",
+      "concordance-index",
+      "calibration",
+      "roc-auc"
+    ],
+    "newIds": [
+      "case-report",
+      "controlled-perturbation",
+      "false-discovery-rate",
+      "meta-analysis",
+      "publication-and-peer-review-status"
+    ]
+  },
+  {
+    "group": "peer",
+    "beforeGraphRecords": 22712,
+    "afterGraphRecords": 22712,
+    "changedOnlyAllowedOwners": true,
+    "changedIds": [
+      "prognostic-versus-predictive-biomarkers",
+      "detection-versus-quantification",
+      "confounding-by-indication",
+      "biomarker-cutpoint-selection",
+      "cancer-drivers-vs-actionable"
+    ],
+    "newIds": []
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "receipts": [
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+      "bytes": 2101705,
+      "sha256": "c23644d27db8e8f3a7f65e26282c4bdefd54912c41d245c9eeabaa0b78d2059a",
+      "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+      "bytes": 2168357,
+      "sha256": "8121c792f5edb6172d8e85e8544c40c334cc0f83570a3db900fb0dc1971e112b",
+      "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "bytes": 2207242,
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "bytes": 1959146,
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+      "bytes": 2179043,
+      "sha256": "3265d8fc1ef67048948749200db3dd378f011944dd9c18e62a2ccfca7cf83549",
+      "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+      "bytes": 2253203,
+      "sha256": "b2eca31a574a0359cbd1e9b4ccafd62b009f1890535eb82d4f92be53056bd667",
+      "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+      "bytes": 2101705,
+      "sha256": "c23644d27db8e8f3a7f65e26282c4bdefd54912c41d245c9eeabaa0b78d2059a",
+      "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+      "bytes": 2168357,
+      "sha256": "8121c792f5edb6172d8e85e8544c40c334cc0f83570a3db900fb0dc1971e112b",
+      "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "bytes": 2207242,
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "bytes": 1959146,
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+      "bytes": 2179043,
+      "sha256": "3265d8fc1ef67048948749200db3dd378f011944dd9c18e62a2ccfca7cf83549",
+      "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+      "bytes": 2253203,
+      "sha256": "b2eca31a574a0359cbd1e9b4ccafd62b009f1890535eb82d4f92be53056bd667",
+      "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+      "freshFullExtentView": true,
+      "renderer": "Original PNG, 1024 by 1536; no browser or accessibility claim"
+    }
+  ],
+  "findings": [
+    {
+      "stem": "hr-matching-template-route-v1",
+      "issue": "Step 2 shows the second broken end without the protruding 3-prime tail drawn in step 1. The successful-route caption already supplies scope for Template stays; that label is not treated as a universal claim.",
+      "disposition": "Guide artwork follow-up, no OnCo image imported"
+    },
+    {
+      "stem": "mitochondrial-proton-paths-v2",
+      "issue": "ADP plus phosphate to ATP is spatially near the synthase head but has no leader to it. The drawing separates the proton arrow from the reaction.",
+      "disposition": "Optional Guide layout clarification, no factual contradiction claimed"
+    }
+  ],
+  "drawingConventions": [
+    "Gap width, colours and contour shape are schematic. They are not measured membrane dimensions or empirical quantities."
+  ],
+  "expertAcceptance": false
+}

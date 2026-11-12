@@ -1,0 +1,27 @@
+[
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+    "imageEmbeds": [],
+    "mermaidFences": 0
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+    "imageEmbeds": [],
+    "mermaidFences": 0
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+    "imageEmbeds": [],
+    "mermaidFences": 0
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+    "imageEmbeds": [],
+    "mermaidFences": 0
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+    "imageEmbeds": [],
+    "mermaidFences": 0
+  }
+]

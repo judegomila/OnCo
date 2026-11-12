@@ -1,0 +1,597 @@
+{
+  "dataCommit": "dc2eb11265c65f5508278281b8f7685e90d4a134",
+  "existingOwners": [
+    {
+      "id": "cdk46-inhibitor",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "related": {
+          "before": [
+            "oral-serd-plus-cdk46-after-esr1",
+            "cdk46-plus-endocrine",
+            "oral-anticancer-medicines-at-home"
+          ],
+          "after": [
+            "oral-serd-plus-cdk46-after-esr1",
+            "cdk46-plus-endocrine",
+            "cdk-inhibitors",
+            "oral-anticancer-medicines-at-home"
+          ],
+          "beforeSha256": "eb34a67a4c5f03326542ffdc8f4fa425022ffa7dd0b84a08e3918e4c8fe1ed70",
+          "afterSha256": "ed62d5227a378761f56bf5f48ac6aad4f29a0510c54e2b9d01c888bffa689189"
+        }
+      },
+      "allEarlierNotesPreservedExceptNamedLungCorrection": true,
+      "allEarlierLinksPreserved": true
+    },
+    {
+      "id": "pi3k-akt-mtor-inhibitors",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PI3K/AKT/mTOR_pathway"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PI3K/AKT/mTOR_pathway"
+            },
+            {
+              "label": "UniProt P42336: reviewed human PIK3CA function",
+              "url": "https://www.uniprot.org/uniprotkb/P42336/entry"
+            },
+            {
+              "label": "UniProt P60484: reviewed human PTEN function",
+              "url": "https://www.uniprot.org/uniprotkb/P60484/entry"
+            },
+            {
+              "label": "UniProt P42345: reviewed human mTOR function",
+              "url": "https://www.uniprot.org/uniprotkb/P42345/entry"
+            },
+            {
+              "label": "NCI Drug Dictionary: capivasertib",
+              "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/capivasertib"
+            },
+            {
+              "label": "PIQRAY prescribing information, section 12.1",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b"
+            },
+            {
+              "label": "NCI Drug Dictionary: everolimus",
+              "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/everolimus"
+            },
+            {
+              "label": "mTOR inhibition induces upstream receptor tyrosine kinase signaling and activates Akt.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16452206/"
+            },
+            {
+              "label": "FDA: capivasertib with fulvestrant, November 2023 approval",
+              "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-capivasertib-fulvestrant-breast-cancer"
+            },
+            {
+              "label": "Capivasertib plus paclitaxel as first-line treatment for metastatic triple-negative breast cancer: results from the randomised, global phase III CAPItello-290 trial.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41422862/"
+            }
+          ],
+          "beforeSha256": "4e0f4aaa83eb378e81523bef0ad5283637f1d850615d0aa05ed6ebf62f3f9e9d",
+          "afterSha256": "99f47cc9785fa4c88d821f60fdea892caded1ec0bfcd149451eeb984115a530c"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "pi3k-akt-mtor",
+            "pten-loss"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "60b35b5056c651bf6963403e4160599f942ed0dabfe04ed7a6806d92d0c35d82"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "PI3K, AKT and mTOR name different parts of a signalling network. In the selected membrane route, PI3K adds a phosphate to the lipid PIP2 to make PIP3; PTEN removes the relevant phosphate and opposes that lipid signal. PIP3 helps recruit proteins including AKT to the membrane. AKT, also called protein kinase B, phosphorylates proteins, and its connection to mTORC1 includes intermediate regulators. mTOR participates in the distinct mTORC1 and mTORC2 complexes. A diagram showing this route leaves other branches out.",
+            "Alpelisib has inhibitory activity predominantly against PI3K-alpha; capivasertib inhibits AKT isoforms; the rapamycin derivative everolimus acts through a complex that inhibits mTOR. Isoforms are related forms of a protein, and an inhibitor profile must identify which forms or complexes the compound affects. Binding mode, selectivity and achieved exposure differ between products. Blocking a neighbouring node is not the same intervention, even when the network diagram puts the names beside each other.",
+            "O'Reilly and colleagues found that mTOR inhibition relieved feedback inhibition and increased AKT activation in studied cancer cell lines and patient tumour samples. The indirect return path in a network sketch represents a feedback brake, not a direct physical wire or every branch. In a fictional experiment, reduced downstream output with a higher AKT phosphosite signal is compatible with network compensation. Those two measurements alone do not prove that this loop caused the change, that every tumour rebounds or that the drug missed its target; they also do not measure net survival benefit.",
+            "The FDA's November 2023 capivasertib approval is a defined historical example: capivasertib with fulvestrant for adults with hormone-receptor-positive, HER2-negative locally advanced or metastatic breast cancer carrying a PIK3CA, AKT1 or PTEN alteration detected by an FDA-approved test. It required progression after an endocrine-based regimen in the metastatic setting, or recurrence on or within 12 months of completing adjuvant therapy. These disease, test, combination and prior-treatment conditions do not become a triple-negative breast-cancer indication from a pathway alteration alone.",
+            "CAPItello-290 tested capivasertib plus paclitaxel against placebo plus paclitaxel as first-line treatment for metastatic triple-negative breast cancer. In the 812-patient phase III trial, the overall-survival primary endpoints were not met in either the overall population or the PIK3CA/AKT1/PTEN-altered population. Median overall survival was 17.7 versus 18.0 months overall and 20.4 months in both altered-population arms. Secondary progression-free survival results favoured the combination, but do not reverse the negative primary survival finding.",
+            "Name the phosphosite, substrate, specimen, comparator and time when interpreting a signalling assay. A PTEN DNA alteration, RNA amount, protein stain and enzyme-function result measure different layers. A drug-dependent change in AKT phosphorylation is not a universal meter of all AKT activity; examine the relevant substrate effects too. Nanomolar, or nM, states concentration; normalised phosphoprotein signal, growth and death are distinct outputs. Engagement is different from dependence, and clinical interpretation needs the disease, assay and endpoint used in the treatment evidence.",
+            "If a fictional report finds a PIK3CA variant, it does not follow that any AKT inhibitor will work. Establish the variant's functional effect, actual drug and exposure, disease setting, assay and clinical evidence before claiming sensitivity or eligibility. Likewise, a model hypothesis about DNA repair or immune effects is not proof that every PI3K or AKT inhibitor improves a PARP-inhibitor or immunotherapy combination. State the proposed mechanism, the particular node being perturbed and the outcome tested in that treatment setting."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "cca7b7ed2041376c4f12b14b072ea50ce675d8c86cfdc943b443c6c83d1ea32c"
+        }
+      },
+      "allEarlierNotesPreservedExceptNamedLungCorrection": true,
+      "allEarlierLinksPreserved": true
+    },
+    {
+      "id": "egfr",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor"
+            },
+            {
+              "label": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/"
+            },
+            {
+              "label": "UniProt P00533: reviewed human EGFR function",
+              "url": "https://www.uniprot.org/uniprotkb/P00533/entry"
+            },
+            {
+              "label": "NCI Drug Dictionary: cetuximab",
+              "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cetuximab"
+            },
+            {
+              "label": "NCI: targeted therapy types and mechanisms",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+            },
+            {
+              "label": "Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15118073/"
+            },
+            {
+              "label": "TBCRC 001: randomized phase II study of cetuximab in combination with carboplatin in stage IV triple-negative breast cancer.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22665533/"
+            },
+            {
+              "label": "Randomized phase II study of the anti-epidermal growth factor receptor monoclonal antibody cetuximab with cisplatin versus cisplatin alone in patients with metastatic triple-negative breast cancer.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23733761/"
+            },
+            {
+              "label": "Errata to Baselga 2013: funding acknowledgement (2018)",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6162024/"
+            },
+            {
+              "label": "FDA: sunvozertinib accelerated approval, July 2025",
+              "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20"
+            }
+          ],
+          "beforeSha256": "0f7d55c92b9eb081e221578df5acb8b58badc06d3949d342e742a00a23fae184",
+          "afterSha256": "50417f9c89a766d2827d8d00ff1f09d88efe11d41446e2bd360113f789dd7c03"
+        },
+        "related": {
+          "before": [
+            "egfr-exon-19-deletion",
+            "egfr-l858r",
+            "egfr-exon-20-insertion",
+            "egfr-t790m",
+            "egfr-c797s"
+          ],
+          "after": [
+            "tki-term",
+            "drug-target-and-mechanism",
+            "egfr-exon-19-deletion",
+            "egfr-l858r",
+            "egfr-exon-20-insertion",
+            "egfr-t790m",
+            "egfr-c797s"
+          ],
+          "beforeSha256": "12910fbe4b9dc1c0c9edf3a685a0c8df0598ad486ef6fc534ca55a8109a348a4",
+          "afterSha256": "2630ebc667e37da53977e64002272dad25debcfc6893992bf83bf1cbb960c8a5"
+        },
+        "notes": {
+          "before": [
+            "Triple-negative breast cancer: EGFR is amplified or gained in 23% of basal-like tumours but rarely mutated (Cancer Genome Atlas 2012), high-level amplification 3 to 6% by cohort (cBioPortal); EGFR-directed antibodies failed unselected, and the receptor now matters as one arm of the EGFR-HER3 bispecific antibody-drug conjugate izalontamab brengitecan.",
+            "Colorectal cancer: a target without an alteration. Cetuximab and panitumumab work in RAS and BRAF wild-type, left-sided disease regardless of EGFR copy number or expression, and no EGFR test selects them; the biomarkers are negative ones (Karapetis 2008, Douillard 2013) plus primary tumour side (Arnold 2017). High-level EGFR amplification is 1 to 2% (cBioPortal) and epiregulin overexpression marks the distal, ligand-dependent tumours (Missiaglia 2014). Acquired resistance is read in plasma as emerging KRAS, NRAS, BRAF and EGFR ectodomain alterations, detectable months before imaging (Misale 2012, Diaz 2012).",
+            "Lung cancer: mutated in 12.4% of resected Western adenocarcinoma and 47.4% of East Asian adenocarcinoma, with 28.4% in never-smoker whole genomes (cBioPortal), the widest ancestry gap of any biomarker in solid-tumour oncology. The class matters more than the gene: exon 19 deletions (about 14% of adenocarcinomas) and L858R (about 11%) respond to every generation of inhibitor, exon 20 insertions (about 2%) respond to none of them and need different medicines, and the uncommon G719X, L861Q and S768I alleles do better on a second-generation irreversible inhibitor than on a first-generation one. Resistance is read in the same gene: T790M in 63% of rebiopsies after a first-generation inhibitor (Yu 2013) and C797S in 22% after osimertinib, where the allelic phase with T790M decides whether a combination can cover it (Thress 2015, Oxnard 2018). Immunohistochemistry is not acceptable for EGFR testing (Lindeman 2018)."
+          ],
+          "after": [
+            "EGFR, also called HER1 or ERBB1, is a receptor tyrosine kinase. Ligand binding outside the cell can change receptor arrangement and the activity of phosphate-transfer machinery inside. Cetuximab binds the extracellular region, whereas an EGFR tyrosine kinase inhibitor acts at the intracellular kinase. An antibody conjugate instead adds a cargo-delivery job to target recognition. Its mechanism and evidence need separate assessment, including any antibody-mediated immune effects. A schematic contact or cargo arrow is not a molecular map of receptor processing, and delivery to a recognised target does not by itself establish dependence on the receptor kinase.",
+            "EGFR can feed RAS-MAPK and PI3K-AKT signalling, but these networks receive other inputs too. A downstream signal therefore does not uniquely identify the receptor driving it. Compare the actual inhibitor: which receptors and variants it covers, whether binding is reversible and what exposure is achieved. Evidence for an extracellular antibody cannot simply be assigned to an intracellular kinase inhibitor, even when both treatments use the same target name.",
+            "Lynch and colleagues linked defined EGFR kinase-domain mutations to gefitinib responsiveness in non-small-cell lung cancer and tested the mutant proteins in cultured cells. They found mutations in eight of nine responsive cancers and none of seven nonresponsive cancers in the reported comparison. This was evidence about specific alterations in that disease and about their functional consequences, not a rule that abundant EGFR protein in another cancer predicts response.",
+            "TBCRC 001 studied cetuximab with carboplatin in metastatic triple-negative breast cancer. Among 16 patients with paired biopsies, the expression-based EGFR pathway analysis showed activation in 13 and inhibition after treatment in five. The regimen given together from the start produced a 17% response rate; 31% had a response or prolonged disease stabilisation. The latter outcome is broader than objective response. Receptor abundance, measured pathway suppression and clinical disease control cannot be substituted for each other.",
+            "BALI-1 compared cisplatin with or without cetuximab in metastatic triple-negative breast cancer. Its primary overall-response endpoint was not met: response was 20% versus 10%, with P = 0.11. Progression-free survival was a secondary endpoint, and the reported overall-survival difference was not statistically significant. These results do not establish a general EGFR-treatment rule or postoperative benefit. The later erratum added a funding acknowledgement rather than changing these efficacy results.",
+            "An EGFR report identifies the specimen, assay, variant if any and sampling time. Immunostaining measures protein amount and location; sequencing measures a DNA alteration; receptor or downstream phosphorylation measures a particular signalling state. A staining score, variant allele fraction and signal normalised to a control have different denominators and units. In model tests, state concentration and controls and distinguish engagement from growth dependence. An unspecified EGFR-high cutoff cannot select every EGFR-directed medicine.",
+            "In a fictional culture with strong EGFR staining, reduced receptor phosphorylation after treatment and continued growth, the stain and phosphoprotein result can both be correct. Growth may have other support, and attribution to the intended target still needs controlled perturbation and comparable exposure. This pattern does not establish sensitivity or patient benefit. Explain separately how much receptor was observed, what the exact alteration does and which product-specific mechanism and clinical outcome have been demonstrated.",
+            "Triple-negative breast cancer: EGFR is amplified or gained in 23% of basal-like tumours but rarely mutated (Cancer Genome Atlas 2012), high-level amplification 3 to 6% by cohort (cBioPortal); EGFR-directed antibodies failed unselected, and the receptor now matters as one arm of the EGFR-HER3 bispecific antibody-drug conjugate izalontamab brengitecan.",
+            "Colorectal cancer: a target without an alteration. Cetuximab and panitumumab work in RAS and BRAF wild-type, left-sided disease regardless of EGFR copy number or expression, and no EGFR test selects them; the biomarkers are negative ones (Karapetis 2008, Douillard 2013) plus primary tumour side (Arnold 2017). High-level EGFR amplification is 1 to 2% (cBioPortal) and epiregulin overexpression marks the distal, ligand-dependent tumours (Missiaglia 2014). Acquired resistance is read in plasma as emerging KRAS, NRAS, BRAF and EGFR ectodomain alterations, detectable months before imaging (Misale 2012, Diaz 2012).",
+            "Lung cancer: mutated in 12.4% of resected Western adenocarcinoma and 47.4% of East Asian adenocarcinoma, with 28.4% in never-smoker whole genomes (cBioPortal), the widest ancestry gap of any biomarker in solid-tumour oncology. The mutation classes differ: exon 19 deletions (about 14% of adenocarcinomas), L858R (about 11%), exon 20 insertions (about 2%) and the uncommon G719X, L861Q and S768I variants need drug-specific evidence. Response to every generation, or resistance to every inhibitor, does not follow from the class name. In July 2025, the FDA granted accelerated approval to sunvozertinib for adults with locally advanced or metastatic non-small-cell lung cancer with an EGFR exon 20 insertion detected by an FDA-approved test after progression on or after platinum-based chemotherapy. Resistance is read in the same gene: T790M in 63% of rebiopsies after a first-generation inhibitor (Yu 2013) and C797S in 22% after osimertinib, where the allelic phase with T790M decides whether a combination can cover it (Thress 2015, Oxnard 2018). Immunohistochemistry measures protein rather than identifying these DNA alterations."
+          ],
+          "beforeSha256": "98e487927d128624f8c293406c3ebdb1e0af749bb39404a81fa6a9e0f27929b2",
+          "afterSha256": "9bd3987fceac528219f32d743d1b1847d4652b9cb6d3926f01ad8ab72681ce71"
+        }
+      },
+      "allEarlierNotesPreservedExceptNamedLungCorrection": true,
+      "allEarlierLinksPreserved": true
+    },
+    {
+      "id": "arpi",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-09",
+          "after": "2026-11-12",
+          "beforeSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Antiandrogen"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Antiandrogen"
+            },
+            {
+              "label": "Development of a second-generation antiandrogen for treatment of advanced prostate cancer.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19359544/"
+            },
+            {
+              "label": "NCI Drug Dictionary: enzalutamide",
+              "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/enzalutamide"
+            },
+            {
+              "label": "NCI: targeted therapy types and mechanisms",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+            },
+            {
+              "label": "TBCRC 032 IB/II Multicenter Study: Molecular Insights to AR Antagonist and PI3K Inhibitor Efficacy in Patients with AR<sup>+</sup> Metastatic Triple-Negative Breast Cancer.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31822498/"
+            },
+            {
+              "label": "Enzalutamide for the Treatment of Androgen Receptor-Expressing Triple-Negative Breast Cancer.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29373071/"
+            },
+            {
+              "label": "ClinicalTrials.gov NCT01889238: 16-week clinical benefit definitions",
+              "url": "https://clinicaltrials.gov/study/NCT01889238"
+            }
+          ],
+          "beforeSha256": "062420e0dedece0de7d79b5405857f582c513d2e70fb4e67501b987eeb5a8dcd",
+          "afterSha256": "ec8073ea43097e0540d3192c1e2f7c1b7bf721cd9ad567d49ec706bdb54ba4aa"
+        },
+        "related": {
+          "before": [
+            "adt",
+            "castration-resistance"
+          ],
+          "after": [
+            "adt",
+            "castration-resistance",
+            "androgen-receptor-positive-tnbc",
+            "luminal-androgen-receptor"
+          ],
+          "beforeSha256": "ec1cc8eb2480d7a0c4c0b8e8753e003d476eed6d056e01879060dbc84df00258",
+          "afterSha256": "04b763ae94664cd1de0c6d3391b8f50a5fcff49d8d17ddaf415b88b96f54d964"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "An androgen receptor pathway inhibitor can act on hormone production or on the receptor itself. These are different interventions. Testosterone and dihydrotestosterone are androgen hormones; the full-length androgen receptor is a hormone-responsive transcription factor that helps regulate which DNA instructions are read into RNA. Bicalutamide and enzalutamide act at its ligand-binding region rather than removing the hormone supply. Blocking this receptor is also different from blocking the estrogen receptor. A receptor can be present while its partners, sequence, abundance or cellular setting change what an antagonist does.",
+            "Tran and colleagues studied RD162 and MDV3100, later called enzalutamide, in defined prostate-cancer systems. They measured receptor binding, movement into the nucleus, binding to regulatory DNA and interaction with coactivator proteins separately. The compounds reduced nuclear translocation and impaired DNA binding and coactivator recruitment in those systems. A change in one of these measurements is evidence about that step; it does not by itself establish a breast-cancer treatment effect.",
+            "Follow the signal through four locations: hormone supply, receptor binding inside a cell, nuclear regulation of DNA-to-RNA transcription and a receptor form with a missing binding region. Splicing assembles RNA from selected segments, so different messages can encode different receptor proteins. TBCRC 032 identified AR-V7 and AR-V12 transcripts lacking the ligand-binding domain in a small patient analysis. A drug aimed at that region and an intervention that lowers hormone supply therefore test different steps. Neither a receptor drawing nor a positive stain establishes growth dependence or benefit in breast cancer.",
+            "Traina and colleagues studied enzalutamide in a single-arm phase II trial of locally advanced or metastatic androgen-receptor-positive triple-negative breast cancer. The breast-optimised immunohistochemistry assay allowed enrolment with more than 0% nuclear staining. The evaluable subgroup additionally required at least 10% nuclear staining and a postbaseline assessment: 78 of 118 enrolled patients met that definition. The abstract reported clinical benefit at 16 weeks in 25% of all enrolled patients and 33% of that subgroup. The trial registry defines this endpoint as complete or partial response, or stable disease for at least 16 weeks. It is not the percentage with tumour shrinkage, and a single treatment arm does not measure a survival advantage over another treatment.",
+            "TBCRC 032 tested enzalutamide with the PI3K inhibitor taselisib. Its phase Ib portion included hormone-receptor-positive and triple-negative metastatic breast cancer; its randomised phase II portion was restricted to androgen-receptor-positive triple-negative disease. The exploratory RNA analyses suggested different responses by luminal androgen receptor subtype and receptor form. Protein staining alone was insufficient to identify receptor-dependent tumours. These observations do not validate an RNA subtype as a universal selection rule, substitute another PI3K drug for taselisib or establish postoperative benefit.",
+            "An androgen-receptor immunohistochemistry result reports nuclear protein staining in a specimen. Record the antibody, sampled tissue, scoring procedure, percentage of stained tumour nuclei and the threshold used. An RNA classifier instead compares gene-expression patterns; it does not measure how many receptors a drug occupies. Twenty percent stained nuclei is not a twenty percent probability that a patient responds. Receptor function, assay-defined expression and clinical benefit require different evidence, with the treated population, analysis denominator and time horizon stated.",
+            "In a model experiment, report the actual compound, concentration and exposure time alongside receptor engagement, downstream transcription, cell growth and death. Compare treated and control conditions and check whether the exposure used in a binding assay is the exposure used in the cellular test. These measurements connect an intervention to a possible mechanism; the result still needs disease-specific clinical evidence before it becomes a treatment-selection claim.",
+            "If a fictional report says a receptor-positive group had a 16-week clinical benefit rate of one third, first inspect the endpoint definition and analysis population. When qualifying stable disease is included, one third does not mean one third of tumours shrank. Ask which assay defined positivity, who enrolled, who entered the evaluable denominator and how long disease control had to last. The receptor supplies a mechanism hypothesis; expression supplies an assay result; benefit needs evidence for the particular drug, population and outcome."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "0f9907226e4f9e5205255051123b1a6115d20d5a964058d9f46abbe245a7ac74"
+        }
+      },
+      "allEarlierNotesPreservedExceptNamedLungCorrection": true,
+      "allEarlierLinksPreserved": true
+    },
+    {
+      "id": "brd4",
+      "fields": {
+        "summary": {
+          "before": "BRD4 is a chromatin reader that recognizes acetylated histones and helps regulate transcription. Its recognition pockets and other protein interactions can contribute different functions.\n\nEngaging an acetyl-recognition pocket and depleting a whole protein are different interventions. In selected TNBC models with acquired BET-inhibitor resistance, cells remained dependent on BRD4 through bromodomain-independent regulation. Verify pocket engagement and depletion independently before comparing growth outcomes. Neither operation alone establishes clinical benefit or a vulnerability caused by an uncharacterized BET-family variant.\n\nBET proteins read acetylated lysine marks; they do not write the acetyl mark. The family includes BRD2, BRD3, BRD4 and BRDT, with two bromodomains and an extra-terminal interaction region. BRD4 can recruit transcription-elongation machinery, but other bromodomain proteins are not all BET proteins and family members are not functionally interchangeable. The lesson figure retains the histone mark during pocket occupation and depletion; its representative pocket does not claim JQ1 is BD1-specific.\n\nIn a fictional culture, an engaged BET pocket probe leaves growth unchanged while independently controlled BRD4 depletion impairs growth. The findings can coexist if the remaining protein supplies functions the probe does not block, as the resistant-model work illustrates. Binding assays, chromatin occupancy, early RNA changes, later growth and death, general transcription effects and appropriate restoration controls answer different questions. Lower MYC RNA alone does not attribute a later effect to MYC.\n\nFrench identified a BRD4-NUT fusion in the defined carcinoma; a fusion is a different biological alteration from an ordinary sequence variant. Stathis reported four people with confirmed BRD4-NUT carcinomas treated with OTX015/MK-8628 in compassionate use: two had rapid regression, with no randomized comparison or established survival benefit. The report described thrombocytopenia, including reversible grade 3 events and a grade 4 event in one patient. This small selected series does not establish efficacy across BET-altered tumors.",
+          "after": "BRD4 is a chromatin reader that recognizes acetylated histones and helps regulate transcription. Its recognition pockets and other protein interactions can contribute different functions.\n\nEngaging an acetyl-recognition pocket and depleting a whole protein are different interventions. In selected TNBC models with acquired BET-inhibitor resistance, cells remained dependent on BRD4 through bromodomain-independent regulation. Verify pocket engagement and depletion independently before comparing growth outcomes. Neither operation alone establishes clinical benefit or a vulnerability caused by an uncharacterized BET-family variant.\n\nBET proteins read acetylated lysine marks; they do not write the acetyl mark. The family includes BRD2, BRD3, BRD4 and BRDT, with two bromodomains and an extra-terminal interaction region. BRD4 can recruit transcription-elongation machinery, but other bromodomain proteins are not all BET proteins and family members are not functionally interchangeable. A schematic that retains the same histone mark during pocket occupation and protein depletion isolates two different interventions. The fixed mark is a drawing convention rather than a measured unchanged acetylation state; the state of the mark needs its own measurement. A representative pocket also does not make JQ1 specific to BD1.\n\nIn a fictional culture, an engaged BET pocket probe leaves growth unchanged while independently controlled BRD4 depletion impairs growth. The findings can coexist if the remaining protein supplies functions the probe does not block, as the resistant-model work illustrates. Binding assays, chromatin occupancy, early RNA changes, later growth and death, general transcription effects and appropriate restoration controls answer different questions. Lower MYC RNA alone does not attribute a later effect to MYC.\n\nFrench identified a BRD4-NUT fusion in the defined carcinoma; a fusion is a different biological alteration from an ordinary sequence variant. Stathis reported four people with confirmed BRD4-NUT carcinomas treated with OTX015/MK-8628 in compassionate use: two had rapid regression, with no randomized comparison or established survival benefit. The report described thrombocytopenia, including reversible grade 3 events and a grade 4 event in one patient. This small selected series does not establish efficacy across BET-altered tumors.",
+          "beforeSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+          "afterSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb"
+        },
+        "asOf": {
+          "before": "2026-11-10",
+          "after": "2026-11-12",
+          "beforeSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "HGNC HGNC:13575",
+              "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:13575"
+            },
+            {
+              "label": "UniProt O60885",
+              "url": "https://www.uniprot.org/uniprotkb/O60885/entry"
+            },
+            {
+              "label": "NCBI Gene 23476",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/23476"
+            },
+            {
+              "label": "Response and resistance to BET bromodomain inhibitors in triple-negative breast cancer. (primary abstract; 2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26735014/"
+            },
+            {
+              "label": "Selective inhibition of BET bromodomains. (primary abstract; 2010)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20871596/"
+            },
+            {
+              "label": "Recruitment of P-TEFb for stimulation of transcriptional elongation by the bromodomain protein Brd4. (2005; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16109377/"
+            },
+            {
+              "label": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc. (2011; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21889194/"
+            },
+            {
+              "label": "BRD4-NUT fusion oncogene: a novel mechanism in aggressive carcinoma. (2003; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12543779/"
+            },
+            {
+              "label": "Clinical Response of Carcinomas Harboring the BRD4-NUT Oncoprotein to the Targeted Bromodomain Inhibitor OTX015/MK-8628. (2016; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26976114/"
+            }
+          ],
+          "after": [
+            {
+              "label": "HGNC HGNC:13575",
+              "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:13575"
+            },
+            {
+              "label": "UniProt O60885",
+              "url": "https://www.uniprot.org/uniprotkb/O60885/entry"
+            },
+            {
+              "label": "NCBI Gene 23476",
+              "url": "https://www.ncbi.nlm.nih.gov/gene/23476"
+            },
+            {
+              "label": "Response and resistance to BET bromodomain inhibitors in triple-negative breast cancer. (primary abstract; 2016)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26735014/"
+            },
+            {
+              "label": "Selective inhibition of BET bromodomains. (primary abstract; 2010)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20871596/"
+            },
+            {
+              "label": "Recruitment of P-TEFb for stimulation of transcriptional elongation by the bromodomain protein Brd4. (2005; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16109377/"
+            },
+            {
+              "label": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc. (2011; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21889194/"
+            },
+            {
+              "label": "BRD4-NUT fusion oncogene: a novel mechanism in aggressive carcinoma. (2003; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12543779/"
+            },
+            {
+              "label": "Clinical Response of Carcinomas Harboring the BRD4-NUT Oncoprotein to the Targeted Bromodomain Inhibitor OTX015/MK-8628. (2016; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26976114/"
+            },
+            {
+              "label": "Phase 1 Study of Molibresib (GSK525762), a Bromodomain and Extra-Terminal Domain Protein Inhibitor, in NUT Carcinoma and Other Solid Tumors.",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32328561/"
+            }
+          ],
+          "beforeSha256": "596ee4b7c731f7c89af550fd02c3b8a170e13202d8223b78ecb09dfe8db68086",
+          "afterSha256": "ff039803ff890e9d7d36d1335be52581c040aebd942694861246c1c281d13f13"
+        },
+        "related": {
+          "before": [
+            "myc",
+            "jak2"
+          ],
+          "after": [
+            "myc",
+            "jak2",
+            "chemical-probe"
+          ],
+          "beforeSha256": "c149a4382152b9806a093d92785dd16eb6925f74cd6502db6a83cbd63da9af24",
+          "afterSha256": "269efa58dec58c3de6b35c85a417a1c1f03c341d0091a38b9ab54d4de0177891"
+        },
+        "notes": {
+          "before": [
+            "Prevalence not recorded in this wave: HGNC and UniProt carry no positivity rates and no other source was consulted."
+          ],
+          "after": [
+            "Prevalence not recorded in this wave: HGNC and UniProt carry no positivity rates and no other source was consulted.",
+            "BET proteins contain two recognition domains, BD1 and BD2, alongside other interaction regions. JQ1 competes with acetylated binding partners at these pockets. It was developed as an experimental chemical probe, with binding measured across bromodomains. The original work found binding to both BRD4 bromodomains and other BET-family members; a drawing of one occupied pocket does not make the compound specific to BD1. Compare the actual protein and domain profile of each compound. A preference for BD2, or for one family member, is not comparative evidence of human safety or anticancer benefit. Pocket occupation also leaves protein regions that a separately verified depletion experiment removes.",
+            "Piha-Paul and colleagues reported a first-in-human molibresib study in NUT carcinoma and other solid tumours, published online in 2019 and in the 2020 journal issue. The dose-escalation report included 65 patients and assessed exposure, pharmacodynamic effects, safety and preliminary activity. Thrombocytopenia and gastrointestinal events were frequent treatment-related adverse events in this study. Circulating monocyte chemoattractant protein 1 was a pharmacodynamic measurement, not a patient-benefit endpoint. These findings describe this product and study; they do not rank every BET inhibitor or show postoperative benefit in triple-negative breast cancer.",
+            "A binding or displacement assay tests the pocket interaction; chromatin occupancy and RNA output test later biological effects. Cell counts, growth, death and regrowth after washout answer further questions. State the protein or domain tested, compound, concentration, duration and comparator. Nanomolar, abbreviated nM, means one billionth of a mole per litre; RNA counts and signals normalised to a control use their own units. Genetic perturbation, an independent compound, comparison cells and monitoring of general transcription help distinguish a specific dependence from broad disruption. No single one of these readouts is a clinical sensitivity score.",
+            "Consider a fictional culture in which a BET inhibitor lowers MYC RNA while cells continue growing. The RNA change shows a measured transcriptional effect, not MYC-mediated cell death or absence of every remaining BET function. Check which protein and pocket were engaged, the timing of the RNA and growth measurements, general transcription, independently controlled protein perturbation and comparison cells. Shu and colleagues found that selected inhibitor-resistant triple-negative breast-cancer cultures still required BRD4 through bromodomain-independent regulation. That result explains why pocket response and whole-protein dependence can diverge; it does not predict patient benefit from the fictional result.",
+            "A BRD3 sequence variant, BRD4 dependence and sensitivity to a compound acting across BET proteins are three separate propositions. A family name cannot connect them without functional evidence. To explain a BET result, identify the reading interaction being perturbed, show which protein functions account for the measured effect and then state the comparative clinical evidence. Decreased MYC RNA is also different from directly inhibiting MYC protein."
+          ],
+          "beforeSha256": "fdab8183644bc615a74d7db683db10d18b6617a73b58363189ded327f580dd1f",
+          "afterSha256": "b716b980c0a9d8d068c3362973059ded2f0a42474fe51ad4cd32e35783dbe66b"
+        }
+      },
+      "allEarlierNotesPreservedExceptNamedLungCorrection": true,
+      "allEarlierLinksPreserved": true
+    }
+  ],
+  "newRegisteredRecord": {
+    "id": "cdk-inhibitors",
+    "kind": "term",
+    "name": "Cyclin-dependent kinase inhibitors",
+    "aka": [
+      "CDK inhibitors",
+      "CDK inhibition",
+      "Cyclin dependent kinase inhibitors"
+    ],
+    "tldr": "These drugs block selected enzymes that control cell division or gene reading. The enzyme, exposure and measured outcome matter; slower growth can mean a pause rather than cell death.",
+    "summary": "Cyclin-dependent kinase inhibitors affect selected enzymes involved in cell-cycle progression, transcription or both. The kinase, regulatory partners, compound profile and exposure determine which functions are being tested.\n\nA change in substrate phosphorylation, an RNA signal, reversible growth arrest, cell death, marrow protection and a clinical cancer outcome require different measurements. Clinical evidence remains specific to the product, disease, regimen and endpoint.",
+    "asOf": "2026-11-12",
+    "links": [
+      {
+        "label": "Cyclin-dependent kinase control of the initiation-to-elongation switch of RNA polymerase II.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23064645/"
+      },
+      {
+        "label": "UniProt P24941: reviewed human CDK2 function",
+        "url": "https://www.uniprot.org/uniprotkb/P24941/entry"
+      },
+      {
+        "label": "NCI Drug Dictionary: Palbociclib",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/palbociclib"
+      },
+      {
+        "label": "NCI Drug Dictionary: samuraciclib",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/samuraciclib"
+      },
+      {
+        "label": "NCI Drug Dictionary: CDK9 inhibitor GFH009",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cdk9-inhibitor-gfh009"
+      },
+      {
+        "label": "MYC pathway activation in triple-negative breast cancer is synthetic lethal with CDK inhibition.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22430491/"
+      },
+      {
+        "label": "Ribociclib plus Endocrine Therapy in Early Breast Cancer.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38507751/"
+      },
+      {
+        "label": "Myeloprotection with trilaciclib in Chinese patients with extensive-stage small cell lung cancer receiving chemotherapy: Results from a randomized, double-blind, placebo-controlled phase III study (TRACES).",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38224653/"
+      },
+      {
+        "label": "NCI Drug Dictionary: trilaciclib",
+        "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/trilaciclib"
+      }
+    ],
+    "tags": [],
+    "related": [
+      "cdk46-inhibitor",
+      "cdk4-6",
+      "cdk2",
+      "cdk9",
+      "rb1",
+      "chemical-probe",
+      "drug-target-and-mechanism"
+    ],
+    "cancers": [],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Cyclin-dependent kinases are enzymes that transfer phosphate groups to proteins. Cyclins are regulatory protein partners; different kinase-partner combinations help control cell division or transcription, the reading of DNA into RNA. The family resembles a workshop with several jobs rather than one engine. Naming a drug a CDK inhibitor does not identify the job it changes, and the same kinase can participate in connected processes.",
+      "CDK4 and CDK6 help phosphorylate retinoblastoma protein, or RB, near the G1-to-S transition toward DNA copying. Their usual arrest mechanism depends on a functional RB restraint on cell-cycle transcription; detecting RB protein alone does not establish an intact circuit, and loss of RB1 can remove that route. CDK2 works with cyclins E and A in progression around DNA replication. These are selected overlapping roles, not exclusive assignments for every cell state. Cyclin E abundance by itself does not select a particular CDK2 inhibitor.",
+      "CDK7 contributes to transcription initiation and also activates other CDKs. Larochelle and colleagues showed connected CDK7 and CDK9 functions in human cells: CDK7 helped establish and release promoter-proximal pausing, including activation of CDK9, while CDK9 supported productive RNA elongation. These jobs cannot be sealed into separate boxes. If a test reports a fall in a short-lived transcript after a transcription-directed intervention, that is an RNA-output observation to verify, not proof of the cell-cycle arrest associated with CDK4/6 inhibition. The exact transcript and its response need to be measured.",
+      "Selectivity depends on the compound and achieved exposure; one drug can inhibit several CDKs. Horiuchi and colleagues tested purvalanol A and dinaciclib in breast-cancer models with elevated MYC, and used individual kinase knockdown to investigate attribution. Their paper describes dinaciclib activity against CDK1, CDK2, CDK5 and CDK9 and reports cell-death effects after CDK1 depletion in the tested triple-negative lines. This preclinical result is not a rule for choosing a modern CDK4/6 or CDK2 drug from MYC expression. Engagement, cell-cycle change and cell death remain different observations.",
+      "NATALEE tested ribociclib with a nonsteroidal aromatase inhibitor against that endocrine treatment alone in hormone-receptor-positive, HER2-negative stage II or III early breast cancer. The 2024 report found improved invasive disease-free survival at its prespecified interim analysis. It studied a specified endocrine regimen and disease population, not triple-negative breast cancer or all drugs called CDK inhibitors.",
+      "Trilaciclib uses a different purpose and schedule: short exposure before chemotherapy can transiently arrest susceptible blood-forming stem and progenitor cells to reduce myelosuppression. TRACES studied Chinese patients with extensive-stage small-cell lung cancer, including an open safety part and a randomised placebo-controlled part. Duration of severe neutropenia in cycle one was the primary myeloprotection endpoint in the randomised part. Blood counts and days of severe neutropenia measure marrow effects. They are not tumour shrinkage, and this endpoint does not establish a survival benefit in another cancer.",
+      "For a CDK experiment, name the phosphorylated substrate, the cell-cycle or transcription measurement, compound, exposure, time and controls. DNA-synthesis labelling, the proportion of sampled cells in each phase, RNA output, cell counts and death measurements answer different questions. A percentage of cells in G1 is not a percentage of patients who benefit. RB staining records protein presence; functional arrest needs a working pathway, and clinical usefulness needs the outcome actually tested in the relevant population.",
+      "In a fictional culture that stops dividing during drug exposure and regrows after washout, the observed pattern supports reversible arrest. It does not establish selective killing or durable tumour control. Test attribution to the intended kinase, measure death and longer-term regrowth, and compare relevant control cells. A pause used to protect marrow and an intervention intended to control a tumour can involve related machinery while pursuing different outcomes."
+    ],
+    "category": "Treatment jargon"
+  },
+  "literalEditReceipts": {
+    "records": [
+      {
+        "id": "arpi",
+        "file": "src/data/terms-jargon.ts",
+        "newParagraphs": 8,
+        "newSourceLinks": 6,
+        "derivedSupplementsMaterialised": false,
+        "asOfShorthandReplaced": false
+      },
+      {
+        "id": "brd4",
+        "file": "src/data/targets-wave-soc.ts",
+        "newParagraphs": 5,
+        "newSourceLinks": 1,
+        "derivedSupplementsMaterialised": false,
+        "asOfShorthandReplaced": false
+      },
+      {
+        "id": "egfr",
+        "file": "src/data/targets.ts",
+        "newParagraphs": 7,
+        "newSourceLinks": 9,
+        "derivedSupplementsMaterialised": false,
+        "asOfShorthandReplaced": true
+      },
+      {
+        "id": "cdk46-inhibitor",
+        "file": "src/data/technologies.ts",
+        "newParagraphs": 0,
+        "newSourceLinks": 0,
+        "derivedSupplementsMaterialised": false,
+        "asOfShorthandReplaced": true
+      },
+      {
+        "id": "pi3k-akt-mtor-inhibitors",
+        "file": "src/data/technologies.ts",
+        "newParagraphs": 7,
+        "newSourceLinks": 9,
+        "derivedSupplementsMaterialised": false,
+        "asOfShorthandReplaced": true
+      }
+    ],
+    "lungSupplementCorrection": {
+      "ownerId": "egfr",
+      "file": "src/data/spikes/lung-molecular.ts",
+      "before": "Lung cancer: mutated in 12.4% of resected Western adenocarcinoma and 47.4% of East Asian adenocarcinoma, with 28.4% in never-smoker whole genomes (cBioPortal), the widest ancestry gap of any biomarker in solid-tumour oncology. The class matters more than the gene: exon 19 deletions (about 14% of adenocarcinomas) and L858R (about 11%) respond to every generation of inhibitor, exon 20 insertions (about 2%) respond to none of them and need different medicines, and the uncommon G719X, L861Q and S768I alleles do better on a second-generation irreversible inhibitor than on a first-generation one. Resistance is read in the same gene: T790M in 63% of rebiopsies after a first-generation inhibitor (Yu 2013) and C797S in 22% after osimertinib, where the allelic phase with T790M decides whether a combination can cover it (Thress 2015, Oxnard 2018). Immunohistochemistry is not acceptable for EGFR testing (Lindeman 2018).",
+      "after": "Lung cancer: mutated in 12.4% of resected Western adenocarcinoma and 47.4% of East Asian adenocarcinoma, with 28.4% in never-smoker whole genomes (cBioPortal), the widest ancestry gap of any biomarker in solid-tumour oncology. The mutation classes differ: exon 19 deletions (about 14% of adenocarcinomas), L858R (about 11%), exon 20 insertions (about 2%) and the uncommon G719X, L861Q and S768I variants need drug-specific evidence. Response to every generation, or resistance to every inhibitor, does not follow from the class name. In July 2025, the FDA granted accelerated approval to sunvozertinib for adults with locally advanced or metastatic non-small-cell lung cancer with an EGFR exon 20 insertion detected by an FDA-approved test after progression on or after platinum-based chemotherapy. Resistance is read in the same gene: T790M in 63% of rebiopsies after a first-generation inhibitor (Yu 2013) and C797S in 22% after osimertinib, where the allelic phase with T790M decides whether a combination can cover it (Thress 2015, Oxnard 2018). Immunohistochemistry measures protein rather than identifying these DNA alterations.",
+      "scope": "Only the inhibitor-wide response/resistance and protein-versus-mutation testing clauses are corrected; cohort and resistance figures remain retained, not reverified."
+    },
+    "newModule": "src/data/education-targeted-small-molecules-2026-11.ts",
+    "newIds": [
+      "cdk-inhibitors"
+    ],
+    "notesAppended": 35,
+    "indexRegistered": true,
+    "simpleEnglishAdded": true,
+    "allOtherLanguageTablesUntouched": true
+  },
+  "readerProseRefinement": {
+    "paragraph": "B1",
+    "reason": "Make competitive acetyl-partner binding and both domain names explicit before semantic coverage is claimed.",
+    "beforeSha256": "75ea44af2eef334cd6a886c0940af9b411072c259331d9767e6c8ce6c6fe0be3",
+    "afterSha256": "14db5a58007f9de33001bdbe4492e4867484d217bf8204ded0bf170ccef34cd9",
+    "sourceFirstInventoryUnchanged": true
+  },
+  "existingDerivedSupplementsNotMaterialised": true,
+  "newSimpleEnglishSummary": "These medicines block selected enzymes used in cell division or gene reading. Tests must distinguish a temporary pause, cell death, marrow protection and benefit to patients.",
+  "allOtherGraphEntitiesByteIdentical": true,
+  "allOtherLanguageTablesUntouched": true
+}

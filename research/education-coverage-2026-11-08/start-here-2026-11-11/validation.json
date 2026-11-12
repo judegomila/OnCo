@@ -1,0 +1,247 @@
+{
+  "dataCommit": "26b59741dd431156e71159375bf2982a4fb9dcfe",
+  "validate": "Passed: 22809 entities",
+  "typecheck": "Passed after allowing a per-record date in the TNBC term factory.",
+  "eslint": "All changed TypeScript files passed; the authoritative drug-depth correction was checked separately.",
+  "fullSuite": {
+    "filesPassed": 289,
+    "testsPassed": 2875,
+    "testsSkipped": 2,
+    "skips": "Existing",
+    "logSha256": "95f81c2ea57f4402ed2d3dc8c63405893944ff660b95296ba84aa2fedd1e6abe"
+  },
+  "preservation": {
+    "graphCount": 22809,
+    "newIds": [],
+    "changedRecords": [
+      {
+        "id": "biopsy",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "cancer-immunity-cycle",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "cancer-stage",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "ctdna-imaging-discordance",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "hallmarks-of-cancer",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "neoadjuvant-adjuvant",
+        "changedFields": [
+          "links",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pcr",
+        "changedFields": [
+          "asOf",
+          "notes"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pd1",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "pembrolizumab",
+        "changedFields": [
+          "asOf",
+          "links",
+          "mechanism",
+          "mechanismSteps"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "tnbc-residual-disease-decision",
+        "changedFields": [
+          "asOf",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      },
+      {
+        "id": "tumour-grade",
+        "changedFields": [
+          "asOf",
+          "links",
+          "notes",
+          "summary",
+          "tldr"
+        ],
+        "oldNotesAndLinksPreserved": true
+      }
+    ],
+    "schemaTypeOnlyChange": "The TNBC term factory now accepts a per-record asOf override, with its default and runtime spread order unchanged."
+  },
+  "readers": {
+    "ownerRecords": 34,
+    "variants": 35,
+    "exactProofPassages": 128,
+    "missingSourceLinks": 0,
+    "nestedAnchors": 0,
+    "scope": "Actual server-rendered EntityDetail plus TNBC data route; not browser hydration."
+  },
+  "exports": {
+    "exactEntityJSON": 34,
+    "exactMarkdownPassages": 214,
+    "openAPI": true,
+    "dedupe": "Passed",
+    "generationResults": [
+      {
+        "group": "root",
+        "name": "build-api",
+        "exitCode": 0,
+        "seconds": 27.33
+      },
+      {
+        "group": "root",
+        "name": "build-openapi",
+        "exitCode": 0,
+        "seconds": 1.63
+      },
+      {
+        "group": "root",
+        "name": "build-context",
+        "exitCode": 0,
+        "seconds": 4.02
+      },
+      {
+        "group": "root",
+        "name": "dedupe",
+        "exitCode": 0,
+        "seconds": 4.76
+      }
+    ]
+  },
+  "secretScan": "No findings in the staged data/doc diff.",
+  "zeroChangeLedgerReplay": {
+    "phaseRuns": 2,
+    "artifactsCompared": 721,
+    "changedArtifacts": 0,
+    "ledgerExitCodes": [
+      2,
+      2
+    ],
+    "staleOrMissingProofs": 0,
+    "scope": "All artifact bytes, including the manifest, matched the pre-replay snapshot. This receipt is added after that comparison; the final manifest is rebuilt afterwards."
+  },
+  "ledgerValidation": [
+    {
+      "phase": "c9689645",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 5,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 403,
+        "implementedCoverage": 397,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 148,
+        "unresolvedSources": 148,
+        "adjacentConcepts": 56,
+        "unresolvedAdjacentConcepts": 32,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3970,
+      "evidencedRequirements": 3964,
+      "openRequirements": 6,
+      "staleOrMissingProofs": 0
+    },
+    {
+      "phase": "7510db6b",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 395,
+        "implementedCoverage": 387,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 143,
+        "unresolvedSources": 143,
+        "adjacentConcepts": 56,
+        "unresolvedAdjacentConcepts": 32,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3752,
+      "evidencedRequirements": 3741,
+      "openRequirements": 11,
+      "staleOrMissingProofs": 0
+    }
+  ],
+  "proposalCensus": {
+    "before": {
+      "entities": 561,
+      "absentBaseline": 160,
+      "existingBaseline": 401,
+      "readerEntries": 3960,
+      "readerTexts": 919,
+      "EnglishFallbacks": 3041
+    },
+    "after": {
+      "entities": 569,
+      "absentBaseline": 160,
+      "existingBaseline": 409,
+      "readerEntries": 4068,
+      "readerTexts": 985,
+      "EnglishFallbacks": 3083
+    }
+  }
+}

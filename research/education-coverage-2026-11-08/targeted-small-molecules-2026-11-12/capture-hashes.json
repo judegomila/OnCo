@@ -1,0 +1,766 @@
+{
+  "captures": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15118073+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-15118073.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10557,
+      "sha256": "4755b9e7d1f7846d6bd9dd0eb09e491d60b7c3e39d7e3dbb1cac6d6a3fec8d09",
+      "capturedAt": "2026-11-12T20:30:16.826324+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa040938",
+      "file": "raw/crossref-15118073.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 7023,
+      "sha256": "9abdb54da19eb5d5f9b6fd39f4f18973ddebf2d6e2f41850779985e39da5ec9b",
+      "capturedAt": "2026-11-12T20:30:17.529587+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16777603+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-16777603.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 6121,
+      "sha256": "d2e94e2d8a682422dd9d7f590f71e4f13bead7a6fd143a5f4a9a634d486ea89e",
+      "capturedAt": "2026-11-12T20:30:25.552726+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2006.05.013",
+      "file": "raw/crossref-16777603.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 17103,
+      "sha256": "5b6c280698c4f1b36a7861d1e6c67fc71d773bd948c480fe651087a673ecc01a",
+      "capturedAt": "2026-11-12T20:30:26.409586+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19359544+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-19359544.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11449,
+      "sha256": "840b417929f62f5e4c3a1f9593af2a9f020258ea078288e8d1adc25d3aafb806",
+      "capturedAt": "2026-11-12T20:30:28.150022+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.1168175",
+      "file": "raw/crossref-19359544.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10080,
+      "sha256": "35d5acae7bee0699a647b0d23b7425245230ad3eee84c03c291f0f07d7d3b765",
+      "capturedAt": "2026-11-12T20:30:28.900776+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A20871596+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-20871596.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 12675,
+      "sha256": "e6849ac7de32803d8ca046805ae11cedb603f183d96e61712146a76989d30429",
+      "capturedAt": "2026-11-12T20:30:30.080259+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnature09504",
+      "file": "raw/crossref-20871596.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 20992,
+      "sha256": "f35f70f63947d1bfd75b9d99553bb79237b078a0aa010de8c0a8537512645e09",
+      "capturedAt": "2026-11-12T20:30:30.818525+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22430491+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-22430491.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11320,
+      "sha256": "b12b95006491dd99917aec1dbe4e4ac01a9eea3479c8739382e5b0b88fa3b800",
+      "capturedAt": "2026-11-12T20:30:32.654380+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1084%2Fjem.20111512",
+      "file": "raw/crossref-22430491.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 34785,
+      "sha256": "35af743f0a0449ddaee422920656fbd01c3f7d58b4601ed9b71931841285c23b",
+      "capturedAt": "2026-11-12T20:30:33.480825+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22665533+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-22665533.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11108,
+      "sha256": "41d61b5f63f9744d4f59471e0c636138812a0a994f5af5748a280a21b314507a",
+      "capturedAt": "2026-11-12T20:30:34.580017+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1200%2Fjco.2010.34.5579",
+      "file": "raw/crossref-22665533.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 19723,
+      "sha256": "edf126103d8c75ea5e0d0a0cfd49426319c167e3fb5fae4ac1cb85c0516dd8fd",
+      "capturedAt": "2026-11-12T20:30:35.314674+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23064645+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-23064645.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 8755,
+      "sha256": "e55fa6bbd5e349a7cc5ba8da57c1d9f5237e23c7526b57c6282161fc679a2c94",
+      "capturedAt": "2026-11-12T20:30:37.203757+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnsmb.2399",
+      "file": "raw/crossref-23064645.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 22635,
+      "sha256": "4f0deff60ecd241be4173e93379e6ec1afc7f23c06d5861d641c2ec23ab9d7b4",
+      "capturedAt": "2026-11-12T20:30:38.009680+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23733761+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-23733761.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10804,
+      "sha256": "8480790b72ac83febbddadbcf8040e60823e75c34a43bbbdfaaed2dbe7ba524f",
+      "capturedAt": "2026-11-12T20:30:39.812728+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1200%2Fjco.2012.46.2408",
+      "file": "raw/crossref-23733761.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 19941,
+      "sha256": "44fb57d62065031d32e3be8283cda0c89bbcb78536f258126f92523d744d2ed9",
+      "capturedAt": "2026-11-12T20:30:40.561739+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26735014+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-26735014.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 26725,
+      "sha256": "2168efe909dd2e5fc36246f971acb0f7fba81256cff128da1953a34795c68942",
+      "capturedAt": "2026-11-12T20:30:44.436634+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnature16508",
+      "file": "raw/crossref-26735014.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 21068,
+      "sha256": "1664332b514268fe177eefb1467aee667cfb64be479b5bda5d9c015037d485cb",
+      "capturedAt": "2026-11-12T20:30:45.266233+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29373071+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-29373071.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 39441,
+      "sha256": "2e0bb47c0b637d2b8afcf71b29b6fc4a76de0593de6650977c7fb3043eab9a77",
+      "capturedAt": "2026-11-12T20:30:52.039526+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1200%2Fjco.2016.71.3495",
+      "file": "raw/crossref-29373071.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 20358,
+      "sha256": "6481ca41fe221663d3b928e0f3726317070324f344fd63986aa1709eea358940",
+      "capturedAt": "2026-11-12T20:30:52.844731+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31822498+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-31822498.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 15472,
+      "sha256": "e4eb8fb0b54d35df0fd688372c3ce8279aa9c6e6f4f24af77ce520145052d8a2",
+      "capturedAt": "2026-11-12T20:30:54.788945+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1158%2F1078-0432.ccr-19-2170",
+      "file": "raw/crossref-31822498.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 27029,
+      "sha256": "c4b64cb1ac5b9c2d2a67aa3d8459b10d686e2057178ed0b8ebaae33c43669fdc",
+      "capturedAt": "2026-11-12T20:30:55.610160+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38224653+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-38224653.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11815,
+      "sha256": "36c923c68139487568b939cece1a008867759247ef0bf53e2f72aba977d11a2d",
+      "capturedAt": "2026-11-12T20:30:57.258755+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.lungcan.2023.107455",
+      "file": "raw/crossref-38224653.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 14610,
+      "sha256": "466ebf625c726e23105b91f06108909f4ba5643e32577b708907373129c62357",
+      "capturedAt": "2026-11-12T20:30:58.021551+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38507751+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-38507751.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 85760,
+      "sha256": "e1ac7657fd9fff60bab2cbb7ae905843504235404ac725ea29b084a134fddc86",
+      "capturedAt": "2026-11-12T20:30:59.540133+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa2305488",
+      "file": "raw/crossref-38507751.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 43187,
+      "sha256": "8d56e6fc825520dc698c9635c387aec10912760733bde077960bdb2fcb292f36",
+      "capturedAt": "2026-11-12T20:31:00.332648+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41422862+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-41422862.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 13942,
+      "sha256": "5b255b2552ae20835da37ad38248ae8477e3fcc088074dcfa7da2f4e3734cd88",
+      "capturedAt": "2026-11-12T20:31:06.044739+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.annonc.2025.12.012",
+      "file": "raw/crossref-41422862.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 18375,
+      "sha256": "dbf84c0debbd546b4012da0d081057e94d457cf88f5d9a203b2b7135c13c1f18",
+      "capturedAt": "2026-11-12T20:31:06.780733+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3193604&resultType=core&format=json",
+      "file": "raw/epmc-PMC3193604.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 8501,
+      "sha256": "c0139a94ad168034f26891ba37b5a48936b81ac75dc93d5d6057053501af5e89",
+      "capturedAt": "2026-11-12T20:31:09.032919+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1158%2F0008-5472.can-05-2925",
+      "file": "raw/crossref-PMC3193604.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 14010,
+      "sha256": "744ab599fa07bd2fd797393b5b44da9d66cb2196b0dfa155cb34ff57055db3b5",
+      "capturedAt": "2026-11-12T20:31:09.738393+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC7165800&resultType=core&format=json",
+      "file": "raw/epmc-PMC7165800.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 13980,
+      "sha256": "32b00c2b8d4ff38a7ac9a3350e1631b609f0206c1ae7f05bc11006b584cfec5c",
+      "capturedAt": "2026-11-12T20:31:11.280606+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1093%2Fjncics%2Fpkz093",
+      "file": "raw/crossref-PMC7165800.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 22317,
+      "sha256": "eff728cb902a1e3337dfec5684451b8cd24c477f1b4629b8827d43ff033fc161",
+      "capturedAt": "2026-11-12T20:31:12.122176+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC2981508/unicode",
+      "file": "raw/bioc-PMC2981508.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 32020,
+      "sha256": "7aecbe3bfcc232b14dac68ae05debfe674679d32c157405bc93e35c158f8664e",
+      "capturedAt": "2026-11-12T20:35:50.774563+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3010259/unicode",
+      "file": "raw/bioc-PMC3010259.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 63477,
+      "sha256": "ae706cfd52c1749ed04116a670c7fe77017e01611e17e282e779e75145e5da3e",
+      "capturedAt": "2026-11-12T20:35:51.522018+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3328367/unicode",
+      "file": "raw/bioc-PMC3328367.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 149783,
+      "sha256": "2d9e9378befb4cd71f4af233884dd5079cc4ea331aa4237eb0cd75f946d53319",
+      "capturedAt": "2026-11-12T20:35:52.553534+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3413275/unicode",
+      "file": "raw/bioc-PMC3413275.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "capturedAt": "2026-11-12T20:35:53.277769+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3746743/unicode",
+      "file": "raw/bioc-PMC3746743.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 80811,
+      "sha256": "2dfc1164b72357356cdae5182dd3415c07be2109e0f55d506c5a316b6d40c15b",
+      "capturedAt": "2026-11-12T20:35:54.317029+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5705191/unicode",
+      "file": "raw/bioc-PMC5705191.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 95591,
+      "sha256": "5e2415b890579e12c28ac3dcd7d51dadab37e4f9df072385ff83501200348a70",
+      "capturedAt": "2026-11-12T20:35:55.364128+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC4854653/unicode",
+      "file": "raw/bioc-PMC4854653.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 102994,
+      "sha256": "874bc4d35dbc242d4f9f9338fc8a77cf2e8ecec522b27c786a83f08718ee856c",
+      "capturedAt": "2026-11-12T20:35:56.373105+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5858523/unicode",
+      "file": "raw/bioc-PMC5858523.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "capturedAt": "2026-11-12T20:35:57.101805+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7196503/unicode",
+      "file": "raw/bioc-PMC7196503.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 133619,
+      "sha256": "492fb4502ccd096478d2fea1661be0e53f2f5227627bc3f43636062a025859b2",
+      "capturedAt": "2026-11-12T20:35:58.004508+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3193604/unicode",
+      "file": "raw/bioc-PMC3193604.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "capturedAt": "2026-11-12T20:35:58.848601+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7165800/unicode",
+      "file": "raw/bioc-PMC7165800.xml",
+      "role": "primary full-text candidate; body validation and targeted reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 116602,
+      "sha256": "b67c6d34b8d633651fc4860cb071680311fd805795ce4e4645297200c0380ae2",
+      "capturedAt": "2026-11-12T20:35:59.714156+00:00"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-capivasertib-fulvestrant-breast-cancer",
+      "file": "raw/fda-capivasertib-2023.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 37759,
+      "sha256": "68afb19f01b2eefb7897b196d642a71de11bc50aca6a020ee3ed3bcf232f0a72",
+      "capturedAt": "2026-11-12T20:36:00.531435+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "file": "raw/nci-targeted-therapy.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 62733,
+      "sha256": "6c1db6031d1acd207d674f2bcd802d28836cf3bf420c1b4f48638e7198a53569",
+      "capturedAt": "2026-11-12T20:36:01.317560+00:00"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b20b4e18-7a4b-4500-a08f-06c6dab0ee5b.xml",
+      "file": "raw/piqray-label.xml",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 213804,
+      "sha256": "299defacb92086329f6d44c409cbc7075e34714c03b8c8c913cfbea818e3e8ee",
+      "capturedAt": "2026-11-12T20:36:02.658587+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/glossary/v1/swagger/v1/swagger.json",
+      "file": "raw/nci-glossary-contract.json",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 28721,
+      "sha256": "a85c071cf0bce8c64e66b948051c3435d04236506e5414c7a0a63aa01444255b",
+      "capturedAt": "2026-11-12T20:36:04.726355+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/enzalutamide",
+      "file": "raw/nci-enzalutamide.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 28986,
+      "sha256": "d284eb8aec264f1b06d9e2f0f7326813dd591fc9bd65b926ff096158c49f479c",
+      "capturedAt": "2026-11-12T20:36:05.324342+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/palbociclib",
+      "file": "raw/nci-palbociclib.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 28986,
+      "sha256": "d284eb8aec264f1b06d9e2f0f7326813dd591fc9bd65b926ff096158c49f479c",
+      "capturedAt": "2026-11-12T20:36:05.990483+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/samuraciclib",
+      "file": "raw/nci-samuraciclib.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 28986,
+      "sha256": "d284eb8aec264f1b06d9e2f0f7326813dd591fc9bd65b926ff096158c49f479c",
+      "capturedAt": "2026-11-12T20:36:06.582149+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cdk9-inhibitor-gfh009",
+      "file": "raw/nci-cdk9-inhibitor-gfh009.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 28986,
+      "sha256": "d284eb8aec264f1b06d9e2f0f7326813dd591fc9bd65b926ff096158c49f479c",
+      "capturedAt": "2026-11-12T20:36:07.189784+00:00"
+    },
+    {
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/capivasertib",
+      "file": "raw/nci-capivasertib.html",
+      "role": "official source candidate; raw-text reading pending",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 30033,
+      "sha256": "cdf152331e64ee5c01b2178443c401e97084de23dfdf1f2f433f7f2497f611f0",
+      "capturedAt": "2026-11-12T20:36:07.808047+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29281804+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-baselga-erratum.json",
+      "role": "listed erratum identity and text",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2533,
+      "sha256": "dc5dda87e4ef4639f49866e0c2616fbf0eb21480d8cfaecd405526435d402a5a",
+      "capturedAt": "2026-11-12T20:36:08.957351+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3413275&retmode=xml",
+      "file": "raw/efetch-PMC3413275.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 12359,
+      "sha256": "28cc6dd32b5c4c3b40d2c818602c23eb041b139b07a0233594ed30386ea65a20",
+      "capturedAt": "2026-11-12T20:38:18.784291+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5858523&retmode=xml",
+      "file": "raw/efetch-PMC5858523.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 12553,
+      "sha256": "8ced1927bd0a557c63ed9b78d135042c2e129edb7e190b9d97fd42bb24b10963",
+      "capturedAt": "2026-11-12T20:38:19.620184+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3193604&retmode=xml",
+      "file": "raw/efetch-PMC3193604.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 9075,
+      "sha256": "9dd735d6f8f358784d8658edf383b869adda441184985f57547f61fa6043caac",
+      "capturedAt": "2026-11-12T20:38:20.436425+00:00"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC6162024/unicode",
+      "file": "raw/bioc-PMC6162024.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "capturedAt": "2026-11-12T20:38:21.152353+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1200%2Fjco.2017.76.9976",
+      "file": "raw/crossref-baselga-erratum.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2087,
+      "sha256": "631f0b74cefcb47b349a9583018a9c7fb063f71e708353ca1b598d6d102e3036",
+      "capturedAt": "2026-11-12T20:38:21.938003+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/swagger/v1/swagger.json",
+      "file": "raw/nci-drug-contract.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 26234,
+      "sha256": "6a91baaae5438b1e420c057f05ab9a6ceee6e4a1d12a8485f05e51e3b6e73a46",
+      "capturedAt": "2026-11-12T20:38:24.341507+00:00"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/P24941.json",
+      "file": "raw/uniprot-cdk2.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 238172,
+      "sha256": "06bee5f5b03cc12a8c6f07cc7124197b7d8e78d7d7e304c353255ebf83c7fecf",
+      "capturedAt": "2026-11-12T20:38:26.361639+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/enzalutamide",
+      "file": "raw/nci-drug-enzalutamide.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 1870,
+      "sha256": "a14586890a0d33aab0912c205a716716cab6764d2e1d2e6e0860889f417d2cc3",
+      "capturedAt": "2026-11-12T20:39:24.601670+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/palbociclib",
+      "file": "raw/nci-drug-palbociclib.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2102,
+      "sha256": "d169205a89d82a5478db65fc9beb3d1ff28fc8b73b9bb5e38ed30d42eceb1155",
+      "capturedAt": "2026-11-12T20:39:25.452395+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/samuraciclib",
+      "file": "raw/nci-drug-samuraciclib.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 1795,
+      "sha256": "71dd92d25888ef254adee6625ad131ab3cac7d5e2e7140ef21a16941daf97bde",
+      "capturedAt": "2026-11-12T20:39:26.394623+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/cdk9-inhibitor-gfh009",
+      "file": "raw/nci-drug-cdk9-inhibitor-gfh009.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2283,
+      "sha256": "3fdca201697f0497bcf1de7c6aac157ad531db1e7e11dd0b7b6d0aa24d7d2d09",
+      "capturedAt": "2026-11-12T20:39:27.316679+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/capivasertib",
+      "file": "raw/nci-drug-capivasertib.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 1889,
+      "sha256": "929431d695a837e10d6197881cf90aaf885d57d5cf745cf5cd7c434ca6f1a15b",
+      "capturedAt": "2026-11-12T20:39:28.262611+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/trilaciclib",
+      "file": "raw/nci-drug-trilaciclib.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 3104,
+      "sha256": "14d72fd98f28fb2d3f6bba586254022f9be885d14f1be6686bc0f9376fe36c76",
+      "capturedAt": "2026-11-12T20:39:29.362383+00:00"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5858523/",
+      "file": "raw/html-PMC5858523.html",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 21472,
+      "sha256": "5b2cbc1dee442da856700b266a97bbd6823c9b28f19e1ef0ef73020cdbdea3f5",
+      "capturedAt": "2026-11-12T20:39:30.102574+00:00"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3193604/",
+      "file": "raw/html-PMC3193604.html",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 21475,
+      "sha256": "960a319bd4b9e4cf90cbcbdad1e1edb1c65d2a41e7813786802bfc59450053c5",
+      "capturedAt": "2026-11-12T20:39:30.803806+00:00"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3413275/",
+      "file": "raw/html-PMC3413275.html",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 21475,
+      "sha256": "1d60ce405a91e20b2e296a01e247f11c9aec55d0660ddcc96675380d16706da8",
+      "capturedAt": "2026-11-12T20:39:31.516515+00:00"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6162024/",
+      "file": "raw/html-PMC6162024.html",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 88340,
+      "sha256": "7596479c291fdf8e65dd43d3995f203d2bf80c249913287d4c677434699214aa",
+      "capturedAt": "2026-11-12T20:39:32.337804+00:00"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/P42336.json",
+      "file": "raw/uniprot-P42336.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 178086,
+      "sha256": "90444e1549e190e79b6046b35156115f89053f95c48b63bfba366ce9ab83bdf6",
+      "capturedAt": "2026-11-12T20:42:25.891465+00:00"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/P60484.json",
+      "file": "raw/uniprot-P60484.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 218590,
+      "sha256": "5f309f007a9131262d7f4bbc4e81a8358ce00a257ab095256ae385a6449a986b",
+      "capturedAt": "2026-11-12T20:42:28.631844+00:00"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/P42345.json",
+      "file": "raw/uniprot-P42345.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 279481,
+      "sha256": "359c344fea10e6583120b5b17a6e51f18f8cbf0c26388efa7226ca762ff3eba4",
+      "capturedAt": "2026-11-12T20:42:30.471933+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5858523/fullTextXML",
+      "file": "raw/epmc-full-PMC5858523.xml",
+      "httpStatus": 500,
+      "exitCode": 0,
+      "bytes": 150,
+      "sha256": "2912d1ba71a38e7ac10674ed8f03489093717b70a47102fcf26c5a916e3a9c7d",
+      "capturedAt": "2026-11-12T20:41:31.901286+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3193604/fullTextXML",
+      "file": "raw/epmc-full-PMC3193604.xml",
+      "httpStatus": 500,
+      "exitCode": 0,
+      "bytes": 150,
+      "sha256": "2ff94896f7f27b0515ade22887f408ca9c67d8226829e510cee6aafacbb9b41a",
+      "capturedAt": "2026-11-12T20:41:33.188760+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3413275/fullTextXML",
+      "file": "raw/epmc-full-PMC3413275.xml",
+      "httpStatus": 500,
+      "exitCode": 0,
+      "bytes": 150,
+      "sha256": "04d01538f3be8bb089d34700163ba1b7db5d4197bb5b3a12cfd88ea227e508c9",
+      "capturedAt": "2026-11-12T20:41:42.017078+00:00"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC5858523?pdf=render",
+      "file": "raw/traina-europepmc.pdf",
+      "httpStatus": 403,
+      "exitCode": 0,
+      "bytes": 5668,
+      "sha256": "01a3b921b47d6fb49e260426d34a247a4c25010ede143080b43610848790c905",
+      "pdfMagic": false,
+      "capturedAt": "2026-11-12T20:42:47.170107+00:00"
+    },
+    {
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=enzalutamide&query.cond=Triple+Negative+Breast+Cancer&pageSize=100&format=json",
+      "file": "raw/ctgov-enzalutamide-tnbc-search.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 352034,
+      "sha256": "852a8826ff829d5949d6225bdbdb2a480a5c8c32ce1b6f50d0d81c6cb534a19a",
+      "capturedAt": "2026-11-12T20:43:34.604662+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/cetuximab",
+      "file": "raw/nci-drug-cetuximab.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2527,
+      "sha256": "bd53b69b752db63829996b43255e57ad8ea57c274f1ce5cb434bbdb91d3ffdf3",
+      "capturedAt": "2026-11-12T20:45:29.002453+00:00"
+    },
+    {
+      "url": "https://webapis.cancer.gov/drugdictionary/v1/Drugs/everolimus",
+      "file": "raw/nci-drug-everolimus.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 2198,
+      "sha256": "20efa468e8539a58128cf10a15c95d8eff3c8127f6ad39aa2decb4761c6e93aa",
+      "capturedAt": "2026-11-12T20:45:29.882727+00:00"
+    },
+    {
+      "url": "https://rest.uniprot.org/uniprotkb/P00533.json",
+      "file": "raw/uniprot-P00533.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 385210,
+      "sha256": "c7d320b0eed723b77b2fe2e023a5ee4bf0265f8c9deeb03a249703ffbea443dc",
+      "capturedAt": "2026-11-12T20:45:31.995052+00:00"
+    },
+    {
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20",
+      "file": "raw/fda-sunvozertinib-2025.html",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 36424,
+      "sha256": "c677a7d01f7961c064c90130343911424927806f83a8327805e9c21f6129d8d4",
+      "capturedAt": "2026-11-12T20:48:56.043822+00:00"
+    }
+  ],
+  "allCaptureBytesVerified": true,
+  "rawBodiesRemainPrivate": true
+}

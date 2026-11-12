@@ -1,0 +1,2028 @@
+{
+  "version": "proposal-breast-pathology",
+  "state": "Twenty-two canonical owners integrated in draft375: five new concepts and 17 existing owners. Nineteen lessons at both pins; no merge or deployment.",
+  "workerHead": "cdc6e3ad70ff26e41fd8a3e841d0cb4c5bd0da8f",
+  "records": [
+    {
+      "id": "ki-67-index",
+      "kind": "biomarker",
+      "name": "Ki-67 index (proliferation by IHC)",
+      "aka": [
+        "Ki-67",
+        "Ki67",
+        "Ki-67 index",
+        "Ki-67 labelling index",
+        "Ki-67 score",
+        "MIB-1 index",
+        "Ki-67 >= 20%",
+        "Ki-67 ≥20%",
+        "proliferation index"
+      ],
+      "tldr": "The Ki-67 index is the percentage of evaluated tumour-cell nuclei that stain for a protein associated with the active cell cycle.",
+      "summary": "Ki-67 immunohistochemistry reports the percentage of evaluated tumour-cell nuclei positive under the defined staining and scoring method. In gastroenteropancreatic neuroendocrine tumours the WHO classification grades G1 (< 3 percent), G2 (3 to 20 percent) and G3 (> 20 percent). The FDA's March 3, 2023 breast-cancer expansion removed the Ki-67 testing requirement for the specified high-risk HR-positive, HER2-negative adjuvant abemaciclib indication. Trial cohort definitions are distinct from that regulatory testing rule. The International Ki67 in Breast Cancer Working Group limited its 2021 clinical-utility conclusion to selected anatomically favourable ER-positive, HER2-negative breast cancers under standardised scoring, with prognosis assessment at 5 percent or less or 30 percent or more. These extremes are not universal thresholds for other cancers, methods or treatment decisions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Verzenio prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06"
+        },
+        {
+          "label": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/"
+        },
+        {
+          "label": "CAP breast biomarker template 1.6.2.0, September 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "FDA March 3, 2023 abemaciclib expansion",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy"
+        }
+      ],
+      "tags": [
+        "biomarker",
+        "proliferation"
+      ],
+      "related": [
+        "er-status",
+        "pr-status"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "hr-positive-early-high-risk",
+        "neuroendocrine",
+        "pancreatic-net",
+        "lung-net"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "abemaciclib"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "net-grade-ki67",
+        "proliferation",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Ki-67 is associated with active cell-cycle phases and is generally absent from resting G0 cells. Its immunohistochemical index is positive eligible tumour-cell nuclei divided by all eligible nuclei evaluated, expressed as a percentage. MIB-1 names an antibody. Staining intensity is not the denominator; 30 positive nuclei among 100 eligible nuclei gives 30% in that field.",
+        "Ki-67 is not a visible-mitosis count, a doubling time, a percentage growth per day, a recurrence probability or a complete Nottingham grade. A treatment-related decrease does not independently establish cell killing or patient benefit. RNA proliferation scores and protein immunostaining measure different features.",
+        "Sampling and aggregation change the estimate. With fictional fields containing 90 positive nuclei out of 900 and 50 out of 100, pooling gives 140/1000 = 14%; averaging the two field percentages gives 30%; selecting the second field gives 50%. These are different estimators. They do not reproduce the International Ki67 Working Group's calibrated, area-weighted global method.",
+        "Retain specimen, treatment time point, fixation, antibody/platform, counterstaining, controls, eligible nuclei and regional scoring rule. Poor visibility of negative nuclei can distort the denominator. The working group's weighted-global approach estimates areas with different staining levels and samples nuclei from those field types after calibration; it is not simply an unweighted hotspot average.",
+        "The 2021 working-group utility conclusion concerned anatomically favourable T1 to T2, N0 to N1, ER-positive, HER2-negative breast cancer under standardised methods, with limited prognosis use at the specified extremes. It did not establish a universal triple-negative treatment cutoff. CAP's September 2026 template treats breast Ki-67 testing as optional; do not transfer one assay's clinical rule to another cancer or setting.",
+        "The reviewed monarchE label defines cohort 1 by at least four positive axillary nodes, or one to three plus grade 3 or tumour size at least 50 mm. Cohort 1 was not defined by a mandatory Ki-67 threshold. Cohort 2 enrolled those not eligible for cohort 1 with one to three positive axillary nodes and centrally assessed Ki-67 at least 20% using MIB-1/Dako Omnis. The former regulatory testing requirement must not be mistaken for cohort 1 eligibility. This history is not a TNBC treatment rule.",
+        "An index is a snapshot of eligible nuclei in active cell-cycle phases. Net tumour growth also depends on cell loss and the duration of cell-cycle phases; the same index need not imply the same doubling time. Neither staining intensity nor percentage positive establishes a daily growth rate."
+      ],
+      "target": "mki67",
+      "measurement": "ihc-score",
+      "scoringRule": {
+        "text": "Percentage of tumour cell nuclei staining for Ki-67 (MIB-1), counted in the invasive tumour; in monarchE cohort 2 a score of 20 percent or more was required, measured centrally with the Ki-67 IHC MIB-1 pharmDx.",
+        "quote": "Breast tumor samples were tested at central sites using the Ki-67 IHC MIB-1 pharmDx (Dako Omnis) assay to establish if the Ki-67 score was ≥20%.",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+        "sourceLabel": "Verzenio prescribing information (clinical studies section)"
+      },
+      "thresholds": [
+        {
+          "value": "Ki-67 >= 20% (2021 adjuvant approval, requirement removed March 2023)",
+          "drugId": "abemaciclib",
+          "cancerId": "hr-positive-early-high-risk",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+          "quote": "To be enrolled in cohort 2, patients had to have 1-3 pALN and Ki-67 score ≥20%.",
+          "status": "historic",
+          "note": "The current label no longer restricts adjuvant abemaciclib by Ki-67; the threshold is kept as the historic 2021 approval condition."
+        }
+      ],
+      "definedBy": {
+        "label": "WHO Classification of Tumours, Digestive System Tumours, 5th edition (neuroendocrine grading by Ki-67)",
+        "url": "https://tumourclassification.iarc.who.int/"
+      },
+      "tests": [],
+      "assays": [
+        "ki67-mib1"
+      ],
+      "companionDiagnostics": [],
+      "forPatient": "Ki-67 measures the share of evaluated tumour nuclei staining for an active-cell-cycle protein. It is not a direct growth speed or a stand-alone estimate of treatment benefit. Its meaning depends on the cancer, sample and scoring method."
+    },
+    {
+      "id": "extranodal-extension",
+      "kind": "term",
+      "name": "Extranodal extension (ENE)",
+      "aka": [
+        "ENE",
+        "extranodal extension",
+        "extracapsular extension",
+        "extracapsular spread",
+        "extracapsular nodal spread",
+        "ECS",
+        "ENE-positive",
+        "ENE-negative",
+        "pathological extranodal extension",
+        "radiological extranodal extension",
+        "rENE",
+        "major ENE",
+        "minor ENE"
+      ],
+      "tldr": "Extranodal extension describes cancer growing beyond a lymph node capsule into surrounding tissue. Its staging and treatment implications depend on the cancer and clinical setting.",
+      "summary": "What is measured: growth of nodal metastasis through the lymph node capsule into perinodal tissue. How: the pathologist's examination of the neck dissection specimen, graded in AJCC 8th edition as major (more than 2 mm beyond the capsule or soft-tissue deposit) or minor (2 mm or less), with pathological N stage for HPV-negative head and neck and cutaneous squamous cell carcinomas upstaged to pN2a or pN3b by its presence; radiological extranodal extension on CT or MRI (irregular capsule, infiltration of fat, matted nodes) is moderately accurate and is not used to stage HPV-positive disease. What a positive result changes: in the pooled analysis of EORTC 22931 and RTOG 9501, extranodal extension and positive margins were the two findings for which adding cisplatin to postoperative radiotherapy (60 to 66 Gy) improved survival, so either mandates chemoradiotherapy in head and neck squamous cell carcinoma; in HPV-positive oropharyngeal cancer its prognostic weight is smaller and the ECOG 3311 and PATHOS trials test whether chemotherapy can be omitted after transoral surgery; in breast cancer it provides additional regional tissue information, with observational outcome associations rather than a universal radiation rule. Other cancer sites require their own evidence and guidance. Where it matters: oral cavity, oral tongue and buccal cancers, HPV-negative and HPV-positive head and neck cancer, salivary duct and mucoepidermoid carcinoma.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36030639/"
+        },
+        {
+          "label": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33953240/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "lymph-node",
+        "resection-margins",
+        "cisplatin",
+        "radiotherapy",
+        "hpv-status",
+        "depth-of-invasion",
+        "perineural-invasion"
+      ],
+      "cancers": [
+        "oral-cavity-cancer",
+        "oral-tongue-cancer",
+        "buccal-mucosa-cancer",
+        "hpv-negative-head-and-neck-cancer",
+        "hpv-positive-oropharyngeal-cancer",
+        "salivary-duct-carcinoma",
+        "mucoepidermoid-carcinoma",
+        "breast-cancer"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Extranodal extension means a nodal cancer deposit extends through the capsule into neighbouring soft tissue, which can include axillary fat. It is distinct from tumour in a vessel lumen, tumour at a specimen cut edge and the nodal deposit itself. A lymph-node capsule is not a surgical margin.",
+        "Regional nodal ENE does not by itself establish distant metastasis, M1, stage IV or a universal next treatment. A cohort association with subsequent outcomes is prognostic evidence, not proof that a particular operation or radiation strategy benefits every person with ENE.",
+        "Report the observed presence and any measurable extent with its method and millimetre units. CAP permits descriptive reporting and optional size measurement, with no proven superior direction. The whole metastasis diameter and ENE extent are different parameters. Disrupted or replaced capsule, vascular involvement and treatment changes can complicate interpretation.",
+        "Tang and colleagues' 2022 survey of 70 pathologists documented measurement variation and interpretive difficulties; it was not a diagnostic-performance trial. In Ma and colleagues' retrospective 402-case axillary-dissection cohort, ENE was independently associated with disease recurrence-free survival (adjusted HR 1.745, 95% CI 1.152 to 2.642). The adjusted overall-survival result was not significant (HR 1.639, 95% CI 0.824 to 3.260), despite the univariable association. Perpendicular 2-mm and circumferential 3-mm cutoffs did not show significant prognostic value. These are cohort results, not universal thresholds.",
+        "Keep four questions separate: is a nodal deposit present, has it crossed the capsule into soft tissue, is tumour present inside a vessel lumen, and does tumour reach a surgical cut edge? One finding does not establish the other three. CAP permits recording the larger ENE extent preferentially when measuring; evidence has not established one superior measurement direction.",
+        "Head-and-neck ENE extent conventions using 2 mm to distinguish minor from major extension and evidence for treatment in those cancers must not be transferred into a breast ENE threshold or treatment mandate. Breast cohort prognosis does not establish that a particular radiation or chemotherapy strategy benefits every person with ENE."
+      ],
+      "category": "Biomarkers",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "sentinel-lymph-node-biopsy",
+      "kind": "term",
+      "name": "Sentinel node biopsy",
+      "aka": [
+        "sentinel lymph node biopsy",
+        "sentinel lymph node",
+        "sentinel node",
+        "sentinel lymph node mapping",
+        "SLNB"
+      ],
+      "tldr": "Sentinel-node biopsy identifies and examines selected draining nodes. Its result describes that sampling procedure, with limits that depend on the disease and treatment setting.",
+      "summary": "A dye, radiotracer or other mapping agent identifies draining nodes for removal and pathological examination. Sentinel sampling and broader nodal dissection provide different amounts of tissue and have different risks. Neither a negative sampled node nor the operation name establishes the status of every regional node or distant organ.\n\nThe NCI fact sheet describes a radioactive tracer, blue dye or both for mapping. It identifies breast cancer and melanoma as the most common uses and notes use or investigation in other cancers, including endometrial, penile, vulvar, cervical and head-and-neck disease. Eligibility and the next operation depend on the disease-specific setting; a negative result can be false negative. A thickness threshold used in melanoma must not be transferred to breast cancer.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Sentinel_lymph_node",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Sentinel_lymph_node"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI sentinel-node biopsy",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
+        },
+        {
+          "label": "Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: the ACOSOG Z1071 (Alliance) clinical trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24101169/"
+        },
+        {
+          "label": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/"
+        },
+        {
+          "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+        },
+        {
+          "label": "Macmillan: surgery to the lymph nodes for breast cancer",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/surgery-to-the-lymph-nodes-for-breast-cancer"
+        },
+        {
+          "label": "DiSipio et al., incidence of unilateral arm lymphoedema after breast cancer: systematic review and meta-analysis (Lancet Oncology 2013)",
+          "url": "https://doi.org/10.1016/S1470-2045(13)70076-7"
+        },
+        {
+          "label": "Reimer et al., axillary surgery in breast cancer, primary results of the INSEMA trial (NEJM 2025)",
+          "url": "https://doi.org/10.1056/NEJMoa2412063"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [
+        "lymphadenectomy",
+        "lymph-node-status",
+        "tilmanocept-tc99m",
+        "axillary-surgery-de-escalation",
+        "targeted-axillary-dissection",
+        "breast-cancer-related-lymphoedema"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "surgery"
+      ],
+      "technologies": [
+        "sentinel-node",
+        "fluorescence-guided-surgery"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nsabp-b32",
+        "almanac",
+        "acosog-z0011",
+        "senomac",
+        "sound",
+        "insema",
+        "acosog-z1071"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Sentinel biopsy removes tracer-identified draining nodes for pathological examination; there can be more than one. Axillary dissection removes a broader tissue packet from specified axillary levels, not every regional chain and not a universally fixed number of nodes. CAP separately uses the sn modifier when fewer than six sentinel and nonsentinel nodes are removed.",
+        "For retrieval of a previously marked positive node after neoadjuvant therapy and the Z1071 and clipped-node false-negative analyses, see targeted axillary dissection. Sentinel mapping alone does not document recovery of that separate marker.",
+        "False-negative rate compares the sampled test with a defined reference among those with disease. Nodal surgery can cause lymphoedema and other harms; sentinel biopsy is not risk-free and dissection does not guarantee complications. A positive sentinel result does not select one universal subsequent operation without the full treatment setting.",
+        "In a fictional mapping sketch, tracer-identified nodes A and B and a separately clipped node C may overlap: one node can carry both designations. A wider packet outline depicts broader sampling. Mapping lines are procedural tracing, not observed routes of cancer spread. A negative sentinel result cannot establish that C was retrieved.",
+        "Isolated tumour cells and micrometastases are reported differently under nodal classification; a binary positive/negative label can hide those distinctions. A false-negative rate needs the tested procedure, reference assessment and denominator with disease. It is not the probability that every negative result missed disease, and it says nothing about all distant organs.",
+        "Breast cancer: NICE NG101 (1.4.9) says to stage the axilla with sentinel lymph node biopsy rather than axillary lymph node clearance for people with invasive breast cancer who have no evidence of lymph node involvement on ultrasound or a negative ultrasound-guided needle biopsy, and (1.4.10) to perform it using the dual technique with isotope and blue dye. Macmillan says surgeons remove the smallest number of nodes possible, usually 1 to 3, which reduces the risk of arm swelling and shoulder stiffness.",
+        "What it saves. In the pooled prospective cohorts of the DiSipio meta-analysis, arm lymphoedema affected 5.6 percent of women after sentinel node biopsy against 19.9 percent after axillary lymph node dissection.",
+        "Where even a sentinel node biopsy may be avoidable. In INSEMA, 4,858 patients in the per-protocol analysis with clinically node-negative T1 or T2 cancer having breast-conserving surgery were randomised between omitting axillary surgery and sentinel node biopsy; 5-year invasive disease-free survival was 91.9 percent with omission and 91.7 percent with surgery (hazard ratio 0.91), and the omission group had less lymphoedema, greater arm mobility and less pain on moving the arm or shoulder. This is a trial result rather than a UK recommendation, and NG101 still asks for sentinel node biopsy."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "dcis",
+      "kind": "term",
+      "name": "Ductal carcinoma in situ (DCIS)",
+      "aka": [
+        "DCIS",
+        "ductal carcinoma in situ",
+        "ductal in situ"
+      ],
+      "tldr": "Ductal carcinoma in situ means abnormal cancer cells remain within breast ducts, without invasion identified in that component.",
+      "summary": "Ductal carcinoma in situ (DCIS) and invasive breast carcinoma describe different tissue relationships. They can coexist, so each component must remain visible in the report. DCIS grade describes microscopic appearance; staging describes extent under a specified system. Individual management requires the complete diagnosis and treatment context, rather than a fixed progression probability inferred from the name.\n\nNCI's Breast Cancer Treatment PDQ estimates that DCIS accounts for about 25% of invasive and noninvasive breast tumours detected by screening. Treatment choices include breast-conserving surgery, usually considered with radiotherapy, or mastectomy; endocrine risk reduction depends on hormone-receptor status and the full clinical setting. Screening detection and the name DCIS do not establish one fixed probability of progression.\n\nTAM-01 studied tamoxifen 5 mg daily for three years against placebo after surgery, with or without irradiation, in 500 women with breast intraepithelial neoplasia; 69% had DCIS. Its 10-year report found fewer breast events in that mixed study population. It did not compare 5 mg with standard-dose tamoxifen. Active-monitoring programmes ask a different question: COMET's two-year noninferiority result concerned selected women aged at least 40 with hormone-receptor-positive, grade 1 or 2 DCIS, and does not establish long-term equivalence for all DCIS. LORD separately studies active surveillance in selected screen-detected low-risk DCIS. LORIS was developed to compare surgery with active monitoring in selected low-risk DCIS; its protocol describes a research question, not a result establishing safety for every lesion.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ductal_carcinoma_in_situ",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ductal_carcinoma_in_situ"
+        },
+        {
+          "label": "NCI ductal carcinoma in situ",
+          "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Gusterson et al. 1982: myoepithelial cells and basement membrane",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/"
+        },
+        {
+          "label": "TAM-01 10-year follow-up (Lazzeroni 2023)",
+          "url": "https://doi.org/10.1200/JCO.22.02900"
+        },
+        {
+          "label": "COMET randomised trial (Hwang 2025)",
+          "url": "https://doi.org/10.1001/jama.2024.26698"
+        },
+        {
+          "label": "LORD study registry",
+          "url": "https://clinicaltrials.gov/study/NCT02492607"
+        },
+        {
+          "label": "LORIS trial development (Francis 2015)",
+          "url": "https://doi.org/10.1016/j.ejca.2015.07.017"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "carcinoma-in-situ",
+        "lumpectomy",
+        "active-surveillance",
+        "myoepithelial-cells-and-basement-membrane"
+      ],
+      "cancers": [
+        "breast-hr-positive"
+      ],
+      "sections": [
+        "early-detection"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "tamoxifen"
+      ],
+      "companies": [],
+      "institutions": [
+        "cgc-precision"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Ductal carcinoma in situ describes malignant epithelial cells within the ductal tissue boundary, without invasion identified in that component. An invasive component can coexist in the same specimen. Reading DCIS present does not cancel a separately reported invasive diagnosis. DCIS may be called precancer, noninvasive breast cancer or stage 0 disease; these terms retain the anatomical distinction and do not guarantee that every lesion has the same future risk.",
+        "Grade and extent are separate observations. High-grade DCIS does not establish distant spread. AJCC eighth-edition stage 0 is Tis N0 M0; an associated invasive component requires its own staging assessment. A study confined to DCIS does not establish treatment benefit in invasive triple-negative disease.",
+        "Mammographic abnormalities can prompt evaluation, but tissue examination establishes the diagnosis. Preserve the component, specimen and full diagnosis. Neither a schematic boundary nor one marker is a diagnostic test, and the phrase in situ does not predict every lesion's future behaviour.",
+        "In the AJCC eighth-edition tables reproduced by NCI, stage 0 is Tis N0 M0. Tis includes DCIS and nipple Paget disease without associated invasive carcinoma or DCIS in the underlying breast parenchyma. When underlying parenchymal carcinoma is present, its characteristics determine classification. A fictional report of invasive carcinoma with associated high-grade DCIS is therefore not stage 0 merely because DCIS is present.",
+        "CAP records the invasive and DCIS components separately. The surrounding myoepithelial cells are living cells; basement membrane is extracellular matrix, including proteins studied by Gusterson and colleagues. Their detection is not a stand-alone invasion test. Drawing colours, simplified counts and sizes represent locations rather than grade, stage or an inevitable progression."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "pcr",
+      "kind": "term",
+      "name": "Pathologic complete response (pCR)",
+      "aka": [
+        "pathological complete response",
+        "ypT0",
+        "ypN0",
+        "non-pCR",
+        "residual invasive disease",
+        "residual disease after neoadjuvant"
+      ],
+      "tldr": "Pathological complete response records the absence of specified residual cancer in tissue after preoperative treatment. The specimen and response definition must accompany the result.",
+      "summary": "In breast cancer, pCR must retain its named definition and specimens. FDA trial guidance describes two combined breast-and-sampled-node endpoints after neoadjuvant treatment: one permits residual ductal carcinoma in situ and the other excludes it. Older studies have also used breast-only definitions, so their response rates cannot be assumed to describe the combined endpoint. Response in sampled tissue, margin status, imaging, blood tests and long-term outcomes answer different questions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT03036488: KEYNOTE-522",
+          "url": "https://clinicaltrials.gov/study/NCT03036488"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05812807: OptimICE-pCR (A012103)",
+          "url": "https://clinicaltrials.gov/study/NCT05812807"
+        },
+        {
+          "label": "FDA breast pCR endpoint guidance, July 2020",
+          "url": "https://www.fda.gov/media/83507/download"
+        },
+        {
+          "label": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+        },
+        {
+          "label": "KEYNOTE-522 primary pCR analysis, Schmid et al. 2020",
+          "url": "https://doi.org/10.1056/NEJMoa1910549"
+        },
+        {
+          "label": "KEYNOTE-522 final overall survival, Schmid et al. 2024",
+          "url": "https://doi.org/10.1056/NEJMoa2409932"
+        },
+        {
+          "label": "Cortazar, Lancet 2014: pathological complete response and long-term benefit, the CTNeoBC pooled analysis",
+          "url": "https://doi.org/10.1016/s0140-6736(13)62422-8"
+        },
+        {
+          "label": "Liedtke, J Clin Oncol 2008: response to neoadjuvant therapy and long-term survival in triple-negative breast cancer",
+          "url": "https://doi.org/10.1200/jco.2007.14.4147"
+        },
+        {
+          "label": "Schmid, N Engl J Med 2020: KEYNOTE-522, pembrolizumab for early triple-negative breast cancer",
+          "url": "https://doi.org/10.1056/nejmoa1910549"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "surrogate-validation",
+        "surrogate-endpoint",
+        "efs",
+        "window-of-opportunity-trial",
+        "neoadjuvant-adjuvant",
+        "response-adaptive-randomisation",
+        "treatment-effect-in-pathology"
+      ],
+      "cancers": [
+        "tnbc",
+        "breast-her2-positive",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "keynote-522",
+        "optimice-pcr"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In FDA breast-trial guidance, ypT0/Tis ypN0 means no residual invasive cancer on haematoxylin and eosin (H&E) examination of the complete resected breast specimen and all sampled regional nodes after neoadjuvant systemic treatment. Residual DCIS is permitted. The stricter ypT0 ypN0 definition also excludes in situ cancer. Preserve the actual protocol and nodal assessment rules.",
+        "Breast-only clearance is not the combined breast-and-node endpoint. Residual invasive cancer in a sampled node prevents that combined pCR result even when breast invasion is absent or a blood assay is negative. A small negative biopsy, imaging response and negative circulating tumour DNA are different observations.",
+        "Residual DCIS can meet the invasive-clearance definition while still requiring separate margin assessment. In an otherwise qualifying specimen with DCIS but no breast invasion and no residual sampled-node cancer, the permissive definition is met and the stricter one is not. Neither pCR nor a negative local edge certifies cure or absence at every body site.",
+        "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome.",
+        "Trial-level increases in pCR had little association with event-free or overall-survival effects in CTNeoBC (R squared 0.03 and 0.24 respectively). The analysis could not validate pCR as a surrogate for improved long-term outcomes. A study reporting a pCR gain without mature survival comparison cannot infer the size of a survival benefit from the responder association.",
+        "FDA's July 2020 revision 1 guidance concerns pCR endpoints for trial design and accelerated approval in high-risk early-stage breast cancer. It is not an individual treatment or cure rule. In the notation, y denotes assessment after neoadjuvant treatment and p denotes pathological assessment. Sections and stains consume finite tissue; incomplete sampling, unexamined nodes and mixed endpoint definitions can invalidate comparisons.",
+        "KEYNOTE-522 separately demonstrated endpoint and survival results for the whole perioperative regimen in previously untreated stage II or III TNBC. In the 2020 primary pCR analysis of the first 602 randomised participants, pembrolizumab plus neoadjuvant chemotherapy yielded 64.8% pCR versus 51.2% with placebo plus chemotherapy (difference 13.6 percentage points, 95% CI 5.4 to 21.8). The final 2024 overall-survival report covered all 1,174 randomised participants, including postoperative pembrolizumab or placebo: at 60 months, overall survival was 86.6% versus 81.7% (P = 0.002; median follow-up 75.1 months). Survival was measured directly; the pCR gain did not mathematically predict it or isolate which perioperative component produced the benefit.",
+        "In fictional case A, no breast invasion, residual DCIS and no residual cancer in sampled nodes meet ypT0/Tis ypN0 but not ypT0 ypN0. In fictional case B, the same breast finding plus a 4-mm residual invasive nodal deposit meets neither combined endpoint. Identical DCIS-at-ink findings in either case remain a separate margin question.",
+        "Triple-negative disease is where pathological complete response means most: in the CTNeoBC pooled analysis of 11,955 patients, eradication of tumour from breast and nodes (ypT0/is ypN0) was associated with event-free survival hazard ratio 0.24 and overall survival 0.16 in triple-negative disease, the strongest association of any subtype, yet trial-level increases in the rate did not predict survival gains (Cortazar 2014).",
+        "Triple-negative patients reach a complete response more often than others (22 against 11 percent in the MD Anderson series, 1985 to 2004) and then have similar survival, while those with residual disease do worse, particularly in the first three years (Liedtke 2008). Adding pembrolizumab to platinum chemotherapy raised the rate from 51.2 to 64.8 percent in KEYNOTE-522 (Schmid 2020)."
+      ],
+      "category": "Endpoints",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "rcb",
+      "kind": "term",
+      "name": "Residual cancer burden (RCB)",
+      "aka": [],
+      "tldr": "Residual cancer burden combines breast and regional-node pathology measurements after preoperative chemotherapy into a continuous score and four response classes.",
+      "summary": "Residual cancer burden (RCB) combines measurements from the treated breast tumour bed and regional lymph nodes after neoadjuvant chemotherapy. The continuous index and its four classes are different outputs: RCB-0, RCB-I, RCB-II and RCB-III. It is not an anatomical stage or a percentage recurrence risk.\n\nThe six inputs are two residual tumour-bed dimensions in millimetres, overall cancer cellularity, the percentage of that cancer that is in situ, the positive-node count and the largest nodal metastasis diameter in millimetres. Overall cellularity uses tumour-bed area as its denominator; the in situ percentage uses the cancer component. In a fictional 100-unit bed with 20 units of cancer, of which 25% is in situ, invasive cancer occupies 15 units: 20 × (1 - 0.25). The 25% in situ input is fictional denominator teaching outside the MD Anderson protocol's listed nearest-10% estimates with low 1% and 5% choices. These are area fractions, not counted-cell fractions or sequencing purity.\n\nMicroscopic examination can revise the bed dimensions initially estimated at gross examination. Cellularity is averaged across the defined bed rather than taken only from the densest focus. A sparse breast bed cannot establish the nodal inputs, final margins or distant-disease status. The original study evaluated 382 patients in two chemotherapy cohorts and found prognostic information in the combined index. An association with later outcomes does not establish the benefit of a proposed additional treatment or supply an individual forecast.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Residual cancer burden index (Symmans et al., J Clin Oncol 2007)",
+          "url": "https://doi.org/10.1200/JCO.2007.10.6823"
+        },
+        {
+          "label": "MD Anderson detailed RCB pathology methods",
+          "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+        },
+        {
+          "label": "Residual cancer burden after neoadjuvant chemotherapy and long-term survival outcomes in breast cancer: a multicentre pooled analysis of 5161 patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34902335/"
+        },
+        {
+          "label": "MD Anderson RCB calculator",
+          "url": "https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3"
+        },
+        {
+          "label": "NCI BOLD preoperative data elements, June 2014: RCB class boundaries",
+          "url": "https://www.cancer.gov/about-nci/organization/ccct/steering-committees/nctn/breast-cancer/boldtfpreoperativecdes-rev.pdf"
+        },
+        {
+          "label": "Symmans, J Clin Oncol 2017: long-term prognosis by residual cancer burden and breast cancer subtype",
+          "url": "https://doi.org/10.1200/jco.2015.63.1010"
+        },
+        {
+          "label": "Telli, Clin Cancer Res 2016: HRD score predicts response to platinum neoadjuvant chemotherapy in triple-negative breast cancer",
+          "url": "https://doi.org/10.1158/1078-0432.ccr-15-2477"
+        },
+        {
+          "label": "Brierley et al., International Journal of Cancer 2026: the 9th edition of the UICC TNM classification of malignant tumours, updates and rationale for change (breast: the classification remains unchanged, the yp classification is clarified)",
+          "url": "https://doi.org/10.1002/ijc.70561"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumor-bed-cellularity",
+        "treatment-effect-in-pathology"
+      ],
+      "cancers": [
+        "tnbc",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "tnm-breast-cancer-editions"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-symmans-j-clin-oncol"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "RCB combines six post-treatment pathology inputs: two breast-bed dimensions in millimetres, overall cancer area percentage, in situ percentage of the cancer component, positive-node count and largest nodal metastasis diameter in millimetres. Distinguish continuous index from classes 0, I, II and III, and both from ypTNM stage or recurrence percentages.",
+        "CAP 4.11 describes the RCB breast span as the two-dimensional extent of residual invasive carcinoma, excluding DCIS from the span. The MD Anderson microscopy protocol instead starts with the gross tumour bed, revises its boundaries microscopically and estimates invasive plus in situ cancer area in that bed, using the largest bed for multicentric disease. State the protocol and denominator rather than merging these wordings. The largest contiguous residual invasive focus without adjacent treatment fibrosis supplies ypT; the gross scar, that focus and an RCB bed are different measurements.",
+        "RCB nodal measurement includes intervening treatment-related fibrosis and extranodal extension within the residual metastatic area, whereas ypN uses the largest contiguous residual focus without that fibrosis. Separate deposits divided by normal nodal tissue remain separate. Routine-stain ITC-only nodes enter RCB calculations although they are excluded from the AJCC positive-node count. Do not move a nodal number between these methods without its definition.",
+        "CAP states that RCB was not designed or validated for neoadjuvant endocrine treatment and advises against reporting its score or class there. Individual measurements such as cellularity may still describe residual disease. Use the official pathology assessment and calculator for unusual findings; low breast cellularity alone cannot establish nodal clearance or pCR.",
+        "Yau and colleagues pooled 5161 chemotherapy-treated stage I to III patients from 12 institutes and trials. Across receptor subtypes, the unadjusted event hazard ratio per RCB unit ranged from 1.55 to 2.16. The adjusted range was 1.52 to 2.09. In the complete-covariate triple-negative model (1585 patients), the adjusted HR was 1.93 (95% CI 1.74 to 2.13). Adjustment included age and baseline T category, nodal status and grade; these are prognostic associations, not treatment-benefit estimates.",
+        "For a fictional 20 by 10 mm bed, 20% overall cancer cellularity, 50% in situ share of cancer, two positive nodes and a 3-mm largest nodal metastasis, d_prim is 14.1421356 mm and f_inv is 0.10. The breast term is 1.4849628 and nodal term 1.3256445, summing to 2.8106074, approximately 2.811 and RCB-II. With zero involved nodes the nodal term is zero and the breast term remains approximately 1.485, also RCB-II. This is not stage II or a recurrence percentage; the separate 25% in situ denominator illustration is not this specimen.",
+        "RCB classes use the continuous index without rounding at a boundary: 0 is RCB-0; greater than 0 through 1.36 is RCB-I; greater than 1.36 through 3.28 is RCB-II; and greater than 3.28 is RCB-III. The NCI BOLD data elements record these cutoffs. Residual in situ disease can be compatible with RCB-0 under the method; use the specified nodal and pathological assessment rather than equating any ypN0 modifier with complete response.",
+        "Symmans and colleagues' 2007 typeset equation defines d_prim = sqrt(d1 × d2), f_inv = (C/100) × (1 - S/100), and RCB = 1.4 × (f_inv × d_prim)^0.17 + [4 × (1 - 0.75^N) × d_met]^0.17. The entire nodal bracket is raised to 0.17. Here N originally counts involved axillary nodes and d_met is the largest axillary metastasis diameter. Because only the largest deposit was measured, the model assumed each additional metastasis had 75% of the diameter of the next largest. Preserve full precision near class boundaries.",
+        "The 2007 study derived the index in 241 patients treated with paclitaxel followed by fluorouracil, doxorubicin and cyclophosphamide, and validated it in 141 treated with the latter combination: 382 patients with T1 to T3, N0 to N1, M0 disease. Class boundaries here come from NCI BOLD data elements, not the equation itself. This empirically fitted prognostic index is neither a cell count nor a personal probability.",
+        "Use the official calculator with the pathology team's protocol-specific assessment for unusual findings; low breast cellularity cannot establish negative nodes. A per-unit hazard ratio compares event rates under a study model, not a recurrence percentage or an estimate of benefit from adding treatment.",
+        "In triple-negative disease the residual cancer burden classes separate long-term risk sharply: ten-year relapse-free survival was 86 percent after a pathological complete response, 81 percent for RCB-I, 55 percent for RCB-II and 23 percent for RCB-III in the paclitaxel then FAC cohorts (Symmans 2017), which is why RCB-II and III residual disease is the setting for adjuvant escalation trials.",
+        "RCB 0 or I was the response endpoint that homologous recombination deficiency predicted in three neoadjuvant platinum trials (Telli 2016).",
+        "The staging manual now asks for it. The ninth edition of UICC TNM, recommended from 1 January 2026, clarifies that the ypT category must be based on the largest continuous focus of residual invasive cancer, excluding treatment-related fibrosis, with multiple foci carrying the m suffix, and recommends that the pathology report add an estimate of the extent of residual disease by the residual cancer burden method (Brierley 2026). Residual cancer burden is therefore no longer only a trial endpoint; it is what the stage cannot express."
+      ],
+      "category": "Endpoints",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "tnm-staging",
+      "kind": "term",
+      "name": "TNM staging",
+      "aka": [
+        "TNM",
+        "T stage",
+        "N stage",
+        "T1a",
+        "T1b",
+        "T1c",
+        "pT2",
+        "T1-2",
+        "T3-4",
+        "N2-3",
+        "M0 disease",
+        "clinical stage"
+      ],
+      "tldr": "TNM describes primary tumour extent, regional nodes and distant metastasis under rules specific to the cancer and staging edition.",
+      "summary": "Interpret TNM with the organ, system, edition, evidence and treatment moment attached. Clinical, surgery-first pathological and post-neoadjuvant categories describe different assessments. Anatomical groups and prognostic groups are distinct, and a stage does not independently predict an individual outcome or choose a treatment.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/TNM_staging_system",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TNM_staging_system"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "AJCC current staging-system table, 2026",
+          "url": "https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "TNM uses cancer-specific rules for primary tumour extent, regional nodal findings and distant metastasis. State system and disease-specific edition; AJCC breast remains eighth edition in the 2026 current-system table. In breast rules, T3 is larger than 5 cm, whereas T4 requires qualifying skin or chest-wall extension. Size alone cannot establish T4 or an overall stage group.",
+        "c denotes clinical assessment using examination, imaging and available biopsy evidence; p incorporates surgical pathological evidence. yc and yp identify clinical and pathological assessments after neoadjuvant treatment. Preserve the full treatment/specimen context: a later addendum on an old pretreatment biopsy still concerns that old sample.",
+        "Keep pretreatment and residual T/N records rather than splicing a pretreatment T to a post-treatment N. CAP applies the y prefix to a formal months-long preoperative endocrine course, but not a brief exposure of days or weeks. Negative breast and regional-node specimens cannot supply pM0; M0 is clinical and pM1 requires the applicable pathological evidence.",
+        "TNM categories do not alone specify a prognostic stage incorporating grade and receptors. Post-treatment extent and response are related but distinct. Regional nodal disease or extranodal extension does not by itself establish M1. In a fictional 6-cm pretreatment breast tumour without qualifying T4 features, cT3 can coexist with later ypT2 ypN1a without erasing the original extent.",
+        "In breast clinical classification, cN3b denotes combined ipsilateral internal mammary and axillary involvement, not a count of ten surgical nodes. With M0, anatomical IIIB comprises T4 with N0, N1 or N2; a T3 size alone does not make IIIB. These anatomical groups differ from grade/receptor-specific clinical prognostic groups.",
+        "Residual cancer burden combines breast-bed dimensions and cellularity with nodal count and metastasis diameter under its own protocol. It complements residual ypTNM rather than replacing it: a largest contiguous invasive focus for ypT is not interchangeable with a two-dimensional RCB bed."
+      ],
+      "category": "Clinical"
+    },
+    {
+      "id": "terminal-duct-lobular-unit",
+      "kind": "term",
+      "name": "Ducts, lobules and the terminal duct lobular unit",
+      "aka": [
+        "terminal duct lobular unit",
+        "TDLU",
+        "ducts and lobules",
+        "milk ducts",
+        "lobule",
+        "breast lobule",
+        "breast duct",
+        "ductal",
+        "lobular",
+        "breast anatomy",
+        "mammary gland"
+      ],
+      "tldr": "Breast ducts connect to milk-producing acini, with supporting tissues around them. This anatomy helps interpret a sample but does not by itself establish cancer.",
+      "summary": "The breast contains an interconnected duct-lobular epithelial system within connective and fatty tissue. A terminal duct with its associated acini forms a terminal duct lobular unit. Tissue compartments and their proportions matter when interpreting imaging, microscopy or bulk molecular measurements. Histological diagnosis, grade, receptor status and disease extent require their own evidence.\n\nNCI DCEG describes the TDLU as the origin of most breast cancer precursors and cancers. The names ductal and lobular are diagnostic morphology, not proof of an exact ancestral cell. Characteristic loss of E-cadherin in invasive lobular carcinoma reduces cell adhesion; diffuse growth in unconnected lines can make a lesion harder to feel or detect on imaging. The SEER description concerns this growth pattern rather than a universal test result for every lobular tumour.\n\nMale breasts have ducts and may have lobules, but far fewer than female breasts; NCI describes lobular cancer as rare in men. Breast tissue and mammographic density change over life. Greater density is associated with higher breast-cancer risk and can obscure cancers on a mammogram; increasing age and childbearing are associated with lower density, alongside other influences. Mammographic density, TDLU involution and histological diagnosis are different observations.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Terminal_duct_lobular_unit",
+      "links": [
+        {
+          "label": "Tan et al., Histopathology 2020: the 2019 WHO classification of tumours of the breast (5th edition)",
+          "url": "https://doi.org/10.1111/his.14091"
+        },
+        {
+          "label": "Cancer Research UK: types of breast cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/types"
+        },
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "UBC pathology: Cytodiagnosis of Breast Lesions, normal breast histology, page 22",
+          "url": "https://file.pathology.ubc.ca/BreastCytoBook.pdf"
+        },
+        {
+          "label": "NCI DCEG: terminal duct lobular unit involution",
+          "url": "https://dceg.cancer.gov/research/cancer-types/breast-cancer/tdlu-involution-with-komen"
+        },
+        {
+          "label": "NCI SEER mammary gland anatomy",
+          "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html"
+        },
+        {
+          "label": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/"
+        },
+        {
+          "label": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/"
+        },
+        {
+          "label": "NCI DCIS: ductal boundary and invasion",
+          "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis"
+        },
+        {
+          "label": "NCI male breast cancer anatomy",
+          "url": "https://www.cancer.gov/types/breast/male-breast-cancer"
+        },
+        {
+          "label": "NCI dense breasts",
+          "url": "https://www.cancer.gov/types/breast/screening/dense-breasts"
+        },
+        {
+          "label": "SEER invasive lobular carcinoma",
+          "url": "https://seer.cancer.gov/statfacts/html/ilc.html"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "carcinoma-in-situ",
+        "lymph-node-status",
+        "mammography",
+        "sentinel-lymph-node-biopsy",
+        "myoepithelial-cells-and-basement-membrane",
+        "lymphatic-drainage-and-axilla"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "invasive-breast-carcinoma-no-special-type",
+        "invasive-lobular-carcinoma",
+        "male-breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "who-breast-classification",
+        "carcinoma-in-situ",
+        "lymph-node-status"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The terminal duct lobular unit contains a terminal duct and its associated acini. Acini make milk during lactation; ducts carry it towards the nipple. Lobules and larger lobes are different levels of organisation. Their size and abundance vary with physiology and life stage; an illustrative branch count is not a fixed anatomical count. A schematic grouping bracket is an annotation, not a tissue capsule or basement membrane. NCI DCEG describes TDLU involution with physiological ageing and completion of childbearing as reductions in acini per unit and total unit counts. This is an observational normal-tissue description, not a diagnostic rule for an individual.",
+        "From a typical normal acinus lumen outward, distinguish luminal epithelial cells, living myoepithelial cells, extracellular basement membrane and surrounding stroma. Stroma includes connective tissue, fat, vessels and immune cells. A basement membrane is neither a cell layer nor the plasma membrane around one cell.",
+        "An epithelial marker or abundant epithelial RNA can come from normal epithelium. A sample richer in glands and poorer in stroma can change a bulk measurement without a change within either cell type. Imaging, tissue morphology and protein staining observe different scales; a normal-breast atlas is a reference, not a stand-alone cancer diagnosis.",
+        "A quadrant or clock position locates a lesion. It does not identify its ancestral cell, receptor class or invasiveness. Likewise, ductal and lobular diagnostic names do not prove the precise ancestral location, and anatomical luminal position does not assign a molecular luminal subtype. A milk-flow diagram is not a cancer-progression sequence.",
+        "Ducts are epithelium-lined channels connected to milk-producing acini in lobules. The TDLU is a tissue unit, not one cell or a molecular subtype. Epithelial tissue can be normal, in situ or invasive: DCIS remains within the ductal boundary, whereas invasion enters surrounding tissue. In a fictional bulk assay, abundant epithelial RNA cannot establish invasion; that distinction needs tissue organisation, not simply epithelial abundance.",
+        "Milk ducts and lymphatic drainage are different networks. A quadrant or clock address supplies neither a drainage map nor lineage. Normal-anatomy drawings simplify scale, cell counts and branching; selected source text and captions support the arrangement illustrated, not a diagnosis or a universal number of cells."
+      ],
+      "category": "Anatomy"
+    },
+    {
+      "id": "nottingham-grade",
+      "kind": "term",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3)",
+      "aka": [
+        "Nottingham grade",
+        "Nottingham grading system",
+        "Nottingham histological grade",
+        "Elston-Ellis grade",
+        "Elston and Ellis",
+        "Bloom-Richardson",
+        "Bloom and Richardson",
+        "Scarff-Bloom-Richardson",
+        "SBR grade",
+        "breast cancer grade",
+        "grade 1 breast cancer",
+        "grade 2 breast cancer",
+        "grade 3 breast cancer",
+        "tubule formation",
+        "nuclear pleomorphism",
+        "mitotic count",
+        "histological grade breast"
+      ],
+      "tldr": "Nottingham grade combines three microscopic feature scores into grade 1, 2 or 3. It describes invasive breast tissue and does not by itself establish disease extent.",
+      "summary": "Nottingham histological grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 are grade 1, 6 to 7 grade 2 and 8 to 9 grade 3. CAP records component scores and the overall grade when grading is applicable; its template excludes microinvasion-only cases from grading. Mitotic assessment depends on a defined observation area and microscope calibration. In Elston and Ellis' 1991 Nottingham/Tenovus study, 1,831 of more than 2,200 patients with primary operable breast cancer were graded; grade 1 had better survival than grades 2 and 3 (P less than 0.0001). This observational prognostic evidence does not turn grade into stage or a treatment-benefit estimate.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Breast_cancer_classification",
+      "links": [
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "Elston and Ellis, Histopathology 1991;19:403 to 410: pathological prognostic factors in breast cancer, the value of histological grade, with long-term follow-up of 1,831 graded patients",
+          "url": "https://doi.org/10.1111/j.1365-2559.1991.tb00229.x"
+        },
+        {
+          "label": "Tan et al., Histopathology 2020: the 2019 WHO classification of tumours of the breast (5th edition)",
+          "url": "https://doi.org/10.1111/his.14091"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI tumour grade",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumour-grade",
+        "grade-vs-stage",
+        "tumour-differentiation",
+        "digital-pathology-ai"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "invasive-breast-carcinoma-no-special-type",
+        "invasive-lobular-carcinoma",
+        "tnbc",
+        "breast-hr-positive"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "nottingham-prognostic-index",
+        "grade-stage-receptor-breast",
+        "tumour-grade",
+        "breast-tumour-size-on-the-report",
+        "who-breast-classification"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Grade is not the grade of a side effect. A treatment side effect is also given a grade, from 1 to 5, on a completely separate scale (see `toxicity-grade`). A grade 3 cancer and a grade 3 side effect have nothing to do with each other.",
+        "Nottingham grading of invasive breast carcinoma combines tubule formation, nuclear pleomorphism and recognisable mitotic figures. Each receives 1 to 3 points: totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Thus assigned components 2, 3 and 3 sum to 8, grade 3; the sum is not a percentage.",
+        "Mitotic scoring uses ten consecutive high-power fields in the most mitotically active region, with field size calibrated for the microscope. Count recognisable division, excluding dark, fragmented or apoptotic nuclei. Equal raw counts over different observation areas need not receive the same score. Ki-67 staining does not replace the mitotic component.",
+        "Histological type describes morphology, grade scores microscopic features, and anatomical stage describes extent. Grade 3 does not mean stage III, low grade does not mean benign, and invasive Nottingham grading differs from DCIS nuclear grading. Grade can contribute to prognostic staging without becoming another measure of spread.",
+        "Retain the biopsy or resection, tissue region and treatment time point when comparing grades. Heterogeneity, limited tissue and treatment effects can restrict comparison. One section does not represent every tumour region, and grade alone supplies neither nodal/distant status nor a personal treatment-benefit estimate.",
+        "A nucleus contains a cell's genetic material. Nuclear pleomorphism means variation in nuclear size and appearance; a mitotic figure is a cell visibly dividing. These microscopic observations differ from Ki-67 protein staining, and a dark or dying nucleus should not simply be counted as division.",
+        "In CAP 4.11, tubule-formation scores 1, 2 and 3 correspond to greater than 75%, 10 to 75%, and less than 10% of tumour area forming glandular or tubular structures. Its nuclear descriptors compare with benign epithelial nuclei, alongside chromatin, nucleoli and variation in size and shape; a red-blood-cell diameter is not the comparator in that template. The reporting template marks microinvasion-only cases as not graded.",
+        "RCPath's November 2024 G148 dataset specifies the Nottingham method and recording its individual components for audit. It describes approximate grade 1:2:3 distributions of 2:3:5 in symptomatic and 3:5:2 in screen-detected cancers, as audit context rather than diagnostic quotas. It reports about 70% agreement between core-biopsy and corresponding surgical grades. Tubule assessment covers the tumour overall, while pleomorphism and mitoses use the worst area, often the periphery. If a higher-grade or morphologically different component in the resection was absent from the preoperative sample, the dataset recommends repeat receptor assays. These are source-specific reporting instructions, not an individual prognosis."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "targeted-axillary-dissection",
+      "kind": "term",
+      "name": "Targeted axillary dissection",
+      "aka": [
+        "TAD",
+        "clipped node removal",
+        "marked lymph node biopsy",
+        "MARI procedure"
+      ],
+      "tldr": "Targeted axillary dissection combines sentinel-node sampling with removal of a previously marked node. Marker recovery and the pathological result need their own documentation.",
+      "summary": "In the studied post-neoadjuvant setting, a node with biopsy-confirmed metastasis is marked before treatment and localised for removal alongside mapped sentinel nodes. The marked node may not be a sentinel node. Caudle and colleagues reported a 2.0% false-negative rate (1 of 50 patients with residual disease) for targeted dissection followed by the full axillary reference procedure. This result depends on the population, technique and reference assessment and is not a guarantee for every patient or centre.\n\nLocalisation approaches include an iodine-125 seed, magnetic seed, carbon tattoo, wire-guided localisation and radiofrequency-based tags. The IMTAD primary study compared the first three; its discussion describes separate feasibility reports for wire and radiofrequency approaches, not a head-to-head comparison of every method. Carbon is detected visually, whereas the iodine and magnetic seeds are probe-detected. Mapping technique, marker recovery and examined-node number need to be documented rather than assuming identical performance across methods.\n\nSubsequent surgery and regional irradiation are separate questions. In NSABP B-51, patients with biopsy-proven cT1 to T3, cN1, M0 disease who reached ypN0 after neoadjuvant chemotherapy were randomised to regional nodal irradiation or its omission. Irradiation did not significantly improve the primary invasive breast cancer recurrence-free interval at the reported follow-up; this is not proof of no benefit in every setting. ATNEC separately studies axillary management after neoadjuvant chemotherapy; its registry lists recruiting, last updated 30 March 2026.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Targeted axillary dissection (Journal of Clinical Oncology 2016)",
+          "url": "https://doi.org/10.1200/JCO.2015.64.0094"
+        },
+        {
+          "label": "ACOSOG Z1071 (JAMA 2013)",
+          "url": "https://doi.org/10.1001/jama.2013.278932"
+        },
+        {
+          "label": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/"
+        },
+        {
+          "label": "Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: the ACOSOG Z1071 (Alliance) clinical trial.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24101169/"
+        },
+        {
+          "label": "IMTAD prospective localisation study (Žatecký 2023)",
+          "url": "https://doi.org/10.1186/s12957-023-03147-x"
+        },
+        {
+          "label": "NSABP B-51/RTOG 1304 (Mamounas 2025)",
+          "url": "https://doi.org/10.1056/NEJMoa2414859"
+        },
+        {
+          "label": "ATNEC registry",
+          "url": "https://clinicaltrials.gov/study/NCT04109079"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [
+        "sentinel-lymph-node-biopsy",
+        "lymphadenectomy",
+        "axillary-surgery-de-escalation",
+        "neoadjuvant-versus-adjuvant-breast"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc"
+      ],
+      "sections": [
+        "surgery"
+      ],
+      "technologies": [
+        "sentinel-node"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "acosog-z1071",
+        "targeted-axillary-dissection-md-anderson",
+        "atnec",
+        "nsabp-b51"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Targeted axillary dissection combines sentinel sampling and localisation/removal of a previously marked node. In the studied neoadjuvant setting that node had biopsy-proven involvement before therapy. A clip and a tracer identify different properties and may or may not mark the same node. Document recovery of the marker and that node's pathology.",
+        "A negative set of mapped nodes does not establish that a separately clipped node was retrieved or cleared. Preserve side, basin, procedure, pretreatment status, therapy timing, examined-node denominator, deposit dimensions and ENE. Zero of three means no qualifying disease found in three examined nodes, not in every node or distant organ.",
+        "Boughey and colleagues' Z1071 analysis of initially cN1 disease after chemotherapy found a 12.6% false-negative rate with at least two sentinel nodes examined, missing residual disease in 39 cases; the prespecified goal was 10% or less. Among 525 patients with at least two sentinel nodes, 215 (41.0%) had no residual axillary cancer. These denominators answer different questions.",
+        "In Caudle and colleagues' prospective clipped-node study, clipped-node assessment alone had a 4.2% false-negative rate (95% CI 1.4 to 9.5). Sentinel dissection alone had 10.1% (7 of 69 with residual disease); adding the clipped node reduced it to 1.4% (95% CI 0.03 to 7.3; P = 0.03). Formal targeted dissection followed by axillary dissection had 2.0% (1 of 50; 95% CI 0.05 to 10.7). The clipped node was not a sentinel node in 23% (31 of 134), including six cases with negative sentinel nodes but cancer in the clipped node. These overlapping study analyses have different denominators and do not guarantee performance in every setting."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "ajcc-prognostic-stage-breast",
+      "kind": "term",
+      "name": "AJCC 8th edition prognostic stage for breast cancer",
+      "aka": [
+        "Prognostic stage group",
+        "Clinical prognostic stage",
+        "Pathological prognostic stage",
+        "Anatomic stage versus prognostic stage",
+        "AJCC 8th edition breast"
+      ],
+      "tldr": "AJCC eighth-edition breast prognostic staging combines extent, grade and receptor results. The clinical and surgery-first pathological tables have different uses.",
+      "summary": "AJCC eighth-edition breast prognostic staging combines anatomical extent with grade, ER, PR and HER2, with narrowly prescribed multigene-test uses. Giuliano and colleagues described these changes in 2017. Weiss and colleagues' surgery-first validation included 3,327 MD Anderson patients with stage I to IIIC disease and 54,727 California Cancer Registry patients. Prognostic staging moved 29.5% up and 28.1% down at MD Anderson (disease-specific survival C index 0.8357 versus 0.737 for anatomical staging); in California it moved 31.0% up and 20.6% down (C index 0.8426 versus 0.8097). Neoadjuvant-treated patients were excluded. These population comparisons do not validate entering residual yp findings into the surgery-first table or rank response measures against staging for an individual.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Breast_cancer_classification",
+      "links": [
+        {
+          "label": "Giuliano, CA Cancer J Clin 2017: major changes in the AJCC 8th edition breast cancer staging manual",
+          "url": "https://doi.org/10.3322/caac.21393"
+        },
+        {
+          "label": "Weiss, JAMA Oncol 2018: validation of the AJCC 8th edition prognostic stage against the anatomic stage",
+          "url": "https://doi.org/10.1001/jamaoncol.2017.4298"
+        },
+        {
+          "label": "CRUK: TNM staging of breast cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/stages-grades/tnm-staging"
+        },
+        {
+          "label": "CRUK: number stages of breast cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/stages-grades/number-stages"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "NCI breast stages",
+          "url": "https://www.cancer.gov/types/breast/stages"
+        },
+        {
+          "label": "AJCC current staging-system table, 2026",
+          "url": "https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf"
+        },
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "Brierley et al., International Journal of Cancer 2026: the 9th edition of the UICC TNM classification of malignant tumours, updates and rationale for change (breast: the classification remains unchanged, the yp classification is clarified)",
+          "url": "https://doi.org/10.1002/ijc.70561"
+        }
+      ],
+      "tags": [
+        "breast",
+        "tnbc"
+      ],
+      "related": [
+        "tnm-breast-cancer-editions"
+      ],
+      "cancers": [
+        "tnbc",
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "tnm-staging",
+        "tumour-grade",
+        "pcr",
+        "rcb",
+        "tnm-breast-cancer-editions",
+        "grade-stage-receptor-breast"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "AJCC eighth-edition breast staging distinguishes anatomical TNM extent from prognostic grouping using grade, oestrogen receptor, progesterone receptor and HER2. State the disease-specific edition, assessment type and treatment timing. A newer version for another cancer does not automatically update breast staging.",
+        "Clinical prognostic staging uses pretreatment clinical evidence, including available biopsy findings. Pathological prognostic grouping applies when surgery is initial treatment. After neoadjuvant therapy retain pretreatment clinical stage and report yc or yp residual findings and response; do not enter ypT and ypN into the surgery-first pathological prognostic table.",
+        "In the eighth-edition clinical table, grade-3 ER-negative, PR-negative, HER2-negative T2 N1 M0 maps to IIIB, while its anatomical group is IIB. T3 N1 M0 maps to IIIC clinically prognostic and IIIA anatomically. T4 or N3 with M0 is IIIC in this specified grade/receptor context. Different group labels can therefore both be correct when their tables are named.",
+        "Prognostic groups reflect populations offered appropriate systemic treatment, not untreated natural history or an individual forecast. A missing receptor or grade cannot be invented to finish a table. A narrowly prescribed multigene staging use does not authorise substitution of any RNA signature. Biopsy information alone does not constitute a complete surgical pathological stage; pM0 is not valid.",
+        "Residual ypT and ypN remain valid descriptions after neoadjuvant treatment even though the surgery-first pathological prognostic table does not apply. Research TNBC RNA signatures and risk scores cannot substitute for the specific receptor, grade and eligible multigene inputs prescribed by a staging table.",
+        "RCPath's November 2024 G148 dataset, Appendix D, recommends UICC TNM 8 rather than AJCC TNM 8 because the systems differ. This is the named dataset's reporting instruction, not evidence that every UK report omits prognostic staging. An anatomical UICC category alone does not establish an AJCC prognostic group; the latter also requires its specified grade, receptor and assessment inputs."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "internal-mammary-nodes",
+      "kind": "term",
+      "name": "Internal mammary nodes",
+      "aka": [
+        "parasternal lymph nodes",
+        "internal mammary lymph nodes"
+      ],
+      "tldr": "Internal mammary nodes lie beside the breastbone and form a regional lymph-node chain for the breast on the same side.",
+      "summary": "Locate the nodal chain before interpreting its result. Internal mammary nodes beside the sternum differ from intramammary nodes within the breast and axillary nodes in the armpit. The location, side, assessment method and treatment moment must accompany any nodal classification.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "The lymphatic anatomy of the breast and its implications for sentinel lymph node biopsy: a human cadaver study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/"
+        },
+        {
+          "label": "NCI sentinel-node biopsy",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "lymphatic-drainage-and-axilla",
+        "lymph-node-status",
+        "sentinel-lymph-node-biopsy",
+        "tnm-staging"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Internal mammary, or parasternal, nodes lie beside the sternum along the internal thoracic vessels. Intramammary nodes lie within breast tissue and are grouped with axillary nodes for AJCC breast N classification. Similar spelling does not make these the same anatomical chain.",
+        "Ipsilateral internal mammary involvement is regional nodal disease, not automatically M1 or stage IV. The exact N category depends on clinical versus pathological detection and accompanying axillary findings. Do not silently apply same-side rules to an opposite-side observation.",
+        "An axillary sentinel sample does not automatically test the internal mammary chain. Record side, basin, imaging interpretation, tissue confirmation and treatment timing separately. Not sampled and sampled without cancer are different findings; an indeterminate image is not a proven metastasis.",
+        "Suami and colleagues traced 24 breasts in 14 human cadavers and identified routes towards axillary and internal mammary lymphatics. This supports the anatomical routes, not a universal drainage map or probability of cancer spread in a living person. Anatomy alone does not select sampling or radiation.",
+        "Axillary nodes lie in the armpit and are regional nodes; intramammary nodes lie within breast tissue and are classified with axillary nodes; internal mammary nodes lie beside the sternum and have their own regional N context. NCI notes that cancers near the breastbone may drain first to internal mammary nodes. This possible route is not a personal prediction.",
+        "Dashed routes in an anatomical sketch indicate possible connections, not demonstrated involvement or obligatory spread. Axillary levels describe locations relative to pectoralis minor. Neither levels nor arrows establish a personal first node, and an axillary sample does not examine every chain."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "lymphatic-drainage-and-axilla",
+      "kind": "term",
+      "name": "Breast lymphatic drainage and the axilla",
+      "aka": [
+        "axillary lymphatic drainage",
+        "breast lymphatic drainage"
+      ],
+      "tldr": "Breast lymphatics carry fluid to regional nodes through variable routes, including the axilla and internal mammary chain.",
+      "summary": "A drainage territory and a sampled node are different things. Anatomical location helps interpret the evidence, but imaging and tissue examination have different roles and limitations. A nodal result applies to the assessed region and method.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "The lymphatic anatomy of the breast and its implications for sentinel lymph node biopsy: a human cadaver study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI sentinel-node biopsy",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "internal-mammary-nodes",
+        "lymph-node-status",
+        "sentinel-lymph-node-biopsy"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Lymphatic vessels carry tissue fluid, material and cells to draining nodes. Nodes also participate in immune responses, and enlargement alone does not establish cancer. Drainage pathways vary; they are not a compulsory sequence of cancer spread, and lymphatic spread is not the only route of dissemination.",
+        "Axillary levels are locations relative to pectoralis minor: level I is lateral to its lateral border, level II between its borders, and level III medial to its medial border and below the clavicle. Levels are neither overall stages nor proof of involvement.",
+        "Keep axillary, intramammary and internal mammary locations distinct. Intramammary nodes are grouped with axillary nodes for breast N staging; ipsilateral internal mammary nodes belong to a separate regional chain. Regional N involvement, including extranodal extension, does not alone establish distant M disease.",
+        "Tracer mapping identifies particular draining nodes under the procedure's conditions; an anatomical sketch cannot substitute for mapping. Preserve the sampled region, side, procedure, treatment timing and pathological result. Negative examined axillary nodes do not resolve an indeterminate internal mammary image or survey all regional nodes.",
+        "The axilla is the armpit. Superficial and deeper lymphatic routes vary; a map omits many vessels and node groups. It assigns neither a personal first draining node nor a stage. Disease, prior surgery and treatment can affect procedural mapping, so drawn routes cannot replace the actual mapping and pathological record."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane",
+      "kind": "term",
+      "name": "Myoepithelial cells and the breast basement membrane",
+      "aka": [
+        "myoepithelium",
+        "myoepithelial layer"
+      ],
+      "tldr": "Myoepithelial cells are living cells around normal breast ducts and acini; basement membrane is separate extracellular material outside them.",
+      "summary": "These layers help organise normal breast structures and support pathological assessment of invasion. Their location, morphology, staining controls and diagnostic context matter more than a single positive or negative marker.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/"
+        },
+        {
+          "label": "Immunohistochemical distinction of invasive from noninvasive breast lesions: a comparative study of p63 versus calponin and smooth muscle myosin heavy chain.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/"
+        },
+        {
+          "label": "Distribution of myoepithelial cells and basement membrane proteins in the normal breast and in benign and malignant breast diseases.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/"
+        },
+        {
+          "label": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/"
+        },
+        {
+          "label": "CAP invasive breast protocol: histological type and supporting assessment",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "terminal-duct-lobular-unit",
+        "dcis",
+        "invasive-breast-carcinoma-no-special-type"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Typical normal breast ducts and acini have luminal epithelial cells facing the lumen, an outer living myoepithelial layer, extracellular basement membrane and then stroma. Myoepithelial cells have contractile features that help move milk; they are not the chest muscle. Basement membrane contains matrix proteins such as laminins and type IV collagen, not living cells.",
+        "Basement membrane beneath an epithelial structure differs from plasma membrane around one cell. Cell polarity describes different inward and outward organisation. Gudjonsson and colleagues' human-cell culture experiments showed that normal myoepithelial cells or laminin-1 could restore luminal orientation in collagen gels; this is model evidence about organisation, not a demonstrated cancer treatment.",
+        "Myoepithelial immunohistochemistry is supporting evidence interpreted with morphology. p63 is nuclear; calponin and smooth muscle myosin heavy chain are cytoplasmic markers. Ask which cells stain, where they stain and whether technical controls work. A failed positive control undermines an apparently absent rim.",
+        "Werling and colleagues found gaps around some noninvasive structures, stromal staining with muscle-associated markers and p63 staining in some carcinoma cells. Gusterson and colleagues found basement-membrane proteins in some invasive carcinomas. Neither marker absence nor protein presence alone proves the tissue boundary. Basal-like RNA features also do not establish myoepithelial ancestry.",
+        "In Gusterson and colleagues' 1982 tissue study, laminin and type IV collagen were detected in normal breast, benign lesions and grade I invasive carcinomas but were absent from grade II and III infiltrating carcinomas in that study. That historical cohort does not make protein presence proof of an intact noninvasive boundary, or protein absence a universal grade rule.",
+        "Werling and colleagues examined 85 breast lesions. In that series, at least focal p63 staining in tumour cells occurred in 11% of cases, while stromal myofibroblasts stained with smooth muscle myosin heavy chain in 8% and calponin in 76%. Some noninvasive structures had gaps. These assay- and cohort-specific observations explain why localisation and controls matter; they are not universal diagnostic accuracy estimates.",
+        "CAP's morphology-based histological classification and supporting-marker assessment answer a tissue question. A schematic rim is neither an immunostain result nor a diagnosis; illustrated gaps or colours cannot establish invasion. Interpret the actual tissue architecture and appropriately controlled stains together."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "treatment-effect-in-pathology",
+      "kind": "term",
+      "name": "Treatment effect in breast pathology",
+      "aka": [
+        "histological treatment effect",
+        "post-treatment tissue changes"
+      ],
+      "tldr": "Treatment effect describes tissue changes after therapy, assessed separately from whether viable cancer remains in the examined breast and nodes.",
+      "summary": "Response-related changes and residual carcinoma answer different questions. Interpretation needs treatment history, mapped sampling and separate breast and nodal findings. Fibrosis is not automatically residual tumour size or proof of complete response.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+          "url": "https://doi.org/10.1038/modpathol.2015.74"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pcr",
+        "rcb",
+        "tumor-bed-cellularity",
+        "tnm-staging"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "After preoperative therapy, fibrosis, necrosis, inflammation and histiocytic aggregates can be response-related tissue changes. Residual viable carcinoma is a separate morphological assessment, not a culture test of every cell. Response changes and residual cancer can coexist; scarring alone does not establish that no cancer remains. Fibrosis means collagen-rich scarring, necrosis means dead tissue and histiocytes are tissue macrophages.",
+        "CAP 4.11 describes the RCB breast span as the two-dimensional extent of residual invasive carcinoma, excluding DCIS from the span. The MD Anderson microscopy protocol instead starts with the gross tumour bed, revises its boundaries microscopically and estimates invasive plus in situ cancer area in that bed, using the largest bed for multicentric disease. State the protocol and denominator rather than merging these wordings. The largest contiguous residual invasive focus without adjacent treatment fibrosis supplies ypT; the gross scar, that focus and an RCB bed are different measurements. For ypN, adjacent treatment fibrosis is likewise excluded from the contiguous staging dimension; RCB nodal measurement has its own rule.",
+        "Assessment connects pretreatment location, imaging or marker information, gross mapping, a sampling plan and microscopy. Sparse, scattered residual foci make arbitrary-section interpretation unreliable. A broad scar can contain residual invasive cancer without the whole scar being solid cancer.",
+        "Breast and node response are reported separately. Nodal scarring or histiocytic aggregates without residual cancer can be consistent with prior treated involvement, but do not independently establish biopsy-proven baseline metastasis. Prior biopsy or other injury can also produce repair changes; a scar alone cannot establish a drug-specific effect.",
+        "RCB is not validated for neoadjuvant endocrine treatment; CAP advises against reporting a score/class in that setting even when individual residual measurements are recorded. Combined pCR requires its stated breast-and-node definition and appropriate specimens, may permit DCIS and does not establish whole-body eradication. Preserve the pretreatment record alongside residual findings."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "tumor-bed-cellularity",
+      "kind": "term",
+      "name": "Tumour-bed cellularity",
+      "aka": [
+        "tumour bed cellularity",
+        "residual tumour bed cellularity"
+      ],
+      "tldr": "Tumour-bed cellularity estimates cancer-occupied area within a defined treated breast bed. The in situ share uses a different denominator.",
+      "summary": "Label the region, numerator and denominator before interpreting cellularity. Overall cancer area and the in situ share of that cancer are separate RCB inputs, neither interchangeable with sequencing purity or a score by itself.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "MD Anderson detailed RCB pathology methods",
+          "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "rcb",
+        "treatment-effect-in-pathology",
+        "pcr"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For RCB, overall cancer cellularity estimates the area occupied by invasive plus in situ cancer within a defined residual breast bed. The in situ percentage instead uses the cancer component as denominator. Microscopic review can revise bed boundaries and should represent sparse as well as dense regions; selecting only a dense focus changes the measurement.",
+        "Invasive bed fraction equals overall cancer fraction multiplied by one minus the in situ fraction of cancer. In a fictional 100-unit bed with 20 units of cancer, 25% in situ means 5 bed units in situ and 15 invasive. The invasive share is 75% of cancer but only 15% of the whole bed. These idealised area units teach denominators, not counting instructions or the precision of a clinical estimate.",
+        "Area occupied by cancer, the proportion of counted cells that are malignant and the fraction of sequenced DNA contributed by cancer have different denominators. A selected assay block may also differ from the whole residual bed. Do not enter an area-cellularity estimate as sequencing purity or describe 25% of cancer as 25% of the bed.",
+        "Retain the named bed, specimen, treatment setting, mapping and representative sections, overall area percentage and in situ share separately. Incomplete sampling, a misdefined bed and heterogeneous distribution can bias the estimate; staining or sampling consumes finite tissue. There is no universal low/high cellularity cutoff that alone selects treatment.",
+        "Cellularity alone supplies neither nodal burden, final margins, distant status, pCR nor an RCB score. CAP's residual-invasive RCB span excludes DCIS, while the MD Anderson protocol estimates invasive plus in situ area in a microscopically revised cancer bed. Neither is interchangeable with the largest contiguous ypT focus. CAP advises against RCB score/class after neoadjuvant endocrine therapy, although individual residual measurements may still be useful.",
+        "The MD Anderson protocol estimates overall cellularity and in situ percentage to the nearest 10%, with additional 1% and 5% choices for low values. The 25% in situ example above is fictional denominator arithmetic outside those listed estimation increments. Its arithmetic remains 20 × 0.25 = 5 in situ and 20 - 5 = 15 invasive bed units. A separate protocol-aligned 20% in situ illustration would give 4 in situ and 16 invasive units. Neither should be confused with the RCB example using 50% in situ."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type",
+      "kind": "cancer",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma)",
+      "aka": [
+        "Invasive ductal carcinoma",
+        "IDC",
+        "Invasive carcinoma of no special type",
+        "NST",
+        "Infiltrating ductal carcinoma",
+        "Invasive ductal carcinoma not otherwise specified",
+        "Invasive breast cancer",
+        "ordinary breast cancer",
+        "usual type breast cancer",
+        "no special type",
+        "NST breast cancer",
+        "IDC NST"
+      ],
+      "tldr": "Invasive carcinoma of no special type, still widely called invasive ductal carcinoma, is the ordinary form of breast cancer and by far the most common. The name means the tumour has no special pattern that would put it in one of the rarer types; everything on the main breast cancer page and its receptor subpages is written about this type unless it says otherwise.",
+      "summary": "The WHO classification uses invasive breast carcinoma of no special type for the large group of adenocarcinomas that cannot be classified as a special histological type; the 2019 edition keeps the term, treats the former medullary, oncocytic, lipid-rich, glycogen-rich, sebaceous and pleomorphic carcinomas as patterns within it, and grades it by the Nottingham system (Tan 2020). It is then divided clinically by oestrogen receptor, progesterone receptor and HER2 status and, in early disease, by genomic assays such as Oncotype DX, which is how the corpus's HR-positive, HER2-positive and triple-negative pages and their subpages are organised.\n\nHow it differs from its parent: it is not a subtype so much as the default; the special types on the sibling pages (lobular, tubular, mucinous, cribriform, papillary, secretory, adenoid cystic, apocrine, micropapillary, metaplastic, neuroendocrine) are defined against it and several carry a better or worse prognosis than grade-matched no special type disease.\n\nHow common: the most common type of breast cancer (Cancer Research UK); Cancer Research UK gives no percentage and this page does not estimate one.\n\nTreatment: entirely as the parent and its receptor pages describe (surgery, radiotherapy, endocrine therapy, chemotherapy, HER2-directed therapy and immunotherapy by receptor status and stage).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Invasive_carcinoma_of_no_special_type",
+      "links": [
+        {
+          "label": "Cancer Research UK: types of breast cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/types"
+        },
+        {
+          "label": "NCI PDQ: breast cancer treatment",
+          "url": "https://www.cancer.gov/types/breast/treatment"
+        },
+        {
+          "label": "Tan 2020, Histopathology: the 2019 WHO classification of tumours of the breast",
+          "url": "https://doi.org/10.1111/his.14091"
+        },
+        {
+          "label": "Ciriello 2015, Cell: comprehensive molecular portraits of invasive lobular breast cancer (TCGA)",
+          "url": "https://doi.org/10.1016/j.cell.2015.09.033"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI SEER breast histologies",
+          "url": "https://training.seer.cancer.gov/breast/types.html"
+        },
+        {
+          "label": "WHO/IARC breast tumour classification structure",
+          "url": "https://whobluebooks.iarc.who.int/structures/breast-tumours/"
+        },
+        {
+          "label": "Quinn et al., Histopathology 2026;89(2):199 to 218: World Health Organization classification of tumours of the breast, 6th edition 2026",
+          "url": "https://doi.org/10.1111/his.70149"
+        },
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        }
+      ],
+      "tags": [
+        "subtype-page",
+        "wave4",
+        "breast"
+      ],
+      "related": [
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc",
+        "invasive-lobular-carcinoma",
+        "medullary-pattern-breast-carcinoma",
+        "ductal-carcinoma-in-situ"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "oncotype-dx"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "who-breast-classification",
+        "nottingham-grade",
+        "grade-stage-receptor-breast",
+        "terminal-duct-lobular-unit",
+        "breast-tumour-size-on-the-report"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Invasive carcinoma has entered surrounding tissue; distant metastasis is a separate finding. No special type (NST), commonly called invasive ductal carcinoma, is a histological category for invasive breast carcinoma without the defining morphology of a special type. NST does not mean an unknown primary or an absence of molecular features.",
+        "Histological type, Nottingham grade, receptor results and stage describe different axes. NST alone establishes neither triple-negative status nor a molecular subtype or prognosis. An associated DCIS component does not negate invasion.",
+        "Diagnosis integrates morphology with supporting immunohistochemistry when needed. A myoepithelial stain is not a universal binary invasion test. Limited biopsy may not show the entire lesion; preserve specimen and treatment timing when a larger resection reveals more components. Ductal naming does not prove ancestry in a particular large duct.",
+        "Carcinoma is an epithelial malignancy. Invasive ductal carcinoma and infiltrating ductal carcinoma are common names corresponding to the CAP category invasive carcinoma of no special type (ductal); retain the full report wording. A DCIS-only sample has not demonstrated invasion in that sample, while associated DCIS does not cancel separately identified invasion.",
+        "SEER's 2013 histology inquiry connects ductal NOS terminology with no special type; the WHO/IARC classification structure lists NST as a category, and CAP supplies current reporting terminology. These naming references do not replace morphology. A diagram comparing in situ and invasive arrangements shows a spatial distinction, not a claim that every lesion must pass through those scenes.",
+        "This is the default, and the default is where the receptor result takes over. Invasive carcinoma of no special type is defined by not having a special pattern, so once a report says no special type, or invasive ductal carcinoma, everything that follows is decided by the grade, the stage and the receptors rather than by the type. The sixth edition of the WHO classification (April 2026) moves two groups into this category that used not to be here: mucinous carcinomas that are high grade, oestrogen receptor negative or HER2 positive become carcinoma of no special type with mucin production, and the unified neuroendocrine model the fifth edition applied to the breast is abandoned, with routine neuroendocrine staining of ordinary carcinoma no longer recommended."
+      ],
+      "group": "breast",
+      "burden": "The most common type of breast cancer (Cancer Research UK); in the Cancer Genome Atlas breast series, 490 of 817 tumours were ductal (Ciriello 2015).",
+      "subtypes": [
+        "Invasive carcinoma of no special type, HR-positive and HER2-negative (luminal)",
+        "Invasive carcinoma of no special type, HER2-positive",
+        "Invasive carcinoma of no special type, triple-negative (basal-like)",
+        "Invasive carcinoma of no special type with medullary pattern (own page)",
+        "Oncocytic, lipid-rich, glycogen-rich and sebaceous patterns (rare, within no special type)"
+      ],
+      "biomarkers": [
+        "Oestrogen receptor, progesterone receptor and HER2",
+        "Nottingham grade",
+        "Ki-67 and genomic assays (Oncotype DX and others) in early HR-positive disease"
+      ],
+      "standardOfCare": [
+        {
+          "setting": "All stages",
+          "approach": "Treated as the parent's receptor pages describe.",
+          "refs": [
+            "breast-cancer",
+            "breast-hr-positive",
+            "breast-her2-positive",
+            "tnbc",
+            "oncotype-dx"
+          ]
+        }
+      ],
+      "stateOfArt": [],
+      "history": [],
+      "pipeline": [],
+      "openProblems": [],
+      "parent": "breast-cancer"
+    },
+    {
+      "id": "lymph-node-status",
+      "kind": "term",
+      "name": "Lymph node status (node-positive / node-negative)",
+      "aka": [
+        "nodal burden",
+        "number of positive nodes",
+        "lymph-node status",
+        "node-positive",
+        "node-negative",
+        "nodal",
+        "nodal status",
+        "nodal staging",
+        "nodal disease",
+        "lymph node involvement",
+        "lymph node metastases",
+        "lymph node-positive",
+        "N0",
+        "regional nodes",
+        "positive nodes",
+        "involved nodes"
+      ],
+      "tldr": "Lymph-node status classifies nodal involvement at a specified time and by a particular assessment. It does not measure every cancer cell throughout the body.",
+      "summary": "Clinical assessment before treatment and pathological assessment of removed nodes are different observations. Record the organ, method, timing, prefixes and modifiers rather than using positive or negative alone. A negative sampled-node result does not establish that every unsampled node is negative.\n\nIn the breast B-51 trial, clinical N1 described movable ipsilateral level I/II axillary involvement. Do not replace this clinical definition with a pathological one-to-three-node count. After neoadjuvant treatment, ypN0 is a pathological classification and can have modifiers. B-51 permitted ypN0i+ isolated tumour cells but did not collect their prevalence or specific outcomes.\n\nThe separate A011202 registry requires a nodal metastasis greater than 0.2 millimetres and treats deposits at or below 0.2 millimetres as N0i+. Those protocol rules do not make every use of positive or negative interchangeable. Nodal response alone is not a complete response in the breast or proof of whole-body clearance.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lymph_node_metastasis",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lymph_node_metastasis"
+        },
+        {
+          "label": "B-51 full report: clinical stage, sampled nodes and isolated-cell eligibility",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/"
+        },
+        {
+          "label": "A011202: greater-than-0.2-mm nodal inclusion threshold",
+          "url": "https://clinicaltrials.gov/study/NCT01901094"
+        },
+        {
+          "label": "NCI: breast surgery and nodal assessment",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "AJCC current staging-system table, 2026",
+          "url": "https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "sentinel-lymph-node-biopsy",
+        "lymphadenectomy",
+        "tnm-staging",
+        "lymphovascular-invasion",
+        "internal-mammary-nodes",
+        "lymphatic-drainage-and-axilla"
+      ],
+      "cancers": [],
+      "sections": [
+        "surgery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "monarche"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For AJCC eighth-edition breast N categories, first preserve clinical cN, pathological pN or post-neoadjuvant ypN and the side and regional basin. Clinical cN1 describes movable ipsilateral level I/II axillary involvement, not a one-to-three-node surgical count. cN2a denotes fixed or matted level I/II nodes; cN2b internal mammary involvement without axillary involvement. cN3a, cN3b and cN3c describe infraclavicular, combined internal mammary/axillary and supraclavicular patterns respectively.",
+        "Pathological deposits use dimensions and cell context: isolated tumour cells are at most 0.2 mm, micrometastases exceed 0.2 mm but are at most 2 mm, and macrometastases exceed 2 mm. The approximately 200-cell guideline concerns one node profile, not counts added across levels. Dispersed minimal disease needs pathological judgement. ITC-only nodes are not counted as positive for AJCC N classification.",
+        "pN0(i+) denotes ITCs only; pN0(mol+) denotes molecular detection without histologically identified ITCs. pN1mi is micrometastatic disease only. If a macrometastasis is present, pN1a covers 1 to 3 involved axillary nodes, pN2a 4 to 9 and pN3a at least 10. Infraclavicular involvement is another location-defined route to pN3a. Nodes with micrometastases join the involved count when a macrometastasis exists; multiple micrometastases alone do not become pN2a.",
+        "Internal mammary sentinel involvement excluding ITCs is pN1b; combined with pN1a it is pN1c. Clinically detected internal mammary disease with pathologically negative axillary nodes is pN2b. pN3b includes pN1a or pN2a with clinically detected internal mammary involvement, or pN2a with internal mammary sentinel involvement; pN3c is ipsilateral supraclavicular involvement. These patterns cannot be reduced to node count alone.",
+        "A needle biopsy can confirm clinical involvement without measuring the entire deposit. Rare cN1mi requires the appropriate resected-node clinical context, rather than assigning a deposit size from needle material. If pathological nodes are unavailable, do not assume pN0. Intramammary nodes count with axillary nodes; regional ENE does not alone make N3 or M1.",
+        "Two of five involved means two among the five examined, not 40% of all regional nodes. Three 0.8-mm axillary deposits in a surgery-first example are pN1mi, whereas three involved axillary nodes including a 4-mm deposit support pN1a, assuming no other regional involvement. After therapy exclude adjacent treatment fibrosis from the contiguous residual staging dimension and retain baseline cN separately.",
+        "Clinical cN0 means no regional nodal metastasis identified by clinical assessment; cNX means regional nodes cannot be assessed. Level III axillary nodes are infraclavicular. Clinical cN3a is a location-based infraclavicular pattern; cN3b combines internal mammary and axillary involvement, and cN3c is supraclavicular. Ten involved axillary nodes is a pathological pN3a count criterion, not the definition of clinical cN3."
+      ],
+      "category": "Anatomy"
+    },
+    {
+      "id": "breast-conserving-surgery-versus-mastectomy",
+      "kind": "term",
+      "name": "Breast conservation or mastectomy",
+      "aka": [
+        "lumpectomy versus mastectomy",
+        "breast conservation versus mastectomy",
+        "wide local excision or mastectomy"
+      ],
+      "tldr": "For eligible early breast cancers, trials found no significant survival difference between breast conservation with radiation and mastectomy. Local recurrence and the rest of the treatment plan still matter.",
+      "summary": "Four randomised trials settled this and all four reported at twenty years or more. NSABP B-06 randomised 1,851 women three ways and found no significant difference in disease-free, distant-disease-free or overall survival between total mastectomy, lumpectomy alone and lumpectomy with irradiation; the hazard ratio for death after lumpectomy with irradiation against mastectomy was 0.97 (95 percent confidence interval 0.83 to 1.14). Milan I randomised 701 women to Halsted radical mastectomy or quadrantectomy with radiotherapy and found death from any cause at twenty years of 41.2 and 41.7 percent (p=1.0). EORTC 10801 randomised 868 patients including tumours up to 5 cm and found time to death at a median 22.1 years no different (hazard ratio 1.11, 0.94 to 1.33). NSABP B-04, at twenty-five years, found no advantage to radical mastectomy over lesser operations at all.\n\nWhat does differ is the chance of the cancer returning in the breast that was kept: 14.3 percent at twenty years in NSABP B-06 with radiotherapy, against 39.2 percent without it, and 8.8 against 2.3 percent between quadrantectomy and radical mastectomy in Milan I. A recurrence in a conserved breast is usually salvageable by mastectomy, which is part of why survival is unaffected: in the EORTC boost trial, mastectomy was the first salvage treatment for 279 of 354 such recurrences (79 percent) in one arm and 178 of 237 (75 percent) in the other.\n\nMastectomy is still the right operation for some: a tumour too large for the breast to give a good result, several tumours in different quadrants, inflammatory breast cancer, a margin that cannot be cleared by re-excision, a woman who cannot have radiotherapy, and a woman who has weighed the options and wants the breast off. Risk-reducing mastectomy in a BRCA1 or BRCA2 carrier is a different operation for a different reason.\n\nIn England NICE NG101 recommendation 1.4.3 offers further surgery when tumour is at the inked margin, and recommendation 1.4.5 considers it when tumour cells lie within 1 mm of the radial margin, a threshold the guideline lowered from 2 mm in 2024 to reduce re-operations.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "NSABP B-06 at twenty years (New England Journal of Medicine 2002)",
+          "url": "https://doi.org/10.1056/NEJMoa022152"
+        },
+        {
+          "label": "Milan I at twenty years (New England Journal of Medicine 2002)",
+          "url": "https://doi.org/10.1056/NEJMoa020989"
+        },
+        {
+          "label": "NICE NG101 recommendations 1.4.3 and 1.4.5, surgery to the breast",
+          "url": "https://www.nice.org.uk/guidance/ng101"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/"
+        },
+        {
+          "label": "NCI lumpectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+        },
+        {
+          "label": "NCI mastectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy"
+        },
+        {
+          "label": "NCI choosing lumpectomy or mastectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/choosing-lumpectomy-mastectomy"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "lumpectomy",
+        "mastectomy",
+        "resection-margins",
+        "oncoplastic-breast-surgery",
+        "breast-reconstruction"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc"
+      ],
+      "sections": [
+        "surgery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nsabp-b06",
+        "milan-i",
+        "eortc-10801",
+        "nsabp-b04"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Lumpectomy, partial mastectomy and segmental excision can describe breast-conserving removal of a lesion with surrounding tissue. Mastectomy removes breast tissue more extensively. Skin-sparing and nipple-sparing variants retain selected outer structures while removing the underlying gland; retained skin does not mean the gland remains.",
+        "The breast operation does not specify the nodal procedure, final margins or reconstruction. Mastectomy with sentinel biopsy does not mean axillary dissection. Reconstruction reshapes or restores the breast area and does not replace cancer treatment. Either breast operation can be accompanied by radiation or systemic medicines as the setting requires.",
+        "At 20 years, Fisher and colleagues' NSABP B-06 report included 1851 women with follow-up and known nodal status and found no significant overall-survival difference among total mastectomy, lumpectomy and lumpectomy with irradiation. The death hazard ratio for lumpectomy with irradiation versus mastectomy was 0.97 (95% CI 0.83 to 1.14). Ipsilateral recurrence was 14.3% with breast irradiation versus 39.2% without; survival and local recurrence are different endpoints.",
+        "Veronesi and colleagues' Milan I trial enrolled 701 women with tumours no larger than 2 cm. At median 20 years, all-cause death was 41.2% after radical mastectomy and 41.7% after quadrantectomy with radiation. These eligible historical trial populations do not establish exact equality for every contemporary person or every disease setting.",
+        "Compare complete plans and eligibility, including lesion distribution and size relative to breast, margin findings, radiation feasibility, prior treatment, inherited risk and preferences. A larger operation does not automatically establish a survival gain. Negative margins describe evaluated local boundaries, not whole-body absence of cancer.",
+        "The amount removed and resulting breast shape vary with the lesion and operation. An illustrative breast-excision sketch does not promise an unchanged shape or show a nodal operation. Retaining skin or nipple structures differs from retaining the underlying gland; read the operative report and nodal procedure separately.",
+        "In Milan I, local recurrence at 20 years was 8.8% after quadrantectomy with radiation versus 2.3% after radical mastectomy, despite no significant survival difference. B-06 separately compared lumpectomy with and without radiation. These comparisons do not establish equal local recurrence or quantify that radiation closes most of a mastectomy-versus-conservation gap."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "resection-margins",
+      "kind": "term",
+      "name": "Resection margins (R0 / R1 / R2)",
+      "aka": [
+        "margins",
+        "margin",
+        "surgical margins",
+        "negative margins",
+        "positive margins",
+        "margin-negative",
+        "margin-positive",
+        "clear margins",
+        "R0",
+        "R0 resection",
+        "R1 resection",
+        "R2 resection",
+        "microscopic residual disease",
+        "margin status",
+        "circumferential resection margin",
+        "CRM",
+        "positive margin",
+        "resection margin"
+      ],
+      "tldr": "Resection margins describe the assessed boundaries of removed tissue. A clear local boundary is not proof that no cancer exists elsewhere, and interpretation depends on the organ and reporting standard.",
+      "summary": "Margin assessment examines the cut boundaries of a submitted specimen and any additional margins. The operative account, sampled pathology and final residual-disease classification are connected but different observations. In the traditional R classification, R0 means no residual tumour under the applied assessment, R1 microscopic residual tumour and R2 gross residual tumour. These categories do not establish absence of every unseen cancer cell.\n\nDefinitions and required margin distances can vary by organ, disease and jurisdiction. The 2024 IASLC proposal describes an additional lung-cancer category for uncertain residual status. A clear microscopic edge is therefore not interchangeable with every definition of complete resection. Use the relevant report and standard rather than transferring a breast or pancreatic convention to every cancer.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Resection_margin",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Resection_margin"
+        },
+        {
+          "label": "Campbell, Histopathology 2009: classification of R1 resections, tumour within 1 mm of a margin",
+          "url": "https://doi.org/10.1111/j.1365-2559.2009.03376.x"
+        },
+        {
+          "label": "Ghaneh, Ann Surg 2019: positive resection margins, survival and recurrence in ESPAC-3 (1,151 patients)",
+          "url": "https://doi.org/10.1097/sla.0000000000002557"
+        },
+        {
+          "label": "NCI: lumpectomy and tissue assessment",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+        },
+        {
+          "label": "NCI: breast surgery roles and extent",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery"
+        },
+        {
+          "label": "IASLC 2024 residual-tumour classification proposal: definitions and uncertainty",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38569931/"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+          "url": "https://doi.org/10.1245/s10434-014-3481-4"
+        },
+        {
+          "label": "Society of Surgical Oncology-American Society for Radiation Oncology-American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery with Whole-Breast Irradiation in Ductal Carcinoma In Situ.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27527714/"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [
+        "wide-local-excision",
+        "whipple",
+        "lymphovascular-invasion",
+        "mohs-surgery",
+        "breast-conserving-surgery-versus-mastectomy",
+        "tumour-bed-boost",
+        "surgical-margins-keratinocyte-cancer"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "skin-cancer",
+        "basal-cell-carcinoma",
+        "cutaneous-scc"
+      ],
+      "sections": [
+        "surgery",
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "r0-r1-margin-pancreatic"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "After breast conservation, further excision, completion mastectomy and axillary surgery address different findings and tissues. A second operation after initial pathology is not itself evidence of recurrence. Negative examined margins do not guarantee complete absence of microscopic disease.",
+        "For breast resection, final margin status uses the oriented main specimen together with relevant separately submitted margins. Ink identifies cut surfaces. An old main-specimen edge may cease to be the final edge when an additional oriented strip is removed; if their relationship is unclear, preserve uncertainty and request surgical correlation.",
+        "Report invasive carcinoma and DCIS separately, including the named final edge, whether the component reaches ink and its distance in millimetres when measurable. At ink is involved; a small gap without cancer at ink is a narrow negative margin. Ink artefact, limited sampling, compression and unclear orientation can limit interpretation.",
+        "The 2014 invasive-cancer consensus supported no ink on tumour for stage I to II invasive disease treated with breast conservation and whole-breast irradiation. Its evidence base excluded neoadjuvant therapy and pure DCIS. The 2016 pure-DCIS consensus supported a 2-mm adequate-margin standard with whole-breast irradiation; a narrower negative margin alone was not an indication for mastectomy. These are scoped standards, not interchangeable rules for every organ or operation.",
+        "In a fictional confirmed final edge with DCIS 0.7 mm from ink and no cancer at ink, the margin is narrow and negative rather than involved. Distance alone does not choose another operation. Conversely, invasive cancer at the confirmed outer edge of an additional lateral specimen remains a local margin finding even if a blood assay is negative.",
+        "Negative invasive margins and involved DCIS margins can coexist. A pCR definition permitting DCIS can coexist with a DCIS margin problem. The lymph-node capsule, a vessel lumen and a surgical cut edge are different boundaries. Margin status does not diagnose distant metastasis or whole-body clearance; completion excision, mastectomy and axillary surgery address different tissues.",
+        "A margin is a cut boundary of removed tissue. Pathology assesses sampled sections of that local boundary: a positive final margin means cancer reaches the evaluated cut edge. Sampling, sectioning and staining consume finite tissue, and cannot examine every possible cell. No ink on tumour does not mean no cancer anywhere in the person.",
+        "Pancreatic cancer uses a 1 mm rule: tumour within 1 mm of a margin is R1 (Royal College of Pathologists), which makes 76 to 85 percent of standardised head resections R1; the pancreatic glossary term carries the series and the ESPAC-3 survival by margin (Ghaneh 2019)."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "lumpectomy",
+      "kind": "term",
+      "name": "Lumpectomy (breast-conserving surgery)",
+      "aka": [
+        "breast-conserving",
+        "breast-conserving surgery",
+        "breast conservation",
+        "wide excision"
+      ],
+      "tldr": "Lumpectomy removes a breast tumour with surrounding tissue while preserving the rest of the breast. Margin findings, nodal procedures and other treatments need separate description.",
+      "summary": "The removed tissue is examined by pathology, including its cut boundaries and any separately submitted margins. The operation’s name does not establish a negative final margin, specify the nodal procedure or exclude microscopic disease elsewhere. A further operation depends on the findings and applicable clinical standard, rather than the word lumpectomy alone.\n\nBreast-conserving treatment commonly includes radiation, and medicines may be given before or after surgery. Oncoplastic reshaping or later reconstruction is a separate role. Compare complete treatment plans, local outcomes, recovery and harms; greater removal does not automatically establish better survival for every person.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lumpectomy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Lumpectomy"
+        },
+        {
+          "label": "Macmillan: breast-conserving surgery",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer"
+        },
+        {
+          "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+        },
+        {
+          "label": "Breast Cancer Now: surgery for primary breast cancer",
+          "url": "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer"
+        },
+        {
+          "label": "Veronesi et al., twenty-year follow-up of breast-conserving surgery versus radical mastectomy, Milan trial (NEJM 2002)",
+          "url": "https://doi.org/10.1056/NEJMoa020989"
+        },
+        {
+          "label": "Fisher et al., twenty-year follow-up of total mastectomy, lumpectomy, and lumpectomy plus irradiation, NSABP B-06 (NEJM 2002)",
+          "url": "https://doi.org/10.1056/NEJMoa022152"
+        },
+        {
+          "label": "EBCTCG, radiotherapy after breast-conserving surgery: meta-analysis of 10,801 women in 17 randomised trials (Lancet 2011)",
+          "url": "https://doi.org/10.1016/S0140-6736(11)61629-2"
+        },
+        {
+          "label": "NCI: lumpectomy, pathology, other treatment and reconstruction",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/"
+        },
+        {
+          "label": "NCI mastectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy"
+        },
+        {
+          "label": "NCI choosing lumpectomy or mastectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/choosing-lumpectomy-mastectomy"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "mastectomy",
+        "resection-margins",
+        "hypofractionation",
+        "breast-conserving-surgery-versus-mastectomy",
+        "oncoplastic-breast-surgery",
+        "tumour-bed-boost",
+        "partial-breast-irradiation"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc",
+        "breast-cancer"
+      ],
+      "sections": [
+        "surgery",
+        "radiation"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nsabp-b06",
+        "milan-i",
+        "eortc-10801",
+        "eortc-22881-boost"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read the breast-conserving surgery versus mastectomy comparison for differences in gland removal, retained skin or nipple, local recurrence and survival evidence. The breast operation does not specify the nodal operation, final margins or reconstruction; record each separately.",
+        "In triple-negative breast cancer chemotherapy is usually given first, and Cancer Research UK says shrinking the cancer may allow breast-conserving surgery instead of a mastectomy. Macmillan says breast-conserving surgery with radiotherapy is usually as effective as a mastectomy and that a second operation is needed if cancer is at the margin; NICE NG101 (2024) asks for further surgery when invasive cancer is at the radial margin and to consider it within 1 mm.",
+        "Breast cancer, the long-term comparison with mastectomy. In the Milan trial, 701 women with breast cancers no larger than 2 cm were randomly assigned between 1973 and 1980 to radical (Halsted) mastectomy (349) or quadrantectomy followed by radiotherapy (352). After a median 20 years of follow-up, death from any cause had occurred in 41.2 percent of the radical mastectomy group and 41.7 percent of the conserving surgery group (P equals 1.0), and death from breast cancer in 24.3 and 26.1 percent (P equals 0.8). What differed was the breast: 30 women in the conserving group had a recurrence in the same breast against 8 local recurrences after radical mastectomy, a crude cumulative incidence of 8.8 against 2.3 percent, with no significant difference in contralateral cancers, distant metastases or second primary cancers.",
+        "In NSABP B-06, 1,851 women were randomly assigned to total mastectomy, lumpectomy alone, or lumpectomy with breast irradiation, and followed for 20 years. Recurrence in the same breast occurred in 14.3 percent of those given radiotherapy against 39.2 percent of those not (P less than 0.001), and no significant difference was found between the three groups in disease-free survival, distant-disease-free survival or overall survival: the hazard ratio for death was 1.05 (0.90 to 1.23) for lumpectomy alone against total mastectomy and 0.97 (0.83 to 1.14) for lumpectomy with irradiation.",
+        "NICE NG101 (1.13.3) says to offer whole-breast radiotherapy to women with invasive breast cancer who have had breast-conserving surgery with clear margins, and (1.13.4, 1.13.5) to consider partial-breast radiotherapy for women aged 50 and over with tumours 3 cm or less that are N0, ER-positive, HER2-negative and grade 1 to 2 who will take endocrine therapy for at least 5 years, telling them that local recurrence at 5 years is equivalent, that the risk beyond 5 years is not yet known, and that late adverse effects may be reduced."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "mastectomy",
+      "kind": "term",
+      "name": "Mastectomy",
+      "aka": [
+        "mastectomies",
+        "risk-reducing mastectomy",
+        "prophylactic mastectomy",
+        "nipple-sparing mastectomy"
+      ],
+      "tldr": "Mastectomy removes breast tissue. The exact operation, nodal procedure and reconstruction are separate parts of the plan, and removal does not automatically eliminate the need for radiation or medicines.",
+      "summary": "Different mastectomy procedures remove different skin, nipple or chest-wall structures and may be accompanied by a separate nodal operation. The operative report specifies what was removed; pathology describes the examined tissue and boundaries. Neither the operation’s name nor a negative local finding establishes the absence of cancer throughout the body.\n\nReconstruction can use implants or a person’s tissue and may occur immediately or later. It addresses restoration or reshaping, rather than replacing indicated cancer treatment. Radiation and systemic therapy decisions retain disease extent, prior treatment and the full plan; a margin finding does not universally choose completion mastectomy over another approach.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mastectomy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mastectomy"
+        },
+        {
+          "label": "Macmillan: removing the breast (mastectomy)",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/removing-the-breast-mastectomy"
+        },
+        {
+          "label": "NHS: mastectomy",
+          "url": "https://www.nhs.uk/tests-and-treatments/mastectomy/"
+        },
+        {
+          "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+        },
+        {
+          "label": "Cancer Research UK: breast reconstruction",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/treatment/surgery/breast-reconstruction"
+        },
+        {
+          "label": "NCI: mastectomy, nodal distinctions and reconstruction",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy"
+        },
+        {
+          "label": "NCI: surgical treatment roles",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/"
+        },
+        {
+          "label": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/"
+        },
+        {
+          "label": "NCI lumpectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+        },
+        {
+          "label": "NCI choosing lumpectomy or mastectomy",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/choosing-lumpectomy-mastectomy"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "lumpectomy",
+        "sentinel-lymph-node-biopsy",
+        "gbrca-mutation",
+        "breast-conserving-surgery-versus-mastectomy",
+        "breast-reconstruction",
+        "post-mastectomy-radiotherapy",
+        "oncoplastic-breast-surgery"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc",
+        "breast-cancer"
+      ],
+      "sections": [
+        "surgery"
+      ],
+      "technologies": [],
+      "targets": [
+        "brca"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nsabp-b06",
+        "milan-i",
+        "nsabp-b04",
+        "supremo"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read the breast-conserving surgery versus mastectomy comparison for differences in gland removal, retained skin or nipple, local recurrence and survival evidence. The breast operation does not specify the nodal operation, final margins or reconstruction; record each separately.",
+        "Triple-negative breast cancer, reconstruction timing: NICE NG101 says offer reconstruction after mastectomy, offer both immediate and delayed options whether or not they are available locally, and offer immediate reconstruction to women advised to have a mastectomy including those who may need radiotherapy; its table notes that implant reconstructions may be more affected by radiotherapy than flap reconstructions and that complications can delay chemotherapy or radiotherapy. The NHS says recovery takes several weeks, with wounds healing in about 6 weeks. Macmillan says you may choose no reconstruction and wear a prosthesis instead.",
+        "When a mastectomy is recommended rather than chosen. Macmillan says surgeons try to do an operation that means you can keep your breast, and that a mastectomy may be recommended when the lump is large compared to the rest of the breast, when there is cancer in different parts of the breast (multicentric), when there is widespread DCIS, when the cancer is on the skin or in the underlying muscle, when you have had radiotherapy to the chest before to treat another cancer, or when you have a family history and have tested positive for a gene mutation.",
+        "A mastectomy does not always avoid radiotherapy. NICE NG101 (1.13.10) says to offer adjuvant postmastectomy radiotherapy to people with node-positive (macrometastases) invasive breast cancer or involved resection margins, (1.13.11) to consider it for node-negative T3 or T4 disease, and (1.13.12) not to offer it to people at low risk of local recurrence, for example most people with lymph node-negative breast cancer.",
+        "NICE NG101 (1.5.1) says to offer breast reconstruction to people after they have had a mastectomy for breast cancer, and (1.5.2) to be aware that some people may prefer not to have it. Cancer Research UK says a surgeon may be able to improve the appearance of the chest with further surgery after a mastectomy, and that a prosthesis is an alternative to reconstruction."
+      ],
+      "category": "Procedures"
+    }
+  ]
+}

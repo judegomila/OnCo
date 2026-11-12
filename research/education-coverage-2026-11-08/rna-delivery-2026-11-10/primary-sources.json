@@ -1,0 +1,2216 @@
+{
+  "publications": [
+    {
+      "sourceId": "schnepp2016",
+      "pmid": "26650966",
+      "doi": "10.1089/hum.2015.136",
+      "title": "Recombinant Adeno-Associated Virus Vector Genomes Take the Form of Long-Lived, Transcriptionally Competent Episomes in Human Muscle.",
+      "authors": "Schnepp BC, Chulay JD, Ye GJ, Flotte TR, Trapnell BC, Johnson PR.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26650966/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1336,
+        "fullTextAccess": "PMC page returned a 167-character challenge page; SAGE DOI redirect returned 403 (Cloudflare challenge); Europe PMC fullTextXML HTTP 500.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "human: intramuscular rAAV-AAT phase 2 biopsies at 3 and 12 months",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "schnepp2016",
+        "pmid": "26650966",
+        "doi": "10.1089/hum.2015.136",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "169b1ee860d9acf57445ce78e7ae82ad772feb73933a608936647b93b108024a",
+        "crossrefCaptureSha256": "33eab6def9fff2f7692416994cf24622203125637d79d774898fe0e1bc322e1c"
+      }
+    },
+    {
+      "sourceId": "nakai2001",
+      "pmid": "11435577",
+      "doi": "10.1128/jvi.75.15.6969-6976.2001",
+      "title": "Extrachromosomal recombinant adeno-associated virus vector genomes are primarily responsible for stable liver transduction in vivo.",
+      "authors": "Nakai H, Yant SR, Storm TA, Fuess S, Meuse L, Kay MA.",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11435577/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1997,
+        "fullTextAccess": "PMC HTML retrieved",
+        "fullTextDepth": "targeted-passage reading (abstract used for claims)",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "mouse liver, portal-vein rAAV-hF.IX, partial hepatectomy",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "nakai2001",
+        "pmid": "11435577",
+        "doi": "10.1128/jvi.75.15.6969-6976.2001",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "d53ad814f1f6053da9fd78da143c2557880cc776efddc2e60f9b8f87b945867b",
+        "crossrefCaptureSha256": "39de39665f28bc7d20465bce16557117d5ce8be39aca0e4557c446529322c28f"
+      }
+    },
+    {
+      "sourceId": "manno2006",
+      "pmid": "16474400",
+      "doi": "10.1038/nm1358",
+      "title": "Successful transduction of liver in hemophilia by AAV-Factor IX and limitations imposed by the host immune response.",
+      "authors": "Manno CS, Pierce GF, Arruda VR, Glader B, Ragni M, Rasko JJ, Ozelo MC, Hoots K, Blatt P, Konkle B, Dake M, Kaye R, Razavi M, Zajko A, Zehnder J, Rustagi PK, Nakai H, Chew A, Leonard D, Wright JF, Lessard RR, Sommer JM, Tigges M, Sabatino D, Luk A, Jiang H, Mingozzi F, Couto L, Ertl HC, High KA, Kay MA.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16474400/",
+      "indexedTypes": [
+        "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1322,
+        "fullTextAccess": "No PMC full text in Europe PMC; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "human, 7 subjects, severe haemophilia B, hepatic-artery rAAV2-F.IX, phase 1/2",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "manno2006",
+        "pmid": "16474400",
+        "doi": "10.1038/nm1358",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Clinical Trial, Phase II",
+          "Research Support, Non-U.S. Gov't",
+          "Clinical Trial, Phase I",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "cf9164c48ee1e0898e4cd8f308650ad4a4af8ae9d9011dde121f2ae9c2a710ba",
+        "crossrefCaptureSha256": "860021f02d0140cd0158e06ca8e43370b68459eeabda3fa371c7f5c10813d81b"
+      }
+    },
+    {
+      "sourceId": "wu2010",
+      "pmid": "19904234",
+      "doi": "10.1038/mt.2009.255",
+      "title": "Effect of genome size on AAV vector packaging.",
+      "authors": "Wu Z, Yang H, Colosi P.",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19904234/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1324,
+        "fullTextAccess": "PMC page returned a challenge page; Elsevier DOI redirect returned no content; Europe PMC fullTextXML HTTP 500.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "laboratory: plasmid-encoded vectors 4.7 to 8.7 kb in AAV2/5/8 capsids; expression in vitro at high MOI",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "wu2010",
+        "pmid": "19904234",
+        "doi": "10.1038/mt.2009.255",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "fe82561715c2c4854d7d5d5f985ad2c5e0aba62508f995dfe057e91deac21329",
+        "crossrefCaptureSha256": "9934d71b45a94725cd932565946ef7eeeb1fba994bf8ec7e4d994f3aeb72c9ae"
+      }
+    },
+    {
+      "sourceId": "naldini1996",
+      "pmid": "8602510",
+      "doi": "10.1126/science.272.5259.263",
+      "title": "In vivo gene delivery and stable transduction of nondividing cells by a lentiviral vector.",
+      "authors": "Naldini L, Blömer U, Gallay P, Ory D, Mulligan R, Gage FH, Verma IM, Trono D.",
+      "year": "1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8602510/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 569,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "HeLa, rat fibroblasts, human macrophages; neurons in vivo (species not in abstract)",
+      "usedByPages": [
+        "lentiviral-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "naldini1996",
+        "pmid": "8602510",
+        "doi": "10.1126/science.272.5259.263",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "2ec4b1345300421c9b4baa460840c8b02bf23999221fcf5ef30b3f735d6086ca",
+        "crossrefCaptureSha256": "f6e301c6fac981d5e0f54c9c6e54cd1de5d8795f295cc0700b1b35c9b650cbef"
+      }
+    },
+    {
+      "sourceId": "miyoshi1998",
+      "pmid": "9733856",
+      "doi": "10.1128/jvi.72.10.8150-8157.1998",
+      "title": "Development of a self-inactivating lentivirus vector.",
+      "authors": "Miyoshi H, Blömer U, Takahashi M, Gage FH, Verma IM.",
+      "year": "1998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9733856/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1822,
+        "fullTextAccess": "PMC HTML retrieved",
+        "fullTextDepth": "targeted-passage reading (abstract used for claims)",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "cell lines; rat brain and rat subretinal injections",
+      "usedByPages": [
+        "lentiviral-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "miyoshi1998",
+        "pmid": "9733856",
+        "doi": "10.1128/jvi.72.10.8150-8157.1998",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "cc61422d90b6fa0fc7122beefd4641b68078bcc2bc8feeffe9a021b457461666",
+        "crossrefCaptureSha256": "75010458759461ac8496a4d289e0e37f7bbb4a6560fe864ade9c3d81d78f0105"
+      }
+    },
+    {
+      "sourceId": "philippe2006",
+      "pmid": "17095605",
+      "doi": "10.1073/pnas.0606197103",
+      "title": "Lentiviral vectors with a defective integrase allow efficient and sustained transgene expression in vitro and in vivo.",
+      "authors": "Philippe S, Sarkis C, Barkats M, Mammeri H, Ladroue C, Petit C, Mallet J, Serguera C.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17095605/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1445,
+        "fullTextAccess": "PMC page returned a challenge page; PNAS DOI redirect returned 403 (challenge); Europe PMC fullTextXML HTTP 500.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "dividing cell lines, nondividing neural primary cultures, mouse brain",
+      "usedByPages": [
+        "lentiviral-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "philippe2006",
+        "pmid": "17095605",
+        "doi": "10.1073/pnas.0606197103",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "ba227e12ab98c26bb52f5f18e9876afd62179557540af55514f87691d741d21e",
+        "crossrefCaptureSha256": "8a528ea9868e92acc377dee5b4e166b2686db563ab3dcb09e754499cceb39cd4"
+      }
+    },
+    {
+      "sourceId": "paramasivam2021",
+      "pmid": "34882187",
+      "doi": "10.1083/jcb.202110137",
+      "title": "Endosomal escape of delivered mRNA from endosomal recycling tubules visualized at the nanoscale.",
+      "authors": "Paramasivam P, Franke C, Stöter M, Höijer A, Bartesaghi S, Sabirsh A, Lindfors L, Arteta MY, Dahlén A, Bak A, Andersson S, Kalaidzidis Y, Bickle M, Zerial M.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34882187/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1272,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "primary human adipocytes, fibroblasts, HeLa; six LNP-eGFP mRNA formulations (54 to 73 nm)",
+      "usedByPages": [
+        "lipid-nanoparticle",
+        "rna-lipoplex",
+        "targeted-lnps"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "paramasivam2021",
+        "pmid": "34882187",
+        "doi": "10.1083/jcb.202110137",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "5109f0b89b866344f210499c1f28f3465ab6305b471a3bc18241234258fb2a4a",
+        "crossrefCaptureSha256": "94bf43450c499fa37961d52bdbc5b794abeb38eab47037fcdeb6adc37ca02d34"
+      }
+    },
+    {
+      "sourceId": "di2022",
+      "pmid": "35080707",
+      "doi": "10.1007/s11095-022-03166-5",
+      "title": "Biodistribution and Non-linear Gene Expression of mRNA LNPs Affected by Delivery Route and Particle Size.",
+      "authors": "Di J, Du Z, Wu K, Jin S, Wang X, Li T, Xu Y.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35080707/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1373,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "female BALB/c mice, IM, SC, IV, luciferase mRNA LNPs",
+      "usedByPages": [
+        "lipid-nanoparticle",
+        "rna-lipoplex"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "di2022",
+        "pmid": "35080707",
+        "doi": "10.1007/s11095-022-03166-5",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "21518d4bc32008e4ceecf4425c6adba43408571c4e6717074e0f13f9f2329a06",
+        "crossrefCaptureSha256": "9e06d2872a5a321ab3b89a453ee74e7e80c9cd25a9aacd0c124036d0f2f8697e"
+      }
+    },
+    {
+      "sourceId": "cheng2020",
+      "pmid": "32251383",
+      "doi": "10.1038/s41565-020-0669-6",
+      "title": "Selective organ targeting (SORT) nanoparticles for tissue-specific mRNA delivery and CRISPR-Cas gene editing.",
+      "authors": "Cheng Q, Wei T, Farbiak L, Johnson LT, Dilliard SA, Siegwart DJ.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32251383/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 990,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "mice, IV; SORT LNPs; Cre/tdTomato reporter and gene editing",
+      "usedByPages": [
+        "lipid-nanoparticle",
+        "targeted-lnps"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "cheng2020",
+        "pmid": "32251383",
+        "doi": "10.1038/s41565-020-0669-6",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "0a9967612f8c8bbdd50a490d6df9b9514d5f33cf89c1b51b0a5346574f8ec0e3",
+        "crossrefCaptureSha256": "d82001121d52e2b273c2c4fec79d54f7bbcaf87e253dc4aa04a0465f02cab622"
+      }
+    },
+    {
+      "sourceId": "kranz2016",
+      "pmid": "27281205",
+      "doi": "10.1038/nature18300",
+      "title": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+      "authors": "Kranz LM, Diken M, Haas H, Kreiter S, Loquai C, Reuter KC, Meng M, Fritz D, Vascotto F, Hefesha H, Grunwitz C, Vormehr M, Hüsemann Y, Selmi A, Kuhn AN, Buck J, Derhovanessian E, Rae R, Attig S, Diekmann J, Jabulowsky RA, Heesch S, Hassel J, Langguth P, Grabbe S, Huber C, Türeci Ö, Sahin U.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1778,
+        "fullTextAccess": "No PMC or open full text in Europe PMC; Nature page not fetched in this run.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "in vivo animal experiments plus phase I interim in 3 melanoma patients (abstract); species not named in abstract",
+      "usedByPages": [
+        "delivery-targeting-vs-cancer-targeting",
+        "rna-lipoplex"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kranz2016",
+        "pmid": "27281205",
+        "doi": "10.1038/nature18300",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "fe387f25dca682787834d22aa30bcf7d0e2fff0afbd9b86986891b10cec5d955",
+        "crossrefCaptureSha256": "0c99425568eacb1bc41b2527418351244c144048699437fcd88aa86c53466d84"
+      }
+    },
+    {
+      "sourceId": "rojas2023",
+      "pmid": "37165196",
+      "doi": "10.1038/s41586-023-06063-y",
+      "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+      "authors": "Rojas LA, Sethna Z, Soares KC, Olcese C, Pang N, Patterson E, Lihm J, Ceglia N, Guasp P, Chu A, Yu R, Chandra AK, Waters T, Ruan J, Amisaki M, Zebboudj A, Odgerel Z, Payne G, Derhovanessian E, Müller F, Rhee I, Yadav M, Dobrin A, Sadelain M, Łuksza M, Cohen N, Tang L, Basturk O, Gönen M, Katz S, Do RK, Epstein AS, Momtaz P, Park W, Sugarman R, Varghese AM, Won E, Desai A, Wei AC, D'Angelica MI, Kingham TP, Mellman I, Merghoub T, Wolchok JD, Sahin U, Türeci Ö, Greenbaum BD, Jarnagin WR, Drebin J, O'Reilly EM, Balachandran VP.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 2043,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "human phase I, 16 patients, resected PDAC, atezolizumab then autogene cevumeran then mFOLFIRINOX",
+      "usedByPages": [
+        "multi-epitope-constructs",
+        "rna-lipoplex"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "rojas2023",
+        "pmid": "37165196",
+        "doi": "10.1038/s41586-023-06063-y",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Clinical Trial, Phase I",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "05ea20c2b760c08205eece35994bed7eb86d5404233d62fa08a5eefa7547fa40",
+        "crossrefCaptureSha256": "1615e10fe429602dc8f8b0c54e3b640464b37222e2cacaacb4646a9342a40017"
+      }
+    },
+    {
+      "sourceId": "rurik2022",
+      "pmid": "34990237",
+      "doi": "10.1126/science.abm0594",
+      "title": "CAR T cells produced in vivo to treat cardiac injury.",
+      "authors": "Rurik JG, Tombácz I, Yadegari A, Méndez Fernández PO, Shewale SV, Li L, Kimura T, Soliman OY, Papp TE, Tam YK, Mui BL, Albelda SM, Puré E, June CH, Aghajanian H, Weissman D, Parhiz H, Epstein JA.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34990237/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 868,
+        "fullTextAccess": "author manuscript retrieved via NCBI efetch (PMC9983611)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "activated mouse T cells in vitro; mouse AngII/PE cardiac-injury model, IV 10 ug LNP",
+      "usedByPages": [
+        "delivery-targeting-vs-cancer-targeting",
+        "lipid-nanoparticle",
+        "targeted-lnps"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "rurik2022",
+        "pmid": "34990237",
+        "doi": "10.1126/science.abm0594",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "2d713415d50e6756d132bcab599fd186a1d16c306d4b35c458d0b41a6de32631",
+        "crossrefCaptureSha256": "347236298379dd07eb93f138c1656f188306d35242dcdb46ea4764907bc05ea0"
+      }
+    },
+    {
+      "sourceId": "hunter2025",
+      "pmid": "40536974",
+      "doi": "10.1126/science.ads8473",
+      "title": "In vivo CAR T cell generation to treat cancer and autoimmune disease.",
+      "authors": "Hunter TL, Bao Y, Zhang Y, Matsuda D, Riener R, Wang A, Li JJ, Soldevila F, Chu DSH, Nguyen DP, Yong QC, Ross B, Nguyen M, Vestal J, Roberts S, Galvan D, Vega JB, Jhung D, Butcher M, Nguyen J, Zhang S, Fernandez C, Chen J, Herrera C, Kuo Y, Pica EM, Mondal G, Mammen AL, Scholler J, Tanis SP, Sievers SA, Frantz AM, Adams GB, Shawver L, Farzaneh-Far R, Rosenzweig M, Karmali PP, Bot AI, June CH, Aghajanian H.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40536974/",
+      "indexedTypes": [
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 939,
+        "fullTextAccess": "No PMC or open full text in Europe PMC (isOpenAccess N, no PMCID); Science page not fetched in this run.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "healthy-donor and autoimmune-patient samples; humanised mice; cynomolgus monkeys (abstract)",
+      "usedByPages": [
+        "delivery-targeting-vs-cancer-targeting",
+        "targeted-lnps"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "hunter2025",
+        "pmid": "40536974",
+        "doi": "10.1126/science.ads8473",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, N.I.H., Intramural",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "90019bf36f503ce1c8f89c5df68401dd443bae29cf30c339df31ddd4f57bfcc7",
+        "crossrefCaptureSha256": "a75755720ab29b7b274e9f0fdead6d69ed8786f4d3550987e526be84848dca58"
+      }
+    },
+    {
+      "sourceId": "ivics1997",
+      "pmid": "9390559",
+      "doi": "10.1016/s0092-8674(00)80436-5",
+      "title": "Molecular reconstruction of Sleeping Beauty, a Tc1-like transposon from fish, and its transposition in human cells.",
+      "authors": "Ivics Z, Hackett PB, Plasterk RH, Izsvák Z.",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9390559/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 860,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "fish, mouse and human cells",
+      "usedByPages": [
+        "transposon"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "ivics1997",
+        "pmid": "9390559",
+        "doi": "10.1016/s0092-8674(00)80436-5",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "ac17240f9f27e4121d660862b82c5dabe3ba2dd1afa4d1cabda80fb795262293",
+        "crossrefCaptureSha256": "bc1d993803f632fd1495b8fe8496d5e249da5b7a7a6ab4472073c8a76a65ac6b"
+      }
+    },
+    {
+      "sourceId": "kebriaei2016",
+      "pmid": "27482888",
+      "doi": "10.1172/jci86721",
+      "title": "Phase I trials using Sleeping Beauty to generate CD19-specific CAR T cells.",
+      "authors": "Kebriaei P, Singh H, Huls MH, Figliola MJ, Bassett R, Olivares S, Jena B, Dawson MJ, Kumaresan PR, Su S, Maiti S, Dai J, Moriarity B, Forget MA, Senyukov V, Orozco A, Liu T, McCarty J, Jackson RN, Moyes JS, Rondon G, Qazilbash M, Ciurea S, Alousi A, Nieto Y, Rezvani K, Marin D, Popat U, Hosing C, Shpall EJ, Kantarjian H, Keating M, Wierda W, Do KA, Largaespada DA, Lee DA, Hackett PB, Champlin RE, Cooper LJ.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27482888/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1943,
+        "fullTextAccess": "PMC HTML retrieved",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "two phase I trials, 26 patients (7 autologous, 19 allogeneic), CD19 CAR T by SB electroporation",
+      "usedByPages": [
+        "transposon"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kebriaei2016",
+        "pmid": "27482888",
+        "doi": "10.1172/jci86721",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Clinical Trial, Phase I",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "7ad89119f33b10b3225a45660c232e79267d79872fbd8788938e314e23a75b4d",
+        "crossrefCaptureSha256": "7774855a5021be5f28e6529e02cf0a37cde8a3e4724c66832b132e01ffda27af"
+      }
+    },
+    {
+      "sourceId": "huang2010",
+      "pmid": "20606646",
+      "doi": "10.1038/mt.2010.141",
+      "title": "Gene transfer efficiency and genome-wide integration profiling of Sleeping Beauty, Tol2, and piggyBac transposons in human primary T cells.",
+      "authors": "Huang X, Guo H, Tammana S, Jung YC, Mellgren E, Bassi P, Cao Q, Tu ZJ, Kim YC, Ekker SC, Wu X, Wang SM, Zhou X.",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20606646/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1367,
+        "fullTextAccess": "PMC HTML retrieved",
+        "fullTextDepth": "targeted-passage reading (abstract used for claims; full text only confirmed)",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "primary human T cells from PBL and cord blood",
+      "usedByPages": [
+        "transposon"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "huang2010",
+        "pmid": "20606646",
+        "doi": "10.1038/mt.2010.141",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "3a048122c96bb583ffaff0878ad24fb2fd8d04923fb6bffd2fc09839a5d8c8c9",
+        "crossrefCaptureSha256": "891c7531610e91d77c77441a4d69462febbc2b2c18287c0aee1b4ae772d7f302"
+      }
+    },
+    {
+      "sourceId": "wu2019",
+      "pmid": "31012849",
+      "doi": "10.7554/elife.45396",
+      "title": "Translation affects mRNA stability in a codon-dependent manner in human cells.",
+      "authors": "Wu Q, Medina SG, Kushawah G, DeVore ML, Castellano LA, Hand JM, Wright M, Bazzini AA.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31012849/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1063,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "four human cell lines",
+      "usedByPages": [
+        "codon-optimization"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "wu2019",
+        "pmid": "31012849",
+        "doi": "10.7554/elife.45396",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "423d7799367d74379f767b617e83f7b3af956ced149ba565c435c76e9d8b4543",
+        "crossrefCaptureSha256": "7398e3e2450228f03e6a223fad6457f620e471c6a357782bf51e471c8222821a"
+      }
+    },
+    {
+      "sourceId": "mauger2019",
+      "pmid": "31712433",
+      "doi": "10.1073/pnas.1908052116",
+      "title": "mRNA structure regulates protein expression through changes in functional half-life.",
+      "authors": "Mauger DM, Cabral BJ, Presnyak V, Su SV, Reid DW, Goodman B, Link K, Khatwani N, Reynders J, Moore MJ, McFadyen IJ.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31712433/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1091,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "eGFP mRNA constructs; modified nucleotides (Moderna authors)",
+      "usedByPages": [
+        "codon-optimization"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "mauger2019",
+        "pmid": "31712433",
+        "doi": "10.1073/pnas.1908052116",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "4ac44bcb43a092bdaa2f8e5b76423f3a1b5c17832fa678faec1569d5051d2193",
+        "crossrefCaptureSha256": "bc9218d7b8536567030aa601507bd9d4441faf1f2cb920d0ad8e2545bbcf3e3f"
+      }
+    },
+    {
+      "sourceId": "henderson2021",
+      "pmid": "33524237",
+      "doi": "10.1002/cpz1.39",
+      "title": "Cap 1 Messenger RNA Synthesis with Co-transcriptional CleanCap® Analog by In Vitro Transcription.",
+      "authors": "Henderson JM, Ujita A, Hill E, Yousif-Rosales S, Smith C, Ko N, McReynolds T, Cabral CR, Escamilla-Powers JR, Houston ME.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33524237/",
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1144,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "laboratory IVT protocol (TriLink authors)",
+      "usedByPages": [
+        "in-vitro-transcription"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "henderson2021",
+        "pmid": "33524237",
+        "doi": "10.1002/cpz1.39",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Journal Article"
+        ],
+        "medCaptureSha256": "7cdc6ab74d0f6291199a956edba56d208100b51c274ff4544de167a25c571627",
+        "crossrefCaptureSha256": "2e49ffdd9d10eba06cf00e3a1361a9b22b20c92f2eef22dca32482a16c126fc9"
+      }
+    },
+    {
+      "sourceId": "mu2018",
+      "pmid": "29534222",
+      "doi": "10.1093/nar/gky177",
+      "title": "An origin of the immunogenicity of in vitro transcribed RNA.",
+      "authors": "Mu X, Greenwald E, Ahmad S, Hur S.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29534222/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1240,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "in vitro T7 transcription; MDA5 activation in cells",
+      "usedByPages": [
+        "dsrna-impurities-and-purification",
+        "in-vitro-transcription"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "mu2018",
+        "pmid": "29534222",
+        "doi": "10.1093/nar/gky177",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "19cfbed093b25a1eeb817bda033ce50c33754170c7fffccefdc1cfccc28efb03",
+        "crossrefCaptureSha256": "f58b4827e6057ec8b7949ed27d1935551fe5d39ea531c74a6e8af92f97bd80c1"
+      }
+    },
+    {
+      "sourceId": "kariko2005",
+      "pmid": "16111635",
+      "doi": "10.1016/j.immuni.2005.06.008",
+      "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+      "authors": "Karikó K, Buckstein M, Ni H, Weissman D.",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16111635/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1047,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "human TLR-expressing cells and dendritic cells",
+      "usedByPages": [
+        "modified-nucleosides"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kariko2005",
+        "pmid": "16111635",
+        "doi": "10.1016/j.immuni.2005.06.008",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "50a42f8d617f0957b43c1e3dd61cc9b435ac1b1bfcbf9b4bcbf62af556a0cded",
+        "crossrefCaptureSha256": "1df5a73b21ff5b57742207be0725da19b5b5c2a5a18298ce9fa335149c46c783"
+      }
+    },
+    {
+      "sourceId": "andries2015",
+      "pmid": "26342664",
+      "doi": "10.1016/j.jconrel.2015.08.051",
+      "title": "N(1)-methylpseudouridine-incorporated mRNA outperforms pseudouridine-incorporated mRNA by providing enhanced protein expression and reduced immunogenicity in mammalian cell lines and mice.",
+      "authors": "Andries O, Mc Cafferty S, De Smedt SC, Weiss R, Sanders NN, Kitada T.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26342664/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1336,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "cell lines and mice",
+      "usedByPages": [
+        "modified-nucleosides"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "andries2015",
+        "pmid": "26342664",
+        "doi": "10.1016/j.jconrel.2015.08.051",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "d18f3cb9fa050c84bf1e877eb1b705e3fd273bcbac613c3de8acfadbe3de25a7",
+        "crossrefCaptureSha256": "c9842f65b8d4df52ffbee415d3d60e447215ab0d582c0edbba76e34a0c9d8941"
+      }
+    },
+    {
+      "sourceId": "kariko2011",
+      "pmid": "21890902",
+      "doi": "10.1093/nar/gkr695",
+      "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+      "authors": "Karikó K, Muramatsu H, Ludwig J, Weissman D.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21890902/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1148,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "primary cells; in vitro and mice per full text",
+      "usedByPages": [
+        "dsrna-impurities-and-purification",
+        "in-vitro-transcription",
+        "modified-nucleosides"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kariko2011",
+        "pmid": "21890902",
+        "doi": "10.1093/nar/gkr695",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "medCaptureSha256": "8d66dc1c1637a510955d558c46ec50a451464acb962f6ec6d6260b8b8daf69df",
+        "crossrefCaptureSha256": "63e2e091df1b753eae8986f4526d63edb842e4a21c5a724ff47c26691d444206"
+      }
+    },
+    {
+      "sourceId": "mulroney2024",
+      "pmid": "38057663",
+      "doi": "10.1038/s41586-023-06800-3",
+      "title": "N1-methylpseudouridylation of mRNA causes +1 ribosomal frameshifting.",
+      "authors": "Mulroney TE, Pöyry T, Yam-Puc JC, Rust M, Harvey RF, Kalmar L, Horner E, Booth L, Ferreira AP, Stoneley M, Sawarkar R, Mentzer AJ, Lilley KS, Smales CM, von der Haar T, Turtle L, Dunachie S, Klenerman P, Thaventhiran JED, Willis AE.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38057663/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1596,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "in vitro, mice and humans (BNT162b2 vaccination samples)",
+      "usedByPages": [
+        "modified-nucleosides"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "mulroney2024",
+        "pmid": "38057663",
+        "doi": "10.1038/s41586-023-06800-3",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "6ea3a112fc7b45906e8edebe4d738dc4f5af6aa60788f14933ce24b499e1887c",
+        "crossrefCaptureSha256": "ae5c298fd3f244c54643944dfc01231bc3d02c876fc5974e94c57500a64744b7"
+      }
+    },
+    {
+      "sourceId": "baiersdorfer2019",
+      "pmid": "30933724",
+      "doi": "10.1016/j.omtn.2019.02.018",
+      "title": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+      "authors": "Baiersdörfer M, Boros G, Muramatsu H, Mahiny A, Vlatkovic I, Sahin U, Karikó K.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30933724/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1309,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "in vitro cellulose chromatography; mice for translation",
+      "usedByPages": [
+        "dsrna-impurities-and-purification"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "baiersdorfer2019",
+        "pmid": "30933724",
+        "doi": "10.1016/j.omtn.2019.02.018",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "853d8b62962e15625394c1daae35fbf8f3b2acfd4f1e24191cbcba83f509a002",
+        "crossrefCaptureSha256": "2768fb79103fcbdbe4fa07119ba39eb0824e57b227f47f6b791461dd8a9bfffd"
+      }
+    },
+    {
+      "sourceId": "kozak1986",
+      "pmid": "3943125",
+      "doi": "10.1016/0092-8674(86)90762-2",
+      "title": "Point mutations define a sequence flanking the AUG initiator codon that modulates translation by eukaryotic ribosomes.",
+      "authors": "Kozak M.",
+      "year": "1986",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3943125/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 985,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "cloned preproinsulin gene, point mutants",
+      "usedByPages": [
+        "mrna-construct-anatomy"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kozak1986",
+        "pmid": "3943125",
+        "doi": "10.1016/0092-8674(86)90762-2",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "165ae867969edef21d4f200817c698d2c0b089c008c52b08abab223e62b84e14",
+        "crossrefCaptureSha256": "7e9d21ce6ecfc84816db9f5490b9a2004c22fd743f359973a131294224521675"
+      }
+    },
+    {
+      "sourceId": "gallie1991",
+      "pmid": "1682219",
+      "doi": "10.1101/gad.5.11.2108",
+      "title": "The cap and poly(A) tail function synergistically to regulate mRNA translational efficiency.",
+      "authors": "Gallie DR.",
+      "year": "1991",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1682219/",
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1450,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "tobacco protoplasts, CHO cells, yeast (luciferase mRNA by electroporation)",
+      "usedByPages": [
+        "mrna-construct-anatomy"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "gallie1991",
+        "pmid": "1682219",
+        "doi": "10.1101/gad.5.11.2108",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Journal Article"
+        ],
+        "medCaptureSha256": "a8d76a2e7136b506adef59d3586fab68b494a18f0d38053026920fe051337137",
+        "crossrefCaptureSha256": "aad6e7e3eb959787b8efdcc2514f2410497f7a3ea48ca02c9443c7185a87a096"
+      }
+    },
+    {
+      "sourceId": "holtkamp2006",
+      "pmid": "16940422",
+      "doi": "10.1182/blood-2006-04-015024",
+      "title": "Modification of antigen-encoding RNA increases stability, translational efficacy, and T-cell stimulatory capacity of dendritic cells.",
+      "authors": "Holtkamp S, Kreiter S, Selmi A, Simon P, Koslowski M, Huber C, Türeci O, Sahin U.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16940422/",
+      "indexedTypes": [
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1490,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "dendritic cells (RNA-transfected), eGFP variants",
+      "usedByPages": [
+        "mrna-construct-anatomy"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "holtkamp2006",
+        "pmid": "16940422",
+        "doi": "10.1182/blood-2006-04-015024",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "258e2844f01a1290c9d03f08880e8c917712c057eeb524bc38532f1307649626",
+        "crossrefCaptureSha256": "3252494d82f0ce939e84cafa1d546c7aba8d037915ae79601e2ad900be320829"
+      }
+    },
+    {
+      "sourceId": "schubert2016",
+      "pmid": "26813686",
+      "doi": "10.1186/s13073-016-0263-6",
+      "title": "Designing string-of-beads vaccines with optimal spacers.",
+      "authors": "Schubert B, Kohlbacher O.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26813686/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 732,
+        "fullTextAccess": "OA full text exists (PMC4728757) but only the abstract was read; the abstract was sufficient for the two predicted-gain claims.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "computational; HLA class I",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "schubert2016",
+        "pmid": "26813686",
+        "doi": "10.1186/s13073-016-0263-6",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "13a94b819b989f645ec1737fcbfac34310779f388d549f99283341df4ca7fecd",
+        "crossrefCaptureSha256": "3f20dfa391234882375ee2ec9f4d97763a98e213de4063c3db316835e30411b8"
+      }
+    },
+    {
+      "sourceId": "kreiter2008",
+      "pmid": "18097032",
+      "doi": "10.4049/jimmunol.180.1.309",
+      "title": "Increased antigen presentation efficiency by coupling antigens to MHC class I trafficking signals.",
+      "authors": "Kreiter S, Selmi A, Diken M, Sebastian M, Osterloh P, Schild H, Huber C, Türeci O, Sahin U.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18097032/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1364,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "human and murine dendritic cells; mice",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "kreiter2008",
+        "pmid": "18097032",
+        "doi": "10.4049/jimmunol.180.1.309",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "2eb9b953274f9f92dff704edf4606f78f71b66effffd962569b51a8904ebb414",
+        "crossrefCaptureSha256": "f0f8e13224faa5ae86735dc54565b0813d063e55b347cd324f7843e6bf1f4d29"
+      }
+    },
+    {
+      "sourceId": "sahin2017",
+      "pmid": "28678784",
+      "doi": "10.1038/nature23003",
+      "title": "Personalized RNA mutanome vaccines mobilize poly-specific therapeutic immunity against cancer.",
+      "authors": "Sahin U, Derhovanessian E, Miller M, Kloke BP, Simon P, Löwer M, Bukur V, Tadmor AD, Luxemburger U, Schrörs B, Omokoko T, Vormehr M, Albrecht C, Paruzynski A, Kuhn AN, Buck J, Heesch S, Schreeb KH, Müller F, Ortseifer I, Vogler I, Godehardt E, Attig S, Rae R, Breitkreuz A, Tolliver C, Suchan M, Martic G, Hohberger A, Sorn P, Diekmann J, Ciesla J, Waksmann O, Brück AK, Witt M, Zillgen M, Rothermel A, Kasemann B, Langer D, Bolte S, Diken M, Kreiter S, Nemecek R, Gebhardt C, Grabbe S, Höller C, Utikal J, Huber C, Loquai C, Türeci Ö.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28678784/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1524,
+        "fullTextAccess": "No PMC full text; not fetched.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "first-in-human melanoma, RNA poly-neo-epitope vaccine",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "sahin2017",
+        "pmid": "28678784",
+        "doi": "10.1038/nature23003",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "4a8a9701079abd75243c477488f4b1bc3614ecfac7d3f18b34edba13026c385f",
+        "crossrefCaptureSha256": "6726f488914b8c8d83af53896cd09ca41208cc5dbd96c3c9afc68d461abc84aa"
+      }
+    },
+    {
+      "sourceId": "naso2017",
+      "pmid": "28669112",
+      "doi": "10.1007/s40259-017-0234-5",
+      "title": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy.",
+      "authors": "Naso MF, Tomkowicz B, Perry WL, Strohl WR.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28669112/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 734,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of AAV vector biology and clinical use",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "naso2017",
+        "pmid": "28669112",
+        "doi": "10.1007/s40259-017-0234-5",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "3e04b275f715eb5746671d712812ce4d7dd16ddd6ddf9eda9c959aea5e3adfc1",
+        "crossrefCaptureSha256": "24d82a5001cba5c9afe4f73a5f953a31ff7ecfcdd69207c579e3300d21994dd4"
+      }
+    },
+    {
+      "sourceId": "hou2021",
+      "pmid": "34394960",
+      "doi": "10.1038/s41578-021-00358-0",
+      "title": "Lipid nanoparticles for mRNA delivery.",
+      "authors": "Hou X, Zaks T, Langer R, Dong Y.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34394960/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1136,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of lipid nanoparticle mRNA delivery materials",
+      "usedByPages": [
+        "lipid-nanoparticle"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "hou2021",
+        "pmid": "34394960",
+        "doi": "10.1038/s41578-021-00358-0",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "f6ddd16cd725927e862e982acde118826e4d426a5e74b784865009bbca94fa3e",
+        "crossrefCaptureSha256": "a0c0345b6508b6011e1f9172b65b1850c50fe150b2f73a76fc7c4a9a19a125b2"
+      }
+    },
+    {
+      "sourceId": "milone2018",
+      "pmid": "29654266",
+      "doi": "10.1038/s41375-018-0106-0",
+      "title": "Clinical use of lentiviral vectors.",
+      "authors": "Milone MC, O'Doherty U.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29654266/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1379,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of clinical lentiviral vectors",
+      "usedByPages": [
+        "lentiviral-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "milone2018",
+        "pmid": "29654266",
+        "doi": "10.1038/s41375-018-0106-0",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "cb358f625ce6c896c93b59262ea932f35ba7e229513e0cb900540062e42d4db2",
+        "crossrefCaptureSha256": "406ad72e593a5c357d7ae137218a28853b6e02897b2a5cb34bc8ad20f8d85669"
+      }
+    },
+    {
+      "sourceId": "rana2024",
+      "pmid": "38440160",
+      "doi": "10.1016/j.omtm.2024.101216",
+      "title": "B cell focused transient immune suppression protocol for efficient AAV readministration to the liver.",
+      "authors": "Rana J, Herzog RW, Muñoz-Melero M, Yamada K, Kumar SRP, Lam AK, Markusic DM, Duan D, Terhorst C, Byrne BJ, Corti M, Biswas M.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38440160/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1429,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "mice (C57BL/6, hemophilia models); AAV8 re-administration after B-cell depletion",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "rana2024",
+        "pmid": "38440160",
+        "doi": "10.1016/j.omtm.2024.101216",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "274e738de0589e9cc64c3981830982ef081a9826b87c9e0b7c09dd9c87f4a989",
+        "crossrefCaptureSha256": "0728ba3027a999580422679141f7ee37495f69b6147e80d2bac4936f9d8b1045"
+      }
+    },
+    {
+      "sourceId": "eyquem2017",
+      "pmid": "28225754",
+      "doi": "10.1038/nature21405",
+      "title": "Targeting a CAR to the TRAC locus with CRISPR/Cas9 enhances tumour rejection.",
+      "authors": "Eyquem J, Mansilla-Soto J, Giavridis T, van der Stegen SJ, Hamieh M, Cunanan KM, Odak A, Gönen M, Sadelain M.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28225754/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1463,
+        "fullTextAccess": "PMC author manuscript HTML retrieved",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "primary human T cells in culture (Cas9 mRNA/gRNA electroporation, AAV6 donor) and NALM-6 mouse model",
+      "usedByPages": [
+        "aav-vector",
+        "targeted-lnps"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "eyquem2017",
+        "pmid": "28225754",
+        "doi": "10.1038/nature21405",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "223ede0f3a3eaf18e3c4797e87a48588c9cf0fb9522129e6703d14d5de2593f7",
+        "crossrefCaptureSha256": "dbbe80b21e2ad61fdf5a27156f4c363b48ee2ff560b08f36c3407e5e21e0e3a3"
+      }
+    },
+    {
+      "sourceId": "caron2015",
+      "pmid": "26628741",
+      "doi": "10.1074/mcp.o115.052431",
+      "title": "Analysis of Major Histocompatibility Complex (MHC) Immunopeptidomes Using Mass Spectrometry.",
+      "authors": "Caron E, Kowalewski DJ, Chiek Koh C, Sturm T, Schuster H, Aebersold R.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26628741/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 901,
+        "fullTextAccess": "PMC author manuscript HTML retrieved",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of MHC immunopeptidome MS methods",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "caron2015",
+        "pmid": "26628741",
+        "doi": "10.1074/mcp.o115.052431",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "d34d6510444720555c56de384e68c071a707145e28071da42acbffc4f6885c5f",
+        "crossrefCaptureSha256": "6f195b5edff4c4ce2414327868127ae20f974cbf7d7b7818e4ea87a35a02d765"
+      }
+    },
+    {
+      "sourceId": "srivastava1983",
+      "pmid": "6300419",
+      "doi": "10.1128/jvi.45.2.555-564.1983",
+      "title": "Nucleotide sequence and organization of the adeno-associated virus 2 genome.",
+      "authors": "Srivastava A, Lusby EW, Berns KI.",
+      "year": "1983",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6300419/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 816,
+        "fullTextAccess": "PMC page retrieved (header and abstract only; scanned article)",
+        "fullTextDepth": "abstract-level; 4,675 nt statement is in the abstract",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "AAV2 genome sequence",
+      "usedByPages": [
+        "aav-vector"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "srivastava1983",
+        "pmid": "6300419",
+        "doi": "10.1128/jvi.45.2.555-564.1983",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "a9936aba4c928e3704873a556f2d98318fc2b9e8858ef3356015669de8ed54ac",
+        "crossrefCaptureSha256": "28f4ec78e51f84594db432b4ba26c6d9f59aa49ab64fccf882cdd9d160c28d9b"
+      }
+    },
+    {
+      "sourceId": "appelbaum2025",
+      "pmid": "40804358",
+      "doi": "10.1080/10717544.2025.2544688",
+      "title": "Impact of PEGylation and hyaluronan functionalization on lipoplex-mediated mRNA delivery to the canine retina.",
+      "authors": "Appelbaum T, Smith DA, Takahashi K, Kwok JC, Sorenson H, Beltran WA.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40804358/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1946,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "cell lines and canine retina; Lipofectamine MessengerMAX lipoplexes in pure water",
+      "usedByPages": [
+        "rna-lipoplex"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "appelbaum2025",
+        "pmid": "40804358",
+        "doi": "10.1080/10717544.2025.2544688",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "353be2923d8b5a126c311270b987ba9382d8fbb5bd00559ce72e44439f389413",
+        "crossrefCaptureSha256": "550645725276a47904649f6ba0c491de7b810a49603772b3830dcb5200406885"
+      }
+    },
+    {
+      "sourceId": "losada2026",
+      "pmid": "42334490",
+      "doi": "10.1007/s00216-026-06615-x",
+      "title": "From nucleotides to intact transcripts through oligonucleotides: Integrated chromatographic strategies for therapeutic mRNA characterization.",
+      "authors": "Losada M, Gotor G, Borrós S, Fornaguera C.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42334490/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1605,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of LC-based mRNA analytics",
+      "usedByPages": [
+        "dsrna-impurities-and-purification",
+        "in-vitro-transcription"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "losada2026",
+        "pmid": "42334490",
+        "doi": "10.1007/s00216-026-06615-x",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "02c1ed039d5f2a5da85d7e4e4c8f76c6a890f8fefd38ae51ba82a7e322fbc28b",
+        "crossrefCaptureSha256": "d1284b432c6ae8f2014b38d3a86b81e55437af20639b402eb9a8af4c0ade4019"
+      }
+    },
+    {
+      "sourceId": "alasmari2026",
+      "pmid": "42514871",
+      "doi": "10.3390/pharmaceutics18070790",
+      "title": "Analytical Characterization and Stability Assessment of RNA-Based Vaccines.",
+      "authors": "Alasmari HM, Alghannam SF, Al-Moammar HA, Alrabiah DK, Al-Harthy SS, Alyamani EJ, Alyahya SA, Alkhrayef M, Fallatah M, Al-Khaldi S, Algarni AT, Jamous YF, Aldossary AM.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42514871/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1987,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of RNA vaccine analytics",
+      "usedByPages": [
+        "lipid-nanoparticle"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "alasmari2026",
+        "pmid": "42514871",
+        "doi": "10.3390/pharmaceutics18070790",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "cfaec50a3256a96a719840f9d43b79f3202562a9ff82afd71af19a821f39bbae",
+        "crossrefCaptureSha256": "64212a20d43e4e72d7e45cc81029a003117741b410e7682430aabac31c239f95"
+      }
+    },
+    {
+      "sourceId": "nowak2026",
+      "pmid": "41557011",
+      "doi": "10.1007/s11033-026-11455-0",
+      "title": "Process and analytical strategies for the safe production of mRNA vaccines and therapeutics.",
+      "authors": "Nowak CJA, Liu S, Falconer RJ, Gerstweiler L.",
+      "year": "2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41557011/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1136,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of mRNA production impurities and analytics",
+      "usedByPages": [
+        "in-vitro-transcription"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "nowak2026",
+        "pmid": "41557011",
+        "doi": "10.1007/s11033-026-11455-0",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "944a5a270ab888d7f5a015829a5dde4596a63344b4adae6bd7888f3df4b5e003",
+        "crossrefCaptureSha256": "e3ea925b8bdeda8fd3309a93889134f885d725b4c04ae66904f57aee2e4218b3"
+      }
+    },
+    {
+      "sourceId": "yadav2014",
+      "pmid": "25428506",
+      "doi": "10.1038/nature14001",
+      "title": "Predicting immunogenic tumour mutations by combining mass spectrometry and exome sequencing.",
+      "authors": "Yadav M, Jhunjhunwala S, Phung QT, Lupardus P, Tanguay J, Bumbaca S, Franci C, Cheung TK, Fritsche J, Weinschenk T, Modrusan Z, Mellman I, Lill JR, Delamarre L.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25428506/",
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1786,
+        "fullTextAccess": "No open full text (Nature, not in PMC); abstract read.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "two murine tumour models; exome and MS",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "yadav2014",
+        "pmid": "25428506",
+        "doi": "10.1038/nature14001",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Journal Article"
+        ],
+        "medCaptureSha256": "535a103a30652dc8325d705e24c0022743227fe3772694b59ea26d7602844d60",
+        "crossrefCaptureSha256": "0675411a3898c075fc4a04c94f59bb698ae67c328c538b99ed7c6f339e66c47e"
+      }
+    },
+    {
+      "sourceId": "hudecek2017",
+      "pmid": "28402189",
+      "doi": "10.1080/10409238.2017.1304354",
+      "title": "Going non-viral: the Sleeping Beauty transposon system breaks on through to the clinical side.",
+      "authors": "Hudecek M, Izsvák Z, Johnen S, Renner M, Thumann G, Ivics Z.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28402189/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1563,
+        "fullTextAccess": "No open full text; abstract read.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "review of Sleeping Beauty system",
+      "usedByPages": [
+        "transposon"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "hudecek2017",
+        "pmid": "28402189",
+        "doi": "10.1080/10409238.2017.1304354",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "80ad59ad6ea18ca236bc5ee62ed72a3e9f0db5f13f39621fcb7237e971c9ea86",
+        "crossrefCaptureSha256": "af56da1f076b510ba3121c94ca2a95a018ebdc18b087fbd2d6f8c3217d120d9d"
+      }
+    },
+    {
+      "sourceId": "livingston2001",
+      "pmid": "11535313",
+      "doi": "10.1016/s0264-410x(01)00233-x",
+      "title": "Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines.",
+      "authors": "Livingston BD, Newman M, Crimi C, McKinney D, Chesnut R, Sette A.",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11535313/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Evaluation Study",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1084,
+        "fullTextAccess": "No open full text; abstract read.",
+        "fullTextDepth": "abstract only",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "multiepitope DNA vaccine constructs; human cells and HBV constructs",
+      "usedByPages": [
+        "multi-epitope-constructs"
+      ],
+      "identityAndCaptureChecks": {
+        "sourceId": "livingston2001",
+        "pmid": "11535313",
+        "doi": "10.1016/s0264-410x(01)00233-x",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Evaluation Study",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "a07410882534d3dd78dc01eae8b2c39e8a944082c17ade5471f8345a721ace8a",
+        "crossrefCaptureSha256": "358172a4e5fcf33638aeaa1e892e490ff27021e1b43766b77e8088bc169c3a83"
+      }
+    },
+    {
+      "sourceId": "minegishi2024",
+      "pmid": "38382459",
+      "doi": "10.1111/cas.16118",
+      "title": "Emerging potential of immunopeptidomics by mass spectrometry in cancer immunotherapy.",
+      "authors": "Minegishi Y, Haga Y, Ueda K.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38382459/",
+      "indexedTypes": [
+        "review-article",
+        "Review",
+        "Journal Article"
+      ],
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1449,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "context only",
+      "usedByPages": [],
+      "identityAndCaptureChecks": {
+        "sourceId": "minegishi2024",
+        "pmid": "38382459",
+        "doi": "10.1111/cas.16118",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "136557c7ea91e8881f97ffe6cca7884cbb915c4a7bcf0cef2c44af70ce9bd639",
+        "crossrefCaptureSha256": "a0c4143143d46c116d428b611baf44339d029cb21f065e913ccf0b8b23fe184e"
+      }
+    },
+    {
+      "sourceId": "abelin2024",
+      "pmid": "39095021",
+      "doi": "10.1016/j.mcpro.2024.100823",
+      "title": "Innovations Toward Immunopeptidomics.",
+      "authors": "Abelin JG, Cox AL.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39095021/",
+      "indexedTypes": [
+        "Historical Article",
+        "research-article",
+        "Journal Article"
+      ],
+      "evidenceType": "Journal publication; model and protocol scope retained per claim",
+      "readingDepth": {
+        "identifierResolution": "Crossref and Europe PMC MED, titles/first author/dates compared",
+        "abstractRead": true,
+        "abstractCharacters": 1940,
+        "fullTextAccess": "full text retrieved (Europe PMC OA XML or NCBI efetch XML)",
+        "fullTextDepth": "targeted-passage reading",
+        "claimVerification": "see coverage-proofs.json (passages located by exact string search in the raw text)"
+      },
+      "settingForClaims": "context only",
+      "usedByPages": [],
+      "identityAndCaptureChecks": {
+        "sourceId": "abelin2024",
+        "pmid": "39095021",
+        "doi": "10.1016/j.mcpro.2024.100823",
+        "titleMatch": true,
+        "doiMatch": true,
+        "firstAuthorsMatch": true,
+        "indexedTypes": [
+          "Historical Article",
+          "research-article",
+          "Journal Article"
+        ],
+        "medCaptureSha256": "6d85c38f820db531f775ebd9c228f07437c4091e1d9c1536f603e25468532182",
+        "crossrefCaptureSha256": "4747621b588c02e37d8ba6e4a18309573d09c40314751dac20650711696a4e8f"
+      }
+    },
+    {
+      "sourceId": "mccarty2001",
+      "pmid": "11509958",
+      "doi": "10.1038/sj.gt.3301514",
+      "title": "Self-complementary recombinant adeno-associated virus (scAAV) vectors promote efficient transduction independently of DNA synthesis.",
+      "authors": "McCarty DM, Monahan PE, Samulski RJ.",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11509958/",
+      "evidenceType": "Primary experiment",
+      "readingDepth": "Raw abstract; DOI/title/first-author agreement checked with Crossref. Original 2001 publisher full text unavailable.",
+      "captureSha256": "184e79a2f69b960e5e7baf88cf527f43914c76f012c2bdf9fe1f6c74dc260923",
+      "settingForClaims": "Inverted-repeat/self-complementary vector design and source-scoped coding-capacity trade-off; no universal capacity or clinical benefit claimed."
+    },
+    {
+      "sourceId": "mccarty2008",
+      "pmid": "18682697",
+      "doi": "10.1038/mt.2008.171",
+      "title": "Self-complementary AAV vectors; advances and applications.",
+      "authors": "McCarty DM.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18682697/",
+      "evidenceType": "Review; secondary evidence",
+      "readingDepth": "Raw abstract; DOI/title/first-author agreement checked with Crossref. Original 2001 publisher full text unavailable.",
+      "captureSha256": "c4572e1a29df4fb156789c454e6f9a1fee25581cb280cdf7e8f682eed7336a12",
+      "settingForClaims": "Inverted-repeat/self-complementary vector design and source-scoped coding-capacity trade-off; no universal capacity or clinical benefit claimed."
+    }
+  ],
+  "regulatoryDocuments": [
+    {
+      "sourceId": "fda113768",
+      "title": "Long Term Follow-Up After Administration of Human Gene Therapy Products: Guidance for Industry",
+      "issuer": "FDA CBER",
+      "dateOnCover": "January 2020",
+      "url": "https://www.fda.gov/media/113768/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "pdfSha256": "588cfb0815c2d1ab006c506b714fe857df01299a974c9aa37b5c39999a2838f3",
+      "pdfBytes": 520289,
+      "textWords": 12869,
+      "readingDepth": "full text extracted with pdftotext; passages located by search and read in context, not read end to end",
+      "usedByPages": "lentiviral-vector, aav-vector, transposon",
+      "note": "nonbinding recommendations; reproduces no personal or private material",
+      "rawPdfCopiedToGit": false
+    },
+    {
+      "sourceId": "fda113790",
+      "title": "Testing of Retroviral Vector-Based Human Gene Therapy Products for Replication Competent Retrovirus During Product Manufacture and Patient Follow-up: Guidance for Industry",
+      "issuer": "FDA CBER",
+      "dateOnCover": "January 2020",
+      "url": "https://www.fda.gov/media/113790/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "pdfSha256": "81d9fae2bcaca7eaa527e8de2f4998d312cca1e14b51f6f74f8aa33dba78832d",
+      "pdfBytes": 232810,
+      "textWords": 6068,
+      "readingDepth": "full text extracted with pdftotext; passages located by search and read in context, not read end to end",
+      "usedByPages": "lentiviral-vector",
+      "note": "nonbinding recommendations; reproduces no personal or private material",
+      "rawPdfCopiedToGit": false
+    },
+    {
+      "sourceId": "fda156896",
+      "title": "Considerations for the Development of Chimeric Antigen Receptor (CAR) T Cell Products: Guidance for Industry",
+      "issuer": "FDA CBER",
+      "dateOnCover": "January 2024",
+      "url": "https://www.fda.gov/media/156896/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "pdfSha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "pdfBytes": 528619,
+      "textWords": 15728,
+      "readingDepth": "full text extracted with pdftotext; passages located by search and read in context, not read end to end",
+      "usedByPages": "delivery-targeting-vs-cancer-targeting",
+      "note": "nonbinding recommendations; reproduces no personal or private material",
+      "rawPdfCopiedToGit": false
+    }
+  ],
+  "textbooks": [
+    {
+      "sourceId": "openstax154",
+      "title": "Biology 2e, 15-4-rna-processing-in-eukaryotes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/15-4-rna-processing-in-eukaryotes",
+      "httpStatus": 200,
+      "extractedTextSha256": "80e3df6a9642f06689aaec815a7cd33ffb211ac1d6c91ee690674afbba02960c",
+      "extractedCharacters": 14565,
+      "usedFor": "5-prime cap, UTRs, poly-A tail (accessible textbook alternative to blocked Cooper chapter)",
+      "readingDepth": "page text extracted; relevant passages located and read",
+      "usedByPages": [
+        "mrna-construct-anatomy"
+      ]
+    },
+    {
+      "sourceId": "openstax155",
+      "title": "Biology 2e, 15-5-ribosomes-and-protein-synthesis",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+      "httpStatus": 200,
+      "extractedTextSha256": "2c21f59fa5b4330ae7e8ac3206c7a87832465fc658e1e8dc87fc9bfe618d2c34",
+      "extractedCharacters": 21483,
+      "usedFor": "ribosome movement from cap to AUG; Kozak rules",
+      "readingDepth": "page text extracted; relevant passages located and read",
+      "usedByPages": [
+        "mrna-construct-anatomy"
+      ]
+    }
+  ],
+  "coordinatorOtherSources": [
+    {
+      "sourceId": "neb-ivt-evaluation",
+      "title": "Evaluation of IVT Reaction Products",
+      "url": "https://www.neb.com/en-us/protocols/evaluation-of-ivt-reaction-products?pdf=true",
+      "type": "Vendor analytical protocol",
+      "readingDepth": "Official PDF web extraction, page 2; direct scripted fetches failed. No original PDF-byte hash claimed.",
+      "selectedExtractionSha256": "c8d91997fce1b1401d6ebcf0edc13af8ead8a6c03e762ea58adde4771d9305c6"
+    },
+    {
+      "sourceId": "ncbi-genetic-code",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "type": "Official genetic-code reference",
+      "readingDepth": "Standard code table decoded for GCU/GCC using the page's T-for-U convention",
+      "verification": {
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+        "table": 1,
+        "alphabet": "NCBI table uses T for U; standard RNA codons GCU and GCC correspond to GCT and GCC",
+        "decoded": {
+          "GCT": "A",
+          "GCC": "A"
+        }
+      }
+    },
+    {
+      "sourceId": "openstax-organic-28-1",
+      "type": "Educational source",
+      "readingDepth": "Selected nucleoside/nucleotide definition paragraph; educational source",
+      "url": "https://openstax.org/books/organic-chemistry/pages/28-1-nucleotides-and-nucleic-acids",
+      "sha256": "3855bbf47d5bad8f8c59a92f7fa4bc81ec59b5a3d700f198df85f40f5ca433cb",
+      "bytes": 383140
+    }
+  ],
+  "accessFailures": [
+    {
+      "sourceId": "cooper-the-cell-NBK9849",
+      "title": "Cooper GM. The Cell: A Molecular Approach, translation of mRNA (NCBI Bookshelf NBK9849)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9849/",
+      "accessResult": "reCAPTCHA interstitial page (200, 200167 characters, none of the chapter text); Europe PMC has no record for NBK9849 and its fullTextXML returned HTTP 500",
+      "claimsAffected": "basic definitions of cap, UTRs, poly(A) in mrna-construct-anatomy",
+      "contentInvented": false
+    }
+  ],
+  "coordinatorAccessFailures": [
+    {
+      "file": "neb-ivt-us.html",
+      "url": "https://www.neb.com/en-us/protocols/evaluation-of-ivt-reaction-products",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "neb-ivt-print.bin",
+      "url": "https://www.neb.com/protocols/evaluation-of-ivt-reaction-products?pdf=true",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "naso-oa.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5548848/fullTextXML",
+      "resolvedUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5548848/fullTextXML",
+      "status": 200,
+      "contentType": "application/xml",
+      "bytes": 239801,
+      "sha256": "f9b8b112ff9ca873e914670f79cbff179113200004a2502b6129f18c79ded326"
+    },
+    {
+      "file": "goldbook-nucleosides.html",
+      "url": "https://goldbook.iupac.org/terms/view/N04253",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "goldbook-nucleotides.html",
+      "url": "https://goldbook.iupac.org/terms/view/N04255",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "openstax-nucleic-acids.html",
+      "url": "https://openstax.org/books/biology-2e/pages/3-5-nucleic-acids",
+      "status": 200,
+      "bytes": 375154,
+      "sha256": "5bc20aae763a4fd6da30567aeec631a5db06d1c7487ffcfc6ff7ea50517ca5ab"
+    },
+    {
+      "file": "ncbi-genetic-codes.html",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "status": 200,
+      "bytes": 273495,
+      "sha256": "b76266901d7e10b31a5732fcd376c70f1ce1c5fb321930f7867269afd9eafd47"
+    }
+  ]
+}

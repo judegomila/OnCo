@@ -1,0 +1,954 @@
+{
+  "rows": [
+    {
+      "id": "M-001",
+      "disposition": "measurement-definition",
+      "reason": "The new opening note separates the detected molecular layer from the sampled area and keeps the resulting map local to its preparation.",
+      "paragraphKeys": [
+        "S1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-002",
+      "disposition": "sampling-scope",
+      "reason": "The opening note limits the map to sampled material, and the retained assay card explicitly rejects whole-tumour representation.",
+      "paragraphKeys": [
+        "S1",
+        "RNA-CARD"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-003",
+      "disposition": "qualified-source-assessment",
+      "reason": "The cell-assignment paragraph rejects a universal segmentation prerequisite while retaining segmentation for cell-level interpretation. Pooled regional counts and spots remain valid distinct outputs.",
+      "paragraphKeys": [
+        "S3"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-004",
+      "disposition": "sampling-scope",
+      "reason": "The fictional spare-section exercise requires budgeting finite tissue; the retained assay card distinguishes material-consuming preparation from re-analysis of existing data.",
+      "paragraphKeys": [
+        "S4",
+        "RNA-CARD"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-005",
+      "disposition": "interpretation",
+      "reason": "The interpretation paragraph leaves recognition and killing unmeasured by a neighbour map.",
+      "paragraphKeys": [
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-006",
+      "disposition": "measurement-definition",
+      "reason": "The molecular-choice note names fluorescent and metal antibody tags; the metal-imaging note names mass-cytometry and the cyclic fluorescence comparison.",
+      "paragraphKeys": [
+        "S1",
+        "I1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-007",
+      "disposition": "measurement-inference",
+      "reason": "The opening note asks for protein evidence on relevant cells when the question concerns a protein target; RNA is not substituted for surface localisation.",
+      "paragraphKeys": [
+        "S1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-008",
+      "disposition": "assay-definition",
+      "reason": "The cell-assignment note and retained fluorescence assay card require marker validation, controls, registration and the actual preparation rather than a universal panel-size claim.",
+      "paragraphKeys": [
+        "S3",
+        "IF-CARD"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-009",
+      "disposition": "measurement-definition",
+      "reason": "The retained RNA summary distinguishes barcoded capture, selected probes and RNA-species detection.",
+      "paragraphKeys": [
+        "RNA"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "27365449",
+        "32393914"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-010",
+      "disposition": "interpretation",
+      "reason": "The opening paragraph explicitly separates transcription, protein abundance and surface localisation.",
+      "paragraphKeys": [
+        "S1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-011",
+      "disposition": "diagram-interpretation",
+      "reason": "The choice paragraph preserves the diagram's two axes without claiming that every protein region readout has cell resolution.",
+      "paragraphKeys": [
+        "S2"
+      ],
+      "sourcePmids": [
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-012",
+      "disposition": "measurement-definition",
+      "reason": "The retained RNA summary describes light-released oligonucleotide tags from operator-selected regions.",
+      "paragraphKeys": [
+        "RNA"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "27365449",
+        "32393914"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-013",
+      "disposition": "historical-method-example",
+      "reason": "The retained RNA summary carries Merritt's one-to-about-5,000-cell regions, 44 proteins and 1,412 genes as historical method-paper examples.",
+      "paragraphKeys": [
+        "RNA"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "27365449",
+        "32393914"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-014",
+      "disposition": "sampling-inference",
+      "reason": "The choice paragraph states that pooled regional counts do not identify individual cells and asks who chose regions and by what rule.",
+      "paragraphKeys": [
+        "S2"
+      ],
+      "sourcePmids": [
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-015",
+      "disposition": "sampling-scope",
+      "reason": "The choice paragraph distinguishes the complete chosen field from the entire slide and describes finding borders and rare cells outside predefined compartments.",
+      "paragraphKeys": [
+        "S2"
+      ],
+      "sourcePmids": [
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-016",
+      "disposition": "historical-method-example",
+      "reason": "The new historical-method paragraph states conventional optical microscopes, up-to-60-plex t-CyCIF and formalin-fixed paraffin-embedded preparation; the retained fluorescence summary provides the cyclic context.",
+      "paragraphKeys": [
+        "I1",
+        "IF"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "29993362",
+        "34266881"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-017",
+      "disposition": "historical-method-example",
+      "reason": "The metal-imaging paragraph carries 32 proteins/modifications, breast samples, subcellular resolution and laser ablation with consumed material, at the 2014 study scope.",
+      "paragraphKeys": [
+        "I1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-018",
+      "disposition": "historical-method-example",
+      "reason": "The ion-beam paragraph explicitly gives 36 proteins and 41 triple-negative breast-cancer patients in the 2018 example.",
+      "paragraphKeys": [
+        "I2"
+      ],
+      "sourcePmids": [
+        "30193111"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-019",
+      "disposition": "historical-method-example",
+      "reason": "The retained RNA summary describes positionally barcoded primers, the mouse-brain/human-breast original study and multicellular capture spots.",
+      "paragraphKeys": [
+        "RNA"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "27365449",
+        "32393914"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-020",
+      "disposition": "historical-method-example",
+      "reason": "The cell-assignment paragraph carries the 100-to-1,000 selected RNA species, individual molecules and cultured fibroblasts; the retained RNA summary separately discusses assigning molecules to cell boundaries.",
+      "paragraphKeys": [
+        "S3",
+        "RNA"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "27365449",
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-021",
+      "disposition": "source-scope-inference",
+      "reason": "The historical-method paragraph explicitly refuses to make its example count a present instrument ceiling.",
+      "paragraphKeys": [
+        "I1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-022",
+      "disposition": "observational-association",
+      "reason": "The ion-beam paragraph carries mixed/compartmentalised patterns and border structures associated with survival, while explicitly separating them from functional or treatment-selection proof.",
+      "paragraphKeys": [
+        "I2"
+      ],
+      "sourcePmids": [
+        "30193111"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-023",
+      "disposition": "assay-choice-inference",
+      "reason": "The method-choice paragraph describes broad RNA discovery before a smaller marker panel is chosen.",
+      "paragraphKeys": [
+        "S2"
+      ],
+      "sourcePmids": [
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-024",
+      "disposition": "assay-choice-inference",
+      "reason": "The choice paragraph contrasts predefined-compartment profiling with imaging that can reveal borders, neighbourhoods and rare cells.",
+      "paragraphKeys": [
+        "S2"
+      ],
+      "sourcePmids": [
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-025",
+      "disposition": "authored-analogy",
+      "reason": "The molecular-layer and sampling paragraphs carry the analogy's actual distinction in literal measurement language; no metaphor is treated as a biological mechanism.",
+      "paragraphKeys": [
+        "S1",
+        "S2"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362",
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-026",
+      "disposition": "measurement-definition",
+      "reason": "The assignment paragraph explicitly distinguishes pooled regions and spots from cell-level results.",
+      "paragraphKeys": [
+        "S3"
+      ],
+      "sourcePmids": [
+        "25858977",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-027",
+      "disposition": "fictional-inference",
+      "reason": "The fictional panel example preserves 40 markers versus six and makes relevance to the question, rather than marker count alone, the deciding premise.",
+      "paragraphKeys": [
+        "S4"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-028",
+      "disposition": "measurement-inference",
+      "reason": "The opening paragraph requires protein evidence despite observed transcription.",
+      "paragraphKeys": [
+        "S1"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-029",
+      "disposition": "interpretation",
+      "reason": "The interpretation paragraph does not turn adjacency into antigen recognition or killing.",
+      "paragraphKeys": [
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-030",
+      "disposition": "validation-scope",
+      "reason": "The intended-use paragraph separates multiplex research panels from named clinical assay rules without claiming an exhaustive regulatory inventory.",
+      "paragraphKeys": [
+        "S5"
+      ],
+      "sourcePmids": [
+        "34266881",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-031",
+      "disposition": "fictional-exercise",
+      "reason": "The spare-section exercise names target, cancer-cell and T-cell detection, a justified imaged area, controls and cell assignments.",
+      "paragraphKeys": [
+        "S4"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-032",
+      "disposition": "fictional-exercise",
+      "reason": "The same exercise explicitly says regional RNA alone cannot establish which cells carry that protein.",
+      "paragraphKeys": [
+        "S4"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "M-033",
+      "disposition": "practice-inference",
+      "reason": "The opening, choice and exercise paragraphs jointly answer all three teach-back choices with the molecule and sampling question kept distinct.",
+      "paragraphKeys": [
+        "S1",
+        "S2",
+        "S4"
+      ],
+      "sourcePmids": [
+        "24584193",
+        "25858977",
+        "27365449",
+        "29993362",
+        "32393914",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-001",
+      "disposition": "measurement-definition",
+      "reason": "The opening paragraph separates density from proximity and the interpretation paragraph limits a section to a three-dimensional subset; this also covers the source's stadium analogy without importing it.",
+      "paragraphKeys": [
+        "P1",
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-002",
+      "disposition": "measurement-definition",
+      "reason": "The opening paragraph identifies section, estimated types and positions and explains where segmentation and typing errors enter.",
+      "paragraphKeys": [
+        "P1"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-003",
+      "disposition": "metric-definition",
+      "reason": "The metric paragraph states cells per square millimetre with tumour epithelium or stromal area as the denominator.",
+      "paragraphKeys": [
+        "P2"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-004",
+      "disposition": "metric-definition",
+      "reason": "The metric paragraph defines a directed radius count and reference population, and the worked example states the counted CD8 population explicitly.",
+      "paragraphKeys": [
+        "P2",
+        "P13"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-005",
+      "disposition": "metric-definition",
+      "reason": "The metric paragraph measures each A cell to its closest B cell and names the median as a possible summary.",
+      "paragraphKeys": [
+        "P2"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-006",
+      "disposition": "metric-definition",
+      "reason": "The G-cross paragraph distinguishes a directed nearest-neighbour curve, its value at 20 micrometres and an area over that range, including the effect of normalisation on units.",
+      "paragraphKeys": [
+        "P3"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-007",
+      "disposition": "method-specific-definition",
+      "reason": "The method-specific paragraph gives Keren's immune-tumour divided by immune-immune neighbour-interaction ratio.",
+      "paragraphKeys": [
+        "P4"
+      ],
+      "sourcePmids": [
+        "26395345",
+        "30193111",
+        "32763154"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-008",
+      "disposition": "method-specific-definition",
+      "reason": "The same paragraph keeps Morisita-Horn spatial overlap separate from that contact-ratio definition rather than asserting a shared formula.",
+      "paragraphKeys": [
+        "P4"
+      ],
+      "sourcePmids": [
+        "26395345",
+        "30193111",
+        "32763154"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-009",
+      "disposition": "qualified-source-assessment",
+      "reason": "The method-specific paragraph corrects the ten-cell window to include the centre cell, as the read primary methods specify, and retains composition clustering.",
+      "paragraphKeys": [
+        "P4"
+      ],
+      "sourcePmids": [
+        "26395345",
+        "30193111",
+        "32763154"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-010",
+      "disposition": "unit-definition",
+      "reason": "The unit paragraph states one micrometre is one thousandth of a millimetre and converts 20 to 0.020 millimetres.",
+      "paragraphKeys": [
+        "P5"
+      ],
+      "sourcePmids": [],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-011",
+      "disposition": "qualified-source-assessment",
+      "reason": "The range is explicitly hypothetical geometry, not verified lymphocyte morphometry. Equal circular cells seven to ten micrometres wide and centres 20 apart leave a calculated gap; the unsupported biological claim remains a named follow-up.",
+      "paragraphKeys": [
+        "P5"
+      ],
+      "sourcePmids": [],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-012",
+      "disposition": "diagram-interpretation",
+      "reason": "The pipeline, output and reading-card paragraphs cover cell calls and analyst choices while correcting the diagram's universal single-number output.",
+      "paragraphKeys": [
+        "P1",
+        "P3",
+        "P16"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-013",
+      "disposition": "mechanism-scope",
+      "reason": "The interpretation paragraph makes the contact-dependent mechanism conditional and leaves recognition and function unmeasured; it distinguishes stromal location from cells among tumour.",
+      "paragraphKeys": [
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-014",
+      "disposition": "observational-association",
+      "reason": "The colorectal paragraph gives both cohorts, all four percentile-ranked measurements, the 20-micrometre definition, cancer-specific endpoint, both adjusted estimates and confidence intervals, and the density distinction.",
+      "paragraphKeys": [
+        "P7"
+      ],
+      "sourcePmids": [
+        "35449453"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-015",
+      "disposition": "observational-association",
+      "reason": "The melanoma paragraph gives the 27/34 treated groups, named combination, pretreatment scope and CD8-within-20-micrometre response association, without a randomised treatment-selection conclusion.",
+      "paragraphKeys": [
+        "P8"
+      ],
+      "sourcePmids": [
+        "32002281"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-016",
+      "disposition": "observational-association",
+      "reason": "The breast paragraph distinguishes discovery/validation sample counts from the 475/514 samples with survival data and reports subtype-dependent disease-specific association.",
+      "paragraphKeys": [
+        "P9"
+      ],
+      "sourcePmids": [
+        "26395345",
+        "41091832"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-017",
+      "disposition": "observational-association",
+      "reason": "The breast paragraph gives Walker's 1,467-participant retrospective design, mean/variance-derived metrics, recurrence-free endpoint and reported comparison with counts.",
+      "paragraphKeys": [
+        "P9"
+      ],
+      "sourcePmids": [
+        "26395345",
+        "41091832"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-018",
+      "disposition": "observational-association",
+      "reason": "The Keren paragraph retains the 41-patient cohort, architecture association and dataset-selected rather than universal threshold.",
+      "paragraphKeys": [
+        "P10"
+      ],
+      "sourcePmids": [
+        "30193111"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-019",
+      "disposition": "interpretation",
+      "reason": "The evidence-tier and exercise paragraphs separate a group association from individual outcome or differential treatment benefit.",
+      "paragraphKeys": [
+        "P16",
+        "P17"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-020",
+      "disposition": "qualified-source-assessment",
+      "reason": "The universal absence claim is not adopted. The current paragraphs distinguish the limited cohort evidence from prospective validation and explicitly refuse to infer an exhaustive approval statement. This is credit for the scoped assessment, not for the rejected global assertion.",
+      "paragraphKeys": [
+        "P10",
+        "P16"
+      ],
+      "sourcePmids": [
+        "30193111",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-021",
+      "disposition": "qualified-source-assessment",
+      "reason": "The compartment paragraph defines stromal TIL assessment and attributes its standardisation to the 2023 working-group review, without ranking every spatial assay.",
+      "paragraphKeys": [
+        "P12"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-022",
+      "disposition": "fictional-arithmetic",
+      "reason": "The worked example preserves 60/200, 30%, 15/300, 5%, 20 micrometres and a two-millimetre shift as labelled fiction with recomputed arithmetic.",
+      "paragraphKeys": [
+        "P13"
+      ],
+      "sourcePmids": [],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-023",
+      "disposition": "fictional-inference",
+      "reason": "The same example holds tumour, stain and radius fixed and explicitly attributes the changed count to the moved region rather than treatment.",
+      "paragraphKeys": [
+        "P13"
+      ],
+      "sourcePmids": [],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-024",
+      "disposition": "measurement-card",
+      "reason": "The report paragraph asks for section identity and biopsy-versus-resection context.",
+      "paragraphKeys": [
+        "P15"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-025",
+      "disposition": "measurement-card",
+      "reason": "The opening and report paragraphs require marker-based cell calls and checks of segmentation.",
+      "paragraphKeys": [
+        "P1",
+        "P15"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-026",
+      "disposition": "measurement-card",
+      "reason": "The report paragraph names sampled-area scope, the region selector and the selection rule.",
+      "paragraphKeys": [
+        "P15"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-027",
+      "disposition": "measurement-card",
+      "reason": "The metric and reporting paragraphs state pair, direction, reference population, centres versus boundaries and radius.",
+      "paragraphKeys": [
+        "P2",
+        "P16"
+      ],
+      "sourcePmids": [
+        "35449453",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-028",
+      "disposition": "measurement-card",
+      "reason": "The reporting paragraph distinguishes a pre-outcome cutoff from one fitted to the cohort.",
+      "paragraphKeys": [
+        "P16"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-029",
+      "disposition": "measurement-card",
+      "reason": "The reporting paragraph asks for independent evaluation using the same definition.",
+      "paragraphKeys": [
+        "P16"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-030",
+      "disposition": "qualified-source-assessment",
+      "reason": "The MITRE paragraph scopes the six-site workflow, cell-level 25-micrometre measure and breast R-squared 0.82, with the distinct lung result; it does not misdescribe molecular binding.",
+      "paragraphKeys": [
+        "P11"
+      ],
+      "sourcePmids": [
+        "34266881"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-031",
+      "disposition": "validation-inference",
+      "reason": "The MITRE paragraph separates analytical reproducibility from prediction and rejects the interpretation of R-squared as patient-benefit accuracy.",
+      "paragraphKeys": [
+        "P11"
+      ],
+      "sourcePmids": [
+        "34266881"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-032",
+      "disposition": "interpretation",
+      "reason": "The interpretation paragraph uses the source's 15-micrometre example without inferring recognition, killing or functional state.",
+      "paragraphKeys": [
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-033",
+      "disposition": "metric-definition",
+      "reason": "The direction paragraph explicitly changes the denominator from CD8 cells to cancer cells when the question is reversed.",
+      "paragraphKeys": [
+        "P14"
+      ],
+      "sourcePmids": [
+        "35449453"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-034",
+      "disposition": "interpretation",
+      "reason": "The direction paragraph preserves ten, 20 and 30 micrometres as different definitions that require checking rather than transferring results.",
+      "paragraphKeys": [
+        "P14"
+      ],
+      "sourcePmids": [
+        "35449453"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-035",
+      "disposition": "validation-inference",
+      "reason": "The Keren and validation paragraphs separate a dataset-selected cutoff from a prospectively locked clinical rule.",
+      "paragraphKeys": [
+        "P10",
+        "P16"
+      ],
+      "sourcePmids": [
+        "30193111",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-036",
+      "disposition": "sampling-scope",
+      "reason": "The interpretation paragraph gives Lin's interconnected structures from apparently separate two-dimensional domains and preserves the one-cancer 3D-reconstruction limit.",
+      "paragraphKeys": [
+        "P6"
+      ],
+      "sourcePmids": [
+        "36669472"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-037",
+      "disposition": "measurement-error",
+      "reason": "The opening paragraph explains false-neighbour effects of assignment/spillover errors; the retained assay card identifies segmentation and spillover as measurement failure modes.",
+      "paragraphKeys": [
+        "P1",
+        "RNA-CARD"
+      ],
+      "sourcePmids": [
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-038",
+      "disposition": "fictional-exercise",
+      "reason": "The final exercise asks for the actual score, matched region rules, comparable specimens, fixed metric/radius and between-section variation before interpreting a 3.2-fold statement.",
+      "paragraphKeys": [
+        "P17"
+      ],
+      "sourcePmids": [],
+      "independentExpertAcceptance": false
+    },
+    {
+      "id": "P-039",
+      "disposition": "practice-inference",
+      "reason": "The interpretation, evidence-tier and exercise paragraphs answer the teach-back using described spatial location while leaving interaction and individual outcome unresolved.",
+      "paragraphKeys": [
+        "P6",
+        "P16",
+        "P17"
+      ],
+      "sourcePmids": [
+        "36669472",
+        "37608771"
+      ],
+      "independentExpertAcceptance": false
+    }
+  ],
+  "substantiveRows": 72,
+  "qualifiedAssessments": 6,
+  "reviewer": "Coordinator source-to-field semantic comparison, not independent expert or learner approval",
+  "scope": "Each row was compared to its complete named paragraph(s) and the retained primary depth. Numeric, direction, specimen and intended-use limits are stated explicitly; field hashes are a separate containment check."
+}

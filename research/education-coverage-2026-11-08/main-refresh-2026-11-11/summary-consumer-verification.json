@@ -1,0 +1,13 @@
+{
+  "records": 29,
+  "entries": 261,
+  "available": 42,
+  "EnglishFallback": 219,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 232
+  },
+  "captureSha256": "598f2cd8d91f76c4cc59eec746fb4cd82efa2facaa38709211791205995599d7",
+  "scope": "Actual short-table and long-cache selectors and selected-text SSR. No new translated text or named-language review."
+}

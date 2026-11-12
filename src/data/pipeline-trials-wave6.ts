@@ -5307,12 +5307,21 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "DAY101 vs. Standard of Care Chemotherapy in Pediatric Participants With Low-Grade Glioma Requiring First-Line Systemic Therapy (LOGGIC/FIREFLY-2) is a phase 3 interventional study registered as NCT05566795 by Day One Biopharmaceuticals, Inc., with 418 participants enrolled, started 2023-02-27 and due to reach its primary completion in 2027-06. Interventions recorded: Tovorafenib and Chemotherapeutic Agent.",
     drugs: ["tovorafenib"], cancers: ["glioblastoma", "paediatric-low-grade-glioma"], companies: ["day-one-biopharmaceuticals"],
     links: [{ label: "ClinicalTrials.gov NCT05566795", url: "https://clinicaltrials.gov/study/NCT05566795" }] },
-  { id: "nct04225117", technologies: ["adc"], kind: "trial", name: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)", nct: "NCT04225117", phase: "2", status: "active", sponsor: "Astellas Pharma Global Development, Inc.", enrolled: 329, asOf, tags,
+  { id: "nct04225117", technologies: ["adc"], kind: "trial", name: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)", nct: "NCT04225117", phase: "2", status: "active", sponsor: "Astellas Pharma Global Development, Inc.", enrolled: 329, "asOf": "2026-11-11", tags,
     setting: "An Open-label, Multicenter, Multicohort, Phase 2 Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
     tldr: "A phase 2 trial of Enfortumab vedotin and Pembrolizumab in advanced solid tumours, run by Astellas Pharma Global Development, Inc., active and no longer recruiting.",
-    summary: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) is a phase 2 interventional study registered as NCT04225117 by Astellas Pharma Global Development, Inc., with 329 participants enrolled, started 2020-03-10 and due to reach its primary completion in 2025-02-25. Interventions recorded: enfortumab vedotin and pembrolizumab. Results have been posted on the registry.",
+    summary: "EV-202 (NCT04225117) is an open-label, nonrandomised, multicohort phase 2 study of enfortumab vedotin, with additional combination cohorts. The ClinicalTrials.gov entry checked on 11 November 2026 lists 329 participants overall, active but not recruiting status, and actual primary completion on 25 February 2025. Its overall programme and intervention list should not be confused with one published disease cohort.",
     drugs: ["enfortumab-vedotin","pembrolizumab"], cancers: ["metastatic-cancer"], companies: ["astellas","pfizer","merck"],
-    links: [{ label: "ClinicalTrials.gov NCT04225117", url: "https://clinicaltrials.gov/study/NCT04225117" }] },
+    links: [{ label: "ClinicalTrials.gov NCT04225117", url: "https://clinicaltrials.gov/study/NCT04225117" },
+{
+  "label": "Giordano et al.: phase 2 EV-202 breast cohorts (2025)",
+  "url": "https://doi.org/10.1200/OA-25-00053"
+}
+] ,
+"notes": [
+  "Giordano's 2025 publication reports enfortumab-vedotin monotherapy in 45 women with hormone receptor-positive/HER2-negative advanced breast cancer and 42 with TNBC after prior treatment. In the TNBC cohort, confirmed objective response was 19.0% and disease control 57.1%. Activity did not meet the prespecified threshold, and the study reported no trend between Nectin-4 expression and response. This is a nonrandomised phase 2 cohort, not a comparison with a TROP2 ADC or a demonstration of target superiority."
+]
+},
   { id: "nct06126640", technologies: ["adc", "topoisomerase-inhibitors"], kind: "trial", name: "A Phase III, Active-Controlled Study of SHR-A1811 Versus Trastuzumab Emtansine (T-DM1) in HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy", nct: "NCT06126640", phase: "3", status: "active", sponsor: "Jiangsu HengRui Medicine Co., Ltd.", enrolled: 1615, asOf, tags,
     setting: "A Phase III, Multicenter, Randomized, Open-Label, Active-Controlled Study of SHR-A1811 Versus Trastuzumab Emtansine (T-DM1) in HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy",
     tldr: "A phase 3 trial of Trastuzumab rezetecan and Trastuzumab emtansine in HER2-positive breast cancer, run by Jiangsu HengRui Medicine Co., Ltd., active and no longer recruiting.",

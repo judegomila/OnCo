@@ -1,0 +1,822 @@
+{
+  "readingDate": "2026-11-11",
+  "paperIdentitiesResolved": 10,
+  "abstractsRead": 10,
+  "wholeOriginalPapersRead": 0,
+  "papers": [
+    {
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "firstAuthor": "Wells",
+      "year": 2020,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33125888",
+            "reference": "Cell. 2020 Oct 29;183(3):591-593. doi: 10.1016/j.cell.2020.10.011.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "readingDepth": "targeted primary text",
+      "reading": "Abstract; introduction, consortium structure, reference/input methods, peptide/HLA/T-cell validation and discussion limits. No whole-paper read.",
+      "claimScope": "Only small somatic variants and class-I-restricted, pre-existing matched T-cell responses were tested; not universal fusion/splice, new priming, natural tumour killing or vaccine benefit."
+    },
+    {
+      "pmid": "9872319",
+      "doi": "10.1038/25374",
+      "title": "Changes in thymic function with age and during the treatment of HIV infection.",
+      "firstAuthor": "Douek",
+      "year": 1998,
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "9872308",
+            "reference": "Nature. 1998 Dec 17;396(6712):630-1. doi: 10.1038/25251",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "readingDepth": "abstract only",
+      "reading": "Complete raw Europe PMC abstract read.",
+      "claimScope": "Human TCR-rearrangement-product measurements, age and HIV-treatment context; not a universal age cutoff or individual cancer-vaccine forecast."
+    },
+    {
+      "pmid": "27281205",
+      "doi": "10.1038/nature18300",
+      "title": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+      "firstAuthor": "Kranz",
+      "year": 2016,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "27281206",
+            "reference": "Nature. 2016 Jun 01;534(7607):329-31. doi: 10.1038/nature18443",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "readingDepth": "abstract only",
+      "reading": "Complete raw Europe PMC abstract read.",
+      "claimScope": "RNA-lipoplex uptake/encoded-antigen expression and innate/adaptive responses; mouse tumour experiments and the first three shared-antigen melanoma participants have different scopes."
+    },
+    {
+      "pmid": "31768066",
+      "doi": "10.1038/s41591-019-0652-7",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "firstAuthor": "Razavi",
+      "year": 2019,
+      "publicationTypes": [
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32016102",
+            "reference": "Ann Transl Med. 2019 Dec;7(Suppl 8):S384. doi: 10.21037/atm.2019.12.97",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "readingDepth": "abstract only",
+      "reading": "Complete raw abstract read.",
+      "claimScope": "Matched cfDNA/WBC sequencing in metastatic-cancer participants and controls; somatic/hematopoietic origin is not synonymous with a tumour-derived variant."
+    },
+    {
+      "pmid": "22544022",
+      "doi": "10.1038/nbt.2203",
+      "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+      "firstAuthor": "Carter",
+      "year": 2012,
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "22585000",
+            "reference": "Nat Rev Clin Oncol. 2012 May 15;9(7):370. doi: 10.1038/nrclinonc.2012.86.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "22781683",
+            "reference": "Nat Biotechnol. 2012 Jul 10;30(7):620-1. doi: 10.1038/nbt.2293.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "readingDepth": "targeted primary text",
+      "reading": "Abstract and selected introductory purity, ploidy, heterogeneity and multiplicity paragraphs.",
+      "claimScope": "Model-based inference with explicit assumptions; the half-read counterexample is stated-premise algebra, not a cohort measurement."
+    },
+    {
+      "pmid": "25877891",
+      "doi": "10.1126/scitranslmed.aaa7161",
+      "title": "Personalized genomic analyses for cancer mutation discovery and interpretation.",
+      "firstAuthor": "Jones",
+      "year": 2015,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "25882003",
+            "reference": "BMJ. 2015 Apr 16;350:h2036. doi: 10.1136/bmj.h2036",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "readingDepth": "targeted primary text",
+      "reading": "Abstract and selected paired-targeted/exome comparison, alignment, calling, coverage/error and manual-inspection methods.",
+      "claimScope": "The 2015 study pipelines and populations do not establish universal current accuracy, normal sampling or every variant class."
+    },
+    {
+      "pmid": "27433843",
+      "doi": "10.1056/nejmoa1604958",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "firstAuthor": "Zaretsky",
+      "year": 2016,
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "27480667",
+            "reference": "Nat Rev Clin Oncol. 2016 Sep;13(9):528-9. doi: 10.1038/nrclinonc.2016.126",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "27579640",
+            "reference": "N Engl J Med. 2016 Sep 1;375(9):888-9. doi: 10.1056/NEJMe1606042",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "28090528",
+            "reference": "Ann Transl Med. 2016 Dec;4(23):472. doi: 10.21037/atm.2016.11.05",
+            "type": "Comment in",
+            "orderIn": 3
+          },
+          {
+            "source": "MED",
+            "id": "28149908",
+            "reference": "Ann Transl Med. 2016 Dec;4(24):547. doi: 10.21037/atm.2016.12.21",
+            "type": "Comment in",
+            "orderIn": 4
+          },
+          {
+            "source": "MED",
+            "id": "28239464",
+            "reference": "J Immunother Cancer. 2017 Feb 21;5:10. doi: 10.1186/s40425-017-0212-y",
+            "type": "Comment in",
+            "orderIn": 5
+          }
+        ]
+      },
+      "readingDepth": "abstract only",
+      "reading": "Complete raw abstract read; retrieved article body is not newly assessed here.",
+      "claimScope": "Four acquired-resistance melanoma cases, including a B2M/class-I-loss finding; no universal presentation-defect or vaccine-effect frequency."
+    },
+    {
+      "pmid": "24885028",
+      "doi": "10.1186/1755-8794-7-23",
+      "title": "Sequence artefacts in a prospective series of formalin-fixed tumours tested for mutations in hotspot regions by massively parallel sequencing.",
+      "firstAuthor": "Wong",
+      "year": 2014,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": null,
+      "readingDepth": "abstract only",
+      "reading": "Complete raw abstract read; PMC efetch returned HTTP 429 and no article-body read is claimed.",
+      "claimScope": "Named formalin-fixed cohort and artefact observations, not a general false-positive fraction or assay threshold."
+    },
+    {
+      "pmid": "22790179",
+      "doi": "10.1038/nri3254",
+      "title": "Cross-presentation by dendritic cells.",
+      "firstAuthor": "Joffre",
+      "year": 2012,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": null,
+      "readingDepth": "review abstract only",
+      "reading": "Complete raw review abstract read.",
+      "claimScope": "Definition/background on exogenous-antigen class-I display and dendritic-cell pathways; not a newly read original cross-presentation experiment."
+    },
+    {
+      "pmid": "37165196",
+      "doi": "10.1038/s41586-023-06063-y",
+      "title": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+      "firstAuthor": "Rojas",
+      "year": 2023,
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "titleAuthorYearAndDoiMatch": true,
+      "abstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "registryComments": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37163684",
+            "reference": "Cancer Discov. 2023 Jul 7;13(7):1504. doi: 10.1158/2159-8290.CD-NB2023-0038.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "37453413",
+            "reference": "Med. 2023 Jul 14;4(7):395-397. doi: 10.1016/j.medj.2023.06.004.",
+            "type": "Comment in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "readingDepth": "abstract only",
+      "reading": "Complete raw abstract read; PMC body was retrieved but is not counted as read.",
+      "claimScope": "Phase 1 pancreatic regimen with surgery, atezolizumab, autogene cevumeran and chemotherapy; immune-response association is not an isolated vaccine causal effect."
+    }
+  ],
+  "otherReadings": [
+    {
+      "source": "NCI Cancer Treatment Vaccines",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines",
+      "scope": "Main-body text read; general vaccine/DC mechanism used. Its older therapy lists and label claims are not newly certified."
+    },
+    {
+      "source": "NHGRI DNA Sequencing Fact Sheet",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+      "scope": "Main-body text read; definition used. Historical technology, cost and programme descriptions are not adopted as current estimates."
+    },
+    {
+      "source": "OpenStax Biology 2e 42.2",
+      "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+      "scope": "Adaptive-response opening, presentation and activation context read; not a whole textbook or endorsement of every simplification."
+    },
+    {
+      "source": "OpenStax Anatomy and Physiology 2e 21.3",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+      "scope": "Selected receptor, peptide-MHC, clonal selection and expansion paragraphs; not a whole chapter or universal cross-reactivity claim."
+    },
+    {
+      "source": "MedlinePlus variant origin",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "scope": "Inherited, acquired, de novo, mosaic and non-disease variant paragraphs read."
+    },
+    {
+      "source": "MedlinePlus exome/genome scope",
+      "url": "https://medlineplus.gov/genetics/understanding/testing/sequencing/",
+      "scope": "Main definition text read; intended territory is not proof of complete clinical coverage."
+    },
+    {
+      "source": "Merck/Moderna announcement",
+      "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "scope": "Targeted 19 August 2026 interim endpoint report, combination/population and up-to-34 antigen description. Company attribution retained; not peer-reviewed outcomes or regulatory approval."
+    },
+    {
+      "source": "ClinicalTrials.gov NCT05933577",
+      "url": "https://clinicaltrials.gov/study/NCT05933577",
+      "scope": "Identification, phase, arms and named endpoints inspected; registry last update is 24 September 2025. It does not independently verify the later company readout."
+    },
+    {
+      "source": "Selected V940/autogene registry searches",
+      "scope": "Identity, phase, status and update fields inspected for selected examples. The searches are not an exhaustive development landscape or complete protocol/outcome review.",
+      "examples": [
+        {
+          "id": "NCT06307431",
+          "title": "A Study of Adjuvant Intismeran Autogene (V940) and Pembrolizumab in Renal Cell Carcinoma (V940-004).",
+          "phase": [
+            "PHASE2"
+          ],
+          "status": "ACTIVE_NOT_RECRUITING",
+          "statusVerifiedDate": "2026-06",
+          "lastUpdatePosted": "2026-07-13",
+          "whyStopped": null
+        },
+        {
+          "id": "NCT06077760",
+          "title": "A Study of Intismeran Autogene (V940) Plus Pembrolizumab (MK-3475) Versus Placebo Plus Pembrolizumab in Participants With Non-small Cell Lung Cancer (V940-002)",
+          "phase": [
+            "PHASE3"
+          ],
+          "status": "ACTIVE_NOT_RECRUITING",
+          "statusVerifiedDate": "2026-09",
+          "lastUpdatePosted": "2026-09-18",
+          "whyStopped": null
+        },
+        {
+          "id": "NCT06295809",
+          "title": "A Study of (Neo)Adjuvant Intismeran Autogene (V940) and Pembrolizumab in Cutaneous Squamous Cell Carcinoma (V940-007)",
+          "phase": [
+            "PHASE2",
+            "PHASE3"
+          ],
+          "status": "TERMINATED",
+          "statusVerifiedDate": "2026-04",
+          "lastUpdatePosted": "2026-05-08",
+          "whyStopped": "Business reasons"
+        },
+        {
+          "id": "NCT06305767",
+          "title": "A Clinical Study of Intismeran Autogene (V940) Treatment and Pembrolizumab in People With Bladder Cancer (V940-005/INTerpath-005)",
+          "phase": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "status": "ACTIVE_NOT_RECRUITING",
+          "statusVerifiedDate": "2026-01",
+          "lastUpdatePosted": "2026-01-13",
+          "whyStopped": null
+        },
+        {
+          "id": "NCT05968326",
+          "title": "A Study of the Efficacy and Safety of Adjuvant Autogene Cevumeran Plus Atezolizumab and mFOLFIRINOX Versus mFOLFIRINOX Alone in Participants With Resected PDAC",
+          "phase": [
+            "PHASE2"
+          ],
+          "status": "ACTIVE_NOT_RECRUITING",
+          "statusVerifiedDate": "2026-09",
+          "lastUpdatePosted": "2026-09-09",
+          "whyStopped": null
+        }
+      ]
+    }
+  ],
+  "failedOrNonBodySources": [
+    {
+      "file": "pmc-ffpe.xml",
+      "httpStatus": 429,
+      "usedFor": "No body claim; the resolved abstract supplies the bounded fixation observation."
+    },
+    {
+      "file": "nhgri-somatic-mutation.html",
+      "httpStatus": 404,
+      "usedFor": "Not used; MedlinePlus and the resolved Razavi abstract provide the stated origin context."
+    }
+  ],
+  "elicitation": {
+    "callableElicitToolUsed": false,
+    "newElicitReports": [],
+    "newFrozenLiteratureOccurrences": 0,
+    "scope": "Primary follow-up checks for these curriculum guides, not new Elicit output or a change to the 917-occurrence discovery denominator."
+  },
+  "captures": [
+    {
+      "file": "crossref-rojas.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41586-023-06063-y?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41586-023-06063-y?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 39655,
+      "sha256": "690d35e3845a6800e5459d3cce2b7d14f2f39f4d586ef8125ace419e0c8fbfd1",
+      "seconds": 0.35
+    },
+    {
+      "file": "pmc-rojas.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10171177&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10171177&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 216110,
+      "sha256": "60416b0104c572fa990667b96178a7b127a1fdfd47a297ff9c4a9a09ac548273",
+      "seconds": 0.47
+    },
+    {
+      "file": "medlineplus-variant-origin.html",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "finalURL": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 28237,
+      "sha256": "d969a7edd576e7dd4f07b7f6a333b7d5693a1e8b0d74355fd7bf01a0c6470841",
+      "seconds": 0.49
+    },
+    {
+      "file": "epmc-31768066.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31768066+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31768066+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 20089,
+      "sha256": "070eb3eeea34dddd10f7c3f50ae15b6f1d525902ebf7f6e6266a330d9fd6c6c1",
+      "seconds": 0.71
+    },
+    {
+      "file": "interpath-programs-registry.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=V940&pageSize=100&format=json",
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies?query.intr=V940&pageSize=100&format=json",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 415655,
+      "sha256": "30b594073909c7234c1e22793a8e579e9f4d50b99aedd2d8658f4af353edc75a",
+      "seconds": 0.27
+    },
+    {
+      "file": "autogene-programs-registry.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=autogene+cevumeran&pageSize=100&format=json",
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies?query.intr=autogene+cevumeran&pageSize=100&format=json",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 210717,
+      "sha256": "a670aac7d9d0cbb0659ec0731de9c307c04680aebca18d47fe3e0d8bcfe90ae2",
+      "seconds": 0.34
+    },
+    {
+      "file": "crossref-31768066.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41591-019-0652-7?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41591-019-0652-7?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 37264,
+      "sha256": "91b6ca5fa01c30db759a02a333d1d97204f47480e4e08d1a9b06b817b037f6d1",
+      "seconds": 0.32
+    },
+    {
+      "file": "query-carter.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Absolute+quantification+of+somatic+DNA+alterations+in+human+cancer%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Absolute+quantification+of+somatic+DNA+alterations+in+human+cancer%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 9910,
+      "sha256": "07078ba6a449857f75e74930237271be2a823287bda2cd0e9215e3b0c8eb89c5",
+      "seconds": 1.11
+    },
+    {
+      "file": "query-jones.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personalized+genomic+analyses+for+cancer+mutation+discovery+and+interpretation%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personalized+genomic+analyses+for+cancer+mutation+discovery+and+interpretation%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11304,
+      "sha256": "129198284d354061c2a4b37439b1700af1117dd757df6e8cd6cddbb2a6b2fc4a",
+      "seconds": 3.03
+    },
+    {
+      "file": "query-zaretsky.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Mutations+Associated+with+Acquired+Resistance+to+PD-1+Blockade+in+Melanoma%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Mutations+Associated+with+Acquired+Resistance+to+PD-1+Blockade+in+Melanoma%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 28809,
+      "sha256": "cdac3fa61992dd32b293f8fcd7ec12553bef0ae910452a5dcdd1fdf4ee54256b",
+      "seconds": 2.33
+    },
+    {
+      "file": "query-ffpe.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Sequence+artefacts+in+a+prospective+series+of+formalin-fixed+tumours+tested+for+mutations+in+hotspot+regions+by+massively+parallel+sequencing%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Sequence+artefacts+in+a+prospective+series+of+formalin-fixed+tumours+tested+for+mutations+in+hotspot+regions+by+massively+parallel+sequencing%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8919,
+      "sha256": "7720ec0f6ce81e72b7cdcf9406a1a93eb136eb4257bbd60639d60909172e9a5e",
+      "seconds": 0.72
+    },
+    {
+      "file": "query-cross-presentation.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Cross-presentation+by+dendritic+cells%22+AND+FIRST_PDATE%3A%5B2012-01-01+TO+2012-12-31%5D&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Cross-presentation+by+dendritic+cells%22+AND+FIRST_PDATE%3A%5B2012-01-01+TO+2012-12-31%5D&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 16183,
+      "sha256": "9c12f4dce0eba2ed913e7f4ec5618d2ec714e2806075a8bebdee47c4dfc80e27",
+      "seconds": 3.05
+    },
+    {
+      "file": "openstax-adaptive.html",
+      "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+      "finalURL": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 423648,
+      "sha256": "7c92a6ea62927acac7d3c37c0db9bf2bc1fc0eb8ba693a4707b4da57a803c0f1",
+      "seconds": 0.13
+    },
+    {
+      "file": "openstax-t-lymphocytes.html",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+      "finalURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 371353,
+      "sha256": "b58c7a71d28934c91f7c51f65378631d5bd0c3e3bc99ba76acf7e233b02218c0",
+      "seconds": 0.11
+    },
+    {
+      "file": "crossref-carter.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fnbt.2203?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnbt.2203?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 25148,
+      "sha256": "439f4539ced106e68ffde9ccab34fcdeb5199ba1f72526c0137af4f84f886f6f",
+      "seconds": 0.33
+    },
+    {
+      "file": "pmc-carter.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4383288&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4383288&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 185091,
+      "sha256": "077ba695e676b126380555cf53fcbe49110e5d02d282f5b830827b0e540da3f1",
+      "seconds": 0.65
+    },
+    {
+      "file": "crossref-jones.json",
+      "url": "https://api.crossref.org/works/10.1126%2Fscitranslmed.aaa7161?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1126%2Fscitranslmed.aaa7161?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 10867,
+      "sha256": "fbb7653b490a3e303db0f0291ef8b778678d0041beeef60319e4745710ebd375",
+      "seconds": 0.27
+    },
+    {
+      "file": "pmc-jones.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4442685&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4442685&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 146470,
+      "sha256": "cdd3046582c7ae36cc8353bd42fc3af52fc1b264850c89b984a13db09bad4a35",
+      "seconds": 0.58
+    },
+    {
+      "file": "crossref-zaretsky.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1604958?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa1604958?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 9036,
+      "sha256": "9a60226dc6ac43095dccb9131699551db34838af727afa03ab9368f3d7d26737",
+      "seconds": 0.28
+    },
+    {
+      "file": "pmc-zaretsky.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5007206&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5007206&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 79741,
+      "sha256": "1d75b591457e747fe47c8027d51c907beb75146588587df621e5cc16e2a8c560",
+      "seconds": 0.47
+    },
+    {
+      "file": "crossref-ffpe.json",
+      "url": "https://api.crossref.org/works/10.1186%2F1755-8794-7-23?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1186%2F1755-8794-7-23?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 19973,
+      "sha256": "5f1d7f03d766eaa99b0bcbb75e914bec15f1da413333ced359913d26cad8417c",
+      "seconds": 0.31
+    },
+    {
+      "file": "pmc-ffpe.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4032349&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4032349&retmode=xml",
+      "httpStatus": 429,
+      "contentType": "application/json",
+      "bytes": 112,
+      "sha256": "25911668485fe4435fb4bbafb76000cec9efc58106668d5605fa2d671279c63f",
+      "seconds": 0.13
+    },
+    {
+      "file": "crossref-cross-presentation.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fnri3254?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnri3254?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 77986,
+      "sha256": "4a50c237de61d1d1b80e1c47f7db3b934077ba00d31595660665135759781feb",
+      "seconds": 0.4
+    },
+    {
+      "file": "moderna-interpath-announcement.html",
+      "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "finalURL": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma",
+      "httpStatus": 200,
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 332367,
+      "sha256": "de05c4b0aeced0119c523e58789fb632e21f300684b3d65acee684d22e601e5d",
+      "seconds": 0.44
+    },
+    {
+      "file": "interpath001-registry.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05933577",
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT05933577",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 42527,
+      "sha256": "e1e34fa4b285860c9572109bc2fdd2466e2a3fa1817e98d74fb00ebd00749933",
+      "seconds": 0.18
+    },
+    {
+      "file": "query-rojas.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personalized+RNA+neoantigen+vaccines+stimulate+T+cells+in+pancreatic+cancer%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personalized+RNA+neoantigen+vaccines+stimulate+T+cells+in+pancreatic+cancer%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 27224,
+      "sha256": "abe879648302f0eb6405abd28aa8e02322a175c80783802ca36948bd614e0756",
+      "seconds": 2.93
+    },
+    {
+      "file": "nhgri-somatic-mutation.html",
+      "url": "https://www.genome.gov/genetics-glossary/Somatic-Mutation",
+      "finalURL": "https://www.genome.gov/genetics-glossary/Somatic-Mutation",
+      "httpStatus": 404,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 191071,
+      "sha256": "c8e34048038c49d2f0af6c32e2f67a2b9505fde9b3ee77e8f817ea232ca7962f",
+      "seconds": 0.59
+    },
+    {
+      "file": "epmc-33038342.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33038342+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33038342+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 30102,
+      "sha256": "59008ee8cbd846e0b6556ecf3197ed343e77201015c6f74295396659ac369389",
+      "seconds": 0.86
+    },
+    {
+      "file": "epmc-9872319.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9872319+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9872319+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7289,
+      "sha256": "04dbb320824e67edfc1ee4c508805499a9c427cfc3443fa7f2892065aa9ea262",
+      "seconds": 0.71
+    },
+    {
+      "file": "epmc-27281205.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27281205+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27281205+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 18815,
+      "sha256": "60caae06fbac78e242c616d21eaaa5c3840196161d111166a573189b2391c5be",
+      "seconds": 0.9
+    },
+    {
+      "file": "nci-treatment-vaccines.html",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines",
+      "finalURL": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 48188,
+      "sha256": "dd534491d6a9c6661a2d229111f94e66a0d90c9d2c523e547d481ab27d3bdcca",
+      "seconds": 0.58
+    },
+    {
+      "file": "nhgri-sequencing.html",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+      "finalURL": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 210624,
+      "sha256": "3a7c126a9b31d839c4150e435f5491ad6e012787147707500998195527e2ab62",
+      "seconds": 0.63
+    },
+    {
+      "file": "crossref-33038342.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.09.015?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.09.015?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 48244,
+      "sha256": "0718408c185a18706ca225a55e5be986489a2d02b529e1c624d0d501afa857af",
+      "seconds": 0.38
+    },
+    {
+      "file": "pmc-33038342.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7652061&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7652061&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 218919,
+      "sha256": "c73e828211ba36b7df8dadd9cf3e2b6453ebcaab06d96ffd972229473915c668",
+      "seconds": 0.56
+    },
+    {
+      "file": "crossref-9872319.json",
+      "url": "https://api.crossref.org/works/10.1038%2F25374?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2F25374?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 14600,
+      "sha256": "b1abab7eb12c1ceb172bf4d71950e0f95c5f07a4e879033a0860cd6a88a0610a",
+      "seconds": 0.32
+    },
+    {
+      "file": "crossref-27281205.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fnature18300?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnature18300?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 27085,
+      "sha256": "5e4e74c9d18847c2709a1df010025cf393814a9063c687af958bdd55eaa2f2d8",
+      "seconds": 0.32
+    },
+    {
+      "file": "medlineplus-exome-genome.html",
+      "url": "https://medlineplus.gov/genetics/understanding/testing/sequencing/",
+      "finalURL": "https://medlineplus.gov/genetics/understanding/testing/sequencing/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 28567,
+      "sha256": "041daea960a3f8db9333efda0e48cbfec6ad05c8869c9e862f112f431760825c",
+      "seconds": 1.09
+    }
+  ]
+}

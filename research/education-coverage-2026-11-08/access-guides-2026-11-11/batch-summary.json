@@ -1,0 +1,43 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Implemented in unmerged audit draft; one source supplier-frequency claim stays partial and unadopted. Broader audit remains active.",
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "sourceVersions": 12,
+  "sectionSignatures": 124,
+  "uniqueRows": 120,
+  "countsByVersion": {
+    "original": {
+      "pages": 6,
+      "sections": 62,
+      "allRows": 110,
+      "substantive": 98,
+      "representedAtStatedScope": 97,
+      "partial": 1,
+      "recapAndScopeMetadata": 12
+    },
+    "later": {
+      "pages": 6,
+      "sections": 62,
+      "allRows": 120,
+      "substantive": 108,
+      "representedAtStatedScope": 107,
+      "partial": 1,
+      "recapAndScopeMetadata": 12
+    }
+  },
+  "changedCanonicalOwners": 9,
+  "newCanonicalIds": 0,
+  "connectedNotesAdded": 17,
+  "exactFieldReferences": 159,
+  "priorProofRebases": 64,
+  "completeParagraphChecks": 209,
+  "embeddedDiagramInstances": 6,
+  "distinctDiagramCodes": 4,
+  "themeRendersViewed": 8,
+  "wholeOriginalPapersRead": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

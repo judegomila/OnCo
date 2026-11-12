@@ -1,0 +1,865 @@
+{
+  "dataCommit": "2de4cac995426bdca7c9555b221838b3335f41ff",
+  "existingOwnersChanged": [
+    "cfdna",
+    "clonal-haematopoiesis",
+    "ctdna-imaging-discordance",
+    "ctdna-units",
+    "mrd-testing",
+    "paper-magbanua-ispy2-ctdna-neoadjuvant-ann-oncol-2021",
+    "tumour-informed-assay"
+  ],
+  "newCanonicalIds": [],
+  "newConnectedNotes": 15,
+  "literalFieldChanges": [
+    {
+      "id": "cfdna",
+      "before": {
+        "tldr": "Short pieces of DNA floating in the blood, shed by dying cells all over the body. Most is from normal cells; the small tumour-derived fraction (ctDNA) is what liquid biopsies fish out.",
+        "summary": "A tube of blood contains nanograms of cell-free DNA, of which tumour DNA may be 0.01-10%. Assays detect it by deep sequencing with error correction (Guardant360, FoundationOne Liquid, MSK-ACCESS), by tumour-informed panels built from the patient's own tumour mutations (Signatera, RaDaR), or by methylation and fragment-size patterns that also reveal the tissue of origin (Galleri, fragmentomics). Uses span genotyping when tissue is scarce, resistance monitoring, MRD after surgery and multi-cancer screening. Pitfalls are CHIP-derived variants, low shedding by some tumours (brain, kidney) and pre-analytic handling, hence dedicated collection tubes.",
+        "notes": [
+          "Source classes: cfDNA is DNA outside intact cells in a sample, and ctDNA is the tumour-derived part of that pool, so the two are related materials and not rival tests. In healthy donors a methylation atlas of 25 tissues and cell types attributed plasma cfDNA to white blood cells (55%), erythrocyte progenitors (30%), vascular endothelial cells (10%) and hepatocytes (1%) (Moss 2018). A tumour adds DNA only when it contributes, and the tumour share may be small or absent in the sample drawn even when cancer exists elsewhere.",
+          "Scale: plasma DNA fragments show a pattern reminiscent of nuclease-cleaved nucleosomes with a peak at 166 base pairs (Lo 2010, in maternal plasma), and tumour-derived fragments are enriched at 90 to 150 base pairs (Mouliere 2018). One assay input in a breast-cancer comparison was 4,500 amplifiable copies, about 15 nanograms (Santonja 2023), and at about 3.3 picograms per haploid genome copy 1 nanogram is roughly 300 copies (arithmetic from genome size). In a fictional single-locus model with 4,500 amplifiable opportunities and target-allele probability 1 in 100,000, the expected target count is 0.045. The target-allele probability is not automatically a tumour-DNA fraction: copy number, variant multiplicity and clone representation matter.",
+          "Yield is not origin: in a fictional experiment equal 1 mL plasma aliquots give 2 and 4 nanograms of cfDNA and no tumour-attributed signal is reported. Total DNA doubled, but tumour fraction and any tumour-DNA fold change cannot be calculated because tumour attribution was not measured. A fragment's source needs evidence such as paired white-blood-cell and tumour sequencing (Razavi 2019), and a variant seen in plasma is not automatically tumour-derived.",
+          "Method card: measures selected features of plasma DNA by a stated sequencing or molecular method, from a finite plasma aliquot that testing consumes. Output is detected or not detected, variant fractions, molecule concentrations or model estimates, each with its own unit. It cannot give an all-body cell count, lesion location, viability or treatment benefit, and validity belongs to the exact specimen, assay version and intended use.",
+          "Collection conditions can change the mixture before testing: blood-cell breakdown adds genomic DNA and can dilute a tumour fraction. The NCI biospecimen practices document, revised February 2025, prefers plasma to serum. Its protocol recommends EDTA, accepts acid citrate dextrose, and advises avoiding heparin and citrate; the literature-summary section separately reports results with several anticoagulants when processing was immediate. For EDTA blood the protocol prefers centrifugation within 2 hours and accepts up to 4 hours at room temperature or 24 hours at 4 degrees Celsius; it recommends stabilising tubes for anticipated delays over 2 hours. These are recommendations for that specimen workflow, not a universal acceptance rule for every assay. Extraction and library preparation then retain only some available molecules, so the volume drawn is not the volume evaluated.",
+          "Reading an assay report starts with the specimen and collection date, the plasma volume actually evaluated, DNA quality and recovery, origin checks, and the rule that turns a signal into a call. Low shedding, damaged input or failed quality controls can limit interpretation; a failed assay is a separate result from no qualifying signal. Genotyping, response monitoring and residual-disease detection are different intended uses. In its November 2024 drug-development guidance, FDA asks for validation of the complete workflow, representative clinical samples, the input range and prespecified calling cut-offs; validation of one use does not establish another."
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "tldr": "Cell-free DNA is DNA outside intact cells in a collected sample. Tumour-derived DNA is one possible part of that mixture; its amount depends on the specimen and method.",
+        "summary": "Cell-free DNA (cfDNA) is DNA outside intact cells in a specimen. Circulating tumour DNA (ctDNA) is the tumour-derived part of the plasma DNA mixture, rather than a different material competing with cfDNA. DNA from non-tumour tissues can contribute much of that mixture, as illustrated by Moss and colleagues' methylation-atlas study. Total extracted DNA is therefore not a tumour measurement. A finite evaluated aliquot can contain no qualifying tumour signal even when disease exists elsewhere.\n\nLiquid biopsy describes a specimen approach. A test may track known tumour features, look for predefined mutation, methylation or fragment patterns, or profile detectable alterations. Its target coverage, origin checks, sample requirements and calling rule determine the claim. Genotyping, residual-disease monitoring and screening have different intended uses; a method label does not validate every use or locate the source of a plasma signal.",
+        "notes": [
+          "Source classes: cfDNA is DNA outside intact cells in a sample, and ctDNA is the tumour-derived part of that pool, so the two are related materials and not rival tests. In healthy donors a methylation atlas of 25 tissues and cell types attributed plasma cfDNA to white blood cells (55%), erythrocyte progenitors (30%), vascular endothelial cells (10%) and hepatocytes (1%) (Moss 2018). A tumour adds DNA only when it contributes, and the tumour share may be small or absent in the sample drawn even when cancer exists elsewhere.",
+          "Scale: plasma DNA fragments show a pattern reminiscent of nuclease-cleaved nucleosomes with a peak at 166 base pairs (Lo 2010, in maternal plasma), and tumour-derived fragments are enriched at 90 to 150 base pairs (Mouliere 2018). One assay input in a breast-cancer comparison was 4,500 amplifiable copies, about 15 nanograms (Santonja 2023), and at about 3.3 picograms per haploid genome copy 1 nanogram is roughly 300 copies (arithmetic from genome size). In a fictional single-locus model with 4,500 amplifiable opportunities and target-allele probability 1 in 100,000, the expected target count is 0.045. The target-allele probability is not automatically a tumour-DNA fraction: copy number, variant multiplicity and clone representation matter.",
+          "Yield is not origin: in a fictional experiment equal 1 mL plasma aliquots give 2 and 4 nanograms of cfDNA and no tumour-attributed signal is reported. Total DNA doubled, but tumour fraction and any tumour-DNA fold change cannot be calculated because tumour attribution was not measured. A fragment's source needs evidence such as paired white-blood-cell and tumour sequencing (Razavi 2019), and a variant seen in plasma is not automatically tumour-derived.",
+          "Method card: measures selected features of plasma DNA by a stated sequencing or molecular method, from a finite plasma aliquot that testing consumes. Output is detected or not detected, variant fractions, molecule concentrations or model estimates, each with its own unit. It cannot give an all-body cell count, lesion location, viability or treatment benefit, and validity belongs to the exact specimen, assay version and intended use.",
+          "Collection conditions can change the mixture before testing: blood-cell breakdown adds genomic DNA and can dilute a tumour fraction. The NCI biospecimen practices document, revised February 2025, prefers plasma to serum. Its protocol recommends EDTA, accepts acid citrate dextrose, and advises avoiding heparin and citrate; the literature-summary section separately reports results with several anticoagulants when processing was immediate. For EDTA blood the protocol prefers centrifugation within 2 hours and accepts up to 4 hours at room temperature or 24 hours at 4 degrees Celsius; it recommends stabilising tubes for anticipated delays over 2 hours. These are recommendations for that specimen workflow, not a universal acceptance rule for every assay. Extraction and library preparation then retain only some available molecules, so the volume drawn is not the volume evaluated.",
+          "Reading an assay report starts with the specimen and collection date, the plasma volume actually evaluated, DNA quality and recovery, origin checks, and the rule that turns a signal into a call. Low shedding, damaged input or failed quality controls can limit interpretation; a failed assay is a separate result from no qualifying signal. Genotyping, response monitoring and residual-disease detection are different intended uses. In its November 2024 drug-development guidance, FDA asks for validation of the complete workflow, representative clinical samples, the input range and prespecified calling cut-offs; validation of one use does not establish another.",
+          "A useful result ledger keeps six questions together: when the sample was collected and where that date sits relative to treatment or surgery; the assay and version; the specimen, evaluated input and quality qualifications; the reported state, including detected, not detected, indeterminate or failed; the quantity, unit and numerical qualifications; and the applicable detection and quantitation criteria. Keep the report-release date separately. Two reports arriving together may describe different biological moments, and an invalid sample or failed reference build is not a negative plasma result.",
+          "In a fictional comparison, one assay reports not detected and another reports a low detected signal. That alone does not identify an erroneous test. Compare the actual samples and collection dates, targets, input, controls and calling criteria before interpreting the disagreement. A valid negative says that the evaluated sample did not meet that method's qualifying-signal rule. It cannot distinguish every possibility: there may be no residual tumour signal, too few relevant fragments may have reached the aliquot, or the tracked features may not represent the remaining cells. This reading exercise sets no repeat-draw schedule."
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "C1",
+          "text": "A useful result ledger keeps six questions together: when the sample was collected and where that date sits relative to treatment or surgery; the assay and version; the specimen, evaluated input and quality qualifications; the reported state, including detected, not detected, indeterminate or failed; the quantity, unit and numerical qualifications; and the applicable detection and quantitation criteria. Keep the report-release date separately. Two reports arriving together may describe different biological moments, and an invalid sample or failed reference build is not a negative plasma result."
+        },
+        {
+          "key": "C2",
+          "text": "In a fictional comparison, one assay reports not detected and another reports a low detected signal. That alone does not identify an erroneous test. Compare the actual samples and collection dates, targets, input, controls and calling criteria before interpreting the disagreement. A valid negative says that the evaluated sample did not meet that method's qualifying-signal rule. It cannot distinguish every possibility: there may be no residual tumour signal, too few relevant fragments may have reached the aliquot, or the tracked features may not represent the remaining cells. This reading exercise sets no repeat-draw schedule."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "006bd531f1caaef1d5bb100b4ba98c80d487bde3da43d6dc7896783f1b1d985b",
+        "summary": "f7c624a8ac430f6e722b6cd7e1cb2110558d983226bd97711606ba7122e72cae",
+        "notes": "2a8dc0f612a29591b5370e54d4e9944854429eed4a107bfa133a98ea3edd1e86",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "tldr": "c2f5a48c64637b0c10870971600352b8726d83e9f7cab22c8cc3090fc513cd17",
+        "summary": "02ad84a8d6062c1a91eb6d91dc049a94ae9cc69adfa2629b22abb759d99f24bb",
+        "notes": "6d141dfd1f3a15cdede70e47e6f1e73c245b7a4dcc4e40bc8433828ce1b89c4d",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "tumour-informed-assay",
+      "before": {
+        "summary": "Tumour-informed assays (Signatera, RaDaR) sequence the resected tumour, choose a set of clonal mutations, and track them in plasma at high depth, which gives high specificity and lets a positive be called on very few molecules; the cost is a tumour sample, a bespoke panel per patient and a longer first turnaround. Tumour-naive assays (Guardant Reveal and most multi-cancer tests) apply a fixed panel of mutations and methylation or fragmentation features to every sample, so they work without tissue and from the first draw, at the price of having to distinguish tumour signal from clonal haematopoiesis and other background. Trials so far have used tumour-informed tests for treatment decisions (DYNAMIC used a tumour-informed approach; IMvigor011 used Signatera), while screening tests are necessarily tumour-naive. Head-to-head sensitivity comparisons are few, and results are not interchangeable between assays.",
+        "notes": [
+          "Design contract, from the FDA guidance of November 2024: a tumour-informed approach sequences the tumour and selects variants to follow. Its stated advantage is potentially higher specificity, and its limits include lag between tumour testing and panel creation, possible failure to detect mutations that emerge after tumour sampling or revert, and dependence on the number and reliability of selected targets, which may be better for tumours with higher mutation burden and well-characterised hotspot variants. A tumour-naive or tumour-agnostic panel is generic, with faster turnaround as its stated advantage and tumour biomarkers outside the panel as a limit. Both still meet the same finite plasma tube, background attribution and calling rules.",
+          "Same-sample comparison: in serial plasma from people with breast cancer, tumour-informed assays showed the highest sensitivity at low ctDNA levels, with hybrid-capture sequencing of 1,347 to 7,491 tumour-identified mutations detecting an allele fraction of 2.4 parts per million and multiplex PCR across 21 to 47 structural variants reaching 4.7 parts per million (Santonja 2023). Each added tracked variant is another largely independent chance to catch a tumour fragment, and the theoretical limit 1 / (input copies x variants) falls as variants rise, but it applies to that assay and does not rank product categories.",
+          "Comparability, fictional: two studies report 90% and 75% detection, the first before treatment and the second after surgery. The higher percentage does not show the better assay, because disease burden, timing, case mix, missing samples and outcome definitions differ. A suitable comparison aligns these conditions, ideally on the same samples with prespecified rules. Labels such as tumour-naive, tumour-agnostic and tissue-free are method labels that need definition and do not establish that a test detects every cancer.",
+          "Choosing a reference strategy is a fit question. Available tumour tissue and very low expected signal can favour tracking many known tumour features, as in the same-sample Santonja comparison. A predefined assay can begin without building a patient-specific tumour reference, which may matter when tissue is unavailable or time is limited. Looking for newly emerged resistance variants requires coverage of those variants: a broader predefined panel may include them, but neither category detects features outside its measured scope. These are design considerations rather than a general ranking of sensitivity or clinical benefit.",
+          "In a fictional workflow, method A must select a fixed variant list from suitable tumour DNA before testing later plasma, while method B already has a predefined validated detector. If tumour DNA is unavailable but qualifying plasma is available, B can start as specified and A cannot build its reference yet. Reference-build failure is not a negative plasma result. Neither fixed list establishes detection outside its features, and a tumour reference and a blood-cell-origin filter address different questions.",
+          "The reference and plasma workflows both have acceptance rules. Tumour material can be insufficient or unrepresentative, tracked features can be lost or absent from another clone, and plasma can have low signal, poor recovery or background. Keep the initial tissue and matched-normal requirements separate from the later consumed plasma aliquot. FDA's November 2024 guidance asks for evaluation of the complete workflow, actual panel designs, representative clinical specimens, input ranges and sampling schedules; personalisation alone does not validate a clinical decision."
+        ],
+        "links": [
+          {
+            "label": "IMvigor011: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (NEJM 2025), tumour-informed Signatera",
+            "url": "https://europepmc.org/article/MED/41124204"
+          },
+          {
+            "label": "CMS article A58456: MolDX minimal residual disease testing for solid tumour cancers (lists covered tests)",
+            "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58456"
+          },
+          {
+            "label": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+            "url": "https://www.fda.gov/media/183874/download"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "summary": "A tumour-informed test uses a sampled tumour reference to select features for later tracking in plasma. The reference can come from a suitable biopsy or resection; it is not necessarily a surgically removed whole tumour or a complete inventory of tumour clones. Reference quality, selected targets, plasma input, background and the calling rule affect performance. A fixed list can miss features outside it, including variants that emerge after the reference was sampled.\n\nA tumour-naive or tumour-agnostic method uses predefined features without first building that person's tumour reference. It still needs suitable input and a validated detector, and it does not promise a complete mutation profile. FDA's November 2024 drug-development guidance describes strengths and limits of both approaches rather than a universal ranking. Santonja's same-sample breast-cancer comparison supports its particular assays at low signal, not every branded product. Magbanua's 2025 study also found retained assay variants in sampled resistant tumours from some patients with negative plasma; a negative draw does not by itself prove that the reference targets disappeared.",
+        "notes": [
+          "Design contract, from the FDA guidance of November 2024: a tumour-informed approach sequences the tumour and selects variants to follow. Its stated advantage is potentially higher specificity, and its limits include lag between tumour testing and panel creation, possible failure to detect mutations that emerge after tumour sampling or revert, and dependence on the number and reliability of selected targets, which may be better for tumours with higher mutation burden and well-characterised hotspot variants. A tumour-naive or tumour-agnostic panel is generic, with faster turnaround as its stated advantage and tumour biomarkers outside the panel as a limit. Both still meet the same finite plasma tube, background attribution and calling rules.",
+          "Same-sample comparison: in serial plasma from people with breast cancer, tumour-informed assays showed the highest sensitivity at low ctDNA levels, with hybrid-capture sequencing of 1,347 to 7,491 tumour-identified mutations detecting an allele fraction of 2.4 parts per million and multiplex PCR across 21 to 47 structural variants reaching 4.7 parts per million (Santonja 2023). Each added tracked variant is another largely independent chance to catch a tumour fragment, and the theoretical limit 1 / (input copies x variants) falls as variants rise, but it applies to that assay and does not rank product categories.",
+          "Comparability, fictional: two studies report 90% and 75% detection, the first before treatment and the second after surgery. The higher percentage does not show the better assay, because disease burden, timing, case mix, missing samples and outcome definitions differ. A suitable comparison aligns these conditions, ideally on the same samples with prespecified rules. Labels such as tumour-naive, tumour-agnostic and tissue-free are method labels that need definition and do not establish that a test detects every cancer.",
+          "Choosing a reference strategy is a fit question. Available tumour tissue and very low expected signal can favour tracking many known tumour features, as in the same-sample Santonja comparison. A predefined assay can begin without building a patient-specific tumour reference, which may matter when tissue is unavailable or time is limited. Looking for newly emerged resistance variants requires coverage of those variants: a broader predefined panel may include them, but neither category detects features outside its measured scope. These are design considerations rather than a general ranking of sensitivity or clinical benefit.",
+          "In a fictional workflow, method A must select a fixed variant list from suitable tumour DNA before testing later plasma, while method B already has a predefined validated detector. If tumour DNA is unavailable but qualifying plasma is available, B can start as specified and A cannot build its reference yet. Reference-build failure is not a negative plasma result. Neither fixed list establishes detection outside its features, and a tumour reference and a blood-cell-origin filter address different questions.",
+          "The reference and plasma workflows both have acceptance rules. Tumour material can be insufficient or unrepresentative, tracked features can be lost or absent from another clone, and plasma can have low signal, poor recovery or background. Keep the initial tissue and matched-normal requirements separate from the later consumed plasma aliquot. FDA's November 2024 guidance asks for evaluation of the complete workflow, actual panel designs, representative clinical specimens, input ranges and sampling schedules; personalisation alone does not validate a clinical decision.",
+          "Separate three test jobs. Tumour-informed monitoring asks whether selected known tumour features reached the plasma sample; it need not discover new variants outside that list. Reference-free monitoring asks whether a qualifying cancer-associated signal is present without prior tumour sequencing; it need not return a complete genomic profile. Plasma genomic profiling asks which covered alterations are detectable; it does not automatically have a dedicated low-signal monitoring assay's sensitivity. Real methods can combine features. Methylation and fragment-pattern analysis need not produce a mutation list, and a captured circulating tumour cell is a cell, a different object from cell-free DNA fragments."
+        ],
+        "links": [
+          {
+            "label": "IMvigor011: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (NEJM 2025), tumour-informed Signatera",
+            "url": "https://europepmc.org/article/MED/41124204"
+          },
+          {
+            "label": "CMS article A58456: MolDX minimal residual disease testing for solid tumour cancers (lists covered tests)",
+            "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=58456"
+          },
+          {
+            "label": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+            "url": "https://www.fda.gov/media/183874/download"
+          },
+          {
+            "label": "Magbanua et al., 2025: ctDNA refines risk stratification in neoadjuvant therapy-resistant breast tumours",
+            "url": "https://doi.org/10.1038/s41467-025-65432-5"
+          },
+          {
+            "label": "NCI: circulating tumour cell definition",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/circulating-tumor-cell"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "T1",
+          "text": "Separate three test jobs. Tumour-informed monitoring asks whether selected known tumour features reached the plasma sample; it need not discover new variants outside that list. Reference-free monitoring asks whether a qualifying cancer-associated signal is present without prior tumour sequencing; it need not return a complete genomic profile. Plasma genomic profiling asks which covered alterations are detectable; it does not automatically have a dedicated low-signal monitoring assay's sensitivity. Real methods can combine features. Methylation and fragment-pattern analysis need not produce a mutation list, and a captured circulating tumour cell is a cell, a different object from cell-free DNA fragments."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "summary": "586a8bc3978f68efaba0f81cd0cd8fe4ea4e75a3fe64beeb809a798d2acc697f",
+        "notes": "24f221e6d6383d1b88d3a5be20dd499403130c7c8e3d7456a39fc3bb1c8e2c06",
+        "links": "15c116da37f676913830433f86d08e825fda9742086b10889b754b593a2e4133",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "summary": "f9dbe09abee121c5035c5ea73f9012c67395f2d2c219e3877ac323ee3d6f1529",
+        "notes": "60064acb03593a2b38821776b99905dc663c08b0fa039c4671729bade4d47e45",
+        "links": "33f8c47a476bc0a916b03a582cf70e91a21e2f678327b7bd8534c98b9dd5ee88",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "ctdna-units",
+      "before": {
+        "notes": [
+          "Method card, what it measures: the quantity an assay states, either a count of tumour-attributed molecules per volume of plasma (a concentration), a share of a named total (a fraction), or a call. How: sequencing or PCR on one finite plasma aliquot, then a calculation the laboratory defines. Keep the unit, the denominator and the assay version attached to every value.",
+          "Table, MTM/mL: mean tumour molecules per millilitre of plasma under the assay's own calculation across its tracked features. Boundary: a concentration estimated from tracked features, not the number of cancer cells per millilitre and not a share of anything.",
+          "Table, PPM: parts per million, a fraction multiplied by one million, so 1 PPM is 0.0001% and 100 PPM is 0.01%. Boundary: name the fraction being scaled, because 100 PPM of variant alleles, of evaluated DNA and of tumour-attributed molecules are three different claims.",
+          "Table, variant allele fraction: the share of evaluated alleles at one position that carry a stated variant. Boundary: it depends on copy number, on which clones carry the variant and on the measurement, and a variant present in a blood-cell clone counts the same way as one from a tumour.",
+          "Table, tumour fraction: an estimated share of evaluated DNA attributable to tumour. Boundary: it is a model output that rests on the method and its calibration, and it is not automatically any single variant's VAF.",
+          "Fictional arithmetic, concentration against fraction: two equal 1 mL aliquots each hold 4 tumour-attributed molecules. Aliquot A also holds 16 background molecules, so 4 of 20 is 20% and the concentration is 4 molecules per mL. Aliquot B holds 36 background molecules, so 4 of 40 is 10% and the concentration is still 4 per mL. More background lowered the fraction and left the concentration alone. These toy shares are not a VAF, an estimated tumour fraction or MTM/mL.",
+          "Fictional arithmetic, rescaling: a VAF of 0.01% at Variant R equals 100 PPM of variant-supporting alleles. That does not make a tumour fraction of 100 PPM, and a second report of 0.2 MTM/mL is a concentration, so 100 and 0.2 cannot be compared or converted without the methods and calibration of both assays.",
+          "Method limit, detection against quantitation: a qualifying detection call and a reliable numerical amount have separate validation criteria. A detected value below the validated quantitative range does not support an exact fold change, and extra decimal places do not create precision.",
+          "Method limit, finite input: the plasma volume drawn is not the volume or the number of molecules recovered and evaluated. Low molecular counts, changes in background DNA, poor recovery or incompatible calibration all limit comparison across assays, and a printed zero is not a count of zero cancer cells anywhere in the body.",
+          "Evidence read: in Magbanua's 84-patient pilot of neoadjuvant treatment, ctDNA in MTM/mL was correlated with MRI functional tumour volume at every time point (Spearman rho 0.42 to 0.49). Santonja's comparison reported allele fractions down to 2.4 PPM for hybrid-capture sequencing of 1,347 to 7,491 tumour-identified mutations and 4.7 PPM for multiplex PCR of 21 to 47 structural variants. Each figure belongs to its assay and cohort.",
+          "A trend also needs the collection time, treatment context, assay version and quantitative range. In its November 2024 drug-development guidance, FDA asks for precision, accuracy and detection-limit evaluation across relevant inputs and cut-offs, using representative clinical specimens and appropriately comparable reference material. A printed number below another assay's nominal detection limit does not establish that the other assay would miss that sample: the measured quantity, specimen, input, recovery and calling rules may differ. A reference-material result is not automatically a clinical sensitivity estimate."
+        ],
+        "links": [
+          {
+            "label": "Magbanua et al., npj Breast Cancer 2021: ctDNA in mean tumour molecules per mL plasma against MRI functional tumour volume",
+            "url": "https://doi.org/10.1038/s41523-021-00239-3"
+          },
+          {
+            "label": "Santonja et al., EMBO Mol Med 2023: tumour-informed and tumour-naive ctDNA assays compared, allele fractions to 2.4 parts per million",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "FDA, Use of Circulating Tumor DNA for Curative-Intent Solid Tumor Drug Development, November 2024",
+            "url": "https://www.fda.gov/media/183874/download"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "notes": [
+          "Method card, what it measures: the quantity an assay states, either a count of tumour-attributed molecules per volume of plasma (a concentration), a share of a named total (a fraction), or a call. How: sequencing or PCR on one finite plasma aliquot, then a calculation the laboratory defines. Keep the unit, the denominator and the assay version attached to every value.",
+          "Table, MTM/mL: mean tumour molecules per millilitre of plasma under the assay's own calculation across its tracked features. Boundary: a concentration estimated from tracked features, not the number of cancer cells per millilitre and not a share of anything.",
+          "Table, PPM: parts per million, a fraction multiplied by one million, so 1 PPM is 0.0001% and 100 PPM is 0.01%. Boundary: name the fraction being scaled, because 100 PPM of variant alleles, of evaluated DNA and of tumour-attributed molecules are three different claims.",
+          "Table, variant allele fraction: the share of evaluated alleles at one position that carry a stated variant. Boundary: it depends on copy number, on which clones carry the variant and on the measurement, and a variant present in a blood-cell clone counts the same way as one from a tumour.",
+          "Table, tumour fraction: an estimated share of evaluated DNA attributable to tumour. Boundary: it is a model output that rests on the method and its calibration, and it is not automatically any single variant's VAF.",
+          "Fictional arithmetic, concentration against fraction: two equal 1 mL aliquots each hold 4 tumour-attributed molecules. Aliquot A also holds 16 background molecules, so 4 of 20 is 20% and the concentration is 4 molecules per mL. Aliquot B holds 36 background molecules, so 4 of 40 is 10% and the concentration is still 4 per mL. More background lowered the fraction and left the concentration alone. These toy shares are not a VAF, an estimated tumour fraction or MTM/mL.",
+          "Fictional arithmetic, rescaling: a VAF of 0.01% at Variant R equals 100 PPM of variant-supporting alleles. That does not make a tumour fraction of 100 PPM, and a second report of 0.2 MTM/mL is a concentration, so 100 and 0.2 cannot be compared or converted without the methods and calibration of both assays.",
+          "Method limit, detection against quantitation: a qualifying detection call and a reliable numerical amount have separate validation criteria. A detected value below the validated quantitative range does not support an exact fold change, and extra decimal places do not create precision.",
+          "Method limit, finite input: the plasma volume drawn is not the volume or the number of molecules recovered and evaluated. Low molecular counts, changes in background DNA, poor recovery or incompatible calibration all limit comparison across assays, and a printed zero is not a count of zero cancer cells anywhere in the body.",
+          "Evidence read: in Magbanua's 84-patient pilot of neoadjuvant treatment, ctDNA in MTM/mL was correlated with MRI functional tumour volume at every time point (Spearman rho 0.42 to 0.49). Santonja's comparison reported allele fractions down to 2.4 PPM for hybrid-capture sequencing of 1,347 to 7,491 tumour-identified mutations and 4.7 PPM for multiplex PCR of 21 to 47 structural variants. Each figure belongs to its assay and cohort.",
+          "A trend also needs the collection time, treatment context, assay version and quantitative range. In its November 2024 drug-development guidance, FDA asks for precision, accuracy and detection-limit evaluation across relevant inputs and cut-offs, using representative clinical specimens and appropriately comparable reference material. A printed number below another assay's nominal detection limit does not establish that the other assay would miss that sample: the measured quantity, specimen, input, recovery and calling rules may differ. A reference-material result is not automatically a clinical sensitivity estimate.",
+          "Consider a fictional assay estimating tumour fraction at 6 parts per million (PPM) and then 2 PPM. Both samples are called detected, but the second is below the assay's reliable quantitation range. The printed estimates fall by two-thirds; they do not establish that the cancer volume fell by two-thirds. Retain the qualifying calls and uncertainty, because shedding and background DNA can change the signal. A second method reporting molecules per millilitre cannot simply be placed on this fraction scale. Even a matching unit label does not establish matching calibration. Keeping serial methods and input comparable helps interpretation without removing biological variation.",
+          "The blank, detection and quantitation limits answer different questions. The blank limit is the highest apparent analyte concentration expected from replicate samples with no analyte; the detection limit is the lowest concentration reliably distinguished from that background; the quantitation limit is the lowest concentration meeting predefined bias and imprecision goals (Armbruster and Pry, 2008). Quantitation and detection limits may coincide or differ. A qualifying detection below a validated quantitative range supports presence more strongly than an exact fold change. For a read-based variant allele fraction, the denominator is informative reads covering that locus, not cancer cells or plasma volume; keep a molecule-based method's own definition instead."
+        ],
+        "links": [
+          {
+            "label": "Magbanua et al., npj Breast Cancer 2021: ctDNA in mean tumour molecules per mL plasma against MRI functional tumour volume",
+            "url": "https://doi.org/10.1038/s41523-021-00239-3"
+          },
+          {
+            "label": "Santonja et al., EMBO Mol Med 2023: tumour-informed and tumour-naive ctDNA assays compared, allele fractions to 2.4 parts per million",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "FDA, Use of Circulating Tumor DNA for Curative-Intent Solid Tumor Drug Development, November 2024",
+            "url": "https://www.fda.gov/media/183874/download"
+          },
+          {
+            "label": "Armbruster and Pry, 2008: limit of blank, detection and quantitation",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18852857/"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "U1",
+          "text": "Consider a fictional assay estimating tumour fraction at 6 parts per million (PPM) and then 2 PPM. Both samples are called detected, but the second is below the assay's reliable quantitation range. The printed estimates fall by two-thirds; they do not establish that the cancer volume fell by two-thirds. Retain the qualifying calls and uncertainty, because shedding and background DNA can change the signal. A second method reporting molecules per millilitre cannot simply be placed on this fraction scale. Even a matching unit label does not establish matching calibration. Keeping serial methods and input comparable helps interpretation without removing biological variation."
+        },
+        {
+          "key": "U2",
+          "text": "The blank, detection and quantitation limits answer different questions. The blank limit is the highest apparent analyte concentration expected from replicate samples with no analyte; the detection limit is the lowest concentration reliably distinguished from that background; the quantitation limit is the lowest concentration meeting predefined bias and imprecision goals (Armbruster and Pry, 2008). Quantitation and detection limits may coincide or differ. A qualifying detection below a validated quantitative range supports presence more strongly than an exact fold change. For a read-based variant allele fraction, the denominator is informative reads covering that locus, not cancer cells or plasma volume; keep a molecule-based method's own definition instead."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "notes": "b2760ed65fc75582ed3ddde689d458b04104580237a81de956269681e3642b44",
+        "links": "2f7a8554bc14d50730feb23a6f198064c19c3d0eff146a4f06b451eaf0a480d7",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "notes": "28a55028f4f132b3c50e698a660494ede836b315f3fb83b98db1d2986b988e6a",
+        "links": "dc43cd132434a7ea6851f6b498147e3805ce01de632dde26d298d062aa2971e9",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "ctdna-imaging-discordance",
+      "before": {
+        "notes": [
+          "Method card, what is compared: a sampled molecular signal in plasma and a regional physical signal from a named imaging protocol. Their units, dates and thresholds stay separate, and the comparison is only as good as the date alignment of the two acquisitions.",
+          "Table, blood side: input is a blood draw and the plasma and recovered DNA analysed, and testing consumes an aliquot. Output is a qualifying call plus a defined concentration or fraction, read with the assay's detection and quantitation rules. Failure modes are low shedding, finite input, poor recovery and background or blood-cell variants.",
+          "Table, imaging side: input is the imaged region and a protocol, and contrast or tracer use depends on the modality. Output is size, volume, uptake or a qualitative finding read against protocol-specific response criteria. Failure modes are artefacts, non-tumour contributions to the signal and technique that differs between visits.",
+          "Table, what each cannot tell: blood alone cannot locate a lesion or give a cell count. Imaging alone cannot count viable tumour cells, and enhancement can have more than one tissue cause. Neither agreement nor disagreement shows that a treatment change would help, which is a clinical-utility question.",
+          "Evidence read: Magbanua's pilot (84 patients, MTM/mL against MRI functional tumour volume) found correlation at T0 to T3 with rho 0.49, 0.42, 0.42 and 0.43, and its authors call the findings preliminary in a limited cohort needing larger validation. It supports partial agreement and does not set a rule for redirecting treatment.",
+          "Interpretation rule, from finite sampling: a plasma aliquot can hold no tumour molecule when the true share is small, so no qualifying ctDNA signal alongside an abnormal MRI region does not show the region is only scar. The converse holds too: a clear image does not exclude tumour DNA in blood. Each result answers only its own question.",
+          "Source attribution comes first: a positive plasma variant may come from a blood-cell clone rather than a tumour. In Razavi's paired sequencing, 53.2% of cell-free DNA mutations in 124 people with metastatic cancer and 81.6% in 47 people without cancer had features of clonal haematopoiesis, so a discordant positive needs origin checks before it is read as occult disease.",
+          "Half-life, scoped: Diehl and colleagues estimated a ctDNA half-life after surgery of 114 minutes by evaluating one subject whose plasma was sampled at several early times after complete resection in a study of 162 plasma samples from 18 subjects with colorectal cancer (Diehl 2008). That is a single-subject estimate of post-resection clearance in colorectal cancer, not a universal cfDNA half-life, a breast-cancer figure or a blood-draw schedule. DNA release and clearance can change sooner than visible tissue structure, which is a reason to align the dates of the blood and imaging acquisitions.",
+          "Use the blood collection date and imaging acquisition date to compare biology, then keep the reporting dates as a separate measure of when the information became available. Imaging does not remove a tissue aliquot for molecular analysis; contrast or tracer use belongs to the specific protocol. Agreement can reflect shared dependence on disease burden and is not two independent proofs of the same mechanism. Combining measurements into a decision rule needs validation of the combination and its intended outcome.",
+          "In a fictional early-breast-cancer example, a negative plasma result is not an examination of the breast tumour bed or regional nodes. It cannot by itself establish pathological complete response or validate skipping surgery. Using a result to remove a treatment needs evidence for that decision strategy and its clinical outcomes, beyond showing that an assay can detect a signal. This is an interpretation limit, not a claim that no omission study exists."
+        ],
+        "links": [
+          {
+            "label": "Magbanua et al., npj Breast Cancer 2021: ctDNA and MRI to predict neoadjuvant chemotherapy response and recurrence risk",
+            "url": "https://doi.org/10.1038/s41523-021-00239-3"
+          },
+          {
+            "label": "Razavi et al., Nat Med 2019: matched plasma, white-blood-cell and tumour sequencing shows how often plasma variants come from blood cells",
+            "url": "https://doi.org/10.1038/s41591-019-0652-7"
+          },
+          {
+            "label": "Diehl et al.: circulating mutant DNA to assess tumour dynamics (2008)",
+            "url": "https://doi.org/10.1038/nm.1789"
+          },
+          {
+            "label": "Schmid et al., 2020: KEYNOTE-522 pathological response assessed at surgery",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "Method card, what is compared: a sampled molecular signal in plasma and a regional physical signal from a named imaging protocol. Their units, dates and thresholds stay separate, and the comparison is only as good as the date alignment of the two acquisitions.",
+          "Table, blood side: input is a blood draw and the plasma and recovered DNA analysed, and testing consumes an aliquot. Output is a qualifying call plus a defined concentration or fraction, read with the assay's detection and quantitation rules. Failure modes are low shedding, finite input, poor recovery and background or blood-cell variants.",
+          "Table, imaging side: input is the imaged region and a protocol, and contrast or tracer use depends on the modality. Output is size, volume, uptake or a qualitative finding read against protocol-specific response criteria. Failure modes are artefacts, non-tumour contributions to the signal and technique that differs between visits.",
+          "Table, what each cannot tell: blood alone cannot locate a lesion or give a cell count. Imaging alone cannot count viable tumour cells, and enhancement can have more than one tissue cause. Neither agreement nor disagreement shows that a treatment change would help, which is a clinical-utility question.",
+          "Evidence read: Magbanua's pilot (84 patients, MTM/mL against MRI functional tumour volume) found correlation at T0 to T3 with rho 0.49, 0.42, 0.42 and 0.43, and its authors call the findings preliminary in a limited cohort needing larger validation. It supports partial agreement and does not set a rule for redirecting treatment.",
+          "Interpretation rule, from finite sampling: a plasma aliquot can hold no tumour molecule when the true share is small, so no qualifying ctDNA signal alongside an abnormal MRI region does not show the region is only scar. The converse holds too: a clear image does not exclude tumour DNA in blood. Each result answers only its own question.",
+          "Source attribution comes first: a positive plasma variant may come from a blood-cell clone rather than a tumour. In Razavi's paired sequencing, 53.2% of cell-free DNA mutations in 124 people with metastatic cancer and 81.6% in 47 people without cancer had features of clonal haematopoiesis, so a discordant positive needs origin checks before it is read as occult disease.",
+          "Half-life, scoped: Diehl and colleagues estimated a ctDNA half-life after surgery of 114 minutes by evaluating one subject whose plasma was sampled at several early times after complete resection in a study of 162 plasma samples from 18 subjects with colorectal cancer (Diehl 2008). That is a single-subject estimate of post-resection clearance in colorectal cancer, not a universal cfDNA half-life, a breast-cancer figure or a blood-draw schedule. DNA release and clearance can change sooner than visible tissue structure, which is a reason to align the dates of the blood and imaging acquisitions.",
+          "Use the blood collection date and imaging acquisition date to compare biology, then keep the reporting dates as a separate measure of when the information became available. Imaging does not remove a tissue aliquot for molecular analysis; contrast or tracer use belongs to the specific protocol. Agreement can reflect shared dependence on disease burden and is not two independent proofs of the same mechanism. Combining measurements into a decision rule needs validation of the combination and its intended outcome.",
+          "In a fictional early-breast-cancer example, a negative plasma result is not an examination of the breast tumour bed or regional nodes. It cannot by itself establish pathological complete response or validate skipping surgery. Using a result to remove a treatment needs evidence for that decision strategy and its clinical outcomes, beyond showing that an assay can detect a signal. This is an interpretation limit, not a claim that no omission study exists.",
+          "The two-window comparison is about scope. A finite plasma aliquot contains extracellular DNA, of which tumour-derived fragments may be one part; breast MRI observes regional, sequence-dependent features rather than individual cancer cells. Contrast enhancement reflects vascular and contrast-delivery behaviour as well as the acquisition protocol; it is not a one-to-one viable-cell count. In the 84-person I-SPY2 MRI pilot, functional tumour volume summed voxels meeting 70% enhancement about two and a half minutes after contrast, inside a manually drawn box around the lesion. A camera-and-stream analogy illustrates those two sampled views without promising that every tumour sheds DNA. Keep the imaging method visible: mammography uses X-rays, ultrasound uses sound, and PET/CT combines tracer-distribution images with anatomical CT images. A formal response category needs its framework, comparison timepoint and findings outside a selected lesion measurement. None of these measurements is an interchangeable all-body tumour-cell number.",
+          "Four patterns illustrate the reading boundary. A smaller lesion and lower detected blood signal mean that both recorded measures fell in their own units, not that pCR or eradication of distant disease is proved. A residual scan finding with undetected blood leaves viability, treatment effects and other causes unresolved. Detected blood with no suspicious finding in the scanned region does not establish the signal's location, full extent or best intervention. If neither shows qualifying evidence, neither has proved zero microscopic disease or justified omitting indicated treatment. These are interpretation examples, not an action algorithm; disagreement alone does not establish pseudoprogression.",
+          "In a fictional course, a breast lesion becomes less enhancing, blood changes from detected to not detected, and surgery later finds residual invasive cancer. There is no contradiction: imaging features, a finite molecular sample and removed tissue answer different questions. Only the specified tissue assessment establishes the residual disease in this example. A smaller scan finding and undetected blood can therefore be favourable observations without confirming pCR. Conversely, a later positive blood result with clear regional breast imaging calls for review of sample qualification, origin, dates and clinical context; it is not itself a diagnosis of distant metastasis.",
+          "Magbanua and colleagues' 2025 analysis evaluated 723 high-risk I-SPY2 patients across hormone receptor-positive/HER2-negative, triple-negative and HER2-positive subtypes. Combining ctDNA with residual cancer burden refined prognostic groups, but analyses within those groups used smaller subsets, some too small for multivariable adjustment. The authors also found retained patient-specific assay variants in sampled resistant tumours from patients whose post-treatment plasma was negative. These results support studying risk information and shedding; they do not turn negative presurgical blood into tissue pCR or demonstrate that a blood-guided omission strategy improves outcomes."
+        ],
+        "links": [
+          {
+            "label": "Magbanua et al., npj Breast Cancer 2021: ctDNA and MRI to predict neoadjuvant chemotherapy response and recurrence risk",
+            "url": "https://doi.org/10.1038/s41523-021-00239-3"
+          },
+          {
+            "label": "Razavi et al., Nat Med 2019: matched plasma, white-blood-cell and tumour sequencing shows how often plasma variants come from blood cells",
+            "url": "https://doi.org/10.1038/s41591-019-0652-7"
+          },
+          {
+            "label": "Diehl et al.: circulating mutant DNA to assess tumour dynamics (2008)",
+            "url": "https://doi.org/10.1038/nm.1789"
+          },
+          {
+            "label": "Schmid et al., 2020: KEYNOTE-522 pathological response assessed at surgery",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+          },
+          {
+            "label": "Magbanua et al., 2025: ctDNA and residual cancer burden in 723 high-risk I-SPY2 patients",
+            "url": "https://doi.org/10.1038/s41467-025-65432-5"
+          },
+          {
+            "label": "NCI: mammography definition",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/mammography"
+          },
+          {
+            "label": "NCI: ultrasound definition",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ultrasound"
+          },
+          {
+            "label": "NCI: PET-CT scan definition",
+            "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/pet-ct-scan"
+          },
+          {
+            "label": "Vascular contributors to breast MRI enhancement: primary angiogenesis study, 2021",
+            "url": "https://doi.org/10.1038/s41523-021-00247-3"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "D1",
+          "text": "The two-window comparison is about scope. A finite plasma aliquot contains extracellular DNA, of which tumour-derived fragments may be one part; breast MRI observes regional, sequence-dependent features rather than individual cancer cells. Contrast enhancement reflects vascular and contrast-delivery behaviour as well as the acquisition protocol; it is not a one-to-one viable-cell count. In the 84-person I-SPY2 MRI pilot, functional tumour volume summed voxels meeting 70% enhancement about two and a half minutes after contrast, inside a manually drawn box around the lesion. A camera-and-stream analogy illustrates those two sampled views without promising that every tumour sheds DNA. Keep the imaging method visible: mammography uses X-rays, ultrasound uses sound, and PET/CT combines tracer-distribution images with anatomical CT images. A formal response category needs its framework, comparison timepoint and findings outside a selected lesion measurement. None of these measurements is an interchangeable all-body tumour-cell number."
+        },
+        {
+          "key": "D2",
+          "text": "Four patterns illustrate the reading boundary. A smaller lesion and lower detected blood signal mean that both recorded measures fell in their own units, not that pCR or eradication of distant disease is proved. A residual scan finding with undetected blood leaves viability, treatment effects and other causes unresolved. Detected blood with no suspicious finding in the scanned region does not establish the signal's location, full extent or best intervention. If neither shows qualifying evidence, neither has proved zero microscopic disease or justified omitting indicated treatment. These are interpretation examples, not an action algorithm; disagreement alone does not establish pseudoprogression."
+        },
+        {
+          "key": "D3",
+          "text": "In a fictional course, a breast lesion becomes less enhancing, blood changes from detected to not detected, and surgery later finds residual invasive cancer. There is no contradiction: imaging features, a finite molecular sample and removed tissue answer different questions. Only the specified tissue assessment establishes the residual disease in this example. A smaller scan finding and undetected blood can therefore be favourable observations without confirming pCR. Conversely, a later positive blood result with clear regional breast imaging calls for review of sample qualification, origin, dates and clinical context; it is not itself a diagnosis of distant metastasis."
+        },
+        {
+          "key": "D4",
+          "text": "Magbanua and colleagues' 2025 analysis evaluated 723 high-risk I-SPY2 patients across hormone receptor-positive/HER2-negative, triple-negative and HER2-positive subtypes. Combining ctDNA with residual cancer burden refined prognostic groups, but analyses within those groups used smaller subsets, some too small for multivariable adjustment. The authors also found retained patient-specific assay variants in sampled resistant tumours from patients whose post-treatment plasma was negative. These results support studying risk information and shedding; they do not turn negative presurgical blood into tissue pCR or demonstrate that a blood-guided omission strategy improves outcomes."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "notes": "904e9d864dd26d85b378d22e87f1ff7d05c73e421fd0367edaa70841504811e0",
+        "links": "fd079995b86c762f2cd83520a532ece0bbb586a001cf0d33920dafb9cc0a7e8c",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "298e19c8adb721481c03786f97f1ea596052d883777966b8ddb95137d9d4e2ee",
+        "links": "836083ff48f3a140031047d85ab770b04c191d1b21c7ea25e07ba963771a3b78",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "mrd-testing",
+      "before": {
+        "summary": "Tumour-informed assays (Signatera, Oncodetect, RaDaR ST, Haystack MRD, and the whole-genome NeXT Personal, FoundationOne MRD, Precise MRD, TrueMRD and Labcorp Plasma Detect) or tumour-naive assays (Guardant Reveal, Tempus xM) detect ctDNA after curative treatment; NavDx counts HPV DNA from HPV-driven cancers. ctDNA positivity predicts recurrence with high specificity. Trials (DYNAMIC, CIRCULATE, IMvigor011 in bladder cancer, positive in 2025-26 leading to atezolizumab approval in ctDNA+ MIBC) show it can guide adjuvant therapy. Standard in haematologic malignancies via flow cytometry and NGS (clonoSEQ).",
+        "notes": [
+          "In a fictional model, an evaluated aliquot supplies 4,500 independent amplifiable opportunities at one locus, each with a target-allele probability of 1 in 10,000. The expected target count is 0.45. If target counts follow a Poisson distribution, the chance of no target is exp(-0.45), 63.8%. Twenty independent loci with the same opportunity count and probability give an expected total of 9 and exp(-9), 0.012%, for none. Independence, equal recovery and one retained target being sufficient are assumptions of this model. These are not measured clinical false-negative rates. A tumour-DNA fraction cannot simply replace the target-allele probability without assumptions about copy number, variant multiplicity and which tumour clones carry the variant. More reads cannot recover an original molecule absent from the aliquot.",
+          "A worked limit: for multiplex PCR across 21 to 47 patient-specific structural variants on 4,500 amplifiable copies, the theoretical limit is 1 / (4,500 x variants), which is 1 in 211,500, or 4.7 parts per million, at 47 variants. The 4.7 parts per million detection rested on a single mutant molecule, and one sample not detected at 4,500 copies was detected at 7.9 parts per million when re-assayed with 27,000 copies (Santonja 2023). Whole-genome sequencing of cfDNA integrates thousands of mutations and reached tumour-fraction sensitivity as low as 10 to the minus 5 (Zviran 2020).",
+          "What a lead-time figure here means: in García-Murillas 2019 ctDNA detection preceded clinical relapse by a median of 10.7 months in the combined cohort of 144, with the estimator and evaluable intervals needing distinction from the full cohort size. Distant extracranial relapse was detected in 22 of 23 patients and brain-only relapse in 1 of 6. Medians from different cohorts, schedules and confirmation rules cannot rank assays, and an earlier signal does not show that acting on it extends life.",
+          "Analytical detection and clinical sensitivity answer different questions. FDA diagnostic-test guidance dated March 2007 defines clinical sensitivity by the proportion testing positive among people who have the specified condition, judged against the reference standard in the intended-use population. In a residual-disease study, disease definition, follow-up, draw schedule, evaluable samples and recurrence sites shape that denominator. An analytical limit measured in prepared material does not supply that clinical proportion, and a negative test does not establish absence of cancer.",
+          "Clinical evidence belongs to a defined strategy. In the IMvigor011 randomised trial, 250 eligible patients with ctDNA-positive muscle-invasive bladder cancer after cystectomy received atezolizumab or placebo; disease-free and overall survival favoured atezolizumab (Powles 2025). This is evidence for that population and strategy, not for every positive residual-disease test, every cancer, or an arbitrary treatment change. Analytical detection, risk association, treatment-strategy benefit and a validated surrogate endpoint are different claims.",
+          "Colorectal cancer provides evidence for defined residual-disease testing strategies. Postoperative detection carries recurrence hazard ratios of 7 to 18, detection after adjuvant chemotherapy 11 to 51, and serial surveillance up to 43, with recurrence found a mean or median of about 9 to 10 months before imaging and up to 16.5 months (Tie 2016, Reinert 2019, Henriksen 2022). DYNAMIC randomised a defined stage II colon-cancer strategy, cutting adjuvant chemotherapy from 28% to 15% in stage II colon cancer without losing recurrence-free survival (Tie 2022). That strategy does not establish benefit from escalation after a positive result, and about 10% of ctDNA-negative stage II patients still recur.",
+          "Limits of detection are stated in different units by different makers: parts per million of tumour DNA (NeXT Personal, FoundationOne MRD, RaDaR ST), mean tumour molecules per mL (Haystack MRD, Signatera), or allele fraction (Signatera, Labcorp Plasma Detect and most Chinese assays). A limit in molecules per mL cannot be turned into parts per million without the sample's cell-free DNA concentration, so the figures on each test's page are not directly comparable.",
+          "Every published limit is for the tumour signal pooled across the whole panel. None is a limit for naming a subclone; the one published method for that, ECLIPSE, works at 0.1 per cent clonal ctDNA and above."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimal_residual_disease"
+          },
+          {
+            "label": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+            "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+          },
+          {
+            "label": "Genome-wide cell-free DNA mutational integration enables ultra-sensitive cancer monitoring",
+            "url": "https://doi.org/10.1038/s41591-020-0915-3"
+          },
+          {
+            "label": "FDA: statistical guidance for diagnostic-test studies (March 2007)",
+            "url": "https://www.fda.gov/media/71147/download"
+          },
+          {
+            "label": "Powles et al.: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (IMvigor011, 2025)",
+            "url": "https://doi.org/10.1056/NEJMoa2511885"
+          },
+          {
+            "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+            "url": "https://www.fda.gov/media/183874/download"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "summary": "Residual-disease testing asks whether a qualifying disease signal is present after treatment in a specified sample. For solid tumours, plasma assays can look for selected tumour-associated DNA features, with results interpreted under their specimen, input, target and calling rules. Analytical detection, clinical detection in a population and recurrence association are different performance questions. A valid negative does not establish absence of every cancer cell.\n\nClinical usefulness belongs to a defined strategy: the cancer setting, assay, timing, triggering result, action and comparator. Evidence for genotyping, an approved indication or a strategy in another cancer does not automatically settle an early-breast-cancer question. The dated trial examples below retain their studied populations. More frequent detection, molecular clearance or favourable prognosis in treated negative groups does not by itself show improved patient outcomes or safe treatment omission.",
+        "notes": [
+          "In a fictional model, an evaluated aliquot supplies 4,500 independent amplifiable opportunities at one locus, each with a target-allele probability of 1 in 10,000. The expected target count is 0.45. If target counts follow a Poisson distribution, the chance of no target is exp(-0.45), 63.8%. Twenty independent loci with the same opportunity count and probability give an expected total of 9 and exp(-9), 0.012%, for none. Independence, equal recovery and one retained target being sufficient are assumptions of this model. These are not measured clinical false-negative rates. A tumour-DNA fraction cannot simply replace the target-allele probability without assumptions about copy number, variant multiplicity and which tumour clones carry the variant. More reads cannot recover an original molecule absent from the aliquot.",
+          "A worked limit: for multiplex PCR across 21 to 47 patient-specific structural variants on 4,500 amplifiable copies, the theoretical limit is 1 / (4,500 x variants), which is 1 in 211,500, or 4.7 parts per million, at 47 variants. The 4.7 parts per million detection rested on a single mutant molecule, and one sample not detected at 4,500 copies was detected at 7.9 parts per million when re-assayed with 27,000 copies (Santonja 2023). Whole-genome sequencing of cfDNA integrates thousands of mutations and reached tumour-fraction sensitivity as low as 10 to the minus 5 (Zviran 2020).",
+          "What a lead-time figure here means: in García-Murillas 2019 ctDNA detection preceded clinical relapse by a median of 10.7 months in the combined cohort of 144, with the estimator and evaluable intervals needing distinction from the full cohort size. Distant extracranial relapse was detected in 22 of 23 patients and brain-only relapse in 1 of 6. Medians from different cohorts, schedules and confirmation rules cannot rank assays, and an earlier signal does not show that acting on it extends life.",
+          "Analytical detection and clinical sensitivity answer different questions. FDA diagnostic-test guidance dated March 2007 defines clinical sensitivity by the proportion testing positive among people who have the specified condition, judged against the reference standard in the intended-use population. In a residual-disease study, disease definition, follow-up, draw schedule, evaluable samples and recurrence sites shape that denominator. An analytical limit measured in prepared material does not supply that clinical proportion, and a negative test does not establish absence of cancer.",
+          "Clinical evidence belongs to a defined strategy. In the IMvigor011 randomised trial, 250 eligible patients with ctDNA-positive muscle-invasive bladder cancer after cystectomy received atezolizumab or placebo; disease-free and overall survival favoured atezolizumab (Powles 2025). This is evidence for that population and strategy, not for every positive residual-disease test, every cancer, or an arbitrary treatment change. Analytical detection, risk association, treatment-strategy benefit and a validated surrogate endpoint are different claims.",
+          "Read the evidence in stages. Analytical detection concerns the specified signal under stated test conditions, not detection in every person or draw. An association with recurrence is prognostic information, not evidence that a different treatment helps. Clinical assessment and localisation can establish a disease setting without proving sensitivity to a new drug. A guided intervention then needs evidence for its own strategy and comparator, including recurrence or survival, toxicity, quality of life, anxiety from uncertain results and unnecessary procedures. FDA's nonbinding November 2024 drug-development guidance describes separate proposed uses and asks for randomised trials to evaluate escalation or de-escalation strategies.",
+          "Put the action into a complete sentence: for a stated population, using this assay at this time, this qualifying result triggers this action, supported by this strategy evidence. Confirming a low signal, arranging appropriate evaluation, entering a protocol and starting a drug are different actions. A negative result has an action question too: people with favourable outcomes may have received the very treatment someone proposes omitting. Omission safety requires evidence in the matched population and course. Routine follow-up after treatment is a separate clinical plan; an experimental blood-testing schedule does not automatically replace it.",
+          "In a fictional proposal, detectable blood after surgery is associated with recurrence, and Drug Q is proposed whenever the signal appears. An observational association has not tested that strategy, even if Drug Q works in another stage or cancer. The proposed study needs the assay rule, any confirmation, disease-extent assessment and safety review before treatment. Finding radiographically detectable disease changes a molecular-only intervention question. A falling blood signal is not automatically a validated substitute for recurrence, survival or quality of life; keep the comparator and adequate follow-up.",
+          "A fictional trial randomises assay-positive people to a new strategy or usual care and measures recurrence and harms from the same enrolment point. If its population and methods fit the claim, that comparison tests an action more directly than a series showing that positive tests precede recurrence. Measured lead time is a gap between defined detection events in the study's sampling schedule. Moving the diagnosis clock earlier can lengthen measured survival without delaying death, so extra lead time alone is not benefit. Read the uncertainty, applicability and harms rather than treating a positive signal as proof of a useful intervention.",
+          "Colorectal cancer provides evidence for defined residual-disease testing strategies. Postoperative detection carries recurrence hazard ratios of 7 to 18, detection after adjuvant chemotherapy 11 to 51, and serial surveillance up to 43, with recurrence found a mean or median of about 9 to 10 months before imaging and up to 16.5 months (Tie 2016, Reinert 2019, Henriksen 2022). DYNAMIC randomised a defined stage II colon-cancer strategy, cutting adjuvant chemotherapy from 28% to 15% in stage II colon cancer without losing recurrence-free survival (Tie 2022). That strategy does not establish benefit from escalation after a positive result, and about 10% of ctDNA-negative stage II patients still recur.",
+          "Detection limits use method-specific quantities, including variant allele fraction, an estimated tumour fraction or tumour-attributed molecules per plasma volume. Converting a concentration into a fraction needs a compatible denominator and the methods' calculation, recovery and calibration; the printed numbers alone are insufficient. A limit also belongs to its specimen, input and calling rule, so product pages using different units do not establish a head-to-head sensitivity ranking.",
+          "Detecting pooled tumour-associated signal does not by itself validate naming or measuring a subclone. Subclone assignment needs separate evidence about covered variants, their grouping, the clone model and its detectable abundance under the actual input conditions. Adding targets can improve detection of a tumour signal without establishing detection or quantitation of every individual variant."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minimal_residual_disease"
+          },
+          {
+            "label": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+            "url": "https://doi.org/10.15252/emmm.202216505"
+          },
+          {
+            "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+            "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+          },
+          {
+            "label": "Genome-wide cell-free DNA mutational integration enables ultra-sensitive cancer monitoring",
+            "url": "https://doi.org/10.1038/s41591-020-0915-3"
+          },
+          {
+            "label": "FDA: statistical guidance for diagnostic-test studies (March 2007)",
+            "url": "https://www.fda.gov/media/71147/download"
+          },
+          {
+            "label": "Powles et al.: ctDNA-guided adjuvant atezolizumab in muscle-invasive bladder cancer (IMvigor011, 2025)",
+            "url": "https://doi.org/10.1056/NEJMoa2511885"
+          },
+          {
+            "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+            "url": "https://www.fda.gov/media/183874/download"
+          },
+          {
+            "label": "FDA: surrogate endpoint resources and context of use",
+            "url": "https://www.fda.gov/drugs/development-resources/surrogate-endpoint-resources-drug-and-biologic-development"
+          },
+          {
+            "label": "NCI: screening statistics and lead-time bias",
+            "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "M1",
+          "text": "Read the evidence in stages. Analytical detection concerns the specified signal under stated test conditions, not detection in every person or draw. An association with recurrence is prognostic information, not evidence that a different treatment helps. Clinical assessment and localisation can establish a disease setting without proving sensitivity to a new drug. A guided intervention then needs evidence for its own strategy and comparator, including recurrence or survival, toxicity, quality of life, anxiety from uncertain results and unnecessary procedures. FDA's nonbinding November 2024 drug-development guidance describes separate proposed uses and asks for randomised trials to evaluate escalation or de-escalation strategies."
+        },
+        {
+          "key": "M2",
+          "text": "Put the action into a complete sentence: for a stated population, using this assay at this time, this qualifying result triggers this action, supported by this strategy evidence. Confirming a low signal, arranging appropriate evaluation, entering a protocol and starting a drug are different actions. A negative result has an action question too: people with favourable outcomes may have received the very treatment someone proposes omitting. Omission safety requires evidence in the matched population and course. Routine follow-up after treatment is a separate clinical plan; an experimental blood-testing schedule does not automatically replace it."
+        },
+        {
+          "key": "M3",
+          "text": "In a fictional proposal, detectable blood after surgery is associated with recurrence, and Drug Q is proposed whenever the signal appears. An observational association has not tested that strategy, even if Drug Q works in another stage or cancer. The proposed study needs the assay rule, any confirmation, disease-extent assessment and safety review before treatment. Finding radiographically detectable disease changes a molecular-only intervention question. A falling blood signal is not automatically a validated substitute for recurrence, survival or quality of life; keep the comparator and adequate follow-up."
+        },
+        {
+          "key": "M4",
+          "text": "A fictional trial randomises assay-positive people to a new strategy or usual care and measures recurrence and harms from the same enrolment point. If its population and methods fit the claim, that comparison tests an action more directly than a series showing that positive tests precede recurrence. Measured lead time is a gap between defined detection events in the study's sampling schedule. Moving the diagnosis clock earlier can lengthen measured survival without delaying death, so extra lead time alone is not benefit. Read the uncertainty, applicability and harms rather than treating a positive signal as proof of a useful intervention."
+        }
+      ],
+      "replaceNotes": [
+        {
+          "before": "Limits of detection are stated in different units by different makers: parts per million of tumour DNA (NeXT Personal, FoundationOne MRD, RaDaR ST), mean tumour molecules per mL (Haystack MRD, Signatera), or allele fraction (Signatera, Labcorp Plasma Detect and most Chinese assays). A limit in molecules per mL cannot be turned into parts per million without the sample's cell-free DNA concentration, so the figures on each test's page are not directly comparable.",
+          "after": "Detection limits use method-specific quantities, including variant allele fraction, an estimated tumour fraction or tumour-attributed molecules per plasma volume. Converting a concentration into a fraction needs a compatible denominator and the methods' calculation, recovery and calibration; the printed numbers alone are insufficient. A limit also belongs to its specimen, input and calling rule, so product pages using different units do not establish a head-to-head sensitivity ranking.",
+          "reason": "Replace a product-specific unit catalogue and an incomplete conversion condition with the measured quantity and calibration requirements."
+        },
+        {
+          "before": "Every published limit is for the tumour signal pooled across the whole panel. None is a limit for naming a subclone; the one published method for that, ECLIPSE, works at 0.1 per cent clonal ctDNA and above.",
+          "after": "Detecting pooled tumour-associated signal does not by itself validate naming or measuring a subclone. Subclone assignment needs separate evidence about covered variants, their grouping, the clone model and its detectable abundance under the actual input conditions. Adding targets can improve detection of a tumour signal without establishing detection or quantitation of every individual variant.",
+          "reason": "Withdraw the unverified exhaustive claims about every published limit, a uniquely published method and its universal subclone threshold; retain the distinct measurement question."
+        }
+      ],
+      "beforeHashes": {
+        "summary": "afd0154b4cb21a179a924d7dae1a28f07f5f5e103f99d3cb26df54f1a44a6cc9",
+        "notes": "e5ddc70db822a376b7e4efb65f86066d976e833ea661fb38dbaa4f5bb6ea4fb8",
+        "links": "85739428eb37422cd80866b103cefca4ada4b5467e821798200ba4c24abb3685",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "summary": "c5a85cc6091a101174f31c67d500e52983a18bd852ddcef6b12ffe3b9cdbc073",
+        "notes": "9ec954439914a1272483185955cd7aaba6515acc7ddf12e9a53b27e7197aa02c",
+        "links": "7273689e20a8bc766302b73bf096b795f064a5c7a1fff20a56ee3a9b049da656",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "clonal-haematopoiesis",
+      "before": {
+        "summary": "Clonal haematopoiesis of indeterminate potential (CHIP, a defined category within blood-cell clonal expansion; see the source-specific variant-fraction and clinical criteria below) is present in >10% of people over 70. It confers ~0.5-1%/year progression to myeloid neoplasm, doubles cardiovascular risk via inflammasome-primed macrophages, and predicts therapy-related MDS/AML after PARP inhibitors, platinum, and radioligand therapy. For liquid biopsy, CHIP variants are the main source of false-positive ctDNA calls, so tumour-informed or paired white-cell sequencing is needed. Interventions are preventive (avoid unnecessary genotoxic exposure, monitor) with IL-1β/IL-6 blockade under study.",
+        "notes": [
+          "Leading programmes: Ebert (Dana-Farber/Broad) and Jaiswal (Stanford) who defined CHIP; Levine and Bolton (MSK) on therapy-related clonal haematopoiesis.",
+          "Clonal haematopoiesis (CH) is the broader phenomenon of blood-cell clones carrying acquired changes. In the 2022 WHO myeloid classification, CHIP requires a somatic mutation in a myeloid-malignancy-associated gene at a variant allele fraction of at least 2%, or at least 4% for X-linked gene mutations in males, without a diagnosed haematological disorder or unexplained cytopenia (Khoury 2022). Persistent unexplained cytopenia changes the classification question. These are criteria for a named category, not a rule that every smaller blood-cell clone is absent, tumour-derived or a sequencing error.",
+          "Which genes: in blood-cell exomes from 17,182 people most clonal variants fell in DNMT3A, TET2 and ASXL1, were rare before age 40, and were seen in 9.5% of people aged 70 to 79 (Jaiswal 2014). ASXL1 mutations were enriched in current or former smokers, and radiation, platinum and topoisomerase II inhibitors selected for DNA-damage-response genes (TP53, PPM1D, CHEK2), with sequential samples showing those clones outgrowing others after exposure (Bolton 2020). In 8,810 people with non-haematological cancers, PPM1D and TP53 mutations were associated with prior chemotherapy, and clonal haematopoiesis was found in 25% (Coombs 2017).",
+          "Source attribution in plasma, interpretation rule: TP53 is a tumour gene and also a therapy-selected blood-cell gene, so a TP53 variant in plasma after chemotherapy can come from either compartment. Matched white-blood-cell DNA and the tumour's variant list, where available, help assess its origin; some variants remain ambiguous. In Razavi's paired sequencing 53.2% of cfDNA mutations in 124 people with metastatic cancer and 81.6% in 47 controls without cancer had features of clonal haematopoiesis, and variants that could not be separated from white-blood-cell DNA kept an explicit ambiguous category, so subtracting every blood match is not a complete attribution method.",
+          "Fictional example: a plasma assay detects a variant that sensitive matched blood-cell sequencing finds at 0.8% VAF. The blood result supports a blood-cell contribution even below the 2% cut-off, but it does not make the variant CHIP or exclude a tumour contribution, because tumour evidence, shared variants and each method's limits still apply. Matched sequencing has its own gene coverage, depth and detection rules, so a clone below its sensitivity can stay unseen, and a clone finding is not a leukaemia diagnosis or a solid-tumour treatment instruction.",
+          "Reading the figures: a variant allele fraction counts variant alleles among the alleles evaluated and is not automatically the percentage of cells. Acquired (somatic) means not inherited and does not mean malignant. There is no age at which a plasma variant can simply be dismissed. Sequential samples show clones with DNA-damage-response mutations outgrowing others after radiation, platinum or topoisomerase II inhibitor exposure (Bolton 2020), which is selection of clones that can already be present and does not mean every new detection was caused by treatment.",
+          "For an origin comparison, keep plasma, extracted blood-cell DNA and any separately sampled tumour clearly identified, with collection dates relative to treatment. The report needs the variants, coverage, allele fractions, detection limits, identity and contamination checks, and any unresolved source assignment. A clone result alone does not locate a solid-tumour lesion, predict whether that particular clone will progress, or choose a solid-tumour drug. A later blood-cell comparator can help, but it is not a time-matched measurement of the earlier sample. A clone-classification rule or origin filter does not itself establish regulatory approval or clinical validation of the sequencing method.",
+          "Prostate cancer: this is where clonal haematopoiesis does concrete harm. In 69 men with advanced prostate cancer, clonal haematopoiesis variants at 2% or more were present in plasma from 13, 19%, and 7, 10%, had one in a gene used to decide PARP inhibitor candidacy, most often ATM, accounting for almost half of all somatic DNA repair variants detected. A paired whole-blood control distinguishes them (Jensen 2021)."
+        ],
+        "links": [
+          {
+            "label": "Jaiswal et al., Age-related clonal hematopoiesis associated with adverse outcomes (NEJM 2014)",
+            "url": "https://doi.org/10.1056/NEJMoa1408617"
+          },
+          {
+            "label": "Bolton et al., Cancer therapy shapes the fitness landscape of clonal hematopoiesis (Nature Genetics 2020)",
+            "url": "https://doi.org/10.1038/s41588-020-00710-0"
+          },
+          {
+            "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants",
+            "url": "https://doi.org/10.1038/s41591-019-0652-7"
+          },
+          {
+            "label": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes",
+            "url": "https://doi.org/10.1016/j.stem.2017.07.010"
+          },
+          {
+            "label": "Steensma2015",
+            "url": "https://doi.org/10.1182/blood-2015-03-631747"
+          },
+          {
+            "label": "Khoury et al.: WHO myeloid and histiocytic/dendritic classification (2022)",
+            "url": "https://doi.org/10.1038/s41375-022-01613-1"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "summary": "Clonal haematopoiesis of indeterminate potential (CHIP, a defined category within blood-cell clonal expansion; see the source-specific variant-fraction and clinical criteria below) is present in >10% of people over 70. It confers ~0.5-1%/year progression to myeloid neoplasm, doubles cardiovascular risk via inflammasome-primed macrophages, and predicts therapy-related MDS/AML after PARP inhibitors, platinum, and radioligand therapy. For plasma testing, blood-cell clones can contribute variants that require origin assessment using matched blood-cell data, tumour evidence and the stated assay limits; some assignments remain ambiguous. Interventions are preventive (avoid unnecessary genotoxic exposure, monitor) with IL-1β/IL-6 blockade under study.",
+        "notes": [
+          "Leading programmes: Ebert (Dana-Farber/Broad) and Jaiswal (Stanford) who defined CHIP; Levine and Bolton (MSK) on therapy-related clonal haematopoiesis.",
+          "Clonal haematopoiesis (CH) is the broader phenomenon of blood-cell clones carrying acquired changes. In the 2022 WHO myeloid classification, CHIP requires a somatic mutation in a myeloid-malignancy-associated gene at a variant allele fraction of at least 2%, or at least 4% for X-linked gene mutations in males, without a diagnosed haematological disorder or unexplained cytopenia (Khoury 2022). Persistent unexplained cytopenia changes the classification question. These are criteria for a named category, not a rule that every smaller blood-cell clone is absent, tumour-derived or a sequencing error.",
+          "Which genes: in blood-cell exomes from 17,182 people most clonal variants fell in DNMT3A, TET2 and ASXL1, were rare before age 40, and were seen in 9.5% of people aged 70 to 79 (Jaiswal 2014). ASXL1 mutations were enriched in current or former smokers, and radiation, platinum and topoisomerase II inhibitors selected for DNA-damage-response genes (TP53, PPM1D, CHEK2), with sequential samples showing those clones outgrowing others after exposure (Bolton 2020). In 8,810 people with non-haematological cancers, PPM1D and TP53 mutations were associated with prior chemotherapy, and clonal haematopoiesis was found in 25% (Coombs 2017).",
+          "Source attribution in plasma, interpretation rule: TP53 is a tumour gene and also a therapy-selected blood-cell gene, so a TP53 variant in plasma after chemotherapy can come from either compartment. Matched white-blood-cell DNA and the tumour's variant list, where available, help assess its origin; some variants remain ambiguous. In Razavi's paired sequencing 53.2% of cfDNA mutations in 124 people with metastatic cancer and 81.6% in 47 controls without cancer had features of clonal haematopoiesis, and variants that could not be separated from white-blood-cell DNA kept an explicit ambiguous category, so subtracting every blood match is not a complete attribution method.",
+          "Fictional example: a plasma assay detects a variant that sensitive matched blood-cell sequencing finds at 0.8% VAF. The blood result supports a blood-cell contribution even below the 2% cut-off, but it does not make the variant CHIP or exclude a tumour contribution, because tumour evidence, shared variants and each method's limits still apply. Matched sequencing has its own gene coverage, depth and detection rules, so a clone below its sensitivity can stay unseen, and a clone finding is not a leukaemia diagnosis or a solid-tumour treatment instruction.",
+          "Reading the figures: a variant allele fraction counts variant alleles among the alleles evaluated and is not automatically the percentage of cells. Acquired (somatic) means not inherited and does not mean malignant. There is no age at which a plasma variant can simply be dismissed. Sequential samples show clones with DNA-damage-response mutations outgrowing others after radiation, platinum or topoisomerase II inhibitor exposure (Bolton 2020), which is selection of clones that can already be present and does not mean every new detection was caused by treatment.",
+          "For an origin comparison, keep plasma, extracted blood-cell DNA and any separately sampled tumour clearly identified, with collection dates relative to treatment. The report needs the variants, coverage, allele fractions, detection limits, identity and contamination checks, and any unresolved source assignment. A clone result alone does not locate a solid-tumour lesion, predict whether that particular clone will progress, or choose a solid-tumour drug. A later blood-cell comparator can help, but it is not a time-matched measurement of the earlier sample. A clone-classification rule or origin filter does not itself establish regulatory approval or clinical validation of the sequencing method.",
+          "A gene name does not settle a plasma variant's source. Shah and colleagues found TP53 to be the most frequently mutated gene in their 2012 primary triple-negative breast-cancer cohort; Bolton's 2020 study found that radiation, platinum and topoisomerase II inhibitor exposure selected blood-cell clones with TP53 and other DNA-damage-response mutations. Those are different populations and compartments. A tumour reference and a matched blood-cell comparison help answer different questions, each within its own coverage and sensitivity. A newly confirmed tumour alteration can also reflect evolution rather than a blood-cell clone or technical noise.",
+          "Prostate cancer: this is where clonal haematopoiesis does concrete harm. In 69 men with advanced prostate cancer, clonal haematopoiesis variants at 2% or more were present in plasma from 13, 19%, and 7, 10%, had one in a gene used to decide PARP inhibitor candidacy, most often ATM, accounting for almost half of all somatic DNA repair variants detected. A paired whole-blood control distinguishes them (Jensen 2021)."
+        ],
+        "links": [
+          {
+            "label": "Jaiswal et al., Age-related clonal hematopoiesis associated with adverse outcomes (NEJM 2014)",
+            "url": "https://doi.org/10.1056/NEJMoa1408617"
+          },
+          {
+            "label": "Bolton et al., Cancer therapy shapes the fitness landscape of clonal hematopoiesis (Nature Genetics 2020)",
+            "url": "https://doi.org/10.1038/s41588-020-00710-0"
+          },
+          {
+            "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants",
+            "url": "https://doi.org/10.1038/s41591-019-0652-7"
+          },
+          {
+            "label": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes",
+            "url": "https://doi.org/10.1016/j.stem.2017.07.010"
+          },
+          {
+            "label": "Steensma2015",
+            "url": "https://doi.org/10.1182/blood-2015-03-631747"
+          },
+          {
+            "label": "Khoury et al.: WHO myeloid and histiocytic/dendritic classification (2022)",
+            "url": "https://doi.org/10.1038/s41375-022-01613-1"
+          },
+          {
+            "label": "Shah et al., 2012: clonal and mutational evolution in primary triple-negative breast cancer",
+            "url": "https://doi.org/10.1038/nature10933"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "appendNotes": [
+        {
+          "key": "H1",
+          "text": "A gene name does not settle a plasma variant's source. Shah and colleagues found TP53 to be the most frequently mutated gene in their 2012 primary triple-negative breast-cancer cohort; Bolton's 2020 study found that radiation, platinum and topoisomerase II inhibitor exposure selected blood-cell clones with TP53 and other DNA-damage-response mutations. Those are different populations and compartments. A tumour reference and a matched blood-cell comparison help answer different questions, each within its own coverage and sensitivity. A newly confirmed tumour alteration can also reflect evolution rather than a blood-cell clone or technical noise."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "summary": "3f892b05467b6a6390a5e454a19a308279d576dc5c0f4d3cf9e9bf8e89c66626",
+        "notes": "d5b303cc9123a933f0a5528b41704cd37f6f439b9ee50f0df41d618dab0c92bf",
+        "links": "2fe3d6288f84f5d78a3675ed425de0c9966ad39ec044d037a6f09633bcd13883",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "summary": "7374d56f8cb1d211816b50876f2c9bccf7e2d833eccf8d50117d8b49d304f63a",
+        "notes": "b5e7c203aefda36aaefb8e26ada72fb86d00688f4c6db617a6f6ef8dd00bc45c",
+        "links": "6f5275e6dbdf28c0b0f0057d63a99546c6b8468747b85fdeb129e2bf3c641d1e",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "paper-magbanua-ispy2-ctdna-neoadjuvant-ann-oncol-2021",
+      "before": {
+        "tldr": "Tracking sixteen patient-specific mutations in blood during chemotherapy before surgery showed that every woman whose tumour vanished had cleared her ctDNA, and that women whose tumour did not vanish but whose ctDNA had cleared did just as well as those it did.",
+        "summary": "Cell-free DNA from 291 plasma samples of 84 high-risk early breast cancer patients (I-SPY 2, standard neoadjuvant chemotherapy with or without the AKT inhibitor MK-2206) was tested with a personalised 16-mutation assay at pretreatment, three weeks, between regimens and before surgery. ctDNA positivity fell from 73% to 35%, 14% and 9%. Patients still positive at three weeks were more likely to have residual disease (83% versus 52% non-pCR; OR 4.33). All 17 pCR patients were ctDNA-negative after chemotherapy; among 43 non-pCR patients the 14% who were ctDNA-positive had a metastatic recurrence HR of 10.4, whereas ctDNA-negative non-pCR patients did as well as pCR patients (HR 1.4). Median follow-up 4.8 years.",
+        "notes": [],
+        "asOf": "2026-09-24",
+        "findings": [
+          "ctDNA positive 73% at baseline, 9% before surgery.",
+          "All pCR patients ctDNA-negative; ctDNA-positive non-pCR: recurrence HR 10.4; ctDNA-negative non-pCR: HR 1.4."
+        ],
+        "whatItMeans": "ctDNA clearance may refine pCR as a surrogate: a patient with residual disease but no ctDNA may not need escalation, the hypothesis behind ctDNA-guided post-neoadjuvant trials.",
+        "caveats": [
+          "84 patients mixing HR-positive/HER2-negative and TNBC.",
+          "Tumour-informed assay requires exome sequencing of the pretreatment tumour."
+        ]
+      },
+      "after": {
+        "tldr": "In a small study, tumour DNA in blood during treatment was associated with tissue response and later recurrence. Similar-looking group outcomes had wide uncertainty and did not prove that a blood-guided treatment change helps.",
+        "summary": "This retrospective analysis used samples collected prospectively in I-SPY2 from 84 high-risk early breast-cancer patients receiving standard neoadjuvant chemotherapy with or without the AKT inhibitor MK-2206. The cohort included hormone receptor-positive/HER2-negative, HER2-positive and triple-negative disease. Personalised panels tracked up to 16 mutations from pretreatment tumour sequencing. Blood collection was planned before treatment, three weeks after starting paclitaxel, between chemotherapy blocks and after chemotherapy before surgery. The analysis used 291 of 336 potential plasma samples; availability differed by draw.\n\nThe authors reported ctDNA detection in 61 of 84 at baseline (73%), followed by 35%, 14% and 9% at successive draws. These are not four proportions with a common denominator of 84. In the joint post-treatment pathology and outcome analysis of 60 patients, all 17 with the specified pathological complete response were ctDNA-negative. Among 43 without that response, the six ctDNA-positive patients had greater distant-recurrence risk than the 37 negative patients: hazard ratio 10.4, 95% confidence interval 2.3 to 46.6. Comparing ctDNA-negative non-pCR patients with pCR patients gave hazard ratio 1.4, interval 0.15 to 13.5; that wide interval does not establish equivalence. Median survival follow-up was 4.8 years. This assay analysis did not randomise a blood-guided treatment strategy.",
+        "notes": [
+          "The assay required at least two detected somatic variants for a positive call and selected 12 to 16 targets per person, with a median of 16. A fixed personalised panel is therefore neither a complete tumour genome nor a one-molecule guarantee. The four blood collection moments and the available specimens belong beside each reported percentage; the joint 60-person analysis is a separate denominator from the whole cohort of 84. The MRI companion report asks how blood and functional tumour volume relate, rather than supplying another independent treatment-strategy trial."
+        ],
+        "asOf": "2026-11-12",
+        "findings": [
+          "At baseline, ctDNA was detected in 61 of 84; subsequent detection rates were reported as 35%, 14% and 9% among the samples available at those times.",
+          "In the 60-person joint post-treatment analysis, all 17 pCR cases were ctDNA-negative. Within 43 non-pCR cases, positive versus negative ctDNA gave distant-recurrence HR 10.4 (95% CI 2.3 to 46.6). Negative non-pCR versus pCR gave HR 1.4 (0.15 to 13.5), without establishing equivalence."
+        ],
+        "whatItMeans": "The observed associations support testing risk-stratification and treatment-strategy questions. They do not establish that a person with residual tissue disease and negative blood can omit treatment, or that ctDNA clearance is a validated surrogate for clinical benefit.",
+        "caveats": [
+          "The 84-patient cohort mixed hormone receptor-positive/HER2-negative, HER2-positive and triple-negative disease and particular neoadjuvant regimens.",
+          "The tumour-informed assay used exome sequencing of a pretreatment tumour reference; six of 90 potentially assessable patients were excluded for sequencing quality.",
+          "Only 291 of 336 planned plasma measurements were analysed, and the joint post-treatment pathology/outcome analysis included 60 people. The wide subgroup intervals are not an equivalence test."
+        ]
+      },
+      "appendNotes": [
+        {
+          "key": "P1",
+          "text": "The assay required at least two detected somatic variants for a positive call and selected 12 to 16 targets per person, with a median of 16. A fixed personalised panel is therefore neither a complete tumour genome nor a one-molecule guarantee. The four blood collection moments and the available specimens belong beside each reported percentage; the joint 60-person analysis is a separate denominator from the whole cohort of 84. The MRI companion report asks how blood and functional tumour volume relate, rather than supplying another independent treatment-strategy trial."
+        }
+      ],
+      "replaceNotes": [],
+      "beforeHashes": {
+        "tldr": "ed4632f0d01a9fa452e7ba2020a964e82975322ad1f56ac2c623ae2312910968",
+        "summary": "09dacb15d37552065edd387cd52b29453a52488d3caf960097babd0e7f3dfef4",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "asOf": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "findings": "3ecae964c1d4cb8066cc5d82e3b465e841aaeb792875237c64d9a5a140265e34",
+        "whatItMeans": "1cb95ebc0e9ad100181b3fc893a596f7b50a7dc353eb789779b177a92a2e5901",
+        "caveats": "77d9059f2511f300a5d29e318241c840fc9ff69b12714a31f5e3cc3d78d394e8"
+      },
+      "afterHashes": {
+        "tldr": "2f58956b534b2767091d7200603cc141b2e50713dea798628bfcfd8091ccae40",
+        "summary": "b7fd68ba549afcca1f2ebfc93746661dc090a967574586f91a96f3d0fa571ec2",
+        "notes": "e6e0d0398275b2b4f173fccb327fdc6286b72a0cb028d23fd07069cccf8849da",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "findings": "11d73764dc86c273cf8c34d2934f2d4ecc1ebb5c336c29493ffc29b5b385a218",
+        "whatItMeans": "a77e1beb8a594731796ecbdf284abe9d567e393a63e3f118b9c1a5cbba581f47",
+        "caveats": "c65da2ef440c36e959b0ca25c59079c2574d58daa38a489184a8b3b940e4556e"
+      }
+    }
+  ],
+  "summaryConsumerCorrections": {
+    "scope": "Current exact-table preconditions; no named review changed. Missing table entries retain English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "ef5013c9fc877bc0e13bdd43012ad0bfdbe55c49b6967c132939b8c4cdfe4e43",
+        "afterSha256": "e172fb96709a9052d6b42a4cc37ae67f54e8c85600c187831cd06e8b66b43b62",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "ar",
+            "before": "قطع قصيرة من الحمض النووي DNA تطفو في الدم، تطلقها الخلايا المحتضرة في أنحاء الجسم. معظمها من خلايا طبيعية؛ والجزء الصغير المشتق من الورم (ctDNA) هو ما تلتقطه الخزعات السائلة.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ece9d689f4b8d72b1fdcf50cafff5a9b4705812e49511e42cb6fc8548fafd3ee",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "10a70ad5d0c89ce0cc433ef0bf8fde10cfc106d0b7b40ec7e7879ee69325e5b1",
+        "afterSha256": "c56852f044ddaab685dd4c35b19508f4a5bbb9b7178d6eb43113b0af2f621260",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "de",
+            "before": "Kurze DNA-Stücke, die im Blut treiben und von sterbenden Zellen im ganzen Körper freigesetzt werden. Das meiste stammt aus normalen Zellen; der kleine tumorbürtige Anteil (ctDNA) ist das, was Flüssigbiopsien herausfischen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6db3dc77890d989588afd811c0c4f52c756dd0ca4f1374faf3a7fbe8df845459",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "d5e5bab4c39164c00c55c004857f094c43e3ee6ff0f371bd2d51cc7fb23a5ea2",
+        "afterSha256": "c9c9486a429daf8c7a4f13410cdbd199e48495b60a797c73162ef870b9b839ad",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "es",
+            "before": "Fragmentos cortos de ADN que flotan en la sangre, liberados por células que mueren en todo el cuerpo. La mayor parte procede de células normales; la pequeña fracción derivada del tumor (ctDNA) es lo que las biopsias líquidas pescan.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "b9128304f930dc75954b83b3a8810cdcbecbd9d8e0dfbaf4523cf2136ff9ddbf",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "58db36ff6ab650d34e2a4d4dbcd8f06657e3227ccfe4e9e07f2b6a35cfcff6d4",
+        "afterSha256": "937fc688ddd3ae127836b8e70584a4cb1484450ec7ef8c57a034d0c7a3227212",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "fr",
+            "before": "De courts fragments d'ADN flottant dans le sang, libérés par les cellules qui meurent dans tout le corps. La plupart proviennent de cellules normales ; la petite fraction issue de la tumeur (ctDNA) est ce que les biopsies liquides vont pêcher.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "acab5b2ca824ac51083a825ac24fa0555ebcaf6fd0ab85f704b1452346b5113c",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "2c235ef056798dd0c754dfe609abf76b128bc4673dbc2794fb262cb896b22bb8",
+        "afterSha256": "d62be35912401662afaa3891e3129fe888f33c16d2baa3dee5485f47c585a3a7",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "hi",
+            "before": "रक्त में तैरते DNA के छोटे टुकड़े, जो पूरे शरीर में मरती कोशिकाओं से निकलते हैं। इनमें से अधिकतर सामान्य कोशिकाओं से आते हैं; ट्यूमर से निकला छोटा हिस्सा (ctDNA) ही वह है जिसे लिक्विड बायोप्सी पकड़ती है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f0b331dea84d3d684d58cf6876741b8501ad488344a5b8f0dbfab3028f3faf4d",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "f501cfd784fa1e892709f5d207844afad9beb4d1f51a798da3ab421258ca50d3",
+        "afterSha256": "ff2b083112f6553fb63fee75f1cd40a9d5b6af39225ff8cf8573b8ead20e8a13",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "ja",
+            "before": "血液中を漂う短いDNAの断片であり、全身の死んでいく細胞から放出される。大部分は正常細胞由来であり、腫瘍由来のごく一部（ctDNA）こそがリキッドバイオプシーの拾い上げる対象である。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9b328e7ccc4abd02f1d3bfafecf9221629c7d1c2b14d8158d4ed22f8c67a757e",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "5ff08bb1b267525a57d1df9b28b3fdb1eacc6eeb9f891ee4c9cce47bd6c5d1df",
+        "afterSha256": "b3f76f3e0bbb303bfe9fefb381eaf798d9ff3bf29d111a031493bd0cc1e14e3a",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "pt",
+            "before": "Pedaços curtos de DNA que flutuam no sangue, liberados por células que morrem em todo o corpo. A maior parte vem de células normais; a pequena fração derivada do tumor (ctDNA) é o que as biópsias líquidas pescam.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9030f1b58d1ec10c466b8966f155e0470f8a2311b85f5e9041e379e03d791a49",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "271adc6f992ca21116d0ea4c03d1fecc6394ad276490e963171d96bb77aa1fae",
+        "afterSha256": "b2e91cd33719e56c76c43ded1e416123c92b3b0c55d472ad035e890f53127e88",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "zh",
+            "before": "漂浮在血液中的短DNA片段，由全身各处死亡的细胞释放。大部分来自正常细胞；其中来源于肿瘤的一小部分（ctDNA）正是液体活检要捕捞的对象。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "0c8b8d2b6d77b00fafec68b9b49453bf7734669deed556d5939d1049bc829055",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-j.ts",
+        "beforeSha256": "5abadade0015bbffb7d8a0df6785a793b84e2ce7037f9d56d0c3c3937ed436c2",
+        "afterSha256": "5aee23a2585e09c91c2538b4d9ed6703be6d38f15a728874e87b66d3496091f8",
+        "changes": [
+          {
+            "id": "cfdna",
+            "language": "simple",
+            "before": "Cell-free DNA is short pieces of DNA floating in the blood shed by dying cells, and the small tumour-derived fraction is what liquid biopsies fish out.",
+            "after": "Cell-free DNA is DNA outside cells in a sample. Some may come from a tumour, but the total DNA amount is not a count of cancer cells.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "b4986e0b738eb743b3bf632f3d9d028eec875820e587a8a11b2c12cf6ad689b9",
+            "afterSha256": "5898f77e967570568557f18e7b31ca972c89e70bc40a2b862731cb07291d59b9"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 8,
+    "correctedSimpleEntries": 1
+  },
+  "allEarlierLinksRetained": true,
+  "earlierNoteExceptions": [
+    {
+      "id": "mrd-testing",
+      "replacements": [
+        {
+          "before": "Limits of detection are stated in different units by different makers: parts per million of tumour DNA (NeXT Personal, FoundationOne MRD, RaDaR ST), mean tumour molecules per mL (Haystack MRD, Signatera), or allele fraction (Signatera, Labcorp Plasma Detect and most Chinese assays). A limit in molecules per mL cannot be turned into parts per million without the sample's cell-free DNA concentration, so the figures on each test's page are not directly comparable.",
+          "after": "Detection limits use method-specific quantities, including variant allele fraction, an estimated tumour fraction or tumour-attributed molecules per plasma volume. Converting a concentration into a fraction needs a compatible denominator and the methods' calculation, recovery and calibration; the printed numbers alone are insufficient. A limit also belongs to its specimen, input and calling rule, so product pages using different units do not establish a head-to-head sensitivity ranking.",
+          "reason": "Replace a product-specific unit catalogue and an incomplete conversion condition with the measured quantity and calibration requirements."
+        },
+        {
+          "before": "Every published limit is for the tumour signal pooled across the whole panel. None is a limit for naming a subclone; the one published method for that, ECLIPSE, works at 0.1 per cent clonal ctDNA and above.",
+          "after": "Detecting pooled tumour-associated signal does not by itself validate naming or measuring a subclone. Subclone assignment needs separate evidence about covered variants, their grouping, the clone model and its detectable abundance under the actual input conditions. Adding targets can improve detection of a tumour signal without establishing detection or quantitation of every individual variant.",
+          "reason": "Withdraw the unverified exhaustive claims about every published limit, a uniquely published method and its universal subclone threshold; retain the distinct measurement question."
+        }
+      ]
+    }
+  ],
+  "dynamicSupplementScope": "Append to owning literals without materialising runtime supplements; unrelated fields and earlier note order remain. The paper factory accepts its asOf metadata.",
+  "intentionalWithdrawals": [
+    "Unqualified cfDNA fraction ranges and product-category performance generalisations.",
+    "Universal resection-only reference and trial-category claims.",
+    "Cross-product unit comparisons without compatible denominators/calibration.",
+    "Exhaustive or unique subclone-detection assertions.",
+    "Equivalence and omission implications from a small observational comparison."
+  ],
+  "peerDraftSnapshotsPreserved": true,
+  "sourceGuideAndArtworkUnchanged": true
+}

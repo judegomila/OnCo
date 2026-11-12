@@ -1,0 +1,64 @@
+{
+  "dataCommit": "2de4cac995426bdca7c9555b221838b3335f41ff",
+  "graphRecords": 23084,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.92
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 29.23
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.91
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 305.97
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 13,
+    "warningFilesUnchanged": true
+  },
+  "readers": 16,
+  "exactFieldReferences": 153,
+  "paragraphsAcrossReferencedFieldsChecked": 95,
+  "rootExactEntityJSON": 16,
+  "rootMarkdownPassages": 161,
+  "openAPI": true,
+  "dedupeExitCode": 0,
+  "summaryStates": 144,
+  "availableTexts": 27,
+  "EnglishFallbacks": 117,
+  "withdrawnStaleTranslations": 8,
+  "correctedSimpleEnglishEntries": 1,
+  "namedReviewsChanged": 0,
+  "acceptedLongCaches": 2,
+  "acceptedLongCacheScope": "Two unchanged pCR long-summary caches still match their canonical source; no new language approval.",
+  "secretScan": {
+    "findings": 0,
+    "exitCode": 0,
+    "stagedFiles": 17,
+    "stagedDiffSha256": "7f2376d8dc9d04c964235203fb55f3e30fe0c701960a31502949d1441cb18778",
+    "rulesAndAllowlistsUnchanged": true
+  },
+  "floorsBudgetsSchemaAndFrozenDenominatorsChanged": false
+}

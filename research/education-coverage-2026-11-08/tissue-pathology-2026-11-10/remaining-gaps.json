@@ -1,0 +1,17 @@
+{
+  "unrepresentedTeachingRequirements": 0,
+  "sourceReadingLimits": [
+    "The current Agilent PDF could not be fetched directly; the dated preserved primary text supplies the historical scoring method, not a claim of current-label completeness.",
+    "Archived CAP 2018 access and selected full-text access remain limited. Adopted claims use the accessible named source or remain at their recorded abstract/targeted-passage scope.",
+    "Later source-verification rereading was fresh for three lessons; the other complete source readings were reused by identity, not falsely re-labelled new.",
+    "Earlier catalogue claims outside the 251 mapped units are not blanket re-certified."
+  ],
+  "pending": [
+    "Expert and learner review",
+    "Named-language review for English fallbacks",
+    "Main merge and live verification",
+    "Whole-corpus re-audits and remaining source/assets work"
+  ],
+  "schema": "Existing notes carry these worked examples and method distinctions. No new field or consumer contract is necessary for this batch; existing wider schema dependencies remain open.",
+  "scope": "Coverage is for mapped teaching at the stated evidence scope, not every claim in every retained catalogue field."
+}

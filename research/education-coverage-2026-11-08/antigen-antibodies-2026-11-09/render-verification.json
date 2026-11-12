@@ -1,0 +1,1155 @@
+{
+  "root": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checkout": "coordinator draft375",
+    "checks": [
+      {
+        "id": "adcc-adcp-cdc",
+        "route": "/terms/adcc-adcp-cdc/",
+        "asOf": "2026-11-09",
+        "bytes": 31690,
+        "sha256": "8e3d0822a5ad15c642a409f37a81ef36fd8cf2454d8ccef8b66b99d278d65567",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antibody-structure",
+        "route": "/terms/antibody-structure/",
+        "asOf": "2026-11-09",
+        "bytes": 26097,
+        "sha256": "3d311ad503ce1bf89f1d02de4c1c4b3257ebe61ab8082fba1802470112e8a81c",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "route": "/terms/b-cells-and-plasma-cells/",
+        "asOf": "2026-11-09",
+        "bytes": 29433,
+        "sha256": "6af79ac431f4ff9fec261e0427c8daf32e136847a6358547e66a964ed4745ecc",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "route": "/terms/isotypes-and-fc-silencing/",
+        "asOf": "2026-11-09",
+        "bytes": 34291,
+        "sha256": "f13f4dd16c49f473e79c67b67270cb33f5d58fe641f4370bfc70462a6afdfa98",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "route": "/terms/antigen-processing-machinery/",
+        "asOf": "2026-11-09",
+        "bytes": 36950,
+        "sha256": "536b2eab3649a88c077169c425b3f6af5899e4fa4376b9c9d064a98c9e280a2e",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "route": "/terms/hla-typing-and-nomenclature/",
+        "asOf": "2026-11-09",
+        "bytes": 31732,
+        "sha256": "809a1f81daefb47bf92525c32a6840e3fbc48ba29ac9e91e5126cd3f3b2abcfc",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla",
+        "route": "/terms/hla/",
+        "asOf": "2026-11-09",
+        "bytes": 41698,
+        "sha256": "d60dfaeec0c1a655aacad57827d39fcdb63ab75043fa82dcb16acfd21c4feb10",
+        "sourceLinksChecked": 12,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "route": "/terms/tumor-associated-antigen/",
+        "asOf": "2026-11-09",
+        "bytes": 28456,
+        "sha256": "c7ee22cc909f6236af0eef37a0cb93a5901c82c0d826b5ca1222c11ecda0ac9e",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen",
+        "route": "/terms/antigen/",
+        "asOf": "2026-11-09",
+        "bytes": 27774,
+        "sha256": "2f9dff4663c7be196f2c23c10f33956fb001921a0eed98f69e4464a444bb6970",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "epitope",
+        "route": "/terms/epitope/",
+        "asOf": "2026-11-09",
+        "bytes": 26165,
+        "sha256": "569e418169474b9619a24fb194256c06efe262038edd36652783ef724553ab3b",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antibody",
+        "route": "/terms/antibody/",
+        "asOf": "2026-11-09",
+        "bytes": 29000,
+        "sha256": "21ea20fd4cd8e4e573da8ebc29b7828e8ce42cc25cd213eacf9d2641481542db",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b-cell",
+        "route": "/terms/b-cell/",
+        "asOf": "2026-11-09",
+        "bytes": 26575,
+        "sha256": "542619a01219c1c930cee28a8beaf7e18688d92932d4861192f80dabf404832c",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "adcc",
+        "route": "/terms/adcc/",
+        "asOf": "2026-11-09",
+        "bytes": 39176,
+        "sha256": "8a349dc6c09c839e4cc42887495026023335707d2106027737099df2d7242d03",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fc-effector",
+        "route": "/terms/fc-effector/",
+        "asOf": "2026-11-09",
+        "bytes": 27826,
+        "sha256": "87a072870ca526a756f788c979b2267cd2e52fc99ca760ba8300ec88a63effd8",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "route": "/terms/dendritic-cell-cross-presentation/",
+        "asOf": "2026-11-09",
+        "bytes": 36359,
+        "sha256": "4e08d4655d895c74ee52f7689f4d8a9b8f7372153a22eb171b961d3aebb0ca7e",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "complement-in-cancer",
+        "route": "/pathways/complement-in-cancer/",
+        "asOf": "2026-11-09",
+        "bytes": 53401,
+        "sha256": "ea270348719d89922f4aa668472488fd45fcf01d9bbc793d6c08dd064e01b5c1",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "route": "/terms/tertiary-lymphoid-structures/",
+        "asOf": "2026-11-09",
+        "bytes": 30297,
+        "sha256": "75dc4db3e9a1cc88923bdbb8b8d3b8044d54128a92985ac674a93cd331e43824",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-a-02-01",
+        "route": "/biomarkers/hla-a-02-01/",
+        "asOf": "2026-11-09",
+        "bytes": 37543,
+        "sha256": "76fd1254e2c3accfc6fe17dcb8ef9690908898b3f5ea69139458099743259825",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tap1",
+        "route": "/targets/tap1/",
+        "asOf": "2026-11-09",
+        "bytes": 31062,
+        "sha256": "c1330d255d445d6306d9360bf3ff040f449c4696a9cd486ca245392b0509e1d3",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tap2",
+        "route": "/targets/tap2/",
+        "asOf": "2026-11-09",
+        "bytes": 31062,
+        "sha256": "2ba6686973438b226ed9a2bba9206787111dad9f8d0e8f9ff34d4393a49808fd",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "erap1",
+        "route": "/targets/erap1/",
+        "asOf": "2026-11-09",
+        "bytes": 30725,
+        "sha256": "669c96630f3032433893936d6f9359cf0c8518cb729b9aa9042a3fa771e2a671",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "erap2",
+        "route": "/targets/erap2/",
+        "asOf": "2026-11-09",
+        "bytes": 30535,
+        "sha256": "edd22abb085771b848f4ce35fe0586c02638c9c7212d117a5776197257b0b0dc",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b2m",
+        "route": "/targets/b2m/",
+        "asOf": "2026-11-09",
+        "bytes": 73535,
+        "sha256": "dc2a1b27b84d57d6c63ed9f6356610682f4a8585e03a9dfd2d1bde9b5eff1b13",
+        "sourceLinksChecked": 8,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-b",
+        "route": "/targets/hla-b/",
+        "asOf": "2026-11-09",
+        "bytes": 59545,
+        "sha256": "6269efecac09dd889f9c3052871248ca99e5f16aa4587db732b933bf46b90a7a",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-c",
+        "route": "/targets/hla-c/",
+        "asOf": "2026-11-09",
+        "bytes": 52457,
+        "sha256": "b25027412c6d71d1cf98cbd00e622ccf5d8f8565d45131d5d060be32bd057809",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-dra",
+        "route": "/targets/hla-dra/",
+        "asOf": "2026-11-09",
+        "bytes": 51110,
+        "sha256": "9f1a16c4ee05880a4b7ce200a39b786423f2b26e77225eef999fbb38bc7b8bba",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-dqa1",
+        "route": "/targets/hla-dqa1/",
+        "asOf": "2026-11-09",
+        "bytes": 43735,
+        "sha256": "dbefbe964f24090a3c9a9d45140cb0ebffb03ed9b4b1fd6e88df702bfc04248d",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr3a",
+        "route": "/targets/fcgr3a/",
+        "asOf": "2026-11-09",
+        "bytes": 50002,
+        "sha256": "ac3216523452e39a69530959c5f90173dd0bb871ed7c2cd5b05ffb301c47d5ed",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr2a",
+        "route": "/targets/fcgr2a/",
+        "asOf": "2026-11-09",
+        "bytes": 45182,
+        "sha256": "0c7b83aa9242c9741df0244b074dcf8ce07b7ab820e85ae3c296aa84f6b818c5",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr2b",
+        "route": "/targets/fcgr2b/",
+        "asOf": "2026-11-09",
+        "bytes": 56647,
+        "sha256": "c7068f6d00b7acf23ad090165920683a577b3f2e6f727bf34f9ce565d05b21bf",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "shared": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checkout": "coordinator draft373",
+    "checks": [
+      {
+        "id": "proteomics",
+        "route": "/technologies/proteomics/",
+        "asOf": "2026-11-08",
+        "bytes": 68567,
+        "sha256": "f9855d1241ab4320c598deb5f576d93814c79ece3dcbbc3dde2a676d90e14613",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "route": "/technologies/imaging-mass-cytometry/",
+        "asOf": "2026-11-08",
+        "bytes": 30187,
+        "sha256": "3ec439ffe1da04d67ba9736056589fb13e826401425a04b0bc34d8fbc2cb330b",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "neoantigen",
+        "route": "/terms/neoantigen/",
+        "asOf": "2026-11-09",
+        "bytes": 57685,
+        "sha256": "3f5f2713c7081b26f6fcaf7898ce82e3cd741c7d7a16f89fbc6e6ca3dd4d8036",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immune-product-evidence",
+        "route": "/terms/immune-product-evidence/",
+        "asOf": "2026-11-08",
+        "bytes": 25591,
+        "sha256": "6c3ebebdc10c752e4784929d22b63b6753fe93cbba960f4050a1cff8e32c5900",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "elispot",
+        "route": "/terms/elispot/",
+        "asOf": "2026-11-08",
+        "bytes": 18905,
+        "sha256": "d0ab0923e05df8b24e924af3d1868fd21bf6367dcbea8bea79ed6ae92faed138",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "intracellular-cytokine-staining",
+        "route": "/terms/intracellular-cytokine-staining/",
+        "asOf": "2026-11-08",
+        "bytes": 18036,
+        "sha256": "86e037bf0f689b4863eb5950e4f4510072c58380b47c6ae9e08c91dc86e008f9",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "peptide-hla-multimer-staining",
+        "route": "/terms/peptide-hla-multimer-staining/",
+        "asOf": "2026-11-08",
+        "bytes": 20106,
+        "sha256": "65891b6d76a6daed1a1c94c43e15bdadeea59741364769d957be6db24357c7d9",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immune-cytotoxicity-assays",
+        "route": "/terms/immune-cytotoxicity-assays/",
+        "asOf": "2026-11-08",
+        "bytes": 20514,
+        "sha256": "305428d285966b8691533761e1dab521b52603151e74099400eee4e7d1cafc56",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tcr-repertoire-sequencing",
+        "route": "/terms/tcr-repertoire-sequencing/",
+        "asOf": "2026-11-08",
+        "bytes": 20693,
+        "sha256": "f7797c133246536aea3576c8ad098d581f2c58dab17207d9bcbff72bc9f34c39",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tcr-repertoire-clonality",
+        "route": "/terms/tcr-repertoire-clonality/",
+        "asOf": "2026-11-09",
+        "bytes": 25900,
+        "sha256": "31f1b544957c029ff0d50f852fb3cbba811421772d470c7ebe3909ef5a54f511",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pbmc-specimens",
+        "route": "/terms/pbmc-specimens/",
+        "asOf": "2026-11-08",
+        "bytes": 21260,
+        "sha256": "b4c00cb9735d416fea178b3b10425a02af4e1ed3a64188f09f96730387ab4053",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binding-presentation-recognition",
+        "route": "/terms/binding-presentation-recognition/",
+        "asOf": "2026-11-09",
+        "bytes": 24368,
+        "sha256": "5ac7a3dbafe902a6042d9e32e84459a6be154e32dba3f4061c0c5faa7c0abafe",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunopeptidome",
+        "route": "/terms/immunopeptidome/",
+        "asOf": "2026-11-09",
+        "bytes": 25030,
+        "sha256": "b91ee9ec69490873308d5ae93b7e1f5f6684041b5f6005223e761ef913df1ab9",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunopeptidomics",
+        "route": "/terms/immunopeptidomics/",
+        "asOf": "2026-11-08",
+        "bytes": 20601,
+        "sha256": "39c6e44da53bc3b7bffaf29e9fc19ed3c4de621e9b9a01f8ee72a622d50fb73a",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "peptide-hla-binding-prediction",
+        "route": "/terms/peptide-hla-binding-prediction/",
+        "asOf": "2026-11-08",
+        "bytes": 19831,
+        "sha256": "1f040d0de9ad498b5db30744ea9392e822de1162779d2f50e7b5f89a1f660763",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunodominance",
+        "route": "/terms/immunodominance/",
+        "asOf": "2026-11-09",
+        "bytes": 24033,
+        "sha256": "1c973c4e0749dffc8b7790c1bbcd426abd1fbce82b6aa06267b544738fa175b5",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "epitope-spreading",
+        "route": "/terms/epitope-spreading/",
+        "asOf": "2026-11-09",
+        "bytes": 22658,
+        "sha256": "ec47debefa74be0f62fd10cfa78dfd54d1ad9fc4519d3b448c0553c34d9e2e86",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "self-similarity-immune-recognition",
+        "route": "/terms/self-similarity-immune-recognition/",
+        "asOf": "2026-11-09",
+        "bytes": 27317,
+        "sha256": "ff10daa2adcf86b6c3da741337f20feab5f5554214d3be7a4c4f4dbf9e464edb",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunogenicity-versus-efficacy",
+        "route": "/terms/immunogenicity-versus-efficacy/",
+        "asOf": "2026-11-08",
+        "bytes": 21254,
+        "sha256": "0e4792c968843a3a6b5234529d3041040d0f7a25f60bae2e17fe69b35bfa09a3",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tissue-preparation-assay-fit",
+        "route": "/terms/tissue-preparation-assay-fit/",
+        "asOf": "2026-11-08",
+        "bytes": 21127,
+        "sha256": "6b2b63f89d67b3f56c3974c8d776227ad8bb3d8d602165542e5f8654ac840855",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "finite-tissue-budget",
+        "route": "/terms/finite-tissue-budget/",
+        "asOf": "2026-11-08",
+        "bytes": 19342,
+        "sha256": "4d87d0e9f7f2ee13e603baa083ad0eed8c718280e9dee92544cb918d85abb71a",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "rna-integrity",
+        "route": "/terms/rna-integrity/",
+        "asOf": "2026-11-08",
+        "bytes": 17597,
+        "sha256": "63e66d01ee9a8be4c8c23da73d00f4a7f8fa351fc72de189737564f7a92e5320",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "specimen-provenance",
+        "route": "/terms/specimen-provenance/",
+        "asOf": "2026-11-08",
+        "bytes": 17733,
+        "sha256": "18b58cfe0f2665207a9713ffa884727eafcb41b1de8d85665b1066f7d76f5012",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "mrna-construct-anatomy",
+        "route": "/terms/mrna-construct-anatomy/",
+        "asOf": "2026-11-08",
+        "bytes": 19853,
+        "sha256": "5e11617051b89b58b8a17890f36dbd833a5276f92459bba6a847b37d3bc6e89e",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "codon-optimization",
+        "route": "/terms/codon-optimization/",
+        "asOf": "2026-11-08",
+        "bytes": 17236,
+        "sha256": "bf60367628886d9c7306de8be4798a9933d66347826aa9c4d694943f27e529ba",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "modified-rna-nucleosides",
+        "route": "/terms/modified-rna-nucleosides/",
+        "asOf": "2026-11-08",
+        "bytes": 18747,
+        "sha256": "8534bcb0238aade9cac65ba6dab2024c4fe03a6f4c337fa00d33a5d952032ea3",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "in-vitro-transcription",
+        "route": "/terms/in-vitro-transcription/",
+        "asOf": "2026-11-08",
+        "bytes": 18935,
+        "sha256": "570fbb29e61d6e30969ccd791b9920ca3d34d9308c8c6978659ec91aa6ba1663",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "dsrna-impurities",
+        "route": "/terms/dsrna-impurities/",
+        "asOf": "2026-11-08",
+        "bytes": 16967,
+        "sha256": "5405aa1b6f095ae0d4e0e22a0cb23134ed3598e1673c1d52552a7987fd10ee33",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "multi-epitope-constructs",
+        "route": "/terms/multi-epitope-constructs/",
+        "asOf": "2026-11-08",
+        "bytes": 19549,
+        "sha256": "73e99428fe5606aac718e35dcd118d459092dd04728a990fa362fe3b16b64cde",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-targeting-module",
+        "route": "/terms/binder-targeting-module/",
+        "asOf": "2026-11-08",
+        "bytes": 17203,
+        "sha256": "97cfdee32655e26bd074b3bd24697579cbf7d33ea20a7f7f260fedaf22294c91",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-affinity-epitope-developability",
+        "route": "/terms/binder-affinity-epitope-developability/",
+        "asOf": "2026-11-08",
+        "bytes": 20800,
+        "sha256": "9784d062410fc5028462c41e078c7b2ab11bc3d15390f00285eb7fc7f51ecdc8",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-format-constraints",
+        "route": "/terms/binder-format-constraints/",
+        "asOf": "2026-11-08",
+        "bytes": 17029,
+        "sha256": "6613aebf4fad8e6bf643574cd9812ea480eafac005a797d4b7e1b2fcd71bdffe",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "scfv-vhh-formats",
+        "route": "/terms/scfv-vhh-formats/",
+        "asOf": "2026-11-08",
+        "bytes": 16507,
+        "sha256": "1590e25fb2abf10bcf68053641a7c8c3682ed68eed3ec3a0e0433ba37a6640c8",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target",
+        "route": "/terms/delivery-target-versus-therapeutic-target/",
+        "asOf": "2026-11-08",
+        "bytes": 19544,
+        "sha256": "7748d5ac9d26f3f60b2676344fc6f875d360cab58a3c21f764eecb25ff5f7ef1",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "chemistry-manufacturing-controls",
+        "route": "/terms/chemistry-manufacturing-controls/",
+        "asOf": "2026-11-08",
+        "bytes": 20252,
+        "sha256": "82d591f15f4808627652501977c50af30a549e12e8a7aaa332c4f2230a3ac5e6",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "certificate-of-analysis",
+        "route": "/terms/certificate-of-analysis/",
+        "asOf": "2026-11-08",
+        "bytes": 17712,
+        "sha256": "30570e4e375b0f5748c7bd8065f42368758273753e441c9648ec99ef7d25921f",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "manufacturing-process-comparability",
+        "route": "/terms/manufacturing-process-comparability/",
+        "asOf": "2026-11-08",
+        "bytes": 18192,
+        "sha256": "9fec30c80951d979632e71721986766a7ff2d423c12c41aa85aff0eeb5e78152",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cell-segmentation",
+        "route": "/terms/cell-segmentation/",
+        "asOf": "2026-11-08",
+        "bytes": 16312,
+        "sha256": "23e37a3145c6362d25f65043ea88df6b0a2001ecf730665373e45c524f9001cd",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "targeted-proteomics-quantification",
+        "route": "/terms/targeted-proteomics-quantification/",
+        "asOf": "2026-11-08",
+        "bytes": 19726,
+        "sha256": "8367a3d6c32f7583b892900b81ddeb6cd5cdc4607704c054ee5fab4e21e0c2eb",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen-presentation-immunoediting",
+        "route": "/pathways/antigen-presentation-immunoediting/",
+        "asOf": "2026-11-08",
+        "bytes": 68780,
+        "sha256": "8823a9b4f23ac275e92dee31219e5f08e70a466a445c01ca0ae6c9bf6622dc15",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "route": "/technologies/cell-therapy-release-testing/",
+        "asOf": "2026-11-09",
+        "bytes": 40926,
+        "sha256": "f51cb8890b9493f17c38bba77ae51a542a9eaf7a11c749c6cdcfc82d2f5c4f9c",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "preanalytics-sample-stabilisation",
+        "route": "/technologies/preanalytics-sample-stabilisation/",
+        "asOf": "2026-11-08",
+        "bytes": 33673,
+        "sha256": "40cc0229a395dfd8f91ceec835b8bed030a4f1324ff17c3870dfdec516aa058d",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "flow-cytometry",
+        "route": "/terms/flow-cytometry/",
+        "asOf": "2026-11-08",
+        "bytes": 29867,
+        "sha256": "8b8a77843401b84e7d4e328d7babedb98d93068cafa81b6f70b179f3452e6cc6",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "vein-to-vein-time",
+        "route": "/terms/vein-to-vein-time/",
+        "asOf": "2026-11-09",
+        "bytes": 31253,
+        "sha256": "fc6e7e4f2a549de779176bc7d16e6e08138a1c4de88d07e27347256dba763380",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "rppa",
+        "route": "/terms/rppa/",
+        "asOf": "2026-11-08",
+        "bytes": 24342,
+        "sha256": "a4cf02c4ac95dcffe721f5681104dd9c7c8f0ad89f6521523c1a17e232825f88",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "body": {
+    "requirements": 55,
+    "passed": 55,
+    "rows": [
+      {
+        "id": "R01",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R02",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R03",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R04",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R05",
+        "owner": "adcc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R06",
+        "owner": "complement-in-cancer",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R07",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R08",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R09",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R10",
+        "owner": "antibody",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R11",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R12",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R13",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R14",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R14b",
+        "owner": "b-cell",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R15",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R16",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R17",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R18",
+        "owner": "fc-effector",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R19",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R20",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R21",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R22",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R23",
+        "owner": "antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R24",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R25",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R26",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R27",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R28",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R29",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R30",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R31",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R32",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R33",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R34",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R35",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R36",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R37",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R38",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R39",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R40",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R41",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R42",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R43",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R44",
+        "owner": "hla-a-02-01",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R45",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R46",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R47",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R48",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R49",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R50",
+        "owner": "binding-presentation-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R51",
+        "owner": "immunopeptidome",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R52",
+        "owner": "neoantigen",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R53",
+        "owner": "self-similarity-immune-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      },
+      {
+        "id": "R54",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true,
+        "scope": "Text outside scripts, style and SVG; no browser hydration or responsive check."
+      }
+    ]
+  }
+}

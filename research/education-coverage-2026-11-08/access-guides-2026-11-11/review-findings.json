@@ -1,0 +1,27 @@
+{
+  "findings": [
+    {
+      "id": "AG-SF01",
+      "status": "corrected in owner",
+      "finding": "Existing placebo lead said never instead of standard treatment, and summary said visible effects make blinding impossible. FDA supports selected placebo-only and add-on designs and possible rather than inevitable loss of blinding."
+    },
+    {
+      "id": "AG-SF02",
+      "status": "corrected in owner",
+      "finding": "The retained expanded-access note made subsequent institutional use an absolute prior-IRB rule. April 2026 Q11 describes qualified discretion for subsequent emergency use with prompt reporting."
+    },
+    {
+      "id": "AG-SF03",
+      "status": "open; source assertion unadopted",
+      "finding": "The lesson calls company agreement the usual and most important bottleneck. The cited FDA submitted-request fraction does not measure that frequency or rank obstacles."
+    },
+    {
+      "id": "AG-SF04",
+      "status": "qualified in owner",
+      "finding": "The lesson default nobody charges sentence is limited to sponsor investigational-drug charging permission. It does not establish free care or reimbursement."
+    }
+  ],
+  "sourceOnlyDiagramFindings": [],
+  "individualReadinessOrBenefitDetermination": false,
+  "independentExpertAcceptance": false
+}

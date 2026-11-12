@@ -1,0 +1,2787 @@
+{
+  "scope": "Worker complete lesson assessments and independent review retained at their stated depth. Coordinator reproduced all pinned byte/blob/section identities; no new blanket independent lesson-reading claim.",
+  "identities": {
+    "sourceSectionsImplementation": "<private-capture>",
+    "sourceVersions": 35,
+    "sectionCount": 384,
+    "identityMatches": true,
+    "sectionMatches": true,
+    "items": [
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+        "sourceSha256": "879215797eba9f1dd759cb18a254619ac7d0c97c549c69b8ffee73939cae3e9b",
+        "gitBlob": "006c5fb52aa9e8cad20a9a552dcb35a360a77d4b",
+        "bytes": 8731,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "300dead899457f046aa6c23d2ceef39893de3df4f08230f07ff9a4d7ab166785"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "e35bb2270c20ed5012cd9034134900e08b46a255f713d3ce3d9a7b7ec52a0dcc"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "9a258964e90166601839dd5fadafb4f571de6d6ccba04320dd9c16ee45b72287"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4bb6055ab368ae330e02e8edcd074f49df68a7f24c5335c3553af52fcc7b16b2"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "c7da4cbc8ad6534374b5e93c7335066207558b157461078e1e9571ffb9c47527"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "81f865370f85995686c7a828be5ba27497bb98eb6b10f2f732c22a9c0dae2e2f"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "3ff0c8decf3d9aa17d718a193bed515467cca30080608931f525edf4fda76f5f"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "82d78b76546e09b4472fbca95a16235440937035cab3362805de500880d29a69"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "2f53b18442bc634fd98c01163cf9958f08ab97fd4d49abea356a31e122afa0b2"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "b48a381cc3147f278802652967bc654c96382e9b59d6daf4581886e1ba61df69"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "48b4f4e66cfffc0e811f3dd49e41e1537cd59628503138595cc2e640a1ad367c"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "4c8063963cc7296874574d41fea881494da556f931d0b1d2c30be8e3a84ec739"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+        "sourceSha256": "e3e2c95e72044c4f966ce3389cfc5836751bd1025c731265f48a9373baba597f",
+        "gitBlob": "c0ab60f15750708e849fa4a770bb3790e12c0c62",
+        "bytes": 8689,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "3e42ca37a1992fb9a7e5fb9c8d1e47821458d448e69ba1aec51ff5150034b7f8"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "a87cc2ef02e578a8d043156e9f13ea595bbed3cdcb1f6d256239135594fb5f56"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "1cd41feeb3cdcf6ca16c536126bacaeac77147c1052949fbf4e4c48b804a9436"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "247e97de3c8810d174e1578753504ff2ee3237827735270f069537beeb8a2ab8"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "e635afdacbef77c66411bd75f7f9673097bd117d6821f512b568aed274e6bda9"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "278f72380616b4a8339aaecda26622c3c3ab7750f7fb3cc97e925451c798f8eb"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "8d82fbf57393578014492287ef4bea692439681c4f0015be07ec92c641b993a5"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "854534c030cf989397bda67ac6f21953947ba765040463052a401b9eaa06ca83"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "2e8c4710168619676ac047c047cb653ea4126218bbe525d76d28f6caa5000039"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+        "sourceSha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+        "gitBlob": "24962530a3902cdd20d8cd1b1c32a60bdef8c407",
+        "bytes": 9717,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "68c7dacb5839281ab67ea09c78f09a414de94a20af72eb34fe20d44f8893f272"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "eb7d186652cbf438f0482cefd4cbfa008c0b8d528263e73da6ad76c3c3758a6f"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "26645647edaf91e79c51ba72424cd375766aab7e74136899efdc91c0a89342e2"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "d98c6413d1b3bf2dc2ac2dd0bcd1ded0eec1298d813b3488756932aefaca8d68"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "44828fe0cdfe8b8c5f064a3d2656e4ded0bae5654d3942b3f8121f1f77cd3865"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "da509111a4d1a764458a1a918c8b0b742f7ee6f6f7713eb0ba9de381e0dd6da3"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "3dd7cf1dde5bf6589a3dfefe53fa56f9aa971e6176015f29f681f887d256b584"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "5d59f5dfb515feb5857bf672318cc9eecfa385847ff8616d1c4e53ed87cbc7e1"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "19baa75e63b2b0e567310dfc87636ef49d46a87881c62a9c02318e16f856363d"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+        "sourceSha256": "644fcdf708e2672038e45b2609a23dfdb0f01e9c3e84a78cede3d2aafba63143",
+        "gitBlob": "d658711a0bfab6944d16676af3536ac1b152eb7a",
+        "bytes": 9162,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "e13acb456f21c22a9c06cfe489be812f96972d32789e6499da28e441ec7ee60b"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "06ea7547a3a1afcbc531e9680671b7d22d8e1bb42b4d0f09afa49ba7a7d4435e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "8d755543b862a8d8b86a19b498d81f56a518dba6e9f279b5ef24923375197ec3"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "a0777b69d057c84ee4a5f798cb0132409e98200442cd46744ee0f1c9396f5ea6"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "223a587db510662792cdc7fbac15b977142516bed71fd0d827fb135f4eeeb17c"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "209dce4029f76b4e8eb7e5a8fd7d4137f94c3429f25667e3334c66ca655fd747"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "2c728fbd02aa17144ceb8e50d5f883aa9fc51e73f80f98d255938b078f144a0c"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "a0b8fba448c05e65f442852213699b1f7d61d26ea7d164b1c61684eda63ce595"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "2eefba2f048d29b1a1990f61eb265fb440c650a5c6c43724bfdc355406f60c81"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+        "sourceSha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+        "gitBlob": "7230f3975a5d9189e9e739cefb46ea11cd8d7962",
+        "bytes": 8363,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "cb89dce2c540945cf1737b22a802cd935ef2bc6e393354dedc57960a27abebed"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "a9b1f80c831ee033105498cb8ea9951b23580eb7c11d7717075b0d88adca5fef"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "46d4ee4759786a70b2ededa0ae48c810a872e3e6c4637da055f1c5b0478d8e60"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "36a51e081474125110199084a83b74ff4fb549512d0617d49bd80746fc349ea4"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "5a145b851e6c53fd05a4d0435eb1de1fc4f7348d615e82fea9e91aff689f9f0b"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "20c5920431255fd46835b13f863193b791ed4cbdb65107a4f2e7ea1dc594908f"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "efa2cb0d925bd3693dd1fb5c704096e2265b08937c2b7f8057403b843cae1838"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "2c3f92c6f3bdded96fe7dd4b957edf89ccf1659d172aaca6ecc4bb9b51872e49"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "2ee1c3093d3d467a8ade65e75418f2743718e7e159bb489681cf080ba43755fa"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "bce2e7dfc2f3f3f346d36aaebd2495677e11b878d1c0748ed401abf2f4ebe52f"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "a9ca9090cffbd5ae4a3de207438e1652d90894d87f162a38f6736de875799656"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "ede41cad75eec05f36a2f24545c6877fbb673ff1ca405a801585722d41a4bced"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+        "sourceSha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+        "gitBlob": "1382e6106ed7aaa9d307b0d89794b9fc228465d9",
+        "bytes": 8981,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "1a9b379b8007f69233c4cb68e72431b3e78a7d60b76c92cf241a52227a0df0dc"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "3cc6ca738b3dd48fd7b1f77ae408f95822868a1c964033677eb37c561c44a04a"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "9f76e0485e07aec66d86585dc6f016bfedd6a7e235af346ebe3070b49e03c5c2"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "710956c3315f629594e62a1f84b54d596d412341a4950db91462724c2ee51bde"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "bd4c2d7cd50c6d92b9b19b50f22ca2376b66cd32f576042db41fcf6e393b6fcd"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "05066b869c6a83ad7d86da5bb8ddc540b352cb07887d5aca8e5e38013ba1bc6b"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "63f4b116d9da2146066f8df3de916c3d8129423d6478831ed8a25c25b5b83a43"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "edc02063f6a8416df09305146c5840b11bee7bb0f296850c4d950a7f8e14381d"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "37c5d7a7a85fd45534cd91698b8b4d31588116cd35f3c613c7372096ccf84a7a"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+        "sourceSha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+        "gitBlob": "13980952bb7ab28b08738e94f0215171309ac823",
+        "bytes": 9735,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "7a121218b268183618c6d55bc6aca5167c60c0d7c528736d4fe5aa4fac01819a"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "ef8fb217378ae098164b11697d5c2bffc4e88a159d6e91fd448d123224bb9a0e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "ec74554bcbefd5356501d1e4a817f4351e08ebcd02b34f11ff15419d8bcdc164"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "1294fa489451586d2c263716928b21ad2cffaf61cca85a2bddc610dea1c38513"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "d85a3b396f4d63de35dcdfdd607f4e9c7682dba74034294036a6a926880f24d1"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "8a4a334b9937303360d2d79916d5e2740507e34fbdae7c5dca1399c3cfe4d8d8"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "90b526a47f49ad2ef9539b92528351d1ae7d164ae15ed73ee3528aec69597152"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "7ca2eac6ee4fba7a64d93334befbd64f1231ddfd05b80d59d03c7feca5cf852b"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "31204c8aaa7476c272b841e1e2ae808d3858569fb8b759e9ed530e04057e0644"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+        "sourceSha256": "8eeb0f9e13014057a89873ec4c5bc90e9fbba3213f64f02b1538f63bf7109b27",
+        "gitBlob": "1bda04f112e4348852d25e85a1efc9dc9a8244b0",
+        "bytes": 8679,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "cbe041f887ec5d101bbf30b3efe947e2c651f2ed1a841c98b95137ab90358e31"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "4083edb3a488b53eefe5020051ea6ad56a2f1cb0dbd3c142dbac0d06351098bf"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "20f66c2e1adf4fc068e093cc445b92601833192312a28a90485198ab874d65a0"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "db14ed2d6079873ce5fffdbb06500b006ffb85e1f1e92c9f914a295411ebabf1"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "503a756a784eecae7ed865ff30697dcf0deaff9f189678c35f603f4295c043d7"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "dedce885c86ef6a3508c72cfd9025fdd7c12824061c3fa0d7abe7753e4f76f6a"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "7343601f3717be68f37368d0feca85d07bc74f846359442bbe443ee9d0162ab3"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "fb8b92a60a57ae4ccab3c56ba33a13cc246e622abcad999450cba32cdcbb52fb"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "d31013e4b518ad211584e1743c0f11c2c1615972f6393a2ae1ccf630c9ae5018"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "3d895e6ef2914a52dbd1d2cc4b19a669caca2c6e921a4cc47df8e532abc67f69"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "16be0f452d5be7e647ace04044253f3a0e7547220fa5801ccaa82407f1039a70"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "cc132bf4b4de960bd2957b29635377aab4def40cdf29f19714d5cb67a68b526f"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+        "sourceSha256": "0d64065c7efb89e9bcca8442ac2c09a2346b9d6fef7d9ff3e1758e4fabc103ee",
+        "gitBlob": "6dcb3685046801e963ab372adc8f8f6f6ab42280",
+        "bytes": 12127,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "457d26ac18ee89df381ab8ce14341509c27b1215c016eba14270bbce983c890f"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "5fc6724c61ef67335d23eef93e2f6e7778cbc03281217347cf17d526cc21e3ad"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "5e3497627b5f7bf5e4a0c290d4649bc04718b735922e81fc69909af8d37c6b30"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "abf6048a0c3d7d8221db712829bbed6156e57673fa220e90b1f460bea79f0aed"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "1cadb14d77197ce2304936fffcd5b49b8bcdebc985f09defdf62a5916a1b3c4f"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "47a7b6ac88570f2c487b8a16de0b4f9eafc91465b0eb76f0f25d560c91378926"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "5c14fdd494a5406f487b3ee9b65941a5cf4bee9d12a9cd5d8c9ccf1f08c96766"
+          },
+          {
+            "ordinal": 7,
+            "kind": "additional-teaching",
+            "sha256": "cd24bb32cba60e7115ce0acf8eb3d9612341db7f5bc64c48c6a18ba075c73aa5"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "773b05f33c1744ac5109c225db33e05155449995e1e1094178580445a7731264"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "a0858b644869161c69ace1ea6daf05f026457d56bebacf7805c89d6e768b4008"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "b529ebdc79bea19bd59da5c917e38925d3aa2c211d2fe45006ed1a17022b4c40"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "1e07ee7391c0fc787cf5fc2b5432cdbb7cc9915b586da5cf8c7d0f2b04c59f5a"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+        "sourceSha256": "cac7684a3411ad9be1a11feccc3bc879ef973730b7521414dc5cc0d68d06b2ff",
+        "gitBlob": "4b46827e56e509c8106898b44dd5e515a663e550",
+        "bytes": 11341,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "2189e81bcb9c07a41f5b858563f571e88e3cda46776eb0b8d95e21b33c1928ee"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "0c8c49a73603806b5ecc82d40046b266572689d6d629b50b4a0b9670969cb07e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "db897d0064f58f3088e13cbdf8ff3c57c0508b128a6de3461e7f03d721caaabc"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "7e6acf3d77832bc66bd38f6edbc54bf53f351e533126f10ec8724710a847ee56"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "dab4a6b09cb0ec6d71d59cc9d0e71a32e7bb0c77c81c74aa5d0ca51f48f1adb1"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "296db198a120e0e03694afa5c3ed1d9f000b13b1634db5fe63cda7f783fa14f2"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "60ec1765b0ba228367ac9cb7800b255ea0a40a2ddfde03ba59a1310ac9e58545"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "93b4244e534b98f5f4dfc21412aac1f925eae7c7db7f8c43d7cf000a0cda4016"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "f7a3c43390d3a362205d3b0a5fa92b8276bbcf2168756ddfc97656369cec6dd6"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "b77af579715cf6d6634d00d98efbf7266bc515ea772a86f80b487175e996f686"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "630e1e42371ac7df9ecc6cf41016cb0b85ae8548f92383a113a03cf1c0c4f3cd"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "578dd6082cc47e8b88235b65afdfd02ef601502c2c5284d82ca19e5dd732e53d"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells.md",
+        "sourceSha256": "a73f2dfc91465824c1491d449be70b4bbb581f93cb3fbe03d9d4ab83d4cf9416",
+        "gitBlob": "3f72750bd229d3b70227b121ec45d7334141bb17",
+        "bytes": 9227,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "e8979e8dc98ecb9533e34d18875313a0b81963e7ec4a527305b847dff05050d0"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "e76a946bee64d9c38449bbfdbc215e693a61f1d628f8c3e1063c2bbce36fa46f"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "5f833fb573b5ed467c858301d8bae94c6562079b3b933eeb2d19014e16a0de4a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "1fb50dfc5bb3ab22683b0f538e28bf7e26fc245ea4e1526c9bccadee95a7df94"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "4bffd353cd7cac1f813214ee864f94f0fd4a3fb69018bfcc4cd9dc5680c4eabd"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "f5031c135967fb852190d74c9b536f224dd74ce611c11972d6e5fed33bd6d582"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4614d9a2f450f8a7109a389826dc15bffdbc879370ab77292ab7d942b35d985d"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "d029c3df602ee845f3939fcd183f5d8c05affe12c913a0bdaafc2e9929f91429"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "fd860ab31343f53203a1d01f378b026786147705081a6bd6e5afad7b38f9f19c"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "f7243eb3220ec68ac540a93e2e9e98879a12366c11405b576bc8fd96807b2888"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "4b2f660b579a14227b8874d54f3bf0ef5a7ef9057cab3b6b93647604a98258a2"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "8f676356002e4dd3ec1319e930fccf45ccd11bb13f50c32030e29daa4f44c99d"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance.md",
+        "sourceSha256": "96c5a30884a6be4e2ec1027fb074e75b4c31b4f9cb60420b7063a07ee7bf3c4e",
+        "gitBlob": "bf2e1264eddb5a1ee26062f6123675886a63b504",
+        "bytes": 8436,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "b31107019786dbf687972a9ada22051b3fa7935845ea3a3f568335715ccbecaf"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "f8c6022686aed3c72a3a967eb21acd5a83d6e401b68e0da8d7fc43bc2ef00910"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "2bca47e5a88ede74e4d6367b289e288bced6dd1af80de1fd5a277c9d219e4766"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "081b401bd839fec4038cc34126c256ff028cf9ea3704559db99082291a4ba71d"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "b5101fa5e9facc46ba9d998774ff851435a351f7b12865539aaf8ebc76992b5a"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "c43a7c79ad7cf64cd18852fddd240719075be5699723cd41fa27d4d9b2c61996"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "6562b356548f16d49b4f8d42a2de810ebd1ace862a3eb4a131730cc4131bf295"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "24d641dce424075819a172dcb4a23e2a41273624bd4f425008561f4385f24721"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "21a3854b6082ee8a2dd340730c4e107edfe68deda3cab07978749344e35811d7"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "7e3165b5b7816fba5314f731ea5f236159c24920921c757a59c7d5671d48c004"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "4ac798164de4c047e57df157009582fc720e3c35496514b7d7a63f848ab13c7c"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "e2acf7cdc659ece4f0205cd71c1fb3c0498b59f7e0238b83e26c7ee5a2ef0b43"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+        "sourceSha256": "79e5c1098ae84a9a216111c5f0b08bd363a91e17ce7587828df37d1c6b1615f6",
+        "gitBlob": "71456a77b34ebbef41678536de2879770a3d7435",
+        "bytes": 8124,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "035cf7f14b14f06d9b8b8e8b4f0bdef16973813ac47cde7394760fabec3ddf10"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "903ccf750835ee5e6bbf87a80bf7f6fccbbf6bfb064588389224909d94a7cdd8"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "c2301e635d007a386312868543bf858033ffe3f948b7bf7451e896b5fc7ba5fe"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "3d34dbe4e91a7f50f2672a4b8e909f48517e0eff211684c92ea99d9b45ff6e34"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "50d1c42aa4be196d84ffc7f65167e77fea504968a52cda2f2a95c2b5581c2415"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "025e237efda44f7c3b17cf3c44fb48850f0561c7b9c6f62083190a30a24141c4"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "feb9557c2a6287d0237a6f4e754fc2bb293b09b1f0a7e3cd279758b7b13229da"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "5b1b57c2e0d0b4fcbe4aa5888e900b671d449e9022c87b661cd4ec465cc4bf3b"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "8bb97145df660a826c136315970ddabf11a84e8d0771caf347693e327edd1dad"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "ef8db9d219a0cbee77399212e57c67b14b6e44674fb911b2a1d03dff3db7329f"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "f744071dd4ce9d875141354d98d29bd0e4eb480646d232ff159ef6043443d672"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+        "sourceSha256": "78a137618796f96f7764220b4208adb77484175788bc48cd93f52d5391d27a25",
+        "gitBlob": "6ec62c393259b7d482bfc00f042dbc503b45d980",
+        "bytes": 10692,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "af49d25c7a2e5184833666db11c7677aecae906515c84ddeef5862ed0e08b53e"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "7618731d2ee69e86b0db87d1a296b6317626222db062ad762d52e9bc774c0456"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "0cc62e8d25260871e965d538f48f2e9914b00243908a3c5221d1083f2b63493a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "01057b0e994427ac0e51241774cf2185a9599281bf076171941cdbd891175bb8"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "44f376b73ad5950e11dbe1df9e6c8693c786c187bccf26b385d6ac2c7bbb1e76"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "35ef5b758d4db76a63d16e8d5040087dafc74f3e5d65f489dd13ac63d9685487"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "9b6138d7bdc10bc82ec569f40f0cd1e291f3bc53872553c4903bb007ec00e6c3"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "ae00549af41d24a8e027a430f977f5a4ad5dcc0ed4962c783bad67b55e9dcf0a"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "9ccd7d524401c0830481deb30e0c1794914a6bc861b98b72291c607f34889ff5"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "56d299a3ac34664b77cfdd23d405c5df8cf5818885737b9afd731427bcb6b625"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "1675ffa632701685321af545f3bcdc92d4bd9caeb3205cebb501fa5f217001c5"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "43b07e621f1f7e70458f4d1899acf3ca62dec0bf12bf2d69a7cd34285d6bad15"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/lead-time.md",
+        "sourceSha256": "08b3c2bf60bf864a7a8be1b398b855217c1ab55eced9509c2b04f4a881b5e484",
+        "gitBlob": "6bff3e811b114fe885a219dc6e123b1bee65f673",
+        "bytes": 8203,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "6b637f34e81ff6a7304f93ef48c68c7d3300ab6717f8a795964a0bec5e038409"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "7a35e923258fef88709435396fde7b4a66861fc84191871499a8038d245ac994"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "ba702c827c6ff771caabddb3e14d7060fadb80f574e54a96615fc572b1c5c48a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4de719ca2e779072282aa3cd0e8d19823af5e045f280248703f73f882053d9fe"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "de43a380199e73ba385ca61696d9f6a690d0a63893da1c00744ee2d1c8cac2a5"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "bdc333c3feb9f1d98ce9b3714a01a7d60a1647f6c31c9b9328fbc024c277a189"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "974ea0cb9c07bfcf21f61384a1a9a1c3263f5c7ea26f8b52676df3f0de482e09"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "8e3ef6892143f39476dc284a9653cfd5faea8d9fee8822116b7a3677cfc2bb51"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "39b829021e46814e508689e74c58cfeb52f722273e936c04c4a239fd1bed9c03"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "23dd85d11c7a944ca15888c62412b7953dc2bdaeafdb5d5c4522dd095a8d6b5e"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "ee9564ff8e5d98a56096dff09237084761b1a81622cab343a8b710ac6b9c299b"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+        "sourceSha256": "7df6cf713487a96d5f4746b50d28bbf95022e18ee688d45dd2736d6eae10d898",
+        "gitBlob": "379bcb6ed8b6717c51f3dab7f117652c3a2553d1",
+        "bytes": 9043,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "559007b8a2a7b049fe60b66e68b341c15ab3ab604e2510fb6da42841f61d35a2"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "bede8ee6119aa4dabf5c386bbf90ebf170f4486944fad9fd32da9554d85f8109"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "0ccbd5c389029945fe42951eb7e50adc682de0a4e95c9c3bae576b740ee8a38e"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "a6d59f83caa70921defd556a752e60e3132d1f0cdbe033db59def591221f5b7c"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "0fa20c50c9502c18dc2091562094ef4340a810cab68e77f0ffd8128e37d987a0"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "daf5a9b075ed16de7d7dae5a8b495eca026009a002723e7a488dc0a2830e70b3"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "9ef48d38add08963e94f35a57fec4833d042e9e75a28c78ea2f81ea14ee17f55"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "d616899fdeadda3b5c05a61a59d1aff92b354186a76c4d06d821e02f73efb182"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "1b64226860b9b1b5fa3caf4670c7474774029097b38370cd3f9b57c130deede2"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "f16e07fc729887025be05e5d334c19ec52539c3999fe93dde0822f0fc7e0dfa4"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "16b3809d8c60d18bdd78acd54e22f56024f722207cac72280eb4e1f0642f4de4"
+          }
+        ]
+      },
+      {
+        "version": "original",
+        "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/mrd.md",
+        "sourceSha256": "e282d6df1f01986e197c59d8a5e09abd67e69603002ed91fe4e6ae553567dbb0",
+        "gitBlob": "1eefe44c0f92f1c9d5683a653869e1cd9bd47199",
+        "bytes": 7171,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "d94efdc34e3ecd85db92be7c32e4c592de81a34081652c4d970abb374ed50484"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "fe168aff6e2bccc5fa2ba277d0b885a8e819d6a4d0b8a2a39fea1a208528af8d"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "fbe87736faa8868ffdf8950f062c2d01becd02b9a80a54ee93c43b1ae19bbfd9"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "c9dd84e2a3af7a3c14455f497126a69950954bd453beb9c46c790fef96d66e53"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "eb8c03527e8498dd222441324f578af0841257d204ea430551b71bb95fb2dc36"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "92d61a4e5d8afb354e4fc566e25478f61ecce3bd9a4cea352e6911374755d89b"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "bcd6bc62b3ee47890894393cb5c0a41dedcce6455a2491651fd6a3d5003fd1a8"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "94012f19018fbb32bcb4bfd2e9e55801cecd0a9fe66b858010bc3459e3a69533"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "1974c3df63276e7ae73ebc602a3d573e9486c26534c45a4ec8d8c1c308311d61"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "5350628d00fe11aa339e3fd3d9f63d45e00c8854b6b106e2b6a47f8a3f97848a"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "406a96b90a32c9f41a4819d4d16d16375058ce3724eae33d193d4616bfaaf905"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+        "sourceSha256": "9719980803471ef011d299d53906e90d3529688035b50950c43b74b65a518222",
+        "gitBlob": "76038bb3dd8fe91f717084137c395b1db708c3af",
+        "bytes": 8737,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "300dead899457f046aa6c23d2ceef39893de3df4f08230f07ff9a4d7ab166785"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "e35bb2270c20ed5012cd9034134900e08b46a255f713d3ce3d9a7b7ec52a0dcc"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "9a258964e90166601839dd5fadafb4f571de6d6ccba04320dd9c16ee45b72287"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4bb6055ab368ae330e02e8edcd074f49df68a7f24c5335c3553af52fcc7b16b2"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "c7da4cbc8ad6534374b5e93c7335066207558b157461078e1e9571ffb9c47527"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "81f865370f85995686c7a828be5ba27497bb98eb6b10f2f732c22a9c0dae2e2f"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "3ff0c8decf3d9aa17d718a193bed515467cca30080608931f525edf4fda76f5f"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "82d78b76546e09b4472fbca95a16235440937035cab3362805de500880d29a69"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "2f53b18442bc634fd98c01163cf9958f08ab97fd4d49abea356a31e122afa0b2"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "b48a381cc3147f278802652967bc654c96382e9b59d6daf4581886e1ba61df69"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "48b4f4e66cfffc0e811f3dd49e41e1537cd59628503138595cc2e640a1ad367c"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "4c8063963cc7296874574d41fea881494da556f931d0b1d2c30be8e3a84ec739"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/flow-cytometry.md",
+        "sourceSha256": "4a00ef6a2625a4f46c8d75937b88437c575de6e30a2ea54a55ba0df56e602e6a",
+        "gitBlob": "f0beb21bdf66f9904fd4b286c5e547324bdba73d",
+        "bytes": 8845,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "3e42ca37a1992fb9a7e5fb9c8d1e47821458d448e69ba1aec51ff5150034b7f8"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "a87cc2ef02e578a8d043156e9f13ea595bbed3cdcb1f6d256239135594fb5f56"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "1cd41feeb3cdcf6ca16c536126bacaeac77147c1052949fbf4e4c48b804a9436"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "247e97de3c8810d174e1578753504ff2ee3237827735270f069537beeb8a2ab8"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "e635afdacbef77c66411bd75f7f9673097bd117d6821f512b568aed274e6bda9"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "278f72380616b4a8339aaecda26622c3c3ab7750f7fb3cc97e925451c798f8eb"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "8d82fbf57393578014492287ef4bea692439681c4f0015be07ec92c641b993a5"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "854534c030cf989397bda67ac6f21953947ba765040463052a401b9eaa06ca83"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "2e8c4710168619676ac047c047cb653ea4126218bbe525d76d28f6caa5000039"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+        "sourceSha256": "8114758515da53696e8b791544d6fedd5e0a973155852eb815743704de4d4c1e",
+        "gitBlob": "3bfae6ac862e869eee16e2cfd02956790da4748d",
+        "bytes": 9967,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "68c7dacb5839281ab67ea09c78f09a414de94a20af72eb34fe20d44f8893f272"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "eb7d186652cbf438f0482cefd4cbfa008c0b8d528263e73da6ad76c3c3758a6f"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "26645647edaf91e79c51ba72424cd375766aab7e74136899efdc91c0a89342e2"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "d98c6413d1b3bf2dc2ac2dd0bcd1ded0eec1298d813b3488756932aefaca8d68"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "44828fe0cdfe8b8c5f064a3d2656e4ded0bae5654d3942b3f8121f1f77cd3865"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "da509111a4d1a764458a1a918c8b0b742f7ee6f6f7713eb0ba9de381e0dd6da3"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "3dd7cf1dde5bf6589a3dfefe53fa56f9aa971e6176015f29f681f887d256b584"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "5d59f5dfb515feb5857bf672318cc9eecfa385847ff8616d1c4e53ed87cbc7e1"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "19baa75e63b2b0e567310dfc87636ef49d46a87881c62a9c02318e16f856363d"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+        "sourceSha256": "f82a1879b63e299e85e1e3b7698a252e94ea867f957d65ef10092ee34e27a68a",
+        "gitBlob": "5086f6b2743fdeb0073eca095a6c8b8d6c879061",
+        "bytes": 9270,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "e13acb456f21c22a9c06cfe489be812f96972d32789e6499da28e441ec7ee60b"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "06ea7547a3a1afcbc531e9680671b7d22d8e1bb42b4d0f09afa49ba7a7d4435e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "8d755543b862a8d8b86a19b498d81f56a518dba6e9f279b5ef24923375197ec3"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "a0777b69d057c84ee4a5f798cb0132409e98200442cd46744ee0f1c9396f5ea6"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "223a587db510662792cdc7fbac15b977142516bed71fd0d827fb135f4eeeb17c"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "209dce4029f76b4e8eb7e5a8fd7d4137f94c3429f25667e3334c66ca655fd747"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "2c728fbd02aa17144ceb8e50d5f883aa9fc51e73f80f98d255938b078f144a0c"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "a0b8fba448c05e65f442852213699b1f7d61d26ea7d164b1c61684eda63ce595"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "2eefba2f048d29b1a1990f61eb265fb440c650a5c6c43724bfdc355406f60c81"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+        "sourceSha256": "49914e42f294e8340a29598e84a8ee7f552ebe20077ec2573f8ce3b917871391",
+        "gitBlob": "adbeb3b69493d68231502f9245b870d5739e1ae2",
+        "bytes": 8369,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "cb89dce2c540945cf1737b22a802cd935ef2bc6e393354dedc57960a27abebed"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "a9b1f80c831ee033105498cb8ea9951b23580eb7c11d7717075b0d88adca5fef"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "46d4ee4759786a70b2ededa0ae48c810a872e3e6c4637da055f1c5b0478d8e60"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "36a51e081474125110199084a83b74ff4fb549512d0617d49bd80746fc349ea4"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "5a145b851e6c53fd05a4d0435eb1de1fc4f7348d615e82fea9e91aff689f9f0b"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "20c5920431255fd46835b13f863193b791ed4cbdb65107a4f2e7ea1dc594908f"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "efa2cb0d925bd3693dd1fb5c704096e2265b08937c2b7f8057403b843cae1838"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "2c3f92c6f3bdded96fe7dd4b957edf89ccf1659d172aaca6ecc4bb9b51872e49"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "2ee1c3093d3d467a8ade65e75418f2743718e7e159bb489681cf080ba43755fa"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "bce2e7dfc2f3f3f346d36aaebd2495677e11b878d1c0748ed401abf2f4ebe52f"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "a9ca9090cffbd5ae4a3de207438e1652d90894d87f162a38f6736de875799656"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "ede41cad75eec05f36a2f24545c6877fbb673ff1ca405a801585722d41a4bced"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+        "sourceSha256": "ed2ad38cb3ab84577b68745d62a9d158e7f7ded38b492bf7393d87b69d5d14f6",
+        "gitBlob": "cc2dd69a5c89887885dab0523d5266ef88771f62",
+        "bytes": 9089,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "1a9b379b8007f69233c4cb68e72431b3e78a7d60b76c92cf241a52227a0df0dc"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "3cc6ca738b3dd48fd7b1f77ae408f95822868a1c964033677eb37c561c44a04a"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "9f76e0485e07aec66d86585dc6f016bfedd6a7e235af346ebe3070b49e03c5c2"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "710956c3315f629594e62a1f84b54d596d412341a4950db91462724c2ee51bde"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "bd4c2d7cd50c6d92b9b19b50f22ca2376b66cd32f576042db41fcf6e393b6fcd"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "05066b869c6a83ad7d86da5bb8ddc540b352cb07887d5aca8e5e38013ba1bc6b"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "63f4b116d9da2146066f8df3de916c3d8129423d6478831ed8a25c25b5b83a43"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "edc02063f6a8416df09305146c5840b11bee7bb0f296850c4d950a7f8e14381d"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "37c5d7a7a85fd45534cd91698b8b4d31588116cd35f3c613c7372096ccf84a7a"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+        "sourceSha256": "0722b1d82d3519aa99fe4ed13a48a041d8b80c1ba1718a104f46e9bb8e2a1592",
+        "gitBlob": "62f734f8bb555f37a98370150487671d7f59ff02",
+        "bytes": 9912,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "7a121218b268183618c6d55bc6aca5167c60c0d7c528736d4fe5aa4fac01819a"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "ef8fb217378ae098164b11697d5c2bffc4e88a159d6e91fd448d123224bb9a0e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "ec74554bcbefd5356501d1e4a817f4351e08ebcd02b34f11ff15419d8bcdc164"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "1294fa489451586d2c263716928b21ad2cffaf61cca85a2bddc610dea1c38513"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "d85a3b396f4d63de35dcdfdd607f4e9c7682dba74034294036a6a926880f24d1"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "8a4a334b9937303360d2d79916d5e2740507e34fbdae7c5dca1399c3cfe4d8d8"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "90b526a47f49ad2ef9539b92528351d1ae7d164ae15ed73ee3528aec69597152"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "7ca2eac6ee4fba7a64d93334befbd64f1231ddfd05b80d59d03c7feca5cf852b"
+          },
+          {
+            "ordinal": 8,
+            "kind": "source-scope",
+            "sha256": "31204c8aaa7476c272b841e1e2ae808d3858569fb8b759e9ed530e04057e0644"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+        "sourceSha256": "accd668391d8d2af2fb6446a51802374a198354fd83726429f0c63c556fa2359",
+        "gitBlob": "2d4601e60da0a79e5bb92e82fbf7ec636aabd9d6",
+        "bytes": 8985,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "cbe041f887ec5d101bbf30b3efe947e2c651f2ed1a841c98b95137ab90358e31"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "4083edb3a488b53eefe5020051ea6ad56a2f1cb0dbd3c142dbac0d06351098bf"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "20f66c2e1adf4fc068e093cc445b92601833192312a28a90485198ab874d65a0"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "db14ed2d6079873ce5fffdbb06500b006ffb85e1f1e92c9f914a295411ebabf1"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "503a756a784eecae7ed865ff30697dcf0deaff9f189678c35f603f4295c043d7"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "dedce885c86ef6a3508c72cfd9025fdd7c12824061c3fa0d7abe7753e4f76f6a"
+          },
+          {
+            "ordinal": 6,
+            "kind": "practice-or-worked-example",
+            "sha256": "7343601f3717be68f37368d0feca85d07bc74f846359442bbe443ee9d0162ab3"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "fb8b92a60a57ae4ccab3c56ba33a13cc246e622abcad999450cba32cdcbb52fb"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "d31013e4b518ad211584e1743c0f11c2c1615972f6393a2ae1ccf630c9ae5018"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "3d895e6ef2914a52dbd1d2cc4b19a669caca2c6e921a4cc47df8e532abc67f69"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "16be0f452d5be7e647ace04044253f3a0e7547220fa5801ccaa82407f1039a70"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "cc132bf4b4de960bd2957b29635377aab4def40cdf29f19714d5cb67a68b526f"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+        "sourceSha256": "0e92e8d3ae25bf6240e1dd1204e86223334ccc6059cb274e24d63495c15f7ae2",
+        "gitBlob": "a5a6be82397398893c004901252b6c38b9193e04",
+        "bytes": 12183,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "457d26ac18ee89df381ab8ce14341509c27b1215c016eba14270bbce983c890f"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "5fc6724c61ef67335d23eef93e2f6e7778cbc03281217347cf17d526cc21e3ad"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "5e3497627b5f7bf5e4a0c290d4649bc04718b735922e81fc69909af8d37c6b30"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "ed89787f8a481e0429ffdb03c0261a2debf02ebff467aa80ef75e987533bd3d7"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "1cadb14d77197ce2304936fffcd5b49b8bcdebc985f09defdf62a5916a1b3c4f"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "47a7b6ac88570f2c487b8a16de0b4f9eafc91465b0eb76f0f25d560c91378926"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "5c14fdd494a5406f487b3ee9b65941a5cf4bee9d12a9cd5d8c9ccf1f08c96766"
+          },
+          {
+            "ordinal": 7,
+            "kind": "additional-teaching",
+            "sha256": "cd24bb32cba60e7115ce0acf8eb3d9612341db7f5bc64c48c6a18ba075c73aa5"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "773b05f33c1744ac5109c225db33e05155449995e1e1094178580445a7731264"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "a0858b644869161c69ace1ea6daf05f026457d56bebacf7805c89d6e768b4008"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "b529ebdc79bea19bd59da5c917e38925d3aa2c211d2fe45006ed1a17022b4c40"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "1e07ee7391c0fc787cf5fc2b5432cdbb7cc9915b586da5cf8c7d0f2b04c59f5a"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+        "sourceSha256": "59aa1e34c36612eafb35b88e5f72a58ca0e5a5e67d4402acab74d1810f27ae56",
+        "gitBlob": "53b682f4fdb94ec0c560868be99c935243ef7bf9",
+        "bytes": 11200,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "2189e81bcb9c07a41f5b858563f571e88e3cda46776eb0b8d95e21b33c1928ee"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "0c8c49a73603806b5ecc82d40046b266572689d6d629b50b4a0b9670969cb07e"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "db897d0064f58f3088e13cbdf8ff3c57c0508b128a6de3461e7f03d721caaabc"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "7e6acf3d77832bc66bd38f6edbc54bf53f351e533126f10ec8724710a847ee56"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "dab4a6b09cb0ec6d71d59cc9d0e71a32e7bb0c77c81c74aa5d0ca51f48f1adb1"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "296db198a120e0e03694afa5c3ed1d9f000b13b1634db5fe63cda7f783fa14f2"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "60ec1765b0ba228367ac9cb7800b255ea0a40a2ddfde03ba59a1310ac9e58545"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "93b4244e534b98f5f4dfc21412aac1f925eae7c7db7f8c43d7cf000a0cda4016"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "f7a3c43390d3a362205d3b0a5fa92b8276bbcf2168756ddfc97656369cec6dd6"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "b77af579715cf6d6634d00d98efbf7266bc515ea772a86f80b487175e996f686"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "41dcb8615bbec3b8dcbeeae7e6a87de6750c4bfdbd0db57f40d8c7698cbbb427"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "578dd6082cc47e8b88235b65afdfd02ef601502c2c5284d82ca19e5dd732e53d"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/circulating-tumor-cells.md",
+        "sourceSha256": "e93c796e9ea69291cfa71c5612d1a1437b2c28cc39a457d12a2c4231392992e8",
+        "gitBlob": "9bda5e7ac18d2d66ae3157eb26c3702f0423c99d",
+        "bytes": 9070,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "e8979e8dc98ecb9533e34d18875313a0b81963e7ec4a527305b847dff05050d0"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "e76a946bee64d9c38449bbfdbc215e693a61f1d628f8c3e1063c2bbce36fa46f"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "5f833fb573b5ed467c858301d8bae94c6562079b3b933eeb2d19014e16a0de4a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "1fb50dfc5bb3ab22683b0f538e28bf7e26fc245ea4e1526c9bccadee95a7df94"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "4bffd353cd7cac1f813214ee864f94f0fd4a3fb69018bfcc4cd9dc5680c4eabd"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "f5031c135967fb852190d74c9b536f224dd74ce611c11972d6e5fed33bd6d582"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4614d9a2f450f8a7109a389826dc15bffdbc879370ab77292ab7d942b35d985d"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "d029c3df602ee845f3939fcd183f5d8c05affe12c913a0bdaafc2e9929f91429"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "fd860ab31343f53203a1d01f378b026786147705081a6bd6e5afad7b38f9f19c"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "f7243eb3220ec68ac540a93e2e9e98879a12366c11405b576bc8fd96807b2888"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "4b2f660b579a14227b8874d54f3bf0ef5a7ef9057cab3b6b93647604a98258a2"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "8f676356002e4dd3ec1319e930fccf45ccd11bb13f50c32030e29daa4f44c99d"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-imaging-discordance.md",
+        "sourceSha256": "26deace32c71f0836e079c9ab7f2ef154c1f37c767754c359f3102c34deb2ed4",
+        "gitBlob": "7075002d35a86afcc879f6086a1045d0206c093d",
+        "bytes": 8365,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "b31107019786dbf687972a9ada22051b3fa7935845ea3a3f568335715ccbecaf"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "f8c6022686aed3c72a3a967eb21acd5a83d6e401b68e0da8d7fc43bc2ef00910"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "2bca47e5a88ede74e4d6367b289e288bced6dd1af80de1fd5a277c9d219e4766"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "081b401bd839fec4038cc34126c256ff028cf9ea3704559db99082291a4ba71d"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "b5101fa5e9facc46ba9d998774ff851435a351f7b12865539aaf8ebc76992b5a"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "c43a7c79ad7cf64cd18852fddd240719075be5699723cd41fa27d4d9b2c61996"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "6562b356548f16d49b4f8d42a2de810ebd1ace862a3eb4a131730cc4131bf295"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "24d641dce424075819a172dcb4a23e2a41273624bd4f425008561f4385f24721"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "21a3854b6082ee8a2dd340730c4e107edfe68deda3cab07978749344e35811d7"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "7e3165b5b7816fba5314f731ea5f236159c24920921c757a59c7d5671d48c004"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "33852e0ebd761c9260d4ba465f889a4b6e69e9aa015c9669df5ee1bf331b288e"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "e2acf7cdc659ece4f0205cd71c1fb3c0498b59f7e0238b83e26c7ee5a2ef0b43"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/ctdna-units.md",
+        "sourceSha256": "62c351858948858f20dc40733cedd2841c508f4321c7080b27bbfbb936d6ac2f",
+        "gitBlob": "e6ea4651b04132102f2d068bea985c639cb8180f",
+        "bytes": 7831,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "035cf7f14b14f06d9b8b8e8b4f0bdef16973813ac47cde7394760fabec3ddf10"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "903ccf750835ee5e6bbf87a80bf7f6fccbbf6bfb064588389224909d94a7cdd8"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "c2301e635d007a386312868543bf858033ffe3f948b7bf7451e896b5fc7ba5fe"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "3d34dbe4e91a7f50f2672a4b8e909f48517e0eff211684c92ea99d9b45ff6e34"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "50d1c42aa4be196d84ffc7f65167e77fea504968a52cda2f2a95c2b5581c2415"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "025e237efda44f7c3b17cf3c44fb48850f0561c7b9c6f62083190a30a24141c4"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "feb9557c2a6287d0237a6f4e754fc2bb293b09b1f0a7e3cd279758b7b13229da"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "5b1b57c2e0d0b4fcbe4aa5888e900b671d449e9022c87b661cd4ec465cc4bf3b"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "8bb97145df660a826c136315970ddabf11a84e8d0771caf347693e327edd1dad"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "ef8db9d219a0cbee77399212e57c67b14b6e44674fb911b2a1d03dff3db7329f"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "f744071dd4ce9d875141354d98d29bd0e4eb480646d232ff159ef6043443d672"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/fragmentomics-and-methylation.md",
+        "sourceSha256": "fd51528cd989829b3252fc0a81784f3af57e88068bb6f1d130fd37d78cbd8fe2",
+        "gitBlob": "4e4feeadddf908c9f5183caf36f360a47d625ce5",
+        "bytes": 10535,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "af49d25c7a2e5184833666db11c7677aecae906515c84ddeef5862ed0e08b53e"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "7618731d2ee69e86b0db87d1a296b6317626222db062ad762d52e9bc774c0456"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "0cc62e8d25260871e965d538f48f2e9914b00243908a3c5221d1083f2b63493a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "01057b0e994427ac0e51241774cf2185a9599281bf076171941cdbd891175bb8"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "44f376b73ad5950e11dbe1df9e6c8693c786c187bccf26b385d6ac2c7bbb1e76"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "35ef5b758d4db76a63d16e8d5040087dafc74f3e5d65f489dd13ac63d9685487"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "9b6138d7bdc10bc82ec569f40f0cd1e291f3bc53872553c4903bb007ec00e6c3"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "ae00549af41d24a8e027a430f977f5a4ad5dcc0ed4962c783bad67b55e9dcf0a"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "9ccd7d524401c0830481deb30e0c1794914a6bc861b98b72291c607f34889ff5"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "56d299a3ac34664b77cfdd23d405c5df8cf5818885737b9afd731427bcb6b625"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "1675ffa632701685321af545f3bcdc92d4bd9caeb3205cebb501fa5f217001c5"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "43b07e621f1f7e70458f4d1899acf3ca62dec0bf12bf2d69a7cd34285d6bad15"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/lead-time.md",
+        "sourceSha256": "08b3c2bf60bf864a7a8be1b398b855217c1ab55eced9509c2b04f4a881b5e484",
+        "gitBlob": "6bff3e811b114fe885a219dc6e123b1bee65f673",
+        "bytes": 8203,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "6b637f34e81ff6a7304f93ef48c68c7d3300ab6717f8a795964a0bec5e038409"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "7a35e923258fef88709435396fde7b4a66861fc84191871499a8038d245ac994"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "ba702c827c6ff771caabddb3e14d7060fadb80f574e54a96615fc572b1c5c48a"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "4de719ca2e779072282aa3cd0e8d19823af5e045f280248703f73f882053d9fe"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "de43a380199e73ba385ca61696d9f6a690d0a63893da1c00744ee2d1c8cac2a5"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "bdc333c3feb9f1d98ce9b3714a01a7d60a1647f6c31c9b9328fbc024c277a189"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "974ea0cb9c07bfcf21f61384a1a9a1c3263f5c7ea26f8b52676df3f0de482e09"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "8e3ef6892143f39476dc284a9653cfd5faea8d9fee8822116b7a3677cfc2bb51"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "39b829021e46814e508689e74c58cfeb52f722273e936c04c4a239fd1bed9c03"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "23dd85d11c7a944ca15888c62412b7953dc2bdaeafdb5d5c4522dd095a8d6b5e"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "ee9564ff8e5d98a56096dff09237084761b1a81622cab343a8b710ac6b9c299b"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+        "sourceSha256": "6de1d86ff28c65d1fbd764cd057f7c821550d823cce2e19d4a999b2e9cd95cab",
+        "gitBlob": "445cf94399929c4d08c5c25d7d0ac00db24dee20",
+        "bytes": 8902,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "559007b8a2a7b049fe60b66e68b341c15ab3ab604e2510fb6da42841f61d35a2"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "bede8ee6119aa4dabf5c386bbf90ebf170f4486944fad9fd32da9554d85f8109"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "0ccbd5c389029945fe42951eb7e50adc682de0a4e95c9c3bae576b740ee8a38e"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "5ef43db2650f824148ca1fbda7cf3a81fc8a86758cd6156258d230f24d4c6bdb"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "0fa20c50c9502c18dc2091562094ef4340a810cab68e77f0ffd8128e37d987a0"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "daf5a9b075ed16de7d7dae5a8b495eca026009a002723e7a488dc0a2830e70b3"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "9ef48d38add08963e94f35a57fec4833d042e9e75a28c78ea2f81ea14ee17f55"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "d616899fdeadda3b5c05a61a59d1aff92b354186a76c4d06d821e02f73efb182"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "1b64226860b9b1b5fa3caf4670c7474774029097b38370cd3f9b57c130deede2"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "f16e07fc729887025be05e5d334c19ec52539c3999fe93dde0822f0fc7e0dfa4"
+          },
+          {
+            "ordinal": 10,
+            "kind": "source-scope",
+            "sha256": "16b3809d8c60d18bdd78acd54e22f56024f722207cac72280eb4e1f0642f4de4"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/mrd.md",
+        "sourceSha256": "b6c3648e4fee2fdc7690e717c1a904e1b67715d4f11c50b90c7da11e24b12ac1",
+        "gitBlob": "d4642b54a96fea8acfbaebdb9806a21e34aac44c",
+        "bytes": 7325,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "d94efdc34e3ecd85db92be7c32e4c592de81a34081652c4d970abb374ed50484"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "fe168aff6e2bccc5fa2ba277d0b885a8e819d6a4d0b8a2a39fea1a208528af8d"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "fbe87736faa8868ffdf8950f062c2d01becd02b9a80a54ee93c43b1ae19bbfd9"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "c9dd84e2a3af7a3c14455f497126a69950954bd453beb9c46c790fef96d66e53"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "eb8c03527e8498dd222441324f578af0841257d204ea430551b71bb95fb2dc36"
+          },
+          {
+            "ordinal": 5,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "92d61a4e5d8afb354e4fc566e25478f61ecce3bd9a4cea352e6911374755d89b"
+          },
+          {
+            "ordinal": 6,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "bcd6bc62b3ee47890894393cb5c0a41dedcce6455a2491651fd6a3d5003fd1a8"
+          },
+          {
+            "ordinal": 7,
+            "kind": "practice-or-worked-example",
+            "sha256": "94012f19018fbb32bcb4bfd2e9e55801cecd0a9fe66b858010bc3459e3a69533"
+          },
+          {
+            "ordinal": 8,
+            "kind": "practice-or-worked-example",
+            "sha256": "1974c3df63276e7ae73ebc602a3d573e9486c26534c45a4ec8d8c1c308311d61"
+          },
+          {
+            "ordinal": 9,
+            "kind": "additional-teaching",
+            "sha256": "5350628d00fe11aa339e3fd3d9f63d45e00c8854b6b106e2b6a47f8a3f97848a"
+          },
+          {
+            "ordinal": 10,
+            "kind": "additional-teaching",
+            "sha256": "c158fe008f9aaf16e1b984597b3048c00e675738e42c297a0c634864cf824363"
+          },
+          {
+            "ordinal": 11,
+            "kind": "source-scope",
+            "sha256": "406a96b90a32c9f41a4819d4d16d16375058ce3724eae33d193d4616bfaaf905"
+          }
+        ]
+      },
+      {
+        "version": "later",
+        "ref": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays.md",
+        "sourceSha256": "f30ba5cd7ed9a0912bdb4832657faa845567905b393e23abc9a5ef30bd3dcd27",
+        "gitBlob": "734e4b0f2746879beaeb115c51ef65ec29b50446",
+        "bytes": 12316,
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "preamble",
+            "sha256": "f1dab27e650c13f70b57f2a1fb5229ab14a12efe5d9afdaa19d9c9bb6186bba3"
+          },
+          {
+            "ordinal": 1,
+            "kind": "additional-teaching",
+            "sha256": "d12771e57523e9af3ae36e465131060520b1032f8a8a21647a2c39298f6b39d0"
+          },
+          {
+            "ordinal": 2,
+            "kind": "additional-teaching",
+            "sha256": "74611538db9ced09f9a23690bbdcc2f49d4e1b93ab3e853ecae23a98d4f9275e"
+          },
+          {
+            "ordinal": 3,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "54cfc09b58baa406095f80182cf2124b6eba820c20cfb540b3b1469f7cd9be96"
+          },
+          {
+            "ordinal": 4,
+            "kind": "additional-teaching",
+            "sha256": "8ee45460a9ba9878a7f5137a4fa77a59f043646eb05c8cad5fe86457e408c627"
+          },
+          {
+            "ordinal": 5,
+            "kind": "additional-teaching",
+            "sha256": "b2ac6dbb14a384236d7a3dd6372169a9333779069a655a0b83a4dd531e9d8768"
+          },
+          {
+            "ordinal": 6,
+            "kind": "additional-teaching",
+            "sha256": "e955a92955edd4bdbadcf9b4d4b9ae5e95944a4639db741fb979f825e7c4afd0"
+          },
+          {
+            "ordinal": 7,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "e974ed74941214271aeaf6d3e1ced18a88af01b6df7d62ee24412be0175fe577"
+          },
+          {
+            "ordinal": 8,
+            "kind": "mechanism-measurement-interpretation",
+            "sha256": "8bf8779adc279386483fad674fe0e99757e4585641769979a07fc4590db3bf32"
+          },
+          {
+            "ordinal": 9,
+            "kind": "practice-or-worked-example",
+            "sha256": "e3745a3e9ee480bbb3f476707451b8f0507c82dc1659e011067b552c18b2a7a4"
+          },
+          {
+            "ordinal": 10,
+            "kind": "practice-or-worked-example",
+            "sha256": "446e244c39a13fefa972c3839ff8490b4624f36ce9301cb5c31094b149d5ff70"
+          },
+          {
+            "ordinal": 11,
+            "kind": "additional-teaching",
+            "sha256": "2b6cb327d90ba8976267021de114315c6534570b501eb41af4f0e9664460f642"
+          },
+          {
+            "ordinal": 12,
+            "kind": "source-scope",
+            "sha256": "f28d3035b7e6caeec8d72f67883672d1770866c334cb946de1fc224c6759fc5f"
+          }
+        ]
+      }
+    ]
+  },
+  "workerCounts": {
+    "laterLessons": 18,
+    "originalLessons": 17,
+    "laterSections": 199,
+    "originalSections": 185,
+    "linkedFigurePairs": 16,
+    "mermaidBlocks": 10
+  },
+  "figuresAndMermaid": {
+    "themeFiles": 32,
+    "families": 16,
+    "entries": [
+      {
+        "lesson": "elispot",
+        "file": "secretion-membrane-spots-and-controls-v1-light.svg",
+        "sourceSha256": "330cd03622856c79dd5ba3742f154e04090cd028cc60e8d67c9361da40e22f5b",
+        "renderSha256": "7fb643a5eb4a032f4955b8739a403853b42e2dfd8c27e4482c2646f4b38b8e82",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "elispot",
+        "file": "secretion-membrane-spots-and-controls-v1-dark.svg",
+        "sourceSha256": "b03024677b75c00fa8fc8f879f2413a23bce1b14332c7d46b33dffbf765c5bf7",
+        "renderSha256": "acfd2fe451d476ff39a4fc4856aa26c9a77fc664120eb61ca2ea37ca01d69fff",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "flow-cytometry",
+        "file": "nested-flow-gates-and-parent-denominators-v1-light.svg",
+        "sourceSha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715",
+        "renderSha256": "a40ec13dc0c8a5700148524921b8367864e4f8d17376d56658ae9438e4d477ed",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "flow-cytometry",
+        "file": "nested-flow-gates-and-parent-denominators-v1-dark.svg",
+        "sourceSha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782",
+        "renderSha256": "77b5700583986e1f607c4658460257c19f2e070e2e65b1eb53365b31452af0be",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "functional-cytotoxicity-assays",
+        "file": "target-death-controls-and-associated-excess-v1-light.svg",
+        "sourceSha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3",
+        "renderSha256": "dcc9d1d79161f82c9d660f82cd3b9e7e5db582f641fd758176b4ee493426bf87",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "30% and 40% bar-end labels touch the bar edges in both themes.",
+          "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+          "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "functional-cytotoxicity-assays",
+        "file": "target-death-controls-and-associated-excess-v1-dark.svg",
+        "sourceSha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af",
+        "renderSha256": "72417ac4fef4dc4fa80845cad712e2c8b872b53999622af45d9b4964b86a9407",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "30% and 40% bar-end labels touch the bar edges in both themes.",
+          "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+          "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "intracellular-cytokine-staining",
+        "file": "retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+        "sourceSha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72",
+        "renderSha256": "52cacd2c5a8206b896f83a72e4b2219d21cd575c92ca4ceda53a11c9d01c806b",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+          "'Cytokines retained inside' touches the cell outline in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "intracellular-cytokine-staining",
+        "file": "retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+        "sourceSha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97",
+        "renderSha256": "2557d95b16aa92af9c7673124759fcce01c87d11522d14f197c0befbd7b6df7c",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+          "'Cytokines retained inside' touches the cell outline in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "peptide-hla-multimer-staining",
+        "file": "peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+        "sourceSha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+        "renderSha256": "b0158b0609fe924a3b9cf359ca894f603d0e8be9c05dcc98e3e7dbde89039531",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "peptide-hla-multimer-staining",
+        "file": "peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+        "sourceSha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+        "renderSha256": "037b4ce0fa686b3fcb97ac327bb91a181d626d70fec73580546c25dd2d93f6bf",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "peripheral-blood-mononuclear-cells",
+        "file": "density-interface-and-recovered-blood-fraction-v1-light.svg",
+        "sourceSha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+        "renderSha256": "3cd0c6d33f7bf8ef857c5d19792bcac4db2d1645df149ca93d31038a63505375",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "peripheral-blood-mononuclear-cells",
+        "file": "density-interface-and-recovered-blood-fraction-v1-dark.svg",
+        "sourceSha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+        "renderSha256": "e6925866c2a767dd0f71578d79cb4c60c179c2161fdb4389bd52c448a8fceb3f",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tcr-clonality-metrics",
+        "file": "richness-evenness-and-relative-enrichment-v1-light.svg",
+        "sourceSha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+        "renderSha256": "5af6ff399bf0b958ec5e192301067918ff31cc3d98e563cf044e3baa54fcc092",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tcr-clonality-metrics",
+        "file": "richness-evenness-and-relative-enrichment-v1-dark.svg",
+        "sourceSha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+        "renderSha256": "bd628dae5e8c85d40072d04f45cc1d5dc92160e3167fdb8b55a10a64193c95b3",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tcr-sequencing",
+        "file": "bulk-chain-and-paired-cell-identities-v1-light.svg",
+        "sourceSha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2",
+        "renderSha256": "e00b640b2b4bd708a698f28a7c107fc9753c28d4bf6557f4d22bf52e8625e14c",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the small nucleus faces inside cell discs are low contrast."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tcr-sequencing",
+        "file": "bulk-chain-and-paired-cell-identities-v1-dark.svg",
+        "sourceSha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf",
+        "renderSha256": "c57d0cadc42e039d7534771fccf5f89191734a6292f50ab0d54db9b24296e837",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the small nucleus faces inside cell discs are low contrast."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "cfdna-vs-ctdna",
+        "file": "cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+        "sourceSha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+        "renderSha256": "840ee1583da608d45d8c4c3a4d3df28b7f3006a6a24bacac296d6e6b1e1594f0",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "cfdna-vs-ctdna",
+        "file": "cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+        "sourceSha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+        "renderSha256": "8bcb6b37256364c7d856ad20e0cb3ba69c38391629ff0f7204bc4eb7b936b5b4",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "chip",
+        "file": "plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+        "sourceSha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611",
+        "renderSha256": "63ce5d8c1a11b66bc0d252951ee08965ccbc2203c9903e789ef1dcb9d4f5a1c7",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "chip",
+        "file": "plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+        "sourceSha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f",
+        "renderSha256": "01be3ede230c4474f49f670fa163bdbe844e960cd961bf7837d3473ff4a9e18d",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "circulating-tumor-cells",
+        "file": "marker-recovery-and-free-dna-v1-light.svg",
+        "sourceSha256": "c42d47c91ac3834c5d8a8e2d5ff881517faa2ec81316306bf3cd36e4c1fd5ff3",
+        "renderSha256": "0565055781b43784b2923e3c390f7b1e6b347869674bec32ca6d8ab33ded9276",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+          "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "circulating-tumor-cells",
+        "file": "marker-recovery-and-free-dna-v1-dark.svg",
+        "sourceSha256": "301b6ce303143f7c99a5365ab265b1581671a74ac7254d3801a0f2c640f71cb5",
+        "renderSha256": "983b267a558e5819f72319518a17372bf2377a64c1db08e6e85e490dd27f468b",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+          "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "ctdna-units",
+        "file": "ctdna-concentration-and-background-fractions-v1-light.svg",
+        "sourceSha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3",
+        "renderSha256": "4a166c7923b6c5d5f05a8450cb26fe39cd47804ce9dd49c7d3921693dc6490c0",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "ctdna-units",
+        "file": "ctdna-concentration-and-background-fractions-v1-dark.svg",
+        "sourceSha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f",
+        "renderSha256": "999870fdb5b0770e7b964e633de28c29e8bae11ddcbe0af34d891b69df5261d4",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "fragmentomics-and-methylation",
+        "file": "measured-features-model-inference-v1-light.svg",
+        "sourceSha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12",
+        "renderSha256": "d58d598445fcb2eb6c7928a3bb8feb68cf7b3e595b79012894a7a52480978e8f",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "fragmentomics-and-methylation",
+        "file": "measured-features-model-inference-v1-dark.svg",
+        "sourceSha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63",
+        "renderSha256": "659fc2f32f58e35bbe2d322f3f31b2f67f7f8201c819a429fd588400ee8b9d7a",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "lead-time",
+        "file": "six-person-sampling-timelines-v1-light.svg",
+        "sourceSha256": "7dc07b220d957b712bba861a371a2b7ade52a36329140e2f32500db95dc33cfb",
+        "renderSha256": "794dfeea043974a79d95a9ab72d048c98b6a8a9c488f84cc0a9b98c51673ecf9",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "lead-time",
+        "file": "six-person-sampling-timelines-v1-dark.svg",
+        "sourceSha256": "2de566fd94946baa908d8390a91376aebd5ae3f641f02d3f6bb143ed0df46256",
+        "renderSha256": "6aa8f3d85aa653f65d7f2fcef09b7761b076ff8b6555f0f1e70585de8dc2b6a1",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "limit-of-detection-and-sampling",
+        "file": "average-one-can-be-zero-v1-light.svg",
+        "sourceSha256": "bcc3153324c63be1e78f6117352b686016bd993e1dffd4c1f262d9c55e0f11db",
+        "renderSha256": "871c68c1656c884184a494425612b7b12370a7f92ea1e236fc3c3cf6f0b80bb4",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "limit-of-detection-and-sampling",
+        "file": "average-one-can-be-zero-v1-dark.svg",
+        "sourceSha256": "470a25338034c9b1b025a163ee7b21ca9a3d988c1215b3c4947599059cc5f568",
+        "renderSha256": "5218ddcb0246a41665b5b4c58c0f2a4ccfe0fdf4f2d97ff8c244e62c79222f29",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+        "file": "tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+        "sourceSha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e",
+        "renderSha256": "b436cd320e1a7583e5381cd479d7999fae083e97b7cb4aefa61382a384b31af4",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      },
+      {
+        "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+        "file": "tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+        "sourceSha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887",
+        "renderSha256": "d79e0954f14be2ab696b72aa54a2294be10198998be76a4f34e4e7c282c8fa6e",
+        "priorViewedFullExtentWithLesson": true,
+        "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+        "defects": [
+          "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+        ],
+        "reusedBySourceAndRenderIdentity": true
+      }
+    ],
+    "mermaidBlocks": [
+      {
+        "lesson": "flow-cytometry",
+        "index": 0,
+        "sourceSha256": "44fae80b3f3fdd120d537dc25f2bc929a35b3f78eaef09e75bd61a049870888a",
+        "nodeCount": 6,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "functional-cytotoxicity-assays",
+        "index": 0,
+        "sourceSha256": "b83c34ec36c358dbc1782e1bd1b402c03df0f85113d0f35b227eedbb400b172b",
+        "nodeCount": 6,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "intracellular-cytokine-staining",
+        "index": 0,
+        "sourceSha256": "cd5f4b875bae0002011d74e8e51d12036cfb92f6cbd8f65f935da9d7a303b10c",
+        "nodeCount": 6,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "peripheral-blood-mononuclear-cells",
+        "index": 0,
+        "sourceSha256": "fe5bf37d1c530231e2e237b9697ecf421fc51699e93d476122e8c35e9ec50878",
+        "nodeCount": 6,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "tcr-clonality-metrics",
+        "index": 0,
+        "sourceSha256": "f95bfdece4250b6eb33c3896fe54d03a3db40e9fab4e724ac8b7895afa6e35aa",
+        "nodeCount": 6,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "chip",
+        "index": 0,
+        "sourceSha256": "b9b1091a2f874d371c7a9c2c96fc854311ee617d19a0696e1563b94ea46b678c",
+        "nodeCount": 5,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "circulating-tumor-cells",
+        "index": 0,
+        "sourceSha256": "2182a213adc0fc89b803ab8002eee4f90a80d2a31ba92e40bb2909711227dc18",
+        "nodeCount": 5,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "ctdna-imaging-discordance",
+        "index": 0,
+        "sourceSha256": "fa1a84fa3970f646fc1cf83b997f4c8e4190b29b525763be5d963269b57a94d1",
+        "nodeCount": 5,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "fragmentomics-and-methylation",
+        "index": 0,
+        "sourceSha256": "3f42a19258103ce80e6c9ca97e4caf85402d27c95f9ea30baa2629abbba6b43e",
+        "nodeCount": 5,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      },
+      {
+        "lesson": "limit-of-detection-and-sampling",
+        "index": 0,
+        "sourceSha256": "691cc99db42a03ca0007e6356a807e06ce0f15950bc7d8703774b49720595188",
+        "nodeCount": 4,
+        "renderedDefaultThemeSha256": "8572bc3b0f7ce54769e75202cc3bd12d9768252fef23f297b449faee81eaca19",
+        "renderedDarkThemeSha256": "4a27b473db53e3b04cec27ae1d9cca63a2703832cfc7b7b7f7868ad793e3f900",
+        "method": "headless Google Chrome, mermaid 10.9.1 from jsdelivr, built-in default and dark themes, all ten blocks on one private page",
+        "inspected": true,
+        "defects": [],
+        "rendererLimits": "built-in mermaid themes, not the site's own theme variables; node text read and flow order checked against the lesson prose",
+        "sourceAndThemeRenderHashesVerified": true
+      }
+    ],
+    "mermaidScope": "All ten block-source hashes and both full-page render receipts reproduce. The actual worker source, rendered-theme viewing and limitations are inherited; no new independent rendering or accessibility review claimed.",
+    "scope": "Reused actual worker figure assessments after checking pinned source and stored raster hashes. No new independent views, browser render or accessibility review claimed."
+  },
+  "sourceToFieldAcceptance": "pending; no new source ledger credit"
+}

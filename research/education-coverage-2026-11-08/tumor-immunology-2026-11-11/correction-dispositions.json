@@ -1,0 +1,84 @@
+{
+  "checkedOn": "2026-11-11",
+  "corrections": [
+    {
+      "id": "cycle-map",
+      "records": [
+        "cancer-immunity-cycle"
+      ],
+      "disposition": "Removed unsupported one-or-two-bottleneck frequency, cure inference and automatic immunogenic-death/step-completion claims; retained conditional framework, access and safety."
+    },
+    {
+      "id": "spatial-map",
+      "records": [
+        "immune-desert-exclusion",
+        "cold-vs-hot",
+        "immune-exclusion"
+      ],
+      "disposition": "Removed automatic PD-1-response and universal conversion implications; separated beta-catenin from PTEN/PIK3CA mistargeting. Pancreatic model and historical clinical claims retain defined scope."
+    },
+    {
+      "id": "nk-map",
+      "records": [
+        "nk-cell-recognition",
+        "nk-cell"
+      ],
+      "disposition": "Missing self is an altered inhibitory input rather than guaranteed killing. Fc-engineered margetuximab is not called an afucosylated antibody; the label retains in-vitro scope. Shared ligand names do not establish relative affinity or competitive dominance."
+    },
+    {
+      "id": "cd4-programmes",
+      "records": [
+        "cd4-t-cell-subsets"
+      ],
+      "disposition": "Marker presence is not a function assay; differentiated programmes remain plastic/contextual, and cytotoxic human CD4 evidence is retained separately."
+    },
+    {
+      "id": "interferon",
+      "records": [
+        "adaptive-immune-resistance",
+        "immune-surveillance-immunoediting"
+      ],
+      "disposition": "Inducibility, basal display, recognition and killing remain distinct. JAK1/JAK2 interferon dependencies are not equated. The Garcia-Diaz correction body is inaccessible and its axis requirement remains partial."
+    },
+    {
+      "id": "clinical-scope",
+      "records": [
+        "perioperative-immune-window",
+        "abscopal-effect",
+        "in-situ-vaccination",
+        "tils"
+      ],
+      "disposition": "Biomarkers, selected evaluable denominators, single-arm combinations, region/area denominators and clinical comparative benefit are separated."
+    }
+  ],
+  "indexedCorrections": {
+    "checkedOn": "2026-11-11",
+    "items": [
+      {
+        "pmid": "32448801",
+        "doi": "10.1136/jitc-2019-000337corr1",
+        "bodyRead": true,
+        "correctionScope": "Author-name abbreviation, Aitziber Buqué Martinez. No biological definition or assay-result change is described in the correction.",
+        "capture": "PMC7252980-bioc.xml",
+        "captureSha256": "f1e2193ba76d2dd9f2253757618f124b7e596b189b371dd758727afca2eb7e53"
+      },
+      {
+        "pmid": "29542692",
+        "doi": "10.1038/nature25145",
+        "bodyRead": true,
+        "correctionScope": "Data-availability deposition and an expanded competing-interest statement/management plan. This correction does not describe a replacement of the reported vaccine response counts.",
+        "capture": "PMC6064631-bioc.xml",
+        "captureSha256": "a60dc65faefcbb4982b858647d734d977d2064ecd4cb74f5772ebc476ae1e070"
+      },
+      {
+        "pmid": "31825850",
+        "doi": "10.1016/j.celrep.2019.11.113",
+        "bodyRead": false,
+        "correctionScope": "Unknown. Crossref confirms identity and PII S2211124719316365. Elsevier API returned metadata-only XML; direct Cell and ScienceDirect pages returned 403. One source-qualification requirement remains partial.",
+        "capture": "garcia-correction-elsevier.xml",
+        "captureSha256": "94b01e9823e037031dcf25635c5a77e2248302fadabe5d413ffe86d2dced01ae"
+      }
+    ],
+    "unreadBodyNotCalledRead": true
+  }
+}

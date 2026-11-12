@@ -1,0 +1,1336 @@
+{
+  "checkedOn": "2026-11-12",
+  "publicationIdentities": 19,
+  "completeAbstractsRead": 13,
+  "wholeOriginalPapersRead": 0,
+  "rawRequests": 75,
+  "rawCaptures": 74,
+  "targetedBodyParagraphs": 18,
+  "pdfTextPagesRead": 17,
+  "sources": [
+    {
+      "id": "cortazar2014",
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "firstAuthor": "Cortazar",
+      "year": 2014,
+      "crossrefCapture": "cortazar-crossref.json",
+      "crossrefSha256": "747798b876ff50ae6b814a4987a77b2366e6b5e0581803eefed0500896742a45",
+      "wholeOriginalPaperRead": false,
+      "pmid": "24529560",
+      "pmcid": null,
+      "epmcCapture": "cortazar-epmc.json",
+      "epmcSha256": "86d65cf793aacb89e391c7156cee4e236e9d2535864505925e439251895fe761",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "keynote-pcr2020",
+      "doi": "10.1056/nejmoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "firstAuthor": "Schmid",
+      "year": 2020,
+      "crossrefCapture": "kn522-pcr-crossref.json",
+      "crossrefSha256": "a2918531078d649a11ea80d188b42c831c856983f1d9b46bdaf29c79375d9345",
+      "wholeOriginalPaperRead": false,
+      "pmid": "32101663",
+      "pmcid": null,
+      "epmcCapture": "kn522-pcr-epmc.json",
+      "epmcSha256": "8460af83265a4464cced7a70dce467a772785ef5dbad0fe38ce53edb3f0e3a1f",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "keynote-efs2022",
+      "doi": "10.1056/nejmoa2112651",
+      "title": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+      "firstAuthor": "Schmid",
+      "year": 2022,
+      "crossrefCapture": "kn522-efs-crossref.json",
+      "crossrefSha256": "4c251508f41b3228be4e8c11cb30ebd13605eb3a671d737d2858b11a0e601275",
+      "wholeOriginalPaperRead": false,
+      "pmid": "35139274",
+      "pmcid": null,
+      "epmcCapture": "kn522-efs-epmc.json",
+      "epmcSha256": "48a9c0a03a9ef2901b0e5db2ccc66c53f08a1c06097a4ea7d484308a1cb647c3",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "keynote-os2024",
+      "doi": "10.1056/nejmoa2409932",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "firstAuthor": "Schmid",
+      "year": 2024,
+      "crossrefCapture": "kn522-os-crossref.json",
+      "crossrefSha256": "a2e6658c5ff659b8c327725512f3018e4468d75091ee38b68ef2c765137a5baf",
+      "wholeOriginalPaperRead": false,
+      "pmid": "39282906",
+      "pmcid": null,
+      "epmcCapture": "kn522-os-epmc.json",
+      "epmcSha256": "f3e8177f7022fd64617b777c47986d28c02609a20416b7d928c1825ea38b0e8b",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "nanda2020",
+      "doi": "10.1001/jamaoncol.2019.6650",
+      "title": "Effect of Pembrolizumab Plus Neoadjuvant Chemotherapy on Pathologic Complete Response in Women With Early-Stage Breast Cancer: An Analysis of the Ongoing Phase 2 Adaptively Randomized I-SPY2 Trial.",
+      "firstAuthor": "Nanda",
+      "year": 2020,
+      "crossrefCapture": "ispy2-crossref.json",
+      "crossrefSha256": "5ab6499d3319153f5e9f49978ead6468bb8c6cdcc8c95ca8ed06b90c0a8044fb",
+      "wholeOriginalPaperRead": false,
+      "pmid": "32053137",
+      "pmcid": "PMC7058271",
+      "epmcCapture": "ispy2-epmc.json",
+      "epmcSha256": "b3cc78c1e4f424acb45c7a831182d9c4a3f72b99a1eb571fac1c527ee09762b2",
+      "titleNormalizedMatch": false,
+      "authorsYearAndDoiAgree": true,
+      "metadataNote": "Crossref uses a shorter title than Europe PMC; DOI, first author, journal, year and pages identify the same publication. The complete captured title strings remain in their raw registry records.",
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "kaplan1958",
+      "doi": "10.1080/01621459.1958.10501452",
+      "title": "Nonparametric Estimation from Incomplete Observations",
+      "firstAuthor": "Kaplan",
+      "year": 1958,
+      "crossrefCapture": "km1958-crossref.json",
+      "crossrefSha256": "da3083f7a61d129374cf1a3e625d01c6b5824d1509310e80bb03d4fb1f1209a4",
+      "wholeOriginalPaperRead": false,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry"
+    },
+    {
+      "id": "cox1972",
+      "doi": "10.1111/j.2517-6161.1972.tb00899.x",
+      "title": "Regression Models and Life-Tables",
+      "firstAuthor": "Cox",
+      "year": 1972,
+      "crossrefCapture": "cox1972-crossref.json",
+      "crossrefSha256": "c40b001b69cbd7245c48e22ef0b8bb6e3d86068869dc054319fdeb61a9fc009d",
+      "wholeOriginalPaperRead": false,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry"
+    },
+    {
+      "id": "cook1995",
+      "doi": "10.1136/bmj.310.6977.452",
+      "title": "The number needed to treat: a clinically useful measure of treatment effect.",
+      "firstAuthor": "Cook",
+      "year": 1995,
+      "crossrefCapture": "cook-sackett-crossref.json",
+      "crossrefSha256": "6743168baf9a93451e9812f417fd93d0e27476b6ea5052c647eabbd2c671e133",
+      "wholeOriginalPaperRead": false,
+      "pmid": "7873954",
+      "pmcid": "PMC2548824",
+      "epmcCapture": "cook-sackett-epmc.json",
+      "epmcSha256": "c9507d8704294c5fd307237773fa9e53816dcc38f97aca39e8ab82024f52519e",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "altman1998",
+      "doi": "10.1136/bmj.317.7168.1309",
+      "title": "Confidence intervals for the number needed to treat.",
+      "firstAuthor": "Altman",
+      "year": 1998,
+      "crossrefCapture": "altman1998-crossref.json",
+      "crossrefSha256": "c3bab23b66b6a46b2275a1ebc603c46ebd7455d2551da0df470864ae2ea288e4",
+      "wholeOriginalPaperRead": false,
+      "pmid": "9804726",
+      "pmcid": "PMC1114210",
+      "epmcCapture": "altman1998-epmc.json",
+      "epmcSha256": "3e9fdc8263b7b80fd0b9038a574f651b02e2f500e710367e24178dc178ae9921",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry"
+    },
+    {
+      "id": "altman1999",
+      "doi": "10.1136/bmj.319.7223.1492",
+      "title": "Calculating the number needed to treat for trials where the outcome is time to an event.",
+      "firstAuthor": "Altman",
+      "year": 1999,
+      "crossrefCapture": "altman-andersen-crossref.json",
+      "crossrefSha256": "f188ee95210deaf4475e1ad74acbe4caee8360c68a0c1e262331416bd8774954",
+      "wholeOriginalPaperRead": false,
+      "pmid": "10582940",
+      "pmcid": "PMC1117211",
+      "epmcCapture": "altman-andersen-epmc-final.json",
+      "epmcSha256": "e0cb62f24d826cc0d5875991459674c946d71d69a79b271ec11ff77d4403bed2",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry and specified targeted article text lines; not whole paper",
+      "targetedHTMLTextLineNumbers": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "bodyCapture": "altman-andersen-pmc.html"
+    },
+    {
+      "id": "sun2010",
+      "doi": "10.1136/bmj.c117",
+      "title": "Is a subgroup effect believable? Updating criteria to evaluate the credibility of subgroup analyses.",
+      "firstAuthor": "Sun",
+      "year": 2010,
+      "crossrefCapture": "sun-crossref.json",
+      "crossrefSha256": "4496bbaabbfe74778a66231133e03cd58b6acc37997dacdd4d0d559dc3ed65f3",
+      "wholeOriginalPaperRead": false,
+      "pmid": "20354011",
+      "pmcid": null,
+      "epmcCapture": "sun-epmc.json",
+      "epmcSha256": "47b4fb0abad801143837ab70ef3a4be8eca67c6b8e899a6ba0b3d35cfd44d906",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry"
+    },
+    {
+      "id": "landmark1983",
+      "doi": "10.1200/jco.1983.1.11.710",
+      "title": "Analysis of survival by tumor response.",
+      "firstAuthor": "Anderson",
+      "year": 1983,
+      "crossrefCapture": "landmark-crossref.json",
+      "crossrefSha256": "36d9ee5f0407f317e004c4344bca9dd839e0bdb492735b50c74ab441610b9f19",
+      "wholeOriginalPaperRead": false,
+      "pmid": "6668489",
+      "pmcid": null,
+      "epmcCapture": "landmark-epmc.json",
+      "epmcSha256": "306a439a981029bcc10f955372f8a85db84decb96c101527fa12c7d675f29d60",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "care2013",
+      "doi": "10.3238/arztebl.2013.0603",
+      "title": "The CARE guidelines: consensus-based clinical case reporting guideline development.",
+      "firstAuthor": "Gagnier",
+      "year": 2013,
+      "crossrefCapture": "care-crossref.json",
+      "crossrefSha256": "cdecb6c23cd3ad03cd2db3d154be57749249f13f17a4ff514bba60c9cf6d8f79",
+      "wholeOriginalPaperRead": false,
+      "pmid": "24078847",
+      "pmcid": "PMC3784031",
+      "epmcCapture": "care-pmid-epmc.json",
+      "epmcSha256": "111e8752fc2ed955f51f176dd807cf3bba5bffd74d8e2756a33b4ceb07ca4d5b",
+      "titleNormalizedMatch": false,
+      "authorsYearAndDoiAgree": true,
+      "metadataNote": "Crossref uses a shorter title than Europe PMC; DOI, first author, journal, year and pages identify the same publication. The complete captured title strings remain in their raw registry records.",
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract and specified targeted article text lines; not whole paper",
+      "targetedHTMLTextLineNumbers": [
+        171
+      ],
+      "bodyCapture": "care-pmc.html"
+    },
+    {
+      "id": "tripod-ai2024",
+      "doi": "10.1136/bmj-2023-078378",
+      "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods.",
+      "firstAuthor": "Collins",
+      "year": 2024,
+      "crossrefCapture": "tripod-ai-crossref.json",
+      "crossrefSha256": "e85d60e47ae5ad3723676f3bc395d7075005b2082c9c0023474c62a45654f981",
+      "wholeOriginalPaperRead": false,
+      "pmid": "38626948",
+      "pmcid": "PMC11019967",
+      "epmcCapture": "tripod-ai-epmc.json",
+      "epmcSha256": "4aad668c1d1f317a501897806c45b19faec7b3476b2176c6dce2918a483b94bc",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": false,
+      "readDepth": "identity only; no abstract supplied in the checked registry and specified targeted body paragraphs; not whole paper",
+      "targetedBodyParagraphIndices": [
+        4,
+        10,
+        20,
+        70,
+        79
+      ],
+      "bodyCapture": "tripod-ai-fulltext.xml"
+    },
+    {
+      "id": "consort2025",
+      "doi": "10.1136/bmj-2024-081123",
+      "title": "CONSORT 2025 statement: updated guideline for reporting randomised trials.",
+      "firstAuthor": "Hopewell",
+      "year": 2025,
+      "crossrefCapture": "consort2025-crossref.json",
+      "crossrefSha256": "c0b83ba5d3361891ef734f7e6069262aea1dbb343bfb002bb45772d8073ee261",
+      "wholeOriginalPaperRead": false,
+      "pmid": "40228833",
+      "pmcid": "PMC11995449",
+      "epmcCapture": "consort2025-epmc.json",
+      "epmcSha256": "9883df7ad98d238633829ad273c10d36a4344d6ff07cd8b4de81490ff8926f7e",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract and specified targeted body paragraphs; not whole paper",
+      "targetedBodyParagraphIndices": [
+        1,
+        4,
+        15,
+        20,
+        21,
+        25,
+        27,
+        36,
+        37
+      ],
+      "bodyCapture": "consort2025-fulltext.xml"
+    },
+    {
+      "id": "createx2017",
+      "doi": "10.1056/nejmoa1612645",
+      "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "firstAuthor": "Masuda",
+      "year": 2017,
+      "crossrefCapture": "createx-crossref.json",
+      "crossrefSha256": "19ead5f377702e6017c843878bc67612e674b0f4c3592f44b1ec1e36a55a7640",
+      "wholeOriginalPaperRead": false,
+      "pmid": "28564564",
+      "pmcid": null,
+      "epmcCapture": "createx-epmc.json",
+      "epmcSha256": "b953c719a21bfacc2c09132ee7d85c5232c00bf1b5fb617bceb69b9258fa0036",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    },
+    {
+      "id": "olympia2021",
+      "doi": "10.1056/nejmoa2105215",
+      "title": "Adjuvant Olaparib for Patients with &lt;i&gt;BRCA1&lt;/i&gt;- or &lt;i&gt;BRCA2&lt;/i&gt;-Mutated Breast Cancer.",
+      "firstAuthor": "Tutt",
+      "year": 2021,
+      "crossrefCapture": "olympia-crossref.json",
+      "crossrefSha256": "d17d91305aa3c276d81824681ff5ac103b82b5497dea76ce9cfde360a3c51049",
+      "wholeOriginalPaperRead": false,
+      "pmid": "34081848",
+      "pmcid": "PMC9126186",
+      "epmcCapture": "olympia-epmc.json",
+      "epmcSha256": "3f5e97de080bc2fba29c1bb6a7e963ee733020a717b3111aba898b2045fff15b",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract and specified targeted body paragraphs; not whole paper",
+      "targetedBodyParagraphIndices": [
+        7,
+        8,
+        9,
+        32
+      ],
+      "bodyCapture": "olympia-ncbi.xml"
+    },
+    {
+      "id": "keynote2026",
+      "doi": "10.1200/jco.2026.44.16_suppl.507",
+      "title": "Neoadjuvant pembrolizumab or placebo plus chemotherapy followed by adjuvant pembrolizumab or placebo for high-risk early-stage TNBC: Final analysis results from the phase 3 KEYNOTE-522 study.",
+      "firstAuthor": "Schmid",
+      "year": 2026,
+      "crossrefCapture": "kn522-2026-crossref.json",
+      "crossrefSha256": "171e6d918468576c8288865ae9092984e5a12adf28baab79ace92013534dfc1f",
+      "wholeOriginalPaperRead": false,
+      "completeAbstractRead": true,
+      "readDepth": "complete authors-deposited conference abstract; publisher page returned 403; not a full journal article",
+      "sourceType": "authors conference abstract deposited with Crossref"
+    },
+    {
+      "id": "pusztai2024",
+      "doi": "10.1016/j.annonc.2024.02.002",
+      "title": "Event-free survival by residual cancer burden with pembrolizumab in early-stage TNBC: exploratory analysis from KEYNOTE-522.",
+      "firstAuthor": "Pusztai",
+      "year": 2024,
+      "crossrefCapture": "kn522-rcb-crossref.json",
+      "crossrefSha256": "896008d5a0124104f34001ed1dce69737c7c3b6495cbc6c1726c9c93a8ed9a95",
+      "wholeOriginalPaperRead": false,
+      "pmid": "38369015",
+      "pmcid": null,
+      "epmcCapture": "kn522-rcb-epmc.json",
+      "epmcSha256": "4db4d87ad7e281f54caf319a8c2743435ac067606d5e37965d33ac8be01e22fc",
+      "titleNormalizedMatch": true,
+      "authorsYearAndDoiAgree": true,
+      "completeAbstractRead": true,
+      "readDepth": "complete abstract"
+    }
+  ],
+  "officialDocuments": [
+    {
+      "id": "ich-e9-1998",
+      "title": "ICH E9 statistical principles for clinical trials (September 1998)",
+      "sourceURL": "https://www.fda.gov/media/71336/download",
+      "rawSha256": "f64a79a9800d523e50ac3c33af6fbd5de0c229b984e51b224bd5d58c26b12325",
+      "pdfTextPagesRead": [
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38
+      ],
+      "wholeDocumentRead": false,
+      "readDepth": "specified PDF text pages; no native PDF-pixel or whole-guidance reading claim",
+      "scope": "Nonbinding guidance in its stated publication and regulatory context; not a universal legal rule."
+    },
+    {
+      "id": "ich-e9r1-2021",
+      "title": "ICH E9(R1) estimands and sensitivity analysis (FDA May 2021)",
+      "sourceURL": "https://www.fda.gov/media/148473/download",
+      "rawSha256": "5b274cf44361195fe95295598ad046e7a072d90da5309a8cb3cdb0b44bbff688",
+      "pdfTextPagesRead": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "wholeDocumentRead": false,
+      "readDepth": "specified PDF text pages; no native PDF-pixel or whole-guidance reading claim",
+      "scope": "Nonbinding guidance in its stated publication and regulatory context; not a universal legal rule."
+    },
+    {
+      "id": "fda-endpoints-2018",
+      "title": "Clinical Trial Endpoints for the Approval of Cancer Drugs and Biologics (December 2018)",
+      "sourceURL": "https://www.fda.gov/media/71195/download",
+      "rawSha256": "811f805c74540541e69ce3b173eb028f0d7db213898a7cc0288a7bc67285a4dd",
+      "pdfTextPagesRead": [
+        5,
+        6,
+        12
+      ],
+      "wholeDocumentRead": false,
+      "readDepth": "specified PDF text pages; no native PDF-pixel or whole-guidance reading claim",
+      "scope": "Nonbinding guidance in its stated publication and regulatory context; not a universal legal rule."
+    }
+  ],
+  "officialWebPages": [
+    {
+      "id": "nci-trials",
+      "sourceURL": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "rawSha256": "9ab513185bab5183d9b60379cb29925f9d964a29a3c484e268f5a5fe53a90946",
+      "readDepth": "specified HTML-derived text lines 1 to 80; selected main content, not entire website",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "cochrane5",
+      "sourceURL": "https://training.cochrane.org/handbook/current/chapter-05",
+      "rawSha256": "0ebd37839608fee6d69fabfbece0ed3e1ab07576af958581e8081a93a1e7e0de",
+      "readDepth": "specified HTML-derived text lines 90 to 112; selected main content, not entire website",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "nist-km",
+      "sourceURL": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm",
+      "rawSha256": "d4e6967fdba375325c28d453d08fc4053e8fdcd707e923ef2d4f808ab3d95882",
+      "readDepth": "specified HTML-derived text lines 1 to 38; selected main content, not entire website",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "nist-ci",
+      "sourceURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "rawSha256": "3ed9cf622fab1be1374e116b33ad6fc5e0c09b642b2fef27294c59b3ed584c79",
+      "readDepth": "specified HTML-derived text lines 1 to 97; selected main content, not entire website",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "keynote-label228",
+      "sourceURL": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228",
+      "rawSha256": "c03f2e04d5146825592ff1e30e141b68fd2fbc105123f9529e1a514d89078f16",
+      "readDepth": "specified HTML-derived text lines 297 to 302; selected main content, not entire website",
+      "wholePageReadClaimed": false,
+      "requestedDailyMedVersion": 228,
+      "bodyRevision": "7/2026",
+      "additionalTextLinesRead": [
+        [
+          617,
+          617
+        ],
+        [
+          645,
+          645
+        ],
+        [
+          3048,
+          3053
+        ],
+        [
+          5083,
+          5093
+        ],
+        [
+          5115,
+          5147
+        ]
+      ],
+      "scope": "Selected early-TNBC indication, trial, analysis-population, safety and endocrine-warning text; whole prescribing information not read. Requested version and observed revision are retained separately."
+    }
+  ],
+  "registries": [
+    {
+      "id": "ctgov-kn522",
+      "registryId": "NCT03036488",
+      "sourceURL": "https://clinicaltrials.gov/api/v2/studies/NCT03036488?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "rawSha256": "a03588f667f757df9bc57d67afd8ad68b27428bd43009b8306702bfb3754861e",
+      "readDepth": "specified eligibility/design/regimen/endpoint/status and results modules; no contact module requested",
+      "status": "COMPLETED",
+      "hasPostedResults": true,
+      "scope": "Sponsor-posted registry data, not independent peer review. Status checked during this cohort."
+    },
+    {
+      "id": "ctgov-optimice",
+      "registryId": "NCT05812807",
+      "sourceURL": "https://clinicaltrials.gov/api/v2/studies/NCT05812807?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "rawSha256": "e4f91024ebc1637e95fbe3b869cabc9d6f3ce5bdaee8c9dd8ed773ec739073c5",
+      "readDepth": "specified eligibility/design/regimen/endpoint/status and results modules; no contact module requested",
+      "status": "RECRUITING",
+      "hasPostedResults": false,
+      "scope": "Sponsor-posted registry data, not independent peer review. Status checked during this cohort."
+    }
+  ],
+  "inheritedContexts": [
+    {
+      "artifact": "study-prediction-2026-11-11/primary-sources.json",
+      "sha256": "27fe7604fcc932df5aa114c451e326ebcbe21136bdbd0044ac2762bdc6725624",
+      "scope": "Selected unchanged mathematical, design or model fields only, with current field hashes; earlier reading/acceptance limits retained. No new whole-paper or general catalogue recertification."
+    },
+    {
+      "artifact": "effect-reasoning-2026-11-10/primary-sources.json",
+      "sha256": "aebc38156c21f335f16e4ac950734ec6b3137be3d9537f037d11b72710a02957",
+      "scope": "Selected unchanged mathematical, design or model fields only, with current field hashes; earlier reading/acceptance limits retained. No new whole-paper or general catalogue recertification."
+    },
+    {
+      "artifact": "blood-immune-2026-11-10/primary-sources.json",
+      "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e",
+      "scope": "Selected unchanged mathematical, design or model fields only, with current field hashes; earlier reading/acceptance limits retained. No new whole-paper or general catalogue recertification."
+    },
+    {
+      "artifact": "test-vendor-guides-2026-11-12/primary-sources.json",
+      "sha256": "decc017a18caa8dc5191747070f50af6ffb5b52c9261ff5b3c969d957da4f543",
+      "scope": "Selected unchanged mathematical, design or model fields only, with current field hashes; earlier reading/acceptance limits retained. No new whole-paper or general catalogue recertification."
+    }
+  ],
+  "limits": [
+    {
+      "source": "I-SPY2 Nanda 2020",
+      "failure": "Complete abstract read; no readable primary methods body. Europe PMC fullTextXML 500, NCBI efetch metadata/abstract only, PMC reCAPTCHA, JAMA 403 and BioC no-result help. The no-carboplatin control clause is not adopted or credited."
+    },
+    {
+      "source": "NEJM KEYNOTE-522 full reports",
+      "failure": "NEJM HTML requests returned 403. Complete primary abstracts plus label and specified registry results support the adopted figures; OS HR is sourced to label text rather than an unread journal body."
+    },
+    {
+      "source": "ASCO 2026",
+      "failure": "Publisher returned 403. The complete authors-deposited abstract is available in raw Crossref metadata and is read as conference-level evidence, not a full journal report."
+    },
+    {
+      "source": "Older statistics sources",
+      "failure": "Kaplan 1958, Cox 1972, Altman 1998 and Sun 2010 are identity-only here. Altman 1999 targeted article text, NIST methods and ICH guidance supply the adopted method context. Metadata or a no-result response is not a full-text read."
+    },
+    {
+      "source": "R survival vignette attempt",
+      "failure": "timedep.pdf returned 404 and is unused; its package-index retrieval is not treated as an available vignette or a method-body reading."
+    },
+    {
+      "source": "Retained catalogue text",
+      "failure": "Selected source/field comparisons do not independently reverify every earlier assertion in referenced records, including older site lists, commissioning dates or other trials."
+    }
+  ],
+  "elicit": {
+    "callableScientificInterface": false,
+    "toolSearchMatches": "Only task-orchestration descriptions mention Elicit; no scientific Elicit method is callable.",
+    "reportsCreated": 0,
+    "questionsCreated": 0,
+    "frozenOccurrencesUnchanged": 917
+  },
+  "captureHashes": [
+    {
+      "file": "ispy2-bioc.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7058271/unicode",
+      "fetchedUTC": "2026-11-12T10:39:17Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC7058271/unicode",
+      "contentType": "text/html",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a"
+    },
+    {
+      "file": "altman1998-bioc.xml",
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC1114210/unicode",
+      "fetchedUTC": "2026-11-12T10:39:17Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC1114210/unicode",
+      "contentType": "text/html",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a"
+    },
+    {
+      "file": "altman-andersen-epmc-final.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10582940+AND+SRC%3AMED&format=json&resultType=core",
+      "fetchedUTC": "2026-11-12T10:39:18Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10582940+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 3273,
+      "sha256": "e0cb62f24d826cc0d5875991459674c946d71d69a79b271ec11ff77d4403bed2"
+    },
+    {
+      "file": "altman-andersen-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.319.7223.1492",
+      "fetchedUTC": "2026-11-12T10:39:22Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.319.7223.1492",
+      "contentType": "application/json",
+      "bytes": 1909,
+      "sha256": "f188ee95210deaf4475e1ad74acbe4caee8360c68a0c1e262331416bd8774954"
+    },
+    {
+      "file": "kn522-rcb-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.annonc.2024.02.002%22&format=json&resultType=core",
+      "fetchedUTC": "2026-11-12T10:39:22Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.annonc.2024.02.002%22&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 13662,
+      "sha256": "4db4d87ad7e281f54caf319a8c2743435ac067606d5e37965d33ac8be01e22fc"
+    },
+    {
+      "file": "kn522-rcb-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.annonc.2024.02.002",
+      "fetchedUTC": "2026-11-12T10:39:24Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.annonc.2024.02.002",
+      "contentType": "application/json",
+      "bytes": 14816,
+      "sha256": "896008d5a0124104f34001ed1dce69737c7c3b6495cbc6c1726c9c93a8ed9a95"
+    },
+    {
+      "file": "km1958-crossref.json",
+      "url": "https://api.crossref.org/works/10.1080%2F01621459.1958.10501452",
+      "fetchedUTC": "2026-11-12T10:27:32Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1080%2F01621459.1958.10501452",
+      "contentType": "application/json",
+      "bytes": 9105,
+      "sha256": "da3083f7a61d129374cf1a3e625d01c6b5824d1509310e80bb03d4fb1f1209a4"
+    },
+    {
+      "file": "cox1972-crossref.json",
+      "url": "https://api.crossref.org/works/10.1111%2Fj.2517-6161.1972.tb00899.x",
+      "fetchedUTC": "2026-11-12T10:27:32Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1111%2Fj.2517-6161.1972.tb00899.x",
+      "contentType": "application/json",
+      "bytes": 9814,
+      "sha256": "c40b001b69cbd7245c48e22ef0b8bb6e3d86068869dc054319fdeb61a9fc009d"
+    },
+    {
+      "file": "kn522-2026-crossref.json",
+      "url": "https://api.crossref.org/works/10.1200%2FJCO.2026.44.16_suppl.507",
+      "fetchedUTC": "2026-11-12T10:27:33Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1200%2FJCO.2026.44.16_suppl.507",
+      "contentType": "application/json",
+      "bytes": 9773,
+      "sha256": "171e6d918468576c8288865ae9092984e5a12adf28baab79ace92013534dfc1f"
+    },
+    {
+      "file": "care-pmcid-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3784031&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:27:34Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3784031&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8371,
+      "sha256": "53d092b484e66eb7fd65bef7f658f8aba3e8eadd6156a26c99dd2cd1b00c8ca1"
+    },
+    {
+      "file": "altman-andersen-pmcid-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC1117211&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:27:56Z",
+      "httpStatus": null,
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "file": "ispy2-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7058271&retmode=xml",
+      "fetchedUTC": "2026-11-12T10:28:22Z",
+      "httpStatus": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7058271&retmode=xml",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 33716,
+      "sha256": "7de7b2bcf7c6b2b364ab03321071598a01cbd5b28b901195c51afab79ea16608"
+    },
+    {
+      "file": "care-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3784031&retmode=xml",
+      "fetchedUTC": "2026-11-12T10:28:22Z",
+      "httpStatus": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3784031&retmode=xml",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 8979,
+      "sha256": "305032f931c80385724132f33047ef3af4cb58c6d20a0f78ddf22939f119b330"
+    },
+    {
+      "file": "altman1998-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1114210&retmode=xml",
+      "fetchedUTC": "2026-11-12T10:28:23Z",
+      "httpStatus": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1114210&retmode=xml",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 4639,
+      "sha256": "3d9d5310e63ec39bcd63ce26624f1d74ad6d07e3467f32115dcd9a3e4a80482d"
+    },
+    {
+      "file": "altman-andersen-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1117211&retmode=xml",
+      "fetchedUTC": "2026-11-12T10:28:24Z",
+      "httpStatus": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=1117211&retmode=xml",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 5259,
+      "sha256": "86e0ed74dcc5a0fb451aff5e7d7645245c9ff17c92dced70b5739a461f15e76e"
+    },
+    {
+      "file": "olympia-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9126186&retmode=xml",
+      "fetchedUTC": "2026-11-12T10:28:24Z",
+      "httpStatus": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9126186&retmode=xml",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 109652,
+      "sha256": "792788bb73d9aba10cb5a0b9be4ff44526a8a01339e9186f8ffdc444902ab786"
+    },
+    {
+      "file": "kn522-os-nejm.html",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2409932",
+      "fetchedUTC": "2026-11-12T10:28:25Z",
+      "httpStatus": 403,
+      "finalURL": "https://www.nejm.org/doi/full/10.1056/NEJMoa2409932",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5589,
+      "sha256": "0cfbd50e21cf72afc85552d9f1948f14f5f095031504fef053d57263376655c5"
+    },
+    {
+      "file": "kn522-pcr-nejm.html",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1910549",
+      "fetchedUTC": "2026-11-12T10:28:25Z",
+      "httpStatus": 403,
+      "finalURL": "https://www.nejm.org/doi/full/10.1056/NEJMoa1910549",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5589,
+      "sha256": "c38a054e6b660970d56e8ff83117fd6f76b11769304b02e022f0ae361973277e"
+    },
+    {
+      "file": "kn522-2026-asco.html",
+      "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2026.44.16_suppl.507",
+      "fetchedUTC": "2026-11-12T10:28:26Z",
+      "httpStatus": 403,
+      "finalURL": "https://ascopubs.org/doi/abs/10.1200/JCO.2026.44.16_suppl.507",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5640,
+      "sha256": "6469fd4914214c0b24257177dda041cefbc911130c539c661336a468da932292"
+    },
+    {
+      "file": "fda-endpoints.pdf",
+      "url": "https://www.fda.gov/media/71195/download",
+      "fetchedUTC": "2026-11-12T10:28:26Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.fda.gov/media/71195/download",
+      "contentType": "application/pdf",
+      "bytes": 149478,
+      "sha256": "811f805c74540541e69ce3b173eb028f0d7db213898a7cc0288a7bc67285a4dd"
+    },
+    {
+      "file": "cortazar-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24529560+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:09Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24529560+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 18201,
+      "sha256": "86d65cf793aacb89e391c7156cee4e236e9d2535864505925e439251895fe761"
+    },
+    {
+      "file": "cortazar-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2813%2962422-8",
+      "fetchedUTC": "2026-11-12T10:24:13Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2813%2962422-8",
+      "contentType": "application/json",
+      "bytes": 17415,
+      "sha256": "747798b876ff50ae6b814a4987a77b2366e6b5e0581803eefed0500896742a45"
+    },
+    {
+      "file": "kn522-pcr-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32101663+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:14Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32101663+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 69627,
+      "sha256": "8460af83265a4464cced7a70dce467a772785ef5dbad0fe38ce53edb3f0e3a1f"
+    },
+    {
+      "file": "kn522-pcr-crossref.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1910549",
+      "fetchedUTC": "2026-11-12T10:24:18Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa1910549",
+      "contentType": "application/json",
+      "bytes": 12339,
+      "sha256": "a2918531078d649a11ea80d188b42c831c856983f1d9b46bdaf29c79375d9345"
+    },
+    {
+      "file": "kn522-efs-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35139274+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:18Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35139274+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 113724,
+      "sha256": "48a9c0a03a9ef2901b0e5db2ccc66c53f08a1c06097a4ea7d484308a1cb647c3"
+    },
+    {
+      "file": "kn522-efs-crossref.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa2112651",
+      "fetchedUTC": "2026-11-12T10:24:21Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa2112651",
+      "contentType": "application/json",
+      "bytes": 42336,
+      "sha256": "4c251508f41b3228be4e8c11cb30ebd13605eb3a671d737d2858b11a0e601275"
+    },
+    {
+      "file": "kn522-os-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39282906+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:22Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39282906+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 93096,
+      "sha256": "f3e8177f7022fd64617b777c47986d28c02609a20416b7d928c1825ea38b0e8b"
+    },
+    {
+      "file": "kn522-os-crossref.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa2409932",
+      "fetchedUTC": "2026-11-12T10:24:26Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa2409932",
+      "contentType": "application/json",
+      "bytes": 12005,
+      "sha256": "a2e6658c5ff659b8c327725512f3018e4468d75091ee38b68ef2c765137a5baf"
+    },
+    {
+      "file": "ispy2-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32053137+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:27Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32053137+AND+SRC%3AMED&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 17247,
+      "sha256": "b3cc78c1e4f424acb45c7a831182d9c4a3f72b99a1eb571fac1c527ee09762b2"
+    },
+    {
+      "file": "ispy2-crossref.json",
+      "url": "https://api.crossref.org/works/10.1001%2Fjamaoncol.2019.6650",
+      "fetchedUTC": "2026-11-12T10:24:29Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1001%2Fjamaoncol.2019.6650",
+      "contentType": "application/json",
+      "bytes": 17811,
+      "sha256": "5ab6499d3319153f5e9f49978ead6468bb8c6cdcc8c95ca8ed06b90c0a8044fb"
+    },
+    {
+      "file": "ispy2-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7058271/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:24:29Z",
+      "httpStatus": 500,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7058271/fullTextXML",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "b6f212f7ac585c9ed22bcfca64b71fbbcf2856244c908d19616250f323fcaed0"
+    },
+    {
+      "file": "km1958-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F01621459.1958.10501452%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:32Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1080%2F01621459.1958.10501452%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 200,
+      "sha256": "78fe126bec46e5d1761f883598ff6090349c48f7696beef13f42232beea1b21c"
+    },
+    {
+      "file": "cox1972-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fj.2517-6161.1972.tb00899.x%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:34Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fj.2517-6161.1972.tb00899.x%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 204,
+      "sha256": "4822acdb7161904dfcbc4e398294a70d9ddaae9f3f6339764526a7902864435c"
+    },
+    {
+      "file": "cook-sackett-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.310.6977.452%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:38Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.310.6977.452%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5094,
+      "sha256": "c9507d8704294c5fd307237773fa9e53816dcc38f97aca39e8ab82024f52519e"
+    },
+    {
+      "file": "cook-sackett-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.310.6977.452",
+      "fetchedUTC": "2026-11-12T10:24:42Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.310.6977.452",
+      "contentType": "application/json",
+      "bytes": 3479,
+      "sha256": "6743168baf9a93451e9812f417fd93d0e27476b6ea5052c647eabbd2c671e133"
+    },
+    {
+      "file": "cook-sackett-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2548824/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:24:42Z",
+      "httpStatus": 500,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2548824/fullTextXML",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "6582f57515f6645de539fd8ae5d47567a0c1ac4edf8360613a724e9187323571"
+    },
+    {
+      "file": "altman1998-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.317.7168.1309%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:45Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.317.7168.1309%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 3294,
+      "sha256": "3e9fdc8263b7b80fd0b9038a574f651b02e2f500e710367e24178dc178ae9921"
+    },
+    {
+      "file": "altman1998-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.317.7168.1309",
+      "fetchedUTC": "2026-11-12T10:24:50Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.317.7168.1309",
+      "contentType": "application/json",
+      "bytes": 4504,
+      "sha256": "c3bab23b66b6a46b2275a1ebc603c46ebd7455d2551da0df470864ae2ea288e4"
+    },
+    {
+      "file": "altman1998-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1114210/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:24:51Z",
+      "httpStatus": 500,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1114210/fullTextXML",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "983d21c40e05e50e7a6dfba31d6eaf1f58647f72ad560e2533f4bd8973fd92da"
+    },
+    {
+      "file": "altman-andersen-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC1117211+AND+SRC%3APMC&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:53Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC1117211+AND+SRC%3APMC&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 239,
+      "sha256": "57861a6e2aa0ec86cdaa536c52625aea7842534f3413a66e2ea3082015805102"
+    },
+    {
+      "file": "sun-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.c117%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:56Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.c117%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 2881,
+      "sha256": "47b4fb0abad801143837ab70ef3a4be8eca67c6b8e899a6ba0b3d35cfd44d906"
+    },
+    {
+      "file": "sun-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.c117",
+      "fetchedUTC": "2026-11-12T10:24:57Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.c117",
+      "contentType": "application/json",
+      "bytes": 2321,
+      "sha256": "4496bbaabbfe74778a66231133e03cd58b6acc37997dacdd4d0d559dc3ed65f3"
+    },
+    {
+      "file": "landmark-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2FJCO.1983.1.11.710%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:24:57Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2FJCO.1983.1.11.710%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 4494,
+      "sha256": "306a439a981029bcc10f955372f8a85db84decb96c101527fa12c7d675f29d60"
+    },
+    {
+      "file": "landmark-crossref.json",
+      "url": "https://api.crossref.org/works/10.1200%2Fjco.1983.1.11.710",
+      "fetchedUTC": "2026-11-12T10:25:01Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1200%2Fjco.1983.1.11.710",
+      "contentType": "application/json",
+      "bytes": 2815,
+      "sha256": "36d9ee5f0407f317e004c4344bca9dd839e0bdb492735b50c74ab441610b9f19"
+    },
+    {
+      "file": "care-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC3784031+AND+SRC%3APMC&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:25:01Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC3784031+AND+SRC%3APMC&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 239,
+      "sha256": "6711f6aaf5077b3a9e9fdd671718fd8b9a9d94f5abfe29dc7afd718626c31747"
+    },
+    {
+      "file": "tripod-ai-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-078378%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:25:05Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-078378%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 17754,
+      "sha256": "4aad668c1d1f317a501897806c45b19faec7b3476b2176c6dce2918a483b94bc"
+    },
+    {
+      "file": "tripod-ai-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2023-078378",
+      "fetchedUTC": "2026-11-12T10:25:08Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj-2023-078378",
+      "contentType": "application/json",
+      "bytes": 27043,
+      "sha256": "e85d60e47ae5ad3723676f3bc395d7075005b2082c9c0023474c62a45654f981"
+    },
+    {
+      "file": "tripod-ai-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11019967/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:25:08Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11019967/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 221676,
+      "sha256": "48f1f82c4f9f74d9a72a580690634651e095161c9bf8a0a1078afc691d54705a"
+    },
+    {
+      "file": "consort2025-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2024-081123%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:25:18Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2024-081123%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 20753,
+      "sha256": "9883df7ad98d238633829ad273c10d36a4344d6ff07cd8b4de81490ff8926f7e"
+    },
+    {
+      "file": "consort2025-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2024-081123",
+      "fetchedUTC": "2026-11-12T10:25:20Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj-2024-081123",
+      "contentType": "application/json",
+      "bytes": 23852,
+      "sha256": "c0b83ba5d3361891ef734f7e6069262aea1dbb343bfb002bb45772d8073ee261"
+    },
+    {
+      "file": "consort2025-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11995449/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:25:21Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11995449/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 120159,
+      "sha256": "f9fbfe00268baad460722d487f2871730ec104cceccd7476a30d15fce382b56e"
+    },
+    {
+      "file": "createx-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Adjuvant+Capecitabine+for+Breast+Cancer+after+Preoperative+Chemotherapy%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:25:36Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Adjuvant+Capecitabine+for+Breast+Cancer+after+Preoperative+Chemotherapy%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 39017,
+      "sha256": "b953c719a21bfacc2c09132ee7d85c5232c00bf1b5fb617bceb69b9258fa0036"
+    },
+    {
+      "file": "createx-crossref.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa1612645",
+      "fetchedUTC": "2026-11-12T10:25:39Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa1612645",
+      "contentType": "application/json",
+      "bytes": 7678,
+      "sha256": "19ead5f377702e6017c843878bc67612e674b0f4c3592f44b1ec1e36a55a7640"
+    },
+    {
+      "file": "olympia-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Adjuvant+Olaparib+for+Patients+with+BRCA1-+or+BRCA2-Mutated+Breast+Cancer%22&format=json&resultType=core&pageSize=5",
+      "fetchedUTC": "2026-11-12T10:25:40Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Adjuvant+Olaparib+for+Patients+with+BRCA1-+or+BRCA2-Mutated+Breast+Cancer%22&format=json&resultType=core&pageSize=5",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 187136,
+      "sha256": "3f5e97de080bc2fba29c1bb6a7e963ee733020a717b3111aba898b2045fff15b"
+    },
+    {
+      "file": "olympia-crossref.json",
+      "url": "https://api.crossref.org/works/10.1056%2Fnejmoa2105215",
+      "fetchedUTC": "2026-11-12T10:25:43Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2Fnejmoa2105215",
+      "contentType": "application/json",
+      "bytes": 53722,
+      "sha256": "d17d91305aa3c276d81824681ff5ac103b82b5497dea76ce9cfde360a3c51049"
+    },
+    {
+      "file": "olympia-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9126186/fullTextXML",
+      "fetchedUTC": "2026-11-12T10:25:44Z",
+      "httpStatus": 500,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9126186/fullTextXML",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "9075cc914ef8ed92c051aa022747738197b8265b606b9f83c3c0e7d692c4da7d"
+    },
+    {
+      "file": "e9.pdf",
+      "url": "https://www.fda.gov/media/71336/download",
+      "fetchedUTC": "2026-11-12T10:25:53Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.fda.gov/media/71336/download",
+      "contentType": "application/pdf",
+      "bytes": 112494,
+      "sha256": "f64a79a9800d523e50ac3c33af6fbd5de0c229b984e51b224bd5d58c26b12325"
+    },
+    {
+      "file": "e9r1.pdf",
+      "url": "https://www.fda.gov/media/148473/download",
+      "fetchedUTC": "2026-11-12T10:25:54Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.fda.gov/media/148473/download",
+      "contentType": "application/pdf",
+      "bytes": 241290,
+      "sha256": "5b274cf44361195fe95295598ad046e7a072d90da5309a8cb3cdb0b44bbff688"
+    },
+    {
+      "file": "fda-endpoints.html",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics",
+      "fetchedUTC": "2026-11-12T10:25:54Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 35681,
+      "sha256": "38fc2f8a5cd588cf3f0201f596d067e7ef9b84a55da85a6d44ff11979fa6f390"
+    },
+    {
+      "file": "nci-trials.html",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "fetchedUTC": "2026-11-12T10:25:55Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 53683,
+      "sha256": "9ab513185bab5183d9b60379cb29925f9d964a29a3c484e268f5a5fe53a90946"
+    },
+    {
+      "file": "cochrane-ch5.html",
+      "url": "https://training.cochrane.org/handbook/current/chapter-05",
+      "fetchedUTC": "2026-11-12T10:25:55Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-05",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 209272,
+      "sha256": "0ebd37839608fee6d69fabfbece0ed3e1ab07576af958581e8081a93a1e7e0de"
+    },
+    {
+      "file": "nist-ci.html",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "fetchedUTC": "2026-11-12T10:25:59Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 15643,
+      "sha256": "3ed9cf622fab1be1374e116b33ad6fc5e0c09b642b2fef27294c59b3ed584c79"
+    },
+    {
+      "file": "keytruda-v228.html",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228",
+      "fetchedUTC": "2026-11-12T10:26:00Z",
+      "httpStatus": 200,
+      "finalURL": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1069161,
+      "sha256": "c03f2e04d5146825592ff1e30e141b68fd2fbc105123f9529e1a514d89078f16"
+    },
+    {
+      "file": "NCT03036488.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT03036488?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "fetchedUTC": "2026-11-12T10:26:03Z",
+      "httpStatus": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT03036488?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "contentType": "application/json",
+      "bytes": 266939,
+      "sha256": "a03588f667f757df9bc57d67afd8ad68b27428bd43009b8306702bfb3754861e"
+    },
+    {
+      "file": "NCT05812807.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05812807?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "fetchedUTC": "2026-11-12T10:26:03Z",
+      "httpStatus": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT05812807?fields=IdentificationModule%2CStatusModule%2CDesignModule%2CEligibilityModule%2CArmsInterventionsModule%2COutcomesModule%2CResultsSection",
+      "contentType": "application/json",
+      "bytes": 13685,
+      "sha256": "e4f91024ebc1637e95fbe3b869cabc9d6f3ce5bdaee8c9dd8ed773ec739073c5"
+    },
+    {
+      "file": "nist-km.html",
+      "url": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm",
+      "fetchedUTC": "2026-11-12T10:32:13Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 10988,
+      "sha256": "d4e6967fdba375325c28d453d08fc4053e8fdcd707e923ef2d4f808ab3d95882"
+    },
+    {
+      "file": "r-survival-index.html",
+      "url": "https://cran.r-project.org/web/packages/survival/index.html",
+      "fetchedUTC": "2026-11-12T10:32:14Z",
+      "httpStatus": 200,
+      "finalURL": "https://cran.r-project.org/web/packages/survival/index.html",
+      "contentType": "text/html",
+      "bytes": 113863,
+      "sha256": "508da872c5c3452607b06b1835233031a59016e510f2d117fc741b724be2124e"
+    },
+    {
+      "file": "r-timedep.pdf",
+      "url": "https://cran.r-project.org/web/packages/survival/vignettes/timedep.pdf",
+      "fetchedUTC": "2026-11-12T10:32:17Z",
+      "httpStatus": 404,
+      "finalURL": "https://cran.r-project.org/web/packages/survival/vignettes/timedep.pdf",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 992,
+      "sha256": "6b008b843616a692e0e3906902fe414ebce338a54b6dad5cd863a5bd2cd03cb2"
+    },
+    {
+      "file": "care-pmid-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24078847+AND+SRC%3AMED&format=json&resultType=core",
+      "fetchedUTC": "2026-11-12T10:32:18Z",
+      "httpStatus": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24078847+AND+SRC%3AMED&format=json&resultType=core",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8394,
+      "sha256": "111e8752fc2ed955f51f176dd807cf3bba5bffd74d8e2756a33b4ceb07ca4d5b"
+    },
+    {
+      "file": "altman-andersen-pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/",
+      "fetchedUTC": "2026-11-12T10:32:28Z",
+      "httpStatus": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 121788,
+      "sha256": "5668e69b2ac0c18d3b110bce147f596775477f36bbe07d9e2f55ba4496ca82e0"
+    },
+    {
+      "file": "care-pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/",
+      "fetchedUTC": "2026-11-12T10:32:29Z",
+      "httpStatus": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3784031/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 153034,
+      "sha256": "8a081583ace250acfd7a6ed6c9f16339e7b98e2a3cb95e31c31a432b2eb26eda"
+    },
+    {
+      "file": "ispy2-pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7058271/",
+      "fetchedUTC": "2026-11-12T10:32:29Z",
+      "httpStatus": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7058271/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21475,
+      "sha256": "63129fbe5c8bd11189b608e8b81287d0fb98f1597b04a0d924c28f8eee92820e"
+    },
+    {
+      "file": "optimice-description.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05812807?fields=IdentificationModule%2CDescriptionModule%2CDesignModule",
+      "fetchedUTC": "2026-11-12T10:32:30Z",
+      "httpStatus": 200,
+      "finalURL": "https://clinicaltrials.gov/api/v2/studies/NCT05812807?fields=IdentificationModule%2CDescriptionModule%2CDesignModule",
+      "contentType": "application/json",
+      "bytes": 5711,
+      "sha256": "8f77735d79b0826dc65d5d288971d3765ccc15aa4d1b66bfacd7c967666cb6b8"
+    },
+    {
+      "file": "care-crossref.json",
+      "url": "https://api.crossref.org/works/10.3238%2Farztebl.2013.0603",
+      "fetchedUTC": "2026-11-12T10:32:30Z",
+      "httpStatus": 200,
+      "finalURL": "https://api.crossref.org/works/10.3238%2Farztebl.2013.0603",
+      "contentType": "application/json",
+      "bytes": 9906,
+      "sha256": "cdecb6c23cd3ad03cd2db3d154be57749249f13f17a4ff514bba60c9cf6d8f79"
+    },
+    {
+      "url": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2760405",
+      "finalURL": "https://jamanetwork.com/journals/jamaoncology/fullarticle/2760405",
+      "file": "ispy2-jama.html",
+      "httpStatus": 403,
+      "bytes": 5603,
+      "sha256": "ec917c708e83550ab12ce84bbb4bf0c818d998018f161530abf64d25052ed13e"
+    }
+  ]
+}

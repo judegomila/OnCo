@@ -1,0 +1,287 @@
+{
+  "publications": [
+    {
+      "pmid": "32101663",
+      "doi": "10.1056/nejmoa1910549",
+      "pmcid": null,
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Pusztai L, McArthur H, Kümmel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Foukakis T, Fasching PA, Cardoso F, Untch M, Jia L, Karantza V, Zhao J, Aktan G, Dent R, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2020",
+      "rawCaptureSha256": "55dd1f207550a2cbf1e8499e656f9b2c666c2567681a411cb5b85d834c216e5c",
+      "abstractSha256": "669b0eb2e6e514640f042180e758be725251d6a4d124a5f1e525ae0a7f16786d",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "39282906",
+      "doi": "10.1056/nejmoa2409932",
+      "pmcid": null,
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Dent R, McArthur H, Pusztai L, Kümmel S, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Im SA, Untch M, Fasching PA, Mouret-Reynier MA, Foukakis T, Ferreira M, Cardoso F, Zhou X, Karantza V, Tryfonidis K, Aktan G, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2024",
+      "rawCaptureSha256": "9aee2f73e9adce4c91191d376b5ed55ed215d87dc20258aea10ff5227dec1e04",
+      "abstractSha256": "e6563b379c2c183216c82d78f5cb993b67b21dac21e6fbd213a27a1e9d43a91c",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "23890059",
+      "doi": "10.1016/j.immuni.2013.07.012",
+      "pmcid": null,
+      "title": "Oncology meets immunology: the cancer-immunity cycle.",
+      "authors": "Chen DS, Mellman I.",
+      "year": "2013",
+      "rawCaptureSha256": "96f693aff504d566b86613f17860b37bce3c2386832952c829a9d05bfe24cce1",
+      "abstractSha256": "ee12f8ebd077a9691ca839c1c0218167dbfec556b020858307e2db296d7e9f0a",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "38369015",
+      "doi": "10.1016/j.annonc.2024.02.002",
+      "pmcid": null,
+      "title": "Event-free survival by residual cancer burden with pembrolizumab in early-stage TNBC: exploratory analysis from KEYNOTE-522.",
+      "authors": "Pusztai L, Denkert C, O'Shaughnessy J, Cortes J, Dent R, McArthur H, Kümmel S, Bergh J, Park YH, Hui R, Harbeck N, Takahashi M, Untch M, Fasching PA, Cardoso F, Zhu Y, Pan W, Tryfonidis K, Schmid P.",
+      "year": "2024",
+      "rawCaptureSha256": "051f4c8d7135f4802f1b85def6d9d200bfe90ebe2fe6304c03fe20864a3fa24d",
+      "abstractSha256": "dd6d40919f4d79ad302f92bf599cf726f90dcea90a8c84d2a9d9728b35813a29",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "28564564",
+      "doi": "10.1056/nejmoa1612645",
+      "pmcid": null,
+      "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "authors": "Masuda N, Lee SJ, Ohtani S, Im YH, Lee ES, Yokota I, Kuroi K, Im SA, Park BW, Kim SB, Yanagita Y, Ohno S, Takao S, Aogi K, Iwata H, Jeong J, Kim A, Park KH, Sasano H, Ohashi Y, Toi M.",
+      "year": "2017",
+      "rawCaptureSha256": "ff29c5ffab6b32c4b9e4a77dbd029dde9a968a7b4bcb4abab7411dd4f79b2d5a",
+      "abstractSha256": "dc0a8c827729acacab300dde976fb764eb874e2c7ae105e02091a55e1bcbfe9d",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "34081848",
+      "doi": "10.1056/nejmoa2105215",
+      "pmcid": "PMC9126186",
+      "title": "Adjuvant Olaparib for Patients with <i>BRCA1</i>- or <i>BRCA2</i>-Mutated Breast Cancer.",
+      "authors": "Tutt ANJ, Garber JE, Kaufman B, Viale G, Fumagalli D, Rastogi P, Gelber RD, de Azambuja E, Fielding A, Balmaña J, Domchek SM, Gelmon KA, Hollingsworth SJ, Korde LA, Linderholm B, Bandos H, Senkus E, Suga JM, Shao Z, Pippas AW, Nowecki Z, Huzarski T, Ganz PA, Lucas PC, Baker N, Loibl S, McConnell R, Piccart M, Schmutzler R, Steger GG, Costantino JP, Arahmani A, Wolmark N, McFadden E, Karantza V, Lakhani SR, Yothers G, Campbell C, Geyer CE, OlympiA Clinical Trial Steering Committee and Investigators.",
+      "year": "2021",
+      "rawCaptureSha256": "2874a506ae9514f2e2ab89889d6fca023b13687bbb4f9ae460cf96ab354795b9",
+      "abstractSha256": "0db51849c61a815b590388abf0672e2a54baf01cb7f3736ec73eddb87d6c0d2e",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "30263032",
+      "doi": "10.1186/s13223-018-0278-1",
+      "pmcid": "PMC6156898",
+      "title": "An introduction to immunology and immunopathology.",
+      "authors": "Marshall JS, Warrington R, Watson W, Kim HL.",
+      "year": "2018",
+      "rawCaptureSha256": "917b7f465c0fbbb83ae8780bcb9bd175b3f621885c243944d849550d14fcd067",
+      "abstractSha256": "4feaffca9218ad0b408cd9f89366d3eb44f1da8bf4527f2e474fba07adfe4c01",
+      "readingDepth": "Abstract read; targeted antigen-presentation and antibody paragraphs additionally read from PMC full text."
+    },
+    {
+      "pmid": "34902335",
+      "doi": "10.1016/s1470-2045(21)00589-1",
+      "pmcid": "PMC9455620",
+      "title": "Residual cancer burden after neoadjuvant chemotherapy and long-term survival outcomes in breast cancer: a multicentre pooled analysis of 5161 patients.",
+      "authors": "Yau C, Osdoit M, van der Noordaa M, Shad S, Wei J, de Croze D, Hamy AS, Laé M, Reyal F, Sonke GS, Steenbruggen TG, van Seijen M, Wesseling J, Martín M, Del Monte-Millán M, López-Tarruella S, I-SPY 2 Trial Consortium, Boughey JC, Goetz MP, Hoskin T, Gould R, Valero V, Edge SB, Abraham JE, Bartlett JMS, Caldas C, Dunn J, Earl H, Hayward L, Hiller L, Provenzano E, Sammut SJ, Thomas JS, Cameron D, Graham A, Hall P, Mackintosh L, Fan F, Godwin AK, Schwensen K, Sharma P, DeMichele AM, Cole K, Pusztai L, Kim MO, van 't Veer LJ, Esserman LJ, Symmans WF.",
+      "year": "2022",
+      "rawCaptureSha256": "5f2eba38ddb94782d6d5e8762a2319881d5906fbc94d8b57ced5b106b9956fd6",
+      "abstractSha256": "fb87917e1ccbe1a5330ecf08f9aea04e615b3d5e91c05afb54fbe2c59ce06333",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "22397650",
+      "doi": "10.1056/nejmoa1113205",
+      "pmcid": "PMC4878653",
+      "title": "Intratumor heterogeneity and branched evolution revealed by multiregion sequencing.",
+      "authors": "Gerlinger M, Rowan AJ, Horswell S, Math M, Larkin J, Endesfelder D, Gronroos E, Martinez P, Matthews N, Stewart A, Tarpey P, Varela I, Phillimore B, Begum S, McDonald NQ, Butler A, Jones D, Raine K, Latimer C, Santos CR, Nohadani M, Eklund AC, Spencer-Dene B, Clark G, Pickering L, Stamp G, Gore M, Szallasi Z, Downward J, Futreal PA, Swanton C.",
+      "year": "2012",
+      "rawCaptureSha256": "865808bb4f1be9b9217cf0674adfb7b7df5930067385549f3dd40b21c437f25f",
+      "abstractSha256": "7a22660cc645cfe985fde5228d913acdd527e8d574546e0ebfeaea94f97de3fd",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "25368619",
+      "doi": "10.3389/fimmu.2014.00520",
+      "pmcid": "PMC4202688",
+      "title": "IgG subclasses and allotypes: from structure to effector functions.",
+      "authors": "Vidarsson G, Dekkers G, Rispens T.",
+      "year": "2014",
+      "rawCaptureSha256": "75d4cfe60c74a9cb690a036a489b3b7a71f6d86abe6988e6185772b933fcaa64",
+      "abstractSha256": "ecb4c54af3dcad114c54cef1204a460a40632e339fc5478060ad0d89b661d1dd",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "28102259",
+      "doi": "10.1038/nature21349",
+      "pmcid": null,
+      "title": "Elements of cancer immunity and the cancer-immune set point.",
+      "authors": "Chen DS, Mellman I.",
+      "year": "2017",
+      "rawCaptureSha256": "dffb3960f5e6288367e33fd88795b5b6c7124b560d2c56b2dea91551a9382fc3",
+      "abstractSha256": "a0083ee2a2707171405f2c13a6d73de9540d4c5ac0993e79e65b1eddb2aaa6c4",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "28678778",
+      "doi": "10.1038/nature22991",
+      "pmcid": "PMC5577644",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "authors": "Ott PA, Hu Z, Keskin DB, Shukla SA, Sun J, Bozym DJ, Zhang W, Luoma A, Giobbie-Hurder A, Peter L, Chen C, Olive O, Carter TA, Li S, Lieb DJ, Eisenhaure T, Gjini E, Stevens J, Lane WJ, Javeri I, Nellaiappan K, Salazar AM, Daley H, Seaman M, Buchbinder EI, Yoon CH, Harden M, Lennon N, Gabriel S, Rodig SJ, Barouch DH, Aster JC, Getz G, Wucherpfennig K, Neuberg D, Ritz J, Lander ES, Fritsch EF, Hacohen N, Wu CJ.",
+      "year": "2017",
+      "rawCaptureSha256": "3a8b08f33cfae41e8c811dbbed20837c755a8d756753062d0b309024d7e4cc07",
+      "abstractSha256": "513314fcdec622bbe1b704c6f641c71dbb11c01f13cc57d74460fd51f1545a79",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "31327527",
+      "doi": "10.1016/j.cell.2019.06.024",
+      "pmcid": "PMC6703186",
+      "title": "An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma.",
+      "authors": "Neftel C, Laffy J, Filbin MG, Hara T, Shore ME, Rahme GJ, Richman AR, Silverbush D, Shaw ML, Hebert CM, Dewitt J, Gritsch S, Perez EM, Gonzalez Castro LN, Lan X, Druck N, Rodman C, Dionne D, Kaplan A, Bertalan MS, Small J, Pelton K, Becker S, Bonal D, Nguyen QD, Servis RL, Fung JM, Mylvaganam R, Mayr L, Gojo J, Haberler C, Geyeregger R, Czech T, Slavc I, Nahed BV, Curry WT, Carter BS, Wakimoto H, Brastianos PK, Batchelor TT, Stemmer-Rachamimov A, Martinez-Lage M, Frosch MP, Stamenkovic I, Riggi N, Rheinbay E, Monje M, Rozenblatt-Rosen O, Cahill DP, Patel AP, Hunter T, Verma IM, Ligon KL, Louis DN, Regev A, Bernstein BE, Tirosh I, Suvà ML.",
+      "year": "2019",
+      "rawCaptureSha256": "22258f902daff5d518bbd47ce98f067c4f0e23845867a3c4dd5fce1ed57dd1f0",
+      "abstractSha256": "d27c6aa5aec83e76bb60d577654d6dcb2a6b5fdf468a4152687d93363254307d",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "31461748",
+      "doi": "10.1038/s41586-019-1537-0",
+      "pmcid": null,
+      "title": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+      "authors": "Dong, Zheng L, Lin J, Zhang B, Zhu Y, Li N, Xie S, Wang Y, Gao N, Huang Z.",
+      "year": "2019",
+      "rawCaptureSha256": "50eb08db6f320206c45d97349636573c9099d8d6ff13c4520d3e2e5f619ea1a9",
+      "abstractSha256": "99c240f64d1f9987b710050faadcc5cbb6835b21ab29b07619f93a1dec523477",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "27135972",
+      "doi": "10.1038/nmeth.3853",
+      "pmcid": "PMC4887336",
+      "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+      "authors": "Hafner M, Niepel M, Chung M, Sorger PK.",
+      "year": "2016",
+      "rawCaptureSha256": "8b9d217bc432dfd3ad8007ef57e9dfe7b9c5089ac0f26d01f508a50b38cfce03",
+      "abstractSha256": "78f9e632d7a01593a6bf973c5e7abaf62f8beaa502dfced10219c8ac3e375ae8",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    },
+    {
+      "pmid": "31919129",
+      "doi": "10.1126/science.aay5516",
+      "pmcid": null,
+      "title": "Butyrophilin 2A1 is essential for phosphoantigen reactivity by γδ T cells.",
+      "authors": "Rigau M, Ostrouska S, Fulford TS, Johnson DN, Woods K, Ruan Z, McWilliam HEG, Hudson C, Tutuka C, Wheatley AK, Kent SJ, Villadangos JA, Pal B, Kurts C, Simmonds J, Pelzing M, Nash AD, Hammet A, Verhagen AM, Vairo G, Maraskovsky E, Panousis C, Gherardin NA, Cebon J, Godfrey DI, Behren A, Uldrich AP.",
+      "year": "2020",
+      "rawCaptureSha256": "4912e0e931535a1515af47ae86367ec5de720a82ad4bb4eb59c174aa15fd3c5c",
+      "abstractSha256": "7d3b51c816785cdb9a16ccbb3137951518905d5934766d39e97fd43ccdfedd17",
+      "readingDepth": "Abstract read; no whole-paper or whole-source claim."
+    }
+  ],
+  "crossrefIdentitiesChecked": 8,
+  "officialAndFullTextCaptures": [
+    {
+      "key": "nci-cancer",
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "file": "nci-cancer.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 87623,
+      "sha256": "c01fb52944dd997a314c7f319f4d6f0b38e78cd23063923fc967d07a04c2e5e2",
+      "readingScope": "Definition, altered cells, invasion/spread and microenvironment passages."
+    },
+    {
+      "key": "nci-tnbc",
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types/triple-negative",
+      "file": "nci-tnbc.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 50041,
+      "sha256": "61980a8ef85e44c1c18f4af28e31fcacece491fe97eda08c7cf500e1468489dc",
+      "readingScope": "General TNBC article text read; receptor categories and population tendencies retain their context."
+    },
+    {
+      "key": "nci-tnbc-treatment",
+      "url": "https://www.cancer.gov/types/breast/treatment/triple-negative-breast-cancer",
+      "file": "nci-tnbc-treatment.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 49590,
+      "sha256": "e5fbb683cfd93c34261f01d106a60b91ee81d6d3f07b0dbe81744e191d7c5970",
+      "readingScope": "General treatment article read, without adopting its simplified wording as label eligibility."
+    },
+    {
+      "key": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "file": "nci-pathology.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 66301,
+      "sha256": "33b6dabbac8b8808ec85d11638d999ae743521cb08e010b4bdb11a7e709a92cf",
+      "readingScope": "General report article text read."
+    },
+    {
+      "key": "nci-stages",
+      "url": "https://www.cancer.gov/types/breast/stages",
+      "file": "nci-stages.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 71232,
+      "sha256": "33109ffd8156a1514c20f17f825a9a696f39902713d545f086339f54adcec917",
+      "readingScope": "Article text and staging/grading explanations read; no new independent stage-group calculation."
+    },
+    {
+      "key": "nci-immunotherapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy",
+      "file": "nci-immunotherapy.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 57675,
+      "sha256": "4622108ab17d8445bcc98f6f0441ecf3fabbc793be91823409f98fdfac6c56fc",
+      "readingScope": "How immunotherapy works passage."
+    },
+    {
+      "key": "keytruda-spl",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9333c79b-d487-4538-a9f0-71b91a02b287.xml",
+      "file": "keytruda-spl.xml",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "bytes": 1651330,
+      "sha256": "d9428c1af7f2c67836ce8112ed211a7669f3f4495d6d294c283ba3becab8b05e",
+      "readingScope": "Sections 1.20, 12.1, early-TNBC portion of 14.20, and introductory severe/fatal immune-mediated-warning passages of 5.1; not the whole SPL."
+    },
+    {
+      "key": "nci-grade",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade-fact-sheet",
+      "file": "nci-grade.html",
+      "httpStatus": "404",
+      "exitCode": 0,
+      "bytes": 24427,
+      "sha256": "9a14b6b73f6aee93ccc3422f3949f52bda84b25b4aa10e46bd1e2ac519e19127",
+      "readingScope": "Attempted fact-sheet URL returned 404. It is not support; the successful raw NCI breast-staging article supplies grading scope."
+    },
+    {
+      "key": "marshall-full",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6156898/fullTextXML",
+      "file": "marshall-full.xml",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "sha256": "6e143507bb80ca5816bddd3283e015537ef579d463f48f54d26265c40edf634b",
+      "bytes": 63730,
+      "readingScope": "Targeted T-cell/APC, MHC-display and antibody recognition paragraphs; not the whole review."
+    },
+    {
+      "key": "nhgri-gene-expression",
+      "url": "https://www.genome.gov/genetics-glossary/Gene-Expression",
+      "file": "nhgri-gene-expression.html",
+      "httpStatus": "200",
+      "exitCode": 0,
+      "sha256": "0a68dbb4e9e51e852fc1a09d907f082f401ff837de2740d7844f1f0fd303a188",
+      "bytes": 200237,
+      "readingScope": "Raw gene-expression definition."
+    }
+  ],
+  "wholePapersRead": 0,
+  "priorSourceScopeRetained": "Broader HLA, NK, assay, clinical catalogue and source-tier claims in unchanged dependency passages retain earlier recorded source-reading limits; this cohort does not recertify every assertion in the 34 owners.",
+  "Elicit": "No new Elicit discovery or evidence claimed.",
+  "rawBodiesPublished": false
+}

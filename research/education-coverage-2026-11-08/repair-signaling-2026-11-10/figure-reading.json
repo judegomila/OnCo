@@ -1,0 +1,751 @@
+{
+  "assets": [
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "bytes": 2207242,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "bytes": 1959146,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "71b30e336f026145261652c943b36b3bde80967c3cf20188732ce1c8e1ac81f8",
+      "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+      "bytes": 2207242,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "359838fbd495393f17c0bf03ed0ba4fb92cf2290774fe4829070eb0972ea5f7a",
+      "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+      "bytes": 1959146,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+      "gitBlob": "97816c17a03b742945b36ed87735f8589b47ba21",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+      "gitBlob": "3175494a1a7d4e96c656c54dd5c2afe7b57fdac6",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "126e965a5ed5861bf68aa1ea8eb79a7d446a976a2640be3cca103a29fc972d5b",
+      "gitBlob": "97816c17a03b742945b36ed87735f8589b47ba21",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "bd38ed2a902d31bd0fd6f5894b7871d7704b4797715936b95ada9ca2bffccf03",
+      "gitBlob": "3175494a1a7d4e96c656c54dd5c2afe7b57fdac6",
+      "bytes": 29823,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+      "gitBlob": "547be6f79ba704c4bc0d7e06cb273ec58ce45324",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+      "gitBlob": "317b79392ca3bd77c1b64e2a7f641b6cf92ab4a0",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "37fc1ba4f2ca651a530bb9d6c75eed548990714f5f7824779cd8b57687e13f86",
+      "gitBlob": "547be6f79ba704c4bc0d7e06cb273ec58ce45324",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "6ff5028c4f84fa10276adff4119399a27afe90bd8b1d557fa1574a1eca07b6c9",
+      "gitBlob": "317b79392ca3bd77c1b64e2a7f641b6cf92ab4a0",
+      "bytes": 9575,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+      "gitBlob": "ae60b9b6047cac2b2c4049ad4a957741478acf59",
+      "bytes": 1878964,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+      "gitBlob": "6b6258556dd7fa4fe094ad5bdf7a9ae19dfdbfb2",
+      "bytes": 1970547,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "d14f3da7323e05fc3e91073433315d1cca9c98bd5cdabdb9129304be42f020d3",
+      "gitBlob": "ae60b9b6047cac2b2c4049ad4a957741478acf59",
+      "bytes": 1878964,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "9a83934d6f37a755b4942aa398eb92921bc911165228853a55b8478b805f4be9",
+      "gitBlob": "6b6258556dd7fa4fe094ad5bdf7a9ae19dfdbfb2",
+      "bytes": 1970547,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+      "gitBlob": "6538164edfcac17bd3d919a796fef3e606e10b69",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+      "gitBlob": "b60e4f3b29a5fdf6764869ea9cb263c3455d2d7a",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a3b2c44d889fbfca7c1cc6dbb247e778dbcb4a32842c6ab06621eb5a34c7eb2e",
+      "gitBlob": "6538164edfcac17bd3d919a796fef3e606e10b69",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "7f1665bd81f61616f04c3007e5b8b98a8ca864cf38fdce591bdd205abf8d6284",
+      "gitBlob": "b60e4f3b29a5fdf6764869ea9cb263c3455d2d7a",
+      "bytes": 10928,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6",
+      "gitBlob": "8bf175d2f4a20873b895e8ec34e88278f1a202d9",
+      "bytes": 50404,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27",
+      "gitBlob": "33276c9ad5259f6ad3d3a1ba07964b6844bb3830",
+      "bytes": 50403,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "5e5fc9d36a57afab06570cf4ad863f2f1c2917e8fb3c58774e1a8961933e92f6",
+      "gitBlob": "8bf175d2f4a20873b895e8ec34e88278f1a202d9",
+      "bytes": 50404,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "b0b16b161712b740bbd58433cdb5a0b7bf8d0c4509ec20857b1aab9680ad1a27",
+      "gitBlob": "33276c9ad5259f6ad3d3a1ba07964b6844bb3830",
+      "bytes": 50403,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "gitBlob": "1f7c03215774629f810c75f0505d3be89a0d0b30",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "gitBlob": "d70d498a2d14188727bdf9de543e11cc24a18fb8",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "0b3281889bea34d8a38441b246923b1fca382f763b3278aac22897d06dc9cf92",
+      "gitBlob": "1f7c03215774629f810c75f0505d3be89a0d0b30",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "7c446a3a5f2c3ce640c38c0deeb1001f2f4eef3f81aa4482de34e57e72fee9b4",
+      "gitBlob": "d70d498a2d14188727bdf9de543e11cc24a18fb8",
+      "bytes": 8297,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "gitBlob": "cf13dc706a906d2a50c06ef85014eb924aecc2c5",
+      "bytes": 2314767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "gitBlob": "ba8688647f8e504f1c76ecf449ee45626ab9c342",
+      "bytes": 1935562,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+      "gitBlob": "9a106b5c4eff627f56151a15975b1f2c2b92d323",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+      "gitBlob": "faf1c04eba8549c48d710772e726aef94d59b91c",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a3512acbd54b1a4dff52c83ccd0f1f7d6495c42b1e68c422c62d37c1d6c41422",
+      "gitBlob": "cf13dc706a906d2a50c06ef85014eb924aecc2c5",
+      "bytes": 2314767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "1fc0d387eeec4f0141476c09249a16df271487095c5dcb92406eb8d253d5cd0e",
+      "gitBlob": "ba8688647f8e504f1c76ecf449ee45626ab9c342",
+      "bytes": 1935562,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "0d826fcefc0bdbe1264ffb6d0cce87edbaf6d0dd422c5b286f2eb36f52a9e7b9",
+      "gitBlob": "9a106b5c4eff627f56151a15975b1f2c2b92d323",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a2b6389297ace4686dc0695a863eef60c8f867d4c6feee10747107bdc24dfa13",
+      "gitBlob": "faf1c04eba8549c48d710772e726aef94d59b91c",
+      "bytes": 8402,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "gitBlob": "066cd2ee25553f64b7f58872cb3e65e4a434a9dc",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "gitBlob": "11a2a969de1c14860dd6641d8197bc6a8495afe6",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "fd6a1f7bd3debe6c33193dd72fdfcfb3f5e614013c1fa9ded2b7deeb5b75a40d",
+      "gitBlob": "066cd2ee25553f64b7f58872cb3e65e4a434a9dc",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "a1df013b38fa60d6f6f232f5767e365342e2765d11e0e2e2229779f56514962e",
+      "gitBlob": "11a2a969de1c14860dd6641d8197bc6a8495afe6",
+      "bytes": 9874,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c",
+      "gitBlob": "2e52ced642e1d66c22a9fed02e8a8bc5a3b820f3",
+      "bytes": 2233764,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "96773634d1b462fafd764ed57e3a1f335e441325015c9384f0ca4b04a5d39747",
+      "gitBlob": "6e271bf4695cc98b450350187b8028eb16dbb569",
+      "bytes": 2396516,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "bcb40f4b8d87c7c0d0bcb04e2aefd3200923aa7cc787e9cf307956348a24f20c",
+      "gitBlob": "2e52ced642e1d66c22a9fed02e8a8bc5a3b820f3",
+      "bytes": 2233764,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "96773634d1b462fafd764ed57e3a1f335e441325015c9384f0ca4b04a5d39747",
+      "gitBlob": "6e271bf4695cc98b450350187b8028eb16dbb569",
+      "bytes": 2396516,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+      "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+      "bytes": 1976767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+      "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+      "bytes": 1964729,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+      "gitBlob": "a78f84d70c42b192e90feaafc95213b006997d09",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+      "gitBlob": "94d7c0da30cdb9832d101a7ed79a64b0e34c5581",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+      "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+      "bytes": 1976767,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+      "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+      "bytes": 1964729,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "f261423ea5a4bc1b35ac85170e69c35fceb03814b6a45f8a757dfe5863feee85",
+      "gitBlob": "a78f84d70c42b192e90feaafc95213b006997d09",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "c7e90ad9b9cbe08b4103be597192b180f1c134c2960cdb4ba94e598c3b4338d8",
+      "gitBlob": "94d7c0da30cdb9832d101a7ed79a64b0e34c5581",
+      "bytes": 4305,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+      "gitBlob": "c8b445d457522a604137070dd5f384baa98e7286",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+      "gitBlob": "72efad26e98fe353b6c40b05d5a649c6e159fc1a",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "9e841d73e1a2e60613a80a15512900d5287b0bce509f01b1a1b2c3fc8dadbfa2",
+      "gitBlob": "c8b445d457522a604137070dd5f384baa98e7286",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "8b0d0e033d9c1e7e6be5df39195602457b378095271acabe85395e836ead8e05",
+      "gitBlob": "72efad26e98fe353b6c40b05d5a649c6e159fc1a",
+      "bytes": 12373,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+      "gitBlob": "a5bbfd5522a81f0154326e119ee5a8780c77cd5a",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+      "gitBlob": "14b06921da5ffe96665d6f1f7466afee564702f2",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "c3911082bacbf6732aa1fed4605584d9b963df45c02a015026e2168fb9a611e9",
+      "gitBlob": "a5bbfd5522a81f0154326e119ee5a8780c77cd5a",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    },
+    {
+      "path": "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sha256": "eee90785df87e1952a598f92368673d815617a1448465cf0166d861d59fd6d9f",
+      "gitBlob": "14b06921da5ffe96665d6f1f7466afee564702f2",
+      "bytes": 5875,
+      "review": "actual rendered figure inspected in lesson context; all panels considered; no artwork copied to repository"
+    }
+  ],
+  "renderReceipts": [
+    {
+      "file": "7510db6b-hr-matching-template-route-v1-light.png.review.png",
+      "sha256": "7b3c09c925a3cbd4ab65e2a418648616752992f9af9b0c3bbd0a600991354232",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-dna-lesions-and-selected-repair-jobs-v1-light.svg.review.png",
+      "sha256": "5540514007d48b0d66c903321385f6fe65865a7808273b41dc003006fcb5d940",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-genomic-scars-chromosome-tracks-v1-light.svg.review.png",
+      "sha256": "fba9cbfb471158f0b3c393cb3111cd5c5ac33c1bb92379feb254057a51faa750",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-scar-and-current-function-v1-light.png.review.png",
+      "sha256": "55793ab730c8453120a34f54165bbceb5a47eb7f8a298bf9ddbe3c8c982f6ee1",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-mutational-signature-mixtures-v1-light.svg.review.png",
+      "sha256": "70af5c45b4950c7603d6f39ec7993278f7dc3e2c6e5e83d365853e62a4623a92",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nhej-mmej-selected-toy-ends-v2-light.svg.review.png",
+      "sha256": "40ae1f9878cf57cae964962c0fbce9f5b2c2186607461bb48f99e467588f851e",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-replication-fork-and-timed-toy-tracks-v1-light.svg.review.png",
+      "sha256": "93673fa721f78ae666f0afc5398f7b005e51652918230e1f68dfd5543077ac82",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-receptor-reach-and-relay-v1-light.png.review.png",
+      "sha256": "7b76978b3d872289b8ee55c10224b7292d118eacc27a44ec384d869c9ac17bdd",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ar-binding-regions-and-evidence-b12-v1-light.svg.review.png",
+      "sha256": "c0fc2cd7be137d483fb4bf15c21cd2ffea2845560faeea7be5da7eca7875f8ee",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-bet-mark-pocket-and-depletion-v1-light.svg.review.png",
+      "sha256": "7624e2ab70a6d4485bf1b8d10a89db28129cdf4d6fb1ca856e4e03d3c7d8c906",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-notch-contact-to-nucleus-v4-20261011-light.png.review.png",
+      "sha256": "7f8afc343fd26d4088025c3f9fd94114194351d63d14331fecec63b1baccb82b",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ubiquitin-selected-cargo-v5-light.png.review.png",
+      "sha256": "28bba1f2ea4974a3ded6b95c6f525178b3cce6a390d6bac67d75ce2a0aa8880a",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nrf2-specific-turnover-inset-b12-v1-light.svg.review.png",
+      "sha256": "1b74e47aed0581c84f8324b846d302a78d0d00a181e0478ee0939b04ea0e39b7",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-pi3k-lipids-and-two-mtor-complexes-v2-light.svg.review.png",
+      "sha256": "0e8bff0f505c8bb87a586d692e8bce20020fb11d2faa55766502e405b40961a2",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-shared-upstream-block-and-downstream-escape-v1-light.svg.review.png",
+      "sha256": "36dd2b098c98d303119fe485882a6e20ada1823f805a97ef02ca2aa60e71aee7",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-matching-template-route-v1-dark.png.review.png",
+      "sha256": "72020e8f37c8b150eb260f5e230064b84c629dd4cb5d12756397b4d1f25ae9cf",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-dna-lesions-and-selected-repair-jobs-v1-dark.svg.review.png",
+      "sha256": "5328209a419622ebfab0cf91e9cf9b69534d80593e7127dd1a8670ad05ffa4e8",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-genomic-scars-chromosome-tracks-v1-dark.svg.review.png",
+      "sha256": "90b46308c0f7f750917b9b39713331528b295383d3b9b1b3df671deeb877b9e6",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-hr-scar-and-current-function-v1-dark.png.review.png",
+      "sha256": "7845f123501f648dc81d007427359e11ccb6830650b8ab966245e8c403101ead",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-mutational-signature-mixtures-v1-dark.svg.review.png",
+      "sha256": "5c81c732e609ec5acd5fd8fbb26986956b2f5b5e935b76081ae8595940f7014d",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nhej-mmej-selected-toy-ends-v2-dark.svg.review.png",
+      "sha256": "9670432c4e2f09b73ec8f4d7afb7ce3bafc8302eb632a606962c428851cbb9c9",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-replication-fork-and-timed-toy-tracks-v1-dark.svg.review.png",
+      "sha256": "3ef788721d4660c23462ea6c0269879f2c07034d7caef14d2a53dcbb9898fcd4",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-receptor-reach-and-relay-v1-dark.png.review.png",
+      "sha256": "d3d948e2a0ac87e164d4d0bfbcc6fc45e19cbf25f8658981369e93b550855692",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ar-binding-regions-and-evidence-b12-v1-dark.svg.review.png",
+      "sha256": "f86240bac4b0a1d22a81714b47d646b2f5d19237f9e8422f46e0ddab0b90d380",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-bet-mark-pocket-and-depletion-v1-dark.svg.review.png",
+      "sha256": "7b9f1da88c0bcd0ebbadba11f021d4f5226152958286a8efd0f7ea97e16490f3",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-notch-contact-to-nucleus-v4-20261011-dark.png.review.png",
+      "sha256": "6daf1087e790689ff8e3a16b7c19a7b74254d48be89bbbc7d7aef8deca01c253",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-ubiquitin-selected-cargo-v5-dark.png.review.png",
+      "sha256": "e3bcf1bfd75cbb25e314641268f3e91d1da5968c2a0343e05c344220d3398c93",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-nrf2-specific-turnover-inset-b12-v1-dark.svg.review.png",
+      "sha256": "3372774385edb42dd7f385b32e80454ae3c93d688f3c11baedd7edb2a21ea3ef",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-pi3k-lipids-and-two-mtor-complexes-v2-dark.svg.review.png",
+      "sha256": "570ad1ad67c1db436d4900ed021e80c6a01e80ef25fac03bc89bd432efa2dc57",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    },
+    {
+      "file": "7510db6b-shared-upstream-block-and-downstream-escape-v1-dark.svg.review.png",
+      "sha256": "88ab4aa496ae0ee2938c38b6cba8514ac08c14019b23bf60191a84b303319456",
+      "review": "Worker actual rendered inspection reused; no claim of a fresh coordinator visual review."
+    }
+  ],
+  "semanticRequirementIdsByPath": {
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png": [
+      "p00:r2",
+      "p03:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png": [
+      "p00:r2",
+      "p03:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg": [
+      "p01:r2",
+      "p01:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg": [
+      "p01:r2",
+      "p01:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg": [
+      "p02:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg": [
+      "p02:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png": [
+      "p03:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png": [
+      "p03:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg": [
+      "p04:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg": [
+      "p04:r2"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg": [
+      "p05:r1",
+      "p05:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg": [
+      "p05:r1",
+      "p05:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg": [
+      "p06:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg": [
+      "p06:r3"
+    ],
+    "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-light.png": [
+      "p07:r3"
+    ],
+    "wiki/education/concepts/biology-basics/signaling/images/receptor-reach-and-relay-v1-dark.png": [
+      "p07:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-light.svg": [
+      "p07:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/ar-binding-regions-and-evidence-b12-v1-dark.svg": [
+      "p07:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg": [
+      "p08:r1",
+      "p08:r2",
+      "p08:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg": [
+      "p08:r1",
+      "p08:r2",
+      "p08:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-light.png": [
+      "p11:r2",
+      "p11:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/notch-contact-to-nucleus-v4-20261011-dark.png": [
+      "p11:r2",
+      "p11:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png": [
+      "p12:r1",
+      "p12:r2",
+      "p12:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png": [
+      "p12:r1",
+      "p12:r2",
+      "p12:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-light.svg": [
+      "p12:r1",
+      "p12:r2",
+      "p12:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/nrf2-specific-turnover-inset-b12-v1-dark.svg": [
+      "p12:r1",
+      "p12:r2",
+      "p12:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-light.svg": [
+      "p13:r2",
+      "p13:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/pi3k-lipids-and-two-mtor-complexes-v2-dark.svg": [
+      "p13:r2",
+      "p13:r4"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-light.svg": [
+      "p15:r3"
+    ],
+    "wiki/education/concepts/cancer-biology/signaling-pathways/images/shared-upstream-block-and-downstream-escape-v1-dark.svg": [
+      "p15:r3"
+    ]
+  },
+  "scope": "Worker rendered visual assessment reused by identity. No fresh coordinator full-extent visual, accessibility or equivalent-artwork claim."
+}

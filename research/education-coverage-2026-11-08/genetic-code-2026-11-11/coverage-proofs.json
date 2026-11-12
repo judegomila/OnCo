@@ -1,0 +1,1427 @@
+{
+  "dataCommit": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "version": "proposal-genetic-code-root",
+  "rows": [
+    {
+      "id": "GC01",
+      "sectionOrdinals": [
+        1,
+        3
+      ],
+      "requirement": "Define the genetic code and a codon as the mapping from non-overlapping mRNA triplets to amino acids or termination signals, scoped to the standard code.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "summary",
+          "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d",
+          "excerpt": "The genetic code maps three-letter codons to amino acids or termination signals. A reading frame specifies how a coding sequence is grouped into consecutive, non-overlapping triplets. A codon is one unit of a message, while a protein-coding gene also includes other sequence and regulatory context; some genes instead produce functional RNA.",
+          "excerptSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Define the genetic code and a codon as the mapping from non-overlapping mRNA triplets to amino acids or termination signals, scoped to the standard code. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC02",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Explain the three-letter sentence analogy, the need to choose a frame, and the limit that synonymous codons make many letter changes harmless at amino-acid level.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "A fictional letter exercise separates frame from spelling: THE CAT SAW THE DOG groups a string into threes, while starting one letter later gives HEC ATS AWT. Biological codons have synonyms, unlike these ordinary words, so this analogy does not make every single-letter substitution damaging. The exercise identifies grouping, not a protein sequence or an estimate of mutation effects.",
+          "excerptSha256": "2fd360309b1bb87705c7aec07644ba16e69ee8acf3eb4448f920ba2d0498563c"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain the three-letter sentence analogy, the need to choose a frame, and the limit that synonymous codons make many letter changes harmless at amino-acid level. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC03",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Distinguish RNA A/U/G/C from coding DNA A/T/G/C without equating unprocessed genomic and mature transcript sequences.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+          "excerptSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6"
+        },
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Coding-DNA reports use T where the corresponding RNA sequence uses U. Matching them requires the coding strand and a specified processed transcript; an unprocessed genomic stretch can contain introns. In variant notation, c. numbers coding-DNA positions and p. describes a protein consequence relative to a named reference. The symbols fs, Ter and * denote frameshift and termination. HGVS places predicted protein consequences in parentheses when RNA or protein has not been analysed.",
+          "excerptSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Distinguish RNA A/U/G/C from coding DNA A/T/G/C without equating unprocessed genomic and mature transcript sequences. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC04",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Recompute four cubed as 64 possible triplets; distinguish the 61 standard amino-acid codons from the three stops and the 20 common amino acids.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+          "excerptSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Recompute four cubed as 64 possible triplets; distinguish the 61 standard amino-acid codons from the three stops and the 20 common amino acids. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC05",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain genetic-code degeneracy, frequent third-position synonyms, and the standard-code single codons for methionine and tryptophan.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+          "excerptSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain genetic-code degeneracy, frequent third-position synonyms, and the standard-code single codons for methionine and tryptophan. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC06",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Name UAA, UAG and UGA as standard termination codons and distinguish termination from adding an amino acid.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+          "excerptSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Name UAA, UAG and UGA as standard termination codons and distinguish termination from adding an amino acid. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC07",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Qualify AUG initiation and suitable context for scanning; explain initiation methionine and possible later removal without claiming all initiation follows one rule.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For ordinary cap-dependent eukaryotic initiation, the translation machinery scans from the front of the message and the sequence around AUG helps determine initiation. It need not use the first AUG. Initiation commonly supplies methionine; subsequent processing can change the protein end. Bacterial initiation and mitochondrial translation have their own context, and NCBI lists alternative initiation codons. An AUG within an already translated frame normally adds methionine rather than starting a second protein.",
+          "excerptSha256": "9c0edc250079dc0ca2ab738ebbbb986cd6ba3aa7fa36403fd8802286d3154225"
+        }
+      ],
+      "sourceScope": [
+        "OpenStax 15.5 initiation/termination passages and NCBI alternative-initiation annotations; no universal first-AUG rule."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Qualify AUG initiation and suitable context for scanning; explain initiation methionine and possible later removal without claiming all initiation follows one rule. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC08",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define reading frame and consecutive non-overlapping triplets fixed by initiation.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "summary",
+          "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d",
+          "excerpt": "The genetic code maps three-letter codons to amino acids or termination signals. A reading frame specifies how a coding sequence is grouped into consecutive, non-overlapping triplets. A codon is one unit of a message, while a protein-coding gene also includes other sequence and regulatory context; some genes instead produce functional RNA.",
+          "excerptSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Define reading frame and consecutive non-overlapping triplets fixed by initiation. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC09",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define open reading frame at the introductory start-to-stop scope, with annotation conventions kept explicit.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "summary",
+          "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d",
+          "excerpt": "An open reading frame is a stretch without an internal stop in the chosen frame. A candidate start-to-stop segment can help identify a possible coding region, but an open frame alone does not show that a protein is expressed or functional. The reference sequence, transcript and translation table matter.",
+          "excerptSha256": "48bc68b9f8884e9bfa63fa65f37d5f7e519bcf2d356704474bd467a0145b7b46"
+        }
+      ],
+      "sourceScope": [
+        "NHGRI Open Reading Frame definition/narration; start-to-stop is an introductory candidate, not a universal ORF annotation definition or expression assay."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Defines the no-internal-stop condition and distinguishes a candidate coding region from demonstrated expression/function, correcting the narrower source convention."
+    },
+    {
+      "id": "GC10",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe what the Crick 1961 bacteriophage experiments established about triplets and compensating frame changes, without turning three-base deletion into a guarantee of normal function.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Two historical experiments addressed different questions. Crick and colleagues studied bacteriophage genetics in 1961; combinations of three changes could partly restore function when the individual changes did not. The authors argued for a coding ratio of three or a multiple of three, with three more likely, rather than guaranteeing that every three-base deletion is harmless. Nirenberg's 1968 Nobel lecture recounts his work with Matthaei in which synthetic poly-U directed polyphenylalanine synthesis in cell-free E. coli extracts. That connected U-rich RNA with phenylalanine, while UUU is the corresponding codon in the standard table.",
+          "excerptSha256": "495b587860ef62f6f12912520aa508016c27b08d777f8362be62dfd9cc4878ca"
+        }
+      ],
+      "sourceScope": [
+        "Crick 1961 NLM scan, targeted introduction and coding-ratio/triple-mutant sections; printed p.1230 viewed. Nirenberg 1968 lecture targeted text and printed p.374 viewed. No whole original paper read; Nirenberg 1961 original remains unread."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Retains the experimental phage setting, partial restoration and three-or-multiple-of-three inference, rather than guaranteeing a harmless deletion."
+    },
+    {
+      "id": "GC11",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe Nirenberg and Matthaei 1961 synthetic poly-U directing phenylalanine synthesis, and the UUU assignment.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Two historical experiments addressed different questions. Crick and colleagues studied bacteriophage genetics in 1961; combinations of three changes could partly restore function when the individual changes did not. The authors argued for a coding ratio of three or a multiple of three, with three more likely, rather than guaranteeing that every three-base deletion is harmless. Nirenberg's 1968 Nobel lecture recounts his work with Matthaei in which synthetic poly-U directed polyphenylalanine synthesis in cell-free E. coli extracts. That connected U-rich RNA with phenylalanine, while UUU is the corresponding codon in the standard table.",
+          "excerptSha256": "495b587860ef62f6f12912520aa508016c27b08d777f8362be62dfd9cc4878ca"
+        }
+      ],
+      "sourceScope": [
+        "Crick 1961 NLM scan, targeted introduction and coding-ratio/triple-mutant sections; printed p.1230 viewed. Nirenberg 1968 lecture targeted text and printed p.374 viewed. No whole original paper read; Nirenberg 1961 original remains unread."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Uses the experimenter's own later primary lecture for the poly-U/polyphenylalanine description; the original 1961 paper is only identity-resolved."
+    },
+    {
+      "id": "GC12",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain that the code is nearly universal while retaining code-table exceptions.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The standard table is nearly universal, not universal. Human mitochondria encode 13 proteins and use a different translation table. NCBI table 2 assigns UGA to tryptophan and AUA to methionine, with AGA and AGG as termination signals. A nuclear variant should not be interpreted with that mitochondrial table. A table assignment also differs from demonstrating the release mechanism: Krüger 2023 tested release at AGA and AGG in a reconstituted mitochondrial system, and Wakigawa 2026 studied release-factor specificity in cellular translation experiments.",
+          "excerptSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain that the code is nearly universal while retaining code-table exceptions. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC13",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify the human mitochondrial 13-protein count and scope the vertebrate mitochondrial code separately from the standard code.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The standard table is nearly universal, not universal. Human mitochondria encode 13 proteins and use a different translation table. NCBI table 2 assigns UGA to tryptophan and AUA to methionine, with AGA and AGG as termination signals. A nuclear variant should not be interpreted with that mitochondrial table. A table assignment also differs from demonstrating the release mechanism: Krüger 2023 tested release at AGA and AGG in a reconstituted mitochondrial system, and Wakigawa 2026 studied release-factor specificity in cellular translation experiments.",
+          "excerptSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Verify the human mitochondrial 13-protein count and scope the vertebrate mitochondrial code separately from the standard code. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC14",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Check mitochondrial UGA, AUA, AGA and AGG assignments and the mechanism/annotation caveat attached to mitochondrial termination.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The standard table is nearly universal, not universal. Human mitochondria encode 13 proteins and use a different translation table. NCBI table 2 assigns UGA to tryptophan and AUA to methionine, with AGA and AGG as termination signals. A nuclear variant should not be interpreted with that mitochondrial table. A table assignment also differs from demonstrating the release mechanism: Krüger 2023 tested release at AGA and AGG in a reconstituted mitochondrial system, and Wakigawa 2026 studied release-factor specificity in cellular translation experiments.",
+          "excerptSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052"
+        }
+      ],
+      "sourceScope": [
+        "NCBI standard/mitochondrial tables and comments; NHGRI Codon; arithmetic checked independently against all 64 table entries."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Separates mitochondrial table assignments from mechanism and notes fresh primary investigations instead of adopting the older frameshift-only comment."
+    },
+    {
+      "id": "GC15",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain reference-sequence-dependent c. and p. notation, frameshift fs, and Ter or asterisk for termination.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Coding-DNA reports use T where the corresponding RNA sequence uses U. Matching them requires the coding strand and a specified processed transcript; an unprocessed genomic stretch can contain introns. In variant notation, c. numbers coding-DNA positions and p. describes a protein consequence relative to a named reference. The symbols fs, Ter and * denote frameshift and termination. HGVS places predicted protein consequences in parentheses when RNA or protein has not been analysed.",
+          "excerptSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105"
+        },
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_000546.6, TP53 c.524G>A changes coding-DNA codon 175 from CGC to CAC, predicting arginine to histidine. HGVS writes an unmeasured protein consequence as p.(Arg175His); ClinVar's reference display uses p.Arg175His. The named RefSeq coding sequence reproduces the substitution. ClinVar VCV000012374 has an expert-panel pathogenic germline classification, but a classification, a protein prediction and a measured functional result are different evidence. This notation example does not establish a treatment response.",
+          "excerptSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae"
+        }
+      ],
+      "sourceScope": [
+        "HGVS frameshift/deletion definitions and prediction conventions; transcript-specific ClinVar expressions and independently computed RefSeq CDS examples."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain reference-sequence-dependent c. and p. notation, frameshift fs, and Ter or asterisk for termination. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC16",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify the TP53 c.524G>A p.Arg175His example, codon transition CGC to CAC, and the actual ClinVar classification and scope.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_000546.6, TP53 c.524G>A changes coding-DNA codon 175 from CGC to CAC, predicting arginine to histidine. HGVS writes an unmeasured protein consequence as p.(Arg175His); ClinVar's reference display uses p.Arg175His. The named RefSeq coding sequence reproduces the substitution. ClinVar VCV000012374 has an expert-panel pathogenic germline classification, but a classification, a protein prediction and a measured functional result are different evidence. This notation example does not establish a treatment response.",
+          "excerptSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae"
+        }
+      ],
+      "sourceScope": [
+        "HGVS frameshift/deletion definitions and prediction conventions; transcript-specific ClinVar expressions and independently computed RefSeq CDS examples."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Uses the named reference coding sequence, exact codon substitution, parenthesised predicted consequence and aggregate expert-panel ClinVar class; no therapy effect inferred."
+    },
+    {
+      "id": "GC17",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify BRCA1 c.68_69del/185delAG identity, two deleted coding bases and frameshift; distinguish predicted early stop and possible transcript degradation from a proven mechanism for every transcript.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_007294.4, BRCA1 c.68_69del removes the two coding bases AG and is also known as 185delAG. ClinVar VCV000017662 records the consequence as p.Glu23fs. In the exercise, 2 is not divisible by 3, so deleting those bases changes the downstream frame. Deleting three coding bases preserves the downstream grouping, but can remove an amino acid, change the codon at the join or introduce a stop. It does not guarantee a working protein; the actual sequence and transcript need checking.",
+          "excerptSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486"
+        },
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+          "excerptSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee"
+        }
+      ],
+      "sourceScope": [
+        "HGVS frameshift/deletion definitions and prediction conventions; transcript-specific ClinVar expressions and independently computed RefSeq CDS examples."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Verify BRCA1 c.68_69del/185delAG identity, two deleted coding bases and frameshift; distinguish predicted early stop and possible transcript degradation from a proven mechanism for every transcript. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC18",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain the fictional UGG-to-UGA nonsense example and possible premature termination or nonsense-mediated transcript decay.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+          "excerptSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain the fictional UGG-to-UGA nonsense example and possible premature termination or nonsense-mediated transcript decay. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC19",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain GAA/GAG glutamate synonymy and why unchanged encoded amino acid need not mean unchanged splicing or function.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+          "excerptSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain GAA/GAG glutamate synonymy and why unchanged encoded amino acid need not mean unchanged splicing or function. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC20",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain that deleting a multiple of three preserves the downstream frame, with position-dependent boundary effects and no guarantee of functional protein.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_007294.4, BRCA1 c.68_69del removes the two coding bases AG and is also known as 185delAG. ClinVar VCV000017662 records the consequence as p.Glu23fs. In the exercise, 2 is not divisible by 3, so deleting those bases changes the downstream frame. Deleting three coding bases preserves the downstream grouping, but can remove an amino acid, change the codon at the join or introduce a stop. It does not guarantee a working protein; the actual sequence and transcript need checking.",
+          "excerptSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486"
+        },
+        {
+          "recordId": "mutation",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "4dc29ace795854ee7f8e70dd48f11c3075d7b881c73ac86b59a7a473de9ba637",
+          "excerpt": "In a specified coding transcript, an insertion or deletion of a complete number of three-base groups can preserve the downstream reading frame. It can still add or remove amino acids, change a codon at the join or introduce a stop; preserving the frame does not establish preserved protein function. The actual sequence and transcript consequences need checking. A protein-level change inferred from DNA remains a prediction until supported at the relevant molecular level.",
+          "excerptSha256": "989b701b9828b5fdcc01c65480b36782e6256a4b93e94a3ac5e3523e534ce66c"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Preserves the modulo-three distinction and explicitly rejects the function guarantee while retaining possible junction/termination changes."
+    },
+    {
+      "id": "GC21",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Keep protein length, retained function and clinical interpretation separate; a variant class alone does not prove the expressed product or function.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "summary",
+          "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d",
+          "excerpt": "An open reading frame is a stretch without an internal stop in the chosen frame. A candidate start-to-stop segment can help identify a possible coding region, but an open frame alone does not show that a protein is expressed or functional. The reference sequence, transcript and translation table matter.",
+          "excerptSha256": "48bc68b9f8884e9bfa63fa65f37d5f7e519bcf2d356704474bd467a0145b7b46"
+        },
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_000546.6, TP53 c.524G>A changes coding-DNA codon 175 from CGC to CAC, predicting arginine to histidine. HGVS writes an unmeasured protein consequence as p.(Arg175His); ClinVar's reference display uses p.Arg175His. The named RefSeq coding sequence reproduces the substitution. ClinVar VCV000012374 has an expert-panel pathogenic germline classification, but a classification, a protein prediction and a measured functional result are different evidence. This notation example does not establish a treatment response.",
+          "excerptSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Keep protein length, retained function and clinical interpretation separate; a variant class alone does not prove the expressed product or function. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC22",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Assess the lesson frequency assertion that frameshift/nonsense variants are the common inherited BRCA loss mechanism; do not treat a single ClinVar example as frequency evidence.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "MedlinePlus describes many inherited BRCA1 and BRCA2 risk variants as producing a shortened or absent functional product. Frameshift and nonsense examples illustrate ways to disrupt coding information; these examples and their ClinVar entries do not estimate what fraction of all inherited BRCA variants belong to either class. Secondary tumour changes can sometimes restore a BRCA reading frame or repair function. Restoring a frame, demonstrating repair and predicting a clinical drug response remain separate questions.",
+          "excerptSha256": "cb1a26e3ded4d1566d2575f293cd9978a955dc71f3a69f3f3e2697962b9da3fa"
+        }
+      ],
+      "sourceScope": [
+        "ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Retains inherited-BRCA coding-loss teaching at the MedlinePlus scope and explicitly says that the two examples and ClinVar entries are not a frequency survey; no class percentage is supplied."
+    },
+    {
+      "id": "GC23",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Explain secondary BRCA reading-frame restoration as a possible route to PARP/platinum resistance, with study scope and no universal response inference.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "MedlinePlus describes many inherited BRCA1 and BRCA2 risk variants as producing a shortened or absent functional product. Frameshift and nonsense examples illustrate ways to disrupt coding information; these examples and their ClinVar entries do not estimate what fraction of all inherited BRCA variants belong to either class. Secondary tumour changes can sometimes restore a BRCA reading frame or repair function. Restoring a frame, demonstrating repair and predicting a clinical drug response remain separate questions.",
+          "excerptSha256": "cb1a26e3ded4d1566d2575f293cd9978a955dc71f3a69f3f3e2697962b9da3fa"
+        },
+        {
+          "recordId": "brca-reversion-mutations",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4",
+          "excerpt": "Sakai 2008 described secondary BRCA2 changes that restored the reading frame in breast and pancreatic cancer models. The selected clones resisted cisplatin and the experimental PARP inhibitor AG14361. A recurrent BRCA2-mutated ovarian tumour with acquired cisplatin resistance also carried a reversion. These examples establish a possible resistance mechanism, rather than a universal frequency across cancers, assays or medicines.",
+          "excerptSha256": "2840af3b0eee472a26a5cb78944b7803b66eed2c056e2acfea6461fc29ddeb48"
+        },
+        {
+          "recordId": "brca-reversion-mutations",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4",
+          "excerpt": "Sakai 2009 studied ovarian cancer cell lines from one BRCA2-variant carrier. A secondary change cancelled an inherited nonsense variant, BRCA2 protein was detectable in resistant lines, and further experiments selected BRCA2-restored clones. Reducing BRCA2 with siRNA made the restored clones and PEO4 cells more sensitive to cisplatin and AG14361. This is evidence from a named cellular model and depletion experiment, rather than a clinical trial selecting a subsequent treatment.",
+          "excerptSha256": "8ca40c1e98421fcc648683a5fefcc9fc85a798aaed75f87008321eec436ec24f"
+        }
+      ],
+      "sourceScope": [
+        "ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Connects possible frame/function restoration with named BRCA2 model evidence, and removes universal clinical-response or treatment-selection conclusions."
+    },
+    {
+      "id": "GC24",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Explain frameshift-derived new peptides and their relevance in mismatch-repair-deficient cancers without claiming every frameshift makes an exclusive, presented or immunogenic peptide.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Le and colleagues studied pembrolizumab in 86 people with advanced mismatch-repair-deficient cancers across 12 tumour types in 2017. They reported objective radiographic responses in 46 of 86, or 53%; this is a cohort outcome, not the response chance for any particular frameshift. Detailed mutant-peptide T-cell experiments used one responding person, and the peptides that scored positive came from frameshifts. A genomic frameshift alone does not establish natural peptide presentation, T-cell recognition or clinical benefit.",
+          "excerptSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7"
+        }
+      ],
+      "sourceScope": [
+        "Le 2017 abstract and targeted enrollment, response and peptide/TCR passages. Cohort 46/86 and one responding-person assay retain distinct denominators."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Explain frameshift-derived new peptides and their relevance in mismatch-repair-deficient cancers without claiming every frameshift makes an exclusive, presented or immunogenic peptide. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC25",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify Le 2017 population (86 patients, 12 cancer types), response figure (53%) and exact response endpoint/denominator.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Le and colleagues studied pembrolizumab in 86 people with advanced mismatch-repair-deficient cancers across 12 tumour types in 2017. They reported objective radiographic responses in 46 of 86, or 53%; this is a cohort outcome, not the response chance for any particular frameshift. Detailed mutant-peptide T-cell experiments used one responding person, and the peptides that scored positive came from frameshifts. A genomic frameshift alone does not establish natural peptide presentation, T-cell recognition or clinical benefit.",
+          "excerptSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7"
+        }
+      ],
+      "sourceScope": [
+        "Le 2017 abstract and targeted enrollment, response and peptide/TCR passages. Cohort 46/86 and one responding-person assay retain distinct denominators."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Uses the reported objective radiographic response denominator 46/86 and its advanced MMR-deficient cohort, with no individual response prediction."
+    },
+    {
+      "id": "GC26",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Verify the single-patient T-cell-recognised frameshift peptide result and retain its individual experimental scope.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Le and colleagues studied pembrolizumab in 86 people with advanced mismatch-repair-deficient cancers across 12 tumour types in 2017. They reported objective radiographic responses in 46 of 86, or 53%; this is a cohort outcome, not the response chance for any particular frameshift. Detailed mutant-peptide T-cell experiments used one responding person, and the peptides that scored positive came from frameshifts. A genomic frameshift alone does not establish natural peptide presentation, T-cell recognition or clinical benefit.",
+          "excerptSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7"
+        }
+      ],
+      "sourceScope": [
+        "Le 2017 abstract and targeted enrollment, response and peptide/TCR passages. Cohort 46/86 and one responding-person assay retain distinct denominators."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Keeps the mutant-peptide experiment at one responding person and distinguishes genomic frame change from presentation, recognition and benefit."
+    },
+    {
+      "id": "GC27",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Distinguish codon from protein-coding gene; do not generalise hundreds of codons to every gene including noncoding genes.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "summary",
+          "fieldSha256": "57b2aab89e3742911f6097b253ee04828948b11c5c30bc52e87a3c9caee4d29d",
+          "excerpt": "The genetic code maps three-letter codons to amino acids or termination signals. A reading frame specifies how a coding sequence is grouped into consecutive, non-overlapping triplets. A codon is one unit of a message, while a protein-coding gene also includes other sequence and regulatory context; some genes instead produce functional RNA.",
+          "excerptSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Distinguish codon from protein-coding gene; do not generalise hundreds of codons to every gene including noncoding genes. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC28",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Distinguish synonymous from biologically silent.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+          "excerptSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Distinguish synonymous from biologically silent. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC29",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Distinguish a nonsense change at one codon from a frameshift that changes the downstream codon grouping.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+          "excerptSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Distinguish a nonsense change at one codon from a frameshift that changes the downstream codon grouping. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC30",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Connect coding-DNA notation with RNA codons through transcript and strand context.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "Coding-DNA reports use T where the corresponding RNA sequence uses U. Matching them requires the coding strand and a specified processed transcript; an unprocessed genomic stretch can contain introns. In variant notation, c. numbers coding-DNA positions and p. describes a protein consequence relative to a named reference. The symbols fs, Ter and * denote frameshift and termination. HGVS places predicted protein consequences in parentheses when RNA or protein has not been analysed.",
+          "excerptSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105"
+        }
+      ],
+      "sourceScope": [
+        "HGVS frameshift/deletion definitions and prediction conventions; transcript-specific ClinVar expressions and independently computed RefSeq CDS examples."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Connect coding-DNA notation with RNA codons through transcript and strand context. The quoted authored passage carries the required distinction with its stated qualification."
+    },
+    {
+      "id": "GC31",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Work the BRCA1 two-base loss exercise with the modulo-three rule; contrast in-frame deletion without promising restored function.",
+      "kind": "teaching",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [
+        {
+          "recordId": "genetic-code",
+          "version": "proposal-genetic-code-root",
+          "field": "notes",
+          "fieldSha256": "ac7b75bee01c21508ba2cae0ffceefac7d8e12ee64fcd565eed07245e0a9f1a9",
+          "excerpt": "For NM_007294.4, BRCA1 c.68_69del removes the two coding bases AG and is also known as 185delAG. ClinVar VCV000017662 records the consequence as p.Glu23fs. In the exercise, 2 is not divisible by 3, so deleting those bases changes the downstream frame. Deleting three coding bases preserves the downstream grouping, but can remove an amino acid, change the codon at the join or introduce a stop. It does not guarantee a working protein; the actual sequence and transcript need checking.",
+          "excerptSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486"
+        }
+      ],
+      "sourceScope": [
+        "Explicit interpretation boundaries follow the named sequence rules and assays; variant class alone does not establish expression, function, clinical outcome or population frequency."
+      ],
+      "disposition": "represented at stated source scope",
+      "entailment": "Works the two-base BRCA1 deletion and contrasts a multiple-of-three deletion without claiming preserved function."
+    },
+    {
+      "id": "GC32",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "The fill-in exercise repeats initiation, triplets, UGA and frameshift already inventoried.",
+      "kind": "excluded-recap",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [],
+      "disposition": "excluded from independent teaching credit",
+      "sourceScope": [],
+      "entailment": "Recap, routing or review metadata repeats separately inventoried teaching and receives no independent coverage."
+    },
+    {
+      "id": "GC33",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "The takeaway repeats code/frame principles and adds no independent empirical requirement.",
+      "kind": "excluded-recap",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [],
+      "disposition": "excluded from independent teaching credit",
+      "sourceScope": [],
+      "entailment": "Recap, routing or review metadata repeats separately inventoried teaching and receives no independent coverage."
+    },
+    {
+      "id": "GC34",
+      "sectionOrdinals": [
+        0,
+        10
+      ],
+      "requirement": "Title and related-concept links route the lesson; they do not independently establish teaching coverage.",
+      "kind": "routing-scope",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [],
+      "disposition": "excluded from independent teaching credit",
+      "sourceScope": [],
+      "entailment": "Recap, routing or review metadata repeats separately inventoried teaching and receives no independent coverage."
+    },
+    {
+      "id": "GC35",
+      "sectionOrdinals": [
+        11
+      ],
+      "requirement": "Keep source-check, general-education, expert/learner-review and clinical-personalisation boundaries explicit.",
+      "kind": "source-scope",
+      "status": "source-inventory-only",
+      "ownerFieldsOpened": false,
+      "coverageCredit": 0,
+      "sourcePath": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "evidence": [],
+      "disposition": "excluded from independent teaching credit",
+      "sourceScope": [],
+      "entailment": "Recap, routing or review metadata repeats separately inventoried teaching and receives no independent coverage."
+    }
+  ],
+  "fieldReferences": 38,
+  "readerVerification": {
+    "scope": "Actual EntityDetail SSR, whole paragraphs and source hrefs; no browser hydration, responsive or deployed-page claim.",
+    "records": 4,
+    "fieldReferences": 38,
+    "completeParagraphChecks": 64,
+    "checks": [
+      {
+        "recordId": "genetic-code",
+        "label": "GC01:0",
+        "paragraph": 0,
+        "passageSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC02:0",
+        "paragraph": 0,
+        "passageSha256": "2fd360309b1bb87705c7aec07644ba16e69ee8acf3eb4448f920ba2d0498563c",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC03:0",
+        "paragraph": 0,
+        "passageSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC03:1",
+        "paragraph": 0,
+        "passageSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC04:0",
+        "paragraph": 0,
+        "passageSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC05:0",
+        "paragraph": 0,
+        "passageSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC06:0",
+        "paragraph": 0,
+        "passageSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC07:0",
+        "paragraph": 0,
+        "passageSha256": "9c0edc250079dc0ca2ab738ebbbb986cd6ba3aa7fa36403fd8802286d3154225",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC08:0",
+        "paragraph": 0,
+        "passageSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC09:0",
+        "paragraph": 0,
+        "passageSha256": "48bc68b9f8884e9bfa63fa65f37d5f7e519bcf2d356704474bd467a0145b7b46",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC10:0",
+        "paragraph": 0,
+        "passageSha256": "495b587860ef62f6f12912520aa508016c27b08d777f8362be62dfd9cc4878ca",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC11:0",
+        "paragraph": 0,
+        "passageSha256": "495b587860ef62f6f12912520aa508016c27b08d777f8362be62dfd9cc4878ca",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC12:0",
+        "paragraph": 0,
+        "passageSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC13:0",
+        "paragraph": 0,
+        "passageSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC14:0",
+        "paragraph": 0,
+        "passageSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC15:0",
+        "paragraph": 0,
+        "passageSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC15:1",
+        "paragraph": 0,
+        "passageSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC16:0",
+        "paragraph": 0,
+        "passageSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC17:0",
+        "paragraph": 0,
+        "passageSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC17:1",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC18:0",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC19:0",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC20:0",
+        "paragraph": 0,
+        "passageSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486",
+        "present": true
+      },
+      {
+        "recordId": "mutation",
+        "label": "GC20:1",
+        "paragraph": 0,
+        "passageSha256": "989b701b9828b5fdcc01c65480b36782e6256a4b93e94a3ac5e3523e534ce66c",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC21:0",
+        "paragraph": 0,
+        "passageSha256": "48bc68b9f8884e9bfa63fa65f37d5f7e519bcf2d356704474bd467a0145b7b46",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC21:1",
+        "paragraph": 0,
+        "passageSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC22:0",
+        "paragraph": 0,
+        "passageSha256": "cb1a26e3ded4d1566d2575f293cd9978a955dc71f3a69f3f3e2697962b9da3fa",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC23:0",
+        "paragraph": 0,
+        "passageSha256": "cb1a26e3ded4d1566d2575f293cd9978a955dc71f3a69f3f3e2697962b9da3fa",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "GC23:1",
+        "paragraph": 0,
+        "passageSha256": "2840af3b0eee472a26a5cb78944b7803b66eed2c056e2acfea6461fc29ddeb48",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "GC23:2",
+        "paragraph": 0,
+        "passageSha256": "8ca40c1e98421fcc648683a5fefcc9fc85a798aaed75f87008321eec436ec24f",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC24:0",
+        "paragraph": 0,
+        "passageSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC25:0",
+        "paragraph": 0,
+        "passageSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC26:0",
+        "paragraph": 0,
+        "passageSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC27:0",
+        "paragraph": 0,
+        "passageSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC28:0",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC29:0",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC30:0",
+        "paragraph": 0,
+        "passageSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "GC31:0",
+        "paragraph": 0,
+        "passageSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "74b8b37c232b02dd522e9b12ed62b25ef7607335aecfba18e51b0816b0f790d2",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "1b1412e87308e5241bafd4018604824cbd4eec5183540c6d6be629f6bea2b50e",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "summary:0",
+        "paragraph": 1,
+        "passageSha256": "48bc68b9f8884e9bfa63fa65f37d5f7e519bcf2d356704474bd467a0145b7b46",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "aab6ccfbbb7b4eaaa591fc2b70ea9667871371d7642e7dfd05d8c899bc919fb6",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "9c0edc250079dc0ca2ab738ebbbb986cd6ba3aa7fa36403fd8802286d3154225",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "2fd360309b1bb87705c7aec07644ba16e69ee8acf3eb4448f920ba2d0498563c",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:3",
+        "paragraph": 0,
+        "passageSha256": "3f3840c1225f32026cc05c9b35e7f36237e8c62857c2d4ee081f130b7ee72105",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:4",
+        "paragraph": 0,
+        "passageSha256": "4e204f49af607e20e957350e3b1ccd9a03e44d7daa84f8855a0d8e544424e5ae",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:5",
+        "paragraph": 0,
+        "passageSha256": "947d1e2b84b156b3103f3195048dabbb9c39e20f181520411d78870626306486",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:6",
+        "paragraph": 0,
+        "passageSha256": "7a50530646ccab7aaa75dad70a79ec5d381f7651ae799ab9cc9979bbb9ee5bee",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:7",
+        "paragraph": 0,
+        "passageSha256": "cb1a26e3ded4d1566d2575f293cd9978a955dc71f3a69f3f3e2697962b9da3fa",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:8",
+        "paragraph": 0,
+        "passageSha256": "234747439c21d82b7c815dd26c368df694bf78131bbaa004658974fbd8d9f052",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:9",
+        "paragraph": 0,
+        "passageSha256": "495b587860ef62f6f12912520aa508016c27b08d777f8362be62dfd9cc4878ca",
+        "present": true
+      },
+      {
+        "recordId": "genetic-code",
+        "label": "notes:10",
+        "paragraph": 0,
+        "passageSha256": "d0e3000f79d9cee7fcbe9dd534c2cde2eb7361dc28eb0543bb7743a32b32a9b7",
+        "present": true
+      },
+      {
+        "recordId": "dna-term",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "547dfe289ff5725827efb657c87ef6ef510f84400fb57fef498c279cc7c907ff",
+        "present": true
+      },
+      {
+        "recordId": "dna-term",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "9e72f8d5dde5411e8a93bfec544174d198ad00e18c892f1ce1dfa531c8a35622",
+        "present": true
+      },
+      {
+        "recordId": "dna-term",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "081784b11725518920df4e936c02a93f0d1f7bab877d9bace1f7c4d6f7f73592",
+        "present": true
+      },
+      {
+        "recordId": "mutation",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "3422d25ff3bdb210d409be0075967ec14e7c1d607a4003454d44bf20a3a87ab3",
+        "present": true
+      },
+      {
+        "recordId": "mutation",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "f9663d0631424f132b7b01eeb00ce595a602bd9b325c9c31988df3ef0a0cbeb4",
+        "present": true
+      },
+      {
+        "recordId": "mutation",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "675f5a169ff40c96c4cdeee7090413abc7140def2fc0c4d75a92949b8c90fef5",
+        "present": true
+      },
+      {
+        "recordId": "mutation",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "989b701b9828b5fdcc01c65480b36782e6256a4b93e94a3ac5e3523e534ce66c",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "tldr:0",
+        "paragraph": 0,
+        "passageSha256": "bb11889c86dd21f23814952e808b82b1b9b4e22d4d189d46dbdb4148b88a7ba4",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "summary:0",
+        "paragraph": 0,
+        "passageSha256": "cb2070b59b5673fb09412e562601d51def2eed4fe69cab2abad6e8f2e86e2114",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "notes:0",
+        "paragraph": 0,
+        "passageSha256": "2840af3b0eee472a26a5cb78944b7803b66eed2c056e2acfea6461fc29ddeb48",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "notes:1",
+        "paragraph": 0,
+        "passageSha256": "8ca40c1e98421fcc648683a5fefcc9fc85a798aaed75f87008321eec436ec24f",
+        "present": true
+      },
+      {
+        "recordId": "brca-reversion-mutations",
+        "label": "notes:2",
+        "paragraph": 0,
+        "passageSha256": "88785ff4f81cc42ded877b9c27084ac3a8e80e42f574afd642f2ef9913760003",
+        "present": true
+      }
+    ],
+    "failures": []
+  },
+  "independentSemanticAcceptance": false,
+  "hashRecipe": "sha256 of compact UTF-8 JSON for fields; sha256 of exact UTF-8 excerpt bytes for passages.",
+  "mainCredit": 0,
+  "liveCredit": 0
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "queryId": "subtype-classifier-validation",
+    "cli": "@oncobase/oncobase@0.2.3",
+    "provider": "Elicit API",
+    "endpoint": "https://elicit.com/api/v2/search/papers",
+    "retrievedAt": "2026-11-09T22:04:54.752Z",
+    "request": {
+      "query": "How do tissue admixture, sampling and classifier choice affect molecular subtyping of triple-negative breast cancer, and what prospective evidence validates subtype-guided treatment selection?",
+      "searchMode": "semantic",
+      "maxResults": 8,
+      "corpus": "elicit"
+    },
+    "warnings": [],
+    "responseSha256": "a455d86be5e46d9f9a7533dcd652862f48e00fecb9ccaaf84874fa8bc91c3ce1",
+    "returned": 8,
+    "reportURL": null,
+    "reportURLNote": "No interactive report/question URL returned by the search API."
+  },
+  {
+    "queryId": "subtype-prospective-strategies",
+    "cli": "@oncobase/oncobase@0.2.3",
+    "provider": "Elicit API",
+    "endpoint": "https://elicit.com/api/v2/search/papers",
+    "retrievedAt": "2026-11-09T22:07:57.451Z",
+    "request": {
+      "query": "What prospective randomised trials have tested molecular subtype-guided treatment strategies for metastatic triple-negative breast cancer, including FUTURE-SUPER, and what are the comparator, assay and validation limitations?",
+      "searchMode": "semantic",
+      "maxResults": 8,
+      "corpus": "elicit",
+      "filters": {
+        "minYear": 2022
+      }
+    },
+    "warnings": [],
+    "responseSha256": "265b3e5117986d63939db81bf0f3e355fe9e92cdb50a62483557c1c01165c80e",
+    "returned": 8,
+    "reportURL": null,
+    "reportURLNote": "No interactive report/question URL returned by the search API."
+  }
+]

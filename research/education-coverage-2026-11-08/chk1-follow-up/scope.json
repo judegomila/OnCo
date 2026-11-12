@@ -1,0 +1,24 @@
+{
+  "checkedOn": "2026-11-08",
+  "canonicalOwner": "chk1-inhibitor-payloads in draft #375; not a new duplicate",
+  "curriculumSourcesNewlyRead": 1,
+  "navigationClassified": 4,
+  "literatureOccurrencesAdded": 18,
+  "newlyScreened": 18,
+  "newlyUnread": 0,
+  "clinicalRegistryIdsIndependentlyFetched": 14,
+  "scope": "Format, delivery and evidence distinctions, not trial eligibility or human benefit certification.",
+  "negativeEvidence": "2020 primary abstract reports antibody targeting without efficacy; detailed assay figures were not adopted without available full text.",
+  "webDiscovery": [
+    "\"CHK1\" \"antibody-drug conjugate\" payload",
+    "\"checkpoint kinase 1\" \"conjugate\" antibody payload",
+    "\"AZD7762\" antibody conjugate",
+    "\"prexasertib\" antibody conjugate payload"
+  ],
+  "validation": "Validate accepts 22707 entities; typecheck and scoped lint pass; 20 focused graph/tone/coverage tests and 36 Ask tests pass, including unchanged retrieval floors. All 93 proposed owners refreshed in SSR; CHK1 narrative/notes read. Closure deliberately remains exit 2; no stale field/section proof.",
+  "additionalRequirementReview": {
+    "source": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+    "requirementsClosed": 4,
+    "basis": "Previously read teaching sections; explicit fields on existing proposed owners were re-read and hashed. No additional source reading or new medical fact asserted."
+  }
+}

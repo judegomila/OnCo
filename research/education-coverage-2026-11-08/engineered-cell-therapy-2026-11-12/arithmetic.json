@@ -1,0 +1,237 @@
+{
+  "checks": [
+    {
+      "calculation": "0.20 * 100",
+      "actual": 20.0,
+      "expected": 20,
+      "pass": true,
+      "scope": "Fictional blood concentration"
+    },
+    {
+      "calculation": "0.10 * 200",
+      "actual": 20.0,
+      "expected": 20,
+      "pass": true,
+      "scope": "Same matched blood concentration despite fraction change"
+    },
+    {
+      "calculation": "70 + 30",
+      "actual": 100,
+      "expected": 100,
+      "pass": true,
+      "scope": "Fictional accessible-antigen tumour population"
+    },
+    {
+      "calculation": "60 / 200",
+      "actual": 0.3,
+      "expected": 0.3,
+      "pass": true,
+      "scope": "Fictional delivery: viable T-cell parent"
+    },
+    {
+      "calculation": "5 / 100",
+      "actual": 0.05,
+      "expected": 0.05,
+      "pass": true,
+      "scope": "Fictional delivery: non-T parent"
+    },
+    {
+      "calculation": "60 / (60 + 5)",
+      "actual": 0.9230769230769231,
+      "expected": 0.9230769230769231,
+      "pass": true,
+      "scope": "Share of all expressing cells, not intended-cell efficiency"
+    },
+    {
+      "calculation": "250 / 100",
+      "actual": 2.5,
+      "expected": 2.5,
+      "pass": true,
+      "scope": "Viable-cell ratio, not clinical benefit"
+    },
+    {
+      "calculation": "25 - 20",
+      "actual": 5,
+      "expected": 5,
+      "pass": true,
+      "scope": "Fictional tumour-killing percentage-point contrast"
+    },
+    {
+      "calculation": "18 - 2",
+      "actual": 16,
+      "expected": 16,
+      "pass": true,
+      "scope": "Separate healthy-injury percentage-point contrast"
+    },
+    {
+      "calculation": "80 + 20",
+      "actual": 100,
+      "expected": 100,
+      "pass": true,
+      "scope": "Fictional antigen-positive and -negative tumour cells"
+    },
+    {
+      "calculation": "20 + 60 + 10 + 10",
+      "actual": 100,
+      "expected": 100,
+      "pass": true,
+      "scope": "Fictional two-input overlap"
+    },
+    {
+      "calculation": "20 + 60 + 10",
+      "actual": 90,
+      "expected": 90,
+      "pass": true,
+      "scope": "Idealised OR recognition coverage"
+    },
+    {
+      "calculation": "20",
+      "actual": 20,
+      "expected": 20,
+      "pass": true,
+      "scope": "Idealised AND recognition coverage"
+    },
+    {
+      "calculation": "(100 - 5) / 100",
+      "actual": 0.95,
+      "expected": 0.95,
+      "pass": true,
+      "scope": "Sampled-cell reduction, not body-wide clearance"
+    },
+    {
+      "calculation": "60 + 240",
+      "actual": 300,
+      "expected": 300,
+      "pass": true,
+      "scope": "Fictional RNA-positive sampled cells"
+    },
+    {
+      "calculation": "50 + 150",
+      "actual": 200,
+      "expected": 200,
+      "pass": true,
+      "scope": "Fictional surface-CAR-positive sampled cells"
+    },
+    {
+      "calculation": "50 / 100",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true,
+      "scope": "CAR-positive fraction among T cells"
+    },
+    {
+      "calculation": "50 / 200",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true,
+      "scope": "T-cell fraction among CAR-positive cells"
+    },
+    {
+      "calculation": "200 / 1000",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true,
+      "scope": "CAR-positive fraction among all sampled viable cells"
+    },
+    {
+      "calculation": "40 / 100",
+      "actual": 0.4,
+      "expected": 0.4,
+      "pass": true,
+      "scope": "Dual-positive T-cell fraction"
+    },
+    {
+      "calculation": "95 - 90",
+      "actual": 5,
+      "expected": 5,
+      "pass": true,
+      "scope": "Healthy-organoid survival percentage-point contrast"
+    },
+    {
+      "calculation": "120 / 200",
+      "actual": 0.6,
+      "expected": 0.6,
+      "pass": true,
+      "scope": "One selected mouse blood sample, not six-mouse arm"
+    },
+    {
+      "calculation": "(1000 - 300) / 1000",
+      "actual": 0.7,
+      "expected": 0.7,
+      "pass": true,
+      "scope": "Relative tumour-volume difference versus control"
+    },
+    {
+      "calculation": "300 / 100",
+      "actual": 3.0,
+      "expected": 3,
+      "pass": true,
+      "scope": "Volume remains three times baseline"
+    },
+    {
+      "calculation": "(100 - 20) / 100",
+      "actual": 0.8,
+      "expected": 0.8,
+      "pass": true,
+      "scope": "Support-signal reduction after withdrawal"
+    },
+    {
+      "calculation": "90 / 100",
+      "actual": 0.9,
+      "expected": 0.9,
+      "pass": true,
+      "scope": "Tracked cells remain; not a removal result"
+    },
+    {
+      "calculation": "6 / 30",
+      "actual": 0.2,
+      "expected": 0.2,
+      "pass": true,
+      "scope": "Historical gavo response-evaluable analysis"
+    },
+    {
+      "calculation": "6 / 48",
+      "actual": 0.125,
+      "expected": 0.125,
+      "pass": true,
+      "scope": "Same six responses with phase-I intent-to-treat denominator"
+    },
+    {
+      "calculation": "4 / 30",
+      "actual": 0.13333333333333333,
+      "expected": 0.13333333333333333,
+      "pass": true,
+      "scope": "Confirmed responses: about 13.33%, reported as 13%"
+    },
+    {
+      "calculation": "17 + 6 + 2",
+      "actual": 25,
+      "expected": 25,
+      "pass": true,
+      "scope": "Reported CRS grade counts"
+    },
+    {
+      "calculation": "17 + 8",
+      "actual": 25,
+      "expected": 25,
+      "pass": true,
+      "scope": "Reported CRS interventions: tocilizumab versus no anti-cytokine treatment"
+    },
+    {
+      "calculation": "1000 / 100",
+      "actual": 10.0,
+      "expected": 10,
+      "pass": true,
+      "scope": "Logarithmic axis ratio"
+    },
+    {
+      "calculation": "10000 / 1000",
+      "actual": 10.0,
+      "expected": 10,
+      "pass": true,
+      "scope": "Logarithmic axis ratio"
+    }
+  ],
+  "allPass": true,
+  "boundary": "Worked examples are fictional unless explicitly labelled as reported study counts. Arithmetic does not verify a causal effect, safety window, human outcome or unsupplied uncertainty."
+}

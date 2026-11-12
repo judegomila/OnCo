@@ -1,0 +1,361 @@
+{
+  "root": {
+    "graphEntities": 22788,
+    "commands": [
+      {
+        "name": "validate",
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "seconds": 1.79
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exitCode": 0,
+        "seconds": 2.75
+      },
+      {
+        "name": "lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exitCode": 0,
+        "seconds": 28.06
+      },
+      {
+        "name": "full-suite",
+        "command": [
+          "npx",
+          "vitest",
+          "run"
+        ],
+        "exitCode": 0,
+        "seconds": 106.8
+      }
+    ],
+    "fullSuiteFiles": 284,
+    "fullSuiteTests": 2829,
+    "existingSkippedTests": 2,
+    "lintErrors": 0,
+    "existingLintWarnings": 8
+  },
+  "peer": {
+    "graphEntities": 22712,
+    "commands": [
+      {
+        "name": "validate",
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "seconds": 1.78
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exitCode": 0,
+        "seconds": 3.01
+      },
+      {
+        "name": "lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exitCode": 0,
+        "seconds": 28.23
+      },
+      {
+        "name": "full-suite",
+        "command": [
+          "npx",
+          "vitest",
+          "run"
+        ],
+        "exitCode": 0,
+        "seconds": 96.31
+      }
+    ],
+    "fullSuiteFiles": 281,
+    "fullSuiteTests": 2813,
+    "existingSkippedTests": 2,
+    "lintErrors": 0,
+    "existingLintWarnings": 7
+  },
+  "doiCache": [
+    {
+      "side": "root",
+      "sourceDatesPreserved": true,
+      "positiveEntries": [
+        {
+          "doi": "10.1007/978-1-4939-8861-7_4",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "BH3 Profiling: A Functional Assay to Measure Apoptotic Priming and Dependencies."
+        },
+        {
+          "doi": "10.1007/s00262-026-04349-4",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "A novel humanized immune stroma PDX cancer model for therapeutic studies."
+        },
+        {
+          "doi": "10.1016/j.cell.2015.01.042",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Drug-induced death signaling strategy rapidly predicts cancer response to chemotherapy."
+        },
+        {
+          "doi": "10.1016/j.cell.2017.11.010",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity."
+        },
+        {
+          "doi": "10.1016/j.celrep.2017.09.043",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Human Organ Chip Models Recapitulate Orthotopic Lung Cancer Growth, Therapeutic Responses, and Tumor Dormancy In Vitro."
+        },
+        {
+          "doi": "10.1016/j.immuni.2009.09.025",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "T cell allorecognition via molecular mimicry."
+        },
+        {
+          "doi": "10.1016/j.ymeth.2013.04.006",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "BH3 profiling in whole cells by fluorimeter or FACS."
+        },
+        {
+          "doi": "10.1038/bjc.2016.49",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "BH3 profiling and a toolkit of BH3-mimetic drugs predict anti-apoptotic dependence of cancer cells."
+        },
+        {
+          "doi": "10.1038/s41420-023-01334-z",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "A microfluidic-based PDAC organoid system reveals the impact of hypoxia in response to treatment."
+        },
+        {
+          "doi": "10.1038/s41551-019-0363-x",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "A bioprinted human-glioblastoma-on-a-chip for the identification of patient-specific responses to chemoradiotherapy."
+        },
+        {
+          "doi": "10.1038/s41586-019-1064-z",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Genetic compensation triggered by mutant mRNA degradation."
+        },
+        {
+          "doi": "10.1038/s41591-021-01398-3",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "An ex vivo tumor fragment platform to dissect response to PD-1 blockade in cancer."
+        },
+        {
+          "doi": "10.1038/s41598-022-08937-z",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Impact of baseline culture conditions of cancer organoids when determining therapeutic response and tumor heterogeneity."
+        },
+        {
+          "doi": "10.1038/s42003-022-04025-0",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Live slow-frozen human tumor tissues viable for 2D, 3D, ex vivo cultures and single-cell RNAseq."
+        },
+        {
+          "doi": "10.1053/j.gastro.2024.05.032",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Organoids for Functional Precision Medicine in Advanced Pancreatic Cancer."
+        },
+        {
+          "doi": "10.1073/pnas.1521342113",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Three-dimensional bioprinting of thick vascularized tissues."
+        },
+        {
+          "doi": "10.1172/jci45817",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors."
+        },
+        {
+          "doi": "10.1186/s13046-023-02853-4",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Implementing patient derived organoids in functional precision medicine for patients with advanced colorectal cancer."
+        },
+        {
+          "doi": "10.1186/s13059-017-1237-8",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "CRISPR/Cas9-mediated genome editing induces exon skipping by alternative splicing or exon deletion."
+        },
+        {
+          "doi": "10.1186/s13059-021-02540-7",
+          "before": null,
+          "after": 1,
+          "verifiedIdentityTitle": "Chronos: a cell population dynamics model of CRISPR experiments that improves inference of gene fitness effects."
+        }
+      ]
+    },
+    {
+      "side": "peer",
+      "sourceDatesPreserved": true,
+      "positiveEntries": []
+    }
+  ],
+  "schematics": {
+    "method": "Three new static data schematics in existing Wireframe3D consumer; actual headless Chrome desktop/light and mobile/light/dark views inspected. No geometry or trace has measured values.",
+    "checks": [
+      {
+        "theme": "light",
+        "width": 1200,
+        "height": 350,
+        "errors": [],
+        "canvases": [
+          {
+            "width": 590,
+            "height": 450,
+            "cssWidth": 393,
+            "labels": [
+              "Extrusion example",
+              "Cells in bioink",
+              "Printed layers"
+            ]
+          },
+          {
+            "width": 590,
+            "height": 450,
+            "cssWidth": 393,
+            "labels": [
+              "Native tissue pieces",
+              "Control and treatment wells",
+              "Exposure"
+            ]
+          },
+          {
+            "width": 590,
+            "height": 450,
+            "cssWidth": 393,
+            "labels": [
+              "Suspended microchannel",
+              "Cell in fluid",
+              "Buoyant mass signal"
+            ]
+          }
+        ]
+      },
+      {
+        "theme": "dark",
+        "width": 390,
+        "height": 1040,
+        "errors": [],
+        "canvases": [
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Extrusion example",
+              "Cells in bioink",
+              "Printed layers"
+            ]
+          },
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Native tissue pieces",
+              "Control and treatment wells",
+              "Exposure"
+            ]
+          },
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Suspended microchannel",
+              "Cell in fluid",
+              "Buoyant mass signal"
+            ]
+          }
+        ]
+      },
+      {
+        "theme": "light",
+        "width": 390,
+        "height": 1040,
+        "errors": [],
+        "canvases": [
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Extrusion example",
+              "Cells in bioink",
+              "Printed layers"
+            ]
+          },
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Native tissue pieces",
+              "Control and treatment wells",
+              "Exposure"
+            ]
+          },
+          {
+            "width": 585,
+            "height": 450,
+            "cssWidth": 390,
+            "labels": [
+              "Suspended microchannel",
+              "Cell in fluid",
+              "Buoyant mass signal"
+            ]
+          }
+        ]
+      }
+    ],
+    "changes": "Extrusion example; native fragments in control/treatment wells; suspended microchannel buoyant mass. All three pass the existing specific-schematic floor."
+  },
+  "limits": [
+    "No new Next production page build",
+    "No deployed-page or full-site hydration certification",
+    "No expert or new named-language sign-off",
+    "No main merge or deployment"
+  ]
+}

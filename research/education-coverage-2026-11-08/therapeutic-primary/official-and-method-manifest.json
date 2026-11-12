@@ -1,0 +1,101 @@
+[
+  {
+    "id": "fda-adc-pharmacology",
+    "url": "https://www.fda.gov/media/155997/download",
+    "retrievedAt": "2026-11-09T01:00:37.815734+00:00",
+    "status": 200,
+    "bytes": 328416,
+    "sha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Background/definitions, dose and exposure-response, bioanalytical sections; scope is cytotoxic small-molecule ADCs, recommendations rather than a universal requirement.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "fda-radiopharmaceutical",
+    "url": "https://www.fda.gov/media/129547/download",
+    "retrievedAt": "2026-11-09T01:00:38.033768+00:00",
+    "status": 200,
+    "bytes": 171528,
+    "sha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Scope, targeting vector versus organ-seeking products, biodistribution/daughter considerations; nonclinical development, not a clinical dosing protocol.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "fda-q6b",
+    "url": "https://www.fda.gov/media/71510/download",
+    "retrievedAt": "2026-11-09T01:08:27.792216+00:00",
+    "status": 200,
+    "bytes": 55297,
+    "sha256": "01db1f979d47a395ddff4322edd6ae9364882528ae2bfc3cc4f05a594101e453",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Characterization, structural heterogeneity, biological activity and quantity distinctions; not stand-alone clinical efficacy.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "nci-monoclonal",
+    "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+    "retrievedAt": "2026-11-09T01:08:27.941933+00:00",
+    "status": 200,
+    "bytes": 49358,
+    "sha256": "f4c8ab37554869c3bbd8480161043460493c3c246b858ce47e5e94bdfd887335",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Specific recognition, distinct antibody-mediated immune actions and product-dependent adverse effects.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "epa-radiation",
+    "url": "https://www.epa.gov/radiation/radiation-terms-and-units",
+    "retrievedAt": "2026-11-09T01:02:32.712098+00:00",
+    "status": 200,
+    "bytes": 73577,
+    "sha256": "c7d13afa7dc3013a82aa91c02fb7ecb2fb34cb10511fb4894d72e6632af8f71a",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Activity in becquerels and absorbed energy per mass in gray; not a patient dose limit.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "mird-xml",
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC5680544/unicode",
+    "retrievedAt": "2026-11-09T01:04:39.865412+00:00",
+    "status": 200,
+    "bytes": 203991,
+    "sha256": "9f8f7bccb82f57caa2bdacbe0ef1f55139b614e3e778f6ae160800e0c1279d92",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Targeted particle-path, cellular-distribution and dosimetry sections read; no clinical alpha-versus-beta ranking.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "padcev-label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed&type=display",
+    "retrievedAt": "2026-11-09T01:32:48.669291+00:00",
+    "status": 200,
+    "bytes": 300878,
+    "sha256": "bccdf6097e419200d78dee2b1cdd7212919e172e6ea0807004cfeedb39d689a7",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Section 11 identifies the microtubule-disrupting MMAE cargo; only the payload-class correction is used, not current treatment recommendations.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "rituxan-hycela-label",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=3e5b7e82-f018-4eaf-ae78-d6145a906b20",
+    "retrievedAt": "2026-11-09T01:32:48.451017+00:00",
+    "status": 200,
+    "bytes": 177557,
+    "sha256": "d4de165b2c66c1a87f862815d7df1e6bf088141f051bcb63625139bad719c912",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Product description identifies chimeric murine/human antibody and subcutaneous route. This corrects universal humanized/fully-human and IV-only class restrictions; no dosing recommendation is given.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  },
+  {
+    "id": "bexxar-monograph",
+    "url": "https://pdf.hres.ca/dpd_pm/00020147.PDF",
+    "retrievedAt": "2026-11-09T01:32:48.719122+00:00",
+    "status": 200,
+    "bytes": 673782,
+    "sha256": "60c3dc3f45d0e9a57dfb0aabd4d94193e09597914fb9e8b75362ce6cec7fe18b",
+    "review": "scoped raw content checked",
+    "verifiedScope": "Historical 2013 Canadian monograph, composition section: covalent oxidative radioiodination rather than a universal chelator. No present approval or access claim.",
+    "rawRetention": "outside checkout; source bytes not copied"
+  }
+]

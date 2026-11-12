@@ -1,0 +1,234 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "identitiesResolved": [
+    {
+      "id": "PMID 32245699",
+      "title": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer",
+      "venue": "Ann Oncol 2020",
+      "doi": "10.1016/j.annonc.2020.02.008",
+      "pmcid": "PMC7946408",
+      "evidenceKind": "primary cohort",
+      "readingDepth": "abstract (full 2217 chars) read",
+      "citedByAssets": "10,11",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMC5961353 / PMID 29635390",
+      "title": "RAD51 foci as a functional biomarker of HRR and PARP inhibitor resistance in gBRCA breast cancer (Cruz)",
+      "venue": "Ann Oncol 2018",
+      "doi": "10.1093/annonc/mdy099",
+      "pmcid": "PMC5961353",
+      "evidenceKind": "primary PDX + retrospective patient samples",
+      "readingDepth": "abstract read; Europe PMC full text fetched (92 kB) and Introduction sentence on scar persistence read raw",
+      "citedByAssets": "10,11",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 28288110",
+      "title": "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures",
+      "venue": "Nat Med 2017",
+      "doi": "10.1038/nm.4292",
+      "pmcid": "PMC5833945",
+      "evidenceKind": "primary classifier study",
+      "readingDepth": "abstract read; full text not retrievable (150-byte stub)",
+      "citedByAssets": "11",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 31908301",
+      "title": "Characterisation and classification of oligometastatic disease: ESTRO and EORTC consensus recommendation",
+      "venue": "Lancet Oncol 2020",
+      "doi": "10.1016/s1470-2045(19)30718-1",
+      "pmcid": "-",
+      "evidenceKind": "consensus statement (not a primary study)",
+      "readingDepth": "abstract (2658 chars) read",
+      "citedByAssets": "15",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 32388150 (repub.eur.nl/pub/130575)",
+      "title": "Defining oligometastatic disease from a radiation oncology perspective: an ESTRO-ASTRO consensus document (Lievens)",
+      "venue": "Radiother Oncol 2020;148:157-166",
+      "doi": "10.1016/j.radonc.2020.04.003",
+      "pmcid": "-",
+      "evidenceKind": "consensus statement (not a primary study); DIFFERENT paper from 31908301",
+      "readingDepth": "PDF fetched (22 pp, sha256 e759cade...); title page and passages on number of metastases, induced OMD, oligoprogression read; not whole",
+      "citedByAssets": "15",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 35643253",
+      "title": "SABR-COMET: extended long-term outcomes",
+      "venue": "IJROBP 2022",
+      "doi": "10.1016/j.ijrobp.2022.05.004",
+      "pmcid": "-",
+      "evidenceKind": "primary randomized phase II",
+      "readingDepth": "abstract read",
+      "citedByAssets": "15",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 42842849",
+      "title": "NRG-BR002: randomized phase II/III metastasis-directed ablation, oligometastatic breast cancer",
+      "venue": "J Clin Oncol 2026",
+      "doi": "10.1200/jco-26-00201",
+      "pmcid": "-",
+      "evidenceKind": "primary randomized phase II/III",
+      "readingDepth": "abstract read (2177 chars); resolves, not a recalled id",
+      "citedByAssets": "15",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 22359359",
+      "title": "Incidence of brain metastases as a first site of recurrence among women with TNBC (Dawood)",
+      "venue": "Cancer 2012",
+      "doi": "10.1002/cncr.27434",
+      "pmcid": "PMC3910255",
+      "evidenceKind": "primary retrospective cohort",
+      "readingDepth": "abstract read",
+      "citedByAssets": "18",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 28301662",
+      "title": "Brain metastases in newly diagnosed breast cancer: population-based study (Martin)",
+      "venue": "JAMA Oncol 2017",
+      "doi": "10.1001/jamaoncol.2017.0001",
+      "pmcid": "PMC5824221",
+      "evidenceKind": "primary SEER cohort",
+      "readingDepth": "abstract read",
+      "citedByAssets": "18",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 20829328",
+      "title": "Heterogeneous blood-tumor barrier permeability determines drug efficacy in experimental brain metastases (Lockman)",
+      "venue": "Clin Cancer Res 2010",
+      "doi": "10.1158/1078-0432.ccr-10-1564",
+      "pmcid": "PMC2999649",
+      "evidenceKind": "primary preclinical",
+      "readingDepth": "abstract read",
+      "citedByAssets": "18",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMC2835546 / PMID 18833576",
+      "title": "Sites of distant recurrence and clinical outcomes in patients with metastatic TNBC: high incidence of CNS metastases (Lin)",
+      "venue": "Cancer 2008",
+      "doi": "10.1002/cncr.23930",
+      "pmcid": "PMC2835546",
+      "evidenceKind": "primary retrospective cohort",
+      "readingDepth": "identity only (title/year/pmid/doi); not re-read",
+      "citedByAssets": "18",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 23260325",
+      "title": "Neural crest transcription factor Sox10 is preferentially expressed in triple-negative and metaplastic breast carcinomas",
+      "venue": "Hum Pathol 2013",
+      "doi": "10.1016/j.humpath.2012.09.005",
+      "pmcid": "PMC3978178",
+      "evidenceKind": "primary tissue-microarray study",
+      "readingDepth": "abstract read",
+      "citedByAssets": "23",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 36030639",
+      "title": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients",
+      "venue": "Pathol Res Pract 2022",
+      "doi": "10.1016/j.prp.2022.154070",
+      "pmcid": "-",
+      "evidenceKind": "practice SURVEY (70 pathologists), not an outcomes study",
+      "readingDepth": "abstract read",
+      "citedByAssets": "31",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    },
+    {
+      "id": "PMID 33953240",
+      "title": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer",
+      "venue": "Sci Rep 2021",
+      "doi": "10.1038/s41598-021-88716-4",
+      "pmcid": "PMC8099896",
+      "evidenceKind": "primary single-centre cohort (402 patients)",
+      "readingDepth": "abstract read",
+      "citedByAssets": "31",
+      "claimSupportEstablished": "separate: see record-changes/remaining-gaps; identity resolved from Europe PMC REST, not from memory"
+    }
+  ],
+  "officialDocuments": [
+    {
+      "source": "CAP Breast.Bmk 1.6.2.0 (Sept 2026) PDF",
+      "readingDepth": "fetched HTTP 200, 422,411 bytes, sha256 0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691; pdftotext; HER2 IHC 0/0+/1+/2+/3+ block (printed p5-6), Summary of Changes, Note C passages read",
+      "assets": "21,20",
+      "claimSupportEstablished": "passage-level observations only; no claim-verification credit"
+    },
+    {
+      "source": "CAP Breast.Invasive.Res 4.11.0.0 (June 2026) PDF",
+      "readingDepth": "fetched HTTP 200, 637,105 bytes, sha256 50b25425f5a99112afca8ee449cdc3e4149547c7c721310d05fd722a3e884c97; nodal category block (ITC/pN1mi/pN1a), ENE reporting and measurement note read; not all 43 pages",
+      "assets": "1,4,7,30,31",
+      "claimSupportEstablished": "passage-level observations only; no claim-verification credit"
+    },
+    {
+      "source": "NCI lumpectomy and mastectomy pages",
+      "readingDepth": "fetched HTTP 200 raw HTML; wording on skin-/nipple-sparing, partial mastectomy, radical/chest-wall present; page text not otherwise assessed",
+      "assets": "33",
+      "claimSupportEstablished": "passage-level observations only; no claim-verification credit"
+    },
+    {
+      "source": "NCI metastatic-cancer page",
+      "readingDepth": "HTTP 200 reached; not read by me",
+      "assets": "18",
+      "claimSupportEstablished": "passage-level observations only; no claim-verification credit"
+    }
+  ],
+  "identityFindings": [
+    "Two different oligometastatic consensus documents are carried in 15 (ESTRO-ASTRO via repub.eur.nl, PMID 32388150; ESTRO-EORTC, PMID 31908301): one is labelled 'primary full-consensus PDF'; neither is a primary study (C07).",
+    "36030639 is a survey and 33953240 an observational cohort; leaf 31 labels both primary (C07).",
+    "Source lists in 11 contain five URLs but three distinct papers (32245699=PMC7946408; PMC5961353=29635390=ddd.uab.cat PDF).",
+    "Leaf 10 attributes 'historical scars persist after HRR restoration' to Cruz 2018; raw Cruz text carries it as an Introduction sentence citing Watkins 2014 (Breast Cancer Res 16:211), a review not resolved here.",
+    "Leaf 23's benign-myoepithelial statement is the abstract's background, not a result of 23260325."
+  ],
+  "primaryEvidenceObservedForRetainedEscalations": [
+    {
+      "esc": "E02",
+      "observation": "CAP 1.6.2.0 raw: 0 = no membrane staining; 0+ = incomplete faint/barely perceptible <=10% tumor cells; 1+ same pattern >10%; 2+ weak-moderate complete >10%; 3+ complete intense >10% homogeneous contiguous. Matches the SVG text; SVG pixels, integrated-status and eligibility sentences and expert review not done",
+      "closed": false
+    },
+    {
+      "esc": "E04",
+      "observation": "CAP 4.11 raw: micrometastasis >0.2-2 mm; only-micrometastasis sets are pN1mi; macrometastasis-containing 1-3 node set is pN1a. Consistent with SVG cases A/B; ITC counting separately defined",
+      "closed": false
+    },
+    {
+      "esc": "E11",
+      "observation": "CAP 4.11 raw: ENE measurement perpendicular to capsule or otherwise, no evidence for a specific method, reporting extent optional. Consistent with the 'no measurement direction' statement",
+      "closed": false
+    },
+    {
+      "esc": "E07",
+      "observation": "32245699 abstract supports the paired 8-patient reversion/RAD51 statement; scar persistence is only secondary in Cruz; primary lead needed",
+      "closed": false
+    }
+  ]
+}

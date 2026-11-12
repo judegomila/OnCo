@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-11-09",
+  "pagesPerVersion": 14,
+  "sourceVersionEntries": 28,
+  "sections": 328,
+  "exactLineBlocks": 1043,
+  "semanticRequirementsOriginal": 53,
+  "semanticRequirementsLater": 54,
+  "canonicalOwners": 13,
+  "additionalCanonicalOwners": 12,
+  "earlierCanonicalOwnerUpdated": "immunogenic-cell-death",
+  "newOwners": 4,
+  "existingOwnersUpdated": 9,
+  "figurePaths": 22,
+  "figureVersionEntries": 44,
+  "additionalAssetsPerVersion": {
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab": 22,
+    "c96896452386202405c435aa161bc5047919337a": 22
+  },
+  "renderedMermaidMaps": 9,
+  "MermaidInstances": 18,
+  "allCheckedShortSummarySelectors": 117,
+  "additionalConsumerEntries": 117,
+  "unchangedICDSelectorsWithText": 9,
+  "staleShortEntriesRemoved": 72,
+  "namedLanguageReviews": 0,
+  "literatureOccurrencesAdded": 59,
+  "remaining": "All other unread curriculum, supporting assets, literature and earlier residual requirements remain open. Draft representation is not main coverage or deployment."
+}

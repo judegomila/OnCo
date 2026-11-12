@@ -1,0 +1,1416 @@
+{
+  "records": 29,
+  "exactEntityJSON": true,
+  "checks": [
+    {
+      "id": "adc",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 6,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 7,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "functional-drug-testing",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-0",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-0",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-0",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ish-amplified",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ish-amplified",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ish-amplified",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-low-ihc",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-low-ihc",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-low-ihc",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ultralow",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ultralow",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ultralow",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "her2-ultralow",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "hla-a-02-01",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "hla-a-02-01",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "msi-high",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 6,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 7,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 8,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 9,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 10,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 11,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 12,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 13,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 14,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 15,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 16,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 17,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 18,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 19,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 20,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 21,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 22,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "nsclc",
+      "field": "notes",
+      "index": 23,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "organoids",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "organoids",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "organoids",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "organoids",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 6,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 7,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 8,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 9,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 10,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 11,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 12,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 13,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 14,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "pd-l1-cps",
+      "field": "notes",
+      "index": 15,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tmb-high",
+      "field": "notes",
+      "index": 6,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tubulin",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tubulin",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    }
+  ],
+  "files": [
+    {
+      "file": "adc.json",
+      "bytes": 112591,
+      "sha256": "bdf9cf3901ba04dda185cedaa192ee112ae88d1889dce3d51fdb03fb4d593bc4"
+    },
+    {
+      "file": "adc.md",
+      "bytes": 82422,
+      "sha256": "a36dffeffa4f282013aed459331cb682e39b52aec3dce1e501845bddcdd8093f"
+    },
+    {
+      "file": "alkylating-agent.json",
+      "bytes": 7585,
+      "sha256": "163185d117e9deea21f0762450ab9e3f9982a2865511ad5a3e80be5a15e43b12"
+    },
+    {
+      "file": "alkylating-agent.md",
+      "bytes": 6444,
+      "sha256": "394d41a2a0a804102bcbc0d225cd57f1019bb0e91ce7e23092278e68ad83b17f"
+    },
+    {
+      "file": "anthracycline.json",
+      "bytes": 7849,
+      "sha256": "8095151a185540a7a25ac295a50d75427368ccee3c161542bf03e7a7b113bc9e"
+    },
+    {
+      "file": "anthracycline.md",
+      "bytes": 6529,
+      "sha256": "70b26a67ef58d52fedf335340979724e3f8552fd82fc2c5e697a20396d6894f7"
+    },
+    {
+      "file": "antibody-tumor-penetration.json",
+      "bytes": 7645,
+      "sha256": "03e4c81d1ce6fd11a8cfb0d62b61d034809b6fd35ab0909145a9afa56bc35556"
+    },
+    {
+      "file": "antibody-tumor-penetration.md",
+      "bytes": 7285,
+      "sha256": "a9ca777e6d72ec5be6b2722c68edb632e1f18e3f90323cbb0c511bcfaf8284f9"
+    },
+    {
+      "file": "capecitabine.json",
+      "bytes": 69481,
+      "sha256": "c52bcb0f80c0e1a2d15369f8f787b56fac9adc1b5a560a0a7eaf032bcf8b7d44"
+    },
+    {
+      "file": "capecitabine.md",
+      "bytes": 52891,
+      "sha256": "41cc2371ce1bcd1328d234b079c1460e2166867b1f57756571878c6901ddc5b4"
+    },
+    {
+      "file": "chemotherapy-regimen.json",
+      "bytes": 4143,
+      "sha256": "ba7aa82b9cb7da369be10cb873d149ea293d908a38b8e5cc20c76d7265187414"
+    },
+    {
+      "file": "chemotherapy-regimen.md",
+      "bytes": 3660,
+      "sha256": "2f4aaa33bf9bd6e3ba7e27d4a2d75c4fdf3f55c8b10ea25b43af7177643b54ce"
+    },
+    {
+      "file": "chemotherapy-term.json",
+      "bytes": 8242,
+      "sha256": "3642a06133f17b2f28663c27ce119f91c5192e75e61d275da908d6820d1f8f1b"
+    },
+    {
+      "file": "chemotherapy-term.md",
+      "bytes": 6931,
+      "sha256": "c22c193a907300d1fab035601248efaf29eca3e4a2684771c182d26956dfdbbb"
+    },
+    {
+      "file": "ctdna-mrd-positive.json",
+      "bytes": 22053,
+      "sha256": "219a13e9c19d47d22b0527174ad2e72b577969011a3177553a5d389ad4a59f80"
+    },
+    {
+      "file": "ctdna-mrd-positive.md",
+      "bytes": 14830,
+      "sha256": "9df4165388b14c563a20e87bf9dba4220c13dabc1a3e9f269a591054efdadb30"
+    },
+    {
+      "file": "cytotoxic-chemotherapy.json",
+      "bytes": 228572,
+      "sha256": "2cc96dc98f0e6589c7f5d6a8fdd4371840978dfa9d885f385306fe03d6d75f32"
+    },
+    {
+      "file": "cytotoxic-chemotherapy.md",
+      "bytes": 175023,
+      "sha256": "b5c2523f03c1558d732cde8fcdc4f92d638a39315897eb0f78eea2a79b76e554"
+    },
+    {
+      "file": "dose-dense-chemotherapy.json",
+      "bytes": 7112,
+      "sha256": "71eef02aa12f811f7dde0a7de8a43d1d9a04e2a5679524aa7581567adade1531"
+    },
+    {
+      "file": "dose-dense-chemotherapy.md",
+      "bytes": 6407,
+      "sha256": "8d2164a352de472ee7ddfd21e284148de0177053bcd00b96c7cd319b573523a9"
+    },
+    {
+      "file": "fluorouracil.json",
+      "bytes": 44970,
+      "sha256": "3f79afe419f2d2142bfcac2ba2fd626948d07a93025766be1d30d3b08e211a3d"
+    },
+    {
+      "file": "fluorouracil.md",
+      "bytes": 33775,
+      "sha256": "fedd5de666349e5997e484fc7ffc34fac0b45f533da70a4b219e09a3bb24f9f4"
+    },
+    {
+      "file": "functional-drug-testing.json",
+      "bytes": 18455,
+      "sha256": "8b69bb456acf86db86417f91b5f9ef3463c899083e621873890966bed9525ad9"
+    },
+    {
+      "file": "functional-drug-testing.md",
+      "bytes": 13812,
+      "sha256": "4eb1b997434e102471f6feab648778a45f471d2971e734fe37cc5ae20ee684d0"
+    },
+    {
+      "file": "her2-ihc-0.json",
+      "bytes": 7718,
+      "sha256": "73d9e15d71183665f128d13545cb06fd3b73604ef2265de62c339e823f8e24dd"
+    },
+    {
+      "file": "her2-ihc-0.md",
+      "bytes": 4502,
+      "sha256": "0503a452508655c4cb7c200ea4f509adeb8f0d8bed9d3c1ff5dc3521048b7469"
+    },
+    {
+      "file": "her2-ihc-1-plus.json",
+      "bytes": 7262,
+      "sha256": "76f4ec479602d186903a3dfc106d3053e727da9624f798d6173cec234294bc3d"
+    },
+    {
+      "file": "her2-ihc-1-plus.md",
+      "bytes": 4145,
+      "sha256": "4db591ee6c3674c8d686f0fd5f418bddfbd61d85a094114bd00c9a94344ac349"
+    },
+    {
+      "file": "her2-ihc-2-plus.json",
+      "bytes": 9868,
+      "sha256": "ff84cb17a8712a8693598172b33c15e2610f648e3e874e9553adbca58cc7c748"
+    },
+    {
+      "file": "her2-ihc-2-plus.md",
+      "bytes": 5740,
+      "sha256": "3b10de3e6f497b6420286fd276cffbc5af2bb41624b5b7e9a8e7899d0892fda2"
+    },
+    {
+      "file": "her2-ihc-3-plus.json",
+      "bytes": 19995,
+      "sha256": "f0232aa769ae2476706e49453092412c7163a7f785c6e44b7d4253580a9f4539"
+    },
+    {
+      "file": "her2-ihc-3-plus.md",
+      "bytes": 8373,
+      "sha256": "171c09fcf0daf30a1bc489a88d2d9f3107a5387f03990464d0e89fb24ff2e496"
+    },
+    {
+      "file": "her2-ish-amplified.json",
+      "bytes": 17900,
+      "sha256": "13824cca73f3c9a5aa5758a6cfd10367d15e4fa70be447b7a086892098bab586"
+    },
+    {
+      "file": "her2-ish-amplified.md",
+      "bytes": 8115,
+      "sha256": "7f097562a9f6df5fee08c72c50a65df3947f7f5a6d6d3aaf8491b1983e750fae"
+    },
+    {
+      "file": "her2-low-ihc.json",
+      "bytes": 11133,
+      "sha256": "594b7b4814209323a988672b7480f6a0a86e0b9e3df882f6da3550e5105e3642"
+    },
+    {
+      "file": "her2-low-ihc.md",
+      "bytes": 6634,
+      "sha256": "3f29df9048bd0fd5fcf4a32a0a27968fb4aa71e9af5a966e90db447566b15032"
+    },
+    {
+      "file": "her2-ultralow.json",
+      "bytes": 8540,
+      "sha256": "e5fad8a68f980d4d9e9a8e2bc918d6be20ac157262e94e7937742adb8ece67da"
+    },
+    {
+      "file": "her2-ultralow.md",
+      "bytes": 5155,
+      "sha256": "f4ef789df60fb1584a7c18aae612615b7c381b5e21dfb47e0df4a991a8564247"
+    },
+    {
+      "file": "hla-a-02-01.json",
+      "bytes": 7233,
+      "sha256": "6bb46e6e6752a7f93f60d45300d375ab4faf607444cdade6afdbe03b406dfd5a"
+    },
+    {
+      "file": "hla-a-02-01.md",
+      "bytes": 3072,
+      "sha256": "2678e03d397c368f310e853f1f35de3dbd66bcee7fd64c46b144474c43e2f6f4"
+    },
+    {
+      "file": "msi-high.json",
+      "bytes": 22206,
+      "sha256": "f2e85f12940b6327f7d541a7871842878605228f4cdff707cd1e4e0e5315f715"
+    },
+    {
+      "file": "msi-high.md",
+      "bytes": 12045,
+      "sha256": "7132fe3d6348db8b1d00e1f3cd300282153217bd821028df970cd70b27c48fdb"
+    },
+    {
+      "file": "nsclc.json",
+      "bytes": 413342,
+      "sha256": "2581462218a41866dc4a20b28818e8b7bcc9d0d650a32cfc57bcfff53dbf9689"
+    },
+    {
+      "file": "nsclc.md",
+      "bytes": 301173,
+      "sha256": "0371fcd046a1136ee78480f84f7fd8b716be12fb1a8607e27b4fc783e1e649ca"
+    },
+    {
+      "file": "organoids.json",
+      "bytes": 21152,
+      "sha256": "643ef8edde8acaa48979db36a5459e0f3aff5b30df57da17630800b274d3c679"
+    },
+    {
+      "file": "organoids.md",
+      "bytes": 14958,
+      "sha256": "b18aa3ed4286b11456cb3c0ef234bd4b510e973e135a9ee6d1d05346b043f24a"
+    },
+    {
+      "file": "pd-l1-cps.json",
+      "bytes": 23732,
+      "sha256": "2fd9ff440e540dffee4bdb95b7e6468a0d35c605b8980776f63c5b927f30b5c7"
+    },
+    {
+      "file": "pd-l1-cps.md",
+      "bytes": 12361,
+      "sha256": "cf7958a8fb5d88a79b389cd9734e123762e1137d56b2d4a14fbc822082cec180"
+    },
+    {
+      "file": "platinum.json",
+      "bytes": 93047,
+      "sha256": "56666aa5c85403f3a541d62f11581cd37c7d77c1b8292496d6146654a079bf76"
+    },
+    {
+      "file": "platinum.md",
+      "bytes": 74221,
+      "sha256": "8144f8d43338767c618886822433a7d29a195b43a360c3d068d6910556475efa"
+    },
+    {
+      "file": "taxane.json",
+      "bytes": 6414,
+      "sha256": "267b482fc530d894850226ea828c9925c85a3343192c0baf5dab41f353553aef"
+    },
+    {
+      "file": "taxane.md",
+      "bytes": 5545,
+      "sha256": "83cda8ab7a62fd3caa494f6ebf186be3f5ab9b23ee382ebf5b64b19565940b52"
+    },
+    {
+      "file": "tmb-high.json",
+      "bytes": 17983,
+      "sha256": "fd8740bf84addd556e2979bbc6e2bc648db1cfb9b5e52e953dfe4833db2c916e"
+    },
+    {
+      "file": "tmb-high.md",
+      "bytes": 11950,
+      "sha256": "a45e36bf9630aa35064c7457f8651e9ad4178ba471f1474ab3c664081d60c215"
+    },
+    {
+      "file": "topoisomerase-inhibitors.json",
+      "bytes": 58929,
+      "sha256": "8eb7f126850075361fa928a04f16e53644e750dd8ad4f4285e93168237a7310e"
+    },
+    {
+      "file": "topoisomerase-inhibitors.md",
+      "bytes": 47039,
+      "sha256": "f2fbceee098a077295f677a6a2bcd3f8fb6ef55b4d072f3e7131f9ba3c80577a"
+    },
+    {
+      "file": "tubulin.json",
+      "bytes": 6537,
+      "sha256": "2e5e740f7df2445e5886347eb503d670dffb5aef14acffc260f5dc4188e3e35c"
+    },
+    {
+      "file": "tubulin.md",
+      "bytes": 3504,
+      "sha256": "aaffadf0364e0816905eacd844ad81598de8bf56a3cef933fb3561f3356df1eb"
+    }
+  ],
+  "openApiHasPathsAndComponents": true,
+  "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+}

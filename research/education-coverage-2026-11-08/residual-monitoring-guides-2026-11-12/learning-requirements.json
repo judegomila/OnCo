@@ -1,0 +1,3206 @@
+{
+  "dataCommit": "2de4cac995426bdca7c9555b221838b3335f41ff",
+  "sourceRows": 105,
+  "originalSubstantive": 78,
+  "laterSubstantive": 86,
+  "uniqueSubstantive": 86,
+  "derivedOverviewChecksPerPin": 3,
+  "nonCreditRows": 16,
+  "originalRepresentationPoints": 81,
+  "laterRepresentationPoints": 89,
+  "coveredOriginal": 80,
+  "coveredLater": 88,
+  "partialOriginal": 1,
+  "partialLater": 1,
+  "scope": "Derived overview checks add no independent science credit. The final-draw denominator remains partial at both pins. Original relocation and later-only teaching are retained.",
+  "initialFreeze": {
+    "frozenAtUtc": "2026-11-12T12:47:13.406748+00:00",
+    "headBeforeFreshOwnerInspection": "058575fbc7aa103a838ec5abb81944e4cce35177",
+    "sourceVersions": 8,
+    "inventorySha256": "d5e6a24676e9d5a4982ea7878bea7b4485b3946efc560197eb5a06a19831a93f",
+    "rows": 105,
+    "substantive": 86,
+    "derivedOverview": 3,
+    "perPhaseSubstantive": {
+      "original": 78,
+      "later": 86
+    },
+    "freshCanonicalFieldsInspected": false,
+    "relocation": "The original imaging chapter retains its molecular-profiling path; the later version has a guide path. Neither version disappears."
+  },
+  "rows": [
+    {
+      "id": "B-001",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A finite blood tube is not a survey of every tumour cell; retain specimen and input qualifications.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Read the address on the envelope",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "3f646b0189e3e29088df5a8f6d752c575e01534642489aee1d3fbba6466bbbc6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "3f646b0189e3e29088df5a8f6d752c575e01534642489aee1d3fbba6466bbbc6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-002",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Define post-treatment molecular residual disease as an assay-defined signal; detection alone neither locates disease nor selects an effective intervention.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Read the address on the envelope",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "3f646b0189e3e29088df5a8f6d752c575e01534642489aee1d3fbba6466bbbc6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "3f646b0189e3e29088df5a8f6d752c575e01534642489aee1d3fbba6466bbbc6"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-003",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Keep collection and report dates separate and relate collection to treatment or surgery; reports released together may represent different moments.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Read the address on the envelope",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "d2f50c09141bd24a949911e6a16c515addf010cde2238014e84fd1a2ba1b1a09"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "d2f50c09141bd24a949911e6a16c515addf010cde2238014e84fd1a2ba1b1a09"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-004",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Liquid biopsy is a specimen approach with different or combined methods; distinguish selected-known-feature monitoring, reference-free signal detection and plasma profiling.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Read the address on the envelope",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "8dabb2161f909d17ade7df9498729c694d76ce41d06af39ffb80c001cbb273d9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "8d2a8aac25d1ec4d70f68acee8c7cc09b6c1d61fe13dd08173743a34a8936029"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-005",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A fixed reference-informed target list does not promise discovery outside that list.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "f6c60a5c07a376d8d1797155c117adc09a1131e5616abe781b8b37855a56f19b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-006",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A reference-free qualifying signal does not promise a complete mutation profile.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "971adf1f9a909400a5ff23e55cbcc1579ca7667d1688c7f4fa53d463abfa1034"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-007",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A plasma profiling alteration list does not promise a dedicated low-level monitoring sensitivity.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "55e1f276274f92c5333db7befccd01d626f5d23b0d5bf1ca6f91380a8d3ecd5f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-008",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Fragment and methylation patterns need not be mutation lists; captured circulating tumour cells are distinct objects from cell-free fragments.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Read the address on the envelope",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "3311ebd29263e185b1a00317ebad994ec811c724b029a66577ba26019265a687"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Read the address on the envelope",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "3311ebd29263e185b1a00317ebad994ec811c724b029a66577ba26019265a687"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-009",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: record collection date and treatment/surgery setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "359a20dfeb6060d6e3ea7d0221779be7f5974d292cdff80c215d4ac04a060d9d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "359a20dfeb6060d6e3ea7d0221779be7f5974d292cdff80c215d4ac04a060d9d"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-010",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: retain assay and version, with target scope and validation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "a8854eed53e3253f645c101a5f6a4c9c6d9a468e7ec39b7292f9a4b040523ce0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "a8854eed53e3253f645c101a5f6a4c9c6d9a468e7ec39b7292f9a4b040523ce0"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-011",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: retain sample qualification and relevant input; a suitable negative differs from an uninformative specimen.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "e8163b68bc5c14b137f7887273c3ebf5601c84a7146ae70a940492bd9fdfc190"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "e8163b68bc5c14b137f7887273c3ebf5601c84a7146ae70a940492bd9fdfc190"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-012",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: distinguish detected, not detected, indeterminate and failed calls.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "d7c5a4087693b4ae07e9ef1a6ce78c01ebec28c3c5722983f454a05c0e425fe7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "d7c5a4087693b4ae07e9ef1a6ce78c01ebec28c3c5722983f454a05c0e425fe7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-013",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: retain quantity, units and numerical qualifications instead of comparing unlike scales.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "251b1637ea535d39031d53560882dc8663b47abbcc853d39ee27415169729f93"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "251b1637ea535d39031d53560882dc8663b47abbcc853d39ee27415169729f93"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-014",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Result ledger: retain applicable detection or quantitation criteria beside the numerical result.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "35837c6f12f51a1b157c752fb587024018a9fa6efaade361e345d8a81598cf30"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "35837c6f12f51a1b157c752fb587024018a9fa6efaade361e345d8a81598cf30"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-015",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Invalid or failed samples are not negative; blank, detection and quantitation limits answer different analytical questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "644dd6f3a22ae8f5265f3283df52a47e91351deba884d9eebef8dfc384827136"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "644dd6f3a22ae8f5265f3283df52a47e91351deba884d9eebef8dfc384827136"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-016",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Detection below a reliable quantitation range supports presence more strongly than an exact fold change; retain the report qualification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "644dd6f3a22ae8f5265f3283df52a47e91351deba884d9eebef8dfc384827136"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "644dd6f3a22ae8f5265f3283df52a47e91351deba884d9eebef8dfc384827136"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-017",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Acquired clonal blood-cell mutations can contribute plasma DNA; check tumour-versus-blood origin with method-specific white-cell sensitivity and coverage, without calling it a perfect certificate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "de2a9d3ae7d118cd861c748aa5f9b396bdf7a63c25731dba850a96c6f50ae70c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "fcd3b95479fa65611da2c36ef3fc5191b0f126664cdae3b6a53a58747a8d0cf7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-018",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Assess the TP53 tumour-frequency and therapy-selected blood-clone statements at their primary cohort and method scope.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Build a small result ledger",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "de2a9d3ae7d118cd861c748aa5f9b396bdf7a63c25731dba850a96c6f50ae70c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "fcd3b95479fa65611da2c36ef3fc5191b0f126664cdae3b6a53a58747a8d0cf7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-019",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A new tumour alteration may reflect evolution rather than noise, while a fixed earlier target list can miss it.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Build a small result ledger",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "2c1775360475109c2bfd1edc2e904373b88682c23a793f0f339605506fd872d4"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-020",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Carry the entire fictional 6-to-2 PPM sequence: both detected, second below reliable quantitation; a numerical two-thirds fall is not a proven two-thirds volume reduction.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "A worked trend near the limit",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "f4b2d8331ff23b8c3940411239091bc18b721ab615bba0d4750d99c9bff07005"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "A worked trend near the limit",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "f4b2d8331ff23b8c3940411239091bc18b721ab615bba0d4750d99c9bff07005"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-021",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Blood tumour fraction differs from tumour volume; uncertainty, shedding and background cfDNA can change the signal.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "A worked trend near the limit",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "b2b58c8c28fd027d59db5fc0e2a2a677e3291b2d4535102d25b3542c40a97cab"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "A worked trend near the limit",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "b2b58c8c28fd027d59db5fc0e2a2a677e3291b2d4535102d25b3542c40a97cab"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-022",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Do not place molecules per millilitre on a PPM trend without a validated relationship; identical unit labels need not mean identical calibration.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "A worked trend near the limit",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "02269365b01b00373d6f127d5cdc2ba4ce9524659b5aca14b5a55e7aa61e3860"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "A worked trend near the limit",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "2e47a266c32608617ce2ce1bf79e25025b688057a541e2bc7b7436d720ffa03c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-023",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Define VAF through variant-supporting reads among reads covering a position, with a different denominator from plasma concentration or tumour fraction.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "A worked trend near the limit",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "2e47a266c32608617ce2ce1bf79e25025b688057a541e2bc7b7436d720ffa03c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-024",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Keep serial method and input as consistent as possible without removing biological variation; timing another draw belongs to the clinical plan or protocol.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "A worked trend near the limit",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "8222b39bbeeec91761930ba241f364645c545deeabda9306394b55e230eee128"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "A worked trend near the limit",
+          "lineStart": 77,
+          "lineEnd": 77,
+          "passageSha256": "8222b39bbeeec91761930ba241f364645c545deeabda9306394b55e230eee128"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-025",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A negative means no qualifying signal under the sample/method rule, not proof that no cancer cells exist.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What does a negative result say?",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "7160cb691077ceaa8770fc025de5d38bede9c907405bcbb1e0b8ab2a1c9a5f9a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What does a negative result say?",
+          "lineStart": 81,
+          "lineEnd": 81,
+          "passageSha256": "7160cb691077ceaa8770fc025de5d38bede9c907405bcbb1e0b8ab2a1c9a5f9a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-026",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Verify the named 4,500-copy/about-15-ng input and the finite-sampling example at 0.01%; keep genome/allele assumptions explicit and explain multi-target detection without a guarantee.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What does a negative result say?",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "d6793572fb9da19d78c3a77b81d7463f2cf9ab7506cf10e7b15965ec4969394f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What does a negative result say?",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "fd21553f0a7bbd0781baa425d4832c8943c3ee7bbf7098ef5a5c1a8c1b70c45a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-027",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A negative can coexist with absent signal, too few sampled fragments or inadequate representation by tracked features; the single result cannot choose among them.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What does a negative result say?",
+          "lineStart": 77,
+          "lineEnd": 77,
+          "passageSha256": "6915569464087b8bfb37be01a2f496897ee0039a3c2ead2fd67d670d2f776973"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What does a negative result say?",
+          "lineStart": 85,
+          "lineEnd": 85,
+          "passageSha256": "6915569464087b8bfb37be01a2f496897ee0039a3c2ead2fd67d670d2f776973"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-028",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Distinguish analytical sensitivity under specified conditions from clinical detection in a defined population and sampling schedule; a tumour may shed little.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What does a negative result say?",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "b50f4a9b9c27f2aab78bb388424db6cbff9f9b69afcabab94a3fda314bddfa68"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What does a negative result say?",
+          "lineStart": 87,
+          "lineEnd": 87,
+          "passageSha256": "b50f4a9b9c27f2aab78bb388424db6cbff9f9b69afcabab94a3fda314bddfa68"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-029",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Do not interpret total extracted cfDNA yield as tumour burden.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What can go wrong at this step",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "2c6f58bb407b7a916fd51d0a4d1e4a1dee5d5e6c1422502e81d880b17287b105"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What can go wrong at this step",
+          "lineStart": 91,
+          "lineEnd": 91,
+          "passageSha256": "2c6f58bb407b7a916fd51d0a4d1e4a1dee5d5e6c1422502e81d880b17287b105"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-030",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Use collection timing, valid input and matched quantities rather than release order, a failed build or an unlike-unit trend.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "What can go wrong at this step",
+          "lineStart": 84,
+          "lineEnd": 84,
+          "passageSha256": "3f60c55b4abbbe5597a630e28317bbd06e5dcbb09b33824c9eab65b9022107e7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What can go wrong at this step",
+          "lineStart": 92,
+          "lineEnd": 92,
+          "passageSha256": "3f60c55b4abbbe5597a630e28317bbd06e5dcbb09b33824c9eab65b9022107e7"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-031",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A prognostic association does not establish benefit from acting on it.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "What can go wrong at this step",
+          "lineStart": 96,
+          "lineEnd": 96,
+          "passageSha256": "6096c280d81769077e1b6ee0a6ed69d28b157f54d1ea2b191045747989e3c62e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-032",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Retain the discordant-assay exercise: not detected versus low detection does not identify the wrong assay; compare dates, samples, targets, input, controls and criteria.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Try it",
+          "lineStart": 91,
+          "lineEnd": 91,
+          "passageSha256": "b54b9f987cb286c42329270af858bdbf45437a656234d554348a4189387902af"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Try it",
+          "lineStart": 100,
+          "lineEnd": 100,
+          "passageSha256": "b54b9f987cb286c42329270af858bdbf45437a656234d554348a4189387902af"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "B-033",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Explain the dated specimen, qualifying signal, assay/targets and limits on disease census or location in one self-contained reading statement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Explain it back",
+          "lineStart": 99,
+          "lineEnd": 99,
+          "passageSha256": "d3c7247fde79d6a70d618339124ec02ac172d1eff35942409bbda3e8c0708765"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Explain it back",
+          "lineStart": 108,
+          "lineEnd": 108,
+          "passageSha256": "d3c7247fde79d6a70d618339124ec02ac172d1eff35942409bbda3e8c0708765"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-001",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Carry the full-extent two-window image meaning: finite plasma DNA outside cells versus an MRI feature within the examined region, without individual cancer-cell counts or a disease census.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "c0a7f2c02a361bcd6ff9e40aa37f232218dd49fb30117343e36eef9aa80c43e1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "250fecbc008d04806384c3f575fa21b71dde41b908cf4a8e8e33565240d0de19"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-002",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "The camera/stream analogy teaches sampled scope only; tumour shedding is not guaranteed and absent evidence in one window does not erase the other.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "bccd634b6eb608547a41ce8be4bde32dbfc3773a8c20f0e7ec9b38dce84dcb13"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "bccd634b6eb608547a41ce8be4bde32dbfc3773a8c20f0e7ec9b38dce84dcb13"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-003",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Define MRI regional and sequence-dependent features; enhancement depends on contrast/tissue and vascular behaviour rather than a one-to-one viable-cell count.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "2e23e18eefac8db50cf907d88573f8ad5aca868973213cd340b58e3a96a7e59b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "2e23e18eefac8db50cf907d88573f8ad5aca868973213cd340b58e3a96a7e59b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-004",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A breast MRI does not survey every disease site.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "2e23e18eefac8db50cf907d88573f8ad5aca868973213cd340b58e3a96a7e59b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "2e23e18eefac8db50cf907d88573f8ad5aca868973213cd340b58e3a96a7e59b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-005",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Selected blood features may pool more than one source but do not localise origin; low shedding and finite input can miss a tumour.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "19512d3827af46e2a71615e6e92e5498085bcffe39a4a31925db1340a7cb4821"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Two windows onto different evidence",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "19512d3827af46e2a71615e6e92e5498085bcffe39a4a31925db1340a7cb4821"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-006",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Compare draw/exam dates, treatment timing, regions and assay scope before calling concordance or discordance; retain trend uncertainty.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "85320e5d1f6cda530a0a1478816f8c0999653691bf55d6d8a56071bf95a7b17b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "85320e5d1f6cda530a0a1478816f8c0999653691bf55d6d8a56071bf95a7b17b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-007",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Both measures falling supports their recorded directions, not exact cell reduction, pCR or elimination of distant disease.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "12d52327590c4039cf6e3cb479825a312ace176add318f8241d69f577f0bc961"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "12d52327590c4039cf6e3cb479825a312ace176add318f8241d69f577f0bc961"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-008",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A residual image finding with negative blood leaves viability, treatment change and other causes unresolved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "133281524c47bb4049bb6eac1b1d67cbd15dcdc0b536486185b01e5bfb7266b5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "133281524c47bb4049bb6eac1b1d67cbd15dcdc0b536486185b01e5bfb7266b5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-009",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Blood detection with no suspicious regional image establishes neither location, extent nor the best intervention.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "97fd44c3a28b8b9e15fb496f41eefd5b6eb60b1fe0b8ff7a7b1ca17e71bdcb28"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "97fd44c3a28b8b9e15fb496f41eefd5b6eb60b1fe0b8ff7a7b1ca17e71bdcb28"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-010",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Two absent qualifying findings do not establish zero microscopic disease or justify omitting indicated treatment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "d1f6e00b5a1ba076fb66ced4f654234e1ccf3e131f3c00739e26126abeb233b2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "d1f6e00b5a1ba076fb66ced4f654234e1ccf3e131f3c00739e26126abeb233b2"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-011",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "The four-pattern table is an interpretation aid, not an action algorithm; context and clinical review still matter for a new finding.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "7d2e4849b11a79113b5cc07e6865addb61687112bb4b8cb71310c17eada5bfeb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "7d2e4849b11a79113b5cc07e6865addb61687112bb4b8cb71310c17eada5bfeb"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-012",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Distinguish mammography X-rays, ultrasound sound and PET/CT tracer distribution plus anatomy; they are not interchangeable tumour-number measures.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "66eba4f06b927e7a8dc2b2dde6b803e93ddf135107ac574a5bcd7da80e849ce3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "66eba4f06b927e7a8dc2b2dde6b803e93ddf135107ac574a5bcd7da80e849ce3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-013",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A formal response category needs its criteria, comparison timepoint and required disease observations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Align the clocks and questions",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "66eba4f06b927e7a8dc2b2dde6b803e93ddf135107ac574a5bcd7da80e849ce3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Align the clocks and questions",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "66eba4f06b927e7a8dc2b2dde6b803e93ddf135107ac574a5bcd7da80e849ce3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-014",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Carry the full less-enhancement/undetected-blood/residual-invasive-tissue sequence; pathology establishes the described residual disease without a contradiction between sampled measurements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "A worked disagreement",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "4a45e359b56d2f32ad0a3ee7e0283f36cf96f45fe52c7925c7058984b1caef2d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "A worked disagreement",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "4a45e359b56d2f32ad0a3ee7e0283f36cf96f45fe52c7925c7058984b1caef2d"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-015",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Verify NRG-BR005: 36 of 101 with complete clinical/imaging response had cancer at surgery and tumour-bed biopsy detected about half; retain actual study eligibility and uncertainty.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "A worked disagreement",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "fea2036d859e2db67f45928ca6542974a4d17141b5de367c4ce1bed9b7d21033"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-016",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Blood becoming positive while breast imaging has no suspicious finding does not establish distant metastasis; assess assay qualification, origin, timing and clinical evaluation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "A worked disagreement",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "026c3cc47d93e655e17f589f908fffa58654dc3f413ccb520ecaeb17e2de8b50"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "A worked disagreement",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "026c3cc47d93e655e17f589f908fffa58654dc3f413ccb520ecaeb17e2de8b50"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-017",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Verify the 84-person high-risk neoadjuvant I-SPY2 pilot and serial blood/MRI functional tumour volume; define the protocol-specific contrast-based volume.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Read combined studies carefully",
+          "lineStart": 77,
+          "lineEnd": 77,
+          "passageSha256": "4524c3cc3fda116091a38dab9742079aa8ac77aa6b309589043aa6338e7d188b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Read combined studies carefully",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "4524c3cc3fda116091a38dab9742079aa8ac77aa6b309589043aa6338e7d188b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-018",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Correlated/complementary prognostic information is not a universal blood-to-volume conversion or evidence that using the pair changes survival.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Read combined studies carefully",
+          "lineStart": 77,
+          "lineEnd": 77,
+          "passageSha256": "4524c3cc3fda116091a38dab9742079aa8ac77aa6b309589043aa6338e7d188b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Read combined studies carefully",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "4524c3cc3fda116091a38dab9742079aa8ac77aa6b309589043aa6338e7d188b"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-019",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Verify the 2025 larger-cohort ctDNA/RCB evidence at its actual population and design; no negative presurgical draw becomes pCR or validates omission.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Read combined studies carefully",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "3009d71d870534e617b7eb92b4fa3c28679eb26d9e9312a753e05fdffa1ad0a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Read combined studies carefully",
+          "lineStart": 81,
+          "lineEnd": 81,
+          "passageSha256": "3009d71d870534e617b7eb92b4fa3c28679eb26d9e9312a753e05fdffa1ad0a5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-020",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Negative blood does not establish a scan finding as dead tissue.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "What can go wrong at this step",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "8b8e13fcebe98ce25d951a4b28fdf5df6b6cde0a798d2f4ba67f1b10c5b29fa4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "What can go wrong at this step",
+          "lineStart": 85,
+          "lineEnd": 85,
+          "passageSha256": "8b8e13fcebe98ce25d951a4b28fdf5df6b6cde0a798d2f4ba67f1b10c5b29fa4"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-021",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Discordance alone does not establish pseudoprogression.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "What can go wrong at this step",
+          "lineStart": 86,
+          "lineEnd": 86,
+          "passageSha256": "ec2d2314b9852800333d55a5c71978464790b5a322025fd5cae7150519e29b61"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "What can go wrong at this step",
+          "lineStart": 88,
+          "lineEnd": 88,
+          "passageSha256": "ec2d2314b9852800333d55a5c71978464790b5a322025fd5cae7150519e29b61"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-022",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Prognostic information is not proven benefit from a new guided treatment strategy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "What can go wrong at this step",
+          "lineStart": 87,
+          "lineEnd": 87,
+          "passageSha256": "a11d52508cc584cbffbfebab19ac8f9e9b25c2621c6c838e297f1ed88af89c0e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "What can go wrong at this step",
+          "lineStart": 89,
+          "lineEnd": 89,
+          "passageSha256": "a11d52508cc584cbffbfebab19ac8f9e9b25c2621c6c838e297f1ed88af89c0e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-023",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Retain the smaller-lesion/undetected-blood exercise: favourable observations with separate limits do not confirm pCR.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Try it",
+          "lineStart": 91,
+          "lineEnd": 91,
+          "passageSha256": "8c096b00423b6b6f6878a9495f33dc11127543b1bdb78729277a888298b35d00"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Try it",
+          "lineStart": 93,
+          "lineEnd": 93,
+          "passageSha256": "8c096b00423b6b6f6878a9495f33dc11127543b1bdb78729277a888298b35d00"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "I-024",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Explain imaging scope, blood-sample signal and removed-tissue residual disease as three separate questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Explain it back",
+          "lineStart": 99,
+          "lineEnd": 99,
+          "passageSha256": "c2fd788b6a4f534f1965a324b9a5d0e13effc6405ad5a49196d09b5e35125f90"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Explain it back",
+          "lineStart": 101,
+          "lineEnd": 101,
+          "passageSha256": "c2fd788b6a4f534f1965a324b9a5d0e13effc6405ad5a49196d09b5e35125f90"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-001",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "An early signal may be actionable in a validated setting or remain an intervention research question; detection, recurrence association and outcome benefit are separate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1bee559cb30d85a831c3069ec9701f98a8afc2f03d0895022fd5d383d7bfb958"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1bee559cb30d85a831c3069ec9701f98a8afc2f03d0895022fd5d383d7bfb958"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-002",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Analytical signal detection under conditions does not establish disease detection in every person or draw.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "1bf176d9ef094d234e7e978dfdbbdbeea683086364bf4edc3f38eed300f2f28e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "1bf176d9ef094d234e7e978dfdbbdbeea683086364bf4edc3f38eed300f2f28e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-003",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "A clinical association with outcomes does not establish benefit from changing treatment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "66b054b6448acbbf6baeb1d3ec568c0f7e529f329fa967589024711d50d55e72"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "66b054b6448acbbf6baeb1d3ec568c0f7e529f329fa967589024711d50d55e72"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-004",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Clinical localisation/assessment does not itself establish sensitivity to a particular new drug.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "b868868455571b4917554d11ef34c3bc3ec6a2fa40e95e715401792c8067d8ab"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "b868868455571b4917554d11ef34c3bc3ec6a2fa40e95e715401792c8067d8ab"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-005",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "A useful assay-guided intervention needs a defined strategy and comparator; its result does not generalise to every cancer, assay or setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "8bb950d52ad1c0f4ca21ecaff41432113a4bff10e2d1a63dbffc759eb6b6ecfa"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "8bb950d52ad1c0f4ca21ecaff41432113a4bff10e2d1a63dbffc759eb6b6ecfa"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-006",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Evaluate toxicity, quality of life and unnecessary procedures alongside recurrence or survival.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Climb one rung at a time",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "ebcaab6112dd8ccb2158b3ea60bd6d3cba76fde56deb4e3d05598db26a7ec8ab"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Climb one rung at a time",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "ebcaab6112dd8ccb2158b3ea60bd6d3cba76fde56deb4e3d05598db26a7ec8ab"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-007",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Specify population/setting, assay, timing, triggering result, action and supporting strategy evidence in a complete action card.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "e84a8d4274af835d5204e2ea18ee0a009df0eeea5714864953b43425450f4b13"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "e84a8d4274af835d5204e2ea18ee0a009df0eeea5714864953b43425450f4b13"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-008",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Signal confirmation, appropriate evaluation, protocol entry and drug initiation are distinct actions needing distinct evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "960e4e45b1b1c0aaf44a26fba224ad7d3f28e60c79afd1a47d477e81c2b9e489"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "960e4e45b1b1c0aaf44a26fba224ad7d3f28e60c79afd1a47d477e81c2b9e489"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-009",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Good prognosis in treated assay-negative people does not establish safety of omitting their otherwise indicated treatment; omission needs matched evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "40d8c0e89cf39a5f53210a48e1dfb6637fc4ef630448562363b0c2f231f7d63a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Put the proposed action in a sentence",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "40d8c0e89cf39a5f53210a48e1dfb6637fc4ef630448562363b0c2f231f7d63a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-010",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Carry the whole fictional Drug-Q proposal, from postoperative recurrence association to an untested rule to add Drug Q; evidence from another cancer/stage does not test this strategy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "A worked fictional proposal",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "babf8e372389b2f0548a95164c7aaf94235ce4ace90379b4dc07a6cd9785b049"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "A worked fictional proposal",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "babf8e372389b2f0548a95164c7aaf94235ce4ace90379b4dc07a6cd9785b049"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-011",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Before molecular-only intervention, identify confirmation, staging and safety review; radiographically detectable disease changes the question.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "A worked fictional proposal",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "c30ca773b57b5590e672aed82939e6d69dc5bd44fa8406189a90e9098e01452c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "A worked fictional proposal",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "c30ca773b57b5590e672aed82939e6d69dc5bd44fa8406189a90e9098e01452c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-012",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Molecular clearance is not automatically a validated surrogate for recurrence, survival or quality of life; retain comparator and follow-up.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "A worked fictional proposal",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "256af50c94716e9ce30ac171cb55489463ed23c086e86f575756d959734fbe24"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "A worked fictional proposal",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "256af50c94716e9ce30ac171cb55489463ed23c086e86f575756d959734fbe24"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-013",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Verify c-TRAK TN population and denominators: 23 of 32 intervention-allocated people had metastases on staging, five began pembrolizumab and none achieved sustained clearance.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "d0114313fc9eb4ab3013b0b7904e85f3c033c1de373f66ef64f3f512c6890afb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "279857fc458bbc478e7c21c38c447ad0472d4dfc051559d774ae8688a6a074b5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-014",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "The small intervention experience neither establishes survival benefit nor settles later assays/strategies; timing, staging and feasibility belong in the strategy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "d0114313fc9eb4ab3013b0b7904e85f3c033c1de373f66ef64f3f512c6890afb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "279857fc458bbc478e7c21c38c447ad0472d4dfc051559d774ae8688a6a074b5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-015",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Keep routine guideline-based follow-up separate from an experimental ctDNA-guided strategy; no schedule is asserted here.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "279857fc458bbc478e7c21c38c447ad0472d4dfc051559d774ae8688a6a074b5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-016",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Define measured lead time by two detection events in the studied population and sampling schedule, rather than a universal clock.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "c293749a83ddd1d4b250c57242a12aec83737afb99c953c9f2c7adce88bc4209"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "c293749a83ddd1d4b250c57242a12aec83737afb99c953c9f2c7adce88bc4209"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-017",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Earlier detection can lengthen measured survival without delaying death; extra measured lead time is not itself intervention benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "c293749a83ddd1d4b250c57242a12aec83737afb99c953c9f2c7adce88bc4209"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What a prospective trial can teach",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "c293749a83ddd1d4b250c57242a12aec83737afb99c953c9f2c7adce88bc4209"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-018",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Do not convert a prognostic marker to drug-selection evidence or generalise intended use across cancers and assay versions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What can go wrong at this step",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "61066c9e11b5a0f0ffeb998d93fa80644287ed7d6934872c09c40979c92d253a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What can go wrong at this step",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "61066c9e11b5a0f0ffeb998d93fa80644287ed7d6934872c09c40979c92d253a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-019",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Do not infer omission safety from treated negative outcomes or measure benefit only from an earlier detection date.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "What can go wrong at this step",
+          "lineStart": 78,
+          "lineEnd": 78,
+          "passageSha256": "97b1d4ce2ed6d8b286fb0efdb0dda4a23aad2580c2a8dc252b146e2543a91212"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "What can go wrong at this step",
+          "lineStart": 78,
+          "lineEnd": 78,
+          "passageSha256": "97b1d4ce2ed6d8b286fb0efdb0dda4a23aad2580c2a8dc252b146e2543a91212"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-020",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Retain the common-enrolment-point randomised strategy/recurrence-and-harms exercise and compare it to an observational pre-recurrence series, with uncertainty and applicability limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Try it",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "806eead4d77fbdb4e613c16b6047263d0c1a0c4894328537b3a94a042c0394db"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Try it",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "806eead4d77fbdb4e613c16b6047263d0c1a0c4894328537b3a94a042c0394db"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "A-021",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Explain what a qualifying positive signal can show and the patient-outcome/harms evidence needed to say the specified action helps.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Explain it back",
+          "lineStart": 91,
+          "lineEnd": 91,
+          "passageSha256": "b0ddaea03f0632e57c31f904067d0380e9cfe1cef63e8abe378d334167f7050a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Explain it back",
+          "lineStart": 91,
+          "lineEnd": 91,
+          "passageSha256": "b0ddaea03f0632e57c31f904067d0380e9cfe1cef63e8abe378d334167f7050a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "O-001",
+      "lesson": "map",
+      "kind": "derived-overview",
+      "requirement": "Integrate specimen origin, target scope, quantities, imaging/tissue distinction and detection-versus-action evidence without extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "The big ideas",
+          "lineStart": 22,
+          "lineEnd": 29,
+          "passageSha256": "747216b7190b1eed6fffa0fd9ff26497b867a40db2583d696078ae88f5611213"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "The big ideas",
+          "lineStart": 22,
+          "lineEnd": 29,
+          "passageSha256": "5878b508853acc19e60cdd9aa54081951eff456d4dcd9c5548b804fa1d6a8cdd"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "O-002",
+      "lesson": "map",
+      "kind": "derived-overview",
+      "requirement": "The chapter sequence and map support sample-to-report, two-window comparison and matched action evidence; this is derived overview representation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "Lessons",
+          "lineStart": 41,
+          "lineEnd": 48,
+          "passageSha256": "cdb8dd966be9faa74ec3602f09da00f54a637858e9182cd4ed1508ec3b4d2034"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "Lessons",
+          "lineStart": 41,
+          "lineEnd": 48,
+          "passageSha256": "a88528e6a2f525b1d9fd68490bc218c713e75193a46a58db732d82ca4df0d9c3"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "O-003",
+      "lesson": "map",
+      "kind": "derived-overview",
+      "requirement": "The short concept glosses reuse the chapter distinctions; preserve origin, finite sampling and prognostic/predictive/utility boundaries without extra independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "Concepts you will use",
+          "lineStart": 49,
+          "lineEnd": 66,
+          "passageSha256": "092e41c75ae905090560a863b0d56cab095526ba202e682b23bbf3a3e71c8a4c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "Concepts you will use",
+          "lineStart": 49,
+          "lineEnd": 64,
+          "passageSha256": "1846095ed9a148732322f25d8fe977545ff122afc43fefd6c9322e69a78ac019"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-001",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Verify the Annals of Oncology 84-person high-risk mixed-subtype neoadjuvant study, serial sampling and up-to-16-mutation tumour-informed design; keep it distinct from the companion MRI paper.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "d59a492585baee4a60e74f0902fecb7ad5c85168a318d700e8dc84d40e42eacc"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "d59a492585baee4a60e74f0902fecb7ad5c85168a318d700e8dc84d40e42eacc"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-002",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Verify 61 of 84 detected before treatment (73%) and 9% just before surgery, with the actual draw denominators and timing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "00a256fedcc523b7264d7f074412a7faaabd7534809bd392d7258391b60f9420"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "00a256fedcc523b7264d7f074412a7faaabd7534809bd392d7258391b60f9420"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-003",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Verify all 17 pCR cases were ctDNA-negative after chemotherapy, without making that observed proportion a universal sensitivity statement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 74,
+          "lineEnd": 74,
+          "passageSha256": "c2aa9888df40cfb05bc1db6f525543a4f89d3594c2c7480fe7102dcf9853bc20"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "c2aa9888df40cfb05bc1db6f525543a4f89d3594c2c7480fe7102dcf9853bc20"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-004",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Verify the non-pCR positive-versus-negative distant-recurrence HR 10.4, 95% CI 2.3 to 46.6.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "35c2b7282e62baedb44c4f1d56709ed2c6e85f3a7423b518cd2e75fe73fa109e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "35c2b7282e62baedb44c4f1d56709ed2c6e85f3a7423b518cd2e75fe73fa109e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-005",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Verify non-pCR/ctDNA-negative versus pCR HR 1.4, CI 0.15 to 13.5; similar observed outcomes with a very wide interval do not prove equivalence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "cc217d1f2d490c28fb20151133304c964d81212fcb5571083e73566fd6d1dd5f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 74,
+          "lineEnd": 74,
+          "passageSha256": "cc217d1f2d490c28fb20151133304c964d81212fcb5571083e73566fd6d1dd5f"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-006",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "The small mixed-subtype cohort yields prognostic association and uncertain estimates, not benefit from blood-guided treatment; c-TRAK asks an early-TNBC strategy question.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 78,
+          "lineEnd": 78,
+          "passageSha256": "6827c12a3c8c5d8df5bfee9ee6110403976640382597a5de16ec352264cad064"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What one study found after neoadjuvant therapy",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "6827c12a3c8c5d8df5bfee9ee6110403976640382597a5de16ec352264cad064"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-007",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Detection rates vary with assay, sampling and setting; earlier/more frequent detection may introduce uncertain results, anxiety or procedures, so evaluate the whole strategy and harms.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What is still uncertain",
+          "lineStart": 86,
+          "lineEnd": 86,
+          "passageSha256": "abb285e3962e019bad2a09eb5f968a31a5639bcae866abc511ad496017f76994"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What is still uncertain",
+          "lineStart": 84,
+          "lineEnd": 84,
+          "passageSha256": "abb285e3962e019bad2a09eb5f968a31a5639bcae866abc511ad496017f76994"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "S-008",
+      "lesson": "map",
+      "kind": "substantive",
+      "requirement": "Clinical utility or approval in another indication does not settle the early-breast setting; retain disease context and the proposed action.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "What is still uncertain",
+          "lineStart": 88,
+          "lineEnd": 88,
+          "passageSha256": "950cf631a3e0f88d14b29fbb1fe43b42b82607a135068b372128c2cfd3bf6923"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "What is still uncertain",
+          "lineStart": 86,
+          "lineEnd": 86,
+          "passageSha256": "950cf631a3e0f88d14b29fbb1fe43b42b82607a135068b372128c2cfd3bf6923"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M1fr-001",
+      "lesson": "1",
+      "kind": "framing",
+      "requirement": "Learning objectives and prerequisite routing are assessed; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "231882c8a23ec6c0e6235a5bb6afb205f2d55c722f16ed61fda12e8caf39a8fc"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "0644dfa9f85236799965c627481b2f7d99b948bba71ac62ac22901241d945101"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M1ro-001",
+      "lesson": "1",
+      "kind": "routing",
+      "requirement": "The numbered map and companion routing repeat the source sequence; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "202ee1ab72217f575c936c969aaac3bea2bae25d62075c00ab9f000facb9b253"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "5b8e25757765371c64f4146e04a36b0f89bdbbddc1c6e11b9c429fec2555e339"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M1de-001",
+      "lesson": "1",
+      "kind": "derived-recap",
+      "requirement": "The takeaway and next route restate assessed teaching; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Takeaway",
+          "lineStart": 101,
+          "lineEnd": 106,
+          "passageSha256": "5c54be9e2a5163a5d76c9fc1f0c4519bd851a4614f4c189de9947c3fc97d9501"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Takeaway",
+          "lineStart": 110,
+          "lineEnd": 115,
+          "passageSha256": "2f72249d377b838988c257d24a03e4feaa13fa8a286b8f37c5696c71c24de0bc"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M1so-001",
+      "lesson": "1",
+      "kind": "source-scope",
+      "requirement": "Record dated source, fictional-example and interpretation-only scope without source-presence coverage credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+          "heading": "Sources and scope",
+          "lineStart": 107,
+          "lineEnd": 113,
+          "passageSha256": "e55e0d92860a153dbc69b3a345d779bb6e7362fbc47c755d2ec1d410a519ca9d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+          "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+          "heading": "Sources and scope",
+          "lineStart": 116,
+          "lineEnd": 124,
+          "passageSha256": "956bf904dc913d5b2b55670ea5e294c4683ddaed4f6ba2f4a8dc586807ce9203"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M2fr-001",
+      "lesson": "2",
+      "kind": "framing",
+      "requirement": "Learning objectives and prerequisite routing are assessed; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "c6f64a4bbd96c0488f8b63a2c798dfd9a498ef256b01830d51b831ce3fd9fd5e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "c6f64a4bbd96c0488f8b63a2c798dfd9a498ef256b01830d51b831ce3fd9fd5e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M2ro-001",
+      "lesson": "2",
+      "kind": "routing",
+      "requirement": "The numbered map and companion routing repeat the source sequence; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "ba12ee35204eab68cd3def16edcc858c5a11a32493007e2855995916188b74b5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "ba12ee35204eab68cd3def16edcc858c5a11a32493007e2855995916188b74b5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M2de-001",
+      "lesson": "2",
+      "kind": "derived-recap",
+      "requirement": "The takeaway and next route restate assessed teaching; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Takeaway",
+          "lineStart": 101,
+          "lineEnd": 106,
+          "passageSha256": "ea6a04b3dfeba15a44c887b0868df56ae65b5025974e77436a1fef10abcff4dd"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Takeaway",
+          "lineStart": 103,
+          "lineEnd": 108,
+          "passageSha256": "ea6a04b3dfeba15a44c887b0868df56ae65b5025974e77436a1fef10abcff4dd"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M2so-001",
+      "lesson": "2",
+      "kind": "source-scope",
+      "requirement": "Record dated source, fictional-example and interpretation-only scope without source-presence coverage credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+          "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+          "heading": "Sources and scope",
+          "lineStart": 107,
+          "lineEnd": 113,
+          "passageSha256": "0926051d7d0556ba48b10653704839b8f4c2abc81f82bd95b61ad31ff3858de5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+          "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+          "heading": "Sources and scope",
+          "lineStart": 109,
+          "lineEnd": 116,
+          "passageSha256": "91b507d6317e6a68900eb765810083a09cecd2d53ba2270f0cff2437993bbbd8"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M3fr-001",
+      "lesson": "3",
+      "kind": "framing",
+      "requirement": "Learning objectives and prerequisite routing are assessed; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "fab45c8ab707ab8479b3476f4f0e0fd3f15606b54e85714cdd3f8d88c46260f5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "preamble",
+          "lineStart": 17,
+          "lineEnd": 23,
+          "passageSha256": "fab45c8ab707ab8479b3476f4f0e0fd3f15606b54e85714cdd3f8d88c46260f5"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M3ro-001",
+      "lesson": "3",
+      "kind": "routing",
+      "requirement": "The numbered map and companion routing repeat the source sequence; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "3a872a8df1356000acc83913c7cf8abfef0b5fd435c5f5efec66b8a96821a007"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Where this step sits",
+          "lineStart": 24,
+          "lineEnd": 35,
+          "passageSha256": "3a872a8df1356000acc83913c7cf8abfef0b5fd435c5f5efec66b8a96821a007"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M3de-001",
+      "lesson": "3",
+      "kind": "derived-recap",
+      "requirement": "The takeaway and next route restate assessed teaching; no extra scientific credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Takeaway",
+          "lineStart": 93,
+          "lineEnd": 98,
+          "passageSha256": "31d0f638417a8dce03b4f34d53f10afa7913baff41362a24ec029290d9b5c33e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Takeaway",
+          "lineStart": 93,
+          "lineEnd": 98,
+          "passageSha256": "31d0f638417a8dce03b4f34d53f10afa7913baff41362a24ec029290d9b5c33e"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "M3so-001",
+      "lesson": "3",
+      "kind": "source-scope",
+      "requirement": "Record dated source, fictional-example and interpretation-only scope without source-presence coverage credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+          "heading": "Sources and scope",
+          "lineStart": 99,
+          "lineEnd": 106,
+          "passageSha256": "c8d51bf3cc773165eb45124db04746fc1c3a9b148d79e344000a1a60c004695d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+          "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+          "heading": "Sources and scope",
+          "lineStart": 99,
+          "lineEnd": 106,
+          "passageSha256": "c8d51bf3cc773165eb45124db04746fc1c3a9b148d79e344000a1a60c004695d"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "MF-001",
+      "lesson": "map",
+      "kind": "framing",
+      "requirement": "Purpose and audience framing are assessed without independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "preamble",
+          "lineStart": 15,
+          "lineEnd": 21,
+          "passageSha256": "8068deaf390269a52302f14aa8e77c726720869ccd88f48bb8e595bd0775d39a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "preamble",
+          "lineStart": 15,
+          "lineEnd": 21,
+          "passageSha256": "8068deaf390269a52302f14aa8e77c726720869ccd88f48bb8e595bd0775d39a"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "MF-002",
+      "lesson": "map",
+      "kind": "framing",
+      "requirement": "The diagram repeats the learning sequence without a new scientific claim.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "The map",
+          "lineStart": 30,
+          "lineEnd": 40,
+          "passageSha256": "5e9b83085ace033f5299b6669c17c504d575812e6b504b07604bdb55f4a28d14"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "The map",
+          "lineStart": 30,
+          "lineEnd": 40,
+          "passageSha256": "5e9b83085ace033f5299b6669c17c504d575812e6b504b07604bdb55f4a28d14"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "MX-001",
+      "lesson": "map",
+      "kind": "excluded-personal-context",
+      "requirement": "Personal-context routing is excluded. No private case facts or links adopted.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "lineStart": 80,
+          "lineEnd": 83,
+          "passageSha256": "3d39d4c5c9422d7e23249c493f0c57d7b519acad38931d3a8b0d35c78215de0c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "lineStart": 78,
+          "lineEnd": 81,
+          "passageSha256": "3d39d4c5c9422d7e23249c493f0c57d7b519acad38931d3a8b0d35c78215de0c"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    },
+    {
+      "id": "MS-001",
+      "lesson": "map",
+      "kind": "source-scope",
+      "requirement": "The dated source listing does not itself earn teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+          "heading": "Sources and scope",
+          "lineStart": 90,
+          "lineEnd": 97,
+          "passageSha256": "fb8383ef0ef7d8db82c40e7a604f7ff9c12abb852c839fecf840554431e10893"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+          "heading": "Sources and scope",
+          "lineStart": 88,
+          "lineEnd": 95,
+          "passageSha256": "fb8383ef0ef7d8db82c40e7a604f7ff9c12abb852c839fecf840554431e10893"
+        }
+      ],
+      "disposition": "Frozen from source reading before fresh canonical-field inspection; primary verification and semantic coverage remain pending."
+    }
+  ]
+}

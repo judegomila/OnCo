@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "name": "four-dose-total",
+      "value": 40,
+      "expected": 40,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "short-window-intensity",
+      "value": 10.0,
+      "expected": 10,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "long-window-intensity",
+      "value": 5.0,
+      "expected": 5,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "relative-intensity",
+      "value": 0.5,
+      "expected": 0.5,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "eight-of-ten",
+      "value": 0.8,
+      "expected": 0.8,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "cumulative-600-six",
+      "value": 100.0,
+      "expected": 100,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "cumulative-600-eight",
+      "value": 75.0,
+      "expected": 75,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "cumulative-450-six",
+      "value": 75.0,
+      "expected": 75,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "response-union",
+      "value": 6,
+      "expected": 6,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "uncovered",
+      "value": 4,
+      "expected": 4,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "Bliss",
+      "value": 0.44,
+      "expected": 0.44,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "HSA",
+      "value": 0.3,
+      "expected": 0.3,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "index",
+      "value": 3.0,
+      "expected": 3,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "ANC-first",
+      "value": 400.0,
+      "expected": 400,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "ANC-second",
+      "value": 200.0,
+      "expected": 200,
+      "interpretation": "Fictional or declared arithmetic; no clinical dose, safety threshold or response probability."
+    },
+    {
+      "name": "exponential-hour-0",
+      "value": 100.0,
+      "expected": 100,
+      "interpretation": "Model concentration only; stopped input and constant half-life assumed."
+    },
+    {
+      "name": "exponential-hour-4",
+      "value": 50.0,
+      "expected": 50,
+      "interpretation": "Model concentration only; stopped input and constant half-life assumed."
+    },
+    {
+      "name": "exponential-hour-8",
+      "value": 25.0,
+      "expected": 25,
+      "interpretation": "Model concentration only; stopped input and constant half-life assumed."
+    },
+    {
+      "name": "exponential-hour-12",
+      "value": 12.5,
+      "expected": 12.5,
+      "interpretation": "Model concentration only; stopped input and constant half-life assumed."
+    },
+    {
+      "name": "exposure-area-0-12",
+      "value": 504.9432643111372,
+      "rounded": 505,
+      "units": "ng hour/mL",
+      "interpretation": "Finite-window exposure area, not administered amount or an effect."
+    },
+    {
+      "name": "fictional-useful-toxic-range",
+      "lower": 2.8284271247461903,
+      "upper": 3.4641016151377544,
+      "index": 3,
+      "interpretation": "Hill-power-four constructed curves with invented day-14 useful and toxic endpoints; a range is not the ratio."
+    },
+    {
+      "name": "ovarian-failure-relative-comparison",
+      "failureRatio": 0.36363636363636365,
+      "relativeReduction": 0.6363636363636364,
+      "interpretation": "The named trial failure endpoint; not pregnancy probability, an individual outcome or a comparison against freezing."
+    },
+    {
+      "name": "ovarian-failure-relative-comparison",
+      "failureRatio": 0.34362934362934366,
+      "relativeReduction": 0.6563706563706564,
+      "interpretation": "The named trial failure endpoint; not pregnancy probability, an individual outcome or a comparison against freezing."
+    },
+    {
+      "name": "ovarian-failure-relative-comparison",
+      "failureRatio": 0.4563106796116505,
+      "relativeReduction": 0.5436893203883495,
+      "interpretation": "The named trial failure endpoint; not pregnancy probability, an individual outcome or a comparison against freezing."
+    }
+  ],
+  "allPassed": true,
+  "clinicalExtrapolation": false
+}

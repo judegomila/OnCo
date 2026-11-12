@@ -1,0 +1,496 @@
+{
+  "records": [
+    {
+      "recordId": "investigational-new-drug-application",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: Investigational New Drug application",
+          "capture": "fda-ind",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+          "scope": "Defined investigational use, investigator IND and ordinary calendar-day waiting rule",
+          "rawSha256": "2f1b898489d9e7de703784ba41c7f26cb4662a1ad8c19fc5a83fbc8d32593b39"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "capture": "fda-nda",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+          "scope": "Marketing evidence and labeling review; distinct from IND",
+          "rawSha256": "78d01e88df9f700b2b43f029da2c92cb4aee7cbe7326cc1d2cbc980cd07372d2"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "capture": "fda-bla",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+          "scope": "Biologic marketing request, review and decision; no new product classification inferred",
+          "rawSha256": "b904a526a561814d7e2fb0f85e0407e43462a8f2e6a625a981c4a74d64b2ee14"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "capture": "fda-expanded-qa",
+          "url": "https://www.fda.gov/media/162793/download",
+          "scope": "New IND versus existing-IND protocol; start rules, emergencies, IRB and consent context",
+          "rawSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "investigator-initiated-trials",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "21 CFR 312.3: sponsor and investigator definitions",
+          "capture": "ecfr-312-3",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3",
+          "scope": "raw content not verified; alternative documented",
+          "rawSha256": "ba84133694fe129c1c9ae5f8fe78f9e08bf171ed46255bbf18007a6b48f89e6f"
+        },
+        {
+          "label": "21 CFR 312.2: applicability and exemptions",
+          "capture": "ecfr-312-2",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.2",
+          "scope": "raw content not verified; alternative documented",
+          "rawSha256": "ba84133694fe129c1c9ae5f8fe78f9e08bf171ed46255bbf18007a6b48f89e6f"
+        },
+        {
+          "label": "FDA: IND exemption criteria",
+          "capture": "fda-ind-exemptions",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements",
+          "scope": "All applicable exemption criteria; no academic or marketed-drug blanket exemption",
+          "rawSha256": "9358c9487ea912bdfb6c3ff8346d0b25c77e765b9741e03d0662947caa21fdab"
+        },
+        {
+          "label": "FDA: Investigational New Drug application",
+          "capture": "fda-ind",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+          "scope": "Defined investigational use, investigator IND and ordinary calendar-day waiting rule",
+          "rawSha256": "2f1b898489d9e7de703784ba41c7f26cb4662a1ad8c19fc5a83fbc8d32593b39"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "laboratory-certification-test-authorization",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "capture": "cms-clia",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+          "scope": "Laboratory-quality role and human-specimen testing scope",
+          "rawSha256": "59ddec87ffe815165227a06b555450169abdf1d9164dec54e794ca8029ea02ea"
+        },
+        {
+          "label": "CMS: CLIA analytical oversight and clinical validity (2013 FAQ; historical FDA discussion not used)",
+          "capture": "cms-ldt-faq",
+          "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf",
+          "scope": "Analytical oversight versus clinical validity only; historical FDA-authority discussion excluded",
+          "rawSha256": "26fe7e977995c6a67d9ae95b45797abf75da7a23818b87e08fb5b3ecbd874381"
+        },
+        {
+          "label": "FDA: current laboratory-developed-test rule notice",
+          "capture": "fda-ldt",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+          "scope": "2024 rule, March 2025 vacatur and September 2025 restoration",
+          "rawSha256": "6a0ce8407c2bf5bfbc8a6e66aa3b11d442fb0daaf74dfa779d53ed4fbd2e38ed"
+        },
+        {
+          "label": "FDA: research-use-only and investigational-use-only IVD guidance",
+          "capture": "fda-ruo",
+          "url": "https://www.fda.gov/media/87374/download",
+          "scope": "IVD intended-use and distribution context; not a law for all research models",
+          "rawSha256": "2445fd1d27bfecfe0627be92291eb1b8797bb6e16dd11466cab2338d61a5dccf"
+        },
+        {
+          "label": "FDA: companion diagnostics",
+          "capture": "fda-companion",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+          "scope": "Definition, information roles and group-label explanation",
+          "rawSha256": "97402dfc9b512b143673ca9279f46f6d23032694aaa3c32c3327baf6f64e64ea"
+        },
+        {
+          "label": "FDA: registration and listing do not establish authorization",
+          "capture": "fda-registration",
+          "url": "https://www.fda.gov/medical-devices/device-registration-and-listing/important-reminders-about-registration-and-listing",
+          "scope": "Registration/listing does not establish facility or device authorization",
+          "rawSha256": "f22afbb9eb5244255a89dbbe17fc36dc21e75e7fe52f6337ba1fba56791ee486"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "trial-search-site-verification",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "NCI: steps to find a clinical trial",
+          "capture": "nci-trial-search",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+          "scope": "Search terms, registry details and questions for the team",
+          "rawSha256": "6c19fcab2a08b309b89e27e19371703baa78db9421caafc62529db0d3ae80a34"
+        },
+        {
+          "label": "NCI: what to expect during a clinical trial",
+          "capture": "nci-trial-expect",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect",
+          "scope": "Formal eligibility and participation stages; no blanket safety claim copied",
+          "rawSha256": "36719901a40865fa29f453f0a5de988b96ad0e3b7df5630bc2e9399c9002c538"
+        },
+        {
+          "label": "ClinicalTrials.gov: protocol registration definitions",
+          "capture": "ctgov-definitions",
+          "url": "https://clinicaltrials.gov/policy/protocol-definitions",
+          "scope": "raw content not verified; alternative documented",
+          "rawSha256": "66ba04e716eacfbd0601c980c442969da345a33403ec67c077e993a22710c74a"
+        },
+        {
+          "label": "42 CFR 11.10: overall recruitment and individual-site status",
+          "capture": "govinfo-recruitment-definitions",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf",
+          "scope": "Overall recruitment based on facility statuses; consistent with current registry definitions",
+          "rawSha256": "b616f75e0aee70502a0d41037f19a30ff7a3ac6dcade15e6da1db90a5bb2a2b4"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "companion-diagnostic",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: companion diagnostics",
+          "capture": "fda-companion",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+          "scope": "Definition, information roles and group-label explanation",
+          "rawSha256": "97402dfc9b512b143673ca9279f46f6d23032694aaa3c32c3327baf6f64e64ea"
+        },
+        {
+          "label": "FDA: authorized companion diagnostic devices and intended uses",
+          "capture": "fda-companion-list",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+          "scope": "Device/intended-use list includes imaging; individual product rows not re-audited",
+          "rawSha256": "72ce694d72dac79be121a33b4a574b9dcd3e29224b74fa7d434e3ff684903d3c"
+        },
+        {
+          "label": "FDA: in vitro companion diagnostic devices",
+          "capture": "fda-companion-guidance",
+          "url": "https://www.fda.gov/media/81309/download",
+          "scope": "2014 companion-device guidance; no individual product-performance claim extracted",
+          "rawSha256": "6e0faea4ef128b79628f83c8d70a55d9b50cfd138a0ed0116cb69c6a48b8a3b2"
+        },
+        {
+          "label": "FDA: labeling diagnostics for a group of oncology therapies",
+          "capture": "fda-companion-group-guidance",
+          "url": "https://www.fda.gov/media/120340/download",
+          "scope": "2020 group-label guidance; no universal assay interchangeability inferred",
+          "rawSha256": "b9d7b65fb8c024106d06aaa63ca957e1777fc35a31c97794a5a9a722ae98e702"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "companion-diagnostic-term",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: companion diagnostics",
+          "capture": "fda-companion",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+          "scope": "Definition, information roles and group-label explanation",
+          "rawSha256": "97402dfc9b512b143673ca9279f46f6d23032694aaa3c32c3327baf6f64e64ea"
+        },
+        {
+          "label": "FDA: in vitro companion diagnostic devices",
+          "capture": "fda-companion-guidance",
+          "url": "https://www.fda.gov/media/81309/download",
+          "scope": "2014 companion-device guidance; no individual product-performance claim extracted",
+          "rawSha256": "6e0faea4ef128b79628f83c8d70a55d9b50cfd138a0ed0116cb69c6a48b8a3b2"
+        },
+        {
+          "label": "FDA: authorized companion diagnostic devices and intended uses",
+          "capture": "fda-companion-list",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+          "scope": "Device/intended-use list includes imaging; individual product rows not re-audited",
+          "rawSha256": "72ce694d72dac79be121a33b4a574b9dcd3e29224b74fa7d434e3ff684903d3c"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "label-indication",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "capture": "fda-offlabel",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+          "scope": "Approved product versus unapproved use; evidence and prescribing context",
+          "rawSha256": "ab328a59ec315f391629408af3a8bc93c6011c37b5864d6001778adc585892d5"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "capture": "fda-nda",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+          "scope": "Marketing evidence and labeling review; distinct from IND",
+          "rawSha256": "78d01e88df9f700b2b43f029da2c92cb4aee7cbe7326cc1d2cbc980cd07372d2"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "capture": "fda-bla",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+          "scope": "Biologic marketing request, review and decision; no new product classification inferred",
+          "rawSha256": "b904a526a561814d7e2fb0f85e0407e43462a8f2e6a625a981c4a74d64b2ee14"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "off-label",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "capture": "fda-offlabel",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+          "scope": "Approved product versus unapproved use; evidence and prescribing context",
+          "rawSha256": "ab328a59ec315f391629408af3a8bc93c6011c37b5864d6001778adc585892d5"
+        },
+        {
+          "label": "FDA: expanded access",
+          "capture": "fda-expanded",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+          "scope": "Treatment-use criteria and arrangements outside a clinical trial",
+          "rawSha256": "f3941eb33d292a4c48290614e483459cef74fb1c73e5d86c316dc274950344a9"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "full-approval",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "capture": "fda-expedited-guidance",
+          "url": "https://www.fda.gov/media/86377/download",
+          "scope": "Validated versus reasonably-likely surrogate; traditional versus accelerated approval",
+          "rawSha256": "4f3c166bb4d6dead18a0d15bae514e96dafa6f4ead673aac48b04ff4826645fb"
+        },
+        {
+          "label": "FDA: accelerated approval program",
+          "capture": "fda-accelerated",
+          "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program",
+          "scope": "Required confirmation and applicable conversion/withdrawal process",
+          "rawSha256": "9e19fb162efb01d16480cc07ee71a6daad85a4a75b701e5f52916f6d7ea9e63c"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "fast-track-rmat",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: expedited development and review programs",
+          "capture": "fda-expedited",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+          "scope": "Distinct expedited programs and review goals",
+          "rawSha256": "8170cbfa8ccf2d359a848adc5ea1d8fa49d67c2419612bf7c8dfb66111d3f52b"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "capture": "fda-expedited-guidance",
+          "url": "https://www.fda.gov/media/86377/download",
+          "scope": "Validated versus reasonably-likely surrogate; traditional versus accelerated approval",
+          "rawSha256": "4f3c166bb4d6dead18a0d15bae514e96dafa6f4ead673aac48b04ff4826645fb"
+        },
+        {
+          "label": "FDA: regenerative medicine advanced therapy designation",
+          "capture": "fda-rmat",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-designation",
+          "scope": "Defined eligible products and preliminary-clinical-evidence criteria",
+          "rawSha256": "93250f77864eb1c0f7a1691549948cdf731ccdc6720661f22a6eaa16ec318c59"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "accelerated-approval",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: accelerated approval program",
+          "capture": "fda-accelerated",
+          "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program",
+          "scope": "Required confirmation and applicable conversion/withdrawal process",
+          "rawSha256": "9e19fb162efb01d16480cc07ee71a6daad85a4a75b701e5f52916f6d7ea9e63c"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "capture": "fda-expedited-guidance",
+          "url": "https://www.fda.gov/media/86377/download",
+          "scope": "Validated versus reasonably-likely surrogate; traditional versus accelerated approval",
+          "rawSha256": "4f3c166bb4d6dead18a0d15bae514e96dafa6f4ead673aac48b04ff4826645fb"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "research-use-only",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: research-use-only and investigational-use-only IVD guidance",
+          "capture": "fda-ruo",
+          "url": "https://www.fda.gov/media/87374/download",
+          "scope": "IVD intended-use and distribution context; not a law for all research models",
+          "rawSha256": "2445fd1d27bfecfe0627be92291eb1b8797bb6e16dd11466cab2338d61a5dccf"
+        },
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "capture": "cms-clia",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+          "scope": "Laboratory-quality role and human-specimen testing scope",
+          "rawSha256": "59ddec87ffe815165227a06b555450169abdf1d9164dec54e794ca8029ea02ea"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "fda-ldt-rule",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: current laboratory-developed-test rule notice",
+          "capture": "fda-ldt",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+          "scope": "2024 rule, March 2025 vacatur and September 2025 restoration",
+          "rawSha256": "6a0ce8407c2bf5bfbc8a6e66aa3b11d442fb0daaf74dfa779d53ed4fbd2e38ed"
+        },
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "capture": "cms-clia",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+          "scope": "Laboratory-quality role and human-specimen testing scope",
+          "rawSha256": "59ddec87ffe815165227a06b555450169abdf1d9164dec54e794ca8029ea02ea"
+        },
+        {
+          "label": "CMS: CLIA analytical oversight and clinical validity (2013 FAQ; historical FDA discussion not used)",
+          "capture": "cms-ldt-faq",
+          "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf",
+          "scope": "Analytical oversight versus clinical validity only; historical FDA-authority discussion excluded",
+          "rawSha256": "26fe7e977995c6a67d9ae95b45797abf75da7a23818b87e08fb5b3ecbd874381"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "bla-nda",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: new drug applications",
+          "capture": "fda-nda",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+          "scope": "Marketing evidence and labeling review; distinct from IND",
+          "rawSha256": "78d01e88df9f700b2b43f029da2c92cb4aee7cbe7326cc1d2cbc980cd07372d2"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "capture": "fda-bla",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+          "scope": "Biologic marketing request, review and decision; no new product classification inferred",
+          "rawSha256": "b904a526a561814d7e2fb0f85e0407e43462a8f2e6a625a981c4a74d64b2ee14"
+        },
+        {
+          "label": "FDA: Investigational New Drug application",
+          "capture": "fda-ind",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+          "scope": "Defined investigational use, investigator IND and ordinary calendar-day waiting rule",
+          "rawSha256": "2f1b898489d9e7de703784ba41c7f26cb4662a1ad8c19fc5a83fbc8d32593b39"
+        },
+        {
+          "label": "FDA: expedited development and review programs",
+          "capture": "fda-expedited",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+          "scope": "Distinct expedited programs and review goals",
+          "rawSha256": "8170cbfa8ccf2d359a848adc5ea1d8fa49d67c2419612bf7c8dfb66111d3f52b"
+        },
+        {
+          "label": "EMA: EU marketing-authorisation assessment and Commission decision",
+          "capture": "ema-marketing",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step",
+          "scope": "EMA assessment and Commission authorization are distinct",
+          "rawSha256": "1fcbaf9cc3940eb279c7ff62fdb81f4b342117838fe83adb7f418d929eba8ba3"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "expanded-access",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: expanded access",
+          "capture": "fda-expanded",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+          "scope": "Treatment-use criteria and arrangements outside a clinical trial",
+          "rawSha256": "f3941eb33d292a4c48290614e483459cef74fb1c73e5d86c316dc274950344a9"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "capture": "fda-expanded-qa",
+          "url": "https://www.fda.gov/media/162793/download",
+          "scope": "New IND versus existing-IND protocol; start rules, emergencies, IRB and consent context",
+          "rawSha256": "320bef49ad694943e96e491b85b4cbc802bf49e4a9ea98e0cc894cedb5f4cc77"
+        },
+        {
+          "label": "FDA: expanded access information for institutional review boards",
+          "capture": "fda-expanded-irb",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs",
+          "scope": "Applicable individual-patient ethics review and consent; emergency exception context",
+          "rawSha256": "c4674d727c0b692f29a807748ca5bf1186cef1b092eb9bd6fd4e0626789cd8cf"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "right-to-try",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "FDA: federal Right to Try criteria and responsibilities",
+          "capture": "fda-righttotry",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try",
+          "scope": "Patient/product criteria, individual FDA/IRB review, consent, reporting and voluntary supply",
+          "rawSha256": "49fa2fcbd994af61448cebf55b1784cbb4c4cb276870b568a9e56d39771fd190"
+        }
+      ],
+      "scope": "Definition, interpretation boundaries and changed claims; no product-specific availability or efficacy claim."
+    },
+    {
+      "recordId": "eu-regulation-726-2004",
+      "asOf": "2026-11-08",
+      "capturedOfficialSources": [
+        {
+          "label": "EMA: PRIME development support and eligibility",
+          "capture": "ema-prime",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/prime-priority-medicines",
+          "scope": "PRIME early-development support; separate from a marketing decision",
+          "rawSha256": "b986f07dbc378dda35909a596aaf894bdbd25e3f58d47bf4a69e08dea38a754f"
+        },
+        {
+          "label": "EMA: EU marketing-authorisation assessment and Commission decision",
+          "capture": "ema-marketing",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step",
+          "scope": "EMA assessment and Commission authorization are distinct",
+          "rawSha256": "1fcbaf9cc3940eb279c7ff62fdb81f4b342117838fe83adb7f418d929eba8ba3"
+        }
+      ],
+      "scope": "Changed claims and the explicit audit learning points only; unchanged historical paragraphs are not re-certified."
+    }
+  ],
+  "captureHashChecksPassed": 32,
+  "privateSourceBodiesCopied": false
+}

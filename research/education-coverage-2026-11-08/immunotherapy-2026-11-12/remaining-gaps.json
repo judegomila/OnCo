@@ -1,0 +1,63 @@
+{
+  "cohortRepresentationOpen": [],
+  "rootRequirementsAuthored": 133,
+  "originalRequirements": 133,
+  "laterRequirements": 133,
+  "sourceDepthAndGuideOwnerFollowups": {
+    "id": "immunotherapy-source-depth",
+    "title": "Immunotherapy source dates, legacy catalogues and figure context",
+    "domain": "immunotherapy-adjacent",
+    "sourceURLs": [
+      "https://www.fda.gov/media/94129/download",
+      "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+    ],
+    "discoveryOccurrences": [
+      "immunotherapy-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator follow-up intake only; no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Retained catalogue/source-date and Guide-owner tasks remain separate from representation of the seven pinned lessons. No source body or artwork is rewritten. The sole current DailyMed Imlygic entry and its targeted indication, limitation, mechanism and infection/wound sections were checked before publication; index date and SPL effective date remain separate.",
+      "points": [
+        {
+          "id": "legacy-immunotherapy-catalogues",
+          "requirement": "Reverify retained oncolytic/cytokine/shared-vaccine programme catalogues and checkpoint cancer-specific generalisations at their own source scope. The new abstract/label checks do not certify every older efficacy, approval, historical-first, uptake or frequency assertion. Deliberately withdrawn overview catalogue and exclusivity claims have exact before/after fields.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Reverify retained oncolytic/cytokine/shared-vaccine programme catalogues and checkpoint cancer-specific generalisations at their own source scope. The new abstract/label checks do not certify every older efficacy, approval, historical-first, uptake or frequency assertion. Deliberately withdrawn overview catalogue and exclusivity claims have exact before/after fields."
+          ]
+        },
+        {
+          "id": "immunotherapy-guide-art-context",
+          "requirement": "Guide owner: retain genetic-loss context for the short HLA footer and directed-chemotaxis context for the movement footer; consider improving the dark viral-entry dashed path. Current prose carries the qualifications. No source artwork or caption is edited and no accessibility approval is implied.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: retain genetic-loss context for the short HLA footer and directed-chemotaxis context for the movement footer; consider improving the dark viral-entry dashed path. Current prose carries the qualifications. No source artwork or caption is edited and no accessibility approval is implied."
+          ]
+        }
+      ]
+    }
+  },
+  "readingLimits": [
+    "All 19 research/review abstracts were read completely; nine papers additionally have 33 targeted body paragraphs recorded. No research paper or label was read end to end.",
+    "Ott 2018 correction-notice body was read completely and kept separate from the original article. MED/Crossref comments and preprint links are not treated as retractions.",
+    "Brody and Chesney efetch responses are metadata-only stubs, not full-text evidence. KEYNOTE papers, Hammerich, Boyman and Mata-Haro remain abstract-level here.",
+    "The intratumoral NCI dictionary URL returned a JavaScript shell; its unseen definition is not used. Marabelle and the product route supply the stated route scope.",
+    "The FDA-hosted Imlygic PDF is dated February 2023. The current sole DailyMed hit is separately checked: SPL version 28, effective 2024-11-29, index published 2026-11-09; the targeted indication, limitation, mechanism and infection/wound sections agree. Publication and effective dates are not conflated. Pembrolizumab SPL version 229 is effective 2026-10-16, later than the Guide source-list date.",
+    "Some retained owner catalogue assertions, historical efficacy claims and programme statuses lie outside the adopted lesson evidence and are queued for separate verification.",
+    "Fictional exercises, arithmetic, source-image readings and causal/measurement limits are labelled inference and never presented as clinical results.",
+    "Elicit is not callable; frozen discovery is preserved, no invented report or response. No new live discovery occurrence is added to the 917 frozen occurrences."
+  ],
+  "creditBoundaries": {
+    "main": 0,
+    "live": 0,
+    "expert": 0,
+    "learner": 0,
+    "language": 0,
+    "wholeCorpusReaudit": 0
+  },
+  "broaderGoalComplete": false
+}

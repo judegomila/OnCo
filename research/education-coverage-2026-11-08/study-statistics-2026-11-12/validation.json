@@ -1,0 +1,1662 @@
+{
+  "dataCommit": "bca89126d8a7bab3940c5dfc20010411507fe83f",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 10.76
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 29.08
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.92
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 306.69
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "byteIdenticalDuringAndAfterGates": true,
+  "graphCount": 23085,
+  "changedRootIds": [
+    "bayesian-trial-design",
+    "estimand",
+    "intention-to-treat",
+    "master-protocol",
+    "non-inferiority",
+    "non-inferiority-margin",
+    "other-cause-mortality",
+    "response-adaptive-randomisation",
+    "sample-size-re-estimation",
+    "seamless-adaptive"
+  ],
+  "newIds": [],
+  "rootReaders": 10,
+  "peerLookupReaders": 1,
+  "peerLookupIsRegistration": false,
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR. Ten registered draft-root records and one explicitly frozen-peer lookup overlay are separate; the overlay is not registration. No browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "intention-to-treat",
+        "state": "registered-local-graph",
+        "route": "/terms/intention-to-treat/",
+        "sha256": "7ecf4129ab56e81225aebcc8569e61571017a9468de381f1f9bf6d920d8580b4",
+        "bytes": 43854,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "estimand",
+        "state": "registered-local-graph",
+        "route": "/terms/estimand/",
+        "sha256": "0885b84e93e0178aee07c211e78d97b3fd8464ed3503333bb65e4a00e57bfeaa",
+        "bytes": 30156,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "bayesian-trial-design",
+        "state": "registered-local-graph",
+        "route": "/terms/bayesian-trial-design/",
+        "sha256": "6d5964735166706cbde9b2ccb320fd5f0b9cb18182b27cfdb6154375de457631",
+        "bytes": 47984,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "state": "registered-local-graph",
+        "route": "/terms/response-adaptive-randomisation/",
+        "sha256": "7b3f499eeb35eea4af342ae39993a67f0f09fa2afc8468ead0e1aca1a555871e",
+        "bytes": 31929,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "master-protocol",
+        "state": "registered-local-graph",
+        "route": "/terms/master-protocol/",
+        "sha256": "c2dc5a56f442cab429d0a622df450096cc0713729e17f9b5279583bc763a3679",
+        "bytes": 33846,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "seamless-adaptive",
+        "state": "registered-local-graph",
+        "route": "/terms/seamless-adaptive/",
+        "sha256": "ffd6f3b71218df7e4e65476f958416b449585979c3c1d93bccafc88b20625726",
+        "bytes": 32911,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "non-inferiority",
+        "state": "registered-local-graph",
+        "route": "/terms/non-inferiority/",
+        "sha256": "8953484cfd3a61351122161b2a74e000c95b772ccaf80d12c680d1c1001aeef3",
+        "bytes": 41210,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "non-inferiority-margin",
+        "state": "registered-local-graph",
+        "route": "/terms/non-inferiority-margin/",
+        "sha256": "d6a720315fb3bdd8ee0cfe299aec7a7900b64f2f1daa225cceaab15788431198",
+        "bytes": 45367,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "state": "registered-local-graph",
+        "route": "/terms/sample-size-re-estimation/",
+        "sha256": "afac03409bc77d6d32643c4f23a430326f1f13a70b52e89d817047b456726abd",
+        "bytes": 43232,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "other-cause-mortality",
+        "state": "registered-local-graph",
+        "route": "/terms/other-cause-mortality/",
+        "sha256": "d0f2ba95896ae03e4692978f71a6841af4aeafdd457a6afa780895f8edf82616",
+        "bytes": 47833,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "competing-risks",
+        "state": "frozen-peer-canonical-fields-in-memory-lookup-overlay",
+        "route": "/terms/competing-risks/",
+        "sha256": "5fd1d3acdad5b756bd16b7b4ab3a30e5df606526d8cd4ff597f4d31f2c70639f",
+        "bytes": 25755,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "readerPassages": {
+    "readers": 11,
+    "registeredRootReaders": 10,
+    "frozenPeerReaders": 1,
+    "exactFieldExcerptReferences": 154,
+    "uniqueReferencedFieldParagraphs": 49,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "intention-to-treat",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "estimand",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "estimand",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "estimand",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "estimand",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "seamless-adaptive",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "seamless-adaptive",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "summary",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "competing-risks",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      }
+    ]
+  },
+  "rootExports": {
+    "records": 10,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "intention-to-treat",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "intention-to-treat",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "estimand",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "estimand",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "estimand",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "estimand",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "bayesian-trial-design",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "master-protocol",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "seamless-adaptive",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "seamless-adaptive",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "non-inferiority-margin",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "other-cause-mortality",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "intention-to-treat.json",
+        "bytes": 11259,
+        "sha256": "062bbf9870b4fda9723184c051a8e50911f85a5cf20167693dc420cbbd5dd270"
+      },
+      {
+        "file": "intention-to-treat.md",
+        "bytes": 10437,
+        "sha256": "ca5c65d4ba3866f689604574f07c7479bf3b0c1d29e6b4f77b82a1a86a7dc992"
+      },
+      {
+        "file": "estimand.json",
+        "bytes": 5671,
+        "sha256": "7d872c0e129cc18fed1a42f5d66bc0f214baec7997d74f1a9c3ca416dab91cb6"
+      },
+      {
+        "file": "estimand.md",
+        "bytes": 4700,
+        "sha256": "74c407bfc54ce00dcab3c1189645e2191302d3ea7eda3711123fa468574248e8"
+      },
+      {
+        "file": "bayesian-trial-design.json",
+        "bytes": 10651,
+        "sha256": "ed1d85d78addf232d2ad95559e7df7dc501e3152ef6baabaeee75959eb32714d"
+      },
+      {
+        "file": "bayesian-trial-design.md",
+        "bytes": 9532,
+        "sha256": "3326be48111f88d98d4a5a06ec47308c2f35231d7da987f9362d2c80fe74e3e2"
+      },
+      {
+        "file": "response-adaptive-randomisation.json",
+        "bytes": 5647,
+        "sha256": "b64ad859b13e8f8e62f358a0fbf249ed2aec39f36466b6969a5341548154a644"
+      },
+      {
+        "file": "response-adaptive-randomisation.md",
+        "bytes": 4675,
+        "sha256": "208f29909047a8c2235aef5233a93541ac7908cf5d248e22849866b458cb351d"
+      },
+      {
+        "file": "master-protocol.json",
+        "bytes": 8638,
+        "sha256": "bb863056aec7c48ef4a893bcf0270ae532ff801f7b0dc860f487a31b3d319183"
+      },
+      {
+        "file": "master-protocol.md",
+        "bytes": 5752,
+        "sha256": "a5b0f2db0b25c60b9c28f1e6892a837b118ccc0e3a389d037cb1de3d8897aa37"
+      },
+      {
+        "file": "seamless-adaptive.json",
+        "bytes": 8400,
+        "sha256": "231e285d2c7f2fc1b280c444dbbd8accbd56e7eb98929b50605e0ea56a89b38c"
+      },
+      {
+        "file": "seamless-adaptive.md",
+        "bytes": 5728,
+        "sha256": "312451bd9dfa10b002b7ada62ce6c2fd16aa7c0e3e9df5ce79923f5c10c460a9"
+      },
+      {
+        "file": "non-inferiority.json",
+        "bytes": 7285,
+        "sha256": "18bbf36db8a6a4ab4cf1786e52d18decde67ee1f00f0c1363aafcde3c5f25353"
+      },
+      {
+        "file": "non-inferiority.md",
+        "bytes": 5697,
+        "sha256": "5c699141f93e0114f3b27b463151421d8d5a7513417e2faca41268ff1b270284"
+      },
+      {
+        "file": "non-inferiority-margin.json",
+        "bytes": 10111,
+        "sha256": "6c36fbc3b2696afd7920e18233a7b5786e79afd1983d94fe45e88cf06e6bba98"
+      },
+      {
+        "file": "non-inferiority-margin.md",
+        "bytes": 8872,
+        "sha256": "55d3317af3f4b64624c814fed4c5bdc97d818407c4bb1c63b33c908cd5badd7d"
+      },
+      {
+        "file": "sample-size-re-estimation.json",
+        "bytes": 10702,
+        "sha256": "f7dfb402caa546a0149b0c51e725fe5f9357a721013e25500d08b2914562b90e"
+      },
+      {
+        "file": "sample-size-re-estimation.md",
+        "bytes": 9612,
+        "sha256": "c62028ffc1350e6d68b357fe449d6feab45cf491ab20f225eeb1606c6b50ec34"
+      },
+      {
+        "file": "other-cause-mortality.json",
+        "bytes": 9956,
+        "sha256": "7b67e3fbaf085abb382f5097ea1b6cee11dcfd585790275cb9c28048fbdcf9ec"
+      },
+      {
+        "file": "other-cause-mortality.md",
+        "bytes": 7867,
+        "sha256": "ba4b9e14859c8c48c5232164f091c1537ad40b0606437399d9fa4be14daf33a3"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 99,
+    "texts": 9,
+    "fallbacks": 90,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "intention-to-treat",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "intention-to-treat",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "estimand",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "bayesian-trial-design",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "response-adaptive-randomisation",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "master-protocol",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "seamless-adaptive",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "non-inferiority-margin",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sample-size-re-estimation",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "other-cause-mortality",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "competing-risks",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "zeroSecretFindings": true,
+  "scope": "Actual registered graph, explicit peer lookup overlay, EntityDetail SSR, lazy consumer tables, static JSON/Markdown/OpenAPI and dedupe. No full Next build, hydration/browser, mobile or deployed-page claim."
+}

@@ -1,0 +1,1943 @@
+{
+  "checkedOn": "2026-11-11",
+  "publicationIdentities": 19,
+  "abstractsRead": 19,
+  "wholeOriginalPapersRead": 0,
+  "publications": [
+    {
+      "id": "wieczorek",
+      "pmid": "28367149",
+      "pmcid": "PMC5355494",
+      "doi": "10.3389/fimmu.2017.00292",
+      "title": "Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.",
+      "firstAuthor": "Wieczorek",
+      "year": 2017,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              17
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              17
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              17
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        0,
+        4,
+        5,
+        7,
+        13
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "hosomichi",
+      "pmid": "23714642",
+      "pmcid": "PMC3671147",
+      "doi": "10.1186/1471-2164-14-355",
+      "title": "Phase-defined complete sequencing of the HLA genes by next-generation sequencing.",
+      "firstAuthor": "Hosomichi",
+      "year": 2013,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              28
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              12
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              28
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "szolek",
+      "pmid": "25143287",
+      "pmcid": "PMC4441069",
+      "doi": "10.1093/bioinformatics/btu548",
+      "title": "OptiType: precision HLA typing from next-generation sequencing data.",
+      "firstAuthor": "Szolek",
+      "year": 2014,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              20
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              1
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              20
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "sarkizova",
+      "pmid": "31844290",
+      "pmcid": "PMC7008090",
+      "doi": "10.1038/s41587-019-0322-9",
+      "title": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population.",
+      "firstAuthor": "Sarkizova",
+      "year": 2020,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              16
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              2
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              12,
+              16
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        5,
+        9,
+        18,
+        26
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {
+        "is-referenced-by": [
+          {
+            "id-type": "doi",
+            "id": "10.7554/eLife.75670",
+            "asserted-by": "object"
+          }
+        ],
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737090811.793578398",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737090811.793570712",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "tnbc-merit",
+      "pmid": "41708868",
+      "pmcid": "PMC13017525",
+      "doi": "10.1038/s41586-025-10004-2",
+      "title": "Individualized mRNA vaccines evoke durable T cell immunity in adjuvant TNBC.",
+      "firstAuthor": "Sahin",
+      "year": 2026,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              26
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              18
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        22,
+        28
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "isolation",
+      "pmid": "31092913",
+      "pmcid": null,
+      "doi": "10.1038/s41596-019-0133-y",
+      "title": "Mass spectrometry-based identification of MHC-bound peptides for immunopeptidomics.",
+      "firstAuthor": "Purcell",
+      "year": 2019,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              15
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              5,
+              15
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "altman",
+      "pmid": "8810254",
+      "pmcid": null,
+      "doi": "10.1126/science.274.5284.94",
+      "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+      "firstAuthor": "Altman",
+      "year": 1996,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              1996,
+              10,
+              4
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              1996,
+              10,
+              4
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1996,
+              10,
+              4
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "reference": "Science 1998 Jun 19;280(5371):1821",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "wells",
+      "pmid": "33038342",
+      "pmcid": "PMC7652061",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "firstAuthor": "Wells",
+      "year": 2020,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              10
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33125888",
+            "reference": "Cell. 2020 Oct 29;183(3):591-593. doi: 10.1016/j.cell.2020.10.011.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "maecker",
+      "pmid": "15978127",
+      "pmcid": "PMC1184077",
+      "doi": "10.1186/1471-2172-6-13",
+      "title": "Standardization of cytokine flow cytometry assays.",
+      "firstAuthor": "Maecker",
+      "year": 2005,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              24
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2005,
+              6,
+              24
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "rabinovich",
+      "pmid": "31525367",
+      "pmcid": "PMC6891822",
+      "doi": "10.1016/j.jim.2019.112668",
+      "title": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+      "firstAuthor": "Rabinovich",
+      "year": 2019,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              11
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        6,
+        9,
+        11,
+        12,
+        14
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "barroso",
+      "pmid": "32067680",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2019.11.010",
+      "title": "Prevalence and mutational determinants of high tumor mutation burden in breast cancer.",
+      "firstAuthor": "Barroso-Sousa",
+      "year": 2020,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR90022",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/745265",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "lindeboom",
+      "pmid": "27618451",
+      "pmcid": "PMC5045715",
+      "doi": "10.1038/ng.3664",
+      "title": "The rules and impact of nonsense-mediated mRNA decay in human cancers.",
+      "firstAuthor": "Lindeboom",
+      "year": 2016,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              12
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              10
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              12
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "ghorani",
+      "pmid": "29361136",
+      "pmcid": "PMC5834109",
+      "doi": "10.1093/annonc/mdx687",
+      "title": "Differential binding affinity of mutated peptides for MHC class I is a predictor of survival in advanced lung cancer and melanoma.",
+      "firstAuthor": "Ghorani",
+      "year": 2018,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              1
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        6,
+        13,
+        16,
+        17,
+        18,
+        19,
+        21,
+        24,
+        26
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "litchfield",
+      "pmid": "32733040",
+      "pmcid": "PMC7393139",
+      "doi": "10.1038/s41467-020-17526-5",
+      "title": "Escape from nonsense-mediated decay associates with anti-tumor immunogenicity.",
+      "firstAuthor": "Litchfield",
+      "year": 2020,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              30
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              30
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              30
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR101361",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/823716",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "elispot",
+      "pmid": "34541071",
+      "pmcid": "PMC8410284",
+      "doi": "10.21769/bioprotoc.2302",
+      "title": "ELISPOT Assay to Measure Peptide-specific IFN-γ Production.",
+      "firstAuthor": "Wykes",
+      "year": 2017,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "duan",
+      "pmid": "25245761",
+      "pmcid": "PMC4203949",
+      "doi": "10.1084/jem.20141308",
+      "title": "Genomic and bioinformatic profiling of mutational neoepitopes reveals new rules to predict anticancer immunogenicity.",
+      "firstAuthor": "Duan",
+      "year": 2014,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              9,
+              22
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              9,
+              22
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              10,
+              20
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              9,
+              22
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        5,
+        6,
+        16,
+        17,
+        18,
+        31
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "reynisson",
+      "pmid": "32406916",
+      "pmcid": "PMC7319546",
+      "doi": "10.1093/nar/gkaa379",
+      "title": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data.",
+      "firstAuthor": "Reynisson",
+      "year": 2020,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              14
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              2
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              14
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "cer",
+      "pmid": "19395593",
+      "pmcid": "PMC2703898",
+      "doi": "10.1093/nar/gkp253",
+      "title": "IC50-to-Ki: a web-based tool for converting IC50 to Ki values for inhibitors of enzyme activity and ligand binding.",
+      "firstAuthor": "Cer",
+      "year": 2009,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2009,
+              4,
+              24
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2009,
+              4,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2009,
+              7,
+              1
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2009,
+              4,
+              24
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        0,
+        4,
+        5,
+        6,
+        14
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    },
+    {
+      "id": "cd4",
+      "pmid": "33637530",
+      "pmcid": "PMC7909889",
+      "doi": "10.1126/sciadv.abe3348",
+      "title": "Tumor-specific cytolytic CD4 T cells mediate immunity against human cancer.",
+      "firstAuthor": "Cachot",
+      "year": 2021,
+      "crossrefTitleAuthorDateAgree": true,
+      "crossrefDates": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              26
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              26
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              26
+            ]
+          ]
+        }
+      },
+      "abstractRead": true,
+      "targetedBodyParagraphsRead": [
+        0,
+        1,
+        3,
+        4,
+        11,
+        18,
+        39
+      ],
+      "wholeOriginalPaperRead": false,
+      "commentCorrectionMetadata": {},
+      "crossrefRelation": {},
+      "scopeNote": "The selected claims use only the stated reading depth. Unrelated old catalogue assertions are not newly certified."
+    }
+  ],
+  "officialDocuments": [
+    {
+      "id": "hla-names",
+      "url": "https://hla.alleles.org/pages/nomenclature/naming_alleles/",
+      "scope": "Main allele-fields, expression-suffix and worked-name sections read; not a complete HLA-release audit."
+    },
+    {
+      "id": "netmhcpan",
+      "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+      "scope": "Version description, training/task overview, output/rank definitions and thresholds read in raw HTML. No model execution, submitted sequences or universal clinical threshold."
+    }
+  ],
+  "protocolPDF": {
+    "sourceId": "elispot",
+    "url": "https://bio-protocol.org/pdf/Bio-protocol2302.pdf",
+    "pages": 11,
+    "textSectionsRead": "Opening abstract and selected background/procedure text; procedure and controls on printed pages 4 to 7.",
+    "pagesRenderedAndViewed": [
+      6,
+      7
+    ],
+    "entireDocumentRead": false,
+    "sha256": "93c6e0b32c61d68214db664f7827a7b0deec39436d38bcc383a8ebf2e6621226"
+  },
+  "rawCaptures": [
+    {
+      "file": "crossref-science-19980619.json",
+      "url": "https://api.crossref.org/works?filter=issn%3A0036-8075%2Cfrom-pub-date%3A1998-06-19%2Cuntil-pub-date%3A1998-06-19&rows=100",
+      "finalURL": "https://api.crossref.org/works?filter=issn%3A0036-8075%2Cfrom-pub-date%3A1998-06-19%2Cuntil-pub-date%3A1998-06-19&rows=100",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 458041,
+      "sha256": "2f9bfa3fe40d5e3c5b7dc67e5235fabb42f5d3144af70abce83c2c8cfe1f1c66",
+      "seconds": 1.62,
+      "captureFileWrittenAtUTC": "2026-11-12T06:47:03.736895+00:00"
+    },
+    {
+      "file": "epmc-follow-elispot.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC8410284&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC8410284&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 4479,
+      "sha256": "52ddc1a52a960a2f91363f9196fd5bd802b1aa36f3693df745d12931c33e43df",
+      "seconds": 0.64,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:44.559362+00:00"
+    },
+    {
+      "file": "crossref-follow-elispot.json",
+      "url": "https://api.crossref.org/works/10.21769%2Fbioprotoc.2302",
+      "finalURL": "https://api.crossref.org/works/10.21769%2Fbioprotoc.2302",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 5843,
+      "sha256": "c0f404819f717f8d99dfea4fbd5f9490b514727582d778fa240369c9481ebb68",
+      "seconds": 0.27,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:44.828653+00:00"
+    },
+    {
+      "file": "epmc-follow-duan.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25245761+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25245761+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11205,
+      "sha256": "0ac740b4773b40ca8143edbf46bc33b16ea6cb642692991977df8b9386034c18",
+      "seconds": 0.63,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:45.454341+00:00"
+    },
+    {
+      "file": "crossref-follow-duan.json",
+      "url": "https://api.crossref.org/works/10.1084%2Fjem.20141308",
+      "finalURL": "https://api.crossref.org/works/10.1084%2Fjem.20141308",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 23098,
+      "sha256": "3e8e366115f5e749b1e1cefcae49c7dfb1185ad2f5b54aa5342aa48c91d9cb45",
+      "seconds": 0.32,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:45.778340+00:00"
+    },
+    {
+      "file": "epmc-follow-reynisson.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fnar%2Fgkaa379&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fnar%2Fgkaa379&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7178,
+      "sha256": "967ad5d1f92dae2075aad30bdd5915d635c2f75e3709f0c627e6e1c564daf524",
+      "seconds": 1.54,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:47.315702+00:00"
+    },
+    {
+      "file": "crossref-follow-reynisson.json",
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaa379",
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkaa379",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 14113,
+      "sha256": "af06ad94029c8fc3a750273fe9bdb762d006897966c31822bd8c81e3e73f9876",
+      "seconds": 0.3,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:47.618580+00:00"
+    },
+    {
+      "file": "epmc-follow-cer.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fnar%2Fgkp253&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fnar%2Fgkp253&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6092,
+      "sha256": "5712bd14f8f1425e004d81aa8bce37e4756fcdaf8c77697e3ca958a885b1ab48",
+      "seconds": 1.68,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:49.302232+00:00"
+    },
+    {
+      "file": "crossref-follow-cer.json",
+      "url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkp253",
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkp253",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 7605,
+      "sha256": "904659c3eecdbe9013af3d96dcf0be6b9a7cc658c12ff15444a0c9cd4f14d02f",
+      "seconds": 0.24,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:49.548944+00:00"
+    },
+    {
+      "file": "epmc-follow-altman-erratum.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Phenotypic+analysis+of+antigen-specific+T+lymphocytes%22+AND+FIRST_PDATE%3A%5B1998-01-01+TO+1998-12-31%5D&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Phenotypic+analysis+of+antigen-specific+T+lymphocytes%22+AND+FIRST_PDATE%3A%5B1998-01-01+TO+1998-12-31%5D&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 269,
+      "sha256": "5f254d617e76d936501ce7c47db95080e9abcb94d9f0711fe7bc1fc600115094",
+      "seconds": 0.85,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:50.394946+00:00"
+    },
+    {
+      "file": "full-wieczorek.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5355494/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5355494/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 229767,
+      "sha256": "ef891d02d6678716d941297d3b978d3eda7ff73fa6b3eaec3044fc2505e45b97",
+      "seconds": 3.47,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:53.869283+00:00"
+    },
+    {
+      "file": "full-sarkizova.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7008090/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7008090/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 152421,
+      "sha256": "864e5f01b0f257831da31788f85974c115327b2b1b522603eee2951374deaac5",
+      "seconds": 5.12,
+      "captureFileWrittenAtUTC": "2026-11-12T06:08:58.988421+00:00"
+    },
+    {
+      "file": "full-tnbc-merit.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13017525/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13017525/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 182980,
+      "sha256": "f84d8fb3af5d532e5f10b1d67fb915a26687a9dba99466844564f35020873fe5",
+      "seconds": 4.51,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:03.494689+00:00"
+    },
+    {
+      "file": "full-maecker.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1184077/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1184077/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 107949,
+      "sha256": "c138dbc1652a672578d195bd4189cae5a9d38043a11549c3718258f9f63202e9",
+      "seconds": 3.7,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:07.191677+00:00"
+    },
+    {
+      "file": "full-rabinovich.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6891822/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6891822/fullTextXML",
+      "httpStatus": 500,
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "cf9669688fb041cc9b42adad09f6192d3cbb7e3591aea03d6d28b6558eb04e33",
+      "seconds": 4.49,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:11.686241+00:00"
+    },
+    {
+      "file": "efetch-rabinovich.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6891822&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6891822&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 51558,
+      "sha256": "c79add1cdd1c9384fe3386a65c7f951bf69ce186fdb5a645edc07aa5810df413",
+      "seconds": 0.57,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:12.257335+00:00"
+    },
+    {
+      "file": "full-lindeboom.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5045715/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5045715/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 119305,
+      "sha256": "bfd439a678958ee52fe2c67d20b9ab148878b1b99e0a66b9b44c548dd50ee8f4",
+      "seconds": 2.11,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:14.363288+00:00"
+    },
+    {
+      "file": "full-ghorani.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5834109/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5834109/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 72180,
+      "sha256": "9e2af217f575c1e04cd452ae3dd3e5b4695c4655133908e7021d229a3467a20a",
+      "seconds": 1.03,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:15.397145+00:00"
+    },
+    {
+      "file": "full-litchfield.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7393139/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7393139/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 118963,
+      "sha256": "d4009608f7c44bad7d86a552292fb45be89ef81f606ed92bdff155cd61a3c105",
+      "seconds": 1.51,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:16.909883+00:00"
+    },
+    {
+      "file": "full-elispot.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8410284/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8410284/fullTextXML",
+      "httpStatus": 500,
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "fb2435f47ea8aca7f8e10f768ec3d3f91ced9ba6b9f50c1b84e732cbbadd3ed5",
+      "seconds": 0.97,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:17.881918+00:00"
+    },
+    {
+      "file": "efetch-elispot.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8410284&retmode=xml",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8410284&retmode=xml",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 7889,
+      "sha256": "72083a09a493a303f30347bb70ce3754a34457b69b155773391128d62315f0d8",
+      "seconds": 0.35,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:18.228227+00:00"
+    },
+    {
+      "file": "full-duan.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4203949/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4203949/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 204099,
+      "sha256": "d8d07d84b3cbde45998ae3d4fc5582362c610c1c6a4afb6bf676d988d8ce9d61",
+      "seconds": 2.08,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:20.312579+00:00"
+    },
+    {
+      "file": "full-reynisson.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7319546/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7319546/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 61921,
+      "sha256": "afb60a03498abe0e55a268bc790cc06b922dd1c9478d4de210304ddb18ce8fb5",
+      "seconds": 2.12,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:22.435279+00:00"
+    },
+    {
+      "file": "full-cer.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2703898/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2703898/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 54778,
+      "sha256": "332c34ddec4643b7250fb0700d42b4995a6a38aec196b4794c6e87463eaf7d81",
+      "seconds": 1.0,
+      "captureFileWrittenAtUTC": "2026-11-12T06:09:23.432490+00:00"
+    },
+    {
+      "file": "epmc-cd4-query.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Tumor-specific+cytolytic+CD4+T+cells+mediate+immunity+against+human+cancer%22&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Tumor-specific+cytolytic+CD4+T+cells+mediate+immunity+against+human+cancer%22&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 15265,
+      "sha256": "e60c2f394dc3b3bb214f6a762e4737253fcdd47c2b27451b26e92efcac9a8d82",
+      "seconds": 2.36,
+      "captureFileWrittenAtUTC": "2026-11-12T06:13:48.412447+00:00"
+    },
+    {
+      "file": "crossref-cd4.json",
+      "url": "https://api.crossref.org/works/10.1126%2Fsciadv.abe3348",
+      "finalURL": "https://api.crossref.org/works/10.1126%2Fsciadv.abe3348",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 21945,
+      "sha256": "5aea0159056879154201aab92b7e966246f8f3fb6a56350e2af748ba3cd977dd",
+      "seconds": 0.34,
+      "captureFileWrittenAtUTC": "2026-11-12T06:13:48.757225+00:00"
+    },
+    {
+      "file": "full-cd4.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7909889/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7909889/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 245680,
+      "sha256": "acfbc30a06b7518d8a08c48c5961bd292575d7c5fcfbdb0f4d43309358954aa3",
+      "seconds": 35.15,
+      "captureFileWrittenAtUTC": "2026-11-12T06:14:23.904923+00:00"
+    },
+    {
+      "file": "altman-erratum-elink.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=pubmed&id=8810254&linkname=pubmed_pubmed_erratum&retmode=json",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/elink.fcgi?dbfrom=pubmed&db=pubmed&id=8810254&linkname=pubmed_pubmed_erratum&retmode=json",
+      "httpStatus": 200,
+      "contentType": "application/json; charset=UTF-8",
+      "bytes": 95,
+      "sha256": "62657f50ddd3afc5eb243d22b5b10530ee75c8a451cc7a053c7f5ac22667ba84",
+      "seconds": 0.23,
+      "captureFileWrittenAtUTC": "2026-11-12T06:14:24.136494+00:00"
+    },
+    {
+      "file": "bio-protocol-elispot.html",
+      "url": "https://bio-protocol.org/en/bpdetail?id=2302&typeId=1",
+      "finalURL": "https://bio-protocol.org/en/bpdetail?id=2302&typeId=1",
+      "httpStatus": 468,
+      "contentType": "text/html",
+      "bytes": 14864,
+      "sha256": "6cbde3e85db6c12c1806d683ab7b50996fefe3981ae3613fc5d8735a38ddfd01",
+      "seconds": 0.11,
+      "captureFileWrittenAtUTC": "2026-11-12T06:14:24.246591+00:00"
+    },
+    {
+      "file": "elispot-protocol.pdf",
+      "url": "https://bio-protocol.org/pdf/Bio-protocol2302.pdf",
+      "finalURL": "https://bio-protocol.org/pdf/Bio-protocol2302.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 3858733,
+      "sha256": "93c6e0b32c61d68214db664f7827a7b0deec39436d38bcc383a8ebf2e6621226",
+      "seconds": 1.37,
+      "captureFileWrittenAtUTC": "2026-11-12T06:15:52.724117+00:00"
+    },
+    {
+      "file": "elispot-pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8410284/",
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8410284/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21476,
+      "sha256": "733f2e7fa5f6f6de36d499311899021b13ed52c80a07623b7126eb5cf031a47a",
+      "seconds": 0.18,
+      "captureFileWrittenAtUTC": "2026-11-12T06:15:52.905260+00:00"
+    },
+    {
+      "file": "crossref-altman-correction-search.json",
+      "url": "https://api.crossref.org/works?query.bibliographic=Science+1998+280+5371+1821+Altman+Phenotypic+analysis+antigen+specific&rows=5",
+      "finalURL": "https://api.crossref.org/works?query.bibliographic=Science+1998+280+5371+1821+Altman+Phenotypic+analysis+antigen+specific&rows=5",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 8354,
+      "sha256": "9231447178b6f7cafdfe4721177911bea4c2cd9889724a8a05956dff4710be39",
+      "seconds": 0.42,
+      "captureFileWrittenAtUTC": "2026-11-12T06:15:53.325496+00:00"
+    },
+    {
+      "file": "epmc-wieczorek.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28367149+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28367149+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6336,
+      "sha256": "5cd1f742d80e17521e00b043851e49dd4f9189a3ad8898a4098f02a37b71e2e2",
+      "seconds": 0.94,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:11.053251+00:00"
+    },
+    {
+      "file": "crossref-wieczorek.json",
+      "url": "https://api.crossref.org/works/10.3389%2Ffimmu.2017.00292?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.3389%2Ffimmu.2017.00292?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 43589,
+      "sha256": "a9e17e16a0cdeff33c0be2c0968478ee93dc21566a2bb15e285facb9f4974273",
+      "seconds": 0.39,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:11.443623+00:00"
+    },
+    {
+      "file": "epmc-hosomichi.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2F1471-2164-14-355&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2F1471-2164-14-355&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6442,
+      "sha256": "e4ca9961234753bdee5da0f8d5ef1a70ab2fec13bb661f17c932e9bddbfb49dd",
+      "seconds": 0.83,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:12.272578+00:00"
+    },
+    {
+      "file": "crossref-hosomichi.json",
+      "url": "https://api.crossref.org/works/10.1186%2F1471-2164-14-355?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1186%2F1471-2164-14-355?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 20429,
+      "sha256": "768c5f48e361cb2919a4377cb411dcc42b74090ddc8944a5bc51dc4f03aa9a01",
+      "seconds": 0.33,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:12.602391+00:00"
+    },
+    {
+      "file": "epmc-szolek.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25143287+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25143287+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8033,
+      "sha256": "ac618af904ebf40216442361bec6b2f590f48d844fa1b3abdcecd757de28415d",
+      "seconds": 0.87,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:13.477758+00:00"
+    },
+    {
+      "file": "crossref-szolek.json",
+      "url": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtu548?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fbioinformatics%2Fbtu548?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 16738,
+      "sha256": "2b36f0971a9640211f5ddd0c42535eb29ffeac8bf4bfcbe842e77a897b17a41e",
+      "seconds": 0.32,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:13.794589+00:00"
+    },
+    {
+      "file": "epmc-sarkizova.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41587-019-0322-9&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41587-019-0322-9&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 16272,
+      "sha256": "b792de30823b85232cdfcc650de21a4ef48f09e1aaa4acf6429d106a2474b4d7",
+      "seconds": 0.91,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:14.704306+00:00"
+    },
+    {
+      "file": "crossref-sarkizova.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41587-019-0322-9?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41587-019-0322-9?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 25573,
+      "sha256": "c64af361bc94446472d52169c4538fcc3d45e7145fdca593b459531b8ba3cf6f",
+      "seconds": 0.32,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:15.028074+00:00"
+    },
+    {
+      "file": "epmc-tnbc-merit.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41586-025-10004-2&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41586-025-10004-2&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11227,
+      "sha256": "89be68edca78f08bad3fe30b65682e57caaa5645636e049e4cad626523ab47ee",
+      "seconds": 0.64,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:15.665501+00:00"
+    },
+    {
+      "file": "crossref-tnbc-merit.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41586-025-10004-2?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41586-025-10004-2?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 26496,
+      "sha256": "445182580ea7b647a5ff0c5bbf20e228b2322b3e3fcec7860e4e425dc1e588d8",
+      "seconds": 0.31,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:15.976794+00:00"
+    },
+    {
+      "file": "epmc-isolation.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41596-019-0133-y&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41596-019-0133-y&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6521,
+      "sha256": "81295de1d967edbd639115eb79f066eb797665f10e22ca251f0ba71c1c03765d",
+      "seconds": 0.92,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:16.899151+00:00"
+    },
+    {
+      "file": "crossref-isolation.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41596-019-0133-y?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41596-019-0133-y?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 43295,
+      "sha256": "9277cdb90c349a72c42723aee999e99b562c3f0c0e1a2061e14ada37f9e82c81",
+      "seconds": 0.38,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:17.278223+00:00"
+    },
+    {
+      "file": "epmc-altman.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8810254+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8810254+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6833,
+      "sha256": "97975b884761f295e3d08538b7b19bc6b1baa28f4b1b05bc91c2a77b6502c330",
+      "seconds": 1.82,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:19.096255+00:00"
+    },
+    {
+      "file": "crossref-altman.json",
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.274.5284.94?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1126%2Fscience.274.5284.94?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 12930,
+      "sha256": "0da4b338d29cbc97f2507d8a88f87cc62f57d69b1ac6431d72a1bbe7bb5120a8",
+      "seconds": 0.24,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:19.338084+00:00"
+    },
+    {
+      "file": "epmc-elispot.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC8410284&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC8410284&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 180,
+      "sha256": "6bd11a2d12baf22d5ac71ebd4f52736ed9b05d4d5520444522595436eded0ac2",
+      "seconds": 0.85,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:20.188399+00:00"
+    },
+    {
+      "file": "epmc-wells.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33038342+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33038342+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 30102,
+      "sha256": "59008ee8cbd846e0b6556ecf3197ed343e77201015c6f74295396659ac369389",
+      "seconds": 1.07,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:21.256211+00:00"
+    },
+    {
+      "file": "crossref-wells.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.09.015?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.09.015?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 48244,
+      "sha256": "0718408c185a18706ca225a55e5be986489a2d02b529e1c624d0d501afa857af",
+      "seconds": 0.38,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:21.643765+00:00"
+    },
+    {
+      "file": "epmc-maecker.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15978127+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A15978127+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 11657,
+      "sha256": "84c071a39423b1cae89da0c99abdbad5282cf216ffb45d176d3b844745944564",
+      "seconds": 0.65,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:22.293151+00:00"
+    },
+    {
+      "file": "crossref-maecker.json",
+      "url": "https://api.crossref.org/works/10.1186%2F1471-2172-6-13?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1186%2F1471-2172-6-13?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 25341,
+      "sha256": "51b3301641dceca9d51bbb35ac996ae1d8e38ca8a30d49ddc145f428f8097f6f",
+      "seconds": 0.31,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:22.608579+00:00"
+    },
+    {
+      "file": "epmc-rabinovich.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31525367+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31525367+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 10803,
+      "sha256": "84009db1931d04defe8483ec15283eb9ba2f777c31bbafe61886405ce06808a4",
+      "seconds": 1.08,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:23.693602+00:00"
+    },
+    {
+      "file": "crossref-rabinovich.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jim.2019.112668?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.jim.2019.112668?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 9485,
+      "sha256": "00952beaf59aed44c7bd00a7a7ffbec1013bb3f7f346e3156a786a84784424a2",
+      "seconds": 0.26,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:23.958189+00:00"
+    },
+    {
+      "file": "epmc-barroso.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32067680+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32067680+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8451,
+      "sha256": "265d0f2e725a46b241021e8df49bc6dd7a856044cd84d3e2f6cb235e7ab2edfa",
+      "seconds": 0.62,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:24.574728+00:00"
+    },
+    {
+      "file": "crossref-barroso.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.annonc.2019.11.010?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.annonc.2019.11.010?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 15138,
+      "sha256": "ec49d1e6580ae38dc93251cab90b13439e146eafb49094c3bfb34ca14b27be97",
+      "seconds": 0.3,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:24.877862+00:00"
+    },
+    {
+      "file": "epmc-lindeboom.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fng.3664&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fng.3664&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6036,
+      "sha256": "92696c6dcfc2e0d6ad7a656b75143880f6b95d4ee2978153dfd861c510375d5d",
+      "seconds": 0.68,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:25.557678+00:00"
+    },
+    {
+      "file": "crossref-lindeboom.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fng.3664?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fng.3664?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 21474,
+      "sha256": "5fdb7dc1c23169b1daba4acf05723e78e7ab26598343ea2b8e3e1bb54037623e",
+      "seconds": 0.32,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:25.881374+00:00"
+    },
+    {
+      "file": "epmc-ghorani.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29361136+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29361136+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 10781,
+      "sha256": "4cd9d08a47325095954e80af9dd99de76dcac4405872351aac646cead676e5fe",
+      "seconds": 1.6,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:27.481724+00:00"
+    },
+    {
+      "file": "crossref-ghorani.json",
+      "url": "https://api.crossref.org/works/10.1093%2Fannonc%2Fmdx687?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fannonc%2Fmdx687?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 11804,
+      "sha256": "711871a018cb05b4f6853d486feb9092d137ad0c535375a81c322f9a65cd56e5",
+      "seconds": 0.33,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:27.816427+00:00"
+    },
+    {
+      "file": "epmc-litchfield.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-020-17526-5&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-020-17526-5&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 16246,
+      "sha256": "eb3192a7c90e214266b9e1ccc30a1afa7f5617560328756538baccf63b00790f",
+      "seconds": 0.9,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:28.718563+00:00"
+    },
+    {
+      "file": "crossref-litchfield.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41467-020-17526-5?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41467-020-17526-5?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 24428,
+      "sha256": "0bcf8da9cdff75cf8ce4584a3f3c48c3803c8e3a340e3dccedd47bb9918b4343",
+      "seconds": 0.31,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:29.036092+00:00"
+    },
+    {
+      "file": "hla-names.html",
+      "url": "https://hla.alleles.org/pages/nomenclature/naming_alleles/",
+      "finalURL": "https://hla.alleles.org/pages/nomenclature/naming_alleles/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 26090,
+      "sha256": "cbaf31a83880bb607e9a32f2604fffbdc6d00c253779ccb00bd79cb222f792f6",
+      "seconds": 0.67,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:29.703880+00:00"
+    },
+    {
+      "file": "netmhcpan-4.1.html",
+      "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+      "finalURL": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 989399,
+      "sha256": "db77a768d914e4a7564fed4c05376c707715fd83e86e39fd2d52b05382413e33",
+      "seconds": 2.55,
+      "captureFileWrittenAtUTC": "2026-11-12T06:05:32.256096+00:00"
+    }
+  ],
+  "rawCaptureCount": 63,
+  "failedOrNonBodySources": [
+    {
+      "capture": "full-rabinovich.xml",
+      "problem": "EPMC HTTP 500",
+      "alternative": "NCBI efetch supplied full body; stated methods paragraphs read."
+    },
+    {
+      "capture": "full-elispot.xml",
+      "problem": "EPMC HTTP 500",
+      "alternative": "NCBI efetch supplied metadata/abstract only. Publisher PDF supplied the read procedure."
+    },
+    {
+      "capture": "bio-protocol-elispot.html",
+      "problem": "Publisher HTML HTTP 468",
+      "alternative": "Publisher public PDF was HTTP 200."
+    },
+    {
+      "capture": "elispot-pmc.html",
+      "problem": "Retrieved HTML was not used as protocol-body evidence.",
+      "alternative": "The publisher PDF is the read body source."
+    },
+    {
+      "capture": "epmc-follow-altman-erratum.json",
+      "problem": "Exact-title/date query did not retrieve the 1998 notice; the linked erratum has not been read.",
+      "alternative": "Modern independent multimer/function evidence is available; no absence-of-correction claim is made."
+    }
+  ],
+  "depthLimits": [
+    "Sarkizova has an online 2019 date and a 2020 print date; labels retain 2020.",
+    "The two initial abstract displays lost mathematical less-than clauses during HTML stripping. Maecker and Barroso-Sousa abstracts were re-read with numeric comparisons preserved.",
+    "Old matched fields for antigen processing, CAR/NK recognition, PBMC definitions, repertoire counts, immunodominance, epitope spreading, self-similarity and VAF/genetic-code context retain their earlier recorded primary-source scopes; only the named scientific clauses are reused.",
+    "The protocol abstract describes treatment effectiveness broadly. The new teaching deliberately limits ELISpot to its secretion measurement rather than adopting a clinical efficacy claim."
+  ],
+  "elicit": {
+    "status": "No callable Elicit search/report interface in current tool inventory; orchestration metadata is not an Elicit evidence tool.",
+    "frozenLiteratureOccurrenceCountChanged": false,
+    "newQuestionOrReportLinks": []
+  },
+  "inheritedContextIndex": {
+    "inherited-antigen-evidence": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-antigen-processing": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-carter-vaf": {
+      "checkpoints": [
+        {
+          "file": "measurement-sequencing-2026-11-10/primary-sources.json",
+          "sha256": "e8dcc0d4f4baead42657a769bbcc03ba5fd68146bc1a18b4a45ab5a1f20d129e"
+        },
+        {
+          "file": "vaccine-data-guides-2026-11-11/primary-sources.json",
+          "sha256": "f97674d8b584b9c9f22cb4a10a700b16f58cabce7f4a3aa1bd4fcdcf2615b836"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-epitope-spreading": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-genetic-code": {
+      "checkpoints": [
+        {
+          "file": "genetic-code-2026-11-11/primary-sources.json",
+          "sha256": "dc44a34dbca83466a145f7bca8e71189fb17fa87ae6973bb926b9813b95dfa8a"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-immunodominance": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-immunopeptidome": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-pbmc": {
+      "checkpoints": [
+        {
+          "file": "blood-immune-2026-11-10/primary-sources.json",
+          "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e"
+        },
+        {
+          "file": "blood-immune-2026-11-10/acceptance-r2/primary-sources.json",
+          "sha256": "57e29e920b8627692460ed773c02eb4e35a410d70a26ef588f219d5fbe497a63"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-self-similarity": {
+      "checkpoints": [
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-specimen-fit": {
+      "checkpoints": [
+        {
+          "file": "spatial-computational-2026-11-10/primary-sources.json",
+          "sha256": "fbccc2a8a77335ef209cb3caa66648ace38e829965dd4fba8c10952941cba6f4"
+        },
+        {
+          "file": "antigen-antibodies-2026-11-09/primary-sources.json",
+          "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-tcr": {
+      "checkpoints": [
+        {
+          "file": "blood-immune-2026-11-10/primary-sources.json",
+          "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e"
+        },
+        {
+          "file": "blood-immune-2026-11-10/acceptance-r2/primary-sources.json",
+          "sha256": "57e29e920b8627692460ed773c02eb4e35a410d70a26ef588f219d5fbe497a63"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    },
+    "inherited-tcr-and-nk": {
+      "checkpoints": [
+        {
+          "file": "blood-immune-2026-11-10/primary-sources.json",
+          "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e"
+        },
+        {
+          "file": "blood-immune-2026-11-10/acceptance-r2/primary-sources.json",
+          "sha256": "57e29e920b8627692460ed773c02eb4e35a410d70a26ef588f219d5fbe497a63"
+        },
+        {
+          "file": "innate-immunity-2026-11-10/primary-sources.json",
+          "sha256": "ceaa491c3784e61a8bceac39e6474f4b3d6540d8f1b42322f5069aebbf335d54"
+        }
+      ],
+      "scope": "Only the named unchanged field clauses are reused at their prior recorded reading depth and acceptance limits. This is not a new whole-paper read or expert approval."
+    }
+  },
+  "nonLiteratureReasoning": {
+    "inference": "Fictional premises, definitions and evidence-reading conclusions are explicit; these have no claim of measured biological rates or prospective clinical validation."
+  }
+}

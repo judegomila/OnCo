@@ -1,0 +1,47 @@
+{
+  "partialRequirements": [
+    {
+      "id": "ST4-014",
+      "requirement": "Verify the dated US no-approved-TROP2-microtubule and TNBC-ADC TOP1-column statements rather than global absence or a statement about all TNBC drugs.",
+      "remaining": [
+        "The source's no-approved-TROP2-microtubule and all-TNBC-ADC-TOP1 negative inventory claims are not verified or adopted. A bounded authoritative inventory search remains required."
+      ]
+    }
+  ],
+  "sourceOnlyVisualFindings": [
+    {
+      "id": "SG-V01",
+      "severity": "moderate",
+      "diagrams": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "theme": "dark",
+      "finding": "Inline pale node fills retain pale theme text: highlighted routing nodes and three strategy-category nodes have poor contrast in this renderer. Live Guide theme behavior was not tested."
+    },
+    {
+      "id": "SG-V02",
+      "severity": "scientific-scope",
+      "diagrams": [
+        5
+      ],
+      "finding": "Arrows sort proposals by a teaching framework. They do not prove exclusive failure classes, causally effective redesigns, or that only bispecific binding changes delivery."
+    }
+  ],
+  "retainedCatalogueNotReverified": [
+    "Other clinical catalogue, approval, worldwide-first, later subgroup, UK/EU and older toxicity assertions in the selected owners.",
+    "Shared ADC/TCE mechanism templates and the product-path global-superiority label are queued, not fixed by the new notes."
+  ],
+  "primaryDepth": "27 publications at abstract or targeted-passage depth; zero whole original papers. Three complete correction notices read. Eight labels, six registry entries and five official documents have explicit targeted scope.",
+  "companionPending": true,
+  "buildLimits": [
+    "No full Next production build",
+    "No browser hydration or deployed-page verification",
+    "No main/live, expert, learner or language approval"
+  ],
+  "broaderGoalComplete": false
+}

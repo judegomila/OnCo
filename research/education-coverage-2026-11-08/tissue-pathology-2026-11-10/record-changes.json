@@ -1,0 +1,1456 @@
+{
+  "owners": [
+    {
+      "recordId": "ihc",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "bb0cd73cdaa1eb2a37b56b8a4483ac5227af5426a16464d7e27cf0b92089d8b9",
+      "afterRecordSha256": "bf17f339be3b5553e7e5b0a880b9eb312e1b4b4be0dac3aa8f4190bb18637f53",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "e152e4eda832bfc0cbe59967aa6153c52077684c19de2ed8b976ab1404c8280c",
+          "afterSha256": "55876d364f22264942171bcb7ba41e3e950c83a14b84a0e881ef0476311dc946"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "1043bb911ecbbeb7d3c2dae7be623625c0cd0c11e2a5fcfd04bf77d3bf106383"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "8bb82838f88d3804abd06da500405b6bce9f20b20b5a28981cc64cbd0489987f",
+          "afterSha256": "c1a319ec9f1168068543e93acc8f1660a657dcf64d36cfe969435c857db0cbef"
+        }
+      ]
+    },
+    {
+      "recordId": "cps",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "fa900721151ec2ce89279e955fd6f7aa3bbeccc723a1140f8ed02cccc8759e25",
+      "afterRecordSha256": "0067c7d34b12d6e401ead508ed1da880ff004c1b9db76d714fd16e1b8a91cb01",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "df1cf1023d74e04ebd27d1f622f67cde8ad46c0f209ae3410b4f26fde690b752",
+          "afterSha256": "44cebf356cb1b3770198da520db679513f05a49f456b5297e5803777dbe95376"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "2607e4ab6d6db3ef3c3dfd44af3000a6a001b7fe734a7aef69a046b1df1108e4"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "7948742de85573427b7c7bcda1ab0e3596f74f5b41f6485bcd03fb829542f31c"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "cf66558f418790c248877638d2a88d05c52c4fd274e7446d0ab9a473aac7828e",
+          "afterSha256": "591fc5c24e011174aef29d2cab9e4130ea3e85f26c8fee7ff2c442a0367ddc73"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "30c36c85b9f52bbaa53cdde43eb5c519dfe21732f2e55280fff21dd6d263975d",
+          "afterSha256": "6ce0b9149d25620a3f5bdf924b1079d3442ff051f4917418b55cea44071242c4"
+        }
+      ]
+    },
+    {
+      "recordId": "tils",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "61637b1cd6150dc10f74aeb32eaaaed6fdb2f7f6e18c5b16a50a5bcf7bbe734e",
+      "afterRecordSha256": "f79d220a58b249857c9eb2cff66598ab5db24b996652497d69c8391f13e2f8e7",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "a60ddee5991887aa5ea2a049b28571c900138a878bc41cf7d4111c4713bb8ea5",
+          "afterSha256": "7bcf8b6808e4999f4d07ed73c9fad0f17bb38e419a8e61bbd4fe10204ba7370f"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "e95813d9676b637ec67e8b41247138695055e1e9e1464b290c8786cc9000650f"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "21147975d225c6e29969b439885d73b90a0e0cc5fcab38bb9245beeb730a9b66"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "84865ca05aa033c3914c1fc2b02374d21d394cc0996fff04dcef0e0688c871dd",
+          "afterSha256": "f0f6896e2d3f39a3631f8a609403d2aef03b6c75031ff9537f9c1fd75c95b41a"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "e1176d097d0176934bd1b59d0a93a923ed7737ba66566f326d98333ab933d745",
+          "afterSha256": "cdeee6c0a159b24895f3d6f3a640088baf792c096e8aab92d244f972c5162041"
+        }
+      ]
+    },
+    {
+      "recordId": "core-needle-biopsy",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "844ae83b410923b74423a44138c22a77fc2fd0b2479f1ceb871aa8333186003e",
+      "afterRecordSha256": "ba8850867be391e37d16c5c13345a86fa7d7787b75efadfedae5c5c0a73da592",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "48f3abfb146075cffdfd3815501783050835587c0ae16ab14e78a44c308129f5",
+          "afterSha256": "ea3e770b28df313b6f6cecd9d79f80c625dae5a5a764d57efce2dbc1d16a8936"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "89741557b49a7826f71311730546b1f045d42827834b2f42db90b099aec4159c",
+          "afterSha256": "843f38b9703db89880006473c35409556a62100d26f590411324fea6952f6619"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "553747551ae6a8764326e5366d7727591d158869f758d604ca20f4a2f7966efb",
+          "afterSha256": "c8c103ce6914ae8f4087025b56fd069f231695450076a6c07db84f609c52026c"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "486692ca7e40a753d2f730faa309649ee7302b627dc3fb978aaea700cb522cc4",
+          "afterSha256": "f9d0bd85f25af2320758cce01a0f689da3a2901483e22c20cab7541dc8397a9b"
+        }
+      ]
+    },
+    {
+      "recordId": "tumour-purity",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "7df5c34f330899e2980c56376efd68e017067446ca9037a36fa2458fa3660784",
+      "afterRecordSha256": "43e4906017a7e458b138c2edceb7c8dcabdf47ba878b665ff0717b00dacfdf9e",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "1633ac423ab0dec9ec6babb022dc00876b8f6dfd5d8702b19ad0420d0da0a89b",
+          "afterSha256": "2e89c8221dcbed4cfd32fd4ae90245d110d36354d44d7ba6dcb65a8e979ef6a4"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f49e99a41ea4bcf94f40a5e68ac9ae06063823540169e8919d34dff62448560",
+          "afterSha256": "711e4f5dff432815c47c8155942768beac0881b7ac9510109441e41b9bded685"
+        }
+      ]
+    },
+    {
+      "recordId": "h-and-e-staining",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "56472260405bc246dfa7141c62b44ab2b516919b3d82e37f68dfbd8f4f6c4d89",
+      "afterRecordSha256": "209bf2998c45661b0cc8ff9ced767308239cc47448155c2fcd66c49dfdf3345c",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "112f3d0d1bd186a706717788d68cf142d1d9a46af98b6e5f4125bd61c3a77e4c",
+          "afterSha256": "cbe8b580dd946012adc78eb841f3c01226d3a3e1190b4e42beb512a15a3aaea1"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "37135066c4190b8fb35802032667f42e9e5a9950baed16fee24010bc00c9d387",
+          "afterSha256": "ed8051d5773361c19bd77e8b7e96c8e3bbb3726ed271f808162f916338503652"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "6f7e21ef43f6e0d7a430cea42af177262c896f91be1cf2accb15415860c2d356",
+          "afterSha256": "0c8b931b3dca1b3c34b960b7e06e90f5371dfce25a71699d42e4d125ec7390a3"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "8eeb002a5bae155a123702737b5d5875ecf5c633f013b9a476c5a0f2504d28f7",
+          "afterSha256": "afb839b520ae07e00725f79fab6431616690f656a0afde62f0dcde8c6541d042"
+        }
+      ]
+    },
+    {
+      "recordId": "digital-pathology-wsi",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "ab491cf539aa9bb62eb26ec9d15f8ac5d0b9ada6611a81da297966ad33d2b681",
+      "afterRecordSha256": "cb46098c39bac2c21d4716f557c16ae8873093398c58646ac19636bf3b370e48",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "8c3b50e1f8d03d803f4d2db551f3ac423b3e52228a7860d082fc5b51759ebde3",
+          "afterSha256": "81092f4f309d63611d7a381c2319bf5505e3a7125d915106d8144cbcf526cc01"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "0a2406df48bc233991e0bfcc687f3b2ffa48161bd830775e7d7a68ae589e55e4",
+          "afterSha256": "a9478590a7c728947cb8f315a412f04dec6c4c395f4f9ed35b79284fbb47d778"
+        }
+      ]
+    },
+    {
+      "recordId": "pd-l1-cps",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "50dc4554ee251b7f47195dfc053f0c31b1dc17f570008becfa5647754c8bcbb9",
+      "afterRecordSha256": "7629610af5d9f18b37d4f108f3b190209440d618977a94360769e77b741d397e",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "203550de69fd32247aa59c67343c1ec7437181af7576b6b4a0750aca2b15d62b",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "251390771e28561575c531877950432917ffd496174c89eac4bfaea7f18bfcb0",
+          "afterSha256": "d7cdf7774b3e460d88b9fca7ae8daa677a5ce2f4d5ba9021277991c0a9e45142"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "92d1256f6f49efc4ed2e16f8053724bd3d84f2057ed94e453a82ac51c33246e6",
+          "afterSha256": "9e1341593a0b025677c53ff0c77e8189face28d26b37376e231b907c47b21dfa"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "da35ef672b208bd59fde878cd5524b04d2011b180256bbdcf87247d695b6b64f",
+          "afterSha256": "511a05f519126349e46831711dc76e19d4c13623608e6fcc1f29c8418203e774"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "92ef67b41c79b61275b8c71906c7a5b6d3aa0a826b2e3636c480316704100cec",
+          "afterSha256": "6c598ee82cd28a4c78f8dce813d0aa2e9939b9cc5ded0648dbbddd33aafffc06"
+        }
+      ]
+    },
+    {
+      "recordId": "vacuum-assisted-breast-biopsy",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "97c7e23999c8888a47fdc1574c897651900eefc45a466a523dd7c796d40d594a",
+      "afterRecordSha256": "396dfa9c271063c3b786a5dd6f0d9f334893c29f0e909f1491b41cce2a478ef0",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "ba9fc93c7ed70a8b525f0a62023d41e1344542f7d58b17385ccc81443bf5421c",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "b05c2ab2d7dd99aacd2e6dd4448db8613a3363d6466efa756d54c77b4ebca0d4",
+          "afterSha256": "5fcb052d3ce0df2fe9a7aac2c46b27d6be2a205f3f4c2d6421af047444234bd1"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "e124aeed7877ff49ac5529ee9bc80ba64bacfe11bad0a938e8e001eaf72b9854"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "18da0d7d0cfeb164f34dee2fa2c9c4c9e71cf650f6574da823e60ce729a928ad"
+        }
+      ]
+    },
+    {
+      "recordId": "cfdna",
+      "version": "proposal-tissue-pathology-root",
+      "created": false,
+      "beforeRecordSha256": "0cc105033f09446c70f9dd5eef3de96e26839563e0edd007b616cf886b25fb85",
+      "afterRecordSha256": "2a704d8b3c64cd82bffddf1542ebb58970e96c60506395262c1a2c2689f7e23a",
+      "fields": [
+        {
+          "field": "related",
+          "beforeSha256": "d90b6c6baf3d9206eae2100dc595e1870867b6db50627e656ec8087742e69261",
+          "afterSha256": "0cd0ee2756453f6b46051f59248ad5031f1aa42112cfde7b55442ee9c6378d33"
+        }
+      ]
+    },
+    {
+      "recordId": "biopsy-after-neoadjuvant-therapy",
+      "version": "proposal-tissue-pathology-root",
+      "created": true,
+      "beforeRecordSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "afterRecordSha256": "b3ccf029050d46054f9cac017beb824b37e433edf45524480d10d9cebc0af355",
+      "fields": [
+        {
+          "field": "aka",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "d51a5bd2befb1c3eb161edfdc8232da82e37f62e054337cf54d0214857ffe8b7"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "7534b1be757fcdbd921dd8c8011b5fb5c537e7041dca0771b35497b47dbcb112"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "224f0fb8f6a9715c49283cde9560a43a1068326620685602a0736ba06acc5d49"
+        },
+        {
+          "field": "name",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "3a0272e758a33a105a7a68c065581f7f1c98a6e259dbacc3c831d607bf818113"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "47afeb4587de01498e3854b4994606f7ed782c2eba6c51b7086fda814ba5b9a5"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "80143262bc5a54b8357136b2cf85aac1d30b5e97cd45cb2c42a5b7b98d19592a"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "89db225648e5a76e8ac8c91c3098822229a763f927f7acf6f337094151339df7"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "7c4bdb498ce91bb0da2fa756054d8366743257dfe2f4f858a3f94b704111ba27"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "recordId": "tumor-stroma-ratio",
+      "version": "proposal-tissue-pathology-root",
+      "created": true,
+      "beforeRecordSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "afterRecordSha256": "7b2ea2a7b1edde1122e46ea4aa0197cedef69150041947094525152033bd5c2f",
+      "fields": [
+        {
+          "field": "aka",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "a02e298a83dfba9eee261ca4a32560868827375aebfefc36a004f5426933264a"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9e2da3f08401a47852ba261c0b4794abb73c39ab19222a5ad1eb50d2aba30f7c"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "45e4dfff224746d809aac7e1e2c1b8023d185c5f6fc8df09ae2ab05a9e8f30b2"
+        },
+        {
+          "field": "name",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "e5691aac30fb7100d0c8e33f7258de38dd1748fe491b9b79668bf4de1fd0fb44"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "dd14d2d852156becb53de82aa7fa59b8a15097ef16777862d99b572a700ecc3a"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "3594e028d1883652f36adf6c5f0d1e495041d12d5a16ab7ebabef522d0715b76"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "32ff9654b87e952297e9bab68a6656b1774978a34e7e193f1f9920f0ab384ffa"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "48abdaa23efdc6400cbf3dca90f1f8e7e9ac01730155742b9f097c277362a9d6"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "recordId": "surgical-resection-specimen",
+      "version": "proposal-tissue-pathology-root",
+      "created": true,
+      "beforeRecordSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "afterRecordSha256": "63ca36dbe7458ba35bc4f8d42df691692519871abdedd28436a86a9e5dbbe9ef",
+      "fields": [
+        {
+          "field": "aka",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "a02e298a83dfba9eee261ca4a32560868827375aebfefc36a004f5426933264a"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "d0a58aac5a0e596508ec08555884562a9fe46a03478735d4ff1dd68529c3916f"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "dc18d2312abc118dacf494e6b890b41bd40dcd0f0e944b1608e51e86805d7d70"
+        },
+        {
+          "field": "name",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "7e3fd4b9ba1f4aab02de0309052bddd30dde340b3fab99faa88e47f1c64c0d3c"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "cb0824b52b38752cb2218cd9377e73cebaead851556dfdf053616b31a8fe8dbf"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "e21fb439c1aa7ed6baa2142ded7f71b9846cf12b63e7217ea4e7351e03bba5de"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "16764d2b88c85b7e21fff7e124d749bcb875b479640ca9c8880d31eeb6366b27"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "dc53e1ba4e899208fe418e670ac850f81f4395b117995e9b4185444ba9224173"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "recordId": "blood-as-a-renewable-sample",
+      "version": "proposal-tissue-pathology-root",
+      "created": true,
+      "beforeRecordSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+      "afterRecordSha256": "9cf040a91c64be8570ca0fdc229665059999a3b46981c5efaabe17e502d8e5ea",
+      "fields": [
+        {
+          "field": "aka",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "category",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "7ce72fc0351be795b7ff17485647569017e4b90ed54b4e42c5055560fec8cc98"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "id",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "020ba684c74249e3e54d9f82bd27e6b14dc6b7c0b7db034ee68297a4c1878051"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4cf0753ae16c7a8b1ab08f293b45b0fdefc6b04e0ec5ba92b725a10bf9171e79"
+        },
+        {
+          "field": "name",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "36dac184d348dae6359a490fc8d3e518c12100f1003c8c82ddb7eac305347a2a"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "ea9740a46e770619cf2f7b409d89e09bfa10c3c931da29fe33fb5e9e352d0a42"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "people",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "00b642837a41d1232b8565d5323d33d48e8063097e0a41d7547a299966cb4854"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "1d802bb54654cf9ce64182bc9b915d49ae78dc2655efadd6da16fe44056408b5"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "3d952b4d6ce4b554ae89fa2bb11100dd9051be51c11eab8bc05e534745f62f1a"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "recordId": "finite-tissue-budget",
+      "version": "proposal-tissue-pathology-shared",
+      "created": false,
+      "beforeRecordSha256": "8c4665aa451a3f9947fb00770d3204f99cbdf56672a647e3f0c71ba41bff6303",
+      "afterRecordSha256": "63c7bd9766b3b585266fcc8a8106f95a06ae22684319d55b86da1eef2246ad60",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "48523253284cc410349f0e7829f80a501a71413e50bcf5b9b8f1d8f8ce0e191f",
+          "afterSha256": "00076cfb12d80adb18499ff98c6406a7c9fd9a1002c332f84654336670beb9b6"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "07b2fd745cf81fc015b4f31a526a614245418dbcebd14e1c4ba6b04cf8dfc0a9"
+        }
+      ]
+    },
+    {
+      "recordId": "rna-integrity",
+      "version": "proposal-tissue-pathology-shared",
+      "created": false,
+      "beforeRecordSha256": "bf9ce693c6ac98d69a89608a8348f5a6c4aaed5a4cf654cd655ff71900e33aae",
+      "afterRecordSha256": "6b0ec586c5ef2d3b3770e55773b07712f3e8f3aba4d285945672dcce94d8e7fb",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "fd018747f71e6203937abd0eb2d7124db6945a801bee94168d081d13845244ec",
+          "afterSha256": "04f597d509a6709e14749149140379eb30ea553a411b0480128d9ec5dc18da8a"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "defef8be4065ce107b1db725bc460f34df02e982ce828b34d62922067f3de90a"
+        }
+      ]
+    },
+    {
+      "recordId": "tissue-preparation-assay-fit",
+      "version": "proposal-tissue-pathology-shared",
+      "created": false,
+      "beforeRecordSha256": "b4832a9d25f7e7c404f5824fb325c22a1e76b5416a4aebeb61de080fbca8e77c",
+      "afterRecordSha256": "46d18085bdf7ac0587b0d166967ac9c867fcc7ac30ea862a873c45d309beb3ef",
+      "fields": [
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "2bc006a650f031e1844ed95f36b5212fb5720a7fdd26bbf25013913f9affcf8c",
+          "afterSha256": "b24797a1fedf517fdb4c5d5c8913542030ab5e9238295fa4b94e8a3902eab7a6"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "5b517f66158e84146e944c4fe50d418d0bb01af299327753b598c33f8fe7de52"
+        }
+      ]
+    }
+  ],
+  "proseConsolidation": [
+    {
+      "owner": "ihc",
+      "spans": [
+        {
+          "start": 6,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "A useful IHC result identifies the block, fixation and section, antibody clone, retrieval and detection system, eligible cells and scored compartment. Cutting and staining use finite tissue. Report the percentage, intensity, location and named scoring scale, together with expected-positive tissue, relevant internal controls and background assessment. Poor preservation, nonspecific binding, few eligible cells, heterogeneous staining and observer variation can limit interpretation. Validation must fit the assay and its intended use; a research measurement is not automatically a clinical selection test."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "pd-l1-cps",
+      "spans": [
+        {
+          "start": 11,
+          "stopExclusive": 19,
+          "replacementParagraphs": [
+            "For a specified PD-L1 workflow, prepare the tissue section, stain it with acceptable controls, assess adequacy, identify the eligible cells and then apply the scoring algorithm. Further sections consume finite tissue. Record the antibody clone, platform, specimen, scoring method and intended clinical use. The cited TNBC 22C3 guide requires at least 100 viable tumour cells; that requirement belongs to the named assay, rather than to every PD-L1 method.",
+            "Report CPS as a capped score, TPS as a tumour-cell percentage, or IC as the percentage of tumour area occupied by stained immune cells. Each algorithm has its own eligibility and threshold rules. Too few eligible cells, failed controls, incorrect cell attribution, necrosis and heterogeneous sampling can invalidate or limit a result. None of these scores alone describes the complete immune state, guarantees individual benefit or establishes eligibility in a different cancer or treatment setting."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "tils",
+      "spans": [
+        {
+          "start": 7,
+          "stopExclusive": 13,
+          "replacementParagraphs": [
+            "To interpret a stromal TIL estimate, retain the block, sampled site, specimen type and treatment setting, then define the eligible stromal region and its exclusions. The output is a continuous estimated percentage of that area occupied by the specified infiltrate. State whether a trained observer or a computational method produced it, with calibration and regional sampling where relevant. Artifacts, sparse stroma, heterogeneity, observer variation and an unrepresentative sample can limit the result. The section uses finite tissue, and measurement reproducibility is a separate question from validation for clinical treatment selection."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "core-needle-biopsy",
+      "spans": [
+        {
+          "start": 5,
+          "stopExclusive": 13,
+          "replacementParagraphs": [
+            "Core sampling starts by locating a target, collecting cylinders from the documented site, preserving them and examining sections. Diagnosis, represented architecture and any subsequent biomarker results describe those samples; core count is an inventory measure. Sectioning and extraction use finite material, and each additional assay needs a suitable validated input. A missed target, too few relevant cells, damaged cores, necrosis or incompatible preservation may defeat the intended question. Adequacy has no universal core-count threshold, and a core cannot establish whole-lesion composition, complete surgical margins or future treatment benefit."
+          ]
+        },
+        {
+          "start": 16,
+          "stopExclusive": 24,
+          "replacementParagraphs": [
+            "Fine-needle aspiration collects cells or fluid from a documented site for slides or a cell block and cytologic interpretation. The report gives a diagnostic category, adequacy and any assay-specific measurements. Preparation and ancillary tests consume the finite recovered material. Cellularity and suitability depend on the organ, laboratory and intended test; too few relevant cells, blood dilution, poor preservation or a missed target can limit the result. Clinical cytology and each ancillary assay need appropriate preparation and validation. Neither the aspirate nor a research performance estimate maps unsampled tissue boundaries, the entire lesion or every lymph node."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "tumour-purity",
+      "spans": [
+        {
+          "start": 8,
+          "stopExclusive": 15,
+          "replacementParagraphs": [
+            "A pathology estimate uses the represented slide region, while a computational purity/ploidy estimate fits sequencing copy-number and allele-fraction data. Fitting those existing data uses no additional tissue. Report purity as a fraction or percentage and ploidy as average cancer-genome copies, such as 2.1 or 3.8, with the region, method and model assumptions.",
+            "Laboratories set minimum tumour content for the particular assay. Too few tumour cells, contamination, subclonal copy changes or several similarly good model fits can make the estimate uncertain. Purity and ploidy do not identify which mutations drive the cancer or which treatment will work."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "h-and-e-staining",
+      "spans": [
+        {
+          "start": 4,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "H&E examination starts with a prepared tissue section, staining, inspection and integration with relevant clinical information. Cutting the section uses finite material. The output describes cell appearance and organisation, with counts or distances only when a specified method calls for them. Criteria depend on the feature and tissue; no universal colour cutoff defines cancer. Poor fixation, folds, tears, staining variation or a missing relevant interface can limit interpretation. Clinical morphology, a research image classifier and an unvalidated molecular prediction have different evidence requirements; the slide does not directly quantify a named protein or gene or reveal tissue outside the section."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "digital-pathology-wsi",
+      "spans": [
+        {
+          "start": 4,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "A whole-slide workflow scans a prepared slide, checks image quality, displays it for interpretation or applies a defined analysis. Scanning generally needs no additional section. Optics, focus, colour capture, file handling, display and viewer all affect the workflow. Report image resolution and, for analysis, the defined counts, areas or model-score units; the scanner, task and intended use determine quality criteria and cutoffs.",
+            "Missed tissue, poor focus, folds, stain variation, compression and incorrect cell boundaries can limit the image or its analysis. A validated diagnostic viewing workflow does not validate every computational claim. Neither a scan nor a model score supplies unscanned tissue, directly measured molecular expression or proof of treatment benefit."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "vacuum-assisted-breast-biopsy",
+      "spans": [
+        {
+          "start": 5,
+          "stopExclusive": 13,
+          "replacementParagraphs": [
+            "Vacuum-assisted sampling combines image guidance, probe sampling, tissue preparation and pathology correlation. Document the target, site and collected pieces, then report the diagnosis, sample inventory and any assay-specific results. Collection and subsequent sections use finite material; each ancillary assay has its own input requirements. No universal piece count proves adequacy or complete removal. Missed or incompletely represented targets, bleeding, damaged tissue, necrosis and inadequate analyte can limit the procedure. Results depend on the intended lesion and workflow and cannot alone establish whole-lesion biology, surgical clearance or future treatment response."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "tumor-stroma-ratio",
+      "spans": [
+        {
+          "start": 7,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "For the cited visual TSR protocol, record the H&E specimen and whether treatment preceded collection, select the eligible most stroma-rich field at a 10-times objective with tumour on all four sides, and estimate the stromal percentage in 10 percentage-point steps. State the observer method and protocol-specific high/low boundary. Software requires its own definition and cutoff. Field choice, necrosis, mucin and post-treatment fibrosis can change interpretation; this selected-field score is not interchangeable with a whole-slide average."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "surgical-resection-specimen",
+      "spans": [
+        {
+          "start": 4,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "Resection examination follows receipt and orientation, gross description, block mapping, microscopic examination and integration of findings. Record the named specimen and separately submitted parts; sectioning and extraction consume finite material. Depending on the cancer, specimen and treatment setting, outputs include diagnoses, dimensions and distances in millimetres, described margins and sampled-node counts. Lost orientation, fragmentation, ink penetration, incomplete mapping and unsuitable preservation can limit interpretation. Applicable diagnostic protocols and clinical correlation govern the report, while a research aliquot needs its own provenance. No specimen report examines every tissue left in the body or every unsampled node, or supplies an individual recurrence probability."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "blood-as-a-renewable-sample",
+      "spans": [
+        {
+          "start": 5,
+          "stopExclusive": 13,
+          "replacementParagraphs": [
+            "A blood assay starts with a named analyte or cell population, an appropriate collected fraction, processing and a defined measurement. Each draw and derived aliquot has finite volume; repeat draws have practical and health burdens. Outputs may be concentrations, molecule or variant estimates, or cell counts and frequencies. Input adequacy, detection limits and intended-use cutoffs belong to the assay. Wrong tubes, processing delays, cell breakdown, low input and mistaken source assignment can limit results. Monitoring, diagnostic and research uses need their own validation; a circulating result does not map tumour-wide cell composition or tissue localisation, and a negative result does not establish absence of all cancer."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "finite-tissue-budget",
+      "spans": [
+        {
+          "start": 3,
+          "stopExclusive": 11,
+          "replacementParagraphs": [
+            "Specimen allocation starts by identifying the available portions, assessing their suitability, estimating method-specific use and recording consumption. Blocks, slides, frozen pieces and cell aliquots are finite inputs; their counts alone do not establish adequacy. Record remaining portions with section thickness, area or analyte amounts and the relevant context. Receiving-laboratory requirements and diagnostic priorities apply, rather than a universal test budget. Outdated inventories, unrecognised exhaustion, unsuitable regions and duplicated destructive work can waste material. Specimen governance supports reliable testing but is not itself a clinical biomarker and does not establish whether a test changes care or another procedure is appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "rna-integrity",
+      "spans": [
+        {
+          "start": 4,
+          "stopExclusive": 11,
+          "replacementParagraphs": [
+            "RNA quality assessment uses an aliquot of an extract, which itself consumed specimen material. Examine the fragment-size distribution and method-specific quality summary, then check downstream recovery. Report RIN on its 1 to 10 scale, DV200 as a percentage, RNA quantity in nanograms and relevant library or recovery metrics. Acceptance depends on preservation, input amount and the intended assay; there is no universal RIN or DV200 pass cutoff. Poor extraction, degradation, chemical damage, contaminants, insufficient quantity or an uninterpretable trace can limit testing. Integrity does not measure tumour purity, cell viability, protein abundance or transcript function, and a research suitability metric is not a diagnostic result."
+          ]
+        }
+      ]
+    },
+    {
+      "owner": "tissue-preparation-assay-fit",
+      "spans": [
+        {
+          "start": 4,
+          "stopExclusive": 12,
+          "replacementParagraphs": [
+            "Assess suitability by documenting preservation, checking which cells are represented and applying quality checks for the intended assay or living-cell workflow. Sections, tissue pieces and cell aliquots are finite, and destructive quality checks also use material. Report analyte-appropriate yield and quality, or viable-cell recovery and function when those are required. The receiving method defines acceptance: a preservation label alone guarantees no pass. Delayed stabilisation, incompatible fixative, degraded analyte, poor thaw recovery and missing target cells can defeat the question. Validation on fixed tissue does not automatically transfer to frozen or cultured material, and input suitability alone proves neither clinical accuracy, tumour-wide representation nor patient drug response."
+          ]
+        }
+      ]
+    }
+  ],
+  "summaryCorrections": [
+    {
+      "owner": "pd-l1-cps",
+      "field": "tldr",
+      "beforeSha256": "92ef67b41c79b61275b8c71906c7a5b6d3aa0a826b2e3636c480316704100cec",
+      "afterSha256": "6c598ee82cd28a4c78f8dce813d0aa2e9939b9cc5ded0648dbbddd33aafffc06",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "field": "summary",
+      "beforeSha256": "da35ef672b208bd59fde878cd5524b04d2011b180256bbdcf87247d695b6b64f",
+      "afterSha256": "511a05f519126349e46831711dc76e19d4c13623608e6fcc1f29c8418203e774",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "h-and-e-staining",
+      "field": "summary",
+      "beforeSha256": "8eeb002a5bae155a123702737b5d5875ecf5c633f013b9a476c5a0f2504d28f7",
+      "afterSha256": "afb839b520ae07e00725f79fab6431616690f656a0afde62f0dcde8c6541d042",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "core-needle-biopsy",
+      "field": "tldr",
+      "beforeSha256": "486692ca7e40a753d2f730faa309649ee7302b627dc3fb978aaea700cb522cc4",
+      "afterSha256": "f9d0bd85f25af2320758cce01a0f689da3a2901483e22c20cab7541dc8397a9b",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "core-needle-biopsy",
+      "field": "summary",
+      "beforeSha256": "553747551ae6a8764326e5366d7727591d158869f758d604ca20f4a2f7966efb",
+      "afterSha256": "c8c103ce6914ae8f4087025b56fd069f231695450076a6c07db84f609c52026c",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "ihc",
+      "field": "summary",
+      "beforeSha256": "8bb82838f88d3804abd06da500405b6bce9f20b20b5a28981cc64cbd0489987f",
+      "afterSha256": "c1a319ec9f1168068543e93acc8f1660a657dcf64d36cfe969435c857db0cbef",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "cps",
+      "field": "tldr",
+      "beforeSha256": "30c36c85b9f52bbaa53cdde43eb5c519dfe21732f2e55280fff21dd6d263975d",
+      "afterSha256": "6ce0b9149d25620a3f5bdf924b1079d3442ff051f4917418b55cea44071242c4",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "cps",
+      "field": "summary",
+      "beforeSha256": "cf66558f418790c248877638d2a88d05c52c4fd274e7446d0ab9a473aac7828e",
+      "afterSha256": "591fc5c24e011174aef29d2cab9e4130ea3e85f26c8fee7ff2c442a0367ddc73",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "tils",
+      "field": "tldr",
+      "beforeSha256": "e1176d097d0176934bd1b59d0a93a923ed7737ba66566f326d98333ab933d745",
+      "afterSha256": "cdeee6c0a159b24895f3d6f3a640088baf792c096e8aab92d244f972c5162041",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    },
+    {
+      "owner": "tils",
+      "field": "summary",
+      "beforeSha256": "84865ca05aa033c3914c1fc2b02374d21d394cc0996fff04dcef0e0688c871dd",
+      "afterSha256": "f0f6896e2d3f39a3631f8a609403d2aef03b6c75031ff9537f9c1fd75c95b41a",
+      "reason": "Replace an overbroad definition or selection claim with the measured quantity and its specimen, assay and clinical scope. Earlier text remains in the private before snapshot."
+    }
+  ],
+  "shortReaders": {
+    "removedTranslations": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "id": "cps",
+        "before": "درجة PD-L1 تحسب الخلايا السرطانية والخلايا المناعية المصبوغة معاً.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/ar.ts",
+        "id": "tils",
+        "before": "خلايا مناعية دخلت إلى داخل الورم. وكلما زاد عددها كانت النتائج أفضل في سرطان الثدي الثلاثي السلبي.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/ar.ts",
+        "id": "core-needle-biopsy",
+        "before": "أخذ شريحة رقيقة من النسيج (خزعة لبية) أو بضع خلايا (رشف بالإبرة الدقيقة) عبر إبرة موجهة بالموجات فوق الصوتية أو التصوير المقطعي المحوسب أو الرنين المغناطيسي، لتشخيص السرطان وفحص مؤشراته دون جراحة.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "id": "cps",
+        "before": "Ein PD-L1-Score, der angefärbte Tumorzellen und Immunzellen zusammen zählt.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "id": "tils",
+        "before": "Immunzellen, die in den Tumor eingedrungen sind. Je mehr davon vorhanden sind, desto besser sind die Ergebnisse bei dreifach negativem Brustkrebs.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "id": "core-needle-biopsy",
+        "before": "Die Entnahme eines schmalen Gewebezylinders (Stanze) oder einiger Zellen (Feinnadelaspiration) über eine Nadel unter Ultraschall-, CT- oder MRT-Kontrolle, um den Krebs zu diagnostizieren und seine Marker ohne Operation zu testen.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "id": "cps",
+        "before": "Una puntuación de PD-L1 que cuenta juntas las células tumorales y las inmunitarias teñidas.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "id": "tils",
+        "before": "Células inmunitarias que han entrado en el tumor. Cuantas más, mejores resultados en cáncer de mama triple negativo.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "id": "core-needle-biopsy",
+        "before": "Tomar una lámina de tejido (cilindro) o unas pocas células (punción-aspiración con aguja fina) a través de una aguja guiada por ecografía, TC o RM, para diagnosticar el cáncer y analizar sus marcadores sin cirugía.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "id": "cps",
+        "before": "Un score PD-L1 qui compte ensemble les cellules tumorales et les cellules immunitaires marquées.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "id": "tils",
+        "before": "Des cellules immunitaires qui ont pénétré à l'intérieur de la tumeur. Plus elles sont nombreuses, meilleurs sont les résultats dans le cancer du sein triple négatif.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "id": "core-needle-biopsy",
+        "before": "Prélever une fine carotte de tissu (biopsie au trocart) ou quelques cellules (cytoponction à l'aiguille fine) à travers une aiguille guidée par échographie, scanner ou IRM, afin de diagnostiquer le cancer et de tester ses marqueurs sans chirurgie.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "id": "cps",
+        "before": "PD-L1 स्कोर जो रंगी ट्यूमर और प्रतिरक्षा कोशिकाओं को साथ गिनता है।",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "id": "tils",
+        "before": "ट्यूमर के भीतर पहुँची प्रतिरक्षा कोशिकाएँ। इनकी अधिकता का मतलब ट्रिपल-नेगेटिव स्तन कैंसर में बेहतर परिणाम।",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "id": "core-needle-biopsy",
+        "before": "अल्ट्रासाउंड, CT या MRI के मार्गदर्शन में सुई के ज़रिए ऊतक का एक पतला टुकड़ा (कोर) या कुछ कोशिकाएं (फाइन-नीडल एस्पिरेशन) निकालना, ताकि बिना सर्जरी कैंसर का निदान किया जा सके और उसके मार्करों की जांच की जा सके।",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "id": "cps",
+        "before": "染色された腫瘍細胞と免疫細胞を合わせて数えるPD-L1のスコアです。",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "id": "tils",
+        "before": "腫瘍の内部に入り込んだ免疫細胞のことです。トリプルネガティブ乳がんでは、この細胞が多いほど治療成績が良くなります。",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "id": "core-needle-biopsy",
+        "before": "超音波、CT、MRIで誘導した針を通じて、細長い組織片（コア）または少数の細胞（穿刺吸引）を採取し、手術なしでがんを診断してそのマーカーを検査すること。",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "id": "cps",
+        "before": "Um escore de PD-L1 que conta células tumorais e imunes coradas juntas.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "id": "tils",
+        "before": "Células imunes que entraram no tumor. Mais delas significa melhores resultados no câncer de mama triplo-negativo.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "id": "core-needle-biopsy",
+        "before": "Retirar uma lasca de tecido (fragmento) ou algumas células (aspiração por agulha fina) por meio de uma agulha guiada por ultrassom, TC ou RM, para diagnosticar o câncer e testar seus marcadores sem cirurgia.",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "id": "cps",
+        "before": "把染色的肿瘤细胞和免疫细胞一起计数的PD-L1评分。",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "id": "tils",
+        "before": "进入肿瘤内部的免疫细胞。越多，三阴性乳腺癌的结局越好。",
+        "after": "current English fallback"
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "id": "core-needle-biopsy",
+        "before": "在超声、CT或MRI引导下，通过穿刺针取出一小条组织（芯）或少量细胞（细针抽吸），以便在不做手术的情况下诊断癌症并检测其标志物。",
+        "after": "current English fallback"
+      }
+    ],
+    "replacedSimple": [
+      {
+        "file": "src/data/simple/part-b.ts",
+        "id": "cps",
+        "before": "A PD-L1 score that counts both stained tumour cells and stained immune cells.",
+        "after": "CPS compares certain PD-L1-stained tumour and immune cells with the number of viable tumour cells. The assay and treatment setting determine how the score is used."
+      },
+      {
+        "file": "src/data/simple/part-b.ts",
+        "id": "tils",
+        "before": "Immune cells that have got inside the tumour. More of them means a better outlook in triple-negative breast cancer.",
+        "after": "These are immune cells in tumour tissue. A stromal TIL score estimates the area they occupy in the tissue between tumour cells; it does not promise a better outcome or select a treatment."
+      },
+      {
+        "file": "src/data/simple/part-j.ts",
+        "id": "core-needle-biopsy",
+        "before": "A core needle biopsy takes a sliver of tissue through a needle guided by scans, diagnosing the cancer and testing its markers without surgery.",
+        "after": "A core needle takes small cylinders of tissue; a fine needle collects cells or fluid. Each samples a site, so a useful result depends on the question and the material collected."
+      }
+    ],
+    "addedSimple": [
+      {
+        "file": "src/data/simple/part-s.ts",
+        "id": "pd-l1-cps",
+        "text": "CPS compares certain PD-L1-stained tumour and immune cells with viable tumour cells. Its reported score stops at 100, and its use depends on the assay and treatment setting."
+      },
+      {
+        "file": "src/data/simple/part-s.ts",
+        "id": "biopsy-after-neoadjuvant-therapy",
+        "text": "A biopsy after drug treatment samples parts of the former breast tumour bed. A negative sample can miss remaining cancer and does not by itself establish that surgery can be omitted."
+      },
+      {
+        "file": "src/data/simple/part-s.ts",
+        "id": "tumor-stroma-ratio",
+        "text": "This score estimates supporting tissue within a defined tumour field. It differs from an immune-cell score, and a study association does not prove which treatment to choose."
+      },
+      {
+        "file": "src/data/simple/part-s.ts",
+        "id": "surgical-resection-specimen",
+        "text": "Removed tissue is mapped into selected blocks for examination. Its report describes the examined material, rather than every cell in the tumour or body."
+      },
+      {
+        "file": "src/data/simple/part-s.ts",
+        "id": "blood-as-a-renewable-sample",
+        "text": "Later blood draws are new samples, each with a finite volume. Plasma, serum and blood cells supply different measurements and do not reproduce the local structure of tumour tissue."
+      }
+    ],
+    "namedLanguageReviews": 0,
+    "reason": "Corrected definitions must not retain the earlier short text. Existing long-summary hash selectors reject changed source summaries automatically. No translation is claimed newly reviewed."
+  },
+  "preservation": {
+    "root": {
+      "before": 22791,
+      "after": 22795,
+      "changedOwners": [
+        "cfdna",
+        "core-needle-biopsy",
+        "cps",
+        "digital-pathology-wsi",
+        "h-and-e-staining",
+        "ihc",
+        "pd-l1-cps",
+        "tils",
+        "tumour-purity",
+        "vacuum-assisted-breast-biopsy"
+      ],
+      "newOwners": [
+        "biopsy-after-neoadjuvant-therapy",
+        "blood-as-a-renewable-sample",
+        "surgical-resection-specimen",
+        "tumor-stroma-ratio"
+      ],
+      "deletedOwners": []
+    },
+    "shared": {
+      "before": 22719,
+      "after": 22719,
+      "changedOwners": [
+        "finite-tissue-budget",
+        "rna-integrity",
+        "tissue-preparation-assay-fit"
+      ]
+    },
+    "wholeGraphChangedOnlyAllowedOwners": true,
+    "allExistingSourceLinksPreserved": true,
+    "nestedGraphNodesUnchanged": true,
+    "automaticCanSimAndCancerNotesPreserved": true
+  },
+  "intentionalScopeChanges": [
+    "The core-biopsy lead no longer promises adequacy for every assay or universal organ standards. Its former marrow/progression examples are retained in the private before snapshot and are outside this lesson reassessment.",
+    "The IHC lead replaces a blanket automation-improves-reproducibility statement with marker/specimen/intended-use validation. Graph relationships are preserved.",
+    "The CPS leads replace broad eligibility shortcuts with the measured score and a specifically scoped TNBC example; unchanged structured cancer-specific fields retain their earlier source scope.",
+    "The TIL lead qualifies prognosis, local cell population and treatment prediction instead of promising better outcomes from a high score.",
+    "H&E molecular model predictions are distinguished from direct measurements; universal and cheap are not treated as scientific guarantees."
+  ],
+  "sourceCorrections": [
+    "NRG-BR005 central imaging review is retrospective and its secondary analysis exploratory, rather than corrected central review.",
+    "The breast TSR result is labelled 81% stroma-poor versus 56% stroma-rich.",
+    "The specimen and molecular-assay proposals use readable source labels with all original URLs retained."
+  ]
+}

@@ -1,0 +1,1154 @@
+{
+  "canonicalOwners": 28,
+  "exactPassageChecks": 158,
+  "passed": 158,
+  "checks": [
+    {
+      "requirementId": "r1.copy-number-and-loh.total-vs-allele-specific",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.state-table",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.loh-not-deletion",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.major-minor-phasing",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.ploidy-purity",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.measurement",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.function-limit",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.worked-copy-neutral",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.copy-number-and-loh.assay-contract",
+      "recordId": "gene-amplification",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.locus-haplotype",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.lohhla-nsclc",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.all-or-none-regions",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.subclonal-uninformative",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.dna-rna-protein-b2m",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.neoantigen-implication",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.worked-haplotype",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.hla-loh.assay-contract",
+      "recordId": "hla-loh",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.long-read-reach",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.methylation-not-sequence",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.three-workflows",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.amplification-loses-marks",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.independent-capabilities",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.fraction-vs-confidence",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.long-read-and-methylation-sequencing.assay-contract",
+      "recordId": "long-read-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.definitions",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.two-approaches",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.labels",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.cap-validation",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.lynch-and-methylation",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.label-1-8",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.worked-indeterminate",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.msi.assay-contract",
+      "recordId": "msi",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.territory-table",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.exome-meaning",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.rough-sizes",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.zehir-panel-depth",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.budget-tradeoff",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.class-specific-performance",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.reduced-coverage",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.worked-negatives",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.panel-exome-genome.assay-contract",
+      "recordId": "ngs",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.depth-definition",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.mean-vs-breadth",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.worked-100x-90pct",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.read-vs-molecular-depth",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.more-sequencing-limit",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.negative-scope",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.deep-vs-broad",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-depth-and-coverage.assay-contract",
+      "recordId": "sequencing-depth-and-coverage",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.definition",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.phred",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.base-vs-mapping",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.paired-end",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.amplification-duplicates",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.raw-vs-usable",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.sequencing-reads.assay-contract",
+      "recordId": "sequencing-reads",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.density-definition",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.denominator",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.harmonisation",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.neoantigen-limit",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.label-1-18",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.worked-12-vs-24",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.not-cin-not-msi",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.assay-contract",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.matched-normal-def",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.attribution-logic",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.tumor-only-inference",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.jones-2015",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.origin-not-function",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.worked-48pct",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-normal-vs-tumor-only-sequencing.assay-contract",
+      "recordId": "tumor-normal-vs-tumor-only-sequencing",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.vaf-definition",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.ccf-and-denominators",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.dna-contribution-formula",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.expected-vaf-formula",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.same-cells-25-vs-33",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.try-it-one-sixth",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.vaf-limits",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-allele-fraction-and-cancer-cell-fraction.assay-contract",
+      "recordId": "vaf",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.definition",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.evidence-inputs",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.vcf-filter",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.annotation-vs-calling",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.agreement-not-independence",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.worked-ambiguous-mapping",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.variant-calling.assay-contract",
+      "recordId": "variant-calling",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.definition",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.normalisation-vs-correction",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.confounding",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.biology-not-batch",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.replicates",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.multi-lab-reproducibility",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.assay-contract",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.workflow",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.assignment",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.mixture",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.isoform-hidden",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.claim-limits",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.worked-20-to-40",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.specimen-validation",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-rna-seq.assay-contract",
+      "recordId": "bulk-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.measured-unit",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.deconvolution-assumption",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.sc-sn-compartments",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.spatial-units",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.same-cells-caution",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.replication",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.worked-60-of-300",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.assay-contract",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.bulk-vs-single-cell-vs-spatial-rna.assay-contract",
+      "recordId": "single-cell-spatial",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.counting-unit-umi",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.cpm",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.tpm",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.composition",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.worked-cpm-tpm",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.not-batch-or-absolute",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.counts-normalization.assay-contract",
+      "recordId": "tpm-fpkm-counts",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.junction-vs-fusion",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.split-vs-spanning",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.psi",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.assay-reach",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.assay-reach",
+      "recordId": "rna-seq",
+      "field": "principle",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.probe-chemistry",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.negative-scope",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.worked-three-copies",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.fusion-and-splice-detection.assay-contract",
+      "recordId": "rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.definition",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.three-kinds",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.pam50",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.module-vs-gsea",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.locked-and-venet",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.validity-ladder",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.bulk-origin",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.worked-new-normalisation",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.gene-expression-signatures.assay-contract",
+      "recordId": "gene-expression-signatures",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.definition",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.rna-share-vs-cell-share",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.relative-vs-absolute",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.state-reconstruction",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.validation-comparators",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.worked-50-vs-10-30",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.immune-deconvolution.assay-contract",
+      "recordId": "immune-deconvolution",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.inputs",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.ssgsea-vs-gsva",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.score-semantics",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.function-limit",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.worked-mean-rank",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.gsea-cohort",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.rna-pathway-scoring.assay-contract",
+      "recordId": "rna-pathway-scoring",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.barcode-umi",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.nucleus-vs-cell",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.preparation-bias",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.zeros-ambient-doublets",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.cluster-limit",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.nested-replication",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.single-cell-and-single-nucleus-rna-seq.assay-contract",
+      "recordId": "single-cell-rna-seq",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.batch-effects.crossed-design-exercise",
+      "recordId": "batch-effects",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "r1.tumor-mutational-burden.study-design-boundary",
+      "recordId": "tmb",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    }
+  ],
+  "captures": [
+    {
+      "id": "tmb",
+      "capture": "tmb.html",
+      "sha256": "881f8db50599feadc58433c6750680bbc098170ddb0160febf966f62310a516e",
+      "bytes": 86780,
+      "currentRefresh": false
+    },
+    {
+      "id": "msi",
+      "capture": "msi.html",
+      "sha256": "08d4709d582cc6c08911bfe610c963b18dba86e4ce97e75437b0514fc9d4409e",
+      "bytes": 106507,
+      "currentRefresh": false
+    },
+    {
+      "id": "ngs",
+      "capture": "ngs.html",
+      "sha256": "5fefdc78ba3d84733996df3731477f06e5ebbe7886ca7a476cdae9a9e801a819",
+      "bytes": 114175,
+      "currentRefresh": false
+    },
+    {
+      "id": "rna-seq",
+      "capture": "rna-seq.html",
+      "sha256": "1b6c0d5efaf7953a2c5887eb8ecfd81a9ebd6db33e1da0428134a60b3259f25a",
+      "bytes": 183180,
+      "currentRefresh": false
+    },
+    {
+      "id": "single-cell-spatial",
+      "capture": "single-cell-spatial.html",
+      "sha256": "ee1a7e755a484bbe88e00bce077457573a8ee5e839c85a4b0f30bfcd2401d370",
+      "bytes": 82363,
+      "currentRefresh": true
+    },
+    {
+      "id": "long-read-sequencing",
+      "capture": "long-read-sequencing.html",
+      "sha256": "9949071330ab4d7c6ee2c9dcc8b72fcb4857ed054af177906bbb99dac9c38e3f",
+      "bytes": 45863,
+      "currentRefresh": false
+    },
+    {
+      "id": "bulk-rna-seq",
+      "capture": "bulk-rna-seq.html",
+      "sha256": "d8884406cb3f254d464e81cef8c87995c17d41de2587161a62615876aa5150e4",
+      "bytes": 35078,
+      "currentRefresh": false
+    },
+    {
+      "id": "variant-calling",
+      "capture": "variant-calling.html",
+      "sha256": "557bf7d8570c2104489671e82de417175a0f385a2efc8a4bccc1334cf0c0e659",
+      "bytes": 28520,
+      "currentRefresh": false
+    },
+    {
+      "id": "batch-effects",
+      "capture": "batch-effects.html",
+      "sha256": "57a731c0a5bb55800f5d3b3e6ce354f42db43a9d9919a60748d5925d9296bde4",
+      "bytes": 28033,
+      "currentRefresh": false
+    },
+    {
+      "id": "single-cell-rna-seq",
+      "capture": "single-cell-rna-seq.html",
+      "sha256": "d36ddb377372b807b50877cfd45082e9391fb5f0cbf204657f2f3349a8a5334f",
+      "bytes": 35998,
+      "currentRefresh": false
+    },
+    {
+      "id": "tmb-testing",
+      "capture": "tmb-testing.html",
+      "sha256": "2ff214c8572594d9dea0ebc23f8235a77a5c13ecbe10a8ead279cec5c2616674",
+      "bytes": 63559,
+      "currentRefresh": false
+    },
+    {
+      "id": "hla-loh",
+      "capture": "hla-loh.html",
+      "sha256": "eef3b67e15c671041d2a3e5549a10dd8d1f545c45917bd9e6105b881369588ea",
+      "bytes": 18800,
+      "currentRefresh": false
+    },
+    {
+      "id": "sequencing-depth-and-coverage",
+      "capture": "sequencing-depth-and-coverage.html",
+      "sha256": "6845fcff8c6e4fedddde9b9bab6fd402c589430505bfd741aa0edb90c7329f6a",
+      "bytes": 16064,
+      "currentRefresh": false
+    },
+    {
+      "id": "sequencing-reads",
+      "capture": "sequencing-reads.html",
+      "sha256": "9de74cfd63c744eff0b418c0ae4a1fe9dd2d58c29f470eac01729b0aee122eb5",
+      "bytes": 16031,
+      "currentRefresh": false
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing",
+      "capture": "tumor-normal-vs-tumor-only-sequencing.html",
+      "sha256": "35c8b8cabc9f6cf5ca02fa9ce615959937207d99957ae7c8f0f725b608214e58",
+      "bytes": 19337,
+      "currentRefresh": false
+    },
+    {
+      "id": "gene-expression-signatures",
+      "capture": "gene-expression-signatures.html",
+      "sha256": "b53ff3b8de42eb1dcde51678db7bae95e54b3da26473ae5b3205dead14a28b93",
+      "bytes": 18070,
+      "currentRefresh": false
+    },
+    {
+      "id": "immune-deconvolution",
+      "capture": "immune-deconvolution.html",
+      "sha256": "c993972f390cc6f05b936446d32b90af9d25e182a833fe0eed6051bccc07f6bb",
+      "bytes": 17023,
+      "currentRefresh": false
+    },
+    {
+      "id": "rna-pathway-scoring",
+      "capture": "rna-pathway-scoring.html",
+      "sha256": "56717e653332a347fbdc5e7d71057cf72e49011bafc8b470332dd3b1aea9d880",
+      "bytes": 17655,
+      "currentRefresh": false
+    },
+    {
+      "id": "vaf",
+      "capture": "vaf.html",
+      "sha256": "458e11b8081206d6e5e148eae7ecf3d192baa4eda21d04a8f0c2e836c8149be0",
+      "bytes": 42482,
+      "currentRefresh": false
+    },
+    {
+      "id": "gene-amplification",
+      "capture": "gene-amplification.html",
+      "sha256": "fd9bff51a5145e435b3e11d73465495611d6d3bdf40979999cd5cfd8db1dca4b",
+      "bytes": 61812,
+      "currentRefresh": false
+    },
+    {
+      "id": "tpm-fpkm-counts",
+      "capture": "tpm-fpkm-counts.html",
+      "sha256": "6fb0ad38c549d1f86db15eebdd8ebc95d3d3d6ccc94a9e797eed802a2ec58a1b",
+      "bytes": 26293,
+      "currentRefresh": false
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity",
+      "capture": "genome-wide-loss-of-heterozygosity.html",
+      "sha256": "2d95f081814fc77a5b734e3f8f73625ffc99da5c55e75ee6314e940f90c36269",
+      "bytes": 47720,
+      "currentRefresh": false
+    },
+    {
+      "id": "tmb-high",
+      "capture": "tmb-high.html",
+      "sha256": "20dfdc36aadb213f7008687c4b4859a1fcf95186afa9507373ea086efc463760",
+      "bytes": 79700,
+      "currentRefresh": false
+    },
+    {
+      "id": "nsclc",
+      "capture": "nsclc.html",
+      "sha256": "ca4670ae7bea4b968ffab530e976e8c177e4dcebbddf44537a3ec319aaf06785",
+      "bytes": 195501,
+      "currentRefresh": true
+    },
+    {
+      "id": "gallbladder",
+      "capture": "gallbladder.html",
+      "sha256": "95fcafdcc83027138cc28cc479927d4f2dd434ce64ad161b4bbc60faf416a05b",
+      "bytes": 187574,
+      "currentRefresh": true
+    },
+    {
+      "id": "recurrent-metastatic-hnscc",
+      "capture": "recurrent-metastatic-hnscc.html",
+      "sha256": "a345cb754ba3914194f14d3e0a140d076d9619b16f5d8337e5645215b42c6720",
+      "bytes": 102790,
+      "currentRefresh": true
+    },
+    {
+      "id": "checkpoint-inhibitor",
+      "capture": "checkpoint-inhibitor.html",
+      "sha256": "d58a563dae2145c03f840c80738489ed33a105591247e90e5c8b56023601b124",
+      "bytes": 232309,
+      "currentRefresh": true
+    },
+    {
+      "id": "msi-high",
+      "capture": "msi-high.html",
+      "sha256": "fd2b4e9448f9a1f5ae0b2cba95cb18d02ed27a2c4cd2ab38f84467dd5de2c809",
+      "bytes": 101234,
+      "currentRefresh": true
+    }
+  ],
+  "scope": "Actual EntityDetail server rendering with current graph data. Six affected captures refreshed after the final field/date clarification. No browser layout, hydration, mobile or accessibility claim."
+}

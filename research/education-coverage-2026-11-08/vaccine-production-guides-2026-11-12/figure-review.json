@@ -1,0 +1,364 @@
+{
+  "diagramInstances": 4,
+  "uniqueCodes": 2,
+  "renders": [
+    {
+      "codeSha256": "56c14c86275cfd1669c80ea019c2bdaee35a329d9e81762d038837e5a8ee8fb4",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "e24bc673602b47bb43e555d26471f7266fbc2e97908e6e4fc8d20929687afb6b",
+      "width": 168,
+      "height": 520,
+      "viewed": true,
+      "review": "Whole headless-Chrome render viewed in the listed theme; no observed scientific or layout defect. No measured contrast, accessibility or live-page approval."
+    },
+    {
+      "codeSha256": "56c14c86275cfd1669c80ea019c2bdaee35a329d9e81762d038837e5a8ee8fb4",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "6b8ae9618d950dc639c712a17395fedb789d116dfe2ec525c8b5748c0849bc0f",
+      "width": 168,
+      "height": 520,
+      "viewed": true,
+      "review": "Whole headless-Chrome render viewed in the listed theme; no observed scientific or layout defect. No measured contrast, accessibility or live-page approval."
+    },
+    {
+      "codeSha256": "1f709bce90ef054a3de34d43d03f26f9909f349e744bff9ed5ecd142444f04b3",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-default.png",
+      "renderSha256": "d93859aaa0138a6d1378539df1b6896327c1228ba4bfc0fea8c8cb9812e3aefe",
+      "width": 168,
+      "height": 832,
+      "viewed": true,
+      "review": "Whole headless-Chrome render viewed in the listed theme; no observed scientific or layout defect. No measured contrast, accessibility or live-page approval."
+    },
+    {
+      "codeSha256": "1f709bce90ef054a3de34d43d03f26f9909f349e744bff9ed5ecd142444f04b3",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-dark.png",
+      "renderSha256": "dd36c6669de51d97f2054b48a11f5f43293e234975770f281b7c447e20f14e2a",
+      "width": 168,
+      "height": 832,
+      "viewed": true,
+      "review": "Whole headless-Chrome render viewed in the listed theme; no observed scientific or layout defect. No measured contrast, accessibility or live-page approval."
+    }
+  ],
+  "standaloneAssets": 0,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "nativePngPathsViewed": [
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+      "bytes": 1633429,
+      "scope": "unclassified",
+      "sha256": "6a52779262f62ce8d5385a8d88b60d6a15196908638056bc89bc4605ea8b2242",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+      "bytes": 1664921,
+      "scope": "unclassified",
+      "sha256": "a07406c1890aa6ecea57097c7a5b4dde9f240d188287402283f997900792776e",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ],
+  "nativePngViews": 2,
+  "nativePngDimensions": [
+    1024,
+    1536
+  ],
+  "constructionBodiesReadInFull": 3,
+  "assetReceipts": [
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+      "bytes": 1633429,
+      "scope": "unclassified",
+      "sha256": "6a52779262f62ce8d5385a8d88b60d6a15196908638056bc89bc4605ea8b2242",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+      "bytes": 1664921,
+      "scope": "unclassified",
+      "sha256": "a07406c1890aa6ecea57097c7a5b4dde9f240d188287402283f997900792776e",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+      "bytes": 739,
+      "scope": "supporting",
+      "sha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-light-call.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "5d1d16d5d087d4a4a55b20c53cb2a1a7659d2edc",
+      "bytes": 4941,
+      "scope": "unclassified",
+      "sha256": "1bb93804d43954f4bb0bebc55f61b857fb27bb871fab9b301155248b65abdd1f"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "0fa760389d1e6ee82b34ed9e1e417a3d24fa26d6",
+      "bytes": 3008,
+      "scope": "unclassified",
+      "sha256": "dd8bcca8f37bf649144fead44b4751385b96d8f7d1050f10be25ba081d4d0704"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+      "bytes": 1633429,
+      "scope": "unclassified",
+      "sha256": "6a52779262f62ce8d5385a8d88b60d6a15196908638056bc89bc4605ea8b2242",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+      "bytes": 1664921,
+      "scope": "unclassified",
+      "sha256": "a07406c1890aa6ecea57097c7a5b4dde9f240d188287402283f997900792776e",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+      "bytes": 739,
+      "scope": "supporting",
+      "sha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-light-call.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "5d1d16d5d087d4a4a55b20c53cb2a1a7659d2edc",
+      "bytes": 4941,
+      "scope": "unclassified",
+      "sha256": "1bb93804d43954f4bb0bebc55f61b857fb27bb871fab9b301155248b65abdd1f"
+    },
+    {
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "0fa760389d1e6ee82b34ed9e1e417a3d24fa26d6",
+      "bytes": 3008,
+      "scope": "unclassified",
+      "sha256": "dd8bcca8f37bf649144fead44b4751385b96d8f7d1050f10be25ba081d4d0704"
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+      "sourceSha256": "6a52779262f62ce8d5385a8d88b60d6a15196908638056bc89bc4605ea8b2242"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+      "sourceSha256": "a07406c1890aa6ecea57097c7a5b4dde9f240d188287402283f997900792776e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-light-call.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "gitBlob": "5d1d16d5d087d4a4a55b20c53cb2a1a7659d2edc",
+      "sourceSha256": "1bb93804d43954f4bb0bebc55f61b857fb27bb871fab9b301155248b65abdd1f"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "gitBlob": "0fa760389d1e6ee82b34ed9e1e417a3d24fa26d6",
+      "sourceSha256": "dd8bcca8f37bf649144fead44b4751385b96d8f7d1050f10be25ba081d4d0704"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+      "sourceSha256": "6a52779262f62ce8d5385a8d88b60d6a15196908638056bc89bc4605ea8b2242"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+      "sourceSha256": "a07406c1890aa6ecea57097c7a5b4dde9f240d188287402283f997900792776e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-light-call.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "gitBlob": "5d1d16d5d087d4a4a55b20c53cb2a1a7659d2edc",
+      "sourceSha256": "1bb93804d43954f4bb0bebc55f61b857fb27bb871fab9b301155248b65abdd1f"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "gitBlob": "0fa760389d1e6ee82b34ed9e1e417a3d24fa26d6",
+      "sourceSha256": "dd8bcca8f37bf649144fead44b4751385b96d8f7d1050f10be25ba081d4d0704"
+    }
+  ],
+  "teachingPathsAddedPerPin": 2,
+  "supportingPathsAddedPerPin": 2,
+  "priorDarkEditSupportRolePreserved": true,
+  "legacyReadingUnitRepairs": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b",
+      "sourceSha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "beforeSections": null,
+      "afterSections": [
+        {
+          "ordinal": 0,
+          "kind": "image-full-extent",
+          "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
+        }
+      ],
+      "freshFullNativeViewOn": "2026-11-12",
+      "scientificReviewOrScopeUpgraded": false
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5",
+      "sourceSha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "beforeSections": null,
+      "afterSections": [
+        {
+          "ordinal": 0,
+          "kind": "image-full-extent",
+          "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0"
+        }
+      ],
+      "freshFullNativeViewOn": "2026-11-12",
+      "scientificReviewOrScopeUpgraded": false
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b",
+      "sourceSha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "beforeSections": null,
+      "afterSections": [
+        {
+          "ordinal": 0,
+          "kind": "image-full-extent",
+          "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3"
+        }
+      ],
+      "freshFullNativeViewOn": "2026-11-12",
+      "scientificReviewOrScopeUpgraded": false
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5",
+      "sourceSha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "beforeSections": null,
+      "afterSections": [
+        {
+          "ordinal": 0,
+          "kind": "image-full-extent",
+          "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0"
+        }
+      ],
+      "freshFullNativeViewOn": "2026-11-12",
+      "scientificReviewOrScopeUpgraded": false
+    }
+  ],
+  "legacyNativePngFreshRechecks": 2,
+  "repairReason": "Four earlier teaching-image version entries lacked explicit reading-section anchors although the raw hashes, review.sectionHashes and scientific field points were present. Fresh full-native-image rechecks support adding the existing full-image unit, without changing role, points, source depth or independent acceptance.",
+  "sourceArtworkChanged": false
+}

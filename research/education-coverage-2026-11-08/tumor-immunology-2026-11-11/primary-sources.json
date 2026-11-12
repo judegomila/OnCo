@@ -1,0 +1,1756 @@
+{
+  "checkedOn": "2026-11-11",
+  "sources": [
+    {
+      "pmid": "10426993",
+      "doi": "10.1126/science.285.5428.727",
+      "title": "Activation of NK cells and T cells by NKG2D, a receptor for stress-inducible MICA.",
+      "authors": "Bauer S, Groh V, Wu J, Steinle A, Phillips JH, Lanier LL, Spies T.",
+      "year": "1999",
+      "journal": "Science (New York, N.Y.)",
+      "readingDepth": "abstract",
+      "claimScope": "NKG2D is a receptor for stress-inducible MICA on gamma-delta T, CD8 alpha-beta T and NK cells; ligation stimulated cytolysis. MICB and ULBPs not in the abstract.",
+      "rawSha256": "7dcdd0fd0d73df43507c1bf99fb93afd031dc952e302e2ef4b682e33d9e227de",
+      "sourceId": "10426993",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10426993/",
+      "capture": "pmid-10426993.json"
+    },
+    {
+      "pmid": "10428963",
+      "doi": "10.1093/emboj/18.15.4250",
+      "title": "Kinetics and peptide dependency of the binding of the inhibitory NK receptor CD94/NKG2-A and the activating receptor CD94/NKG2-C to HLA-E.",
+      "authors": "Valés-Gómez M, Reyburn HT, Erskine RA, López-Botet M, Strominger JL.",
+      "year": "1999",
+      "journal": "The EMBO journal",
+      "readingDepth": "abstract",
+      "claimScope": "CD94/NKG2A binds HLA-E with higher affinity than CD94/NKG2C; both peptide dependent (recombinant proteins). Not in the lesson; resolved to support the NKG2C row.",
+      "rawSha256": "3a9cb634da3c48fb00bd7405d3e9994d9b2e1791b27f6893b41858f7197f7116",
+      "sourceId": "10428963",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10428963/",
+      "capture": "extra-10428963.json"
+    },
+    {
+      "pmid": "11239445",
+      "doi": "10.1016/s1074-7613(01)00095-4",
+      "title": "ULBPs, novel MHC class I-related molecules, bind to CMV glycoprotein UL16 and stimulate NK cytotoxicity through the NKG2D receptor.",
+      "authors": "Cosman D, Müllberg J, Sutherland CL, Chin W, Armitage R, Fanslow W, Kubin M, Chalupny NJ.",
+      "year": "2001",
+      "journal": "Immunity",
+      "readingDepth": "abstract",
+      "claimScope": "ULBPs and MICB are NKG2D/DAP10 ligands; ULBP expression conferred NK cytotoxicity susceptibility. Not in the lesson; resolved to support the NKG2D row.",
+      "rawSha256": "4a96b66f9f2e5e0c513a78a8620ae460b1b913b0671b3cd552155dfe45e78301",
+      "sourceId": "11239445",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11239445/",
+      "capture": "extra-11239445.json"
+    },
+    {
+      "pmid": "12384702",
+      "doi": "10.1038/nature01112",
+      "title": "Tumour-derived soluble MIC ligands impair expression of NKG2D and T-cell activation.",
+      "authors": "Groh V, Wu J, Yee C, Spies T.",
+      "year": "2002",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Soluble MICA and reduced NKG2D on tumour-infiltrating and blood T cells in people with cancer; impaired antigen-specific T-cell responsiveness; no NK-cell NKG2D result in the abstract.",
+      "rawSha256": "3915e8f7975896cddcabd5dad290351ffbe26b060d47fb726e9a88f2811f0262",
+      "sourceId": "12384702",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12384702/",
+      "capture": "pmid-12384702.json"
+    },
+    {
+      "pmid": "14967443",
+      "doi": "10.1016/j.ijrobp.2003.09.012",
+      "title": "Ionizing radiation inhibition of distant untreated tumors (abscopal effect) is immune mediated.",
+      "authors": "Demaria S, Ng B, Devitt ML, Babb JS, Kawashima N, Liebes L, Formenti SC.",
+      "year": "2004",
+      "journal": "International journal of radiation oncology, biology, physics",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse: radiation to one of two flank tumours plus Flt3-L impaired the unirradiated tumour; tumour specific; absent in nude mice.",
+      "rawSha256": "6f836bcae74ef9a47bf9bf0670f62b5c266f9f3bb240b5d889d46bb9fc639962",
+      "sourceId": "14967443",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14967443/",
+      "capture": "pmid-14967443.json"
+    },
+    {
+      "pmid": "15032581",
+      "doi": "10.1146/annurev.immunol.22.012703.104803",
+      "title": "The three Es of cancer immunoediting.",
+      "authors": "Dunn GP, Old LJ, Schreiber RD.",
+      "year": "2004",
+      "journal": "Annual review of immunology",
+      "readingDepth": "abstract",
+      "claimScope": "Review: cancer immunoediting, elimination, equilibrium, escape.",
+      "rawSha256": "755cb018d309b2178fb3b6a5dc9da9bbd5891ddd9ab22ac44474e30f753a53f9",
+      "sourceId": "15032581",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15032581/",
+      "capture": "pmid-15032581.json"
+    },
+    {
+      "pmid": "15304389",
+      "doi": "10.1182/blood-2004-05-2058",
+      "title": "Imprint of human cytomegalovirus infection on the NK cell receptor repertoire.",
+      "authors": "Gumá M, Angulo A, Vilches C, Gómez-Lozano N, Malats N, López-Botet M.",
+      "year": "2004",
+      "journal": "Blood",
+      "readingDepth": "abstract",
+      "claimScope": "NKG2C-positive lymphocytes associated with positive HCMV serology in healthy blood donors (association). Not in the lesson; resolved to support the NKG2C row.",
+      "rawSha256": "c045630b5c8aaec54159ad91ce3df758b223e24c8142760fdc8bcdb42df8f55b",
+      "sourceId": "15304389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15304389/",
+      "capture": "extra-15304389.json"
+    },
+    {
+      "pmid": "15719024",
+      "doi": "10.1038/nri1570",
+      "title": "MHC class I molecules and KIRs in human history, health and survival.",
+      "authors": "Parham P.",
+      "year": "2005",
+      "journal": "Nature reviews. Immunology",
+      "readingDepth": "abstract",
+      "claimScope": "KIR and MHC class I are unlinked polymorphic gene families; combinations influence infection, autoimmunity, pregnancy and transplant outcomes. HLA-C/B/A allocation not in the abstract.",
+      "rawSha256": "e352d1b65dd8e45615636684b77e02c8e576942fb7a66399c03c63f28dc4d564",
+      "sourceId": "15719024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15719024/",
+      "capture": "pmid-15719024.json"
+    },
+    {
+      "pmid": "18425106",
+      "doi": "10.1038/ni1581",
+      "title": "Up on the tightrope: natural killer cell activation and inhibition.",
+      "authors": "Lanier LL.",
+      "year": "2008",
+      "journal": "Nature immunology",
+      "readingDepth": "abstract",
+      "claimScope": "Review of NK activating and inhibitory receptors, ITAM-dependent receptors, NKG2D-DAP10 and CD244. Abstract level only (full text stub).",
+      "rawSha256": "88d3d150f2f941f4604bc48f8a00741099caaf2d2b9e669dea46b09f3097ef43",
+      "sourceId": "18425106",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18425106/",
+      "capture": "pmid-18425106.json"
+    },
+    {
+      "pmid": "19293190",
+      "doi": "10.1158/0008-5472.can-08-2281",
+      "title": "Chemokine expression in melanoma metastases associated with CD8+ T-cell recruitment.",
+      "authors": "Harlin H, Meng Y, Peterson AC, Zha Y, Tretiakova M, Slingluff C, McKee M, Gajewski TF.",
+      "year": "2009",
+      "journal": "Cancer research",
+      "readingDepth": "abstract",
+      "claimScope": "Melanoma metastases: six chemokines preferentially expressed in tumours with T cells; in vitro migration and xenograft assays.",
+      "rawSha256": "a2b77907c6245453613508c01aaf33a2d94d4e5dd5ddb4a03a3f5af6e5bf171f",
+      "sourceId": "19293190",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19293190/",
+      "capture": "pmid-19293190.json"
+    },
+    {
+      "pmid": "19647220",
+      "doi": "10.1016/j.ccr.2009.06.018",
+      "title": "CD4(+) T cells regulate pulmonary metastasis of mammary carcinomas by enhancing protumor properties of macrophages.",
+      "authors": "DeNardo DG, Barreto JB, Andreu P, Vasquez L, Tawfik D, Kolhatkar N, Coussens LM.",
+      "year": "2009",
+      "journal": "Cancer cell",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse MMTV-PyMT: IL-4-expressing CD4 T cells promoted invasion and pulmonary metastasis through tumour-associated macrophages and EGFR signalling.",
+      "rawSha256": "f97fcc0290babef5961f6d2531c8c30aad9a02fe2c44d85aac97180995870324",
+      "sourceId": "19647220",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19647220/",
+      "capture": "pmid-19647220.json"
+    },
+    {
+      "pmid": "19701893",
+      "doi": "10.1002/eji.200939307",
+      "title": "Education of hyporesponsive NK cells by cytokines.",
+      "authors": "Juelke K, Killig M, Thiel A, Dong J, Romagnani C.",
+      "year": "2009",
+      "journal": "European journal of immunology",
+      "readingDepth": "abstract",
+      "claimScope": "Hyporesponsive NK cells acquired KIR after cytokine stimulation and gained competence only with cognate MHC (in vitro).",
+      "rawSha256": "8e33b9ca04338b64f035556c2b8cf33d6529ed52729d070b32f4de5930375a17",
+      "sourceId": "19701893",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19701893/",
+      "capture": "pmid-19701893.json"
+    },
+    {
+      "pmid": "20192806",
+      "doi": "10.1146/annurev-immunol-030409-101212",
+      "title": "Differentiation of effector CD4 T cell populations (*).",
+      "authors": "Zhu J, Yamane H, Paul WE.",
+      "year": "2010",
+      "journal": "Annual review of immunology",
+      "readingDepth": "Targeted full-text differentiation, transcription-factor, cytokine, functional and historical culture-uncertainty passages in PMC3502616; not full-article reading.",
+      "claimScope": "Review of CD4 effector differentiation; Th1, Th2, Th17, iTreg; master regulators and cytokine requirements read in the PMC full text; Tfh in vitro induction described as controversial.",
+      "rawSha256": "0e42457671464bdba18eff7d2dcb8047ebeea5af149d334184978aed24793b41",
+      "sourceId": "20192806",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20192806/",
+      "capture": "pmid-20192806.json"
+    },
+    {
+      "pmid": "20697067",
+      "doi": "10.1200/jco.2010.28.9793",
+      "title": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+      "authors": "Brody JD, Ai WZ, Czerwinski DK, Torchia JA, Levy M, Advani RH, Kim YH, Hoppe RT, Knox SJ, Shin LK, Wapnir I, Tibshirani RJ, Levy R.",
+      "year": "2010",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "readingDepth": "abstract",
+      "claimScope": "Phase I/II: 15 low-grade B-cell lymphoma patients, low-dose radiotherapy plus intratumoral CpG; distant responses 1 CR, 3 PR, 2 stable regressing.",
+      "rawSha256": "0677668e40bbf9f99645b5e51c0b1dc65ca9e8e710b8b7a18a3abfa9619d1963",
+      "sourceId": "20697067",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/",
+      "capture": "pmid-20697067.json"
+    },
+    {
+      "pmid": "22293174",
+      "doi": "10.1172/jci45817",
+      "title": "Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors.",
+      "authors": "Salmon H, Franciszkiewicz K, Damotte D, Dieu-Nosjean MC, Validire P, Trautmann A, Mami-Chouaib F, Donnadieu E.",
+      "year": "2012",
+      "journal": "The Journal of clinical investigation",
+      "readingDepth": "abstract",
+      "claimScope": "Human lung tumour slices: dense and aligned matrix restricts T-cell migration; collagenase increased contact with cancer cells.",
+      "rawSha256": "6842fa2019db318c0e38f2e2f450b6126fd4c3f873fc2d7ea6fb195994c9f5f4",
+      "sourceId": "22293174",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22293174/",
+      "capture": "pmid-22293174.json"
+    },
+    {
+      "pmid": "22397654",
+      "doi": "10.1056/nejmoa1112824",
+      "title": "Immunologic correlates of the abscopal effect in a patient with melanoma.",
+      "authors": "Postow MA, Callahan MK, Barker CA, Yamada Y, Yuan J, Kitano S, Mu Z, Rasalan T, Adamow M, Ritter E, Sedrak C, Jungbluth AA, Chua R, Yang AS, Roman RA, Rosner S, Benson B, Allison JP, Lesokhin AM, Gnjatic S, Wolchok JD.",
+      "year": "2012",
+      "journal": "The New England journal of medicine",
+      "readingDepth": "abstract",
+      "claimScope": "Single melanoma case with ipilimumab and radiotherapy; temporal associations with NY-ESO-1 antibody responses; not a rate.",
+      "rawSha256": "1ac5ab4cae4da352db3c43e82136a2e1c87c5e8f2f39054a55da3ef6b3bf5df8",
+      "sourceId": "22397654",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22397654/",
+      "capture": "pmid-22397654.json"
+    },
+    {
+      "pmid": "22461641",
+      "doi": "10.1126/scitranslmed.3003689",
+      "title": "Colocalization of inflammatory response with B7-h1 expression in human melanocytic lesions supports an adaptive resistance mechanism of immune escape.",
+      "authors": "Taube JM, Anders RA, Young GD, Xu H, Sharma R, McMiller TL, Chen S, Klein AP, Pardoll DM, Topalian SL, Chen L.",
+      "year": "2012",
+      "journal": "Science translational medicine",
+      "readingDepth": "abstract",
+      "claimScope": "PD-L1 and TIL colocalisation in melanocytic lesions (98% vs 28%), IFN-gamma at the interface; adaptive resistance hypothesis.",
+      "rawSha256": "fe7b99d8615404bd224830ad29b24fc1b4c23490233ed9a3885acad589d92672",
+      "sourceId": "22461641",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22461641/",
+      "capture": "pmid-22461641.json"
+    },
+    {
+      "pmid": "23516982",
+      "doi": "10.1146/annurev-immunol-020711-075005",
+      "title": "Controlling natural killer cell responses: integration of signals for activation and inhibition.",
+      "authors": "Long EO, Kim HS, Liu D, Peterson ME, Rajagopalan S.",
+      "year": "2013",
+      "journal": "Annual review of immunology",
+      "readingDepth": "Targeted full-text receptor integration, ITIM/adaptor, DNAM-1, NCR, CD16 and licensing passages in PMC3868343; not full-article reading.",
+      "claimScope": "No single activation receptor dominates; synergy integrated; licensing and revocable license model; ITIM/SHP-1/SHP-2 read in the PMC full text.",
+      "rawSha256": "d2fb2ebda5b84796c13551670faff7e41f5c8d2fa430af7209cba6cb6d0fe4ea",
+      "sourceId": "23516982",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23516982/",
+      "capture": "pmid-23516982.json"
+    },
+    {
+      "pmid": "23778140",
+      "doi": "10.1172/jci67428",
+      "title": "CD4⁺ follicular helper T cell infiltration predicts breast cancer survival.",
+      "authors": "Gu-Trantien C, Loi S, Garaud S, Equeter C, Libin M, de Wind A, Ravoet M, Le Buanec H, Sibille C, Manfouo-Foutsop G, Veys I, Haibe-Kains B, Singhal SK, Michiels S, Rothé F, Salgado R, Duvillier H, Ignatiadis M, Desmedt C, Bron D, Larsimont D, Piccart M, Sotiriou C, Willard-Gallo K.",
+      "year": "2013",
+      "journal": "The Journal of clinical investigation",
+      "readingDepth": "abstract",
+      "claimScope": "Untreated primary breast tumours: Tfh among infiltrating CD4 T cells; CXCL13-producing Tfh in TLS germinal centres; 8-gene Tfh signature predicted survival or chemotherapy response (prognostic association).",
+      "rawSha256": "b94c51f113ee3c45982a2c569c07e9a97060c3608effc05537e89830979952fa",
+      "sourceId": "23778140",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23778140/",
+      "capture": "pmid-23778140.json"
+    },
+    {
+      "pmid": "23890059",
+      "doi": "10.1016/j.immuni.2013.07.012",
+      "title": "Oncology meets immunology: the cancer-immunity cycle.",
+      "authors": "Chen DS, Mellman I.",
+      "year": "2013",
+      "journal": "Immunity",
+      "readingDepth": "Typeset relevant pages 1 and 2 and Figure 1/caption read from legal RadCommons teaching copy. Mirror not claimed byte-identical to publisher file.",
+      "claimScope": "Review of the cancer-immunity cycle; seven-step enumeration not in the abstract and the full text is not open access.",
+      "rawSha256": "661e20c67aab9113339d159dcc4c599f3bfcdb5769c92a987c73b7f640459ca3",
+      "sourceId": "23890059",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23890059/",
+      "capture": "pmid-23890059.json"
+    },
+    {
+      "pmid": "23986400",
+      "doi": "10.1126/scitranslmed.3006504",
+      "title": "Up-regulation of PD-L1, IDO, and T(regs) in the melanoma tumor microenvironment is driven by CD8(+) T cells.",
+      "authors": "Spranger S, Spaapen RM, Zha Y, Williams J, Meng Y, Ha TT, Gajewski TF.",
+      "year": "2013",
+      "journal": "Science translational medicine",
+      "readingDepth": "abstract",
+      "claimScope": "Human melanoma T-cell-inflamed tumours had IDO, PD-L1 and Tregs; mouse dependence on CD8 T cells (IFN-gamma for IDO and PD-L1, CCR4 chemokines for Tregs).",
+      "rawSha256": "badabac0f2fdf37bca16a3a5ac277ac1ada3d7eeb1cebda802a791c364eec976",
+      "sourceId": "23986400",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23986400/",
+      "capture": "pmid-23986400.json"
+    },
+    {
+      "pmid": "2419430",
+      "doi": "10.4049/jimmunol.136.7.2348",
+      "title": "Two types of murine helper T cell clone. I. Definition according to profiles of lymphokine activities and secreted proteins.",
+      "authors": "Mosmann TR, Cherwinski H, Bond MW, Giedlin MA, Coffman RL.",
+      "year": "1986",
+      "journal": "Journal of immunology (Baltimore, Md. : 1950)",
+      "readingDepth": "abstract",
+      "claimScope": "Two types of mouse helper T cell clone defined by lymphokine profiles (TH1, TH2).",
+      "rawSha256": "2d770f9e0ffbe5d25d88f2a89ee7c1eba96390a256dbb3c78c8e435e78fe1dc9",
+      "sourceId": "2419430",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2419430/",
+      "capture": "pmid-2419430.json"
+    },
+    {
+      "pmid": "25214542",
+      "doi": "10.1093/annonc/mdu450",
+      "title": "The evaluation of tumor-infiltrating lymphocytes (TILs) in breast cancer: recommendations by an International TILs Working Group 2014.",
+      "authors": "Salgado R, Denkert C, Demaria S, Sirtaine N, Klauschen F, Pruneri G, Wienert S, Van den Eynden G, Baehner FL, Penault-Llorca F, Perez EA, Thompson EA, Symmans WF, Richardson AL, Brock J, Criscitiello C, Bailey H, Ignatiadis M, Floris G, Sparano J, Kos Z, Nielsen T, Rimm DL, Allison KH, Reis-Filho JS, Loibl S, Sotiriou C, Viale G, Badve S, Adams S, Willard-Gallo K, Loi S, International TILs Working Group 2014.",
+      "year": "2015",
+      "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+      "readingDepth": "abstract",
+      "claimScope": "International TILs Working Group recommendations for H&E stromal TIL evaluation in breast cancer.",
+      "rawSha256": "966af0c3918b18173c0d6182295cd218e51dfccaea02928f3a6c2a7907515f70",
+      "sourceId": "25214542",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25214542/",
+      "capture": "pmid-25214542.json",
+      "fullTextLimit": "Prior Q copy is metadata-only and new BioC request returned non-XML. New direct method support comes from the separately read 2020 pitfalls article, at targeted depth."
+    },
+    {
+      "pmid": "25245761",
+      "doi": "10.1084/jem.20141308",
+      "title": "Genomic and bioinformatic profiling of mutational neoepitopes reveals new rules to predict anticancer immunogenicity.",
+      "authors": "Duan F, Duitama J, Al Seesi S, Ayres CM, Corcelli SA, Pawashe AP, Blanchard T, McMahon D, Sidney J, Sette A, Baker BM, Mandoiu II, Srivastava PK.",
+      "year": "2014",
+      "journal": "The Journal of experimental medicine",
+      "readingDepth": "Targeted full-text score convention, CMS5/Meth A model and binding/protection passages in PMC4203949.",
+      "claimScope": "Defines DAI as the numerical difference in NetMHC scores, new anchor residues plus rigidity identify protective neoepitopes with relatively high accuracy; mouse (CMS5, Meth A) with human cross-tests; affinity orders of magnitude weaker than 500 nM. Subtraction order and cohort sizes not asserted.",
+      "rawSha256": "f08142d1dbdb00d2f8fda5d026bb50ab86bf75a0e3165a9d129e77794cbcb246",
+      "sourceId": "25245761",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25245761/",
+      "capture": "pmid-25245761.json"
+    },
+    {
+      "pmid": "25477332",
+      "doi": "10.1158/0008-5472.can-14-2458",
+      "title": "Trafficking of T cells into tumors.",
+      "authors": "Slaney CY, Kershaw MH, Darcy PK.",
+      "year": "2014",
+      "journal": "Cancer research",
+      "readingDepth": "abstract",
+      "claimScope": "Review: T-cell trafficking into tumours (rolling, adhesion, extravasation, chemotaxis).",
+      "rawSha256": "b37334f55e8c8de48be4534b0052a83770010d2a3b47fd4a3c0a273d3ab2ff9b",
+      "sourceId": "25477332",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25477332/",
+      "capture": "pmid-25477332.json"
+    },
+    {
+      "pmid": "25601442",
+      "doi": "10.1038/nrclinonc.2014.224",
+      "title": "Exploiting the critical perioperative period to improve long-term cancer outcomes.",
+      "authors": "Horowitz M, Neeman E, Sharon E, Ben-Eliyahu S.",
+      "year": "2015",
+      "journal": "Nature reviews. Clinical oncology",
+      "readingDepth": "Targeted NCBI BioC author-manuscript passages in PMC5497123 on tissue injury, growth factors and angiogenic mechanisms. Review, not new patient efficacy evidence.",
+      "claimScope": "Review: perioperative stress, catecholamines and prostaglandins as proposed mediators; hypothesis that surgery-related responses may facilitate metastasis.",
+      "rawSha256": "88794057740b18d73b7f41b8b7c71db1a2ccae35c2845bb9c61e923ef6c34c90",
+      "sourceId": "25601442",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25601442/",
+      "capture": "pmid-25601442.json"
+    },
+    {
+      "pmid": "25838376",
+      "doi": "10.1126/science.aaa6204",
+      "title": "T cell exclusion, immune privilege, and the tumor microenvironment.",
+      "authors": "Joyce JA, Fearon DT.",
+      "year": "2015",
+      "journal": "Science (New York, N.Y.)",
+      "readingDepth": "abstract",
+      "claimScope": "Review: stromal cells exclude T cells from the vicinity of cancer cells.",
+      "rawSha256": "32cf8bd36bc521651bb98c76236ceb172acc6853f56ab12d500bc3be03967ae5",
+      "sourceId": "25838376",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25838376/",
+      "capture": "pmid-25838376.json"
+    },
+    {
+      "pmid": "25970248",
+      "doi": "10.1038/nature14404",
+      "title": "Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity.",
+      "authors": "Spranger S, Bao R, Gajewski TF.",
+      "year": "2015",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Human metastatic melanoma: WNT/beta-catenin activation correlates with absence of a T-cell signature; mouse mechanism of lack of T-cell infiltration.",
+      "rawSha256": "49f19f589d537360d6765a40d6eb309c64179fa1cf647a0213954255cac6ad93",
+      "sourceId": "25970248",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25970248/",
+      "capture": "pmid-25970248.json"
+    },
+    {
+      "pmid": "26109379",
+      "doi": "10.1038/ncomms8458",
+      "title": "Non-redundant requirement for CXCR3 signalling during tumoricidal T-cell trafficking across tumour vascular checkpoints.",
+      "authors": "Mikucki ME, Fisher DT, Matsuzaki J, Skitzki JJ, Gaulin NB, Muhitch JB, Ku AW, Frelinger JG, Odunsi K, Gajewski TF, Luster AD, Evans SS.",
+      "year": "2015",
+      "journal": "Nature communications",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse and human melanoma: CXCR3 non-redundant for intravascular adhesion and extravasation of transferred CD8 effectors.",
+      "rawSha256": "eaf7214c24aadb89b7d29aa14d6c6e76296eabb3eb23445cab8792880fc00c17",
+      "sourceId": "26109379",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26109379/",
+      "capture": "pmid-26109379.json"
+    },
+    {
+      "pmid": "27433843",
+      "doi": "10.1056/nejmoa1604958",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "authors": "Zaretsky JM, Garcia-Diaz A, Shin DS, Escuin-Ordinas H, Hugo W, Hu-Lieskovan S, Torrejon DY, Abril-Rodriguez G, Sandoval S, Barthly L, Saco J, Homet Moreno B, Mezzadra R, Chmielowski B, Ruchalski K, Shintaku IP, Sanchez PJ, Puig-Saus C, Cherry G, Seja E, Kong X, Pang J, Berent-Maoz B, Comin-Anduix B, Graeber TG, Tumeh PC, Schumacher TN, Lo RS, Ribas A.",
+      "year": "2016",
+      "journal": "The New England journal of medicine",
+      "readingDepth": "Targeted full-text JAK1/JAK2, interferon dependencies, baseline recognition and B2M passages in PMC5007206.",
+      "claimScope": "Four melanoma patients relapsing on anti-PD-1: JAK1 or JAK2 loss-of-function plus loss of normal allele in two, B2M truncation in a third; JAK knockout lines still recognised by NY-ESO-1 TCR T cells (full text); selected small series.",
+      "rawSha256": "5cb75b5eec1d15aae0d563c2c817fb179b4668fcf91bf68b709744e95d7fc252",
+      "sourceId": "27433843",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27433843/",
+      "capture": "pmid-27433843.json"
+    },
+    {
+      "pmid": "27663893",
+      "doi": "10.1158/2159-8290.cd-16-0577",
+      "title": "Improved Efficacy of Neoadjuvant Compared to Adjuvant Immunotherapy to Eradicate Metastatic Disease.",
+      "authors": "Liu J, Blake SJ, Yong MC, Harjunpää H, Ngiow SF, Takeda K, Young A, O'Donnell JS, Allen S, Smyth MJ, Teng MW.",
+      "year": "2016",
+      "journal": "Cancer discovery",
+      "readingDepth": "abstract",
+      "claimScope": "Two mouse models of metastatic breast cancer: neoadjuvant immunotherapy more effective than adjuvant.",
+      "rawSha256": "5464365a69cd93933641b077f5f2d48acc631cfd6c0fe60a644c7d3d51019661",
+      "sourceId": "27663893",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27663893/",
+      "capture": "pmid-27663893.json"
+    },
+    {
+      "pmid": "28031159",
+      "doi": "10.1158/2159-8290.cd-16-0828",
+      "title": "Evolution of Neoantigen Landscape during Immune Checkpoint Blockade in Non-Small Cell Lung Cancer.",
+      "authors": "Anagnostou V, Smith KN, Forde PM, Niknafs N, Bhattacharya R, White J, Zhang T, Adleff V, Phallen J, Wali N, Hruban C, Guthrie VB, Rodgers K, Naidoo J, Kang H, Sharfman W, Georgiades C, Verde F, Illei P, Li QK, Gabrielson E, Brock MV, Zahnow CA, Baylin SB, Scharpf RB, Brahmer JR, Karchin R, Pardoll DM, Velculescu VE.",
+      "year": "2017",
+      "journal": "Cancer discovery",
+      "readingDepth": "abstract",
+      "claimScope": "Lung cancer patient samples: 7 to 18 putative neoantigens lost in resistant clones after checkpoint blockade.",
+      "rawSha256": "4cf8b3e460c4f3ed2eae5abd9825a9fcf4e2769549ea3bfe3e8003b0619b64dc",
+      "sourceId": "28031159",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28031159/",
+      "capture": "pmid-28031159.json"
+    },
+    {
+      "pmid": "28102259",
+      "doi": "10.1038/nature21349",
+      "title": "Elements of cancer immunity and the cancer-immune set point.",
+      "authors": "Chen DS, Mellman I.",
+      "year": "2017",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Review: cancer-immune set point in the context of the cancer-immunity cycle; abstract does not name inflamed, excluded or desert profiles.",
+      "rawSha256": "7abfb036038693161f4763e6e8668c0b7e7d04df029d5814cfa4effbae946d08",
+      "sourceId": "28102259",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28102259/",
+      "capture": "extra-28102259.json"
+    },
+    {
+      "pmid": "28490464",
+      "doi": "10.1158/1078-0432.ccr-17-0152",
+      "title": "Perioperative COX-2 and β-Adrenergic Blockade Improves Metastatic Biomarkers in Breast Cancer Patients in a Phase-II Randomized Trial.",
+      "authors": "Shaashua L, Shabat-Simon M, Haldar R, Matzner P, Zmora O, Shabtai M, Sharon E, Allweis T, Barshack I, Hayman L, Arevalo J, Ma J, Horowitz M, Cole S, Ben-Eliyahu S.",
+      "year": "2017",
+      "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+      "readingDepth": "abstract",
+      "claimScope": "Randomised placebo-controlled biomarker trial, 38 early breast cancer patients, 11 days propranolol plus etodolac; biomarkers changed; recurrence not an endpoint.",
+      "rawSha256": "1bab59931a3ef6c88daca477571e335098c6f0fec1015c23e657fc2df227bd71",
+      "sourceId": "28490464",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28490464/",
+      "capture": "pmid-28490464.json"
+    },
+    {
+      "pmid": "28494868",
+      "doi": "10.1016/j.celrep.2017.04.031",
+      "title": "Interferon Receptor Signaling Pathways Regulating PD-L1 and PD-L2 Expression.",
+      "authors": "Garcia-Diaz A, Shin DS, Moreno BH, Saco J, Escuin-Ordinas H, Rodriguez GA, Zaretsky JM, Sun L, Hugo W, Wang X, Parisi G, Saus CP, Torrejon DY, Graeber TG, Comin-Anduix B, Hu-Lieskovan S, Damoiseaux R, Lo RS, Ribas A.",
+      "year": "2017",
+      "journal": "Cell reports",
+      "readingDepth": "abstract + PMC full-text passages",
+      "claimScope": "Melanoma cell lines: IFN-gamma, JAK1/JAK2, STAT1/STAT2/STAT3, IRF1 axis regulates PD-L1; biopsies showed interferon signature in anti-PD-1 responders.",
+      "rawSha256": "099719b9df5296cdc3fb44d75e9f9ced9001ec85fbc0d0659e46a24621b734ba",
+      "sourceId": "28494868",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28494868/",
+      "capture": "pmid-28494868.json"
+    },
+    {
+      "pmid": "28678778",
+      "doi": "10.1038/nature22991",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "authors": "Ott PA, Hu Z, Keskin DB, Shukla SA, Sun J, Bozym DJ, Zhang W, Luoma A, Giobbie-Hurder A, Peter L, Chen C, Olive O, Carter TA, Li S, Lieb DJ, Eisenhaure T, Gjini E, Stevens J, Lane WJ, Javeri I, Nellaiappan K, Salazar AM, Daley H, Seaman M, Buchbinder EI, Yoon CH, Harden M, Lennon N, Gabriel S, Rodig SJ, Barouch DH, Aster JC, Getz G, Wucherpfennig K, Neuberg D, Ritz J, Lander ES, Fritsch EF, Hacohen N, Wu CJ.",
+      "year": "2017",
+      "journal": "Nature",
+      "readingDepth": "Targeted full-text supplied-peptide, processing, MHC blocking, culture and autologous tumour recognition passages in PMC5577644.",
+      "claimScope": "Phase I personal neoantigen vaccine in six people with melanoma: CD4 T cells targeted 58 (60%) and CD8 15 (16%) of 97 neoantigens; no control arm.",
+      "rawSha256": "08c3a87cec73bd09d817e204335dd8aaa2b71cfbe0485bbf55b3ac9d180c8d8f",
+      "sourceId": "28678778",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/",
+      "capture": "pmid-28678778.json"
+    },
+    {
+      "pmid": "28817109",
+      "doi": "10.3390/ijms18081787",
+      "title": "Dysfunctional Natural Killer Cells in the Aftermath of Cancer Surgery.",
+      "authors": "Angka L, Khan ST, Kilgour MK, Xu R, Kennedy MA, Auer RC.",
+      "year": "2017",
+      "journal": "International journal of molecular sciences",
+      "readingDepth": "Targeted NCBI BioC article passages in PMC5578175 on postoperative MDSCs, Tregs and patient-blood-to-mouse angiogenesis experiments. Review scope retained.",
+      "claimScope": "Review: post-surgical pro- then anti-inflammatory period; NK-cell dysfunction mediated by stress factors, cytokines and MDSCs.",
+      "rawSha256": "e4e72d654f91b52266e6783c9db874b07cb995b631d616fe3c0223d385965e4a",
+      "sourceId": "28817109",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28817109/",
+      "capture": "pmid-28817109.json"
+    },
+    {
+      "pmid": "29107330",
+      "doi": "10.1016/j.cell.2017.10.001",
+      "title": "Allele-Specific HLA Loss and Immune Escape in Lung Cancer Evolution.",
+      "authors": "McGranahan N, Rosenthal R, Hiley CT, Rowan AJ, Watkins TBK, Wilson GA, Birkbak NJ, Veeriah S, Van Loo P, Herrero J, Swanton C, TRACERx Consortium.",
+      "year": "2017",
+      "journal": "Cell",
+      "readingDepth": "abstract",
+      "claimScope": "HLA LOH in 40% of NSCLC by LOHHLA, associated with subclonal neoantigen burden and later tumour evolution.",
+      "rawSha256": "83e1ce9a88dbc3b0010f805a9b7084d464b117654a84bf495e9be6045001e46a",
+      "sourceId": "29107330",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29107330/",
+      "capture": "pmid-29107330.json"
+    },
+    {
+      "pmid": "29233559",
+      "doi": "10.1016/s1470-2045(17)30904-x",
+      "title": "Tumour-infiltrating lymphocytes and prognosis in different subtypes of breast cancer: a pooled analysis of 3771 patients treated with neoadjuvant therapy.",
+      "authors": "Denkert C, von Minckwitz G, Darb-Esfahani S, Lederer B, Heppner BI, Weber KE, Budczies J, Huober J, Klauschen F, Furlanetto J, Schmitt WD, Blohmer JU, Karn T, Pfitzner BM, Kümmel S, Engels K, Schneeweiss A, Hartmann A, Noske A, Fasching PA, Jackisch C, van Mackelenbergh M, Sinn P, Schem C, Hanusch C, Untch M, Loibl S.",
+      "year": "2018",
+      "journal": "The Lancet. Oncology",
+      "readingDepth": "abstract",
+      "claimScope": "Pooled neoadjuvant analysis 3,771 patients; TNBC pCR 31%, 31%, 50% by low, intermediate, high TILs; subtype-specific survival associations.",
+      "rawSha256": "9cffa07f81381e5ebabc80335cb31f1ac7ce1d071dc4e90ec7a8745c0e4f2c63",
+      "sourceId": "29233559",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29233559/",
+      "capture": "pmid-29233559.json"
+    },
+    {
+      "pmid": "29361136",
+      "doi": "10.1093/annonc/mdx687",
+      "title": "Differential binding affinity of mutated peptides for MHC class I is a predictor of survival in advanced lung cancer and melanoma.",
+      "authors": "Ghorani E, Rosenthal R, McGranahan N, Reading JL, Lynch M, Peggs KS, Swanton C, Quezada SA.",
+      "year": "2018",
+      "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+      "readingDepth": "abstract",
+      "claimScope": "Retrospective cohorts: 66 LUAD and 72 SKCM (TCGA) plus 131 melanoma and 31 NSCLC immunotherapy patients; mean DAI correlated with OS in 3 of 5 cohorts; clonal not subclonal; P values as stated. Correlation only.",
+      "rawSha256": "494625fd691e9b33dc3e6ebe9bdd6d7e3cd8b4e077845f95178b935b06db2920",
+      "sourceId": "29361136",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29361136/",
+      "capture": "pmid-29361136.json"
+    },
+    {
+      "pmid": "29443960",
+      "doi": "10.1038/nature25501",
+      "title": "TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells.",
+      "authors": "Mariathasan S, Turley SJ, Nickles D, Castiglioni A, Yuen K, Wang Y, Kadel EE, Koeppen H, Astarita JL, Cubas R, Jhunjhunwala S, Banchereau R, Yang Y, Guan Y, Chalouni C, Ziai J, Şenbabaoğlu Y, Santoro S, Sheinson D, Hung J, Giltnane JM, Pierce AA, Mesh K, Lianoglou S, Riegler J, Carano RAD, Eriksson P, Höglund M, Somarriba L, Halligan DL, van der Heijden MS, Loriot Y, Rosenberg JE, Fong L, Mellman I, Chen DS, Green M, Derleth C, Fine GD, Hegde PS, Bourgon R, Powles T.",
+      "year": "2018",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Urothelial cancer on atezolizumab: fibroblast TGF-beta signature with non-response and CD8 exclusion; mouse TGF-beta plus anti-PD-L1 enabled penetration and regression.",
+      "rawSha256": "ebcd45331da5f1d6698afb6f4b470200c5eb66d3cbdefe5e347966bb21543413",
+      "sourceId": "29443960",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29443960/",
+      "capture": "pmid-29443960.json"
+    },
+    {
+      "pmid": "29632196",
+      "doi": "10.1073/pnas.1720948115",
+      "title": "Macrophages impede CD8 T cells from reaching tumor cells and limit the efficacy of anti-PD-1 treatment.",
+      "authors": "Peranzoni E, Lemoine J, Vimeux L, Feuillet V, Barrin S, Kantari-Mimoun C, Bercovici N, Guérin M, Biton J, Ouakrim H, Régnier F, Lupo A, Alifano M, Damotte D, Donnadieu E.",
+      "year": "2018",
+      "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+      "readingDepth": "abstract",
+      "claimScope": "Human lung squamous carcinoma slices and mouse: macrophages trap CD8 T cells; CSF-1R blockade increases migration into islets and helps anti-PD-1.",
+      "rawSha256": "6eb7f8535b0cfa07d1a8fb99bfd518f23a4bb98e7a498b359e8c646258d63293",
+      "sourceId": "29632196",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29632196/",
+      "capture": "pmid-29632196.json"
+    },
+    {
+      "pmid": "29769722",
+      "doi": "10.1038/s41586-018-0130-2",
+      "title": "Bystander CD8&lt;sup&gt;+&lt;/sup&gt; T cells are abundant and phenotypically distinct in human tumour infiltrates.",
+      "authors": "Simoni Y, Becht E, Fehlings M, Loh CY, Koo SL, Teng KWW, Yeong JPS, Nahar R, Zhang T, Kared H, Duan K, Ang N, Poidinger M, Lee YY, Larbi A, Khng AJ, Tan E, Fu C, Mathew R, Teo M, Lim WT, Toh CK, Ong BH, Koh T, Hillmer AM, Takano A, Lim TKH, Tan EH, Zhai W, Tan DSW, Tan IB, Newell EW.",
+      "year": "2018",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Bystander CD8 TILs in human lung and colorectal tumours recognise non-cancer epitopes; CD39 absence defines them.",
+      "rawSha256": "90f61144ac0b0ae9c379f201392e10202b234e775d23b2d390d895f1c3f0a9b9",
+      "sourceId": "29769722",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/",
+      "capture": "pmid-29769722.json"
+    },
+    {
+      "pmid": "30057419",
+      "doi": "10.1038/s41577-018-0044-0",
+      "title": "CD4&lt;sup&gt;+&lt;/sup&gt; T cell help in cancer immunology and immunotherapy.",
+      "authors": "Borst J, Ahrends T, Bąbała N, Melief CJM, Kastenmüller W.",
+      "year": "2018",
+      "journal": "Nature reviews. Immunology",
+      "readingDepth": "abstract",
+      "claimScope": "Review: CD4 T cell help is relayed to CD8 T cells by specific dendritic cells during priming; deficient help reduces CTL response. CD40L and IL-12 detail not in the abstract.",
+      "rawSha256": "9fbe5dfe16b89372d17b130995d0c1d5131fd69a366eaa64694dbdddb86c858e",
+      "sourceId": "30057419",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30057419/",
+      "capture": "pmid-30057419.json"
+    },
+    {
+      "pmid": "30397353",
+      "doi": "10.1038/s41591-018-0232-2",
+      "title": "Radiotherapy induces responses of lung cancer to CTLA-4 blockade.",
+      "authors": "Formenti SC, Rudqvist NP, Golden E, Cooper B, Wennerberg E, Lhuillier C, Vanpouille-Box C, Friedman K, Ferrari de Andrade L, Wucherpfennig KW, Heguy A, Imai N, Gnjatic S, Emerson RO, Zhou XK, Zhang T, Chachoua A, Demaria S.",
+      "year": "2018",
+      "journal": "Nature medicine",
+      "readingDepth": "Targeted full-text day-88 completion, assessment and enrolled/evaluable denominators in PMC6286242.",
+      "claimScope": "Phase II single-arm: 39 enrolled, 21 evaluable at day 88, objective response 7/39 (18%) or 7/21 (33%), disease control 31%; irradiated site excluded; full text read for denominators.",
+      "rawSha256": "1614ab39a0cfc017cd8e4f9df97e1ea01143d60b7b2eb2a06940bd18b1b377f5",
+      "sourceId": "30397353",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30397353/",
+      "capture": "pmid-30397353.json"
+    },
+    {
+      "pmid": "30503213",
+      "doi": "10.1016/j.cell.2018.10.014",
+      "title": "Anti-NKG2A mAb Is a Checkpoint Inhibitor that Promotes Anti-tumor Immunity by Unleashing Both T and NK Cells.",
+      "authors": "André P, Denis C, Soulas C, Bourbon-Caillet C, Lopez J, Arnoux T, Bléry M, Bonnafous C, Gauthier L, Morel A, Rossi B, Remark R, Breso V, Bonnet E, Habif G, Guia S, Lalanne AI, Hoffmann C, Lantz O, Fayette J, Boyer-Chammard A, Zerbib R, Dodion P, Ghadially H, Jure-Kunkel M, Morel Y, Herbst R, Narni-Mancinelli E, Cohen RB, Vivier E.",
+      "year": "2018",
+      "journal": "Cell",
+      "readingDepth": "abstract",
+      "claimScope": "Anti-NKG2A (monalizumab) enhanced NK and CD8 T cell function in laboratory experiments in mice and humans; interim phase II 31% ORR with cetuximab (non-randomised).",
+      "rawSha256": "d889c428b19058043d15d94035fbe90f0fdf47b3c48da3be28822e68f5d1c02a",
+      "sourceId": "30503213",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30503213/",
+      "capture": "pmid-30503213.json"
+    },
+    {
+      "pmid": "30650045",
+      "doi": "10.1200/jco.18.01010",
+      "title": "Tumor-Infiltrating Lymphocytes and Prognosis: A Pooled Individual Patient Analysis of Early-Stage Triple-Negative Breast Cancers.",
+      "authors": "Loi S, Drubay D, Adams S, Pruneri G, Francis PA, Lacroix-Triki M, Joensuu H, Dieci MV, Badve S, Demaria S, Gray R, Munzone E, Lemonnier J, Sotiriou C, Piccart MJ, Kellokumpu-Lehtinen PL, Vingiani A, Gray K, Andre F, Denkert C, Salgado R, Michiels S.",
+      "year": "2019",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "readingDepth": "abstract",
+      "claimScope": "Pooled analysis of 2,148 early TNBC: per 10% sTIL iDFS HR 0.87 (0.83 to 0.91), OS 0.84 (0.79 to 0.89); node-negative sTIL 30% or more 3-year OS 99%; prognostic.",
+      "rawSha256": "8d025aeedf08d7d48bfb0b62e12540415d3148404e616f125e06fc98499e4c48",
+      "sourceId": "30650045",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30650045/",
+      "capture": "pmid-30650045.json"
+    },
+    {
+      "pmid": "30753167",
+      "doi": "10.1172/jci96313",
+      "title": "Spatially distinct tumor immune microenvironments stratify triple-negative breast cancers.",
+      "authors": "Gruosso T, Gigoux M, Manem VSK, Bertos N, Zuo D, Perlitch I, Saleh SMI, Zhao H, Souleimanova M, Johnson RM, Monette A, Ramos VM, Hallett MT, Stagg J, Lapointe R, Omeroglu A, Meterissian S, Buisseret L, Van den Eynden G, Salgado R, Guiot MC, Haibe-Kains B, Park M.",
+      "year": "2019",
+      "journal": "The Journal of clinical investigation",
+      "readingDepth": "abstract",
+      "claimScope": "TNBC spatial immune microenvironments; immunoreactive group with tumoral GzmB+CD8+ T cells, type 1 IFN signature, IDO and PD-L1; stroma-restricted CD8 T cells with poor outcome.",
+      "rawSha256": "05c32899c168ed62cf715a9a14373a5a4b775c054dfb18b4d8ad2ba7f135311d",
+      "sourceId": "30753167",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30753167/",
+      "capture": "pmid-30753167.json"
+    },
+    {
+      "pmid": "30962585",
+      "doi": "10.1038/s41591-019-0410-x",
+      "title": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+      "authors": "Hammerich L, Marron TU, Upadhyay R, Svensson-Arvelund J, Dhainaut M, Hussein S, Zhan Y, Ostrowski D, Yellin M, Marsh H, Salazar AM, Rahman AH, Brown BD, Merad M, Brody JD.",
+      "year": "2019",
+      "journal": "Nature medicine",
+      "readingDepth": "abstract",
+      "claimScope": "Indolent NHL ISV (Flt3L, radiotherapy, TLR3 agonist): CD8 T-cell responses and abscopal remission in patients (ongoing trial); murine tumours became PD1-blockade responsive.",
+      "rawSha256": "3420e1b8b68bea51a54fd4222d5ca7aeb77604dffec0e67ec5446db8ae3f715d",
+      "sourceId": "30962585",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/",
+      "capture": "pmid-30962585.json"
+    },
+    {
+      "pmid": "31097342",
+      "doi": "10.1016/j.immuni.2019.04.010",
+      "title": "Intratumoral Activity of the CXCR3 Chemokine System Is Required for the Efficacy of Anti-PD-1 Therapy.",
+      "authors": "Chow MT, Ozga AJ, Servis RL, Frederick DT, Lo JA, Fisher DE, Freeman GJ, Boland GM, Luster AD.",
+      "year": "2019",
+      "journal": "Immunity",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse: CXCR3 and CXCL9 needed for anti-PD-1 efficacy but not CD8 T cell infiltration; CD103+ dendritic cell CXCL9.",
+      "rawSha256": "badc7febec062bc8ecc7e58e97e35b61d33e4635a4d887ee2eafdeeef1f35da7",
+      "sourceId": "31097342",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31097342/",
+      "capture": "pmid-31097342.json"
+    },
+    {
+      "pmid": "31645288",
+      "doi": "10.1016/s0140-6736(19)32313-x",
+      "title": "Recurrence of breast cancer after regional or general anaesthesia: a randomised controlled trial.",
+      "authors": "Sessler DI, Pei L, Huang Y, Fleischmann E, Marhofer P, Kurz A, Mayers DB, Meyer-Treschan TA, Grady M, Tan EY, Ayad S, Mascha EJ, Buggy DJ, Breast Cancer Recurrence Collaboration.",
+      "year": "2019",
+      "journal": "Lancet (London, England)",
+      "readingDepth": "abstract",
+      "claimScope": "RCT 2,132 enrolled, 2,108 analysed: regional (paravertebral block plus propofol) vs general (sevoflurane plus opioids); recurrence 10% vs 10%, HR 0.97 (0.74 to 1.28); futility stop.",
+      "rawSha256": "9a73d2cae3b95b31b37e6b0283297dcae8c04876482456ee03ce20982abe0a5c",
+      "sourceId": "31645288",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31645288/",
+      "capture": "pmid-31645288.json"
+    },
+    {
+      "pmid": "31645760",
+      "doi": "10.1038/s41586-019-1671-8",
+      "title": "MHC-II neoantigens shape tumour immunity and response to immunotherapy.",
+      "authors": "Alspach E, Lussier DM, Miceli AP, Kizhvatov I, DuPage M, Luoma AM, Meng W, Lichti CF, Esaulova E, Vomund AN, Runci D, Ward JP, Gubin MM, Medrano RFV, Arthur CD, White JM, Sheehan KCF, Chen A, Wucherpfennig KW, Jacks T, Unanue ER, Artyomov MN, Schreiber RD.",
+      "year": "2019",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse: tumour rejection needed both CD8 and CD4 T cells even in MHC-II-negative tumours; MHC-II-restricted antigen expression needed at the rejection site.",
+      "rawSha256": "fcd7be39265d54c83574675379d3ef8fb7c0116bfee630ea28597caccfcc5c85",
+      "sourceId": "31645760",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31645760/",
+      "capture": "pmid-31645760.json"
+    },
+    {
+      "pmid": "32101663",
+      "doi": "10.1056/nejmoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Pusztai L, McArthur H, Kümmel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Foukakis T, Fasching PA, Cardoso F, Untch M, Jia L, Karantza V, Zhao J, Aktan G, Dent R, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2020",
+      "journal": "The New England journal of medicine",
+      "readingDepth": "abstract",
+      "claimScope": "KEYNOTE-522 phase III: pembrolizumab with neoadjuvant chemotherapy then adjuvant pembrolizumab vs placebo in early TNBC; pCR and EFS primary endpoints. Used only for regimen design.",
+      "rawSha256": "1ec4638425471e07489fd2de4fae0137a0cb6c4b1576e8dae0470401ffc39ad3",
+      "sourceId": "32101663",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "capture": "extra-32101663.json"
+    },
+    {
+      "pmid": "32209603",
+      "doi": "10.1136/jitc-2019-000337",
+      "title": "Consensus guidelines for the definition, detection and interpretation of immunogenic cell death.",
+      "authors": "Galluzzi L, Vitale I, Warren S, Adjemian S, Agostinis P, Martinez AB, Chan TA, Coukos G, Demaria S, Deutsch E, Draganov D, Edelson RL, Formenti SC, Fucikova J, Gabriele L, Gaipl US, Gameiro SR, Garg AD, Golden E, Han J, Harrington KJ, Hemminki A, Hodge JW, Hossain DMS, Illidge T, Karin M, Kaufman HL, Kepp O, Kroemer G, Lasarte JJ, Loi S, Lotze MT, Manic G, Merghoub T, Melcher AA, Mossman KL, Prosper F, Rekdal Ø, Rescigno M, Riganti C, Sistigu A, Smyth MJ, Spisek R, Stagg J, Strauss BE, Tang D, Tatsuno K, van Gool SW, Vandenabeele P, Yamazaki T, Zamarin D, Zitvogel L, Cesano A, Marincola FM.",
+      "year": "2020",
+      "journal": "Journal for immunotherapy of cancer",
+      "readingDepth": "abstract",
+      "claimScope": "Consensus guidelines for the definition, detection and interpretation of immunogenic cell death.",
+      "rawSha256": "67cd7bab8e0ea898a6b493c11489859d26d160994a7662b53872b11e22c9aabd",
+      "sourceId": "32209603",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/",
+      "capture": "pmid-32209603.json"
+    },
+    {
+      "pmid": "32411819",
+      "doi": "10.1038/s41523-020-0156-0",
+      "title": "Pitfalls in assessing stromal tumor infiltrating lymphocytes (sTILs) in breast cancer.",
+      "authors": "Kos Z, Roblin E, Kim RS, Michiels S, Gallas BD, Chen W, van de Vijver KK, Goel S, Adams S, Demaria S, Viale G, Nielsen TO, Badve SS, Symmans WF, Sotiriou C, Rimm DL, Hewitt S, Denkert C, Loibl S, Luen SJ, Bartlett JMS, Savas P, Pruneri G, Dillon DA, Cheang MCU, Tutt A, Hall JA, Kok M, Horlings HM, Madabhushi A, van der Laak J, Ciompi F, Laenkholm AV, Bellolio E, Gruosso T, Fox SB, Araya JC, Floris G, Hudeček J, Voorwerk L, Beck AH, Kerner J, Larsimont D, Declercq S, Van den Eynden G, Pusztai L, Ehinger A, Yang W, AbdulJabbar K, Yuan Y, Singh R, Hiley C, Bakir MA, Lazar AJ, Naber S, Wienert S, Castillo M, Curigliano G, Dieci MV, André F, Swanton C, Reis-Filho J, Sparano J, Balslev E, Chen IC, Stovgaard EIS, Pogue-Geile K, Blenman KRM, Penault-Llorca F, Schnitt S, Lakhani SR, Vincent-Salomon A, Rojo F, Braybrooke JP, Hanna MG, Soler-Monsó MT, Bethmann D, Castaneda CA, Willard-Gallo K, Sharma A, Lien HC, Fineberg S, Thagaard J, Comerma L, Gonzalez-Ericsson P, Brogi E, Loi S, Saltz J, Klaushen F, Cooper L, Amgad M, Moore DA, Salgado R, International Immuno-Oncology Biomarker Working Group.",
+      "year": "2020",
+      "journal": "NPJ breast cancer",
+      "readingDepth": "Targeted NCBI BioC raw article passages in PMC7217863 on stromal/epithelial compartments, area denominator, lymphocytes/plasma cells, artifact and scoring variability.",
+      "claimScope": "Pitfalls in sTIL assessment: heterogeneity, slide issues, scoring outside tumour boundary, minimal stroma, other structures and inflammatory cells.",
+      "rawSha256": "06e131323bad0782a8363523662ec27483fc1759f75e321662db8a3ad45cf757",
+      "sourceId": "32411819",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32411819/",
+      "capture": "pmid-32411819.json"
+    },
+    {
+      "pmid": "32467343",
+      "doi": "10.1158/2159-8290.cd-19-1409",
+      "title": "Overcoming Genetically Based Resistance Mechanisms to PD-1 Blockade.",
+      "authors": "Torrejon DY, Abril-Rodriguez G, Champhekar AS, Tsoi J, Campbell KM, Kalbasi A, Parisi G, Zaretsky JM, Garcia-Diaz A, Puig-Saus C, Cheung-Lau G, Wohlwender T, Krystofinski P, Vega-Crespo A, Lee CM, Mascaro P, Grasso CS, Berent-Maoz B, Comin-Anduix B, Hu-Lieskovan S, Ribas A.",
+      "year": "2020",
+      "journal": "Cancer discovery",
+      "readingDepth": "abstract",
+      "claimScope": "Genetic resistance models (JAK1/2 and B2M knockout) in human and murine cell lines; rescue strategies in vivo; preclinical.",
+      "rawSha256": "8ca59d7ae6b96cfd5840bb23d5e14a17e14559b8cdf6ade25f279bc4673bee57",
+      "sourceId": "32467343",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32467343/",
+      "capture": "extra-32467343.json"
+    },
+    {
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "authors": "Wells DK, van Buuren MM, Dang KK, Hubbard-Lucey VM, Sheehan KCF, Campbell KM, Lamb A, Ward JP, Sidney J, Blazquez AB, Rech AJ, Zaretsky JM, Comin-Anduix B, Ng AHC, Chour W, Yu TV, Rizvi H, Chen JM, Manning P, Steiner GM, Doan XC, Tumor Neoantigen Selection Alliance, Merghoub T, Guinney J, Kolom A, Selinsky C, Ribas A, Hellmann MD, Hacohen N, Sette A, Heath JR, Bhardwaj N, Ramsdell F, Schreiber RD, Schumacher TN, Kvistborg P, Defranoux NA.",
+      "year": "2020",
+      "journal": "Cell",
+      "readingDepth": "abstract",
+      "claimScope": "TNSA consortium: 608 epitopes, 98% non-immunogenic filtered at precision above 0.70, validated on 310. Abstract does not state which features were used.",
+      "rawSha256": "ee683e3fe31ee0ad798a7d88efe4a957715f34ba799ab6c5737ba69495492504",
+      "sourceId": "33038342",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/",
+      "capture": "pmid-33038342.json"
+    },
+    {
+      "pmid": "33127846",
+      "doi": "10.1158/2159-8290.cd-20-0672",
+      "title": "Somatic HLA Class I Loss Is a Widespread Mechanism of Immune Evasion Which Refines the Use of Tumor Mutational Burden as a Biomarker of Checkpoint Inhibitor Response.",
+      "authors": "Montesion M, Murugesan K, Jin DX, Sharaf R, Sanchez N, Guria A, Minker M, Li G, Fisher V, Sokol ES, Pavlick DC, Moore JA, Braly A, Singal G, Fabrizio D, Comment LA, Rizvi NA, Alexander BM, Frampton GM, Hegde PS, Albacker LA.",
+      "year": "2021",
+      "journal": "Cancer discovery",
+      "readingDepth": "abstract",
+      "claimScope": "Pan-cancer 83,644 samples from one genomic dataset: HLA-I LOH in 17%; nonlinear relation with TMB; negative predictor of OS after ICI in nonsquamous NSCLC.",
+      "rawSha256": "9a393960398cdf020f4d24958d9cb1683e1fdeb3020fc5e8b5516af93940e396",
+      "sourceId": "33127846",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33127846/",
+      "capture": "pmid-33127846.json"
+    },
+    {
+      "pmid": "34580291",
+      "doi": "10.1038/s41467-021-25962-0",
+      "title": "Spatial immunophenotypes predict response to anti-PD1 treatment and capture distinct paths of T cell evasion in triple negative breast cancer.",
+      "authors": "Hammerl D, Martens JWM, Timmermans M, Smid M, Trapman-Jansen AM, Foekens R, Isaeva OI, Voorwerk L, Balcioglu HE, Wijers R, Nederlof I, Salgado R, Horlings H, Kok M, Debets R.",
+      "year": "2021",
+      "journal": "Nature communications",
+      "readingDepth": "abstract",
+      "claimScope": "681 TNBCs: excluded, ignored and inflamed phenotypes; gene classifier predicts anti-PD1 response in a phase II metastatic TNBC trial.",
+      "rawSha256": "9fda2bd9cad48b4ffae4debe25a6048957a28abc76cb8635c77440a40672bb21",
+      "sourceId": "34580291",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34580291/",
+      "capture": "pmid-34580291.json"
+    },
+    {
+      "pmid": "37258670",
+      "doi": "10.1038/s41586-023-06132-2",
+      "title": "In situ tumour arrays reveal early environmental control of cancer immunity.",
+      "authors": "Ortiz-Muñoz G, Brown M, Carbone CB, Pechuan-Jorge X, Rouilly V, Lindberg H, Ritter AT, Raghupathi G, Sun Q, Nicotra T, Mantri SR, Yang A, Doerr J, Nagarkar D, Darmanis S, Haley B, Mariathasan S, Wang Y, Gomez-Roca C, de Andrea CE, Spigel D, Wu T, Delamarre L, Schöneberg J, Modrusan Z, Price R, Turley SJ, Mellman I, Moussion C.",
+      "year": "2023",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "Mouse STAMP arrays: immune phenotypes (inflamed, desert, excluded) vary between adjacent tumours and over time; preclinical.",
+      "rawSha256": "41b0df846a65e23e1b5b1059b09a7e95f6afcd8fd2404866e4ac221242409abd",
+      "sourceId": "37258670",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37258670/",
+      "capture": "extra-37258670.json"
+    },
+    {
+      "pmid": "37333664",
+      "doi": "10.1016/j.eclinm.2023.102037",
+      "title": "Impact of general anaesthesia on breast cancer survival: a 5-year follow up of a pragmatic, randomised, controlled trial, the CAN-study, comparing propofol and sevoflurane.",
+      "authors": "Enlund M, Berglund A, Enlund A, Lundberg J, Wärnberg F, Wang DX, Ekman A, Ahlstrand R, Flisberg P, Hedlund L, Östlund I, Bergkvist L, CAN-study group.",
+      "year": "2023",
+      "journal": "EClinicalMedicine",
+      "readingDepth": "abstract",
+      "claimScope": "RCT CAN-study 1,670 analysed: 5-year survival 91.9% vs 92.2%, HR 1.03 (0.73 to 1.44).",
+      "rawSha256": "51e6038a1c01c30cbd7958ca9d2a590626d9e25993d43d6a7e5f35665606197b",
+      "sourceId": "37333664",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37333664/",
+      "capture": "pmid-37333664.json"
+    },
+    {
+      "pmid": "40300079",
+      "doi": "10.1158/1078-0432.ccr-25-0073",
+      "title": "INTERLINK-1: A Phase III, Randomized, Placebo-Controlled Study of Monalizumab plus Cetuximab in Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma.",
+      "authors": "Fayette J, Licitra L, Harrington K, Haddad R, Siu LL, Liu YC, Tahara M, Machiels JP, Rischin D, Seiwert TY, Ferris RL, Keilholz U, Psyrri A, Keam B, Bossi P, Metcalf R, Hsieh CY, Clement PMJ, Isaev P, Mudunov A, Dinis J, Hoeben A, Kasper S, Klinghammer K, Hwang M, Blando J, Serrano O, Ruscica D, Cohen RB, INTERLINK-1 investigators.",
+      "year": "2025",
+      "journal": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+      "readingDepth": "abstract",
+      "claimScope": "Phase III INTERLINK-1: 216 in the HPV-unrelated analysis set, 2:1, OS 8.8 vs 8.6 months HR 1.00 (0.66 to 1.54), PFS 3.6 vs 3.8, ORR 15.2% vs 23.9%, stopped for futility.",
+      "rawSha256": "a562f7e9a766a977c8a59ac4e6815f92f36d654b5105be0e41ed72d87c7a432d",
+      "sourceId": "40300079",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40300079/",
+      "capture": "pmid-40300079.json"
+    },
+    {
+      "pmid": "9486650",
+      "doi": "10.1038/35869",
+      "title": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+      "authors": "Braud VM, Allan DS, O'Callaghan CA, Söderström K, D'Andrea A, Ogg GS, Lazetic S, Young NT, Bell JI, Phillips JH, Lanier LL, McMichael AJ.",
+      "year": "1998",
+      "journal": "Nature",
+      "readingDepth": "abstract",
+      "claimScope": "HLA-E with a class I leader peptide binds CD94/NKG2A, B and C but not KIR; HLA-E expression protected targets from CD94/NKG2A-positive NK clones.",
+      "rawSha256": "eb3ed065b308f393ef37af38d287d2bbe4fbab002fa4eeab468935d640057661",
+      "sourceId": "9486650",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9486650/",
+      "capture": "pmid-9486650.json"
+    },
+    {
+      "pmid": "32497499",
+      "doi": "10.1016/j.cell.2020.05.017",
+      "title": "Intratumoral CD4<sup>+</sup> T Cells Mediate Anti-tumor Cytotoxicity in Human Bladder Cancer.",
+      "authors": "Oh DY, Kwek SS, Raju SS, Li T, McCarthy E, Chow E, Aran D, Ilano A, Pai CS, Rancan C, Allaire K, Burra A, Sun Y, Spitzer MH, Mangul S, Porten S, Meng MV, Friedlander TW, Ye CJ, Fong L.",
+      "year": "2020",
+      "journal": "Cell",
+      "readingDepth": "raw abstract, coordinator",
+      "claimScope": "Existing accepted co-receptor, regulatory or exhaustion owner evidence; scope checked in this continuation.",
+      "rawSha256": "ad0dcb0f0536f49cb4b6e833575cb95db7017c9530c15be14c14df01c6b85b56",
+      "sourceId": "32497499",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32497499/",
+      "capture": "pmid-32497499.json"
+    },
+    {
+      "pmid": "17644734",
+      "doi": "10.1182/blood-2007-06-094656",
+      "title": "Induction of FOXP3 expression in naive human CD4+FOXP3 T cells by T-cell receptor stimulation is transforming growth factor-beta dependent but does not confer a regulatory phenotype.",
+      "authors": "Tran DQ, Ramsey H, Shevach EM.",
+      "year": "2007",
+      "journal": "Blood",
+      "readingDepth": "raw abstract, coordinator",
+      "claimScope": "Existing accepted co-receptor, regulatory or exhaustion owner evidence; scope checked in this continuation.",
+      "rawSha256": "8bdbcbfb7f7115429ae7aff8c7ebe25ac0b20981eb5729b9515b89c3d2b6db15",
+      "sourceId": "17644734",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17644734/",
+      "capture": "pmid-17644734.json"
+    },
+    {
+      "pmid": "27111280",
+      "doi": "10.1038/nm.4086",
+      "title": "Two FOXP3(+)CD4(+) T cell subpopulations distinctly control the prognosis of colorectal cancers.",
+      "authors": "Saito T, Nishikawa H, Wada H, Nagano Y, Sugiyama D, Atarashi K, Maeda Y, Hamaguchi M, Ohkura N, Sato E, Nagase H, Nishimura J, Yamamoto H, Takiguchi S, Tanoue T, Suda W, Morita H, Hattori M, Honda K, Mori M, Doki Y, Sakaguchi S.",
+      "year": "2016",
+      "journal": "Nature medicine",
+      "readingDepth": "raw abstract, coordinator",
+      "claimScope": "Existing accepted co-receptor, regulatory or exhaustion owner evidence; scope checked in this continuation.",
+      "rawSha256": "282c093211999713c9d7472148cae6b2a5408210130b29f501700727394cfa8e",
+      "sourceId": "27111280",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27111280/",
+      "capture": "pmid-27111280.json"
+    },
+    {
+      "pmid": "31207603",
+      "doi": "10.1038/s41586-019-1325-x",
+      "title": "TOX transcriptionally and epigenetically programs CD8&lt;sup&gt;+&lt;/sup&gt; T cell exhaustion.",
+      "authors": "Khan O, Giles JR, McDonald S, Manne S, Ngiow SF, Patel KP, Werner MT, Huang AC, Alexander KA, Wu JE, Attanasio J, Yan P, George SM, Bengsch B, Staupe RP, Donahue G, Xu W, Amaravadi RK, Xu X, Karakousis GC, Mitchell TC, Schuchter LM, Kaye J, Berger SL, Wherry EJ.",
+      "year": "2019",
+      "journal": "Nature",
+      "readingDepth": "raw abstract, coordinator",
+      "claimScope": "Existing accepted co-receptor, regulatory or exhaustion owner evidence; scope checked in this continuation.",
+      "rawSha256": "5d0de858bed5c704cb7f35ce0b6e618d3e01ac97df688d55b18c69f3ff8a1508",
+      "sourceId": "31207603",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31207603/",
+      "capture": "pmid-31207603.json"
+    },
+    {
+      "sourceId": "9624004",
+      "pmid": "9624004",
+      "doi": "10.1038/30996",
+      "title": "Help for cytotoxic-T-cell responses is mediated by CD40 signalling.",
+      "authors": "Bennett SR, Carbone FR, Karamalis F, Flavell RA, Miller JF, Heath WR.",
+      "year": "1998",
+      "readingDepth": "raw abstract read in full",
+      "capture": "cd40-supplement.json",
+      "captureSha256": "f723572772fd025897532b501e5ffaf02900407683d2df26084cab01be7cf7e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9624004/"
+    },
+    {
+      "sourceId": "8760829",
+      "pmid": "8760829",
+      "doi": "10.1084/jem.184.2.747",
+      "title": "Ligation of CD40 on dendritic cells triggers production of high levels of interleukin-12 and enhances T cell stimulatory capacity: T-T help via APC activation.",
+      "authors": "Cella M, Scheidegger D, Palmer-Lehmann K, Lane P, Lanzavecchia A, Alber G.",
+      "year": "1996",
+      "readingDepth": "raw abstract read in full",
+      "capture": "cd40-supplement.json",
+      "captureSha256": "f723572772fd025897532b501e5ffaf02900407683d2df26084cab01be7cf7e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8760829/"
+    },
+    {
+      "sourceId": "19815499",
+      "pmid": "19815499",
+      "doi": "10.1073/pnas.0903474106",
+      "title": "The interaction of TIGIT with PVR and PVRL2 inhibits human NK cell cytotoxicity.",
+      "authors": "Stanietsky N, Simic H, Arapovic J, Toporik A, Levy O, Novik A, Levine Z, Beiman M, Dassa L, Achdout H, Stern-Ginossar N, Tsukerman P, Jonjic S, Mandelboim O.",
+      "year": "2009",
+      "readingDepth": "Raw abstract, plus primary PNAS introductory and initial Results passages visible through web access. Later requests returned a cookie-absent shell; no full-body or affinity/competition check claimed.",
+      "capture": "tigit-supplement.json",
+      "captureSha256": "c211bb7f8c46c971279e7923e29454267ec0ed559f1e5ab5002255b835115535",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19815499/"
+    },
+    {
+      "sourceId": "32946773",
+      "pmid": "32946773",
+      "doi": "10.1016/j.ccell.2020.08.004",
+      "title": "Challenges and Opportunities for Pancreatic Cancer Immunotherapy.",
+      "authors": "Bear AS, Vonderheide RH, O'Hara MH.",
+      "year": "2020",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32946773/"
+    },
+    {
+      "sourceId": "32376951",
+      "pmid": "32376951",
+      "doi": "10.1038/s41586-020-2229-5",
+      "title": "Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I.",
+      "authors": "Yamamoto K, Venida A, Yano J, Biancur DE, Kakiuchi M, Gupta S, Sohn ASW, Mukhopadhyay S, Lin EY, Parker SJ, Banh RS, Paulo JA, Wen KW, Debnath J, Kim GE, Mancias JD, Fearon DT, Perera RM, Kimmelman AC.",
+      "year": "2020",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32376951/"
+    },
+    {
+      "sourceId": "31318392",
+      "pmid": "31318392",
+      "doi": "10.1001/jamaoncol.2019.1588",
+      "title": "Durvalumab With or Without Tremelimumab for Patients With Metastatic Pancreatic Ductal Adenocarcinoma: A Phase 2 Randomized Clinical Trial.",
+      "authors": "O'Reilly EM, Oh DY, Dhani N, Renouf DJ, Lee MA, Sun W, Fisher G, Hezel A, Chang SC, Vlahovic G, Takahashi O, Yang Y, Fitts D, Philip PA.",
+      "year": "2019",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31318392/"
+    },
+    {
+      "sourceId": "29132146",
+      "pmid": "29132146",
+      "doi": "10.1038/nature24462",
+      "title": "Identification of unique neoantigen qualities in long-term survivors of pancreatic cancer.",
+      "authors": "Balachandran VP, Łuksza M, Zhao JN, Makarov V, Moral JA, Remark R, Herbst B, Askan G, Bhanot U, Senbabaoglu Y, Wells DK, Cary CIO, Grbovic-Huezo O, Attiyeh M, Medina B, Zhang J, Loo J, Saglimbeni J, Abu-Akeel M, Zappasodi R, Riaz N, Smoragiewicz M, Kelley ZL, Basturk O, Australian Pancreatic Cancer Genome Initiative, Garvan Institute of Medical Research, Prince of Wales Hospital, Royal North Shore Hospital, University of Glasgow, St Vincent’s Hospital, QIMR Berghofer Medical Research Institute, University of Melbourne, Centre for Cancer Research, University of Queensland, Institute for Molecular Bioscience, Bankstown Hospital, Liverpool Hospital, Royal Prince Alfred Hospital, Chris O’Brien Lifehouse, Westmead Hospital, Fremantle Hospital, St John of God Healthcare, Royal Adelaide Hospital, Flinders Medical Centre, Envoi Pathology, Princess Alexandria Hospital, Austin Hospital, Johns Hopkins Medical Institutes, ARC-Net Centre for Applied Research on Cancer, Gönen M, Levine AJ, Allen PJ, Fearon DT, Merad M, Gnjatic S, Iacobuzio-Donahue CA, Wolchok JD, DeMatteo RP, Chan TA, Greenbaum BD, Merghoub T, Leach SD.",
+      "year": "2017",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29132146/"
+    },
+    {
+      "sourceId": "24277834",
+      "pmid": "24277834",
+      "doi": "10.1073/pnas.1320318110",
+      "title": "Targeting CXCL12 from FAP-expressing carcinoma-associated fibroblasts synergizes with anti-PD-L1 immunotherapy in pancreatic cancer.",
+      "authors": "Feig C, Jones JO, Kraman M, Wells RJ, Deonarine A, Chan DS, Connell CM, Roberts EW, Zhao Q, Caballero OL, Teichmann SA, Janowitz T, Jodrell DI, Tuveson DA, Fearon DT.",
+      "year": "2013",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24277834/"
+    },
+    {
+      "sourceId": "22658128",
+      "pmid": "22658128",
+      "doi": "10.1056/nejmoa1200694",
+      "title": "Safety and activity of anti-PD-L1 antibody in patients with advanced cancer.",
+      "authors": "Brahmer JR, Tykodi SS, Chow LQ, Hwu WJ, Topalian SL, Hwu P, Drake CG, Camacho LH, Kauh J, Odunsi K, Pitot HC, Hamid O, Bhatia S, Martins R, Eaton K, Chen S, Salay TM, Alaparthy S, Grosso JF, Korman AJ, Parker SM, Agrawal S, Goldberg SM, Pardoll DM, Gupta A, Wigginton JM.",
+      "year": "2012",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22658128/"
+    },
+    {
+      "sourceId": "20842054",
+      "pmid": "20842054",
+      "doi": "10.1097/cji.0b013e3181eec14c",
+      "title": "Phase 2 trial of single agent Ipilimumab (anti-CTLA-4) for locally advanced or metastatic pancreatic adenocarcinoma.",
+      "authors": "Royal RE, Levy C, Turner K, Mathur A, Hughes M, Kammula US, Sherry RM, Topalian SL, Yang JC, Lowy I, Rosenberg SA.",
+      "year": "2010",
+      "readingDepth": "raw abstract read in full",
+      "capture": "pancreatic-context.json",
+      "captureSha256": "597cc37a12cd0264d0816af6f5285495a8626258d017fef584a4eca2cf59f87a",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20842054/"
+    },
+    {
+      "sourceId": "39748148",
+      "pmid": "39748148",
+      "doi": "10.1111/imr.13435",
+      "title": "Recognition of Self and Viral Ligands by NK Cell Receptors.",
+      "authors": "Mariuzza RA, Singh P, Karade SS, Shahid S, Sharma VK.",
+      "year": "2025",
+      "readingDepth": "raw abstract read in full",
+      "capture": "kir-review-2025.json",
+      "captureSha256": "b9f8c28f4eb3f45033b0935ac304bcd2f0f20951b416a04e8170d1dd347d33e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39748148/"
+    },
+    {
+      "sourceId": "18725574",
+      "pmid": "18725574",
+      "doi": "10.1182/blood-2008-05-078154",
+      "title": "CD4 T cells: fates, functions, and faults.",
+      "authors": "Zhu J, Paul WE.",
+      "year": "2008",
+      "readingDepth": "raw abstract read in full",
+      "capture": "zhu-functions-review.json",
+      "captureSha256": "a22f4d0749f7c45ab6d7ddadeac72aa1c63cc2b83615b5f2ec5f89f17746e303",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18725574/",
+      "adoption": "Context-only abstract; full-body retrieval failed or returned metadata/error stubs. Not a new load-bearing citation."
+    },
+    {
+      "sourceId": "26380088",
+      "pmid": "26380088",
+      "doi": "10.1186/s40425-015-0089-6",
+      "title": "A new paradigm for tumor immune escape: β-catenin-driven immune exclusion.",
+      "authors": "Spranger S, Gajewski TF.",
+      "year": "2015",
+      "readingDepth": "Entire open-access commentary body read in PMC4570721, including CCL4/ATF3/Batf3 mechanism; commentary, separate from inaccessible Nature full text.",
+      "capture": "spranger-commentary-identity.json",
+      "captureSha256": "27d455e3f722dcda6a34760345603be792de5573d339300370638a860722d79d",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26380088/"
+    }
+  ],
+  "officialSources": [
+    {
+      "sourceId": "uniprot-kir",
+      "url": "https://www.uniprot.org/",
+      "readingDepth": "Six reviewed KIR function paragraphs read from raw UniProt JSON; assignments are receptor-variant-specific.",
+      "capture": "uniprot-kir.json",
+      "captureSha256": "bf5eb1830d4c69547d3eb405202d6fab92e5e95c1a7fad6d7201bbcfecd5bba6"
+    },
+    {
+      "sourceId": "ipd-kir",
+      "url": "https://www.ebi.ac.uk/ipd/kir/about/",
+      "readingDepth": "Raw HTML gene-content and haplotype paragraphs; historical family counts and ligand-unknown statements are not silently currentized.",
+      "capture": "ipd-kir-about.html",
+      "captureSha256": "ce9ee5ab446058a829d324cb0221eabc47ced2966ec539ec0d9d14da8afa9bef"
+    },
+    {
+      "sourceId": "openstax-helper-functions",
+      "url": "https://openstax.org/books/microbiology/pages/18-3-t-lymphocytes-and-cellular-immunity",
+      "readingDepth": "Raw official textbook HTML helper-function paragraphs and Table 18.2; textbook scope, not a primary experiment.",
+      "capture": "openstax-helper-functions.html",
+      "captureSha256": "6e1836402d47c77407b1b62b570c89ddfc201862bbe5ba9fafb10ca580f5e52e"
+    },
+    {
+      "sourceId": "margenza-label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a6d50c7-06ea-479c-83cc-f197a9e428c9",
+      "readingDepth": "OpenFDA raw label description and mechanism-of-action sections; set id checked against DailyMed, effective_time 20250211. In-vitro claim scope retained.",
+      "capture": "margenza-openfda.json",
+      "captureSha256": "e58a0ba1e3b6994df962bc27dd3d1e4bbe1d67fdee46a54b8e30b6653c06b22c"
+    }
+  ],
+  "identity": "All 67 core identities were freshly matched on title, DOI, authors and year through Europe PMC. Additional supplement identities are retained in their raw registry captures. Crossref succeeded for 13 core DOIs; 54 requests were rate-limited. Europe PMC supplied the permitted alternative resolution; no all-Crossref success is claimed.",
+  "indexedRelationships": [
+    {
+      "pmid": "33038342",
+      "relationship": {
+        "source": "MED",
+        "id": "33125888",
+        "reference": "Cell. 2020 Oct 29;183(3):591-593. doi: 10.1016/j.cell.2020.10.011.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "32497499",
+      "relationship": {
+        "source": "MED",
+        "id": "32663467",
+        "reference": "Cancer Cell. 2020 Jul 13;38(1):28-30. doi: 10.1016/j.ccell.2020.06.013",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "32497499",
+      "relationship": {
+        "source": "MED",
+        "id": "33472375",
+        "reference": "J Urol. 2021 Apr;205(4):1228-1229. doi: 10.1097/JU.0000000000001605",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "32497499",
+      "relationship": {
+        "source": "MED",
+        "id": "34494452",
+        "reference": "J Urol. 2021 Dec;206(6):1517-1519. doi: 10.1097/JU.0000000000002213",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "32209603",
+      "relationship": {
+        "source": "MED",
+        "id": "32448801",
+        "reference": "J Immunother Cancer. 2020 May;8(1):e000337corr1. doi: 10.1136/jitc-2019-000337corr1.",
+        "type": "Erratum in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "32101663",
+      "relationship": {
+        "source": "MED",
+        "id": "32127649",
+        "reference": "Nat Rev Clin Oncol. 2020 Apr;17(4):196. doi: 10.1038/s41571-020-0349-3",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "32101663",
+      "relationship": {
+        "source": "MED",
+        "id": "32145769",
+        "reference": "Lancet Oncol. 2020 Apr;21(4):e183. doi: 10.1016/S1470-2045(20)30154-6",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "32101663",
+      "relationship": {
+        "source": "MED",
+        "id": "32561940",
+        "reference": "Strahlenther Onkol. 2020 Sep;196(9):841-843. doi: 10.1007/s00066-020-01641-9",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "32101663",
+      "relationship": {
+        "source": "MED",
+        "id": "32579834",
+        "reference": "N Engl J Med. 2020 Jun 25;382(26):e108. doi: 10.1056/NEJMc2006684",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    },
+    {
+      "pmid": "32101663",
+      "relationship": {
+        "source": "MED",
+        "id": "36152640",
+        "reference": "Int J Radiat Oncol Biol Phys. 2022 Nov 1;114(3):377-381. doi: 10.1016/j.ijrobp.2022.05.024",
+        "type": "Comment in",
+        "orderIn": 5
+      }
+    },
+    {
+      "pmid": "31645760",
+      "relationship": {
+        "source": "MED",
+        "id": "31659314",
+        "reference": "Nature. 2019 Oct;574(7780):639-640. doi: 10.1038/d41586-019-03106-1",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "31645760",
+      "relationship": {
+        "source": "MED",
+        "id": "31666729",
+        "reference": "Nat Rev Immunol. 2019 Dec;19(12):717. doi: 10.1038/s41577-019-0242-4",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "31645288",
+      "relationship": {
+        "source": "MED",
+        "id": "31645267",
+        "reference": "Br J Anaesth. 2019 Dec;123(6):e525-e526. doi: 10.1016/j.bja.2019.07.023.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "31645288",
+      "relationship": {
+        "source": "MED",
+        "id": "31645287",
+        "reference": "Lancet. 2019 Nov 16;394(10211):1781-1782. doi: 10.1016/S0140-6736(19)32314-1.",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "31645288",
+      "relationship": {
+        "source": "MED",
+        "id": "32771097",
+        "reference": "Lancet. 2020 Aug 8;396(10248):375-376. doi: 10.1016/S0140-6736(20)30488-8.",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "31645288",
+      "relationship": {
+        "source": "MED",
+        "id": "32771098",
+        "reference": "Lancet. 2020 Aug 8;396(10248):376. doi: 10.1016/S0140-6736(20)30487-6.",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    },
+    {
+      "pmid": "31645288",
+      "relationship": {
+        "source": "MED",
+        "id": "32771099",
+        "reference": "Lancet. 2020 Aug 8;396(10248):376-377. doi: 10.1016/S0140-6736(20)30489-X.",
+        "type": "Comment in",
+        "orderIn": 5
+      }
+    },
+    {
+      "pmid": "31097342",
+      "relationship": {
+        "source": "MED",
+        "id": "31150011",
+        "reference": "Nat Rev Immunol. 2019 Jul;19(7):414-415. doi: 10.1038/s41577-019-0184-x",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "31097342",
+      "relationship": {
+        "source": "MED",
+        "id": "31216458",
+        "reference": "Immunity. 2019 Jun 18;50(6):1347-1349. doi: 10.1016/j.immuni.2019.05.013",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "30503213",
+      "relationship": {
+        "source": "MED",
+        "id": "30542080",
+        "reference": "Nat Rev Cancer. 2019 Feb;19(2):61. doi: 10.1038/s41568-018-0096-2.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "30503213",
+      "relationship": {
+        "source": "MED",
+        "id": "30550781",
+        "reference": "Cell. 2018 Dec 13;175(7):1720-1722. doi: 10.1016/j.cell.2018.11.048.",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "30503213",
+      "relationship": {
+        "source": "MED",
+        "id": "30609967",
+        "reference": "Trends Immunol. 2019 Feb;40(2):83-85. doi: 10.1016/j.it.2018.12.009.",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "30397353",
+      "relationship": {
+        "source": "MED",
+        "id": "30542079",
+        "reference": "Nat Rev Cancer. 2019 Jan;19(1):4-5. doi: 10.1038/s41568-018-0094-4",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "30397353",
+      "relationship": {
+        "source": "MED",
+        "id": "30546109",
+        "reference": "Nat Rev Immunol. 2019 Jan;19(1):3. doi: 10.1038/s41577-018-0102-7",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "30397353",
+      "relationship": {
+        "source": "MED",
+        "id": "30841910",
+        "reference": "J Immunother Cancer. 2019 Mar 6;7(1):64. doi: 10.1186/s40425-019-0542-z",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29475883",
+        "reference": "Cancer Discov. 2018 Apr;8(4):OF10. doi: 10.1158/2159-8290.CD-RW2018-034",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29508844",
+        "reference": "Nat Rev Urol. 2018 Apr;15(4):201. doi: 10.1038/nrurol.2018.28",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29520089",
+        "reference": "Nat Rev Cancer. 2018 Apr;18(4):205. doi: 10.1038/nrc.2018.22",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29545641",
+        "reference": "Nat Rev Immunol. 2018 Apr;18(4):221. doi: 10.1038/nri.2018.20",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29598848",
+        "reference": "Trends Immunol. 2018 Jun;39(6):435-437. doi: 10.1016/j.it.2018.03.002",
+        "type": "Comment in",
+        "orderIn": 5
+      }
+    },
+    {
+      "pmid": "29443960",
+      "relationship": {
+        "source": "MED",
+        "id": "29669246",
+        "reference": "Immunity. 2018 Apr 17;48(4):626-628. doi: 10.1016/j.immuni.2018.03.037",
+        "type": "Comment in",
+        "orderIn": 6
+      }
+    },
+    {
+      "pmid": "29233559",
+      "relationship": {
+        "source": "MED",
+        "id": "29233560",
+        "reference": "Lancet Oncol. 2018 Jan;19(1):3-5. doi: 10.1016/S1470-2045(17)30905-1.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "29107330",
+      "relationship": {
+        "source": "MED",
+        "id": "29134958",
+        "reference": "Nat Rev Clin Oncol. 2018 Jan;15(1):5. doi: 10.1038/nrclinonc.2017.180.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "29107330",
+      "relationship": {
+        "source": "MED",
+        "id": "29195070",
+        "reference": "Cell. 2017 Nov 30;171(6):1252-1253. doi: 10.1016/j.cell.2017.11.012.",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "29107330",
+      "relationship": {
+        "source": "MED",
+        "id": "29708132",
+        "reference": "J Thorac Dis. 2018 Mar;10(3):1248-1252. doi: 10.21037/jtd.2018.03.60.",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "28678778",
+      "relationship": {
+        "source": "MED",
+        "id": "28678783",
+        "reference": "Nature. 2017 Jul 13;547(7662):165-167. doi: 10.1038/nature23093.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "28678778",
+      "relationship": {
+        "source": "MED",
+        "id": "28740114",
+        "reference": "Nat Rev Cancer. 2017 Jul 25;17(8):451. doi: 10.1038/nrc.2017.61.",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "28678778",
+      "relationship": {
+        "source": "MED",
+        "id": "28813655",
+        "reference": "Immunity. 2017 Aug 15;47(2):221-223. doi: 10.1016/j.immuni.2017.08.001.",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "28678778",
+      "relationship": {
+        "source": "MED",
+        "id": "28867556",
+        "reference": "Trends Mol Med. 2017 Oct;23(10):869-871. doi: 10.1016/j.molmed.2017.08.007.",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    },
+    {
+      "pmid": "28678778",
+      "relationship": {
+        "source": "MED",
+        "id": "29542692",
+        "reference": "Nature. 2018 Mar 14;555(7696):402. doi: 10.1038/nature25145.",
+        "type": "Erratum in",
+        "orderIn": 5
+      }
+    },
+    {
+      "pmid": "28494868",
+      "relationship": {
+        "source": "MED",
+        "id": "31825850",
+        "reference": "Cell Rep. 2019 Dec 10;29(11):3766. doi: 10.1016/j.celrep.2019.11.113",
+        "type": "Erratum in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "28031159",
+      "relationship": {
+        "source": "MED",
+        "id": "28264866",
+        "reference": "Cancer Discov. 2017 Mar;7(3):250-251. doi: 10.1158/2159-8290.CD-17-0070",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "27663893",
+      "relationship": {
+        "source": "MED",
+        "id": "27920139",
+        "reference": "Cancer Discov. 2016 Dec;6(12):1312-1314. doi: 10.1158/2159-8290.CD-16-1109",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "27433843",
+      "relationship": {
+        "source": "MED",
+        "id": "27480667",
+        "reference": "Nat Rev Clin Oncol. 2016 Sep;13(9):528-9. doi: 10.1038/nrclinonc.2016.126",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "27433843",
+      "relationship": {
+        "source": "MED",
+        "id": "27579640",
+        "reference": "N Engl J Med. 2016 Sep 1;375(9):888-9. doi: 10.1056/NEJMe1606042",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "27433843",
+      "relationship": {
+        "source": "MED",
+        "id": "28090528",
+        "reference": "Ann Transl Med. 2016 Dec;4(23):472. doi: 10.21037/atm.2016.11.05",
+        "type": "Comment in",
+        "orderIn": 3
+      }
+    },
+    {
+      "pmid": "27433843",
+      "relationship": {
+        "source": "MED",
+        "id": "28149908",
+        "reference": "Ann Transl Med. 2016 Dec;4(24):547. doi: 10.21037/atm.2016.12.21",
+        "type": "Comment in",
+        "orderIn": 4
+      }
+    },
+    {
+      "pmid": "27433843",
+      "relationship": {
+        "source": "MED",
+        "id": "28239464",
+        "reference": "J Immunother Cancer. 2017 Feb 21;5:10. doi: 10.1186/s40425-017-0212-y",
+        "type": "Comment in",
+        "orderIn": 5
+      }
+    },
+    {
+      "pmid": "25970248",
+      "relationship": {
+        "source": "MED",
+        "id": "26058073",
+        "reference": "Cancer Cell. 2015 Jun 8;27(6):749-50. doi: 10.1016/j.ccell.2015.05.014",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "25214542",
+      "relationship": {
+        "source": "MED",
+        "id": "26347098",
+        "reference": "Ann Oncol. 2015 Nov;26(11):2351. doi: 10.1093/annonc/mdv363",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "22397654",
+      "relationship": {
+        "source": "MED",
+        "id": "22621637",
+        "reference": "N Engl J Med. 2012 May 24;366(21):2035; author reply 2035-6. doi: 10.1056/NEJMc1203984.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "20697067",
+      "relationship": {
+        "source": "MED",
+        "id": "20697076",
+        "reference": "J Clin Oncol. 2010 Oct 1;28(28):4295-6. doi: 10.1200/JCO.2010.30.4212",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "20697067",
+      "relationship": {
+        "source": "MED",
+        "id": "21434797",
+        "reference": "Expert Rev Vaccines. 2011 Mar;10(3):295-8. doi: 10.1586/erv.11.6",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "19647220",
+      "relationship": {
+        "source": "MED",
+        "id": "19647215",
+        "reference": "Cancer Cell. 2009 Aug 4;16(2):81-2. doi: 10.1016/j.ccr.2009.07.007.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "19647220",
+      "relationship": {
+        "source": "MED",
+        "id": "19705523",
+        "reference": "Nat Rev Cancer. 2009 Sep;9(9):609. doi: 10.1038/nrc2720.",
+        "type": "Comment in",
+        "orderIn": 2
+      }
+    },
+    {
+      "pmid": "17644734",
+      "relationship": {
+        "source": "MED",
+        "id": "18156502",
+        "reference": "Blood. 2008 Jan 1;111(1):463-4; author reply 464-6. doi: 10.1182/blood-2007-09-111823",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "12384702",
+      "relationship": {
+        "source": "MED",
+        "id": "12384682",
+        "reference": "Nature. 2002 Oct 17;419(6908):679-80. doi: 10.1038/419679a",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "10426993",
+      "relationship": {
+        "source": "MED",
+        "id": "10454908",
+        "reference": "Science. 1999 Jul 30;285(5428):645, 647. doi: 10.1126/science.285.5428.645",
+        "type": "Comment on",
+        "orderIn": 1
+      }
+    },
+    {
+      "pmid": "9486650",
+      "relationship": {
+        "source": "MED",
+        "id": "9486638",
+        "reference": "Nature. 1998 Feb 19;391(6669):740-1, 743. doi: 10.1038/35739.",
+        "type": "Comment in",
+        "orderIn": 1
+      }
+    }
+  ],
+  "sourceAccess": "Publisher redirects, challenge or cookie pages, metadata-only XML and error stubs are not text reading. Legal public NCBI manuscript/article bodies supplied the named additional targeted passages.",
+  "elicit": "No callable Elicit tool or new questions/reports/JSON outputs. Existing frozen discovery remains separate.",
+  "sourceBodiesPublic": false,
+  "indexedCorrectionAssessment": {
+    "items": [
+      {
+        "pmid": "32448801",
+        "doi": "10.1136/jitc-2019-000337corr1",
+        "bodyRead": true,
+        "correctionScope": "Author-name abbreviation, Aitziber Buqué Martinez. No biological definition or assay-result change is described in the correction.",
+        "capture": "PMC7252980-bioc.xml",
+        "captureSha256": "f1e2193ba76d2dd9f2253757618f124b7e596b189b371dd758727afca2eb7e53"
+      },
+      {
+        "pmid": "29542692",
+        "doi": "10.1038/nature25145",
+        "bodyRead": true,
+        "correctionScope": "Data-availability deposition and an expanded competing-interest statement/management plan. This correction does not describe a replacement of the reported vaccine response counts.",
+        "capture": "PMC6064631-bioc.xml",
+        "captureSha256": "a60dc65faefcbb4982b858647d734d977d2064ecd4cb74f5772ebc476ae1e070"
+      },
+      {
+        "pmid": "31825850",
+        "doi": "10.1016/j.celrep.2019.11.113",
+        "bodyRead": false,
+        "correctionScope": "Unknown. Crossref confirms identity and PII S2211124719316365. Elsevier API returned metadata-only XML; direct Cell and ScienceDirect pages returned 403. One source-qualification requirement remains partial.",
+        "capture": "garcia-correction-elsevier.xml",
+        "captureSha256": "94b01e9823e037031dcf25635c5a77e2248302fadabe5d413ffe86d2dced01ae"
+      }
+    ],
+    "relatedIdentities": 3
+  }
+}

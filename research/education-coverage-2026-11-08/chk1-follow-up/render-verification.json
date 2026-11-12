@@ -1,0 +1,12 @@
+{
+  "id": "chk1-inhibitor-payloads",
+  "htmlSha256": "112222fe29e5806f59f577dacaf0369f59fe8c899cd3f93b7344390684885212",
+  "checkedOn": "2026-11-08",
+  "scope": "All authored paragraphs and notes read in actual SSR; four sources present and no nested anchors in 93-owner refresh. The first conference safety note remains unchanged; three new distinctions are present.",
+  "sourceURLs": [
+    "https://doi.org/10.1158/1538-7445.am2026-1714",
+    "https://pubmed.ncbi.nlm.nih.gov/32304937/",
+    "https://doi.org/10.1158/1557-3265.d32026-a067",
+    "https://clinicaltrials.gov/study/NCT02124148"
+  ]
+}

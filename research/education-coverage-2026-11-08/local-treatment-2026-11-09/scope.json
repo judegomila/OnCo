@@ -1,0 +1,64 @@
+{
+  "checkedOn": "2026-11-09",
+  "curriculumRequirementsClosed": 46,
+  "newCurriculumSourcesRead": 10,
+  "newCurriculumRequirements": 40,
+  "newRecords": 9,
+  "newExistingOwnersAddedToProposal": 26,
+  "existingAdjacentFindingsExtended": 2,
+  "newAdjacentConceptCount": 0,
+  "existingProofRehashes": 0,
+  "resolvedPublicationIdentities": 24,
+  "newLiteratureOccurrences": 8,
+  "rawCaptureReceipts": 54,
+  "captureFailures": 3,
+  "registryIdentities": 7,
+  "rawBodies": "Persistent local cache outside Git; public metadata/hashes only. Challenge content excluded and availability failures named. This is not a recovery claim for old unavailable bodies.",
+  "validation": {
+    "status": "passed",
+    "renderedOwners": 148,
+    "readerFieldParts": 199,
+    "overlapWithEarlierDrafts": false,
+    "build": "Pinned data-branch GRAPH_JSON export blocker retained; no combined-draft export or deployment.",
+    "integrationFixes": {
+      "newPaperIncomingLinks": [
+        "thermal-ablation -> paper-booster-ablation-immunotherapy-2025",
+        "nsabp-b51 -> paper-nsabp-b51-nejm-2025"
+      ],
+      "paperIdentitySnapshot": "Four additive NCBI ESummary resolutions using existing parser; legacy entries and snapshot date retained. Raw capture and current date are in this receipt.",
+      "translation": "Chinese radiotherapy summary translated from the revised source and hashed; actual model/date retained.",
+      "testFloorsAndBudgetsChanged": false
+    },
+    "entities": 22716,
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "preexistingWarnings": 7
+    },
+    "focusedIntegrationTests": 20,
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2821,
+      "existingSkips": 2,
+      "durationSeconds": 111.16
+    },
+    "initialFullSuite": {
+      "filesPassed": 279,
+      "filesFailed": 3,
+      "testsFailed": 4,
+      "testsPassed": 2817,
+      "durationSeconds": 109.43,
+      "failures": "Two new paper inbound links, four additive identifier resolutions and stale Chinese summary translation corrected; floors/expectations unchanged."
+    },
+    "dedupe": {
+      "groups": 9,
+      "newDoiPmidDuplicates": 0,
+      "sameGroupsAsPriorCheckpoint": true
+    },
+    "closureExitCode": 2,
+    "staleFieldProofs": 0,
+    "noDeployment": true
+  },
+  "http200Captures": 51,
+  "excludedChallengeCaptures": 1
+}

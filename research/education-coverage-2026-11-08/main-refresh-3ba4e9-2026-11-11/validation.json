@@ -1,0 +1,75 @@
+{
+  "dataCommit": "0e5f9c4f095f1a7973a557e2bcc07a22b7b96df6",
+  "gates": [
+    {
+      "name": "typecheck",
+      "exitCode": 0,
+      "seconds": 11.38
+    },
+    {
+      "name": "lint",
+      "exitCode": 0,
+      "seconds": 29.29
+    },
+    {
+      "name": "validate",
+      "exitCode": 0,
+      "seconds": 1.95
+    },
+    {
+      "name": "full-suite",
+      "exitCode": 1,
+      "seconds": 91.07
+    }
+  ],
+  "isolatedSearchRetry": {
+    "name": "search-health-isolated",
+    "exitCode": 1,
+    "seconds": 46.59
+  },
+  "finalFullSuite": {
+    "name": "full-suite-runtime-heap",
+    "exitCode": 0,
+    "seconds": 323.73,
+    "workerHeapMiB": 8192,
+    "maxWorkers": 2,
+    "reason": "Default 4 GiB Node worker heap exhausted during search-health, including an isolated retry. Runtime capacity only; no test, corpus, ranking, floor, allowance, payload or assertion budget changed.",
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "testOrCorpusLimitsChanged": false,
+  "mergedFilesStableThroughChecks": 26,
+  "stagedSecretScan": {
+    "bytesScanned": 1209819,
+    "exitCode": 0,
+    "findings": 0
+  },
+  "exportRuns": [
+    {
+      "group": "root-final",
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 28.83
+    },
+    {
+      "group": "root-final",
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.72
+    },
+    {
+      "group": "root-final",
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.31
+    },
+    {
+      "group": "root-final",
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 5.1
+    }
+  ],
+  "scope": "Local validation of merged draft. The first suite and isolated search retry exhausted the default Node worker heap; the final complete suite passed with additional runtime memory and two workers. No test, rank, allowance, assertion floor or payload budget changed. No Next production build, deployment or browser-hydration claim."
+}

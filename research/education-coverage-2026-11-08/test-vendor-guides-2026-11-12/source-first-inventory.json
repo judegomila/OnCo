@@ -1,0 +1,2773 @@
+{
+  "scope": "Full later guide/index reading and full exact original/later diffs completed before fresh canonical-owner field inspection. Previous domain/audit exposure is acknowledged; no independent expert-review claim.",
+  "baselineHead": "b9232763148dff57d2585a657378500edc14ce57",
+  "sourceVersions": 9,
+  "sectionSignatures": 94,
+  "personalCaseExclusions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "passageSha256": "79e8f027b9ed281a8574438e20d453da38c5a0625b16dd9b6f29bc3c2ac06617",
+      "disposition": "Personal-case routing context excluded from general public teaching; no case details copied into the assessment or canonical records."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+      "lineStart": 68,
+      "lineEnd": 71,
+      "passageSha256": "79e8f027b9ed281a8574438e20d453da38c5a0625b16dd9b6f29bc3c2ac06617",
+      "disposition": "Personal-case routing context excluded from general public teaching; no case details copied into the assessment or canonical records."
+    }
+  ],
+  "rows": [
+    {
+      "id": "claim-01",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Translate a broad platform claim into a population and treatment setting, specimen/method, measured or predicted outcome and proposed decision; keep unknown details blank.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 20,
+          "lineEnd": 36,
+          "passageSha256": "fbfd55e67a63d7d24db38542c0c1720d30ccb83a3dcafa1c8b2c159da8068360"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 20,
+          "lineEnd": 36,
+          "passageSha256": "fbfd55e67a63d7d24db38542c0c1720d30ccb83a3dcafa1c8b2c159da8068360"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-02",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A molecule measurement, drug ranking in a dish and prediction from earlier patients are different claims; define what best treatment is intended to mean.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 30,
+          "lineEnd": 38,
+          "passageSha256": "167836ab7b20e6e940246da092af076c0151c5176f7685ac1bb88bd96214e8da"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 30,
+          "lineEnd": 38,
+          "passageSha256": "167836ab7b20e6e940246da092af076c0151c5176f7685ac1bb88bd96214e8da"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-03",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Risk prediction needs a time horizon and care context; risk under usual treatment is distinct from untreated risk and from a guarantee about one person.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1b275a4449764daa9b64f3d6cbafe6ba07b66bc5a3679068f82a24a0ebcf25ce"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1b275a4449764daa9b64f3d6cbafe6ba07b66bc5a3679068f82a24a0ebcf25ce"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-04",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A drug-ranking proposal needs the actual drug, dose or combination and the relevance of experimental conditions to the proposed care.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1b275a4449764daa9b64f3d6cbafe6ba07b66bc5a3679068f82a24a0ebcf25ce"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "1b275a4449764daa9b64f3d6cbafe6ba07b66bc5a3679068f82a24a0ebcf25ce"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-05",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Separate the measurement, biological interpretation, clinical prediction, proposed action and evidence of patient benefit; mark each measured, inferred, proposed or unknown.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 44,
+          "lineEnd": 52,
+          "passageSha256": "5eb7617c1d364dad95606454053b6cead0a198f83a41c2eeb2265a5cff608624"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 44,
+          "lineEnd": 52,
+          "passageSha256": "5eb7617c1d364dad95606454053b6cead0a198f83a41c2eeb2265a5cff608624"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-06",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A claim records tested material, quality requirements, a proposed mechanism and alternative biological explanations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 46,
+          "lineEnd": 47,
+          "passageSha256": "f8e8f3b9d7c14e83d8e239cded4557fc30ae1c959f54cab68da84609e25a6085"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 46,
+          "lineEnd": 47,
+          "passageSha256": "f8e8f3b9d7c14e83d8e239cded4557fc30ae1c959f54cab68da84609e25a6085"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-07",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Prediction identifies outcome, population and period; action identifies what would change; patient benefit needs evidence against an alternative.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 48,
+          "lineEnd": 50,
+          "passageSha256": "951eff2a817826525ef06787ff7277fbc7850bda6c1c3fe4cd1654eb7d3fa897"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 48,
+          "lineEnd": 50,
+          "passageSha256": "951eff2a817826525ef06787ff7277fbc7850bda6c1c3fe4cd1654eb7d3fa897"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-08",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Record the exact laboratory, service, version and intended use; laboratory or research status does not replace claim-specific evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "5bc7c0ce0bc4d061a9aff2f6dabfbbfd801cee39ed245830f223914289196cdf"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "4cb6ce7e3eccced109cc4b5b2508e4f9803bf8659217907f16fc8e5d3724ba62"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-09",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Check any label-defined companion-diagnostic requirement separately from a report drug list; expedited development designation is distinct from marketing approval or test validation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 54,
+          "lineEnd": 56,
+          "passageSha256": "0a97c3a8087e6d886db5c68088fd8a8f46ed6f3ad89a17c23eec82f9d11ebd43"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 54,
+          "lineEnd": 56,
+          "passageSha256": "1e872ca9679a5b8ddb74fe1ddc1c99f72e45c243290ba41a3447dc338dcf24d4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-10",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Retain the fictional protein/Drug A responder example: abundance measured in stored tumour, response association in treated advanced Cancer X and a proposed postoperative use are separate claims.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 60,
+          "lineEnd": 62,
+          "passageSha256": "bc0683e8f388f77e0e01696422bbc95e97ea57768e74003d6882513917b5de6f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 60,
+          "lineEnd": 62,
+          "passageSha256": "bc0683e8f388f77e0e01696422bbc95e97ea57768e74003d6882513917b5de6f"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-11",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A treated-only response association does not establish differential treatment benefit versus an alternative, and advanced-disease evidence does not establish postoperative benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "7cbd2b361e5040ac557633554856fbbf9284867c3881f11d6152215c46157735"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "7cbd2b361e5040ac557633554856fbbf9284867c3881f11d6152215c46157735"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-12",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Personalised wording closes neither comparison nor setting gaps; ask for evidence that choosing the drug with the result improves the proposed outcome and setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "7cbd2b361e5040ac557633554856fbbf9284867c3881f11d6152215c46157735"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "7cbd2b361e5040ac557633554856fbbf9284867c3881f11d6152215c46157735"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-13",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A broad predicts-benefit headline may hide a narrower response association; write the actual outcome and comparator.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "6aec92892610485701509a74703147342216277b5bc7caee338600503393fff0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "6aec92892610485701509a74703147342216277b5bc7caee338600503393fff0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-14",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A gene or target name alone does not establish treatment actionability.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "d89d2205acef3be7d117f407efa2dc038d10b09225a9a02ad07ff237b175c4c7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "d89d2205acef3be7d117f407efa2dc038d10b09225a9a02ad07ff237b175c4c7"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-15",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A research result needs its producing service, method version and intended-use boundary before being treated as a clinical report.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "87bef6324441c751a4c1b16196344aea90151cc22fd755c43ea54302785951d6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "87bef6324441c751a4c1b16196344aea90151cc22fd755c43ea54302785951d6"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-16",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "A negative result depends on detection/quantitation limits, sampling time and pretest frequency; it does not establish that a condition is absent.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "c545bd62480f067194a99a2cf79adf10ff284631c4e3083b25df03bb9d82e3a1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "c545bd62480f067194a99a2cf79adf10ff284631c4e3083b25df03bb9d82e3a1"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-17",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Separate the fictional earlier-recurrence-detection claim from the claim that a test-guided strategy improves survival; measured lead time needs detection dates and population.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 77,
+          "lineEnd": 79,
+          "passageSha256": "b5b503a90be44cdcb1fe2fd182df2e01d596fd05abac1ccd2cc82b51eff0c771"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 77,
+          "lineEnd": 79,
+          "passageSha256": "b5b503a90be44cdcb1fe2fd182df2e01d596fd05abac1ccd2cc82b51eff0c771"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-18",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "Lead-time bias can extend survival measured from detection without postponing death; earlier detection alone does not prove survival benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "33cdcdec06d17113ce65897e957c0585adfcae07eaf3bb40e500640e4b53d9a4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "33cdcdec06d17113ce65897e957c0585adfcae07eaf3bb40e500640e4b53d9a4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-19",
+      "lesson": "claim",
+      "kind": "substantive",
+      "requirement": "The explain-back exercise identifies protein measurement, postoperative Drug A addition and missing evidence of improved outcome as three separate answers.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 83,
+          "lineEnd": 85,
+          "passageSha256": "b45d7b33514ed800fcdb2505ea2687087c25fb6311764b820dd24180f59cfc66"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 83,
+          "lineEnd": 85,
+          "passageSha256": "b45d7b33514ed800fcdb2505ea2687087c25fb6311764b820dd24180f59cfc66"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-01",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Evaluation of the exact claim needs suitable data not used for development or tuning; a chart alone does not establish independent performance.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 20,
+          "lineEnd": 36,
+          "passageSha256": "26cab32ddd0bb861fff2ec5b56db30d70437935a7287f04b31e2fab0eba16b77"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 20,
+          "lineEnd": 36,
+          "passageSha256": "26cab32ddd0bb861fff2ec5b56db30d70437935a7287f04b31e2fab0eba16b77"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-02",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Trace the plot back to eligibility, participant selection, failed samples, outcome access during threshold selection and treatment context.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 30,
+          "lineEnd": 32,
+          "passageSha256": "6428bc25e75f512a7025777101d7e5f08517769389575285b30876c9eafd358f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 30,
+          "lineEnd": 32,
+          "passageSha256": "6428bc25e75f512a7025777101d7e5f08517769389575285b30876c9eafd358f"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-03",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Perfect-sample-only performance may not transfer to real practice, and reusing training patients can reward memorisation or tuning.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 34,
+          "lineEnd": 36,
+          "passageSha256": "e195539c319d51b9b641f7bf0a4c659b270b2dd9e55b5e270a4203f9076aba7c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 34,
+          "lineEnd": 36,
+          "passageSha256": "e195539c319d51b9b641f7bf0a4c659b270b2dd9e55b5e270a4203f9076aba7c"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-04",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "External evaluation uses data outside development; compare sites, handling, calendar period and care. Independent data and evaluation matter more than a different company or institution logo.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 36,
+          "lineEnd": 36,
+          "passageSha256": "0271edfba798b525ba4b65db874296dd8f3b560cc5ce4ab9292b1ac4d722dc8c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 36,
+          "lineEnd": 36,
+          "passageSha256": "0271edfba798b525ba4b65db874296dd8f3b560cc5ce4ab9292b1ac4d722dc8c"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-05",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card records cancer type, stage, treatment setting and selection, with any mismatch to the proposed group.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "e1e6217fdecd20bed16c84b232313ed52ae8f8d447fa8d237e9357ab51e04767"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "e1e6217fdecd20bed16c84b232313ed52ae8f8d447fa8d237e9357ab51e04767"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-06",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card records specimen, handling, method version and quality criteria; input changes may alter performance.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "120a438a39b45649e0799082b972d83ae062395357738871d81888700f1080f0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "120a438a39b45649e0799082b972d83ae062395357738871d81888700f1080f0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-07",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card records the reference standard or care comparator and its limitations rather than assuming it is infallible truth.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "269995db6c6151d40bc57b310f9cdba5c1cbd7e755479fdba2714826eac072da"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "269995db6c6151d40bc57b310f9cdba5c1cbd7e755479fdba2714826eac072da"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-08",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card names the outcome and measurement time; response, recurrence and survival are distinct endpoints.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "028f0db14f2be693530267cd2c94ad126dce5315bc285239c99991f81338a3ee"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "028f0db14f2be693530267cd2c94ad126dce5315bc285239c99991f81338a3ee"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-09",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card retains prespecification, all search/tuning choices and truly held-out evaluation; exploratory findings need confirmation that does not reuse their selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 48,
+          "lineEnd": 52,
+          "passageSha256": "d23a05575aba786dafe858cd965ffed336461970a156de36a5674d0ab9adaa8e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 48,
+          "lineEnd": 52,
+          "passageSha256": "d23a05575aba786dafe858cd965ffed336461970a156de36a5674d0ab9adaa8e"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-10",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card retains failed specimens, dropout and missing outcomes so difficult cases do not silently disappear.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "f9faa95f7181370ea7068bb5cf607788e2f17d1f18855e426a239ff20346f539"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "f9faa95f7181370ea7068bb5cf607788e2f17d1f18855e426a239ff20346f539"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-11",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "An evidence card includes sample size, intervals and remaining uncertainty; a point estimate is not a promise about one person.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "fb5e8c7c452d5ee89c636a433457c128cca56cad960a9de5e1427f859a72a3ff"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "fb5e8c7c452d5ee89c636a433457c128cca56cad960a9de5e1427f859a72a3ff"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-12",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Preclinical evidence states the actual model and tested claim. Nonassigned clinical care needs confounding assessment; neither alone validates a proposed action. Test evaluation and compound evidence are separate routes.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 54,
+          "lineEnd": 56,
+          "passageSha256": "6ce19496c8f7529c47d880f3baf3784b303415186340c4f3465ddfe9532035d1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 54,
+          "lineEnd": 56,
+          "passageSha256": "6ce19496c8f7529c47d880f3baf3784b303415186340c4f3465ddfe9532035d1"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-13",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Analytical validation precedes an assay performance claim. The cited AMP/CAP sequencing-panel guidance is scoped to variant types, reference materials, depth and sample numbers, not every possible test.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 58,
+          "lineEnd": 60,
+          "passageSha256": "8a4c25fac295231cb1f5d39606449241940ca146816059f7de8d3b529f5a53ea"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 58,
+          "lineEnd": 60,
+          "passageSha256": "8a4c25fac295231cb1f5d39606449241940ca146816059f7de8d3b529f5a53ea"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-14",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Report the target level, detection probability, input and specimen behind a detection limit; the lesson uses a 95% convention that needs assay-specific justification.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "dd7a1699102a2a983c9fb6292e0be3bea36d25e193cf94e4618105005cb82028"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "dd7a1699102a2a983c9fb6292e0be3bea36d25e193cf94e4618105005cb82028"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-15",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Precision considers repeatability and conditions across days, operators and instruments; trending needs the measurement variation understood.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "64be85286c0a7ec4cc861c5b2d26d9230a323408f7eb9ea4152e17fb90b67db8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "64be85286c0a7ec4cc861c5b2d26d9230a323408f7eb9ea4152e17fb90b67db8"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-16",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Accuracy assessment needs an appropriate independent reference or established method on matched material; self-agreement alone does not establish accuracy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 66,
+          "lineEnd": 66,
+          "passageSha256": "d5be901d4cd1abeb6c8e6ee16cef18e8b29df53388f8bf339832c0c90cee6905"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 66,
+          "lineEnd": 66,
+          "passageSha256": "d5be901d4cd1abeb6c8e6ee16cef18e8b29df53388f8bf339832c0c90cee6905"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-17",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Report the proportion of attempted samples that yields no result and the reasons; success-only accuracy omits a real-world failure rate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "de1975315ae5a0a51c324dc119d4645b0df4414c01021b4e98e033b0d82ea74a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "de1975315ae5a0a51c324dc119d4645b0df4414c01021b4e98e033b0d82ea74a"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-18",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Validation includes specimen type, preservation, handling and interference; fresh-plasma performance does not automatically transfer to delayed samples.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 68,
+          "lineEnd": 68,
+          "passageSha256": "6d2d7a21721acf0a163bc15954a448846119265401dde1b17305f5e3a4b22a4b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 68,
+          "lineEnd": 68,
+          "passageSha256": "6d2d7a21721acf0a163bc15954a448846119265401dde1b17305f5e3a4b22a4b"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-19",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "PPV depends on condition frequency in the tested population as well as the stated sensitivity and specificity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 72,
+          "lineEnd": 79,
+          "passageSha256": "545fd7d4941c88b6602bd85adfaa4fd4310971bfe9c08c47b390d1fe44967888"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 72,
+          "lineEnd": 79,
+          "passageSha256": "545fd7d4941c88b6602bd85adfaa4fd4310971bfe9c08c47b390d1fe44967888"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-20",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Retain the first fictional 1,000-person example: 10% condition frequency, 90% sensitivity and 95% specificity give 100 affected, 90 true positives, 45 false positives and 90/135, about 67%, PPV.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 74,
+          "lineEnd": 77,
+          "passageSha256": "b4ce786ddefe9f0029c86005eba60143476ac71fd25ff948411cc5801af4ffba"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 74,
+          "lineEnd": 77,
+          "passageSha256": "b4ce786ddefe9f0029c86005eba60143476ac71fd25ff948411cc5801af4ffba"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-21",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Retain the second fictional 1,000-person example: 2% frequency with unchanged sensitivity/specificity gives 20 affected, 18 true positives, 49 false positives and 18/67, about 27%, PPV.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 74,
+          "lineEnd": 79,
+          "passageSha256": "a8501a78ae3e4110d5fc9c7caa30ed5056ebe1c9eb7c85afc65cf7eaf7457ca4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 74,
+          "lineEnd": 79,
+          "passageSha256": "a8501a78ae3e4110d5fc9c7caa30ed5056ebe1c9eb7c85afc65cf7eaf7457ca4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-22",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "The two-slide illustration retains every tuning choice on Hospital A, locking before B and B outcomes excluded from further tuning; show failures rather than inventing performance numbers.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 83,
+          "lineEnd": 92,
+          "passageSha256": "db2da7fc3b491757c57ad61bb9d3ce6d05657c651f2497f86edef2ad8232945e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 83,
+          "lineEnd": 92,
+          "passageSha256": "db2da7fc3b491757c57ad61bb9d3ce6d05657c651f2497f86edef2ad8232945e"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-23",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Recomputing A can check computational reproducibility but is no new independent population test. B still needs relevant patients, failed-test denominators, uncertainty and calibration.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 85,
+          "lineEnd": 96,
+          "passageSha256": "e64b6ecc5657363987420b19dc356df4b20fac1ee5a516bf7ff538647160aea3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 85,
+          "lineEnd": 96,
+          "passageSha256": "e64b6ecc5657363987420b19dc356df4b20fac1ee5a516bf7ff538647160aea3"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-24",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Verify the Michiels historical result at its actual scope: five of seven large microarray prognosis studies performed no better than chance under repeated random splits, not every model or assay.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 92,
+          "lineEnd": 92,
+          "passageSha256": "d337019cc9f10d5e619b4c054595a219f55de0cb8623fbcfe64534aefa179989"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 92,
+          "lineEnd": 92,
+          "passageSha256": "d337019cc9f10d5e619b4c054595a219f55de0cb8623fbcfe64534aefa179989"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-25",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "A new hospital may still mismatch disease setting; risk discrimination/ranking and calibrated probabilities are distinct, and one universal performance cutoff cannot authorise every clinical use.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 94,
+          "lineEnd": 96,
+          "passageSha256": "86b886b9ee3251018cad253120b1e8ee17097c3deae094ef37f8916dc478b67a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 94,
+          "lineEnd": 96,
+          "passageSha256": "86b886b9ee3251018cad253120b1e8ee17097c3deae094ef37f8916dc478b67a"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-26",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Even a well-calibrated prognostic risk score does not establish benefit from a treatment suggested beside it.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 98,
+          "lineEnd": 98,
+          "passageSha256": "2ca717e42f2e3ed8622513906ec17d7cf2c928071c37ad375dc77ca1d9a010e4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 98,
+          "lineEnd": 98,
+          "passageSha256": "2ca717e42f2e3ed8622513906ec17d7cf2c928071c37ad375dc77ca1d9a010e4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-27",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Retain attempted and reported denominators and failure reasons instead of reporting only successful samples.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 102,
+          "lineEnd": 102,
+          "passageSha256": "04c963d15291fce3141030a1298d2afbf0e2431b7c0e7dabd465c7a21b300897"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 102,
+          "lineEnd": 102,
+          "passageSha256": "1688120407b04f8dc858962ccce09049835b5b890148182fa4fe4a27f44e74a4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-28",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "A threshold needs its selection date, tuning history and independent test; a cross-disease dataset needs its mismatch stated.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 103,
+          "lineEnd": 104,
+          "passageSha256": "b0832a599e37c8634d99fe930b515509a00833ca16d745908966a4efcbd741ef"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 103,
+          "lineEnd": 104,
+          "passageSha256": "b0832a599e37c8634d99fe930b515509a00833ca16d745908966a4efcbd741ef"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-29",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "Laboratory status cannot substitute for clinical evidence; false-positive and false-negative consequences depend on the action that follows.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 105,
+          "lineEnd": 106,
+          "passageSha256": "183e7e5272eea0a39502abc4f210ebe009e9c91c5d7abf9e35faa5e165d7dbf0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 105,
+          "lineEnd": 106,
+          "passageSha256": "0d9f791a606eb5494e35a52870ef005420a7ee41d209f9f21be9f280181e7229"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-30",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "The unchanged-Hospital-A practice answer requests data held out from every tuning choice, preferably an independent setting, plus locked method, population, outcome, failures and uncertainty; advanced treated risk ranking does not establish postoperative treatment selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 110,
+          "lineEnd": 118,
+          "passageSha256": "1fe71f53a12390b6e26ac719a785f98f2afedf7a8fccf545fe065234ecf09829"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 110,
+          "lineEnd": 118,
+          "passageSha256": "1fe71f53a12390b6e26ac719a785f98f2afedf7a8fccf545fe065234ecf09829"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-31",
+      "lesson": "validation",
+      "kind": "substantive",
+      "requirement": "The later version additionally distinguishes all assigned participants, those treated and only evaluable participants as treatment-study analysis populations; retain which denominator is used.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 102,
+          "lineEnd": 102,
+          "passageSha256": "1688120407b04f8dc858962ccce09049835b5b890148182fa4fe4a27f44e74a4"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-01",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Begin with a named decision and distinguish a research-learning goal from a supported clinical action.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 20,
+          "lineEnd": 32,
+          "passageSha256": "30660b6505b776e5f432f3a7ed6a03889967f521fab361670c0d451cabb84f1d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 20,
+          "lineEnd": 32,
+          "passageSha256": "30660b6505b776e5f432f3a7ed6a03889967f521fab361670c0d451cabb84f1d"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-02",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Specify actions for positive, negative, uncertain and failed results; if every branch leads to unchanged care, immediate clinical decision value is limited while a stated research goal may remain.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 32,
+          "lineEnd": 32,
+          "passageSha256": "14e83329f5d093e873b8324ec62fd79f59218f30868462b9423d7b7a42d786a8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 32,
+          "lineEnd": 32,
+          "passageSha256": "14e83329f5d093e873b8324ec62fd79f59218f30868462b9423d7b7a42d786a8"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-03",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "A useful result must arrive within the decision window; consuming finite tissue has opportunity costs for other assays.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 34,
+          "lineEnd": 34,
+          "passageSha256": "01f79178af5f146bc433246800427ba9ba8df4de15f529bd4c1832573a40a8ef"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 34,
+          "lineEnd": 34,
+          "passageSha256": "01f79178af5f146bc433246800427ba9ba8df4de15f529bd4c1832573a40a8ef"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-04",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "The decision ledger names the treatment/trial decision and the action and evidence for positive, negative and uninformative results, including proposed omission or repeat/confirmation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 40,
+          "lineEnd": 45,
+          "passageSha256": "87aef9db059f3f21708e0daf8cae9755bfabc6651a15be50a626a6b78ef35753"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 40,
+          "lineEnd": 45,
+          "passageSha256": "87aef9db059f3f21708e0daf8cae9755bfabc6651a15be50a626a6b78ef35753"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-05",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Compare existing pathology or alternative tests and account for specimen, time, travel, uncertainty and financial burden.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 46,
+          "lineEnd": 47,
+          "passageSha256": "7aafc195b470a5ae23860aad2eb4f0f09244d31f25b134f3e22dbaed7bde185f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 46,
+          "lineEnd": 47,
+          "passageSha256": "7aafc195b470a5ae23860aad2eb4f0f09244d31f25b134f3e22dbaed7bde185f"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-06",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Name who interprets the result and owns the clinical recommendation and define a stopping rule; the worksheet exposes assumptions rather than calculating a treatment choice.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 48,
+          "lineEnd": 51,
+          "passageSha256": "fd2869bcd8af39bd595cf1042b8c9f9c57409bccfa9be9f9767f9065d63cfe63"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 48,
+          "lineEnd": 51,
+          "passageSha256": "fd2869bcd8af39bd595cf1042b8c9f9c57409bccfa9be9f9767f9065d63cfe63"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-07",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Retain the fictional postoperative Drug A/protein-assay case, whose treatment-selection evidence comes from another setting; access and transportability are separate questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "7cf2a37bff91cba98863b8735ddc239469a3cd63f95bd318b6a4cde187258141"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "7cf2a37bff91cba98863b8735ddc239469a3cd63f95bd318b6a4cde187258141"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-08",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Possible branches include checking the actual companion-diagnostic label, reviewing drug evidence, considering a matched trial or declining tissue-consuming testing that would not change the decision.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "479bfa7bdc3f65933c009035976d27424c044774a84ff86a5fd21ab095c81fed"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "479bfa7bdc3f65933c009035976d27424c044774a84ff86a5fd21ab095c81fed"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-09",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Confirmation asks whether the measurement is real; it does not establish whether the proposed intervention helps or turn abundance into proven postoperative benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "30a078c24f859bb95b62b5b9b898eac20ef692fe977d789ae0397a0593cc57d0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "30a078c24f859bb95b62b5b9b898eac20ef692fe977d789ae0397a0593cc57d0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-10",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Drug approval elsewhere, clinician-led off-label use, access, payment and suitability are distinct; a report listing a medicine guarantees none of them.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "04986f7355d3c16c8adc81d0d0e1430889eb7812543f425bba88ac95a8b6ae39"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "04986f7355d3c16c8adc81d0d0e1430889eb7812543f425bba88ac95a8b6ae39"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-11",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "A valuable research goal can test a mechanism, explain assay disagreement or generate a hypothesis without selecting treatment; name its reviewer and a useful answer to avoid endless testing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "d2653dc717690526b0a317c31b7659e416f42650258b1258112b4ca00af571f5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "d2653dc717690526b0a317c31b7659e416f42650258b1258112b4ca00af571f5"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-12",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Attribute unpublished company data and record what was available to inspect; unavailable evidence is distinct from proof that a claim is false.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "f187f4f66f351db61e9520856685ae21d37c153f4c7fb17f0fd56b274da92184"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "f187f4f66f351db61e9520856685ae21d37c153f4c7fb17f0fd56b274da92184"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-13",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Changing treatment after a test is not itself demonstrated benefit and can add unnecessary treatment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "d9b074869cc13c4ea8f393b031a7c2830c45861c428acb6902193cfd5607bb13"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "d9b074869cc13c4ea8f393b031a7c2830c45861c428acb6902193cfd5607bb13"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-14",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "A favourable prognostic result does not establish safe treatment omission. A new test can displace better-supported testing, and urgency cannot validate an unsupported action.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "17f08fd1c4c63233920801c4cd140fe5a8cb3646bff66e0ce25f7b302fd9166f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 76,
+          "lineEnd": 78,
+          "passageSha256": "17f08fd1c4c63233920801c4cd140fe5a8cb3646bff66e0ce25f7b302fd9166f"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-15",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "Retain the high/low recurrence-test exercise: if neither result changes care and no relevant study is open, weigh a separately stated research/personal-information goal against burdens, uncertainty and alternatives.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 82,
+          "lineEnd": 84,
+          "passageSha256": "77bafe97001cc502c98c36799cce55900ca98a1f6a4bd289c342224376b9d7c5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 82,
+          "lineEnd": 84,
+          "passageSha256": "77bafe97001cc502c98c36799cce55900ca98a1f6a4bd289c342224376b9d7c5"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-16",
+      "lesson": "decision",
+      "kind": "substantive",
+      "requirement": "The explain-back answer retains positive, negative and uninformative branches, the evidence and clinical owner for each, and a plan for uncertainty.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 88,
+          "lineEnd": 94,
+          "passageSha256": "9fefbea2612691b742e93c206ff365aae55d610d7ee82dec6d96c9ae002ae462"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 88,
+          "lineEnd": 94,
+          "passageSha256": "9fefbea2612691b742e93c206ff365aae55d610d7ee82dec6d96c9ae002ae462"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-01",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "A proposal needs the complete product, clinical setting, evidence and requested action; a target shortlist or recipe analogy cannot establish biological benefit or safety.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 27,
+          "lineEnd": 39,
+          "passageSha256": "287f0765b84fdae12c31b3e9f25f7f14044a9440793a73c90e05df34ec315c41"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-02",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Reviewing data, consuming tissue, making a product and administering it are distinct commitments, each requiring a rationale and responsible owner.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "a5a1098b91a9f083a5f63d1542ee13356639867769738f1177740ce5dd5e80d8"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-03",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "The product proposal records disease setting, treatment intent, alternatives, measurable goal and the exact molecule or peptide-HLA target with specimen and method.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 45,
+          "lineEnd": 46,
+          "passageSha256": "d5bc4db9bd36671ca129951c7d8eb89e1ede4d4004f6280477091971c48db0a8"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-04",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Assess target accessibility and selectivity with protein location and relevant normal-tissue data while retaining sampling limits.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "1b965bc3c0fe6b13206a8a09d3de40c0c245d6e18c56dfce4a171e197f3ba2f8"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-05",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Record the full binder/payload/cell design and mechanism and the relevant human comparison or explicitly limited preclinical evidence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 48,
+          "lineEnd": 49,
+          "passageSha256": "3f425d82db61a8ea504177d5bf9d3fed3eef73ce82e687c3c35f348a81cc6b29"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-06",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Record product-specific risks, monitoring, management capability and stopping rules; manufacture, release, sponsor, site and access pathway are separate readiness gates from the immediate decision.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 50,
+          "lineEnd": 52,
+          "passageSha256": "0c45f966b21bb198902345e67b2fe301b9ac962419a292ab3cd7b231f5d5697b"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-07",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "ADC assessment asks how antibody, linker and payload act together and which delivery/resistance steps were tested; internalisation is design-specific rather than a universal yes/no requirement.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "bd9f87e6e206ebf063d9fddcc9e39c0a26e5a24860d1e541b8c76dd7cf0a0f2d"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-08",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "For an engager or cell therapy ask about CRS, ICANS and other neurological effects, healthy-tissue recognition, tissue access and what can persist after dosing stops; do not transfer CAR-product incidence to every engager.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "2188a6470342519e75bed091f534c6d91b232b0e151ee996d68bfe74c22246b7"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-09",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "A radioligand assessment connects imaging with the therapeutic product distribution, absorbed dose and organ limits. Tracer uptake alone supplies neither efficacy nor a CAR-T safety threshold.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "74cd30a38a7278dc49552a52abe6e8b92c5dab1cb71ab17eb7a55d141f272f67"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-10",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "A TCR therapy requires a specified peptide and HLA allele and evidence of specificity, presentation and function; receptor sequence or clonal expansion alone answers none of those completely.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "6c2c8564320ea3bbc24a7bfca8dd7bb552569e530ec4f395d176362f22994c18"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-11",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Retain Product Q as a fictional specified ADC against surface protein M with a cleavable linker/payload, considered for progressing metastatic solid cancer after prior treatment; the immediate action is existing-data review, not manufacture, treatment or sampling.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 68,
+          "lineEnd": 68,
+          "passageSha256": "036640d43ef0edc69fbd4259349ca30541a29a432e815f741e1e2f7f9bc13225"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-12",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "The fictional dossier contains only one tumour-biopsy RNA result and cultured target-bearing-cell activity; human comparisons, surface measurement, healthy-tissue testing, supplier participation, access and site arrangements are absent or unknown.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "b01e87423e3b2d6f939f68b54b998536efeca41dc89628f345cf7d1914e38b18"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-13",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "The completed card retains Q identity, the metastatic setting, measured evidence and a research hypothesis rather than borrowing benefit from another M-targeted format.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 74,
+          "lineEnd": 77,
+          "passageSha256": "ea9e375df859a70038267c775a4c2eb7f5bbb839ff93eab9edcf63bc205155bf"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-14",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "The card retains missing accessible protein, healthy-tissue effects, full-product delivery and relevant human outcomes; a research lead reviews methods and controls first, consumes no tissue and pauses if product identity or usable evidence is unavailable.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 78,
+          "lineEnd": 81,
+          "passageSha256": "43a088b1b811939019946508a80bc757a4897e1842a41c8694c1bed0aada2de9"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-15",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Ask which Q-specific result would change experiment planning. RNA abundance is distinct from accessible surface protein, and protein confirmation would still not establish clinical benefit; the Mertins study measures separate RNA/protein layers, not surface access or treatment selection.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 81,
+          "lineEnd": 83,
+          "passageSha256": "6462bfe87b3987f31f3026246f75987c572b6412fa5194b18cbf446fb7b09b4d"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-16",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "In the United States, an effective IND concerns the applicable investigational product/protocol and is not marketing approval; BLA submission is distinct from BLA approval.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 87,
+          "lineEnd": 87,
+          "passageSha256": "2687210fe4c4b925a89e899fab1dfcae60a7c4caad9a32e3b2a0a31ecd68b134"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-17",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "A manufacturing quote does not establish all supply, consent, review, delivery and monitoring gates, and even confirmed access does not prove benefit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 89,
+          "lineEnd": 89,
+          "passageSha256": "041362107878eb3b06ae154e977ffccf3e3f71a9a7b1a6f59806db4fd22bd3c0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-18",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Do not turn expression into benefit, one format into another format evidence, an experiment into a treatment commitment or speculative availability into future protection against recurrence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 93,
+          "lineEnd": 96,
+          "passageSha256": "d6f54ce4e8dfad9ddd71f4f6e60058fad5b43fb234961445afd35b6b02d94173"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-19",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Retain the second Q exercise after complete tumour removal: the new request is postoperative prevention plus manufacturing and administration, while evidence remains one biopsy RNA signal and cultured-cell activity.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 100,
+          "lineEnd": 104,
+          "passageSha256": "9c2ed713c0388252a42b7f0cf050fb589d0cab97dee610076da2f503be269803"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-20",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "Neither the attributed IND milestone nor supply offer closes the postoperative evidence gap; ask the clinical team for Q-specific evidence or a relevant protocol, the sponsor for covered product/protocol and the readiness owner for delivery gates.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 104,
+          "lineEnd": 104,
+          "passageSha256": "41d06d93a0b218709e0bd5c4e0bcff50e62231bdecb3ce77af0f2fe8f2f94ba6"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-21",
+      "lesson": "format",
+      "kind": "substantive",
+      "requirement": "With only the fictional dossier, evidence/pathway review is supported and manufacture or administration is not justified by it; the explain-back answer retains finding, product/setting, proposed commitment, missing clinical/safety evidence and answer owner.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 104,
+          "lineEnd": 110,
+          "passageSha256": "cd08ef6ad893cc8d0ccaf3e22ec6f18bd91a0fa6e0174c894d92203e69204318"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-90",
+      "lesson": "claim",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "4cbe78d85bd4ca960f47049761fc356e94e044408663bd2cf7b02e5786cde653"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "4cbe78d85bd4ca960f47049761fc356e94e044408663bd2cf7b02e5786cde653"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "claim-91",
+      "lesson": "claim",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "58334bd83b9454f2b9ac5fb13a4d4be5f79a076e5b7c4b03de576a08b31ca4a5",
+          "lineStart": 87,
+          "lineEnd": 101,
+          "passageSha256": "583a9b243401280f4e8aa6fedb6e9182a55a696a5ee83c5587f5b7cb91864c7a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/01-write-the-exact-claim.md",
+          "sourceSha256": "805270280960302120946a4ea8d416560273732303d2e53d364397d8d6d04d06",
+          "lineStart": 87,
+          "lineEnd": 101,
+          "passageSha256": "583a9b243401280f4e8aa6fedb6e9182a55a696a5ee83c5587f5b7cb91864c7a"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-90",
+      "lesson": "validation",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "1d1cc2fb4ed698a058a35ecda35b3a23d2a77ff5ba43320232bd2c767b857ea9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "1d1cc2fb4ed698a058a35ecda35b3a23d2a77ff5ba43320232bd2c767b857ea9"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "validation-91",
+      "lesson": "validation",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "c97c2b8629fa85f9b0b98abfc47d522d3e71980869224930ad77055540936a5a",
+          "lineStart": 120,
+          "lineEnd": 133,
+          "passageSha256": "7100b4bba3f9068ff20b32033638c8b37b2ba2ff5aaaf2a1aa83ea9651ecaa51"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/02-read-the-validation.md",
+          "sourceSha256": "600f2ffd1c9bd9c6f42ad056d031c4f7d2f3956842c1568d4640ed6f30345b0e",
+          "lineStart": 120,
+          "lineEnd": 133,
+          "passageSha256": "7100b4bba3f9068ff20b32033638c8b37b2ba2ff5aaaf2a1aa83ea9651ecaa51"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-90",
+      "lesson": "decision",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "4afb9ddfaf7fe3161cc445e9fd41df03277e6ed8cba8c99a6133161427049bd5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 18,
+          "lineEnd": 26,
+          "passageSha256": "4afb9ddfaf7fe3161cc445e9fd41df03277e6ed8cba8c99a6133161427049bd5"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "decision-91",
+      "lesson": "decision",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 92,
+          "lineEnd": 104,
+          "passageSha256": "c739599c60f2ecabb5ab7810bbded9ea91b775e67b61b63f374e7da6ce066ba0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/03-connect-evidence-to-a-decision.md",
+          "sourceSha256": "c225c4ece0293aa268bbbc092160c85d07863c6fb9a8ab7fc01d6fb286380b47",
+          "lineStart": 92,
+          "lineEnd": 104,
+          "passageSha256": "c739599c60f2ecabb5ab7810bbded9ea91b775e67b61b63f374e7da6ce066ba0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-90",
+      "lesson": "format",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 25,
+          "lineEnd": 33,
+          "passageSha256": "3791c29f16450c54799d0f7e75d84769d04040c4c87077ec912e3d99cb4d75de"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "format-91",
+      "lesson": "format",
+      "kind": "non-credit",
+      "requirement": "Introductory routing, recap or source-scope statement; no extra teaching credit beyond the substantive requirements.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/04-ask-product-specific-questions.md",
+          "sourceSha256": "845d024a4a8bc12882e3a17f634b7096bd887977047c6e8297452773b565519f",
+          "lineStart": 112,
+          "lineEnd": 127,
+          "passageSha256": "054b22b3677b785c0b1a77eab336ce2e48b920c72c92f4e46ea3efb79fe8f734"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared."
+    },
+    {
+      "id": "map-01",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The map repeats claim specification, three validity questions, oversight/evidence separation, independent evaluation and clinical-versus-learning choices.",
+      "appliesTo": [
+        "original"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "ed4458972d49e4a761f605ec95dcad61ca6448465d81bd9108fc2a45c1a3f0ce",
+          "lineStart": 16,
+          "lineEnd": 28,
+          "passageSha256": "7bd7b68c1d7ef9f501a0f74acabd2f44c35de55ba847e75baa4fafaf0176c8b1"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-11",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The map repeats claim specification, three validity questions, oversight/evidence separation, independent evaluation and clinical-versus-learning choices.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "0f7fd55417ba85c4ed64380c2d1870b08bf7898645f57c08e16eb71d481e6a1d",
+          "lineStart": 16,
+          "lineEnd": 28,
+          "passageSha256": "3400eb30a1755c6fcd77f387ea08afa7aa352c6cfcc604ecbc3a521674c0bbc6"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-02",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The map and lesson table route definition through evidence and decisions; later adds format-specific questions. It creates no rule that evidence is necessarily sufficient.",
+      "appliesTo": [
+        "original"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "ed4458972d49e4a761f605ec95dcad61ca6448465d81bd9108fc2a45c1a3f0ce",
+          "lineStart": 30,
+          "lineEnd": 52,
+          "passageSha256": "0b0b05ce65d941c853a01ac908fb30bce258c532f8fa8b852bc31aed387ab87b"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-12",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The map and lesson table route definition through evidence and decisions; later adds format-specific questions. It creates no rule that evidence is necessarily sufficient.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "0f7fd55417ba85c4ed64380c2d1870b08bf7898645f57c08e16eb71d481e6a1d",
+          "lineStart": 30,
+          "lineEnd": 54,
+          "passageSha256": "abbc197aa9eb1aba4e51af9160f765f772daabbe747e2011fe7c7b1a1d57d3bb"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-03",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The linked concept list routes graph reading, denominators, time/population, transportability, validity, actionability, test oversight, companion tests, approval and off-label questions.",
+      "appliesTo": [
+        "original"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "ed4458972d49e4a761f605ec95dcad61ca6448465d81bd9108fc2a45c1a3f0ce",
+          "lineStart": 54,
+          "lineEnd": 64,
+          "passageSha256": "a024fa95611d5d630ca472ef17b1cfbb4b0cfb8ecec6128d8022352aa51776d0"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-13",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "The linked concept list routes graph reading, denominators, time/population, transportability, validity, actionability, test oversight, companion tests, approval and off-label questions.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "0f7fd55417ba85c4ed64380c2d1870b08bf7898645f57c08e16eb71d481e6a1d",
+          "lineStart": 56,
+          "lineEnd": 66,
+          "passageSha256": "a176ad60f596b0c13922e2af4f2ed68df3b8a799338acb2ba60ff96ef79ae7d6"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-04",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "Keep mismatched specimens/care/outcomes visible and attribute unpublished company results; these are already substantive decision requirements plus source-scope metadata.",
+      "appliesTo": [
+        "original"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "ed4458972d49e4a761f605ec95dcad61ca6448465d81bd9108fc2a45c1a3f0ce",
+          "lineStart": 70,
+          "lineEnd": 82,
+          "passageSha256": "c42ff34585358f0ecdb6fb242fb7eae02b507e77e99ae90138fd74d5e7aa2c02"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    },
+    {
+      "id": "map-14",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "Keep mismatched specimens/care/outcomes visible and attribute unpublished company results; these are already substantive decision requirements plus source-scope metadata.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "sourceSha256": "0f7fd55417ba85c4ed64380c2d1870b08bf7898645f57c08e16eb71d481e6a1d",
+          "lineStart": 72,
+          "lineEnd": 84,
+          "passageSha256": "c42ff34585358f0ecdb6fb242fb7eae02b507e77e99ae90138fd74d5e7aa2c02"
+        }
+      ],
+      "disposition": "Source-first; current owner fields and source support not yet compared.",
+      "derivedFrom": [
+        "claim-01",
+        "validation-01",
+        "decision-01",
+        "decision-12"
+      ]
+    }
+  ]
+}

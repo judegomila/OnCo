@@ -1,0 +1,495 @@
+{
+  "dataCommit": "ae850a609238e348d5485bd5a6556993ccaa9319",
+  "paragraphs": [
+    {
+      "id": "KIN-COUNT",
+      "ownerId": "cellular-kinetics-and-persistence",
+      "text": "In a fictional pair of matched blood samples, 20 per cent of 100 viable T cells per microlitre and 10 per cent of 200 both give 20 receptor-positive viable T cells per microlitre. The percentage fell because its denominator doubled; the concentration did not. This conclusion requires comparable collection, volume and viable-cell gates. It says nothing about the total number of cells in the body, tumour entry or continued target-cell killing. Genetic copies, surface receptor, viable cells and useful function remain separate measurements.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "LIV:3,4,5,6",
+        "PKT:10"
+      ]
+    },
+    {
+      "id": "KIN-SOURCE",
+      "ownerId": "cellular-kinetics-and-persistence",
+      "text": "Cells respond biologically to signals, without intention; more cells do not by themselves establish better or safer treatment. Consider two fictional ready-made products: a carrier that gives receptor instructions to the recipient’s own T cells, and a prepared batch of donor-derived engineered cells. The first can generate autologous cells in vivo; the second supplies allogeneic cells engineered ex vivo. State four things separately: the starting cell family, whose cells they are, where engineering happens and whether cells or an instruction carrier are administered. Neither card establishes available supply, the final engineered-cell population or treatment benefit. NK and NKT name different cell families; an added receptor does not erase the recipient cell’s other inputs.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "NCI-TCELL"
+      ],
+      "inventoryUnitGroups": [
+        "LIV:7,8,9,10,11,12,19,21"
+      ]
+    },
+    {
+      "id": "CAR-INSTRUCTIONS",
+      "ownerId": "car-t",
+      "text": "A receptor-bearing cell, its genetic instructions and its receptor protein are different objects. For a protein-coding instruction, DNA is transcribed into RNA, and a ribosome translates usable messenger RNA into protein. Delivered messenger RNA starts at the translation step. Folding and transport to the membrane still have to occur before a surface receptor can bind its target. In this schematic sequence, simplified shapes and an arrow from recognition toward a response do not show that every cell expressed the receptor or completed killing.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "NCI-CAR"
+      ],
+      "inventoryUnitGroups": [
+        "CAR:1,2,3,4"
+      ]
+    },
+    {
+      "id": "CAR-KYMRIAH",
+      "ownerId": "car-t",
+      "text": "Kymriah’s product description illustrates why borrowed parts do not identify the whole product. Its CD19-binding region is a murine-derived single-chain antibody fragment, followed by a CD8-derived hinge and transmembrane region and the internal 4-1BB/CD137 and CD3-zeta signalling domains. CD8 here names the origin of structural segments, not a claim that the infused preparation contains only CD8 T cells. The label describes enrichment for T cells and permits other cell populations. Autologous source, domain names and architecture do not transfer Kymriah’s clinical results to another construct.",
+      "sourceIds": [
+        "FDA-KYMRIAH"
+      ],
+      "inventoryUnitGroups": [
+        "CAR:17,18,19"
+      ]
+    },
+    {
+      "id": "CAR-FAULT",
+      "ownerId": "car-t",
+      "text": "Suppose two fictional CARs differ only in their hinge: both bind purified antigen, but only one kills antigen-bearing cells. Compare surface expression and the geometry of cell contact before concluding that affinity is the problem. Likewise, DNA-positive cells without killing leave RNA production, receptor folding and trafficking, actual binding and signalling as separate possible failure points. Hudecek’s R11 ROR1 experiments illustrate a product-specific constraint: a long spacer enabled recognition of its membrane-proximal epitope, while changes that reduced Fc-receptor binding improved activity in the tested mice. Longer is not a universal design rule. Treat the transmembrane segment as part of the finished construct: assess assembly, surface expression and interactions rather than presume it is a neutral anchor. Unstimulated signalling and responses to repeated target encounters also need separate assessment.",
+      "sourceIds": [
+        "25212991",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "CAR:5,6,7,8,9,10,11,20,21,22"
+      ]
+    },
+    {
+      "id": "TROP2-BOARD",
+      "ownerId": "trop2",
+      "text": "A cell-therapy recognition claim needs the actual binder and accessible epitope, including tumour cells that lack it and relevant healthy cells. Sun’s TROP2 CAR used a sacituzumab-derived binding fragment. Human-cell and TNBC xenograft experiments tested antitumour activity; a separate murine-cell construct in mice expressing human TROP2 tested toxicity. The ungated construct caused lung injury and inflammation in that model. This does not turn an RNA measurement, an antibody stain or an antibody-drug conjugate result into a demonstration of safe human CAR-T recognition. Expression can vary within and between lesions and after treatment. Bulk RNA, soluble protein and an antibody stain need not report the feature accessible to the finished receptor.",
+      "sourceIds": [
+        "40903191",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:1,2,3,5",
+        "TGT:14"
+      ]
+    },
+    {
+      "id": "B7H3-BOARD",
+      "ownerId": "b7h3",
+      "text": "In Sun’s preclinical design, a B7-H3-binding synNotch receptor induced expression of a TROP2 CAR. The added input changed the recognition rule; it did not simply add a second independently activating CAR. The study compared human tumour models and a separate murine-cell system in human-TROP2 mice, where the gated construct avoided the measured inflammatory injury seen with the ungated construct. Induction, residual receptor expression after priming, tissue movement and healthy recognition still need testing for the actual circuit. Two positive stains do not establish those dynamics or human safety.",
+      "sourceIds": [
+        "40903191",
+        "26830879"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:6,22,23",
+        "PRO:18,19,20"
+      ]
+    },
+    {
+      "id": "MSLN-BOARD",
+      "ownerId": "mesothelin",
+      "text": "Tchou’s tissue survey and live-cell experiment answer different questions. In 99 archival primary breast-cancer specimens, mesothelin expression was more frequent in the TNBC group. The functional killing experiment used TB129, a primary breast-cancer line derived from an oestrogen-receptor-negative, HER2-positive cancer, rather than a TNBC line. Mesothelin-CAR cells killed 31.7 per cent versus 8.7 per cent with unmodified T cells under the reported conditions. Tissue staining, accessible binding by the proposed receptor and healthy mesothelial recognition must remain separate; the study does not establish a safe clinical treatment for TNBC. The mesoCAR construction paper cited by Tchou describes an SS1 single-chain antibody fragment joined to 4-1BB and CD3-zeta signalling domains (Moon and colleagues); this is a construct specification, not a result for every mesothelin binder.",
+      "sourceIds": [
+        "22418702",
+        "FDA-CAR-2024",
+        "21610146"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:7"
+      ]
+    },
+    {
+      "id": "NECTIN-BOARD",
+      "ownerId": "nectin4",
+      "text": "Li studied specified Nectin-4 and FAP constructs rather than every receptor against these antigens. The Nectin4-7.19 cells also encoded IL-7 and CCL19; a separate FAP-12 product encoded IL-12. Tissue surveys, colorectal-tumour mouse experiments and lung-metastasis models had different purposes. Recognition of human and mouse FAP was tested separately. No observed pathology in sampled mouse organs does not establish that a human Nectin-4 binder recognises the relevant healthy antigen in every species or proves human safety. Retain the actual binder, species, added functions and comparator.",
+      "sourceIds": [
+        "36479116",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:9"
+      ]
+    },
+    {
+      "id": "EGFR-BOARD",
+      "ownerId": "egfr",
+      "text": "A total-EGFR measurement does not specify recognition by an EGFR806 CAR. Subham’s study used an mAb806-derived binding region in a particular construct and examined TNBC brain-metastasis tissue, cell lines and mice. Its antibody-derived spacer was modified to reduce Fc-receptor recognition. Statements about tumour-restricted binding or normal-brain expression in the introduction draw on earlier work; they are not a substitute for testing the proposed finished receptor against relevant healthy cells. This preclinical result is not a clinical breast-cancer benefit or safety estimate.",
+      "sourceIds": [
+        "36318382",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:10"
+      ]
+    },
+    {
+      "id": "ROR1-BOARD",
+      "ownerId": "ror1",
+      "text": "Stüber’s R12-based ROR1 CAR study used healthy-donor CD4 and CD8 T cells, the MDA-MB-231 TNBC line and a three-dimensional model on a decellularised porcine-gut scaffold. Added TGF-beta impaired function; the TGF-beta-receptor inhibitor SD-208 protected several measured responses under those conditions. This is a defined preclinical perturbation, not a clinical combination result. In the later Jaeger-Ruckstuhl phase-I study, 21 people received ROR1 CAR-T cells: three with CLL, ten with TNBC and eight with NSCLC. One of the 18 solid-tumour participants had a partial response, with poor tumour infiltration reported. That pooled denominator is not a TNBC-specific response rate or a universal verdict about all ROR1 products.",
+      "sourceIds": [
+        "32303620",
+        "39466024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:11",
+        "BAR:24"
+      ]
+    },
+    {
+      "id": "TF-BOARD",
+      "ownerId": "tissue-factor",
+      "text": "Here tissue factor means the coagulation-related protein CD142, not the Thomsen-Friedenreich carbohydrate also called TF. Hu’s recognition module used the human factor-VII light chain and was installed in NK-92MI, a continuously growing cell line. The work tested TNBC cultures and cell-line or patient-derived xenografts, including a separate immunoconjugate combination. It does not describe donor primary NK cells or establish the behaviour of a T-cell product. Tumour binding, recognition of healthy vascular compartments and coagulation-related effects require their own measurements.",
+      "sourceIds": [
+        "32071339",
+        "21949831"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:12,13"
+      ]
+    },
+    {
+      "id": "TARGET-MEASURE",
+      "ownerId": "on-target-off-tumour-toxicity",
+      "text": "In a fictional tumour sample, 70 of 100 cells display an epitope accessible to the proposed receptor and 30 do not. A second target has only an RNA result, while healthy tissue was stained with a third antibody. Those measurements cannot rank safe receptor designs: ask for the actual binder’s recognition, the unrecognised tumour population and functional effects on relevant healthy cells. A more sensitive receptor might recognise additional tumour cells and additional healthy cells. Even a perfectly specific binder can harm healthy cells carrying its intended antigen; unintended binding to another molecule is a different failure. A sampled panel can miss antigen-negative cells, and an intracellular signal does not establish an accessible surface epitope. Repeat the relevant healthy-cell question under conditions, including inflammation, that could change recognition.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:15,16,17,18,24,25",
+        "MAP:23"
+      ]
+    },
+    {
+      "id": "DELIVERY-PFEIFFER",
+      "ownerId": "in-vivo-car-t",
+      "text": "Pfeiffer’s CD8-targeted lentiviral experiment used immunodeficient NSG mice engrafted with activated human blood mononuclear cells, with separate Raji-lymphoma conditions. Seven days after vector administration, CAR-positive cells represented 30 to 50 per cent of CD8 cells in peritoneal fluid, 10 to 35 per cent in spleen and 5 to 30 per cent in blood; fewer than 0.5 per cent of CD8-negative cells entered the CAR-positive gate. Vehicle and reporter-vector controls, CD19-cell depletion and the starting target-cell population mattered. These later fractions combine delivery with survival and antigen-driven expansion; they are not pure entry efficiencies, whole-body exclusivity or human efficacy results.",
+      "sourceIds": [
+        "30224381"
+      ],
+      "inventoryUnitGroups": [
+        "DEL:25,26,27,28"
+      ]
+    },
+    {
+      "id": "DELIVERY-FRACTIONS",
+      "ownerId": "in-vivo-car-t",
+      "text": "A fictional 48-hour sample contains receptor expression in 60 of 200 viable T cells and five of 100 non-T cells. That is 30 per cent of T cells and five per cent of non-T cells; about 92 per cent of all expressing cells are T cells (60 of 65). None of these denominators establishes exclusive delivery. Compare matched carrier/receptor controls, antigen-positive and antigen-negative targets and relevant healthy cells. Sampling time, cell recovery and viable gates stay attached; a culture sample does not enumerate every tissue.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "DEL:38,39,40"
+      ]
+    },
+    {
+      "id": "DELIVERY-CHAIN",
+      "ownerId": "in-vivo-car-t",
+      "text": "A carrier delivers a genetic payload. Transduction is vector-mediated gene transfer; integration places DNA in a chromosome; expression produces an encoded RNA or protein. These are different events. Follow the causal chain in separate steps: administered carrier, distribution and cell contact, entry and usable cargo release, expression in identified cells, survival or expansion and movement, then recognition and effects in tumour and healthy tissue. Fluorescent uptake need not mean useful expression, and detecting two components somewhere in a sample does not show that the same cells express both. A carrier-lot aliquot, a timed blood sample and a tissue biopsy answer different questions. Sequence copies, viable receptor-positive fractions and controlled killing cannot substitute for one another or supply a universal release threshold. A carrier name does not determine its administration route. FDA’s CAR T-cell guidance focuses on ex vivo products; its principles do not by themselves validate a release specification for an in vivo carrier.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "DEL:29,30,31,32,33,34,35,36,37",
+        "PKT:24",
+        "DEL:11"
+      ]
+    },
+    {
+      "id": "PRO-GROWTH",
+      "ownerId": "synthetic-cytokine-receptors",
+      "text": "In a fictional comparison with equal starting viable-cell input and the same CAR, a supplied trigger produces 250 viable cells at 48 hours versus 100 without it. That is 2.5 times the viable-cell count, not 2.5 times the treatment benefit. Tumour killing changes from 20 to 25 per cent, while a separate healthy-cell assay changes from two to 18 per cent injury. Count division, survival and loss separately, retain each assay’s target-cell denominator and uncertainty, and do not combine these results into a whole-body safety window.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "29789554"
+      ],
+      "inventoryUnitGroups": [
+        "PRO:21,22,23"
+      ]
+    },
+    {
+      "id": "PRO-FAILURES",
+      "ownerId": "synthetic-cytokine-receptors",
+      "text": "Read each supportive feature as a testable hypothesis. A drug-triggered signal needs a baseline and a withdrawal test; an antigen-triggered signal needs testing after cells leave the priming site. Constitutive signalling raises different growth and cell-state questions, while a secreted payload can affect neighbouring cells or circulate. Orthogonal means sufficiently separate from natural partners under tested conditions, not selectivity established by its name. The supportive receptor does not specify the CAR target, and changing an internal signal is different from secreting a cytokine. An added support signal does not by itself demonstrate adequate oxygen, tissue access, recognition of an absent antigen or patient benefit.",
+      "sourceIds": [
+        "29789554",
+        "25695689",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PRO:7,8,9,10,11,24,25,26",
+        "BAR:10,20"
+      ]
+    },
+    {
+      "id": "BARRIER-COVERAGE",
+      "ownerId": "car-t",
+      "text": "In a fictional population of 100 cancer cells, 80 display target X and 20 do not. Killing the X-positive 80 leaves 20 survivors; ten times as many effector cells does not create X on them. For two targets, suppose 20 cells carry both X and Y, 60 carry X only, ten Y only and ten neither. An idealised either-target rule covers 90 cells, whereas a both-target rule covers 20. These are recognition-coverage calculations, not measured killing or healthy-tissue selectivity. Expression thresholds, tissue access and cell function still matter.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "26830879",
+        "23242161"
+      ],
+      "inventoryUnitGroups": [
+        "BAR:13,14,15,16",
+        "TGT:18"
+      ]
+    },
+    {
+      "id": "BARRIER-LOCATION",
+      "ownerId": "cellular-kinetics-and-persistence",
+      "text": "A rise in engineered cells in blood with few found in two tumour biopsies leaves distribution and infiltration unresolved. Blood abundance is not entry into a mass of tissue, and a biopsy represents its sampled place and time. If a receptor works in a simple culture but killing falls in a more complex model with the target still present, investigate access, cell state and the model’s other features with controlled perturbations. The contrast alone does not identify a macrophage, vessel or signalling pathway as the cause, or show that more expansion will solve it. Expression of PD-1, LAG-3, TIM-3 or TIGIT, or a count of macrophages or suppressor cells, does not by itself establish which input caused the functional difference. Trafficking toward a site and infiltration into tissue are different steps, and vessel number does not measure perfusion. Chronic stimulation, low oxygen, limited nutrients and inhibitory signals are different hypotheses; exhaustion describes cell states rather than physical tiredness.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "39466024",
+        "NCI-TME"
+      ],
+      "inventoryUnitGroups": [
+        "BAR:1,2,3,14,17,18,22,26",
+        "BAR:8,9"
+      ]
+    },
+    {
+      "id": "SAFETY-THREE-OUTCOMES",
+      "ownerId": "safety-switch-car-t",
+      "text": "In a fictional matched blood measurement, 100 modified cells fall to five after a trigger, a 95 per cent reduction. A cytokine readout falls, but organ injury is unchanged. These are three different outcomes: sampled cell abundance, inflammatory signal and injury. Ask whether viable survivors retain receptor function, which tissues were sampled, when the measurements were made and whether survivors regrow. A sequence check or six people observed for four weeks without an event cannot establish a functioning rescue mechanism, complete body-wide clearance, zero risk or reversal of an injury already present. A usable control plan also depends on switch expression, trigger delivery to the relevant cells and access to the drug and specialist care; an encoded switch alone establishes none of these.",
+      "sourceIds": [
+        "22047558",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "SAF:22,23,24,30,31,32"
+      ]
+    },
+    {
+      "id": "GAVO-LEDGER",
+      "ownerId": "paper-nct03907852-nat-med-2023",
+      "text": "This historical single-arm phase-I dose-escalation report, within a phase-I/II programme, used a 9 September 2022 cutoff. Gavo-cel comprised autologous T cells engineered ex vivo with an antibody-CD3-epsilon fusion recognising surface mesothelin without a conventional peptide-HLA requirement. The treated cancers were mesothelioma, ovarian cancer and cholangiocarcinoma. Forty-eight people underwent apheresis intending phase-I infusion, 32 were treated and 30 were response-evaluable. Two grade-5 adverse events occurred before post-infusion imaging. Blinded independent central review found six responses, four confirmed partial responses: 6/30 is 20 per cent, 6/48 is 12.5 per cent and 4/30 is about 13.3 per cent, reported as 13 per cent. Each fraction needs its analysis population, reviewer, rule and confirmation status. Missing scans do not settle safety or causal attribution, and this study does not estimate comparative benefit in another cancer. Response confirmation, response duration, survival and quality of life are different outcomes. The historical cutoff and a source-check date do not establish current recruitment, approval, availability or personal eligibility.",
+      "sourceIds": [
+        "37501016"
+      ],
+      "inventoryUnitGroups": [
+        "STU:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"
+      ]
+    },
+    {
+      "id": "GAVO-SAFETY",
+      "ownerId": "paper-nct03907852-nat-med-2023",
+      "text": "Among the 32 treated participants, 25 had cytokine release syndrome: 17 grade 1 or 2, six grade 3 and two grade 4. One person had brief, self-limited ICANS. The report used the 2019 ASTCT framework for those syndromes and CTCAE version 5 for other adverse events. Tocilizumab was given to 17 participants with CRS, including 11 also given corticosteroids; eight did not require anti-cytokine treatment. Everyone infused had at least 12 weeks of safety follow-up. Median CRS onset was three days (range zero to nine), and median duration was six days (range one to 55). These are observations under the report’s rules, not a bedside treatment algorithm, an explanation of each clinician’s decision or a randomised estimate that an intervention caused recovery.",
+      "sourceIds": [
+        "37501016"
+      ],
+      "inventoryUnitGroups": [
+        "SAF:14,15,16,17,18,19"
+      ]
+    },
+    {
+      "id": "KIN-TIMES",
+      "ownerId": "cellular-kinetics-and-persistence",
+      "text": "Compare time courses rather than labels when interpreting reversibility. Antibodies also take time to clear after dosing stops. In an engineered-cell product, carrier exposure, instructions, receptor protein, living cells and inflammation can have different durations. Stopping the next administration, reducing one signal, removing the cells and reversing an established injury are separate claims.",
+      "sourceIds": [
+        "FDA-CAR-2024",
+        "FDA-LTFU-2020"
+      ],
+      "inventoryUnitGroups": [
+        "LIV:13,14,15"
+      ]
+    },
+    {
+      "id": "CELL-RESEARCH-SCOPE",
+      "ownerId": "car-t",
+      "text": "TNBC describes a breast-cancer subtype, not one universal receptor target. A research programme, a positive stain or a named cell platform does not establish a treatment indication or rank safe recognition strategies. The cited TROP2 work supplies preclinical observations, and the ROR1 phase-I report supplies limited activity and infiltration observations in its actual mixed population. These studies do not supply a comparative clinical-benefit estimate for every antigen-directed product in TNBC. Individual labels and clinical studies define their own disease, regimen and eligibility scope.",
+      "sourceIds": [
+        "40903191",
+        "39466024",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "TGT:3,4",
+        "BAR:23,25",
+        "MAP:3,14,15"
+      ]
+    },
+    {
+      "id": "ASTCT-VERSION",
+      "ownerId": "crs",
+      "text": "Use the named consensus version when classifying immune-effector-cell toxicities. The 2026 ASTCT abstract describes updates to CRS, ICANS and IEC-HS and consensus work on haematotoxicity, non-ICANS neurologic events such as parkinsonism or cranial-nerve palsies, enterocolitis, tumour-inflammation-associated neurotoxicity and on-target off-tumour toxicity. It covers immune-effector-cell and T-cell-engager therapy. These category names do not diagnose an event from timing alone or supply the detailed grading criteria; clinical assessment still has to distinguish other causes. The absence of an added cytokine payload does not rule out inflammatory syndromes.",
+      "sourceIds": [
+        "42711241",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "SAF:9,10,11,12,13"
+      ]
+    },
+    {
+      "id": "PACKET-PRODUCT",
+      "ownerId": "in-vivo-car-t",
+      "text": "Consider a complete fictional evidence packet, not a real therapy. Carrier P is a T-cell-directed lipid nanoparticle containing mRNA for CAR-X, which recognises extracellular epitope E on antigen X, and a separate supportive receptor R activated by trigger D. R does not add a cancer target, and P has no cell-elimination mechanism. One human T-cell donor supplies the culture work and selected human components of the mouse model. All functional experiments use lot A; lots B and C have identity data only. The matched cellular comparator uses the same carrier, CAR-X and total RNA without R, with D-present, D-absent and D-alone controls only where specified.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:5,6,7"
+      ]
+    },
+    {
+      "id": "PACKET-EXPRESSION",
+      "ownerId": "in-vivo-car-t",
+      "text": "In the fictional packet’s mixed-cell culture at 24 hours, 1,000 sampled viable cells include 100 T cells. RNA is detected in 60 T cells and 240 other cells; surface CAR in 50 T cells and 150 others; 40 T cells express both CAR and R. Unexposed controls are negative. CAR-positive T cells are 50/100, or 50 per cent of T cells, but T cells are 50/200, or 25 per cent of all CAR-positive cells. CAR-positive cells are 200/1,000, or 20 per cent of the whole sample; dual-positive T cells are 40/100, or 40 per cent of T cells. RNA, surface protein and coexpression are different readouts, and none measures killing or body-wide distribution.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:8,9,10"
+      ]
+    },
+    {
+      "id": "PACKET-FUNCTION",
+      "ownerId": "in-vivo-car-t",
+      "text": "In a second fictional card, wells start with 100 target cells. At 48 hours, mean killing is 80 per cent for P with D, 55 per cent for P without D and 50 per cent for the matched CAR-X cells lacking R with or without D. Antigen-X-knockout targets and unengineered T cells with D give five per cent. The matched comparisons support an R/D-associated contribution in this donor’s assay, while the knockout and D controls test alternatives. Three wells are technical replicates from one donor, not three donors; no uncertainty interval is supplied. Tumour entry, general benefit and human safety remain different questions.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:11,12"
+      ]
+    },
+    {
+      "id": "PACKET-HEALTHY",
+      "ownerId": "in-vivo-car-t",
+      "text": "The fictional healthy-epithelial-organoid card measures survival at 48 hours with D in both arms: 90 per cent with P-generated T cells and 95 per cent with matched CAR-X cells lacking R. There are two organoid donors and one T-cell donor. The five-percentage-point difference needs uncertainty and an interpretation of harm; no acceptable threshold is supplied. It neither tests every healthy tissue nor defines a clinical safety window. Expression, binding, cell injury in culture and organ injury in people are different observations.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:13,14"
+      ]
+    },
+    {
+      "id": "PACKET-MOUSE",
+      "ownerId": "in-vivo-car-t",
+      "text": "The fictional mouse card compares administered carrier P with empty carrier, with D in both arms and six mice per arm. One selected day-seven blood sample has 120 dual-positive cells among 200 T cells, or 60 per cent; this is not the six-mouse denominator, and two treated biopsies contain few engineered cells. Mean tumour volume is stated as 100 cubic millimetres at baseline, then 300 for P and 1,000 for control at day 28. P is 70 per cent smaller than control but three times the stated baseline: reduced growth, not regression below baseline or cure. Later follow-up, spread and causes of poor entry are missing. Without a matched CAR-X-without-R mouse arm, the comparison cannot isolate R’s contribution or establish every animal’s outcome.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:15,16,17,18"
+      ]
+    },
+    {
+      "id": "PACKET-LOTS",
+      "ownerId": "in-vivo-car-t",
+      "text": "Matching the fictional payload identities of lots A, B and C does not transfer lot A’s functional results to B and C. These are three lots, not three independent cell donors; potency and post-storage performance need relevant measurements. Likewise, at 24 hours after D withdrawal the fictional support signal falls from 100 to 20 relative units versus 100 with continued D, an 80 per cent signal reduction, while 90 of 100 tracked cells remain. Those are three technical wells from the same donor. The result does not demonstrate cell elimination, absent CAR recognition or reversal of injury.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:19,20,21"
+      ]
+    },
+    {
+      "id": "PACKET-CLINICAL",
+      "ownerId": "in-vivo-car-t",
+      "text": "The fictional packet contains no human study, so it has no clinical response or adverse-event denominator. An absent dataset is not a zero-per-cent rate, and target cells killed in culture are not people with a study-defined objective response. For each card, state the claim earned, the claim not earned and the next measurement, carrying product, specimen, comparator, donor or participant denominator, time and uncertainty. Do not fill one product’s missing evidence with another’s success. On a logarithmic axis, 100, 1,000 and 10,000 are tenfold steps rather than equal additive changes. Early human activity, comparative benefit and transfer to another product remain distinct evidence levels.",
+      "sourceIds": [
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "PKT:1,2,3,4,22,23,24,25,26,27,28"
+      ]
+    },
+    {
+      "id": "COSTIM-PHENOTYPES",
+      "ownerId": "car-t",
+      "text": "Kawalekar’s defined human-CAR experiments linked 4-1BB signalling to outgrowth of CD8 central-memory cells with greater respiratory capacity, fatty-acid oxidation and mitochondrial biogenesis. CD28-containing CARs produced effector-memory cells with a gene-expression pattern consistent with greater glycolysis. These are construct-and-system observations, not a ranking of clinical speed, persistence or safety by domain name. Other receptor parts, preparation, starting-cell state, target and disease setting remain relevant. Ramos simultaneously infused separately tracked second- and third-generation products. Their different expansion and persistence did not let a shared tumour response isolate either product’s clinical contribution.",
+      "sourceIds": [
+        "26885860",
+        "FDA-CAR-2024",
+        "30309819"
+      ],
+      "inventoryUnitGroups": [
+        "CAR:12,13,14"
+      ]
+    },
+    {
+      "id": "FAM-DEPENDENCIES",
+      "ownerId": "tcr-t",
+      "text": "In a fictional target cell, HLA allele A is lost while B remains. An A-restricted receptor loses that route; a B-restricted receptor still needs its own peptide to be processed and displayed. B2M is the shared light chain for many class-I complexes, whereas class-II HLA uses different alpha and beta chains. Neither one lost allele nor a change in interferon-induced display establishes complete loss of baseline presentation. Test the required allele, antigen and display conditions with matched viable targets rather than infer recognition from the HLA label. A conventional surface-antigen CAR has another dependency, and reduced class I alone does not guarantee NK-cell killing.",
+      "sourceIds": [
+        "UniProt-B2M",
+        "UniProt-HLA-DRA",
+        "FDA-CAR-2024"
+      ],
+      "inventoryUnitGroups": [
+        "FAM:3,12,16,17,19,21",
+        "BAR:6",
+        "MAP:6,19"
+      ]
+    },
+    {
+      "id": "SWITCH-POPULATION",
+      "ownerId": "safety-switch-car-t",
+      "text": "The five participants in Di Stasi’s inducible-caspase-9 study were aged three to 17 and had received haploidentical stem-cell transplants. Four developed graft-versus-host disease and received the dimerising drug. The reported rapid fall in modified T cells and control of that disease belong to this donor-cell/transplant setting; they are not a demonstration that the same switch reverses every CAR-associated inflammatory, neurologic or healthy-tissue injury.",
+      "sourceIds": [
+        "22047558"
+      ],
+      "inventoryUnitGroups": [
+        "SAF:20,21"
+      ]
+    },
+    {
+      "id": "MANUFACTURE-WAIT",
+      "ownerId": "vein-to-vein-time",
+      "text": "Count the pathway as well as the interval. A collection, a completed lot, a lot meeting its requirements and an infusion are different events. In the historical gavo-cel phase-I report, 48 participants underwent apheresis intending treatment, 32 were infused and 30 were response-evaluable. Those denominators describe different stages; the differences cannot all be called manufacturing failure. Delivery formats can change the process, but transport, quality decisions, clinical readiness and access still require evidence for the actual programme.",
+      "sourceIds": [
+        "37501016",
+        "FDA-CAR-2024",
+        "NCI-CAR"
+      ],
+      "inventoryUnitGroups": [
+        "DEL:4,8,9",
+        "LIV:16",
+        "MAP:21"
+      ]
+    },
+    {
+      "id": "CYTO-ROUTES",
+      "ownerId": "jak-stat",
+      "text": "JAK-STAT is a route used by many cytokine receptors rather than a synonym for every cytokine response. Engelowski’s artificial receptor/ligand systems tested defined signalling and growth responses. Stüber’s TGF-beta experiments measured a SMAD-associated response in ROR1 CAR T cells. Follow the specified receptor and measured pathway through to gene output and cell phenotype; a phosphate signal, feedback response, growth measurement and completed target killing are different observations.",
+      "sourceIds": [
+        "29789554",
+        "32303620"
+      ],
+      "inventoryUnitGroups": [
+        "PRO:3,5,6"
+      ]
+    },
+    {
+      "id": "INSERTION-VECTOR",
+      "ownerId": "insertional-mutagenesis",
+      "text": "Hamilton’s secondary T-cell-lymphoma case followed axicabtagene ciloleucel. The NCI Drug Dictionary describes that product’s gammaretroviral vector; it should not be relabelled as a lentiviral product. The study found no evidence of oncogenic retroviral integration in the deeply profiled case. Product identity, the diagnosis and investigation of its cause remain separate; that finding does not negate the malignancy warning or estimate the risk of every other integrating system.",
+      "sourceIds": [
+        "38865660",
+        "NCI-AXICEL"
+      ],
+      "inventoryUnitGroups": [
+        "SAF:25,26,27,28,29,33"
+      ]
+    },
+    {
+      "id": "DELIVERY-TUERX",
+      "ownerId": "in-vivo-car-t",
+      "text": "Tuerxunyiming’s 2026 work provides another model-specific example. An engineered Sindbis-envelope lentiviral system delivered a CD19 CAR in NPG mice carrying human blood mononuclear cells and Raji lymphoma. The experiment compared repeated vector administration with infusion of cells engineered in culture, using selected mice with measured human T-cell engraftment. Tumour control and CAR-positive blood fractions were different readouts; the in vivo-generated group had a lower CAR-positive fraction than the infused-cell group. These are human-cell/mouse experiments, not treatment of people or proof of exclusive delivery in every tissue.",
+      "sourceIds": [
+        "41844687"
+      ],
+      "inventoryUnitGroups": [
+        "DEL:41"
+      ]
+    }
+  ],
+  "count": 40,
+  "sourceAndModelQualificationsRetained": true,
+  "earlierNotesAndLinksPreserved": true
+}

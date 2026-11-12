@@ -1,0 +1,1869 @@
+{
+  "version": "proposal-cancer-biology-summary-consumers",
+  "state": "Actual short-summary selectors and current English fallback; no new named-language review.",
+  "records": [
+    {
+      "id": "oncogene-ar",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (ar)",
+      "canonicalRecordId": "oncogene",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (ar)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (ar)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (ar)",
+      "canonicalRecordId": "metastasis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (ar)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-ar",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (ar)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (ar)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (ar)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (ar)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (ar)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (ar)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-ar",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (ar)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-ar",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (ar)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (ar)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-ar",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (ar)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-ar",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (ar)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (ar)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-ar",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (ar)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (ar)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ar)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-ar",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (ar)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-ar",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (ar)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-de",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (de)",
+      "canonicalRecordId": "oncogene",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (de)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-de",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (de)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-de",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (de)",
+      "canonicalRecordId": "metastasis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (de)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-de",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (de)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (de)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-de",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (de)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-de",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (de)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-de",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (de)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (de)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-de",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (de)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-de",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (de)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (de)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-de",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (de)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-de",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (de)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (de)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-de",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (de)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-de",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (de)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (de)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-de",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (de)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-de",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (de)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-es",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (es)",
+      "canonicalRecordId": "oncogene",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (es)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-es",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (es)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-es",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (es)",
+      "canonicalRecordId": "metastasis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (es)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-es",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (es)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (es)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-es",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (es)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-es",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (es)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-es",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (es)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (es)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-es",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (es)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-es",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (es)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (es)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-es",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (es)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-es",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (es)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (es)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-es",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (es)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-es",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (es)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (es)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-es",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (es)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-es",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (es)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-fr",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (fr)",
+      "canonicalRecordId": "oncogene",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (fr)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (fr)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (fr)",
+      "canonicalRecordId": "metastasis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (fr)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-fr",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (fr)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (fr)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (fr)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (fr)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (fr)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (fr)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-fr",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (fr)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-fr",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (fr)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (fr)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-fr",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (fr)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-fr",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (fr)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (fr)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-fr",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (fr)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (fr)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (fr)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-fr",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (fr)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-fr",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (fr)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-hi",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (hi)",
+      "canonicalRecordId": "oncogene",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (hi)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (hi)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (hi)",
+      "canonicalRecordId": "metastasis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (hi)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-hi",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (hi)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (hi)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (hi)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (hi)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (hi)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (hi)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-hi",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (hi)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-hi",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (hi)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (hi)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-hi",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (hi)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-hi",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (hi)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (hi)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-hi",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (hi)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (hi)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (hi)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-hi",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (hi)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-hi",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (hi)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-ja",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (ja)",
+      "canonicalRecordId": "oncogene",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (ja)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (ja)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (ja)",
+      "canonicalRecordId": "metastasis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (ja)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-ja",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (ja)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (ja)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (ja)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (ja)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (ja)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (ja)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-ja",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (ja)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-ja",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (ja)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (ja)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-ja",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (ja)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-ja",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (ja)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (ja)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-ja",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (ja)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (ja)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ja)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-ja",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (ja)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-ja",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (ja)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-pt",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (pt)",
+      "canonicalRecordId": "oncogene",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (pt)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (pt)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (pt)",
+      "canonicalRecordId": "metastasis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (pt)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-pt",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (pt)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (pt)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (pt)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (pt)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (pt)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (pt)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-pt",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (pt)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-pt",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (pt)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (pt)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-pt",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (pt)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-pt",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (pt)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (pt)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-pt",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (pt)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (pt)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (pt)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-pt",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (pt)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-pt",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (pt)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-zh",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (zh)",
+      "canonicalRecordId": "oncogene",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-suppressor-gene-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (zh)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "angiogenesis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (zh)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "metastasis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (zh)",
+      "canonicalRecordId": "metastasis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-microenvironment-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (zh)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-zh",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (zh)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-dormancy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (zh)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hallmarks-of-cancer-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (zh)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inducing-angiogenesis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (zh)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (zh)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (zh)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-activation-two-hit-zh",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (zh)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "caf-activation-desmoplasia-zh",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (zh)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-hypoxia-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (zh)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-evolution-theory-zh",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (zh)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "microenvironment-inflammation-theory-zh",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (zh)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (zh)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-addiction-zh",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (zh)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intra-tumour-heterogeneity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (zh)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (zh)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "benign-vs-malignant-zh",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (zh)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "extracellular-matrix-zh",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (zh)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oncogene-simple",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene (simple)",
+      "canonicalRecordId": "oncogene",
+      "language": "simple",
+      "available": true,
+      "text": "An oncogene is an activated form of a growth-promoting gene. Its presence alone does not prove that the cancer depends on it or that a particular drug will help."
+    },
+    {
+      "id": "tumour-suppressor-gene-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour suppressor gene (simple)",
+      "canonicalRecordId": "tumour-suppressor-gene",
+      "language": "simple",
+      "available": true,
+      "text": "Tumour-suppressor genes help restrain growth or preserve cells and their genomes. Loss can matter through several mechanisms, so losing both copies is not a universal rule."
+    },
+    {
+      "id": "angiogenesis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Angiogenesis (simple)",
+      "canonicalRecordId": "angiogenesis",
+      "language": "simple",
+      "available": true,
+      "text": "Angiogenesis is the growth of new blood vessels from existing vessels. Vessel number, blood flow, transport and oxygen delivery are different measurements."
+    },
+    {
+      "id": "metastasis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Metastasis (simple)",
+      "canonicalRecordId": "metastasis",
+      "language": "simple",
+      "available": true,
+      "text": "Metastasis is the establishment of cancer at a distant site. Finding cells in transit or in another tissue does not by itself demonstrate sustained distant growth."
+    },
+    {
+      "id": "tumor-microenvironment-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour microenvironment (TME) (simple)",
+      "canonicalRecordId": "tumor-microenvironment",
+      "language": "simple",
+      "available": true,
+      "text": "A tumour’s surroundings include cells, vessels, matrix and local conditions. Their presence or location alone does not establish how they affect the cancer or its treatment."
+    },
+    {
+      "id": "clonal-evolution-simple",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution & minimal residual disease (simple)",
+      "canonicalRecordId": "clonal-evolution",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer populations can change through inherited variation, selection and chance. A clone’s larger share does not by itself prove more cells, resistance or the cause of change."
+    },
+    {
+      "id": "tumor-dormancy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour dormancy (simple)",
+      "canonicalRecordId": "tumor-dormancy",
+      "language": "simple",
+      "available": true,
+      "text": "Viable cancer cells may remain nondividing, or a population may stay stable because gains balance losses. A quiet scan alone cannot establish either state."
+    },
+    {
+      "id": "hallmarks-of-cancer-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (simple)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "simple",
+      "available": true,
+      "text": "The hallmarks organise research on cancer capabilities. The framework has changed over time and is not a diagnostic checklist or a treatment-selection test."
+    },
+    {
+      "id": "inducing-angiogenesis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hallmark: inducing or accessing vasculature (simple)",
+      "canonicalRecordId": "inducing-angiogenesis",
+      "language": "simple",
+      "available": true,
+      "text": "Obtaining a blood supply is a cancer capability. New-vessel growth is one route; use of existing vessels is another, and neither vessel count alone proves useful delivery."
+    },
+    {
+      "id": "cancer-associated-fibroblasts-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (simple)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer-associated fibroblasts are stromal cells with varied states and effects. No single marker or abundance measurement shows that all of them suppress immunity or promote cancer."
+    },
+    {
+      "id": "myeloid-derived-suppressor-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Myeloid-derived suppressor cells (MDSCs) (simple)",
+      "canonicalRecordId": "myeloid-derived-suppressor-cells",
+      "language": "simple",
+      "available": true,
+      "text": "These heterogeneous myeloid populations are characterised using phenotype, suppressive function and context. A marker or blood-cell count alone does not establish them."
+    },
+    {
+      "id": "oncogene-activation-two-hit-simple",
+      "kind": "reader-summary-entry",
+      "name": "Drivers, passengers & the two-hit model (simple)",
+      "canonicalRecordId": "oncogene-activation-two-hit",
+      "language": "simple",
+      "available": true,
+      "text": "Activating a growth driver and losing a protective function are different mechanisms. Two-hit loss explains some suppressors, while dosage and interference provide other routes."
+    },
+    {
+      "id": "caf-activation-desmoplasia-simple",
+      "kind": "reader-summary-entry",
+      "name": "Fibroblast activation, desmoplasia & matrix stiffness (simple)",
+      "canonicalRecordId": "caf-activation-desmoplasia",
+      "language": "simple",
+      "available": true,
+      "text": "Fibroblast activation can alter matrix and signals in a tumour. The resulting stroma has varied functions, so removing it is not a general treatment rule."
+    },
+    {
+      "id": "tumour-hypoxia-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour hypoxia (simple)",
+      "canonicalRecordId": "tumour-hypoxia",
+      "language": "simple",
+      "available": true,
+      "text": "Hypoxia is reduced local oxygen availability relative to tissue needs. A response marker or vessel count is not a direct oxygen measurement."
+    },
+    {
+      "id": "clonal-evolution-theory-simple",
+      "kind": "reader-summary-entry",
+      "name": "Clonal evolution and the ecological view of cancer (simple)",
+      "canonicalRecordId": "clonal-evolution-theory",
+      "language": "simple",
+      "available": true,
+      "text": "An evolutionary framework explains how inherited variation, selection and chance change cancer populations. Sampling and model assumptions limit what can be inferred for one tumour."
+    },
+    {
+      "id": "microenvironment-inflammation-theory-simple",
+      "kind": "reader-summary-entry",
+      "name": "Microenvironment and inflammation: tumours as wounds that do not heal (simple)",
+      "canonicalRecordId": "microenvironment-inflammation-theory",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer cells interact with surrounding tissue and immune cells. Inflammation and stromal responses can help or restrain cancer, with effects depending on the population and context."
+    },
+    {
+      "id": "immune-surveillance-immunoediting-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (simple)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "simple",
+      "available": true,
+      "text": "Immune responses can control cancer and select which populations persist. Immunoediting is a testable framework, not a way to assign a phase or recurrence risk from one scan."
+    },
+    {
+      "id": "oncogene-addiction-simple",
+      "kind": "reader-summary-entry",
+      "name": "Oncogene addiction (simple)",
+      "canonicalRecordId": "oncogene-addiction",
+      "language": "simple",
+      "available": true,
+      "text": "Oncogene addiction is dependence on an activated driver in a defined context. A mutation or high expression alone does not demonstrate that dependence or a safe treatment window."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (simple)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer cells can differ in DNA, molecular state and behaviour across regions and time. One sample and one target measurement need not represent every population."
+    },
+    {
+      "id": "tumor-associated-macrophages-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (simple)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "simple",
+      "available": true,
+      "text": "Macrophages in or around a tumour can have different states and effects. A marker count alone does not show that they suppress immunity or help cancer grow."
+    },
+    {
+      "id": "benign-vs-malignant-simple",
+      "kind": "reader-summary-entry",
+      "name": "Benign versus malignant (simple)",
+      "canonicalRecordId": "benign-vs-malignant",
+      "language": "simple",
+      "available": true,
+      "text": "Benign growths do not invade or metastasise, but can cause harm by their size or location. Cancer diagnosis depends on tissue and clinical context, not one mutation or growth rate."
+    },
+    {
+      "id": "extracellular-matrix-simple",
+      "kind": "reader-summary-entry",
+      "name": "Extracellular matrix (simple)",
+      "canonicalRecordId": "extracellular-matrix",
+      "language": "simple",
+      "available": true,
+      "text": "The extracellular matrix is the molecular material around cells. Its amount, arrangement, mechanics and effects on cell movement are different features."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (ar)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "ar",
+      "available": true,
+      "text": "كيف يرى الجهاز المناعي السرطان، وكيف يتعلم السرطان الاختباء. تعرض الأورام أجزاء من بروتيناتها على جزيئات MHC؛ وتقتل الخلايا التائية ما تتعرف عليه منها؛ والناجية هي الخلايا التي توقفت عن عرض الأجزاء أو شغّلت المكابح."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-de",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (de)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "de",
+      "available": true,
+      "text": "Wie das Immunsystem Krebs erkennt und wie Krebs lernt, sich zu verstecken. Tumoren präsentieren Bruchstücke ihrer Proteine auf MHC-Molekülen; T-Zellen töten die Zellen, die sie erkennen; übrig bleiben diejenigen, die keine Bruchstücke mehr zeigen oder Bremsen eingeschaltet haben."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-es",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (es)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "es",
+      "available": true,
+      "text": "Cómo el sistema inmunitario ve el cáncer y cómo el cáncer aprende a esconderse. Los tumores muestran fragmentos de sus proteínas en las moléculas MHC; las células T matan a los que reconocen; los que sobreviven son los que dejaron de mostrar fragmentos o activaron frenos."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (fr)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "fr",
+      "available": true,
+      "text": "Comment le système immunitaire voit le cancer, et comment le cancer apprend à se cacher. Les tumeurs exposent des fragments de leurs protéines sur les molécules du MHC ; les cellules T tuent celles qu'elles reconnaissent ; les survivantes sont celles qui ont cessé de montrer des fragments ou qui ont activé des freins."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (hi)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "hi",
+      "available": true,
+      "text": "प्रतिरक्षा तंत्र कैंसर को कैसे देखता है, और कैंसर छिपना कैसे सीख लेता है। ट्यूमर अपने प्रोटीन के टुकड़े MHC अणुओं पर प्रदर्शित करते हैं; T कोशिकाएँ उन्हें मार देती हैं जिन्हें वे पहचान लेती हैं; जो बच जाते हैं वे वही होते हैं जिन्होंने टुकड़े दिखाना बंद कर दिया या ब्रेक चालू कर लिए।"
+    },
+    {
+      "id": "antigen-presentation-immunoediting-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (ja)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "ja",
+      "available": true,
+      "text": "免疫系はどのようにがんを見つけ、がんはどのように隠れることを覚えるのか。腫瘍は自らのタンパク質の断片をMHC分子の上に提示し、T細胞は認識できた細胞を殺す。生き残るのは、断片を提示するのをやめた細胞や、ブレーキを働かせた細胞である。"
+    },
+    {
+      "id": "antigen-presentation-immunoediting-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (pt)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "pt",
+      "available": true,
+      "text": "Como o sistema imune vê o câncer, e como o câncer aprende a se esconder. Os tumores exibem fragmentos de suas proteínas em moléculas MHC; as células T matam os que reconhecem; os sobreviventes são os que pararam de exibir fragmentos ou ligaram freios."
+    },
+    {
+      "id": "antigen-presentation-immunoediting-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (zh)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "zh",
+      "available": true,
+      "text": "免疫系统如何看见癌症，癌症又如何学会隐藏。肿瘤把自身蛋白质的片段展示在MHC分子上；T细胞杀死它们能识别的肿瘤细胞；存活下来的，是那些不再展示片段或开启了刹车机制的细胞。"
+    },
+    {
+      "id": "antigen-presentation-immunoediting-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antigen presentation & immune editing (simple)",
+      "canonicalRecordId": "antigen-presentation-immunoediting",
+      "language": "simple",
+      "available": true,
+      "text": "Tumours display fragments of their proteins for immune cells to inspect; the cells that survive immune attack are the ones that stopped showing fragments or switched on brakes."
+    }
+  ]
+}

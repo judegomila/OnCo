@@ -1,0 +1,2869 @@
+{
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "uniqueRows": 120,
+  "countsByVersion": {
+    "original": {
+      "pages": 6,
+      "sections": 62,
+      "allRows": 110,
+      "substantive": 98,
+      "representedAtStatedScope": 97,
+      "partial": 1,
+      "recapAndScopeMetadata": 12
+    },
+    "later": {
+      "pages": 6,
+      "sections": 62,
+      "allRows": 120,
+      "substantive": 108,
+      "representedAtStatedScope": 107,
+      "partial": 1,
+      "recapAndScopeMetadata": 12
+    }
+  },
+  "rows": [
+    {
+      "id": "AG1-001",
+      "chapter": "1",
+      "section": "Ask two opening questions",
+      "requirement": "Identify the exact product and proposed use before asking whether either has a U.S. approval or label match.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-002",
+      "chapter": "1",
+      "section": "Ask two opening questions",
+      "requirement": "An expedited designation, submitted application or priority review is not itself a marketing approval; accelerated approval is an approval pathway.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-003",
+      "chapter": "1",
+      "section": "Ask two opening questions",
+      "requirement": "Distinguish label-matched use, an approved drug used off label, and a never-approved product; ordinary prescribing does not authorise the last category.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-004",
+      "chapter": "1",
+      "section": "Ask two opening questions",
+      "requirement": "A redesigned cell product or personalised formulation does not automatically inherit evidence or authorisation from a product with the same target or platform.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-005",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "On-label availability still leaves suitability, usable supply and financial coverage unresolved.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-006",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "Off-label use still needs evidence for the proposed use and institutional and payer review.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-007",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "A trial is research under a protocol, including established-drug studies; access depends on protocol eligibility, cohort and assignment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-008",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "Expanded access has a treatment purpose outside a trial and distinct patient, supplier, physician and review requirements.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-009",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "A single-patient IND can support expanded access; IND is not synonymous with a clinical trial or a marketing approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-010",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "Federal Right to Try has joint patient and product eligibility criteria, does not involve FDA review of individual requests, and does not compel supply.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-011",
+      "chapter": "1",
+      "section": "Understand the main routes",
+      "requirement": "Access permission, evidence of benefit and practical availability are separate conclusions.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-012",
+      "chapter": "1",
+      "section": "Worked example: three fictional proposals",
+      "requirement": "For fictional approved Drug A in another cancer, ask about off-label evidence rather than calling it expanded access.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-013",
+      "chapter": "1",
+      "section": "Worked example: three fictional proposals",
+      "requirement": "For fictional never-approved Product B in a trial, ask about the protocol, cohort, site and eligibility.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-014",
+      "chapter": "1",
+      "section": "Worked example: three fictional proposals",
+      "requirement": "For fictional Product C described as a single-patient IND, ask about the exact supply, treatment plan and clinical responsibility; none of the three descriptions selects a treatment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-015",
+      "chapter": "1",
+      "section": "What can go wrong at this step",
+      "requirement": "An earlier supplier authorisation is not the authorisation of this exact product and treatment plan.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG1-016",
+      "chapter": "1",
+      "section": "What can go wrong at this step",
+      "requirement": "In the different-dose and unapproved-indication exercise, the starting route for an approved medicine is off-label prescribing; it may also be studied in a trial.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "24:FDA off-label",
+        "20:FDA expedited pathways",
+        "22:FDA federal Right to Try",
+        "15:FDA IND contents",
+        "26-current:21 CFR 312.305/312.310"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-001",
+      "chapter": "2",
+      "section": "Read the protocol as a set of gates",
+      "requirement": "A protocol specifies eligibility, interventions, monitoring and outcomes; a public summary is a screening lead rather than a formal eligibility decision.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-screening"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-002",
+      "chapter": "2",
+      "section": "Read the protocol as a set of gates",
+      "requirement": "The same biomarker does not merge advanced-disease and postoperative trials: measurable disease, pathology and enrolment windows can differ.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-003",
+      "chapter": "2",
+      "section": "Read the protocol as a set of gates",
+      "requirement": "Check prior therapies, medical conditions, current medicines, laboratory criteria and required samples with the actual study team.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-004",
+      "chapter": "2",
+      "section": "Read the protocol as a set of gates",
+      "requirement": "Washout is defined by the current protocol; do not infer its start or duration from another trial or alter treatment without the teams review.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-005",
+      "chapter": "2",
+      "section": "Read the protocol as a set of gates",
+      "requirement": "Keep uncertain eligibility items uncertain, and attach the protocol version and date to each confirmed answer.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-eligibility-decision"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-006",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "An overall recruiting status does not establish an open relevant cohort, local slot or ready site.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-eligibility-decision"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-007",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "Investigator-initiated describes research origin or responsibility rather than phase or exemption from safeguards; identify sponsor, treating investigator and supplier.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-008",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "A screening record needs registry identity, title, protocol version, disease, stage, treatment goal and biomarker.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-009",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "The record also needs prior treatment and safety gates, medicines and laboratory criteria, cohort, slot and site readiness.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-010",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "Record group assignments and randomisation ratio, screening and visit schedule, treatment and follow-up duration, travel, sample and cost needs.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-011",
+      "chapter": "2",
+      "section": "Ask about the cohort and the site",
+      "requirement": "Record who confirmed each current answer, when and what remains unresolved; clarify discrepancies between the registry and the site using current protocol or consent material.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-012",
+      "chapter": "2",
+      "section": "Worked example: a fictional randomized study",
+      "requirement": "In the fictional postoperative target-matched trial, target fit alone does not establish pathology, history, local availability or timing eligibility.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-013",
+      "chapter": "2",
+      "section": "Worked example: a fictional randomized study",
+      "requirement": "A randomised trial may assign standard care alone; the physician does not select the experimental arm based on promise.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-assignment"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-014",
+      "chapter": "2",
+      "section": "Worked example: a fictional randomized study",
+      "requirement": "A placebo is an inactive comparison; standard treatment may be present in both arms, so inspect the actual groups rather than assuming care is withheld.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The corrected placebo lead and summary carry inactive comparison, standard-care add-on designs and selected justified placebo-only settings. The earlier always/never and categorically impossible-blinding assertions are withdrawn against the read FDA guidance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "placebo-selected",
+        "placebo-add-on",
+        "placebo-blinding"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-015",
+      "chapter": "2",
+      "section": "What can go wrong at this step",
+      "requirement": "A phase identifies research questions rather than an individual chance of benefit, and a screening invitation is not enrolment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG2-016",
+      "chapter": "2",
+      "section": "What can go wrong at this step",
+      "requirement": "When a multicohort trial recruits overall but the local breast cohort has no slots, access is unconfirmed; another site or reopening remains an inquiry.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "05:NCI search",
+        "06:NCI eligibility/assignment/placebo",
+        "09:NCI screening",
+        "07:NCI costs",
+        "26-current:21 CFR 312.3"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-001",
+      "chapter": "3",
+      "section": "Give each gate an owner",
+      "requirement": "Assign separate responsibility for clinical alternatives and risk, supply and supporting information, institutional delivery and monitoring, review and consent.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-002",
+      "chapter": "3",
+      "section": "Give each gate an owner",
+      "requirement": "For U.S. expanded access, distinguish FDA permission to proceed from applicable IRB patient-protection review, with individual-patient and emergency procedures qualified.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-Q11-discretion",
+        "EA-chair"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-003",
+      "chapter": "3",
+      "section": "Give each gate an owner",
+      "requirement": "Identify the prescriber or sponsor, receiver and storage custodian, administering team, urgent-care destination and adverse-event recorder or reporter.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-004",
+      "chapter": "3",
+      "section": "Give each gate an owner",
+      "requirement": "A sponsor-investigator may carry both roles, but each responsibility still needs to be named; supplier willingness does not create a clinical service.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-005",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "A readiness record states the clinical rationale and alternatives and the exact formulation, dose, route and schedule with supporting exposure and safety evidence.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-006",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "Supply means supplier agreement plus usable product, rather than a tentative manufacturing milestone.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-007",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "Record the actual submission route, required permissions and reviews, including whether Form FDA 3926 and a letter of authorisation apply; neither is universal for all routes.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-008",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "Record consent on knowns, unknowns and alternatives, delivery and toxicity or response monitoring, task dependencies, possible delays and stop conditions.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-009",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "Keep investigational-drug charges and FDA charging permission separate from insurance for clinical care, travel and follow-up.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-010",
+      "chapter": "3",
+      "section": "Use a readiness ledger",
+      "requirement": "Use confirmed, proposed or unknown with a responsible person and date in the real project record; the teaching checklist is not a patient status assessment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-011",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "A new non-emergency individual-patient IND generally takes effect 30 calendar days after FDA receipt, or earlier notification, unless held; review and consent still apply.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-start",
+        "EA-Q25"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-012",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "An individual-patient protocol under an active IND has no same 30-day wait, but submission and applicable IRB review precede treatment and FDA can hold it.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-Q26"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-013",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "Emergency authorisation can precede written submission under its own criteria; time pressure alone does not create an emergency pathway.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-Q24"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-014",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "Supplier review, manufacture, FDA review, institutional review, shipping and scheduling are different clocks with parallel and dependent tasks.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-015",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "Half-life and pharmacokinetics describe exposure, not the preparation timeline or an adequate clinical washout; lasting effects and interactions need protocol and clinical assessment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-016",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "Distinguish candidate development from making and releasing a specified batch and from post-dose exposure and effects.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-017",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "A laboratory binder need not become a clinically usable product; making a known product is not developing a new one.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-018",
+      "chapter": "3",
+      "section": "Understand the clock you are looking at",
+      "requirement": "A six-month estimate needs its named start, endpoint and task; the format name supplies no universal treatment duration.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-019",
+      "chapter": "3",
+      "section": "Worked example: a fictional “ready next week” message",
+      "requirement": "When the fictional supplier confirms manufacture next week but plan, institutional review and monitoring remain unresolved, treatment readiness is not established.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-020",
+      "chapter": "3",
+      "section": "Worked example: a fictional “ready next week” message",
+      "requirement": "Ask which gates are complete, which depend on others and who owns each remaining answer; do not turn an estimate into a promised start.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-021",
+      "chapter": "3",
+      "section": "Consent is an ongoing conversation",
+      "requirement": "Consent covers the intervention and procedures, potential benefits and known harms, uncertainty, alternatives and responsibilities; a signature establishes neither benefit nor safety.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "consent-continues"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-022",
+      "chapter": "3",
+      "section": "Consent is an ongoing conversation",
+      "requirement": "Questions continue after signing; explain information understandably, trial withdrawal, safe departure and appropriate follow-up.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "consent-continues"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-023",
+      "chapter": "3",
+      "section": "Consent is an ongoing conversation",
+      "requirement": "Distinguish research costs, routine care and travel; get plan-specific written responsibility rather than inferring payment from access permission.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG3-024",
+      "chapter": "3",
+      "section": "Consent is an ongoing conversation",
+      "requirement": "In the authorised-but-no-administering-team exercise, permission to proceed leaves an unresolved delivery and monitoring gate.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "19:FDA responsibilities/IRB",
+        "16:April 2026 Q11/Q24-Q26",
+        "18:FDA request forms",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "08:NCI consent",
+        "07:NCI costs",
+        "17:targeted PK guidance"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-001",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Expanded access still requires qualifying circumstances and clinical responsibility when a trial does not fit; no-trial-fit alone is not sufficient.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-002",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "For a new individual-patient IND, request supplier agreement and usually a letter of authorisation so FDA can reference existing quality and safety information.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-003",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Form FDA 3926 is an individual-patient option, with Forms 1571 and 1572 as an alternative and eRequest for specified submissions.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-004",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "A physician using Form 3926 can request the permitted IRB chair or designated-member concurrence procedure rather than assuming review is waived.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-chair"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-005",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Written informed consent uses the applicable IRB-approved form; FDA, review and consent gates are not replaced by a supplier letter.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-chair"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-006",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "The new non-emergency IND start is 30 days after FDA receipt or earlier FDA notice, qualified for hold and other prerequisites.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-start",
+        "EA-Q25"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-007",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "The FDA page reports an average 99% may-proceed fraction for submitted expanded-access requests, not benefit, all supplier requests or end-to-end access.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-99"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-008",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Supplier agreement is a separate gate without compelled supply; verify rather than infer the source claim that it is the usual or most important bottleneck.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "partial; supplier-frequency assertion not adopted",
+      "entailment": "Supplier agreement is an independent gate and FDA does not compel it. The cited may-proceed fraction is conditional on submitted FDA requests and cannot rank supplier agreement as the usual or most important bottleneck.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [
+        "No comparative evidence was read establishing the source lesson's supplier-bottleneck frequency or importance ranking. The public note explicitly states that the FDA request fraction cannot supply that inference."
+      ],
+      "exactSourcePassageIds": [
+        "EA-99"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-009",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Project Facilitate is an oncology point of contact to help clinicians with expanded-access requests, rather than a guarantee of supply, review outcome or benefit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-010",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "An emergency request contacts FDA first, may start on authorisation and has later written submission and IRB notification; do not collapse it into the ordinary clock.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-Q24"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-011",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Form 3926 covers individual-patient non-emergency and emergency drug or biologic requests; group requests use general IND forms and devices have a separate process.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-012",
+      "chapter": "4",
+      "section": "The steps and their owners",
+      "requirement": "Emergency written submission is due within 15 business days of FDA authorisation and IRB notification within 5 business days of beginning emergency use; these start points differ.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-Q24",
+        "EA-15-working"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-013",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "A sponsor needs prior written FDA authorisation to charge for an investigational drug; lack of charging permission is not a promise that all care is free.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-withdraw-charge"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-014",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "For individual-patient expanded access, recoverable drug costs are direct costs of making the drug available for the authorised use, not general research or commercial infrastructure costs.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-direct-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-015",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "For intermediate-size and treatment IND or protocol expanded access, specified monitoring, IND-reporting and directly associated administrative costs can additionally qualify.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-large-program"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-016",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "Insurance for visits, scans, infusion and side-effect management is a separate question from whether the supplier charges for product.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-017",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "The direct-cost definition is specifically and exclusively attributable: per-unit raw materials, labour and non-reusable supplies or acquisition, and shipping and handling; distinguish indirect costs incurred anyway.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-direct-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-018",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "The calculation submitted for charging includes an independent certified public accountant statement; verify the applicable regulatory requirement.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-CPA"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-019",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "Expanded-access charging authorisation lasts one year unless FDA specifies less, can be reauthorised, and must be withdrawn if charging interferes with development.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-one-year",
+        "EA-withdraw-charge"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-020",
+      "chapter": "4",
+      "section": "Who pays",
+      "requirement": "The source default-nobody-charges sentence concerns investigational-product charging permission; do not broaden it to free treatment or surrounding services.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The record limits the rule to the investigational drug charge and explicitly distinguishes clinical-care bills. The source wording nobody charges is not adopted as a claim that treatment or care is free.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "trial-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-021",
+      "chapter": "4",
+      "section": "Worked example: Mara's request",
+      "requirement": "In the fictional phase-2-ineligible patient, supplier agreement, authorisation letter, physician submission, applicable IRB concurrence and consent precede a no-hold start.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-start",
+        "EA-chair"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-022",
+      "chapter": "4",
+      "section": "Worked example: Mara's request",
+      "requirement": "The fictional no-charge promise concerns the product only; a proposed charge needs its FDA permission and covered cost categories.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-direct-costs"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-023",
+      "chapter": "4",
+      "section": "Try it",
+      "requirement": "The fictional one-patient research-cost surcharge does not fit the direct-cost rule, and larger-program additional costs do not automatically transfer to one patient.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-direct-costs",
+        "EA-large-program"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG4-024",
+      "chapter": "4",
+      "section": "Try it",
+      "requirement": "A two-year-old expanded-access charging authorisation needs a current reauthorisation check because the ordinary authorisation is at most one year.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "18:FDA request forms",
+        "19:FDA IRB procedures",
+        "11:Project Facilitate",
+        "26-current:21 CFR 312.8/312.305/312.310",
+        "16:Q11/Q24-Q26"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "EA-one-year"
+      ],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AG5-001",
+      "chapter": "5",
+      "section": "Shared data, different experiments",
+      "requirement": "Parallel data reuse is not evidence that resulting therapies work together; the blueprint analogy stops at finite physical specimens.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-002",
+      "chapter": "5",
+      "section": "Shared data, different experiments",
+      "requirement": "DNA and RNA data can inform peptide-HLA and surface-target searches but do not establish surface-protein localisation or accessibility.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-003",
+      "chapter": "5",
+      "section": "Shared data, different experiments",
+      "requirement": "TCR sequencing identifies sampled receptor sequences or clonotypes, not antigen specificity, tumour killing or clinical benefit.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "Kula-functional"
+      ],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-004",
+      "chapter": "5",
+      "section": "Shared data, different experiments",
+      "requirement": "Surface-target research still needs protein location, accessibility and normal-tissue evaluation; each product needs its own validation and clinical gates.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-005",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "A hard dependency is an input, permission or check the named step requires; a soft preference is an order that can change under the stated constraints.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-006",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "Require a defined target or question before target-specific testing and an actual product before product-specific potency and safety claims.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-007",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "A defined manufacturing process and specified batch-release requirements concern lot identity, quality and potency, not individual suitability.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-008",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "Clinical assessment precedes administration; laboratory evidence alone does not establish eligibility or a safe regimen.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-009",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "Process development and documentation may overlap; no simple diagram establishes that all safety work precedes all manufacturing work.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-010",
+      "chapter": "5",
+      "section": "Which dependencies are real?",
+      "requirement": "Reversibility is distinct from dependency: a mandatory action can be reversible, while a preferred action can irreversibly consume tissue.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-011",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "Retain the fictional accepted existing DNA/RNA dataset, quality report and permitted reuse as sufficient stated inputs for Lab A, without requiring Lab B first.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-012",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "Retain Lab Bs confirmed preparation and region fit, four-section requirement and six-section research allocation after diagnostic reserve; custodian release is still unconfirmed.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-013",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "The shared meeting is a preference rather than a prerequisite for either laboratory under the stated rules.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-014",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "Lab A reanalysis is revisable without new sections and preserves originals; cutting and consuming four sections cannot be undone by returning the block.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-015",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "Starting Lab A while asking about release for Lab B is permitted by the fictional constraints; the inquiry itself consumes no tissue.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-016",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "Six minus four leaves two sections under the exercise assumptions, without predicting assay success, yield or adequacy; an FFPE block does not imply viable-cell input.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-017",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "No product, combination study or administration plan is supplied, so concurrency, efficacy and safety are not conclusions of the worksheet.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-018",
+      "chapter": "5",
+      "section": "Worked worksheet: two fictional laboratories",
+      "requirement": "An administered dose cannot be undone by changing the plan; custodian permission, successful studies and eventual clinical benefit remain separate unknowns.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-019",
+      "chapter": "5",
+      "section": "Clinical overlap requires a new comparison",
+      "requirement": "Shared targets or differing killing mechanisms supply a combination rationale, not demonstrated added benefit; combinations can change toxicity, immune-cell numbers and attribution.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-020",
+      "chapter": "5",
+      "section": "Clinical overlap requires a new comparison",
+      "requirement": "Prior checkpoint exposure does not establish a safe later partner; prior immune pneumonitis is relevant clinical history rather than an individual recommendation.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "KEYTRUDA-pneumonitis"
+      ],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-021",
+      "chapter": "5",
+      "section": "Clinical overlap requires a new comparison",
+      "requirement": "Negative ctDNA or high residual cancer burden does not determine the safety or benefit of an investigational combination.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-022",
+      "chapter": "5",
+      "section": "Clinical overlap requires a new comparison",
+      "requirement": "A decision ledger names evidence that would change an action, while readiness separately concerns permission, supply and clinical delivery.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-023",
+      "chapter": "5",
+      "section": "Collection timing is product-specific",
+      "requirement": "Do not impose a universal leukapheresis-before-vaccine order; baseline, cell-quality and manufacturing requirements must come from the named protocol.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-024",
+      "chapter": "5",
+      "section": "Collection timing is product-specific",
+      "requirement": "Engineered T-cell manufacture can use peripheral cells, whereas native TIL therapy uses tumour-derived lymphocytes; their input and collection requirements differ.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [
+        "TIL-input",
+        "CAR-starting-material"
+      ],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AG5-025",
+      "chapter": "5",
+      "section": "Collection timing is product-specific",
+      "requirement": "Input acceptance does not guarantee an informative result, and common sample data do not establish concurrent-treatment safety or efficacy.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "01:NCI biospecimen overview",
+        "15:IND manufacturing/protocol sections",
+        "04:NCI T-cell transfer inputs and conditioning",
+        "27:resolved Kula abstract",
+        "03:KEYTRUDA section 5.1 targeted",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol.",
+        "Fictional stipulated premises and arithmetic; not an empirical study or operational protocol."
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Authored conditional planning/worksheet inference plus the stated official-source premises"
+    },
+    {
+      "id": "AGI-001",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "Limit this introductory route and readiness guide to U.S. drugs and biologics; devices, other countries and institutional rules may differ.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "12:FDA expanded-access overview",
+        "15:IND content",
+        "18:FDA request forms",
+        "05:NCI trial search"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AGI-002",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "Investigational therapies can help, do nothing useful or harm; early activity in one population or a related product does not settle another products benefit and risk.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "12:FDA expanded-access overview",
+        "15:IND content",
+        "18:FDA request forms",
+        "05:NCI trial search"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AGI-003",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "Practical availability can change through pauses, filled cohorts and unavailable supply; retain the responsible teams dated current answer rather than promising access.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "entailment": "The quoted current owner passages, read together, state this requirement. Coordinator semantic judgement follows the source-first inventory; exact containment verifies location and does not constitute independent scientific acceptance.",
+      "sourceScope": [
+        "12:FDA expanded-access overview",
+        "15:IND content",
+        "18:FDA request forms",
+        "05:NCI trial search"
+      ],
+      "remaining": [],
+      "exactSourcePassageIds": [],
+      "evidenceTier": "Official regulator/regulation or NCI source; fictional examples remain premise-based inference"
+    },
+    {
+      "id": "AGI-004",
+      "chapter": "I",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/index.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AGI-005",
+      "chapter": "I",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/index.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG1-017",
+      "chapter": "1",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG1-018",
+      "chapter": "1",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG2-017",
+      "chapter": "2",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG2-018",
+      "chapter": "2",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG3-025",
+      "chapter": "3",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG3-026",
+      "chapter": "3",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG4-025",
+      "chapter": "4",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG4-026",
+      "chapter": "4",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "later": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG5-026",
+      "chapter": "5",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Navigation, learning budgets, diagrams and teach-back summaries recap the chapters substantive requirements; retain unique diagram relationships but give no separate empirical efficacy credit.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    },
+    {
+      "id": "AG5-027",
+      "chapter": "5",
+      "section": "Sources and scope",
+      "requirement": "Retain official rules versus guidance, read depth, fictional premises and source uncertainty; source-list metadata and agent review are not clinical, expert or learner approval.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "original": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "entailment": "Recap/routing or source-scope metadata only; substantive relationships are assessed in the named chapter rows. No source-list-presence or agent-approval credit.",
+      "remaining": []
+    }
+  ],
+  "noIndependentCreditForRecapsOrSourceListPresence": true
+}

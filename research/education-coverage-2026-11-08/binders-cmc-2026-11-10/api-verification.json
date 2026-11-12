@@ -1,0 +1,924 @@
+{
+  "root": {
+    "side": "w",
+    "canonicalOwners": 7,
+    "canonicalJsonMatches": true,
+    "evidencePassages": 61,
+    "generation": [
+      {
+        "command": "tsx scripts/build-api.ts",
+        "exitCode": 0,
+        "seconds": 29.32
+      },
+      {
+        "command": "tsx scripts/build-openapi.ts",
+        "exitCode": 0,
+        "seconds": 1.68
+      },
+      {
+        "command": "tsx scripts/build-context.ts",
+        "exitCode": 0,
+        "seconds": 4.63
+      }
+    ],
+    "checks": [
+      {
+        "requirementId": "dis-1",
+        "owner": "binder-discovery",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-2",
+        "owner": "binder-discovery",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-3",
+        "owner": "binder-discovery",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-4",
+        "owner": "binder-discovery",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-5",
+        "owner": "binder-discovery",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-5",
+        "owner": "binder-discovery",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "dis-6",
+        "owner": "binder-discovery",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-1",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-2",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-2",
+        "owner": "batch-release",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-3",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-4",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-4",
+        "owner": "batch-release",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-5",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-5",
+        "owner": "batch-release",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "br-6",
+        "owner": "batch-release",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-1",
+        "owner": "cdmo",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-1",
+        "owner": "cdmo",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-2",
+        "owner": "cdmo",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-2",
+        "owner": "cdmo",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-3",
+        "owner": "cdmo",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-3",
+        "owner": "cdmo",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-4",
+        "owner": "cdmo",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-5",
+        "owner": "cdmo",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cdmo-5",
+        "owner": "cdmo",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-1",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-1",
+        "owner": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-2",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-3",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-3",
+        "owner": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-4",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-5",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-5",
+        "owner": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "owner": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "owner": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-1",
+        "owner": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-2",
+        "owner": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-2",
+        "owner": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-3",
+        "owner": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-3",
+        "owner": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-4",
+        "owner": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-4",
+        "owner": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "spps-5",
+        "owner": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-1",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-1",
+        "owner": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-2",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-2",
+        "owner": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-2",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-3",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-3",
+        "owner": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-4",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-4",
+        "owner": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pp-5",
+        "owner": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-1",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-1",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-2",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-3",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-4",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-5",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-6",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      }
+    ],
+    "immutableFiles": [
+      {
+        "path": "binder-discovery.json",
+        "bytes": 5614,
+        "sha256": "760807e0387b70cd5c1d88934ae9c897d1df74ab13860615ad4dafec98348d2e"
+      },
+      {
+        "path": "binder-discovery.md",
+        "bytes": 5206,
+        "sha256": "3775db3e506f0dc1efc19eaa55104d0a3198abc632024b3055e01e1b2a819cc4"
+      },
+      {
+        "path": "peptide-synthesis-spps.json",
+        "bytes": 5428,
+        "sha256": "7b770e7beb214e13a2dee7b2f7ff404837278b71621f05f0941b26f1bf44d58e"
+      },
+      {
+        "path": "peptide-synthesis-spps.md",
+        "bytes": 5074,
+        "sha256": "be494ae601e0412a855ce05d9e69c5a2669f6102b6822cb4f481f93210891a45"
+      },
+      {
+        "path": "batch-release.json",
+        "bytes": 8029,
+        "sha256": "1621c83219378984480a5bf2e7f360fcd094a1c0fc51bb322add606a95835200"
+      },
+      {
+        "path": "batch-release.md",
+        "bytes": 7245,
+        "sha256": "ecb2f694be466f1b48657142090662df456317e22d5bca0d5b56dd589c7eb00d"
+      },
+      {
+        "path": "platform-vs-personalized-components.json",
+        "bytes": 6628,
+        "sha256": "9939c2989e7e3a2d35c18668d4355da10e2610e1ee13e13aed9d45cc4b1096c4"
+      },
+      {
+        "path": "platform-vs-personalized-components.md",
+        "bytes": 6100,
+        "sha256": "a970850f9aa754b4ec125e48def38dc094ef22da0c699e746ba8bb7d4114b5df"
+      },
+      {
+        "path": "cdmo.json",
+        "bytes": 5110,
+        "sha256": "6b56de914a70c6869534d431590f704e2ae3d8bbb6dcef43eaeb49d3de38c617"
+      },
+      {
+        "path": "cdmo.md",
+        "bytes": 4249,
+        "sha256": "f9aa29b971952ed3ce1613b14f876f3b97733d2490acd494908e37a68962d09e"
+      },
+      {
+        "path": "good-manufacturing-practice.json",
+        "bytes": 5805,
+        "sha256": "41bc37e161b379a7414e5e5befdaa70c15c7a1435ac67a677b94db40402de294"
+      },
+      {
+        "path": "good-manufacturing-practice.md",
+        "bytes": 5235,
+        "sha256": "7d5ed85c5b2ec5248ba088584c5e2c9fd06b58af7a188310758d44ac0073d89d"
+      },
+      {
+        "path": "cell-therapy-release-testing.json",
+        "bytes": 11868,
+        "sha256": "d63f5eb871c971c531c04faa400bd89b142c00deee4050a697494c1c0e4e1184"
+      },
+      {
+        "path": "cell-therapy-release-testing.md",
+        "bytes": 10703,
+        "sha256": "8693a7f6db2b5dfcc16261b1a3697a43f000de57d08deeb44508ddc36d358a5f"
+      }
+    ],
+    "scope": "Actual entity JSON, OpenAPI and Markdown generators. No new Next production build, hydration, browser-layout or deployment claim."
+  },
+  "shared": {
+    "side": "s",
+    "canonicalOwners": 8,
+    "canonicalJsonMatches": true,
+    "evidencePassages": 58,
+    "generation": [
+      {
+        "command": "tsx scripts/build-api.ts",
+        "exitCode": 0,
+        "seconds": 29.04
+      },
+      {
+        "command": "tsx scripts/build-openapi.ts",
+        "exitCode": 0,
+        "seconds": 1.63
+      },
+      {
+        "command": "tsx scripts/build-context.ts",
+        "exitCode": 0,
+        "seconds": 4.33
+      }
+    ],
+    "checks": [
+      {
+        "requirementId": "aff-1",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-2",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-3",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-4",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-5",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-6",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "aff-7",
+        "owner": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "tm-1",
+        "owner": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "tm-2",
+        "owner": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "tm-3",
+        "owner": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "tm-4",
+        "owner": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "tm-5",
+        "owner": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-1",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-1",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-2",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-2",
+        "owner": "binder-format-constraints",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-3",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-3",
+        "owner": "binder-format-constraints",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-4",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-5",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "fmt-6",
+        "owner": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-1",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-2",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-2",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-3",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-4",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-5",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-6",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "scfv-6",
+        "owner": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-1",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-2",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-3",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-3",
+        "owner": "certificate-of-analysis",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-4",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-5",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "coa-6",
+        "owner": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-1",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-2",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-3",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-4",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-5",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-6",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmc-6",
+        "owner": "chemistry-manufacturing-controls",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-1",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-1",
+        "owner": "manufacturing-process-comparability",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-2",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-3",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-3",
+        "owner": "manufacturing-process-comparability",
+        "field": "summary",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-4",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-5",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "cmp-6",
+        "owner": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-1",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-1",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-2",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-3",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-4",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-5",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      },
+      {
+        "requirementId": "pot-6",
+        "owner": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualMarkdown": true
+      }
+    ],
+    "immutableFiles": [
+      {
+        "path": "binder-affinity-epitope-developability.json",
+        "bytes": 7919,
+        "sha256": "aac7c46adfe6abed7236a7c2f54091551e427ae9c57b08f7f570d815bab19477"
+      },
+      {
+        "path": "binder-affinity-epitope-developability.md",
+        "bytes": 7403,
+        "sha256": "62a42d58573c13c1ec68084714060df1898368646046e27cec766511911999f4"
+      },
+      {
+        "path": "binder-targeting-module.json",
+        "bytes": 5229,
+        "sha256": "5c5046c3fabb4ecca1c87c764bab258f3c07e0e77413c48eed314e1368479336"
+      },
+      {
+        "path": "binder-targeting-module.md",
+        "bytes": 4666,
+        "sha256": "8ed62c0d045d5da79411941ff6d0e78adbe832afdcff0959a5b9e2bad020128f"
+      },
+      {
+        "path": "binder-format-constraints.json",
+        "bytes": 6492,
+        "sha256": "86276fe488277f786d5fe86ef94757e3171cbdb5144c81e92820c0f26e8c67b2"
+      },
+      {
+        "path": "binder-format-constraints.md",
+        "bytes": 5996,
+        "sha256": "a603623a3e1a9f161e8eec76a00c21a110ba7cf6cd090f9aea142c83ce071cc7"
+      },
+      {
+        "path": "scfv-vhh-formats.json",
+        "bytes": 6986,
+        "sha256": "678ead884cf0ab4059798e174b56a0f07f57fd46f62eb92c0d6a6d205fbc9424"
+      },
+      {
+        "path": "scfv-vhh-formats.md",
+        "bytes": 6532,
+        "sha256": "a20a0c810dc9426065825fb453848fc78de9f27a48f2713a6e0d903148a22872"
+      },
+      {
+        "path": "certificate-of-analysis.json",
+        "bytes": 5482,
+        "sha256": "f98e70939224baa8a40e2e71f0d90f273ac3bd6c05c1c1d3a3ecc698922d0ff0"
+      },
+      {
+        "path": "certificate-of-analysis.md",
+        "bytes": 5010,
+        "sha256": "2cc91f46cba605483acf8d2d19c1af5f0f58214d9e70e0a7a7f1a74f93c0fc4e"
+      },
+      {
+        "path": "chemistry-manufacturing-controls.json",
+        "bytes": 6445,
+        "sha256": "d4ab3a37ce48e960c38576dcc29b8030ecee12445a7c4877a4c2b71d534ab1f0"
+      },
+      {
+        "path": "chemistry-manufacturing-controls.md",
+        "bytes": 5785,
+        "sha256": "721589d5b3880385613c5af6c70fb4ff349398a8ddc1f636ae8325c5aa31a487"
+      },
+      {
+        "path": "manufacturing-process-comparability.json",
+        "bytes": 5776,
+        "sha256": "cd3869b180ba923eb67216acabb105172e54e8c019daf0a5a5420dd2ccac956f"
+      },
+      {
+        "path": "manufacturing-process-comparability.md",
+        "bytes": 5258,
+        "sha256": "7ede7f0f419ae6327623fadbf3c567d984a2bb0d7be8f1c429b7de201d047b0a"
+      },
+      {
+        "path": "cell-therapy-release-testing.json",
+        "bytes": 12394,
+        "sha256": "c7624f06db38fe6c9dbda90e0ca4227baa2aca1799c0c51b220b695523303ee8"
+      },
+      {
+        "path": "cell-therapy-release-testing.md",
+        "bytes": 11013,
+        "sha256": "f4d48de1cdab14c080e7c42e63f3f528aac898a440e12c6c30598eecbe260730"
+      }
+    ],
+    "scope": "Actual entity JSON, OpenAPI and Markdown generators. No new Next production build, hydration, browser-layout or deployment claim."
+  },
+  "distinctCanonicalOwners": 14,
+  "scope": "Actual JSON, OpenAPI and Markdown generators, serialised across the drafts. No new Next page build."
+}

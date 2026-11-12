@@ -1,0 +1,148 @@
+{
+  "checkedOn": "2026-11-10",
+  "rootValidateEntities": 22752,
+  "sharedValidateEntities": 22719,
+  "rootGates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.86
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.07
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 29.33
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 86.5
+    }
+  ],
+  "sharedGates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.42
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.13
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 30.07
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 92.42
+    }
+  ],
+  "rootFullSuite": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2,
+    "seconds": 86.5
+  },
+  "sharedFullSuite": {
+    "files": 281,
+    "passed": 2813,
+    "skipped": 2,
+    "seconds": 92.42
+  },
+  "lint": "Zero errors and seven pre-existing warnings in each checkout",
+  "focusedAuditTests": {
+    "files": 3,
+    "passed": 16
+  },
+  "dedupe": "Nine existing groups; no new name, DOI or PMID group",
+  "sourceIntake": {
+    "versions": 26,
+    "sectionSignatures": 296,
+    "figureVersionEntries": 36,
+    "cachedPublicationIdentities": 48,
+    "sourcePassages": 343,
+    "originalByteExactPassages": 294,
+    "declaredMarkupWhitespaceNormalisation": 49
+  },
+  "reader": {
+    "rootOwners": 11,
+    "sharedOwners": 8,
+    "requirements": 108,
+    "exactPassages": 162
+  },
+  "actualExports": {
+    "canonicalJsonOwners": 19,
+    "MarkdownPassages": 162,
+    "immutableFiles": 38
+  },
+  "summarySelectors": {
+    "root": 90,
+    "shared": 63,
+    "additionalAfterDeduplication": 144,
+    "newNamedLanguageReviews": 0
+  },
+  "sourceClosures": {
+    "exitCodes": [
+      2,
+      2
+    ],
+    "originalRequirements": 691,
+    "originalEvidenced": 684,
+    "originalOpen": 7,
+    "laterRequirements": 672,
+    "laterEvidenced": 672,
+    "laterOpen": 0,
+    "staleOrMissingProofs": 0
+  },
+  "sharedHead": "961a6994e776d2cf426d0605c14898c9269dbab8",
+  "scope": "All current graph fields and source roles at stated reading depths. Two reused teaching owners are not additional canonical changes. No new Next production build, browser hydration, hosted review, expert sign-off, merge or deployment. The existing GRAPH_JSON page-export limitation remains documented."
+}

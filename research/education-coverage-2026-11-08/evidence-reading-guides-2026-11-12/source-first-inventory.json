@@ -1,0 +1,3498 @@
+{
+  "scope": "All six later documents read in full, all five original/later exact diffs read, including original-only map state. Original bodies verified by pinned bytes and matched teaching, not claimed independently reread. Frozen before fresh canonical field inspection; previous audit exposure acknowledged.",
+  "baselineHead": "a9302566f6cbeac11a430eb332f8b63e5b3c267a",
+  "sourceVersions": 11,
+  "sectionSignatures": 127,
+  "personalCaseExclusions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "sha256": "4f4aa625646f2c5e8e6694dcc0a01b7cb8441e2ef7ea0ce51710d82958e6d69d",
+      "disposition": "Personal-case routing excluded; no case body or case decision copied into public corpus."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "lineStart": 68,
+      "lineEnd": 71,
+      "sha256": "4f4aa625646f2c5e8e6694dcc0a01b7cb8441e2ef7ea0ce51710d82958e6d69d",
+      "disposition": "Personal-case routing excluded; no case body or case decision copied into public corpus."
+    }
+  ],
+  "rows": [
+    {
+      "id": "1-001",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Define an endpoint by its recorded outcomes, including which events make up a composite; a composite gain does not prove improvement in each component.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "The question comes before the percentage",
+          "lineStart": 40,
+          "lineEnd": 45,
+          "passageSha256": "a4cbd6fdf0f28dc708e4959e6947d4cdb23dbf08ea462f86c893f7f5a9cb7e6a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "The question comes before the percentage",
+          "lineStart": 40,
+          "lineEnd": 45,
+          "passageSha256": "a4cbd6fdf0f28dc708e4959e6947d4cdb23dbf08ea462f86c893f7f5a9cb7e6a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-002",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Record disease, setting, prior treatment, eligibility and exclusions as the population.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "b6155a8a7ccdcde3b8cabe0a062fa2a8183deb527727706bdd6583c7edbc343f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "fcfb8c25fcb5ca1e73becdf9291b4b147a9f8260a316f17b8c0a86d82af070ce"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-003",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Describe the complete intervention, including schedule, procedures and sequence, and the actual comparator.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "b6155a8a7ccdcde3b8cabe0a062fa2a8183deb527727706bdd6583c7edbc343f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "fcfb8c25fcb5ca1e73becdf9291b4b147a9f8260a316f17b8c0a86d82af070ce"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-004",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Name the endpoint, its event and assessment definition, its starting time and its time horizon.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "b6155a8a7ccdcde3b8cabe0a062fa2a8183deb527727706bdd6583c7edbc343f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "fcfb8c25fcb5ca1e73becdf9291b4b147a9f8260a316f17b8c0a86d82af070ce"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-005",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Read the intended treatment-effect question together with prespecified handling of treatment stopping, switching and missing data; assigned versus completer populations can answer different questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "b6155a8a7ccdcde3b8cabe0a062fa2a8183deb527727706bdd6583c7edbc343f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Make a study question card",
+          "lineStart": 46,
+          "lineEnd": 60,
+          "passageSha256": "fcfb8c25fcb5ca1e73becdf9291b4b147a9f8260a316f17b8c0a86d82af070ce"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-006",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Random assignment balances groups in expectation; realised imbalances, outcome assessment and incomplete follow-up still need examination.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Read the comparison as a whole",
+          "lineStart": 61,
+          "lineEnd": 66,
+          "passageSha256": "1e6be9ada4daf6ac0f69cc44aeab3fae2602e7446689755e27806dcbd63c2a2b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Read the comparison as a whole",
+          "lineStart": 61,
+          "lineEnd": 66,
+          "passageSha256": "1e6be9ada4daf6ac0f69cc44aeab3fae2602e7446689755e27806dcbd63c2a2b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-007",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A single-arm study lacks a concurrent counterfactual; historical controls may differ in entry criteria, treatment era and assessment, and size or phase label does not remove those differences.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Read the comparison as a whole",
+          "lineStart": 61,
+          "lineEnd": 66,
+          "passageSha256": "1e6be9ada4daf6ac0f69cc44aeab3fae2602e7446689755e27806dcbd63c2a2b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Read the comparison as a whole",
+          "lineStart": 61,
+          "lineEnd": 66,
+          "passageSha256": "1e6be9ada4daf6ac0f69cc44aeab3fae2602e7446689755e27806dcbd63c2a2b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-008",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Keep ORR, DCR and CBR definitions, response criteria, confirmation, duration and denominator attached to the result; the label alone is not survival or quality of life.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Check what the response label counts",
+          "lineStart": 67,
+          "lineEnd": 72,
+          "passageSha256": "eb42fe3554d49335e45509b8e04bba08f6bdce853dc4b9d713f55e8f38f4324e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Check what the response label counts",
+          "lineStart": 67,
+          "lineEnd": 72,
+          "passageSha256": "eb42fe3554d49335e45509b8e04bba08f6bdce853dc4b9d713f55e8f38f4324e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-009",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "In the fictional 20-person example, four partial responses give ORR 4/20, six additional stable cases give DCR 10/20, and a durable-CBR count still needs duration; these are people, not percentage of tumour cells killed.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Check what the response label counts",
+          "lineStart": 67,
+          "lineEnd": 72,
+          "passageSha256": "eb42fe3554d49335e45509b8e04bba08f6bdce853dc4b9d713f55e8f38f4324e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Check what the response label counts",
+          "lineStart": 67,
+          "lineEnd": 72,
+          "passageSha256": "eb42fe3554d49335e45509b8e04bba08f6bdce853dc4b9d713f55e8f38f4324e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-010",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Separate individual-level prognostic association from trial-level treatment-effect surrogacy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Ask whether an earlier endpoint carries another claim",
+          "lineStart": 73,
+          "lineEnd": 78,
+          "passageSha256": "77dfc0e6cd8e4d75fca44d35985858e65d8ad5cf05f739e950d9be307000327a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Ask whether an earlier endpoint carries another claim",
+          "lineStart": 73,
+          "lineEnd": 78,
+          "passageSha256": "77dfc0e6cd8e4d75fca44d35985858e65d8ad5cf05f739e950d9be307000327a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-011",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Verify Cortazar 2014: pCR was associated with better outcomes, but the included trials did not establish pCR as a trial-level surrogate for EFS and OS; this does not make pCR useless or give one person a prognosis.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Ask whether an earlier endpoint carries another claim",
+          "lineStart": 73,
+          "lineEnd": 78,
+          "passageSha256": "77dfc0e6cd8e4d75fca44d35985858e65d8ad5cf05f739e950d9be307000327a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Ask whether an earlier endpoint carries another claim",
+          "lineStart": 73,
+          "lineEnd": 78,
+          "passageSha256": "77dfc0e6cd8e4d75fca44d35985858e65d8ad5cf05f739e950d9be307000327a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-012",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "The fictional sequence diagram represents one assignment to whole preoperative and postoperative strategies with common chemotherapy and surgery; there is no independent postoperative rerandomisation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-013",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "The two same-origin fictional timelines distinguish recurrence while alive from death without recorded recurrence: both count in a recurrence-or-death composite, only the latter in overall survival.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-014",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A whole-sequence difference cannot isolate the effect of starting the final drug only after surgery; the diagram supplies no effect size, schedule or individual forecast.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "A worked example: a sequence is the tested intervention",
+          "lineStart": 79,
+          "lineEnd": 93,
+          "passageSha256": "e572c43c8cb00b4e27602e97ec982457494f547c87dc6098f55c1f4d3a709f03"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-015",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Do not mix clocks starting at diagnosis and surgery, label an event-free percentage a cure rate, substitute a component for the tested sequence or assume selected responders retain original randomisation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "What can go wrong at this step",
+          "lineStart": 94,
+          "lineEnd": 100,
+          "passageSha256": "09428a75c9153bf8fb403d2a0aca0019afc642d1d58367374e068e9ebaff506e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "What can go wrong at this step",
+          "lineStart": 94,
+          "lineEnd": 100,
+          "passageSha256": "09428a75c9153bf8fb403d2a0aca0019afc642d1d58367374e068e9ebaff506e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-016",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "Retain the 95% alive three years after surgery versus 90% recurrence-or-death-free three years after randomisation exercise; event definition and clock differ, and someone can be alive with recurrence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Try it",
+          "lineStart": 101,
+          "lineEnd": 106,
+          "passageSha256": "7d12e22cee5ca4feba425abaf8db1ab5654f867a7a537e0e899c2dc9592a053f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Try it",
+          "lineStart": 101,
+          "lineEnd": 106,
+          "passageSha256": "7d12e22cee5ca4feba425abaf8db1ab5654f867a7a537e0e899c2dc9592a053f"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-017",
+      "lesson": "1",
+      "kind": "substantive",
+      "requirement": "A self-contained study question identifies the operable population, complete assigned A and B sequences, recurrence-or-death event and randomisation clock.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Explain it back",
+          "lineStart": 107,
+          "lineEnd": 112,
+          "passageSha256": "b6b030f78b98b098d2a79fc1ed0fc6ad8f4aaf4352d9abaab66230ada747c1e8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Explain it back",
+          "lineStart": 107,
+          "lineEnd": 112,
+          "passageSha256": "b6b030f78b98b098d2a79fc1ed0fc6ad8f4aaf4352d9abaab66230ada747c1e8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-001",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Read endpoint, axes, origin, risk sets, censoring and late uncertainty before interpreting a survival curve.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Give the graph a careful first look",
+          "lineStart": 42,
+          "lineEnd": 45,
+          "passageSha256": "7203f132591d6fe7e0ba9a5d55db989e538d51805de42f6603e56ace795b09d7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Give the graph a careful first look",
+          "lineStart": 42,
+          "lineEnd": 45,
+          "passageSha256": "7203f132591d6fe7e0ba9a5d55db989e538d51805de42f6603e56ace795b09d7"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-002",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "In the five-person fictional curve an event at month one gives survival 4/5; censoring one of four at month two does not drop the curve but removes later risk-set information.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-003",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "The month-three event occurs among three at risk, giving (4/5)(2/3)=8/15, about 53%; raw two-of-five events is not the Kaplan–Meier event-free estimate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-004",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "The fictional figure stops at month three, supplies no death outcome, confidence band or later observation, and is not an individual forecast.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A small curve you can check by hand",
+          "lineStart": 46,
+          "lineEnd": 63,
+          "passageSha256": "ab5ec6eb44c5e36826b3df45f0715ec9cbe6461338a3cfb76266c6ccc30afb2c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-005",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Keep the fictional operable population, whole assigned A/B sequences, randomisation clock and five-year recurrence-or-death risks attached to 20% versus 14%.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-006",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Calculate an absolute reduction of six percentage points, risk ratio 0.70 and relative risk reduction 30%; number needed to treat is 1/0.06, approximately 17 at five years.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-007",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "The population-average NNT does not identify who benefits, count harms or establish a lifetime guarantee.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-008",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "In the separate proportional-hazards example HR 0.68 (CI 0.50–0.92) describes a fitted hazard contrast, not the 30% fixed-time relative risk reduction, and cannot alone determine NNT.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "A larger worked example: keep both effect sizes",
+          "lineStart": 64,
+          "lineEnd": 78,
+          "passageSha256": "4a2efc73899b43e2ba19441defcd61a5ceaea575ceca5caff28a8c2765dee778"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-009",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "For fictional binary responses 40/100 versus 20/100, risk ratio is 2 and odds ratio (40/60)/(20/80)=2.67; an odds ratio is not a probability ratio.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-010",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A positive absolute risk-difference interval of 2–10 points maps to NNT 10–50 in reverse order; an interval crossing zero can extend through infinity to possible harm.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-011",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A 95% confidence interval describes a repeated-sampling procedure under assumptions, not 95% of patients or an unqualified probability for the fixed effect.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Keep the interval in the sentence",
+          "lineStart": 79,
+          "lineEnd": 86,
+          "passageSha256": "1fc0a20f11a1e6785413a7c109a6495f315bca18cbeb11d69c26992bc4e1bc4c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-012",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Verify KEYNOTE-522 2022: 1,174 previously untreated stage II–III TNBC participants, assigned whole pembrolizumab/chemotherapy strategy versus placebo/chemotherapy, fourth planned interim analysis with median follow-up 39.1 months.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "712c20990c349d016db4f7e9324aa0f6cf4db2779e376d489b745cbbd9c31e89"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "dcd15044b934511433a14805ca88216cbe52d0f579425c75f52b01007dd72de4"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-013",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Verify 36-month EFS 84.5% (81.7–86.9) versus 76.8% (72.2–80.7) and HR 0.63 (0.48–0.82).",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "712c20990c349d016db4f7e9324aa0f6cf4db2779e376d489b745cbbd9c31e89"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "dcd15044b934511433a14805ca88216cbe52d0f579425c75f52b01007dd72de4"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-014",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Derive a 7.7-point three-year absolute EFS difference and approximate NNT 13; compare 37% hazard reduction with approximately 33% reduction in the 23.2% versus 15.5% event risk.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "712c20990c349d016db4f7e9324aa0f6cf4db2779e376d489b745cbbd9c31e89"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "dcd15044b934511433a14805ca88216cbe52d0f579425c75f52b01007dd72de4"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-015",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Keep the later 60-month overall-survival percentages 86.6% versus 81.7% attached to their different endpoint and analysis.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "712c20990c349d016db4f7e9324aa0f6cf4db2779e376d489b745cbbd9c31e89"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Practise on a real trial",
+          "lineStart": 87,
+          "lineEnd": 102,
+          "passageSha256": "dcd15044b934511433a14805ca88216cbe52d0f579425c75f52b01007dd72de4"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-016",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "A ratio alone lacks absolute benefit; thin late risk sets weaken precision; median follow-up is not median survival; a curve that stays above 50% has no reached median; departures are not necessarily endpoint events.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "What can go wrong at this step",
+          "lineStart": 103,
+          "lineEnd": 109,
+          "passageSha256": "ff6af298ff7268315b9afd8cb6e53369635133e43cfa0dfd1747fda9ccd53e9f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "What can go wrong at this step",
+          "lineStart": 103,
+          "lineEnd": 109,
+          "passageSha256": "ff6af298ff7268315b9afd8cb6e53369635133e43cfa0dfd1747fda9ccd53e9f"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-017",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Retain the HR 0.70 exercise: ask for the actual five-year absolute risks before an NNT; explain a censoring tick as ending observation without a recorded endpoint then.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Try it",
+          "lineStart": 110,
+          "lineEnd": 115,
+          "passageSha256": "13ecf6c2ed5d37aaa325d6744f1c5015f147bb56d3896e5607ba22a594ab7c57"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Try it",
+          "lineStart": 110,
+          "lineEnd": 115,
+          "passageSha256": "13ecf6c2ed5d37aaa325d6744f1c5015f147bb56d3896e5607ba22a594ab7c57"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-018",
+      "lesson": "2",
+      "kind": "substantive",
+      "requirement": "Retain the six-fewer-events-per-100 five-year example with 2–10-point uncertainty; distinguish its fixed-time risk contrast from a hazard comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Explain it back",
+          "lineStart": 116,
+          "lineEnd": 121,
+          "passageSha256": "d707e5170ccd6da2748c328fd0fe612bfee1433680c5469176744c18817abdfa"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Explain it back",
+          "lineStart": 116,
+          "lineEnd": 121,
+          "passageSha256": "d707e5170ccd6da2748c328fd0fe612bfee1433680c5469176744c18817abdfa"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-001",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Keep precision (events, intervals, power), bias (assignment, assessment, missingness, selective reporting) and applicability (population, sequence, comparator, endpoint) as separate questions; precision cannot fix the wrong comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "302314364a3e3a586ced966c4c6389622190a45cb256d10fd0381b4f0c3a2e3c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "e47b0c43e3545522afd043cfb3d14a13a564e4e3b48ec5675e694e98e4b5d609"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-002",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Check protocol and plan dates and amendments, prespecified versus exploratory analyses, assigned/followed/analysed denominators and reasons, and missing harms; a reporting checklist is not proof of a sound trial.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "302314364a3e3a586ced966c4c6389622190a45cb256d10fd0381b4f0c3a2e3c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "e47b0c43e3545522afd043cfb3d14a13a564e4e3b48ec5675e694e98e4b5d609"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-003",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "In observational comparisons treatment choice can reflect prognosis; a case report can generate a hypothesis without a comparative causal estimate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "302314364a3e3a586ced966c4c6389622190a45cb256d10fd0381b4f0c3a2e3c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "e47b0c43e3545522afd043cfb3d14a13a564e4e3b48ec5675e694e98e4b5d609"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-004",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Link abstract, full report and longer follow-up by registry, sites and recruitment dates; multiple reports of the same participants are not independent replication.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "302314364a3e3a586ced966c4c6389622190a45cb256d10fd0381b4f0c3a2e3c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "e47b0c43e3545522afd043cfb3d14a13a564e4e3b48ec5675e694e98e4b5d609"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-005",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "A meta-analysis first needs distinct cohorts and compatible questions; pooling may improve precision but does not cure bias, incompatible endpoints or cross-trial treatment ranking.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "302314364a3e3a586ced966c4c6389622190a45cb256d10fd0381b4f0c3a2e3c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Three checks belong side by side",
+          "lineStart": 42,
+          "lineEnd": 59,
+          "passageSha256": "e47b0c43e3545522afd043cfb3d14a13a564e4e3b48ec5675e694e98e4b5d609"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-006",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Retain fictional study A: metastatic disease after multiple treatments, single arm and shrinkage; it cannot answer benefit against an alternative, postoperative survival, quality of life or safety.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A worked comparison: two different questions",
+          "lineStart": 60,
+          "lineEnd": 74,
+          "passageSha256": "92f03cbe3e290f7c99d37550cb42a9cb73d460309818ec6926cc2b4c8e5a0671"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A worked comparison: two different questions",
+          "lineStart": 60,
+          "lineEnd": 74,
+          "passageSha256": "92f03cbe3e290f7c99d37550cb42a9cb73d460309818ec6926cc2b4c8e5a0671"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-007",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Retain fictional study B: operable disease and a whole randomised sequence with a comparative event result; it cannot isolate an unrandomised last component.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A worked comparison: two different questions",
+          "lineStart": 60,
+          "lineEnd": 74,
+          "passageSha256": "92f03cbe3e290f7c99d37550cb42a9cb73d460309818ec6926cc2b4c8e5a0671"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A worked comparison: two different questions",
+          "lineStart": 60,
+          "lineEnd": 74,
+          "passageSha256": "92f03cbe3e290f7c99d37550cb42a9cb73d460309818ec6926cc2b4c8e5a0671"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-008",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "For fictional subgroup HR 0.70 (0.35–1.40), the point favours treatment but the interval includes lower, unchanged and higher hazards; lack of significance is not proof of no effect.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-009",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Significance in marker-positive but not marker-negative groups does not establish an interaction; compare effects directly, retain prespecification and multiplicity, and distinguish baseline groups from groups selected after treatment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-010",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Response-defined groups are selected by biology and treatment and do not by themselves isolate an additional postoperative drug.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A subgroup result needs another question",
+          "lineStart": 75,
+          "lineEnd": 82,
+          "passageSha256": "b5c11976517958955052794b0f05b9a80e1c483c73f2add0c2af2e728b81930f"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-011",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Analytical reliability and prognostic association do not establish clinical utility or safe treatment omission.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A test result is not yet a treatment strategy",
+          "lineStart": 83,
+          "lineEnd": 88,
+          "passageSha256": "be0ce0517e3a4fc20a2853c04df412e1cf5c3173d46fa9a253b7d526356fe8b9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A test result is not yet a treatment strategy",
+          "lineStart": 83,
+          "lineEnd": 88,
+          "passageSha256": "be0ce0517e3a4fc20a2853c04df412e1cf5c3173d46fa9a253b7d526356fe8b9"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-012",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Earlier detection needs a strategy comparison showing a patient benefit on a fair clock, rather than an apparent survival gain from lead time alone.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "A test result is not yet a treatment strategy",
+          "lineStart": 83,
+          "lineEnd": 88,
+          "passageSha256": "be0ce0517e3a4fc20a2853c04df412e1cf5c3173d46fa9a253b7d526356fe8b9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "A test result is not yet a treatment strategy",
+          "lineStart": 83,
+          "lineEnd": 88,
+          "passageSha256": "be0ce0517e3a4fc20a2853c04df412e1cf5c3173d46fa9a253b7d526356fe8b9"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-013",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Pretreatment, on-treatment and surgery samples describe different states; eligibility strata and clock cannot be interchanged.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Keep the sample on the right clock",
+          "lineStart": 89,
+          "lineEnd": 94,
+          "passageSha256": "541438195a4c0254e4caee58a724ac11b27659981f4ae1d3728a12b3ba1e7ec7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Keep the sample on the right clock",
+          "lineStart": 89,
+          "lineEnd": 94,
+          "passageSha256": "541438195a4c0254e4caee58a724ac11b27659981f4ae1d3728a12b3ba1e7ec7"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-014",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "A later landmark excludes events before eligibility and changes the denominator; a last available first-year sample is not a uniformly early postoperative sample.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Keep the sample on the right clock",
+          "lineStart": 89,
+          "lineEnd": 94,
+          "passageSha256": "541438195a4c0254e4caee58a724ac11b27659981f4ae1d3728a12b3ba1e7ec7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Keep the sample on the right clock",
+          "lineStart": 89,
+          "lineEnd": 94,
+          "passageSha256": "541438195a4c0254e4caee58a724ac11b27659981f4ae1d3728a12b3ba1e7ec7"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-015",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Read absolute harms by severity, time, symptoms, discontinuation and quality of life; unreported harms are not absent and longer-term effects may remain unknown.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Bring harms into the same comparison",
+          "lineStart": 95,
+          "lineEnd": 100,
+          "passageSha256": "4e806ad4ad9230b043e7140003becd1ca2b35eb5d1b66ed366936bcfa52036e5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Bring harms into the same comparison",
+          "lineStart": 95,
+          "lineEnd": 100,
+          "passageSha256": "4e806ad4ad9230b043e7140003becd1ca2b35eb5d1b66ed366936bcfa52036e5"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-016",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Do not add treatment benefits from different populations, comparisons or clocks.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Bring harms into the same comparison",
+          "lineStart": 95,
+          "lineEnd": 100,
+          "passageSha256": "4e806ad4ad9230b043e7140003becd1ca2b35eb5d1b66ed366936bcfa52036e5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Bring harms into the same comparison",
+          "lineStart": 95,
+          "lineEnd": 100,
+          "passageSha256": "4e806ad4ad9230b043e7140003becd1ca2b35eb5d1b66ed366936bcfa52036e5"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-017",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Non-significance does not prove equivalence, which needs a design and margin; distinguish prognosis, treatment-effect prediction and clinical utility, and patient resemblance from a tested action.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "What can go wrong at this step",
+          "lineStart": 101,
+          "lineEnd": 107,
+          "passageSha256": "494812f6050b5e0d583a6d9d26a66c579b5090a7ba910966fe54d1074f9866bb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "What can go wrong at this step",
+          "lineStart": 101,
+          "lineEnd": 107,
+          "passageSha256": "83d09e52a2b39f2454f643302b83ad5d50f584c0ed326a99c4331f42eaaa333d"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-018",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "Retain the favourable negative-blood-test five-year prognosis exercise in which everyone received standard care: it does not establish that stopping therapy is safe.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Try it",
+          "lineStart": 108,
+          "lineEnd": 113,
+          "passageSha256": "84c5b281bfadbd152436d2d19a4ca3b8c235bf53adf7bfb993510f09bad70871"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Try it",
+          "lineStart": 108,
+          "lineEnd": 113,
+          "passageSha256": "84c5b281bfadbd152436d2d19a4ca3b8c235bf53adf7bfb993510f09bad70871"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-019",
+      "lesson": "3",
+      "kind": "substantive",
+      "requirement": "A missing-comparison answer specifies a result-guided strategy, sample timing, endpoint, precision, follow-up and relevant population; it does not turn an association into a personal forecast.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Explain it back",
+          "lineStart": 114,
+          "lineEnd": 119,
+          "passageSha256": "e211214e33890807c959ca1112d8383436a7de047905649d472e928f8a0aa3d1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Explain it back",
+          "lineStart": 114,
+          "lineEnd": 119,
+          "passageSha256": "e211214e33890807c959ca1112d8383436a7de047905649d472e928f8a0aa3d1"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-001",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Reconstruct treatment order, all concurrent treatments, measurement and timing in one story; distinguish a verified observation from an attributed testimonial.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "What a story can and cannot establish",
+          "lineStart": 42,
+          "lineEnd": 51,
+          "passageSha256": "42fbdca725ca629d41de74d9b05d3347a33e1103be9bbd77b0608e8101706458"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "What a story can and cannot establish",
+          "lineStart": 43,
+          "lineEnd": 52,
+          "passageSha256": "42fbdca725ca629d41de74d9b05d3347a33e1103be9bbd77b0608e8101706458"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-002",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "A single outcome may suggest a hypothesis but lacks treatment counterfactual and frequency denominator; selective publication can hide failures.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "What a story can and cannot establish",
+          "lineStart": 42,
+          "lineEnd": 51,
+          "passageSha256": "42fbdca725ca629d41de74d9b05d3347a33e1103be9bbd77b0608e8101706458"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "What a story can and cannot establish",
+          "lineStart": 43,
+          "lineEnd": 52,
+          "passageSha256": "42fbdca725ca629d41de74d9b05d3347a33e1103be9bbd77b0608e8101706458"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-003",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Retain the explicitly fictional metastatic off-label add-on plus standard chemotherapy and before/after scans; improvement during the combination does not isolate the add-on, establish frequency or safety.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "A worked story",
+          "lineStart": 52,
+          "lineEnd": 59,
+          "passageSha256": "f8e5c916e668e91cef2b7e09b90613b275b95f8c65c6f25f5a3e5bc113a762f1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "A worked story",
+          "lineStart": 53,
+          "lineEnd": 60,
+          "passageSha256": "f8e5c916e668e91cef2b7e09b90613b275b95f8c65c6f25f5a3e5bc113a762f1"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-004",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Ask for a trial or series reporting how many received the intervention, outcomes for all and an appropriate comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "A worked story",
+          "lineStart": 52,
+          "lineEnd": 59,
+          "passageSha256": "f8e5c916e668e91cef2b7e09b90613b275b95f8c65c6f25f5a3e5bc113a762f1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "A worked story",
+          "lineStart": 53,
+          "lineEnd": 60,
+          "passageSha256": "f8e5c916e668e91cef2b7e09b90613b275b95f8c65c6f25f5a3e5bc113a762f1"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-005",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Record the calculator name, version and recalibration rather than treating every tool as one model.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Check a calculator before its number",
+          "lineStart": 60,
+          "lineEnd": 71,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Check a calculator before its number",
+          "lineStart": 61,
+          "lineEnd": 72,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-006",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Verify input values, units, definitions, specimen dates and missing-value rules; unknown does not mean negative.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Check a calculator before its number",
+          "lineStart": 60,
+          "lineEnd": 71,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Check a calculator before its number",
+          "lineStart": 61,
+          "lineEnd": 72,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-007",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Keep training population, care era and treatments, endpoint, origin and prediction horizon attached to a probability.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Check a calculator before its number",
+          "lineStart": 60,
+          "lineEnd": 71,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Check a calculator before its number",
+          "lineStart": 61,
+          "lineEnd": 72,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-008",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Check independent evaluation, calibration versus discrimination and cutpoint selection; TRIPOD+AI reporting for regression and machine learning does not certify utility.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Check a calculator before its number",
+          "lineStart": 60,
+          "lineEnd": 71,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Check a calculator before its number",
+          "lineStart": 61,
+          "lineEnd": 72,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-009",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "Do not improvise a personalised correction by multiplying unrelated prognostic hazard ratios or adding benefits from separate trials.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Check a calculator before its number",
+          "lineStart": 60,
+          "lineEnd": 71,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Check a calculator before its number",
+          "lineStart": 61,
+          "lineEnd": 72,
+          "passageSha256": "80e9d3010a5db87ba8b92333af309f91aa34296eaad0ff36f42f93dde7b4359b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-010",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "A case or online success collection without failures is not an individual forecast or usable denominator; a fictional 85% estimate is not a personal guarantee.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "What can go wrong at this step",
+          "lineStart": 72,
+          "lineEnd": 78,
+          "passageSha256": "de94d0aa72706b2c508cae6746c9f944a2b6f0a9cd15a32028d74fe1d37d3827"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "What can go wrong at this step",
+          "lineStart": 73,
+          "lineEnd": 79,
+          "passageSha256": "de94d0aa72706b2c508cae6746c9f944a2b6f0a9cd15a32028d74fe1d37d3827"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-011",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "For the fictional three-patient company video, ask the total treated and all outcomes: three of five and three of 500 convey different frequencies.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Try it",
+          "lineStart": 79,
+          "lineEnd": 88,
+          "passageSha256": "6310ac107813ea06606f224efc778d99d5c873ba7b392a5c310a4fa0fb165244"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Try it",
+          "lineStart": 80,
+          "lineEnd": 89,
+          "passageSha256": "6310ac107813ea06606f224efc778d99d5c873ba7b392a5c310a4fa0fb165244"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-012",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "For a calculator requiring a residual postoperative marker when only a pretreatment value exists, do not substitute it or adjust by an unrelated hazard ratio.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Try it",
+          "lineStart": 79,
+          "lineEnd": 88,
+          "passageSha256": "6310ac107813ea06606f224efc778d99d5c873ba7b392a5c310a4fa0fb165244"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Try it",
+          "lineStart": 80,
+          "lineEnd": 89,
+          "passageSha256": "6310ac107813ea06606f224efc778d99d5c873ba7b392a5c310a4fa0fb165244"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-013",
+      "lesson": "4",
+      "kind": "substantive",
+      "requirement": "A complete explanation separates the reported outcome from its cause/frequency and identifies the validation and input requirements of a calculator.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Explain it back",
+          "lineStart": 89,
+          "lineEnd": 94,
+          "passageSha256": "99bedd4d818648f33152acd2f89521ab4ba6ddbfaabedc228f7116ddc41f17a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Explain it back",
+          "lineStart": 90,
+          "lineEnd": 95,
+          "passageSha256": "99bedd4d818648f33152acd2f89521ab4ba6ddbfaabedc228f7116ddc41f17a5"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-001",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify previously untreated stage II–III TNBC entry: T1c N1–N2 or T2–T4 N0–N2, no distant metastasis and performance status 0–1.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 1: fill the study card",
+          "lineStart": 46,
+          "lineEnd": 59,
+          "passageSha256": "e1d1c4f73b62a6075893f414f97231d0345f7706fc1b56cb188dd85d019a99d8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-002",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify the full regimen: four three-weekly pembrolizumab/placebo cycles with paclitaxel and carboplatin, four with anthracycline/cyclophosphamide, surgery, then up to nine postoperative doses; one 2:1 assignment of 784 versus 390.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 1: fill the study card",
+          "lineStart": 46,
+          "lineEnd": 59,
+          "passageSha256": "e1d1c4f73b62a6075893f414f97231d0345f7706fc1b56cb188dd85d019a99d8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-003",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify co-primary pCR ypT0/Tis ypN0 and EFS from randomisation including progression preventing surgery, local/distant recurrence, second primary cancer and death, with OS secondary.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 1: fill the study card",
+          "lineStart": 46,
+          "lineEnd": 59,
+          "passageSha256": "e1d1c4f73b62a6075893f414f97231d0345f7706fc1b56cb188dd85d019a99d8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-004",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Separate each analysis population: the pCR interim subsets are defined by randomisation cohort, while survival follows all randomised participants as assigned; the postoperative phase was not separately randomised.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 1: fill the study card",
+          "lineStart": 46,
+          "lineEnd": 59,
+          "passageSha256": "e1d1c4f73b62a6075893f414f97231d0345f7706fc1b56cb188dd85d019a99d8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-005",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify first-602 pCR 64.8% versus 51.2%, difference 13.6 points (5.4–21.8), at the first interim analysis.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 2: state each effect two ways",
+          "lineStart": 60,
+          "lineEnd": 77,
+          "passageSha256": "87233262e77bbb76abd282d98e81fda76d848eab1591ac3650c92d03f889ab9e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-006",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify all-1,174 fourth-interim 36-month EFS 84.5% versus 76.8%, HR 0.63 (0.48–0.82), median follow-up 39.1 months.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 2: state each effect two ways",
+          "lineStart": 60,
+          "lineEnd": 77,
+          "passageSha256": "87233262e77bbb76abd282d98e81fda76d848eab1591ac3650c92d03f889ab9e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-007",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify final-OS-analysis 60-month OS 86.6% versus 81.7%, HR 0.66 (0.50–0.87), P=0.002, median follow-up 75.1 months.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 2: state each effect two ways",
+          "lineStart": 60,
+          "lineEnd": 77,
+          "passageSha256": "87233262e77bbb76abd282d98e81fda76d848eab1591ac3650c92d03f889ab9e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-008",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Derive and interpret 13.6-, 7.7- and 4.9-point gains only at their own endpoints, populations and horizons; retain approximate NNT 13 at three years and 1/0.049=20.4 at five years, with explicit rounding.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 2: state each effect two ways",
+          "lineStart": 60,
+          "lineEnd": 77,
+          "passageSha256": "87233262e77bbb76abd282d98e81fda76d848eab1591ac3650c92d03f889ab9e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-009",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Do not describe smaller differences across different endpoints as a waning treatment effect; distinguish 37% hazard reduction from about 33% fixed-time event-risk reduction.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 2: state each effect two ways",
+          "lineStart": 60,
+          "lineEnd": 77,
+          "passageSha256": "87233262e77bbb76abd282d98e81fda76d848eab1591ac3650c92d03f889ab9e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-010",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify first-interim EFS follow-up 15.5 months, 104 events and HR 0.63 (0.43–0.93), versus fourth-interim and registry final HR 0.68 (0.54–0.86), including actual analysis names and no-formal-testing scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 3: watch the estimates mature",
+          "lineStart": 78,
+          "lineEnd": 91,
+          "passageSha256": "be7275270f8f932a78b90072a9c9ed941f779fd00b9a6ba58810efab8177a32e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-011",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify sponsor-posted first-1,002 pCR 64.0% versus 54.7%, estimated difference 9.2 (2.8–15.6), versus first-602 result; distinguish reported adjusted difference from subtraction of rounded percentages.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 3: watch the estimates mature",
+          "lineStart": 78,
+          "lineEnd": 91,
+          "passageSha256": "be7275270f8f932a78b90072a9c9ed941f779fd00b9a6ba58810efab8177a32e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-012",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Repeated analyses of the same trial add follow-up rather than independent replication; more events can narrow uncertainty but do not guarantee stable estimates or justify unplanned repeated tests.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 3: watch the estimates mature",
+          "lineStart": 78,
+          "lineEnd": 91,
+          "passageSha256": "be7275270f8f932a78b90072a9c9ed941f779fd00b9a6ba58810efab8177a32e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-013",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify I-SPY2 estimated TNBC pCR 60% versus 22%, adaptive phase-two context and a control without carboplatin; it is not a head-to-head estimate versus KEYNOTE-522.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 3: watch the estimates mature",
+          "lineStart": 78,
+          "lineEnd": 91,
+          "passageSha256": "be7275270f8f932a78b90072a9c9ed941f779fd00b9a6ba58810efab8177a32e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-014",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Check registry not-estimable medians without equating raw-event fraction mechanically to Kaplan–Meier estimation; prefer reported fixed-time percentages, risk sets and model assumptions.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 4: read the curve, not only the ratio",
+          "lineStart": 92,
+          "lineEnd": 95,
+          "passageSha256": "8d2b815464271db78325b24a9170b5edf637accbe4b4c0593e7e75d073550120"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-015",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Death is an event in EFS and OS, not a competing event for those composites; a separately analysed distant-recurrence component may need competing-risk analysis.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 4: read the curve, not only the ratio",
+          "lineStart": 92,
+          "lineEnd": 95,
+          "passageSha256": "8d2b815464271db78325b24a9170b5edf637accbe4b4c0593e7e75d073550120"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-016",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Retain trial exclusions: smaller node-negative tumours outside criteria, metastatic disease, prior checkpoint treatment and active autoimmune disease needing systemic treatment in the preceding two years.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 5: check who it applies to",
+          "lineStart": 96,
+          "lineEnd": 103,
+          "passageSha256": "b86d72d60943ce3ac3cfc096683b8bca697d4298ff8dc5a984c927e90496cc92"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-017",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify trial entry and the early-stage KEYTRUDA label indication do not require PD-L1 selection; distinguish high-risk early-stage use from other indications.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 5: check who it applies to",
+          "lineStart": 96,
+          "lineEnd": 103,
+          "passageSha256": "b86d72d60943ce3ac3cfc096683b8bca697d4298ff8dc5a984c927e90496cc92"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-018",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify 2020 treatment-related grade-three-or-higher adverse events 78.0% versus 73.0% and treatment-related deaths 0.4% versus 0.3%, with the treated safety denominators and report cutoff.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 5: check who it applies to",
+          "lineStart": 96,
+          "lineEnd": 103,
+          "passageSha256": "b86d72d60943ce3ac3cfc096683b8bca697d4298ff8dc5a984c927e90496cc92"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-019",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Qualify potentially lasting immune-related effects using primary label text rather than treating adverse-event absence as proven safety.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 5: check who it applies to",
+          "lineStart": 96,
+          "lineEnd": 103,
+          "passageSha256": "b86d72d60943ce3ac3cfc096683b8bca697d4298ff8dc5a984c927e90496cc92"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-020",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Survival was measured directly; a pCR association is not a validation of trial-level surrogacy.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 5: check who it applies to",
+          "lineStart": 96,
+          "lineEnd": 103,
+          "passageSha256": "b86d72d60943ce3ac3cfc096683b8bca697d4298ff8dc5a984c927e90496cc92"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-021",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify the design and current status of OptimICE-pCR NCT05812807; it asks a separate postoperative continuation-versus-observation question after pCR.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 6: name what remains open",
+          "lineStart": 104,
+          "lineEnd": 110,
+          "passageSha256": "2c1802d35aedad8ce27c1036d68b5e46a1355ad5f2eb8fb5b17a9ccdda7567b8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-022",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Check the historical CREATE-X and OlympiA evidence before claiming an established pembrolizumab-era combination after residual disease; retain population, sequence and germline BRCA scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 6: name what remains open",
+          "lineStart": 104,
+          "lineEnd": 110,
+          "passageSha256": "2c1802d35aedad8ce27c1036d68b5e46a1355ad5f2eb8fb5b17a9ccdda7567b8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-023",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Limit biomarker wording to the evidence actually checked; no lesson assertion can prove absence of all validated future markers.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 6: name what remains open",
+          "lineStart": 104,
+          "lineEnd": 110,
+          "passageSha256": "2c1802d35aedad8ce27c1036d68b5e46a1355ad5f2eb8fb5b17a9ccdda7567b8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-024",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "The assigned KEYNOTE-522 strategy did not test dropping a chemotherapy component.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 6: name what remains open",
+          "lineStart": 104,
+          "lineEnd": 110,
+          "passageSha256": "2c1802d35aedad8ce27c1036d68b5e46a1355ad5f2eb8fb5b17a9ccdda7567b8"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-025",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Do not exchange pCR and survival gains, treat response-defined groups as randomised, mix first-602/first-1,002/all-1,174 analysis cohorts or swap control arms between trials.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "What can go wrong at this step",
+          "lineStart": 111,
+          "lineEnd": 117,
+          "passageSha256": "21cf04909d455c933fa4fd4ba0dbfdbbbdba395375bd5cc473f6621bab3d2a14"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-026",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Correct all three errors in the fictional postoperative-37%-recurrence headline: whole-sequence assignment, hazard rather than risk reduction and a composite broader than recurrence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Try it",
+          "lineStart": 118,
+          "lineEnd": 123,
+          "passageSha256": "3899e629c03a6077c9822c421a446dacda40ce8daa25479fff9e6abea6ab37e3"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-027",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "State the studied population, whole strategies and the three endpoint/time-specific absolute gains, then name the untested postoperative-only component.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Explain it back",
+          "lineStart": 124,
+          "lineEnd": 129,
+          "passageSha256": "e5069c8964d6b4f12b305aae2b453649d48a6a62bac19b8830eababd88256443"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-018",
+      "lesson": "1",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "preamble",
+          "lineStart": 24,
+          "lineEnd": 29,
+          "passageSha256": "0f10701b50903051f8448b7d6bcf3caf271377976aab7b3d36308ca0383d8fec"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "preamble",
+          "lineStart": 24,
+          "lineEnd": 29,
+          "passageSha256": "0f10701b50903051f8448b7d6bcf3caf271377976aab7b3d36308ca0383d8fec"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-019",
+      "lesson": "1",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Where this step sits",
+          "lineStart": 30,
+          "lineEnd": 39,
+          "passageSha256": "a5747581a35a08bdda61a99b816a4fe8c9d874bb757a01ae07b59e64767f41bd"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Where this step sits",
+          "lineStart": 30,
+          "lineEnd": 39,
+          "passageSha256": "a5747581a35a08bdda61a99b816a4fe8c9d874bb757a01ae07b59e64767f41bd"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-020",
+      "lesson": "1",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Takeaway",
+          "lineStart": 113,
+          "lineEnd": 118,
+          "passageSha256": "ff2d0d86b78ba1f474ed2b177c0c07a626eb1dc7b42ac5efdf63d5eea9c27816"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Takeaway",
+          "lineStart": 113,
+          "lineEnd": 118,
+          "passageSha256": "ff2d0d86b78ba1f474ed2b177c0c07a626eb1dc7b42ac5efdf63d5eea9c27816"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "1-021",
+      "lesson": "1",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+          "heading": "Sources and scope",
+          "lineStart": 119,
+          "lineEnd": 127,
+          "passageSha256": "e5fa0338e512ac4f5349651530503331598a43422d5f1c49ad395a8f1d521ab0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+          "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+          "heading": "Sources and scope",
+          "lineStart": 119,
+          "lineEnd": 127,
+          "passageSha256": "e5fa0338e512ac4f5349651530503331598a43422d5f1c49ad395a8f1d521ab0"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-019",
+      "lesson": "2",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "preamble",
+          "lineStart": 26,
+          "lineEnd": 31,
+          "passageSha256": "b8da937d8627bd2e67f9f614e116c0192920ed11d204836641498ff3d03558b0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "preamble",
+          "lineStart": 26,
+          "lineEnd": 31,
+          "passageSha256": "b8da937d8627bd2e67f9f614e116c0192920ed11d204836641498ff3d03558b0"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-020",
+      "lesson": "2",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Where this step sits",
+          "lineStart": 32,
+          "lineEnd": 41,
+          "passageSha256": "d10d5f319dd2f145376ea84d909afafade414c5098f5a0e6a0b0bc1fd5653761"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Where this step sits",
+          "lineStart": 32,
+          "lineEnd": 41,
+          "passageSha256": "d10d5f319dd2f145376ea84d909afafade414c5098f5a0e6a0b0bc1fd5653761"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-021",
+      "lesson": "2",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Takeaway",
+          "lineStart": 122,
+          "lineEnd": 127,
+          "passageSha256": "d0d0981dfb90ceeb4a1a490046f8be55f2baefa0f4fd16950f4c15eb805e7070"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Takeaway",
+          "lineStart": 122,
+          "lineEnd": 127,
+          "passageSha256": "d0d0981dfb90ceeb4a1a490046f8be55f2baefa0f4fd16950f4c15eb805e7070"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "2-022",
+      "lesson": "2",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+          "heading": "Sources and scope",
+          "lineStart": 128,
+          "lineEnd": 139,
+          "passageSha256": "f9994d6827017e2180b161aca49d3371f23bb2618998241add669d254502d842"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+          "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+          "heading": "Sources and scope",
+          "lineStart": 128,
+          "lineEnd": 139,
+          "passageSha256": "f9994d6827017e2180b161aca49d3371f23bb2618998241add669d254502d842"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-020",
+      "lesson": "3",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "preamble",
+          "lineStart": 26,
+          "lineEnd": 31,
+          "passageSha256": "018d8bd8ab9257c51787070771ca01925705bde357ae4bcfc8e578974d71b47a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "preamble",
+          "lineStart": 26,
+          "lineEnd": 31,
+          "passageSha256": "018d8bd8ab9257c51787070771ca01925705bde357ae4bcfc8e578974d71b47a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-021",
+      "lesson": "3",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Where this step sits",
+          "lineStart": 32,
+          "lineEnd": 41,
+          "passageSha256": "8647ebce95f7e4e42faf557ef4f9048aa3e4a53d174e08a35e94cccaebc7d5d1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Where this step sits",
+          "lineStart": 32,
+          "lineEnd": 41,
+          "passageSha256": "8647ebce95f7e4e42faf557ef4f9048aa3e4a53d174e08a35e94cccaebc7d5d1"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-022",
+      "lesson": "3",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Takeaway",
+          "lineStart": 120,
+          "lineEnd": 125,
+          "passageSha256": "a9969a6c6b5b384cfb34f93d101bc0c548035667a375d44efe28266c3f43fb02"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Takeaway",
+          "lineStart": 120,
+          "lineEnd": 125,
+          "passageSha256": "a9969a6c6b5b384cfb34f93d101bc0c548035667a375d44efe28266c3f43fb02"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "3-023",
+      "lesson": "3",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+          "heading": "Sources and scope",
+          "lineStart": 126,
+          "lineEnd": 134,
+          "passageSha256": "5816354f5da94646f9be8842856393f000bfc2a30bc54341562879b23ae77c6b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+          "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+          "heading": "Sources and scope",
+          "lineStart": 126,
+          "lineEnd": 134,
+          "passageSha256": "5816354f5da94646f9be8842856393f000bfc2a30bc54341562879b23ae77c6b"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-014",
+      "lesson": "4",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "preamble",
+          "lineStart": 23,
+          "lineEnd": 28,
+          "passageSha256": "85abb094db5a4e4ab2cb43106a09f17529e36329ecf7aadcecd22198037d956e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "preamble",
+          "lineStart": 23,
+          "lineEnd": 28,
+          "passageSha256": "85abb094db5a4e4ab2cb43106a09f17529e36329ecf7aadcecd22198037d956e"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-015",
+      "lesson": "4",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Where this step sits",
+          "lineStart": 29,
+          "lineEnd": 41,
+          "passageSha256": "96247374f683f4949ffd96bf8ebf338e2c474e8e101d67a3a939cb703e443e2e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Where this step sits",
+          "lineStart": 29,
+          "lineEnd": 42,
+          "passageSha256": "70d1eb660d438f550055e397c94a6f618414b13c9f2dd2aa56a9d94e7ffe8383"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-016",
+      "lesson": "4",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Takeaway",
+          "lineStart": 95,
+          "lineEnd": 100,
+          "passageSha256": "5fa95f4b2e3a2212880ff9203e590fcbbe24d9f82d71ca816e7c9aefc0c36d92"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Takeaway",
+          "lineStart": 96,
+          "lineEnd": 101,
+          "passageSha256": "62d42bc182b73f8c3daf2238a1c718e036a5a59b80b58980f0efc779d36292f3"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "4-017",
+      "lesson": "4",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+          "heading": "Sources and scope",
+          "lineStart": 101,
+          "lineEnd": 106,
+          "passageSha256": "15f001ccb8548fb6a91eb5ca101256b58ed4bfeb5a5f4b72b098b6999e06c692"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+          "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+          "heading": "Sources and scope",
+          "lineStart": 102,
+          "lineEnd": 107,
+          "passageSha256": "15f001ccb8548fb6a91eb5ca101256b58ed4bfeb5a5f4b72b098b6999e06c692"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-028",
+      "lesson": "5",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "preamble",
+          "lineStart": 26,
+          "lineEnd": 31,
+          "passageSha256": "dd0f9c8caf419c8ba262bdca89f3dff63fe25c7ca38bfc0f011bcd70d36f6e07"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-029",
+      "lesson": "5",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Where this step sits",
+          "lineStart": 32,
+          "lineEnd": 45,
+          "passageSha256": "98ab7bb37ef82de7c2f920acc2a32c5715226608d2d9ba22182c70cd09beea00"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-030",
+      "lesson": "5",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Takeaway",
+          "lineStart": 130,
+          "lineEnd": 135,
+          "passageSha256": "f871ade2a3d6a15989fd10bb9fc11924bafabfd9cde1702bf7fb1836b08ff5a3"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "5-031",
+      "lesson": "5",
+      "kind": "non-credit",
+      "requirement": "Source framing, route, repeated takeaway or declared source/review limits; retain hashes and provenance, with no additional independent teaching credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Sources and scope",
+          "lineStart": 136,
+          "lineEnd": 146,
+          "passageSha256": "5890b47dc93961476cb9059dea3b28ba104c056436e6383f0e11f8ad32c4c170"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-001",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "Derived overview: retain population/comparison/endpoint/clock, absolute and relative effects with horizons, precision/bias/applicability and association-versus-action boundaries.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "The big ideas",
+          "lineStart": 22,
+          "lineEnd": 29,
+          "passageSha256": "50ceeb291ee5ce6f9eeb9f001c25a57188526be656f86d4f25cb175293456fda"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "The big ideas",
+          "lineStart": 22,
+          "lineEnd": 29,
+          "passageSha256": "50ceeb291ee5ce6f9eeb9f001c25a57188526be656f86d4f25cb175293456fda"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-002",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "Derived overview: a fictional five-year recurrence-or-death comparison tests whole A/B strategies and cannot isolate the last component.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "A claim to carry through the guide",
+          "lineStart": 62,
+          "lineEnd": 65,
+          "passageSha256": "4f1d98d0e3093dd9454f781bd8f4080a99f29172facf40e5867714bb61b8ab4a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "A claim to carry through the guide",
+          "lineStart": 64,
+          "lineEnd": 67,
+          "passageSha256": "4f1d98d0e3093dd9454f781bd8f4080a99f29172facf40e5867714bb61b8ab4a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-003",
+      "lesson": "map",
+      "kind": "derived-map",
+      "requirement": "Derived overview: longer follow-up can refine precision while a different comparison, durability, uncommon harms or subgroup question remains untested; no cross-trial headline ranking.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "What is still uncertain",
+          "lineStart": 70,
+          "lineEnd": 75,
+          "passageSha256": "4e26e864d2deb9430b5a9ebdda30aa368596f589c1a0bc16ef7289e547f12f5b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "What is still uncertain",
+          "lineStart": 72,
+          "lineEnd": 77,
+          "passageSha256": "f889e1cda448c96699b2dbb592e4c1114e729b86c9a6300d4768b19aecc9e1d3"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-004",
+      "lesson": "map",
+      "kind": "non-credit",
+      "requirement": "Routing, concept references and stated provenance; no new independent science or teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "preamble",
+          "lineStart": 16,
+          "lineEnd": 21,
+          "passageSha256": "f543da6ffff522b4b2ee3ef1ea153a8b7fa08a7859739d5498a4256d00288c7a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "preamble",
+          "lineStart": 16,
+          "lineEnd": 21,
+          "passageSha256": "f543da6ffff522b4b2ee3ef1ea153a8b7fa08a7859739d5498a4256d00288c7a"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-005",
+      "lesson": "map",
+      "kind": "non-credit",
+      "requirement": "Routing, concept references and stated provenance; no new independent science or teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "The map",
+          "lineStart": 30,
+          "lineEnd": 40,
+          "passageSha256": "484f2502245beb73f18e32750282e301951fd57d975108add374fc6472bf6771"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "The map",
+          "lineStart": 30,
+          "lineEnd": 41,
+          "passageSha256": "f592df67e36313fe4c2d6d8ab0f2bc5324ec30b76bb7dcc47d3a68c90be4fb5c"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-006",
+      "lesson": "map",
+      "kind": "non-credit",
+      "requirement": "Routing, concept references and stated provenance; no new independent science or teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "Lessons",
+          "lineStart": 41,
+          "lineEnd": 49,
+          "passageSha256": "d1f59a8035b388edefcb3797c11fbc1cb7c835487f27d16dbdfc7bcdd8a15559"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "Lessons",
+          "lineStart": 42,
+          "lineEnd": 51,
+          "passageSha256": "594f20a223aabd90f4594d72b41720c413adfcd5661a4fb0552225362f715642"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-007",
+      "lesson": "map",
+      "kind": "non-credit",
+      "requirement": "Routing, concept references and stated provenance; no new independent science or teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "Concepts you will use",
+          "lineStart": 50,
+          "lineEnd": 61,
+          "passageSha256": "088cfc1ce1b4997f5688d954dcfe658ff42c6bb146229779bf4bc2180e25223e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "Concepts you will use",
+          "lineStart": 52,
+          "lineEnd": 63,
+          "passageSha256": "ac85ad93250d0a250f594b294455a669899f6515a7b10921c1fb572f7a225c40"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    },
+    {
+      "id": "map-008",
+      "lesson": "map",
+      "kind": "non-credit",
+      "requirement": "Routing, concept references and stated provenance; no new independent science or teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+          "heading": "Sources and scope",
+          "lineStart": 76,
+          "lineEnd": 82,
+          "passageSha256": "0f282fea9e8e31c282750f73a252a93ea09a17adfb37f666c69e5421a37f5eb1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+          "heading": "Sources and scope",
+          "lineStart": 78,
+          "lineEnd": 84,
+          "passageSha256": "a159c27d7d2d050249190e0542ce395eddc3abd758b6f338205b367424ee63b9"
+        }
+      ],
+      "disposition": "Frozen before fresh canonical field inspection; semantic and primary-source assessment pending."
+    }
+  ]
+}

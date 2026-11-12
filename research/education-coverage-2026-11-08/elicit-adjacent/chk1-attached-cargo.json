@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-09T07:09:51.810Z",
+  "request": {
+    "query": "Which primary experiments physically attach a CHK1 checkpoint kinase 1 inhibitor or CHK1 degrader to an antibody as its active cargo? Distinguish actual chemical conjugation from separately administered prexasertib, AZD7762 or ATR inhibitor combinations, and siRNA or nanoparticles.",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-287193266",
+        "title": "Abstract 1714: First-in-class CHK1 inhibitor antibody-drug conjugate overcomes limitations of current ADC payloads and provides a new option for HER2-positive and TOP1 inhibitor-resistant tumors",
+        "authors": [
+          "T. Halazonetis",
+          "Giacomo G. Rossetti",
+          "Daniela Carraturo",
+          "Michalis Petropoulos",
+          "Camilla Trugenberger",
+          "T. Rampias",
+          "Dennis Gillingham"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-1714",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "7f0d0805d201683c6aac186b4dc350882b19fa11f0054490f7f7504668ae3f9d",
+          "characters": 2373
+        }
+      },
+      {
+        "elicitId": "ss-202558261",
+        "title": "Prexasertib, a checkpoint kinase inhibitor: from preclinical data to clinical development",
+        "authors": [
+          "G. Angius",
+          "S. Tomao",
+          "V. Stati",
+          "P. Vici",
+          "V. Bianco",
+          "F. Tomao"
+        ],
+        "year": 2019,
+        "doi": "10.1007/s00280-019-03950-y",
+        "pmid": "31512029",
+        "venue": "Cancer Chemotherapy and Pharmacology",
+        "citedByCount": 51,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "0d071486b188951c32595ec18c93aa75f13a02f3dc7ae17aa886290777a2fb3c",
+          "characters": 1306
+        }
+      },
+      {
+        "elicitId": "ss-17110579",
+        "title": "AZD7762, a novel checkpoint kinase inhibitor, drives checkpoint abrogation and potentiates DNA-targeted therapies",
+        "authors": [
+          "S. Zabludoff",
+          "C. Deng",
+          "M. Grondine",
+          "Adam Sheehy",
+          "S. Ashwell",
+          "B. Caleb",
+          "S. Green",
+          "H. Haye",
+          "Candice L. Horn",
+          "J. Janetka",
+          "Dongfang Liu",
+          "E. Mouchet",
+          "Shannon Ready",
+          "J. L. Rosenthal",
+          "C. Quéva",
+          "G. Schwartz",
+          "K. Taylor",
+          "A. Tse",
+          "Graeme E. Walker",
+          "A. White"
+        ],
+        "year": 2008,
+        "doi": "10.1158/1535-7163.MCT-08-0492",
+        "pmid": "18790776",
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 402,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "b34e70d4d5336e026b282e874e63e9dcef5bb9e5d7bc50c8913ac37507a15fc7",
+          "characters": 1594
+        }
+      },
+      {
+        "elicitId": "ss-12499592",
+        "title": "Keeping checkpoint kinases in line: new selective inhibitors in clinical trials.",
+        "authors": [
+          "S. Ashwell",
+          "J. Janetka",
+          "S. Zabludoff"
+        ],
+        "year": 2008,
+        "doi": "10.1517/13543784.17.9.1331 ",
+        "pmid": "18694366",
+        "venue": "Expert Opinion on Investigational Drugs",
+        "citedByCount": 52,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "6c13e1654ed9640052763db3617ea687e1cd61145393a11805ea314e3bbddb0a",
+          "characters": 1016
+        }
+      },
+      {
+        "elicitId": "ss-237611275",
+        "title": "A Phase 1b Trial of Prexasertib in Combination with Standard-of-Care Agents in Advanced or Metastatic Cancer",
+        "authors": [
+          "K. Moore",
+          "D. Hong",
+          "M. Patel",
+          "S. Pant",
+          "S. Ulahannan",
+          "S. Jones",
+          "F. Meric-Bernstam",
+          "Judy S. Wang",
+          "R. Aljumaily",
+          "E. Hamilton",
+          "Erika S Wittchen",
+          "X. Wang",
+          "A. Lin",
+          "J. Bendell"
+        ],
+        "year": 2021,
+        "doi": "10.1007/s11523-021-00835-0",
+        "pmid": "34559360",
+        "venue": "Targeted oncology",
+        "citedByCount": 27,
+        "urls": [],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "a75761ea663d2bd35d1037ea65b6bb877ab4f1604d76c5652d00107ca248a361",
+          "characters": 1804
+        }
+      },
+      {
+        "elicitId": "ss-2895792",
+        "title": "Inhibitors of checkpoint kinases: from discovery to the clinic.",
+        "authors": [
+          "J. Janetka",
+          "S. Ashwell",
+          "S. Zabludoff",
+          "P. Lyne"
+        ],
+        "year": 2007,
+        "doi": null,
+        "pmid": "17659489",
+        "venue": "Current opinion in drug discovery & development",
+        "citedByCount": 61,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "3f484c2da536a47e236013de2fac7c7abf4cc96cbfaa168c72f2c6d7f57ada61",
+          "characters": 726
+        }
+      },
+      {
+        "elicitId": "ss-287174037",
+        "title": "Abstract 5602: Novel ATR inhibitor payloads for antibody-drug conjugates targeting PD-L1",
+        "authors": [
+          "A. Roulston",
+          "Martin Duplessis",
+          "F. Denis",
+          "Hugo Poirier",
+          "Shou-Yun Yin",
+          "S. Fournier",
+          "Roselyn Kryczka",
+          "Jessica Desjardins",
+          "Nancy Laterreur",
+          "A. Rajah",
+          "Alexanne Bonneau-Fortin",
+          "Bingcan Liu",
+          "Alejandro Álvarez-Quilón",
+          "Philipe Mochirian",
+          "I. Samudio"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-5602",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "364534c73f8e65c8ef34605707551ce13adfee195256cc10a414f75f51a42b05",
+          "characters": 2844
+        }
+      },
+      {
+        "elicitId": "ss-232289132",
+        "title": "Immune modulating activity of the CHK1 inhibitor prexasertib and anti-PD-L1 antibody LY3300054 in patients with high-grade serous ovarian cancer and other solid tumors",
+        "authors": [
+          "K. Do",
+          "Claire Manuszak",
+          "Emily M. Thrash",
+          "A. Giobbie-Hurder",
+          "Jiani Hu",
+          "Sarah Kelland",
+          "Allison Powers",
+          "A. de Jonge",
+          "G. Shapiro",
+          "Mariano Severgnini"
+        ],
+        "year": 2021,
+        "doi": "10.1007/s00262-021-02910-x",
+        "pmid": "33745032",
+        "venue": "Cancer Immunology and Immunotherapy",
+        "citedByCount": 29,
+        "urls": [],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "7f4ff7cbb26b2ae859b55f86f873f52697590865d9f1f1e06f95f6d9e26cd9e7",
+          "characters": 1377
+        }
+      },
+      {
+        "elicitId": "ss-4522860",
+        "title": "ATR/CHK1 inhibitors and cancer therapy",
+        "authors": [
+          "Zhao-Jun Qiu",
+          "N. Oleinick",
+          "Junran Zhang"
+        ],
+        "year": 2017,
+        "doi": "10.1016/j.radonc.2017.09.043",
+        "pmid": "29054375",
+        "venue": "Radiotherapy and Oncology",
+        "citedByCount": 322,
+        "urls": [
+          "https://europepmc.org/articles/pmc5856582?pdf=render"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://europepmc.org/articles/pmc5856582?pdf=render"
+      },
+      {
+        "elicitId": "ss-290483203",
+        "title": "Abstract A003: Novel ATR inhibitor antibody conjugates with potent single payload antitumor activity for personalized medicine",
+        "authors": [
+          "Martin Duplessis",
+          "S. Fournier",
+          "Roselyn Kryczka",
+          "F. Denis",
+          "Hugo Poirier",
+          "Shou-Yun Yin",
+          "Jennifer Lafontaine",
+          "Jessica Desjardins",
+          "Nancy Laterreur",
+          "A. Rajah",
+          "Alexanne Bonneau-Fortin",
+          "Bingcan Liu",
+          "Alejandro Álvarez Quilón",
+          "Chris Fiore",
+          "Philippe Mochirian",
+          "A. Roulston",
+          "I. Samudio"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1557-3265.d32026-a003",
+        "pmid": null,
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "786409e16ca14ce9ea225f11aba9507af39bee67a4704a9c806ae5762e00d1f1",
+          "characters": 2911
+        }
+      },
+      {
+        "elicitId": "ss-289383947",
+        "title": "Integrating antibody-drug conjugates, multispecific antibodies, targeted protein degradation, and nanomedicine in precision oncology.",
+        "authors": [
+          "Imran Ali",
+          "Mir Faiza",
+          "Arshad Mehmood",
+          "Zhi-Ping Wang",
+          "Zhang Fang",
+          "Xin-Yu Zhang"
+        ],
+        "year": 2026,
+        "doi": "10.1080/1061186X.2026.2687011",
+        "pmid": "42310934",
+        "venue": "Journal of drug targeting (Print)",
+        "citedByCount": 5,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "e7a2d3a6b7bc14061d6fe09bd9484d4d4cc51c1abad1108cb132c0f292e0940a",
+          "characters": 1527
+        }
+      },
+      {
+        "elicitId": "ss-131775838",
+        "title": "Ataxia telangiectasia and Rad3-related inhibitors and cancer therapy: where we stand",
+        "authors": [
+          "Lin Mei",
+          "Jun-Ran Zhang",
+          "K. He",
+          "Jing-Song Zhang"
+        ],
+        "year": 2019,
+        "doi": "10.1186/s13045-019-0733-6",
+        "pmid": "31018854",
+        "venue": "Journal of Hematology & Oncology",
+        "citedByCount": 123,
+        "urls": [
+          "https://jhoonline.biomedcentral.com/track/pdf/10.1186/s13045-019-0733-6"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jhoonline.biomedcentral.com/track/pdf/10.1186/s13045-019-0733-6",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "9c89b3056da8b1d1f8f093fb1149ea68126c35d796f5b18754e684a85f56237f",
+          "characters": 828
+        }
+      },
+      {
+        "elicitId": "ss-19553634",
+        "title": "Targeting the ATR-CHK1 Axis in Cancer Therapy",
+        "authors": [
+          "S. Rundle",
+          "Alice Bradbury",
+          "Y. Drew",
+          "N. Curtin"
+        ],
+        "year": 2017,
+        "doi": "10.3390/cancers9050041",
+        "pmid": "28448462",
+        "venue": "Cancers",
+        "citedByCount": 223,
+        "urls": [
+          "https://www.mdpi.com/2072-6694/9/5/41/pdf?version=1493293357"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.mdpi.com/2072-6694/9/5/41/pdf?version=1493293357",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "e6594c0c5ddc37ee553d50b2f63baa3daf5bcf3df0d424f17e5883cf2c1de88f",
+          "characters": 864
+        }
+      },
+      {
+        "elicitId": "ss-219169000",
+        "title": "Immunoconjugates for cancer targeting: a review of antibody-drug conjugates and antibody-functionalized nanoparticles.",
+        "authors": [
+          "R. Petrilli",
+          "D. Pinheiro",
+          "Fátima de Cássia Evangelista de Oliveira",
+          "G. Galvão",
+          "Lana Grasiela Alves Marques",
+          "R. Lopez",
+          "C. Pessoa",
+          "J. Eloy"
+        ],
+        "year": 2020,
+        "doi": "10.2174/0929867327666200525161359",
+        "pmid": "32484100",
+        "venue": "Current Medicinal Chemistry",
+        "citedByCount": 39,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "74c20449307831d903e3f479718213fa9452791f9b868ff3f4ff901de3052e15",
+          "characters": 2474
+        }
+      },
+      {
+        "elicitId": "ss-12769379",
+        "title": "Cancer-Specific Synthetic Lethality between ATR and CHK1 Kinase Activities",
+        "authors": [
+          "K. Sanjiv",
+          "A. Hagenkort",
+          "J. M. Calderón-Montaño",
+          "T. Koolmeister",
+          "P. Reaper",
+          "O. Mortusewicz",
+          "S. Jacques",
+          "R. Kuiper",
+          "N. Schultz",
+          "M. Scobie",
+          "P. Charlton",
+          "J. Pollard",
+          "U. W. Berglund",
+          "Mikael Altun",
+          "T. Helleday"
+        ],
+        "year": 2015,
+        "doi": "10.1016/j.celrep.2015.12.032",
+        "pmid": "26748709",
+        "venue": "Cell Reports",
+        "citedByCount": 91,
+        "urls": [
+          "https://doi.org/10.1016/j.celrep.2015.12.032"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.celrep.2015.12.032"
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "originalResponseSha256": "09e043d7753d5f110530feff38ac01a321706a17f6949a157400ff1d706b2e44",
+    "originalResponseLocation": "outside public checkout",
+    "transform": "Body removed without rewriting a quotation; metadata and exact body hashes retained."
+  }
+}

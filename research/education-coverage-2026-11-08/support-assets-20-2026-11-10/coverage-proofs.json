@@ -1,0 +1,64 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "proves": {
+    "pathsAssigned": 20,
+    "versionEntriesAssigned": 40,
+    "versionEntriesVerified": 40,
+    "bodiesReadInFull": 20,
+    "rolesProposed": 20,
+    "rolesByKind": {
+      "reviewCustody": 11,
+      "authoringProvenance": 9,
+      "teachingBearing": 0,
+      "routing": 0,
+      "mixed": 0
+    }
+  },
+  "separation": {
+    "scientificSupport": "none credited; passage observations only (primary-sources)",
+    "candidatePresence": "all 20 bodies and 10 natives pairs exist at both pins; presence only",
+    "registration": "none; nothing written to any ledger",
+    "integration": "none; coordinator only",
+    "mainCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0,
+    "curriculumCredit": 0,
+    "claimVerificationCredit": 0
+  },
+  "doesNotProve": [
+    "that any figure is scientifically correct",
+    "that any PASS verdict in a body is valid",
+    "coverage of any lesson",
+    "that bodies are the live site content"
+  ],
+  "selfAttestedApprovals": {
+    "bodiesSettingNewScientificSourceApprovalTrue": [
+      23
+    ],
+    "bodiesSettingNewPixelApprovalTrue": [
+      23
+    ],
+    "credit": "none: agent self-attestation"
+  },
+  "coverageCreditGranted": 0
+}

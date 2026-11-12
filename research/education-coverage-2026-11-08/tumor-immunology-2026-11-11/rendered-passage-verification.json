@@ -1,0 +1,1420 @@
+{
+  "fieldPassages": 157,
+  "missing": [],
+  "checks": [
+    {
+      "group": "root",
+      "id": "cancer-immunity-cycle",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "193945377afe22a95100f8762da9dcb3127f53f54b5ada19d49584f895da638d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-immunity-cycle",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "fdb2a3b2ed2612865a9df70533b10b0630d3fae551d558bc27cc31c65bbe93a7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-immunity-cycle",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "30e3040050196b9e1eb63695a335990d9af06a7235981d56068ab1f69ec0d19d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-immunity-cycle",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3e3208e1426cc223ad4b211c669a00cdf35e388ed958efe24d89c5f01990dce8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-immunity-cycle",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "1e309e5be7575d0c0e34b48e71a697fab318b1eb3f785b66000eb48dde3329d7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c9b6948c75e03f860b16ea6ad8b6339511eb2e3bd6410de5574a65572135b7b5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "d2dc0c85c2a5cb1f004acc5e366b5df6dd188604d167532d37c39022a74860c1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "14adbe3d4dc33d6efa0db1dfb9af789122708f47b29abac63dd9a51eb2d0b03f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "aff8a562c1a8568f3cd78e3c2a809394d236c2b5c2faf6656e1b1782bd8ebada",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "85b1072a74b203b4df256f261f55d47ea88c6df83214db143c5542aa595d74f6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "e32c1280ee72c6852690fa7dbc51e73ed95242d228eeded48472bb1955fdda51",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cold-vs-hot",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "705019fdf3c44836ef27b4cfbde015a9237bb05f37a0c24664936dc65e7b560c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9720a2c94321a8c89c902c48542f77a7427fde6a1dc81aacd3f0a8deebdf07a5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "99fecc1d58bccefae61118a8a0230ae11a48adf254832d3a1ad3973c9448ef9a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "5f47686909af5730dc229a89e1da0396d2696b2e3511f52b38e2e40c493ade46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "334a5c9a81cb640b20113fba863af3801581c1cd6d0599bfe126faaf7d0375ce",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "be13903772ef517ea0127995385ef0febf2ee2ffb19527972c012c90c9772aec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "10af9a17e584552a072f9f443a89fd0f213dae4b1ad02e34fc62edc8cc9be020",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "bbadf6fdda1bd7b7618f812cf31ed9b5a60712314e01795473fb84ccaa0496ca",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "b8a812cc1ab31a4c6a03da03778a4f312d4c4af4de43c9ab8c1358a72362bceb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-exclusion",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "e8b7cfc43638a6cdd80beffbf7488424b2d71eb928a2a4f2141abc0db000e74d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-desert-exclusion",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e08596167f3a078f79173fede6d9e4e885b2f3c567fca567fb11a0ca9987413b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-desert-exclusion",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "1a3db76284e4c44b6da8adc5704511889931c33454c8aeecabe6f82dacae60e1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-desert-exclusion",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "2249af1515dc7a4893d8984271f89a9eedb26b03844cb0ff9a835976c0e5ead8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "neoadjuvant-adjuvant",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a29b92d24d22cb6447a2d0bec517d0d6b396747c3e408ec1bd35b1055dfce3fe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "neoadjuvant-adjuvant",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "ae3e79530125f1d2e7e8b5489645d68fa967df215d485232d374ff4a8d860ea2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "neoadjuvant-adjuvant",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "7d0a00bb7a7ca997c2e72d1a94f1e8ff17f027f2e2971c826d1a24c9859ba846",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "61a7f0402822fe66ee9b15819c3be8b0162514a40dafa4e40fcb453c93beb7af",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "40eafba9aac377940461022ecb55e8237f930bb910004cb5dfb7511d81a5089b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "f2292f7ed2a83af87eb991c66376be0b467074d05971278f78c01686575339d7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "80331745b2b8bcd86f049ffc483b192a0b9717bff64ded03e30927584d382c21",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "777b2b02c8730ff9e2e6e6e2a3c9c3dd8f8fcff7639dddf522b3654b6f81efb9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "3097a03f6f4529b21752f808cd938d65f6e0d5d878fff22811fecc632e535534",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "8d9efdf2b638c80ed150a64bdf264127cff260ad6325925a46459e57badc1e7b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "196b2336f45232ce71376579d2b0f828f6ef3f5265a0846c3c5177aa1edd39b8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell-recognition",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "52ecc9459879a35eba1d6adaad79616991d04a9edb363cbb8b32a29caaff1ec7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e75584d8605afb066b632651e70d5f8bc95547669068967e21372b200d04a684",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "4f9cc7ab7ef37897196b1fd1a96a00bb37e4c91c7e44ed3c8df0dfbd4d4a4089",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "3835a1674492fba0d273472341f8fe2fcbd9dab84cc9d7aa4922ae389feed883",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b48b861531186d3333d32a9365779999a4d9f4572219edcc6e201f2658651df8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "92c2839060f7a8f03823fa2b5fd35945634f1a30540b9569f8142d6688d5d38c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "707a55dc3e1f969efe5a7fe3f1f8ff04c6d6e2b7103c941b707cde8a22e8466a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "f0b8dfbe8817fa11abdb3f169073bef85d6811089212dfb4d838b4c1eb29b998",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "abscopal-effect",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "cce0410f461b231993f54b3fd017a942f6ce10ee933edbff1dddf0c2cfb6489c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7d6ca70643aefee2644acbe8f1fe6c7a3978d10d2727154bb9d47323d8703898",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "3449ebc0cf572445291db463348fc190751f972233fe950701220d57ab42f199",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "6deb69eac3e3c6d4cb44a9cea83e3ed26f2e8db2f5264b61b7d052f3fed2e01f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-situ-vaccination",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9794bbe4c76c0b21d4b90d7f9c2b27981501df58f6c1fe790db5e586d3c93eb8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "d1884d4167a698001dcdcf686a4063481daa576466a674d059db063baefac4e3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "276c99649560fb3f8990fadd8fcf461f2d7dfe27578cd0bc156157a70341764b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "83d3c72f67c60b6ea4878bd9ee70a2a3e43920bca23b01f0c379ef3b784c6a4d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "a5bf77197f859a8e3e8452883ef820f18d12c21843ffe33e1fe592e61b22f7fd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "76c4bd9c386c4733b7b5a4b15b5d529fec4f85e9afb21c96ec7b7766129dcaeb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "bdf8071eac4729bc7fcbedd901a6f67b6ff15e55534c601c75ba5607250bf340",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "c65b3e5ffcf97e462a620667f722b6d3f4c19a605697448b688ae93cbacd4685",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "b99c874019b2f6cb8db98d0e62eec7c3edf6d7922aa19ef46fd84d6ecf18a45c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "df8f56cedd106c9b0c48044d6c4bc54555105046112dbd397ed626f3cf1615be",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "4878b4a6ccd2a753af2babf1e5e93f4db61a7bf6307b40cceaf4ecd422edfe8f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "a871965df64968285a1871aa03c9a6ccb5ee2d4b97c924abb407a2af9ec00bc9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "f866ade46b6d79feaec9c8a4438afb2aa00413b5dd210fa18c1ba257b7a2bc7b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tils",
+      "field": "notes",
+      "index": 11,
+      "segment": "field or note",
+      "passageSha256": "bebb6e5fb0b65ebe877e81e0e31ec39842bfb1053ec07d5d98459cf98fd3b18d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7580adf3b4d7bc91ea5e5ada648e3c09b37b84112077c894fcedbd89e3a41215",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "7e4ee6f58f0c19910d84ec766d6f1c60558e703484bea49b4aa13e439ad06c61",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dcc11dbfbeee154df53714dd970c5c841d4f0e588bcb532f05a294ba3d336f1d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "7f059872f66c2545cb6326e5118c42e1e621969aa065a4ac9073b95e59477da8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "0ce66c77426bc7bf099a0d3f22bd0fe6947810550472940f418fee6c3c3a13c3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 4,
+      "segment": "summary paragraph",
+      "passageSha256": "03e0be36714a4524d47c97e22898dba2ebfe32bdf4eeefc37653263462a7e976",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 5,
+      "segment": "summary paragraph",
+      "passageSha256": "f656d9fc0661f8634cd2e068dfc3d732f1d34e38c33c46b6a774b6f8d93f1df0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 6,
+      "segment": "summary paragraph",
+      "passageSha256": "7f47324a38defa58cadc21b04ff5712bb37b30425bac66621bccf4f89ac87cb7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "52366480c08e18f6dd4647b21852f6afbb6f5e93d716ac76b1dd93d5f7e4d3fa",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "d720c43ab8274a33cbbf8cda2e8cb901e26c9372ca90aa9d4ad89e51f5f7805e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "9e162383766f4727f44eb98d3a267a8e00d7e6a6c94ca60f2a3c99452d4d17c4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "784614d52c190479610dbac282ee62a2c32c198f33a4704c41d7485d7ce121bc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "b4f9ac7fc105af22aa1a5316016dcad5093a532b587583c2b24b23a6f103ef51",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "5882b76a549dee6e6e5a09d894de13ca3bac3e8c0e69291727853060db7d8145",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "6e8140113a3fd19e84e0624c7bdc85db570c1d3f9dfa922503d3b4691242beec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "855a3f3ccff01c199764524391a21c6b641d83a07a51185686e63bbb6e5fe707",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "756882a2a9014265cbb5d071250737635a1992e80263a7232cce01e2f66d9f48",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "61393752fe50270153699053b03ba786c1fb8b198c4dbcd0be395a80ec640255",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "05c0ff34f8637604fe3f6ab88477a00fb18f8ed0e5117851f07b8ccc92dc9613",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "31a40f838aa560e7834cab5c724bb1e6d493b54fe5466e7efb28ef9bc5e311e7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "34ea1b1ee0830a0028660dc462de7c2b048da3bdeca37cabb6e43ea9cca4e494",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "7453fcf0f5f220f404d584147558781d9c4b496d2eee4815d10c7d588b00738f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "add53b9fab84df4542e29acd905f32893381556b527a9a3bd8d612c968244f1e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "13ff65f15a9a13112e36314eceddf2b7fd5f41f51444e92f635926f258c7c2e8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cancer-associated-fibroblasts",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "58722b4754b92b086dea969cdbd2b515c714eb8c8b43ae229a5d6afd479ae914",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "66ebae0895d7f5d69acccba77ac0d8f44787f57929a5da89ea2f2dee5b4c9ebb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "71ce89668f92a13b3caa06bb5886c613f6c2674357a719a19bf2b7a1f6c7f507",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "601f5b3b1f271ae62122c0fd931a7c1a65ebd4a9d5300a753b359f8335876918",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "63bc9dc35a81b78d064077ed18d38ae3a2dc873eae58460f3491921506868f9a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "e9c340dd5fc6d7f430acda0ac7e24c41bcacc88fee475eca0de6af4ae47f0a23",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "dd5e5ec7c9bac04dcd7bd841c34a9a7a82fccb76587937c9d554e2ded2b45890",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "64120320aab9cfaf7fe42b9c42d336e2633b8afdc0252fc62ec86db4e42eaef4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tumor-associated-macrophages",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "0ae53298bc30dfa9b7f0e16af755f10441d5e76320872a3757288756eb21bde9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4bdbf03eddaab0b4ae0cdb2939008b1164a2a45917f3423eec9a6095a419ca33",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "c20c3472c20ae017f7309c7bc44536472aa447190fbfd842f8d3505fdf742ef0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "8a5ac874c5e344286b85d6028452c46fe47383be5ff6c5abbc3dc8ea3d633c22",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "51d810ca71aa5275e5e8c2980fed5a14c214432409cb500ac5bbc3caaec566dc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "nk-cell",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "33a7b42accda0024d391862846d7baf7a3a20a8a96520ae8d4fcbc78f43dee0d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b5a9f3617110364f3f2bf454651ecc232295e647e27d819656d85831c4a8daa3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "36f02d5f36e3726ae62764471df368aeceba4f76760be6e5fc647b3ebe359e81",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "summary",
+      "index": 4,
+      "segment": "summary paragraph",
+      "passageSha256": "03d6ce0cb5a137a8a9effdd3a3dfb668a3eaec0b7d8c6dec3671c07958311f7c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "agretopicity",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b7676e3f1003781d541603a90efee726704fc4a38f6125f6b74f263fbff22719",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "242e99e63aaf5f1b3a832f1e83fedc5f39268a18fec6aac87d27ed80019d311e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "150cabd120ac6b2bb52bf8fbc018d4f4b0eb4db403d34a31b412fec591363d9f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "f42d97edb013cad0cea7b990debc974e5988599b2910326e918251a594c9ecec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "68bb195a405556682b4ba1c3ca9995e8c2b6e4c32468af7c2fb1651975d2eac2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7a1fb952b9da823cb1f0703422ab233a9962f1f7c76361be6dfb5592fc0e024c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "29e552f77b558151227ecff398a5b06a719451051f6ade81d0c91faa4e4881ad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "f966d407906c33a4337de06227b9e157aa84db29fe1a7f07a22efc1ed909c7dc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adaptive-immune-resistance",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "ffd44dbe2e921896f9240ae888971d0d3e96353592201cfe841db2d15d1dcc9c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "31b56d58cfbe77dd8b1b5068b4b1c6fe9282c46bd04af2b31add7364e76fedae",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e7b1e32ab015b2a5d0f7061d0595be908203bd9a1f9d79e6085b045916d12539",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "9bd61d92b4fab108a24c30239bce42e1426106bfdb8cb4dfa50e81ee3ef87afe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "37145502f96eaf72b17151a74f8d8604ca7cb3acd9a28747cd69caac06a9674a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "97c2528bddbb3b62df07524bb920a472775e8500668a7c0741377bc495655930",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "perioperative-immune-window",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "64fc3b574304fa08e3c3dd2676a463c72451494cb07446c9e4d910499cfd5666",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "f9230dbc7958ed7eb952ae6d6383583083fe39d03a41cbe780198b91388c68b5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "083364a95e834ddbcae8053f813f05714dbaee8df4cd0153c06c402264a39dd8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "05aa7753142553fae384dde0db170da834d668d577caa0e17ee50f9d0ce7d6fb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "c6bd70cf37884a547977c4fb57b8de92a6cdf0590dc73f8244e8f1ff62a1b974",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d615c44751c95aefc85dd5661950a68a99ee0111f71347814cfccc183c180eed",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "daeffaa4a1acf06bd8843767e78ac8940f02d78a4e6b51fbbd1afb2e4e5ebd6e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "263d9c0296c041fc212e4624c9964a45240caf9c29076e22dc6e32de44904e49",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "7cbfa68c722e45ea8dfb64c2012e20c8ca49d1252b6121fbf4cadc97b4dda30d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "c2e69d9ada0d537b0704c3e50637e2adbd9eb6534e398a438479372f3e2e0d1c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "f051aefeba529a1992ef2f0e956bf61ccc11a025c4de74089f02fe165432ea22",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "b06611713c47449d0e554e906a8106f60888ab2737009258a048300ddb5e2d6f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "f9f4c722723161de85acd6783c2764d88c9b0101ddab46bd3c7d616066ecc7db",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cd4-t-cell-subsets",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "8ccbb75dd5410fac416564686a47e6ac6428dc7b7f78307ade9081df1b23da02",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "647595396b038ba27c2a7552d5b292abf9f6175f65b7fa75ae98717bccdf4328",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "f13eba9199796737482b0cb06047f349641f27b116ceb71aa18fd9326ba61a5e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dcc11dbfbeee154df53714dd970c5c841d4f0e588bcb532f05a294ba3d336f1d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "4cefd1bf97779c4c3d61086a51bc563c0782ad670d92bee43daed54a22236172",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "73267a52718e72c709c066bf5be60a4e452e59ed915ec24180d280fc31a81f53",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 4,
+      "segment": "summary paragraph",
+      "passageSha256": "91a14ed59d346d752e28d8f21536ce2314efeb86b10254ecf0e5a2e8ed66ee24",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 5,
+      "segment": "summary paragraph",
+      "passageSha256": "f656d9fc0661f8634cd2e068dfc3d732f1d34e38c33c46b6a774b6f8d93f1df0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "summary",
+      "index": 6,
+      "segment": "summary paragraph",
+      "passageSha256": "dd8c5be9022c85d62d1505304788af436f1108e380b3d637baf508f013dc3242",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "5882b76a549dee6e6e5a09d894de13ca3bac3e8c0e69291727853060db7d8145",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "6e8140113a3fd19e84e0624c7bdc85db570c1d3f9dfa922503d3b4691242beec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "855a3f3ccff01c199764524391a21c6b641d83a07a51185686e63bbb6e5fe707",
+      "inActualReaderText": true
+    },
+    {
+      "group": "shared",
+      "id": "immune-surveillance-immunoediting",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "756882a2a9014265cbb5d071250737635a1992e80263a7232cce01e2f66d9f48",
+      "inActualReaderText": true
+    }
+  ],
+  "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+}

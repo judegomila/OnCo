@@ -1,0 +1,47 @@
+{
+  "original": {
+    "assessedOrClassified": 378,
+    "teachingAssessed": 371,
+    "total": 537,
+    "completeDraft": 364,
+    "requirements": 3206,
+    "evidencedRequirements": 3196,
+    "openRequirements": 10,
+    "partialPages": 7,
+    "ordinaryUnread": 159,
+    "navigationUnclassified": 0
+  },
+  "later": {
+    "assessedOrClassified": 375,
+    "teachingAssessed": 375,
+    "total": 550,
+    "completeDraft": 371,
+    "requirements": 3390,
+    "evidencedRequirements": 3386,
+    "openRequirements": 4,
+    "partialPages": 4,
+    "ordinaryUnread": 170,
+    "navigationUnclassified": 5
+  },
+  "assetsPerPin": {
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "totalAssets": 1888,
+    "teachingAssets": 456,
+    "supportingAssets": 23,
+    "unclassifiedAssets": 1409,
+    "unresolvedAssets": 1409
+  },
+  "selectedGraphIds": 529,
+  "selectedIdsAbsentBaseline": 158,
+  "selectedIdsExistingBaseline": 371,
+  "summaryConsumerEntries": 3654,
+  "summaryTexts": 827,
+  "EnglishFallbacks": 2827,
+  "rootRuntime": 22810,
+  "rootAdditions": 127,
+  "openAdjacent": 31,
+  "totalAdjacent": 55,
+  "openSchema": 6,
+  "mainCoverage": 0,
+  "goalActive": true
+}

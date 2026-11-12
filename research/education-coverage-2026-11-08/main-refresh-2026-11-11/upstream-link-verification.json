@@ -1,0 +1,447 @@
+{
+  "checks": [
+    {
+      "owner": "ctdna-mrd-positive",
+      "deviceId": "signatera",
+      "deviceKind": "drug",
+      "route": "/drugs/signatera/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-0",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-1-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-2-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "bond-oracle-her2-ihc",
+      "deviceKind": "drug",
+      "route": "/drugs/bond-oracle-her2-ihc/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ihc-3-plus",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-fish-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-fish-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-fish-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-fish-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "pathvysion-her2",
+      "deviceKind": "drug",
+      "route": "/drugs/pathvysion-her2/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "foundationone-cdx",
+      "deviceKind": "drug",
+      "route": "/drugs/foundationone-cdx/",
+      "actualSsrLink": true,
+      "tableLink": true,
+      "testsBoxLink": false,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "foundationone-cdx",
+      "deviceKind": "drug",
+      "route": "/drugs/foundationone-cdx/",
+      "actualSsrLink": true,
+      "tableLink": true,
+      "testsBoxLink": false,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "foundationone-cdx",
+      "deviceKind": "drug",
+      "route": "/drugs/foundationone-cdx/",
+      "actualSsrLink": true,
+      "tableLink": true,
+      "testsBoxLink": false,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-fish-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-fish-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ish-amplified",
+      "deviceId": "her2-fish-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-fish-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-low-ihc",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-low-ihc",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "her2-ultralow",
+      "deviceId": "her2-testing-assays",
+      "deviceKind": "drug",
+      "route": "/drugs/her2-testing-assays/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "hla-a-02-01",
+      "deviceId": "secore-cdx-hla",
+      "deviceKind": "drug",
+      "route": "/drugs/secore-cdx-hla/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "hla-a-02-01",
+      "deviceId": "secore-cdx-hla",
+      "deviceKind": "drug",
+      "route": "/drugs/secore-cdx-hla/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "hla-a-02-01",
+      "deviceId": "mage-a4-ihc-1f9-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/mage-a4-ihc-1f9-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "msi-high",
+      "deviceId": "foundationone-cdx",
+      "deviceKind": "drug",
+      "route": "/drugs/foundationone-cdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "msi-high",
+      "deviceId": "caris-mi-cancer-seek",
+      "deviceKind": "drug",
+      "route": "/drugs/caris-mi-cancer-seek/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "msi-high",
+      "deviceId": "caris-mi-cancer-seek",
+      "deviceKind": "drug",
+      "route": "/drugs/caris-mi-cancer-seek/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "msi-high",
+      "deviceId": "idylla-cdx-msi",
+      "deviceKind": "drug",
+      "route": "/drugs/idylla-cdx-msi/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "msi-high",
+      "deviceId": "oncomate-msi-dx",
+      "deviceKind": "drug",
+      "route": "/drugs/oncomate-msi-dx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "dako-pd-l1-22c3-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "pd-l1-cps",
+      "deviceId": "pd-l1-ihc-28-8-pharmdx",
+      "deviceKind": "drug",
+      "route": "/drugs/pd-l1-ihc-28-8-pharmdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "tmb-high",
+      "deviceId": "foundationone-cdx",
+      "deviceKind": "drug",
+      "route": "/drugs/foundationone-cdx/",
+      "actualSsrLink": true,
+      "tableLink": false,
+      "testsBoxLink": true,
+      "rule": "CDx cell is plain text when the Tests box already links the device; route trailing slashes normalized."
+    },
+    {
+      "owner": "functional-drug-testing",
+      "institutionId": "cure-first",
+      "route": "/institutions/cure-first/",
+      "actualSsrLink": true
+    },
+    {
+      "owner": "organoids",
+      "institutionId": "cure-first",
+      "route": "/institutions/cure-first/",
+      "actualSsrLink": true
+    }
+  ],
+  "scope": "Actual source-owner SSR link destinations, runtime kinds, and the existing CDx deduplication rule; no browser hydration or newly reviewed clinical indication claim."
+}

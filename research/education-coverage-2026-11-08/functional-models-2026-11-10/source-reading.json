@@ -1,0 +1,3200 @@
+{
+  "sourceVersions": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "sourceSha256": "032d89ec8d887aced2ddb308b3cfa0ac52eff812683476ab88aa8da6a6108b1b",
+      "gitBlob": "e59794306ed68b8f52ebd6525f6a5e67cd60db09",
+      "bytes": 10094,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1f40313ab8147cd555c56ac0d63306bc448afc43c6377d8b8cfe1a24c10fe477",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b0533103c57bfecf2e0ab86022e07bee4e5d1c4364b9b91c5950ebddaec366bb",
+          "learningRequirementIds": [
+            "IND-001"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6332b0474c6714bc1d62e29f4297402e64865327dd3a7833ade2397bbe138da1",
+          "learningRequirementIds": [
+            "IND-002"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a8bc853ff6f5ab9e252b1d851ad6f91d4529404378e0c8061a71f29e104f3c2f",
+          "learningRequirementIds": [
+            "IND-003",
+            "IND-004",
+            "IND-005",
+            "IND-006",
+            "IND-007",
+            "IND-008"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f96df8f3092dcff87b7a6d14d7ac1fbab45f4b8efcbd20afc50bbb5317895cb",
+          "learningRequirementIds": [
+            "IND-009",
+            "IND-010"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "0e010505dfae33bf17d76344e8a93c390324a7766bb4ed5f2211a8ad941ffb5a",
+          "learningRequirementIds": [
+            "IND-011",
+            "IND-012",
+            "IND-013",
+            "IND-014",
+            "IND-015",
+            "IND-016",
+            "IND-017",
+            "IND-018"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "034a479eb1a27048cc0016fdbf2f297f3f7d2e56daca809f98f28656aaccbd50",
+          "learningRequirementIds": [
+            "IND-019"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a20ed6db79d02ba1a65b887890742f5d84c728cb3bd40efd8a2ae9d9deeba84f",
+          "learningRequirementIds": [
+            "IND-020"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4caaa1191c95365cecc07580263468c5cc9dbb8a8bf96513a4d130be2adcc37d",
+          "learningRequirementIds": [
+            "IND-021"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "8e812cfc167101c0063dd223a0bf3d9b30c24f1261e35782a9b54416bc8f5ee5",
+          "learningRequirementIds": [
+            "IND-022"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "bh3-profiling"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "sourceSha256": "40b3f170a8b23b29d0443ee6b6b57c9023c9a71f232b3ba4c5ae956b88570ad2",
+      "gitBlob": "dbbb424d7448a93266ffad9f1d44bdcda7ead76b",
+      "bytes": 8800,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ab468e94aedcf1d33780265504fedc22b71a56c99e51076dc6bba41e4f09a49c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2b6b2c4f2b918f87a0a8ed1eb35ddcf1a2f3988aaf2001161f8cef5890cd0572",
+          "learningRequirementIds": [
+            "IND-023"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5c7a43761021a524f557fe2a9556d1ef587914db0e51cec5a9ca3562a2e0696c",
+          "learningRequirementIds": [
+            "IND-024"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a3a4716abcdbda4bcffde1cf0929bd2ba584c2bbb2aeea0d6dd10a9781f30813",
+          "learningRequirementIds": [
+            "IND-025",
+            "IND-026",
+            "IND-027",
+            "IND-028"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7dc5c3c0317b49f698c4e4c7f26c10699ada4b48d36567e8465aa6c3053226b2",
+          "learningRequirementIds": [
+            "IND-031"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "5e6dac52e5d93ba643feb2ea9b5fb964a230e0a9112584c1eb5dc06a251f0592",
+          "learningRequirementIds": [
+            "IND-032",
+            "IND-033",
+            "IND-034",
+            "IND-035",
+            "IND-036",
+            "IND-037",
+            "IND-038"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "43b942605dfc26e3bc6bad93f9cbbf8bd3c5ec448368ce4a13da613fe626a63b",
+          "learningRequirementIds": [
+            "IND-039"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58c5a863fe939a0c97ee9bfc58ed1367c7370de95482a1308b219f771a974fdf",
+          "learningRequirementIds": [
+            "IND-040"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "dac078f2f7eb52202598865e18a8fa2c28dadc7bbdc094cbf77a80083f5b2adc",
+          "learningRequirementIds": [
+            "IND-041"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "fc6336cc583611220d85bb0fd66bd502ed8a90279a2bef7a57698df0d0d9f631",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "528fe590452c2fe1976330bdd486b598649c83943cc2a0ede0f0c0ed095e5440",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "bioprinting"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+      "sourceSha256": "62661eb9ff405bb328991b334421611a5913491cba906d2981342a2f8b5d7352",
+      "gitBlob": "7e075b8463b0e864015b688c19ffdebd6cbf82e9",
+      "bytes": 8649,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d66da299585249c7a81976858424b278971750e70087711efc08e5dfef29995a",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "684d8ad71a53a027a1067a2da3d1d1a2e728077a4a70207725bb4e7ace093b0c",
+          "learningRequirementIds": [
+            "IND-043"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a44b690d7ff7fe076c76fa7e348a3d2eab5935688e67f57184a218d1ab0f427d",
+          "learningRequirementIds": [
+            "IND-044"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6f0887fdc8a430842d50d4c71cf737477b8f6a899cd0c7455a4a2d226f968cc8",
+          "learningRequirementIds": [
+            "IND-045",
+            "IND-046",
+            "IND-047"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3a6e4b4d653cbdbfe620a8c06e333401e385ad73f9593d241561babfb068683d",
+          "learningRequirementIds": [
+            "IND-049"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "db65ba25962cf0532843fcdb48e28beae8ba85a9a0ade67edb97fe7ca97c6c18",
+          "learningRequirementIds": [
+            "IND-050",
+            "IND-051",
+            "IND-052",
+            "IND-053",
+            "IND-054",
+            "IND-055",
+            "IND-056"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ccb5efbf55d356923652782a8c65de278550b4a58fbf528848793bfa88a8eb9b",
+          "learningRequirementIds": [
+            "IND-057"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e3bfb5f0c357a5a96b745158a8dc9a4952efe0104be54149bc718782fed0cde8",
+          "learningRequirementIds": [
+            "IND-058"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "84e30a63d3c23dfd870054366bf9979285376947012d3cf10135d7c676d4d75f",
+          "learningRequirementIds": [
+            "IND-059"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8c8fc61e10ff4dc38c46ae222eee5bdadbd9b7cb126b292890eeb023957f3355",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a1aced3e19d34cce84597c44936de1163d588dbd346e44f38f4d95498c3f1732",
+          "learningRequirementIds": [
+            "IND-060"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "cell-lines"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+      "sourceSha256": "27b16b9e06c2b3adfebb723e7a867b9d0e0560ca5aba561309494f6e95f9c383",
+      "gitBlob": "91e2dbf62a1271d7a685915193375b836105e137",
+      "bytes": 9753,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "81e2def3454aa9dbb6815a388a048b70f1ea4ffbacb9c569b9299066a28fd157",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b16a852903b4f50dfaeb13194d28d323dd4441b45a346a2b43ed5c8af286844a",
+          "learningRequirementIds": [
+            "IND-061"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0203335a51bb16d4ffa1f2f6f67b2c3eaa732ff6425c839a1803dd58ad4b3caf",
+          "learningRequirementIds": [
+            "IND-062"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6356c6ebb26bc46ba405a6aba39753ea4488475145f4c9ec4840eb83eac4d34d",
+          "learningRequirementIds": [
+            "IND-063",
+            "IND-064",
+            "IND-065",
+            "IND-066",
+            "IND-067"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2b5d75ebd3519a081339805f124f45f7ae7346821ebb74355ce6997a16aa18d6",
+          "learningRequirementIds": [
+            "IND-068"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9466ff8e28169996e84c36d823067d55b39f7edb02004e6b522b058733804e07",
+          "learningRequirementIds": [
+            "IND-069",
+            "IND-070",
+            "IND-071",
+            "IND-072",
+            "IND-073",
+            "IND-074",
+            "IND-075"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "79480269ab51a1f61c548fd5e76693fabe48d2f7b0d0b5d919c3006c0bfdd35d",
+          "learningRequirementIds": [
+            "IND-076"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "6f50502c5d735b9f9d140f822b53dd753513b8b36f08dae53a28411508e6800a",
+          "learningRequirementIds": [
+            "IND-077"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "62f48a7fac1b528c91aaf2dfc0341e158e9d3124e5ea53886e490d5d4fb8211e",
+          "learningRequirementIds": [
+            "IND-078"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "65956b6691a9b36c49f910948f4a2640499d88188675068434cfd8beaca72be8",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "0d4a7519ff6d067a7e90f58c9178cff614a3fe44ab072cc95bd263fb36b6b595",
+          "learningRequirementIds": [
+            "IND-079"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "co-culture"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "sourceSha256": "4108d78736dc94abec5492e02ec57c65ad255ddc06e895bbc67ef9cf85bfd1c7",
+      "gitBlob": "5410732f1e029cab096d297bfc79ccbc58fef78a",
+      "bytes": 10235,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b8a7a8925568e1e827840267cd0f0a501a0c69ae667778985e09ec143f319f5b",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "785947b90c0d6eb7d47fcb536f18a0b136bb1903b0b27166d28d20d0d3aa8b3a",
+          "learningRequirementIds": [
+            "IND-080"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8ea9457f7667a968003fa5452f47de27abb7abb8de4e097db83a2e8c08a5028b",
+          "learningRequirementIds": [
+            "IND-081"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "415688d49cbbb8cb9d430fb4af2c49924bdb2565d941a13b8fa1107998ce8fdc",
+          "learningRequirementIds": [
+            "IND-082",
+            "IND-083",
+            "IND-084",
+            "IND-085",
+            "IND-086",
+            "IND-087",
+            "IND-088"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "899b155ffd0dee243ed73fa397e803f50f371b0408368d37d00dba7392331afc",
+          "learningRequirementIds": [
+            "IND-089"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "8d919f7dac3eb5636dd11c1f35fdee4b5c17441d50c701ac9eb71b34aaaf2b19",
+          "learningRequirementIds": [
+            "IND-090",
+            "IND-091",
+            "IND-092",
+            "IND-093",
+            "IND-094",
+            "IND-095",
+            "IND-096"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "045279f471e832b752c2a5d8fe5660a210b0040fdd7f5a641e1b7e7c819ca124",
+          "learningRequirementIds": [
+            "IND-097"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "4da5785fa76e2bd7c1dd9ff5d9525f6c2b2ed8b64de9e9e5737eb6648637878b",
+          "learningRequirementIds": [
+            "IND-098"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d0386946decd04daf9aee2aacb0dcba41cefe1a803ddf189805aba0ad7377013",
+          "learningRequirementIds": [
+            "IND-099"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c33fe568984c4fccd80cc8dbc88f84e07e3e288d6e7915b4fdea2fc91f1d280e",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c52aba9ba245ef73be367ebafe6adc2128d21f6c13cf6b63b515f00e5b07c209",
+          "learningRequirementIds": [
+            "IND-100"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "dependency-mapping-crispr"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "sourceSha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+      "gitBlob": "002daa5c03f93318b325fdc50caaf25598380d3d",
+      "bytes": 7148,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3637bd8125bbd1b61f673b1e20e5be55b3f670355029c67799c0c45fb36927fe",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6cef0e9074426ddc15c23fbb902a0d68ddc991767f971e970e42bea413d31985",
+          "learningRequirementIds": [
+            "IND-101"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4eb3b71175489e9782cc1c57eb224613720628015502fb14d2c326023f1673b8",
+          "learningRequirementIds": [
+            "IND-102"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6420135b437cdc161ec7c64c89b05c0e9db9002a73504d194d7fa564001296df",
+          "learningRequirementIds": [
+            "IND-103",
+            "IND-104",
+            "IND-105",
+            "IND-106"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a871418be673f8399902a6603eb8e2835e59a5441d7c9498c6c6be5d31adf9c1",
+          "learningRequirementIds": [
+            "IND-107"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d614fdcc45514c58f40efe9d554f7b4cf29a8c651e680aff606996d6dccccfa",
+          "learningRequirementIds": [
+            "IND-108",
+            "IND-109",
+            "IND-110"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6995137b99802a4c3ed88a2cc9d50d69ede4a1833d80a82809791f59223de520",
+          "learningRequirementIds": [
+            "IND-111"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "01d5b0f3003a4d28e4447a59a3dc825ace0a1edef141c54a5b84c89103d63523",
+          "learningRequirementIds": [
+            "IND-112",
+            "IND-113",
+            "IND-114",
+            "IND-115",
+            "IND-116",
+            "IND-117"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "a78539e7021a8d95386c62bee5d8c4e4fdc5da85e42e9f3ee5c0d2c36d205dc5",
+          "learningRequirementIds": [
+            "IND-118"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "ex-vivo-drug-screen"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "sourceSha256": "8db53934521e23542cbaa3368012c0e94bd626fe27cccfc8de603df73e04a0c5",
+      "gitBlob": "4c6c49035a65aac33f4acbe6a78218c6318c66b6",
+      "bytes": 8577,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0a3d702cb6a941e88ac1d07784be80d7f15b98bc0f740d04ab7a50ecaf40107a",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f56d42b824b3722ab23dd41b15ca668a89c436d1e9d2538d42da1897a751390c",
+          "learningRequirementIds": [
+            "IND-119"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "07deeb5f8fc4ff64004f4986cc50cd67114c6d303e0ad94c64578c111011518a",
+          "learningRequirementIds": [
+            "IND-120"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3f35f9267309236c1ce1fbd5044089e3e8cba4489bc5fb487ef7c108aaa6072e",
+          "learningRequirementIds": [
+            "IND-121",
+            "IND-122",
+            "IND-123",
+            "IND-124",
+            "IND-125",
+            "IND-126"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7f4edc4654499990dbf72c32046df55c71af20f25380886f451bcb2ba31d2264",
+          "learningRequirementIds": [
+            "IND-127"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "70b2947f11a6745745cc390be001cc352e06bd6c13d22415ccba68d7ee358ca9",
+          "learningRequirementIds": [
+            "IND-128",
+            "IND-129",
+            "IND-130"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4e1b0e85d28ac39552d2356953ffdce55730bde5499e4350096421dcf18ef9df",
+          "learningRequirementIds": [
+            "IND-131"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1f56c1df79b6acdce39b42a0f4ab84cb85a93350c46daa24eddd4495a4086a6b",
+          "learningRequirementIds": [
+            "IND-132"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "ee96403fadaf55c359069e195927825792fc6aba3dfcf345aba8a4e25ab2cc5c",
+          "learningRequirementIds": [
+            "IND-133"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62ded5d41d171c3a04d5d2bec322d6251d691098dee5c55ed8b5ef189c89b2e8",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "f6da85b20ccfa8331c1034de1dd9057fd33a9a1772767312fcc9ea4c6775ceda",
+          "learningRequirementIds": [
+            "IND-134"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "ex-vivo-tumor-fragments"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "sourceSha256": "50e5ed1ac0d137f01f051e2f2ef97d9a5fdc83a76f0d6a5f688ffb7f71a883d1",
+      "gitBlob": "c9aa40f07e9651154a5125f0ffa47ae66b2ff7a4",
+      "bytes": 7866,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "985706bdf6434af8d90cadd628c04ec634a6c52a7da542eadc53961fcd2dbe6e",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "16b7c19053012e40b98781a0a4f7fe8953926a21ea7a216b625bfe456017a09c",
+          "learningRequirementIds": [
+            "IND-154"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4075d1896bd4d5be242cc19bdbcb5ec97a592e6f735681ace7481a4df133b18e",
+          "learningRequirementIds": [
+            "IND-155"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "06a817d2ed1d50f3c077b0fe51fe1cdec703d0164716280f51bb1b2df44545c4",
+          "learningRequirementIds": [
+            "IND-156",
+            "IND-157",
+            "IND-158",
+            "IND-159",
+            "IND-160",
+            "IND-161"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "043b9a5a1f2160f1f71e5c12c583459d03bb6ff8627c689d61e072d8dee3f298",
+          "learningRequirementIds": [
+            "IND-162"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "becdcc35dfc2541975ebaa3cb5a35f1366f5c38de4302a30639326f62afaf1e9",
+          "learningRequirementIds": [
+            "IND-163",
+            "IND-164",
+            "IND-165",
+            "IND-166",
+            "IND-167",
+            "IND-168"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c27dc11ba5fe2bb1e9a96a24db761e39691e61f85af33df98c86818c72f3ff82",
+          "learningRequirementIds": [
+            "IND-169"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d87a25520821f6122554a4e275720051160c49987aaa6a70ab8b91d7f1750216",
+          "learningRequirementIds": [
+            "IND-170"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "31fa7f3b17da195cd41b994f52a450571c46f55a5f0a1bd833576f0cfc1a1ad5",
+          "learningRequirementIds": [
+            "IND-171"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "396063ed6abb0f63ed259d42c6807e653ce2cc14b0e80d599a9eb002c0d102bb",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3cdcc3f9b0e609552a398035bfe72629f5644af3ba6a8da4470ec0dd6e08d9e0",
+          "learningRequirementIds": [
+            "IND-172"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "how-a-model-earns-trust"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "sourceSha256": "39d37ae1e05c6f784ee90fc57878322e14ab9897d0172a148d31c2f61fef99c2",
+      "gitBlob": "9fac82d4ae2eabd7b89e5ae56d71d17b898c8060",
+      "bytes": 8399,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "47aae5588f53cb2b969ea7db384e0d66c09e0bc35fc21b0835f021f906bb0215",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ab97505f7fbb1ad4fe4e5c93377fb51a49eb358f366e72e24f6f8beb4fb94c60",
+          "learningRequirementIds": [
+            "IND-173"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "397a5f0c90bd63ff7a6446235df65cbee2a4c976773d1b4ec1b2e61c4e085b06",
+          "learningRequirementIds": [
+            "IND-174"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1d2d6ad3ad37522005b19031067e1c0561607e094c9b7a5fe7432be7f3dad4ec",
+          "learningRequirementIds": [
+            "IND-175",
+            "IND-176",
+            "IND-177",
+            "IND-178",
+            "IND-179"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6ca3820e7cebebecf2d3638df17d01eb890fe55634144f47d6099dddc91ce2df",
+          "learningRequirementIds": [
+            "IND-180"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1be568498d8fba055c06013d3939986510ee96e9aa7b01f47bc08127935249da",
+          "learningRequirementIds": [
+            "IND-181"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5cd5bcbf7310c1224970f14f10217975800a82dbf63f40cc58acc015f5c58ef0",
+          "learningRequirementIds": [
+            "IND-182"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "852b897014c2a5e505d2e30be6d7d287fd3cf88d8e605f0afe1264463b6769b7",
+          "learningRequirementIds": [
+            "IND-183",
+            "IND-184",
+            "IND-185",
+            "IND-186",
+            "IND-187",
+            "IND-188",
+            "IND-189",
+            "IND-190",
+            "IND-191"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c78e781fc08db73ff84db906ffc6dcc8a2c4af88515c25ce123397f6c648c615",
+          "learningRequirementIds": [
+            "IND-192"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bdfe7889c36527e79dfab8cae3ac6f9c107293a72cbed2506a9de6b3bd6eb066",
+          "learningRequirementIds": [
+            "IND-193"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "af43b735948c0114eb28dc56bb10175a3f29be883ca14fd10f7e914e2f6abdfe",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "161ccad789ddb3fa0bea565e3d43fb816dbde4f377beee408c0fa7f7d110f53c",
+          "learningRequirementIds": [
+            "IND-194"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "organoid"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "sourceSha256": "0f0449fd5d5208a81567e89928d5fd2b6bb5d97afec192888a13aceed675b445",
+      "gitBlob": "5bd5625831dd487e58e6c21baf70b88f8abf92de",
+      "bytes": 9479,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a687e3cbbe5a4d53edd3c3aeec4049ab292923132b9e4b1aab3a2a57a277a95c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "082b5d86e2445d11d83c6597450eaa4bd3c28b64e0a24223a845b6777d3b571a",
+          "learningRequirementIds": [
+            "IND-195"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "81a9cf53238cda1e7069d72e2bfcadad7b77ccf8d1c1563c1578d53d10812f1e",
+          "learningRequirementIds": [
+            "IND-196"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e08652635453f339e9732e6650c41431e44b69889775bf1f2d797496aa109f98",
+          "learningRequirementIds": [
+            "IND-197",
+            "IND-198",
+            "IND-199",
+            "IND-200",
+            "IND-201"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6104db3cf7468edc82e190b33fc067a80bd3274acf0380641c0b117fd6c11cf1",
+          "learningRequirementIds": [
+            "IND-202"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a7ae187cf67bf6776f2251fe4ec87505e2d7e69b54c21390d80254dc2a61e79c",
+          "learningRequirementIds": [
+            "IND-203",
+            "IND-204"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "19db283e1602950ed467c5167fb29777b7f277f0635a69bbb1e0fc77045594ab",
+          "learningRequirementIds": [
+            "IND-205",
+            "IND-206",
+            "IND-207",
+            "IND-208",
+            "IND-209",
+            "IND-210",
+            "IND-211",
+            "IND-212"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c78b51dd626520721c796e0bb5646be003bf3b356f4cabb88ae9adb711e68478",
+          "learningRequirementIds": [
+            "IND-213"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "efdd890fd9f932242ff00a6badf43ea014e36dd1c8087655a7a9eea5d5738f5e",
+          "learningRequirementIds": [
+            "IND-214"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "9c72eb2663fa523bfeace29a906cac797d26ad674dac85f6c3919869a2c8d675",
+          "learningRequirementIds": [
+            "IND-215"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "84748e3b7334db810b20fa0635f864fa1847aa9f3ccc52fe19242dcc9afb60c6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "f82f1378119b89964b92912bfa2658f4909292decf987d25877e2b3d4ef02730",
+          "learningRequirementIds": [
+            "IND-216"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "patient-derived-xenograft"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "sourceSha256": "7f4b539fc8599bc475d4497c436f34b10ab48a233db75d7af9fea3ac9edce6a9",
+      "gitBlob": "fcb7a92e497ed5ebeeeef46fedb3a811be3c9fd6",
+      "bytes": 10300,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bba4c0f24de50d0b350349fe33e81a91c23fc3f5a49fc6aaac605b08a4a4e92c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0f13c781271c4174fa8be8b362f0dec2b0d0c91499e8d7fe695ae7c6ce3bed13",
+          "learningRequirementIds": [
+            "IND-217"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c503735a72f38a494440b2c64faddae53b4079cc00389499624fa63fdf24ebee",
+          "learningRequirementIds": [
+            "IND-218"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f2487f492e72368fd5beba8cc6323907b00d681c97f04b726216b7cd8ee1468c",
+          "learningRequirementIds": [
+            "IND-219"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e8613ec1b1379fc4a57f9980c29b5f309815365018fba0e2e422a189bc3647e2",
+          "learningRequirementIds": [
+            "IND-220",
+            "IND-221"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "823235b5c775b54b99de0982188a058bf3af1fc8bde41e195b509753e8bc1f64",
+          "learningRequirementIds": [
+            "IND-223",
+            "IND-224",
+            "IND-225",
+            "IND-226",
+            "IND-227",
+            "IND-240"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "145f7d80eb42385b57295e2adf5d85d21f6d453d285740d9f6a786744e23c588",
+          "learningRequirementIds": [
+            "IND-234",
+            "IND-235",
+            "IND-236",
+            "IND-237"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "e091665998e49197376a621b58ef082515c8810e53dbec06ce50a05bfabece71",
+          "learningRequirementIds": [
+            "IND-230"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "32f555aebc196785340c73c0703242032daac71e7d7edeaf82632de179eff052",
+          "learningRequirementIds": [
+            "IND-231"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6b27d9dd731df6a2432f62b4c7f478c3a4002c670f27fccd652924ae913b9897",
+          "learningRequirementIds": [
+            "IND-232",
+            "IND-238"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "a33e1851362baafeb2d2fafc5440019c2d620511c0acb5c9d33a952f4fd42bcb",
+          "learningRequirementIds": [
+            "IND-239"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "de158dbbc1f0e6c5f2a0664df0767735ea1aa87368801b4026710e7bf4d23fa6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "5dba83f113dae5f41b1b281af0f38968ecb268ab2d4d91ab4b1480840ae02efd",
+          "learningRequirementIds": [
+            "IND-233"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "sourceSha256": "8dae8d6532fca9e536599dc0f477c3cc351ad58b51f5fa158e20baabc3a8cc40",
+      "gitBlob": "54f7c52fd66a70da9c4a2547c072b84ba450ca93",
+      "bytes": 8704,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d2d4eb23eef74329e74ab5ef3233a5ebf047d46bda25dc0a61ad74b24488a2f6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "35eb8e43d0e1cbc0cc2312596b0b96927891160993d736b7b9c7c8b1c0a910f4",
+          "learningRequirementIds": [
+            "IND-241"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7b641a57e74ea0414b94180c28e3766749c0584e6f269679d322646b51aa7e2d",
+          "learningRequirementIds": [
+            "IND-242"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "25107e7863576e89c1278d89e398406a7091ffa2202986e2e2d20c81b3849091",
+          "learningRequirementIds": [
+            "IND-243",
+            "IND-244",
+            "IND-245",
+            "IND-246"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cad95f62a15b074d7908f338c4274b131a647df5a01efa425c3b58fcf54df9f7",
+          "learningRequirementIds": [
+            "IND-247"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9b2811c18dad9e64f0e07d15ed548d211f7b0e2e1ab0d4946bede7a24e2577d0",
+          "learningRequirementIds": [
+            "IND-248",
+            "IND-249",
+            "IND-250",
+            "IND-251",
+            "IND-252",
+            "IND-253",
+            "IND-254"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aa79b60fb548c2f756d246a4aeb50947d6a8f4d2b037187869aaa80f95815c14",
+          "learningRequirementIds": [
+            "IND-255"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "637a49ba52d00fc934c5c5ccc5663a09c27e434b0928b73389b2cd8fd5c6bda9",
+          "learningRequirementIds": [
+            "IND-256"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d0aeab7031fd627d3f8b8fd9cfad8d2cc85ee9ef0aaaf4ec749b34ecca6709e6",
+          "learningRequirementIds": [
+            "IND-257"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "da65eff9cb686110b82f965518bcda27b70f8079e2e80b67e376c0e701df9fa0",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "6db4a94c9df1f1dcbbdb1122ff121a022da9e4082369f5c4f70f7af187c68464",
+          "learningRequirementIds": [
+            "IND-258"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "single-cell-mass-assays"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "sourceSha256": "1d8eedce21e4bb5c1aa0ad557c14443229780264397cbdc3843e01c53f724863",
+      "gitBlob": "ad337c307644fce1fec329530bac4db7c404f7bc",
+      "bytes": 8718,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2803d3f3d6d8b4c0bc99c89bd75d3a7d0f329ad8948d269aee9ff8f78b11d4df",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "44d14d52ec4197bc08c0a4f2d60b15640f178485ac00b261b8f1d40b59ce1ef4",
+          "learningRequirementIds": [
+            "IND-259"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9617c29fb04f2dc076b13e94d9e8beb2e92212c61fcadc271fc89cdc6945ac05",
+          "learningRequirementIds": [
+            "IND-260"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f2d35d5eaddbe5aa527eb3b24f5e1062fa94a64893f03b2c201db89ba147248c",
+          "learningRequirementIds": [
+            "IND-261",
+            "IND-262",
+            "IND-263",
+            "IND-264",
+            "IND-265"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "56addb69b505c444ac37955d30e1243eb1417bd5154ebfc5794fc703075a6d82",
+          "learningRequirementIds": [
+            "IND-266"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e112f07bfba93a0873e190bec49483209ed546d0e4138b472efb01bbac11cafa",
+          "learningRequirementIds": [
+            "IND-267",
+            "IND-268",
+            "IND-269",
+            "IND-270",
+            "IND-271",
+            "IND-272",
+            "IND-273"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6e92516cf4b9912ab2569e39f563b72e099981708512368088a5ec3e6bf4c1a6",
+          "learningRequirementIds": [
+            "IND-274"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "382696ff040626ce0ef58e482ef9a3c5c50540e80e1c39752f5301b3b9cf6e66",
+          "learningRequirementIds": [
+            "IND-275"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "851b1d30a7abe37361eeaf853619c8e20bd34a43499f82b9c0d6bd7549089d11",
+          "learningRequirementIds": [
+            "IND-276"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "68876aa413e468a43b071dffacae08171a90a36a0a085a07c079054b89015112",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dc91ba6d0d1d2666d8c289f05f49a6119d6e2da07aa23ff92ef531e3214ade94",
+          "learningRequirementIds": [
+            "IND-277"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "tumor-on-chip"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "sourceSha256": "22902ad403670e8309436bab80039a530821426c8497c9f958d0307ac4d5c732",
+      "gitBlob": "26eee30ce0252f4c44d274a80e124d2d9d00c989",
+      "bytes": 10120,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1f40313ab8147cd555c56ac0d63306bc448afc43c6377d8b8cfe1a24c10fe477",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b0533103c57bfecf2e0ab86022e07bee4e5d1c4364b9b91c5950ebddaec366bb",
+          "learningRequirementIds": [
+            "IND-001"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6332b0474c6714bc1d62e29f4297402e64865327dd3a7833ade2397bbe138da1",
+          "learningRequirementIds": [
+            "IND-002"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a8bc853ff6f5ab9e252b1d851ad6f91d4529404378e0c8061a71f29e104f3c2f",
+          "learningRequirementIds": [
+            "IND-003",
+            "IND-004",
+            "IND-005",
+            "IND-006",
+            "IND-007",
+            "IND-008"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f96df8f3092dcff87b7a6d14d7ac1fbab45f4b8efcbd20afc50bbb5317895cb",
+          "learningRequirementIds": [
+            "IND-009",
+            "IND-010"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "0e010505dfae33bf17d76344e8a93c390324a7766bb4ed5f2211a8ad941ffb5a",
+          "learningRequirementIds": [
+            "IND-011",
+            "IND-012",
+            "IND-013",
+            "IND-014",
+            "IND-015",
+            "IND-016",
+            "IND-017",
+            "IND-018"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "034a479eb1a27048cc0016fdbf2f297f3f7d2e56daca809f98f28656aaccbd50",
+          "learningRequirementIds": [
+            "IND-019"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a20ed6db79d02ba1a65b887890742f5d84c728cb3bd40efd8a2ae9d9deeba84f",
+          "learningRequirementIds": [
+            "IND-020"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4caaa1191c95365cecc07580263468c5cc9dbb8a8bf96513a4d130be2adcc37d",
+          "learningRequirementIds": [
+            "IND-021"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "8e812cfc167101c0063dd223a0bf3d9b30c24f1261e35782a9b54416bc8f5ee5",
+          "learningRequirementIds": [
+            "IND-022"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "bh3-profiling"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/bioprinting.md",
+      "sourceSha256": "0def09b05295853eeacff57652a18161c011a3fec4411ed1a74c98e490fb4ce3",
+      "gitBlob": "fd7d73832f8a23af9de5ec34b95327230443cf85",
+      "bytes": 8862,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ab468e94aedcf1d33780265504fedc22b71a56c99e51076dc6bba41e4f09a49c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2b6b2c4f2b918f87a0a8ed1eb35ddcf1a2f3988aaf2001161f8cef5890cd0572",
+          "learningRequirementIds": [
+            "IND-023"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5c7a43761021a524f557fe2a9556d1ef587914db0e51cec5a9ca3562a2e0696c",
+          "learningRequirementIds": [
+            "IND-024"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a3a4716abcdbda4bcffde1cf0929bd2ba584c2bbb2aeea0d6dd10a9781f30813",
+          "learningRequirementIds": [
+            "IND-025",
+            "IND-026",
+            "IND-027",
+            "IND-028"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7dc5c3c0317b49f698c4e4c7f26c10699ada4b48d36567e8465aa6c3053226b2",
+          "learningRequirementIds": [
+            "IND-031"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "5e6dac52e5d93ba643feb2ea9b5fb964a230e0a9112584c1eb5dc06a251f0592",
+          "learningRequirementIds": [
+            "IND-032",
+            "IND-033",
+            "IND-034",
+            "IND-035",
+            "IND-036",
+            "IND-037",
+            "IND-038"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "43b942605dfc26e3bc6bad93f9cbbf8bd3c5ec448368ce4a13da613fe626a63b",
+          "learningRequirementIds": [
+            "IND-039"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58c5a863fe939a0c97ee9bfc58ed1367c7370de95482a1308b219f771a974fdf",
+          "learningRequirementIds": [
+            "IND-040"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "dac078f2f7eb52202598865e18a8fa2c28dadc7bbdc094cbf77a80083f5b2adc",
+          "learningRequirementIds": [
+            "IND-041"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "fc6336cc583611220d85bb0fd66bd502ed8a90279a2bef7a57698df0d0d9f631",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "528fe590452c2fe1976330bdd486b598649c83943cc2a0ede0f0c0ed095e5440",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "bioprinting"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/cell-lines.md",
+      "sourceSha256": "b783f9788931ffbc4e8b7769b8781ffa03d158e6a6a2f637a1e07e2e8316a479",
+      "gitBlob": "e70804a0fb1ab546ebefe234842d1a7c9d165114",
+      "bytes": 8883,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d66da299585249c7a81976858424b278971750e70087711efc08e5dfef29995a",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "684d8ad71a53a027a1067a2da3d1d1a2e728077a4a70207725bb4e7ace093b0c",
+          "learningRequirementIds": [
+            "IND-043"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a44b690d7ff7fe076c76fa7e348a3d2eab5935688e67f57184a218d1ab0f427d",
+          "learningRequirementIds": [
+            "IND-044"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6f0887fdc8a430842d50d4c71cf737477b8f6a899cd0c7455a4a2d226f968cc8",
+          "learningRequirementIds": [
+            "IND-045",
+            "IND-046",
+            "IND-047"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3a6e4b4d653cbdbfe620a8c06e333401e385ad73f9593d241561babfb068683d",
+          "learningRequirementIds": [
+            "IND-049"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "db65ba25962cf0532843fcdb48e28beae8ba85a9a0ade67edb97fe7ca97c6c18",
+          "learningRequirementIds": [
+            "IND-050",
+            "IND-051",
+            "IND-052",
+            "IND-053",
+            "IND-054",
+            "IND-055",
+            "IND-056"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ccb5efbf55d356923652782a8c65de278550b4a58fbf528848793bfa88a8eb9b",
+          "learningRequirementIds": [
+            "IND-057"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e3bfb5f0c357a5a96b745158a8dc9a4952efe0104be54149bc718782fed0cde8",
+          "learningRequirementIds": [
+            "IND-058"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "84e30a63d3c23dfd870054366bf9979285376947012d3cf10135d7c676d4d75f",
+          "learningRequirementIds": [
+            "IND-059"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8c8fc61e10ff4dc38c46ae222eee5bdadbd9b7cb126b292890eeb023957f3355",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a1aced3e19d34cce84597c44936de1163d588dbd346e44f38f4d95498c3f1732",
+          "learningRequirementIds": [
+            "IND-060"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "cell-lines"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/co-culture.md",
+      "sourceSha256": "c06105ae77d1f22e11bd3a397a08f9c77159b6fb302df5e7862f9b6f8f4d4457",
+      "gitBlob": "0a890721b285d399a1c7fc1b0635931a331610d0",
+      "bytes": 9841,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "81e2def3454aa9dbb6815a388a048b70f1ea4ffbacb9c569b9299066a28fd157",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b16a852903b4f50dfaeb13194d28d323dd4441b45a346a2b43ed5c8af286844a",
+          "learningRequirementIds": [
+            "IND-061"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0203335a51bb16d4ffa1f2f6f67b2c3eaa732ff6425c839a1803dd58ad4b3caf",
+          "learningRequirementIds": [
+            "IND-062"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6356c6ebb26bc46ba405a6aba39753ea4488475145f4c9ec4840eb83eac4d34d",
+          "learningRequirementIds": [
+            "IND-063",
+            "IND-064",
+            "IND-065",
+            "IND-066",
+            "IND-067"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2b5d75ebd3519a081339805f124f45f7ae7346821ebb74355ce6997a16aa18d6",
+          "learningRequirementIds": [
+            "IND-068"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9466ff8e28169996e84c36d823067d55b39f7edb02004e6b522b058733804e07",
+          "learningRequirementIds": [
+            "IND-069",
+            "IND-070",
+            "IND-071",
+            "IND-072",
+            "IND-073",
+            "IND-074",
+            "IND-075"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "79480269ab51a1f61c548fd5e76693fabe48d2f7b0d0b5d919c3006c0bfdd35d",
+          "learningRequirementIds": [
+            "IND-076"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "6f50502c5d735b9f9d140f822b53dd753513b8b36f08dae53a28411508e6800a",
+          "learningRequirementIds": [
+            "IND-077"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "62f48a7fac1b528c91aaf2dfc0341e158e9d3124e5ea53886e490d5d4fb8211e",
+          "learningRequirementIds": [
+            "IND-078"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "65956b6691a9b36c49f910948f4a2640499d88188675068434cfd8beaca72be8",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "0d4a7519ff6d067a7e90f58c9178cff614a3fe44ab072cc95bd263fb36b6b595",
+          "learningRequirementIds": [
+            "IND-079"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "co-culture"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "sourceSha256": "46acfe20f5a77cd199d6fa7ed6dc873229485729c2d20543a60649ab28b0bdc6",
+      "gitBlob": "83f898ca468a780c97786d5ffabd32b89295c2b1",
+      "bytes": 10273,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b8a7a8925568e1e827840267cd0f0a501a0c69ae667778985e09ec143f319f5b",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "785947b90c0d6eb7d47fcb536f18a0b136bb1903b0b27166d28d20d0d3aa8b3a",
+          "learningRequirementIds": [
+            "IND-080"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8ea9457f7667a968003fa5452f47de27abb7abb8de4e097db83a2e8c08a5028b",
+          "learningRequirementIds": [
+            "IND-081"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "415688d49cbbb8cb9d430fb4af2c49924bdb2565d941a13b8fa1107998ce8fdc",
+          "learningRequirementIds": [
+            "IND-082",
+            "IND-083",
+            "IND-084",
+            "IND-085",
+            "IND-086",
+            "IND-087",
+            "IND-088"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "899b155ffd0dee243ed73fa397e803f50f371b0408368d37d00dba7392331afc",
+          "learningRequirementIds": [
+            "IND-089"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "8d919f7dac3eb5636dd11c1f35fdee4b5c17441d50c701ac9eb71b34aaaf2b19",
+          "learningRequirementIds": [
+            "IND-090",
+            "IND-091",
+            "IND-092",
+            "IND-093",
+            "IND-094",
+            "IND-095",
+            "IND-096"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "045279f471e832b752c2a5d8fe5660a210b0040fdd7f5a641e1b7e7c819ca124",
+          "learningRequirementIds": [
+            "IND-097"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "4da5785fa76e2bd7c1dd9ff5d9525f6c2b2ed8b64de9e9e5737eb6648637878b",
+          "learningRequirementIds": [
+            "IND-098"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d0386946decd04daf9aee2aacb0dcba41cefe1a803ddf189805aba0ad7377013",
+          "learningRequirementIds": [
+            "IND-099"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c33fe568984c4fccd80cc8dbc88f84e07e3e288d6e7915b4fdea2fc91f1d280e",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c52aba9ba245ef73be367ebafe6adc2128d21f6c13cf6b63b515f00e5b07c209",
+          "learningRequirementIds": [
+            "IND-100"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "dependency-mapping-crispr"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "sourceSha256": "65e1a43928c8bd394d04669ecf2a3ed66ed0a81f6024bb863a36ffb7439b670a",
+      "gitBlob": "478cacf71d7fc93c0e744db4617517a1988f1160",
+      "bytes": 7356,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3637bd8125bbd1b61f673b1e20e5be55b3f670355029c67799c0c45fb36927fe",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6cef0e9074426ddc15c23fbb902a0d68ddc991767f971e970e42bea413d31985",
+          "learningRequirementIds": [
+            "IND-101"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4eb3b71175489e9782cc1c57eb224613720628015502fb14d2c326023f1673b8",
+          "learningRequirementIds": [
+            "IND-102"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6420135b437cdc161ec7c64c89b05c0e9db9002a73504d194d7fa564001296df",
+          "learningRequirementIds": [
+            "IND-103",
+            "IND-104",
+            "IND-105",
+            "IND-106"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a871418be673f8399902a6603eb8e2835e59a5441d7c9498c6c6be5d31adf9c1",
+          "learningRequirementIds": [
+            "IND-107"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d614fdcc45514c58f40efe9d554f7b4cf29a8c651e680aff606996d6dccccfa",
+          "learningRequirementIds": [
+            "IND-108",
+            "IND-109",
+            "IND-110"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6995137b99802a4c3ed88a2cc9d50d69ede4a1833d80a82809791f59223de520",
+          "learningRequirementIds": [
+            "IND-111"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "01d5b0f3003a4d28e4447a59a3dc825ace0a1edef141c54a5b84c89103d63523",
+          "learningRequirementIds": [
+            "IND-112",
+            "IND-113",
+            "IND-114",
+            "IND-115",
+            "IND-116",
+            "IND-117"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "a78539e7021a8d95386c62bee5d8c4e4fdc5da85e42e9f3ee5c0d2c36d205dc5",
+          "learningRequirementIds": [
+            "IND-118"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "ex-vivo-drug-screen"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "sourceSha256": "cc5db0958184bcca86a7501e5f9359a6e1af274c15eaa0bb7d4845cea3efe859",
+      "gitBlob": "cbe138d8dc0a41d0103a61d1513bba92e56a3f3f",
+      "bytes": 8961,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0a3d702cb6a941e88ac1d07784be80d7f15b98bc0f740d04ab7a50ecaf40107a",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f56d42b824b3722ab23dd41b15ca668a89c436d1e9d2538d42da1897a751390c",
+          "learningRequirementIds": [
+            "IND-119"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "07deeb5f8fc4ff64004f4986cc50cd67114c6d303e0ad94c64578c111011518a",
+          "learningRequirementIds": [
+            "IND-120"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3f35f9267309236c1ce1fbd5044089e3e8cba4489bc5fb487ef7c108aaa6072e",
+          "learningRequirementIds": [
+            "IND-121",
+            "IND-122",
+            "IND-123",
+            "IND-124",
+            "IND-125",
+            "IND-126"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7f4edc4654499990dbf72c32046df55c71af20f25380886f451bcb2ba31d2264",
+          "learningRequirementIds": [
+            "IND-127"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "70b2947f11a6745745cc390be001cc352e06bd6c13d22415ccba68d7ee358ca9",
+          "learningRequirementIds": [
+            "IND-128",
+            "IND-129",
+            "IND-130"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4e1b0e85d28ac39552d2356953ffdce55730bde5499e4350096421dcf18ef9df",
+          "learningRequirementIds": [
+            "IND-131"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1f56c1df79b6acdce39b42a0f4ab84cb85a93350c46daa24eddd4495a4086a6b",
+          "learningRequirementIds": [
+            "IND-132"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "ee96403fadaf55c359069e195927825792fc6aba3dfcf345aba8a4e25ab2cc5c",
+          "learningRequirementIds": [
+            "IND-133"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62ded5d41d171c3a04d5d2bec322d6251d691098dee5c55ed8b5ef189c89b2e8",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "f6da85b20ccfa8331c1034de1dd9057fd33a9a1772767312fcc9ea4c6775ceda",
+          "learningRequirementIds": [
+            "IND-134"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "ex-vivo-tumor-fragments"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/experimental-settings.md",
+      "sourceSha256": "008bff8211a7685c79dafab3808cbde95b55e11b2b38d20fcf0c92572cd2652b",
+      "gitBlob": "169b634fe300b8a7213e1b719d853df714d2e4f9",
+      "bytes": 10560,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7523ba9debe980f14bd1ad4ae4f32f1b21d1870f1daf5a995f2a3f11bd9c1dbd",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "27c935fad128375bd785514b5056e73278a21723e398965674cd2278a449e5cf",
+          "learningRequirementIds": [
+            "IND-135"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fb630ff240b67badb952ce1eed9db1d682335ef9347202bb226a898da86786a7",
+          "learningRequirementIds": [
+            "IND-136"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c08aeaf6ddf95ca3add93abc1afd7d5bdfa16fae661e8b1b7f60a9681539b9aa",
+          "learningRequirementIds": [
+            "IND-137",
+            "IND-138",
+            "IND-139",
+            "IND-140",
+            "IND-141",
+            "IND-142",
+            "IND-143",
+            "IND-144",
+            "IND-145",
+            "IND-146",
+            "IND-147"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cb2389bdc513dfb6a800227c57fca2d4ab5a0f7585a98f320500923473b87484",
+          "learningRequirementIds": [
+            "IND-148",
+            "IND-149"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6bdabb62eb2519e9da3752e1c24f1f640c27dc1dc292154da9eff693e95acbfa",
+          "learningRequirementIds": [
+            "IND-150"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "ad5f67a3fa5f92b069e52e2f52af4db663b7e0dc4e20f2cf47526e6f0e9d2f02",
+          "learningRequirementIds": [
+            "IND-151"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3d807b3f441ba8aadcc5d34c763c7c3ad8a1e2e26b4827924b61c50df071837d",
+          "learningRequirementIds": [
+            "IND-152"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "e16dfc220fdedee4386263d2cd70645e08b25b20a03158fb2f5dd5a1e85aa70b",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "b0b8349e04f8c2f96e2def4f73cbd6214109ce2b8e67fdeb6e81ad3198baff82",
+          "learningRequirementIds": [
+            "IND-153"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "experimental-settings"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "sourceSha256": "158d419a0c0e38171f51f984cbeff2a98897937a50f4ca3a9da3ee308ec31b67",
+      "gitBlob": "3449865b9acb740abc4f2c370cd6aa1f14207f30",
+      "bytes": 8139,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "985706bdf6434af8d90cadd628c04ec634a6c52a7da542eadc53961fcd2dbe6e",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "16b7c19053012e40b98781a0a4f7fe8953926a21ea7a216b625bfe456017a09c",
+          "learningRequirementIds": [
+            "IND-154"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4075d1896bd4d5be242cc19bdbcb5ec97a592e6f735681ace7481a4df133b18e",
+          "learningRequirementIds": [
+            "IND-155"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "06a817d2ed1d50f3c077b0fe51fe1cdec703d0164716280f51bb1b2df44545c4",
+          "learningRequirementIds": [
+            "IND-156",
+            "IND-157",
+            "IND-158",
+            "IND-159",
+            "IND-160",
+            "IND-161"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "043b9a5a1f2160f1f71e5c12c583459d03bb6ff8627c689d61e072d8dee3f298",
+          "learningRequirementIds": [
+            "IND-162"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "becdcc35dfc2541975ebaa3cb5a35f1366f5c38de4302a30639326f62afaf1e9",
+          "learningRequirementIds": [
+            "IND-163",
+            "IND-164",
+            "IND-165",
+            "IND-166",
+            "IND-167",
+            "IND-168"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c27dc11ba5fe2bb1e9a96a24db761e39691e61f85af33df98c86818c72f3ff82",
+          "learningRequirementIds": [
+            "IND-169"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d87a25520821f6122554a4e275720051160c49987aaa6a70ab8b91d7f1750216",
+          "learningRequirementIds": [
+            "IND-170"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "31fa7f3b17da195cd41b994f52a450571c46f55a5f0a1bd833576f0cfc1a1ad5",
+          "learningRequirementIds": [
+            "IND-171"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "396063ed6abb0f63ed259d42c6807e653ce2cc14b0e80d599a9eb002c0d102bb",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3cdcc3f9b0e609552a398035bfe72629f5644af3ba6a8da4470ec0dd6e08d9e0",
+          "learningRequirementIds": [
+            "IND-172"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "how-a-model-earns-trust"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/organoid.md",
+      "sourceSha256": "ce1b699409f167819f582cf8dbb8ad01bbea51cc3b3b0e57bbe4c862b4a328e7",
+      "gitBlob": "243f56d723b20533a9eac3eccbf965eef6670d52",
+      "bytes": 8783,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "47aae5588f53cb2b969ea7db384e0d66c09e0bc35fc21b0835f021f906bb0215",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ab97505f7fbb1ad4fe4e5c93377fb51a49eb358f366e72e24f6f8beb4fb94c60",
+          "learningRequirementIds": [
+            "IND-173"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "397a5f0c90bd63ff7a6446235df65cbee2a4c976773d1b4ec1b2e61c4e085b06",
+          "learningRequirementIds": [
+            "IND-174"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1d2d6ad3ad37522005b19031067e1c0561607e094c9b7a5fe7432be7f3dad4ec",
+          "learningRequirementIds": [
+            "IND-175",
+            "IND-176",
+            "IND-177",
+            "IND-178",
+            "IND-179"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6ca3820e7cebebecf2d3638df17d01eb890fe55634144f47d6099dddc91ce2df",
+          "learningRequirementIds": [
+            "IND-180"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1be568498d8fba055c06013d3939986510ee96e9aa7b01f47bc08127935249da",
+          "learningRequirementIds": [
+            "IND-181"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5cd5bcbf7310c1224970f14f10217975800a82dbf63f40cc58acc015f5c58ef0",
+          "learningRequirementIds": [
+            "IND-182"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "852b897014c2a5e505d2e30be6d7d287fd3cf88d8e605f0afe1264463b6769b7",
+          "learningRequirementIds": [
+            "IND-183",
+            "IND-184",
+            "IND-185",
+            "IND-186",
+            "IND-187",
+            "IND-188",
+            "IND-189",
+            "IND-190",
+            "IND-191"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c78e781fc08db73ff84db906ffc6dcc8a2c4af88515c25ce123397f6c648c615",
+          "learningRequirementIds": [
+            "IND-192"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bdfe7889c36527e79dfab8cae3ac6f9c107293a72cbed2506a9de6b3bd6eb066",
+          "learningRequirementIds": [
+            "IND-193"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "af43b735948c0114eb28dc56bb10175a3f29be883ca14fd10f7e914e2f6abdfe",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "161ccad789ddb3fa0bea565e3d43fb816dbde4f377beee408c0fa7f7d110f53c",
+          "learningRequirementIds": [
+            "IND-194"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "organoid"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "sourceSha256": "fae4c5f08b3712bcc7983702ff5f70f5ab41f30d0a2cc1f8ce104820fdbb651a",
+      "gitBlob": "b5ff99c0f7c9fd6025b53525e261a38e9bed79d1",
+      "bytes": 9893,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a687e3cbbe5a4d53edd3c3aeec4049ab292923132b9e4b1aab3a2a57a277a95c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "082b5d86e2445d11d83c6597450eaa4bd3c28b64e0a24223a845b6777d3b571a",
+          "learningRequirementIds": [
+            "IND-195"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "81a9cf53238cda1e7069d72e2bfcadad7b77ccf8d1c1563c1578d53d10812f1e",
+          "learningRequirementIds": [
+            "IND-196"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f01c36e784b77da09e71d1c63c0cfd020875a592d5f62ef104cb7c9758b47784",
+          "learningRequirementIds": [
+            "IND-197",
+            "IND-198",
+            "IND-199",
+            "IND-200",
+            "IND-201"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6104db3cf7468edc82e190b33fc067a80bd3274acf0380641c0b117fd6c11cf1",
+          "learningRequirementIds": [
+            "IND-202"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a7ae187cf67bf6776f2251fe4ec87505e2d7e69b54c21390d80254dc2a61e79c",
+          "learningRequirementIds": [
+            "IND-203",
+            "IND-204"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "19db283e1602950ed467c5167fb29777b7f277f0635a69bbb1e0fc77045594ab",
+          "learningRequirementIds": [
+            "IND-205",
+            "IND-206",
+            "IND-207",
+            "IND-208",
+            "IND-209",
+            "IND-210",
+            "IND-211",
+            "IND-212"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c78b51dd626520721c796e0bb5646be003bf3b356f4cabb88ae9adb711e68478",
+          "learningRequirementIds": [
+            "IND-213"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "efdd890fd9f932242ff00a6badf43ea014e36dd1c8087655a7a9eea5d5738f5e",
+          "learningRequirementIds": [
+            "IND-214"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "9c72eb2663fa523bfeace29a906cac797d26ad674dac85f6c3919869a2c8d675",
+          "learningRequirementIds": [
+            "IND-215"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "84748e3b7334db810b20fa0635f864fa1847aa9f3ccc52fe19242dcc9afb60c6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "f82f1378119b89964b92912bfa2658f4909292decf987d25877e2b3d4ef02730",
+          "learningRequirementIds": [
+            "IND-216"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "patient-derived-xenograft"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "sourceSha256": "1d256de8b9799b6cf6227520e3591c0c28600686f65abd0ee4cf0e8309027d09",
+      "gitBlob": "d844e5ef7a344ecd3d1b0952a5e5fdc70ff6c2c7",
+      "bytes": 9429,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bba4c0f24de50d0b350349fe33e81a91c23fc3f5a49fc6aaac605b08a4a4e92c",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0f13c781271c4174fa8be8b362f0dec2b0d0c91499e8d7fe695ae7c6ce3bed13",
+          "learningRequirementIds": [
+            "IND-217"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "871bfdc5e43ba62117542e4168786ed0835221b3a0c7559207652289e388a3eb",
+          "learningRequirementIds": [
+            "IND-218"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "1832e189759105581506e86fdff3278e0241dc98067611af833331a54d54a2e9",
+          "learningRequirementIds": [
+            "IND-219"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "223bd2803e1d7c6aaa71c969675037dd844f4967480353bb8727da3ac03c3574",
+          "learningRequirementIds": [
+            "IND-220",
+            "IND-221"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "cb2fcce41a44071bcfd8756bddfdedf14f2b3ece92c86423313105b27a27c95f",
+          "learningRequirementIds": [
+            "IND-222",
+            "IND-223",
+            "IND-224",
+            "IND-225",
+            "IND-226",
+            "IND-227"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "2823c76b5892c29922ec00617bc5eca284ef39595ed84e983f87c903de41ddec",
+          "learningRequirementIds": [
+            "IND-228",
+            "IND-229"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "b78abbcc1e2321f138512865b603185050b54498e65c6ddb4c85ebf6bca245f7",
+          "learningRequirementIds": [
+            "IND-230"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "df17e84fc8de63e6ee01429a4d2307197100e632a661fe7990610bfe92741241",
+          "learningRequirementIds": [
+            "IND-231"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "077ee4eebdbac17f81c5c2a3bdbf67d4152b4e21ac558a7cf3229ded51e18f99",
+          "learningRequirementIds": [
+            "IND-232"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "de158dbbc1f0e6c5f2a0664df0767735ea1aa87368801b4026710e7bf4d23fa6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "6d0317db69af451da01879f6aa86279c783e77b8b435c4d8476fd2c1d6140998",
+          "learningRequirementIds": [
+            "IND-233"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/single-cell-mass-assays.md",
+      "sourceSha256": "45fc00f05d4bb9a1ada4e8488861f34f2ca1a2eb2763959160d0cf5e5c30b611",
+      "gitBlob": "52a75b831058f2a5b5503c43c10ab2dc5f00db86",
+      "bytes": 8730,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d2d4eb23eef74329e74ab5ef3233a5ebf047d46bda25dc0a61ad74b24488a2f6",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "35eb8e43d0e1cbc0cc2312596b0b96927891160993d736b7b9c7c8b1c0a910f4",
+          "learningRequirementIds": [
+            "IND-241"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7b641a57e74ea0414b94180c28e3766749c0584e6f269679d322646b51aa7e2d",
+          "learningRequirementIds": [
+            "IND-242"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "25107e7863576e89c1278d89e398406a7091ffa2202986e2e2d20c81b3849091",
+          "learningRequirementIds": [
+            "IND-243",
+            "IND-244",
+            "IND-245",
+            "IND-246"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cad95f62a15b074d7908f338c4274b131a647df5a01efa425c3b58fcf54df9f7",
+          "learningRequirementIds": [
+            "IND-247"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9b2811c18dad9e64f0e07d15ed548d211f7b0e2e1ab0d4946bede7a24e2577d0",
+          "learningRequirementIds": [
+            "IND-248",
+            "IND-249",
+            "IND-250",
+            "IND-251",
+            "IND-252",
+            "IND-253",
+            "IND-254"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aa79b60fb548c2f756d246a4aeb50947d6a8f4d2b037187869aaa80f95815c14",
+          "learningRequirementIds": [
+            "IND-255"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "637a49ba52d00fc934c5c5ccc5663a09c27e434b0928b73389b2cd8fd5c6bda9",
+          "learningRequirementIds": [
+            "IND-256"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d0aeab7031fd627d3f8b8fd9cfad8d2cc85ee9ef0aaaf4ec749b34ecca6709e6",
+          "learningRequirementIds": [
+            "IND-257"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "da65eff9cb686110b82f965518bcda27b70f8079e2e80b67e376c0e701df9fa0",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "6db4a94c9df1f1dcbbdb1122ff121a022da9e4082369f5c4f70f7af187c68464",
+          "learningRequirementIds": [
+            "IND-258"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "single-cell-mass-assays"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "sourceSha256": "651b4a9a81a7623bc2e71e4cf950b3db1222a67a7804e98a96fa3b5409f5e7b8",
+      "gitBlob": "4c784e116e6864fe4535627827fa816542d388f8",
+      "bytes": 8780,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2803d3f3d6d8b4c0bc99c89bd75d3a7d0f329ad8948d269aee9ff8f78b11d4df",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "44d14d52ec4197bc08c0a4f2d60b15640f178485ac00b261b8f1d40b59ce1ef4",
+          "learningRequirementIds": [
+            "IND-259"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9617c29fb04f2dc076b13e94d9e8beb2e92212c61fcadc271fc89cdc6945ac05",
+          "learningRequirementIds": [
+            "IND-260"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f2d35d5eaddbe5aa527eb3b24f5e1062fa94a64893f03b2c201db89ba147248c",
+          "learningRequirementIds": [
+            "IND-261",
+            "IND-262",
+            "IND-263",
+            "IND-264",
+            "IND-265"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "56addb69b505c444ac37955d30e1243eb1417bd5154ebfc5794fc703075a6d82",
+          "learningRequirementIds": [
+            "IND-266"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e112f07bfba93a0873e190bec49483209ed546d0e4138b472efb01bbac11cafa",
+          "learningRequirementIds": [
+            "IND-267",
+            "IND-268",
+            "IND-269",
+            "IND-270",
+            "IND-271",
+            "IND-272",
+            "IND-273"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6e92516cf4b9912ab2569e39f563b72e099981708512368088a5ec3e6bf4c1a6",
+          "learningRequirementIds": [
+            "IND-274"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "382696ff040626ce0ef58e482ef9a3c5c50540e80e1c39752f5301b3b9cf6e66",
+          "learningRequirementIds": [
+            "IND-275"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "851b1d30a7abe37361eeaf853619c8e20bd34a43499f82b9c0d6bd7549089d11",
+          "learningRequirementIds": [
+            "IND-276"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "68876aa413e468a43b071dffacae08171a90a36a0a085a07c079054b89015112",
+          "learningRequirementIds": [],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dc91ba6d0d1d2666d8c289f05f49a6119d6e2da07aa23ff92ef531e3214ade94",
+          "learningRequirementIds": [
+            "IND-277"
+          ],
+          "disposition": "Source teaching reviewed; mapped to independent unit evidence. Preamble/related administrative content earns no learning credit."
+        }
+      ],
+      "lesson": "tumor-on-chip"
+    }
+  ],
+  "original": {
+    "lessons": 13,
+    "sections": 144,
+    "teachingRequirements": 257
+  },
+  "later": {
+    "lessons": 14,
+    "sections": 153,
+    "teachingRequirements": 269
+  },
+  "reuseRule": "Original/later inventories retained; identical teaching reuses prior full reads after exact identity checks. Changed teaching and seven original-only units stay explicit.",
+  "interpretationRequirements": {
+    "IND-002": "Distinguish a functional mitochondrial challenge from protein abundance, allowing for shared survival roles and protocol-dependent responses.",
+    "IND-007": "Distinguish access through the cell boundary, the mitochondrial membranes and cytochrome-c release, and separate priming from intact-cell death and clinical benefit.",
+    "IND-008": "Explain which membrane is permeabilised for assay access and which mitochondrial event is being measured, separately from a cell-death endpoint.",
+    "IND-010": "Compare vehicle and drug pre-exposure under the same defined challenge; keep mitochondrial response, later cell death and clinical evidence separate.",
+    "IND-029": "Distinguish a printing plan from a built channel, cell health, fluid passage and measured barrier performance.",
+    "IND-041": "Evaluate the measured properties of a printed construct against the question it is intended to answer.",
+    "IND-044": "Explain how culture history can change biology and drug response under the same cell-line name.",
+    "IND-048": "Distinguish identity, contamination and phenotype checks; explain why passage number is not a universal count of divisions or biological drift.",
+    "IND-059": "Separate the intended identity of a culture from the history and selection shaping its current behaviour.",
+    "IND-062": "Attribute a mixed-culture signal to the populations that produced it, allowing their numbers and states to change.",
+    "IND-067": "Compare direct contact, a validated separating membrane and conditioned-medium transfer, then measure the contribution of each population.",
+    "IND-078": "Require population identity, origin and attributed measurements before interpreting a co-culture interaction.",
+    "IND-081": "Distinguish a genetic dependency from drug inhibition and safe treatment, including compensation and alternative protein forms.",
+    "IND-086": "Check editing, controls and copy-number cutting effects before attributing a genetic dependency; evaluate drug and clinical claims separately.",
+    "IND-087": "Interpret guide-read shares as relative representation, with copy-number cutting as a possible confounder, rather than counting dead cells.",
+    "IND-099": "Scope a dependency score to the genetic intervention, model and assay rather than treating it as a personal drug-response probability.",
+    "IND-102": "Distinguish a direct experiment in collected material from prediction of benefit, recognising omitted delivery, metabolism and toxicity.",
+    "IND-109": "Interpret a reduced bulk metabolic signal alongside unchanged identified tumour-cell endpoint counts; do not reconstruct death or division history from those endpoints alone.",
+    "IND-120": "Explain which local neighbours a fragment can retain and which circulation and recruitment processes it loses.",
+    "IND-125": "Connect viable fragment preparation and quality checks to attributed experimental response and a separately evaluated intended use.",
+    "IND-126": "Distinguish retained local anatomy from perfused delivery or recruitment of new immune cells, including diffusion limits in a cut slice.",
+    "IND-133": "Explain why retained tissue structure does not establish unchanged exposure, circulation or cell survival.",
+    "IND-136": "Distinguish experimental settings by their retained components and observations while allowing living preparations to change after removal.",
+    "IND-147": "Identify the measured or predicted object and omitted processes in each setting, without imposing a universal validation order or guaranteed clock.",
+    "IND-152": "Compare local immune retention with whole-host circulation and exposure, separately from the time and feasibility of an experiment.",
+    "IND-155": "Define trust by the intended job and supporting observations, allowing living models to adapt rather than ranking complexity alone.",
+    "IND-161": "Distinguish question, construction, measurement, prediction and proposed use as evidence questions rather than a mandatory universal sequence.",
+    "IND-171": "Scope a controlled-growth conclusion to sound identity, controls and readout while keeping clinical benefit unproven.",
+    "IND-174": "Distinguish a three-dimensional arrangement and selected tissue features from completeness of a patient or tumour.",
+    "IND-175": "Identify selection, retained and missing populations in an organoid; treat added cells as a new experiment requiring checks.",
+    "IND-193": "Attribute a measured response to verified retained cells and exposure while identifying missing immune interactions and clinical evidence.",
+    "IND-196": "Explain how implantation into another host changes selection and the tumour's surrounding compartments.",
+    "IND-200": "Separate graft establishment, feature validation and an interpretable experiment, with their own denominators and clocks.",
+    "IND-204": "Distinguish human tumour targets from mouse-derived support and verify species-specific binding required by a mechanism.",
+    "IND-215": "Identify source, host compartments, selection, passage, endpoint and denominator before interpreting a xenograft result.",
+    "IND-218": "Compare a xenograft, expanded organoid and tissue fragment as preparations retaining different parts of an ecosystem.",
+    "IND-221": "Compare selected human and mouse compartments, immune populations and circulation across the three models without making a universal hierarchy.",
+    "IND-239": "Evaluate a near-term decision using the required components, feasible clock and demonstrated function, without assuming a usable fragment or benefit from model-guided care.",
+    "IND-242": "Distinguish buoyant mass relative to displaced fluid from diameter, dry mass and cell divisions.",
+    "IND-243": "Interpret repeated mass measurements and rate units; a 75 percent reduction between two positive accumulation rates is not shrinkage, death or a patient response.",
+    "IND-257": "Distinguish mass at a moment, accumulation per time and evidence that identified cells died.",
+    "IND-260": "Distinguish the engineered design from the biological state measured after cells change their environment.",
+    "IND-264": "Choose and verify required chip components, local exposure, endpoints and matched controls before claiming a modelled interaction.",
+    "IND-265": "Distinguish a nominal micromolar inlet concentration from measured cellular exposure and transport through a particular interface.",
+    "IND-276": "Scope an inference to the physical and biological conditions a chip controls and the surrounding physiology it omits."
+  }
+}

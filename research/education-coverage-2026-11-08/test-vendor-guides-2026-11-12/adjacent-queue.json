@@ -1,0 +1,8 @@
+{
+  "newGlobalAdjacentConcepts": 0,
+  "existingGlobalAdjacentId": "study-analysis-population-and-version",
+  "newOpenPointId": "itt-retained-summary-context",
+  "requiredFollowUp": "Recheck the retained intention-to-treat summary against primary statistical guidance: superiority/non-inferiority scope, modified ITT, evaluable and safety populations, categorical inflation claims and the assertion about default analyses across OnCo trial/drug pages. The new guide comparison uses only the definition and explicit denominator distinctions; it does not certify those broader baseline assertions.",
+  "frozenLiteratureOccurrencesUnchanged": 917,
+  "newElicitQuestionsOrReports": 0
+}

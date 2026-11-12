@@ -1,0 +1,1463 @@
+{
+  "literatureIdentities": 50,
+  "availableRawAbstractsRead": 46,
+  "literature": [
+    {
+      "sourceId": "10373119",
+      "pmid": "10373119",
+      "doi": "10.1126/science.284.5422.1994",
+      "title": "Vessel cooption, regression, and growth in tumors mediated by angiopoietins and VEGF.",
+      "authors": "Holash J, Maisonpierre PC, Compton D, Boland P, Alexander CR, Zagzag D, Yancopoulos GD, Wiegand SJ.",
+      "year": "1999",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "11248153",
+      "pmid": "11248153",
+      "doi": "10.1056/nejm200103153441101",
+      "title": "Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2.",
+      "authors": "Slamon DJ, Leyland-Jones B, Shak S, Fuchs H, Paton V, Bajamonde A, Fleming T, Eiermann W, Wolter J, Pegram M, Baselga J, Norton L.",
+      "year": "2001",
+      "publicationTypes": [
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "11287972",
+      "pmid": "11287972",
+      "doi": "10.1056/nejm200104053441401",
+      "title": "Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia.",
+      "authors": "Druker BJ, Talpaz M, Resta DJ, Peng B, Buchdunger E, Ford JM, Lydon NB, Kantarjian H, Capdeville R, Ohno-Jones S, Sawyers CL.",
+      "year": "2001",
+      "publicationTypes": [
+        "Clinical Trial",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Clinical Trial, Phase I",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "11292861",
+      "pmid": "11292861",
+      "doi": "10.1126/science.1059796",
+      "title": "Targeting of HIF-alpha to the von Hippel-Lindau ubiquitylation complex by O2-regulated prolyl hydroxylation.",
+      "authors": "Jaakkola P, Mole DR, Tian YM, Wilson MI, Gielbert J, Gaskell SJ, von Kriegsheim A, Hebestreit HF, Mukherji M, Schofield CJ, Maxwell PH, Pugh CW, Ratcliffe PJ.",
+      "year": "2001",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "11323675",
+      "pmid": "11323675",
+      "doi": "10.1038/35074122",
+      "title": "IFNgamma and lymphocytes prevent primary tumour development and shape tumour immunogenicity.",
+      "authors": "Shankaran V, Ikeda H, Bruce AT, White JM, Swanson PE, Old LJ, Schreiber RD.",
+      "year": "2001",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "12098689",
+      "pmid": "12098689",
+      "doi": "10.1126/science.1073096",
+      "title": "Cancer. Addiction to oncogenes--the Achilles heal of cancer.",
+      "authors": "Weinstein IB.",
+      "year": "2002",
+      "publicationTypes": [
+        "Comment",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Concept-commentary identity only; no abstract. The substantive framework is supported by the read Luo abstract and targeted body.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "15172975",
+      "pmid": "15172975",
+      "doi": "10.1158/0008-5472.can-04-0074",
+      "title": "Vascular normalization by vascular endothelial growth factor receptor 2 blockade induces a pressure gradient across the vasculature and improves drug penetration in tumors.",
+      "authors": "Tong RT, Boucher Y, Kozin SV, Winkler F, Hicklin DJ, Jain RK.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "1522903",
+      "pmid": "1522903",
+      "doi": "10.1038/359162a0",
+      "title": "Gene fusion with an ETS DNA-binding domain caused by chromosome translocation in human tumours.",
+      "authors": "Delattre O, Zucman J, Plougastel B, Desmaze C, Melot T, Peter M, Kovar H, Joubert I, de Jong P, Rouleau G.",
+      "year": "1992",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "15607960",
+      "pmid": "15607960",
+      "doi": "10.1016/j.ccr.2004.10.011",
+      "title": "Kinetics of vascular normalization by VEGFR2 blockade governs brain tumor response to radiation: role of oxygenation, angiopoietin-1, and matrix metalloproteinases.",
+      "authors": "Winkler F, Kozin SV, Tong RT, Chae SS, Booth MF, Garkavtsev I, Xu L, Hicklin DJ, Fukumura D, di Tomaso E, Munn LL, Jain RK.",
+      "year": "2004",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "15829966",
+      "pmid": "15829966",
+      "doi": "10.1038/nature03443",
+      "title": "Specific killing of BRCA2-deficient tumours with inhibitors of poly(ADP-ribose) polymerase.",
+      "authors": "Bryant HE, Schultz N, Thomas HD, Parker KM, Flower D, Lopez E, Kyle S, Meuth M, Curtin NJ, Helleday T.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "15829967",
+      "pmid": "15829967",
+      "doi": "10.1038/nature03445",
+      "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy.",
+      "authors": "Farmer H, McCabe N, Lord CJ, Tutt AN, Johnson DA, Richardson TB, Santarosa M, Dillon KJ, Hickson I, Knights C, Martin NM, Jackson SP, Smith GC, Ashworth A.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "16169468",
+      "pmid": "16169468",
+      "doi": "10.1016/j.ccr.2005.08.010",
+      "title": "Tensional homeostasis and the malignant phenotype.",
+      "authors": "Paszek MJ, Zahir N, Johnson KR, Lakins JN, Rozenberg GI, Gefen A, Reinhart-King CA, Margulies SS, Dembo M, Boettiger D, Hammer DA, Weaver VM.",
+      "year": "2005",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "17957189",
+      "pmid": "17957189",
+      "doi": "10.1038/nrc2256",
+      "title": "Models, mechanisms and clinical evidence for cancer dormancy.",
+      "authors": "Aguirre-Ghiso JA.",
+      "year": "2007",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "18026089",
+      "pmid": "18026089",
+      "doi": "10.1038/nature06309",
+      "title": "Adaptive immunity maintains occult cancer in an equilibrium state.",
+      "authors": "Koebel CM, Vermi W, Swann JB, Zerafa N, Rodig SJ, Old LJ, Smyth MJ, Schreiber RD.",
+      "year": "2007",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "18160686",
+      "pmid": "18160686",
+      "doi": "10.1056/nejmoa072113",
+      "title": "Paclitaxel plus bevacizumab versus paclitaxel alone for metastatic breast cancer.",
+      "authors": "Miller K, Wang M, Gralow J, Dickler M, Cobleigh M, Perez EA, Shenkier T, Cella D, Davidson NE.",
+      "year": "2007",
+      "publicationTypes": [
+        "Clinical Trial, Phase III",
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "19269363",
+      "pmid": "19269363",
+      "doi": "10.1016/j.cell.2009.02.024",
+      "title": "Principles of cancer therapy: oncogene and non-oncogene addiction.",
+      "authors": "Luo J, Solimini NL, Elledge SJ.",
+      "year": "2009",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "proteasom",
+          "captureSha256": "501cc34f0211e334da57634248c77aca18bcf439a5331fb65443a50773bf1a9a",
+          "start": 30090,
+          "end": 31499,
+          "passageSha256": "65d511c82d9c0946638563b3aa542cc3b2122b73726974ac2b7d547d0589119e"
+        },
+        {
+          "query": "stress",
+          "captureSha256": "501cc34f0211e334da57634248c77aca18bcf439a5331fb65443a50773bf1a9a",
+          "start": 0,
+          "end": 1269,
+          "passageSha256": "7f238c7aa1ca4a49367918824e7939404c3e1195df50a8bc7cff07da8f0ea187"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "19931152",
+      "pmid": "19931152",
+      "doi": "10.1016/j.cell.2009.10.027",
+      "title": "Matrix crosslinking forces tumor progression by enhancing integrin signaling.",
+      "authors": "Levental KR, Yu H, Kass L, Lakins JN, Egeblad M, Erler JT, Fong SF, Csiszar K, Giaccia A, Weninger W, Yamauchi M, Gasser DL, Weaver VM.",
+      "year": "2009",
+      "publicationTypes": [
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "Pa",
+          "captureSha256": "a427532289b86976e711d4f38a9510670535acbaa9bf3a5318afb772824e4b4e",
+          "start": 0,
+          "end": 680,
+          "passageSha256": "7fa89794a1154616781511e43e9aed8aaa432bb1dbf62b4a5941e0e7a311e6f1"
+        },
+        {
+          "query": "crosslink",
+          "captureSha256": "a427532289b86976e711d4f38a9510670535acbaa9bf3a5318afb772824e4b4e",
+          "start": 1704,
+          "end": 2873,
+          "passageSha256": "500c7cbafbef341a2f20d7600739a3cee358b7ff21c1195cde9d647f0d19763d"
+        },
+        {
+          "query": "integrin",
+          "captureSha256": "a427532289b86976e711d4f38a9510670535acbaa9bf3a5318afb772824e4b4e",
+          "start": 2873,
+          "end": 4262,
+          "passageSha256": "a774ea55220be10db4d959002734091ab0c064ba4f0cbd506532ed229d4d90d9"
+        },
+        {
+          "query": "\\bPa\\b",
+          "captureSha256": "a427532289b86976e711d4f38a9510670535acbaa9bf3a5318afb772824e4b4e",
+          "start": 16638,
+          "end": 18040,
+          "passageSha256": "ae6aecbea4a52a9d6f6da3001cd1cb0bb53983f2505182f31222c6c6e686d7df"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "20179705",
+      "pmid": "20179705",
+      "doi": "10.1038/nature08902",
+      "title": "RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF.",
+      "authors": "Poulikakos PI, Zhang C, Bollag G, Shokat KM, Rosen N.",
+      "year": "2010",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "21376230",
+      "pmid": "21376230",
+      "doi": "10.1016/j.cell.2011.02.013",
+      "title": "Hallmarks of cancer: the next generation.",
+      "authors": "Hanahan D, Weinberg RA.",
+      "year": "2011",
+      "publicationTypes": [
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "21436454",
+      "pmid": "21436454",
+      "doi": "10.1126/science.1198443",
+      "title": "CD40 agonists alter tumor stroma and show efficacy against pancreatic carcinoma in mice and humans.",
+      "authors": "Beatty GL, Chiorean EG, Fishman MP, Saboury B, Teitelbaum UR, Sun W, Huhn RD, Song W, Li D, Sharp LL, Torigian DA, O'Dwyer PJ, Vonderheide RH.",
+      "year": "2011",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Multicenter Study",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "22121166",
+      "pmid": "22121166",
+      "doi": "10.1136/bmj.d7684",
+      "title": "FDA cancels approval for bevacizumab in advanced breast cancer.",
+      "authors": "Tanne JH.",
+      "year": "2011",
+      "publicationTypes": [
+        "News"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "News-item identity only. The regulatory claim is instead supported by the raw FDA withdrawn-approvals table.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "22293174",
+      "pmid": "22293174",
+      "doi": "10.1172/jci45817",
+      "title": "Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors.",
+      "authors": "Salmon H, Franciszkiewicz K, Damotte D, Dieu-Nosjean MC, Validire P, Trautmann A, Mami-Chouaib F, Donnadieu E.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted passages and figure-caption content in the publisher PDF; not whole-article reading.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "22304911",
+      "pmid": "22304911",
+      "doi": "10.1016/j.cell.2012.01.021",
+      "title": "Hypoxia-inducible factors in physiology and medicine.",
+      "authors": "Semenza GL.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "heterodimer",
+          "captureSha256": "727d61466a8f79d22204486bc91d29149bdfafb66e22ff7f2653acd9f115e064",
+          "start": 2833,
+          "end": 3235,
+          "passageSha256": "7b1a83e0aeaaec05eb83c3ca54e660ef14e7ff612ab32944748b3f7a92cf246f"
+        },
+        {
+          "query": "hydroxyl",
+          "captureSha256": "727d61466a8f79d22204486bc91d29149bdfafb66e22ff7f2653acd9f115e064",
+          "start": 3235,
+          "end": 4345,
+          "passageSha256": "a4b485a0d8c819dfca3a2ab6b4ba2737d6046132196e18ef0328db710b9970c7"
+        },
+        {
+          "query": "VHL",
+          "captureSha256": "727d61466a8f79d22204486bc91d29149bdfafb66e22ff7f2653acd9f115e064",
+          "start": 3235,
+          "end": 4345,
+          "passageSha256": "a4b485a0d8c819dfca3a2ab6b4ba2737d6046132196e18ef0328db710b9970c7"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "22318521",
+      "pmid": "22318521",
+      "doi": "10.1038/nature10755",
+      "title": "Cancer exome analysis reveals a T-cell-dependent mechanism of cancer immunoediting.",
+      "authors": "Matsushita H, Vesely MD, Koboldt DC, Rickert CG, Uppaluri R, Magrini VJ, Arthur CD, White JM, Chen YS, Shea LK, Hundal J, Wendl MC, Demeter R, Wylie T, Allison JP, Smyth MJ, Old LJ, Mardis ER, Schreiber RD.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "22397650",
+      "pmid": "22397650",
+      "doi": "10.1056/nejmoa1113205",
+      "title": "Intratumor heterogeneity and branched evolution revealed by multiregion sequencing.",
+      "authors": "Gerlinger M, Rowan AJ, Horswell S, Math M, Larkin J, Endesfelder D, Gronroos E, Martinez P, Matthews N, Stewart A, Tarpey P, Varela I, Phillimore B, Begum S, McDonald NQ, Butler A, Jones D, Raine K, Latimer C, Santos CR, Nohadani M, Eklund AC, Spencer-Dene B, Clark G, Pickering L, Stamp G, Gore M, Szallasi Z, Downward J, Futreal PA, Swanton C.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "23000897",
+      "pmid": "23000897",
+      "doi": "10.1038/nature11412",
+      "title": "Comprehensive molecular portraits of human breast tumours.",
+      "authors": "Cancer Genome Atlas Network.",
+      "year": "2012",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "80%",
+          "captureSha256": "a6617b020e2a07f6d54bb150cb24a839699a37eb3a9ce5e14b0f01fda4a0f0a2",
+          "start": 5217,
+          "end": 6668,
+          "passageSha256": "38886eb7bdb157c9eebb532ad7fb24a7ad93b9d26f311031e6bc419728b271ca"
+        },
+        {
+          "query": "basal-like.*TP53",
+          "captureSha256": "a6617b020e2a07f6d54bb150cb24a839699a37eb3a9ce5e14b0f01fda4a0f0a2",
+          "start": 9237,
+          "end": 10219,
+          "passageSha256": "4ec45411d3ea319cfbf1778b8836b2ad8da705eed9df200ce68f2376bfc19b14"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "23728425",
+      "pmid": "23728425",
+      "doi": "10.1038/ncb2767",
+      "title": "The perivascular niche regulates breast tumour dormancy.",
+      "authors": "Ghajar CM, Peinado H, Mori H, Matei IR, Evason KJ, Brazier H, Almeida D, Koller A, Hajjar KA, Stainier DY, Chen EI, Lyden D, Bissell MJ.",
+      "year": "2013",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "quiescence",
+          "captureSha256": "1491aa1088c992251d18de58e6db340a5653475c8f4ee9a036f03ce4964ec446",
+          "start": 1283,
+          "end": 2136,
+          "passageSha256": "ca5e41cc115388469a6857c48730d679b3348a0a40344c97a9daf00e47117406"
+        },
+        {
+          "query": "sprouting",
+          "captureSha256": "1491aa1088c992251d18de58e6db340a5653475c8f4ee9a036f03ce4964ec446",
+          "start": 10290,
+          "end": 11079,
+          "passageSha256": "ca8a7afb2cfc6edea22d9d969aad951403cc9992c01675cff0fe9a6a575847b6"
+        },
+        {
+          "query": "thrombospondin",
+          "captureSha256": "1491aa1088c992251d18de58e6db340a5653475c8f4ee9a036f03ce4964ec446",
+          "start": 2136,
+          "end": 3195,
+          "passageSha256": "aa55626b1ec5cc632cd94b6249068e37a06630c0d0a4d27b8544b4cc4be04422"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "24856586",
+      "pmid": "24856586",
+      "doi": "10.1016/j.ccr.2014.04.005",
+      "title": "Depletion of carcinoma-associated fibroblasts and fibrosis induces immunosuppression and accelerates pancreas cancer with reduced survival.",
+      "authors": "Özdemir BC, Pentcheva-Hoang T, Carstens JL, Zheng X, Wu CC, Simpson TR, Laklai H, Sugimoto H, Kahlert C, Novitskiy SV, De Jesus-Acosta A, Sharma P, Heidari P, Mahmood U, Chin L, Moses HL, Weaver VM, Maitra A, Allison JP, LeBleu VS, Kalluri R.",
+      "year": "2014",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "25999502",
+      "pmid": "25999502",
+      "doi": "10.1126/science.aaa6806",
+      "title": "Tumor evolution. High burden and pervasive positive selection of somatic mutations in normal human skin.",
+      "authors": "Martincorena I, Roshan A, Gerstung M, Ellis P, Van Loo P, McLaren S, Wedge DC, Fullam A, Alexandrov LB, Tubio JM, Stebbings L, Menzies A, Widaa S, Stratton MR, Jones PH, Campbell PJ.",
+      "year": "2015",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "26780609",
+      "pmid": "26780609",
+      "doi": "10.1038/ng.3489",
+      "title": "Identification of neutral tumor evolution across cancer types.",
+      "authors": "Williams MJ, Werner B, Barnes CP, Graham TA, Sottoriva A.",
+      "year": "2016",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "27381735",
+      "pmid": "27381735",
+      "doi": "10.1038/ncomms12150",
+      "title": "Recommendations for myeloid-derived suppressor cell nomenclature and characterization standards.",
+      "authors": "Bronte V, Brandau S, Chen SH, Colombo MP, Frey AB, Greten TF, Mandruzzato S, Murray PJ, Ochoa A, Ostrand-Rosenberg S, Rodriguez PC, Sica A, Umansky V, Vonderheide RH, Gabrilovich DI.",
+      "year": "2016",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "MDSC-like",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 31157,
+          "end": 31643,
+          "passageSha256": "3ccb5c421442c64a2cb671e7be4ff4de0e7a67076b9b044670b56feef1524425"
+        },
+        {
+          "query": "CD14",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 6052,
+          "end": 7185,
+          "passageSha256": "03c10828fc3a283b7c330eb436882ca502c652c308c2e9f297b0bc7882d2243e"
+        },
+        {
+          "query": "ratio",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 7865,
+          "end": 9320,
+          "passageSha256": "2b1645d353632cd1e6c32c0f2a648761bf72ba881569faf7111a522c63200d66"
+        },
+        {
+          "query": "viability",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 13342,
+          "end": 14369,
+          "passageSha256": "77f3521a0f5dc3563200a61157aa03a6b12c6b87ff68b53c93c058eacfebf303"
+        },
+        {
+          "query": "freez",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 9295,
+          "end": 10700,
+          "passageSha256": "fa958dbcc5e1d07a96ac06f77b38dd759818b03a171069c8e59ce6a28d0f1204"
+        },
+        {
+          "query": "stimulat",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 14183,
+          "end": 15591,
+          "passageSha256": "3af54f19e99eedbf80ed1ea9d31d91e53f1a77540ce010e5a6c2894b694b2cc3"
+        },
+        {
+          "query": "Ly6G",
+          "captureSha256": "272b24e6e1c973cd18893ac2d24eb307b7b2b97c8e1bc4ae279712c633975d98",
+          "start": 1079,
+          "end": 2483,
+          "passageSha256": "c82da39823e3209dd2490ba2b7cc1fd2aaf5cd3138004666554c7ae4f385a00c"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "28232471",
+      "pmid": "28232471",
+      "doi": "10.1084/jem.20162024",
+      "title": "Distinct populations of inflammatory fibroblasts and myofibroblasts in pancreatic cancer.",
+      "authors": "Öhlund D, Handly-Santana A, Biffi G, Elyada E, Almeida AS, Ponz-Sarvise M, Corbo V, Oni TE, Hearn SA, Lee EJ, Chio II, Hwang CI, Tiriac H, Baker LA, Engle DD, Feig C, Kultti A, Egeblad M, Fearon DT, Crawford JM, Clevers H, Park Y, Tuveson DA.",
+      "year": "2017",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "28417112",
+      "pmid": "28417112",
+      "doi": "10.1126/sciimmunol.aaf8943",
+      "title": "Lectin-type oxidized LDL receptor-1 distinguishes population of human polymorphonuclear myeloid-derived suppressor cells in cancer patients.",
+      "authors": "Condamine T, Dominguez GA, Youn JI, Kossenkov AV, Mony S, Alicea-Torres K, Tcyganov E, Hashimoto A, Nefedova Y, Lin C, Partlova S, Garfall A, Vogl DT, Xu X, Knight SC, Malietzis G, Lee GH, Eruslanov E, Albelda SM, Wang X, Mehta JL, Bewtra M, Rustgi A, Hockstein N, Witt R, Masters G, Nam B, Smirnov D, Sepulveda MA, Gabrilovich DI.",
+      "year": "2016",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "28813661",
+      "pmid": "28813661",
+      "doi": "10.1016/j.immuni.2017.07.014",
+      "title": "Tissue-Resident Macrophages in Pancreatic Ductal Adenocarcinoma Originate from Embryonic Hematopoiesis and Promote Tumor Progression.",
+      "authors": "Zhu Y, Herndon JM, Sojka DK, Kim KW, Knolhoff BL, Zuo C, Cullinan DR, Luo J, Bearden AR, Lavine KJ, Yokoyama WM, Hawkins WG, Fields RC, Randolph GJ, DeNardo DG.",
+      "year": "2017",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "28843279",
+      "pmid": "28843279",
+      "doi": "10.1016/j.ccell.2015.11.002",
+      "title": "Depletion of Carcinoma-Associated Fibroblasts and Fibrosis Induces Immunosuppression and Accelerates Pancreas Cancer with Reduced Survival.",
+      "authors": "Özdemir BC, Pentcheva-Hoang T, Carstens JL, Zheng X, Wu CC, Simpson TR, Laklai H, Sugimoto H, Kahlert C, Novitskiy SV, De Jesus-Acosta A, Sharma P, Heidari P, Mahmood U, Chin L, Moses HL, Weaver VM, Maitra A, Allison JP, LeBleu VS, Kalluri R.",
+      "year": "2015",
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Correction identity resolved. Publisher access yielded a redirect or metadata-only XML, and full-view API returned 401. Body unread; no correction-specific claim adopted.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "29785656",
+      "pmid": "29785656",
+      "doi": "10.1007/s00262-018-2170-8",
+      "title": "How to measure the immunosuppressive activity of MDSC: assays, problems and potential solutions.",
+      "authors": "Bruger AM, Dorhoi A, Esendagli G, Barczyk-Kahlert K, van der Bruggen P, Lipoldova M, Perecko T, Santibanez J, Saraiva M, Van Ginderachter JA, Brandau S.",
+      "year": "2019",
+      "publicationTypes": [
+        "research-article",
+        "Review",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "30193111",
+      "pmid": "30193111",
+      "doi": "10.1016/j.cell.2018.08.039",
+      "title": "A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging.",
+      "authors": "Keren L, Bosse M, Marquez D, Angoshtari R, Jain S, Varma S, Yang SR, Kurian A, Van Valen D, West R, Bendall SC, Angelo M.",
+      "year": "2018",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "30374075",
+      "pmid": "30374075",
+      "doi": "10.1038/s41588-018-0258-x",
+      "title": "Neutral tumor evolution?",
+      "authors": "Tarabichi M, Martincorena I, Gerstung M, Leroi AM, Markowetz F, PCAWG Evolution and Heterogeneity Working Group, Spellman PT, Morris QD, Lingjærde OC, Wedge DC, Van Loo P.",
+      "year": "2018",
+      "publicationTypes": [
+        "Letter",
+        "Comment",
+        "Research Support, Non-U.S. Gov't",
+        "research-article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "R2",
+          "captureSha256": "c64cad1f60f121ce43663943dc7c7c07225e60bdf7510da21f38574b04b140fe",
+          "start": 3230,
+          "end": 3701,
+          "passageSha256": "d8618d7dd8313cec5f705b6d78b4423201c31b7d072d9f857e7caf580c1067de"
+        },
+        {
+          "query": "linear",
+          "captureSha256": "c64cad1f60f121ce43663943dc7c7c07225e60bdf7510da21f38574b04b140fe",
+          "start": 1221,
+          "end": 2250,
+          "passageSha256": "aa7e0df962d96314b17cddd572bda8cc9881dbc6400370b5e1e6cdb0f51ec9f3"
+        },
+        {
+          "query": "selection",
+          "captureSha256": "c64cad1f60f121ce43663943dc7c7c07225e60bdf7510da21f38574b04b140fe",
+          "start": 24,
+          "end": 1221,
+          "passageSha256": "a3074e2364fc95bfe6457eca98c304ccb4b632720317460129b3eb437852a3c3"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "31327527",
+      "pmid": "31327527",
+      "doi": "10.1016/j.cell.2019.06.024",
+      "title": "An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma.",
+      "authors": "Neftel C, Laffy J, Filbin MG, Hara T, Shore ME, Rahme GJ, Richman AR, Silverbush D, Shaw ML, Hebert CM, Dewitt J, Gritsch S, Perez EM, Gonzalez Castro LN, Lan X, Druck N, Rodman C, Dionne D, Kaplan A, Bertalan MS, Small J, Pelton K, Becker S, Bonal D, Nguyen QD, Servis RL, Fung JM, Mylvaganam R, Mayr L, Gojo J, Haberler C, Geyeregger R, Czech T, Slavc I, Nahed BV, Curry WT, Carter BS, Wakimoto H, Brastianos PK, Batchelor TT, Stemmer-Rachamimov A, Martinez-Lage M, Frosch MP, Stamenkovic I, Riggi N, Rheinbay E, Monje M, Rozenblatt-Rosen O, Cahill DP, Patel AP, Hunter T, Verma IM, Ligon KL, Louis DN, Regev A, Bernstein BE, Tirosh I, Suvà ML.",
+      "year": "2019",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "plasticity",
+          "captureSha256": "2e04bb424333b1a34e13c9cd7e88b8a9621fa25e582f4c305a6953327877079c",
+          "start": 90,
+          "end": 1133,
+          "passageSha256": "8ca7b690570d999f43d0e0a036ba2b3d028047c0638379c9301f7b712dd7835f"
+        },
+        {
+          "query": "lineage tracing",
+          "captureSha256": "2e04bb424333b1a34e13c9cd7e88b8a9621fa25e582f4c305a6953327877079c",
+          "start": 4056,
+          "end": 5200,
+          "passageSha256": "db7e3d0f3cfd2db3c74c67644fcf3b609bbc9d407291e192396aaf215c0c1090"
+        },
+        {
+          "query": "lineage.?trac",
+          "captureSha256": "2e04bb424333b1a34e13c9cd7e88b8a9621fa25e582f4c305a6953327877079c",
+          "start": 108,
+          "end": 1520,
+          "passageSha256": "86706dccf8898f44920547d4e64ef3c39861277db75e736ad972ec62cc576b4a"
+        },
+        {
+          "query": "28",
+          "captureSha256": "2e04bb424333b1a34e13c9cd7e88b8a9621fa25e582f4c305a6953327877079c",
+          "start": 0,
+          "end": 1392,
+          "passageSha256": "9ca1e0100cb2afd3d57a3c611cfd795a0e108aa249260433dbe7f26ecebbcee8"
+        },
+        {
+          "query": "four main",
+          "captureSha256": "2e04bb424333b1a34e13c9cd7e88b8a9621fa25e582f4c305a6953327877079c",
+          "start": 262,
+          "end": 1671,
+          "passageSha256": "52f684be0c0c7a1d4aceb83bbf405185110ae2da0b28a50f3067935c2aa2034c"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "31395785",
+      "pmid": "31395785",
+      "doi": "10.1126/science.aax3649",
+      "title": "A dominant-negative effect drives selection of <i>TP53</i> missense mutations in myeloid malignancies.",
+      "authors": "Boettcher S, Miller PG, Sharma R, McConkey M, Leventhal M, Krivtsov AV, Giacomelli AO, Wong W, Kim J, Chao S, Kurppa KJ, Yang X, Milenkowic K, Piccioni F, Root DE, Rücker FG, Flamand Y, Neuberg D, Lindsley RC, Jänne PA, Hahn WC, Jacks T, Döhner H, Armstrong SA, Ebert BL.",
+      "year": "2019",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "31867322",
+      "pmid": "31867322",
+      "doi": "10.3389/fbioe.2019.00397",
+      "title": "Quantitative Visualization of Hypoxia and Proliferation Gradients Within Histological Tissue Sections.",
+      "authors": "Zaidi M, Fu F, Cojocari D, McKee TD, Wouters BG.",
+      "year": "2019",
+      "publicationTypes": [
+        "brief-report",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "xenograft",
+          "captureSha256": "90307eb85735e23f3a586478212065b7e63f3646e53591ea5f86e1594e26921c",
+          "start": 8902,
+          "end": 9975,
+          "passageSha256": "86b5f9003ec8905d2b83178c4ee6ebcf549a25c48df3cdfa9d6b26259a5cd91e"
+        },
+        {
+          "query": "pimonidazole",
+          "captureSha256": "90307eb85735e23f3a586478212065b7e63f3646e53591ea5f86e1594e26921c",
+          "start": 5848,
+          "end": 7310,
+          "passageSha256": "b8733fddf1fb557a676eb629a6febfa2e2d09b33ae3c22f0167f19b5e32e4599"
+        },
+        {
+          "query": "perfusion",
+          "captureSha256": "90307eb85735e23f3a586478212065b7e63f3646e53591ea5f86e1594e26921c",
+          "start": 7104,
+          "end": 7947,
+          "passageSha256": "7c285de054315990b6a61639ef973bb4080285aa444ad97dffde9e1c3a647a20"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "31980749",
+      "pmid": "31980749",
+      "doi": "10.1038/s41568-019-0238-1",
+      "title": "A framework for advancing our understanding of cancer-associated fibroblasts.",
+      "authors": "Sahai E, Astsaturov I, Cukierman E, DeNardo DG, Egeblad M, Evans RM, Fearon D, Greten FR, Hingorani SR, Hunter T, Hynes RO, Jain RK, Janowitz T, Jorgensen C, Kimmelman AC, Kolonin MG, Maki RG, Powers RS, Puré E, Ramirez DC, Scherz-Shouval R, Sherman MH, Stewart S, Tlsty TD, Tuveson DA, Watt FM, Weaver V, Weeraratna AT, Werb Z.",
+      "year": "2020",
+      "publicationTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "origin",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 2292,
+          "end": 3625,
+          "passageSha256": "270bcb18a82162d9ee0af0ca7ada214d2771f85c37f1ad8c9e4e49868200d4b2"
+        },
+        {
+          "query": "fibronectin",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 38500,
+          "end": 39855,
+          "passageSha256": "bbf32b9a3bf67a4ebecb595d7c704cb8c7a808948c2ae98e1e405d6f2426055d"
+        },
+        {
+          "query": "tumour.suppress",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 8515,
+          "end": 9930,
+          "passageSha256": "620de21584d93a61472d0aef1bb190c9a60a4f57672bfea64631256adc5dd8be"
+        },
+        {
+          "query": "anti.?tum",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 526,
+          "end": 1933,
+          "passageSha256": "eadb5175079634459bc8f401ccc9415345d9a6b753e1f030a1876b08662a9774"
+        },
+        {
+          "query": "plastic",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 15492,
+          "end": 16899,
+          "passageSha256": "903f5e074d2a7771132ddc2cad4db6a1e638328331b1c1b92e6c39e9c14904c8"
+        },
+        {
+          "query": "basement",
+          "captureSha256": "4b1fba348b06170b8da27f7eb203537a954f467951412d465230e3bbe0ee1131",
+          "start": 40532,
+          "end": 41940,
+          "passageSha256": "f2c568e9171ffb870257649a19e867e4fc0422c3610ecdefeb7fc91e45556241"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "35022204",
+      "pmid": "35022204",
+      "doi": "10.1158/2159-8290.cd-21-1059",
+      "title": "Hallmarks of Cancer: New Dimensions.",
+      "authors": "Hanahan D.",
+      "year": "2022",
+      "publicationTypes": [
+        "Review",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete resolved abstract and primary publisher Figure 1 caption read. Raw publisher HTML/PDF requests were blocked; no complete-document reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "35589842",
+      "pmid": "35589842",
+      "doi": "10.1038/s41586-022-04735-9",
+      "title": "Neoantigen quality predicts immunoediting in survivors of pancreatic cancer.",
+      "authors": "Łuksza M, Sethna ZM, Rojas LA, Lihm J, Bravi B, Elhanati Y, Soares K, Amisaki M, Dobrin A, Hoyos D, Guasp P, Zebboudj A, Yu R, Chandra AK, Waters T, Odgerel Z, Leung J, Kappagantula R, Makohon-Moore A, Johns A, Gill A, Gigoux M, Wolchok J, Merghoub T, Sadelain M, Patterson E, Monasson R, Mora T, Walczak AM, Cocco S, Iacobuzio-Donahue C, Greenbaum BD, Balachandran VP.",
+      "year": "2022",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available abstract plus the listed exact targeted primary-body passages; not whole-article reading.",
+      "exactTargetedPassageHashes": [
+        {
+          "query": "15 patients",
+          "captureSha256": "426b17bcdd8bd340390ebe5463a71ea49a881ff5e046f2d236740eac1c2b0e4b",
+          "start": 4092,
+          "end": 5203,
+          "passageSha256": "9119564dd9c2d72db5c91ceaa697bcd06956bd020c7ce0169bac70923d432f76"
+        },
+        {
+          "query": "70",
+          "captureSha256": "426b17bcdd8bd340390ebe5463a71ea49a881ff5e046f2d236740eac1c2b0e4b",
+          "start": 4092,
+          "end": 5203,
+          "passageSha256": "9119564dd9c2d72db5c91ceaa697bcd06956bd020c7ce0169bac70923d432f76"
+        },
+        {
+          "query": "quality",
+          "captureSha256": "426b17bcdd8bd340390ebe5463a71ea49a881ff5e046f2d236740eac1c2b0e4b",
+          "start": 368,
+          "end": 1743,
+          "passageSha256": "a67df1871a7430bd884079cab3989a2138ab700dd4ca1eb946e628735b61d1e5"
+        },
+        {
+          "query": "fitness",
+          "captureSha256": "426b17bcdd8bd340390ebe5463a71ea49a881ff5e046f2d236740eac1c2b0e4b",
+          "start": 16978,
+          "end": 17097,
+          "passageSha256": "aef1c0143b6b6cce29f241198c85bf51c657258a11b8b2908d3c64378321e0c7"
+        }
+      ],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "3798106",
+      "pmid": "3798106",
+      "doi": "10.1126/science.3798106",
+      "title": "Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene.",
+      "authors": "Slamon DJ, Clark GM, Wong SG, Levin WJ, Ullrich A, McGuire WL.",
+      "year": "1987",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "38965423",
+      "pmid": "38965423",
+      "doi": "10.1038/s41416-024-02745-0",
+      "title": "ATR, CHK1 and WEE1 inhibitors cause homologous recombination repair deficiency to induce synthetic lethality with PARP inhibitors.",
+      "authors": "Smith HL, Willmore E, Prendergast L, Curtin NJ.",
+      "year": "2024",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "5279523",
+      "pmid": "5279523",
+      "doi": "10.1073/pnas.68.4.820",
+      "title": "Mutation and cancer: statistical study of retinoblastoma.",
+      "authors": "Knudson AG.",
+      "year": "1971",
+      "publicationTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "7539918",
+      "pmid": "7539918",
+      "doi": "10.1073/pnas.92.12.5510",
+      "title": "Hypoxia-inducible factor 1 is a basic-helix-loop-helix-PAS heterodimer regulated by cellular O2 tension.",
+      "authors": "Wang GL, Jiang BH, Rue EA, Semenza GL.",
+      "year": "1995",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "959840",
+      "pmid": "959840",
+      "doi": "10.1126/science.959840",
+      "title": "The clonal evolution of tumor cell populations.",
+      "authors": "Nowell PC.",
+      "year": "1976",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    },
+    {
+      "sourceId": "9823898",
+      "pmid": "9823898",
+      "doi": "10.1038/24179",
+      "title": "The murine gene p27Kip1 is haplo-insufficient for tumour suppression.",
+      "authors": "Fero ML, Randel E, Gurley KE, Roberts JM, Kemp CJ.",
+      "year": "1998",
+      "publicationTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identity": "Resolved to raw Europe PMC MED record; new discovery identities additionally checked through Crossref.",
+      "readingDepth": "Complete available raw MED abstract read; no full-text reading claimed.",
+      "exactTargetedPassageHashes": [],
+      "clinicalCertification": false
+    }
+  ],
+  "officialSources": [
+    {
+      "sourceId": "fda-withdrawn",
+      "url": "https://www.fda.gov/drugs/cancer-approvals/withdrawn-cancer-accelerated-approvals",
+      "status": "200",
+      "captureSha256": "269eb10107de8fded7944ae4ef42c9b363f031d8cb07eef0f5c574ab2645c9f7",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nci-cancer",
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "status": "200",
+      "captureSha256": "c01fb52944dd997a314c7f319f4d6f0b38e78cd23063923fc967d07a04c2e5e2",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nci-pathology",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "status": "200",
+      "captureSha256": "fc9cd4a6a0b9e52d966d0a158dc37091c1f8824f487db4a310d701e68b9dc0fe",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nci-metastatic",
+      "url": "https://www.cancer.gov/types/metastatic-cancer",
+      "status": "200",
+      "captureSha256": "9c1ee3718d3b7bca355cfb63a33cead7beb52f5f390fb4491fdd107980085a27",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nci-angiogenesis",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/angiogenesis-inhibitors-fact-sheet",
+      "status": "200",
+      "captureSha256": "8ae0c95713e8ec0e732cb5d775ff167d41cb519e8936da40218c5e32223c5ece",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nhgri-drift",
+      "url": "https://www.genome.gov/genetics-glossary/Genetic-Drift",
+      "status": "200",
+      "captureSha256": "d82c7adacb5d0a257410008d8db9e96f8c3fc85f73cae6e2efbcafe90848672a",
+      "readingDepth": "Selected raw definition, method or table passages read. Not whole-site review."
+    },
+    {
+      "sourceId": "nlm-ecm-proteins",
+      "url": "https://meshb.nlm.nih.gov/record/ui?dcmsLinks=true&ui=D016326",
+      "status": "200",
+      "captureSha256": "7c6c44411d3f479433d7e1826942ede096220f562c558b934f89da7d7316c372",
+      "readingDepth": "Raw MeSH scope-note composition paragraph read."
+    },
+    {
+      "sourceId": "nci-ecm-api",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/extracellular-matrix",
+      "status": "200",
+      "captureSha256": "6fb56554d3ec71a3399edfd67184c4e4ba30d49947c9f1cb5d49c51a2c694fbf",
+      "termId": 802101,
+      "readingDepth": "Complete raw API definition read; the HTML shell is not called a source-body reading."
+    },
+    {
+      "sourceId": "hgnc-mertk",
+      "url": "https://rest.genenames.org/fetch/symbol/MERTK",
+      "status": "200",
+      "captureSha256": "41a74fc12cccfc396b8a653cd655b6fb9b3c17a7cabef6a204ca03d81fd6c5a5",
+      "symbol": "MERTK",
+      "hgncId": "HGNC:7027",
+      "family": "AXL receptor tyrosine kinase family",
+      "readingDepth": "Raw symbol, identity and shared family fields read; no functional or therapeutic inference from family membership."
+    },
+    {
+      "sourceId": "hgnc-axl",
+      "url": "https://rest.genenames.org/fetch/symbol/AXL",
+      "status": "200",
+      "captureSha256": "6a5f9b8a87d29535ffb620958c92bc96918750acb6acd2c13053d54c653b4395",
+      "symbol": "AXL",
+      "hgncId": "HGNC:905",
+      "family": "AXL receptor tyrosine kinase family",
+      "readingDepth": "Raw symbol, identity and shared family fields read; no functional or therapeutic inference from family membership."
+    },
+    {
+      "sourceId": "hgnc-tyro3",
+      "url": "https://rest.genenames.org/fetch/symbol/TYRO3",
+      "status": "200",
+      "captureSha256": "0eba627e22199578c05dbe7035c79e84b1dc5d3ab1336aab876881cc5fa0f35d",
+      "symbol": "TYRO3",
+      "hgncId": "HGNC:12446",
+      "family": "AXL receptor tyrosine kinase family",
+      "readingDepth": "Raw symbol, identity and shared family fields read; no functional or therapeutic inference from family membership."
+    }
+  ],
+  "coordinatorReadingRule": "Retrieved bodies are not automatically read. Only complete abstracts and the documented targeted passages are claimed. Source-type and model boundaries remain explicit in reader prose.",
+  "discoveryBeyondGuide": [
+    {
+      "pmid": "35589842",
+      "purpose": "Complete human immunoediting cohort identity and model scope."
+    },
+    {
+      "pmid": "31867322",
+      "purpose": "Verify the spatial hypoxia method and mouse-xenograft preparation."
+    },
+    {
+      "pmid": "30374075",
+      "purpose": "Test the neutral-evolution inference limitation against a primary methodological comment."
+    },
+    {
+      "pmid": "38965423",
+      "purpose": "Replace an unspecified PARP/ATR example with a named matched-model laboratory study."
+    }
+  ],
+  "sourceAccessLimits": [
+    "The indexed CAF correction body remains unread; its teaching requirement stays partial.",
+    "Bruger and the dormancy review remain abstract-only at the adopted scope.",
+    "Hanahan 2022 direct raw publisher access was blocked; the resolved abstract and primary Figure 1 caption supply the version/category statements.",
+    "An initial guessed Cell access route was rejected before adoption; only the Crossref-resolved correction PII is used.",
+    "Earlier historical catalogue claims outside the mapped teaching were retained at their existing source scope, not blanket re-certified."
+  ],
+  "positiveDoiRegistryAdditions": [
+    {
+      "pmid": "10373119",
+      "doi": "10.1126/science.284.5422.1994",
+      "title": "Vessel cooption, regression, and growth in tumors mediated by angiopoietins and VEGF.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "11292861",
+      "doi": "10.1126/science.1059796",
+      "title": "Targeting of HIF-alpha to the von Hippel-Lindau ubiquitylation complex by O2-regulated prolyl hydroxylation.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "12098689",
+      "doi": "10.1126/science.1073096",
+      "title": "Cancer. Addiction to oncogenes--the Achilles heal of cancer.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "15172975",
+      "doi": "10.1158/0008-5472.can-04-0074",
+      "title": "Vascular normalization by vascular endothelial growth factor receptor 2 blockade induces a pressure gradient across the vasculature and improves drug penetration in tumors.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "15607960",
+      "doi": "10.1016/j.ccr.2004.10.011",
+      "title": "Kinetics of vascular normalization by VEGFR2 blockade governs brain tumor response to radiation: role of oxygenation, angiopoietin-1, and matrix metalloproteinases.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "17957189",
+      "doi": "10.1038/nrc2256",
+      "title": "Models, mechanisms and clinical evidence for cancer dormancy.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "18026089",
+      "doi": "10.1038/nature06309",
+      "title": "Adaptive immunity maintains occult cancer in an equilibrium state.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "18160686",
+      "doi": "10.1056/nejmoa072113",
+      "title": "Paclitaxel plus bevacizumab versus paclitaxel alone for metastatic breast cancer.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "19269363",
+      "doi": "10.1016/j.cell.2009.02.024",
+      "title": "Principles of cancer therapy: oncogene and non-oncogene addiction.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "22121166",
+      "doi": "10.1136/bmj.d7684",
+      "title": "FDA cancels approval for bevacizumab in advanced breast cancer.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "22304911",
+      "doi": "10.1016/j.cell.2012.01.021",
+      "title": "Hypoxia-inducible factors in physiology and medicine.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "22318521",
+      "doi": "10.1038/nature10755",
+      "title": "Cancer exome analysis reveals a T-cell-dependent mechanism of cancer immunoediting.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "23728425",
+      "doi": "10.1038/ncb2767",
+      "title": "The perivascular niche regulates breast tumour dormancy.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "26780609",
+      "doi": "10.1038/ng.3489",
+      "title": "Identification of neutral tumor evolution across cancer types.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "28417112",
+      "doi": "10.1126/sciimmunol.aaf8943",
+      "title": "Lectin-type oxidized LDL receptor-1 distinguishes population of human polymorphonuclear myeloid-derived suppressor cells in cancer patients.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "28813661",
+      "doi": "10.1016/j.immuni.2017.07.014",
+      "title": "Tissue-Resident Macrophages in Pancreatic Ductal Adenocarcinoma Originate from Embryonic Hematopoiesis and Promote Tumor Progression.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "29785656",
+      "doi": "10.1007/s00262-018-2170-8",
+      "title": "How to measure the immunosuppressive activity of MDSC: assays, problems and potential solutions.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "30193111",
+      "doi": "10.1016/j.cell.2018.08.039",
+      "title": "A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "31327527",
+      "doi": "10.1016/j.cell.2019.06.024",
+      "title": "An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "31395785",
+      "doi": "10.1126/science.aax3649",
+      "title": "A dominant-negative effect drives selection of <i>TP53</i> missense mutations in myeloid malignancies.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "7539918",
+      "doi": "10.1073/pnas.92.12.5510",
+      "title": "Hypoxia-inducible factor 1 is a basic-helix-loop-helix-PAS heterodimer regulated by cellular O2 tension.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "9823898",
+      "doi": "10.1038/24179",
+      "title": "The murine gene p27Kip1 is haplo-insufficient for tumour suppression.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "28843279",
+      "doi": "10.1016/j.ccell.2015.11.002",
+      "title": "Depletion of Carcinoma-Associated Fibroblasts and Fibrosis Induces Immunosuppression and Accelerates Pancreas Cancer with Reduced Survival.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "35589842",
+      "doi": "10.1038/s41586-022-04735-9",
+      "title": "Neoantigen quality predicts immunoediting in survivors of pancreatic cancer.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "31867322",
+      "doi": "10.3389/fbioe.2019.00397",
+      "title": "Quantitative Visualization of Hypoxia and Proliferation Gradients Within Histological Tissue Sections.",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "30374075",
+      "doi": "10.1038/s41588-018-0258-x",
+      "title": "Neutral tumor evolution?",
+      "identity": "Resolved in Europe PMC MED and raw abstract read where present; new identities also resolved through Crossref."
+    },
+    {
+      "pmid": "38965423",
+      "doi": "10.1038/s41416-024-02745-0",
+      "title": "ATR, CHK1 and WEE1 inhibitors cause homologous recombination repair deficiency to induce synthetic lethality with PARP inhibitors.",
+      "identity": "Resolved in Crossref and Europe PMC; complete raw abstract read; matched-model scope retained."
+    }
+  ],
+  "elicit": "No callable Elicit tool; frozen prior discovery retained, with no invented question, report link, JSON response or scientific verification."
+}

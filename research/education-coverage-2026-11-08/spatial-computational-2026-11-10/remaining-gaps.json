@@ -1,0 +1,242 @@
+{
+  "sourceAccessAndReadingLimits": {
+    "batch": "round8-spatial-computational-completion",
+    "stage": "completion (round 8)",
+    "status": "All 173 rows now addressed (0 uncovered): 69 credited (57 applied text, 5 applied as figure interpretation in notes, 7 already covered by existing records) and 104 patch-ready for owners outside the allowed set. Patch-ready rows earn no integrated credit until the coordinator applies the patches.",
+    "denominators": {
+      "requirements": 173,
+      "priorCredited": 57,
+      "priorOpenOrPartial": 116,
+      "priorOpenNowAddressed": 116,
+      "priorOpenStillUnmapped": 0,
+      "nowAppliedOrExistingCredited": 69,
+      "appliedText": 57,
+      "appliedFigureReadingInNotes": 5,
+      "coveredExisting": 7,
+      "patchReadyNotCredited": 104,
+      "uncovered": 0,
+      "sourceBlockedAndWithheldRows": 1,
+      "titleLevelRows": 1,
+      "byDisposition": {
+        "covered-existing": 7,
+        "patch-ready": 102,
+        "patch-ready-partly-title-level": 1,
+        "covered-applied": 57,
+        "covered-applied-figure-reading": 5,
+        "patch-ready-claim-partly-withheld": 1
+      },
+      "perPage": {
+        "analytical-validity-clinical-validity-and-utility": {
+          "total": 9,
+          "credited": 1,
+          "patchReady": 8
+        },
+        "binding-prediction": {
+          "total": 11,
+          "credited": 1,
+          "patchReady": 10
+        },
+        "foundation-models": {
+          "total": 8,
+          "credited": 8,
+          "patchReady": 0
+        },
+        "model-validation-basics": {
+          "total": 11,
+          "credited": 1,
+          "patchReady": 10
+        },
+        "multi-omic-integration": {
+          "total": 13,
+          "credited": 13,
+          "patchReady": 0
+        },
+        "overfitting": {
+          "total": 10,
+          "credited": 10,
+          "patchReady": 0
+        },
+        "variant-effect-prediction": {
+          "total": 12,
+          "credited": 12,
+          "patchReady": 0
+        },
+        "virtual-cell-model": {
+          "total": 14,
+          "credited": 1,
+          "patchReady": 13
+        },
+        "cell-segmentation": {
+          "total": 9,
+          "credited": 1,
+          "patchReady": 8
+        },
+        "imaging-mass-cytometry": {
+          "total": 8,
+          "credited": 0,
+          "patchReady": 8
+        },
+        "immunopeptidomics": {
+          "total": 12,
+          "credited": 2,
+          "patchReady": 10
+        },
+        "mass-spectrometry-proteomics": {
+          "total": 9,
+          "credited": 0,
+          "patchReady": 9
+        },
+        "multiplex-immunofluorescence": {
+          "total": 9,
+          "credited": 9,
+          "patchReady": 0
+        },
+        "phosphoproteomics": {
+          "total": 9,
+          "credited": 0,
+          "patchReady": 9
+        },
+        "rppa": {
+          "total": 9,
+          "credited": 0,
+          "patchReady": 9
+        },
+        "spatial-transcriptomics": {
+          "total": 10,
+          "credited": 10,
+          "patchReady": 0
+        },
+        "targeted-proteomics-and-loq": {
+          "total": 10,
+          "credited": 0,
+          "patchReady": 10
+        }
+      }
+    },
+    "remainingWork": {
+      "patchReadyRowsByOwnerPatch": {
+        "P01:analytical-vs-clinical-validation": 8,
+        "P02:peptide-hla-binding-prediction": 10,
+        "P03:cross-validation": 1,
+        "P03:external-validation": 3,
+        "P03:train-test-discipline": 8,
+        "P04:virtual-cell-models": 13,
+        "P05:cell-segmentation": 8,
+        "P06:imaging-mass-cytometry": 8,
+        "P07:immunopeptidomics": 10,
+        "P08:mass-spec-proteome": 9,
+        "P09:proteomics": 9,
+        "P10:rppa": 9,
+        "P11:detection-versus-quantification": 3,
+        "P11:targeted-proteomics-quantification": 9
+      },
+      "evidenceGradeOfPatchReadyRows": {
+        "primary or official text read": 56,
+        "OnCo teaching inference (no empirical claim)": 48
+      },
+      "rowsGradedAsOnCoInferenceOnly": 48,
+      "note": "Rows graded as inference are reading rules labelled as inference in the proposed text itself; no empirical claim rests on them."
+    },
+    "sourceGapsAndWithheldClaims": [
+      {
+        "item": "FFPE adaptation attributed to Sirois 2021",
+        "state": "withheld",
+        "detail": "JoVE returned HTTP 202 with no body; one Europe PMC query and one Crossref query found no alternative primary source stating it. The patch states only the read frozen-tissue fact (row immunopeptidomics::ffpe-compatibility is partly withheld)."
+      },
+      {
+        "item": "IC50 versus inhibition constant",
+        "state": "title-level only",
+        "detail": "Cheng and Prusoff 1973 has no abstract in Europe PMC; the NCBI Assay Guidance Manual returned a challenge page. The statement is graded as inference (row binding-prediction::ba-vs-el-ic50)."
+      },
+      {
+        "item": "FDA-NIH BEST glossary",
+        "state": "source-blocked",
+        "detail": "reCAPTCHA interstitial again; not bypassed; nothing adopted."
+      },
+      {
+        "item": "NCI Dictionary of Cancer Terms kinase and phosphatase",
+        "state": "source-blocked",
+        "detail": "client-rendered shell without definition text; the claim is credited to the existing phosphorylation record."
+      },
+      {
+        "item": "10x Genomics documentation",
+        "state": "source-blocked",
+        "detail": "HTTP 429 on retry; not adopted."
+      },
+      {
+        "item": "Ensembl live page",
+        "state": "replaced",
+        "detail": "Live URL returned HTTP 504 repeatedly; the June 2026 archive (release 116) was read instead. The round-3 Ensembl capture had been overwritten by a failed background fetch; the finding it supported was re-verified from the archive page."
+      },
+      {
+        "item": "NCI biomarker testing page claim",
+        "state": "not adopted",
+        "detail": "The cited page does not state the lesson claim; ESCAT 2018 (abstract read) carries the actionability point instead."
+      },
+      {
+        "item": "Elicit",
+        "state": "unavailable",
+        "detail": "No Elicit tool exists in this session; no occurrences were supplied; no query invented."
+      },
+      {
+        "item": "Depth of reading",
+        "state": "limit",
+        "detail": "No paper was read in full; each source lists the passages read. Many adopted claims rest on abstracts, which is stated in the evidence cards."
+      }
+    ],
+    "figureStatus": {
+      "familiesViewedLightAndDark": 15,
+      "renderFilesViewed": 30,
+      "noScientificDefectFound": true,
+      "legibilityNotes": [
+        "variant-transcript figure leaves a blank band under panel 2",
+        "peptide-response figure title touches the right edge in both renders"
+      ],
+      "assetsCarriedByOnCoRecords": 0,
+      "teachingRepresentedAs": "figure readings in notes (applied for six owned records, patch-ready for the rest)"
+    },
+    "pendingOwnerNote": "Eleven pending or baseline owners outside the allowed set are patched only in proposals; blocked owners cannot be edited here. Pending snapshots pr-371 and pr-373 were compared with the round-3 copies: all fourteen relevant records are byte-identical, so no refresh of text was needed, only new anchors and hashes.",
+    "coordinatorTasks": [
+      "Register the unregistered module and run the full suites.",
+      "Apply patches P01 to P11 (record-changes.json) to their owners; each lists the rows it addresses.",
+      "Refresh src/data/doi-exists.json for these new DOIs: 10.1016/j.ajhg.2022.10.013, 10.1016/j.annonc.2026.09.008, 10.1016/j.cell.2024.11.015, 10.1016/S0140-6736(05)17866-0, 10.1038/nature18003, 10.1038/nbt.2931, 10.1038/s41587-020-0472-9, 10.1038/s41587-021-01044-w, 10.1038/s41592-021-01264-7, 10.1038/s41592-025-02772-6, 10.1073/pnas.2018488117, 10.1126/science.aaf2403, 10.1136/bmj-2023-078378, 10.1136/jitc-2020-002197, 10.1186/s13059-025-03574-x, 10.1371/journal.pcbi.1002240, 10.15252/msb.20178124, 10.7554/eLife.31657",
+      "Check reader-summary and i18n consumers for the two new terms and the edited records (not touched).",
+      "The pathway-activation-state record changed at coordinator head 3edd678bf; review whether the phosphoproteomics teaching in P09 should also link to it."
+    ],
+    "schemaProposals": [
+      {
+        "id": "S1",
+        "title": "Structured measurement card",
+        "status": "WITHDRAWN as unjustified for now",
+        "reason": "The Notes section of EntityDetail renders any notes array as bullets, and the card content is now carried in notes (applied here for six records, patch-ready for eleven owners). No current consumer needs per-field values.",
+        "conditionalRevival": "Only if the owner wants a cross-assay comparison view or a filter on one card field (for example \"consumes the section\" or \"needs frozen tissue\"): that would need a typed measurementCard object on term and technology records, a validator for allowed keys and a renderer. No such consumer exists in the repository (searched src, scripts and docs for measurementCard, assayCard and tissue cost). A product change needing owner approval; not applied."
+      },
+      {
+        "id": "S2",
+        "title": "Figure carrier",
+        "status": "NOT PROPOSED",
+        "reason": "The Guide figures are Guide assets. Their teaching is represented as figure readings in notes. A figure field is only justified if the owner chooses to reuse Guide artwork on OnCo pages, which is outside this batch."
+      }
+    ],
+    "notClaimed": [
+      "No integrated graph credit for any patch-ready row.",
+      "No open-weight model evaluation (separate follow-up).",
+      "No claim that every lesson sentence is itemised: the requirement list is a reading of the lessons, and a residual unitemised sentence would be an omission of this stage; none was found on a final pass."
+    ]
+  },
+  "coordinatorResolution": "All 173 semantic learning requirements have current canonical fields and actual reader/export evidence. The specific positive FFPE adaptation assertion is withheld rather than adopted; it remains an adjacent source gap.",
+  "adjacentOpenIds": [
+    "spatial-paper-owner-census",
+    "spatial-mif-clinical-prediction",
+    "spatial-ffpe-immunopeptidomics",
+    "spatial-segmentation-error-taxonomy",
+    "spatial-lead-time-monitoring",
+    "spatial-model-landscape-scope"
+  ],
+  "workerQueueReconciliation": {
+    "IC50": "Resolved by Cer 2009 within biochemical scope",
+    "crossLinks": "New subjects have inbound links; orphan floor unchanged",
+    "assayCardSchema": "Not required; existing notes consumer is used"
+  },
+  "otherLimits": "Abstract and targeted-passage depths are not full-text certification. Figure and method teaching do not imply clinical validation. No new Next production build, browser hydration, hosted review, expert sign-off, merge or deployment."
+}

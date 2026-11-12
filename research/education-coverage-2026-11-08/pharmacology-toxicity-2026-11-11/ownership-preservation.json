@@ -1,0 +1,62 @@
+{
+  "root": {
+    "beforeGraph": 22805,
+    "afterGraph": 22810,
+    "changedIds": [
+      "adc-side-effects-breast",
+      "antiemetic-therapy",
+      "backbone-add-on",
+      "chemical-probe",
+      "crs",
+      "ctcae-grading",
+      "dose",
+      "dose-dense-chemotherapy",
+      "dose-modification",
+      "drug-efflux-pumps",
+      "drug-target-and-mechanism",
+      "efflux-pump",
+      "febrile-neutropenia",
+      "g-csf-growth-factors",
+      "half-life",
+      "icans",
+      "ild",
+      "insertional-mutagenesis",
+      "irae",
+      "lymphodepletion",
+      "lymphoma-bio-lineage-antigen-cost",
+      "lymphoma-tx-crs-icans",
+      "mechanism-of-action-recovery",
+      "neutropenia",
+      "on-target-off-tumour-toxicity",
+      "ovarian-function-after-chemotherapy",
+      "ovarian-function-suppression",
+      "payload",
+      "pharmacokinetics",
+      "pneumonitis",
+      "pulmonary-function-testing",
+      "radiation-pneumonitis",
+      "roc-auc",
+      "secondary-malignancy",
+      "side-effect-vs-adverse-event",
+      "small-molecule",
+      "synthetic-lethality",
+      "synthetic-lethality-approaches",
+      "targeted-therapy-term",
+      "therapeutic-index"
+    ],
+    "outsideOwnedIds": [],
+    "moduleRegistered": true,
+    "wholeGraphFingerprintsCompared": true
+  },
+  "peer": {
+    "beforeGraph": 22712,
+    "afterGraph": 22712,
+    "changedIds": [
+      "drug-target-engagement",
+      "on-target-drug-validation"
+    ],
+    "outsideOwnedIds": [],
+    "moduleRegistered": false,
+    "wholeGraphFingerprintsCompared": true
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "priorSourceReviews": [
+    {
+      "version": "original",
+      "path": "wiki/education/concepts/therapeutics/antibody-based/immune-stimulating-adc.md",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex first-pass content audit; not an expert sign-off",
+        "checkedAt": "2026-11-08",
+        "rationale": "Read all general teaching and worked examples, including evidence and source-scope sections. Patient-specific content is excluded. The curriculum is a discovery source; categorical claims and current clinical details require independent verification. Canonical field matching and supplementation are tracked below. Follow-up canonical review against draft #369: independent publication identities/available abstracts, specified correction notices and raw registry fields were read; represented claims retain experiment, clinical and source-conflict scopes. No unseen full paper or expert sign-off is claimed.",
+        "sectionHashes": [
+          "615c607e8ba6d7da899ce42d899e78c168b8c4e5e56a29477b7615e2e60d520b",
+          "6f9223925a315758ba663ef8cc8c8f4850addb8b5c2d149589cac24679227b5c",
+          "d94018a6c65681f99562229bec9455e7bc8699cc84e66091998f1a6d73374526",
+          "4c7bf1fd3dfd3250755c6ae9f7c48a1d19f83e63992659d3b9887d2bfb4abb7e",
+          "65b0566b8b62e701060848a148d5ca055644ef48cf3193330281fcd7637bb375",
+          "d98d97d19bfa5611556d281989a7d3aaeb0466345b66f57c699bf815db6f45e3",
+          "f979a96759a4df695d576a4d1e51234b4a102422b3d642012c9d6e440bb1b752",
+          "8b8a2e83980aae372b353311fb0546f2ae30d6a6b8d044aaaf791862ebb71b15",
+          "b56aa54cad0c895ca3433859bab22627b15cc6a2906d1d626adbb817be57a079",
+          "1116aad13ba15cc0fc0ca9c6714625f0aeca088cea22b3654957534d8fddbf2f"
+        ],
+        "points": [
+          {
+            "id": "intended-agonism",
+            "requirement": "Distinguish an attached innate agonist from incidental immune effects of a conventional cytotoxic ADC or T-cell bridging.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "immune-stimulating-adc",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "3bc07b566d90c698c33c427cdfb9fbf3146c672b333285d093fb4add18d9001b",
+                "explanation": "Defines deliberately attached innate agonists, separately from secondary cytotoxic inflammation and T-cell bridging."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "cell-route",
+            "requirement": "Retain construct-specific STING or TLR sensing, antigen and Fc-dependent uptake routes and relevant cancer or immune-cell context.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "immune-stimulating-adc",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "3bc07b566d90c698c33c427cdfb9fbf3146c672b333285d093fb4add18d9001b",
+                "explanation": "Retains distinct antigen/Fc uptake and TLR or STING signaling in tested cancer or immune compartments."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "priming-limits",
+            "requirement": "Separate inflammatory activation from antigen presentation, functional T-cell recruitment and durable tumor killing.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "immune-stimulating-adc",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "5043b69fc9ad082249ee6854453d48fd61042ff7e5f06178e6e484ced37c4b01",
+                "explanation": "Separates uptake, innate cytokine activation, antigen presentation, functional responding cells and target-cell death."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "window-status",
+            "requirement": "Retain systemic cytokine, immunogenicity and adaptive-resistance questions and distinguish trial discontinuation reasons from proof of biological failure.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "immune-stimulating-adc",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "5043b69fc9ad082249ee6854453d48fd61042ff7e5f06178e6e484ced37c4b01",
+                "explanation": "Retains systemic inflammation, anti-drug antibodies, counter-regulation and exact study termination reasons."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "evidence-stage",
+            "requirement": "Keep cell or mouse immune memory, early human pharmacodynamic or safety observations and clinical efficacy separate.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "immune-stimulating-adc",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "5043b69fc9ad082249ee6854453d48fd61042ff7e5f06178e6e484ced37c4b01",
+                "explanation": "Keeps mouse-model immune findings, NJH395 human pharmacodynamics/harms and comparative benefit separate; the cohort is non-breast."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "supersededBy": "This source-first inventory refines the earlier coarse checks; the old points are not added to the denominator."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/concepts/therapeutics/antibody-based/next-generation-top1-payloads.md",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex first-pass content audit; not an expert sign-off",
+        "checkedAt": "2026-11-08",
+        "rationale": "Read all general teaching and worked examples, including evidence and source-scope sections. Patient-specific content is excluded. The curriculum is a discovery source; categorical claims and current clinical details require independent verification. Canonical field matching and supplementation are tracked below. Follow-up canonical review against draft #369: independent publication identities/available abstracts, specified correction notices and raw registry fields were read; represented claims retain experiment, clinical and source-conflict scopes. No unseen full paper or expert sign-off is claimed.",
+        "sectionHashes": [
+          "d1c6109a8b0f61534f0b633f626971669f66d8c08721b186d980bf2a547aa501",
+          "9d272bc5fd48f4db44ce70a5d63acdec489572fb9ac5bfb3c3eb935ca3e0853e",
+          "0e29179c79f40a441915235689b524ea0a17fa9597ebb9f215c4946f1e59c4ec",
+          "7e54ee31a0aa374f450f6001c1d216a8f1032864f119f873c171181aaff16cd0",
+          "28e9dde031129c0861c785b9f212b7cd652287347127eb1a4fc6ceee80edf2ab",
+          "c14196ca0e0fd3ca1bbdbe2f0cc11352aaacd401f88acdc1382391e03abd22e9",
+          "f5980e0851b61bb6416d876275dc73410693839b933214ae8832461d6f7fe916",
+          "1d3ac12e7f806df8120bd0148eae2dc10a0e0d60732a9ff8ba0fb6726d21edda",
+          "fbf7ad80ce03d896d9b05c60626fbb616a584840de0643b2c802aa628fee2844",
+          "5c3e872fd024edf1e46e20feeeba139ae1ab6906448881f4eb63446faa19bca7",
+          "20491a46474d04bb219c25db33efe87f4c7329710fecc41f961cba65be6853f0"
+        ],
+        "points": [
+          {
+            "id": "same-mechanism",
+            "requirement": "Distinguish a redesigned TOP1 chemical species from changing payload mechanism, and separate poisoning the cleavage complex from simply switching the enzyme off.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "topoisomerase-i-payloads",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "f58f94976ed5c1c841daec00604532a1a5f2b1034dbd50770f7fe9e48734a08e",
+                "explanation": "Defines stabilization of TOP1-DNA cleavage complexes and distinguishes new chemical species from changing mechanism."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "design-levers",
+            "requirement": "Retain potency, efflux handling, permeability, release and activity against defined mutants as different tested properties.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "topoisomerase-i-payloads",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "f58f94976ed5c1c841daec00604532a1a5f2b1034dbd50770f7fe9e48734a08e",
+                "explanation": "Keeps potency, transport, permeability, stability and release as separately tested properties."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "model-limits",
+            "requirement": "Separate engineered resistance models and selected patient mutation evidence from demonstrated post-ADC clinical benefit.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "topoisomerase-i-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "c29a6de1a8b44a44eccaa873792dbcb0ae388ce7df2ad7bc01591a6f69c656b9",
+                "explanation": "Scopes efflux models, defined acquired mutations, retrospective association and medicinal chemistry separately from post-ADC clinical benefit."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "remaining-dependencies",
+            "requirement": "Retain target delivery, TOP1 availability and cell-response or repair dependencies; no one redesign guarantees escape.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "topoisomerase-i-payloads",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "f58f94976ed5c1c841daec00604532a1a5f2b1034dbd50770f7fe9e48734a08e",
+                "explanation": "Retains delivery, target availability, repair/cell response and tolerated exposure; redesign offers no universal bypass."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "assays",
+            "requirement": "Compare actual released species, matched exposure, transporter perturbations, local versus distant neighbor models and defined mutant assays with controls.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "topoisomerase-i-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "c29a6de1a8b44a44eccaa873792dbcb0ae388ce7df2ad7bc01591a6f69c656b9",
+                "explanation": "Requires actual released species, matched exposure, transporter perturbations, local/distant controls and defined mutant assays."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "supersededBy": "This source-first inventory refines the earlier coarse checks; the old points are not added to the denominator."
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/concepts/therapeutics/antibody-based/transcription-inhibitor-payloads.md",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex first-pass content audit; not an expert sign-off",
+        "checkedAt": "2026-11-08",
+        "rationale": "Read all general teaching and worked examples, including evidence and source-scope sections. Patient-specific content is excluded. The curriculum is a discovery source; categorical claims and current clinical details require independent verification. Canonical field matching and supplementation are tracked below. Follow-up canonical review against draft #369: independent publication identities/available abstracts, specified correction notices and raw registry fields were read; represented claims retain experiment, clinical and source-conflict scopes. No unseen full paper or expert sign-off is claimed.",
+        "sectionHashes": [
+          "b838644e9d92ac64c2aabd4a157acea3c230a82a30b6bd5da66996a419265ba0",
+          "24221e94e2bd86f4b8e38e3050e7967c1033dc99c72da373762cc257652223a3",
+          "90c9fb8b9a7ed66644426a08808c622e5b942c572ebfca94a4328d2709a5c3e0",
+          "268bf86c9920ff31702f68dee8a830f98a20d0901a7fba3edc9a69669ddf4e54",
+          "c39dd25bcc5e926faba006c6f55e44f0f4440d3f01d0349d720f2e04b6161858",
+          "76258fb108ae39766ee83fd66c156b099f22dffe7bfc8912d2f90740b117ecea",
+          "9852f02c4049431a8abc2d9ecb5bb5188f17cdf45bd2f50a38bd60352b076b5c",
+          "05d1251b3bc63070bee43349286c48d8502fd60ec059a9c7cee3f06f26ef8e6c",
+          "bc28825c66f30196800f7e757b9cc95adceb88981f47dd32ba6b03d72a7a6951",
+          "5571b698e40c4f085362636a22501c5e664aada5f813de865f9dd4abc0c6d09e"
+        ],
+        "points": [
+          {
+            "id": "mechanism",
+            "requirement": "Distinguish transcription inhibition, DNA replication and TOP1 or microtubule damage, including amanitin and other transcription-directed chemistry.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "transcription-inhibitor-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e",
+                "explanation": "Separates RNA synthesis, DNA replication, polymerase II and other transcription machinery."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "resting-cell-scope",
+            "requirement": "Retain model-specific killing of resting cells without assuming tumor specificity or eradication of every dormant cell.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "transcription-inhibitor-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e",
+                "explanation": "Scopes resting-cell activity to the tested HDP-101 models; it does not establish dormant-clone eradication or tumor specificity."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "collateral-vulnerability",
+            "requirement": "Explain POLR2A dosage or co-deletion as a tested collateral-vulnerability hypothesis rather than a universal TP53 mutation biomarker.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "transcription-inhibitor-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e",
+                "explanation": "Distinguishes measured POLR2A dosage/co-deletion from TP53 point mutation and clinical selection."
+              },
+              {
+                "recordId": "polr2a",
+                "version": "draft-369",
+                "field": "summary",
+                "fieldSha256": "858e6f53e46ce7d6d7c03fc3b1f448be1cfae79c0ec7bed40f2a26c86e785d14",
+                "explanation": "Canonical target independently identifies POLR2A and the conditional dosage hypothesis."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "delivery-toxicity",
+            "requirement": "Retain normal-tissue transcription, hepatic uptake, released chemical species, delivery and linker-dependent exposure as safety questions.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "transcription-inhibitor-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e",
+                "explanation": "Retains normal-cell transcription, actual released chemistry, linker stability and antigen/OATP-mediated uptake as safety questions."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "evidence-status",
+            "requirement": "Keep corrected or retracted work, preclinical results, sponsor reports and trial registration separate from verified human benefit; do not infer conjugate activity from nanoparticle siRNA studies.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "transcription-inhibitor-payloads",
+                "version": "draft-369",
+                "field": "notes",
+                "fieldSha256": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e",
+                "explanation": "Distinguishes corrected/retracted studies, siRNA nanoparticles, conjugates, sponsor reports, registries and patient outcomes."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "supersededBy": "This source-first inventory refines the earlier coarse checks; the old points are not added to the denominator."
+    }
+  ],
+  "priorAssetReviews": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "GPT-6.1 Sol coordinator; semantic and source assessment at stated primary/inference scope, not blind, expert, learner or language acceptance",
+        "checkedAt": "2026-11-11",
+        "sectionHashes": [
+          "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+        ],
+        "rationale": "Complete light and dark files viewed at full extent; SVGs rendered in Chrome, PNG themes inspected independently. Only the illustrated teaching receives points. One minor label-spacing issue is queued. No live Guide, accessibility or scientific expert certification.",
+        "points": [
+          {
+            "id": "IND-033",
+            "requirement": "Fictional Drug Z: four 10-unit doses; windows 0-4 wk and 0-8 wk with a declared final nominal interval; cumulative 40 both; intensity 40/4=10 and 40/8=5 units/week; with A as reference B is 50% intensity, not 50% benefit.",
+            "status": "covered-draft",
+            "remaining": [],
+            "evidence": [
+              {
+                "recordId": "dose-dense-chemotherapy",
+                "version": "proposal-pharmacology-toxicity-root",
+                "field": "notes",
+                "fieldSha256": "a8625e54acf2261703357d5da7d2e9419ff01ff4b7b374ad4550575a85f58bd0",
+                "explanation": "The declared final-interval convention makes equal 40-unit totals yield 10 versus 5 units per week, without halving benefit.",
+                "supportingExcerpt": "In the fictional four-dose example, both schedules use the same Drug Z and formulation. The first window is week 0 up to week 4, with administrations at weeks 0, 1, 2 and 3; the second is week 0 up to week 8, with administrations at weeks 0, 2, 4 and 6. Each declared window includes one nominal final interval and no administration at its right endpoint. Both totals are 40 arbitrary units, but the intensities are 10 and 5 units per week. A different final-cycle convention needs its own definition. Cumulative dose retains amount units; intensity adds a time denominator; relative intensity is the dimensionless ratio to a stated reference.",
+                "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380"
+              }
+            ]
+          }
+        ]
+      },
+      "reconciliation": "The new unit-17 arithmetic point retains the entire fixed-window premise; unit 20 adds the no-benefit-or-safety inference. No new asset path is counted for this repeat review."
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "GPT-6.1 Sol coordinator; semantic and source assessment at stated primary/inference scope, not blind, expert, learner or language acceptance",
+        "checkedAt": "2026-11-11",
+        "sectionHashes": [
+          "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+        ],
+        "rationale": "Complete light and dark files viewed at full extent; SVGs rendered in Chrome, PNG themes inspected independently. Only the illustrated teaching receives points. One minor label-spacing issue is queued. No live Guide, accessibility or scientific expert certification.",
+        "points": [
+          {
+            "id": "IND-033",
+            "requirement": "Fictional Drug Z: four 10-unit doses; windows 0-4 wk and 0-8 wk with a declared final nominal interval; cumulative 40 both; intensity 40/4=10 and 40/8=5 units/week; with A as reference B is 50% intensity, not 50% benefit.",
+            "status": "covered-draft",
+            "remaining": [],
+            "evidence": [
+              {
+                "recordId": "dose-dense-chemotherapy",
+                "version": "proposal-pharmacology-toxicity-root",
+                "field": "notes",
+                "fieldSha256": "a8625e54acf2261703357d5da7d2e9419ff01ff4b7b374ad4550575a85f58bd0",
+                "explanation": "The declared final-interval convention makes equal 40-unit totals yield 10 versus 5 units per week, without halving benefit.",
+                "supportingExcerpt": "In the fictional four-dose example, both schedules use the same Drug Z and formulation. The first window is week 0 up to week 4, with administrations at weeks 0, 1, 2 and 3; the second is week 0 up to week 8, with administrations at weeks 0, 2, 4 and 6. Each declared window includes one nominal final interval and no administration at its right endpoint. Both totals are 40 arbitrary units, but the intensities are 10 and 5 units per week. A different final-cycle convention needs its own definition. Cumulative dose retains amount units; intensity adds a time denominator; relative intensity is the dimensionless ratio to a stated reference.",
+                "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380"
+              }
+            ]
+          }
+        ]
+      },
+      "reconciliation": "The new unit-17 arithmetic point retains the entire fixed-window premise; unit 20 adds the no-benefit-or-safety inference. No new asset path is counted for this repeat review."
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "GPT-6.1 Sol coordinator; semantic and source assessment at stated primary/inference scope, not blind, expert, learner or language acceptance",
+        "checkedAt": "2026-11-11",
+        "sectionHashes": [
+          "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905"
+        ],
+        "rationale": "Complete light and dark files viewed at full extent; SVGs rendered in Chrome, PNG themes inspected independently. Only the illustrated teaching receives points. One minor label-spacing issue is queued. No live Guide, accessibility or scientific expert certification.",
+        "points": [
+          {
+            "id": "IND-033",
+            "requirement": "Fictional Drug Z: four 10-unit doses; windows 0-4 wk and 0-8 wk with a declared final nominal interval; cumulative 40 both; intensity 40/4=10 and 40/8=5 units/week; with A as reference B is 50% intensity, not 50% benefit.",
+            "status": "covered-draft",
+            "remaining": [],
+            "evidence": [
+              {
+                "recordId": "dose-dense-chemotherapy",
+                "version": "proposal-pharmacology-toxicity-root",
+                "field": "notes",
+                "fieldSha256": "a8625e54acf2261703357d5da7d2e9419ff01ff4b7b374ad4550575a85f58bd0",
+                "explanation": "The declared final-interval convention makes equal 40-unit totals yield 10 versus 5 units per week, without halving benefit.",
+                "supportingExcerpt": "In the fictional four-dose example, both schedules use the same Drug Z and formulation. The first window is week 0 up to week 4, with administrations at weeks 0, 1, 2 and 3; the second is week 0 up to week 8, with administrations at weeks 0, 2, 4 and 6. Each declared window includes one nominal final interval and no administration at its right endpoint. Both totals are 40 arbitrary units, but the intensities are 10 and 5 units per week. A different final-cycle convention needs its own definition. Cumulative dose retains amount units; intensity adds a time denominator; relative intensity is the dimensionless ratio to a stated reference.",
+                "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380"
+              }
+            ]
+          }
+        ]
+      },
+      "reconciliation": "The new unit-17 arithmetic point retains the entire fixed-window premise; unit 20 adds the no-benefit-or-safety inference. No new asset path is counted for this repeat review."
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "GPT-6.1 Sol coordinator; semantic and source assessment at stated primary/inference scope, not blind, expert, learner or language acceptance",
+        "checkedAt": "2026-11-11",
+        "sectionHashes": [
+          "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d"
+        ],
+        "rationale": "Complete light and dark files viewed at full extent; SVGs rendered in Chrome, PNG themes inspected independently. Only the illustrated teaching receives points. One minor label-spacing issue is queued. No live Guide, accessibility or scientific expert certification.",
+        "points": [
+          {
+            "id": "IND-033",
+            "requirement": "Fictional Drug Z: four 10-unit doses; windows 0-4 wk and 0-8 wk with a declared final nominal interval; cumulative 40 both; intensity 40/4=10 and 40/8=5 units/week; with A as reference B is 50% intensity, not 50% benefit.",
+            "status": "covered-draft",
+            "remaining": [],
+            "evidence": [
+              {
+                "recordId": "dose-dense-chemotherapy",
+                "version": "proposal-pharmacology-toxicity-root",
+                "field": "notes",
+                "fieldSha256": "a8625e54acf2261703357d5da7d2e9419ff01ff4b7b374ad4550575a85f58bd0",
+                "explanation": "The declared final-interval convention makes equal 40-unit totals yield 10 versus 5 units per week, without halving benefit.",
+                "supportingExcerpt": "In the fictional four-dose example, both schedules use the same Drug Z and formulation. The first window is week 0 up to week 4, with administrations at weeks 0, 1, 2 and 3; the second is week 0 up to week 8, with administrations at weeks 0, 2, 4 and 6. Each declared window includes one nominal final interval and no administration at its right endpoint. Both totals are 40 arbitrary units, but the intensities are 10 and 5 units per week. A different final-cycle convention needs its own definition. Cumulative dose retains amount units; intensity adds a time denominator; relative intensity is the dimensionless ratio to a stated reference.",
+                "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380"
+              }
+            ]
+          }
+        ]
+      },
+      "reconciliation": "The new unit-17 arithmetic point retains the entire fixed-window premise; unit 20 adds the no-benefit-or-safety inference. No new asset path is counted for this repeat review."
+    }
+  ],
+  "priorReviewerRequirements": 125,
+  "priorWorkerCuratedRequirements": 84,
+  "priorWorkerSentenceTableFigureUnits": 1077,
+  "relationship": "Retained historical inventories, not added to or substituted for the separate 255 original/276 later source-first instructional requirements.",
+  "priorPacketsPreserved": true
+}

@@ -1,0 +1,255 @@
+{
+  "simpleEntries": 25,
+  "removedStaleShortTranslations": 129,
+  "namedLanguageReview": 0,
+  "changes": [
+    {
+      "file": "src/data/simple/part-b.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "irae",
+        "icans",
+        "crs",
+        "synthetic-lethality",
+        "efflux-pump"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-d.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "antiemetic-therapy"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "drug-efflux-pumps"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-f.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "g-csf-growth-factors"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "secondary-malignancy",
+        "ctcae-grading",
+        "therapeutic-index",
+        "pharmacokinetics",
+        "backbone-add-on",
+        "dose-dense-chemotherapy",
+        "side-effect-vs-adverse-event",
+        "half-life"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-o.ts",
+      "kind": "replace-simple",
+      "ids": [
+        "small-molecule"
+      ]
+    },
+    {
+      "file": "src/data/simple/part-s.ts",
+      "kind": "add-simple",
+      "ids": [
+        "pneumonitis",
+        "insertional-mutagenesis",
+        "on-target-off-tumour-toxicity",
+        "pulmonary-function-testing",
+        "chemical-probe",
+        "drug-target-and-mechanism",
+        "lymphoma-bio-lineage-antigen-cost",
+        "lymphoma-tx-crs-icans"
+      ]
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "synthetic-lethality",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "efflux-pump",
+        "crs"
+      ]
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "synthetic-lethality",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "efflux-pump",
+        "crs"
+      ]
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "crs",
+        "synthetic-lethality",
+        "efflux-pump"
+      ]
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "synthetic-lethality",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "efflux-pump",
+        "crs"
+      ]
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "crs",
+        "synthetic-lethality",
+        "efflux-pump"
+      ]
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "synthetic-lethality",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "efflux-pump",
+        "crs"
+      ]
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "crs",
+        "synthetic-lethality",
+        "efflux-pump"
+      ]
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "kind": "remove-stale-short-for-English-fallback",
+      "ids": [
+        "small-molecule",
+        "ctcae-grading",
+        "backbone-add-on",
+        "secondary-malignancy",
+        "pharmacokinetics",
+        "half-life",
+        "dose-dense-chemotherapy",
+        "therapeutic-index",
+        "side-effect-vs-adverse-event",
+        "g-csf-growth-factors",
+        "antiemetic-therapy",
+        "drug-efflux-pumps",
+        "irae",
+        "icans",
+        "crs",
+        "synthetic-lethality",
+        "efflux-pump"
+      ]
+    }
+  ],
+  "actualSelectorChecks": 378,
+  "available": 110,
+  "EnglishFallback": 268,
+  "limits": "Unreviewed Simple-English text and existing dictionary text are not newly language-reviewed. Long cache selectors reject stale hashes."
+}

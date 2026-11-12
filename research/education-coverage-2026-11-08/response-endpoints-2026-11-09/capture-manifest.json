@@ -1,0 +1,222 @@
+[
+  {
+    "file": "nci-complete-response.html",
+    "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/complete-response",
+    "capturedAt": "2026-11-09T20:33:16.418906+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/complete-response",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 29258,
+    "sha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28"
+  },
+  {
+    "file": "fda-endpoints-2018.pdf",
+    "url": "https://www.fda.gov/media/71195/download?attachment=",
+    "capturedAt": "2026-11-09T20:33:16.419219+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/media/71195/download?attachment=",
+    "contentType": "application/pdf",
+    "bytes": 149478,
+    "sha256": "811f805c74540541e69ce3b173eb028f0d7db213898a7cc0288a7bc67285a4dd"
+  },
+  {
+    "file": "recist-1-1-2009.pdf",
+    "url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+    "capturedAt": "2026-11-09T20:33:16.419317+00:00",
+    "status": 200,
+    "finalURL": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf",
+    "contentType": "application/pdf",
+    "bytes": 778830,
+    "sha256": "baa2568abb1b41c23a943d34b7143e5fa4c9762857728c4af3bce85bfd47bae0"
+  },
+  {
+    "file": "recist-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/j.ejca.2008.10.026&resultType=core&format=json",
+    "capturedAt": "2026-11-09T20:33:16.419365+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/j.ejca.2008.10.026&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8082,
+    "sha256": "52d96d27b58672569eaa347d64cbfb6692181da66e635fe6fa6d678f0303ee36"
+  },
+  {
+    "file": "cbr-examples-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A23965901%20OR%20EXT_ID%3A29373071%29%20AND%20SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T20:44:15.966006+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A23965901%20OR%20EXT_ID%3A29373071%29%20AND%20SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 51476,
+    "sha256": "b2d93e5cfb962bd4ea9f2ee340dc38361da47a8130bdf542898aae259d41ae67"
+  },
+  {
+    "file": "irecist-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/",
+    "capturedAt": "2026-11-09T20:46:00.823819+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21471,
+    "sha256": "90f4bd9830215fc1be32eca293303bcb8a69bca25d66f94043075fb2e6305c83"
+  },
+  {
+    "file": "percist-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/",
+    "capturedAt": "2026-11-09T20:46:00.824142+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21472,
+    "sha256": "7d663b47000ba023d0492653cdc2e1b5eba206196721aadb1e22e216a4b298f5"
+  },
+  {
+    "file": "irecist-working-group.html",
+    "url": "https://recist.eortc.org/irecist/",
+    "capturedAt": "2026-11-09T20:46:00.824208+00:00",
+    "status": 200,
+    "finalURL": "https://recist.eortc.org/irecist/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 191196,
+    "sha256": "a1b11228b6a44a4b7777dc704ee8abe80aaf9f9d5df46aa0d017a4708ae56324"
+  },
+  {
+    "file": "gucalp-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4086643/",
+    "capturedAt": "2026-11-09T20:46:00.824314+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4086643/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21472,
+    "sha256": "e72851a95a9bbffdfeb72bf3794fd97f4c237b4a092b35e8da3144b40053fd54"
+  },
+  {
+    "file": "traina-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5858523/",
+    "capturedAt": "2026-11-09T20:46:01.028232+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5858523/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21470,
+    "sha256": "5966e58fa66e1a4211e5ab8c07de6db750af3d82c3d4634df18fdf20bf9de965"
+  },
+  {
+    "file": "irecist-epmc.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5648544/fullTextXML",
+    "capturedAt": "2026-11-09T20:47:54.555265+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "percist-epmc.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2755245/fullTextXML",
+    "capturedAt": "2026-11-09T20:47:54.555612+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "gucalp-epmc.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4086643/fullTextXML",
+    "capturedAt": "2026-11-09T20:47:54.555686+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "traina-epmc.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5858523/fullTextXML",
+    "capturedAt": "2026-11-09T20:47:54.555735+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "criteria-identity-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=&resultType=core&format=json",
+    "capturedAt": "2026-11-09T20:48:24.671634+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=&resultType=core&format=json",
+    "contentType": "application/json",
+    "bytes": 124,
+    "sha256": "0b877cc585a170e9a981848b28fc39840f0ac5783b9cfd9d82b196ac85850807"
+  },
+  {
+    "file": "qiba-profiles.html",
+    "url": "https://qibawiki.rsna.org/index.php/Profiles",
+    "capturedAt": "2026-11-09T20:48:24.671955+00:00",
+    "status": 200,
+    "finalURL": "https://qibawiki.rsna.org/index.php/Profiles",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 26962,
+    "sha256": "c98963a862f4d11a936146408709e1da73e4e4250f123c66528920ec4998ed3e"
+  },
+  {
+    "file": "qiba-claims-2016.pdf",
+    "url": "https://qibawiki.rsna.org/images/3/31/QIBAProfileClaimGuidance-2016.02.10.pdf",
+    "capturedAt": "2026-11-09T20:48:24.672028+00:00",
+    "status": 200,
+    "finalURL": "https://qibawiki.rsna.org/images/3/31/QIBAProfileClaimGuidance-2016.02.10.pdf",
+    "contentType": "application/pdf",
+    "bytes": 734911,
+    "sha256": "02dd35eb03bbed3504be3ceefc6cbfa0ac8edbafdb24dadebec3f73e6a56db77"
+  },
+  {
+    "file": "fda-quantitative-imaging-2022.pdf",
+    "url": "https://www.fda.gov/media/123271/download",
+    "capturedAt": "2026-11-09T20:48:24.672072+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/media/123271/download",
+    "contentType": "application/pdf",
+    "bytes": 633671,
+    "sha256": "88358d8bb11eceb3d87c9f47398d5c03d1d96d478bcc44ead412556679b22ba2"
+  },
+  {
+    "file": "criteria-med-resolved.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/S1470-2045%2817%2930074-8%20OR%20DOI%3A10.2967/jnumed.108.057307&resultType=core&format=json",
+    "capturedAt": "2026-11-09T20:49:13.901472+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016/S1470-2045%2817%2930074-8%20OR%20DOI%3A10.2967/jnumed.108.057307&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 229,
+    "sha256": "10d7bcec01c96377d8e61edc88591e1c3babff30321432dd42d07918e74ac1c9"
+  },
+  {
+    "file": "criteria-med-quoted.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016/S1470-2045%2817%2930074-8%22%20OR%20DOI%3A%2210.2967/jnumed.108.057307%22&resultType=core&format=json",
+    "capturedAt": "2026-11-09T20:49:50.206502+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016/S1470-2045%2817%2930074-8%22%20OR%20DOI%3A%2210.2967/jnumed.108.057307%22&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 18658,
+    "sha256": "7c0f59bee2b1054ab3dda9dcd8ca400799bda2fda14a51b8eea28117d3596049"
+  },
+  {
+    "file": "irecist-free.pdf",
+    "url": "https://europepmc.org/articles/PMC5648544?pdf=render",
+    "capturedAt": "2026-11-09T20:50:56.900697+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "percist-free.pdf",
+    "url": "https://europepmc.org/articles/PMC2755245?pdf=render",
+    "capturedAt": "2026-11-09T20:50:56.901001+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "traina-free.pdf",
+    "url": "https://europepmc.org/articles/PMC5858523?pdf=render",
+    "capturedAt": "2026-11-09T20:50:56.901074+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "gucalp-free.pdf",
+    "url": "https://europepmc.org/articles/PMC4086643?pdf=render",
+    "capturedAt": "2026-11-09T20:50:56.901116+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "primary-web-sections.json",
+    "sourceURLs": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5648544/"
+    ],
+    "capturedAt": "2026-11-09T20:53:12.140258+00:00",
+    "provider": "web primary-page text extraction, selected find passages",
+    "bytes": 34424,
+    "sha256": "3c30e06ab1497d1fe2523b9153f6f1aecb6ad97dea2eb30b231080bbc4f8dddc",
+    "scope": "Exact tool-returned parsed primary text, not original HTML. Article identity matched independently against MED; this is not a recovery of blocked HTTP or failed XML/PDF captures."
+  }
+]

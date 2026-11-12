@@ -1,0 +1,196 @@
+{
+  "checkedOn": "2026-11-10",
+  "gates": {
+    "root": [
+      {
+        "name": "validate",
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "seconds": 2.06
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exitCode": 0,
+        "seconds": 3.31
+      },
+      {
+        "name": "lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exitCode": 0,
+        "seconds": 32.1
+      },
+      {
+        "name": "full-suite",
+        "command": [
+          "npx",
+          "vitest",
+          "run"
+        ],
+        "exitCode": 0,
+        "seconds": 94.82
+      }
+    ],
+    "shared": [
+      {
+        "name": "validate",
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "seconds": 2.02
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exitCode": 0,
+        "seconds": 3.3
+      },
+      {
+        "name": "lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exitCode": 0,
+        "seconds": 31.13
+      },
+      {
+        "name": "full-suite",
+        "command": [
+          "npx",
+          "vitest",
+          "run"
+        ],
+        "exitCode": 0,
+        "seconds": 88.97
+      }
+    ],
+    "concept": [
+      {
+        "name": "validate",
+        "command": [
+          "npm",
+          "run",
+          "validate"
+        ],
+        "exitCode": 0,
+        "seconds": 1.94
+      },
+      {
+        "name": "typecheck",
+        "command": [
+          "npm",
+          "run",
+          "typecheck"
+        ],
+        "exitCode": 0,
+        "seconds": 19.9
+      },
+      {
+        "name": "lint",
+        "command": [
+          "npm",
+          "run",
+          "lint"
+        ],
+        "exitCode": 0,
+        "seconds": 30.21
+      },
+      {
+        "name": "full-suite",
+        "command": [
+          "npx",
+          "vitest",
+          "run"
+        ],
+        "exitCode": 0,
+        "seconds": 96.47
+      }
+    ]
+  },
+  "actualSSRPassages": 215,
+  "actualMarkdownPassages": 215,
+  "actualJSONOwners": 22,
+  "immutableExportFiles": 44,
+  "sourceChecks": {
+    "versions": 34,
+    "sections": 374,
+    "anchors": 346,
+    "assets": 154,
+    "renderReceipts": 30
+  },
+  "initialFindings": "Missing inbound links fixed without changing orphan floors. Assay jargon rephrased for house style. Two malformed nullable array values from the worker handoff were normalized before validation.",
+  "environment": "The concept draft now uses the shared dependency symlink. Old generated Next route types were retained outside the checkout; they reproduced the documented GRAPH_JSON named-export build limitation. No tracked tsconfig, product code, test floor or budget changed. Standalone source checks pass; no fresh Next production build is claimed.",
+  "sourceClosures": {
+    "exitCodes": [
+      2,
+      2
+    ],
+    "original": {
+      "assessed": 184,
+      "represented": 180,
+      "navigation": 7,
+      "total": 537,
+      "requirements": 925,
+      "evidenced": 918,
+      "open": 7,
+      "unread": 346,
+      "unclassifiedNav": 0
+    },
+    "later": {
+      "assessed": 176,
+      "represented": 176,
+      "navigation": 0,
+      "total": 550,
+      "requirements": 909,
+      "evidenced": 909,
+      "open": 0,
+      "unread": 369,
+      "unclassifiedNav": 5
+    },
+    "staleOrMissingProofs": 0
+  },
+  "focusedChecks": {
+    "files": 2,
+    "passed": 70,
+    "correctionLogDOIsMatchedToResolvedPacket": 5
+  },
+  "duplicateSurvey": "Nine baseline groups in each owning graph; no new DOI, PMID or name duplicate group.",
+  "fullSuiteTotals": {
+    "root": {
+      "files": 284,
+      "passed": 2829,
+      "skipped": 2
+    },
+    "shared": {
+      "files": 281,
+      "passed": 2813,
+      "skipped": 2
+    },
+    "concept": {
+      "files": 281,
+      "passed": 2813,
+      "skipped": 2
+    }
+  }
+}

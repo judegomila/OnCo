@@ -1,0 +1,57 @@
+{
+  "baselineCommit": "017ea115bfc96a102869a3ce7fc5d20b7e9604af",
+  "beforeRecall": 0.42759523809523814,
+  "afterRecall": 0.43259523809523814,
+  "beforeRubric": 0.685,
+  "afterRubric": 0.6875,
+  "questions": 100,
+  "changed": [
+    {
+      "question": "What is CAR-T and which cancers is it approved for?",
+      "beforeIds": [
+        "rejuv-tx-secondary-t-cell-malignancy",
+        "sattva-neelapu",
+        "car-t",
+        "stephan-grupp",
+        "mm014",
+        "thymic-carcinoma"
+      ],
+      "afterIds": [
+        "car-t",
+        "sattva-neelapu",
+        "rejuv-tx-secondary-t-cell-malignancy",
+        "stephan-grupp",
+        "mm014",
+        "thymic-carcinoma"
+      ],
+      "beforeRecall": 0.3333333333333333,
+      "afterRecall": 0.3333333333333333,
+      "beforeRubric": 0.75,
+      "afterRubric": 1
+    },
+    {
+      "question": "What is in vivo CAR-T and why is it exciting?",
+      "beforeIds": [
+        "idea-in-vivo-car-solid",
+        "in-vivo-car-t",
+        "idea-reg-in-vivo-cart-off-the-shelf-vial",
+        "idea-moon-in-vivo-cart-generic-price",
+        "mm014",
+        "t-cell-exhaustion-term"
+      ],
+      "afterIds": [
+        "in-vivo-car-t",
+        "idea-in-vivo-car-solid",
+        "idea-reg-in-vivo-cart-off-the-shelf-vial",
+        "idea-moon-in-vivo-cart-generic-price",
+        "mm014",
+        "car-t"
+      ],
+      "beforeRecall": 0.5,
+      "afterRecall": 1,
+      "beforeRubric": 1,
+      "afterRubric": 1
+    }
+  ],
+  "resolution": "Retained a sourced approved-cancer summary in the CAR-T short definition and restored the conventional treatment workflow. No ranking logic, expected entities or floor changed."
+}

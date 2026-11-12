@@ -1,0 +1,49 @@
+{
+  "status": "coordinator-accepted at stated source scope; registered and validated in drafts only",
+  "original": {
+    "pages": 17,
+    "sections": 185,
+    "requirements": 255
+  },
+  "later": {
+    "pages": 18,
+    "sections": 199,
+    "requirements": 272
+  },
+  "inventoriesOverlap": true,
+  "assayCardRows": 133,
+  "originalWorkerRowsRetained": 170,
+  "independentReviewRowsRetained": 97,
+  "uniqueProofPassages": 136,
+  "newUnrepresentedTeachingRequirements": 0,
+  "changedUniqueOwners": 22,
+  "changedVersionedOwners": 23,
+  "companionHeads": {
+    "draft-371": "199b055bc9e6965aae80225d46b7963003cfdf34",
+    "draft-373": "60784e5b68938e9a53f6bd166af49e4b28cfcfe3"
+  },
+  "validation": {
+    "root": {
+      "fullSuiteFiles": 284,
+      "fullSuitePassedTests": 2829,
+      "existingSkippedTests": 2
+    },
+    "peer": {
+      "fullSuiteFiles": 281,
+      "fullSuitePassedTests": 2813,
+      "existingSkippedTests": 2
+    },
+    "shared": {
+      "fullSuiteFiles": 281,
+      "fullSuitePassedTests": 2813,
+      "existingSkippedTests": 2
+    }
+  },
+  "sourceLimits": [
+    "Diehl supplementary Figure 2 remains unread; the scoped single-subject Results statement uses the independent reviewer assessment.",
+    "The exact García-Murillas lead-time estimator denominator remains unverified; 144 is not labelled as the number of intervals.",
+    "Other inherited source assessments remain at their recorded abstract or targeted-text depth."
+  ],
+  "mainCredit": 0,
+  "newExpertOrLanguageReviewCredit": 0
+}

@@ -1,0 +1,1383 @@
+{
+  "version": "proposal-tumor-immunology-summary-consumers",
+  "state": "Actual short selectors and current English fallback, with no new named-language review.",
+  "records": [
+    {
+      "id": "immune-surveillance-immunoediting-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (ar)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (de)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (es)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (fr)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (hi)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (ja)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (pt)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (zh)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-surveillance-immunoediting-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune surveillance and cancer immunoediting (simple)",
+      "canonicalRecordId": "immune-surveillance-immunoediting",
+      "language": "simple",
+      "available": true,
+      "text": "Immune responses can control cancer and select which populations persist. Immunoediting is a testable framework, not a way to assign a phase or recurrence risk from one scan."
+    },
+    {
+      "id": "cancer-immunity-cycle-ar",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (ar)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (ar)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (ar)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (ar)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-ar",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (ar)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-ar",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (ar)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-ar",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (ar)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "ar",
+      "available": true,
+      "text": "عندما يؤدي تشعيع ورم واحد إلى انكماش أورام أخرى غير معالجة في مواضع أخرى من الجسم، عبر الجهاز المناعي."
+    },
+    {
+      "id": "in-situ-vaccination-ar",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (ar)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "ar",
+      "available": true,
+      "text": "معالجة ورم واحد بقوة شديدة بحيث يتعلم الجهاز المناعي مهاجمة جميع الأورام الأخرى، باستخدام الورم نفسه كلقاح."
+    },
+    {
+      "id": "tils-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ar)",
+      "canonicalRecordId": "tils",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (ar)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ar)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-ar",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ar)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ar",
+      "available": true,
+      "text": "الخلايا القاتلة الطبيعية: خلايا مناعية سريعة الفعل تدمر الخلايا غير الطبيعية دون الحاجة إلى التدريب على هدف محدد. وهي متخصصة في قتل الخلايا التي أخفت نفسها عن الخلايا التائية."
+    },
+    {
+      "id": "agretopicity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (ar)",
+      "canonicalRecordId": "agretopicity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-ar",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (ar)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-ar",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (ar)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (ar)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-de",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (de)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-de",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (de)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (de)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-de",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (de)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-de",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (de)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-de",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (de)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-de",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (de)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "de",
+      "available": true,
+      "text": "Wenn die Bestrahlung eines Tumors dazu führt, dass unbehandelte Tumoren an anderer Stelle schrumpfen, vermittelt durch das Immunsystem."
+    },
+    {
+      "id": "in-situ-vaccination-de",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (de)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "de",
+      "available": true,
+      "text": "Einen Tumor so aggressiv behandeln, dass das Immunsystem lernt, alle anderen anzugreifen, wobei der Tumor selbst als Impfstoff dient."
+    },
+    {
+      "id": "tils-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (de)",
+      "canonicalRecordId": "tils",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-de",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (de)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (de)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-de",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (de)",
+      "canonicalRecordId": "nk-cell",
+      "language": "de",
+      "available": true,
+      "text": "Natürliche Killerzellen: schnell wirkende Immunzellen, die abnorme Zellen zerstören, ohne auf ein bestimmtes Ziel trainiert werden zu müssen. Sie sind darauf spezialisiert, Zellen zu töten, die sich vor T-Zellen versteckt haben."
+    },
+    {
+      "id": "agretopicity-de",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (de)",
+      "canonicalRecordId": "agretopicity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-de",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (de)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-de",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (de)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-de",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (de)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-es",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (es)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-es",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (es)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (es)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-es",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (es)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-es",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (es)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-es",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (es)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-es",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (es)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "es",
+      "available": true,
+      "text": "Cuando irradiar un tumor hace que otros tumores no tratados se reduzcan, a través del sistema inmunitario."
+    },
+    {
+      "id": "in-situ-vaccination-es",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (es)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "es",
+      "available": true,
+      "text": "Tratar un tumor de forma tan agresiva que el sistema inmunitario aprenda a atacar todos los demás, usando el propio tumor como vacuna."
+    },
+    {
+      "id": "tils-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (es)",
+      "canonicalRecordId": "tils",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-es",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (es)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (es)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-es",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (es)",
+      "canonicalRecordId": "nk-cell",
+      "language": "es",
+      "available": true,
+      "text": "Células asesinas naturales: células inmunitarias de acción rápida que destruyen células anormales sin necesidad de ser entrenadas frente a una diana concreta. Se especializan en matar células que se han ocultado de los linfocitos T."
+    },
+    {
+      "id": "agretopicity-es",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (es)",
+      "canonicalRecordId": "agretopicity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-es",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (es)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-es",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (es)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-es",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (es)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-fr",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (fr)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (fr)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (fr)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (fr)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-fr",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (fr)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-fr",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (fr)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-fr",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (fr)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "fr",
+      "available": true,
+      "text": "Lorsque l'irradiation d'une tumeur fait régresser des tumeurs non traitées situées ailleurs, par l'intermédiaire du système immunitaire."
+    },
+    {
+      "id": "in-situ-vaccination-fr",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (fr)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "fr",
+      "available": true,
+      "text": "Traiter une tumeur si vigoureusement que le système immunitaire apprend à attaquer toutes les autres, en utilisant la tumeur elle-même comme vaccin."
+    },
+    {
+      "id": "tils-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (fr)",
+      "canonicalRecordId": "tils",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (fr)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (fr)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-fr",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (fr)",
+      "canonicalRecordId": "nk-cell",
+      "language": "fr",
+      "available": true,
+      "text": "Cellules tueuses naturelles : des cellules immunitaires à action rapide qui détruisent les cellules anormales sans avoir besoin d'être entraînées contre une cible précise. Elles se spécialisent dans l'élimination des cellules qui se sont cachées des cellules T."
+    },
+    {
+      "id": "agretopicity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (fr)",
+      "canonicalRecordId": "agretopicity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-fr",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (fr)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-fr",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (fr)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (fr)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-hi",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (hi)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (hi)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (hi)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (hi)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-hi",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (hi)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-hi",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (hi)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-hi",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (hi)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "hi",
+      "available": true,
+      "text": "जब एक ट्यूमर को विकिरित करने से प्रतिरक्षा तंत्र के ज़रिये अन्यत्र अनुपचारित ट्यूमर सिकुड़ते हैं।"
+    },
+    {
+      "id": "in-situ-vaccination-hi",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (hi)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "hi",
+      "available": true,
+      "text": "एक ट्यूमर का इतना आक्रामक उपचार करना कि प्रतिरक्षा तंत्र बाकी सभी ट्यूमरों पर हमला करना सीख जाए, ट्यूमर को ही टीके के रूप में उपयोग करते हुए।"
+    },
+    {
+      "id": "tils-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (hi)",
+      "canonicalRecordId": "tils",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (hi)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (hi)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-hi",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (hi)",
+      "canonicalRecordId": "nk-cell",
+      "language": "hi",
+      "available": true,
+      "text": "नेचुरल किलर कोशिकाएं: तेजी से काम करने वाली प्रतिरक्षा कोशिकाएं जो किसी विशेष लक्ष्य पर प्रशिक्षित हुए बिना असामान्य कोशिकाओं को नष्ट करती हैं। वे उन कोशिकाओं को मारने में विशेषज्ञ हैं जो T कोशिकाओं से छिप गई हैं।"
+    },
+    {
+      "id": "agretopicity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (hi)",
+      "canonicalRecordId": "agretopicity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-hi",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (hi)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-hi",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (hi)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (hi)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-ja",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (ja)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (ja)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (ja)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (ja)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-ja",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (ja)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-ja",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (ja)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-ja",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (ja)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "ja",
+      "available": true,
+      "text": "一つの腫瘍に放射線を照射すると、免疫系を介して、別の場所にある未治療の腫瘍も縮小する現象である。"
+    },
+    {
+      "id": "in-situ-vaccination-ja",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (ja)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "ja",
+      "available": true,
+      "text": "1つの腫瘍を徹底的に治療することで、免疫系が他のすべての腫瘍を攻撃するよう学習させる手法。腫瘍そのものをワクチンとして利用する。"
+    },
+    {
+      "id": "tils-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ja)",
+      "canonicalRecordId": "tils",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (ja)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ja)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-ja",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ja)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ja",
+      "available": true,
+      "text": "ナチュラルキラー細胞:特定の標的について訓練される必要なく異常細胞を破壊する、即応性の免疫細胞。T細胞から身を隠した細胞を殺すことを専門とする。"
+    },
+    {
+      "id": "agretopicity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (ja)",
+      "canonicalRecordId": "agretopicity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-ja",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (ja)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-ja",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (ja)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (ja)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-pt",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (pt)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (pt)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (pt)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (pt)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-pt",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (pt)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-pt",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (pt)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-pt",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (pt)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "pt",
+      "available": true,
+      "text": "Quando irradiar um tumor faz tumores não tratados em outros lugares encolherem, via sistema imune."
+    },
+    {
+      "id": "in-situ-vaccination-pt",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (pt)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "pt",
+      "available": true,
+      "text": "Tratar um tumor de forma tão agressiva que o sistema imunitário aprende a atacar todos os outros, usando o próprio tumor como vacina."
+    },
+    {
+      "id": "tils-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (pt)",
+      "canonicalRecordId": "tils",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (pt)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (pt)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-pt",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (pt)",
+      "canonicalRecordId": "nk-cell",
+      "language": "pt",
+      "available": true,
+      "text": "Células natural killer: células imunitárias de ação rápida que destroem células anormais sem precisar de ser treinadas para um alvo específico. Especializam-se em matar células que se esconderam das células T."
+    },
+    {
+      "id": "agretopicity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (pt)",
+      "canonicalRecordId": "agretopicity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-pt",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (pt)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-pt",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (pt)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (pt)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-zh",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (zh)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (zh)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-exclusion-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (zh)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-desert-exclusion-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (zh)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "neoadjuvant-adjuvant-zh",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (zh)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-recognition-zh",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (zh)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "abscopal-effect-zh",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (zh)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "zh",
+      "available": true,
+      "text": "照射一个肿瘤使别处未治疗的肿瘤通过免疫系统缩小。"
+    },
+    {
+      "id": "in-situ-vaccination-zh",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (zh)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "zh",
+      "available": true,
+      "text": "对一个肿瘤进行极为强力的治疗，使免疫系统学会攻击其他所有肿瘤，把肿瘤本身当作疫苗。"
+    },
+    {
+      "id": "tils-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (zh)",
+      "canonicalRecordId": "tils",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-associated-fibroblasts-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (zh)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-associated-macrophages-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (zh)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-zh",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (zh)",
+      "canonicalRecordId": "nk-cell",
+      "language": "zh",
+      "available": true,
+      "text": "自然杀伤细胞：快速反应的免疫细胞，无需针对特定靶点进行训练即可摧毁异常细胞。它们专门杀伤那些躲避了T细胞的细胞。"
+    },
+    {
+      "id": "agretopicity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (zh)",
+      "canonicalRecordId": "agretopicity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adaptive-immune-resistance-zh",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (zh)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "perioperative-immune-window-zh",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (zh)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-t-cell-subsets-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (zh)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-immunity-cycle-simple",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (simple)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "simple",
+      "available": true,
+      "text": "The cancer-immunity cycle maps steps from tumour material to immune recognition and killing. A positive test at one step does not show that every later step worked."
+    },
+    {
+      "id": "cold-vs-hot-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (simple)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "simple",
+      "available": true,
+      "text": "Hot, excluded and desert describe where specified immune cells were found in a sample. These patterns alone do not show cancer recognition, killing or treatment benefit."
+    },
+    {
+      "id": "immune-exclusion-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (simple)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "simple",
+      "available": true,
+      "text": "Immune exclusion means cells gather outside cancer-cell regions. Their position does not show what blocked access or which treatment would help."
+    },
+    {
+      "id": "immune-desert-exclusion-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cold tumours: immune deserts and exclusion (simple)",
+      "canonicalRecordId": "immune-desert-exclusion",
+      "language": "simple",
+      "available": true,
+      "text": "Few T cells in a sample and T cells gathered outside cancer-cell regions are different patterns. Cells that reach a tumour may still be restrained."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-simple",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (simple)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "simple",
+      "available": true,
+      "text": "Neoadjuvant treatment comes before surgery and adjuvant treatment after it. A regimen spanning both phases does not separately test how much each phase helped."
+    },
+    {
+      "id": "nk-cell-recognition-simple",
+      "kind": "reader-summary-entry",
+      "name": "NK-cell recognition: missing self & stress ligands (simple)",
+      "canonicalRecordId": "nk-cell-recognition",
+      "language": "simple",
+      "available": true,
+      "text": "Natural killer cells combine receptor signals. Losing an inhibitory self signal does not guarantee killing: activating signals and the cells’ previous education also matter."
+    },
+    {
+      "id": "abscopal-effect-simple",
+      "kind": "reader-summary-entry",
+      "name": "Abscopal effect (simple)",
+      "canonicalRecordId": "abscopal-effect",
+      "language": "simple",
+      "available": true,
+      "text": "When irradiating one tumour makes untreated tumours elsewhere shrink, through the immune system."
+    },
+    {
+      "id": "in-situ-vaccination-simple",
+      "kind": "reader-summary-entry",
+      "name": "In situ vaccination (simple)",
+      "canonicalRecordId": "in-situ-vaccination",
+      "language": "simple",
+      "available": true,
+      "text": "In situ vaccination treats one tumour so aggressively that the immune system learns to attack every other one, using the tumour itself as the vaccine."
+    },
+    {
+      "id": "tils-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (simple)",
+      "canonicalRecordId": "tils",
+      "language": "simple",
+      "available": true,
+      "text": "Tumour-infiltrating lymphocytes are lymphocytes in tumour tissue. Location, cell identity, the measurement denominator and useful function are separate questions."
+    },
+    {
+      "id": "cancer-associated-fibroblasts-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cancer-associated fibroblasts (CAFs) (simple)",
+      "canonicalRecordId": "cancer-associated-fibroblasts",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer-associated fibroblasts are stromal cells with varied states and effects. No single marker or abundance measurement shows that all of them suppress immunity or promote cancer."
+    },
+    {
+      "id": "tumor-associated-macrophages-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (simple)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "simple",
+      "available": true,
+      "text": "Macrophages in or around a tumour can have different states and effects. A marker count alone does not show that they suppress immunity or help cancer grow."
+    },
+    {
+      "id": "nk-cell-simple",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (simple)",
+      "canonicalRecordId": "nk-cell",
+      "language": "simple",
+      "available": true,
+      "text": "NK cells are fast-acting immune cells that destroy abnormal cells without training on a specific target, specialising in cells that have hidden from T cells."
+    },
+    {
+      "id": "agretopicity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Agretopicity (simple)",
+      "canonicalRecordId": "agretopicity",
+      "language": "simple",
+      "available": true,
+      "text": "A score compares predicted immune-display binding of an altered peptide and its normal counterpart. It does not show that the target is naturally displayed or recognised."
+    },
+    {
+      "id": "adaptive-immune-resistance-simple",
+      "kind": "reader-summary-entry",
+      "name": "Adaptive immune resistance (simple)",
+      "canonicalRecordId": "adaptive-immune-resistance",
+      "language": "simple",
+      "available": true,
+      "text": "An immune attack can induce signals that restrain it. This feedback differs from a treatment that worked and later stopped working."
+    },
+    {
+      "id": "perioperative-immune-window-simple",
+      "kind": "reader-summary-entry",
+      "name": "Perioperative immune window (simple)",
+      "canonicalRecordId": "perioperative-immune-window",
+      "language": "simple",
+      "available": true,
+      "text": "Surgery can temporarily change immune activity. Blood or laboratory changes do not by themselves show more recurrences or prove that a different anaesthetic improves outcomes."
+    },
+    {
+      "id": "cd4-t-cell-subsets-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD4 T-cell subsets (simple)",
+      "canonicalRecordId": "cd4-t-cell-subsets",
+      "language": "simple",
+      "available": true,
+      "text": "CD4 T cells develop different response programmes. Their signals and gene activity help describe them, but a single marker does not establish what the cells do."
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+[
+  {
+    "recordId": "trop2",
+    "ownerFiles": [
+      "src/data/targets.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf",
+      "biology"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://www.uniprot.org/uniprotkb/P09758/entry",
+      "https://doi.org/10.1016/j.annonc.2021.06.002",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+      "https://www.proteinatlas.org/ENSG00000184292-TACSTD2/tissue",
+      "https://pubmed.ncbi.nlm.nih.gov/22349828/",
+      "https://pubmed.ncbi.nlm.nih.gov/27022065/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "trop2-expression",
+    "ownerFiles": [
+      "src/data/biomarker-readouts-4.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sacituzumab-govitecan-advanced-urothelial-cancer",
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer",
+      "https://pubmed.ncbi.nlm.nih.gov/34116144/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-low",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/her2-low-breast-cancer",
+      "https://doi.org/10.1111/his.70149",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-low-and-trop2-adc-eligibility-tnbc",
+    "ownerFiles": [
+      "src/data/spikes/tnbc-core.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://doi.org/10.1200/jco.2018.77.8738",
+      "https://doi.org/10.1200/jco.22.02864",
+      "https://doi.org/10.1056/nejmoa2203690",
+      "https://doi.org/10.1056/nejmoa2028485",
+      "https://www.nice.org.uk/guidance/ta819",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+      "https://pubmed.ncbi.nlm.nih.gov/34116144/",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-low-ihc",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "thresholds",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ultralow",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "thresholds",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ihc-0",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "name",
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "thresholds",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://doi.org/10.1200/JCO.2018.77.8738",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ihc-1-plus",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "thresholds",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://doi.org/10.1200/JCO.2018.77.8738",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ihc-2-plus",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "thresholds",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://doi.org/10.1200/JCO.2018.77.8738",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ihc-3-plus",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=492dbdb2-077e-4064-bff3-372d6af0a7a2",
+      "https://doi.org/10.1200/JCO.2018.77.8738",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-ish-amplified",
+    "ownerFiles": [
+      "src/data/biomarker-readouts.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "scoringRule",
+      "forPatient",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://doi.org/10.1200/JCO.2018.77.8738",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "ascent",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT02574455",
+      "https://doi.org/10.1056/NEJMoa2028485",
+      "https://doi.org/10.1038/s41523-024-00635-5",
+      "https://www.nice.org.uk/guidance/ta819",
+      "https://pubmed.ncbi.nlm.nih.gov/33882206/",
+      "https://pubmed.ncbi.nlm.nih.gov/34116144/",
+      "https://pubmed.ncbi.nlm.nih.gov/38664404/"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "destiny-breast04",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT03734029",
+      "https://doi.org/10.1038/s41591-025-03981-4",
+      "https://www.nice.org.uk/guidance/ta1197",
+      "https://www.nice.org.uk/guidance/ta992",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/",
+      "https://pubmed.ncbi.nlm.nih.gov/35665782/",
+      "https://pubmed.ncbi.nlm.nih.gov/41062831/",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "destiny-breast06",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT04494425",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "paper-destiny-breast04-nejm-2022",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "name",
+      "tldr",
+      "summary",
+      "findings",
+      "caveats",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://doi.org/10.1056/NEJMoa2203690",
+      "https://clinicaltrials.gov/study/NCT03734029",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "paper-destiny-breast06-nejm-2024",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "name",
+      "tldr",
+      "summary",
+      "findings",
+      "caveats",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/?term=DESTINY-Breast06+trastuzumab+deruxtecan+HER2-low+chemotherapy-naive",
+      "https://clinicaltrials.gov/study/NCT04494425",
+      "https://pubmed.ncbi.nlm.nih.gov/39282896/",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "dako-pd-l1-22c3-pharmdx",
+    "ownerFiles": [
+      "src/data/tests.ts"
+    ],
+    "changedFields": [
+      "tldr",
+      "summary",
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013",
+      "https://www.agilent.com/en/product/pharmdx/pd-l1-ihc-22c3-pharmdx",
+      "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S016",
+      "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S032",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "her2-testing-uk-breast",
+    "ownerFiles": [
+      "src/data/spikes/breast-core.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "asOf": "2026-11-09",
+    "sourceURLs": [
+      "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html",
+      "https://doi.org/10.1136/jcp-2022-208632",
+      "https://doi.org/10.1111/his.70149",
+      "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+    ],
+    "scope": "The listed authored fields and contributing corrections are source-checked; other retained clinical or generated fields are not certified by this checkpoint."
+  },
+  {
+    "recordId": "tnbc",
+    "ownerFiles": [
+      "src/data/cancers.ts",
+      "src/data/spikes/tnbc-core.ts"
+    ],
+    "changedFields": [
+      "summary",
+      "subtypes",
+      "biomarkers",
+      "stateOfArt",
+      "notes"
+    ],
+    "scope": "Expression/context and HER2-low eligibility shortcuts; the linked ASCENT publication year is corrected to 2021. Other clinical sections are not newly revalidated."
+  },
+  {
+    "recordId": "dna-term",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "changedFields": [
+      "notes"
+    ],
+    "scope": "Grammar-only clarification that an assay measures gamma-H2AX; source and interpretation retained."
+  }
+]

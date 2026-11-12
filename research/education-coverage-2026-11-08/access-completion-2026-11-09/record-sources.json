@@ -1,0 +1,154 @@
+[
+  {
+    "recordId": "companion-diagnostic",
+    "asOf": "2026-11-09",
+    "fields": [
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Companion_diagnostic"
+      },
+      {
+        "label": "FDA: companion diagnostics",
+        "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+      },
+      {
+        "label": "FDA: authorized companion diagnostic devices and intended uses",
+        "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+      },
+      {
+        "label": "FDA: in vitro companion diagnostic devices",
+        "url": "https://www.fda.gov/media/81309/download"
+      },
+      {
+        "label": "FDA: labeling diagnostics for a group of oncology therapies",
+        "url": "https://www.fda.gov/media/120340/download"
+      },
+      {
+        "label": "42 CFR 493.1256(f): acceptable controls before reporting patient results",
+        "url": "https://www.ecfr.gov/current/title-42/section-493.1256"
+      },
+      {
+        "label": "GovInfo: published 2025 control-procedure rule, independently read",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf"
+      }
+    ],
+    "scope": "Four existing owners supplemented; no new record or clinical cutoff. Changed dates refer to this scoped check."
+  },
+  {
+    "recordId": "companion-diagnostic-term",
+    "asOf": "2026-11-09",
+    "fields": [
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Companion_diagnostic"
+      },
+      {
+        "label": "FDA: companion diagnostics",
+        "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+      },
+      {
+        "label": "FDA: in vitro companion diagnostic devices",
+        "url": "https://www.fda.gov/media/81309/download"
+      },
+      {
+        "label": "FDA: authorized companion diagnostic devices and intended uses",
+        "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+      },
+      {
+        "label": "42 CFR 493.1256(f): acceptable controls before reporting patient results",
+        "url": "https://www.ecfr.gov/current/title-42/section-493.1256"
+      },
+      {
+        "label": "GovInfo: published 2025 control-procedure rule, independently read",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf"
+      }
+    ],
+    "scope": "Four existing owners supplemented; no new record or clinical cutoff. Changed dates refer to this scoped check."
+  },
+  {
+    "recordId": "expanded-access",
+    "asOf": "2026-11-09",
+    "fields": [
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Expanded_access"
+      },
+      {
+        "label": "FDA: expanded access",
+        "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+      },
+      {
+        "label": "FDA Oncology Center of Excellence: Project Facilitate",
+        "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate"
+      },
+      {
+        "label": "FDA: expanded access questions and answers, April 2026",
+        "url": "https://www.fda.gov/media/162793/download"
+      },
+      {
+        "label": "FDA: expanded access information for institutional review boards",
+        "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+      },
+      {
+        "label": "FDA: current Form 3926 instructions, including permission to reference another IND",
+        "url": "https://www.fda.gov/media/98627/download"
+      },
+      {
+        "label": "FDA: charging for investigational drugs under an IND, February 2024",
+        "url": "https://www.fda.gov/media/176308/download"
+      },
+      {
+        "label": "FDA: separate industry, physician, IRB and agency responsibilities",
+        "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry"
+      }
+    ],
+    "scope": "Four existing owners supplemented; no new record or clinical cutoff. Changed dates refer to this scoped check."
+  },
+  {
+    "recordId": "trial-search-site-verification",
+    "asOf": "2026-11-09",
+    "fields": [
+      "notes",
+      "links",
+      "asOf"
+    ],
+    "sources": [
+      {
+        "label": "NCI: steps to find a clinical trial",
+        "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+      },
+      {
+        "label": "NCI: what to expect during a clinical trial",
+        "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+      },
+      {
+        "label": "ClinicalTrials.gov: protocol registration definitions",
+        "url": "https://clinicaltrials.gov/policy/protocol-definitions"
+      },
+      {
+        "label": "42 CFR 11.10: overall recruitment and individual-site status",
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+      },
+      {
+        "label": "NCI: eligibility, randomization and clinical-trial comparisons",
+        "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+      }
+    ],
+    "scope": "Four existing owners supplemented; no new record or clinical cutoff. Changed dates refer to this scoped check."
+  }
+]

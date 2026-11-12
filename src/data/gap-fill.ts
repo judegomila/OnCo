@@ -19,10 +19,10 @@ const asOf = "2026-09-08";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const DM = (q: string) => `https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=${encodeURIComponent(q)}`;
 
-const d = (x: Omit<DrugInput, "kind" | "asOf">): DrugInput => ({ kind: "drug", asOf, ...x });
-const tg = (x: Omit<TargetInput, "kind" | "asOf">): TargetInput => ({ kind: "target", asOf, ...x });
+const d = (x: Omit<DrugInput, "kind" | "asOf"> & Partial<Pick<DrugInput, "asOf">>): DrugInput => ({ kind: "drug", asOf, ...x });
+const tg = (x: Omit<TargetInput, "kind" | "asOf"> & { asOf?: string }): TargetInput => ({ kind: "target", asOf, ...x });
 const tech = (x: Omit<TechnologyInput, "kind" | "asOf"> & { asOf?: string }): TechnologyInput => ({ kind: "technology", asOf, ...x });
-const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+const term = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: TermInput["asOf"] }): TermInput => ({ kind: "term", asOf, ...x });
 const col = (x: Omit<CollectionInput, "kind" | "asOf">): CollectionInput => ({ kind: "collection", asOf, ...x });
 
 // =====================================================================================
@@ -347,7 +347,14 @@ export const gapProducts: DrugInput[] = [
     tldr: "High-dose interleukin-2 was the first immunotherapy to cure a small fraction of patients with metastatic melanoma and kidney cancer, at the cost of ICU-level toxicity; today it mainly supports TIL therapy.",
     summary: "Approved 1992 (RCC) and 1998 (melanoma) on ~15% response with ~5-7% durable complete responses (Rosenberg). Capillary leak, hypotension and multi-organ effects confine it to specialised centres. Now used as a short course after lifileucel (TIL) infusion; engineered IL-2 variants (bempegaldesleukin) failed in phase 3.",
     approvals: [{ region: "US", year: 1992, indication: "Metastatic renal cell carcinoma" }, { region: "US", year: 1998, indication: "Metastatic melanoma" }],
-    cancers: ["rcc", "melanoma"], technologies: ["cytokine-therapy", "til-therapy"], links: [{ label: "Label (DailyMed)", url: DM("aldesleukin") }], tags: ["gap-fill", "historic"] }),
+    cancers: ["rcc", "melanoma"], technologies: ["cytokine-therapy", "til-therapy"], links: [{ label: "Label (DailyMed)", url: DM("aldesleukin") },
+    {"label":"Proleukin U.S. prescribing information: adult indications and boxed warnings","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"}
+  ], tags: ["gap-fill", "historic"] ,
+  asOf: "2026-11-12",
+  notes: [
+    "The Proleukin U.S. label specifies adults with metastatic renal cell carcinoma or metastatic melanoma. The boxed warning includes potentially fatal capillary leak, neurologic toxicities and serious infections and calls for hospital administration with an intensive-care facility. These medicine-specific statements should not be generalised to every IL-2 construct or other cytokine. A treatment's immune-cell effects and its clinical outcomes remain separate measurements."
+  ]
+}),
   d({ id: "leuprolide", trials: ["hero"], name: "Leuprolide (leuprorelin) and GnRH agonists", aka: ["Leuprorelin", "Leuprolide acetate", "GnRH agonist"], brand: "Lupron / Eligard / Camcevi", modality: "GnRH agonist depot", mechanism: "Continuous GnRH receptor stimulation desensitises the pituitary, suppressing LH/FSH and hence testosterone (or oestrogen) to castrate levels after an initial flare.", status: "approved", wikipedia: W("Leuprorelin"),
     tldr: "Leuprolide is the injectable that shuts off testosterone production, the foundation of hormone therapy for prostate cancer since the 1980s; it is also used for ovarian suppression in premenopausal breast cancer.",
     summary: "Approved 1985 as an alternative to orchiectomy or oestrogens; depot formulations (1-6 months) followed. Backbone of ADT combinations with abiraterone, enzalutamide, apalutamide, darolutamide and docetaxel. Testosterone flare (antiandrogen cover), cardiovascular and bone effects; oral relugolix (2020) and degarelix are antagonist alternatives without flare.",
@@ -391,9 +398,49 @@ export const gapProducts: DrugInput[] = [
     cancers: ["all-leukemia", "osteosarcoma", "primary-cns-lymphoma", "gestational-trophoblastic", "dlbcl", "urothelial", "head-and-neck", "low-risk-gtn", "high-risk-gtn", "placental-site-trophoblastic-tumour"], technologies: ["cytotoxic-chemotherapy"], terms: ["blood-brain-barrier"], links: [{ label: "Label (DailyMed)", url: DM("methotrexate injection") }], tags: ["gap-fill", "generic", "who-essential"], related: ["glucarpidase"], trials: ["euramos-1", "dbcg-82bc", "nct05663866", "nct06960577", "nct07015242", "nct07387926"] }),
   d({ id: "fluorouracil", keyPapers: ["paper-sauer-preoperative-chemoradiotherapy-rectal-nejm-2004"], trials: ["int-0116", "cao-aro-aio-94", "dbcg-82bc", "nct07775287", "nct07676162", "nct04430738", "nct06107413", "nct06792695", "nct07805551", "nct05009069", "nct05846867", "nct06820463", "nct04421820", "nct05379595", "nct04675333", "nct05489211", "nct06428409", "nct07554521", "nct06469944", "nct06901531", "nct04241185", "nct04379596", "nct07069712", "nct07256782", "nct06780111", "nct06922383", "nct01954992"], companies: ["mast-therapeutics"], name: "Fluorouracil (5-FU)", brand: "Adrucil / Efudex", modality: "Fluoropyrimidine antimetabolite", mechanism: "Converted to FdUMP (thymidylate synthase inhibition) and FUTP (RNA incorporation); potentiated by leucovorin; DPD deficiency causes severe toxicity.", status: "approved", wikipedia: W("Fluorouracil"),
     tldr: "The 1957 chemotherapy that remains the backbone of treatment for bowel, stomach, pancreatic, anal, head and neck and breast cancers, and as a cream for skin precancers.",
-    summary: "Heidelberger (1957). Infusional 5-FU with leucovorin is the core of FOLFOX/FOLFIRI/FOLFIRINOX, chemoradiation (rectal, anal, oesophageal, pancreatic, head and neck), and adjuvant colon therapy; capecitabine is its oral prodrug. DPYD genotyping before use is now recommended (EMA 2020; FDA label 2024). Topical 5-FU treats actinic keratosis and superficial BCC.",
+    summary: "Fluorouracil is a fluoropyrimidine antimetabolite, used in systemic regimens and in separate topical products. Capecitabine is an oral prodrug converted to fluorouracil; it is not the same formulation or an interchangeable dose. In cells, active metabolites interfere with thymidylate synthase and nucleotide supply, enter RNA, and can enter DNA. These processes also occur in normal cells.\n\nThe US injection label calls for DPYD variant testing before treatment unless immediate treatment is necessary. Complete DPD deficiency carries a boxed warning; partial deficiency can also raise the risk of serious or fatal toxicity. The label says that no dose is proven safe in complete deficiency, no FDA-authorised DPYD test is available, and serious reactions can occur even when no variant is identified. These statements concern the labelled systemic product; topical preparations and their instructions must be considered separately.",
     approvals: [{ region: "US", year: 1962, indication: "Colorectal, breast, gastric and pancreatic adenocarcinoma" }, { region: "US", year: 1970, indication: "Topical: actinic keratosis and superficial basal cell carcinoma" }],
-    cancers: ["colorectal", "gastric", "pancreatic", "anal", "esophageal", "head-and-neck", "basal-cell-carcinoma", "hepatoblastoma", "anal-hsil-precursor", "localised-anal-cancer", "localised-penile-cancer"], technologies: ["cytotoxic-chemotherapy"], links: [{ label: "Label (DailyMed)", url: DM("fluorouracil injection") }], tags: ["gap-fill", "generic", "who-essential"], related: ["uridine-triacetate"] }),
+    cancers: ["colorectal", "gastric", "pancreatic", "anal", "esophageal", "head-and-neck", "basal-cell-carcinoma", "hepatoblastoma", "anal-hsil-precursor", "localised-anal-cancer", "localised-penile-cancer"], technologies: ["cytotoxic-chemotherapy"], links: [
+  {
+    "label": "Label (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fluorouracil%20injection"
+  },
+  {
+    "label": "Fluorouracil injection label: mechanism and DPYD testing",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+  },
+  {
+    "label": "FDA safety-label update: capecitabine and fluorouracil",
+    "url": "https://www.fda.gov/drugs/cancer-approvals/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine"
+  },
+  {
+    "label": "Jansen et al., five-year results of a randomised controlled trial comparing photodynamic therapy, topical imiquimod and topical 5-fluorouracil in superficial basal cell carcinoma (J Invest Dermatol 2018)",
+    "url": "https://doi.org/10.1016/j.jid.2017.09.033"
+  },
+  {
+    "label": "Cancer Research UK: chemotherapy cream for non-melanoma skin cancer",
+    "url": "https://www.cancerresearchuk.org/about-cancer/skin-cancer/treatment/chemotherapy-cream"
+  },
+  {
+    "label": "British Association of Dermatologists: basal cell carcinoma, patient information leaflet (updated July 2025)",
+    "url": "https://www.skinhealthinfo.org.uk/condition/basal-cell-carcinoma/"
+  },
+  {
+    "label": "NCI: FOLFOX components",
+    "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox"
+  }
+], tags: ["gap-fill", "generic", "who-essential"], related: ["uridine-triacetate"] ,
+"aka": [
+  "5-FU",
+  "5 fluorouracil"
+],
+"asOf": "2026-11-11",
+"notes": [
+  "Fluoropyrimidines are a medicine family, not another name for every alkylator. Fluorouracil is one member and capecitabine is a prodrug. The active fluorouracil metabolites FdUMP, FUTP and FdUTP have different jobs: thymidylate-synthase inhibition, incorporation into RNA and incorporation into DNA. Both tumour and normal cells can form active metabolites. Oral delivery or activation enriched in a tumour does not establish cancer-only activity. FOLFOX is a combination of fluorouracil, leucovorin and oxaliplatin. Its name identifies components, not every dose or eligibility condition.",
+  "DPYD is the gene and DPD is the enzyme involved in fluorouracil breakdown. Host clearance and tumour sensitivity are different questions. Identifying selected DNA variants is a different measurement from assessing enzyme activity. The label distinguishes complete from partial deficiency, calls for individualised dosing for partial deficiency, and notes that available tests differ in which variants they identify and in performance. A negative panel does not establish normal handling or freedom from serious toxicity; interpretation and treatment decisions belong to the prescribing team.",
+  "As a cream for superficial basal cell carcinoma. In the Dutch randomised trial of 601 patients, fluorouracil cream was applied twice daily for four weeks, and the probability of tumour-free survival five years later was 70.0 percent, against 80.5 percent for imiquimod and 62.7 percent for photodynamic therapy; fluorouracil was inferior to imiquimod (hazard ratio 0.65 in favour of imiquimod, 95 percent confidence interval 0.43 to 0.98) and not significantly different from photodynamic therapy at that timepoint, having been found non-inferior to it at one and three years. The NHS says a chemotherapy cream is used once or twice a day for three to four weeks for cancers affecting only the top layer of skin."
+]
+}),
   d({ id: "gemcitabine", trials: ["notable-trial", "nct06828354", "nct04442022", "nct04384484", "nct06435429", "nct07491445", "nct07805954", "nct06508658", "nct06459180", "nct03800134", "nct07621718", "nct06976190", "nct04969731", "nct06312137", "nct07604766", "nct06118333", "nct03164616", "nct06619236", "nct02486718", "nct04974398", "nct03178552", "nct07564141", "nct06445062", "nct06710288", "nct06601504", "nct05482893", "nct05775159", "nct04083599", "nct06646055", "nct07049055", "nct06219941", "nct06922591", "nct07124936", "nct03775486", "nct07255404", "nct05431270", "nct07483554", "nct05669482", "nct04657068", "nct04844866", "nct07563738", "actuate-1801", "nct07020221", "nct07259590", "nct06843447", "nct04198766", "nct07223047", "nct06081959", "nct05229497", "nct07701486", "nct06623422", "nct06361888", "nct05302284", "nct06908304", "nct06465563", "nct03257033", "nct06953999", "nct05814354", "nct07229586", "nct03816163", "nct03579836", "nct07710885", "nct05771480", "nct05999994", "nct06343948", "nct07129993", "nct03682068", "nct07280377", "nct04589234", "nct07575191", "nct06319820", "nct06211764", "nct06467357", "nct06449222", "nct07566156", "nct05827796", "nct03036098", "nct02516241", "nct05934331", "nct07259317", "nct05548296", "nct02453282", "nct06960577", "nct06545955", "nct05653453", "nct07173751", "nct06821503", "nct07007559", "nct04241185", "nct06592326", "nct02542293", "nct03478488", "nct04999969", "nct06957886", "nct06806033", "nct06752811", "nct03003962", "nct03967977", "nct07111546", "nct05911295", "nct06854445", "nct06225596", "nct04274426", "nct04390399", "nct07393542", "nct06632951", "nct07398339", "nct06788912", "nct06522737", "nct07238283", "nct06591520", "nct06241781", "nct02340117", "nct06493552", "nct07106762", "nct07444541", "nct04639986", "nct05859750", "nct07286266", "nct06841354", "nct07296341", "nct06663137", "nct06460298", "nct01954992", "nct05355298"], keyPapers: ["paper-burris-gemcitabine-pancreatic-jco-1997"], name: "Gemcitabine", brand: "Gemzar / Infugem", modality: "Nucleoside analogue (deoxycytidine)", mechanism: "Difluorodeoxycytidine triphosphate incorporated into DNA causes masked chain termination; also inhibits ribonucleotide reductase (self-potentiation).", status: "approved", wikipedia: W("Gemcitabine"),
     tldr: "A versatile chemotherapy used in pancreatic, bladder, lung, ovarian, breast and biliary cancers, in nasopharyngeal cancer, and as a bladder instillation.",
     summary: "Approved 1996 for pancreatic cancer (clinical benefit response versus 5-FU); combinations: gemcitabine-cisplatin (biliary ABC-02, bladder, NPC induction), gemcitabine-nab-paclitaxel (pancreatic), gemcitabine-carboplatin (ovarian, breast), gemcitabine-docetaxel (sarcoma), GemOx (lymphoma). Intravesical gemcitabine for NMIBC. Flu-like symptoms, myelosuppression, rare TMA/pneumonitis.",
@@ -857,12 +904,31 @@ export const gapTargets: TargetInput[] = [
     links: [{ label: "BNT211 CARVac (Nat Med 2023)", url: "https://doi.org/10.1038/s41591-023-02612-0" }], tags: ["gap-fill"] }),
   tg({ id: "cd73-adenosine", drugs: ["ak119", "mavrostobart", "oleclumab", "quemliclustat", "uliledlimab"], trials: ["nct03334617", "nct03381274", "nct03742102", "nct04068610", "nct04969315", "nct05024097", "nct05061550", "nct05221840", "nct05329766", "nct05403385", "nct05431270", "nct05633667", "nct05676931", "nct05689853", "nct05846867", "nct06048133", "nct06606847", "nct06608927", "nct06984588", "nct07005336", "nct07146230", "nct07172802"], name: "CD73 / adenosine axis", symbol: "NT5E", hgnc: "HGNC:8021", ensembl: "ENSG00000135318", uniprot: "P21589", entrez: "4907", targetClass: "enzyme", wikipedia: W("5%27-nucleotidase"),
     tldr: "CD73 is an enzyme on tumour and immune cells that converts AMP into adenosine, which switches off T and natural killer cells through A2A and A2B receptors. Oleclumab (anti-CD73) with durvalumab slowed progression in a phase 2 lung cancer trial and quemliclustat is in phase 3 in pancreatic cancer, but A2A blockers gave only modest signals and several were dropped.",
-    summary: "CD39 converts extracellular ATP to AMP and CD73 (NT5E) converts AMP to adenosine, which suppresses T and NK cells via A2A/A2B receptors; hypoxia drives the axis. Oleclumab (anti-CD73) plus durvalumab improved PFS in the phase 2 COAST trial (stage III NSCLC) but the phase 3 PACIFIC-9 result is pending; quemliclustat (CD73 inhibitor) is in phase 3 in pancreatic cancer (PRISM-1); A2A antagonists (ciforadenant, etrumadenant, taminadenant) gave modest single-agent signals in RCC and prostate cancer and several were discontinued. CD39 antibodies (TTX-030) and uliledlimab continue in trials.",
+    summary: "CD39 converts extracellular ATP to AMP and CD73 (NT5E) converts AMP to adenosine, which suppresses T and NK cells via A2A/A2B receptors; hypoxia drives the axis. Oleclumab (anti-CD73) plus durvalumab improved PFS in the phase 2 COAST trial (stage III NSCLC) but the phase 3 PACIFIC-9 result is pending; quemliclustat (CD73 inhibitor) is in phase 3 in pancreatic cancer (PRISM-1); A2A antagonists (ciforadenant, etrumadenant, taminadenant) gave modest single-agent signals in RCC and prostate cancer and several were discontinued. CD39 antibodies (TTX-030) and uliledlimab continue in trials. The CD39 and CD73 route is separate from the IDO1 route: surface enzymes make adenosine outside the cell for a receptor to read, while IDO1 breaks down tryptophan inside a producing cell. In mice, deleting the host A2A receptor led to rejection of established immunogenic tumours in about 60 per cent of deficient mice and none of normal mice, with autoimmunity seen during melanoma rejection (Ohta et al., 2006), and regulatory T cells from Cd39-null mice had impaired suppression (Deaglio et al., 2007); these mechanisms do not show benefit from an inhibitor in people, and expression of CD73 in a sample does not show local adenosine production. Blood adenosine is sensitive to sampling: its half-life in human blood is 1 to 2 seconds, and in one experiment recovery of labelled adenosine was 89 per cent with an inhibitor mix delivered at the catheter tip and 7 per cent when it was added afterwards (Shryock et al., 1990).",
     biology: "Ecto-5'-nucleotidase anchored by GPI; produces adenosine that binds Gs-coupled A2A/A2B receptors, raising cAMP/PKA in lymphocytes and blunting TCR signalling, cytokine release and cytotoxicity; also promotes Treg and MDSC function.",
     whereFound: ["Pancreatic cancer (high CD73)", "NSCLC (especially KRAS/STK11-mutant)", "TNBC, ovarian, colorectal cancer", "Tregs, MDSCs and endothelium in the microenvironment"],
     cancers: ["pancreatic", "nsclc", "tnbc", "rcc", "prostate"], technologies: ["checkpoint-inhibitor", "monoclonal-antibody"], pathways: ["pd1-checkpoint"], companies: ["astrazeneca", "gilead"],
     notes: ["Prevalence is not well characterised: CD73 expression is continuous and scored by cutoff-dependent IHC or multiplex assays (NSCLC n=642, Inoue 2017, doi:10.18632/oncotarget.14434; TNBC n=122, Buisseret 2018, doi:10.1093/annonc/mdx730), which report prognostic associations of high expression rather than a positivity rate, and no trial has selected patients on CD73."],
-    prevalence: [{"cancerId":"metastatic-cancer","pct":"immune","measure":"Immune-cell target (CD73 and adenosine on tumour and immune cells; tumour expression varies and is measured in trials): expressed on immune cells rather than on the tumour, so patient selection rests on the cancer type and, in trials, on PD-L1 or immune biomarkers."}], links: [{ label: "COAST (JCO 2022)", url: "https://doi.org/10.1200/JCO.22.00227" }], tags: ["gap-fill"] }),
+    prevalence: [{"cancerId":"metastatic-cancer","pct":"immune","measure":"Immune-cell target (CD73 and adenosine on tumour and immune cells; tumour expression varies and is measured in trials): expressed on immune cells rather than on the tumour, so patient selection rests on the cancer type and, in trials, on PD-L1 or immune biomarkers."}], links: [
+  {
+    "label": "COAST (JCO 2022)",
+    "url": "https://doi.org/10.1200/JCO.22.00227"
+  },
+  {
+    "label": "A2A adenosine receptor protects tumors from antitumor T cells.",
+    "url": "https://doi.org/10.1073/pnas.0605251103"
+  },
+  {
+    "label": "Adenosine generation catalyzed by CD39 and CD73 expressed on regulatory T cells mediates immune suppression.",
+    "url": "https://doi.org/10.1084/jem.20062512"
+  },
+  {
+    "label": "A new method of sampling blood for measurement of plasma adenosine.",
+    "url": "https://doi.org/10.1152/ajpheart.1990.258.4.h1232"
+  }
+], tags: ["gap-fill"] ,
+"asOf": "2026-11-10"
+}),
   tg({ id: "vista", name: "VISTA", symbol: "VSIR", hgnc: "HGNC:30085", ensembl: "ENSG00000107738", uniprot: "Q9H7M9", entrez: "64115", targetClass: "checkpoint",
     tldr: "An immune checkpoint on myeloid cells that works at the acidic pH inside tumours and is a suspected escape route after PD-1 therapy; antibodies are in early trials.",
     summary: "VISTA (VSIR, PD-1H) is expressed mainly on myeloid cells and naive T cells, binds PSGL-1 selectively at acidic pH (tumour microenvironment) and VSIG3, and suppresses T-cell activation. It is upregulated after anti-CTLA-4 in prostate cancer and after chemotherapy in some tumours, suggesting adaptive resistance. Anti-VISTA antibodies (CI-8993, SNS-101 which binds only at low pH, HMBD-002, KVA12123) are in phase 1/2; the first agent (JNJ-61610588) was halted for cytokine release. No efficacy has yet been shown.",
@@ -886,16 +952,37 @@ export const gapTargets: TargetInput[] = [
       { label: "Ubamatamab translational study (Zhu et al., Clin Transl Sci 2024)", url: "https://doi.org/10.1111/cts.70082" },
     ], tags: ["gap-fill"] }), asOf: "2026-09-21" },
   tg({ id: "liv1", name: "LIV-1 (SLC39A6)", symbol: "SLC39A6", hgnc: "HGNC:18607", ensembl: "ENSG00000141424", uniprot: "Q13433", entrez: "25800", targetClass: "surface-antigen", wikipedia: W("SLC39A6"),
-    tldr: "LIV-1 is an oestrogen-regulated zinc transporter on most breast cancers; the ADC against it (ladiratuzumab vedotin) showed activity in triple-negative disease but was discontinued in 2024.",
-    summary: "LIV-1 is expressed in >90% of breast cancers including ~70% of TNBC, and in prostate, melanoma and cervical cancers. Ladiratuzumab vedotin (SGN-LIV1A, MMAE payload) produced ~25-30% responses in pretreated metastatic breast cancer and was tested with pembrolizumab; Pfizer discontinued it in 2024 after acquiring Seagen. The target remains validated for next-generation ADCs and radioligands.",
+    tldr: "LIV-1 is a zinc transporter studied as an antibody-delivery target in breast cancer. Measured expression and trial completion do not by themselves establish patient benefit or availability.",
+    summary: "LIV-1 (SLC39A6) is a zinc transporter investigated as a delivery target. Sussman's 2014 work reported expression retained after hormonal therapy in primary and metastatic breast specimens, upregulation in triple-negative breast cancer, and expression in several other cancer types. These observations do not provide one universal TNBC prevalence or a normal-tissue denominator.\n\nThe specified SGN-LIV1A construct used an MMAE payload. In tested cell lines it was internalised and trafficked to lysosomes, with activity in cell and tumour models. That supports preclinical development, not a validated clinical target or a response guarantee for every LIV-1-positive tumour.",
     biology: "Zinc transporter of the ZIP family (SLC39A6) that localises to the plasma membrane, imports zinc and promotes EMT via STAT3/Snail; transcriptionally induced by oestrogen (hence LIV-1, from ER+ breast cancer lines).",
-    whereFound: ["Breast cancer (>90% HR+, ~70% TNBC)", "Prostate cancer", "Cervical, melanoma, pancreatic cancer (subsets)"],
+    whereFound: [
+  "Breast cancer, including triple-negative tumour samples in the 2014 study; expression is assay-dependent",
+  "Prostate cancer",
+  "Cervical, melanoma, pancreatic cancer (subsets)"
+],
     cancers: ["tnbc", "breast-hr-positive", "prostate"], technologies: ["adc"], companies: ["pfizer"],
     prevalence: [
       { cancerId: "breast-hr-positive", pct: "37-43", measure: "IHC, high SLC39A6 expression (cytoplasmic H-score >160 in 37%; nuclear staining in 43%) in 670 unselected early breast cancers, enriched in ER+ tumours", source: "https://doi.org/10.1007/s10549-021-06336-y", note: "Assay- and cutoff-dependent: Seagen's SGN-LIV1A programme reported far higher any-expression rates with its own IHC assay" },
     ],
-    notes: ["TNBC and prostate rates are not well characterised in peer-reviewed series with a stated denominator; the ~70% TNBC figure comes from sponsor assays reported in trial abstracts."],
-    links: [{ label: "Ladiratuzumab vedotin (JCO 2019 abstract)", url: "https://doi.org/10.1200/JCO.2019.37.15_suppl.1094" }], tags: ["gap-fill", "discontinued"] }),
+    notes: ["TNBC and prostate rates are not well characterised in peer-reviewed series with a stated denominator; the ~70% TNBC figure comes from sponsor assays reported in trial abstracts.",
+"The ClinicalTrials.gov entries checked on 11 November 2026 list NCT01969643, the ladiratuzumab-vedotin study, as completed and NCT03310957, its pembrolizumab combination study, as completed. These are study states, not evidence of regulatory approval, an open treatment site or present drug availability. A statement about expression in other cancer types also does not establish how much accessible LIV-1 is present in normal tissues."
+],
+    links: [{ label: "Ladiratuzumab vedotin (JCO 2019 abstract)", url: "https://doi.org/10.1200/JCO.2019.37.15_suppl.1094" },
+{
+  "label": "Sussman et al.: LIV-1 expression and SGN-LIV1A trafficking and model activity (2014)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/25253783/"
+},
+{
+  "label": "ClinicalTrials.gov NCT01969643 (captured 11 November 2026)",
+  "url": "https://clinicaltrials.gov/study/NCT01969643"
+},
+{
+  "label": "ClinicalTrials.gov NCT03310957 (captured 11 November 2026)",
+  "url": "https://clinicaltrials.gov/study/NCT03310957"
+}
+], tags: ["gap-fill", "discontinued"] ,
+"asOf": "2026-11-11"
+}),
   tg({ id: "mdm2", trials: ["nct06578624"], drugs: ["krt-232"], name: "MDM2", symbol: "MDM2", hgnc: "HGNC:6973", ensembl: "ENSG00000135679", uniprot: "Q00987", entrez: "4193", targetClass: "other", wikipedia: W("Mdm2"),
     tldr: "MDM2 is the protein that degrades p53; blocking it reactivates p53 in tumours where the gene is intact, especially the liposarcomas that carry extra copies of MDM2.",
     summary: "MDM2 is an E3 ubiquitin ligase and p53's principal negative regulator; MDM2 amplification defines well-differentiated/dedifferentiated liposarcoma (>90%), intimal sarcoma and low-grade osteosarcoma, and occurs in ~5% of glioblastoma and some breast and lung cancers. MDM2-p53 inhibitors (nutlins: idasanutlin, milademetan, brigimadlin, navtemadlin, siremadlin, alrizomadlin) reactivate wild-type p53 but cause on-target thrombocytopenia and GI toxicity and select for TP53 mutations. Brigimadlin (Brightline-1, dedifferentiated liposarcoma vs doxorubicin) is the lead phase 3; navtemadlin is in phase 3 in myelofibrosis after ruxolitinib (BOREAS). Idasanutlin failed in AML (MIRROS). MDM2 amplification also predicts hyperprogression on checkpoint inhibitors.",
@@ -1049,13 +1136,57 @@ export const gapTechnologies: TechnologyInput[] = [
     sections: ["supportive-care"], technologies: ["exercise-oncology", "psycho-oncology", "pain-management", "antiemetic-therapy"],
     links: [{ label: "SIO-ASCO pain guideline 2022", url: "https://doi.org/10.1200/JCO.22.01357" }, { label: "MSK About Herbs", url: "https://www.mskcc.org/cancer-care/diagnosis-treatment/symptom-management/integrative-medicine/herbs" }, { label: "Alternative medicine and survival (JNCI 2018)", url: "https://doi.org/10.1093/jnci/djx145" }], tags: ["gap-fill", "supportive"], journals: ["integrative-cancer-therapies"] }),
   tech({ id: "antiemetic-therapy", name: "Antiemetics for chemotherapy-induced nausea and vomiting", status: "standard-of-care", since: 1991, wikipedia: W("Chemotherapy-induced_nausea_and_vomiting"),
-    tldr: "The drugs that stopped chemotherapy from meaning days of vomiting: 5-HT3 blockers (ondansetron, palonosetron), NK1 blockers (aprepitant), dexamethasone and olanzapine, given by the emetic risk of each regimen.",
-    summary: "Before 1991, cisplatin caused vomiting in nearly all patients; ondansetron (1991), granisetron, palonosetron (2003, long-acting), aprepitant (2003, NK1 antagonist), fosaprepitant, netupitant-palonosetron (2014), rolapitant and olanzapine (Navari, NEJM 2016) built the modern regimen. Guidelines (MASCC/ESMO, ASCO, NCCN) classify regimens as high (cisplatin, AC), moderate, low or minimal emetic risk and prescribe three- or four-drug prophylaxis for high risk (NK1 + 5-HT3 + dexamethasone ± olanzapine). Breakthrough, anticipatory and radiation-induced nausea have separate algorithms. CINV remains under-treated in ~30% of patients, particularly delayed nausea; dexamethasone-sparing and lower-dose olanzapine (5 mg) are recent refinements.",
+    tldr: "Antiemetic medicines prevent or treat nausea and vomiting. The preventive plan depends on the treatment's emetic risk and the person's circumstances.",
+    summary: "Antiemetic medicines are used to prevent or treat nausea and vomiting, which are separate outcomes. Options include serotonin 5-HT3 receptor antagonists, neurokinin-1 receptor antagonists, dexamethasone and olanzapine. The regimen-specific guidance from MASCC and ESMO and the NCI PDQ describes combinations chosen for the emetic risk of the anticancer treatment and the clinical setting. A list of drug classes does not determine an individual medicine schedule.\n\nAcute, delayed, anticipatory and breakthrough symptoms describe different timing or circumstances. Prevention differs from treatment of symptoms that have already appeared. Trials must state whether their endpoint is nausea, vomiting or a composite such as no vomiting and no rescue medication; meeting that composite does not establish that the person had no nausea.",
     principle: "Prophylaxis matched to emetogenic risk of the regimen and patient risk factors, blocking serotonin (acute), substance P/NK1 (delayed), and dopamine/multiple receptors (olanzapine), with corticosteroid.",
     strengths: ["Complete response in ~70-80% even with cisplatin", "Generic, oral, inexpensive options", "Consensus guidelines from three bodies"],
     limitations: ["Delayed and anticipatory nausea still common", "Guideline non-adherence (under- and over-prescribing)", "Olanzapine sedation; dexamethasone and immunotherapy interactions"],
     sections: ["supportive-care"], technologies: ["cytotoxic-chemotherapy", "integrative-oncology", "epro-symptom-monitoring"], drugs: ["cisplatin", "carboplatin", "doxorubicin", "rolapitant"],
-    links: [{ label: "MASCC/ESMO antiemetic guideline", url: "https://mascc.org/resources/antiemetic-guidelines/" }, { label: "Olanzapine (NEJM 2016)", url: "https://doi.org/10.1056/NEJMoa1515725" }], tags: ["gap-fill", "supportive"] }),
+    links: [
+  {
+    "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Understanding Nausea and Vomiting During Cancer Treatment",
+    "url": "https://ncoda.org/pes/understanding-and-managing-treatment-related-nausea-and-vomiting/"
+  },
+  {
+    "label": "NCI PDQ for patients: Nausea and Vomiting",
+    "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea-vomiting"
+  },
+  {
+    "label": "NCCN Guidelines for Patients: Nausea and Vomiting",
+    "url": "https://www.nccn.org/patientresources/patient-resources/guidelines-for-patients/guidelines-for-patients-details?patientGuidelineId=28"
+  },
+  {
+    "label": "MASCC/ESMO antiemetic guideline",
+    "url": "https://mascc.org/resources/antiemetic-guidelines/"
+  },
+  {
+    "label": "Olanzapine (NEJM 2016)",
+    "url": "https://doi.org/10.1056/NEJMoa1515725"
+  },
+  {
+    "label": "Navari et al., olanzapine for the prevention of chemotherapy-induced nausea and vomiting (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27410922/"
+  },
+  {
+    "label": "Hesketh et al., neurotransmitters through the time course of cisplatin-induced emesis (2003)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12736106/"
+  },
+  {
+    "label": "Herrstedt et al., 2023 MASCC and ESMO antiemetic guideline update (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38458657/"
+  },
+  {
+    "label": "NCI PDQ: nausea and vomiting related to cancer treatment (health professional)",
+    "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq"
+  }
+], tags: ["gap-fill", "supportive"] ,
+"notes": [
+  "Nausea and vomiting are different outcomes. Nausea is the sensation and vomiting the expulsion; they often occur together but one can occur without the other. Serotonin acting at 5-HT3 receptors and substance P acting at NK1 receptors contribute with other transmitters, and in two phase II cisplatin studies serotonin appeared to dominate early vomiting and substance P the later phase, with overlap (Hesketh et al.), so acute and delayed are reporting windows and not sealed pathways. The NCI PDQ classes are acute (the first 24 hours after chemotherapy), delayed, anticipatory, breakthrough, refractory and chronic; anticipatory nausea was reported in about 29 per cent of patients and anticipatory vomiting in 11 per cent, with prevalence varying with definitions and methods. It lists other causes too, such as fluid and electrolyte imbalance including hypercalcaemia or volume depletion, and tells clinicians to consider all potential causes when people receive several treatments, so new nausea needs a cause assessment.",
+  "Reading antiemetic trials. In Navari et al. (380 evaluable chemotherapy-naive adults given cisplatin at 70 mg per square metre or more, or cyclophosphamide-doxorubicin, all with dexamethasone, an NK1 antagonist and a 5-HT3 antagonist), nausea prevention was the primary endpoint and complete response (no emesis and no rescue medication) a secondary one. No nausea in the first 24 hours was 74 per cent with olanzapine against 45 per cent with placebo, while complete response was 86 per cent against 65 per cent, so a complete response does not mean no nausea, and a person with no vomiting can still have persistent nausea. MASCC and ESMO updated their regimen-specific guideline in 2023 (Herrstedt et al., published 2024). Read patient-reported nausea severity, vomiting episodes, rescue-medication use and the observation window together with the preventive regimen and adherence; symptoms that limit drinking or eating warrant prompt contact with the care team. This describes how to read endpoints, not a medicine schedule.",
+  "Gut-to-brain nerve signalling, blood-borne inputs and learned associations can contribute, so one blocked route does not account for every symptom. The timing terms organise observations. Acute commonly refers to the first 24 hours, delayed to symptoms beyond 24 hours, anticipatory to symptoms before treatment associated with previous experiences, and breakthrough to symptoms despite prevention. Learned symptoms are real; delayed does not mean mild, and early and later responses can overlap with multiday treatment. Prevention and treatment of symptoms that have appeared are different questions. In a fictional trial, no vomiting and no rescue medicine can meet its complete-response endpoint while the participant still reports nausea. Relief of either symptom does not measure tumour response."
+],
+"asOf": "2026-11-11"
+}),
   tech({ id: "bone-modifying-agents", companies: ["outperform-cancer"], name: "Bone-modifying agents (bisphosphonates, denosumab)", status: "standard-of-care", since: 1995, wikipedia: W("Bisphosphonate"),
     tldr: "Zoledronic acid and denosumab reduce fractures, spinal cord compression and bone pain from bone metastases and myeloma, prevent treatment-induced bone loss, and in postmenopausal breast cancer modestly reduce recurrence in bone.",
     summary: "Pamidronate (1995, myeloma) and zoledronic acid (2002) reduce skeletal-related events by ~30-40%; denosumab (anti-RANKL, 2010) is superior to zoledronic acid for delaying SREs in solid tumours and non-inferior in myeloma, without renal dosing. Adjuvant bisphosphonates reduce bone recurrence and breast cancer mortality in postmenopausal women (EBCTCG 2015 meta-analysis: 3.3% absolute mortality reduction) and are guideline-recommended; denosumab did not improve disease outcomes adjuvantly (D-CARE). De-escalated dosing (12-weekly zoledronic acid, CALGB 70604) is standard. Osteonecrosis of the jaw (1-2%; dental review), hypocalcaemia, atypical femoral fractures and rebound vertebral fractures after stopping denosumab are the key harms. Also used for hypercalcaemia of malignancy and cancer-treatment-induced bone loss (aromatase inhibitors, ADT).",
@@ -1065,13 +1196,40 @@ export const gapTechnologies: TechnologyInput[] = [
     sections: ["supportive-care", "rejuvenation"], technologies: ["pain-management", "palliative-radiotherapy", "survivorship-care-plan", "cancer-treatment-bone-loss"], cancers: ["multiple-myeloma", "breast-hr-positive", "prostate", "nsclc", "rcc"], drugs: ["radium-223"],
     links: [{ label: "EBCTCG adjuvant bisphosphonates (Lancet 2015)", url: "https://doi.org/10.1016/S0140-6736(15)60908-4" }, { label: "ASCO bone-modifying agents guideline", url: "https://doi.org/10.1200/JCO.2017.75.4614" }], tags: ["gap-fill", "supportive"] }),
   tech({ id: "g-csf-growth-factors", companies: ["eurofarma"], name: "Growth factors: G-CSF and febrile neutropenia prevention", status: "standard-of-care", since: 1991, wikipedia: W("Filgrastim"),
-    tldr: "Injections of filgrastim or its long-acting form pegfilgrastim after chemotherapy make white cells recover faster, cutting the risk of life-threatening infections and allowing chemotherapy on schedule.",
-    summary: "Filgrastim (1991) and pegfilgrastim (2002) reduce febrile neutropenia incidence by ~50% and infection-related mortality; guidelines (ASCO, EORTC, NCCN) recommend primary prophylaxis when regimen risk of febrile neutropenia is >20% or 10-20% with patient risk factors, and secondary prophylaxis after an episode. Biosimilars (since 2015 in the US) cut cost; on-body injectors and same-day dosing trials address logistics. Efbemalenograstim and eflapegrastim (2022) are newer long-acting forms; trilaciclib (CDK4/6 inhibitor, 2021) protects marrow in SCLC; plinabulin failed. Febrile neutropenia itself is managed by risk score (MASCC, CISNE) with outpatient oral antibiotics for low risk. G-CSF also mobilises stem cells (with plerixafor) and is contraindicated during concurrent chemoradiation to the chest.",
+    tldr: "Granulocyte colony-stimulating factor medicines support neutrophil production and recovery. Their use depends on the treatment regimen, infection risk and individual clinical context.",
+    summary: "Granulocyte colony-stimulating factor medicines support neutrophil production in selected clinical settings. They have a different job from the treatment directed at the cancer. Filgrastim acts through receptors on relevant blood-forming cells; it does not replace all missing blood-cell types or create immediate general immunity.\n\nThe 2026 ASCO update supports primary prophylaxis when a chemotherapy regimen's febrile-neutropenia risk is approximately 20% or higher and no equally effective and safe alternative not requiring it is available. Below 20%, age, history or disease characteristics can still justify prophylaxis. Those recommendations require the named regimen and individual clinical context; they do not make every low neutrophil count an indication for treatment. Product, schedule, monitoring and management of fever belong to the care team's plan.",
     principle: "Recombinant granulocyte colony-stimulating factor accelerates neutrophil precursor proliferation and release, shortening the neutropenic nadir after myelosuppressive chemotherapy.",
     strengths: ["Halves febrile neutropenia; maintains dose intensity", "Biosimilars widely available", "Enables dose-dense regimens (e.g. every-2-week AC-T)"],
-    limitations: ["Bone pain in ~30%", "Cost drove over- and under-use", "Rare splenic rupture; theoretical MDS/AML risk debated"],
+    limitations: [
+  "Bone pain is a recognised adverse reaction; its rate depends on the product and setting.",
+  "Cost and access can affect delivery of supportive care.",
+  "Serious filgrastim label warnings include splenic rupture and acute respiratory distress syndrome; the label also addresses monitoring for myelodysplastic syndrome or acute myeloid leukaemia in people with breast or lung cancer receiving chemotherapy and/or radiotherapy."
+],
     sections: ["supportive-care"], technologies: ["cytotoxic-chemotherapy", "autologous-stem-cell-transplant", "transfusion-support"], terms: ["biosimilar"],
-    links: [{ label: "ASCO WBC growth factors guideline 2015", url: "https://doi.org/10.1200/JCO.2015.62.3488" }, { label: "MASCC febrile neutropenia risk index", url: "https://mascc.org/resources/mascc-risk-index-score/" }], tags: ["gap-fill", "supportive"], drugs: ["efbemalenograstim-alfa", "lipegfilgrastim"] }),
+    links: [
+  {
+    "label": "ASCO WBC growth factors guideline 2015",
+    "url": "https://doi.org/10.1200/JCO.2015.62.3488"
+  },
+  {
+    "label": "MASCC febrile neutropenia risk index",
+    "url": "https://mascc.org/resources/mascc-risk-index-score/"
+  },
+  {
+    "label": "Gyawali et al., WBC growth factors: ASCO guideline update (2026)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41740078/"
+  },
+  {
+    "label": "Gyawali et al., WBC growth factors ASCO guideline update, authors' slide set (University of Pretoria repository)",
+    "url": "https://repository.up.ac.za/server/api/core/bitstreams/8e7e91e8-bf52-4137-ac8d-b811e775a306/content"
+  }
+], tags: ["gap-fill", "supportive"], drugs: ["efbemalenograstim-alfa", "lipegfilgrastim"] ,
+"notes": [
+  "What the 2026 ASCO update says. Prophylactic colony-stimulating factors to reduce febrile neutropenia are warranted when the chemotherapy regimen's risk is approximately 20 per cent or higher and no equally effective and safe regimen without them exists, and may be warranted below 20 per cent when age, medical history or disease characteristics put a patient at high risk; it also covers stem-cell mobilisation with plerixafor or motixafortide and newer products and biosimilars (Gyawali et al., abstract; systematic review of 33 randomised trials and 16 systematic reviews searched to August 2025). The authors' slide set gives the population as adults with solid tumours or hematologic malignancies treated with systemic antineoplastic therapy, where the JCO abstract says adults with cancer, and neither covers children. The recommendations depend on regimen and individual risk; they do not make every low count an indication for a growth factor.",
+  "What the drug does and what it does not. Colony-stimulating factors act on haematopoietic cells by binding specific cell-surface receptors and stimulating proliferation, differentiation commitment and some end-cell functional activation; endogenous G-CSF is lineage specific and regulates neutrophil production in the marrow (filgrastim prescribing information). It supports neutrophil recovery and does not supply a complete immune system, boost antitumour immunity or replace other blood cells. Bone pain is a labelled adverse reaction; its frequency belongs to the particular study population and regimen. The label also warns about uncommon serious harms, including splenic rupture and acute respiratory distress syndrome, and reports MDS or AML in patients with breast or lung cancer receiving chemotherapy and/or radiation. These warnings do not supply an individual probability. Supportive-care benefit, such as a better count or fewer infections, is not tumour response. Shorter- and longer-acting preparations have product-specific delivery and monitoring requirements; a class name does not select a product, amount or schedule."
+],
+"asOf": "2026-11-11"
+}),
   tech({ id: "transfusion-support", name: "Transfusion support and anaemia management", status: "standard-of-care", wikipedia: W("Blood_transfusion"),
     tldr: "Red cell and platelet transfusions, iron and erythropoiesis-stimulating agents keep patients safe through chemotherapy and marrow failure; restrictive thresholds and ESA caution reflect trials showing more is not better.",
     summary: "Chemotherapy-induced anaemia affects most patients on myelosuppressive regimens; MDS and leukaemia patients are often transfusion-dependent. Evidence supports restrictive red cell thresholds (7-8 g/dL in stable patients; TRIST, Hb 7 vs 9 in haematologic malignancy) and prophylactic platelet transfusion at 10×10⁹/L (TOPPS showed prophylaxis still helps in most). ESAs (epoetin, darbepoetin) reduce transfusions but increased thromboembolism and mortality in several trials when Hb targets were high, so labels restrict them to palliative chemotherapy with Hb <10 g/dL (2007-08 FDA/EMA actions). IV iron improves ESA response and treats functional iron deficiency. Transfusional iron overload in MDS is treated with chelation (TELESTO). Newer agents: luspatercept and imetelstat (MDS), romiplostim/eltrombopag for chemotherapy-induced thrombocytopenia (off-label; avatrombopag trials), and thrombopoietin agonists after transplant. Blood supply and cost are limiting worldwide; pathogen-reduced platelets and cold-stored platelets are being adopted.",
@@ -1181,9 +1339,27 @@ export const gapTerms: TermInput[] = [
     links: [{ label: "ESMO cancer in pregnancy guideline", url: "https://doi.org/10.1093/annonc/mdt199" }, { label: "INCIP (Amant, NEJM 2015)", url: "https://doi.org/10.1056/NEJMoa1508913" }, { label: "INCIP network", url: "https://www.cancerinpregnancy.org/" }], tags: ["gap-fill"] }),
   term({ id: "hereditary-cancer-syndromes", aka: ["hereditary cancer", "hereditary cancers", "hereditary cancer syndrome", "inherited cancer", "inherited cancer syndrome", "inherited risk", "cancer predisposition", "cancer susceptibility", "familial cancer"], name: "Hereditary cancer syndromes", category: "genetics", wikipedia: W("Hereditary_cancer_syndrome"),
     tldr: "About 5-10% of cancers arise from an inherited gene fault. Recognising the syndromes (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, retinoblastoma and dozens more) changes screening, surgery and treatment for the patient and their relatives.",
-    summary: "The main syndromes: hereditary breast-ovarian (BRCA1/2, PALB2), Lynch (MLH1/MSH2/MSH6/PMS2/EPCAM; colorectal, endometrial, urothelial and more), Li-Fraumeni (TP53; sarcoma, breast, brain, adrenocortical, leukaemia; whole-body MRI surveillance halves cancer mortality), familial adenomatous polyposis (APC), von Hippel-Lindau (VHL; RCC, phaeochromocytoma, haemangioblastoma; belzutifan approved 2021), MEN1/MEN2 (RET; medullary thyroid), hereditary retinoblastoma (RB1), Peutz-Jeghers, Cowden (PTEN), hereditary diffuse gastric cancer (CDH1), hereditary paraganglioma (SDHx), DICER1, and moderate-penetrance genes (CHEK2, ATM). Practice: germline multigene panel testing is now recommended for all patients with ovarian, pancreatic, metastatic prostate, male breast, and many breast and colorectal cancers (NCCN), with cascade testing of relatives; risk-reducing surgery (mastectomy, salpingo-oophorectomy, colectomy, thyroidectomy), intensified surveillance (MRI, colonoscopy), chemoprevention (aspirin in Lynch, CAPP2), and therapy selection (PARP inhibitors, immunotherapy for Lynch tumours, belzutifan in VHL). Population-based BRCA/Lynch screening and polygenic risk scores are the frontier.",
+    summary: "The main syndromes: hereditary breast-ovarian (BRCA1/2, PALB2), Lynch (MLH1/MSH2/MSH6/PMS2/EPCAM; colorectal, endometrial, urothelial and more), Li-Fraumeni (TP53; sarcoma, breast, brain, adrenocortical, leukaemia), familial adenomatous polyposis (APC), von Hippel-Lindau (VHL; RCC, phaeochromocytoma, haemangioblastoma; belzutifan approved 2021), MEN1 (MEN1; parathyroid, pancreatic islet and pituitary tumours) and MEN2 (RET; including medullary thyroid cancer), hereditary retinoblastoma (RB1), Peutz-Jeghers, Cowden (PTEN), hereditary diffuse gastric cancer (CDH1), hereditary paraganglioma (SDHx), DICER1, and moderate-penetrance genes (CHEK2, ATM). Practice: germline multigene panel testing is now recommended for all patients with ovarian, pancreatic, metastatic prostate, male breast, and many breast and colorectal cancers (NCCN), with cascade testing of relatives; risk-reducing surgery (mastectomy, salpingo-oophorectomy, colectomy, thyroidectomy), intensified surveillance (MRI, colonoscopy), chemoprevention (aspirin in Lynch, CAPP2), and therapy selection (PARP inhibitors, immunotherapy for Lynch tumours, belzutifan in VHL). Population-based BRCA/Lynch screening and polygenic risk scores are the frontier.",
     related: ["brca", "lynch-syndrome", "li-fraumeni", "vhl-disease", "germline-testing", "risk-reducing-salpingectomy", "retinoblastoma", "adrenocortical", "men1-hereditary-net", "whole-body-mri", "colectomy", "german-consortium-hereditary-breast-ovarian-cancer", "nsgc-find-a-genetic-counselor", ...HEREDITARY_SYNDROME_IDS_2026], terms: ["germline-vs-somatic", "vus"],
-    links: [{ label: "NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian, Pancreatic, and Prostate", url: "https://www.nccn.org/guidelines/guidelines-detail?category=2&id=1545" }, { label: "NCCN Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, Esophageal, and Gastric", url: "https://www.nccn.org/guidelines/guidelines-detail?category=2&id=1552" }, { label: "NCI Cancer Genetics Overview (PDQ)", url: "https://www.cancer.gov/about-cancer/causes-prevention/genetics/overview-pdq" }], tags: ["gap-fill", "hereditary"], journals: ["familial-cancer"] }),
+    links: [{ label: "NCCN Genetic/Familial High-Risk Assessment: Breast, Ovarian, Pancreatic, and Prostate", url: "https://www.nccn.org/guidelines/guidelines-detail?category=2&id=1545" }, { label: "NCCN Genetic/Familial High-Risk Assessment: Colorectal, Endometrial, Esophageal, and Gastric", url: "https://www.nccn.org/guidelines/guidelines-detail?category=2&id=1552" }, { label: "NCI Cancer Genetics Overview (PDQ)", url: "https://www.cancer.gov/about-cancer/causes-prevention/genetics/overview-pdq" },
+{
+  "label": "Yang X et al. (2020): Cancer Risks Associated With Germline &lt;i&gt;PALB2&lt;/i&gt; Pathogenic Variants: An International Study of 524 Families",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/31841383/"
+},
+{
+  "label": "nci genetic testing",
+  "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet"
+},
+{
+  "label": "NCI: childhood multiple endocrine neoplasia syndromes, gene and clinical-feature table",
+  "url": "https://www.cancer.gov/types/multiple-endocrine-neoplasia/hp-child-men-syndromes-treatment-pdq"
+}
+], tags: ["gap-fill", "hereditary"], journals: ["familial-cancer"] ,
+"asOf": "2026-11-11",
+"notes": [
+  "Breast-cancer susceptibility is gene- and variant-specific. Yang and colleagues analysed 524 families with germline PALB2 pathogenic variants and modelled risks that varied with age and family history; ascertainment also matters when applying a family study. These are group estimates, not the risk of every PALB2 variant or a personal prediction. The absence of known cancer in relatives does not exclude a harmful inherited variant: small families, relatives' ages and incomplete information can limit the pattern that is visible."
+]
+}),
   term({ id: "li-fraumeni", name: "Li-Fraumeni syndrome (germline TP53)", category: "genetics", wikipedia: W("Li–Fraumeni_syndrome"),
     tldr: "Li-Fraumeni syndrome is an inherited fault in the TP53 gene giving a lifetime cancer risk near 100% in women and ~75% in men, with sarcomas, breast cancer, brain tumours, adrenal cancer and leukaemias often in childhood. Whole-body MRI surveillance saves lives.",
     summary: "Described by Li and Fraumeni (1969); germline TP53 mutations identified 1990 (Malkin). Core cancers: soft-tissue and bone sarcoma, premenopausal breast cancer, brain tumours (choroid plexus carcinoma, medulloblastoma SHH, glioma), adrenocortical carcinoma (~50-80% of childhood ACC carry germline TP53; R337H founder mutation in southern Brazil with 0.3% carrier frequency), leukaemia (hypodiploid ALL), and radiation-induced second cancers (radiotherapy avoided where possible). The 'Toronto protocol' (Villani, Lancet Oncol 2011, 2016) of annual whole-body MRI, brain MRI, breast MRI, ultrasound and biochemical screening detected tumours early and improved survival; now standard (NCCN, AACR 2017 consensus). Risk-reducing mastectomy is offered. Chompret criteria guide testing; ~1 in 5,000-20,000 prevalence; mosaic and low-penetrance variants complicate counselling; clonal haematopoiesis can mimic germline TP53 on blood testing.",

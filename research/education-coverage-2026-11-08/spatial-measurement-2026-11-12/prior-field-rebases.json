@@ -1,0 +1,349 @@
+{
+  "references": [
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/0/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/1/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/2/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/3/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/4/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/5/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/6/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/7/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/336/review/points/7/evidence/1",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/0/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/1/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/2/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/3/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/4/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/5/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/6/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/7/evidence/0",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/348/review/points/7/evidence/1",
+      "before": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "single-cell-spatial",
+        "version": "proposal-spatial-measurement-root",
+        "field": "notes",
+        "fieldSha256": "4ea1befc44772d0e0d569ddb6ce67b513b2028dcaddec1142b96fea72025586e",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "reason": "All eleven earlier notes are retained verbatim and in order; update only this current-root reference. Peer-draft snapshots and earlier packet bytes are untouched."
+    }
+  ],
+  "count": 18,
+  "peerDraftReferencesUnchanged": 18,
+  "frozenPacketsRewritten": false
+}

@@ -299,7 +299,7 @@ const supplements: SpikeSupplement[] = [
  * into its entities; ids are referenced nowhere in the graph until then. Categories are the canonical ones
  * (src/data/term-categories.ts).
  */
-const draft = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, cancers: [CANCER], ...x });
+const draft = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: string }): TermInput => ({ kind: "term", asOf, cancers: [CANCER], ...x });
 export const tnbcLivingTermDrafts: TermInput[] = [
   draft({ id: "hair-loss-and-scalp-cooling-breast", sections: ["rejuvenation"], wikipediaChecked: "2026-09-25", name: "Hair loss and scalp cooling with breast cancer chemotherapy", category: "Side effects", aka: ["chemotherapy hair loss", "cold cap"],
     tldr: "Taxane and anthracycline chemotherapy for triple-negative breast cancer causes hair loss in most people, usually starting after the first or second cycle and almost always growing back; scalp cooling kept more than half the hair in about half of women in a randomised trial and is offered in many UK units.",
@@ -320,7 +320,58 @@ export const tnbcLivingTermDrafts: TermInput[] = [
   draft({ id: "adc-side-effects-breast", wikipediaChecked: "2026-09-25", name: "Living with an antibody-drug conjugate: diarrhoea, blood counts, eyes and lungs", category: "Side effects", aka: ["ADC side effects", "sacituzumab side effects", "Trodelvy side effects", "Datroway side effects"],
     tldr: "The antibody-drug conjugates used in triple-negative breast cancer carry chemotherapy into the cancer but still cause chemotherapy-like effects: sacituzumab govitecan mainly low white cells and diarrhoea, datopotamab deruxtecan mouth soreness, eye problems and rarely lung inflammation, trastuzumab deruxtecan lung inflammation and sickness. Each has a threshold for ringing the 24-hour line.",
     summary: `Macmillan says sacituzumab govitecan is given on days 1 and 8 of a 21-day cycle, that it can cause severe diarrhoea, and to contact the hospital straight away on the 24-hour number for diarrhoea 4 or more times in a day, diarrhoea at night, or anti-diarrhoea drugs not working within 24 hours, as well as for a temperature above 37.5 C or below 36 C. Breast Cancer Now uses 3 or more times in 24 hours and says growth factor injections are sometimes recommended to protect white cells. The Datroway label requires eye examinations and lists keratitis; the Enhertu label carries a boxed warning for interstitial lung disease, and a pooled analysis found 15.4% of people on trastuzumab deruxtecan developed drug-related lung inflammation, most within the first year. ${NOT_ADVICE}`,
-    links: [MAC_SG, BCN_SG, MAC_ADC, POWELL_ILD, ASCENT_PAPER], drugs: ["sacituzumab-govitecan", "datopotamab-deruxtecan", "trastuzumab-deruxtecan"], terms: ["neutropenia", "ild", "ocular-toxicity"], technologies: ["adc"] }),
+    links: [
+  {
+    "label": "Macmillan: sacituzumab govitecan",
+    "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/sacituzumab-govitecan"
+  },
+  {
+    "label": "Breast Cancer Now: sacituzumab govitecan (Trodelvy)",
+    "url": "https://breastcancernow.org/about-breast-cancer/treatment/targeted-therapy/sacituzumab-govitecan-trodelvy"
+  },
+  {
+    "label": "Macmillan: antibody drug conjugate treatment",
+    "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/antibody-drug-conjugate"
+  },
+  {
+    "label": "Powell et al., pooled analysis of interstitial lung disease in nine trastuzumab deruxtecan studies (ESMO Open 2022)",
+    "url": "https://doi.org/10.1016/j.esmoop.2022.100554"
+  },
+  {
+    "label": "Bardia et al., sacituzumab govitecan in metastatic triple-negative breast cancer, ASCENT (NEJM 2021)",
+    "url": "https://doi.org/10.1056/NEJMoa2028485"
+  },
+  {
+    "label": "Masters et al., clinical toxicity of antibody-drug conjugates: meta-analysis of payloads (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29027591/"
+  },
+  {
+    "label": "Sacituzumab govitecan prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+  },
+  {
+    "label": "Trastuzumab deruxtecan prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+  },
+  {
+    "label": "Datopotamab deruxtecan prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"
+  },
+  {
+    "label": "Trastuzumab emtansine prescribing information (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+  },
+  {
+    "label": "Drago, Modi and Chandarlapaty, unlocking the potential of antibody-drug conjugates for cancer therapy (2021)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33558752/"
+  }
+], drugs: ["sacituzumab-govitecan", "datopotamab-deruxtecan", "trastuzumab-deruxtecan"], terms: ["neutropenia", "ild", "ocular-toxicity"], technologies: ["adc"] ,
+"notes": [
+  "Why ADC side effects follow the payload more than the target. Payload can reach healthy cells by early release from an unstable linker, by antigen-independent uptake (pinocytosis), or by the target sitting on healthy tissue; the Drago review concludes that off-target, off-tumour adverse events appear to dominate the toxicity profiles of most existing ADCs, while giving true on-target examples. A pooled analysis of ADC trials (Masters et al.; 43 studies with grade 3 to 4 data) found anaemia, neutropenia and peripheral neuropathy consistently reported with MMAE ADCs, thrombocytopenia and liver toxicity with DM1, and ocular toxicity with MMAF, and concluded the key toxicities are likely off-target and related to the payload. Those are patterns within published data with non-uniform reporting, and each product's own label governs its figures.",
+  "What the current labels report for the breast cancer products. Sacituzumab govitecan (SN-38 payload): neutropenia 64 per cent (grade 3 to 4, 48 per cent; febrile 6 per cent) and diarrhoea 62 per cent (grade 3 to 4, 10 per cent), with higher risk of neutropenia, febrile neutropenia and anaemia in people homozygous for UGT1A1*28. Trastuzumab deruxtecan: interstitial lung disease 12 per cent at 5.4 mg/kg, fatal 0.9 per cent. Datopotamab deruxtecan: interstitial lung disease 3.0 per cent (fatal 0.2 per cent) among 841 people with breast cancer, and 7 per cent in a pool of 484 with non-small-cell lung cancer. Trastuzumab emtansine: thrombocytopenia in 494 of 1,624 treated patients, grade 3 or higher in 145. These come from different trials and populations and cannot be compared head to head, a payload class does not make products equivalent, and a label rate is not a personal risk."
+],
+"asOf": "2026-11-11"
+}),
   draft({ id: "urgent-help-tnbc", wikipediaChecked: "2026-09-25", name: "When to seek urgent help with triple-negative breast cancer (NHS 111 and 999)", category: "Clinical",
     tldr: "Call 999 for signs of sepsis, sudden severe breathlessness, a seizure or new confusion; ring the hospital's 24-hour line straight away for a temperature over 37.5 C or below 36 C, for diarrhoea that meets your drug's threshold, for a new cough or breathlessness on pembrolizumab or a deruxtecan drug, or for yellow eyes; use NHS 111 when you cannot reach the team and are not sure.",
     summary: `The wording, situation by situation. Sepsis (999 or A&E, NHS): breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed. Infection on chemotherapy (24-hour line, Macmillan): temperature over 37.5 C or below 36 C, shivering, feeling unwell even with a normal temperature. Immune-related reactions on pembrolizumab (24-hour line, Macmillan): more stools than usual or stools at night, tummy cramps; breathlessness, a cough that does not go away, wheeze or fever; yellow skin or eyes; unusual tiredness, headaches, dizziness, thirst. Lung inflammation on trastuzumab deruxtecan or datopotamab deruxtecan (24-hour line): any new cough, breathlessness or fever. Brain symptoms (999): a seizure, sudden severe headache, new weakness or confusion. The NHS says use 111 online or call 111 when you think you need medical help right now and it is not an emergency. ${NOT_ADVICE}`,

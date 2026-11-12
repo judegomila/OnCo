@@ -1,0 +1,57 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "status": "no learning requirement was invented; Elicit questions and report links not used",
+  "requirements": [
+    {
+      "id": "LR-asset-role",
+      "statement": "A support asset may be classified as support only if its body restates no reader-facing teaching; review claims inside custody stay support with science escalations open.",
+      "appliesTo": "all 20",
+      "result": "met: no alt/caption/lesson leaves in any body; 11 review-custody + 9 authoring-provenance roles"
+    },
+    {
+      "id": "LR-owner-hash",
+      "statement": "Historical, preimage and current owner hashes must be kept distinct and a cited 'current' hash must be checked against the pinned bodies.",
+      "appliesTo": "all 20",
+      "result": "only 01, 10, 11(final candidate), 23, 30 cite a hash equal to the pinned owner at both refs; 04, 07, 13, 14, 17, 20, 33 cite a historical owner version; 24 mislabels a baseline as 'current'"
+    },
+    {
+      "id": "LR-identity-not-support",
+      "statement": "Resolving an identifier proves identity only; claim support needs the raw passage.",
+      "appliesTo": "10,11,15,18,21,23,31",
+      "result": "14 identifiers resolved to the stated papers; claim support partly read (abstract or selected passage) and partly absent"
+    },
+    {
+      "id": "LR-reader-facing",
+      "statement": "Alt/caption/reader copy carried in a custody file must be separately escalated (R01).",
+      "appliesTo": "all 20",
+      "result": "none found; R01 not triggered"
+    },
+    {
+      "id": "LR-science-open",
+      "statement": "E/C/R escalations stay open unless the named question is answered with adequate primary evidence.",
+      "appliesTo": "all 20",
+      "result": "no escalation closed; leads recorded where primary text agrees"
+    }
+  ],
+  "lessonLevelLearningRequirementsNotAssessed": "This batch assesses support roles only; lesson learning requirements belong to the content batches."
+}

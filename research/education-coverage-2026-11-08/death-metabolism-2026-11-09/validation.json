@@ -1,0 +1,97 @@
+{
+  "checkedOn": "2026-11-09",
+  "validateEntities": 22746,
+  "gates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.97
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.37
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 31.61
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 107.67
+    }
+  ],
+  "fullSuite": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2,
+    "seconds": 107.67
+  },
+  "lint": "Zero errors and seven pre-existing warnings",
+  "focusedGraphChecks": {
+    "tests": 59,
+    "status": "pass"
+  },
+  "focusedAuditChecks": {
+    "files": 3,
+    "tests": 16,
+    "status": "pass"
+  },
+  "dedupe": "Nine pre-existing groups; no new name, DOI or PMID duplicate group",
+  "initialIntegrationFailures": "Four orphaned new terms and two UPS target-role findings. Added scientifically appropriate inbound links; preserved BCMA and androgen-receptor context as related subjects. Both focused files and the complete suite pass. No floors, budgets, tests or ranking changed.",
+  "actualReader": {
+    "owners": 43,
+    "requirementPassages": 110,
+    "missingSources": 0,
+    "nestedAnchors": 0
+  },
+  "actualExports": {
+    "canonicalJsonOwners": 43,
+    "MarkdownPassages": 106,
+    "immutableFiles": 86
+  },
+  "summarySelectors": {
+    "checked": 117,
+    "present": 9,
+    "EnglishFallback": 108,
+    "staleEntriesRemoved": 72,
+    "namedLanguageReview": 0
+  },
+  "sourceClosure": {
+    "originalAssessed": 145,
+    "originalTotal": 537,
+    "originalRequirements": 583,
+    "originalEvidenced": 576,
+    "originalOpen": 7,
+    "laterAssessed": 130,
+    "laterTotal": 550,
+    "laterRequirements": 564,
+    "laterEvidenced": 564,
+    "laterOpen": 0,
+    "closureExitCode": 2,
+    "staleOrMissingProofs": 0
+  },
+  "limitations": "No new Next production build; existing GRAPH_JSON page-export limitation remains documented. No browser hydration, responsive/hosted review, expert sign-off, merge or deployment. Unchanged shared-draft field/body evidence is reused at head 4064995963b71f72ac0d1d2bd486454b55838d80; its full suite was not rerun in this checkpoint."
+}

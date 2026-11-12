@@ -1,0 +1,3257 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "original",
+      "name": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "file": "original-breast-mri.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "cf992dbdd9c4242f9c14402018e84bc7d937d254e8a3fbad6c1f8b5cf0976063",
+      "gitBlob": "69cee21eae7791bf25fedf837a8f24d95cafeb4b",
+      "bytes": 9499,
+      "title": "Breast MRI: enhancement, extent and research volume",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e1452520ba5c3f5a1cb4096c7ac054128bb819fc72b9e82347cf87894ab1099a"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "305db6db51eaa7218892c0b0fae10182edb721ec1b08b6739facbc9e9928ae53"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bc6f9bc2ce6ce12d9eeb679f12f53a7706a737beda837923dcf655bcb9cc6fff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725bc49ac8a9c6ae663879580e58def05bbf1a2169e89bdba2d96aa46de9316c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "155704da2844b08d95adf8c7d167e078eb33ee6841783edc27999fe99008ae54"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "95d6bf0b059765e7dffc02918517745de92370548a22ff34a7d1b57716bfe060"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e42259799f75332925d57d795c7e44a3951c0991dc9021ae5fc39bf8d6e662dc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fb06ae0732b11492dfba028b37ce4a5ac435b3e94695bcc32a58073d19e5f42c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7bc1fc8997829aef85bf674a65f9286a14a48d540065deb7b27d20e7b93d6adc"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f738f799b49d0c24c132a430958d1e91a5462b8e89f293381d64220a8882f64c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "f1437dcc0e452a4ddc6e192cef4c05f63a0759e8341facecd99cb762b57b30fc"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "7f14077dc409854c135f9fe0924451bb4942e79c912d20b6789d930496f3d4c6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "eb6c453321a97a70ceab7ab88b0dd77a73aa1882866f455dc6f1d9331f6db2a0"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "original",
+      "name": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "file": "original-breast-ultrasound.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "58765be6dae420ce750cc84c68b905a870cae8c0c7ee37e479e39ace0d40fbe0",
+      "gitBlob": "dc3b245eb5556e4aa8ffbc175b30a35a5af617d7",
+      "bytes": 8157,
+      "title": "Breast ultrasound: an image made from echoes",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "423d63864cabb76b27baad3abb6de507704a99f847eef8231179fd63b06a66d2"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ca3dc38a7aba03be3146b14c810748e5cbcbbb5cf9a2a1b4021c8a08525e8183"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "86cbac60e20f24934684b31195939251996f3ed4c775cc0e8cbceea7c598ce75"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9d040dfb6bdd1bcd84b08540127571e75048e1f0d60d0cb02299e457c599c955"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "593708b558ed68e2e26b4051a74d576eebff7a879a6756108c8abdf0269e2415"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d8dc543973b9e2375198310b40cd164ebf121da8d5a9cc083a1d73f6658878f8"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6da431f1f85151ef951431c4cbfdd36d09b69b9a742f4de2839503214c77d810"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "95987e39d78d8661c485417359dd7a2d3193a869d73725e32d0ea887387749aa"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d314a423104ef111cbba16cebb0b9220caa5527ac2248e5f8c23a63081cd2a36"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "af496d19f9c49612d1d682c6e451cb774b73d22baf6703e7ca0c27cb3e7adb24"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "2079e1498f7a39971be999c54cd63b9f7bd55604f8ca4bfa119cfc2598fdbee1"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8ce65c4cf1ad5a41f9b84fc5f33cbf833fb941956d0d6ee622842195718e7466"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "original",
+      "name": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "file": "original-mammography.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "93f89075624fd5f9f750108fbb42f9a2e2053ddb1661cc887eaee4fda95f1f7e",
+      "gitBlob": "419c76f438132954d7bf7c95762affda062533ca",
+      "bytes": 8007,
+      "title": "Mammography: X-ray patterns in the breast",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e10d1c298b8ce1282a56f2f63518e41b574ce6005c6d30a46fac0140bf18f706"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "007b4c68122fcadc7ae3bb3917a789ce85931f442ad286310bf87d7bf52d577b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0926c3f0374edcca2aa653ffe2ffbe8bc7355f1dcc5d303b40c36aa1eb39ca05"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3aed1b3d40e900f401766c5c5e90c8f1d9a4a3785687ee72568c48fde037a48a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "143ad323d5964e5fa400623bbb7780de89824c9f74d25ad7f02e34e93004e3b5"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f515e2d71bae09357cec239bebdf8d9429a1b2f6f7dcff369d8a7e946e8970d3"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "408f37f6831fa881cb05654455512af52672c78f3d7c4112ef205f08e734396d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c16ecc97d677e3e8702f83bebf05fb67b6aa98a8b709ea4a6351517ec7b8ff0d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "49a19c483c97192635370800f6300a5878cc915eb7055cd6d159b5cdc4abb4cc"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ed40e2424b62100a959a859c2b485f6cec85e4ee1f95b96c7f9c6036443d267e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "397b85486e958ca0e6e8386dc23603b3357696da6adba5660b68e12d3172b7a1"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "13e9a4324e0ef289fa85bb61b9be5db8152af83f3e6e504d411781454b38af93"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "original",
+      "name": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "file": "original-pet-ct.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "8e957fad2cd8be74725d340b7bd50ebb0cca5f146f286b6f4c29d54e64990eb7",
+      "gitBlob": "7b10bc86f50f015d12b8265ff3c247d48b4e187a",
+      "bytes": 8741,
+      "title": "PET-CT: tracer distribution alongside anatomy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "983750db41064105e41d2d99d69e89ce3187bef4eaa3c22c0fdf53ada852c750"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c542805bfa7eba13689e1bb280f36a8e3166adebf080a8104ae0ed0336ba8a35"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d585423e6fdbce5922455c0e733bf384b1a0bafb2923317c5e26af59483c08bd"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f45acf0ff9c671c0f01b06e87f05224912872d7c40569a114c78da9d4fb741ac"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3c968f091f0a04237f8b551cc774971b151c662719714d44858d183bb45cad11"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f201c17469a15590c98acc06e5010498dfb72eabfd8c7757789d2c3d3f4ecad7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7bbda1db63d91e519ffca6164c5e08774d4ba4ed44403fa9b3246f244256870e"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c0a756ea658369ddfe1e7d3f18420da9ef9bf463e8b9c0f2bde961cf026c9314"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bf62094cf8daf45beaa41e9f3a540aca5f175607669a56c6d006cebefc3628f8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "6b2456ea6f221d5bd69cc7864588be75e415c762e149c5102d33732259a310af"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "36f8ddaf53f1d770da37e24604d4f2235c1dd29aa5dc6f74f625d64f08ecce03"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "712a4c0711ddaea79f446b8e8655f0291424814c9d5dfdc7123b0643d00c5157"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "original",
+      "name": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "file": "original-immuno-pet.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "883543c695a2eb9af4847cac8f795663b5a545cf03f37b0df3e007fa588f1615",
+      "gitBlob": "e364cbe35d6b41bc6bd46116c1034028fd8594ec",
+      "bytes": 9418,
+      "title": "Immuno-PET: tracking an antibody-based tracer",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0587bf893e62282d2934765976e01cf1667a2b5620f279dbda4daf5dd8bbc087"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "72a556af9344ae1180b967b44d6fa23f63556133d41b23f7a71acc3a5b24b11c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1d94ebbd44f84ebe6d41c4dec81886743ad99ed4f5932990afd3422d95d7459a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4b508a0bed713adb241664dd0c721a63f6cbdb98bed1539e61a4c9d5207e4595"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c6063d410fef8fc31ec4c9acf190ee395c9fc84d916aba911909503fccbad672"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "62ea0ddc4af23ec05ab42590c4d928647539947266f9d8f8eced1af95cd1b857"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fbae35f0682e5b87d33286255164ce86ec5faccc8e382d0324b42510867fab90"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e21246b8dcab5ba67db96051b6617269c25cf1abc1931dccfa0377cb331abfbb"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0af35a0b7837cad4daa7e429433f3dbaa422f1e684cc2ae1ff71784f211d02f7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "6bbaf8265d1536906b7900df66ce7f29746fad4c0b4ab4d906bd376ffd6c3ddd"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "6b937863a913476182cb681778643919c3b8edf45dbec04f3fc32e7a4f072933"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "31a0f77379090e0633396cddfc9a594b54270a1fdc11391c12de6c312acfceba"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "original",
+      "name": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "file": "original-target-pet-and-theranostic-imaging.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "9fa99632a3d091e6cfd892b5f7b956ee700303b14c823b84d804a4e5e8a801a4",
+      "gitBlob": "03949e3f38cd2143f0a49878cf3b35e14936224d",
+      "bytes": 9459,
+      "title": "Target PET and theranostic imaging",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a42738cd2f7b001d68b3644522f763814140e9652d315db7b3a43a02a1c5390c"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "236e9165fe700bfcf0b4674e29466de563909cfc4aeb77c857158baf0ebc118d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "48624b5d04e327b27010bcbfa00491f1398e0f9a750cc67aa998dce9a7a25601"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c0a5c28aab476ff1c3ce7c7c08b66b2ca275a732be55bc47a903afb5cc8467c1"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "814645f35457ea9764842837c798dcafd10f7acfba3d125b1ceb28c5f12f8695"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "43631361491baa2e92ecf374bf1e48e90cbd25d933334ffa0d3355f4d9bb51f3"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "849eb79b6ca798933b50cf08dfe90ca03e4b76d23b9340141ffd724cdd0b695a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "11bb6c27a1c664ed69541a82af86cb0cab7338d2c7a3f5fa1390e7ff3d5b7c0a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "df8ffdbc7c39139c548d28ce6a3c6ce6a08e1cb3be2946583b374553d35c733d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e1b1a04c36e787cd4c681f13a28f757402f1f3e86b50f8a9023848c171192b16"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "d1c586cb3eeb1c793edef851c013781b64c29683f897503a3bab667f91ab0419"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "043359d17a6b166273e75251d0836942bb8f72d6b8b204aacf9fff7904476609"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "f1614f218eac4abb4a091e0ffebe2251c1050a1ab6e13430ef0b057a759fcdfb"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "surveillance-after-treatment",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "file": "later-surveillance-after-treatment.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "a0051c07de9d3b5c4dc789e67fff4e182aac6f92410c779dad013b5f50f835e2",
+      "gitBlob": "1d0c230d4722b3e49c783cc43374d100e14c11d5",
+      "bytes": 10942,
+      "title": "Surveillance after treatment for early breast cancer",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "49a35858f296bafe924b53ced3eeec05b26242df536b19f76345e7b25dcb6ed7"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "dd419b156046c4fb803029e2ac3f972673f7e4df912cdaec2fe3de52d826fcfb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "3edc95b86dabfdc59fda01b1f6568c7ae5109ec8924d8a407add6696e0061bf6"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "13b87605abfee722e44ae71c38c272201015270ebe4861d24d7c22e0996659a5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ea691355f73aa55bf881a7f8066a5e5f9edbe07319952955c393e2778aaaac60"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "bee77c8f0ac23097693f717a8cbcb3fd6031f311c08a59537c4a59202ca590cc"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "c1aceaa2df053c9d2d87451c8f6c3466bb7a1c41d6baa8cd4b43775ad87870ed"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fd039743249b14560d975b9a089089ee0bc50da9bff7af50aeee39e317a3a22a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "566ea4575e51c42fce1bb8f7434ce2842edf877c4dd67464ebbe0b223588e7d8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "fc23f3b12568511922600c8d145c84ac48d40e8ed5c224d3e0e894453ae52f10"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "064bd7f9015da521cec3bf6354e1927de2bb682ee0d24b0d7b7875a2a4ab2708"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "1340c13cfa9d0db244e54dd0e949311d285aa828f4e4cc08db1c9dbf5c3fba62"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "file": "later-breast-mri.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "1f559b2bc25bb028553aaf2bb06fb58d49dabf85afbf8d9dc3a5f2a3d21e1476",
+      "gitBlob": "4045bd1795c322009588b03c63b0c0ee098a3def",
+      "bytes": 9601,
+      "title": "Breast MRI: enhancement, extent and research volume",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e1452520ba5c3f5a1cb4096c7ac054128bb819fc72b9e82347cf87894ab1099a"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "305db6db51eaa7218892c0b0fae10182edb721ec1b08b6739facbc9e9928ae53"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bc6f9bc2ce6ce12d9eeb679f12f53a7706a737beda837923dcf655bcb9cc6fff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "725bc49ac8a9c6ae663879580e58def05bbf1a2169e89bdba2d96aa46de9316c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "155704da2844b08d95adf8c7d167e078eb33ee6841783edc27999fe99008ae54"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "95d6bf0b059765e7dffc02918517745de92370548a22ff34a7d1b57716bfe060"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e42259799f75332925d57d795c7e44a3951c0991dc9021ae5fc39bf8d6e662dc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fb06ae0732b11492dfba028b37ce4a5ac435b3e94695bcc32a58073d19e5f42c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7bc1fc8997829aef85bf674a65f9286a14a48d540065deb7b27d20e7b93d6adc"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f738f799b49d0c24c132a430958d1e91a5462b8e89f293381d64220a8882f64c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "f1437dcc0e452a4ddc6e192cef4c05f63a0759e8341facecd99cb762b57b30fc"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "7f14077dc409854c135f9fe0924451bb4942e79c912d20b6789d930496f3d4c6"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "eb6c453321a97a70ceab7ab88b0dd77a73aa1882866f455dc6f1d9331f6db2a0"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "file": "later-breast-ultrasound.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "a1145bedd566dd08ff3f29ac9df6c0825236c0f53840ccc43bb99c8c601d752d",
+      "gitBlob": "3a3c1084746a3aa29dffb6a88d0b84f0d52f4b1d",
+      "bytes": 8227,
+      "title": "Breast ultrasound: an image made from echoes",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "423d63864cabb76b27baad3abb6de507704a99f847eef8231179fd63b06a66d2"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ca3dc38a7aba03be3146b14c810748e5cbcbbb5cf9a2a1b4021c8a08525e8183"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "86cbac60e20f24934684b31195939251996f3ed4c775cc0e8cbceea7c598ce75"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9d040dfb6bdd1bcd84b08540127571e75048e1f0d60d0cb02299e457c599c955"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "593708b558ed68e2e26b4051a74d576eebff7a879a6756108c8abdf0269e2415"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d8dc543973b9e2375198310b40cd164ebf121da8d5a9cc083a1d73f6658878f8"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6da431f1f85151ef951431c4cbfdd36d09b69b9a742f4de2839503214c77d810"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "95987e39d78d8661c485417359dd7a2d3193a869d73725e32d0ea887387749aa"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d314a423104ef111cbba16cebb0b9220caa5527ac2248e5f8c23a63081cd2a36"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "af496d19f9c49612d1d682c6e451cb774b73d22baf6703e7ca0c27cb3e7adb24"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "2079e1498f7a39971be999c54cd63b9f7bd55604f8ca4bfa119cfc2598fdbee1"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8ce65c4cf1ad5a41f9b84fc5f33cbf833fb941956d0d6ee622842195718e7466"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "file": "later-mammography.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "3db527c8daf9f25f0234c7bfe56c9dff73fdce42afed1501363a0b0ea2f3a8e4",
+      "gitBlob": "f0a304c131b16c6f357717c08b1083b88b6d2f0f",
+      "bytes": 8077,
+      "title": "Mammography: X-ray patterns in the breast",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e10d1c298b8ce1282a56f2f63518e41b574ce6005c6d30a46fac0140bf18f706"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "007b4c68122fcadc7ae3bb3917a789ce85931f442ad286310bf87d7bf52d577b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0926c3f0374edcca2aa653ffe2ffbe8bc7355f1dcc5d303b40c36aa1eb39ca05"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3aed1b3d40e900f401766c5c5e90c8f1d9a4a3785687ee72568c48fde037a48a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "143ad323d5964e5fa400623bbb7780de89824c9f74d25ad7f02e34e93004e3b5"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f515e2d71bae09357cec239bebdf8d9429a1b2f6f7dcff369d8a7e946e8970d3"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "408f37f6831fa881cb05654455512af52672c78f3d7c4112ef205f08e734396d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c16ecc97d677e3e8702f83bebf05fb67b6aa98a8b709ea4a6351517ec7b8ff0d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "49a19c483c97192635370800f6300a5878cc915eb7055cd6d159b5cdc4abb4cc"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ed40e2424b62100a959a859c2b485f6cec85e4ee1f95b96c7f9c6036443d267e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "397b85486e958ca0e6e8386dc23603b3357696da6adba5660b68e12d3172b7a1"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "13e9a4324e0ef289fa85bb61b9be5db8152af83f3e6e504d411781454b38af93"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "file": "later-pet-ct.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "a659035efe064572f82ef37625c02fd2af76332a3e51ac0d129df706b25eb780",
+      "gitBlob": "b4f6dbb7004c791e2005f6ef977b877cca939ec1",
+      "bytes": 8843,
+      "title": "PET-CT: tracer distribution alongside anatomy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "983750db41064105e41d2d99d69e89ce3187bef4eaa3c22c0fdf53ada852c750"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c542805bfa7eba13689e1bb280f36a8e3166adebf080a8104ae0ed0336ba8a35"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d585423e6fdbce5922455c0e733bf384b1a0bafb2923317c5e26af59483c08bd"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f45acf0ff9c671c0f01b06e87f05224912872d7c40569a114c78da9d4fb741ac"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3c968f091f0a04237f8b551cc774971b151c662719714d44858d183bb45cad11"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f201c17469a15590c98acc06e5010498dfb72eabfd8c7757789d2c3d3f4ecad7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7bbda1db63d91e519ffca6164c5e08774d4ba4ed44403fa9b3246f244256870e"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c0a756ea658369ddfe1e7d3f18420da9ef9bf463e8b9c0f2bde961cf026c9314"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bf62094cf8daf45beaa41e9f3a540aca5f175607669a56c6d006cebefc3628f8"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "6b2456ea6f221d5bd69cc7864588be75e415c762e149c5102d33732259a310af"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "36f8ddaf53f1d770da37e24604d4f2235c1dd29aa5dc6f74f625d64f08ecce03"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "712a4c0711ddaea79f446b8e8655f0291424814c9d5dfdc7123b0643d00c5157"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "file": "later-immuno-pet.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "e298b6cd8d40786d86be8e1aeca4a9367ccbb8f2e21d9581059c6d252366269c",
+      "gitBlob": "515087e1671e5ce6e9391924a2a443f3e30d4998",
+      "bytes": 12121,
+      "title": "Immuno-PET: tracking an antibody-based tracer",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0587bf893e62282d2934765976e01cf1667a2b5620f279dbda4daf5dd8bbc087"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "72a556af9344ae1180b967b44d6fa23f63556133d41b23f7a71acc3a5b24b11c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1d94ebbd44f84ebe6d41c4dec81886743ad99ed4f5932990afd3422d95d7459a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4b508a0bed713adb241664dd0c721a63f6cbdb98bed1539e61a4c9d5207e4595"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9dca087bb3446d49a2ee23194523a1f70479447c532e3af3336e6d0544f5aa41"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "62ea0ddc4af23ec05ab42590c4d928647539947266f9d8f8eced1af95cd1b857"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "766c605d7637c8a96e3396e0c632b4260c425ccb9997896378fa4b31e436d7cd"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e21246b8dcab5ba67db96051b6617269c25cf1abc1931dccfa0377cb331abfbb"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0af35a0b7837cad4daa7e429433f3dbaa422f1e684cc2ae1ff71784f211d02f7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "6bbaf8265d1536906b7900df66ce7f29746fad4c0b4ab4d906bd376ffd6c3ddd"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "6b937863a913476182cb681778643919c3b8edf45dbec04f3fc32e7a4f072933"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d6e6ee89061fc4c069d2a38ca48df202a8bb637c609a701097da39be053959c8"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    },
+    {
+      "phase": "later",
+      "name": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "file": "later-target-pet-and-theranostic-imaging.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "1c42b88d18d45bff0060e8f6beb5a53ba4d85b94aaab8ed06ffe35907876f251",
+      "gitBlob": "58a0aa7b6170f6ad303335601d3ef1cd2135d741",
+      "bytes": 9491,
+      "title": "Target PET and theranostic imaging",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a42738cd2f7b001d68b3644522f763814140e9652d315db7b3a43a02a1c5390c"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "236e9165fe700bfcf0b4674e29466de563909cfc4aeb77c857158baf0ebc118d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "48624b5d04e327b27010bcbfa00491f1398e0f9a750cc67aa998dce9a7a25601"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c0a5c28aab476ff1c3ce7c7c08b66b2ca275a732be55bc47a903afb5cc8467c1"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "814645f35457ea9764842837c798dcafd10f7acfba3d125b1ceb28c5f12f8695"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "43631361491baa2e92ecf374bf1e48e90cbd25d933334ffa0d3355f4d9bb51f3"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "849eb79b6ca798933b50cf08dfe90ca03e4b76d23b9340141ffd724cdd0b695a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "11bb6c27a1c664ed69541a82af86cb0cab7338d2c7a3f5fa1390e7ff3d5b7c0a"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "df8ffdbc7c39139c548d28ce6a3c6ce6a08e1cb3be2946583b374553d35c733d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e1b1a04c36e787cd4c681f13a28f757402f1f3e86b50f8a9023848c171192b16"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "d1c586cb3eeb1c793edef851c013781b64c29683f897503a3bab667f91ab0419"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "043359d17a6b166273e75251d0836942bb8f72d6b8b204aacf9fff7904476609"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "f1614f218eac4abb4a091e0ffebe2251c1050a1ab6e13430ef0b057a759fcdfb"
+        }
+      ],
+      "previousReviewStatus": "unreviewed"
+    }
+  ],
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e1452520ba5c3f5a1cb4096c7ac054128bb819fc72b9e82347cf87894ab1099a",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "M-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "305db6db51eaa7218892c0b0fae10182edb721ec1b08b6739facbc9e9928ae53",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "M-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bc6f9bc2ce6ce12d9eeb679f12f53a7706a737beda837923dcf655bcb9cc6fff",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "M-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "725bc49ac8a9c6ae663879580e58def05bbf1a2169e89bdba2d96aa46de9316c",
+      "lineStart": 31,
+      "lineEnd": 36,
+      "requirementIds": [
+        "M-003",
+        "M-004"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "155704da2844b08d95adf8c7d167e078eb33ee6841783edc27999fe99008ae54",
+      "lineStart": 37,
+      "lineEnd": 52,
+      "requirementIds": [
+        "M-005",
+        "M-006",
+        "M-007",
+        "M-008",
+        "M-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "95d6bf0b059765e7dffc02918517745de92370548a22ff34a7d1b57716bfe060",
+      "lineStart": 53,
+      "lineEnd": 58,
+      "requirementIds": [
+        "M-010",
+        "M-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "e42259799f75332925d57d795c7e44a3951c0991dc9021ae5fc39bf8d6e662dc",
+      "lineStart": 59,
+      "lineEnd": 66,
+      "requirementIds": [
+        "M-012",
+        "M-013",
+        "M-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fb06ae0732b11492dfba028b37ce4a5ac435b3e94695bcc32a58073d19e5f42c",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "M-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7bc1fc8997829aef85bf674a65f9286a14a48d540065deb7b27d20e7b93d6adc",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "M-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f738f799b49d0c24c132a430958d1e91a5462b8e89f293381d64220a8882f64c",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "M-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "f1437dcc0e452a4ddc6e192cef4c05f63a0759e8341facecd99cb762b57b30fc",
+      "lineStart": 86,
+      "lineEnd": 89,
+      "requirementIds": [
+        "M-017",
+        "breast-mri-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "7f14077dc409854c135f9fe0924451bb4942e79c912d20b6789d930496f3d4c6",
+      "lineStart": 90,
+      "lineEnd": 94,
+      "requirementIds": [
+        "breast-mri-R",
+        "breast-mri-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "eb6c453321a97a70ceab7ab88b0dd77a73aa1882866f455dc6f1d9331f6db2a0",
+      "lineStart": 95,
+      "lineEnd": 105,
+      "requirementIds": [
+        "breast-mri-R",
+        "breast-mri-D",
+        "breast-mri-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "423d63864cabb76b27baad3abb6de507704a99f847eef8231179fd63b06a66d2",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "U-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "ca3dc38a7aba03be3146b14c810748e5cbcbbb5cf9a2a1b4021c8a08525e8183",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "U-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "86cbac60e20f24934684b31195939251996f3ed4c775cc0e8cbceea7c598ce75",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "U-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "9d040dfb6bdd1bcd84b08540127571e75048e1f0d60d0cb02299e457c599c955",
+      "lineStart": 31,
+      "lineEnd": 44,
+      "requirementIds": [
+        "U-003",
+        "U-004",
+        "U-005",
+        "U-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "593708b558ed68e2e26b4051a74d576eebff7a879a6756108c8abdf0269e2415",
+      "lineStart": 45,
+      "lineEnd": 52,
+      "requirementIds": [
+        "U-007",
+        "U-008",
+        "U-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "d8dc543973b9e2375198310b40cd164ebf121da8d5a9cc083a1d73f6658878f8",
+      "lineStart": 53,
+      "lineEnd": 60,
+      "requirementIds": [
+        "U-010",
+        "U-011",
+        "U-012"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "6da431f1f85151ef951431c4cbfdd36d09b69b9a742f4de2839503214c77d810",
+      "lineStart": 61,
+      "lineEnd": 67,
+      "requirementIds": [
+        "U-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "95987e39d78d8661c485417359dd7a2d3193a869d73725e32d0ea887387749aa",
+      "lineStart": 68,
+      "lineEnd": 75,
+      "requirementIds": [
+        "U-014",
+        "U-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "d314a423104ef111cbba16cebb0b9220caa5527ac2248e5f8c23a63081cd2a36",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "U-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "af496d19f9c49612d1d682c6e451cb774b73d22baf6703e7ca0c27cb3e7adb24",
+      "lineStart": 82,
+      "lineEnd": 85,
+      "requirementIds": [
+        "U-016",
+        "breast-ultrasound-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "2079e1498f7a39971be999c54cd63b9f7bd55604f8ca4bfa119cfc2598fdbee1",
+      "lineStart": 86,
+      "lineEnd": 90,
+      "requirementIds": [
+        "breast-ultrasound-R",
+        "breast-ultrasound-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "8ce65c4cf1ad5a41f9b84fc5f33cbf833fb941956d0d6ee622842195718e7466",
+      "lineStart": 91,
+      "lineEnd": 99,
+      "requirementIds": [
+        "breast-ultrasound-R",
+        "breast-ultrasound-D",
+        "breast-ultrasound-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e10d1c298b8ce1282a56f2f63518e41b574ce6005c6d30a46fac0140bf18f706",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "007b4c68122fcadc7ae3bb3917a789ce85931f442ad286310bf87d7bf52d577b",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "0926c3f0374edcca2aa653ffe2ffbe8bc7355f1dcc5d303b40c36aa1eb39ca05",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "A-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "3aed1b3d40e900f401766c5c5e90c8f1d9a4a3785687ee72568c48fde037a48a",
+      "lineStart": 31,
+      "lineEnd": 44,
+      "requirementIds": [
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "143ad323d5964e5fa400623bbb7780de89824c9f74d25ad7f02e34e93004e3b5",
+      "lineStart": 45,
+      "lineEnd": 52,
+      "requirementIds": [
+        "A-007",
+        "A-008",
+        "A-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f515e2d71bae09357cec239bebdf8d9429a1b2f6f7dcff369d8a7e946e8970d3",
+      "lineStart": 53,
+      "lineEnd": 60,
+      "requirementIds": [
+        "A-010",
+        "A-011",
+        "A-012"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "408f37f6831fa881cb05654455512af52672c78f3d7c4112ef205f08e734396d",
+      "lineStart": 61,
+      "lineEnd": 67,
+      "requirementIds": [
+        "A-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "c16ecc97d677e3e8702f83bebf05fb67b6aa98a8b709ea4a6351517ec7b8ff0d",
+      "lineStart": 68,
+      "lineEnd": 75,
+      "requirementIds": [
+        "A-014",
+        "A-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "49a19c483c97192635370800f6300a5878cc915eb7055cd6d159b5cdc4abb4cc",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "A-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "ed40e2424b62100a959a859c2b485f6cec85e4ee1f95b96c7f9c6036443d267e",
+      "lineStart": 82,
+      "lineEnd": 85,
+      "requirementIds": [
+        "A-016",
+        "mammography-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "397b85486e958ca0e6e8386dc23603b3357696da6adba5660b68e12d3172b7a1",
+      "lineStart": 86,
+      "lineEnd": 90,
+      "requirementIds": [
+        "mammography-R",
+        "mammography-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "13e9a4324e0ef289fa85bb61b9be5db8152af83f3e6e504d411781454b38af93",
+      "lineStart": 91,
+      "lineEnd": 99,
+      "requirementIds": [
+        "mammography-R",
+        "mammography-D",
+        "mammography-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "983750db41064105e41d2d99d69e89ce3187bef4eaa3c22c0fdf53ada852c750",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "c542805bfa7eba13689e1bb280f36a8e3166adebf080a8104ae0ed0336ba8a35",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "d585423e6fdbce5922455c0e733bf384b1a0bafb2923317c5e26af59483c08bd",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "P-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f45acf0ff9c671c0f01b06e87f05224912872d7c40569a114c78da9d4fb741ac",
+      "lineStart": 31,
+      "lineEnd": 46,
+      "requirementIds": [
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "3c968f091f0a04237f8b551cc774971b151c662719714d44858d183bb45cad11",
+      "lineStart": 47,
+      "lineEnd": 54,
+      "requirementIds": [
+        "P-008",
+        "P-009",
+        "P-010"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f201c17469a15590c98acc06e5010498dfb72eabfd8c7757789d2c3d3f4ecad7",
+      "lineStart": 55,
+      "lineEnd": 62,
+      "requirementIds": [
+        "P-011",
+        "P-012",
+        "P-013",
+        "P-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7bbda1db63d91e519ffca6164c5e08774d4ba4ed44403fa9b3246f244256870e",
+      "lineStart": 63,
+      "lineEnd": 69,
+      "requirementIds": [
+        "P-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "c0a756ea658369ddfe1e7d3f18420da9ef9bf463e8b9c0f2bde961cf026c9314",
+      "lineStart": 70,
+      "lineEnd": 77,
+      "requirementIds": [
+        "P-016",
+        "P-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bf62094cf8daf45beaa41e9f3a540aca5f175607669a56c6d006cebefc3628f8",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "P-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "6b2456ea6f221d5bd69cc7864588be75e415c762e149c5102d33732259a310af",
+      "lineStart": 84,
+      "lineEnd": 87,
+      "requirementIds": [
+        "P-018",
+        "pet-ct-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "36f8ddaf53f1d770da37e24604d4f2235c1dd29aa5dc6f74f625d64f08ecce03",
+      "lineStart": 88,
+      "lineEnd": 92,
+      "requirementIds": [
+        "pet-ct-R",
+        "pet-ct-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "712a4c0711ddaea79f446b8e8655f0291424814c9d5dfdc7123b0643d00c5157",
+      "lineStart": 93,
+      "lineEnd": 101,
+      "requirementIds": [
+        "P-019",
+        "pet-ct-R",
+        "pet-ct-D",
+        "pet-ct-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "0587bf893e62282d2934765976e01cf1667a2b5620f279dbda4daf5dd8bbc087",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "72a556af9344ae1180b967b44d6fa23f63556133d41b23f7a71acc3a5b24b11c",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "1d94ebbd44f84ebe6d41c4dec81886743ad99ed4f5932990afd3422d95d7459a",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "I-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4b508a0bed713adb241664dd0c721a63f6cbdb98bed1539e61a4c9d5207e4595",
+      "lineStart": 31,
+      "lineEnd": 48,
+      "requirementIds": [
+        "I-003",
+        "I-004",
+        "I-005",
+        "I-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "c6063d410fef8fc31ec4c9acf190ee395c9fc84d916aba911909503fccbad672",
+      "lineStart": 49,
+      "lineEnd": 58,
+      "requirementIds": [
+        "I-007",
+        "I-008",
+        "I-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "62ea0ddc4af23ec05ab42590c4d928647539947266f9d8f8eced1af95cd1b857",
+      "lineStart": 59,
+      "lineEnd": 64,
+      "requirementIds": [
+        "I-016",
+        "I-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fbae35f0682e5b87d33286255164ce86ec5faccc8e382d0324b42510867fab90",
+      "lineStart": 65,
+      "lineEnd": 71,
+      "requirementIds": [
+        "I-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "e21246b8dcab5ba67db96051b6617269c25cf1abc1931dccfa0377cb331abfbb",
+      "lineStart": 72,
+      "lineEnd": 77,
+      "requirementIds": [
+        "I-020"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "0af35a0b7837cad4daa7e429433f3dbaa422f1e684cc2ae1ff71784f211d02f7",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "I-021"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "6bbaf8265d1536906b7900df66ce7f29746fad4c0b4ab4d906bd376ffd6c3ddd",
+      "lineStart": 84,
+      "lineEnd": 87,
+      "requirementIds": [
+        "I-021",
+        "immuno-pet-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "6b937863a913476182cb681778643919c3b8edf45dbec04f3fc32e7a4f072933",
+      "lineStart": 88,
+      "lineEnd": 92,
+      "requirementIds": [
+        "immuno-pet-R",
+        "immuno-pet-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "31a0f77379090e0633396cddfc9a594b54270a1fdc11391c12de6c312acfceba",
+      "lineStart": 93,
+      "lineEnd": 101,
+      "requirementIds": [
+        "immuno-pet-R",
+        "immuno-pet-D",
+        "immuno-pet-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "a42738cd2f7b001d68b3644522f763814140e9652d315db7b3a43a02a1c5390c",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "236e9165fe700bfcf0b4674e29466de563909cfc4aeb77c857158baf0ebc118d",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "48624b5d04e327b27010bcbfa00491f1398e0f9a750cc67aa998dce9a7a25601",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "T-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "c0a5c28aab476ff1c3ce7c7c08b66b2ca275a732be55bc47a903afb5cc8467c1",
+      "lineStart": 31,
+      "lineEnd": 38,
+      "requirementIds": [
+        "T-003",
+        "T-004",
+        "T-005"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "814645f35457ea9764842837c798dcafd10f7acfba3d125b1ceb28c5f12f8695",
+      "lineStart": 39,
+      "lineEnd": 54,
+      "requirementIds": [
+        "T-006",
+        "T-007",
+        "T-008",
+        "T-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "43631361491baa2e92ecf374bf1e48e90cbd25d933334ffa0d3355f4d9bb51f3",
+      "lineStart": 55,
+      "lineEnd": 60,
+      "requirementIds": [
+        "T-010",
+        "T-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "849eb79b6ca798933b50cf08dfe90ca03e4b76d23b9340141ffd724cdd0b695a",
+      "lineStart": 61,
+      "lineEnd": 66,
+      "requirementIds": [
+        "T-012",
+        "T-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "11bb6c27a1c664ed69541a82af86cb0cab7338d2c7a3f5fa1390e7ff3d5b7c0a",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "T-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "df8ffdbc7c39139c548d28ce6a3c6ce6a08e1cb3be2946583b374553d35c733d",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "T-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e1b1a04c36e787cd4c681f13a28f757402f1f3e86b50f8a9023848c171192b16",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "T-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "d1c586cb3eeb1c793edef851c013781b64c29683f897503a3bab667f91ab0419",
+      "lineStart": 86,
+      "lineEnd": 89,
+      "requirementIds": [
+        "T-016",
+        "target-pet-and-theranostic-imaging-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "043359d17a6b166273e75251d0836942bb8f72d6b8b204aacf9fff7904476609",
+      "lineStart": 90,
+      "lineEnd": 94,
+      "requirementIds": [
+        "target-pet-and-theranostic-imaging-R",
+        "target-pet-and-theranostic-imaging-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "f1614f218eac4abb4a091e0ffebe2251c1050a1ab6e13430ef0b057a759fcdfb",
+      "lineStart": 95,
+      "lineEnd": 103,
+      "requirementIds": [
+        "T-017",
+        "target-pet-and-theranostic-imaging-R",
+        "target-pet-and-theranostic-imaging-D",
+        "target-pet-and-theranostic-imaging-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "49a35858f296bafe924b53ced3eeec05b26242df536b19f76345e7b25dcb6ed7",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "dd419b156046c4fb803029e2ac3f972673f7e4df912cdaec2fe3de52d826fcfb",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "3edc95b86dabfdc59fda01b1f6568c7ae5109ec8924d8a407add6696e0061bf6",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "S-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "13b87605abfee722e44ae71c38c272201015270ebe4861d24d7c22e0996659a5",
+      "lineStart": 34,
+      "lineEnd": 48,
+      "requirementIds": [
+        "S-003",
+        "S-004",
+        "S-005",
+        "S-006",
+        "S-007",
+        "S-008",
+        "S-009",
+        "S-010",
+        "S-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "ea691355f73aa55bf881a7f8066a5e5f9edbe07319952955c393e2778aaaac60",
+      "lineStart": 49,
+      "lineEnd": 57,
+      "requirementIds": [
+        "S-012",
+        "S-013",
+        "S-014",
+        "S-015",
+        "S-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "bee77c8f0ac23097693f717a8cbcb3fd6031f311c08a59537c4a59202ca590cc",
+      "lineStart": 58,
+      "lineEnd": 66,
+      "requirementIds": [
+        "S-017",
+        "S-018",
+        "S-019",
+        "S-020"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "c1aceaa2df053c9d2d87451c8f6c3466bb7a1c41d6baa8cd4b43775ad87870ed",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "S-021",
+        "S-022"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fd039743249b14560d975b9a089089ee0bc50da9bff7af50aeee39e317a3a22a",
+      "lineStart": 73,
+      "lineEnd": 80,
+      "requirementIds": [
+        "S-023"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "566ea4575e51c42fce1bb8f7434ce2842edf877c4dd67464ebbe0b223588e7d8",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "S-024"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "fc23f3b12568511922600c8d145c84ac48d40e8ed5c224d3e0e894453ae52f10",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "S-025"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "064bd7f9015da521cec3bf6354e1927de2bb682ee0d24b0d7b7875a2a4ab2708",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "S-025",
+        "surveillance-after-treatment-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/surveillance-after-treatment.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "1340c13cfa9d0db244e54dd0e949311d285aa828f4e4cc08db1c9dbf5c3fba62",
+      "lineStart": 105,
+      "lineEnd": 119,
+      "requirementIds": [
+        "surveillance-after-treatment-R",
+        "surveillance-after-treatment-D",
+        "surveillance-after-treatment-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e1452520ba5c3f5a1cb4096c7ac054128bb819fc72b9e82347cf87894ab1099a",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "M-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "305db6db51eaa7218892c0b0fae10182edb721ec1b08b6739facbc9e9928ae53",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "M-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bc6f9bc2ce6ce12d9eeb679f12f53a7706a737beda837923dcf655bcb9cc6fff",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "M-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "725bc49ac8a9c6ae663879580e58def05bbf1a2169e89bdba2d96aa46de9316c",
+      "lineStart": 31,
+      "lineEnd": 36,
+      "requirementIds": [
+        "M-003",
+        "M-004"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "155704da2844b08d95adf8c7d167e078eb33ee6841783edc27999fe99008ae54",
+      "lineStart": 37,
+      "lineEnd": 52,
+      "requirementIds": [
+        "M-005",
+        "M-006",
+        "M-007",
+        "M-008",
+        "M-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "95d6bf0b059765e7dffc02918517745de92370548a22ff34a7d1b57716bfe060",
+      "lineStart": 53,
+      "lineEnd": 58,
+      "requirementIds": [
+        "M-010",
+        "M-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "e42259799f75332925d57d795c7e44a3951c0991dc9021ae5fc39bf8d6e662dc",
+      "lineStart": 59,
+      "lineEnd": 66,
+      "requirementIds": [
+        "M-012",
+        "M-013",
+        "M-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fb06ae0732b11492dfba028b37ce4a5ac435b3e94695bcc32a58073d19e5f42c",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "M-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7bc1fc8997829aef85bf674a65f9286a14a48d540065deb7b27d20e7b93d6adc",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "M-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f738f799b49d0c24c132a430958d1e91a5462b8e89f293381d64220a8882f64c",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "M-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "f1437dcc0e452a4ddc6e192cef4c05f63a0759e8341facecd99cb762b57b30fc",
+      "lineStart": 86,
+      "lineEnd": 89,
+      "requirementIds": [
+        "M-017",
+        "breast-mri-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "7f14077dc409854c135f9fe0924451bb4942e79c912d20b6789d930496f3d4c6",
+      "lineStart": 90,
+      "lineEnd": 94,
+      "requirementIds": [
+        "breast-mri-R",
+        "breast-mri-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "eb6c453321a97a70ceab7ab88b0dd77a73aa1882866f455dc6f1d9331f6db2a0",
+      "lineStart": 95,
+      "lineEnd": 105,
+      "requirementIds": [
+        "breast-mri-R",
+        "breast-mri-D",
+        "breast-mri-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "423d63864cabb76b27baad3abb6de507704a99f847eef8231179fd63b06a66d2",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "U-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "ca3dc38a7aba03be3146b14c810748e5cbcbbb5cf9a2a1b4021c8a08525e8183",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "U-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "86cbac60e20f24934684b31195939251996f3ed4c775cc0e8cbceea7c598ce75",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "U-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "9d040dfb6bdd1bcd84b08540127571e75048e1f0d60d0cb02299e457c599c955",
+      "lineStart": 31,
+      "lineEnd": 44,
+      "requirementIds": [
+        "U-003",
+        "U-004",
+        "U-005",
+        "U-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "593708b558ed68e2e26b4051a74d576eebff7a879a6756108c8abdf0269e2415",
+      "lineStart": 45,
+      "lineEnd": 52,
+      "requirementIds": [
+        "U-007",
+        "U-008",
+        "U-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "d8dc543973b9e2375198310b40cd164ebf121da8d5a9cc083a1d73f6658878f8",
+      "lineStart": 53,
+      "lineEnd": 60,
+      "requirementIds": [
+        "U-010",
+        "U-011",
+        "U-012"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "6da431f1f85151ef951431c4cbfdd36d09b69b9a742f4de2839503214c77d810",
+      "lineStart": 61,
+      "lineEnd": 67,
+      "requirementIds": [
+        "U-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "95987e39d78d8661c485417359dd7a2d3193a869d73725e32d0ea887387749aa",
+      "lineStart": 68,
+      "lineEnd": 75,
+      "requirementIds": [
+        "U-014",
+        "U-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "d314a423104ef111cbba16cebb0b9220caa5527ac2248e5f8c23a63081cd2a36",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "U-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "af496d19f9c49612d1d682c6e451cb774b73d22baf6703e7ca0c27cb3e7adb24",
+      "lineStart": 82,
+      "lineEnd": 85,
+      "requirementIds": [
+        "U-016",
+        "breast-ultrasound-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "2079e1498f7a39971be999c54cd63b9f7bd55604f8ca4bfa119cfc2598fdbee1",
+      "lineStart": 86,
+      "lineEnd": 90,
+      "requirementIds": [
+        "breast-ultrasound-R",
+        "breast-ultrasound-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "8ce65c4cf1ad5a41f9b84fc5f33cbf833fb941956d0d6ee622842195718e7466",
+      "lineStart": 91,
+      "lineEnd": 99,
+      "requirementIds": [
+        "breast-ultrasound-R",
+        "breast-ultrasound-D",
+        "breast-ultrasound-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e10d1c298b8ce1282a56f2f63518e41b574ce6005c6d30a46fac0140bf18f706",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "007b4c68122fcadc7ae3bb3917a789ce85931f442ad286310bf87d7bf52d577b",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "0926c3f0374edcca2aa653ffe2ffbe8bc7355f1dcc5d303b40c36aa1eb39ca05",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "A-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "3aed1b3d40e900f401766c5c5e90c8f1d9a4a3785687ee72568c48fde037a48a",
+      "lineStart": 31,
+      "lineEnd": 44,
+      "requirementIds": [
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "143ad323d5964e5fa400623bbb7780de89824c9f74d25ad7f02e34e93004e3b5",
+      "lineStart": 45,
+      "lineEnd": 52,
+      "requirementIds": [
+        "A-007",
+        "A-008",
+        "A-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f515e2d71bae09357cec239bebdf8d9429a1b2f6f7dcff369d8a7e946e8970d3",
+      "lineStart": 53,
+      "lineEnd": 60,
+      "requirementIds": [
+        "A-010",
+        "A-011",
+        "A-012"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "408f37f6831fa881cb05654455512af52672c78f3d7c4112ef205f08e734396d",
+      "lineStart": 61,
+      "lineEnd": 67,
+      "requirementIds": [
+        "A-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "c16ecc97d677e3e8702f83bebf05fb67b6aa98a8b709ea4a6351517ec7b8ff0d",
+      "lineStart": 68,
+      "lineEnd": 75,
+      "requirementIds": [
+        "A-014",
+        "A-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "49a19c483c97192635370800f6300a5878cc915eb7055cd6d159b5cdc4abb4cc",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "A-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "ed40e2424b62100a959a859c2b485f6cec85e4ee1f95b96c7f9c6036443d267e",
+      "lineStart": 82,
+      "lineEnd": 85,
+      "requirementIds": [
+        "A-016",
+        "mammography-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "397b85486e958ca0e6e8386dc23603b3357696da6adba5660b68e12d3172b7a1",
+      "lineStart": 86,
+      "lineEnd": 90,
+      "requirementIds": [
+        "mammography-R",
+        "mammography-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "13e9a4324e0ef289fa85bb61b9be5db8152af83f3e6e504d411781454b38af93",
+      "lineStart": 91,
+      "lineEnd": 99,
+      "requirementIds": [
+        "mammography-R",
+        "mammography-D",
+        "mammography-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "983750db41064105e41d2d99d69e89ce3187bef4eaa3c22c0fdf53ada852c750",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "c542805bfa7eba13689e1bb280f36a8e3166adebf080a8104ae0ed0336ba8a35",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "P-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "d585423e6fdbce5922455c0e733bf384b1a0bafb2923317c5e26af59483c08bd",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "P-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f45acf0ff9c671c0f01b06e87f05224912872d7c40569a114c78da9d4fb741ac",
+      "lineStart": 31,
+      "lineEnd": 46,
+      "requirementIds": [
+        "P-003",
+        "P-004",
+        "P-005",
+        "P-006",
+        "P-007"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "3c968f091f0a04237f8b551cc774971b151c662719714d44858d183bb45cad11",
+      "lineStart": 47,
+      "lineEnd": 54,
+      "requirementIds": [
+        "P-008",
+        "P-009",
+        "P-010"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f201c17469a15590c98acc06e5010498dfb72eabfd8c7757789d2c3d3f4ecad7",
+      "lineStart": 55,
+      "lineEnd": 62,
+      "requirementIds": [
+        "P-011",
+        "P-012",
+        "P-013",
+        "P-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7bbda1db63d91e519ffca6164c5e08774d4ba4ed44403fa9b3246f244256870e",
+      "lineStart": 63,
+      "lineEnd": 69,
+      "requirementIds": [
+        "P-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "c0a756ea658369ddfe1e7d3f18420da9ef9bf463e8b9c0f2bde961cf026c9314",
+      "lineStart": 70,
+      "lineEnd": 77,
+      "requirementIds": [
+        "P-016",
+        "P-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "bf62094cf8daf45beaa41e9f3a540aca5f175607669a56c6d006cebefc3628f8",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "P-018"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "6b2456ea6f221d5bd69cc7864588be75e415c762e149c5102d33732259a310af",
+      "lineStart": 84,
+      "lineEnd": 87,
+      "requirementIds": [
+        "P-018",
+        "pet-ct-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "36f8ddaf53f1d770da37e24604d4f2235c1dd29aa5dc6f74f625d64f08ecce03",
+      "lineStart": 88,
+      "lineEnd": 92,
+      "requirementIds": [
+        "pet-ct-R",
+        "pet-ct-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "712a4c0711ddaea79f446b8e8655f0291424814c9d5dfdc7123b0643d00c5157",
+      "lineStart": 93,
+      "lineEnd": 101,
+      "requirementIds": [
+        "P-019",
+        "pet-ct-R",
+        "pet-ct-D",
+        "pet-ct-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "0587bf893e62282d2934765976e01cf1667a2b5620f279dbda4daf5dd8bbc087",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "72a556af9344ae1180b967b44d6fa23f63556133d41b23f7a71acc3a5b24b11c",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "1d94ebbd44f84ebe6d41c4dec81886743ad99ed4f5932990afd3422d95d7459a",
+      "lineStart": 26,
+      "lineEnd": 31,
+      "requirementIds": [
+        "I-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4b508a0bed713adb241664dd0c721a63f6cbdb98bed1539e61a4c9d5207e4595",
+      "lineStart": 32,
+      "lineEnd": 49,
+      "requirementIds": [
+        "I-003",
+        "I-004",
+        "I-005",
+        "I-006"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9dca087bb3446d49a2ee23194523a1f70479447c532e3af3336e6d0544f5aa41",
+      "lineStart": 50,
+      "lineEnd": 70,
+      "requirementIds": [
+        "I-007",
+        "I-008",
+        "I-009",
+        "I-010",
+        "I-011",
+        "I-012",
+        "I-013",
+        "I-014",
+        "I-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "62ea0ddc4af23ec05ab42590c4d928647539947266f9d8f8eced1af95cd1b857",
+      "lineStart": 71,
+      "lineEnd": 76,
+      "requirementIds": [
+        "I-016",
+        "I-017"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "766c605d7637c8a96e3396e0c632b4260c425ccb9997896378fa4b31e436d7cd",
+      "lineStart": 77,
+      "lineEnd": 84,
+      "requirementIds": [
+        "I-018",
+        "I-019"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "e21246b8dcab5ba67db96051b6617269c25cf1abc1931dccfa0377cb331abfbb",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "I-020"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "0af35a0b7837cad4daa7e429433f3dbaa422f1e684cc2ae1ff71784f211d02f7",
+      "lineStart": 91,
+      "lineEnd": 96,
+      "requirementIds": [
+        "I-021"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "6bbaf8265d1536906b7900df66ce7f29746fad4c0b4ab4d906bd376ffd6c3ddd",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "I-021",
+        "immuno-pet-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "6b937863a913476182cb681778643919c3b8edf45dbec04f3fc32e7a4f072933",
+      "lineStart": 105,
+      "lineEnd": 109,
+      "requirementIds": [
+        "immuno-pet-R",
+        "immuno-pet-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "d6e6ee89061fc4c069d2a38ca48df202a8bb637c609a701097da39be053959c8",
+      "lineStart": 110,
+      "lineEnd": 120,
+      "requirementIds": [
+        "immuno-pet-R",
+        "immuno-pet-D",
+        "immuno-pet-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "a42738cd2f7b001d68b3644522f763814140e9652d315db7b3a43a02a1c5390c",
+      "lineStart": 18,
+      "lineEnd": 20,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "236e9165fe700bfcf0b4674e29466de563909cfc4aeb77c857158baf0ebc118d",
+      "lineStart": 21,
+      "lineEnd": 24,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "48624b5d04e327b27010bcbfa00491f1398e0f9a750cc67aa998dce9a7a25601",
+      "lineStart": 25,
+      "lineEnd": 30,
+      "requirementIds": [
+        "T-002"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "c0a5c28aab476ff1c3ce7c7c08b66b2ca275a732be55bc47a903afb5cc8467c1",
+      "lineStart": 31,
+      "lineEnd": 38,
+      "requirementIds": [
+        "T-003",
+        "T-004",
+        "T-005"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "814645f35457ea9764842837c798dcafd10f7acfba3d125b1ceb28c5f12f8695",
+      "lineStart": 39,
+      "lineEnd": 54,
+      "requirementIds": [
+        "T-006",
+        "T-007",
+        "T-008",
+        "T-009"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "43631361491baa2e92ecf374bf1e48e90cbd25d933334ffa0d3355f4d9bb51f3",
+      "lineStart": 55,
+      "lineEnd": 60,
+      "requirementIds": [
+        "T-010",
+        "T-011"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "849eb79b6ca798933b50cf08dfe90ca03e4b76d23b9340141ffd724cdd0b695a",
+      "lineStart": 61,
+      "lineEnd": 66,
+      "requirementIds": [
+        "T-012",
+        "T-013"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "11bb6c27a1c664ed69541a82af86cb0cab7338d2c7a3f5fa1390e7ff3d5b7c0a",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "T-014"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "df8ffdbc7c39139c548d28ce6a3c6ce6a08e1cb3be2946583b374553d35c733d",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "T-015"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e1b1a04c36e787cd4c681f13a28f757402f1f3e86b50f8a9023848c171192b16",
+      "lineStart": 80,
+      "lineEnd": 85,
+      "requirementIds": [
+        "T-016"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "d1c586cb3eeb1c793edef851c013781b64c29683f897503a3bab667f91ab0419",
+      "lineStart": 86,
+      "lineEnd": 89,
+      "requirementIds": [
+        "T-016",
+        "target-pet-and-theranostic-imaging-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "043359d17a6b166273e75251d0836942bb8f72d6b8b204aacf9fff7904476609",
+      "lineStart": 90,
+      "lineEnd": 94,
+      "requirementIds": [
+        "target-pet-and-theranostic-imaging-R",
+        "target-pet-and-theranostic-imaging-D"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "f1614f218eac4abb4a091e0ffebe2251c1050a1ab6e13430ef0b057a759fcdfb",
+      "lineStart": 95,
+      "lineEnd": 103,
+      "requirementIds": [
+        "T-017",
+        "target-pet-and-theranostic-imaging-R",
+        "target-pet-and-theranostic-imaging-D",
+        "target-pet-and-theranostic-imaging-C"
+      ],
+      "disposition": "Teaching and non-credit source-scope/routing/recaps retained separately. Later body read fully; original assessed by exact diff and identity reuse."
+    }
+  ],
+  "scope": "Seven later full reads, six complete original/later diff reads and exact identity reuse; title-only preambles repeat the first definition without extra points. Personal routing excluded, no individual facts adopted.",
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T14:04:25.931858+00:00",
+    "headBeforeFreshOwnerInspection": "017b0871f5cc49fb6988b04252db0afebd0a46d6",
+    "inventorySha256": "9452de6f370de804ad0d4eb022c85bb6fbdc2410172d56615268b6d9e3948621",
+    "rows": 153,
+    "substantive": 131,
+    "nonCredit": 22,
+    "perPhaseSubstantive": {
+      "original": 99,
+      "later": 131
+    },
+    "sourceVersions": 13,
+    "sectionSignatures": 160,
+    "freshCanonicalFieldsInspected": false
+  },
+  "transcriptionErratum": "source-first-erratum.json"
+}

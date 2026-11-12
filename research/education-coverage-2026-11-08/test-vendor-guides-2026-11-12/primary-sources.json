@@ -1,0 +1,586 @@
+{
+  "checkedOn": "2026-11-12",
+  "publicationIdentities": 6,
+  "completeAbstractsRead": 4,
+  "wholeOriginalPapersRead": 0,
+  "rawCaptures": 31,
+  "sources": [
+    {
+      "id": "jennings",
+      "pmid": "28341590",
+      "pmcid": "PMC6941185",
+      "doi": "10.1016/j.jmoldx.2017.01.011",
+      "title": "Guidelines for Validation of Next-Generation Sequencing-Based Oncology Panels: A Joint Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists.",
+      "authors": "Jennings LJ, Arcila ME, Corless C, Kamel-Reid S, Lubin IM, Pfeifer J, Temple-Smolkin RL, Voelkerding KV, Nikiforova MN.",
+      "year": 2017,
+      "epmcCapture": "jennings-epmc.json",
+      "crossrefCapture": "jennings-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": false,
+      "completeAbstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [
+        34,
+        35,
+        36,
+        37,
+        53,
+        65,
+        70,
+        71,
+        76
+      ],
+      "readDepth": "complete abstract and specified targeted NCBI manuscript paragraphs; not whole paper",
+      "registryTitleNote": "Crossref omits the joint-consensus subtitle supplied by Europe PMC; the main title, DOI, Jennings authorship and year agree.",
+      "sourceType": "joint consensus recommendations for somatic NGS panels"
+    },
+    {
+      "id": "michiels",
+      "pmid": "15705458",
+      "pmcid": null,
+      "doi": "10.1016/s0140-6736(05)17866-0",
+      "title": "Prediction of cancer outcome with microarrays: a multiple random validation strategy.",
+      "authors": "Michiels S, Koscielny S, Hill C.",
+      "year": 2005,
+      "epmcCapture": "michiels-epmc.json",
+      "crossrefCapture": "michiels-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": true,
+      "completeAbstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [],
+      "readDepth": "complete abstract only"
+    },
+    {
+      "id": "morgan",
+      "pmid": "16946036",
+      "pmcid": "PMC2267026",
+      "doi": "10.1126/science.1129003",
+      "title": "Cancer regression in patients after transfer of genetically engineered lymphocytes.",
+      "authors": "Morgan RA, Dudley ME, Wunderlich JR, Hughes MS, Yang JC, Sherry RM, Royal RE, Topalian SL, Kammula US, Restifo NP, Zheng Z, Nahvi A, de Vries CR, Rogers-Freezer LJ, Mavroukakis SA, Rosenberg SA.",
+      "year": 2006,
+      "epmcCapture": "morgan-epmc.json",
+      "crossrefCapture": "morgan-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": true,
+      "completeAbstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [],
+      "readDepth": "complete abstract only",
+      "bodyAccess": "Europe PMC XML returned HTTP 500; NCBI efetch returned front/abstract metadata with no body. Only the abstract was read. No detailed HLA or assay outcome is newly attributed to it."
+    },
+    {
+      "id": "mertins",
+      "pmid": "27251275",
+      "pmcid": "PMC5102256",
+      "doi": "10.1038/nature18003",
+      "title": "Proteogenomics connects somatic mutations to signalling in breast cancer.",
+      "authors": "Mertins P, Mani DR, Ruggles KV, Gillette MA, Clauser KR, Wang P, Wang X, Qiao JW, Cao S, Petralia F, Kawaler E, Mundt F, Krug K, Tu Z, Lei JT, Gatza ML, Wilkerson M, Perou CM, Yellapantula V, Huang KL, Lin C, McLellan MD, Yan P, Davies SR, Townsend RR, Skates SJ, Wang J, Zhang B, Kinsinger CR, Mesri M, Rodriguez H, Ding L, Paulovich AG, Fenyö D, Ellis MJ, Carr SA, NCI CPTAC.",
+      "year": 2016,
+      "epmcCapture": "mertins-epmc.json",
+      "crossrefCapture": "mertins-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": true,
+      "completeAbstractRead": true,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [
+        3,
+        10,
+        12
+      ],
+      "readDepth": "complete abstract and specified targeted full-text paragraphs; not whole paper",
+      "authorMetadataNote": "Crossref lists collective NCI CPTAC and Philipp Mertins as first-sequence authors; Europe PMC leads with Mertins. Both identify the same publication, not an unresolved author conflict."
+    },
+    {
+      "id": "tripod-cluster",
+      "pmid": "36750236",
+      "pmcid": "PMC9903176",
+      "doi": "10.1136/bmj-2022-071058",
+      "title": "Transparent reporting of multivariable prediction models developed or validated using clustered data (TRIPOD-Cluster): explanation and elaboration.",
+      "authors": "Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM.",
+      "year": 2023,
+      "epmcCapture": "tripod-cluster-epmc.json",
+      "crossrefCapture": "tripod-cluster-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": true,
+      "completeAbstractRead": false,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [],
+      "readDepth": "no registry abstract; typeset PDF text page 2, Box 1 and surrounding text read; not whole guideline",
+      "pdfCapture": "tripod-cluster.pdf",
+      "pdfTextPagesRead": [
+        2
+      ]
+    },
+    {
+      "id": "tripod-ai",
+      "pmid": "38626948",
+      "pmcid": "PMC11019967",
+      "doi": "10.1136/bmj-2023-078378",
+      "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods.",
+      "authors": "Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P.",
+      "year": 2024,
+      "epmcCapture": "tripod-ai-epmc.json",
+      "crossrefCapture": "tripod-ai-crossref.json",
+      "titleCoreDoiYearAgree": true,
+      "exactRegistryTitleAfterPunctuationNormalisation": true,
+      "completeAbstractRead": false,
+      "wholeOriginalPaperRead": false,
+      "bodyReadParagraphIndices": [],
+      "readDepth": "identity only for the supporting review record and inherited train/test context; no new body or abstract reading claimed"
+    }
+  ],
+  "officialDocuments": [
+    {
+      "id": "fda-adc",
+      "title": "Clinical Pharmacology Considerations for Antibody-Drug Conjugates",
+      "date": "March 2024",
+      "sourceURL": "https://www.fda.gov/media/155997/download",
+      "rawPdfSha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c",
+      "pdfTextPagesRead": [
+        4,
+        5
+      ],
+      "readingDepth": "specified whole text pages only; no whole-document or visual PDF review claim",
+      "wholeDocumentRead": false,
+      "scope": "Clinical-pharmacology recommendations for oncology ADCs with cytotoxic small-molecule payloads, not every conjugated product."
+    },
+    {
+      "id": "fda-car",
+      "title": "Considerations for the Development of Chimeric Antigen Receptor (CAR) T Cell Products",
+      "date": "January 2024",
+      "sourceURL": "https://www.fda.gov/media/156896/download",
+      "rawPdfSha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "pdfTextPagesRead": [
+        24,
+        25,
+        34
+      ],
+      "readingDepth": "specified whole text pages only; no whole-document or visual PDF review claim",
+      "wholeDocumentRead": false,
+      "scope": "CAR-product recognition, persistence and safety questions; not toxicity incidence for every engager."
+    },
+    {
+      "id": "fda-radiopharm",
+      "title": "Oncology Therapeutic Radiopharmaceuticals: Nonclinical Studies and Labeling Recommendations",
+      "date": "August 2019",
+      "sourceURL": "https://www.fda.gov/media/129547/download",
+      "rawPdfSha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c",
+      "pdfTextPagesRead": [
+        5,
+        8
+      ],
+      "readingDepth": "specified whole text pages only; no whole-document or visual PDF review claim",
+      "wholeDocumentRead": false,
+      "scope": "Nonclinical distribution/dosimetry/toxicology and labeling scope, not a universal clinical organ threshold."
+    },
+    {
+      "id": "tripod-cluster",
+      "title": "TRIPOD-Cluster explanation and elaboration",
+      "date": "2023",
+      "sourceURL": "https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf",
+      "rawPdfSha256": "c02d24d1d91627af3c19f300f3a49c6e2d093682d1990824c922b8c25ee3bc99",
+      "pdfTextPagesRead": [
+        2
+      ],
+      "readingDepth": "specified whole text pages only; no whole-document or visual PDF review claim",
+      "wholeDocumentRead": false,
+      "scope": "Box 1 distinguishes apparent, internal and external prediction-model evaluation; no whole-guideline reading."
+    }
+  ],
+  "officialWebPages": [
+    {
+      "id": "medline-valid",
+      "sourceURL": "https://medlineplus.gov/genetics/understanding/testing/validtest/",
+      "rawSha256": "1486c67d0c6ccb2a82781527ef24dafafd0560315ce1c8baa6b64b228cea7827",
+      "readDepth": "definitions from analytical validity through clinical utility and CLIA scope",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-companion",
+      "sourceURL": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+      "rawSha256": "804f2021a173008c515f01a9ad4ef20d00d098d3e13a1e833d233413dce9aa53",
+      "readDepth": "main content lines 15 to 25: definition and intended-use roles",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-expedited",
+      "sourceURL": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "rawSha256": "16942fcc61b32da9e1f6890e7181eeeec383716396ead566d0d8b15ffdfb7fdb",
+      "readDepth": "main content lines 7 to 19: distinct programs, designations and accelerated approval",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-clinical-research",
+      "sourceURL": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "rawSha256": "342b08c1e1c225944c0c71998e522c3213c5ff43f339cfbd2d7d78cf586bf6d0",
+      "readDepth": "main content lines 17 to 24: clinical-study design questions",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-off-label",
+      "sourceURL": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label",
+      "rawSha256": "caca1b4de989d70cb56d26d2360f7c14fc6d62f458222e90342fa0daafba6b58",
+      "readDepth": "main educational content, including approval scope, prescriber context, unapproved uses and coverage questions",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-ruo",
+      "sourceURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only",
+      "rawSha256": "c5bbb6e5b61eb1c9722c263b4015eb2334d729dd15c024acde4c0d12e28f4304",
+      "readDepth": "guidance landing-page description and scope only; full guidance not read",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-ind",
+      "sourceURL": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "rawSha256": "27aa3daee959513c2fc795de14b79e905595379ab5315773bfde2542a0850531",
+      "readDepth": "main content lines 16 to 30: introduction and application scope",
+      "wholePageReadClaimed": false
+    },
+    {
+      "id": "fda-bla",
+      "sourceURL": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+      "rawSha256": "85fd62532d6efe4f27a03507f430685412b5d5c8c94f4926707bc4e94ac98eb7",
+      "readDepth": "main content lines 5 to 21: application, review/license and IND-versus-BLA scope",
+      "wholePageReadClaimed": false
+    }
+  ],
+  "inheritedContexts": [
+    {
+      "artifact": "study-prediction-2026-11-11/primary-sources.json",
+      "sha256": "27fe7604fcc932df5aa114c451e326ebcbe21136bdbd0044ac2762bdc6725624",
+      "scope": "Unchanged selected fields only, at the earlier recorded primary-reading and acceptance limits. No new scientific recertification of older catalogue assertions."
+    },
+    {
+      "artifact": "effect-reasoning-2026-11-10/primary-sources.json",
+      "sha256": "aebc38156c21f335f16e4ac950734ec6b3137be3d9537f037d11b72710a02957",
+      "scope": "Unchanged selected fields only, at the earlier recorded primary-reading and acceptance limits. No new scientific recertification of older catalogue assertions."
+    },
+    {
+      "artifact": "blood-immune-2026-11-10/primary-sources.json",
+      "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e",
+      "scope": "Unchanged selected fields only, at the earlier recorded primary-reading and acceptance limits. No new scientific recertification of older catalogue assertions."
+    },
+    {
+      "artifact": "surface-targeting-2026-11-11/primary-sources.json",
+      "sha256": "3c93e1e542b31c0f083a0200cfe7535000a3ded6c5a15846139e979adae05432",
+      "scope": "Unchanged selected fields only, at the earlier recorded primary-reading and acceptance limits. No new scientific recertification of older catalogue assertions."
+    }
+  ],
+  "limits": [
+    {
+      "source": "FDA-NIH BEST chapters NBK402283 and NBK338448",
+      "failure": "Both raw responses returned HTTP 200 browser-check/reCAPTCHA pages, not chapter text. No bypass and no body reading claimed. MedlinePlus and defined fictional/inference reasoning are used for the adopted teaching."
+    },
+    {
+      "source": "Morgan 2006",
+      "failure": "Full text not obtained. The NCBI response is metadata-only and is not credited as a body."
+    },
+    {
+      "source": "TRIPOD+AI 2024",
+      "failure": "Identity resolved, no abstract in the registry response and no fresh body read. Used only for custody identity and explicitly inherited context."
+    }
+  ],
+  "elicit": {
+    "callableScientificInterface": false,
+    "toolSearchMatches": "Only task-orchestration descriptions mention Elicit; no scientific Elicit method is callable.",
+    "reportsCreated": 0,
+    "questionsCreated": 0,
+    "frozenOccurrencesUnchanged": 917
+  },
+  "captureHashes": [
+    {
+      "file": "medline-valid.html",
+      "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/",
+      "finalURL": "https://medlineplus.gov/genetics/understanding/testing/validtest/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 27210,
+      "sha256": "1486c67d0c6ccb2a82781527ef24dafafd0560315ce1c8baa6b64b228cea7827",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-companion.html",
+      "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+      "finalURL": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 39838,
+      "sha256": "804f2021a173008c515f01a9ad4ef20d00d098d3e13a1e833d233413dce9aa53",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-expedited.html",
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "finalURL": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 36038,
+      "sha256": "16942fcc61b32da9e1f6890e7181eeeec383716396ead566d0d8b15ffdfb7fdb",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-clinical-research.html",
+      "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "finalURL": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 44144,
+      "sha256": "342b08c1e1c225944c0c71998e522c3213c5ff43f339cfbd2d7d78cf586bf6d0",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-off-label.html",
+      "url": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label",
+      "finalURL": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 33204,
+      "sha256": "caca1b4de989d70cb56d26d2360f7c14fc6d62f458222e90342fa0daafba6b58",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-ruo.html",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only",
+      "finalURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 35971,
+      "sha256": "c5bbb6e5b61eb1c9722c263b4015eb2334d729dd15c024acde4c0d12e28f4304",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-ind.html",
+      "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "finalURL": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 60112,
+      "sha256": "27aa3daee959513c2fc795de14b79e905595379ab5315773bfde2542a0850531",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-bla.html",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+      "finalURL": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 49832,
+      "sha256": "85fd62532d6efe4f27a03507f430685412b5d5c8c94f4926707bc4e94ac98eb7",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-adc.pdf",
+      "url": "https://www.fda.gov/media/155997/download",
+      "finalURL": "https://www.fda.gov/media/155997/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 328416,
+      "sha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-car.pdf",
+      "url": "https://www.fda.gov/media/156896/download",
+      "finalURL": "https://www.fda.gov/media/156896/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 528619,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "bodyRetained": true
+    },
+    {
+      "file": "fda-radiopharm.pdf",
+      "url": "https://www.fda.gov/media/129547/download",
+      "finalURL": "https://www.fda.gov/media/129547/download",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 171528,
+      "sha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c",
+      "bodyRetained": true
+    },
+    {
+      "file": "tripod-cluster.pdf",
+      "url": "https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf",
+      "finalURL": "https://www.tripod-statement.org/wp-content/uploads/2023/02/TRIPOD-Cluster-EE.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 1139113,
+      "sha256": "c02d24d1d91627af3c19f300f3a49c6e2d093682d1990824c922b8c25ee3bc99",
+      "bodyRetained": true
+    },
+    {
+      "file": "best-predictive.html",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402283/",
+      "finalURL": "https://www.ncbi.nlm.nih.gov/books/NBK402283/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21457,
+      "sha256": "cfe09415fb1c99551a7935734eb3eeda6418596705d6a7361e868b62ad8c8947",
+      "bodyRetained": true
+    },
+    {
+      "file": "best-glossary.html",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK338448/",
+      "finalURL": "https://www.ncbi.nlm.nih.gov/books/NBK338448/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21456,
+      "sha256": "0a7fa5a09efa4ea93a11e6ba3c7929b21c4efc189c21acd1822964a16a67d3d1",
+      "bodyRetained": true
+    },
+    {
+      "file": "jennings-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28341590+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28341590+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 9056,
+      "sha256": "d7e15057bea15227749395099606b78b19bc7e65af6d33314b1dbd1074de5a05",
+      "bodyRetained": true
+    },
+    {
+      "file": "michiels-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2805%2917866-0%22&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2FS0140-6736%2805%2917866-0%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5314,
+      "sha256": "d223652a3d1eab06065551ff8665d0949ac40d67492aea2e5d2ca50c76e7dabc",
+      "bodyRetained": true
+    },
+    {
+      "file": "morgan-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16946036+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16946036+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8958,
+      "sha256": "ac3779f83570e378893c731912892791f048850bd02cd78bac1c62cf58989f19",
+      "bodyRetained": true
+    },
+    {
+      "file": "mertins-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27251275+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27251275+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 29833,
+      "sha256": "1e74632069925b131eec4c374878bc0adbea0e6a7a080753d226e1212ca9efc4",
+      "bodyRetained": true
+    },
+    {
+      "file": "jennings-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jmoldx.2017.01.011",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.jmoldx.2017.01.011",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 32230,
+      "sha256": "3937340d9de67bcafe6635271e8eef4b764f5b5a9c0632cdba6b0625d5915ba0",
+      "bodyRetained": true
+    },
+    {
+      "file": "jennings-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6941185/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6941185/fullTextXML",
+      "httpStatus": 500,
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "d8b53ecab7ea4eccbfe9d3430863289d697885f33fb4eebc284423f872f680bd",
+      "bodyRetained": true
+    },
+    {
+      "file": "michiels-crossref.json",
+      "url": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2805%2917866-0",
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fs0140-6736%2805%2917866-0",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 7641,
+      "sha256": "14037428020c8c5bc0b012d17b7b484c376cb7fec65c03ba073af55bc462b544",
+      "bodyRetained": true
+    },
+    {
+      "file": "morgan-crossref.json",
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.1129003",
+      "finalURL": "https://api.crossref.org/works/10.1126%2Fscience.1129003",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 9794,
+      "sha256": "1c970b52d1d326b18f4b0e3abf90b40446181381c926dc9b46c7062dd8ff7b02",
+      "bodyRetained": true
+    },
+    {
+      "file": "morgan-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2267026/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2267026/fullTextXML",
+      "httpStatus": 500,
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "5b1e0c37386c86f5422442ffd399daf45e43a2a7fec85294b06a52abf4f3f200",
+      "bodyRetained": true
+    },
+    {
+      "file": "mertins-crossref.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fnature18003",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnature18003",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 22923,
+      "sha256": "098a86287149d0ff28ce25aae9134f7f037fb4f3aa8f83efab84ef730d8c3b92",
+      "bodyRetained": true
+    },
+    {
+      "file": "mertins-fulltext.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5102256/fullTextXML",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5102256/fullTextXML",
+      "httpStatus": 200,
+      "contentType": "application/xml",
+      "bytes": 134495,
+      "sha256": "b90d07e17c905bdc9a3e146bba5d6c457c88c0eec7fb107ae8065c14a28f7e9d",
+      "bodyRetained": true
+    },
+    {
+      "file": "jennings-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6941185",
+      "httpStatus": 200,
+      "bytes": 265649,
+      "sha256": "5968e6ed7b0b607853853d73239bbfad4cd22c6dc3930630ae342a17413283f8"
+    },
+    {
+      "file": "morgan-ncbi.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2267026",
+      "httpStatus": 200,
+      "bytes": 8211,
+      "sha256": "a7d61d39b8065bb589db1cf6a7bc5c51c9ddb9cdbf39e934afc319027d0f99a3"
+    },
+    {
+      "file": "tripod-cluster-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2022-071058%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 6116,
+      "sha256": "c6d2867793b2b068b74ff9b21bf73adede20b303bfb4c68606a9a2e561bc0b51"
+    },
+    {
+      "file": "tripod-cluster-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2022-071058",
+      "httpStatus": 200,
+      "bytes": 30810,
+      "sha256": "e673a995b63266fc6afe50ccd3c920b66e39ef1915963c596f429f422ca1a0e5"
+    },
+    {
+      "file": "tripod-ai-epmc.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2023-078378%22&format=json&resultType=core&pageSize=10",
+      "httpStatus": 200,
+      "bytes": 17755,
+      "sha256": "0c7fe6a3cfa0dd21b00e88804eb8ae2dbafd2237dc01c5397b9fec6b2c9a46d3"
+    },
+    {
+      "file": "tripod-ai-crossref.json",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2023-078378",
+      "httpStatus": 200,
+      "bytes": 27043,
+      "sha256": "e85d60e47ae5ad3723676f3bc395d7075005b2082c9c0023474c62a45654f981"
+    }
+  ]
+}

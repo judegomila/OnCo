@@ -1,0 +1,814 @@
+{
+  "root": {
+    "side": "w",
+    "canonicalOwners": 7,
+    "exactPassageChecks": 61,
+    "checks": [
+      {
+        "requirementId": "dis-1",
+        "recordId": "binder-discovery",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-2",
+        "recordId": "binder-discovery",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-3",
+        "recordId": "binder-discovery",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-4",
+        "recordId": "binder-discovery",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-5",
+        "recordId": "binder-discovery",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-5",
+        "recordId": "binder-discovery",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "dis-6",
+        "recordId": "binder-discovery",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-1",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-2",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-2",
+        "recordId": "batch-release",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-3",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-4",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-4",
+        "recordId": "batch-release",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-5",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-5",
+        "recordId": "batch-release",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "br-6",
+        "recordId": "batch-release",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-1",
+        "recordId": "cdmo",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-1",
+        "recordId": "cdmo",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-2",
+        "recordId": "cdmo",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-2",
+        "recordId": "cdmo",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-3",
+        "recordId": "cdmo",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-3",
+        "recordId": "cdmo",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-4",
+        "recordId": "cdmo",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-5",
+        "recordId": "cdmo",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cdmo-5",
+        "recordId": "cdmo",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-1",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-1",
+        "recordId": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-2",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-3",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-3",
+        "recordId": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-4",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-5",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-5",
+        "recordId": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "recordId": "good-manufacturing-practice",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "gmp-6",
+        "recordId": "good-manufacturing-practice",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-1",
+        "recordId": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-2",
+        "recordId": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-2",
+        "recordId": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-3",
+        "recordId": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-3",
+        "recordId": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-4",
+        "recordId": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-4",
+        "recordId": "peptide-synthesis-spps",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "spps-5",
+        "recordId": "peptide-synthesis-spps",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-1",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-1",
+        "recordId": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-2",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-2",
+        "recordId": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-2",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-3",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-3",
+        "recordId": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-4",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-4",
+        "recordId": "platform-vs-personalized-components",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pp-5",
+        "recordId": "platform-vs-personalized-components",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-1",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-1",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-2",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-3",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-4",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-5",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-6",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      }
+    ],
+    "captures": [
+      {
+        "id": "binder-discovery",
+        "sha256": "8b619921795ef1efdf2910d3249b15e70e56a77fe3fed24773b5f0882f3f2480",
+        "bytes": 28116
+      },
+      {
+        "id": "peptide-synthesis-spps",
+        "sha256": "c6273f43f8d39219b2ed3e90f3c7566a80d9622b96966148f04da0afbbff2cd0",
+        "bytes": 21656
+      },
+      {
+        "id": "batch-release",
+        "sha256": "ab8bfaa8679b5eccf7d70228d6533af3481a9334ebc6c5c9771e7e037541535e",
+        "bytes": 29235
+      },
+      {
+        "id": "platform-vs-personalized-components",
+        "sha256": "1292cdf205d67dd6decd090fe35da3cf8218850776ff7b47ce11c20fc6fa64e6",
+        "bytes": 29400
+      },
+      {
+        "id": "cdmo",
+        "sha256": "79a2b6372fb360a64a3d86367cb582238d389f24b525429b637264159083ea6d",
+        "bytes": 26303
+      },
+      {
+        "id": "good-manufacturing-practice",
+        "sha256": "9b4b5289e8395308054b61c1b93bf6169c9a9df5713c91be827463ce6e7dca70",
+        "bytes": 23625
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "sha256": "bc2e554cb1fc17e718757e04a9263373fedfd829be399968362a9423a9b49c85",
+        "bytes": 50157
+      }
+    ],
+    "scope": "Actual EntityDetail server rendering. No browser layout, hydration, mobile or accessibility claim."
+  },
+  "shared": {
+    "side": "s",
+    "canonicalOwners": 8,
+    "exactPassageChecks": 58,
+    "checks": [
+      {
+        "requirementId": "aff-1",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-2",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-3",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-4",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-5",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-6",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "aff-7",
+        "recordId": "binder-affinity-epitope-developability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "tm-1",
+        "recordId": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "tm-2",
+        "recordId": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "tm-3",
+        "recordId": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "tm-4",
+        "recordId": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "tm-5",
+        "recordId": "binder-targeting-module",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-1",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-1",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-2",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-2",
+        "recordId": "binder-format-constraints",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-3",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-3",
+        "recordId": "binder-format-constraints",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-4",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-5",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "fmt-6",
+        "recordId": "binder-format-constraints",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-1",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-2",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-2",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-3",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-4",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-5",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-6",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "scfv-6",
+        "recordId": "scfv-vhh-formats",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-1",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-2",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-3",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-3",
+        "recordId": "certificate-of-analysis",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-4",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-5",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "coa-6",
+        "recordId": "certificate-of-analysis",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-1",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-2",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-3",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-4",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-5",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-6",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmc-6",
+        "recordId": "chemistry-manufacturing-controls",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-1",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-1",
+        "recordId": "manufacturing-process-comparability",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-2",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-3",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-3",
+        "recordId": "manufacturing-process-comparability",
+        "field": "summary",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-4",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-5",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "cmp-6",
+        "recordId": "manufacturing-process-comparability",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-1",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-1",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-2",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-3",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-4",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-5",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      },
+      {
+        "requirementId": "pot-6",
+        "recordId": "cell-therapy-release-testing",
+        "field": "notes",
+        "passageInActualEntityDetail": true
+      }
+    ],
+    "captures": [
+      {
+        "id": "binder-affinity-epitope-developability",
+        "sha256": "8059052198e1cc7f34c90bbfc5f09412620b64d7f15968c1822da45d6184436b",
+        "bytes": 33773
+      },
+      {
+        "id": "binder-targeting-module",
+        "sha256": "3eb653e35b856a298e5c89bdc21ed467f2a4b99ecf7e9eaa476a965de2a40de7",
+        "bytes": 25031
+      },
+      {
+        "id": "binder-format-constraints",
+        "sha256": "3874e951b46c5e3a180d498bd34bad25a995b1721bba1d430c676c9a3cf0b864",
+        "bytes": 27629
+      },
+      {
+        "id": "scfv-vhh-formats",
+        "sha256": "e32bd706861f007426df4a5b0498061dd4a5c8567e2e1782efba749f7f16d923",
+        "bytes": 27263
+      },
+      {
+        "id": "certificate-of-analysis",
+        "sha256": "d6b394b98665660dc1955e6d783dc233c4a121c04f49f236a979fa9a46226878",
+        "bytes": 23247
+      },
+      {
+        "id": "chemistry-manufacturing-controls",
+        "sha256": "be70fe6147a448395574fa62125ed1c5368a4afc222b2bc2e9824548f297489c",
+        "bytes": 28769
+      },
+      {
+        "id": "manufacturing-process-comparability",
+        "sha256": "a20a9f2aaf27ee24c34d0d6919d1e1216e572f80c3c320c40510831f341c2498",
+        "bytes": 28453
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "sha256": "02f11d46a5b9a96b3eb08be1cdd0bb05591a899f1ce7cb83defeff8e595efd69",
+        "bytes": 50172
+      }
+    ],
+    "scope": "Actual EntityDetail server rendering. No browser layout, hydration, mobile or accessibility claim."
+  },
+  "distinctAuthoredPassages": 112,
+  "actualLayerPassageChecks": 119,
+  "scope": "The shared cell-release owner is checked in both drafts, accounting for seven repeated passage checks."
+}

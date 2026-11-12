@@ -1,0 +1,110 @@
+[
+  {
+    "file": "med-28462446.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28462446+AND+SRC%3AMED&format=json&resultType=core",
+    "capturedAt": "2026-11-09T21:47:12.920239+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28462446+AND+SRC%3AMED&format=json&resultType=core",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9754,
+    "sha256": "39bbd474c3c33f44e22d6f15f509c807c7ebaa06f8a9444689836149ab621440",
+    "disposition": "used: complete resolved MED abstract"
+  },
+  {
+    "file": "ecfr-312-8.html",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8",
+    "capturedAt": "2026-11-09T21:47:16.613450+00:00",
+    "status": 200,
+    "finalURL": "https://unblock.federalregister.gov/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 10596,
+    "sha256": "d26c9ba29cd08953d1e3a1078a86011b3056f7f73c332bb99c80d68275a75e9a",
+    "disposition": "excluded: access/challenge body"
+  },
+  {
+    "file": "ecfr-312-310.html",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310",
+    "capturedAt": "2026-11-09T21:47:18.028067+00:00",
+    "status": 200,
+    "finalURL": "https://unblock.federalregister.gov/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 10596,
+    "sha256": "620494316395d03eaa9cadabd2b4122ca9e915201b14483b86489f8cf7634f65",
+    "disposition": "excluded: access/challenge body"
+  },
+  {
+    "file": "ecfr-56-104.html",
+    "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.104",
+    "capturedAt": "2026-11-09T21:47:18.590048+00:00",
+    "status": 200,
+    "finalURL": "https://unblock.federalregister.gov/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 10596,
+    "sha256": "620494316395d03eaa9cadabd2b4122ca9e915201b14483b86489f8cf7634f65",
+    "disposition": "excluded: access/challenge body"
+  },
+  {
+    "file": "cornell-312-8.html",
+    "url": "https://www.law.cornell.edu/cfr/text/21/312.8",
+    "capturedAt": "2026-11-09T21:48:08.374918+00:00",
+    "status": 200,
+    "finalURL": "https://www.law.cornell.edu/cfr/text/21/312.8",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 38801,
+    "sha256": "056e49dadfdb2d3c78854be89b59f36448170237746eaddecd666f311fd35b8c",
+    "disposition": "used: selected operative regulation text from identified mirror"
+  },
+  {
+    "file": "cornell-312-310.html",
+    "url": "https://www.law.cornell.edu/cfr/text/21/312.310",
+    "capturedAt": "2026-11-09T21:48:08.862363+00:00",
+    "status": 200,
+    "finalURL": "https://www.law.cornell.edu/cfr/text/21/312.310",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 35926,
+    "sha256": "a8fc021d1bf0d024da3493eb8af558c6347db319b12c7b3155ced58e0231109f",
+    "disposition": "used: selected operative regulation text from identified mirror"
+  },
+  {
+    "file": "cornell-56-104.html",
+    "url": "https://www.law.cornell.edu/cfr/text/21/56.104",
+    "capturedAt": "2026-11-09T21:48:09.257047+00:00",
+    "status": 200,
+    "finalURL": "https://www.law.cornell.edu/cfr/text/21/56.104",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 31413,
+    "sha256": "d97a81cdf323ad1b09edfc61231ce65e1b7484fb0b1a249e19bef1bd0ea6a3ad",
+    "disposition": "used: selected operative regulation text from identified mirror"
+  },
+  {
+    "file": "ecfr-312-8.xml",
+    "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-05/title-21.xml?part=312&section=312.8",
+    "capturedAt": "2026-11-09T21:48:09.672817+00:00",
+    "error": "HTTP Error 406: Not Acceptable",
+    "disposition": "unavailable: request error"
+  },
+  {
+    "file": "percist-find-web-response.json",
+    "capturedAt": "2026-11-09T21:47:35.287Z",
+    "captureKind": "parsed primary-web tool response; not original HTML",
+    "bytes": 33955,
+    "sha256": "323c41f8f5d1a4232139b259d1fec61e86902bab1952983169f4a0d76ffd266c",
+    "disposition": "used: selected original primary-text passages through web parser; not original HTML"
+  },
+  {
+    "file": "percist-and-emergency-web-response.json",
+    "capturedAt": "2026-11-09T21:47:54.124Z",
+    "captureKind": "parsed primary-web tool response; not original HTML",
+    "bytes": 32624,
+    "sha256": "b746d9599ea33618a01c9ca5779179e7646de9ae9144152a73631048a3b8cbe8",
+    "disposition": "used: selected original primary-text passages through web parser; not original HTML"
+  },
+  {
+    "file": "riedl-challenge-web-response.json",
+    "capturedAt": "2026-11-09T21:51:15.923Z",
+    "captureKind": "parsed primary-web tool response; excluded browser challenge",
+    "bytes": 581,
+    "sha256": "31064f31c5ded3b75bf43b44ab09b666beb2113f3ae35e14e4a2ae225b80b280",
+    "disposition": "excluded: browser challenge"
+  }
+]

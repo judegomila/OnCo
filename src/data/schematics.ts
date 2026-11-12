@@ -7,6 +7,7 @@ import { add, antibody, antibodyTips, arrow, box, cone, cylinder, dna, dots, ell
 import { ANIMATED } from "./animated";
 import { FRONT_ANIMATED } from "./front-animations";
 import { TERM_ANIMATED, termCategoryKey } from "./term-animations";
+import { FUNCTIONAL_MODEL_SCHEMATICS } from "./schematics-functional-model";
 
 /** All animated builders by key: technology ids, plus `front:<sectionId>` for the fronts (adcs reuses the ADC sequence). */
 export const ALL_ANIMATED: Record<string, () => Mesh> = { ...ANIMATED, ...Object.fromEntries(Object.entries(FRONT_ANIMATED).map(([k, f]) => [`front:${k}`, f])), "front:adcs": ANIMATED["adc"], ...Object.fromEntries(Object.entries(TERM_ANIMATED).map(([k, f]) => [`term:${k}`, f])) };
@@ -47,7 +48,7 @@ function linacBeamSet(angles: number[], target: Vec3, cls = "accent"): Mesh {
 }
 
 // ---------- registry ----------
-const S: Record<string, () => Mesh> = {};
+const S: Record<string, () => Mesh> = { ...FUNCTIONAL_MODEL_SCHEMATICS };
 
 // ===== Radiation =====
 S["brachytherapy"] = () => {
@@ -229,6 +230,7 @@ S["hyperthermia"] = () => {
 
 // ===== Imaging =====
 S["pet"] = () => petScanner();
+S["granzyme-b-pet"] = () => petScanner("Granzyme tracer distribution");
 S["fdg-pet"] = () => petScanner("¹⁸F-FDG (glucose)");
 S["psma-pet"] = () => petScanner("PSMA ligand");
 S["fapi-pet"] = () => petScanner("FAP on fibroblasts");
@@ -351,7 +353,7 @@ S["mced"] = () => { const m = bloodTube(8, 0.3, "Methylation patterns → cancer
 S["fragmentomics"] = () => bloodTube(9, 0.25, "Fragment length & end motifs");
 S["cgp"] = () => { const m = empty(); add(m, dna(0.45, 3.0, 2.5, 60, undefined, 3)); for (const y of [-0.9, 0.2, 1.1]) add(m, ring(0.55, 14, "hot"), { at: [0, y, 0] }); label(m, [0.55, 0.2, 0], "Targeted genes (300-600)"); label(m, [0, 1.5, 0], "Hybrid-capture NGS"); return m; };
 S["wes-wgs"] = () => { const m = empty(); add(m, dna(0.45, 3.2, 3, 72, undefined, 3)); label(m, [0, 1.6, 0], "Whole genome / exome"); label(m, [0.5, -0.8, 0], "Signatures, structural variants"); return m; };
-S["germline-testing"] = () => { const m = empty(); add(m, dna(0.45, 2.6, 2, 48, undefined, 3)); add(m, ring(0.55, 14, "hot"), { at: [0, 0.3, 0] }); label(m, [0.55, 0.3, 0], "Inherited variant (BRCA, Lynch)"); label(m, [0, -1.3, 0], "Every cell, from birth"); return m; };
+S["germline-testing"] = () => { const m = empty(); add(m, dna(0.45, 2.6, 2, 48, undefined, 3)); add(m, ring(0.55, 14, "hot"), { at: [0, 0.3, 0] }); label(m, [0.55, 0.3, 0], "Inherited variant (BRCA, Lynch)"); label(m, [0, -1.3, 0], "Present across many tissues"); return m; };
 S["hrd-testing"] = () => { const m = empty(); add(m, dna(0.45, 2.6, 2, 48, undefined, 3)); add(m, line([0.45, 0.1, 0], [0.45, 0.35, 0], "hot")); add(m, line([-0.45, 0.1, 0], [-0.45, 0.35, 0], "hot")); label(m, [0.45, 0.2, 0], "Unrepaired double-strand break"); label(m, [0, -1.3, 0], "Genomic scars (LOH, TAI, LST)"); return m; };
 S["rna-seq"] = () => { const m = empty(); add(m, helix(0.4, 2.8, 3, 60, "accent")); add(m, dna(0.4, 1.0, 1, 20, "soft", 4), { at: [1.3, 0, 0] }); add(m, arrow([0.9, 0.6, 0], [0.5, 0.6, 0], "soft", 0.3)); label(m, [1.3, 0.6, 0], "DNA"); label(m, [0, 1.4, 0], "mRNA transcripts counted"); return m; };
 S["methylation-profiling"] = () => { const m = empty(); add(m, dna(0.45, 2.8, 2.5, 60, undefined, 3)); const tags: Vec3[] = []; for (let i = 0; i < 9; i++) { const a = TAU * 2.5 * (i / 9); tags.push([0.6 * Math.cos(a), -1.4 + 2.8 * (i / 9), 0.6 * Math.sin(a)]); } add(m, dots(tags, "accent")); label(m, tags[4], "Methyl tags (CpG)"); return m; };
@@ -360,7 +362,7 @@ S["proteomics"] = () => { const m = empty(); add(m, polyline([[-1.6, -0.6, 0], [
 S["histopathology-ihc"] = () => { const m = empty(); add(m, box(2.6, 0.05, 1.2, "soft")); add(m, box(1.0, 0.07, 0.8), { at: [0.3, 0, 0] }); const cells: Vec3[] = []; for (let i = 0; i < 30; i++) cells.push([0.3 + (Math.random() - 0.5) * 0.9, 0.06, (Math.random() - 0.5) * 0.7]); add(m, dots(cells, "soft")); for (let i = 0; i < 8; i++) add(m, ring(0.06, 8, "accent"), { at: [0.3 + (Math.random() - 0.5) * 0.9, 0.07, (Math.random() - 0.5) * 0.7] }); label(m, [0.3, 0.07, 0], "Stained protein (HER2, PD-L1)"); label(m, [-1.0, 0, 0.5], "Glass slide"); return m; };
 S["digital-pathology-ai"] = () => { const m = S["histopathology-ihc"](); add(m, line([-1.3, 0.5, -0.6], [1.3, 0.5, -0.6], "hot")); add(m, line([-1.3, 0.5, 0.0], [1.3, 0.5, 0.0], "hot")); add(m, line([-1.3, 0.5, 0.6], [1.3, 0.5, 0.6], "hot")); label(m, [1.3, 0.5, 0.6], "Whole-slide scan → model"); return m; };
 S["pathology-foundation-model"] = S["digital-pathology-ai"];
-S["companion-diagnostic"] = () => { const m = S["histopathology-ihc"](); add(m, arrow([0.3, 0.5, 0], [0.3, 1.1, 0], "accent", 0.25)); add(m, octahedron(0.18, "accent"), { at: [0.3, 1.35, 0] }); label(m, [0.3, 1.35, 0], "Drug unlocked by the test"); return m; };
+S["companion-diagnostic"] = () => { const m = S["histopathology-ihc"](); add(m, arrow([0.3, 0.5, 0], [0.3, 1.1, 0], "accent", 0.25)); add(m, octahedron(0.18, "accent"), { at: [0.3, 1.35, 0] }); label(m, [0.3, 1.35, 0], "Corresponding labeled treatment"); return m; };
 S["functional-drug-testing"] = () => { const m = empty(); for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++) { add(m, cylinder(0.3, 0.3, 12, 2, "soft"), { at: [i * 0.8, 0, j * 0.8] }); add(m, sphere(0.12, 3, 6, (i + j) % 2 === 0 ? "hot" : "soft"), { at: [i * 0.8, 0.1, j * 0.8] }); } label(m, [0, 0.1, 0], "Patient tumour cells"); label(m, [0.8, 0.3, 0.8], "Drug per well → viability"); return m; };
 S["organoids"] = () => { const m = empty(); add(m, cylinder(1.2, 0.5, 20, 2, "soft")); for (const p of [[0.3, 0.1, 0.2], [-0.5, 0.1, -0.3], [0.1, 0.1, -0.6], [-0.4, 0.1, 0.5]] as Vec3[]) { add(m, sphere(0.22, 3, 8), { at: p }); add(m, sphere(0.09, 2, 6, "soft"), { at: [p[0], p[1] + 0.05, p[2]] }); } label(m, [0.3, 0.1, 0.2], "3D mini-tumours in matrix"); return m; };
 S["pdac-organoid-pharmacotyping"] = S["organoids"];
@@ -456,7 +458,7 @@ S["dual-payload-adc"] = () => { const m = adcMesh(8, [true, true], ["Antibody", 
 S["degrader-antibody-conjugate"] = () => { const m = adcMesh(4, [true, true], ["Antibody", "Degrader payload (glue / PROTAC)", "Antigen-binding arm"]); return m; };
 S["immune-stimulating-adc"] = () => adcMesh(4, [true, true], ["Antibody", "TLR / STING agonist payload", "Tumour antigen arm"]);
 S["masked-adc"] = () => { const m = adcMesh(6, [true, true], ["Antibody", "Payload", "Binding arm"]); const [l, r] = antibodyTips(1.0); add(m, polyline([[l[0] - 0.15, l[1] + 0.05, 0], [l[0] + 0.15, l[1] + 0.2, 0]], "hot")); add(m, polyline([[r[0] - 0.15, r[1] + 0.2, 0], [r[0] + 0.15, r[1] + 0.05, 0]], "hot")); label(m, [r[0], r[1] + 0.2, 0], "Peptide mask, cleaved by tumour proteases"); return m; };
-S["site-specific-conjugation"] = () => adcMesh(4, [true, true], ["Antibody", "Defined attachment sites (homogeneous DAR)", "Fab arm"]);
+S["site-specific-conjugation"] = () => adcMesh(4, [true, true], ["Antibody", "Selected attachment sites; loading checked", "Fab arm"]);
 S["bispecific-adc"] = () => { const m = adcMesh(8, [true, false], ["Antibody", "TOP1 payload", "Arm 1 (e.g. EGFR)"]); const [, r] = antibodyTips(1.0); add(m, polyline([[0.12, -0.05, 0], [r[0], r[1] + 0.05, 0]], undefined)); add(m, sphere(0.14, 3, 8), { at: [r[0], r[1] + 0.05, 0] }); label(m, [r[0], r[1] + 0.05, 0], "Arm 2 (e.g. HER3)"); return m; };
 S["peptide-drug-conjugate"] = () => { const m = empty(); add(m, polyline([[-0.6, 0.3, 0], [-0.3, 0.6, 0.1], [0.1, 0.5, -0.1], [0.4, 0.2, 0.1], [0.2, -0.2, 0], [-0.3, -0.1, -0.1]], undefined, true)); add(m, line([0.4, 0.2, 0.1], [0.9, 0.1, 0.1], "soft")); add(m, octahedron(0.12, "accent"), { at: [1.05, 0.1, 0.1] }); label(m, [-0.3, 0.6, 0.1], "Bicyclic peptide binder"); label(m, [1.05, 0.1, 0.1], "Payload"); return m; };
 S["adc-payload-neutralizer"] = () => { const m = adcMesh(6, [true, true], ["ADC", "Payload", "Binding arm"]); add(m, sphere(0.3, 3, 8, "hot"), { at: [1.2, -0.9, 0] }); add(m, octahedron(0.07, "accent"), { at: [1.2, -0.9, 0] }); label(m, [1.2, -0.9, 0], "Free payload captured"); return m; };
@@ -649,7 +651,7 @@ export const SCHEMATIC_ALIAS: Record<string, string> = {
   "gamma-secretase-inhibitors": "kinase-inhibitors",
   celmods: "molecular-glue-platforms",
   "lsd1-inhibitors": "epigenetic-drugs",
-  "atr-chk1-inhibitors": "parp-inhibitor",
+  "atr-chk1-inhibitors": "kinase-inhibitors",
   "kat6-inhibitors": "epigenetic-drugs",
   "genetically-engineered-mouse-models": "pdx-models",
   "humanised-mouse-models": "pdx-models",

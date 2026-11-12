@@ -1,0 +1,473 @@
+{
+  "sourceAssetVersionEntries": 40,
+  "uniqueSourceFiles": 20,
+  "assets": [
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cancer-vaccines-overview",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "file": "cancer-vaccines-overview-vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "bytes": 6064,
+      "gitBlob": "6a2dd1bebecb17b2c63bce7cb7e5553bf54a66b6",
+      "sha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "cancer-vaccines-overview-vaccine-purpose-target-selection-and-delivery-v1-light.png",
+        "sha256": "056014ceb43d62e92212e10a462b22d449220f33db0285949c75eef70e5d1471",
+        "width": 600,
+        "height": 1060
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cancer-vaccines-overview",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "file": "cancer-vaccines-overview-vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "bytes": 6064,
+      "gitBlob": "23bfb86a80c2a8eed780d44f0ac36f16bac31aa3",
+      "sha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "cancer-vaccines-overview-vaccine-purpose-target-selection-and-delivery-v1-dark.png",
+        "sha256": "2b95ab4597725b5c00c223f18d1bb92024dd5282f76c567488335b56fd83bf1c",
+        "width": 600,
+        "height": 1060
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cytokine-therapy",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "file": "cytokine-therapy-same-bulk-average-different-spatial-signals-v1-light.svg",
+      "bytes": 7183,
+      "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "beforeScope": "teaching",
+      "rendered": true,
+      "render": {
+        "file": "cytokine-therapy-same-bulk-average-different-spatial-signals-v1-light.png",
+        "sha256": "e85a0e7f23f90e5fd47a9f8f869a7b64461185972ed8d054c22b5ab0abaec75a",
+        "width": 600,
+        "height": 960
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cytokine-therapy",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "file": "cytokine-therapy-same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "bytes": 7183,
+      "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "beforeScope": "teaching",
+      "rendered": true,
+      "render": {
+        "file": "cytokine-therapy-same-bulk-average-different-spatial-signals-v1-dark.png",
+        "sha256": "4975c27e7ea2c37b2e63dd92e2d8ca034ba3c5fb53c1debcb335d32af8334e6f",
+        "width": 600,
+        "height": 960
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cytokine-therapy",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "file": "cytokine-therapy-cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "bytes": 5046,
+      "gitBlob": "b9e46e1910ffea60392571a084c481e97c7e433f",
+      "sha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "cytokine-therapy-cytokine-receivers-and-beyond-origin-v1-light.png",
+        "sha256": "aaf6d85d819525b4a8fad87436c2e81431b3dc6c484e3d95be2a9c26bd5e2e53",
+        "width": 600,
+        "height": 1100
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cytokine-therapy",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "file": "cytokine-therapy-cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "bytes": 5046,
+      "gitBlob": "13ffb2896c210fd099c447570182fbb9a19f568a",
+      "sha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "cytokine-therapy-cytokine-receivers-and-beyond-origin-v1-dark.png",
+        "sha256": "b68b40f64d4da08c6e95403a75d2efb7c1c5fb263395b224a4077685ae6e883d",
+        "width": 600,
+        "height": 1100
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "immune-checkpoint-inhibitor",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "file": "immune-checkpoint-inhibitor-checkpoint-contact-capture-v1-light.png",
+      "bytes": 1718880,
+      "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234",
+      "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "beforeScope": "teaching",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "immune-checkpoint-inhibitor",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "file": "immune-checkpoint-inhibitor-checkpoint-contact-capture-v1-dark.png",
+      "bytes": 1659218,
+      "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c",
+      "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "beforeScope": "teaching",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "immune-checkpoint-inhibitor",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "file": "immune-checkpoint-inhibitor-checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "bytes": 7670,
+      "gitBlob": "b10486174bfc3ecc9e9db8657af89cb9b872d608",
+      "sha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "immune-checkpoint-inhibitor-checkpoint-partners-and-selective-blockade-v1-light.png",
+        "sha256": "3fb4ca1ad56e48784da8bb06f0a3bbc5611cfac535812b8b9db99f4ad74cc879",
+        "width": 600,
+        "height": 1260
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "immune-checkpoint-inhibitor",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "file": "immune-checkpoint-inhibitor-checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "bytes": 7670,
+      "gitBlob": "77088b2df94d2908641d8dc1941969c7c20f98b7",
+      "sha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "immune-checkpoint-inhibitor-checkpoint-partners-and-selective-blockade-v1-dark.png",
+        "sha256": "9dd1ba240800aadbec3756ca0b54cd8f73ac9b9f21d34088ba496499b70dccb0",
+        "width": 600,
+        "height": 1260
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "in-situ-vs-designed-vaccine",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "file": "in-situ-vs-designed-vaccine-in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "bytes": 3169,
+      "gitBlob": "98101d3210200f1cae61e8060cec84559d0d2f3e",
+      "sha256": "55354948639f9e00d7887c85bebf554b14481d3e5a5c3601b079aa8a3411b24e",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "in-situ-vs-designed-vaccine-in-situ-vs-designed-vaccine-comparison-source-v1-light.png",
+        "sha256": "bfa43ba2c6da427a418cbdfee3ccae3a13153f00681cd021c4e68a84bbe271de",
+        "width": 780,
+        "height": 1100
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "in-situ-vs-designed-vaccine",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "file": "in-situ-vs-designed-vaccine-in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "bytes": 3169,
+      "gitBlob": "01a970a0a4d12362eea4347ad022da7056397ad6",
+      "sha256": "7e189db1cc88603ac07038491a19ad99956255d65428643ff7bdcfc2b503e8ca",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "in-situ-vs-designed-vaccine-in-situ-vs-designed-vaccine-comparison-source-v1-dark.png",
+        "sha256": "e1287be3e0bb186fa39ccf81339f8c3c0f1a2ad821d3f7968c0295a0f1ac1cc8",
+        "width": 780,
+        "height": 1100
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "intratumoral-immunotherapy",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png",
+      "file": "intratumoral-immunotherapy-injection-learning-and-distant-effect-v2-light.png",
+      "bytes": 1692781,
+      "gitBlob": "8084cd5c54b3a7cb38287d00017ac9be573c1739",
+      "sha256": "90673e24d7f6129702e7bc530f067d4ebfede556c4923967c213cb17a421aab8",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "intratumoral-immunotherapy",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png",
+      "file": "intratumoral-immunotherapy-injection-learning-and-distant-effect-v2-dark.png",
+      "bytes": 1582135,
+      "gitBlob": "b156d2cc2ab55f7183438fb877889bd80c11389e",
+      "sha256": "bb38937e75e15f6b9674bcabdc7acb96721f337e43b7272d1496a37e55c3d54b",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "oncolytic-virus",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "file": "oncolytic-virus-viral-entry-replication-injury-v2-light.png",
+      "bytes": 1763219,
+      "gitBlob": "4827b7cf0092c9749cef4ac8ae7c8719d6337f9f",
+      "sha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "oncolytic-virus",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+      "file": "oncolytic-virus-viral-entry-replication-injury-v2-dark.png",
+      "bytes": 1788629,
+      "gitBlob": "929984e905a975dedacc6af666b8e1e95ed2bed7",
+      "sha256": "1922e5a358163d9fee6bd06734b5da885150671714ec5e20bbbc98e1f7acae71",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "oncolytic-virus",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "file": "oncolytic-virus-viral-and-tumor-target-tests-v2-light.png",
+      "bytes": 2084411,
+      "gitBlob": "0961f37fb833d8e7e42eebbabcea36e748ae321c",
+      "sha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "oncolytic-virus",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+      "file": "oncolytic-virus-viral-and-tumor-target-tests-v2-dark.png",
+      "bytes": 1869923,
+      "gitBlob": "2bd95fa607aa7f491ef4edd7b8a5313f68fde823",
+      "sha256": "c562e9eaaad40690a1d2c33b72c8854316dce3c0d3fb831664a9cfafd963ef36",
+      "beforeScope": "unclassified",
+      "rendered": false,
+      "viewed": true,
+      "scope": "Raw PNG for full-extent review"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "vaccine-adjuvants",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "file": "vaccine-adjuvants-antigen-material-and-support-inputs-v1-light.svg",
+      "bytes": 5492,
+      "gitBlob": "3f960ae3ec3b7e47c5bbb33e4df57bb208b675e3",
+      "sha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "vaccine-adjuvants-antigen-material-and-support-inputs-v1-light.png",
+        "sha256": "760a4ec0656aebe6e82548182b6b3c4799cb0ad9158dc270d0b614c1f8df6a73",
+        "width": 600,
+        "height": 1270
+      },
+      "viewed": true
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "vaccine-adjuvants",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "file": "vaccine-adjuvants-antigen-material-and-support-inputs-v1-dark.svg",
+      "bytes": 5492,
+      "gitBlob": "8a5fd96bb5dabaed77cfa841fc457b10f6c609ac",
+      "sha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92",
+      "beforeScope": "unclassified",
+      "rendered": true,
+      "render": {
+        "file": "vaccine-adjuvants-antigen-material-and-support-inputs-v1-dark.png",
+        "sha256": "32810429c1ea6d67f67fb29ff3413442905828f91c0c2426e581df61d4e4d1b4",
+        "width": 600,
+        "height": 1270
+      },
+      "viewed": true
+    }
+  ],
+  "mermaidInstances": 8,
+  "uniqueMermaid": 4,
+  "mermaidRenders": [
+    {
+      "lesson": "cancer-vaccines-overview",
+      "sourceSha256": "5d5ad1d7e150b62751d6df693e88f6bcb24edfcf6f8c7f4d7c0030eaf3346940",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-1-default.png",
+        "sha256": "da7d106efad11ac3d714142a8467214fd8fbbe66f14b35ba4aa81fb0bbb46e3b",
+        "width": 168,
+        "height": 608
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "cancer-vaccines-overview",
+      "sourceSha256": "5d5ad1d7e150b62751d6df693e88f6bcb24edfcf6f8c7f4d7c0030eaf3346940",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-1-dark.png",
+        "sha256": "8528e0e43b89ba86c175d85af6710a5d5fb886c63a4deef0d4f80f7f11b9e457",
+        "width": 168,
+        "height": 608
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "cytokine-therapy",
+      "sourceSha256": "f95e6d9933924000f5d06b5f943def7fe90ebb7ccbfcec0d075eb43d2cbfe6aa",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-2-default.png",
+        "sha256": "72c1c147eb36647ffd08fd70d33d1f3ca1294357d3f648e119503d793802526b",
+        "width": 168,
+        "height": 608
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "cytokine-therapy",
+      "sourceSha256": "f95e6d9933924000f5d06b5f943def7fe90ebb7ccbfcec0d075eb43d2cbfe6aa",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-2-dark.png",
+        "sha256": "ac856117ead4b69be7fc8a444eb0becb5531044c63163ac903ee3033ccbb3621",
+        "width": 168,
+        "height": 608
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "immune-checkpoint-inhibitor",
+      "sourceSha256": "b755586b8f6a32012755844c7de07b31552cc64cce0a2af8f50795da66829073",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-3-default.png",
+        "sha256": "8af1eb5a69ffcaff95ea3d75600d98507b4d038475c6b47b51ec09b68c158b40",
+        "width": 382,
+        "height": 360
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "immune-checkpoint-inhibitor",
+      "sourceSha256": "b755586b8f6a32012755844c7de07b31552cc64cce0a2af8f50795da66829073",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-3-dark.png",
+        "sha256": "504d9164a889a5699904a98ada2c272f8a879922e53e46297370e3b5cc813249",
+        "width": 382,
+        "height": 360
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "vaccine-adjuvants",
+      "sourceSha256": "f3755c8e04070eec3371f2f22eebfd04fb73ab46f7a9a5527b34daafd433c746",
+      "theme": "default",
+      "render": {
+        "file": "mermaid-4-default.png",
+        "sha256": "c3b1585d4098751a8d0dcd9866732154ce322feb87fd380aff0eead09f48b7f5",
+        "width": 360,
+        "height": 448
+      },
+      "viewed": true
+    },
+    {
+      "lesson": "vaccine-adjuvants",
+      "sourceSha256": "f3755c8e04070eec3371f2f22eebfd04fb73ab46f7a9a5527b34daafd433c746",
+      "theme": "dark",
+      "render": {
+        "file": "mermaid-4-dark.png",
+        "sha256": "93b218fc16b7f53cb9996a7bab82a84a1b791524da938757f6f97bcf08088a95",
+        "width": 360,
+        "height": 448
+      },
+      "viewed": true
+    }
+  ],
+  "scope": "Complete pinned source SVG viewBoxes and default/dark Mermaid, rendered in headless Chrome. PNGs retained raw. No live Guide, measured accessibility or expert approval.",
+  "reviewNotes": [
+    {
+      "id": "F-context-01",
+      "asset": "same-bulk-average-different-spatial-signals",
+      "severity": "context qualification",
+      "finding": "Equal-volume means are correct. The movement footer should be read as a directed chemotaxis explanation; it is not a universal requirement for all motility. OnCo prose will keep that scope."
+    },
+    {
+      "id": "F-context-02",
+      "asset": "checkpoint-partners-and-selective-blockade",
+      "severity": "context qualification",
+      "finding": "The shortened HLA footer needs the accompanying genetic-loss context. Direct rebuilding of absent required machinery is different from regulated changes in expression."
+    },
+    {
+      "id": "F-layout-01",
+      "asset": "viral-entry-replication-injury-v2-dark.png",
+      "severity": "minor qualitative legibility",
+      "finding": "Part of the entry dashed path remains dark against the dark background. No measured contrast or native-pixel accessibility test is claimed."
+    },
+    {
+      "id": "F-scope-01",
+      "asset": "all source images and Mermaid",
+      "severity": "scope",
+      "finding": "Shapes, receptor/peptide interfaces, cell interiors and arrows are schematic; counts are not measured yields, drawn contacts are not binding or clonality proof, and arrows do not guarantee biological or clinical stages."
+    }
+  ]
+}

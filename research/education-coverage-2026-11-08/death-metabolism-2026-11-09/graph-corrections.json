@@ -1,0 +1,65 @@
+{
+  "reason": "Add inbound conceptual routes for four new terms. BCMA is a myeloma treatment-context link and androgen receptor is a possible degrader client, rather than a component drawn or asserted in this UPS overview; preserve these as related subjects.",
+  "changes": [
+    {
+      "id": "apoptosis",
+      "file": "src/data/terms-basics.ts",
+      "fields": {
+        "related": [
+          "necrosis",
+          "resisting-cell-death",
+          "immunogenic-cell-death",
+          "tumour-suppressor-gene",
+          "ferroptosis-cell-death",
+          "er-stress-and-unfolded-protein-response"
+        ]
+      }
+    },
+    {
+      "id": "autophagy",
+      "file": "src/data/mechanisms.ts",
+      "fields": {
+        "related": [
+          "nutrient-sensing-ampk"
+        ]
+      }
+    },
+    {
+      "id": "warburg-effect",
+      "file": "src/data/mechanisms.ts",
+      "fields": {
+        "related": [
+          "metabolic-theory-of-cancer",
+          "oxidative-phosphorylation",
+          "nutrient-sensing-ampk"
+        ]
+      }
+    },
+    {
+      "id": "ferroptosis-cell-death",
+      "file": "src/data/mechanisms.ts",
+      "fields": {
+        "related": [
+          "reactive-oxygen-species"
+        ]
+      }
+    },
+    {
+      "id": "ubiquitin-proteasome-system",
+      "file": "src/data/mechanics-pathways.ts",
+      "fields": {
+        "targets": [
+          "mdm2",
+          "hif2a",
+          "estrogen-receptor",
+          "btk"
+        ],
+        "related": [
+          "bcma",
+          "androgen-receptor",
+          "er-stress-and-unfolded-protein-response"
+        ]
+      }
+    }
+  ]
+}

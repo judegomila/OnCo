@@ -1,0 +1,175 @@
+{
+  "resolutions": [
+    {
+      "finding": "F-01",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        39
+      ]
+    },
+    {
+      "finding": "F-02",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        53
+      ]
+    },
+    {
+      "finding": "F-05",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        28
+      ]
+    },
+    {
+      "finding": "F-06",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        41
+      ]
+    },
+    {
+      "finding": "F-07",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        44
+      ]
+    },
+    {
+      "finding": "F-08",
+      "disposition": "Applied exact supported edits",
+      "paragraphs": [
+        25
+      ]
+    },
+    {
+      "finding": "F-13",
+      "disposition": "One consistent qualified competing-risk statement after duplicate removal",
+      "paragraphs": [
+        32
+      ]
+    },
+    {
+      "finding": "F-14",
+      "disposition": "Resolved with the complete raw abstract of Boyd et al. 2012, PMID 22763957; author-attributed methodological argument, not universal causal validity",
+      "paragraphs": [
+        16
+      ]
+    },
+    {
+      "finding": "F-09",
+      "disposition": "Added qualified Bayesian comparison; no blanket statement about every Bayesian design",
+      "paragraphs": [
+        24
+      ]
+    },
+    {
+      "finding": "F-11",
+      "disposition": "Added an explicit cell-assay versus broader measurement bridge and removed the unsourced formula-variation assertion",
+      "paragraphs": [
+        60
+      ]
+    },
+    {
+      "finding": "F-12",
+      "disposition": "Made the cross-context bridge explicit without assigning prostate estimates to breast cancer",
+      "paragraphs": [
+        53
+      ]
+    },
+    {
+      "finding": "F-04",
+      "disposition": "Retained all three published notes and the unique Royston/Parmar note. Replaced this batch's compact duplicated notes with coherent paragraphs; local-control teaching merged explicitly.",
+      "previousNotes": 141,
+      "consolidatedNotes": 70,
+      "publishedNotesPreserved": 3
+    },
+    {
+      "finding": "F-03",
+      "disposition": "Dropped idfs from authored changes; its existing main record and check date remain unchanged"
+    },
+    {
+      "finding": "F-10",
+      "disposition": "Corrected TROPION subsequent-treatment context. Deliberately withdrew unchecked legacy efficacy/regulatory assertions, retained related-study links and the practical/methodological reading rule. These named residuals remain open, not certified by this batch.",
+      "withdrawnLegacyAssertions": [
+        {
+          "id": "codebreak-200",
+          "withdrawnAssertion": "Delayed progression without lengthening life",
+          "nextEvidence": "Read the exact overall-survival primary report and its power, crossover, estimate and uncertainty before restating"
+        },
+        {
+          "id": "adjuvant-endpoint-generalisations",
+          "owners": [
+            "monarche",
+            "natalee",
+            "adaura"
+          ],
+          "withdrawnAssertion": "A stronger generic surrogate-validation record for adjuvant DFS/EFS",
+          "nextEvidence": "Check each primary endpoint, event definition, survival follow-up and the applicable trial-level validation rather than infer a class rule"
+        },
+        {
+          "id": "mrd-regulatory-and-treatment-claims",
+          "owners": [
+            "perseus",
+            "captivate",
+            "mrd"
+          ],
+          "withdrawnAssertion": "FDA advisory acceptance and MRD driving treatment decisions described without their specific context",
+          "nextEvidence": "Read the 2024 FDA committee documents and primary trial protocols/readouts with disease and decision rules"
+        },
+        {
+          "id": "ukctocs",
+          "withdrawnAssertion": "Found cancers earlier without reducing deaths, labelled the clearest warning",
+          "nextEvidence": "Read the primary stage-distribution and mortality report with uncertainty; remove the unsubstantiated ranking"
+        }
+      ],
+      "classification": "Scientific record data under docs/PRODUCT-APPROVAL.md; no renderer, route or product contract changed"
+    }
+  ],
+  "openLegacySourceWork": [
+    {
+      "id": "codebreak-200",
+      "withdrawnAssertion": "Delayed progression without lengthening life",
+      "nextEvidence": "Read the exact overall-survival primary report and its power, crossover, estimate and uncertainty before restating"
+    },
+    {
+      "id": "adjuvant-endpoint-generalisations",
+      "owners": [
+        "monarche",
+        "natalee",
+        "adaura"
+      ],
+      "withdrawnAssertion": "A stronger generic surrogate-validation record for adjuvant DFS/EFS",
+      "nextEvidence": "Check each primary endpoint, event definition, survival follow-up and the applicable trial-level validation rather than infer a class rule"
+    },
+    {
+      "id": "mrd-regulatory-and-treatment-claims",
+      "owners": [
+        "perseus",
+        "captivate",
+        "mrd"
+      ],
+      "withdrawnAssertion": "FDA advisory acceptance and MRD driving treatment decisions described without their specific context",
+      "nextEvidence": "Read the 2024 FDA committee documents and primary trial protocols/readouts with disease and decision rules"
+    },
+    {
+      "id": "ukctocs",
+      "withdrawnAssertion": "Found cancers earlier without reducing deaths, labelled the clearest warning",
+      "nextEvidence": "Read the primary stage-distribution and mortality report with uncertainty; remove the unsubstantiated ranking"
+    }
+  ],
+  "idfs": {
+    "state": "unchanged-main",
+    "asOf": "2026-09-24"
+  },
+  "counts": {
+    "owners": 19,
+    "sourceUnits": 255,
+    "candidateCovered": 252,
+    "recapsExcluded": 3,
+    "notesBefore": 141,
+    "notesAfter": 70,
+    "paragraphs": 66
+  },
+  "readingLimit": "Earlier source assessments retain original abstract/targeted/full-text depth; exact hashes are not independent semantic or clinical certification."
+}

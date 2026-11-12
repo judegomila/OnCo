@@ -1,0 +1,688 @@
+[
+  {
+    "requirement": "anergy-history",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "Anergy is persistent reduced antigen-driven responsiveness after a defined antigen encounter, assessed with a suitable later challenge. It is not simply resting, a naive identity, missing support at one encounter or failure to divide now. Altered-presenting-cell induction followed by normal-presenting-cell retesting in mouse clones supports this distinction.",
+    "sourcePmids": [
+      "3029267",
+      "12086671"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "anergy-mechanism",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "In defined mechanistic experiments, unbalanced calcium signalling and NFAT without cooperative AP-1 promoted an anergy-associated gene programme. Reduced IL-2, a response-supporting cytokine, can accompany anergy. Signal strength, inhibitory context and experimental definition matter; inadequate costimulation is an example rather than a universal diagnosis.",
+    "sourcePmids": [
+      "12086671",
+      "12471050"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "anergy-controls",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "Low IL-2 or a negative ELISpot response alone does not establish anergy. Confirm antigen-specific cells, viable-cell recovery, matched stimulus and responsive comparators, response history and relevant pathway perturbations. Report dividing-cell fractions or cytokine concentration with assay units and conditions. Missing recognition, damaged preparations, suppression or exhaustion remain alternatives.",
+    "sourcePmids": [
+      "3029267",
+      "12086671"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "anergy-tolerance",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "Anergy can contribute to tolerance of mature immune cells. Protective restraint and tumour immune escape can overlap; changing a laboratory response does not establish restored specificity, tumour access, safe killing or clinical benefit.",
+    "sourcePmids": [
+      "12471050",
+      "7636184"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "anergy-exhaustion-comparison",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "Anergy and exhaustion are distinct programmes, not compulsory successive stages or interchangeable labels for dysfunction. Dysfunction is a broader description that may also include senescence, external suppression and missing recognition. Classic clonal anergy often limits growth and IL-2 while retaining effector functions and can respond to added IL-2; adaptive tolerance has broader deficits and can reverse after antigen removal. These distinctions come from model and review evidence, not clinical cutoffs.",
+    "sourcePmids": [
+      "12471050",
+      "17950003"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "comparison-example",
+    "owner": "anergy",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "e485d6a00a6ea6f1d64f939cd316d90bff2193a22da0f5708f418c964d14dbd4",
+    "exactExcerpt": "Fictional independent populations A and B share verified specificity and suitable later stimulation. A has altered initial support followed by a controlled persistent defect; B has persistent stimulation with several functional deficits and compatible programme evidence. These support anergy-compatible and exhaustion-compatible explanations respectively. C with only low IL-2 remains unassigned. Viability, specificity and positive controls are necessary; no one control establishes state and no A-to-B transition or checkpoint-rescue prediction follows.",
+    "sourcePmids": [
+      "3029267",
+      "17950003",
+      "30778252"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "coreceptor-identity",
+    "owner": "cd4",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "4f34e9b5915f580db0c43bfd32611239beac9c6b7dcbabed880dd1b9a7f1626a",
+    "exactExcerpt": "In conventional alpha-beta T cells, CD4 supports class-II recognition and CD8 supports class-I recognition through contacts separate from the peptide-inspecting TCR. These co-receptors do not select the peptide or assign a fixed job. CD4 populations include helper and regulatory programmes, and controlled human bladder-tumour experiments demonstrated class-II-dependent cytotoxic CD4 cells. Naive CD8 identity does not establish current killing. This conventional map is not a universal account of unconventional T cells.",
+    "sourcePmids": [
+      "32497499",
+      "15814665"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "presentation-routing",
+    "owner": "cd8",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "59cceef07d309c74609b4f58b84a8cb1e50f3f516003f7bbc6317fdc3a28ceeb",
+    "exactExcerpt": "Class I commonly displays peptides from intracellular proteins and class II commonly displays acquired extracellular material. These are processing routes, not guarantees of target display; cross-presentation can route acquired antigen to class I. Separate tumour display from the antigen-presenting-cell support needed for initial priming.",
+    "sourcePmids": [
+      "9624004",
+      "15814665"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "coreceptor-geometry",
+    "owner": "cd8",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "59cceef07d309c74609b4f58b84a8cb1e50f3f516003f7bbc6317fdc3a28ceeb",
+    "exactExcerpt": "In schematic conventional contacts, class I has a membrane-anchored heavy chain with associated B2M, which has no separate membrane anchor. Class II has membrane-anchored alpha and beta chains. TCR contacts peptide plus HLA; CD8 or CD4 contacts a separate HLA region. The drawing supplies neither atomic docking coordinates nor evidence of signalling or killing.",
+    "sourcePmids": [],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "coreceptor-assay",
+    "owner": "cd4",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "4f34e9b5915f580db0c43bfd32611239beac9c6b7dcbabed880dd1b9a7f1626a",
+    "exactExcerpt": "Flow panels should identify viable T cells and retain double-positive, double-negative and unresolved events rather than force a CD4/CD8 split. An intracellular cytokine result needs its parent gate, stimulus, background, timing and specimen. In a fictional matched assay, 50/1,000 viable CD4 cells and 10/200 viable CD8 cells are both 5%, although the responding counts differ. Neither fraction establishes natural tumour recognition or killing; incompatible denominators or assays do not rank vaccine platforms.",
+    "sourcePmids": [
+      "32497499"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "cd4-help",
+    "owner": "cd4",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "4f34e9b5915f580db0c43bfd32611239beac9c6b7dcbabed880dd1b9a7f1626a",
+    "exactExcerpt": "CD4 helper programmes include Th1, Th2, Th17 and follicular helper populations; regulatory function is another CD4 role. Experimental CD40-mediated help can enable antigen-presenting cells to support CD8 cross-priming, but it is not a universal requirement for every response.",
+    "sourcePmids": [
+      "9624004",
+      "12522256"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "costimulation-identity",
+    "owner": "costimulation",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "c129666286050455deb8d4dc4f2109281df4a73b89bca7de75e753644cfbce9c",
+    "exactExcerpt": "Costimulation consists of additional supporting receptor interactions alongside antigen recognition, affecting activation, survival, division or differentiation. CD28 is one example, not the whole category or a universal threshold. The same peptide-HLA stimulus can receive different support without changing antigen specificity. Blocking inhibition and adding support are distinct interventions.",
+    "sourcePmids": [
+      "1847722",
+      "21474713"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "costimulation-ligands",
+    "owner": "cd28",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "8726de0ab93345b5582371179e4e5fedf5d6ac3e01baf7c398a5dbf9f47922f0",
+    "exactExcerpt": "CD28 engages CD80/CD86 (B7) on presenting cells. Controlled B7/CD28 experiments demonstrated support for proliferation and IL-2 responses. CTLA-4 shares these ligands and can capture and degrade them by trans-endocytosis, reducing CD28 support. Shared binding partners do not make CD28 and CTLA-4 equivalent.",
+    "sourcePmids": [
+      "1847722",
+      "21474713"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "costimulation-rescue",
+    "owner": "cd28",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "8726de0ab93345b5582371179e4e5fedf5d6ac3e01baf7c398a5dbf9f47922f0",
+    "exactExcerpt": "CD28/B7 support was required for effective PD-1 therapy in chronic viral infection and tumour-bearing mouse experiments. In related human lung-cancer observations, proliferating blood CD8 cells after treatment were predominantly CD28-positive. This does not validate CD28 abundance as a stand-alone treatment-selection test.",
+    "sourcePmids": [
+      "28280249"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "costimulation-measurement",
+    "owner": "costimulation",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "c129666286050455deb8d4dc4f2109281df4a73b89bca7de75e753644cfbce9c",
+    "exactExcerpt": "Compare the same recognition stimulus with and without a specified supporting interaction, using recognition-only, viable-cell and inhibitory-context controls. Measure division, cytokines and killing separately; marker abundance does not establish causal signalling. Engineered intracellular supporting domains change receptor architecture but require product-specific persistence, safety and efficacy tests.",
+    "sourcePmids": [
+      "1847722",
+      "28280249"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "spreading-definition",
+    "owner": "epitope-spreading",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "0cbf81a8ce2340818da50c2e25f2e137771629174e6ca1cde76295f611217ce2",
+    "exactExcerpt": "Epitope spreading is additional detected recognition beyond the initially targeted epitope set, potentially within one source protein or across proteins. More response to the same target is expansion. Responses to both directly encoded A and B do not themselves demonstrate spreading. Newly detected is not newly created: baseline sensitivity can miss pre-existing responsive cells.",
+    "sourcePmids": [
+      "33479501"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "spreading-causality",
+    "owner": "epitope-spreading",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "0cbf81a8ce2340818da50c2e25f2e137771629174e6ca1cde76295f611217ce2",
+    "exactExcerpt": "Tumour injury can release additional antigen for uptake and presentation, but one follow-up response does not establish that entire causal chain. Define peptide-HLA targets and compare matched baseline and follow-up assays with background, presentation and cross-reactivity controls; assess intervening treatment. Vaccine recruitment or expansion does not normally rewrite mature TCRs. An immune response, including one to healthy self, does not establish recurrence prevention, safety or clinical benefit.",
+    "sourcePmids": [
+      "33479501",
+      "28678778"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "spreading-example",
+    "owner": "epitope-spreading",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "0cbf81a8ce2340818da50c2e25f2e137771629174e6ca1cde76295f611217ce2",
+    "exactExcerpt": "In a fictional A/B vaccine experiment, baseline C is undetectable and matched follow-up detects unencoded C, consistent with an additional detected specificity. The A-cell icons are qualitative, not counts. Ten additional receptor sequences without target testing demonstrate repertoire change, not recognition of C; causation and patient benefit remain separate questions.",
+    "sourcePmids": [
+      "33479501"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "dominance-context",
+    "owner": "immunodominance",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "fccce89545f4b03b7e9110e8b65186f1abae9051d79083b14b6c2890bed8d1d1",
+    "exactExcerpt": "Immunodominance is a contextual hierarchy of measured responses, distinct from encoded target count and from epitope spreading. Presentation, precursor frequency, repertoire, priming, HLA, delivery, immune history, tissue and time can change the hierarchy. A favourable binding prediction does not establish immunogenicity, and more encoded targets do not guarantee balanced immunity or independent tumour coverage.",
+    "sourcePmids": [
+      "18641351",
+      "21367907",
+      "33038342"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "dominance-mechanism",
+    "owner": "immunodominance",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "fccce89545f4b03b7e9110e8b65186f1abae9051d79083b14b6c2890bed8d1d1",
+    "exactExcerpt": "Naive precursor frequency is the starting abundance of cells with a relevant specificity. Mouse LCMV and human HLA-A2-restricted HCV experiments linked precursor frequencies to response hierarchies. Binding alone did not strictly predict the hierarchy. These studies provide no universal cancer-vaccine weights, human marker requirement or instruction to remove dominant clones.",
+    "sourcePmids": [
+      "18641351",
+      "21367907"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "dominance-example",
+    "owner": "immunodominance",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "fccce89545f4b03b7e9110e8b65186f1abae9051d79083b14b6c2890bed8d1d1",
+    "exactExcerpt": "Fictional matched IFN-gamma ELISpot means of 45, 11 and 5 spots for A, B and C, minus matched background 5, give 40, 6 and 0 spots per 200,000 plated PBMCs. A dominates that measured response. Protocol replicate and positivity rules classify C as undetectable. Zero adjusted spots do not prove absent tumour display or universal uselessness, nor do three encoded sequences imply three equally effective responses.",
+    "sourcePmids": [],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "dominance-assay",
+    "owner": "immunodominance",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "fccce89545f4b03b7e9110e8b65186f1abae9051d79083b14b6c2890bed8d1d1",
+    "exactExcerpt": "A measured hierarchy needs offered targets, compartment, cell denominator, baseline, timing, matched per-target stimulation, background and positive controls. Detection thresholds and in vitro expansion can alter apparent ranking. Peptide response is not evidence of natural tumour display or tumour-cell killing.",
+    "sourcePmids": [
+      "18641351",
+      "33038342"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "regulatory-role",
+    "owner": "regulatory-t-cells",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "88f70c86e33fe0a336d61263f324487fc5111c755c29349ebff2551c573f2f2a",
+    "exactExcerpt": "Regulatory T cells are living, context-dependent populations, commonly within CD4, that protect tolerance and may restrain useful antitumour responses. They can develop through thymic or peripheral routes. They are not exhausted effectors. Removing restraint can damage healthy tissue; cell abundance is not a universal prognostic or treatment rule.",
+    "sourcePmids": [
+      "7636184",
+      "12522256",
+      "27111280"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "foxp3-limit",
+    "owner": "foxp3",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "2e5df84aa87440a4ffe7ce7206aecfd6307e782ceafa4d6ed21e5da5dbe5ee4e",
+    "exactExcerpt": "FOXP3 is a gene-regulating transcription factor important for regulatory programmes in mouse experiments. In defined human cultures, induced FOXP3 expression did not confer suppression; colorectal cancers also contained functionally distinct FOXP3-positive populations. FOXP3 or CD25 positivity alone cannot assign suppressive function. Do not transfer a colorectal association to every cancer or intervention.",
+    "sourcePmids": [
+      "12522256",
+      "17644734",
+      "27111280"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "regulatory-measurement",
+    "owner": "regulatory-t-cells",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "88f70c86e33fe0a336d61263f324487fc5111c755c29349ebff2551c573f2f2a",
+    "exactExcerpt": "Regulatory mechanisms include CTLA-4-mediated loss of supporting ligands and context-dependent cytokine and growth-signal interactions, including IL-2. Counting cells does not measure suppression. Flow cytometry combines markers, multiplex tissue imaging adds location and a controlled suppression assay measures a specified responder endpoint. Preserve specimen, marker and comparator definitions; bulk RNA cannot assign every cell a location or function, and none of these methods supplies a universal clinical cutoff.",
+    "sourcePmids": [
+      "21474713",
+      "17644734",
+      "7636184"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "exhaustion-programme",
+    "owner": "t-cell-exhaustion",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9051ba40e73de6077b7da4af04abc5bb91bd51b6f1b21d200ec98fe0c479108f",
+    "exactExcerpt": "Exhaustion is a distinct differentiation programme associated with persistent stimulation, altered function, multiple inhibitory receptors and transcriptional and chromatin changes. Mouse TOX experiments identified a central regulator of this programme. It is neither brief tiredness, every weak assay, anergy nor a DNA sequence change. Deficits can be graded and subsets retain different capacities.",
+    "sourcePmids": [
+      "17950003",
+      "31207603",
+      "26205583"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "exhaustion-subsets",
+    "owner": "t-cell-exhaustion",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9051ba40e73de6077b7da4af04abc5bb91bd51b6f1b21d200ec98fe0c479108f",
+    "exactExcerpt": "In chronic-infection mice, TCF1-associated progenitor exhausted cells self-renewed and supplied most of the proliferative burst after PD-1 blockade. In mouse tumours, progenitor exhausted cells retained more function and tumour control than terminally exhausted cells and differed in anti-PD-1 response. The melanoma association with longer response duration is human observational evidence, not a universal predictive test or a claim that every terminal cell is inert.",
+    "sourcePmids": [
+      "27501248",
+      "27533016",
+      "30778252"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "exhaustion-chromatin",
+    "owner": "t-cell-exhaustion",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9051ba40e73de6077b7da4af04abc5bb91bd51b6f1b21d200ec98fe0c479108f",
+    "exactExcerpt": "In mouse experiments, PD-L1 blockade re-engaged effector transcription with little remodelling of the exhausted chromatin landscape. Reinvigorated cells could become exhausted again under continued high antigen and did not simply become ordinary durable memory. Laboratory reinvigoration is distinct from universal reversal or patient benefit.",
+    "sourcePmids": [
+      "27789795"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "exhaustion-markers",
+    "owner": "t-cell-exhaustion",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9051ba40e73de6077b7da4af04abc5bb91bd51b6f1b21d200ec98fe0c479108f",
+    "exactExcerpt": "PD-1 can accompany activation as well as exhaustion. TCF1 also occurs in naive and memory contexts. TIM-3/CD39, TOX and residency-associated CD103/CD39 require population and assay context; no single marker assigns state or specificity. Combine compatible response history, protein or RNA programmes, receptor identities and controlled function. TOX may be measured by intracellular staining or RNA; this is not a routine universal pathology classifier.",
+    "sourcePmids": [
+      "26205583",
+      "31207603",
+      "30778252",
+      "29942092"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "response-origin",
+    "owner": "t-cell-exhaustion",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9051ba40e73de6077b7da4af04abc5bb91bd51b6f1b21d200ec98fe0c479108f",
+    "exactExcerpt": "Paired human basal-cell and squamous-cell skin-cancer biopsies after anti-PD-1 showed expanded clonotypes not previously observed in the same tumour. Clonal replacement and reinvigoration of resident cells are different, potentially overlapping response explanations. Non-detection before therapy is not proof of whole-body absence. Breast-cancer single-cell work identified checkpoint/effector-rich tissue-resident CD8 populations; its early TNBC survival signature was an association, not a general treatment predictor.",
+    "sourcePmids": [
+      "31359002",
+      "29942092"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "priming-signals",
+    "owner": "t-cell-priming-three-signals",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "ddeb11f85eb5eb3fbe1fc4355693116b78f58ea1a8d5f4e08a4fccce45e5f3cd",
+    "exactExcerpt": "Priming is a naive cell's initial activation in a supporting context. Signal one is TCR recognition of peptide-HLA, signal two includes CD80/CD86-CD28 costimulation and inhibitory context, and signal three includes differentiation-supporting cytokines. The receptor pre-exists the encounter. These signals interact over time; the model is not a three-button checklist and antigen-experienced or engineered cells can have different requirements.",
+    "sourcePmids": [
+      "15814665",
+      "1847722",
+      "9624004"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "priming-cytokines",
+    "owner": "t-cell-priming-three-signals",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "ddeb11f85eb5eb3fbe1fc4355693116b78f58ea1a8d5f4e08a4fccce45e5f3cd",
+    "exactExcerpt": "IL-12 and type I interferons (alpha/beta) supported naive CD8 survival and cytolytic differentiation in defined experiments. Cytokines are signalling proteins, not nutritional fuel. Type I interferon can connect innate responses to priming, but this does not prescribe a universal cytokine intervention or establish every cGAS-STING step. Dendritic-cell priming support and tumour antigen display answer different questions.",
+    "sourcePmids": [
+      "15814665",
+      "9624004"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "priming-endpoints",
+    "owner": "t-cell-priming-three-signals",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "ddeb11f85eb5eb3fbe1fc4355693116b78f58ea1a8d5f4e08a4fccce45e5f3cd",
+    "exactExcerpt": "Division, viable-cell expansion, cytokine production and target-cell death are distinct priming outcomes. In a fictional matched experiment both cultures show three divisions, yet only B kills appropriate targets above target-only background. Measure these outcomes separately with defined starting cells, presenting system, signal perturbation, matched time, peptide loading, HLA, cell ratios and culture conditions. Priming does not establish tumour access, natural display, safe killing or clinical benefit, and stronger stimulation can support unwanted populations.",
+    "sourcePmids": [
+      "15814665"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcr-structure",
+    "owner": "t-cell-receptor",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "3a46509edc5df2ddade4aa39099dbdc8d9aed5784c7402af9714170e870ae950",
+    "exactExcerpt": "A conventional alpha-beta TCR uses paired variable and constant domains to contact peptide plus HLA. The peptide sits in the HLA groove, not a separate TCR peptide pocket. CD3 signalling partners are distinct from recognition chains. Contact loops including junction-spanning CDR3 contribute, but other loops, the partner chain and HLA matter; beta-only or CDR3-only sequence is incomplete.",
+    "sourcePmids": [
+      "31461748",
+      "24952902",
+      "26324409"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcr-crossreactivity",
+    "owner": "t-cell-receptor",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "3a46509edc5df2ddade4aa39099dbdc8d9aed5784c7402af9714170e870ae950",
+    "exactExcerpt": "Cross-reactivity is recognition of multiple targets by a receptor. Defined receptor experiments demonstrated peptide/HLA cross-reactivity, not recognition of every allele by an arbitrary receptor or a universal rate. Greater affinity or a contact drawing does not establish healthy-tissue safety.",
+    "sourcePmids": [
+      "17559580"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcr-readouts",
+    "owner": "t-cell-receptor",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "3a46509edc5df2ddade4aa39099dbdc8d9aed5784c7402af9714170e870ae950",
+    "exactExcerpt": "Sequencing reports sampled receptor identities and abundances under an operational clonotype definition. Paired alpha-beta identities are more complete than beta alone. Peptide-HLA multimer binding, stimulus-induced cellular response, target-cell death and clinical benefit are different endpoints. Include irrelevant-target, HLA and target-only viability controls; peptide-loaded cells can bypass natural processing.",
+    "sourcePmids": [
+      "24952902",
+      "26324409",
+      "31461748"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcr-intervention",
+    "owner": "t-cell-receptor",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "3a46509edc5df2ddade4aa39099dbdc8d9aed5784c7402af9714170e870ae950",
+    "exactExcerpt": "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+    "sourcePmids": [
+      "24952902",
+      "28678778"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "repertoire-definition",
+    "owner": "tcr-repertoire-clonality",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "897f202aff79cea39dd300f60fe58786b62247ef6b7e2c0bf620673a4ff71298",
+    "exactExcerpt": "The repertoire is a distribution of receptor identities and abundances in a stated population and time. A clone is a cellular lineage; a clonotype is an operational sequence grouping. Single-chain labels and paired identities have different resolution. V(D)J assembly and thymic selection contribute diversity, while expansion changes abundance; diversity and total T-cell count are different quantities.",
+    "sourcePmids": [
+      "26324409",
+      "24952902"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "repertoire-sampling",
+    "owner": "tcr-repertoire-clonality",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "897f202aff79cea39dd300f60fe58786b62247ef6b7e2c0bf620673a4ff71298",
+    "exactExcerpt": "Blood, tumour and lymph nodes sample overlapping but different populations. Infection, therapy, age and movement can change a sample; absence from one tube may reflect sampling or detection rather than whole-body absence. A pretreatment blood sample is not a complete stored repertoire. Lower measured diversity after infection may reflect a vigorous response and does not establish cancer specificity, vaccine causation or uniformly worse immunity.",
+    "sourcePmids": [
+      "26324409",
+      "31359002",
+      "22365666"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "repertoire-denominator",
+    "owner": "tcr-repertoire-clonality",
+    "version": "draft-373",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "897f202aff79cea39dd300f60fe58786b62247ef6b7e2c0bf620673a4ff71298",
+    "exactExcerpt": "Fictional matched receptor samples contain 10 clonotype A cells among 1,000 T cells (1%) and 10 among 100 (10%). The sampled count remains 10; the changed denominator drives the larger fraction. Absolute expansion requires comparable sampling and calibrated counts, and neither frequency identifies antigen. State sampling depth, chain definition, compartment, method and timing.",
+    "sourcePmids": [],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "state-history",
+    "owner": "t-cell-states",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "d6a626bfda9c9fe44dbe8aae926c2d0cf744f86f355101232bed7892c93c63de",
+    "exactExcerpt": "Naive describes absence of initial antigen-driven activation, not recent thymic birth. Effector denotes developed response functions, including help or killing; memory can support renewed responses but promises neither permanent protection nor cancer specificity. State categories are not one mandatory developmental trajectory. Anergy, exhaustion, external suppression and regulatory role remain distinct.",
+    "sourcePmids": [
+      "22365666",
+      "17950003",
+      "27533016"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "state-identity",
+    "owner": "t-cell-states",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "d6a626bfda9c9fe44dbe8aae926c2d0cf744f86f355101232bed7892c93c63de",
+    "exactExcerpt": "The same paired receptor can occur with different functional phenotypes and response histories. Fictional R1 memory-associated and progenitor-like exhausted observations are separate observations, not a measured transition. Progenitor-like exhaustion is distinct from ordinary memory; shared TCF1 or division does not make their programmes equivalent.",
+    "sourcePmids": [
+      "24952902",
+      "27533016",
+      "30778252"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "state-function",
+    "owner": "t-cell-states",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "d6a626bfda9c9fe44dbe8aae926c2d0cf744f86f355101232bed7892c93c63de",
+    "exactExcerpt": "Fictional equal-looking PD-1-positive populations near cancer have different controlled peptide responses: one viral and one tumour-peptide directed. Marker and proximity do not establish specificity; peptide response does not establish natural tumour display, access or killing. Checkpoint blockade does not rewrite receptor specificity. Preserve tissue, sampling time, population definitions and controlled function alongside RNA/protein panels; favourable markers or division alone cannot predict benefit.",
+    "sourcePmids": [
+      "24952902",
+      "31359002",
+      "30778252"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcell-family",
+    "owner": "t-cell",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "76eff90d3f1208c463aa69ee8841a0301684de6cf128dc6057c6675c0eed758d",
+    "exactExcerpt": "T cells are a lymphocyte family, not every white cell or every lymphocyte. Precursors develop through the thymus, with receptor generation and selection shaping the peripheral pool. Conventional alpha-beta cells recognise peptide-HLA; gamma-delta cells use another, context-dependent receptor system, so conventional peptide-HLA examples do not describe every T cell.",
+    "sourcePmids": [
+      "9872319",
+      "31461748"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "tcell-measurement",
+    "owner": "t-cell",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "76eff90d3f1208c463aa69ee8841a0301684de6cf128dc6057c6675c0eed758d",
+    "exactExcerpt": "T-cell descriptions should separate identity, location, specificity, state and measured function. Flow cytometry uses defined viable-cell gates and panels, tissue staining adds location and sequencing adds receptor identity. Report compartment, denominator, panel and timing. CD3/CD8 positivity and a viral-peptide response establish their tested observations, not cancer recognition or killing by every nearby cell; greater presence or activation does not automatically mean clinical benefit.",
+    "sourcePmids": [
+      "24952902",
+      "32497499"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "thymus-maintenance",
+    "owner": "thymic-output-and-aging",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9075e0ab1c4622a9e47dc4a5450514f82d2729cd36b5640080fa52bbbcfb899b",
+    "exactExcerpt": "Thymic output is release of newly developed T cells; involution is a gradual, variable decline in active tissue rather than a fixed adult-age shutdown. Human age and HIV-treatment measurements support adult output, but no universal individual output rate. Naive-cell maintenance also reflects survival, peripheral division, movement and loss. Human/mouse kinetic comparisons found materially different dependencies; mouse output cannot dictate a human collection or banking rule.",
+    "sourcePmids": [
+      "9872319",
+      "18420820",
+      "22365666"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "trec-denominator",
+    "owner": "thymic-output-and-aging",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9075e0ab1c4622a9e47dc4a5450514f82d2729cd36b5640080fa52bbbcfb899b",
+    "exactExcerpt": "TRECs are circular receptor-rearrangement by-products that do not replicate with chromosomes. In a fictional closed ledger, 2 cells with 4 circles become 4 cells with the same 4 circles: average copies per cell decline from 2 to 1. Daughter pairs can carry 2/0 and 1/1 circles, each retaining the parent's 2. Division alone can dilute copies per cell without proving stopped output. Copies per cell and per blood volume answer different questions; the ledger does not count new arrivals, immune age or daily export.",
+    "sourcePmids": [
+      "10973325"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "thymus-interpretation",
+    "owner": "thymic-output-and-aging",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "9075e0ab1c4622a9e47dc4a5450514f82d2729cd36b5640080fa52bbbcfb899b",
+    "exactExcerpt": "Naive phenotype is not a recent-emigrant birth certificate. Flow phenotype/counts, kinetic labelling and modelling, receptor sequencing and thymic imaging supply different information; imaging is not a direct daily output count. Interpret measurements with exposure, compartment, observation time, division, survival and movement. Neither more diversity, adult output nor age alone promises a new cancer-recognising receptor, vaccine benefit or a collection recommendation.",
+    "sourcePmids": [
+      "10973325",
+      "18420820",
+      "22365666"
+    ],
+    "actualBodyVerified": true
+  },
+  {
+    "requirement": "dominance-subsets-model",
+    "owner": "t-cell-states",
+    "version": "proposal-tcells",
+    "ownerAsOf": "2026-11-09",
+    "field": "notes",
+    "fieldSha256": "d6a626bfda9c9fe44dbe8aae926c2d0cf744f86f355101232bed7892c93c63de",
+    "exactExcerpt": "In Burger and colleagues' engineered mouse lung tumours, the subdominant response contained heterogeneous TCF1-positive populations, including a CCR6/Tc17-associated subset that did not preferentially benefit from checkpoint blockade. Long-peptide vaccination with the two model antigens and cyclic di-GMP improved the subdominant response; a subdominant-only arm also tested antigen-specific effects. The separate human analyses were associations, not a validated universal TCF1/CCR6 requirement, target-deletion rule or clone-pruning instruction.",
+    "sourcePmids": [
+      "34534464"
+    ],
+    "actualBodyVerified": true
+  }
+]

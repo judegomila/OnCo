@@ -1,0 +1,966 @@
+{
+  "version": "proposal-binders-cmc",
+  "state": "implemented-draft-not-merged",
+  "workerHead": "590b91903120f9c19fdf80f532cfbfb622e954c1",
+  "sharedDraftHead": "390ad658620b31deeebb9438c88cd959751f68aa",
+  "records": [
+    {
+      "id": "binder-affinity-epitope-developability",
+      "kind": "term",
+      "name": "Binder affinity, epitope and developability",
+      "aka": [
+        "antibody binder developability",
+        "affinity versus binder function"
+      ],
+      "tldr": "Binding strength, the site recognized and practical molecule properties answer different questions. A useful binder needs evaluation beyond a single affinity value.",
+      "summary": "A primary comparison of bispecific constructs found different lytic activity despite similar antigen-binding affinity, with epitope geometry contributing to the result. A separate clinical-stage antibody survey measured multiple biophysical properties relevant to developability. Those studies support evaluating recognition, function and molecule behavior separately. Their tested distributions and constructs do not establish a universal selection cutoff or guarantee that a candidate will become an effective drug. Separate measurements distinguish the quantities. For antibodies binding HLA-A2 on cells, the monovalent Fab affinity of one antibody was 1.9 x 10^7 per molar while the avidity of its bivalent F(ab)2 or IgG was 1.3 x 10^9 per molar, an enhancement the authors estimated at 68-fold by simple Scatchard analysis and at a larger value with more realistic models (Ways and Parham, 1983). In mice bearing SK-OV-3 human ovarian carcinoma xenografts, four affinity variants of one anti-HER2 antibody that recognise the same epitope (monovalent KD 270 to 0.56 nmol/L) showed the highest tumour accumulation at moderate affinity; the highest-affinity antibodies stayed in the perivascular space (average penetration 20.4 um versus 84.8 um for the lowest affinity), a conditional result in that model, not an ideal affinity (Rudnick et al., 2011). FDA's Q6B guidance lists physicochemical properties, biological activity, immunochemical properties, purity and impurities as parts of characterisation and ties specifications to the individual product, so no universal cutoff exists.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Biophysical properties of the clinical-stage antibody landscape.",
+          "url": "https://doi.org/10.1073/pnas.1616408114"
+        },
+        {
+          "label": "Ways and Parham, 1983: the binding of monoclonal antibodies to cell-surface molecules",
+          "url": "https://doi.org/10.1042/bj2160423"
+        },
+        {
+          "label": "Rudnick et al., 2011: influence of affinity and antigen internalization on uptake and penetration of anti-HER2 antibodies in solid tumors",
+          "url": "https://doi.org/10.1158/0008-5472.can-10-2277"
+        },
+        {
+          "label": "FDA/ICH Q6B: specifications for biotechnological and biological products",
+          "url": "https://www.fda.gov/media/71510/download"
+        },
+        {
+          "label": "Kinna et al., 2026: antibody format matters, a comparative analysis of VHH and scFv domains",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "epitope",
+        "binder-targeting-module",
+        "binder-format-constraints",
+        "self-similarity-immune-recognition"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Affinity describes one binding interaction under stated conditions. For a simple one-to-one equilibrium a lower dissociation constant (KD, a concentration often given in nanomolar units) means tighter binding, whereas papers that report association constants (per molar) read the other way, with a higher value meaning tighter binding, so compare like with like. Avidity is the combined strength of several contacts and depends on target density, spacing and the number of binding sites. In one set of experiments the Fab fragment of an anti-HLA-A2 antibody had an affinity of 1.9 x 10^7 per molar while the bivalent F(ab)2 or IgG showed an avidity of 1.3 x 10^9 per molar on cells (Ways and Parham, 1983). A cell-binding result for a multivalent product is therefore not its single-site affinity; ask which assay was used and how many sites took part.",
+        "Whether a binder can reach its epitope depends on folding, orientation and neighbouring molecules, so a sequence, a signal on purified protein or a measure of protein abundance does not show access in a living setting. In BiTE antibodies against the melanoma antigen MCSP, constructs with similar binding affinity differed greatly in redirected T-cell lysis of CHO cells carrying MCSP variants, and those binding the membrane-proximal domain were more potent than those binding more distal domains (Bluemel et al., 2010). That is a defined engineered-cell system, not a general rule for every target.",
+        "Developability asks whether a molecule can be produced, purified, formulated and stored, stays soluble and stable, does not aggregate and does not bind unrelated molecules. Jain et al. (2017) expressed 137 clinical-stage antibody sequences as IgG1 and measured a dozen biophysical properties to describe the range seen in clinical-stage antibodies. Kinna et al. (2026) selected ten CD123 domain- and affinity-matched pairs from llama VHH and rat scFv libraries. The VHH preparations had a higher reported thermal-unfolding midpoint and lower predicted aggregation and positive-surface-patch scores. Those computational scores are distinct from direct particle measurements: dynamic light scattering found an even monomeric distribution except for one clone in each pool. The results concern the studied preparations and readouts. Neither study tests whether a candidate works or is safe in patients, so developable does not mean effective or safe.",
+        "Measurement rows and their limits. Binding strength comes from optical methods such as biolayer interferometry (used for screening and full titrations in Watson et al., 2023), where target preparation, immobilisation and multivalent binding affect the reading. Native accessibility needs binding to relevant living cells with target-negative or blocking controls, and cell binding alone does not show tissue access or clinical selectivity. Stability is read from thermal unfolding and aggregation, which depend on formulation, concentration and stress. A potency assay shows activity in that assay only. FDA Q6B ties specifications to the individual product, so no universal developability cutoff exists, and tests consume candidate material and may need target protein or cells.",
+        "Inference lesson. Suppose candidate A has tighter single-site affinity but only purified-protein data and more aggregation after stress, while candidate B binds living target-positive cells and aggregates less. No treatment choice follows: the team needs the intended format, comparable functional tests and exposure evidence first. A binder profile is a development framework, not a validated score, and it is retested once the binder becomes an antibody, a payload carrier or a receptor."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "binder-targeting-module",
+      "kind": "term",
+      "name": "Binders as targeting modules",
+      "aka": [],
+      "tldr": "A recognition molecule can be used as one component of a larger therapeutic design. Its ability to bind is one property of that component.",
+      "summary": "Primary antibody-fragment studies showed how recognition domains can be used outside a complete antibody. Experiments with bispecific T-cell engagers then showed that constructs with similar binding affinity could differ in target-cell lysis because of epitope position and antigen geometry. A binder is therefore a module whose performance must be evaluated in its assembled format. Binding alone does not establish delivery, effector activity or clinical benefit. In a 1993 experiment a single-chain Fv joined to a T-cell receptor signalling chain was expressed in a cytolytic T-cell hybridoma and triggered interleukin-2 secretion and hapten-specific, non-MHC-restricted target-cell lysis (Eshhar et al.), an early demonstration of recognition coupled to activation in one cell model. In a 2022 mouse heart-failure model, lipid nanoparticles carrying CAR mRNA and targeted to CD5 delivered the message to T cells and reduced fibrosis, an example of a binder choosing the cell that receives instructions rather than the cancer cell (Rurik et al.). FDA's March 2024 antibody-drug conjugate clinical pharmacology guidance treats the conjugate and its constituent parts separately.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+          "url": "https://doi.org/10.1073/pnas.85.16.5879"
+        },
+        {
+          "label": "Naturally occurring antibodies devoid of light chains.",
+          "url": "https://doi.org/10.1038/363446a0"
+        },
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Eshhar et al., 1993: specific activation and targeting of cytotoxic lymphocytes through chimeric single chains",
+          "url": "https://doi.org/10.1073/pnas.90.2.720"
+        },
+        {
+          "label": "Rurik et al., 2022: CAR T cells produced in vivo to treat cardiac injury",
+          "url": "https://doi.org/10.1126/science.abm0594"
+        },
+        {
+          "label": "FDA: clinical pharmacology considerations for antibody-drug conjugates (March 2024)",
+          "url": "https://www.fda.gov/media/155997/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antibody",
+        "epitope",
+        "scfv-vhh-formats",
+        "binder-format-constraints"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Two inferences about recognition. A gene or RNA signal for a target shows that the target is made, not that its epitope is exposed on living tumour cells. A highly specific binder can also recognise its intended target on healthy tissue; that is on-target, off-tumour injury, not a mistaken molecular address. Evidence that a binder recognises purified protein and living target-positive cells supports recognition in those settings only.",
+        "Each connected action adds its own requirement. For an antibody-drug conjugate, FDA's March 2024 clinical pharmacology guidance defines total antibody, unconjugated antibody and unconjugated payload as separate quantities and says its principles may not apply to other types of conjugate. A T-cell engager needs productive contact between two cells, a receptor needs a relevant effect on signalling, and a CAR needs surface expression and target-dependent activation, which Eshhar et al. (1993) first showed in a T-cell hybridoma. Delivery binders choose the cell that receives instructions (Rurik et al., 2022), which can differ from the cancer cell. Attaching a binder shows none of these later steps.",
+        "A binder is a part of a design, not a measured quantity, so it has no assay of its own. Binding strength, epitope accessibility and developability belong to the binder-profile record and must be remeasured on the assembled product, because format changes geometry, stability and exposure."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "binder-format-constraints",
+      "kind": "term",
+      "name": "Format-dependent binder function",
+      "aka": [],
+      "tldr": "A recognition domain can behave differently when built into a different therapeutic structure. Its final format is part of the experiment.",
+      "summary": "Epitope-distance experiments in bispecific T-cell engagers linked target geometry to cell lysis in the tested models. A later comparison of CD123-directed single-chain and single-domain antibody fragments examined their behavior in engineered T cells and a mouse leukemia model. These are construct-specific findings. A successful binding measurement or one format comparison should not be generalized to all antibody fragments, targets, payloads or clinical settings. Three primary studies show what the assembled format adds. In mice with MUC16-positive xenografts, an anti-MUC16 antibody-drug conjugate made by site-specific cysteine conjugation was as effective as a conventional conjugate and was tolerated at higher doses in rats and cynomolgus monkeys (Junutula et al., 2008). CD19 CARs with a long IgG4 spacer worked in vitro but lacked antitumour activity in mice because the Fc region bound Fc receptors on myeloid cells and caused activation-induced T-cell death; modifying the CH2 domain restored activity (Hudecek et al., 2015). Antigen-independent clustering of scFvs triggered tonic CD3-zeta signalling and early exhaustion in the CARs studied, except the CD19 CAR, with 4-1BB reducing and CD28 increasing the effect (Long et al., 2015). FDA's 2024 CAR T guidance asks for in vitro and in vivo evaluation of antigen-dependent and antigen-independent activity of the complete product.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+          "url": "https://doi.org/10.1007/s00262-010-0844-y"
+        },
+        {
+          "label": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        },
+        {
+          "label": "Junutula et al., 2008: site-specific conjugation of a cytotoxic drug to an antibody improves the therapeutic index",
+          "url": "https://doi.org/10.1038/nbt.1480"
+        },
+        {
+          "label": "Hudecek et al., 2015: the nonsignaling extracellular spacer domain of chimeric antigen receptors is decisive for in vivo antitumor activity",
+          "url": "https://doi.org/10.1158/2326-6066.cir-14-0127"
+        },
+        {
+          "label": "Long et al., 2015: 4-1BB costimulation ameliorates T cell exhaustion induced by tonic signaling of chimeric antigen receptors",
+          "url": "https://doi.org/10.1038/nm.3838"
+        },
+        {
+          "label": "FDA: considerations for the development of CAR T cell products (January 2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "binder-targeting-module",
+        "scfv-vhh-formats",
+        "binder-affinity-epitope-developability",
+        "car-t"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "There is no transferable best affinity. A measured affinity describes an interaction in a specified model, while behaviour also depends on target density, geometry, exposure and unwanted recognition. Bluemel et al. (2010) found BiTE constructs with similar affinity but very different lysis. Kinna et al. (2026) chose ten VHH and scFv pairs with comparable domain targeting and KD of 10^-9 to 10^-11 molar and still found differences in stability, in vitro cytokine release and survival in an acute myeloid leukaemia xenograft; the tumour was the human AML-derived MOLM-14 cell line in NSG mice, with generally five mice per group. The authors identify use of a single donor from the preceding in-vitro experiments as a limitation. This does not establish general superiority of either format or compare clinical products in patients.",
+        "Format changes what is tested. A soluble molecule must stay intact and usable through manufacture, storage and exposure, and adding binding units or a chemical cargo can change its behaviour (Junutula et al., 2008, anti-MUC16 conjugate in mice, rats and monkeys). A CAR fixes the binder to a membrane and links contact to signalling, so spacer reach, target position, expression and clustering matter (Hudecek et al., 2015; Long et al., 2015). The same recognition sequence therefore does not guarantee the same performance.",
+        "Healthy-cell inference. A target found on cancer cells may also occur at lower amounts on healthy cells, so a change that improves recognition of target-low cancer cells can also improve recognition of healthy cells that carry some target. Format testing has to ask about both. FDA's January 2024 CAR T guidance calls for in vitro and in vivo assessment of antigen-dependent and antigen-independent activity in the complete product.",
+        "Assay card for format work. Input is the actual assembled molecule or receptor-bearing cells (aliquots are consumed). Conditions to state are target density, exposure time, cell state and relevant negative and healthy-cell controls. Outputs are kept separate: binding constants under their model, receptor-positive cell fractions, cytokine concentration and timed target-cell survival. Thresholds are prespecified and product-specific, with no transferable affinity or activation cutoff. Limits include aggregation, poor expression, geometry and background signalling, and a dish omits whole-body exposure and tissue context. The validation tier is product-specific laboratory characterisation, earlier evidence than clinical safety or benefit."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "scfv-vhh-formats",
+      "kind": "term",
+      "name": "Single-chain and single-domain antibody fragments",
+      "aka": [
+        "scFv and VHH",
+        "single-chain variable fragment",
+        "VHH antibody domain",
+        "single-domain antibody fragment"
+      ],
+      "tldr": "An antibody recognition unit can be engineered from linked heavy- and light-chain variable regions or from a single suitable variable domain. These formats have different structures to evaluate.",
+      "summary": "The original single-chain Fv work linked antibody heavy- and light-chain variable regions and tested binding after expression and refolding. Camelid heavy-chain antibody studies established a different architecture without light chains, underlying VHH-derived formats. More recent engineered-cell comparisons test the behavior of particular fragments in particular constructs. Format names describe architecture; they do not by themselves establish stability, specificity or therapeutic superiority. The first single-chain Fv joined the heavy- and light-chain variable domains of an anti-digoxin antibody with a 15-amino-acid linker (relative molecular mass 26,354); after refolding it showed digoxin specificity like the Fab and an association constant (3.2 x 10^7 per molar) about six-fold below the Fab's (Huston et al., 1988). Camel serum was found to contain IgG-like molecules of about 100 kDa made of heavy-chain dimers without light chains or CH1 (Hamers-Casterman et al., 1993). The NCBI imaging database entry gives about 150 kDa for an intact antibody and 25 to 30 kDa for a monovalent scFv; a 2021 review gives nanobody masses as low as about 15 kDa. Antigen-independent scFv clustering caused tonic signalling and exhaustion in specified CAR constructs (Long et al., 2015).",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+          "url": "https://doi.org/10.1073/pnas.85.16.5879"
+        },
+        {
+          "label": "Naturally occurring antibodies devoid of light chains.",
+          "url": "https://doi.org/10.1038/363446a0"
+        },
+        {
+          "label": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+          "url": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        },
+        {
+          "label": "Long et al., 2015: 4-1BB costimulation ameliorates T cell exhaustion induced by tonic signaling of chimeric antigen receptors",
+          "url": "https://doi.org/10.1038/nm.3838"
+        },
+        {
+          "label": "NCBI MICAD: L36-Cy5 anti-laminin trimerbody (2004), formats and sizes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20641540/"
+        },
+        {
+          "label": "Bathula et al., 2021: nanobodies, the future of antibody-based immune therapeutics",
+          "url": "https://doi.org/10.1089/cbr.2020.3941"
+        },
+        {
+          "label": "Ward et al., 1989: isolated immunoglobulin variable domains",
+          "url": "https://doi.org/10.1038/341544a0"
+        },
+        {
+          "label": "Roux et al., 1998: nurse-shark NAR structure",
+          "url": "https://doi.org/10.1073/pnas.95.20.11804"
+        },
+        {
+          "label": "Greenberg et al., 1995: shark antigen-receptor gene family",
+          "url": "https://doi.org/10.1038/374168a0"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antibody",
+        "binder-format-constraints",
+        "binder-targeting-module"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Definitions. A conventional antibody pairs heavy- and light-chain variable domains to form a binding site. A single-chain variable fragment (scFv) joins those two domains with a peptide linker in one polypeptide chain, so single-chain does not mean one variable domain (Huston et al., 1988, a 15-amino-acid linker). VHH is the binding domain of a camelid heavy-chain-only antibody (Hamers-Casterman et al., 1993), and an isolated VHH used as a binder is called a nanobody (Bathula et al., 2021). Not every engineered single-domain antibody derives from a camelid VHH, a point the source lesson makes without a primary citation in this batch.",
+        "Neither isolated format carries an antibody constant region. Huston's sFv is VH, linker and VL only, and camel heavy-chain IgGs lack CH1 (Hamers-Casterman et al.), so effector recruitment needs other components. A CAR also needs transmembrane and signalling regions, so the binder alone is not the receptor, and a binder, a CAR and a CAR-bearing cell are different objects.",
+        "Size and consequences. An intact antibody is about 150 kDa and a monovalent scFv 25 to 30 kDa according to the NCBI imaging-database entry, which describes scFv as clearing faster from blood and penetrating tumours better; the Huston sFv measured 26,354 Da, and a nanobody review gives masses as low as about 15 kDa (Bathula et al.). These are properties of the soluble protein. A cell carrying a small binder does not penetrate tissue like a small soluble protein. A source lesson gives 25 to 27 kDa and 12 to 15 kDa, which differ from the ranges in the sources it cites.",
+        "Affinity versus avidity across formats. Affinity is one interaction and avidity the combined strength of several, so joining domains changes the number and geometry of contacts (Ways and Parham, 1983). Format itself shifts binding: the first sFv had an association constant about six-fold below the parent Fab (Huston et al.). Compare matched formats rather than assuming that a multivalent molecule has better intrinsic affinity.",
+        "Inference lesson. Two binders that both bind a purified protein have been shown equivalent in that one interaction only. As CARs, one may express poorly on T cells and the other may signal without target cells, a pattern linked to antigen-independent scFv clustering (Long et al., 2015). Surface expression, target-dependent signalling, unwanted activation, tumour killing and healthy-tissue recognition each need separate evidence. Format names describe architecture, not stability, specificity or superiority.",
+        "Single-domain antibody is a broader format than camelid VHH. Ward et al. (1989) isolated murine heavy-chain variable domains that bound antigen without an accompanying light-chain variable domain. Roux et al. (1998) showed independent antigen-recognition domains in nurse-shark NAR, which does not associate with light chains. The variable domain is distinct from the full NAR receptor, which also has constant domains (Greenberg et al., 1995). These examples do not make every single-domain binder a camelid VHH."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "certificate-of-analysis",
+      "kind": "term",
+      "name": "Certificate of analysis",
+      "aka": [
+        "lot certificate of analysis"
+      ],
+      "tldr": "A certificate of analysis reports specified test results for an identified material lot. It needs to be read with the tests, acceptance criteria and intended use.",
+      "summary": "ICH Q7 describes certificates for active-ingredient or intermediate batches, including identity, batch details, tests, acceptance limits and results. FDA CAR T-cell guidance also discusses assessment of incoming material certificates. Requirements depend on the material and governing framework. A certificate is a lot-specific report, not independent proof of every possible property, general regulatory approval or clinical benefit. Q7 says an authentic certificate should be issued for each batch on request, give the material name, batch number and release date, list each test with its acceptance limits and numerical results, and be dated and signed by authorised quality-unit personnel (11.40 to 11.42). Q7 also allows a supplier's certificate to replace some incoming-material tests only where the manufacturer has a supplier-evaluation system and still tests identity of each batch (7.30), so a raw-material certificate is not a result for the final product. FDA's 2024 CAR T guidance says vector copy number per CAR-positive cell should be reported on the lot certificate and that supplier certificates form part of reagent qualification.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA/ICH Q7: certificates of analysis, section 11.4",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry"
+        },
+        {
+          "label": "FDA: considerations for development of CAR T-cell products",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+        },
+        {
+          "label": "FDA/ICH Q7 (September 2016): sections 7.30 and 11.4",
+          "url": "https://www.fda.gov/files/drugs/published/Q7-Good-Manufacturing-Practice-Guidance-for-Active-Pharmaceutical-Ingredients-Guidance-for-Industry.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "chemistry-manufacturing-controls",
+        "cell-therapy-release-testing",
+        "manufacturing-process-comparability"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A certificate of analysis is tied to a lot and a material. A raw-material certificate is not a final-product certificate. ICH Q7 allows a supplier's certificate to replace some incoming-material tests only where the manufacturer has a system to evaluate suppliers and still tests identity of each batch (7.30), and FDA's CAR T guidance lists certificate assessment among reagent qualification steps next to visual inspection and testing. A shared project label cannot turn a raw-material result into a final-cell result.",
+        "Read method, result, unit, denominator and criterion together. FDA's CAR T guidance gives an example: the average vector copy number per CAR-positive cell should be reported on the lot certificate, and dividing by total cells instead includes CAR-negative cells in the denominator and lowers the reported value. A number can mean a concentration, a percentage of a defined count, or activity relative to a reference, so within specification is interpretable only once the specification and reporting method are known.",
+        "Issuing context. ICH Q7 section 11.4 says a certificate should give the material name, grade, batch number and release date, expiry or retest date, each test with acceptance limits and numerical results, and be dated and signed by authorised quality-unit personnel. Q7 is scoped to active ingredients and intermediates, so this is a reading aid and not a required template for a final cell product.",
+        "A certificate reports; a quality review decides. The existence of the document does not independently prove the whole review, because raw data, manufacturing records and investigations may sit elsewhere. Release is the documented disposition of the lot (see batch release).",
+        "Viability, identity and potency answer different questions, and a certificate is not evidence of clinical effect, eligibility or lawful access. The reading rule for gaps: not reported is not zero, not failed and not passed, and a later storage or handling event is not resolved by an earlier acceptable laboratory result, which is why Q7 also dates results and gives retest dates."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "chemistry-manufacturing-controls",
+      "kind": "term",
+      "name": "Chemistry, manufacturing and controls",
+      "aka": [
+        "chemistry manufacturing and controls",
+        "CMC quality information"
+      ],
+      "tldr": "This is the evidence describing a product, how it is made and how its quality is controlled. It addresses product questions alongside the separate evidence about clinical outcomes.",
+      "summary": "FDA guidance for human gene-therapy investigational applications describes information intended to assure product safety, identity, quality, purity and strength, including potency. The potency-assurance guidance further connects manufacturing design, controls and testing. These sources have defined product and regulatory scopes. A manufacturing dossier, a laboratory release result and evidence that an intervention improves clinical outcomes are related but distinct parts of product development. ICH Q6B defines a specification as a list of tests, references to analytical procedures and appropriate acceptance criteria. FDA's May 2026 guidance on CMC flexibilities for cellular and gene therapy biologics licence applications is issued for immediate implementation and says its flexible approaches are not an exhaustive list, so flexibility depends on product and stage and is not an exemption.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: chemistry, manufacturing and control information for human gene therapy INDs",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+        },
+        {
+          "label": "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "FDA/ICH Q6B: specifications (August 1999)",
+          "url": "https://www.fda.gov/media/71510/download"
+        },
+        {
+          "label": "FDA: CMC flexibilities for human cellular and gene therapy products for a biologics license application (May 2026)",
+          "url": "https://www.fda.gov/media/192321/download"
+        },
+        {
+          "label": "FDA: final Potency Assurance for Cellular and Gene Therapy Products (November 2026 PDF)",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "Federal Register: final potency-assurance guidance, 3 November 2026",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "certificate-of-analysis",
+        "manufacturing-process-comparability",
+        "cell-therapy-release-testing",
+        "mrna-lnp-manufacturing"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "CMC is the product-quality evidence: what the product is, how it is made and how its important features are checked. For living-cell and gene products chemistry is not restricted to chemical measurements; FDA's January 2020 gene-therapy CMC guidance covers product description, manufacture, specifications and stability for investigational applications. A facility's GMP framework, a dossier and a lot's release decision are different things.",
+        "Critical quality attributes (CQAs) are product characteristics kept within justified limits, and the 2020 guidance says establishing them early matters because comparability by analytical methods depends on them. A processing setting and the product attribute it affects are related but are not the same measurement. ICH Q6B defines a specification as a list of tests, references to analytical procedures and acceptance criteria.",
+        "Identity and potency answer different questions. FDA's 1999 vaccine CMC guidance asks for characterisation with respect to identity, purity, potency and stability, and FDA's November 2026 potency guidance expects the relationship between a measured attribute and the product's mechanism of action to be supported.",
+        "Stability asks whether quality persists under stated storage, transport and use conditions. The 2020 guidance asks for stability protocols, data, storage conditions and shelf life. A result at manufacture, or one time point, does not cover every later journey. Q5E notes that stability studies can detect subtle differences not seen at release.",
+        "Changes need assessment of whether earlier evidence still applies. FDA's CAR T guidance says showing that changed product meets current lot-release criteria is typically insufficient to establish comparability. A dossier written for one version cannot simply be relabelled for a changed formulation, even if the sequence is shared.",
+        "Evidence develops with the program. FDA's May 2026 CMC-flexibilities guidance, issued for immediate implementation, addresses cell and gene products moving toward a biologics licence application and states that its flexible approaches are not an exhaustive list. Flexibility depends on product and stage and is not an exemption from quality requirements; an investigational submission and a marketing application are different review settings."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "manufacturing-process-comparability",
+      "kind": "term",
+      "name": "Comparability after manufacturing changes",
+      "aka": [
+        "manufacturing process comparability",
+        "process-change comparability"
+      ],
+      "tldr": "A changed manufacturing process needs evidence about the product before and after the change. Comparability asks whether observed differences could matter to product quality, safety or effectiveness.",
+      "summary": "ICH Q5E provides a framework for comparing a biological product before and after manufacturing changes. It emphasizes quality attributes and assessing whether additional nonclinical or clinical evidence is needed. It does not prescribe one universal testing strategy. The question concerns a specified process change and product; it should not be collapsed into a general claim that all batches, sites or related products are interchangeable. Q5E states that comparability does not necessarily mean the pre-change and post-change attributes are identical, but that they are highly similar and existing knowledge is predictive enough that differences have no adverse impact on safety or efficacy. For autologous CAR T cells FDA's 2024 guidance says historical lots may be inadequate and recommends side-by-side testing on the same starting material where possible, for example one leukapheresis split between the pre-change and post-change processes. FDA's July 2023 manufacturing-changes and comparability guidance for cellular and gene therapy products is still labelled draft, not for implementation, on FDA's page checked 9 November 2026.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "EMA/ICH Q5E: comparability after a manufacturing-process change",
+          "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-5-e-comparability-biotechnologicalbiological-products-step-5_en.pdf"
+        },
+        {
+          "label": "FDA/ICH Q5E: comparability of biotechnological/biological products (June 2005)",
+          "url": "https://www.fda.gov/media/71489/download"
+        },
+        {
+          "label": "FDA: considerations for the development of CAR T cell products (January 2024), comparability section",
+          "url": "https://www.fda.gov/media/156896/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "chemistry-manufacturing-controls",
+        "certificate-of-analysis",
+        "biosimilar-manufacturing",
+        "cell-therapy-release-testing"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Comparable does not mean identical. Q5E says comparability shows that pre-change and post-change product are highly similar and that existing knowledge predicts that any differences have no adverse impact on safety or efficacy. First describe what changed and which properties it might alter, then use methods able to detect those effects. FDA's CAR T guidance says meeting current lot-release criteria is typically insufficient to establish comparability, and Q5E notes that stability studies can reveal subtle differences.",
+        "Where suitable, the same starting material can be split between the old and new process, for example one leukapheresis divided between pre-change and post-change manufacture (FDA CAR T guidance). This reduces one source of variation but does not erase all uncertainty or replace an adequate study design; healthy-donor material may be used in some studies, with patient-versus-donor differences considered.",
+        "Measurement caution. An assay change can itself create an apparent product difference, which is why FDA's potency guidance has sections on reference materials and on assay changes and transfers. The CAR T guidance asks for predefined acceptance criteria and appropriate statistical methods. A nonsignificant test alone does not establish similarity, because an insensitive comparison can miss an important difference; this is an inference from the need for predefined criteria and sensitive methods.",
+        "Q5E says the evaluation should indicate whether confirmatory nonclinical or clinical studies are appropriate. Inference lesson: if cell counts match after a medium change but a relevant T-cell subset shifts substantially, count is one attribute, so the subset, function and other plausibly affected properties must be assessed before earlier evidence is called relevant. A process bridge is not head-to-head equivalence between different therapies. FDA's July 2023 comparability guidance for cellular and gene therapy products was still labelled draft, not for implementation, on FDA's page read on 9 November 2026.",
+        "Personalisation does not give a new sequence or an edited process an automatic bridge to every earlier result. A platform may deliberately vary antigen sequence under defined controls, and each change still has to be assessed for its effect on the product."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "kind": "technology",
+      "name": "Cell-therapy release and potency testing",
+      "aka": [],
+      "tldr": "A cell-product lot is checked against specified quality requirements before its disposition. Identity, live-cell measures and biological activity answer different questions about that lot.",
+      "summary": "FDA's final potency-assurance guidance describes a product-specific strategy spanning manufacturing design, controls, materials, in-process testing and lot-release assays. CAR T-cell guidance separately discusses safety, identity, quality, purity and potency measurements. A viability result or marker-expression result is not automatically equivalent to a functional bioassay. Assay choice and acceptance criteria depend on the product and development context. Passing a release specification is distinct from estimating clinical benefit in a patient.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "FDA: considerations for development of CAR T-cell products",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+        },
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024, identity/VCN/potency sections",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "FDA: human gene-therapy IND CMC guidance, January 2020, limited-shelf-life sterility context",
+          "url": "https://www.fda.gov/media/113760/download"
+        },
+        {
+          "label": "FDA: final potency-assurance guidance, November 2026, original document",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "Federal Register notice 2026-22427, published 3 November 2026: Potency Assurance for Cellular and Gene Therapy Products, guidance availability",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        },
+        {
+          "label": "FDA: Potency Assurance (December 2023 draft, historical)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products"
+        }
+      ],
+      "tags": [
+        "supporting"
+      ],
+      "related": [
+        "good-manufacturing-practice",
+        "batch-release"
+      ],
+      "cancers": [],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [
+        "car-t",
+        "closed-automated-cell-manufacturing",
+        "flow-cytometry-mrd"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "charles-river",
+        "becton-dickinson"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "FDA's November 2026 final potency-assurance guidance supersedes its January 2011 potency-tests guidance. Its scope is cellular and gene therapy biological products regulated under section 351 of the U.S. Public Health Service Act. Potency assurance includes process and material controls, in-process evidence, release assays, stability and in-use handling; a release assay alone does not establish the clinical benefit of a particular lot. Federal Register notice 2026-22427, published 3 November 2026, announces the final guidance and finalises the December 2023 draft.",
+        "For CAR T cells, FDA's 2024 guidance recommends identity evidence for the transgene and intended cellular composition. HLA typing alone does not detect the genetic modification or replace chain-of-identity records. Biological identity and the association with the intended recipient are separate checks.",
+        "For an integrating-vector CAR T-cell product, the 2024 guidance describes average vector copy number per CAR-positive cell on the lot certificate of analysis. Including CAR-negative cells in the denominator can understate the value in the modified population. The average does not show insertion locations or clonal distribution. Short processes can retain non-integrated vector copies, so a release measurement may need a later assessment in cultured cells to determine stable integration; the interval is product-specific.",
+        "Replication-competent virus testing, microbial sterility, mycoplasma, endotoxin and engineered-cell identity address different hazards or attributes. The applicable tests, methods and acceptance criteria depend on the product, process and development stage. Detecting a sequence or a receptor does not demonstrate every intended biological activity.",
+        "For ex vivo genetically modified cells administered immediately after manufacture, FDA's 2020 gene-therapy CMC guidance describes an in-process sterility sample taken 48 to 72 hours before final harvest plus a rapid test such as a Gram stain on final product. Under that approach, negative Gram stain and no growth in the in-process test can support release while the final-product culture continues for its full duration, for example 14 days for USP <71>. The guidance calls for a plan addressing a later positive result, clinical management, investigation and reporting to the investigator and FDA. These are scoped recommendations, not universal early-release criteria for every cell product.",
+        "FDA's CAR T-cell examples distinguish activity against each target in a multi-antigen product, production of an added cytokine and a drug-resistance function. Each relevant transgene activity may need suitable evidence. A single expression or cell-count result is not the complete functional package.",
+        "In a fictional 100-cell teaching sample, 80 cells are live and 60 of those live cells express the receptor. Viability is 80/100, receptor positivity among live cells is 60/80, and live receptor-positive cells among all counted cells are 60/100. Receptor status of the nonlive cells is unspecified. These different denominators establish neither potency nor a clinical release cutoff.",
+        "Scope boundary with general release records. This record owns release and potency testing of cell and gene products. General lot disposition, out-of-specification handling and good manufacturing practice are taught in the batch release and good manufacturing practice records; decaying radiopharmaceuticals are in radiopharmaceutical quality and release.",
+        "Potency is relevant biological activity under defined conditions. FDA's November 2026 guidance aims for every released lot to have the ability to achieve the intended therapeutic effect and expects the relationship between a measured attribute and the product's mechanism of action to be supported by characterisation, nonclinical or clinical studies; where the mechanism is not fully understood, a statistical relationship such as a correlation with outcomes may help. Identity, receptor expression and viability do not establish activity.",
+        "Direct and surrogate measures. A direct biological assay measures activity such as target-cell killing; a surrogate measures a related attribute and needs a supported link to function. FDA's January 2011 potency guidance (now superseded) used the term assay matrix for complementary tests. The 2026 guidance recommends developing multiple assays that measure potency-related CQAs early, with redundant assays discontinued later. Many unrelated measurements do not add up to potency.",
+        "Controls, reference material and handling state. Potency protocols should set predefined sample and system suitability criteria, and a run should be invalidated if system suitability fails. Reference material lots should be qualified and monitored for stability. Release assays must use a sample taken after all manufacturing steps that may affect potency, with cryopreservation named as an example, so a test on fresh material does not stand for the final product.",
+        "Reading a killing result. A figure such as 60 per cent killing is not comparable between laboratories unless target identity, effector-to-target ratio and observation time are stated, and relative potency needs a named reference and model. FDA's CAR T guidance describes orthogonal methods such as a cell-killing assay, transduction efficiency and cytokine measurement. No universal passing cutoff applies across products.",
+        "Validation is about the assay, not the drug. The 2026 guidance asks that release assays measure potency with sufficient specificity, accuracy or precision over their reportable range, that performance be established under actual conditions of use, and that phase-appropriate acceptance criteria be set with failing lots rejected. Qualification and validation do not show that a drug improves a clinical endpoint.",
+        "Different questions. Sterility and potency are separate attributes with separate tests, and a passing potency result is a quality finding, not a clinical response rate. Inference lesson: a lot with high viability and receptor expression whose target-specific killing falls below its predefined criterion is not rescued by the two passing tests, and the failure is investigated under the controlled process."
+      ],
+      "principle": "Compendial and validated assays performed on samples of the final product, with defined acceptance criteria in the marketing authorisation.",
+      "strengths": [
+        "Patient safety",
+        "Regulatory clarity"
+      ],
+      "limitations": [
+        "Adds days to delivery",
+        "Potency assays poorly predictive of clinical activity",
+        "Sample volume consumes product"
+      ]
+    },
+    {
+      "id": "binder-discovery",
+      "kind": "term",
+      "name": "Binder discovery",
+      "aka": [
+        "binder discovery",
+        "hybridoma, phage display and yeast display",
+        "AI binder design"
+      ],
+      "tldr": "Researchers find candidate recognition molecules by fusing antibody-making cells with long-lived cells, by displaying candidates on viruses or yeast and keeping those that stick, or by designing proteins on a computer. Each route gives candidates that still have to be made and tested.",
+      "summary": "Four routes to candidate binders are described in primary experiments. In 1976 Köhler and Milstein fused spleen cells from immunised mice with myeloma cells; the hybrid lines grew in culture and about 10 per cent of them showed activity against the sheep red cells used to immunise, so each line had to be tested for what it made. In 1990 McCafferty and colleagues displayed complete antibody variable domains on filamentous phage, showed that the phage bound antigen specifically, and isolated rare phage (one in a million) by affinity chromatography. In 1997 Boder and Wittrup displayed single-chain antibody fragments on yeast and used flow cytometry to compare binding kinetics, selecting a variant with a threefold lower dissociation rate. In 2023 Watson and colleagues designed binders to five targets with the RFdiffusion network, took 95 designs per target, expressed and purified them from E. coli and screened them by single-point biolayer interferometry at 10 micromolar; binding at or above half the maximal response of a positive control counted as success, the overall rate was 19 per cent, and full titrations on a subset of designs showed nanomolar affinities. Each result is a measured interaction under stated laboratory conditions. A selected, enriched or designed sequence is a candidate; the studies do not test activity in cells in a patient, absence of binding to healthy tissue, or clinical benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Köhler and Milstein, 1976: derivation of specific antibody-producing tissue culture and tumor lines by cell fusion",
+          "url": "https://doi.org/10.1002/eji.1830060713"
+        },
+        {
+          "label": "McCafferty et al., 1990: phage antibodies, filamentous phage displaying antibody variable domains",
+          "url": "https://doi.org/10.1038/348552a0"
+        },
+        {
+          "label": "Boder and Wittrup, 1997: yeast surface display for screening combinatorial polypeptide libraries",
+          "url": "https://doi.org/10.1038/nbt0697-553"
+        },
+        {
+          "label": "Watson et al., 2023: de novo design of protein structure and function with RFdiffusion",
+          "url": "https://doi.org/10.1038/s41586-023-06415-8"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "epitope",
+        "de-novo-protein-design",
+        "ai-drug-design"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Sources and depth. The three older papers were read at abstract level only; Watson et al. (2023) was read in open-access full text for the screening method, the 19 per cent success definition and the subset titrations. A computational design counts as a binder only after it is made and measured: in Watson et al. 95 designs per target were screened at 10 micromolar and only designs at or above half the control's maximal response counted, so most tested designs did not meet that criterion, and ranking scores are predictions.",
+        "Enriched is not fully specific. Phage selection recovers rare phage (one in a million in McCafferty et al., 1990) under the conditions used, which favours binding under those conditions and not specificity across all targets. Boder and Wittrup (1997) used quantitative flow cytometry to compare kinetics on yeast; display level and binding strength are separate quantities, and a brighter cell is not automatically a better isolated binder. The display-level point is a general reading rule; the abstract does not describe a separate display measurement.",
+        "Selection against a purified or tagged target can miss the native epitope on cells or select a binder to the tag or an altered preparation, so a hit is retested outside its selection system with target-negative, unrelated-protein and tag controls. This is general experimental practice stated in the source lesson; none of the four primary papers here tests it, and binding to a cancer-associated protein does not show absence of binding to healthy tissue.",
+        "Assay card for a discovery hit. Input and consumption: clones or expressed proteins, defined target preparations and cell controls, with finite aliquots. Output and units: selected sequences, binding curves and assay-specific fluorescence, with a computational rank a different output. Threshold: define a hit relative to assay controls, with no universal therapeutic-binder threshold. Failure modes: display level, enrichment bias, tag binding, aggregation and target preparation. Validation tier: discovery and preclinical interaction evidence, not a clinical prediction."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Biology basics"
+    },
+    {
+      "id": "peptide-synthesis-spps",
+      "kind": "term",
+      "name": "Solid-phase peptide synthesis",
+      "aka": [
+        "SPPS",
+        "peptide synthesis",
+        "Fmoc solid-phase peptide synthesis"
+      ],
+      "tldr": "Peptides are built by holding the growing chain on a solid support and adding one amino acid at a time. Making the chain is a separate step from purifying it, confirming it is the right molecule and releasing it as a medicine.",
+      "summary": "In solid-phase peptide synthesis the growing chain is held on a resin while protected amino acids are added one at a time and soluble reagents are washed away; the finished chain is then cleaved from the resin. Sequence changes how hard this is: peptides rich in aggregation-prone sequences are difficult, and a 2014 report described automated backbone protection that improved handling, quality and yield of several challenging sequences. For personalised cancer vaccines, an automated flow synthesiser made 30-mer peptides in under 35 minutes and 15 to 16-mers in under 20 minutes, with purity comparable to or higher than other methods (Truex et al., 2020). The same paper reports what the earlier route cost: of 598 immunising peptides designed and ordered in earlier studies, 400 (67 per cent) could be synthesised and purified to at least 95 per cent purity, with an average lead time of 18 to 20 weeks for 20 peptides, and a commercial vendor returned 10 of 29 test peptides at more than 95 per cent HPLC purity; these 29 peptides had been deliberately selected because they were particularly difficult and time-consuming to make, rather than as a typical vendor workload. In that paper mass spectrometry of the unpurified peptides showed the desired mass as the main product for all 29, and purity was measured separately by analytical reverse-phase HPLC. Synthesis, purification, identity testing and lot release are separate steps, and a peptide that is made and pure has not been shown to prime T cells or to benefit a patient.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Truex et al., 2020: automated flow synthesis of tumor neoantigen peptides for personalized immunotherapy",
+          "url": "https://doi.org/10.1038/s41598-019-56943-5"
+        },
+        {
+          "label": "Abdel-Aal et al., 2014: automated synthesis of backbone protected peptides",
+          "url": "https://doi.org/10.1039/c4cc03065f"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "neoantigen-mrna-vaccine",
+        "cdmo",
+        "peptide-drug-conjugate"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The cycle, as run in the neoantigen paper. Truex et al. (2020) used Fmoc-based solid-phase synthesis: the C-terminal amino acid was loaded onto a resin, the terminal protecting group was removed (Fmoc removal was followed by UV detection), the next activated protected amino acid was coupled in excess and soluble reagents were washed away, and the cycle repeated. Flow conditions achieved amide-bond coupling in seconds where standard batch methods need minutes to hours. The finished chain was cleaved and lyophilised as a trifluoroacetic acid salt.",
+        "Sequence difficulty. Chain association (aggregation) of growing peptides blocks coupling, and double coupling does not help because the cause is intermolecular association; introducing removable backbone protection improved handling, quality and yield of several challenging sequences (Abdel-Aal et al., 2014). Washing removes soluble material but does not repair a faulty chain. This study did not make every peptide equally easy.",
+        "After cleavage the crude peptide is a mixture needing purification and characterisation, and the synthesiser's last step is not a release decision. In Truex et al. electrospray mass spectrometry of the unpurified products showed the desired mass as the main product for all 29 test peptides, while purity was measured separately by analytical reverse-phase HPLC at 214 nm, with greater than 95 per cent HPLC purity used as the purity criterion. In that deliberately difficult 29-peptide commercial-vendor comparison, 17 peptides were synthesised, 10 passed after purification, and 7 stayed at 89 to 94 per cent even after two or three rounds. The 95 per cent figure is that paper's criterion, not a clinical-release threshold.",
+        "Assay peptides versus the clinical product. The same paper made 15 to 16-mer peptides for immune-assessment assays and longer immunising peptides of up to 30 residues for vaccination, and its authors describe clinical-grade manufacture as something they envision. Making an assay peptide does not show manufacture of a formulated, released vaccine product, and chemical assembly does not select a useful cancer antigen or show benefit. A shorter instrument run does not establish the turnaround of the whole program."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "batch-release",
+      "kind": "term",
+      "name": "Batch release (lot disposition)",
+      "aka": [
+        "batch release",
+        "lot release",
+        "batch disposition"
+      ],
+      "tldr": "Batch release is the documented quality decision about one lot of a product. A set of passing test results supports that decision but is not the same thing, and a released lot has not been shown to help any patient.",
+      "summary": "In the US, drug production and control records are reviewed and approved by the quality control unit before a batch is released or distributed, and any unexplained discrepancy or failure of a batch to meet a specification must be thoroughly investigated whether or not the batch has been distributed (21 CFR 211.192). The decision therefore draws on test results with their methods and acceptance criteria, manufacturing and deviation records, and the identity of the lot and product version; a certificate of analysis can summarise results but does not replace that review. FDA's 2022 guidance on out-of-specification results says the practice of repeating a test until a passing result is obtained and then disregarding the failing results without scientific justification is 'testing into compliance', which it calls unscientific and objectionable under CGMP. That guidance covers chemistry-based laboratory testing; it says it is not intended to address biological assays, so a copied retest procedure cannot be assumed to fit a cell or potency assay. A lot can be released, held pending review or rejected; a result that has not arrived is neither a pass nor a failure. Release of a lot is a quality decision, separate from regulatory authorisation of the product, from a patient's eligibility, and from evidence of clinical benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "21 CFR 211.192: production record review",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.192"
+        },
+        {
+          "label": "FDA: investigating out-of-specification test results for pharmaceutical production (May 2022)",
+          "url": "https://www.fda.gov/media/158416/download"
+        },
+        {
+          "label": "FDA: quality systems approach to pharmaceutical CGMP regulations (September 2006)",
+          "url": "https://www.fda.gov/media/71023/download"
+        },
+        {
+          "label": "21 CFR 211.22",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.22"
+        },
+        {
+          "label": "21 CFR 211.80",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.80"
+        },
+        {
+          "label": "21 CFR 211.84",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.84"
+        },
+        {
+          "label": "21 CFR 211.142",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.142"
+        },
+        {
+          "label": "21 CFR 610.1",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.1"
+        },
+        {
+          "label": "21 CFR 610.2",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.2"
+        },
+        {
+          "label": "FDA: final Potency Assurance for Cellular and Gene Therapy Products (November 2026 PDF)",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "FDA: final potency-assurance guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "Federal Register: final potency-assurance guidance, 3 November 2026",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "good-manufacturing-practice",
+        "cell-therapy-release-testing",
+        "radiopharmaceutical-gmp-release",
+        "car-t-manufacturing-process"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A lot-release decision concerns one identified batch. Good manufacturing practice concerns the quality system; cell and gene products add product-specific biological, identity and handling questions, while radiopharmaceuticals add the constraints of radioactive decay.",
+        "A lot is identified material made under a defined manufacturing record, and a specification connects named tests and methods to acceptance criteria; ICH Q6B defines a specification as a list of tests, references to analytical procedures and acceptance criteria. Release concerns that lot, not the general reputation of its manufacturer.",
+        "What a release review brings together: test results with their methods and criteria, manufacturing and deviation records, lot and version identity, and stability and handling information. In US finished-drug rules the quality control unit reviews and approves production and control records before a batch is released or distributed (21 CFR 211.192). A certificate of analysis may summarise results but does not replace that review.",
+        "Dispositions. FDA's quality-systems guidance describes the quality unit approving or rejecting materials and drug products; US regulations give the quality unit authority to approve or reject materials and drug products (21 CFR 211.22(a)); other provisions describe quarantine or withholding from use while materials or products await release (211.80(d), 211.84(a), 211.142(a)). Hold pending review is a plain-language description of that unresolved disposition. A result that has not arrived is neither a pass nor a failure. Inference lesson: a spreadsheet that reports all tests passed because it lists only completed tests has lost the missingness information; with a required activity result pending, completed release is not established.",
+        "Out-of-specification handling. FDA's May 2022 guidance calls repeated testing until a pass followed by disregarding the failures without scientific justification testing into compliance, which it describes as unscientific and objectionable under CGMP. It asks that the number of retests be set in advance in a procedure and not adjusted according to results, and it contrasts averages: initial 89 then 90 and 91 per cent averages 90 and tends to confirm the failure, while 80 then 85 and 105 also averages 90 but presents a very different picture. Releasing despite an initial failure that has not been invalidated should follow a full investigation. The guidance applies to chemistry-based laboratory testing of drugs regulated by CDER and says it is not intended to address biological assays, so it cannot simply be copied for a cell or potency assay.",
+        "Release is a quality decision. It is separate from regulatory authorisation of the product, a patient's eligibility and evidence of benefit, and a released stamp on a report does not answer those. For US licensed biological products, manufacturer release follows completion of applicable tests under 21 CFR 610.1. Separately, under 610.2 FDA may require samples and protocols and, on notification, bar distribution until the relevant CBER or CDER Director releases the lot. These are distinct manufacturer and official-release steps; this example does not establish other jurisdictions' rules."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "platform-vs-personalized-components",
+      "kind": "term",
+      "name": "Platform and personalised components of a product",
+      "aka": [
+        "platform versus personalised components",
+        "shared and individual product components"
+      ],
+      "tldr": "Some parts of a personalised treatment are reused for every recipient, such as the manufacturing process. Others are chosen for one person, such as the sequence of the vaccine or the person's own cells. Each actual batch still needs to be checked on its own.",
+      "summary": "Individualised products reuse some components and personalise others, and the two need separate evidence. In the phase 1 study of autogene cevumeran in resected pancreatic cancer (Rojas et al., 2023), individual vaccines of up to 20 neoantigens per patient were made in real time as uridine mRNA-lipoplex nanoparticles; 16 patients received atezolizumab and the vaccine, 15 subsequently received mFOLFIRINOX chemotherapy, and new neoantigen-specific T cells were detected in 8 of the 16 patients, and it shows one defined design carrying individual messages, not that all RNA vaccines share a recipe or outcome. In mice, a peptide-TLR-7/8a conjugate platform was built to self-assemble into nanoparticles of uniform size (about 20 nm) whatever the peptide, to address the physicochemical variability of neoantigens (Lynn et al., 2020). For autologous CAR T cells, FDA's 2024 guidance notes variability in the starting cells and recommends maintaining chain of identity from collection to administration, with at least two unique identifiers on labels of autologous products. A shared process and specification can support consistent handling and repeatable testing, but they do not establish that a new sequence or a changed process is equivalent to an earlier one, that a lot made for one recipient can be accepted on another recipient's results, or that the encoded targets are presented and recognised in a patient. 'Platform' here is a descriptive term for reuse, not a regulatory designation.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Rojas et al., 2023: personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer",
+          "url": "https://doi.org/10.1038/s41586-023-06063-y"
+        },
+        {
+          "label": "Lynn et al., 2020: peptide-TLR-7/8a conjugate vaccines chemically programmed for nanoparticle self-assembly",
+          "url": "https://doi.org/10.1038/s41587-019-0390-x"
+        },
+        {
+          "label": "FDA: considerations for the development of CAR T cell products (January 2024)",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "FDA: content and format of chemistry, manufacturing and controls information and establishment description information for a vaccine or related product (January 1999)",
+          "url": "https://www.fda.gov/media/73614/download"
+        },
+        {
+          "label": "FDA: Platform Technology Designation Program for Drug Development (May 2024 draft)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/platform-technology-designation-program-drug-development"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "neoantigen-mrna-vaccine",
+        "car-t-manufacturing-process",
+        "good-manufacturing-practice",
+        "batch-release"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The single question to ask: is this feature deliberately reused across recipients, or selected for this recipient? Personalisation may concern an antigen sequence, a receptor sequence, the person's own cells or a combination, and need not mean that every reagent or step is redesigned. The answer depends on the program.",
+        "Platform is a teaching description of reuse and not a regulatory designation or authorisation. Reuse can support consistent handling, shared process learning and repeatable testing, and the two sides commonly work together; neither wins on efficacy by itself.",
+        "Shared process evidence informs but does not replace lot-level evidence. Inference lesson: if recipients A and B share RNA features and formulation but carry different antigen messages, a lot made for A that passes identity and quality checks does not allow lot B to be accepted; B must match its own specification and meet its own applicable checks, with traceability.",
+        "Different kinds of personalisation. Rojas et al. (2023) made individual mRNA-lipoplex vaccines of up to 20 neoantigens in real time (phase 1: 16 received atezolizumab and vaccine, followed by mFOLFIRINOX in 15). Lynn et al. (2020) built peptide conjugates to self-assemble into nanoparticles of about 20 nm whatever the peptide, to address neoantigen variability in mice. FDA's 2024 CAR T guidance notes variability in starting cells and recommends maintaining chain of identity from collection to administration, with at least two unique identifiers on autologous product labels. An individually selected receptor and an individual's own cells are different personalisation.",
+        "Quality categories. FDA's 1999 vaccine CMC guidance asks for characterisation with respect to identity, purity, potency and stability; it is dated and scoped to vaccine applications, so it illustrates categories and is not a rulebook for every individualised modality. No universal personalised-product cutoff exists. Passing release criteria does not show that antigens were selected correctly, presented naturally or that treatment benefits people.",
+        "The FDA also uses Platform Technology Designation for a separate formal programme under section 506K. Its May 2024 draft guidance describes designation requests and eligibility factors. Shared components or a manufacturing recipe do not by themselves establish that designation; platform in this entry means the described reuse of product components."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "cdmo",
+      "kind": "term",
+      "name": "CDMO (contract development and manufacturing organisation)",
+      "aka": [],
+      "tldr": "A company that makes drugs for other companies. Most ADCs, biologics, and cell therapies are made by a handful of them.",
+      "summary": "A CDMO, or contract development and manufacturing organisation, is a company that makes drugs for other companies, and most ADCs, biologics and cell therapies are made by a handful of them. Capacity, containment for highly potent ADC payloads and regulatory track record at CDMOs such as Lonza, WuXi, Samsung Biologics and Catalent set the timelines for the whole field. Geopolitical measures, notably the US BIOSECURE Act of 2024 to 2025, are reshaping sourcing away from China-based sites. The term is linked to the technologies ADC bioconjugation manufacturing (CDMOs), Viral vector manufacturing (lentiviral, retroviral, AAV) and Sterile fill-finish and lyophilisation, and to the related term BIOSECURE Act. It is referenced by the company records for Lonza and OXB (Oxford Biomedica).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Contract_development_and_manufacturing_organization",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Contract_development_and_manufacturing_organization"
+        },
+        {
+          "label": "FDA: contract manufacturing arrangements for drugs, quality agreements (November 2016)",
+          "url": "https://www.fda.gov/media/86193/download"
+        },
+        {
+          "label": "ICH Q10: pharmaceutical quality system (April 2009), section 2.7",
+          "url": "https://www.fda.gov/media/71553/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "biosecure-act",
+        "binder-discovery",
+        "peptide-synthesis-spps",
+        "batch-release",
+        "platform-vs-personalized-components",
+        "good-manufacturing-practice"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc-cdmo-manufacturing",
+        "viral-vector-manufacturing",
+        "sterile-fill-finish"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Scope must be read from the contract. A partner may develop a process, synthesise a molecule, formulate it, fill vials or run analytical testing, and a service label does not show which of these a contract covers. FDA's November 2016 quality-agreement guidance treats owner and contract facility as both responsible for CGMP and says contract analytical laboratories are covered.",
+        "The agreement assigns activities but cannot contract away responsibilities. FDA states that quality agreements cannot be used to delegate statutory or regulatory CGMP responsibilities. The guidance is written for commercial manufacture and does not explicitly cover investigational material, though FDA believes quality agreements can be valuable in research and development arrangements. ICH Q10 section 2.7 extends the quality system to outsourced activities, with the pharmaceutical company ultimately responsible.",
+        "Handoff inference. A controlled handoff connects the approved design version to materials, records and the resulting lot. If a contractor proposes an edit and supplies a passing identity result on the revised lot, the missing items are the authorised version and approval of the edit, assessment of affected product properties and the full quality package. Identity alone does not show activity, authorisation or benefit, and sharing a contractor does not establish comparability.",
+        "A contractor's experience or a facility's track record does not establish release of a particular lot, and manufacturing acceptance, clinical-program authorisation and efficacy are separate questions."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "good-manufacturing-practice",
+      "kind": "term",
+      "name": "Good manufacturing practice (GMP)",
+      "aka": [
+        "GMP",
+        "current good manufacturing practice"
+      ],
+      "tldr": "Good manufacturing practice is the set of controls over people, materials, equipment, procedures and records that is meant to make each batch of a medicine consistently as it should be. It is a property of how a product is made, not a finding about whether the treatment works.",
+      "summary": "The US Food and Drug Administration describes current good manufacturing practice (CGMP) as systems that assure proper design, monitoring and control of manufacturing processes and facilities, including quality management systems, suitable raw materials, written operating procedures, detection and investigation of deviations, and reliable testing laboratories; the 'C' stands for current, meaning technologies and systems must be up to date. FDA's quality-systems guidance gives a quality unit the job of reviewing procedures, evidence and departures from the intended process. Requirements depend on stage: most phase 1 investigational drugs are exempt from 21 CFR part 211 under 21 CFR 210.2(c), but FDA's 2008 phase 1 guidance applies CGMP under section 501(a)(2)(B) of the Food, Drug, and Cosmetic Act to them, so 'investigational' does not mean quality controls are optional. A passing final test does not close the process question: an unexplained substitution or missing record needs its own documented assessment. GMP concerns how a product is made; the product dossier (chemistry, manufacturing and controls), the decision on one lot (batch release) and clinical evidence answer different questions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: facts about the current good manufacturing practice (CGMP)",
+          "url": "https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practice-cgmp"
+        },
+        {
+          "label": "FDA: quality systems approach to pharmaceutical CGMP regulations (September 2006)",
+          "url": "https://www.fda.gov/media/71023/download"
+        },
+        {
+          "label": "FDA: current good manufacturing practice for phase 1 investigational drugs (July 2008)",
+          "url": "https://www.fda.gov/media/70975/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pharmaceutical-gmp-inspections",
+        "radiopharmaceutical-gmp-release",
+        "cdmo",
+        "batch-release"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Good manufacturing practice concerns the quality system of people, procedures, materials, equipment and records. Batch release concerns the decision about one lot, while cell and gene products require product-specific release and potency evidence. These related questions are not interchangeable.",
+        "GMP combines people, procedures, materials, equipment and records into a working quality system. FDA's CGMP page says it covers quality management systems, quality raw materials, written operating procedures, detection and investigation of deviations and reliable testing laboratories, and that the C stands for current, requiring technologies and systems that are up to date. A clean room is one part of the system and not proof of compliance by itself.",
+        "In-process controls and the final sample. FDA's quality-systems guidance describes quality control as assessing incoming components, in-process materials and finished product and evaluating how the manufacturing process performs. A final sample answers a narrower question about tested material and cannot reconstruct an unrecorded process, so a passing final test does not close the question raised by, for example, an unexplained material substitution.",
+        "The quality unit approves or rejects incoming materials, in-process materials and drug products, reviews production records and investigates unexplained discrepancies. Investigating a deviation asks what happened, which material may be affected and how to prevent recurrence; a missing record and a failed test are different findings that both need an explanation.",
+        "Changes need control, because replacing a supplier or a processing step may alter the product. Q5E-style comparability asks whether relevant quality remains comparable; it does not assume that a familiar product name means unchanged biology.",
+        "Stage. Most phase 1 investigational drugs are exempt from 21 CFR part 211 under 21 CFR 210.2(c), and FDA's 2008 guidance applies CGMP under section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act to them, so investigational does not mean quality controls are optional. GMP supports reliable clinical investigation; it does not show efficacy."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Regulation & policy"
+    }
+  ]
+}

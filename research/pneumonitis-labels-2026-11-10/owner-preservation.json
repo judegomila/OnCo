@@ -1,0 +1,12 @@
+{
+  "beforeHead": "bb5efeb81d773b2bea2c065a2c7b3a9d4e8e8992",
+  "graphCountBefore": 22784,
+  "graphCountAfter": 22784,
+  "changedIds": [
+    "pneumonitis"
+  ],
+  "newIds": [],
+  "removedIds": [],
+  "otherOwnersUnchanged": 22783,
+  "expectedRecordMatches": true
+}

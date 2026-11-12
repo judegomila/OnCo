@@ -1,0 +1,86 @@
+{
+  "dataCommit": "bf8aea4de6de35b06dc1b4ba0eac66474aa12904",
+  "graphRecords": 23084,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 10.91
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 28.85
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.94
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 305.88
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 13,
+    "warningFilesUnchanged": true
+  },
+  "readers": 18,
+  "exactFieldReferences": 231,
+  "paragraphsAcrossReferencedFieldsChecked": 85,
+  "rootExactEntityJSON": 18,
+  "rootMarkdownPassages": 113,
+  "openAPI": true,
+  "dedupeExitCode": 0,
+  "summaryStates": 162,
+  "availableTexts": 16,
+  "EnglishFallbacks": 146,
+  "withdrawnStaleTranslations": 48,
+  "correctedSimpleEnglishEntries": 6,
+  "namedReviewsChanged": 0,
+  "acceptedLongCaches": 0,
+  "secretScan": {
+    "files": [
+      "CORRECTIONS.md",
+      "src/data/education-effect-reasoning-2026-11.ts",
+      "src/data/education-study-prediction-2026-11.ts",
+      "src/data/i18n/ar.ts",
+      "src/data/i18n/de.ts",
+      "src/data/i18n/es.ts",
+      "src/data/i18n/fr.ts",
+      "src/data/i18n/hi.ts",
+      "src/data/i18n/ja.ts",
+      "src/data/i18n/pt.ts",
+      "src/data/i18n/zh.ts",
+      "src/data/simple/part-b.ts",
+      "src/data/simple/part-j.ts",
+      "src/data/spikes/tnbc-treatment.ts",
+      "src/data/terms-basics.ts",
+      "src/data/terms-jargon.ts",
+      "src/data/terms.ts",
+      "src/data/trial-design-wave.ts",
+      "src/data/trials.ts"
+    ],
+    "diffBytes": 205579,
+    "exitCode": 0,
+    "findings": 0,
+    "unchangedCodeSinceFinalGates": true,
+    "correctionsLogAddedAfterGates": "Documentation only; no gated code bytes changed.",
+    "rulesOrAllowlistsChanged": false
+  },
+  "floorsBudgetsSchemaAndFrozenDenominatorsChanged": false,
+  "zeroChangeReplay": "Recorded separately after deterministic regeneration."
+}

@@ -1,0 +1,42 @@
+{
+  "checkedOn": "2026-11-09",
+  "items": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes.md",
+      "sourceSha256": "22d155b8e91b3670dede243e28a2a0211ab8ee2fe043e9e87a1b0edc331411d5",
+      "sectionsRead": 11,
+      "teachingSha256": "2b528607afca085e0cf345d060999fa53a3ee80e9e6e817d600492d414ea7152",
+      "metadataSha256": "8860a4a25db29585f98d8789ee276b45f00fb9395af8717b91c5c0bc5cb357cd",
+      "requirements": 7
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype.md",
+      "sourceSha256": "0728331e7ab67992bf14127af992457b87396f9cd4a1f8ab31da1757f25f8475",
+      "sectionsRead": 12,
+      "teachingSha256": "a5bca006991809bf8c7c94c1aaed4a7f7b9d13b03aa658fc3aa8c63b11c59aa2",
+      "metadataSha256": "19927096f8b450e82336f4b09a8c5186ad156237a5df2d71293d1c2e312211a2",
+      "requirements": 6
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/tnbc-molecular-subtypes.md",
+      "sourceSha256": "22d155b8e91b3670dede243e28a2a0211ab8ee2fe043e9e87a1b0edc331411d5",
+      "sectionsRead": 11,
+      "teachingSha256": "2b528607afca085e0cf345d060999fa53a3ee80e9e6e817d600492d414ea7152",
+      "metadataSha256": "8860a4a25db29585f98d8789ee276b45f00fb9395af8717b91c5c0bc5cb357cd",
+      "requirements": 7
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/intrinsic-subtype.md",
+      "sourceSha256": "de349f6ad6baba7e8af672a65f45bae868f5bba88de77d8692e53697debec611",
+      "sectionsRead": 12,
+      "teachingSha256": "a5bca006991809bf8c7c94c1aaed4a7f7b9d13b03aa658fc3aa8c63b11c59aa2",
+      "metadataSha256": "19927096f8b450e82336f4b09a8c5186ad156237a5df2d71293d1c2e312211a2",
+      "requirements": 6
+    }
+  ],
+  "countsAcrossVersionsMustNotBeAdded": true
+}

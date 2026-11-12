@@ -1,0 +1,1286 @@
+{
+  "inheritedSources": [
+    {
+      "id": "pmid-10536153",
+      "title": "Analysis of chemical modification of RNA from formalin-fixed samples and optimization of molecular biology applications for such samples.",
+      "authors": "Masuda N, Ohnishi T, Kawamoto S, Monden M, Okubo K.",
+      "year": "1999",
+      "doi": "10.1093/nar/27.22.4436",
+      "pmid": "10536153",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10536153/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Experimental formalin-RNA modification and amplification study; extraction is not viability restoration.",
+      "rawCaptureSha256": "981d61653ad9370c28b4740b9b43d259d2167a3b492ea3940dacc1ecd57ab271",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-20361254",
+      "title": "Tumor-stroma ratio in the primary tumor is a prognostic factor in early breast cancer patients, especially in triple-negative carcinoma patients.",
+      "authors": "de Kruijf EM, van Nes JG, van de Velde CJ, Putter H, Smit VT, Liefers GJ, Kuppen PJ, Tollenaar RA, Mesker WE.",
+      "year": "2011",
+      "doi": "10.1007/s10549-010-0855-6",
+      "pmid": "20361254",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20361254/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "574 early breast cancers treated surgically 1985-1994; TNBC subgroup prognosis, not a randomised treatment interaction.",
+      "rawCaptureSha256": "a2d26cc96e02e62c14c575bb57b5d909e127fa44bfe3b0f194917ef4764562ff",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-20837533",
+      "title": "Allele-specific copy number analysis of tumors.",
+      "authors": "Van Loo P, Nordgard SH, Lingjærde OC, Russnes HG, Rye IH, Sun W, Weigman VJ, Marynen P, Zetterberg A, Naume B, Perou CM, Børresen-Dale AL, Kristensen VN.",
+      "year": "2010",
+      "doi": "10.1073/pnas.1009843107",
+      "pmid": "20837533",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20837533/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "ASCAT in early breast cancer; allele-specific copy number plus admixture/ploidy estimation, not direct single-cell counts.",
+      "rawCaptureSha256": "fbf04a04ea0484394070ec2e1c5be1c92fba97b24873f524509ab255148c5c08",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-21356829",
+      "title": "Hematoxylin and eosin staining of tissue and cell sections.",
+      "authors": "Fischer AH, Jacobson KA, Rose J, Zeller R.",
+      "year": "2008",
+      "doi": "10.1101/pdb.prot4986",
+      "pmid": "21356829",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21356829/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Primary H&E protocol; broad stain chemistry and morphology, not gene-specific detection.",
+      "rawCaptureSha256": "6b8daef911e1622f67a9bc09098ddf67e971bce4dcfb8767040b2f19472e264e",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-22264965",
+      "title": "The prognostic value of tumour-stroma ratio in triple-negative breast cancer.",
+      "authors": "Moorman AM, Vink R, Heijmans HJ, van der Palen J, Kouwenhoven EA.",
+      "year": "2012",
+      "doi": "10.1016/j.ejso.2012.01.002",
+      "pmid": "22264965",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22264965/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Retrospective 124-person TNBC cohort; >=50% boundary differs from UNITED >50%.",
+      "rawCaptureSha256": "6248209c071b723b52da5c602a9ba78642347ba74ec192c0e998a2e724e31b78",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-22544022",
+      "title": "Absolute quantification of somatic DNA alterations in human cancer.",
+      "authors": "Carter SL, Cibulskis K, Helman E, McKenna A, Shen H, Zack T, Laird PW, Onofrio RC, Winckler W, Weir BA, Beroukhim R, Pellman D, Levine DA, Lander ES, Meyerson M, Getz G.",
+      "year": "2012",
+      "doi": "10.1038/nbt.2203",
+      "pmid": "22544022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "ABSOLUTE statistical inference, subclonality and sensitivity; no personal fit generated here.",
+      "rawCaptureSha256": "9ba74998fbf0c7eb20088121cf67c70c1e22901f7a635114a6dd6701d6baea84",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-22933060",
+      "title": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation.",
+      "authors": "Popova T, Manié E, Rieunier G, Caux-Moncoutier V, Tirapo C, Dubois T, Delattre O, Sigal-Zafrani B, Bollet M, Longy M, Houdayer C, Sastre-Garau X, Vincent-Salomon A, Stoppa-Lyonnet D, Stern MH.",
+      "year": "2012",
+      "doi": "10.1158/0008-5472.can-12-1470",
+      "pmid": "22933060",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Basal-like breast array study with ploidy-specific LST cutoffs; full methods access failed and no numerical cutoffs beyond abstract adopted.",
+      "rawCaptureSha256": "448c25f69870f8a40692fce9d34569203b945ffe2d5c3126f616638d15b8da4b",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-23709090",
+      "title": "Prognostic significance of the tumor-stroma ratio: validation study in node-negative premenopausal breast cancer patients from the EORTC perioperative chemotherapy (POP) trial (10854).",
+      "authors": "Dekker TJ, van de Velde CJ, van Pelt GW, Kroep JR, Julien JP, Smit VT, Tollenaar RA, Mesker WE.",
+      "year": "2013",
+      "doi": "10.1007/s10549-013-2571-5",
+      "pmid": "23709090",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23709090/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Node-negative premenopausal POP trial subset; retrospective tissue prognostic analysis.",
+      "rawCaptureSha256": "89674a5b60c74a1fecf99f298540fe677751aa1cfae4928ab30d0cffa6db5b59",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-23887293",
+      "title": "The estimation of tumor cell percentage for molecular testing by pathologists is not accurate.",
+      "authors": "Smits AJ, Kummer JA, de Bruin PC, Bol M, van den Tweel JG, Seldenrijk KA, Willems SM, Offerhaus GJ, de Weger RA, van Diest PJ, Vink A.",
+      "year": "2014",
+      "doi": "10.1038/modpathol.2013.134",
+      "pmid": "23887293",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23887293/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Nine observers, 47 lung slides, manually counted reference; organ/study-specific observer variation.",
+      "rawCaptureSha256": "a3f5c36ccf43bbd7d5231b1d8972b17c28bb10a97c97e07246e1d8682c21d56a",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-26957554",
+      "title": "Homologous Recombination Deficiency (HRD) Score Predicts Response to Platinum-Containing Neoadjuvant Chemotherapy in Patients with Triple-Negative Breast Cancer.",
+      "authors": "Telli ML, Timms KM, Reid J, Hennessy B, Mills GB, Jensen KC, Szallasi Z, Barry WT, Winer EP, Tung NM, Isakoff SJ, Ryan PD, Greene-Colozzi A, Gutin A, Sangale Z, Iliev D, Neff C, Abkevich V, Jones JT, Lanchbury JS, Hartman AR, Garber JE, Ford JM, Silver DP, Richardson AL.",
+      "year": "2016",
+      "doi": "10.1158/1078-0432.ccr-15-2477",
+      "pmid": "26957554",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26957554/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Three platinum-containing neoadjuvant TNBC cohorts; combined scar score >=42 or BRCA mutation definition. Not evidence of a universal contemporary threshold.",
+      "rawCaptureSha256": "90368a17fa6a0dc329e7816c9d5c7fede179b323cc0c4723647802c65524ebec",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-29024776",
+      "title": "Update on tumor-infiltrating lymphocytes (TILs) in breast cancer, including recommendations to assess TILs in residual disease after neoadjuvant therapy and in carcinoma in situ: A report of the International Immuno-Oncology Biomarker Working Group on Breast Cancer.",
+      "authors": "Dieci MV, Radosevic-Robin N, Fineberg S, van den Eynden G, Ternes N, Penault-Llorca F, Pruneri G, D'Alfonso TM, Demaria S, Castaneda C, Sanchez J, Badve S, Michiels S, Bossuyt V, Rojo F, Singh B, Nielsen T, Viale G, Kim SR, Hewitt S, Wienert S, Loibl S, Rimm D, Symmans F, Denkert C, Adams S, Loi S, Salgado R, International Immuno-Oncology Biomarker Working Group on Breast Cancer.",
+      "year": "2018",
+      "doi": "10.1016/j.semcancer.2017.10.003",
+      "pmid": "29024776",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29024776/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Working Group consensus guidance for residual disease and DCIS; not a therapeutic outcome study.",
+      "rawCaptureSha256": "95fc170239dc7270ec96de35ec3d1fc987d697e3c692f5c030f621bd68d8b394",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-29233559",
+      "title": "Tumour-infiltrating lymphocytes and prognosis in different subtypes of breast cancer: a pooled analysis of 3771 patients treated with neoadjuvant therapy.",
+      "authors": "Denkert C, von Minckwitz G, Darb-Esfahani S, Lederer B, Heppner BI, Weber KE, Budczies J, Huober J, Klauschen F, Furlanetto J, Schmitt WD, Blohmer JU, Karn T, Pfitzner BM, Kümmel S, Engels K, Schneeweiss A, Hartmann A, Noske A, Fasching PA, Jackisch C, van Mackelenbergh M, Sinn P, Schem C, Hanusch C, Untch M, Loibl S.",
+      "year": "2018",
+      "doi": "10.1016/s1470-2045(17)30904-x",
+      "pmid": "29233559",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29233559/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "3771 neoadjuvant cases, including 906 TNBC; subgroup pCR associations, not a universal immune-treatment cutoff.",
+      "rawCaptureSha256": "5bef340c7bd5f710ac660a76be03e9c2632a3f0f1441f255d319d140cf854e95",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30013179",
+      "title": "Genome doubling shapes the evolution and prognosis of advanced cancers.",
+      "authors": "Bielski CM, Zehir A, Penson AV, Donoghue MTA, Chatila W, Armenia J, Chang MT, Schram AM, Jonsson P, Bandlamudi C, Razavi P, Iyer G, Robson ME, Stadler ZK, Schultz N, Baselga J, Solit DB, Hyman DM, Berger MF, Taylor BS.",
+      "year": "2018",
+      "doi": "10.1038/s41588-018-0165-1",
+      "pmid": "30013179",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30013179/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Nearly 30% WGD among 9692 advanced cancers; different cohort from early breast ASCAT.",
+      "rawCaptureSha256": "b310ff23f8eeaf1ef2b1d11786cef86a4805ab1215676b2064367d5e3264cb18",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30302588",
+      "title": "The prognostic value of tumour-stroma ratio in primary breast cancer with special attention to triple-negative tumours: a review.",
+      "authors": "Kramer CJH, Vangangelt KMH, van Pelt GW, Dekker TJA, Tollenaar RAEM, Mesker WE.",
+      "year": "2019",
+      "doi": "10.1007/s10549-018-4987-4",
+      "pmid": "30302588",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30302588/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "Review; 2018 online/2019 print; prospective validation statement is historical, not a verified 2026 guideline census.",
+      "rawCaptureSha256": "3ed735bc0db516269535ee0ce99833afef277bd1c87a4b78e2b344ebf3a67b5c",
+      "fullTextSha256": "f523f802c48f49ba01dd19d4ae0482601e213f4f59423b4ea42620a58dd58b49",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30345906",
+      "title": "Atezolizumab and Nab-Paclitaxel in Advanced Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Adams S, Rugo HS, Schneeweiss A, Barrios CH, Iwata H, Diéras V, Hegg R, Im SA, Shaw Wright G, Henschel V, Molinero L, Chui SY, Funke R, Husain A, Winer EP, Loi S, Emens LA, IMpassion130 Trial Investigators.",
+      "year": "2018",
+      "doi": "10.1056/nejmoa1809615",
+      "pmid": "30345906",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30345906/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "IMpassion130 randomised advanced TNBC combination study; label history now withdrawn in US.",
+      "rawCaptureSha256": "7234a9dfd020393830ac7e593e229fdd666cc8b16f73a3999086782559cee333",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30550791",
+      "title": "Organoid Modeling of the Tumor Immune Microenvironment.",
+      "authors": "Neal JT, Li X, Zhu J, Giangarra V, Grzeskowiak CL, Ju J, Liu IH, Chiou SH, Salahudeen AA, Smith AR, Deutsch BC, Liao L, Zemek AJ, Zhao F, Karlsson K, Schultz LM, Metzner TJ, Nadauld LD, Tseng YY, Alkhairy S, Oh C, Keskula P, Mendoza-Villanueva D, De La Vega FM, Kunz PL, Liao JC, Leppert JT, Sunwoo JB, Sabatti C, Boehm JS, Hahn WC, Zheng GXY, Davis MM, Kuo CJ.",
+      "year": "2018",
+      "doi": "10.1016/j.cell.2018.11.021",
+      "pmid": "30550791",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30550791/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Air-liquid interface organoids in defined experimental models; culture success does not recreate original specimen or validate every functional assay.",
+      "rawCaptureSha256": "38912486b4c885774daf37b20ab64b8b97558b86d450f859b1edde09d6624321",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30650045",
+      "title": "Tumor-Infiltrating Lymphocytes and Prognosis: A Pooled Individual Patient Analysis of Early-Stage Triple-Negative Breast Cancers.",
+      "authors": "Loi S, Drubay D, Adams S, Pruneri G, Francis PA, Lacroix-Triki M, Joensuu H, Dieci MV, Badve S, Demaria S, Gray R, Munzone E, Lemonnier J, Sotiriou C, Piccart MJ, Kellokumpu-Lehtinen PL, Vingiani A, Gray K, Andre F, Denkert C, Salgado R, Michiels S.",
+      "year": "2019",
+      "doi": "10.1200/jco.18.01010",
+      "pmid": "30650045",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30650045/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "2148 early TNBC patients, anthracycline chemotherapy +/- taxanes; adjusted prognostic association per 10 percentage points, not pembrolizumab interaction.",
+      "rawCaptureSha256": "2c1115f0bb72fc438134a427c276d5af6620ad133bac0a3d0541403aefe80902",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-31768066",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "authors": "Razavi P, Li BT, Brown DN, Jung B, Hubbell E, Shen R, Abida W, Juluru K, De Bruijn I, Hou C, Venn O, Lim R, Anand A, Maddala T, Gnerre S, Vijaya Satya R, Liu Q, Shen L, Eattock N, Yue J, Blocker AW, Lee M, Sehnert A, Xu H, Hall MP, Santiago-Zayas A, Novotny WF, Isbell JM, Rusch VW, Plitas G, Heerdt AS, Ladanyi M, Hyman DM, Jones DR, Morrow M, Riely GJ, Scher HI, Rudin CM, Robson ME, Diaz LA, Solit DB, Aravanis AM, Reis-Filho JS.",
+      "year": "2019",
+      "doi": "10.1038/s41591-019-0652-7",
+      "pmid": "31768066",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Matched plasma,WBC and tissue in124 metastatic cancer patients and47 controls; supports blood-cell-origin possibility, not universal correction.",
+      "rawCaptureSha256": "89fa99dbffbafa6b094dcf1231cdf5261d4528ef43055a507be9daf9aa689018",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-32300181",
+      "title": "Prospective multi-institutional evaluation of pathologist assessment of PD-L1 assays for patient selection in triple negative breast cancer.",
+      "authors": "Reisenbichler ES, Han G, Bellizzi A, Bossuyt V, Brock J, Cole K, Fadare O, Hameed O, Hanley K, Harrison BT, Kuba MG, Ly A, Miller D, Podoll M, Roden AC, Singh K, Sanders MA, Wei S, Wen H, Pelekanou V, Yaghoobi V, Ahmed F, Pusztai L, Rimm DL.",
+      "year": "2020",
+      "doi": "10.1038/s41379-020-0544-x",
+      "pmid": "32300181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32300181/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "19 pathologists, TNBC IC scoring; observer agreement percentages not accuracy or individual correction.",
+      "rawCaptureSha256": "9fcb5ffd7401004a734773b4e4bb3250b2e5f82d491c6fab551ee907d0de6e58",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-32657944",
+      "title": "Diagnosing Pathologic Complete Response in the Breast After Neoadjuvant Systemic Treatment of Breast Cancer Patients by Minimal Invasive Biopsy: Oral Presentation at the San Antonio Breast Cancer Symposium on Friday, December 13, 2019, Program Number GS5-03.",
+      "authors": "Heil J, Pfob A, Sinn HP, Rauch G, Bach P, Thomas B, Schaefgen B, Kuemmel S, Reimer T, Hahn M, Thill M, Blohmer JU, Hackmann J, Malter W, Bekes I, Friedrichs K, Wojcinski S, Joos S, Paepke S, Ditsch N, Rody A, Große R, van Mackelenbergh M, Reinisch M, Karsten M, Golatta M, RESPONDER Investigators.",
+      "year": "2022",
+      "doi": "10.1097/sla.0000000000004246",
+      "pmid": "32657944",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "452 enrolled, 398 analysed, 208 residual cancers; 37 false negatives. Gauge and imaging refinements exploratory.",
+      "rawCaptureSha256": "025a0d3251e3ecc97eba540963e74a2407eb200c6f29f7cd6e9cfa44e334814f",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-34097070",
+      "title": "PD-L1 Immunohistochemistry Assay Comparison in Atezolizumab Plus nab-Paclitaxel-Treated Advanced Triple-Negative Breast Cancer.",
+      "authors": "Rugo HS, Loi S, Adams S, Schmid P, Schneeweiss A, Barrios CH, Iwata H, Diéras V, Winer EP, Kockx MM, Peeters D, Chui SY, Lin JC, Nguyen-Duc A, Viale G, Molinero L, Emens LA.",
+      "year": "2021",
+      "doi": "10.1093/jnci/djab108",
+      "pmid": "34097070",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34097070/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "614 IMpassion130 samples, analytical IC comparison and associated outcomes; no inter-assay equivalence.",
+      "rawCaptureSha256": "fa674da973e53bf9c842a7c86d005211c914f414c037c439c2710112fbd80c1e",
+      "fullTextSha256": "5a28082970a5a26625a9dc3d59c9d3ac33ef43c10aea39fdd44e8580595198df",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-35857659",
+      "title": "Pembrolizumab plus Chemotherapy in Advanced Triple-Negative Breast Cancer.",
+      "authors": "Cortes J, Rugo HS, Cescon DW, Im SA, Yusof MM, Gallardo C, Lipatov O, Barrios CH, Perez-Garcia J, Iwata H, Masuda N, Torregroza Otero M, Gokmen E, Loi S, Guo Z, Zhou X, Karantza V, Pan W, Schmid P, KEYNOTE-355 Investigators.",
+      "year": "2022",
+      "doi": "10.1056/nejmoa2202809",
+      "pmid": "35857659",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "847 randomised advanced TNBC patients, prespecified CPS groups; survival advantage of combination in CPS>=10, not monotherapy.",
+      "rawCaptureSha256": "d13502c298be2d9e144b495f905a348cb0bb71979cae9220c90691e1d5d22eab",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-35869577",
+      "title": "Performance of breast fine needle aspiration as an initial diagnostic tool: A large academic hospital experience.",
+      "authors": "Chen Z, Salibay C, Elatre W, Naritoku WY, Ma Y, Martin SE, Wang T.",
+      "year": "2022",
+      "doi": "10.1111/cyt.13171",
+      "pmid": "35869577",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35869577/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Institutional retrospective breast FNA study; performance values not adopted because generic lesson needs preparation limits rather than universal accuracy.",
+      "rawCaptureSha256": "80b57cb34a44ebb5ccc3a0453a4bdb11264e38cd0ce7614eee0535417cb586e6",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-36306810",
+      "title": "Eliminating breast surgery for invasive breast cancer in exceptional responders to neoadjuvant systemic therapy: a multicentre, single-arm, phase 2 trial.",
+      "authors": "Kuerer HM, Smith BD, Krishnamurthy S, Yang WT, Valero V, Shen Y, Lin H, Lucci A, Boughey JC, White RL, Diego EJ, Rauch GM, Exceptional Responders Clinical Trials Group.",
+      "year": "2022",
+      "doi": "10.1016/s1470-2045(22)00613-1",
+      "pmid": "36306810",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "2022 report of NCT02945579: 50 enrolled,31 selected without surgery, median26.4mo; not independent from 2025 update.",
+      "rawCaptureSha256": "31891c7295005de6d31dd328ada8c59392c326f536f2ff8247ff23e00ebbdc4b",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-38613913",
+      "title": "Results from the UNITED study: a multicenter study validating the prognostic effect of the tumor-stroma ratio in colon cancer.",
+      "authors": "Polack M, Smit MA, van Pelt GW, Roodvoets AGH, Meershoek-Klein Kranenbarg E, Putter H, Gelderblom H, Crobach ASLP, Terpstra V, Petrushevska G, Gašljević G, Kjær-Frifeldt S, de Cuba EMV, Bulkmans NWJ, Vink GR, Al Dieri R, Tollenaar RAEM, van Krieken JHJM, Mesker WE, UNITED Collaboration.",
+      "year": "2024",
+      "doi": "10.1016/j.esmoop.2024.102988",
+      "pmid": "38613913",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38613913/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "Prospective multicentre stage II/III colon prognostic validation; no randomised TSR-directed drug comparison.",
+      "rawCaptureSha256": "2d77b66ccdec40feb7397d7f2951175b60473b0d9478ce78681e640ae6f0cc4c",
+      "fullTextSha256": "614d38b46173294854741d0d8b1f3987ba2c1ced8e0cbff98b85f5458f7b9133",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-40152443",
+      "title": "Selective Elimination of Breast Surgery for Invasive Breast Cancer: A Nonrandomized Clinical Trial.",
+      "authors": "Kuerer HM, Valero V, Smith BD, Krishnamurthy S, Diego EJ, Johnson HM, Lin H, Shen Y, Lucci A, Shaitelman SF, Mitchell MP, Boughey JC, White RL, Hunt KK, Yang WT, Rauch GM, Exceptional Responders Study Group.",
+      "year": "2025",
+      "doi": "10.1001/jamaoncol.2025.0207",
+      "pmid": "40152443",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "2025 update of same single-arm omission cohort, median55.4mo; initially node-positive patients still had targeted axillary surgery.",
+      "rawCaptureSha256": "1d14d9c4cb71956a333bc88c2514fe740cf161d0dda97a78cc333bd325b80565",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-33026457",
+      "title": "Accuracy of Post-Neoadjuvant Chemotherapy Image-Guided Breast Biopsy to Predict Residual Cancer.",
+      "authors": "Tasoulis MK, Lee HB, Yang W, Pope R, Krishnamurthy S, Kim SY, Cho N, Teoh V, Rauch GM, Smith BD, Valero V, Mohammed K, Han W, MacNeill F, Kuerer HM.",
+      "year": "2020",
+      "doi": "10.1001/jamasurg.2020.4103",
+      "pmid": "33026457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33026457/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "166 pooled diagnostic patients, surgical reference; 159 representative biopsies and selected 76-person subgroup. Confidence limits retained.",
+      "rawCaptureSha256": "7a468e1b441ebfa2511cb36f8d9894c0ac54e339d5f2fa79cc27ff2a6ef8841a",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-40332918",
+      "title": "Breast Tumor-Bed Biopsy for Pathological Complete Response Prediction: The NRG-BR005 Nonrandomized Clinical Trial.",
+      "authors": "Basik M, Cecchini RS, De Los Santos JF, Umphrey HR, Julian TB, Mamounas EP, White JR, Lucas PC, Balanoff CR, Tan AR, Weber JJ, Edmonson DA, Brown-Glaberman UA, Diego EJ, Teshome M, Matsen CB, Seaward SA, Wapnir IL, Wagner JL, Tjoe JA, Thompson AM, Wolmark N.",
+      "year": "2025",
+      "doi": "10.1001/jamasurg.2025.1072",
+      "pmid": "40332918",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "101 evaluable clinical/imaging responders; breast pCR excludes invasive and DCIS. Corrected central eligibility 62/101; no general omission rule.",
+      "rawCaptureSha256": "be95b26f75b8539c2ca538711a2ff8e00a964212ebb63d6b938fbe0c8d8d8205",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-41468683",
+      "title": "Automating tumor-stroma ratio quantification in colon cancer patients from the UNITED study.",
+      "authors": "Heilijgers F, Polack M, Roodvoets AGH, Meershoek-Klein Kranenbarg E, Peeters KCMJ, Buettner R, Tolkach Y, Mesker WE, UNITED Collaboration.",
+      "year": "2026",
+      "doi": "10.1016/j.esmoop.2025.105934",
+      "pmid": "41468683",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41468683/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "853 untreated stage II/III colon cancers from UNITED; 1-mm ROI and 77% derived automated cutoff, not visual-score interchangeability.",
+      "rawCaptureSha256": "361f5b4f174c9263640b998a842b97a213b5443d04dc0c7ced779fc4ceabaa2a",
+      "fullTextSha256": "e8a8cc0bd0cf508ca1d18264542cc7bfe3c5f96d6f6888a49da86eaa0c02e319",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-22461641",
+      "title": "Colocalization of inflammatory response with B7-h1 expression in human melanocytic lesions supports an adaptive resistance mechanism of immune escape.",
+      "authors": "Taube JM, Anders RA, Young GD, Xu H, Sharma R, McMiller TL, Chen S, Klein AP, Pardoll DM, Topalian SL, Chen L.",
+      "year": "2012",
+      "doi": "10.1126/scitranslmed.3003689",
+      "pmid": "22461641",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22461641/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Human melanocytic lesions; PD-L1/TIL colocalisation and IFN gamma mechanism, not a quantitative rule in breast cancer.",
+      "rawCaptureSha256": "56b0dc0594c9e58c3bec4278c6ff868a43f55e64adc07abe9e21a1da8c07323e",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-31059554",
+      "title": "Robustness of RNA sequencing on older formalin-fixed paraffin-embedded tissue from high-grade ovarian serous adenocarcinomas.",
+      "authors": "Zhao Y, Mehta M, Walton A, Talsania K, Levin Y, Shetty J, Gillanders EM, Tran B, Carrick DM.",
+      "year": "2019",
+      "doi": "10.1371/journal.pone.0216050",
+      "pmid": "31059554",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31059554/",
+      "readingDepth": "complete raw MED abstract",
+      "scope": "Older FFPE high-grade ovarian serous cancers7-32years; fragmentation, contamination and library recovery, not universal kit thresholds.",
+      "rawCaptureSha256": "a8c5a26a2db04a459ade8fd5948657365437c98d624f7db1ca5882340742229f",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-16448564",
+      "title": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+      "authors": "Schroeder A, Mueller O, Stocker S, Salowsky R, Leiber M, Gassmann M, Lightfoot S, Menzel W, Granzow M, Ragg T.",
+      "year": "2006",
+      "doi": "10.1186/1471-2199-7-3",
+      "pmid": "16448564",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16448564/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "Original RIN model; multiple electropherogram features, trained scale, not percent intact mRNA.",
+      "rawCaptureSha256": "2e58ee619f9f217359261365785eee5de41a373b53798d2b3392e3cc39afb8e0",
+      "fullTextSha256": "ebb98e7c50351229e1d942eca3838100ebc77f9e93a7d377c42f0a458ec655fe",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-22034635",
+      "title": "Effects of tissue handling on RNA integrity and microarray measurements from resected breast cancers.",
+      "authors": "Hatzis C, Sun H, Yao H, Hubbard RE, Meric-Bernstam F, Babiera GV, Wu Y, Pusztai L, Symmans WF.",
+      "year": "2011",
+      "doi": "10.1093/jnci/djr438",
+      "pmid": "22034635",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22034635/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "17 resected breast tumours; handling effects on RNA metrics and microarray expression differ. No universal allowable delay adopted.",
+      "rawCaptureSha256": "7e4e7c3d4ab94636db51127cde321361b9fbf98c9553816da95489fb3a12b0bd",
+      "fullTextSha256": "cc992a8db0067edc70f90268106de9616ba15f19756a2277cf9dcec303da3bd0",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-23329232",
+      "title": "Astronomical algorithms for automated analysis of tissue protein expression in breast cancer.",
+      "authors": "Ali HR, Irwin M, Morris L, Dawson SJ, Blows FM, Provenzano E, Mahler-Araujo B, Pharoah PD, Walton NA, Brenton JD, Caldas C.",
+      "year": "2013",
+      "doi": "10.1038/bjc.2012.558",
+      "pmid": "23329232",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23329232/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "Primary digital IHC validation with protocol-specific Table2; supports named scoring conventions, not modern generic treatment thresholds.",
+      "rawCaptureSha256": "7d302d841d96ed2dbeaece5042df50c7c699a0851b698e283451cf7812785694",
+      "fullTextSha256": "e02c1209b19ba1256dc627a974004469f948f982ad80287593acb340aefa17e0",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "pmid-30030621",
+      "title": "Scoring the tumor-stroma ratio in colon cancer: procedure and recommendations.",
+      "authors": "van Pelt GW, Kjær-Frifeldt S, van Krieken JHJM, Al Dieri R, Morreau H, Tollenaar RAEM, Sørensen FB, Mesker WE.",
+      "year": "2018",
+      "doi": "10.1007/s00428-018-2408-z",
+      "pmid": "30030621",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30030621/",
+      "readingDepth": "raw abstract plus relevant full-text methods/results",
+      "scope": "Colon visual TSR procedure/recommendations; field eligibility, 10% steps and exclusions are method-specific.",
+      "rawCaptureSha256": "f0be274575a097b1c7672133f10c85a212ac43f6e9cd2c7ff9f645f0b7b00c33",
+      "fullTextSha256": "f27835b1cdf4980b57702d11f3b6e1f64b40edc648c01655e8d92aa47506b2a0",
+      "identityAssessment": "Resolved MED identity compared with cited author, title and year; publication-year differences retained."
+    },
+    {
+      "id": "nci-biospecimens",
+      "title": "Biospecimen & Biorepository Basics - NCI",
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/basics",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "38bd219eb989ff812d8cca863e36d83a67acbcd7c1c82cae0c49a14ed1ab953e"
+    },
+    {
+      "id": "nci-snap-freeze",
+      "title": "NCI Biospecimen Evidence-                     SNAP-FREEZING OF POST-SURGICAL TISSUE",
+      "url": "https://dctd.cancer.gov/data-tools-biospecimens/snap-freeze-bebp.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "099a53d9821a8a1f4cc3256fc03d2c7d17e31c05b45669cd2299e8a7a57a9c11"
+    },
+    {
+      "id": "cap-resection",
+      "title": "Protocol for the Examination of Biopsy Specimens from Patients with",
+      "url": "https://documents-cloud.cap.org/appdocs/learning/MBP/MBPOnlineActivities/CAP_Breast_Cancer_Protocols_June_2026_Update.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "9e84339140c48f86c91d05f32e9b0598459fedae322bfd17096456aedd3ba575"
+    },
+    {
+      "id": "cap-grossing",
+      "title": "                                                                                                                       SECTION I: BREAST",
+      "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "87ad8a9c65fcdc56e5f14aa7c05f352cb54d851b65ec0ad87713e6e9207d64a8"
+    },
+    {
+      "id": "illumina-dv200",
+      "title": "Technical Note: RNA Sequencing",
+      "url": "https://support.illumina.com/content/dam/illumina-marketing/documents/products/technotes/evaluating-rna-quality-from-ffpe-samples-technical-note-470-2014-001.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "406fd93f0dcd3c92c894a5ab7fd4631b3acd7689515e120f01c601116ac148ec"
+    },
+    {
+      "id": "til-residual",
+      "title": "Recommendations for assessing",
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "708ae896e29fd47fd95fefba1417823afb3d0dd76437fdea41321e2e12ea0e4e"
+    },
+    {
+      "id": "til-pretreatment",
+      "title": "               reviews                                                                                                                                Annals of Oncology 26: 259–271",
+      "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "de9e5a95561bdc6c02e6efafa7b8c2fcc984c5c350473a02bb43c327154da372"
+    },
+    {
+      "id": "fda-assay",
+      "title": "   SUMMARY OF SAFETY AND EFFECTIVENESS DATA",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150013S016B.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "6b44bec3cb19db5b651b41bff913e168dadfdae28b70db9c8712dda0c4ab6fc9"
+    },
+    {
+      "id": "fda-keytruda",
+      "title": "      HIGHLIGHTS OF PRESCRIBING INFORMATION                                           •    for the treatment of pediatric patients with refractory cHL, or",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df"
+    },
+    {
+      "id": "nci-pathology",
+      "title": "Surgical Pathology Reports - NCI",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "33b6dabbac8b8808ec85d11638d999ae743521cb08e010b4bdb11a7e709a92cf"
+    },
+    {
+      "id": "nci-biopsy",
+      "title": "How Is Breast Cancer Diagnosed? - NCI",
+      "url": "https://www.cancer.gov/types/breast/diagnosis",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "8d4c7542043dd9c302b152cffe482909cf2d52fd815ef77b605810ea28cd9f3f"
+    },
+    {
+      "id": "cap-ihc-validation",
+      "title": "Principles Of Analytic Validation Of Immunohistochemical Assays - CAP",
+      "url": "https://www.cap.org/cap-guidelines/principles-of-analytic-validation-of-immunohistochemical-assays/",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "9efee579021e10fe56a0734e5aa722e3b75a99b92e0c996ceb8714e1298ff341"
+    },
+    {
+      "id": "cap-wsi",
+      "title": "Validating Whole Slide Imaging For Diagnostic Purposes In Pathology - CAP",
+      "url": "https://www.cap.org/cap-guidelines/validating-whole-slide-imaging-for-diagnostic-purposes-in-pathology/",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "a6e4a4b35d146c07bfba237f418de63ac328a17630cc5e7bfc807a3a51568786"
+    },
+    {
+      "id": "cap-biomarkers",
+      "title": "Template for Reporting Results of Biomarker Testing of Specimens",
+      "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691"
+    },
+    {
+      "id": "fda-wsi",
+      "title": "Digital Pathology Program: Research on Digital Pathology Medical Devices | FDA",
+      "url": "https://www.fda.gov/medical-devices/medical-device-regulatory-science-research-programs-conducted-osel/digital-pathology-program-research-digital-pathology-medical-devices",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "66c6c26ec959266536a710444de55dbe690997ce8ab511a1f4f9330354180cb5"
+    },
+    {
+      "id": "nci-cfdna",
+      "title": "Dec 13, 2024",
+      "url": "https://www.protocols.io/view/nci-biospecimen-evidence-based-practices-bebp-cell-dc8k2zuw.pdf",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "7c931e7af7207f2af5548f2f0303261067176b5788531b674f8c29838d9a52d7"
+    },
+    {
+      "id": "acr-biopsy",
+      "title": "Breast Biopsy (Ultrasound-Guided)",
+      "url": "https://www.radiologyinfo.org/en/info/breastbius",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "1872063a1c2cb774968902f90f11319dca84d541edb8921ca46b80cc7193372a"
+    },
+    {
+      "id": "roche-withdrawal",
+      "title": "Roche provides update on Tecentriq US indication for PD-L1-positive, metastatic triple-negative breast cancer",
+      "url": "https://www.roche.com/media/releases/med-cor-2021-08-27.html",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "cdd53c60db20270c24b60366048ad3e0681af5d4a5bfce6521f06ce0e8734f88"
+    },
+    {
+      "id": "who-phlebotomy",
+      "title": "WHO guidelines on drawing blood: best practices in phlebotomy",
+      "url": "https://www.who.int/publications/i/item/9789241599221",
+      "readingDepth": "claim-relevant official text/protocol passages",
+      "scope": "Official method, guidance or label at the named version; method cards are interpretation rules derived from its inputs, outputs and limits. No new clinical recommendation inferred.",
+      "rawCaptureSha256": "b4373ebc65f36a7a5763cf13a86d543dbc2e6573d5a94ccf174f8db8660b658c"
+    },
+    {
+      "id": "agilent-tnbc",
+      "title": "agilent-tnbc",
+      "url": "https://www.agilent.com/cs/library/flyers/public/29390-d62312-pd-l1-22c3-tnbc-qsg-us.pdf",
+      "readingDepth": "official PDF extracted text via web after direct403",
+      "scope": "2020 US 22C3 TNBC quick guide: numerator exclusions, viable invasive denominator, adequacy and CPS100 cap; manual serial-section quality separately read.",
+      "rawCaptureSha256": "9205993f13a1d239c6f549a82133b41f632ef83600ad906cce666a83efa07132"
+    },
+    {
+      "id": "rcpath-scoring",
+      "title": "rcpath-scoring",
+      "url": "https://www.rcpath.org/static/d255f34c-176a-490d-9b5a7d58ac85f3a6/b4cf9184-33ff-4662-b33990b3701c3d87/G148-Dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.pdf",
+      "readingDepth": "official PDF extracted text via web after direct403",
+      "scope": "G148 version3 November2024 Table8 pp142-143: Allred bins and H-score; generic scores do not replace marker-specific clinical interpretation.",
+      "rawCaptureSha256": "234168aed38633b0b3a1bd351f8bd67fe8febc2c76601530fd2819c605c42d1b"
+    }
+  ],
+  "inheritedCaptureChecks": [
+    {
+      "sourceId": "pmid-10536153",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-20361254",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-20837533",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-21356829",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22264965",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22544022",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22933060",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-23709090",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-23887293",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-26957554",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-29024776",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-29233559",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30013179",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30302588",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30302588",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30345906",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30550791",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30650045",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-31768066",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-32300181",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-32657944",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-34097070",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-34097070",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-35857659",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-35869577",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-36306810",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-38613913",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-38613913",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-40152443",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-33026457",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-40332918",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-41468683",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-41468683",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22461641",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-31059554",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-16448564",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-16448564",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22034635",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-22034635",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-23329232",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-23329232",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30030621",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "pmid-30030621",
+      "kind": "fullTextCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "nci-biospecimens",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "nci-snap-freeze",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "cap-resection",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "cap-grossing",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "illumina-dv200",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "til-residual",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "til-pretreatment",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "fda-assay",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "fda-keytruda",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "nci-pathology",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "nci-biopsy",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "cap-ihc-validation",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "cap-wsi",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "cap-biomarkers",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "fda-wsi",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "nci-cfdna",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "acr-biopsy",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "roche-withdrawal",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "who-phlebotomy",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "agilent-tnbc",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    },
+    {
+      "sourceId": "rcpath-scoring",
+      "kind": "rawCapture",
+      "matches": true,
+      "exists": true
+    }
+  ],
+  "newTargetedReading": [
+    {
+      "sourceId": "fda-sacituzumab-pembrolizumab-2026",
+      "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line",
+      "rawSha256": "28de8c161c07cb8894215e62f62ff4feaf558f0061d65312bdd38db1d15f8f48",
+      "readingDepth": "Raw FDA indication paragraph and trial introduction; not the whole approval evidence dossier.",
+      "scope": "24 June 2026 US first-line advanced-TNBC indications. Combination selection and monotherapy population remain distinct."
+    },
+    {
+      "sourceId": "agilent-tnbc",
+      "url": "https://www.agilent.com/cs/library/flyers/public/29390-d62312-pd-l1-22c3-tnbc-qsg-us.pdf",
+      "rawSha256": "9205993f13a1d239c6f549a82133b41f632ef83600ad906cce666a83efa07132",
+      "readingDepth": "Complete preserved two-page US TNBC quick-guide text and targeted serial-section/control passages from the separate EU manual. No fresh full-PDF download or full 92-page manual reading claimed.",
+      "scope": "Dated November 2020 method: eligible cells, denominator, exclusions, capped whole-number score, controls and 100 viable tumour-cell minimum. Current treatment eligibility uses the separate current label."
+    },
+    {
+      "sourceId": "til-pretreatment",
+      "readingDepth": "Targeted raw PDF extraction rechecked for exclusion of crush artifacts, necrosis, regressive hyalinisation and previous core-biopsy sites; earlier complete passage assessment retained.",
+      "scope": "Named breast stromal-TIL convention; not a universal cutoff or treatment-benefit rule."
+    },
+    {
+      "sourceId": "pmid-30030621",
+      "readingDepth": "Targeted preserved primary Methods and Table 2 passages reread for field selection, all four borders, 10-percentage-point increments, >50% convention and mucin/necrosis limits.",
+      "scope": "Colon visual protocol; not automatic validation of breast or post-treatment use."
+    }
+  ],
+  "positiveDoiRegistryAdditions": [
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1001/jamasurg.2025.1072",
+      "sourceId": "pmid-40332918",
+      "pmid": "40332918",
+      "title": "Breast Tumor-Bed Biopsy for Pathological Complete Response Prediction: The NRG-BR005 Nonrandomized Clinical Trial.",
+      "rawSha256": "be95b26f75b8539c2ca538711a2ff8e00a964212ebb63d6b938fbe0c8d8d8205",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1111/cyt.13171",
+      "sourceId": "pmid-35869577",
+      "pmid": "35869577",
+      "title": "Performance of breast fine needle aspiration as an initial diagnostic tool: A large academic hospital experience.",
+      "rawSha256": "80b57cb34a44ebb5ccc3a0453a4bdb11264e38cd0ce7614eee0535417cb586e6",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1073/pnas.1009843107",
+      "sourceId": "pmid-20837533",
+      "pmid": "20837533",
+      "title": "Allele-specific copy number analysis of tumors.",
+      "rawSha256": "fbf04a04ea0484394070ec2e1c5be1c92fba97b24873f524509ab255148c5c08",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1038/modpathol.2013.134",
+      "sourceId": "pmid-23887293",
+      "pmid": "23887293",
+      "title": "The estimation of tumor cell percentage for molecular testing by pathologists is not accurate.",
+      "rawSha256": "a3f5c36ccf43bbd7d5231b1d8972b17c28bb10a97c97e07246e1d8682c21d56a",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1158/0008-5472.can-12-1470",
+      "sourceId": "pmid-22933060",
+      "pmid": "22933060",
+      "title": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation.",
+      "rawSha256": "448c25f69870f8a40692fce9d34569203b945ffe2d5c3126f616638d15b8da4b",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1101/pdb.prot4986",
+      "sourceId": "pmid-21356829",
+      "pmid": "21356829",
+      "title": "Hematoxylin and eosin staining of tissue and cell sections.",
+      "rawSha256": "6b8daef911e1622f67a9bc09098ddf67e971bce4dcfb8767040b2f19472e264e",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1038/s41379-020-0544-x",
+      "sourceId": "pmid-32300181",
+      "pmid": "32300181",
+      "title": "Prospective multi-institutional evaluation of pathologist assessment of PD-L1 assays for patient selection in triple negative breast cancer.",
+      "rawSha256": "9fcb5ffd7401004a734773b4e4bb3250b2e5f82d491c6fab551ee907d0de6e58",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1126/scitranslmed.3003689",
+      "sourceId": "pmid-22461641",
+      "pmid": "22461641",
+      "title": "Colocalization of inflammatory response with B7-h1 expression in human melanocytic lesions supports an adaptive resistance mechanism of immune escape.",
+      "rawSha256": "56b0dc0594c9e58c3bec4278c6ff868a43f55e64adc07abe9e21a1da8c07323e",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1097/sla.0000000000004246",
+      "sourceId": "pmid-32657944",
+      "pmid": "32657944",
+      "title": "Diagnosing Pathologic Complete Response in the Breast After Neoadjuvant Systemic Treatment of Breast Cancer Patients by Minimal Invasive Biopsy: Oral Presentation at the San Antonio Breast Cancer Symposium on Friday, December 13, 2019, Program Number GS5-03.",
+      "rawSha256": "025a0d3251e3ecc97eba540963e74a2407eb200c6f29f7cd6e9cfa44e334814f",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1016/s1470-2045(22)00613-1",
+      "sourceId": "pmid-36306810",
+      "pmid": "36306810",
+      "title": "Eliminating breast surgery for invasive breast cancer in exceptional responders to neoadjuvant systemic therapy: a multicentre, single-arm, phase 2 trial.",
+      "rawSha256": "31891c7295005de6d31dd328ada8c59392c326f536f2ff8247ff23e00ebbdc4b",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1001/jamaoncol.2025.0207",
+      "sourceId": "pmid-40152443",
+      "pmid": "40152443",
+      "title": "Selective Elimination of Breast Surgery for Invasive Breast Cancer: A Nonrandomized Clinical Trial.",
+      "rawSha256": "1d14d9c4cb71956a333bc88c2514fe740cf161d0dda97a78cc333bd325b80565",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1001/jamasurg.2020.4103",
+      "sourceId": "pmid-33026457",
+      "pmid": "33026457",
+      "title": "Accuracy of Post-Neoadjuvant Chemotherapy Image-Guided Breast Biopsy to Predict Residual Cancer.",
+      "rawSha256": "7a468e1b441ebfa2511cb36f8d9894c0ac54e339d5f2fa79cc27ff2a6ef8841a",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1007/s00428-018-2408-z",
+      "sourceId": "pmid-30030621",
+      "pmid": "30030621",
+      "title": "Scoring the tumor-stroma ratio in colon cancer: procedure and recommendations.",
+      "rawSha256": "f0be274575a097b1c7672133f10c85a212ac43f6e9cd2c7ff9f645f0b7b00c33",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1016/j.esmoop.2024.102988",
+      "sourceId": "pmid-38613913",
+      "pmid": "38613913",
+      "title": "Results from the UNITED study: a multicenter study validating the prognostic effect of the tumor-stroma ratio in colon cancer.",
+      "rawSha256": "2d77b66ccdec40feb7397d7f2951175b60473b0d9478ce78681e640ae6f0cc4c",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1016/j.ejso.2012.01.002",
+      "sourceId": "pmid-22264965",
+      "pmid": "22264965",
+      "title": "The prognostic value of tumour-stroma ratio in triple-negative breast cancer.",
+      "rawSha256": "6248209c071b723b52da5c602a9ba78642347ba74ec192c0e998a2e724e31b78",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1007/s10549-010-0855-6",
+      "sourceId": "pmid-20361254",
+      "pmid": "20361254",
+      "title": "Tumor-stroma ratio in the primary tumor is a prognostic factor in early breast cancer patients, especially in triple-negative carcinoma patients.",
+      "rawSha256": "a2d26cc96e02e62c14c575bb57b5d909e127fa44bfe3b0f194917ef4764562ff",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1007/s10549-013-2571-5",
+      "sourceId": "pmid-23709090",
+      "pmid": "23709090",
+      "title": "Prognostic significance of the tumor-stroma ratio: validation study in node-negative premenopausal breast cancer patients from the EORTC perioperative chemotherapy (POP) trial (10854).",
+      "rawSha256": "89674a5b60c74a1fecf99f298540fe677751aa1cfae4928ab30d0cffa6db5b59",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1007/s10549-018-4987-4",
+      "sourceId": "pmid-30302588",
+      "pmid": "30302588",
+      "title": "The prognostic value of tumour-stroma ratio in primary breast cancer with special attention to triple-negative tumours: a review.",
+      "rawSha256": "3ed735bc0db516269535ee0ce99833afef277bd1c87a4b78e2b344ebf3a67b5c",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "root",
+      "doi": "10.1016/j.esmoop.2025.105934",
+      "sourceId": "pmid-41468683",
+      "pmid": "41468683",
+      "title": "Automating tumor-stroma ratio quantification in colon cancer patients from the UNITED study.",
+      "rawSha256": "361f5b4f174c9263640b998a842b97a213b5443d04dc0c7ced779fc4ceabaa2a",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "shared",
+      "doi": "10.1186/1471-2199-7-3",
+      "sourceId": "pmid-16448564",
+      "pmid": "16448564",
+      "title": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+      "rawSha256": "2e58ee619f9f217359261365785eee5de41a373b53798d2b3392e3cc39afb8e0",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "shared",
+      "doi": "10.1093/jnci/djr438",
+      "sourceId": "pmid-22034635",
+      "pmid": "22034635",
+      "title": "Effects of tissue handling on RNA integrity and microarray measurements from resected breast cancers.",
+      "rawSha256": "7e4e7c3d4ab94636db51127cde321361b9fbf98c9553816da95489fb3a12b0bd",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "shared",
+      "doi": "10.1371/journal.pone.0216050",
+      "sourceId": "pmid-31059554",
+      "pmid": "31059554",
+      "title": "Robustness of RNA sequencing on older formalin-fixed paraffin-embedded tissue from high-grade ovarian serous adenocarcinomas.",
+      "rawSha256": "a8c5a26a2db04a459ade8fd5948657365437c98d624f7db1ca5882340742229f",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    },
+    {
+      "checkoutGroup": "shared",
+      "doi": "10.1093/nar/27.22.4436",
+      "sourceId": "pmid-10536153",
+      "pmid": "10536153",
+      "title": "Analysis of chemical modification of RNA from formalin-fixed samples and optimization of molecular biology applications for such samples.",
+      "rawSha256": "981d61653ad9370c28b4740b9b43d259d2167a3b492ea3940dacc1ecd57ab271",
+      "resolution": "Europe PMC MED; DOI/PMID/title and preserved abstract assessment",
+      "newValue": 1
+    }
+  ],
+  "continuingLimits": [
+    "The current Agilent PDF could not be fetched directly; the dated preserved primary text supplies the historical scoring method, not a claim of current-label completeness.",
+    "Archived CAP 2018 access and selected full-text access remain limited. Adopted claims use the accessible named source or remain at their recorded abstract/targeted-passage scope.",
+    "Later source-verification rereading was fresh for three lessons; the other complete source readings were reused by identity, not falsely re-labelled new.",
+    "Earlier catalogue claims outside the 251 mapped units are not blanket re-certified."
+  ],
+  "elicit": "No callable Elicit tool in this continuation. Earlier frozen discovery remains separate, and no questions, report links, responses or claim verification are invented."
+}

@@ -1,0 +1,1777 @@
+{
+  "sourceFirst": true,
+  "ownerInspectionBeforeFreeze": false,
+  "uniqueBodies": 5,
+  "originalSources": 5,
+  "laterSources": 5,
+  "allPairsByteIdentical": true,
+  "sourceInputs": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "gitBlob": "42dcb9f069e9a97d54c8a4de5258e4e1f838ade4"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "gitBlob": "d274dae3031fe92da7bd86183a5892e28e822e30"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "gitBlob": "7d462028d757489aeb4baa47e219828259862a31"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "gitBlob": "e6709d2b5263a3846f5905fd10cd960882e3dc0f"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "gitBlob": "c44c29edea6c39b1459b3e02d61ff6fc8cfe5c2e"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "gitBlob": "42dcb9f069e9a97d54c8a4de5258e4e1f838ade4"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "gitBlob": "d274dae3031fe92da7bd86183a5892e28e822e30"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "gitBlob": "7d462028d757489aeb4baa47e219828259862a31"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "gitBlob": "e6709d2b5263a3846f5905fd10cd960882e3dc0f"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "gitBlob": "c44c29edea6c39b1459b3e02d61ff6fc8cfe5c2e"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "AR-001",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Define androgen-receptor antagonism and distinguish receptor expression from drug sensitivity.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-002",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Preserve the reader/message analogy's limit: receptor presence need not mean dependence, and receptor states and partners can alter effects.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-003",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Interpret all four figure locations: hormone supply, intracellular receptor binding, nuclear DNA/RNA regulation and a variant missing a binding region, without treating them as the same intervention.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-004",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Answer the signal-following question by separating hormone depletion from receptor blockade and refusing breast benefit from AR expression alone.",
+      "sourceScope": "figure-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-005",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe AR as a hormone-responsive transcription factor, testosterone and dihydrotestosterone as androgen ligands, and DNA-to-RNA regulation.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-006",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Distinguish an antagonist from an activating ligand and identify bicalutamide/enzalutamide interaction with the ligand-binding region.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-007",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify MDV3100/enzalutamide effects on nuclear movement, DNA binding and cofactor recruitment within the tested prostate-cancer systems.",
+      "sourceScope": "primary-preclinical-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-008",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Retain receptor sequence, abundance, partners and splice variants as context that can alter antagonist behaviour.",
+      "sourceScope": "mechanism-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-009",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain splice variants as differently assembled RNA messages that can encode altered proteins, including loss of a relevant binding region.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-010",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3,
+        6
+      ],
+      "requirement": "Keep androgen synthesis, receptor binding and estrogen-receptor blockade as different actions.",
+      "sourceScope": "mechanism-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-011",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Keep AR-directed evidence specific to product, disease and setting rather than all AR-positive cancers.",
+      "sourceScope": "clinical-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-012",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4,
+        6
+      ],
+      "requirement": "Verify 16-week clinical benefit rate in the enzalutamide phase II example and distinguish qualifying disease stability from shrinkage and randomised survival benefit.",
+      "sourceScope": "clinical-endpoint-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-013",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Retain the single-arm, locally advanced/metastatic TNBC and optimised assay scope of the Traina study.",
+      "sourceScope": "clinical-population-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-014",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify TBCRC 032's enzalutamide/taselisib combination and differing phase Ib and phase II populations.",
+      "sourceScope": "clinical-population-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-015",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4,
+        6
+      ],
+      "requirement": "Distinguish AR protein expression, AR dependence, a luminal androgen-receptor RNA subtype and a validated treatment-selection rule.",
+      "sourceScope": "assay-versus-dependence",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-016",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Do not substitute any PI3K inhibitor for taselisib or transfer advanced-disease combination evidence to postoperative benefit.",
+      "sourceScope": "clinical-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-017",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Report AR immunohistochemistry as nuclear protein staining with antibody, percentage, threshold, specimen and scoring procedure stated.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-018",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Keep trial-enrolment and evaluable-analysis staining thresholds distinct.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-019",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Keep an RNA classifier separate from measurement of receptor occupancy.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-020",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Connect receptor engagement, downstream transcription and growth/death at a stated exposure in models.",
+      "sourceScope": "experimental-reading-rule",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-021",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Require clinical population, denominator and time horizon; stained-cell percentage is not a response probability.",
+      "sourceScope": "measurement-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-022",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Answer the fictional 16-week CBR exercise using the endpoint's stable-disease component, assay, enrolled population and analysis denominator.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "AR-023",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Answer the teach-back with receptor function, assay-defined expression and product/population/outcome evidence for benefit.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-001",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Define BET pocket inhibition as interference with acetyl-mark recognition without assuming removal of every BET-protein function.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-002",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Carry the bookmark-sensor analogy's limit: remaining interactions and dynamic marks make pocket blockade different from protein removal.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-003",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Interpret the figure's retained acetyl mark and other protein regions under pocket occupancy, contrasted with separately measured protein depletion; do not treat the schematic mark as an empirical unchanged-mark result.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-004",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify JQ1 pocket competition and distinguish Shu's inhibitor response from BRD4 dependence in TNBC models.",
+      "sourceScope": "figure-source-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-005",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Name BRD2, BRD3, BRD4 and BRDT as BET proteins and explain bromodomain recognition of acetylated lysines in transcriptional regulation.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-006",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe occupying a recognition pocket and competing with an acetylated binding partner.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-007",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Keep experimental JQ1 as a chemical probe rather than evidence for a personal regimen.",
+      "sourceScope": "experimental-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-008",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Identify BD1 and BD2 plus other interaction regions in BET proteins.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-009",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Keep family-member and domain selectivity distinct across compounds.",
+      "sourceScope": "drug-profile-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-010",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3,
+        6
+      ],
+      "requirement": "Do not infer comparative human safety or anticancer benefit from BD2 preference alone.",
+      "sourceScope": "clinical-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-011",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3,
+        6
+      ],
+      "requirement": "Distinguish a recognition-pocket inhibitor from a protein degrader, without assuming one reproduces the other.",
+      "sourceScope": "perturbation-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-012",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "A transcriptional change does not by itself identify which affected protein or gene caused a growth effect.",
+      "sourceScope": "causal-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-013",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Keep response of selected TNBC models to BET inhibition within its preclinical scope.",
+      "sourceScope": "primary-preclinical-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-014",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify that inhibitor-resistant cultures in Shu still depended on BRD4 through bromodomain-independent regulation.",
+      "sourceScope": "primary-preclinical-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-015",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4,
+        6
+      ],
+      "requirement": "Separate BET inhibition from direct MYC inhibition, and decreased MYC RNA from proof of MYC-mediated death.",
+      "sourceScope": "mechanism-versus-causality",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-016",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "A generic BRD3 variant does not establish BRD4 dependence or sensitivity to a broad BET compound.",
+      "sourceScope": "gene-family-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-017",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify the phase I molibresib population of NUT carcinoma/other solid tumours and its exposure, pharmacodynamic, safety and preliminary-activity aims.",
+      "sourceScope": "clinical-population-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-018",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Retain thrombocytopenia and gastrointestinal events within that product/study, without a class-wide toxicity ranking or postoperative TNBC benefit.",
+      "sourceScope": "clinical-safety-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-019",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Use binding and displacement assays for the pocket interaction.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-020",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Separate chromatin occupancy and RNA output from growth, death and regrowth measurements.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-021",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Use genetic perturbation, an independent compound, general transcription monitoring and comparison cells for attribution.",
+      "sourceScope": "experimental-reading-rule",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-022",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "State exact protein/domain, concentration, duration and comparator; define nM and retain assay-specific RNA/count/normalised units rather than a universal clinical sensitivity score.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-023",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Distinguish pharmacodynamic biological effects after exposure from demonstrated patient benefit.",
+      "sourceScope": "validation-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-024",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Answer the fictional MYC-RNA-down/continued-growth exercise with protein/function/attribution controls and unresolved clinical benefit.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "BET-025",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Answer the teach-back with a reading interaction, attributed functional dependence and comparative clinical evidence.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-001",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Define selected cyclin-dependent kinase inhibition while separating cell-cycle and transcription roles.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-002",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Carry the workshop analogy's limit: family labels do not identify the job, and a kinase can have multiple roles and state-dependent partners.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-003",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Interpret the selected-role diagram without treating it as an exhaustive job map: CDK4/6 and CDK2 around G1/DNA copying, CDK7 at initiation and activation of other CDKs, and CDK9 at elongation.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-004",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Carry the caption's distinctions among RB presence, an intact arrest circuit, reversible arrest, death, marrow protection and tumour control.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-005",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define kinases as phosphate-transfer enzymes and cyclins as regulatory protein partners; retain DNA/RNA and gene-transcription context.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-006",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Explain CDK4/6 progression toward DNA copying and the functional RB requirement of its usual arrest mechanism.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-007",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe CDK2 with cyclins E/A, without selecting every CDK2 inhibitor from cyclin E abundance.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-008",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe CDK7 transcription-initiation and CDK-activation roles and keep their experimental effects distinct.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-009",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe CDK9 elongation and short-lived-transcript effects separately from CDK4/6-mediated arrest.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-010",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3,
+        6
+      ],
+      "requirement": "Explain RB restraint of cell-cycle transcription, its phosphorylation by CDK4/6, potential loss of this route with RB1 loss and insufficiency of RB staining alone.",
+      "sourceScope": "pathway-mechanism",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-011",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Account for multi-CDK inhibition at achieved exposures and distinguish engagement from cellular effect.",
+      "sourceScope": "drug-profile-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-012",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Horiuchi's 2012 high-MYC breast-model result with the actual kinase/compound scope, rather than choosing a modern CDK drug from MYC expression.",
+      "sourceScope": "primary-preclinical-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-013",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify NATALEE's ribociclib/endocrine regimen in hormone receptor-positive, HER2-negative stage II/III early breast cancer, distinct from TNBC.",
+      "sourceScope": "clinical-population-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-014",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Explain short pre-chemotherapy trilaciclib exposure as temporary arrest of susceptible marrow cells to reduce myelosuppression.",
+      "sourceScope": "mechanism-and-purpose",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-015",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify TRACES' Chinese extensive-stage small-cell lung-cancer setting and the randomised part's primary duration-of-severe-neutropenia endpoint in cycle one.",
+      "sourceScope": "clinical-endpoint-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-016",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4,
+        6
+      ],
+      "requirement": "Keep myeloprotection distinct from tumour shrinkage, survival and evidence in another disease.",
+      "sourceScope": "clinical-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-017",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Measure named substrate phosphorylation, DNA copying, cell-cycle phases, RNA output, growth and death with exposure, time and controls stated.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-018",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Do not interpret a percentage of sampled cells in a phase as a percentage of patients benefiting.",
+      "sourceScope": "measurement-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-019",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Distinguish blood-cell counts and severe-neutropenia days from tumour-response measurements.",
+      "sourceScope": "measurement-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-020",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Answer the washout/regrowth exercise as reversible arrest, requiring attribution, death/durability and comparison-cell evidence before selective-killing or clinical claims.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "CDK-021",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Answer the teach-back with affected kinase functions, assay-defined RB presence and the clinical outcome actually tested.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-001",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Define EGFR-directed signalling inhibition with receptor-alteration and cellular-context dependence.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-002",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Carry the receiver analogy's outside-versus-inside contrast without turning a branched receptor network into a binary switch.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-003",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Interpret all three figure contacts: extracellular antibody, intracellular kinase inhibitor and payload delivery, with receptor arrangement/cargo processing schematic.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-004",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Answer the figure exercise: a conjugate can use target recognition for cargo delivery without establishing EGFR-kinase dependence.",
+      "sourceScope": "figure-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-005",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Identify EGFR/HER1/ERBB1 as a receptor tyrosine kinase and describe extracellular ligand effects on receptor arrangement and intracellular phosphate-transfer machinery.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-006",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe MAPK and PI3K-AKT-mTOR branches while noting that a downstream signal does not uniquely identify its source.",
+      "sourceScope": "pathway-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-007",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe intracellular TKIs with drug-specific receptor coverage, mutation sensitivity, reversibility and exposure.",
+      "sourceScope": "drug-profile-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-008",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Describe cetuximab's extracellular binding and possible additional antibody effects, without transferring its evidence to a TKI.",
+      "sourceScope": "modality-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-009",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Separate EGFR recognition/payload delivery from dependence on the receptor's kinase signalling.",
+      "sourceScope": "mechanism-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-010",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify Lynch's activating EGFR kinase-domain mutation/gefitinib relationship in non-small-cell lung cancer and functional testing; do not transfer it from protein abundance in another disease.",
+      "sourceScope": "primary-disease-specific-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-011",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify TBCRC 001's metastatic TNBC cetuximab/carboplatin and suppression only in a subset of paired biopsies.",
+      "sourceScope": "clinical-and-biopsy-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-012",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify BALI-1's cetuximab/cisplatin versus cisplatin metastatic-TNBC comparison and negative primary response endpoint, without a general/adjuvant rule.",
+      "sourceScope": "clinical-endpoint-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-013",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5,
+        6
+      ],
+      "requirement": "Distinguish protein amount/location, sequencing-defined alteration, receptor/downstream phosphorylation, engagement and functional dependence.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-014",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "State specimen, assay, variant and timing; keep staining score, variant allele fraction and normalised phosphoprotein signal as different outputs.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-015",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Use stated concentrations and controls; reject a universal EGFR-high unit or cutoff selecting every EGFR-directed drug.",
+      "sourceScope": "measurement-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-016",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Keep objective response separate from clinical benefit rate that can include stable disease.",
+      "sourceScope": "endpoint-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-017",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Answer the strong-stain/phosphorylation-down/continued-growth exercise without claiming sensitivity, while testing attribution and alternative growth support and leaving patient benefit unresolved.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "EGFR-018",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Answer the teach-back with observed receptor amount, alteration-related behaviour and product-specific mechanism/exposure/outcome evidence.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-001",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Separate PI3K, AKT and mTOR nodes, target profiles and clinical evidence.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-002",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Carry the network analogy's feedback and compensation limits rather than treating it as a straight wire of isolated boxes.",
+      "sourceScope": "authored-analogy",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-003",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Interpret membrane PI3K conversion of PIP2 to PIP3, PTEN opposition, AKT recruitment and indirect mTORC1 connection, with the dashed feedback brake indirect and not every branch.",
+      "sourceScope": "figure-interpretation",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-004",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Do not infer the loop, universal rebound or benefit from the figure's fictional changed phosphosite.",
+      "sourceScope": "figure-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-005",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define PI3K lipid modification, AKT/protein kinase B protein phosphorylation and distinct mTOR complexes.",
+      "sourceScope": "mechanism-definition",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-006",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3,
+        6
+      ],
+      "requirement": "Describe PTEN lipid phosphatase action and distinguish DNA alteration, RNA amount, protein staining and enzymatic-function loss.",
+      "sourceScope": "mechanism-and-assay",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-007",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify alpelisib's PI3K-alpha profile, capivasertib's AKT-isoform targeting and another node/complex scope for rapamycin-related drugs.",
+      "sourceScope": "drug-profile-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-008",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Define isoforms and keep selectivity, binding and exposure drug-specific rather than substituting neighbouring inhibitors.",
+      "sourceScope": "drug-profile-scope",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-009",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Verify O'Reilly's mTOR-inhibition feedback/AKT increase in studied models and tumour samples, without inferring target failure or net survival effect.",
+      "sourceScope": "primary-feedback-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-010",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify the historical 2023 FDA capivasertib/fulvestrant population: adults with HR-positive/HER2-negative advanced disease, specified PIK3CA/AKT1/PTEN alterations and prior endocrine-treatment conditions, without deriving a TNBC indication.",
+      "sourceScope": "dated-regulatory-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-011",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Verify CAPItello-290 first-line metastatic TNBC capivasertib/paclitaxel and negative overall-survival primary endpoints in overall and altered populations, keeping secondary progression-free results distinct.",
+      "sourceScope": "clinical-endpoint-example",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-012",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Keep preclinical repair/immune effects from becoming a claim that every PI3K/AKT inhibitor improves PARP- or immune-therapy combinations.",
+      "sourceScope": "preclinical-to-clinical-inference",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-013",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Name phosphosite, substrate, specimen, comparator and time; distinguish sequence/protein/phospho layers and drug-specific phosphorylation effects from a universal activity meter.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-014",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Define nM/normalised signalling, growth and death outputs; separate engagement, dependence and disease/assay/endpoint-based clinical interpretation.",
+      "sourceScope": "measurement-card",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-015",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Answer the PIK3CA-variant/any-AKT-drug exercise using variant function, actual product/exposure, disease, assay and clinical evidence before sensitivity or eligibility.",
+      "sourceScope": "fictional-exercise",
+      "creditClass": "substantive"
+    },
+    {
+      "id": "PIK-016",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Answer the teach-back with a mechanism hypothesis, a particular intervention node and evidence in the relevant treatment/disease setting.",
+      "sourceScope": "practice-inference",
+      "creditClass": "substantive"
+    }
+  ],
+  "nonCredit": [
+    {
+      "id": "AR-X01",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases, prerequisites and repeated summary are metadata; the substantive definition is represented once."
+    },
+    {
+      "id": "AR-X02",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        9
+      ],
+      "creditClass": "non-credit",
+      "reason": "The takeaway recaps retained requirements and earns no independent scientific point."
+    },
+    {
+      "id": "AR-X03",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identities, source-check date and pending expert/learner status are metadata, not teaching coverage."
+    },
+    {
+      "id": "AR-X04",
+      "lesson": "ar-antagonists",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not assessed from a link."
+    },
+    {
+      "id": "BET-X01",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases, prerequisites and repeated summary are metadata; the substantive definition is represented once."
+    },
+    {
+      "id": "BET-X02",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        9
+      ],
+      "creditClass": "non-credit",
+      "reason": "The takeaway recaps retained requirements and earns no independent scientific point."
+    },
+    {
+      "id": "BET-X03",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identities, source-check date and pending expert/learner status are metadata, not teaching coverage."
+    },
+    {
+      "id": "BET-X04",
+      "lesson": "bet-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not assessed from a link."
+    },
+    {
+      "id": "CDK-X01",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases, prerequisites and repeated summary are metadata; the substantive definition is represented once."
+    },
+    {
+      "id": "CDK-X02",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        9
+      ],
+      "creditClass": "non-credit",
+      "reason": "The takeaway recaps retained requirements and earns no independent scientific point."
+    },
+    {
+      "id": "CDK-X03",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identities, source-check date and pending expert/learner status are metadata, not teaching coverage."
+    },
+    {
+      "id": "CDK-X04",
+      "lesson": "cdk-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not assessed from a link."
+    },
+    {
+      "id": "EGFR-X01",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases, prerequisites and repeated summary are metadata; the substantive definition is represented once."
+    },
+    {
+      "id": "EGFR-X02",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        9
+      ],
+      "creditClass": "non-credit",
+      "reason": "The takeaway recaps retained requirements and earns no independent scientific point."
+    },
+    {
+      "id": "EGFR-X03",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identities, source-check date and pending expert/learner status are metadata, not teaching coverage."
+    },
+    {
+      "id": "EGFR-X04",
+      "lesson": "egfr-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not assessed from a link."
+    },
+    {
+      "id": "PIK-X01",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        0
+      ],
+      "creditClass": "non-credit",
+      "reason": "Title, aliases, prerequisites and repeated summary are metadata; the substantive definition is represented once."
+    },
+    {
+      "id": "PIK-X02",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        9
+      ],
+      "creditClass": "non-credit",
+      "reason": "The takeaway recaps retained requirements and earns no independent scientific point."
+    },
+    {
+      "id": "PIK-X03",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [
+        10
+      ],
+      "creditClass": "non-credit",
+      "reason": "Citation identities, source-check date and pending expert/learner status are metadata, not teaching coverage."
+    },
+    {
+      "id": "PIK-X04",
+      "lesson": "pi3k-akt-inhibitors",
+      "phases": [
+        "original",
+        "later"
+      ],
+      "sectionOrdinals": [],
+      "creditClass": "non-credit",
+      "reason": "Related-concept and generated Used-in links are routing; linked bodies are not assessed from a link."
+    }
+  ],
+  "versionBoundary": "Exact whole-file identity supports one full-body reading reused for both separately retained source inventories. Requirements across pins are not added."
+}

@@ -1,0 +1,24 @@
+{
+  "dataCommit": "4f3fa3b55765676ceea5271a2941f5b4c57260bd",
+  "verifiedMergeHead": "076a594161c5fadef62d90154994bd218459a5ce",
+  "frozenPreexistingArtifacts": 817,
+  "changedByInitialIntegrationAndRegeneration": [
+    "adjacent-concepts.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-assets.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ],
+  "allOtherPreexistingArtifactsUnchangedAtThisStep": true,
+  "newSourceReviewsPerPin": 3,
+  "earlierRootReferencesRebound": 51,
+  "frozenPeerOwnersUnchanged": 15,
+  "scope": "Comparison after initial integration and ledger regeneration. README and manifest updates and the final zero-change replay follow separately. Historical cohort packets remain byte-identical."
+}

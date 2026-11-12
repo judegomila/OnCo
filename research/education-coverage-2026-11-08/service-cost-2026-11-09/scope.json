@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-11-09",
+  "scope": "Repair the one independently discovered expanded-access directory consumer.",
+  "knowledgeGraphOwners": 171,
+  "newGraphEntities": 0,
+  "directoryConsumers": 1,
+  "consumerSnapshot": {
+    "path": "pending/proposal-service-directory.json",
+    "version": "proposal-service-directory",
+    "ownerType": "service-directory-entry; audit marker, not graph schema kind"
+  },
+  "adjacentFindings": 21,
+  "representedAdjacentFindings": 20,
+  "openAdjacentFindings": 1,
+  "curriculumCountsUnchanged": true,
+  "newRawRequests": 2,
+  "parsedWebCaptures": 2,
+  "reusedRawRegulatorySources": 1,
+  "limitations": [
+    "Draft #375 is not merged or deployed.",
+    "No inference that all directory entries are correct.",
+    "No closed whole-audit claim; both curriculum versions, literature and five schema findings retain open work."
+  ]
+}

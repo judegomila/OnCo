@@ -1,0 +1,48 @@
+{
+  "newOpenItem": {
+    "id": "surface-format-mechanism-template-guardrails",
+    "title": "Surface-format mechanism steps and retained clinical catalogue claims",
+    "domain": "therapeutics",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782"
+    ],
+    "discoveryOccurrences": [
+      "surface-targeting:ST1-014",
+      "surface-targeting:ST1-026",
+      "drug-depth.ts:ADC_STEPS",
+      "drug-depth.ts:TCE_STEPS",
+      "paths.ts:trastuzumab-deruxtecan why label"
+    ],
+    "review": {
+      "status": "unreviewed",
+      "points": [],
+      "rationale": "The named owner fields and dosing contradiction are corrected. Shared mechanism-step templates still turn recognition and delivery into completed killing and bystander activity without product-specific qualifications; audit their actual users individually. A product-path label retains an unsupported global superiority claim; changing that product label follows the existing owner-approval rule. Other retained clinical catalogue, worldwide-first, access and toxicity claims outside the adopted scope are not newly certified."
+    }
+  },
+  "sourceOwnerVisualItems": [
+    {
+      "id": "SG-V01",
+      "severity": "moderate",
+      "diagrams": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "theme": "dark",
+      "finding": "Inline pale node fills retain pale theme text: highlighted routing nodes and three strategy-category nodes have poor contrast in this renderer. Live Guide theme behavior was not tested."
+    },
+    {
+      "id": "SG-V02",
+      "severity": "scientific-scope",
+      "diagrams": [
+        5
+      ],
+      "finding": "Arrows sort proposals by a teaching framework. They do not prove exclusive failure classes, causally effective redesigns, or that only bispecific binding changes delivery."
+    }
+  ],
+  "newCanonicalSubjects": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "SR-01-14",
+    "lesson": "breast-anatomy",
+    "kind": "adjacent-or-retention",
+    "reason": "NCI TDLU physiology is an added source-backed concept; the lesson cites the programme but does not state the childbearing/acini/count result."
+  },
+  {
+    "id": "SR-01-15",
+    "lesson": "breast-anatomy",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-02-12",
+    "lesson": "dcis",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-06-13",
+    "lesson": "myoepithelial-cells-and-basement-membrane",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-07-12",
+    "lesson": "ajcc-prognostic-staging",
+    "kind": "adjacent-or-retention",
+    "reason": "Legacy validation and UK-reporting retention check, not teaching at either Guide pin."
+  },
+  {
+    "id": "SR-08-12",
+    "lesson": "histologic-grade",
+    "kind": "adjacent-or-retention",
+    "reason": "Legacy RCPath grading retention check, not teaching at either Guide pin."
+  },
+  {
+    "id": "SR-09-11",
+    "lesson": "ki-67",
+    "kind": "adjacent-or-retention",
+    "reason": "Correction of a legacy monarchE cohort assertion; the Guide Ki-67 lesson contains no monarchE, abemaciclib or cohort threshold."
+  },
+  {
+    "id": "SR-09-12",
+    "lesson": "ki-67",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-11-11",
+    "lesson": "tnm-staging",
+    "kind": "duplicate-restatement",
+    "reason": "New summary repeats the clinical/pathological/post-treatment and anatomical/prognostic distinctions already required by SR-11-01 through SR-11-04."
+  },
+  {
+    "id": "SR-12-09",
+    "lesson": "extranodal-extension",
+    "kind": "adjacent-or-retention",
+    "reason": "Additional Ma cohort cutoff analysis, not stated in the Guide ENE lesson."
+  },
+  {
+    "id": "SR-12-11",
+    "lesson": "extranodal-extension",
+    "kind": "adjacent-or-retention",
+    "reason": "Legacy head-and-neck ENE grading and treatment scope, not in the breast ENE lesson."
+  },
+  {
+    "id": "SR-14-13",
+    "lesson": "pcr",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-15-15",
+    "lesson": "residual-cancer-burden",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-15-16",
+    "lesson": "residual-cancer-burden",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-16-14",
+    "lesson": "sentinel-node-and-axillary-dissection",
+    "kind": "adjacent-or-retention",
+    "reason": "CAP sn modifier is an added reporting detail absent from the Guide lesson."
+  },
+  {
+    "id": "SR-18-11",
+    "lesson": "treatment-effect-in-pathology",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-19-11",
+    "lesson": "tumor-bed-cellularity",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  },
+  {
+    "id": "SR-19-12",
+    "lesson": "tumor-bed-cellularity",
+    "kind": "metadata",
+    "reason": "Routing, source-list order, dates or used-in metadata; no separate learning credit."
+  }
+]

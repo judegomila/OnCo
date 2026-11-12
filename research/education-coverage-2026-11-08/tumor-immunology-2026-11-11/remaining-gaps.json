@@ -1,0 +1,26 @@
+{
+  "openTeachingRequirements": [
+    {
+      "id": "adaptive-immune-resistance:jak-stat-irf1",
+      "versions": [
+        "later"
+      ],
+      "remaining": [
+        "The indexed 2019 Garcia-Diaz correction resolves to DOI 10.1016/j.celrep.2019.11.113, but its body is inaccessible. The primary abstract and reader passage support the named axis at their recorded scope; correction-specific implications are not certified."
+      ]
+    }
+  ],
+  "sourceLimits": [
+    "Garcia-Diaz 2019 indexed correction body remains inaccessible; the axis requirement is partial rather than silently certified.",
+    "Nature 2015 Spranger full text could not be reached; CCL4 detail is explicitly attributed to the investigators’ open-access commentary.",
+    "Many named studies remain abstract-only; exact depths and targeted full-text passages are retained separately. No blanket verification of older catalogue assertions.",
+    "PNAS TIGIT primary body was partly readable through web access, but a subsequent request returned a cookie-absent shell. Relative-affinity or competition claims are not adopted from that incomplete reading.",
+    "No expert, learner, named-language translation, browser hydration, live-guide accessibility or deployed-page acceptance is claimed."
+  ],
+  "schema": "The existing summary and notes fields carry these concepts, inference exercises and method boundaries. No new schema or product consumer contract was introduced. Wider optional contracts remain pending.",
+  "pending": [
+    "Finish reader and export checks, final full gates and ledger replay",
+    "Register the completed study and toxicity batches in separate coordinator integrations",
+    "Continue the remaining source corpus, supporting assets and final re-audit"
+  ]
+}

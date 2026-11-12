@@ -1,0 +1,1343 @@
+{
+  "figures": {
+    "themeFiles": 22,
+    "versionEntries": 44,
+    "sourceAndRenderHashesMatch": true,
+    "entries": [
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "3ee1f622fb7beac211e2abb7cb1f5119586828a2",
+        "bytes": 7020,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "sourceSha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b",
+        "renderSha256": "a1afa748ab4f8da00a88df4ae7b5a20b5e539bb4c86b3e44290ee92c69f1e9ef",
+        "lessons": [
+          "h-and-e-morphology"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "0833ec555e436829d464d8cfc70738e55cf87cf6",
+        "bytes": 7020,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "sourceSha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be",
+        "renderSha256": "36641448f0b61272180b8f0f03aafad317e3b5d2d9568990c61716b19fe97a39",
+        "lessons": [
+          "h-and-e-morphology"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "4e39f1f594a1664e35c11227a853c1c7677da327",
+        "bytes": 16652,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sourceSha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "renderSha256": "134833fad1e0c33da806b32e6616ee5e36742cea6e694b36d7ad625bab253eb2",
+        "lessons": [
+          "immunohistochemistry"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "29503970ad0e9384cf8831028fd3310c688f7d35",
+        "bytes": 16652,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sourceSha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "renderSha256": "662d6b189fdaf6e8797baf8bdfd19e6b6c41597913be77c82be59b8056f04ffb",
+        "lessons": [
+          "immunohistochemistry"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "42da5f606429a04c435209a084c4621bc30fa068",
+        "bytes": 30426,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "sourceSha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2",
+        "renderSha256": "01e5d27d434afce2fe45045775e82d562f574ce73696150177c2503bc26016ce",
+        "lessons": [
+          "pd-l1-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "3b4440a625b70a6a2dbb8e56c85933961b4fbfd3",
+        "bytes": 30426,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "sourceSha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab",
+        "renderSha256": "459457cf494cae44de7ab4db7c43a37290ea44d3c0f6daf3f7ff21a9db9d6f77",
+        "lessons": [
+          "pd-l1-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "deb7fca09cf61b9df1d39b4827d3a6097af626c3",
+        "bytes": 6316,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "sourceSha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212",
+        "renderSha256": "79245985c5e13d38d77fb93d94f0e12674550c2869a9a4d9377888e6196c82a0",
+        "lessons": [
+          "stil-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Pooled-area arithmetic20% versus35% agrees. Green internal motifs in excluded pink nests could confuse the legend; caption and exclusion text retain correct denominator."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "833aa3b46845694173cd22a44b4583683c016063",
+        "bytes": 6316,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "sourceSha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89",
+        "renderSha256": "1b11b8e656421d97c281edfa4273c1a5ba914383d45d8c8a4c86f2603161f7ae",
+        "lessons": [
+          "stil-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Pooled-area arithmetic20% versus35% agrees. Green internal motifs in excluded pink nests could confuse the legend; caption and exclusion text retain correct denominator."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "7264ba861f15f98333f584c8621e573bbd6f17be",
+        "bytes": 8538,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "sourceSha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e",
+        "renderSha256": "5ed871a74a5a8b6c326ef333609ff0d4337b605b30e5754e02ebafd0d0003f5e",
+        "lessons": [
+          "core-needle-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "6bcd42a47c188b86e3b1ddfdb4744fefe9bfb5e8",
+        "bytes": 8540,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "sourceSha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f",
+        "renderSha256": "6550a4c73633b3103395971e36fd475dad14116e395ceb8675badaa6a03e0898",
+        "lessons": [
+          "core-needle-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "b7e115e51a86302d20dfb80a36e791a6e283e570",
+        "bytes": 12313,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "sourceSha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4",
+        "renderSha256": "f59381b5bf5e777777a964cec62f0c502d102290a75dc54cbdb2d5729672578b",
+        "lessons": [
+          "fine-needle-aspiration"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Scientific distinction retained. At this renderer/font, heading and first panel number appear crowded at left; return source/render QA limitation without editing Guide."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "4d2ca3eb19497fd17b1c03f4a91ca139bd5d9a85",
+        "bytes": 12315,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "sourceSha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289",
+        "renderSha256": "456a455d363ea5987b3f60b39e0a98684e0b0d5c897c68a59a09c0860a6f3156",
+        "lessons": [
+          "fine-needle-aspiration"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Scientific distinction retained. At this renderer/font, heading and first panel number appear crowded at left; return source/render QA limitation without editing Guide."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "96ec3c51a94b9bdeec761e62f0d8aeff7c7cddbb",
+        "bytes": 5818,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "sourceSha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+        "renderSha256": "8485c261ecb05dd402c65e6835417f5c959024a020adddb502be668b623f42c6",
+        "lessons": [
+          "tissue-is-non-renewable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "f2707d19faa2c83e8d61c3fec506dd9ccdb41f6a",
+        "bytes": 5818,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "sourceSha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+        "renderSha256": "b08f07c5094d23ee276949265c375c19bff86e3a74b0a0226f59b06fb7237ace",
+        "lessons": [
+          "tissue-is-non-renewable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "18486392d2049f05f92ac63bfc4e9029460dcbe4",
+        "bytes": 4816,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "sourceSha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770",
+        "renderSha256": "f5dd6f32e965131415bf62b351b4a316d632c09384f29fec86b3658ad6748519",
+        "lessons": [
+          "ffpe-vs-fresh-frozen-vs-viable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "5c969ed54787935ab7593f16fab3f76ea04297a9",
+        "bytes": 4816,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "sourceSha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7",
+        "renderSha256": "d0444f9d7b5cbf0a3b225984c1cf73f7ed2888af9460a2dd07c85b0338de825e",
+        "lessons": [
+          "ffpe-vs-fresh-frozen-vs-viable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "ed26764c5cf764e46255a2c7a9211af3032eb22f",
+        "bytes": 4698,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "sourceSha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e",
+        "renderSha256": "1539a304c37185d5aa48fc7fd0bd03a220c2d398ae168d70420c1875a6dbcb40",
+        "lessons": [
+          "surgical-resection-specimen"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "a577f2538f5bc70b079b595e40b8c22e0e9c9c34",
+        "bytes": 4698,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "sourceSha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4",
+        "renderSha256": "3306146256bbecd9ad87973d8ca5351420f0ecb0d0d8fff58141eef81ef96acd",
+        "lessons": [
+          "surgical-resection-specimen"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "5aec3af9360dc00ce75e89de6b1e68979b7aacf1",
+        "bytes": 9635,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "sourceSha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0",
+        "renderSha256": "84f3d89cb9cbdefdd1f1da359e5e2159f29d63407b257f59a91d5cdf1f2b272b",
+        "lessons": [
+          "rna-integrity"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "ef6c3663f21db9fa7f11d192aebd52b35117dcf9",
+        "bytes": 9635,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "sourceSha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb",
+        "renderSha256": "844956240770b377aa2158af3e1aa195bbf745fa653bccf15722f36787d65420",
+        "lessons": [
+          "rna-integrity"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "1c529211d5d892a1ca31b6e27f39af3f63f12114",
+        "bytes": 11134,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "sourceSha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4",
+        "renderSha256": "9ccdc7c4f454a7d21d2e99c0ff13b7c553feb6f6f1fe51aa0773ff679be0002b",
+        "lessons": [
+          "vacuum-assisted-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "011e49d35be4be7d31d6828f642902ff14c8528b",
+        "bytes": 11136,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "sourceSha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be",
+        "renderSha256": "955f2699ff9ee0f71a0c03eca9dadc332ca1953b7d08d46505bfb55bfaa6781d",
+        "lessons": [
+          "vacuum-assisted-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "3ee1f622fb7beac211e2abb7cb1f5119586828a2",
+        "bytes": 7020,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-dark.svg",
+        "sourceSha256": "cb1eb9491aa7805d361aefd4b6552cbead916a5579c75342b15940c54cb9bb3b",
+        "renderSha256": "a1afa748ab4f8da00a88df4ae7b5a20b5e539bb4c86b3e44290ee92c69f1e9ef",
+        "lessons": [
+          "h-and-e-morphology"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "0833ec555e436829d464d8cfc70738e55cf87cf6",
+        "bytes": 7020,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/h-and-e-section-shapes-and-setting-v1-light.svg",
+        "sourceSha256": "3b2b2b6cb0a9231def57c14cc7c82d8e280d555b5ebdfcabd2bf7563d51436be",
+        "renderSha256": "36641448f0b61272180b8f0f03aafad317e3b5d2d9568990c61716b19fe97a39",
+        "lessons": [
+          "h-and-e-morphology"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "4e39f1f594a1664e35c11227a853c1c7677da327",
+        "bytes": 16652,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-dark.svg",
+        "sourceSha256": "4459dcd0355101f8fe9277e73268a6328943bc2f05803eec6198300f7acae2e7",
+        "renderSha256": "134833fad1e0c33da806b32e6616ee5e36742cea6e694b36d7ad625bab253eb2",
+        "lessons": [
+          "immunohistochemistry"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "29503970ad0e9384cf8831028fd3310c688f7d35",
+        "bytes": 16652,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/ihc-intensity-distribution-and-positive-fraction-v1-light.svg",
+        "sourceSha256": "29bd68f7498a3580cd5e8b0b9d22ffa4de8c7cdd6ad1158e36d38fe561b56733",
+        "renderSha256": "662d6b189fdaf6e8797baf8bdfd19e6b6c41597913be77c82be59b8056f04ffb",
+        "lessons": [
+          "immunohistochemistry"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "42da5f606429a04c435209a084c4621bc30fa068",
+        "bytes": 30426,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-dark.svg",
+        "sourceSha256": "67b0a988f98ef11b744a084c1e043e8105c78eb5003d127b449c15aa982433e2",
+        "renderSha256": "01e5d27d434afce2fe45045775e82d562f574ce73696150177c2503bc26016ce",
+        "lessons": [
+          "pd-l1-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "3b4440a625b70a6a2dbb8e56c85933961b4fbfd3",
+        "bytes": 30426,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/pd-l1-eligible-cells-and-tumor-denominator-v1-light.svg",
+        "sourceSha256": "0373248af4ae44df34e0efcff61fb837980a38f4bd48f5d4e1f5e6e2891785ab",
+        "renderSha256": "459457cf494cae44de7ab4db7c43a37290ea44d3c0f6daf3f7ff21a9db9d6f77",
+        "lessons": [
+          "pd-l1-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "deb7fca09cf61b9df1d39b4827d3a6097af626c3",
+        "bytes": 6316,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-dark.svg",
+        "sourceSha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212",
+        "renderSha256": "79245985c5e13d38d77fb93d94f0e12674550c2869a9a4d9377888e6196c82a0",
+        "lessons": [
+          "stil-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Pooled-area arithmetic20% versus35% agrees. Green internal motifs in excluded pink nests could confuse the legend; caption and exclusion text retain correct denominator."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "833aa3b46845694173cd22a44b4583683c016063",
+        "bytes": 6316,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/pathology-readouts/images/stromal-area-and-pooled-region-weighting-v1-light.svg",
+        "sourceSha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89",
+        "renderSha256": "1b11b8e656421d97c281edfa4273c1a5ba914383d45d8c8a4c86f2603161f7ae",
+        "lessons": [
+          "stil-scoring"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Pooled-area arithmetic20% versus35% agrees. Green internal motifs in excluded pink nests could confuse the legend; caption and exclusion text retain correct denominator."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "7264ba861f15f98333f584c8621e573bbd6f17be",
+        "bytes": 8538,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-dark.svg",
+        "sourceSha256": "b66c0712a26a5470ad06d0484f592e8336d52cb574069751265a2d52e9cda22e",
+        "renderSha256": "5ed871a74a5a8b6c326ef333609ff0d4337b605b30e5754e02ebafd0d0003f5e",
+        "lessons": [
+          "core-needle-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "6bcd42a47c188b86e3b1ddfdb4744fefe9bfb5e8",
+        "bytes": 8540,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/core-is-a-local-window-v1-light.svg",
+        "sourceSha256": "2c29af9b51c4717f01fbc6ce49725c4e7bc4098b951ff6cd37acaa99b713015f",
+        "renderSha256": "6550a4c73633b3103395971e36fd475dad14116e395ceb8675badaa6a03e0898",
+        "lessons": [
+          "core-needle-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "b7e115e51a86302d20dfb80a36e791a6e283e570",
+        "bytes": 12313,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-dark.svg",
+        "sourceSha256": "9f45ee1bf67b5c68d23cb683b41974435ccc1e987d1616c9ca25732289fb94b4",
+        "renderSha256": "f59381b5bf5e777777a964cec62f0c502d102290a75dc54cbdb2d5729672578b",
+        "lessons": [
+          "fine-needle-aspiration"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Scientific distinction retained. At this renderer/font, heading and first panel number appear crowded at left; return source/render QA limitation without editing Guide."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "4d2ca3eb19497fd17b1c03f4a91ca139bd5d9a85",
+        "bytes": 12315,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/core-versus-recovered-material-v2-light.svg",
+        "sourceSha256": "d0a918a7c57c62e62a71353338d8334a8738541b6b0859b9edd4487767a66289",
+        "renderSha256": "456a455d363ea5987b3f60b39e0a98684e0b0d5c897c68a59a09c0860a6f3156",
+        "lessons": [
+          "fine-needle-aspiration"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Scientific distinction retained. At this renderer/font, heading and first panel number appear crowded at left; return source/render QA limitation without editing Guide."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "96ec3c51a94b9bdeec761e62f0d8aeff7c7cddbb",
+        "bytes": 5818,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-dark.svg",
+        "sourceSha256": "2b199f98cf83f09c8620eabca1e1f9160cebb59316be424cdf5ab854f192284d",
+        "renderSha256": "8485c261ecb05dd402c65e6835417f5c959024a020adddb502be668b623f42c6",
+        "lessons": [
+          "tissue-is-non-renewable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "f2707d19faa2c83e8d61c3fec506dd9ccdb41f6a",
+        "bytes": 5818,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/finite-tissue-use-and-reusable-data-b10-v1-light.svg",
+        "sourceSha256": "ff281d449113561f2615d4bc1a1c0c7b42c8dd789d93575717031d05068f709d",
+        "renderSha256": "b08f07c5094d23ee276949265c375c19bff86e3a74b0a0226f59b06fb7237ace",
+        "lessons": [
+          "tissue-is-non-renewable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "18486392d2049f05f92ac63bfc4e9029460dcbe4",
+        "bytes": 4816,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-dark.svg",
+        "sourceSha256": "ba56ed3695b1705f70d0953b637156d194c49b46fa608b018d75256c14a6b770",
+        "renderSha256": "f5dd6f32e965131415bf62b351b4a316d632c09384f29fec86b3658ad6748519",
+        "lessons": [
+          "ffpe-vs-fresh-frozen-vs-viable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "5c969ed54787935ab7593f16fab3f76ea04297a9",
+        "bytes": 4816,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/fixed-frozen-viable-preserved-properties-b10-v1-light.svg",
+        "sourceSha256": "4268a579a2d7a030e10a2b3a5f9d933301f30a647be8f794db083b05ee8a10c7",
+        "renderSha256": "d0444f9d7b5cbf0a3b225984c1cf73f7ed2888af9460a2dd07c85b0338de825e",
+        "lessons": [
+          "ffpe-vs-fresh-frozen-vs-viable"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "ed26764c5cf764e46255a2c7a9211af3032eb22f",
+        "bytes": 4698,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-dark.svg",
+        "sourceSha256": "90f93eb08ac85631b57e99b459d473847ea27b690659a5bed66e10921ceaf70e",
+        "renderSha256": "1539a304c37185d5aa48fc7fd0bd03a220c2d398ae168d70420c1875a6dbcb40",
+        "lessons": [
+          "surgical-resection-specimen"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "a577f2538f5bc70b079b595e40b8c22e0e9c9c34",
+        "bytes": 4698,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/oriented-specimen-to-selected-blocks-b10-v1-light.svg",
+        "sourceSha256": "e5ca236017dbc87659f9b1d06a212e12cb9d824526fa4361525365e1045f5fe4",
+        "renderSha256": "3306146256bbecd9ad87973d8ca5351420f0ecb0d0d8fff58141eef81ef96acd",
+        "lessons": [
+          "surgical-resection-specimen"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "5aec3af9360dc00ce75e89de6b1e68979b7aacf1",
+        "bytes": 9635,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-dark.svg",
+        "sourceSha256": "5366a7f65498f57f330329ded001c3aae33a9d7d9709678a5e28ca177e7fd4e0",
+        "renderSha256": "84f3d89cb9cbdefdd1f1da359e5e2159f29d63407b257f59a91d5cdf1f2b272b",
+        "lessons": [
+          "rna-integrity"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "ef6c3663f21db9fa7f11d192aebd52b35117dcf9",
+        "bytes": 9635,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/rna-trace-score-and-length-fraction-v2-light.svg",
+        "sourceSha256": "fe0bab29a9b631e6a5475a18d3ac71fcc1e90cf736fd1e5787afc97a3fc59aeb",
+        "renderSha256": "844956240770b377aa2158af3e1aa195bbf745fa653bccf15722f36787d65420",
+        "lessons": [
+          "rna-integrity"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "1c529211d5d892a1ca31b6e27f39af3f63f12114",
+        "bytes": 11134,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-dark.svg",
+        "sourceSha256": "14623da2852a98d033c919535aedb3c972df94f6e6d59f985a76bc94d0d6e3a4",
+        "renderSha256": "9ccdc7c4f454a7d21d2e99c0ff13b7c553feb6f6f1fe51aa0773ff679be0002b",
+        "lessons": [
+          "vacuum-assisted-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      },
+      {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "path": "wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "011e49d35be4be7d31d6828f642902ff14c8528b",
+        "bytes": 11136,
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/measurement/specimens/images/sampled-pieces-versus-oriented-boundary-v2-light.svg",
+        "sourceSha256": "0d56760c5429099b02b72b4536ffeca2f980ed964d4b62421418a58c0c7d67be",
+        "renderSha256": "955f2699ff9ee0f71a0c03eca9dadc332ca1953b7d08d46505bfb55bfaa6781d",
+        "lessons": [
+          "vacuum-assisted-biopsy"
+        ],
+        "reviewReused": true,
+        "actualViewMethod": "Full-extent original-detail paired PNG image view, each theme independently checked against lesson and caption",
+        "renderer": "sharp librsvg, full intrinsic size, CSS variable fallback substitution in private buffer",
+        "limits": "font substitution possible; raster is a schematic review, not browser layout or diagnostic validation",
+        "assessment": "Full composition and labels visible; conceptual meaning agrees with lesson. Fictional shapes/counts are not empirical evidence."
+      }
+    ],
+    "newlyReviewedEntries": 44,
+    "scope": "Reuse of actual complete lesson-context figure views after pinned source and raster identity checks; no fresh browser or accessibility review. Mermaid has a separate new coordinator render/view assessment."
+  },
+  "mermaid": {
+    "instances": [
+      {
+        "file": "7510db6b-blood-as-a-renewable-sample.md",
+        "ordinal": 0,
+        "diagramId": "diagram-2dda6cb521df"
+      },
+      {
+        "file": "7510db6b-core-needle-biopsy.md",
+        "ordinal": 0,
+        "diagramId": "diagram-bb04ffbf6edd"
+      },
+      {
+        "file": "7510db6b-digital-pathology.md",
+        "ordinal": 0,
+        "diagramId": "diagram-cd683de05542"
+      },
+      {
+        "file": "7510db6b-ffpe-vs-fresh-frozen-vs-viable.md",
+        "ordinal": 0,
+        "diagramId": "diagram-74b4fcd5c1d1"
+      },
+      {
+        "file": "7510db6b-fine-needle-aspiration.md",
+        "ordinal": 0,
+        "diagramId": "diagram-7703d4f46bf9"
+      },
+      {
+        "file": "7510db6b-h-and-e-morphology.md",
+        "ordinal": 0,
+        "diagramId": "diagram-596743247eae"
+      },
+      {
+        "file": "7510db6b-immunohistochemistry.md",
+        "ordinal": 0,
+        "diagramId": "diagram-9e13756f2c14"
+      },
+      {
+        "file": "7510db6b-pd-l1-scoring.md",
+        "ordinal": 0,
+        "diagramId": "diagram-302ac1fe919b"
+      },
+      {
+        "file": "7510db6b-rna-integrity.md",
+        "ordinal": 0,
+        "diagramId": "diagram-143cdef52de4"
+      },
+      {
+        "file": "7510db6b-stil-scoring.md",
+        "ordinal": 0,
+        "diagramId": "diagram-a40c224e493e"
+      },
+      {
+        "file": "7510db6b-surgical-resection-specimen.md",
+        "ordinal": 0,
+        "diagramId": "diagram-ba08a547281a"
+      },
+      {
+        "file": "7510db6b-tissue-is-non-renewable.md",
+        "ordinal": 0,
+        "diagramId": "diagram-54e199ad7e92"
+      },
+      {
+        "file": "7510db6b-vacuum-assisted-biopsy.md",
+        "ordinal": 0,
+        "diagramId": "diagram-05c4e17de9f2"
+      },
+      {
+        "file": "c9689645-blood-as-a-renewable-sample.md",
+        "ordinal": 0,
+        "diagramId": "diagram-2dda6cb521df"
+      },
+      {
+        "file": "c9689645-core-needle-biopsy.md",
+        "ordinal": 0,
+        "diagramId": "diagram-bb04ffbf6edd"
+      },
+      {
+        "file": "c9689645-digital-pathology.md",
+        "ordinal": 0,
+        "diagramId": "diagram-cd683de05542"
+      },
+      {
+        "file": "c9689645-ffpe-vs-fresh-frozen-vs-viable.md",
+        "ordinal": 0,
+        "diagramId": "diagram-74b4fcd5c1d1"
+      },
+      {
+        "file": "c9689645-fine-needle-aspiration.md",
+        "ordinal": 0,
+        "diagramId": "diagram-7703d4f46bf9"
+      },
+      {
+        "file": "c9689645-h-and-e-morphology.md",
+        "ordinal": 0,
+        "diagramId": "diagram-596743247eae"
+      },
+      {
+        "file": "c9689645-immunohistochemistry.md",
+        "ordinal": 0,
+        "diagramId": "diagram-9e13756f2c14"
+      },
+      {
+        "file": "c9689645-pd-l1-scoring.md",
+        "ordinal": 0,
+        "diagramId": "diagram-360b917d25cb"
+      },
+      {
+        "file": "c9689645-rna-integrity.md",
+        "ordinal": 0,
+        "diagramId": "diagram-143cdef52de4"
+      },
+      {
+        "file": "c9689645-stil-scoring.md",
+        "ordinal": 0,
+        "diagramId": "diagram-a40c224e493e"
+      },
+      {
+        "file": "c9689645-surgical-resection-specimen.md",
+        "ordinal": 0,
+        "diagramId": "diagram-ba08a547281a"
+      },
+      {
+        "file": "c9689645-tissue-is-non-renewable.md",
+        "ordinal": 0,
+        "diagramId": "diagram-54e199ad7e92"
+      },
+      {
+        "file": "c9689645-tumor-purity-and-ploidy.md",
+        "ordinal": 0,
+        "diagramId": "diagram-0795ec31c578"
+      },
+      {
+        "file": "c9689645-tumor-stroma-ratio.md",
+        "ordinal": 0,
+        "diagramId": "diagram-a0828e076f80"
+      },
+      {
+        "file": "c9689645-vacuum-assisted-biopsy.md",
+        "ordinal": 0,
+        "diagramId": "diagram-05c4e17de9f2"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": "diagram-2dda6cb521df",
+        "sourceSha256": "2dda6cb521df395de81d6657cdae680cfcde1e3c40e7e1937413b83a87be7396",
+        "instances": [
+          {
+            "file": "7510db6b-blood-as-a-renewable-sample.md",
+            "ordinal": 0,
+            "diagramId": "diagram-2dda6cb521df"
+          },
+          {
+            "file": "c9689645-blood-as-a-renewable-sample.md",
+            "ordinal": 0,
+            "diagramId": "diagram-2dda6cb521df"
+          }
+        ],
+        "renderSha256": "a23748a16b15f7253fc8b75ad31823e31660a3d1e833951df72656ba3ef398bf",
+        "width": 360,
+        "height": 400,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-bb04ffbf6edd",
+        "sourceSha256": "bb04ffbf6edd9837680f2a894d2ae4d37ef846d88ee94a4c9c4d23043dcb3ea5",
+        "instances": [
+          {
+            "file": "7510db6b-core-needle-biopsy.md",
+            "ordinal": 0,
+            "diagramId": "diagram-bb04ffbf6edd"
+          },
+          {
+            "file": "c9689645-core-needle-biopsy.md",
+            "ordinal": 0,
+            "diagramId": "diagram-bb04ffbf6edd"
+          }
+        ],
+        "renderSha256": "b99e6e795c4f3017a92cf7f63db242b2f991c0f43575adf24c0397034690d9f1",
+        "width": 168,
+        "height": 632,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-cd683de05542",
+        "sourceSha256": "cd683de055425e65c365fe5d21d10fd4cb79cc1b643dd9ca0e660593701edea7",
+        "instances": [
+          {
+            "file": "7510db6b-digital-pathology.md",
+            "ordinal": 0,
+            "diagramId": "diagram-cd683de05542"
+          },
+          {
+            "file": "c9689645-digital-pathology.md",
+            "ordinal": 0,
+            "diagramId": "diagram-cd683de05542"
+          }
+        ],
+        "renderSha256": "fca79d63d2ddf7d85bb2ef6420612e906774075e2813f69079e70abd66e9530e",
+        "width": 360,
+        "height": 472,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-74b4fcd5c1d1",
+        "sourceSha256": "74b4fcd5c1d17271fec8db8b38df3293e0f169dc599f3e06a32bffc38bc4e7f1",
+        "instances": [
+          {
+            "file": "7510db6b-ffpe-vs-fresh-frozen-vs-viable.md",
+            "ordinal": 0,
+            "diagramId": "diagram-74b4fcd5c1d1"
+          },
+          {
+            "file": "c9689645-ffpe-vs-fresh-frozen-vs-viable.md",
+            "ordinal": 0,
+            "diagramId": "diagram-74b4fcd5c1d1"
+          }
+        ],
+        "renderSha256": "36132e9f74350a2830f0ccd96b2d8dc366758951757a780cf2e399edca6173fb",
+        "width": 168,
+        "height": 544,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-7703d4f46bf9",
+        "sourceSha256": "7703d4f46bf9c66e35018e28749de0dea414ee554823ab369a84522c8ca03c3d",
+        "instances": [
+          {
+            "file": "7510db6b-fine-needle-aspiration.md",
+            "ordinal": 0,
+            "diagramId": "diagram-7703d4f46bf9"
+          },
+          {
+            "file": "c9689645-fine-needle-aspiration.md",
+            "ordinal": 0,
+            "diagramId": "diagram-7703d4f46bf9"
+          }
+        ],
+        "renderSha256": "772cb11dd819bb516dbd8900cf5f957287f9aca2fe5047a78d4d06ff40e37340",
+        "width": 360,
+        "height": 472,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-596743247eae",
+        "sourceSha256": "596743247eae943c48c8ce28285d562cc83e04b3a66bf512b1719ad7ff732505",
+        "instances": [
+          {
+            "file": "7510db6b-h-and-e-morphology.md",
+            "ordinal": 0,
+            "diagramId": "diagram-596743247eae"
+          },
+          {
+            "file": "c9689645-h-and-e-morphology.md",
+            "ordinal": 0,
+            "diagramId": "diagram-596743247eae"
+          }
+        ],
+        "renderSha256": "d12103c2feb0108e48bd8ed8a40b2040829c8259cd3420bb78ecb46395438448",
+        "width": 168,
+        "height": 584,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-9e13756f2c14",
+        "sourceSha256": "9e13756f2c144a19246969ec9fb46c69ef511817a8a2c57cfa8dbd0f670fcde0",
+        "instances": [
+          {
+            "file": "7510db6b-immunohistochemistry.md",
+            "ordinal": 0,
+            "diagramId": "diagram-9e13756f2c14"
+          },
+          {
+            "file": "c9689645-immunohistochemistry.md",
+            "ordinal": 0,
+            "diagramId": "diagram-9e13756f2c14"
+          }
+        ],
+        "renderSha256": "b226c4bed0ea456edcf2ee9d11675c5a7ecf6f8b36b07f8da81a2e5def111905",
+        "width": 168,
+        "height": 344,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-302ac1fe919b",
+        "sourceSha256": "302ac1fe919b985475483132dd101c78fa8f3acc356c70bf313b90bbbb7c89a5",
+        "instances": [
+          {
+            "file": "7510db6b-pd-l1-scoring.md",
+            "ordinal": 0,
+            "diagramId": "diagram-302ac1fe919b"
+          }
+        ],
+        "renderSha256": "2d31f0324838451c385f917509eff94bef5c5d11bcc1fa2908e02bdbb4bc4da2",
+        "width": 360,
+        "height": 472,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-143cdef52de4",
+        "sourceSha256": "143cdef52de46d8961d434826b5ec52161c205b9f03636d211386b402f2cf317",
+        "instances": [
+          {
+            "file": "7510db6b-rna-integrity.md",
+            "ordinal": 0,
+            "diagramId": "diagram-143cdef52de4"
+          },
+          {
+            "file": "c9689645-rna-integrity.md",
+            "ordinal": 0,
+            "diagramId": "diagram-143cdef52de4"
+          }
+        ],
+        "renderSha256": "b97237c2dfcfa56ba09b5860c7db5db8b1ea90d6f1e7d316fae994bbd2df4fc6",
+        "width": 168,
+        "height": 792,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-a40c224e493e",
+        "sourceSha256": "a40c224e493ec7f4fed573ed40e47ac455b18e64377336e0cd9ba271533db0bd",
+        "instances": [
+          {
+            "file": "7510db6b-stil-scoring.md",
+            "ordinal": 0,
+            "diagramId": "diagram-a40c224e493e"
+          },
+          {
+            "file": "c9689645-stil-scoring.md",
+            "ordinal": 0,
+            "diagramId": "diagram-a40c224e493e"
+          }
+        ],
+        "renderSha256": "fd9cb80b8d6ad5cbc1470e1172690c8e8bac026786721cf3fe1495a4c81b1793",
+        "width": 168,
+        "height": 326,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-ba08a547281a",
+        "sourceSha256": "ba08a547281a1cfb9cdf6a5d16502caebfdbb2c43f23d5e192e001c11825fb17",
+        "instances": [
+          {
+            "file": "7510db6b-surgical-resection-specimen.md",
+            "ordinal": 0,
+            "diagramId": "diagram-ba08a547281a"
+          },
+          {
+            "file": "c9689645-surgical-resection-specimen.md",
+            "ordinal": 0,
+            "diagramId": "diagram-ba08a547281a"
+          }
+        ],
+        "renderSha256": "7cdda3c689a6d9eee6e655463bc9153e431f005c287fce9ef44c48e465e5eeba",
+        "width": 168,
+        "height": 584,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-54e199ad7e92",
+        "sourceSha256": "54e199ad7e9227bad6fe67c7ab12453d436e6acac7d1bdb17f62ed907e8d4c8d",
+        "instances": [
+          {
+            "file": "7510db6b-tissue-is-non-renewable.md",
+            "ordinal": 0,
+            "diagramId": "diagram-54e199ad7e92"
+          },
+          {
+            "file": "c9689645-tissue-is-non-renewable.md",
+            "ordinal": 0,
+            "diagramId": "diagram-54e199ad7e92"
+          }
+        ],
+        "renderSha256": "8fbd56ca2a1e707c6a5a51b9b82415a33e90b11c23210f6b6355c54c898163cb",
+        "width": 360,
+        "height": 512,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-05c4e17de9f2",
+        "sourceSha256": "05c4e17de9f21d583805a9719b3caa87ce8cf1e1971d5656dc4169b32fd4cb2c",
+        "instances": [
+          {
+            "file": "7510db6b-vacuum-assisted-biopsy.md",
+            "ordinal": 0,
+            "diagramId": "diagram-05c4e17de9f2"
+          },
+          {
+            "file": "c9689645-vacuum-assisted-biopsy.md",
+            "ordinal": 0,
+            "diagramId": "diagram-05c4e17de9f2"
+          }
+        ],
+        "renderSha256": "f6ed8653adb7bc660c292f646b3a1f374c64cad55e001e0f20751aee215ca3b6",
+        "width": 168,
+        "height": 608,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-360b917d25cb",
+        "sourceSha256": "360b917d25cbe98707f0240370c1c5bd327e1835f9c73f82013c5474ab3439a1",
+        "instances": [
+          {
+            "file": "c9689645-pd-l1-scoring.md",
+            "ordinal": 0,
+            "diagramId": "diagram-360b917d25cb"
+          }
+        ],
+        "renderSha256": "e7d896e98d83903069ea3514c5cbdeb8da233df8f8d41017929a035d20781d31",
+        "width": 552,
+        "height": 520,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-0795ec31c578",
+        "sourceSha256": "0795ec31c5785fb3f2554e6c42e65a67745731624e1862f5a95f10a22bd26b38",
+        "instances": [
+          {
+            "file": "c9689645-tumor-purity-and-ploidy.md",
+            "ordinal": 0,
+            "diagramId": "diagram-0795ec31c578"
+          }
+        ],
+        "renderSha256": "9a00442ea310bd2de65d16a55fe3e0c7ee5b0785a786bc1fda25e223a3106d79",
+        "width": 360,
+        "height": 584,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      },
+      {
+        "id": "diagram-a0828e076f80",
+        "sourceSha256": "a0828e076f8074254874ba246146d25e6593015d329a49d63105ca73df08c515",
+        "instances": [
+          {
+            "file": "c9689645-tumor-stroma-ratio.md",
+            "ordinal": 0,
+            "diagramId": "diagram-a0828e076f80"
+          }
+        ],
+        "renderSha256": "9f88d4e466568e922f65dda9c0440d6142de2d6d6aec64c8290dc191d72aaac0",
+        "width": 360,
+        "height": 837,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "viewMethod": "Coordinator full-extent view of native-size Chrome renders in four labelled sheets",
+        "verdict": "Sequence, branches and labels agree with the scoped lesson and current reader prose; no scientific defect found. These diagrams are explanatory, not independent measurements."
+      }
+    ],
+    "sheets": [
+      {
+        "file": "sheet-1.png",
+        "width": 392,
+        "height": 2770,
+        "diagrams": [
+          "diagram-2dda6cb521df",
+          "diagram-bb04ffbf6edd",
+          "diagram-cd683de05542",
+          "diagram-74b4fcd5c1d1",
+          "diagram-7703d4f46bf9"
+        ]
+      },
+      {
+        "file": "sheet-2.png",
+        "width": 392,
+        "height": 2768,
+        "diagrams": [
+          "diagram-596743247eae",
+          "diagram-9e13756f2c14",
+          "diagram-302ac1fe919b",
+          "diagram-143cdef52de4",
+          "diagram-a40c224e493e"
+        ]
+      },
+      {
+        "file": "sheet-3.png",
+        "width": 584,
+        "height": 3058,
+        "diagrams": [
+          "diagram-ba08a547281a",
+          "diagram-54e199ad7e92",
+          "diagram-05c4e17de9f2",
+          "diagram-360b917d25cb",
+          "diagram-0795ec31c578"
+        ]
+      },
+      {
+        "file": "sheet-4.png",
+        "width": 392,
+        "height": 887,
+        "diagrams": [
+          "diagram-a0828e076f80"
+        ]
+      }
+    ]
+  }
+}

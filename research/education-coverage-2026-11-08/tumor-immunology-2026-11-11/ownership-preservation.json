@@ -1,0 +1,33 @@
+{
+  "wholeGraphChangedOnlyAllowedOwners": true,
+  "rootBeforeCount": 22796,
+  "rootAfterCount": 22800,
+  "changedRootOwners": [
+    "tils",
+    "abscopal-effect",
+    "neoadjuvant-adjuvant",
+    "cold-vs-hot",
+    "in-situ-vaccination",
+    "immune-exclusion",
+    "cancer-associated-fibroblasts",
+    "tumor-associated-macrophages",
+    "nk-cell",
+    "cancer-immunity-cycle",
+    "immune-desert-exclusion",
+    "nk-cell-recognition",
+    "immune-surveillance-immunoediting"
+  ],
+  "newRootOwners": [
+    "adaptive-immune-resistance",
+    "agretopicity",
+    "cd4-t-cell-subsets",
+    "perioperative-immune-window"
+  ],
+  "sharedChangedOwners": [
+    "immune-surveillance-immunoediting"
+  ],
+  "existingSourceURLsPreserved": true,
+  "existingNotesPreservedExceptDocumentedPancreaticCorrections": true,
+  "mainCheckoutUntouched": true,
+  "workerCommitAndPacketsPreserved": true
+}

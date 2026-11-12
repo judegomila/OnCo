@@ -1,0 +1,620 @@
+{
+  "svgEntries": [
+    {
+      "sourceFile": "medicines-blocks-and-strategies-v1-light.svg",
+      "theme": "light",
+      "render": "medicines-blocks-and-strategies-v1-light.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "39a11b2e0cbae592915c8e261539d964bdf7d4f3b5c011d935d6d605fa4226bd",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    },
+    {
+      "sourceFile": "medicines-blocks-and-strategies-v1-dark.svg",
+      "theme": "dark",
+      "render": "medicines-blocks-and-strategies-v1-dark.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "905a77d9d0f785bc81ad7ba6b827829e82e3e298e0c65ce9192aff1b294716bd",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    },
+    {
+      "sourceFile": "predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "theme": "light",
+      "render": "predefined-rule-and-interpretable-inputs-v1-light.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "e9746efe6cd3b7002a57a6f65728473e702e3af43bd46971570077bad48aa648",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    },
+    {
+      "sourceFile": "predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "theme": "dark",
+      "render": "predefined-rule-and-interpretable-inputs-v1-dark.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "bfd5dcca800f8b97b4e3a3757159275891d46a3d9d6795cfbfa3e2e107ccb8ad",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    },
+    {
+      "sourceFile": "whole-perioperative-strategy-v1-light.svg",
+      "theme": "light",
+      "render": "whole-perioperative-strategy-v1-light.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "8a62208dc30456e866aeb14b409623a5a782f940c74b31eb31de83f43710aa15",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    },
+    {
+      "sourceFile": "whole-perioperative-strategy-v1-dark.svg",
+      "theme": "dark",
+      "render": "whole-perioperative-strategy-v1-dark.png",
+      "width": 600,
+      "height": 900,
+      "sha256": "93bd389460ed764d4e32470e3e7dba69314add796b12bf72c89a5ebaa11f19ca",
+      "viewed": true,
+      "viewedBy": "Agent source-figure audit, not expert or learner approval",
+      "checkedOn": "2026-11-12",
+      "actualPngWidth": 600,
+      "actualPngHeight": 900
+    }
+  ],
+  "mermaid": {
+    "diagramInstances": 10,
+    "uniqueCodes": 5,
+    "renders": [
+      {
+        "codeSha256": "9aee75baf8202e836af2243373e077e559eaa26d7b9658a1196cde02e5f4f540",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-1-default.png",
+        "renderSha256": "5e7caf80262b9caa5b4d4a18ee069ff2e85f8ccebeb2de824dabd55736a9b07f",
+        "width": 168,
+        "height": 243,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 267
+      },
+      {
+        "codeSha256": "9aee75baf8202e836af2243373e077e559eaa26d7b9658a1196cde02e5f4f540",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-1-dark.png",
+        "renderSha256": "0310e10b9ce6632f71569169d5837ebd9b4e6ac9f4808b1db412d9aae7345f12",
+        "width": 168,
+        "height": 243,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 267
+      },
+      {
+        "codeSha256": "a89fcaee5d4fd9119dc85cb246b02aacbe8e5df34b58c30e371bc7eaf480946c",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-2-default.png",
+        "renderSha256": "3b02d998c0c8c778c809af30aa13bf6ab5ffe6923a9bd5eb06e70d3b71a5fdfa",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "a89fcaee5d4fd9119dc85cb246b02aacbe8e5df34b58c30e371bc7eaf480946c",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-2-dark.png",
+        "renderSha256": "e9767af63c53a2615c211affa8082af7f6acd2c3350b7f736244ea6a5c731076",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "9b8d54232271eafd216822792f6dd96cf8a90edc2cc7e7c668824e5be8ae57ea",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-3-default.png",
+        "renderSha256": "631b7d7ed8d0fd19b7f660769b38baa172de946f090c232c1b75dacb34fe5341",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "9b8d54232271eafd216822792f6dd96cf8a90edc2cc7e7c668824e5be8ae57ea",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-3-dark.png",
+        "renderSha256": "ff5a7aa01db28c4c5300877d7075af1cb880e5efb9479fcc9d3248945a8e54b9",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "7a7d3830108bb59178d261192e1d07399689f7f408abbcda00ede1840e421603",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-4-default.png",
+        "renderSha256": "73d4b31ffbc9166a70720a5ff18686bc139c9b147727279a3aa7ff297dd0ade2",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "7a7d3830108bb59178d261192e1d07399689f7f408abbcda00ede1840e421603",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-4-dark.png",
+        "renderSha256": "6b0eb50039ef943874d8d6a36f89813afb277570242449e80078d2df86c13928",
+        "width": 168,
+        "height": 312,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 192,
+        "actualPngHeight": 336
+      },
+      {
+        "codeSha256": "31729af5206f8fccc867df1a8316f1f81361938048818859167f9df01dc81473",
+        "theme": "default",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/index.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/index.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-5-default.png",
+        "renderSha256": "5011045f22784128249abce2e5345a556f6f35d6392a47cc1b66ab83847ffc40",
+        "width": 684,
+        "height": 966,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 708,
+        "actualPngHeight": 990
+      },
+      {
+        "codeSha256": "31729af5206f8fccc867df1a8316f1f81361938048818859167f9df01dc81473",
+        "theme": "dark",
+        "instances": [
+          {
+            "version": "original",
+            "path": "wiki/education/guides/treating-early-tnbc/index.md",
+            "index": 0
+          },
+          {
+            "version": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/index.md",
+            "index": 0
+          }
+        ],
+        "render": "diagram-5-dark.png",
+        "renderSha256": "9de854abe5abdd1abc06fb4611a152f6ff9a071670766563221ff2f693a61605",
+        "width": 684,
+        "height": 966,
+        "viewed": true,
+        "viewedBy": "Agent source-figure audit, not expert or learner approval",
+        "checkedOn": "2026-11-12",
+        "actualPngWidth": 708,
+        "actualPngHeight": 990
+      }
+    ],
+    "standaloneAssets": 0,
+    "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check."
+  },
+  "findings": [
+    {
+      "id": "ART-01",
+      "source": "Treating early TNBC overview Mermaid",
+      "severity": "readability",
+      "finding": "Under the standard dark Mermaid theme, the pale surgery and residual-disease nodes retain light grey text with poor contrast. This is a pinned-source render finding, not a live Guide-browser certification."
+    }
+  ],
+  "scope": "All six standalone SVG theme files and all ten Mermaid theme renders freshly viewed whole with source lesson context. Source artwork unchanged. No mobile, accessibility, measured contrast, expert or learner approval.",
+  "assetReceipts": [
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "file": "medicines-blocks-and-strategies-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "d20416dfbe172853b78f3e7a81430c06bbd5f02c",
+      "bytes": 2989,
+      "sha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "file": "medicines-blocks-and-strategies-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "5d72bce5d1d177b060b483972b538dcfd891092e",
+      "bytes": 2989,
+      "sha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "file": "predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "8b6289e87405efae829dd0b7fd72fec358e2a9ab",
+      "bytes": 3145,
+      "sha256": "7a53ccce598ce4ba4cf3f1c5bafa64b14f16f748ee1174c0feed068356f62cb9",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "file": "predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "90919566a85de30e1432e04f73529850300faf4d",
+      "bytes": 3145,
+      "sha256": "e5f48ab5fa4f5e753348e1d7f04c21d98f5cb92278eb120f766119562da906c2",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-light.svg",
+      "file": "whole-perioperative-strategy-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "9dc35a3332ca0a88a54586422671f083a8696ac1",
+      "bytes": 3328,
+      "sha256": "d0e02d1379ece130c3165e5a33bc461b6e7130ac4e7aecc285fe1f7a9d10e375",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-dark.svg",
+      "file": "whole-perioperative-strategy-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "857a9c341d5c59f0aea7c199c36fe56e157d02b3",
+      "bytes": 3328,
+      "sha256": "aaf23ee1ef07f09ec93e4799bbbbacacfe4e8b6260b703e33d96f1c311434ded",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "file": "medicines-blocks-and-strategies-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "d20416dfbe172853b78f3e7a81430c06bbd5f02c",
+      "bytes": 2989,
+      "sha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "file": "medicines-blocks-and-strategies-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "5d72bce5d1d177b060b483972b538dcfd891092e",
+      "bytes": 2989,
+      "sha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "file": "predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "8b6289e87405efae829dd0b7fd72fec358e2a9ab",
+      "bytes": 3145,
+      "sha256": "7a53ccce598ce4ba4cf3f1c5bafa64b14f16f748ee1174c0feed068356f62cb9",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "file": "predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "90919566a85de30e1432e04f73529850300faf4d",
+      "bytes": 3145,
+      "sha256": "e5f48ab5fa4f5e753348e1d7f04c21d98f5cb92278eb120f766119562da906c2",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-light.svg",
+      "file": "whole-perioperative-strategy-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "9dc35a3332ca0a88a54586422671f083a8696ac1",
+      "bytes": 3328,
+      "sha256": "d0e02d1379ece130c3165e5a33bc461b6e7130ac4e7aecc285fe1f7a9d10e375",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "ownerPath": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-dark.svg",
+      "file": "whole-perioperative-strategy-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "857a9c341d5c59f0aea7c199c36fe56e157d02b3",
+      "bytes": 3328,
+      "sha256": "aaf23ee1ef07f09ec93e4799bbbbacacfe4e8b6260b703e33d96f1c311434ded",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "7a53ccce598ce4ba4cf3f1c5bafa64b14f16f748ee1174c0feed068356f62cb9"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e5f48ab5fa4f5e753348e1d7f04c21d98f5cb92278eb120f766119562da906c2"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "d0e02d1379ece130c3165e5a33bc461b6e7130ac4e7aecc285fe1f7a9d10e375"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "aaf23ee1ef07f09ec93e4799bbbbacacfe4e8b6260b703e33d96f1c311434ded"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "af6dc1095e7d2d039d7224f28942c6ecd2723e72fc5341cd4094977dadd0c17e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/medicines-blocks-and-strategies-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "92357ec174e38644d07faca02664d82cb3eb5307aa2b87263157cc431299cda7"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "7a53ccce598ce4ba4cf3f1c5bafa64b14f16f748ee1174c0feed068356f62cb9"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/predefined-rule-and-interpretable-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e5f48ab5fa4f5e753348e1d7f04c21d98f5cb92278eb120f766119562da906c2"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "d0e02d1379ece130c3165e5a33bc461b6e7130ac4e7aecc285fe1f7a9d10e375"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/images/whole-perioperative-strategy-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "aaf23ee1ef07f09ec93e4799bbbbacacfe4e8b6260b703e33d96f1c311434ded"
+    }
+  ],
+  "sourceArtworkChanged": false,
+  "nativeSvgThemeViews": 6,
+  "mermaidThemeViews": 10
+}

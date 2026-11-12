@@ -1,0 +1,42 @@
+{
+  "originalInventorySha256": "c81f9ce8fdfd47668bd2bb4a44559cf476c69947bf52d9e473811eac5ee8ffb8",
+  "addedRequirements": [
+    {
+      "id": "agretopicity:burden-comparison",
+      "lesson": "agretopicity",
+      "heading": "What the evidence shows",
+      "requirement": "Retain Ghorani’s reported comparison with nonsynonymous mutational and neoantigen burden at its retrospective-cohort scope, without a universal superiority claim.",
+      "kind": "empirical",
+      "versions": [
+        "later"
+      ],
+      "sourceAnchors": [
+        {
+          "version": "later",
+          "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+          "sourceSha256": "83c9e8562b1462ef8709a99fffffb2e62f9b2c5439bc8e3f1f389c184e850bee",
+          "section": {
+            "ordinal": 5,
+            "heading": "What the evidence shows",
+            "kind": "additional-teaching",
+            "sha256": "e60fd118e3aa9c2ea8ca909b15bf09da9389b174faf094ed7599a40e037efaf7",
+            "chars": 2795,
+            "disposition": "teaching-covered-by-requirements",
+            "initialSectionBucketIds": [
+              "agretopicity:8",
+              "agretopicity:9",
+              "agretopicity:10",
+              "agretopicity:11"
+            ]
+          },
+          "heading": "What the evidence shows"
+        }
+      ],
+      "status": "unassessed-against-canonical",
+      "refinementReason": "Final coverage comparison identified a distinct comparative result in the lesson that the initial 208 rows did not explicitly separate. Initial inventory remains immutable; this is an additional unit."
+    }
+  ],
+  "unionRequirements": 209,
+  "originalRequirements": 110,
+  "laterRequirements": 208
+}

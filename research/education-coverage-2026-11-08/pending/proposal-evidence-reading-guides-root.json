@@ -1,0 +1,1756 @@
+{
+  "version": "proposal-evidence-reading-guides-root",
+  "state": "Actual committed registered root fields in unmerged draft #375; no main/live or independent approval",
+  "draft": 375,
+  "committedDataHead": "bf8aea4de6de35b06dc1b4ba0eac66474aa12904",
+  "records": [
+    {
+      "id": "intention-to-treat",
+      "kind": "term",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis",
+      "aka": [
+        "ITT",
+        "intention-to-treat",
+        "intent-to-treat",
+        "ITT population",
+        "ITT analysis",
+        "modified intention-to-treat",
+        "mITT",
+        "per-protocol",
+        "per protocol",
+        "per-protocol population",
+        "as-treated",
+        "evaluable population",
+        "efficacy-evaluable",
+        "response-evaluable",
+        "safety population",
+        "full analysis set",
+        "analysis population",
+        "randomised population"
+      ],
+      "tldr": "An intention-to-treat analysis keeps participants in the groups to which they were randomly assigned. Missing outcomes and departures from treatment still need an explicit analysis plan.",
+      "summary": "Intention to treat is an analysis principle preserving the original randomised assignment, including people who change or stop treatment. ICH E9 describes a full analysis set as close as possible to all randomised participants and requires justification of exclusions. Missing outcomes remain a potential source of bias. Per-protocol and modified populations need explicit, prespecified definitions; their roles depend on the clinical question and design. The E9(R1) estimand framework links that question to the treatment conditions, population, outcome, handling of intercurrent events and summary measure. Read the actual report rather than assuming a default analysis population.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis"
+        },
+        {
+          "label": "ICH E9: statistical principles, analysis sets and safety (September 1998)",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        },
+        {
+          "label": "CONSORT 2025: transparent reporting of randomised trials",
+          "url": "https://doi.org/10.1136/bmj-2024-081123"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "non-inferiority",
+        "prespecified-vs-post-hoc",
+        "double-blind",
+        "control-arm",
+        "estimand",
+        "non-inferiority-margin",
+        "trial-failure-modes",
+        "randomised-trial"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "persephone",
+        "tailorx"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The intention-to-treat principle follows everyone in the group to which they were randomly assigned, including people who stop, switch or never start treatment. Keeping that assignment protects the comparison against selection after randomisation; it does not supply an unobserved outcome. ICH E9 describes a full analysis set as close as possible to all randomised participants, with limited, justified exclusions. Its 2021 addendum asks which treatment effect is intended and how treatment changes are reflected. A treatment-policy question uses relevant outcomes despite specified treatment changes, while a hypothetical question targets a stated alternative scenario. Neither label makes missing data harmless.",
+        "A per-protocol set uses prespecified requirements such as sufficient treatment exposure, relevant measurements and absence of major protocol violations. It is not simply everyone who finished, and adherence can be related to treatment and outcome. ICH E9 recommends the full analysis set for the primary superiority comparison apart from exceptions. In non-inferiority or equivalence, dilution towards no difference can instead make similarity too easy to claim; the roles of analysis sets and sensitivity analyses need careful justification. Selecting adherent participants does not automatically restore an unbiased causal comparison.",
+        "Read the exact definition behind modified intention-to-treat, evaluable and safety populations. A modified set might require a dose, a baseline result or another condition; the name supplies no universal rule. Report all assigned participants, those analysed, exclusion reasons, missing outcomes, grouping and observation window. Safety commonly includes exposed participants, with the actual grouping and exposure denominator specified. These sets can differ from an efficacy comparison. No default analysis population should be assumed for a trial or drug page without checking its report.",
+        "Fictional denominator example: four responses among 20 people give 20%. If ten people without documented response are excluded and the four responses remain, four of ten gives 40%. This illustrates how that particular exclusion changes the reported rate; it is not evidence that every evaluable analysis inflates response by a known amount. The reason for missing assessment, prespecified rules and the scientific question still matter."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "endpoint",
+      "kind": "term",
+      "name": "Endpoint",
+      "aka": [
+        "endpoints",
+        "end point",
+        "end points",
+        "primary endpoint",
+        "primary endpoints",
+        "secondary endpoint",
+        "secondary endpoints",
+        "co-primary",
+        "dual primary",
+        "met its primary endpoint",
+        "primary outcome",
+        "outcome measure",
+        "outcome measures",
+        "exploratory endpoint",
+        "exploratory endpoints",
+        "statistically significant",
+        "statistical significance"
+      ],
+      "tldr": "An endpoint specifies an outcome and how and when it is assessed. A study's statistical plan determines what counts as meeting its primary endpoint.",
+      "summary": "A trial defines primary, secondary and exploratory outcomes and how they are measured and analysed. The primary question informs design, sample size and testing; having a secondary endpoint does not by itself establish whether it was adequately powered or met a prespecified testing rule. Overall survival concerns death from any cause, while response, progression, symptoms and quality of life answer different questions. A composite endpoint combines specified events, so its definition and starting time matter. FDA's December 2018 nonbinding oncology-endpoint guidance distinguishes direct clinical benefit and context-dependent surrogate evidence; use in an approval does not make an endpoint interchangeable with survival in every setting.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clinical_endpoint",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clinical_endpoint"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        },
+        {
+          "label": "FDA: oncology clinical endpoints, nonbinding guidance (December 2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "surrogate-endpoint",
+        "os",
+        "pfs",
+        "orr",
+        "efs",
+        "pcr",
+        "hazard-ratio",
+        "p-value",
+        "randomised-trial",
+        "surrogate-validation",
+        "primary-endpoint",
+        "quality-adjusted-survival",
+        "qol-pro"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A study question card keeps the population and setting, prior treatment and exclusions, complete intervention and comparator, endpoint definition and assessment, starting clock and horizon together. The intervention may be a sequence of medicines, procedures and surgery. Read the protocol and analysis plan for treatment stopping, switching and missing outcomes. A percentage without these details may answer a different question from the proposed action.",
+        "Consider a fictional trial in operable cancer with one random assignment to study drug plus common chemotherapy, surgery and study drug afterwards, or placebo on the same sequence. Comparing the whole assigned strategies does not isolate starting the drug only after surgery, because there is no second postoperative assignment. From the common randomisation origin, a recurrence in someone still alive and a death without earlier recurrence both count in a recurrence-or-death composite; only the death counts in overall survival. An improvement in a composite need not mean that every component improved. This is a reasoning example, with no dosing schedule or effect size.",
+        "For another fictional comparison, 95% alive three years after surgery and 90% free of recurrence or death three years after randomisation cannot be ranked as if they measured one outcome. The events and starting clocks differ; someone alive with recurrence contributes differently. An event-free percentage is not a permanent cure rate. State the eligible population, both complete strategies, event definition and origin before interpreting a benefit."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "trial-protocol",
+      "kind": "term",
+      "name": "Trial protocol and statistical analysis plan",
+      "aka": [
+        "trial protocol",
+        "study protocol",
+        "the protocol",
+        "protocol",
+        "protocol amendment",
+        "protocol amendments",
+        "amended protocol",
+        "protocol deviation",
+        "protocol deviations",
+        "protocol violation",
+        "protocol synopsis",
+        "schedule of assessments",
+        "schedule of events",
+        "protocol-defined",
+        "protocol-specified",
+        "per the protocol",
+        "eligibility criteria",
+        "investigator's brochure",
+        "investigator brochure",
+        "case report form",
+        "CRF",
+        "eCRF",
+        "SPIRIT",
+        "SPIRIT statement",
+        "SAP",
+        "statistical analysis plan",
+        "statistical analysis plans",
+        "analysis plan",
+        "pre-specified analysis plan",
+        "hierarchy of endpoints",
+        "testing hierarchy",
+        "data cut-off date",
+        "database lock"
+      ],
+      "tldr": "The protocol is the rulebook a trial is run by, written before it starts: who can join, what they get, what is measured and when, and how the answer will be calculated; the statistical analysis plan spells out the last part in detail so nobody can choose the analysis after seeing the data.",
+      "summary": "A protocol is a long document, often more than a hundred pages, that states the rationale and objectives, the design, the eligibility criteria, the treatments and their dose modifications, the schedule of visits and assessments, the endpoints and how each is defined and measured, the sample size and its justification, the interim analyses and stopping rules, the safety reporting rules, and the governance (sponsor, steering committee, data monitoring committee, ethics oversight). The SPIRIT statement lists what a protocol should contain, and journals increasingly publish protocols so that the final report can be checked against them. The statistical analysis plan is a companion document finalised before the data are unblinded that fixes the analysis populations, the handling of missing data and intercurrent events, the order in which endpoints are tested and the alpha each receives, the pre-specified subgroups and the sensitivity analyses. Together they are what makes pre-specified mean something.\n\nProtocols change. Amendments add sites, adjust eligibility when recruitment is slow, revise dose modifications in response to toxicity, or, more consequentially, change the primary endpoint or the sample size; each amendment goes back to the ethics committee and regulators and is dated in the registry record, so a reader can see what changed and when. Deviations are departures from the protocol for individual patients (a missed scan, a dose given outside its window) and are logged and classified by seriousness; a pattern of deviations at one site is a monitoring finding. The strict week-twelve event definition written into BELINDA's protocol, combined with a long manufacturing interval, is a documented example of protocol choices deciding a trial's verdict: the trial found no difference in event-free survival where two similar trials found a large one.\n\nFor readers, the protocol answers the questions a paper leaves out: exactly who was eligible, what counted as progression, how many analyses were planned, and whether the headline analysis was the one specified. Registries link to protocols for many trials, and supplementary appendices to trial papers usually contain them. Check the dated plan and access to relevant outcomes to distinguish a confirmatory analysis from planned exploration and later discovery. A small p-value alone does not establish that the analysis was prespecified.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clinical_trial_protocol",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clinical_trial_protocol"
+        },
+        {
+          "label": "SPIRIT statement: standard protocol items for clinical trials",
+          "url": "https://www.spirit-statement.org/"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        },
+        {
+          "label": "CONSORT 2025: transparent reporting of randomised trials",
+          "url": "https://doi.org/10.1136/bmj-2024-081123"
+        },
+        {
+          "label": "NCI: how clinical trials work",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        },
+        {
+          "label": "Cochrane Handbook chapter 5: link multiple reports of one study",
+          "url": "https://training.cochrane.org/handbook/current/chapter-05"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "prespecified-vs-post-hoc",
+        "trial-registration",
+        "primary-endpoint",
+        "estimand",
+        "group-sequential-design",
+        "trial-lifecycle",
+        "ethics-review",
+        "accrual",
+        "data-monitoring-committee"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "belinda",
+        "add-aspirin",
+        "keynote-522"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read the protocol and dated analysis plan alongside the report. Write the population, complete assigned strategies, comparator, outcome and assessment, origin and horizon, analysis population and treatment-change rules. Then check precision, bias and applicability separately. Events, sample size, intervals and power concern precision; assignment, assessment, missing outcomes and selected reporting concern bias; eligibility, care sequence, comparator and endpoint concern applicability. A narrow interval cannot fix a systematically biased or mismatched comparison. CONSORT 2025 requests transparent reporting, including plan access, denominators, missing data and harms; a completed checklist is not a certificate of validity.",
+        "Two fictional studies answer different questions. Study A treats a single group with metastatic disease after several earlier therapies and observes shrinkage. It describes activity among those treated without supplying a concurrent alternative, comparative survival or quality of life, or postoperative safety. More participants or a phase label cannot erase differences in selection, treatment era or assessment against a historical cohort. Study B randomises people with operable disease to whole treatment sequences and compares first recurrence or death. That can address its assigned strategy under suitable conduct and analysis, while leaving the final unrandomised component unresolved. Resemblance to the participants does not turn an untested action into a tested one.",
+        "Keep harms in the same comparison: the number assessed, absolute frequency, severity, onset, duration, symptoms, discontinuation and quality of life. An omitted adverse outcome is not an observed absence of harm, and uncommon or late effects may remain uncertain. More follow-up can clarify one question without supplying a different treatment comparison. Benefits from separate trials with different populations, controls or starting clocks cannot simply be added into a personal estimate."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "orr",
+      "kind": "term",
+      "name": "Objective response rate (ORR)",
+      "aka": [
+        "objective response",
+        "objective responses",
+        "objective response rates",
+        "overall response rate",
+        "overall response",
+        "confirmed responses",
+        "radiographic response",
+        "radiological response"
+      ],
+      "tldr": "Objective response rate is the proportion of a stated analysis population meeting complete or partial response criteria. It is not the percentage by which every tumour shrank.",
+      "summary": "Objective response rate, also called overall response rate, counts participants meeting the specified complete or partial response criteria. Stable disease is excluded. Keep the denominator, measurable-disease requirements, biomarker rules, assessment window, reviewer, confirmation, data cutoff and missing-data handling with the percentage and confidence interval. A lesion-level fraction has a different denominator from a participant-level rate.\n\nUnder RECIST 1.1, the target partial-response measurement uses a decline in selected diameters from baseline; overall response also considers non-target and new disease. A 30 percent ORR means that proportion met the response definition, rather than every tumour shrinking 30 percent or the total tumour volume falling by that amount. Best response over follow-up and status at a fixed visit are different measures.\n\nConfirmed and unconfirmed rates must retain their definitions. RECIST requires confirmation in non-randomised response-primary trials, while other designs and protocols have their own stated rules. Response magnitude and duration can support regulatory decisions in a specified context; a response rate is not automatically comparative survival benefit or a personal forecast.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors"
+        },
+        {
+          "label": "FDA 2018: response, duration and clinical endpoint context",
+          "url": "https://www.fda.gov/media/71195/download?attachment="
+        },
+        {
+          "label": "RECIST 1.1 primary guideline: definitions and confirmation, 2009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19097774/"
+        },
+        {
+          "label": "RECIST 1.1 full guideline: overall categories and duration sections",
+          "url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+        },
+        {
+          "label": "FDA: oncology clinical endpoints, nonbinding guidance (December 2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "recist",
+        "duration-of-response-term",
+        "single-arm",
+        "basket-trial",
+        "surrogate-validation",
+        "surrogate-endpoint",
+        "accelerated-approval",
+        "bicr"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "recist"
+      ],
+      "trials": [
+        "navigate",
+        "l-mind",
+        "roar-atc",
+        "announce",
+        "atlantis"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "DCR and CBR may add protocol-defined stable disease and minimum-duration conditions; adding those participants changes the endpoint rather than increasing ORR. Duration of response concerns the responding population and its own starting time.",
+        "Fictional response example: among 20 people with complete assessment, four partial responses and six additional stable-disease outcomes give an objective response rate of 4/20, or 20%, and a disease-control rate of 10/20, or 50%. A clinical-benefit rate that requires durable stable disease cannot be calculated until the duration rule and follow-up are supplied. These are participant-level outcomes, not a fraction of tumour cells killed. Response criteria, confirmation, assessment period, denominator and missing-result rules stay with the number; neither label alone establishes survival or quality-of-life benefit."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "case-report",
+      "kind": "term",
+      "name": "Case report",
+      "aka": [
+        "case reports",
+        "single-patient report",
+        "individual patient report",
+        "CARE reporting guideline"
+      ],
+      "tldr": "A case report describes what happened to one person or a few, which can reveal a signal or a harm but cannot show what would have happened under a different treatment.",
+      "summary": "A case report documents a clinical course, interventions, outcomes and alternative explanations. It can reveal a signal of benefit or harm without establishing what would have happened under another approach. The CARE reporting guideline includes a timeline, diagnostic assessment, interventions, follow-up, the patient perspective and consent; complete reporting supports appraisal rather than proving treatment causation.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "CARE guidelines: consensus-based clinical case reporting guideline (Deutsches Arzteblatt 2013)",
+          "url": "https://doi.org/10.3238/arztebl.2013.0603"
+        },
+        {
+          "label": "CENT 2015: CONSORT extension for reporting N-of-1 trials (BMJ)",
+          "url": "https://doi.org/10.1136/bmj.h1738"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "n-of-1-trial",
+        "randomised-trial",
+        "real-world-evidence",
+        "publication-and-peer-review-status"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A careful case timeline can preserve an unusual experience and generate questions. Published memorable successes do not supply all treated people as a denominator, so they cannot establish a response probability or treatment ranking. Several scans in one person remain observations from one person. A report usually lacks the concurrent counterfactual outcome under another treatment, and even a rigorous individual comparison would not establish the average effect in everyone sharing a cancer label.",
+        "Fictional clinical history: treatment A starts, a procedure is added, treatment B starts and a later scan improves. This establishes improvement during that course, not the separate added contributions of the procedure or B. The earlier treatment, procedure and later treatment can have overlapping lasting influences. Drawing overlapping ribbons represents that possibility and ordering only; it supplies no measured effect size or known duration. Documenting experience and planning an interpretable comparison are different routes to evidence.",
+        "A testimonial remains an attributed report until its underlying observations can be checked. In an explicitly fictional blog, a person with metastatic cancer adds an off-label medicine to standard chemotherapy and later scans show shrinkage. Accepting those observations as the example's premise establishes improvement during that combination; it does not isolate the added medicine, its safety or how often the result occurs. Record every intervention and measurement on the timeline and ask for a series or trial with all treated participants, failures, follow-up and a suitable comparison. A company video showing three successes has a different meaning if three of five or three of 500 people were treated. Selected successes do not supply the missing denominator or a personal forecast."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "kind": "term",
+      "name": "Population versus individual risk",
+      "aka": [
+        "population risk",
+        "individual risk",
+        "personal risk"
+      ],
+      "tldr": "A group event frequency does not determine one person's future. A personal probability estimate needs a suitable model, relevant inputs and evaluation in the setting where it will be used.",
+      "summary": "An observed group frequency describes a specified outcome, population, treatment context and time horizon. A probability estimate for an individual adds a prediction model and relevant inputs, with uncertainty. Ranking people well does not establish accurate probabilities, and performance in one hospital, subgroup or treatment era does not establish performance elsewhere. A model predicting outcomes under existing care also does not automatically estimate the benefit of changing that care.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "NCI: understanding cancer prognosis",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+        },
+        {
+          "label": "TRIPOD-Cluster: model evaluation across settings",
+          "url": "https://www.bmj.com/content/380/bmj-2022-071058"
+        },
+        {
+          "label": "Hernan and Robins: Causal Inference: What If",
+          "url": "https://miguelhernan.org/whatifbook"
+        },
+        {
+          "label": "OncoGuide: population-vs-individual-risk (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md"
+        },
+        {
+          "label": "Collins et al.: TRIPOD+AI prediction-model reporting guidance (2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-078378"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+        "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+        "A model that ranks outcomes well at Hospital A may need evaluation at Hospital B before its printed probabilities can be trusted there, particularly if treatment and follow-up differ. Relevant calibration, outcome definitions, horizon, inputs and uncertainty matter. A post-treatment test cannot simply replace a model's required pretreatment input, or vice versa. Risk under current care is also different from benefit from changing care: outcome prediction alone does not estimate a treatment effect. An uncertain but appropriately evaluated estimate can help a discussion without promising an outcome. A confidence interval for a group parameter is not a range of individual futures, and a narrow subgroup may contain too little information for precise personalisation.",
+        "Before using a calculator, record its exact name, version and recalibration; required input definitions, units, specimen dates and missing-value rules; development population, care era and received treatments; and predicted endpoint, origin and horizon. Ask how independent evaluation checked discrimination, calibration, selected cutpoints and uncertainty in the intended setting. TRIPOD+AI covers reporting of regression and machine-learning prediction studies; it is not a quality appraisal tool or proof that acting on a score helps. If a fictional calculator requires a residual postoperative marker but only a pretreatment result exists, do not substitute it or invent a correction with unrelated hazard ratios. An unknown input is not negative, and a printed 85% remains a model estimate rather than a guarantee.",
+        "In a fictional study, a negative blood test is associated with favourable five-year outcomes while everyone receives standard treatment. Those data do not establish that stopping treatment after a negative result is safe. The missing question compares the proposed result-guided strategy with the relevant alternative, with matched sampling time, population, event, uncertainty and follow-up. Pretreatment, on-treatment and surgical samples describe different states. A later landmark includes only people eligible at that time and excludes earlier events; the last sample available during year one is not automatically an early postoperative sample. Analytical reliability, prognosis, treatment-effect prediction and benefit from a test-guided action require distinct evidence."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "data-maturity",
+      "kind": "term",
+      "name": "Data maturity (immature vs mature survival data)",
+      "aka": [
+        "OS immature",
+        "immature OS",
+        "immature data",
+        "immature survival data",
+        "overall survival data are immature",
+        "OS data immature",
+        "mature OS",
+        "mature survival",
+        "event-driven",
+        "number of events",
+        "information fraction",
+        "censored",
+        "censoring",
+        "censored at",
+        "OS trend",
+        "OS not yet reached",
+        "not reached",
+        "not estimable",
+        "median not reached",
+        "median OS not reached"
+      ],
+      "tldr": "Data maturity describes how much follow-up and outcome information an analysis has. An unreached median and a precise treatment comparison are different questions.",
+      "summary": "Data maturity concerns the follow-up and outcome information available at a stated cutoff for a specified analysis. A trial may plan an analysis after a number of events or at another prespecified point. Interpret its estimate with the event count, interval, observation pattern, risk sets and analysis plan. More events often add precision, but do not guarantee stability or remove bias. A median that has not been reached is a statement about the estimated curve, not proof of no events, cure or an inherently unreliable treatment contrast. Repeated looks require a suitable statistical plan, and updated reports of the same participants do not constitute independent replication.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Censoring_(statistics)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Censoring_(statistics)"
+        },
+        {
+          "label": "ICH E9: statistical principles, analysis sets and safety (September 1998)",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "Schmid et al.: KEYNOTE-522 response and early EFS (2020)",
+          "url": "https://doi.org/10.1056/NEJMoa1910549"
+        },
+        {
+          "label": "Schmid et al.: KEYNOTE-522 event-free survival (2022)",
+          "url": "https://doi.org/10.1056/NEJMoa2112651"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT03036488: specified populations and sponsor-posted final results",
+          "url": "https://clinicaltrials.gov/study/NCT03036488"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "interim-analysis",
+        "landmark-survival",
+        "os",
+        "hazard-ratio",
+        "primary-endpoint",
+        "kaplan-meier-curve",
+        "sample-size-re-estimation"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "adaura",
+        "keynote-522"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read the data cutoff, planned look, follow-up distribution, endpoint event count, censoring and numbers still at risk beside the estimate and interval. More observed events can add information without guaranteeing a stable point estimate or eliminating bias. A fixed-time curve height, a median outcome time and median follow-up describe different quantities. A median is not reached when the estimated survival curve has not reached 50% during observation; a raw fraction of recorded events alone does not define the Kaplan-Meier median. An unreached median neither proves no events nor prevents every precise treatment comparison.",
+        "KEYNOTE-522 illustrates repeated looks within one trial. The 2020 report described median follow-up of 15.5 months, 104 event-free-survival events and a hazard ratio of 0.63 (95% confidence interval 0.43 to 0.93). At the fourth planned interim analysis, median follow-up was 39.1 months and the estimate was 0.63 (0.48 to 0.82). The sponsor-posted protocol-specified final update gives 0.68 (0.54 to 0.86) and explicitly says no formal statistical testing was performed for that update; its reported p-value is nominal. These reports are linked observations of the same randomised trial, not independent replications or permission for unlimited repeated significance tests. Registry medians for event-free and overall survival remain unestimable in both groups; use defined fixed-time results with their risk sets instead."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "keynote-522",
+      "kind": "trial",
+      "name": "KEYNOTE-522",
+      "aka": [],
+      "tldr": "KEYNOTE-522 compared adding pembrolizumab before and after surgery with placebo on the same chemotherapy and surgery sequence in early triple-negative breast cancer. It measured improvements in response and survival.",
+      "summary": "KEYNOTE-522 randomised 1,174 people with previously untreated stage II or III triple-negative breast cancer to a whole pembrolizumab or placebo strategy before and after surgery, with the same chemotherapy backbone. The first-602 pCR analysis reported 64.8% versus 51.2%. The 2022 report estimated three-year event-free survival at 84.5% versus 76.8%; the 2024 report estimated five-year overall survival at 86.6% versus 81.7%. An ASCO 2026 conference abstract reports seven-year EFS of 78.3% versus 69.8% and OS of 85.1% versus 77.2%. Keep each endpoint, analysis cohort and follow-up cutoff attached to its result. The trial did not separately randomise postoperative pembrolizumab or chemotherapy omission.",
+      "status": "positive",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT03036488",
+          "url": "https://clinicaltrials.gov/study/NCT03036488"
+        },
+        {
+          "label": "KEYNOTE-522 pathological complete response (NEJM 2020)",
+          "url": "https://doi.org/10.1056/NEJMoa1910549"
+        },
+        {
+          "label": "KEYNOTE-522 event-free survival (NEJM 2022)",
+          "url": "https://doi.org/10.1056/NEJMoa2112651"
+        },
+        {
+          "label": "KEYNOTE-522 overall survival (NEJM 2024)",
+          "url": "https://doi.org/10.1056/NEJMoa2409932"
+        },
+        {
+          "label": "KEYNOTE-522 event-free survival by residual cancer burden (Annals of Oncology 2024)",
+          "url": "https://doi.org/10.1016/j.annonc.2024.02.002"
+        },
+        {
+          "label": "NICE TA851 (14 December 2022)",
+          "url": "https://www.nice.org.uk/guidance/ta851"
+        },
+        {
+          "label": "KEYTRUDA prescribing information: DailyMed version 228",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228"
+        },
+        {
+          "label": "Schmid et al.: KEYNOTE-522 final follow-up, ASCO 2026 conference abstract 507",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.507"
+        },
+        {
+          "label": "Nanda et al.: pembrolizumab in adaptive I-SPY2 (2020)",
+          "url": "https://doi.org/10.1001/jamaoncol.2019.6650"
+        },
+        {
+          "label": "Cortazar et al.: CTNeoBC association and trial-level surrogate analysis (2014)",
+          "url": "https://doi.org/10.1016/S0140-6736(13)62422-8"
+        },
+        {
+          "label": "Masuda et al.: CREATE-X postoperative capecitabine comparison (2017)",
+          "url": "https://doi.org/10.1056/NEJMoa1612645"
+        },
+        {
+          "label": "Tutt et al.: OlympiA postoperative olaparib comparison (2021)",
+          "url": "https://doi.org/10.1056/NEJMoa2105215"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05812807: OptimICE-pCR study and posted status",
+          "url": "https://clinicaltrials.gov/study/NCT05812807"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "tnbc",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [
+        "checkpoint-inhibitor"
+      ],
+      "targets": [],
+      "drugs": [
+        "pembrolizumab",
+        "carboplatin",
+        "paclitaxel"
+      ],
+      "companies": [
+        "merck"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "pcr",
+        "efs",
+        "rcb",
+        "tnbc-residual-disease-decision"
+      ],
+      "trials": [
+        "swog-s1418",
+        "optimice-pcr",
+        "scarlet-s2212",
+        "ascent-05",
+        "tropion-breast03"
+      ],
+      "people": [
+        "rebecca-dent",
+        "peter-schmid",
+        "loi-sherene"
+      ],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-keynote-522-n-engl-j-med-2020",
+        "paper-keynote-522-n-engl-j-med-2024-update"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Design (NEJM 2020): 1,174 patients with untreated stage II or III triple-negative breast cancer randomised 2 to 1 to pembrolizumab 200 mg or placebo every 3 weeks with four cycles of paclitaxel and carboplatin then four of doxorubicin or epirubicin with cyclophosphamide, surgery, then nine cycles of adjuvant pembrolizumab or placebo. Pathological complete response 64.8 versus 51.2 percent (first 602 patients); event-free survival at 36 months 84.5 versus 76.8 percent (hazard ratio 0.63, NEJM 2022); overall survival at 60 months 86.6 versus 81.7 percent (p 0.002, median follow-up 75.1 months, NEJM 2024). The preplanned exploratory residual-cancer-burden analysis (Annals of Oncology 2024) reported EFS hazard ratios for RCB-0, 1, 2 and 3 of 0.70 (95% confidence interval 0.38 to 1.31), 0.92 (0.39 to 2.20), 0.52 (0.32 to 0.82) and 1.24 (0.69 to 2.23). These post-treatment strata can themselves be affected by treatment; their estimates do not separately randomise postoperative treatment or prove a benefit in every stratum.",
+        "UK sites (registry, 7): Colchester General Hospital, Barts Cancer Institute, St George's Hospital London, Maidstone Hospital, James Cook University Hospital Middlesbrough, Nottingham University Hospitals, Royal Cornwall Hospitals Truro. NICE TA851 (14 December 2022) commissions the regimen in England.",
+        "Label safety (Keytruda, 778 treated patients): serious adverse reactions 44 percent, fatal 0.9 percent, discontinuation of pembrolizumab 20 percent, most often for raised transaminases and rash.",
+        "The study question concerns the whole assigned sequence in previously untreated, non-metastatic stage II or III triple-negative breast cancer: T1c with N1 or N2, or T2 to T4 with N0 to N2, and performance status 0 or 1. The registry excludes prior checkpoint therapy and active autoimmune disease requiring systemic treatment in the preceding two years, among other criteria. There was one assignment of 784 people to pembrolizumab and 390 to placebo across preoperative chemotherapy, surgery and postoperative treatment, without a separate postoperative randomisation. Smaller node-negative tumours outside those entry criteria and metastatic disease are different settings. Entry did not require PD-L1 selection, and the high-risk early-stage indication in the prescribing information has no PD-L1 threshold.",
+        "The co-primary endpoints were pathological complete response at surgery, defined as ypT0/Tis ypN0, and event-free survival from randomisation. The response definition permits residual in-situ disease in the breast while excluding invasive residual cancer in breast and nodes. Event-free survival counts progression preventing definitive surgery, local or distant recurrence, a second primary cancer or death from any cause; overall survival is a secondary endpoint counting death from any cause. Because death is part of EFS, it is an event rather than a competing event for that composite. Analysing a recurrence component alone can require a different competing-risk question.",
+        "Keep the analysis cohorts separate. The 2020 first-interim pCR comparison used the first 602 randomised participants: 64.8% versus 51.2%, estimated difference 13.6 percentage points (95% confidence interval 5.4 to 21.8). The sponsor-posted first-1,002 comparison is 64.0% versus 54.7%, with a stratified difference of 9.2 points (2.8 to 15.6). That reported adjusted estimate is not simple subtraction of the rounded percentages. The current label also presents an all-1,174 pCR comparison, 63.0% versus 55.6%, estimated difference 7.5 points (1.6 to 13.4). These are different specified analysis populations, not interchangeable response claims.",
+        "At the fourth planned interim analysis reported in 2022, median follow-up was 39.1 months and all 1,174 participants contributed to the assigned-group survival comparison. Estimated 36-month EFS was 84.5% (95% confidence interval 81.7 to 86.9) versus 76.8% (72.2 to 80.7), with hazard ratio 0.63 (0.48 to 0.82). From the rounded survival estimates, the three-year absolute gain is 7.7 points, approximately eight additional people alive and event-free per 100, and number needed to treat is 1/0.077, about 13. The corresponding event risks are 15.5% versus 23.2%, a relative risk reduction of about 33%; the model's 37% lower hazard is a different measure.",
+        "The final overall-survival analysis published in 2024 used a March 22, 2024 cutoff and median follow-up of 75.1 months. Estimated 60-month OS was 86.6% versus 81.7%, with the paper reporting P=0.002; the label reports an OS hazard ratio of 0.66 (95% confidence interval 0.50 to 0.87) for the prespecified analysis. The absolute difference is 4.9 points, about five additional people alive per 100 at five years. Its reciprocal is 20.4, or 21 when rounding up to a whole-person number needed to treat. Neither this result nor the three-year EFS calculation identifies who benefits or combines benefit with harms. Comparing the 13.6-point pCR, 7.7-point EFS and 4.9-point OS gains does not show an effect shrinking over time: their endpoints, cohorts and horizons differ.",
+        "The ASCO 2026 conference abstract reports the later protocol-specified final follow-up, with an October 14, 2025 cutoff and median follow-up of 93.8 months. Seven-year EFS was 78.3% versus 69.8%, hazard ratio 0.68 (95% confidence interval 0.54 to 0.86); seven-year OS was 85.1% versus 77.2%, hazard ratio 0.64 (0.49 to 0.85). This is a conference abstract deposited by the authors, distinct from the 2024 full journal report and the sponsor-posted registry results. Longer observation of this cohort is not a second randomised trial.",
+        "Safety also retains its report and denominator. Across treatment phases, the 2020 paper reported treatment-related grade 3 or higher events in 78.0% versus 73.0%, including treatment-related deaths in 0.4% versus 0.3%. The label describes 778 versus 389 participants receiving at least one dose, distinct from the 784 versus 390 assigned. Its adverse-reaction categories and fatal-event figures must not be substituted for the paper's treatment-related categories. The prescribing information warns that immune-mediated reactions can arise after treatment stops and that hypothyroidism may require long-term hormone replacement. Event frequency, severity, duration, discontinuation and quality of life remain separate parts of the comparison.",
+        "The earlier adaptive phase 2 I-SPY2 report estimated pCR of 60% versus 22% in its triple-negative subgroup against its own chemotherapy control. That is a different comparison from KEYNOTE-522 and cannot establish a cross-trial treatment ranking. Likewise, better survival among people who achieve pCR is a prognostic association within selected response groups, not proof of the postoperative drug's separate effect or a validated rule selecting individual benefit. CTNeoBC found a strong pCR-outcome association but did not validate pCR as a trial-level surrogate for EFS or OS in its included trials. Here survival itself was measured.",
+        "The postoperative-only question remains distinct: OptimICE-pCR randomises people after pCR to postoperative pembrolizumab or observation, and the registry lists it as recruiting with no posted results. KEYNOTE-522 did not randomise dropping a chemotherapy component. CREATE-X compared postoperative capecitabine with standard postsurgical treatment after residual HER2-negative disease, while OlympiA compared olaparib with placebo in eligible high-risk germline BRCA1/2-associated HER2-negative disease after chemotherapy and local treatment. Those reports describe their own comparisons rather than a randomised test of adding either drug to the KEYNOTE-522 sequence. No result here is a personal forecast or a treatment-omission rule."
+      ],
+      "nct": "NCT03036488",
+      "phase": "3",
+      "setting": "Early-stage (II-III) TNBC: pembrolizumab + chemotherapy before surgery, pembrolizumab after",
+      "sponsor": "Merck",
+      "participation": [
+        {
+          "nct": "NCT03036488",
+          "source": "https://clinicaltrials.gov/study/NCT03036488",
+          "fetchedAt": "2026-10-07T16:52:55.789Z",
+          "studySha256": "bd33c8dafb4846d13dfbf365a6be590ca3577e0a2689a9fcb2a2ed4354fd6299",
+          "overallStatus": "COMPLETED",
+          "lastUpdatePosted": "2025-10-29",
+          "leadSponsor": "Merck Sharp & Dohme LLC",
+          "collaboratorCount": 0,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "healthyVolunteers": false,
+          "hasEligibility": true,
+          "enrolment": 1174,
+          "enrolmentType": "ACTUAL",
+          "siteCount": 193,
+          "recruitingSiteCount": 0,
+          "countries": [
+            "Australia",
+            "Brazil",
+            "Canada",
+            "Colombia",
+            "France",
+            "Germany",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Japan",
+            "Poland",
+            "Portugal",
+            "Russia",
+            "Singapore",
+            "South Korea",
+            "Spain",
+            "Sweden",
+            "Taiwan",
+            "Turkey (Türkiye)",
+            "United Kingdom",
+            "United States"
+          ]
+        }
+      ],
+      "result": "EFS HR 0.63; OS HR 0.66 (5-year); 7-year OS 85.1% vs 77.2%.",
+      "started": "2017-03-07",
+      "startedType": "actual",
+      "yearReported": 2020,
+      "enrolled": 1174,
+      "enrolledBasis": "registry",
+      "outcomes": [
+        {
+          "endpoint": "Pathologic complete response (ypT0/Tis ypN0)",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Pembrolizumab + chemotherapy",
+              "n": 401,
+              "value": 64.8
+            },
+            {
+              "name": "Placebo + chemotherapy",
+              "n": 201,
+              "value": 51.2
+            }
+          ],
+          "p": "0.00055",
+          "source": "https://www.nejm.org/doi/full/10.1056/NEJMoa1910549"
+        },
+        {
+          "endpoint": "Event-free survival at 5 years",
+          "primary": true,
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Pembrolizumab + chemotherapy",
+              "n": 784,
+              "value": 81.2
+            },
+            {
+              "name": "Placebo + chemotherapy",
+              "n": 390,
+              "value": 72.2
+            }
+          ],
+          "hr": 0.65,
+          "ci": [
+            0.51,
+            0.83
+          ],
+          "source": "https://www.nejm.org/doi/full/10.1056/NEJMoa2409932"
+        },
+        {
+          "endpoint": "Overall survival at 5 years",
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Pembrolizumab + chemotherapy",
+              "value": 86.6
+            },
+            {
+              "name": "Placebo + chemotherapy",
+              "value": 81.7
+            }
+          ],
+          "hr": 0.66,
+          "ci": [
+            0.5,
+            0.87
+          ],
+          "p": "0.002",
+          "source": "https://www.nejm.org/doi/full/10.1056/NEJMoa2409932"
+        },
+        {
+          "endpoint": "Event-free survival at 7 years",
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Pembrolizumab + chemotherapy",
+              "value": 78.3
+            },
+            {
+              "name": "Placebo + chemotherapy",
+              "value": 69.8
+            }
+          ],
+          "source": "https://www.lbbc.org/news/pivotal-progress-in-tnbc-asco-2026"
+        },
+        {
+          "endpoint": "Overall survival at 7 years",
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Pembrolizumab + chemotherapy",
+              "value": 85.1
+            },
+            {
+              "name": "Placebo + chemotherapy",
+              "value": 77.2
+            }
+          ],
+          "source": "https://www.lbbc.org/news/pivotal-progress-in-tnbc-asco-2026"
+        }
+      ],
+      "replication": "Single pivotal trial, but the EFS and OS benefits held through the 5- and 7-year analyses; consistent with IMpassion031 (atezolizumab, pCR only) and with real-world neoadjuvant pembrolizumab series."
+    },
+    {
+      "id": "optimice-pcr",
+      "kind": "trial",
+      "name": "OptimICE-pCR (A012103)",
+      "aka": [],
+      "tldr": "A trial comparing postoperative pembrolizumab with observation after a pathological complete response to preoperative treatment for triple-negative breast cancer.",
+      "summary": "OptimICE-pCR, Alliance A012103 and NCT05812807, is a randomised phase 3 trial after pathological complete response to neoadjuvant chemotherapy with pembrolizumab and definitive surgery for early-stage triple-negative breast cancer. It asks whether observation gives non-inferior recurrence-free survival compared with another 27 weeks of pembrolizumab and also assesses quality of life and adverse effects. The registry lists an estimated 1,295 participants, recruiting status and no posted results. This tests a postoperative continuation question rather than assuming that response alone establishes safe treatment omission.",
+      "status": "recruiting",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT05812807",
+          "url": "https://clinicaltrials.gov/study/NCT05812807"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "tnbc"
+      ],
+      "sections": [],
+      "technologies": [
+        "checkpoint-inhibitor"
+      ],
+      "targets": [],
+      "drugs": [
+        "pembrolizumab"
+      ],
+      "companies": [
+        "alliance-oncology"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "pcr"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The registry specifies randomisation after neoadjuvant chemotherapy with pembrolizumab and definitive surgery showing a pathological complete response. It compares continued pembrolizumab for 27 weeks with observation and asks whether observation is non-inferior for recurrence-free survival. That endpoint starts at this new randomisation and includes invasive local, regional or distant recurrence or death from any cause. Quality of life and adverse effects are also assessed. This is a separate postoperative comparison from KEYNOTE-522's whole perioperative assignment; a favourable pCR prognosis alone is not its answer.",
+        "The registry lists an estimated enrolment of 1,295, recruiting status and no posted results when checked on November 12, 2026; its last posted update is August 5, 2026. The planned postoperative duration is about 27 weeks, not a further year of immunotherapy after surgery. The study does not promise that a particular person can safely stop treatment."
+      ],
+      "nct": "NCT05812807",
+      "phase": "3",
+      "setting": "Stage II-III TNBC with pathologic complete response after KEYNOTE-522 regimen: adjuvant pembrolizumab vs observation",
+      "sponsor": "Alliance / NCI",
+      "participation": [
+        {
+          "nct": "NCT05812807",
+          "source": "https://clinicaltrials.gov/study/NCT05812807",
+          "fetchedAt": "2026-10-07T16:53:56.649Z",
+          "studySha256": "afde0819077e9d9531926b191879b2805a046e09f4b6ccb19b43ba3239cf9e30",
+          "overallStatus": "RECRUITING",
+          "lastUpdatePosted": "2026-08-05",
+          "leadSponsor": "Alliance for Clinical Trials in Oncology",
+          "collaboratorCount": 1,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "healthyVolunteers": false,
+          "hasEligibility": true,
+          "enrolment": 1295,
+          "enrolmentType": "ESTIMATED",
+          "siteCount": 846,
+          "recruitingSiteCount": 797,
+          "countries": [
+            "Canada",
+            "Puerto Rico",
+            "United States"
+          ]
+        }
+      ],
+      "started": "2023-06-14",
+      "startedType": "actual",
+      "enrolled": 1295,
+      "enrolledBasis": "registry",
+      "outcomes": [],
+      "replication": "Ongoing de-escalation trial; no results."
+    },
+    {
+      "id": "hazard-ratio",
+      "kind": "term",
+      "name": "Hazard ratio (HR)",
+      "aka": [
+        "HR 0",
+        "HR 1",
+        "HR of",
+        "HR for death",
+        "HR for progression",
+        "HR for recurrence",
+        "HRs",
+        "Cox proportional hazards",
+        "proportional hazards"
+      ],
+      "tldr": "A hazard ratio is a number comparing the rate of bad events in two groups. A treatment-versus-control ratio of 0.5 means half the instantaneous event rate among those still at risk under that comparison; it does not mean half the cumulative event probability.",
+      "summary": "The hazard ratio (HR) is a single number comparing the rate of bad events, such as death or progression, between two groups in a trial; an HR of one half describes half the instantaneous event rate among those still at risk under that comparison. It comes from Cox proportional hazards models, an HR below 1 favours the numerator group for an undesirable event, when that group is the experimental arm, and a confidence interval excluding 1 indicates statistical significance. The HR says nothing about absolute benefit or how long it lasts, so it features in ideas on powering trials for a benefit patients would value, crossover-adjusted survival and Bayesian shrinkage for subgroup claims. The term is referenced by the Pancreatic ductal adenocarcinoma entry, Michael LeBlanc, the bottlenecks on trial design and trial diversity, and ideas on Bayesian borrowing and a rulebook for external control arms.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Hazard_ratio",
+      "links": [
+        {
+          "label": "Regression Models and Life-Tables",
+          "url": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x"
+        },
+        {
+          "label": "NIST: exponential-model formulas",
+          "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm"
+        },
+        {
+          "label": "The hazards of hazard ratios.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20010207/"
+        },
+        {
+          "label": "OncoGuide: hazard-ratio (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md"
+        },
+        {
+          "label": "Boyd et al., 2012: average hazard-ratio interpretation and censoring",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22763957/"
+        },
+        {
+          "label": "Altman and Andersen: time-specific number needed to treat and hazard-ratio limits (1999)",
+          "url": "https://doi.org/10.1136/bmj.319.7223.1492"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hazard-ratio-basics",
+        "confidence-interval",
+        "p-value",
+        "kaplan-meier-curve",
+        "absolute-benefit",
+        "os",
+        "pfs",
+        "crossover",
+        "sample-size-re-estimation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "challenge"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A hazard is an instantaneous event rate among people still at risk, rather than the fraction of everyone enrolled who has had an event by a date. A hazard ratio divides one group's hazard by its reference group's hazard for a defined endpoint. A true ratio of one at a time means equal hazards at that time; the numerator determines the direction. As arithmetic from that definition, treatment/control HR 0.70 describes a 30% lower hazard under the model. It does not mean 30 percentage points fewer events, 30% longer survival or a 30% reduction in each person's probability. Reversing the comparison gives 1/0.70, about 1.43. Neither direction supplies five-year absolute benefit without further outcome information and assumptions.",
+        "In a Cox proportional-hazards model, proportionality means the ratio stays constant over time; the two hazards themselves need not be constant. An adjusted estimate depends on the included covariates and their coding, and adjustment does not remove unmeasured confounding. Read event and censoring times, comparison direction, analysis population and confidence interval with the model assessment. A reported HR may average changing effects, and an estimated HR of one does not establish that the curves are identical. Crossing curves can raise concern about proportionality without diagnosing every model failure. Time-specific rates or other prespecified summaries may be more informative. Cause-specific and subdistribution hazard ratios answer different competing-risk questions and cannot be substituted for one another.",
+        "A fictional exponential model makes the distinction between rate and risk visible. Assume constant control and treatment hazards of 0.10 and 0.07 per year, one event type and no competing events. The hazard ratio is 0.70, but the risk by time t is 1 - exp(-hazard × t). At five years, risks are about 39.3% and 29.5%: a risk ratio of about 0.75 and a difference of about 9.8 percentage points. Constant hazard lines therefore coexist with rising accumulated risks. Real studies need their actual curves and model checks. Only under the constant-hazard exponential assumptions does treatment median survival divided by control median survival equal 1/HR; an HR is not generally a ratio of medians. These invented numbers are not personal prognosis estimates.",
+        "Randomisation balances baseline groups in expectation, without guaranteeing identical realised groups or later risk sets. As follow-up proceeds, an HR compares people who have remained event-free, and treatment can change who those people are. Hernán's 2010 critique explains why that selection complicates a causal interpretation and recommends appropriately adjusted survival curves or risks at fixed times. Read the endpoint, curves, absolute outcomes and uncertainty beside the ratio. An adjusted biomarker association does not demonstrate that using the marker to select treatment improves outcomes. Boyd, Kittelson and Gillen (2012) argue that a marginal hazard ratio can still be useful as an average description over the observed data when hazards are not proportional. They also explain that the usual unweighted estimate can depend on the censoring distribution and study an estimator intended to remove that dependence under their assumptions. A defined average summary therefore needs its estimand, observation period, estimation method and censoring assumptions stated; it does not automatically become a fixed-time risk contrast or an individual causal effect.",
+        "A separate fictional proportional-hazards example estimates a treatment-versus-control hazard ratio of 0.68 with a 95% confidence interval of 0.50 to 0.92 for first recurrence or death. Under that fitted model, the point estimate describes a 32% lower instantaneous event rate among those still at risk. It is different from the 30% five-year relative risk reduction in the fictional 20% versus 14% risk example. Neither 1/HR nor 1/(1 - HR) is number needed to treat; the actual time-specific absolute outcomes and relevant assumptions are needed."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "randomised-trial",
+      "kind": "term",
+      "name": "Randomised trial",
+      "aka": [
+        "randomised",
+        "randomized",
+        "randomisation",
+        "randomization",
+        "randomly assigned",
+        "randomised controlled trial",
+        "randomized controlled trial",
+        "RCT",
+        "RCTs",
+        "randomised trials",
+        "randomized trials",
+        "randomised phase 3",
+        "randomized phase 3",
+        "controlled trial",
+        "head-to-head",
+        "controlled trials",
+        "randomized trial"
+      ],
+      "tldr": "A study that assigns eligible participants to interventions by chance. This reduces treatment-selection bias but does not guarantee identical groups, flawless follow-up or benefit.",
+      "summary": "A randomized trial assigns eligible consenting participants to interventions by chance. Concealing the next assignment protects enrolment against foreknowledge; blinding concerns awareness after assignment. These are different design features. Randomization reduces treatment-selection confounding but leaves possible chance imbalance, missing outcomes and limits on applicability. The comparator, endpoint, analysis and conduct determine what the comparison establishes.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+        },
+        {
+          "label": "CONSORT statement: reporting randomised trials",
+          "url": "https://www.consort-statement.org/"
+        },
+        {
+          "label": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+          "url": "https://doi.org/10.1371/journal.pmed.1004587"
+        },
+        {
+          "label": "ICH E9: statistical principles for clinical trials, 1998",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "ICH E10: choice of control group",
+          "url": "https://database.ich.org/sites/default/files/E10_Guideline.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "clinical-trial",
+        "placebo",
+        "blinding",
+        "trial-phases",
+        "hazard-ratio",
+        "p-value",
+        "confidence-interval",
+        "standard-of-care",
+        "real-world-evidence",
+        "stratified-randomisation",
+        "clinical-equipoise",
+        "cluster-randomised-trial",
+        "pragmatic-trial",
+        "intention-to-treat",
+        "kaplan-meier-curve",
+        "non-inferiority",
+        "trial-failure-modes",
+        "estimand",
+        "publication-and-peer-review-status",
+        "meta-analysis"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "interlace",
+        "challenge",
+        "protect"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Concealed chance assignment is different from predictable alternation between A and B. Allocation concealment hides the next assignment during enrolment; blinding concerns who knows the assigned treatment afterwards and may not be feasible for every intervention. Report sequence generation, allocation, who was blinded, assigned-group analyses, exclusions, dropout, missing assessments, treatment changes and unequal follow-up. Chance can balance measured and unmeasured factors on average without guaranteeing identical groups in one trial. Random assignment is not random sampling from a population: consenting eligible volunteers remain selected.",
+        "Controls can be standard care, standard care plus placebo or another protocol-defined option, not automatically no treatment. A fictional single-group Drug A study showing shrinkage supports an activity question for further study; it does not isolate added survival benefit from selection, natural history and other care. A randomized A-plus-usual-care versus usual-care comparison can test the added effect under sound conduct and analysis, while a volunteer cannot choose their randomized assignment or be promised benefit. A chance-assigned two-group phase 2 trial is randomized even though it is not phase 3."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "kaplan-meier-curve",
+      "kind": "term",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards",
+      "aka": [
+        "Kaplan-Meier curve",
+        "Kaplan-Meier curves",
+        "Kaplan–Meier curve",
+        "KM curve",
+        "KM curves",
+        "KM plot",
+        "Kaplan-Meier estimate",
+        "Kaplan-Meier estimator",
+        "Kaplan-Meier analysis",
+        "Kaplan-Meier method",
+        "censored",
+        "censoring",
+        "censor",
+        "censored observations",
+        "censored at last follow-up",
+        "number at risk",
+        "at-risk table",
+        "log-rank test",
+        "log-rank",
+        "Cox model",
+        "Cox regression",
+        "proportional hazards assumption",
+        "non-proportional hazards",
+        "nonproportional hazards",
+        "delayed separation",
+        "delayed separation of the curves",
+        "crossing curves",
+        "the curves cross",
+        "step function",
+        "survival probability"
+      ],
+      "tldr": "A Kaplan-Meier curve shows the share of patients still alive (or still free of progression) at each point in time; it steps down at each event and uses everyone's follow-up even if they have not had the event yet.",
+      "summary": "Survival endpoints are awkward because at the moment of analysis most patients have not died or progressed and have been followed for different lengths of time. The Kaplan-Meier method handles this by working through time step by step: at each event it multiplies the survival probability so far by the fraction of patients still at risk who survived that moment. Patients who are alive at their last visit are censored, meaning they contribute follow-up up to that point and then drop out of the calculation without being counted as an event. The result is the stepped curve in every trial paper, with a number-at-risk table underneath showing how many patients remain at each time; when that number gets small, the tail of the curve is unreliable however dramatic it looks. The median survival is where the curve crosses 50 percent, and a fixed-time estimate such as five-year survival is read off at that time.\n\nThe log-rank test compares survival distributions. The usual constant-effect Cox model assumes proportional hazards, meaning a constant hazard ratio over time. The Kaplan-Meier calculation itself does not impose a constant between-group hazard ratio. Nonproportional hazards can reduce the power of a log-rank comparison and make a single hazard ratio an incomplete account of treatment effect. A prespecified restricted mean survival-time contrast describes the difference in areas under the curves up to a stated horizon; a fixed-time survival contrast answers another question. Neither a late plateau nor a group hazard ratio predicts one individual's future.\n\nCensoring hides a trap. The method assumes patients censored at a given time are no more or less likely to have the event than those still being followed. If patients leave a trial because they are doing badly, or are censored when they start another therapy, the curve is biased upwards. Informative censoring is one reason progression-free survival read from investigator scans can flatter an open-label trial, and one reason the estimand framework asks trialists to say in advance how they will treat patients who switch, stop or are lost.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Kaplan-Meier_estimator",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Kaplan-Meier_estimator"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "NIST: Kaplan-Meier calculation",
+          "url": "https://www.itl.nist.gov/div898/handbook/apr/section2/apr215.htm"
+        },
+        {
+          "label": "Analysis of survival by tumor response.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6668489/"
+        },
+        {
+          "label": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26858290/"
+        },
+        {
+          "label": "Royston and Parmar, 2013: restricted mean survival time and nonproportional hazards",
+          "url": "https://doi.org/10.1186/1471-2288-13-152"
+        },
+        {
+          "label": "OncoGuide: kaplan-meier (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md"
+        },
+        {
+          "label": "Therneau, Crowson and Atkinson: multi-state models and competing risks (September 2026)",
+          "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "os",
+        "pfs",
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "median-survival",
+        "landmark-survival",
+        "data-maturity",
+        "estimand",
+        "confidence-interval",
+        "crossover",
+        "graph-reading"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "pacific"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A Kaplan-Meier curve estimates the probability of remaining free of a defined event from a stated starting time while accounting for incomplete follow-up. At each event time, the previous estimate is multiplied by the fraction of people still at risk just before that time who avoid the event. Right censoring means observation ended without the event being seen, for example at cutoff or loss to follow-up. It leaves the current height unchanged but removes that person from later risk sets. A censor tick is neither an event nor proof of permanent event freedom. Interpretation requires censoring to be sufficiently independent of future event time within the analysis; losing contact because disease is worsening can bias the estimate.",
+        "Five fictional participants start follow-up for first recurrence, with no deaths in this example. One recurrence at month 1 leaves 4/5, or 80%, recurrence-free. One person is censored at month 2, so the estimate remains 80% but only three are at risk before the next recurrence at month 3. The new estimate is (4/5) × (2/3) = 8/15, about 53.3%. Subtracting two observed recurrences from the original five would ignore the missing later observation. The censored person is known to have been recurrence-free only through month 2; the group estimate does not fill in that person's month-3 outcome. The example stops at month 3 and supplies no later outcome, confidence interval or individual prognosis.",
+        "A five-year curve height is an estimate from its stated origin. A landmark analysis instead selects people meeting a condition at a later time, such as being observed and event-free at month 6, then evaluates subsequent outcomes. It changes the population and clock and handles early events differently from the original trial comparison. Classifying people by a later response can also bias survival comparisons if timing is mishandled. Read the endpoint, origin, cutoff, censoring rules, confidence intervals and number-at-risk table together. At-risk counts are changing denominators, not new enrolment; a flat late tail may rest on very few people and does not establish cure. Median survival is when the curve reaches 50%; “not reached” means it did not reach that level during observed follow-up. Median follow-up describes observation time. Neither statement implies there were no events. Curve height is not a hazard ratio, and curve separation needs a suitable study design for a causal interpretation.",
+        "Treating deaths that occur before the recurrence of interest as censoring and calculating one minus Kaplan-Meier targets a different quantity from cumulative incidence and can overstate that real-world recurrence probability. Cumulative incidence addresses that competing-risk question. The nonparametric Aalen-Johansen estimator estimates state probabilities, including cumulative incidence as a competing-risk special case, under the relevant event, observation and censoring assumptions. Fine-Gray regression is a separate model for covariate effects on the subdistribution hazard. Austin and colleagues' 2016 tutorial supports the bias and hazard distinctions; Therneau, Crowson and Atkinson's September 2026 technical vignette separately supplies the Aalen-Johansen method name and its relationship to cumulative incidence. Neither estimator removes the need for an appropriate event definition and follow-up.",
+        "The Kaplan-Meier event-fraction calculation does not specify a constant between-group hazard ratio. In Royston and Parmar's 2013 simulations, log-rank significance levels remained close to their planned value under the studied proportional and nonproportional patterns, while power differed. That illustrates why a model assumption, a test's calibration and its power are separate questions; it is not proof that every survival analysis is valid."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "absolute-benefit",
+      "kind": "term",
+      "name": "Absolute versus relative benefit (number needed to treat)",
+      "aka": [
+        "absolute benefit",
+        "absolute risk reduction",
+        "absolute risk",
+        "absolute difference",
+        "absolute gain",
+        "percentage-point difference",
+        "percentage points",
+        "relative benefit",
+        "relative risk reduction",
+        "relative reduction",
+        "number needed to treat",
+        "NNT",
+        "number needed to harm",
+        "NNH",
+        "one in every",
+        "out of 100",
+        "per 100 patients",
+        "per 100 treated",
+        "how many patients benefit",
+        "baseline risk",
+        "risk difference",
+        "difference in medians",
+        "months gained",
+        "median gain"
+      ],
+      "tldr": "A relative benefit says the risk fell by a third; an absolute benefit says how many people out of 100 were actually spared, which depends on how common the bad event was to begin with, and is the number that matters for deciding whether a treatment is worth its side effects.",
+      "summary": "Trial results are often headlined as relative effects: a treatment-versus-control hazard ratio of 0.72 describes a 28 percent lower hazard for the stated event under that model, rather than a 28 percent reduction in fixed-time recurrence risk. Carrying a relative effect to another population requires relevant assumptions and population fit; the ratio alone does not say how many people were helped. That requires the baseline risk. Cutting a risk of recurrence from 30 percent to 21 percent is a nine-percentage-point absolute reduction, and about eleven people must be treated for one of them to be spared a recurrence. Cutting a risk from 3 percent to 2.1 percent is the same relative reduction, a 0.9-point absolute reduction, and more than a hundred people must be treated to spare one. The side effects, cost and inconvenience fall on everyone treated, so the absolute benefit is the number to weigh them against.\n\nCHALLENGE illustrates the arithmetic in the corpus. Five-year disease-free survival was 80.3 percent with the exercise programme against 73.9 percent with health education, a hazard ratio of 0.72 and an absolute gain of about six percentage points, so roughly one in sixteen participants avoided a recurrence or death in that window. KEYNOTE-564 reported a disease-free survival hazard ratio of 0.72 as well; how many patients that helps depends on the recurrence risk of the population enrolled, which is why adjuvant trials restrict entry to higher-risk stages where the absolute benefit is worth a year of treatment. The Trials in plain words page on this site converts every trial result with structured outcomes into people out of 100 for exactly this reason.\n\nDifferences in medians are a third way of describing the same result and the easiest to misread. A median gain of two months means the middle patient in each arm differed by two months; it does not mean every patient gained two months, and when a survival curve has a long tail, as with immunotherapy, the median can understate the benefit to the minority who do very well. A trustworthy report gives the relative effect, the absolute difference at a stated time point, and the medians, and says which population they apply to.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Number_needed_to_treat",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Number_needed_to_treat"
+        },
+        {
+          "label": "CONSORT statement: reporting randomised trials",
+          "url": "https://www.consort-statement.org/"
+        },
+        {
+          "label": "The number needed to treat: a clinically useful measure of treatment effect.",
+          "url": "https://doi.org/10.1136/bmj.310.6977.452"
+        },
+        {
+          "label": "Calculating the number needed to treat for trials where the outcome is time to an event.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1117211/"
+        },
+        {
+          "label": "Confidence intervals for the number needed to treat.",
+          "url": "https://doi.org/10.1136/bmj.317.7168.1309"
+        },
+        {
+          "label": "OncoGuide: absolute-relative-risk-and-nnt (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "confidence-interval",
+        "median-survival",
+        "landmark-survival",
+        "kaplan-meier-curve",
+        "os",
+        "efs",
+        "cross-trial-comparison",
+        "denominators-and-conditional-probability"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "challenge",
+        "keynote-564",
+        "adaura"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Absolute risk is the chance of a defined event by a stated time. For an undesirable event, absolute risk reduction is control risk minus treatment risk, the risk ratio is treatment risk divided by control risk, and relative risk reduction is one minus that ratio. When the absolute reduction is positive, number needed to treat is its reciprocal, using a fraction rather than a percentage. Risks are percentages, absolute differences are percentage points, ratios have no units, and number needed to treat refers to people over the specified horizon. The population, comparator, event direction and time must match. With incomplete follow-up, suitable time-specific estimates are needed; dividing recorded events by enrolment may answer a different question.",
+        "The sign carries the meaning. If a fictional adverse effect occurs in 6% of controls and 8% with treatment over one year, the absolute risk increase is 2 percentage points and the number needed to harm is 1/0.02 = 50 over that year. Calling it a benefit number needed to treat would reverse the result. A zero absolute difference has no finite reciprocal; a risk ratio is undefined if control risk is zero. For a desirable outcome, define improvement in the opposite direction before calculating.",
+        "Suppose a fictional comparison estimates first recurrence or death by five years at 20% with control and 14% with the new strategy. The absolute reduction is 6 percentage points, the risk ratio is 0.14/0.20 = 0.70, and the relative reduction is 30%. The five-year number needed to treat is 1/0.06, about 16.7, rounded up to 17. Thinking of two groups of 100 gives 20 versus 14 expected events, not paired observations showing which six people were helped. This is an average contrast between strategies; it does not mean every seventeenth person benefits. Harms require their own outcomes and calculations.",
+        "Uncertainty belongs beside the absolute difference. In a fictional five-year example, an absolute risk reduction interval of 2 to 10 percentage points transforms to a number-needed-to-treat interval of 10 to 50. If the risk-difference interval crosses zero, its reciprocal passes through infinity into regions representing benefit and harm. Showing the risk-difference interval may communicate that uncertainty more clearly than one apparently bounded interval for number needed to treat.",
+        "A one-third relative risk reduction could mean 3 events becoming 2 per 100, or 30 becoming 20. Baseline risk changes the absolute difference. A hazard ratio compares conditional rates rather than fixed-time risks, so its reciprocal is not number needed to treat and the ratio alone supplies no absolute risk reduction. Three-year and five-year estimates answer different questions. Avoiding an event by a date does not establish permanent cure, and a favourable number needed to treat does not combine toxicity, quality of life and benefit into one decision. All numbers here are fictional arithmetic examples, rather than clinical thresholds or predictions."
+      ],
+      "category": "Endpoints"
+    },
+    {
+      "id": "odds-ratio",
+      "kind": "term",
+      "name": "Odds ratio",
+      "aka": [
+        "odds ratio",
+        "OR"
+      ],
+      "tldr": "An odds ratio compares events with non-events in two groups. Odds use a different denominator from probability, so doubling the odds does not generally double the chance.",
+      "summary": "An odds ratio divides the odds of an event in one group by the odds in a reference group. Probability uses all assessed outcomes in the denominator; odds compare events with non-events. The two scales can differ substantially when an event is common. An odds ratio does not supply an absolute risk or a causal treatment effect by itself. Its interpretation depends on outcome coding, the comparison, follow-up and model adjustment; a case-control sample does not reveal population prevalence from its case fraction.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CDC: risk ratios and odds ratios",
+          "url": "https://archive.cdc.gov/www_cdc_gov/csels/dsepd/ss1978/lesson3/section5.html"
+        },
+        {
+          "label": "Statistics notes. The odds ratio.",
+          "url": "https://doi.org/10.1136/bmj.320.7247.1468"
+        },
+        {
+          "label": "Confounding and Collapsibility in Causal Inference",
+          "url": "https://doi.org/10.1214/ss/1009211805"
+        },
+        {
+          "label": "Hernan and Robins: Causal Inference: What If",
+          "url": "https://miguelhernan.org/whatifbook"
+        },
+        {
+          "label": "OncoGuide: odds-ratio (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Probability counts events among everyone; odds count events relative to non-events. In a fictional bag with 20 red and 80 blue counters, the probability of red is 20/100 = 20%, but the odds are 20/80 = 0.25. For probability p, odds are p/(1 - p). An odds ratio divides one group's odds by the reference group's odds for a defined event. A value above one means higher odds in the numerator group; whether that is favourable depends on whether the event is response or harm. Specify the event, comparator and horizon. When events are rare in both groups the odds ratio can approximate the risk ratio; when they are common it can differ substantially and cannot be applied directly as a multiplier to a percentage.",
+        "Logistic regression commonly reports odds ratios. An estimate per one unit of a predictor differs from one per ten units, so its increment and outcome coding matter. Report the adjustment set and confidence interval alongside the estimate. An adjusted odds ratio can differ from the unadjusted value even without confounding, a property called noncollapsibility. A change after adjustment alone therefore does not prove confounding, and adjustment alone does not establish causation.",
+        "In a fictional comparison with complete response assessment, 40 of 100 people respond in group A and 20 of 100 in group B. A's response probability uses all 100 people, whereas its response odds use the 60 nonresponders. The response risk ratio is 0.40/0.20 = 2; the odds ratio is (40/60)/(20/80), about 2.67; and the absolute response difference is 20 percentage points. The same counts support three different measures. “2.67 times the odds” does not mean “2.67 times the chance”, and the study design determines whether a causal claim is justified.",
+        "Case-control studies deliberately sample cases and controls, so the case fraction in that sample is not population prevalence and cannot simply supply absolute risk. Zero counts can make a raw odds ratio zero, infinite or undefined; estimation method and uncertainty matter. Reversing the comparison takes the reciprocal. For another fictional example, 20 adverse events among 100 people versus 10 among 100 gives a risk ratio of 2 but an odds ratio of (20/80)/(10/90) = 2.25. A response odds ratio is also different from a survival hazard ratio. An assay-based association with response does not quantify the benefit of acting on a biomarker; its model, endpoint and treatment comparison need their own evidence. All counts here are invented."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "confidence-interval",
+      "kind": "term",
+      "name": "Confidence interval",
+      "aka": [
+        "confidence intervals",
+        "95% CI",
+        "95% confidence interval",
+        "95%CI",
+        "interval estimate",
+        "margin of error"
+      ],
+      "tldr": "A confidence interval shows an estimate's precision under a stated method. A 95% method covers the fixed true value in about 95% of repeated valid applications; it does not assign a 95% probability to the value lying in this particular interval.",
+      "summary": "Because a trial studies a sample rather than every patient in the world, its estimate carries uncertainty, and the confidence interval expresses it: more information often narrows the interval, while the method, data structure and assumptions also matter. For a conventional matching two-sided 95% interval and test, a hazard-ratio interval that excludes 1.0 corresponds to a p-value below 0.05; for a difference in months or percentage points, the interval must exclude zero. Reading the interval rather than just the point estimate shows how large or small the true benefit could plausibly be, and limits close to no effect should be read with the whole interval, clinical question and assumptions. Their position alone does not quantify how the result would change under different data or analyses.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Confidence_interval",
+      "links": [
+        {
+          "label": "NIST: confidence limits and repeated coverage",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm"
+        },
+        {
+          "label": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+        },
+        {
+          "label": "Greenland et al., 2016: statistical tests and confidence-interval interpretation",
+          "url": "https://doi.org/10.1007/s10654-016-0149-3"
+        },
+        {
+          "label": "OncoGuide: confidence-interval (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "p-value",
+        "hazard-ratio",
+        "hazard-ratio-basics",
+        "randomised-trial",
+        "endpoint",
+        "statistical-significance",
+        "non-inferiority-margin",
+        "absolute-benefit",
+        "bayesian-trial-design",
+        "sample-size-re-estimation",
+        "odds-ratio",
+        "population-versus-individual-risk"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A frequentist confidence interval describes estimation precision using a procedure with a stated coverage rate under its assumptions. Across repeated valid applications, a 95% procedure would include the fixed true parameter in 95% of its intervals. This does not assign a 95% probability to that parameter being inside one interval after it has been calculated, or describe a range containing 95% of patients. The result depends on the data structure, estimator, confidence level, model and calculation method, including adjustment, missing-data handling and multiplicity. More observations often improve precision but do not remove biased measurement, confounding or a wrong model.",
+        "The no-difference value is zero for differences and one for ratios. Including it does not prove equality. A fictional hazard ratio of 0.70 with an interval of 0.35 to 1.40 leaves substantial benefit and harm compatible with the analysis; 0.70 with an interval of 0.65 to 0.76 is more precise. Neither establishes personal benefit or applicability to another population. Likewise, a risk-difference interval of -8 to +10 percentage points does not establish equivalence. That requires justified, preferably prespecified lower and upper bounds and a suitable equivalence analysis; non-inferiority asks a separate question about one permitted-loss margin. Compare groups by estimating their difference directly, rather than judging whether two separate intervals overlap. Many unadjusted intervals also raise a multiplicity problem.",
+        "For a fictional binary outcome in 50 of 100 independent people, the normal-approximation standard error is sqrt(0.50 × 0.50/100) = 0.05. The approximate 95% interval is 0.50 ± 1.96 × 0.05, or 40.2% to 59.8%. With 5,000 of 10,000 people, the proportion stays 50% but the standard error becomes 0.005 and the interval 49.02% to 50.98%. Small counts, proportions near zero or one, clustering and incomplete outcomes may require other methods. A hand-picked set of ten such intervals, nine containing a fixed 50% truth and one missing it, illustrates coverage but does not measure a procedure's coverage rate. A 95% method need not cover in exactly 95% of a small set. Narrower bounds indicate greater sampling precision, not less bias.",
+        "A prediction interval addresses a future observation and includes additional variability. A Bayesian credible interval gives a probability interpretation conditional on the chosen model and prior. These are different constructions, not alternative names for a frequentist confidence interval."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "subgroup-analysis",
+      "kind": "term",
+      "name": "Subgroup analysis (forest plots)",
+      "aka": [
+        "subgroup",
+        "subgroups",
+        "subgroup analysis",
+        "subgroup analyses",
+        "pre-specified subgroup",
+        "prespecified subgroup",
+        "subgroup effect",
+        "subgroup benefit",
+        "forest plot",
+        "forest plots",
+        "interaction test",
+        "test for interaction",
+        "heterogeneity of effect",
+        "consistent across subgroups",
+        "benefit was consistent",
+        "effect modification",
+        "biomarker subgroup",
+        "PD-L1 subgroup",
+        "high-volume subgroup",
+        "regional subgroup",
+        "Asian subgroup",
+        "Western subgroup",
+        "subgroup effects"
+      ],
+      "tldr": "A subgroup analysis compares effects in defined groups. A striking estimate or different significance labels do not by themselves establish that treatment effects differ.",
+      "summary": "Subgroup analyses examine whether treatment effects differ across defined groups. Report the effect scale, interaction analysis, uncertainty, multiplicity and whether the groups and methods were specified before relevant results were available. Wide intervals, selected cutoffs and missing specimens can limit interpretation. A significant result in one group and a nonsignificant result in another is not itself a test of their difference. Confirmation and treatment-selection utility require additional evidence.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Subgroup_analysis",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Subgroup_analysis"
+        },
+        {
+          "label": "Biomarker: Predictive or Prognostic?",
+          "url": "https://doi.org/10.1200/JCO.2015.63.3651"
+        },
+        {
+          "label": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+          "url": "https://doi.org/10.1371/journal.pmed.1004587"
+        },
+        {
+          "label": "ICH E9: statistical principles for clinical trials, 1998",
+          "url": "https://www.fda.gov/media/71336/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "prespecified-vs-post-hoc",
+        "statistical-significance",
+        "pd-l1-testing",
+        "trial-failure-modes",
+        "biomarker-stratified-design",
+        "stratified-randomisation"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "rxponder",
+        "progesterone-preop-tmh",
+        "magnitude"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A small subgroup chosen because of its observed result can motivate a new study without establishing who benefits from treatment. Compare treatment-effect estimates directly using an appropriate interaction analysis, uncertainty and multiplicity control; different significance labels in two groups are not evidence that the effects differ. A group defined by response after treatment is also different from a baseline category because treatment can affect who enters it."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "meta-analysis",
+      "kind": "term",
+      "name": "Meta-analysis",
+      "aka": [
+        "meta-analyses",
+        "meta analysis",
+        "pooled estimate",
+        "random-effects meta-analysis",
+        "I-squared",
+        "tau-squared"
+      ],
+      "tldr": "A meta-analysis combines estimates from separate studies with a stated statistical method; it can improve precision, but it cannot repair studies that answer different questions or share the same biases.",
+      "summary": "A meta-analysis statistically combines estimates from studies addressing a sufficiently compatible question. It can be part of a systematic review, which explicitly finds, selects and appraises studies; pooling is not compulsory. The result depends on the studies, their biases, effect definitions, model and weights. A precise pooled mean need not describe every setting or an individual person.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "Higgins, Thompson and Spiegelhalter: a re-evaluation of random-effects meta-analysis (JRSS A 2009)",
+          "url": "https://doi.org/10.1111/j.1467-985X.2008.00552.x"
+        },
+        {
+          "label": "Cochrane Handbook chapter 10: analysing data and undertaking meta-analyses",
+          "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10"
+        },
+        {
+          "label": "PRISMA 2020 statement: reporting systematic reviews (BMJ 2021)",
+          "url": "https://doi.org/10.1136/bmj.n71"
+        },
+        {
+          "label": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+          "url": "https://doi.org/10.1016/j.jclinepi.2016.04.014"
+        },
+        {
+          "label": "Cochrane Handbook chapter 5: identifying and linking multiple reports of one study",
+          "url": "https://training.cochrane.org/handbook/current/chapter-05"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "publication-and-peer-review-status",
+        "confidence-interval",
+        "randomised-trial",
+        "real-world-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A common-effect model targets one underlying effect, while a random-effects model describes a distribution of study effects and its mean. Weights follow the stated estimator, not simply the largest participant count. Clinical and methodological differences, bias and heterogeneity beyond sampling error need investigation; a random-effects calculation does not remove them or make incompatible studies comparable.",
+        "A confidence interval for the mean effect differs from a prediction interval for an underlying effect in another comparable study under the model. Neither is a personal prognosis interval. I-squared estimates the proportion of variability in study estimates associated with heterogeneity rather than sampling error; it is neither the percentage of people helped nor the percentage of studies that are wrong. Tau-squared is between-study effect variance on the chosen scale, such as squared score points or squared log risk ratios. These estimates can be uncertain, especially with few studies, and no I-squared cutoff alone makes pooling safe.",
+        "Fictional forest example: five studies compare treatment A minus control on the same 0 to 100 symptom scale at day 30. Their effects are -8, -6, -4, -2 and 0 points, each with standard error 2 and weight 20 per cent, so the square areas are equal. The mean is -4.0 points. With a classical moment variance estimate, Q = 10, I-squared = 60 per cent and tau-squared = 6 squared score points. A normal 95 per cent mean interval is about -6.8 to -1.2; the stated 2009 prediction method, using a t distribution with three degrees of freedom, gives about -13.0 to +5.0. The study intervals, mean diamond and wider prediction interval answer different questions. Five studies are few and these intervals are approximate; a negative mean does not imply a negative effect in every setting.",
+        "Retain search dates, eligibility, unique study identities, risk of bias, treatment sequence, event definition, starting clock, horizon, effect scale, model, weights, uncertainty and sensitivity analyses. Abstracts, full reports and follow-up of the same participants are linked reports rather than independently weighted trials. Availability related to findings can leave evidence missing. Pooling observational associations does not create randomization or establish one person's treatment benefit. PRISMA promotes transparent reporting; completing its checklist does not certify validity.",
+        "Fictional weighted example: two comparable three-year risk differences are -4 and -8 percentage points with supplied weights 0.75 and 0.25. Their weighted mean is -5 points; these stipulated weights are not claimed precision estimates. Correct arithmetic would still not justify pooling if one study starts at randomization and another selects responders at a later landmark. The eligibility, clock and target question must be compared first.",
+        "Before pooling, link abstracts, full reports and later follow-up of the same study using registry identifiers, recruiting centres, recruitment dates, treatments, participant counts and baseline characteristics. Different author lists or sample sizes need not mean different trials: a later cutoff or selected analysis cohort can change the reported number. Conversely, one report can describe more than one study. Cochrane Handbook chapter 5 makes the study, rather than the publication, the unit of interest. Retain useful details from secondary reports without counting the same participants again as independent replication."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "lead-time-bias",
+      "kind": "term",
+      "name": "Lead time, and lead-time bias",
+      "aka": [
+        "lead time",
+        "lead-time",
+        "lead time bias",
+        "screening lead time",
+        "lead time in prostate cancer screening"
+      ],
+      "tldr": "Finding a cancer earlier starts the survival clock sooner, even if the date of death does not change. Counting that extra time as longer life is lead-time bias. Survival measured from diagnosis alone cannot establish that screening saves lives.",
+      "summary": "Lead time is the interval between the moment a screening test finds a cancer and the moment that cancer would have been diagnosed because it caused symptoms. Lead-time bias is what happens when survival is measured from diagnosis: a man whose cancer is found five years earlier appears to survive five years longer even if the date of his death is unchanged. It is why survival from diagnosis is unreliable on its own as a measure of whether a screening programme works, and why randomised screening trials report mortality in the whole invited population instead.\n\nFor prostate-specific antigen screening, estimated lead time depends on the definition and population. The following numbers are model estimates from specified settings, not a ranking of lead times across cancers. Draisma and Etzioni ran three independently built models of prostate cancer progression and detection, all calibrated to Surveillance, Epidemiology, and End Results incidence in United States men aged 54 to 80 between 1985 and 2000. Among screen-detected cancers that would have surfaced in the man's lifetime, mean lead time was 5.4 to 6.9 years across the three models; the original MISCAN model fitted instead to the Rotterdam section of the European screening trial gave 7.9 years. Published estimates before that work spanned 3 to 12 years. The three models agreed closely with each other for any single definition of lead time and disagreed substantially across definitions, which is the paper's real finding: the number is a property of the question, not of the disease.\n\nThe consequence is practical. Lead time is what generates overdiagnosis: if the lead time is longer than the man's remaining life, the cancer would never have troubled him, and the same modelling put overdiagnosis at 23 to 42 percent of screen-detected cancers in the United States calibration and 66 percent in the Rotterdam one. It is also why the 2018 United States task force statement expresses benefit as deaths and metastatic cases prevented per 1,000 men screened over about 13 years rather than as a survival rate, and why the two 2009 randomised trials, ERSPC and PLCO, are the evidence rather than any registry series.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Lead_time_bias",
+      "links": [
+        {
+          "label": "Draisma et al., Journal of the National Cancer Institute 2009: lead time and overdiagnosis in prostate-specific antigen screening, importance of methods and context",
+          "url": "https://doi.org/10.1093/jnci/djp001"
+        },
+        {
+          "label": "Welch and Albertsen, Journal of the National Cancer Institute 2009: prostate cancer diagnosis and treatment after the introduction of prostate-specific antigen screening, 1986 to 2005",
+          "url": "https://doi.org/10.1093/jnci/djp278"
+        },
+        {
+          "label": "US Preventive Services Task Force, JAMA 2018: screening for prostate cancer, recommendation statement",
+          "url": "https://doi.org/10.1001/jama.2018.3710"
+        },
+        {
+          "label": "Schroder et al., New England Journal of Medicine 2009 (ERSPC): screening and prostate cancer mortality in a randomised European study",
+          "url": "https://doi.org/10.1056/nejmoa0810084"
+        },
+        {
+          "label": "NCI: screening statistics and lead-time bias",
+          "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+        },
+        {
+          "label": "FDA: ctDNA in curative-intent drug development (2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+          "url": "https://doi.org/10.1016/j.annonc.2022.11.005"
+        },
+        {
+          "label": "OncoGuide: lead-time-bias (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md"
+        },
+        {
+          "label": "Rosselli Del Turco et al., JAMA 1994: intensive diagnostic follow-up",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7848404/"
+        },
+        {
+          "label": "GIVIO Investigators, JAMA 1994: follow-up testing",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8182811/"
+        },
+        {
+          "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+          "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+        }
+      ],
+      "tags": [
+        "gu",
+        "prostate-glossary"
+      ],
+      "related": [
+        "overdiagnosis",
+        "number-needed-to-screen",
+        "overtreatment",
+        "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009",
+        "prostate-screening-psa-mri",
+        "ctdna-monitoring-lead-time"
+      ],
+      "cancers": [
+        "prostate",
+        "prostate-low-risk",
+        "prostate-intermediate-risk"
+      ],
+      "sections": [
+        "early-detection",
+        "prevention"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "overdiagnosis",
+        "overtreatment",
+        "number-needed-to-screen",
+        "screening",
+        "psa"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-overdiagnosis",
+        "b-early-detection",
+        "b-trial-design"
+      ],
+      "keyPapers": [
+        "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009",
+        "paper-welch-albertsen-psa-era-diagnosis-treatment-jnci-2009",
+        "paper-schroder-erspc-screening-mortality-nejm-2009"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Why a five-year survival rate cannot settle a screening argument. Three biases push it up without anyone living longer: lead-time bias, because the clock starts earlier; length bias, because a test that samples the population at intervals preferentially catches slow-growing cancers that sit around waiting to be found; and overdiagnosis, because cancers that would never have surfaced are added to the numerator of survivors. All three run in the same direction. Mortality in a randomised invited population is immune to all three, which is why it is the endpoint the trials used.",
+        "Lead time is not the same as overdiagnosis, although the two are produced by the same mechanism. Lead time is how much earlier the diagnosis came. Overdiagnosis is the case where the lead time exceeded the rest of the man's life, so the diagnosis never needed to come at all. A long lead time with a long life left is exactly what screening is for.",
+        "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+        "Length bias favours conditions with longer detectable preclinical periods. Overdiagnosis means detecting disease that would not have caused clinical harm during the person's lifetime. Neither is another name for lead-time bias. Screening examples explain the distinctions but cannot establish their magnitude in post-treatment molecular monitoring.",
+        "A monitoring strategy includes its schedule, positive-result rule and resulting action. Comparing that strategy with a meaningful alternative from a common origin, such as randomisation, can assess clinical outcomes and harms. Counting all assigned participants avoids selecting only those with detectable earlier signals. Analysis must also address when groups entered, how follow-up ended, whether positive tests triggered extra imaging and whether people without prior detection were omitted. c-TRAK TN tested a specific blood-surveillance and intervention design; its detection and feasibility findings do not establish a beneficial intervention window for every early signal. A fictional contrast of median survival of 24 months after blood detection versus 18 after imaging detection, without a common-origin comparison, cannot show that testing saves lives. Some or all of the difference could arise from the earlier clock or other group differences.",
+        "The same timing distinction extends beyond the prostate-screening context of this record. Historical breast-cancer surveillance trials illustrate why strategy and outcome must stay together. Rosselli Del Turco and colleagues' 1994 trial enrolled 1,243 surgically treated patients with unilateral invasive breast cancer and no metastases. Adding six-monthly chest radiographs and bone scans detected more isolated intrathoracic and bone metastases, 112 versus 71, and the report described earlier detection of recurrences in that group; five-year relapse-free survival, which stops at detection, was significantly lower with intensive follow-up, while five-year mortality was 18.6% versus 19.5%, with no mortality improvement reported. The separate GIVIO trial enrolled 1,320 women and reported no overall-survival or quality-of-life difference, and no significant difference in time to recurrence detection. Thus the trials should not both be described as showing earlier detection: only the first reported it. Their results do not establish equivalence or the effects of modern imaging and treatment, and a nonsignificant comparison is not proof of exactly zero benefit.",
+        "In ctDNA monitoring studies, measured lead time is the date of a defined later event minus the date of the first qualifying positive blood sample, and it is conditional: a median over people with both an earlier positive and a later recurrence leaves out recurrences with no earlier positive, and people who are positive but have not yet recurred are censored. In a prospective breast-cancer study with blood taken every 3 months in the first year and every 6 months after, detection preceded clinical relapse by a median of 10.7 months (95% CI 8.1 to 19.1) in a combined cohort of 144, and brain-only relapse was detected in 1 of 6 patients (Garcia-Murillas 2019). Because draws and scans are both intermittent, the gap begins at an observed draw and cannot locate biological onset, and an earlier signal shows earlier detection and not longer survival, which is the lead-time bias problem.",
+        "State how lead time was estimated. A simple median of completed positive-to-recurrence intervals is conditional on that selected group; a time-to-event analysis can also incorporate censored follow-up. People without a prior positive and people positive without a later recurrence therefore need explicit dispositions under the study definition. They are not automatically zero-month, infinite or missing intervals interchangeable across studies.",
+        "A fictional timing problem illustrates why group entry matters: if a group is defined by a blood-positive result at month 6, its members had to remain observable until that result. Assigning their earlier follow-up to the positive group can create immortal-time bias. A prespecified landmark or a time-varying exposure analysis addresses different timing questions; the comparison must state its origin, eligibility and handling of later events. This is a study-design reading rule, not evidence that a surveillance policy improves outcomes."
+      ],
+      "category": "Epidemiology & prevention"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "checkedOn": "2026-11-10",
+  "canonicalOwners": 19,
+  "newIdentitiesInRootDraft": 5,
+  "ownersAbsentFromMainBaseline": 10,
+  "sourceVersions": 36,
+  "sectionSignatures": 438,
+  "retainedUnits": 255,
+  "excludedRecaps": 3,
+  "originalTeachingRequirements": 251,
+  "laterTeachingRequirements": 252,
+  "exactFieldProofs": 266,
+  "renderedParagraphs": 118,
+  "readerNotesBeforeConsolidation": 141,
+  "readerNotesAfterConsolidation": 70,
+  "figurePathsPerRef": 34,
+  "figureVersionEntries": 68,
+  "unmergedMainCoverage": 0,
+  "finalReaudits": 0
+}

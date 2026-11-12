@@ -1,0 +1,78 @@
+{
+  "cohortRepresentationOpen": [],
+  "peerRequirementsUnapplied": 20,
+  "rootRequirementsAuthored": 101,
+  "sourceDepthFollowups": {
+    "id": "study-statistics-source-depth",
+    "title": "Statistics method depth and legacy catalogue review",
+    "domain": "evidence-statistics-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/6354290/",
+      "https://doi.org/10.1038/nrn3502"
+    ],
+    "discoveryOccurrences": [
+      "study-statistics-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator follow-up intake, no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "The source-scoped methods and qualified examples are represented. These tasks are additional depth, retained legacy-claim review and a reader schematic issue; they do not inflate the five pinned lesson denominators.",
+      "points": [
+        {
+          "id": "schoenfeld-original-body",
+          "requirement": "Retrieve and read the original 1983 Schoenfeld derivation before claiming its full text read; the current event formula uses the explicit technical manual and independent calculation.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Retrieve and read the original 1983 Schoenfeld derivation before claiming its full text read; the current event formula uses the explicit technical manual and independent calculation."
+          ]
+        },
+        {
+          "id": "button-erratum-body",
+          "requirement": "Read the content of Button 2013 erratum DOI 10.1038/nrn3502. Identity and relation are verified; no quantitative neuroscience estimate from that paper is adopted.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the content of Button 2013 erratum DOI 10.1038/nrn3502. Identity and relation are verified; no quantitative neuroscience estimate from that paper is adopted."
+          ]
+        },
+        {
+          "id": "statistics-legacy-catalogues",
+          "requirement": "Reassess the deliberately withdrawn clinical catalogues in the previous estimand, Bayesian, platform, non-inferiority and sample-size summaries before restoring those examples. Full before/after fields and all existing links are retained.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Reassess the deliberately withdrawn clinical catalogues in the previous estimand, Bayesian, platform, non-inferiority and sample-size summaries before restoring those examples. Full before/after fields and all existing links are retained."
+          ]
+        },
+        {
+          "id": "seamless-adaptive-schematic-fit",
+          "requirement": "Review the existing seamless-adaptive reader drawing: it borrows a clearly labelled digital-twins/virtual-control schematic. That narrower technology is not a general depiction of every adaptive design. No source-figure or independent visual credit is claimed.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Review the existing seamless-adaptive reader drawing: it borrows a clearly labelled digital-twins/virtual-control schematic. That narrower technology is not a general depiction of every adaptive design. No source-figure or independent visual credit is claimed."
+          ]
+        }
+      ]
+    }
+  },
+  "readingLimits": [
+    "Most publications are abstract-only. Body paragraphs and official PDF pages listed here are targeted readings, never first-to-last full-text claims.",
+    "Schoenfeld university mirror returned HTTP 202 with an empty body. Its exact body was not read; formula support is the stated technical manual and independent calculation.",
+    "The old I-SPY2.2 sponsor URL returned 404. The separately resolved 2024 report and valid NCBI full text supply the described design, without inventing sponsor content.",
+    "Button erratum content and many linked older clinical catalogues remain outside this source-depth certification. No quantitative neuroscience estimate is used.",
+    "No callable Elicit scientific tool was available. Search tools supplied leads only; no question, report link or response is invented."
+  ],
+  "creditBoundaries": {
+    "main": 0,
+    "live": 0,
+    "expert": 0,
+    "learner": 0,
+    "language": 0,
+    "peerRegistration": 0,
+    "wholeCorpusReaudit": 0
+  },
+  "broaderGoalComplete": false
+}

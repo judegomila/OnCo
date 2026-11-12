@@ -1,0 +1,242 @@
+{
+  "checkedOn": "2026-11-10",
+  "sourceBatch": "round13-assets-literature-review",
+  "pathsIndependentlyRead": 11,
+  "supportingPathsAccepted": 3,
+  "versionEntriesAccepted": 6,
+  "pathsHeldOpen": 8,
+  "scope": "Only three unambiguously mechanical palette calls are classified. No image was newly viewed and no lesson coverage is added. The other forty-nine batch paths and the eight held proposals remain in the required asset worklist.",
+  "decisions": [
+    {
+      "path": "wiki/education/cellular-therapies/images/prompts/cytokine-message-and-receptor-v2-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "e6b3d3a7a00a3ba1231fb48cca95650e51afb955",
+          "bytes": 618,
+          "sourceSha256": "8d1628bfbb0d82c378c21e1c87fd98d5f9d493d78260635a059a5892f7de6271"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "e6b3d3a7a00a3ba1231fb48cca95650e51afb955",
+          "bytes": 618,
+          "sourceSha256": "8d1628bfbb0d82c378c21e1c87fd98d5f9d493d78260635a059a5892f7de6271"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "supporting",
+      "reason": "No independent biology is stated in the palette-only call; parent teaching remains open.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/prompts/where-cells-are-engineered-v2-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "f25181da10570c493e68042202a4a6175bcb6b43",
+          "bytes": 1088,
+          "sourceSha256": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "f25181da10570c493e68042202a4a6175bcb6b43",
+          "bytes": 1088,
+          "sourceSha256": "506382cdd71c552f790d0d123c1e068d01cbcc58012d368d852e568bf14431e8"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "470898c17b3dc9ed63efb4230d0e79b5a6e3dc54",
+          "bytes": 3212,
+          "sourceSha256": "b82e0f6d6396087a11c8a8ee4c08fe081ee0af85572cc61aa5ccf69fd0840c97"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "470898c17b3dc9ed63efb4230d0e79b5a6e3dc54",
+          "bytes": 3212,
+          "sourceSha256": "b82e0f6d6396087a11c8a8ee4c08fe081ee0af85572cc61aa5ccf69fd0840c97"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/epithelium-tissue-boundaries-v2-light-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "fa17c864d0f0d4fe6c36af5a9f1b0a931dea996c",
+          "bytes": 2078,
+          "sourceSha256": "81ccce0a9d6743712e6ab20eebc4a7752166ebe244b908de616f6561589ffe23"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "fa17c864d0f0d4fe6c36af5a9f1b0a931dea996c",
+          "bytes": 2078,
+          "sourceSha256": "81ccce0a9d6743712e6ab20eebc4a7752166ebe244b908de616f6561589ffe23"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/organelle-compartments-and-one-cargo-route-v1-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "4c0076c36fae5d1b49cfacce272551a4e599ad30",
+          "bytes": 614,
+          "sourceSha256": "2b0d2af6848ea4354077694776fc8647e7fe22b7fabcaf5a5545ba3618523619"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "4c0076c36fae5d1b49cfacce272551a4e599ad30",
+          "bytes": 614,
+          "sourceSha256": "2b0d2af6848ea4354077694776fc8647e7fe22b7fabcaf5a5545ba3618523619"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "supporting",
+      "reason": "No independent biology is stated in the palette-only call; parent teaching remains open.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/organelle-compartments-and-one-cargo-route-v1-dark.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "7f75c8eb76da711a5c0953d3c54c075297e5c070",
+          "bytes": 1547,
+          "sourceSha256": "1274d50cdd822899e47d24ddf20baba7d32e0c06649b1096ca38c53c9316adc8"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "7f75c8eb76da711a5c0953d3c54c075297e5c070",
+          "bytes": 1547,
+          "sourceSha256": "1274d50cdd822899e47d24ddf20baba7d32e0c06649b1096ca38c53c9316adc8"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/organelle-compartments-and-one-cargo-route-v1-light-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "058d4d2d48dac7e54bb56047c0093d066549a756",
+          "bytes": 2335,
+          "sourceSha256": "793512608d175741a2ee678021b726a0bf50ce56cee4942cb8b80ab8cb634e89"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "058d4d2d48dac7e54bb56047c0093d066549a756",
+          "bytes": 2335,
+          "sourceSha256": "793512608d175741a2ee678021b726a0bf50ce56cee4942cb8b80ab8cb634e89"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/organelle-compartments-and-one-cargo-route-v1-light.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "1eb4e6f06f4b22789152dbea249642837b076b42",
+          "bytes": 1517,
+          "sourceSha256": "be1d2c9cfbc65212132b0638506f31e9722cc379981317dd63caf1b49c3e0771"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "1eb4e6f06f4b22789152dbea249642837b076b42",
+          "bytes": 1517,
+          "sourceSha256": "be1d2c9cfbc65212132b0638506f31e9722cc379981317dd63caf1b49c3e0771"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/cells/images/prompts/where-is-the-cargo-v1-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "08d748c4228241af96c7b3152d77f1114b9aa3ff",
+          "bytes": 667,
+          "sourceSha256": "c6af84ac2bc6e2923a5658841312244a4e95902214501d9dd5041214781300bd"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "08d748c4228241af96c7b3152d77f1114b9aa3ff",
+          "bytes": 667,
+          "sourceSha256": "c6af84ac2bc6e2923a5658841312244a4e95902214501d9dd5041214781300bd"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "supporting",
+      "reason": "No independent biology is stated in the palette-only call; parent teaching remains open.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-dark-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "789e47413e72d828575778984c7484da5c70e5e9",
+          "bytes": 3671,
+          "sourceSha256": "0fb3e0ac0586088ed35b808df986247cc740838792f9ecc6a209da0ea6ab4449"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "789e47413e72d828575778984c7484da5c70e5e9",
+          "bytes": 3671,
+          "sourceSha256": "0fb3e0ac0586088ed35b808df986247cc740838792f9ecc6a209da0ea6ab4449"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    },
+    {
+      "path": "wiki/education/concepts/biology-basics/genetics/images/prompts/germline-lineage-windows-v4-light-call.txt",
+      "refs": [
+        {
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "3f7c7be1023ba1c40c6bc419a3577896535216a4",
+          "bytes": 2314,
+          "sourceSha256": "6ca2662d3b5cc4581fecf53623cadaa925874c69e7f7db207044ea342e45dcdc"
+        },
+        {
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "3f7c7be1023ba1c40c6bc419a3577896535216a4",
+          "bytes": 2314,
+          "sourceSha256": "6ca2662d3b5cc4581fecf53623cadaa925874c69e7f7db207044ea342e45dcdc"
+        }
+      ],
+      "priorProposedClass": "support-only",
+      "coordinatorDisposition": "held-for-parent-teaching-reconciliation",
+      "reason": "The body contains a biological lock-list, a scientific boundary, a corrective biological instruction or a self-review of scientific content. No new biology is not enough to exclude those statements. Reconcile them against their parent lesson/figure before deciding whether they are redundant teaching or support with an explicit escalation.",
+      "newTeachingCoverageCredit": 0
+    }
+  ]
+}

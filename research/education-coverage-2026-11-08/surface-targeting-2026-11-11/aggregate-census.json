@@ -1,0 +1,10 @@
+{
+  "selectedEntityIds": 585,
+  "absentBaseline": 160,
+  "existingBaseline": 425,
+  "shortObservationIds": 4356,
+  "distinctEntityLanguageSlots": 4338,
+  "slotTexts": 1143,
+  "slotEnglishFallbacks": 3195,
+  "method": "Entity ids are the union of selected proposal snapshots, excluding every reader kind. Summary observations include the separately captured companion readers. Canonical record id plus language deduplicates eighteen alternate antibody and antibody-structure observation ids; the newest surface cohort wins overlaps, while other snapshots retain their recorded time. The earlier 4,068 count was observation ids, not canonical language slots."
+}

@@ -17,7 +17,7 @@ export const asOf = "2026-09-29";
 export const doi = (label: string, id: string) => ({ label, url: `https://doi.org/${id}` });
 export const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 export const link = (label: string, url: string) => ({ label, url });
-export const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+export const term = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: string }): TermInput => ({ kind: "term", asOf, ...x });
 
 const D = (id: string) => `https://doi.org/${id}`;
 

@@ -1,0 +1,178 @@
+{
+  "findings": [
+    {
+      "id": "BC-01",
+      "source": "germline-testing",
+      "blocks": [
+        30,
+        31
+      ],
+      "requirement": "germline-testing:B022",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "G1 explains both negative-result meanings but should explicitly carry the two fictional family/test reports. Preserve all existing family-history, wider-panel and cascade-testing content.",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "BC-02",
+      "source": "her2",
+      "blocks": [
+        1
+      ],
+      "requirement": "her2:B001",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Expand HER2 as human epidermal growth factor receptor 2 in the corrected owner definition, or bind a verified existing canonical definition.",
+      "evidenceKeys": [
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "BC-03",
+      "source": "her2",
+      "blocks": [
+        5
+      ],
+      "requirement": "her2:B003",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "HE2 describes copy-number outputs and the CEP17 probe, but should explicitly state the tissue nucleic-acid-probe principle. Abbott Principles of Procedure already read supports it.",
+      "evidenceKeys": [
+        "HE2"
+      ]
+    },
+    {
+      "id": "BC-04",
+      "source": "estrogen-receptor / progesterone-receptor",
+      "blocks": [
+        5,
+        6
+      ],
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Bind the shared nucleus definition for the explicit nuclear-compartment teaching. Existing nucleus and DNA records were located; their fields still need capture/readback here.",
+      "evidenceKeys": [
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "BC-05",
+      "source": "sox10-and-basal-markers",
+      "requirement": "sox10-and-basal-markers:B007",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Spell out CK5/6 as cytokeratins 5 and 6 and EGFR as epidermal growth factor receptor/HER1, or bind verified existing canonical definitions. Do not imply one KRT6 isoform is the entire combined stain.",
+      "evidenceKeys": [
+        "S1"
+      ]
+    },
+    {
+      "id": "BC-06",
+      "source": "brain-metastasis-risk",
+      "blocks": [
+        3
+      ],
+      "requirement": "brain-metastasis-risk:B003",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "M1 separates brain parenchymal from leptomeningeal disease but should bind a verified definition of leptomeninges around the brain/spinal cord.",
+      "evidenceKeys": [
+        "M1"
+      ]
+    },
+    {
+      "id": "BC-07",
+      "source": "curative-intent",
+      "blocks": [
+        5
+      ],
+      "requirement": "curative-intent:B004",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Make systemic therapy acting against disease too small to detect explicit; do not infer uniform exposure or eradication.",
+      "evidenceKeys": [
+        "C1"
+      ]
+    },
+    {
+      "id": "BC-08",
+      "source": "oligometastatic-disease",
+      "blocks": [
+        8,
+        9,
+        12
+      ],
+      "requirements": [
+        "oligometastatic-disease:B005",
+        "oligometastatic-disease:B008"
+      ],
+      "status": "resolved in registered audit-draft fields",
+      "finding": "O1 names synchronous/metachronous timing without distinguishing near diagnosis from later; define limited residual/persistent disease as visible disease remaining after treatment under the author's definitions.",
+      "evidenceKeys": [
+        "O1"
+      ]
+    },
+    {
+      "id": "BC-09",
+      "source": "sox10-and-basal-markers",
+      "blocks": [
+        20,
+        23
+      ],
+      "requirements": [
+        "sox10-and-basal-markers:B013",
+        "sox10-and-basal-markers:B015"
+      ],
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Name positive/negative controls in the reading card and state directly that stained-cell percentage is not treatment-benefit probability.",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "BC-10",
+      "source": "curative-intent",
+      "blocks": [
+        14
+      ],
+      "requirements": [
+        "curative-intent:B003",
+        "curative-intent:B004"
+      ],
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Retain local surgery/radiation having cure, control or symptom-relief purposes; location alone does not identify intent. The NCI palliative-care passage was read.",
+      "evidenceKeys": [
+        "C1"
+      ]
+    },
+    {
+      "id": "BC-11",
+      "source": "curative-intent",
+      "blocks": [
+        20,
+        21
+      ],
+      "requirement": "curative-intent:B015",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Bind remission's observed reduction/disappearance definition, rather than only the complete-remission definition.",
+      "evidenceKeys": [
+        "C3",
+        "remission:summary:2618d1b982c0"
+      ]
+    },
+    {
+      "id": "BC-12",
+      "source": "shared nucleus owner",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "The current nucleus TLDR places it at the centre of a cell as a universal statement. Use the verified membrane/chromosome definition without fixing its position. Preserve other fields at their existing scope.",
+      "evidenceKeys": [
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "BC-13",
+      "source": "shared remission owner",
+      "status": "resolved in registered audit-draft fields",
+      "finding": "Replace the blanket blood-cancer criteria and unsourced five-year proxy in the summary with the verified remission/complete-remission distinction and disease-specific assessment scope. Preserve arrays and known-care links.",
+      "evidenceKeys": [
+        "remission:summary:2618d1b982c0"
+      ]
+    }
+  ],
+  "scope": "Coordinator definition and field-completeness findings. This does not relabel the earlier incomplete independent acceptance as complete."
+}

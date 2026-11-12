@@ -1,0 +1,512 @@
+{
+  "filesViewed": 28,
+  "families": 14,
+  "figures": [
+    {
+      "lesson": "chemical-probe-vs-drug-and-target-engagement",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-light.svg",
+      "blob": "b621c366764dc8734fff6ee25ae36ede1d8a2b20",
+      "sha256": "7ce897a19199429af252d49712af773cd46e0d6c4cc1fa165cfc44d6b780d745",
+      "bytes": 5201,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1410,
+      "renderSha256": "de68b4f036650ce2ae8ca073c1dbec19f87a03a97f0b230c625cb3ed9e0448d0",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-010",
+        "IND-011"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "chemical-probe-vs-drug-and-target-engagement",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/thermal-and-concentration-axes-engagement-boundaries-v2-dark.svg",
+      "blob": "e10e0947d2721758d211ec789a586dfcbe88afbc",
+      "sha256": "555dfe93e4f1481fdbf99f054494fdab00aff243d71ea5778035c0f3cdab2e2b",
+      "bytes": 5201,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1410,
+      "renderSha256": "8bd614ddaca8a893b3bfb6c34e4e6778950aab91abfca177cb5c680463589727",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-010",
+        "IND-011"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "combination-therapy-rationale",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-light.svg",
+      "blob": "ca9f502578a787d87efef718948d59f53c8a97d5",
+      "sha256": "93372b1a8fdce81fb023d0a46d6e96d5507f70d3d20a7b5fc819043fcd5faa28",
+      "bytes": 11972,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "fe0753bfb42abd5f6d0e5e954868d8f6af6de089d74a7a95e185e32f5f464310",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-025",
+        "IND-026"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "combination-therapy-rationale",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/response-union-and-interaction-references-v1-dark.svg",
+      "blob": "a0ad85052825b6175854a9321152a4b369734464",
+      "sha256": "45ee374d397f5a2bf5aebb6542d57f3fdd5ff443a5257392f8e95c9719e3e908",
+      "bytes": 11972,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "b9dca346671907476e87179cce469697040e2bdc831c98eebff6e6030ecd48c4",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-025",
+        "IND-026"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "dose-and-dose-intensity",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-light.svg",
+      "blob": "6e68993be626ce370b4a5525d614caf4fa20e971",
+      "sha256": "5089cdaf65442d504316ee9f253e8407af9f29dd81b3bc76a65a842c65989d5d",
+      "bytes": 6591,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "aa5050fe703620809d50598be0c550211e8f27ee1aed1abd61352e4bfda1490d",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-033"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "dose-and-dose-intensity",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/equal-amounts-different-time-windows-v1-dark.svg",
+      "blob": "3e6e1ffee75d9521e397bdcdcd186a4cd4c3a25e",
+      "sha256": "1b6d72098a35a9556031863f49b43a2c03800b23ae36fceac54a8a603c0d5905",
+      "bytes": 6591,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "a4496af57f6f68ef52df70b6276a52e247cd5e8dbd06324ce834c80d7e1eb04d",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-033"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "drug-target-and-mechanism",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-v2-light.png",
+      "blob": "d652ee71b020485dbd305da820413bc32906dd76",
+      "sha256": "902439d3e6babd404e5a39fc9ae36463eb41e23541fda2e83ef0609ec15efe94",
+      "bytes": 1784250,
+      "renderer": "source PNG, no conversion",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-050"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "drug-target-and-mechanism",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/target-to-benefit-evidence-v2-dark.png",
+      "blob": "4674345d0bbacf17473841e0a5d00d400959f275",
+      "sha256": "1cd2c05263b306d994601b0a4bd04392a96ff09dd1dfef33f6402dfbb2fb57f1",
+      "bytes": 1841238,
+      "renderer": "source PNG, no conversion",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-050"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "pharmacokinetics-and-half-life",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/four-hour-halvings-and-exposure-v1-light.svg",
+      "blob": "7225e948ead2ab0a9176379b6bd8ce203966dc5c",
+      "sha256": "7c39be4bb02cf1dfe494f3ae81798eeb4ec76e07a545457ea1738736dcf18e3d",
+      "bytes": 28294,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1280,
+      "renderSha256": "ef4a78e1bdeb677b4acddbb14adc0893c418761c9c8102d548233bbe35dcff74",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-065",
+        "IND-066"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "pharmacokinetics-and-half-life",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/four-hour-halvings-and-exposure-v1-dark.svg",
+      "blob": "534c4b4c89b5378b16629e1826f00cd044cda4cf",
+      "sha256": "72fd187edf3295d0bf93b2c7b50319a300551eca2330fbde8358ebbb5efe2a3c",
+      "bytes": 28294,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1280,
+      "renderSha256": "6883ed588c8d13f94647604566a712d6d3d988f570f970b50e55a963351c2124",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-065",
+        "IND-066"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "synthetic-lethality",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-light.png",
+      "blob": "2850ba40ffcfbbd3e590bb0a176135a8853a1030",
+      "sha256": "bb76721d845a784a6561268b8250a340668ca03ca619b3829472e372dcc3c4f9",
+      "bytes": 1782334,
+      "renderer": "source PNG, no conversion",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-075"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "synthetic-lethality",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/synthetic-lethality-four-conditions-and-rescue-v1-dark.png",
+      "blob": "b97a395d90ec1eab69531256892ba05d8888b8a3",
+      "sha256": "a0e34c4b191988a501cee9cdc9773e1af0d546e315d1e3c6e15db65429c04bed",
+      "bytes": 1934706,
+      "renderer": "source PNG, no conversion",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-075"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "therapeutic-index",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-light.svg",
+      "blob": "a14d31335839413e3e9fefd2da230f86231ac350",
+      "sha256": "1e73a86139a1eb09bd92b6eb89955c86f8bf84798a1c8d0036aff548e2be7c60",
+      "bytes": 10655,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "58cd1fbcae4ea22cda57bd5f75c1333af110f5b1c0f26163ca48ff8a65a788be",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-079",
+        "IND-080"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "therapeutic-index",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/dose-effect-ratio-and-defined-range-v1-dark.svg",
+      "blob": "f403e334d5e384ae02a94462a78b9245d39ef258",
+      "sha256": "44481455b6ca530c616f84e8fadd930f1bb149fc1f56d067cd5499fd65add48c",
+      "bytes": 10655,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "28ea66862d163d9b8652483ae68239f65043376dd5fb03285afc90e21f8a3375",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-079",
+        "IND-080"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "chemotherapy-induced-nausea",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-light.svg",
+      "blob": "395a2b3197979f17e5f0477adc198fff40caa34d",
+      "sha256": "47b559e38cd8d7203a52f229b4c31f5fdd68789aeae1bf19235ab8b88cba59ff",
+      "bytes": 5690,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1210,
+      "renderSha256": "d76e9428cd06a16f7abb032c15fb97f2b7738faa088c9450c1f6ba71bcf13b36",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-094",
+        "IND-101"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "chemotherapy-induced-nausea",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/gut-brain-windows-and-separate-outcomes-v1-dark.svg",
+      "blob": "6ac907e8623b14808f8588090b385fbc596cee57",
+      "sha256": "28dc7021dc42e106ae55ecab47b3b0dc96a1c755c6a6dcf46f9c958c5294e350",
+      "bytes": 5690,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1210,
+      "renderSha256": "d9c5302ac832baa9f82c0961ccb5917b650601d8ee114d1ef7ce60bb599e4e48",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-094",
+        "IND-101"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "cytokine-release-syndrome",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-light.svg",
+      "blob": "c62723014b56fd8dd939f8428fc07a018e9d868b",
+      "sha256": "b3c1c988bd72582bcfdd96ce3df361f2f83882eed4b881861d40bcbf026e6eb2",
+      "bytes": 7118,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1430,
+      "renderSha256": "cd4e35eb13233540844e7c8fbd4b6ad7aa378e8eaf866218b6a169c941dec516",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-103"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "cytokine-release-syndrome",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/crs-multicell-amplification-and-clinical-effects-b10-v1-dark.svg",
+      "blob": "03dc45fe8088d1dcd61e8057f16a5835a57ffb88",
+      "sha256": "0058c568c4a333ddf2688612c32ac1c211acf0cdfae8f7b87c3782153c5ed5e9",
+      "bytes": 7118,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1430,
+      "renderSha256": "a48483067c0bbfcd532c15d86dddc2c5465d25883b895960a562532f78a33549",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-103"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "icans",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-light.svg",
+      "blob": "09ac6691b73870809f5a642bc0771000d3bceda8",
+      "sha256": "4863557bf89ff2f618dd0847844572b9b61321e2dd0c1894723d8670b014aa10",
+      "bytes": 6327,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1630,
+      "renderSha256": "6378287f2f031fee99419801aa5eadb0be6225a8c45c0c3157401002dc4cd807",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-112"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "icans",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/icans-barrier-and-distinct-recovery-clocks-b10-v1-dark.svg",
+      "blob": "688b1034ff1c06fd548337f8349c69095da6f888",
+      "sha256": "cb3afe0e17c50e653b03170d057ebb9a54eebdfda26aa3a42bcaa21a95fcf920",
+      "bytes": 6327,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1630,
+      "renderSha256": "f6d79a6a7b2206f6a116a33a4ccc5d02b2b14dc58ff5fb1a1a719e630f520284",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-112"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "insertional-mutagenesis",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/integration-location-clone-and-diagnosis-v1-light.svg",
+      "blob": "a830cf04899160b86b7ad7be78776eedea07fbd4",
+      "sha256": "7e9aa90d76d18e3b35ea2f79ebf2637e5611789c4ddc3c4a607bfa3e1ac60660",
+      "bytes": 4900,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "1831a43e2b2de8666451da93bd2fad0bcac9ac5c37e9841b65377c0f0b084996",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-135",
+        "IND-138"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "insertional-mutagenesis",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/integration-location-clone-and-diagnosis-v1-dark.svg",
+      "blob": "2e277251551a76ecb8be40e8434e9065a3b460b9",
+      "sha256": "4e578de3883b3775689a968e6ce737b081717e812f9f97585639806358fd3a77",
+      "bytes": 4900,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "9a3ecbf285a8541dcef71570904c82f09c34eaa021baec0d8f756f5468f8d042",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-135",
+        "IND-138"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "lymphodepletion",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-light.svg",
+      "blob": "5635e6ae4a36d8588e5079bb4d7e12f400e59178",
+      "sha256": "eb743c587b7bf8004e449e18c6277845a284a084ba6a84749d466589652362eb",
+      "bytes": 4460,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 760,
+      "height": 1310,
+      "renderSha256": "f84ebea51c6f5f8d357f61518872f12f1c8f39f7038b364746e485636a056e3e",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-147"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "lymphodepletion",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/lymphocyte-fraction-and-count-b13-v1-dark.svg",
+      "blob": "a16871bc2b4e505043bb623b4379c26b6a676fde",
+      "sha256": "9e1bb4bae1df4023d2be136e0d16e37c280f4c1ffb404d1d1a3c240055db538b",
+      "bytes": 4460,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 760,
+      "height": 1310,
+      "renderSha256": "14075ef016f9298355b5263978f22bbf1440c0d611aadd56bdbebb996353c3bb",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-147"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "neutropenia-and-g-csf",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-light.svg",
+      "blob": "85d33ba3e755e7472e882f30734b106ece7e232c",
+      "sha256": "5614f4258e3c4ecf78057c0ec510661949840637c6e4784b21a49c4a885960d9",
+      "bytes": 6134,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1400,
+      "renderSha256": "e8bb8e42cfd21367688f53f3f2862cc21c95985882f5f77bd205ad7e09058aa0",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-154"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "neutropenia-and-g-csf",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/matched-anc-snapshot-and-duration-b10-v1-dark.svg",
+      "blob": "3288417328673eefd4f99018ccd6c55d48f31565",
+      "sha256": "8964c09d98a8591a63afea6875fd1580de88b907907fb2b03a978798518a456b",
+      "bytes": 6134,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1400,
+      "renderSha256": "5357bdb8556aae9854e79534e47e2d409b672a47c3d8a9e4e052147087ee808d",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-154"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "No scientific discrepancy found within the labelled schematic or fictional-example scope."
+    },
+    {
+      "lesson": "on-target-off-tumor-toxicity",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-light.svg",
+      "blob": "aa006c6d1d3984342054dee79e2b7abe2ac9a80b",
+      "sha256": "f11f9a17e1879795255a9c212fec67e64491bac196d0b29aaf25b6d723122012",
+      "bytes": 7496,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1420,
+      "renderSha256": "518911bd0028315caa9210bc69d1f3561af247f4755a967b3138ce172d8c6f19",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-161"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "On-target scene labels sit close to the card bottom; minor layout ambiguity queued for Guide owner."
+    },
+    {
+      "lesson": "on-target-off-tumor-toxicity",
+      "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/images/intended-x-and-unintended-y-recognition-b10-v1-dark.svg",
+      "blob": "6d231bf23efff6a2a4944c74cd2de11882dc048c",
+      "sha256": "929b754fd642f847a018db29d7a376fcc958638c634a229258ae156ec457db36",
+      "bytes": 7496,
+      "renderer": "headless Chrome, native viewBox, full extent",
+      "width": 780,
+      "height": 1420,
+      "renderSha256": "eab1547a2fc1889c0ed267192d80e4e862243fbd39fd321fc7addbab3db97bcf",
+      "viewed": true,
+      "viewMethod": "Complete light and dark files viewed in native-size full-extent pair composites; raster themes inspected independently. Earlier cropped Quick Look previews are not relied on.",
+      "requirements": [
+        "IND-161"
+      ],
+      "limits": "Static scientific-schematic review, no live browser, contrast measurement, accessibility, expert or learner certification.",
+      "finding": "On-target scene labels sit close to the card bottom; minor layout ambiguity queued for Guide owner."
+    }
+  ],
+  "allThemesFreshlyViewed": true,
+  "sourceVersionReuse": "Both pinned refs have the same figure blobs; one fresh complete theme-pair review is reused by identity for each ref. Figures are not copied into the graph; reader teaching is in self-contained fields."
+}

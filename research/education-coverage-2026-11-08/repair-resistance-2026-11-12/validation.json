@@ -1,0 +1,1224 @@
+{
+  "dataCommit": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 12.77
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 33.38
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 2.49
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 349.93
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "allNineteenDataFilesByteIdenticalToGateInputs": true,
+  "graphCount": 23086,
+  "changedRootIds": [
+    "brca-reversion-mutations",
+    "drug-resistance-dynamics",
+    "hrd-genomic-scar-scores",
+    "parp-inhibitor",
+    "resistance"
+  ],
+  "newIds": [
+    "dna-damage-response-inhibitors"
+  ],
+  "rootReaders": 6,
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR. Six registered draft-root records, including one new term; no peer overlay. No browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "brca-reversion-mutations",
+        "state": "registered-local-graph",
+        "route": "/terms/brca-reversion-mutations/",
+        "sha256": "17fb808a9be821c427f151617d00a975e450d2f1d6b1d3760e8af2f6706cabde",
+        "bytes": 66719,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "state": "registered-local-graph",
+        "route": "/technologies/hrd-genomic-scar-scores/",
+        "sha256": "4e03542af029d12de664f5b2ff3a138fd717c6dad3e4870f5f7000f5d522418a",
+        "bytes": 83161,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "resistance",
+        "state": "registered-local-graph",
+        "route": "/terms/resistance/",
+        "sha256": "54fc6cf53483c9a977e4eba7a4b1adc11779652867b699beeafc2da256277ddd",
+        "bytes": 89637,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "parp-inhibitor",
+        "state": "registered-local-graph",
+        "route": "/technologies/parp-inhibitor/",
+        "sha256": "a80a1ae95e2ca7329233b7d6cf91f3a6bb638a0348e57f7dbb0b75720c5b6967",
+        "bytes": 98471,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "state": "registered-local-graph",
+        "route": "/technologies/drug-resistance-dynamics/",
+        "sha256": "dcc85667cdccfc3e91e8a36c8a6a8cfeac9571dfa44ed926a7f82e2f85860d17",
+        "bytes": 34340,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "state": "registered-local-graph",
+        "route": "/terms/dna-damage-response-inhibitors/",
+        "sha256": "ba5c2eb4c93902866d79fdd580f361d58e53e59df0d2421a2b100d30c2a2a346",
+        "bytes": 44908,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "readerPassages": {
+    "readers": 6,
+    "registeredRootReaders": 6,
+    "frozenPeerReaders": 0,
+    "exactFieldExcerptReferences": 179,
+    "uniqueReferencedFieldParagraphs": 52,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "brca-reversion-mutations",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 11,
+        "present": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 12,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "summary",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "summary",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      }
+    ]
+  },
+  "rootExports": {
+    "records": 6,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "brca-reversion-mutations",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "field": "notes",
+        "index": 12,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "resistance",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "parp-inhibitor",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "brca-reversion-mutations.json",
+        "bytes": 13976,
+        "sha256": "6388a66cf19aba8882b88aaceed5a7e779674d6b7a896a703b8c1340e6bc9648"
+      },
+      {
+        "file": "brca-reversion-mutations.md",
+        "bytes": 12439,
+        "sha256": "243266155d1dc733b2f2a6e840027a19fcfa339b04f3faededb54a52b545c167"
+      },
+      {
+        "file": "hrd-genomic-scar-scores.json",
+        "bytes": 17074,
+        "sha256": "640d01f8bbb548a633b0f4ee3ca75c59a97fbf307ecaf86ce1c145ea7a3b8ca1"
+      },
+      {
+        "file": "hrd-genomic-scar-scores.md",
+        "bytes": 15288,
+        "sha256": "c3f13cfc07224bd0e6cace88aa6017e6e27861ec1fb9015cc26e9018490c8ac4"
+      },
+      {
+        "file": "resistance.json",
+        "bytes": 30494,
+        "sha256": "a33677ac872adda943d5a9a9931fa0117eeb61c9c1a83bd36008cec353d82c5a"
+      },
+      {
+        "file": "resistance.md",
+        "bytes": 22851,
+        "sha256": "5062c8869c9ff4878d295f4ad2ff74f2cc56d0b098f2f70faa0a1b6ca8b086b3"
+      },
+      {
+        "file": "parp-inhibitor.json",
+        "bytes": 32717,
+        "sha256": "5eea0cb5c311dfe6748ac3a40693b14ab6c6e6e99af863ea51f299e15233050e"
+      },
+      {
+        "file": "parp-inhibitor.md",
+        "bytes": 25441,
+        "sha256": "89fa8bab5ede453bf1f8724fdea8dd71ae24c0f55175ee37e326205f19473176"
+      },
+      {
+        "file": "drug-resistance-dynamics.json",
+        "bytes": 4725,
+        "sha256": "960528bf781fdc2b7d1fe18e3da835a575c553e3386d1e8ae2ed4d83a6f0b142"
+      },
+      {
+        "file": "drug-resistance-dynamics.md",
+        "bytes": 4076,
+        "sha256": "ceba0b2b9548e101ed17741257b881a073fe576dc4372246529b5ea7ff067a6f"
+      },
+      {
+        "file": "dna-damage-response-inhibitors.json",
+        "bytes": 9520,
+        "sha256": "85d34ae56f13d724037c13c4bf354be317f6d2a14ac169f45c6f83e20640db84"
+      },
+      {
+        "file": "dna-damage-response-inhibitors.md",
+        "bytes": 8539,
+        "sha256": "71ff588b1caabccf3d848bc85890184deb1dac61a1f2ee47383d7abccbf9332e"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 54,
+    "texts": 3,
+    "fallbacks": 51,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "brca-reversion-mutations",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "brca-reversion-mutations",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "resistance",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "parp-inhibitor",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-damage-response-inhibitors",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "zeroSecretFindings": true,
+  "scope": "Actual graph, EntityDetail SSR, lazy consumer tables, static JSON/Markdown/OpenAPI and dedupe. No full Next build, browser hydration, mobile, deployed-page or independent acceptance claim."
+}

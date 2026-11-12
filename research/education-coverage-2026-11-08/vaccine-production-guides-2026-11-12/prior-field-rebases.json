@@ -1,0 +1,722 @@
+{
+  "dataCommit": "2e738bd26428b70dd929f51876816ffbdb860ea0",
+  "matchingCurrentRootReferencesRebound": 34,
+  "distinctFields": 1,
+  "references": [
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v03",
+      "requirement": "Keep innate sensing and a specific adaptive response distinct.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph explicitly identifies innate sensing and specific adaptive responses as interacting but different observations. Source scope: OpenStax 42.2 opening and Kranz 2016 abstract; no vaccine efficacy is inferred from innate sensing."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph explicitly identifies innate sensing and specific adaptive responses as interacting but different observations. Source scope: OpenStax 42.2 opening and Kranz 2016 abstract; no vaccine efficacy is inferred from innate sensing. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v04",
+      "requirement": "Credible tumour sequences, target selection and product construction are successive questions after the recognition mechanism is understood.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The source paragraph places understanding recognition before source-list, HLA, selection and construction questions, with the receptor paragraph explaining the mechanism. Source scope: A reading framework derived from the guide and the distinct measurements in Wells; not a universal clinical manufacturing protocol."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The source paragraph places understanding recognition before source-list, HLA, selection and construction questions, with the receptor paragraph explaining the mechanism. Source scope: A reading framework derived from the guide and the distinct measurements in Wells; not a universal clinical manufacturing protocol. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v05",
+      "requirement": "A matching receptor can be present at low frequency before antigen exposure; appropriate activation can select and increase responding cells.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text names an already matching population, possible low starting frequency and activation/selection in a supporting context. Source scope: Textbook clonal selection and expansion; no numerical repertoire size or individual response probability is adopted."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text names an already matching population, possible low starting frequency and activation/selection in a supporting context. Source scope: Textbook clonal selection and expansion; no numerical repertoire size or individual response probability is adopted. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v07",
+      "requirement": "A pre-dose blood sample is a limited comparison, not a complete inventory of every receptor.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The fictional pre-dose report is explicitly limited to blood sampling and cannot establish absence from blood or the whole body. Source scope: Premise-backed sampling inference; not a measured whole-body repertoire census."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The fictional pre-dose report is explicitly limited to blood sampling and cannot establish absence from blood or the whole body. Source scope: Premise-backed sampling inference; not a measured whole-body repertoire census. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v09",
+      "requirement": "Dendritic-cell peptide display and supporting signals contribute to priming.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Dendritic-cell display and supporting signals are explicitly named as contributions to naive-cell priming. Source scope: OpenStax activation context and Kranz abstract; no claim that display alone is sufficient."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Dendritic-cell display and supporting signals are explicitly named as contributions to naive-cell priming. Source scope: OpenStax activation context and Kranz abstract; no claim that display alone is sufficient. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v11",
+      "requirement": "After priming, effector cells still need access to the tumour, a displayed recognized target and functional capacity.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph separately requires tumour access, an appropriate displayed target and retained function after priming. Source scope: Mechanistic dependency/reading inference, not a promised trafficking rate, killing result or treatment benefit."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph separately requires tumour access, an appropriate displayed target and retained function after priming. Source scope: Mechanistic dependency/reading inference, not a promised trafficking rate, killing result or treatment benefit. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v13",
+      "requirement": "The delivery-to-presentation-to-activation-to-access-to-recognition-to-benefit sequence is a set of separately testable dependencies, not a guarantee of killing or durable benefit.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text states the priming-to-attack dependencies, rejects a guaranteed or strict timing chain, and requires separate killing and durable-benefit outcomes. Source scope: The rendered six-box diagram is read as dependencies. Its vertical order is not evidence that tumour display starts after trafficking."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text states the priming-to-attack dependencies, rejects a guaranteed or strict timing chain, and requires separate killing and durable-benefit outcomes. Source scope: The rendered six-box diagram is read as dependencies. Its vertical order is not evidence that tumour display starts after trafficking. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v14",
+      "requirement": "A fictional blood peptide-response increase supports a response in the sampled compartment, without establishing tumour entry, natural recognition or recurrence prevention.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The fictional blood-response example explicitly leaves tumour entry, natural recognition and recurrence prevention unestablished. Source scope: An invented worked example interpreted through assay/endpoint distinctions, not a patient cohort."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The fictional blood-response example explicitly leaves tumour entry, natural recognition and recurrence prevention unestablished. Source scope: An invented worked example interpreted through assay/endpoint distinctions, not a patient cohort. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v15",
+      "requirement": "Repeating a blood count cannot by itself test natural tumour recognition or added clinical efficacy.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph says that repeating the blood measurement cannot resolve tumour recognition or the clinical comparison. Source scope: A premise-backed measurement rule; no diagnostic sensitivity or causal effect is assigned."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph says that repeating the blood measurement cannot resolve tumour recognition or the clinical comparison. Source scope: A premise-backed measurement rule; no diagnostic sensitivity or causal effect is assigned. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v16",
+      "requirement": "Rare or absent matching cells, inappropriate delivery, inadequate display or supporting signals, and later access/function barriers are different failure modes requiring different measurements.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Rare or unavailable matching cells, delivery, display/support, access and function are separately named failure modes requiring different measurements. Source scope: A mechanism-based failure framework, not measured frequencies or a treatment-selection algorithm."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Rare or unavailable matching cells, delivery, display/support, access and function are separately named failure modes requiring different measurements. Source scope: A mechanism-based failure framework, not measured frequencies or a treatment-selection algorithm. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v17",
+      "requirement": "A tenfold increase in a sampled receptor sequence reports increased representation; specificity, absolute cell expansion and cancer killing are separate questions.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The tenfold sequence example is explicitly a representation change, distinct from new specificity, absolute expansion, killing and benefit. Source scope: The tenfold value is fictional; no actual cell count or receptor-function assay is supplied."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The tenfold sequence example is explicitly a representation change, distinct from new specificity, absolute expansion, killing and benefit. Source scope: The tenfold value is fictional; no actual cell count or receptor-function assay is supplied. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v18",
+      "requirement": "In the fictional clone-Q exercise, pre-dose non-detection with a stated 0.1% reliability limit is not proof that Q was absent.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Non-detection under the fictional 0.1% reliability statement is explicitly not proof of absence. Source scope: Fictional compatible-assay premise; 0.1% is not a clinical threshold or an exact upper confidence bound."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Non-detection under the fictional 0.1% reliability statement is explicitly not proof of absence. Source scope: Fictional compatible-assay premise; 0.1% is not a clinical threshold or an exact upper confidence bound. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v19",
+      "requirement": "A later 1% frequency supports first detection and possible enrichment, but an unmeasured baseline does not supply an exact observed fold change.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The post-dose 1% result earns first detection/possible enrichment but no exact observed fold change from an unmeasured baseline. Source scope: Fictional sampling and denominator assumptions; nominal 1/0.1 is not an observed baseline-to-follow-up fold change."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The post-dose 1% result earns first detection/possible enrichment but no exact observed fold change from an unmeasured baseline. Source scope: Fictional sampling and denominator assumptions; nominal 1/0.1 is not an observed baseline-to-follow-up fold change. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v20",
+      "requirement": "Relative receptor frequency and absolute cell expansion differ; compatible counts and sampling are needed to infer the latter.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Compatible absolute-cell counts are explicitly required to infer expansion rather than frequency change alone. Source scope: A denominator distinction, not a claim that sequencing proportions count cells directly."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Compatible absolute-cell counts are explicitly required to infer expansion rather than frequency change alone. Source scope: A denominator distinction, not a claim that sequencing proportions count cells directly. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v21",
+      "requirement": "A peptide-stimulated mixture response is not automatically assigned to clone Q without linkage.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The mixture peptide response is explicitly unlinked to Q and therefore cannot assign Q's specificity. Source scope: Fictional mixture assay; the response is not traced to a paired receptor or a naturally presenting tumour."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The mixture peptide response is explicitly unlinked to Q and therefore cannot assign Q's specificity. Source scope: Fictional mixture assay; the response is not traced to a paired receptor or a naturally presenting tumour. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v22",
+      "requirement": "First detection and a separate peptide response establish neither receptor rewriting, natural tumour recognition nor a clinical outcome comparison.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text withholds receptor creation, tumour killing and clinical benefit from first detection or an unlinked stimulation result. Source scope: Premise-backed inference; no receptor rewriting, natural recognition or outcome comparison was measured."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text withholds receptor creation, tumour killing and clinical benefit from first detection or an unlinked stimulation result. Source scope: Premise-backed inference; no receptor rewriting, natural recognition or outcome comparison was measured. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/designing-a-vaccine/index.md",
+      "pointId": "vaccine-data-v23",
+      "requirement": "The 0.1%, 1% and tenfold examples are invented assumptions with compatible methods and sampling, not clinical thresholds or patient observations.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The final sentence identifies all three numbers as invented premises under comparable sampling and methods. Source scope: No patient observations, assay-performance estimates or treatment cutoffs are introduced."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The final sentence identifies all three numbers as invented premises under comparable sampling and methods. Source scope: No patient observations, assay-performance estimates or treatment cutoffs are introduced. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v03",
+      "requirement": "Keep innate sensing and a specific adaptive response distinct.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph explicitly identifies innate sensing and specific adaptive responses as interacting but different observations. Source scope: OpenStax 42.2 opening and Kranz 2016 abstract; no vaccine efficacy is inferred from innate sensing."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph explicitly identifies innate sensing and specific adaptive responses as interacting but different observations. Source scope: OpenStax 42.2 opening and Kranz 2016 abstract; no vaccine efficacy is inferred from innate sensing. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v04",
+      "requirement": "Credible tumour sequences, target selection and product construction are successive questions after the recognition mechanism is understood.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The source paragraph places understanding recognition before source-list, HLA, selection and construction questions, with the receptor paragraph explaining the mechanism. Source scope: A reading framework derived from the guide and the distinct measurements in Wells; not a universal clinical manufacturing protocol."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The source paragraph places understanding recognition before source-list, HLA, selection and construction questions, with the receptor paragraph explaining the mechanism. Source scope: A reading framework derived from the guide and the distinct measurements in Wells; not a universal clinical manufacturing protocol. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v05",
+      "requirement": "A matching receptor can be present at low frequency before antigen exposure; appropriate activation can select and increase responding cells.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text names an already matching population, possible low starting frequency and activation/selection in a supporting context. Source scope: Textbook clonal selection and expansion; no numerical repertoire size or individual response probability is adopted."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text names an already matching population, possible low starting frequency and activation/selection in a supporting context. Source scope: Textbook clonal selection and expansion; no numerical repertoire size or individual response probability is adopted. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v07",
+      "requirement": "A pre-dose blood sample is a limited comparison, not a complete inventory of every receptor.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The fictional pre-dose report is explicitly limited to blood sampling and cannot establish absence from blood or the whole body. Source scope: Premise-backed sampling inference; not a measured whole-body repertoire census."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The fictional pre-dose report is explicitly limited to blood sampling and cannot establish absence from blood or the whole body. Source scope: Premise-backed sampling inference; not a measured whole-body repertoire census. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v09",
+      "requirement": "Dendritic-cell peptide display and supporting signals contribute to priming.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Dendritic-cell display and supporting signals are explicitly named as contributions to naive-cell priming. Source scope: OpenStax activation context and Kranz abstract; no claim that display alone is sufficient."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Dendritic-cell display and supporting signals are explicitly named as contributions to naive-cell priming. Source scope: OpenStax activation context and Kranz abstract; no claim that display alone is sufficient. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v11",
+      "requirement": "After priming, effector cells still need access to the tumour, a displayed recognized target and functional capacity.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph separately requires tumour access, an appropriate displayed target and retained function after priming. Source scope: Mechanistic dependency/reading inference, not a promised trafficking rate, killing result or treatment benefit."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph separately requires tumour access, an appropriate displayed target and retained function after priming. Source scope: Mechanistic dependency/reading inference, not a promised trafficking rate, killing result or treatment benefit. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v13",
+      "requirement": "The delivery-to-presentation-to-activation-to-access-to-recognition-to-benefit sequence is a set of separately testable dependencies, not a guarantee of killing or durable benefit.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text states the priming-to-attack dependencies, rejects a guaranteed or strict timing chain, and requires separate killing and durable-benefit outcomes. Source scope: The rendered six-box diagram is read as dependencies. Its vertical order is not evidence that tumour display starts after trafficking."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text states the priming-to-attack dependencies, rejects a guaranteed or strict timing chain, and requires separate killing and durable-benefit outcomes. Source scope: The rendered six-box diagram is read as dependencies. Its vertical order is not evidence that tumour display starts after trafficking. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v14",
+      "requirement": "A fictional blood peptide-response increase supports a response in the sampled compartment, without establishing tumour entry, natural recognition or recurrence prevention.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The fictional blood-response example explicitly leaves tumour entry, natural recognition and recurrence prevention unestablished. Source scope: An invented worked example interpreted through assay/endpoint distinctions, not a patient cohort."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The fictional blood-response example explicitly leaves tumour entry, natural recognition and recurrence prevention unestablished. Source scope: An invented worked example interpreted through assay/endpoint distinctions, not a patient cohort. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v15",
+      "requirement": "Repeating a blood count cannot by itself test natural tumour recognition or added clinical efficacy.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The paragraph says that repeating the blood measurement cannot resolve tumour recognition or the clinical comparison. Source scope: A premise-backed measurement rule; no diagnostic sensitivity or causal effect is assigned."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The paragraph says that repeating the blood measurement cannot resolve tumour recognition or the clinical comparison. Source scope: A premise-backed measurement rule; no diagnostic sensitivity or causal effect is assigned. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v16",
+      "requirement": "Rare or absent matching cells, inappropriate delivery, inadequate display or supporting signals, and later access/function barriers are different failure modes requiring different measurements.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Rare or unavailable matching cells, delivery, display/support, access and function are separately named failure modes requiring different measurements. Source scope: A mechanism-based failure framework, not measured frequencies or a treatment-selection algorithm."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Rare or unavailable matching cells, delivery, display/support, access and function are separately named failure modes requiring different measurements. Source scope: A mechanism-based failure framework, not measured frequencies or a treatment-selection algorithm. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v17",
+      "requirement": "A tenfold increase in a sampled receptor sequence reports increased representation; specificity, absolute cell expansion and cancer killing are separate questions.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The tenfold sequence example is explicitly a representation change, distinct from new specificity, absolute expansion, killing and benefit. Source scope: The tenfold value is fictional; no actual cell count or receptor-function assay is supplied."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The tenfold sequence example is explicitly a representation change, distinct from new specificity, absolute expansion, killing and benefit. Source scope: The tenfold value is fictional; no actual cell count or receptor-function assay is supplied. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v18",
+      "requirement": "In the fictional clone-Q exercise, pre-dose non-detection with a stated 0.1% reliability limit is not proof that Q was absent.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Non-detection under the fictional 0.1% reliability statement is explicitly not proof of absence. Source scope: Fictional compatible-assay premise; 0.1% is not a clinical threshold or an exact upper confidence bound."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Non-detection under the fictional 0.1% reliability statement is explicitly not proof of absence. Source scope: Fictional compatible-assay premise; 0.1% is not a clinical threshold or an exact upper confidence bound. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v19",
+      "requirement": "A later 1% frequency supports first detection and possible enrichment, but an unmeasured baseline does not supply an exact observed fold change.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The post-dose 1% result earns first detection/possible enrichment but no exact observed fold change from an unmeasured baseline. Source scope: Fictional sampling and denominator assumptions; nominal 1/0.1 is not an observed baseline-to-follow-up fold change."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The post-dose 1% result earns first detection/possible enrichment but no exact observed fold change from an unmeasured baseline. Source scope: Fictional sampling and denominator assumptions; nominal 1/0.1 is not an observed baseline-to-follow-up fold change. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v20",
+      "requirement": "Relative receptor frequency and absolute cell expansion differ; compatible counts and sampling are needed to infer the latter.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "Compatible absolute-cell counts are explicitly required to infer expansion rather than frequency change alone. Source scope: A denominator distinction, not a claim that sequencing proportions count cells directly."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "Compatible absolute-cell counts are explicitly required to infer expansion rather than frequency change alone. Source scope: A denominator distinction, not a claim that sequencing proportions count cells directly. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v21",
+      "requirement": "A peptide-stimulated mixture response is not automatically assigned to clone Q without linkage.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The mixture peptide response is explicitly unlinked to Q and therefore cannot assign Q's specificity. Source scope: Fictional mixture assay; the response is not traced to a paired receptor or a naturally presenting tumour."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The mixture peptide response is explicitly unlinked to Q and therefore cannot assign Q's specificity. Source scope: Fictional mixture assay; the response is not traced to a paired receptor or a naturally presenting tumour. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v22",
+      "requirement": "First detection and a separate peptide response establish neither receptor rewriting, natural tumour recognition nor a clinical outcome comparison.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The text withholds receptor creation, tumour killing and clinical benefit from first detection or an unlinked stimulation result. Source scope: Premise-backed inference; no receptor rewriting, natural recognition or outcome comparison was measured."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The text withholds receptor creation, tumour killing and clinical benefit from first detection or an unlinked stimulation result. Source scope: Premise-backed inference; no receptor rewriting, natural recognition or outcome comparison was measured. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/personalized-cancer-vaccine/01-why-vaccination-can-help.md",
+      "pointId": "vaccine-data-v23",
+      "requirement": "The 0.1%, 1% and tenfold examples are invented assumptions with compatible methods and sampling, not clinical thresholds or patient observations.",
+      "before": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "notes",
+        "fieldSha256": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "explanation": "The final sentence identifies all three numbers as invented premises under comparable sampling and methods. Source scope: No patient observations, assay-performance estimates or treatment cutoffs are introduced."
+      },
+      "after": {
+        "recordId": "neoantigen-mrna-vaccine",
+        "version": "proposal-vaccine-production-guides-root",
+        "field": "notes",
+        "fieldSha256": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "explanation": "The final sentence identifies all three numbers as invented premises under comparable sampling and methods. Source scope: No patient observations, assay-performance estimates or treatment cutoffs are introduced. Rebound to the current committed root field: all six earlier notes remain byte-exact before the two new monitoring notes. Earlier source-reading depth and acceptance limits are not upgraded."
+      },
+      "priorLearningPointRetained": true
+    }
+  ],
+  "scope": "Only 34 matching current-root references to the retained first six vaccine notes are rebound. Frozen peers, earlier reading depth and independent acceptance are not upgraded."
+}

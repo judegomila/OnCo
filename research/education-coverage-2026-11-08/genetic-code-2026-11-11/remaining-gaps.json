@@ -1,0 +1,62 @@
+{
+  "unrepresentedTeachingRows": [],
+  "sourceReadingLimits": [
+    {
+      "key": "nirenberg-pmc.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 5748,
+      "sha256": "f3246b115dd973f5a127972121a4c42b560ca78324e60f096c301b6e8cfd39d3",
+      "seconds": 0.29
+    },
+    {
+      "key": "crick-lecture.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "finalURL": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "httpStatus": 404,
+      "contentType": "application/xml",
+      "bytes": 215,
+      "sha256": "b65152eb407440e8399709e8b1e69237f304c606d8513940bf071aff8255706f",
+      "seconds": 0.32
+    },
+    {
+      "key": "nirenberg-original.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21527,
+      "sha256": "7a1fd71d156a3caa3ec531d5116a067d56106495df64dbb2ad55f7a82a92a967",
+      "seconds": 0.2
+    },
+    {
+      "key": "crick-original.pdf",
+      "url": "https://www.nature.com/articles/1921227a0.pdf",
+      "finalURL": "https://www.nature.com/articles/1921227a0?error=cookies_not_supported&code=2dad997d-cbe9-4d9f-855b-5a779bdc4032",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 232444,
+      "sha256": "6102920c248df66b692a3341d21371ea951a2082ebedb7f4433959822926e3e7",
+      "seconds": 7.06
+    },
+    {
+      "key": "pmc-2577037.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 9960,
+      "sha256": "6f5a60aad5b95c2099dece3bdbfd67ed30647fbce9571c92256f4fefa6bd55f9",
+      "seconds": 0.37
+    }
+  ],
+  "limits": [
+    "No whole original paper was read. Nirenberg 1961 was identity-resolved and its experiment was verified from his targeted 1968 lecture; the original article is unread.",
+    "Sakai 2008 and Anderson 1981 are abstract-only. Targeted 2009 reversion and 2017 immune passages do not certify the whole papers.",
+    "The separate BRCA-reversion lesson remains unreviewed in the global curriculum ledger; this local owner correction does not complete its clinical/assay teaching.",
+    "No browser hydration, full Next production build, deployment or expert, learner, owner or language approval."
+  ],
+  "broaderAuditComplete": false
+}

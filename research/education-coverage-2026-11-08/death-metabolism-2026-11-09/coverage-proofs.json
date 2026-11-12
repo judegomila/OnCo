@@ -1,0 +1,1139 @@
+[
+  {
+    "id": "apoptosis-and-bcl2-family-mechanism",
+    "page": "apoptosis-and-bcl2-family",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Intrinsic apoptosis involves mitochondrial outer-membrane permeabilisation, cytochrome c release into the cytosol, apoptosome assembly and caspase-9 activation upstream of executioner caspases such as caspase-3 and caspase-7. Death-receptor signalling can activate caspase-8; BID cleavage links this route to mitochondria. Initiator and executioner roles differ.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 0,
+    "supportingExcerpt": "Intrinsic apoptosis involves mitochondrial outer-membrane permeabilisation, cytochrome c release into the cytosol, apoptosome assembly and caspase-9 activation upstream of executioner caspases such as caspase-3 and caspase-7. Death-receptor signalling can activate caspase-8; BID cleavage links this route to mitochondria. Initiator and executioner roles differ.",
+    "sourcePmids": [
+      "11326099",
+      "8689682",
+      "9727492",
+      "29362479"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "apoptosis-and-bcl2-family-family",
+    "page": "apoptosis-and-bcl2-family",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "The BCL-2 family contains survival proteins, including BCL-2, BCL-XL and MCL-1; BH3-only stress mediators, including BIM, BID and PUMA; and pore-forming effectors BAX and BAK. In experimental cells, loss of both BAX and BAK blocked several mitochondrial apoptotic responses, rather than every possible form of death.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 1,
+    "supportingExcerpt": "The BCL-2 family contains survival proteins, including BCL-2, BCL-XL and MCL-1; BH3-only stress mediators, including BIM, BID and PUMA; and pore-forming effectors BAX and BAK. In experimental cells, loss of both BAX and BAK blocked several mitochondrial apoptotic responses, rather than every possible form of death.",
+    "sourcePmids": [
+      "11326099",
+      "24355989"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "apoptosis-and-bcl2-family-compartment",
+    "page": "apoptosis-and-bcl2-family",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Cytochrome c moves from the mitochondrial intermembrane compartment, including crista stores, across the outer membrane to the cytosol. It does not begin in the matrix. The inner membrane separates these compartments; the spatial sketch is simplified, with no implied pore stoichiometry.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 2,
+    "supportingExcerpt": "Cytochrome c moves from the mitochondrial intermembrane compartment, including crista stores, across the outer membrane to the cytosol. It does not begin in the matrix. The inner membrane separates these compartments; the spatial sketch is simplified, with no implied pore stoichiometry.",
+    "sourcePmids": [
+      "8689682",
+      "11782314"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "apoptosis-and-bcl2-family-interpretation",
+    "page": "apoptosis-and-bcl2-family",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "A stain for BCL-XL measures abundance rather than survival dependence. BCL2 and BCL2L1 are different genes, and inhibitor selectivity matters. Souers and colleagues re-engineered dual BCL-2/BCL-XL inhibition into BCL-2-selective ABT-199, sparing human platelets; early tumour lysis in three refractory chronic lymphocytic leukaemia patients does not establish benefit in every tumour. A mitochondrial response, caspase marker, sustained killing and immune protection remain separate outcomes. Keep cell identity, timing, handling controls and later survival or regrowth with cleaved-caspase assays, membrane readouts and microscopy. Mitochondrial BH3 challenges test readiness under a defined protocol, rather than completed killing or clinical benefit.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 3,
+    "supportingExcerpt": "A stain for BCL-XL measures abundance rather than survival dependence. BCL2 and BCL2L1 are different genes, and inhibitor selectivity matters. Souers and colleagues re-engineered dual BCL-2/BCL-XL inhibition into BCL-2-selective ABT-199, sparing human platelets; early tumour lysis in three refractory chronic lymphocytic leukaemia patients does not establish benefit in every tumour. A mitochondrial response, caspase marker, sustained killing and immune protection remain separate outcomes. Keep cell identity, timing, handling controls and later survival or regrowth with cleaved-caspase assays, membrane readouts and microscopy. Mitochondrial BH3 challenges test readiness under a defined protocol, rather than completed killing or clinical benefit.",
+    "sourcePmids": [
+      "23291630",
+      "17187072"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "autophagy-mechanism",
+    "page": "autophagy",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+    "recordId": "autophagy",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+    "itemIndex": 1,
+    "supportingExcerpt": "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+    "sourcePmids": [
+      "17534139",
+      "33634751",
+      "29362479"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "autophagy-flux",
+    "page": "autophagy",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+    "recordId": "autophagy",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+    "itemIndex": 2,
+    "supportingExcerpt": "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+    "sourcePmids": [
+      "17534139",
+      "33584716",
+      "33634751"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "autophagy-specificity",
+    "page": "autophagy",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+    "recordId": "autophagy",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+    "itemIndex": 3,
+    "supportingExcerpt": "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+    "sourcePmids": [
+      "19250911",
+      "19258318",
+      "33634751"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "autophagy-clinical",
+    "page": "autophagy",
+    "versions": [
+      "later"
+    ],
+    "requirement": "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination.",
+    "recordId": "autophagy",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+    "itemIndex": 4,
+    "supportingExcerpt": "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination.",
+    "sourcePmids": [
+      "31120501"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ferroptosis-mechanism",
+    "page": "ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Ferroptosis involves iron-dependent membrane-lipid peroxidation causing death. Erastin experiments implicated cystine uptake through system xc-, connecting cysteine and glutathione supply to antioxidant defence. Vulnerable polyunsaturated lipid chains, iron availability and cellular conditions matter; general reactive-oxygen fluorescence does not establish this mechanism.",
+    "recordId": "ferroptosis-cell-death",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "8f88f14c5a87d72b01c2c5a85904cc15fe36b2095cc31412c539a414ed05ee2c",
+    "itemIndex": 1,
+    "supportingExcerpt": "Ferroptosis involves iron-dependent membrane-lipid peroxidation causing death. Erastin experiments implicated cystine uptake through system xc-, connecting cysteine and glutathione supply to antioxidant defence. Vulnerable polyunsaturated lipid chains, iron availability and cellular conditions matter; general reactive-oxygen fluorescence does not establish this mechanism.",
+    "sourcePmids": [
+      "22632970",
+      "27506793"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ferroptosis-defences",
+    "page": "ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "GPX4 uses glutathione to reduce lipid hydroperoxides to lipid alcohols. FSP1 provides a parallel coenzyme-Q radical-trapping defence; it does not replace every GPX4 function or describe the whole protection network. Protein abundance alone does not measure protective activity or predict compound sensitivity.",
+    "recordId": "ferroptosis-cell-death",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "8f88f14c5a87d72b01c2c5a85904cc15fe36b2095cc31412c539a414ed05ee2c",
+    "itemIndex": 2,
+    "supportingExcerpt": "GPX4 uses glutathione to reduce lipid hydroperoxides to lipid alcohols. FSP1 provides a parallel coenzyme-Q radical-trapping defence; it does not replace every GPX4 function or describe the whole protection network. Protein abundance alone does not measure protective activity or predict compound sensitivity.",
+    "sourcePmids": [
+      "24439385",
+      "31634900"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ferroptosis-measurement",
+    "page": "ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Assigning ferroptosis needs convergent measurements of death, lipid damage preceding death, iron dependence and appropriately controlled rescue. Independent genetic and chemical perturbations strengthen attribution; rescue alone is not complete proof. Probe chemistry, concentration, nutrients, cell density and observation time can alter results. A lipid-probe ratio and death fraction are different outputs, with no universal diagnostic staining threshold. Live death and rescue tests consume viable model material. Specify lipid-probe oxidation ratios and independently measured death percentages over a stated interval; a marker snapshot does not reconstruct the full causal sequence.",
+    "recordId": "ferroptosis-cell-death",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "8f88f14c5a87d72b01c2c5a85904cc15fe36b2095cc31412c539a414ed05ee2c",
+    "itemIndex": 3,
+    "supportingExcerpt": "Assigning ferroptosis needs convergent measurements of death, lipid damage preceding death, iron dependence and appropriately controlled rescue. Independent genetic and chemical perturbations strengthen attribution; rescue alone is not complete proof. Probe chemistry, concentration, nutrients, cell density and observation time can alter results. A lipid-probe ratio and death fraction are different outputs, with no universal diagnostic staining threshold. Live death and rescue tests consume viable model material. Specify lipid-probe oxidation ratios and independently measured death percentages over a stated interval; a marker snapshot does not reconstruct the full causal sequence.",
+    "sourcePmids": [
+      "22632970",
+      "24439385",
+      "31634900",
+      "29362479"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ferroptosis-translation",
+    "page": "ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "A culture with abundant GPX4, a general oxidation signal and no death has not demonstrated ferroptosis. Cell-line and xenograft vulnerabilities do not establish tolerable exposure, selective cancer killing or benefit in patients. Alternative defences can confer resistance, so a strong antioxidant programme is not automatically a treatment vulnerability.",
+    "recordId": "ferroptosis-cell-death",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "8f88f14c5a87d72b01c2c5a85904cc15fe36b2095cc31412c539a414ed05ee2c",
+    "itemIndex": 4,
+    "supportingExcerpt": "A culture with abundant GPX4, a general oxidation signal and no death has not demonstrated ferroptosis. Cell-line and xenograft vulnerabilities do not establish tolerable exposure, selective cancer killing or benefit in patients. Alternative defences can confer resistance, so a strong antioxidant programme is not automatically a treatment vulnerability.",
+    "sourcePmids": [
+      "24439385",
+      "31634900"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "immunogenic-cell-death-definition",
+    "page": "immunogenic-cell-death",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Immunogenic cell death is regulated death capable of initiating antigen-specific adaptive immunity in a compatible responding host. Antigenicity and appropriately timed adjuvant signals are both necessary considerations. It is an immune consequence, not an exclusive machine opposed to apoptosis or necrotic appearance.",
+    "recordId": "immunogenic-cell-death",
+    "version": "proposal-therapeutic",
+    "field": "notes",
+    "fieldSha256": "9701ead78a4339a9f7e4915252b8bfd390d88c5cd55a75749e31ac436fc2506c",
+    "itemIndex": 1,
+    "supportingExcerpt": "Immunogenic cell death is regulated death capable of initiating antigen-specific adaptive immunity in a compatible responding host. Antigenicity and appropriately timed adjuvant signals are both necessary considerations. It is an immune consequence, not an exclusive machine opposed to apoptosis or necrotic appearance.",
+    "sourcePmids": [
+      "32209603",
+      "17187072"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "immunogenic-cell-death-signals",
+    "page": "immunogenic-cell-death",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Surface calreticulin, released ATP and HMGB1 have distinct mechanistic roles in defined experiments. Calreticulin supported dying-cell uptake, ATP signalled through dendritic-cell P2X7/inflammasome pathways, and HMGB1/TLR4 supported processing and presentation. These are examples rather than a universal sufficient three-marker checklist. A DAMP is not automatically a tumour-specific antigen.",
+    "recordId": "immunogenic-cell-death",
+    "version": "proposal-therapeutic",
+    "field": "notes",
+    "fieldSha256": "9701ead78a4339a9f7e4915252b8bfd390d88c5cd55a75749e31ac436fc2506c",
+    "itemIndex": 2,
+    "supportingExcerpt": "Surface calreticulin, released ATP and HMGB1 have distinct mechanistic roles in defined experiments. Calreticulin supported dying-cell uptake, ATP signalled through dendritic-cell P2X7/inflammasome pathways, and HMGB1/TLR4 supported processing and presentation. These are examples rather than a universal sufficient three-marker checklist. A DAMP is not automatically a tumour-specific antigen.",
+    "sourcePmids": [
+      "17187072",
+      "19767732",
+      "17704786"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "immunogenic-cell-death-functional-test",
+    "page": "immunogenic-cell-death",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "In the consensus vaccination assay, remove residual inducing chemical and add no separate adjuvant before vaccinating immunocompetent syngeneic mice with dying tumour cells. Compare later challenge with living matched tumour cells in vaccinated and unvaccinated hosts, and test specificity with unrelated compatible tumour cells. Incidence and growth are functional readouts. Immune-competent versus deficient comparisons alone cannot isolate immunogenic death from other immunostimulation. Assays consume tumour-cell aliquots, supernatant or host-model material and report separate dead-cell fractions, signal concentrations or surface staining and challenge incidence or growth. Residual inducer, contamination, incompatible antigens and poor death confirmation can invalidate attribution. No universal DAMP cutoff establishes immunogenicity.",
+    "recordId": "immunogenic-cell-death",
+    "version": "proposal-therapeutic",
+    "field": "notes",
+    "fieldSha256": "9701ead78a4339a9f7e4915252b8bfd390d88c5cd55a75749e31ac436fc2506c",
+    "itemIndex": 3,
+    "supportingExcerpt": "In the consensus vaccination assay, remove residual inducing chemical and add no separate adjuvant before vaccinating immunocompetent syngeneic mice with dying tumour cells. Compare later challenge with living matched tumour cells in vaccinated and unvaccinated hosts, and test specificity with unrelated compatible tumour cells. Incidence and growth are functional readouts. Immune-competent versus deficient comparisons alone cannot isolate immunogenic death from other immunostimulation. Assays consume tumour-cell aliquots, supernatant or host-model material and report separate dead-cell fractions, signal concentrations or surface staining and challenge incidence or growth. Residual inducer, contamination, incompatible antigens and poor death confirmation can invalidate attribution. No universal DAMP cutoff establishes immunogenicity.",
+    "sourcePmids": [
+      "32209603"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "immunogenic-cell-death-translation",
+    "page": "immunogenic-cell-death",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Death plus extracellular ATP does not establish a cancer vaccine. Danger signals, cross-priming, functional protection, distant control and patient benefit are separate claims. Even a positive mouse vaccination assay remains model-bound and does not select a clinical treatment.",
+    "recordId": "immunogenic-cell-death",
+    "version": "proposal-therapeutic",
+    "field": "notes",
+    "fieldSha256": "9701ead78a4339a9f7e4915252b8bfd390d88c5cd55a75749e31ac436fc2506c",
+    "itemIndex": 4,
+    "supportingExcerpt": "Death plus extracellular ATP does not establish a cancer vaccine. Danger signals, cross-priming, functional protection, distant control and patient benefit are separate claims. Even a positive mouse vaccination assay remains model-bound and does not select a clinical treatment.",
+    "sourcePmids": [
+      "32209603"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "necrosis-mechanism",
+    "page": "necrosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Necrosis describes loss of membrane integrity and tissue breakdown, rather than one molecular route. Overwhelming injury, regulated mechanisms and late secondary necrosis after apoptosis with inadequate clearance can converge on membrane loss. Necrosis is broader than necroptosis.",
+    "recordId": "necrosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "3f090ecf660c8cb70e8f2d260249639b1ca1d989b74566df5d71effd9990d5e0",
+    "itemIndex": 0,
+    "supportingExcerpt": "Necrosis describes loss of membrane integrity and tissue breakdown, rather than one molecular route. Overwhelming injury, regulated mechanisms and late secondary necrosis after apoptosis with inadequate clearance can converge on membrane loss. Necrosis is broader than necroptosis.",
+    "sourcePmids": [
+      "29362479"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "necrosis-necroptosis",
+    "page": "necrosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "RIPK3-dependent MLKL activation is an example regulated necrotic mechanism. Sun and colleagues used biochemical and cellular perturbations to establish MLKL downstream of RIP3; a necrotic region or membrane-impermeant dye alone cannot establish that pathway.",
+    "recordId": "necrosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "3f090ecf660c8cb70e8f2d260249639b1ca1d989b74566df5d71effd9990d5e0",
+    "itemIndex": 1,
+    "supportingExcerpt": "RIPK3-dependent MLKL activation is an example regulated necrotic mechanism. Sun and colleagues used biochemical and cellular perturbations to establish MLKL downstream of RIP3; a necrotic region or membrane-impermeant dye alone cannot establish that pathway.",
+    "sourcePmids": [
+      "22265413"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "necrosis-sampling",
+    "page": "necrosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Histology describes the sampled region; viable tumour may remain elsewhere. A membrane-compromised fraction, qualitative tissue necrosis and method-defined necrotic area answer different questions. Handling, delayed fixation and late sampling affect interpretation, and no universal necrosis percentage identifies a death mechanism or proves treatment success. Preparing and staining a section consumes tissue, while live-cell dye assays use tested aliquots and report a defined membrane-compromised fraction. Clinical morphology and experimental pathway perturbation have different validation contexts.",
+    "recordId": "necrosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "3f090ecf660c8cb70e8f2d260249639b1ca1d989b74566df5d71effd9990d5e0",
+    "itemIndex": 2,
+    "supportingExcerpt": "Histology describes the sampled region; viable tumour may remain elsewhere. A membrane-compromised fraction, qualitative tissue necrosis and method-defined necrotic area answer different questions. Handling, delayed fixation and late sampling affect interpretation, and no universal necrosis percentage identifies a death mechanism or proves treatment success. Preparing and staining a section consumes tissue, while live-cell dye assays use tested aliquots and report a defined membrane-compromised fraction. Clinical morphology and experimental pathway perturbation have different validation contexts.",
+    "sourcePmids": [
+      "29362479"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "necrosis-immunity",
+    "page": "necrosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "HMGB1-deficient necrotic cells produced less inflammation in defined experiments. That result concerns danger signalling, rather than automatic adaptive immune memory. Dye entry after an intervention cannot establish necroptosis, vaccine activity or clinical benefit without the separate causal and host tests.",
+    "recordId": "necrosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "3f090ecf660c8cb70e8f2d260249639b1ca1d989b74566df5d71effd9990d5e0",
+    "itemIndex": 3,
+    "supportingExcerpt": "HMGB1-deficient necrotic cells produced less inflammation in defined experiments. That result concerns danger signalling, rather than automatic adaptive immune memory. Dye entry after an intervention cannot establish necroptosis, vaccine activity or clinical benefit without the separate causal and host tests.",
+    "sourcePmids": [
+      "12110890",
+      "32209603"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "senescence-state",
+    "page": "senescence",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Senescent cells remain alive and metabolically active while division is durably arrested. Damage, oncogenic signals and treatment stresses can induce the state. It is distinct from death, reversible quiescence, the broader concept of dormancy and immune exhaustion, and is not a synonym for a person's age.",
+    "recordId": "senescence",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a95bc470a939d19589b6d3ee7d7f6aca1065f8936d81022d84b625cea3c33e47",
+    "itemIndex": 1,
+    "supportingExcerpt": "Senescent cells remain alive and metabolically active while division is durably arrested. Damage, oncogenic signals and treatment stresses can induce the state. It is distinct from death, reversible quiescence, the broader concept of dormancy and immune exhaustion, and is not a synonym for a person's age.",
+    "sourcePmids": [
+      "31675495",
+      "29362479",
+      "29258294"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "senescence-measurement",
+    "page": "senescence",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Low proliferation and increased p21 one day after stress do not establish durable senescence or a harmful secretory programme. Combine cell identity, longitudinal arrest or regrowth assessment and complementary features such as p16, p21, damage markers and senescence-associated beta-galactosidase. Fixed tissue cannot test later recovery, and no universal marker or arrest-duration cutoff works across contexts. Research outputs include method-defined cell fractions, marker intensities and longitudinal proliferation or regrowth. Stained sections and tested cells consume material. Secretions and their functional effects require their own readouts rather than inference from an arrest marker.",
+    "recordId": "senescence",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a95bc470a939d19589b6d3ee7d7f6aca1065f8936d81022d84b625cea3c33e47",
+    "itemIndex": 2,
+    "supportingExcerpt": "Low proliferation and increased p21 one day after stress do not establish durable senescence or a harmful secretory programme. Combine cell identity, longitudinal arrest or regrowth assessment and complementary features such as p16, p21, damage markers and senescence-associated beta-galactosidase. Fixed tissue cannot test later recovery, and no universal marker or arrest-duration cutoff works across contexts. Research outputs include method-defined cell fractions, marker intensities and longitudinal proliferation or regrowth. Stained sections and tested cells consume material. Secretions and their functional effects require their own readouts rather than inference from an arrest marker.",
+    "sourcePmids": [
+      "31675495",
+      "39121846"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "senescence-secretions",
+    "page": "senescence",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "The senescence-associated secretory phenotype varies with cell, stimulus, timing and environment. In Coppé and colleagues' culture experiments, selected secretions promoted epithelial invasiveness; in Demaria and colleagues' mouse skin wounds, senescent cells and PDGF-AA supported repair. Neither experiment establishes a universal harmful mixture or a clinical instruction to remove senescent cells.",
+    "recordId": "senescence",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a95bc470a939d19589b6d3ee7d7f6aca1065f8936d81022d84b625cea3c33e47",
+    "itemIndex": 3,
+    "supportingExcerpt": "The senescence-associated secretory phenotype varies with cell, stimulus, timing and environment. In Coppé and colleagues' culture experiments, selected secretions promoted epithelial invasiveness; in Demaria and colleagues' mouse skin wounds, senescent cells and PDGF-AA supported repair. Neither experiment establishes a universal harmful mixture or a clinical instruction to remove senescent cells.",
+    "sourcePmids": [
+      "19053174",
+      "25499914"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "senescence-escape",
+    "page": "senescence",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Genetically switchable blood-cancer models showed enhanced clonogenic growth after release from senescence. This supports possible escape in those systems, not inevitable restart, relapse prediction or a preferred senolytic treatment. Arrest, secretion and effects on neighbouring cells require separate tests.",
+    "recordId": "senescence",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a95bc470a939d19589b6d3ee7d7f6aca1065f8936d81022d84b625cea3c33e47",
+    "itemIndex": 4,
+    "supportingExcerpt": "Genetically switchable blood-cancer models showed enhanced clonogenic growth after release from senescence. This supports possible escape in those systems, not inevitable restart, relapse prediction or a preferred senolytic treatment. Arrest, secretion and effects on neighbouring cells require separate tests.",
+    "sourcePmids": [
+      "29258294"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ubiquitin-and-proteasome-enzymes",
+    "page": "ubiquitin-and-proteasome",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Ubiquitin is a small protein attached through enzyme steps: E1 uses ATP for activation, E2 carries activated ubiquitin, and E3 promotes substrate selection and transfer. Reticulocyte experiments separated these functions. E3 families differ in transfer mechanism; no single cartoon specifies all of them.",
+    "recordId": "ubiquitin-proteasome-system",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "bc730b546c63bb37fc720af909353c25a4f6680ef348adadd1a5d7e1b0ff7976",
+    "itemIndex": 0,
+    "supportingExcerpt": "Ubiquitin is a small protein attached through enzyme steps: E1 uses ATP for activation, E2 carries activated ubiquitin, and E3 promotes substrate selection and transfer. Reticulocyte experiments separated these functions. E3 families differ in transfer mechanism; no single cartoon specifies all of them.",
+    "sourcePmids": [
+      "6305978"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ubiquitin-and-proteasome-fates",
+    "page": "ubiquitin-and-proteasome",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Suitable tagged cargo can be unfolded by ATP-dependent proteasomal machinery and broken into fragments, while ubiquitin is removed and reused. Other ubiquitin signals organise interactions rather than destruction, and yeast experiments show overlapping chain functions. Lysosomal autophagy and proteasomal breakdown are distinct routes.",
+    "recordId": "ubiquitin-proteasome-system",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "bc730b546c63bb37fc720af909353c25a4f6680ef348adadd1a5d7e1b0ff7976",
+    "itemIndex": 1,
+    "supportingExcerpt": "Suitable tagged cargo can be unfolded by ATP-dependent proteasomal machinery and broken into fragments, while ubiquitin is removed and reused. Other ubiquitin signals organise interactions rather than destruction, and yeast experiments show overlapping chain functions. Lysosomal autophagy and proteasomal breakdown are distinct routes.",
+    "sourcePmids": [
+      "3031653",
+      "28421184",
+      "19345192"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ubiquitin-and-proteasome-measurement",
+    "page": "ubiquitin-and-proteasome",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Protein abundance reflects synthesis and removal. Measure named-substrate decay over time with synthesis, handling and viability controls; restoration of an E3 adaptor can strengthen attribution without proving direct binding or global proteasome failure. Catalytic activity per time, ubiquitinated-cargo intensity and protein lifetime in hours are different readouts. KEAP1 is one CUL3 adaptor for NRF2, so a CUL3 change cannot uniquely identify that substrate. Pulse labelling or a controlled temporary synthesis block can help estimate turnover but may cause stress. Independent perturbation and restoration help distinguish a selected-substrate effect from a secondary response; enzyme engagement alone does not establish selective killing.",
+    "recordId": "ubiquitin-proteasome-system",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "bc730b546c63bb37fc720af909353c25a4f6680ef348adadd1a5d7e1b0ff7976",
+    "itemIndex": 2,
+    "supportingExcerpt": "Protein abundance reflects synthesis and removal. Measure named-substrate decay over time with synthesis, handling and viability controls; restoration of an E3 adaptor can strengthen attribution without proving direct binding or global proteasome failure. Catalytic activity per time, ubiquitinated-cargo intensity and protein lifetime in hours are different readouts. KEAP1 is one CUL3 adaptor for NRF2, so a CUL3 change cannot uniquely identify that substrate. Pulse labelling or a controlled temporary synthesis block can help estimate turnover but may cause stress. Independent perturbation and restoration help distinguish a selected-substrate effect from a secondary response; enzyme engagement alone does not establish selective killing.",
+    "sourcePmids": [
+      "15282312",
+      "6305978",
+      "3031653"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "ubiquitin-and-proteasome-clinical",
+    "page": "ubiquitin-and-proteasome",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "In a randomised trial of 669 people with relapsed myeloma after one to three prior therapies, bortezomib prolonged median time to progression compared with high-dose dexamethasone: 6.22 versus 3.49 months. This historical clinical result does not make an arbitrary E3 variant or abundant protein a predictive treatment biomarker.",
+    "recordId": "ubiquitin-proteasome-system",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "bc730b546c63bb37fc720af909353c25a4f6680ef348adadd1a5d7e1b0ff7976",
+    "itemIndex": 3,
+    "supportingExcerpt": "In a randomised trial of 669 people with relapsed myeloma after one to three prior therapies, bortezomib prolonged median time to progression compared with high-dose dexamethasone: 6.22 versus 3.49 months. This historical clinical result does not make an arbitrary E3 variant or abundant protein a predictive treatment biomarker.",
+    "sourcePmids": [
+      "15958804"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "cholesterol-and-srebp-transport",
+    "page": "cholesterol-and-srebp",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "SCAP and local endoplasmic-reticulum sterol conditions regulate transport of membrane-bound SREBP to the Golgi. Processing releases a fragment that enters the nucleus and regulates lipid synthesis and uptake. Sufficient local sterol supply can retain the complex in the ER; total cellular cholesterol and SREBP RNA do not measure this processing.",
+    "recordId": "lipid-metabolism-cancer",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a2b2291dead9fcf7e20ebc7aeec42a20ef927dc05887bb35c1a1f5519ef90a09",
+    "itemIndex": 0,
+    "supportingExcerpt": "SCAP and local endoplasmic-reticulum sterol conditions regulate transport of membrane-bound SREBP to the Golgi. Processing releases a fragment that enters the nucleus and regulates lipid synthesis and uptake. Sufficient local sterol supply can retain the complex in the ER; total cellular cholesterol and SREBP RNA do not measure this processing.",
+    "sourcePmids": [
+      "19041766"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "cholesterol-and-srebp-members",
+    "page": "cholesterol-and-srebp",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Identify the SREBP member and compartment: SREBP-2 is especially associated with cholesterol regulation, whereas SREBP-1 has major fatty-acid roles. Precursor, nuclear fragment, transcript, total sterol, uptake and synthesis rate are different readouts. A labelled production experiment answers a different question from an abundance snapshot.",
+    "recordId": "lipid-metabolism-cancer",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a2b2291dead9fcf7e20ebc7aeec42a20ef927dc05887bb35c1a1f5519ef90a09",
+    "itemIndex": 2,
+    "supportingExcerpt": "In transgenic mice expressing a truncated SREBP-2 construct, Horton and colleagues observed preferential activation of cholesterol synthesis over fatty-acid synthesis in liver and adipose tissue, contrasting it with earlier SREBP-1a results. They separately measured transcripts and synthesis using labelled water. These are relative effects in a named experimental system, not exclusive duties of each family member or proof that a transcript measurement equals flux. Precursor location and nuclear processing require their own measurements.",
+    "sourcePmids": [
+      "19041766",
+      "18024962"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "cholesterol-and-srebp-compensation",
+    "page": "cholesterol-and-srebp",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "In the fictional supply experiment, nuclear SREBP-2 and uptake messages respond to lipid-poor medium; external lipid supply can reduce the response and compensate for synthesis perturbation. Record medium composition, density, timing and viability before assigning dependence. A supply-sensitive state does not establish the response of a person's tumour. Assess precursor and nuclear regulator, responsive transcripts, cellular sterols and uptake separately from labelled synthesis rates. Use controlled supplementation to test the proposed bottleneck; total amount does not specify production or local sensing.",
+    "recordId": "lipid-metabolism-cancer",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a2b2291dead9fcf7e20ebc7aeec42a20ef927dc05887bb35c1a1f5519ef90a09",
+    "itemIndex": 1,
+    "supportingExcerpt": "In the fictional supply experiment, nuclear SREBP-2 and uptake messages respond to lipid-poor medium; external lipid supply can reduce the response and compensate for synthesis perturbation. Record medium composition, density, timing and viability before assigning dependence. A supply-sensitive state does not establish the response of a person's tumour. Assess precursor and nuclear regulator, responsive transcripts, cellular sterols and uptake separately from labelled synthesis rates. Use controlled supplementation to test the proposed bottleneck; total amount does not specify production or local sensing.",
+    "sourcePmids": [
+      "19041766"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "cholesterol-and-srebp-rescue",
+    "page": "cholesterol-and-srebp",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "A statin inhibits HMG-CoA reductase in the mevalonate pathway, which supplies cholesterol and other products. Mevalonate rescue therefore cannot uniquely identify cholesterol as the limiting product. A pathway perturbation is not equivalent to every alteration of SCAP-SREBP regulation.",
+    "recordId": "lipid-metabolism-cancer",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "a2b2291dead9fcf7e20ebc7aeec42a20ef927dc05887bb35c1a1f5519ef90a09",
+    "itemIndex": 3,
+    "supportingExcerpt": "Statins inhibit HMG-CoA reductase upstream in the mevalonate pathway, which supplies cholesterol and nonsterol products. In Freed-Pastor and colleagues' breast-cancer 3D cultures, geranylgeranyl pyrophosphate partially rescued an invasive phenotype after mutant-p53 depletion or simvastatin treatment. This illustrates why mevalonate rescue alone cannot uniquely attribute an effect to cholesterol. It does not identify every relevant metabolite, establish a universal cancer dependency or show that a statin perturbation reproduces every change in SCAP-SREBP regulation.",
+    "sourcePmids": [
+      "19041766"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "er-stress-and-unfolded-protein-response-branches",
+    "page": "er-stress-and-unfolded-protein-response",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "ER stress is an imbalance between protein-folding demand and local capacity; the unfolded protein response is an adaptation programme, not the same thing as the stress. IRE1 processes XBP1 RNA, PERK phosphorylates eIF2alpha and ATF6 processing releases a nuclear regulator. Distinct branches can alter folding capacity, incoming translation and disposal.",
+    "recordId": "er-stress-and-unfolded-protein-response",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "aacfa05341bf0ec1fca3c82891e4255954b84f8648b1b9d0b1e78fdb7df83bd8",
+    "itemIndex": 0,
+    "supportingExcerpt": "ER stress is an imbalance between protein-folding demand and local capacity; the unfolded protein response is an adaptation programme, not the same thing as the stress. IRE1 processes XBP1 RNA, PERK phosphorylates eIF2alpha and ATF6 processing releases a nuclear regulator. Distinct branches can alter folding capacity, incoming translation and disposal.",
+    "sourcePmids": [
+      "11779464",
+      "9930704",
+      "10564271",
+      "22116877"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "er-stress-and-unfolded-protein-response-compartments",
+    "page": "er-stress-and-unfolded-protein-response",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "ATF6 travels from ER to Golgi for processing; the released fragment, rather than the intact membrane-bound precursor, acts in the nucleus. Total XBP1 RNA differs from its splice-form fraction. Other kinases can phosphorylate eIF2alpha, so one phosphosite cannot identify the whole response.",
+    "recordId": "er-stress-and-unfolded-protein-response",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "aacfa05341bf0ec1fca3c82891e4255954b84f8648b1b9d0b1e78fdb7df83bd8",
+    "itemIndex": 1,
+    "supportingExcerpt": "ATF6 travels from ER to Golgi for processing; the released fragment, rather than the intact membrane-bound precursor, acts in the nucleus. Total XBP1 RNA differs from its splice-form fraction. Other kinases can phosphorylate eIF2alpha, so one phosphosite cannot identify the whole response.",
+    "sourcePmids": [
+      "11821395",
+      "11779464",
+      "9930704"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "er-stress-and-unfolded-protein-response-measurement",
+    "page": "er-stress-and-unfolded-protein-response",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Specify preserved material, RNA quality, isoform-specific methods, total-protein controls, timing and identified cell populations. Splice-form fractions, processed ATF6 and defined phosphoprotein signals are different outputs. Increased XBP1 splicing with stable viable-cell counts supports a branch response, not lethal stress; measure growth and death directly and test causality independently. RNA or protein preparations and compatible tissue stains use material; functional dependence tests require viable cells. Report splice-form fractions, defined phosphosite signals or processed fragments with assay-specific controls, rather than a universal UPR-positive treatment threshold.",
+    "recordId": "er-stress-and-unfolded-protein-response",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "aacfa05341bf0ec1fca3c82891e4255954b84f8648b1b9d0b1e78fdb7df83bd8",
+    "itemIndex": 2,
+    "supportingExcerpt": "Specify preserved material, RNA quality, isoform-specific methods, total-protein controls, timing and identified cell populations. Splice-form fractions, processed ATF6 and defined phosphoprotein signals are different outputs. Increased XBP1 splicing with stable viable-cell counts supports a branch response, not lethal stress; measure growth and death directly and test causality independently. RNA or protein preparations and compatible tissue stains use material; functional dependence tests require viable cells. Report splice-form fractions, defined phosphosite signals or processed fragments with assay-specific controls, rather than a universal UPR-positive treatment threshold.",
+    "sourcePmids": [
+      "11779464",
+      "9930704",
+      "10564271"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "er-stress-and-unfolded-protein-response-cancer",
+    "page": "er-stress-and-unfolded-protein-response",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "XBP1 depletion altered tumour growth and relapse in defined triple-negative breast cancer models, with an HIF1alpha transcriptional interaction. Model findings and patient expression-signature associations do not establish universal XBP1 dependence, an assay cutoff or a treatment benefit. Successful stress adaptation can support survival.",
+    "recordId": "er-stress-and-unfolded-protein-response",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "aacfa05341bf0ec1fca3c82891e4255954b84f8648b1b9d0b1e78fdb7df83bd8",
+    "itemIndex": 3,
+    "supportingExcerpt": "XBP1 depletion altered tumour growth and relapse in defined triple-negative breast cancer models, with an HIF1alpha transcriptional interaction. Model findings and patient expression-signature associations do not establish universal XBP1 dependence, an assay cutoff or a treatment benefit. Successful stress adaptation can support survival.",
+    "sourcePmids": [
+      "24670641"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "nutrient-sensing-ampk-energy",
+    "page": "nutrient-sensing-ampk",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "AMP-activated protein kinase is a catalytic and regulatory complex responding to energy state. AMP and ADP can protect activating phosphorylation, but AMP also supplies direct allosteric activation that ADP does not. ATP, ADP and AMP quantities and ratios are different from a phosphoprotein readout.",
+    "recordId": "nutrient-sensing-ampk",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "cfd26c9961394135eea0ccf82516dcc909d1e5eda5ecad15eb56f75458cd1278",
+    "itemIndex": 0,
+    "supportingExcerpt": "AMP-activated protein kinase is a catalytic and regulatory complex responding to energy state. AMP and ADP can protect activating phosphorylation, but AMP also supplies direct allosteric activation that ADP does not. ATP, ADP and AMP quantities and ratios are different from a phosphoprotein readout.",
+    "sourcePmids": [
+      "21399626"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "nutrient-sensing-ampk-inputs",
+    "page": "nutrient-sensing-ampk",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "LKB1 and a calcium-sensitive CaMKK2 route can activate AMPK in suitable systems. AMPK can phosphorylate raptor and restrain mTORC1, connecting energy supply to costly growth-related work. An AMPK phosphosite does not uniquely identify glucose deprivation or every nutrient signal.",
+    "recordId": "nutrient-sensing-ampk",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "cfd26c9961394135eea0ccf82516dcc909d1e5eda5ecad15eb56f75458cd1278",
+    "itemIndex": 1,
+    "supportingExcerpt": "LKB1 and a calcium-sensitive CaMKK2 route can activate AMPK in suitable systems. AMPK can phosphorylate raptor and restrain mTORC1, connecting energy supply to costly growth-related work. An AMPK phosphosite does not uniquely identify glucose deprivation or every nutrient signal.",
+    "sourcePmids": [
+      "16054095",
+      "18439900"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "nutrient-sensing-ampk-adaptation",
+    "page": "nutrient-sensing-ampk",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "During energy stress in model experiments, AMPK preserved reducing power through altered fatty-acid metabolism and supported survival. Increased AMPK and raptor phosphorylation, slower growth and greater survival than an AMPK-deficient comparison are compatible observations. This is not a universal benefit from activating or inhibiting AMPK.",
+    "recordId": "nutrient-sensing-ampk",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "cfd26c9961394135eea0ccf82516dcc909d1e5eda5ecad15eb56f75458cd1278",
+    "itemIndex": 2,
+    "supportingExcerpt": "During energy stress in model experiments, AMPK preserved reducing power through altered fatty-acid metabolism and supported survival. Increased AMPK and raptor phosphorylation, slower growth and greater survival than an AMPK-deficient comparison are compatible observations. This is not a universal benefit from activating or inhibiting AMPK.",
+    "sourcePmids": [
+      "22660331",
+      "18439900"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "nutrient-sensing-ampk-measurement",
+    "page": "nutrient-sensing-ampk",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Keep collection timing, preservation, total protein, antibody specificity and matched perturbations with energy-state and phosphosite measurements. Mixed tissue can combine malignant and nonmalignant responses. Slower growth is not death, an altered gene needs direction-of-function evidence, and a marker change does not make a multitarget drug a selective AMPK intervention. Report concentrations or ratios of energy carriers, normalised activating phosphorylation and defined downstream sites. Preserved tissue can support staining, while viable-model perturbations use material. No universal AMPK-high cutoff establishes vulnerability.",
+    "recordId": "nutrient-sensing-ampk",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "cfd26c9961394135eea0ccf82516dcc909d1e5eda5ecad15eb56f75458cd1278",
+    "itemIndex": 3,
+    "supportingExcerpt": "Keep collection timing, preservation, total protein, antibody specificity and matched perturbations with energy-state and phosphosite measurements. Mixed tissue can combine malignant and nonmalignant responses. Slower growth is not death, an altered gene needs direction-of-function evidence, and a marker change does not make a multitarget drug a selective AMPK intervention. Report concentrations or ratios of energy carriers, normalised activating phosphorylation and defined downstream sites. Preserved tissue can support staining, while viable-model perturbations use material. No universal AMPK-high cutoff establishes vulnerability.",
+    "sourcePmids": [
+      "21399626",
+      "16054095",
+      "22660331"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "oxidative-phosphorylation-gradient",
+    "page": "oxidative-phosphorylation",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Distinguish electron transport, proton pumping from the mitochondrial matrix to the intermembrane space, return through ATP synthase and leak. Treat the foundational reconstitution as a named artificial-vesicle coupling experiment, with its own orientation, rather than a universal cellular orientation or fixed proton-to-ATP ratio.",
+    "recordId": "oxidative-phosphorylation",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+    "itemIndex": 2,
+    "supportingExcerpt": "In mitochondria, respiratory electron transfer and proton movement are distinct processes. Some respiratory complexes move protons from the matrix into the intermembrane space; return through ATP synthase can support ATP formation, while other return pathways dissipate the gradient without that synthesis step. The illustrated arrows identify paths, not a fixed proton-to-ATP ratio. In Racker and Stoeckenius' reconstituted vesicles, a light-driven membrane system from Halobacterium supported ATP formation when mitochondrial ATPase was included. Their artificial vesicles pumped in the opposite direction to the intact source cells, so the experiment supports coupling without specifying a universal cellular orientation or ratio.",
+    "sourcePmids": [
+      "4272126"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "oxidative-phosphorylation-rates",
+    "page": "oxidative-phosphorylation",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Respiration and ATP generation are related but different measurements. Mitochondrial and nonmitochondrial oxygen consumption, proton leak and ATP-linked respiration require controlled separation. Respiratory transcripts, normalised oxygen-consumption rates and survival dependence cannot substitute for one another; bulk tissue composition and compensatory fuel use also matter. Oxygen-consumption assays require viable cells or functional preparations rather than routine fixed sections and use or perturb the tested material. Report oxygen per time with justified viable-cell or protein normalisation. Equal baseline respiration and different responses to ATP-synthase inhibition do not by themselves identify which culture will die.",
+    "recordId": "oxidative-phosphorylation",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+    "itemIndex": 0,
+    "supportingExcerpt": "Respiration and ATP generation are related but different measurements. Mitochondrial and nonmitochondrial oxygen consumption, proton leak and ATP-linked respiration require controlled separation. Respiratory transcripts, normalised oxygen-consumption rates and survival dependence cannot substitute for one another; bulk tissue composition and compensatory fuel use also matter. Oxygen-consumption assays require viable cells or functional preparations rather than routine fixed sections and use or perturb the tested material. Report oxygen per time with justified viable-cell or protein normalisation. Equal baseline respiration and different responses to ATP-synthase inhibition do not by themselves identify which culture will die.",
+    "sourcePmids": [
+      "26709455",
+      "28270511"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "oxidative-phosphorylation-calculation",
+    "page": "oxidative-phosphorylation",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "The fictional oxygen-rate example gives 60 minus 30 = 30 picomoles of oxygen per minute per 10,000 viable cells after ATP-synthase inhibition. This is an inhibitor-sensitive oxygen-rate difference, not picomoles of ATP, a death percentage or a corrected ATP-production calculation. Fuel, normalisation and assay controls remain attached.",
+    "recordId": "oxidative-phosphorylation",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+    "itemIndex": 1,
+    "supportingExcerpt": "The fictional oxygen-rate example gives 60 minus 30 = 30 picomoles of oxygen per minute per 10,000 viable cells after ATP-synthase inhibition. This is an inhibitor-sensitive oxygen-rate difference, not picomoles of ATP, a death percentage or a corrected ATP-production calculation. Fuel, normalisation and assay controls remain attached.",
+    "sourcePmids": [
+      "28270511"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "oxidative-phosphorylation-method-version",
+    "page": "oxidative-phosphorylation",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Extracellular acidification includes respiratory carbon dioxide as well as glycolytic acid production. Quantitative glycolytic or ATP-rate calculations need appropriate corrections and an identified method version; the contents of the published correction must be checked before adopting a corrected formula or conversion ratio.",
+    "recordId": "oxidative-phosphorylation",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+    "itemIndex": 3,
+    "supportingExcerpt": "Extracellular acidification can include respiration-derived carbon dioxide as well as glycolytic acid production. Keep correction assumptions, normalisation and method version with any calculated ATP rate. The 2018 correction to Mookerjee and colleagues' 2017 method changes the ATP-linked oxygen-rate equation and reports use of a different hyperpolarization factor in some calculations; several numerical rates changed while the authors retained their qualitative conclusions. An inhibitor-sensitive oxygen-rate difference is therefore not itself an ATP rate, and an unversioned fixed conversion should not be inferred.",
+    "sourcePmids": [
+      "25449966",
+      "26709455",
+      "30097494"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "reactive-oxygen-species-chemistry",
+    "page": "reactive-oxygen-species",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Reactive oxygen species include chemically different molecules; superoxide is a radical and hydrogen peroxide is not. Location, amount and time affect signalling and damage. A measured level reflects both production and removal, while antioxidant transcripts are neither a production rate nor a species measurement.",
+    "recordId": "reactive-oxygen-species",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "c794ccf11f355ed79060fd00a99a43a6fa87f2462251772e888a780b72d22ccd",
+    "itemIndex": 0,
+    "supportingExcerpt": "Reactive oxygen species include chemically different molecules; superoxide is a radical and hydrogen peroxide is not. Location, amount and time affect signalling and damage. A measured level reflects both production and removal, while antioxidant transcripts are neither a production rate nor a species measurement.",
+    "sourcePmids": [
+      "16554833",
+      "21734707"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "reactive-oxygen-species-sensors",
+    "page": "reactive-oxygen-species",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "An oxidation-sensitive fluorescence signal needs a named probe, loading and cell-health controls, location, timing and appropriate calibration. HyPer and HyPer7 are peroxide reporters with distinct pH and sensitivity properties, rather than universal measurements of all reactive oxygen species. Fixed-tissue damage staining cannot reconstruct a live chemical rate. Live reporters require viable material or engineered models. Outputs can be relative fluorescence or calibrated ratios; unstimulated, positive, probe-only and cell-health controls address different failure modes. The result is not a universal concentration of all reactive oxygen species.",
+    "recordId": "reactive-oxygen-species",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "c794ccf11f355ed79060fd00a99a43a6fa87f2462251772e888a780b72d22ccd",
+    "itemIndex": 1,
+    "supportingExcerpt": "An oxidation-sensitive fluorescence signal needs a named probe, loading and cell-health controls, location, timing and appropriate calibration. HyPer and HyPer7 are peroxide reporters with distinct pH and sensitivity properties, rather than universal measurements of all reactive oxygen species. Fixed-tissue damage staining cannot reconstruct a live chemical rate. Live reporters require viable material or engineered models. Outputs can be relative fluorescence or calibrated ratios; unstimulated, positive, probe-only and cell-health controls address different failure modes. The result is not a universal concentration of all reactive oxygen species.",
+    "sourcePmids": [
+      "16554833",
+      "32130885"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "reactive-oxygen-species-outcomes",
+    "page": "reactive-oxygen-species",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "A general fluorescent increase does not establish mitochondrial origin, lipid damage, ferroptosis or death. Validate chemistry and compartment first, then follow damage, viability and relevant independent perturbation or rescue over time. No general ROS-positive threshold selects a cancer treatment.",
+    "recordId": "reactive-oxygen-species",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "c794ccf11f355ed79060fd00a99a43a6fa87f2462251772e888a780b72d22ccd",
+    "itemIndex": 2,
+    "supportingExcerpt": "A general fluorescent increase does not establish mitochondrial origin, lipid damage, ferroptosis or death. Validate chemistry and compartment first, then follow damage, viability and relevant independent perturbation or rescue over time. No general ROS-positive threshold selects a cancer treatment.",
+    "sourcePmids": [
+      "16554833",
+      "32130885",
+      "22632970"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "reactive-oxygen-species-context",
+    "page": "reactive-oxygen-species",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Antioxidants supported energy recovery and survival in detached mammary epithelial models; oncogene-driven NRF2 detoxification also supported tumour development in experimental settings. Less oxidation cannot therefore be assumed to mean less cancer. These findings do not recommend adding or withholding antioxidant supplements.",
+    "recordId": "reactive-oxygen-species",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "c794ccf11f355ed79060fd00a99a43a6fa87f2462251772e888a780b72d22ccd",
+    "itemIndex": 3,
+    "supportingExcerpt": "Antioxidants supported energy recovery and survival in detached mammary epithelial models; oncogene-driven NRF2 detoxification also supported tumour development in experimental settings. Less oxidation cannot therefore be assumed to mean less cancer. These findings do not recommend adding or withholding antioxidant supplements.",
+    "sourcePmids": [
+      "19693011",
+      "21734707"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "warburg-effect-pattern",
+    "page": "warburg-effect",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "The Warburg effect describes substantial glucose-to-lactate metabolism with oxygen available. Glycolysis can supply ATP and lactate formation regenerates a carrier needed for its continuation. Lactate production does not imply absent mitochondrial oxidation, and proliferating normal cells can use aerobic glycolysis too.",
+    "recordId": "warburg-effect",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0616edb75b2288c4ee9cb4aa67391a9fb73e398210f1002107bf6bec67cf8c77",
+    "itemIndex": 0,
+    "supportingExcerpt": "The Warburg effect describes substantial glucose-to-lactate metabolism with oxygen available. Glycolysis can supply ATP and lactate formation regenerates a carrier needed for its continuation. Lactate production does not imply absent mitochondrial oxidation, and proliferating normal cells can use aerobic glycolysis too.",
+    "sourcePmids": [
+      "19460998",
+      "26853473"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "warburg-effect-heterogeneity",
+    "page": "warburg-effect",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Intraoperative glucose-tracer studies in nine people with non-small-cell lung cancer found enhanced glycolysis alongside glucose oxidation, with heterogeneity within and between tumours and evidence for other nutrient use. These observations do not describe every cancer or establish an irreplaceable survival route.",
+    "recordId": "warburg-effect",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0616edb75b2288c4ee9cb4aa67391a9fb73e398210f1002107bf6bec67cf8c77",
+    "itemIndex": 1,
+    "supportingExcerpt": "Intraoperative glucose-tracer studies in nine people with non-small-cell lung cancer found enhanced glycolysis alongside glucose oxidation, with heterogeneity within and between tumours and evidence for other nutrient use. These observations do not describe every cancer or establish an irreplaceable survival route.",
+    "sourcePmids": [
+      "26853473"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "warburg-effect-measurement",
+    "page": "warburg-effect",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "FDG imaging measures uptake and trapping of a glucose analogue, not lactate production or a cancer-exclusive process. Respiratory carbon dioxide contributes to medium acidification, so pH change is not pure glycolysis. Keep oxygen conditions, viable-cell normalisation, tracer identity, metabolites and timing with rate measurements; tracer labelling alone is not automatically a complete flux estimate.",
+    "recordId": "warburg-effect",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0616edb75b2288c4ee9cb4aa67391a9fb73e398210f1002107bf6bec67cf8c77",
+    "itemIndex": 2,
+    "supportingExcerpt": "FDG imaging measures uptake and trapping of a glucose analogue, not lactate production or a cancer-exclusive process. Respiratory carbon dioxide contributes to medium acidification, so pH change is not pure glycolysis. Keep oxygen conditions, viable-cell normalisation, tracer identity, metabolites and timing with rate measurements; tracer labelling alone is not automatically a complete flux estimate.",
+    "sourcePmids": [
+      "19460998",
+      "25449966",
+      "26853473"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "warburg-effect-interpretation",
+    "page": "warburg-effect",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Lactate release, oxygen consumption and labelled glucose reaching mitochondrial metabolites can coexist. High pathway activity, a transcript signature or glucose uptake does not prove survival dependence. A culture nutrient-removal experiment does not establish that changing a person's diet selectively starves a tumour or identifies a medicine. Functional rate or tracer studies use viable cells, slices or a defined in-vivo experiment and consume or perturb material. No universal Warburg-positive threshold predicts treatment benefit; a functional perturbation and survival outcome are separate from the metabolic pattern.",
+    "recordId": "warburg-effect",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "0616edb75b2288c4ee9cb4aa67391a9fb73e398210f1002107bf6bec67cf8c77",
+    "itemIndex": 3,
+    "supportingExcerpt": "Lactate release, oxygen consumption and labelled glucose reaching mitochondrial metabolites can coexist. High pathway activity, a transcript signature or glucose uptake does not prove survival dependence. A culture nutrient-removal experiment does not establish that changing a person's diet selectively starves a tumour or identifies a medicine. Functional rate or tracer studies use viable cells, slices or a defined in-vivo experiment and consume or perturb material. No universal Warburg-positive threshold predicts treatment benefit; a functional perturbation and survival outcome are separate from the metabolic pattern.",
+    "sourcePmids": [
+      "26853473",
+      "19460998"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "apoptosis-vs-necrosis-vs-ferroptosis-comparison",
+    "page": "apoptosis-vs-necrosis-vs-ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "Compare mechanism, morphology, immune consequence and living arrest separately. Apoptosis uses regulated dismantling; necrotic morphology describes boundary failure; ferroptosis requires iron-dependent lipid damage causing death; immunogenicity requires a compatible adaptive response; senescence is a living arrest. These categories are not mutually exclusive outcomes or a universal appearance-based classifier.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 4,
+    "supportingExcerpt": "Compare mechanism, morphology, immune consequence and living arrest separately. Apoptosis uses regulated dismantling; necrotic morphology describes boundary failure; ferroptosis requires iron-dependent lipid damage causing death; immunogenicity requires a compatible adaptive response; senescence is a living arrest. These categories are not mutually exclusive outcomes or a universal appearance-based classifier.",
+    "sourcePmids": [
+      "29362479",
+      "32209603",
+      "22632970",
+      "29258294"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "apoptosis-vs-necrosis-vs-ferroptosis-exercise",
+    "page": "apoptosis-vs-necrosis-vs-ferroptosis",
+    "versions": [
+      "later",
+      "original"
+    ],
+    "requirement": "In the fictional killing experiment, rescue by both an iron chelator and a lipid-protecting compound with no caspase-inhibitor rescue supports a ferroptosis hypothesis. Check lipid damage, death timing, perturbation specificity and GPX4 or glutathione-related mechanisms before attribution; immunogenicity is a separate test. A single stain is not enough.",
+    "recordId": "apoptosis",
+    "version": "proposal-death-metabolism",
+    "field": "notes",
+    "fieldSha256": "40841efb0661cdedf492a453964578499d8abf926694a35e2dfd101d37818b2d",
+    "itemIndex": 5,
+    "supportingExcerpt": "In the fictional killing experiment, rescue by both an iron chelator and a lipid-protecting compound with no caspase-inhibitor rescue supports a ferroptosis hypothesis. Check lipid damage, death timing, perturbation specificity and GPX4 or glutathione-related mechanisms before attribution; immunogenicity is a separate test. A single stain is not enough.",
+    "sourcePmids": [
+      "22632970",
+      "24439385"
+    ],
+    "status": "covered-draft",
+    "remaining": []
+  }
+]

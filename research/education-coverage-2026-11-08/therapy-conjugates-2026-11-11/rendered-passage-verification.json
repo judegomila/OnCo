@@ -1,0 +1,1411 @@
+{
+  "fieldPassages": 156,
+  "missing": [],
+  "checks": [
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d183243e515760123ead3230d9d440abfec6041475778bc8af07b4d11e5bd08a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "8f1e42902131f8cd912010c998394e01b1b025eb42f34cd34b3e2d82630beb46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "d48e2ee9499f05ec18b9a408148f8b48bf1762cf805b6f351f1fb1cc0faa733e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e3865fc8a71674a278016e012d960d3009315eaa37a67eacc44c0772770c3795",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "4f60be337e45b5885168f33c6334f87325a080b37861c4c0a8ebc6544b1b3c9e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "cebb2249a647e35de0ce076ceb37c6db32a5b56427ba24f10b62a757ef1f59f5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "72f40b36704726e0ac6284df8aaec064096806787eb2db15271831292acd0f0c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "07a58d51f344a2f0f5cbacb0426ac6525d4e5b6d7342e7b3b6966c532fe57c9b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "af00ccc5ccc6d0b40e563a92e95ee641de564b51de12bc1f350aec6572d49e9d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "06721aab6b4c2e566f84f9045fd0a0bd33525a6b9a67408d1705f73bcd76300d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "26b11e986601ca3b4d873e1365bd025dfb97df177a4fc22b0e1cec5b4b34c7d1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "502cc9f845f395d21116ec1b1c21619228892b7fbddec452cf80f55ead3a5007",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "60d3333d118511e7b8f14e9bec56a9c763b71ddc0a455b7e92dde451c9567c46",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "379267efcd7cb8beef9d4f480eb0784521e1c1a1eff8b567b67037f76134c881",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "75d6ded47859feec7b2ad0708b363720b13fc17ac42bc3ff00b9b5aaff8eb8b8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "23eb70d5fa1024218239bc2fc748511e7c0bd15838bcf5e52d798b5cb004d984",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e050c95c30e52996b6671b6bef0947f8dc1a99089f481072c40a9087936e7331",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "0904699eb84b8d4e8ec4d60cd7e42eb56442bbffa64a24066681a7046c4c03ca",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d3ee8263581c83459363fd54bd88a22b1ef88020a628e3f0bad31e0e5e2dd02b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "a7379093645ed4af31a638119091f4d89cd661875c69d8079a5a64d3f6021902",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f50f2eabf4a43cbdcd8f6c1b638f14fbf9ada388b41db613644691d56df5f9ba",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "1f566c2017cb1749272a183f6e8bca05f3e1e6aae8124930e7de77139f33ec49",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "c73c7c7bc6e124e5ed9e6451f919f0cadb41be4078806c7828a2269c1a5fcfad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "217c4f968c0959a7e1f4025c138d4c0a76c239aff1552cfdbe1c0cbe7371a9ec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "dcbfdc78fb601563b04fd501dd2fac8b95c65d9e787e8f979daec7dfa874fa55",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "d93659cbd476ace254d03f34128cca7b560fa5ad2fad6f95cd711f1498ad66e7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "cd974c5a1de4de13bb229f8fd158f128bfb2375b537886ebcbc95d096fc5ec2c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "672038dc582c4a73ea0a665da23b56f1ad2a572fd88a4519ed3d113db1e6aa88",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "50eb3db8f9697aee278b94741b93aa18beadd0f58841b8cc81a09b13fee00f02",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "21ddacb2b35a8b9be100e0286071194fff3a7de964accea6e75d80a9b0cc306a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "8c83b4096f82c3997dc4c505836822e637477ef3fd1a732c89ce26a7f7313803",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "6278e677cb747010180843f830a53d9c06d576e6eded88f3d04fe6dcada20865",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a252506771b760f8325265be52f4b2bb458592e5b8d30ab3c02eaa4fc4309933",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "1f711dbe09e83ef986658e550e4818fb21688fa91f92c0929990a12408bd92b3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dadb2bd5c012fc2672f1eee3745c4bd41af6211869b8f7f06d9c533a3305b3f4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3dbd134ee48572fa389d900c27bb05e6a60f050fde1a519d6bd115b83498e369",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "382a7c823ef4c70a007c860ea7549b09a00fd4d4f851acc40041156965859261",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "94dc7b67c11d903b640034703663b08de8404fc70e34e4aa1648571f8efaa497",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "c6fbeb2f0420d95db0f91e11fe5f8462f8dfd61dcdcc94d39e9a9de80b34ca20",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "1fa8c5d8bd3f723ec0cff5e364c2b73d6d008738dcdcfbb8aac2dff560b3acd7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "5179538ff8488244e057e9cee6d71b745cf94ffaf1f991a663931937dbbd8a22",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "54fb57151054660dbaf52ab8668926c2c41d6a32533dde5c6ea11f3fb9600ead",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f76f7bb7d2568584a543977bd7d67091dc1031b045b1c28c2f42f5e53c401ce8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "2145f357d03860326b7468cf4ee9edf39f19bd1e0140e3515eab1b03b8ef752f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "12418bb023b35e84d706d4c18cc36e5870246c8294f25557218c47b34890bcca",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "352e033a5e848066b2016eca73b19c9b224565f069cc90a088434eafc4ab7956",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "57dfc25bd974fea2c694dd4db3bf74aa28422dbb6cf0b8a834ccebb8c2332963",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "1590880a3a0c18305f414906a6989ec7d2e4eace58db36caf0133e2c301197cb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "907b0d88b134ff37c43b4d3101b3741867741b6fd9c90db11bfdadf5366695fd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d03cb6a2d83f08591fc40ca2d3a6a264aaa156d4a7eee9c8b6f0eb67482c0698",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "14da2890291b9b46fa1982f1257c457cb8b3144f3dd33f3802162d40663fbf37",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "3a90e2e63f51c88d80b88e22e0c3066207a52090dff7ed041b2c891f77463980",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "407e4676a97d79f6b5e21d1c3ee5479c4dec1fc23d62db30a8be97d8d44be710",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "2374a8d6d44e1d040e604f19ac84012fed855355dd55589102c7664fc59c4b2b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "9a8b5e7517a26b7c7af2b483e15594af6929a1e480f9279adbab83f4435a9580",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "2b427a65e053250b712c9eb6cdf8c9b90b5ef18ff317f590cdab803760db74d4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "34f7cfc301c85cc133b44860a242b7c5cdd26c97d5038f43ad7fd1e2c00b2d17",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "89c02c8100db44f0f40ec008834ca69b4a48ee5401fbdb2414adbb465f9f7a25",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "ad22e1812f2966d8024e1fb12e11151795c0dcde467ddbb867540cd628f9cf16",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f27d2bfb3dc5713707286ff12023849b3f9018d3cf7b833399c8e313f4dd33b9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "865bd2806f3aadc5b5aa44b422107b72709a184fe9bc10745b29070ddbc91ab8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "58747f4ac9c93152c8a0b874c11a8a754590ea66e4801ca6d2e1cbda687d37c9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e521c7ea20b6f5070735e9abf69075d5aa4a59cd960c6735f1c3c71cccf19af2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "1ae1fc34f29725048a87b701d44923c8b125306a7b522c8a1208835a6c92e75a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b811cd4d8bc36a16b997966cb8310367eca310b203427f864c174732b5c0e2d8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "5ba77e4e133800558da9806a3cad214efb703d2eb8ed8a3c184a1956e9ff9367",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "b964fb01ae7d2f46eb6196784b32fb80fc1b9d657ba5ddf47393fceabbfb3fe2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "801cdc5371b37791be92b1b7c413576d8103fd1ebe8656694df0d63cf9087e6c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "47d28ea08ce0b4ee582748a2470b51a6a3e9dece90ab44b77fc3ca352913ef11",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "dd41766d29b466b06d5cd9c00837f5ae38a621813361ad080ec4ecb588abedda",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3a521280b51ff767ad03e0cb0297d274b7bb5ad2d439b7c3d156a2387ca9c15d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "1aa040542798352be03a8b3fdb7f0a5f7966d91fca346af14b6c453ef243506b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c334a59d335752d6d2a023a425c07f009de81c40cf2b85d99f1b0606acf78cb2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "2934f94603b30314943613b10f7db8c619ba745378db5c9be36e3e4dbf612feb",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "e328b41c625972842fea86f3347918ff4fad721776f489a489af89e0a48d4043",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9211362af1a34ba965a54c9e097b26d971cb7dbbdc4d48bc31cf96b158713d37",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "7c47caf603daacf3d3308e16f56f66f2fd887e0c6cbf6e37a3e4b7e1ede522ff",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "3dcc528090a08683dc8ed0a29910b73de8c93b10f67f868157cdb033bf595fe6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d3d9f468f9260527962d0eda80f3f95217d89d14af443eaa6c8808ae4c10c5f3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "dfcbdda19b774b7f47912049031dd235726920d71cb6f8a923e772edf8c73a81",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "12a7f26e8e6b091d05665da17513357ed3c68e7dafd3385d3492fbe3cbb3af6c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "91cc5c4b1876aea281a7b379e298918fb3495c37a304b9c5b12e7c8772bab26d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "24600a7563ba6faf21e6383be291a28222f04296ab1c3d840dfdb2c8ddf273a3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "177ddcca31f620a880730de7a322607f68c85619431100b7d2043532003c0380",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "c5ae1b02043fec93f161bc085f4e1c3a1a5e65f1a2a62cc38b1fc0d92656b379",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "8a9d7c1e148962222d1f6272b0caf72debae293a48be66289ee25cc5f651b592",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c749608a4cfd85e8e39e1f51fb70b2600bc653ae0fc1a20230413f111bbc1517",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9a2aba7117f3c01142058e0b299de0d787a7124bbb9caf05b2d2a1e543816058",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "7abdbd08fe1cfe5e778b34a7d5c02a34003ed0b1c6be40ac4f02390acc1743cc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "0ca6d49625a6317a87c3cab966767d36972f40d0b745d712d63b497f74686112",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "98bc37beafe0ca2a66c17a9367974ec4c0c317d83227840e675fc0fe194f765f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "8734fcf4aebbcfba3d362535a52bd126f23463ca14cbcffdd51e5bbe7edcc9f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "b01847a4c53c63317479af288b1120dfd74288c52d187e332de74d53ba044f16",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "36b36b1f387bc83e80f6eb9555dfa1f2f22af60292674ea82c2295c369e20a14",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "ff7955029ad6426a63c0ce24f410ea192d8fb3c62f5e80e81433f36512430006",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "3b90a250788f1e9dbe717922590b186eb3069056ab9efde528fa79641aaf673c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "04c1a1ec65799b04cf73bb30e4e94bbfd859c29b7e4de7225da65c461b40c141",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "994a43678a809590c6dfe0aa7a1bd8b7b7d2d58fa9623b58bb4d751411ae2a9d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "84dbff451f49ff57174fc3aa9bd33ec09e2ef9f907911de9abd526e1d47030f8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e1fc223a7abb4631fd77468dadfbfe7a3623ba1ef5f8729ed3d0d673fedc545d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "e3069118c3613a50f9438d82b863128afb660a0ac4e6252725748238cb649814",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "fabaade8989dcaf6997089ec97235a68f1ca841311fb189eb60a4eb2b046edb6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "daf4c231ffb6f6beeee1c822c53db06828a64e9ea00329b0fd116513ecd8afe8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "strengths",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "ad5a727853a6f5ef8e40fdf8eb7f0d89abcfd5614a83154178be400b17d22891",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "60b735739aca6120f3a8d8918f5f619de8e68d5d0d9c010e7c7ea80db036c906",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "4215f6481d3e82f642c296a635b6664b9fd93c4cff174b039ffa29f2f69c6b06",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "adc",
+      "field": "limitations",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "d8a92e0ae6c14b434f328e20e0197d2afac6892c6da37d6481fe77aa150b5ff7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "775093ac6b741ef36afde54ecca633594835992f0f1f4deeecfadcb3e742e484",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b5adbac16732c3769d674e60142af0c50132bc5ac27d801f84363cefefa2d87a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "39e08d06c77c8da077a669ee0f6bce2a215ad195bbc2e19a84d07072cc048b14",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c6a98ba7255048fe3eff08d333b63315545d591978e942ae70a3073181d2253a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "5e901b5ac68d87e44bb936b125e8a45f72e268565b71327f8a03c6f532bd8716",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "1fe7190fd7a2bb13119d5a72ec8b26e84a2c2b56f0f046315155b1125d7f22a7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "df32b2db3479f46bf82bbf7c9f673de32b4453f50e12f222ffed7c154d0c1345",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "16b0ee91f2af7a3b6f5075b6158119e06ef9c7f1bd6bee9cb2e7d5b0dc3ca6bc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "539cf13962e6e7d4ec29812bcb8242421a478b0f4bc3d5a79c193574f6336f8e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "739feb5888e451ba3f55f0002807e770fada9abd7f795707f2e915dd3ac6b93c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "ed83fa6555c333d2203642aaa0dfbc33c2fe341f5f7a7124c079c36fb4715853",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "8585d99588e2e638f61625054bb043b7c8621c1f3b5227ad83830bde1868fdae",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "6b2a9e76d173091a200518a1a75095ab19f453de789075d92670b0138292a915",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "2efab519e0d0ffb37488149d4ab045ff01d13069b22e2f8ab68fd7369ed9c9cf",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "notes",
+      "index": 11,
+      "segment": "field or note",
+      "passageSha256": "e247a6abefc255e022595ecefc0be94662571e51e13317befa811a462660fd68",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "principle",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "72c7700b455717798be8dcb2424170468e96be75261aba4f562804730967cfb6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "strengths",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "67b45bc1025b300f742af27f52f9615d1e034002e10ecf1c7f2c145c8733462a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "strengths",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "3c4dce9ad36dc4006d1a0029375eda55787a222c5feb3626556c25720fa1de67",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "limitations",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4c0d4aa1e0c2b3920e5a26db82057cd50ed88f99982e8f88e13e137c43e80acd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "limitations",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "52830c70f3e449083eebf43259a851f3d4f042227d20243e112d74f70386782a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "field": "limitations",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "2313e3db5699ae8c83283478437be73e846e0b112d825b5223f81ac7cb8d47ad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "373934991d2595cf2291e97dc80eaf2832201c01aa0e046a09629759d3eb7ef5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e75e970dc486beb7d96e7c88c983086ec422db09a268849ef2c98bf3a0dec495",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "9dc255b80edea5ed2ad3523be2ad45509904b237eb06cc3dd47d94524676179d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "2d5639f9c9c1061d789591e57eec2c9376ebd7a9f21b1e6bf3651e83cb02234e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "0bc26bf04e6fb9500d687ede2d2c57d9a71a27064c9487c3b42d0260c8489019",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "d744ba34295e37fd0abe4a2ddfdf8aa158ed068474eba48aa535341b6a14e9c9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "ab020742324bbf73e85d48150aedb1a5a1f3b471063dc263b46d9bfea21d9537",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "fa7a8111dc2079431139150795e35714c336d24d9a5e88a1e918a8bf2134647c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "c5b349a707833715abb4971caced608b9aa54a793d31a7c7eb78a2e4f88768ef",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "192b9dad7802478d1f43c08d0a3d45f0d73e17b6f8e5a9a7e036bd8c529e8344",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "46174e4a867d69bbb168552b48879cdb417b560b6a35c276164e288d7a14196f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "3f7de382225b550fd38dd030d0ce07441d5c6932d6dcf1219a8f91be35d5f601",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "transcription-inhibitor-payloads",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "ca1f2f8a1eb59874c862d3bf1b0bc2db66b49d4bd92ba3dc7987df094621ff1c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "bba23e34b7b147b3d550b9673af96572f46b7cf5883018c9b2325ded7bb8e358",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9fe51b00a62cdbeb1c18d447e7887fc9da4b195ffec993aa3da577691f5aaf26",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "fc4fadb73f50b7fc91b3b853d66cb170273c6e7943ce7f2abf35bf6471f95ef0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4bc87abe0315e49f8cff3543fa0a57bf30ce75dfe7c35fc068d77187e8b96706",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "e7440b72254258325212e37d7e1a2f24826c9d73749d054744f7c2b898b4d3f4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "86ce2b6453ff608e176aa50e7c6cf5dcfdc4b22f6d38494ead26f07285af04b5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "966eb2dda9fe5661a7a4d58361fdb5afe9192dfdf0dcd777d6a6d435f8d6d323",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "501de8eca050b25d1f0a7ee182c7e1cbb9c4596d42ca543fc8cd7340618bd268",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "8fa36612bf5795c23bea56e78234c92390857ba7e0d93060b49aa72064dc74f2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "1b4aa015f6d5be59c0e68cb2a12cecadd8cb378dd7c43e1068dbded7b62eed24",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 7,
+      "segment": "field or note",
+      "passageSha256": "e2e2ae6f057ce5e6b6c1cf69a52f617b6d5efcd0e0609eb665c37d85bc30ec89",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 8,
+      "segment": "field or note",
+      "passageSha256": "f1dd4c91ea2efe17c015f6c3bf2f2a000644294b85a35a35f70361be2dc6bc5e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 9,
+      "segment": "field or note",
+      "passageSha256": "40084a7b024297f862aac325bea9b7e1770c029e7a59b983812f059396be792a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 10,
+      "segment": "field or note",
+      "passageSha256": "928eaf42c7c5c2e4a6acc30cbbda0aff96628c42d82776fe3499148814bb9613",
+      "inActualReaderText": true
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "field": "notes",
+      "index": 11,
+      "segment": "field or note",
+      "passageSha256": "0817d9c4321835e6273833bdde4d4d03405d2a72c95d9a39c70ae4d00f17f8ce",
+      "inActualReaderText": true
+    }
+  ],
+  "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+}

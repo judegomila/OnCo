@@ -1,0 +1,13 @@
+# Tumour-immunology source assessment, 11 November 2026
+
+Twelve later lessons and seven original lessons retain separate source inventories: 19 versions, 215 section signatures and 209 semantic requirements in their union. The original has 110 requirements; the later version has 208. The initial 208-row inventory is retained with an explicit added comparison and a correction to the reading-method description. It is not described as blind.
+
+Thirteen existing owners and four newly registered concepts in draft #375 carry the teaching. One companion owner is supplemented in #373. The new concepts are agretopicity, adaptive immune resistance, the perioperative immune window and CD4 T-cell subsets. They are registered in the draft graph. Neither local graph representation nor a PR is main or live coverage.
+
+208 union requirements are represented at their recorded source scope. One later-only Garcia-Diaz signalling-axis requirement remains partial because the indexed 2019 correction body is inaccessible. Its identity resolves, but metadata-only XML and 403 pages are not a reading. Two other indexed corrections were read and retain their author-name, data-deposition and competing-interest scope. Most publications were read at abstract or targeted-passage depth; primary-sources.json records the exact limits. The CCL4 detail is explicitly attributed to the investigators' open-access commentary. No Elicit tool was callable and no new Elicit reports are claimed.
+
+All 12 light/dark figure files were viewed individually at full native extent with their lessons. SVGs were rendered in Chrome; PNG variants were inspected independently. Four distinct Mermaid diagrams were rendered and viewed across eight instances. Ten teaching paths per source pin are newly classified; the two previously reviewed stromal-area paths retain their existing points and receive a new viewing receipt. Hashes verify custody, not scientific entailment or authorship approval.
+
+Both changed drafts pass validation, typecheck, lint and full suites. Actual EntityDetail output contains all 157 checked reader segments. All 18 selected JSON outputs match their graphs, and 124 Markdown field passages are present. Short-summary selectors and OpenAPI generators pass. Stale short translations use current English fallback; there is no new named-language acceptance. No complete Next production build, browser hydration, expert, learner, merge or deployment claim is made.
+
+The full-corpus goal remains active. This checkpoint does not close the unassessed curriculum, remaining assets, adjacent concepts, source follow-ups, optional schema contracts or final whole-corpus re-audit. Open-weight model evaluation remains a separate follow-up.

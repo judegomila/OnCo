@@ -1,0 +1,2753 @@
+{
+  "version": "proposal-pathology-result-guides-root",
+  "state": "Registered, unmerged actual draft fields; no main/live or expert approval",
+  "draft": 375,
+  "committedDataHead": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "records": [
+    {
+      "id": "biopsy",
+      "kind": "term",
+      "name": "Biopsy",
+      "aka": [
+        "biopsies",
+        "biopsied",
+        "tissue sample",
+        "tissue samples",
+        "core biopsy",
+        "needle biopsy",
+        "core needle biopsy",
+        "tissue biopsy",
+        "rebiopsy",
+        "re-biopsy",
+        "surgical biopsy",
+        "excisional biopsy",
+        "fine needle aspiration",
+        "FNA"
+      ],
+      "tldr": "A biopsy removes cells or tissue for examination. The sampled site, method and collection date set the limits of what its findings can show.",
+      "summary": "Biopsies range from a fine needle drawing up cells, to a core needle removing a sliver of tissue, to surgical removal of the whole lesion; the sample is fixed, sliced, stained and read by a pathologist, and today also tested for protein markers and sequenced for mutations. Tissue is precious and finite, and a single biopsy samples one spot of a tumour that may vary from place to place and change over time, which is why repeat biopsies at progression and blood-based liquid biopsies have become important. Biopsies carry small risks (bleeding, infection, rarely tumour seeding) and some sites, such as the pancreas or brain, are hard to reach.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Biopsy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biopsy"
+        },
+        {
+          "label": "NCI: pathology reports, specimen details and final interpretation",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+        },
+        {
+          "label": "NCI: what cancer is, altered cells and the tumour microenvironment",
+          "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+        },
+        {
+          "label": "NCI: breast stages, clinical and pathological assessment, and grading",
+          "url": "https://www.cancer.gov/types/breast/stages"
+        },
+        {
+          "label": "ACR and RSNA: ultrasound-guided breast biopsy methods",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "histology",
+        "ihc",
+        "genomic-profiling",
+        "ctdna",
+        "lesion",
+        "biomarker",
+        "antithrombotic-interruption-around-surgery",
+        "bone-marrow-aspirate-and-trephine-biopsy",
+        "image-guided-core-biopsy-preparation-and-aftercare",
+        "prostate-biopsy-route-and-antibiotic-prophylaxis"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "histopathology-ihc",
+        "liquid-biopsy",
+        "cgp"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read a pathology report as an interpretation of a particular specimen. Keep the sampled site, collection date, preparation and method with the finding, and distinguish collection from the date the report became available. An addendum testing old material still describes that old specimen. The final diagnosis integrates the findings; an isolated descriptive word should not replace that interpretation. Pending, qualified or uninterpretable results retain those limits rather than becoming negative findings.",
+        "In a fictional pretreatment breast core, high-grade invasive carcinoma and completed triple-negative receptor tests answer different questions. Neither establishes a particular RNA-expression subtype or distant spread. A suspicious regional node that was not sampled is not a signed positive-node pathology finding. If later surgery finds sparse residual invasive carcinoma after treatment, preserve both the original biopsy and the later specimen, with their separate dates and settings; do not turn the first into a post-treatment measurement.",
+        "A useful report card keeps microscopic appearance and grade, individual receptor tests, anatomical extent and specimen timing in separate fields. Blank boxes in a teaching illustration contain no patient findings and calculate no stage or forecast. Ask which specimen, date, method and question each label belongs to before combining it with another observation. A small region cannot survey every part of a heterogeneous tumour, and cancer cells, immune cells, supporting tissue and treatment-related changes can coexist in the sample.",
+        "A breast report can describe a pretreatment core, a post-treatment needle sample, or tissue removed at surgery. A core collects tissue cylinders, fine-needle aspiration collects cells or fluid, and vacuum-assisted biopsy collects tissue using a vacuum-powered device. Keep the named specimen and each separately submitted part. The gross description records visible features, microscopy records examined sections, and the final diagnosis integrates those findings. A pending test, an unassessable result, a request for more sections and a final negative finding are different states.",
+        "Collection, treatment and reporting have separate clocks. In a fictional example, biopsy A is collected on day 0 and surgery specimen B on day 100. An addendum issued on day 120 tests stored material from A: it remains a result from the pretreatment specimen, with no new sampling on day 120. Treatment was planned on days 10, 30, 50 and 80, but administrations were documented on days 10, 50 and 80; day 30 was held. Four planned events therefore mean three documented administrations and one hold. These invented days supply no clinical schedule, hold explanation or response estimate.",
+        "Before combining reports, record the site and specimen, collection date, treatment actually delivered before collection, method, final interpretation and pending qualifications. The latest issue date is not necessarily the latest sampled biology. A negative result in one sampled region does not cancel a positive finding elsewhere. A suspicious imaged node and a pathologically positive sampled node are different evidence; neither a core nor a negative sampled node examines every node or organ.",
+        "Turn a signed finding into a specific question. A final involved edge raises a local-completion question about the operation, disease at the edge, separately submitted margins and radiation context. Residual invasive disease raises risk and systemic-benefit questions requiring prior treatment, subtype and a matched comparison. For cellularity, name the region and denominator; for differing receptor results, retain both specimens, methods and controls. A treatment interruption needs its cause, severity, recovery and clinical assessment. These questions inform a conversation with the relevant teams rather than forming a mandatory treatment tree.",
+        "For a proposed extra assay, name what each possible result would establish and which decision has evidence behind it. A receptor or immune-marker conclusion retains its scoring rule and validated setting; a number alone is not a treatment recommendation. In a fictional residual-TNBC report after chemotherapy and pembrolizumab, residual disease is prognostic information, not a test choosing the next drug. Local completion, future risk, added systemic benefit and whether treatment can be delivered safely remain connected but separate questions.",
+        "Read a numerical risk estimate with its cohort, treatment era, endpoint, follow-up and uncertainty. An association is not a personal countdown or an estimate of added-treatment benefit. In a fictional subgroup, a hazard ratio of 0.70 with a confidence interval from 0.35 to 1.40 includes 1, the no-difference value, and remains compatible with substantial benefit or harm. An overall trial result or subgroup point estimate alone does not establish precise benefit for every person. RCB class is not a universal personal percentage, and pCR does not promise cure."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy",
+      "kind": "term",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy",
+      "aka": [],
+      "tldr": "Sampling the former tumour site after treatment can miss scattered residual cancer, so a negative biopsy needs its study population and sampling method.",
+      "summary": "Image-guided biopsy after preoperative systemic treatment tests selected parts of the former breast tumour bed. Diagnostic accuracy studies compare it with subsequent surgery; an omission study instead follows selected people without breast surgery. These designs answer different questions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Heil et al., RESPONDER, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/"
+        },
+        {
+          "label": "Kuerer et al., preplanned omission outcomes, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/"
+        },
+        {
+          "label": "Tasoulis et al., pooled diagnostic data, 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33026457/"
+        },
+        {
+          "label": "Basik et al., NRG-BR005, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/"
+        },
+        {
+          "label": "Kuerer et al., original omission outcomes, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "core-needle-biopsy",
+        "vacuum-assisted-breast-biopsy",
+        "pcr",
+        "surgical-resection-specimen"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In RESPONDER, 398 women with stage I to III breast cancer of all biological subtypes and an imaging response were analysed. Vacuum-assisted biopsy missed residual cancer in 37 of the 208 women whose surgery found it: a false-negative rate of 17.8% (95% confidence interval 12.8% to 23.7%). Of the 37 misses, 20 had minimal residual tumour smaller than 5 mm. Exploratory analyses reported no false negatives with the largest-volume 7-gauge needle and a 6.2% false-negative rate (95% confidence interval 3.4% to 10.5%) when imaging and biopsy were combined. These refinements do not establish general omission safety.",
+        "The 2025 single-arm omission study enrolled 50 women aged at least 40 with HER2-positive or triple-negative cT1-2N0-1M0 disease and an imaging residual lesion smaller than 2 cm. After at least twelve 9-gauge vacuum cores, 31 had no residual breast cancer on biopsy and received radiotherapy without breast surgery. No ipsilateral breast recurrences occurred at median follow-up 55.4 months. Patients initially node-positive still underwent targeted axillary dissection. This small uncontrolled study calls for confirmation.",
+        "Fictional accuracy exercise: surgery finds residual cancer in 40 of 100 people. Biopsy misses 8 of those 40, while all 60 without residual cancer test negative. False-negative rate is 8/40 = 20%; negative predictive value is 60/68, about 88%. The denominators differ. A breast sample does not establish axillary status or mapped surgical margins. False-negative rate uses all residual cancers as its denominator; negative predictive value uses negative biopsies and varies with prevalence and selection.",
+        "A diagnostic clip and image guidance locate the former breast tumour bed, and cores sample selected positions. Pathology looks for residual invasive and in-situ disease; diagnostic accuracy studies then use surgery as the reference. Scattered residual cells can fall between samples. Imaging response alone does not prove pathological complete response.",
+        "Tasoulis analysed 166 women from three centres using surgery as the reference; 143 underwent vacuum-assisted sampling and 23 core-cut biopsy. In 159 representative biopsies, false-negative rate was 18.7% (95% confidence interval 10.6% to 29.3%). Among 76 with complete or partial clinical response, imaging abnormality no larger than 2 cm and at least six vacuum samples, it was 3.2% (0.1% to 16.7%) and negative predictive value 97.4% (86.5% to 99.9%). The TNBC subgroup had pCR in 39 of 59. These selected estimates do not establish omission safety.",
+        "NRG-BR005 was a prospective nonrandomised phase 2 study of marker-directed stereotactic multiple-core biopsy after chemotherapy. It included clinical complete responders with complete or near-complete trimodality imaging response. Of 101 evaluable patients, surgery found residual invasive or in-situ disease in 36. Sensitivity was 50% (95% confidence interval 32.9% to 67.1%) and negative predictive value 78.3% (67.9% to 86.6%). The authors did not support omitting surgery using these criteria. A retrospective central review found that only 62 of 101 met the imaging eligibility criteria; this exploratory post hoc analysis does not replace the main result.",
+        "For these biopsy studies, breast pCR definitions can require no invasive or in-situ disease, while other breast pCR endpoints allow residual in-situ disease and include nodal status. Name the protocol definition. The 2022 omission report and its 2025 update follow the same selected cohort: no ipsilateral breast recurrences among 31 without breast surgery at median follow-up 26.4 and 55.4 months respectively. They are not independent replications.",
+        "A small single-arm cohort with zero recurrences leaves uncertainty without a randomised comparison. Sampling does not provide the oriented margins or complete residual-burden assessment of resection, and breast biopsy does not assess every axillary node. Missing residual disease can also miss information used for further treatment decisions. These studies support continued investigation rather than a general rule to omit surgery."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "breast-margins-and-re-excision",
+      "kind": "term",
+      "name": "Margins after breast-conserving surgery, and second operations",
+      "aka": [
+        "clear margins",
+        "tumour on ink",
+        "re-excision",
+        "further surgery after lumpectomy"
+      ],
+      "tldr": "After breast-conserving surgery, pathology assesses the removed tissue’s boundaries. The applicable standard, final specimen findings and treatment context guide whether further local treatment is considered.",
+      "summary": "NICE NG101 says to offer further surgery, re-excision or mastectomy as appropriate, where invasive cancer or DCIS is present at the radial margins (tumour on ink, 0 mm); to consider further surgery after conserving surgery for invasive cancer with or without DCIS if tumour cells are present within 1 mm of but not at the radial margins; and to use 2 mm rather than 1 mm as the threshold for DCIS alone. The 2024 committee explained its reasoning plainly: a 1 mm margin is likely to achieve better breast preservation and result in fewer additional surgeries, repeated surgeries negatively affect breast appearance and can have a negative effect on self-esteem, and they are traumatic and can lead to stress, infection, pain and complications. It also noted that rates of further surgery currently vary across the country, and asked units to audit radial margins alongside recurrence. This is orientation from public patient pages, guidelines and the trials themselves, not advice for your case: your own team's instructions and 24-hour number come first, and no figure on this page is a prediction about you.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+        },
+        {
+          "label": "Macmillan: breast-conserving surgery",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer"
+        },
+        {
+          "label": "Breast Cancer Now: surgery for primary breast cancer",
+          "url": "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer"
+        },
+        {
+          "label": "NCI: lumpectomy and the surrounding treatment plan",
+          "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+        },
+        {
+          "label": "Moran et al.: invasive breast margins with whole-breast irradiation (2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24516019/"
+        },
+        {
+          "label": "Morrow et al.: DCIS margins with whole-breast irradiation (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27528719/"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [],
+      "technologies": [
+        "intraoperative-margin-assessment-breast"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "lumpectomy",
+        "mastectomy"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Margin standards and further-operation choices retain disease and jurisdiction. A local boundary is not a whole-body test, and a finding does not by itself select re-excision versus completion mastectomy. Read separately submitted margins and the final laboratory interpretation alongside the operative record.",
+        "US consensus recommendations also retain their treatment setting. Moran 2014 addresses stage I or II invasive breast cancer treated with breast-conserving surgery and whole-breast irradiation: no ink on tumour is the adequate negative-margin standard, without evidence that routinely wider clear margins improve local control. Morrow 2016 addresses DCIS treated with breast-conserving surgery and whole-breast irradiation, using 2 mm; a smaller negative margin alone is not an indication for mastectomy. These are distinct from a universal distance rule for every operation, jurisdiction or post-treatment specimen. Read the final integrated margin with separately submitted parts."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "capecitabine",
+      "kind": "drug",
+      "name": "Capecitabine",
+      "aka": [],
+      "tldr": "Capecitabine is an oral prodrug that the body converts to fluorouracil. It is used in specified cancer treatments, and oral delivery does not remove the risk of serious toxicity.",
+      "summary": "Capecitabine is a fluoropyrimidine antimetabolite, converted through enzyme steps to fluorouracil. Its active metabolites interfere with nucleotide production and RNA function in normal as well as tumour cells. It is not simply a tablet containing fluorouracil, and the names, formulations and doses must not be exchanged.\n\nThe US label calls for DPYD variant testing before starting unless immediate treatment is necessary. It carries warnings for serious or fatal toxicity in complete DPD deficiency and for bleeding with vitamin K antagonists. Partial DPD deficiency can also increase risk; no capecitabine dose has been proven safe in complete deficiency, and a negative genetic result does not remove all risk. Clinical benefit and combinations belong to the specific disease, setting and comparison.",
+      "status": "approved",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Capecitabine",
+      "links": [
+        {
+          "label": "US label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=capecitabine"
+        },
+        {
+          "label": "NCI drug page",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capecitabine"
+        },
+        {
+          "label": "EPAR",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xeloda"
+        },
+        {
+          "label": "Capecitabine label: activation, mechanism and DPD warnings",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e7d6317-1439-4976-ae00-6f62619ec3dd"
+        },
+        {
+          "label": "Fluorouracil label: active metabolites and DPD",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        },
+        {
+          "label": "Masuda et al., CREATE-X residual invasive HER2-negative breast cancer (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+        },
+        {
+          "label": "FDA: updated capecitabine and fluorouracil safety labelling",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine"
+        },
+        {
+          "label": "Palmer et al., ESPAC4 long-term outcomes (JCO 2025)",
+          "url": "https://doi.org/10.1200/JCO.24.01118"
+        },
+        {
+          "label": "NICE NG85 recommendations 1.8.6 and 1.9.3",
+          "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations"
+        },
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Capecitabine",
+          "url": "https://ncoda.org/pes/capecitabine/"
+        },
+        {
+          "label": "NCI: CAPOX components",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capox"
+        },
+        {
+          "label": "NCI: FOLFOX components",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox"
+        }
+      ],
+      "tags": [
+        "nci-list",
+        "generic"
+      ],
+      "related": [
+        "fluorouracil",
+        "capox",
+        "capecitabine-temozolomide",
+        "uridine-triacetate",
+        "dpyd-testing-before-fluoropyrimidines",
+        "hand-foot-syndrome-prevention-and-dose-modification",
+        "oral-anticancer-medicines-at-home",
+        "skin-and-nail-care-during-cancer-drug-treatment",
+        "treatment-induced-diarrhoea-grading-and-management"
+      ],
+      "cancers": [
+        "colorectal",
+        "breast-hr-positive",
+        "tnbc",
+        "breast-her2-positive",
+        "gastric",
+        "pancreatic",
+        "her2-positive-breast-brain-metastases",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "roche-genentech"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "rapido",
+        "nct04854668",
+        "nct06435429",
+        "nct07412613",
+        "nct06118333",
+        "nct04430738",
+        "nct07805551",
+        "nct05009069",
+        "nct07432295",
+        "nct05126719",
+        "nct06324357",
+        "nct05382442",
+        "nct02955940",
+        "nct05093907",
+        "nct06493760",
+        "nct05489211",
+        "nct06081959",
+        "nct06393374",
+        "nct05300269",
+        "nct07554521",
+        "nct05980481",
+        "nct06202261",
+        "nct03899155",
+        "nct05702229",
+        "nct06469944",
+        "nct06155383",
+        "nct05814354",
+        "nct06901531",
+        "nct07331155",
+        "nct06942234",
+        "nct05785741",
+        "nct06247956",
+        "nct06312176",
+        "nct06764875",
+        "nct05840211",
+        "nct06343948",
+        "nct06771622",
+        "nct06568692",
+        "nct05700084",
+        "nct07060807",
+        "nct07056777",
+        "nct05934331",
+        "nct06109779",
+        "nct05144854",
+        "nct07007559",
+        "nct06764940",
+        "nct07582315",
+        "nct07606599",
+        "nct07431281",
+        "nct04895358",
+        "nct06957886",
+        "nct07315750",
+        "nct04379596",
+        "nct07069712",
+        "nct06247995",
+        "nct07679360",
+        "nct06279364",
+        "spotlight-glow",
+        "nct04721977",
+        "nct07390383",
+        "nct06313983",
+        "nct06825494",
+        "nct07283367",
+        "nct07140393",
+        "nct06703177",
+        "nct04550260",
+        "nct07648914",
+        "nct07071337",
+        "nct06741644",
+        "nct04639986",
+        "nct05671822",
+        "nct06256328",
+        "nct04919226",
+        "nct04725994",
+        "create-x",
+        "sysucc-001",
+        "geicam-ciboma",
+        "ea1131",
+        "bre12-158",
+        "ascent-05",
+        "tropion-breast03",
+        "keynote-119",
+        "espac-4",
+        "espac-5",
+        "scalop",
+        "scalop-2",
+        "lap07"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Activation, cellular action and host breakdown are separate steps. Capecitabine becomes fluorouracil through several enzyme reactions; the simplified arrow omits intermediates. FdUMP limits the DNA building block thymidylate by inhibiting thymidylate synthase, while FUTP can enter RNA and disrupt its work. DPD-mediated breakdown affects host exposure. A fictional brochure claiming tumour-enriched activation has not thereby shown that normal tissues avoid active metabolites or toxicity. CAPOX combines capecitabine with oxaliplatin; FOLFOX instead combines fluorouracil, leucovorin and oxaliplatin. These are separate regimens, and the prodrug relationship does not make their instructions interchangeable.",
+        "The current capecitabine label says an FDA-authorised DPYD test is not available and available panels differ in variants and performance. It calls for individualising dosing in partial DPD deficiency and notes that serious adverse reactions may occur despite no identified variant. Tablet strength in milligrams, administered amount, and capecitabine or metabolite concentrations in ng/mL describe different quantities; none is itself a tumour-response measurement.",
+        "CREATE-X randomised 910 people with HER2-negative residual invasive breast cancer after neoadjuvant chemotherapy containing an anthracycline, a taxane or both. Five-year disease-free survival was 74.1% with additional capecitabine versus 67.6% with control, and overall survival was 89.2% versus 83.6%. These are the trial’s populations and comparisons, not a universal instruction for all residual disease or a test of every modern immunotherapy combination.",
+        "Triple-negative breast cancer: in the CREATE-X triple-negative subgroup with residual invasive disease after neoadjuvant chemotherapy, capecitabine improved five-year disease-free survival (69.8 versus 56.1 percent, hazard ratio 0.58) and overall survival (78.8 versus 70.3 percent, hazard ratio 0.52). One year of low-dose metronomic capecitabine after standard adjuvant chemotherapy improved disease-free survival in SYSUCC-001 (five-year 82.8 versus 73.0 percent; ten-year 78.1 versus 66.6 percent) without a significant overall survival gain, while eight cycles of extended adjuvant capecitabine did not reach significance in the Spanish GEICAM/CIBOMA trial (hazard ratio 0.82). In EA1131 platinum was not better than capecitabine for residual basal-like disease. It is the physician's-choice comparator or control in ASCENT, ASCENT-05, TROPION-Breast03, KEYNOTE-119 and OlympiAD. NICE has never appraised it for this use; it is a generic prescribed on the CREATE-X evidence.",
+        "Pancreatic cancer: with gemcitabine, capecitabine is the adjuvant regimen NICE NG85 recommends in England (1.8.6, an off-label use) on ESPAC-4 (median overall survival 28.0 against 25.5 months, hazard ratio 0.82; long-term 31.6 against 28.4 months and 49.9 against 32.2 months after R0 resection, JCO 2025), the standard for people not eligible for modified FOLFIRINOX. It is the preferred radiosensitiser for chemoradiotherapy (SCALOP: median survival 15.2 against 13.4 months with gemcitabine-based chemoradiotherapy; NG85 1.9.3) and the chemoradiotherapy partner in LAP07 and ESPAC-5."
+      ],
+      "brand": "Xeloda",
+      "modality": "Oral fluoropyrimidine prodrug (antimetabolite)",
+      "mechanism": "Converted in three steps, the last by thymidine phosphorylase enriched in tumours, to fluorouracil; FdUMP blocks thymidylate synthase and FUTP is incorporated into RNA.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 1998,
+          "indication": "Metastatic breast cancer after anthracycline and taxane; later adjuvant and metastatic colorectal cancer, rectal chemoradiotherapy"
+        },
+        {
+          "region": "EU",
+          "year": 2001,
+          "indication": "Colorectal, gastric and breast cancer"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": [
+        {
+          "date": "1998-04-30",
+          "type": "accelerated-approval",
+          "region": "US",
+          "note": "Accelerated approval on a surrogate endpoint, with a confirmatory trial required.",
+          "indication": "Metastatic breast cancer resistant to paclitaxel and an anthracycline-containing chemotherapy regimen or resistant to paclitaxel and further anthracycline therapy is contraindicated"
+        },
+        {
+          "date": "2001-09-07",
+          "type": "conversion",
+          "region": "US",
+          "note": "Confirmed: the accelerated approval of 1998 converted to traditional approval 3.4 years after it was granted.",
+          "indication": "Metastatic breast cancer resistant to paclitaxel and an anthracycline-containing chemotherapy regimen or resistant to paclitaxel and further anthracycline therapy is contraindicated"
+        },
+        {
+          "date": "2022-12-14",
+          "type": "label-change",
+          "region": "US",
+          "note": "FDA approved updated labeling for capecitabine tablets (Xeloda, Genentech, Inc.) under Project Renewal, an Oncology Center of Excellence (OCE) initiative aimed at updating labeling information for certain older oncology drugs to ensure information is clinically meaningful and scientifically up to date.",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-updated-drug-labeling-including-new-indications-and-dosing-regimens-capecitabine",
+          "indication": "capecitabine tablets under Project Renewal"
+        }
+      ]
+    },
+    {
+      "id": "core-needle-biopsy",
+      "kind": "term",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA)",
+      "aka": [
+        "core biopsy",
+        "core needle biopsy",
+        "fine-needle aspiration",
+        "fine needle aspiration",
+        "FNA",
+        "image-guided biopsy",
+        "CT-guided biopsy",
+        "re-biopsy",
+        "bone marrow biopsy",
+        "bone marrow aspirate",
+        "targeted biopsy"
+      ],
+      "tldr": "Core biopsy collects small cylinders of tissue; fine-needle aspiration collects cells or fluid. Both sample a site, and adequacy depends on the diagnostic question and intended tests.",
+      "summary": "A core needle collects cylinders that preserve local tissue architecture from selected positions. Fine-needle aspiration collects cells, fluid and sometimes clusters or tissue fragments for cytology; a cell block can support additional tests without reconstructing the original full spatial map. Either method can yield diagnostically useful material, but sample adequacy, preservation and represented cells must fit the question. A readable sample may still miss the target, and enough material for diagnosis does not guarantee enough suitable material for every molecular assay.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Needle_aspiration_biopsy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Needle_aspiration_biopsy"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        },
+        {
+          "label": "Basik et al., NRG-BR005, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/"
+        },
+        {
+          "label": "Chen et al., institutional breast FNA series, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35869577/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "histology",
+        "flow-cytometry",
+        "cfdna",
+        "biopsy-after-neoadjuvant-therapy",
+        "surgical-resection-specimen",
+        "antithrombotic-interruption-around-surgery",
+        "image-guided-core-biopsy-preparation-and-aftercare"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [
+        "histopathology-ihc",
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A readable core and a representative core are separate requirements. Radiology-pathology concordance asks whether the sampled tissue explains the imaging target. A preserved core of benign fat does not establish that a suspicious target is benign if the target was missed.",
+        "A core preserves local cell relationships within the sampled piece. Aspiration may recover single cells, clusters, fluid and fragments; a cell block can support additional tests but cannot reconstruct their original spatial map. Adequacy for diagnosis does not guarantee adequacy for every ancillary assay.",
+        "For each sample, retain site, collection time, prior treatment, image target, preservation, represented cells, intended assay and remaining material. Core length or count alone does not establish tumour content, whole-lesion representation or surgical margins.",
+        "A hollow cutting needle removes a narrow tissue cylinder from an image-defined target. The preserved arrangement can show an interface where it is actually present, like a plug through cake layers. Tissue is irregular and handling can damage it. A long core of scar or normal tissue does not establish tumour content.",
+        "NRG-BR005 found only half of surgically confirmed residual cancers using its post-neoadjuvant multiple-core procedure in 101 evaluable women. This is a selected breast protocol result, not a universal sensitivity for core biopsy in every organ or setting.",
+        "Core sampling starts by locating a target, collecting cylinders from the documented site, preserving them and examining sections. Diagnosis, represented architecture and any subsequent biomarker results describe those samples; core count is an inventory measure. Sectioning and extraction use finite material, and each additional assay needs a suitable validated input. A missed target, too few relevant cells, damaged cores, necrosis or incompatible preservation may defeat the intended question. Adequacy has no universal core-count threshold, and a core cannot establish whole-lesion composition, complete surgical margins or future treatment benefit.",
+        "Aspiration uses a thin needle to recover cells or fluid, including clusters and small fragments. Cytology examines shapes, nuclei and groupings. Material may be spread on slides or processed into a cell block for sections and ancillary tests when suitable. A cell block does not reconstruct the lesion-wide spatial map.",
+        "An inadequate aspirate and a negative adequate aspirate are different results. Rapid assessment can help collection but does not guarantee all later assays. A sampled node does not map every node. A fictional aspirate containing malignant breast cells supports a malignancy interpretation in context, but does not establish the full boundary or extent of invasion. Less architecture does not erase useful diagnostic information.",
+        "The cited Chen study retrospectively assessed breast aspirations from one academic hospital. Its reported performance and limited cell-block receptor comparisons do not supply universal sensitivity for every organ, team or ancillary assay.",
+        "Fine-needle aspiration collects cells or fluid from a documented site for slides or a cell block and cytologic interpretation. The report gives a diagnostic category, adequacy and any assay-specific measurements. Preparation and ancillary tests consume the finite recovered material. Cellularity and suitability depend on the organ, laboratory and intended test; too few relevant cells, blood dilution, poor preservation or a missed target can limit the result. Clinical cytology and each ancillary assay need appropriate preparation and validation. Neither the aspirate nor a research performance estimate maps unsampled tissue boundaries, the entire lesion or every lymph node."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "dcis",
+      "kind": "term",
+      "name": "Ductal carcinoma in situ (DCIS)",
+      "aka": [
+        "DCIS",
+        "ductal carcinoma in situ",
+        "ductal in situ"
+      ],
+      "tldr": "Ductal carcinoma in situ means abnormal cancer cells remain within breast ducts, without invasion identified in that component.",
+      "summary": "Ductal carcinoma in situ (DCIS) and invasive breast carcinoma describe different tissue relationships. They can coexist, so each component must remain visible in the report. DCIS grade describes microscopic appearance; staging describes extent under a specified system. Individual management requires the complete diagnosis and treatment context, rather than a fixed progression probability inferred from the name.\n\nNCI's Breast Cancer Treatment PDQ estimates that DCIS accounts for about 25% of invasive and noninvasive breast tumours detected by screening. Treatment choices include breast-conserving surgery, usually considered with radiotherapy, or mastectomy; endocrine risk reduction depends on hormone-receptor status and the full clinical setting. Screening detection and the name DCIS do not establish one fixed probability of progression.\n\nTAM-01 studied tamoxifen 5 mg daily for three years against placebo after surgery, with or without irradiation, in 500 women with breast intraepithelial neoplasia; 69% had DCIS. Its 10-year report found fewer breast events in that mixed study population. It did not compare 5 mg with standard-dose tamoxifen. Active-monitoring programmes ask a different question: COMET's two-year noninferiority result concerned selected women aged at least 40 with hormone-receptor-positive, grade 1 or 2 DCIS, and does not establish long-term equivalence for all DCIS. LORD separately studies active surveillance in selected screen-detected low-risk DCIS. LORIS was developed to compare surgery with active monitoring in selected low-risk DCIS; its protocol describes a research question, not a result establishing safety for every lesion.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ductal_carcinoma_in_situ",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Ductal_carcinoma_in_situ"
+        },
+        {
+          "label": "NCI ductal carcinoma in situ",
+          "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Gusterson et al. 1982: myoepithelial cells and basement membrane",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/"
+        },
+        {
+          "label": "TAM-01 10-year follow-up (Lazzeroni 2023)",
+          "url": "https://doi.org/10.1200/JCO.22.02900"
+        },
+        {
+          "label": "COMET randomised trial (Hwang 2025)",
+          "url": "https://doi.org/10.1001/jama.2024.26698"
+        },
+        {
+          "label": "LORD study registry",
+          "url": "https://clinicaltrials.gov/study/NCT02492607"
+        },
+        {
+          "label": "LORIS trial development (Francis 2015)",
+          "url": "https://doi.org/10.1016/j.ejca.2015.07.017"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "carcinoma-in-situ",
+        "lumpectomy",
+        "active-surveillance",
+        "myoepithelial-cells-and-basement-membrane",
+        "breast-cancer-follow-up-after-treatment"
+      ],
+      "cancers": [
+        "breast-hr-positive"
+      ],
+      "sections": [
+        "early-detection"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "tamoxifen"
+      ],
+      "companies": [],
+      "institutions": [
+        "cgc-precision"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Ductal carcinoma in situ describes malignant epithelial cells within the ductal tissue boundary, without invasion identified in that component. An invasive component can coexist in the same specimen. Reading DCIS present does not cancel a separately reported invasive diagnosis. DCIS may be called precancer, noninvasive breast cancer or stage 0 disease; these terms retain the anatomical distinction and do not guarantee that every lesion has the same future risk.",
+        "Grade and extent are separate observations. High-grade DCIS does not establish distant spread. AJCC eighth-edition stage 0 is Tis N0 M0; an associated invasive component requires its own staging assessment. A study confined to DCIS does not establish treatment benefit in invasive triple-negative disease.",
+        "Mammographic abnormalities can prompt evaluation, but tissue examination establishes the diagnosis. Preserve the component, specimen and full diagnosis. Neither a schematic boundary nor one marker is a diagnostic test, and the phrase in situ does not predict every lesion's future behaviour.",
+        "In the AJCC eighth-edition tables reproduced by NCI, stage 0 is Tis N0 M0. Tis includes DCIS and nipple Paget disease without associated invasive carcinoma or DCIS in the underlying breast parenchyma. When underlying parenchymal carcinoma is present, its characteristics determine classification. A fictional report of invasive carcinoma with associated high-grade DCIS is therefore not stage 0 merely because DCIS is present.",
+        "CAP records the invasive and DCIS components separately. The surrounding myoepithelial cells are living cells; basement membrane is extracellular matrix, including proteins studied by Gusterson and colleagues. Their detection is not a stand-alone invasion test. Drawing colours, simplified counts and sizes represent locations rather than grade, stage or an inevitable progression."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "er-status",
+      "kind": "biomarker",
+      "name": "ER status (oestrogen receptor by IHC)",
+      "aka": [
+        "ER status",
+        "ER-positive",
+        "ER positive",
+        "ER+",
+        "ER-negative",
+        "estrogen receptor status",
+        "oestrogen receptor status",
+        "ER low positive",
+        "ER >= 1%",
+        "ER 1-10%"
+      ],
+      "tldr": "ER status reports oestrogen-receptor staining in tumour-cell nuclei. In invasive breast cancer, at least 1% is positive; 1% to 10% is ER-low positive, with limited evidence about endocrine-treatment benefit.",
+      "summary": "The oestrogen receptor is an intracellular protein involved in responses to oestrogen and regulation of gene expression. A clinical ER result measures receptor staining in identified tumour-cell nuclei, not the amount of oestrogen in blood or every downstream signal.\n\nThe ASCO/CAP invasive-breast guideline uses validated immunohistochemistry: at least 1% stained tumour-cell nuclei is positive, below 1% is negative, and 1% to 10% is reported as ER-low positive. These cancers are heterogeneous and can have features resembling ER-negative disease, but they remain ER-positive. Limited evidence suggests possible endocrine benefit, so the category supports consideration of endocrine treatment rather than a guaranteed response or a treatment mandate.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "ASCO/CAP estrogen and progesterone receptor testing guideline, 2020 update (Allison et al., J Clin Oncol)",
+          "url": "https://doi.org/10.1200/JCO.19.02309"
+        },
+        {
+          "label": "UniProt: P03372",
+          "url": "https://www.uniprot.org/uniprotkb/P03372/entry"
+        },
+        {
+          "label": "nci hormone therapy",
+          "url": "https://www.cancer.gov/types/breast/treatment/hormone-therapy"
+        },
+        {
+          "label": "cap er pr summary",
+          "url": "https://www.cap.org/wp-content/uploads/documents/erpgr_summaryrecommendations.pdf"
+        },
+        {
+          "label": "cap er pr guideline",
+          "url": "https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/"
+        },
+        {
+          "label": "RCPath G148 breast dataset, version 3 (2024)",
+          "url": "https://www.rcpath.org/asset/D255F34C-176A-490D-9B5A7D58AC85F3A6/"
+        }
+      ],
+      "tags": [
+        "biomarker",
+        "hormone-receptor"
+      ],
+      "related": [
+        "pr-status",
+        "ki-67-index",
+        "esr1-mutation-ctdna"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "breast-cancer",
+        "hr-positive-early-high-risk",
+        "hr-positive-metastatic-post-cdk46",
+        "endometrial"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "tamoxifen",
+        "letrozole",
+        "fulvestrant",
+        "palbociclib",
+        "ribociclib",
+        "abemaciclib",
+        "elacestrant",
+        "alpelisib",
+        "capivasertib"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hormone-receptor-status",
+        "ihc",
+        "serd"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Receptor presence is like having machinery able to receive a message; it does not show equal signalling in every cell or equal drug sensitivity. Oestrogen binding can influence gene programmes, while endocrine treatments interfere with hormone production or action. This differs from menopausal hormone replacement. ER is not the same observation as the cell-surface HER2 receptor, and clinical nuclear staining is not a statement that the protein can exist only in that location.",
+        "The measurement route is tissue, identification of invasive tumour cells, a validated nuclear stain, review of controls, percentage and intensity, then interpretation. Keep the specimen/block and collection context; IHC uses tissue sections. Percentage counts positive nuclei among the intended tumour cells, while intensity describes stain strength. Poor preservation, artefact or failed controls can prevent interpretation: uninterpretable does not mean negative. A bulk RNA result does not replace validated clinical IHC. ASCO/CAP recommends ER testing in DCIS to assess potential endocrine risk reduction, with PR optional there; invasive and in-situ contexts should be stated.",
+        "For a fictional invasive tumour with adequate controls, ER staining in 4% of tumour-cell nuclei is ER-low positive. It is not 4% predicted treatment benefit and is not rounded down to ER-negative because an RNA classifier says basal-like. Preserve the stain denominator, intensity and category alongside that separate expression result. If controls fail, resolve the testing problem before assigning a negative category. ER and PR results remain separate observations."
+      ],
+      "target": "estrogen-receptor",
+      "measurement": "ihc-score",
+      "scoringRule": {
+        "text": "ER-positive: at least 1 percent of tumour cell nuclei stain positive by IHC. ER low positive: 1 to 10 percent. ER-negative: less than 1 percent or no staining, with internal and external controls behaving as expected.",
+        "quote": "ER-positive... if ≥ 1% of tumor cell nuclei are immunoreactive",
+        "source": "https://doi.org/10.1200/JCO.19.02309",
+        "sourceLabel": "ASCO/CAP estrogen and progesterone receptor testing guideline, 2020 update (Allison et al., J Clin Oncol)"
+      },
+      "thresholds": [
+        {
+          "value": "ER-positive (guideline >= 1% nuclei)",
+          "drugId": "elacestrant",
+          "cancerId": "breast-hr-positive",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa66ae5c-2bd2-4444-8178-b55651e054ef",
+          "quote": "ORSERDU is indicated for the treatment of postmenopausal women or adult men with estrogen receptor (ER)-positive, human epidermal growth factor receptor 2 (HER2)‑negative, ESR1 -mutated advanced or metastatic breast cancer",
+          "status": "current"
+        },
+        {
+          "value": "Hormone receptor-positive (guideline >= 1% nuclei)",
+          "drugId": "alpelisib",
+          "cancerId": "breast-hr-positive",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b",
+          "quote": "PIQRAY is indicated in combination with fulvestrant for the treatment of adults with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, PIK3CA-mutated, advanced or metastatic breast cancer",
+          "status": "current"
+        },
+        {
+          "value": "Hormone receptor-positive (guideline >= 1% nuclei)",
+          "drugId": "capivasertib",
+          "cancerId": "breast-hr-positive",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d698c106-2322-401e-b738-cbd83c843ecf",
+          "quote": "in combination with fulvestrant for the treatment of adult patients with hormone receptor (HR)-positive, human epidermal growth factor receptor 2 (HER2)-negative, locally advanced or metastatic breast cancer with one or more PIK3CA/AKT1/PTEN -alterations",
+          "status": "current"
+        }
+      ],
+      "definedBy": {
+        "label": "ASCO/CAP estrogen and progesterone receptor testing guideline, 2020 update (Allison et al., J Clin Oncol)",
+        "url": "https://doi.org/10.1200/JCO.19.02309"
+      },
+      "tests": [
+        "oncotype-dx-breast"
+      ],
+      "assays": [
+        "er-pr-ventana-confirm",
+        "er-pr-dako",
+        "er-pr-leica"
+      ],
+      "companionDiagnostics": [],
+      "forPatient": "ER-positive means at least 1% of the tumour-cell nuclei stained for the oestrogen receptor under a suitable test. A 1% to 10% result is ER-low positive. Endocrine treatment may help, but evidence is limited for this low group and the result alone does not choose a treatment. The percentage is the share of stained cells, not the chance that treatment will work."
+    },
+    {
+      "id": "extranodal-extension",
+      "kind": "term",
+      "name": "Extranodal extension (ENE)",
+      "aka": [
+        "ENE",
+        "extranodal extension",
+        "extracapsular extension",
+        "extracapsular spread",
+        "extracapsular nodal spread",
+        "ECS",
+        "ENE-positive",
+        "ENE-negative",
+        "pathological extranodal extension",
+        "radiological extranodal extension",
+        "rENE",
+        "major ENE",
+        "minor ENE"
+      ],
+      "tldr": "Extranodal extension describes cancer growing beyond a lymph node capsule into surrounding tissue. Its staging and treatment implications depend on the cancer and clinical setting.",
+      "summary": "What is measured: growth of nodal metastasis through the lymph node capsule into perinodal tissue. How: the pathologist's examination of the neck dissection specimen, graded in AJCC 8th edition as major (more than 2 mm beyond the capsule or soft-tissue deposit) or minor (2 mm or less), with pathological N stage for HPV-negative head and neck and cutaneous squamous cell carcinomas upstaged to pN2a or pN3b by its presence; radiological extranodal extension on CT or MRI (irregular capsule, infiltration of fat, matted nodes) is moderately accurate and is not used to stage HPV-positive disease. What a positive result changes: in the pooled analysis of EORTC 22931 and RTOG 9501, extranodal extension and positive margins were the two findings for which adding cisplatin to postoperative radiotherapy (60 to 66 Gy) improved survival, so either mandates chemoradiotherapy in head and neck squamous cell carcinoma; in HPV-positive oropharyngeal cancer its prognostic weight is smaller and the ECOG 3311 and PATHOS trials test whether chemotherapy can be omitted after transoral surgery; in breast cancer it provides additional regional tissue information, with observational outcome associations rather than a universal radiation rule. Other cancer sites require their own evidence and guidance. Where it matters: oral cavity, oral tongue and buccal cancers, HPV-negative and HPV-positive head and neck cancer, salivary duct and mucoepidermoid carcinoma.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36030639/"
+        },
+        {
+          "label": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33953240/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "lymph-node",
+        "resection-margins",
+        "cisplatin",
+        "radiotherapy",
+        "hpv-status",
+        "depth-of-invasion",
+        "perineural-invasion"
+      ],
+      "cancers": [
+        "oral-cavity-cancer",
+        "oral-tongue-cancer",
+        "buccal-mucosa-cancer",
+        "hpv-negative-head-and-neck-cancer",
+        "hpv-positive-oropharyngeal-cancer",
+        "salivary-duct-carcinoma",
+        "mucoepidermoid-carcinoma",
+        "breast-cancer"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Extranodal extension means a nodal cancer deposit extends through the capsule into neighbouring soft tissue, which can include axillary fat. It is distinct from tumour in a vessel lumen, tumour at a specimen cut edge and the nodal deposit itself. A lymph-node capsule is not a surgical margin.",
+        "Regional nodal ENE does not by itself establish distant metastasis, M1, stage IV or a universal next treatment. A cohort association with subsequent outcomes is prognostic evidence, not proof that a particular operation or radiation strategy benefits every person with ENE.",
+        "Report the observed presence and any measurable extent with its method and millimetre units. CAP permits descriptive reporting and optional size measurement, with no proven superior direction. The whole metastasis diameter and ENE extent are different parameters. Disrupted or replaced capsule, vascular involvement and treatment changes can complicate interpretation.",
+        "Tang and colleagues' 2022 survey of 70 pathologists documented measurement variation and interpretive difficulties; it was not a diagnostic-performance trial. In Ma and colleagues' retrospective 402-case axillary-dissection cohort, ENE was independently associated with disease recurrence-free survival (adjusted HR 1.745, 95% CI 1.152 to 2.642). The adjusted overall-survival result was not significant (HR 1.639, 95% CI 0.824 to 3.260), despite the univariable association. Perpendicular 2-mm and circumferential 3-mm cutoffs did not show significant prognostic value. These are cohort results, not universal thresholds.",
+        "Keep four questions separate: is a nodal deposit present, has it crossed the capsule into soft tissue, is tumour present inside a vessel lumen, and does tumour reach a surgical cut edge? One finding does not establish the other three. CAP permits recording the larger ENE extent preferentially when measuring; evidence has not established one superior measurement direction.",
+        "Head-and-neck ENE extent conventions using 2 mm to distinguish minor from major extension and evidence for treatment in those cancers must not be transferred into a breast ENE threshold or treatment mandate. Breast cohort prognosis does not establish that a particular radiation or chemotherapy strategy benefits every person with ENE."
+      ],
+      "category": "Biomarkers",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "grade-stage-receptor-breast",
+      "kind": "term",
+      "name": "Grade, stage and receptor status: three different things on one breast report",
+      "aka": [
+        "grade stage receptor",
+        "grade and stage and receptors",
+        "what my breast pathology report means",
+        "breast pathology report",
+        "grade versus stage breast",
+        "receptor status versus stage",
+        "three numbers on my report"
+      ],
+      "tldr": "Grade describes microscopic features, stage describes extent under a defined system, and receptor tests describe measured markers. Together with other evidence, these findings inform treatment without guaranteeing a drug response.",
+      "summary": "Histological type, grade, receptor results and anatomical stage answer different questions. Nottingham grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Grade 3 is not stage III, and a Ki-67 index is a stained-nucleus fraction rather than an exact growth rate.\n\nClinical breast staging can use history, examination, imaging and biopsy evidence before surgery. Surgery-first pathological prognostic staging adds findings from removed breast tissue and nodes; it is not the same framework as post-neoadjuvant ypTNM. Some prognostic systems include grade and receptors alongside anatomical extent. Retain the system, edition and treatment setting rather than deriving a missing stage from grade alone or requiring surgery in every clinical setting.\n\nER, PR and HER2 results help define treatment questions within their tested disease setting. A positive receptor does not promise response, and neither grade nor stage alone determines treatment intensity or benefit. Retain the individual assays, controls and final integrated interpretation. A stromal TIL percentage and a Ki-67 percentage use different denominators and cannot stand in for receptor status, stage or a personal outcome probability.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "NICE NG101: early and locally advanced breast cancer, diagnosis and management (published 18 July 2018, last updated 14 April 2025)",
+          "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations"
+        },
+        {
+          "label": "Allison et al., Journal of Clinical Oncology 2020;38:1346 to 1366: oestrogen and progesterone receptor testing in breast cancer, ASCO/CAP guideline update",
+          "url": "https://doi.org/10.1200/jco.19.02309"
+        },
+        {
+          "label": "NCI: pathology report sections, final diagnosis and pending tests",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+        },
+        {
+          "label": "NCI: clinical and surgery-first pathological breast staging",
+          "url": "https://www.cancer.gov/types/breast/stages"
+        },
+        {
+          "label": "CAP: breast biomarker template, September 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Elston and Ellis: Nottingham grading study (1991)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1757079/"
+        },
+        {
+          "label": "Wolff et al.: combined HER2 IHC and ISH interpretation (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29846122/"
+        },
+        {
+          "label": "Salgado et al.: stromal TIL area denominator (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25214542/"
+        },
+        {
+          "label": "Nielsen et al.: Ki67 assessment recommendations (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "grade-vs-stage",
+        "tumour-grade",
+        "cancer-stage",
+        "hormone-receptor-status",
+        "her2-positive"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc",
+        "invasive-breast-carcinoma-no-special-type"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "nottingham-grade",
+        "tnm-breast-cancer-editions",
+        "er-pr-scoring-breast",
+        "her2-testing-uk-breast",
+        "nottingham-prognostic-index",
+        "ajcc-prognostic-stage-breast",
+        "ki-67-in-tnbc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Consider a fictional pretreatment core with invasive carcinoma of no special type, Nottingham components 3 + 3 + 3 = 9, ER 0%, PR 0%, HER2 IHC 2+ with a completed integrated ISH-negative interpretation, Ki-67 about 80%, stromal TILs 50%, and no DCIS seen. The assigned grade is 3. The specified final receptor results fit the ordinary triple-negative and HER2-low categories; IHC 2+ alone would still need workup. This is an invented interpretation exercise, not a real specimen or evidence of eligibility for a medicine.",
+        "In that example, Ki-67 about 80% refers to eligible stained tumour-cell nuclei, while sTILs 50% estimates the defined infiltrate within eligible stromal area. Neither is an absolute immune-cell count, a daily growth rate or a forecast. No DCIS seen concerns the sampled core. The findings do not complete stage or show absence elsewhere. In a second fictional adequately controlled report, ER 5%, PR 0% and HER2 IHC 0 mean ER-low-positive disease, not TNBC. ASCO/CAP acknowledges limited endocrine-benefit evidence in the 1% to 10% group; that uncertainty does not make the ER result negative."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "her2-low",
+      "kind": "term",
+      "name": "HER2-low and HER2-ultralow",
+      "aka": [
+        "HER2-low",
+        "HER2 low",
+        "HER2-ultralow",
+        "HER2 ultralow",
+        "HER2-ultra-low",
+        "HER2 IHC 1+",
+        "IHC 1+",
+        "IHC 2+ ISH-negative",
+        "HER2 IHC 0",
+        "HER2-zero",
+        "HER2 0",
+        "HER2 immunohistochemistry score",
+        "HER2-low status"
+      ],
+      "tldr": "HER2-low and HER2-ultralow describe particular staining categories used in breast-cancer studies and specified treatment labels. They do not mean that everyone in a category has the same biology or qualifies for the same treatment.",
+      "summary": "HER2-low generally denotes IHC 1+ or IHC 2+ with a negative ISH result in the relevant breast-cancer context. HER2-ultralow denotes the IHC 0 pattern with membrane staining used in DESTINY-Breast06 and the corresponding U.S. ENHERTU label. These are measured categories with assay and reporting context. The September 2026 CAP template records the membrane-staining pattern as negative score 0+, separately from negative score 0 with no detected membrane staining.\n\nDESTINY-Breast04 studied previously chemotherapy-treated HER2-low metastatic disease, including hormone receptor-positive and hormone receptor-negative participants. DESTINY-Breast06 studied hormone receptor-positive disease after endocrine therapy without prior chemotherapy for metastatic disease; its primary comparison concerned HER2-low disease and its ultralow analysis was exploratory. Neither trial establishes that every low-expression category is one biological disease or validates a cutoff for every ADC. The U.S. ENHERTU HER2-low and HER2-ultralow breast indications require an FDA-authorized HER2 test and unresectable or metastatic disease. One use is HR-positive HER2-low or HER2-ultralow disease that has progressed on one or more endocrine therapies in the metastatic setting. A separate HER2-low use requires prior chemotherapy in the metastatic setting, or recurrence during or within six months after adjuvant chemotherapy. The latter low-expression use does not require HR-positive disease; the ultralow indication does. The score alone does not establish eligibility or individual benefit.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/HER2",
+      "links": [
+        {
+          "label": "NCI Dictionary of Cancer Terms: HER2-low breast cancer",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/her2-low-breast-cancer"
+        },
+        {
+          "label": "Quinn et al., Histopathology 2026;89(2):199 to 218: World Health Organization classification of tumours of the breast, 6th edition 2026",
+          "url": "https://doi.org/10.1111/his.70149"
+        },
+        {
+          "label": "CAP breast biomarker template, September 2026: specimen, scoring method and interpretation",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Current U.S. ENHERTU prescribing information: indications and patient selection",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+        },
+        {
+          "label": "FDA: current companion diagnostic intended uses",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "DESTINY-Breast04 primary report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35665782/"
+        },
+        {
+          "label": "DESTINY-Breast06 primary report",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39282896/"
+        },
+        {
+          "label": "Historical HER2 reader-concordance study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35113160/"
+        },
+        {
+          "label": "cap her2 recommendations 2023",
+          "url": "https://www.cap.org/wp-content/uploads/documents/her2_breast_update_sor_2023.pdf?download=true"
+        },
+        {
+          "label": "Denkert et al.: pooled assay-defined groups from four neoadjuvant trials (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34252375/"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [],
+      "cancers": [
+        "tnbc",
+        "breast-hr-positive"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "trastuzumab-deruxtecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "her2-testing-uk-breast",
+        "who-breast-classification"
+      ],
+      "trials": [
+        "destiny-breast04",
+        "destiny-breast06"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In a historical study of 18 pathologists reading 170 selected biopsies, concordance in the 0 versus 1+ range was lower than for 2+ versus 3+ (Fernandez 2022). That is a result of that study, not the probability that an individual report is wrong. Tissue, sampling time, reader and assay matter; a second review or a different specimen needs clinical and laboratory context and does not guarantee a changed result or access to a medicine.",
+        "HER2-low generally means IHC 1+ or 2+/ISH-negative in the specified breast-cancer context. The faint incomplete pattern historically within IHC 0 and described as ultralow is separately recorded as negative 0+ in the September 2026 CAP template. Low expression is not the same as HER2 overexpression/amplification and is not necessarily one biological disease. Keep the actual test, integrated result, sample date and treatment setting; one score does not promise response to every antibody-drug conjugate.",
+        "Denkert's 2021 pooled analysis included 2,310 patients with HER2-non-amplified primary breast cancer treated in four prospective neoadjuvant chemotherapy trials. HER2-low meant IHC 1+ or 2+/ISH-negative. Among the 1,162 hormone receptor-negative tumours, 395 were HER2-low, about 34.0%. That is a tested category in this selected population, not a different HER2 protein, a universal TNBC prevalence or an independent treatment-eligibility rule.",
+        "Expression and clinical eligibility are different from organ-risk assessment. The U.S. ENHERTU label calls for assessment of left-ventricular ejection fraction before treatment and at regular intervals during treatment as clinically indicated. It does not turn a HER2 score into a personal monitoring schedule or establish that a tumour-expression category predicts cardiac injury.",
+        "The 2026 WHO review describes changes in HER2 reporting after DESTINY-Breast04 and DESTINY-Breast06. The September 2026 CAP template distinguishes score 0 with no detected membrane staining from score 0+ with faint incomplete membrane staining in 10 percent or fewer tumour cells. The template itself is not required for accreditation. The reporting category, the drug label and an individual’s clinical eligibility are separate; not every trace-staining result in every breast-cancer setting has the same treatment implication."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "her2-positive",
+      "kind": "term",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified)",
+      "aka": [
+        "HER2-positive",
+        "HER2 positive",
+        "HER2+",
+        "HER2-negative",
+        "HER2 negative",
+        "HER2−",
+        "IHC 3+",
+        "IHC 2+",
+        "HER2 IHC",
+        "HER2-amplified",
+        "HER2 amplification",
+        "ISH-amplified",
+        "HER2 overexpression",
+        "HER2-overexpressing",
+        "HER2-mutant",
+        "HER2 status",
+        "ASCO/CAP"
+      ],
+      "tldr": "HER2-positive breast cancer has an integrated result showing HER2 protein overexpression or gene amplification under the applicable testing rules. The result is separate from eligibility for a specific medicine.",
+      "summary": "Human epidermal growth factor receptor 2 (HER2) is a cell-surface receptor protein encoded by ERBB2. Gene amplification, protein abundance measured by immunohistochemistry and RNA expression are different observations. In invasive breast cancer, HER2 status integrates the IHC pattern and indicated in-situ hybridisation workup under the applicable guideline. IHC 2+ is equivocal, not half-positive or a completed negative result.\n\nA HER2-positive result and a HER2-enriched RNA subtype are not interchangeable. HER2-low or ultralow staining remains negative for overexpression/amplification in the relevant breast context, while some specified treatment settings use low expression to select an antibody-drug conjugate. A signalling receptor can also serve as a delivery address; neither the label nor one staining category proves pathway dependence, eligibility or individual drug benefit.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/HER2",
+      "links": [
+        {
+          "label": "cap her2 template 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "cap her2 recommendations 2023",
+          "url": "https://www.cap.org/wp-content/uploads/documents/her2_breast_update_sor_2023.pdf?download=true"
+        },
+        {
+          "label": "Abbott PathVysion: probe identity and principles of procedure",
+          "url": "https://www.molecular.abbott/content/dam/add/molecular/products/oncology/pathvysion-her-2-dna-probe-kit/30-608377.pdf"
+        },
+        {
+          "label": "RCPath G148 breast dataset, version 3 (2024)",
+          "url": "https://www.rcpath.org/asset/D255F34C-176A-490D-9B5A7D58AC85F3A6/"
+        },
+        {
+          "label": "nci breast biomarkers",
+          "url": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests"
+        },
+        {
+          "label": "Bastien RR et al. (2012): PAM50 breast cancer subtyping by RT-qPCR and concordance with standard clinical molecular markers",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23035882/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/HER2"
+        },
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "Rakha et al., Journal of Clinical Pathology 2023;76:217 to 227: UK recommendations for HER2 assessment in breast cancer, an update",
+          "url": "https://doi.org/10.1136/jcp-2022-208632"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "her2-low",
+        "fish",
+        "hormone-receptor-status",
+        "ihc",
+        "her2-testing-uk-breast"
+      ],
+      "cancers": [
+        "breast-her2-positive",
+        "gastric",
+        "nsclc"
+      ],
+      "sections": [
+        "targeted-therapy",
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [
+        "her2"
+      ],
+      "drugs": [
+        "trastuzumab",
+        "trastuzumab-deruxtecan",
+        "pertuzumab"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "her2-testing-uk-breast",
+        "receptor-conversion-breast"
+      ],
+      "trials": [
+        "katherine",
+        "aphinity"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The September 2026 CAP template distinguishes negative IHC 0 with no detected membrane staining from negative 0+ with faint, incomplete staining in at most 10% of tumour cells. IHC 1+ has faint incomplete staining in more than 10%. A common 2+ pattern is weak to moderate complete staining in more than 10%, but intense complete staining in at most 10% and some incomplete patterns also need workup. IHC 3+ requires intense complete membrane staining in more than 10% of a homogeneous contiguous invasive tumour-cell population. This abbreviated map does not replace the full rules for unusual patterns, artefacts and heterogeneity.",
+        "Tissue IHC and ISH use sections from an identified specimen/block. IHC reports a membrane pattern category; ISH uses nucleic-acid probes in tissue to assess gene copies. A dual-probe ISH report retains counted cells, mean HER2 signals per cell, mean CEP17 signals per cell and the HER2/CEP17 ratio. In the Abbott PathVysion assay, CEP17 probes an alpha-satellite sequence in chromosome 17's centromeric region. The ratio is dimensionless and differs from the mean HER2 count; neither alone substitutes for the integrated algorithm, concurrent IHC and indicated recounting. Keep preservation, controls and distinct tumour populations visible in the interpretation.",
+        "A drawing of a few cells can illustrate complete versus incomplete membrane staining and intensity, but it is not a counted field or a scoring standard. In a fictional comparison, the same faint incomplete pattern in at most 10% versus more than 10% changes 0+ to 1+ under the specified template; it does not establish drug eligibility. For another fictional completed report, IHC 2+, ratio 1.8, mean HER2 3.5 signals per cell and an integrated ISH-negative finding fit the HER2-negative, low-expression range. The ratio is not 1.8 copies and the example is not a complete algorithm or a medicine decision.",
+        "Read the measurement sequence as IHC pattern, ISH when indicated, integrated status, then a separate evidence and eligibility question. IHC 0 does not mean literally zero protein molecules. An ERBB2 mutation, amplification, RNA abundance, a HER2-enriched expression label and surface protein staining cannot stand in for one another. HER2-low staining can occur within receptor-defined TNBC. Method, setting and treatment-specific evidence remain necessary.",
+        "The RCPath UK breast dataset retains a different classification from ASCO/CAP for some dual-probe ISH group 2 cases: HER2/CEP17 ratio at least 2.0 with mean HER2 below 4 signals per cell. The UK dataset classifies these as positive. Under ASCO/CAP, concurrent IHC matters: IHC 3+ is positive, while IHC 2+ requires the specified recount and is negative if the same group persists; IHC 0 or 1+ is negative. Thus the US result is not uniformly negative from the ratio and copy number alone. The UK dataset asks for ratio and mean HER2 and CEP17 signals, with the guideline and specimen context retained."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "invasive-breast-carcinoma-no-special-type",
+      "kind": "cancer",
+      "name": "Invasive breast carcinoma of no special type (invasive ductal carcinoma)",
+      "aka": [
+        "Invasive ductal carcinoma",
+        "IDC",
+        "Invasive carcinoma of no special type",
+        "NST",
+        "Infiltrating ductal carcinoma",
+        "Invasive ductal carcinoma not otherwise specified",
+        "Invasive breast cancer",
+        "ordinary breast cancer",
+        "usual type breast cancer",
+        "no special type",
+        "NST breast cancer",
+        "IDC NST"
+      ],
+      "tldr": "Invasive carcinoma of no special type, still widely called invasive ductal carcinoma, is the ordinary form of breast cancer and by far the most common. The name means the tumour has no special pattern that would put it in one of the rarer types; everything on the main breast cancer page and its receptor subpages is written about this type unless it says otherwise.",
+      "summary": "The WHO classification uses invasive breast carcinoma of no special type for the large group of adenocarcinomas that cannot be classified as a special histological type; the 2019 edition keeps the term, treats the former medullary, oncocytic, lipid-rich, glycogen-rich, sebaceous and pleomorphic carcinomas as patterns within it, and grades it by the Nottingham system (Tan 2020). It is then divided clinically by oestrogen receptor, progesterone receptor and HER2 status and, in early disease, by genomic assays such as Oncotype DX, which is how the corpus's HR-positive, HER2-positive and triple-negative pages and their subpages are organised.\n\nHow it differs from its parent: it is not a subtype so much as the default; the special types on the sibling pages (lobular, tubular, mucinous, cribriform, papillary, secretory, adenoid cystic, apocrine, micropapillary, metaplastic, neuroendocrine) are defined against it and several carry a better or worse prognosis than grade-matched no special type disease.\n\nHow common: the most common type of breast cancer (Cancer Research UK); Cancer Research UK gives no percentage and this page does not estimate one.\n\nTreatment: entirely as the parent and its receptor pages describe (surgery, radiotherapy, endocrine therapy, chemotherapy, HER2-directed therapy and immunotherapy by receptor status and stage).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Invasive_carcinoma_of_no_special_type",
+      "links": [
+        {
+          "label": "Cancer Research UK: types of breast cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/types"
+        },
+        {
+          "label": "NCI PDQ: breast cancer treatment",
+          "url": "https://www.cancer.gov/types/breast/treatment"
+        },
+        {
+          "label": "Tan 2020, Histopathology: the 2019 WHO classification of tumours of the breast",
+          "url": "https://doi.org/10.1111/his.14091"
+        },
+        {
+          "label": "Ciriello 2015, Cell: comprehensive molecular portraits of invasive lobular breast cancer (TCGA)",
+          "url": "https://doi.org/10.1016/j.cell.2015.09.033"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI SEER breast histologies",
+          "url": "https://training.seer.cancer.gov/breast/types.html"
+        },
+        {
+          "label": "WHO/IARC breast tumour classification structure",
+          "url": "https://whobluebooks.iarc.who.int/structures/breast-tumours/"
+        },
+        {
+          "label": "Quinn et al., Histopathology 2026;89(2):199 to 218: World Health Organization classification of tumours of the breast, 6th edition 2026",
+          "url": "https://doi.org/10.1111/his.70149"
+        },
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        }
+      ],
+      "tags": [
+        "subtype-page",
+        "wave4",
+        "breast"
+      ],
+      "related": [
+        "breast-cancer",
+        "breast-hr-positive",
+        "breast-her2-positive",
+        "tnbc",
+        "invasive-lobular-carcinoma",
+        "medullary-pattern-breast-carcinoma",
+        "ductal-carcinoma-in-situ"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "oncotype-dx"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "who-breast-classification",
+        "nottingham-grade",
+        "grade-stage-receptor-breast",
+        "terminal-duct-lobular-unit",
+        "breast-tumour-size-on-the-report"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Invasive carcinoma has entered surrounding tissue; distant metastasis is a separate finding. No special type (NST), commonly called invasive ductal carcinoma, is a histological category for invasive breast carcinoma without the defining morphology of a special type. NST does not mean an unknown primary or an absence of molecular features.",
+        "Histological type, Nottingham grade, receptor results and stage describe different axes. NST alone establishes neither triple-negative status nor a molecular subtype or prognosis. An associated DCIS component does not negate invasion.",
+        "Diagnosis integrates morphology with supporting immunohistochemistry when needed. A myoepithelial stain is not a universal binary invasion test. Limited biopsy may not show the entire lesion; preserve specimen and treatment timing when a larger resection reveals more components. Ductal naming does not prove ancestry in a particular large duct.",
+        "Carcinoma is an epithelial malignancy. Invasive ductal carcinoma and infiltrating ductal carcinoma are common names corresponding to the CAP category invasive carcinoma of no special type (ductal); retain the full report wording. A DCIS-only sample has not demonstrated invasion in that sample, while associated DCIS does not cancel separately identified invasion.",
+        "SEER's 2013 histology inquiry connects ductal NOS terminology with no special type; the WHO/IARC classification structure lists NST as a category, and CAP supplies current reporting terminology. These naming references do not replace morphology. A diagram comparing in situ and invasive arrangements shows a spatial distinction, not a claim that every lesion must pass through those scenes.",
+        "This is the default, and the default is where the receptor result takes over. Invasive carcinoma of no special type is defined by not having a special pattern, so once a report says no special type, or invasive ductal carcinoma, everything that follows is decided by the grade, the stage and the receptors rather than by the type. The sixth edition of the WHO classification (April 2026) moves two groups into this category that used not to be here: mucinous carcinomas that are high grade, oestrogen receptor negative or HER2 positive become carcinoma of no special type with mucin production, and the unified neuroendocrine model the fifth edition applied to the breast is abandoned, with routine neuroendocrine staining of ordinary carcinoma no longer recommended."
+      ],
+      "group": "breast",
+      "burden": "The most common type of breast cancer (Cancer Research UK); in the Cancer Genome Atlas breast series, 490 of 817 tumours were ductal (Ciriello 2015).",
+      "subtypes": [
+        "Invasive carcinoma of no special type, HR-positive and HER2-negative (luminal)",
+        "Invasive carcinoma of no special type, HER2-positive",
+        "Invasive carcinoma of no special type, triple-negative (basal-like)",
+        "Invasive carcinoma of no special type with medullary pattern (own page)",
+        "Oncocytic, lipid-rich, glycogen-rich and sebaceous patterns (rare, within no special type)"
+      ],
+      "biomarkers": [
+        "Oestrogen receptor, progesterone receptor and HER2",
+        "Nottingham grade",
+        "Ki-67 and genomic assays (Oncotype DX and others) in early HR-positive disease"
+      ],
+      "standardOfCare": [
+        {
+          "setting": "All stages",
+          "approach": "Treated as the parent's receptor pages describe.",
+          "refs": [
+            "breast-cancer",
+            "breast-hr-positive",
+            "breast-her2-positive",
+            "tnbc",
+            "oncotype-dx"
+          ]
+        }
+      ],
+      "stateOfArt": [],
+      "history": [],
+      "pipeline": [],
+      "openProblems": [],
+      "parent": "breast-cancer"
+    },
+    {
+      "id": "ki-67-index",
+      "kind": "biomarker",
+      "name": "Ki-67 index (proliferation by IHC)",
+      "aka": [
+        "Ki-67",
+        "Ki67",
+        "Ki-67 index",
+        "Ki-67 labelling index",
+        "Ki-67 score",
+        "MIB-1 index",
+        "Ki-67 >= 20%",
+        "Ki-67 ≥20%",
+        "proliferation index"
+      ],
+      "tldr": "The Ki-67 index is the percentage of evaluated tumour-cell nuclei that stain for a protein associated with the active cell cycle.",
+      "summary": "Ki-67 immunohistochemistry reports the percentage of evaluated tumour-cell nuclei positive under the defined staining and scoring method. In gastroenteropancreatic neuroendocrine tumours the WHO classification grades G1 (< 3 percent), G2 (3 to 20 percent) and G3 (> 20 percent). The FDA's March 3, 2023 breast-cancer expansion removed the Ki-67 testing requirement for the specified high-risk HR-positive, HER2-negative adjuvant abemaciclib indication. Trial cohort definitions are distinct from that regulatory testing rule. The International Ki67 in Breast Cancer Working Group limited its 2021 clinical-utility conclusion to selected anatomically favourable ER-positive, HER2-negative breast cancers under standardised scoring, with prognosis assessment at 5 percent or less or 30 percent or more. These extremes are not universal thresholds for other cancers, methods or treatment decisions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Verzenio prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06"
+        },
+        {
+          "label": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/"
+        },
+        {
+          "label": "CAP breast biomarker template 1.6.2.0, September 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "FDA March 3, 2023 abemaciclib expansion",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy"
+        }
+      ],
+      "tags": [
+        "biomarker",
+        "proliferation"
+      ],
+      "related": [
+        "er-status",
+        "pr-status"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "hr-positive-early-high-risk",
+        "neuroendocrine",
+        "pancreatic-net",
+        "lung-net"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "abemaciclib"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "net-grade-ki67",
+        "proliferation",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Ki-67 is associated with active cell-cycle phases and is generally absent from resting G0 cells. Its immunohistochemical index is positive eligible tumour-cell nuclei divided by all eligible nuclei evaluated, expressed as a percentage. MIB-1 names an antibody. Staining intensity is not the denominator; 30 positive nuclei among 100 eligible nuclei gives 30% in that field.",
+        "Ki-67 is not a visible-mitosis count, a doubling time, a percentage growth per day, a recurrence probability or a complete Nottingham grade. A treatment-related decrease does not independently establish cell killing or patient benefit. RNA proliferation scores and protein immunostaining measure different features.",
+        "Sampling and aggregation change the estimate. With fictional fields containing 90 positive nuclei out of 900 and 50 out of 100, pooling gives 140/1000 = 14%; averaging the two field percentages gives 30%; selecting the second field gives 50%. These are different estimators. They do not reproduce the International Ki67 Working Group's calibrated, area-weighted global method.",
+        "Retain specimen, treatment time point, fixation, antibody/platform, counterstaining, controls, eligible nuclei and regional scoring rule. Poor visibility of negative nuclei can distort the denominator. The working group's weighted-global approach estimates areas with different staining levels and samples nuclei from those field types after calibration; it is not simply an unweighted hotspot average.",
+        "The 2021 working-group utility conclusion concerned anatomically favourable T1 to T2, N0 to N1, ER-positive, HER2-negative breast cancer under standardised methods, with limited prognosis use at the specified extremes. It did not establish a universal triple-negative treatment cutoff. CAP's September 2026 template treats breast Ki-67 testing as optional; do not transfer one assay's clinical rule to another cancer or setting.",
+        "The reviewed monarchE label defines cohort 1 by at least four positive axillary nodes, or one to three plus grade 3 or tumour size at least 50 mm. Cohort 1 was not defined by a mandatory Ki-67 threshold. Cohort 2 enrolled those not eligible for cohort 1 with one to three positive axillary nodes and centrally assessed Ki-67 at least 20% using MIB-1/Dako Omnis. The former regulatory testing requirement must not be mistaken for cohort 1 eligibility. This history is not a TNBC treatment rule.",
+        "An index is a snapshot of eligible nuclei in active cell-cycle phases. Net tumour growth also depends on cell loss and the duration of cell-cycle phases; the same index need not imply the same doubling time. Neither staining intensity nor percentage positive establishes a daily growth rate."
+      ],
+      "target": "mki67",
+      "measurement": "ihc-score",
+      "scoringRule": {
+        "text": "Percentage of tumour cell nuclei staining for Ki-67 (MIB-1), counted in the invasive tumour; in monarchE cohort 2 a score of 20 percent or more was required, measured centrally with the Ki-67 IHC MIB-1 pharmDx.",
+        "quote": "Breast tumor samples were tested at central sites using the Ki-67 IHC MIB-1 pharmDx (Dako Omnis) assay to establish if the Ki-67 score was ≥20%.",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+        "sourceLabel": "Verzenio prescribing information (clinical studies section)"
+      },
+      "thresholds": [
+        {
+          "value": "Ki-67 >= 20% (2021 adjuvant approval, requirement removed March 2023)",
+          "drugId": "abemaciclib",
+          "cancerId": "hr-positive-early-high-risk",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+          "quote": "To be enrolled in cohort 2, patients had to have 1-3 pALN and Ki-67 score ≥20%.",
+          "status": "historic",
+          "note": "The current label no longer restricts adjuvant abemaciclib by Ki-67; the threshold is kept as the historic 2021 approval condition."
+        }
+      ],
+      "definedBy": {
+        "label": "WHO Classification of Tumours, Digestive System Tumours, 5th edition (neuroendocrine grading by Ki-67)",
+        "url": "https://tumourclassification.iarc.who.int/"
+      },
+      "tests": [],
+      "assays": [
+        "ki67-mib1"
+      ],
+      "companionDiagnostics": [],
+      "forPatient": "Ki-67 measures the share of evaluated tumour nuclei staining for an active-cell-cycle protein. It is not a direct growth speed or a stand-alone estimate of treatment benefit. Its meaning depends on the cancer, sample and scoring method."
+    },
+    {
+      "id": "nottingham-grade",
+      "kind": "term",
+      "name": "Nottingham grade (breast cancer grade 1, 2 and 3)",
+      "aka": [
+        "Nottingham grade",
+        "Nottingham grading system",
+        "Nottingham histological grade",
+        "Elston-Ellis grade",
+        "Elston and Ellis",
+        "Bloom-Richardson",
+        "Bloom and Richardson",
+        "Scarff-Bloom-Richardson",
+        "SBR grade",
+        "breast cancer grade",
+        "grade 1 breast cancer",
+        "grade 2 breast cancer",
+        "grade 3 breast cancer",
+        "tubule formation",
+        "nuclear pleomorphism",
+        "mitotic count",
+        "histological grade breast"
+      ],
+      "tldr": "Nottingham grade combines three microscopic feature scores into grade 1, 2 or 3. It describes invasive breast tissue and does not by itself establish disease extent.",
+      "summary": "Nottingham histological grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 are grade 1, 6 to 7 grade 2 and 8 to 9 grade 3. CAP records component scores and the overall grade when grading is applicable; its template excludes microinvasion-only cases from grading. Mitotic assessment depends on a defined observation area and microscope calibration. In Elston and Ellis' 1991 Nottingham/Tenovus study, 1,831 of more than 2,200 patients with primary operable breast cancer were graded; grade 1 had better survival than grades 2 and 3 (P less than 0.0001). This observational prognostic evidence does not turn grade into stage or a treatment-benefit estimate.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Breast_cancer_classification",
+      "links": [
+        {
+          "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+          "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+        },
+        {
+          "label": "Elston and Ellis, Histopathology 1991;19:403 to 410: pathological prognostic factors in breast cancer, the value of histological grade, with long-term follow-up of 1,831 graded patients",
+          "url": "https://doi.org/10.1111/j.1365-2559.1991.tb00229.x"
+        },
+        {
+          "label": "Tan et al., Histopathology 2020: the 2019 WHO classification of tumours of the breast (5th edition)",
+          "url": "https://doi.org/10.1111/his.14091"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI tumour grade",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumour-grade",
+        "grade-vs-stage",
+        "tumour-differentiation",
+        "digital-pathology-ai"
+      ],
+      "cancers": [
+        "breast-cancer",
+        "invasive-breast-carcinoma-no-special-type",
+        "invasive-lobular-carcinoma",
+        "tnbc",
+        "breast-hr-positive"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "nottingham-prognostic-index",
+        "grade-stage-receptor-breast",
+        "tumour-grade",
+        "breast-tumour-size-on-the-report",
+        "who-breast-classification"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Grade is not the grade of a side effect. A treatment side effect is also given a grade, from 1 to 5, on a completely separate scale (see `toxicity-grade`). A grade 3 cancer and a grade 3 side effect have nothing to do with each other.",
+        "Nottingham grading of invasive breast carcinoma combines tubule formation, nuclear pleomorphism and recognisable mitotic figures. Each receives 1 to 3 points: totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Thus assigned components 2, 3 and 3 sum to 8, grade 3; the sum is not a percentage.",
+        "Mitotic scoring uses ten consecutive high-power fields in the most mitotically active region, with field size calibrated for the microscope. Count recognisable division, excluding dark, fragmented or apoptotic nuclei. Equal raw counts over different observation areas need not receive the same score. Ki-67 staining does not replace the mitotic component.",
+        "Histological type describes morphology, grade scores microscopic features, and anatomical stage describes extent. Grade 3 does not mean stage III, low grade does not mean benign, and invasive Nottingham grading differs from DCIS nuclear grading. Grade can contribute to prognostic staging without becoming another measure of spread.",
+        "Retain the biopsy or resection, tissue region and treatment time point when comparing grades. Heterogeneity, limited tissue and treatment effects can restrict comparison. One section does not represent every tumour region, and grade alone supplies neither nodal/distant status nor a personal treatment-benefit estimate.",
+        "A nucleus contains a cell's genetic material. Nuclear pleomorphism means variation in nuclear size and appearance; a mitotic figure is a cell visibly dividing. These microscopic observations differ from Ki-67 protein staining, and a dark or dying nucleus should not simply be counted as division.",
+        "In CAP 4.11, tubule-formation scores 1, 2 and 3 correspond to greater than 75%, 10 to 75%, and less than 10% of tumour area forming glandular or tubular structures. Its nuclear descriptors compare with benign epithelial nuclei, alongside chromatin, nucleoli and variation in size and shape; a red-blood-cell diameter is not the comparator in that template. The reporting template marks microinvasion-only cases as not graded.",
+        "RCPath's November 2024 G148 dataset specifies the Nottingham method and recording its individual components for audit. It describes approximate grade 1:2:3 distributions of 2:3:5 in symptomatic and 3:5:2 in screen-detected cancers, as audit context rather than diagnostic quotas. It reports about 70% agreement between core-biopsy and corresponding surgical grades. Tubule assessment covers the tumour overall, while pleomorphism and mitoses use the worst area, often the periphery. If a higher-grade or morphologically different component in the resection was absent from the preoperative sample, the dataset recommends repeat receptor assays. These are source-specific reporting instructions, not an individual prognosis."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "olaparib",
+      "kind": "drug",
+      "name": "Olaparib",
+      "aka": [],
+      "tldr": "Olaparib was the first PARP inhibitor, and turned an inherited BRCA mutation from a risk factor into a drug target, including after surgery in breast cancer.",
+      "summary": "The current US Lynparza label separates tumour type, treatment line, biomarker and combination. Breast indications require germline BRCA: high-risk HER2-negative adjuvant treatment after chemotherapy, and HER2-negative metastatic treatment after chemotherapy with prior endocrine therapy or unsuitability in HR-positive disease. Ovarian first-line monotherapy maintenance requires germline or somatic BRCA; first-line maintenance with bevacizumab requires HRD-positive disease; recurrent maintenance requires germline or somatic BRCA. Pancreatic maintenance requires germline BRCA-mutated metastatic disease without progression after at least 16 weeks of first-line platinum. Prostate monotherapy covers germline or somatic HRR-gene-mutated mCRPC after enzalutamide or abiraterone; the abiraterone/prednisone combination is BRCA selected. The original 2014 ovarian later-line treatment indication was withdrawn, while these maintenance indications remain. Somatic-BRCA breast phase 2 activity does not create an approved adjuvant indication.",
+      "status": "approved",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Olaparib",
+      "links": [
+        {
+          "label": "FDA label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Olaparib"
+        },
+        {
+          "label": "NICE TA886: olaparib for adjuvant treatment of BRCA mutation-positive HER2-negative high-risk early breast cancer (10 May 2023)",
+          "url": "https://www.nice.org.uk/guidance/ta886"
+        },
+        {
+          "label": "NICE TA1040: olaparib for BRCA mutation-positive HER2-negative advanced breast cancer after chemotherapy (12 February 2025)",
+          "url": "https://www.nice.org.uk/guidance/ta1040"
+        },
+        {
+          "label": "Lynparza label (openFDA): OlympiA and OlympiAD study sections",
+          "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+        },
+        {
+          "label": "Kindler et al., POLO overall survival (JCO 2022)",
+          "url": "https://doi.org/10.1200/JCO.21.01604"
+        },
+        {
+          "label": "NICE TA887: olaparib for previously treated BRCA mutation-positive hormone-relapsed metastatic prostate cancer",
+          "url": "https://www.nice.org.uk/guidance/ta887"
+        },
+        {
+          "label": "NICE TA951: olaparib with abiraterone for untreated hormone-relapsed metastatic prostate cancer",
+          "url": "https://www.nice.org.uk/guidance/ta951"
+        },
+        {
+          "label": "Current FDA Lynparza label data",
+          "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22&limit=1"
+        },
+        {
+          "label": "FDA ovarian treatment withdrawal notice",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2024-03-26/pdf/2024-06299.pdf"
+        },
+        {
+          "label": "Lynparza US prescribing information: sections 1.4 and 14.4",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+        },
+        {
+          "label": "Tutt et al.: OlympiA initial report (2021)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/"
+        },
+        {
+          "label": "Geyer et al.: OlympiA overall-survival analysis (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36228963/"
+        },
+        {
+          "label": "Masuda et al.: CREATE-X population and comparison (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+        },
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Olaparib",
+          "url": "https://ncoda.org/pes/olaparib/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "brca-germline",
+        "brca-somatic",
+        "hrd-positive"
+      ],
+      "cancers": [
+        "ovarian",
+        "tnbc",
+        "breast-hr-positive",
+        "prostate",
+        "pancreatic",
+        "high-grade-serous-ovarian-cancer",
+        "prostate-mcrpc",
+        "tnbc-early",
+        "tnbc-metastatic",
+        "platinum-sensitive-ovarian-cancer",
+        "brca-palb2-pdac"
+      ],
+      "sections": [],
+      "technologies": [
+        "parp-inhibitor"
+      ],
+      "targets": [
+        "parp",
+        "brca"
+      ],
+      "drugs": [],
+      "companies": [
+        "astrazeneca",
+        "merck"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "prostate-hrr-eligibility",
+        "prostate-uk-drug-approvals"
+      ],
+      "trials": [
+        "nct01081951",
+        "nct01874353",
+        "nct02734004",
+        "nct02861573",
+        "nct03344965",
+        "nct03459846",
+        "nct03742895",
+        "nct03775486",
+        "nct04191135",
+        "nct04380636",
+        "nct04421963",
+        "nct04624204",
+        "nct04644289",
+        "nct04884360",
+        "nct05171816",
+        "nct05332561",
+        "nct05498155",
+        "nct05898399",
+        "nct06353386",
+        "nct06525298",
+        "nct06686030",
+        "nct06909825",
+        "nct06915025",
+        "nct07024784",
+        "olympia",
+        "nct03598257",
+        "nct06488378",
+        "partner",
+        "phoenix",
+        "nct06112379",
+        "polo"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-olympia-nejm-2021",
+        "paper-tung-tbcrc048-expansion-jco-2026",
+        "paper-andrade-neo-real-adjuvant-safety-2026",
+        "paper-couch-tnbc-germline-17-genes-jco-2015",
+        "paper-bedrosian-asco-sso-germline-testing-breast-jco-2024",
+        "paper-polo-olaparib-maintenance-gbrca-pancreatic-nejm-2019",
+        "paper-polo-overall-survival-olaparib-gbrca-pancreatic-jco-2022",
+        "paper-hu-germline-mutations-pancreatic-cancer-risk-jama-2018"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The US early-breast-cancer indication requires a deleterious or suspected deleterious germline BRCA variant, HER2-negative high-risk early disease, prior neoadjuvant or adjuvant chemotherapy, and selection using an FDA-approved companion diagnostic. A germline BRCA finding alone does not establish all criteria. A VUS alone is not the pathogenic or likely pathogenic variant required by OlympiA; tumour-only BRCA and HRD-positive results do not replace its qualifying germline finding.",
+        "Triple-negative breast cancer: 82 percent of OlympiA participants had triple-negative disease and 18 percent had hormone receptor-positive disease (Lynparza label). Both groups were included under their specified high-risk criteria; the adjuvant indication is not restricted to TNBC; about half of OlympiAD patients were triple-negative, and in the OlympiAD final overall survival analysis the triple-negative subgroup hazard ratio was 0.93 (0.62 to 1.43). OlympiA recruited at 22 UK sites. The UK-led PARTNER trial (30 NHS hospitals) tests olaparib added to neoadjuvant carboplatin and paclitaxel in triple-negative or germline BRCA breast cancer.",
+        "OlympiA compared one year of olaparib with placebo after local treatment and chemotherapy in 1,836 people with qualifying germline BRCA1/BRCA2 variants and high-risk HER2-negative early breast cancer. After neoadjuvant chemotherapy, TNBC required residual invasive disease in breast or resected nodes; hormone receptor-positive disease also required CPS+EG at least 3. In the adjuvant-chemotherapy pathway, TNBC required positive axillary nodes or an invasive primary at least 2 cm, while hormone receptor-positive disease required at least four positive nodes. These trial criteria are distinct from the label indication and from an individual assessment of treatment suitability.",
+        "The first OlympiA report established an invasive disease-free survival comparison; overall survival was not significant at that report's prespecified interim boundary. The later report demonstrated an overall-survival benefit at its own planned analysis. Post-neoadjuvant capecitabine was not permitted in OlympiA, so it cannot compare olaparib with capecitabine in that setting. CREATE-X studied additional capecitabine after specified chemotherapy. Do not assume either estimate answers a different prior-treatment, comparator or pembrolizumab-combination question. Eligibility, comparative benefit and tolerability are separate checks.",
+        "Pancreatic cancer, UK status: NICE's appraisal of olaparib for pancreatic cancer (TA750) was terminated on 8 December 2021 because AstraZeneca made no evidence submission (its published olaparib appraisals cover ovarian, breast, prostate and endometrial cancer), so maintenance olaparib for germline BRCA carriers is not routinely commissioned in England although the drug is licensed for the use in the EU and UK. POLO label figures: progression-free survival 7.4 against 3.8 months (hazard ratio 0.53; p 0.0035), overall survival 19.0 against 19.2 months (hazard ratio 0.83; p 0.3487), response 23 against 12 percent with a median duration of 25 against 4 months; 75 percent of patients had received FOLFIRINOX; nine UK sites (Edinburgh, Glasgow, Liverpool, London, Manchester, Northwood, Nottingham, Surrey).",
+        "Pancreatic ductal adenocarcinoma biomarkers: eligibility is a germline BRCA1 or BRCA2 variant, present in about 2 to 3% of patients, plus at least 16 weeks of first-line platinum without progression (POLO). Somatic BRCA, PALB2 and genomic instability scores do not qualify under the label, although rucaparib showed activity in germline PALB2 and somatic BRCA2 (Reiss 2021).",
+        "Two NICE appraisals cover olaparib in prostate cancer in England. TA887 recommends it as monotherapy for hormone-relapsed metastatic prostate cancer with BRCA1 or BRCA2 mutations that has progressed after a newer hormonal treatment; the recommendation is for BRCA specifically, not the wider homologous recombination repair panel. TA951 recommends it with abiraterone and prednisone or prednisolone for untreated hormone-relapsed metastatic prostate cancer in adults who cannot have or do not want chemotherapy, which is an unselected indication."
+      ],
+      "brand": "Lynparza",
+      "modality": "Small-molecule PARP inhibitor",
+      "mechanism": "PARP1/2 inhibitor and trapper; synthetic lethality with HRD.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2014,
+          "indication": "Historical germline-BRCA advanced ovarian cancer after at least three chemotherapy lines; treatment indication withdrawn"
+        },
+        {
+          "region": "US",
+          "year": 2017,
+          "indication": "Recurrent ovarian maintenance after platinum response; current scope is germline or somatic BRCA-mutated"
+        },
+        {
+          "region": "US",
+          "year": 2018,
+          "indication": "Germline-BRCA HER2-negative metastatic breast cancer with prior chemotherapy and endocrine therapy when appropriate"
+        },
+        {
+          "region": "US",
+          "year": 2018,
+          "indication": "Germline or somatic BRCA-mutated advanced ovarian first-line maintenance after platinum response"
+        },
+        {
+          "region": "US",
+          "year": 2019,
+          "indication": "Germline-BRCA metastatic pancreatic maintenance without progression after at least 16 weeks of first-line platinum"
+        },
+        {
+          "region": "US",
+          "year": 2020,
+          "indication": "First-line ovarian maintenance with bevacizumab for HRD-positive disease"
+        },
+        {
+          "region": "US",
+          "year": 2020,
+          "indication": "Germline or somatic HRR-gene-mutated mCRPC after enzalutamide or abiraterone"
+        },
+        {
+          "region": "US",
+          "year": 2022,
+          "indication": "Germline-BRCA high-risk HER2-negative early breast cancer after chemotherapy"
+        },
+        {
+          "region": "US",
+          "year": 2023,
+          "indication": "BRCA-mutated mCRPC with abiraterone and prednisone or prednisolone"
+        },
+        {
+          "region": "EU",
+          "year": 2019,
+          "indication": "Germline BRCA1/2-mutated HER2-negative locally advanced or metastatic breast cancer after an anthracycline and a taxane (OlympiAD)",
+          "note": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza"
+        },
+        {
+          "region": "EU",
+          "year": 2022,
+          "indication": "Adjuvant treatment, alone or with endocrine therapy, of germline BRCA1/2-mutated HER2-negative high-risk early breast cancer after neoadjuvant or adjuvant chemotherapy (OlympiA)",
+          "note": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza"
+        },
+        {
+          "region": "UK",
+          "year": 2023,
+          "indication": "Adjuvant treatment of BRCA mutation-positive HER2-negative high-risk early breast cancer after chemotherapy; NICE TA886 (10 May 2023) recommends within the marketing authorisation with a commercial arrangement",
+          "note": "https://www.nice.org.uk/guidance/ta886"
+        },
+        {
+          "region": "UK",
+          "year": 2025,
+          "indication": "BRCA mutation-positive HER2-negative locally advanced or metastatic breast cancer after an anthracycline and a taxane; NICE TA1040 (12 February 2025) recommends with a commercial arrangement, the lowest-cost option to be used where talazoparib is also suitable",
+          "note": "https://www.nice.org.uk/guidance/ta1040"
+        },
+        {
+          "region": "US",
+          "year": 2019,
+          "indication": "Maintenance treatment of deleterious or suspected deleterious germline BRCA-mutated metastatic pancreatic adenocarcinoma whose disease has not progressed on at least 16 weeks of first-line platinum-based chemotherapy (POLO), with an FDA-approved companion diagnostic",
+          "note": "Lynparza label (openFDA), indication 1.6 and POLO study section: https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+        },
+        {
+          "region": "EU",
+          "year": 2020,
+          "indication": "Maintenance treatment of germline BRCA1/2-mutated metastatic pancreatic adenocarcinoma that has not progressed after at least 16 weeks of platinum-based first-line chemotherapy; listed in the EMA Lynparza product information read on 24 September 2026 (extension of indication in 2020)",
+          "note": "https://www.ema.europa.eu/en/medicines/human/EPAR/lynparza"
+        }
+      ],
+      "mechanismSteps": [
+        "Olaparib binds PARP1/2 at sites of single-strand DNA breaks",
+        "PARP is trapped on DNA and repair of single-strand breaks stops",
+        "Replication forks collide with trapped PARP and collapse into double-strand breaks",
+        "BRCA-deficient cells cannot repair the breaks by homologous recombination",
+        "Genomic catastrophe and apoptosis in tumour cells; normal cells with intact BRCA survive"
+      ],
+      "dosing": {
+        "route": "Oral",
+        "schedule": "300 mg twice daily; 1 year adjuvant (OlympiA); 2 years first-line ovarian maintenance; until progression otherwise",
+        "modifications": "200 mg BID for moderate renal impairment; hold for grade ≥3 anaemia; discontinue for MDS/AML or pneumonitis",
+        "monitoring": "Blood counts monthly; respiratory symptoms; embryo-fetal counselling",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+      },
+      "toxicity": [
+        {
+          "event": "Nausea",
+          "anyGradePct": 57,
+          "grade3PlusPct": 0.8,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Fatigue",
+          "anyGradePct": 42,
+          "grade3PlusPct": 1.8,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Anaemia",
+          "anyGradePct": 24,
+          "grade3PlusPct": 9,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Vomiting",
+          "anyGradePct": 23,
+          "grade3PlusPct": 0.7,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Diarrhoea",
+          "anyGradePct": 18,
+          "grade3PlusPct": 0.3,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Leukopenia",
+          "anyGradePct": 17,
+          "grade3PlusPct": 3,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Neutropenia",
+          "anyGradePct": 16,
+          "grade3PlusPct": 5,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "MDS/AML",
+          "anyGradePct": 1.2,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "Cumulative across trials; 54% fatal"
+        },
+        {
+          "event": "Pneumonitis",
+          "anyGradePct": 1,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        },
+        {
+          "event": "Venous thromboembolism (prostate)",
+          "anyGradePct": 8,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+          "note": "OlympiA adjuvant, n=911"
+        }
+      ],
+      "access": [
+        {
+          "country": "US",
+          "reimbursement": "Medicare Part D (oral); commercial plans per formulary, often with prior authorisation",
+          "assistance": "https://www.astrazeneca-us.com/medicines/access-360",
+          "source": "https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files",
+          "asOf": "2026-09-06"
+        },
+        {
+          "country": "UK",
+          "reimbursement": "NICE: recommended in ovarian maintenance (TA598, TA620), adjuvant gBRCA breast (TA886), metastatic breast (TA1100), prostate (TA887)",
+          "source": "https://www.nice.org.uk/guidance/published?ngt=Technology%20appraisal%20guidance",
+          "asOf": "2026-09-06"
+        },
+        {
+          "country": "EU",
+          "reimbursement": "EMA approved across indications",
+          "asOf": "2026-09-06"
+        }
+      ],
+      "regulatoryEvents": [
+        {
+          "date": "2014-12-19",
+          "type": "accelerated-approval",
+          "region": "US",
+          "note": "gBRCA advanced ovarian cancer after ≥3 lines: first PARP inhibitor",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "indication": "Deleterious or suspected deleterious germline BRCA-mutated advanced ovarian cancer after treatment with 3 or more lines of chemotherapy 2"
+        },
+        {
+          "date": "2017-08-17",
+          "type": "conversion",
+          "region": "US",
+          "note": "Maintenance in platinum-sensitive recurrent ovarian cancer; tablet formulation",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications",
+          "indication": "Deleterious or suspected deleterious germline BRCA-mutated advanced ovarian cancer after treatment with 3 or more lines of chemotherapy 2"
+        },
+        {
+          "date": "2018-01-12",
+          "type": "approval",
+          "region": "US",
+          "note": "gBRCA HER2-negative metastatic breast cancer (OlympiAD)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2018-12-19",
+          "type": "approval",
+          "region": "US",
+          "note": "First-line maintenance in BRCA-mutated ovarian cancer (SOLO-1)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2019-12-27",
+          "type": "approval",
+          "region": "US",
+          "note": "gBRCA metastatic pancreatic cancer maintenance (POLO)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2020-05-08",
+          "type": "approval",
+          "region": "US",
+          "note": "FDA expanded the indication of olaparib (LYNPARZA, AstraZeneca Pharmaceuticals, LP) to include its combination with bevacizumab for first-line maintenance treatment of adult patients with advanced epithelial ovarian, fallopian tube, or primary peritoneal cancer who are in complete or partial response to first-line platinum-based chemotherapy and whose cancer is associated with homologous recombination deficiency positive status defined by either a deleterious or suspected deleterious BRCA mutation, and/or genomic instability.",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-olaparib-plus-bevacizumab-maintenance-treatment-ovarian-fallopian-tube-or-primary",
+          "indication": "maintenance treatment for ovarian, fallopian tube, or primary peritoneal cancers"
+        },
+        {
+          "date": "2020-05-19",
+          "type": "approval",
+          "region": "US",
+          "note": "HRR-mutant mCRPC (PROfound)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2022-03-11",
+          "type": "approval",
+          "region": "US",
+          "note": "Adjuvant gBRCA high-risk HER2-negative early breast cancer (OlympiA)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2023-05-31",
+          "type": "approval",
+          "region": "US",
+          "note": "With abiraterone in BRCA-mutated mCRPC (PROpel)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        }
+      ]
+    },
+    {
+      "id": "pcr",
+      "kind": "term",
+      "name": "Pathologic complete response (pCR)",
+      "aka": [
+        "pathological complete response",
+        "ypT0",
+        "ypN0",
+        "non-pCR",
+        "residual invasive disease",
+        "residual disease after neoadjuvant"
+      ],
+      "tldr": "Pathological complete response records the absence of specified residual cancer in tissue after preoperative treatment. The specimen and response definition must accompany the result.",
+      "summary": "In breast cancer, pCR must retain its named definition and specimens. FDA trial guidance describes two combined breast-and-sampled-node endpoints after neoadjuvant treatment: one permits residual ductal carcinoma in situ and the other excludes it. Older studies have also used breast-only definitions, so their response rates cannot be assumed to describe the combined endpoint. Response in sampled tissue, margin status, imaging, blood tests and long-term outcomes answer different questions.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT03036488: KEYNOTE-522",
+          "url": "https://clinicaltrials.gov/study/NCT03036488"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05812807: OptimICE-pCR (A012103)",
+          "url": "https://clinicaltrials.gov/study/NCT05812807"
+        },
+        {
+          "label": "FDA breast pCR endpoint guidance, July 2020",
+          "url": "https://www.fda.gov/media/83507/download"
+        },
+        {
+          "label": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/"
+        },
+        {
+          "label": "KEYNOTE-522 primary pCR analysis, Schmid et al. 2020",
+          "url": "https://doi.org/10.1056/NEJMoa1910549"
+        },
+        {
+          "label": "KEYNOTE-522 final overall survival, Schmid et al. 2024",
+          "url": "https://doi.org/10.1056/NEJMoa2409932"
+        },
+        {
+          "label": "Cortazar, Lancet 2014: pathological complete response and long-term benefit, the CTNeoBC pooled analysis",
+          "url": "https://doi.org/10.1016/s0140-6736(13)62422-8"
+        },
+        {
+          "label": "Liedtke, J Clin Oncol 2008: response to neoadjuvant therapy and long-term survival in triple-negative breast cancer",
+          "url": "https://doi.org/10.1200/jco.2007.14.4147"
+        },
+        {
+          "label": "Schmid, N Engl J Med 2020: KEYNOTE-522, pembrolizumab for early triple-negative breast cancer",
+          "url": "https://doi.org/10.1056/nejmoa1910549"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "surrogate-validation",
+        "surrogate-endpoint",
+        "efs",
+        "window-of-opportunity-trial",
+        "neoadjuvant-adjuvant",
+        "response-adaptive-randomisation",
+        "treatment-effect-in-pathology"
+      ],
+      "cancers": [
+        "tnbc",
+        "breast-her2-positive",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "keynote-522",
+        "optimice-pcr"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In FDA breast-trial guidance, ypT0/Tis ypN0 means no residual invasive cancer on haematoxylin and eosin (H&E) examination of the complete resected breast specimen and all sampled regional nodes after neoadjuvant systemic treatment. Residual DCIS is permitted. The stricter ypT0 ypN0 definition also excludes in situ cancer. Preserve the actual protocol and nodal assessment rules.",
+        "Breast-only clearance is not the combined breast-and-node endpoint. Residual invasive cancer in a sampled node prevents that combined pCR result even when breast invasion is absent or a blood assay is negative. A small negative biopsy, imaging response and negative circulating tumour DNA are different observations.",
+        "Residual DCIS can meet the invasive-clearance definition while still requiring separate margin assessment. In an otherwise qualifying specimen with DCIS but no breast invasion and no residual sampled-node cancer, the permissive definition is met and the stricter one is not. Neither pCR nor a negative local edge certifies cure or absence at every body site.",
+        "Cortazar and colleagues' CTNeoBC analysis pooled 11955 patients from 12 trials. In triple-negative disease, attaining ypT0/is ypN0 was associated with event-free-survival HR 0.24 and overall-survival HR 0.16 versus not attaining pCR. This patient-level association is not a guaranteed personal outcome.",
+        "Trial-level increases in pCR had little association with event-free or overall-survival effects in CTNeoBC (R squared 0.03 and 0.24 respectively). The analysis could not validate pCR as a surrogate for improved long-term outcomes. A study reporting a pCR gain without mature survival comparison cannot infer the size of a survival benefit from the responder association.",
+        "FDA's July 2020 revision 1 guidance concerns pCR endpoints for trial design and accelerated approval in high-risk early-stage breast cancer. It is not an individual treatment or cure rule. In the notation, y denotes assessment after neoadjuvant treatment and p denotes pathological assessment. Sections and stains consume finite tissue; incomplete sampling, unexamined nodes and mixed endpoint definitions can invalidate comparisons.",
+        "KEYNOTE-522 separately demonstrated endpoint and survival results for the whole perioperative regimen in previously untreated stage II or III TNBC. In the 2020 primary pCR analysis of the first 602 randomised participants, pembrolizumab plus neoadjuvant chemotherapy yielded 64.8% pCR versus 51.2% with placebo plus chemotherapy (difference 13.6 percentage points, 95% CI 5.4 to 21.8). The final 2024 overall-survival report covered all 1,174 randomised participants, including postoperative pembrolizumab or placebo: at 60 months, overall survival was 86.6% versus 81.7% (P = 0.002; median follow-up 75.1 months). Survival was measured directly; the pCR gain did not mathematically predict it or isolate which perioperative component produced the benefit.",
+        "In fictional case A, no breast invasion, residual DCIS and no residual cancer in sampled nodes meet ypT0/Tis ypN0 but not ypT0 ypN0. In fictional case B, the same breast finding plus a 4-mm residual invasive nodal deposit meets neither combined endpoint. Identical DCIS-at-ink findings in either case remain a separate margin question.",
+        "Subtract within the same endpoint and analysis: 64.8 minus 51.2 gives a 13.6-percentage-point pCR difference in the first 602 participants; 86.6 minus 81.7 gives 4.9 points in the separately reported 60-month survival estimates for all 1,174. The latter is often rounded to about five more people alive per hundred under the trial comparison. These time-to-event estimates are not literal counts from a complete hundred-person group, an individual forecast or a conversion from the pCR difference.",
+        "Triple-negative disease is where pathological complete response means most: in the CTNeoBC pooled analysis of 11,955 patients, eradication of tumour from breast and nodes (ypT0/is ypN0) was associated with event-free survival hazard ratio 0.24 and overall survival 0.16 in triple-negative disease, the strongest association of any subtype, yet trial-level increases in the rate did not predict survival gains (Cortazar 2014).",
+        "Triple-negative patients reach a complete response more often than others (22 against 11 percent in the MD Anderson series, 1985 to 2004) and then have similar survival, while those with residual disease do worse, particularly in the first three years (Liedtke 2008). Adding pembrolizumab to platinum chemotherapy raised the rate from 51.2 to 64.8 percent in KEYNOTE-522 (Schmid 2020)."
+      ],
+      "category": "Endpoints",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "pd-l1-cps",
+      "kind": "biomarker",
+      "name": "PD-L1 CPS (combined positive score)",
+      "aka": [
+        "PD-L1 CPS",
+        "CPS",
+        "combined positive score",
+        "PD-L1 combined positive score",
+        "CPS >= 1",
+        "CPS >= 10",
+        "PD-L1 CPS 1",
+        "PD-L1 CPS 10",
+        "CPS≥1",
+        "CPS≥10"
+      ],
+      "tldr": "CPS counts eligible PD-L1-stained tumour cells, lymphocytes and macrophages per viable tumour cell. The reported score is capped at 100; assay and treatment setting determine its use.",
+      "summary": "The combined positive score (CPS) is 100 times the number of eligible PD-L1-staining tumour cells, lymphocytes and macrophages divided by all viable tumour cells. Under the cited 22C3 TNBC method it is reported as a whole number capped at 100, even if the raw arithmetic is larger. CPS is not the percentage of tumour cells staining and is not interchangeable with tumour proportion score (TPS) or the SP142 immune-cell area score. Clinical use depends on the named assay, cancer, disease setting and treatment regimen. In advanced TNBC, the specified pembrolizumab combinations use CPS at least 10; the high-risk early-TNBC perioperative regimen has a different selection context.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "KEYTRUDA prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        },
+        {
+          "label": "OPDIVO prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394"
+        },
+        {
+          "label": "FDA: List of FDA-Authorized Companion Diagnostic Devices",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.agilent.com/cs/library/flyers/public/29390-d62312-pd-l1-22c3-tnbc-qsg-us.pdf"
+        },
+        {
+          "label": "FDA pembrolizumab label, TNBC sections 1.20 and 14.20",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+        },
+        {
+          "label": "Cortes et al., KEYNOTE-355 overall survival, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/"
+        },
+        {
+          "label": "Rugo et al., PD-L1 assay comparison, 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34097070/"
+        },
+        {
+          "label": "Reisenbichler et al., observer agreement, 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32300181/"
+        },
+        {
+          "label": "Roche US TNBC withdrawal announcement, 2021",
+          "url": "https://www.roche.com/media/releases/med-cor-2021-08-27.html"
+        },
+        {
+          "label": "Taube et al., adaptive resistance in melanocytic lesions, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22461641/"
+        },
+        {
+          "label": "FDA: first-line sacituzumab govitecan alone and with pembrolizumab in advanced TNBC (24 June 2026)",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line"
+        }
+      ],
+      "tags": [
+        "biomarker",
+        "pd-l1"
+      ],
+      "related": [
+        "pd-l1-tps",
+        "pd-l1-ic-score",
+        "pd-l1-tc-score"
+      ],
+      "cancers": [
+        "head-and-neck",
+        "gastric",
+        "gastric-her2-positive",
+        "gastric-pdl1-high",
+        "esophageal",
+        "oesophageal-squamous-cell-carcinoma",
+        "cervical",
+        "tnbc",
+        "tnbc-metastatic",
+        "ovarian",
+        "platinum-resistant-ovarian-cancer",
+        "gallbladder"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "pembrolizumab",
+        "nivolumab",
+        "sacituzumab-govitecan",
+        "dako-pd-l1-22c3-pharmdx"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cps",
+        "pd-l1-testing",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-keynote-355-nejm-2022",
+        "paper-keynote-355-lancet-2020",
+        "paper-sigurjonsdottir-sp142-22c3-tnbc-bcr-2023",
+        "paper-rugo-pd-l1-assay-comparison-impassion130-jnci-2021",
+        "paper-albrecht-pdl1-western-gallbladder-cancers-2021"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For the 22C3 TNBC method, count eligible stained viable invasive tumour cells and tumour-associated lymphocytes and macrophages. Divide by all viable invasive tumour cells, including unstained cells, then multiply by 100. Report a whole-number CPS capped at 100, even when raw arithmetic exceeds 100.",
+        "Tumour cells require qualifying partial or complete membrane staining. Eligible lymphocytes and macrophages may have membrane or cytoplasmic staining in tumour nests or directly associated stroma. Exclude immune cells from the denominator; do not count every stained cell on the slide. Controls and at least 100 viable tumour cells are required.",
+        "Fictional eligible counts: 200 viable tumour cells, 20 staining tumour cells, 40 staining lymphocytes and 20 staining macrophages give CPS 40. Tumour-cell-only arithmetic gives 10%, under its own assay rules. CPS, TPS and IC use different numerators or denominators and cannot share cutoffs automatically.",
+        "TPS counts viable tumour cells with qualifying partial or complete membrane staining as a percentage of viable tumour cells. Immune cells do not enter its numerator. SP142 IC scoring measures the fraction of tumour area occupied by stained tumour-infiltrating immune cells, excluding tumour-cell staining. CPS, TPS and IC thresholds cannot be transferred between methods.",
+        "For 22C3 TNBC CPS, exclude nonviable cells, neutrophils, eosinophils, plasma cells, benign epithelial cells and stromal cells. Immune cells associated only with benign structures or in-situ disease do not qualify. A CPS of 100 does not imply that all tumour cells stain.",
+        "KEYNOTE-355 randomised 847 patients with previously untreated locally recurrent inoperable or metastatic TNBC regardless of PD-L1 status. In the CPS at least 10 subgroup, median overall survival was 23.0 months with pembrolizumab plus chemotherapy and 16.1 months with placebo plus chemotherapy; hazard ratio 0.73 (95% confidence interval 0.55 to 0.95). The CPS at least 1 comparison was not significant: hazard ratio 0.86 (0.72 to 1.04). These subgroup findings concern the tested combination and population, not pembrolizumab alone.",
+        "The US pembrolizumab label uses CPS at least 10 for locally recurrent unresectable or metastatic TNBC with chemotherapy and for first-line unresectable locally advanced or metastatic TNBC with sacituzumab govitecan. High-risk early TNBC uses pembrolizumab with chemotherapy before surgery, continued alone afterward, without a PD-L1 selection requirement. The FDA approved the sacituzumab combination in June 2026. A score does not determine individual eligibility or guarantee benefit.",
+        "IMpassion130 used SP142 IC at least 1% for the PD-L1-positive subgroup in advanced TNBC treated with atezolizumab plus nab-paclitaxel. Roche announced voluntary withdrawal of the US TNBC indication in August 2021. This historical regimen and cutoff are not a current US treatment indication.",
+        "In the 614-sample IMpassion130 comparison, IC at least 1% positivity was 46.4% for SP142, 74.9% for SP263 and 73.1% for 22C3. Almost all SP142-positive samples were positive by the other assays, but the reverse was not true. This was an IC comparison across assays, not evidence that 22C3 CPS and IC are interchangeable.",
+        "In a multi-institutional study, 19 pathologists assessed TNBC sections: average positivity at IC at least 1% was 58% with SP142 and 78% with SP263. Complete two-category agreement occurred in 38% and 50% of cases respectively. These study-specific results show observer variation; they do not supply a correction factor for an individual report.",
+        "A primary study of human melanocytic lesions found colocalisation of PD-L1 expression with inflammatory infiltrates and implicated interferon gamma in adaptive immune resistance. This supports a mechanism, not a universal rule that every lymphocyte-rich breast tumour has high PD-L1. Staining alone does not establish a complete immune state.",
+        "For a specified PD-L1 workflow, prepare the tissue section, stain it with acceptable controls, assess adequacy, identify the eligible cells and then apply the scoring algorithm. Further sections consume finite tissue. Record the antibody clone, platform, specimen, scoring method and intended clinical use. The cited TNBC 22C3 guide requires at least 100 viable tumour cells; that requirement belongs to the named assay, rather than to every PD-L1 method.",
+        "Report CPS as a capped score, TPS as a tumour-cell percentage, or IC as the percentage of tumour area occupied by stained immune cells. Each algorithm has its own eligibility and threshold rules. Too few eligible cells, failed controls, incorrect cell attribution, necrosis and heterogeneous sampling can invalidate or limit a result. None of these scores alone describes the complete immune state, guarantees individual benefit or establishes eligibility in a different cancer or treatment setting.",
+        "The detailed eligible-cell rules here follow Agilent's November 2020 TNBC quick guide. Its original PDF was unavailable at this check; a preserved primary-source extract supplies that historical method definition. Current treatment selection also requires the applicable current drug label and assay documentation.",
+        "Triple-negative breast cancer: the pembrolizumab threshold is 22C3 CPS 10 or more, the KEYNOTE-355 subgroup whose overall survival was 23.0 versus 16.1 months (hazard ratio 0.73); CPS 1 or more did not reach significance (Cortes 2022). CPS 10 or more was 27.2% of 232 unselected early TNBCs and CPS 1 or more 53.9% (Sigurjonsdottir 2023); 80.9% of IMpassion130 samples were CPS 1 or more (Rugo 2021). The same threshold now gates sacituzumab govitecan plus pembrolizumab (ASCENT-04). CPS 10 and SP142 IC 1% agree weakly (kappa 0.48) and are not interchangeable.",
+        "Gallbladder cancer: combined positive score was reported alongside TPS in 131 Western cases (Albrecht 2021); TOPAZ-1 and KEYNOTE-966 enrolled biliary patients regardless of PD-L1, so no CPS threshold applies to durvalumab or pembrolizumab in this cancer."
+      ],
+      "target": "pdl1",
+      "measurement": "combined-positive-score",
+      "scoringRule": {
+        "text": "Count PD-L1-positive tumour cells, lymphocytes and macrophages; divide by the number of viable tumour cells; multiply by 100. A specimen must hold at least 100 viable tumour cells to be scored.",
+        "quote": "PD-L1 protein expression [Combined Positive Score (CPS) ≥ 1]",
+        "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+        "sourceLabel": "FDA: List of FDA-Authorized Companion Diagnostic Devices"
+      },
+      "thresholds": [
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "head-and-neck",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "as a single agent for the first-line treatment of patients with metastatic or with unresectable, recurrent HNSCC whose tumors express PD-L1 [Combined Positive Score (CPS) ≥1] as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "gastric",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-negative gastric or gastroesophageal junction (GEJ) adenocarcinoma whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "gastric-her2-positive",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with trastuzumab, fluoropyrimidine- and platinum-containing chemotherapy, for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-positive gastric or gastroesophageal junction (GEJ) adenocarcinoma whose tumors express PD-L1 (CPS ≥1)",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1 (with chemotherapy); CPS >= 10 (single agent, squamous, after prior therapy)",
+          "drugId": "pembrolizumab",
+          "cancerId": "esophageal",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with platinum- and fluoropyrimidine-based chemotherapy for patients whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test, or as a single agent after one or more prior lines of systemic therapy for patients with tumors of squamous cell histology that express PD-L1 (CPS ≥10)",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "cervical",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with chemotherapy, with or without bevacizumab, for the treatment of patients with persistent, recurrent, or metastatic cervical cancer whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 10",
+          "drugId": "pembrolizumab",
+          "cancerId": "tnbc-metastatic",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with chemotherapy, for the treatment of patients with locally recurrent unresectable or metastatic TNBC whose tumors express PD-L1 (CPS ≥10) as determined by an FDA-authorized test",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 10",
+          "drugId": "sacituzumab-govitecan",
+          "cancerId": "tnbc-metastatic",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with sacituzumab govitecan-hziy, for the first-line treatment of adult patients with unresectable locally advanced or metastatic TNBC whose tumors express PD-L1 (CPS ≥10) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "platinum-resistant-ovarian-cancer",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with paclitaxel, with or without bevacizumab, for the treatment of adult patients with platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test",
+          "status": "current"
+        },
+        {
+          "value": "PD-L1 >= 1 (28-8 pharmDx)",
+          "drugId": "nivolumab",
+          "cancerId": "gastric",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "quote": "OPDIVO, in combination with fluoropyrimidine- and platinum-containing chemotherapy, is indicated for the treatment of adult patients with advanced or metastatic gastric cancer, gastroesophageal junction cancer, and esophageal adenocarcinoma whose tumors express PD-L1 (≥1)",
+          "status": "current"
+        },
+        {
+          "value": "PD-L1 >= 1 (28-8 pharmDx)",
+          "drugId": "nivolumab",
+          "cancerId": "oesophageal-squamous-cell-carcinoma",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "quote": "OPDIVO, in combination with ipilimumab, is indicated for the first-line treatment of adult patients with unresectable advanced or metastatic esophageal squamous cell carcinoma (ESCC) whose tumors express PD-L1 (≥1)",
+          "status": "current"
+        }
+      ],
+      "tests": [
+        "omniseq-insight",
+        "caris-mi-profile"
+      ],
+      "assays": [
+        "pdl1-22c3",
+        "pdl1-28-8"
+      ],
+      "companionDiagnostics": [
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Head and Neck Squamous Cell Carcinoma (HNSCC) - Tissue",
+          "pma": "P150013/S014 (06/10/2019)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma - Tissue",
+          "pma": "P150013/S027 (11/07/2023)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Esophageal or Gastroesophageal Junction (GEJ) Carcinoma - Tissue",
+          "pma": "P150013/S032 (02/11/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Cervical Cancer - Tissue",
+          "pma": "P150013/S009 (06/12/2018)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Triple-Negative Breast Cancer (TNBC) - Tissue",
+          "pma": "P150013/S020 (11/13/2020)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Epithelial Ovarian, Fallopian Tube Cancer, or Primary Peritoneal Carcinoma (EOC) - Tissue",
+          "pma": "P150013/S033 (02/10/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 28-8 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "pd-l1-ihc-28-8-pharmdx",
+          "drugs": [
+            "nivolumab"
+          ],
+          "indication": "Esophageal squamous cell carcinoma (ESCC), and gastric, gastroesophageal junction (GEJ), and esophageal adenocarcinoma - Tissue",
+          "pma": "P150025/S018 (07/01/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        }
+      ],
+      "forPatient": "Your report gives a CPS number. Whether it counts as positive depends on the cancer: the pembrolizumab label asks for 1 or more in head and neck, stomach, oesophageal, cervical and platinum-resistant ovarian cancer, and 10 or more in triple-negative breast cancer. The same number can open a treatment in one cancer and not in another, and a score below the cut-off does not mean immunotherapy can never be used, only that this particular indication does not apply."
+    },
+    {
+      "id": "rcb",
+      "kind": "term",
+      "name": "Residual cancer burden (RCB)",
+      "aka": [],
+      "tldr": "Residual cancer burden combines breast and regional-node pathology measurements after preoperative chemotherapy into a continuous score and four response classes.",
+      "summary": "Residual cancer burden (RCB) combines measurements from the treated breast tumour bed and regional lymph nodes after neoadjuvant chemotherapy. The continuous index and its four classes are different outputs: RCB-0, RCB-I, RCB-II and RCB-III. It is not an anatomical stage or a percentage recurrence risk.\n\nThe six inputs are two residual tumour-bed dimensions in millimetres, overall cancer cellularity, the percentage of that cancer that is in situ, the positive-node count and the largest nodal metastasis diameter in millimetres. Overall cellularity uses tumour-bed area as its denominator; the in situ percentage uses the cancer component. In a fictional 100-unit bed with 20 units of cancer, of which 25% is in situ, invasive cancer occupies 15 units: 20 × (1 - 0.25). The 25% in situ input is fictional denominator teaching outside the MD Anderson protocol's listed nearest-10% estimates with low 1% and 5% choices. These are area fractions, not counted-cell fractions or sequencing purity.\n\nMicroscopic examination can revise the bed dimensions initially estimated at gross examination. Cellularity is averaged across the defined bed rather than taken only from the densest focus. A sparse breast bed cannot establish the nodal inputs, final margins or distant-disease status. The original study evaluated 382 patients in two chemotherapy cohorts and found prognostic information in the combined index. An association with later outcomes does not establish the benefit of a proposed additional treatment or supply an individual forecast.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Residual cancer burden index (Symmans et al., J Clin Oncol 2007)",
+          "url": "https://doi.org/10.1200/JCO.2007.10.6823"
+        },
+        {
+          "label": "MD Anderson detailed RCB pathology methods",
+          "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+        },
+        {
+          "label": "Residual cancer burden after neoadjuvant chemotherapy and long-term survival outcomes in breast cancer: a multicentre pooled analysis of 5161 patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34902335/"
+        },
+        {
+          "label": "MD Anderson RCB calculator",
+          "url": "https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3"
+        },
+        {
+          "label": "NCI BOLD preoperative data elements, June 2014: RCB class boundaries",
+          "url": "https://www.cancer.gov/about-nci/organization/ccct/steering-committees/nctn/breast-cancer/boldtfpreoperativecdes-rev.pdf"
+        },
+        {
+          "label": "Symmans, J Clin Oncol 2017: long-term prognosis by residual cancer burden and breast cancer subtype",
+          "url": "https://doi.org/10.1200/jco.2015.63.1010"
+        },
+        {
+          "label": "Telli, Clin Cancer Res 2016: HRD score predicts response to platinum neoadjuvant chemotherapy in triple-negative breast cancer",
+          "url": "https://doi.org/10.1158/1078-0432.ccr-15-2477"
+        },
+        {
+          "label": "Brierley et al., International Journal of Cancer 2026: the 9th edition of the UICC TNM classification of malignant tumours, updates and rationale for change (breast: the classification remains unchanged, the yp classification is clarified)",
+          "url": "https://doi.org/10.1002/ijc.70561"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumor-bed-cellularity",
+        "treatment-effect-in-pathology"
+      ],
+      "cancers": [
+        "tnbc",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "tnm-breast-cancer-editions"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-symmans-j-clin-oncol"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "RCB combines six post-treatment pathology inputs: two breast-bed dimensions in millimetres, overall cancer area percentage, in situ percentage of the cancer component, positive-node count and largest nodal metastasis diameter in millimetres. Distinguish continuous index from classes 0, I, II and III, and both from ypTNM stage or recurrence percentages.",
+        "CAP 4.11 describes the RCB breast span as the two-dimensional extent of residual invasive carcinoma, excluding DCIS from the span. The MD Anderson microscopy protocol instead starts with the gross tumour bed, revises its boundaries microscopically and estimates invasive plus in situ cancer area in that bed, using the largest bed for multicentric disease. State the protocol and denominator rather than merging these wordings. The largest contiguous residual invasive focus without adjacent treatment fibrosis supplies ypT; the gross scar, that focus and an RCB bed are different measurements.",
+        "RCB nodal measurement includes intervening treatment-related fibrosis and extranodal extension within the residual metastatic area, whereas ypN uses the largest contiguous residual focus without that fibrosis. Separate deposits divided by normal nodal tissue remain separate. Routine-stain ITC-only nodes enter RCB calculations although they are excluded from the AJCC positive-node count. Do not move a nodal number between these methods without its definition.",
+        "CAP states that RCB was not designed or validated for neoadjuvant endocrine treatment and advises against reporting its score or class there. Individual measurements such as cellularity may still describe residual disease. Use the official pathology assessment and calculator for unusual findings; low breast cellularity alone cannot establish nodal clearance or pCR.",
+        "Yau and colleagues pooled 5161 chemotherapy-treated stage I to III patients from 12 institutes and trials. Across receptor subtypes, the unadjusted event hazard ratio per RCB unit ranged from 1.55 to 2.16. The adjusted range was 1.52 to 2.09. In the complete-covariate triple-negative model (1585 patients), the adjusted HR was 1.93 (95% CI 1.74 to 2.13). Adjustment included age and baseline T category, nodal status and grade; these are prognostic associations, not treatment-benefit estimates.",
+        "For a fictional 20 by 10 mm bed, 20% overall cancer cellularity, 50% in situ share of cancer, two positive nodes and a 3-mm largest nodal metastasis, d_prim is 14.1421356 mm and f_inv is 0.10. The breast term is 1.4849628 and nodal term 1.3256445, summing to 2.8106074, approximately 2.811 and RCB-II. With zero involved nodes the nodal term is zero and the breast term remains approximately 1.485, also RCB-II. This is not stage II or a recurrence percentage; the separate 25% in situ denominator illustration is not this specimen.",
+        "RCB classes use the continuous index without rounding at a boundary: 0 is RCB-0; greater than 0 through 1.36 is RCB-I; greater than 1.36 through 3.28 is RCB-II; and greater than 3.28 is RCB-III. The NCI BOLD data elements record these cutoffs. Residual in situ disease can be compatible with RCB-0 under the method; use the specified nodal and pathological assessment rather than equating any ypN0 modifier with complete response.",
+        "Symmans and colleagues' 2007 typeset equation defines d_prim = sqrt(d1 × d2), f_inv = (C/100) × (1 - S/100), and RCB = 1.4 × (f_inv × d_prim)^0.17 + [4 × (1 - 0.75^N) × d_met]^0.17. The entire nodal bracket is raised to 0.17. Here N originally counts involved axillary nodes and d_met is the largest axillary metastasis diameter. Because only the largest deposit was measured, the model assumed each additional metastasis had 75% of the diameter of the next largest. Preserve full precision near class boundaries.",
+        "The 2007 study derived the index in 241 patients treated with paclitaxel followed by fluorouracil, doxorubicin and cyclophosphamide, and validated it in 141 treated with the latter combination: 382 patients with T1 to T3, N0 to N1, M0 disease. Class boundaries here come from NCI BOLD data elements, not the equation itself. This empirically fitted prognostic index is neither a cell count nor a personal probability.",
+        "Use the official calculator with the pathology team's protocol-specific assessment for unusual findings; low breast cellularity cannot establish negative nodes. A per-unit hazard ratio compares event rates under a study model, not a recurrence percentage or an estimate of benefit from adding treatment.",
+        "In triple-negative disease the residual cancer burden classes separate long-term risk sharply: ten-year relapse-free survival was 86 percent after a pathological complete response, 81 percent for RCB-I, 55 percent for RCB-II and 23 percent for RCB-III in the paclitaxel then FAC cohorts (Symmans 2017), which is why RCB-II and III residual disease is the setting for adjuvant escalation trials.",
+        "RCB 0 or I was the response endpoint that homologous recombination deficiency predicted in three neoadjuvant platinum trials (Telli 2016).",
+        "The staging manual now asks for it. The ninth edition of UICC TNM, recommended from 1 January 2026, clarifies that the ypT category must be based on the largest continuous focus of residual invasive cancer, excluding treatment-related fibrosis, with multiple foci carrying the m suffix, and recommends that the pathology report add an estimate of the extent of residual disease by the residual cancer burden method (Brierley 2026). Residual cancer burden is therefore no longer only a trial endpoint; it is what the stage cannot express."
+      ],
+      "category": "Endpoints",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "surgical-resection-specimen",
+      "kind": "term",
+      "name": "Surgical resection specimen",
+      "aka": [],
+      "tldr": "Removed tissue becomes interpretable through documented orientation and sampling that link microscopic and molecular findings to their locations.",
+      "summary": "A resection specimen is removed tissue submitted for examination. The laboratory documents gross features, marks relevant surfaces and maps selected regions into labelled blocks. Microscopy and additional assays describe the represented material, rather than every cell remaining in the body.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP practical breast grossing guide excerpt",
+          "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "core-needle-biopsy",
+        "h-and-e-staining",
+        "tumour-purity",
+        "biopsy"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Keep the specimen site, procedure, prior treatment, orientation key, surface inks, cassette map and tested block with the result. Ink colours have a local documented meaning. Gross specimen dimensions are not automatically invasive tumour dimensions. Fragmentation or ink entering cracks can complicate surface interpretation.",
+        "Fictional example: block A is central lesion and block B is a superior surface. A sequencing result from block A cannot be assigned to block B merely because both came from one operation. An additional test needs its own block identity and preservation history.",
+        "Resection supports assessment of represented tumour extent, surfaces, sampled nodes and treatment effect. A large specimen is not automatically examined cell by cell in its entirety. Collection time and preceding treatment define the biological time point, so a post-treatment resection cannot substitute for a pretreatment biopsy.",
+        "Diagnostic orientation and mapped sampling must remain intact when additional material is allocated. A research aliquot needs its site, block, preservation, treatment context and permissions. Slide counts alone do not establish the completeness of representation; a clear examined margin does not settle every clinical question.",
+        "Resection examination follows receipt and orientation, gross description, block mapping, microscopic examination and integration of findings. Record the named specimen and separately submitted parts; sectioning and extraction consume finite material. Depending on the cancer, specimen and treatment setting, outputs include diagnoses, dimensions and distances in millimetres, described margins and sampled-node counts. Lost orientation, fragmentation, ink penetration, incomplete mapping and unsuitable preservation can limit interpretation. Applicable diagnostic protocols and clinical correlation govern the report, while a research aliquot needs its own provenance. No specimen report examines every tissue left in the body or every unsampled node, or supplies an individual recurrence probability."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "tils",
+      "kind": "term",
+      "name": "Tumour-infiltrating lymphocytes (TILs)",
+      "aka": [
+        "tumor-infiltrating lymphocytes",
+        "tumour-infiltrating lymphocyte"
+      ],
+      "tldr": "Tumour-infiltrating lymphocytes are lymphocytes found in tumour tissue. Their identity, location, measurement denominator and function answer different questions.",
+      "summary": "Tumour-infiltrating lymphocytes (TILs) are lymphocytes found in sampled tumour tissue, including T- and B-cell populations. The breast stromal TIL method estimates the area occupied by a defined mononuclear inflammatory infiltrate within eligible tumour-associated stroma on H&E sections. Higher pretreatment scores were associated with better outcomes in the cited early triple-negative breast cancer cohorts, but those associations do not guarantee an individual outcome or establish extra benefit from pembrolizumab. Intratumoral location, stromal area, immune-cell counts and cells expanded for TIL therapy are different measurements or uses.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes"
+        },
+        {
+          "label": "International TILs Working Group breast assessment recommendations",
+          "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf"
+        },
+        {
+          "label": "Loi et al., pooled early TNBC prognostic analysis, 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30650045/"
+        },
+        {
+          "label": "Denkert et al., neoadjuvant TIL response analysis, 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29233559/"
+        },
+        {
+          "label": "Working Group residual-disease assessment recommendations",
+          "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf"
+        },
+        {
+          "label": "Bystander CD8&lt;sup&gt;+&lt;/sup&gt; T cells are abundant and phenotypically distinct in human tumour infiltrates.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/"
+        },
+        {
+          "label": "The evaluation of tumor-infiltrating lymphocytes (TILs) in breast cancer: recommendations by an International TILs Working Group 2014.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25214542/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumor-stroma-ratio",
+        "cold-vs-hot",
+        "cd4-t-cell-subsets"
+      ],
+      "cancers": [
+        "tnbc"
+      ],
+      "sections": [],
+      "technologies": [
+        "til-therapy",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The breast stromal TIL method estimates the area occupied by mononuclear inflammatory cells, including lymphocytes and plasma cells, as a percentage of eligible tumour-associated stroma. It is not the percentage of all cells, a CD8-cell count or the fraction of cancer cells being killed.",
+        "Define the eligible region and treatment setting before estimating the percentage. Use the specified exclusions for normal structures, in-situ disease, necrosis, crush damage and biopsy-site changes, and assess the region overall rather than only its hottest spot. A prognostic association does not establish added benefit from a particular treatment.",
+        "In the pooled analysis of 2,148 early-stage TNBC patients given anthracycline-based chemotherapy with or without taxanes, each 10 percentage-point increase in pretreatment stromal TILs corresponded to an adjusted invasive disease-free survival hazard ratio of 0.87 (95% confidence interval 0.83 to 0.91) and overall survival hazard ratio of 0.84 (0.79 to 0.89). These associations do not establish an added pembrolizumab benefit by TIL level.",
+        "Among 906 TNBC patients from six neoadjuvant chemotherapy trials, pathological complete response occurred in 80 of 260 with low TILs (0% to 10%), 117 of 373 with intermediate TILs (11% to 59%) and 136 of 273 with high TILs (at least 60%): about 31%, 31% and 50%. These categories describe that analysis and are not universal treatment cutoffs.",
+        "Fictional area exercise: region A has 4 units of eligible stroma with 0.4 occupied by infiltrate; region B has 1 unit with 0.6 occupied. Pooled occupied area is (0.4 + 0.6)/(4 + 1) = 20%. Averaging the regional percentages without area weighting gives (10% + 60%)/2 = 35%. This arithmetic illustrates the denominator; it does not prescribe a pixel workflow for clinical semiquantitative scoring.",
+        "A fictional sTIL estimate of 30% means that the defined mononuclear infiltrate occupies about 30% of eligible stromal area. It does not mean 30% of all cells are lymphocytes or CD8 cells, or that 30% of cancer cells are being killed. Intratumoral TILs, positive-nucleus fractions, cells per square millimetre and bulk immune RNA measure different things. Additional stains change the measurement rather than silently changing its denominator.",
+        "Residual-disease recommendations assess the residual tumour bed rather than simply reusing untreated invasive borders. Keep specimen type, site, treatment setting and observer calibration. A high score does not prove tumour-specific recognition, entry into every malignant nest or a permanent hot-tumour state.",
+        "To interpret a stromal TIL estimate, retain the block, sampled site, specimen type and treatment setting, then define the eligible stromal region and its exclusions. The output is a continuous estimated percentage of that area occupied by the specified infiltrate. State whether a trained observer or a computational method produced it, with calibration and regional sampling where relevant. Artifacts, sparse stroma, heterogeneity, observer variation and an unrepresentative sample can limit the result. The section uses finite tissue, and measurement reproducibility is a separate question from validation for clinical treatment selection.",
+        "TIL is a location label, CD8 is a phenotype and antigen specificity is another property. Simoni found bystander CD8 cells recognizing viral rather than cancer epitopes in human lung and colorectal tumours; the study’s CD39 associations are not a universal test of every cell’s target. A functional assay compares defined effectors and targets with recognition and target-survival controls. Neither presence, cytokine release nor one killing assay reproduces every access barrier or establishes clinical benefit.",
+        "The Loi analysis pooled nine studies. In its node-negative subgroup with at least 30% stromal TILs, three-year overall survival was 99% (95% CI 97% to 100%) after the specified adjuvant chemotherapy. Denkert’s pooled neoadjuvant population contained 3,771 patients overall, including the 906 TNBC patients described above. These population and subgroup findings do not make the study categories universal beneficial-TIL thresholds or establish additional pembrolizumab benefit by score.",
+        "In a fictional section, 0.4 square millimetres of mononuclear infiltrate within 2 square millimetres of eligible stroma gives 20% by area. Separately, 30 CD8 cells among 100 counted lymphocytes gives 30% of those counted lymphocytes. Neither is the fraction of all tumour cells, a measure of cancer specificity or evidence of useful killing. One occupied unit among five equal eligible stromal-area units also gives 20%; the drawing illustrates a denominator rather than prescribing pixel counting for semiquantitative breast scoring.",
+        "Fixed sections and morphology or selected stains can measure identity, compartment and abundance; viable-cell assays ask about phenotype and function. Dissociation loses native location, culture can select populations and tests consume finite material. Keep cells per square millimetre, specified cell fractions, stromal-area percentages and assay-specific function distinct. TIL therapy is a manufactured expanded-cell product: a tissue count does not establish product yield, composition, potency or treatment success. Sampling, damage, mixed compartments, unsuitable markers and culture selection are different failure modes, and descriptive pathology, research function and clinical treatment selection require different validation."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "tnm-staging",
+      "kind": "term",
+      "name": "TNM staging",
+      "aka": [
+        "TNM",
+        "T stage",
+        "N stage",
+        "T1a",
+        "T1b",
+        "T1c",
+        "pT2",
+        "T1-2",
+        "T3-4",
+        "N2-3",
+        "M0 disease",
+        "clinical stage"
+      ],
+      "tldr": "TNM describes primary tumour extent, regional nodes and distant metastasis under rules specific to the cancer and staging edition.",
+      "summary": "Interpret TNM with the organ, system, edition, evidence and treatment moment attached. Clinical, surgery-first pathological and post-neoadjuvant categories describe different assessments. Anatomical groups and prognostic groups are distinct, and a stage does not independently predict an individual outcome or choose a treatment.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/TNM_staging_system",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/TNM_staging_system"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+          "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+        },
+        {
+          "label": "AJCC current staging-system table, 2026",
+          "url": "https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "TNM uses cancer-specific rules for primary tumour extent, regional nodal findings and distant metastasis. State system and disease-specific edition; AJCC breast remains eighth edition in the 2026 current-system table. In breast rules, T3 is larger than 5 cm, whereas T4 requires qualifying skin or chest-wall extension. Size alone cannot establish T4 or an overall stage group.",
+        "c denotes clinical assessment using examination, imaging and available biopsy evidence; p incorporates surgical pathological evidence. yc and yp identify clinical and pathological assessments after neoadjuvant treatment. Preserve the full treatment/specimen context: a later addendum on an old pretreatment biopsy still concerns that old sample.",
+        "Keep pretreatment and residual T/N records rather than splicing a pretreatment T to a post-treatment N. CAP applies the y prefix to a formal months-long preoperative endocrine course, but not a brief exposure of days or weeks. Negative breast and regional-node specimens cannot supply pM0; M0 is clinical and pM1 requires the applicable pathological evidence.",
+        "TNM categories do not alone specify a prognostic stage incorporating grade and receptors. Post-treatment extent and response are related but distinct. Regional nodal disease or extranodal extension does not by itself establish M1. In a fictional 6-cm pretreatment breast tumour without qualifying T4 features, cT3 can coexist with later ypT2 ypN1a without erasing the original extent.",
+        "In breast clinical classification, cN3b denotes combined ipsilateral internal mammary and axillary involvement, not a count of ten surgical nodes. With M0, anatomical IIIB comprises T4 with N0, N1 or N2; a T3 size alone does not make IIIB. These anatomical groups differ from grade/receptor-specific clinical prognostic groups.",
+        "Residual cancer burden combines breast-bed dimensions and cellularity with nodal count and metastasis diameter under its own protocol. It complements residual ypTNM rather than replacing it: a largest contiguous invasive focus for ypT is not interchangeable with a two-dimensional RCB bed."
+      ],
+      "category": "Clinical"
+    },
+    {
+      "id": "tumor-bed-cellularity",
+      "kind": "term",
+      "name": "Tumour-bed cellularity",
+      "aka": [
+        "tumour bed cellularity",
+        "residual tumour bed cellularity"
+      ],
+      "tldr": "Tumour-bed cellularity estimates cancer-occupied area within a defined treated breast bed. The in situ share uses a different denominator.",
+      "summary": "Label the region, numerator and denominator before interpreting cellularity. Overall cancer area and the in situ share of that cancer are separate RCB inputs, neither interchangeable with sequencing purity or a score by itself.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "MD Anderson detailed RCB pathology methods",
+          "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+        },
+        {
+          "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "rcb",
+        "treatment-effect-in-pathology",
+        "pcr"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For RCB, overall cancer cellularity estimates the area occupied by invasive plus in situ cancer within a defined residual breast bed. The in situ percentage instead uses the cancer component as denominator. Microscopic review can revise bed boundaries and should represent sparse as well as dense regions; selecting only a dense focus changes the measurement.",
+        "Invasive bed fraction equals overall cancer fraction multiplied by one minus the in situ fraction of cancer. In a fictional 100-unit bed with 20 units of cancer, 25% in situ means 5 bed units in situ and 15 invasive. The invasive share is 75% of cancer but only 15% of the whole bed. These idealised area units teach denominators, not counting instructions or the precision of a clinical estimate.",
+        "Area occupied by cancer, the proportion of counted cells that are malignant and the fraction of sequenced DNA contributed by cancer have different denominators. A selected assay block may also differ from the whole residual bed. Do not enter an area-cellularity estimate as sequencing purity or describe 25% of cancer as 25% of the bed.",
+        "Retain the named bed, specimen, treatment setting, mapping and representative sections, overall area percentage and in situ share separately. Incomplete sampling, a misdefined bed and heterogeneous distribution can bias the estimate; staining or sampling consumes finite tissue. There is no universal low/high cellularity cutoff that alone selects treatment.",
+        "Cellularity alone supplies neither nodal burden, final margins, distant status, pCR nor an RCB score. CAP's residual-invasive RCB span excludes DCIS, while the MD Anderson protocol estimates invasive plus in situ area in a microscopically revised cancer bed. Neither is interchangeable with the largest contiguous ypT focus. CAP advises against RCB score/class after neoadjuvant endocrine therapy, although individual residual measurements may still be useful.",
+        "The MD Anderson protocol estimates overall cellularity and in situ percentage to the nearest 10%, with additional 1% and 5% choices for low values. The 25% in situ example above is fictional denominator arithmetic outside those listed estimation increments. Its arithmetic remains 20 × 0.25 = 5 in situ and 20 - 5 = 15 invasive bed units. A separate protocol-aligned 20% in situ illustration would give 4 in situ and 16 invasive units. Neither should be confused with the RCB example using 50% in situ.",
+        "Two fictional treated breast beds can have the same dimensions while one contains sparse residual carcinoma and the other dense residual carcinoma. The footprint alone cannot distinguish their viable cancer area. Read overall cancer area and the in situ share of that cancer with their different denominators, then keep regional nodes and final margins separate. A DCIS-permitting breast-and-node pCR definition can be met when DCIS remains at an involved final edge but no residual invasive breast or nodal cancer is found. Add an involved regional node and that combined endpoint is no longer met, even with a negative blood assay; this does not by itself establish distant spread."
+      ],
+      "category": "Clinic basics"
+    }
+  ]
+}

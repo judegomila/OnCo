@@ -1,0 +1,1334 @@
+{
+  "reviewedAt": "2026-11-12T21:54:49.368437+00:00",
+  "assets": [
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "71ec61a12ee1cf1b18ac7724ec672357defaaac5",
+      "bytes": 1529601,
+      "sha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "file": "figures/later/instructions-to-car-dark.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "The image distinguishes instructions, receptor domains and recognition that can trigger a response. Simplified shapes and signalling arrows do not demonstrate completed killing.",
+        "sectionHashes": [
+          "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489"
+        ],
+        "points": [
+          {
+            "id": "instructions-protein-and-cell",
+            "requirement": "Separate DNA/RNA instructions, transcription/translation, receptor protein and the living cell; a schematic is not an experimental response.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "gene-expression",
+                "version": "proposal-biology",
+                "field": "summary",
+                "fieldSha256": "76c5c71d2bc6f74c335bf2db47fb7fec9283c435db432a68d605f667d4c28eab",
+                "explanation": "Distinguishes transcription, coding RNA, translation and the eventual protein."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "9a3116a90ddd5d99710320327e611e43a9c81ac190bbe49b4a0e2ea793927788",
+                "explanation": "Names the receptor protein, encoding instructions and living cell as different objects."
+              },
+              {
+                "recordId": "synthetic-cytokine-receptors",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "98d86bd434c3f315a293fb5834456011789c0b83a4ae68d322282d0a718ae787",
+                "explanation": "Explicitly distinguishes mechanistic schematics from expression, signalling, killing and clinical measurements."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "recipient-antigen-and-target-replacement",
+            "requirement": "Distinguish the delivery recipient marker from the cancer antigen; replacing an antigen binder requires renewed recognition, target-coverage and healthy-tissue assessment.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13",
+                "explanation": "Delivery targeting and cancer-antigen recognition are separate."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "f732e904b5ac27b38bf29d8a6d58c81e92e428c602df74ff4c90dd7190388ed9",
+                "explanation": "Keeps receptor identity, matched constructs, healthy-tissue targets and distinct functional readouts with their actual experiments."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": [
+        "VIS-01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "ac8beefd78989a2aa81a8906503fa4e108a469ca",
+      "bytes": 1483699,
+      "sha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "file": "figures/later/instructions-to-car-light.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "The image distinguishes instructions, receptor domains and recognition that can trigger a response. Simplified shapes and signalling arrows do not demonstrate completed killing.",
+        "sectionHashes": [
+          "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b"
+        ],
+        "points": [
+          {
+            "id": "instructions-protein-and-cell",
+            "requirement": "Separate DNA/RNA instructions, transcription/translation, receptor protein and the living cell; a schematic is not an experimental response.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "gene-expression",
+                "version": "proposal-biology",
+                "field": "summary",
+                "fieldSha256": "76c5c71d2bc6f74c335bf2db47fb7fec9283c435db432a68d605f667d4c28eab",
+                "explanation": "Distinguishes transcription, coding RNA, translation and the eventual protein."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "9a3116a90ddd5d99710320327e611e43a9c81ac190bbe49b4a0e2ea793927788",
+                "explanation": "Names the receptor protein, encoding instructions and living cell as different objects."
+              },
+              {
+                "recordId": "synthetic-cytokine-receptors",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "98d86bd434c3f315a293fb5834456011789c0b83a4ae68d322282d0a718ae787",
+                "explanation": "Explicitly distinguishes mechanistic schematics from expression, signalling, killing and clinical measurements."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "recipient-antigen-and-target-replacement",
+            "requirement": "Distinguish the delivery recipient marker from the cancer antigen; replacing an antigen binder requires renewed recognition, target-coverage and healthy-tissue assessment.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13",
+                "explanation": "Delivery targeting and cancer-antigen recognition are separate."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "f732e904b5ac27b38bf29d8a6d58c81e92e428c602df74ff4c90dd7190388ed9",
+                "explanation": "Keeps receptor identity, matched constructs, healthy-tissue targets and distinct functional readouts with their actual experiments."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/03-engineered-t-cell-building-blocks.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "014e0ad5395a6765da6a176bfeb6741bafbff68c",
+      "bytes": 1728795,
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "file": "figures/later/where-cells-are-engineered-v2-dark.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex systematic content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Both PNG themes show ex vivo collection/engineering/testing/cell infusion, versus in vivo delivery of instructions. The mRNA illustration locates translation in cytoplasm; the DNA illustration includes nuclear transcription and mRNA export before translation. Carrier-to-T-cell targeting is separate from CAR-to-antigen recognition. These are schematic examples, without proving cell specificity, tissue distribution, integration, duration, clinical eligibility or benefit.",
+        "sectionHashes": [
+          "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+        ],
+        "points": [
+          {
+            "id": "administered-object-and-location",
+            "requirement": "Distinguish administered cells/carriers and engineering location from in vivo testing.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Defines ex vivo cell administration versus in vivo carrier delivery and distinguishes in vivo testing.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "in-vivo-car-t-ar",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "88aea38fe507d10fa5117f963436d32f529bcc7960fedb4353019c39da8b4397",
+                "explanation": "Actual ar consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-de",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "126e49d16e312194e3105bbb183d50328d117614a702c9f8b781a5cc0baf97a3",
+                "explanation": "Actual de consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-es",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "788b1666b3d1b08a85ef8fe9a2b4379a009b57d6416970b9471ad7557589d6d6",
+                "explanation": "Actual es consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-fr",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "cbabe9be8740fcd5725815887808bfebc4556e850ae624296864fc7900a1b396",
+                "explanation": "Actual fr consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-hi",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "a009588890cc45a5fae2d5305489bf2669266d5a519a4cf50e5a0fc02afec017",
+                "explanation": "Actual hi consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-ja",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "90addc7edd68fad67ee5a990d4351ff0fc957310c2c4ff326834c2361090a8fb",
+                "explanation": "Actual ja consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-pt",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "1e7de67e5dd7ee54642d9845a58750035923281a12e20f824dadb94864da278c",
+                "explanation": "Actual pt consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-zh",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "f5a8966f57f392eb08f635e1e849bdae402eb32ebe03234e1e030de0c68685aa",
+                "explanation": "Actual zh consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-simple",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "0918e0ef4b40affbe3ed672874d27488a63c8e2e8c9c4f7a6489573733f4d7f2",
+                "explanation": "Actual simple consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "independent-axes",
+            "requirement": "Location, recipient/donor source and transient/stable genetic fate are separate attributes.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Location, recipient/donor source and transient/stable genetic fate are separate.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "delivery-and-clinical-scope",
+            "requirement": "Recipient targeting differs from cancer recognition; Rurik cardiac injury and Hunter human-cell/animal results are not patient efficacy, and ex vivo guidance does not automatically validate in vivo carriers.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "summary",
+                "explanation": "Delivery recipient targeting and cancer-antigen recognition differ.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13"
+              },
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Retains Rurik's cardiac mouse and Hunter's human-cell/animal evidence.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "car-t-manufacturing-process",
+                "field": "notes",
+                "explanation": "Ex vivo guidance does not automatically validate in vivo carriers.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "4b51cee5f7420354f144847de7ca597d606dc01a699e143ceb3ffcebfe81dbba"
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "b346df2983260c61255a3e056f3315b04682f782",
+      "bytes": 1681421,
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "file": "figures/later/where-cells-are-engineered-v2-light.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex systematic content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Both PNG themes show ex vivo collection/engineering/testing/cell infusion, versus in vivo delivery of instructions. The mRNA illustration locates translation in cytoplasm; the DNA illustration includes nuclear transcription and mRNA export before translation. Carrier-to-T-cell targeting is separate from CAR-to-antigen recognition. These are schematic examples, without proving cell specificity, tissue distribution, integration, duration, clinical eligibility or benefit.",
+        "sectionHashes": [
+          "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+        ],
+        "points": [
+          {
+            "id": "administered-object-and-location",
+            "requirement": "Distinguish administered cells/carriers and engineering location from in vivo testing.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Defines ex vivo cell administration versus in vivo carrier delivery and distinguishes in vivo testing.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "in-vivo-car-t-ar",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "88aea38fe507d10fa5117f963436d32f529bcc7960fedb4353019c39da8b4397",
+                "explanation": "Actual ar consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-de",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "126e49d16e312194e3105bbb183d50328d117614a702c9f8b781a5cc0baf97a3",
+                "explanation": "Actual de consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-es",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "788b1666b3d1b08a85ef8fe9a2b4379a009b57d6416970b9471ad7557589d6d6",
+                "explanation": "Actual es consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-fr",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "cbabe9be8740fcd5725815887808bfebc4556e850ae624296864fc7900a1b396",
+                "explanation": "Actual fr consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-hi",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "a009588890cc45a5fae2d5305489bf2669266d5a519a4cf50e5a0fc02afec017",
+                "explanation": "Actual hi consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-ja",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "90addc7edd68fad67ee5a990d4351ff0fc957310c2c4ff326834c2361090a8fb",
+                "explanation": "Actual ja consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-pt",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "1e7de67e5dd7ee54642d9845a58750035923281a12e20f824dadb94864da278c",
+                "explanation": "Actual pt consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-zh",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "f5a8966f57f392eb08f635e1e849bdae402eb32ebe03234e1e030de0c68685aa",
+                "explanation": "Actual zh consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-simple",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "0918e0ef4b40affbe3ed672874d27488a63c8e2e8c9c4f7a6489573733f4d7f2",
+                "explanation": "Actual simple consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "independent-axes",
+            "requirement": "Location, recipient/donor source and transient/stable genetic fate are separate attributes.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Location, recipient/donor source and transient/stable genetic fate are separate.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "delivery-and-clinical-scope",
+            "requirement": "Recipient targeting differs from cancer recognition; Rurik cardiac injury and Hunter human-cell/animal results are not patient efficacy, and ex vivo guidance does not automatically validate in vivo carriers.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "summary",
+                "explanation": "Delivery recipient targeting and cancer-antigen recognition differ.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13"
+              },
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Retains Rurik's cardiac mouse and Hunter's human-cell/animal evidence.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "car-t-manufacturing-process",
+                "field": "notes",
+                "explanation": "Ex vivo guidance does not automatically validate in vivo carriers.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "4b51cee5f7420354f144847de7ca597d606dc01a699e143ceb3ffcebfe81dbba"
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "5885eab003e6e1cc9d4206266b0bfae6f95e01f0",
+      "bytes": 1971063,
+      "sha256": "01e29fc825b343481ef5c575c96c5b19ef9fce3d7d28f928c19c309d1b531c18",
+      "file": "figures/later/cytokine-message-and-receptor-v2-dark.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "3145e6e46b457bffa5ec2724594c7c6379c868b0",
+      "bytes": 2012662,
+      "sha256": "bea69ef1dafbfc4c68952ac43ac6d9f0969e26af478f2b4d1f4752ba84ca14ba",
+      "file": "figures/later/cytokine-message-and-receptor-v2-light.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/05-cytokines-and-programmable-receptors.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "8917bf8aa574e7a9bf093cb87660a1b8a94cf369",
+      "bytes": 1768080,
+      "sha256": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
+      "file": "figures/later/solid-tumor-journey-dark.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": [
+        "VIS-02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/cellular-therapies/images/solid-tumor-journey-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "d537c21848a9dc417624b755c30b9d9f0a118c03",
+      "bytes": 1583674,
+      "sha256": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
+      "file": "figures/later/solid-tumor-journey-light.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/guides/engineered-cell-therapy/06-solid-tumor-barriers.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "71ec61a12ee1cf1b18ac7724ec672357defaaac5",
+      "bytes": 1529601,
+      "sha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "file": "figures/original/instructions-to-car-dark.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "The image distinguishes instructions, receptor domains and recognition that can trigger a response. Simplified shapes and signalling arrows do not demonstrate completed killing.",
+        "sectionHashes": [
+          "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489"
+        ],
+        "points": [
+          {
+            "id": "instructions-protein-and-cell",
+            "requirement": "Separate DNA/RNA instructions, transcription/translation, receptor protein and the living cell; a schematic is not an experimental response.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "gene-expression",
+                "version": "proposal-biology",
+                "field": "summary",
+                "fieldSha256": "76c5c71d2bc6f74c335bf2db47fb7fec9283c435db432a68d605f667d4c28eab",
+                "explanation": "Distinguishes transcription, coding RNA, translation and the eventual protein."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "9a3116a90ddd5d99710320327e611e43a9c81ac190bbe49b4a0e2ea793927788",
+                "explanation": "Names the receptor protein, encoding instructions and living cell as different objects."
+              },
+              {
+                "recordId": "synthetic-cytokine-receptors",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "98d86bd434c3f315a293fb5834456011789c0b83a4ae68d322282d0a718ae787",
+                "explanation": "Explicitly distinguishes mechanistic schematics from expression, signalling, killing and clinical measurements."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "recipient-antigen-and-target-replacement",
+            "requirement": "Distinguish the delivery recipient marker from the cancer antigen; replacing an antigen binder requires renewed recognition, target-coverage and healthy-tissue assessment.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13",
+                "explanation": "Delivery targeting and cancer-antigen recognition are separate."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "f732e904b5ac27b38bf29d8a6d58c81e92e428c602df74ff4c90dd7190388ed9",
+                "explanation": "Keeps receptor identity, matched constructs, healthy-tissue targets and distinct functional readouts with their actual experiments."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": [
+        "VIS-01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "ac8beefd78989a2aa81a8906503fa4e108a469ca",
+      "bytes": 1483699,
+      "sha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "file": "figures/original/instructions-to-car-light.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "The image distinguishes instructions, receptor domains and recognition that can trigger a response. Simplified shapes and signalling arrows do not demonstrate completed killing.",
+        "sectionHashes": [
+          "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b"
+        ],
+        "points": [
+          {
+            "id": "instructions-protein-and-cell",
+            "requirement": "Separate DNA/RNA instructions, transcription/translation, receptor protein and the living cell; a schematic is not an experimental response.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "gene-expression",
+                "version": "proposal-biology",
+                "field": "summary",
+                "fieldSha256": "76c5c71d2bc6f74c335bf2db47fb7fec9283c435db432a68d605f667d4c28eab",
+                "explanation": "Distinguishes transcription, coding RNA, translation and the eventual protein."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "9a3116a90ddd5d99710320327e611e43a9c81ac190bbe49b4a0e2ea793927788",
+                "explanation": "Names the receptor protein, encoding instructions and living cell as different objects."
+              },
+              {
+                "recordId": "synthetic-cytokine-receptors",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "98d86bd434c3f315a293fb5834456011789c0b83a4ae68d322282d0a718ae787",
+                "explanation": "Explicitly distinguishes mechanistic schematics from expression, signalling, killing and clinical measurements."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "recipient-antigen-and-target-replacement",
+            "requirement": "Distinguish the delivery recipient marker from the cancer antigen; replacing an antigen binder requires renewed recognition, target-coverage and healthy-tissue assessment.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "version": "proposal-therapeutic",
+                "field": "summary",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13",
+                "explanation": "Delivery targeting and cancer-antigen recognition are separate."
+              },
+              {
+                "recordId": "car-t",
+                "version": "proposal-therapeutic",
+                "field": "notes",
+                "fieldSha256": "f732e904b5ac27b38bf29d8a6d58c81e92e428c602df74ff4c90dd7190388ed9",
+                "explanation": "Keeps receptor identity, matched constructs, healthy-tissue targets and distinct functional readouts with their actual experiments."
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/05-engineered-t-cell-building-blocks.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "014e0ad5395a6765da6a176bfeb6741bafbff68c",
+      "bytes": 1728795,
+      "sha256": "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8",
+      "file": "figures/original/where-cells-are-engineered-v2-dark.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex systematic content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Both PNG themes show ex vivo collection/engineering/testing/cell infusion, versus in vivo delivery of instructions. The mRNA illustration locates translation in cytoplasm; the DNA illustration includes nuclear transcription and mRNA export before translation. Carrier-to-T-cell targeting is separate from CAR-to-antigen recognition. These are schematic examples, without proving cell specificity, tissue distribution, integration, duration, clinical eligibility or benefit.",
+        "sectionHashes": [
+          "250f9414da6f6a825e666eff676d61af496e0aa78e95c64a126e5cc3966e31b8"
+        ],
+        "points": [
+          {
+            "id": "administered-object-and-location",
+            "requirement": "Distinguish administered cells/carriers and engineering location from in vivo testing.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Defines ex vivo cell administration versus in vivo carrier delivery and distinguishes in vivo testing.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "in-vivo-car-t-ar",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "88aea38fe507d10fa5117f963436d32f529bcc7960fedb4353019c39da8b4397",
+                "explanation": "Actual ar consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-de",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "126e49d16e312194e3105bbb183d50328d117614a702c9f8b781a5cc0baf97a3",
+                "explanation": "Actual de consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-es",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "788b1666b3d1b08a85ef8fe9a2b4379a009b57d6416970b9471ad7557589d6d6",
+                "explanation": "Actual es consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-fr",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "cbabe9be8740fcd5725815887808bfebc4556e850ae624296864fc7900a1b396",
+                "explanation": "Actual fr consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-hi",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "a009588890cc45a5fae2d5305489bf2669266d5a519a4cf50e5a0fc02afec017",
+                "explanation": "Actual hi consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-ja",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "90addc7edd68fad67ee5a990d4351ff0fc957310c2c4ff326834c2361090a8fb",
+                "explanation": "Actual ja consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-pt",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "1e7de67e5dd7ee54642d9845a58750035923281a12e20f824dadb94864da278c",
+                "explanation": "Actual pt consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-zh",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "f5a8966f57f392eb08f635e1e849bdae402eb32ebe03234e1e030de0c68685aa",
+                "explanation": "Actual zh consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-simple",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "0918e0ef4b40affbe3ed672874d27488a63c8e2e8c9c4f7a6489573733f4d7f2",
+                "explanation": "Actual simple consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "independent-axes",
+            "requirement": "Location, recipient/donor source and transient/stable genetic fate are separate attributes.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Location, recipient/donor source and transient/stable genetic fate are separate.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "delivery-and-clinical-scope",
+            "requirement": "Recipient targeting differs from cancer recognition; Rurik cardiac injury and Hunter human-cell/animal results are not patient efficacy, and ex vivo guidance does not automatically validate in vivo carriers.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "summary",
+                "explanation": "Delivery recipient targeting and cancer-antigen recognition differ.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13"
+              },
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Retains Rurik's cardiac mouse and Hunter's human-cell/animal evidence.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "car-t-manufacturing-process",
+                "field": "notes",
+                "explanation": "Ex vivo guidance does not automatically validate in vivo carriers.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "4b51cee5f7420354f144847de7ca597d606dc01a699e143ceb3ffcebfe81dbba"
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/06-in-vivo-delivery.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "b346df2983260c61255a3e056f3315b04682f782",
+      "bytes": 1681421,
+      "sha256": "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7",
+      "file": "figures/original/where-cells-are-engineered-v2-light.png",
+      "priorScope": "teaching",
+      "priorReview": {
+        "status": "reviewed",
+        "auditor": "Codex systematic content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Both PNG themes show ex vivo collection/engineering/testing/cell infusion, versus in vivo delivery of instructions. The mRNA illustration locates translation in cytoplasm; the DNA illustration includes nuclear transcription and mRNA export before translation. Carrier-to-T-cell targeting is separate from CAR-to-antigen recognition. These are schematic examples, without proving cell specificity, tissue distribution, integration, duration, clinical eligibility or benefit.",
+        "sectionHashes": [
+          "2b04e6a60b52b60e392ce8bd439f2a80dea380ddd95ad65b1db953c63c9e9db7"
+        ],
+        "points": [
+          {
+            "id": "administered-object-and-location",
+            "requirement": "Distinguish administered cells/carriers and engineering location from in vivo testing.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Defines ex vivo cell administration versus in vivo carrier delivery and distinguishes in vivo testing.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "in-vivo-car-t-ar",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "88aea38fe507d10fa5117f963436d32f529bcc7960fedb4353019c39da8b4397",
+                "explanation": "Actual ar consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-de",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "126e49d16e312194e3105bbb183d50328d117614a702c9f8b781a5cc0baf97a3",
+                "explanation": "Actual de consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-es",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "788b1666b3d1b08a85ef8fe9a2b4379a009b57d6416970b9471ad7557589d6d6",
+                "explanation": "Actual es consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-fr",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "cbabe9be8740fcd5725815887808bfebc4556e850ae624296864fc7900a1b396",
+                "explanation": "Actual fr consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-hi",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "a009588890cc45a5fae2d5305489bf2669266d5a519a4cf50e5a0fc02afec017",
+                "explanation": "Actual hi consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-ja",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "90addc7edd68fad67ee5a990d4351ff0fc957310c2c4ff326834c2361090a8fb",
+                "explanation": "Actual ja consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-pt",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "1e7de67e5dd7ee54642d9845a58750035923281a12e20f824dadb94864da278c",
+                "explanation": "Actual pt consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-zh",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "f5a8966f57f392eb08f635e1e849bdae402eb32ebe03234e1e030de0c68685aa",
+                "explanation": "Actual zh consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              },
+              {
+                "recordId": "in-vivo-car-t-simple",
+                "version": "proposal-summary-consumers",
+                "field": "text",
+                "fieldSha256": "0918e0ef4b40affbe3ed672874d27488a63c8e2e8c9c4f7a6489573733f4d7f2",
+                "explanation": "Actual simple consumer follows the scoped canonical concept; machine-assisted and unreviewed."
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "independent-axes",
+            "requirement": "Location, recipient/donor source and transient/stable genetic fate are separate attributes.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Location, recipient/donor source and transient/stable genetic fate are separate.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              }
+            ],
+            "remaining": []
+          },
+          {
+            "id": "delivery-and-clinical-scope",
+            "requirement": "Recipient targeting differs from cancer recognition; Rurik cardiac injury and Hunter human-cell/animal results are not patient efficacy, and ex vivo guidance does not automatically validate in vivo carriers.",
+            "status": "covered-draft",
+            "evidence": [
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "summary",
+                "explanation": "Delivery recipient targeting and cancer-antigen recognition differ.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "04180aa18c35dd3ff197af27e3bb910f3125163354e5f3a8a0e7fdf1a2e28d13"
+              },
+              {
+                "recordId": "in-vivo-car-t",
+                "field": "notes",
+                "explanation": "Retains Rurik's cardiac mouse and Hunter's human-cell/animal evidence.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300"
+              },
+              {
+                "recordId": "car-t-manufacturing-process",
+                "field": "notes",
+                "explanation": "Ex vivo guidance does not automatically validate in vivo carriers.",
+                "version": "proposal-therapeutic",
+                "fieldSha256": "4b51cee5f7420354f144847de7ca597d606dc01a699e143ceb3ffcebfe81dbba"
+              }
+            ],
+            "remaining": []
+          }
+        ]
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/06-in-vivo-delivery.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "5885eab003e6e1cc9d4206266b0bfae6f95e01f0",
+      "bytes": 1971063,
+      "sha256": "01e29fc825b343481ef5c575c96c5b19ef9fce3d7d28f928c19c309d1b531c18",
+      "file": "figures/original/cytokine-message-and-receptor-v2-dark.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "3145e6e46b457bffa5ec2724594c7c6379c868b0",
+      "bytes": 2012662,
+      "sha256": "bea69ef1dafbfc4c68952ac43ac6d9f0969e26af478f2b4d1f4752ba84ca14ba",
+      "file": "figures/original/cytokine-message-and-receptor-v2-light.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/07-cytokines-and-programmable-receptors.md"
+      ],
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "8917bf8aa574e7a9bf093cb87660a1b8a94cf369",
+      "bytes": 1768080,
+      "sha256": "e32b9a19a99fad4724cd8a07f3416c0d60ad473df6f2121277e4b63a15190d3b",
+      "file": "figures/original/solid-tumor-journey-dark.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/08-solid-tumor-barriers.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": [
+        "VIS-02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/cellular-therapies/images/solid-tumor-journey-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "d537c21848a9dc417624b755c30b9d9f0a118c03",
+      "bytes": 1583674,
+      "sha256": "cb6a2174b19399f437ee1e0c0b0691b2f447b4b1d7fb413ae84b56f52e43f58f",
+      "file": "figures/original/solid-tumor-journey-light.png",
+      "priorScope": "unclassified",
+      "priorReview": {
+        "status": "unreviewed",
+        "points": []
+      },
+      "sourceLessons": [
+        "wiki/education/cellular-therapies/08-solid-tumor-barriers.md"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "viewed": true,
+      "viewMethod": "Fresh full-extent native PNG using view_image(detail=original); both variants read including all internal labels and the linked source-caption context. Identical other-pin blob reuses the same view.",
+      "scientificAssessment": "Schematic interpreted only within source caption and the frozen requirements; arrows, placement and cell numbers are not empirical measurements.",
+      "findings": []
+    }
+  ],
+  "diagrams": {
+    "diagramInstances": 6,
+    "uniqueCodes": 3,
+    "renders": [
+      {
+        "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+        "theme": "default",
+        "instances": [
+          {
+            "phase": "original",
+            "path": "wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+            "file": "mermaid/original-10-read-a-research-product-study-1.mmd"
+          },
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+            "file": "mermaid/later-10-read-a-research-product-study-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-1-default.png",
+        "renderSha256": "e54db481b54b785022cb24bb1aa7fa46a5508f81115e35b7d651c506c14f239d",
+        "width": 217,
+        "height": 296,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": [
+          "VIS-03"
+        ]
+      },
+      {
+        "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+        "theme": "dark",
+        "instances": [
+          {
+            "phase": "original",
+            "path": "wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+            "file": "mermaid/original-10-read-a-research-product-study-1.mmd"
+          },
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/10-read-a-research-product-study.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "8f1659fe419f6ba4f353ab17cc31fe8b00d2cb89afa13c184fcd4837f97504b5",
+            "file": "mermaid/later-10-read-a-research-product-study-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-1-dark.png",
+        "renderSha256": "5d3919b581b0ac90cb02061fafcd6d16237ce790e1da6fbca1152f512f1db065",
+        "width": 217,
+        "height": 296,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": [
+          "VIS-03"
+        ]
+      },
+      {
+        "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+        "theme": "default",
+        "instances": [
+          {
+            "phase": "original",
+            "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+            "file": "mermaid/original-index-1.mmd"
+          },
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+            "file": "mermaid/later-index-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-2-default.png",
+        "renderSha256": "556ab0b84715bbb4c48e13c82783951926a415f7ff19e3c8235a0ad58ee3d090",
+        "width": 360,
+        "height": 881,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": []
+      },
+      {
+        "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+        "theme": "dark",
+        "instances": [
+          {
+            "phase": "original",
+            "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+            "file": "mermaid/original-index-1.mmd"
+          },
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "2b4cfb6ba0b215b7ee52ec321dac5ea89326d2350a2177ea4d39d827ab73b553",
+            "file": "mermaid/later-index-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-2-dark.png",
+        "renderSha256": "f0f36adbb2a2df589ae065b9203d2a34d8e02a61c2a9260ee132985e57a47dc8",
+        "width": 360,
+        "height": 881,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": []
+      },
+      {
+        "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+        "theme": "default",
+        "instances": [
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+            "file": "mermaid/later-04-in-vivo-delivery-1.mmd"
+          },
+          {
+            "phase": "original",
+            "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+            "file": "mermaid/original-06-in-vivo-delivery-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-3-default.png",
+        "renderSha256": "b04067c9470ec77e4727eb6b2e6d02e9f7b915834b816a162d82911090fa758a",
+        "width": 168,
+        "height": 720,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": []
+      },
+      {
+        "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+        "theme": "dark",
+        "instances": [
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+            "file": "mermaid/later-04-in-vivo-delivery-1.mmd"
+          },
+          {
+            "phase": "original",
+            "path": "wiki/education/cellular-therapies/06-in-vivo-delivery.md",
+            "diagramOrdinal": 1,
+            "codeSha256": "ec6a7d7add30703d91508aef333636dec48726ea6fad82ad858eb792310d4934",
+            "file": "mermaid/original-06-in-vivo-delivery-1.mmd"
+          }
+        ],
+        "render": "renders/diagram-3-dark.png",
+        "renderSha256": "22d9821029b9236c9fc454540bfc095de28139130cb9fad879baf7e429cbb3cd",
+        "width": 168,
+        "height": 720,
+        "viewed": true,
+        "viewMethod": "Fresh full-extent headless Chrome output viewed with view_image at original size; node text, branches and arrowheads checked.",
+        "findings": []
+      }
+    ],
+    "scope": "Fresh full-extent headless Chrome rendering of the pinned source Mermaid in default and dark themes; not a live Guide or OnCo page check."
+  },
+  "findings": [
+    {
+      "id": "VIS-01",
+      "asset": "instructions-to-car-dark.png",
+      "severity": "low",
+      "finding": "The bracket labelled CAR ends near the membrane and does not encompass the green intracellular signalling region. The chapter correctly describes the complete receptor; a bracket spanning all components would avoid a narrower visual reading.",
+      "action": "Caption/illustration-owner clarification queued; not silently treated as evidence that the signalling region is outside the CAR."
+    },
+    {
+      "id": "VIS-02",
+      "asset": "solid-tumor-journey-dark.png",
+      "severity": "scope",
+      "finding": "The dark variant explicitly adds Supportive receptor can help, while the light version depicts the supportive input without that sentence. Conditional help is not a measured benefit, access or safety result.",
+      "action": "Retain BAR context/function and PRO feature-control requirements; do not claim identical text across themes."
+    },
+    {
+      "id": "VIS-03",
+      "asset": "diagram-1-default/dark",
+      "severity": "low",
+      "finding": "Complete-product wraps within the word in the standalone Mermaid output; all nodes and arrowheads remain visible.",
+      "action": "Standalone-render legibility note, not a live Guide-site defect claim."
+    }
+  ],
+  "counts": {
+    "assetVersionEntries": 16,
+    "distinctPNGsViewed": 8,
+    "diagramVersionInstances": 6,
+    "uniqueMermaidCodes": 3,
+    "freshMermaidThemeViews": 6,
+    "newAssetScopeCandidates": 8
+  },
+  "creditBoundary": "Coordinator audit views, not expert, owner, accessibility, live-site or learner approval. Earlier asset points and their hashes remain preserved; current views do not create graph credit on their own."
+}

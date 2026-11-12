@@ -1,0 +1,849 @@
+{
+  "schemaVersion": 1,
+  "batch": "rna-delivery-content",
+  "generated": "2026-11-10T06:23:20+00:00",
+  "status": "coordinator-integrated-draft",
+  "statusReason": "All in-scope requirements have an explicit disposition with evidence, but 54 rows are only proposed patches to blocked draft #373 owners (no credit), the six new records are unregistered, and the retained access and support limits below remain.",
+  "baseline": {
+    "branch": "t3/rna-delivery-content-audit",
+    "baseSha": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "earlierCommitPreserved": "97302ef09c7c317f8b7a8ef1bb4a5d89d0f78add",
+    "finalSha": "8addc9cd1a01da21f751905b471120be2a599ecc"
+  },
+  "guideRefs": {
+    "original": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "later": "c96896452386202405c435aa161bc5047919337a"
+  },
+  "denominators": {
+    "pages": 13,
+    "sourceVersions": 26,
+    "sectionsOriginal": 148,
+    "sectionsLater": 148,
+    "sourceVersionIdentityVerifiedSha256AndGitBlob": 26,
+    "sectionSignaturesReproduced": 26
+  },
+  "pages": [
+    {
+      "page": "aav-vector",
+      "title": "AAV (adeno-associated virus) vector",
+      "ownerId": "aav-vector",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+          "sourceSha256": "26e11f750961ea9d6c1be00a2813aea8817bdeb144e200ec196af462b1937be6",
+          "gitBlob": "65c2592ffa1b2ea07c6b8edfbb59165d9d0e821d",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+          "sourceSha256": "a4a4e207c16a991d04bc7ae80a7d477cb25039f2b3f7f0b1cf21f18d2e988f1a",
+          "gitBlob": "51d13fe942f3bba6ff0ccaedfd1817f5698a05ff",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [
+        4,
+        10
+      ],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "sections [4, 10] differ; both versions read and diffed (see versionDifferenceNotes)",
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "vector-dna-chromosome-and-expression-v1"
+      ],
+      "workerHistoricalVersionDifferenceNotes": {
+        "4": "later adds 'about 4.7 kb' wild-type genome size and 'practical ceiling near 5 kb'; original said 'roughly 5 kb ... close to the size of the wild-type AAV genome'. The 4.7 kb figure is unsourced (no retrieved source states it); the Wu abstract supports the 5 kb limit and the 5.2 kb packaged-genome ceiling.",
+        "10": "later adds a sentence stating the 4.7 kb figure is a standard species figure, not from the experiment (candid, accurate)."
+      }
+    },
+    {
+      "page": "delivery-targeting-vs-cancer-targeting",
+      "title": "Delivery targeting versus cancer targeting",
+      "ownerId": "delivery-target-versus-therapeutic-target",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+          "sourceSha256": "f0b8f5576f4580e78ff55dc3963c7dda6430a565ec26cff4706670ee84fe554b",
+          "gitBlob": "3908e0216095867f9bc56d1fa0928908bd5022be",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+          "sourceSha256": "a8fceb53f0710c16ef0559ed8fdb307fe79b1e0af5a8fb3e7e2ca4e0f0391175",
+          "gitBlob": "2f655f4a505c7c23985c291aed967ae1cecd61f8",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": []
+    },
+    {
+      "page": "lentiviral-vector",
+      "title": "Lentiviral vector",
+      "ownerId": "lentiviral-vector",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+          "sourceSha256": "2e6585964da59dbe3bb254257e0a1448643d4eaa5aafd13af03d90e19a630eb8",
+          "gitBlob": "8809fa6509a8bc6721aefa713de66ab91df392e1",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+          "sourceSha256": "85724cbd309f6267480b6b84cbce13b0103e1210db251ec66c1c4add0163dad2",
+          "gitBlob": "829ba1bb146f62acc10aec19c340bc62e87a26bf",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "rna-dna-integration-and-expression-v1"
+      ]
+    },
+    {
+      "page": "lipid-nanoparticle",
+      "title": "LNP (lipid nanoparticle)",
+      "ownerId": "lipid-nanoparticle",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+          "sourceSha256": "d3166bbf595de9903eccaae23ff76010a6ff1da471f4b9fed7b1f00dc2a904d0",
+          "gitBlob": "76b3b9ae147c2723e20b440a5ca8cdfebfe78c75",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+          "sourceSha256": "4b1b4736248c9d6650a3771b4459a020a93686e584b1de8d921d65824bddc4fa",
+          "gitBlob": "4cd1f583f41097751b4cf5a00e48dbe1f5b95fd8",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "uptake-is-not-expression-v2"
+      ]
+    },
+    {
+      "page": "rna-lipoplex",
+      "title": "RNA-lipoplex",
+      "ownerId": "rna-lipoplex",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+          "sourceSha256": "8411e9205485783665083739d97800812fd4e0067997dc51068357d120f167ef",
+          "gitBlob": "e565b4b5de8e7598982c7c877935b36451f602b4",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+          "sourceSha256": "654d43202e732a33ef48127d6828e4e8bbdf841dac6d7a9d7cda04f319874175",
+          "gitBlob": "d26bcb64c9e7fb773bb7ffc165c65ca3d8d0a423",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": []
+    },
+    {
+      "page": "targeted-lnps",
+      "title": "Targeted lipid nanoparticles",
+      "ownerId": "targeted-lnps",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+          "sourceSha256": "3e07ce917c5c8d90d7ca2a5405cd0e9d9e2bbd155c5ef0ca5dd650ce13aa1ea6",
+          "gitBlob": "86d930cd050a60e07623e57971da39e901fc2c87",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+          "sourceSha256": "0011817e9aa92faafe9e5f9884d425c06e6644ddde43175ec3d3b191d02c3cfb",
+          "gitBlob": "7cce0f4ea63d0bd59ce6167792d75446bc97a0e4",
+          "identityVerified": true,
+          "sections": 12,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": []
+    },
+    {
+      "page": "transposon",
+      "title": "Transposon for cell engineering",
+      "ownerId": "transposon",
+      "ownerRoute": "applied new record in unregistered module",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+          "sourceSha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+          "gitBlob": "def2bff41ae5662a72a0f0b79a0a17b7be86a258",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+          "sourceSha256": "1f806ed9743fcbb8d5fe0623b2bd742a5ff506e32d8e6f64b5ddc7660148516d",
+          "gitBlob": "763687c78c56a63ed69bf7c0a3b64305c42aa3fd",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "cassette-boundaries-and-separate-insertion-v1"
+      ]
+    },
+    {
+      "page": "codon-optimization",
+      "title": "Codon optimization",
+      "ownerId": "codon-optimization",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+          "sourceSha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+          "gitBlob": "e8385e64eea1eb1d6a98e4cb43dc6c4895ac4562",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+          "sourceSha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+          "gitBlob": "e8385e64eea1eb1d6a98e4cb43dc6c4895ac4562",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": true,
+      "versionEquivalence": "byte-identical",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "same-protein-distinct-rna-v1"
+      ]
+    },
+    {
+      "page": "dsrna-impurities-and-purification",
+      "title": "Double-stranded RNA impurities and purification",
+      "ownerId": "dsrna-impurities",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+          "sourceSha256": "36d465ceb1f72dfdd2731e1ebb587b0e73134f2515f23a5e48055a94e349aa88",
+          "gitBlob": "bb12b5225470dddf6d58d6e61290619fa35ff1f0",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+          "sourceSha256": "8b2121b71ae20a7fa766d680b481a0e3f54aecb0617f89a4eba2bdbec56e74c6",
+          "gitBlob": "1f7301cc32ca0dd85e3c3d33a2c899a083987e5a",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "paired-byproducts-folds-and-truncations-v1"
+      ]
+    },
+    {
+      "page": "in-vitro-transcription",
+      "title": "In vitro transcription",
+      "ownerId": "in-vitro-transcription",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+          "sourceSha256": "b5b1a3375d52f4a551ef46fa29f2ace0d543eab9b4d602af862a5c55ccc72e71",
+          "gitBlob": "a2dc779de0105038b24f38b3f0457748c1e49d5f",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+          "sourceSha256": "e6081cd7294fc9f9f944a5e66419a473ca48772ba2d69a0f49148e674f983ca2",
+          "gitBlob": "57b55ddc5686a4f76df0141becec6963273f33ff",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": []
+    },
+    {
+      "page": "modified-nucleosides",
+      "title": "Modified nucleosides in mRNA",
+      "ownerId": "modified-rna-nucleosides",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+          "sourceSha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+          "gitBlob": "47e9184d6b2b6ec0ed04e1c278a96062290341f1",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+          "sourceSha256": "c34bbf898f578ec85ba279975db6b2406058e918eb674b2b70a33ec66db875a5",
+          "gitBlob": "884fab2095b47206e224d4351439b493051ef4b0",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "rna-sequence-chemistry-and-byproduct-axes-v1"
+      ]
+    },
+    {
+      "page": "mrna-construct-anatomy",
+      "title": "mRNA construct anatomy",
+      "ownerId": "mrna-construct-anatomy",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+          "sourceSha256": "54dcc7421ddd085a5a49e83b015451ebb64559674ca8ffdd909790cd1bb78c88",
+          "gitBlob": "9b68ae96804e2d4a51a25ff7e67260d1aaab840e",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+          "sourceSha256": "c1fcbb4806621d974d1577d5c391a8e0a989ccef44534151153ca7787faf3c65",
+          "gitBlob": "5e678cda0bfe1c977573e1838425392199ca3772",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "cap-start-context-and-tail-v1"
+      ]
+    },
+    {
+      "page": "multi-epitope-constructs",
+      "title": "Multi-epitope constructs",
+      "ownerId": "multi-epitope-constructs",
+      "ownerRoute": "blocked draft #373 owner: exact coordinator patch",
+      "versions": {
+        "original": {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+          "sourceSha256": "3e01bc1c60ffff921c8a360840de79dc08a43991e576fb176948ec253002effb",
+          "gitBlob": "382f504082d09fe55c1e824639a802e1a6938d18",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        },
+        "later": {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+          "sourceSha256": "07b1b2e8f637f283252197f8c353acefec570e61f126fb6b6a713c47108a95dc",
+          "gitBlob": "7acdc8c9d54d826e01cd3fa139dd97433ab3cb1f",
+          "identityVerified": true,
+          "sections": 11,
+          "assessed": "full text read"
+        }
+      },
+      "sectionSignaturesReproduced": true,
+      "sectionsDifferingBetweenVersions": [],
+      "wholeFileShaEqual": false,
+      "versionEquivalence": "all section signatures identical; whole-file difference is front matter used_by lists and the generated Used-in block, which the section rule excludes",
+      "versionDifferenceNotes": null,
+      "personalOrPrivateContentExcluded": "none present (generic teaching pages; fictional worked examples only)",
+      "figures": [
+        "encoded-windows-and-boundary-peptides-v1"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "page": "aav-vector",
+      "family": "vector-dna-chromosome-and-expression-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-light.svg",
+      "gitBlob": "2148951ee2518aadf0e543839808c80c8fa81d10",
+      "bytes": 3983,
+      "sha256": "d48646c04c3a23964ca4a17423c8f749899fc3c852f4e6426eeab6dedcb5e1fc",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Capsid, episome, chromosome-insertion and DNA to RNA to protein shown as separate layers; 'Forms shown are not frequencies'. Matches page caption. No factual error found.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "aav-vector:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "aav-vector",
+      "family": "vector-dna-chromosome-and-expression-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-dark.svg",
+      "gitBlob": "17c0a622d3c0252174b10a41df065a382c722f53",
+      "bytes": 3983,
+      "sha256": "4d460ee2a3d7e15e9b4e8f281d0ba146056a80418674ba7c2a52d0b56d3d16c9",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "aav-vector:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "lentiviral-vector",
+      "family": "rna-dna-integration-and-expression-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-light.svg",
+      "gitBlob": "671c7c0570bca32f8039f39aa10cf1ac72e4b357",
+      "bytes": 4384,
+      "sha256": "4218ece8dd42beef40b8a46f37050c4359ccc522bbd74da01e740f098e997e20",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Envelope entry, incoming RNA, reverse transcription, integrating-design insertion, expression; states integration-deficient designs reduce integration, not necessarily to zero. Minor layout flaw only: the arrow overlaps the 'RNA to DNA copy' label. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "lentiviral-vector:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "lentiviral-vector",
+      "family": "rna-dna-integration-and-expression-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-dark.svg",
+      "gitBlob": "c2820c67d1238d4c4a268ff6e5c3f3b2c2ab5e28",
+      "bytes": 4384,
+      "sha256": "821c7a8864096eebb50eb58e9d2a804fb021e9a12f88b86c99664ba4bc5d9963",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "lentiviral-vector:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "lipid-nanoparticle",
+      "family": "uptake-is-not-expression-v2",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-light.png",
+      "gitBlob": "0f9a7a153f4d4d1fef99eb30e055875e3487061d",
+      "bytes": 1666909,
+      "sha256": "2c80056cf85f47914b351130e39d4d97f762cdb7ad95763f8dac0d5eacb7d656",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Both PNGs (light, dark) viewed in full. Three panels: LNPs with RNA inside an endosome, escape into cytosol with question marks between steps, ribosome translating free RNA. The question marks and 'Measure each step' carry the page's point; caption says the panels show possible steps, not efficiency. Endosome drawn inside the cell. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "lipid-nanoparticle:R03",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "lipid-nanoparticle",
+      "family": "uptake-is-not-expression-v2",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-dark.png",
+      "gitBlob": "7e45409987e07bde2b324fcf8a641843804459ce",
+      "bytes": 1618430,
+      "sha256": "9aacdfa52d801cb7b4f95655e710ac9a7c126c618713dbf76149a661f24e5e9d",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Both PNGs (light, dark) viewed in full. Three panels: LNPs with RNA inside an endosome, escape into cytosol with question marks between steps, ribosome translating free RNA. The question marks and 'Measure each step' carry the page's point; caption says the panels show possible steps, not efficiency. Endosome drawn inside the cell. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "lipid-nanoparticle:R03",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "transposon",
+      "family": "cassette-boundaries-and-separate-insertion-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+      "gitBlob": "08609984a3cdf69d824fdb147c092eac7c67024b",
+      "bytes": 5444,
+      "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Separate delivery panel, then nucleus with cassette boundaries, transposase and cassette within a chromosome; 'Expression and function need separate measurements'. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "transposon:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "transposon",
+      "family": "cassette-boundaries-and-separate-insertion-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+      "gitBlob": "e4fafc183e1edd094731728f3b3ed4c132b36763",
+      "bytes": 5444,
+      "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "transposon:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "codon-optimization",
+      "family": "same-protein-distinct-rna-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-light.svg",
+      "gitBlob": "711bd9c5c99503b199f43f7b69ff9bd46f655e10",
+      "bytes": 3731,
+      "sha256": "fad6db3b3597fe2834c4707f59fa879fbb918bfc980aa5db03faf7bbca54ab91",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). GCU and GCC both Ala (correct genetic code); folding may differ; 'A redesign name does not prove better output'. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "codon-optimization:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "codon-optimization",
+      "family": "same-protein-distinct-rna-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-dark.svg",
+      "gitBlob": "17f5c1132d75b58a13fca84ab3ab732978d0909d",
+      "bytes": 3731,
+      "sha256": "9d6f2fc3a1e6e4d299bd2c91d924f074337fb42bdfa9d069dcd6cd5212bede90",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "codon-optimization:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "modified-nucleosides",
+      "family": "rna-sequence-chemistry-and-byproduct-axes-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+      "gitBlob": "5782b55e194d900447604598535ea0dc328cf4c8",
+      "bytes": 4800,
+      "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Three cards: sequence, chemistry, byproducts; no letter sequence or structures prescribed. Minor layout flaw: card 3 text sits close to its box edge. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "modified-nucleosides:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "modified-nucleosides",
+      "family": "rna-sequence-chemistry-and-byproduct-axes-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+      "gitBlob": "9bbf26a62889d172450bc6fbfa7d0f9fb4878a9a",
+      "bytes": 4800,
+      "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "modified-nucleosides:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "dsrna-impurities-and-purification",
+      "family": "paired-byproducts-folds-and-truncations-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+      "gitBlob": "ea0bb9553a17baa62e8b9d8e712913388dd1a5b2",
+      "bytes": 6393,
+      "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Antiparallel 5'/3' labelling of the paired strands is correct; truncated single strand and local fold drawn as distinct objects. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "dsrna-impurities-and-purification:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "dsrna-impurities-and-purification",
+      "family": "paired-byproducts-folds-and-truncations-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+      "gitBlob": "437b8055bf2a5c9d028954db0bc6e382ed91d767",
+      "bytes": 6393,
+      "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "dsrna-impurities-and-purification:R02",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "mrna-construct-anatomy",
+      "family": "cap-start-context-and-tail-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-light.svg",
+      "gitBlob": "384e4e7646807c053c89876f3d844e4cd3bab689",
+      "bytes": 5295,
+      "sha256": "96421cb38d9dc93b36894452d36460975c20e8b8b1dcc073c0ed8c2018f7c937",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). 5' cap, 5' UTR, coding start and stop, 3' UTR, poly(A) tail; zoom shows start context spanning the UTR/coding boundary as in the caption. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "mrna-construct-anatomy:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "mrna-construct-anatomy",
+      "family": "cap-start-context-and-tail-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-dark.svg",
+      "gitBlob": "157a320c90b9a8ad28c24df2daa6697bed625ba0",
+      "bytes": 5295,
+      "sha256": "8258de1481922c36a004c217cee85c1acc5b89d767b5eb3a3247eca8208bb0c7",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "mrna-construct-anatomy:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "multi-epitope-constructs",
+      "family": "encoded-windows-and-boundary-peptides-v1",
+      "variant": "light",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+      "gitBlob": "db77e8d81534ff960be60d1038c5399fefba9040",
+      "bytes": 4392,
+      "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "viewed full-frame render in lesson context",
+      "finding": "Viewed full-frame (light). Window A, spacer, window B with a candidate boundary peptide labelled 'not measured display'; HLA display, recognition and tumour function are separated. No factual error.",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "multi-epitope-constructs:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    },
+    {
+      "page": "multi-epitope-constructs",
+      "family": "encoded-windows-and-boundary-peptides-v1",
+      "variant": "dark",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+      "gitBlob": "8aafa866f00b7a5f905a7cb89bcfc75b48e117eb",
+      "bytes": 4392,
+      "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183",
+      "gitBlobIdentityVerified": true,
+      "bytesVerified": true,
+      "sameBlobInOriginalRef": true,
+      "reviewDepth": "dark variant: all text and structure compared with the viewed light variant (identical modulo colour); not separately viewed",
+      "finding": "Same as light variant (text and geometry identical).",
+      "rasterCopiedToGit": false,
+      "lessonRequirementId": "multi-epitope-constructs:R01",
+      "assessmentReuse": "reused unchanged from the earlier packet: identical blob and sha256 in both pinned versions; the figure is judged against the lesson requirement above"
+    }
+  ],
+  "figureCensus": {
+    "distinctFiguresReferencedByPages": 9,
+    "figureFiles": 18,
+    "renderedFullFrame": 10,
+    "darkVariantsCompared": 8,
+    "unreferencedTeachingCandidates": [
+      "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-dark.png",
+      "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-light.png"
+    ],
+    "unreferencedReason": "uptake-is-not-expression v1 light and dark PNGs are not referenced by the later or original lipid-nanoparticle page body (page uses v2); superseded assets, identity listed, not visually reviewed",
+    "supportAndProvenanceFilesInImageFolders": 28,
+    "supportExclusionReason": "prompt text, provenance JSON and peer-review JSON are image-authoring support material, not learner-facing teaching; excluded, identities remain in source-assets.json",
+    "reviewRastersInGit": false
+  },
+  "excludedMaterial": [
+    {
+      "what": "fictional worked examples, Try it items and Explain-it-back sentences",
+      "where": "all 13 pages",
+      "reason": "illustrative practice with invented numbers; arithmetic checked (25/100, 70% and 40%, 20/100 and 15/100, 60/200 and 5/100 are all correct) but they are not graph claims"
+    },
+    {
+      "what": "front matter (used_by lists, review status) and the generated Used-in block",
+      "reason": "navigation and workflow metadata; excluded by the coordinator section rule"
+    },
+    {
+      "what": "preamble (title heading only) and Related concepts link lists",
+      "reason": "no teaching claim"
+    }
+  ],
+  "sectionAccountingFile": "learning-requirements.json#sectionAccounting",
+  "unmappedSections": [],
+  "discoveryOrContextReads": {
+    "note": "Pending inventories (pr-369, pr-371, pr-373, proposal-*) and the 22,683-record baseline were read as context for duplicate search only; they are not assessed teaching pages.",
+    "pendingFilesSearched": 14,
+    "baselineRecordsSearched": 22683
+  },
+  "assessmentReuse": {
+    "unchangedFromEarlierPacket": [
+      "26 source-version identities and 296 section signatures (re-verified)",
+      "9 figure families",
+      "32 primary-paper identities and readings"
+    ],
+    "newInThisPacket": "16 additional sources resolved and read (see primary-sources.json); 85 requirement rows re-dispositioned"
+  },
+  "workerAssessmentStatus": "partial",
+  "coordinatorResolution": {
+    "checkedOn": "2026-11-10",
+    "AAVGenomeAndCapacity": "Srivastava supports the named AAV2 sequence. The source-scoped self-complementary trade-off replaces use of a secondary 3.3-kb design figure as a general limit.",
+    "sourceAccess": "Unavailable source bodies remain explicitly unavailable; accessible alternatives cover the adopted definitions.",
+    "denominators": {
+      "workerRowsRetained": 133,
+      "semanticTeachingRequirements": 108,
+      "derivedTakeawaysMappedToParents": 13,
+      "sourceListMetadataRows": 12,
+      "reason": "Do not grant teaching coverage for citation presence or count a restated takeaway as an independent semantic requirement. All 133 rows and all 296 section signatures retain dispositions at both pins. No floor or test measure is changed.",
+      "sourceAccessStatusClarifications": {
+        "aav-vector:R10": "Distinguish the named AAV2 genome sequence, measured packaged-genome lengths and usable coding capacity. Self-complementary designs trade coding capacity for an inverted repeat that can pair with itself; do not infer one universal packaging ceiling.",
+        "in-vitro-transcription:R06": "Distinguish sequence and chemistry identity, poly(A), RNA content, length and integrity, dsRNA, residual DNA and expression assays. Unincorporated nucleotides and template DNA affect UV absorbance, so purification and measurement method must be stated rather than treating an unpurified absorbance reading as transcript-specific mass."
+      }
+    }
+  }
+}

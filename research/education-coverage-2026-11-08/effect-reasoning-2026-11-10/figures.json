@@ -1,0 +1,628 @@
+{
+  "versions": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "absence-of-evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+      "gitBlob": "36e7ee35bbb2a6107e26bf137e3dbf914357e715",
+      "bytes": 5429,
+      "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2",
+      "learningRequirement": "absence-of-evidence:13"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "absence-of-evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+      "gitBlob": "088c6e7c6202e99314c18859ccb4f5376a75b1e0",
+      "bytes": 5429,
+      "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a",
+      "learningRequirement": "absence-of-evidence:13"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "absence-of-evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-light.svg",
+      "gitBlob": "36e7ee35bbb2a6107e26bf137e3dbf914357e715",
+      "bytes": 5429,
+      "sha256": "bbe6b79753541a7e49606c85cc4d89655725b39b1063468d9a89b65441c676e2",
+      "learningRequirement": "absence-of-evidence:13"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "absence-of-evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/images/uncertain-difference-and-meaningful-bounds-v1-dark.svg",
+      "gitBlob": "088c6e7c6202e99314c18859ccb4f5376a75b1e0",
+      "bytes": 5429,
+      "sha256": "698f2a0a7a5c309139950d9707be9e53777d0b07585467fbf57cbbbee366e75a",
+      "learningRequirement": "absence-of-evidence:13"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "absolute-relative-risk-and-nnt",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+      "gitBlob": "3d47082b5c50d6990c2e674a77e0855103b171ce",
+      "bytes": 21852,
+      "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f",
+      "learningRequirement": "absolute-relative-risk-and-nnt:07"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "absolute-relative-risk-and-nnt",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+      "gitBlob": "c7c1e152de33a02110f621f3632dfd003848fb4e",
+      "bytes": 21852,
+      "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0",
+      "learningRequirement": "absolute-relative-risk-and-nnt:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "absolute-relative-risk-and-nnt",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-light.svg",
+      "gitBlob": "3d47082b5c50d6990c2e674a77e0855103b171ce",
+      "bytes": 21852,
+      "sha256": "a5c34cac6ea3bdc1fdaebb74b55f4caf9d93a915535e47e12bcbdae843a86d6f",
+      "learningRequirement": "absolute-relative-risk-and-nnt:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "absolute-relative-risk-and-nnt",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/absolute-relative-risk-five-years-v1-dark.svg",
+      "gitBlob": "c7c1e152de33a02110f621f3632dfd003848fb4e",
+      "bytes": 21852,
+      "sha256": "0077e196114b0362aede36639ed7fef95df123610ac6fe2bdbcfcb65bffaa5e0",
+      "learningRequirement": "absolute-relative-risk-and-nnt:07"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "confidence-interval",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+      "gitBlob": "85aa4b8f8689e03a30a76a99e889dd0594006b88",
+      "bytes": 7462,
+      "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf",
+      "learningRequirement": "confidence-interval:05"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "confidence-interval",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+      "gitBlob": "abbd6b197f5e7aa0bbab8a7d132126b7b8944d40",
+      "bytes": 7462,
+      "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1",
+      "learningRequirement": "confidence-interval:05"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "confidence-interval",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-light.svg",
+      "gitBlob": "85aa4b8f8689e03a30a76a99e889dd0594006b88",
+      "bytes": 7462,
+      "sha256": "f850883746e0ff9cf021fdd72fcf767837bb7ef47ad2f73aabecc35b60e8c8cf",
+      "learningRequirement": "confidence-interval:05"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "confidence-interval",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/confidence-coverage-precision-v1-dark.svg",
+      "gitBlob": "abbd6b197f5e7aa0bbab8a7d132126b7b8944d40",
+      "bytes": 7462,
+      "sha256": "4e4616d06c3bbe10beb8786021c3b786505b2bbf75013c94ae5019e081669fe1",
+      "learningRequirement": "confidence-interval:05"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "hazard-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+      "gitBlob": "70c50d98e3d654b0a594f081b9f8a3237e967fca",
+      "bytes": 10187,
+      "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36",
+      "learningRequirement": "hazard-ratio:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "hazard-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+      "gitBlob": "e69db0f0c1c2eeabf9c063fc0a24c84f05f512a5",
+      "bytes": 10187,
+      "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c",
+      "learningRequirement": "hazard-ratio:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "hazard-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-light.svg",
+      "gitBlob": "70c50d98e3d654b0a594f081b9f8a3237e967fca",
+      "bytes": 10187,
+      "sha256": "9aa82668382b5097e169cd3c00dc6254845f36043c197ee15e3ef00b298ebe36",
+      "learningRequirement": "hazard-ratio:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "hazard-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/hazard-versus-accumulated-risk-v1-dark.svg",
+      "gitBlob": "e69db0f0c1c2eeabf9c063fc0a24c84f05f512a5",
+      "bytes": 10187,
+      "sha256": "ba97c33b87e95a559b8941b9d32fa69bdb9c0964cbbf24304fe902e2d20dd75c",
+      "learningRequirement": "hazard-ratio:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "odds-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+      "gitBlob": "119b52e000f6c9937fc0484ce3caf295e4478257",
+      "bytes": 28961,
+      "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460",
+      "learningRequirement": "odds-ratio:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "odds-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+      "gitBlob": "ab5ce8afd16ba3e0b2c0a093f7ea7b6f1f33e979",
+      "bytes": 28961,
+      "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929",
+      "learningRequirement": "odds-ratio:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "odds-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-light.svg",
+      "gitBlob": "119b52e000f6c9937fc0484ce3caf295e4478257",
+      "bytes": 28961,
+      "sha256": "992e2a42e6635c54cbc3809f668d49ea2d6e4fc70f52b83548f2626fa270b460",
+      "learningRequirement": "odds-ratio:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "odds-ratio",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/same-counts-risk-and-odds-v1-dark.svg",
+      "gitBlob": "ab5ce8afd16ba3e0b2c0a093f7ea7b6f1f33e979",
+      "bytes": 28961,
+      "sha256": "aa8fe8ce24654204289ec9ca301756a7d3c895a37465b4d70ede0c6d5d438929",
+      "learningRequirement": "odds-ratio:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "p-values-and-multiple-testing",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+      "gitBlob": "9799bec6f73d1b4b1ca433384c1c68b314c4a481",
+      "bytes": 9942,
+      "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+      "learningRequirement": "p-values-and-multiple-testing:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "p-values-and-multiple-testing",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+      "gitBlob": "6bf0de17a4fe33f1c60437ee8e3d467fa33e552c",
+      "bytes": 9942,
+      "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+      "learningRequirement": "p-values-and-multiple-testing:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "p-values-and-multiple-testing",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-light.svg",
+      "gitBlob": "9799bec6f73d1b4b1ca433384c1c68b314c4a481",
+      "bytes": 9942,
+      "sha256": "fbd12017ea715da221e216d45936621eca3937db94f5ee6a5b92b9bd9bea6c48",
+      "learningRequirement": "p-values-and-multiple-testing:06"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "p-values-and-multiple-testing",
+      "path": "wiki/education/concepts/evidence-and-statistics/effect-measures/images/tested-family-and-any-false-rejection-v1-dark.svg",
+      "gitBlob": "6bf0de17a4fe33f1c60437ee8e3d467fa33e552c",
+      "bytes": 9942,
+      "sha256": "88c0b258e35096d3c127ee2f4120a0b06fed08dfa99f77c9889d7b191b4be627",
+      "learningRequirement": "p-values-and-multiple-testing:06"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "kaplan-meier",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+      "gitBlob": "f56b5f403b028af6df6d89f1bf0b35495dc1fd8a",
+      "bytes": 15338,
+      "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612",
+      "learningRequirement": "kaplan-meier:07"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "kaplan-meier",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+      "gitBlob": "ad8d8cf88df5273c68ce0914336838229c1fb6b7",
+      "bytes": 15338,
+      "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4",
+      "learningRequirement": "kaplan-meier:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "kaplan-meier",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-light.svg",
+      "gitBlob": "f56b5f403b028af6df6d89f1bf0b35495dc1fd8a",
+      "bytes": 15338,
+      "sha256": "4bffd8f152ac475de74b9893f274819bd930c9a73c78407ef15bbabb19f5f612",
+      "learningRequirement": "kaplan-meier:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "kaplan-meier",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/kaplan-meier-event-censor-risk-set-dark.svg",
+      "gitBlob": "ad8d8cf88df5273c68ce0914336838229c1fb6b7",
+      "bytes": 15338,
+      "sha256": "455bebd16d6550ab6d6da8e2b3570872d1a6faa6300b26a5993a82c7ed089ba4",
+      "learningRequirement": "kaplan-meier:07"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "surrogate-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+      "gitBlob": "6193cffceca0bc990e25957bfcbe4c7b719da3d5",
+      "bytes": 10539,
+      "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+      "learningRequirement": "surrogate-endpoints:04"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "surrogate-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+      "gitBlob": "e253761fc26801ba70dd5a5c1a597a0183305c38",
+      "bytes": 10539,
+      "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+      "learningRequirement": "surrogate-endpoints:04"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "surrogate-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-light.svg",
+      "gitBlob": "6193cffceca0bc990e25957bfcbe4c7b719da3d5",
+      "bytes": 10539,
+      "sha256": "2799a97b4e644ddae434a9f549235ade78cd5cf684c07cdbbc7c7e54fb919eec",
+      "learningRequirement": "surrogate-endpoints:04"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "surrogate-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/people-and-randomized-treatment-effects-v1-dark.svg",
+      "gitBlob": "e253761fc26801ba70dd5a5c1a597a0183305c38",
+      "bytes": 10539,
+      "sha256": "9a3445b333ad8b111c37c788bdb3f352b28f9273798eb9df691b6e578dc5aae3",
+      "learningRequirement": "surrogate-endpoints:04"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "survival-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+      "gitBlob": "252aa23e50e1a685c1b298c0b141e172f01a53b7",
+      "bytes": 7745,
+      "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+      "learningRequirement": "survival-endpoints:12"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "survival-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+      "gitBlob": "e461354777716b9423c5feb2c510d74fdddfa282",
+      "bytes": 7745,
+      "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+      "learningRequirement": "survival-endpoints:12"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "survival-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+      "gitBlob": "252aa23e50e1a685c1b298c0b141e172f01a53b7",
+      "bytes": 7745,
+      "sha256": "93c2b9a06ff67d0f90a77670aa1b4349d17cc63b93bb648c7ab285c422d82806",
+      "learningRequirement": "survival-endpoints:12"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "survival-endpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+      "gitBlob": "e461354777716b9423c5feb2c510d74fdddfa282",
+      "bytes": 7745,
+      "sha256": "07bb515399f5b9a43fc31bb51613f0b6f0e16729921e1843b1ea9506c529a34b",
+      "learningRequirement": "survival-endpoints:12"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "cross-trial-comparison",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "learningRequirement": "cross-trial-comparison:08"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "cross-trial-comparison",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "learningRequirement": "cross-trial-comparison:08"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cross-trial-comparison",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "learningRequirement": "cross-trial-comparison:08"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cross-trial-comparison",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "learningRequirement": "cross-trial-comparison:08"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "denominators-and-conditional-probability",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "gitBlob": "cb0984e5708635921b3644b964728c350c43a6e5",
+      "bytes": 11341,
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "learningRequirement": "denominators-and-conditional-probability:09"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "denominators-and-conditional-probability",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "gitBlob": "2a6994cbd6df7d75d529c252ddd5b7c01c72b197",
+      "bytes": 11340,
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "learningRequirement": "denominators-and-conditional-probability:09"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "denominators-and-conditional-probability",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "gitBlob": "cb0984e5708635921b3644b964728c350c43a6e5",
+      "bytes": 11341,
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "learningRequirement": "denominators-and-conditional-probability:09"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "denominators-and-conditional-probability",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "gitBlob": "2a6994cbd6df7d75d529c252ddd5b7c01c72b197",
+      "bytes": 11340,
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "learningRequirement": "denominators-and-conditional-probability:09"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "evidence-chain-variant-to-benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "gitBlob": "166d56c5d95e968edd74b90999912c40dba56d0a",
+      "bytes": 3254,
+      "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "learningRequirement": "evidence-chain-variant-to-benefit:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "evidence-chain-variant-to-benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "gitBlob": "ee504749e918582232f8a66b753e4a6287952846",
+      "bytes": 3254,
+      "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "learningRequirement": "evidence-chain-variant-to-benefit:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "evidence-chain-variant-to-benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "gitBlob": "166d56c5d95e968edd74b90999912c40dba56d0a",
+      "bytes": 3254,
+      "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "learningRequirement": "evidence-chain-variant-to-benefit:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "evidence-chain-variant-to-benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "gitBlob": "ee504749e918582232f8a66b753e4a6287952846",
+      "bytes": 3254,
+      "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "learningRequirement": "evidence-chain-variant-to-benefit:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "lead-time-bias",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "gitBlob": "977e330ae9aa5ddd65eb53d306a61925315e4218",
+      "bytes": 7746,
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "learningRequirement": "lead-time-bias:03"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "lead-time-bias",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "gitBlob": "3941beee8dd67e451ac3bb6a07844aea35f44037",
+      "bytes": 7746,
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "learningRequirement": "lead-time-bias:03"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "lead-time-bias",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "gitBlob": "977e330ae9aa5ddd65eb53d306a61925315e4218",
+      "bytes": 7746,
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "learningRequirement": "lead-time-bias:03"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "lead-time-bias",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "gitBlob": "3941beee8dd67e451ac3bb6a07844aea35f44037",
+      "bytes": 7746,
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "learningRequirement": "lead-time-bias:03"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "population-vs-individual-risk",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "gitBlob": "6e0e9dc1db602a9f12a625bc1091c5b959f9e5fa",
+      "bytes": 11885,
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "learningRequirement": "population-vs-individual-risk:08"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "population-vs-individual-risk",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "gitBlob": "8fc13cce835fb5d191a6adfd76cba85d31fc6f04",
+      "bytes": 11885,
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "learningRequirement": "population-vs-individual-risk:08"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "population-vs-individual-risk",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "gitBlob": "6e0e9dc1db602a9f12a625bc1091c5b959f9e5fa",
+      "bytes": 11885,
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "learningRequirement": "population-vs-individual-risk:08"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "population-vs-individual-risk",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "gitBlob": "8fc13cce835fb5d191a6adfd76cba85d31fc6f04",
+      "bytes": 11885,
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "learningRequirement": "population-vs-individual-risk:08"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "reading-a-graph-in-five-passes",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/five-questions-for-a-graph-light.png",
+      "gitBlob": "12d0c425dfe086277d5e4259c5e7acdd67a6ddd7",
+      "bytes": 1503762,
+      "sha256": "91ba171c6bbbc2b646e7730be0d3c74ab88b7f022845eb550801cef3fd806f6c",
+      "learningRequirement": "reading-a-graph-in-five-passes:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "reading-a-graph-in-five-passes",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/five-questions-for-a-graph-dark.png",
+      "gitBlob": "c70fffa7b774eb83ca7e49181121f4a909ce279d",
+      "bytes": 1510769,
+      "sha256": "6d90c03c7be3e4d53a4607f4328dc1578ac09ba72a3e41f6102c7faec779f8a4",
+      "learningRequirement": "reading-a-graph-in-five-passes:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "reading-a-graph-in-five-passes",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/five-questions-for-a-graph-light.png",
+      "gitBlob": "12d0c425dfe086277d5e4259c5e7acdd67a6ddd7",
+      "bytes": 1503762,
+      "sha256": "91ba171c6bbbc2b646e7730be0d3c74ab88b7f022845eb550801cef3fd806f6c",
+      "learningRequirement": "reading-a-graph-in-five-passes:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "reading-a-graph-in-five-passes",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/five-questions-for-a-graph-dark.png",
+      "gitBlob": "c70fffa7b774eb83ca7e49181121f4a909ce279d",
+      "bytes": 1510769,
+      "sha256": "6d90c03c7be3e4d53a4607f4328dc1578ac09ba72a3e41f6102c7faec779f8a4",
+      "learningRequirement": "reading-a-graph-in-five-passes:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "reduction-is-not-regression",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-light.png",
+      "gitBlob": "16c60f31dde655cc8b3225d5d2366c0a9a1a9247",
+      "bytes": 1673745,
+      "sha256": "fb0831309c1c406c8d541e026b5457e3e57ffbc1166c888d751323a20048438f",
+      "learningRequirement": "reduction-is-not-regression:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "reduction-is-not-regression",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-dark.png",
+      "gitBlob": "23b087409b025e7f4426d128e87cada336dba25e",
+      "bytes": 1540420,
+      "sha256": "ad0e4038b0f83d147a5610882daa52d653668e2bab6f99e88ebaf22b8d5a6bfb",
+      "learningRequirement": "reduction-is-not-regression:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "reduction-is-not-regression",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-light.png",
+      "gitBlob": "16c60f31dde655cc8b3225d5d2366c0a9a1a9247",
+      "bytes": 1673745,
+      "sha256": "fb0831309c1c406c8d541e026b5457e3e57ffbc1166c888d751323a20048438f",
+      "learningRequirement": "reduction-is-not-regression:02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "reduction-is-not-regression",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/reduction-versus-regression-dark.png",
+      "gitBlob": "23b087409b025e7f4426d128e87cada336dba25e",
+      "bytes": 1540420,
+      "sha256": "ad0e4038b0f83d147a5610882daa52d653668e2bab6f99e88ebaf22b8d5a6bfb",
+      "learningRequirement": "reduction-is-not-regression:02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "transportability-and-eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "gitBlob": "8d424427dfccb571dde39432a0a05729e1e60a04",
+      "bytes": 4351,
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "learningRequirement": "transportability-and-eligibility:07"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "transportability-and-eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "gitBlob": "156c26b5fc64bf5ef4d7144e26587aa01801c1f2",
+      "bytes": 4351,
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "learningRequirement": "transportability-and-eligibility:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "transportability-and-eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "gitBlob": "8d424427dfccb571dde39432a0a05729e1e60a04",
+      "bytes": 4351,
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "learningRequirement": "transportability-and-eligibility:07"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "transportability-and-eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "gitBlob": "156c26b5fc64bf5ef4d7144e26587aa01801c1f2",
+      "bytes": 4351,
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "learningRequirement": "transportability-and-eligibility:07"
+    }
+  ],
+  "review": {
+    "lessonLinkedFigures": 17,
+    "themeFiles": 34,
+    "svg": 30,
+    "png": 4,
+    "viewed": "Each of the 34 theme files viewed as a full-extent render (SVG at 144 dpi via librsvg/sharp resized to 900 px wide; PNG 1536x1024 resized to 900 px) and composed into 17 light|dark side-by-side views at 640 px per theme; 17 composite views, each containing both themes in full, no cropping. Not native-resolution 1:1 and not a browser render. denominators-and-conditional-probability SVGs use CSS var() inside presentation attributes, which librsvg renders black; reviewer resolved the :root variables into a copy (resolved-*.svg) to render it; sources untouched.",
+    "identity": "34/34 Git blob and SHA-256 equal the worker listing; blobs identical between original and later refs (figures unchanged)",
+    "mermaid": "0 Mermaid blocks in any of the 18 lessons (grep of later and original captures); the immunogenicity lesson has one text-art code block, viewed as text. Mermaid denominator = 0.",
+    "priorViewsReused": "None. All figure views are fresh.",
+    "denominatorNote": "SVG text equality across themes was not used as review evidence."
+  },
+  "sourceArtworkCopied": false
+}

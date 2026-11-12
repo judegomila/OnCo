@@ -1,0 +1,13 @@
+{
+  "queued": [
+    {
+      "subject": "TIGIT and DNAM-1 comparative affinity and competition",
+      "reason": "Optional deeper receptor comparison; shared-ligand list and direct inhibitory function are covered, but quantitative affinity or competition needs a separately read source."
+    },
+    {
+      "subject": "Independent expert and learner review",
+      "reason": "Agent source and field checks do not provide these forms of acceptance."
+    }
+  ],
+  "optionalExpansionDoesNotInterruptCurrentBatch": true
+}

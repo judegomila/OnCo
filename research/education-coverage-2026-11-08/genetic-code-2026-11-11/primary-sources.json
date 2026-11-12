@@ -1,0 +1,583 @@
+{
+  "readingDate": "2026-11-11",
+  "papers": [
+    {
+      "pmid": "13882203",
+      "doi": "10.1038/1921227a0",
+      "title": "General nature of the genetic code for proteins.",
+      "authors": "CRICK FH, BARNETT L, BRENNER S, WATTS-TOBIN RJ.",
+      "year": 1961,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": false,
+      "readingDepth": "Targeted introduction and coding-ratio/triple-mutant sections in NLM archive scan; printed page 1230 freshly viewed. Not a whole-paper read."
+    },
+    {
+      "pmid": "14479932",
+      "doi": "10.1073/pnas.47.10.1588",
+      "title": "The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides.",
+      "authors": "NIRENBERG MW, MATTHAEI JH.",
+      "year": 1961,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": false,
+      "readingDepth": "No abstract. Original PMC XML and PDF routes provided no readable article body; historical experiment verified from Nirenberg's 1968 lecture, printed p.374 freshly viewed. Original 1961 paper not read."
+    },
+    {
+      "pmid": "7219534",
+      "doi": "10.1038/290457a0",
+      "title": "Sequence and organization of the human mitochondrial genome.",
+      "authors": "Anderson S, Bankier AT, Barrell BG, de Bruijn MH, Coulson AR, Drouin J, Eperon IC, Nierlich DP, Roe BA, Sanger F, Schreier PH, Smith AJ, Staden R, Young IG.",
+      "year": 1981,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract only; original article body not read."
+    },
+    {
+      "pmid": "28596308",
+      "doi": "10.1126/science.aan6733",
+      "title": "Mismatch repair deficiency predicts response of solid tumors to PD-1 blockade.",
+      "authors": "Le DT, Durham JN, Smith KN, Wang H, Bartlett BR, Aulakh LK, Lu S, Kemberling H, Wilt C, Luber BS, Wong F, Azad NS, Rucki AA, Laheru D, Donehower R, Zaheer A, Fisher GA, Crocenzi TS, Lee JJ, Greten TF, Duffy AG, Ciombor KK, Eyring AD, Lam BH, Joe A, Kang SP, Holdhoff M, Danilova L, Cope L, Meyer C, Zhou S, Goldberg RM, Armstrong DK, Bever KM, Fader AN, Taube J, Housseau F, Spetzler D, Xiao N, Pardoll DM, Papadopoulos N, Kinzler KW, Eshleman JR, Vogelstein B, Anders RA, Diaz LA.",
+      "year": 2017,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract and targeted enrollment, response and mutant-peptide/TCR passages in the PMC author manuscript."
+    },
+    {
+      "pmid": "36596788",
+      "doi": "10.1038/s41467-022-35684-6",
+      "title": "Human mitochondria require mtRF1 for translation termination at non-canonical stop codons.",
+      "authors": "Krüger A, Remes C, Shiriaev DI, Liu Y, Spåhr H, Wibom R, Atanassov I, Nguyen MD, Cooperman BS, Rorbach J.",
+      "year": 2023,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract and targeted introduction, reconstituted release assay and discussion in PMC full text."
+    },
+    {
+      "pmid": "42481489",
+      "doi": "10.1038/s41467-026-75248-6",
+      "title": "Mitochondrial translation termination, recycling, reinitiation, and rescue for in-frame and out-of-frame contexts.",
+      "authors": "Wakigawa T, Mito M, Fang Q, Itoh Y, Shinkai Y, Iwasaki S.",
+      "year": 2026,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract and targeted release-factor specificity and frame-context results in PMC full text."
+    },
+    {
+      "pmid": "18264087",
+      "doi": "10.1038/nature06633",
+      "title": "Secondary mutations as a mechanism of cisplatin resistance in BRCA2-mutated cancers.",
+      "authors": "Sakai W, Swisher EM, Karlan BY, Agarwal MK, Higgins J, Friedman C, Villegas E, Jacquemont C, Farrugia DJ, Couch FJ, Urban N, Taniguchi T.",
+      "year": 2008,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract only; PMC efetch response has no article body."
+    },
+    {
+      "pmid": "19654294",
+      "doi": "10.1158/0008-5472.can-09-1178",
+      "title": "Functional restoration of BRCA2 protein by secondary BRCA2 mutations in BRCA2-mutated ovarian carcinoma.",
+      "authors": "Sakai W, Swisher EM, Jacquemont C, Chandramohan KV, Couch FJ, Langdon SP, Wurz K, Higgins J, Villegas E, Taniguchi T.",
+      "year": 2009,
+      "crossrefTitleFirstAuthorYearAgree": true,
+      "abstractRead": true,
+      "readingDepth": "Complete abstract and targeted cell-line origin, secondary-variant, protein-expression and siRNA-depletion passages in PMC full text."
+    }
+  ],
+  "paperIdentitiesResolved": 8,
+  "abstractsRead": 6,
+  "wholeOriginalPapersRead": 0,
+  "otherReadings": [
+    "NCBI code tables 1 and 2, including both comments and alternative-initiation sections",
+    "NHGRI Codon, Frameshift Mutation and Open Reading Frame definitions/narrations",
+    "OpenStax 15.1 code/frame and 15.5 initiation/termination passages",
+    "HGVS protein frameshift and deletion definitions, examples and prediction conventions",
+    "ClinVar VCV000012374.89 and VCV000017662.189 identities, MANE expressions and aggregate expert-panel germline classifications through the documented E-utilities API",
+    "Named RefSeq CDS FASTA records used for the independent sequence arithmetic",
+    "MedlinePlus BRCA1/BRCA2 breast-risk molecular-effect paragraphs",
+    "Nirenberg 1968 Nobel lecture, targeted cell-free synthesis and poly-U passages; printed p.374 viewed"
+  ],
+  "scopeFindings": [
+    "The NHGRI open-reading-frame definition is a stretch without a stop in a frame; the lesson's start-to-stop convention is not the sole annotation definition.",
+    "A three-base deletion preserves downstream frame but does not guarantee one clean codon deletion or protein function.",
+    "Crick's primary article argues for three or a multiple of three and notes partial function; the schematic explanation is qualified accordingly.",
+    "The NCBI mitochondrial table and its older mechanistic comment are distinct; later primary experiments on mtRF1/mtRF1L are not replaced by an unqualified frameshift-only mechanism.",
+    "ClinVar aggregate expert-panel classifications were read at the VCV level, not inferred from the first condition-specific RCV child.",
+    "Le's reported objective response denominator is 86 (46 responses); the detailed mutant-peptide experiment is from one responding person.",
+    "A single ClinVar example is not a frequency survey of inherited BRCA variant classes.",
+    "Sakai's named model evidence does not support a universal pooled reversion prevalence, guaranteed clinical non-response or a negative-reversion rechallenge rule."
+  ],
+  "failedOrNonBodySources": [
+    {
+      "key": "nirenberg-pmc.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 5748,
+      "sha256": "f3246b115dd973f5a127972121a4c42b560ca78324e60f096c301b6e8cfd39d3",
+      "seconds": 0.29
+    },
+    {
+      "key": "crick-lecture.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "finalURL": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "httpStatus": 404,
+      "contentType": "application/xml",
+      "bytes": 215,
+      "sha256": "b65152eb407440e8399709e8b1e69237f304c606d8513940bf071aff8255706f",
+      "seconds": 0.32
+    },
+    {
+      "key": "nirenberg-original.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21527,
+      "sha256": "7a1fd71d156a3caa3ec531d5116a067d56106495df64dbb2ad55f7a82a92a967",
+      "seconds": 0.2
+    },
+    {
+      "key": "crick-original.pdf",
+      "url": "https://www.nature.com/articles/1921227a0.pdf",
+      "finalURL": "https://www.nature.com/articles/1921227a0?error=cookies_not_supported&code=2dad997d-cbe9-4d9f-855b-5a779bdc4032",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 232444,
+      "sha256": "6102920c248df66b692a3341d21371ea951a2082ebedb7f4433959822926e3e7",
+      "seconds": 7.06
+    },
+    {
+      "key": "pmc-2577037.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 9960,
+      "sha256": "6f5a60aad5b95c2099dece3bdbfd67ed30647fbce9571c92256f4fefa6bd55f9",
+      "seconds": 0.37
+    }
+  ],
+  "captures": [
+    {
+      "file": "openstax-15-1.html",
+      "url": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+      "finalURL": "https://openstax.org/books/biology-2e/pages/15-1-the-genetic-code",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 375534,
+      "sha256": "6b5efdbdbb294a46f1d6a799a1bc0f19f5a49bd72991a02c97c0ad6611bf434b",
+      "seconds": 0.17
+    },
+    {
+      "file": "nhgri-orf.html",
+      "url": "https://www.genome.gov/genetics-glossary/Open-Reading-Frame",
+      "finalURL": "https://www.genome.gov/genetics-glossary/Open-Reading-Frame",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 201282,
+      "sha256": "38f05d162bd095e46adbcad037d6d5434b52a4a9154b419ff05a49539a2b11fd",
+      "seconds": 0.69
+    },
+    {
+      "file": "crick-nlm-archive.pdf",
+      "url": "https://digirepo.nlm.nih.gov/ext/document/101584582X412/PDF/101584582X412.pdf",
+      "finalURL": "https://digirepo.nlm.nih.gov/ext/document/101584582X412/PDF/101584582X412.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 2074796,
+      "sha256": "44a13830353d37611a63fc71883c26edff984d6e826f346a8a343213fd016396",
+      "seconds": 2.74
+    },
+    {
+      "file": "nirenberg-pmc.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=223178",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 5748,
+      "sha256": "f3246b115dd973f5a127972121a4c42b560ca78324e60f096c301b6e8cfd39d3",
+      "seconds": 0.29
+    },
+    {
+      "file": "le-2017-pmc.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5576142",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5576142",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 109519,
+      "sha256": "348940d002e67e280326f2f18bd931d54ec95847562935ae2eb3148049e444db",
+      "seconds": 0.41
+    },
+    {
+      "file": "nhgri-codon.html",
+      "url": "https://www.genome.gov/genetics-glossary/Codon",
+      "finalURL": "https://www.genome.gov/genetics-glossary/Codon",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 198963,
+      "sha256": "0643fae190d0cf2084da3b11cf74de995056e7f590c815918ee68c1bc543b524",
+      "seconds": 0.61
+    },
+    {
+      "file": "nhgri-frameshift.html",
+      "url": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation",
+      "finalURL": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 200246,
+      "sha256": "f02e855069120871de52dff6f8b7030fffed2cbcd26505c3c9a2bcd76a0be9db",
+      "seconds": 0.57
+    },
+    {
+      "file": "hgvs-frameshift.html",
+      "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/",
+      "finalURL": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 48098,
+      "sha256": "a7d5581e88d83bed6012500dead8463545f1abd24f7f59883ca2d39317768fe3",
+      "seconds": 0.2
+    },
+    {
+      "file": "hgvs-protein-deletion.html",
+      "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/",
+      "finalURL": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51458,
+      "sha256": "e986b4aa7f3eec077fce73db7913919e0502781fd95942a4a0308c704ba01959",
+      "seconds": 0.16
+    },
+    {
+      "file": "openstax-15-5.html",
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+      "finalURL": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 387248,
+      "sha256": "5769cf616655b6c3c678b5a17a30576f7d80c053a2889510a0b3a91830fe0d8f",
+      "seconds": 0.22
+    },
+    {
+      "file": "tp53-cds.fasta",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000546.6&rettype=fasta_cds_na&retmode=text",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_000546.6&rettype=fasta_cds_na&retmode=text",
+      "httpStatus": 200,
+      "contentType": "text/plain",
+      "bytes": 1379,
+      "sha256": "8d86ff2c37700877da60bee2983aa7bdc4d8ec72c4f6dd65d3ebfecfdb4d6db1",
+      "seconds": 0.52
+    },
+    {
+      "file": "brca1-cds.fasta",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_007294.4&rettype=fasta_cds_na&retmode=text",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NM_007294.4&rettype=fasta_cds_na&retmode=text",
+      "httpStatus": 200,
+      "contentType": "text/plain",
+      "bytes": 5870,
+      "sha256": "d2fdbf9e42974eca3dbf2a40e433fc5ff4b084a7a1add838ce9030b683e8f889",
+      "seconds": 1.03
+    },
+    {
+      "file": "crick-nature.html",
+      "url": "https://www.nature.com/articles/1921227a0",
+      "finalURL": "https://www.nature.com/articles/1921227a0?error=cookies_not_supported&code=8b1f3bf4-3f04-41bc-9f91-1b558ddb443b",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 232448,
+      "sha256": "df07337e171e4583ef512aa0f72cec052770d5adb80b8f817f1d21c1e72265b5",
+      "seconds": 5.03
+    },
+    {
+      "file": "mtrf1-epmc-search.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=MTRF1%20AND%20%28AGA%20OR%20AGG%29&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=MTRF1%20AND%20%28AGA%20OR%20AGG%29&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 174974,
+      "sha256": "ec0c3e689e51dc645ed0b28b5df28d41ca81def3cb765682377faf490bafe79a",
+      "seconds": 9.11
+    },
+    {
+      "file": "epmc-13882203.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A13882203+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A13882203+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 2641,
+      "sha256": "f7552ac7153df1ba7f46c6958afd3b4e9ae83f8e83aac299c8f01dfaf7a492e3",
+      "seconds": 0.9
+    },
+    {
+      "file": "crossref-13882203.json",
+      "url": "https://api.crossref.org/works/10.1038%2F1921227a0?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2F1921227a0?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 6590,
+      "sha256": "acb91a247a6974a275b5d12c1744feb589d99b4b848bbbeb64167a225904cb76",
+      "seconds": 0.42
+    },
+    {
+      "file": "epmc-14479932.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14479932+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A14479932+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 3649,
+      "sha256": "47d70ba809f2685d720fb003b3a9ae3b3942107d407048a742d1a235e3297cbb",
+      "seconds": 0.78
+    },
+    {
+      "file": "crossref-14479932.json",
+      "url": "https://api.crossref.org/works/10.1073%2Fpnas.47.10.1588?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1073%2Fpnas.47.10.1588?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 6645,
+      "sha256": "88c4503634621ad048b885d75e70895ab107680d56992439716a483c5b4d04e1",
+      "seconds": 0.25
+    },
+    {
+      "file": "epmc-7219534.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7219534+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7219534+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5635,
+      "sha256": "fa5c3d2d076a252dc6e005ffc168ebf71da42c4fde8e60632cf89777a1e75f8e",
+      "seconds": 0.67
+    },
+    {
+      "file": "crossref-7219534.json",
+      "url": "https://api.crossref.org/works/10.1038%2F290457a0?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2F290457a0?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 21504,
+      "sha256": "50d2a986ddb5b21506d56c9c4f1a0efec258c173627fd181344dac989bf9efe2",
+      "seconds": 0.32
+    },
+    {
+      "file": "epmc-28596308.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28596308+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28596308+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 26306,
+      "sha256": "98d8123b44d1cb65887f58f60fa7e4c101e80220be4fde3eccaf283744b29cf6",
+      "seconds": 0.79
+    },
+    {
+      "file": "crossref-28596308.json",
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.aan6733?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1126%2Fscience.aan6733?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 24569,
+      "sha256": "d5109e10513c413c076d7c3f0f635f03bb8d09adbf26741003152c1f399adfb7",
+      "seconds": 0.43
+    },
+    {
+      "file": "ncbi-genetic-codes.html",
+      "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "finalURL": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 273495,
+      "sha256": "b76266901d7e10b31a5732fcd376c70f1ce1c5fb321930f7867269afd9eafd47",
+      "seconds": 1.17
+    },
+    {
+      "file": "clinvar-12374.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&id=12374&rettype=vcv&is_variationid=true",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&id=12374&rettype=vcv&is_variationid=true",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 288461,
+      "sha256": "504841a0bdc178c7f0d48bbcd9efed89e2bfb584cd0447a99e0d249f2520f051",
+      "seconds": 0.78
+    },
+    {
+      "file": "clinvar-17662.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&id=17662&rettype=vcv&is_variationid=true",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&id=17662&rettype=vcv&is_variationid=true",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 663033,
+      "sha256": "8e9f60435d2235ef345545368b4666bcae2f32034ed35a29d2743c20975d8626",
+      "seconds": 0.85
+    },
+    {
+      "file": "crick-lecture.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "finalURL": "https://www.nobelprize.org/uploads/2018/06/crick-lecture.pdf",
+      "httpStatus": 404,
+      "contentType": "application/xml",
+      "bytes": 215,
+      "sha256": "b65152eb407440e8399709e8b1e69237f304c606d8513940bf071aff8255706f",
+      "seconds": 0.32
+    },
+    {
+      "file": "nirenberg-lecture.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf",
+      "finalURL": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf",
+      "httpStatus": 200,
+      "contentType": "application/pdf",
+      "bytes": 385500,
+      "sha256": "a91666fac2ab2ee080e72b77a97b7b4a599c93af3b6b755282c10e7cd854cccd",
+      "seconds": 0.22
+    },
+    {
+      "file": "medlineplus-brca1.html",
+      "url": "https://medlineplus.gov/genetics/gene/brca1/",
+      "finalURL": "https://medlineplus.gov/genetics/gene/brca1/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 36662,
+      "sha256": "a001d08f8f7a29dadd5bca43e3d4743f927e84d9224eef4293f72ca245f7defc",
+      "seconds": 0.35
+    },
+    {
+      "file": "medlineplus-brca2.html",
+      "url": "https://medlineplus.gov/genetics/gene/brca2/",
+      "finalURL": "https://medlineplus.gov/genetics/gene/brca2/",
+      "httpStatus": 200,
+      "contentType": "text/html",
+      "bytes": 36394,
+      "sha256": "7fe0ba8620e5a75a3b04b2d7247e517d736f7f77ac01c95b6d7500f99b0da81f",
+      "seconds": 0.38
+    },
+    {
+      "file": "epmc-36596788.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36596788+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36596788+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 9767,
+      "sha256": "8b0e45d455626ffd5961b68737cd56e1b734310892b0e65d172c245135a727bb",
+      "seconds": 0.62
+    },
+    {
+      "file": "crossref-36596788.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41467-022-35684-6?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41467-022-35684-6?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 30820,
+      "sha256": "d6f44f585c71687ea4b3f50d4b181bab8e8bf91223f0423fdaf60118eb8a310f",
+      "seconds": 0.36
+    },
+    {
+      "file": "pmc-9810596.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9810596",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9810596",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 166828,
+      "sha256": "7ec0ee90219c3db178532fe10159c23951b9a45255ed76211d429f8553100f62",
+      "seconds": 0.43
+    },
+    {
+      "file": "epmc-42481489.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42481489+AND+SRC%3AMED&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42481489+AND+SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 9727,
+      "sha256": "42b7963a23b52bf9b0b7ba17eca6d51f592301f822ef43d9109eb40183b63fd1",
+      "seconds": 0.67
+    },
+    {
+      "file": "crossref-42481489.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fs41467-026-75248-6?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fs41467-026-75248-6?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 40790,
+      "sha256": "c543ce717374ad05f215f01d3fa685dec4ad9f9b169fa6d51e2858e7af7b9fef",
+      "seconds": 0.39
+    },
+    {
+      "file": "pmc-13388722.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13388722",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=13388722",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 217633,
+      "sha256": "cd974bc267a5862e62213a2807486849d14f9b9acd2400346c5aa3d5f9cf46dc",
+      "seconds": 0.42
+    },
+    {
+      "file": "nirenberg-original.pdf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC223178/pdf/pnas00214-0066.pdf",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21527,
+      "sha256": "7a1fd71d156a3caa3ec531d5116a067d56106495df64dbb2ad55f7a82a92a967",
+      "seconds": 0.2
+    },
+    {
+      "file": "crick-original.pdf",
+      "url": "https://www.nature.com/articles/1921227a0.pdf",
+      "finalURL": "https://www.nature.com/articles/1921227a0?error=cookies_not_supported&code=2dad997d-cbe9-4d9f-855b-5a779bdc4032",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 232444,
+      "sha256": "6102920c248df66b692a3341d21371ea951a2082ebedb7f4433959822926e3e7",
+      "seconds": 7.06
+    },
+    {
+      "file": "crossref-18264087.json",
+      "url": "https://api.crossref.org/works/10.1038%2Fnature06633?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnature06633?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 17596,
+      "sha256": "7124036933e2b7b3d48dab64cb99b33dcda213bbde6d9bbbb1c0d1617690a333",
+      "seconds": 0.35
+    },
+    {
+      "file": "pmc-2577037.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2577037",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 9960,
+      "sha256": "6f5a60aad5b95c2099dece3bdbfd67ed30647fbce9571c92256f4fefa6bd55f9",
+      "seconds": 0.37
+    },
+    {
+      "file": "crossref-19654294.json",
+      "url": "https://api.crossref.org/works/10.1158%2F0008-5472.can-09-1178?mailto=hello%40onco.cc",
+      "finalURL": "https://api.crossref.org/works/10.1158%2F0008-5472.can-09-1178?mailto=hello%40onco.cc",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 11557,
+      "sha256": "40f20d29831ce69d6329a75847dfeeda0997b8ad7ef5ddab92fe2219e4675dcb",
+      "seconds": 0.25
+    },
+    {
+      "file": "pmc-2754824.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2754824",
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2754824",
+      "httpStatus": 200,
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 48587,
+      "sha256": "3b52dbacd85910603bccda9bf7b19c21d9174d6a7242472d6f80db600c4d4d99",
+      "seconds": 0.39
+    },
+    {
+      "file": "sakai-reversion-search.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH_FIRST%3ASakai+AND+BRCA2+AND+cisplatin&format=json&resultType=core",
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=AUTH_FIRST%3ASakai+AND+BRCA2+AND+cisplatin&format=json&resultType=core",
+      "httpStatus": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 22372,
+      "sha256": "1e78c4a7290294d388dc1b26c11433dfb849ea5b1337e366dbc31ff3b649a63f",
+      "seconds": 0.94
+    }
+  ],
+  "elicitation": "No callable Elicit source tool; no new Elicit discovery result or report is claimed."
+}

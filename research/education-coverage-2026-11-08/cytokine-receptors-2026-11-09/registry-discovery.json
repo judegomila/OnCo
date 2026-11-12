@@ -1,0 +1,28 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "complete": true,
+  "queries": [
+    {
+      "id": "synthetic-cytokine-receptors",
+      "params": {
+        "query.term": "\"synthetic cytokine receptor\" OR \"synthetic cytokine receptors\""
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 0,
+      "totalCount": 0
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "synthetic-cytokine-receptors/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%22synthetic+cytokine+receptor%22+OR+%22synthetic+cytokine+receptors%22&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-09T23:01:36.039627+00:00",
+      "bytes": 31,
+      "sha256": "b54968c05ff881a1ef7ce604b6a340248f8e2aee8637bef06da0f5693f520df8"
+    }
+  ],
+  "uniqueRecords": 0,
+  "statuses": {},
+  "interpretation": "Zero results for this exact phrase search is not evidence that no relevant cell-therapy trial or alternate program name exists. No treatment access or class-wide clinical status inferred."
+}

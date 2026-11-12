@@ -50,7 +50,7 @@ export const benchmark: Question[] = [
     ["sacituzumab-govitecan", "datopotamab-deruxtecan", "ascent-03", "ascent-04", "tropion-breast02", "tnbc-metastatic"],
     [["sacituzumab govitecan", "trodelvy"], ["datopotamab deruxtecan", "datroway", "dato-dxd"], ["2026"], ["pembrolizumab", "pd-l1", "pd-1"]]),
   Q("tnbc-02", "What does 'triple-negative' mean in breast cancer?", "factual", 1, "patient",
-    "The tumour lacks the three receptors other breast cancers can be treated through: oestrogen receptor, progesterone receptor, and HER2 (IHC 0-1+ or 2+/ISH-negative).",
+    "The tumour is classified as oestrogen receptor-negative, progesterone receptor-negative and HER2-negative by the relevant tests. These negative classifications do not prove complete molecular absence.",
     ["tnbc", "her2", "estrogen-receptor"],
     [["oestrogen", "estrogen", "er"], ["progesterone", "pr"], ["her2"], ["lack", "negative", "without", "absence", "does not have"]]),
   Q("tnbc-03", "What is the standard treatment for stage II-III triple-negative breast cancer today?", "factual", 2, "clinician",

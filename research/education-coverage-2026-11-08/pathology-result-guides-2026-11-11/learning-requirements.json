@@ -1,0 +1,1867 @@
+{
+  "dataCommit": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "uniqueRows": 86,
+  "countsByVersion": {
+    "original": {
+      "pages": 5,
+      "sections": 51,
+      "allRows": 85,
+      "substantive": 75,
+      "representedAtStatedScope": 75,
+      "recapAndScopeMetadata": 10
+    },
+    "later": {
+      "pages": 5,
+      "sections": 51,
+      "allRows": 86,
+      "substantive": 76,
+      "representedAtStatedScope": 76,
+      "recapAndScopeMetadata": 10
+    }
+  },
+  "rows": [
+    {
+      "id": "PG0-001",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Keep histological type, grade, receptor results, proliferation marker and stromal immune-cell finding distinct; their teaching order does not make each field mandatory in every biopsy.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-002",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Invasive carcinoma and DCIS differ in relation to the basement membrane; identify histological type and an accompanying in situ component in the sampled material.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "38:NCI DCIS definition and diagnosis paragraphs",
+        "37:Gusterson 1982 abstract: matrix proteins and myoepithelium, not a binary invasion-stain test",
+        "27:CAP histological type, viewed page 6",
+        "38:NCI in-situ versus surrounding-tissue distinction"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The fields distinguish in-situ ductal confinement from invasion into surrounding tissue and identify basement membrane as extracellular matrix. They do not make loss or presence of one basement-membrane or myoepithelial stain a binary invasion diagnosis."
+    },
+    {
+      "id": "PG0-003",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Nottingham grade uses tubule formation, nuclear pleomorphism and mitotic count; separate the summed microscopic category from clinical stage and an exact growth rate.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "14:NCI grade component scores and totals"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-004",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Verify ER positivity at 1% or more, ER-low-positive 1% to 10%, and negativity below 1%, retaining the guideline scope and limited low-positive endocrine-benefit evidence.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "09:Allison abstract",
+        "19:CAP ER note and viewed Table 2"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-005",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "HER2 IHC categories 0, 1+, 2+ and 3+ have different meanings; 2+ requires the applicable ISH work-up and integrated guideline interpretation.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "08:Wolff abstract",
+        "19:combined IHC/ISH rules and viewed Table 5"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-006",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Qualify the source blanket HER2-positive/negative shorthand against the actual uncommon ISH groups rather than treating every amplified/2+ phrase as a complete algorithm.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "08:Wolff abstract",
+        "19:combined IHC/ISH rules and viewed Table 5"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The integrated HER2 interpretation and explicit uncommon group-2 example prevent treating a shorthand IHC/ISH map as the full algorithm; CAP Table 5 also requires combined interpretation for groups 3 and 4. No universal only-these-two-patterns rule is adopted."
+    },
+    {
+      "id": "PG0-007",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Ki-67 is a proportion of cells positive for a proliferation marker under a method and sampled region, not an exact instantaneous division or personal growth rate.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "22:Nielsen abstract",
+        "32:targeted original Ki67 scoring passages",
+        "19:CAP Ki67 note, viewed page 25"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-008",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "Stromal TIL scoring describes immune-cell-occupied stromal area under its scoring rule; it is not an absolute cell count, a tumour-cell percentage or a receptor result.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "21:Salgado abstract",
+        "35:Salgado targeted scoring paragraphs",
+        "24:Loi 2019 abstract; no whole-paper reading"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-009",
+      "chapter": "0",
+      "section": "Read the fields in this order",
+      "requirement": "TNBC is a joint ER, PR and HER2 classification. HER2-low assay terminology can overlap HER2-negative/TNBC without itself supplying a drug-eligibility decision.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "08:Wolff abstract",
+        "19:combined IHC/ISH rules and viewed Table 5",
+        "08/19:assay category and integrated interpretation only; no new approval inventory"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-010",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "Retain the fictional pretreatment core: invasive carcinoma NST, grade components 3+3+3, ER 0%, PR 0%, HER2 IHC 2+/ISH not amplified, Ki-67 about 80%, sTILs 50% and no DCIS seen.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-011",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "Three plus three plus three equals nine, grade 3; ER/PR negativity and the specified HER2 result support the ordinary TNBC and HER2-low reading within the stated testing context.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-012",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "No DCIS seen is limited to the sampled core rather than a whole-breast absence finding.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "27:CAP histological type, viewed page 6",
+        "38:NCI in-situ versus surrounding-tissue distinction"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-013",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "Interpret the fictional Ki-67 80% and sTILs 50% with their different denominators and method/sampling limits; neither supplies a personal growth rate.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-014",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "Verify and scope the source TNBC sTIL-outcome association; it is prognostic group evidence rather than a personal outcome or added-treatment effect.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "21:Salgado abstract",
+        "35:Salgado targeted scoring paragraphs",
+        "24:Loi 2019 abstract; no whole-paper reading"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-015",
+      "chapter": "0",
+      "section": "A worked report",
+      "requirement": "The biopsy findings do not alone complete stage: clinical extent can use examination, imaging and node sampling, with surgery adding pathology when performed; do not require surgery in every setting.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "14:NCI clinical and surgery-first pathological staging",
+        "27:CAP treatment-effect y-prefix note, viewed page 33"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-016",
+      "chapter": "0",
+      "section": "What can go wrong at this step",
+      "requirement": "Grade 3 is not stage III, HER2 1+ is not HER2-positive, and a marker proportion is not exact despite its numerical presentation.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "14:NCI grade component scores and totals",
+        "08:Wolff abstract",
+        "19:combined IHC/ISH rules and viewed Table 5",
+        "22:Nielsen abstract",
+        "32:targeted original Ki67 scoring passages",
+        "19:CAP Ki67 note, viewed page 25"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-017",
+      "chapter": "0",
+      "section": "What can go wrong at this step",
+      "requirement": "In the fictional ER 5%, PR 0%, HER2 IHC 0 exercise, retain ER-low-positive rather than calling the result triple-negative or assuming known endocrine benefit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "09:Allison abstract",
+        "19:CAP ER note and viewed Table 2"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-001",
+      "chapter": "1",
+      "section": "Read the label on the container before the result",
+      "requirement": "Core needle biopsy preserves small tissue cylinders, FNA usually yields cells/fluid, and vacuum-assisted biopsy obtains tissue with a device; distinguish the available architecture and material.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "36:targeted core/FNA method paragraphs"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-002",
+      "chapter": "1",
+      "section": "Read the label on the container before the result",
+      "requirement": "Surgical specimens can include breast, nodes and separately submitted margins; keep site and part identity, and do not equate more submitted tissue with examination of the whole body.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:NCI specimen and report sections",
+        "27:CAP submitted resection context; no whole-body ascertainment inference"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-003",
+      "chapter": "1",
+      "section": "Read the label on the container before the result",
+      "requirement": "Gross description, microscopic observation and final integrated diagnosis answer different questions; a striking word in a description does not replace final interpretation.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-004",
+      "chapter": "1",
+      "section": "Read the label on the container before the result",
+      "requirement": "Pending, cannot assess, additional sections, preliminary report, final signature and addendum are distinct information states rather than interchangeable negatives.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-005",
+      "chapter": "1",
+      "section": "Read the label on the container before the result",
+      "requirement": "A post-neoadjuvant needle biopsy before surgery is a separate sampling time point intended to assess the treated site; it is not automatically definitive absence of residual disease or a replacement for surgery.",
+      "sourcePaths": {
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "39:Basik 2025 abstract; protocol-specific conclusion, no new numerical performance claim",
+        "39:linked erratum identified but its body not read"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-006",
+      "chapter": "1",
+      "section": "Three dates describe different events",
+      "requirement": "Collection date describes when the tissue was removed, treatment dates describe actual delivered therapy, and report/addendum dates describe availability of interpretation.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-007",
+      "chapter": "1",
+      "section": "Three dates describe different events",
+      "requirement": "Do not treat planned therapy as delivered or an addendum on stored tissue as a newly sampled biological time point.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-008",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "In the fictional sequence, a pretreatment core and later post-treatment breast/node surgery are different specimens even when the core receptor addendum is issued after surgery.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-009",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "The latest addendum issue date does not convert the original core into a post-treatment receptor measurement; the delivery record supplies the intervening treatment history.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-010",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "The fictional figure uses specimen A at day 0, surgery specimen B at day 100 and an addendum on A at day 120, with no new sample at the addendum.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-011",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "The figure plans events on days 10, 30, 50 and 80; administrations are documented at 10, 50 and 80 while day 30 is held. Do not infer delivered therapy from the planned row.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-012",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "Those invented days illustrate separate clocks and supply neither a treatment schedule nor an explanation of response.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-013",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "A report card needs specimen/site, collection date, treatment context, method, final interpretation and pending qualifications; retain provenance before combining results.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-014",
+      "chapter": "1",
+      "section": "A worked report card",
+      "requirement": "A negative observation from one sampled region does not cancel a positive finding in another by averaging reports; the core and resection examine different material and extent.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-015",
+      "chapter": "1",
+      "section": "Clinical and pathologic categories keep their context",
+      "requirement": "Clinical assessment can combine examination, imaging and biopsy; pathological categories use examined tissue in a defined setting, and the y prefix marks assessment after treatment.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "14:NCI clinical and surgery-first pathological staging",
+        "27:CAP treatment-effect y-prefix note, viewed page 33",
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-016",
+      "chapter": "1",
+      "section": "Clinical and pathologic categories keep their context",
+      "requirement": "Regional N interpretation needs deposit, location and assessment context; do not force a post-neoadjuvant record into a surgery-first prognostic staging table.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "14:NCI clinical and surgery-first pathological staging",
+        "27:CAP treatment-effect y-prefix note, viewed page 33",
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-017",
+      "chapter": "1",
+      "section": "Clinical and pathologic categories keep their context",
+      "requirement": "A suspicious imaged node is not automatically pathologically positive, and a negative sampled node does not examine all nodes or distant organs.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-018",
+      "chapter": "1",
+      "section": "Clinical and pathologic categories keep their context",
+      "requirement": "Read the assigned category and missing fields without completing them by intuition; histological grade and Ki-67 remain separate from stage and exact personal growth.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "22:Nielsen abstract",
+        "32:targeted original Ki67 scoring passages",
+        "19:CAP Ki67 note, viewed page 25"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG1-019",
+      "chapter": "1",
+      "section": "Try it",
+      "requirement": "In the late addendum exercise, a receptor test on the original pretreatment block remains a pretreatment-specimen result despite being issued after surgery.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-001",
+      "chapter": "2",
+      "section": "A footprint is not a count of remaining cells",
+      "requirement": "A treated tumour bed footprint, scar/treatment effects and viable invasive cancer are different observations; equal dimensions need not mean equal residual cancer.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning",
+        "02:Symmans 2007 abstract",
+        "15/17:MD Anderson methods and calculator text",
+        "27:CAP residual-bed wording, targeted page 34; distinct protocol preserved"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-002",
+      "chapter": "2",
+      "section": "A footprint is not a count of remaining cells",
+      "requirement": "Cancer-occupied bed area and the in situ share of the cancer component have different denominators; label both and retain the assessment method.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-003",
+      "chapter": "2",
+      "section": "A footprint is not a count of remaining cells",
+      "requirement": "RCB requires the specified breast and node components rather than the bed size alone; molecular sequencing purity does not replace pathological cellularity.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "02:Symmans 2007 abstract",
+        "15/17:MD Anderson methods and calculator text",
+        "27:CAP residual-bed wording, targeted page 34; distinct protocol preserved",
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-004",
+      "chapter": "2",
+      "section": "A footprint is not a count of remaining cells",
+      "requirement": "In the two fictional equal-footprint beds, sparse and dense invasive findings differ without requiring different dimensions.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-005",
+      "chapter": "2",
+      "section": "Read breast and nodes before the combined endpoint",
+      "requirement": "A common pCR definition requires no residual invasive disease in breast and sampled regional nodes and permits residual DCIS; retain the actual protocol definition.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread",
+        "01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted",
+        "Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-006",
+      "chapter": "2",
+      "section": "Read breast and nodes before the combined endpoint",
+      "requirement": "Clearance of invasive breast disease does not establish that combined endpoint when invasive regional-node disease remains; node negativity also does not erase invasive breast disease.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread",
+        "01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted",
+        "Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-007",
+      "chapter": "2",
+      "section": "Read breast and nodes before the combined endpoint",
+      "requirement": "The component table keeps bed dimensions, bed cancer/in situ percentages, nodes and final margin interpretation separate, without inferring an RCB score, genomic purity, distant metastasis or whole-body absence.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "02:Symmans 2007 abstract",
+        "15/17:MD Anderson methods and calculator text",
+        "27:CAP residual-bed wording, targeted page 34; distinct protocol preserved",
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning",
+        "04:Moran 2014 abstract: invasive breast conservation plus whole-breast irradiation",
+        "06:Morrow 2016 abstract: DCIS breast conservation plus whole-breast irradiation",
+        "Existing NICE summary preserved without new verification"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-008",
+      "chapter": "2",
+      "section": "A worked response and margin example",
+      "requirement": "The fictional no-invasive-breast-or-node report with residual DCIS and an involved DCIS edge can meet a DCIS-permitting pCR definition while retaining a local margin question.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning",
+        "05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread",
+        "01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted",
+        "Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-009",
+      "chapter": "2",
+      "section": "A worked response and margin example",
+      "requirement": "Adding one involved regional node prevents that combined pCR endpoint, affects residual burden and nodal category, and does not itself establish distant metastasis.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning",
+        "27:CAP nodal classification text and viewed page 39",
+        "14:regional-node and distant-disease concepts; not a breast treatment mandate"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-010",
+      "chapter": "2",
+      "section": "A worked response and margin example",
+      "requirement": "Integrate separately submitted margins, operative context and final pathology rather than selecting a final edge from an isolated part.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "04:Moran 2014 abstract: invasive breast conservation plus whole-breast irradiation",
+        "06:Morrow 2016 abstract: DCIS breast conservation plus whole-breast irradiation",
+        "Existing NICE summary preserved without new verification",
+        "12:NCI specimen and report sections",
+        "27:CAP submitted resection context; no whole-body ascertainment inference"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-011",
+      "chapter": "2",
+      "section": "A worked response and margin example",
+      "requirement": "Invasive-cancer and pure-DCIS margin recommendations apply to defined populations and local-treatment settings, rather than a universal distance rule.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "04:Moran 2014 abstract: invasive breast conservation plus whole-breast irradiation",
+        "06:Morrow 2016 abstract: DCIS breast conservation plus whole-breast irradiation",
+        "Existing NICE summary preserved without new verification"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-012",
+      "chapter": "2",
+      "section": "A worked response and margin example",
+      "requirement": "Extranodal extension means tumour beyond the capsule into adjacent tissue; retain node location and deposit context without converting a regional finding into distant spread.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "27:CAP nodal classification text and viewed page 39",
+        "14:regional-node and distant-disease concepts; not a breast treatment mandate"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-013",
+      "chapter": "2",
+      "section": "Response, anatomic extent and local edges remain distinct",
+      "requirement": "RCB summarises residual burden, ypTNM describes post-treatment tumour/node extent, and margins concern evaluated edges; these are not interchangeable measurements.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "02:Symmans 2007 abstract",
+        "15/17:MD Anderson methods and calculator text",
+        "27:CAP residual-bed wording, targeted page 34; distinct protocol preserved"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-014",
+      "chapter": "2",
+      "section": "Response, anatomic extent and local edges remain distinct",
+      "requirement": "A negative blood assay cannot remove invasive cells seen in tissue, and favourable imaging does not supply an unreported margin result.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread",
+        "01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted",
+        "Fictional pCR-versus-margin reasoning; no new outcome figure adopted"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG2-015",
+      "chapter": "2",
+      "section": "Try it",
+      "requirement": "The fictional no-invasive-breast, involved-regional-node and negative-blood report does not meet the common combined tissue pCR definition.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "05:CTNeoBC abstract: combined endpoint definitions and patient/trial-level distinction; linked 2019 erratum body unread",
+        "01:Provenzano abstract: reporting nonuniformity and separate residual DCIS; its blanket surrogate-endpoint statement is not adopted",
+        "Fictional pCR-versus-margin reasoning; no new outcome figure adopted",
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-001",
+      "chapter": "3",
+      "section": "Begin with a statement that stays true",
+      "requirement": "Begin with the final signed observation and qualifications, keeping pending addenda visible rather than calling residual disease proof of treatment failure.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-002",
+      "chapter": "3",
+      "section": "Begin with a statement that stays true",
+      "requirement": "Distinguish local completion, risk estimation, systemic added benefit and deliverability/safety questions; one finding can inform several without answering them all.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-003",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "An involved final edge prompts a local-completion question requiring edge, disease type, submitted margins and operative/radiation context.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "04:Moran 2014 abstract: invasive breast conservation plus whole-breast irradiation",
+        "06:Morrow 2016 abstract: DCIS breast conservation plus whole-breast irradiation",
+        "Existing NICE summary preserved without new verification"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-004",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "Residual invasive disease prompts risk and systemic-option questions needing prior treatment, subtype, matched cohorts and comparative benefit evidence.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-005",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "A cellularity percentage prompts a region/denominator/method question with the in situ component separately specified.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning",
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-006",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "Different receptor results require specimen, methods, controls, sampling and integrated interpretation before claiming biological change.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "09:Allison abstract",
+        "19:CAP ER note and viewed Table 2"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-007",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "A safety-related treatment interruption needs cause, severity, recovery and clinician assessment before inferring feasible continuing options.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-008",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "These examples are not a required decision tree; clinicians integrate the report, other evidence and the persons goals.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-009",
+      "chapter": "3",
+      "section": "Use an observation-to-question worksheet",
+      "requirement": "A receptor or immune-marker conclusion needs the exact scoring rule and validated setting, including the product-specific role of PD-L1 scoring.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "Existing method-specific owner; this row credits the explicit requirement to retain scoring and setting, not all its numerical label or trial claims"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-010",
+      "chapter": "3",
+      "section": "A worked conversation: risk is not a drug test",
+      "requirement": "In the fictional residual-TNBC-after-chemotherapy/pembrolizumab setting, residual disease versus pCR is prognostic information, not a standalone test of which added drug works.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-011",
+      "chapter": "3",
+      "section": "A worked conversation: risk is not a drug test",
+      "requirement": "Resolve CREATE-X and retain its residual HER2-negative population and TNBC subgroup, with 5-year DFS 69.8% versus 56.1% and hazard ratio 0.58.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "07:CREATE-X abstract; specific TNBC and overall populations/comparisons only"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "Only the first CREATE-X sentence is evidence here: its TNBC subgroup, five-year DFS 69.8% versus 56.1% and HR 0.58 match the resolved abstract. The rest of this older mixed-study note is not recertified."
+    },
+    {
+      "id": "PG3-012",
+      "chapter": "3",
+      "section": "A worked conversation: risk is not a drug test",
+      "requirement": "Do not transfer CREATE-X directly to a post-pembrolizumab treatment comparison; check prior treatments, comparator, subgroup scope and follow-up.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "07:CREATE-X abstract; specific TNBC and overall populations/comparisons only",
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read",
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-013",
+      "chapter": "3",
+      "section": "A worked conversation: risk is not a drug test",
+      "requirement": "Resolve OlympiA and retain one-year olaparib, high-risk HER2-negative germline BRCA1/BRCA2 eligibility and the separate invasive-DFS and overall-survival reports.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-014",
+      "chapter": "3",
+      "section": "A worked conversation: risk is not a drug test",
+      "requirement": "A claim of special effectiveness in a residual category needs the actual randomised comparison, prior therapy and follow-up; accepting such patients into a study is not an efficacy result.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-015",
+      "chapter": "3",
+      "section": "Say where personal-risk estimates come from",
+      "requirement": "A numerical risk estimate needs the cohort, treatment era, follow-up and uncertainty rather than an individual countdown.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-016",
+      "chapter": "3",
+      "section": "Say where personal-risk estimates come from",
+      "requirement": "RCB class is not a universal personal percentage, and favourable outcomes associated with pCR do not promise cure.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-017",
+      "chapter": "3",
+      "section": "Say where personal-risk estimates come from",
+      "requirement": "Check tested genes and pathogenic/likely-pathogenic classification and the applicable high-risk, HER2-negative and treatment criteria; a germline BRCA finding alone is not a complete automatic eligibility decision.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-018",
+      "chapter": "3",
+      "section": "Say where personal-risk estimates come from",
+      "requirement": "A variant of uncertain significance does not establish a qualifying pathogenic BRCA variant by itself.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-019",
+      "chapter": "3",
+      "section": "Say where personal-risk estimates come from",
+      "requirement": "For an extra assay, state what the result would establish and which action has evidence behind it; more measurements do not answer every uncertainty.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-020",
+      "chapter": "3",
+      "section": "End with a concrete next question",
+      "requirement": "Connect a supported report finding to a named decision and its missing evidence/context rather than asking the patient to select the whole plan.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-021",
+      "chapter": "3",
+      "section": "End with a concrete next question",
+      "requirement": "Local and systemic questions can have different evidence and clinical owners while still needing coordinated care.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG3-022",
+      "chapter": "3",
+      "section": "Try it",
+      "requirement": "The fictional subgroup HR 0.70 with CI 0.35 to 1.40 is uncertain and includes no-effect; an overall trial benefit and subgroup point estimate do not establish precise benefit for every person.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PGI-001",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "Limit this guide to submitted breast tissue and its defined biopsy, surgery-first or post-treatment context; it does not inspect the whole body or choose a complete treatment plan.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "12:NCI specimen and report sections",
+        "27:CAP submitted resection context; no whole-body ascertainment inference",
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PGI-002",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "Keep diagnostic type/grade/marker findings, specimen and treatment clocks, residual composition, regional nodes, response and final edges connected but distinct.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "03:Elston/Ellis abstract",
+        "08:HER2 focused-update abstract",
+        "09:ER/PR guideline abstract",
+        "14:NCI stage and grade text",
+        "19:CAP biomarker pages 18,23,25 targeted and viewed",
+        "32:targeted Ki67 scoring text",
+        "35:targeted Salgado area-denominator text",
+        "12:complete NCI pathology main text",
+        "14:complete NCI breast-staging main text, not its linked pages",
+        "36:targeted ACR/RSNA biopsy-method paragraphs",
+        "Fictional clock and clinical-question premises; reading inferences, not a clinical protocol",
+        "15:complete extracted MD Anderson methods text; source diagrams not freshly reviewed",
+        "17:complete calculator main text",
+        "27:targeted CAP residual-bed note, page 34",
+        "Fictional equal-footprint example and denominator reasoning"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PGI-003",
+      "chapter": "I",
+      "section": "The big ideas",
+      "requirement": "The introductory capecitabine and germline-BRCA/olaparib questions require matched treatment history, tested indication and safety, not a universal two-drug prescription after every residual finding.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/index.md"
+      },
+      "classification": "substantive",
+      "disposition": "represented at stated scope",
+      "sourceScope": [
+        "10/11:complete abstracts re-read in PMC 29/30 because registry text was degraded",
+        "29:targeted OlympiA eligibility and capecitabine discussion",
+        "28:Lynparza label sections 1.4 and 14.4 only; not a whole-label read",
+        "07:CREATE-X abstract; specific TNBC and overall populations/comparisons only"
+      ],
+      "remaining": [],
+      "evidenceTier": "Scoped primary/institutional-source premises with explicitly fictional examples and reading inferences",
+      "entailment": "The cited current passages jointly carry this source-first requirement. Their definitions, protocol limits and stipulated examples were compared semantically by the coordinator; exact hashes prove location, not independent expert acceptance."
+    },
+    {
+      "id": "PG0-018",
+      "chapter": "0",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Course order, reading budgets and teach-back recaps repeat the substantive relationships. Diagrams and examples retain unique relationships but no separate empirical treatment-effect credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG0-019",
+      "chapter": "0",
+      "section": "Sources and scope",
+      "requirement": "Keep official methods, guidelines, observational/prognostic analyses, randomised comparisons and fictional premises at their actual read depth. Source-list presence and agent checks are not expert, learner, clinical-owner or language approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG1-020",
+      "chapter": "1",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Course order, reading budgets and teach-back recaps repeat the substantive relationships. Diagrams and examples retain unique relationships but no separate empirical treatment-effect credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG1-021",
+      "chapter": "1",
+      "section": "Sources and scope",
+      "requirement": "Keep official methods, guidelines, observational/prognostic analyses, randomised comparisons and fictional premises at their actual read depth. Source-list presence and agent checks are not expert, learner, clinical-owner or language approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG2-016",
+      "chapter": "2",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Course order, reading budgets and teach-back recaps repeat the substantive relationships. Diagrams and examples retain unique relationships but no separate empirical treatment-effect credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG2-017",
+      "chapter": "2",
+      "section": "Sources and scope",
+      "requirement": "Keep official methods, guidelines, observational/prognostic analyses, randomised comparisons and fictional premises at their actual read depth. Source-list presence and agent checks are not expert, learner, clinical-owner or language approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG3-023",
+      "chapter": "3",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Course order, reading budgets and teach-back recaps repeat the substantive relationships. Diagrams and examples retain unique relationships but no separate empirical treatment-effect credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PG3-024",
+      "chapter": "3",
+      "section": "Sources and scope",
+      "requirement": "Keep official methods, guidelines, observational/prognostic analyses, randomised comparisons and fictional premises at their actual read depth. Source-list presence and agent checks are not expert, learner, clinical-owner or language approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PGI-004",
+      "chapter": "I",
+      "section": "Takeaway / Explain it back / map",
+      "requirement": "Course order, reading budgets and teach-back recaps repeat the substantive relationships. Diagrams and examples retain unique relationships but no separate empirical treatment-effect credit.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/index.md"
+      },
+      "classification": "derived-recap",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    },
+    {
+      "id": "PGI-005",
+      "chapter": "I",
+      "section": "Sources and scope",
+      "requirement": "Keep official methods, guidelines, observational/prognostic analyses, randomised comparisons and fictional premises at their actual read depth. Source-list presence and agent checks are not expert, learner, clinical-owner or language approval.",
+      "sourcePaths": {
+        "original": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "later": "wiki/education/guides/reading-pathology-and-surgery-results/index.md"
+      },
+      "classification": "source-scope",
+      "disposition": "excluded independent teaching credit",
+      "sourceScope": [
+        "Course recaps or source-scope metadata; no extra empirical or expertise credit"
+      ],
+      "remaining": [],
+      "entailment": "Repeated course structure, reading time, recap and source-list metadata earn no separate teaching credit."
+    }
+  ],
+  "noIndependentCreditForRecapsOrSourceLists": true
+}

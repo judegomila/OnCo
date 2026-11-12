@@ -1,0 +1,525 @@
+[
+  {
+    "id": "openstax-4-3-eukaryotic-cells",
+    "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+    "retrievedAt": "2026-11-08T23:40:07.328730+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+    "contentType": "text/html",
+    "sha256": "706499a351a4f016687bbc4aa4bd7a9a7bff8f44b85ba8fc17445e4b18179ab7",
+    "bytes": 407112,
+    "localFile": "openstax-4-3-eukaryotic-cells.html",
+    "title": "4.3 Eukaryotic Cells - Biology 2e | OpenStax",
+    "usedBy": [
+      "cellular-compartments"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-4-4-the-endomembrane-system-and-proteins",
+    "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+    "retrievedAt": "2026-11-08T23:40:07.328928+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins",
+    "contentType": "text/html",
+    "sha256": "438ecf4e339bbbaadc9bcd335008d77d0cda44b05b731277719889efffdb9fe5",
+    "bytes": 376439,
+    "localFile": "openstax-4-4-the-endomembrane-system-and-proteins.html",
+    "title": "4.4 The Endomembrane System and Proteins - Biology 2e | OpenStax",
+    "usedBy": [
+      "cellular-compartments"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-5-1-components-and-structure",
+    "url": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+    "retrievedAt": "2026-11-08T23:40:07.329131+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure",
+    "contentType": "text/html",
+    "sha256": "0cea59e2f1136ee9914141e2d86ee8686144741040c5d61f6f4a805ad0dc8bdc",
+    "bytes": 387942,
+    "localFile": "openstax-5-1-components-and-structure.html",
+    "title": "5.1 Components and Structure - Biology 2e | OpenStax",
+    "usedBy": [
+      "cell-membrane"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-5-2-passive-transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+    "retrievedAt": "2026-11-08T23:40:07.329183+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport",
+    "contentType": "text/html",
+    "sha256": "629c2f2cb22f8b540b1e0e15cc4240b5a16212d7c0fa286395334df308d3a0c3",
+    "bytes": 401100,
+    "localFile": "openstax-5-2-passive-transport.html",
+    "title": "5.2 Passive Transport - Biology 2e | OpenStax",
+    "usedBy": [
+      "cell-membrane"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-5-3-active-transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+    "retrievedAt": "2026-11-08T23:40:07.581660+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/5-3-active-transport",
+    "contentType": "text/html",
+    "sha256": "2cde31c60e4a4b4b1dcc9d2cdf7a7f893fe6cae7d2dd294100612d4d04eefc37",
+    "bytes": 379481,
+    "localFile": "openstax-5-3-active-transport.html",
+    "title": "5.3 Active Transport - Biology 2e | OpenStax",
+    "usedBy": [
+      "cell-membrane"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-5-4-bulk-transport",
+    "url": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+    "retrievedAt": "2026-11-08T23:40:07.585273+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/5-4-bulk-transport",
+    "contentType": "text/html",
+    "sha256": "5411e314d89033a8f720519a0640ae68934620b32d610f827831a3bd11761e86",
+    "bytes": 369385,
+    "localFile": "openstax-5-4-bulk-transport.html",
+    "title": "5.4 Bulk Transport - Biology 2e | OpenStax",
+    "usedBy": [
+      "cell-membrane"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-6-5-enzymes",
+    "url": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+    "retrievedAt": "2026-11-08T23:40:07.585412+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/6-5-enzymes",
+    "contentType": "text/html",
+    "sha256": "51820c5d058abd6ffd7c7b8da012f1743055f085d1efa280db699e03c776ac30",
+    "bytes": 386251,
+    "localFile": "openstax-6-5-enzymes.html",
+    "title": "6.5 Enzymes - Biology 2e | OpenStax",
+    "usedBy": [
+      "binding-affinity-and-kinetics",
+      "enzyme",
+      "kinase"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-9-1-signaling-molecules-and-cellular-receptors",
+    "url": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+    "retrievedAt": "2026-11-08T23:40:07.585561+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/9-1-signaling-molecules-and-cellular-receptors",
+    "contentType": "text/html",
+    "sha256": "96d0ae445741144ce5ee3f0ff19ec61f01fc1009ce8d4321df08e783806cbc45",
+    "bytes": 396950,
+    "localFile": "openstax-9-1-signaling-molecules-and-cellular-receptors.html",
+    "title": "9.1 Signaling Molecules and Cellular Receptors - Biology 2e | OpenStax",
+    "usedBy": [
+      "ligand",
+      "receptor"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-9-2-propagation-of-the-signal",
+    "url": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+    "retrievedAt": "2026-11-08T23:40:07.752535+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/9-2-propagation-of-the-signal",
+    "contentType": "text/html",
+    "sha256": "dca57ed29faead5dafdb637f2df6db4a370bbe1b4fac836f93b6c0e8911c2c42",
+    "bytes": 373094,
+    "localFile": "openstax-9-2-propagation-of-the-signal.html",
+    "title": "9.2 Propagation of the Signal - Biology 2e | OpenStax",
+    "usedBy": [
+      "signalling-pathway",
+      "kinase",
+      "phosphorylation"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-10-2-the-cell-cycle",
+    "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+    "retrievedAt": "2026-11-08T23:40:07.800432+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+    "contentType": "text/html",
+    "sha256": "af5bb01d99dff15a6c176dedf3f8f8dc1cbc475e34717ff9f7423cf82a9444af",
+    "bytes": 393608,
+    "localFile": "openstax-10-2-the-cell-cycle.html",
+    "title": "10.2 The Cell Cycle - Biology 2e | OpenStax",
+    "usedBy": [
+      "cell-cycle",
+      "cell-division"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-16-1-regulation-of-gene-expression",
+    "url": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+    "retrievedAt": "2026-11-08T23:40:07.800709+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/16-1-regulation-of-gene-expression",
+    "contentType": "text/html",
+    "sha256": "8c12fcebecf386797371cd8fed80d28613f0ee4cb60d0d12906ea0ed8543d469",
+    "bytes": 368331,
+    "localFile": "openstax-16-1-regulation-of-gene-expression.html",
+    "title": "16.1 Regulation of Gene Expression - Biology 2e | OpenStax",
+    "usedBy": [
+      "central-dogma-information-flow",
+      "rna",
+      "gene-expression"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-16-3-eukaryotic-epigenetic-gene-regulation",
+    "url": "https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation",
+    "retrievedAt": "2026-11-08T23:40:07.805002+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/16-3-eukaryotic-epigenetic-gene-regulation",
+    "contentType": "text/html",
+    "sha256": "c76d336a97bea3826412eeb55853398f8f5384840d67847c0dc1e1b222422873",
+    "bytes": 370890,
+    "localFile": "openstax-16-3-eukaryotic-epigenetic-gene-regulation.html",
+    "title": "16.3 Eukaryotic Epigenetic Gene Regulation - Biology 2e | OpenStax",
+    "usedBy": []
+  },
+  {
+    "id": "openstax-16-4-eukaryotic-transcription-gene-regulation",
+    "url": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+    "retrievedAt": "2026-11-08T23:40:07.919547+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/16-4-eukaryotic-transcription-gene-regulation",
+    "contentType": "text/html",
+    "sha256": "22bb26aeaea94e65e039b8cbe4885c81014a4ed9d3c00a63a4022874235fa321",
+    "bytes": 364289,
+    "localFile": "openstax-16-4-eukaryotic-transcription-gene-regulation.html",
+    "title": "16.4 Eukaryotic Transcription Gene Regulation - Biology 2e | OpenStax",
+    "usedBy": [
+      "gene-regulatory-elements",
+      "gene-expression"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-16-5-eukaryotic-post-transcriptional-gene-regulation",
+    "url": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+    "retrievedAt": "2026-11-08T23:40:07.985147+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation",
+    "contentType": "text/html",
+    "sha256": "10995b9a89f69559febdbee11d29e636d69c6234890db9e1db9e57305dfb04ef",
+    "bytes": 371150,
+    "localFile": "openstax-16-5-eukaryotic-post-transcriptional-gene-regulation.html",
+    "title": "16.5 Eukaryotic Post-transcriptional Gene Regulation - Biology 2e | OpenStax",
+    "usedBy": [
+      "rna",
+      "gene",
+      "rna-splicing"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+    "url": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+    "retrievedAt": "2026-11-08T23:40:08.000359+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; identity, source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/16-6-eukaryotic-translational-and-post-translational-gene-regulation",
+    "contentType": "text/html",
+    "sha256": "984ef47399b1077e3c0e35cd3f542330dc9c9bc811b7d85b6be7c4eb82e93785",
+    "bytes": 363781,
+    "localFile": "openstax-16-6-eukaryotic-translational-and-post-translational-gene-regulation.html",
+    "title": "16.6 Eukaryotic Translational and Post-translational Gene Regulation - Biology 2e | OpenStax",
+    "usedBy": [
+      "protein",
+      "phosphorylation"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "training-seer-cancer-gov-anatomy-cells-tissues-membranes-cells-structure-html",
+    "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+    "retrievedAt": "2026-11-08T23:42:26.211375+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/cells/structure.html",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "83811c9b141ce9cee5c3585ee670f354899c6bdcf3d3d4ade0edf109dca72b07",
+    "bytes": 45270,
+    "localFile": "training-seer-cancer-gov-anatomy-cells-tissues-membranes-cells-structure-html.html",
+    "usedBy": []
+  },
+  {
+    "id": "training-seer-cancer-gov-anatomy-cells-tissues-membranes-tissues-epithelial-html",
+    "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+    "retrievedAt": "2026-11-08T23:42:26.650544+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+    "contentType": "text/html; charset=UTF-8",
+    "sha256": "2f2e6561f36336aad8ddca5c2d2211f32df379fe21ba41c5ff4fbead67d722da",
+    "bytes": 42607,
+    "localFile": "training-seer-cancer-gov-anatomy-cells-tissues-membranes-tissues-epithelial-html.html",
+    "usedBy": [
+      "epithelium-and-stroma"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "www-nigms-nih-gov-biobeat-2024-11-what-are-stem-cells",
+    "url": "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+    "retrievedAt": "2026-11-08T23:42:27.041431+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://www.nigms.nih.gov/biobeat/2024/11/what-are-stem-cells",
+    "contentType": "text/html; charset=utf-8",
+    "sha256": "2995ba87101f2f7597fdaacc2967dd276727c0535c5f38f71416853d548a39cd",
+    "bytes": 55491,
+    "localFile": "www-nigms-nih-gov-biobeat-2024-11-what-are-stem-cells.html",
+    "usedBy": [
+      "cell-lineage-and-state",
+      "differentiation"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-org-books-biology-2e-pages-10-3-control-of-the-cell-cycle",
+    "url": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+    "retrievedAt": "2026-11-08T23:42:27.775363+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/biology-2e/pages/10-3-control-of-the-cell-cycle",
+    "contentType": "text/html",
+    "sha256": "f1ed80b35c75dd52190d824befc256ffb3ef17604632bef403782978452cba1f",
+    "bytes": 377799,
+    "localFile": "openstax-org-books-biology-2e-pages-10-3-control-of-the-cell-cycle.html",
+    "usedBy": [
+      "cell-cycle"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "openstax-org-books-anatomy-and-physiology-2e-pages-3-6-cellular-differentiation",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+    "retrievedAt": "2026-11-08T23:42:27.903414+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-6-cellular-differentiation",
+    "contentType": "text/html",
+    "sha256": "10548ef3a0e4b729dee77862d6ba561149efcac1f5899290caf2c7c27ddf8fd1",
+    "bytes": 346092,
+    "localFile": "openstax-org-books-anatomy-and-physiology-2e-pages-3-6-cellular-differentiation.html",
+    "usedBy": []
+  },
+  {
+    "id": "openstax-org-books-anatomy-and-physiology-2e-pages-4-2-epithelial-tissue",
+    "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+    "retrievedAt": "2026-11-08T23:42:27.991275+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and review scope retained here",
+    "status": 200,
+    "resolvedURL": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-2-epithelial-tissue",
+    "contentType": "text/html",
+    "sha256": "70add3b5f69cf864d852a6e98c8c3da59fefa4c1f785f47e8b4267e57180d9ef",
+    "bytes": 402551,
+    "localFile": "openstax-org-books-anatomy-and-physiology-2e-pages-4-2-epithelial-tissue.html",
+    "usedBy": []
+  },
+  {
+    "id": "clonality-guidelines-pdf",
+    "url": "https://euroclonality-public.s3.nl-ams.scw.cloud/Langerak_Leukemia_2012_26_2159_2171_24aacd7aaa.pdf",
+    "retrievedAt": "2026-11-08T23:46:19.616709+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "localFile": "clonality-guidelines-pdf.pdf",
+    "sha256": "7ab30049e9af02d2cc09797e73959b1b2efd618b4d436460f612185396ef3cac",
+    "bytes": 1052679,
+    "usedBy": []
+  },
+  {
+    "id": "openstax-protein",
+    "url": "https://openstax.org/books/biology-2e/pages/3-4-proteins",
+    "retrievedAt": "2026-11-08T23:46:22.460926+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "localFile": "openstax-protein.html",
+    "sha256": "5024620f11ecbd6b5eaae3dc3e9935b97eb513abffd71f74bb03d18d02c3441c",
+    "bytes": 397106,
+    "usedBy": [
+      "protein-structure-and-domains",
+      "protein"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "embl-plddt-understanding-local-confidence",
+    "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/plddt-understanding-local-confidence/",
+    "retrievedAt": "2026-11-08T23:46:22.678139+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "localFile": "embl-plddt-understanding-local-confidence.html",
+    "sha256": "bec7bd4a4f32be913203d6ef2d4bcfda1d03c2901134bc2970f135b4aab1011b",
+    "bytes": 308376,
+    "usedBy": [
+      "protein-structure-and-domains"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "embl-pae-a-measure-of-global-confidence-in-alphafold-predictions",
+    "url": "https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/evaluating-alphafolds-predicted-structures-using-confidence-scores/pae-a-measure-of-global-confidence-in-alphafold-predictions/",
+    "retrievedAt": "2026-11-08T23:46:24.293588+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "localFile": "embl-pae-a-measure-of-global-confidence-in-alphafold-predictions.html",
+    "sha256": "4608a94a60657b1a9b924238c8d1455fda436d3e2c4c43729290b5ac27ace7f8",
+    "bytes": 280485,
+    "usedBy": [
+      "protein-structure-and-domains"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  },
+  {
+    "id": "iupac-michaelis-constant",
+    "url": "https://goldbook.iupac.org/terms/view/M03891/plain",
+    "retrievedAt": "2026-11-08T23:54:30.321629+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; exact source hash and scope retained here",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden",
+    "usedBy": []
+  },
+  {
+    "id": "iupac-michaelis-menten",
+    "url": "https://goldbook.iupac.org/terms/view/11546/plain",
+    "retrievedAt": "2026-11-08T23:54:30.435418+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; exact source hash and scope retained here",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden",
+    "usedBy": []
+  },
+  {
+    "id": "nhgri-central-dogma",
+    "url": "https://www.genome.gov/genetics-glossary/Central-Dogma",
+    "retrievedAt": "2026-11-08T23:54:30.494375+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; exact source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://www.genome.gov/genetics-glossary/Central-Dogma",
+    "localFile": "nhgri-central-dogma.html",
+    "sha256": "198fad877ac07eebc46d6fee9085590b8da15d49c9a554b6438e5ac406fa65e9",
+    "bytes": 199768,
+    "usedBy": []
+  },
+  {
+    "id": "iupac-michaelis-old",
+    "url": "https://www.old.goldbook.iupac.org/html/M/M03891.html",
+    "retrievedAt": "2026-11-08T23:54:55.752003+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": "error",
+    "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1081)>",
+    "usedBy": []
+  },
+  {
+    "id": "iupac-michaelis-json",
+    "url": "https://goldbook.iupac.org/terms/view/M03891/json",
+    "retrievedAt": "2026-11-08T23:54:55.752206+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden",
+    "usedBy": []
+  },
+  {
+    "id": "ncbi-enzyme-assay-sites",
+    "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK92007/",
+    "retrievedAt": "2026-11-08T23:54:55.752270+00:00",
+    "review": "not selected as load-bearing evidence; no full-content review claimed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden",
+    "usedBy": []
+  },
+  {
+    "id": "ncbi-enzyme-assay-pdf",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK92007/pdf/Bookshelf_NBK92007.pdf",
+    "retrievedAt": "2026-11-08T23:54:55.752312+00:00",
+    "review": "not used; content-access limit retained",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://www.ncbi.nlm.nih.gov/books/NBK92007/pdf/Bookshelf_NBK92007.pdf",
+    "localFile": "ncbi-enzyme-assay-pdf.html",
+    "sha256": "40333543b143b8833e86110cd8b754bd95b803f61bf0037c60224d74304efd2d",
+    "bytes": 21525,
+    "usedBy": []
+  },
+  {
+    "id": "nci-hereditary-testing",
+    "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+    "retrievedAt": "2026-11-09T00:02:12.608540+00:00",
+    "review": "scoped raw source check completed",
+    "rawRetention": "outside checkout; source hash and scope retained here",
+    "status": 200,
+    "resolvedURL": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+    "localFile": "nci-hereditary-testing.html",
+    "sha256": "29d074199bb50284b322f8c9ba348115e3419aa311249418fdf75fe1ebfabc39",
+    "bytes": 88190,
+    "usedBy": [
+      "germline-vs-somatic"
+    ],
+    "verifiedScope": "Applicable definition/mechanism or method-interpretation sections only; not a full chapter, clinical-product review or expert sign-off."
+  }
+]

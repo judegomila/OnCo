@@ -1,0 +1,1134 @@
+{
+  "families": [
+    {
+      "family": "copy-count-and-version-states-v1",
+      "lightActualView": "Shows 1+1 and 2+0 both total 2, 1+0 as copy loss, 2+1 as copy gain. It does NOT print the labels \"LOH\" or \"copy-neutral LOH\" on the drawing; those labels live only in the page table, so the figure alone does not teach LOH.",
+      "darkActualView": {
+        "family": "copy-count-and-version-states-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+        "original": {
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+          "gitBlob": "57dc7e12de5a3e30aedaa839511555960fb1bcf8",
+          "bytes": 10687
+        },
+        "derivativeRender": {
+          "file": "figures/full/copy-count-and-version-states-v1-dark.png",
+          "sha256": "f86d07469b2327412b342ade5dfc62918d3acb9e97e81457990e67f8aa2252f5",
+          "bytes": 130839
+        },
+        "status": "viewed-now",
+        "finding": "Geometry: ellipses, A/B/A/A ribbons, dashed empty slot and three-ribbon gain preserved. Labels all present. Colour-dependent distinction A green vs B purple preserved. Limit: dashed empty-copy outline and its dash label are faint on the dark panel but still legible.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.copy-number-and-loh.state-table",
+        "r1.copy-number-and-loh.loh-not-deletion",
+        "r1.copy-number-and-loh.major-minor-phasing",
+        "r1.copy-number-and-loh.worked-copy-neutral"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+          "bytes": 10687,
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+          "gitBlob": "57dc7e12de5a3e30aedaa839511555960fb1bcf8",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+          "bytes": 10687,
+          "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6",
+          "gitBlob": "91339207b31accde0d8137c02d140e23894cd4a2",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-dark.svg",
+          "bytes": 10687,
+          "sha256": "46d32edb4a810d29dd65dc269c3956744839f568972b1ad157241542b14422d3",
+          "gitBlob": "57dc7e12de5a3e30aedaa839511555960fb1bcf8",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/copy-count-and-version-states-v1-light.svg",
+          "bytes": 10687,
+          "sha256": "f2896f31f24a552637822808df0b574f25d924ee66c161e3ef9b928eccff29e6",
+          "gitBlob": "91339207b31accde0d8137c02d140e23894cd4a2",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "hla-dna-expression-and-b2m-contrast-b11-v1",
+      "lightActualView": "Three panels: A1 lost with A2 and others possibly remaining; reduced expression with DNA retained; B2M support impaired. Surface schematics are not measurements (caption says no display count inferred). Dark variant viewed. Consistent.",
+      "darkActualView": {
+        "family": "hla-dna-expression-and-b2m-contrast-b11-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+        "original": {
+          "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7",
+          "gitBlob": "063867ce9cfd94e32a9d24fcf79b00d13c5749cb",
+          "bytes": 8589
+        },
+        "derivativeRender": {
+          "file": "figures/full/hla-dna-expression-and-b2m-contrast-b11-v1-dark.png",
+          "sha256": "a5724281875c1225b6c6ba1441075103a059d89277295d33c0bdd05f0d9d66d8",
+          "bytes": 133326
+        },
+        "status": "viewed-in-original-batch",
+        "finding": "Viewed in the original packet; preserved geometry and colours."
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.hla-loh.subclonal-uninformative",
+        "r1.hla-loh.dna-rna-protein-b2m"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+          "bytes": 8589,
+          "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7",
+          "gitBlob": "063867ce9cfd94e32a9d24fcf79b00d13c5749cb",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+          "bytes": 8589,
+          "sha256": "155009c921b13102d82d5c7a0d81a631e0cfb3e17ed878886d70fdafd086cdef",
+          "gitBlob": "b367bf5eaaed22975d8c3ea29448afed46be0864",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-dark.svg",
+          "bytes": 8589,
+          "sha256": "065ff10d32f521ffe951cdfa07deba7283f9d385b12162eeec883a3176607ff7",
+          "gitBlob": "063867ce9cfd94e32a9d24fcf79b00d13c5749cb",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/hla-dna-expression-and-b2m-contrast-b11-v1-light.svg",
+          "bytes": 8589,
+          "sha256": "155009c921b13102d82d5c7a0d81a631e0cfb3e17ed878886d70fdafd086cdef",
+          "gitBlob": "b367bf5eaaed22975d8c3ea29448afed46be0864",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "long-sequence-and-mark-workflows-v1",
+      "lightActualView": "Shows two features and a C mark on one molecule, native signal plus mark model versus unconverted amplification that copies sequence not marks, and 8 of 10 molecules = 80%. Does not draw bisulfite conversion or SMRT kinetics; those three workflows are taught only in the page text.",
+      "darkActualView": {
+        "family": "long-sequence-and-mark-workflows-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+        "original": {
+          "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3",
+          "gitBlob": "9b8dbd574b40ef94e7a8ec769e45117ee6c73636",
+          "bytes": 10663
+        },
+        "derivativeRender": {
+          "file": "figures/full/long-sequence-and-mark-workflows-v1-dark.png",
+          "sha256": "afde023d1c83bc086535addc9d2afa6282b25e9b78649979b543c1e008b4ff6c",
+          "bytes": 150573
+        },
+        "status": "viewed-now",
+        "finding": "Molecule, C mark pin, two feature dots, pore-and-signal arrow, amplification fork and ten tick molecules (8 filled, 2 hollow) preserved. Filled versus hollow, the colour-independent cue, carries the 8/10 distinction.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.long-read-and-methylation-sequencing.methylation-not-sequence",
+        "r1.long-read-and-methylation-sequencing.three-workflows",
+        "r1.long-read-and-methylation-sequencing.amplification-loses-marks",
+        "r1.long-read-and-methylation-sequencing.fraction-vs-confidence"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+          "bytes": 10663,
+          "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3",
+          "gitBlob": "9b8dbd574b40ef94e7a8ec769e45117ee6c73636",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+          "bytes": 10663,
+          "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e",
+          "gitBlob": "be820b0d8b60dd6286109a5a4796fc4adbc17206",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-dark.svg",
+          "bytes": 10663,
+          "sha256": "553d138e59d0e3fd339cff7c6fae7e0721fb2e3eee98bcf9ff6c84122fc860a3",
+          "gitBlob": "9b8dbd574b40ef94e7a8ec769e45117ee6c73636",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/long-sequence-and-mark-workflows-v1-light.svg",
+          "bytes": 10663,
+          "sha256": "e705627ed153655c5a1bfdf72148e19d339239ce79ce035163f9a7390c74482e",
+          "gitBlob": "be820b0d8b60dd6286109a5a4796fc4adbc17206",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "mean-breadth-and-local-depth-v1",
+      "lightActualView": "Shows target mean 100x against 4x at the position, a 20x dashed criterion, 900/1000 = 90% breadth and four reads not equal to four proven molecules. Consistent with the page.",
+      "darkActualView": {
+        "family": "mean-breadth-and-local-depth-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+        "original": {
+          "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f",
+          "gitBlob": "c42dfd8b6328b94a2d7b2235cc924de7f5ab991f",
+          "bytes": 4659
+        },
+        "derivativeRender": {
+          "file": "figures/full/mean-breadth-and-local-depth-v1-dark.png",
+          "sha256": "9c36eb1ee11d4e6f80eaa6346472294f20f74ff36c885cd16a52fd02bab6e866",
+          "bytes": 122390
+        },
+        "status": "viewed-now",
+        "finding": "100x bar, thin 4x bar in contrasting salmon, dashed 20x line, 90% breadth bar with grey remainder and four reads crossing one marker preserved; the 4x versus 100x contrast does not depend on colour.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.sequencing-depth-and-coverage.mean-vs-breadth",
+        "r1.sequencing-depth-and-coverage.worked-100x-90pct",
+        "r1.sequencing-depth-and-coverage.read-vs-molecular-depth"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+          "bytes": 4659,
+          "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f",
+          "gitBlob": "c42dfd8b6328b94a2d7b2235cc924de7f5ab991f",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+          "bytes": 4659,
+          "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6",
+          "gitBlob": "5c0004a40b677d11a152b33cf1b9662c62a6935e",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-dark.svg",
+          "bytes": 4659,
+          "sha256": "9339a4cb11559a212fce1c4e46b3f36a69ec2c9f80e58fce200fcd78af38096f",
+          "gitBlob": "c42dfd8b6328b94a2d7b2235cc924de7f5ab991f",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/mean-breadth-and-local-depth-v1-light.svg",
+          "bytes": 4659,
+          "sha256": "8bdb5e80a173549d89f4a285588634ef9082a00020869acf81d44d64fb2a41e6",
+          "gitBlob": "5c0004a40b677d11a152b33cf1b9662c62a6935e",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "paired-reads-and-fragment-ancestry-v1",
+      "lightActualView": "Matches page caption: 5 pairs, 10 reads, at most 5 fragments; panel 2 shows 3 copies, 6 reads, 1 source. Consistent with the page; \"overlapping\" pair claim visible (R1 and R2 overlap).",
+      "darkActualView": {
+        "family": "paired-reads-and-fragment-ancestry-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+        "original": {
+          "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+          "gitBlob": "fa5bfb861c27b71f45ce251cc5bb702d11f135c0",
+          "bytes": 11456
+        },
+        "derivativeRender": {
+          "file": "figures/full/paired-reads-and-fragment-ancestry-v1-dark.png",
+          "sha256": "642014a9df2ed7c2c82ef6ab14621e505f77cd960d027bf69c5877c6cbd82063",
+          "bytes": 131404
+        },
+        "status": "viewed-in-original-batch",
+        "finding": "Viewed in the original packet; preserved geometry and colours."
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.sequencing-reads.paired-end",
+        "r1.sequencing-reads.amplification-duplicates"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+          "bytes": 11456,
+          "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+          "gitBlob": "fa5bfb861c27b71f45ce251cc5bb702d11f135c0",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+          "bytes": 11458,
+          "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c",
+          "gitBlob": "c89d3eb43ad73abfd5d213a899cdae29fa7b131d",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-dark.svg",
+          "bytes": 11456,
+          "sha256": "c6d0001d3f4dcd46f5c9df838ca9f52dd17a1f41a86fabda367ad54589a6e1a0",
+          "gitBlob": "fa5bfb861c27b71f45ce251cc5bb702d11f135c0",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/paired-reads-and-fragment-ancestry-v1-light.svg",
+          "bytes": 11458,
+          "sha256": "ff2cb8191349c7d2b952b1d7aab3cf257383fcf7a4172b87514e7ceed0d1b56c",
+          "gitBlob": "c89d3eb43ad73abfd5d213a899cdae29fa7b131d",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "panel-exome-genome-comparison-territory-v1",
+      "lightActualView": "Panel selects one exon plus a non-exon region, exome the three exons, genome the whole interval; hatching marks illustrative gaps; no coordinates implied. Consistent with alt text.",
+      "darkActualView": {
+        "family": "panel-exome-genome-comparison-territory-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+        "original": {
+          "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2",
+          "gitBlob": "5a2ba8fd13c05b61d58431fa8cdce103150a1736",
+          "bytes": 7082
+        },
+        "derivativeRender": {
+          "file": "figures/full/panel-exome-genome-comparison-territory-v1-dark.png",
+          "sha256": "a479942789f54f3b38c131b5004df43c78fc6a052cd86a0a6b0e2f1444fe9b56",
+          "bytes": 135376
+        },
+        "status": "viewed-now",
+        "finding": "All four tracks preserved: three exon boxes, panel with one exon plus one non-exon box, exome with three, genome full bar; hatch gaps present on panel, exome and genome. Limit: the Exons leader line and hatch pattern are low contrast on dark; legend (intended target, example gap) and captions still carry the meaning. The distinction between intended target and gap relies on hatch, not hue.",
+        "rendererOrCoverageLimitation": "low-contrast leader line and hatch, minor",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.panel-exome-genome.territory-table",
+        "r1.panel-exome-genome.exome-meaning",
+        "r1.panel-exome-genome.class-specific-performance"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+          "bytes": 7082,
+          "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2",
+          "gitBlob": "5a2ba8fd13c05b61d58431fa8cdce103150a1736",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-light.svg",
+          "bytes": 7082,
+          "sha256": "1cf32ad6e08258d3aa933490c0886ad7eec5db3df11f5f3e81aea95d68b465c2",
+          "gitBlob": "ce48d8a9f952442bf02624b6f46c7f4632eee5fe",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-dark.svg",
+          "bytes": 7082,
+          "sha256": "b31bf9536033df6eb073f9260895737a227bdefe481675cd03e18cba52e888f2",
+          "gitBlob": "5a2ba8fd13c05b61d58431fa8cdce103150a1736",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/panel-exome-genome-comparison-territory-v1-light.svg",
+          "bytes": 7082,
+          "sha256": "1cf32ad6e08258d3aa933490c0886ad7eec5db3df11f5f3e81aea95d68b465c2",
+          "gitBlob": "ce48d8a9f952442bf02624b6f46c7f4632eee5fe",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "same-cells-different-copy-fractions",
+      "lightActualView": "Raster generated from an image prompt text. Shows 50 cancer plus 50 normal cells, V marking the variant copy; 50/200=25% and 50/150 about 33%; purity 50% and CCF 100%. Arithmetic matches the page. The prompt file is public-custody metadata only. Upper panel title says \"Two copies per cancer cell\" while a V bar plus an unmarked bar is shown: consistent.",
+      "darkActualView": {
+        "family": "same-cells-different-copy-fractions",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-dark.png",
+        "original": {
+          "sha256": "c74abced7aded3be78860600d6d082dc370e0729fb62a950f90064e9b717cd6d",
+          "gitBlob": "3430111df33f62f4ed92a4bcda49c5dd3cc3718f",
+          "bytes": 1512560
+        },
+        "derivativeRender": {
+          "file": "raw/assets-7510db6b/sequencing-basics/images/same-cells-different-copy-fractions-dark.png",
+          "sha256": "c74abced7aded3be78860600d6d082dc370e0729fb62a950f90064e9b717cd6d",
+          "bytes": 1512560
+        },
+        "status": "viewed-now (raster)",
+        "finding": "NOT a recolour of the light PNG: both are 1024x1536 but the dark one is a separately generated raster. Preserved: titles, 50 cancer and 50 normal cells, V on one local copy, 2 versus 1 local copy, 100+100=200 and 50+100=150, 50/200=25% and 50/150 about 33%, purity 50%, CCF 100%. Differences from light: the variant copy V is purple in the dark version (orange in the light version), so V cannot be identified by colour across themes and relies on its letter; the dark legend adds five coloured dots (purple, green, orange, blue, yellow) whose colours do not map consistently to the drawing (for example the orange dot sits beside CCF while orange also marks the VAF result box); in the dark upper panel the cell glyph is less cartoon-like. No scientific content differs, but the two themes are two independent images and the dark legend dots are misleading decoration.",
+        "rendererOrCoverageLimitation": "legend dot colours not meaningful; variant copy colour differs between themes",
+        "viewMethod": "Read tool on raw PNG as shipped (no derivative)",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.variant-allele-fraction-and-cancer-cell-fraction.ccf-and-denominators",
+        "r1.variant-allele-fraction-and-cancer-cell-fraction.expected-vaf-formula",
+        "r1.variant-allele-fraction-and-cancer-cell-fraction.same-cells-25-vs-33"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-dark.png",
+          "bytes": 1512560,
+          "sha256": "c74abced7aded3be78860600d6d082dc370e0729fb62a950f90064e9b717cd6d",
+          "gitBlob": "3430111df33f62f4ed92a4bcda49c5dd3cc3718f",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-light.png",
+          "bytes": 1464699,
+          "sha256": "034e312695a3ccabd4ba0d90aba31f57dd473524fa46c32089af9d83a22dd9b6",
+          "gitBlob": "9c709d20398487626c027fbc9e3c25307242716e",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-dark.png",
+          "bytes": 1512560,
+          "sha256": "c74abced7aded3be78860600d6d082dc370e0729fb62a950f90064e9b717cd6d",
+          "gitBlob": "3430111df33f62f4ed92a4bcda49c5dd3cc3718f",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/same-cells-different-copy-fractions-light.png",
+          "bytes": 1464699,
+          "sha256": "034e312695a3ccabd4ba0d90aba31f57dd473524fa46c32089af9d83a22dd9b6",
+          "gitBlob": "9c709d20398487626c027fbc9e3c25307242716e",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "sequencing-territory-and-local-depth-v1",
+      "lightActualView": "P 4x and Q 2x counts verified by counting bars crossing the dashed positions; R 0x in a targeted region; labelled not a clinical threshold. Consistent.",
+      "darkActualView": {
+        "family": "sequencing-territory-and-local-depth-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+        "original": {
+          "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+          "gitBlob": "2cd98996097f3b4f088042fe1f19a473da266490",
+          "bytes": 4814
+        },
+        "derivativeRender": {
+          "file": "figures/full/sequencing-territory-and-local-depth-v1-dark.png",
+          "sha256": "8b13835c289bef30f1fea635c8ec0b764eb9b407dc6cffa41383730ce718b4af",
+          "bytes": 89539
+        },
+        "status": "viewed-now",
+        "finding": "Selected region box and crossed-out outside region, four read bars with P (4 crossings) and Q (2 crossings) dashed lines, R 0x gap strip all preserved; crossing counts recounted as 4 and 2. The cross mark is dim magenta on dark but still visible.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.panel-exome-genome.territory-table",
+        "r1.panel-exome-genome.class-specific-performance",
+        "r1.panel-exome-genome.worked-negatives"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+          "bytes": 4814,
+          "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+          "gitBlob": "2cd98996097f3b4f088042fe1f19a473da266490",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+          "bytes": 4814,
+          "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+          "gitBlob": "92aaa08967f8f6ee77337a18a5f31ccca6bb140c",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-dark.svg",
+          "bytes": 4814,
+          "sha256": "c338f5fda2ac587f258742d0dfa076562d525771bd87a7c51da597f315bd37ca",
+          "gitBlob": "2cd98996097f3b4f088042fe1f19a473da266490",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/sequencing-territory-and-local-depth-v1-light.svg",
+          "bytes": 4814,
+          "sha256": "04915b9a75b5415eb688a35670ab5c398f5d1674b336a5be1f354a69cd22c74a",
+          "gitBlob": "92aaa08967f8f6ee77337a18a5f31ccca6bb140c",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "tmb-count-and-eligible-territory-v1",
+      "lightActualView": "24 mutation tokens (6x4 grid verified), 2 Mb gives 12 mut/Mb, 1 Mb gives 24 mut/Mb. Consistent.",
+      "darkActualView": {
+        "family": "tmb-count-and-eligible-territory-v1",
+        "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+        "original": {
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+          "gitBlob": "ed431c602b348fa5afc888fd1ea1272d4ee112d2",
+          "bytes": 8475
+        },
+        "derivativeRender": {
+          "file": "figures/full/tmb-count-and-eligible-territory-v1-dark.png",
+          "sha256": "3df87bf978ff30a5796d12c01c437dd11bbcd6ed79544168d5ec6e2c7a70f25a",
+          "bytes": 102389
+        },
+        "status": "viewed-now",
+        "finding": "Six by four grid of 24 tokens, 2 Mb ribbon about twice the 1 Mb ribbon, equations 12 and 24 mut/Mb preserved. Ribbon length ratio unchanged.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.tumor-mutational-burden.density-definition",
+        "r1.tumor-mutational-burden.denominator",
+        "r1.tumor-mutational-burden.worked-12-vs-24"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+          "bytes": 8475,
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+          "gitBlob": "ed431c602b348fa5afc888fd1ea1272d4ee112d2",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+          "bytes": 8475,
+          "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+          "gitBlob": "cedb5cbc301e363424cb643c183b09045753f2bb",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-dark.svg",
+          "bytes": 8475,
+          "sha256": "264729b4116c50a610b03637ba22983bf85d8e8573fce79e9e40e1f0caaea88a",
+          "gitBlob": "ed431c602b348fa5afc888fd1ea1272d4ee112d2",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/images/tmb-count-and-eligible-territory-v1-light.svg",
+          "bytes": 8475,
+          "sha256": "e16d69ab9e11a462f1da07443943afbe763b9abb371b1bde575d92aa9355807c",
+          "gitBlob": "cedb5cbc301e363424cb643c183b09045753f2bb",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "bulk-mixture-and-pooled-messages-v2",
+      "lightActualView": "Two 100-cell grids (20 and 40 blue lymphocytes verified by row counts), tubes with 20 and 40 X RNAs, per-lymphocyte 1 X RNA assumed. Consistent; stipulated, not observed reads.",
+      "darkActualView": {
+        "family": "bulk-mixture-and-pooled-messages-v2",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+        "original": {
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7",
+          "gitBlob": "c0821d8b8d16451882ef4282fb27653ca20f94b3",
+          "bytes": 49239
+        },
+        "derivativeRender": {
+          "file": "figures/full/bulk-mixture-and-pooled-messages-v2-dark.png",
+          "sha256": "c6d554966a856f353bca42f20f2cd34ee224427faeea1cf50a158fad3b6e9de5",
+          "bytes": 128451
+        },
+        "status": "viewed-now",
+        "finding": "Both 100-cell grids rebuilt: rows of blue lymphocytes (2 rows of 10, then 4 rows of 10) over rose cancer cells; tubes with 20 and 40 wavy RNA glyphs; per-lymphocyte 1 X RNA. Colour carries lymphocyte versus cancer cell, but blue and rose remain clearly separable on the dark backing and each panel states the counts in text.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.bulk-rna-seq.mixture",
+        "r1.bulk-rna-seq.worked-20-to-40"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+          "bytes": 49239,
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7",
+          "gitBlob": "c0821d8b8d16451882ef4282fb27653ca20f94b3",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+          "bytes": 49239,
+          "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9",
+          "gitBlob": "979fe53c724b8e9b0fa9a39f941a4f8cd749b0e2",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-dark.svg",
+          "bytes": 49239,
+          "sha256": "76d49f03791971d0e6dfafd4e951034da8328a994152e746c1e6fa2db76e24d7",
+          "gitBlob": "c0821d8b8d16451882ef4282fb27653ca20f94b3",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/bulk-mixture-and-pooled-messages-v2-light.svg",
+          "bytes": 49239,
+          "sha256": "825f7532ace5c062f2f83f044007258ad5da1ef62a36189efd1a30a9b3bea4e9",
+          "gitBlob": "979fe53c724b8e9b0fa9a39f941a4f8cd749b0e2",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "cell-nucleus-rna-and-recovery-barcodes-v1",
+      "lightActualView": "Whole cell (nuclear plus cytoplasmic) versus nucleus (nuclear RNA); droplets A cell, B nucleus, C doublet; recovery loses one cell type. The alt text mentions unfinished transcripts, which the drawing does not label.",
+      "darkActualView": {
+        "family": "cell-nucleus-rna-and-recovery-barcodes-v1",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+        "original": {
+          "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+          "gitBlob": "7d40b60b9a98228888f335672cf7ff8db4e95f31",
+          "bytes": 7316
+        },
+        "derivativeRender": {
+          "file": "figures/full/cell-nucleus-rna-and-recovery-barcodes-v1-dark.png",
+          "sha256": "0df2bdf0b18a9fe42323d2bc168baa409867d0beb69b048190dce74ef8d9baa0",
+          "bytes": 119638
+        },
+        "status": "viewed-now",
+        "finding": "Whole cell with nuclear and cytoplasmic RNA versus nucleus, droplets A (cell), B (nucleus), C (two cells, doublet), and the recovery strip with a crossed-out lost cell and an ambient RNA squiggle preserved. Colour-dependent cell identities (teal, rose, ochre) remain distinct.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.single-cell-and-single-nucleus-rna-seq.barcode-umi",
+        "r1.single-cell-and-single-nucleus-rna-seq.nucleus-vs-cell",
+        "r1.single-cell-and-single-nucleus-rna-seq.preparation-bias",
+        "r1.single-cell-and-single-nucleus-rna-seq.zeros-ambient-doublets"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "bytes": 7316,
+          "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+          "gitBlob": "7d40b60b9a98228888f335672cf7ff8db4e95f31",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "bytes": 7316,
+          "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+          "gitBlob": "d859a96d0af1d17b85bb6862419e155c54e4d39c",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-dark.svg",
+          "bytes": 7316,
+          "sha256": "71713f12a6813db780485533236e0e1039796c393946c4cd6a376362437912fe",
+          "gitBlob": "7d40b60b9a98228888f335672cf7ff8db4e95f31",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/cell-nucleus-rna-and-recovery-barcodes-v1-light.svg",
+          "bytes": 7316,
+          "sha256": "dca84da836437350ac3408f66a2fa4522e0940b44ba7e3a6db33722a63cf7265",
+          "gitBlob": "d859a96d0af1d17b85bb6862419e155c54e4d39c",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "equal-counts-different-denominators-v1",
+      "lightActualView": "Ledger 100/1/100 and 100/2/50, totals 200 and 150, CPM 500,000 each, TPM 666,667 and 333,333. Arithmetic independently checked. Consistent.",
+      "darkActualView": {
+        "family": "equal-counts-different-denominators-v1",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/equal-counts-different-denominators-v1-dark.svg",
+        "original": {
+          "sha256": "fc2edb548c3063266808d23282202f9ef291397b26db7d75cc10355d576d5dce",
+          "gitBlob": "897c16995d5a157423bb2e966343f69d3ee54bff",
+          "bytes": 8231
+        },
+        "derivativeRender": {
+          "file": "figures/full/equal-counts-different-denominators-v1-dark.png",
+          "sha256": "394670970a5e819cda23e6a7137e4c0cb83e6074e4181df466674c26022c414c",
+          "bytes": 152051
+        },
+        "status": "viewed-now",
+        "finding": "Ledger rows 100/1/100 and 100/2/50, totals 200 and 150, CPM bars both at 500,000, TPM bars about 666,667 and 333,333 on 0 to 1,000,000 axes preserved. Transcript A versus B is carried by solid versus diagonal-hatch fill plus letters, not hue alone. Bar lengths consistent with values.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.counts-normalization.cpm",
+        "r1.counts-normalization.tpm",
+        "r1.counts-normalization.worked-cpm-tpm"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/equal-counts-different-denominators-v1-dark.svg",
+          "bytes": 8231,
+          "sha256": "fc2edb548c3063266808d23282202f9ef291397b26db7d75cc10355d576d5dce",
+          "gitBlob": "897c16995d5a157423bb2e966343f69d3ee54bff",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/equal-counts-different-denominators-v1-light.svg",
+          "bytes": 8231,
+          "sha256": "2d88c01a594122f5ab6a37231208f261ac4d12cb24d2e516c2f2d6641f6082eb",
+          "gitBlob": "ba0736838cf188a1fe30ab2dfa5632540ea1f2e2",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/equal-counts-different-denominators-v1-dark.svg",
+          "bytes": 8231,
+          "sha256": "fc2edb548c3063266808d23282202f9ef291397b26db7d75cc10355d576d5dce",
+          "gitBlob": "897c16995d5a157423bb2e966343f69d3ee54bff",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/equal-counts-different-denominators-v1-light.svg",
+          "bytes": 8231,
+          "sha256": "2d88c01a594122f5ab6a37231208f261ac4d12cb24d2e516c2f2d6641f6082eb",
+          "gitBlob": "ba0736838cf188a1fe30ab2dfa5632540ea1f2e2",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "group-laboratory-missing-contrasts-v2",
+      "lightActualView": "Matrix 1: 6 baseline in lab A, 6 follow-up in lab B, hatched Not observed cells; matrix 2: 3 per cell. Consistent.",
+      "darkActualView": {
+        "family": "group-laboratory-missing-contrasts-v2",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+        "original": {
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+          "gitBlob": "d1f9909e8bad4bfe33bfbb2a83b50376881dade2",
+          "bytes": 11177
+        },
+        "derivativeRender": {
+          "file": "figures/full/group-laboratory-missing-contrasts-v2-dark.png",
+          "sha256": "f222db87124b566c365f4ab1f38297a19def8b15b49f2919399b141ccf595b7f",
+          "bytes": 110434
+        },
+        "status": "viewed-now",
+        "finding": "2x2 matrices preserved: 6 baseline in lab A, 6 follow-up in lab B, hatched Not observed cells; crossed design with three tubes per cell. Baseline blue versus follow-up rose is backed by row labels and sample counts; hatched cells are bright and clear.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.batch-effects.confounding",
+        "r1.batch-effects.crossed-design-exercise"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+          "bytes": 11177,
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+          "gitBlob": "d1f9909e8bad4bfe33bfbb2a83b50376881dade2",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+          "bytes": 11177,
+          "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+          "gitBlob": "d692e5234987e6c18b7c3475e14c037fee26e6b3",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-dark.svg",
+          "bytes": 11177,
+          "sha256": "16ca1109979ff8f2efaf7100359bf59283f1f9f8fced25ba76ff4fb47b62ec81",
+          "gitBlob": "d1f9909e8bad4bfe33bfbb2a83b50376881dade2",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/group-laboratory-missing-contrasts-v2-light.svg",
+          "bytes": 11177,
+          "sha256": "a4d1e1fa63ed6ca22f416b44d8a19bd56516975ac4de6f045a2f7760c20deb32",
+          "gitBlob": "d692e5234987e6c18b7c3475e14c037fee26e6b3",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "immune-subset-and-whole-sample-b11-v1",
+      "lightActualView": "A: 10 T of 20 immune in 100 cells; B: 30 of 60; 50% within immune, 10% and 30% whole-sample (grid rows counted). Panel 4 labels RNA share as not cell share. Consistent.",
+      "darkActualView": {
+        "family": "immune-subset-and-whole-sample-b11-v1",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+        "original": {
+          "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708",
+          "gitBlob": "69a457daa3e66290f2fd2aa947498418d0f87e4a",
+          "bytes": 23606
+        },
+        "derivativeRender": {
+          "file": "figures/full/immune-subset-and-whole-sample-b11-v1-dark.png",
+          "sha256": "8efa2e974b396203ceee5daa4ee0618bcb9876ce59807b8b410ef1f060b271eb",
+          "bytes": 129898
+        },
+        "status": "viewed-now",
+        "finding": "Grids rebuilt with T (cyan), other immune (green) and other cells (grey); A has 10 T and 10 other immune, B has 30 and 30 (rows recounted); bars for 50%, 50%, 10%, 30% and the RNA-pool panel preserved. Three-way colour coding is the one place where colour carries meaning in the grid; cyan versus green are separable and the legend plus counts in text back them.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.immune-deconvolution.rna-share-vs-cell-share",
+        "r1.immune-deconvolution.relative-vs-absolute",
+        "r1.immune-deconvolution.worked-50-vs-10-30"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+          "bytes": 23606,
+          "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708",
+          "gitBlob": "69a457daa3e66290f2fd2aa947498418d0f87e4a",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+          "bytes": 23606,
+          "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184",
+          "gitBlob": "c1cebb2ebbefd9ce90d3cfa52079a3cd76f86fe8",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-dark.svg",
+          "bytes": 23606,
+          "sha256": "83a5fc9f6cb5f210a2c9611857e9fff93e79e65cd8661b36b91f899541b5b708",
+          "gitBlob": "69a457daa3e66290f2fd2aa947498418d0f87e4a",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/immune-subset-and-whole-sample-b11-v1-light.svg",
+          "bytes": 23606,
+          "sha256": "bd70fac8f8e8421b5e28186019c1779e591ae1b02ccd01b748aeb97dac4d1184",
+          "gitBlob": "c1cebb2ebbefd9ce90d3cfa52079a3cd76f86fe8",
+          "theme": "light"
+        }
+      ]
+    },
+    {
+      "family": "rna-join-evidence-and-reach-v1",
+      "lightActualView": "Split read crossing the A-B join, spanning pair with unsequenced gap, local exon 2-3 join with unknown flanks. Consistent.",
+      "darkActualView": {
+        "family": "rna-join-evidence-and-reach-v1",
+        "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+        "original": {
+          "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a",
+          "gitBlob": "45caccd4114a9a5fc11a01fc45ce8da47cfd81de",
+          "bytes": 5808
+        },
+        "derivativeRender": {
+          "file": "figures/full/rna-join-evidence-and-reach-v1-dark.png",
+          "sha256": "fbeb287e32d21429332dff949d9e66bb624439235f072abd979b1e5875a48bd7",
+          "bytes": 116979
+        },
+        "status": "viewed-now",
+        "finding": "Split read crossing the red join line, spanning pair with dashed unsequenced gap, exon 2 and 3 with two question-mark boxes preserved. Gene A green versus gene B purple is the colour-dependent part; both are labelled in text.",
+        "rendererOrCoverageLimitation": "none",
+        "viewMethod": "Read tool on existing private full-viewBox headless Chrome screenshot; compared against the light render viewed in the original batch",
+        "checked": [
+          "geometry",
+          "arrows and connectors",
+          "labels and numbers",
+          "colour-dependent distinctions"
+        ]
+      },
+      "reuseRule": "Reused prior actual full-extent light/dark views. No new view claimed.",
+      "lessonContext": "Source asset bytes and Git objects match at both pins. Current captions and exercises retain the same counts, labels, assumptions and limits; version deltas are routing/context pointers.",
+      "limits": [
+        "Single renderer only; Safari and Firefox not tried.",
+        "No pixel diff or contrast-ratio measurement; judgments are visual at native size.",
+        "The dark theme was rendered from the stand-alone SVG, not through the page prefers-color-scheme switch (data-theme-pair), so the page-level swap was not exercised.",
+        "Fonts are Arial or system-ui substitutions on this machine.",
+        "Mobile downscaling not tested."
+      ],
+      "requirementIds": [
+        "r1.fusion-and-splice-detection.junction-vs-fusion",
+        "r1.fusion-and-splice-detection.split-vs-spanning",
+        "r1.fusion-and-splice-detection.psi",
+        "r1.fusion-and-splice-detection.worked-three-copies"
+      ],
+      "assets": [
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+          "bytes": 5808,
+          "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a",
+          "gitBlob": "45caccd4114a9a5fc11a01fc45ce8da47cfd81de",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+          "bytes": 5808,
+          "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110",
+          "gitBlob": "ecdbffb2228ef797a4fd81898eff333106f1bd93",
+          "theme": "light"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-dark.svg",
+          "bytes": 5808,
+          "sha256": "4d261eb87170354502b2ae0a53104b3ef0ca7cbd800e683b6c88e5bed4eba32a",
+          "gitBlob": "45caccd4114a9a5fc11a01fc45ce8da47cfd81de",
+          "theme": "dark"
+        },
+        {
+          "versionRef": "c96896452386202405c435aa161bc5047919337a",
+          "path": "wiki/education/concepts/measurement/transcriptomics/images/rna-join-evidence-and-reach-v1-light.svg",
+          "bytes": 5808,
+          "sha256": "e88cf72ed5ffa663725f764b657e4965a444108a234a2a5bc6e6dbfea5789110",
+          "gitBlob": "ecdbffb2228ef797a4fd81898eff333106f1bd93",
+          "theme": "light"
+        }
+      ]
+    }
+  ],
+  "individualFigureFilesActuallyViewed": 30,
+  "versionEntries": 60,
+  "derivativeRenderReceiptsVerified": 28,
+  "rasterFilesViewedDirectly": 2,
+  "remainingSupportingAssetVersionEntries": 92,
+  "supportingAssets": "Identity checked only; supporting classification and scientific escalations remain in their separate queues. Initial dark text-equality triage is superseded by actual views."
+}

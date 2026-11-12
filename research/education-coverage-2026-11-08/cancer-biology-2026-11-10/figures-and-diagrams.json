@@ -1,0 +1,1141 @@
+{
+  "figures": {
+    "uniqueFiles": 24,
+    "versionEntries": 48,
+    "entries": [
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "73652a7da9314be4d777ecb7a53f22cb11e8df0c",
+        "bytes": 11601,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+        "sha256": "c97a360d8f0827408a7c898d9ca2929fc48bae5f3865628166b700be57b49ca1",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "8091e5c8dae69f3898e748ff6730cbb10453d83fbb3840232c1d61b763009445",
+        "dimensions": {
+          "width": 600,
+          "height": 1900
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "cb296a7b6b435d6bbcc82ca2348ae3e835f43b2e",
+        "bytes": 11601,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/angiogenesis-structures-flow-and-cooption-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/angiogenesis.md",
+        "sha256": "8cbc9045f8794a28c92f3f9b5dd095fde3153193ec6934ad84d05bbd32517bb1",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "a10949b82bae2a65d744d073517987cb3b95578e23b9d4ab6ab21a018153d6b9",
+        "dimensions": {
+          "width": 600,
+          "height": 1900
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "1f42b066415c9921772b591bb5f2c441458204f3",
+        "bytes": 7021,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+        "sha256": "9d35758fa2bd6bdaa80c9095c08c56c014cbf893cb513b46d267b1185c4238b2",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "78db90ab5ea3da3f3a95b9a99f92610c0383438202656806075d33690fd21f86",
+        "dimensions": {
+          "width": 600,
+          "height": 1330
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "dfb7f588afa6b845c5935f8d1803885971a794c9",
+        "bytes": 7021,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/caf-cell-role-neighborhood-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+        "sha256": "38b90ec908b401dbfc8d6762cd36ab34356fec34e39a38405e748eca48f55faa",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "c977f4f2e9155d63926b7be7ca1135f9d284d494ce67495d72bf17ed84c79bda",
+        "dimensions": {
+          "width": 600,
+          "height": 1330
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "ece86f55192db31f754598bed05b62ea1f3117eb",
+        "bytes": 8752,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+        "sha256": "762332acdb4fceaebe05d1aa07d5882be741c1a1099e186a25d69ea49ff46537",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "ea9b251059f29fae8e756b6a7b4bb302b14cd88ed060d5c4f3a59f80937b169d",
+        "dimensions": {
+          "width": 600,
+          "height": 1800
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "026a6b82e6639e0a627f6956ac152f9838900a93",
+        "bytes": 8752,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/matrix-equal-area-distinct-architecture-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/extracellular-matrix.md",
+        "sha256": "607b5c32fb0d3a02719b8cd9f8fd2efef1ab07f1c1624156fd4c5603e9917bdc",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "b48b0b343eae61bb4ab0a488b652f3fef5029d0d27fd16b94f541360e28ef3f9",
+        "dimensions": {
+          "width": 600,
+          "height": 1800
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "22fdaa1318626ab5f814b37d0253211d5753a515",
+        "bytes": 6519,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+        "sha256": "a419bf7dfcd54198b56e6dc0e1ccd4e632901dfe644b5159f6198ff4c357d2ec",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "9114e56ec755f76fd2ddb78a3552a9e4d5f5a23f05cabc4e49be4ccafcd470db",
+        "dimensions": {
+          "width": 600,
+          "height": 1390
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "f68f00941972f86717a8073bf5846e747bedd2fb",
+        "bytes": 6519,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/hypoxia-local-supply-demand-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/hypoxia.md",
+        "sha256": "16bd08f3b34550110afbe23b5e5ba1bfd19ad1b9d4000d12d30cee8f85c58d8f",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "7fb283c8be21a5c34f916678dafc82f2768713350950be92187170642e1a85d7",
+        "dimensions": {
+          "width": 600,
+          "height": 1390
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-light.png",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-light.png",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "6dea8fa82952d475223d43862c2dfbdc8c22e5b8",
+        "bytes": 1717491,
+        "format": ".png",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-light.png",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment.md",
+        "sha256": "664908560454ff1952e149af675622a4e9eac26f9613c1240b3e079038e4a616",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "664908560454ff1952e149af675622a4e9eac26f9613c1240b3e079038e4a616",
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo. Light and dark are separately inspected raster images, not presumed text-equivalent recolours."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-dark.png",
+        "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-dark.png",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "f56151dd0c17f8044fc4a0513b1066073e2711c0",
+        "bytes": 2003127,
+        "format": ".png",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/tumor-microenvironment/images/tumor-neighborhood-dark.png",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/tumor-microenvironment/tumor-microenvironment.md",
+        "sha256": "50974af1d4324cad082fa9d6f95d8846bb076b0b7a546f2bf75151097e209486",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "50974af1d4324cad082fa9d6f95d8846bb076b0b7a546f2bf75151097e209486",
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo. Light and dark are separately inspected raster images, not presumed text-equivalent recolours."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "8ec9815dc47d3cffec60a746a165586b30cc0042",
+        "bytes": 8174,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+        "sha256": "516aec29b9c4c27d4a8edeeacdd60e939429469d1e8b601a53cab2d0dfaf3bb5",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "97ad7a66814eb6ce71026e4e6926a2d015aad23ea90b587f34c09ca473fdfcc1",
+        "dimensions": {
+          "width": 600,
+          "height": 1210
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "renderFinding": "Rightmost epithelial glyph approaches field boundary; interpretation remains local invasion, not distant disease.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "a3b8c2a9843d2eddcc48e16a15a3798880ba02ea",
+        "bytes": 8174,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/cancer-context-matched-alteration-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/cancer.md",
+        "sha256": "6c1d565a7305c24b80d4bf36e33daf2e0d6a99466157d8d50e5b0d92c4bcf5cb",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "e3c33572f9c6276e206146d26f1494650c0a4abe5179513a69c891866257d60d",
+        "dimensions": {
+          "width": 600,
+          "height": 1210
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "renderFinding": "Rightmost epithelial glyph approaches field boundary; interpretation remains local invasion, not distant disease.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "a1516fcff6c50fa6d86990e0d16108c7417d458f",
+        "bytes": 7566,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+        "sha256": "8d404f6f5125c6a6c8611db8e900af3774c327a978049cbad534bcce3824835c",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "8ec92fe1804be1d09ca7e3288d6c139f2f495cbaead7e7601d832e3a835653ba",
+        "dimensions": {
+          "width": 780,
+          "height": 1330
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "c07d4d51f1e4cc0ceaa5e1514889b0a1dda9b3e8",
+        "bytes": 7566,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/clonal-counts-and-ancestry-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+        "sha256": "0139a81618da0f353cd939951e18e30ed670a2a11b050e69ce3e8248c0301998",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "b2ed0b40b1e85dfbf89ae06d04d1c08064a2edbcf8e603b4781f7056d1084860",
+        "dimensions": {
+          "width": 780,
+          "height": 1330
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "0dce21ca7b14649f14819e220ac1c7e50d52cf5b",
+        "bytes": 6078,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer.md",
+        "sha256": "07e7f5f7a54629e54ca0036b7d1a1737dd14f72fbcc55eba25fba94fa59cb070",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "f91ee64ffacf64fd917199b5ba237b6abbb37757105ca9b1ef4c87318e4588ea",
+        "dimensions": {
+          "width": 760,
+          "height": 1320
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "renderFinding": "Proposal box crowds core-capability heading at right edge; all sections remain visible. No source asset edited.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "06eed704fea7855f0075feeca10ab9aa846d07ee",
+        "bytes": 6078,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/2022-capabilities-enablers-and-tissue-participants-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/hallmarks-of-cancer.md",
+        "sha256": "04c8283b8007f2c9f86e006005a0f25a6b0929ac5dee0bad19b9b5c7220addf9",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "b8a481d35f316b7f762658ac9f1d7fa58b6fb83df30d421f808502533525ab04",
+        "dimensions": {
+          "width": 760,
+          "height": 1320
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "renderFinding": "Proposal box crowds core-capability heading at right edge; all sections remain visible. No source asset edited.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "3c92c9a67c59ea458f8f814f69c4731c39d01bbd",
+        "bytes": 7638,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+        "sha256": "5f42682801ddc527babaf504ee9d8e47d9769435c8d9e78db17429197fa97ed9",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "0d2a485c676b765b8be17f77836e1a9be08d66e5a2bd70fff95e9b7b78f7639a",
+        "dimensions": {
+          "width": 600,
+          "height": 1560
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "f12ac767118f1f1314e242b93871493023f475fb",
+        "bytes": 7638,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/immune-pressure-matched-populations-b12-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/immunoediting.md",
+        "sha256": "1f4a7ee63018909d25348bd0f3157a6e663502c60253474f4355e3fed36b7285",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "b022485bb98012fb349686603858b6a0cd252407caa8dacf5dce57625fd40667",
+        "dimensions": {
+          "width": 600,
+          "height": 1560
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "07b643b90134f0ab9abd8d13cc6ce3df6dec4f8c",
+        "bytes": 11143,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+        "sha256": "6ff308510a5734d02f87a4238239954f3877f202dd62cb0034cc9244c4dfa57e",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "7fe09110f5323fe7ba53f9899f75d27bf3de14ff5f0abb2ffaa1d6c464613a27",
+        "dimensions": {
+          "width": 600,
+          "height": 2200
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "b13bfd3d3591a3b42d13aeffbfc5535a76d645c6",
+        "bytes": 11143,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/metastasis-hurdles-and-dormancy-scales-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/metastasis-and-dormancy.md",
+        "sha256": "eaedeafe0551d1b0be5f3d0c170666dda7e96c26a4eaba4b340eee38a84e4d9d",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "e01b635f55307994413d240f7491a3b6c2f1456ae75eeacac5f09a12c7b4aff3",
+        "dimensions": {
+          "width": 600,
+          "height": 2200
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "51d2582b2f480df1ea7c6c9090cf8e29bf34082c",
+        "bytes": 10755,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+        "sha256": "8b9ac13c07b940c98f637284fd60ed90767d5ed9f761730503c656556c8de8e4",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "529b568fbaea1901762cecae0fb9a2a267d24340eb388cd51e4d0d5bf6382838",
+        "dimensions": {
+          "width": 780,
+          "height": 1360
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "11b868e486312089da755cbf5f5047067196a18f",
+        "bytes": 10755,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/gene-function-copies-and-partners-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-and-tumor-suppressor.md",
+        "sha256": "2939b25613fd4ac356c4abdfa9879cc36c39fc16829b0d3f3154c3706796ddba",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "049d713bb09c5669a98d845ce35ea3e371c8ea64b00ac3396858e3fc6df9e1bb",
+        "dimensions": {
+          "width": 780,
+          "height": 1360
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "5c8ab90691614ca460b713c7463890790cf78639",
+        "bytes": 15692,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-light.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+        "sha256": "d8fcc0c93e005e2fe4ba5054c2a9b7774e6f2652605475d540fb79f1b6ecaff2",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "acdf334ec9b690d0589152937c7aa865dae2a5113613060cb9b74884ccb997fe",
+        "dimensions": {
+          "width": 780,
+          "height": 1360
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      },
+      {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+        "path": "wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "2ee346f4f0103c5527d8bd7d7942215111675a2d",
+        "bytes": 15692,
+        "format": ".svg",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/cancer-biology/what-cancer-is/images/heterogeneity-sampled-layers-v1-dark.svg",
+        "suggestedRole": "visual-teaching-candidate",
+        "scope": "unclassified",
+        "review": {
+          "status": "unreviewed",
+          "points": []
+        },
+        "lessonPath": "wiki/education/concepts/cancer-biology/what-cancer-is/tumor-heterogeneity.md",
+        "sha256": "309c4c3d2ebac9a3605c0d6102617859198e5ca5d919c0cc3c490595340d95d0",
+        "sourceCapture": "<private-capture>",
+        "render": "<private-capture>",
+        "renderSha256": "4b8a2c286655ee422a8671906dc08d7ab9bfcb4e8b42cfd47b81a630dd261954",
+        "dimensions": {
+          "width": 780,
+          "height": 1360
+        },
+        "workaround": "Explicit SVG width/height from full viewBox; no source edit; CSS variables left as authored",
+        "visualReview": "viewed actual full-extent render at original resolution with lesson/caption; original/later entries retained; identical bytes share render",
+        "disposition": "retain teaching in prose; no Guide asset adopted",
+        "limits": "Conceptual symbols and fictional counts do not establish measured biology or clinical benefit.",
+        "cssVariablesPresent": false,
+        "reuseLimit": "Prior visual review depth and renderer limits retained; no new visual review or additional scientific credit.",
+        "sourceAndRenderHashesVerifiedThisRun": true,
+        "coordinatorView": "Newly viewed the complete original-resolution raster, with the lesson already read, including each dark variant separately.",
+        "scientificDisposition": "No contradiction with the scoped teaching and fictional arithmetic found.",
+        "limitations": "Prior raster renderer retained; no live Guide, accessibility, contrast measurement, expert or learner certification. No source image adopted into OnCo."
+      }
+    ],
+    "newCoordinatorViews": 24,
+    "newScientificDefects": 0
+  },
+  "diagrams": {
+    "instances": [
+      {
+        "file": "7510db6b-angiogenesis.md",
+        "ordinal": 0,
+        "diagramId": "diagram-7bb2ef29ca9b"
+      },
+      {
+        "file": "7510db6b-cancer-associated-fibroblasts-and-stroma.md",
+        "ordinal": 0,
+        "diagramId": "diagram-0056667775e9"
+      },
+      {
+        "file": "7510db6b-extracellular-matrix.md",
+        "ordinal": 0,
+        "diagramId": "diagram-217630296e72"
+      },
+      {
+        "file": "7510db6b-hypoxia.md",
+        "ordinal": 0,
+        "diagramId": "diagram-55eda3a5a08b"
+      },
+      {
+        "file": "7510db6b-immunoediting.md",
+        "ordinal": 0,
+        "diagramId": "diagram-59c2c19350bf"
+      },
+      {
+        "file": "7510db6b-myeloid-derived-suppressor-cells.md",
+        "ordinal": 0,
+        "diagramId": "diagram-63157ce87023"
+      },
+      {
+        "file": "7510db6b-oncogene-addiction-vs-synthetic-lethality.md",
+        "ordinal": 0,
+        "diagramId": "diagram-3d013acc2c21"
+      },
+      {
+        "file": "7510db6b-tumor-associated-macrophages.md",
+        "ordinal": 0,
+        "diagramId": "diagram-4c5d73aa52f9"
+      },
+      {
+        "file": "7510db6b-tumor-microenvironment.md",
+        "ordinal": 0,
+        "diagramId": "diagram-bedde4dee07e"
+      },
+      {
+        "file": "c9689645-angiogenesis.md",
+        "ordinal": 0,
+        "diagramId": "diagram-7bb2ef29ca9b"
+      },
+      {
+        "file": "c9689645-cancer-associated-fibroblasts-and-stroma.md",
+        "ordinal": 0,
+        "diagramId": "diagram-0056667775e9"
+      },
+      {
+        "file": "c9689645-extracellular-matrix.md",
+        "ordinal": 0,
+        "diagramId": "diagram-217630296e72"
+      },
+      {
+        "file": "c9689645-hypoxia.md",
+        "ordinal": 0,
+        "diagramId": "diagram-55eda3a5a08b"
+      },
+      {
+        "file": "c9689645-immunoediting.md",
+        "ordinal": 0,
+        "diagramId": "diagram-59c2c19350bf"
+      },
+      {
+        "file": "c9689645-myeloid-derived-suppressor-cells.md",
+        "ordinal": 0,
+        "diagramId": "diagram-63157ce87023"
+      },
+      {
+        "file": "c9689645-oncogene-addiction-vs-synthetic-lethality.md",
+        "ordinal": 0,
+        "diagramId": "diagram-3d013acc2c21"
+      },
+      {
+        "file": "c9689645-tumor-associated-macrophages.md",
+        "ordinal": 0,
+        "diagramId": "diagram-4c5d73aa52f9"
+      },
+      {
+        "file": "c9689645-tumor-microenvironment.md",
+        "ordinal": 0,
+        "diagramId": "diagram-bedde4dee07e"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": "diagram-7bb2ef29ca9b",
+        "sourceSha256": "7bb2ef29ca9b73b62f6d6d4b419e042fc2cac245ce7a9a40ff452dd7d6ee142f",
+        "instances": [
+          {
+            "file": "7510db6b-angiogenesis.md",
+            "ordinal": 0,
+            "diagramId": "diagram-7bb2ef29ca9b"
+          },
+          {
+            "file": "c9689645-angiogenesis.md",
+            "ordinal": 0,
+            "diagramId": "diagram-7bb2ef29ca9b"
+          }
+        ],
+        "renderSha256": "01d0cd42d2e401177634ef5e0a6f675cbf96bd14df6d9e63c9bfadb6e5c80f42",
+        "width": 168,
+        "height": 424,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-0056667775e9",
+        "sourceSha256": "0056667775e92b981d08dc6d776e16198fd9dc44f60c23d38e4051d8b4489d8c",
+        "instances": [
+          {
+            "file": "7510db6b-cancer-associated-fibroblasts-and-stroma.md",
+            "ordinal": 0,
+            "diagramId": "diagram-0056667775e9"
+          },
+          {
+            "file": "c9689645-cancer-associated-fibroblasts-and-stroma.md",
+            "ordinal": 0,
+            "diagramId": "diagram-0056667775e9"
+          }
+        ],
+        "renderSha256": "c6e4ac1bde863d5c7cccdd50dd0cef7827c68ac120e8496a7a2e670703baebcd",
+        "width": 360,
+        "height": 448,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-217630296e72",
+        "sourceSha256": "217630296e7220e99d4fb61fd98138265bdb09da615f17f53291fcf50d60ffbd",
+        "instances": [
+          {
+            "file": "7510db6b-extracellular-matrix.md",
+            "ordinal": 0,
+            "diagramId": "diagram-217630296e72"
+          },
+          {
+            "file": "c9689645-extracellular-matrix.md",
+            "ordinal": 0,
+            "diagramId": "diagram-217630296e72"
+          }
+        ],
+        "renderSha256": "37ae8af6bb3b520bd04d7637e327e9457b292ca34570ee87642a32a39a55ce8b",
+        "width": 360,
+        "height": 288,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-55eda3a5a08b",
+        "sourceSha256": "55eda3a5a08b6ecf31eb9644f414946e62a65c9cd845adc8fa18dd416e4968cc",
+        "instances": [
+          {
+            "file": "7510db6b-hypoxia.md",
+            "ordinal": 0,
+            "diagramId": "diagram-55eda3a5a08b"
+          },
+          {
+            "file": "c9689645-hypoxia.md",
+            "ordinal": 0,
+            "diagramId": "diagram-55eda3a5a08b"
+          }
+        ],
+        "renderSha256": "2948f250f82511fc6a8b266f7958774810b7235287c42639dfbf8c41bff54587",
+        "width": 360,
+        "height": 424,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-59c2c19350bf",
+        "sourceSha256": "59c2c19350bfd424053575ee88f2a68e54e665d619bc6867636fec46d78aae5f",
+        "instances": [
+          {
+            "file": "7510db6b-immunoediting.md",
+            "ordinal": 0,
+            "diagramId": "diagram-59c2c19350bf"
+          },
+          {
+            "file": "c9689645-immunoediting.md",
+            "ordinal": 0,
+            "diagramId": "diagram-59c2c19350bf"
+          }
+        ],
+        "renderSha256": "093696c4797c48ab04c108da9e5ec7efe105be63e5b8bb9e4636d283ef54efc7",
+        "width": 360,
+        "height": 336,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-63157ce87023",
+        "sourceSha256": "63157ce870231f8ed1e02057be2d8ada7e620219da281daede85cd613aa88e2b",
+        "instances": [
+          {
+            "file": "7510db6b-myeloid-derived-suppressor-cells.md",
+            "ordinal": 0,
+            "diagramId": "diagram-63157ce87023"
+          },
+          {
+            "file": "c9689645-myeloid-derived-suppressor-cells.md",
+            "ordinal": 0,
+            "diagramId": "diagram-63157ce87023"
+          }
+        ],
+        "renderSha256": "5487ba3437e42c065d386b85d54d0f113f3ce527ad6ea7aa6ed59178448f5dda",
+        "width": 168,
+        "height": 472,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-3d013acc2c21",
+        "sourceSha256": "3d013acc2c2146d524f9eaba9a6cfb6e8038cd19eeaf8c97ac13e09fde8fb9a1",
+        "instances": [
+          {
+            "file": "7510db6b-oncogene-addiction-vs-synthetic-lethality.md",
+            "ordinal": 0,
+            "diagramId": "diagram-3d013acc2c21"
+          },
+          {
+            "file": "c9689645-oncogene-addiction-vs-synthetic-lethality.md",
+            "ordinal": 0,
+            "diagramId": "diagram-3d013acc2c21"
+          }
+        ],
+        "renderSha256": "823ff629d123e3065ba56d529ae9c96bf2df4bca5643eda6e7fec361f64de119",
+        "width": 771,
+        "height": 508,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-4c5d73aa52f9",
+        "sourceSha256": "4c5d73aa52f950d82fcc9dd026064730e687e29a870e3cf1d326b2eb70217a58",
+        "instances": [
+          {
+            "file": "7510db6b-tumor-associated-macrophages.md",
+            "ordinal": 0,
+            "diagramId": "diagram-4c5d73aa52f9"
+          },
+          {
+            "file": "c9689645-tumor-associated-macrophages.md",
+            "ordinal": 0,
+            "diagramId": "diagram-4c5d73aa52f9"
+          }
+        ],
+        "renderSha256": "2eb5fb6f5cc4d8cbde54678d5f8bd30fa53c999456dfdad52b8afd79ebeeaf9d",
+        "width": 168,
+        "height": 448,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      },
+      {
+        "id": "diagram-bedde4dee07e",
+        "sourceSha256": "bedde4dee07ef8862380b3512f12a3736a0ec9df3985a4cbbd72452abd815e70",
+        "instances": [
+          {
+            "file": "7510db6b-tumor-microenvironment.md",
+            "ordinal": 0,
+            "diagramId": "diagram-bedde4dee07e"
+          },
+          {
+            "file": "c9689645-tumor-microenvironment.md",
+            "ordinal": 0,
+            "diagramId": "diagram-bedde4dee07e"
+          }
+        ],
+        "renderSha256": "fceb89d412b59900bcc141e3ccaaff9ff4c78c9a56254f6ff966ddf0d3027b5e",
+        "width": 168,
+        "height": 488,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "disposition": "Rendered and read at native extent in a labelled sheet with lesson context. Arrows organise biological or evidential relationships, not guaranteed outcomes."
+      }
+    ],
+    "sheets": [
+      {
+        "file": "sheet-1.png",
+        "width": 392,
+        "height": 2170,
+        "diagrams": [
+          "diagram-7bb2ef29ca9b",
+          "diagram-0056667775e9",
+          "diagram-217630296e72",
+          "diagram-55eda3a5a08b",
+          "diagram-59c2c19350bf"
+        ]
+      },
+      {
+        "file": "sheet-2.png",
+        "width": 803,
+        "height": 2116,
+        "diagrams": [
+          "diagram-63157ce87023",
+          "diagram-3d013acc2c21",
+          "diagram-4c5d73aa52f9",
+          "diagram-bedde4dee07e"
+        ]
+      }
+    ]
+  }
+}

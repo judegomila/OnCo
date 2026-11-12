@@ -9,7 +9,7 @@ import type { PathwayInput } from "@/lib/schema";
  */
 const asOf = "2026-09-09";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
-type P = Omit<PathwayInput, "kind" | "asOf">;
+type P = Omit<PathwayInput, "kind" | "asOf"> & Partial<Pick<PathwayInput, "asOf">>;
 const p = (x: P): PathwayInput => ({ kind: "pathway", asOf, tags: ["mechanism", "mechanics-atlas", ...(x.tags ?? [])], ...x });
 
 export const mechanicsPathways: PathwayInput[] = [
@@ -33,23 +33,127 @@ export const mechanicsPathways: PathwayInput[] = [
     links: [{ label: "Kelley et al., Traversing the basement membrane in vivo (J Cell Biol 2014)", url: "https://doi.org/10.1083/jcb.201311112" }],
   }),
   p({
-    id: "cancer-immunity-cycle", name: "The cancer-immunity cycle", wikipedia: W("Cancer_immunology"), related: ["theories-of-cancer", "immune-surveillance-immunoediting"],
-    tldr: "Seven steps the immune system must complete to kill a tumour: release of antigens, pick-up by dendritic cells, priming of T cells in lymph nodes, travel, entry into the tumour, recognition, and killing. Every immunotherapy pushes on one step; every escape blocks one.",
-    summary: "Chen and Mellman's cycle: (1) dying tumour cells release neoantigens; (2) dendritic cells (BATF3+ cDC1) capture and cross-present them; (3) in lymph nodes, T cells are primed via TCR-MHC plus CD28-B7, with CTLA-4 as the brake; (4) effector T cells traffic via CXCL9/10-CXCR3; (5) infiltrate through vasculature and stroma; (6) recognise peptide-MHC-I; (7) kill via perforin/granzyme and IFN-γ, releasing more antigen. Each step has failure modes (low antigenicity, poor DC function, Treg-dominated priming, abnormal vessels, TGF-β stroma, MHC loss, PD-1 exhaustion) and matching drugs (radiation, STING agonists and vaccines for 1-2; anti-CTLA-4 for 3; anti-VEGF for 4-5; engagers and CAR-T bypass 6; anti-PD-1 for 7).",
-    analogy: "A relay of seven runners. The race is only won if every baton is passed. Cancers usually drop only one or two batons, so the treatment that works is the one that fixes the step that actually failed, which is why the same drug cures one patient and does nothing for the next.",
+    id: "cancer-immunity-cycle", name: "The cancer-immunity cycle", wikipedia: W("Cancer_immunology"), related: [
+  "theories-of-cancer",
+  "immune-surveillance-immunoediting",
+  "cold-vs-hot",
+  "immune-exclusion",
+  "adaptive-immune-resistance",
+  "agretopicity",
+  "cd4-t-cell-subsets"
+],
+    tldr: "The cancer-immunity cycle maps linked steps from available tumour antigens to T-cell recognition and killing. It helps locate a question or bottleneck; a result at one step does not establish the whole response.",
+    summary: "Chen and Mellman’s 2013 framework describes seven linked steps: release of cancer antigens; their collection and presentation; T-cell priming and activation; trafficking; entry into tumour tissue; recognition of cancer cells; and killing. Further antigen release may support another round. In conventional T-cell recognition, a displayed peptide-HLA complex and a suitable T-cell receptor are separate dependencies.\n\nThis is a T-cell-centred organizing model, not a universal route, assay result or treatment-selection algorithm. Steps overlap, priming may occur away from the tumour, and other immune mechanisms require their own account. Checkpoints and local tissue conditions affect several steps. Vaccines aim to generate or expand reactive responses, checkpoint drugs interrupt selected inhibitory signals, and engineered cells provide a recognition system and effectors. Each still needs appropriate targets, access, function and safety evidence.",
+    analogy: "A relay helps organize the questions: material must be available, presented, recognized and acted on. Several dependencies can be impaired together, and improving one handoff does not establish completion of the response. The map does not predict which treatment will help an individual.",
     nodes: [
-      { id: "rel", label: "1 Antigen release", x: 15, y: 15 }, { id: "dc", label: "2 DC capture (cDC1)", x: 45, y: 15 }, { id: "prime", label: "3 Priming (CD28 / CTLA-4)", x: 78, y: 15, targetId: "ctla4" },
-      { id: "traf", label: "4 Trafficking (CXCL9/10)", x: 88, y: 50 }, { id: "inf", label: "5 Infiltration", x: 62, y: 50, targetId: "vegf" }, { id: "rec", label: "6 Recognition (MHC-I)", x: 45, y: 82 },
-      { id: "kill", label: "7 Killing (PD-1 brake)", x: 15, y: 82, targetId: "pd1" }, { id: "block", label: "Escape at any step", x: 15, y: 50 },
-    ],
+  {
+    "id": "rel",
+    "label": "1 Antigen release",
+    "x": 15,
+    "y": 15
+  },
+  {
+    "id": "dc",
+    "label": "2 Antigen presentation",
+    "x": 45,
+    "y": 15
+  },
+  {
+    "id": "prime",
+    "label": "3 Priming (CD28 / CTLA-4)",
+    "x": 78,
+    "y": 15,
+    "targetId": "ctla4"
+  },
+  {
+    "id": "traf",
+    "label": "4 Trafficking (CXCL9/10)",
+    "x": 88,
+    "y": 50
+  },
+  {
+    "id": "inf",
+    "label": "5 Infiltration",
+    "x": 62,
+    "y": 50,
+    "targetId": "vegf"
+  },
+  {
+    "id": "rec",
+    "label": "6 Peptide-HLA recognition",
+    "x": 45,
+    "y": 82
+  },
+  {
+    "id": "kill",
+    "label": "7 Cancer-cell killing",
+    "x": 15,
+    "y": 82,
+    "targetId": "pd1"
+  },
+  {
+    "id": "block",
+    "label": "Escape at any step",
+    "x": 15,
+    "y": 50
+  }
+],
     edges: [
       { from: "rel", to: "dc" }, { from: "dc", to: "prime" }, { from: "prime", to: "traf" }, { from: "traf", to: "inf" }, { from: "inf", to: "rec" }, { from: "rec", to: "kill" }, { from: "kill", to: "rel" },
       { from: "block", to: "kill", type: "inhibits" }, { from: "block", to: "rel", type: "inhibits" },
     ],
-    interventions: ["Radiation, chemotherapy, oncolytic viruses and ADC payloads feed step 1 (immunogenic cell death)", "Vaccines and STING agonists load step 2; anti-CTLA-4 acts at step 3", "Anti-VEGF and stromal agents open steps 4-5", "Engagers, CAR-T and TCR-T replace step 6; anti-PD-1/PD-L1 releases step 7"],
+    interventions: [
+  "Radiation, chemotherapy, viruses and antibody-drug conjugates can cause cancer-cell death. Antigen release alone does not establish immunogenic cell death or a useful T-cell response.",
+  "Vaccines and antigen-presenting-cell approaches investigate antigen presentation and priming. The framework locates proposed jobs; it does not establish that a particular intervention completes them.",
+  "Vascular, chemokine and stromal interventions investigate trafficking or tissue entry in defined systems. Model-specific findings do not establish a general conversion of excluded tumours.",
+  "Receptor-engineered cells and engagers change recognition requirements but still depend on accessible targets and functional cells. Conventional TCR recognition remains peptide-HLA-dependent; checkpoint blockade addresses selected inhibitory signals rather than every step."
+],
     targets: ["pd1", "pdl1", "ctla4", "vegf", "cd3", "cd137", "ido1"], drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "ivonescimab", "intismeran-autogene"], technologies: ["checkpoint-inhibitor", "neoantigen-mrna-vaccine", "sting-agonist", "t-cell-engager", "car-t", "oncolytic-virus", "sbrt"], terms: ["neoantigen", "immunogenic-cell-death", "cold-vs-hot", "tils"], pathways: ["pd1-checkpoint", "antigen-presentation-immunoediting", "cgas-sting", "vegf-angiogenesis"],
-    links: [{ label: "Chen & Mellman, Oncology meets immunology: the cancer-immunity cycle (Immunity 2013)", url: "https://doi.org/10.1016/j.immuni.2013.07.012" }, { label: "Chen & Mellman, Elements of cancer immunity and the cancer-immune set point (Nature 2017)", url: "https://doi.org/10.1038/nature21349" }],
-  }),
+    links: [
+  {
+    "label": "Chen & Mellman, Oncology meets immunology: the cancer-immunity cycle (Immunity 2013)",
+    "url": "https://doi.org/10.1016/j.immuni.2013.07.012"
+  },
+  {
+    "label": "Chen & Mellman, Elements of cancer immunity and the cancer-immune set point (Nature 2017)",
+    "url": "https://doi.org/10.1038/nature21349"
+  },
+  {
+    "label": "Oncology meets immunology: the cancer-immunity cycle.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23890059/"
+  },
+  {
+    "label": "Elements of cancer immunity and the cancer-immune set point.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28102259/"
+  },
+  {
+    "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+  },
+  {
+    "label": "Consensus guidelines for the definition, detection and interpretation of immunogenic cell death.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+  }
+,
+{
+  "label": "Marshall et al., 2018: antigen presentation and distinct immune recognition routes",
+  "url": "https://doi.org/10.1186/s13223-018-0278-1"
+},
+{
+  "label": "NHGRI: gene expression",
+  "url": "https://www.genome.gov/genetics-glossary/Gene-Expression"
+}
+],
+
+"asOf": "2026-11-11",
+"notes": [
+  "In a fictional vaccine study, blood cells release a cytokine after added-peptide stimulation. This supports reactivity under that assay’s conditions. Added peptide can bypass natural processing, and the result does not establish entry into the sampled tumour, recognition of naturally presenting cancer cells, useful killing or clinical benefit. Antigen release is not priming, blood expansion is not infiltration, and a return arrow does not demonstrate durable protection.",
+  "Use the cycle to name the measured step and the next untested dependency. A proposed bottleneck or complementary pair of mechanisms does not establish a beneficial or safe combination. Increasing a response can also affect healthy tissue; the model does not identify a safe intervention by itself."
+,
+"For a coding change to supply a conventional T-cell target, its information must be expressed, protein produced and processed into a fragment, that peptide displayed with HLA, and a suitable receptor able to recognise the display. DNA, RNA, protein, recovered displayed peptide and controlled recognition are separate observations. A prediction at one step does not measure all the others. This conventional alpha-beta route does not describe every T cell, antibody or natural killer recognition system.",
+"An immune observation suggests a question ladder: identify the cells and their location; ask whether a proposed peptide is produced and displayed; test recognition against appropriate target and background controls; distinguish tissue entry from useful target-specific function; then seek clinical comparisons for benefit and harm. Poor display, few matching cells, failed tissue access and impaired local function are different proposed failures. A count, supplied-peptide response or plausible pathway alone cannot complete that chain. These are task-dependent interpretation questions, not a mandatory clinical test menu."
+]
+}),
   p({
     id: "extrinsic-apoptosis-death-receptors", name: "Extrinsic apoptosis (death receptors)", wikipedia: W("Death_receptor"),
     tldr: "Immune cells kill by touch: they present FAS ligand or TRAIL to a target cell, whose death receptors then trigger self-destruction from the outside in. Tumours cut this wire by deleting the receptors or over-producing decoys and blockers.",
@@ -108,8 +212,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "oncogene-activation-two-hit", name: "Drivers, passengers & the two-hit model", wikipedia: W("Knudson_hypothesis"),
-    tldr: "Of the thousands of mutations in a tumour, only a handful (typically 2-8) actually drive it. Drivers either jam an accelerator on (oncogenes, one hit is enough) or remove a brake (tumour suppressors, both copies must go). Everything else is a passenger along for the ride.",
-    summary: "Vogelstein's landscape: ~140 driver genes, each tumour carrying 2-8 driver events in ~12 pathways, on a background of tens to thousands of passengers. Oncogene activation is dominant and recurrent at hotspots: point mutation (KRAS G12, BRAF V600E, PIK3CA H1047R), amplification (HER2, MYC, MDM2), fusion (BCR-ABL, ALK, RET, NTRK, EWSR1-FLI1), promoter mutation (TERT) or ecDNA. Tumour suppressor loss follows Knudson's two hits, one inherited in hereditary syndromes (RB1, BRCA1/2, APC, MLH1, TP53), the second by deletion, LOH, mutation or methylation; some are haploinsufficient (PTEN). Gatekeepers (APC, RB1) control proliferation directly; caretakers (BRCA, MMR) guard the genome so their loss accelerates all other hits. Oncogene addiction, the dependence of a tumour on its driver, is why kinase inhibitors work; passenger load creates neoantigens and, occasionally, collateral vulnerabilities (MTAP deletion next to CDKN2A → PRMT5 dependence).",
+    tldr: "Activating a growth driver and losing a protective function are different mechanisms. Two-hit loss explains some suppressors, while dosage and interference provide other routes.",
+    summary: "Sequence changes, amplification or rearrangement can activate proto-oncogenes. Tumour-suppressor function can be reduced by two-copy loss, insufficient dosage from one remaining useful copy, or particular altered proteins interfering with useful protein. Variant and tissue context are necessary; these mechanisms alone do not establish a treatment dependency. Examples include activating BRAF changes and the BCR-ABL (BCR::ABL1) and EWSR1-FLI1 fusion routes.",
     analogy: "A car with a stuck accelerator (oncogene: one fault is enough) and cut brake lines (tumour suppressor: both lines must fail because they are duplicated). The scratches on the paintwork (passengers) did not cause the crash but they tell you what road it drove on.",
     nodes: [
       { id: "proto", label: "Proto-oncogene", x: 15, y: 15 }, { id: "act", label: "Mutation, amp, fusion", x: 15, y: 45, targetId: "kras" }, { id: "onc", label: "Oncogene ON (1 hit)", x: 15, y: 78 },
@@ -122,8 +226,45 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["Oncogene addiction is the basis of every targeted kinase inhibitor and of HER2 antibodies", "Suppressor loss cannot be 'inhibited', so it is exploited indirectly: synthetic lethality (BRCA-PARP, MTAP-PRMT5), CDK4/6 for RB-intact, MDM2 for TP53-wild-type", "Germline first hits drive surveillance and risk-reducing surgery in hereditary syndromes", "Comprehensive genomic profiling separates drivers from passengers at diagnosis"],
     targets: ["kras", "braf", "her2", "egfr", "alk", "tp53", "brca", "prmt5-mtap", "ewsr1-fli1", "bcr-abl"], drugs: ["imatinib", "osimertinib", "sotorasib", "trastuzumab", "olaparib"], technologies: ["cgp", "germline-testing", "kinase-inhibitors", "synthetic-lethality-approaches", "crispr-screens"], terms: ["oncogene-addiction", "gene-fusion", "hereditary-cancer-syndromes", "germline-vs-somatic", "synthetic-lethality", "vus"], pathways: ["ras-mapk", "p53-cell-cycle", "clonal-evolution", "mutagenesis-signatures"], cancers: ["retinoblastoma", "colorectal", "cml"],
-    links: [{ label: "Vogelstein et al., Cancer genome landscapes (Science 2013)", url: "https://doi.org/10.1126/science.1235122" }, { label: "Kinzler & Vogelstein, Gatekeepers and caretakers (Nature 1997)", url: "https://doi.org/10.1038/386761a0" }],
-  }),
+    links: [
+  {
+    "label": "Vogelstein et al., Cancer genome landscapes (Science 2013)",
+    "url": "https://doi.org/10.1126/science.1235122"
+  },
+  {
+    "label": "Kinzler & Vogelstein, Gatekeepers and caretakers (Nature 1997)",
+    "url": "https://doi.org/10.1038/386761a0"
+  },
+  {
+    "label": "Knudson, Mutation and cancer: statistical study of retinoblastoma. (1971)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/5279523/"
+  },
+  {
+    "label": "Fero et al., The murine gene p27Kip1 is haplo-insufficient for tumour suppression. (1998)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9823898/"
+  },
+  {
+    "label": "Boettcher et al., A dominant-negative effect drives selection of <i>TP53</i> missense mutations in myeloid malignancies. (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31395785/"
+  },
+  {
+    "label": "Poulikakos et al., RAF inhibitor transactivation in cell models (2010)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20179705/"
+  },
+  {
+    "label": "Delattre et al., translocation-generated hybrid transcript (1992)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1522903/"
+  }
+],
+
+"notes": [
+  "Tumour suppressors can restrain growth, maintain the genome or help remove damaged cells. Knudson’s retinoblastoma model proposed two events, with an inherited first event or two acquired events. Different changes can disable the useful copies, but two-hit loss is not a universal law for all suppressors. Haploinsufficiency means one useful copy supplies insufficient protective dosage; Fero’s challenged p27-heterozygous mice retained an unmutated, unsilenced remaining copy.",
+  "A dominant-negative altered protein interferes with useful protein rather than merely reducing dosage. Boettcher demonstrated this for particular TP53 variants in myeloid and leukaemia models, not every TP53 variant or breast tumour. TCGA reported TP53 mutations in 80% of its basal-like breast cancers. Basal-like is not identical to all TNBC, and a genomic frequency does not establish complete functional loss, drug restoration or a current approval claim.",
+  "In a fictional comparison, an overactive receptor supplies a stronger signalling readout while loss of a repair safeguard has a different functional consequence. Neither observation alone demonstrates survival dependence. Interpretation retains the specimen and exact variant or copy finding, RNA or protein consequences and controlled functional endpoints, including exposure and off-target controls. There is no generic oncogene score that substitutes for disease-specific actionability.",
+  "The named examples have different evidence and mechanisms. Druker’s early CML study supports BCR-ABL-directed inhibition in its historical clinical population. Delattre’s 1992 study identified a translocation-generated hybrid transcript underlying the EWSR1-FLI1 fusion. Poulikakos used chemical-genetic cell experiments to show that the tested RAF inhibitors could activate ERK through RAF dimers in wild-type BRAF settings. The allele, intervention and endpoint matter; a driver label does not make all these alterations equally drug-sensitive."
+],
+"asOf": "2026-11-10"
+}),
   p({
     id: "oncogenic-viruses", name: "Oncogenic viruses", wikipedia: W("Oncovirus"),
     tldr: "About one cancer in eight worldwide is caused by a virus. HPV, hepatitis B and C, Epstein-Barr, HTLV-1, KSHV and Merkel cell polyomavirus each hijack the same brakes cancer normally has to mutate, which is why vaccines against HPV and HBV are among the most effective anti-cancer drugs ever made.",
@@ -200,8 +341,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "rtk-activation", name: "Receptor tyrosine kinase activation", wikipedia: W("Receptor_tyrosine_kinase"),
-    tldr: "Growth-factor receptors are antennas on the cell surface that pair up when a signal lands and switch on the growth relays inside. Cancers mutate, multiply, or fuse these antennas so they broadcast 'grow' with no signal at all. Most targeted drugs, antibodies and ADCs start here.",
-    summary: "Ligand binding (EGF, HGF, FGF, NRG, SCF, PDGF, VEGF) dimerises RTKs, trans-autophosphorylating tyrosines that recruit SH2/PTB adaptors: GRB2-SOS to RAS-MAPK, p85 to PI3K-AKT, PLCγ, SRC, STAT3/5, and CBL for ubiquitin-mediated downregulation. Oncogenic activation: kinase-domain mutations (EGFR L858R/exon 19, exon 20 insertions; FLT3-ITD; KIT exon 11; HER2), extracellular-domain truncation (EGFRvIII), amplification (HER2, MET, FGFR1/2), fusions (ALK, ROS1, RET, NTRK, FGFR2/3, with dimerisation domains that pair the kinase constitutively), autocrine loops, and PTPN11 or CBL loss. Drug classes: reversible and covalent TKIs (with resistance via gatekeeper/solvent-front mutations such as EGFR C797S, ALK G1202R), antibodies that block ligand or receptor and recruit Fc effectors (trastuzumab, cetuximab), bispecifics (amivantamab EGFR×MET, zanidatamab HER2×HER2), and ADCs that use the receptor as a delivery address regardless of signalling (T-DXd on HER2-low). Bypass via a parallel RTK (MET amplification under EGFR blockade, HER3 upregulation) is the classic escape.",
+    tldr: "Receptor tyrosine kinases can relay signals from outside a cell through protein phosphorylation. Receptor amount, signalling, drug binding and growth dependence are different measurements.",
+    summary: "EGFR, FGFR and FLT3 are examples of receptor tyrosine kinases. Their normal roles and activation arrangements differ across receptor families.\n\nReceptor amount, phosphorylation, direct drug engagement, growth dependence and clinical benefit are separate observations. Lower receptor phosphorylation supports a biochemical effect under the assay conditions but can also reflect indirect regulation; it does not by itself prove direct binding. A controlled functional effect with independent specificity tests is needed before assigning receptor dependence.\n\nMany RTKs have extracellular ligand-binding regions, membrane-spanning regions and intracellular tyrosine-kinase machinery. Families activate differently: Zhang demonstrated an asymmetric EGFR kinase-domain interaction, while Stauber examined an FGF1-FGFR2 extracellular complex with a proposed heparin-related assembly arrangement. Ligand, helper molecules, receptor member and context matter. A downstream phosphosite can have multiple upstream causes and is not a universal receptor meter.\n\nSlamon 1987 studied 189 primary breast cancers and reported HER2 amplification in 30%, associated with relapse and survival; that historical study is not a present-day universal prevalence or a causal drug-response experiment. In the 2001 randomized trial of 469 women with HER2-overexpressing metastatic breast cancer, adding trastuzumab to chemotherapy increased median survival from 20.3 to 25.1 months, with cardiac toxicity as a material risk. A trial median summarizes a group and does not predict an individual survival time.\n\nIn a fictional comparison, two cultures contain a receptor, but only the amplified, high-surface-protein culture slows growth after a blocking antibody, while receptor phosphorylation falls in both. This separates amount, sampled signaling and growth response; the pattern suggests dependence but attribution still needs controls and independent perturbation. RNA is not surface accessibility, a family-name inhibitor need not engage every member at the tested exposure, and For an antibody-drug conjugate, receptor access and payload delivery are separate questions from whether growth requires that receptor's signaling. Fixed-tissue staining and viable-model perturbation have different input costs and validation scopes.",
     analogy: "Two halves of a walkie-talkie that only transmit when clipped together by a signal from outside. Cancer glues them together (fusions, mutations) or installs hundreds of extra sets (amplification), so the room is full of shouted 'grow' orders. TKIs pull the battery, antibodies tape over the microphone, ADCs use the aerial as a mailing address for poison.",
     nodes: [
       { id: "lig", label: "Ligand (EGF, HGF, NRG)", x: 15, y: 10 }, { id: "rtk", label: "RTK dimer (EGFR, HER2, MET)", x: 45, y: 25, targetId: "egfr" }, { id: "alt", label: "Mutation, amp, fusion", x: 80, y: 10, targetId: "alk" },
@@ -214,8 +355,35 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["TKIs by driver: osimertinib (EGFR), lorlatinib/alectinib (ALK), selpercatinib (RET), larotrectinib/entrectinib (NTRK), capmatinib/tepotinib (MET), imatinib (KIT/PDGFRA/BCR-ABL), zongertinib (HER2)", "Antibodies: trastuzumab/pertuzumab (HER2), cetuximab/panitumumab (EGFR); bispecifics amivantamab (EGFR×MET), zanidatamab, zenocutuzumab (HER2×HER3)", "ADCs use the receptor as an address: T-DXd, T-DM1, patritumab deruxtecan (HER3), telisotuzumab vedotin (MET)", "Combining with MET or downstream inhibitors closes bypass routes"],
     targets: ["egfr", "her2", "her3", "met", "alk", "ret", "ros1", "ntrk", "fgfr2", "kit", "flt3", "pdgfra", "kras", "pik3ca"], drugs: ["osimertinib", "lorlatinib", "alectinib", "selpercatinib", "larotrectinib", "entrectinib", "capmatinib-tepotinib", "imatinib", "zongertinib", "trastuzumab", "pertuzumab", "cetuximab", "panitumumab", "amivantamab", "zanidatamab", "zenocutuzumab", "trastuzumab-deruxtecan", "patritumab-deruxtecan", "telisotuzumab-vedotin"], technologies: ["kinase-inhibitors", "monoclonal-antibody", "bispecific-antibody", "adc", "companion-diagnostic"], terms: ["oncogene-addiction", "gene-fusion", "egfr-exon19-l858r", "egfr-exon20-insertion", "c797s", "met-amplification", "egfrviii", "her2-low", "adcc"], pathways: ["ras-mapk", "pi3k-akt-mtor", "jak-stat", "resistance-routes-map"], cancers: ["nsclc", "breast-her2-positive", "gastric", "gist", "thyroid", "cholangiocarcinoma"],
-    links: [{ label: "Lemmon & Schlessinger, Cell signaling by receptor tyrosine kinases (Cell 2010)", url: "https://doi.org/10.1016/j.cell.2010.06.011" }],
-  }),
+    links: [
+  {
+    "label": "Lemmon & Schlessinger, Cell signaling by receptor tyrosine kinases (Cell 2010)",
+    "url": "https://doi.org/10.1016/j.cell.2010.06.011"
+  },
+  {
+    "label": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor. (2006; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/"
+  },
+  {
+    "label": "Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. (2001; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11248153/"
+  },
+  {
+    "label": "Structural interactions of fibroblast growth factor receptor with its ligands. (2000; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10618369/"
+  },
+  {
+    "label": "Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene. (1987; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3798106/"
+  },
+  {
+    "label": "UniProt P36888: reviewed human FLT3 protein function",
+    "url": "https://www.uniprot.org/uniprotkb/P36888/entry"
+  }
+],
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "transcription-addiction", name: "Transcriptional machinery & addiction", wikipedia: W("Super-enhancer"),
     tldr: "Cancer cells run a few genes (MYC, their lineage factors, their fusion oncogenes) at extreme volume from giant control regions called super-enhancers. The amplifiers, BRD4, CDK7, CDK9 and Mediator, are the same in every cell, but cancers are unusually dependent on them, and that dependence is druggable.",
@@ -236,8 +404,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "ubiquitin-proteasome-system", name: "Ubiquitin-proteasome system & protein homeostasis", wikipedia: W("Proteasome"),
-    tldr: "Cells tag unwanted proteins with a small marker called ubiquitin and feed them into a shredder, the proteasome. Myeloma cells, which make antibody in bulk, die if the shredder jams; and the newest drugs hijack the tagging machinery to make a cancer destroy its own oncoproteins.",
-    summary: "E1 activates ubiquitin, E2 carries it, and one of ~600 E3 ligases (CRL4-CRBN, VHL, MDM2, SCF-FBXW7, APC/C) attaches it to a substrate lysine; K48 chains send substrates to the 26S proteasome, whose β5 subunit is the target of bortezomib, carfilzomib and ixazomib. Deubiquitinases (USP7, USP14) reverse tagging. Plasma cells and myeloma depend on proteasome capacity to clear misfolded immunoglobulin; inhibition triggers the unfolded protein response (PERK, IRE1, ATF6) and death, and stabilises IκB to shut NF-κB. Cereblon modulators (thalidomide, lenalidomide, pomalidomide; CELMoDs iberdomide, mezigdomide, golcadomide) are molecular glues that redirect CRL4-CRBN to degrade IKZF1/3. PROTACs (vepdegestrant for ER, ARV-766 for AR, BGB-16673 for BTK) link a target ligand to an E3 ligand. Oncogenic lesions in the system: FBXW7 loss stabilises MYC, cyclin E and NOTCH; SPOP mutations in prostate; VHL loss stabilises HIF; MDM2 amplification degrades p53. HSP90 and chaperones buffer mutant kinases; HSP90 inhibitors mostly failed on toxicity.",
+    tldr: "Ubiquitin can change a protein's interactions, location or fate. Some tags support proteasomal destruction; tagging alone does not establish completed degradation.",
+    summary: "E1 enzymes activate ubiquitin, E2 enzymes carry it and E3 ligases help select substrates and assemble modifications. Chain architecture and cellular context influence the result; ubiquitination is not universally a destruction signal. Deubiquitinases can remove or remodel tags, and proteasomal degradation is a later process that needs its own evidence. A protein can fall because synthesis changes, cells are lost or degradation increases, so abundance alone does not identify the route. In targeted-degradation experiments, target binding, E3 recruitment, protein loss, proteasome dependence and sustained cellular effects are distinct observations. Proteasome inhibitors and recruited-degradation strategies intervene at different steps; mechanistic measurements do not by themselves establish clinical benefit.",
     analogy: "A recycling plant with barcode stickers (ubiquitin) and a shredder (proteasome). Myeloma is a paper mill that produces so much waste it dies when the shredder stops (bortezomib). PROTACs and glues are forged stickers that get the plant to shred the cancer's own machinery.",
     nodes: [
       { id: "e1", label: "E1 → E2 ubiquitin", x: 12, y: 15 }, { id: "e3", label: "E3 ligase (CRBN, VHL, MDM2)", x: 40, y: 15, targetId: "mdm2" }, { id: "sub", label: "Substrate (IKZF1/3, p53, HIF)", x: 70, y: 15, targetId: "hif2a" },
@@ -249,16 +417,64 @@ export const mechanicsPathways: PathwayInput[] = [
       { from: "prot", to: "upr", type: "inhibits" }, { from: "glue", to: "e3" }, { from: "glue", to: "sub" }, { from: "chap", to: "sub", type: "inhibits" },
     ],
     interventions: ["Proteasome inhibitors bortezomib, carfilzomib, ixazomib in multiple myeloma and mantle cell lymphoma", "Cereblon glues: lenalidomide, pomalidomide; CELMoDs iberdomide, mezigdomide, golcadomide", "PROTACs: vepdegestrant (ER), BGB-16673 (BTK), AR degraders; degrader-antibody conjugates deliver them by antibody", "Reactivating degradation of oncoproteins (MDM2 inhibition for p53) and blocking DUBs are in trials"],
-    targets: ["mdm2", "hif2a", "estrogen-receptor", "btk", "bcma", "androgen-receptor"], drugs: ["bortezomib", "carfilzomib", "ixazomib", "lenalidomide", "pomalidomide", "iberdomide", "mezigdomide", "golcadomide", "vepdegestrant", "bgb-16673"], technologies: ["protac-degrader", "molecular-glue-platforms", "degrader-antibody-conjugate"], terms: ["r-iss", "high-risk-myeloma"], pathways: ["hif-vhl", "p53-mdm2-axis", "inflammation-nfkb", "myc"], cancers: ["multiple-myeloma", "mantle-cell-lymphoma", "prostate", "breast-hr-positive"],
-    links: [{ label: "Békés, Langley & Crews, PROTAC targeted protein degraders: the past is prologue (Nat Rev Drug Discov 2022)", url: "https://doi.org/10.1038/s41573-021-00371-6" }],
-  }),
+    targets: [
+  "mdm2",
+  "hif2a",
+  "estrogen-receptor",
+  "btk"
+], drugs: ["bortezomib", "carfilzomib", "ixazomib", "lenalidomide", "pomalidomide", "iberdomide", "mezigdomide", "golcadomide", "vepdegestrant", "bgb-16673"], technologies: ["protac-degrader", "molecular-glue-platforms", "degrader-antibody-conjugate"], terms: ["r-iss", "high-risk-myeloma"], pathways: ["hif-vhl", "p53-mdm2-axis", "inflammation-nfkb", "myc"], cancers: ["multiple-myeloma", "mantle-cell-lymphoma", "prostate", "breast-hr-positive"],
+    links: [
+  {
+    "label": "Békés, Langley & Crews, PROTAC targeted protein degraders: the past is prologue (Nat Rev Drug Discov 2022)",
+    "url": "https://doi.org/10.1038/s41573-021-00371-6"
+  },
+  {
+    "label": "Source identity and scope, PMID 6305978",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/"
+  },
+  {
+    "label": "Source identity and scope, PMID 3031653",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/"
+  },
+  {
+    "label": "Source identity and scope, PMID 28421184",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28421184/"
+  },
+  {
+    "label": "Source identity and scope, PMID 19345192",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19345192/"
+  },
+  {
+    "label": "Source identity and scope, PMID 15282312",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15282312/"
+  },
+  {
+    "label": "Source identity and scope, PMID 15958804",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15958804/"
+  }
+],
+
+"notes": [
+  "Ubiquitin is a small protein attached through enzyme steps: E1 uses ATP for activation, E2 carries activated ubiquitin, and E3 promotes substrate selection and transfer. Reticulocyte experiments separated these functions. E3 families differ in transfer mechanism; no single cartoon specifies all of them.",
+  "Suitable tagged cargo can be unfolded by ATP-dependent proteasomal machinery and broken into fragments, while ubiquitin is removed and reused. Other ubiquitin signals organise interactions rather than destruction, and yeast experiments show overlapping chain functions. Lysosomal autophagy and proteasomal breakdown are distinct routes.",
+  "Protein abundance reflects synthesis and removal. Measure named-substrate decay over time with synthesis, handling and viability controls; restoration of an E3 adaptor can strengthen attribution without proving direct binding or global proteasome failure. Catalytic activity per time, ubiquitinated-cargo intensity and protein lifetime in hours are different readouts. KEAP1 is one CUL3 adaptor for NRF2, so a CUL3 change cannot uniquely identify that substrate. Pulse labelling or a controlled temporary synthesis block can help estimate turnover but may cause stress. Independent perturbation and restoration help distinguish a selected-substrate effect from a secondary response; enzyme engagement alone does not establish selective killing.",
+  "In a randomised trial of 669 people with relapsed myeloma after one to three prior therapies, bortezomib prolonged median time to progression compared with high-dose dexamethasone: 6.22 versus 3.49 months. This historical clinical result does not make an arbitrary E3 variant or abundant protein a predictive treatment biomarker."
+],
+"asOf": "2026-11-09"
+,
+"related": [
+  "bcma",
+  "androgen-receptor",
+  "er-stress-and-unfolded-protein-response"
+]
+}),
 
   // ------------------------------------------------------------------ 4. Evading death and repair
   p({
     id: "homologous-recombination-repair", name: "Double-strand break repair: HR versus end joining", wikipedia: W("Homologous_recombination"),
-    tldr: "A break through both strands of DNA is the most dangerous lesion a cell faces. Two crews compete to fix it: homologous recombination copies the answer from the sister chromosome (accurate, needs BRCA), while end joining simply glues the ends (fast, sloppy). Which crew wins decides whether PARP inhibitors and radiation kill the cell.",
-    summary: "The MRN complex (MRE11-RAD50-NBS1) senses the break and activates ATM, which phosphorylates H2AX, CHK2 and p53. Pathway choice is set by resection: 53BP1-RIF1-Shieldin protect ends and favour classical NHEJ (Ku70/80, DNA-PKcs, Artemis, XRCC4-LIG4), dominant in G1 and used by radiation-damaged cells; BRCA1-CtIP promote resection in S/G2, RPA coats the single strand, and PALB2-BRCA2 load RAD51 to form a filament that invades the sister chromatid for accurate copying. Polymerase-theta-mediated end joining (TMEJ) is the backup that leaves microhomology-flanked deletions, the scar of HR deficiency. BRCA1/2, PALB2, RAD51C/D and ATM loss define HRD; such tumours cannot repair replication-associated breaks caused by PARP trapping, platinum crosslinks or topoisomerase poisons, and depend on POLQ and ATR. Reversion mutations, 53BP1/Shieldin loss (restoring resection in BRCA1-null cells), and fork protection restore HR under PARP-inhibitor pressure. DNA-PK inhibitors radiosensitise; ATM loss sensitises to ATR inhibition.",
-    analogy: "A torn page. The careful archivist (HR) fetches the twin copy from the shelf and transcribes it letter for letter; the hurried clerk (NHEJ) tapes the two halves together, losing a few words. Tumours missing the archivist survive on the clerk, so anything that adds more torn pages (PARP inhibitors, platinum, radiation) buries them.",
+    tldr: "Cells can repair breaks through both DNA strands using a matching template or several end-joining routes. The available template, cell state and broken ends affect which route can operate.",
+    summary: "Double-strand breaks can be repaired through matching-template homologous recombination or several end-joining routes. Homologous repair often uses the sister chromatid after DNA copying. The substrate, available template and cell-cycle state affect which route can operate.\n\nPreparing a double-strand break for homologous repair includes DNA end resection in the 5′ to 3′ direction, leaving protruding 3′ single-stranded ends. RAD51 helps a prepared strand find and pair with a complementary strand in matching duplex DNA, displacing the other template strand into a D-loop. DNA synthesis can then extend the invading end using the template. Synthesis-dependent strand annealing can finish as a noncrossover repair: the extended strand leaves the template and pairs with the other broken end. Other homologous-repair routes can have crossover outcomes, so using an intact template does not mean every repair leaves donor and recipient arrangements unchanged. Purified bacterial RecA structures reveal strand-pairing intermediates; they are not direct measurements of human RAD51 repair in a tumour.\n\nClassical nonhomologous end joining reconnects ends without requiring a long matching template and can preserve compatible ends. Microhomology-associated joining uses short matching sequences after end processing. Theta-mediated end joining names a POLQ-mediated mechanism; finding short matches alone does not identify that enzyme. These routes overlap in outcomes without becoming interchangeable definitions.\n\nKu binds broken ends, and ligase IV with supporting factors can help align and seal them; difficult ends can require processing. Resection exposes single-stranded regions for alternative joining, where short matches can align and intervening sequence can be lost. Purified-factor experiments, defined chromosome-break reporters and controlled cellular studies test particular substrates and factor dependencies, not a universal menu for every break.\n\nA fictional top-strand sequence CA-GAC-TT|AA-GAC-GT has 14 base pairs before joining. A selected short-match product CA-GAC-GT retains seven, losing the four-base TTAA interval and one three-base GAC repeat. For a selected alignment of GAC with its complementary CTG sequence, trimming the unmatched TT flaps leaves seven paired positions and two backbone nicks to seal, without a gap to fill. Other substrates can require synthesis; this arithmetic and schematic geometry are not measured repair frequencies.\n\nSequence a repaired junction and measure a defined repair reporter, then perturb the proposed factor with specificity controls and, where feasible, rescue. Repair fraction, junction distribution and cell survival are distinct outputs. A deletion with microhomology is compatible with a joining route, but does not demonstrate POLQ dependence, selective killing or benefit from a POLQ inhibitor in a patient. Viable-cell and purified-component studies have model-specific input and material costs.",
+    analogy: "A matching copy can guide repair of a torn page; end joining reconnects the damaged edges. This comparison omits the proteins and end processing, and end joining can preserve compatible sequence.",
     nodes: [
       { id: "dsb", label: "Double-strand break", x: 45, y: 8 }, { id: "mrn", label: "MRN → ATM → CHK2", x: 45, y: 28, targetId: "atr" }, { id: "53bp1", label: "53BP1-Shieldin (protect)", x: 78, y: 28 },
       { id: "nhej", label: "NHEJ: Ku, DNA-PKcs, LIG4", x: 78, y: 55 }, { id: "res", label: "Resection: BRCA1-CtIP", x: 15, y: 40, targetId: "brca" }, { id: "rad51", label: "PALB2-BRCA2 → RAD51", x: 15, y: 65, targetId: "brca" },
@@ -270,8 +486,63 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["PARP inhibitors (olaparib, niraparib, rucaparib, talazoparib) in BRCA/HRD ovarian, breast, prostate, pancreatic cancer", "Platinum chemotherapy and radiation add breaks HR-deficient cells cannot fix", "POLQ inhibitors (novobiocin analogues), ATR inhibitors after ATM loss, DNA-PK inhibitors with radiotherapy (trials)", "HRD testing (genomic scars, BRCA sequencing) and RAD51 foci assays select patients; reversion mutations detected in ctDNA flag resistance"],
     targets: ["brca", "parp", "atr", "wee1"], drugs: ["olaparib", "niraparib", "rucaparib", "talazoparib", "carboplatin", "cisplatin"], technologies: ["parp-inhibitor", "hrd-testing", "platinum", "imrt-igrt", "sbrt", "germline-testing", "synthetic-lethality-approaches"], terms: ["hrd", "synthetic-lethality", "mutational-signature", "germline-vs-somatic", "hereditary-cancer-syndromes"], pathways: ["ddr", "replication-stress", "base-excision-repair-parp", "synthetic-lethality-map", "cgas-sting"], cancers: ["ovarian", "tnbc", "prostate", "pancreatic"],
-    links: [{ label: "Chang, Pannunzio, Adachi & Lieber, Non-homologous DNA end joining and alternative pathways to double-strand break repair (Nat Rev Mol Cell Biol 2017)", url: "https://doi.org/10.1038/nrm.2017.48" }, { label: "Lord & Ashworth, PARP inhibitors: synthetic lethality in the clinic (Science 2017)", url: "https://doi.org/10.1126/science.aam7344" }],
-  }),
+    links: [
+  {
+    "label": "Chang, Pannunzio, Adachi & Lieber, Non-homologous DNA end joining and alternative pathways to double-strand break repair (Nat Rev Mol Cell Biol 2017)",
+    "url": "https://doi.org/10.1038/nrm.2017.48"
+  },
+  {
+    "label": "Lord & Ashworth, PARP inhibitors: synthetic lethality in the clinic (Science 2017)",
+    "url": "https://doi.org/10.1126/science.aam7344"
+  },
+  {
+    "label": "Structural role for DNA Ligase IV in promoting the fidelity of non-homologous end joining. (2024; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38341432/"
+  },
+  {
+    "label": "Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ. (2015; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25643323/"
+  },
+  {
+    "label": "Alternative-NHEJ is a mechanistically distinct pathway of mammalian chromosome break repair. (2008; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18584027/"
+  },
+  {
+    "label": "DNA Ligase IV Guides End-Processing Choice during Nonhomologous End Joining. (2017; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28930678/"
+  },
+  {
+    "label": "Essential Roles for Polymerase θ-Mediated End Joining in the Repair of Chromosome Breaks. (2016; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27453047/"
+  },
+  {
+    "label": "Sister chromatid gene conversion is a prominent double-strand break repair pathway in mammalian cells. (2000; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10880452/"
+  },
+  {
+    "label": "Brca1 controls homology-directed DNA repair. (1999; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10549283/"
+  },
+  {
+    "label": "Purified human BRCA2 stimulates RAD51-mediated recombination. (2010; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20729832/"
+  },
+  {
+    "label": "Biochemical Mechanisms of Genetic Recombination and DNA Repair (2025 biochemical review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40153609/"
+  },
+  {
+    "label": "Homologous recombination and its regulation (2012 review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22467216/"
+  },
+  {
+    "label": "Mechanism of strand exchange from RecA-DNA synaptic and D-loop structures (2020 purified bacterial RecA cryo-EM)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33057191/"
+  }
+],
+
+"asOf": "2026-11-11"
+}),
   p({
     id: "mismatch-repair-msi", name: "Mismatch repair & microsatellite instability", wikipedia: W("DNA_mismatch_repair"),
     tldr: "After DNA is copied, a proofreading crew fixes the letters the polymerase got wrong. Lose it and the genome fills with thousands of small errors, especially in repetitive stretches (microsatellites). Those errors make abnormal proteins that the immune system can see, which is why immunotherapy works so well in these cancers.",
@@ -351,8 +622,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "lipid-metabolism-cancer", name: "Lipid synthesis, uptake & cholesterol", wikipedia: W("Fatty_acid_synthesis"),
-    tldr: "Dividing cells need membranes, and membranes are fat. Cancers switch on the fat-building enzymes most adult tissues keep off, and in fatty environments (breast, omentum, bone marrow) they also steal lipids from neighbouring fat cells. This links obesity to cancer and offers new drug targets.",
-    summary: "Citrate exported from mitochondria is cleaved by ACLY to acetyl-CoA, carboxylated by ACC to malonyl-CoA, and built into palmitate by FASN, then desaturated by SCD1 and elongated; SREBP1/2, activated by mTORC1 and hypoxia and restrained by AMPK and LKB1, is the master transcriptional switch. The mevalonate pathway (HMGCR) makes cholesterol and the isoprenoids needed to anchor RAS to membranes; mutant p53 activates it. Exogenous uptake via CD36, LDLR and lipoprotein lipase supplies fatty acids from adipocytes (omental metastasis of ovarian cancer, prostate cancer in bone) and fatty acid oxidation (CPT1) fuels dormant, metastatic and leukaemia stem cells. Lipid saturation sets ferroptosis sensitivity (PUFAs are the substrate; SCD1 protects). Epidemiologically obesity raises risk of 13 cancers via insulin/IGF-1, oestrogen, inflammation and lipid supply; GLP-1 agonists and bariatric surgery lower incidence. Drugs: FASN inhibitor denifanstat (TVB-2640) in trials, statins repurposed (mostly negative in RCTs), CD36 antibodies preclinical; SCD1 inhibition to sensitise to ferroptosis.",
+    tldr: "Cells can make, import, store and reuse lipids. The route they use and their dependence on it vary with the cell and conditions.",
+    summary: "Lipid metabolism includes synthesis, uptake, storage, membrane remodelling and oxidation. Cholesterol regulation and fatty-acid regulation overlap but are not interchangeable. Identify the SREBP member, cellular compartment and measured output rather than treating a transcript, precursor, nuclear fragment, sterol amount and synthesis rate as the same observation. SCAP-SREBP transport responds to endoplasmic reticulum cholesterol in the cited cell experiments. The mevalonate pathway supplies sterols and nonsterol products, including substrates for protein prenylation. Rescue by mevalonate therefore cannot uniquely identify cholesterol as the limiting product. Transcript abundance, lipid abundance, labelled production and a controlled survival-dependence experiment answer different questions. Results from a particular cell model or mouse experiment do not establish a universal tumour vulnerability or a preferred diet or treatment.",
     analogy: "A factory that must build its own walls. Normal adult tissue buys wall panels from a supplier (dietary fat); cancer reopens its own panel plant (FASN) and, when it lands in a fat depot, simply strips panels off the buildings next door.",
     nodes: [
       { id: "cit", label: "Citrate → ACLY → acetyl-CoA", x: 12, y: 20 }, { id: "acc", label: "ACC → malonyl-CoA", x: 40, y: 20 }, { id: "fasn", label: "FASN → palmitate", x: 68, y: 20 },
@@ -365,8 +636,33 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["FASN inhibitor denifanstat and SCD1 inhibitors in trials; statins repurposed with mostly negative randomised data", "Weight management, GLP-1 agonists and bariatric surgery reduce obesity-related cancer incidence", "Exercise and dietary pattern interventions during treatment", "Ferroptosis inducers exploit the lipid composition of mesenchymal and persister cells"],
     targets: ["akt", "kras", "estrogen-receptor"], technologies: ["metabolic-therapy", "glp1-agonists-cancer-risk", "bariatric-surgery-cancer-incidence", "mediterranean-plant-forward-diet", "exercise-oncology", "dietitian-led-weight-loss-breast"], terms: ["obesity-related-cancers", "energy-balance", "metabolic-syndrome", "body-composition", "deregulating-cellular-energetics"], pathways: ["cancer-metabolism", "ferroptosis-cell-death", "pi3k-akt-mtor", "tumor-dormancy"], cancers: ["ovarian", "prostate", "breast-hr-positive", "endometrial", "hcc"],
-    links: [{ label: "Röhrig & Schulze, The multifaceted roles of fatty acid synthesis in cancer (Nat Rev Cancer 2016)", url: "https://doi.org/10.1038/nrc.2016.89" }],
-  }),
+    links: [
+  {
+    "label": "Röhrig & Schulze, The multifaceted roles of fatty acid synthesis in cancer (Nat Rev Cancer 2016)",
+    "url": "https://doi.org/10.1038/nrc.2016.89"
+  },
+  {
+    "label": "Source identity and scope, PMID 19041766",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19041766/"
+  },
+  {
+    "label": "Primary SREBP or mevalonate experiment (PubMed 9616204)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9616204/"
+  },
+  {
+    "label": "Primary SREBP or mevalonate experiment (PubMed 22265415)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22265415/"
+  }
+],
+
+"notes": [
+  "SCAP and local endoplasmic-reticulum sterol conditions regulate transport of membrane-bound SREBP to the Golgi. Processing releases a fragment that enters the nucleus and regulates lipid synthesis and uptake. Sufficient local sterol supply can retain the complex in the ER; total cellular cholesterol and SREBP RNA do not measure this processing.",
+  "In the fictional supply experiment, nuclear SREBP-2 and uptake messages respond to lipid-poor medium; external lipid supply can reduce the response and compensate for synthesis perturbation. Record medium composition, density, timing and viability before assigning dependence. A supply-sensitive state does not establish the response of a person's tumour. Assess precursor and nuclear regulator, responsive transcripts, cellular sterols and uptake separately from labelled synthesis rates. Use controlled supplementation to test the proposed bottleneck; total amount does not specify production or local sensing.",
+  "In transgenic mice expressing a truncated SREBP-2 construct, Horton and colleagues observed preferential activation of cholesterol synthesis over fatty-acid synthesis in liver and adipose tissue, contrasting it with earlier SREBP-1a results. They separately measured transcripts and synthesis using labelled water. These are relative effects in a named experimental system, not exclusive duties of each family member or proof that a transcript measurement equals flux. Precursor location and nuclear processing require their own measurements.",
+  "Statins inhibit HMG-CoA reductase upstream in the mevalonate pathway, which supplies cholesterol and nonsterol products. In Freed-Pastor and colleagues' breast-cancer 3D cultures, geranylgeranyl pyrophosphate partially rescued an invasive phenotype after mutant-p53 depletion or simvastatin treatment. This illustrates why mevalonate rescue alone cannot uniquely attribute an effect to cholesterol. It does not identify every relevant metabolite, establish a universal cancer dependency or show that a statin perturbation reproduces every change in SCAP-SREBP regulation."
+],
+"asOf": "2026-11-09"
+}),
   p({
     id: "angiogenic-switch", name: "The angiogenic switch & tumour vessels", wikipedia: W("Angiogenesis"),
     tldr: "A tumour cannot grow beyond a couple of millimetres without its own blood supply. The 'switch' flips when the signals calling for new vessels (VEGF, FGF, angiopoietin) outweigh the ones holding them back (thrombospondin). The vessels that result are leaky and chaotic, which starves the tumour of oxygen, blocks drugs, and gives cancer cells a way out.",
@@ -407,9 +703,9 @@ export const mechanicsPathways: PathwayInput[] = [
   // ------------------------------------------------------------------ 6. Escaping the immune system
   p({
     id: "t-cell-exhaustion", name: "T-cell exhaustion", wikipedia: W("T_cell_exhaustion"),
-    tldr: "T cells that see their target for weeks on end without winning gradually shut down: they raise a set of brakes (PD-1, LAG-3, TIM-3, TIGIT), lose their ability to kill, and eventually lock this state into their DNA. Checkpoint drugs rescue the ones that are only partly exhausted; the terminally exhausted are beyond reach.",
-    summary: "Chronic TCR stimulation with insufficient help drives a stepwise programme: TCF1+ progenitor-exhausted cells (stem-like, lymph-node and tertiary-lymphoid-structure resident, PD-1 intermediate) self-renew and give rise to transitory effector-like cells and then terminally exhausted cells (PD-1 high, TIM-3, CD39, CD101) with poor IL-2/TNF/IFN-γ production, driven by NFAT without AP-1, TOX and NR4A, and fixed by DNMT3A-dependent de novo methylation ('epigenetic scarring'). PD-1 blockade expands the progenitor pool and its transitory progeny rather than reviving terminal cells; response correlates with the size of the TCF1+ reservoir and with CD28 co-stimulation (PD-1 dephosphorylates CD28). Co-inhibitory receptors partition: LAG-3 (MHC-II, FGL1) blocked by relatlimab; TIGIT (CD155) by tiragolumab (mixed phase 3 results); TIM-3 (galectin-9, CEACAM1) by sabatolimab. CAR-T cells exhaust the same way (CD8 CAR-T with c-Jun overexpression or TET2 loss resist it); interval rests and PD-1 knockout are engineering countermeasures.",
-    analogy: "A soldier posted at a wall for months with no relief. First tired, then unwilling to fire, finally unable to, and the last stage is written into their habits so deeply that no order can undo it. Checkpoint inhibitors work on the tired, not the broken.",
+    tldr: "Persistent stimulation can change a T cell's response programme. Exhausted populations contain subsets with different remaining functions and responses to checkpoint blockade.",
+    summary: "T-cell exhaustion is a distinct programme associated with persistent stimulation, multiple inhibitory receptors and altered transcription and chromatin. It is distinct from anergy and ordinary memory. Mouse experiments identified TOX as a central regulator. In chronic-infection and tumour models, progenitor exhausted populations retained response capacity and supplied descendants with different functions; terminally exhausted cells responded differently to anti-PD-1. A related melanoma association does not establish a universal treatment-selection test. PD-L1 blockade in mice re-engaged effector transcription with limited chromatin remodelling, and continued high antigen could lead to renewed exhaustion. Human skin-cancer studies also supported clonal replacement by clonotypes not previously detected in the sampled tumour. One marker, subset count or laboratory rescue does not establish tumour specificity, safe killing or individual clinical benefit.",
+    analogy: "A response can change after repeated demands. The analogy stops at the biological programme: exhausted populations are heterogeneous, and remaining functions need measurement rather than a judgement that cells are broken.",
     nodes: [
       { id: "chronic", label: "Chronic antigen, no help", x: 12, y: 15 }, { id: "tcf1", label: "TCF1+ progenitor (stem-like)", x: 40, y: 15 }, { id: "trans", label: "Transitory effector", x: 68, y: 15 },
       { id: "term", label: "Terminally exhausted", x: 90, y: 40 }, { id: "tox", label: "TOX, NR4A, NFAT", x: 40, y: 45 }, { id: "epi", label: "DNMT3A epigenetic scar", x: 68, y: 45 },
@@ -421,26 +717,146 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["Anti-PD-1/PD-L1; combinations with anti-LAG-3 (relatlimab-nivolumab, fianlimab) and anti-TIGIT (tiragolumab, mixed results)", "Earlier use (neoadjuvant) when the TCF1+ reservoir is larger; IL-2 variants and IL-15 superagonists to expand progenitors", "CAR-T engineering: c-Jun overexpression, TET2/DNMT3A editing, transient rest, PD-1 knockout", "Epigenetic drugs to reverse scarring (preclinical)"],
     targets: ["pd1", "pdl1", "lag3", "tigit", "tim3", "ctla4", "cd19"], drugs: ["pembrolizumab", "nivolumab", "relatlimab-nivolumab", "fianlimab", "tiragolumab", "nogapendekin-alfa", "bempegaldesleukin"], technologies: ["checkpoint-inhibitor", "car-t", "til-therapy", "cytokine-therapy", "armored-car"], terms: ["tils", "cold-vs-hot", "irae", "avoiding-immune-destruction"], pathways: ["pd1-checkpoint", "antigen-presentation-immunoediting", "cancer-immunity-cycle", "epigenetic-reprogramming"], bottlenecks: ["b-immunotherapy-response"],
-    links: [{ label: "Wherry & Kurachi, Molecular and cellular insights into T cell exhaustion (Nat Rev Immunol 2015)", url: "https://doi.org/10.1038/nri3862" }],
+    links: [{"label":"Wherry & Kurachi, Molecular and cellular insights into T cell exhaustion (Nat Rev Immunol 2015)","url":"https://doi.org/10.1038/nri3862"},{"label":"PubMed 17950003","url":"https://pubmed.ncbi.nlm.nih.gov/17950003/"},{"label":"PubMed 31207603","url":"https://pubmed.ncbi.nlm.nih.gov/31207603/"},{"label":"PubMed 26205583","url":"https://pubmed.ncbi.nlm.nih.gov/26205583/"},{"label":"PubMed 27501248","url":"https://pubmed.ncbi.nlm.nih.gov/27501248/"},{"label":"PubMed 27533016","url":"https://pubmed.ncbi.nlm.nih.gov/27533016/"},{"label":"PubMed 30778252","url":"https://pubmed.ncbi.nlm.nih.gov/30778252/"},{"label":"PubMed 27789795","url":"https://pubmed.ncbi.nlm.nih.gov/27789795/"},{"label":"PubMed 29942092","url":"https://pubmed.ncbi.nlm.nih.gov/29942092/"},{"label":"PubMed 31359002","url":"https://pubmed.ncbi.nlm.nih.gov/31359002/"}],
+
+    asOf: "2026-11-09",
+    notes: ["Exhaustion is a distinct differentiation programme associated with persistent stimulation, altered function, multiple inhibitory receptors and transcriptional and chromatin changes. Mouse TOX experiments identified a central regulator of this programme. It is neither brief tiredness, every weak assay, anergy nor a DNA sequence change. Deficits can be graded and subsets retain different capacities.","In chronic-infection mice, TCF1-associated progenitor exhausted cells self-renewed and supplied most of the proliferative burst after PD-1 blockade. In mouse tumours, progenitor exhausted cells retained more function and tumour control than terminally exhausted cells and differed in anti-PD-1 response. The melanoma association with longer response duration is human observational evidence, not a universal predictive test or a claim that every terminal cell is inert.","In mouse experiments, PD-L1 blockade re-engaged effector transcription with little remodelling of the exhausted chromatin landscape. Reinvigorated cells could become exhausted again under continued high antigen and did not simply become ordinary durable memory. Laboratory reinvigoration is distinct from universal reversal or patient benefit.","PD-1 can accompany activation as well as exhaustion. TCF1 also occurs in naive and memory contexts. TIM-3/CD39, TOX and residency-associated CD103/CD39 require population and assay context; no single marker assigns state or specificity. Combine compatible response history, protein or RNA programmes, receptor identities and controlled function. TOX may be measured by intracellular staining or RNA; this is not a routine universal pathology classifier.","Paired human basal-cell and squamous-cell skin-cancer biopsies after anti-PD-1 showed expanded clonotypes not previously observed in the same tumour. Clonal replacement and reinvigoration of resident cells are different, potentially overlapping response explanations. Non-detection before therapy is not proof of whole-body absence. Breast-cancer single-cell work identified checkpoint/effector-rich tissue-resident CD8 populations; its early TNBC survival signature was an association, not a general treatment predictor."]
   }),
   p({
     id: "immune-desert-exclusion", name: "Cold tumours: immune deserts and exclusion", wikipedia: W("Tumor-infiltrating_lymphocytes"),
-    tldr: "Tumours come in three immune weathers: inflamed (T cells inside, checkpoint drugs work), excluded (T cells stuck at the edge), and desert (no T cells at all). Most common cancers are excluded or desert, and turning them 'hot' is the central problem of immunotherapy.",
-    summary: "Deserts arise from low antigenicity (low TMB, MHC loss), failed priming (few BATF3+ cDC1, low CCL4 because of tumour-intrinsic WNT/β-catenin signalling; PTEN loss; MYC-driven CD47/PD-L1), and absent chemokines (CXCL9/10 silenced by EZH2 and DNMT1). Exclusion arises from stroma: TGF-β-activated CAFs and dense collagen (Mariathasan 2018), CXCL12 from FAP+ fibroblasts, abnormal VEGF-driven vessels lacking adhesion molecules, and myeloid barriers. Inflamed tumours still fail through PD-L1, exhaustion and Tregs. Converters: radiotherapy and chemotherapy (immunogenic death, STING), oncolytic viruses and in situ vaccines, STING agonists (systemic versions disappointed), anti-VEGF and TGF-β blockade (bintrafusp alfa failed), FAP/CXCR4 targeting, epigenetic priming to restore chemokines, and antigen-independent killers (engagers, CAR-T) that do not need a hot tumour. Gene signatures (T-cell inflamed GEP, TIS) and spatial pathology grade the weather.",
-    analogy: "Three kinds of town: one where the police already patrol the streets (inflamed), one where they mill about outside a wall (excluded), and one with no police station at all (desert). Removing the officers' handcuffs (PD-1 blockade) only helps in the first; the second needs a gate, the third needs recruitment.",
+    tldr: "Sparse T cells and T cells gathered outside malignant regions are different immune patterns. An inflamed tumour can still restrain its T cells, and a pattern alone does not select a treatment.",
+    summary: "Immune deserts have few relevant T cells in the sampled regions; immune exclusion describes cells nearby with limited entry into malignant nests. Deficient antigen availability or priming, recruitment signals, vascular interactions and stromal access can produce different distributions. Tumour WNT/beta-catenin-associated loss of dendritic-cell recruitment is one model-supported route to absent infiltration. An inflamed pattern can coexist with induced inhibitory signals, regulatory cells and exhausted programmes.\n\nThese are hypotheses about distinct dependencies. The same cancer can contain different regions or sites and can change with treatment. Matrix or cell abundance, a mixed RNA signature and spatial counts are different measurements. A proposed converter or HLA-independent recognition system still needs target, access, function, safety and comparative outcome evidence. There is no universal conversion treatment or hot/cold cutoff implied by the framework.",
+    analogy: "Three maps of the same neighbourhood can show many lymphocytes among cancer cells, cells concentrated outside, or few cells in either region. The map describes location; it does not identify the cause or select a treatment. Different mechanisms can produce a similar pattern.",
     nodes: [
-      { id: "ag", label: "Low TMB, MHC loss", x: 12, y: 12 }, { id: "wnt", label: "β-catenin, PTEN loss → no cDC1", x: 12, y: 40, targetId: "pik3ca" }, { id: "chemo", label: "CXCL9/10 silenced (EZH2)", x: 12, y: 68, targetId: "ezh2" },
-      { id: "desert", label: "Immune desert", x: 42, y: 40 }, { id: "tgf", label: "TGF-β CAFs, collagen", x: 72, y: 12, targetId: "fap" }, { id: "vess", label: "Abnormal vessels (VEGF)", x: 72, y: 40, targetId: "vegf" },
-      { id: "excl", label: "Immune exclusion", x: 92, y: 60 }, { id: "hot", label: "Inflamed → PD-1 response", x: 42, y: 90, targetId: "pd1" }, { id: "conv", label: "RT, STING, viruses, vaccines", x: 12, y: 92 }, { id: "myeloid", label: "Myeloid barrier", x: 72, y: 68, targetId: "csf1r" },
-    ],
+  {
+    "id": "ag",
+    "label": "Antigen, presentation, priming?",
+    "x": 12,
+    "y": 12
+  },
+  {
+    "id": "wnt",
+    "label": "β-catenin: recruitment model",
+    "x": 12,
+    "y": 40,
+    "targetId": "ctnnb1"
+  },
+  {
+    "id": "chemo",
+    "label": "Recruitment chemokines?",
+    "x": 12,
+    "y": 68
+  },
+  {
+    "id": "desert",
+    "label": "Immune desert",
+    "x": 42,
+    "y": 40
+  },
+  {
+    "id": "tgf",
+    "label": "TGF-β CAFs, collagen",
+    "x": 72,
+    "y": 12,
+    "targetId": "fap"
+  },
+  {
+    "id": "vess",
+    "label": "Abnormal vessels (VEGF)",
+    "x": 72,
+    "y": 40,
+    "targetId": "vegf"
+  },
+  {
+    "id": "excl",
+    "label": "Immune exclusion",
+    "x": 92,
+    "y": 60
+  },
+  {
+    "id": "hot",
+    "label": "Inflamed; function still matters",
+    "x": 42,
+    "y": 90,
+    "targetId": "pd1"
+  },
+  {
+    "id": "conv",
+    "label": "Interventions under study",
+    "x": 12,
+    "y": 92
+  },
+  {
+    "id": "myeloid",
+    "label": "Myeloid barrier",
+    "x": 72,
+    "y": 68,
+    "targetId": "csf1r"
+  }
+],
     edges: [
       { from: "ag", to: "desert" }, { from: "wnt", to: "desert" }, { from: "chemo", to: "desert" }, { from: "tgf", to: "excl" }, { from: "vess", to: "excl" }, { from: "myeloid", to: "excl" },
       { from: "desert", to: "hot", type: "inhibits" }, { from: "excl", to: "hot", type: "inhibits" }, { from: "conv", to: "hot" }, { from: "conv", to: "desert", type: "inhibits" },
     ],
-    interventions: ["Radiotherapy, immunogenic chemotherapy and TOP1 ADCs to seed antigen and STING signalling; oncolytic viruses (T-VEC, RP1) and in situ vaccination", "Anti-VEGF and PD-1×VEGF bispecifics open the vessel gate; FAP-, CXCR4- and TGF-β-directed agents (mostly modest so far)", "Epigenetic priming (EZH2, DNMT inhibitors) to restore chemokines; STING agonists intratumourally", "Bypass the weather: T-cell engagers, CAR-T, TCR-T and vaccines that bring or make their own T cells"],
-    targets: ["pd1", "pdl1", "vegf", "fap", "ezh2", "csf1r", "cxcr4", "pik3ca"], drugs: ["talimogene-laherparepvec", "vusolimogene-oderparepvec", "ivonescimab", "adu-s100", "tazemetostat"], technologies: ["checkpoint-inhibitor", "oncolytic-virus", "in-situ-vaccination", "sting-agonist", "sbrt", "epigenetic-drugs", "t-cell-engager", "single-cell-spatial", "il12-electroporation"], terms: ["cold-vs-hot", "immune-exclusion", "tils", "tmb", "cps", "desmoplasia"], pathways: ["tgf-beta", "wnt", "cgas-sting", "tumor-microenvironment", "cancer-immunity-cycle", "myeloid-suppression-axis"], bottlenecks: ["b-immunotherapy-response", "b-tme-immunosuppression"],
-    links: [{ label: "Chen & Mellman, Elements of cancer immunity and the cancer-immune set point (Nature 2017)", url: "https://doi.org/10.1038/nature21349" }, { label: "Spranger, Bao & Gajewski, Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity (Nature 2015)", url: "https://doi.org/10.1038/nature14404" }],
-  }),
+    interventions: [
+  "Antigen-release, vaccination and local immune-stimulation approaches investigate different missing inputs. Local inflammation or an interferon signal does not by itself establish distant cancer control.",
+  "Vascular and stromal approaches investigate access in defined tumour systems. A location pattern alone does not show which barrier is causal or which intervention will change outcomes. In Feig’s pancreatic mouse model, CXCR4 blockade improved T-cell access; this is not established human benefit.",
+  "Chemokine or dendritic-cell recruitment can be tested with spatial measurements and controlled perturbations. A response signature or altered cell count alone does not establish restoration of the entire immune response.",
+  "Engagers, engineered cells and vaccines still require suitable targets, access and function. Their recognition mechanisms differ, and none can be assumed to bypass every cause of an immune-poor pattern."
+],
+    targets: [
+  "pd1",
+  "pdl1",
+  "vegf",
+  "fap",
+  "ezh2",
+  "csf1r",
+  "cxcr4",
+  "ctnnb1"
+], drugs: ["talimogene-laherparepvec", "vusolimogene-oderparepvec", "ivonescimab", "adu-s100", "tazemetostat"], technologies: ["checkpoint-inhibitor", "oncolytic-virus", "in-situ-vaccination", "sting-agonist", "sbrt", "epigenetic-drugs", "t-cell-engager", "single-cell-spatial", "il12-electroporation"], terms: ["cold-vs-hot", "immune-exclusion", "tils", "tmb", "cps", "desmoplasia"], pathways: ["tgf-beta", "wnt", "cgas-sting", "tumor-microenvironment", "cancer-immunity-cycle", "myeloid-suppression-axis"], bottlenecks: ["b-immunotherapy-response", "b-tme-immunosuppression"],
+    links: [
+  {
+    "label": "Chen & Mellman, Elements of cancer immunity and the cancer-immune set point (Nature 2017)",
+    "url": "https://doi.org/10.1038/nature21349"
+  },
+  {
+    "label": "Spranger, Bao & Gajewski, Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity (Nature 2015)",
+    "url": "https://doi.org/10.1038/nature14404"
+  },
+  {
+    "label": "Elements of cancer immunity and the cancer-immune set point.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28102259/"
+  },
+  {
+    "label": "Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25970248/"
+  },
+  {
+    "label": "Up-regulation of PD-L1, IDO, and T(regs) in the melanoma tumor microenvironment is driven by CD8(+) T cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23986400/"
+  },
+  {
+    "label": "Spatial immunophenotypes predict response to anti-PD1 treatment and capture distinct paths of T cell evasion in triple negative breast cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34580291/"
+  },
+  {
+    "label": "Intratumoral Activity of the CXCR3 Chemokine System Is Required for the Efficacy of Anti-PD-1 Therapy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31097342/"
+  },
+  {
+    "label": "Targeting CXCL12 from FAP-expressing carcinoma-associated fibroblasts synergizes with anti-PD-L1 immunotherapy in pancreatic cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24277834/"
+  }
+],
+
+"asOf": "2026-11-11",
+"related": [
+  "cold-vs-hot",
+  "immune-exclusion",
+  "adaptive-immune-resistance",
+  "t-cell-exhaustion"
+]
+}),
   p({
     id: "myeloid-suppression-axis", name: "Myeloid suppression: TAMs, MDSCs & don't-eat-me signals", wikipedia: W("Tumor-associated_macrophage"),
     tldr: "Tumours recruit the body's clean-up cells (macrophages and immature myeloid cells) and re-train them as bodyguards. They switch off T cells, build vessels, and, when a therapeutic antibody flags a cancer cell for eating, are told 'don't eat me' by CD47 on its surface.",
@@ -461,8 +877,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "complement-in-cancer", name: "Complement in cancer", wikipedia: W("Complement_system"),
-    tldr: "Complement is a cascade of blood proteins that punches holes in things marked by antibodies and calls in inflammatory cells. Therapeutic antibodies such as rituximab use it to kill cancer cells; tumours defend themselves with shields (CD46, CD55, CD59), and the cascade's own by-products (C5a) can recruit the myeloid cells that protect the tumour.",
-    summary: "Three routes converge on C3 convertase: classical (C1q binding IgG1/IgG3 Fc clusters, the basis of complement-dependent cytotoxicity by rituximab, obinutuzumab less so, daratumumab), lectin, and alternative (spontaneous C3 tick-over). C3b opsonises for phagocytosis via CR3; C5 convertase releases C5a and assembles the membrane attack complex (C5b-9). Tumours over-express membrane regulators CD46, CD55 (DAF) and CD59 (protectin) and secrete factor H, limiting CDC; CD20 shaving and antigen loss add to rituximab resistance. Conversely, intratumoural complement activation is often pro-tumour: C5a-C5aR1 and C3a-C3aR recruit and activate MDSCs and neutrophils, suppress CD8 T cells, and promote angiogenesis; C1q from macrophages supports invasion. Blocking C5aR1 (avdoralimab) with anti-PD-1 was tested; complement is also a mediator of infusion reactions and of CAR-T-associated inflammation. Fc engineering (afucosylation for ADCC versus hexamerisation for CDC) tunes which effector dominates.",
+    tldr: "Complement proteins can coat targets, recruit inflammation and sometimes damage membranes. Complement deposition and completed target killing are different findings.",
+    summary: "Three routes converge on C3 convertase: classical (C1q binding IgG1/IgG3 Fc clusters, the basis of complement-dependent cytotoxicity by rituximab, obinutuzumab less so, daratumumab), lectin, and alternative (spontaneous C3 tick-over). C3b opsonises for phagocytosis via CR3; C5 convertase releases C5a and assembles the membrane attack complex (C5b-9). Tumours over-express membrane regulators CD46, CD55 (DAF) and CD59 (protectin) and secrete factor H, limiting CDC; CD20 shaving and antigen loss add to rituximab resistance. Conversely, intratumoural complement activation is often pro-tumour: C5a-C5aR1 and C3a-C3aR recruit and activate MDSCs and neutrophils, suppress CD8 T cells, and promote angiogenesis; C1q from macrophages supports invasion. Blocking C5aR1 (avdoralimab) with anti-PD-1 was tested; complement is also a mediator of infusion reactions and of CAR-T-associated inflammation. Fc engineering (afucosylation for ADCC versus hexamerisation for CDC) tunes which effector dominates. Complement deposition on a coated cell is an earlier step than a membrane pore, and a pore is a different observation from measured lysis, so deposition alone does not demonstrate completed CDC; heat-inactivated or depleted complement tests complement dependence.",
     analogy: "A demolition crew that follows the flags an antibody plants on a building: they blow holes in the walls (membrane attack complex) and call in the bulldozers (phagocytes). Tumours paint over the flags (CD55, CD59), and the noise of the demolition attracts the wrong kind of crowd (C5a-recruited suppressor cells).",
     nodes: [
       { id: "ab", label: "IgG1 antibody (rituximab)", x: 12, y: 15, targetId: "cd20" }, { id: "c1q", label: "C1q classical route", x: 40, y: 15 }, { id: "alt", label: "Alternative / lectin", x: 40, y: 45 },
@@ -475,26 +891,205 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["CD20 and CD38 antibodies (rituximab, obinutuzumab, daratumumab, isatuximab) kill partly through complement; Fc engineering tunes CDC versus ADCC", "Blocking complement regulators (CD55/CD59) to restore CDC (preclinical)", "C5aR1 antagonists with checkpoint inhibitors to remove myeloid recruitment (early trials)", "Complement inhibition to manage infusion reactions and CAR-T inflammation"],
     targets: ["cd20", "cd38", "cd19", "pd1", "csf1r"], drugs: ["rituximab", "obinutuzumab", "daratumumab", "isatuximab"], technologies: ["monoclonal-antibody", "checkpoint-inhibitor"], terms: ["adcc", "fc-effector", "crs", "myeloid-derived-suppressor-cells"], pathways: ["myeloid-suppression-axis", "inflammation-nfkb", "nk-cell-recognition", "extrinsic-apoptosis-death-receptors"], cancers: ["dlbcl", "follicular-lymphoma", "cll", "multiple-myeloma"],
-    links: [{ label: "Roumenina et al., Context-dependent roles of complement in cancer (Nat Rev Cancer 2019)", url: "https://doi.org/10.1038/s41568-019-0210-0" }],
-  }),
+    links: [
+  {
+    "label": "Roumenina et al., Context-dependent roles of complement in cancer (Nat Rev Cancer 2019)",
+    "url": "https://doi.org/10.1038/s41568-019-0210-0"
+  },
+  {
+    "label": "Complement is activated by IgG hexamers assembled at the cell surface.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24626930/"
+  }
+],
+
+"asOf": "2026-11-09",
+"related": [
+  "adcc-adcp-cdc"
+]
+}),
   p({
     id: "nk-cell-recognition", name: "NK-cell recognition: missing self & stress ligands", wikipedia: W("Natural_killer_cell"),
-    tldr: "Natural killer cells patrol for cells that have lost their identity papers (MHC-I) or that display stress flags. Cancers that hide from T cells by dropping MHC-I become visible to NK cells, unless they also shed the stress flags, wrap themselves in a second inhibitory badge (HLA-E), or soak the neighbourhood in TGF-β.",
-    summary: "NK activation integrates inhibitory signals from KIRs and NKG2A (binding classical HLA-A/B/C and HLA-E respectively; 'missing self' when MHC-I is lost) against activating signals from NKG2D (MICA/B, ULBP1-6, induced by DNA damage and oncogenes), DNAM-1 (CD155, CD112), NKp30 (B7-H6), NKp46, and CD16 (FcγRIIIa, mediating ADCC by IgG1 antibodies such as trastuzumab and cetuximab). Killing is by perforin/granzyme and death ligands; IFN-γ recruits and licenses the adaptive response. Tumour escape: proteolytic shedding of MICA/B (ADAM10/17), HLA-E upregulation engaging NKG2A (monalizumab, mixed results), TIGIT and PVRIG competing with DNAM-1 for CD155, TGF-β and adenosine downregulating NKG2D, platelet cloaking of CTCs. NK cells are central to clearing circulating tumour cells and dormant cells and to controlling MHC-I-negative escape variants after checkpoint or CAR-T therapy. Therapeutics: CAR-NK (cord blood, iPSC-derived, off the shelf, low CRS), NK engagers (CD16×target), IL-15 superagonists (nogapendekin alfa approved in NMIBC), anti-NKG2A, antibody afucosylation to boost ADCC.",
-    analogy: "Guards who stop anyone not wearing a staff badge (MHC-I) or anyone visibly panicking (stress ligands). Cancer's trick against T cells (throwing away the badge) makes it conspicuous to these guards, so successful tumours also learn to stop panicking, borrow a visitor badge (HLA-E) and bribe the guards with TGF-β.",
+    tldr: "Natural killer cells integrate several receptor inputs. Loss of an inhibitory self signal can matter, but target ligands, prior education and the cell’s current state also affect whether it kills.",
+    summary: "Natural killer (NK) receptors are encoded in the germ line rather than assembled by the T-cell receptor’s somatic rearrangement process. They integrate complementary activating inputs with inhibitory signals; this is more complex than adding fixed on/off switches. Inhibitory motifs can recruit SHP phosphatases and suppress early activation, while several activating receptors signal through adaptors. Repertoire, receptor variants, prior education, cytokines and the target context matter. Some receptors also occur on T cells, and HLA-related recognition can depend on the bound peptide.\n\nInhibitory KIR2DL1 and KIR2DL2/3 recognize subsets of HLA-C; KIR3DL1 recognizes the Bw4 epitope on class-I molecules. Activating KIRs also exist, with variant-dependent ligands: curated examples include KIR2DS1/HLA-C and KIR3DS1/peptide-free HLA-F. CD94/NKG2A is inhibitory and reads peptide-loaded HLA-E; CD94/NKG2C is activating and bound HLA-E with lower affinity than NKG2A in the recombinant-protein study. CMV seropositivity was associated with NKG2C-rich repertoires in healthy donors. These are defined receptor-ligand findings, not interchangeable switches.",
+    analogy: "An NK cell integrates several permission and alarm signals, with responsiveness also shaped by its prior interactions. Removing an inhibitory signal can matter without being enough to trigger killing. Loss of a familiar class-I signal therefore raises a question about NK recognition rather than guaranteeing elimination.",
     nodes: [
-      { id: "mhc", label: "MHC-I → KIR (inhibit)", x: 12, y: 15 }, { id: "hlae", label: "HLA-E → NKG2A (inhibit)", x: 12, y: 45 }, { id: "stress", label: "MICA/B, ULBP → NKG2D", x: 12, y: 75 },
-      { id: "nk", label: "NK cell decision", x: 45, y: 45 }, { id: "cd16", label: "CD16 ← IgG1 antibody (ADCC)", x: 45, y: 12, targetId: "her2" }, { id: "tigit", label: "TIGIT vs DNAM-1 (CD155)", x: 45, y: 80, targetId: "tigit" },
-      { id: "kill", label: "Perforin, granzyme, IFN-γ", x: 78, y: 30 }, { id: "shed", label: "MICA shedding, TGF-β", x: 78, y: 65 }, { id: "carnk", label: "CAR-NK, IL-15, NK engagers", x: 92, y: 90 },
-    ],
+  {
+    "id": "mhc",
+    "label": "MHC-I → KIR (inhibit)",
+    "x": 12,
+    "y": 15
+  },
+  {
+    "id": "hlae",
+    "label": "HLA-E → NKG2A (inhibit)",
+    "x": 12,
+    "y": 45
+  },
+  {
+    "id": "stress",
+    "label": "MICA/B, ULBP → NKG2D",
+    "x": 12,
+    "y": 75
+  },
+  {
+    "id": "nk",
+    "label": "NK cell decision",
+    "x": 45,
+    "y": 45
+  },
+  {
+    "id": "cd16",
+    "label": "CD16 ← IgG1 antibody (ADCC)",
+    "x": 45,
+    "y": 12,
+    "targetId": "her2"
+  },
+  {
+    "id": "tigit",
+    "label": "TIGIT vs DNAM-1 (CD155)",
+    "x": 45,
+    "y": 80,
+    "targetId": "tigit"
+  },
+  {
+    "id": "kill",
+    "label": "Killing and cytokine outputs",
+    "x": 78,
+    "y": 30
+  },
+  {
+    "id": "shed",
+    "label": "MICA shedding, TGF-β",
+    "x": 78,
+    "y": 65
+  },
+  {
+    "id": "carnk",
+    "label": "CAR-NK, IL-15, NK engagers",
+    "x": 92,
+    "y": 90
+  }
+],
     edges: [
       { from: "mhc", to: "nk", type: "inhibits" }, { from: "hlae", to: "nk", type: "inhibits" }, { from: "stress", to: "nk" }, { from: "cd16", to: "nk" }, { from: "tigit", to: "nk", type: "inhibits" },
       { from: "nk", to: "kill" }, { from: "shed", to: "stress", type: "inhibits" }, { from: "shed", to: "nk", type: "inhibits" }, { from: "carnk", to: "nk" },
     ],
-    interventions: ["IgG1 antibodies (trastuzumab, cetuximab, rituximab) recruit NK ADCC; afucosylated antibodies (obinutuzumab, margetuximab) bind CD16 harder", "IL-15 superagonist nogapendekin alfa (BCG-unresponsive NMIBC); CAR-NK and NK engagers in trials", "Anti-NKG2A (monalizumab) and anti-TIGIT (tiragolumab) release inhibitory checks, with mixed phase 3 results", "NK-based therapies address MHC-I-loss escape from T-cell therapies"],
+    interventions: [
+  "Antibodies bound to a suitable target can engage CD16 and support antibody-dependent killing. Fc design matters: the MARGENZA label describes margetuximab as Fc-engineered and reports greater activating-receptor binding and NK activation in vitro; that is not a demonstration of benefit in every tumour.",
+  "Cytokine stimulation, engineered NK cells and NK-cell engagers investigate different ways to alter responsiveness or recognition. Their target, assay, disease and evidence stage must remain attached.",
+  "Blocking an inhibitory receptor tests a specific restraint. In INTERLINK-1, adding monalizumab to cetuximab did not improve overall survival in the studied recurrent or metastatic head-and-neck cancer population.",
+  "Class-I loss can reduce inhibitory inputs, but NK-based approaches still depend on activating inputs, access and functional competence. T-cell escape does not automatically create NK sensitivity."
+],
     targets: ["tigit", "her2", "egfr", "cd20", "cd38", "pd1"], drugs: ["trastuzumab", "cetuximab", "rituximab", "obinutuzumab", "margetuximab", "daratumumab", "nogapendekin-alfa", "tiragolumab"], technologies: ["car-nk-macrophage", "monoclonal-antibody", "cytokine-therapy", "allogeneic-cell-therapy", "bispecific-antibody"], terms: ["adcc", "fc-effector", "bcg-unresponsive", "avoiding-immune-destruction"], pathways: ["antigen-presentation-immunoediting", "extrinsic-apoptosis-death-receptors", "tgf-beta", "intravasation-ctc-survival", "tumor-dormancy"],
-    links: [{ label: "Morvan & Lanier, NK cells and cancer: you can teach innate cells new tricks (Nat Rev Cancer 2016)", url: "https://doi.org/10.1038/nrc.2015.5" }],
-  }),
+    links: [
+  {
+    "label": "Morvan & Lanier, NK cells and cancer: you can teach innate cells new tricks (Nat Rev Cancer 2016)",
+    "url": "https://doi.org/10.1038/nrc.2015.5"
+  },
+  {
+    "label": "Controlling natural killer cell responses: integration of signals for activation and inhibition.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23516982/"
+  },
+  {
+    "label": "Up on the tightrope: natural killer cell activation and inhibition.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18425106/"
+  },
+  {
+    "label": "MHC class I molecules and KIRs in human history, health and survival.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15719024/"
+  },
+  {
+    "label": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9486650/"
+  },
+  {
+    "label": "Kinetics and peptide dependency of the binding of the inhibitory NK receptor CD94/NKG2-A and the activating receptor CD94/NKG2-C to HLA-E.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10428963/"
+  },
+  {
+    "label": "Imprint of human cytomegalovirus infection on the NK cell receptor repertoire.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15304389/"
+  },
+  {
+    "label": "Activation of NK cells and T cells by NKG2D, a receptor for stress-inducible MICA.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10426993/"
+  },
+  {
+    "label": "ULBPs, novel MHC class I-related molecules, bind to CMV glycoprotein UL16 and stimulate NK cytotoxicity through the NKG2D receptor.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11239445/"
+  },
+  {
+    "label": "The interaction of TIGIT with PVR and PVRL2 inhibits human NK cell cytotoxicity.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19815499/"
+  },
+  {
+    "label": "Education of hyporesponsive NK cells by cytokines.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19701893/"
+  },
+  {
+    "label": "Tumour-derived soluble MIC ligands impair expression of NKG2D and T-cell activation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12384702/"
+  },
+  {
+    "label": "Anti-NKG2A mAb Is a Checkpoint Inhibitor that Promotes Anti-tumor Immunity by Unleashing Both T and NK Cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30503213/"
+  },
+  {
+    "label": "INTERLINK-1: A Phase III, Randomized, Placebo-Controlled Study of Monalizumab plus Cetuximab in Recurrent/Metastatic Head and Neck Squamous Cell Carcinoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40300079/"
+  },
+  {
+    "label": "UniProt reviewed KIR2DL2 function",
+    "url": "https://www.uniprot.org/uniprotkb/P43627/entry"
+  },
+  {
+    "label": "UniProt reviewed KIR2DL3 function",
+    "url": "https://www.uniprot.org/uniprotkb/P43628/entry"
+  },
+  {
+    "label": "UniProt reviewed KIR3DS1 function",
+    "url": "https://www.uniprot.org/uniprotkb/Q14943/entry"
+  },
+  {
+    "label": "UniProt reviewed KIR2DS1 function",
+    "url": "https://www.uniprot.org/uniprotkb/Q14954/entry"
+  },
+  {
+    "label": "UniProt reviewed KIR2DL1 function",
+    "url": "https://www.uniprot.org/uniprotkb/P43626/entry"
+  },
+  {
+    "label": "UniProt reviewed KIR3DL1 function",
+    "url": "https://www.uniprot.org/uniprotkb/P43629/entry"
+  },
+  {
+    "label": "IPD-KIR: gene content, haplotypes and proteins",
+    "url": "https://www.ebi.ac.uk/ipd/kir/about/"
+  },
+  {
+    "label": "MARGENZA label, description and mechanism of action",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6a6d50c7-06ea-479c-83cc-f197a9e428c9"
+  }
+],
+
+"asOf": "2026-11-11",
+"notes": [
+  "NKG2D is activating and recognizes stress-related MICA, MICB and ULBP ligands; it also occurs on CD8 and gamma-delta T cells. NKp30, NKp44 and NKp46 are natural cytotoxicity receptors with adaptor-dependent signalling. Activating DNAM-1/CD226 recognizes CD155 and CD112; inhibitory TIGIT recognizes this ligand system as well. CD16 recognizes antibody Fc and can supply antibody-dependent cellular cytotoxicity. Fc design changes that interaction. Receptor identity is different from the cancer antigen bound by an antibody, and Long’s review describes conditions in which CD16 can activate resting NK cells without the complementary inputs required by several other tested receptors. Shared ligand recognition does not by itself measure relative affinity, competitive occupancy or which receptor input dominates in a particular cell and target pair.",
+  "Education tunes responsiveness. NK cells with matched self-HLA inhibitory interactions can be more responsive to later activating stimuli, while unmatched cells can be hyporesponsive. In Juelke’s human-cell experiments, cytokine-stimulated hyporesponsive cells acquired competence when they acquired KIR in the presence of its cognate MHC. This is not a fixed panel present identically on every NK cell. Removing one inhibitory HLA interaction is not necessarily removal of all restraints or a sufficient activation signal.",
+  "Groh found reduced NKG2D on tumour-infiltrating and matched blood T cells in people with cancer, associated with circulating soluble tumour-derived MICA and impaired tumour-antigen-specific T-cell responsiveness. That human observation should not silently become a measurement of every NK cell. André’s NKG2A-blockade work supported NK and CD8 activity in laboratory and mouse systems and reported an early combination-trial signal. Those observations did not establish comparative clinical efficacy.",
+  "INTERLINK-1 tested monalizumab plus cetuximab against placebo plus cetuximab after checkpoint therapy and platinum progression in recurrent/metastatic head-and-neck cancer. The HPV-unrelated primary analysis set contained 216 participants, randomized 2:1. Median overall survival was 8.8 versus 8.6 months, HR 1.00 (95% CI 0.66 to 1.54); the trial met its prespecified futility criterion. This negative comparison does not support a general claim of clinical success for NKG2A blockade.",
+  "Flow cytometry measures receptor proteins on defined viable populations; KIR/HLA genotyping identifies possible pairs; tissue protein or RNA tests ask about ligands; a controlled NK-target assay measures killing. A fictional target lacking all measured HLA restraints but lacking measured activating ligands need not be killed. An antibody engaging CD16 supplies a further hypothesis to test. Receptor expression, degranulation, target death, tumour entry and patient benefit remain separate measurements.",
+  "An activating-KIR label does not imply that the gene is present in every person or that its ligand is interchangeable with another receptor’s. IPD-KIR describes haplotypes with different numbers and combinations of KIR genes, including activating genes. Genotyping establishes gene presence rather than protein expression on every NK cell. Long’s 2013 review noted unidentified ligands for some activation receptors; the named receptor-variant assignments above are individual examples, not a complete ligand map."
+],
+"related": [
+  "nk-cell",
+  "b2m",
+  "hla",
+  "klrc1",
+  "monalizumab",
+  "perioperative-immune-window"
+]
+}),
 
   // ------------------------------------------------------------------ 7. Invasion and metastasis
   p({
@@ -591,8 +1186,8 @@ export const mechanicsPathways: PathwayInput[] = [
   // ------------------------------------------------------------------ 8. The tumour ecosystem
   p({
     id: "caf-activation-desmoplasia", name: "Fibroblast activation, desmoplasia & matrix stiffness", wikipedia: W("Cancer-associated_fibroblast"),
-    tldr: "Tumours recruit the body's repair cells, fibroblasts, and keep them in wound-healing mode forever. The scar tissue they lay down (desmoplasia) squeezes blood vessels shut, walls out immune cells, stiffens the tissue in a way that itself tells cancer cells to grow, and is why pancreatic cancer is so hard to treat.",
-    summary: "Resident fibroblasts, pancreatic and hepatic stellate cells, and mesenchymal stromal cells are activated by TGF-β, PDGF, IL-1, Hedgehog ligand from tumour cells and by stiffness itself (YAP/TAZ feed-forward) into myofibroblastic CAFs (myCAF: αSMA, collagen I/III, FAP, LRRC15), inflammatory CAFs (iCAF: IL-6, LIF, CXCL12, driven by IL-1/JAK-STAT) and antigen-presenting CAFs. They deposit and crosslink collagen (LOX/LOXL2), hyaluronan and fibronectin, raising interstitial pressure (collapsing vessels, blocking drug delivery) and stiffness, which signals through integrins → FAK → RHO → YAP/TAZ to drive proliferation, EMT and chemoresistance in tumour cells; aligned fibres guide invasion; TGF-β-CAFs exclude T cells. CAFs also feed tumours (alanine, lipids, exosomes) and shield them. Depleting all fibroblasts (Shh-deleted or αSMA-ablated mice) made tumours more aggressive, and the SMO inhibitor vismodegib and hyaluronidase PEGPH20 failed in PDAC: hence a shift to reprogramming (vitamin D receptor agonists, losartan/angiotensin blockade in trials, IL-1/JAK for iCAF, LRRC15 or FAP targeting with radioligands and CAR-T) and to exploiting FAP for imaging (FAPI PET) and therapy.",
+    tldr: "Fibroblast activation can alter matrix and signals in a tumour. The resulting stroma has varied functions, so removing it is not a general treatment rule.",
+    summary: "Signals in the microenvironment can change fibroblast states, matrix production and remodelling. Matrix amount, organisation, crosslinking and mechanical properties are different features. Experimental stromal perturbations can have opposing consequences depending on the cell population and setting.",
     analogy: "Builders hired to repair a wall who never stop: they pour concrete around the tumour until the roads are blocked (vessels), the police cannot get in (T cells), and the very hardness of the concrete tells the tenants to multiply. Demolishing the builders' work made things worse; the newer plan is to retrain them.",
     nodes: [
       { id: "tum", label: "Tumour: TGF-β, PDGF, Hh, IL-1", x: 12, y: 15 }, { id: "fib", label: "Fibroblast / stellate cell", x: 45, y: 15 }, { id: "my", label: "myCAF (FAP, αSMA, collagen)", x: 78, y: 15, targetId: "fap" },
@@ -605,8 +1200,35 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["FAP-targeted imaging (FAPI PET) and radioligands (FAP-2286) and FAP/LRRC15 CAR-T", "Reprogramming: vitamin D analogues, losartan with chemoradiation (PDAC trials), IL-1/JAK inhibition for iCAFs", "FAK inhibitors soften stroma and improve immunotherapy entry (trials); mechanobiology approaches", "Vismodegib and PEGPH20 failed in PDAC: stromal depletion can accelerate disease"],
     targets: ["fap", "smoothened", "jak2", "pd1"], drugs: ["fap-2286", "vismodegib", "sonidegib", "ruxolitinib", "avutometinib-defactinib"], technologies: ["fapi-pet", "stroma-directed-car", "mechanobiology-therapy", "radioligand-therapy", "single-cell-spatial"], terms: ["desmoplasia", "cancer-associated-fibroblasts", "immune-exclusion", "cold-vs-hot"], pathways: ["tumor-microenvironment", "tgf-beta", "hippo-yap", "hedgehog", "jak-stat", "immune-desert-exclusion", "invasion-ecm-degradation"], cancers: ["pancreatic", "cholangiocarcinoma", "breast-hr-positive"], bottlenecks: ["b-tme-immunosuppression"],
-    links: [{ label: "Sahai et al., A framework for advancing our understanding of cancer-associated fibroblasts (Nat Rev Cancer 2020)", url: "https://doi.org/10.1038/s41568-019-0238-1" }, { label: "Kalluri, The biology and function of fibroblasts in cancer (Nat Rev Cancer 2016)", url: "https://doi.org/10.1038/nrc.2016.73" }],
-  }),
+    links: [
+  {
+    "label": "Sahai et al., A framework for advancing our understanding of cancer-associated fibroblasts (Nat Rev Cancer 2020)",
+    "url": "https://doi.org/10.1038/s41568-019-0238-1"
+  },
+  {
+    "label": "Kalluri, The biology and function of fibroblasts in cancer (Nat Rev Cancer 2016)",
+    "url": "https://doi.org/10.1038/nrc.2016.73"
+  },
+  {
+    "label": "Levental et al., Matrix crosslinking forces tumor progression by enhancing integrin signaling. (2009)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19931152/"
+  },
+  {
+    "label": "Paszek et al., Tensional homeostasis and the malignant phenotype. (2005)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16169468/"
+  }
+],
+
+"notes": [
+  "Levental and Paszek studied how crosslinking, matrix rigidity, integrin-linked signals and cell tension affected mammary-cell organisation and invasion in experimental systems. These findings do not make every collagen-rich tissue stiff, invasive or drug resistant. Integrins connect matrix conditions to chemical and mechanical cell responses; a matrix can offer routes or restrictions, rather than forming one universal solid wall.",
+  "Ohlund and colleagues described alpha-smooth-muscle-actin-high myofibroblastic fibroblasts near pancreatic cancer cells and IL-6-producing inflammatory populations farther away in pancreatic models and samples. This is not an exhaustive classification of breast stroma or a permanent job assignment for each cell. Ozdemir reported that depletion of selected alpha-smooth-muscle-actin-positive myofibroblasts worsened disease and immunosuppression in pancreatic mouse models. Removing all fibroblasts is not a general treatment conclusion. The indexed 2015 correction is linked; its body was unavailable for this review, so no correction-specific figure claim is adopted.",
+  "A fibroblast-rich or matrix-rich region does not by itself measure immune exclusion, stiffness or drug resistance. Treat a stained structural pattern, a mechanical measurement, live-cell migration and a controlled perturbation as different evidence. The generic extracellular-matrix and fibroblast records describe the corresponding specimen and assay limits."
+],
+"asOf": "2026-11-10",
+"related": [
+  "extracellular-matrix"
+]
+}),
 
   // ------------------------------------------------------------------ 9. Why treatments fail
   p({
@@ -647,8 +1269,8 @@ export const mechanicsPathways: PathwayInput[] = [
   }),
   p({
     id: "drug-efflux-pumps", name: "Drug efflux pumps (ABC transporters)", wikipedia: W("P-glycoprotein"),
-    tldr: "Cancer cells can install pumps in their outer membrane that throw chemotherapy back out as fast as it comes in. The same pumps guard the gut, brain and bone marrow in healthy tissue, which is why blocking them failed as a strategy and why drug designers now choose payloads the pumps cannot grip.",
-    summary: "ATP-binding cassette transporters, chiefly ABCB1 (P-glycoprotein/MDR1), ABCG2 (BCRP) and ABCC1 (MRP1), hydrolyse ATP to export hydrophobic drugs: taxanes, vinca alkaloids, anthracyclines, MMAE, DM1, several TKIs (ABCB1); SN-38, topotecan, mitoxantrone, methotrexate (ABCG2). They are constitutive in intestine, liver, kidney, the blood-brain barrier and stem cells (including leukaemia and cancer stem cells, the 'side population'), and are induced by EMT transcription factors, hypoxia, NRF2 (KEAP1-mutant tumours), and by drug exposure itself (ABCB1 amplification and promoter fusions in ovarian cancer after taxanes). Three generations of P-gp inhibitors (verapamil, valspodar, tariquidar) failed in phase 3 through pharmacokinetic interactions and lack of benefit. Modern responses: choose payloads that are poor substrates (DXd and exatecan are less affected than SN-38 and MMAE; PBD dimers; radionuclides are pump-independent), use ADCs to raise intracellular delivery, and exploit collateral sensitivity (pump-expressing cells are more sensitive to some agents). Efflux at the BBB limits CNS activity of most drugs; brain-penetrant TKIs are engineered to evade P-gp.",
+    tldr: "Drug transporters can lower cellular exposure to particular anticancer drugs. Their substrate profile, location and activity matter; expression alone does not select a treatment.",
+    summary: "ATP-binding cassette transporters use ATP to move substrates across membranes. ABCB1, ABCG2 and ABCC1 can transport several anticancer drugs, with different substrate profiles. Their normal protective and excretory roles also affect absorption, distribution and drug interactions; transporter activity at the blood-brain or placental barrier is a different setting from activity in a cancer cell.\n\nAcquired resistance can involve increased transport, but antigen loss, altered processing and other mechanisms must be assessed separately. Inhibiting a pump can change both tumour exposure and exposure in normal tissues. The unsuccessful clinical development of several P-glycoprotein inhibitors does not identify one universal reason for failure, and a resistant cell model does not itself select a treatment for a person.",
     analogy: "A nightclub bouncer who throws out anyone in a particular jacket. Sacking the bouncer (P-gp inhibitors) also emptied the club of the staff who kept the place safe (gut, brain, marrow). The fix was to change jackets: payloads the bouncer does not recognise.",
     nodes: [
       { id: "drug", label: "Chemo / payload enters", x: 12, y: 30 }, { id: "abcb1", label: "ABCB1 (P-gp)", x: 45, y: 15 }, { id: "abcg2", label: "ABCG2 (BCRP), ABCC1", x: 45, y: 48 },
@@ -661,8 +1283,47 @@ export const mechanicsPathways: PathwayInput[] = [
     ],
     interventions: ["Payload selection: DXd and exatecan (T-DXd, Dato-DXd, sac-TMT) retain activity where MMAE and SN-38 are pumped out; PBD dimers and radionuclides are pump-independent", "Brain-penetrant TKIs engineered to evade P-gp (lorlatinib, tucatinib, osimertinib)", "P-gp inhibitors (valspodar, tariquidar, zosuquidar) failed in phase 3; a museum exhibit", "Collateral sensitivity and MDR-selective compounds are experimental"],
     targets: ["trop2", "her2", "kras", "alk"], drugs: ["trastuzumab-deruxtecan", "datopotamab-deruxtecan", "sacituzumab-tirumotecan", "sacituzumab-govitecan", "enfortumab-vedotin", "paclitaxel", "doxorubicin", "lorlatinib"], technologies: ["adc", "radioligand-therapy", "cytotoxic-chemotherapy", "topoisomerase-inhibitors"], terms: ["efflux-pump", "payload", "dxd", "exatecan", "sn-38", "mmae", "bystander-effect", "adc-sequencing", "resistance"], pathways: ["emt", "keap1-nrf2", "blood-brain-barrier-metastasis", "resistance-routes-map", "cancer-stem-cells-plasticity"], bottlenecks: ["b-resistance"],
-    links: [{ label: "Robey et al., Revisiting the role of ABC transporters in multidrug-resistant cancer (Nat Rev Cancer 2018)", url: "https://doi.org/10.1038/s41568-018-0005-8" }],
-  }),
+    links: [
+  {
+    "label": "Robey et al., Revisiting the role of ABC transporters in multidrug-resistant cancer (Nat Rev Cancer 2018)",
+    "url": "https://doi.org/10.1038/s41568-018-0005-8"
+  },
+  {
+    "label": "Rampa et al., payload diversification and sequential ADC therapy in breast cancer (2026)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/"
+  },
+  {
+    "label": "Chen et al., CD30 downregulation, MMAE resistance and MDR1 upregulation in brentuximab vedotin resistance (2015)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25840583/"
+  },
+  {
+    "label": "Weng et al., antibody-exatecan conjugates overcome resistance in colon and lung cancer models (2023)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+  },
+  {
+    "label": "Robey et al., revisiting the role of ABC transporters in multidrug-resistant cancer (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29643473/"
+  },
+  {
+    "label": "Robey et al., mutations at amino-acid 482 in ABCG2 affect substrate and antagonist specificity (2003)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14612912/"
+  },
+  {
+    "label": "Zeng et al., methotrexate and folate transport by MRP3 and MRP1 (2001)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11585759/"
+  },
+  {
+    "label": "Zhou et al., Bcrp1 and relative mitoxantrone protection in mouse haematopoietic cells (2002)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12218177/"
+  }
+],
+
+"notes": [
+  "Which pump handles which drug, and on what evidence. ABCG2 confers resistance to SN-38 and topotecan: in HEK-293 cells made to express wild-type or mutant ABCG2, cytotoxicity assays showed high resistance to mitoxantrone, SN-38 and topotecan and no appreciable resistance to etoposide or taxol (Robey et al. 2003), while in SN-38-resistant breast and gastric cell lines ABCG2 inhibitors restored SN-38 toxicity (Chang et al. 2016, SN-38 only). For P-gp, a brentuximab vedotin-resistant Hodgkin lymphoma line showed MMAE resistance and MDR1 upregulation, and 1 of 10 Hodgkin lymphoma patient samples expressed MDR1 (Chen et al.). Robey and colleagues' 2018 review describes ABCC1-mediated resistance to doxorubicin, etoposide and vincristine, transport of glutathione and glucuronide conjugates, and protective transporters at the brain and placental barriers. Zeng and colleagues' 2001 transport study also demonstrated MRP1 transport of methotrexate and folates, with polyglutamylation strongly limiting methotrexate transport. These are cell-line and overexpression models, not measurements of a tumour, and these laboratory findings do not validate a pump assay for selecting clinical therapy; Robey et al. 2018 describe efforts to make MDR1 a therapeutic target as unsuccessful so far. Normal-tissue protection also has experimental support: Zhou and colleagues found greater mitoxantrone sensitivity in Bcrp1-deficient mouse haematopoietic cells than in wild-type cells, supporting a protective role in that model. Robey's review also describes gastrointestinal transport affecting oral availability. These normal-tissue roles should not be confused with a cancer-specific mechanism.",
+  "Antibody-drug conjugates meet pumps after delivery. Direct transport by an efflux pump concerns a released payload that is its substrate, rather than export of the intact antibody-drug conjugate during endocytosis; A neighbouring cell could likewise export a payload that entered it, but a reduced bystander effect is a mechanistic hypothesis here, not a demonstrated clinical result. The absence of this efflux mechanism does not prove that delivery, release or target action succeeded; other barriers can remain. In breast cancer cells made resistant to trastuzumab deruxtecan or sacituzumab govitecan, resistance was mainly payload-specific, notably more efflux-transporter activity rather than loss of antigen, and ADCs with microtubule-inhibitor payloads restored activity in cells and animals (Rampa et al.); exatecan conjugates with a traceless self-immolative linker moiety overcame resistance of DXd and SN-38 conjugates in multidrug-resistance-positive models (Weng et al.). A study could compare intact ADC and free payload on the same cells, with and without a pump inhibitor, to ask which delivery step is affected. That comparison would still need controls for the inhibitor's other effects."
+],
+"asOf": "2026-11-11"
+}),
   p({
     id: "lineage-plasticity-neuroendocrine", name: "Lineage plasticity & neuroendocrine transformation", wikipedia: W("Neuroendocrine_tumor"),
     tldr: "Under pressure from a drug that blocks its identity (the androgen receptor in prostate cancer, EGFR in lung cancer), a tumour can change what kind of cell it is, becoming a small-cell neuroendocrine cancer that no longer needs the blocked signal. It is the ultimate escape: not a new mutation in the engine, but a new engine.",

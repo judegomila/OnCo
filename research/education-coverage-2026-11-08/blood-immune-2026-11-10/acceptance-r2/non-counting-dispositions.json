@@ -1,0 +1,187 @@
+[
+  {
+    "id": "cfdna-vs-ctdna:r8",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "cfdna-vs-ctdna:r11",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "chip:r8",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "chip:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "circulating-tumor-cells:r7",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "circulating-tumor-cells:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "ctdna-imaging-discordance:r7",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "ctdna-imaging-discordance:r11",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "ctdna-units:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "ctdna-units:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "fragmentomics-and-methylation:r8",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "fragmentomics-and-methylation:r11",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "lead-time:r9",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "lead-time:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "limit-of-detection-and-sampling:r7",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "limit-of-detection-and-sampling:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "mrd:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "mrd:r8",
+    "disposition": "routing-only",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "mrd:r9",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "tumor-informed-vs-tumor-naive-mrd-assays:r9",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "tumor-informed-vs-tumor-naive-mrd-assays:r10",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "elispot:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "elispot:r9",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "flow-cytometry:r5",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "flow-cytometry:r8",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "functional-cytotoxicity-assays:r8",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "functional-cytotoxicity-assays:r9",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "intracellular-cytokine-staining:r5",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "intracellular-cytokine-staining:r8",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "peptide-hla-multimer-staining:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "peptide-hla-multimer-staining:r8",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "peripheral-blood-mononuclear-cells:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "peripheral-blood-mononuclear-cells:r8",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "tcr-clonality-metrics:r6",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "tcr-clonality-metrics:r8",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  },
+  {
+    "id": "tcr-sequencing:r5",
+    "disposition": "non-counting-card-parent",
+    "reason": "Every actual row is assessed independently below; no parent-and-child double counting."
+  },
+  {
+    "id": "tcr-sequencing:r9",
+    "disposition": "recap-or-analogy-no-unique-concept",
+    "reason": "Navigation or a restatement of explicitly assessed concepts. Analogy limits are carried by the corresponding sampling, identity, compartment and function requirements; no unique empirical claim is credited from the analogy."
+  }
+]

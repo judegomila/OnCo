@@ -1,0 +1,416 @@
+{
+  "dataCommit": "2e738bd26428b70dd929f51876816ffbdb860ea0",
+  "newCanonicalIds": [],
+  "existingOwnersChanged": [
+    "mrna-lnp-manufacturing",
+    "neoantigen-mrna-vaccine"
+  ],
+  "literalFieldChanges": [
+    {
+      "id": "mrna-lnp-manufacturing",
+      "file": "src/data/manufacturing-wave.ts",
+      "before": {
+        "tldr": "An mRNA cancer vaccine is made without cells: a DNA template is copied into RNA by an enzyme in a tank, cleaned up, and wrapped in tiny fat bubbles. For personalised vaccines the whole run is done once for each patient, against that patient's own tumour mutations, in a few weeks.",
+        "summary": "mRNA manufacture begins with a plasmid DNA template (covered in the plasmid record), which is linearised and transcribed in vitro by T7 RNA polymerase with a cap analogue and modified nucleotides. The RNA is purified by tangential flow filtration and chromatography (oligo-dT affinity, and reverse-phase or cellulose steps that remove the double-stranded RNA that triggers unwanted inflammation), then mixed with an ionisable lipid, a phospholipid, cholesterol and a PEG-lipid in a microfluidic or T-junction mixer so lipid nanoparticles self-assemble around it. The particles are buffer-exchanged, sterile-filtered, filled and frozen. Every step is cell-free, which is why COVID-19 vaccines could be scaled in months, and the same enzymes, cap analogues, lipids and single-use mixers are the supply chain for cancer vaccines.\n\nPersonalised neoantigen vaccines change the logistics. For intismeran autogene (mRNA-4157, Moderna with Merck) the tumour and blood are sequenced, up to thirty-four neoantigens are chosen by algorithm, a patient-specific plasmid is made and the RNA and nanoparticle steps are run as a single-patient GMP batch, with a turnaround of weeks; Moderna produces these at its Norwood, Massachusetts, site and has built a dedicated individualised therapy facility in Marlborough. BioNTech makes autogene cevumeran in Mainz on a similar cycle. Constraints are ionisable lipid patents and supply, enzyme and cap analogue suppliers, and the per-patient release testing that has to be as fast as the manufacture. A Phase 3 trial in melanoma (with pembrolizumab) and trials in lung and pancreatic cancer will decide whether this factory model is worth industrialising.\n\nTwo details matter when reading a product description. First, double-stranded RNA can arise from the transcription step itself: in one study T7 polymerase started transcription from a promoter-less DNA end and made an antisense strand that paired with the intended RNA and stimulated the innate sensor MDA5, and the effect fell with modified nucleotides or a lower magnesium concentration (Mu and colleagues). Purification was tested separately: HPLC removed contaminants including double-stranded RNA from nucleoside-modified transcripts and raised translation 10 to 1,000-fold in primary cells (Karikó and colleagues), and a cellulose method removed at least 90 per cent of double-stranded RNA with over 65 per cent recovery, taking out duplexes of 30 base pairs or longer while most of a 21 base-pair duplex remained (Baiersdörfer and colleagues). Second, a lipid nanoparticle is not the only formulation in use: in the pancreatic cancer phase I trial of autogene cevumeran each patient's vaccine held two uridine mRNA strands, each encoding up to 10 neoepitopes, formulated as lipoplex nanoparticles of about 400 nm made from the cationic lipid DOTMA and the phospholipid DOPE and given intravenously (Rojas and colleagues). Release testing is layered: a review of mRNA analytics lists identity and modification analysis, poly(A) tail, RNA content and integrity, double-stranded RNA and residual DNA as separate attributes, and a review of mRNA manufacturing cites a regulator-recommended residual DNA limit of 10 ng per dose (Losada and colleagues; Nowak and colleagues). Particle size and composition measurements do not by themselves show that usable RNA reaches the cytosol of the intended cell.",
+        "principle": "Cell-free enzymatic synthesis of RNA from a DNA template, purified and encapsulated in self-assembling lipid nanoparticles; personalised products run the whole chain once per patient.",
+        "strengths": [
+          "No cell culture, so weeks not months",
+          "Sequence can change without changing the process",
+          "Same platform for shared and personalised antigens"
+        ],
+        "limitations": [
+          "Cold chain at minus 20 or minus 70 degrees",
+          "Lipid and enzyme supply and patents",
+          "Per-patient release testing must keep pace"
+        ],
+        "notes": [],
+        "links": [
+          {
+            "label": "FDA guidance: CMC information for human gene therapy INDs",
+            "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/MRNA_vaccine"
+          },
+          {
+            "label": "An origin of the immunogenicity of in vitro transcribed RNA.",
+            "url": "https://doi.org/10.1093/nar/gky177"
+          },
+          {
+            "label": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+            "url": "https://doi.org/10.1093/nar/gkr695"
+          },
+          {
+            "label": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+            "url": "https://doi.org/10.1016/j.omtn.2019.02.018"
+          },
+          {
+            "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+            "url": "https://doi.org/10.1038/s41586-023-06063-y"
+          },
+          {
+            "label": "From nucleotides to intact transcripts through oligonucleotides: Integrated chromatographic strategies for therapeutic mRNA characterization.",
+            "url": "https://doi.org/10.1007/s00216-026-06615-x"
+          },
+          {
+            "label": "Process and analytical strategies for the safe production of mRNA vaccines and therapeutics.",
+            "url": "https://doi.org/10.1007/s11033-026-11455-0"
+          }
+        ],
+        "related": [
+          "lipid-nanoparticle",
+          "rna-lipoplex",
+          "targeted-lnps"
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "tldr": "Making an RNA cancer vaccine means copying a specified DNA template into a message, purifying it and preparing the chosen delivery formulation. Each lot needs its own quality checks before use.",
+        "summary": "An RNA vaccine starts with an approved sequence and product specification. Enzymes transcribe a DNA template outside living cells, and the RNA is purified, tested and prepared in the chosen delivery formulation. The cap, untranslated regions, coding sequence, poly(A) strategy and chemical building blocks are specified for that product. Nucleoside modification is not a universal requirement: the TNBC-MERIT and Rojas pancreatic studies used uridine RNA-lipoplex products. Cell-free transcription does not describe every upstream DNA-template manufacturing step, and neither all RNA products nor their downstream handling share one process.\n\nPersonalisation connects the source tumour information, intended RNA and protein, recipient and manufactured lot. The manufacturing clock needs its start and end as well as the product and setting. In TNBC-MERIT, manufacturing runs were conducted during 2019 and the reported sample-receipt-to-vaccine-release interval averaged 69 days, ranging from 34 to 125; optimising turnaround was not the study aim. Those observations do not set a duration for every personalised vaccine. Formulation, testing, review, queues and failed-lot handling belong to the actual production plan. Consistent manufacture, permission to administer and evidence that treatment benefits patients remain separate questions.\n\nTwo details matter when reading a product description. First, double-stranded RNA can arise from the transcription step itself: in one study T7 polymerase started transcription from a promoter-less DNA end and made an antisense strand that paired with the intended RNA and stimulated the innate sensor MDA5, and the effect fell with modified nucleotides or a lower magnesium concentration (Mu and colleagues). Purification was tested separately: HPLC removed contaminants including double-stranded RNA from nucleoside-modified transcripts and raised translation 10 to 1,000-fold in primary cells (Karikó and colleagues), and a cellulose method removed at least 90 per cent of double-stranded RNA with over 65 per cent recovery, taking out duplexes of 30 base pairs or longer while most of a 21 base-pair duplex remained (Baiersdörfer and colleagues). Second, a lipid nanoparticle is not the only formulation in use: in the pancreatic cancer phase I trial of autogene cevumeran each patient's vaccine held two uridine mRNA strands, each encoding up to 10 neoepitopes, formulated as lipoplex nanoparticles of about 400 nm made from the cationic lipid DOTMA and the phospholipid DOPE and given intravenously (Rojas and colleagues). Release testing is layered: a review of mRNA analytics lists identity and modification analysis, poly(A) tail, RNA content and integrity, double-stranded RNA and residual DNA as separate attributes, and a review of mRNA manufacturing cites a regulator-recommended residual DNA limit of 10 ng per dose (Losada and colleagues; Nowak and colleagues). Particle size and composition measurements do not by themselves show that usable RNA reaches the cytosol of the intended cell.",
+        "principle": "Connect the approved sequence to its DNA template, RNA synthesis, purification, chosen formulation and lot-level testing. Product quality, protocol administration and clinical benefit require distinct evidence.",
+        "strengths": [
+          "Enzymatic RNA synthesis supports defined message production",
+          "Sequence can vary within a controlled personalised platform",
+          "Shared process knowledge can support recipient-specific products"
+        ],
+        "limitations": [
+          "RNA chemistry, formulation and release criteria depend on the product",
+          "Stability and handling conditions need product-specific evidence",
+          "Testing, quality review, queues and failed lots contribute to turnaround"
+        ],
+        "notes": [
+          "A target list does not specify a finished message. Ribosomes translate RNA into protein, from which processing can generate fragments for HLA display. Keep the message, encoded protein and displayed fragments distinct. The manufacturing handoff retains the complete RNA sequence, each window and its source alteration, intended protein, cap, untranslated regions, initiation context, poly(A) strategy, chemical building blocks and delivery specification. It also retains the approved version, change rationale, prediction method and version, and the specimen, assay and conditions behind measured results. The intended altered residue must survive the handoff. A wrong sequence version, lost alteration or concealed biological edit cannot be repaired by a correct measurement on the wrong material. Follow the link from approved design through template, RNA, formulation, aseptic fill, released lot, transport and protocol administration; each handoff needs its own specification.",
+          "Consider a fictional message containing altered target windows A and B. A synonymous-codon revision is intended to preserve the full protein sequence, which must be checked before comparing RNA and protein behaviour. Shortening their spacer changes the combined protein and its junction, calling for renewed processing and display assessment. Substituting a modified uridine building block can retain the intended protein while changing sensing or translation, so purity and delivery need an appropriately matched comparison. An initiation-context revision is another distinct question: Kozak context spans the untranslated and coding boundary around the start codon. Kozak tested preproinsulin constructs, not a universal vaccine design. A trafficking signal directs the encoded protein towards a cellular compartment, and a helper segment can support CD4 responses in a particular design; neither is universally required. More reporter protein does not establish display of both targets, natural tumour recognition or prevention of recurrence. An expression model may lack the intended presentation pathway. A prediction names an uncertainty for a relevant assay rather than proving success or failure. Comparing a revision requires the exact old and new RNA and protein specifications and the reason for each edit.",
+          "The format changes what is made and what still needs to be tested. Solid-phase peptide synthesis assembles an amino-acid chain on a support, then releases and purifies it; antigen-presenting-cell loading or processing and priming remain biological questions. RNA supplies instructions, whether delivered in a specified nanoparticle or lipoplex. DNA and engineered vectors raise their own questions about expressing cells, duration and vector-specific risks. LNP and lipoplex labels can overlap in papers, so inspect composition and architecture. Record composition, RNA amount and integrity, particle properties and relevant biological activity for the chosen formulation. A new formulation or route can change behaviour even with the same message. Identity, purity, integrity, relevant activity, stability and handling are separate attributes: residual DNA, proteins, incomplete RNA and double-stranded RNA are not one measurement, and a low double-stranded-RNA signal does not establish sterility.",
+          "For a historical product comparison, TNBC-MERIT studied early-stage triple-negative breast cancer after standard therapy in a noncomparative phase I arm. Its intravenous, non-nucleoside-modified uridine RNA-lipoplex course had eight personalised administrations, six weekly followed by two every other week, ending at day 64. Two RNA strands each encoded up to ten selected windows. The first three evaluable participants also received a shared-antigen bridging vaccine while the personalised product was made. Rojas and colleagues studied a different intravenous uridine RNA-lipoplex product after pancreatic-cancer resection, within a sequence of atezolizumab, vaccine priming, chemotherapy and a later booster. These product and population records support their own feasibility and immune observations; neither single-arm sequence isolates a vaccine effect on recurrence.",
+          "KEYNOTE-942 instead randomised people with completely resected high-risk melanoma to V940 plus pembrolizumab or pembrolizumab alone. Its vaccine was given intramuscularly, up to nine administrations in three-week cycles. A separate 2025 primary protocol abstract, CT251 for the lung-cancer INTerpath-009 study, describes V940 as LNP-encapsulated; that abstract is formulation evidence, not the melanoma trial outcome report. The melanoma comparison tests adding that product to that backbone, not LPX against LNP. Neither acronym reveals the entire lipid recipe, RNA chemistry, cap, impurity limits or stability specification, and cross-trial percentages cannot rank formulations. These are historical study protocols rather than administration recommendations.",
+          "Quality review separates the antigen and construct, approved version and change control, manufactured lot, and clinical protocol and monitoring. GMP is a quality system, CMC an evidence package, a certificate of analysis a test-results document and batch release a disposition. A CDMO performs agreed activities without erasing applicable responsibilities. FDA's 2016 quality-agreement guidance addresses commercial manufacture and excludes investigational materials from its explicit scope, while describing the usefulness of such agreements before commercial use. The 1999 vaccine CMC document concerns licence applications; the 2011 therapeutic cancer-vaccine guidance concerns investigational clinical studies. These dated documents do not supply universal RNA release limits. Potency addresses relevant biological activity; expression can be one part of a mechanism, without proving presentation, tumour recognition or clinical benefit.",
+          "In a fictional spacer-revision comparison, A, B and C are three independently prepared matched material pairs, not people or doses. Each reported signal is a mean of two technical wells. Before and after, each preparation contains 1 mg RNA. Reporter signals are 100 to 104 for A, 98 to 101 for B and 102 to 100 for C; target-B display signals are 9 to 3, 8 to 3 and 10 to 4. All numbers are invented. The stipulated conditions keep formulation, cell model, method and observation time the same, with fixed viable-cell normalisation and a common reference within each assay. No-RNA and no-target-B controls are described as background and a reference gives its expected signal, but those are qualitative premises rather than supplied raw control data. The reporter is an expression surrogate, whereas the display assay reports relative cell-surface target-B peptide-HLA signal in one laboratory model.",
+          "Calculate each fictional change within its own assay. Reporter changes for A, B and C are +4, +3 and -2 units, or approximately +4.0%, +3.1% and -2.0%. Display decreases are 6, 5 and 6 units, or 66.7%, 62.5% and 60.0%, using the decrease divided by that pair's starting display signal. The two arbitrary-unit scales are not commensurate: reporter 100 cannot be compared with display 9, and nearby reporter values do not establish equivalent target display. Three preparations remain three independent units despite six technical wells. Equal RNA mass after a length change need not mean equal molecule counts, so length, integrity and appropriate input normalisation still matter.",
+          "The fictional table lacks raw wells and controls, assay precision and range, detection and quantification limits, comparison bounds and release limits. The qualitative control notes do not establish that either assay is fully validated. Investigate altered processing or display alongside assay and input effects before assigning a cause. A spacer revision changes the construct even when motivated by manufacture, so reusing earlier design or function evidence needs an explicit justification alongside any process review. Set and justify comparison criteria for the intended use; a process-only bridge cannot cover a changed message. Q5E's 2005 scope is cell-culture protein and polypeptide products: applying its comparison principles to this RNA example is an analogy, not an RNA regulatory determination. This panel cannot decide lot disposition, establish that the spacer caused the drop, prescribe further studies or convert an earlier laboratory result into natural tumour recognition or patient benefit.",
+          "Handling and release need the product's own evidence. A correct sequence can coexist with inadequate RNA integrity or functional activity. Shelf life and allowable storage excursions come from product-specific stability evidence. A report with acceptable identity and purity does not resolve an unassessed transport excursion. The quality function reviews relevant testing, stability and handling records before release, hold or rejection; a passing assay on a wrongly assigned vial cannot establish recipient identity or custody. A fictional LNP lot cannot borrow intravenous lipoplex handling instructions or infer sterility from nondetectable double-stranded RNA. After a facility change, unchanged final RNA mass alone does not bridge impurities, formulation, activity or stability. The one-formulation spacer example also cannot rank LPX against LNP or supply shelf life, handling instructions or clinical outcomes."
+        ],
+        "links": [
+          {
+            "label": "FDA guidance: CMC information for human gene therapy INDs",
+            "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/MRNA_vaccine"
+          },
+          {
+            "label": "An origin of the immunogenicity of in vitro transcribed RNA.",
+            "url": "https://doi.org/10.1093/nar/gky177"
+          },
+          {
+            "label": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+            "url": "https://doi.org/10.1093/nar/gkr695"
+          },
+          {
+            "label": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+            "url": "https://doi.org/10.1016/j.omtn.2019.02.018"
+          },
+          {
+            "label": "Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer.",
+            "url": "https://doi.org/10.1038/s41586-023-06063-y"
+          },
+          {
+            "label": "From nucleotides to intact transcripts through oligonucleotides: Integrated chromatographic strategies for therapeutic mRNA characterization.",
+            "url": "https://doi.org/10.1007/s00216-026-06615-x"
+          },
+          {
+            "label": "Process and analytical strategies for the safe production of mRNA vaccines and therapeutics.",
+            "url": "https://doi.org/10.1007/s11033-026-11455-0"
+          },
+          {
+            "label": "Sahin et al.: TNBC-MERIT product, manufacture and immune monitoring (2026)",
+            "url": "https://doi.org/10.1038/s41586-025-10004-2"
+          },
+          {
+            "label": "Weber et al.: KEYNOTE-942 melanoma randomised phase 2b protocol (2024)",
+            "url": "https://doi.org/10.1016/S0140-6736(23)02268-7"
+          },
+          {
+            "label": "Cascone et al.: CT251 primary INTerpath-009 protocol abstract, V940 formulation (2025)",
+            "url": "https://doi.org/10.1158/1538-7445.AM2025-CT251"
+          },
+          {
+            "label": "Kozak: start-context substitutions in preproinsulin (1986)",
+            "url": "https://doi.org/10.1016/0092-8674(86)90762-2"
+          },
+          {
+            "label": "Schubert and Kohlbacher: computational spacer design (2016)",
+            "url": "https://doi.org/10.1186/s13073-016-0263-6"
+          },
+          {
+            "label": "Wu et al.: codon-dependent RNA stability in human cells (2019)",
+            "url": "https://doi.org/10.7554/eLife.45396"
+          },
+          {
+            "label": "Kariko et al.: nucleoside modification and innate sensing (2005)",
+            "url": "https://doi.org/10.1016/j.immuni.2005.06.008"
+          },
+          {
+            "label": "Truex et al.: peptide synthesis, resin cleavage and purification (2020)",
+            "url": "https://doi.org/10.1038/s41598-019-56943-5"
+          },
+          {
+            "label": "FDA/ICH Q5E: comparability and its cell-culture protein scope (June 2005)",
+            "url": "https://www.fda.gov/media/71489/download"
+          },
+          {
+            "label": "FDA: vaccine CMC for licence applications (January 1999)",
+            "url": "https://www.fda.gov/media/73614/download"
+          },
+          {
+            "label": "FDA: contract manufacturing quality agreements, commercial scope (November 2016)",
+            "url": "https://www.fda.gov/media/86193/download"
+          },
+          {
+            "label": "FDA: clinical considerations for therapeutic cancer vaccines (October 2011)",
+            "url": "https://www.fda.gov/media/82312/download"
+          },
+          {
+            "label": "Kreiter et al.: antigen routing in tested dendritic-cell systems (2008)",
+            "url": "https://doi.org/10.4049/jimmunol.180.1.309"
+          }
+        ],
+        "related": [
+          "lipid-nanoparticle",
+          "rna-lipoplex",
+          "targeted-lnps",
+          "batch-release",
+          "good-manufacturing-practice",
+          "platform-vs-personalized-components",
+          "neoantigen-mrna-vaccine"
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "tldr": "28d28fd4e4530dc6db241b407ab6260a7e77f7a285d385e9f38b60366a950ce9",
+        "summary": "b8daedcce79bec2ea69c6c59ab204dac6a9dc0b46cd995ef675b56ea6d95f4a8",
+        "principle": "0bc4ec96adecd5eb56f8f2be17fd25221ba04490e3f44c24bf42b59c1967fda2",
+        "strengths": "5ad38175adfb24b1be9a9c3e7a3a9cf43222a902ee0a14affbf2d1deedbbbe00",
+        "limitations": "f6bf6968e589d54507fe546490ffab5867128f59c9aafaa9092d29ef8acf5e41",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "9a9a037ed97b8d4f59d6d556ecae60b805e72221d0270d237d8aa13fa0be5706",
+        "related": "5a9b5a23379cb612555e429c5672d3c627acaf2ac0c63fac3916046a029c1dfa",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterHashes": {
+        "tldr": "3b6e5485f862fb4a58964b03746275a567a0507da91651ef02da7374a17e946d",
+        "summary": "2735a4a69ad4a7ccae41376bba5b362f018a82f3a27f2c8621687a1bcdb7c552",
+        "principle": "1d2c19f983f641bd304ae13eae05d428a9271686e791ea8fbce2170a1e6aa3be",
+        "strengths": "ce4c51414c20f690468ea4b29197c5a4bef92b88385f9e3796c48490134121b6",
+        "limitations": "c470261366edd6fdefb808c11c9fa7d83e48e6defbb6c95f357370ab15e5b94a",
+        "notes": "6f2f2df2530a6ced8fd1e7b4b8f6b31e9dc1ff3534f6a72221cd537f572b2b45",
+        "links": "4a921c96f880caeee111d354980eab8995cf6faa6feba0831212773495105ddb",
+        "related": "a4020ff5821238dc39738c95edda618f99a9c6cd6bc6cff03a558ed2f7247a53",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    },
+    {
+      "id": "neoantigen-mrna-vaccine",
+      "file": "src/data/technologies.ts",
+      "before": {
+        "notes": [
+          "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+          "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+          "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+          "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "Target number, formulation, combination and timing belong to the particular product. The V940 sponsor description specifies up to 34 encoded neoantigens; Rojas and colleagues used autogene cevumeran with up to 20 in their pancreatic study. Neither number is a universal selection score or manufacturing rule. Tolerability and added benefit require evidence for the actual regimen and population; a personalised sequence does not itself establish low toxicity."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+          },
+          {
+            "label": "NCI: how cancer treatment vaccines work",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+          },
+          {
+            "label": "OpenStax: T-cell selection and clonal expansion",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+          },
+          {
+            "label": "Kranz et al.: systemic RNA delivery and antigen-specific responses (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/"
+          },
+          {
+            "label": "Douek et al.: measured adult thymic output and age (1998)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+          },
+          {
+            "label": "Rojas et al.: pancreatic phase 1 combination and immune-response association (2023)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+          },
+          {
+            "label": "Merck and Moderna: company-reported INTerpath-001 interim endpoints (19 August 2026)",
+            "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+          },
+          {
+            "label": "INTerpath-001: registry design and endpoints",
+            "url": "https://clinicaltrials.gov/study/NCT05933577"
+          },
+          {
+            "label": "Autogene cevumeran: phase 2 resected-pancreatic study",
+            "url": "https://clinicaltrials.gov/study/NCT05968326"
+          },
+          {
+            "label": "V940-002: phase 3 lung-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06077760"
+          },
+          {
+            "label": "V940-004: phase 2 renal-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06307431"
+          },
+          {
+            "label": "V940-005: phase 1/2 bladder-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06305767"
+          },
+          {
+            "label": "V940-007: terminated cutaneous squamous-cell study",
+            "url": "https://clinicaltrials.gov/study/NCT06295809"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+          "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+          "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+          "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+          "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+          "Target number, formulation, combination and timing belong to the particular product. The V940 sponsor description specifies up to 34 encoded neoantigens; Rojas and colleagues used autogene cevumeran with up to 20 in their pancreatic study. Neither number is a universal selection score or manufacturing rule. Tolerability and added benefit require evidence for the actual regimen and population; a personalised sequence does not itself establish low toxicity.",
+          "TNBC-MERIT illustrates why immune-response denominators retain their assay. The 2026 report evaluated 14 participants after standard treatment for early triple-negative breast cancer. Overnight peptide-stimulated PBMC ELISpot detected responses in 12 of the 14. Eight had enough remaining cells for additional testing after 1.5 weeks of culture and stimulation of separated CD4 and CD8 cells. Every participant had a response by at least one ELISpot approach, which is a different observation from the direct-assay 12 of 14. Culture can change the number and state of responders and the specimen represented. These immune results in a noncomparative intravenous RNA-lipoplex study do not isolate recurrence-prevention benefit.",
+          "The protocol specifies dose, route, cadence, duration, combinations, safety monitoring and stopping rules. Batch release does not establish a safe dose or beneficial schedule. There is no general chemotherapy off-week, checkpoint-overlap or concurrent-targeted-drug rule for every cancer vaccine: mechanistic compatibility is a question for study in the actual regimen and population. Use controls, an informative baseline where appropriate, and a prespecified sampling plan. A comparison record names specimen compartment and time, preparation, stimulus or reagent, input-cell denominator, background controls and a prespecified response rule. A percentage within a CD8 gate, spots per million PBMCs and relative receptor frequency describe different quantities. Technical repeats from one sample are not reproducibility across people. Choosing a different test after seeing the result can favour a positive story, so retain the original response rule and any changed conditions. Safety requires systematic adverse-event collection rather than inference from an immune-response curve."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+          },
+          {
+            "label": "NCI: how cancer treatment vaccines work",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+          },
+          {
+            "label": "OpenStax: T-cell selection and clonal expansion",
+            "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+          },
+          {
+            "label": "Kranz et al.: systemic RNA delivery and antigen-specific responses (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/"
+          },
+          {
+            "label": "Douek et al.: measured adult thymic output and age (1998)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+          },
+          {
+            "label": "Rojas et al.: pancreatic phase 1 combination and immune-response association (2023)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+          },
+          {
+            "label": "Merck and Moderna: company-reported INTerpath-001 interim endpoints (19 August 2026)",
+            "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+          },
+          {
+            "label": "INTerpath-001: registry design and endpoints",
+            "url": "https://clinicaltrials.gov/study/NCT05933577"
+          },
+          {
+            "label": "Autogene cevumeran: phase 2 resected-pancreatic study",
+            "url": "https://clinicaltrials.gov/study/NCT05968326"
+          },
+          {
+            "label": "V940-002: phase 3 lung-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06077760"
+          },
+          {
+            "label": "V940-004: phase 2 renal-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06307431"
+          },
+          {
+            "label": "V940-005: phase 1/2 bladder-cancer study",
+            "url": "https://clinicaltrials.gov/study/NCT06305767"
+          },
+          {
+            "label": "V940-007: terminated cutaneous squamous-cell study",
+            "url": "https://clinicaltrials.gov/study/NCT06295809"
+          },
+          {
+            "label": "Sahin et al.: TNBC-MERIT product, manufacture and immune monitoring (2026)",
+            "url": "https://doi.org/10.1038/s41586-025-10004-2"
+          },
+          {
+            "label": "FDA: clinical considerations for therapeutic cancer vaccines (October 2011)",
+            "url": "https://www.fda.gov/media/82312/download"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "d8dcf9791bc17cb85715ca34fa4041ef38903f6b16ce418918147de2aab6676c",
+        "links": "3aa1c621a25cab5f2002704d2cd708185bc8b1e5c8d7c111044ee7ccd8ddc642",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "03f98fdf9e76fca0831fb71a9b97fd269a39e5062a71b9deee4cf4d166f0553b",
+        "links": "cbba5bcd132e2e053cf8041878735903de8068a5740d9e87303fc000e24b935d",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      }
+    }
+  ],
+  "peerOwnersUnchanged": [
+    "certificate-of-analysis",
+    "chemistry-manufacturing-controls",
+    "codon-optimization",
+    "dsrna-impurities",
+    "elispot",
+    "immune-cytotoxicity-assays",
+    "immune-product-evidence",
+    "immunogenicity-versus-efficacy",
+    "in-vitro-transcription",
+    "intracellular-cytokine-staining",
+    "manufacturing-process-comparability",
+    "modified-rna-nucleosides",
+    "mrna-construct-anatomy",
+    "multi-epitope-constructs",
+    "pbmc-specimens",
+    "peptide-hla-multimer-staining",
+    "tcr-repertoire-clonality",
+    "tcr-repertoire-sequencing"
+  ],
+  "peerEditsApplied": false,
+  "newNotes": 12,
+  "summaryConsumerDelta": {
+    "SimpleEnglishEntriesCorrected": 1,
+    "unreviewedShortTranslationsWithdrawn": 1,
+    "withdrawnLanguage": "zh",
+    "withdrawnRecordId": "mrna-lnp-manufacturing",
+    "namedReviewEntriesChanged": 0,
+    "acceptedLongCaches": 0,
+    "languageApproval": false
+  },
+  "graphDelta": {
+    "before": 23084,
+    "after": 23084,
+    "addedIds": [],
+    "removedIds": [],
+    "changedIds": [
+      "mrna-lnp-manufacturing",
+      "neoantigen-mrna-vaccine"
+    ]
+  },
+  "intentionalWithdrawals": {
+    "manufacturingFirstTwoParagraphs": "Replaced universal recipe, cell-free whole chain and weeks narrative with defined product and clock scope. LNP chemistry/process details remain under the existing lipid-nanoparticle owner. Facility locations, supply/patent rankings and industrialisation predictions are deliberately withheld pending primary checks; not called false or verified.",
+    "manufacturingStrengthsAndLimitations": "Replaced universal timing, process invariance and fixed storage-temperature claims with product-specific, source-supported attributes.",
+    "manufacturingThirdParagraph": "Preserved byte-exactly at its earlier recorded source depth; its residual-DNA regulatory limit remains separate named required verification."
+  },
+  "preservation": "All six earlier neoantigen vaccine notes, all links on both owners and the manufacturing third summary paragraph remain byte-exact. Scalar recipe, timing, process-invariance, handling and commercial claims have documented correction/withdrawal dispositions. Source guide and artwork are unchanged."
+}

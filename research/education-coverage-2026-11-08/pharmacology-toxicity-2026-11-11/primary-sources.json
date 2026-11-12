@@ -1,0 +1,1759 @@
+{
+  "publications": [
+    {
+      "pmid": "25738668",
+      "title": "Goserelin for ovarian protection during breast-cancer adjuvant chemotherapy.",
+      "authors": "Moore HC, Unger JM, Phillips KA, Boyle F, Hitre E, Porter D, Francis PA, Goldstein LJ, Gomez HL, Vallejos CS, Partridge AH, Dakhil SR, Garcia AA, Gralow J, Lombard JM, Forbes JF, Martino S, Barlow WE, Fabian CJ, Minasian L, Meyskens FL, Gelber RD, Hortobagyi GN, Albain KS, POEMS/S0230 Investigators",
+      "year": "2015",
+      "doi": "10.1056/NEJMoa1413204",
+      "pmcid": "PMC4405231",
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Clinical Trial, Phase III",
+        "Comparative Study",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:25738668"
+    },
+    {
+      "pmid": "30371800",
+      "title": "Final Analysis of the Prevention of Early Menopause Study (POEMS)/SWOG Intergroup S0230.",
+      "authors": "Moore HCF, Unger JM, Phillips KA, Boyle F, Hitre E, Moseley A, Porter DJ, Francis PA, Goldstein LJ, Gomez HL, Vallejos CS, Partridge AH, Dakhil SR, Garcia AA, Gralow JR, Lombard JM, Forbes JF, Martino S, Barlow WE, Fabian CJ, Minasian LM, Meyskens FL, Gelber RD, Hortobagyi GN, Albain KS",
+      "year": "2019",
+      "doi": "10.1093/jnci/djy185",
+      "pmcid": "PMC6657277",
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy",
+        "candidate:ovarian-function-after-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:30371800"
+    },
+    {
+      "pmid": "21771987",
+      "title": "Effect of the gonadotropin-releasing hormone analogue triptorelin on the occurrence of chemotherapy-induced early menopause in premenopausal women with breast cancer: a randomized trial.",
+      "authors": "Del Mastro L, Boni L, Michelotti A, Gamucci T, Olmeo N, Gori S, Giordano M, Garrone O, Pronzato P, Bighin C, Levaggi A, Giraudi S, Cresti N, Magnolfi E, Scotto T, Vecchio C, Venturini M",
+      "year": "2011",
+      "doi": "10.1001/jama.2011.991",
+      "pmcid": null,
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy",
+        "candidate:ovarian-function-after-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Clinical Trial, Phase III",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:21771987"
+    },
+    {
+      "pmid": "29718793",
+      "title": "Gonadotropin-Releasing Hormone Agonists During Chemotherapy for Preservation of Ovarian Function and Fertility in Premenopausal Patients With Early Breast Cancer: A Systematic Review and Meta-Analysis of Individual Patient-Level Data.",
+      "authors": "Lambertini M, Moore HCF, Leonard RCF, Loibl S, Munster P, Bruzzone M, Boni L, Unger JM, Anderson RA, Mehta K, Minton S, Poggio F, Albain KS, Adamson DJA, Gerber B, Cripps A, Bertelli G, Seiler S, Ceppi M, Partridge AH, Del Mastro L",
+      "year": "2018",
+      "doi": "10.1200/JCO.2018.78.0858",
+      "pmcid": "PMC6804855",
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy",
+        "candidate:ovarian-function-after-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29718793"
+    },
+    {
+      "pmid": "40106739",
+      "title": "Fertility Preservation in People With Cancer: ASCO Guideline Update.",
+      "authors": "Su HI, Lacchetti C, Letourneau J, Partridge AH, Qamar R, Quinn GP, Reinecke J, Smith JF, Tesch M, Wallace WH, Wang ET, Loren AW.",
+      "year": "2025",
+      "doi": "10.1200/jco-24-02782",
+      "pmcid": null,
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy",
+        "candidate:ovarian-function-after-chemotherapy"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:40106739"
+    },
+    {
+      "pmid": "29620997",
+      "title": "Fertility Preservation in Patients With Cancer: ASCO Clinical Practice Guideline Update.",
+      "authors": "Oktay K, Harvey BE, Partridge AH, Quinn GP, Reinecke J, Taylor HS, Wallace WH, Wang ET, Loren AW.",
+      "year": "2018",
+      "doi": "10.1200/jco.2018.78.1914",
+      "pmcid": null,
+      "usedIn": [
+        "ovarian-function-suppression-during-chemotherapy"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Systematic Review",
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29620997"
+    },
+    {
+      "pmid": "20609406",
+      "title": "Probing the probes: fitness factors for small molecule tools.",
+      "authors": "Workman P, Collins I.",
+      "year": "2010",
+      "doi": "10.1016/j.chembiol.2010.05.013",
+      "pmcid": "PMC2905514",
+      "usedIn": [
+        "chemical-probe-vs-drug-and-target-engagement",
+        "candidate:chemical-probe"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "Workman: targeted full-text probe criteria and controls, inherited capture re-read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:20609406"
+    },
+    {
+      "pmid": "26196764",
+      "title": "The promise and peril of chemical probes.",
+      "authors": "Arrowsmith CH, Audia JE, Austin C, Baell J, Bennett J, Blagg J, Bountra C, Brennan PE, Brown PJ, Bunnage ME, Buser-Doepner C, Campbell RM, Carter AJ, Cohen P, Copeland RA, Cravatt B, Dahlin JL, Dhanak D, Edwards AM, Frederiksen M, Frye SV, Gray N, Grimshaw CE, Hepworth D, Howe T, Huber KV, Jin J, Knapp S, Kotz JD, Kruger RG, Lowe D, Mader MM, Marsden B, Mueller-Fahrnow A, Müller S, O'Hagan RC, Overington JP, Owen DR, Rosenberg SH, Roth B, Ross R, Schapira M, Schreiber SL, Shoichet B, Sundström M, Superti-Furga G, Taunton J, Toledo-Sherman L, Walpole C, Walters MA, Willson TM, Workman P, Young RN, Zuercher WJ",
+      "year": "2015",
+      "doi": "10.1038/nchembio.1867",
+      "pmcid": "PMC4706458",
+      "usedIn": [
+        "chemical-probe-vs-drug-and-target-engagement",
+        "candidate:chemical-probe"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "Arrowsmith: targeted full-text probe criteria and controls, inherited text capture re-read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:26196764"
+    },
+    {
+      "pmid": "23828940",
+      "title": "Monitoring drug target engagement in cells and tissues using the cellular thermal shift assay.",
+      "authors": "Martinez Molina D, Jafari R, Ignatushchenko M, Seki T, Larsson EA, Dan C, Sreekumar L, Cao Y, Nordlund P",
+      "year": "2013",
+      "doi": "10.1126/science.1233606",
+      "pmcid": null,
+      "usedIn": [
+        "chemical-probe-vs-drug-and-target-engagement",
+        "drug-target-and-mechanism",
+        "candidate:chemical-probe",
+        "candidate:drug-target-and-mechanism"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:23828940"
+    },
+    {
+      "pmid": "41740078",
+      "title": "WBC Growth Factors: ASCO Guideline Update.",
+      "authors": "Gyawali B, Bohlke K, Dickter JK, Kelkar AH, Knopf KB, Rapoport BL, Roof L, Schott S, Seshadri MR, Shilpakar R, Smith TJ, Trapani D, Woodard AB, Cigler T.",
+      "year": "2026",
+      "doi": "10.1200/jco-25-02938",
+      "pmcid": null,
+      "usedIn": [
+        "neutropenia-and-g-csf",
+        "candidate:g-csf-growth-factors"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Systematic Review",
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:41740078"
+    },
+    {
+      "pmid": "15501986",
+      "title": "Effects of drug loading on the antitumor activity of a monoclonal antibody drug conjugate.",
+      "authors": "Hamblett KJ, Senter PD, Chace DF, Sun MM, Lenox J, Cerveny CG, Kissler KM, Bernhardt SX, Kopcha AK, Zabinski RF, Meyer DL, Francisco JA.",
+      "year": "2004",
+      "doi": "10.1158/1078-0432.ccr-04-0789",
+      "pmcid": null,
+      "usedIn": [
+        "therapeutic-index",
+        "therapeutic-index",
+        "candidate:therapeutic-index"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:15501986"
+    },
+    {
+      "pmid": "34949706",
+      "title": "ERS/ATS technical standard on interpretive strategies for routine lung function tests.",
+      "authors": "Stanojevic S, Kaminsky DA, Miller MR, Thompson B, Aliverti A, Barjaktarevic I, Cooper BG, Culver B, Derom E, Hall GL, Hallstrand TS, Leuppi JD, MacIntyre N, McCormack M, Rosenfeld M, Swenson ER",
+      "year": "2022",
+      "doi": "10.1183/13993003.01499-2021",
+      "pmcid": null,
+      "usedIn": [
+        "pulmonary-function-testing",
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Review"
+      ],
+      "readingDepth": "2022 accepted manuscript: targeted LLN, uncertainty, DLCO and haemoglobin passages; typeset version access blocked",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:34949706"
+    },
+    {
+      "pmid": "28049168",
+      "title": "2017 ERS/ATS standards for single-breath carbon monoxide uptake in the lung.",
+      "authors": "Graham BL, Brusasco V, Burgos F, Cooper BG, Jensen R, Kendrick A, MacIntyre NR, Thompson BR, Wanger J",
+      "year": "2017",
+      "doi": "10.1183/13993003.00016-2016",
+      "pmcid": null,
+      "usedIn": [
+        "pulmonary-function-testing",
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "2017 typeset society-hosted PDF: targeted preparation, repeatability and haemoglobin passages",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:28049168"
+    },
+    {
+      "pmid": "35219244",
+      "title": "Drug-induced interstitial lung disease during cancer therapies: expert opinion on diagnosis and treatment.",
+      "authors": "Conte P, Ascierto PA, Patelli G, Danesi R, Vanzulli A, Sandomenico F, Tarsia P, Cattelan A, Comes A, De Laurentiis M, Falcone A, Regge D, Richeldi L, Siena S.",
+      "year": "2022",
+      "doi": "10.1016/j.esmoop.2022.100404",
+      "pmcid": "PMC8881716",
+      "usedIn": [
+        "pulmonary-function-testing",
+        "pneumonitis",
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:35219244"
+    },
+    {
+      "pmid": "35665782",
+      "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer.",
+      "authors": "Modi S, Jacot W, Yamashita T, Sohn J, Vidal M, Tokunaga E, Tsurutani J, Ueno NT, Prat A, Chae YS, Lee KS, Niikura N, Park YH, Xu B, Wang X, Gil-Gil M, Li W, Pierga JY, Im SA, Moore HCF, Rugo HS, Yerushalmi R, Zagouri F, Gombos A, Kim SB, Liu Q, Luo T, Saura C, Schmid P, Sun T, Gambhire D, Yung L, Wang Y, Singh J, Vitazka P, Meinhardt G, Harbeck N, Cameron DA, DESTINY-Breast04 Trial Investigators.",
+      "year": "2022",
+      "doi": "10.1056/nejmoa2203690",
+      "pmcid": "PMC10561652",
+      "usedIn": [
+        "pulmonary-function-testing",
+        "pneumonitis",
+        "pneumonitis",
+        "candidate:ild",
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Comparative Study",
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:35665782"
+    },
+    {
+      "pmid": "29025771",
+      "title": "Endothelial Activation and Blood-Brain Barrier Disruption in Neurotoxicity after Adoptive Immunotherapy with CD19 CAR-T Cells.",
+      "authors": "Gust J, Hay KA, Hanafi LA, Li D, Myerson D, Gonzalez-Cuyar LF, Yeung C, Liles WC, Wurfel M, Lopez JA, Chen J, Chung D, Harju-Baker S, Özpolat T, Fink KR, Riddell SR, Maloney DG, Turtle CJ.",
+      "year": "2017",
+      "doi": "10.1158/2159-8290.cd-17-0698",
+      "pmcid": "PMC5718945",
+      "usedIn": [
+        "icans",
+        "icans",
+        "icans",
+        "candidate:icans"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29025771"
+    },
+    {
+      "pmid": "30592986",
+      "title": "ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells.",
+      "authors": "Lee DW, Santomasso BD, Locke FL, Ghobadi A, Turtle CJ, Brudno JN, Maus MV, Park JH, Mead E, Pavletic S, Go WY, Eldjerou L, Gardner RA, Frey N, Curran KJ, Peggs K, Pasquini M, DiPersio JF, van den Brink MRM, Komanduri KV, Grupp SA, Neelapu SS.",
+      "year": "2019",
+      "doi": "10.1016/j.bbmt.2018.12.758",
+      "pmcid": "PMC12180426",
+      "usedIn": [
+        "icans",
+        "icans",
+        "icans",
+        "immune-related-adverse-event",
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "candidate:crs",
+        "candidate:ctcae-grading"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Review",
+          "Consensus Statement",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "2019 accepted-manuscript tables, footnotes and attribution paragraphs re-read; not whole-document read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:30592986"
+    },
+    {
+      "pmid": "42711241",
+      "title": "ASTCT Consensus Grading for Toxicities after Immune Effector Cell Therapy.",
+      "authors": "Perales MA, Dietrich J, Gust J, Santomasso B, Rejeski K, Hansen D, Shah NN, Berdeja J, Bishop M, Bleickardt E, Brudno J, Dahiya S, Frey N, Frigault MJ, Gardner R, Ghobadi A, Grupp S, Hamadani M, Jacobson C, Jain MD, Jain T, Komanduri KV, Kumar A, Lim S, Lin Y, Miao H, Neelapu S, Otegbeye F, Park JH, Pasquini M, Patel N, Plautz G, Verdun N, Lee DW, Maus MV, Locke FL",
+      "year": "2026",
+      "doi": "10.1016/j.jtct.2026.05.020",
+      "pmcid": null,
+      "usedIn": [
+        "icans",
+        "icans",
+        "icans",
+        "icans",
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "candidate:crs",
+        "candidate:icans",
+        "candidate:ctcae-grading",
+        "candidate:on-target-off-tumour-toxicity"
+      ],
+      "pubTypeList": [
+        "Consensus Statement",
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:42711241"
+    },
+    {
+      "pmid": "16203864",
+      "title": "Removal of homeostatic cytokine sinks by lymphodepletion enhances the efficacy of adoptively transferred tumor-specific CD8+ T cells.",
+      "authors": "Gattinoni L, Finkelstein SE, Klebanoff CA, Antony PA, Palmer DC, Spiess PJ, Hwang LN, Yu Z, Wrzesinski C, Heimann DM, Surh CD, Rosenberg SA, Restifo NP",
+      "year": "2005",
+      "doi": "10.1084/jem.20050732",
+      "pmcid": "PMC1397916",
+      "usedIn": [
+        "lymphodepletion",
+        "lymphodepletion",
+        "candidate:lymphodepletion"
+      ],
+      "pubTypeList": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:16203864"
+    },
+    {
+      "pmid": "36477031",
+      "title": "Tumor-Infiltrating Lymphocyte Therapy or Ipilimumab in Advanced Melanoma.",
+      "authors": "Rohaan MW, Borch TH, van den Berg JH, Met Ö, Kessels R, Geukes Foppen MH, Stoltenborg Granhøj J, Nuijen B, Nijenhuis C, Jedema I, van Zon M, Scheij S, Beijnen JH, Hansen M, Voermans C, Noringriis IM, Monberg TJ, Holmstroem RB, Wever LDV, van Dijk M, Grijpink-Ongering LG, Valkenet LHM, Torres Acosta A, Karger M, Borgers JSW, Ten Ham RMT, Retèl VP, van Harten WH, Lalezari F, van Tinteren H, van der Veldt AAM, Hospers GAP, Stevense-den Boer MAM, Suijkerbuijk KPM, Aarts MJB, Piersma D, van den Eertwegh AJM, de Groot JB, Vreugdenhil G, Kapiteijn E, Boers-Sonderen MJ, Fiets WE, van den Berkmortel FWPJ, Ellebaek E, Hölmich LR, van Akkooi ACJ, van Houdt WJ, Wouters MWJM, van Thienen JV, Blank CU, Meerveld-Eggink A, Klobuch S, Wilgenhof S, Schumacher TN, Donia M, Svane IM, Haanen JBAG",
+      "year": "2022",
+      "doi": "10.1056/NEJMoa2210233",
+      "pmcid": null,
+      "usedIn": [
+        "lymphodepletion",
+        "lymphodepletion",
+        "candidate:lymphodepletion"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:36477031"
+    },
+    {
+      "pmid": "1996092",
+      "title": "Use of a screen for synthetic lethal and multicopy suppressee mutants to identify two new genes involved in morphogenesis in Saccharomyces cerevisiae.",
+      "authors": "Bender A, Pringle JR",
+      "year": "1991",
+      "doi": "10.1128/mcb.11.3.1295-1305.1991",
+      "pmcid": "PMC369400",
+      "usedIn": [
+        "synthetic-lethality"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:1996092"
+    },
+    {
+      "pmid": "16287996",
+      "title": "Efficient deletion of normal Brca2-deficient intestinal epithelium by poly(ADP-ribose) polymerase inhibition models potential prophylactic therapy.",
+      "authors": "Hay T, Jenkins H, Sansom OJ, Martin NM, Smith GC, Clarke AR.",
+      "year": "2005",
+      "doi": "10.1158/0008-5472.can-05-1186",
+      "pmcid": null,
+      "usedIn": [
+        "synthetic-lethality",
+        "candidate:synthetic-lethality",
+        "candidate:synthetic-lethality-approaches"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:16287996"
+    },
+    {
+      "pmid": "15829966",
+      "title": "Specific killing of BRCA2-deficient tumours with inhibitors of poly(ADP-ribose) polymerase.",
+      "authors": "Bryant HE, Schultz N, Thomas HD, Parker KM, Flower D, Lopez E, Kyle S, Meuth M, Curtin NJ, Helleday T.",
+      "year": "2005",
+      "doi": "10.1038/nature03443",
+      "pmcid": null,
+      "usedIn": [
+        "synthetic-lethality",
+        "candidate:synthetic-lethality"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:15829966"
+    },
+    {
+      "pmid": "23118055",
+      "title": "Trapping of PARP1 and PARP2 by Clinical PARP Inhibitors.",
+      "authors": "Murai J, Huang SY, Das BB, Renaud A, Zhang Y, Doroshow JH, Ji J, Takeda S, Pommier Y",
+      "year": "2012",
+      "doi": "10.1158/0008-5472.CAN-12-2753",
+      "pmcid": "PMC3528345",
+      "usedIn": [
+        "synthetic-lethality",
+        "candidate:synthetic-lethality"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:23118055"
+    },
+    {
+      "pmid": "14564000",
+      "title": "LMO2-associated clonal T cell proliferation in two patients after gene therapy for SCID-X1.",
+      "authors": "Hacein-Bey-Abina S, Von Kalle C, Schmidt M, McCormack MP, Wulffraat N, Leboulch P, Lim A, Osborne CS, Pawliuk R, Morillon E, Sorensen R, Forster A, Fraser P, Cohen JI, de Saint Basile G, Alexander I, Wintergerst U, Frebourg T, Aurias A, Stoppa-Lyonnet D, Romana S, Radford-Weiss I, Gross F, Valensi F, Delabesse E, Macintyre E, Sigaux F, Soulier J, Leiva LE, Wissler M, Prinz C, Rabbitts TH, Le Deist F, Fischer A, Cavazzana-Calvo M.",
+      "year": "2003",
+      "doi": "10.1126/science.1088547",
+      "pmcid": null,
+      "usedIn": [
+        "insertional-mutagenesis",
+        "insertional-mutagenesis",
+        "candidate:insertional-mutagenesis"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:14564000"
+    },
+    {
+      "pmid": "29849141",
+      "title": "Disruption of TET2 promotes the therapeutic efficacy of CD19-targeted T cells.",
+      "authors": "Fraietta JA, Nobles CL, Sammons MA, Lundh S, Carty SA, Reich TJ, Cogdill AP, Morrissette JJD, DeNizio JE, Reddy S, Hwang Y, Gohil M, Kulikovskaya I, Nazimuddin F, Gupta M, Chen F, Everett JK, Alexander KA, Lin-Shiao E, Gee MH, Liu X, Young RM, Ambrose D, Wang Y, Xu J, Jordan MS, Marcucci KT, Levine BL, Garcia KC, Zhao Y, Kalos M, Porter DL, Kohli RM, Lacey SF, Berger SL, Bushman FD, June CH, Melenhorst JJ.",
+      "year": "2018",
+      "doi": "10.1038/s41586-018-0178-z",
+      "pmcid": "PMC6320248",
+      "usedIn": [
+        "insertional-mutagenesis",
+        "insertional-mutagenesis",
+        "candidate:insertional-mutagenesis"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Case Reports",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29849141"
+    },
+    {
+      "pmid": "38865660",
+      "title": "Risk of Second Tumors and T-Cell Lymphoma after CAR T-Cell Therapy.",
+      "authors": "Hamilton MP, Sugio T, Noordenbos T, Shi S, Bulterys PL, Liu CL, Kang X, Olsen MN, Good Z, Dahiya S, Frank MJ, Sahaf B, Mackall CL, Gratzinger D, Diehn M, Alizadeh AA, Miklos DB.",
+      "year": "2024",
+      "doi": "10.1056/nejmoa2401361",
+      "pmcid": "PMC11338600",
+      "usedIn": [
+        "insertional-mutagenesis",
+        "insertional-mutagenesis",
+        "candidate:insertional-mutagenesis"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Case Reports",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:38865660"
+    },
+    {
+      "pmid": "29027591",
+      "title": "Clinical toxicity of antibody drug conjugates: a meta-analysis of payloads.",
+      "authors": "Masters JC, Nickens DJ, Xuan D, Shazer RL, Amantea M.",
+      "year": "2018",
+      "doi": "10.1007/s10637-017-0520-6",
+      "pmcid": null,
+      "usedIn": [
+        "adc-payload-toxicity",
+        "candidate:adc-side-effects-breast",
+        "candidate:on-target-off-tumour-toxicity"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Meta-Analysis",
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29027591"
+    },
+    {
+      "pmid": "33558752",
+      "title": "Unlocking the potential of antibody-drug conjugates for cancer therapy.",
+      "authors": "Drago JZ, Modi S, Chandarlapaty S",
+      "year": "2021",
+      "doi": "10.1038/s41571-021-00470-8",
+      "pmcid": "PMC8287784",
+      "usedIn": [
+        "adc-payload-toxicity",
+        "candidate:adc-side-effects-breast"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "readingDepth": "2021 review: targeted ADC internalisation, processing and toxicity passages",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:33558752"
+    },
+    {
+      "pmid": "27646942",
+      "title": "Pneumonitis in Patients Treated With Anti-Programmed Death-1/Programmed Death Ligand 1 Therapy.",
+      "authors": "Naidoo J, Wang X, Woo KM, Iyriboz T, Halpenny D, Cunningham J, Chaft JE, Segal NH, Callahan MK, Lesokhin AM, Rosenberg J, Voss MH, Rudin CM, Rizvi H, Hou X, Rodriguez K, Albano M, Gordon RA, Leduc C, Rekhtman N, Harris B, Menzies AM, Guminski AD, Carlino MS, Kong BY, Wolchok JD, Postow MA, Long GV, Hellmann MD",
+      "year": "2017",
+      "doi": "10.1200/JCO.2016.68.2005",
+      "pmcid": "PMC5559901",
+      "usedIn": [
+        "pneumonitis",
+        "pneumonitis"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:27646942"
+    },
+    {
+      "pmid": "29643473",
+      "title": "Revisiting the role of ABC transporters in multidrug-resistant cancer.",
+      "authors": "Robey RW, Pluchino KM, Hall MD, Fojo AT, Bates SE, Gottesman MM.",
+      "year": "2018",
+      "doi": "10.1038/s41568-018-0005-8",
+      "pmcid": "PMC6622180",
+      "usedIn": [
+        "drug-efflux-transporters",
+        "candidate:drug-efflux-pumps"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, N.I.H., Intramural",
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "2018 review: targeted transporter mechanisms, normal barriers, GI transport and clinical-development passages",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29643473"
+    },
+    {
+      "pmid": "11902585",
+      "title": "Multidrug resistance in cancer: role of ATP-dependent transporters.",
+      "authors": "Gottesman MM, Fojo T, Bates SE.",
+      "year": "2002",
+      "doi": "10.1038/nrc706",
+      "pmcid": null,
+      "usedIn": [
+        "drug-efflux-transporters"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:11902585"
+    },
+    {
+      "pmid": "25840583",
+      "title": "CD30 Downregulation, MMAE Resistance, and MDR1 Upregulation Are All Associated with Resistance to Brentuximab Vedotin.",
+      "authors": "Chen R, Hou J, Newman E, Kim Y, Donohue C, Liu X, Thomas SH, Forman SJ, Kane SE.",
+      "year": "2015",
+      "doi": "10.1158/1535-7163.mct-15-0036",
+      "pmcid": "PMC4458438",
+      "usedIn": [
+        "drug-efflux-transporters",
+        "candidate:drug-efflux-pumps"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:25840583"
+    },
+    {
+      "pmid": "27207776",
+      "title": "Combining ABCG2 Inhibitors with IMMU-132, an Anti-Trop-2 Antibody Conjugate of SN-38, Overcomes Resistance to SN-38 in Breast and Gastric Cancers.",
+      "authors": "Chang CH, Wang Y, Zalath M, Liu D, Cardillo TM, Goldenberg DM.",
+      "year": "2016",
+      "doi": "10.1158/1535-7163.mct-16-0219",
+      "pmcid": null,
+      "usedIn": [
+        "drug-efflux-transporters",
+        "candidate:efflux-pump"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:27207776"
+    },
+    {
+      "pmid": "41591991",
+      "title": "Payload Diversification Overcomes Resistance and Guides Sequential Antibody-Drug Conjugate Therapy in Breast Cancer.",
+      "authors": "Rampa DR, Seo M, Ogata N, Yang Z, Sridhar N, Fujii T, Wannaphut C, Maynard JA, Tsuchikama K, Sledge GW, Ueno NT, Lee J.",
+      "year": "2026",
+      "doi": "10.1158/1078-0432.ccr-25-3321",
+      "pmcid": "PMC13055631",
+      "usedIn": [
+        "drug-efflux-transporters",
+        "candidate:drug-efflux-pumps"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:41591991"
+    },
+    {
+      "pmid": "36693125",
+      "title": "Antibody-Exatecan Conjugates with a Novel Self-immolative Moiety Overcome Resistance in Colon and Lung Cancer.",
+      "authors": "Weng W, Meng T, Zhao Q, Shen Y, Fu G, Shi J, Zhang Y, Wang Z, Wang M, Pan R, Ma L, Chen C, Wang L, Zhou B, Zhang H, Pu J, Zhang J, Hu YP, Hua G, Qian Y, Liu SH, Hu W, Meng X",
+      "year": "2023",
+      "doi": "10.1158/2159-8290.CD-22-1368",
+      "pmcid": null,
+      "usedIn": [
+        "drug-efflux-transporters",
+        "candidate:drug-efflux-pumps"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:36693125"
+    },
+    {
+      "pmid": "12736106",
+      "title": "Differential involvement of neurotransmitters through the time course of cisplatin-induced emesis as revealed by therapy with specific receptor antagonists.",
+      "authors": "Hesketh PJ, Van Belle S, Aapro M, Tattersall FD, Naylor RJ, Hargreaves R, Carides AD, Evans JK, Horgan KJ",
+      "year": "2003",
+      "doi": "10.1016/s0959-8049(02)00674-3",
+      "pmcid": null,
+      "usedIn": [
+        "chemotherapy-induced-nausea",
+        "chemotherapy-induced-nausea",
+        "candidate:antiemetic-therapy"
+      ],
+      "pubTypeList": [
+        "Comparative Study",
+        "Journal Article",
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:12736106"
+    },
+    {
+      "pmid": "27410922",
+      "title": "Olanzapine for the Prevention of Chemotherapy-Induced Nausea and Vomiting.",
+      "authors": "Navari RM, Qin R, Ruddy KJ, Liu H, Powell SF, Bajaj M, Dietrich L, Biggs D, Lafky JM, Loprinzi CL.",
+      "year": "2016",
+      "doi": "10.1056/nejmoa1515725",
+      "pmcid": "PMC5344450",
+      "usedIn": [
+        "chemotherapy-induced-nausea",
+        "chemotherapy-induced-nausea",
+        "candidate:antiemetic-therapy"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "research-article",
+          "Randomized Controlled Trial",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:27410922"
+    },
+    {
+      "pmid": "20179677",
+      "title": "Case report of a serious adverse event following the administration of T cells transduced with a chimeric antigen receptor recognizing ERBB2.",
+      "authors": "Morgan RA, Yang JC, Kitano M, Dudley ME, Laurencot CM, Rosenberg SA",
+      "year": "2010",
+      "doi": "10.1038/mt.2010.24",
+      "pmcid": "PMC2862534",
+      "usedIn": [
+        "on-target-off-tumor-toxicity",
+        "on-target-off-tumor-toxicity",
+        "on-target-off-tumor-toxicity",
+        "candidate:on-target-off-tumour-toxicity"
+      ],
+      "pubTypeList": [
+        "Case Reports",
+        "Journal Article",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "readingDepth": "Complete fresh abstract plus inherited verified targeted autopsy/conditioning passages; no whole-paper re-read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:20179677"
+    },
+    {
+      "pmid": "23770775",
+      "title": "Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma.",
+      "authors": "Linette GP, Stadtmauer EA, Maus MV, Rapoport AP, Levine BL, Emery L, Litzky L, Bagg A, Carreno BM, Cimino PJ, Binder-Scholl GK, Smethurst DP, Gerry AB, Pumphrey NJ, Bennett AD, Brewer JE, Dukes J, Harper J, Tayton-Martin HK, Jakobsen BK, Hassan NJ, Kalos M, June CH",
+      "year": "2013",
+      "doi": "10.1182/blood-2013-03-490565",
+      "pmcid": "PMC3743463",
+      "usedIn": [
+        "on-target-off-tumor-toxicity",
+        "on-target-off-tumor-toxicity",
+        "on-target-off-tumor-toxicity",
+        "candidate:on-target-off-tumour-toxicity"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:23770775"
+    },
+    {
+      "pmid": "29808005",
+      "title": "CAR T cell-induced cytokine release syndrome is mediated by macrophages and abated by IL-1 blockade.",
+      "authors": "Giavridis T, van der Stegen SJC, Eyquem J, Hamieh M, Piersigilli A, Sadelain M",
+      "year": "2018",
+      "doi": "10.1038/s41591-018-0041-7",
+      "pmcid": "PMC6410714",
+      "usedIn": [
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "cytokine-release-syndrome",
+        "candidate:crs"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29808005"
+    },
+    {
+      "pmid": "7626852",
+      "title": "[Dose intensity in cancer chemotherapy: definition, average relative dose intensity and effective dose intensity].",
+      "authors": "Alberto P",
+      "year": "1995",
+      "doi": null,
+      "pmcid": null,
+      "usedIn": [
+        "dose-and-dose-intensity",
+        "dose-and-dose-intensity",
+        "candidate:dose-dense-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Comparative Study",
+        "English Abstract",
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:7626852"
+    },
+    {
+      "pmid": "8471554",
+      "title": "Dose intensification of cisplatin chemotherapy through biweekly administration.",
+      "authors": "Kim S, Howell SB, McClay E, Kirmani S, Goel R, Plaxe S, Braly P, Bonetti A",
+      "year": "1993",
+      "doi": "10.1093/oxfordjournals.annonc.a058460",
+      "pmcid": null,
+      "usedIn": [
+        "dose-and-dose-intensity",
+        "candidate:dose-dense-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Clinical Trial",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:8471554"
+    },
+    {
+      "pmid": "29245013",
+      "title": "Combination Cancer Therapy Can Confer Benefit via Patient-to-Patient Variability without Drug Additivity or Synergy.",
+      "authors": "Palmer AC, Sorger PK.",
+      "year": "2017",
+      "doi": "10.1016/j.cell.2017.11.009",
+      "pmcid": "PMC5741091",
+      "usedIn": [
+        "combination-therapy-rationale",
+        "combination-therapy-rationale",
+        "candidate:backbone-add-on"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:29245013"
+    },
+    {
+      "pmid": "28379339",
+      "title": "SynergyFinder: a web application for analyzing drug combination dose-response matrix data.",
+      "authors": "Ianevski A, He L, Aittokallio T, Tang J",
+      "year": "2017",
+      "doi": "10.1093/bioinformatics/btx162",
+      "pmcid": "PMC5554616",
+      "usedIn": [
+        "combination-therapy-rationale",
+        "combination-therapy-rationale"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:28379339"
+    },
+    {
+      "pmid": "7568331",
+      "title": "The search for synergy: a critical review from a response surface perspective.",
+      "authors": "Greco WR, Bravo G, Parsons JC",
+      "year": "1995",
+      "doi": null,
+      "pmcid": null,
+      "usedIn": [
+        "combination-therapy-rationale"
+      ],
+      "pubTypeList": [
+        "Comparative Study",
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Review"
+      ],
+      "readingDepth": "identity only; abstract unavailable",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:7568331"
+    },
+    {
+      "pmid": "16968952",
+      "title": "Theoretical basis, experimental design, and computerized simulation of synergism and antagonism in drug combination studies.",
+      "authors": "Chou TC.",
+      "year": "2006",
+      "doi": "10.1124/pr.58.3.10",
+      "pmcid": null,
+      "usedIn": [
+        "combination-therapy-rationale",
+        "candidate:backbone-add-on"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:16968952"
+    },
+    {
+      "pmid": "32113653",
+      "title": "Charting the Fragmented Landscape of Drug Synergy.",
+      "authors": "Meyer CT, Wooten DJ, Lopez CF, Quaranta V.",
+      "year": "2020",
+      "doi": "10.1016/j.tips.2020.01.011",
+      "pmcid": "PMC7986484",
+      "usedIn": [
+        "combination-therapy-rationale",
+        "candidate:backbone-add-on"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Review",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:32113653"
+    },
+    {
+      "pmid": "35402259",
+      "title": "Cytokine Release Syndrome and Associated Acute Toxicities in Pediatric Patients Undergoing Immune Effector Cell Therapy or Hematopoietic Cell Transplantation.",
+      "authors": "Baumeister SHC, Mohan GS, Elhaddad A, Lehmann L.",
+      "year": "2022",
+      "doi": "10.3389/fonc.2022.841117",
+      "pmcid": "PMC8989409",
+      "usedIn": [
+        "candidate:crs"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:35402259"
+    },
+    {
+      "pmid": "34172516",
+      "title": "Society for Immunotherapy of Cancer (SITC) clinical practice guideline on immune checkpoint inhibitor-related adverse events.",
+      "authors": "Brahmer JR, Abu-Sbeih H, Ascierto PA, Brufsky J, Cappelli LC, Cortazar FB, Gerber DE, Hamad L, Hansen E, Johnson DB, Lacouture ME, Masters GA, Naidoo J, Nanni M, Perales MA, Puzanov I, Santomasso BD, Shanbhag SP, Sharma R, Skondra D, Sosman JA, Turner M, Ernstoff MS",
+      "year": "2021",
+      "doi": "10.1136/jitc-2021-002435",
+      "pmcid": "PMC8237720",
+      "usedIn": [
+        "candidate:irae"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "readingDepth": "2021 guideline: targeted mechanisms, differential assessment and endocrine-toxicity passages",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:34172516"
+    },
+    {
+      "pmid": "7432433",
+      "title": "Dose-response effect of adjuvant chemotherapy in breast cancer.",
+      "authors": "Bonadonna G, Valagussa P",
+      "year": "1981",
+      "doi": "10.1056/NEJM198101013040103",
+      "pmcid": null,
+      "usedIn": [
+        "candidate:dose-dense-chemotherapy"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:7432433"
+    },
+    {
+      "pmid": "14612912",
+      "title": "Mutations at amino-acid 482 in the ABCG2 gene affect substrate and antagonist specificity.",
+      "authors": "Robey RW, Honjo Y, Morisaki K, Nadjem TA, Runge S, Risbood M, Poruchynsky MS, Bates SE",
+      "year": "2003",
+      "doi": "10.1038/sj.bjc.6601370",
+      "pmcid": "PMC2394461",
+      "usedIn": [
+        "candidate:drug-efflux-pumps"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:14612912"
+    },
+    {
+      "pmid": "26949479",
+      "title": "Searching for Drug Synergy in Complex Dose-Response Landscapes Using an Interaction Potency Model.",
+      "authors": "Yadav B, Wennerberg K, Aittokallio T, Tang J",
+      "year": "2015",
+      "doi": "10.1016/j.csbj.2015.09.001",
+      "pmcid": "PMC4759128",
+      "usedIn": [
+        "candidate:backbone-add-on"
+      ],
+      "pubTypeList": [
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:26949479"
+    },
+    {
+      "pmid": "15829967",
+      "title": "Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy.",
+      "authors": "Farmer H, McCabe N, Lord CJ, Tutt AN, Johnson DA, Richardson TB, Santarosa M, Dillon KJ, Hickson I, Knights C, Martin NM, Jackson SP, Smith GC, Ashworth A",
+      "year": "2005",
+      "doi": "10.1038/nature03445",
+      "pmcid": null,
+      "usedIn": [
+        "candidate:synthetic-lethality"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:15829967"
+    },
+    {
+      "pmid": "19654294",
+      "title": "Functional restoration of BRCA2 protein by secondary BRCA2 mutations in BRCA2-mutated ovarian carcinoma.",
+      "authors": "Sakai W, Swisher EM, Jacquemont C, Chandramohan KV, Couch FJ, Langdon SP, Wurz K, Higgins J, Villegas E, Taniguchi T.",
+      "year": "2009",
+      "doi": "10.1158/0008-5472.can-09-1178",
+      "pmcid": "PMC2754824",
+      "usedIn": [
+        "candidate:synthetic-lethality"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "Targeted Sakai full-text methods and restoration/depletion results re-read from preserved capture",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:19654294"
+    },
+    {
+      "pmid": "17097564",
+      "title": "A common signaling cascade may underlie \"addiction\" to the Src, BCR-ABL, and EGF receptor oncogenes.",
+      "authors": "Sharma SV, Gajowniczek P, Way IP, Lee DY, Jiang J, Yuza Y, Classon M, Haber DA, Settleman J.",
+      "year": "2006",
+      "doi": "10.1016/j.ccr.2006.09.014",
+      "pmcid": "PMC2673136",
+      "usedIn": [
+        "candidate:synthetic-lethality"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:17097564"
+    },
+    {
+      "pmid": "38458657",
+      "title": "2023 MASCC and ESMO guideline update for the prevention of chemotherapy- and radiotherapy-induced nausea and vomiting.",
+      "authors": "Herrstedt J, Clark-Snow R, Ruhlmann CH, Molassiotis A, Olver I, Rapoport BL, Aapro M, Dennis K, Hesketh PJ, Navari RM, Schwartzberg L, Affronti ML, Garcia-Del-Barrio MA, Chan A, Celio L, Chow R, Fleury M, Gralla RJ, Giusti R, Jahn F, Iihara H, Maranzano E, Radhakrishnan V, Saito M, Sayegh P, Bosnjak S, Zhang L, Lee J, Ostwal V, Smit T, Zilic A, Jordan K, Scotté F, participants of the MASCC/ESMO Consensus Conference 2022. Electronic address: clinicalguidelines@esmo.org",
+      "year": "2024",
+      "doi": "10.1016/j.esmoop.2023.102195",
+      "pmcid": "PMC10937211",
+      "usedIn": [
+        "candidate:antiemetic-therapy"
+      ],
+      "pubTypeList": [
+        "Practice Guideline",
+        "Journal Article"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:38458657"
+    },
+    {
+      "pmid": "35830056",
+      "title": "Calculating the statistical limits of normal and Z-scores for pulmonary function tests.",
+      "authors": "Neder JA, Berton DC, O'Donnell DE.",
+      "year": "2022",
+      "doi": "10.36416/1806-3756/e20220182",
+      "pmcid": "PMC9262439",
+      "usedIn": [
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "other",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "identity only; abstract unavailable",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:35830056"
+    },
+    {
+      "pmid": "38244276",
+      "title": "Adjusting diffusing capacity for anemia in patients undergoing allogeneic HCT: a comparison of two methodologies.",
+      "authors": "Yadav H, Torghabeh MH, Hoskote SS, Pennington KM, Lim KG, Scanlon PD, Niven AS, Hogan WJ",
+      "year": "2024",
+      "doi": "10.1016/j.retram.2023.103432",
+      "pmcid": "PMC11102530",
+      "usedIn": [
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": [
+        "Journal Article",
+        "Comparative Study"
+      ],
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [
+        "HTTP Error 429: Too Many Requests"
+      ],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:38244276"
+    },
+    {
+      "pmid": "31613151",
+      "title": "Standardization of Spirometry 2019 Update. An Official American Thoracic Society and European Respiratory Society Technical Statement.",
+      "authors": "Graham BL, Steenbruggen I, Miller MR, Barjaktarevic IZ, Cooper BG, Hall GL, Hallstrand TS, Kaminsky DA, McCarthy K, McCormack MC, Oropez CE, Rosenfeld M, Stanojevic S, Swanney MP, Thompson BR.",
+      "year": "2019",
+      "doi": "10.1164/rccm.201908-1590st",
+      "pmcid": "PMC6794117",
+      "usedIn": [
+        "candidate:pulmonary-function-testing"
+      ],
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete raw abstract read",
+      "registryLimits": [],
+      "sourceRole": "Primary research, review, consensus or guidance as identified; publication type is not upgraded.",
+      "sourceId": "pmid:31613151"
+    },
+    {
+      "pmid": "31511426",
+      "title": "Off-target toxicity is a common mechanism of action of cancer drugs undergoing clinical trials.",
+      "doi": "10.1126/scitranslmed.aaw8412",
+      "pmcid": "PMC7717492",
+      "readingDepth": "complete raw abstract",
+      "captureSha256": "9476c9c6fe34a7d643f771bf9517a85fd06f700a82ffe534fd5d919eb176fb8e",
+      "sourceId": "pmid:31511426"
+    },
+    {
+      "pmid": "32060372",
+      "title": "An isothermal shift assay for proteome scale drug-target identification.",
+      "doi": "10.1038/s42003-020-0795-6",
+      "pmcid": "PMC7021718",
+      "readingDepth": "complete raw abstract; Ball also targeted primary PDF passages",
+      "captureSha256": "9476c9c6fe34a7d643f771bf9517a85fd06f700a82ffe534fd5d919eb176fb8e",
+      "sourceId": "pmid:32060372"
+    },
+    {
+      "pmid": "100883",
+      "title": "Hypophysial responses to continuous and intermittent delivery of hypopthalamic gonadotropin-releasing hormone.",
+      "doi": "10.1126/science.100883",
+      "pmcid": null,
+      "readingDepth": "complete raw abstract",
+      "captureSha256": "9476c9c6fe34a7d643f771bf9517a85fd06f700a82ffe534fd5d919eb176fb8e",
+      "sourceId": "pmid:100883"
+    },
+    {
+      "pmid": "11585759",
+      "title": "Transport of methotrexate (MTX) and folates by multidrug resistance protein (MRP) 3 and MRP1: effect of polyglutamylation on MTX transport.",
+      "doi": null,
+      "pmcid": null,
+      "readingDepth": "complete raw abstract",
+      "captureSha256": "b48387c5220fa191130e0a03c218a171c1d5f8ad4dfaa5f78ec0cfc6d601e0de",
+      "sourceId": "pmid:11585759"
+    },
+    {
+      "pmid": "29368311",
+      "title": "Impact of chemotherapy relative dose intensity on cause-specific and overall survival for stage I-III breast cancer: ER+/PR+, HER2- vs. triple-negative.",
+      "doi": "10.1007/s10549-017-4646-1",
+      "pmcid": "PMC6190707",
+      "readingDepth": "complete raw abstract",
+      "captureSha256": "0247245654a151d79ca155890aefcb5c2d9327ec395a6dd4f27754100b2a63ab",
+      "sourceId": "pmid:29368311"
+    },
+    {
+      "pmid": "12218177",
+      "title": "Bcrp1 gene expression is required for normal numbers of side population stem cells in mice, and confers relative protection to mitoxantrone in hematopoietic cells in vivo.",
+      "doi": "10.1073/pnas.192276999",
+      "pmcid": "PMC129446",
+      "readingDepth": "complete raw abstract",
+      "captureSha256": "d4d01a02f9c964b32ca9bd637592191d9bdb46b4afdf67639659a503ca78b6be",
+      "sourceId": "pmid:12218177"
+    },
+    {
+      "pmid": "29102564",
+      "doi": "10.1016/j.mce.2017.10.015",
+      "pmcid": "PMC5812824",
+      "title": "Gonadotropin regulation by pulsatile GnRH: signaling and gene expression",
+      "readingDepth": "complete raw abstract; review source, no whole-body reading claimed",
+      "captureSha256": "f0c158f0113ca8d1f2953f516f6c5f7787d80252598601e4e64690248dc74dd0",
+      "sourceId": "pmid:29102564"
+    },
+    {
+      "pmid": "22437870",
+      "doi": "10.1038/nrc3239",
+      "pmcid": "PMC4856023",
+      "title": "The blockade of immune checkpoints in cancer immunotherapy",
+      "readingDepth": "complete raw abstract; review source, no whole-body reading claimed",
+      "captureSha256": "459c1ae115e0c9af56bb419e8e6ee62745281817ad8caba90d3ae9a279080f59",
+      "sourceId": "pmid:22437870"
+    },
+    {
+      "pmid": "34575299",
+      "doi": "10.3390/jcm10184192",
+      "pmcid": "PMC8467797",
+      "title": "How to Protect Ovarian Function before and during Chemotherapy?",
+      "readingDepth": "abstract and targeted physiological or proposed-mechanism passages; review, not proof of a clinical mechanism",
+      "captureSha256": "d5a5477b49e22a085a8261817dd1334975ee9c6e66ee15adcb1b06cb2c754722",
+      "sourceId": "pmid:34575299"
+    }
+  ],
+  "officialDocuments": [
+    {
+      "url": "https://www.astctjournal.org/article/S2666-6367(26)00363-5/fulltext",
+      "error": "HTTP Error 403: Forbidden",
+      "readingDepth": "access failure, no content adopted",
+      "sourceId": "astct-2026"
+    },
+    {
+      "url": "https://www.thoracic.org/statements/resources/pft/DLCO.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "readingDepth": "access failure, no content adopted",
+      "sourceId": "ats-dlco-2017"
+    },
+    {
+      "url": "https://www.nature.com/articles/s42003-020-0795-6.pdf",
+      "status": 200,
+      "sha256": "0c33e6af3370c423df0f918daab842708f9e20a639eb99b705fe152352583896",
+      "bytes": 1247841,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "ball-2020"
+    },
+    {
+      "url": "https://www.fda.gov/media/164555/download",
+      "status": 200,
+      "sha256": "13b25858865d8b26db65f51cfa05eaaeed69094a7bc33099b75e5d16d248d0e3",
+      "bytes": 318797,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:dose-2024"
+    },
+    {
+      "url": "https://www.fda.gov/media/74346/download",
+      "status": 200,
+      "sha256": "053d6f6c1c98411848dd0fc4278d6d32b0250f043c88b505543c29b14a492dff",
+      "bytes": 147211,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:pk-label-2016"
+    },
+    {
+      "url": "https://www.fda.gov/media/155997/download",
+      "status": 200,
+      "sha256": "646abed7ce34b1c576300af698f6634f8c905c9b463ce040f7dfa3ea9d10e30c",
+      "bytes": 328416,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:adc-pk-2024"
+    },
+    {
+      "url": "https://www.fda.gov/media/129547/download",
+      "status": 200,
+      "sha256": "3178a5d1fc3e6cb538259d38a5c7c83035da79c317bb19972b8b1b5f044cb59c",
+      "bytes": 171528,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:radio-2019"
+    },
+    {
+      "url": "https://www.fda.gov/media/156896/download",
+      "status": 200,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "bytes": 528619,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:cart-2024"
+    },
+    {
+      "url": "https://www.fda.gov/media/113768/download",
+      "status": 200,
+      "sha256": "588cfb0815c2d1ab006c506b714fe857df01299a974c9aa37b5c39999a2838f3",
+      "bytes": 520289,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "fda:gene-followup-2020"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "status": 200,
+      "sha256": "6c1db6031d1acd207d674f2bcd802d28836cf3bf420c1b4f48638e7198a53569",
+      "bytes": 62733,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:targeted"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+      "status": 200,
+      "sha256": "6d7a4e9b19c1c1c9df4f50f11f0fc1d47a2fe0ee4fdd9f28f2f98a689713ef9f",
+      "bytes": 43273,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:infection"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/nausea/nausea-hp-pdq",
+      "status": 200,
+      "sha256": "f3b233d781f85dee7fcb2618e83cbb7cdc6ed300e274655353425840915df7c8",
+      "bytes": 360275,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:nausea-pdq"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/organ-inflammation",
+      "status": 200,
+      "sha256": "1b781ef4046839b97ef01c1db6c688fe3072b0838d1a7c6f692b06ebb3c11f1a",
+      "bytes": 52040,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:immune-inflammation"
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+      "status": 200,
+      "sha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe",
+      "bytes": 52053,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:tcell-transfer"
+    },
+    {
+      "url": "https://dctd.cancer.gov/research/ctep-trials/for-sites/adverse-events",
+      "status": 200,
+      "sha256": "a07835d761c217717960a56fabcf2e82a5a194207afad64d9c2e6c9664508e25",
+      "bytes": 53199,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nci:adverse-events"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/mesh/2023303",
+      "status": 200,
+      "sha256": "4aceb58944403bb901d1601c7c9fbff271cb9fc30590f7e4a9c0ca4e97e99b1b",
+      "bytes": 48439,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "nlm:therapeutic-index"
+    },
+    {
+      "url": "https://medlineplus.gov/ency/article/003854.htm",
+      "status": 200,
+      "sha256": "ae0f6683579a463ac03c96703ad9fbb1ecc3d02d1fe1d081c3e2b0e57e4e64ba",
+      "bytes": 30521,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "medline:dlco"
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/lung-function-tests/",
+      "status": 200,
+      "sha256": "bb9a56e99a5f00a46c1a83be5000805086fcb8a4adfb99868f85c462b81aecef",
+      "bytes": 42870,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "medline:lung"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/57a597d2-03f0-472e-b148-016d7169169d.xml",
+      "status": 200,
+      "sha256": "203ed69f797ee24717646a67c28a6546db63f0a3aecbfffa758fe957388da51d",
+      "bytes": 356654,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:trodelvy"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7e67e73e-ddf4-4e4d-8b50-09d7514910b6.xml",
+      "status": 200,
+      "sha256": "2eed5d3cb0ea867219aa50af325a3bc197de6daddf983f57f920ccab6fe34049",
+      "bytes": 537729,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:enhertu"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2950227c-6230-4ca4-a135-46e44d9424a0.xml",
+      "status": 200,
+      "sha256": "ce2e185bc8f496e66f660eb78cdc1b0e991bc3ed7ac006b3dccdb6ae95cb2e3e",
+      "bytes": 215260,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:datroway"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/23f3c1f4-0fc8-4804-a9e3-04cf25dd302e.xml",
+      "status": 200,
+      "sha256": "032a562966e0bec01a6d545cbd9d9444e034ee40eda305ace445b368a295d7ab",
+      "bytes": 263039,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:kadcyla"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3904f8dd-1aef-3490-e48f-bd55f32ed67f.xml",
+      "status": 200,
+      "sha256": "fc21c1803b4ac4821ba410f460fdbea8325a31157b8b346fe1d57d08147ae615",
+      "bytes": 621583,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:adcetris"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/c9fe3f32-4219-466e-acb9-3f609b4f4df1.xml",
+      "status": 200,
+      "sha256": "4755bdfe0499f9428e99c00aa99073173c66bf9a407835e8e990ecf216ae65a9",
+      "bytes": 268332,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:tivdak"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/00c424b5-6ccd-48ab-9e88-1986451120e2.xml",
+      "status": 200,
+      "sha256": "766c6100a7f7e5b1cf7fe79441fcd431685bfc64572db9d95ddc10bf0481ff0f",
+      "bytes": 216204,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:elahere"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/aef7c34c-fef8-407c-99c0-a68aded53c60.xml",
+      "status": 200,
+      "sha256": "f1735672b2245b0157cd567268ca64a575bc0fe9ccd1d17281ad9142b220e142",
+      "bytes": 210279,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:blenrep"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9333c79b-d487-4538-a9f0-71b91a02b287.xml",
+      "status": 200,
+      "sha256": "d9428c1af7f2c67836ce8112ed211a7669f3f4495d6d294c283ba3becab8b05e",
+      "bytes": 1651330,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:keytruda"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/97cc73cc-b5b7-458a-a933-77b00523e193.xml",
+      "status": 200,
+      "sha256": "1d7db75284742568cf808ed4f9716b5caec76f42cc87b9890a3a166f168ca0a4",
+      "bytes": 285073,
+      "readingDepth": "targeted load-bearing sections, not whole-document read",
+      "sourceId": "label:filgrastim"
+    },
+    {
+      "additionalReceipt": "abecma-label-receipt.json",
+      "metadata": {
+        "entry": {
+          "spl_version": 20,
+          "published_date": "Aug 03, 2026",
+          "title": "ABECMA (IDECABTAGENE VICLEUCEL) SUSPENSION [CELGENE CORPORATION]",
+          "setid": "b90c1fe7-f5cc-464e-958a-af36e9c26d7c"
+        },
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b90c1fe7-f5cc-464e-958a-af36e9c26d7c.xml",
+        "bytes": 338501,
+        "sha256": "c06486cb8eeeec2b4ad42e2be16b56f0df9b97df4de6aa637ac9aa27eed48a28"
+      },
+      "readingDepth": "targeted relevant label or standard sections",
+      "sourceId": "label:abecma"
+    },
+    {
+      "additionalReceipt": "goserelin-label-receipt.json",
+      "metadata": {
+        "searchEntry": {
+          "spl_version": 9,
+          "published_date": "Mar 26, 2026",
+          "title": "ZOLADEX (GOSERELIN) IMPLANT [TERSERA THERAPEUTICS LLC]",
+          "setid": "294b168b-6e5f-4db9-bf70-d599271458b3"
+        },
+        "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/294b168b-6e5f-4db9-bf70-d599271458b3.xml",
+        "sha256": "7be6838f27830003c73a5547633d21b97aed094cd0c988f36b8f2f9710b62599",
+        "bytes": 172956
+      },
+      "readingDepth": "targeted relevant label or standard sections",
+      "sourceId": "label:goserelin"
+    },
+    {
+      "additionalReceipt": "ats-dlco-2017-society-copy-receipt.json",
+      "metadata": {
+        "url": "https://www.sogapar.info/wp-content/uploads/2016/12/5.-Normativa-difusi%C3%B3n-ATS-2017.pdf",
+        "bytes": 718671,
+        "sha256": "f191f90a593905628641d141c522400e1f44b078500a054409276b62e9a8716e",
+        "sourceType": "primary typeset report hosted by regional respiratory society; not claimed byte-identical to publisher",
+        "readingDepth": "unread-until-targeted-review"
+      },
+      "readingDepth": "targeted relevant label or standard sections"
+    },
+    {
+      "name": "nci-fertility-women",
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/fertility-women",
+      "status": 200,
+      "bytes": 85854,
+      "sha256": "19dbef69caea72d7c0ce73ed86d45c9a59bd0a451c88c736cb1252b6da0dce90",
+      "textSha256": "549ccdd5d2e0b6e95278d8748e02844697f136b8901f4a97a1609d14f4b3d11e",
+      "readingDepth": "targeted relevant paragraphs; no whole-document claim",
+      "sourceId": "nci:fertility-women"
+    },
+    {
+      "name": "nci-menopause",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/hormones/mht-fact-sheet",
+      "status": 200,
+      "bytes": 77703,
+      "sha256": "ff2849d4af676a280942fcf81a80ff4bfe1eabc03cc37e5f2b199e2ce7463b56",
+      "textSha256": "0015f0af5123c4fdf63fb2846af27e4f36758e1ddde1327667860c190d767375",
+      "readingDepth": "targeted relevant paragraphs; no whole-document claim"
+    },
+    {
+      "name": "ovarian-mechanism-review",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8467797&retmode=xml&tool=onco-education-audit",
+      "status": 200,
+      "bytes": 236772,
+      "sha256": "d5a5477b49e22a085a8261817dd1334975ee9c6e66ee15adcb1b06cb2c754722",
+      "identity": {
+        "pmcid": "PMC8467797",
+        "pmcid-ver": "PMC8467797.1",
+        "pmcaid": "8467797",
+        "pmcaiid": "8467797",
+        "pmid": "34575299",
+        "doi": "10.3390/jcm10184192",
+        "publisher-id": "jcm-10-04192"
+      },
+      "title": "How to Protect Ovarian Function before and during Chemotherapy?",
+      "textSha256": "0639cd94bd75d8ad362f70931ab9a3492899748f350173b32c0c98138352e020",
+      "readingDepth": "targeted relevant paragraphs; no whole-document claim"
+    }
+  ],
+  "wholePaperReadsClaimed": 0,
+  "registryCaveats": "Twelve Crossref rate-limit responses on the initial 60 records remain explicit. NCBI and available Europe PMC records provide identity; a rate-limit response is not an unresolved-paper finding. Two reference-list DOI parser errors were corrected before canonical use.",
+  "accessGaps": [
+    "Detailed ASTCT 2026 full text",
+    "Greco 1995 body and abstract",
+    "Typeset ERS/ATS 2022 version"
+  ],
+  "elicit": "No callable Elicit tool; frozen discovery retained separately. No invented question, report or API output.",
+  "citationIdentityIsClaimVerification": false,
+  "sourceIdentifierJoin": {
+    "referencedSourceIds": 91,
+    "unresolved": [],
+    "scope": "Each proof source identifier resolves to its explicit publication or official-document card. Identity and depth remain distinct from entailment."
+  }
+}

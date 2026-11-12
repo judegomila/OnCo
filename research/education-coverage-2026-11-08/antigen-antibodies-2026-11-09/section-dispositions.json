@@ -1,0 +1,4304 @@
+[
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "a1115262099b318786ecd97c91f668dfe1629baedb606c8ba53215c7e8228956",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3a64ad77528935b1dea27c6288d5f7403f373eef0cc595e78d8d33c78d671f06",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "e5c6f2ba79e91f2fb2ddefdc7dfbf35ae3faa3a62c323fca1f50ad7162cb4bc2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "e8366a5be3a926f242f7bd539ee49d53d95fce5eea27c10c38a8a0fdc176eb8d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "30a3fc278310451e8f2a223b8e269f39c233b4c3f679ea5247bf0c6fb28d4a50",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "edb21720c519230275cc7b9ee25a7d5187bc724cb4818a333c590858d2c3472d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "2a20dd6f7e75e59b1de4a189f4a2400270b95f997cc3e37f6649efa65b7407e8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b9abe1ee5ba872b18400f2d603bffa565f21b20eaf25cf8e388d796de088f943",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "5dbdf2c4f5abb6d6cc7889f540d5cc14f715c81f3ad6ac67af5e75e61e94f4b2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "9f2cdf631b86c80436718b17b7cbf5a6798ab07fef9811b7e09863508de562a0",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "f82b372d8d86af1a2edf56745425ae603813f3ea67502f189c28a3ac1c18cc9d",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "dba2cc55a23a86287c7447bd329e10442a5ae61ab816bc42c1e998aff9a0af88",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cdb3c3c114302d7b56cf4c34f9d0043f778a0789aa674c08d3ed43742ce1886f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "2494bd15a585153f1bf0082f6d43c01f85332ec05c3eb3db75d2cc3f01113970",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d06de5a7c0f3b74c08c250d20dd30dd2fd321779ebffc22fdfab5d561bcf8152",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "4d62dc005558bbe6e6d345dbdc5cdaf9b3af3769c8ea55b5df15f2be9d1b1362",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "591d1566dc9fe55d8029e79fb4cc7091529629b38b472148f3ef33760cdd26d3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "0090cb038d21b86be8f74405a5bfbbef596f53a840c90e6ceb3d3134667b0bd3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "75176a108db3c6d9b82dc61293b11c70cd126f0c7fca10b61307b171c94a45d8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "c951dee24af77f422bb0fe715e1dd8d4b413b804aa79e7700ac981781c6b266f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "bc310eba9010809d1e382a2a6436cc20ae6d5f6488b792087d3c00fc3de60e87",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "6d609afa7a3ffd5143c9dbbd40c11278bde70ef84c164d60c17887dbfdd312c9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "43f3e88619923a1cbb56bbdb90f1f2925b00a9bb4029ca66aed29157ad104ffc",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b191a4cb630f02ee71f248d7436079e089abc8dac42ef86db570eec3044cbad9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7796969607da1686d0eefce81462684fd7ad304d95db7c10d1b8b4b5f796831d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "6286bfd73ef388aa5434abb32f7fa7666a45517201f85e583eadd371b511240e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "742158ff833008dfb8ec4ae4ac39ef247f0a64488be1265339a8de954bde1e83",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "9c3a438390781bee3eee6bb178cf944e652ba07558ee7a8bce1c396a3884e83a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bb79ff916b16c94a93a6c00e4d8811afe16f094d664c60007b6feeeec07edc6d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "dee6f5c855c398f13191a90cc8debe94429cb8bbe3ef1cc21edc993f5e6df95d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "6cd03186c38d1c67bdac6846aea51a1901f728392c9098225760af321d04224b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "1eedff675d9eba5afca0b51ca8c8b2a908d946c96f8d172d8521091ff76c9920",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "660aab96ca8acfdc74842fe652f49b8349ab171d3e8e00d5573f323b70e1f132",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3433486f7334e3a1c12430d635d2ca74f127ec0f523bd1bad02fbf222c37ba42",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "5d42c9305d6311c9f748bed1750098f671c99a27b6ff279672d0b68d4fe0b84b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "d11e943e23f0882672d5d8f76d2ae83ebe737c3a82d0722c68cb9317bdce4af4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "abee6e1fb8059e340c5a70d9d2212df56a5bc54af6a58a95b7a0875a89e888a6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "8c938f0f523d4c0d471f1cee080224b1b9ef61ce54e2d245e90afe00405e808c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0f4024d94d3e78b3a97008aad0a45059a2ba040707067467d8a367e7aead7871",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "07b2265b739d0f8bef9cc24d1a042a7349ce3c92cc0efdaba278be8416e0a143",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "8f284c0c36f216a91f6d3e6ea0f37c5fabad651263e4fc1565fc569ca06b67ae",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "0817d104a2c5e744a3b21ac81aea9d51c5cd6ec498dd43b7e6134c2ae00d9679",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "99968db5ebab050587f07f16c210411d362c90d95f7eb952511590994392ae3b",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "a055e6a3c355f00c47f763fdc6ab9c3e3f4f948e7f00376d720edfe0e089c542",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2ef62fb7b6a7bdb87f6aa7f611402c2cf3d71462d147121bb6009822b2e618a6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "8c2c12d5f5831c396bde1d35d8eb45369a15b43c3aafd6a884fe60f2127b9b7e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "daf96101ff66fed92b4332c6660a96b36708dffb546ea59b5b732e9652cb2a9b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "0423a6d64d9b1ff56775f18bf249fa934714e80c53df3c668b5ec94d37fd8602",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "399716a8c370877760a5d8c720ce1f0ddb4ace7621a97621cebfdd24ba2606ec",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "9e28a9dbce6cc325bd2b9953acea73cf55dee464b9a974593f777ef18e31ae8d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "4d24b11ec48e3dade45f966611b17f6d345fc4b7ccab04076153ad22f118625f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "5d4d0a7273ca349b17707d4ef785d0a46d8106a2e5fcf8c61a817b765791800d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "812fd550551065e66bc6455fa32a534b5bdd2cff04ceae27fc96489a44fe9548",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "7052438197c889e9eb5d1ae4b5c25c3f2c6db2774ad61ee901e566486d5d5b9f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "15f84a12ada58c496123c5201dc4f377f0c015de446b2f0fc54020cc2cc429f9",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b1758301222d2f1216253663177ef5cea330870cbe557e0310ece593ee995e4e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cb65242d2b5abd20517c14844319e9a4dea65e7f0dbfc04ab1794ee9651720e9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "02fb31f528ada48e65742c32f258b04d25b854199988ead93cfad4fd4f415b1e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "e96afb0efaf028630aef5c28974f981893d77ff0f45fb0282579921471594af3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "f0f4a2d8ed9386821c77b7f97af859996cb95d232feb46fb4c16155aa8c18cb7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "9584b4bc11e3d59e61aab2d3a02855034d1d2540d8b56ef040eb842b77b6f68e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "67220fa28e9289278e6b08e2f239f45732d1c451f0d71b5abfba8a0999d4fef4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "6c9c5bd5caec26b2562b40943d056595653b65e849ea79220c7b965a0a59f3ad",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "ef9e1a4b6da1d3c2c11cc78417d3cb86ff964311ad4d4560411639f85fe807f9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "4998090bf76272c6353acd839d3567a47e1e4b8643b9e0b33fd539a17db18ae8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "9de48376fc285ff3254cf8770923ff232777fd5835f8c5925abe25e0a249405e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "1514644332d91cbf83b87592b3301c82c33c31011c013efeacae99d11bb49089",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "b69e4903ca2c1ff4ff4d0b6334b36e2c26eef1db754f773e16511b27122e5044",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "d1c400fea3b0fa4b3d2e4f04820cda3188a3455fc093abc0a115401c439f823f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "e2716c06d52e9d28b690870caf530ef3450157c81bba0acfbbf4c81ad282c787",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "408bf7491e68ca634b6ed507e4ba741c5fedd433239ff847a56f1fec9f0948cf",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b8278f60235125eef07ace5ae39a7d2bc6fc9bc15b622147452756ded4c78c58",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "63592e1fee59745fcf4df4bf1aaebe5fec131aedba98b80770d339885030f27c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "1704bbad18c7efbf4b39642993061d89484dea21500ef210a5c333aed8c44530",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "9c2dab5cc0693be124ec560f1560108bf6e7dba5cf28e4d88e2622123a54c1da",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7c73a566ff20df9a2db86a03b970cffd239c3fd0f0d3976ff5aca5efc29b2786",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "157a732358d664f833bd11abc2c0290371268b5ba01a943423edb645fe2e5a89",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "911ecce94da9a6d4d32d4cc9ee43ce0806e49cc10978fb7252405761fb5663d1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "72dc51f394e9c8cf28d26c13e69abaa4ee6f5c1c8f05bd489c0b9a8e41987687",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "09ed6cc437522e5fc6b7e4bc21fb5ba2bc5d0795bbb7d3c0b0491e5668ece87f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "9b5de0a1f30de6703be4ebe98d2c7fd82a342796988533ec27a9f4e93f313ede",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "92ca253465c022ff46f22c425d58f9779b5d8d7ef8e73f997d70139b0bd4ab59",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f2f4fe0a58e71d0fc1796ea18ad4d202b0a49413b81329572ad6e431af76f291",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "9380ac9cb915065756b4f3d133a96e907ea7befd8225bd2233265252604f734e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "12c79d36d5d5f5e00fefd70d8e2f491eca1d46a47108d646a560c0670559b286",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "154285bde2f5447385ab324acce945b61f72114580a0923bb62a7263e65dd2a7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "3365c77505bf2a6332abbc9426dab814f2865c98659c7ffcb008f5ab7cd6bdcd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "c573dca7ec1af7a6ac2c2e27728c694d2641e70d16b9ff7088a55002af33a928",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "1f0321f1f5bae00f73d3aaaf40fe58ae77d8e461ecb3f5aaf31cd31f283b331b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "62cfa7c53648cc825e025f58e74fc91f2ebbb26c4a00d9da9b69617d22a1794c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "896af1d078ef2305fdedce845225ead9638db67f7bbfef92aad3f01ca018184b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "f021110540d51a62cd61ea2695baef465a4dd4483fbb063f31d790ec1fb417a3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "3b8ce0cf25b45de88ff4ee0af26b9242752e95fa9c1a991b288e01aa7950b0c3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "c174fc4bae52cd6178fa1ca609e1b57279b3af46600a2b0dcf740961b61284a4",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "91ccee25556787f3911526f849f54c604a53a2f2f3d6aba21383a53e741bf0bf",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2a185fd68c2dbb985e11bd88b0fe1eeff10506620296bea37de17e46577dc68a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "f10b9ad3190f71a78f75727660e59c5b8f67bf59996762b53870ee0f09af22ed",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "additional-teaching",
+        "sha256": "db42a254d1ffc7d23c0d501806337e0c6e2d992d249a9b40b64f64a6eac67c2c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "48099a4e6308bb7b16c65f75c73210f31555f0a847ac5ff3a13e3241dcf6a2fc",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d5bf3d5371332dd36791d001957d82e9a4c5913630317e1bbc9ed1984ae9a80b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "ca52cf43425a327f8319a0c229c49838a8dfd7210ed39e35b28017f144bf6f9f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "e292446ec3b84d97e9b59766b4cfcf15b15b2588847628ac82a8b11d13f0ca9a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "additional-teaching",
+        "sha256": "4b30ca6cfc30f64bd15366dfe694091c732b20a92276f300675526c8a7abb09e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "bd1d83e9944db7e49ce6a671ef7586a75ed9f744d0b8be634d1cb20eb1ad328b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "348c9f3072afafc378d7a323708f5e0472a092376ac6ba732f7686613e79cf75",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "0d2e222b45737aa9b9a17c92d5c2453eda71a74a23c4625bcabee802b4d5841a",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "69a33ed358c4fb73c6d137b6702e873a90823f4fbdf8fb68eaffa8c9aefe3c61",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "0b6eb5b7678eadde509001db1bc7cda5e2442d7dbdfb5114f8b4236d91c9b954",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "aebbbe06f9b926d6915c900d882f0688b6696563eae7ede35f3305c7779dee2c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "78d53edcf3080767839d2cd48c884734790d29b151d192e5a664d398abd1aa9a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "92b1781f2d92f4b865ff976db0d5cafb029992c5491913fbd4c6968ca99aeba2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "60417d7c003e88df89f1b1c87b6340bdbf035aef9a5c92a8d2f89818482a69b9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4b26b2fd0765a238f9139fedd51488933f572ab92e5a139c7a4674d63a1551fb",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "b048174ad68c70a3d441b7583321f708dc590e49c587e7d0302e169400298755",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "a21b706b83327429d80f40bf24119e701591c4a209839aace86cf8e3ff52242b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "2ff86a29b6309eb0d3edc460e0d95d4ad7dae12b198e55ff3fa65bdafe41d1c2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "78765c2fdeadf0ac4ef2fa7488c62ff8f9ed17dbc4e89a5e49b2d256c4613b7e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "750752fd7581acab83c32c2014261494ae01d257eed8eebb4a6bbd78e4519145",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "e9f17efeaa6e9bca3676cd12e60b91791b43174c499e05d2c37052606f86eabb",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "c0eb07d2b5e4d9548ceaf02d4aefbc9454393fe4423d5571d721d21c7b04ce83",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "6a8f77e6031ea2555063b398d1ada4652bb1a3f9fb13e3a5d3e7e725d038e528",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a496c92b18e4a91e8b9bc05b886399be9e9f4dae7bbb3a665ff466fa18d49855",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bf697ac4a4f192977675056eaffbbedd869c3b7e0ce83d52ac78c29a902c87bd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "ac66d9ceea5c473c691d41df853e3da6182647b2a4664cd0b7ef9c2d4ff0749d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "07517e51ec4efe75d87ff5742ef9a4d7585918436302bb1c6f4476965aac9d10",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "85984c214b4a88b67b7dcaae72f6e0b085ab476f80e9bc6b06b5ea2748b3fbfb",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "3cf59ebf2e9cffec08e4b32a7f1bb740d2a3c4e57cd82014cc6f92476d9ec540",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "1a464f305c7aab4ca65b879be44128389702ebcd8703240404384e2dd71bfacc",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "d761edeeb9569fe7312bf357609387a4811945896bd0cabd9a1908aaa063438f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "practice-or-worked-example",
+        "sha256": "e0bbca37741e3e6820da9200046675ad45211ef533d00561af177b57aa991f59",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "170d8ce7ba594777b57307b9313734fc88f40faf083c856cc1579d74651fe5af",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "d5133a946a0a04ff6c03f671770d527eecc70a4d1b76b3ed78305cea3340b9fe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "02b4414e35e0f26b5bbc51096bf9a44a8daa81a6f2e35b6b1cfc3f155c8e7098",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "e9c9c3f257d5ed60d17d8d7bd131f1b7b8c6b5c082a1bc91fafd4ca99ed80fa6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1126a50e4665f4437484a329dd5486454af1db9355da1282db667aed81018df0",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "d9717a2d993d3b3336f51f66b6e471dc584fb5c112f0e8e05bbdecf3bb77a5e7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7334f48ea2c7d4504eeec3121a8d02f76671b60c72843469efd8474174eaa320",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "1c5cdde8c76461e4d090b73da32808599bfecc134e206f24cd1dd156b6af3f19",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "084eb22a617f19285eb89b18a2363babed71746d73bb9ce1af4139dbe2e849ce",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "1c1d4f7e3d1cfedd7fcfb865694e789652bdd8cded18f9c777b8f344c48ebf0b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "337137d4ea5a0fe4803469862d9e70bd13afaac579905c1b9db51bdd2e278079",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "cd60039608a4d24ba531f1cbea16e773d6beadbaecaeca9e2d39d55aa965208d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "d173742eb048a355b98dd327964b338d74bceaf57d0b0ede125cb9d643ef2801",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "d7de8f2a9d778ddd7f6065d702724a2bb3814d527efd95f1bbd2eb96434866b5",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "b169579445fe798c368d60633e19b10c859105972c3ae3ab486eea09b0479dfd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "52a6d70c081bc45851790a71f4e42f4a64aa81370a7479c17a8c510ea45fe4ab",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "273debcc0602203f2ecd7f9c9abc7e4a3f5fecac9c928b944d04bf1f399b5ed4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f2478914955a534ab444f1475186fa1abce7b71a708b8685f1b5b859cc4094c3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "8ae71f0c031160044ec718302996a9c7b41a3306480152b2ad3880a04b10a6f5",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "11ec7f9aab9aac219fbc171740906fb53433ba4d90688370fec5701608ac34b4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "52ce9af24d2be29c8bd51e1098c03923d960c9fb9852db00f8612d0e1c72430d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "96cd8d02ff45e621a7ad52e18c955e72cf63341a770507c58fe0c9709abafe1b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "6fb04afbb49851583cd9cbd012b679d62b2a305412973c4cbb8550de93a933fa",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "b6bbaa50a572346aa467f77057e19f0111a435dd72c20bde44768a57b0101bb2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "1581e926071077dd16ac40fe462bac0c9bbeea059a5ca33c14e19001f813b0b3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "cc0b1e832173bfc2ce2192bde947ed16e58490793ca7e51b9145d954d1f6216c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "6f0319372b26c17b4f66efdded774a6d8e5d8a64c8af370d9c23fbd91e752c82",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "ea773f3ee65c36b1803653e7bb1f1dcbf5bab5eb48aabc9b3f96ab569c77d8a4",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b926c3dc536f877c8f51f4893509e9200717a25bed8115525a24bb958920b652",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "99990500b9514ff16d052fc8e6694fdbf4fe94cc3e34e75d13c27870c6211ec4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a0c1a3c1025ffd4d6fd9070a5459dcead49e00299ed7b37f71f4e7afd23d4e27",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "90103003c4d05ea69c9b7980a783fc6df35ee2c8cb50473e346758b3f0f1ef1c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "ad678445f4c0746cf701b8630c0ac95bb2401b837083da336540f49cf8e82395",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "27b37f75ceca3bb816d3bc580fccf673aa5246f349e59e9a62e519cd05926d0a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "42fb560e62fe98f919e6345b3e48e0d6aa473c4bbc7ccd8647446f0cf966bd08",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "7b9ed63ddc484dcb7cce1b5c9c92d029896a068b4b3536cb64e8cb4811a03bfe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6eacf8ba29f2ed0b350c0a4d00d56f58f38b83e8e55c9a861152170e70c49bbe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "14dc6d7916e86bb6a94c5eee130acbdfc5515636cd067a9760e898f731c9fdca",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "cacab81a92d7657889bcf657bf5480bf805f29936263846e501995d6cb6ddf11",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "f7ed15b0a3078e7d74146f25c5d0704b9482633f16771f0e0f54f6df0b91ab01",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "408a45089f3c8d32b2b0fd2456208264f95a93f0933f84fb92b37fa2fb1bbb2b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1a12e3ca36957748e8cb160ddd40af1b8bb83ac1855e0a1e0e031559037c10e1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "73843c08be43e530c4a2ef42a89c7483cf8229d1368edad87799aabe3ef27c10",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "23b0d952024ce25f329242078563b310a91640953ef5c1e21376399d060ce4d8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "05218ec05899db2155babe698ca46fe486df3a0a442476e0d51fb07ff7c7457a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "a651137ccf0eeb1c02e5065c1c57b253a34c1d00a496ae78846f174f45d264d2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0ad7183ae859363729beed42064627ce3e27ab96811c2322fb45795de55a6f7f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "e0bc142081d07ccf03a15b0909014e1a95ef44d70f6cf52f4afe49b2061b934a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "e8d96d5dad2dd3bd92bc1f3028d993343ea560dfac9618e554e1bc0a2409ac49",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "08c6971a71629112dc48bcfbadde2e1a6f896b670c62f576467f33e406efbec1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "1620062a5234395d48a6b805bfa1009d0673956fc0b83c0f6368d8f406387039",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "c59ed5845fbe5b4fc067ab345b7cca6f504603c3ea776e2ef942540ade2c4f4d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceSha256": "b9b457204fe53053ea8561380bb26179978c183bea5fab4fc229d705a343c1ef",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "342f5e7373aceeec65c4f9cd3124d6a88853fbe0dc63ec5a5e05de87c8628a2b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cb05acc4b85a6a5784e1a1163589f5aba9e7d9c0fb0f94ef1e9e09cbd05ac752",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "cbf3ad4b11069dfe9ac891000865e75b5e7bb442c287bd18ad5d7c6b6901b30c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "e425b7f1f23cebba49289f3db999f16f53a44e94d88978a15dc2667bac08c1a2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "a199ea43a2887ed462830e0fcd23b8f927a7695668277d86e0c8830f20423c31",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "70b18cc13f1d49135bd1279b7582ce47d65ca71c59b4289dcaa2d562b6dba189",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "06a13c3936fea63c1e6c159755df6670ae6e40980fcf3c6ca0901df3a36a892d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "bd6627cef39d84fca4a45b4c48392ac5ad2c4ccdab5afbc5c55a14610daa5447",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "cd869d50dca80dcd14ad32bafd7b5594b08a259fae6c1a7706d45063759d80e2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "823b85d7b54226e3ed45ab9be80f2eb7528b137d59db33393f5b2acf953734b9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "ec40072979357bf1d1bbdb70cd7866e4a12bdb19dba3609c69e3386595ef576b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "1dbc344802579513846fcd5778511c15227491b81eadba61ce25c0336632eb14",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/adcc-adcp-cdc.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "d232b6f8c9c0b2a10deb9a2a94337372523310ff6bd3d4e8a0d5a012cd7064b6",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3a64ad77528935b1dea27c6288d5f7403f373eef0cc595e78d8d33c78d671f06",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "e5c6f2ba79e91f2fb2ddefdc7dfbf35ae3faa3a62c323fca1f50ad7162cb4bc2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "e8366a5be3a926f242f7bd539ee49d53d95fce5eea27c10c38a8a0fdc176eb8d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "30a3fc278310451e8f2a223b8e269f39c233b4c3f679ea5247bf0c6fb28d4a50",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "edb21720c519230275cc7b9ee25a7d5187bc724cb4818a333c590858d2c3472d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "2a20dd6f7e75e59b1de4a189f4a2400270b95f997cc3e37f6649efa65b7407e8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b9abe1ee5ba872b18400f2d603bffa565f21b20eaf25cf8e388d796de088f943",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "5dbdf2c4f5abb6d6cc7889f540d5cc14f715c81f3ad6ac67af5e75e61e94f4b2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "9f2cdf631b86c80436718b17b7cbf5a6798ab07fef9811b7e09863508de562a0",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/antibody-structure.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "678a4b50f6ea2a7d4451cd937d480f26e1963234ee56b9e5bc4501c474b87fdd",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "dba2cc55a23a86287c7447bd329e10442a5ae61ab816bc42c1e998aff9a0af88",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cdb3c3c114302d7b56cf4c34f9d0043f778a0789aa674c08d3ed43742ce1886f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "2494bd15a585153f1bf0082f6d43c01f85332ec05c3eb3db75d2cc3f01113970",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d06de5a7c0f3b74c08c250d20dd30dd2fd321779ebffc22fdfab5d561bcf8152",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "4d62dc005558bbe6e6d345dbdc5cdaf9b3af3769c8ea55b5df15f2be9d1b1362",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "591d1566dc9fe55d8029e79fb4cc7091529629b38b472148f3ef33760cdd26d3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "0090cb038d21b86be8f74405a5bfbbef596f53a840c90e6ceb3d3134667b0bd3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "75176a108db3c6d9b82dc61293b11c70cd126f0c7fca10b61307b171c94a45d8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "c951dee24af77f422bb0fe715e1dd8d4b413b804aa79e7700ac981781c6b266f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "bc310eba9010809d1e382a2a6436cc20ae6d5f6488b792087d3c00fc3de60e87",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "6d609afa7a3ffd5143c9dbbd40c11278bde70ef84c164d60c17887dbfdd312c9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R07",
+          "R08",
+          "R09",
+          "R10"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/b-cells-and-plasma-cells.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "9c91c13d7599b2b9dbdf7b69efef3cf1b875dfdc08e655b5e3e226f0b18ad04f",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b191a4cb630f02ee71f248d7436079e089abc8dac42ef86db570eec3044cbad9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "7796969607da1686d0eefce81462684fd7ad304d95db7c10d1b8b4b5f796831d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "6286bfd73ef388aa5434abb32f7fa7666a45517201f85e583eadd371b511240e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "742158ff833008dfb8ec4ae4ac39ef247f0a64488be1265339a8de954bde1e83",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "9c3a438390781bee3eee6bb178cf944e652ba07558ee7a8bce1c396a3884e83a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bb79ff916b16c94a93a6c00e4d8811afe16f094d664c60007b6feeeec07edc6d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "dee6f5c855c398f13191a90cc8debe94429cb8bbe3ef1cc21edc993f5e6df95d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "6cd03186c38d1c67bdac6846aea51a1901f728392c9098225760af321d04224b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "1eedff675d9eba5afca0b51ca8c8b2a908d946c96f8d172d8521091ff76c9920",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R11",
+          "R12",
+          "R13",
+          "R14",
+          "R14b"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/isotypes-and-fc-silencing.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "660aab96ca8acfdc74842fe652f49b8349ab171d3e8e00d5573f323b70e1f132",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "3433486f7334e3a1c12430d635d2ca74f127ec0f523bd1bad02fbf222c37ba42",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "5d42c9305d6311c9f748bed1750098f671c99a27b6ff279672d0b68d4fe0b84b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "d11e943e23f0882672d5d8f76d2ae83ebe737c3a82d0722c68cb9317bdce4af4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "abee6e1fb8059e340c5a70d9d2212df56a5bc54af6a58a95b7a0875a89e888a6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "8c938f0f523d4c0d471f1cee080224b1b9ef61ce54e2d245e90afe00405e808c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0f4024d94d3e78b3a97008aad0a45059a2ba040707067467d8a367e7aead7871",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "07b2265b739d0f8bef9cc24d1a042a7349ce3c92cc0efdaba278be8416e0a143",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "8f284c0c36f216a91f6d3e6ea0f37c5fabad651263e4fc1565fc569ca06b67ae",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "source-scope",
+        "sha256": "0817d104a2c5e744a3b21ac81aea9d51c5cd6ec498dd43b7e6134c2ae00d9679",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R15",
+          "R16",
+          "R17",
+          "R18"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "5d02bfa3f8abf5916a0fe22f2c8149a60a2db0846099feccbd0d4b11cc7a3694",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "a055e6a3c355f00c47f763fdc6ab9c3e3f4f948e7f00376d720edfe0e089c542",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2ef62fb7b6a7bdb87f6aa7f611402c2cf3d71462d147121bb6009822b2e618a6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "8c2c12d5f5831c396bde1d35d8eb45369a15b43c3aafd6a884fe60f2127b9b7e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "daf96101ff66fed92b4332c6660a96b36708dffb546ea59b5b732e9652cb2a9b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "0423a6d64d9b1ff56775f18bf249fa934714e80c53df3c668b5ec94d37fd8602",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "additional-teaching",
+        "sha256": "399716a8c370877760a5d8c720ce1f0ddb4ace7621a97621cebfdd24ba2606ec",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "9e28a9dbce6cc325bd2b9953acea73cf55dee464b9a974593f777ef18e31ae8d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "4d24b11ec48e3dade45f966611b17f6d345fc4b7ccab04076153ad22f118625f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "5d4d0a7273ca349b17707d4ef785d0a46d8106a2e5fcf8c61a817b765791800d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "812fd550551065e66bc6455fa32a534b5bdd2cff04ceae27fc96489a44fe9548",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "7052438197c889e9eb5d1ae4b5c25c3f2c6db2774ad61ee901e566486d5d5b9f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R19",
+          "R20",
+          "R21",
+          "R22"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-and-epitope.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "2833e4af7c2cfa6622064d75d1ab877a0aa8d0468a43e775faecc52c53b7f131",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b1758301222d2f1216253663177ef5cea330870cbe557e0310ece593ee995e4e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cb65242d2b5abd20517c14844319e9a4dea65e7f0dbfc04ab1794ee9651720e9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "02fb31f528ada48e65742c32f258b04d25b854199988ead93cfad4fd4f415b1e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "e96afb0efaf028630aef5c28974f981893d77ff0f45fb0282579921471594af3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "f0f4a2d8ed9386821c77b7f97af859996cb95d232feb46fb4c16155aa8c18cb7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "9584b4bc11e3d59e61aab2d3a02855034d1d2540d8b56ef040eb842b77b6f68e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "67220fa28e9289278e6b08e2f239f45732d1c451f0d71b5abfba8a0999d4fef4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "6c9c5bd5caec26b2562b40943d056595653b65e849ea79220c7b965a0a59f3ad",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "ef9e1a4b6da1d3c2c11cc78417d3cb86ff964311ad4d4560411639f85fe807f9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "4998090bf76272c6353acd839d3567a47e1e4b8643b9e0b33fd539a17db18ae8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "9de48376fc285ff3254cf8770923ff232777fd5835f8c5925abe25e0a249405e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "1514644332d91cbf83b87592b3301c82c33c31011c013efeacae99d11bb49089",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R23",
+          "R24",
+          "R25"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/antigen-processing-machinery.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "7ddf8a5e1dedd8f397ad3f42ae79acfb9b5a3111f234e376a7fb7c5bd830a1ad",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "d1c400fea3b0fa4b3d2e4f04820cda3188a3455fc093abc0a115401c439f823f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "e2716c06d52e9d28b690870caf530ef3450157c81bba0acfbbf4c81ad282c787",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "408bf7491e68ca634b6ed507e4ba741c5fedd433239ff847a56f1fec9f0948cf",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "b8278f60235125eef07ace5ae39a7d2bc6fc9bc15b622147452756ded4c78c58",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "63592e1fee59745fcf4df4bf1aaebe5fec131aedba98b80770d339885030f27c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "1704bbad18c7efbf4b39642993061d89484dea21500ef210a5c333aed8c44530",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "9c2dab5cc0693be124ec560f1560108bf6e7dba5cf28e4d88e2622123a54c1da",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7c73a566ff20df9a2db86a03b970cffd239c3fd0f0d3976ff5aca5efc29b2786",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "157a732358d664f833bd11abc2c0290371268b5ba01a943423edb645fe2e5a89",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "911ecce94da9a6d4d32d4cc9ee43ce0806e49cc10978fb7252405761fb5663d1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "72dc51f394e9c8cf28d26c13e69abaa4ee6f5c1c8f05bd489c0b9a8e41987687",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "09ed6cc437522e5fc6b7e4bc21fb5ba2bc5d0795bbb7d3c0b0491e5668ece87f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R26",
+          "R27",
+          "R28",
+          "R29"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/b2m.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "973bdc607b8856ed1a4d839736397df7079fdce97ff48e16b53aad4f8977c599",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "92ca253465c022ff46f22c425d58f9779b5d8d7ef8e73f997d70139b0bd4ab59",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f2f4fe0a58e71d0fc1796ea18ad4d202b0a49413b81329572ad6e431af76f291",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "9380ac9cb915065756b4f3d133a96e907ea7befd8225bd2233265252604f734e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "12c79d36d5d5f5e00fefd70d8e2f491eca1d46a47108d646a560c0670559b286",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "154285bde2f5447385ab324acce945b61f72114580a0923bb62a7263e65dd2a7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "3365c77505bf2a6332abbc9426dab814f2865c98659c7ffcb008f5ab7cd6bdcd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "c573dca7ec1af7a6ac2c2e27728c694d2641e70d16b9ff7088a55002af33a928",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "1f0321f1f5bae00f73d3aaaf40fe58ae77d8e461ecb3f5aaf31cd31f283b331b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "62cfa7c53648cc825e025f58e74fc91f2ebbb26c4a00d9da9b69617d22a1794c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "896af1d078ef2305fdedce845225ead9638db67f7bbfef92aad3f01ca018184b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "f021110540d51a62cd61ea2695baef465a4dd4483fbb063f31d790ec1fb417a3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "3b8ce0cf25b45de88ff4ee0af26b9242752e95fa9c1a991b288e01aa7950b0c3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R30",
+          "R31",
+          "R32",
+          "R33"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "2721ef44c28d2dc09902b77563f9d6bcd14e9455c12c240267ba664f1f87ea7d",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "91ccee25556787f3911526f849f54c604a53a2f2f3d6aba21383a53e741bf0bf",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "2a185fd68c2dbb985e11bd88b0fe1eeff10506620296bea37de17e46577dc68a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "f10b9ad3190f71a78f75727660e59c5b8f67bf59996762b53870ee0f09af22ed",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "additional-teaching",
+        "sha256": "1dab9c88b51a4205f00e40e7067cd68f7b3aae1013c05e290ba48517a7b3f810",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "48099a4e6308bb7b16c65f75c73210f31555f0a847ac5ff3a13e3241dcf6a2fc",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "d5bf3d5371332dd36791d001957d82e9a4c5913630317e1bbc9ed1984ae9a80b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "practice-or-worked-example",
+        "sha256": "35750caa5233d758c5504ac83742f6e42330e295bd01dbb1fdf500052ee3a45a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "e292446ec3b84d97e9b59766b4cfcf15b15b2588847628ac82a8b11d13f0ca9a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "additional-teaching",
+        "sha256": "4b30ca6cfc30f64bd15366dfe694091c732b20a92276f300675526c8a7abb09e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "a431f3728c0d2889860d5c87ac1bfbe1b21b8ca67cf6bc6fe150f26da969b029",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "ca3a487cda730f42a92273b70e891a9688f0e38893ecfeced198d8bcd046e601",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R50"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "dbac4ca174000074a6f044340fe9ac902369ed8dfeae52fdf094b2510fd1d62c",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "69a33ed358c4fb73c6d137b6702e873a90823f4fbdf8fb68eaffa8c9aefe3c61",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "0b6eb5b7678eadde509001db1bc7cda5e2442d7dbdfb5114f8b4236d91c9b954",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "aebbbe06f9b926d6915c900d882f0688b6696563eae7ede35f3305c7779dee2c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "78d53edcf3080767839d2cd48c884734790d29b151d192e5a664d398abd1aa9a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "92b1781f2d92f4b865ff976db0d5cafb029992c5491913fbd4c6968ca99aeba2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "60417d7c003e88df89f1b1c87b6340bdbf035aef9a5c92a8d2f89818482a69b9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "4b26b2fd0765a238f9139fedd51488933f572ab92e5a139c7a4674d63a1551fb",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "b048174ad68c70a3d441b7583321f708dc590e49c587e7d0302e169400298755",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "a21b706b83327429d80f40bf24119e701591c4a209839aace86cf8e3ff52242b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "2ff86a29b6309eb0d3edc460e0d95d4ad7dae12b198e55ff3fa65bdafe41d1c2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "78765c2fdeadf0ac4ef2fa7488c62ff8f9ed17dbc4e89a5e49b2d256c4613b7e",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "750752fd7581acab83c32c2014261494ae01d257eed8eebb4a6bbd78e4519145",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R45",
+          "R46"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/hla-typing-and-nomenclature.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "7cea9a69b1075d20ae7a978e752a82ea2dcb70baa1ad135361d9147740367652",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "c0eb07d2b5e4d9548ceaf02d4aefbc9454393fe4423d5571d721d21c7b04ce83",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "6a8f77e6031ea2555063b398d1ada4652bb1a3f9fb13e3a5d3e7e725d038e528",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a496c92b18e4a91e8b9bc05b886399be9e9f4dae7bbb3a665ff466fa18d49855",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "bf697ac4a4f192977675056eaffbbedd869c3b7e0ce83d52ac78c29a902c87bd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "ac66d9ceea5c473c691d41df853e3da6182647b2a4664cd0b7ef9c2d4ff0749d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "07517e51ec4efe75d87ff5742ef9a4d7585918436302bb1c6f4476965aac9d10",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "85984c214b4a88b67b7dcaae72f6e0b085ab476f80e9bc6b06b5ea2748b3fbfb",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "3cf59ebf2e9cffec08e4b32a7f1bb740d2a3c4e57cd82014cc6f92476d9ec540",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "1a464f305c7aab4ca65b879be44128389702ebcd8703240404384e2dd71bfacc",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "d761edeeb9569fe7312bf357609387a4811945896bd0cabd9a1908aaa063438f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "practice-or-worked-example",
+        "sha256": "e0bbca37741e3e6820da9200046675ad45211ef533d00561af177b57aa991f59",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "additional-teaching",
+        "sha256": "170d8ce7ba594777b57307b9313734fc88f40faf083c856cc1579d74651fe5af",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      },
+      {
+        "ordinal": 12,
+        "kind": "source-scope",
+        "sha256": "d5133a946a0a04ff6c03f671770d527eecc70a4d1b76b3ed78305cea3340b9fe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R39",
+          "R40",
+          "R41",
+          "R42",
+          "R43",
+          "R44"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "9951ea7d4cda94a0701c8beb9d3f34fa6bbccfc27ecc08abe567b47d80ae798f",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "e9c9c3f257d5ed60d17d8d7bd131f1b7b8c6b5c082a1bc91fafd4ca99ed80fa6",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1126a50e4665f4437484a329dd5486454af1db9355da1282db667aed81018df0",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "d9717a2d993d3b3336f51f66b6e471dc584fb5c112f0e8e05bbdecf3bb77a5e7",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "7334f48ea2c7d4504eeec3121a8d02f76671b60c72843469efd8474174eaa320",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "1c5cdde8c76461e4d090b73da32808599bfecc134e206f24cd1dd156b6af3f19",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "084eb22a617f19285eb89b18a2363babed71746d73bb9ce1af4139dbe2e849ce",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "1c1d4f7e3d1cfedd7fcfb865694e789652bdd8cded18f9c777b8f344c48ebf0b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "337137d4ea5a0fe4803469862d9e70bd13afaac579905c1b9db51bdd2e278079",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "cd60039608a4d24ba531f1cbea16e773d6beadbaecaeca9e2d39d55aa965208d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "d173742eb048a355b98dd327964b338d74bceaf57d0b0ede125cb9d643ef2801",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "d7de8f2a9d778ddd7f6065d702724a2bb3814d527efd95f1bbd2eb96434866b5",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "b169579445fe798c368d60633e19b10c859105972c3ae3ab486eea09b0479dfd",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R34",
+          "R35",
+          "R36",
+          "R37",
+          "R38"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "64f84294b2a3d01cb4e5e35b0e66f0d721487fd83510ba28cb435043eca76536",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "273debcc0602203f2ecd7f9c9abc7e4a3f5fecac9c928b944d04bf1f399b5ed4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "f2478914955a534ab444f1475186fa1abce7b71a708b8685f1b5b859cc4094c3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "8ae71f0c031160044ec718302996a9c7b41a3306480152b2ad3880a04b10a6f5",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "11ec7f9aab9aac219fbc171740906fb53433ba4d90688370fec5701608ac34b4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "52ce9af24d2be29c8bd51e1098c03923d960c9fb9852db00f8612d0e1c72430d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "96cd8d02ff45e621a7ad52e18c955e72cf63341a770507c58fe0c9709abafe1b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "6fb04afbb49851583cd9cbd012b679d62b2a305412973c4cbb8550de93a933fa",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "practice-or-worked-example",
+        "sha256": "b6bbaa50a572346aa467f77057e19f0111a435dd72c20bde44768a57b0101bb2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "1581e926071077dd16ac40fe462bac0c9bbeea059a5ca33c14e19001f813b0b3",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "additional-teaching",
+        "sha256": "cc0b1e832173bfc2ce2192bde947ed16e58490793ca7e51b9145d954d1f6216c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "source-scope",
+        "sha256": "6f0319372b26c17b4f66efdded774a6d8e5d8a64c8af370d9c23fbd91e752c82",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R51"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "cfdb1972f55479151d3a40cbfbefb37ba46c4df7201ae47323e2d40111a03a2a",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "b926c3dc536f877c8f51f4893509e9200717a25bed8115525a24bb958920b652",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "99990500b9514ff16d052fc8e6694fdbf4fe94cc3e34e75d13c27870c6211ec4",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "a0c1a3c1025ffd4d6fd9070a5459dcead49e00299ed7b37f71f4e7afd23d4e27",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "90103003c4d05ea69c9b7980a783fc6df35ee2c8cb50473e346758b3f0f1ef1c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "ad678445f4c0746cf701b8630c0ac95bb2401b837083da336540f49cf8e82395",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "27b37f75ceca3bb816d3bc580fccf673aa5246f349e59e9a62e519cd05926d0a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "42fb560e62fe98f919e6345b3e48e0d6aa473c4bbc7ccd8647446f0cf966bd08",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "7b9ed63ddc484dcb7cce1b5c9c92d029896a068b4b3536cb64e8cb4811a03bfe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "6eacf8ba29f2ed0b350c0a4d00d56f58f38b83e8e55c9a861152170e70c49bbe",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "14dc6d7916e86bb6a94c5eee130acbdfc5515636cd067a9760e898f731c9fdca",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "cacab81a92d7657889bcf657bf5480bf805f29936263846e501995d6cb6ddf11",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "f7ed15b0a3078e7d74146f25c5d0704b9482633f16771f0e0f54f6df0b91ab01",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R52"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "297e79e2f89a4a0e5e3271d899c8062c4552b89ee3f7064efb27cb1274bc688b",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "408a45089f3c8d32b2b0fd2456208264f95a93f0933f84fb92b37fa2fb1bbb2b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "1a12e3ca36957748e8cb160ddd40af1b8bb83ac1855e0a1e0e031559037c10e1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "73843c08be43e530c4a2ef42a89c7483cf8229d1368edad87799aabe3ef27c10",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "23b0d952024ce25f329242078563b310a91640953ef5c1e21376399d060ce4d8",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "05218ec05899db2155babe698ca46fe486df3a0a442476e0d51fb07ff7c7457a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "a651137ccf0eeb1c02e5065c1c57b253a34c1d00a496ae78846f174f45d264d2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "0ad7183ae859363729beed42064627ce3e27ab96811c2322fb45795de55a6f7f",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "e0bc142081d07ccf03a15b0909014e1a95ef44d70f6cf52f4afe49b2061b934a",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "e8d96d5dad2dd3bd92bc1f3028d993343ea560dfac9618e554e1bc0a2409ac49",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "08c6971a71629112dc48bcfbadde2e1a6f896b670c62f576467f33e406efbec1",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "1620062a5234395d48a6b805bfa1009d0673956fc0b83c0f6368d8f406387039",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "c59ed5845fbe5b4fc067ab345b7cca6f504603c3ea776e2ef942540ade2c4f4d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R53"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "wiki/education/concepts/immunology/antigen-presentation/tumor-associated-antigen.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "beb7cf030be5d4955fdb22b7443a904a2276f8062a186dccfb9bbe67c4d4ccc8",
+    "sections": [
+      {
+        "ordinal": 0,
+        "kind": "preamble",
+        "sha256": "342f5e7373aceeec65c4f9cd3124d6a88853fbe0dc63ec5a5e05de87c8628a2b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 1,
+        "kind": "additional-teaching",
+        "sha256": "cb05acc4b85a6a5784e1a1163589f5aba9e7d9c0fb0f94ef1e9e09cbd05ac752",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 2,
+        "kind": "additional-teaching",
+        "sha256": "cbf3ad4b11069dfe9ac891000865e75b5e7bb442c287bd18ad5d7c6b6901b30c",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 3,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "e425b7f1f23cebba49289f3db999f16f53a44e94d88978a15dc2667bac08c1a2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 4,
+        "kind": "additional-teaching",
+        "sha256": "a199ea43a2887ed462830e0fcd23b8f927a7695668277d86e0c8830f20423c31",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 5,
+        "kind": "practice-or-worked-example",
+        "sha256": "70b18cc13f1d49135bd1279b7582ce47d65ca71c59b4289dcaa2d562b6dba189",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 6,
+        "kind": "mechanism-measurement-interpretation",
+        "sha256": "06a13c3936fea63c1e6c159755df6670ae6e40980fcf3c6ca0901df3a36a892d",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 7,
+        "kind": "additional-teaching",
+        "sha256": "bd6627cef39d84fca4a45b4c48392ac5ad2c4ccdab5afbc5c55a14610daa5447",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 8,
+        "kind": "practice-or-worked-example",
+        "sha256": "cd869d50dca80dcd14ad32bafd7b5594b08a259fae6c1a7706d45063759d80e2",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 9,
+        "kind": "practice-or-worked-example",
+        "sha256": "823b85d7b54226e3ed45ab9be80f2eb7528b137d59db33393f5b2acf953734b9",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 10,
+        "kind": "additional-teaching",
+        "sha256": "ec40072979357bf1d1bbdb70cd7866e4a12bdb19dba3609c69e3386595ef576b",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      },
+      {
+        "ordinal": 11,
+        "kind": "source-scope",
+        "sha256": "1dbc344802579513846fcd5778511c15227491b81eadba61ce25c0336632eb14",
+        "assessment": "read; teaching requirement or routing/source context retained",
+        "requirementIds": [
+          "R47",
+          "R48",
+          "R49"
+        ]
+      }
+    ]
+  }
+]

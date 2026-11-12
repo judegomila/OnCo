@@ -1,0 +1,49 @@
+{
+  "checks": [
+    {
+      "id": "mixture-50-50",
+      "result": [
+        35.0,
+        35.0,
+        20.0,
+        10.0
+      ],
+      "expected": [
+        35,
+        35,
+        20,
+        10
+      ]
+    },
+    {
+      "id": "mixture-60-40",
+      "result": [
+        36.0,
+        34.0,
+        20.0,
+        10.0
+      ],
+      "expected": [
+        36,
+        34,
+        20,
+        10
+      ]
+    },
+    {
+      "id": "nhej-toy",
+      "beforeBases": 14,
+      "afterBases": 7,
+      "lost": 7
+    },
+    {
+      "id": "timed-track-speeds",
+      "result": [
+        1.0,
+        0.5
+      ],
+      "units": "kilobases per minute; toy calibration and pulses retained"
+    }
+  ],
+  "scope": "Fictional internal consistency; no fitted model or empirical protocol validation is inferred."
+}

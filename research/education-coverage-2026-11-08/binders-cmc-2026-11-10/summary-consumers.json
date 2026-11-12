@@ -1,0 +1,2821 @@
+{
+  "records": [
+    {
+      "id": "binder-affinity-epitope-developability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (ar)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (ar)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-ar",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (ar)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (ar)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (ar)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-ar",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (ar)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (ar)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ar)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ar",
+      "available": true,
+      "text": "تُفحص دفعة المنتج الخلوي وفق متطلبات جودة محددة قبل اتخاذ قرار بشأن استخدامها. وتجيب الهوية وقياسات الخلايا الحية والنشاط البيولوجي عن أسئلة مختلفة تتعلق بهذه الدفعة."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-de",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (de)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-de",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (de)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-de",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (de)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (de)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (de)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-de",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (de)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-de",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (de)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (de)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "de",
+      "available": true,
+      "text": "Eine Charge eines Zellprodukts wird anhand festgelegter Qualitätsanforderungen geprüft, bevor über ihre Verwendung entschieden wird. Identität, Messungen lebender Zellen und biologische Aktivität beantworten unterschiedliche Fragen zu dieser Charge."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-es",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (es)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-es",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (es)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-es",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (es)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (es)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (es)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-es",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (es)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-es",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (es)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (es)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "es",
+      "available": true,
+      "text": "Un lote de un producto celular se evalúa frente a requisitos de calidad especificados antes de decidir sobre su uso. La identidad, las mediciones de células vivas y la actividad biológica responden a preguntas diferentes sobre ese lote."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (fr)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (fr)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-fr",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (fr)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (fr)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (fr)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-fr",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (fr)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (fr)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (fr)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "fr",
+      "available": true,
+      "text": "Un lot de produit cellulaire est évalué selon des exigences de qualité définies avant de décider de son utilisation. L'identité, les mesures des cellules vivantes et l'activité biologique répondent à des questions différentes sur ce lot."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (hi)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (hi)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-hi",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (hi)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (hi)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (hi)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-hi",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (hi)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (hi)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (hi)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "hi",
+      "available": true,
+      "text": "किसी कोशिका उत्पाद के बैच के उपयोग पर निर्णय लेने से पहले उसे तय गुणवत्ता आवश्यकताओं के अनुसार जांचा जाता है। पहचान, जीवित कोशिकाओं के माप और जैविक गतिविधि उस बैच के बारे में अलग-अलग सवालों के जवाब देते हैं।"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (ja)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (ja)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-ja",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (ja)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (ja)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (ja)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-ja",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (ja)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (ja)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ja)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ja",
+      "available": true,
+      "text": "細胞製品のロットは、その使用について判断する前に、定められた品質要件に照らして検査されます。同一性、生きた細胞の測定、生物学的活性は、そのロットに関する異なる問いに答えるものです。"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (pt)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (pt)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-pt",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (pt)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (pt)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (pt)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-pt",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (pt)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (pt)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (pt)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "pt",
+      "available": true,
+      "text": "Um lote de um produto celular é avaliado de acordo com requisitos de qualidade especificados antes de se decidir sobre a sua utilização. A identidade, as medições de células vivas e a atividade biológica respondem a perguntas diferentes sobre esse lote."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (zh)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (zh)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-zh",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (zh)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (zh)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (zh)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-zh",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (zh)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (zh)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (zh)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "zh",
+      "available": true,
+      "text": "在决定如何处置一个细胞产品批次之前，需要按照规定的质量要求进行检查。身份、活细胞测量和生物活性回答的是关于该批次的不同问题。"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (simple)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (simple)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-simple",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (simple)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (simple)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (simple)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-simple",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (simple)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (simple)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (simple)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "simple",
+      "available": true,
+      "text": "A batch of cells is checked against quality requirements before a decision about its use. Checking which cells are present, how many are alive and what they do answers different questions."
+    },
+    {
+      "id": "binder-discovery-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (ar)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (ar)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ar",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ar)",
+      "canonicalRecordId": "batch-release",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-ar",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (ar)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-ar",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (ar)",
+      "canonicalRecordId": "cdmo",
+      "language": "ar",
+      "available": true,
+      "text": "شركة تصنّع الأدوية لصالح شركات أخرى. ومعظم عقاقير ADC والأدوية البيولوجية والعلاجات الخلوية تُصنَع لدى حفنة منها."
+    },
+    {
+      "id": "good-manufacturing-practice-ar",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (ar)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-de",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (de)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-de",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (de)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-de",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (de)",
+      "canonicalRecordId": "batch-release",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-de",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (de)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-de",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (de)",
+      "canonicalRecordId": "cdmo",
+      "language": "de",
+      "available": true,
+      "text": "Ein Unternehmen, das Medikamente für andere Unternehmen herstellt. Die meisten ADCs, Biologika und Zelltherapien werden von einer Handvoll solcher Firmen produziert."
+    },
+    {
+      "id": "good-manufacturing-practice-de",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (de)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-es",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (es)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-es",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (es)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-es",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (es)",
+      "canonicalRecordId": "batch-release",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-es",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (es)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-es",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (es)",
+      "canonicalRecordId": "cdmo",
+      "language": "es",
+      "available": true,
+      "text": "Una empresa que fabrica medicamentos para otras empresas. La mayoría de los ADC, los biológicos y las terapias celulares los fabrican un puñado de ellas."
+    },
+    {
+      "id": "good-manufacturing-practice-es",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (es)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (fr)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (fr)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-fr",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (fr)",
+      "canonicalRecordId": "batch-release",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-fr",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (fr)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-fr",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (fr)",
+      "canonicalRecordId": "cdmo",
+      "language": "fr",
+      "available": true,
+      "text": "Une entreprise qui fabrique des médicaments pour d'autres entreprises. La plupart des ADC, des biomédicaments et des thérapies cellulaires sont produits par une poignée d'entre elles."
+    },
+    {
+      "id": "good-manufacturing-practice-fr",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (fr)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (hi)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (hi)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-hi",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (hi)",
+      "canonicalRecordId": "batch-release",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-hi",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (hi)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-hi",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (hi)",
+      "canonicalRecordId": "cdmo",
+      "language": "hi",
+      "available": true,
+      "text": "एक कंपनी जो दूसरी कंपनियों के लिए दवाएं बनाती है। अधिकांश ADC, बायोलॉजिक्स और कोशिका चिकित्साएं इनमें से मुट्ठी भर कंपनियां ही बनाती हैं।"
+    },
+    {
+      "id": "good-manufacturing-practice-hi",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (hi)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (ja)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (ja)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ja",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ja)",
+      "canonicalRecordId": "batch-release",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-ja",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (ja)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-ja",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (ja)",
+      "canonicalRecordId": "cdmo",
+      "language": "ja",
+      "available": true,
+      "text": "他社のために医薬品を製造する企業である。ADC・生物学的製剤・細胞治療の大半は、ごく少数のこうした企業によって作られている。"
+    },
+    {
+      "id": "good-manufacturing-practice-ja",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (ja)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (pt)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (pt)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-pt",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (pt)",
+      "canonicalRecordId": "batch-release",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-pt",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (pt)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-pt",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (pt)",
+      "canonicalRecordId": "cdmo",
+      "language": "pt",
+      "available": true,
+      "text": "Uma empresa que fabrica medicamentos para outras empresas. A maioria dos ADCs, biológicos e terapias celulares é produzida por um punhado delas."
+    },
+    {
+      "id": "good-manufacturing-practice-pt",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (pt)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (zh)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (zh)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-zh",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (zh)",
+      "canonicalRecordId": "batch-release",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-zh",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (zh)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-zh",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (zh)",
+      "canonicalRecordId": "cdmo",
+      "language": "zh",
+      "available": true,
+      "text": "为其他公司生产药物的公司。大多数ADC、生物制剂和细胞治疗产品都由少数几家这样的公司生产。"
+    },
+    {
+      "id": "good-manufacturing-practice-zh",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (zh)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (simple)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (simple)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-simple",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (simple)",
+      "canonicalRecordId": "batch-release",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-simple",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (simple)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-simple",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (simple)",
+      "canonicalRecordId": "cdmo",
+      "language": "simple",
+      "available": true,
+      "text": "A CDMO is a contract company that makes drugs for other companies, and a handful of them produce most antibody-drug conjugates, biologics and cell therapies."
+    },
+    {
+      "id": "good-manufacturing-practice-simple",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (simple)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "rootVerification": {
+    "entries": 63,
+    "available": 18,
+    "EnglishFallback": 45,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 56,
+      "rows": [
+        {
+          "id": "binder-discovery",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-discovery",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peptide-synthesis-spps",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "batch-release",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "platform-vs-personalized-components",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cdmo",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "good-manufacturing-practice",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "binder-discovery-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "b93520d9c4152b07eca16a08863035ce12decf7ccc642f8219a281af08abfd6d"
+      },
+      {
+        "id": "good-manufacturing-practice-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "ad430e306ea2bc79cae3ce2f824a74eac6295c558cd9f60cd2e90d6548aeae29"
+      },
+      {
+        "id": "binder-discovery-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "070b89a1d17a989200cafb559445802f4e6c85bc656179f62779ba5d1f2f13ef"
+      },
+      {
+        "id": "good-manufacturing-practice-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "3e3bbc9fd4e4237beef33de3dd68e6e41bf1fbeb965007b94c166e1bfd6970ee"
+      },
+      {
+        "id": "binder-discovery-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "e6d848b2badb2d04f7e27c57ecf39ffc306e4735c634cc2b7dbb0e02deddad45"
+      },
+      {
+        "id": "good-manufacturing-practice-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "f74a0a9eabcab8ad42cb9cc7a6ecdadd00193906729b18e447840da2b74bf3e0"
+      },
+      {
+        "id": "binder-discovery-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "d4b511ce5688d09154c1a87fb989dfadcd593467e9f903f357c63a777081ec21"
+      },
+      {
+        "id": "good-manufacturing-practice-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "ee1a636d2a1e5d62a0aaa866c70eb3412271ad5e7e8a48d0c13b40d4b1c34fed"
+      },
+      {
+        "id": "binder-discovery-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "0598e8ef20dabb9ee23925959a27da32859b154071fbebc84e909de825208265"
+      },
+      {
+        "id": "good-manufacturing-practice-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ea3ae9035e4ddcc13582f6f258aa0be0a646701059309f3c217cef9a094e70cc"
+      },
+      {
+        "id": "binder-discovery-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "4699992cfb1a122afbfd6f46a1d097af9bfd3ecf1d48686f936ca9e0f1982021"
+      },
+      {
+        "id": "good-manufacturing-practice-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "3659f1dc238ddfd8fe45b5b2db473b2c850d518cef9fdc811b1ec4f4eb90492d"
+      },
+      {
+        "id": "binder-discovery-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "25b7ad9f7df287f43978de8cb93ca9f39f2507a70bad5cc435d3503dbeeacd5e"
+      },
+      {
+        "id": "good-manufacturing-practice-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "a548464c45db4dbbc6ff655d913726e95376eec7d3e881a0804339359438d674"
+      },
+      {
+        "id": "binder-discovery-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "0b574f567b07434ef8e1016016f02c837454cecb34a520487d58f0c16b2484a4"
+      },
+      {
+        "id": "good-manufacturing-practice-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "287226e2d84b0aae018ad097be1a21221ecce6be4811283bb4985d7d69c221fc"
+      },
+      {
+        "id": "binder-discovery-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "0f67dd71f37b078263e5fc37520dfba0691e9db36dedc1ad6e729b98cf9ee0ba"
+      },
+      {
+        "id": "peptide-synthesis-spps-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "da85586f966eb3bb70fc475ab7c252dec9959c478e3fc256e0d197ef4c9ce147"
+      },
+      {
+        "id": "batch-release-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "368025b777e6e84a3e34181631aaedd35be65ae0bffd51200e7131a43483f032"
+      },
+      {
+        "id": "platform-vs-personalized-components-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "28340e8e3bb0fb3725dc7a7e0b82dbfb0f5bb7acdf704f36e3b208bcdff5dc0a"
+      },
+      {
+        "id": "cdmo-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "f1d59e16b5168b7fc2a29299b3a3543e843cfc97427074343e52a1d4cb585216"
+      },
+      {
+        "id": "good-manufacturing-practice-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "753ab606a9e660d1e94b1998591d116dc40a1def9f7723d71f346ea1b7c5d684"
+      },
+      {
+        "id": "cell-therapy-release-testing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "c10e7569ab0ac2ace5e28c50aeff1d2cddc48d4843d176efeae3f165548017be"
+      }
+    ]
+  },
+  "sharedVerification": {
+    "entries": 72,
+    "available": 9,
+    "EnglishFallback": 63,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 64,
+      "rows": [
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-affinity-epitope-developability",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-targeting-module",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "binder-format-constraints",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "scfv-vhh-formats",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "certificate-of-analysis",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "chemistry-manufacturing-controls",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "manufacturing-process-comparability",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cell-therapy-release-testing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "binder-affinity-epitope-developability-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "ad430e306ea2bc79cae3ce2f824a74eac6295c558cd9f60cd2e90d6548aeae29"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "3e3bbc9fd4e4237beef33de3dd68e6e41bf1fbeb965007b94c166e1bfd6970ee"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "f74a0a9eabcab8ad42cb9cc7a6ecdadd00193906729b18e447840da2b74bf3e0"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "ee1a636d2a1e5d62a0aaa866c70eb3412271ad5e7e8a48d0c13b40d4b1c34fed"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ea3ae9035e4ddcc13582f6f258aa0be0a646701059309f3c217cef9a094e70cc"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "3659f1dc238ddfd8fe45b5b2db473b2c850d518cef9fdc811b1ec4f4eb90492d"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "a548464c45db4dbbc6ff655d913726e95376eec7d3e881a0804339359438d674"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "287226e2d84b0aae018ad097be1a21221ecce6be4811283bb4985d7d69c221fc"
+      },
+      {
+        "id": "binder-affinity-epitope-developability-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "60670f8d0bb1f2a40a72e061c4af2b384bdd6f745c5b77bcea7346bda20da26a"
+      },
+      {
+        "id": "binder-targeting-module-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "049d90a660582a97c986e33f061d2db09bd64b4dc0d81f9c64905bd5258d3fa4"
+      },
+      {
+        "id": "binder-format-constraints-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "6c4afc94b2adbb455d56d57d40c95da1c67c6081d86b8d07ad0ab43620c42fcd"
+      },
+      {
+        "id": "scfv-vhh-formats-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "1f4494fced602ed9b66b7881ff7097f429f1176bab69f62cccbf8bd9ba89fbf7"
+      },
+      {
+        "id": "certificate-of-analysis-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f58a778255dbef7d780e7257687bee0f309a6d6f7573cedcbda9936c124c8432"
+      },
+      {
+        "id": "chemistry-manufacturing-controls-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce5537435d7d3f6b17d6eb16ca837e81069adb9d7eb7b34f2b2a87b8b6591c1e"
+      },
+      {
+        "id": "manufacturing-process-comparability-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "afb3e5bcd178b06e531945944c7c7747a7d3acc535cf35d79aa1a0a8485a5021"
+      },
+      {
+        "id": "cell-therapy-release-testing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "c10e7569ab0ac2ace5e28c50aeff1d2cddc48d4843d176efeae3f165548017be"
+      }
+    ]
+  },
+  "scope": "Exact current selector outputs; nine corrected translations copied by identity from the shared draft after English definitions were aligned. No new language approval."
+}

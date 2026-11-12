@@ -1,0 +1,42 @@
+{
+  "unrepresentedSubstantiveRows": [],
+  "sourceReadingLimits": [
+    {
+      "capture": "full-rabinovich.xml",
+      "problem": "EPMC HTTP 500",
+      "alternative": "NCBI efetch supplied full body; stated methods paragraphs read."
+    },
+    {
+      "capture": "full-elispot.xml",
+      "problem": "EPMC HTTP 500",
+      "alternative": "NCBI efetch supplied metadata/abstract only. Publisher PDF supplied the read procedure."
+    },
+    {
+      "capture": "bio-protocol-elispot.html",
+      "problem": "Publisher HTML HTTP 468",
+      "alternative": "Publisher public PDF was HTTP 200."
+    },
+    {
+      "capture": "elispot-pmc.html",
+      "problem": "Retrieved HTML was not used as protocol-body evidence.",
+      "alternative": "The publisher PDF is the read body source."
+    },
+    {
+      "capture": "epmc-follow-altman-erratum.json",
+      "problem": "Exact-title/date query did not retrieve the 1998 notice; the linked erratum has not been read.",
+      "alternative": "Modern independent multimer/function evidence is available; no absence-of-correction claim is made."
+    }
+  ],
+  "retainedRequiredWork": [
+    "Read and resolve the Science 1998;280(5371):1821 erratum linked to Altman 1996 before certifying that historical method in full; current core definitions also have independent modern support.",
+    "Recheck and source the retained TMB lung-context paragraph, including its superlatives, every-stratum language, licensed-threshold date and chemotherapy/selector claims. The new breast-sample median comparison does not certify those assertions."
+  ],
+  "limits": [
+    "No whole original paper was read. Nineteen abstracts and the specified targeted primary/document passages retain their depth.",
+    "Existing peer assay owners remain separately committed, frozen and unmerged. Reader lookup overlays do not prove root graph integration.",
+    "Other source chapters, unclassified assets, old catalogue assertions and unfinished independent reviews remain required.",
+    "Source figure reviews are full-extent qualitative views, not measured contrast, accessibility, expert or learner certification.",
+    "No full Next production build, browser hydration, deployment, main/live or language approval."
+  ],
+  "broaderAuditComplete": false
+}

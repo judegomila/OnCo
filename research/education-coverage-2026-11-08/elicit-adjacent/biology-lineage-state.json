@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T23:39:04.005Z",
+  "request": {
+    "query": "Which original single-cell lineage tracing experiments show why similar gene expression states do not establish common ancestry, future cell fate or a genetic clone?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-22763828",
+        "title": "The state of engrailed expression is not clonally transmitted during early Drosophila development.",
+        "authors": [
+          "J. Vincent",
+          "P. O’Farrell"
+        ],
+        "year": 1992,
+        "doi": "10.1016/0092-8674(92)90035-B",
+        "pmid": "1547492",
+        "venue": "Cell",
+        "citedByCount": 174,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-242709900",
+        "title": "Faculty Opinions recommendation of Single-cell mapping of gene expression landscapes and lineage in the zebrafish embryo.",
+        "authors": [
+          "K. Artinger"
+        ],
+        "year": null,
+        "doi": "10.3410/f.733108042.793583885",
+        "pmid": null,
+        "venue": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "8268e94241d244c6ae3c997e7f7a7caf5bf83b7ae764ddcd0baf52c6facd4809",
+          "characters": 1457
+        }
+      },
+      {
+        "elicitId": "ss-293891528",
+        "title": "LineageFlow: growth-corrected state dynamics for probabilistic cell-fate prediction",
+        "authors": [
+          "Yang Liu",
+          "Qi Liu",
+          "Wei Wang",
+          "Jian Liu",
+          "Yu Wang",
+          "Wei Zhang"
+        ],
+        "year": 2026,
+        "doi": "10.64898/2026.10.17.759846",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://doi.org/10.64898/2026.10.17.759846"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.64898/2026.10.17.759846",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "5f7e7d6e92f399078194a05b5ce8b0fd5efe8c9d18ed50bd5d11a48b2463cff1",
+          "characters": 1137
+        }
+      },
+      {
+        "elicitId": "ss-293915742",
+        "title": "Virtual lineages: in silico lineage tracing from single-cell and spatial transcriptomes",
+        "authors": [
+          "Yong-Jie Lin",
+          "Yi-Han Lin"
+        ],
+        "year": 2026,
+        "doi": "10.64898/2026.10.19.760045",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2026/10/20/2026.10.19.760045.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/10/20/2026.10.19.760045.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "36c81cac285ddb1ed361b6c3f273b7d178d58fd1813cb2de4c219ce7734ccc8c",
+          "characters": 1485
+        }
+      },
+      {
+        "elicitId": "ss-92723587",
+        "title": "Lineage tracing on transcriptional landscapes links state to fate during differentiation",
+        "authors": [
+          "Caleb Weinreb",
+          "Alejo E. Rodriguez-Fraticelli",
+          "F. Camargo",
+          "Allon M. Klein"
+        ],
+        "year": 2018,
+        "doi": "10.1126/science.aaw3381",
+        "pmid": "31974159",
+        "venue": "Science",
+        "citedByCount": 694,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2018/12/01/467886.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2018/12/01/467886.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "2c751e6676a022279eea96247919eb2f8e8d91fb75497106b90d2202c7eaaa1c",
+          "characters": 6656
+        }
+      },
+      {
+        "elicitId": "ss-22218985",
+        "title": "Single-cell lineage tracing in the mammary gland reveals stochastic clonal dispersion of stem/progenitor cell progeny",
+        "authors": [
+          "F. Davis",
+          "B. Lloyd-Lewis",
+          "Olivia B. Harris",
+          "Sarah Kozar",
+          "D. Winton",
+          "Leila Mureşan",
+          "C. Watson"
+        ],
+        "year": 2016,
+        "doi": "10.1038/ncomms13053",
+        "pmid": "27779190",
+        "venue": "Nature Communications",
+        "citedByCount": 129,
+        "urls": [
+          "https://www.nature.com/articles/ncomms13053.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/ncomms13053.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "b763938653b5e5919ac3f19179b13f770250cb815887b92f67b3ce8f0cd52729",
+          "characters": 1078
+        }
+      },
+      {
+        "elicitId": "ss-268741733",
+        "title": "Hierarchal single-cell lineage tracing reveals differential fate commitment of CD8 T-cell clones in response to acute infection",
+        "authors": [
+          "Leena Abdullah",
+          "F. Emiliani",
+          "Chinmay M. Vaidya",
+          "Hannah Stuart",
+          "F. Kolling",
+          "M. Ackerman",
+          "Li Song",
+          "A. McKenna",
+          "Yi-Na H. Huang"
+        ],
+        "year": 2024,
+        "doi": "10.1101/2024.03.21.586160",
+        "pmid": "38585810",
+        "venue": "bioRxiv",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.21.586160.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2024/03/27/2024.03.21.586160.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "670f94c9c7437fc15e09df97f6e65ec865e1ea566f2759333f4f1fdc2fad81a0",
+          "characters": 1120
+        }
+      },
+      {
+        "elicitId": "ss-13773987",
+        "title": "Single-cell mapping of gene expression landscapes and lineage in the zebrafish embryo",
+        "authors": [
+          "Daniel E. Wagner",
+          "Caleb Weinreb",
+          "Zach M. Collins",
+          "James A. Briggs",
+          "Sean Gregory Megason",
+          "Allon M. Klein"
+        ],
+        "year": 2018,
+        "doi": "10.1126/science.aar4362",
+        "pmid": "29700229",
+        "venue": "Science",
+        "citedByCount": 760,
+        "urls": [
+          "https://science.sciencemag.org/content/sci/360/6392/981.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://science.sciencemag.org/content/sci/360/6392/981.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e0ab0555703ff88a908547632c37a6cbf4afab782f94bbdb2c62cd3e474ee600",
+          "characters": 2296
+        }
+      },
+      {
+        "elicitId": "ss-255801496",
+        "title": "Lineage tracing reveals fate bias and transcriptional memory in human B cells",
+        "authors": [
+          "Michael Swift",
+          "Felix Horns",
+          "S. Quake"
+        ],
+        "year": 2023,
+        "doi": "10.26508/lsa.202201792",
+        "pmid": "36639222",
+        "venue": "Life Science Alliance",
+        "citedByCount": 3,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2022/07/19/2022.07.14.499766.full.pdf",
+          "https://www.life-science-alliance.org/content/lsa/6/3/e202201792.full.pdf",
+          "https://authors.library.caltech.edu/119176/1/LSA-2022-01792.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9840405/pdf/LSA-2022-01792.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.life-science-alliance.org/content/lsa/6/3/e202201792.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "09183d263a0da12588e2e9b8e308b5ce21353f753001b8c9809b926c249f1f2e",
+          "characters": 1304
+        }
+      },
+      {
+        "elicitId": "ss-262087544",
+        "title": "Single-cell mitochondrial lineage tracing decodes fate decision and spatial clonal architecture in human hematopoietic organoids",
+        "authors": [
+          "Yan Xue",
+          "Jun-Hao Su",
+          "Yiming Chao",
+          "Lu Liu",
+          "Xin-Yi Lin",
+          "Yang Xiang",
+          "Mun Kay Ho",
+          "Ze-Zhuo Su",
+          "Junyi Chen",
+          "Zhuo-Juan Luo",
+          "Chengqi Lin",
+          "Rui-Bang Luo",
+          "Theo Aurich",
+          "Jianfeng Wu",
+          "K. S. C. Cheung",
+          "Yuan-Hua Huang",
+          "J. Ho",
+          "Ryohichi Sugimura"
+        ],
+        "year": 2025,
+        "doi": "10.1101/2023.09.18.558215",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 2,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.18.558215.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.18.558215.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "12917706620c27b9d71ce28c0b31ac01a5bb074d0dfdddd4c5faf9f2a34f8675",
+          "characters": 1858
+        }
+      },
+      {
+        "elicitId": "ss-284916308",
+        "title": "Single‐Cell Mitochondrial Lineage Tracing Decodes Fate Decision and Spatial Clonal Architecture in Human Hematopoietic Organoids",
+        "authors": [
+          "Yan Xue",
+          "Jun-Hao Su",
+          "Yiming Chao",
+          "Lu Liu",
+          "Xin-Yi Lin",
+          "Yang Xiang",
+          "Mun Kay Ho",
+          "Ze-Zhuo Su",
+          "Junyi Chen",
+          "Zhuo-Juan Luo",
+          "Chengqi Lin",
+          "Rui-Bang Luo",
+          "Theo Aurich",
+          "Jianfeng Wu",
+          "K. S. C. Cheung",
+          "Yuanhua Huang",
+          "J. W. Ho",
+          "Ryohichi Sugimura"
+        ],
+        "year": 2026,
+        "doi": "10.1002/advs.202518084",
+        "pmid": "41560697",
+        "venue": "Advancement of science",
+        "citedByCount": 1,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202518084",
+          "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.18.558215.full.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13042525/pdf/ADVS-13-e18084.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/advs.202518084",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "2ece2359da924e638dd90e5c28995c01e7002fecb89979a98a7e0ecbf021943c",
+          "characters": 1600
+        }
+      },
+      {
+        "elicitId": "ss-292803103",
+        "title": "Lineage tracing reveals asynchronous fate restriction in mouse embryos and stem cell-derived embryo models",
+        "authors": [
+          "Yun-Zheng Liu",
+          "Jihye Park",
+          "Laura Amaya",
+          "Sergi Junyent",
+          "Xiang-Kai Sun",
+          "Jiabao Sean Xiao",
+          "Yu-Qi Wang",
+          "Hao Wang",
+          "Yun-Rui Lu",
+          "S. Nakagawa",
+          "Sung-Eun Park",
+          "Wen-Qi Hu",
+          "Shi-Chen Liu",
+          "Jiang-Bo Wei",
+          "H. Kim",
+          "Matt Thomson",
+          "Cheng-Wei Ju",
+          "Marianne E. Bronner",
+          "Jun-Hong Choi",
+          "Magdalena Zernicka-Goetz"
+        ],
+        "year": 2026,
+        "doi": "10.64898/2026.10.06.756974",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9d34b674f0aee7f432791431585dbc573bd23ab7feb8fcc8a192032288df58d9",
+          "characters": 1245
+        }
+      },
+      {
+        "elicitId": "ss-281259076",
+        "title": "Deciphering Cell Fate and Clonal Dynamics via Integrative Single-Cell Lineage Modeling",
+        "authors": [
+          "Yun-Tian Fu",
+          "D. Mathew",
+          "Mingshuang Wang",
+          "Xinyi E. Chen",
+          "Kevin Lin",
+          "Dylan Schaff",
+          "Sydney M. Shaffer",
+          "D. Pardoll",
+          "Christina Jackson",
+          "Nancy Zhang"
+        ],
+        "year": 2025,
+        "doi": "10.21203/rs.3.rs-7510946/v1",
+        "pmid": "41041551",
+        "venue": "Research Square",
+        "citedByCount": 2,
+        "urls": [
+          "https://www.researchsquare.com/article/rs-7510946/latest.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.researchsquare.com/article/rs-7510946/latest.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e20f48f246cc102c926b7d5a3e0d8a9827de8c0f421a8e67c44530287d59f56d",
+          "characters": 1431
+        }
+      },
+      {
+        "elicitId": "ss-248264087",
+        "title": "Connecting past and present: single-cell lineage tracing",
+        "authors": [
+          "Cheng Chen",
+          "Yuanxin Liao",
+          "Guang-Dun Peng"
+        ],
+        "year": 2022,
+        "doi": "10.1007/s13238-022-00913-7",
+        "pmid": "35441356",
+        "venue": "Protein & Cell",
+        "citedByCount": 78,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/s13238-022-00913-7.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://link.springer.com/content/pdf/10.1007/s13238-022-00913-7.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "c729b62571fdc354dec75fde197ace73e1b1759137b10fd24e2025f54319dd54",
+          "characters": 1010
+        }
+      },
+      {
+        "elicitId": "ss-247023715",
+        "title": "CoSpar identifies early cell fate biases from single-cell transcriptomic and lineage information",
+        "authors": [
+          "Shou-Wen Wang",
+          "M. Herriges",
+          "Kilian Hurley",
+          "D. Kotton",
+          "Allon M. Klein"
+        ],
+        "year": 2022,
+        "doi": "10.1038/s41587-022-01209-1",
+        "pmid": "35190690",
+        "venue": "Nature Biotechnology",
+        "citedByCount": 103,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2021/05/07/2021.05.06.443026.full.pdf",
+          "https://www.researchsquare.com/article/rs-502709/latest.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2021/05/07/2021.05.06.443026.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "7d5fe821bf6b8eb095ef4d52139590d6fc1c0985c536efaf31acc3a559517cd6",
+          "characters": 1360
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "dde10e801c11e52d7a16645bcf31f5ffd3db595f3f4be8a9739763a738d24e72",
+    "rawBytes": 38327,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

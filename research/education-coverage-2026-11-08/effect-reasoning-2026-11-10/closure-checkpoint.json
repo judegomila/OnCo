@@ -1,0 +1,46 @@
+{
+  "original": {
+    "assessedOrClassified": 278,
+    "completeDraft": 267,
+    "requirements": 1744,
+    "evidencedRequirements": 1737,
+    "openRequirements": 7,
+    "ordinaryUnreadSources": 259
+  },
+  "later": {
+    "assessedOrClassified": 263,
+    "completeDraft": 263,
+    "requirements": 1730,
+    "evidencedRequirements": 1730,
+    "openRequirements": 0,
+    "ordinaryUnreadSources": 282,
+    "unclassifiedNavigation": 5
+  },
+  "sourceAssets": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "total": 1888,
+      "reviewedTeaching": 286,
+      "supporting": 3,
+      "unclassified": 1599
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "total": 1888,
+      "reviewedTeaching": 286,
+      "supporting": 3,
+      "unclassified": 1599
+    }
+  ],
+  "literatureScreened": 917,
+  "literatureTotal": 917,
+  "adjacentFindings": 54,
+  "representedAdjacentFindings": 23,
+  "openAdjacentFindings": 31,
+  "openSchemaItems": 6,
+  "mainCoverage": 0,
+  "finalReaudits": 0,
+  "sourceClosureExitCode": 2,
+  "staleOrMissingProofs": 0,
+  "scope": "Source closure remains false because ordinary curriculum, unclassified assets, seven earlier source requirements, adjacent work and schema/product dependencies remain open. Screened literature is not scientifically adopted by identity alone."
+}

@@ -1,0 +1,374 @@
+{
+  "sourceVersions": 26,
+  "sections": 296,
+  "sourceHashesAndBlobsMatch": true,
+  "sectionSignaturesReproduced": true,
+  "sourceChecks": [
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+      "version": "original",
+      "sha256": "26e11f750961ea9d6c1be00a2813aea8817bdeb144e200ec196af462b1937be6",
+      "gitBlob": "65c2592ffa1b2ea07c6b8edfbb59165d9d0e821d",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/aav-vector.md",
+      "version": "later",
+      "sha256": "a4a4e207c16a991d04bc7ae80a7d477cb25039f2b3f7f0b1cf21f18d2e988f1a",
+      "gitBlob": "51d13fe942f3bba6ff0ccaedfd1817f5698a05ff",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+      "version": "original",
+      "sha256": "f0b8f5576f4580e78ff55dc3963c7dda6430a565ec26cff4706670ee84fe554b",
+      "gitBlob": "3908e0216095867f9bc56d1fa0928908bd5022be",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+      "version": "later",
+      "sha256": "a8fceb53f0710c16ef0559ed8fdb307fe79b1e0af5a8fb3e7e2ca4e0f0391175",
+      "gitBlob": "2f655f4a505c7c23985c291aed967ae1cecd61f8",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+      "version": "original",
+      "sha256": "2e6585964da59dbe3bb254257e0a1448643d4eaa5aafd13af03d90e19a630eb8",
+      "gitBlob": "8809fa6509a8bc6721aefa713de66ab91df392e1",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lentiviral-vector.md",
+      "version": "later",
+      "sha256": "85724cbd309f6267480b6b84cbce13b0103e1210db251ec66c1c4add0163dad2",
+      "gitBlob": "829ba1bb146f62acc10aec19c340bc62e87a26bf",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+      "version": "original",
+      "sha256": "d3166bbf595de9903eccaae23ff76010a6ff1da471f4b9fed7b1f00dc2a904d0",
+      "gitBlob": "76b3b9ae147c2723e20b440a5ca8cdfebfe78c75",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/lipid-nanoparticle.md",
+      "version": "later",
+      "sha256": "4b1b4736248c9d6650a3771b4459a020a93686e584b1de8d921d65824bddc4fa",
+      "gitBlob": "4cd1f583f41097751b4cf5a00e48dbe1f5b95fd8",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+      "version": "original",
+      "sha256": "8411e9205485783665083739d97800812fd4e0067997dc51068357d120f167ef",
+      "gitBlob": "e565b4b5de8e7598982c7c877935b36451f602b4",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/rna-lipoplex.md",
+      "version": "later",
+      "sha256": "654d43202e732a33ef48127d6828e4e8bbdf841dac6d7a9d7cda04f319874175",
+      "gitBlob": "d26bcb64c9e7fb773bb7ffc165c65ca3d8d0a423",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+      "version": "original",
+      "sha256": "3e07ce917c5c8d90d7ca2a5405cd0e9d9e2bbd155c5ef0ca5dd650ce13aa1ea6",
+      "gitBlob": "86d930cd050a60e07623e57971da39e901fc2c87",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/targeted-lnps.md",
+      "version": "later",
+      "sha256": "0011817e9aa92faafe9e5f9884d425c06e6644ddde43175ec3d3b191d02c3cfb",
+      "gitBlob": "7cce0f4ea63d0bd59ce6167792d75446bc97a0e4",
+      "sections": 12
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "version": "original",
+      "sha256": "b268c50da77214a335fb8d2d24bdfe51a10baa0d201c6430c7c1bd0d84dc99b6",
+      "gitBlob": "def2bff41ae5662a72a0f0b79a0a17b7be86a258",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md",
+      "version": "later",
+      "sha256": "1f806ed9743fcbb8d5fe0623b2bd742a5ff506e32d8e6f64b5ddc7660148516d",
+      "gitBlob": "763687c78c56a63ed69bf7c0a3b64305c42aa3fd",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "version": "original",
+      "sha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+      "gitBlob": "e8385e64eea1eb1d6a98e4cb43dc6c4895ac4562",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "version": "later",
+      "sha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+      "gitBlob": "e8385e64eea1eb1d6a98e4cb43dc6c4895ac4562",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+      "version": "original",
+      "sha256": "36d465ceb1f72dfdd2731e1ebb587b0e73134f2515f23a5e48055a94e349aa88",
+      "gitBlob": "bb12b5225470dddf6d58d6e61290619fa35ff1f0",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+      "version": "later",
+      "sha256": "8b2121b71ae20a7fa766d680b481a0e3f54aecb0617f89a4eba2bdbec56e74c6",
+      "gitBlob": "1f7301cc32ca0dd85e3c3d33a2c899a083987e5a",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+      "version": "original",
+      "sha256": "b5b1a3375d52f4a551ef46fa29f2ace0d543eab9b4d602af862a5c55ccc72e71",
+      "gitBlob": "a2dc779de0105038b24f38b3f0457748c1e49d5f",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+      "version": "later",
+      "sha256": "e6081cd7294fc9f9f944a5e66419a473ca48772ba2d69a0f49148e674f983ca2",
+      "gitBlob": "57b55ddc5686a4f76df0141becec6963273f33ff",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "version": "original",
+      "sha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+      "gitBlob": "47e9184d6b2b6ec0ed04e1c278a96062290341f1",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "version": "later",
+      "sha256": "c34bbf898f578ec85ba279975db6b2406058e918eb674b2b70a33ec66db875a5",
+      "gitBlob": "884fab2095b47206e224d4351439b493051ef4b0",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+      "version": "original",
+      "sha256": "54dcc7421ddd085a5a49e83b015451ebb64559674ca8ffdd909790cd1bb78c88",
+      "gitBlob": "9b68ae96804e2d4a51a25ff7e67260d1aaab840e",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+      "version": "later",
+      "sha256": "c1fcbb4806621d974d1577d5c391a8e0a989ccef44534151153ca7787faf3c65",
+      "gitBlob": "5e678cda0bfe1c977573e1838425392199ca3772",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+      "version": "original",
+      "sha256": "3e01bc1c60ffff921c8a360840de79dc08a43991e576fb176948ec253002effb",
+      "gitBlob": "382f504082d09fe55c1e824639a802e1a6938d18",
+      "sections": 11
+    },
+    {
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+      "version": "later",
+      "sha256": "07b1b2e8f637f283252197f8c353acefec570e61f126fb6b6a713c47108a95dc",
+      "gitBlob": "7acdc8c9d54d826e01cd3fa139dd97433ab3cb1f",
+      "sections": 11
+    }
+  ],
+  "figureVersionChecks": 36,
+  "uniqueFigurePaths": 18,
+  "figures": [
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-light.svg",
+      "sha256": "d48646c04c3a23964ca4a17423c8f749899fc3c852f4e6426eeab6dedcb5e1fc"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-light.svg",
+      "sha256": "d48646c04c3a23964ca4a17423c8f749899fc3c852f4e6426eeab6dedcb5e1fc"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-dark.svg",
+      "sha256": "4d460ee2a3d7e15e9b4e8f281d0ba146056a80418674ba7c2a52d0b56d3d16c9"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/vector-dna-chromosome-and-expression-v1-dark.svg",
+      "sha256": "4d460ee2a3d7e15e9b4e8f281d0ba146056a80418674ba7c2a52d0b56d3d16c9"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-light.svg",
+      "sha256": "4218ece8dd42beef40b8a46f37050c4359ccc522bbd74da01e740f098e997e20"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-light.svg",
+      "sha256": "4218ece8dd42beef40b8a46f37050c4359ccc522bbd74da01e740f098e997e20"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-dark.svg",
+      "sha256": "821c7a8864096eebb50eb58e9d2a804fb021e9a12f88b86c99664ba4bc5d9963"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/rna-dna-integration-and-expression-v1-dark.svg",
+      "sha256": "821c7a8864096eebb50eb58e9d2a804fb021e9a12f88b86c99664ba4bc5d9963"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-light.png",
+      "sha256": "2c80056cf85f47914b351130e39d4d97f762cdb7ad95763f8dac0d5eacb7d656"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-light.png",
+      "sha256": "2c80056cf85f47914b351130e39d4d97f762cdb7ad95763f8dac0d5eacb7d656"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-dark.png",
+      "sha256": "9aacdfa52d801cb7b4f95655e710ac9a7c126c618713dbf76149a661f24e5e9d"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/uptake-is-not-expression-v2-dark.png",
+      "sha256": "9aacdfa52d801cb7b4f95655e710ac9a7c126c618713dbf76149a661f24e5e9d"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+      "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+      "sha256": "c92a07bbd8fbf165068255b7c46f0d383f14f748f28ebdf44e53b869200e58d4"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+      "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+      "sha256": "05b3e4473cfdf2e6459e1c4f9fbc652695f859d6d9acb7e27e16a32052aeb5f3"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-light.svg",
+      "sha256": "fad6db3b3597fe2834c4707f59fa879fbb918bfc980aa5db03faf7bbca54ab91"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-light.svg",
+      "sha256": "fad6db3b3597fe2834c4707f59fa879fbb918bfc980aa5db03faf7bbca54ab91"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-dark.svg",
+      "sha256": "9d6f2fc3a1e6e4d299bd2c91d924f074337fb42bdfa9d069dcd6cd5212bede90"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/same-protein-distinct-rna-v1-dark.svg",
+      "sha256": "9d6f2fc3a1e6e4d299bd2c91d924f074337fb42bdfa9d069dcd6cd5212bede90"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+      "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+      "sha256": "9b6af0fc601220d033b065994e2e29cdcfc2c089c1c4ef1e4f6054b8699f0622"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+      "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+      "sha256": "9976919c2f92431d8004240c660294cfc822af9b72e03b60fc7d9dc2c78f8ab6"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+      "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-light.svg",
+      "sha256": "0ea484278d5f98d4ebddd2094cde6cecf18602db75d4fb2521ac71d3568d2939"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+      "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/paired-byproducts-folds-and-truncations-v1-dark.svg",
+      "sha256": "59f464cde85ae455b2f6e2d8c3e27d74735c8667f37376f12c7f8a6c942d1626"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-light.svg",
+      "sha256": "96421cb38d9dc93b36894452d36460975c20e8b8b1dcc073c0ed8c2018f7c937"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-light.svg",
+      "sha256": "96421cb38d9dc93b36894452d36460975c20e8b8b1dcc073c0ed8c2018f7c937"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-dark.svg",
+      "sha256": "8258de1481922c36a004c217cee85c1acc5b89d767b5eb3a3247eca8208bb0c7"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/cap-start-context-and-tail-v1-dark.svg",
+      "sha256": "8258de1481922c36a004c217cee85c1acc5b89d767b5eb3a3247eca8208bb0c7"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+      "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-light.svg",
+      "sha256": "cc68635ad1262e5912c2f4ce145ca9eb45d9d7f5c8f299d7335a43d9718fbc3e"
+    },
+    {
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+      "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183"
+    },
+    {
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/encoded-windows-and-boundary-peptides-v1-dark.svg",
+      "sha256": "e88829268b4edf89d4e9d74c8efe3809523105fd8b4a02fe756f9547671d4183"
+    }
+  ]
+}

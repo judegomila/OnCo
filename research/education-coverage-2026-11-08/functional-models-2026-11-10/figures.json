@@ -1,0 +1,645 @@
+{
+  "sourceFigureVersions": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "bh3-profiling",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+      "gitBlob": "f1b380c18646b7d9919167ed9dec304d2ac1cc37",
+      "bytes": 6502,
+      "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e",
+      "renderSha256": "455ae37a8df5a699f03e2d44914bef72f1c402bc509daae1745e7d399396043e",
+      "learningRequirement": "IND-007"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "bh3-profiling",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+      "gitBlob": "3dc92c66bac4e90d997bbcc645d8be39175130c7",
+      "bytes": 6502,
+      "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227",
+      "renderSha256": "ba5a1e9ea7ae30db106d55dfd167741f6a6003898fe2eff599f31ef6d9693d7b",
+      "learningRequirement": "IND-007"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "bioprinting",
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+      "gitBlob": "0c0096185ad3f00dd51bf98caf047488ce4806ab",
+      "bytes": 6704,
+      "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258",
+      "renderSha256": "4ba0541894b4d4cb8bc504555fe3aceef593902daeee540ce3a90dc943e1edeb",
+      "learningRequirement": "IND-029"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "bioprinting",
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+      "gitBlob": "c6c0fb43ce3d879d5aa0d10a38462382978f32b9",
+      "bytes": 6704,
+      "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163",
+      "renderSha256": "6b0b4af3f2b54684dfa95959ab2f11ba10cbbaa219f2f957275b250a769dc4ce",
+      "learningRequirement": "IND-029"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "cell-lines",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+      "gitBlob": "dd0204a28eb7a7b8720c830b4794f0c13c4ffcc2",
+      "bytes": 6944,
+      "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56",
+      "renderSha256": "03515e9f37eafda0be10f862f916fa5cf6fd986713cd0f09b904017cb41ecc30",
+      "learningRequirement": "IND-048"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "cell-lines",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+      "gitBlob": "aa4ec3ce48d9ffd695d032363cdd5fe79ae4f7cf",
+      "bytes": 6944,
+      "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95",
+      "renderSha256": "b0e3c9fdc1a1583b983016f6d212b955adc5b63d8ff122200a0e877242d425c4",
+      "learningRequirement": "IND-048"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "co-culture",
+      "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-light.svg",
+      "gitBlob": "0c83c73b240fc632c86d8a8fbc54471bf23ba0df",
+      "bytes": 13283,
+      "sha256": "a1c8bb8c8c884f672d2e8ebba8a6be852b648e8ba344cda7f7d47ed35bbabf7c",
+      "renderSha256": "9c020a2e4ac38cdfb4f75fd276161acf7b290a828ad93fbc13659c5d5361b6a9",
+      "learningRequirement": "IND-067"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "co-culture",
+      "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-dark.svg",
+      "gitBlob": "68e6c472cf7a50d2a496d940f741e15dacafa932",
+      "bytes": 13283,
+      "sha256": "b1a67f5a598edc892ac3309f3b485d76121a1a494ccfc9cf5a662ff52059b56f",
+      "renderSha256": "c494ed69400ad07012e13a8ce67b82f5b665005898bcdb6d82bb7a8908a56c4d",
+      "learningRequirement": "IND-067"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "dependency-mapping-crispr",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "gitBlob": "698985aa367175c5949da3292a30ae6949b6cb31",
+      "bytes": 13405,
+      "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+      "renderSha256": "e9034098494e1a2c6a5b4417e06d09d6fef03813b147666645dd10cfee9b684d",
+      "learningRequirement": "IND-087"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "dependency-mapping-crispr",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "gitBlob": "204aed5f26956645a8b884371c0852b05adacb08",
+      "bytes": 13405,
+      "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+      "renderSha256": "9ee90c48075987f9bedd7194a7b38d302b8a595040c42ccae3a9c07c66746c0d",
+      "learningRequirement": "IND-087"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "ex-vivo-drug-screen",
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+      "gitBlob": "a560541e1fc35c844036b803c636814e4160c324",
+      "bytes": 10080,
+      "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b",
+      "renderSha256": "2ad994aaaacc21f0143197d6ae788e518517846fe50f7cb029d370a23c8dd6ae",
+      "learningRequirement": "IND-109"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "ex-vivo-drug-screen",
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+      "gitBlob": "88ffc651eda7462ebcb0379e73ea43c82d7a2841",
+      "bytes": 10080,
+      "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2",
+      "renderSha256": "6071f26c3e1c13a22d1ed46377490ffafa5f80b36e41018919573cfeb6665bac",
+      "learningRequirement": "IND-109"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "ex-vivo-tumor-fragments",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+      "gitBlob": "7708cdf34f7721a6a84793c6e296ff1db44a86d6",
+      "bytes": 2890816,
+      "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "renderSha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "learningRequirement": "IND-126"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "ex-vivo-tumor-fragments",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+      "gitBlob": "ac0d8d4420029979cfd5ff8865d0108b1e9d1fdd",
+      "bytes": 2931713,
+      "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "renderSha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "learningRequirement": "IND-126"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "organoid",
+      "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-light.svg",
+      "gitBlob": "467c784b36f9a580fb6e6e047c8876ac0d83eae4",
+      "bytes": 8978,
+      "sha256": "df744095d44ef593640823d2b4f1fc3b4d56b0b1b94348d5fc3492d06c8b0823",
+      "renderSha256": "47f51d05d130482c420553e52de5a107e9da9f810068dc6ec17f1a3ddcdccfd2",
+      "learningRequirement": "IND-175"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "organoid",
+      "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-dark.svg",
+      "gitBlob": "c3c39ee3a48ed496768d8ddf4031e7ab975d5cfc",
+      "bytes": 8978,
+      "sha256": "1c5a84f77800692fef1b7558519d29dbaa0f08afc1d8e57d6c387c0ebd237de8",
+      "renderSha256": "6601d5e275c34b60b01049d68268cbd99fded1a9790d2f752b4441bbcf062746",
+      "learningRequirement": "IND-175"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "patient-derived-xenograft",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-light.png",
+      "gitBlob": "25021018928b6c36d987a9d979e1460cfff03a19",
+      "bytes": 2807386,
+      "sha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490",
+      "renderSha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490",
+      "learningRequirement": "IND-204"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "patient-derived-xenograft",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-dark.png",
+      "gitBlob": "fd5955207efdef07bef3c784aadc472cc400dbce",
+      "bytes": 2806820,
+      "sha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2",
+      "renderSha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2",
+      "learningRequirement": "IND-204"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-light.svg",
+      "gitBlob": "c0f16124bf9613d36bfa78dad798c42f34b94f4a",
+      "bytes": 9575,
+      "sha256": "5b76c070f25b41fd38649591e36fb01154aec610a9e078c3a7274241baa00944",
+      "renderSha256": "4162a597578f9fbb42a936fb85d86583c2a30f2de8f1d8a4f1c8e92b55acd292",
+      "learningRequirement": "IND-221"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-dark.svg",
+      "gitBlob": "89a5b9a57fe45ee7dc2d30119c80ece3233075a4",
+      "bytes": 9575,
+      "sha256": "b1aac1a6df8fa1bc8d75d2dafbc5871a56c6a4b54f3c5c780bb00c13de109112",
+      "renderSha256": "6cd01519d9e1f099177af633e5d5b96c61bca1514f144983238d72479ef3477c",
+      "learningRequirement": "IND-221"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "single-cell-mass-assays",
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+      "gitBlob": "d9c8d5115abf29faf424bbfce8c3de328420ce84",
+      "bytes": 5343,
+      "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+      "renderSha256": "991e2119326bd9d274932e5d6b076c216ced2a933dec6e557b72536f702e67c9",
+      "learningRequirement": "IND-243"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "single-cell-mass-assays",
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+      "gitBlob": "d6c0408fe15823b345d1378b3e25e1f06be0a5dc",
+      "bytes": 5343,
+      "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+      "renderSha256": "2e5e26d578e6fdd836842d93bba391ee5f49db983ba960ea6f11a394cae1b8eb",
+      "learningRequirement": "IND-243"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "tumor-on-chip",
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+      "gitBlob": "271b6a59756e19f62fae04a7defa846c95669162",
+      "bytes": 8812,
+      "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841",
+      "renderSha256": "8fdf920d2d2b37121c1b88474e9b979cc38aa050f81a7654b2820846131585f6",
+      "learningRequirement": "IND-265"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "lesson": "tumor-on-chip",
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+      "gitBlob": "7d9cc451e578a8893dd9e6a346d6bd0fdbf3771d",
+      "bytes": 8812,
+      "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1",
+      "renderSha256": "df4e86a381ac5019bd4e4e5679f6037a1d8607758bcc89113cfd744134259bb4",
+      "learningRequirement": "IND-265"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "bh3-profiling",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-light.svg",
+      "gitBlob": "f1b380c18646b7d9919167ed9dec304d2ac1cc37",
+      "bytes": 6502,
+      "sha256": "be62c763f166c6d17efcb726de835e2078286133bb6b1ebafc8a21d6f1cdf57e",
+      "renderSha256": "455ae37a8df5a699f03e2d44914bef72f1c402bc509daae1745e7d399396043e",
+      "learningRequirement": "IND-007"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "bh3-profiling",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-boundary-mitochondria-and-priming-b11-v1-dark.svg",
+      "gitBlob": "3dc92c66bac4e90d997bbcc645d8be39175130c7",
+      "bytes": 6502,
+      "sha256": "aa923cd6d78c746d2b42589f9de7b503d76f15cbbb0ab62014fd256371025227",
+      "renderSha256": "ba5a1e9ea7ae30db106d55dfd167741f6a6003898fe2eff599f31ef6d9693d7b",
+      "learningRequirement": "IND-007"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "bioprinting",
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-light.svg",
+      "gitBlob": "0c0096185ad3f00dd51bf98caf047488ce4806ab",
+      "bytes": 6704,
+      "sha256": "e844c4079ab1e2afce6c3be5a7f303db2582063cd40b92baf2f0f67764a89258",
+      "renderSha256": "4ba0541894b4d4cb8bc504555fe3aceef593902daeee540ce3a90dc943e1edeb",
+      "learningRequirement": "IND-029"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "bioprinting",
+      "path": "wiki/education/concepts/measurement/functional-models/images/printed-plan-construct-and-channel-checks-v1-dark.svg",
+      "gitBlob": "c6c0fb43ce3d879d5aa0d10a38462382978f32b9",
+      "bytes": 6704,
+      "sha256": "a862006b238de3d71c3a433e1bdec55a4efb8821429f740c24e3159150194163",
+      "renderSha256": "6b0b4af3f2b54684dfa95959ab2f11ba10cbbaa219f2f957275b250a769dc4ce",
+      "learningRequirement": "IND-029"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cell-lines",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-light.svg",
+      "gitBlob": "dd0204a28eb7a7b8720c830b4794f0c13c4ffcc2",
+      "bytes": 6944,
+      "sha256": "5b3c619e1566760b331f3a8dfcc8bfe2cd8432a6e132687cadfa57bc90a79f56",
+      "renderSha256": "03515e9f37eafda0be10f862f916fa5cf6fd986713cd0f09b904017cb41ecc30",
+      "learningRequirement": "IND-048"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "cell-lines",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cell-line-history-and-independent-quality-checks-b10-v1-dark.svg",
+      "gitBlob": "aa4ec3ce48d9ffd695d032363cdd5fe79ae4f7cf",
+      "bytes": 6944,
+      "sha256": "6c8e3efb103f8d93729597bf09b51269dd0539bbc7bd90ff93312caeafe8de95",
+      "renderSha256": "b0e3c9fdc1a1583b983016f6d212b955adc5b63d8ff122200a0e877242d425c4",
+      "learningRequirement": "IND-048"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "co-culture",
+      "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-light.svg",
+      "gitBlob": "0c83c73b240fc632c86d8a8fbc54471bf23ba0df",
+      "bytes": 13283,
+      "sha256": "a1c8bb8c8c884f672d2e8ebba8a6be852b648e8ba344cda7f7d47ed35bbabf7c",
+      "renderSha256": "9c020a2e4ac38cdfb4f75fd276161acf7b290a828ad93fbc13659c5d5361b6a9",
+      "learningRequirement": "IND-067"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "co-culture",
+      "path": "wiki/education/concepts/measurement/functional-models/images/three-culture-arrangements-and-attributed-response-v1-dark.svg",
+      "gitBlob": "68e6c472cf7a50d2a496d940f741e15dacafa932",
+      "bytes": 13283,
+      "sha256": "b1a67f5a598edc892ac3309f3b485d76121a1a494ccfc9cf5a662ff52059b56f",
+      "renderSha256": "c494ed69400ad07012e13a8ce67b82f5b665005898bcdb6d82bb7a8908a56c4d",
+      "learningRequirement": "IND-067"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "dependency-mapping-crispr",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-light.svg",
+      "gitBlob": "698985aa367175c5949da3292a30ae6949b6cb31",
+      "bytes": 13405,
+      "sha256": "a63fd642493eeb035f61769567dedcea675b80dac18b79ceb8a16d607459de3a",
+      "renderSha256": "e9034098494e1a2c6a5b4417e06d09d6fef03813b147666645dd10cfee9b684d",
+      "learningRequirement": "IND-087"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "dependency-mapping-crispr",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pooled-guide-representation-and-cutting-effects-v1-dark.svg",
+      "gitBlob": "204aed5f26956645a8b884371c0852b05adacb08",
+      "bytes": 13405,
+      "sha256": "3cd36d7a5641e6f27f63274de88fc42494a7868df5fe752dcc49b993e731ba9e",
+      "renderSha256": "9ee90c48075987f9bedd7194a7b38d302b8a595040c42ccae3a9c07c66746c0d",
+      "learningRequirement": "IND-087"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "ex-vivo-drug-screen",
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-light.svg",
+      "gitBlob": "a560541e1fc35c844036b803c636814e4160c324",
+      "bytes": 10080,
+      "sha256": "5dca89d21e26bf34b91bf8c8261c008471806f2664fe9abddba2b38a1570215b",
+      "renderSha256": "2ad994aaaacc21f0143197d6ae788e518517846fe50f7cb029d370a23c8dd6ae",
+      "learningRequirement": "IND-109"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "ex-vivo-drug-screen",
+      "path": "wiki/education/concepts/measurement/functional-models/images/metabolic-signal-and-live-tumor-count-v1-dark.svg",
+      "gitBlob": "88ffc651eda7462ebcb0379e73ea43c82d7a2841",
+      "bytes": 10080,
+      "sha256": "3c72d3a705eaf3f38d837cdd919bf13bcedf2c1ed48835ea86551694987f05d2",
+      "renderSha256": "6071f26c3e1c13a22d1ed46377490ffafa5f80b36e41018919573cfeb6665bac",
+      "learningRequirement": "IND-109"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "ex-vivo-tumor-fragments",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-light.png",
+      "gitBlob": "7708cdf34f7721a6a84793c6e296ff1db44a86d6",
+      "bytes": 2890816,
+      "sha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "renderSha256": "b21bd4975d1ab634762c525d7529aa54c14bddc8a4f40fbdbf2bf968c630a7c9",
+      "learningRequirement": "IND-126"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "ex-vivo-tumor-fragments",
+      "path": "wiki/education/concepts/measurement/functional-models/images/cut-slice-local-neighbors-and-missing-supply-v1-dark.png",
+      "gitBlob": "ac0d8d4420029979cfd5ff8865d0108b1e9d1fdd",
+      "bytes": 2931713,
+      "sha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "renderSha256": "e4b13d4caeb4aa0b02888d0e1f22cd4ad9bc8619639727d377a201f87433270d",
+      "learningRequirement": "IND-126"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "organoid",
+      "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-light.svg",
+      "gitBlob": "467c784b36f9a580fb6e6e047c8876ac0d83eae4",
+      "bytes": 8978,
+      "sha256": "df744095d44ef593640823d2b4f1fc3b4d56b0b1b94348d5fc3492d06c8b0823",
+      "renderSha256": "47f51d05d130482c420553e52de5a107e9da9f810068dc6ec17f1a3ddcdccfd2",
+      "learningRequirement": "IND-175"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "organoid",
+      "path": "wiki/education/concepts/measurement/functional-models/images/organoid-retained-missing-and-added-cells-v1-dark.svg",
+      "gitBlob": "c3c39ee3a48ed496768d8ddf4031e7ab975d5cfc",
+      "bytes": 8978,
+      "sha256": "1c5a84f77800692fef1b7558519d29dbaa0f08afc1d8e57d6c387c0ebd237de8",
+      "renderSha256": "6601d5e275c34b60b01049d68268cbd99fded1a9790d2f752b4441bbcf062746",
+      "learningRequirement": "IND-175"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "patient-derived-xenograft",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-light.png",
+      "gitBlob": "25021018928b6c36d987a9d979e1460cfff03a19",
+      "bytes": 2807386,
+      "sha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490",
+      "renderSha256": "50ceb2542e320f0cdf1aa58cd00c343581e3ae797f4b9f722d48a04b824fd490",
+      "learningRequirement": "IND-204"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "patient-derived-xenograft",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-human-target-and-mouse-support-v1-dark.png",
+      "gitBlob": "fd5955207efdef07bef3c784aadc472cc400dbce",
+      "bytes": 2806820,
+      "sha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2",
+      "renderSha256": "070098541b2dd2667f25056f278fb640f76c74996fffb9569a403816a419a6a2",
+      "learningRequirement": "IND-204"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-light.svg",
+      "gitBlob": "c0f16124bf9613d36bfa78dad798c42f34b94f4a",
+      "bytes": 9575,
+      "sha256": "5b76c070f25b41fd38649591e36fb01154aec610a9e078c3a7274241baa00944",
+      "renderSha256": "4162a597578f9fbb42a936fb85d86583c2a30f2de8f1d8a4f1c8e92b55acd292",
+      "learningRequirement": "IND-221"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "pdx-vs-organoid-vs-tumor-fragment",
+      "path": "wiki/education/concepts/measurement/functional-models/images/pdx-vs-organoid-vs-tumor-fragment-comparison-compartments-v1-dark.svg",
+      "gitBlob": "89a5b9a57fe45ee7dc2d30119c80ece3233075a4",
+      "bytes": 9575,
+      "sha256": "b1aac1a6df8fa1bc8d75d2dafbc5871a56c6a4b54f3c5c780bb00c13de109112",
+      "renderSha256": "6cd01519d9e1f099177af633e5d5b96c61bca1514f144983238d72479ef3477c",
+      "learningRequirement": "IND-221"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "single-cell-mass-assays",
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-light.svg",
+      "gitBlob": "d9c8d5115abf29faf424bbfce8c3de328420ce84",
+      "bytes": 5343,
+      "sha256": "85c526794222efb5e29306ca08e4f8e02fc0aafb1edb7a1ab79eca618e98c463",
+      "renderSha256": "991e2119326bd9d274932e5d6b076c216ced2a933dec6e557b72536f702e67c9",
+      "learningRequirement": "IND-243"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "single-cell-mass-assays",
+      "path": "wiki/education/concepts/measurement/functional-models/images/buoyant-mass-and-same-cell-growth-slope-v1-dark.svg",
+      "gitBlob": "d6c0408fe15823b345d1378b3e25e1f06be0a5dc",
+      "bytes": 5343,
+      "sha256": "623667b011d90a0100ecb8076d5bd20b3ecef43d87f7c12fd7816c42cffd46e3",
+      "renderSha256": "2e5e26d578e6fdd836842d93bba391ee5f49db983ba960ea6f11a394cae1b8eb",
+      "learningRequirement": "IND-243"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "tumor-on-chip",
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-light.svg",
+      "gitBlob": "271b6a59756e19f62fae04a7defa846c95669162",
+      "bytes": 8812,
+      "sha256": "ed530c1be144aabcfd7caf85573e5039e5de1f5d36b30ee1170c5c68ba080841",
+      "renderSha256": "8fdf920d2d2b37121c1b88474e9b979cc38aa050f81a7654b2820846131585f6",
+      "learningRequirement": "IND-265"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "lesson": "tumor-on-chip",
+      "path": "wiki/education/concepts/measurement/functional-models/images/chip-inlet-interface-and-local-exposure-v1-dark.svg",
+      "gitBlob": "7d9cc451e578a8893dd9e6a346d6bd0fdbf3771d",
+      "bytes": 8812,
+      "sha256": "a4fe1944b002b879fa0a94557d1914bb1d64d4cf671f97a64438cad5f98d0af1",
+      "renderSha256": "df4e86a381ac5019bd4e4e5679f6037a1d8607758bcc89113cfd744134259bb4",
+      "learningRequirement": "IND-265"
+    }
+  ],
+  "mermaidVersions": [
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "69cf15d44a7f66fe14acccdd1abb1dfc377371a2f34e0e15b34f53acafa50b23",
+      "renderSha256": "47b15f1f5baade4c87eea70fdf2c03957e0e0c3abc044edd1034b41c7792890e",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "0e4371845de0cda0e20915356ef274c1154dfec9e58d861fc1934461f2df76cb",
+      "renderSha256": "b3195b6c8402cfbfcc8d5b664c38555250ae537a4addd98f041c4f65858d8a68",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "0b5af10c3cdf98296bc2d52553654d1b31ffa4a0a78d1cc48a15873fad79c782",
+      "renderSha256": "e21840ac1d3721ee9c4e2f09c410a7fa84f541665157303e41d313e93da19b57",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "73dc3fd096c1d0011e2c4374ae0dd819b06fa8e41833342f56d00c8037af6e3a",
+      "renderSha256": "dc4c62d47519dae04243fc261c7d82ffd8dd2859164a8c1cf190ba06909ee9a6",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "989c2067dc784fb55225e561b8fb185f15575c554c72bace3a96e874b1b5083b",
+      "renderSha256": "6a5361e8049465c2c2a344450f0cd2171124cc33440b52da40f4d099711da823",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "version": "original",
+      "ordinal": 0,
+      "sourceSha256": "7bfff617c5313b0f65e28780242fc205e59be194bc3bfb752be192dae46247e8",
+      "renderSha256": "19aaa20283fc8528c88e0c5275e1f81c4a963b790ede7d2d52dc5d113e17700d",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/bh3-profiling.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "69cf15d44a7f66fe14acccdd1abb1dfc377371a2f34e0e15b34f53acafa50b23",
+      "renderSha256": "47b15f1f5baade4c87eea70fdf2c03957e0e0c3abc044edd1034b41c7792890e",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "0e4371845de0cda0e20915356ef274c1154dfec9e58d861fc1934461f2df76cb",
+      "renderSha256": "b3195b6c8402cfbfcc8d5b664c38555250ae537a4addd98f041c4f65858d8a68",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-tumor-fragments.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "0b5af10c3cdf98296bc2d52553654d1b31ffa4a0a78d1cc48a15873fad79c782",
+      "renderSha256": "e21840ac1d3721ee9c4e2f09c410a7fa84f541665157303e41d313e93da19b57",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/experimental-settings.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "998d693c02bdc87fe18f3aaf9c63ce7aed14923c3edd9af36f7a61b815c3e654",
+      "renderSha256": "6cc5feb5a9d2885164d142dfabb7f4024923009c351e66749e79338112b69ebd",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "73dc3fd096c1d0011e2c4374ae0dd819b06fa8e41833342f56d00c8037af6e3a",
+      "renderSha256": "dc4c62d47519dae04243fc261c7d82ffd8dd2859164a8c1cf190ba06909ee9a6",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/patient-derived-xenograft.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "989c2067dc784fb55225e561b8fb185f15575c554c72bace3a96e874b1b5083b",
+      "renderSha256": "6a5361e8049465c2c2a344450f0cd2171124cc33440b52da40f4d099711da823",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/functional-models/tumor-on-chip.md",
+      "version": "later",
+      "ordinal": 0,
+      "sourceSha256": "7bfff617c5313b0f65e28780242fc205e59be194bc3bfb752be192dae46247e8",
+      "renderSha256": "19aaa20283fc8528c88e0c5275e1f81c4a963b790ede7d2d52dc5d113e17700d",
+      "error": "",
+      "visualReview": "Full extent rendered and inspected in completion-r1; labels and connectors visible, no clipping. Semantic flow reviewed against caption; no clinical validation inferred.",
+      "identityReverified": true,
+      "renderer": "Installed @mermaid-js/mermaid-cli reports 12.2.0 in this continuation; original invocation did not log its version.",
+      "limitation": "Light background only; six narrow renders are 168px wide. Prior full-extent inspection retained; no dark render claimed. Original runtime version is not retroactively certified."
+    }
+  ],
+  "distinctMermaidSources": 7,
+  "sourceArtworkAdopted": false,
+  "limits": "Inherited full-extent light/dark review reused by source/render identity. The original Mermaid runtime version was not recorded; no dark or new native rendering is claimed."
+}

@@ -1,0 +1,1064 @@
+{
+  "occurrences": [
+    {
+      "queryId": "access-and-regulation",
+      "rank": 1,
+      "elicitId": "ss-6082522",
+      "title": "NCCN Task Force report: Evaluating the clinical utility of tumor markers in oncology.",
+      "doi": "10.6004/JNCCN.2011.0137",
+      "pmid": "22138009",
+      "disposition": "candidate-supporting-definition-scoped",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "expert task-force consensus report (narrative review with proposed evidence-scoring system); not an efficacy study",
+      "readingDepth": "full text read from the open journal page (jnccn.org HTML, 302,992 characters of text); read the abstract, the definitions and \"Types of Validation\" section and the evidence-score passages; did not read the six tumor-type sections or the regulatory section",
+      "holds": [],
+      "claimAndAccessLimits": "2011 US task-force text; regulatory-oversight sections are dated and were not read; the proposed combined level-of-evidence score is the task force's own scheme, not a standard; no claim about any specific test.",
+      "canonicalOwnerCandidates": [
+        "analytical-vs-clinical-validation"
+      ]
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 2,
+      "elicitId": "ss-80222523",
+      "title": "The Role of Companion Diagnostics in Oncology Care",
+      "doi": "10.1097/01.cot.0000516748.21023.cf",
+      "pmid": null,
+      "disposition": "excluded-trade-article-access-hold",
+      "identityPairing": "no-pmid",
+      "evidenceType": "trade news article (Oncology Times, 3 pages, single author)",
+      "readingDepth": "identity only (Crossref); no abstract in Crossref, not indexed by Europe PMC; text not read",
+      "holds": [
+        "access: body text not obtained"
+      ],
+      "claimAndAccessLimits": "Trade article; no body text obtained; cannot support any claim. Publisher (Ovid/Wolters Kluwer) full text was not attempted behind its access wall.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 3,
+      "elicitId": "ss-17207703",
+      "title": "Companion Diagnostics for Targeted Cancer Drugs – Clinical and Regulatory Aspects",
+      "doi": "10.3389/fonc.2014.00105",
+      "pmid": "24904822",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative review (Frontiers in Oncology)",
+      "readingDepth": "full text read (open access PMC4032883 via Europe PMC XML, 45,124 characters); read regulatory-region sections (US, EU, Japan) and IDE passages",
+      "holds": [],
+      "claimAndAccessLimits": "2014 snapshot, superseded in the EU, partly in Japan; the review says \"serious risk\" where FDA language is \"significant risk\" (not resolved against FDA text here); Crossref stores the title with mojibake (â€“) while Europe PMC is clean.",
+      "canonicalOwnerCandidates": [
+        "ivdr (already current)",
+        "companion-diagnostic"
+      ]
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 4,
+      "elicitId": "ss-40289364",
+      "title": "Companion Diagnostics in Oncology - Current Status and Future Aspects",
+      "doi": "10.1159/000353454",
+      "pmid": "23860090",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative review",
+      "readingDepth": "abstract only (Europe PMC, 1,247 characters); publisher page returned a Cloudflare challenge (HTTP 403), not bypassed",
+      "holds": [
+        "access: full text not obtained (publisher challenge)"
+      ],
+      "claimAndAccessLimits": "Abstract-level only; opinion; 2013.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 5,
+      "elicitId": "ss-19918377",
+      "title": "Companion diagnostics: a regulatory perspective from the last 5 years of molecular companion diagnostic approvals",
+      "doi": "10.1586/14737159.2015.1045490",
+      "pmid": "26109316",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative regulatory review",
+      "readingDepth": "abstract only (736 characters); full text not open",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Abstract names no specific finding or number; author affiliations were not read; 2015.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 6,
+      "elicitId": "ss-72780478",
+      "title": "Development of Targeted Agents and Companion Diagnostics",
+      "doi": "10.1177/0092861512444032",
+      "pmid": null,
+      "disposition": "held-access-identity-only",
+      "identityPairing": "no-pmid",
+      "evidenceType": "unknown (Drug Information Journal article, 15 pages); could be a review",
+      "readingDepth": "identity only (Crossref); no abstract in Crossref; no PMID; not indexed in Europe PMC",
+      "holds": [
+        "access: no abstract or text obtained",
+        "no PMID: second identifier cannot pair"
+      ],
+      "claimAndAccessLimits": "Content never seen; evidence type is not established from metadata.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 7,
+      "elicitId": "ss-41813047",
+      "title": "Clinical and Regulatory Aspects of Companion Diagnostic Development in Oncology",
+      "doi": "10.1002/cpt.955",
+      "pmid": "29197081",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative review",
+      "readingDepth": "abstract only (474 characters, evidently truncated); publisher page returned a Cloudflare challenge (HTTP 403), not bypassed",
+      "holds": [
+        "access: full text not obtained (publisher challenge)"
+      ],
+      "claimAndAccessLimits": "Crossref year 2017 vs Europe PMC 2018 (online vs issue date); abstract-level.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 8,
+      "elicitId": "ss-248403812",
+      "title": "Companion Diagnostics.",
+      "doi": "10.5858/arpa.2021-0151-CP",
+      "pmid": "35472701",
+      "disposition": "candidate-supporting-consensus-scoped",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "expert root-cause analysis: CAP Personalized Health Care Committee meeting with industry representatives; not a measured concordance study",
+      "readingDepth": "abstract read in full (2,112 characters); full text not accessible (publisher Cloudflare challenge on the sibling Meridian/ARPA host, HTTP 403; Europe PMC has no full text)",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Consensus/expert-opinion; no assay-concordance, outcome or patient data; Elicit title \"Companion Diagnostics.\" is a truncation of the resolved title (DOI and PMID agree); Crossref year 2022 vs Europe PMC 2023 (online vs Jan 2023 issue).",
+      "canonicalOwnerCandidates": [
+        "companion-diagnostic"
+      ]
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 9,
+      "elicitId": "ss-286640674",
+      "title": "Strategic Integration of Companion Diagnostics in Precision Oncology: Key Factors, Drug Development Timelines, and Regulatory Insights from U.S. FDA Approvals",
+      "doi": "10.1007/s43441-026-00917-z",
+      "pmid": "41845174",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "retrospective cross-sectional regulatory-database analysis (354 FDA oncology indications, 127 drugs, 2014-2024) with regression; observational",
+      "readingDepth": "abstract read in full (2,093 characters); publisher page returned a \"Client Challenge\" (HTTP 200 with JavaScript wall), not bypassed",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Abstract-level only; 2026 paper; do not cite as causal.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 10,
+      "elicitId": "ss-75728205",
+      "title": "IOM Workshop: Better Oversight Needed on Diagnostic Tests Used for Tailored Therapies",
+      "doi": "10.1097/01.COT.0000358148.66012.C3",
+      "pmid": null,
+      "disposition": "excluded-trade-article-access-hold",
+      "identityPairing": "no-pmid",
+      "evidenceType": "trade news article (Oncology Times, 2009, 2 pages)",
+      "readingDepth": "identity only (Crossref); not indexed in Europe PMC; text not read",
+      "holds": [
+        "access: body text not obtained",
+        "no PMID"
+      ],
+      "claimAndAccessLimits": "Trade report of a 2009 workshop; no body text obtained.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 11,
+      "elicitId": "ss-2847698",
+      "title": "Considerations for the successful co-development of targeted cancer therapies and companion diagnostics",
+      "doi": "10.1038/nrd4101",
+      "pmid": "24008432",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "Nature Reviews Drug Discovery \"Opinion\" article (publisher page labels it Opinion; Europe PMC types it Review)",
+      "readingDepth": "abstract plus open publisher landing page (abstract, glossary and figure legend only; body is behind the Springer Nature paywall, 335 kB page, 21,501 characters of text)",
+      "holds": [
+        "access: body behind paywall"
+      ],
+      "claimAndAccessLimits": "Body not read; opinion article; dated to a draft guidance.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 12,
+      "elicitId": "ss-284520359",
+      "title": "Milestone to Ensure Safety and Efficacy of Companion Diagnostic (CDx) That Support Treatment Decisions in Cancer Patients",
+      "doi": "10.3390/diagnostics16010155",
+      "pmid": "41515650",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative regulatory-document analysis producing manufacturer checklists, checked for feasibility by industry experts; no patient data",
+      "readingDepth": "full text read in part (open access PMC12785362 via Europe PMC XML, 67,205 characters): abstract, introduction, methods and checklist tables searched and read; not every table line read",
+      "holds": [],
+      "claimAndAccessLimits": "Authors label the EU regime \"EMA\"; the EU conformity route is by notified body under IVDR, so that label is imprecise; checklists are not validated against outcomes.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 13,
+      "elicitId": "ss-13763105",
+      "title": "Clinical trial designs for evaluating the medical utility of prognostic and predictive biomarkers in oncology",
+      "doi": "10.2217/PME.09.49",
+      "pmid": "20383292",
+      "disposition": "candidate-supporting-definition-scoped",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "single-author methodological review of trial designs (not a trial)",
+      "readingDepth": "full text read in part (author manuscript PMC2851173 via NCBI efetch XML, 71,226 characters): abstract, executive summary, design sections searched and read; the Europe PMC XML endpoint returned HTTP 500 and the PMC HTML page is a JavaScript wall, so efetch was used",
+      "holds": [],
+      "claimAndAccessLimits": "Design guidance by one author (2009/2010); no outcome data; Crossref 2009 online vs Europe PMC 2010.",
+      "canonicalOwnerCandidates": [
+        "biomarker-stratified-design"
+      ]
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 14,
+      "elicitId": "ss-244485175",
+      "title": "Oncology drug-companion diagnostic combinations.",
+      "doi": "10.1016/j.ctarc.2021.100492",
+      "pmid": "34844911",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "short narrative analysis of the FDA list of cleared or approved companion diagnostics",
+      "readingDepth": "abstract read in full (1,021 characters); no open full text",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Count is a dated snapshot; abstract-level.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "access-and-regulation",
+      "rank": 15,
+      "elicitId": "ss-7325759",
+      "title": "Drug-diagnostic codevelopment strategies: FDA and industry dialog at the 4th FDA/DIA/PhRMA/PWG/BIO Pharmacogenomics Workshop.",
+      "doi": "10.2217/14622416.10.1.127",
+      "pmid": "19102722",
+      "disposition": "excluded-historical-conference-report",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "workshop breakout-session report (Europe PMC type: Conference Proceedings); hypothetical case studies",
+      "readingDepth": "abstract read in full (920 characters)",
+      "holds": [],
+      "claimAndAccessLimits": "Reports a December 2007 workshop; predates the 2014 final FDA guidance; discussion not data.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 1,
+      "elicitId": "ss-30177312",
+      "title": "[Breast TUMORS].",
+      "doi": "10.1201/b13192-7",
+      "pmid": "13323898",
+      "disposition": "held-identifier-conflict",
+      "identityPairing": "CONFLICT",
+      "evidenceType": "not determinable: the DOI is a 2005 textbook chapter, the PMID is a 1956 French journal item",
+      "readingDepth": "identity only: Crossref record for the DOI and Europe PMC record for the PMID compared; neither source text read (the PMID record has no abstract and no authors)",
+      "holds": [
+        "identifier conflict DOI vs PMID: two different works, not repaired"
+      ],
+      "claimAndAccessLimits": "DOI 10.1201/b13192-7 resolves to \"Breast tumors\" by Jordan and Thomas, chapter in Tumor Diagnosis (2nd edition), 2005, pp 131-196 (Crossref type book-chapter; Europe PMC has no record by that DOI). PMID 13323898 resolves to \"[Breast TUMORS].\" La Revue du praticien 1956;6(13):1359-1456, no authors, no abstract. Same words in the title, two different works; neither is chosen.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 2,
+      "elicitId": "ss-243622588",
+      "title": "P103. Intraoperative inking of breast specimens improves margin orientation concordance between the operating theatre and the pathology laboratory",
+      "doi": "10.1016/j.ejso.2021.03.107",
+      "pmid": null,
+      "disposition": "held-access-identity-only",
+      "identityPairing": "no-pmid",
+      "evidenceType": "conference poster abstract (ESSO/ABS-style meeting abstract, European Journal of Surgical Oncology 47(5), e323)",
+      "readingDepth": "identity only (Crossref); no abstract in Crossref; not indexed in Europe PMC; no PMID",
+      "holds": [
+        "access: abstract body not obtained"
+      ],
+      "claimAndAccessLimits": "Conference abstract; a title is not evidence; the meeting name was not verified from the record.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 3,
+      "elicitId": "ss-24409479",
+      "title": "The pathology of invasive breast cancer A Syllabus Derived from Findings of the National Surgical Adjuvant Breast Project (Protocol No. 4)",
+      "doi": "10.1002/1097-0142(197507)36:1<1::AID-CNCR2820360102>3.0.CO;2-4",
+      "pmid": "173455",
+      "disposition": "excluded-historical-descriptive",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "descriptive correlation study of 1,000 invasive breast carcinomas (NSABP protocol 4), 1975; non-randomised pathology syllabus",
+      "readingDepth": "abstract read in full (1,548 characters); full text not open",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "1975; superseded by CAP protocols; abstract-level; Crossref author list includes the string \"With the Assistance of Carol Redmond, ScD\".",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 4,
+      "elicitId": "ss-23818501",
+      "title": "[Recent therapeutic options and expectations to the pathologist].",
+      "doi": null,
+      "pmid": "18035674",
+      "disposition": "held-access-identity-pmid-only",
+      "identityPairing": "no-doi",
+      "evidenceType": "German-language conference-proceedings narrative (Verhandlungen der Deutschen Gesellschaft fur Pathologie 89, 2005, pp 59-67); guideline-interface summary",
+      "readingDepth": "abstract read in full (1,415 characters, English abstract of a German article); no full text",
+      "holds": [
+        "no DOI: identity pairs on PMID alone",
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "No DOI in the frozen record, so identity rests on the PMID alone (single-identifier match, title and authors match); Europe PMC lists the year as 2005.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 5,
+      "elicitId": "ss-23091406",
+      "title": "Variability in Gross and Microscopic Pathology Reporting in Excisional Biopsies of Breast Cancer Tissue",
+      "doi": "10.1111/j.1075-122X.2006.00222.x",
+      "pmid": "16509839",
+      "disposition": "candidate-supporting-descriptive-scoped",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "descriptive audit of 91 consecutive outside-slide-review excisional biopsies from 50 hospitals (Europe PMC type: Evaluation Study)",
+      "readingDepth": "abstract read in full (2,024 characters); no open full text",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Selected second-opinion cases from mostly south-western US hospitals, not a population sample; pre-2006; no outcome measured.",
+      "canonicalOwnerCandidates": [
+        "breast-margins-and-re-excision"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 6,
+      "elicitId": "ss-225519900",
+      "title": "Grossing Breast Cancer Specimens: A Comprehensive Review",
+      "doi": "10.1097/pcr.0000000000000388",
+      "pmid": null,
+      "disposition": "context-review-no-claim",
+      "identityPairing": "no-pmid",
+      "evidenceType": "narrative review (AJSP: Reviews and Reports)",
+      "readingDepth": "abstract read in full (from the Crossref record; the journal has no Europe PMC entry); full text not accessed",
+      "holds": [
+        "no PMID",
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "No PMID; abstract-level; publisher text not attempted past the Crossref record.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 7,
+      "elicitId": "ss-201832276",
+      "title": "Intraoperative inking is superior to suture marking for specimen orientation in breast cancer",
+      "doi": "10.1111/tbj.13508",
+      "pmid": "31482614",
+      "disposition": "candidate-supporting-with-limits",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "single-centre retrospective cohort (189 patients, 2013-2017)",
+      "readingDepth": "abstract read in full (1,347 characters); full text not accessible (Wiley Cloudflare challenge, HTTP 403, not bypassed; no PMC copy)",
+      "holds": [
+        "access: full text not obtained (publisher challenge)"
+      ],
+      "claimAndAccessLimits": "The title says \"superior\", but the primary margin comparison was not significant; the significant result is a proxy (residual disease at re-excision among positive margins) in a small subgroup of 45; retrospective; Crossref 2019 vs Europe PMC 2020 (online vs issue).",
+      "canonicalOwnerCandidates": [
+        "breast-margins-and-re-excision"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 8,
+      "elicitId": "ss-212621275",
+      "title": "Lack of Standardization in the Processing and Reporting of Post-Neoadjuvant Breast Cancer Specimens: A Survey of Canadian Pathologists and Pathology Assistants.",
+      "doi": "10.5858/arpa.2019-0539-OA",
+      "pmid": "32142368",
+      "disposition": "candidate-supporting-descriptive-scoped",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "electronic survey of Canadian pathologists and pathology assistants (63 responses)",
+      "readingDepth": "abstract read in full (1,897 characters); full text not accessible (ARPA/Meridian Cloudflare challenge, HTTP 403, not bypassed)",
+      "holds": [
+        "access: full text not obtained (publisher challenge)"
+      ],
+      "claimAndAccessLimits": "Small, one-country, self-reported survey; response rate not stated in the abstract; describes practice, not accuracy or outcomes; the authors' recommendations are their own.",
+      "canonicalOwnerCandidates": [
+        "treatment-effect-in-pathology"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 9,
+      "elicitId": "ss-43070291",
+      "title": "Limited resection for breast cancer: a study of inked specimen margins before radiotherapy.",
+      "doi": "10.1016/0360-3016(87)90163-5",
+      "pmid": "2444573",
+      "disposition": "excluded-historical-descriptive",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "retrospective comparative series, 108 patients (1987)",
+      "readingDepth": "abstract read in full (886 characters); no open full text",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "1987; abstract-level; includes a re-excision subgroup after outside biopsy.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 10,
+      "elicitId": "ss-23940359",
+      "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group",
+      "doi": "10.1038/modpathol.2015.74",
+      "pmid": "26205180",
+      "disposition": "already-cited-by-pending-owner-no-change",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "international working-group practice recommendations (Europe PMC: Practice Guideline); built on a review of 28 trials' and 25 sites' standard operating procedures",
+      "readingDepth": "full text read in part from the open publisher page (74,807 characters of text): abstract, methods, sampling and cellularity sections read; the figures and tables were not read as images",
+      "holds": [],
+      "claimAndAccessLimits": "Consensus recommendations for clinical trials, not accuracy data; the FDA minimum is quoted second-hand and was not checked against the FDA guidance here.",
+      "canonicalOwnerCandidates": [
+        "treatment-effect-in-pathology"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 11,
+      "elicitId": "ss-17786056",
+      "title": "The effect of intraoperative specimen inking on lumpectomy re-excision rates",
+      "doi": "10.1186/1477-7819-8-4",
+      "pmid": "20082705",
+      "disposition": "candidate-supporting-with-limits",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "single-surgeon retrospective before/after quality-improvement comparison (65 patients; historical control)",
+      "readingDepth": "full text read in part (open access PMC2821385, 18,258 characters): abstract, methods, results, Table 2 and limitations read in full",
+      "holds": [],
+      "claimAndAccessLimits": "Non-randomised, sequential periods, one surgeon, larger tumours in the inking group (grade 3 46% vs 23%, p = 0.04); the authors themselves call the study a practice improvement, not a test of why inking works.",
+      "canonicalOwnerCandidates": [
+        "breast-margins-and-re-excision"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 12,
+      "elicitId": "ss-247163500",
+      "title": "Neoadjuvant Therapy in Breast Cancer: Histologic Changes and Clinical Implications.",
+      "doi": "10.1016/j.path.2021.11.004",
+      "pmid": "35236634",
+      "disposition": "context-review-no-claim",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative review (Surgical Pathology Clinics)",
+      "readingDepth": "abstract read in full (1,151 characters); publisher page returned a Cloudflare challenge (HTTP 403)",
+      "holds": [
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Abstract-level; Crossref title lacks the subtitle that Elicit and Europe PMC carry (not a mismatch).",
+      "canonicalOwnerCandidates": [
+        "rcb"
+      ]
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 13,
+      "elicitId": "ss-21792644",
+      "title": "[Margin status in invasive breast cancer].",
+      "doi": "10.1684/bdc.2008.0766",
+      "pmid": "19091649",
+      "disposition": "held-doi-unresolved-pmid-only",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "narrative literature review (French, Bulletin du Cancer 2008 by DOI prefix and Europe PMC metadata)",
+      "readingDepth": "abstract read in full (1,220 characters, English abstract of a French article); no full text",
+      "holds": [
+        "DOI not resolvable at Crossref or doi.org (HTTP 404); pairing from Europe PMC only",
+        "access: full text not obtained"
+      ],
+      "claimAndAccessLimits": "Europe PMC pairs DOI 10.1684/bdc.2008.0766 with PMID 19091649, but the DOI returns 404 from both Crossref and doi.org even though prefix 10.1684 is registered to Crossref, so the DOI cannot be independently resolved; identity rests on Europe PMC's pairing and the PMID.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 14,
+      "elicitId": "ss-528713",
+      "title": "Specimen‐orientated radiography helps define excision margins of malignant lesions detected by breast screening",
+      "doi": "10.1002/bjs.1800810165",
+      "pmid": "8155117",
+      "disposition": "held-identifier-conflict",
+      "identityPairing": "CONFLICT",
+      "evidenceType": "PMID record is a research article (Dixon 1993); DOI record is a letter/comment (Carter 1994)",
+      "readingDepth": "identity only plus abstract of the PMID record read; DOI record is a letter",
+      "holds": [
+        "identifier conflict DOI vs PMID: letter vs original article, not repaired"
+      ],
+      "claimAndAccessLimits": "DOI 10.1002/bjs.1800810165 resolves (Crossref and Europe PMC PMID 8313104) to Carter C, Carty N, Royle G, Br J Surg 1994;81(1):151-152, type Letter/Comment, with the same title. PMID 8155117 resolves to Dixon JM, Ravi Sekar O, Walsh J, Paterson D, Anderson TJ, Br J Surg 1993;80(8):1001-1002, DOI 10.1002/bjs.1800800822 (confirmed in Crossref). The Elicit record joins the 1994 letter's DOI to the 1993 article's PMID; neither is chosen.",
+      "canonicalOwnerCandidates": []
+    },
+    {
+      "queryId": "breast-cancer",
+      "rank": 15,
+      "elicitId": "ss-22995004",
+      "title": "Change in tumor cellularity of breast carcinoma after neoadjuvant chemotherapy as a variable in the pathologic assessment of response",
+      "doi": "10.1002/cncr.20134",
+      "pmid": "15042669",
+      "disposition": "candidate-supporting-with-limits",
+      "identityPairing": "doi-and-pmid-agree-in-europepmc",
+      "evidenceType": "pathology comparison of paired core biopsies and resections in 240 patients (120 treated within a paclitaxel-then-FAC trial, 120 untreated controls); the PubMed tag \"Randomized Controlled Trial\" reflects the source trial, not a randomised test of cellularity",
+      "readingDepth": "abstract read in full (2,967 characters; the first read dropped the \"<\" statistics, re-read from the raw JSON); full text not accessible (Wiley Cloudflare challenge, HTTP 403)",
+      "holds": [
+        "access: full text not obtained (publisher challenge)"
+      ],
+      "claimAndAccessLimits": "2004; cellularity method here (percentage of tumour area containing invasive carcinoma) predates and is not the RCB protocol; do not relabel as an efficacy trial; abstract-level.",
+      "canonicalOwnerCandidates": [
+        "tumor-bed-cellularity"
+      ]
+    }
+  ],
+  "rawCaptureCountVerified": 133,
+  "captureSha256": [
+    {
+      "sha256": "a3521f40c8d6a36140e7ca1d9532a0582f1382deeb3d6e736eb418d6f69d347d",
+      "bytes": 8398
+    },
+    {
+      "sha256": "0af6ab31034195400a84c4cacd3b2cf8203bae9e1490d7d171a55bc0454c5b73",
+      "bytes": 54
+    },
+    {
+      "sha256": "d2e62ba648ff23964c1df7a8eeb4e8c4e49c12401e914c689a4680bfeaa5a427",
+      "bytes": 2568
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "d83d11d14424a728ec9b7d343fdfd29c4938cddb387d4161e1a9fe71140658bd",
+      "bytes": 186
+    },
+    {
+      "sha256": "5f1fec82be89d26d32a6b4e744b26d68579237e4d669d7d3cdd0726bf0db0990",
+      "bytes": 3947
+    },
+    {
+      "sha256": "689881c33ef5b7a993183611393672b35f5c32ae433b366f54b321421aced0d0",
+      "bytes": 6096
+    },
+    {
+      "sha256": "7e41f698075971d58f9ed864b84266c5e3fdf1322ad306f9b0eb3ede33e428f6",
+      "bytes": 1625
+    },
+    {
+      "sha256": "c4fb7e9edae9ae2778caa437dfc30a107cde815b5e1c669dd4b516a471813756",
+      "bytes": 8110
+    },
+    {
+      "sha256": "0dabd28dd9a6dfd2671b31cb9d387c633a4895aebc29a8329a4564b5e186bb83",
+      "bytes": 6933
+    },
+    {
+      "sha256": "44715e42d9bf4f0d87f52e189a8dbddb9626a69ec80f6846df67df23892d776d",
+      "bytes": 9463
+    },
+    {
+      "sha256": "e34dbae71e0c2587258dce77e1b532452504d65351e67ffa23cf3c88eebc431f",
+      "bytes": 14852
+    },
+    {
+      "sha256": "bb968978dece55d2fd0310d5296ad11ae0170057eadd4ced624ee81015a93e7a",
+      "bytes": 34
+    },
+    {
+      "sha256": "8cd52bd6ede9bcf6c9caf630ace6ac889615682f8f51f1013562300824ed6131",
+      "bytes": 20660
+    },
+    {
+      "sha256": "2803b3b33b92a6aa223e7e0fb1daf0c1afc7b1447881f8056c95f04709722593",
+      "bytes": 10612
+    },
+    {
+      "sha256": "06af3e4d52d6d7693c591652f2ba4e4b7a2f9ccb677ae8c44ce3d0686451eb2f",
+      "bytes": 4540
+    },
+    {
+      "sha256": "fb3d2a6b121084035580737342fec16b9f3fee61ef9cf6b2fb40bedc2ef214ba",
+      "bytes": 33721
+    },
+    {
+      "sha256": "d5913150610a52748d3445d802433532fab0938145bbbd6fddb2169ed7ecbf1d",
+      "bytes": 4578
+    },
+    {
+      "sha256": "8e7db9bd2da53de8bb0736b046f93ad652daffb8b14d769e7e8420f53c8989d1",
+      "bytes": 65554
+    },
+    {
+      "sha256": "313d3c5c59441b583bf4cabe7229316a3d4b4bf9328ef9b1778c4b8a97a05f75",
+      "bytes": 8826
+    },
+    {
+      "sha256": "b975f1dbfbe8bb0cebfa5edb98fca31376ce68f3371c34fca73001f0bd0de7f8",
+      "bytes": 19854
+    },
+    {
+      "sha256": "188b3d4c53de427455778d01f472a347670cdfafb1161f2980b799eaf7c73d9b",
+      "bytes": 45255
+    },
+    {
+      "sha256": "c20a7c33d709dae394162d126b892e0a6dad2adbb0691c6aed362f2d8cef34b8",
+      "bytes": 31403
+    },
+    {
+      "sha256": "c54d88003750e757baadbf98cd94412c329f20827bac1eb0204e446250b95026",
+      "bytes": 20000
+    },
+    {
+      "sha256": "5a4fef96c802b3ba52d7d3f62dc336f32bffde8fd2ba8f78fc7ea4ec3ba3ff81",
+      "bytes": 13703
+    },
+    {
+      "sha256": "de0381d403deede796f9274b16a862dbbf87e9958e70af5a212481ffd05731a9",
+      "bytes": 32221
+    },
+    {
+      "sha256": "c26c9949d5f19665e843afde0a5e87d4e93e85a295e8af072655259c585c827a",
+      "bytes": 6821
+    },
+    {
+      "sha256": "34c2cebd6e2fd51e9848ec5f3d5ae8daa2eea2b6903436a217c6b44e81249a81",
+      "bytes": 11571
+    },
+    {
+      "sha256": "e0065a4af40f9be0f8026931421ecd5d21a3a3236e6b3e00ce16c15df236007e",
+      "bytes": 8156
+    },
+    {
+      "sha256": "79764f2d7d437d7101b0e53da80321be85b7db884d07a8dc92e22bc6c6a5cb8c",
+      "bytes": 5312
+    },
+    {
+      "sha256": "446a383a5714395782e9fdadafe9c82ccebff73659bb7f03e320ca54dc2abc85",
+      "bytes": 4641
+    },
+    {
+      "sha256": "9d4cba4792b8f097c508c8b74ac42c486c1b24be962fd5a8215b71b34fa7a681",
+      "bytes": 19836
+    },
+    {
+      "sha256": "e263e912a50c202c750db490d0dc05851da22fe2a070db46d237a9210e0e8014",
+      "bytes": 3950
+    },
+    {
+      "sha256": "aa8772276e7df3066a0f1e519f4345f8099af3a62f8b2e42584a51218f607c79",
+      "bytes": 1694
+    },
+    {
+      "sha256": "d59f8aa21e52371e6f26f7921dded531da9f57104519c14cddcf38d42636b750",
+      "bytes": 1679
+    },
+    {
+      "sha256": "6ae58ed63441fa5a6ba7a17eaa8edb8a2f52a4b82966532358f1bf058375fd64",
+      "bytes": 4214
+    },
+    {
+      "sha256": "2d3b6d0a4208fb77daba3636f4d3d2da89eaa2460ddcc6ed636e11deb15d1090",
+      "bytes": 4262
+    },
+    {
+      "sha256": "1d48af829e9c4586b846612a8456d47ae9ed901ec0350db5f7cbfb587ac12a64",
+      "bytes": 4208
+    },
+    {
+      "sha256": "104ba458bde2ce8bc76f4f5255d7803ee1c0211cc2fe0404a061c59eee96e910",
+      "bytes": 4250
+    },
+    {
+      "sha256": "e284a25c7954d392b2c359b61750dbe20a62e59c071e49cbd2e61ffe1c7bbc83",
+      "bytes": 6447
+    },
+    {
+      "sha256": "d162e4e991bc7b737fb87233709c053860fdd742e02bdf16378e4fabf6b4dc25",
+      "bytes": 6491
+    },
+    {
+      "sha256": "59c9a7c84557eb58d5a235efe6a4373b55e5bdf405465b6b965d4dd47b24b406",
+      "bytes": 4018
+    },
+    {
+      "sha256": "1396ba30723f7fab59756bd25837cd826a9d5b49023257c6750cd2b78061c287",
+      "bytes": 4054
+    },
+    {
+      "sha256": "435172eb6d12d3df89f4ee6f0ccd3ba9638d359a6ac0a1f08dddaf39cf5d909b",
+      "bytes": 6756
+    },
+    {
+      "sha256": "28cf7884d51840389ca6a848511f8dc3d99e8df6e81195ecc388fb9b39b5f0fc",
+      "bytes": 6804
+    },
+    {
+      "sha256": "15a2a3fb3f037578a804673921415ea390fc5e78d98af82fdb3374601376750b",
+      "bytes": 7506
+    },
+    {
+      "sha256": "9f8479d346c827330f12ead5bccaadc5136fe4ac367852454444fabc27264e54",
+      "bytes": 7546
+    },
+    {
+      "sha256": "f71bbde88ba97bdc56e6e5b055123217ceac0d948b9ff646a4c88ff98a86eb84",
+      "bytes": 5016
+    },
+    {
+      "sha256": "66326ed2cd083bcd62e3410385ebeef6943c5f324c4c07f09c6c03abc7ea248b",
+      "bytes": 5060
+    },
+    {
+      "sha256": "c4117fa384eac4b4a09fdd2563a033ed986c2d3d75852ff534fca754c2fa9825",
+      "bytes": 199
+    },
+    {
+      "sha256": "327d6c69d6c49f799f516b4ad3e1a08c21ae02dd06358fcda9180712cc7daf0a",
+      "bytes": 8838
+    },
+    {
+      "sha256": "e651a2831b477a69821ce0d35536c599b096add6255418063653702b51174454",
+      "bytes": 8885
+    },
+    {
+      "sha256": "28817cca2a7913a470bcafd95c47cc8d6421c79b974a5fbd75bd6a332515c739",
+      "bytes": 5865
+    },
+    {
+      "sha256": "d50af9d6b2220f282aadf6830e19a4df4c287d3ba7419b8f32a0c9db52d5de40",
+      "bytes": 5898
+    },
+    {
+      "sha256": "e3f23e08b35696030f78dfc02e805cb6ae33f7346ca3c48ebb90f02a43873781",
+      "bytes": 4066
+    },
+    {
+      "sha256": "811ee5a282a5698680ff7fbd60504fbbf068bdf8ef9319bfb2131ac8cad8980e",
+      "bytes": 15489
+    },
+    {
+      "sha256": "641b803db5cbf95c7397cb37f68f829c81a7e45fd7838a0f5b386088b9ca8a18",
+      "bytes": 15529
+    },
+    {
+      "sha256": "6b2873700a9f4eb1b1ee89d3b01ec912ff004048e4f86da1aec1eb996d25bb8e",
+      "bytes": 197
+    },
+    {
+      "sha256": "be9ba8360f60d163a0ae221aae7811d11ea72c6a074d63d130641d26ae2ebcc3",
+      "bytes": 8167
+    },
+    {
+      "sha256": "6a110bd83e286f0bdf68298f76091734d0c82b85ba0b92022f58d914f0fbe5cc",
+      "bytes": 8166
+    },
+    {
+      "sha256": "29165cc7997d146e453f5d152dc5bd8b0548bec9f9d0f0f4245f4078992cad39",
+      "bytes": 4238
+    },
+    {
+      "sha256": "eabefa73b410f7b05d8ed10fd0023c49143969c24fe7905b8b8e0f4e21c25357",
+      "bytes": 4276
+    },
+    {
+      "sha256": "60e1002d3dab95f24208498407f13de1a5900ef3ea46e0ef907252d579a3850b",
+      "bytes": 4678
+    },
+    {
+      "sha256": "7e8db5858f99d9e9af99f65b9e9f954d940ac1f46106fd48d04ecf5ca29220e5",
+      "bytes": 4717
+    },
+    {
+      "sha256": "a7a24e08d1edbc0642610c3cd9ea228056c10825a4bc4f79982942addf3f043b",
+      "bytes": 7021
+    },
+    {
+      "sha256": "863ce6c1431138a26137657f348d39e57858b2e4e23479fe19f748b5e04b91fc",
+      "bytes": 7061
+    },
+    {
+      "sha256": "7b24c5f1c22ce068f688734bfd43e7d7def52a9425b65f93aa74644ef7aba8e8",
+      "bytes": 4953
+    },
+    {
+      "sha256": "468cc5110db49ec9c768648490259c9d58a89a393bc70d2115d2fcabb745b48f",
+      "bytes": 4991
+    },
+    {
+      "sha256": "3d3b9a6a46295dbd16629797910cfd1cf2185a6c6a5aacefea225e183da45889",
+      "bytes": 5354
+    },
+    {
+      "sha256": "f29ec0d6b5b1476b074de19de7b7abad03dff38e2865c7265865658a04a2b63b",
+      "bytes": 5404
+    },
+    {
+      "sha256": "66b717bf8fa0a7ad94f69f0ec102bd5fb5183be99e1cc0355d2e13dce99ca995",
+      "bytes": 6197
+    },
+    {
+      "sha256": "b000023496a5f22a5be37166ca620514557a5514f5d13bfe868e4fdb9e6bdc87",
+      "bytes": 6236
+    },
+    {
+      "sha256": "04089bc862c14b921bc94823bfb0e70bbf1afa630850e8368eab4bd7114cb4d6",
+      "bytes": 187
+    },
+    {
+      "sha256": "0058918f0c7fbcb2494ec997b9f21849331e633dc94bf9bbcdd8a3e6f4f2bd10",
+      "bytes": 1580
+    },
+    {
+      "sha256": "630fe232a466c7ced5d69abd2a7826c9ab3730c07bf85aec652e27b237603685",
+      "bytes": 4178
+    },
+    {
+      "sha256": "6d10259acfff74fa2823b377a1ebcb1b0b3d3cc35f94b8b80325d80795ee3381",
+      "bytes": 4226
+    },
+    {
+      "sha256": "d1b2568ef4768301428cf127db184aa24c91b3fb5d24dfa7888d31e023917b91",
+      "bytes": 4443
+    },
+    {
+      "sha256": "758011454b670caf1ef5f2a8d0660b17f9fb17cebee7a2b479663ae8a90f2095",
+      "bytes": 4493
+    },
+    {
+      "sha256": "c6765e7f22abaed934881f4ad8b27ad2938ae3e3109104aeb32d27cb50d051eb",
+      "bytes": 5113
+    },
+    {
+      "sha256": "6a172d152350a7914807984f918ecf876d93a8b9f76c66a5ae39d24d54590159",
+      "bytes": 5148
+    },
+    {
+      "sha256": "84daafdb517b78a6b2fb653e6defa13a54043a5bcf024a5effd1bba6e781a015",
+      "bytes": 2527
+    },
+    {
+      "sha256": "1fca6110c01b4f539829e607ea3408b8344ecaccafc356a0dad53da9f66e48e8",
+      "bytes": 4779
+    },
+    {
+      "sha256": "83e64c3516afcfcabc844a2c87edaaf93df4d723dce5bf88335a2180b468ae8c",
+      "bytes": 5636
+    },
+    {
+      "sha256": "6abe12d7341cfb9a0d4ad1937f2edd2cfc69ffba085744445f40735c018677c4",
+      "bytes": 5678
+    },
+    {
+      "sha256": "000b082b5e75693cfa5143c66128677862d5893474420a6fbfdd806b719716be",
+      "bytes": 195
+    },
+    {
+      "sha256": "807472ca2b762a2b06e79b5baf50a2a338443e73ba801d59043ecbbd2682884a",
+      "bytes": 4826
+    },
+    {
+      "sha256": "81c88fbc1026ceabefe57e97e1a5100cfec2bfb631cf11d671cf99b7161afc1b",
+      "bytes": 4866
+    },
+    {
+      "sha256": "d9695b812b6a386ddc9cd4e5602b09becc042ac1fe9324f67f1abad66529b609",
+      "bytes": 205
+    },
+    {
+      "sha256": "fc577fefff127c742b206c0d60fc0c076bde9615f0a31e4068a384c956600943",
+      "bytes": 205
+    },
+    {
+      "sha256": "e7e21638fe8d1a634414d026f8eb6578751de6a14534c5ca4b48ce102bd9a955",
+      "bytes": 163561
+    },
+    {
+      "sha256": "ea65c66a02b713e3864cc552634e0b2365cd01fab92dd415ddc6a6391a03ca47",
+      "bytes": 38514
+    },
+    {
+      "sha256": "36b70bc61f8943738a83851e27a71e1dc20f31f0564f25291c8a4b5aa0c37bbc",
+      "bytes": 106009
+    },
+    {
+      "sha256": "057b60dd0f982f0d253089140fbb77895dff83f4afd27c1534df2c07be867dd1",
+      "bytes": 21475
+    },
+    {
+      "sha256": "f9ba552aa12f1bf85c7d2e7878511ecc0684a19f9eca3b0447ad59a9beb03049",
+      "bytes": 150
+    },
+    {
+      "sha256": "4a956db8e5d0cfd8cd9182671819c794514ddfe7d2da11c1c525fa7098b91a9d",
+      "bytes": 69542
+    },
+    {
+      "sha256": "d8cd2cf3db3a9f18df63d159dca3418a3baa2f300fb853b4aa104d254f58cdd0",
+      "bytes": 5637
+    },
+    {
+      "sha256": "a233eba4437c249af53ed71adcd5a1c7c935e51c6e9d20da2a61102726bdc74d",
+      "bytes": 94
+    },
+    {
+      "sha256": "cf056f60eb601ccc72c07692eba33c3348d3cb15be772b37effdb319873da334",
+      "bytes": 334922
+    },
+    {
+      "sha256": "f3403140fd6b04a3e60f9df59b567d511b54eb23f0da0acf23b61b0d5820fb2c",
+      "bytes": 5603
+    },
+    {
+      "sha256": "3f2ba7809a3b43f2081a2e51425a83ac69d7c904311e03e048e9fee642f6ef7b",
+      "bytes": 5574
+    },
+    {
+      "sha256": "17d5843b3e04ef2b5f1abe9e2ed72a83903b453db32a1c204d6889fe229c8145",
+      "bytes": 5637
+    },
+    {
+      "sha256": "fd6eeea0ddd0b074a0228759d7c4b3180178ed5af2dbd0a904bf2f01cd351704",
+      "bytes": 2044801
+    },
+    {
+      "sha256": "ba2053f87dadf229a100f9f751491957fac6d6a50eced80dfa00ac51c2967182",
+      "bytes": 552486
+    },
+    {
+      "sha256": "c78f886c02dbf660121427c3d8702594bb14779d263a55b8b968d2a90bdf452d",
+      "bytes": 5673
+    },
+    {
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "bytes": 3038
+    },
+    {
+      "sha256": "5f2b9399ce08ce43b3bb7834c23d5af32fc7a322e8f4bbe7f2afb8e99ece85f2",
+      "bytes": 5670
+    }
+  ],
+  "scope": "Source and literature screening only. No curriculum or scientific claim coverage created. Seven optional owner proposals queued, not applied. Failed access bodies and identity-conflicted records are not citable evidence."
+}

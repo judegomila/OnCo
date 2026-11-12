@@ -1,0 +1,125 @@
+{
+  "owners": [
+    {
+      "side": "w",
+      "id": "lead-time-bias",
+      "fieldsChecked": 8,
+      "exactRenderedParagraphs": 10
+    },
+    {
+      "side": "w",
+      "id": "efs",
+      "fieldsChecked": 7,
+      "exactRenderedParagraphs": 7
+    },
+    {
+      "side": "w",
+      "id": "hazard-ratio",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    },
+    {
+      "side": "w",
+      "id": "hazard-ratio-basics",
+      "fieldsChecked": 2,
+      "exactRenderedParagraphs": 2
+    },
+    {
+      "side": "w",
+      "id": "confidence-interval",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    },
+    {
+      "side": "w",
+      "id": "p-value",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    },
+    {
+      "side": "w",
+      "id": "kaplan-meier-curve",
+      "fieldsChecked": 7,
+      "exactRenderedParagraphs": 9
+    },
+    {
+      "side": "w",
+      "id": "absolute-benefit",
+      "fieldsChecked": 7,
+      "exactRenderedParagraphs": 9
+    },
+    {
+      "side": "w",
+      "id": "surrogate-validation",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 10
+    },
+    {
+      "side": "w",
+      "id": "odds-ratio",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    },
+    {
+      "side": "w",
+      "id": "cross-trial-comparison",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "w",
+      "id": "denominators-and-conditional-probability",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "w",
+      "id": "population-versus-individual-risk",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "w",
+      "id": "graph-reading",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "f",
+      "id": "inconclusive-and-negative-evidence",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    },
+    {
+      "side": "f",
+      "id": "measurement-to-benefit-evidence",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "f",
+      "id": "growth-rate-inhibition",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "f",
+      "id": "trial-population-transportability",
+      "fieldsChecked": 5,
+      "exactRenderedParagraphs": 5
+    },
+    {
+      "side": "s",
+      "id": "immunogenicity-versus-efficacy",
+      "fieldsChecked": 6,
+      "exactRenderedParagraphs": 6
+    }
+  ],
+  "canonicalOwners": 19,
+  "sourceUnits": 255,
+  "unitsWithExactAppliedEvidence": 252,
+  "recapsExcluded": 3,
+  "appliedProofs": 266,
+  "renderedParagraphs": 118,
+  "scope": "Exact canonical field/index, raw UTF-8 passage and compact-JSON field/record hashes; exact reader paragraphs through EntityDetail. HTML block boundaries preserve source paragraphs around Read more controls. No browser hydration, deployment or independent semantic sign-off is asserted by these mechanical checks."
+}

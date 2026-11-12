@@ -1,0 +1,1214 @@
+{
+  "root": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checks": [
+      {
+        "id": "adcc-adcp-cdc",
+        "route": "/terms/adcc-adcp-cdc/",
+        "asOf": "2026-11-09",
+        "bytes": 31690,
+        "sha256": "8e3d0822a5ad15c642a409f37a81ef36fd8cf2454d8ccef8b66b99d278d65567",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antibody-structure",
+        "route": "/terms/antibody-structure/",
+        "asOf": "2026-11-09",
+        "bytes": 26097,
+        "sha256": "3d311ad503ce1bf89f1d02de4c1c4b3257ebe61ab8082fba1802470112e8a81c",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "route": "/terms/b-cells-and-plasma-cells/",
+        "asOf": "2026-11-09",
+        "bytes": 30342,
+        "sha256": "f91449fc05be45dea996c9d198566b3fa96eedefadc1835a01fb32a5c5247f2e",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "route": "/terms/isotypes-and-fc-silencing/",
+        "asOf": "2026-11-09",
+        "bytes": 34291,
+        "sha256": "f13f4dd16c49f473e79c67b67270cb33f5d58fe641f4370bfc70462a6afdfa98",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "route": "/terms/antigen-processing-machinery/",
+        "asOf": "2026-11-09",
+        "bytes": 37771,
+        "sha256": "63f07c38c999248435f678f3135720b1f7c831c07e2fa54534c4f26a195ad203",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "route": "/terms/hla-typing-and-nomenclature/",
+        "asOf": "2026-11-09",
+        "bytes": 31732,
+        "sha256": "809a1f81daefb47bf92525c32a6840e3fbc48ba29ac9e91e5126cd3f3b2abcfc",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla",
+        "route": "/terms/hla/",
+        "asOf": "2026-11-09",
+        "bytes": 42796,
+        "sha256": "af92dc397da22c355ec2a168dc30df52ee6cec6d88d705d22fa0f15007ed1436",
+        "sourceLinksChecked": 13,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "route": "/terms/tumor-associated-antigen/",
+        "asOf": "2026-11-09",
+        "bytes": 28456,
+        "sha256": "c7ee22cc909f6236af0eef37a0cb93a5901c82c0d826b5ca1222c11ecda0ac9e",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen",
+        "route": "/terms/antigen/",
+        "asOf": "2026-11-09",
+        "bytes": 27774,
+        "sha256": "2f9dff4663c7be196f2c23c10f33956fb001921a0eed98f69e4464a444bb6970",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "epitope",
+        "route": "/terms/epitope/",
+        "asOf": "2026-11-09",
+        "bytes": 27057,
+        "sha256": "254cc40954276934d1c5fc28a7d6ed171cf729b8614b626f146da273fd5d256d",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antibody",
+        "route": "/terms/antibody/",
+        "asOf": "2026-11-09",
+        "bytes": 29183,
+        "sha256": "1057802a77e18c115a72da124bfb4531c1fe5b23d1802418e610b08ef85e19bd",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b-cell",
+        "route": "/terms/b-cell/",
+        "asOf": "2026-11-09",
+        "bytes": 28184,
+        "sha256": "404b39354af7a1736312d540a04ca0816e47abc60d8f19313be4344ace58ef4f",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "adcc",
+        "route": "/terms/adcc/",
+        "asOf": "2026-11-09",
+        "bytes": 39176,
+        "sha256": "9ffea4f68b4ab80aafabcf7e0bce75281b38bbe2367b5299b72a2320f22eb35d",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fc-effector",
+        "route": "/terms/fc-effector/",
+        "asOf": "2026-11-09",
+        "bytes": 27826,
+        "sha256": "5f1f7a8c477cd275508881f5a6b9e123f41245f49b52b192965a3be4c7d5f12c",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "route": "/terms/dendritic-cell-cross-presentation/",
+        "asOf": "2026-11-09",
+        "bytes": 36359,
+        "sha256": "4e08d4655d895c74ee52f7689f4d8a9b8f7372153a22eb171b961d3aebb0ca7e",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "complement-in-cancer",
+        "route": "/pathways/complement-in-cancer/",
+        "asOf": "2026-11-09",
+        "bytes": 53401,
+        "sha256": "0eedd69c3593314faebb61fbc49ff0a247a597a07746da3e0f0c0b9088593338",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "route": "/terms/tertiary-lymphoid-structures/",
+        "asOf": "2026-11-09",
+        "bytes": 33390,
+        "sha256": "22ee21a8b7451af837c75a16ae2bd4109154b12f6175a9a3ded6ae79707a3c2f",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-a-02-01",
+        "route": "/biomarkers/hla-a-02-01/",
+        "asOf": "2026-11-09",
+        "bytes": 37543,
+        "sha256": "76fd1254e2c3accfc6fe17dcb8ef9690908898b3f5ea69139458099743259825",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tap1",
+        "route": "/targets/tap1/",
+        "asOf": "2026-11-09",
+        "bytes": 31117,
+        "sha256": "3bc48aa51cf7303e754d7ed9bf955daf52be73b254cc2b6c8fef98e2615483fc",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tap2",
+        "route": "/targets/tap2/",
+        "asOf": "2026-11-09",
+        "bytes": 31117,
+        "sha256": "b3968c899838a316f79d52d971c3fa043c01965a12b334b7a28059d2366e1051",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "erap1",
+        "route": "/targets/erap1/",
+        "asOf": "2026-11-09",
+        "bytes": 30725,
+        "sha256": "669c96630f3032433893936d6f9359cf0c8518cb729b9aa9042a3fa771e2a671",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "erap2",
+        "route": "/targets/erap2/",
+        "asOf": "2026-11-09",
+        "bytes": 30535,
+        "sha256": "edd22abb085771b848f4ce35fe0586c02638c9c7212d117a5776197257b0b0dc",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "b2m",
+        "route": "/targets/b2m/",
+        "asOf": "2026-11-09",
+        "bytes": 73535,
+        "sha256": "dc2a1b27b84d57d6c63ed9f6356610682f4a8585e03a9dfd2d1bde9b5eff1b13",
+        "sourceLinksChecked": 8,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-b",
+        "route": "/targets/hla-b/",
+        "asOf": "2026-11-09",
+        "bytes": 59545,
+        "sha256": "6269efecac09dd889f9c3052871248ca99e5f16aa4587db732b933bf46b90a7a",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-c",
+        "route": "/targets/hla-c/",
+        "asOf": "2026-11-09",
+        "bytes": 52457,
+        "sha256": "b25027412c6d71d1cf98cbd00e622ccf5d8f8565d45131d5d060be32bd057809",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-dra",
+        "route": "/targets/hla-dra/",
+        "asOf": "2026-11-09",
+        "bytes": 51110,
+        "sha256": "9f1a16c4ee05880a4b7ce200a39b786423f2b26e77225eef999fbb38bc7b8bba",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "hla-dqa1",
+        "route": "/targets/hla-dqa1/",
+        "asOf": "2026-11-09",
+        "bytes": 43735,
+        "sha256": "dbefbe964f24090a3c9a9d45140cb0ebffb03ed9b4b1fd6e88df702bfc04248d",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr3a",
+        "route": "/targets/fcgr3a/",
+        "asOf": "2026-11-09",
+        "bytes": 50002,
+        "sha256": "ac3216523452e39a69530959c5f90173dd0bb871ed7c2cd5b05ffb301c47d5ed",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr2a",
+        "route": "/targets/fcgr2a/",
+        "asOf": "2026-11-09",
+        "bytes": 45182,
+        "sha256": "0c7b83aa9242c9741df0244b074dcf8ce07b7ab820e85ae3c296aa84f6b818c5",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "fcgr2b",
+        "route": "/targets/fcgr2b/",
+        "asOf": "2026-11-09",
+        "bytes": 56647,
+        "sha256": "c7068f6d00b7acf23ad090165920683a577b3f2e6f727bf34f9ce565d05b21bf",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "apoptosis",
+        "route": "/terms/apoptosis/",
+        "asOf": "2026-11-09",
+        "bytes": 38789,
+        "sha256": "1548a8ec82a0a6b8ad6d1465b36cdd31aace527c94d4dad05926b8b7abd23a00",
+        "sourceLinksChecked": 12,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "autophagy",
+        "route": "/pathways/autophagy/",
+        "asOf": "2026-11-09",
+        "bytes": 45209,
+        "sha256": "857c641d2446d022177be826d0cb88d668c2fd8b3c99435fee84796ca875f41a",
+        "sourceLinksChecked": 8,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "necrosis",
+        "route": "/terms/necrosis/",
+        "asOf": "2026-11-09",
+        "bytes": 19659,
+        "sha256": "76227eaeeb2279d3bb07d8a3ab1184b4941bf6ede829913205dbaa6c8e6196d2",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "senescence",
+        "route": "/pathways/senescence/",
+        "asOf": "2026-11-09",
+        "bytes": 47989,
+        "sha256": "1398e423bbbba820984a7de1e62d3e77feadbf625fa69a36876f6b99869af8fa",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "warburg-effect",
+        "route": "/terms/warburg-effect/",
+        "asOf": "2026-11-09",
+        "bytes": 27543,
+        "sha256": "86e2006c417c4338525e94baf0cf2383161a9457e4be396f96cf430aad6b700b",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "route": "/pathways/ferroptosis-cell-death/",
+        "asOf": "2026-11-09",
+        "bytes": 48603,
+        "sha256": "856ab3cd2ded18dd416339a10d19d05669bc1716302586f0dbf6f2d6c30c97e2",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "route": "/terms/immunogenic-cell-death/",
+        "asOf": "2026-11-09",
+        "bytes": 34066,
+        "sha256": "c499b4d333ca442cdc99d782505c0e1532626c781842bea60d2339b7731d7435",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "route": "/pathways/ubiquitin-proteasome-system/",
+        "asOf": "2026-11-09",
+        "bytes": 70314,
+        "sha256": "190261b9042d6d07a127de17f36131b161497a37338674536261abb25189adad",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "route": "/pathways/lipid-metabolism-cancer/",
+        "asOf": "2026-11-09",
+        "bytes": 54182,
+        "sha256": "945db995fe57d5dbbe23ba47a7bf7a421c06f47ddbcae9841a792752ce5623bb",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "route": "/terms/er-stress-and-unfolded-protein-response/",
+        "asOf": "2026-11-09",
+        "bytes": 21121,
+        "sha256": "18532acb2e3ebd933ac45a979ae41b7a3ca6d3fa5e0b3ac7eb32f0fc37b1870b",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "route": "/terms/nutrient-sensing-ampk/",
+        "asOf": "2026-11-09",
+        "bytes": 20691,
+        "sha256": "6ee08c44905f67e4b1e2846172e38fb223451a2c05fbb99f6fd6ef1ba87a4655",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "route": "/terms/reactive-oxygen-species/",
+        "asOf": "2026-11-09",
+        "bytes": 17426,
+        "sha256": "73cebf1123a42958276d459f09701ee0556df171165ac8465679bd1bf3b77a37",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "route": "/terms/oxidative-phosphorylation/",
+        "asOf": "2026-11-09",
+        "bytes": 18083,
+        "sha256": "0f074716681a561931af7dd68341fd0676d63e03eac895ab2ba4bdf856308c3c",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "body": {
+    "scope": "Actual EntityDetail body text outside scripts, style and SVG; unchanged shared-draft field/body evidence reused at head406499596. No browser hydration or responsive check.",
+    "requirements": 110,
+    "passed": 110,
+    "rows": [
+      {
+        "id": "apoptosis-and-bcl2-family-mechanism",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-family",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-compartment",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-interpretation",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-mechanism",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-flux",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-specificity",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-clinical",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-mechanism",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-defences",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-measurement",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-translation",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-definition",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-signals",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-functional-test",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-translation",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-mechanism",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-necroptosis",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-sampling",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-immunity",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-state",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-measurement",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-secretions",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-escape",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-enzymes",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-fates",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-measurement",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-clinical",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-transport",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-members",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-compensation",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-rescue",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-branches",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-compartments",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-measurement",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-cancer",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-energy",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-inputs",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-adaptation",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-measurement",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-gradient",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-rates",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-calculation",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-method-version",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-chemistry",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-sensors",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-outcomes",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-context",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-pattern",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-heterogeneity",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-measurement",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-interpretation",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-comparison",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-exercise",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R01",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R02",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R03",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R04",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R05",
+        "batch": "antigen-review",
+        "owner": "adcc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R06",
+        "batch": "antigen-review",
+        "owner": "complement-in-cancer",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R07",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R08",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R09",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R10",
+        "batch": "antigen-review",
+        "owner": "antibody",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R11",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R12",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R13",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R14",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R14b",
+        "batch": "antigen-review",
+        "owner": "b-cell",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R15",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R16",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R17",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R18",
+        "batch": "antigen-review",
+        "owner": "fc-effector",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R19",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R20",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R21",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R22",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R23",
+        "batch": "antigen-review",
+        "owner": "antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R24",
+        "batch": "antigen-review",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R25",
+        "batch": "antigen-review",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R26",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R27",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R28",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R29",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R30",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R31",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R32",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R33",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R34",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R35",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R36",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R37",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R38",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R39",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R40",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R41",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R42",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R43",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R44",
+        "batch": "antigen-review",
+        "owner": "hla-a-02-01",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R45",
+        "batch": "antigen-review",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R46",
+        "batch": "antigen-review",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R47",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R48",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R49",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R50",
+        "batch": "antigen-review",
+        "owner": "binding-presentation-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R51",
+        "batch": "antigen-review",
+        "owner": "immunopeptidome",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R52",
+        "batch": "antigen-review",
+        "owner": "neoantigen",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R53",
+        "batch": "antigen-review",
+        "owner": "self-similarity-immune-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R54",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R55",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      }
+    ]
+  }
+}

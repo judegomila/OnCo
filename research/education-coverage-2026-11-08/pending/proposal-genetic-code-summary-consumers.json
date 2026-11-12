@@ -1,0 +1,332 @@
+{
+  "version": "proposal-genetic-code-summary-consumers",
+  "state": "Actual short/long summary selectors, no new canonical IDs or language approval",
+  "draft": 375,
+  "committedDataHead": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "records": [
+    {
+      "id": "dna-term-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA (ar)",
+      "canonicalRecordId": "dna-term",
+      "language": "ar",
+      "available": true,
+      "text": "الجزيء الطويل الذي يخزّن تعليمات بناء الخلية وتشغيلها، مكتوبة بأبجدية كيميائية من أربعة أحرف. السرطان في جوهره مرض ناجم عن تلف DNA."
+    },
+    {
+      "id": "mutation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (ar)",
+      "canonicalRecordId": "mutation",
+      "language": "ar",
+      "available": true,
+      "text": "تغيّر في تسلسل الحمض النووي، مثل خطأ مطبعي في وصفة طعام. معظمها غير ضار؛ وقليل منها يغيّر بروتيناً بطريقة تساعد الخلية على النمو خارج نطاق السيطرة."
+    },
+    {
+      "id": "brca-reversion-mutations-ar",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (ar)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-ar",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (ar)",
+      "canonicalRecordId": "genetic-code",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA (de)",
+      "canonicalRecordId": "dna-term",
+      "language": "de",
+      "available": true,
+      "text": "Das lange Molekül, das die Anleitung zum Aufbau und Betrieb einer Zelle speichert, geschrieben in einem chemischen Alphabet aus vier Buchstaben. Krebs ist im Grunde eine Krankheit der geschädigten DNA."
+    },
+    {
+      "id": "mutation-de",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (de)",
+      "canonicalRecordId": "mutation",
+      "language": "de",
+      "available": true,
+      "text": "Eine Veränderung in der DNA-Sequenz, wie ein Tippfehler in einem Rezept. Die meisten sind harmlos; einige wenige verändern ein Protein so, dass eine Zelle unkontrolliert wachsen kann."
+    },
+    {
+      "id": "brca-reversion-mutations-de",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (de)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-de",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (de)",
+      "canonicalRecordId": "genetic-code",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA (es)",
+      "canonicalRecordId": "dna-term",
+      "language": "es",
+      "available": true,
+      "text": "La larga molécula que almacena las instrucciones para construir y hacer funcionar una célula, escritas en un alfabeto químico de cuatro letras. El cáncer es, en esencia, una enfermedad del ADN dañado."
+    },
+    {
+      "id": "mutation-es",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (es)",
+      "canonicalRecordId": "mutation",
+      "language": "es",
+      "available": true,
+      "text": "Un cambio en la secuencia del ADN, como una errata en una receta. La mayoría son inofensivos; unos pocos alteran una proteína de un modo que ayuda a una célula a crecer sin control."
+    },
+    {
+      "id": "brca-reversion-mutations-es",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (es)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-es",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (es)",
+      "canonicalRecordId": "genetic-code",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA (fr)",
+      "canonicalRecordId": "dna-term",
+      "language": "fr",
+      "available": true,
+      "text": "La longue molécule qui stocke les instructions nécessaires pour construire et faire fonctionner une cellule, écrites dans un alphabet chimique de quatre lettres. Le cancer est fondamentalement une maladie de l'ADN endommagé."
+    },
+    {
+      "id": "mutation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (fr)",
+      "canonicalRecordId": "mutation",
+      "language": "fr",
+      "available": true,
+      "text": "Un changement dans la séquence de l'ADN, comme une faute de frappe dans une recette. La plupart sont sans conséquence ; quelques-uns modifient une protéine d'une façon qui aide une cellule à proliférer sans contrôle."
+    },
+    {
+      "id": "brca-reversion-mutations-fr",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (fr)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-fr",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (fr)",
+      "canonicalRecordId": "genetic-code",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA (hi)",
+      "canonicalRecordId": "dna-term",
+      "language": "hi",
+      "available": true,
+      "text": "वह लंबा अणु जो कोशिका को बनाने और चलाने के निर्देश संग्रहीत करता है, जो चार अक्षरों की रासायनिक वर्णमाला में लिखे होते हैं। कैंसर मूल रूप से क्षतिग्रस्त DNA की बीमारी है।"
+    },
+    {
+      "id": "mutation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (hi)",
+      "canonicalRecordId": "mutation",
+      "language": "hi",
+      "available": true,
+      "text": "DNA अनुक्रम में एक बदलाव, जैसे किसी व्यंजन-विधि में कोई टाइपो। अधिकांश हानिरहित होते हैं; कुछ किसी प्रोटीन को ऐसे बदल देते हैं जिससे कोशिका अनियंत्रित रूप से बढ़ने लगती है।"
+    },
+    {
+      "id": "brca-reversion-mutations-hi",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (hi)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-hi",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (hi)",
+      "canonicalRecordId": "genetic-code",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA (ja)",
+      "canonicalRecordId": "dna-term",
+      "language": "ja",
+      "available": true,
+      "text": "細胞を作り、動かすための指示を4文字の化学的なアルファベットで記録している長い分子。がんは根本的に、傷ついた DNA の病気である。"
+    },
+    {
+      "id": "mutation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (ja)",
+      "canonicalRecordId": "mutation",
+      "language": "ja",
+      "available": true,
+      "text": "DNA配列の変化で、レシピの誤字のようなもの。ほとんどは無害だが、一部はタンパク質を変化させ、細胞が制御を失って増殖するのを助ける。"
+    },
+    {
+      "id": "brca-reversion-mutations-ja",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (ja)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-ja",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (ja)",
+      "canonicalRecordId": "genetic-code",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA (pt)",
+      "canonicalRecordId": "dna-term",
+      "language": "pt",
+      "available": true,
+      "text": "A longa molécula que armazena as instruções para construir e fazer funcionar uma célula, escritas num alfabeto químico de quatro letras. O cancro é, fundamentalmente, uma doença do ADN danificado."
+    },
+    {
+      "id": "mutation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (pt)",
+      "canonicalRecordId": "mutation",
+      "language": "pt",
+      "available": true,
+      "text": "Uma alteração na sequência do DNA, como um erro de digitação em uma receita. A maioria é inofensiva; algumas alteram uma proteína de um modo que ajuda uma célula a crescer sem controle."
+    },
+    {
+      "id": "brca-reversion-mutations-pt",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (pt)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-pt",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (pt)",
+      "canonicalRecordId": "genetic-code",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA (zh)",
+      "canonicalRecordId": "dna-term",
+      "language": "zh",
+      "available": true,
+      "text": "储存构建和运行细胞所需指令的长链分子，用四个字母的化学字母表书写。癌症本质上是一种 DNA 受损的疾病。"
+    },
+    {
+      "id": "mutation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (zh)",
+      "canonicalRecordId": "mutation",
+      "language": "zh",
+      "available": true,
+      "text": "DNA序列中的一处改变，就像菜谱里的一个笔误。大多数是无害的；少数会改变某个蛋白，使细胞失控生长。"
+    },
+    {
+      "id": "brca-reversion-mutations-zh",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (zh)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-zh",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (zh)",
+      "canonicalRecordId": "genetic-code",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dna-term-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA (simple)",
+      "canonicalRecordId": "dna-term",
+      "language": "simple",
+      "available": true,
+      "text": "DNA is the long molecule storing the instructions for building and running a cell in a four-letter chemical alphabet, and cancer is fundamentally damaged DNA."
+    },
+    {
+      "id": "mutation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Mutation (simple)",
+      "canonicalRecordId": "mutation",
+      "language": "simple",
+      "available": true,
+      "text": "A mutation is a change in the DNA sequence, like a typo in a recipe, mostly harmless but sometimes letting a cell grow out of control."
+    },
+    {
+      "id": "brca-reversion-mutations-simple",
+      "kind": "reader-summary-entry",
+      "name": "BRCA reversion mutations (simple)",
+      "canonicalRecordId": "brca-reversion-mutations",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genetic-code-simple",
+      "kind": "reader-summary-entry",
+      "name": "Genetic code and reading frame (simple)",
+      "canonicalRecordId": "genetic-code",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "filesChangedInRepository": 0,
+  "changeKind": "proposals for the coordinator's asset ledger only; nothing written to any ledger, registry, locale, skill or memory",
+  "completeFieldProposals": [
+    {
+      "index": 1,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1-next-gap-137-independent-task-fit.json",
+      "assetSha256": "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent task-fit review record (next-gap-137)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E04",
+          "C04",
+          "C05"
+        ],
+        "bodyBasedReason": "Body is a review receipt: reviewer/author thread ids, verdict PASS, custody hash list, sourceReview read-depth ledger, a batch-wide displayReview block and zero-credit/pending flags. The only science is the sourceFitAssessment reasoning (two fictional axillary cases; three 0.8 mm deposits -> pN1mi, one 4 mm deposit -> pN1a; 16:80 px = 0.8:4 mm). That is review prose about a figure whose reader-facing text lives in the owner/SVG, not a lesson. PASS is self-attested by an agent thread and is not a science certification.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "07b252ef899c9f92dbc5762a264ccbe9fe25ae492a7ec5e2a2a7bcc150b799ff",
+            "meaning": "current: equals owner body at BOTH pinned refs"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+            "meaning": "historical pre-insertion preimage (git b52c5ec, 2026-10-10); not a pinned body"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "f3c0a6f7da73ec6c193ab911c55aa7beec5d92f8",
+            "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "f3c0a6f7da73ec6c193ab911c55aa7beec5d92f8",
+            "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 2,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1-provenance.json",
+      "assetSha256": "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG construction/provenance record",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Body records construction method (code SVG, 0 image-model calls), brief hash, two output hashes/dimensions, themePairMeaning and publicReferences scope limits. No lesson content; the publicReferences scopes are access/depth disclaimers.",
+        "ownerFieldEvidence": [
+          {
+            "field": "sourceOwnerPreimageSHA256",
+            "sha256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+            "meaning": "historical pre-insertion preimage (b52c5ec); pinned owner is 07b252ef at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "9f3877064ebc5981c5f31a3a17426baad4bfa36b",
+            "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "9f3877064ebc5981c5f31a3a17426baad4bfa36b",
+            "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 4,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1-next-gap-138-independent-task-fit.json",
+      "assetSha256": "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent task-fit review record (next-gap-138)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E05",
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Review receipt for the specimen-collection/addendum figure. Science-bearing text is the sourceFitAssessment reasoning (addendum refers back to pretreatment biopsy B; issue date does not change collection into residual post-treatment pathology; cT3 vs T4 retained; no pM0). Read depth is selected CAP Notes K/N paragraphs only. Review verdict is self-attested.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "8e5d25c39fce775ddc4e400f853b799365186038d67c60e727a6a4b7382c5fae",
+            "meaning": "HISTORICAL owner version (git 052e26fb, 2026-10-12); pinned owner is 8ce9a28b at both refs; diff = one navigation link title"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+            "meaning": "historical preimage (ea9e3b6, 2026-10-10)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "de01f4d78ff5304d723e9eec593464dc5aa18b6f",
+            "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "de01f4d78ff5304d723e9eec593464dc5aa18b6f",
+            "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 5,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1-provenance.json",
+      "assetSha256": "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG construction/provenance record",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Construction method, brief hash, output hashes, scope limits for the specimen-timeline SVG pair. No teaching text.",
+        "ownerFieldEvidence": [
+          {
+            "field": "sourceOwnerPreimageSHA256",
+            "sha256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+            "meaning": "historical preimage; pinned tnm-staging.md is 8ce9a28b at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "f645a27f11186bbca08247be6ee1726e81ec3a46",
+            "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "f645a27f11186bbca08247be6ee1726e81ec3a46",
+            "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 7,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1-next-gap-135-independent-task-fit.json",
+      "assetSha256": "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent task-fit review record (next-gap-135)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E06",
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Review receipt for the three-microscopic-features figure. Science-bearing text is the reasoning (tubule formation, nuclear appearance, mitotic figures; fictional 2+3+3=8 within retained 8-9 grade-3 range) and guardrails (mitosis needs field area and method; nuclear darkness is not mitosis; grade is not stage). Cites CAP grade template lines and NCI tumor-grade lines by number only.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "f2b3e769f846a3bd8833a0227357fa0f499ebbe079b6353f295ab7f650bf3a00",
+            "meaning": "HISTORICAL owner version (052e26fb); pinned owner is 40f851ef at both refs; diff = used_by/navigation only"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+            "meaning": "historical preimage (ea9e3b6)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "8ea58b0ec6489503b77896c0cb402166d2583df0",
+            "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "8ea58b0ec6489503b77896c0cb402166d2583df0",
+            "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 8,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1-provenance.json",
+      "assetSha256": "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG construction/provenance record",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Construction method, brief hash, output hashes and scope limits. No teaching text.",
+        "ownerFieldEvidence": [
+          {
+            "field": "sourceOwnerPreimageSHA256",
+            "sha256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+            "meaning": "historical preimage; pinned histologic-grade.md is 40f851ef at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "60c444ef3e3a92b8790b504c14d70170892189ad",
+            "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "60c444ef3e3a92b8790b504c14d70170892189ad",
+            "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 10,
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/peer-reviews/next-gap-242-independent-owner-review.json",
+      "assetSha256": "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent task-fit review record (next-gap-242, BRCAness)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E07",
+          "C04",
+          "C05"
+        ],
+        "bodyBasedReason": "Largest review body. Carries verdict flags, whole-custody hash list, privacy block, two sourceChecks, 10 fresh-capture hashes, native pixel metrics (min label px, contrast 6.10, Escape focus not restored) and a zero-credit ledger. Science sits in sourceFitAssessment.reasoning and sourceChecks.supports (reversion/RAD51 selected cohort; scars persist after HRR restoration). Review assertions, not reader copy.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+            "meaning": "current: equals owner body at BOTH pinned refs"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256/frozenPageSHA256",
+            "sha256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+            "meaning": "historical preimage (b52c5ec); sourceBaseCommit b3704aa2 not resolvable locally"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "31d2d7d0b785432974f4a19d56f93c6bb394955f",
+            "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "31d2d7d0b785432974f4a19d56f93c6bb394955f",
+            "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 11,
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/persistent-scar-and-current-repair-state-b10-v1-provenance.json",
+      "assetSha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "authored-vector provenance with source-read bounds",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E07",
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Authoring record: task id, learner task/gap/guardrails restated from the frozen task, method (manual SVG via Python), prompt hash, two native hashes and a five-URL sourceReadBounds ledger with access failures (reCAPTCHA, Anubis). It restates the figure's learner task but teaches nothing itself.",
+        "ownerFieldEvidence": [
+          {
+            "field": "frozenPageSHA256 / currentSourcePreimageSHA256",
+            "sha256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+            "meaning": "historical preimage"
+          },
+          {
+            "field": "finalCandidateSHA256",
+            "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+            "meaning": "current: equals pinned owner at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "c50478e00b03b69e96ca7c6d2a43cdb731665aa2",
+            "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "c50478e00b03b69e96ca7c6d2a43cdb731665aa2",
+            "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 13,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/next-gap-059-combined19-current-owner-task-fit-continuity.json",
+      "assetSha256": "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "continuity review (navigation-only owner change), next-gap-059",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "C02",
+          "C04",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Body is a current-owner continuity addendum: it asserts that only generated used_by/Used-in navigation changed between the reviewed preimage and the proposed owner, binds prior review/release hashes, and states 'no science or pixel review repeated'. Role is custody of a routing change; it is not itself routing and not teaching.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+            "meaning": "HISTORICAL owner version (4738f1ca, 2026-10-13); pinned owner is 6b5a0e52 at O and 9f4974fd at L"
+          },
+          {
+            "field": "metadataContinuity.previousOwnerSHA256",
+            "sha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+            "meaning": "historical (dda084dd, 2026-10-12)"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+            "meaning": "historical preimage (b52c5ec)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "445c70f245dd9ddb22f91336a52238d3b1bba447",
+            "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "445c70f245dd9ddb22f91336a52238d3b1bba447",
+            "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 14,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1-independent-owner-review.json",
+      "assetSha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "addendum owner-binding review, next-gap-059 (superseded in part)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E08",
+          "C02",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Review record binding an exact frozen task, owner candidate bytes and native-pair custody to selected id next-gap-059. States scientific/pixel review NOT repeated. Reasoning restates the Casey/Drew/Robin timelines (same numeral two, different burden) as the fictional exercise. Superseded in part by body 13 for the owner hash.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+            "meaning": "HISTORICAL owner version (dda084dd, 2026-10-12); pinned owner 6b5a0e52 (O) / 9f4974fd (L)"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+            "meaning": "historical preimage"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "f68ff6e88221f1331037e05bb785d7772526517f",
+            "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "f68ff6e88221f1331037e05bb785d7772526517f",
+            "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 15,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.json",
+      "assetSha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG provenance with four-source ledger (oligo histories)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E08",
+          "C02",
+          "C04",
+          "C07",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Provenance record with a sourceReview list giving read depths for four sources and a usedFor sentence each. The usedFor statements are authoring claims about what a source supports. No reader copy.",
+        "ownerFieldEvidence": [
+          {
+            "field": "basis.ownerPreimageSHA256",
+            "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+            "meaning": "historical preimage; pinned owner 6b5a0e52 (O) / 9f4974fd (L)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "061ccce89be1f6efd2f8de41bedb14a35076fa89",
+            "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "061ccce89be1f6efd2f8de41bedb14a35076fa89",
+            "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 17,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1-independent-owner-review.json",
+      "assetSha256": "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent review record with correction check (next-gap-163, B06-G3-C1)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E09",
+          "C02",
+          "C04",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Review record whose verdict PASS follows an earlier whole-package REVISE; it binds a finite phrase/custody correction and inherits the unchanged scientific/pixel review by hash. Science-bearing text is reasoning (100 dots: 5 brain-involved recurrent, 15 other recurrent, 80 others; 5/20 = 25%, 5/100 = 5%; enrollment-origin two-year clock; raw fractions not competing-risk estimates).",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "3e89574c0f1de3457444ae0be9bc67e037af43e148196e6d8b38aecc208e1bf2",
+            "meaning": "HISTORICAL owner version (f16b6c18, 2026-10-13); pinned owner 4811d8be (O) / f77a73b8 (L)"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "2e3efcab690ca89a8f9d206b26073a5f66390afd3f28511085ac4b4ae06bc7af",
+            "meaning": "historical preimage (b52c5ec)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "22d50b7462474a5ad0024accf9ee20d4f4601e34",
+            "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "22d50b7462474a5ad0024accf9ee20d4f4601e34",
+            "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 18,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1-provenance.json",
+      "assetSha256": "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG provenance with five-source read-bounds ledger",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E09",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Provenance: fictional scope (100 enrolled, 20 recur, 5 brain; raw fractions), guardrails, five sources with retrieval times, failures (PubMed browser challenge -> Europe PMC fallback), generator hash and display-check metrics. Scope/guardrail text restates the figure premise; no reader copy.",
+        "ownerFieldEvidence": [
+          {
+            "field": "(none; carries no owner hash)",
+            "sha256": "-",
+            "meaning": "pinned owner brain-metastasis-risk.md: 4811d8be (O), f77a73b8 (L)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "9fa2f344784d977acae7aa87b3522a1808665f22",
+            "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "9fa2f344784d977acae7aa87b3522a1808665f22",
+            "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 20,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1-independent-owner-review.json",
+      "assetSha256": "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "addendum owner-binding review, next-gap-058 (HER2 membrane patterns)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E02",
+          "C02",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Addendum review binding frozen task, owner bytes and native-pair custody; states science and pixels not repeated. Science-bearing text: reasoning on 0/0+ criteria 'selected September 2026 CAP' and guardrails (IHC 0 not zero molecules; negative status is not drug eligibility). Review claim, not reader copy.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "614ca637735785ad9303c182586b0aeff7858dbf73ae82759a7cf35a921964a6",
+            "meaning": "HISTORICAL owner version (dda084dd, 2026-10-12); pinned owner 7b2d07a2 (O) / 44d5468f (L)"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "8288465cd37e66c3bc61c62af0153fc0f4d3721f9fd64132428be0ee98c23642",
+            "meaning": "historical preimage (ea9e3b6)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "c4a1f231c01fa90d84458556eea54b277edd6457",
+            "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "c4a1f231c01fa90d84458556eea54b277edd6457",
+            "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 21,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1.json",
+      "assetSha256": "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG provenance with three-source ledger (HER2)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E02",
+          "C02",
+          "C04",
+          "C03",
+          "C05"
+        ],
+        "bodyBasedReason": "Provenance record: method, brief hash, outputs 780x1510, three sources with access depth and usedFor. usedFor 'September 2026 IHC 0/0+ distinction, membrane patterns, extent and 3+ qualifier' is an authoring claim. Prior label 'support-confirmed' carries E02 so is inconsistent; I propose the label support-escalated-assertions.",
+        "ownerFieldEvidence": [
+          {
+            "field": "basis.ownerPreimageSHA256",
+            "sha256": "8288465cd37e66c3bc61c62af0153fc0f4d3721f9fd64132428be0ee98c23642",
+            "meaning": "historical preimage; pinned owner 7b2d07a2 (O) / 44d5468f (L)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "57b1aa2e989ffe19a92a3d5d7206f6e75873d173",
+            "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "57b1aa2e989ffe19a92a3d5d7206f6e75873d173",
+            "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 23,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/peer-reviews/next-gap-277-independent-new-owner-task-fit.json",
+      "assetSha256": "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent new-owner task-fit review (next-gap-277, SOX10)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E10",
+          "C03",
+          "C04",
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Large review: author/reviewer agents, frozen task identity incl. shared canonical owner (myoepithelial page), typed planning decision and acceptance, one sourceCheck (PMID 23260325), visual review and custody including the shared owner/native. Only review in the set that sets newPixelApproval and newScientificSourceApproval to true; these are agent self-attestations, explicitly not credited here.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+            "meaning": "current: equals sox10 owner at BOTH pinned refs"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256 / frozenTaskIdentity.pageSHA256",
+            "sha256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+            "meaning": "historical pre-insertion baseline (b52c5ec)"
+          },
+          {
+            "field": "custody.hashes myoepithelial-cells-and-basement-membrane.md",
+            "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+            "meaning": "equals shared owner at O; shared owner at L is 844e299c85f8 (C03 confirmed); the two myoepithelial SVGs and brief are unchanged at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "7176249d698e02fd9abfd7d183f9db866ad1bc0a",
+            "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "7176249d698e02fd9abfd7d183f9db866ad1bc0a",
+            "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 24,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/sox10-nuclear-signal-attribution-v1-provenance.json",
+      "assetSha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "original-SVG source provenance (private code path)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "C02",
+          "C04",
+          "E10",
+          "C05"
+        ],
+        "bodyBasedReason": "Authoring record: creative author, private /tmp source-code path, native outputs with private /tmp prospective paths, reviewStatus 'author QA only', canonicalAdoption false. No teaching. Its 'currentOwnerSHA256' field is the pre-insertion baseline, not the current owner.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSHA256",
+            "sha256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+            "meaning": "MISLABELLED: field says current but holds the historical pre-insertion baseline (b52c5ec); pinned owner is 96172c17 at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "8be2ad02084c89d671a6af990ec5faf2a17af75f",
+            "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "8be2ad02084c89d671a6af990ec5faf2a17af75f",
+            "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 30,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1-independent-owner-review.json",
+      "assetSha256": "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "addendum owner-binding review, next-gap-057 (ENE)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E11",
+          "C05"
+        ],
+        "bodyBasedReason": "Addendum binding frozen task, owner bytes and native-pair custody; no science/pixel repeat. Reasoning restates the figure claim (contiguous deposit crosses capsule; inked cut edge and vessel lumen distinct boundaries). Review claim, not reader copy.",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+            "meaning": "current: equals owner at BOTH pinned refs"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+            "meaning": "historical preimage (0017728, 2026-10-10)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "ce2811ea82afe8408623e246378601207870d610",
+            "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "ce2811ea82afe8408623e246378601207870d610",
+            "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 31,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1.json",
+      "assetSha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "authoring-provenance",
+        "subRole": "code-SVG provenance with three-source ledger (ENE)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E11",
+          "C02",
+          "C04",
+          "C07",
+          "C05"
+        ],
+        "bodyBasedReason": "Provenance: method, brief hash, outputs 780x1380, sources with access depth and usedFor. usedFor statements are authoring claims; one cited paper is a survey, not an outcomes study.",
+        "ownerFieldEvidence": [
+          {
+            "field": "basis.ownerPreimageSHA256",
+            "sha256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+            "meaning": "historical preimage; pinned owner 9d010c83 (current) at both refs"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "d8ad311df2c1646cda2c218d4ec5c5772f1a2bb9",
+            "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "d8ad311df2c1646cda2c218d4ec5c5772f1a2bb9",
+            "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    },
+    {
+      "index": 33,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-next-gap-139-independent-task-fit.json",
+      "assetSha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+      "proposedLedgerFields": {
+        "classification": "support",
+        "role": "review-custody",
+        "subRole": "independent task-fit review record (next-gap-139, lumpectomy vs mastectomy)",
+        "decision": "support-escalated-assertions",
+        "escalations": [
+          "E12",
+          "C02",
+          "C05"
+        ],
+        "bodyBasedReason": "Review receipt for the gland-removal figure. Science text: variable local excision vs one nipple-sparing mastectomy example; skin, nipple, chest wall labelled separately; nodal procedure, radiation and systemic therapy separate. Source depth is selected NCI lines 42-56, 68-69 (lumpectomy) and 56-67 (mastectomy).",
+        "ownerFieldEvidence": [
+          {
+            "field": "currentOwnerSha256",
+            "sha256": "452d0e8bda1d58c3debf285ba7703349884ad42e36dbab98d2d50b2189a8e37a",
+            "meaning": "HISTORICAL owner version (052e26fb, 2026-10-12); pinned owner de09c672 at BOTH refs"
+          },
+          {
+            "field": "sourceFitAssessment.baselinePageSHA256",
+            "sha256": "d097c79ca58a9f8ecf83c3fb53abe3ac090b9cbfd70f0b779071a467db149ec3",
+            "meaning": "historical preimage (0017728)"
+          }
+        ],
+        "versionEntriesRetained": [
+          [
+            "original-pinned",
+            "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+            "7316c046536d5556bc7a2ee1bd88e0601bdf394f",
+            "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec"
+          ],
+          [
+            "later-pinned",
+            "c96896452386202405c435aa161bc5047919337a",
+            "7316c046536d5556bc7a2ee1bd88e0601bdf394f",
+            "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec"
+          ]
+        ],
+        "coverageCredit": 0
+      }
+    }
+  ],
+  "reclassificationProposals": [
+    {
+      "path": "...her2-membrane-patterns-v1.json (21)",
+      "from_": "support-confirmed (E02,C02,C04)",
+      "to": "support-escalated-assertions",
+      "reason": "E-id attached and usedFor claims present; role unchanged"
+    },
+    {
+      "path": "...sox10-nuclear-signal-attribution-v1-provenance.json (24)",
+      "from_": "support-confirmed (C02,C04,E10)",
+      "to": "support-escalated-assertions",
+      "reason": "same; plus 'currentOwnerSHA256' holds a historical baseline"
+    },
+    {
+      "path": "all other 18",
+      "from_": "unchanged",
+      "to": "unchanged",
+      "reason": "role confirmed from the body"
+    }
+  ],
+  "escalationAdditions": [
+    {
+      "id": "C03 (extended)",
+      "paths": [
+        13,
+        14,
+        15,
+        17,
+        18,
+        20,
+        21
+      ],
+      "reason": "owner differs between original and later pinned ref; diffs read: navigation/link only, plus one added link and sentence-anchor change in brain-metastasis-risk"
+    },
+    {
+      "id": "C05",
+      "paths": "all 20",
+      "reason": "native SVG/brief hashes referenced, files outside the set"
+    },
+    {
+      "id": "C04",
+      "paths": [
+        10
+      ],
+      "reason": "private capture and author-seal locators present (17 and 24 already carried C04)"
+    }
+  ],
+  "escalationsClosed": [],
+  "outOfScopeRecordFinding": {
+    "owner": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+    "pinnedSha": "de09c6728567a8ea... (both refs)",
+    "finding": "2026-11-07 teaching (survival equivalence, NSABP B-06 and Milan I numbers, 14.3% vs 39.2% local recurrence, larger-operation sentence) post-dates review 33 and lies outside it; route to a lesson-level assessment"
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "dataCommit": "1c394ddbb1d7b8f05c450df50fcad89226007867",
+  "graphRecords": 23084,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.78
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 28.35
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.87
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 305.02
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "postGateWhitespaceOnlyCleanup": {
+    "afterGates": "Only indentation on empty lines removed after git diff --check identified it. All nonblank lines stay byte-identical; no functional change or runtime entity change.",
+    "files": [
+      {
+        "path": "src/data/i18n/ar.ts",
+        "beforeSha256": "45db999b83200411154d973c7ddb5abcbb940e373efda400228a92b5e04e9259",
+        "afterSha256": "ef5013c9fc877bc0e13bdd43012ad0bfdbe55c49b6967c132939b8c4cdfe4e43",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/de.ts",
+        "beforeSha256": "08ca9a53ace71f1a9573492945104435dbef4dd19605942ebd501b69f11a1f75",
+        "afterSha256": "10a70ad5d0c89ce0cc433ef0bf8fde10cfc106d0b7b40ec7e7879ee69325e5b1",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/es.ts",
+        "beforeSha256": "5290a2c1d7c63a22ae0ffe329cc6bdf6ad401581e716450ccf4612d7948a2b52",
+        "afterSha256": "d5e5bab4c39164c00c55c004857f094c43e3ee6ff0f371bd2d51cc7fb23a5ea2",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/fr.ts",
+        "beforeSha256": "de2f47feeed5a0b6b52a8579d8f705a72e57211a887db1d4e2986afbde4fa10c",
+        "afterSha256": "58db36ff6ab650d34e2a4d4dbcd8f06657e3227ccfe4e9e07f2b6a35cfcff6d4",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/hi.ts",
+        "beforeSha256": "efd2ea27e21c94d7ba13f0f096361c804da56977ce39f87712d257cb6e91129d",
+        "afterSha256": "2c235ef056798dd0c754dfe609abf76b128bc4673dbc2794fb262cb896b22bb8",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/ja.ts",
+        "beforeSha256": "1c4fe8c6236499e64e61ddecced47c10b9e2e2373f2489df4f9bc86327ed75f6",
+        "afterSha256": "f501cfd784fa1e892709f5d207844afad9beb4d1f51a798da3ab421258ca50d3",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/pt.ts",
+        "beforeSha256": "620c8b2ab4a26f564277a790e7f4f44d289036f9270bebd2e6a88f418ca95a85",
+        "afterSha256": "5ff08bb1b267525a57d1df9b28b3fdb1eacc6eeb9f891ee4c9cce47bd6c5d1df",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/i18n/zh.ts",
+        "beforeSha256": "15bbfedf8f1b3ee1f3f408f3244a4f84cf86214e36af2dcb4bc36f108dd0f293",
+        "afterSha256": "271adc6f992ca21116d0ea4c03d1fecc6394ad276490e963171d96bb77aa1fae",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      },
+      {
+        "path": "src/data/trials.ts",
+        "beforeSha256": "5c08d6a2a76c2b35929fb51b6cd04e5d20a1ba1f9a1cabaa37ae1933458185cb",
+        "afterSha256": "1fe03f6137ed2604bcfd54d0a59c08fb3c17770cd613ff4b5615162950cf9b5c",
+        "onlyWhitespaceOnOtherwiseEmptyLines": true,
+        "allNonblankLinesByteIdentical": true
+      }
+    ],
+    "gatedFilesBeforeCleanupMatched": 17,
+    "fullSuiteRepeated": false
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 13,
+    "warningFilesUnchanged": true
+  },
+  "readers": 27,
+  "exactFieldReferences": 244,
+  "paragraphsAcrossReferencedFieldsChecked": 100,
+  "rootExactEntityJSON": 27,
+  "rootMarkdownPassages": 176,
+  "openAPI": true,
+  "dedupeExitCode": 0,
+  "summaryStates": 243,
+  "availableTexts": 46,
+  "EnglishFallbacks": 197,
+  "withdrawnStaleTranslations": 32,
+  "correctedSimpleEnglishEntries": 5,
+  "namedReviewsChanged": 0,
+  "acceptedLongCaches": 2,
+  "acceptedLongCacheScope": "Unchanged Spanish and Chinese pCR summaries still match the unchanged canonical summary. No new language approval.",
+  "secretScan": {
+    "files": [
+      "CORRECTIONS.md",
+      "src/data/education-tumor-immunology-2026-11.ts",
+      "src/data/i18n/ar.ts",
+      "src/data/i18n/de.ts",
+      "src/data/i18n/es.ts",
+      "src/data/i18n/fr.ts",
+      "src/data/i18n/hi.ts",
+      "src/data/i18n/ja.ts",
+      "src/data/i18n/pt.ts",
+      "src/data/i18n/zh.ts",
+      "src/data/pipeline-trials.ts",
+      "src/data/simple/part-b.ts",
+      "src/data/simple/part-j.ts",
+      "src/data/spikes/breast-treatment.ts",
+      "src/data/spikes/tnbc-treatment.ts",
+      "src/data/terms-jargon.ts",
+      "src/data/terms.ts",
+      "src/data/trials.ts"
+    ],
+    "diffBytes": 189766,
+    "exitCode": 0,
+    "findings": 0,
+    "gatedCodeAfterChecks": "Only empty-line whitespace removed; all nonblank lines identical, see post-gate-whitespace receipt.",
+    "correctionsLogAddedAfterGates": "Documentation only.",
+    "rulesOrAllowlistsChanged": false
+  },
+  "floorsBudgetsSchemaAndFrozenDenominatorsChanged": false
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "file": "initial-rank-6-crossref.json",
+    "doi": "10.1158/1538-7445.sabcs19-p4-06-13",
+    "title": [
+      "Abstract P4-06-13: Prospective analysis of molecular subtypes in triple negative breast cancer"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          15
+        ]
+      ]
+    },
+    "abstractSha256": "865e8b4cdaa742c038b83cb4d40889bc1f3e99ed945d61bf1bdf99977053ecfe",
+    "reviewDepth": "Available complete abstract read; not a source of imported efficacy values."
+  },
+  {
+    "file": "initial-rank-8-crossref.json",
+    "doi": "10.1158/1538-7445.sabcs14-p2-04-07",
+    "title": [
+      "Abstract P2-04-07: Gene-expression molecular subtyping of immunohistochemistry-typed triple-negative breast cancer tumours"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstractSha256": "2dd918bf2c898fa10272580f2a8085e4013b85d665741551e6f2290ec0a27c73",
+    "reviewDepth": "Available complete abstract read; not a source of imported efficacy values."
+  },
+  {
+    "file": "prospective-rank-1-crossref.json",
+    "doi": "10.1200/jco.2023.41.16_suppl.3011",
+    "title": [
+      "FUTURE-SUPER: A randomized, subtyping-based umbrella phase II trial for first-line treatment of metastatic triple-negative breast cancer."
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstractSha256": "2f2b5d5addd320a94d4c467cfa9332f5f4ce14d433ee95166d087ee22e36e88d",
+    "reviewDepth": "Available complete abstract read; not a source of imported efficacy values."
+  },
+  {
+    "file": "prospective-rank-4-crossref.json",
+    "doi": "10.1158/1538-7445.sabcs22-ot3-27-01",
+    "title": [
+      "Abstract OT3-27-01: Subtyping-based platform guides precision medicine for heavily pretreated metastatic triple-negative breast cancer: a multicenter, phase 2, umbrella, FUTURE trial"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          1
+        ]
+      ]
+    },
+    "abstractSha256": "4481c5c4dd040bb1c5a9b876e61bd4011a7c21c85238d7f72d52c95dde762f23",
+    "reviewDepth": "Available complete abstract read; not a source of imported efficacy values."
+  },
+  {
+    "file": "prospective-rank-5-crossref.json",
+    "doi": "10.1200/jco.2023.41.16_suppl.528",
+    "title": [
+      "Differential benefit of capecitabine-based chemotherapy among TNBC subtypes in the context of the CBCSG010 study."
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          1
+        ]
+      ]
+    },
+    "abstractSha256": "5df959a80da28ed4c68e5fc16245f1262a5484666bb3c9d0432d08a4fa3d4ab3",
+    "reviewDepth": "Available complete abstract read; not a source of imported efficacy values."
+  },
+  {
+    "file": "prospective-rank-6-crossref.json",
+    "doi": "10.1055/a-2373-8257",
+    "title": [
+      "Subtypbasierte Therapie des metastasierten triple-negativen Mammakarzinoms"
+    ],
+    "type": "journal-article",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9
+        ]
+      ]
+    },
+    "abstractSha256": null,
+    "reviewDepth": "Metadata only; no abstract returned."
+  }
+]

@@ -1,0 +1,240 @@
+{
+  "images": [
+    {
+      "version": "later",
+      "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "theme": "light",
+      "assetPath": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+      "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+      "sha256": "25093b7df7315f62fe50f33cf719e0d8fa8aa1b6404749cc59ecb055a6d93a67",
+      "bytes": 1737771,
+      "existingAssetScope": "unclassified",
+      "existingAssetReviewStatus": "unreviewed",
+      "renderSha256": "25093b7df7315f62fe50f33cf719e0d8fa8aa1b6404749cc59ecb055a6d93a67",
+      "viewed": true,
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "version": "later",
+      "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "theme": "dark",
+      "assetPath": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+      "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+      "sha256": "21a3c0b3c2d1da9124d569f926d33701c990f98df5772fe5c7c72c7b13531e5c",
+      "bytes": 1644317,
+      "existingAssetScope": "unclassified",
+      "existingAssetReviewStatus": "unreviewed",
+      "renderSha256": "21a3c0b3c2d1da9124d569f926d33701c990f98df5772fe5c7c72c7b13531e5c",
+      "viewed": true,
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "version": "later",
+      "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "theme": "light",
+      "assetPath": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+      "gitBlob": "538da263f5fd1a98866d2829d8ffa429cbdce09c",
+      "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+      "bytes": 4834,
+      "existingAssetScope": "teaching",
+      "existingAssetReviewStatus": "reviewed",
+      "renderSha256": "dd3f7189f92016a24b500a30b6f4520e3060aa4d2fec63e6f8995fd9e854e546",
+      "viewed": true,
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "version": "later",
+      "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "theme": "dark",
+      "assetPath": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+      "gitBlob": "3ee69ccb450a21db787fdc8cb05f621d01f3018e",
+      "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+      "bytes": 4834,
+      "existingAssetScope": "teaching",
+      "existingAssetReviewStatus": "reviewed",
+      "renderSha256": "fd96b9d0c775de8ca0ba7bbbf7843d1eb59bd4bc18431bf024b2e72445de4405",
+      "viewed": true,
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    }
+  ],
+  "diagrams": [
+    {
+      "codeSha256": "d0ac936d67f92f7c483217066e40ce20a5f3c8e216e34c2513fbcee19a67da34",
+      "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "section": "Where this step sits",
+      "theme": "default",
+      "renderSha256": "f9c43ffe54839aeaa6080992eb12f97a64f6be4e7b8e72e0086e3d33ff986461",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "d0ac936d67f92f7c483217066e40ce20a5f3c8e216e34c2513fbcee19a67da34",
+      "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "section": "Where this step sits",
+      "theme": "dark",
+      "renderSha256": "498065295847d382f440617654aca4e763ababa7e7dd60dd143b9c4b9182dd70",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "4b2d5026c9c78c2e469b677f79c333174ccf07378e3cb56b36a5fe25ac00d40a",
+      "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "section": "Where this step sits",
+      "theme": "default",
+      "renderSha256": "e1a39c843fb95e2eb3e188bf699e48267afdf832edf2f442f5f8f9fb06e070ab",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "4b2d5026c9c78c2e469b677f79c333174ccf07378e3cb56b36a5fe25ac00d40a",
+      "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "section": "Where this step sits",
+      "theme": "dark",
+      "renderSha256": "e344671fc884d2c91cd946dd4304267095122f33fe84311562008bdc47863728",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "35774b7cf5e5819ce75e95126566debfb75e9a7334d0fdddc36724033de35352",
+      "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "section": "Where this step sits",
+      "theme": "default",
+      "renderSha256": "37742e83b6a5e465c42cd17e64ff129b6d26eaa492d74e5f96f58013bea963d7",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "35774b7cf5e5819ce75e95126566debfb75e9a7334d0fdddc36724033de35352",
+      "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "section": "Where this step sits",
+      "theme": "dark",
+      "renderSha256": "b1bf738522999a94b74c6bf0a6dd430d62619da2911b56d26ac45a947933eeb5",
+      "width": 168,
+      "height": 360,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "e2752deead62e4ec88d5e19df8c726be9ecbfcb892d9b714e871973bf9f26fd5",
+      "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "section": "The standard sequence and why it runs in this order",
+      "theme": "default",
+      "renderSha256": "5681d18e6992bf889cc300204d3653904c0e2d8901739fa904419789b575a9c5",
+      "width": 361.5625,
+      "height": 504,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "e2752deead62e4ec88d5e19df8c726be9ecbfcb892d9b714e871973bf9f26fd5",
+      "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "section": "The standard sequence and why it runs in this order",
+      "theme": "dark",
+      "renderSha256": "edc03595750715c203004e2893709d9261afa267837404e8ac10326d8ca09d13",
+      "width": 361.5625,
+      "height": 504,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "818233c1411dd5a873cdee4c1a21d4c1ab8ca509e1f849bac5c8eada357ed85f",
+      "sourcePath": "wiki/education/guides/start-here/index.md",
+      "section": "The map",
+      "theme": "default",
+      "renderSha256": "aa3b18ef9f0763359a73bc5ebf1c2844bacacf478e8b60b63313aab3c0c31741",
+      "width": 168,
+      "height": 528,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    },
+    {
+      "codeSha256": "818233c1411dd5a873cdee4c1a21d4c1ab8ca509e1f849bac5c8eada357ed85f",
+      "sourcePath": "wiki/education/guides/start-here/index.md",
+      "section": "The map",
+      "theme": "dark",
+      "renderSha256": "c6ac07fa2df67fea475576db4fa9a5697ab52f6e35cea5a19027c60e91100164",
+      "width": 168,
+      "height": 528,
+      "viewed": true,
+      "renderAlterations": "none",
+      "viewedOn": "2026-11-11",
+      "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+    }
+  ],
+  "findings": [
+    {
+      "id": "SH-V01",
+      "kind": "source wording",
+      "finding": "The postoperative treatment node says extra medicine if cancer remains. The canonical timing and residual-disease notes qualify this by prior care and trial eligibility; the source diagram owner should qualify its label.",
+      "canonicalTeachingGapRemaining": false
+    }
+  ],
+  "newAssetDispositions": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+      "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+      "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+      "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+      "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+      "from": "unclassified",
+      "to": "teaching reviewed",
+      "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+    }
+  ],
+  "existingMatchedFieldSvgReviewsChanged": false,
+  "limitation": "Static source-art and two-theme diagram renders only, with no source Guide edit, site integration, accessibility measurement, independent expert or learner sign-off."
+}

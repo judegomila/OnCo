@@ -1,0 +1,111 @@
+{
+  "checkedOn": "2026-11-10",
+  "gates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.92
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.31
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 29.45
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 92.79
+    }
+  ],
+  "standaloneGatesComplete": true,
+  "fullSuiteTotals": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2
+  },
+  "sourceClosures": {
+    "exitCodes": [
+      2,
+      2
+    ],
+    "original": {
+      "assessed": 204,
+      "represented": 200,
+      "navigation": 7,
+      "total": 537,
+      "requirements": 1081,
+      "evidenced": 1074,
+      "open": 7,
+      "unread": 326,
+      "unclassifiedNav": 0
+    },
+    "later": {
+      "assessed": 196,
+      "represented": 196,
+      "navigation": 0,
+      "total": 550,
+      "requirements": 1065,
+      "evidenced": 1065,
+      "open": 0,
+      "unread": 349,
+      "unclassifiedNav": 5
+    },
+    "staleOrMissingProofs": 0
+  },
+  "actualSSRPassages": 158,
+  "actualMarkdownPassages": 158,
+  "actualJSONOwners": 28,
+  "immutableExportFiles": 56,
+  "sourceChecks": {
+    "versions": 40,
+    "sectionSignatures": 454,
+    "headingBlocks": 474,
+    "intakeAnchorOccurrences": 836,
+    "assetEntries": 152,
+    "derivativeRenderReceipts": 28,
+    "primaryCaptureChecks": 80,
+    "fictionalArithmeticChecks": 14
+  },
+  "focusedEarlierChecks": {
+    "files": 3,
+    "tests": 32,
+    "scope": "Tone, corpus rules and long-summary translation selector tests; no new tests added."
+  },
+  "duplicateSurvey": "Nine baseline DOI/PMID/name groups; no new duplicate group.",
+  "releaseLimits": "No new Next production build or browser hydration check. The pre-existing GRAPH_JSON named-export issue is retained as an external build limitation; no product approval override, threshold floor or budget change.",
+  "changeClass": {
+    "product": 0,
+    "data": 31,
+    "documentationAndArtifacts": 37
+  },
+  "stagedSecretScan": {
+    "tool": "gitleaks 8.30.1 protect --staged",
+    "exitCode": 0,
+    "findingCount": 0
+  }
+}

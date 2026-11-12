@@ -1,0 +1,45 @@
+{
+  "count": 2,
+  "references": [
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/21/review/points/22/evidence/1",
+      "before": {
+        "recordId": "brca-reversion-mutations",
+        "version": "proposal-genetic-code-root",
+        "field": "notes",
+        "fieldSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4",
+        "explanation": "Connects possible frame/function restoration with named BRCA2 model evidence, and removes universal clinical-response or treatment-selection conclusions. Source scope: ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      },
+      "after": {
+        "recordId": "brca-reversion-mutations",
+        "version": "proposal-repair-resistance-root",
+        "field": "notes",
+        "fieldSha256": "75c0cfdf6fe2ae2f056199d1f3c566b1742db32ec8fbebb8de094399262229a4",
+        "explanation": "Connects possible frame/function restoration with named BRCA2 model evidence, and removes universal clinical-response or treatment-selection conclusions. Source scope: ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      },
+      "reason": "Every earlier BRCA note is preserved exactly; only the current-root projection is rebound. Frozen prior packets remain byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/21/review/points/22/evidence/2",
+      "before": {
+        "recordId": "brca-reversion-mutations",
+        "version": "proposal-genetic-code-root",
+        "field": "notes",
+        "fieldSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4",
+        "explanation": "Connects possible frame/function restoration with named BRCA2 model evidence, and removes universal clinical-response or treatment-selection conclusions. Source scope: ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      },
+      "after": {
+        "recordId": "brca-reversion-mutations",
+        "version": "proposal-repair-resistance-root",
+        "field": "notes",
+        "fieldSha256": "75c0cfdf6fe2ae2f056199d1f3c566b1742db32ec8fbebb8de094399262229a4",
+        "explanation": "Connects possible frame/function restoration with named BRCA2 model evidence, and removes universal clinical-response or treatment-selection conclusions. Source scope: ClinVar and RefSeq identifiers, MedlinePlus molecular-effect explanations, Sakai 2008 abstract and Sakai 2009 targeted primary text. No universal prevalence or treatment-switch claim."
+      },
+      "reason": "Every earlier BRCA note is preserved exactly; only the current-root projection is rebound. Frozen prior packets remain byte-identical."
+    }
+  ],
+  "unchangedPriorHRDSummaryBindings": 12,
+  "priorPacketsRewritten": false
+}

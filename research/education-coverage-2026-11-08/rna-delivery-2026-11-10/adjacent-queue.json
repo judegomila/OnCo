@@ -1,0 +1,147 @@
+{
+  "workerQueue": {
+    "schemaVersion": 1,
+    "batch": "rna-delivery-content",
+    "packet": "completion-r1",
+    "generated": "2026-11-10T06:23:21+00:00",
+    "queue": [
+      {
+        "id": "Q01",
+        "subject": "Insertional mutagenesis (term)",
+        "why": "linked from lentiviral, AAV, transposon and the integration-risk discussion; no baseline or pending owner",
+        "sources": [
+          "FDA long-term follow-up guidance (read)",
+          "integration-site assay papers (unread)"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q02",
+        "subject": "On-target, off-tumour toxicity (term)",
+        "why": "central to delivery versus cancer targeting; FDA CAR T guidance reviewed; no owner",
+        "sources": [
+          "FDA CAR T guidance January 2024 (read)"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q03",
+        "subject": "Replication-competent retrovirus and lentivirus testing (term)",
+        "why": "FDA guidance read; the viral-vector-manufacturing supplement covers it only in prose",
+        "sources": [
+          "FDA 113790 (read)"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q04",
+        "subject": "Paper records for Cheng 2020 (SORT), Rurik 2022, Hunter 2025, Kranz 2016, Kebriaei 2016, Sahin 2017",
+        "why": "identifiers resolved and abstracts read; no baseline paper record carries these DOIs or PMIDs (Rojas 2023 exists); creating them was not in the whitelist",
+        "sources": [
+          "primary-sources.json"
+        ],
+        "state": "queued; ids resolved",
+        "resolved": {
+          "cheng2020": "10.1038/s41565-020-0669-6 / PMID 32251383",
+          "rurik2022": "10.1126/science.abm0594 / PMID 34990237",
+          "hunter2025": "10.1126/science.ads8473 / PMID 40536974",
+          "kranz2016": "10.1038/nature18300 / PMID 27281205",
+          "kebriaei2016": "10.1172/jci86721 / PMID 27482888",
+          "sahin2017": "10.1038/nature23003 / PMID 28678784"
+        }
+      },
+      {
+        "id": "Q05",
+        "subject": "Trial records for the Sleeping Beauty CD19 CAR studies NCT00968760, NCT01497184 and NCT01492036",
+        "why": "named in the Kebriaei abstract; none in baseline",
+        "sources": [
+          "Kebriaei 2016 abstract (read)"
+        ],
+        "state": "queued; registry not read"
+      },
+      {
+        "id": "Q07",
+        "subject": "Dendritic cells and antigen-processing machinery cross-links",
+        "why": "owners exist only in pending drafts (blocked ids); the lipoplex page links both",
+        "sources": [],
+        "state": "coordinator to link after integration"
+      },
+      {
+        "id": "Q08",
+        "subject": "Baseline Rojas paper record link repair",
+        "why": "link is a PubMed search URL; patch in record-changes.json",
+        "sources": [
+          "Europe PMC and Crossref resolution of PMID 37165196"
+        ],
+        "state": "proposed patch"
+      },
+      {
+        "id": "Q09",
+        "subject": "Presnyak 2015 organism and system (linked by the draft codon-optimization record)",
+        "why": "abstract does not name the organism; the full text was not read",
+        "sources": [
+          "10.1016/j.cell.2015.02.029"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q10",
+        "subject": "Elicit discoveries",
+        "why": "none supplied (literatureOccurrences is empty); no Elicit result was used",
+        "sources": [],
+        "state": "n/a"
+      },
+      {
+        "id": "Q11",
+        "subject": "Pseudotyping (term) and envelope glycoprotein choice",
+        "why": "lentiviral page; definition unread",
+        "sources": [
+          "Burns 1993 (cited by Milone 2018)"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q12",
+        "subject": "Neutralising antibodies against AAV and re-administration (term)",
+        "why": "sourced here via Naso 2017 and Rana 2024; no owner",
+        "sources": [
+          "naso2017",
+          "rana2024"
+        ],
+        "state": "queued; ids resolved"
+      },
+      {
+        "id": "Q13",
+        "subject": "Genome editing donor templates in T cells (Eyquem 2017) as a paper record",
+        "why": "abstract and author manuscript read",
+        "sources": [
+          "10.1038/nature21405 / PMID 28225754"
+        ],
+        "state": "queued"
+      },
+      {
+        "id": "Q14",
+        "subject": "Residual DNA limit of 10 ng per dose and mRNA release-testing attributes (term)",
+        "why": "cited secondhand in Nowak 2026; primary regulatory source unread",
+        "sources": [
+          "nowak2026"
+        ],
+        "state": "queued; primary source needed"
+      },
+      {
+        "id": "Q15",
+        "subject": "AAV serotype genome sizes beyond AAV2",
+        "why": "4.7 kb scope resolved for AAV2 only",
+        "sources": [],
+        "state": "queued"
+      }
+    ]
+  },
+  "coordinatorFindings": [
+    "rna-insertional-mutagenesis-scope",
+    "rna-toxicity-owner-and-class-claims",
+    "rna-pseudotyping-scope",
+    "rna-multiple-cargo-co-delivery"
+  ],
+  "toxicityOwnerCorrection": "On-target/off-tumour aliases have existing owners; no duplicate is created."
+}

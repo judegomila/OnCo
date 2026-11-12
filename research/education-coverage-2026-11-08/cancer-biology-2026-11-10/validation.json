@@ -1,0 +1,5235 @@
+{
+  "groups": {
+    "root": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.81
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.13
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.74
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 98.45
+        }
+      ],
+      "fullSuiteFiles": 284,
+      "fullSuitePassedTests": 2829,
+      "exports": {
+        "records": 22,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "oncogene",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-suppressor-gene",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-suppressor-gene",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-suppressor-gene",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-suppressor-gene",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-suppressor-gene",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "angiogenesis",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "metastasis",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "metastasis",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "metastasis",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "metastasis",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-microenvironment",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-dormancy",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "hallmarks-of-cancer",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "inducing-angiogenesis",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "inducing-angiogenesis",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "inducing-angiogenesis",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "inducing-angiogenesis",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-activation-two-hit",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "caf-activation-desmoplasia",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "caf-activation-desmoplasia",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "caf-activation-desmoplasia",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "caf-activation-desmoplasia",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "caf-activation-desmoplasia",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumour-hypoxia",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution-theory",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution-theory",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution-theory",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "clonal-evolution-theory",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "microenvironment-inflammation-theory",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "microenvironment-inflammation-theory",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "microenvironment-inflammation-theory",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "microenvironment-inflammation-theory",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "oncogene-addiction",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "intra-tumour-heterogeneity",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "benign-vs-malignant",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "extracellular-matrix",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "oncogene.json",
+            "bytes": 4487,
+            "sha256": "29feceffe0ad7c5c2d66d4ab21849514df0b9fbb6af6d71795e30402cdc23f1d"
+          },
+          {
+            "file": "oncogene.md",
+            "bytes": 3607,
+            "sha256": "769e1d10184325efe6bb4f54cb727bcb719c5e64bda28c7886c12fa436da719c"
+          },
+          {
+            "file": "tumour-suppressor-gene.json",
+            "bytes": 6266,
+            "sha256": "c5e248bf4a3a9de813f6b9e8cbee9acfee4c391c3f7c3daa82c4f04b8bc2fe45"
+          },
+          {
+            "file": "tumour-suppressor-gene.md",
+            "bytes": 4989,
+            "sha256": "cff0121a9d172dc66a6f7a2e91bee61dfe9a2fe444ac46a58a90e79cd780d48d"
+          },
+          {
+            "file": "angiogenesis.json",
+            "bytes": 7235,
+            "sha256": "1c21111542c25794fb5a2e5e4819ddd18ce8624cf6d942dea15afd3952a99771"
+          },
+          {
+            "file": "angiogenesis.md",
+            "bytes": 6192,
+            "sha256": "b3290014a159749ea1bc11e5841320156e1d47446e6a8e724413e73f31af5fb1"
+          },
+          {
+            "file": "metastasis.json",
+            "bytes": 7247,
+            "sha256": "7b25c0b4e663ef99ba19a1078c2262d40c3eb2bf38e9bc5fb45fb060d5edf4a8"
+          },
+          {
+            "file": "metastasis.md",
+            "bytes": 5298,
+            "sha256": "dc5a33bf5468888b7a3163ad020fde53cfc43ce509af1d77da996824dafaf004"
+          },
+          {
+            "file": "tumor-microenvironment.json",
+            "bytes": 18660,
+            "sha256": "cd9747b691ad42a313a2462aa91c1976aa3d7a0c415102fb66be8a3d7f0e813a"
+          },
+          {
+            "file": "tumor-microenvironment.md",
+            "bytes": 12645,
+            "sha256": "9be36904da8f7d91c239dcfd41febda2b287cebb1ae2be73c19b002230575fad"
+          },
+          {
+            "file": "clonal-evolution.json",
+            "bytes": 21009,
+            "sha256": "58fe7d869d2ea3442c88a358e0524f14e2e480a5547c2289ae62e53e2df241ba"
+          },
+          {
+            "file": "clonal-evolution.md",
+            "bytes": 14971,
+            "sha256": "3ddcf5465c8c2084cd18f3040cb5ccd4cdc9f3be65cc7863a01aa5d1acdd7f71"
+          },
+          {
+            "file": "tumor-dormancy.json",
+            "bytes": 8839,
+            "sha256": "b7f39f21660c3bc550d757747728f90e082f21c51874ef60e27ecee5e5fc6219"
+          },
+          {
+            "file": "tumor-dormancy.md",
+            "bytes": 6409,
+            "sha256": "3267c843d8859572a6655b85cd51a3a3a2b1226deb371dca0fdc388fa2cd18c6"
+          },
+          {
+            "file": "hallmarks-of-cancer.json",
+            "bytes": 6963,
+            "sha256": "d8a4d1d3455d74d92f3be976b7a024ec02d398070f0a977afdfcfcc7c080ed06"
+          },
+          {
+            "file": "hallmarks-of-cancer.md",
+            "bytes": 5365,
+            "sha256": "060dc1f481dc3fb54c7019527d634185fd3466a8d69ca7435cd7871e44b50313"
+          },
+          {
+            "file": "inducing-angiogenesis.json",
+            "bytes": 3853,
+            "sha256": "8ba35548631941e1d70943b3421e18593f44d2aa67a310dd63c422b15583a874"
+          },
+          {
+            "file": "inducing-angiogenesis.md",
+            "bytes": 3200,
+            "sha256": "4fdfd0fc52636433c9a4df629cc4b2de7079e3aeaab3c0aeb595b29c3e50ae50"
+          },
+          {
+            "file": "cancer-associated-fibroblasts.json",
+            "bytes": 8722,
+            "sha256": "d66af411b79a72a8fd6465fa2db47f1ba8a4c4af1ba88638c98ed6cfbe09b5d1"
+          },
+          {
+            "file": "cancer-associated-fibroblasts.md",
+            "bytes": 7218,
+            "sha256": "5c1ec2423ab498f73003412648b37b23c8ea6e7a36e7dc8296199791cea147d6"
+          },
+          {
+            "file": "myeloid-derived-suppressor-cells.json",
+            "bytes": 6865,
+            "sha256": "5cd0da21561a525f65e91148e0ee899f1b78bcbc6a287c4ed502aa02d9d07195"
+          },
+          {
+            "file": "myeloid-derived-suppressor-cells.md",
+            "bytes": 5963,
+            "sha256": "d1d745c0197ce7a715ba03b44fcd3579bb476bfd580e69ef09eb5e9665ccb040"
+          },
+          {
+            "file": "oncogene-activation-two-hit.json",
+            "bytes": 10621,
+            "sha256": "7903af4f7fc2d037aebe5a458ea19b3c1d39c493d98f1d0ac1cfcde6fb6c543f"
+          },
+          {
+            "file": "oncogene-activation-two-hit.md",
+            "bytes": 7443,
+            "sha256": "ced8bb64c3b480dfb2db602b1c2816fe84f63cbe81abf6ad80d6a2202a42372f"
+          },
+          {
+            "file": "caf-activation-desmoplasia.json",
+            "bytes": 14720,
+            "sha256": "68efa20826056d479766b0f18629bc0cf68bce8375dfa9cfd7e0d972bc038b14"
+          },
+          {
+            "file": "caf-activation-desmoplasia.md",
+            "bytes": 9873,
+            "sha256": "4fb342a528790205c4b3292b62718b6e838debb67a322c5439678f845b053526"
+          },
+          {
+            "file": "tumour-hypoxia.json",
+            "bytes": 4828,
+            "sha256": "7ff590e74a988f5872f07943f7bae16a299a2b1d3bae253a45d2ef82e23faffc"
+          },
+          {
+            "file": "tumour-hypoxia.md",
+            "bytes": 4387,
+            "sha256": "5e2bd8427a91a2409d79c97b070b19ad8da2775d6bdf1f29592df038b0030184"
+          },
+          {
+            "file": "clonal-evolution-theory.json",
+            "bytes": 13600,
+            "sha256": "35a00b0f50d880a20703f9b4c3054a765be57b72b0620b6d10b492247862c3c4"
+          },
+          {
+            "file": "clonal-evolution-theory.md",
+            "bytes": 10630,
+            "sha256": "990952350f93f65c11de0f5572ce5fda206afde24f6b4d8a04b82bf0f276582a"
+          },
+          {
+            "file": "microenvironment-inflammation-theory.json",
+            "bytes": 14835,
+            "sha256": "3258d1745b8752a82d04bd7bbc788a4efdd2e6738646eeb4044b66ba4c6e6a94"
+          },
+          {
+            "file": "microenvironment-inflammation-theory.md",
+            "bytes": 11383,
+            "sha256": "90effaf2f6f9f371e4450841dd7a20a5799133763eeb523b8b84472d3bb838df"
+          },
+          {
+            "file": "immune-surveillance-immunoediting.json",
+            "bytes": 14749,
+            "sha256": "e30dc19285fed8dbe26e9c0a222ec1ff46246aadeb8ceac1cc6cb031223a369a"
+          },
+          {
+            "file": "immune-surveillance-immunoediting.md",
+            "bytes": 11684,
+            "sha256": "b5d73856470ff84c8ac1150ffaad3233f20af2bf5bb54fee71aa1797a7fdefd6"
+          },
+          {
+            "file": "oncogene-addiction.json",
+            "bytes": 11702,
+            "sha256": "ccd61539d3e63633fa569e45b29c8d5a02638d1b86dbdcb5ac633a3e816f0767"
+          },
+          {
+            "file": "oncogene-addiction.md",
+            "bytes": 9234,
+            "sha256": "540ea0e57b4d43179a1fa4262b180a218095e007f5839d89c968dc352dc5ca5b"
+          },
+          {
+            "file": "intra-tumour-heterogeneity.json",
+            "bytes": 4836,
+            "sha256": "a046f413f28fcda5b6b95e53964942755bef5e3051a3518b871098282416ea3d"
+          },
+          {
+            "file": "intra-tumour-heterogeneity.md",
+            "bytes": 4086,
+            "sha256": "521b956bf49cbe10ba1a5b7a8fd743cde74e1a636be97210c65dee3d8ee03191"
+          },
+          {
+            "file": "tumor-associated-macrophages.json",
+            "bytes": 13076,
+            "sha256": "63924ef81e581dcdd403962c2a8b89c9f04e3859ccc07044cfdf11f2e9c12ff7"
+          },
+          {
+            "file": "tumor-associated-macrophages.md",
+            "bytes": 10292,
+            "sha256": "8a0c6fe76cfeb37549ce839f3e0037c07027bad3196082e4d8babd18b34e58c3"
+          },
+          {
+            "file": "benign-vs-malignant.json",
+            "bytes": 4450,
+            "sha256": "e0962def76d57695ba03231b6322dfabe44808e0357e2c150066acdd6cda311b"
+          },
+          {
+            "file": "benign-vs-malignant.md",
+            "bytes": 4015,
+            "sha256": "2593542736d214332b2c87bf2fa0b6eda770576806f6237ac75325e9ea4007b1"
+          },
+          {
+            "file": "extracellular-matrix.json",
+            "bytes": 4973,
+            "sha256": "a89a694cdd4567cbf2b336352346f1050d31754be0805c6b89b57bc159acca43"
+          },
+          {
+            "file": "extracellular-matrix.md",
+            "bytes": 4479,
+            "sha256": "f23f49bfd995629c6bfe4ef89d7328cf7ae314eb2f0e11f77ec0005eb9bd063c"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual generators passed. Final equality verification uses the completed fresh capture; an earlier check held the previous capture while the new one was still being written and is preserved as a failed verification attempt. No deployment or complete Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 198,
+        "available": 30,
+        "EnglishFallback": 168,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 176,
+          "rows": [
+            {
+              "id": "oncogene",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-suppressor-gene",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "angiogenesis",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "metastasis",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-microenvironment",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-dormancy",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "hallmarks-of-cancer",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "inducing-angiogenesis",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "myeloid-derived-suppressor-cells",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-activation-two-hit",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "caf-activation-desmoplasia",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumour-hypoxia",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "clonal-evolution-theory",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "microenvironment-inflammation-theory",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "oncogene-addiction",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "intra-tumour-heterogeneity",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "benign-vs-malignant",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "extracellular-matrix",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "oncogene-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "50f8387b1ee0be26a24fe18150d932b76cb964ecf3dee1d94be45d6ad609b671"
+          },
+          {
+            "id": "benign-vs-malignant-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "b2f1bf4e82bb9b1f3adbbba5c6dfa7b97af31107003d421e89a71014189daee4"
+          },
+          {
+            "id": "benign-vs-malignant-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "fa784d132929d142462a0e126de54ba791100fa253202e9b215a06258d160aa6"
+          },
+          {
+            "id": "benign-vs-malignant-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "7d5da757a5131dc5f9e69a17dea0c3b3a94f82e403214443b3c05be19d6da02f"
+          },
+          {
+            "id": "benign-vs-malignant-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "321f7f0640a155cca141504b70717def8c6071a67f8b102e70610fb3d6a7f191"
+          },
+          {
+            "id": "benign-vs-malignant-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "f5b596902037642ca229f34f80bdfba298ac65432aa003a3af1cad02f300a537"
+          },
+          {
+            "id": "benign-vs-malignant-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "1952c6435cebf41b66c7b2f8982da4056fcf077ea05a8a9802b5eb918b7c2d84"
+          },
+          {
+            "id": "benign-vs-malignant-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "f35d9e517b0f0b5c068a03872b80464f337aec21e576804288e10a26fc35e89a"
+          },
+          {
+            "id": "benign-vs-malignant-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          },
+          {
+            "id": "oncogene-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "f92ac3589010407d4c786ed5f1bdd06b138359e636f1829f61cd36674c94c8ed"
+          },
+          {
+            "id": "tumour-suppressor-gene-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "78945f36ef3dfdc1ba66ebecaa56a34ebbe333d355062a622a1be82bc90968db"
+          },
+          {
+            "id": "angiogenesis-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "73ef32c6315a4b63cdeaccb09e8d53d11fef4c5c12fcf5bdb7aea0b117614d1d"
+          },
+          {
+            "id": "metastasis-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "9021017de87b4dca8c9f95a3101efd8851c399beed06071a14b161db8768c9d9"
+          },
+          {
+            "id": "tumor-microenvironment-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "e1d33c799f08f5af612eda5f3a67402352bf4ca2979609a425a40ac5cd8ea872"
+          },
+          {
+            "id": "clonal-evolution-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "e7d5b5c20882110f071c70b05c2d42cd90af958d054aa2628ed4c7b94632da6b"
+          },
+          {
+            "id": "tumor-dormancy-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "e052194b97ef0520cc0983e2f69d5e3b6beec83034d50006893be690e64719fc"
+          },
+          {
+            "id": "hallmarks-of-cancer-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "acd3cd43ab8ad218feb5858ec1c8153c22cb1e29cc68c2d351822c63bb94c632"
+          },
+          {
+            "id": "inducing-angiogenesis-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "24567c65c64efd1ca9e18bc87d3f430a2d5ea88171b2d59cfb8ed93f1ff9d1c4"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "myeloid-derived-suppressor-cells-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "60405582033fb1f35f31a358cac7ea00bcce157fda200bb4911e40e13177e88d"
+          },
+          {
+            "id": "oncogene-activation-two-hit-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "17f5eeccc6d7cfed5622fcda4b82eb441ee1f12c38dadc9de9beec68ae96bcf6"
+          },
+          {
+            "id": "caf-activation-desmoplasia-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "758dbf933174df7f391e1382e0f7639c0c16f277180539b061f1b0309ad783c8"
+          },
+          {
+            "id": "tumour-hypoxia-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "a2806f9794bcdf02de944294f95317943749201cd8fb58bf71904de4b734a540"
+          },
+          {
+            "id": "clonal-evolution-theory-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "d3650fd4f7677f47da05c887ee0ef9407353d86c8d90171b5025fb8a162c69c8"
+          },
+          {
+            "id": "microenvironment-inflammation-theory-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "2d699547169b71256f22a05d51b3b5fa852a2b934602b07ec5b4ebad44f2c5a6"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "oncogene-addiction-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5aea18d1dd172cb1554737ce965e9197158b4f18829ce083e5592ca91066bdbb"
+          },
+          {
+            "id": "intra-tumour-heterogeneity-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "58f6b81fa4dc9261825bdf08bba7693095e81615d9ed02b8e926188102984a09"
+          },
+          {
+            "id": "tumor-associated-macrophages-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "c1b702b28f40508e51e1b42915a03c75d47e2903a5c4a9420e2a07c4c24a0aab"
+          },
+          {
+            "id": "benign-vs-malignant-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "0a24ba46159c56a950ab2e9f7de616db4226169e2730ecae54f382c55df269cb"
+          },
+          {
+            "id": "extracellular-matrix-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "f7a538bb75677e60b650f37d2688084966d234335b065723889af8c04176a512"
+          }
+        ]
+      }
+    },
+    "shared": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.84
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 10.25
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.29
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 94.92
+        }
+      ],
+      "fullSuiteFiles": 281,
+      "fullSuitePassedTests": 2813,
+      "exports": {
+        "records": 1,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "antigen-presentation-immunoediting",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "antigen-presentation-immunoediting.json",
+            "bytes": 17685,
+            "sha256": "64287c86d7d60a6fab4c027c56eed870749277b84dc3559aa252123917c45718"
+          },
+          {
+            "file": "antigen-presentation-immunoediting.md",
+            "bytes": 12279,
+            "sha256": "8a7bcdb2d085faebfa958fe740616345a3de228a155dbf74cf362ec2f2975e94"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 9,
+        "available": 9,
+        "EnglishFallback": 0,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 8,
+          "rows": [
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "antigen-presentation-immunoediting",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "antigen-presentation-immunoediting-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "3c2c2dc197574c192fdb81542c8d4eb0b27f66ca417b240990011ceecb874bf5"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "3692e9b56297481490da787f168dbc863d5b434da470374fec7ccfe361c32ce4"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "61238f599d389b6fe9c36db063dc62562a3913f6fc7d21d9610dbaa2c0ebcc3b"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "b8e5769b42d0d76d6749af701c0a020095c05c0dd297abec252338406bc81c88"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "eede8cf8142789f6c2192ef6fd778a9b8af47508ca7a54e31b73b6220bdc71ea"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "6b593c660c69ba9f0115aa57822a85474330a11d7154e3ea1e05ed759b0ebc75"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "414b674a0b9351800d596a1f77d5a698d4cb4a0db8a5d03cb418d69fc2f9a1a9"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "18d40a3653cface448b273fe01921434b08a81ef0a19c85246f55b5cf89e084a"
+          },
+          {
+            "id": "antigen-presentation-immunoediting-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5f1dd02fa32fb8c0fe9e806ddc1996efba5a1eadecd7e5ff9e8f459aca45509d"
+          }
+        ]
+      }
+    }
+  },
+  "readerText": {
+    "fieldPassages": 159,
+    "missing": [],
+    "checks": [
+      {
+        "group": "root",
+        "id": "oncogene",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "792d9fcc4076088051b0742611292db3c7f0f6acd892737f98911c3a0f56c97e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "ea61da34b2522675daa0a44eac1beb2f1f23aebc714c7f834d58b540a24813a5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "0c53c4c1a9ff2f07710d89cfcc17dd72f1d91d733d1b0918c42c7883c6e7d073",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "fda3c47b5cb96bc516fd522d47b30f923b179100f092ad9be86f82810b06ef51",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "ed0f37c585fd9cb2afac78b293707c45efe3b69c76c3828d86a3c3c62922b9fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-suppressor-gene",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "0e10e2071c2bb01e8b2a0685136a96dabea98774de93d2d9e71899c782493971",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-suppressor-gene",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "b92933906ee0ca0651c519a5de5491c09bf0c261cd526458a9bb09d55a0ff64a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-suppressor-gene",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "14f1b6159b88ea4df56992b2014f776caf7ef8db49bf63304b320ce4e80d3141",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-suppressor-gene",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "782504421ea901b33eb4bd6b128d57fb5ec4e570e006208d8563c64119ebf7ee",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-suppressor-gene",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "25a5ff5ecc23686a3399c61d7825283c8e78f63767f1d0c1320b87f2d3aaff11",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "5e207adefbb8ba1dd830c4fd39822ffbb121d317057ebd704d07af4e9d3334af",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "3c73645860276371dbecf3649fca3c6fdcac6e7cb48dda4c4050ee1355f9e186",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "05f4ebca9c2b5260d5eb4514c56ef24dd72536994fc9ee4e69386fc6b8a4c332",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "484ae121d9954f199fb6fb098a036e2a7f0af8a77835b85b0d1f80252976c11f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "19fe615741624dbbcf647683777969ba20b95307cc371130958e14d8cc70c5ef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "42397b0ee942f79b91eca5e1f64f995b1d5362b68ae84cc4a9c0116a68e16832",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "angiogenesis",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "8abe554ea80096bcdccb77ba8df5005e73ddc57ae88f5374bb07148623ac02c2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "metastasis",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "20f1a0845ee4999c4047e17e8ce64d5c28bda206d864b0263eb4e38eb70bfedf",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "metastasis",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "389cee22164bb4be02617f8d82d0b8384a00524cba5aad6cef40d806a5120508",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "metastasis",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "4b6be44e83484538cc7011e1951ff55a2b81ddf753e9ecf0512bf4f81131e555",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "metastasis",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "1b556ba04d96a095b8939eeaa5f9b1f3d329671590f0b69ba07f68684941f10c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "c43579ba9bc17832b4b1bef928f85c21c7b30a742a27e0af3f0ba2b71b8be2b5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "cd52da46212b71c154ec6a6fe42c4b26a9932fba114eb5b5cd332698fef5b0ff",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e53bd7bc6fd67de5b2246eac32462ed56362395f58bdfbab205fd5654fefa069",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "279257be47271bbc638075879428e73129fc56581d743b3062f5df7edbdf2a5b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "3861a8d3b46b1537ef6c3233320598bbd3ca6c46fed3258c4a1a76b070b6e582",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "96e3afcde305964b87848c2f156d7bf3ca5d6142fe898a55192a2be8fca01c0a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-microenvironment",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "0a2ea5f31b288a7e408840373e182fe1d37c915f0216bc7876fe526ed16ab370",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "2c58c975805465e18149defba7287a6a46127d85d3be54d84ce2440163e66459",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "182904117845d97cd48e435738a146e4edeff66339f55f59718272d11d645f78",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "a00b53da5205d324807421c6f15fa20020a4da4551cf0499ceb2c6b748be5711",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "bc4d93561026d1c99f0c4337119e1de7e7c90a971276f774845d8189c9075360",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "a53dfb222b96716d1879e9b2830dbbc1b8067efe705eafbae9a5236f5b42bbab",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "7c7e7b028435779b6bc13c9c5d9bef62800871d319772a2eef66630dfc696bad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "4b0160ff43628279bbdb06c4a4edd03cac7b86fb9f1f3e81cbe98e85ea2f46e9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "cb5bda5800bf08747052064d65dcfb67454e1121d1462119b0a9a72b2d3c8067",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "326e4c109be616e21341ebcd8fa2acfb4eb2fc3a0fa5eb7efe73e7dceb2cd0f5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "469d169f07e85ac3dbfa6547e00ef770b3f384a0c32d520759c5c033bb58cdef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "855a2904099271612db38df6531f6c07781ae62979d62a806730b9b6df1facf4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "9a8b24d8597575c92ce001d3204980e0f7b330c01c7ea3e76076c2874cb7ae6d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "40c9f5de3132c33f0d4cd6986cce168dc12182644e2a77702c02e99a35c953e5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-dormancy",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "0f32b5d7d2bcd93a27aba3b95e365b5668133eeef6f72b14bdf8116ebde9709f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "599fee10df27578341e1db08c20af856ddc1f7062ce7466c306760bb39c40bdd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "df40d654027e631e4dd9b26a025ca2ade56f4b2569a9bdc864a76bcc91e33668",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "8317e29dfcecb94a23fa1357c3b65a544e7e515b4254a174512470e5ecf7e6e5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "c6edd65ff48d8e44558f070ce70738db3868adda7b28c365e595e1ceb72d8d78",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "36dad2b6edfd7dcc455d68e265b867235f9aaa6ea97c77bf1db976168bdaccea",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "hallmarks-of-cancer",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "683c5330b4f1765497364b4513ad30c343c9cc6aab209bf1fcb7db1985e50cfe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "inducing-angiogenesis",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "bb50a176faabe304d7fa73e811b92440e0e971bab09ccf01a642ef6beafb31fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "inducing-angiogenesis",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "657ccd0dfc794a5656cf3dc8fad9ab60151eb0fda1b337359ea300abfca35a18",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "inducing-angiogenesis",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6e4faf4d8d1770e6531aef17cdc379a05cfde34a8e3c6da91fc4769c9f1c4d28",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "inducing-angiogenesis",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "484ae121d9954f199fb6fb098a036e2a7f0af8a77835b85b0d1f80252976c11f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "61393752fe50270153699053b03ba786c1fb8b198c4dbcd0be395a80ec640255",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "05c0ff34f8637604fe3f6ab88477a00fb18f8ed0e5117851f07b8ccc92dc9613",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "31a40f838aa560e7834cab5c724bb1e6d493b54fe5466e7efb28ef9bc5e311e7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "34ea1b1ee0830a0028660dc462de7c2b048da3bdeca37cabb6e43ea9cca4e494",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "7453fcf0f5f220f404d584147558781d9c4b496d2eee4815d10c7d588b00738f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "add53b9fab84df4542e29acd905f32893381556b527a9a3bd8d612c968244f1e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "13ff65f15a9a13112e36314eceddf2b7fd5f41f51444e92f635926f258c7c2e8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "791d9be61947e8db7570118ac05e28fd52aefec47a12528930be73acb3badb03",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "4cbbf77415a6702eae2621c2d44ebd36acc427fdab08daafe9ffb1d87464d494",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "a48e245f2e09ca0e6280e7bc5b2063f3bc3205659a8749136e79f1990f5ce7b2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "2a162ce8c5b9dcdc52472f4be0c2f352cdf15565b9d552db6d49ccf49c058a82",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "44f9c76d7c4ab4878e45e0404f0b9a41323cccd37ee1ba4b1dea9eb929cfd617",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "b9f776eb2855705a883868c41cf699b04f532388505d8c3faa9d5062925397a9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "myeloid-derived-suppressor-cells",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "9523ccebe52aaa743c9f14e11aad1a448d7c92777d475a87b8f297ed8cf74fdf",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e29d08becd10a7658ab4b4e1afc2b9f136a4da2aa27668777438d681a50f50d4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "f27ff85299f290029608a196021985a613396536c8bc3f2e565cdeb15c3c4b0a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "14f1b6159b88ea4df56992b2014f776caf7ef8db49bf63304b320ce4e80d3141",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "782504421ea901b33eb4bd6b128d57fb5ec4e570e006208d8563c64119ebf7ee",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "ed0f37c585fd9cb2afac78b293707c45efe3b69c76c3828d86a3c3c62922b9fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-activation-two-hit",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "40a98fb666fc4119b2c0e028fcc3e740a386ed09004a07974928c5a65c44ba28",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "caf-activation-desmoplasia",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "4e5a26bb93a3fc04d27c178e7928926e7a2d1dc25ccb616cc0951fd923828f15",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "caf-activation-desmoplasia",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "14564197088df54eea62c6a6045b8dc2efd46ea9657c9893605aaa4d9b615b85",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "caf-activation-desmoplasia",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "53109ed3101d770eb67dfa153bd9358a5db0854d5937592731c9f10988ec8c6c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "caf-activation-desmoplasia",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "34ea1b1ee0830a0028660dc462de7c2b048da3bdeca37cabb6e43ea9cca4e494",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "caf-activation-desmoplasia",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "9b4852f4fb338557a297cbf6f127a64f65ad4e9676ae5f74d9ab59f616e35b3d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "cae8d0d75df2fd2419ea0a7694069176d8950cf39222f675035fe68e925b9fab",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "4531fa4eee560bb16e77e099e9f3f998e986c186daf545292a549e1b9d3fda56",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "765b039c3cdc99d3d830febbca732cea984e790db3247d1f2d793f872f51b004",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "52003f0be2c0e688299c0794aa4663982ca8ffc5b126457e54e9698e55d7cf74",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "07de06d7faa84a7bf7191f04e28748e3655a0cae3bcfbec0506d4f01b4c00ffb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "2c159059c181a89486be6620f9dde0682b8f630b4f2f5a412d99afc1a7e609c5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumour-hypoxia",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "7fab33c232c5e3d78e565a3ba5c2d46ed31d6bda458499ec7cc5d2f64945f348",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "2e154f1e34744487a7af7ca20142a108cebd97a003e6e1f2b3f980664d113aee",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "5de6bba7d19f0b8da5f9452a4f7c6beebdbf39b8f1be1eaa306c6e8fe20ce8a4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "412fa3eba7868deed6abee7ef56e01a1b13f52355d33bb5d07eb83bffe3553f9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "49af0066ea20d7c70a2d0ff9685a57aa70d3f7f8f899a54be9d2faae812603c8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "90a10be71edbe652c6099f019a4f774730961504f23b19dac562a185a7adfad4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "9bbfbffcd23c447f45d950ef1d3245c41dfd6731f92b6a0b84693658c0cac290",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 5,
+        "segment": "summary paragraph",
+        "passageSha256": "73c49bf4a2c3c279eb7892b0566a3259ae2ca7d3a83e5cc957647a6172b66487",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "summary",
+        "index": 6,
+        "segment": "summary paragraph",
+        "passageSha256": "c3cee40fba680db8472d5e6179f8d139b91fec5e523d7ee19c062c4db9eb049d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "a53dfb222b96716d1879e9b2830dbbc1b8067efe705eafbae9a5236f5b42bbab",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "clonal-evolution-theory",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "7c7e7b028435779b6bc13c9c5d9bef62800871d319772a2eef66630dfc696bad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "f0b813b1f9308a848683584f007585bc6fc0c43749e62a0f542205add187f8cb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "241a6b0434c6edd926817f6f37fc39ae425d240fed0ecf7b6d6afa038fdb56d2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "fb335eec7dc8882fa2d2aba0e2ad7f80c395cd71e97f1a1de6f69d0c136f2ec2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "ecd1ef70f3a3f3c09d91e0bf25318b3c4a6578dd2158c8292e681576b2719e25",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "9f43446525308164e524c01e4e18674bc4929b22e2d83fa447002eb03706412d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "8df86c22168a6f2f19e72e1038efab3e7e96240bbdc75b65f04acadefd29cddf",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 5,
+        "segment": "summary paragraph",
+        "passageSha256": "729b82dc8c35cba4162e96f42c308f709b5858628d0b9e25940220e9bcb832f7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "summary",
+        "index": 6,
+        "segment": "summary paragraph",
+        "passageSha256": "43f4f0b34cc1f864092ecd2d45c71f9b88d162872c83173ba5ae690d18f3bdde",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "3861a8d3b46b1537ef6c3233320598bbd3ca6c46fed3258c4a1a76b070b6e582",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "microenvironment-inflammation-theory",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "96e3afcde305964b87848c2f156d7bf3ca5d6142fe898a55192a2be8fca01c0a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7580adf3b4d7bc91ea5e5ada648e3c09b37b84112077c894fcedbd89e3a41215",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "7e4ee6f58f0c19910d84ec766d6f1c60558e703484bea49b4aa13e439ad06c61",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "dcc11dbfbeee154df53714dd970c5c841d4f0e588bcb532f05a294ba3d336f1d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "7f059872f66c2545cb6326e5118c42e1e621969aa065a4ac9073b95e59477da8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "0ce66c77426bc7bf099a0d3f22bd0fe6947810550472940f418fee6c3c3a13c3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "03e0be36714a4524d47c97e22898dba2ebfe32bdf4eeefc37653263462a7e976",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 5,
+        "segment": "summary paragraph",
+        "passageSha256": "f656d9fc0661f8634cd2e068dfc3d732f1d34e38c33c46b6a774b6f8d93f1df0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 6,
+        "segment": "summary paragraph",
+        "passageSha256": "7f47324a38defa58cadc21b04ff5712bb37b30425bac66621bccf4f89ac87cb7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "52366480c08e18f6dd4647b21852f6afbb6f5e93d716ac76b1dd93d5f7e4d3fa",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "d720c43ab8274a33cbbf8cda2e8cb901e26c9372ca90aa9d4ad89e51f5f7805e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "9e162383766f4727f44eb98d3a267a8e00d7e6a6c94ca60f2a3c99452d4d17c4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "784614d52c190479610dbac282ee62a2c32c198f33a4704c41d7485d7ce121bc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "b4f9ac7fc105af22aa1a5316016dcad5093a532b587583c2b24b23a6f103ef51",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "f566da8547122aea33eccc9647300407ad4979d49954898d1a2a661564cd2539",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "3272b41e6359434729b441046b0e43b72538c0ce1cf270a8717bb9c30a4fd898",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "fb9ac0b02a432320ee38c61a5c9e50296868d949a0a6657b2202f82523027c75",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "a79a838e7d625bc5e78faa6c4a919550de71bb3db524ff4491852c221ebf18b5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "4e4ff13860987854d38f8150c8d373d59cac593f915b45c34f7635ff3ed7481e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "059fb03bb2f9f9338e5ef182b5c3e037cb2b18807b64bc5a5bf63a03a05cd6e5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "oncogene-addiction",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "29b103d5c254a561a17e767f6c000dd6b1bf148aed1fc3d6f0c5b155b9d63249",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "5d81981a7ff1be82652ec383cbe72370839cb1f3efd8a6dd254130322c82aebc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "401aeef3cba0e683caa3a89bfb5b6fbcc4b4cac0745817f6e67a9fd8cd59f5a2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e866b2c721a13ee5f50209308712f92d6d7949fdd2644ab51d5550e86068a895",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "7e64326aded840019ab0629364987f005a4c90aacd33477b8576be51d9cb601f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "4251df64cdf2714e3bc3d12db95644d79ea7351c81e0677cbf2c4bb2e23bb855",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "40a7d76bf890964ac0e7250b6e90fcfaa61dc7ceb5888fb1f2063bd17d998083",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "intra-tumour-heterogeneity",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "d147dbc103c6ed1c43c71c0aebd4880570ab972f950d69dac1a59ea0f5263b40",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b970ea977550b1491e3356bcfc7dcf72cc34d5917404e05c53f51e45ef7551c3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "71ce89668f92a13b3caa06bb5886c613f6c2674357a719a19bf2b7a1f6c7f507",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "601f5b3b1f271ae62122c0fd931a7c1a65ebd4a9d5300a753b359f8335876918",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "63bc9dc35a81b78d064077ed18d38ae3a2dc873eae58460f3491921506868f9a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "e9c340dd5fc6d7f430acda0ac7e24c41bcacc88fee475eca0de6af4ae47f0a23",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "dd5e5ec7c9bac04dcd7bd841c34a9a7a82fccb76587937c9d554e2ded2b45890",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "64120320aab9cfaf7fe42b9c42d336e2633b8afdc0252fc62ec86db4e42eaef4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "efd93b6cf02f2fac542ae77611a72d36e91ec0f01d13cccc394f3814363e9a22",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "b7a9a5e6216b87c179dfe3445e22a8060d8fd091d764139a23c4dc1c54dde331",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "bb852faa773854d2f4c512f16b5e1a131220505e01121c50528897f7f9b30e1e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "21c4a8d6850d25005762b136797b6b8a1e6d4bb82c96f8a99addf8e037eea46d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "ce0ee4be55bd9bf3a03b43037c4a65ab08729e8cdc4d5d38b890311c0bbb4003",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "4a504a0497a7814075ee4a04f17d5e3e0856c9033d376f592006034f8556fb5a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "benign-vs-malignant",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "f34fb03a3c9b8627ebc53b11e3d34d4afbc9aa7b027a63fd4538dd7ef93ea0ec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "2549f0f24d3e631947d4c202631d67e48257783a9250e0fadcbcb530d2aaee6f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "556cf6fce7a083027bbda2e978757435e3ce319a8067db0bfcb18682bb2eb55b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "ebad1263f66f948825f40b3d24641e54da2271de221098f60293e88c07a8b728",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "53109ed3101d770eb67dfa153bd9358a5db0854d5937592731c9f10988ec8c6c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "dcc172562ba5262da0b033f1de84282c80e1e0bd6728fcc445ece9a1469daee7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "e6c453ea1d358a2199ff1945800aa0c1e63d1c27c34d416ee1223fafb68b44f4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "extracellular-matrix",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "47f62b82f2b1d38f4f07f098fdc91d60dab21b07137ac2fae5d5da20fcda88fb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "91db2fc890e6dd545b42e01ca69aefd6d42d2683bc8d5c65e5a68055bd2b1cae",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "13e29b17b82a142445e901cf6ff8775bb1a84a2caf9a191e5d999c28062a51ea",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "584b33fae52303b4b33edecb5bf0eaa60ae2945c83852c20b78949284ea6bc7d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "c059473883ecb9fc6d7861bed4c694c5bceee347bd89d387d9fc199261b86807",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "d720c43ab8274a33cbbf8cda2e8cb901e26c9372ca90aa9d4ad89e51f5f7805e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "9e162383766f4727f44eb98d3a267a8e00d7e6a6c94ca60f2a3c99452d4d17c4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "antigen-presentation-immunoediting",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "b4f9ac7fc105af22aa1a5316016dcad5093a532b587583c2b24b23a6f103ef51",
+        "inActualReaderText": true
+      }
+    ],
+    "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+  },
+  "ownership": {
+    "wholeGraphChangedOnlyAllowedOwners": true,
+    "rootBeforeCount": 22795,
+    "rootAfterCount": 22796,
+    "changedRootOwners": [
+      "oncogene-addiction",
+      "tumor-microenvironment",
+      "clonal-evolution",
+      "tumor-dormancy",
+      "hallmarks-of-cancer",
+      "inducing-angiogenesis",
+      "cancer-associated-fibroblasts",
+      "tumor-associated-macrophages",
+      "myeloid-derived-suppressor-cells",
+      "oncogene",
+      "tumour-suppressor-gene",
+      "angiogenesis",
+      "benign-vs-malignant",
+      "metastasis",
+      "oncogene-activation-two-hit",
+      "caf-activation-desmoplasia",
+      "tumour-hypoxia",
+      "clonal-evolution-theory",
+      "microenvironment-inflammation-theory",
+      "immune-surveillance-immunoediting",
+      "intra-tumour-heterogeneity"
+    ],
+    "newRootOwners": [
+      "extracellular-matrix"
+    ],
+    "sharedChangedOwners": [
+      "antigen-presentation-immunoediting"
+    ],
+    "oldRootNotesAndSourceURLsPreserved": true,
+    "automaticCanSimAttributionPreserved": true,
+    "workerPacketsAndCommitsPreserved": true
+  },
+  "regressionCorrection": "The first root full suite detected two additional pathway-target link findings after a lead rewrite. Named, independently resolved target examples were restored with allele/model limits. The focused 58-test file and complete root chain then passed. No floor or budget changed.",
+  "exportVerification": "Actual generators passed; final equality checks use the completed fresh runtime capture. A stale-input verification attempt is preserved privately and received no credit.",
+  "mainCredit": 0,
+  "expertReviewCredit": 0,
+  "learnerReviewCredit": 0,
+  "newLanguageReviewCredit": 0
+}

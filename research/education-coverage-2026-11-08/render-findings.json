@@ -1,0 +1,23 @@
+{
+  "finding": "Context-insensitive explanatory alias matches in ordinary prose",
+  "examples": [
+    {
+      "text": "reflect",
+      "matchedRecord": "reflect",
+      "recordName": "REFLECT"
+    },
+    {
+      "text": "same",
+      "matchedRecord": "sam-e-supplements",
+      "recordName": "SAM-e (S-adenosylmethionine)"
+    }
+  ],
+  "evidence": "The server-rendered new pages contained interactive TermHover marks on those ordinary words; the baseline catalogue confirms the case-folded names/alias, and the matcher feeds case-insensitive patterns after a fixed STOP list.",
+  "currentAction": "The existing STOP policy excludes same and reflect; specific SAM-e aliases remain linked. No new ontology field was added.",
+  "status": "Implemented and locally verified in unmerged product draft #376; owner approval and upstream preview pending",
+  "proposal": {
+    "url": "https://github.com/judegomila/OnCo/pull/376",
+    "head": "f5c50fd2732a6573bbd5d36d68a14cb7696fca8a",
+    "verification": "legacy-identity-consumer-verification.json on product branch; full tests, API/export and matched actual-page checks pass."
+  }
+}

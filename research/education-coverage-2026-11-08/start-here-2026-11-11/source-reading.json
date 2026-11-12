@@ -1,0 +1,1885 @@
+{
+  "documents": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "sha256": "7f977e1d6c8757ce261c261389ce4e8d983236dfe98fa8cb4092765027680172",
+      "gitBlob": "f63b06277029da72d9337d23d671eb80ae9f2b40",
+      "bytes": 8783,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ca41cf9695acfe20a0f3c44c95f05bc11df1c0ed3e668499ccac6ca642878632"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7ae307fa7b830ac52c4b8c4649e2d47b946c8fb6c31b6b2adbe543ac4de45f09"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ce82409394bb20c7056ae602b5c5a0457e7bb6ce870eabf1a7c28a3c88f8e76e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f4659fa1fb44ca159a6541108309210aa4d4de0b9aaae023ed4501eedfa36c66"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2cec6821c29bc2ea2ef44c892e13c4dd9f23f3dfc52cea56089af04e6e103016"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e1036bcfab1758d7bf440a18bbe215dd17c0a8c910e8db58cefc9cff7316b539"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "2d1bdef8d4ce1379a2539280a5a82f388c7b7572cbbbe37b16693f08cfcded91"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "32a867e07c7c3c5e336d819a523ecf365882904f863094a42205320d51463429"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1dc0bb18319d5f73515ec3b74bd56e3f66a56a0fe3723c90d89c63b7bd92cd1c"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dceb83d4d1267120452465727b978dc83ec0c989d5afc92fff8589333c7e7a8f"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "13fcebe50d17b4c35efa73eb0fbab5196696005b3e50ca130106854e800a4dbe"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "sha256": "1ac3d873ea58fa0686a9c5d336920d1b527db38f6ba13fe3384234e92df127ea",
+      "gitBlob": "e6462ec569a1673bdef4286d06feb47718370261",
+      "bytes": 8627,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5d6777d95b41273a86d7cf7999cda8b59e686bca73a906b4d905ef47d58d7688"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "69faaed17f12f08d96c4a035ddf7c76a26ba9cacab73d4cfef747450548e8162"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "95a644f470f546c03b53efd2521eadf49cc2444b389bbf2ebbadeb028bccd4b3"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "af275077ba681626263e8fc3d91f7e489dc69eda2bf4a869d488f28dc9fcd9b4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "42c4ebe04bed62081cc1365a591a918b282ad56fc8344fd485dbda40bf12688c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f357c056baafac2b4c6a2864126634b64acdd7e6f23ac77693514f15bf2fa80b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "bdca24eb6086559b724f1cc6d352ba741f523127e1791182e595e4f6ce2860fc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "7ee532059fc651d6a2a7582cfcbfa39caaee0553b5271a5edc6e467eaf8f7009"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a240dacba06453c37e232e51e576e70e7d8a60d9aae41db5534589ff17f6a767"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "2ca78a63dcdfd2a26d31218a4e7a503d8e9b0b2970cd23f4396ca4442b479ba4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "093ef8078d798a909481d6f2173840ecb167bfa4d8ed69c0117bbff4b2c3e1e2"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "78dc4ab1eb1bf15bd1f3f9db3c45ab33d0ba5173e5f43701e29569d82d84ab9a"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "sha256": "4293f75f48a5a8c7344e6503c4f1cc07928a91bf418a3c5ee7a8fd9e980e1aa2",
+      "gitBlob": "2c738c075d39948343ddfa9ef4362fd2d1902800",
+      "bytes": 8475,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "704245e471ce169e9310c799c93324c1bb06e07118199f561775bd6c0331ce05"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "25d3dd2ce99de8440be8d8e3d5d1a5362f8c8356d1863e7355ffc135a8b893c0"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d15749f63089548fe2a826bc9863c6b6edc911318cfd21345556ad7a3d2bc829"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d2ef5ef57bcdfc8210827759db02c81643e977b5c0239b2f6be16081a821ef54"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "56b7ff251d6ce45308d2f94c12048246d4b512a1709d2795bef7b9bb0261a68d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "982e2bb418bb207efcc219f82f483b88b6bf1703007b76cee8b709f5225347b7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "431fb5b7038be3815c45b8baa41d725994bee7623be9f224ce78835c7347ddb6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "b8e38ab1663f30076f1cdcab6bbb2bb63116e826717536614129aeedcf29bdf0"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4de4ce306963395dbaee8f0a2bed16b3015cc963365cdb35c134a2f3ab1e0092"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d76168f03edec465b11ad3835098716fa72cbfc9d6ee0a485d480010186c5bd0"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "be1c0f1c7a64ef477d5fdeebfddc3ddb8270acf7111028732c8cd7f438ed108e"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d9ffea8b7fbdc4d6da60441b19f389718114d3f887576b902fd9efc27f289431"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/start-here/index.md",
+      "sha256": "a105cd5402deb1b19952b586608484c0a823f23cdfe920b4f3b3c86948a325f8",
+      "gitBlob": "75899d959da43ce3dfd0bb5f019cfed0d783d58c",
+      "bytes": 6422,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "06ba47252043cbc41a3424b004e6b0bd11c4866c917a030571615666073c6374"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cc052e20d843822a7a03c0b400b5bcf2a046f9b4ac10419b813c9516353bdf21"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "70cdb495f640575ba211e5389f567ec6c4dec363c463db7a0ba1ec68194e949c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "0c9e195e5372e7848fcb290581f35f778804501e6abfd968b5e8a6b7e401be47"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c952646969d0d21d5db4cfa3723eae89ea7eeae783d6ed2b43fcff2da9f7b7c7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "ad3aae9acd6bef4214176df15443b50eea063e449e8955c51d91a8a7a991882a"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "38eac1058c0e08b8f7961831fc3c80284752aadd1cef71793067c9ae7ce64605"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "5b662f925263dd36e60d767ed81ad840f1870bd39213b32f8ae0c0247c6c10b3"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "01e78f4c62802bbdff7689166548fba2a7f00bb6ab02581c1455c7cfcc90e323"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "sha256": "7f977e1d6c8757ce261c261389ce4e8d983236dfe98fa8cb4092765027680172",
+      "gitBlob": "f63b06277029da72d9337d23d671eb80ae9f2b40",
+      "bytes": 8783,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ca41cf9695acfe20a0f3c44c95f05bc11df1c0ed3e668499ccac6ca642878632"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7ae307fa7b830ac52c4b8c4649e2d47b946c8fb6c31b6b2adbe543ac4de45f09"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ce82409394bb20c7056ae602b5c5a0457e7bb6ce870eabf1a7c28a3c88f8e76e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f4659fa1fb44ca159a6541108309210aa4d4de0b9aaae023ed4501eedfa36c66"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2cec6821c29bc2ea2ef44c892e13c4dd9f23f3dfc52cea56089af04e6e103016"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e1036bcfab1758d7bf440a18bbe215dd17c0a8c910e8db58cefc9cff7316b539"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "2d1bdef8d4ce1379a2539280a5a82f388c7b7572cbbbe37b16693f08cfcded91"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "32a867e07c7c3c5e336d819a523ecf365882904f863094a42205320d51463429"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1dc0bb18319d5f73515ec3b74bd56e3f66a56a0fe3723c90d89c63b7bd92cd1c"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dceb83d4d1267120452465727b978dc83ec0c989d5afc92fff8589333c7e7a8f"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "13fcebe50d17b4c35efa73eb0fbab5196696005b3e50ca130106854e800a4dbe"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "sha256": "1ae042c7ebcdc500102ff4e6b0753a4f44a0dd8e46f5eb5af7bacfc229cf0e70",
+      "gitBlob": "d6a21918edd020c89e2d00d085c69705df0d6a1a",
+      "bytes": 8455,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5d6777d95b41273a86d7cf7999cda8b59e686bca73a906b4d905ef47d58d7688"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "69faaed17f12f08d96c4a035ddf7c76a26ba9cacab73d4cfef747450548e8162"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "479c74816db291b2240ed62cd96473fdd4fbb17cad5c3ca18ce90a3f7e2ddaae"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "af275077ba681626263e8fc3d91f7e489dc69eda2bf4a869d488f28dc9fcd9b4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "42c4ebe04bed62081cc1365a591a918b282ad56fc8344fd485dbda40bf12688c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f357c056baafac2b4c6a2864126634b64acdd7e6f23ac77693514f15bf2fa80b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "bdca24eb6086559b724f1cc6d352ba741f523127e1791182e595e4f6ce2860fc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "7ee532059fc651d6a2a7582cfcbfa39caaee0553b5271a5edc6e467eaf8f7009"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a240dacba06453c37e232e51e576e70e7d8a60d9aae41db5534589ff17f6a767"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "2ca78a63dcdfd2a26d31218a4e7a503d8e9b0b2970cd23f4396ca4442b479ba4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "093ef8078d798a909481d6f2173840ecb167bfa4d8ed69c0117bbff4b2c3e1e2"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "78dc4ab1eb1bf15bd1f3f9db3c45ab33d0ba5173e5f43701e29569d82d84ab9a"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "sha256": "4293f75f48a5a8c7344e6503c4f1cc07928a91bf418a3c5ee7a8fd9e980e1aa2",
+      "gitBlob": "2c738c075d39948343ddfa9ef4362fd2d1902800",
+      "bytes": 8475,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "704245e471ce169e9310c799c93324c1bb06e07118199f561775bd6c0331ce05"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "25d3dd2ce99de8440be8d8e3d5d1a5362f8c8356d1863e7355ffc135a8b893c0"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d15749f63089548fe2a826bc9863c6b6edc911318cfd21345556ad7a3d2bc829"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d2ef5ef57bcdfc8210827759db02c81643e977b5c0239b2f6be16081a821ef54"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "56b7ff251d6ce45308d2f94c12048246d4b512a1709d2795bef7b9bb0261a68d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "982e2bb418bb207efcc219f82f483b88b6bf1703007b76cee8b709f5225347b7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "431fb5b7038be3815c45b8baa41d725994bee7623be9f224ce78835c7347ddb6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "b8e38ab1663f30076f1cdcab6bbb2bb63116e826717536614129aeedcf29bdf0"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4de4ce306963395dbaee8f0a2bed16b3015cc963365cdb35c134a2f3ab1e0092"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d76168f03edec465b11ad3835098716fa72cbfc9d6ee0a485d480010186c5bd0"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "be1c0f1c7a64ef477d5fdeebfddc3ddb8270acf7111028732c8cd7f438ed108e"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d9ffea8b7fbdc4d6da60441b19f389718114d3f887576b902fd9efc27f289431"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/start-here/index.md",
+      "sha256": "a105cd5402deb1b19952b586608484c0a823f23cdfe920b4f3b3c86948a325f8",
+      "gitBlob": "75899d959da43ce3dfd0bb5f019cfed0d783d58c",
+      "bytes": 6422,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "06ba47252043cbc41a3424b004e6b0bd11c4866c917a030571615666073c6374"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cc052e20d843822a7a03c0b400b5bcf2a046f9b4ac10419b813c9516353bdf21"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "70cdb495f640575ba211e5389f567ec6c4dec363c463db7a0ba1ec68194e949c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "0c9e195e5372e7848fcb290581f35f778804501e6abfd968b5e8a6b7e401be47"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c952646969d0d21d5db4cfa3723eae89ea7eeae783d6ed2b43fcff2da9f7b7c7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "ad3aae9acd6bef4214176df15443b50eea063e449e8955c51d91a8a7a991882a"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "38eac1058c0e08b8f7961831fc3c80284752aadd1cef71793067c9ae7ce64605"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "5b662f925263dd36e60d767ed81ad840f1870bd39213b32f8ae0c0247c6c10b3"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "01e78f4c62802bbdff7689166548fba2a7f00bb6ab02581c1455c7cfcc90e323"
+        }
+      ],
+      "priorReviewStatus": "unreviewed"
+    }
+  ],
+  "readingScope": "All four later general teaching pages read; originals reconciled by complete section diff/identity, with the changed original section separately read. Both personal-application sections are excluded without publishing their bodies.",
+  "sourceFirstFreeze": {
+    "checkedOn": "2026-11-11",
+    "baseHead": "0b147afddc594cd1bf1cbfa510a7c040008a1338",
+    "freshCandidateComparisonStarted": false,
+    "laterGeneralTeachingPagesRead": 4,
+    "originalGeneralTeachingReconciledByCompleteSectionDiffOrExactText": 4,
+    "personalApplicationsExcluded": 2,
+    "sourceVersions": 8,
+    "sectionReceipts": 88,
+    "receipts": [
+      {
+        "file": "input-identities.json",
+        "sha256": "d7f9345fcdbe9d379827279e3cb0c8ee22eb08bd217290a9b155a162ebfa28bd"
+      },
+      {
+        "file": "source-structure.json",
+        "sha256": "04091960970e10abfa81dfc2d7349c7f0187180fd5722117b0adb7467aee3f51"
+      },
+      {
+        "file": "version-reconciliation.json",
+        "sha256": "f08acbdd74f8c6dfe4a55cae03b14afebdb86ad6a8b123bbb9ef7a2a5c471caa"
+      },
+      {
+        "file": "source-first-learning-requirements.json",
+        "sha256": "499498fbda41a88cf988506622ecce1520c93ec954603414675629f0c9435b74"
+      },
+      {
+        "file": "source-first-findings.json",
+        "sha256": "982df609c0779cb2393bb3ed0c954190f9ebb96e962f733356033dcb748fc0b8"
+      }
+    ]
+  },
+  "sectionDispositions": [
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "preamble",
+      "sectionSha256": "ca41cf9695acfe20a0f3c44c95f05bc11df1c0ed3e668499ccac6ca642878632",
+      "requirements": [
+        "SH1-001",
+        "SH1-002"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "7ae307fa7b830ac52c4b8c4649e2d47b946c8fb6c31b6b2adbe543ac4de45f09",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Begin with the specimen",
+      "sectionSha256": "ce82409394bb20c7056ae602b5c5a0457e7bb6ce870eabf1a7c28a3c88f8e76e",
+      "requirements": [
+        "SH1-002",
+        "SH1-003",
+        "SH1-004",
+        "SH1-005"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Give each label a job",
+      "sectionSha256": "f4659fa1fb44ca159a6541108309210aa4d4de0b9aaae023ed4501eedfa36c66",
+      "requirements": [
+        "SH1-006",
+        "SH1-007",
+        "SH1-008",
+        "SH1-009",
+        "SH1-010",
+        "SH1-011",
+        "SH1-012",
+        "SH1-013"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "A worked report: two descriptions can both be true",
+      "sectionSha256": "2cec6821c29bc2ea2ef44c892e13c4dd9f23f3dfc52cea56089af04e6e103016",
+      "requirements": [
+        "SH1-014",
+        "SH1-015",
+        "SH1-016",
+        "SH1-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "The picture can change over time",
+      "sectionSha256": "e1036bcfab1758d7bf440a18bbe215dd17c0a8c910e8db58cefc9cff7316b539",
+      "requirements": [
+        "SH1-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "2d1bdef8d4ce1379a2539280a5a82f388c7b7572cbbbe37b16693f08cfcded91",
+      "requirements": [
+        "SH1-002",
+        "SH1-005",
+        "SH1-007",
+        "SH1-008",
+        "SH1-010"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Try it",
+      "sectionSha256": "32a867e07c7c3c5e336d819a523ecf365882904f863094a42205320d51463429",
+      "requirements": [
+        "SH1-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Explain it back",
+      "sectionSha256": "1dc0bb18319d5f73515ec3b74bd56e3f66a56a0fe3723c90d89c63b7bd92cd1c",
+      "requirements": [
+        "SH1-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Takeaway",
+      "sectionSha256": "dceb83d4d1267120452465727b978dc83ec0c989d5afc92fff8589333c7e7a8f",
+      "requirements": [
+        "SH1-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "13fcebe50d17b4c35efa73eb0fbab5196696005b3e50ca130106854e800a4dbe",
+      "requirements": [
+        "SH1-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "preamble",
+      "sectionSha256": "5d6777d95b41273a86d7cf7999cda8b59e686bca73a906b4d905ef47d58d7688",
+      "requirements": [
+        "SH2-001",
+        "SH2-002",
+        "SH2-008"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "69faaed17f12f08d96c4a035ddf7c76a26ba9cacab73d4cfef747450548e8162",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Think of a team with different jobs",
+      "sectionSha256": "95a644f470f546c03b53efd2521eadf49cc2444b389bbf2ebbadeb028bccd4b3",
+      "requirements": [
+        "SH2-001",
+        "SH2-002",
+        "SH2-003",
+        "SH2-O01",
+        "SH2-O02"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Follow a route, then ask where it can fail",
+      "sectionSha256": "af275077ba681626263e8fc3d91f7e489dc69eda2bf4a869d488f28dc9fcd9b4",
+      "requirements": [
+        "SH2-004",
+        "SH2-005"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "What the immune system normally does, and what pembrolizumab changes",
+      "sectionSha256": "42c4ebe04bed62081cc1365a591a918b282ad56fc8344fd485dbda40bf12688c",
+      "requirements": [
+        "SH2-006",
+        "SH2-007",
+        "SH2-008"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "A worked comparison: equal counts, different routes",
+      "sectionSha256": "f357c056baafac2b4c6a2864126634b64acdd7e6f23ac77693514f15bf2fa80b",
+      "requirements": [
+        "SH2-009",
+        "SH2-010",
+        "SH2-011",
+        "SH2-012"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Use a question ladder",
+      "sectionSha256": "bdca24eb6086559b724f1cc6d352ba741f523127e1791182e595e4f6ce2860fc",
+      "requirements": [
+        "SH2-013",
+        "SH2-014",
+        "SH2-015",
+        "SH2-016",
+        "SH2-017",
+        "SH2-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "7ee532059fc651d6a2a7582cfcbfa39caaee0553b5271a5edc6e467eaf8f7009",
+      "requirements": [
+        "SH2-001",
+        "SH2-004",
+        "SH2-008",
+        "SH2-011",
+        "SH2-014",
+        "SH2-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Try it",
+      "sectionSha256": "a240dacba06453c37e232e51e576e70e7d8a60d9aae41db5534589ff17f6a767",
+      "requirements": [
+        "SH2-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Explain it back",
+      "sectionSha256": "2ca78a63dcdfd2a26d31218a4e7a503d8e9b0b2970cd23f4396ca4442b479ba4",
+      "requirements": [
+        "SH2-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Takeaway",
+      "sectionSha256": "093ef8078d798a909481d6f2173840ecb167bfa4d8ed69c0117bbff4b2c3e1e2",
+      "requirements": [
+        "SH2-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "78dc4ab1eb1bf15bd1f3f9db3c45ab33d0ba5173e5f43701e29569d82d84ab9a",
+      "requirements": [
+        "SH2-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "preamble",
+      "sectionSha256": "704245e471ce169e9310c799c93324c1bb06e07118199f561775bd6c0331ce05",
+      "requirements": [
+        "SH3-001",
+        "SH3-002",
+        "SH3-006"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "25d3dd2ce99de8440be8d8e3d5d1a5362f8c8356d1863e7355ffc135a8b893c0",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "The standard sequence and why it runs in this order",
+      "sectionSha256": "d15749f63089548fe2a826bc9863c6b6edc911318cfd21345556ad7a3d2bc829",
+      "requirements": [
+        "SH3-001",
+        "SH3-002",
+        "SH3-003",
+        "SH3-004",
+        "SH3-005",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Read one real number",
+      "sectionSha256": "d2ef5ef57bcdfc8210827759db02c81643e977b5c0239b2f6be16081a821ef54",
+      "requirements": [
+        "SH3-006",
+        "SH3-007",
+        "SH3-008",
+        "SH3-009"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Move carefully between three kinds of evidence",
+      "sectionSha256": "56b7ff251d6ce45308d2f94c12048246d4b512a1709d2795bef7b9bb0261a68d",
+      "requirements": [
+        "SH3-010",
+        "SH3-011",
+        "SH3-012"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "A worked claim: a favorable blood test",
+      "sectionSha256": "982e2bb418bb207efcc219f82f483b88b6bf1703007b76cee8b709f5225347b7",
+      "requirements": [
+        "SH3-013",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Build one sentence you can check",
+      "sectionSha256": "431fb5b7038be3815c45b8baa41d725994bee7623be9f224ce78835c7347ddb6",
+      "requirements": [
+        "SH3-014",
+        "SH3-015",
+        "SH3-016",
+        "SH3-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "b8e38ab1663f30076f1cdcab6bbb2bb63116e826717536614129aeedcf29bdf0",
+      "requirements": [
+        "SH3-010",
+        "SH3-011",
+        "SH3-012",
+        "SH3-013",
+        "SH3-017",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Try it",
+      "sectionSha256": "4de4ce306963395dbaee8f0a2bed16b3015cc963365cdb35c134a2f3ab1e0092",
+      "requirements": [
+        "SH3-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Explain it back",
+      "sectionSha256": "d76168f03edec465b11ad3835098716fa72cbfc9d6ee0a485d480010186c5bd0",
+      "requirements": [
+        "SH3-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Takeaway",
+      "sectionSha256": "be1c0f1c7a64ef477d5fdeebfddc3ddb8270acf7111028732c8cd7f438ed108e",
+      "requirements": [
+        "SH3-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "d9ffea8b7fbdc4d6da60441b19f389718114d3f887576b902fd9efc27f289431",
+      "requirements": [
+        "SH3-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "preamble",
+      "sectionSha256": "06ba47252043cbc41a3424b004e6b0bd11c4866c917a030571615666073c6374",
+      "requirements": [
+        "SHI-003",
+        "SHI-005",
+        "SHI-007"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "The big ideas",
+      "sectionSha256": "cc052e20d843822a7a03c0b400b5bcf2a046f9b4ac10419b813c9516353bdf21",
+      "requirements": [
+        "SHI-001",
+        "SHI-002",
+        "SHI-003",
+        "SHI-004",
+        "SHI-005",
+        "SHI-006",
+        "SHI-007",
+        "SHI-008",
+        "SHI-009"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "The map",
+      "sectionSha256": "70cdb495f640575ba211e5389f567ec6c4dec363c463db7a0ba1ec68194e949c",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Lessons",
+      "sectionSha256": "0c9e195e5372e7848fcb290581f35f778804501e6abfd968b5e8a6b7e401be47",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Concepts you will use",
+      "sectionSha256": "c952646969d0d21d5db4cfa3723eae89ea7eeae783d6ed2b43fcff2da9f7b7c7",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "personal application (excluded)",
+      "sectionSha256": "ad3aae9acd6bef4214176df15443b50eea063e449e8955c51d91a8a7a991882a",
+      "requirements": [],
+      "disposition": "Excluded personal application; identity only, no teaching or coverage",
+      "frozenDisposition": "excluded personal context; no clinical facts copied"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Where to go next",
+      "sectionSha256": "38eac1058c0e08b8f7961831fc3c80284752aadd1cef71793067c9ae7ce64605",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "What is still uncertain",
+      "sectionSha256": "5b662f925263dd36e60d767ed81ad840f1870bd39213b32f8ae0c0247c6c10b3",
+      "requirements": [
+        "SHI-008",
+        "SHI-010"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "original",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "01e78f4c62802bbdff7689166548fba2a7f00bb6ab02581c1455c7cfcc90e323",
+      "requirements": [
+        "SHI-011"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "preamble",
+      "sectionSha256": "ca41cf9695acfe20a0f3c44c95f05bc11df1c0ed3e668499ccac6ca642878632",
+      "requirements": [
+        "SH1-001",
+        "SH1-002"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "7ae307fa7b830ac52c4b8c4649e2d47b946c8fb6c31b6b2adbe543ac4de45f09",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Begin with the specimen",
+      "sectionSha256": "ce82409394bb20c7056ae602b5c5a0457e7bb6ce870eabf1a7c28a3c88f8e76e",
+      "requirements": [
+        "SH1-002",
+        "SH1-003",
+        "SH1-004",
+        "SH1-005"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Give each label a job",
+      "sectionSha256": "f4659fa1fb44ca159a6541108309210aa4d4de0b9aaae023ed4501eedfa36c66",
+      "requirements": [
+        "SH1-006",
+        "SH1-007",
+        "SH1-008",
+        "SH1-009",
+        "SH1-010",
+        "SH1-011",
+        "SH1-012",
+        "SH1-013"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "A worked report: two descriptions can both be true",
+      "sectionSha256": "2cec6821c29bc2ea2ef44c892e13c4dd9f23f3dfc52cea56089af04e6e103016",
+      "requirements": [
+        "SH1-014",
+        "SH1-015",
+        "SH1-016",
+        "SH1-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "The picture can change over time",
+      "sectionSha256": "e1036bcfab1758d7bf440a18bbe215dd17c0a8c910e8db58cefc9cff7316b539",
+      "requirements": [
+        "SH1-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "2d1bdef8d4ce1379a2539280a5a82f388c7b7572cbbbe37b16693f08cfcded91",
+      "requirements": [
+        "SH1-002",
+        "SH1-005",
+        "SH1-007",
+        "SH1-008",
+        "SH1-010"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Try it",
+      "sectionSha256": "32a867e07c7c3c5e336d819a523ecf365882904f863094a42205320d51463429",
+      "requirements": [
+        "SH1-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Explain it back",
+      "sectionSha256": "1dc0bb18319d5f73515ec3b74bd56e3f66a56a0fe3723c90d89c63b7bd92cd1c",
+      "requirements": [
+        "SH1-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Takeaway",
+      "sectionSha256": "dceb83d4d1267120452465727b978dc83ec0c989d5afc92fff8589333c7e7a8f",
+      "requirements": [
+        "SH1-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/01-read-the-labels.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "13fcebe50d17b4c35efa73eb0fbab5196696005b3e50ca130106854e800a4dbe",
+      "requirements": [
+        "SH1-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "preamble",
+      "sectionSha256": "5d6777d95b41273a86d7cf7999cda8b59e686bca73a906b4d905ef47d58d7688",
+      "requirements": [
+        "SH2-001",
+        "SH2-002",
+        "SH2-008"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "69faaed17f12f08d96c4a035ddf7c76a26ba9cacab73d4cfef747450548e8162",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Think of a team with different jobs",
+      "sectionSha256": "479c74816db291b2240ed62cd96473fdd4fbb17cad5c3ca18ce90a3f7e2ddaae",
+      "requirements": [
+        "SH2-001",
+        "SH2-002",
+        "SH2-003"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Follow a route, then ask where it can fail",
+      "sectionSha256": "af275077ba681626263e8fc3d91f7e489dc69eda2bf4a869d488f28dc9fcd9b4",
+      "requirements": [
+        "SH2-004",
+        "SH2-005"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "What the immune system normally does, and what pembrolizumab changes",
+      "sectionSha256": "42c4ebe04bed62081cc1365a591a918b282ad56fc8344fd485dbda40bf12688c",
+      "requirements": [
+        "SH2-006",
+        "SH2-007",
+        "SH2-008"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "A worked comparison: equal counts, different routes",
+      "sectionSha256": "f357c056baafac2b4c6a2864126634b64acdd7e6f23ac77693514f15bf2fa80b",
+      "requirements": [
+        "SH2-009",
+        "SH2-010",
+        "SH2-011",
+        "SH2-012"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Use a question ladder",
+      "sectionSha256": "bdca24eb6086559b724f1cc6d352ba741f523127e1791182e595e4f6ce2860fc",
+      "requirements": [
+        "SH2-013",
+        "SH2-014",
+        "SH2-015",
+        "SH2-016",
+        "SH2-017",
+        "SH2-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "7ee532059fc651d6a2a7582cfcbfa39caaee0553b5271a5edc6e467eaf8f7009",
+      "requirements": [
+        "SH2-001",
+        "SH2-004",
+        "SH2-008",
+        "SH2-011",
+        "SH2-014",
+        "SH2-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Try it",
+      "sectionSha256": "a240dacba06453c37e232e51e576e70e7d8a60d9aae41db5534589ff17f6a767",
+      "requirements": [
+        "SH2-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Explain it back",
+      "sectionSha256": "2ca78a63dcdfd2a26d31218a4e7a503d8e9b0b2970cd23f4396ca4442b479ba4",
+      "requirements": [
+        "SH2-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Takeaway",
+      "sectionSha256": "093ef8078d798a909481d6f2173840ecb167bfa4d8ed69c0117bbff4b2c3e1e2",
+      "requirements": [
+        "SH2-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "78dc4ab1eb1bf15bd1f3f9db3c45ab33d0ba5173e5f43701e29569d82d84ab9a",
+      "requirements": [
+        "SH2-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "preamble",
+      "sectionSha256": "704245e471ce169e9310c799c93324c1bb06e07118199f561775bd6c0331ce05",
+      "requirements": [
+        "SH3-001",
+        "SH3-002",
+        "SH3-006"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Where this step sits",
+      "sectionSha256": "25d3dd2ce99de8440be8d8e3d5d1a5362f8c8356d1863e7355ffc135a8b893c0",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "The standard sequence and why it runs in this order",
+      "sectionSha256": "d15749f63089548fe2a826bc9863c6b6edc911318cfd21345556ad7a3d2bc829",
+      "requirements": [
+        "SH3-001",
+        "SH3-002",
+        "SH3-003",
+        "SH3-004",
+        "SH3-005",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Read one real number",
+      "sectionSha256": "d2ef5ef57bcdfc8210827759db02c81643e977b5c0239b2f6be16081a821ef54",
+      "requirements": [
+        "SH3-006",
+        "SH3-007",
+        "SH3-008",
+        "SH3-009"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Move carefully between three kinds of evidence",
+      "sectionSha256": "56b7ff251d6ce45308d2f94c12048246d4b512a1709d2795bef7b9bb0261a68d",
+      "requirements": [
+        "SH3-010",
+        "SH3-011",
+        "SH3-012"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "A worked claim: a favorable blood test",
+      "sectionSha256": "982e2bb418bb207efcc219f82f483b88b6bf1703007b76cee8b709f5225347b7",
+      "requirements": [
+        "SH3-013",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Build one sentence you can check",
+      "sectionSha256": "431fb5b7038be3815c45b8baa41d725994bee7623be9f224ce78835c7347ddb6",
+      "requirements": [
+        "SH3-014",
+        "SH3-015",
+        "SH3-016",
+        "SH3-017"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "What can go wrong at this step",
+      "sectionSha256": "b8e38ab1663f30076f1cdcab6bbb2bb63116e826717536614129aeedcf29bdf0",
+      "requirements": [
+        "SH3-010",
+        "SH3-011",
+        "SH3-012",
+        "SH3-013",
+        "SH3-017",
+        "SH3-018"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Try it",
+      "sectionSha256": "4de4ce306963395dbaee8f0a2bed16b3015cc963365cdb35c134a2f3ab1e0092",
+      "requirements": [
+        "SH3-019"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Explain it back",
+      "sectionSha256": "d76168f03edec465b11ad3835098716fa72cbfc9d6ee0a485d480010186c5bd0",
+      "requirements": [
+        "SH3-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Takeaway",
+      "sectionSha256": "be1c0f1c7a64ef477d5fdeebfddc3ddb8270acf7111028732c8cd7f438ed108e",
+      "requirements": [
+        "SH3-020"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "d9ffea8b7fbdc4d6da60441b19f389718114d3f887576b902fd9efc27f289431",
+      "requirements": [
+        "SH3-021"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "preamble",
+      "sectionSha256": "06ba47252043cbc41a3424b004e6b0bd11c4866c917a030571615666073c6374",
+      "requirements": [
+        "SHI-003",
+        "SHI-005",
+        "SHI-007"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "The big ideas",
+      "sectionSha256": "cc052e20d843822a7a03c0b400b5bcf2a046f9b4ac10419b813c9516353bdf21",
+      "requirements": [
+        "SHI-001",
+        "SHI-002",
+        "SHI-003",
+        "SHI-004",
+        "SHI-005",
+        "SHI-006",
+        "SHI-007",
+        "SHI-008",
+        "SHI-009"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "The map",
+      "sectionSha256": "70cdb495f640575ba211e5389f567ec6c4dec363c463db7a0ba1ec68194e949c",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Lessons",
+      "sectionSha256": "0c9e195e5372e7848fcb290581f35f778804501e6abfd968b5e8a6b7e401be47",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Concepts you will use",
+      "sectionSha256": "c952646969d0d21d5db4cfa3723eae89ea7eeae783d6ed2b43fcff2da9f7b7c7",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "personal application (excluded)",
+      "sectionSha256": "ad3aae9acd6bef4214176df15443b50eea063e449e8955c51d91a8a7a991882a",
+      "requirements": [],
+      "disposition": "Excluded personal application; identity only, no teaching or coverage",
+      "frozenDisposition": "excluded personal context; no clinical facts copied"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Where to go next",
+      "sectionSha256": "38eac1058c0e08b8f7961831fc3c80284752aadd1cef71793067c9ae7ce64605",
+      "requirements": [],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "routing, course order or reading-time metadata; no independent scientific claim"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "What is still uncertain",
+      "sectionSha256": "5b662f925263dd36e60d767ed81ad840f1870bd39213b32f8ae0c0247c6c10b3",
+      "requirements": [
+        "SHI-008",
+        "SHI-010"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    },
+    {
+      "version": "later",
+      "path": "wiki/education/guides/start-here/index.md",
+      "heading": "Sources and scope",
+      "sectionSha256": "01e78f4c62802bbdff7689166548fba2a7f00bb6ab02581c1455c7cfcc90e323",
+      "requirements": [
+        "SHI-011"
+      ],
+      "disposition": "Accounted by the named substantive proofs, derived recap, source-scope or course-routing disposition; no citation-presence credit",
+      "frozenDisposition": "source-first requirements frozen; field/source assessment pending"
+    }
+  ],
+  "artifacts": {
+    "images": [
+      {
+        "version": "later",
+        "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+        "theme": "light",
+        "assetPath": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+        "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+        "sha256": "25093b7df7315f62fe50f33cf719e0d8fa8aa1b6404749cc59ecb055a6d93a67",
+        "bytes": 1737771,
+        "existingAssetScope": "unclassified",
+        "existingAssetReviewStatus": "unreviewed",
+        "renderSha256": "25093b7df7315f62fe50f33cf719e0d8fa8aa1b6404749cc59ecb055a6d93a67",
+        "viewed": true,
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "version": "later",
+        "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+        "theme": "dark",
+        "assetPath": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+        "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+        "sha256": "21a3c0b3c2d1da9124d569f926d33701c990f98df5772fe5c7c72c7b13531e5c",
+        "bytes": 1644317,
+        "existingAssetScope": "unclassified",
+        "existingAssetReviewStatus": "unreviewed",
+        "renderSha256": "21a3c0b3c2d1da9124d569f926d33701c990f98df5772fe5c7c72c7b13531e5c",
+        "viewed": true,
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "version": "later",
+        "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+        "theme": "light",
+        "assetPath": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-light.svg",
+        "gitBlob": "538da263f5fd1a98866d2829d8ffa429cbdce09c",
+        "sha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "bytes": 4834,
+        "existingAssetScope": "teaching",
+        "existingAssetReviewStatus": "reviewed",
+        "renderSha256": "dd3f7189f92016a24b500a30b6f4520e3060aa4d2fec63e6f8995fd9e854e546",
+        "viewed": true,
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "version": "later",
+        "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+        "theme": "dark",
+        "assetPath": "wiki/education/concepts/immunology/tumor-immunology/images/matched-tissue-fields-v2-dark.svg",
+        "gitBlob": "3ee69ccb450a21db787fdc8cb05f621d01f3018e",
+        "sha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "bytes": 4834,
+        "existingAssetScope": "teaching",
+        "existingAssetReviewStatus": "reviewed",
+        "renderSha256": "fd96b9d0c775de8ca0ba7bbbf7843d1eb59bd4bc18431bf024b2e72445de4405",
+        "viewed": true,
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      }
+    ],
+    "diagrams": [
+      {
+        "codeSha256": "d0ac936d67f92f7c483217066e40ce20a5f3c8e216e34c2513fbcee19a67da34",
+        "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "f9c43ffe54839aeaa6080992eb12f97a64f6be4e7b8e72e0086e3d33ff986461",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "d0ac936d67f92f7c483217066e40ce20a5f3c8e216e34c2513fbcee19a67da34",
+        "sourcePath": "wiki/education/guides/start-here/01-read-the-labels.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "498065295847d382f440617654aca4e763ababa7e7dd60dd143b9c4b9182dd70",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "4b2d5026c9c78c2e469b677f79c333174ccf07378e3cb56b36a5fe25ac00d40a",
+        "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "e1a39c843fb95e2eb3e188bf699e48267afdf832edf2f442f5f8f9fb06e070ab",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "4b2d5026c9c78c2e469b677f79c333174ccf07378e3cb56b36a5fe25ac00d40a",
+        "sourcePath": "wiki/education/guides/start-here/02-follow-immune-recognition.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "e344671fc884d2c91cd946dd4304267095122f33fe84311562008bdc47863728",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "35774b7cf5e5819ce75e95126566debfb75e9a7334d0fdddc36724033de35352",
+        "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+        "section": "Where this step sits",
+        "theme": "default",
+        "renderSha256": "37742e83b6a5e465c42cd17e64ff129b6d26eaa492d74e5f96f58013bea963d7",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "35774b7cf5e5819ce75e95126566debfb75e9a7334d0fdddc36724033de35352",
+        "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+        "section": "Where this step sits",
+        "theme": "dark",
+        "renderSha256": "b1bf738522999a94b74c6bf0a6dd430d62619da2911b56d26ac45a947933eeb5",
+        "width": 168,
+        "height": 360,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "e2752deead62e4ec88d5e19df8c726be9ecbfcb892d9b714e871973bf9f26fd5",
+        "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+        "section": "The standard sequence and why it runs in this order",
+        "theme": "default",
+        "renderSha256": "5681d18e6992bf889cc300204d3653904c0e2d8901739fa904419789b575a9c5",
+        "width": 361.5625,
+        "height": 504,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "e2752deead62e4ec88d5e19df8c726be9ecbfcb892d9b714e871973bf9f26fd5",
+        "sourcePath": "wiki/education/guides/start-here/03-connect-treatment-and-evidence.md",
+        "section": "The standard sequence and why it runs in this order",
+        "theme": "dark",
+        "renderSha256": "edc03595750715c203004e2893709d9261afa267837404e8ac10326d8ca09d13",
+        "width": 361.5625,
+        "height": 504,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "818233c1411dd5a873cdee4c1a21d4c1ab8ca509e1f849bac5c8eada357ed85f",
+        "sourcePath": "wiki/education/guides/start-here/index.md",
+        "section": "The map",
+        "theme": "default",
+        "renderSha256": "aa3b18ef9f0763359a73bc5ebf1c2844bacacf478e8b60b63313aab3c0c31741",
+        "width": 168,
+        "height": 528,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      },
+      {
+        "codeSha256": "818233c1411dd5a873cdee4c1a21d4c1ab8ca509e1f849bac5c8eada357ed85f",
+        "sourcePath": "wiki/education/guides/start-here/index.md",
+        "section": "The map",
+        "theme": "dark",
+        "renderSha256": "c6ac07fa2df67fea475576db4fa9a5697ab52f6e35cea5a19027c60e91100164",
+        "width": 168,
+        "height": 528,
+        "viewed": true,
+        "renderAlterations": "none",
+        "viewedOn": "2026-11-11",
+        "scope": "Full extent at original PNG dimensions or native Chrome SVG/Mermaid render; audit reading, not independent expert or accessibility approval."
+      }
+    ],
+    "findings": [
+      {
+        "id": "SH-V01",
+        "kind": "source wording",
+        "finding": "The postoperative treatment node says extra medicine if cancer remains. The canonical timing and residual-disease notes qualify this by prior care and trial eligibility; the source diagram owner should qualify its label.",
+        "canonicalTeachingGapRemaining": false
+      }
+    ],
+    "newAssetDispositions": [
+      {
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+        "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+        "from": "unclassified",
+        "to": "teaching reviewed",
+        "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+      },
+      {
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+        "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+        "from": "unclassified",
+        "to": "teaching reviewed",
+        "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+      },
+      {
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+        "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+        "from": "unclassified",
+        "to": "teaching reviewed",
+        "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+      },
+      {
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+        "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+        "from": "unclassified",
+        "to": "teaching reviewed",
+        "sectionHashRecipe": "SHA256(path + newline + complete report-question schematic + newline + raw PNG SHA256)"
+      }
+    ],
+    "existingMatchedFieldSvgReviewsChanged": false,
+    "limitation": "Static source-art and two-theme diagram renders only, with no source Guide edit, site integration, accessibility measurement, independent expert or learner sign-off."
+  }
+}

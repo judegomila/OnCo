@@ -1,0 +1,2684 @@
+{
+  "scope": "Inventory frozen after full later-version reads and complete exact original/later diffs, before inspecting current owner teaching fields. Previous vaccine and domain audit exposure is acknowledged; this is a new source-first comparison, not an independent expert review.",
+  "baselineHead": "52976cc6b3453ab6ec8edc68433520bf2d2ea675",
+  "sourceVersions": 6,
+  "sectionSignatures": 72,
+  "personalCaseExclusions": 0,
+  "rows": [
+    {
+      "id": "message-01",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "A selected target list needs an approved sequence and specification before manufacture; manufacture and purification do not establish intended peptide display.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "985bf1f3947e3794a372ae8d67e7edc7b0885617050928d168e1804815020ed2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "985bf1f3947e3794a372ae8d67e7edc7b0885617050928d168e1804815020ed2"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-02",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "The diagram distinguishes target selection, message review, manufacture/release and outcome measurement; message design has a separate delivery and release review.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 28,
+          "lineEnd": 37,
+          "passageSha256": "f1d282bac159f9fbd61e1554237e67b84864b31b2815715a646663a29bc17e2c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 28,
+          "lineEnd": 37,
+          "passageSha256": "f1d282bac159f9fbd61e1554237e67b84864b31b2815715a646663a29bc17e2c"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-03",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "A target window retains the alteration and its surrounding amino acids; it need not equal the short presented epitope.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "aee957441acaa484536ec6dc6b3e82d25646823643538ba7766d5ddfedfe5666"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "aee957441acaa484536ec6dc6b3e82d25646823643538ba7766d5ddfedfe5666"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-04",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Keep the RNA instruction, translated protein and processed HLA-displayed fragments distinct; order, linkers and trafficking can affect the combined product.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 41,
+          "lineEnd": 43,
+          "passageSha256": "80900b41ff7ebecabfc1ffb18a02fd99fb6a60fc43b0a63ff100d9778ee64817"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 41,
+          "lineEnd": 43,
+          "passageSha256": "80900b41ff7ebecabfc1ffb18a02fd99fb6a60fc43b0a63ff100d9778ee64817"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-05",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Trace each encoded window to its source event and verify preservation of the intended alteration.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "deb30c673bf93ae1f4f77820c7a0a5990b1cae44f8c3ea1ad84b7a78317ccaf6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "deb30c673bf93ae1f4f77820c7a0a5990b1cae44f8c3ea1ad84b7a78317ccaf6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-06",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Review target order and spacer boundaries for altered processing, unintended junction candidates and relevant display evidence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "a481cab50413cc553a513c0e4fd2fbc2ef110fb08c5fb1404553f60558e06482"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "a481cab50413cc553a513c0e4fd2fbc2ef110fb08c5fb1404553f60558e06482"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-07",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Synonymous codon changes preserve intended amino acids but can alter RNA structure or lifetime; verify the full encoded protein and measure relevant RNA behaviour.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 51,
+          "lineEnd": 58,
+          "passageSha256": "1db0934674267a1895b3854a9dccc3e1a6caf6e0d513918a776589dc3df9d498"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 51,
+          "lineEnd": 58,
+          "passageSha256": "1db0934674267a1895b3854a9dccc3e1a6caf6e0d513918a776589dc3df9d498"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-08",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Changing a nucleoside building block is a chemistry change; compare sensing and expression under matched product-relevant conditions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "13e8f4134fc5753a0b433f8e636d81b7ffc0b74d1ed4e74090cd1d8fd14bb15d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "13e8f4134fc5753a0b433f8e636d81b7ffc0b74d1ed4e74090cd1d8fd14bb15d"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-09",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Kozak context surrounds the translation start across untranslated and coding sequence; the preproinsulin experiments support initiation in that construct, not a universally best vaccine or proof of target display.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 53,
+          "lineEnd": 56,
+          "passageSha256": "23b90def7923caf0bcca6d78929dcf53eba07b92d5f8ad24849a72ac121b7a39"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 53,
+          "lineEnd": 56,
+          "passageSha256": "23b90def7923caf0bcca6d78929dcf53eba07b92d5f8ad24849a72ac121b7a39"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-10",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Specify cap, untranslated regions and poly(A) features separately and measure the quality, stability and translation properties at issue.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "fecfff833248615e579e120dfdd20467061a16bdb09a7ecccf6551ceb71127ca"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "fecfff833248615e579e120dfdd20467061a16bdb09a7ecccf6551ceb71127ca"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-11",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Trafficking signals direct protein location and helper segments can support CD4 responses in a particular construct; neither is universally required.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "709b3ad710e2432c374eb96a825e422b814b16f1251c0e277370637b3b3a0ba5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "709b3ad710e2432c374eb96a825e422b814b16f1251c0e277370637b3b3a0ba5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-12",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Optimisation is an intended improvement until measured; more bulk protein does not establish improved display of each target.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 58,
+          "lineEnd": 60,
+          "passageSha256": "8c7901d9a68c8ec4655b5eac5065defcd05789c8e0f6933311e80643be5f7b15"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 58,
+          "lineEnd": 60,
+          "passageSha256": "8c7901d9a68c8ec4655b5eac5065defcd05789c8e0f6933311e80643be5f7b15"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-13",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "In the fictional A/B construct, a synonymous-codon revision calls for protein-sequence identity and an RNA/protein behaviour comparison.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "3b2a8b097d26a09b9a541491f12b7e9d989e90e8f50ddd1657644e9474d09cdf"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 64,
+          "lineEnd": 66,
+          "passageSha256": "3b2a8b097d26a09b9a541491f12b7e9d989e90e8f50ddd1657644e9474d09cdf"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-14",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "In the fictional A/B construct, shortening the spacer changes the combined protein and calls for a new boundary and processing review.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 64,
+          "lineEnd": 67,
+          "passageSha256": "2226e782bd86fc12b751d1b0ad0c9f8d904f2a5daefd4216b6db2b58a144cbf4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 64,
+          "lineEnd": 67,
+          "passageSha256": "2226e782bd86fc12b751d1b0ad0c9f8d904f2a5daefd4216b6db2b58a144cbf4"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-15",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "In the fictional A/B construct, modified uridine may retain the intended protein while changing sensing or translation; purity and delivery must be appropriately comparable.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 64,
+          "lineEnd": 68,
+          "passageSha256": "8c730d1b00ba85e678ad51934789dd5124746de72f1285468b26b4e9be0f7bc6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 64,
+          "lineEnd": 68,
+          "passageSha256": "8c730d1b00ba85e678ad51934789dd5124746de72f1285468b26b4e9be0f7bc6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-16",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "A stronger reporter result is expression evidence, not evidence that both targets are displayed, naturally recognised on tumour cells or prevent recurrence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "8877ea8a18c562a0fb32b842ce87ceceb6fa43331370e362ad0855dce5707e98"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "8877ea8a18c562a0fb32b842ce87ceceb6fa43331370e362ad0855dce5707e98"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-17",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "The versioned handoff retains complete sequence, window sources, intended protein, RNA features, change rationale, prediction method/version and measured specimen/assay conditions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 74,
+          "lineEnd": 74,
+          "passageSha256": "cb28fac6266dc349206dd7644e321ea55cf4f6e04e7e3d7c250fe088d0408e6a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 74,
+          "lineEnd": 74,
+          "passageSha256": "cb28fac6266dc349206dd7644e321ea55cf4f6e04e7e3d7c250fe088d0408e6a"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-18",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "LNP and lipoplex names can overlap in publications; composition and architecture, rather than the label alone, define the delivery formulation.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "d9607352cd33b98ea196947d7230c1f3ccd11e7605dc18e43c4c72fe7d36c25d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "d9607352cd33b98ea196947d7230c1f3ccd11e7605dc18e43c4c72fe7d36c25d"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-19",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "The same message can behave differently with a new formulation or route; the released lot must trace to the approved design and manufacturing specification.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "d9607352cd33b98ea196947d7230c1f3ccd11e7605dc18e43c4c72fe7d36c25d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 76,
+          "lineEnd": 76,
+          "passageSha256": "d9607352cd33b98ea196947d7230c1f3ccd11e7605dc18e43c4c72fe7d36c25d"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-20",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "Handoff failures include a lost altered residue, wrong sequence version, concealed biological edit, new junction candidate and an expression model lacking the relevant presentation pathway.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 80,
+          "lineEnd": 80,
+          "passageSha256": "a2fe31bae972e0574214419b1b0cc6de10ef9571b8a24b1fa9d968ecfee19102"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 80,
+          "lineEnd": 80,
+          "passageSha256": "a2fe31bae972e0574214419b1b0cc6de10ef9571b8a24b1fa9d968ecfee19102"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-21",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "A prediction identifies a specific uncertainty to investigate; it neither establishes failure nor replaces a relevant assay, which answers only its own question.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 80,
+          "lineEnd": 82,
+          "passageSha256": "e7b037e32189e0ab44a7a62d477c7047a19996164b71b186301ea36cee31e0c4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 80,
+          "lineEnd": 82,
+          "passageSha256": "e7b037e32189e0ab44a7a62d477c7047a19996164b71b186301ea36cee31e0c4"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-22",
+      "lesson": "message",
+      "kind": "substantive",
+      "requirement": "The unchanged-target-list exercise requires exact old/new RNA and protein specifications, change rationale and affected expression/sensing/processing evidence; target names do not establish equivalence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 86,
+          "lineEnd": 88,
+          "passageSha256": "6b8c0cd70014b229ed0add0827ad2b855bc25afeaf70ee569ffcaa22133bb1eb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 86,
+          "lineEnd": 88,
+          "passageSha256": "6b8c0cd70014b229ed0add0827ad2b855bc25afeaf70ee569ffcaa22133bb1eb"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-90",
+      "lesson": "message",
+      "kind": "non-credit",
+      "requirement": "Introductory routing and prerequisites; unique teaching is retained in substantive rows.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "3ec9f805d5146150f9c91651204d3e74dac9a0c162105be12221f3ecc283475f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "3ec9f805d5146150f9c91651204d3e74dac9a0c162105be12221f3ecc283475f"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-91",
+      "lesson": "message",
+      "kind": "non-credit",
+      "requirement": "Explain-it-back restates the layer distinctions and is mapped to the substantive rows.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 90,
+          "lineEnd": 94,
+          "passageSha256": "faf9a1ef483c47bdc3adcc6e14d93cd0b5c71344c0132cbc40f4712cc751e073"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 90,
+          "lineEnd": 94,
+          "passageSha256": "faf9a1ef483c47bdc3adcc6e14d93cd0b5c71344c0132cbc40f4712cc751e073"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-92",
+      "lesson": "message",
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-chapter navigation repeat retained teaching.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 96,
+          "lineEnd": 100,
+          "passageSha256": "9ad5f701f45397d5ab45586c4b57bf178c580d7c3dd6d355fb6b16e3e8e1b737"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 96,
+          "lineEnd": 100,
+          "passageSha256": "839416ddbdf83be2ffa99b42cbe318c8fcbfd0d1dd4743d2c4c5639ad76783c6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "message-93",
+      "lesson": "message",
+      "kind": "non-credit",
+      "requirement": "Source-list identity and review-depth metadata do not independently earn teaching coverage.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "cfed6d85f5d560bf0657f83362195c926f679dfd470b785cc410898e4084498b",
+          "lineStart": 102,
+          "lineEnd": 110,
+          "passageSha256": "e539b297884c771a467909738066953dac5d5c565e35c2a583138801d970c47e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/06-writing-the-message.md",
+          "sourceSha256": "5fb66ae24d14627a3e5af5ad8d29efdc9fb298d761457ea1f40200d8a019ddcf",
+          "lineStart": 102,
+          "lineEnd": 110,
+          "passageSha256": "e539b297884c771a467909738066953dac5d5c565e35c2a583138801d970c47e"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-01",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Manufacturing makes the specified product; product quality, access authorisation and evidence of clinical benefit answer separate questions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "1c45078e3eb92be70d999b4c8f076bd2ab291f2375d6cc68e1c505b76a80c5b8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "a5d113a60f126624c845887ecd01f0cde6c3895079268dba84910058ee40d522"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-02",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The recipe analogy concerns reproducible preparation, handling and criteria; consistency does not establish target usefulness or clinical benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 28,
+          "lineEnd": 30,
+          "passageSha256": "b8a18d8dd10e725ad5f9158b879e3af5d2fda1eab0286147667e031e07a9e7fb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 28,
+          "lineEnd": 30,
+          "passageSha256": "b8a18d8dd10e725ad5f9158b879e3af5d2fda1eab0286147667e031e07a9e7fb"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-03",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Synthetic peptide manufacture assembles chains on a support, releases and purifies them; antigen-presenting-cell loading or processing and priming remain biological questions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 36,
+          "lineEnd": 41,
+          "passageSha256": "448b8b409a27c0d8adba0394decd3f7a03d457eeb6f724adacddd31791b68f68"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 36,
+          "lineEnd": 41,
+          "passageSha256": "448b8b409a27c0d8adba0394decd3f7a03d457eeb6f724adacddd31791b68f68"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-04",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "An RNA-LNP product includes RNA and a specified particle formulation; expression in relevant cells after the intended route remains to be established.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "dd9682f55be1222d969e695636eb59d20f0e5942fb993ff8633b4f2605286691"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "dd9682f55be1222d969e695636eb59d20f0e5942fb993ff8633b4f2605286691"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-05",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "An RNA-lipoplex complexes RNA with specified lipids; composition and route can affect expression and sensing.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "27aa588b51414d3d9ceee763d28a98081467db98f03f9cf0c33a1ffcf33978e3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "27aa588b51414d3d9ceee763d28a98081467db98f03f9cf0c33a1ffcf33978e3"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-06",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "DNA and engineered-vector formats raise product-specific expression-duration, cell-targeting and vector-risk questions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "f2bf4f156a64f59d8430166d1294665915d91c708492db8af2bd1b4794c39eb7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "f2bf4f156a64f59d8430166d1294665915d91c708492db8af2bd1b4794c39eb7"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-07",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Peptide and RNA formats both require identity, purity, stability, handling and relevant functional testing; RNA delivers instructions rather than the antigen chain itself.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "324897ee98a6f96fb029a1aada6b397db54d7fbde63a6cec7e7a57a7563bbe59"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "324897ee98a6f96fb029a1aada6b397db54d7fbde63a6cec7e7a57a7563bbe59"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-08",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The manufacturing diagram traces specification, DNA template, transcription, purification/testing, formulation, aseptic fill/release, transport and protocol administration; each arrow is a controlled handoff, not guaranteed success.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 45,
+          "lineEnd": 55,
+          "passageSha256": "55eb7d5e5ffa2e6e06ec04738cc34df48967979b414b6b5bd6ade0ebbc96f74f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 45,
+          "lineEnd": 55,
+          "passageSha256": "55eb7d5e5ffa2e6e06ec04738cc34df48967979b414b6b5bd6ade0ebbc96f74f"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-09",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "In vitro transcription is enzymatic RNA production outside living cells; its DNA template is not the intended payload of a conventional mRNA vaccine.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "9da1ae132391a87ebf276b75998418af1c5c1393ea336659b2267bee328d6251"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "9da1ae132391a87ebf276b75998418af1c5c1393ea336659b2267bee328d6251"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-10",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The approved RNA design specifies cap, UTRs, coding sequence, poly(A) strategy and building blocks; sequence, chemical modification and purification are separate decisions and modified nucleosides are not universally required.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 57,
+          "lineEnd": 59,
+          "passageSha256": "2e5bb8a963d11628b0b779b02d4e678912b9ad6d553f336d2be32109c6c45111"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 57,
+          "lineEnd": 59,
+          "passageSha256": "2e5bb8a963d11628b0b779b02d4e678912b9ad6d553f336d2be32109c6c45111"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-11",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Purification addresses residual DNA, protein, incomplete transcripts and double-stranded RNA; removal targets and assay detection scopes need to be stated.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "3bc621e8e07684ca5cda09a173343cb6d47b5770514db53404507a71ac49ee18"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "3bc621e8e07684ca5cda09a173343cb6d47b5770514db53404507a71ac49ee18"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-12",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "RNA chemistry and double-stranded impurity removal address different mechanisms; one purity result does not establish integrity or microbial sterility.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "3bc621e8e07684ca5cda09a173343cb6d47b5770514db53404507a71ac49ee18"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "3bc621e8e07684ca5cda09a173343cb6d47b5770514db53404507a71ac49ee18"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-13",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "A formulation specification includes composition, RNA amount/integrity, particle properties and relevant biological activity.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "ce0ed8fdbf718c2786b0b19358d4848ebc1c380f5e3d562db9168adb0726e50f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "ce0ed8fdbf718c2786b0b19358d4848ebc1c380f5e3d562db9168adb0726e50f"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-14",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Aseptic filling, storage and transport preserve product; shelf life and allowable excursions need product-specific stability evidence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "ce0ed8fdbf718c2786b0b19358d4848ebc1c380f5e3d562db9168adb0726e50f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "ce0ed8fdbf718c2786b0b19358d4848ebc1c380f5e3d562db9168adb0726e50f"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-15",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The three personalised RNA study products differ in formulation, route, population and treatment sequence; overlapping nanoparticle terminology is not an interchangeable recipe or dosing recommendation.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "0619fe2b1121abd86385b14ecdb735e236e27dfe3eeaf30df5af09dc3506858a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "0619fe2b1121abd86385b14ecdb735e236e27dfe3eeaf30df5af09dc3506858a"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-16",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "TNBC-MERIT is a phase I single-arm post-standard-treatment early-TNBC study using non-nucleoside-modified uridine RNA-LPX intravenously, with eight personalised administrations: six weekly and two every other week.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "97c684d72f6a082c245114d3ecc08bba50d48fc16e36c901644bf0789f9f3969"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "97c684d72f6a082c245114d3ecc08bba50d48fc16e36c901644bf0789f9f3969"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-17",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "TNBC-MERIT used two RNA strands encoding up to ten target windows each; this is a product-specific multi-epitope architecture, not a general requirement.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "cb6a2789372460c035507dbbb6c64afcd9e6a99a2f25baada5b352ab8f6bf4f2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "cb6a2789372460c035507dbbb6c64afcd9e6a99a2f25baada5b352ab8f6bf4f2"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-18",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The TNBC-MERIT run-in included a shared-antigen bridging vaccine subgroup; schedule interpretation must retain this participant-protocol context.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "51bcd1785e3d7765c844e9df1ba00f2e4d4f1b263b36657204b6cca87679f0c0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "51bcd1785e3d7765c844e9df1ba00f2e4d4f1b263b36657204b6cca87679f0c0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-19",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "TNBC-MERIT supports feasibility and immune findings in its enrolled setting, not an isolated causal recurrence-prevention benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "97c684d72f6a082c245114d3ecc08bba50d48fc16e36c901644bf0789f9f3969"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "97c684d72f6a082c245114d3ecc08bba50d48fc16e36c901644bf0789f9f3969"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-20",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The Rojas pancreatic study used intravenous uridine RNA-LPX after resection within a sequence of atezolizumab, vaccine priming, chemotherapy and later booster; clinical associations do not isolate vaccine benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 72,
+          "lineEnd": 75,
+          "passageSha256": "3eb720c6e12c528c6358a5474a7aeff97ed83daf1ab5127a74b138637babc6fb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 72,
+          "lineEnd": 75,
+          "passageSha256": "3eb720c6e12c528c6358a5474a7aeff97ed83daf1ab5127a74b138637babc6fb"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-21",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "KEYNOTE-942 randomised completely resected high-risk melanoma to V940 plus pembrolizumab or pembrolizumab alone; it tests the add-on product and not an LPX-versus-LNP contrast.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "7abc1f74c9513561379a95ed4607086f10ecd50140b792244870d0124d22d6d0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "7abc1f74c9513561379a95ed4607086f10ecd50140b792244870d0124d22d6d0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-22",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "KEYNOTE-942 used intramuscular vaccine up to nine administrations every three weeks; the separate primary CT251 protocol abstract supplies LNP encapsulation, not KEYNOTE-942 outcome evidence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 73,
+          "lineEnd": 77,
+          "passageSha256": "8facfd94aa1fa7b5f82a3cb59bf6bbcea86f40d2ab16438673b3e8803883814f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 73,
+          "lineEnd": 77,
+          "passageSha256": "8facfd94aa1fa7b5f82a3cb59bf6bbcea86f40d2ab16438673b3e8803883814f"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-23",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Neither mRNA nor LNP labels reveal complete lipid composition, RNA chemistry, cap, impurity limits or stability; do not import a different product protocol or rank formulations from cross-trial percentages.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 75,
+          "lineEnd": 79,
+          "passageSha256": "eb77cda8330a9007d5a048418db6fe0c93328ef120941ba36825650a3e7bd7d1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 75,
+          "lineEnd": 79,
+          "passageSha256": "eb77cda8330a9007d5a048418db6fe0c93328ef120941ba36825650a3e7bd7d1"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-24",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "A CDMO can perform agreed development, manufacture and testing; design/change approval and quality responsibilities must stay explicit when work is outsourced.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "513c1a2778c358bb2f5b303d8b96a206bad65f9deb23fa72e44dcc9eb7f93ab4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 83,
+          "lineEnd": 83,
+          "passageSha256": "513c1a2778c358bb2f5b303d8b96a206bad65f9deb23fa72e44dcc9eb7f93ab4"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-25",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Antigen/construct review, version/change control, lot manufacture/release and clinical/regulatory protocol/monitoring are distinct reviews with distinct questions.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 85,
+          "lineEnd": 90,
+          "passageSha256": "f109ec66f4593b25053ae0720ba82fff244cf1288cd5d170379db7d5d373a3d2"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 85,
+          "lineEnd": 90,
+          "passageSha256": "f109ec66f4593b25053ae0720ba82fff244cf1288cd5d170379db7d5d373a3d2"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-26",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Identity/custody connects recipient, construct version, lot and handoffs; acceptable testing on a wrongly assigned vial cannot establish that connection.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 92,
+          "lineEnd": 92,
+          "passageSha256": "544e9f2aba4df33667995851cabfd9c48ebb6d8a154bed6739304d4bba0b1123"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 92,
+          "lineEnd": 92,
+          "passageSha256": "544e9f2aba4df33667995851cabfd9c48ebb6d8a154bed6739304d4bba0b1123"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-27",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Potency concerns relevant biological activity; an expression assay can cover part of an RNA mechanism without establishing peptide display, tumour recognition or clinical benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 94,
+          "lineEnd": 94,
+          "passageSha256": "ca0ee766ae9f7f9a9bf15f4ef5a3f96d2e68ced6bdcf6f2177ae135fab6c3b76"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 94,
+          "lineEnd": 94,
+          "passageSha256": "ca0ee766ae9f7f9a9bf15f4ef5a3f96d2e68ced6bdcf6f2177ae135fab6c3b76"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-28",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "A spacer edit is a controlled construct revision with potentially changed processing; retaining target names, RNA amount and routine release tests does not by itself justify earlier evidence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 96,
+          "lineEnd": 96,
+          "passageSha256": "21fc5665efd82c53f035d1d0dc85334e6f05da9ff059e687822d2fbc7b5413f0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 96,
+          "lineEnd": 96,
+          "passageSha256": "21fc5665efd82c53f035d1d0dc85334e6f05da9ff059e687822d2fbc7b5413f0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-29",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Locate a change in personalised sequence versus shared formulation/platform components before choosing the review and evidence bridge.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 98,
+          "lineEnd": 98,
+          "passageSha256": "e573af3f178312c503bcc3f20af26a6695e82d214eb521ba7218ab871e547dd3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 98,
+          "lineEnd": 98,
+          "passageSha256": "e573af3f178312c503bcc3f20af26a6695e82d214eb521ba7218ab871e547dd3"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-30",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The fictional spacer comparison changes a construct, not just its production process; A/B/C are independent matched material preparations, not people or doses, and each signal is a two-technical-well mean.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 102,
+          "lineEnd": 106,
+          "passageSha256": "5527df1599c169631e54192a2174bd5a84b10a72cf3237bd085a16380561718b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 102,
+          "lineEnd": 106,
+          "passageSha256": "5527df1599c169631e54192a2174bd5a84b10a72cf3237bd085a16380561718b"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-31",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The fictional matched table has RNA 1 to 1 mg in all pairs; A reporter 100 to 104 and display 9 to 3, B 98 to 101 and 8 to 3, and C 102 to 100 and 10 to 4.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 108,
+          "lineEnd": 112,
+          "passageSha256": "86451b9037a5158b531c276eeed3627fff0f55ac2b0b1590b5da7557a866e72d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 108,
+          "lineEnd": 112,
+          "passageSha256": "86451b9037a5158b531c276eeed3627fff0f55ac2b0b1590b5da7557a866e72d"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-32",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "For pair A the fictional reporter increases by 4 units or 4.0%, while display drops by 6 units or 66.7%; compare each attribute within its own assay.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-33",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "For pair B the fictional reporter increases by 3 units or about 3.1%, while display drops by 5 units or 62.5%; nearby reporter values do not establish equivalent display.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-34",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "For pair C the fictional reporter decreases by 2 units or about 2.0%, while display drops by 6 units or 60.0%; all three display drops warrant investigation without a causal conclusion.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 118,
+          "lineEnd": 120,
+          "passageSha256": "9805384d6a861fed6d42201b3d94cedb14f7cd5b867324948a51e428ea120eb5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-35",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Reporter and target-B display have separate arbitrary-unit scales; a reporter is a stipulated expression surrogate and cannot be treated as a validated target-display readout.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 106,
+          "lineEnd": 120,
+          "passageSha256": "94267f89383eac230d552c199f0fa8b3d39cd81ed6b2b65cc7a3750df6e3bce9"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 106,
+          "lineEnd": 120,
+          "passageSha256": "94267f89383eac230d552c199f0fa8b3d39cd81ed6b2b65cc7a3750df6e3bce9"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-36",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The toy comparison stipulates matched mass, formulation, model, method/time, viable-cell normalisation and common reference; background and reference-control notes are qualitative premises, not raw control data.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 114,
+          "lineEnd": 114,
+          "passageSha256": "07ebd8626dcbbda1588795878a0c8c295737d568685666ad1ab5dcb45c97facc"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 114,
+          "lineEnd": 114,
+          "passageSha256": "07ebd8626dcbbda1588795878a0c8c295737d568685666ad1ab5dcb45c97facc"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-37",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The toy lacks raw wells/controls, precision/range, detection and quantification limits, prespecified comparison bounds and release limits; its short control notes do not validate either assay.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 116,
+          "lineEnd": 124,
+          "passageSha256": "237df11a869972b05666ae9131d0e0b0f97071fceb6315c8eaa48627162a2864"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 116,
+          "lineEnd": 124,
+          "passageSha256": "237df11a869972b05666ae9131d0e0b0f97071fceb6315c8eaa48627162a2864"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-38",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Three preparation pairs remain three independent units despite two technical wells each; equal RNA mass after a length change need not mean equal molecule counts, so integrity, length and input normalisation need review.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 122,
+          "lineEnd": 124,
+          "passageSha256": "fa86dd275882f9a044a2ad1e03eb5bf43bebaa3e035dce995a6ce96179a29f64"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 122,
+          "lineEnd": 124,
+          "passageSha256": "fa86dd275882f9a044a2ad1e03eb5bf43bebaa3e035dce995a6ce96179a29f64"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-39",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "A construct revision needs design/function justification alongside any process comparability review; a process-only bridge cannot cover a changed encoded message.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 126,
+          "lineEnd": 128,
+          "passageSha256": "851d0fc47dba3de2a065d761fd74518d522e021e5ff15d787ee47e15ab0ddea6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 126,
+          "lineEnd": 128,
+          "passageSha256": "851d0fc47dba3de2a065d761fd74518d522e021e5ff15d787ee47e15ab0ddea6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-40",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Investigate biological versus assay/input causes with relevant characterisation and functional comparisons and prespecified justified criteria; the toy cannot determine causality, lot disposition or required further studies.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 126,
+          "lineEnd": 128,
+          "passageSha256": "851d0fc47dba3de2a065d761fd74518d522e021e5ff15d787ee47e15ab0ddea6"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 126,
+          "lineEnd": 128,
+          "passageSha256": "851d0fc47dba3de2a065d761fd74518d522e021e5ff15d787ee47e15ab0ddea6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-41",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "A justified laboratory bridge retains the earlier assay scope; it does not establish natural tumour display, T-cell recognition or patient benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 130,
+          "lineEnd": 132,
+          "passageSha256": "7c733d0dff223d7908a3f8c4d1399f11d040392b2a6d35196572f629791eb1da"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 130,
+          "lineEnd": 132,
+          "passageSha256": "7c733d0dff223d7908a3f8c4d1399f11d040392b2a6d35196572f629791eb1da"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-42",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The one-formulation toy cannot rank LPX against LNP or establish product-specific storage/handling, stability or clinical outcomes.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 134,
+          "lineEnd": 136,
+          "passageSha256": "5dd8f67da4334d66162afa8e7b0fda7efe27ef0710969138d2e134ec9cda2a09"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 134,
+          "lineEnd": 136,
+          "passageSha256": "5dd8f67da4334d66162afa8e7b0fda7efe27ef0710969138d2e134ec9cda2a09"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-43",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Q5E 2005 is scoped to cell-culture protein/polypeptide products, so its use for the RNA toy is an analogy; FDA 1999 CMC concerns licence applications and the 2011 cancer-vaccine guidance concerns investigational studies, with no toy limits supplied.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 138,
+          "lineEnd": 138,
+          "passageSha256": "bd5b937f02977b76b8a9b203a0b1f3b6e270dda5f407cdf6a38e7598ab7bd308"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 138,
+          "lineEnd": 138,
+          "passageSha256": "bd5b937f02977b76b8a9b203a0b1f3b6e270dda5f407cdf6a38e7598ab7bd308"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-44",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "GMP is a quality system, CMC an evidence package, a certificate of analysis a test-results document, and batch release a disposition; their connections do not make them interchangeable.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 142,
+          "lineEnd": 142,
+          "passageSha256": "ae192eaeadc9e5695cdd96f4be033a59082f1e7736309cb7c777bbe3cdca14df"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 142,
+          "lineEnd": 142,
+          "passageSha256": "ae192eaeadc9e5695cdd96f4be033a59082f1e7736309cb7c777bbe3cdca14df"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-45",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Acceptable identity/purity results do not resolve an unassessed transport excursion; quality review of relevant records determines release, hold or rejection, none of which alone establishes clinical benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 144,
+          "lineEnd": 146,
+          "passageSha256": "3376b2d331cb9af95b119f7d7a5c2e2c0cff6e79a3dacd1d90ccd662f50dd1d3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 144,
+          "lineEnd": 146,
+          "passageSha256": "3376b2d331cb9af95b119f7d7a5c2e2c0cff6e79a3dacd1d90ccd662f50dd1d3"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-46",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Correct sequence can coexist with inadequate integrity or functional activity; formulation can change expressing cells and a storage excursion needs assessed disposition.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 150,
+          "lineEnd": 150,
+          "passageSha256": "5fbe0871758996d2e10fe656fb13c534b06d1467f851d662b2fabbcfcd24b0a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 150,
+          "lineEnd": 150,
+          "passageSha256": "5fbe0871758996d2e10fe656fb13c534b06d1467f851d662b2fabbcfcd24b0a5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-47",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "Turnaround includes testing, review, queues and failed-lot handling; there is no general sequence-to-vial duration.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 150,
+          "lineEnd": 150,
+          "passageSha256": "5fbe0871758996d2e10fe656fb13c534b06d1467f851d662b2fabbcfcd24b0a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 150,
+          "lineEnd": 150,
+          "passageSha256": "5fbe0871758996d2e10fe656fb13c534b06d1467f851d662b2fabbcfcd24b0a5"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-48",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "The fictional RNA-LNP lot cannot borrow an IV RNA-LPX handling protocol or infer sterility from nondetectable dsRNA; use its own validated specifications and complete release criteria.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 154,
+          "lineEnd": 156,
+          "passageSha256": "2c46d20f628da9eb22dc62b1b5bfab17302f227a929e5d2e8111d649eb679702"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 154,
+          "lineEnd": 156,
+          "passageSha256": "2c46d20f628da9eb22dc62b1b5bfab17302f227a929e5d2e8111d649eb679702"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-49",
+      "lesson": "manufacturing",
+      "kind": "substantive",
+      "requirement": "After a facility change, equal final RNA amount does not establish comparability; assess potentially affected impurities, formulation, activity and stability for that product and change.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 158,
+          "lineEnd": 160,
+          "passageSha256": "186b395fc52973fdd45dea54c3b55098c06d639dde0eef9f26ffe4dc6fdbc929"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 158,
+          "lineEnd": 160,
+          "passageSha256": "186b395fc52973fdd45dea54c3b55098c06d639dde0eef9f26ffe4dc6fdbc929"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-90",
+      "lesson": "manufacturing",
+      "kind": "non-credit",
+      "requirement": "Introductory routing and prerequisites; the original filename/step note is administrative.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "aba8ce8bb7b91cf53a5684b34680dc35d2c1cdc116c9f367a4bc0978ce7099a3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "20b7ae159a9e6df6f4141809a913de88ccbaaca45a4ad8ac1b6b145b6ef7dcf6"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-91",
+      "lesson": "manufacturing",
+      "kind": "non-credit",
+      "requirement": "Explain-it-back repeats the noninterchangeability and benefit boundary.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 162,
+          "lineEnd": 166,
+          "passageSha256": "333e5a367d03f3843ab27298aa7284701212e61e2408d28ffad647e3309d8fc4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 162,
+          "lineEnd": 166,
+          "passageSha256": "333e5a367d03f3843ab27298aa7284701212e61e2408d28ffad647e3309d8fc4"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-92",
+      "lesson": "manufacturing",
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-chapter navigation repeat retained teaching.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 168,
+          "lineEnd": 172,
+          "passageSha256": "66c60951b96a71adefbec977f377cb578d1cdf1ab38b82353b56ad8579dcb657"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 168,
+          "lineEnd": 172,
+          "passageSha256": "66c60951b96a71adefbec977f377cb578d1cdf1ab38b82353b56ad8579dcb657"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "manufacturing-93",
+      "lesson": "manufacturing",
+      "kind": "non-credit",
+      "requirement": "Source-list and study/protocol-scope metadata receive no independent teaching point.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/designing-a-vaccine/05-how-vaccines-are-manufactured.md",
+          "sourceSha256": "836ab0cae68d4e7a3e8154d92ecd0bd3d913a256a295b968f81b7f625e22d496",
+          "lineStart": 174,
+          "lineEnd": 185,
+          "passageSha256": "fb938d8c9f1d69640077daff43c7fa1894eef45405fbcc0f32b82e0d2e07d558"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/07-making-the-product.md",
+          "sourceSha256": "58e9aafe2f5b686f9d1b2b44accbaebf06348e4def9f0398907628ee283ef844",
+          "lineStart": 174,
+          "lineEnd": 185,
+          "passageSha256": "fb938d8c9f1d69640077daff43c7fa1894eef45405fbcc0f32b82e0d2e07d558"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-01",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Immune monitoring and suitable clinical comparison address different questions; batch release does not establish safe dose or beneficial schedule, which belong to the protocol with monitoring/stopping rules.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "092fbd800283ff33f7bc5bd144d217a51e1b3adb5d1edda6eb45ef80f989ea48"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 20,
+          "lineEnd": 26,
+          "passageSha256": "092fbd800283ff33f7bc5bd144d217a51e1b3adb5d1edda6eb45ef80f989ea48"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-02",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Peptide reactivity, repertoire change and inflammation are different immune observations; they need separate connections to naturally presenting tumour recognition and patient outcomes.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 28,
+          "lineEnd": 32,
+          "passageSha256": "e490345eaa12508950d89e4cd4fcd01309d8596192e071fba8cc58915bb982ba"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 28,
+          "lineEnd": 32,
+          "passageSha256": "e490345eaa12508950d89e4cd4fcd01309d8596192e071fba8cc58915bb982ba"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-03",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Immunogenicity is eliciting an immune response, whereas efficacy concerns benefit in the tested setting; positive assays can coexist with relapse and weak blood results can miss another compartment.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 32,
+          "lineEnd": 32,
+          "passageSha256": "7a621cb3835c7a736c4274c3b58d80d877f5098b1e3cde1671b1b8eec19059f8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 32,
+          "lineEnd": 32,
+          "passageSha256": "7a621cb3835c7a736c4274c3b58d80d877f5098b1e3cde1671b1b8eec19059f8"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-04",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Dose, route, cadence, duration, combinations and safety monitoring are product/protocol-specific; route or formulation can change distribution and inflammation, so IV-LPX regimens cannot be assigned to IM-LNP products.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 34,
+          "lineEnd": 36,
+          "passageSha256": "f03825895b98ebe5ae6d7393475b7d55371ca5c163eb1a497bccdae99ba9253a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 34,
+          "lineEnd": 36,
+          "passageSha256": "f03825895b98ebe5ae6d7393475b7d55371ca5c163eb1a497bccdae99ba9253a"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-05",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "No general chemotherapy-off-week, checkpoint-overlap or concurrent-targeted-drug rule applies to all vaccines; a mechanistic rationale is distinct from clinical evidence in the exact protocol/population.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "f9bb4547c308021f330982c815ac5f9476fd41297cf3d6ddcf362d9aa9672289"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "f9bb4547c308021f330982c815ac5f9476fd41297cf3d6ddcf362d9aa9672289"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-06",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "TCR sequencing establishes sampled receptor identities and abundance, not antigen specificity or useful function.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "68a541914ca318a25673c248aaccd4f19ae4494e1e9f2cfb7ad09aa5a8054829"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "68a541914ca318a25673c248aaccd4f19ae4494e1e9f2cfb7ad09aa5a8054829"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-07",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Multimer staining establishes binding to the tested peptide-HLA reagent, not functional response or natural tumour recognition.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "ccb12318fa64996925317559d627d9edbc188a95bb85a85c8123b6c5e680b037"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 49,
+          "lineEnd": 49,
+          "passageSha256": "ccb12318fa64996925317559d627d9edbc188a95bb85a85c8123b6c5e680b037"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-08",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "ELISpot and intracellular cytokine staining establish a response to defined stimulation, not target killing, tissue access or clinical benefit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "b60530c8ab7ce7a70e2d7e95343470d2884a9bb3f003e94c754f4b07042100ad"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 50,
+          "lineEnd": 50,
+          "passageSha256": "b60530c8ab7ce7a70e2d7e95343470d2884a9bb3f003e94c754f4b07042100ad"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-09",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "A controlled killing assay measures function against identifiable targets under its own conditions; it does not establish distribution, durability or safety in patients.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "0c54db2e5186d35b4645a8716ca7571e8c9dfbfa608c1b9d159ae6a8beec894b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 51,
+          "lineEnd": 51,
+          "passageSha256": "0c54db2e5186d35b4645a8716ca7571e8c9dfbfa608c1b9d159ae6a8beec894b"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-10",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "A suitable clinical comparison estimates benefit in its enrolled setting; transfer to another product or population needs further justification.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "4293b90171cfe89bd00b37d2522bd80a0f19e71304949943a7a51e58fa8ee22b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 52,
+          "lineEnd": 52,
+          "passageSha256": "4293b90171cfe89bd00b37d2522bd80a0f19e71304949943a7a51e58fa8ee22b"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-11",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Controls, informative baseline, prespecified interpretation and sampling matter; technical repeats from one specimen do not establish reproducibility across people.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "2597fa1ac0326dea5298e48f49db81e0e560fe415532bf4deb040eda861be516"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "2597fa1ac0326dea5298e48f49db81e0e560fe415532bf4deb040eda861be516"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-12",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "PBMCs are a mixed blood-cell fraction and flow cytometry identifies tested populations; the preparation and gate affect interpretation.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "80a4e0ed0c06aa699f4844b2e71b552afe8325e718f0d78556a28bce250ecf03"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "80a4e0ed0c06aa699f4844b2e71b552afe8325e718f0d78556a28bce250ecf03"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-13",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "TCR clonality describes a frequency distribution, not antigen specificity or absolute expansion of every clone.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "80a4e0ed0c06aa699f4844b2e71b552afe8325e718f0d78556a28bce250ecf03"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "80a4e0ed0c06aa699f4844b2e71b552afe8325e718f0d78556a28bce250ecf03"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-14",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "A comparison card retains compartment/time, preparation, stimulus/reagent, input-cell denominator, background controls and prespecified response rule.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "5e6edcef5f9f4791be76e217a1acb6224565a023be3618b4642875310af310c0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "5e6edcef5f9f4791be76e217a1acb6224565a023be3618b4642875310af310c0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-15",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "A percentage in a CD8 gate, spots per million PBMCs and a relative receptor frequency have distinct denominators and cannot be interchanged.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "5e6edcef5f9f4791be76e217a1acb6224565a023be3618b4642875310af310c0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "5e6edcef5f9f4791be76e217a1acb6224565a023be3618b4642875310af310c0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-16",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "The four independent figure scenes show tested reagent binding, membrane-captured secretion without target-death measurement, identifiable target killing with target-only control, and a separate blank clinical comparison; they are schematic questions, not data or a binding-to-benefit sequence.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 42,
+          "lineEnd": 44,
+          "passageSha256": "f8a2e42f52a6f21a8e3aa6aa3c8aa0b847881351252d4a5c241c56f2bb3633c0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 42,
+          "lineEnd": 44,
+          "passageSha256": "f8a2e42f52a6f21a8e3aa6aa3c8aa0b847881351252d4a5c241c56f2bb3633c0"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-17",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "TNBC-MERIT overnight ELISpot detected responses in 12 of 14 evaluable participants after standard therapy; this direct-assay denominator must stay explicit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "202d9441a64b9408c6dbe68b0aa801d7830ebd699c641c96795a89cd6847a25a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "202d9441a64b9408c6dbe68b0aa801d7830ebd699c641c96795a89cd6847a25a"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-18",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Eight TNBC-MERIT participants had enough remaining cells for additional cultured/stimulated testing; every participant responded by at least one ELISpot approach, a different assay opportunity from 12 of 14 overnight.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "202d9441a64b9408c6dbe68b0aa801d7830ebd699c641c96795a89cd6847a25a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 62,
+          "lineEnd": 62,
+          "passageSha256": "202d9441a64b9408c6dbe68b0aa801d7830ebd699c641c96795a89cd6847a25a"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-19",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Culture changes responder number/state and the represented specimen; fresh testing and expanded cultures need separate response-frequency interpretation, and the noncomparative study cannot isolate recurrence prevention.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "df68803d5c1db0a44871e9ca0957b6a640932063b1907ada7b8b6c4901bcd997"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "df68803d5c1db0a44871e9ca0957b6a640932063b1907ada7b8b6c4901bcd997"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-20",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "In the fictional single-arm recurrence example the measured immune response can remain real; display, access, state and escape are possible questions, while standard care and selection prevent isolating a vaccine effect without suitable comparison.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 66,
+          "lineEnd": 68,
+          "passageSha256": "ad4dbab8ebab076819d006cb8b107eceab43e75db6deee2e77c4d095266e7add"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 66,
+          "lineEnd": 68,
+          "passageSha256": "ad4dbab8ebab076819d006cb8b107eceab43e75db6deee2e77c4d095266e7add"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-21",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Blood sampling can miss tissue-resident activity and artificial peptide loading can bypass natural processing; neither observation alone locates a failed recognition step.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-22",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Stimulation conditions and post-result test selection can favour positive findings; preserve assay conditions and prespecified interpretation.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-23",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Safety needs systematic adverse-event collection rather than inference from an immune-response curve.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 70,
+          "lineEnd": 72,
+          "passageSha256": "1292eb28a33dd64a653d4caa8cfdf8acaa83bb72c2a98fc60a2488cf7412d209"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-24",
+      "lesson": "dosing",
+      "kind": "substantive",
+      "requirement": "Undetectable ctDNA after standard treatment plus vaccine does not isolate vaccine-caused clearance; timing, detection limits, standard treatment and a suitable comparison remain necessary.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 74,
+          "lineEnd": 78,
+          "passageSha256": "31b58b82a93e2b27176345b14604c26f7e83a5483aad42a556956bcac9cf85d7"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 74,
+          "lineEnd": 78,
+          "passageSha256": "31b58b82a93e2b27176345b14604c26f7e83a5483aad42a556956bcac9cf85d7"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-90",
+      "lesson": "dosing",
+      "kind": "non-credit",
+      "requirement": "Introductory navigation/prerequisites; unique monitoring distinctions are retained.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "f1f02ab7eca978b217d1a4f4e89e08608d26e5b0e3fb8987d5b380ec9989a902"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 18,
+          "lineEnd": 22,
+          "passageSha256": "f1f02ab7eca978b217d1a4f4e89e08608d26e5b0e3fb8987d5b380ec9989a902"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-91",
+      "lesson": "dosing",
+      "kind": "non-credit",
+      "requirement": "Explain-it-back repeats the assay/clinical distinction.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 80,
+          "lineEnd": 82,
+          "passageSha256": "c27ba145990624f63f264b9a46f8ff419aa109fb637f1ffbd40aff812cf06c1d"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 80,
+          "lineEnd": 82,
+          "passageSha256": "c27ba145990624f63f264b9a46f8ff419aa109fb637f1ffbd40aff812cf06c1d"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-92",
+      "lesson": "dosing",
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-chapter routing repeat retained teaching.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 84,
+          "lineEnd": 88,
+          "passageSha256": "e90194e34a2853643ed0384f6e2b93bb7e740fb0462c8b462a2e8815dee50987"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 84,
+          "lineEnd": 88,
+          "passageSha256": "e90194e34a2853643ed0384f6e2b93bb7e740fb0462c8b462a2e8815dee50987"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    },
+    {
+      "id": "dosing-93",
+      "lesson": "dosing",
+      "kind": "non-credit",
+      "requirement": "Source list, scope, assay-check date and review status do not earn separate teaching credit.",
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "1f71466ad54b53d50af75752802b421a6fa8ec6989771361f98379ef52b346ce",
+          "lineStart": 90,
+          "lineEnd": 96,
+          "passageSha256": "8824f5e8f6344512552d8386efd9d6d294cde3ca0786013819ae2c65ebd394dd"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md",
+          "sourceSha256": "b9f7078a58ecef2947175ab8c18e246c623e478a2aa81e91c5f35afd368e5638",
+          "lineStart": 90,
+          "lineEnd": 96,
+          "passageSha256": "11b3236ef38c4ba157bd14936bbcbc3d0dc3a96e884591335cc924263d7b1f71"
+        }
+      ],
+      "disposition": "source-first; representation and primary support not yet compared"
+    }
+  ]
+}

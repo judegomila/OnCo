@@ -109,7 +109,7 @@ export const cnsSubtypes: CancerInput[] = [
     related: ["brain-tumours", "vestibular-schwannoma", "spinal-cord-tumours", "pituitary-tumours", "glioblastoma", "craniopharyngioma"],
     links: [{ label: "Wikipedia", url: W("Meningioma") }, { label: "EANO guideline on meningiomas (Neuro-Oncology 2021)", url: "https://doi.org/10.1093/neuonc/noab150" }] },
 
-  { id: "secondary-brain-tumours", kind: "cancer", name: "Brain metastases (secondary brain tumours)", group: "central nervous system", parent: "brain-tumours", asOf, tags, wikipedia: W("Brain_metastasis"),
+  { id: "secondary-brain-tumours", kind: "cancer", name: "Brain metastases (secondary brain tumours)", group: "central nervous system", parent: "brain-tumours", asOf: "2026-11-11", tags, wikipedia: W("Brain_metastasis"),
     keyPapers: ["paper-alliance-n0574-brown-jama-2016", "paper-n107c-brown-lancet-oncol-2017", "paper-nrg-cc001-brown-jco-2020", "paper-quartz-lancet-2016"],
     aka: ["Brain metastases", "Secondary brain cancer", "Intracranial metastases", "Cerebral metastases", "Brain mets"],
     burden: "The commonest intracranial tumour in adults, many times more frequent than primary brain tumours; lung cancer, breast cancer, melanoma, kidney cancer and bowel cancer account for most, and incidence is rising as people live longer with systemic disease.",
@@ -143,7 +143,61 @@ export const cnsSubtypes: CancerInput[] = [
     openProblems: ["Trials still often exclude patients with brain metastases, so drug activity in the brain is learned late.", "Leptomeningeal disease has no standard treatment and a survival of months.", "Radionecrosis after radiosurgery is hard to tell from progression and hard to treat.", "Few drugs are designed from the start to cross the blood-brain barrier."],
     technologies: ["radiosurgery-srs", "gamma-knife", "cyberknife", "imrt-igrt", "mri", "bbb-focused-ultrasound"], drugs: ["dexamethasone", "osimertinib", "lorlatinib", "alectinib", "tucatinib", "trastuzumab-deruxtecan", "nivolumab", "ipilimumab", "dabrafenib-trametinib", "memantine"], trials: ["alliance-n0574", "nrg-cc001", "quartz", "her2climb", "destiny-breast12", "crown"], terms: ["brain-metastases", "wbrt", "stereotactic-radiosurgery", "blood-brain-barrier", "her2-brain-metastases", "leptomeningeal-disease", "graded-prognostic-assessment"],
     related: ["brain-tumours", "metastatic-cancer", "nsclc", "breast-her2-positive", "melanoma", "glioblastoma", "meningioma", "spinal-cord-tumours"],
-    links: [{ label: "Wikipedia", url: W("Brain_metastasis") }, { label: "Alliance N0574: radiosurgery with or without whole-brain radiotherapy (JAMA 2016)", url: "https://doi.org/10.1001/jama.2016.9839" }, { label: "QUARTZ (Lancet 2016)", url: "https://doi.org/10.1016/S0140-6736(16)30825-X" }] },
+    links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Brain_metastasis"
+  },
+  {
+    "label": "Alliance N0574: radiosurgery with or without whole-brain radiotherapy (JAMA 2016)",
+    "url": "https://doi.org/10.1001/jama.2016.9839"
+  },
+  {
+    "label": "QUARTZ (Lancet 2016)",
+    "url": "https://doi.org/10.1016/S0140-6736(16)30825-X"
+  },
+  {
+    "label": "nci metastatic",
+    "url": "https://www.cancer.gov/types/metastatic-cancer"
+  },
+  {
+    "label": "Lin NU et al. (2008): Sites of distant recurrence and clinical outcomes in patients with metastatic triple-negative breast cancer: high incidence of central nervous system metastases",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18833576/"
+  },
+  {
+    "label": "Lockman PR et al. (2010): Heterogeneous blood-tumor barrier permeability determines drug efficacy in experimental brain metastases of breast cancer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20829328/"
+  },
+  {
+    "label": "Dawood S et al. (2012): Incidence of brain metastases as a first site of recurrence among women with triple receptor-negative breast cancer",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22359359/"
+  },
+  {
+    "label": "Martin AM et al. (2017): Brain Metastases in Newly Diagnosed Breast Cancer: A Population-Based Study",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28301662/"
+  },
+  {
+    "label": "nci prognosis",
+    "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+  },
+  {
+    "label": "nci breast pdq",
+    "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+  },
+  {
+    "label": "NCI Dictionary: leptomeningeal metastasis",
+    "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/leptomeningeal-metastasis"
+  }
+] ,
+
+"notes": [
+  "A breast-cancer deposit in the brain remains metastatic breast cancer, not a new primary brain cancer. Parenchymal metastases involve brain tissue; leptomeningeal spread involves the thin tissue layers covering the brain and spinal cord. A study of CNS events may include both. Spread and successful growth require several biological steps. In Lockman's two mouse breast-cancer models, blood-tumour barrier permeability and drug uptake varied between and within metastases. This does not establish that every human brain deposit excludes every drug or that all drugs penetrate equally.",
+  "The denominator and starting clock change a brain-risk estimate. Lin and colleagues identified 116 patients treated for metastatic TNBC at one centre in 2000 to 2006: 14% had CNS involvement at metastatic diagnosis and 46% were diagnosed with it before death. Their CNS definition included parenchymal and leptomeningeal disease, and ascertainment was mostly symptom-led. Dawood and colleagues instead studied 2,448 stage I to III TNBC patients diagnosed in 1990 to 2010: the cumulative incidence of brain metastasis as first recurrence was 3.7% at two years and 5.4% at five years from diagnosis, treating death or another first recurrence as competing events. These are different selected populations and endpoints, not interchangeable early-disease and metastatic risks.",
+  "Martin and colleagues' population-based study concerned invasive breast cancer diagnosed in 2010 to 2013 and brain metastases recorded at initial diagnosis, including subtype analyses. It was not a lifetime event study. To interpret any such estimate, retain imaging and clinical-record definitions, diagnosis and event dates, follow-up time, deaths, losses and any context-specific biopsy confirmation. Distinguish a diagnosis-time proportion, events per patient-time and cumulative incidence during a stated period. Referral patterns, missed asymptomatic disease, subtype definitions and incomplete follow-up can change what is observed. Historical cohorts cannot calibrate a modern individual forecast or establish a universal subtype ranking or screening interval.",
+  "Death can prevent a later brain event and is therefore a competing event, not ordinary loss to follow-up. Likewise, first brain recurrence differs from any brain involvement after other recurrence. A reported share of recurrences with brain involvement needs the original patient denominator before it can describe patient risk. A cohort association does not itself validate a personal calculator or show that scheduled earlier detection improves survival.",
+  "In a fictional cohort of 100 people with complete follow-up for two years from enrolment, 20 recur and five of those 20 have a brain event. The same five are 25% of those who recur and 5% of all enrolled people. Each person is counted once, with the five nested within the 20, not added as five more. These raw fractions assume complete observation; they are not competing-risk estimates. Restarting the clock at recurrence would ask a different question. Before applying a percentage, name the population, event, starting point, time window and follow-up method."
+]
+},
 
   { id: "paediatric-high-grade-glioma", kind: "cancer", trials: ["herby"], name: "Paediatric high-grade glioma (excluding diffuse midline glioma)", group: "paediatric", parent: "glioblastoma", asOf, tags: [...tags, "paediatric"], wikipedia: W("Glioma"),
     keyPapers: ["paper-who-2021-cns-louis-neuro-oncology-2021", "paper-mackay-paediatric-hgg-cancer-cell-2017", "paper-hargrave-dabrafenib-trametinib-paediatric-hgg-jco-2023"],

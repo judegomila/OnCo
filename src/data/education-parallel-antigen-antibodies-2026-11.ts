@@ -1,0 +1,1776 @@
+import type { TermInput, TargetInput } from "@/lib/schema";
+
+/**
+ * Antigen presentation and antibody concepts, 9 November 2026 (systematic education audit, antigen-antibodies batch).
+ * Source teaching pages: the Oncoguide immunology concepts read at pinned commits 7510db6 and c968964. Every paper cited was
+ * resolved by PubMed id and DOI through Europe PMC or Crossref and its abstract read; the pembrolizumab label and the
+ * IPD-IMGT/HLA statistics page were read on 9 November 2026. NCBI Bookshelf chapters refused scripted access and were not opened.
+ * Registered by the coordinator; original textbook-access limitations remain explicit below.
+ */
+export const educationAntigenAntibodiesTerms: TermInput[] = [
+  {
+    "id": "adcc-adcp-cdc",
+    "name": "Antibody-guided effector mechanisms (ADCC, ADCP, CDC)",
+    "aka": [
+  "ADCP",
+  "CDC",
+  "antibody-dependent cellular phagocytosis",
+  "antibody-dependent cell-mediated cytotoxicity",
+  "complement-dependent cytotoxicity",
+  "opsonisation"
+],
+    "tldr": "An antibody that coats a cell can lead to its removal in three different ways: immune cells that kill it, cells that swallow it, or blood proteins that damage its membrane. Seeing the coat does not show which of these happened.",
+    "summary": "Opsonisation means coating a target with molecules that help immune clearance. The antibody's Fc region can then connect that coat to effector cells or to complement, and three mechanisms name different downstream jobs. In antibody-dependent cellular cytotoxicity (ADCC) an effector cell, with the natural killer cell as the familiar example, triggers damage or death in a coated target, typically through an Fc gamma receptor such as CD16 engaging target-bound IgG. In antibody-dependent cellular phagocytosis (ADCP) a phagocyte such as a macrophage engulfs the coated target. In complement-dependent cytotoxicity (CDC) the complement protein C1q recognises a suitable arrangement of Fc regions and the cascade can end in membrane attack complexes. ADCC is not an exclusive cell-identity label: other immune populations can contribute antibody-dependent cytotoxicity.\n\nThe three routes can overlap and no universal ranking exists. Isotype and Fc design, target density, inhibitory signals and the availability of effectors or complement shape the result. Evidence differs in kind. Clynes et al. (2000) used mouse tumour models, including xenografts treated with the humanised antibodies trastuzumab and rituximab, and found that engagement of Fc gamma receptors on effector cells was a dominant component of in vivo antibody activity, with the inhibitory receptor FcgammaRIIB regulating it. Gül et al. (2014) imaged mice directly: liver macrophages (Kupffer cells) sampled circulating tumour cells without eliminating them, whereas antitumour antibody treatment produced rapid phagocytosis that depended on the Fc receptors FcgammaRI and FcgammaRIV. Diebolder et al. (2014) showed in cell and biochemical systems that ordered IgG hexamers assembled on the target surface recruit and activate C1, and that this could be manipulated to block or enhance complement killing across all four human IgG subclasses. None of these is a human treatment-benefit result.\n\nWhat each step shows is separate. Fc-receptor binding is not completed ADCC or ADCP. A phagocyte touching a target, or sampling a fragment, is not internalisation of a whole viable cell. Complement deposition (coating) is an earlier step than a membrane pore, and a pore is a different observation from measured lysis. Assays therefore name their output: target death for ADCC, the fraction of phagocytes with verified internalised targets for ADCP, membrane damage with active complement for CDC (heat-inactivated or depleted complement tests complement dependence). They use viable targets, defined antibody concentrations, no-antibody and target-negative controls, and report exposure time and effector-to-target ratio. Binding or reporter activation alone is an earlier readout, and stronger activity in a dish does not establish clinical benefit or healthy-tissue safety.",
+    "links": [
+  {
+    "label": "Clynes et al., 2000, Nature Medicine (PMID 10742152)",
+    "url": "https://doi.org/10.1038/74704"
+  },
+  {
+    "label": "Gül et al., 2014, Journal of Clinical Investigation (PMID 24430180)",
+    "url": "https://doi.org/10.1172/JCI66776"
+  },
+  {
+    "label": "Diebolder et al., 2014, Science (PMID 24626930)",
+    "url": "https://doi.org/10.1126/science.1248943"
+  }
+],
+    "notes": [
+  "Evidence tiers: Clynes 2000 and Gül 2014 are mouse studies; Diebolder 2014 is a cell and biochemical study. Read from the Europe PMC abstracts on 9 November 2026; the textbook chapter the teaching source cites (Janeway, Immunobiology) refused scripted access and was not opened.",
+  "Teaching source: the Oncoguide concept page on antibody-guided effector mechanisms, read at pinned commits 7510db6 and c968964 (teaching text unchanged between them)."
+],
+    "related": [
+  "adcc",
+  "fc-effector",
+  "complement-in-cancer",
+  "antibody",
+  "macrophage",
+  "nk-cell",
+  "fcgr3a",
+  "fcgr2b"
+],
+    "terms": [
+  "adcc",
+  "fc-effector",
+  "antibody",
+  "nk-cell",
+  "macrophage"
+],
+    "pathways": [
+  "complement-in-cancer"
+],
+    "targets": [
+  "fcgr3a",
+  "fcgr2a",
+  "fcgr2b"
+],
+    "kind": "term",
+    "asOf": "2026-11-09",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "antibody-structure",
+    "name": "Antibody structure (Fab, Fc and hinge)",
+    "aka": [
+  "Fab",
+  "Fc",
+  "fragment antigen-binding",
+  "fragment crystallizable",
+  "hinge region",
+  "immunoglobulin structure"
+],
+    "tldr": "An antibody has tips that find a target and a stem that can connect to other parts of the immune system. Two antibodies can reach the same target and do different jobs.",
+    "summary": "A typical immunoglobulin G (IgG) antibody has two heavy and two light chains held together by molecular interactions and disulfide bonds. At each arm tip, variable regions from a heavy and a light chain together form a binding site; its sequence and three-dimensional shape influence what it recognises. Fab (fragment antigen-binding) names an arm containing the binding site and its associated constant domains, so it is not simply another word for the variable region. Fc (fragment crystallizable, a name that comes from an experimental property) names the remaining stem, built from CH2 and CH3 domains of both heavy chains in the familiar IgG description. Hinge flexibility changes how the arms are arranged. A drawn Y is a simplification: some natural and engineered formats omit familiar parts.\n\nFc can interact with immune-cell receptors and with complement, but compatible effectors, target arrangement and other conditions decide whether killing, engulfment or complement damage follows, so Fc is not an automatic kill command. Binding and effector contributions are separate and the finished molecule needs testing. Nimmerjahn and Ravetch (2005) showed in mouse experiments that IgG subclasses differ in the ratio of their binding to activating and inhibitory Fc receptors, which predicted in vivo activity; that is not a universal ranking of human antibody performance. An isotype is a heavy-chain class (see the isotypes and Fc silencing record). Structure alone does not identify the producing cell or establish what the antibody recognises.\n\nThe epitope is the molecular feature recognised and can be a folded protein surface or another accessible feature, not necessarily a short fragment displayed by HLA. Binding is measured against a defined antigen preparation and antibody concentration, sometimes in nanomoles per litre, and it matters whether the test used purified protein or intact cells, because folding, accessibility and multiple binding sites change the result. A concentration or fluorescence signal alone is not an affinity. Fc-receptor and complement interactions are tested separately from target binding, and neither binding nor a laboratory effector result establishes clinical benefit or safety. A blocking antibody, an antibody-drug conjugate and a bispecific format can share a target and still act differently.",
+    "links": [
+  {
+    "label": "Nimmerjahn and Ravetch, 2005, Science (PMID 16322460)",
+    "url": "https://doi.org/10.1126/science.1118948"
+  },
+  {
+    "label": "Vidarsson et al., 2014, Frontiers in Immunology (PMID 25368619)",
+    "url": "https://doi.org/10.3389/fimmu.2014.00520"
+  }
+],
+    "notes": [
+  "Textbook-level structure (chains, Fab, Fc, hinge) is taught in the Oncoguide page from Janeway's Immunobiology and an NCI page; the Bookshelf chapters refused scripted access on 9 November 2026 and were not opened, so only the Nimmerjahn abstract is checked here.",
+  "The pembrolizumab example appears in the isotypes record.",
+  "Additional source check: the Structure and Fc-interaction sections of the accessible Vidarsson 2014 review were read directly. They describe two heavy and two light chains, variable and constant domains, Fab/Fc and hinge anatomy, subclass differences and FcRn interactions. This is review evidence, separate from the mouse and biochemical primary experiments."
+],
+    "related": [
+  "antibody",
+  "epitope",
+  "fc-effector",
+  "adcc-adcp-cdc",
+  "b-cell"
+],
+    "terms": [
+  "antibody",
+  "epitope",
+  "fc-effector",
+  "adcc-adcp-cdc"
+],
+    "kind": "term",
+    "asOf": "2026-11-09",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "b-cells-and-plasma-cells",
+    "name": "B cells, plasmablasts and plasma cells",
+    "aka": [
+  "plasma cell",
+  "plasma cells",
+  "plasmablast",
+  "memory B cell",
+  "memory B cells"
+],
+    "tldr": "B cells recognise a target and can develop into cells that make large amounts of antibody. A cell's presence tells you little about what its antibody recognises or whether it helps against a cancer.",
+    "summary": "A developing B cell assembles an antigen-receptor sequence by V(D)J recombination. Its B-cell receptor contains membrane-bound immunoglobulin and recognises an accessible molecular feature, unlike a conventional T-cell receptor, which recognises peptide held by HLA. Recognition and activation are separate steps. For many protein antigens B cells receive help from suitable CD4 T cells and can internalise recognised material and present fragments to those helpers, while other antigen contexts support responses with less direct T-cell help.\n\nAn activated response can leave memory B cells and antibody-secreting cells. A plasmablast is an early antibody-secreting stage that can still divide; plasma cells are further specialised for secretion, some short-lived and some persisting in supportive tissue niches. Memory B cells are not simply plasma cells waiting to secrete. Shapiro-Shelef et al. (2003) deleted the gene for Blimp-1 (prdm1) in mouse B cells: B-cell development and the number of antigen-responding B cells looked normal, yet serum immunoglobulin, short-lived plasma cells, post-germinal-centre plasma cells and memory-response plasma cells were virtually absent, so responding to antigen was not enough for normal secretion. This is a mechanistic mouse experiment, not a human tumour biomarker rule. Some responses pass through germinal centres, where B-cell variants undergo selection; class switching changes antibody class and sequence changes with selection can alter binding quality, which are different processes.\n\nIn tumour samples, B cells can present material, supply signals and make antibody, and plasma cells can contribute a large share of immunoglobulin RNA, so a high immunoglobulin signal does not show that cancer cells made it. Neither more B cells nor more antibody is a universal benefit rule; B cells may sit in tertiary lymphoid structures. Flow cytometry and spatial staining distinguish populations by marker combinations that change with differentiation, so a panel for ordinary B cells can miss plasma cells; keep the phenotype definition and the denominator. RNA can show an antibody-production programme or receptor sequence and serum assays measure concentration and class, but what an antibody recognises needs antigen-specific binding and functional tests. Plasma cells are cells, not blood plasma, which is the fluid part of blood.",
+    "links": [
+  {
+    "label": "Shapiro-Shelef et al., 2003, Immunity (PMID 14563324)",
+    "url": "https://doi.org/10.1016/s1074-7613(03)00267-x"
+  },
+  {
+    "label": "Cabrita et al., 2020, Nature (PMID 31942071)",
+    "url": "https://doi.org/10.1038/s41586-019-1914-8"
+  },
+  {
+    "label": "OpenStax Microbiology 18.4: B-cell recognition and class switching (educational source)",
+    "url": "https://openstax.org/books/microbiology/pages/18-4-b-lymphocytes-and-humoral-immunity"
+  },
+  {
+    "label": "Review: The Maintenance of Memory Plasma Cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31024553/"
+  }
+],
+    "notes": [
+  "Mouse evidence for the Blimp-1 point (Shapiro-Shelef 2003, abstract read 9 November 2026). The textbook chapters cited by the teaching source were not opened (scripted access refused).",
+  "B-cell lymphomas and myeloma are covered by the B cell, BCMA and lymphoma records, not here.",
+  "Additional educational source: the B-cell receptor and class-switching passages of OpenStax Microbiology 18.4 were read in raw page text. Class switching changes the constant-region class while retaining the rearranged variable-region sequence; it differs from affinity-changing mutation. This is textbook evidence, separate from the cited primary experiments.",
+  "Accessible plasma-cell review: the selected lifespan and niche passages distinguish proliferating plasmablasts from longer-lived plasma-cell populations; this is review context, with unresolved lineage questions retained."
+],
+    "related": [
+  "b-cell",
+  "antibody",
+  "tertiary-lymphoid-structures",
+  "germinal-centre-reaction",
+  "bcma-expression"
+],
+    "terms": [
+  "b-cell",
+  "antibody",
+  "tertiary-lymphoid-structures"
+],
+    "pathways": [
+  "germinal-centre-reaction"
+],
+    "kind": "term",
+    "asOf": "2026-11-09",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "isotypes-and-fc-silencing",
+    "name": "Antibody isotypes and Fc silencing",
+    "aka": [
+  "antibody isotype",
+  "isotype",
+  "IgG subclass",
+  "Fc silencing",
+  "class switching"
+],
+    "tldr": "An antibody's class and the design of its stem change how it connects to immune cells and complement. Switching off one connection does not switch off all of them, and does not make the finished drug harmless.",
+    "summary": "An isotype is a heavy-chain class: IgM, IgD, IgG, IgA or IgE, and human IgG also has the subclasses IgG1, IgG2, IgG3 and IgG4. The classes differ in architecture, distribution and potential effector interactions. Vidarsson et al. (2014) review how the four IgG subclasses differ in their hinges and upper CH2 domains, which bind Fc gamma receptors and C1q, giving different effector functions, while the Fc also carries a binding site for the neonatal Fc receptor (FcRn) that extends half-life. A B-cell lineage can undergo class switching, changing the constant region while keeping the rearranged variable-region sequence; this differs from the mutations that change affinity during a response, and neither the class nor a switch says what antigen an antibody recognises. Subclass, Fc sugars, target geometry and the available cells all affect interactions, so IgG1 and IgG4 are not interchangeable but neither name fully predicts behaviour. As a real example, pembrolizumab is a humanised IgG4 kappa antibody (FDA label, section 11); its intended job is to block the PD-1 receptor, not to recruit killer cells to the T cells it binds.\n\nFc silencing uses design changes to reduce selected receptor or complement interactions. Lo et al. (2017) found that the commonly used N297G and D265A/N297G variants, effective at attenuating effector function in primates, retained potent complement activation in mice and created safety liabilities in murine studies, whereas an L234A, L235A, P329G (LALA-PG) variant eliminated complement binding and attenuated effector activity in that setting. That supports engineering a particular interaction in a particular species; it does not prove universal human safety or silence in every assay. IgG4 is not a synonym for a fully silent Fc.\n\nFcRn has a separate role in IgG transport and recycling, so reduced Fc gamma receptor recruitment does not by itself establish reduced FcRn binding or a shorter half-life. Compare matched molecules with the same binding regions and measure target binding, Fc gamma receptor and C1q binding, and killing, engulfment or complement damage separately, stating species, receptor variants, concentrations and effector cells; FcRn binding and exposure are further questions. An antibody meant to remove a target-bearing cell may benefit from effector recruitment, whereas one meant to block an immune receptor may need to avoid removing useful receptor-bearing cells, and a silenced Fc does not prevent target binding, payload toxicity or every source of inflammation.",
+    "links": [
+  {
+    "label": "Vidarsson et al., 2014, Frontiers in Immunology (PMID 25368619)",
+    "url": "https://doi.org/10.3389/fimmu.2014.00520"
+  },
+  {
+    "label": "Lo et al., 2017, Journal of Biological Chemistry (PMID 28077575)",
+    "url": "https://doi.org/10.1074/jbc.M116.767749"
+  },
+  {
+    "label": "FDA label for pembrolizumab, section 11 (IgG4 kappa)",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+  },
+  {
+    "label": "Nimmerjahn and Ravetch, 2005, Science (PMID 16322460)",
+    "url": "https://doi.org/10.1126/science.1118948"
+  },
+  {
+    "label": "OpenStax Microbiology 18.4: B-cell recognition and class switching (educational source)",
+    "url": "https://openstax.org/books/microbiology/pages/18-4-b-lymphocytes-and-humoral-immunity"
+  }
+],
+    "notes": [
+  "Label read from the FDA PDF on 9 November 2026 (humanized monoclonal IgG4 kappa antibody, about 149 kDa). Lo 2017 and Vidarsson 2014 read at abstract depth.",
+  "The class switching versus affinity maturation distinction is taught from Janeway's Immunobiology (not opened here: scripted access refused).",
+  "Additional source check: the Structure and Fc-interaction sections of the accessible Vidarsson 2014 review were read directly. They describe two heavy and two light chains, variable and constant domains, Fab/Fc and hinge anatomy, subclass differences and FcRn interactions. This is review evidence, separate from the mouse and biochemical primary experiments.",
+  "Additional educational source: the B-cell receptor and class-switching passages of OpenStax Microbiology 18.4 were read in raw page text. Class switching changes the constant-region class while retaining the rearranged variable-region sequence; it differs from affinity-changing mutation. This is textbook evidence, separate from the cited primary experiments."
+],
+    "related": [
+  "fc-effector",
+  "antibody",
+  "adcc-adcp-cdc",
+  "half-life",
+  "pembrolizumab",
+  "antibody-structure"
+],
+    "terms": [
+  "fc-effector",
+  "antibody",
+  "half-life",
+  "antibody-structure",
+  "adcc-adcp-cdc"
+],
+    "drugs": [
+  "pembrolizumab"
+],
+    "targets": [
+  "fcgr3a",
+  "fcgr2a",
+  "fcgr2b"
+],
+    "kind": "term",
+    "asOf": "2026-11-09",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "antigen-processing-machinery",
+    "name": "Antigen-processing machinery (APM)",
+    "aka": [
+  "APM",
+  "antigen processing"
+],
+    "tldr": "Cells cut up proteins, move some fragments to a loading site and place them on display molecules that T cells can inspect. Having a protein inside a cell does not guarantee its fragment is shown.",
+    "summary": "Antigen-processing machinery (APM) is the set of proteins that generate, transport and load peptides onto HLA. A common class I route has five steps. (1) The proteasome cuts intracellular proteins into fragments, which can create a useful peptide or destroy it. (2) The transporter associated with antigen processing, TAP1 with TAP2, moves peptides into the endoplasmic reticulum; Shepherd et al. (1993) showed in a cell-free system that TAP1 is part of an ATP-dependent, sequence-selective peptide translocator. (3) ERAP1 and ERAP2 trim amino acids from the front end. York et al. (2002) found that ERAP1 can enhance or limit presentation by trimming epitopes to 8 to 9 residues, and Saveanu et al. (2005) found complementary human ERAP1 and ERAP2 activity, so more expression does not universally improve display. A class I HLA heavy chain assembles with beta-2 microglobulin (B2M) and a peptide, with helpers such as tapasin. (4) Stable peptide-HLA complexes reach the surface; the peptide stays held by HLA. (5) A compatible T-cell receptor on a conventional CD8 T cell may recognise the pair; recognition is a separate gate and display alone does not show killing.\n\nClass II HLA commonly loads peptides in vesicles that process acquired proteins. An invariant chain protects the new groove and directs it there; after cutting, a remaining fragment is exchanged for other peptides with help from HLA-DM, and conventional CD4 T cells inspect these displays. Cross-presentation lets externally acquired material reach class I. The scheme is a common route, not a rule for every peptide.\n\nA cancer cell may keep an altered protein and still show little of its peptide, and a shared processing defect can affect several targets at once, so adding candidate peptides does not bypass the bottleneck. Low expression, gene loss and a functional defect are different findings: a weak RNA signal does not prove deletion. Interferon gamma can increase presentation machinery when its signalling pathway and the required genes are intact, and cannot replace a deleted B2M or HLA gene. Sucker et al. (2017) described melanoma lesions in which JAK1 or JAK2 defects gave interferon-gamma resistance and evolved into HLA class I negative, T-cell-resistant lesions with antigen-presentation genes silenced and no longer inducible. Zaretsky et al. (2016) found, in biopsies from patients with acquired resistance to PD-1 blockade, JAK1 or JAK2 loss of function in two of four patients and a truncating B2M mutation with lost surface class I in a third. These are melanoma observations, not treatment-benefit evidence.\n\nEvidence layers differ. DNA sequence and copy number show gene retention or alteration but not expression or function; RNA shows sampled gene activity but not protein, assembly or display; protein staining or flow cytometry detects protein but not which peptide is shown; HLA-associated peptide recovery shows a peptide was recovered with HLA in that preparation but not its cell of origin or recognition; controlled T-cell recognition shows function against tested targets. Peptide loading can bypass processing, so rescue by supplied peptide supports a bottleneck under those conditions only. Binding prediction is not presentation, and CD4 help is not proof of CD8 tumour recognition.",
+    "links": [{"label":"Shepherd et al., 1993, Cell (PMID 8348620)","url":"https://doi.org/10.1016/0092-8674(93)80058-m"},{"label":"York et al., 2002, Nature Immunology (PMID 12436110)","url":"https://doi.org/10.1038/ni860"},{"label":"Saveanu et al., 2005, Nature Immunology (PMID 15908954)","url":"https://doi.org/10.1038/ni1208"},{"label":"Sucker et al., 2017, Nature Communications (PMID 28561041)","url":"https://doi.org/10.1038/ncomms15440"},{"label":"Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)","url":"https://doi.org/10.1056/nejmoa1604958"},{"label":"Vogt et al. 1996: HLA-DM-catalysed peptide exchange on HLA-DR in vitro","url":"https://pubmed.ncbi.nlm.nih.gov/8790398/"},{"label":"Review: Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.","url":"https://pubmed.ncbi.nlm.nih.gov/28367149/"},{"label":"Sahin et al.: TNBC-MERIT immune responses and scoped presentation-escape observations (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/41708868/"}],
+    "notes": ["Abstract-depth reads on 9 November 2026. The class II chapter cited by the teaching source (Janeway, NBK26926) refused scripted access, so the invariant chain and HLA-DM description is textbook-level and not checked against the chapter text here.","The HLA-DM step is independently supported by Vogt and colleagues: in vitro kinetics and binding measurements demonstrated catalytic exchange of invariant-chain-derived CLIP for peptides on HLA-DR. This verifies the exchange mechanism in that system; the inaccessible textbook chapter remains an access failure.","TAP1, TAP2, ERAP1 and ERAP2 now have separate reviewed-human gene owners. PSMB8, PSMB9 and CIITA retain their existing catalogue owners; this audit does not re-verify every catalogue claim.","Accessible MHC review: selected invariant-chain, CLIP and HLA-DM sections were read; this is review context in addition to the primary HLA-DM experiment, not an opened Bookshelf chapter.","In the 14-participant TNBC-MERIT vaccine study, one recurrent tumour had downregulated antigen-presentation transcripts, including B2M, and nearly complete class-I protein loss compared with the earlier specimen. Sahin and colleagues considered B2M downregulation the most probable driver. This was an expression and protein observation in that recurrence, not a demonstrated new B2M DNA mutation, a recurrence probability or proof of a rescue treatment. Allele loss, RNA downregulation and a shared class-I assembly defect require different evidence; adding more source windows does not itself repair the failed step."],
+    "related": [
+  "hla",
+  "b2m",
+  "dendritic-cell-cross-presentation",
+  "antigen",
+  "epitope",
+  "tap1",
+  "tap2",
+  "erap1",
+  "erap2"
+],
+    "terms": [
+  "hla",
+  "dendritic-cell-cross-presentation",
+  "antigen"
+],
+    "targets": [
+  "b2m",
+  "psmb8",
+  "psmb9",
+  "ciita",
+  "jak1",
+  "jak2",
+  "tap1",
+  "tap2",
+  "erap1",
+  "erap2"
+],
+    "kind": "term",
+    "asOf": "2026-11-11",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "hla-typing-and-nomenclature",
+    "name": "HLA allele names and typing reports",
+    "aka": [
+  "HLA nomenclature",
+  "HLA genotyping",
+  "HLA allele name",
+  "HLA typing resolution"
+],
+    "tldr": "HLA typing reads the inherited versions of the genes that display protein fragments. The name tells you how precisely the version is known, not whether a tumour still shows a given fragment.",
+    "summary": "In an allele name such as HLA-A*02:01:01:01 the fields carry distinct meanings (official HLA nomenclature). HLA-A is the gene; 02 is the allele group, which often corresponds to a serological antigen; the second field (01) distinguishes protein sequences within the group, since alleles differing there differ in at least one amino-acid-changing substitution; the third field distinguishes synonymous coding differences; the fourth distinguishes differences outside the coding region. An optional suffix gives expression status: N for a null allele, and L, S, C, A or Q for alternatively expressed alleles, L meaning significantly reduced surface expression. A name without a suffix is not a measurement of how much HLA a cancer cell expresses. A shared first field does not establish identical proteins, and a report stating only A*02 at group resolution cannot be silently completed as A*02:01.\n\nPeople generally inherit one copy of each HLA gene from each parent, so a report lists two alleles per locus, which can be the same name. Class I and class II typing describe different display molecules. Typing identifies inheritance; it does not show tumour retention or expression, peptide display or receptor recognition, and a negative display assay does not by itself show the typing was wrong. Loss of an allele in the tumour, or changes in antigen-processing machinery, can interrupt the chain after an accurate typing result. A trial may name an allele and an accepted method; eligibility belongs to the study team and neither a similar name nor correct typing shows targetability.\n\nLaboratory typing starts from an accepted specimen and extracted DNA, tests sequence patterns with primers or probes or reads selected regions by Sanger or next-generation sequencing, optionally after PCR amplification, and compares the result with a reference database (IPD-IMGT/HLA). Hosomichi et al. (2013) describe phase-defined sequencing of six HLA genes by long-range PCR and multiplex sequencing: phasing connects differences on the same inherited copy, and unresolved phase or a missing distinguishing region can leave alternative allele pairs despite good base quality. More reads of the same regions cannot settle such an ambiguity; the distinguishing information must be added, and both alternatives should be kept until it is. Software can infer class I HLA from genome, exome or RNA sequencing: Szolek et al. (2014) reported OptiType's overall accuracy of 97 per cent on their benchmark of RNA, exome and whole-genome data. Capture, coverage and expression affect such inference, and an inference is not automatically a laboratory result accepted for clinical use. Reports should be read with resolution, ambiguity notes, coverage, database version and validation.\n\nThe IPD-IMGT/HLA statistics page read on 9 November 2026 listed 46,146 HLA alleles, 31,311 of them class I and 14,835 class II, so exact allele names matter.",
+    "links": [{"label":"HLA nomenclature: naming alleles","url":"https://hla.alleles.org/pages/nomenclature/naming_alleles/"},{"label":"IPD-IMGT/HLA statistics page (read 9 November 2026)","url":"https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/"},{"label":"Hosomichi et al., 2013, BMC Genomics (PMID 23714642)","url":"https://doi.org/10.1186/1471-2164-14-355"},{"label":"Szolek et al., 2014, Bioinformatics (PMID 25143287)","url":"https://doi.org/10.1093/bioinformatics/btu548"}],
+    "notes": ["The page does not print a release number, so the allele counts are dated by the day they were read rather than by release. The Guide cites release 3.66.","Existing record hla-a-02-01 covers HLA-A*02:01 as an eligibility marker for TCR therapies; this record covers how names and reports are read.","A fictional report lists HLA-A*02:01 and A*24:02, B*07:02 and B*08:01, and C*07:01 and C*07:02. These are two inherited copies at each of three loci; other people can share them. C*07:01 and C*07:02 name different protein variants despite their shared first field. A prediction for the first is not silently a prediction for the second. Likewise, strong predicted peptide-P binding to A*02:01 and a receptor response to P on A*24:02 do not establish one matched target. Source-protein RNA supplies a different observation. Match peptide, protein allele, model/version and response experiment, then test retention and natural display in the tumour.","In another fictional report, the observed differences permit two allele pairs because their arrangement between inherited copies remains unresolved. Choosing the pair with better peptide predictions does not resolve phase. Retain both alternatives and request evidence that connects the distinguishing positions on the same copy. Laboratory region coverage, reference version, resolution and ambiguity notes remain relevant even when base calls are high quality. A computational inference should retain its sequencing dataset, software/version and validation; neither a resolved research inference nor an accepted typing report is a peptide-display assay."],
+    "related": [
+  "hla",
+  "hla-a-02-01",
+  "hla-a02-restriction",
+  "antigen-processing-machinery"
+],
+    "terms": [
+  "hla",
+  "hla-a02-restriction"
+],
+    "targets": [
+  "hla-a",
+  "hla-b",
+  "hla-c"
+],
+    "kind": "term",
+    "asOf": "2026-11-11",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "hla",
+    "name": "HLA (human leukocyte antigen) and MHC",
+    "aka": [
+  "human leukocyte antigen",
+  "MHC",
+  "major histocompatibility complex",
+  "HLA class I",
+  "HLA class II"
+],
+    "tldr": "HLA molecules sit on cells and hold up small pieces of the cell's proteins for T cells to inspect. A T cell reads the fragment together with the particular HLA version holding it.",
+    "summary": "Human leukocyte antigen (HLA) is the human major histocompatibility complex (MHC) system, with two main classes of peptide-display molecule. Classical class I (HLA-A, HLA-B, HLA-C) has a heavy chain, beta-2 microglobulin (B2M) and a bound peptide, is found on most nucleated cells, usually displays peptides from proteins made inside the cell and is read by CD8 T cells. Class II (HLA-DR, HLA-DP, HLA-DQ) has alpha and beta chains with a bound peptide, is mainly on professional antigen-presenting cells (expression can be induced elsewhere), usually displays proteins processed in vesicles, often acquired from outside, and is read by CD4 T cells. These are common routes, not exclusive lists: cross-presentation puts externally acquired antigen on class I without making it class II, and a CD4 response is not proof of matching class I tumour display. CD4 and CD8 are coreceptors and usual recognition partners, not guarantees of cell function. Structural work shows the T-cell receptor lying across the peptide and HLA together (Garboczi et al., 1996), CD8 contacting the class I alpha2 and alpha3 domains and B2M (Gao et al., 1997) and CD4 engaging a separate class II region (Yin et al., 2012); these constructs do not define universal angles or functions.\n\nHLA alleles are shared across people, and a person inherits a combination that is not necessarily unique. Each person inherits two copies each of HLA-A, HLA-B and HLA-C, so a cell can display up to six classical class I variants at once. The IPD-IMGT/HLA statistics page read on 9 November 2026 listed 46,146 HLA alleles, 31,311 class I and 14,835 class II (9,457 HLA-A, 11,328 HLA-B and 9,580 HLA-C alleles). Binding predictors estimate whether a peptide can fit a specified allele's groove, but processing, transport, loading and surface expression decide whether it is displayed. Sarkizova et al. (2020) profiled more than 185,000 peptides eluted from 95 mono-allelic cell lines to learn allele-specific motifs and build prediction models; that is allele-level data, not proof of any cell's display. Kaur et al. (2017) showed that HLA-C surface expression varies across individuals in an allele-specific manner, influenced by the structure of the peptide-binding cleft and peptide diversity; Apps and colleagues found lower HLA-C than HLA-A/B in the analysed healthy-donor peripheral blood lymphocytes with the A*02:01/B*44:02/C*05:01 haplotype; the magnitude differed between flow cytometry and mass spectrometry. This is a defined comparison, not a universal hierarchy. The small HLA-C peptide share observed by Schellens and colleagues in four B lymphoblastoid cell lines was also affected by their assignment method, which gave HLA-A/B precedence; it is not a universal biological fraction.\n\nIn cancer, class I HLA shows peptides to CD8 T cells and is also the main ligand for inhibitory receptors on natural killer cells, so losing it can hide a tumour from T cells while removing a brake on NK cells. HLA-E and HLA-G are nonclassical and vary little between people; HLA-E presents leader peptides from other class I molecules and binds the NK receptor CD94/NKG2A (Braud et al., 1998, with HLA-E tetramers). Tumours can lose a presenting allele (HLA loss of heterozygosity), alter processing or reduce expression, and allele-specific loss differs from complete loss of conventional class I display; targets on retained alleles may remain possible. Tran et al. (2016) documented a colorectal cancer lesion that progressed after T-cell therapy against mutant KRAS G12D, which had lost the chromosome 6 haplotype encoding the restricting HLA-C*08:02; this shows escape in one patient, not a rate. Typing, protein expression, recovered peptide, recognition and killing are different observations, and a conventional surface-target engager avoids peptide-HLA dependence while a peptide-HLA-directed engager keeps it.\n\nB2M is the light chain of classical class I and does not span the membrane; class II contains no B2M, so CD4 T-cell recognition can remain when B2M is lost. B2M also partners other class I-like molecules: UniProt records heterotrimers with HLA-E, HLA-G, HLA-F and MR1 and lists CD1 interactions, and a B2M mutation caused deficiency of the neonatal Fc receptor FcRn in two siblings (Wani et al., 2006), so complete B2M loss can remove more than classical class I. Loss of one HLA allele can leave other presenting alleles usable, whereas loss of functional B2M impairs many class I targets at once, so several peptides on different alleles are not independent protection. A B2M variant, low RNA, absent surface class I and a blood B2M concentration are different observations: one variant does not show complete functional loss, and blood B2M does not count tumour peptide-HLA complexes. Zaretsky et al. (2016) linked a truncating B2M mutation to lost surface class I in one melanoma relapse after PD-1 blockade, which is a mechanism in that setting, not a frequency. Reduced class I display does not guarantee NK-cell killing, because activating signals are still needed.",
+    "links": [{"label":"IPD-IMGT/HLA statistics page (read 9 November 2026)","url":"https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/"},{"label":"Garboczi et al., 1996, Nature (PMID 8906788)","url":"https://doi.org/10.1038/384134a0"},{"label":"Gao et al., 1997, Nature (PMID 9177355)","url":"https://doi.org/10.1038/42523"},{"label":"Yin et al., 2012, PNAS (PMID 22431638)","url":"https://doi.org/10.1073/pnas.1118801109"},{"label":"Sarkizova et al., 2020, Nature Biotechnology (PMID 31844290)","url":"https://doi.org/10.1038/s41587-019-0322-9"},{"label":"Kaur et al., 2017, Nature Communications (PMID 28649982)","url":"https://doi.org/10.1038/ncomms15924"},{"label":"Braud et al., 1998, Nature (PMID 9486650)","url":"https://doi.org/10.1038/35869"},{"label":"Tran et al., 2016, New England Journal of Medicine (PMID 27959684)","url":"https://doi.org/10.1056/nejmoa1609279"},{"label":"Wani et al., 2006, PNAS (PMID 16549777)","url":"https://doi.org/10.1073/pnas.0600548103"},{"label":"UniProt P61769 (B2M)","url":"https://www.uniprot.org/uniprotkb/P61769/entry"},{"label":"Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)","url":"https://doi.org/10.1056/nejmoa1604958"},{"label":"Schellens et al. 2015: naturally processed peptide repertoires in four B lymphoblastoid cell lines","url":"https://pubmed.ncbi.nlm.nih.gov/26375851/"},{"label":"Relative expression levels of the HLA class-I proteins in normal and HIV-infected cells.","url":"https://pubmed.ncbi.nlm.nih.gov/25754738/"},{"label":"Wieczorek et al.: MHC groove geometry and peptide-length exceptions (2017)","url":"https://pubmed.ncbi.nlm.nih.gov/28367149/"},{"label":"Cachot et al.: direct cytolytic function of tumour-specific human CD4 cells (2021)","url":"https://pubmed.ncbi.nlm.nih.gov/33637530/"}],
+    "notes": ["The original abstracts do not establish a universal HLA-C/A/B expression hierarchy. The checkpoint additionally reads Apps and colleagues' primary abstract for a specific haplotype comparison. Lower locus-level expression is background in Kaur and Schellens; Kaur directly tests allele-specific variation, and Schellens reports a method-dependent recovered peptide share.","Textbook class I and class II structure (Janeway, NBK26926) was not opened: scripted access refused.","Apps and colleagues found lower HLA-C than HLA-A/B in the analysed healthy-donor peripheral blood lymphocytes with the A*02:01/B*44:02/C*05:01 haplotype; the magnitude differed between flow cytometry and mass spectrometry. This is a defined comparison, not a universal hierarchy. Kaur and colleagues compared HLA-C*05:01 and HLA-C*07:02 in transfected cells and found differences in expression and recovered peptide breadth. In four B lymphoblastoid cell lines, Schellens and colleagues recovered a small HLA-C-assigned peptide fraction; their assignment procedure gave HLA-A/B precedence because HLA-C prediction was less reliable, and they explicitly expected to underestimate HLA-C. A smaller observed share is therefore not a universal biological fraction or evidence of more permissive binding.","Groove geometry helps explain common peptide lengths without imposing a hard upper limit. Wieczorek and colleagues' 2017 review describes the class-I groove as closed at both ends, usually holding 8 to 10 residues, and the open class-II groove as usually holding 13 to 25. It also describes longer class-I ligands, including solved HLA-A2 complexes with 15-residue peptides. A reported range around 11 is therefore not a ceiling for every class-I ligand. CD4 help does not demonstrate the same target's class-I display. Some CD4 cells can themselves be cytotoxic: Cachot and colleagues directly tested tumour-specific human CD4 cells against tumour cells in defined assays. That result does not make every CD4 response cytotoxic or establish a treatment benefit."],
+    "related": [
+  "hla-a",
+  "hla-b",
+  "hla-c",
+  "hla-e",
+  "hla-dr",
+  "hla-dra",
+  "hla-dqa1",
+  "b2m",
+  "hla-typing-and-nomenclature"
+],
+    "targets": [
+  "hla-a",
+  "hla-b",
+  "hla-c",
+  "hla-e",
+  "hla-dr",
+  "hla-dra",
+  "hla-dqa1",
+  "b2m"
+],
+    "terms": [
+  "hla-typing-and-nomenclature",
+  "antigen-processing-machinery",
+  "dendritic-cell-cross-presentation",
+  "nk-cell"
+],
+    "kind": "term",
+    "asOf": "2026-11-11",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  },
+  {
+    "id": "tumor-associated-antigen",
+    "name": "Tumour-associated antigen (TAA)",
+    "aka": [
+  "TAA",
+  "TAAs",
+  "shared tumour antigen",
+  "on-target off-tumour recognition",
+  "off-target cross-reactivity"
+],
+    "tldr": "A tumour-associated antigen is a target that is common in a tumour but can also be present in healthy tissue. A treatment aimed at it can affect both, and can also react with a different, look-alike target.",
+    "summary": "Many tumour-associated antigens come from unmutated proteins, so their usefulness depends on higher expression, an unusual expression pattern or accessibility in the cancer. A neoantigen, by contrast, arises from a tumour-specific sequence alteration. For an antibody or a chimeric antigen receptor, the question is accessible surface antigen on tumour and on healthy cells. For a peptide-directed T-cell receptor it is the particular peptide displayed by a particular HLA allele. RNA for the source gene establishes neither recognition surface, and a gene-expression result does not specify accessibility or peptide display.\n\nTwo hazards need different controls. On-target, off-tumour recognition means the receptor recognises its intended target in the wrong tissue. Off-target cross-reactivity means the receptor also recognises a different molecular target, so screening the intended antigen alone cannot rule it out. A published example of the second is an affinity-enhanced T-cell receptor directed at HLA-A*01-restricted MAGE-A3: in a clinical study the first two treated patients developed cardiogenic shock and died within days, no MAGE-A3 expression was detected in heart tissue at autopsy, and the T cells recognised an unrelated peptide from the striated-muscle protein titin (Linette et al., 2013; Cameron et al., 2013, who describe the preclinical analysis as having found no off-target concern). That illustrates the hazard for one engineered receptor and is not a toxicity rate for tumour-associated targets. Immune tolerance also shapes the available response to self antigens, and a stronger receptor does not remove the need to test healthy tissues and alternative targets.\n\nA shared antigen can support a treatment intended for more than one person's cancer, with a trade-off between tumour coverage and healthy-tissue exposure; expression prevalence in a cohort is not a safe recognition threshold for a product. For vaccine-elicited peptide-specific T cells, a shared antigen offers another candidate when credible private targets are few, which is a coverage hypothesis, not demonstrated benefit. A peptide from a shared antigen and one from a neoantigen may depend on the same HLA allele, so changing the antigen does not restore a missing display route: Tran et al. (2016) documented escape after loss of the restricting HLA allele in one colorectal cancer patient. Antibodies and CARs have different recognition requirements, and epitope spreading is a separate widening of recognition that adding a shared antigen does not guarantee.",
+    "links": [
+  {
+    "label": "Linette et al., 2013, Blood (PMID 23770775)",
+    "url": "https://doi.org/10.1182/blood-2013-03-490565"
+  },
+  {
+    "label": "Cameron et al., 2013, Science Translational Medicine (PMID 23926201)",
+    "url": "https://doi.org/10.1126/scitranslmed.3006034"
+  },
+  {
+    "label": "Tran et al., 2016, New England Journal of Medicine (PMID 27959684)",
+    "url": "https://doi.org/10.1056/nejmoa1609279"
+  }
+],
+    "notes": [
+  "The existing antigen record already lists tumour-associated antigen as an alias; this record carries the safety distinctions and uses different aliases.",
+  "Fictional X/Y examples in the teaching source were not carried over. Abstract-depth reads on 9 November 2026."
+],
+    "related": [
+  "antigen",
+  "neoantigen",
+  "antigen-escape",
+  "hla",
+  "hla-typing-and-nomenclature"
+],
+    "terms": [
+  "antigen",
+  "neoantigen",
+  "antigen-escape",
+  "hla"
+],
+    "kind": "term",
+    "asOf": "2026-11-09",
+    "category": "Immunology",
+    "tags": [
+  "education-immunology-2026-11"
+]
+  }
+];
+
+/** Separate gene owners; no generated catalogue file is edited. */
+export const educationAntigenProcessingTargets: TargetInput[] = [
+  {
+    "id": "tap1",
+    "kind": "target",
+    "name": "TAP1",
+    "symbol": "TAP1",
+    "uniprot": "Q03518",
+    "targetClass": "other",
+    "asOf": "2026-11-09",
+    "tldr": "TAP1 pairs with TAP2 to move protein fragments into the cell compartment where many class I HLA molecules are loaded.",
+    "summary": "TAP1 is one component of the ATP-powered TAP1/TAP2 peptide transporter. The complex moves selected peptides from the cytosol into the endoplasmic reticulum for class I HLA loading. It is a shared processing step, rather than the peptide target or HLA allele itself. A gene or RNA measurement does not establish transport activity, surface display or recognition by a T cell.",
+    "sources": [
+      {
+        "label": "UniProt Q03518: reviewed human TAP1 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q03518/entry",
+        "note": "Reviewed human protein identity and function; primary gene name checked explicitly because TAP2 also matches a SEC14L3 synonym."
+      },
+      {
+        "label": "HGNC HGNC:43",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:43",
+        "note": "Approved symbol, name and cross-references; raw HGNC REST record checked against reviewed human UniProt."
+      }
+    ],
+    "links": [
+  {
+    "label": "UniProt Q03518: reviewed human TAP1 protein",
+    "url": "https://www.uniprot.org/uniprotkb/Q03518/entry"
+  },
+  {
+    "label": "Shepherd et al. 1993: TAP1-dependent, ATP-driven peptide translocation in a cell-free system (PubMed 8348620)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8348620/"
+  },
+  {
+    "label": "HGNC TAP1 approved gene identity",
+    "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:43"
+  }
+],
+    "related": [
+      "tap2",
+      "antigen-processing-machinery",
+      "hla"
+    ],
+    "notes": [
+      "This record describes antigen-processing biology. It does not establish an approved drug, a clinical selection threshold or a tumour-specific vulnerability."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Reviewed human UniProt record and cited antigen-processing experiments."
+    },
+    "biology": "TAP1 is one component of the ATP-powered TAP1/TAP2 peptide transporter. The complex moves selected peptides from the cytosol into the endoplasmic reticulum for class I HLA loading. It is a shared processing step, rather than the peptide target or HLA allele itself.",
+    "hgnc": "HGNC:43",
+    "ensembl": "ENSG00000168394",
+    "entrez": "6890"
+  },
+  {
+    "id": "tap2",
+    "kind": "target",
+    "name": "TAP2",
+    "symbol": "TAP2",
+    "uniprot": "Q03519",
+    "targetClass": "other",
+    "asOf": "2026-11-09",
+    "tldr": "TAP2 pairs with TAP1 to move protein fragments into the cell compartment where many class I HLA molecules are loaded.",
+    "summary": "TAP2 is one component of the ATP-powered TAP1/TAP2 peptide transporter. The complex moves selected peptides from the cytosol into the endoplasmic reticulum for class I HLA loading. It is a shared processing step, rather than the peptide target or HLA allele itself. A gene or RNA measurement does not establish transport activity, surface display or recognition by a T cell.",
+    "sources": [
+      {
+        "label": "UniProt Q03519: reviewed human TAP2 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q03519/entry",
+        "note": "Reviewed human protein identity and function; primary gene name checked explicitly because TAP2 also matches a SEC14L3 synonym."
+      },
+      {
+        "label": "HGNC HGNC:44",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:44",
+        "note": "Approved symbol, name and cross-references; raw HGNC REST record checked against reviewed human UniProt."
+      }
+    ],
+    "links": [
+  {
+    "label": "UniProt Q03519: reviewed human TAP2 protein",
+    "url": "https://www.uniprot.org/uniprotkb/Q03519/entry"
+  },
+  {
+    "label": "Shepherd et al. 1993: TAP1-dependent, ATP-driven peptide translocation in a cell-free system (PubMed 8348620)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8348620/"
+  },
+  {
+    "label": "HGNC TAP2 approved gene identity",
+    "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:44"
+  }
+],
+    "related": [
+      "tap1",
+      "antigen-processing-machinery",
+      "hla"
+    ],
+    "notes": [
+      "This record describes antigen-processing biology. It does not establish an approved drug, a clinical selection threshold or a tumour-specific vulnerability."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Reviewed human UniProt record and cited antigen-processing experiments."
+    },
+    "biology": "TAP2 is one component of the ATP-powered TAP1/TAP2 peptide transporter. The complex moves selected peptides from the cytosol into the endoplasmic reticulum for class I HLA loading. It is a shared processing step, rather than the peptide target or HLA allele itself.",
+    "hgnc": "HGNC:44",
+    "ensembl": "ENSG00000204267",
+    "entrez": "6891"
+  },
+  {
+    "id": "erap1",
+    "kind": "target",
+    "name": "ERAP1",
+    "symbol": "ERAP1",
+    "uniprot": "Q9NZ08",
+    "targetClass": "enzyme",
+    "asOf": "2026-11-09",
+    "tldr": "ERAP1 trims protein fragments before loading onto class I HLA. More trimming does not guarantee more useful display.",
+    "summary": "ERAP1 is an endoplasmic reticulum aminopeptidase involved in shaping peptides available for class I HLA. ERAP1 and ERAP2 have complementary substrate preferences in human biochemical experiments. Trimming can produce an appropriate peptide or remove a potentially useful one; abundance of the enzyme is not a universal measure of tumour targetability. Natural display, receptor recognition and treatment benefit remain separate questions.",
+    "sources": [
+      {
+        "label": "UniProt Q9NZ08: reviewed human ERAP1 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q9NZ08/entry",
+        "note": "Reviewed human protein identity and function; primary gene name checked explicitly because TAP2 also matches a SEC14L3 synonym."
+      },
+      {
+        "label": "HGNC HGNC:18173",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:18173",
+        "note": "Approved symbol, name and cross-references; raw HGNC REST record checked against reviewed human UniProt."
+      }
+    ],
+    "links": [
+      {
+        "label": "UniProt Q9NZ08: reviewed human ERAP1 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q9NZ08/entry"
+      },
+      {
+        "label": "Primary antigen-processing experiment (PubMed 15908954)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15908954/"
+      },
+      {
+        "label": "Primary antigen-processing experiment (PubMed 12436110)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12436110/"
+      },
+      {
+        "label": "HGNC ERAP1 approved gene identity",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:18173"
+      }
+    ],
+    "related": [
+      "erap2",
+      "antigen-processing-machinery",
+      "hla"
+    ],
+    "notes": [
+      "This record describes antigen-processing biology. It does not establish an approved drug, a clinical selection threshold or a tumour-specific vulnerability."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Reviewed human UniProt record and cited antigen-processing experiments."
+    },
+    "biology": "ERAP1 is an endoplasmic reticulum aminopeptidase involved in shaping peptides available for class I HLA. ERAP1 and ERAP2 have complementary substrate preferences in human biochemical experiments.",
+    "hgnc": "HGNC:18173",
+    "ensembl": "ENSG00000164307",
+    "entrez": "51752"
+  },
+  {
+    "id": "erap2",
+    "kind": "target",
+    "name": "ERAP2",
+    "symbol": "ERAP2",
+    "uniprot": "Q6P179",
+    "targetClass": "enzyme",
+    "asOf": "2026-11-09",
+    "tldr": "ERAP2 trims protein fragments before loading onto class I HLA. More trimming does not guarantee more useful display.",
+    "summary": "ERAP2 is an endoplasmic reticulum aminopeptidase involved in shaping peptides available for class I HLA. ERAP1 and ERAP2 have complementary substrate preferences in human biochemical experiments. Trimming can produce an appropriate peptide or remove a potentially useful one; abundance of the enzyme is not a universal measure of tumour targetability. Natural display, receptor recognition and treatment benefit remain separate questions.",
+    "sources": [
+      {
+        "label": "UniProt Q6P179: reviewed human ERAP2 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q6P179/entry",
+        "note": "Reviewed human protein identity and function; primary gene name checked explicitly because TAP2 also matches a SEC14L3 synonym."
+      },
+      {
+        "label": "HGNC HGNC:29499",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:29499",
+        "note": "Approved symbol, name and cross-references; raw HGNC REST record checked against reviewed human UniProt."
+      }
+    ],
+    "links": [
+      {
+        "label": "UniProt Q6P179: reviewed human ERAP2 protein",
+        "url": "https://www.uniprot.org/uniprotkb/Q6P179/entry"
+      },
+      {
+        "label": "Primary antigen-processing experiment (PubMed 15908954)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15908954/"
+      },
+      {
+        "label": "HGNC ERAP2 approved gene identity",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:29499"
+      }
+    ],
+    "related": [
+      "erap1",
+      "antigen-processing-machinery",
+      "hla"
+    ],
+    "notes": [
+      "This record describes antigen-processing biology. It does not establish an approved drug, a clinical selection threshold or a tumour-specific vulnerability."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Reviewed human UniProt record and cited antigen-processing experiments."
+    },
+    "biology": "ERAP2 is an endoplasmic reticulum aminopeptidase involved in shaping peptides available for class I HLA. ERAP1 and ERAP2 have complementary substrate preferences in human biochemical experiments.",
+    "hgnc": "HGNC:29499",
+    "ensembl": "ENSG00000164308",
+    "entrez": "64167"
+  },
+  {
+    "id": "b2m",
+    "kind": "target",
+    "name": "B2M",
+    "aka": [
+      "beta-2-microglobulin",
+      "Beta-2-microglobulin"
+    ],
+    "tldr": "B2M supplies a light-chain protein used by class I HLA and several related complexes. A variant or RNA result alone does not establish loss of these functions.",
+    "summary": "Component of the class I major histocompatibility complex (MHC). Involved in the presentation of peptide antigens to the immune system. Exogenously applied M.tuberculosis EsxA or EsxA-EsxB (or EsxA expressed in host) binds B2M and decreases its export to the cell surface (total protein levels do not change), probably leading to defects in class I antigen presentation.\n\nCIViC holds 7 clinical evidence items and 0 assertions across 4 variants, naming Pembrolizumab, Nivolumab, Anti-PD-L1 Monoclonal Antibody and Immune Checkpoint Inhibitor and others. Open Targets scores its association with cancer at 0.69 (direct and indirect evidence; datatypes literature 0.98, affected pathway 0.61, genetic association 0.00, somatic mutation 0.88). IntOGen calls it a driver in 10 cohorts (4 activating, 6 loss-of-function), covering Cervical Squamous Cell Carcinoma, Diffuse Large B-Cell Lymphoma, NOS, Head and Neck Squamous Cell Carcinoma, Melanoma, Malignant Lymphoma, Non-Hodgkin Lymphoma and others.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:914",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:914"
+      },
+      {
+        "label": "UniProt P61769",
+        "url": "https://www.uniprot.org/uniprotkb/P61769/entry"
+      },
+      {
+        "label": "NCBI Gene 567",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/567"
+      },
+      {
+        "label": "Ensembl ENSG00000166710",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000166710"
+      },
+      {
+        "label": "Sakata-Yanagimoto et al., Nat Genet 2014: somatic RHOA G17V in angioimmunoblastic T-cell lymphoma",
+        "url": "https://doi.org/10.1038/ng.2872"
+      },
+      {
+        "label": "Palomero et al., Nat Genet 2014: recurrent mutations in epigenetic regulators, RHOA and FYN in peripheral T-cell lymphoma",
+        "url": "https://doi.org/10.1038/ng.2873"
+      },
+      {
+        "label": "Wani et al., 2006, PNAS (PMID 16549777)",
+        "url": "https://doi.org/10.1073/pnas.0600548103"
+      },
+      {
+        "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+        "url": "https://doi.org/10.1056/nejmoa1604958"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "open-targets",
+      "intogen",
+      "hla",
+      "antigen-processing-machinery"
+    ],
+    "cancers": [
+      "non-hodgkin-lymphoma",
+      "colorectal",
+      "lung-cancer",
+      "head-and-neck",
+      "cervical",
+      "dlbcl",
+      "melanoma",
+      "mantle-cell-lymphoma"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [
+      "antigen-presentation-immunoediting",
+      "epigenetic-reprogramming",
+      "clonal-haematopoiesis"
+    ],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [
+      "paper-grasso-immune-evasion-colorectal-cancer-discov-2018"
+    ],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 5 therapies; IntOGen calls it an activating (Act) driver in 4 cohorts; IntOGen calls it a loss-of-function (LoF) driver in 6 cohorts; CIViC holds 7 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "Colorectal cancer: inactivating mutation in 3 to 7% overall but 31.0% of MSI-high against 1.5% of microsatellite-stable samples in crc_msk_2026, with biallelic B2M and HLA loss by copy-number change and copy-neutral loss of heterozygosity documented across 1,211 tumours (Grasso 2018). It is an immunoediting scar and the best available explanation for the mismatch repair deficient patients who do not respond to a checkpoint inhibitor.",
+      "Lymphoma, RHOA G17V and the epigenetic mutations of T-follicular-helper lymphoma: A single substitution, G17V, in the small GTPase RHOA produces a protein that does not bind GTP and that blocks the wild-type protein as well. It is specific to the tumour cell, whereas the TET2 mutations that accompany it are found in non-tumour haematopoietic cells too, which places the TET2 lesion earlier, in the stem cell, and makes this lymphoma a disease that grows out of clonal haematopoiesis. Frequency: RHOA G17V in 68% of angioimmunoblastic T-cell lymphoma samples, with every G17V case also carrying a TET2 mutation (Sakata-Yanagimoto 2014); independently, in 22 of 35 angioimmunoblastic cases, 67%, and 8 of 44 peripheral T-cell lymphoma not otherwise specified, 18%, alongside recurrent TET2, DNMT3A and IDH2 mutations and less frequent FYN, ATM, B2M and CD58 lesions (Palomero 2014). What it changes about treatment: Not through an approved test. The hypomethylating agents are used in this disease on the strength of the TET2 and DNMT3A biology rather than on a mutation result, and azacitidine-containing regimens have shown activity in T-follicular-helper histology specifically.",
+      "Teaching distinction from the antigen-antibodies audit (9 November 2026): B2M is the class I light chain and not part of class II; loss of functional B2M affects many class I targets, unlike loss of one HLA allele; B2M also partners HLA-E, HLA-G, HLA-F, MR1 and (via Wani 2006) FcRn. See the hla record.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "B2M",
+    "role": [
+      "drug-target",
+      "oncogene-driver",
+      "tumour-suppressor",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:914",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:914",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P61769",
+        "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene B2M",
+        "url": "https://civicdb.org/features/537",
+        "note": "7 evidence items, 0 assertions, 4 variants; diseases: Colorectal Cancer, Melanoma, Lung Cancer, Mantle Cell Lymphoma, Diffuse Large B-cell Lymphoma and 1 more (GraphQL API, CC0)"
+      },
+      {
+        "label": "Open Targets ENSG00000166710",
+        "url": "https://platform.opentargets.org/target/ENSG00000166710/associations",
+        "note": "association with cancer (MONDO_0004992) 0.69; per-cancer scores at or above 0.5: colorectal cancer 0.56, melanoma 0.57, diffuse large B-cell lymphoma 0.67, non-Hodgkin lymphoma 0.72 (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen B2M",
+        "url": "https://www.intogen.org/search?gene=B2M",
+        "note": "driver in 10 cohorts (Act 4, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      }
+    ],
+    "specificity": "tumour-specific",
+    "distribution": "many-types",
+    "specificityNote": "Tumour-specific alteration: the catalogues call it an oncogene driver (IntOGen cohort analysis finds it activated more often than chance) and a tumour suppressor (IntOGen finds it knocked out more often than chance), so the direction differs between cohorts but the alteration is somatic either way; what a medicine would aim at or exploit is the altered form or its loss, absent from normal cells; no corpus medicine is aimed at it yet. HPA B2M: RNA low tissue specificity; high antibody staining in 7 normal tissues; highest cancer staining urothelial cancer (2 of 11 high). Distribution: 6 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Lymphoma, Colorectal cancer, Lung cancer (all types), Head and neck squamous cell carcinoma, Cervical cancer, Skin cancer (all types)); Open Targets associates it with 1 specific cancer type at or above 0.5 (diffuse large B-cell lymphoma). (Rule 6 of scripts/fetch-target-specificity.ts.)",
+    "specificitySources": [
+      {
+        "label": "UniProt P61769",
+        "url": "https://www.uniprot.org/uniprotkb/P61769/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene B2M",
+        "url": "https://civicdb.org/features/537",
+        "note": "7 evidence items, 0 assertions, 4 variants; diseases: Colorectal Cancer, Melanoma, Lung Cancer, Mantle Cell Lymphoma, Diffuse Large B-cell Lymphoma and 1 more (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen B2M",
+        "url": "https://www.intogen.org/search?gene=B2M",
+        "note": "driver in 10 cohorts (Act 4, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      },
+      {
+        "label": "Human Protein Atlas B2M tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000166710-B2M/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000166710 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000166710/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:914",
+    "ensembl": "ENSG00000166710",
+    "uniprot": "P61769",
+    "entrez": "567",
+    "firstDescribed": 1973,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Cunningham B.A. et al, Biochemistry, 1973, \"The complete amino acid sequence of beta 2-microglobulin\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/4586824/",
+    "biology": "Component of the class I major histocompatibility complex (MHC). Involved in the presentation of peptide antigens to the immune system. Exogenously applied M.tuberculosis EsxA or EsxA-EsxB (or EsxA expressed in host) binds B2M and decreases its export to the cell surface (total protein levels do not change), probably leading to defects in class I antigen presentation. Location: Secreted; Cell surface (UniProt). Locus 15q21.1 (HGNC).",
+    "whereFound": [
+      "Non-Hodgkin lymphoma: Open Targets association 0.72 with non-Hodgkin lymphoma (MONDO_0018908); IntOGen driver in 2 cohorts (MLYM, NHL)",
+      "Colorectal cancer: Open Targets association 0.56 with colorectal cancer (MONDO_0005575); CIViC evidence names this disease",
+      "Lung cancer: CIViC evidence names this disease",
+      "Head and neck squamous cell carcinoma: IntOGen driver in 2 cohorts (HNSC)",
+      "Cervical cancer: IntOGen driver in 1 cohort (CESC)",
+      "Diffuse large B-cell lymphoma: Open Targets association 0.67 with diffuse large B-cell lymphoma (MONDO_0018905); CIViC evidence names this disease",
+      "Colorectal cancer: inactivating mutation or deletion (antigen presentation) 3-7%"
+    ],
+    "targetClass": "tumor-suppressor",
+    "prevalence": [
+      {
+        "cancerId": "colorectal",
+        "pct": "3-7",
+        "measure": "Inactivating mutation or deletion (antigen presentation)",
+        "source": "https://www.cbioportal.org/study/summary?id=crc_msk_2026",
+        "note": "cBioPortal: 335 of 7,237, 4.6%, in crc_msk_2026; 39 of 1,134, 3.4%, in crc_msk_2017; 61 of 1,516, 4.0%, in crc_eo_2020; 24 of 534, 4.5%, plus 13 deep deletions of 592, in coadread_tcga_pan_can_atlas_2018; 44 of 619, 7.1%, in coadread_dfci_2016."
+      }
+    ]
+  },
+  {
+    "id": "hla-b",
+    "kind": "target",
+    "name": "HLA-B",
+    "aka": [
+      "major histocompatibility complex, class I, B",
+      "HLA class I histocompatibility antigen, B alpha chain"
+    ],
+    "tldr": "HLA-B is a class I HLA heavy-chain gene. Its protein helps display peptides for immune recognition; its name alone does not show tumour display or response.",
+    "summary": "Antigen-presenting major histocompatibility complex class I (MHCI) molecule. In complex with B2M/beta 2 microglobulin displays primarily viral and tumour-derived peptides on antigen-presenting cells for recognition by alpha-beta T cell receptor (TCR) on HLA-B-restricted CD8-positive T cells, guiding antigen-specific T cell immune response to eliminate infected or transformed cells. May also present self-peptides derived from the signal sequence of secreted or membrane proteins, although T cells specific for these peptides are usually inactivated to prevent autoreactivity.\n\nCIViC holds 1 clinical evidence item and 0 assertions across 1 variant. Open Targets scores its association with cancer at 0.52 (direct and indirect evidence; datatypes literature 0.86, animal model 0.48, genetic association 0.00, somatic mutation 0.80). IntOGen calls it a driver in 6 cohorts (0 activating, 6 loss-of-function), covering Cervical Squamous Cell Carcinoma, Diffuse Large B-Cell Lymphoma, NOS, Oesophageal Adenocarcinoma, Head and Neck Squamous Cell Carcinoma, Malignant Lymphoma.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:4932",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4932"
+      },
+      {
+        "label": "UniProt P01889",
+        "url": "https://www.uniprot.org/uniprotkb/P01889/entry"
+      },
+      {
+        "label": "NCBI Gene 3106",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3106"
+      },
+      {
+        "label": "Ensembl ENSG00000234745",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000234745"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "open-targets",
+      "intogen",
+      "hla",
+      "hla-typing-and-nomenclature"
+    ],
+    "cancers": [
+      "cervical",
+      "esophageal",
+      "head-and-neck",
+      "non-hodgkin-lymphoma",
+      "dlbcl",
+      "oesophageal-adenocarcinoma"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: IntOGen calls it a loss-of-function (LoF) driver in 6 cohorts; CIViC holds 1 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "HLA-B encodes a peptide-display heavy chain. A cancer-catalogue role category is not a definition of its normal molecular function. See the cited UniProt function and the HLA teaching record for class I assembly and recognition context.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "HLA-B",
+    "role": [
+      "tumour-suppressor",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:4932",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4932",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P01889",
+        "url": "https://www.uniprot.org/uniprotkb/P01889/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene HLA-B",
+        "url": "https://civicdb.org/features/2607",
+        "note": "1 evidence items, 0 assertions, 1 variants; diseases: Diffuse Large B-cell Lymphoma (GraphQL API, CC0)"
+      },
+      {
+        "label": "Open Targets ENSG00000234745",
+        "url": "https://platform.opentargets.org/target/ENSG00000234745/associations",
+        "note": "association with cancer (MONDO_0004992) 0.52;  (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen HLA-B",
+        "url": "https://www.intogen.org/search?gene=HLA-B",
+        "note": "driver in 6 cohorts (Act 0, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      }
+    ],
+    "specificity": "tumour-specific",
+    "distribution": "few-types",
+    "specificityNote": "Tumour-specific alteration: the catalogues call it a tumour suppressor (IntOGen finds it knocked out more often than chance); what a medicine would aim at or exploit is the altered form or its loss, absent from normal cells; no corpus medicine is aimed at it yet. HPA HLA-B: RNA tissue enhanced (lymphoid tissue 2,350 nTPM); high antibody staining in 24 normal tissues; highest cancer staining liver cancer (9 of 12 high). Distribution: 4 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Cervical cancer, Oesophageal cancer, Head and neck squamous cell carcinoma, Lymphoma); Open Targets associates it with 0 specific cancer types at or above 0.5. (Rule 6 of scripts/fetch-target-specificity.ts.)",
+    "specificitySources": [
+      {
+        "label": "UniProt P01889",
+        "url": "https://www.uniprot.org/uniprotkb/P01889/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene HLA-B",
+        "url": "https://civicdb.org/features/2607",
+        "note": "1 evidence items, 0 assertions, 1 variants; diseases: Diffuse Large B-cell Lymphoma (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen HLA-B",
+        "url": "https://www.intogen.org/search?gene=HLA-B",
+        "note": "driver in 6 cohorts (Act 0, LoF 6); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      },
+      {
+        "label": "Human Protein Atlas HLA-B tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000234745-HLA-B/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000234745 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000234745/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:4932",
+    "ensembl": "ENSG00000234745",
+    "uniprot": "P01889",
+    "entrez": "3106",
+    "firstDescribed": 1979,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Orr H.T. et al, Biochemistry, 1979, \"Complete amino acid sequence of a papain-solubilized human histocompatibility antigen, HLA-B7. 2. Sequence determination and search for homologies\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/518865/",
+    "biology": "Antigen-presenting major histocompatibility complex class I (MHCI) molecule. In complex with B2M/beta 2 microglobulin displays primarily viral and tumour-derived peptides on antigen-presenting cells for recognition by alpha-beta T cell receptor (TCR) on HLA-B-restricted CD8-positive T cells, guiding antigen-specific T cell immune response to eliminate infected or transformed cells. May also present self-peptides derived from the signal sequence of secreted or membrane proteins, although T cells specific for these peptides are usually inactivated to prevent autoreactivity. Both the peptide and the MHC molecule are recognised by TCR, the peptide is responsible for the fine specificity of antigen recognition and MHC residues account for the MHC restriction of T cells. Typically presents intracellular peptide antigens of 8 to 13 amino acids that arise from cytosolic proteolysis via constitutive proteasome and IFNG-induced immunoproteasome. Can bind different peptides containing allele-specific binding motifs, which are mainly defined by anchor residues at position 2 and 9. Location: Cell membrane; Endoplasmic reticulum membrane (UniProt). Locus 6p21.33 (HGNC).",
+    "whereFound": [
+      "Cervical cancer: IntOGen driver in 1 cohort (CESC)",
+      "Oesophageal cancer: IntOGen driver in 1 cohort (ESCA)",
+      "Head and neck squamous cell carcinoma: IntOGen driver in 1 cohort (HNSC)",
+      "Non-Hodgkin lymphoma: IntOGen driver in 1 cohort (MLYM)",
+      "Diffuse large B-cell lymphoma: CIViC evidence names this disease; IntOGen driver in 2 cohorts (DLBCLNOS)",
+      "Oesophageal and junctional adenocarcinoma: IntOGen driver in 1 cohort (ESCA)"
+    ],
+    "targetClass": "tumor-suppressor",
+    "prevalence": []
+  },
+  {
+    "id": "hla-c",
+    "kind": "target",
+    "name": "HLA-C",
+    "aka": [
+      "major histocompatibility complex, class I, C",
+      "HLA class I histocompatibility antigen, C alpha chain",
+      "HLA-JY3",
+      "D6S204",
+      "PSORS1"
+    ],
+    "tldr": "HLA-C is a class I HLA heavy-chain gene. Its alleles can differ in surface expression and the peptides they display.",
+    "summary": "Antigen-presenting major histocompatibility complex class I (MHCI) molecule with an important role in reproduction and antiviral immunity. In complex with B2M/beta 2 microglobulin displays a restricted repertoire of self and viral peptides and acts as a dominant ligand for inhibitory and activating killer immunoglobulin receptors (KIRs) expressed on NK cells. In an allogeneic setting, such as during pregnancy, mediates interaction of extravillous trophoblasts with KIR on uterine NK cells and regulate trophoblast invasion necessary for placentation and overall fetal growth.\n\nCIViC holds 2 clinical evidence items and 0 assertions across 2 variants, naming Therapeutic Tumour Infiltrating Lymphocytes. IntOGen calls it a driver in 1 cohort (0 activating, 1 loss-of-function), covering Diffuse Large B-Cell Lymphoma, NOS.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:4933",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4933"
+      },
+      {
+        "label": "UniProt P10321",
+        "url": "https://www.uniprot.org/uniprotkb/P10321/entry"
+      },
+      {
+        "label": "NCBI Gene 3107",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3107"
+      },
+      {
+        "label": "Ensembl ENSG00000204525",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000204525"
+      },
+      {
+        "label": "Kaur et al., 2017, Nature Communications (PMID 28649982)",
+        "url": "https://doi.org/10.1038/ncomms15924"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "intogen",
+      "hla",
+      "hla-typing-and-nomenclature"
+    ],
+    "cancers": [
+      "colorectal",
+      "dlbcl"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 1 therapies; IntOGen calls it a loss-of-function (LoF) driver in 1 cohort; CIViC holds 2 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "Classical class I heavy-chain gene; surface expression varies allele by allele (Kaur et al., 2017).",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "HLA-C",
+    "role": [
+      "drug-target",
+      "tumour-suppressor",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:4933",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4933",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P10321",
+        "url": "https://www.uniprot.org/uniprotkb/P10321/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene HLA-C",
+        "url": "https://civicdb.org/features/2608",
+        "note": "2 evidence items, 0 assertions, 2 variants; diseases: Colorectal Cancer, Diffuse Large B-cell Lymphoma (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen HLA-C",
+        "url": "https://www.intogen.org/search?gene=HLA-C",
+        "note": "driver in 1 cohort (Act 0, LoF 1); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      }
+    ],
+    "specificity": "tumour-specific",
+    "distribution": "few-types",
+    "specificityNote": "Tumour-specific alteration: the catalogues call it a tumour suppressor (IntOGen finds it knocked out more often than chance); what a medicine would aim at or exploit is the altered form or its loss, absent from normal cells; no corpus medicine is aimed at it yet. HPA HLA-C: RNA tissue enhanced (lymphoid tissue 1,378 nTPM); no normal tissue stained high. Distribution: 2 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Colorectal cancer, Lymphoma); Open Targets associates it with 0 specific cancer types at or above 0.5. (Rule 6 of scripts/fetch-target-specificity.ts.)",
+    "specificitySources": [
+      {
+        "label": "UniProt P10321",
+        "url": "https://www.uniprot.org/uniprotkb/P10321/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene HLA-C",
+        "url": "https://civicdb.org/features/2608",
+        "note": "2 evidence items, 0 assertions, 2 variants; diseases: Colorectal Cancer, Diffuse Large B-cell Lymphoma (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen HLA-C",
+        "url": "https://www.intogen.org/search?gene=HLA-C",
+        "note": "driver in 1 cohort (Act 0, LoF 1); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      },
+      {
+        "label": "Human Protein Atlas HLA-C tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000204525-HLA-C/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000204525 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000204525/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:4933",
+    "ensembl": "ENSG00000204525",
+    "uniprot": "P10321",
+    "entrez": "3107",
+    "firstDescribed": 1989,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Cianetti et al, Immunogenetics, 1989, \"Three new class I HLA alleles: structure of mRNAs and alternative mechanisms of processing\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/2914713/",
+    "biology": "Antigen-presenting major histocompatibility complex class I (MHCI) molecule with an important role in reproduction and antiviral immunity. In complex with B2M/beta 2 microglobulin displays a restricted repertoire of self and viral peptides and acts as a dominant ligand for inhibitory and activating killer immunoglobulin receptors (KIRs) expressed on NK cells. In an allogeneic setting, such as during pregnancy, mediates interaction of extravillous trophoblasts with KIR on uterine NK cells and regulate trophoblast invasion necessary for placentation and overall fetal growth. During viral infection, may present viral peptides with low affinity for KIRs, impeding KIR-mediated inhibition through peptide antagonism and favoring lysis of infected cells. Presents a restricted repertoire of viral peptides on antigen-presenting cells for recognition by alpha-beta T cell receptor (TCR) on HLA-C-restricted CD8-positive T cells, guiding antigen-specific T cell immune response to eliminate infected cells, particularly in chronic viral infection settings such as HIV-1 or CMV infection. Both the peptide and the MHC molecule are recognised by TCR, the peptide is responsible for the fine specificity of antigen recognition and MHC residues account for the MHC restriction of T cells. Location: Cell membrane; Endoplasmic reticulum membrane (UniProt). Locus 6p21.33 (HGNC).",
+    "whereFound": [
+      "Colorectal cancer: CIViC evidence names this disease",
+      "Diffuse large B-cell lymphoma: CIViC evidence names this disease; IntOGen driver in 1 cohort (DLBCLNOS)"
+    ],
+    "targetClass": "tumor-suppressor",
+    "prevalence": []
+  },
+  {
+    "id": "hla-dra",
+    "kind": "target",
+    "name": "HLA-DRA",
+    "aka": [
+      "major histocompatibility complex, class II, DR alpha",
+      "HLA class II histocompatibility antigen, DR alpha chain",
+      "HLA-DRA1"
+    ],
+    "tldr": "HLA-DRA supplies the alpha chain of class II HLA-DR. Together with a beta chain, it forms a peptide-display molecule recognised by CD4 T cells.",
+    "summary": "An alpha chain of antigen-presenting major histocompatibility complex class II (MHCII) molecule. In complex with the beta chain HLA-DRB, displays antigenic peptides on professional antigen presenting cells (APCs) for recognition by alpha-beta T cell receptor (TCR) on HLA-DR-restricted CD4-positive T cells. This guides antigen-specific T-helper effector functions, both antibody-mediated immune response and macrophage activation, to ultimately eliminate the infectious agents and transformed cells.\n\nCIViC holds 1 clinical evidence item and 0 assertions across 1 variant, naming Nivolumab, Pembrolizumab and Atezolizumab.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:4947",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4947"
+      },
+      {
+        "label": "UniProt P01903",
+        "url": "https://www.uniprot.org/uniprotkb/P01903/entry"
+      },
+      {
+        "label": "NCBI Gene 3122",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3122"
+      },
+      {
+        "label": "Ensembl ENSG00000204287",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000204287"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "hla"
+    ],
+    "cancers": [
+      "melanoma"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 3 therapies; CIViC holds 1 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "HLA-DRA",
+    "role": [
+      "drug-target",
+      "biomarker",
+      "immune-checkpoint"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:4947",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4947",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P01903",
+        "url": "https://www.uniprot.org/uniprotkb/P01903/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene HLA-DRA",
+        "url": "https://civicdb.org/features/2622",
+        "note": "1 evidence items, 0 assertions, 1 variants; diseases: Skin Melanoma (GraphQL API, CC0)"
+      }
+    ],
+    "distribution": "one-type",
+    "specificityNote": "Specificity not established: no corpus medicine is aimed at it and the catalogues give it only the roles drug-target, biomarker; HPA finds the RNA tissue enhanced, which says where the protein sits but not whether the tumour differs from normal tissue. HPA HLA-DRA: RNA tissue enhanced (lung 931 nTPM, lymphoid tissue 1,197 nTPM); blood lineage group enriched (B-cells 420 nTPM, dendritic cells 231 nTPM, monocytes 409 nTPM); high antibody staining in 10 normal tissues; highest cancer staining lymphoma (4 of 10 high). Distribution: 1 cancer family in the corpus carries a prevalence row, label threshold or catalogue link for it (Skin cancer (all types)); Open Targets associates it with 0 specific cancer types at or above 0.5. (No rule of scripts/fetch-target-specificity.ts fired.)",
+    "specificitySources": [
+      {
+        "label": "Human Protein Atlas HLA-DRA tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000204287-HLA-DRA/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000204287 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000204287/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:4947",
+    "ensembl": "ENSG00000204287",
+    "uniprot": "P01903",
+    "entrez": "3122",
+    "firstDescribed": 1982,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Lee J.S. et al, Nature, 1982, \"Sequence of an HLA-DR alpha-chain cDNA clone and intron-exon organization of the corresponding gene\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/6811954/",
+    "biology": "An alpha chain of antigen-presenting major histocompatibility complex class II (MHCII) molecule. In complex with the beta chain HLA-DRB, displays antigenic peptides on professional antigen presenting cells (APCs) for recognition by alpha-beta T cell receptor (TCR) on HLA-DR-restricted CD4-positive T cells. This guides antigen-specific T-helper effector functions, both antibody-mediated immune response and macrophage activation, to ultimately eliminate the infectious agents and transformed cells. Typically presents extracellular peptide antigens of 10 to 30 amino acids that arise from proteolysis of endocytosed antigens in lysosomes. In the tumour microenvironment, presents antigenic peptides that are primarily generated in tumour-resident APCs likely via phagocytosis of apoptotic tumour cells or macropinocytosis of secreted tumour proteins. Presents peptides derived from intracellular proteins that are trapped in autolysosomes after macroautophagy, a mechanism especially relevant for T cell selection in the thymus and central immune tolerance. Location: Cell membrane; Endoplasmic reticulum membrane; Early endosome membrane; Late endosome membrane (UniProt). Locus 6p21.32 (HGNC).",
+    "whereFound": [
+      "Melanoma: CIViC evidence names this disease"
+    ],
+    "targetClass": "other",
+    "prevalence": []
+  },
+  {
+    "id": "hla-dqa1",
+    "kind": "target",
+    "name": "HLA-DQA1",
+    "aka": [
+      "major histocompatibility complex, class II, DQ alpha 1",
+      "HLA class II histocompatibility antigen, DQ alpha 1 chain",
+      "CELIAC1",
+      "HLA-DQA"
+    ],
+    "tldr": "HLA-DQA1 supplies an alpha chain of class II HLA-DQ. The resulting complex displays peptides for recognition by CD4 T cells.",
+    "summary": "Binds peptides derived from antigens that access the endocytic route of antigen presenting cells (APC) and presents them on the cell surface for recognition by the CD4 T-cells. The peptide binding cleft accommodates peptides of 10-30 residues. The peptides presented by MHC class II molecules are generated mostly by degradation of proteins that access the endocytic route, where they are processed by lysosomal proteases and other hydrolases.\n\nIntOGen calls it a driver in 1 cohort (1 activating, 0 loss-of-function), covering Pleural Mesothelioma.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:4942",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4942"
+      },
+      {
+        "label": "UniProt P01909",
+        "url": "https://www.uniprot.org/uniprotkb/P01909/entry"
+      },
+      {
+        "label": "NCBI Gene 3117",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/3117"
+      },
+      {
+        "label": "Ensembl ENSG00000196735",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000196735"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "intogen",
+      "hla"
+    ],
+    "cancers": [
+      "mesothelioma",
+      "pleural-mesothelioma"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: IntOGen calls it an activating (Act) driver in 1 cohort. Evidence tier \"cohort-driver\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "HLA-DQA1",
+    "role": [
+      "oncogene-driver"
+    ],
+    "evidenceTier": "cohort-driver",
+    "sources": [
+      {
+        "label": "HGNC HGNC:4942",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:4942",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P01909",
+        "url": "https://www.uniprot.org/uniprotkb/P01909/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "IntOGen HLA-DQA1",
+        "url": "https://www.intogen.org/search?gene=HLA-DQA1",
+        "note": "driver in 1 cohort (Act 1, LoF 0); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      }
+    ],
+    "specificitySources": [],
+    "hgnc": "HGNC:4942",
+    "ensembl": "ENSG00000196735",
+    "uniprot": "P01909",
+    "entrez": "3117",
+    "firstDescribed": 1982,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Auffray et al, Proc. Natl. Acad. Sci. U.S.A, 1982, \"cDNA clone for the heavy chain of the human B cell alloantigen DC1: strong sequence homology to the HLA-DR heavy chain\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/6815651/",
+    "biology": "Binds peptides derived from antigens that access the endocytic route of antigen presenting cells (APC) and presents them on the cell surface for recognition by the CD4 T-cells. The peptide binding cleft accommodates peptides of 10-30 residues. The peptides presented by MHC class II molecules are generated mostly by degradation of proteins that access the endocytic route, where they are processed by lysosomal proteases and other hydrolases. Exogenous antigens that have been endocytosed by the APC are thus readily available for presentation via MHC II molecules, and for this reason this antigen presentation pathway is usually referred to as exogenous. As membrane proteins on their way to degradation in lysosomes as part of their normal turn-over are also contained in the endosomal/lysosomal compartments, exogenous antigens must compete with those derived from endogenous components. Autophagy is also a source of endogenous peptides, autophagosomes constitutively fuse with MHC class II loading compartments. Location: Cell membrane; Endoplasmic reticulum membrane; Golgi apparatus, trans-Golgi network membrane; Endosome membrane (UniProt). Locus 6p21.32 (HGNC).",
+    "whereFound": [
+      "Mesothelioma: IntOGen driver in 1 cohort (PLMESO)",
+      "Pleural mesothelioma: IntOGen driver in 1 cohort (PLMESO)"
+    ],
+    "targetClass": "oncogene",
+    "prevalence": []
+  },
+  {
+    "id": "fcgr3a",
+    "kind": "target",
+    "name": "FCGR3A",
+    "aka": [
+      "Fc gamma receptor IIIa",
+      "Low affinity immunoglobulin gamma Fc region receptor III-A",
+      "CD16",
+      "CD16a",
+      "FcgammaRIIIa",
+      "FcGRIIIA",
+      "FCGR3",
+      "FCG3"
+    ],
+    "tldr": "FCGR3A encodes CD16A, an IgG Fc receptor involved in NK-cell responses to antibody-coated targets. Binding alone does not establish completed killing.",
+    "summary": "Receptor for the invariable Fc fragment of immunoglobulin gamma (IgG). Optimally activated upon binding of clustered antigen-IgG complexes displayed on cell surfaces, triggers lysis of antibody-coated cells, a process known as antibody-dependent cellular cytotoxicity (ADCC). Does not bind free monomeric IgG, thus avoiding inappropriate effector cell activation in the absence of antigenic trigger.\n\nCIViC holds 2 clinical evidence items and 0 assertions across 1 variant, naming Trastuzumab.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:3619",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3619"
+      },
+      {
+        "label": "UniProt P08637",
+        "url": "https://www.uniprot.org/uniprotkb/P08637/entry"
+      },
+      {
+        "label": "NCBI Gene 2214",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2214"
+      },
+      {
+        "label": "Ensembl ENSG00000203747",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000203747"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "adcc-adcp-cdc",
+      "isotypes-and-fc-silencing"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "breast-her2-positive"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [
+      "complement-in-cancer",
+      "nk-cell-recognition"
+    ],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 1 therapies; CIViC holds 2 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "FCGR3A",
+    "role": [
+      "drug-target",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:3619",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3619",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P08637",
+        "url": "https://www.uniprot.org/uniprotkb/P08637/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene FCGR3A",
+        "url": "https://civicdb.org/features/1844",
+        "note": "2 evidence items, 0 assertions, 1 variants; diseases: Breast Cancer, HER2 Positive Breast Cancer (GraphQL API, CC0)"
+      }
+    ],
+    "distribution": "one-type",
+    "specificityNote": "Specificity not established: no corpus medicine is aimed at it and the catalogues give it only the roles drug-target, biomarker; HPA finds the RNA tissue enhanced, which says where the protein sits but not whether the tumour differs from normal tissue. HPA FCGR3A: RNA tissue enhanced (lung 196 nTPM, lymphoid tissue 285 nTPM); blood lineage lineage enriched (monocytes 4,107 nTPM); high antibody staining in 4 normal tissues; highest cancer staining ovarian cancer (1 of 10 high). Distribution: 1 cancer family in the corpus carries a prevalence row, label threshold or catalogue link for it (Breast cancer (all types)); Open Targets associates it with 0 specific cancer types at or above 0.5. (No rule of scripts/fetch-target-specificity.ts fired.)",
+    "specificitySources": [
+      {
+        "label": "Human Protein Atlas FCGR3A tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000203747-FCGR3A/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000203747 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000203747/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:3619",
+    "ensembl": "ENSG00000203747",
+    "uniprot": "P08637",
+    "entrez": "2214",
+    "firstDescribed": 1989,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Ravetch J.V. et al, J. Exp. Med, 1989, \"Alternative membrane forms of Fc gamma RIII(CD16) on human natural killer cells and neutrophils. Cell type-specific expression of two genes that differ in single nucleotide substitutions\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/2526846/",
+    "biology": "Receptor for the invariable Fc fragment of immunoglobulin gamma (IgG). Optimally activated upon binding of clustered antigen-IgG complexes displayed on cell surfaces, triggers lysis of antibody-coated cells, a process known as antibody-dependent cellular cytotoxicity (ADCC). Does not bind free monomeric IgG, thus avoiding inappropriate effector cell activation in the absence of antigenic trigger. Mediates IgG effector functions on natural killer (NK) cells. Binds antigen-IgG complexes generated upon infection and triggers NK cell-dependent cytokine production and degranulation to limit viral load and propagation. Involved in the generation of memory-like adaptive NK cells capable to produce high amounts of IFNG and to efficiently eliminate virus-infected cells via ADCC. Location: Cell membrane; Secreted (UniProt). Locus 1q23.3 (HGNC).",
+    "whereFound": [
+      "Breast cancer: CIViC evidence names this disease",
+      "HER2-positive breast cancer: CIViC evidence names this disease"
+    ],
+    "targetClass": "other",
+    "prevalence": []
+  },
+  {
+    "id": "fcgr2a",
+    "kind": "target",
+    "name": "FCGR2A",
+    "aka": [
+      "Fc gamma receptor IIa",
+      "Low affinity immunoglobulin gamma Fc region receptor II-a",
+      "CD32",
+      "CD32A",
+      "IGFR2",
+      "CDw32",
+      "Fc-gamma-RIIa",
+      "FcgammaRIIa",
+      "FCG2",
+      "FCGR2A1",
+      "FCGR2"
+    ],
+    "tldr": "FCGR2A encodes CD32A, an IgG Fc receptor that can support responses including uptake of antibody-coated material. The measured response depends on the cells and assay.",
+    "summary": "Binds to the Fc region of immunoglobulins gamma. Low affinity receptor. By binding to IgG it initiates cellular responses against pathogens and soluble antigens.\n\nCIViC holds 2 clinical evidence items and 0 assertions across 2 variants, naming Trastuzumab.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:3616",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3616"
+      },
+      {
+        "label": "UniProt P12318",
+        "url": "https://www.uniprot.org/uniprotkb/P12318/entry"
+      },
+      {
+        "label": "NCBI Gene 2212",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2212"
+      },
+      {
+        "label": "Ensembl ENSG00000143226",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000143226"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "adcc-adcp-cdc"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "breast-her2-positive"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: CIViC lists 1 therapies; CIViC holds 2 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "FCGR2A",
+    "role": [
+      "drug-target",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:3616",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3616",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P12318",
+        "url": "https://www.uniprot.org/uniprotkb/P12318/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene FCGR2A",
+        "url": "https://civicdb.org/features/1842",
+        "note": "2 evidence items, 0 assertions, 2 variants; diseases: Breast Cancer, HER2 Positive Breast Cancer (GraphQL API, CC0)"
+      }
+    ],
+    "distribution": "one-type",
+    "specificityNote": "Specificity not established: no corpus medicine is aimed at it and the catalogues give it only the roles drug-target, biomarker; HPA finds the RNA tissue enhanced, which says where the protein sits but not whether the tumour differs from normal tissue. HPA FCGR2A: RNA tissue enhanced (lymphoid tissue 113 nTPM, placenta 127 nTPM); blood lineage lineage enriched (granulocytes 2,531 nTPM); high antibody staining in 2 normal tissues. Distribution: 1 cancer family in the corpus carries a prevalence row, label threshold or catalogue link for it (Breast cancer (all types)); Open Targets associates it with 0 specific cancer types at or above 0.5. (No rule of scripts/fetch-target-specificity.ts fired.)",
+    "specificitySources": [
+      {
+        "label": "Human Protein Atlas FCGR2A tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000143226-FCGR2A/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000143226 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000143226/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:3616",
+    "ensembl": "ENSG00000143226",
+    "uniprot": "P12318",
+    "entrez": "2212",
+    "firstDescribed": 1987,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Stuart S.G. et al, J. Exp. Med, 1987, \"Isolation and expression of cDNA clones encoding a human receptor for IgG (Fc gamma RII)\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/2824655/",
+    "biology": "Binds to the Fc region of immunoglobulins gamma. Low affinity receptor. By binding to IgG it initiates cellular responses against pathogens and soluble antigens. Promotes phagocytosis of opsonised antigens. Location: Cell membrane (UniProt). Locus 1q23.3 (HGNC).",
+    "whereFound": [
+      "Breast cancer: CIViC evidence names this disease",
+      "HER2-positive breast cancer: CIViC evidence names this disease"
+    ],
+    "targetClass": "other",
+    "prevalence": []
+  },
+  {
+    "id": "fcgr2b",
+    "kind": "target",
+    "name": "FCGR2B",
+    "aka": [
+      "Fc gamma receptor IIb",
+      "Low affinity immunoglobulin gamma Fc region receptor II-b",
+      "CD32",
+      "CD32B",
+      "FcgammaRIIb",
+      "FcGRIIB",
+      "FCG2",
+      "FCGR2"
+    ],
+    "tldr": "FCGR2B encodes CD32B, an IgG Fc receptor that can restrain activation signals. Receptor abundance alone does not measure its effect in a tumour.",
+    "summary": "Receptor for the Fc region of complexed or aggregated immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B-cells.\n\nCIViC holds 1 clinical evidence item and 0 assertions across 1 variant. Open Targets scores its association with cancer at 0.66 (direct and indirect evidence; datatypes literature 0.95, animal model 0.42, genetic association 0.36, somatic mutation 0.95). IntOGen calls it a driver in 1 cohort (0 activating, 1 loss-of-function), covering Malignant Lymphoma.",
+    "asOf": "2026-11-09",
+    "links": [
+      {
+        "label": "HGNC HGNC:3618",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3618"
+      },
+      {
+        "label": "UniProt P31994",
+        "url": "https://www.uniprot.org/uniprotkb/P31994/entry"
+      },
+      {
+        "label": "NCBI Gene 2213",
+        "url": "https://www.ncbi.nlm.nih.gov/gene/2213"
+      },
+      {
+        "label": "Ensembl ENSG00000072694",
+        "url": "https://www.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000072694"
+      }
+    ],
+    "tags": [
+      "cancer-genes-wave"
+    ],
+    "related": [
+      "civic",
+      "open-targets",
+      "intogen",
+      "adcc-adcp-cdc",
+      "isotypes-and-fc-silencing"
+    ],
+    "cancers": [
+      "breast-cancer",
+      "non-hodgkin-lymphoma"
+    ],
+    "sections": [],
+    "technologies": [],
+    "targets": [],
+    "drugs": [],
+    "companies": [],
+    "institutions": [],
+    "pathways": [],
+    "terms": [],
+    "trials": [],
+    "people": [],
+    "bottlenecks": [],
+    "keyPapers": [],
+    "journals": [],
+    "dependsOn": [],
+    "notes": [
+      "Written by scripts/fetch-cancer-genes.ts from CIViC, Open Targets, IntOGen, HGNC and UniProt; the function text is UniProt's, condensed and in UK spelling. Roles: IntOGen calls it a loss-of-function (LoF) driver in 1 cohort; CIViC holds 1 clinical evidence items on its variants. Evidence tier \"clinical-evidence\" is the strongest of those signals.",
+      "Prevalence not recorded: none of the sources gives a positivity rate.",
+      "The short definition describes the protein function checked in the reviewed human UniProt function paragraph. Earlier cancer-catalogue role labels and evidence tiers retain their stated source scope and do not define every normal molecular function."
+    ],
+    "provenance": {
+      "editedBy": "Systematic education audit",
+      "editedOn": "2026-11-09",
+      "note": "Antigen/Fc teaching context and related links added. Earlier catalogue fields, roles and evidence retain their original 2026-09-23 source scope; this is not a re-verification of every catalogue claim."
+    },
+    "symbol": "FCGR2B",
+    "role": [
+      "tumour-suppressor",
+      "biomarker"
+    ],
+    "evidenceTier": "clinical-evidence",
+    "sources": [
+      {
+        "label": "HGNC HGNC:3618",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:3618",
+        "note": "approved symbol, name, aliases, locus and cross-references (hgnc_complete_set.txt)"
+      },
+      {
+        "label": "UniProt P31994",
+        "url": "https://www.uniprot.org/uniprotkb/P31994/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene FCGR2B",
+        "url": "https://civicdb.org/features/1843",
+        "note": "1 evidence items, 0 assertions, 1 variants; diseases: Breast Cancer (GraphQL API, CC0)"
+      },
+      {
+        "label": "Open Targets ENSG00000072694",
+        "url": "https://platform.opentargets.org/target/ENSG00000072694/associations",
+        "note": "association with cancer (MONDO_0004992) 0.66; per-cancer scores at or above 0.5: breast cancer 0.50 (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen FCGR2B",
+        "url": "https://www.intogen.org/search?gene=FCGR2B",
+        "note": "driver in 1 cohort (Act 0, LoF 1); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      }
+    ],
+    "specificity": "tumour-specific",
+    "distribution": "few-types",
+    "specificityNote": "Tumour-specific alteration: the catalogues call it a tumour suppressor (IntOGen finds it knocked out more often than chance); what a medicine would aim at or exploit is the altered form or its loss, absent from normal cells; no corpus medicine is aimed at it yet. HPA FCGR2B: RNA tissue enriched (placenta 378 nTPM); high antibody staining in 1 normal tissue. Distribution: 2 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Breast cancer (all types), Lymphoma); Open Targets associates it with 0 specific cancer types at or above 0.5. (Rule 6 of scripts/fetch-target-specificity.ts.)",
+    "specificitySources": [
+      {
+        "label": "UniProt P31994",
+        "url": "https://www.uniprot.org/uniprotkb/P31994/entry",
+        "note": "protein name, function text, keywords and locations (REST API)"
+      },
+      {
+        "label": "CIViC gene FCGR2B",
+        "url": "https://civicdb.org/features/1843",
+        "note": "1 evidence items, 0 assertions, 1 variants; diseases: Breast Cancer (GraphQL API, CC0)"
+      },
+      {
+        "label": "IntOGen FCGR2B",
+        "url": "https://www.intogen.org/search?gene=FCGR2B",
+        "note": "driver in 1 cohort (Act 0, LoF 1); Compendium_Cancer_Genes.tsv release 20240920, CC0 1.0"
+      },
+      {
+        "label": "Human Protein Atlas FCGR2B tissue",
+        "url": "https://www.proteinatlas.org/ENSG00000072694-FCGR2B/tissue",
+        "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+      },
+      {
+        "label": "Open Targets ENSG00000072694 associations",
+        "url": "https://platform.opentargets.org/target/ENSG00000072694/associations",
+        "note": "cancer associations at or above 0.5 (CC0)"
+      }
+    ],
+    "hgnc": "HGNC:3618",
+    "ensembl": "ENSG00000072694",
+    "uniprot": "P31994",
+    "entrez": "2213",
+    "firstDescribed": 1989,
+    "firstDescribedBasis": "sequence",
+    "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Stuart S.G. et al, EMBO J, 1989, \"Human IgG Fc receptor (hFcRII; CD32) exists as multiple isoforms in macrophages, lymphocytes and IgG-transporting placental epithelium\".",
+    "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/2531080/",
+    "biology": "Receptor for the Fc region of complexed or aggregated immunoglobulins gamma. Low affinity receptor. Involved in a variety of effector and regulatory functions such as phagocytosis of immune complexes and modulation of antibody production by B-cells. Binding to this receptor results in down-modulation of previous state of cell activation triggered via antigen receptors on B-cells (BCR), T-cells (TCR) or via another Fc receptor. Isoform IIB1 fails to mediate endocytosis or phagocytosis. Isoform IIB2 does not trigger phagocytosis. Location: Cell membrane (UniProt). Locus 1q23.3 (HGNC).",
+    "whereFound": [
+      "Breast cancer: Open Targets association 0.50 with breast cancer (MONDO_0007254); CIViC evidence names this disease",
+      "Non-Hodgkin lymphoma: IntOGen driver in 1 cohort (MLYM)"
+    ],
+    "targetClass": "tumor-suppressor",
+    "prevalence": []
+  }
+];

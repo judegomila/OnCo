@@ -161,16 +161,81 @@ const SRC = {
 // ======================= TERMS =======================
 /** The ten things the breast glossary did not say, written once for the whole family. */
 export const breastCoreTerms: TermInput[] = [
-  { id: "terminal-duct-lobular-unit", kind: "term", asOf, name: "Ducts, lobules and the terminal duct lobular unit", category: "Anatomy", wikipedia: W("Terminal_duct_lobular_unit"),
+  { id: "terminal-duct-lobular-unit", kind: "term", asOf: "2026-11-10", name: "Ducts, lobules and the terminal duct lobular unit", category: "Anatomy", wikipedia: W("Terminal_duct_lobular_unit"),
     aka: ["terminal duct lobular unit", "TDLU", "ducts and lobules", "milk ducts", "lobule", "breast lobule", "breast duct", "ductal", "lobular", "breast anatomy", "mammary gland"],
-    tldr: "The breast is a tree: fifteen to twenty branching duct systems, each ending in a cluster of milk-making sacs called a lobule. Almost every breast cancer starts at the junction between the smallest ducts and their lobule, which is why the two commonest kinds are called ductal and lobular.",
-    summary: "Each breast holds fifteen to twenty lobes, and each lobe is a branching system of ducts that ends in lobules, the grape-like clusters of acini that make milk. The junction where the smallest duct meets its lobule is the terminal duct lobular unit, and it is where almost all breast carcinoma and almost all of the benign lesions that mimic it arise. The rest of the breast is fat, fibrous tissue and skin, with lymphatic channels that drain mostly to the axilla and, from the inner part of the breast, to the internal mammary chain behind the ribs, which is why the armpit is examined and scanned at the first appointment.\n\nThe names of the two commonest types come from this anatomy, but they are misleading in an instructive way. Invasive carcinoma of no special type, still widely called invasive ductal carcinoma, does not arise in the large ducts, and invasive lobular carcinoma does not arise in the lobules: both begin in the terminal duct lobular unit, and the words describe what the tumour looks like down the microscope rather than where it started. The real difference is E-cadherin, the protein that glues cells to their neighbours. Lobular cancers have lost it, so they infiltrate in single files rather than forming a mass, which is why they are harder to feel, harder to see on a mammogram and harder to measure before surgery.\n\nMen have ducts too, and a small amount of breast tissue behind the nipple, but generally lack the terminal lobules, which is the reason the male breast cancer page gives for male breast cancer being almost always of no special type and lobular carcinoma in a man being very rare. The breast changes throughout life: it is densest in young women, involutes after the menopause, and density itself both raises risk and hides cancers on a mammogram.",
+    tldr: "Breast ducts connect to milk-producing acini, with supporting tissues around them. This anatomy helps interpret a sample but does not by itself establish cancer.",
+    summary: "The breast contains an interconnected duct-lobular epithelial system within connective and fatty tissue. A terminal duct with its associated acini forms a terminal duct lobular unit. Tissue compartments and their proportions matter when interpreting imaging, microscopy or bulk molecular measurements. Histological diagnosis, grade, receptor status and disease extent require their own evidence.\n\nNCI DCEG describes the TDLU as the origin of most breast cancer precursors and cancers. The names ductal and lobular are diagnostic morphology, not proof of an exact ancestral cell. Characteristic loss of E-cadherin in invasive lobular carcinoma reduces cell adhesion; diffuse growth in unconnected lines can make a lesion harder to feel or detect on imaging. The SEER description concerns this growth pattern rather than a universal test result for every lobular tumour.\n\nMale breasts have ducts and may have lobules, but far fewer than female breasts; NCI describes lobular cancer as rare in men. Breast tissue and mammographic density change over life. Greater density is associated with higher breast-cancer risk and can obscure cancers on a mammogram; increasing age and childbearing are associated with lower density, alongside other influences. Mammographic density, TDLU involution and histological diagnosis are different observations.",
     cancers: ["breast-cancer", "invasive-breast-carcinoma-no-special-type", "invasive-lobular-carcinoma", "male-breast-cancer"],
     terms: ["who-breast-classification", "carcinoma-in-situ", "lymph-node-status"],
-    related: ["carcinoma-in-situ", "lymph-node-status", "mammography", "sentinel-lymph-node-biopsy"],
+    related: [
+  "carcinoma-in-situ",
+  "lymph-node-status",
+  "mammography",
+  "sentinel-lymph-node-biopsy",
+  "myoepithelial-cells-and-basement-membrane",
+  "lymphatic-drainage-and-axilla"
+],
     sections: ["diagnostics"],
-    links: [SRC.who5, SRC.crukTypes, SRC.g148],
+    links: [
+  {
+    "label": "Tan et al., Histopathology 2020: the 2019 WHO classification of tumours of the breast (5th edition)",
+    "url": "https://doi.org/10.1111/his.14091"
   },
+  {
+    "label": "Cancer Research UK: types of breast cancer",
+    "url": "https://www.cancerresearchuk.org/about-cancer/breast-cancer/types"
+  },
+  {
+    "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+    "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+  },
+  {
+    "label": "UBC pathology: Cytodiagnosis of Breast Lesions, normal breast histology, page 22",
+    "url": "https://file.pathology.ubc.ca/BreastCytoBook.pdf"
+  },
+  {
+    "label": "NCI DCEG: terminal duct lobular unit involution",
+    "url": "https://dceg.cancer.gov/research/cancer-types/breast-cancer/tdlu-involution-with-komen"
+  },
+  {
+    "label": "NCI SEER mammary gland anatomy",
+    "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html"
+  },
+  {
+    "label": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/"
+  },
+  {
+    "label": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/"
+  },
+  {
+    "label": "NCI DCIS: ductal boundary and invasion",
+    "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis"
+  },
+  {
+    "label": "NCI male breast cancer anatomy",
+    "url": "https://www.cancer.gov/types/breast/male-breast-cancer"
+  },
+  {
+    "label": "NCI dense breasts",
+    "url": "https://www.cancer.gov/types/breast/screening/dense-breasts"
+  },
+  {
+    "label": "SEER invasive lobular carcinoma",
+    "url": "https://seer.cancer.gov/statfacts/html/ilc.html"
+  }
+],
+
+"notes": [
+  "The terminal duct lobular unit contains a terminal duct and its associated acini. Acini make milk during lactation; ducts carry it towards the nipple. Lobules and larger lobes are different levels of organisation. Their size and abundance vary with physiology and life stage; an illustrative branch count is not a fixed anatomical count. A schematic grouping bracket is an annotation, not a tissue capsule or basement membrane. NCI DCEG describes TDLU involution with physiological ageing and completion of childbearing as reductions in acini per unit and total unit counts. This is an observational normal-tissue description, not a diagnostic rule for an individual.",
+  "From a typical normal acinus lumen outward, distinguish luminal epithelial cells, living myoepithelial cells, extracellular basement membrane and surrounding stroma. Stroma includes connective tissue, fat, vessels and immune cells. A basement membrane is neither a cell layer nor the plasma membrane around one cell.",
+  "An epithelial marker or abundant epithelial RNA can come from normal epithelium. A sample richer in glands and poorer in stroma can change a bulk measurement without a change within either cell type. Imaging, tissue morphology and protein staining observe different scales; a normal-breast atlas is a reference, not a stand-alone cancer diagnosis.",
+  "A quadrant or clock position locates a lesion. It does not identify its ancestral cell, receptor class or invasiveness. Likewise, ductal and lobular diagnostic names do not prove the precise ancestral location, and anatomical luminal position does not assign a molecular luminal subtype. A milk-flow diagram is not a cancer-progression sequence.",
+  "Ducts are epithelium-lined channels connected to milk-producing acini in lobules. The TDLU is a tissue unit, not one cell or a molecular subtype. Epithelial tissue can be normal, in situ or invasive: DCIS remains within the ductal boundary, whereas invasion enters surrounding tissue. In a fictional bulk assay, abundant epithelial RNA cannot establish invasion; that distinction needs tissue organisation, not simply epithelial abundance.",
+  "Milk ducts and lymphatic drainage are different networks. A quadrant or clock address supplies neither a drainage map nor lineage. Normal-anatomy drawings simplify scale, cell counts and branching; selected source text and captions support the arrangement illustrated, not a diagnosis or a universal number of cells."
+]
+},
 
   { id: "who-breast-classification", kind: "term", asOf, name: "The WHO classification of breast tumours, and what the 6th edition changed", category: "Pathology", wikipedia: W("WHO_Blue_Books"),
     aka: ["WHO classification of tumours of the breast", "WHO breast classification", "WHO 5th edition breast", "WHO 6th edition breast", "blue book", "WHO blue book breast", "breast tumour classification", "special type", "no special type", "NST"],
@@ -184,16 +249,50 @@ export const breastCoreTerms: TermInput[] = [
     notes: ["Why the corpus still cites the fifth edition. The pages in this family were written against the edition the pathologist follows, not the newest one published. Where the sixth edition changes a name or a rule, this term records the change and the page it affects keeps the fifth-edition wording until the UK dataset moves, so that the page and the report in the reader's hand agree."],
   },
 
-  { id: "nottingham-grade", kind: "term", asOf, name: "Nottingham grade (breast cancer grade 1, 2 and 3)", category: "Pathology", wikipedia: W("Breast_cancer_classification"),
+  { id: "nottingham-grade", kind: "term", asOf: "2026-11-10", name: "Nottingham grade (breast cancer grade 1, 2 and 3)", category: "Pathology", wikipedia: W("Breast_cancer_classification"),
     aka: ["Nottingham grade", "Nottingham grading system", "Nottingham histological grade", "Elston-Ellis grade", "Elston and Ellis", "Bloom-Richardson", "Bloom and Richardson", "Scarff-Bloom-Richardson", "SBR grade", "breast cancer grade", "grade 1 breast cancer", "grade 2 breast cancer", "grade 3 breast cancer", "tubule formation", "nuclear pleomorphism", "mitotic count", "histological grade breast"],
-    tldr: "The grade on a breast report is a sum of three scores: how much of the tumour still forms tubes, how ugly its nuclei are, and how many cells are caught dividing. Each is scored 1 to 3, and the total of 3 to 9 becomes grade 1, 2 or 3. Grade says how the cancer behaves, not how far it has spread.",
-    summary: "The method is the one Elston and Ellis described in 1991, a deliberately more objective revision of Bloom and Richardson's grade, and UK practice allows no other: the dataset in force says that grading systems other than this one should not be used. Three features are scored from 1 to 3. Tubule and acinar formation: score 1 if more than 75 percent of the tumour forms tubular structures with a clear central lumen, 2 if 10 to 75 percent, 3 if under 10 percent. Nuclear atypia and pleomorphism: score 1 for small regular nuclei up to about twice the diameter of a red blood cell, rising to 3 for obvious atypia. Mitotic count: counted in a defined field area and standardised to the microscope's field diameter, because the number of cells in a high-power field varies between microscopes. The three scores are added: 3, 4 or 5 is grade 1, 6 or 7 is grade 2, 8 or 9 is grade 3. Tubule formation is judged across the whole tumour; nuclei and mitoses are judged in the worst area, usually at the edge.\n\nThe grade earns its place on the report. In the Nottingham/Tenovus study, grade was assessed in 1,831 of more than 2,200 patients with primary operable breast cancer entered since 1973, and grade 1 tumours had significantly better survival than grade 2 and 3 (p less than 0.0001) (Elston 1991). Grading is required for every invasive carcinoma, including the rare special types and including adenoid cystic carcinoma, because prognosis varies by grade within a type. For audit it is mandatory to record the three component scores and not only the total.\n\nTwo cautions a reader should have. First, the grades are not meant to come out in equal thirds: the dataset gives the expected ratio of grades 1, 2 and 3 as about 2:3:5 in symptomatic breast cancer and about 3:5:2 in screen-detected breast cancer, and a unit whose distribution departs far from that is told to review its fixation and grading protocols. A grade 3 is therefore commoner in a cancer found because of a lump than in one found by screening. Second, the grade on the needle biopsy and the grade on the surgical specimen agree only about 70 percent of the time, and where they differ the surgical specimen is normally used for management; if a mixed tumour turns out to have a higher-grade component that the biopsy missed, the dataset asks for the receptor assays to be repeated as well.",
+    tldr: "Nottingham grade combines three microscopic feature scores into grade 1, 2 or 3. It describes invasive breast tissue and does not by itself establish disease extent.",
+    summary: "Nottingham histological grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 are grade 1, 6 to 7 grade 2 and 8 to 9 grade 3. CAP records component scores and the overall grade when grading is applicable; its template excludes microinvasion-only cases from grading. Mitotic assessment depends on a defined observation area and microscope calibration. In Elston and Ellis' 1991 Nottingham/Tenovus study, 1,831 of more than 2,200 patients with primary operable breast cancer were graded; grade 1 had better survival than grades 2 and 3 (P less than 0.0001). This observational prognostic evidence does not turn grade into stage or a treatment-benefit estimate.",
     cancers: ["breast-cancer", "invasive-breast-carcinoma-no-special-type", "invasive-lobular-carcinoma", "tnbc", "breast-hr-positive"],
     terms: ["nottingham-prognostic-index", "grade-stage-receptor-breast", "tumour-grade", "breast-tumour-size-on-the-report", "who-breast-classification"],
     related: ["tumour-grade", "grade-vs-stage", "tumour-differentiation", "digital-pathology-ai"],
     sections: ["diagnostics"],
-    links: [SRC.g148, SRC.elston1991, SRC.who5],
-    notes: ["Grade is not the grade of a side effect. A treatment side effect is also given a grade, from 1 to 5, on a completely separate scale (see `toxicity-grade`). A grade 3 cancer and a grade 3 side effect have nothing to do with each other."],
+    links: [
+  {
+    "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+    "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+  },
+  {
+    "label": "Elston and Ellis, Histopathology 1991;19:403 to 410: pathological prognostic factors in breast cancer, the value of histological grade, with long-term follow-up of 1,831 graded patients",
+    "url": "https://doi.org/10.1111/j.1365-2559.1991.tb00229.x"
+  },
+  {
+    "label": "Tan et al., Histopathology 2020: the 2019 WHO classification of tumours of the breast (5th edition)",
+    "url": "https://doi.org/10.1111/his.14091"
+  },
+  {
+    "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+    "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+  },
+  {
+    "label": "NCI tumour grade",
+    "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade"
+  },
+  {
+    "label": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+    "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq"
+  }
+],
+    notes: [
+  "Grade is not the grade of a side effect. A treatment side effect is also given a grade, from 1 to 5, on a completely separate scale (see `toxicity-grade`). A grade 3 cancer and a grade 3 side effect have nothing to do with each other.",
+  "Nottingham grading of invasive breast carcinoma combines tubule formation, nuclear pleomorphism and recognisable mitotic figures. Each receives 1 to 3 points: totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Thus assigned components 2, 3 and 3 sum to 8, grade 3; the sum is not a percentage.",
+  "Mitotic scoring uses ten consecutive high-power fields in the most mitotically active region, with field size calibrated for the microscope. Count recognisable division, excluding dark, fragmented or apoptotic nuclei. Equal raw counts over different observation areas need not receive the same score. Ki-67 staining does not replace the mitotic component.",
+  "Histological type describes morphology, grade scores microscopic features, and anatomical stage describes extent. Grade 3 does not mean stage III, low grade does not mean benign, and invasive Nottingham grading differs from DCIS nuclear grading. Grade can contribute to prognostic staging without becoming another measure of spread.",
+  "Retain the biopsy or resection, tissue region and treatment time point when comparing grades. Heterogeneity, limited tissue and treatment effects can restrict comparison. One section does not represent every tumour region, and grade alone supplies neither nodal/distant status nor a personal treatment-benefit estimate.",
+  "A nucleus contains a cell's genetic material. Nuclear pleomorphism means variation in nuclear size and appearance; a mitotic figure is a cell visibly dividing. These microscopic observations differ from Ki-67 protein staining, and a dark or dying nucleus should not simply be counted as division.",
+  "In CAP 4.11, tubule-formation scores 1, 2 and 3 correspond to greater than 75%, 10 to 75%, and less than 10% of tumour area forming glandular or tubular structures. Its nuclear descriptors compare with benign epithelial nuclei, alongside chromatin, nucleoli and variation in size and shape; a red-blood-cell diameter is not the comparator in that template. The reporting template marks microinvasion-only cases as not graded.",
+  "RCPath's November 2024 G148 dataset specifies the Nottingham method and recording its individual components for audit. It describes approximate grade 1:2:3 distributions of 2:3:5 in symptomatic and 3:5:2 in screen-detected cancers, as audit context rather than diagnostic quotas. It reports about 70% agreement between core-biopsy and corresponding surgical grades. Tubule assessment covers the tumour overall, while pleomorphism and mitoses use the worst area, often the periphery. If a higher-grade or morphologically different component in the resection was absent from the preoperative sample, the dataset recommends repeat receptor assays. These are source-specific reporting instructions, not an individual prognosis."
+],
   },
 
   { id: "nottingham-prognostic-index", kind: "term", asOf, name: "Nottingham Prognostic Index (NPI), and PREDICT", category: "Clinical", wikipedia: W("Nottingham_Prognostic_Index"),
@@ -219,15 +318,17 @@ export const breastCoreTerms: TermInput[] = [
     links: [SRC.g148, SRC.tnm9, SRC.uicc, SRC.ng101],
   },
 
-  { id: "grade-stage-receptor-breast", kind: "term", asOf, name: "Grade, stage and receptor status: three different things on one breast report", category: "Pathology",
+  {
+    notes:["Consider a fictional pretreatment core with invasive carcinoma of no special type, Nottingham components 3 + 3 + 3 = 9, ER 0%, PR 0%, HER2 IHC 2+ with a completed integrated ISH-negative interpretation, Ki-67 about 80%, stromal TILs 50%, and no DCIS seen. The assigned grade is 3. The specified final receptor results fit the ordinary triple-negative and HER2-low categories; IHC 2+ alone would still need workup. This is an invented interpretation exercise, not a real specimen or evidence of eligibility for a medicine.","In that example, Ki-67 about 80% refers to eligible stained tumour-cell nuclei, while sTILs 50% estimates the defined infiltrate within eligible stromal area. Neither is an absolute immune-cell count, a daily growth rate or a forecast. No DCIS seen concerns the sampled core. The findings do not complete stage or show absence elsewhere. In a second fictional adequately controlled report, ER 5%, PR 0% and HER2 IHC 0 mean ER-low-positive disease, not TNBC. ASCO/CAP acknowledges limited endocrine-benefit evidence in the 1% to 10% group; that uncertainty does not make the ER result negative."],
+    id: "grade-stage-receptor-breast", kind: "term", asOf: "2026-11-11", name: "Grade, stage and receptor status: three different things on one breast report", category: "Pathology",
     aka: ["grade stage receptor", "grade and stage and receptors", "what my breast pathology report means", "breast pathology report", "grade versus stage breast", "receptor status versus stage", "three numbers on my report"],
-    tldr: "A breast report gives three answers to three different questions: the grade says how the cells behave, the stage says how far the cancer has gone, and the receptors say which drugs it will respond to. None of the three can be worked out from the others, and mixing them up is the commonest confusion there is.",
-    summary: "Grade is how abnormal the cells look: three features scored and added into grade 1, 2 or 3 (see `nottingham-grade`). Stage is how much cancer there is and how far it has travelled: the size of the tumour, whether it has reached the lymph nodes, whether it has gone further, written as a TNM category and a stage from 0 to IV. Receptor status is what the cancer will respond to: whether its cells carry oestrogen and progesterone receptors and whether they carry too much HER2. Only the third chooses which treatment page you read. The first two decide how much treatment is needed and how likely it is to work.\n\nThe clearest demonstration that they are separate comes from the UK dataset itself. Setting out why the Nottingham Prognostic Index and PREDICT exist alongside TNM, it says the UICC staging system is required for the national dataset and applies to all breast cancers, but that 'its stratification power is limited in early stage disease, which comprises a large proportion of cases typically presenting in UK practice (i.e. small and/or node-negative tumours) and, crucially, does not incorporate histological grade or receptors status' (RCPath G148). A stage 1 breast cancer can be grade 1 and hormone receptor-positive, or grade 3 and triple-negative, and those two people have the same stage and very different diseases. The American prognostic stage exists to patch exactly this hole by folding grade and the receptors into the stage number, which is why a triple-negative grade 3 tumour generally carries a higher prognostic stage than its anatomical stage.\n\nThe practical consequence is the order in which the three arrive and the order in which they matter. The receptors arrive with the biopsy and choose the treatment route within days. The grade arrives with the biopsy and is confirmed, and sometimes changed, on the surgical specimen. The full stage is not known until the nodes have been examined, and sometimes not until scans are done, which is why an early conversation gives a plan rather than a stage. A fourth number, Ki-67, is sometimes quoted as well; it measures how many cells are dividing, it overlaps with the mitotic count already inside the grade, and the international working group that reviewed it accepted it as prognostic but found clinical utility only in a narrow group (see `ki-67-in-tnbc`).",
+    tldr: "Grade describes microscopic features, stage describes extent under a defined system, and receptor tests describe measured markers. Together with other evidence, these findings inform treatment without guaranteeing a drug response.",
+    summary: "Histological type, grade, receptor results and anatomical stage answer different questions. Nottingham grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Grade 3 is not stage III, and a Ki-67 index is a stained-nucleus fraction rather than an exact growth rate.\n\nClinical breast staging can use history, examination, imaging and biopsy evidence before surgery. Surgery-first pathological prognostic staging adds findings from removed breast tissue and nodes; it is not the same framework as post-neoadjuvant ypTNM. Some prognostic systems include grade and receptors alongside anatomical extent. Retain the system, edition and treatment setting rather than deriving a missing stage from grade alone or requiring surgery in every clinical setting.\n\nER, PR and HER2 results help define treatment questions within their tested disease setting. A positive receptor does not promise response, and neither grade nor stage alone determines treatment intensity or benefit. Retain the individual assays, controls and final integrated interpretation. A stromal TIL percentage and a Ki-67 percentage use different denominators and cannot stand in for receptor status, stage or a personal outcome probability.",
     cancers: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-breast-carcinoma-no-special-type"],
     terms: ["nottingham-grade", "tnm-breast-cancer-editions", "er-pr-scoring-breast", "her2-testing-uk-breast", "nottingham-prognostic-index", "ajcc-prognostic-stage-breast", "ki-67-in-tnbc"],
     related: ["grade-vs-stage", "tumour-grade", "cancer-stage", "hormone-receptor-status", "her2-positive"],
     sections: ["diagnostics"],
-    links: [SRC.g148, SRC.ng101, SRC.allison2020],
+    links: [SRC.g148, SRC.ng101, SRC.allison2020,{"label":"NCI: pathology report sections, final diagnosis and pending tests","url":"https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"},{"label":"NCI: clinical and surgery-first pathological breast staging","url":"https://www.cancer.gov/types/breast/stages"},{"label":"CAP: breast biomarker template, September 2026","url":"https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"},{"label":"Elston and Ellis: Nottingham grading study (1991)","url":"https://pubmed.ncbi.nlm.nih.gov/1757079/"},{"label":"Wolff et al.: combined HER2 IHC and ISH interpretation (2018)","url":"https://pubmed.ncbi.nlm.nih.gov/29846122/"},{"label":"Salgado et al.: stromal TIL area denominator (2015)","url":"https://pubmed.ncbi.nlm.nih.gov/25214542/"},{"label":"Nielsen et al.: Ki67 assessment recommendations (2021)","url":"https://pubmed.ncbi.nlm.nih.gov/33369635/"}],
   },
 
   { id: "er-pr-scoring-breast", kind: "term", asOf, name: "How ER and PR are scored on a breast report (Allred score, H score, and why PR is not a UK core item)", category: "Biomarkers",
@@ -242,15 +343,15 @@ export const breastCoreTerms: TermInput[] = [
     notes: ["Ductal carcinoma in situ is scored differently, or not at all. Assessing oestrogen receptor status in DCIS without an invasive component is not a mandatory item of the UK dataset, there is no consensus on a cut-off, and the recommendation is to use the same method and threshold as for invasive cancer if it is measured at all, which it is when endocrine treatment is being considered. There are no data supporting progesterone receptor in DCIS."],
   },
 
-  { id: "her2-testing-uk-breast", kind: "term", asOf, name: "HER2 testing in the UK: reflex ISH, the ratio against the copy number, and where the UK differs from ASCO/CAP", category: "Biomarkers",
+  { id: "her2-testing-uk-breast", kind: "term", asOf:"2026-11-09", name: "HER2 testing in the UK: reflex ISH, the ratio against the copy number, and where the UK differs from ASCO/CAP", category: "Biomarkers",
     aka: ["HER2 testing", "HER2 test", "HER2 IHC 2+", "reflex ISH", "dual-probe ISH", "HER2 CEP17 ratio", "HER2 copy number", "FISH group 2", "HER2 equivocal", "HER2 borderline", "HER2 heterogeneity", "UK HER2 recommendations", "chicken wire"],
-    tldr: "HER2 is scored 0 to 3+ on the stain; 3+ is positive, 0 and 1+ are negative, and 2+ goes on for a gene test. The UK reads one borderline gene result as positive where the American guideline reads it as negative, so the same tumour can be HER2-positive in Britain and HER2-negative in the United States.",
-    summary: "HER2 status has to be known for every invasive breast cancer, and the dataset puts the frequency of HER2 positivity in early breast cancer at 13 to 20 percent. The UK recommendation is a two-tier system: immunohistochemistry first, with reflex in situ hybridisation for the equivocal cases, or a one-tier in situ hybridisation strategy where the quality of fixation is doubtful. Only membrane staining of the invasive tumour is scored; cytoplasmic staining, staining of in situ disease and normal epithelium are not, and the staining that counts for 3+ must be intense and uniform, described in the dataset as resembling chicken wire. A score of 3+ is unequivocally positive, 0 and 1+ are negative, and 2+ is equivocal and mandates in situ hybridisation. Where technical problems stop either test being reported, the answer is indeterminate and the test is repeated, not guessed.\n\nThe UK recommendation is to use dual-probe in situ hybridisation and to report three numbers: the ratio of HER2 signals to chromosome 17 signals, the HER2 copy number and the chromosome 17 copy number, counted in 20 to 60 nuclei across at least three tumour fields. A ratio of 2.0 or more, or a mean HER2 copy number of 6 or more, is positive, and a copy number of 6 or more with a ratio below 2 is also positive. Then comes the divergence. Cases with a ratio of 2.0 or more but a HER2 copy number below 4, the group ASCO and CAP call FISH group 2, are classified as negative by the American guideline. The UK guidance keeps them positive, on the evidence of a retrospective series in which IHC 2+ tumours with a ratio of 2.0 or more and copy number below 4 responded to neoadjuvant therapy much as other tumours with a ratio of 2.0 or more did. So a report from a British laboratory and a report from an American one can disagree about the same tumour, and a patient reading American material about her own result should know it.\n\nThe rest of the guidance is about not being fooled. A borderline negative ratio of 1.8 to 1.99 on a needle biopsy should be repeated on the surgical specimen. HER2 should be reassessed on a surgical specimen if the biopsy was uninterpretable, if the invasive tumour on the core was too small, if the resected tumour looks morphologically different from the core, or if the core showed strong HER2 staining in under 10 percent of the invasive cancer, which may be genuine intratumoral heterogeneity. Pre-analytics matter more here than in almost any other test: the time between removing the tissue and putting it in formalin should be under an hour, cores need at least six hours of fixation and surgical specimens 24 to 72 hours, sections should be stained within a day or two of cutting because excessive drying loses HER2 expression, and decalcified bone biopsies may need the gene test because the acid damages the protein stain. As with the hormone receptors, the HER2 result from a commercial multigene assay must not be used to manage a patient.",
+    tldr: "Breast HER2 interpretation depends on the assay, scoring system and guideline. UK and U.S. guidance differ in some uncommon ISH cases; the concurrent protein-staining result matters.",
+    summary: "RCPath G148 version 3, dated November 2024, describes UK breast HER2 testing with immunohistochemistry followed by ISH for equivocal cases, or an ISH approach in specified circumstances. It calls for the HER2/chromosome-17 ratio, HER2 copy number and chromosome-17 copy number to be reported, with specimen quality, heterogeneity and final interpretation. An uninterpretable test must not be guessed to be negative.\n\nG148 retains UK ratio/copy-number conventions, including a positive classification for the uncommon IHC 2+ cases with HER2/CEP17 ratio at least 2.0 and average HER2 copy number below 4.0 discussed in that guidance. The September 2026 CAP breast template instead uses concurrent IHC and the specified recounting algorithm for uncommon groups 2 to 4. In U.S. group 2, IHC 0 to 2+ leads to a negative interpretation after the required workup, while IHC 3+ is positive. Thus, saying every U.S. group 2 case is negative loses an important condition.\n\nKeep the jurisdiction and guideline version with an interpretation. The September 2026 CAP template also records no detected membrane staining separately from faint membrane staining within the historical IHC 0 band. A reporting convention is different from a product-specific clinical indication, and neither a raw count nor a staining score alone establishes an individual treatment decision.",
     cancers: ["breast-cancer", "breast-her2-positive", "her2-low-metastatic-breast-cancer", "tnbc", "breast-hr-positive"],
     terms: ["her2-positive", "her2-low", "her2-low-and-trop2-adc-eligibility-tnbc", "er-pr-scoring-breast", "receptor-conversion-breast", "grade-stage-receptor-breast", "fish", "ihc"],
     related: ["her2-positive", "her2-low", "fish", "ihc", "co-amplification"],
     sections: ["diagnostics", "targeted-therapy"],
-    links: [SRC.g148, SRC.rakha2023, SRC.who6],
+    links: [{"label":"Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)","url":"https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"},{"label":"Rakha et al., Journal of Clinical Pathology 2023;76:217 to 227: UK recommendations for HER2 assessment in breast cancer, an update","url":"https://doi.org/10.1136/jcp-2022-208632"},{"label":"Quinn et al., Histopathology 2026;89(2):199 to 218: World Health Organization classification of tumours of the breast, 6th edition 2026","url":"https://doi.org/10.1111/his.70149"},{"label":"CAP breast biomarker template, September 2026: uncommon ISH groups and concurrent IHC","url":"https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"}],
   },
 
   { id: "receptor-conversion-breast", kind: "term", asOf, name: "Receptor conversion: when the receptors change between the primary and a recurrence", category: "Biomarkers",
@@ -294,17 +395,17 @@ const supplements: SpikeSupplement[] = [
 
   { id: "hormone-receptor-status", terms: ["er-pr-scoring-breast", "receptor-conversion-breast", "grade-stage-receptor-breast"], related: ["er-pr-scoring-breast"],
     links: [SRC.g148], notes: [
-      "How the number is produced, and why 90 percent and 100 percent mean the same thing. Only nuclear staining in the invasive part of the tumour is counted, and the UK dataset asks for a percentage with an intensity and, optionally, an Allred score out of 8 or an H score out of 300; there is no internationally agreed scoring method. With modern methods the distribution is bimodal, most tumours being either completely negative or stained in more than 70 percent of nuclei, so the difference between two high percentages is noise while a result in the 1 to 10 percent band is a different question (see `er-pr-scoring-breast` and `er-pr-negative-threshold`).",
-      "Progesterone receptor is not a mandatory item of the UK pathology dataset. ASCO and CAP state that only oestrogen receptor should be used to predict benefit from adjuvant endocrine therapy, and the RCPath writing group, finding no consensus, left progesterone receptor out of the mandated dataset while recommending it as good practice; NICE NG101 1.3.3 asks for it on every invasive cancer. Its value is prognostic within oestrogen receptor-positive disease, and as a quality check, because an oestrogen receptor-negative, progesterone receptor-positive result is at best very rare and should prompt review of the oestrogen receptor stain.",
+      "The RCPath dataset asks for the percentage of positive invasive tumour-cell nuclei and staining intensity, with an optional Allred score out of 8 or H score out of 300. These are different scales, not interchangeable percentages. Its description of a mostly bimodal ER distribution does not establish that every difference between 90% and 100% is noise or that those values measure equal signalling or treatment benefit. Controls and the low-positive range require their own interpretation.",
+      "The RCPath breast dataset describes PR testing as good practice but does not make it a mandatory dataset item. It notes its prognostic value in ER-positive invasive disease and the quality-control question raised by the rare ER-negative/PR-positive combination. The dataset also describes recommendations from ASCO/CAP and NICE; reporting requirements and prediction of endocrine benefit are distinct issues.",
     ] },
 
   { id: "her2-positive", terms: ["her2-testing-uk-breast", "receptor-conversion-breast"], related: ["her2-testing-uk-breast"],
     links: [SRC.g148, SRC.rakha2023], notes: [
-      "Britain and America classify one borderline group differently. Cases with a HER2 to chromosome 17 ratio of 2.0 or more but a HER2 copy number below 4 (ASCO and CAP's FISH group 2) are negative under the American guideline and positive under the UK recommendations, which the RCPath dataset in force restates and declines to change. The UK also asks for dual-probe in situ hybridisation with the ratio, the HER2 copy number and the chromosome 17 copy number all reported, and puts HER2 positivity at 13 to 20 percent of early breast cancer.",
+      "The RCPath UK breast dataset retains a different classification from ASCO/CAP for some dual-probe ISH group 2 cases: HER2/CEP17 ratio at least 2.0 with mean HER2 below 4 signals per cell. The UK dataset classifies these as positive. Under ASCO/CAP, concurrent IHC matters: IHC 3+ is positive, while IHC 2+ requires the specified recount and is negative if the same group persists; IHC 0 or 1+ is negative. Thus the US result is not uniformly negative from the ratio and copy number alone. The UK dataset asks for ratio and mean HER2 and CEP17 signals, with the guideline and specimen context retained.",
     ] },
 
   { id: "her2-low", terms: ["her2-testing-uk-breast", "who-breast-classification"], links: [SRC.who6], notes: [
-      "The classification has caught up with the drugs. The sixth edition of the WHO Classification of Tumours of the Breast (April 2026) updates the HER2 reporting categories after DESTINY-Breast04 and DESTINY-Breast06, making the distinction between no membrane staining at all and any membrane staining a reporting requirement rather than a research nicety, because that boundary now decides eligibility for trastuzumab deruxtecan (Quinn 2026).",
+      "The 2026 WHO review describes changes in HER2 reporting after DESTINY-Breast04 and DESTINY-Breast06. The September 2026 CAP template distinguishes score 0 with no detected membrane staining from score 0+ with faint incomplete membrane staining in 10 percent or fewer tumour cells. The template itself is not required for accreditation. The reporting category, the drug label and an individual’s clinical eligibility are separate; not every trace-staining result in every breast-cancer setting has the same treatment implication.",
     ] },
 
   { id: "tumour-grade", terms: ["nottingham-grade", "grade-stage-receptor-breast"], related: ["nottingham-grade"],
@@ -318,8 +419,8 @@ const supplements: SpikeSupplement[] = [
 
   { id: "ajcc-prognostic-stage-breast", terms: ["tnm-breast-cancer-editions", "grade-stage-receptor-breast"], related: ["tnm-breast-cancer-editions"],
     links: [SRC.g148, SRC.tnm9], notes: [
-      "Why a UK report does not carry it. The Royal College of Pathologists dataset in force stages against UICC TNM 8, reprints it as its own appendix, and warns that 'it is recommended to use UICC TNM 8 (not AJCC TNM 8) as there are significant differences between the two staging systems'. NICE NG101 names neither edition nor the prognostic stage. The ninth edition of UICC TNM, in force from 1 January 2026, leaves the breast classification unchanged and clarifies only the post-treatment yp classification (Brierley 2026).",
-    ] },
+  "RCPath's November 2024 G148 dataset, Appendix D, recommends UICC TNM 8 rather than AJCC TNM 8 because the systems differ. This is the named dataset's reporting instruction, not evidence that every UK report omits prognostic staging. An anatomical UICC category alone does not establish an AJCC prognostic group; the latter also requires its specified grade, receptor and assessment inputs."
+] },
 
   { id: "carcinoma-in-situ", terms: ["tnm-breast-cancer-editions", "terminal-duct-lobular-unit"], cancers: ["lobular-carcinoma-in-situ"],
     notes: ["How in-situ disease is written in a breast stage. Tis carries the type in brackets: Tis (DCIS), Tis (LCIS), or Tis (Paget's) for Paget disease of the nipple with no underlying carcinoma. A carcinoma in the breast that happens to have Paget disease over the nipple is staged on the carcinoma, with the Paget disease noted."] },
@@ -442,14 +543,14 @@ const her2PositivePatch: Spike["patch"] = {
 };
 
 const tnbcPatch: Spike["patch"] = {
-  asOf,
+  asOf: "2026-11-11",
   aka: ["ER negative PR negative HER2 negative", "all three receptors negative", "receptor negative breast cancer", "grade 3 triple negative breast cancer", "ER- PR- HER2- breast cancer"],
   terms: ["grade-stage-receptor-breast", "nottingham-grade", "er-pr-scoring-breast", "her2-testing-uk-breast", "receptor-conversion-breast", "tnm-breast-cancer-editions", "who-breast-classification", "nottingham-prognostic-index"],
   // SRC.seerSubtypes is not repeated here: src/data/spikes/tnbc-core.ts already carries the same SEER
   // breast-subtypes URL on this record under its own label, and two labels on one URL is a duplicate React key.
-  links: [SRC.g148],
+  links: [SRC.g148, { label: "NCI: tumor grade and its relation to other clinical features", url: "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade" }],
   notes: [
-    "What this page is called on a report, and why grade 3 does not send you anywhere else. Triple-negative means the oestrogen receptor under 1 percent, the progesterone receptor under 1 percent and HER2 scored 0 or 1+, or 2+ without amplification. Most triple-negative cancers are also grade 3, and a grade is not a page: someone told 'grade 3, triple negative' has been told one thing that chooses the page and one thing that does not. Grade 3 is expected here rather than alarming on top of the diagnosis, and the grade still matters, because it feeds the Nottingham Prognostic Index and the American prognostic stage. An oestrogen receptor figure of 1 to 10 percent is not triple-negative on paper but behaves like it, and those patients are excluded from most triple-negative trials.",
+    "Receptor classification, grade and stage describe different features. Triple-negative refers to the ER, PR and HER2 test results; grade describes microscopic features, and stage describes extent together with the factors in the applicable staging system. A grade does not replace receptor testing or establish an individual prognosis. ER 1 to 10 percent is ER Low Positive under ASCO/CAP criteria, with limited endocrine-benefit evidence; it should not be relabelled ER-negative from an average cohort comparison. Trial entry rules require the actual protocol.",
   ],
 };
 
@@ -477,7 +578,7 @@ const lcisPatch: Spike["patch"] = {
 };
 
 const nstPatch: Spike["patch"] = {
-  asOf,
+  asOf: "2026-11-10",
   aka: ["ordinary breast cancer", "usual type breast cancer", "no special type", "NST breast cancer", "IDC NST"],
   terms: ["who-breast-classification", "nottingham-grade", "grade-stage-receptor-breast", "terminal-duct-lobular-unit", "breast-tumour-size-on-the-report"],
   // SRC.who5 is not repeated here: src/data/cancers-wave4-breast.ts already carries the Tan 2020 DOI on this

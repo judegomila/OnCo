@@ -1,0 +1,30 @@
+{
+  "gaps": [
+    {
+      "id": "blood-semantic-acceptance",
+      "scope": "integration",
+      "remaining": "Complete coordinator source-to-field acceptance for all 170 worker rows and 97 independent units, retaining their different granularities and every source qualification. No new full-page credit yet."
+    },
+    {
+      "id": "garcia-leadtime-analysis-denominator",
+      "scope": "source",
+      "remaining": "The exact lead-time estimator denominator and supplement handling are not established from the accessible Results passage. The overall cohort size of 144 is explicitly not presented as the number of completed intervals."
+    },
+    {
+      "id": "diehl-supplement",
+      "scope": "source access",
+      "remaining": "Supplementary Figure 2 is unread; the 114-minute statement retains the independent reviewer's Results-text reading and single-subject scope."
+    },
+    {
+      "id": "historical-and-guideline-fulltexts",
+      "scope": "source depth",
+      "remaining": "Steensma 2015 full text remains unavailable, with WHO 2022 used as an explicitly dated alternative definition. Other inherited abstracts and targeted passages are not upgraded to whole-document reads."
+    },
+    {
+      "id": "blood-final-release",
+      "scope": "publication",
+      "remaining": "No main merge, deployment, final whole-corpus re-audit or new named language/expert sign-off."
+    }
+  ],
+  "wholeGoalRemainsActive": true
+}

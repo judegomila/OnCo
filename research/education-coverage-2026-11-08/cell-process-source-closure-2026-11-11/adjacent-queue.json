@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "id": "guide-hr-waiting-end-tail",
+      "owner": "Guide HR figure",
+      "status": "artwork-owner-follow-up",
+      "finding": "Step 2 no longer shows the protruding 3-prime tail at the waiting end that step 1 prepared."
+    },
+    {
+      "id": "guide-autophagy-colour-convention",
+      "owner": "Guide autophagy caption",
+      "status": "optional-caption-owner-decision",
+      "finding": "Colours are conventions; size/shape are already called schematic."
+    },
+    {
+      "id": "therapy-platinum-adduct-topology",
+      "owner": "Therapy/source review",
+      "status": "pending-independent-review",
+      "finding": "New support brief specifies adduct topology and no alkyl transfer; this role review provides no scientific acceptance."
+    },
+    {
+      "id": "support-copy-custody-specificity",
+      "owner": "Guide provenance records",
+      "status": "custody-follow-up",
+      "finding": "Three copied palette bodies contain clauses irrelevant to the second named image. Preserve as provenance limitations, not measured figure defects."
+    }
+  ]
+}

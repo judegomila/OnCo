@@ -1,0 +1,428 @@
+{
+  "distinctFigureConcepts": 11,
+  "themeVersionEntries": 44,
+  "requirements": [
+    {
+      "id": "tissue-figure:h-and-e-section-shapes-and-setting-v1",
+      "requirement": "Interpret section-level nuclei, cell groups and architecture as morphology in sampled tissue, rather than a named receptor measurement or all tissue depths.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "h-and-e-staining",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "ed8051d5773361c19bd77e8b7e96c8e3bbb3726ed271f808162f916338503652",
+          "supportingExcerpt": "Haematoxylin highlights nuclei and other nucleic-acid-rich structures; eosin broadly stains cytoplasm and extracellular material. These colours show morphology and architecture rather than a named DNA sequence or protein. Molecular predictions from H&E require their own validation.",
+          "passageSha256": "476a1c74a6076a241a113571db0d15931034d8f41226a46f18b132c0fd74e9d5",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "h-and-e-staining",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "ed8051d5773361c19bd77e8b7e96c8e3bbb3726ed271f808162f916338503652",
+          "supportingExcerpt": "A section represents one depth and region. Record block, section, preservation and artifacts; a nearby section may contain a different cell mixture. Fictional example: pink material around tumour nests does not prove receptor R expression. A specific validated assay would be needed to identify that receptor.",
+          "passageSha256": "f4463697559a379becc81c115f45435469ab56f5d3c45a7d19352cf46bc7b298",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "h-and-e-staining",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "ed8051d5773361c19bd77e8b7e96c8e3bbb3726ed271f808162f916338503652",
+          "supportingExcerpt": "Morphology includes nuclei, cell groupings, spaces, tissue boundaries and necrosis. Appearance alone does not identify every cell-death mechanism. A represented duct interface may help distinguish in-situ from invasive growth; difficult cases can require additional stains and clinical context. Grade describes selected appearance features; stage describes disease extent.",
+          "passageSha256": "36bee5ee53b40defbd77018fc7e9280f365cd8707b1f6ce80a6c8cedb5864826",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "h-and-e-staining",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "ed8051d5773361c19bd77e8b7e96c8e3bbb3726ed271f808162f916338503652",
+          "supportingExcerpt": "Like a map of buildings, H&E shows arrangement rather than every activity inside each cell. A large nucleus or a single coloured pixel cannot establish the whole diagnosis. H&E supplies the sample context for molecular testing, including scar, necrosis or an unexpected mixture of cells.",
+          "passageSha256": "66dcb6abdd5f88c03da45fcddc8033e920676152ff19f2a1ba443fd84487e999",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:ihc-intensity-distribution-and-positive-fraction-v1",
+      "requirement": "In the fictional 100-cell grouping, 50% positive and H-score 110 use different conventions. Grouping by intensity is not spatial tissue evidence; Allred is separate and none is a treatment cutoff.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "ihc",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "1043bb911ecbbeb7d3c2dae7be623625c0cd0c11e2a5fcfd04bf77d3bf106383",
+          "supportingExcerpt": "There is no universal IHC scoring scale or positivity threshold. Retain antibody clone, retrieval and detection method, controls, eligible cells, subcellular location, intensity, distribution and intended use. A research stain does not automatically replace a clinical selection assay.",
+          "passageSha256": "a819a6286364fd958041ea0d15b604159cdb4d29bd5fbbbe9709df648b46d17c",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "ihc",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "1043bb911ecbbeb7d3c2dae7be623625c0cd0c11e2a5fcfd04bf77d3bf106383",
+          "supportingExcerpt": "An H-score under the intensity-weighted convention is weak-cell percentage plus twice moderate-cell percentage plus three times strong-cell percentage, on a 0 to 300 scale. Fictional example: 50 unstained, 10 weak, 20 moderate and 20 strong cells out of 100 give 50% positive and H-score 110. Neither is a molecule count.",
+          "passageSha256": "338e625e9504d22770109d47802b6334d23543ae894ed721e4ca79f03e7b7801",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "ihc",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "1043bb911ecbbeb7d3c2dae7be623625c0cd0c11e2a5fcfd04bf77d3bf106383",
+          "supportingExcerpt": "In the conventional Allred scheme, proportion categories are 0 for no positive cells, 1 for less than 1%, 2 for 1% to 10%, 3 for 11% to 33%, 4 for 34% to 66% and 5 for 67% to 100%. Intensity is 0 for absent staining or 1, 2 and 3 for weak, moderate and strong staining. The total is 0 or 2 to 8. In a fictional separate example, 30% positive cells with moderate staining give 3 + 2 = 5. These integer bins are a named convention, not a universal positivity rule.",
+          "passageSha256": "fb137d0cd2c57017915d27bc3509782247cca8195e0a642c651498f08c893921",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:pd-l1-eligible-cells-and-tumor-denominator-v1",
+      "requirement": "Keep eligible stained cells and the viable-tumour-cell denominator separate: fictional counts yield CPS 40 and a tumour-cell-only percentage of 10, under their distinct rules. Grouped icons are not tissue geography.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "pd-l1-cps",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "9e1341593a0b025677c53ff0c77e8189face28d26b37376e231b907c47b21dfa",
+          "supportingExcerpt": "For the 22C3 TNBC method, count eligible stained viable invasive tumour cells and tumour-associated lymphocytes and macrophages. Divide by all viable invasive tumour cells, including unstained cells, then multiply by 100. Report a whole-number CPS capped at 100, even when raw arithmetic exceeds 100.",
+          "passageSha256": "419a568eec31bbf5db0b6f7e275d0bd058ff563568c5741760efe35c5193cd8f",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "pd-l1-cps",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "9e1341593a0b025677c53ff0c77e8189face28d26b37376e231b907c47b21dfa",
+          "supportingExcerpt": "Fictional eligible counts: 200 viable tumour cells, 20 staining tumour cells, 40 staining lymphocytes and 20 staining macrophages give CPS 40. Tumour-cell-only arithmetic gives 10%, under its own assay rules. CPS, TPS and IC use different numerators or denominators and cannot share cutoffs automatically.",
+          "passageSha256": "aeadff34c7a5a117cd0af4d4f8a384cda416723485ad1a6e406a68cd24e83421",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "pd-l1-cps",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "9e1341593a0b025677c53ff0c77e8189face28d26b37376e231b907c47b21dfa",
+          "supportingExcerpt": "TPS counts viable tumour cells with qualifying partial or complete membrane staining as a percentage of viable tumour cells. Immune cells do not enter its numerator. SP142 IC scoring measures the fraction of tumour area occupied by stained tumour-infiltrating immune cells, excluding tumour-cell staining. CPS, TPS and IC thresholds cannot be transferred between methods.",
+          "passageSha256": "b0dbde9149caf24c902374ca37907308229648ab9ef826a280ecd3f171c8c651",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "pd-l1-cps",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "9e1341593a0b025677c53ff0c77e8189face28d26b37376e231b907c47b21dfa",
+          "supportingExcerpt": "For 22C3 TNBC CPS, exclude nonviable cells, neutrophils, eosinophils, plasma cells, benign epithelial cells and stromal cells. Immune cells associated only with benign structures or in-situ disease do not qualify. A CPS of 100 does not imply that all tumour cells stain.",
+          "passageSha256": "24991abe1ad16e2ebfdac4d743cb41351b3d75f1a3288fd7eb15b090c114a6f4",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:stromal-area-and-pooled-region-weighting-v1",
+      "requirement": "Use occupied eligible stromal area as the denominator. The fictional unequal regions pool to 20%, while an unweighted mean is 35%; this is denominator arithmetic rather than a mandated pixel workflow.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "tils",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e95813d9676b637ec67e8b41247138695055e1e9e1464b290c8786cc9000650f",
+          "supportingExcerpt": "The breast stromal TIL method estimates the area occupied by mononuclear inflammatory cells, including lymphocytes and plasma cells, as a percentage of eligible tumour-associated stroma. It is not the percentage of all cells, a CD8-cell count or the fraction of cancer cells being killed.",
+          "passageSha256": "276c99649560fb3f8990fadd8fcf461f2d7dfe27578cd0bc156157a70341764b",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "tils",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e95813d9676b637ec67e8b41247138695055e1e9e1464b290c8786cc9000650f",
+          "supportingExcerpt": "Fictional area exercise: region A has 4 units of eligible stroma with 0.4 occupied by infiltrate; region B has 1 unit with 0.6 occupied. Pooled occupied area is (0.4 + 0.6)/(4 + 1) = 20%. Averaging the regional percentages without area weighting gives (10% + 60%)/2 = 35%. This arithmetic illustrates the denominator; it does not prescribe a pixel workflow for clinical semiquantitative scoring.",
+          "passageSha256": "bdf8071eac4729bc7fcbedd901a6f67b6ff15e55534c601c75ba5607250bf340",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "tils",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e95813d9676b637ec67e8b41247138695055e1e9e1464b290c8786cc9000650f",
+          "supportingExcerpt": "A fictional sTIL estimate of 30% means that the defined mononuclear infiltrate occupies about 30% of eligible stromal area. It does not mean 30% of all cells are lymphocytes or CD8 cells, or that 30% of cancer cells are being killed. Intratumoral TILs, positive-nucleus fractions, cells per square millimetre and bulk immune RNA measure different things. Additional stains change the measurement rather than silently changing its denominator.",
+          "passageSha256": "c65b3e5ffcf97e462a620667f722b6d3f4c19a605697448b688ae93cbacd4685",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:core-is-a-local-window-v1",
+      "requirement": "A core preserves a local window of architecture, while targeting and representativeness remain separate. A readable region does not establish whole-lesion extent.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "A readable core and a representative core are separate requirements. Radiology-pathology concordance asks whether the sampled tissue explains the imaging target. A preserved core of benign fat does not establish that a suspicious target is benign if the target was missed.",
+          "passageSha256": "4d71092d62661e6e1581520f967fcb0890d5d7428741517fad805fcf515090a9",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "A core preserves local cell relationships within the sampled piece. Aspiration may recover single cells, clusters, fluid and fragments; a cell block can support additional tests but cannot reconstruct their original spatial map. Adequacy for diagnosis does not guarantee adequacy for every ancillary assay.",
+          "passageSha256": "7fd3c0cbea55f83c59ec47c6ed9f67090be7cede3c9600377ad051617098edba",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "A hollow cutting needle removes a narrow tissue cylinder from an image-defined target. The preserved arrangement can show an interface where it is actually present, like a plug through cake layers. Tissue is irregular and handling can damage it. A long core of scar or normal tissue does not establish tumour content.",
+          "passageSha256": "d13a24d6eb9a84b619134906f34999109bd00b1f87105f79170624f3d0310703",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:core-versus-recovered-material-v2",
+      "requirement": "Distinguish preserved core relationships from cells, clusters or fragments recovered by aspiration. Cytology and cell blocks can be useful without reconstructing the complete original spatial map.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "A core preserves local cell relationships within the sampled piece. Aspiration may recover single cells, clusters, fluid and fragments; a cell block can support additional tests but cannot reconstruct their original spatial map. Adequacy for diagnosis does not guarantee adequacy for every ancillary assay.",
+          "passageSha256": "7fd3c0cbea55f83c59ec47c6ed9f67090be7cede3c9600377ad051617098edba",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "Aspiration uses a thin needle to recover cells or fluid, including clusters and small fragments. Cytology examines shapes, nuclei and groupings. Material may be spread on slides or processed into a cell block for sections and ancillary tests when suitable. A cell block does not reconstruct the lesion-wide spatial map.",
+          "passageSha256": "cd6571e090f565d7c50d261281469a80b6bd4469a23151dcb22b8c6ebd4635d3",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "core-needle-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "c409cfcfa3b8dca541189d02a70991044d9171c5ae5d4e757f0cd49530582fcf",
+          "supportingExcerpt": "An inadequate aspirate and a negative adequate aspirate are different results. Rapid assessment can help collection but does not guarantee all later assays. A sampled node does not map every node. A fictional aspirate containing malignant breast cells supports a malignancy interpretation in context, but does not establish the full boundary or extent of invasion. Less architecture does not erase useful diagnostic information.",
+          "passageSha256": "f0396d5bc98cea0b069be00e08e482154aea5b0cfa17bc71c6547a1fdccec151",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:finite-tissue-use-and-reusable-data-b10-v1",
+      "requirement": "Distinguish irreversible material use and remaining specimen inventory from reusable images and datasets. A new biopsy or expanded culture does not refill the original archive.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "finite-tissue-budget",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "07b2fd745cf81fc015b4f31a526a614245418dbcebd14e1c4ba6b04cf8dfc0a9",
+          "supportingExcerpt": "Cutting sections moves material from the block onto slides; extraction consumes a portion and loses its original architecture. Stored images and datasets can be copied and reanalysed but cannot refill the archive. A newly collected biopsy is another procedure and time point, and a growing culture is a changed system rather than replenishment of the original specimen.",
+          "passageSha256": "18401f6daa2872eac228419e610a144901c578bec43e819b51c4711da9e7ae4c",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "finite-tissue-budget",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "07b2fd745cf81fc015b4f31a526a614245418dbcebd14e1c4ba6b04cf8dfc0a9",
+          "supportingExcerpt": "An aliquot is an allocated portion. Retain site, date, treatment context, preservation, region, quantity, prior uses, remaining material, permissions and custody. A block list or ten remaining slides does not prove that relevant malignant cells remain. Returning a block does not replace extracted tissue.",
+          "passageSha256": "147c819780e2ca9659339f1cde4e0c08587da7ee7f7df3663d4f133a8554b33b",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "finite-tissue-budget",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "07b2fd745cf81fc015b4f31a526a614245418dbcebd14e1c4ba6b04cf8dfc0a9",
+          "supportingExcerpt": "Fictional small block: one proposed extraction remains possible after diagnostic needs are protected, while two teams request overlapping RNA tests. Compare questions, validated inputs, existing-data reuse, permissions and expected material use with pathology before allocation. No universal section count, percentage budget or clinical priority follows from this exercise.",
+          "passageSha256": "3a94f689663c43a86defe5c2817d18c1adc8b02193665dd706e0603436c59d5c",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:fixed-frozen-viable-preserved-properties-b10-v1",
+      "requirement": "Fixed, snap-frozen and viable preparations preserve different properties. Recovered molecules do not establish living-cell function, and every preparation needs suitability checks for its intended assay.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "tissue-preparation-assay-fit",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "5b517f66158e84146e944c4fe50d418d0bb01af299327753b598c33f8fe7de52",
+          "supportingExcerpt": "Formalin-fixed paraffin-embedded material preserves architecture and supports assays validated for its altered molecules, but cannot restore the original living cells. Snap-freezing preserves material for molecular analysis; the NCI protocol excludes viability, sorting and culture endpoints. A viable-cell vial requires verified recovery, identity and function for its intended assay. No preparation label measures tumour content.",
+          "passageSha256": "7c3969e43f382c405c276c70efed77029b5ee97c09126eda3e2815ebd79f56ea",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "tissue-preparation-assay-fit",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "5b517f66158e84146e944c4fe50d418d0bb01af299327753b598c33f8fe7de52",
+          "supportingExcerpt": "Masuda experimentally demonstrated chemical modifications of fixed RNA and effects on amplification. Recovering RNA or DNA does not undo fixation or establish a viable cell. Fixed material can still support suitable molecular assays. Fresh and frozen labels describe handling history rather than a verified fraction of living malignant cells.",
+          "passageSha256": "3a5fb2eddd9d71f6aab2676d09edf5b91293fdbc3cb962d1a70355aa2df0270a",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "tissue-preparation-assay-fit",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "5b517f66158e84146e944c4fe50d418d0bb01af299327753b598c33f8fe7de52",
+          "supportingExcerpt": "Fictional archive: a fixed block, a snap-frozen piece and a vial labelled viable are offered for a cell-growth perturbation. None of these labels alone establishes suitability. The fixed block cannot supply its original living cells; the frozen piece may not be preserved for viable recovery; the viable vial needs recovery, relevant cell identity and model function checked. A successful culture can select a changed cell mixture rather than reproduce the archive.",
+          "passageSha256": "87b8fdc39be88c9b81d43cff7785c51e8e6d675dc981e70fa3b0199aa81c92eb",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "tissue-preparation-assay-fit",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "5b517f66158e84146e944c4fe50d418d0bb01af299327753b598c33f8fe7de52",
+          "supportingExcerpt": "Preparation can irreversibly close options. If fixed molecular assays and living-cell experiments are both contemplated, their inputs and separate aliquots need planning before processing, while protecting diagnostic requirements. There is no universally best preparation; dividing finite tissue also has a cost.",
+          "passageSha256": "b7513a5a11dc125e610d857274934d08a39081b81cd67c7aaa4e60c387fa3426",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:oriented-specimen-to-selected-blocks-b10-v1",
+      "requirement": "Retain orientation and the specimen-to-block map. A central-block measurement cannot be assigned to a different margin or all other regions, and selected blocks do not examine every cell.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "surgical-resection-specimen",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "cb0824b52b38752cb2218cd9377e73cebaead851556dfdf053616b31a8fe8dbf",
+          "supportingExcerpt": "Keep the specimen site, procedure, prior treatment, orientation key, surface inks, cassette map and tested block with the result. Ink colours have a local documented meaning. Gross specimen dimensions are not automatically invasive tumour dimensions. Fragmentation or ink entering cracks can complicate surface interpretation.",
+          "passageSha256": "43ef3402d9fce535d6d7eb821e4077689baf9016a51c6924cff6986ae6c68c0f",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "surgical-resection-specimen",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "cb0824b52b38752cb2218cd9377e73cebaead851556dfdf053616b31a8fe8dbf",
+          "supportingExcerpt": "Fictional example: block A is central lesion and block B is a superior surface. A sequencing result from block A cannot be assigned to block B merely because both came from one operation. An additional test needs its own block identity and preservation history.",
+          "passageSha256": "94ae187ac85fe768b3d38a6c620cc12cc1164d810af014559f71402a3c234b35",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "surgical-resection-specimen",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "cb0824b52b38752cb2218cd9377e73cebaead851556dfdf053616b31a8fe8dbf",
+          "supportingExcerpt": "Resection supports assessment of represented tumour extent, surfaces, sampled nodes and treatment effect. A large specimen is not automatically examined cell by cell in its entirety. Collection time and preceding treatment define the biological time point, so a post-treatment resection cannot substitute for a pretreatment biopsy.",
+          "passageSha256": "4e77b50ebd85966b8393dc0fb2f10ebd0340fe0b4ac86a7e290285ef0ec34d15",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "surgical-resection-specimen",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "cb0824b52b38752cb2218cd9377e73cebaead851556dfdf053616b31a8fe8dbf",
+          "supportingExcerpt": "Diagnostic orientation and mapped sampling must remain intact when additional material is allocated. A research aliquot needs its site, block, preservation, treatment context and permissions. Slide counts alone do not establish the completeness of representation; a clear examined margin does not settle every clinical question.",
+          "passageSha256": "9335a0b1b2de3b16cd0f2ee383de7ebee40ae0d3c6530f0290a2aafa58a8ccbc",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:rna-trace-score-and-length-fraction-v2",
+      "requirement": "A fictional selected signal-area fraction above 200 nucleotides illustrates 60%, not a computation of RIN or a universal input cutoff. Fragment length does not guarantee full-length or splice recovery.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "rna-integrity",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "defef8be4065ce107b1db725bc460f34df02e982ce828b34d62922067f3de90a",
+          "supportingExcerpt": "Schroeder developed RIN from multiple electropherogram features using a trained statistical model. Its 1 to 10 scale runs from degraded to more intact RNA and is not a percentage. DV200 describes measured fragments longer than 200 nucleotides; it does not certify every transcript. In a fictional area illustration, 6 of 10 selected signal-area units above 200 nucleotides give 60%. This is not a computation of RIN or an assay acceptance rule.",
+          "passageSha256": "1a99dabb0f951a2050e906deb75230c382202604e665b4b4b9f91d9212121eaf",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "rna-integrity",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "defef8be4065ce107b1db725bc460f34df02e982ce828b34d62922067f3de90a",
+          "supportingExcerpt": "Fictional fixed RNA has low RIN but is accepted for a validated short-target expression assay and rejected for a full-length transcript workflow. These decisions can be consistent because the questions need different evidence. Passing input QC does not establish library complexity or gene recovery; a weak negative can reflect failed recovery rather than biological absence. Gene counts do not prove full-length or splice structure.",
+          "passageSha256": "a8348a49d8fcb3d79d5cee04399cb2bee208806806da291f6569a6b137321a66",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "rna-integrity",
+          "version": "proposal-tissue-pathology-shared",
+          "field": "notes",
+          "fieldSha256": "defef8be4065ce107b1db725bc460f34df02e982ce828b34d62922067f3de90a",
+          "supportingExcerpt": "RNA quality assessment uses an aliquot of an extract, which itself consumed specimen material. Examine the fragment-size distribution and method-specific quality summary, then check downstream recovery. Report RIN on its 1 to 10 scale, DV200 as a percentage, RNA quantity in nanograms and relevant library or recovery metrics. Acceptance depends on preservation, input amount and the intended assay; there is no universal RIN or DV200 pass cutoff. Poor extraction, degradation, chemical damage, contaminants, insufficient quantity or an uninterpretable trace can limit testing. Integrity does not measure tumour purity, cell viability, protein abundance or transcript function, and a research suitability metric is not a diagnostic result.",
+          "passageSha256": "bc3d5791637ff75c84339d8aa09c40e9a27ddc34f10926df59f2343c8dd44788",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    },
+    {
+      "id": "tissue-figure:sampled-pieces-versus-oriented-boundary-v2",
+      "requirement": "Multiple collected pieces and a positioning marker do not supply an oriented resection boundary or prove complete microscopic clearance, even when little abnormality remains visible.",
+      "status": "covered-draft",
+      "remaining": [],
+      "evidence": [
+        {
+          "recordId": "vacuum-assisted-breast-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e124aeed7877ff49ac5529ee9bc80ba64bacfe11bad0a938e8e001eaf72b9854",
+          "supportingExcerpt": "Suction and a cutter collect several tissue pieces through a positioned probe. More pieces can broaden sampling but do not provide the mapped outer boundary of an oriented excision. Little visible abnormality after biopsy does not establish microscopic clearance or negative surgical margins.",
+          "passageSha256": "8ad2de8e422812a3dc692f7e112155393cf1e6aee08b8a9201cf34727402b69c",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "vacuum-assisted-breast-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e124aeed7877ff49ac5529ee9bc80ba64bacfe11bad0a938e8e001eaf72b9854",
+          "supportingExcerpt": "Vacuum pressure draws tissue into a sampling opening and a cutter collects pieces through the positioned probe. Pathology identifies the cells, while imaging correlation asks whether the target was represented, including relevant calcifications. Sampling method does not establish preservation for living-cell work or every ancillary assay.",
+          "passageSha256": "112bb202f8fdd9e9059a641e71b36bc5b5d58f3417758ec84de457b114c4c1d6",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        },
+        {
+          "recordId": "vacuum-assisted-breast-biopsy",
+          "version": "proposal-tissue-pathology-root",
+          "field": "notes",
+          "fieldSha256": "e124aeed7877ff49ac5529ee9bc80ba64bacfe11bad0a938e8e001eaf72b9854",
+          "supportingExcerpt": "Fictional vacuum samples show a lesion and imaging shows little remaining visible abnormality. That does not establish negative microscopic margins. Several selected pieces do not supply the mapped outer boundary of an oriented excision, and a marker identifies a location rather than certifying that every abnormal cell was removed.",
+          "passageSha256": "d5bcb57aed6abc3608d43b635243526d84744e5cc9052139f82cacdbed4fdded",
+          "explanation": "Exact current reader prose carries the illustrated distinction and its limits."
+        }
+      ]
+    }
+  ],
+  "scope": "These illustrated distinctions overlap page requirements and are not added to the page-learning denominator. Unpictured study cohorts are not assigned to a figure."
+}

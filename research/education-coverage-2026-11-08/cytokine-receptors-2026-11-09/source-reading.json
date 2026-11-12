@@ -1,0 +1,94 @@
+{
+  "existingMarkdownDelta": {
+    "path": "wiki/education/tools/in-vivo-car-t-learning-lab.md",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "sourceSha256": "5ca2ab7aa27b6546f72bdbda5dd0d63228387b25c21a6cf9c4104f2a58a6fb14",
+    "newlyRepresentedRequirement": "synthetic-cytokine-receptor-and-coined-name"
+  },
+  "standaloneSources": [
+    {
+      "path": "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "1a64ecfc653efc8a1ec3f1ecb854eec2e3cbf0e5",
+      "sourceSha256": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "standalone HTML, script teaching and two inline biology images",
+          "sha256": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8"
+        }
+      ],
+      "scopeReview": {
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Read static HTML teaching, all five script-generated component explanations, all six quiz questions/choices/feedback and the numerical interpretation program. Inspected both inline light/dark biology diagrams. This is content review, not a browser interaction/accessibility test.",
+        "gitBlob": "1a64ecfc653efc8a1ec3f1ecb854eec2e3cbf0e5"
+      }
+    },
+    {
+      "path": "wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "1a64ecfc653efc8a1ec3f1ecb854eec2e3cbf0e5",
+      "sourceSha256": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/cellular-therapies/tools/in-vivo-car-t-learning-lab.html",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "standalone HTML, script teaching and two inline biology images",
+          "sha256": "d09cd1f96e04040769e093dba310b1f8022c7dfa8f19eccdf5fa353d6b820ab8"
+        }
+      ],
+      "scopeReview": {
+        "auditor": "Codex content audit; not expert sign-off",
+        "checkedAt": "2026-11-09",
+        "rationale": "Read static HTML teaching, all five script-generated component explanations, all six quiz questions/choices/feedback and the numerical interpretation program. Inspected both inline light/dark biology diagrams. This is content review, not a browser interaction/accessibility test.",
+        "gitBlob": "1a64ecfc653efc8a1ec3f1ecb854eec2e3cbf0e5"
+      }
+    }
+  ],
+  "embeddedImages": [
+    {
+      "file": "lab-embedded-0.png",
+      "bytes": 1529601,
+      "sha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489"
+    },
+    {
+      "file": "lab-embedded-1.png",
+      "bytes": 1483699,
+      "sha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b"
+    }
+  ],
+  "limitations": "Other visual/provenance/archive roles remain unclassified, even where paths suggest their purpose. Both original and later asset phases are required before audit closure.",
+  "matchedExternalVisualBlobs": [
+    {
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "71ec61a12ee1cf1b18ac7724ec672357defaaac5",
+      "sourceSha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/cellular-therapies/images/instructions-to-car-dark.png"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "ac8beefd78989a2aa81a8906503fa4e108a469ca",
+      "sourceSha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/cellular-therapies/images/instructions-to-car-light.png"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "71ec61a12ee1cf1b18ac7724ec672357defaaac5",
+      "sourceSha256": "ddcbb2e2fc5a52cf23cff668d8f7adb7b8958d3c1ac55fbdd323aa7f2f3ab489",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/cellular-therapies/images/instructions-to-car-dark.png"
+    },
+    {
+      "path": "wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "ac8beefd78989a2aa81a8906503fa4e108a469ca",
+      "sourceSha256": "fdc83f734e9f66744db795365861a650d6a195b03d0ad5be99e3d1a5931b708b",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/cellular-therapies/images/instructions-to-car-light.png"
+    }
+  ],
+  "otherAssetRolesUnclassifiedPerPhase": 1885
+}

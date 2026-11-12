@@ -1,0 +1,160 @@
+{
+  "checkedOn": "2026-11-10",
+  "rootGates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.09
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.07
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 32.64
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 1,
+      "seconds": 101.35
+    }
+  ],
+  "schemaGates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.27
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 14.13
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 29.37
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 91.39
+    }
+  ],
+  "initialFailure": "Four duplicate shorthand asOf fields introduced by the coordinator updater were removed; updater now handles shorthand properties. Effective graph values and captured reader/export evidence are unchanged.",
+  "scope": "Full standalone suites, validate, typecheck and lint; no new Next production build, browser hydration, hosted review, expert sign-off, merge or deployment. Existing GRAPH_JSON export limitation remains documented.",
+  "initialSemanticFinding": "The first full suite found one unexplained retained FLT3 pathway relation. Reviewed human UniProt supports its RTK identity; the explicit family explanation restores the relation. No floor or budget changed.",
+  "sourceClosures": {
+    "exitCodes": [
+      2,
+      2
+    ],
+    "original": {
+      "assessed": 167,
+      "represented": 163,
+      "navigation": 7,
+      "total": 537,
+      "requirements": 752,
+      "evidenced": 745,
+      "open": 7,
+      "unread": 363,
+      "unclassifiedNav": 0
+    },
+    "later": {
+      "assessed": 159,
+      "represented": 159,
+      "navigation": 0,
+      "total": 550,
+      "requirements": 736,
+      "evidenced": 736,
+      "open": 0,
+      "unread": 386,
+      "unclassifiedNav": 5
+    },
+    "staleOrMissingProofs": 0
+  },
+  "sourceIntake": {
+    "sourceVersions": 32,
+    "sections": 388,
+    "figureEntries": 60,
+    "publicationIdentities": 71,
+    "inheritedDOIsChecked": 9,
+    "additionalOMO103PrimaryIdentity": 1,
+    "curatedHumanProteinSources": 6
+  },
+  "focusedLinkSenseTests": {
+    "files": 1,
+    "passed": 58
+  },
+  "dedupe": "Nine existing groups, no new name/DOI/PMID groups; no new canonical identity.",
+  "rootValidateEntities": 22752,
+  "schemaValidateEntities": 22683,
+  "rootFullSuite": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2,
+    "seconds": 91.5
+  },
+  "schemaFullSuite": {
+    "files": 286,
+    "passed": 2838,
+    "skipped": 2,
+    "seconds": 91.39
+  },
+  "lint": "Zero errors and seven pre-existing warnings in each owning checkout",
+  "focusedAuditTests": {
+    "files": 3,
+    "passed": 16
+  },
+  "changeClassification": {
+    "thisCheckpoint": {
+      "product": 0,
+      "data": 21,
+      "neither": 37
+    },
+    "scope": "Root data and research files; separate product proposal remains pending approval."
+  }
+}

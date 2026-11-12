@@ -1,0 +1,736 @@
+{
+  "version": "proposal-rna-summary-consumers",
+  "scope": "Actual lazy-loaded short tables and long-cache selectors. Selected-text SSR only; existing review labels preserved, no new named language or browser review.",
+  "records": [
+    {
+      "id": "aav-vector-ar",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (ar)",
+      "canonicalRecordId": "aav-vector",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (ar)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (ar)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-ar",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (ar)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (ar)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-ar",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (ar)",
+      "canonicalRecordId": "transposon",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (ar)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "ar",
+      "available": true,
+      "text": "إنتاج الفيروسات المعدلة التي تنقل جين CAR إلى الخلايا التائية. ويشكل تصنيع النواقل الفيروسية عنق زجاجة قائماً منذ زمن طويل في العلاج الخلوي والجيني."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-ar",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (ar)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-ar",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (ar)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "ar",
+      "available": true,
+      "text": "أحدثت لقاحات mRNA الفردية التي تشفّر ما يصل إلى 20 من الطفرات الورمية لكل مريض استجابات قوية للخلايا التائية لدى نصف مرضى سرطان البنكرياس بعد الجراحة، وكانت الانتكاسات لدى هؤلاء المستجيبين أقل بكثير."
+    },
+    {
+      "id": "aav-vector-de",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (de)",
+      "canonicalRecordId": "aav-vector",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-de",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (de)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-de",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (de)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-de",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (de)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-de",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (de)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-de",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (de)",
+      "canonicalRecordId": "transposon",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-de",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (de)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "de",
+      "available": true,
+      "text": "Die Herstellung der gentechnisch veränderten Viren, die ein CAR-Gen in T-Zellen einschleusen. Die Herstellung viraler Vektoren ist seit langem ein Engpass für Zell- und Gentherapien."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-de",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (de)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-de",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (de)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "de",
+      "available": true,
+      "text": "Individualisierte mRNA-Impfstoffe, die bis zu 20 der Tumormutationen jedes Patienten kodierten, erzeugten bei der Hälfte der Pankreaskrebspatienten nach der Operation starke T-Zell-Antworten, und diese Ansprecher hatten deutlich weniger Rückfälle."
+    },
+    {
+      "id": "aav-vector-es",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (es)",
+      "canonicalRecordId": "aav-vector",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-es",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (es)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-es",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (es)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-es",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (es)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-es",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (es)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-es",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (es)",
+      "canonicalRecordId": "transposon",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-es",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (es)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "es",
+      "available": true,
+      "text": "Producir los virus modificados que transportan un gen CAR al interior de las células T. La fabricación de vectores virales es un cuello de botella de larga data para la terapia celular y génica."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-es",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (es)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-es",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (es)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "es",
+      "available": true,
+      "text": "Vacunas de mRNA individualizadas que codificaban hasta 20 de las mutaciones tumorales de cada paciente generaron respuestas fuertes de células T en la mitad de los pacientes con cáncer de páncreas tras la cirugía, y esos respondedores tuvieron muchas menos recaídas."
+    },
+    {
+      "id": "aav-vector-fr",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (fr)",
+      "canonicalRecordId": "aav-vector",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (fr)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (fr)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-fr",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (fr)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (fr)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-fr",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (fr)",
+      "canonicalRecordId": "transposon",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (fr)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "fr",
+      "available": true,
+      "text": "Produire les virus modifiés qui transportent un gène CAR dans les cellules T. La fabrication de vecteurs viraux est depuis longtemps un goulot d'étranglement pour la thérapie cellulaire et génique."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-fr",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (fr)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-fr",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (fr)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "fr",
+      "available": true,
+      "text": "Des vaccins à mRNA individualisés codant jusqu'à 20 des mutations tumorales de chaque patient ont généré de fortes réponses des cellules T chez la moitié des patients atteints d'un cancer du pancréas après chirurgie, et ces répondeurs ont eu beaucoup moins de rechutes."
+    },
+    {
+      "id": "aav-vector-hi",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (hi)",
+      "canonicalRecordId": "aav-vector",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (hi)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (hi)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-hi",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (hi)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (hi)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-hi",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (hi)",
+      "canonicalRecordId": "transposon",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (hi)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "hi",
+      "available": true,
+      "text": "उन इंजीनियर्ड वायरसों का उत्पादन, जो CAR जीन को T कोशिकाओं में पहुँचाते हैं। वायरल वेक्टर निर्माण कोशिका और जीन थेरेपी के लिए लंबे समय से एक अड़चन रहा है।"
+    },
+    {
+      "id": "mrna-lnp-manufacturing-hi",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (hi)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-hi",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (hi)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "hi",
+      "available": true,
+      "text": "हर रोगी के ट्यूमर के 20 तक उत्परिवर्तनों को कोड करने वाले व्यक्तिगत mRNA टीकों ने सर्जरी के बाद अग्न्याशय कैंसर के आधे रोगियों में मज़बूत T-कोशिका प्रतिक्रियाएँ उत्पन्न कीं, और प्रतिक्रिया देने वाले इन रोगियों में पुनरावृत्ति कहीं कम हुई।"
+    },
+    {
+      "id": "aav-vector-ja",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (ja)",
+      "canonicalRecordId": "aav-vector",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (ja)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (ja)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-ja",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (ja)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (ja)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-ja",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (ja)",
+      "canonicalRecordId": "transposon",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (ja)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "ja",
+      "available": true,
+      "text": "CAR遺伝子をT細胞に運び込む改変ウイルスを製造する工程である。ウイルスベクター製造は、細胞・遺伝子治療における長年のボトルネックである。"
+    },
+    {
+      "id": "mrna-lnp-manufacturing-ja",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (ja)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-ja",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (ja)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "ja",
+      "available": true,
+      "text": "各患者の腫瘍変異を最多20個までコードする個別化mRNAワクチンは、術後の膵がん患者の半数で強いT細胞応答を生じさせ、応答した患者では再発がはるかに少なかった。"
+    },
+    {
+      "id": "aav-vector-pt",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (pt)",
+      "canonicalRecordId": "aav-vector",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (pt)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (pt)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-pt",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (pt)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (pt)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-pt",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (pt)",
+      "canonicalRecordId": "transposon",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (pt)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "pt",
+      "available": true,
+      "text": "Produzir os vírus modificados que levam um gene CAR para dentro das células T. A fabricação de vetores virais é um gargalo de longa data para a terapia celular e gênica."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-pt",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (pt)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-pt",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (pt)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "pt",
+      "available": true,
+      "text": "Vacinas de mRNA individualizadas codificando até 20 das mutações tumorais de cada paciente geraram respostas fortes de células T em metade dos pacientes com câncer de pâncreas após a cirurgia, e esses respondedores tiveram muito menos recaídas."
+    },
+    {
+      "id": "aav-vector-zh",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (zh)",
+      "canonicalRecordId": "aav-vector",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (zh)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (zh)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-zh",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (zh)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (zh)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-zh",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (zh)",
+      "canonicalRecordId": "transposon",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (zh)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "zh",
+      "available": true,
+      "text": "生产将CAR基因带入T细胞的工程化病毒。病毒载体生产长期以来是细胞和基因治疗的瓶颈。"
+    },
+    {
+      "id": "mrna-lnp-manufacturing-zh",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (zh)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "zh",
+      "available": true,
+      "text": "mRNA 癌症疫苗无需细胞：酶在罐中把 DNA 模板转录成 RNA，纯化后包进微小脂质颗粒。个体化疫苗则针对每位患者自身的肿瘤突变，在几周内单独完成整套生产。"
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-zh",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (zh)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "zh",
+      "available": true,
+      "text": "编码每位患者多达20个肿瘤突变的个体化mRNA疫苗，在半数胰腺癌患者术后引发了强烈的T细胞应答，而这些应答者的复发要少得多。"
+    },
+    {
+      "id": "aav-vector-simple",
+      "kind": "reader-summary-entry",
+      "name": "AAV (adeno-associated virus) vector (simple)",
+      "canonicalRecordId": "aav-vector",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lentiviral-vector-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lentiviral vector (simple)",
+      "canonicalRecordId": "lentiviral-vector",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lipid-nanoparticle-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lipid nanoparticles for RNA delivery (simple)",
+      "canonicalRecordId": "lipid-nanoparticle",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-lipoplex-simple",
+      "kind": "reader-summary-entry",
+      "name": "RNA-lipoplex (simple)",
+      "canonicalRecordId": "rna-lipoplex",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "targeted-lnps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Targeted lipid nanoparticles (simple)",
+      "canonicalRecordId": "targeted-lnps",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "transposon-simple",
+      "kind": "reader-summary-entry",
+      "name": "Transposon systems for cell engineering (simple)",
+      "canonicalRecordId": "transposon",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "viral-vector-manufacturing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Viral vector manufacturing (lentiviral, retroviral, AAV) (simple)",
+      "canonicalRecordId": "viral-vector-manufacturing",
+      "language": "simple",
+      "available": true,
+      "text": "Viral vector manufacturing produces the engineered viruses that carry a CAR gene into T cells, and has long been a bottleneck for cell and gene therapy."
+    },
+    {
+      "id": "mrna-lnp-manufacturing-simple",
+      "kind": "reader-summary-entry",
+      "name": "mRNA and lipid nanoparticle manufacturing (simple)",
+      "canonicalRecordId": "mrna-lnp-manufacturing",
+      "language": "simple",
+      "available": true,
+      "text": "An mRNA cancer vaccine is made without cells by copying a DNA template into RNA in a tank and wrapping it in tiny fat bubbles, done once per patient for personalised vaccines."
+    },
+    {
+      "id": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023-simple",
+      "kind": "reader-summary-entry",
+      "name": "Rojas 2023: a personalised mRNA vaccine trained T cells against each patient's pancreatic cancer, and those who responded stayed cancer-free longer (simple)",
+      "canonicalRecordId": "paper-rojas-mrna-neoantigen-vaccine-pancreatic-nature-2023",
+      "language": "simple",
+      "available": true,
+      "text": "This paper showed a personalised mRNA vaccine built from each patient's pancreatic cancer mutations trained strong T-cell responses in half of patients after surgery, and those responders relapsed far less."
+    }
+  ],
+  "state": "81 additional actual root selectors: 20 stored entries and 61 English fallbacks. Existing in-vivo-CAR-T selectors retain their earlier snapshot. No new language review."
+}

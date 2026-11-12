@@ -1,0 +1,378 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "assignedBodiesReadInFull": [
+    {
+      "index": 1,
+      "file": "node-count-and-deposit-size-context-v1-next-gap-137-independent-task-fit.json",
+      "bytes": 12224,
+      "leaves": 109,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 2,
+      "file": "node-count-and-deposit-size-context-v1-provenance.json",
+      "bytes": 2545,
+      "leaves": 34,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 4,
+      "file": "specimen-collection-and-later-addendum-v1-next-gap-138-independent-task-fit.json",
+      "bytes": 11130,
+      "leaves": 101,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 5,
+      "file": "specimen-collection-and-later-addendum-v1-provenance.json",
+      "bytes": 2187,
+      "leaves": 31,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 7,
+      "file": "three-microscopic-features-before-grade-v1-next-gap-135-independent-task-fit.json",
+      "bytes": 11936,
+      "leaves": 109,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 8,
+      "file": "three-microscopic-features-before-grade-v1-provenance.json",
+      "bytes": 2438,
+      "leaves": 34,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 10,
+      "file": "next-gap-242-independent-owner-review.json",
+      "bytes": 13855,
+      "leaves": 198,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 11,
+      "file": "persistent-scar-and-current-repair-state-b10-v1-provenance.json",
+      "bytes": 3820,
+      "leaves": 44,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 13,
+      "file": "next-gap-059-combined19-current-owner-task-fit-continuity.json",
+      "bytes": 7980,
+      "leaves": 95,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 14,
+      "file": "oligo-histories-v1-independent-owner-review.json",
+      "bytes": 7376,
+      "leaves": 84,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 15,
+      "file": "oligo-histories-v1.json",
+      "bytes": 3488,
+      "leaves": 41,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 17,
+      "file": "patient-event-denominators-and-clocks-v1-independent-owner-review.json",
+      "bytes": 7889,
+      "leaves": 103,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 18,
+      "file": "patient-event-denominators-and-clocks-v1-provenance.json",
+      "bytes": 5444,
+      "leaves": 73,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 20,
+      "file": "her2-membrane-patterns-v1-independent-owner-review.json",
+      "bytes": 7749,
+      "leaves": 84,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 21,
+      "file": "her2-membrane-patterns-v1.json",
+      "bytes": 3389,
+      "leaves": 38,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 23,
+      "file": "next-gap-277-independent-new-owner-task-fit.json",
+      "bytes": 14534,
+      "leaves": 156,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 24,
+      "file": "sox10-nuclear-signal-attribution-v1-provenance.json",
+      "bytes": 2328,
+      "leaves": 27,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 30,
+      "file": "ene-boundaries-v1-independent-owner-review.json",
+      "bytes": 7596,
+      "leaves": 84,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 31,
+      "file": "ene-boundaries-v1.json",
+      "bytes": 3267,
+      "leaves": 38,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    },
+    {
+      "index": 33,
+      "file": "gland-removal-and-outer-structures-v1-next-gap-139-independent-task-fit.json",
+      "bytes": 12211,
+      "leaves": 109,
+      "versionEntriesCovered": 2,
+      "readInFull": true
+    }
+  ],
+  "denominators": {
+    "paths": 20,
+    "versionEntries": 40,
+    "versionEntriesVerifiedPathBytesBlobSha256": 40,
+    "bodiesReadInFull": 20,
+    "identicalAcrossRefs": 20
+  },
+  "bodyReadingMethod": "git show of each pinned object byte-exact to the private return directory; whole JSON loaded; all leaves printed and read, including trailing receipts (zero-credit ledgers, humanReview/expertReview, delivery fields) and the displayReview limitation lists; a shared displayReview block (bodies 01/04/07/33) read once in full and deep-compared for 33.",
+  "contextReadNotLessonAssessment": [
+    "owner figure embeds (img src, alt, caption) at later pin for all 10 owners: read as role context only",
+    "text/title/desc of 5 SVGs (her2, node-count, ene, sox10 light) read as context for E02, E04, E10, E11 only; no pixel rendering",
+    "owner diffs: cited-hash version -> later ref (tnm, histologic-grade, oligo, brain-metastasis, her2, lumpectomy) and original->later ref (oligo, brain-metastasis, her2): read",
+    "earlier packets: round5 asset-classification.json and round6 support-dispositions.json read for decisions and legend; retained unchanged"
+  ],
+  "externalPrimaryReading": [
+    {
+      "source": "CAP Breast.Bmk 1.6.2.0 (Sept 2026) PDF",
+      "depth": "fetched HTTP 200, 422,411 bytes, sha256 0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691; pdftotext; HER2 IHC 0/0+/1+/2+/3+ block (printed p5-6), Summary of Changes, Note C passages read",
+      "assets": "21,20"
+    },
+    {
+      "source": "CAP Breast.Invasive.Res 4.11.0.0 (June 2026) PDF",
+      "depth": "fetched HTTP 200, 637,105 bytes, sha256 50b25425f5a99112afca8ee449cdc3e4149547c7c721310d05fd722a3e884c97; nodal category block (ITC/pN1mi/pN1a), ENE reporting and measurement note read; not all 43 pages",
+      "assets": "1,4,7,30,31"
+    },
+    {
+      "source": "NCI lumpectomy and mastectomy pages",
+      "depth": "fetched HTTP 200 raw HTML; wording on skin-/nipple-sparing, partial mastectomy, radical/chest-wall present; page text not otherwise assessed",
+      "assets": "33"
+    },
+    {
+      "source": "NCI metastatic-cancer page",
+      "depth": "HTTP 200 reached; not read by me",
+      "assets": "18"
+    }
+  ],
+  "identityResolutions": [
+    {
+      "id": "PMID 32245699",
+      "title": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer",
+      "venue": "Ann Oncol 2020",
+      "doi": "10.1016/j.annonc.2020.02.008",
+      "pmcid": "PMC7946408",
+      "kind": "primary cohort",
+      "depth": "abstract (full 2217 chars) read",
+      "assets": "10,11"
+    },
+    {
+      "id": "PMC5961353 / PMID 29635390",
+      "title": "RAD51 foci as a functional biomarker of HRR and PARP inhibitor resistance in gBRCA breast cancer (Cruz)",
+      "venue": "Ann Oncol 2018",
+      "doi": "10.1093/annonc/mdy099",
+      "pmcid": "PMC5961353",
+      "kind": "primary PDX + retrospective patient samples",
+      "depth": "abstract read; Europe PMC full text fetched (92 kB) and Introduction sentence on scar persistence read raw",
+      "assets": "10,11"
+    },
+    {
+      "id": "PMID 28288110",
+      "title": "HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures",
+      "venue": "Nat Med 2017",
+      "doi": "10.1038/nm.4292",
+      "pmcid": "PMC5833945",
+      "kind": "primary classifier study",
+      "depth": "abstract read; full text not retrievable (150-byte stub)",
+      "assets": "11"
+    },
+    {
+      "id": "PMID 31908301",
+      "title": "Characterisation and classification of oligometastatic disease: ESTRO and EORTC consensus recommendation",
+      "venue": "Lancet Oncol 2020",
+      "doi": "10.1016/s1470-2045(19)30718-1",
+      "pmcid": "-",
+      "kind": "consensus statement (not a primary study)",
+      "depth": "abstract (2658 chars) read",
+      "assets": "15"
+    },
+    {
+      "id": "PMID 32388150 (repub.eur.nl/pub/130575)",
+      "title": "Defining oligometastatic disease from a radiation oncology perspective: an ESTRO-ASTRO consensus document (Lievens)",
+      "venue": "Radiother Oncol 2020;148:157-166",
+      "doi": "10.1016/j.radonc.2020.04.003",
+      "pmcid": "-",
+      "kind": "consensus statement (not a primary study); DIFFERENT paper from 31908301",
+      "depth": "PDF fetched (22 pp, sha256 e759cade...); title page and passages on number of metastases, induced OMD, oligoprogression read; not whole",
+      "assets": "15"
+    },
+    {
+      "id": "PMID 35643253",
+      "title": "SABR-COMET: extended long-term outcomes",
+      "venue": "IJROBP 2022",
+      "doi": "10.1016/j.ijrobp.2022.05.004",
+      "pmcid": "-",
+      "kind": "primary randomized phase II",
+      "depth": "abstract read",
+      "assets": "15"
+    },
+    {
+      "id": "PMID 42842849",
+      "title": "NRG-BR002: randomized phase II/III metastasis-directed ablation, oligometastatic breast cancer",
+      "venue": "J Clin Oncol 2026",
+      "doi": "10.1200/jco-26-00201",
+      "pmcid": "-",
+      "kind": "primary randomized phase II/III",
+      "depth": "abstract read (2177 chars); resolves, not a recalled id",
+      "assets": "15"
+    },
+    {
+      "id": "PMID 22359359",
+      "title": "Incidence of brain metastases as a first site of recurrence among women with TNBC (Dawood)",
+      "venue": "Cancer 2012",
+      "doi": "10.1002/cncr.27434",
+      "pmcid": "PMC3910255",
+      "kind": "primary retrospective cohort",
+      "depth": "abstract read",
+      "assets": "18"
+    },
+    {
+      "id": "PMID 28301662",
+      "title": "Brain metastases in newly diagnosed breast cancer: population-based study (Martin)",
+      "venue": "JAMA Oncol 2017",
+      "doi": "10.1001/jamaoncol.2017.0001",
+      "pmcid": "PMC5824221",
+      "kind": "primary SEER cohort",
+      "depth": "abstract read",
+      "assets": "18"
+    },
+    {
+      "id": "PMID 20829328",
+      "title": "Heterogeneous blood-tumor barrier permeability determines drug efficacy in experimental brain metastases (Lockman)",
+      "venue": "Clin Cancer Res 2010",
+      "doi": "10.1158/1078-0432.ccr-10-1564",
+      "pmcid": "PMC2999649",
+      "kind": "primary preclinical",
+      "depth": "abstract read",
+      "assets": "18"
+    },
+    {
+      "id": "PMC2835546 / PMID 18833576",
+      "title": "Sites of distant recurrence and clinical outcomes in patients with metastatic TNBC: high incidence of CNS metastases (Lin)",
+      "venue": "Cancer 2008",
+      "doi": "10.1002/cncr.23930",
+      "pmcid": "PMC2835546",
+      "kind": "primary retrospective cohort",
+      "depth": "identity only (title/year/pmid/doi); not re-read",
+      "assets": "18"
+    },
+    {
+      "id": "PMID 23260325",
+      "title": "Neural crest transcription factor Sox10 is preferentially expressed in triple-negative and metaplastic breast carcinomas",
+      "venue": "Hum Pathol 2013",
+      "doi": "10.1016/j.humpath.2012.09.005",
+      "pmcid": "PMC3978178",
+      "kind": "primary tissue-microarray study",
+      "depth": "abstract read",
+      "assets": "23"
+    },
+    {
+      "id": "PMID 36030639",
+      "title": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients",
+      "venue": "Pathol Res Pract 2022",
+      "doi": "10.1016/j.prp.2022.154070",
+      "pmcid": "-",
+      "kind": "practice SURVEY (70 pathologists), not an outcomes study",
+      "depth": "abstract read",
+      "assets": "31"
+    },
+    {
+      "id": "PMID 33953240",
+      "title": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer",
+      "venue": "Sci Rep 2021",
+      "doi": "10.1038/s41598-021-88716-4",
+      "pmcid": "PMC8099896",
+      "kind": "primary single-centre cohort (402 patients)",
+      "depth": "abstract read",
+      "assets": "31"
+    }
+  ],
+  "rawCapturesPrivateDirectory": "<private-capture>",
+  "notRead": [
+    "the 20 owners' full lesson prose (context grep only)",
+    "SVG pixels and the 10 prompt .txt briefs",
+    "all 12 sibling provenance/review files outside the 20",
+    "CAP HER2 SOR 2023 PDF, CAP pages beyond those named",
+    "NCI PDQ, NCI tumor-grade pages",
+    "Lin 2008 and Watkins 2014 beyond identity",
+    "every /tmp or private locator in the bodies"
+  ],
+  "accessProblems": [
+    "source commits named in bodies (64923746, 8ff971e6, b3704aa2, afe15cdb, 558b7599, 98a29eb7, 5cb06c95) are not resolvable in the local oncoguide object database; main checkout was not fetched (read-only rule)",
+    "PubMed HTML returns a challenge to scripts; Europe PMC REST used instead",
+    "PMC7946408 and PMC5833945 full text unavailable through Europe PMC (150-byte stub)"
+  ]
+}

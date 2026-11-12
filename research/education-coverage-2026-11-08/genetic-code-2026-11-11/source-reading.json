@@ -1,0 +1,239 @@
+{
+  "dataCommit": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "documents": [
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/biology-basics/genetics/genetic-code.md",
+      "title": "The genetic code: codons, start and stop signals, and the reading frame",
+      "bytes": 9536,
+      "sourceSha256": "697786b071f339115c7bd3bf484021be4e236b803fb180da1fafb99906d64f9b",
+      "gitBlob": "78f1ed88e1b55e67786bd375d535e1d6b424f416",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a51ad2d6311d976e7ba2a43b96ce12de22e31cddca45e9f3c3cd177585a91118"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "64b34340489fca01b071c34e73ad650cba436e8dda8679b0cc8522f5262a51bb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fa13f7d016f6352f2bb553c4d6bd7d34346ac1567e4a0141fa0e3e8855dcc2e4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e5994c7b412be1b1862fb95c234e947d7be0729c2b8dac24458daf546d38590e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "85f69532538b33e4635d41e8ad5ca3b3b585e3659f4371fae9d794ec9a9c8ba8"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dcc4f4ca63ce664d48c45ebe87284aed1a7427ca1b1cafde206fb5021fdc5ef6"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c86f301b5989fa89ed70afe1bd415768cb95dd8a22590837e718e4f5af839dd0"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "fc32fe00a41de1b2636f362318b14c4706d501f48832c857b87239284c63da6e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "59521747d257d256b1db6afd43dcfa8475e9abef0bccd45ec3eff8eff3a6cb33"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "aff15da6f572f108844d2fa4f8a1a7fa5ed43ba65f59ebc5aebf2404739bed9e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "cec265f829b5cf0cba10bdab4ef2af5c5966aab17b814854d4859c1077c37866"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "dbbb1661b29e16420fe026d2d56592730a70472fffa42991f209bbcdef9d7575"
+        }
+      ],
+      "projectionSha256": "aa980d9a1b1ac8c5631a26de56843aba43eb793eb2a4f7297111befde337be2a",
+      "excludedPersonalSections": 0,
+      "generalTeachingRead": true,
+      "readScope": "Complete later general lesson read; no personal-case section. The exact pinned original path has no counterpart; no prior review reused."
+    }
+  ],
+  "originalCounterpartPaths": [],
+  "sectionDispositions": [
+    {
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "a51ad2d6311d976e7ba2a43b96ce12de22e31cddca45e9f3c3cd177585a91118",
+      "heading": "preamble",
+      "requirementIds": [
+        "GC34"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "64b34340489fca01b071c34e73ad650cba436e8dda8679b0cc8522f5262a51bb",
+      "heading": "In one sentence",
+      "requirementIds": [
+        "GC01"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "fa13f7d016f6352f2bb553c4d6bd7d34346ac1567e4a0141fa0e3e8855dcc2e4",
+      "heading": "The intuition",
+      "requirementIds": [
+        "GC02"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "e5994c7b412be1b1862fb95c234e947d7be0729c2b8dac24458daf546d38590e",
+      "heading": "How it works",
+      "requirementIds": [
+        "GC01",
+        "GC03",
+        "GC04",
+        "GC05",
+        "GC06",
+        "GC07",
+        "GC08",
+        "GC09",
+        "GC10",
+        "GC11",
+        "GC12",
+        "GC13",
+        "GC14"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "85f69532538b33e4635d41e8ad5ca3b3b585e3659f4371fae9d794ec9a9c8ba8",
+      "heading": "What a single change can do",
+      "requirementIds": [
+        "GC15",
+        "GC16",
+        "GC17",
+        "GC18",
+        "GC19",
+        "GC20"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "dcc4f4ca63ce664d48c45ebe87284aed1a7427ca1b1cafde206fb5021fdc5ef6",
+      "heading": "Why it matters in cancer",
+      "requirementIds": [
+        "GC21",
+        "GC22",
+        "GC23",
+        "GC24",
+        "GC25",
+        "GC26"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "c86f301b5989fa89ed70afe1bd415768cb95dd8a22590837e718e4f5af839dd0",
+      "heading": "Common confusions",
+      "requirementIds": [
+        "GC27",
+        "GC28",
+        "GC29",
+        "GC30"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "fc32fe00a41de1b2636f362318b14c4706d501f48832c857b87239284c63da6e",
+      "heading": "Try it",
+      "requirementIds": [
+        "GC31"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "59521747d257d256b1db6afd43dcfa8475e9abef0bccd45ec3eff8eff3a6cb33",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "GC32"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "aff15da6f572f108844d2fa4f8a1a7fa5ed43ba65f59ebc5aebf2404739bed9e",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "GC33"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "cec265f829b5cf0cba10bdab4ef2af5c5966aab17b814854d4859c1077c37866",
+      "heading": "Related concepts",
+      "requirementIds": [
+        "GC34"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    },
+    {
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "dbbb1661b29e16420fe026d2d56592730a70472fffa42991f209bbcdef9d7575",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "GC35"
+      ],
+      "disposition": "General lesson section read; stated source corrections retained; recap/routing/source metadata receive no independent teaching credit."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "file": "learning-requirements.json",
+    "sha256": "55134d1ac273bdc99b8c1af37f4eb8ffbd22fdf6a7a99b4a3c8f5a9fccb934af",
+    "rows": 35,
+    "teachingRows": 31,
+    "ownerFieldsOpenedBeforeFreeze": false,
+    "coverageCredit": 0
+  },
+  "rawLessonBodiesPublished": false,
+  "lessonLinkedImages": 0,
+  "lessonMermaidBlocks": 0
+}

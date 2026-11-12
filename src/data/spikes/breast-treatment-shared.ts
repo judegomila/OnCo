@@ -36,8 +36,8 @@ export const doi = (label: string, id: string) => ({ label, url: `https://doi.or
 export const nice = (ref: string, label: string) => ({ label, url: `https://www.nice.org.uk/guidance/${ref}` });
 const D = (id: string) => `https://doi.org/${id}`;
 
-export const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x });
-export const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+export const t = (x: Omit<TrialInput, "kind" | "asOf"> & { asOf?: TrialInput["asOf"] }): TrialInput => ({ kind: "trial", asOf, ...x });
+export const term = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: TermInput["asOf"] }): TermInput => ({ kind: "term", asOf, ...x });
 
 /** Papers quoted more than once, as DOIs read through Europe PMC on 25 September 2026. */
 export const SRC = {

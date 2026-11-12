@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "id": "equal-volume-spatial-mean-gradient",
+      "inputs": [
+        0,
+        20
+      ],
+      "equalVolume": true,
+      "mean": 10.0,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "id": "equal-volume-spatial-mean-flat",
+      "inputs": [
+        10,
+        10
+      ],
+      "equalVolume": true,
+      "mean": 10.0,
+      "expected": 10,
+      "pass": true
+    }
+  ],
+  "scope": "Fictional source-example arithmetic only. Clinical numbers are retained with the resolved publication, population and endpoint; no derived personal predictions."
+}

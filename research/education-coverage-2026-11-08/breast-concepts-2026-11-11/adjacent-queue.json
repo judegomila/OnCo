@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "breast-her2-dark-legend",
+      "owner": "OncoGuide HER2 figure",
+      "status": "open external artwork correction",
+      "finding": "Use a neutral cytoplasm fill or distinguish it explicitly from membrane staining."
+    },
+    {
+      "id": "breast-oligo-cluster-layout",
+      "owner": "OncoGuide oligometastatic figure",
+      "status": "open external artwork correction",
+      "finding": "Separate the symbolic cluster and its label."
+    },
+    {
+      "id": "hereditary-legacy-catalogue",
+      "owner": "hereditary-cancer-syndromes",
+      "status": "remaining baseline-source audit",
+      "finding": "MEN1/RET conflation corrected and unsupported MRI-alone mortality figure withdrawn; other historical guideline and intervention claims have not all been reread."
+    }
+  ]
+}

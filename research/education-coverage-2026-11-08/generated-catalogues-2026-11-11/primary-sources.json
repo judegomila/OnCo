@@ -1,0 +1,7 @@
+{
+  "publicationsUsedAsNewClaimEvidence": [],
+  "scientificClaimVerification": "Not performed or claimed by these duplicate checks. Existing parent lesson source scopes, open requirements and primary-source limits remain unchanged.",
+  "authorityForCopyChecks": "Public OncoGuide blobs at the two pinned refs, with 889 distinct versioned owner files checked.",
+  "imageCheckDepth": "Pinned Git-tree existence and blob/byte identities only; not decoding, pixel review, source support or accessibility.",
+  "savedPromptDepth": "Register values retained as metadata; prompt bodies and the generator implementation were not assessed here."
+}

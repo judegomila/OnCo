@@ -1,0 +1,1144 @@
+{
+  "scope": "Actual EntityDetail body outside script, style and SVG. No browser, hydration or deployed-page claim.",
+  "semanticRequirements": 108,
+  "evidencePassages": 162,
+  "passed": 162,
+  "rootOwners": 11,
+  "sharedOwners": 8,
+  "checks": [
+    {
+      "requirementId": "aav-vector:R01",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R02",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R03",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R03",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R04",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R04",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R05",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R06",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R07",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R08",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R09",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R10",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R11",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R11",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R12",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R12",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R13",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R13",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R14",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "aav-vector:R14",
+      "recordId": "aav-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R01",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R02",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R02",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R03",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R04",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R05",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R06",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R06",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R07",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R07",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R08",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R08",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R08",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "tldr",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R09",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lentiviral-vector:R09",
+      "recordId": "lentiviral-vector",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R01",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "tldr",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R01",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R02",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R03",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R04",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R05",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R06",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R07",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R08",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R08",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R09",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "lipid-nanoparticle:R09",
+      "recordId": "lipid-nanoparticle",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R01",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R02",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R02",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R03",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R04",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R04",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R05",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R06",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R07",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R08",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R08",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R09",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "tldr",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "rna-lipoplex:R09",
+      "recordId": "rna-lipoplex",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R01",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R01",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R02",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R03",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R04",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R05",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R06",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R07",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R08",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R08",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R09",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R09",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R09",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R10",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "targeted-lnps:R10",
+      "recordId": "targeted-lnps",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R01",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R01",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R02",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R03",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R04",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R04",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R05",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R06",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R07",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R07",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R08",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R09",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R09",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "transposon:R10",
+      "recordId": "transposon",
+      "version": "proposal-rna-delivery",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R01",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R02",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R03",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R04",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R05",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R06",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "delivery-targeting-vs-cancer-targeting:R07",
+      "recordId": "delivery-target-versus-therapeutic-target",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R01",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R02",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R02",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R03",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R04",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R04",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R05",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R06",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "codon-optimization:R07",
+      "recordId": "codon-optimization",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R01",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R02",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R03",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R03",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R04",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R05",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R06",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R06",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R07",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "in-vitro-transcription:R07",
+      "recordId": "in-vitro-transcription",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R01",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R02",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R03",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R03",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R04",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R04",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R05",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R05",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R06",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R07",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "modified-nucleosides:R07",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R01",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R02",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R03",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R03",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R03",
+      "recordId": "modified-rna-nucleosides",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R04",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R04",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R05",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R05",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R06",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R06",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R07",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "dsrna-impurities-and-purification:R07",
+      "recordId": "dsrna-impurities",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R01",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R02",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R03",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R04",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R05",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "mrna-construct-anatomy:R05",
+      "recordId": "mrna-construct-anatomy",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R01",
+      "recordId": "epitope",
+      "version": "proposal-antigen-antibodies",
+      "field": "tldr",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R01",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R02",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R03",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R04",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R04",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R05",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R05",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R05",
+      "recordId": "binding-presentation-recognition",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R06",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R06",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R07",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "notes",
+      "passageInActualBody": true
+    },
+    {
+      "requirementId": "multi-epitope-constructs:R07",
+      "recordId": "multi-epitope-constructs",
+      "version": "draft-373",
+      "field": "summary",
+      "passageInActualBody": true
+    }
+  ]
+}

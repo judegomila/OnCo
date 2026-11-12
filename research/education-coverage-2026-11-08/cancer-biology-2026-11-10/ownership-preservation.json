@@ -1,0 +1,37 @@
+{
+  "wholeGraphChangedOnlyAllowedOwners": true,
+  "rootBeforeCount": 22795,
+  "rootAfterCount": 22796,
+  "changedRootOwners": [
+    "oncogene-addiction",
+    "tumor-microenvironment",
+    "clonal-evolution",
+    "tumor-dormancy",
+    "hallmarks-of-cancer",
+    "inducing-angiogenesis",
+    "cancer-associated-fibroblasts",
+    "tumor-associated-macrophages",
+    "myeloid-derived-suppressor-cells",
+    "oncogene",
+    "tumour-suppressor-gene",
+    "angiogenesis",
+    "benign-vs-malignant",
+    "metastasis",
+    "oncogene-activation-two-hit",
+    "caf-activation-desmoplasia",
+    "tumour-hypoxia",
+    "clonal-evolution-theory",
+    "microenvironment-inflammation-theory",
+    "immune-surveillance-immunoediting",
+    "intra-tumour-heterogeneity"
+  ],
+  "newRootOwners": [
+    "extracellular-matrix"
+  ],
+  "sharedChangedOwners": [
+    "antigen-presentation-immunoediting"
+  ],
+  "oldRootNotesAndSourceURLsPreserved": true,
+  "automaticCanSimAttributionPreserved": true,
+  "workerPacketsAndCommitsPreserved": true
+}

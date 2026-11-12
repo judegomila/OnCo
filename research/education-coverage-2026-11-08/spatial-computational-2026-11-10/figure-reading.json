@@ -1,0 +1,1605 @@
+{
+  "families": [
+    {
+      "family": "parallel-measurement-meaning-and-use-v1",
+      "pages": [
+        "analytical-validity-clinical-validity-and-utility"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/parallel-measurement-meaning-and-use-v1-light.svg.png",
+          "renderSha256": "9ebd4928fdf2129e5811f4744359ccc4cdfe700c0351d8ee30c75848cdcb0223",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/parallel-measurement-meaning-and-use-v1-dark.svg.png",
+          "renderSha256": "b9a87fdb6c1d87b4929ba31d9cc33a33055dcde0baea8ccac6c99ec770a1a219",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Three boxed questions (measure: spiked target and three repeat readings; meaning: test result then later outcome; use: positive to Drug A against a defined alternative, both outcome boxes marked with a question mark, outcomes and harms not compared). Light and dark text identical.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "score-distribution-rank-and-predicted-concentration-v1",
+      "pages": [
+        "binding-prediction"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/score-distribution-rank-and-predicted-concentration-v1-light.svg.png",
+          "renderSha256": "725bac3da588b3e1d2504e17c907d324f739c87feea402272bebef61485edd87",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/score-distribution-rank-and-predicted-concentration-v1-dark.svg.png",
+          "renderSha256": "aab320e194cea88b6c932546bf422cd6514d9875d3e9f95e89dbfcdd15ef0b4c",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Histogram of a fictional 1,000-score reference; bars 250, 240, 200, 130, 80, 50, 30, 16, 4 (sum 1,000); 4 beyond the candidate boundary gives 4/1,000 = 0.4%; separate BA output 40 nM predicted IC50. Dark render has a rounded outer container.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "binding-prediction::figure-toy-rank",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "donors-cells-and-held-out-interventions-v1",
+      "pages": [
+        "model-validation-basics"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/donors-cells-and-held-out-interventions-v1-light.svg.png",
+          "renderSha256": "1cd4ca819b553705ecf93b283cc0ac8e7282fb1aa01f9ae7c311485288238ea9",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/donors-cells-and-held-out-interventions-v1-dark.svg.png",
+          "renderSha256": "d711f2d5d01ca86d3eb6777789d365ce41d1f589b0b5670f49df3422a5805e58",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Three paired fit-and-tune versus locked-test panels: shared donors D1 and D2 with new cells; reserved donors D3 and D4; reserved intervention Y with X used for fitting. Light and dark equal; no performance claim.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "model-validation-basics::figure-held-out",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "reports-and-observations",
+      "pages": [
+        "multi-omic-integration"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/raw/assets-7510db6b/wiki__education__concepts__measurement__computational-analysis__images__reports-and-observations-light.png",
+          "renderSha256": "51c7e07a45441c45a6c9f2e1ed929cff2e03c7b69d7a61d4321eb38d6ac2c7ab",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/raw/assets-7510db6b/wiki__education__concepts__measurement__computational-analysis__images__reports-and-observations-dark.png",
+          "renderSha256": "af2d08d7559c91d91fe07bbbc42274dc4f8eb410f0a75c6491a95451acb9b47b",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Raster pair (independent image-model outputs): one DNA call (T in A C T G A) fans out to Reports A, B and C; below, the same DNA call beside an RNA assay with a splice junction arc. Light and dark differ in rendering only.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-dark.png",
+        "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-light.png",
+        "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-dark.png",
+        "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-light.png"
+      ],
+      "requirementRows": [
+        [
+          "multi-omic-integration::figure-reports-raster",
+          "covered-applied-figure-reading"
+        ],
+        [
+          "multi-omic-integration::figure-specimen-context",
+          "covered-applied-figure-reading"
+        ]
+      ]
+    },
+    {
+      "family": "multiomic-specimen-and-cell-context-v1",
+      "pages": [
+        "multi-omic-integration"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/multiomic-specimen-and-cell-context-v1-light.svg.png",
+          "renderSha256": "3706380d6f524a33c2dcf4935c216c164443c498310c6836a7b56d2a7c1b11ed",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/multiomic-specimen-and-cell-context-v1-dark.svg.png",
+          "renderSha256": "3e30559608b2a54648fa38013df23e2894067a78df09ace2ef59f16983e9b798",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Specimen S at T1 yields bulk RNA (Q abundant) and a tissue image (Q seen in a ring of normal vessel cells); malignant cells marked with question marks; imputed Q boxed as a model estimate; other specimen or time is not paired evidence.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "multi-omic-integration::figure-reports-raster",
+          "covered-applied-figure-reading"
+        ],
+        [
+          "multi-omic-integration::figure-specimen-context",
+          "covered-applied-figure-reading"
+        ]
+      ]
+    },
+    {
+      "family": "variant-transcript-context-and-evidence-v1",
+      "pages": [
+        "variant-effect-prediction"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/variant-transcript-context-and-evidence-v1-light.svg.png",
+          "renderSha256": "93d80202dc91b92ab0b6316891ad44692ef23826c5a7346d12529bf137ac4241",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/variant-transcript-context-and-evidence-v1-dark.svg.png",
+          "renderSha256": "714342b770fc978f2753ae49e8971f8c93205720f812716ad0932e4735470431",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Genomic line with point P (C to T); transcript T1 has an exon over P, T2 has an intron over P (different exon boundaries); three questions: annotation, splice model, RNA assay. A blank band sits under panel 2 (legibility only).",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "variant-effect-prediction::figure-two-transcripts",
+          "covered-applied-figure-reading"
+        ]
+      ]
+    },
+    {
+      "family": "missing-observation-versus-unseen-intervention-b11-v1",
+      "pages": [
+        "virtual-cell-model"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/missing-observation-versus-unseen-intervention-b11-v1-light.svg.png",
+          "renderSha256": "a5dba9662719b071477537d88b85aa8832c9dfa4674429b19ae18ca778f530bc",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/missing-observation-versus-unseen-intervention-b11-v1-dark.svg.png",
+          "renderSha256": "6b27809ac9c9b5e438bf858bdd51d237ca0f587f40efc98b7eba08fce41ba571",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Panel 1 fills a missing RNA for a held-out donor (diamond = computed); panel 2 forecasts withheld Y from familiar X; panel 3 matches the held-out unit to the claim and states computed is not measured. Dark render has a rounded outer container.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "virtual-cell-model::figure-missing-vs-unseen",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "raw-channels-and-mask-errors-v2",
+      "pages": [
+        "cell-segmentation"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/raw-channels-and-mask-errors-v2-light.svg.png",
+          "renderSha256": "ca704ee408315b48dfaffc10595558a7ac8df11ef27ee584cc9e0a4f41b67ad7",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/raw-channels-and-mask-errors-v2-dark.svg.png",
+          "renderSha256": "c6a34509366f633864e215e68ed3ab98025ba7ca28b13cf3a0d074718be2d601",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Channels A (immune) and K (keratin) for two stipulated cells stay fixed; masks show merged (1 object), split (3 objects) and shifted border; the cell table changes, the image does not.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "cell-segmentation::figure-mask-errors",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "metal-tag-channels-and-spatial-sampling-v1",
+      "pages": [
+        "imaging-mass-cytometry"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/metal-tag-channels-and-spatial-sampling-v1-light.svg.png",
+          "renderSha256": "ed06e0b537e59129fec7680e772e0d2232d2221abc5e11c81d1e5a9f4121a614",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/metal-tag-channels-and-spatial-sampling-v1-dark.svg.png",
+          "renderSha256": "214198a837fb31ea7c0b1e8985dbd89900fead0b43afbfcb3d8aa48ece45bbe8",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Stained section grid with address x2,y1 sampled by laser and metal detection (material removed); channels A and B rebuilt on one grid with the same outlined tile; estimated borders need checking; suspension cells lose arrangement.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "imaging-mass-cytometry::figure-metal-tag",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "peptide-observation-and-protein-inference-v1",
+      "pages": [
+        "mass-spectrometry-proteomics"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/peptide-observation-and-protein-inference-v1-light.svg.png",
+          "renderSha256": "f07a6550a39aff3d6279b255ccdb0680414c6648fd34b95cf4df0f068bb97ac6",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/peptide-observation-and-protein-inference-v1-dark.svg.png",
+          "renderSha256": "d561682af11ec5dbb1d6b594e9cc7229cdbe3861f2c8d8fc56cefd9e2d3cda83",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Proteins from a mixed sample are extracted and digested into a peptide mixture; a shared peptide fits candidates A and B; intact form, source cells and surface access remain questions.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "mass-spectrometry-proteomics::figure-peptide-inference",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "channels-masks-and-two-distance-rulers-b11-v1",
+      "pages": [
+        "multiplex-immunofluorescence"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/channels-masks-and-two-distance-rulers-b11-v1-light.svg.png",
+          "renderSha256": "9d27934b78eba847c9e3c310e161e107ee1cc8b6328d0ec3cbcd453e3678372f",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/channels-masks-and-two-distance-rulers-b11-v1-dark.svg.png",
+          "renderSha256": "39bee58ebac8643e2dd5a3239823307ecb800e826891e1cb171519c82e5c2101",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Registered channels A and B; overlay with estimated masks and two rulers (centre-to-centre includes cell interiors, boundary-to-boundary spans the gap); proximity is not contact, recognition or killing. Dark render has an outer container.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "multiplex-immunofluorescence::figure-two-rulers",
+          "covered-applied-figure-reading"
+        ]
+      ]
+    },
+    {
+      "family": "parent-protein-and-phosphosignal-v2",
+      "pages": [
+        "phosphoproteomics"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/parent-protein-and-phosphosignal-v2-light.svg.png",
+          "renderSha256": "4a9079d8a59ea76e7faaa82efe65c551ffb07e8e5e890c49c8586dd3ffa8d451",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/parent-protein-and-phosphosignal-v2-dark.svg.png",
+          "renderSha256": "c99cb03404d7a16c37d9eeb0172ef4bca7296906314b63976636330b3cd6b079",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Parent protein 100 to 200 and phosphopeptide 20 to 40 on separate arbitrary-unit scales; each 2-fold; 2 / 2 = 1; raw 20/100 is not a molecule fraction. Arithmetic independently checked.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "phosphoproteomics::figure-parent-protein",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "rppa-mixed-lysate-addresses-and-dilutions-v1",
+      "pages": [
+        "rppa"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg.png",
+          "renderSha256": "7aebee33f08137753b44801c04e3a0d03fd4ae6834163da914ac05f0fe05e854",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg.png",
+          "renderSha256": "a8bef954b6e67fdb1d2b9878fa4e471651cb3a9b0215b65a259b49c9d5e26b97",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Cells disrupted into one lysate; sample A and B printed at dilutions 1, 1/2, 1/4 (six addresses), each spot still mixed; replicate arrays probed for R and phospho-R.",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "rppa::figure-lysate-addresses",
+          "patch-ready"
+        ]
+      ]
+    },
+    {
+      "family": "spatial-observation-assignment-imputation-v2",
+      "pages": [
+        "spatial-transcriptomics"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/spatial-observation-assignment-imputation-v2-light.svg.png",
+          "renderSha256": "8d82995a2c17a328bb5b2f2856b7e764cf4b9c17f6b2c6d3b45e1b9ed5144a18",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/spatial-observation-assignment-imputation-v2-dark.svg.png",
+          "renderSha256": "0d48b19ec15a256d7a69b99c268b68cd259682a53ad2151e5ab6f488803d95b0",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Four layers: capture spot pooling cells under one barcode; six decoded coordinates (G 3, H 3); masks change assignment while RNA is fixed; gene R absent and imputed (hatched).",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "spatial-transcriptomics::figure-four-layers",
+          "covered-applied-figure-reading"
+        ]
+      ]
+    },
+    {
+      "family": "peptide-response-and-reportable-range-b11-v1",
+      "pages": [
+        "targeted-proteomics-and-loq"
+      ],
+      "viewing": [
+        {
+          "theme": "light",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/peptide-response-and-reportable-range-b11-v1-light.svg.png",
+          "renderSha256": "38ab818d2f325daee739bead0d48fba600ff7469484eb6516c2f51d8e2ebe6ab",
+          "viewedFullExtentThisStage": true
+        },
+        {
+          "theme": "dark",
+          "renderPath": "parallel-round2-2026-11-09/spatial-computational-assets-literature/figures/png/peptide-response-and-reportable-range-b11-v1-dark.svg.png",
+          "renderSha256": "22584ea522a3e9f45881a0aa2bdb8f24ffb492b5db8bc04dbf84560a53f045ff",
+          "viewedFullExtentThisStage": true
+        }
+      ],
+      "contentSeen": "Fictional calibration with four shaded regions (blank, detected below LLOQ, validated range, upper saturation), replicate dots; peptide amount is not surface location; tight repeats do not rule out bias. Title touches the right edge in both renders (legibility only).",
+      "lightDarkDifferInContent": false,
+      "sourceAssetsPinnedIdentity": [
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+        "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg"
+      ],
+      "requirementRows": [
+        [
+          "targeted-proteomics-and-loq::figure-reportable-range",
+          "patch-ready"
+        ]
+      ]
+    }
+  ],
+  "assetReceipts": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "bytes": 11397,
+      "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+      "gitBlob": "4eb12b6f1132a3112532837db91931aba6cee658"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "bytes": 11397,
+      "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+      "gitBlob": "206f83e5d31c39946062c4d41c1756d628e6f29b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+      "bytes": 7246,
+      "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5",
+      "gitBlob": "fc4dfd0d6e1dc137b4b4276212af0b66d9ebdf6d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+      "bytes": 7246,
+      "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43",
+      "gitBlob": "41d4e405e35443bc4519568ced9d316ac47c7002"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+      "bytes": 6282,
+      "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e",
+      "gitBlob": "5e572134d8a8560b729e380cd66629bb4dd69a88"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+      "bytes": 6282,
+      "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905",
+      "gitBlob": "ad13b3dc5f8ddeff5aa9c32f06c56aa44bd9c5da"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+      "bytes": 6930,
+      "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132",
+      "gitBlob": "8668203a8ed2ecf1a30305586e1797f11f037847"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+      "bytes": 6930,
+      "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2",
+      "gitBlob": "02c6246675a476a6122ed0641d2f2ca78ce94739"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+      "bytes": 9219,
+      "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
+      "gitBlob": "970c9dc9e176400bbae8a55115a5d06501a6af80"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+      "bytes": 3005,
+      "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+      "gitBlob": "a89d945f64b48f07b8eb207c4f74c9e81ac359c5"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+      "bytes": 1144,
+      "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+      "gitBlob": "eafc61fe2ffab0c0d99ddf5f6c90d8affa0ecd4d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1-provenance.json",
+      "bytes": 5560,
+      "sha256": "cdc8f8a93e5c7cb7127e064db3c56fe0048b6829745008677e4eec234facd380",
+      "gitBlob": "e6a2d785443df1ade11f3c87cab1a41101dabb02"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1.txt",
+      "bytes": 1832,
+      "sha256": "1fb9c83a57df7315a702ccd34fc758811236548b73048348b78d380011378504",
+      "gitBlob": "cbb58d8865ab6a835d8e8e10527ec4daee83cd2b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1-independent-owner-review.json",
+      "bytes": 7061,
+      "sha256": "bf7c3d9ca85a33662a4e50b3fda6a6c1dadbe27a7f7fdbaed0b7a50bc5154068",
+      "gitBlob": "ea8090e21dbcf3ab46c0f6e1b7a11ff8a80f4870"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.json",
+      "bytes": 3476,
+      "sha256": "942e06802d4424f630783239dcef3e96c369e391c0b7a9cb7f70c7378e7df8a4",
+      "gitBlob": "518e0a5eecad579006df68e07edf73ba72723e5d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.txt",
+      "bytes": 1810,
+      "sha256": "e1600bf83aa05f1a5830a031c96bcbf70d0705f9d78c718486eb9533db81453e",
+      "gitBlob": "597e921463caa2c59e7a3c53cd5948fbcfcaa6f4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-independent-owner-review.json",
+      "bytes": 9090,
+      "sha256": "8ed6411e9daf59e83f7d3303f9f1df463d4d9ea0ce56051813b5a4b13cb139ae",
+      "gitBlob": "d0038611537cab9d9a2efe650917638529ca691c"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-provenance.json",
+      "bytes": 2984,
+      "sha256": "e5a900c8877909615c13101f1bab6a736c40e011bd34f541b5680f225c583fe5",
+      "gitBlob": "a094eae7a82eeade07cd16ce5b3b4d03186f3a8b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1.txt",
+      "bytes": 1230,
+      "sha256": "e4b23c00f302fe80c0ff3f1aefe6ee0f833fa854efe096287cd9849c60c7eb0d",
+      "gitBlob": "a72c5744f5e0ba719ad1cc5a8353fc8033a0e33b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-093-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json",
+      "bytes": 19447,
+      "sha256": "0bb59169b994c47f91168a7cfb65f9dcb1f0388fe469d8286771354c5c5cb797",
+      "gitBlob": "db24b7c8caeb6693679865953250cdaf98b17551"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-261-independent-owner-review.json",
+      "bytes": 10245,
+      "sha256": "62de16c0e86cc7bf112f77bf9d6f3a0bfea4391c62d2b1aaacee2439897cd984",
+      "gitBlob": "d5d1b1d403e6169e5c4c5ea0830cb51a67b6b740"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/reports-and-observations.txt",
+      "bytes": 1810,
+      "sha256": "5e5c07b173f805303c611909ea2f891131eaa4c26031c6d3835d10c672fd3fc2",
+      "gitBlob": "8a44bf51d3c1a01d18a00272200985cc34cef807"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-independent-owner-review.json",
+      "bytes": 6556,
+      "sha256": "b46636e2a42f419c0fc0de5b942cbc10cf876143be11d5c9a4aa79492b8e8be8",
+      "gitBlob": "b25b95c889e081f4f590abfb982d6c91e895fc1f"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-provenance.json",
+      "bytes": 5004,
+      "sha256": "116d88635f8394077c550865414463e7b78949da3c91dd3626947156121ef4e3",
+      "gitBlob": "593a3b29529866300726a3550e4b768c7b0562c0"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1.txt",
+      "bytes": 2143,
+      "sha256": "d387fee440374852d4c519bc53ff2a397a20a53dcb5cc25b8e9a1b3cf7cba57f",
+      "gitBlob": "3ee9c6c9b51d2947975cb8530cd690631addd4c9"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1-independent-owner-review.json",
+      "bytes": 7172,
+      "sha256": "24fd18e906dacb21956b0e8a9c6767f8a7cf3bdbb426b67d1e6ecf14bc975e4d",
+      "gitBlob": "13e5fccd6bb3e7ffb6ba28cac34e4dcc74528b74"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.json",
+      "bytes": 4174,
+      "sha256": "4d59e8b9fb4f97fbcb2b0379a79185b51546f27f123f3d7256affc42ac2d9856",
+      "gitBlob": "05eca5d1d7798c916f014beec33d2c1f73b493b9"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.txt",
+      "bytes": 1665,
+      "sha256": "7696cce2b1f1bc717f1450d3a96641a70e038c1e45c494f29549ee9ebaf8700a",
+      "gitBlob": "e036c75f5e4a134f2ccba45811a57cf5c0e91abb"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-dark.png",
+      "bytes": 1465508,
+      "sha256": "af2d08d7559c91d91fe07bbbc42274dc4f8eb410f0a75c6491a95451acb9b47b",
+      "gitBlob": "81e12a2504e8765648ae82998b5aa56e1360bfac"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-light.png",
+      "bytes": 1419799,
+      "sha256": "51c7e07a45441c45a6c9f2e1ed929cff2e03c7b69d7a61d4321eb38d6ac2c7ab",
+      "gitBlob": "036cdd28c3270505c0e4446dc8b0cc11852be544"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+      "bytes": 5172,
+      "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4",
+      "gitBlob": "38efaa07eacd4385911455f98113711b82b5e1ca"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+      "bytes": 5172,
+      "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645",
+      "gitBlob": "c9d4be182ded8e538e50e24a44aa5d31f38d7189"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+      "bytes": 4877,
+      "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03",
+      "gitBlob": "0ab6be4cad5364ea626152e14914d3cd80e7f408"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+      "bytes": 4877,
+      "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739",
+      "gitBlob": "980ad2ea26610c849f91fb10ee46057cb2216d2d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+      "bytes": 8209,
+      "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b",
+      "gitBlob": "fc4e1e4cdaeb2d494bf8cb5d2ce59eff0698603a"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+      "bytes": 8209,
+      "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23",
+      "gitBlob": "2d5b45f485d63c9047055ed012efe508bc985a3d"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+      "bytes": 7287,
+      "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+      "gitBlob": "1380dc7e4d05486109c9c61247c065d1a53fcd9e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+      "bytes": 7287,
+      "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+      "gitBlob": "fdf2bdff4fd450c24c806d5c7608791acd0c7e63"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+      "bytes": 8272,
+      "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504",
+      "gitBlob": "f048ff28e78c9cb0c1209180c0fe7187dc5c1d61"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+      "bytes": 8272,
+      "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc",
+      "gitBlob": "89eda097260e0754b7dc5231654b011bad17d1fb"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+      "bytes": 15810,
+      "sha256": "a1b1393132561e14d922e60488544e746d3e61d43e0fbcc08426fb99fee7cee8",
+      "gitBlob": "14d436e66dc7a601ea55952da863af307fe98283"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+      "bytes": 15812,
+      "sha256": "89fae3a866dd6a85060b6decd3eee966ab060cb5f88dcf2ad53bd86b1eed361b",
+      "gitBlob": "b0ffef6dcd96c9465482487d0f6074607ecdd2f0"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+      "bytes": 6518,
+      "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5",
+      "gitBlob": "e84b0c4a7c7aeff4c2d029381951ce4d4c3337d5"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+      "bytes": 6518,
+      "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7",
+      "gitBlob": "946106603172272a3e754cc068a7fdbe7ea99c1f"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1-provenance.json",
+      "bytes": 5449,
+      "sha256": "b421488ec039bb150939df1b47e06705d749ff9c2ee890e1a3933465b7374232",
+      "gitBlob": "018a837dac43c03f19b52d0434bb738024c3236a"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1.txt",
+      "bytes": 1654,
+      "sha256": "25a74fccf7a83f3e9cec86c009e6bdbe9cd913bf11f7590faff0871f09b3cba9",
+      "gitBlob": "4b38e1601ce2b0cc565ba30e063fdf962a772539"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json",
+      "bytes": 5218,
+      "sha256": "33e10de580e1fc87b52ca1fa0e41e183d14f2f22f7454b663145a58f5d075cd3",
+      "gitBlob": "aa3c15a1edbe7e5f72eb785b1d69e6548c6859b8"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1.txt",
+      "bytes": 2058,
+      "sha256": "d7270e2d27671847c10d5a52735afe77d68762acd54a04e0b3aa657b7450d172",
+      "gitBlob": "384ca1fc725ad6e75c138af65252d0d913bb5159"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-054-generated-owner-metadata-continuity.json",
+      "bytes": 5028,
+      "sha256": "4e1e74106a9c56feb2c401f8187a2605ed57516759dee86d55301b148362d67d",
+      "gitBlob": "6a84a199e1930534a199ed9084cff26b49066c33"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-078-generated-owner-metadata-continuity.json",
+      "bytes": 5094,
+      "sha256": "d5be6988cf9335480111b35f1f96ebad74fb968f0cace7458048162a80fadafd",
+      "gitBlob": "69b45f3e5ac71de8c2e519e61488258807a17906"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-079-generated-owner-metadata-continuity.json",
+      "bytes": 4933,
+      "sha256": "03774d1275739439447ebcf05c080134bc0afefeeadfabdf8c27d5d364b4d525",
+      "gitBlob": "59c24e0c911518fbfd53b12c09aa693392c794b7"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-080-generated-owner-metadata-continuity.json",
+      "bytes": 4972,
+      "sha256": "8aa098844b7f19f7eb9716cc39d52f9402fca4d0e43a90edd0e62cf727364add",
+      "gitBlob": "eb2fcae7eaf478368d956f671ca749b775c48210"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-independent-owner-review.json",
+      "bytes": 9851,
+      "sha256": "bc0ce4a1a9d5bba44b76e04d5aa2ab8447d308ee8136d53185b533f7bde7ad9b",
+      "gitBlob": "75e1b2be74f3a1d5437ab54afbd33bb1a1266674"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-provenance.json",
+      "bytes": 2729,
+      "sha256": "ad77e62e1480def64faafbf1fc462af7f3e9c6d7e869ad7eb874f9101a5c5a0a",
+      "gitBlob": "4c1800378c39ed197e4ce252e05a89c30aa5f5a3"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2.txt",
+      "bytes": 1168,
+      "sha256": "20f6c3e0730329cf78f28cb5ecbb09f6ede29f129ece09575117ed1e9be4fd6f",
+      "gitBlob": "c3e699a282670071f654ea38ae9bb02896435c95"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-224-independent-new-owner-task-fit.json",
+      "bytes": 33578,
+      "sha256": "e927c903f3ec516277bbbd5b581b8a23df4d5221f684e1cfc7ad084159209576",
+      "gitBlob": "37c8f905c78985da723c027add586d725fe84cf8"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-225-independent-new-owner-task-fit.json",
+      "bytes": 28989,
+      "sha256": "bedb44b5d2bb2f62781752c351799522e6cf28ff5f1866589d9af960860165fb",
+      "gitBlob": "be71aedbe6faac5df9a37ebe819d7df3c03dd944"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-256-independent-owner-review.json",
+      "bytes": 9962,
+      "sha256": "f0d8b9c6b7e7c21d4cd522edae1157662b64157cf4a7381e48bec5e3ca646305",
+      "gitBlob": "7ae23b280c350a8df7d1f1aff3d43777c0c3179e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-257-independent-owner-review.json",
+      "bytes": 13937,
+      "sha256": "8ba5021414d48bc12b2e09802ce044dad77ac6c8e49226bac80672b5cffc6500",
+      "gitBlob": "90e714df07e1fbb66f8d9e3f2ce426ee9a03ce85"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1-public-custody.json",
+      "bytes": 10561,
+      "sha256": "fb8ac6cf956fc7f646b0801b6c85105fba12517c2c5e4f2b3ec91b6d8d2eb3df",
+      "gitBlob": "0b4582f16014eb109dd91223a063af24182a2a7e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1.txt",
+      "bytes": 1132,
+      "sha256": "1eb95a3e0c8943bea4024ab45af333e62eace02aa7dbfd5aa091111ed1f398e1",
+      "gitBlob": "34a82f5265f2412d1c56630026bea0a0840e15a4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1-provenance.json",
+      "bytes": 6628,
+      "sha256": "f8951b909d92d965d5388d3f5d4fd9cadb9199498f54dcf7bd0ca2c393d5d1ae",
+      "gitBlob": "902c37542ff0389f6aab964420621f297e6f30da"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1.txt",
+      "bytes": 1734,
+      "sha256": "8cc510f874e6b50ac4b4e63a6cc98b28940c225179ed118d1c10e59762e0bc18",
+      "gitBlob": "a73ea9cdde85ac47967e37268179d29f2e492ac3"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+      "bytes": 10758,
+      "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb",
+      "gitBlob": "7865ab9c2e437afe7cb5a19b4d2c7cfb6f2cba98"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+      "bytes": 3602,
+      "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071",
+      "gitBlob": "1fc96663249835e72efaf60a9fa66e6167703166"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2.txt",
+      "bytes": 1142,
+      "sha256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216",
+      "gitBlob": "13c6bfaf3e26aed7783258cf9869dfc6e3c5362e"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json",
+      "bytes": 5477,
+      "sha256": "5a047fe8e92b5c73d43aa4a882f55e3e9b4e7f29965b3eb6242e4a2ffa02be0d",
+      "gitBlob": "7495deb5ec1543d49cde1227a5320350c71aacf4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1.txt",
+      "bytes": 2082,
+      "sha256": "bca660bdca5044ec64c6b855bba15c60bf8ef41413f98e6c2ead76aed2bd068b",
+      "gitBlob": "38bb2f4f68dd5d83ccb53e1d502766c3c5d50ec9"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-independent-owner-review.json",
+      "bytes": 10926,
+      "sha256": "1a15763aae8818e7a6220ab465c7e0e6b438fdff4289599214293bedfa3f34b8",
+      "gitBlob": "bf71deea58560565c673833252d943cf85f579c6"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-provenance.json",
+      "bytes": 3702,
+      "sha256": "0b67de9e1191f006b954efe133255dea321644a311d5e3c533869a146e208446",
+      "gitBlob": "64a46e991b147331fd7605ec597e7700a71b5af8"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2.txt",
+      "bytes": 1255,
+      "sha256": "9d898d2bee26e1122cafda3c32991dbfca415fe47f9000da6c934586d3f269aa",
+      "gitBlob": "e8761e44c53cefff5533d8df4414a63535b5a0d4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+      "bytes": 10145,
+      "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c",
+      "gitBlob": "884131d9de371e7a74767a26b9b4bb6b400ebef9"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+      "bytes": 10145,
+      "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c",
+      "gitBlob": "a60112dd7bf484cf792c93b21bf00c16c70e740c"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+      "bytes": 8037,
+      "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+      "gitBlob": "88b7966a01b01498d2255e3103fc800edc9793f4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+      "bytes": 8037,
+      "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+      "gitBlob": "33302ecb212d7435b014123e2625336ce960c5b7"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+      "bytes": 9483,
+      "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161",
+      "gitBlob": "d8ad7658ebe9122f3d36ce7aa697adf5e4e30609"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+      "bytes": 9483,
+      "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac",
+      "gitBlob": "22677f771695aaea2c6df27d4641d40ace1d8c21"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-dark.svg",
+      "bytes": 11397,
+      "sha256": "114184e703ae51db3dcecee8e94e4f59b1d822a6a627697089a4ab84944595bd",
+      "gitBlob": "4eb12b6f1132a3112532837db91931aba6cee658"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/donors-cells-and-held-out-interventions-v1-light.svg",
+      "bytes": 11397,
+      "sha256": "b18b99cdeb7397cc28a0aa6b4b1a01d5d6baa9d592ae2e6f1675acbe317449eb",
+      "gitBlob": "206f83e5d31c39946062c4d41c1756d628e6f29b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-dark.svg",
+      "bytes": 7246,
+      "sha256": "838e4b09103e824e9cdac5a0c3801a373c8357da81efdf8d55f6ae1c9a21abd5",
+      "gitBlob": "fc4dfd0d6e1dc137b4b4276212af0b66d9ebdf6d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/missing-observation-versus-unseen-intervention-b11-v1-light.svg",
+      "bytes": 7246,
+      "sha256": "977bdcbd9640ae3b4011c862f5888e4740cb21854a50b07960850f769fbe6e43",
+      "gitBlob": "41d4e405e35443bc4519568ced9d316ac47c7002"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-dark.svg",
+      "bytes": 6282,
+      "sha256": "4568b990a9767c41a68832ade3008e5067d226483670c9b4ad824d7222764a9e",
+      "gitBlob": "5e572134d8a8560b729e380cd66629bb4dd69a88"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/multiomic-specimen-and-cell-context-v1-light.svg",
+      "bytes": 6282,
+      "sha256": "d102b9654181523f43b8eac662133db81c4103ba445b62c7d284b2bac046f905",
+      "gitBlob": "ad13b3dc5f8ddeff5aa9c32f06c56aa44bd9c5da"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-dark.svg",
+      "bytes": 6930,
+      "sha256": "60459ae49a4288d3707c3fe11789bd07fa2739604bddc5e0aff35b4e069ea132",
+      "gitBlob": "8668203a8ed2ecf1a30305586e1797f11f037847"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/parallel-measurement-meaning-and-use-v1-light.svg",
+      "bytes": 6930,
+      "sha256": "1de2736f741163d68a3f55368e7283543b4395a2fe411beb6c97c11966f1b6e2",
+      "gitBlob": "02c6246675a476a6122ed0641d2f2ca78ce94739"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-independent-owner-review.json",
+      "bytes": 9219,
+      "sha256": "5f86895f21cfa0debeb204bb88c363c44a96312cf3c778a96afc158b061607da",
+      "gitBlob": "970c9dc9e176400bbae8a55115a5d06501a6af80"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1-provenance.json",
+      "bytes": 3005,
+      "sha256": "9553346488e7e53349cb24175f68d2d8f588d844b650fb8631e88e9fbcda52fa",
+      "gitBlob": "a89d945f64b48f07b8eb207c4f74c9e81ac359c5"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/donors-cells-and-held-out-interventions-v1.txt",
+      "bytes": 1144,
+      "sha256": "47a41345c1d9ee56a2105925d43cebfe779711548086003c2aca9589cb381891",
+      "gitBlob": "eafc61fe2ffab0c0d99ddf5f6c90d8affa0ecd4d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1-provenance.json",
+      "bytes": 5560,
+      "sha256": "cdc8f8a93e5c7cb7127e064db3c56fe0048b6829745008677e4eec234facd380",
+      "gitBlob": "e6a2d785443df1ade11f3c87cab1a41101dabb02"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/missing-observation-versus-unseen-intervention-b11-v1.txt",
+      "bytes": 1832,
+      "sha256": "1fb9c83a57df7315a702ccd34fc758811236548b73048348b78d380011378504",
+      "gitBlob": "cbb58d8865ab6a835d8e8e10527ec4daee83cd2b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1-independent-owner-review.json",
+      "bytes": 7061,
+      "sha256": "bf7c3d9ca85a33662a4e50b3fda6a6c1dadbe27a7f7fdbaed0b7a50bc5154068",
+      "gitBlob": "ea8090e21dbcf3ab46c0f6e1b7a11ff8a80f4870"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.json",
+      "bytes": 3476,
+      "sha256": "942e06802d4424f630783239dcef3e96c369e391c0b7a9cb7f70c7378e7df8a4",
+      "gitBlob": "518e0a5eecad579006df68e07edf73ba72723e5d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/multiomic-specimen-and-cell-context-v1.txt",
+      "bytes": 1810,
+      "sha256": "e1600bf83aa05f1a5830a031c96bcbf70d0705f9d78c718486eb9533db81453e",
+      "gitBlob": "597e921463caa2c59e7a3c53cd5948fbcfcaa6f4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-independent-owner-review.json",
+      "bytes": 9090,
+      "sha256": "8ed6411e9daf59e83f7d3303f9f1df463d4d9ea0ce56051813b5a4b13cb139ae",
+      "gitBlob": "d0038611537cab9d9a2efe650917638529ca691c"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1-provenance.json",
+      "bytes": 2984,
+      "sha256": "e5a900c8877909615c13101f1bab6a736c40e011bd34f541b5680f225c583fe5",
+      "gitBlob": "a094eae7a82eeade07cd16ce5b3b4d03186f3a8b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/parallel-measurement-meaning-and-use-v1.txt",
+      "bytes": 1230,
+      "sha256": "e4b23c00f302fe80c0ff3f1aefe6ee0f833fa854efe096287cd9849c60c7eb0d",
+      "gitBlob": "a72c5744f5e0ba719ad1cc5a8353fc8033a0e33b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-093-generated-navigation-current-owner-task-fit-continuity-2026-10-15.json",
+      "bytes": 19447,
+      "sha256": "0bb59169b994c47f91168a7cfb65f9dcb1f0388fe469d8286771354c5c5cb797",
+      "gitBlob": "db24b7c8caeb6693679865953250cdaf98b17551"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/peer-reviews/next-gap-261-independent-owner-review.json",
+      "bytes": 10245,
+      "sha256": "62de16c0e86cc7bf112f77bf9d6f3a0bfea4391c62d2b1aaacee2439897cd984",
+      "gitBlob": "d5d1b1d403e6169e5c4c5ea0830cb51a67b6b740"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/reports-and-observations.txt",
+      "bytes": 1810,
+      "sha256": "5e5c07b173f805303c611909ea2f891131eaa4c26031c6d3835d10c672fd3fc2",
+      "gitBlob": "8a44bf51d3c1a01d18a00272200985cc34cef807"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-independent-owner-review.json",
+      "bytes": 6556,
+      "sha256": "b46636e2a42f419c0fc0de5b942cbc10cf876143be11d5c9a4aa79492b8e8be8",
+      "gitBlob": "b25b95c889e081f4f590abfb982d6c91e895fc1f"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1-provenance.json",
+      "bytes": 5004,
+      "sha256": "116d88635f8394077c550865414463e7b78949da3c91dd3626947156121ef4e3",
+      "gitBlob": "593a3b29529866300726a3550e4b768c7b0562c0"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/score-distribution-rank-and-predicted-concentration-v1.txt",
+      "bytes": 2143,
+      "sha256": "d387fee440374852d4c519bc53ff2a397a20a53dcb5cc25b8e9a1b3cf7cba57f",
+      "gitBlob": "3ee9c6c9b51d2947975cb8530cd690631addd4c9"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1-independent-owner-review.json",
+      "bytes": 7172,
+      "sha256": "24fd18e906dacb21956b0e8a9c6767f8a7cf3bdbb426b67d1e6ecf14bc975e4d",
+      "gitBlob": "13e5fccd6bb3e7ffb6ba28cac34e4dcc74528b74"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.json",
+      "bytes": 4174,
+      "sha256": "4d59e8b9fb4f97fbcb2b0379a79185b51546f27f123f3d7256affc42ac2d9856",
+      "gitBlob": "05eca5d1d7798c916f014beec33d2c1f73b493b9"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/prompts/variant-transcript-context-and-evidence-v1.txt",
+      "bytes": 1665,
+      "sha256": "7696cce2b1f1bc717f1450d3a96641a70e038c1e45c494f29549ee9ebaf8700a",
+      "gitBlob": "e036c75f5e4a134f2ccba45811a57cf5c0e91abb"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-dark.png",
+      "bytes": 1465508,
+      "sha256": "af2d08d7559c91d91fe07bbbc42274dc4f8eb410f0a75c6491a95451acb9b47b",
+      "gitBlob": "81e12a2504e8765648ae82998b5aa56e1360bfac"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/reports-and-observations-light.png",
+      "bytes": 1419799,
+      "sha256": "51c7e07a45441c45a6c9f2e1ed929cff2e03c7b69d7a61d4321eb38d6ac2c7ab",
+      "gitBlob": "036cdd28c3270505c0e4446dc8b0cc11852be544"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-dark.svg",
+      "bytes": 5172,
+      "sha256": "3f6ce993c7973b8c8396b35032d3978428dee23bd442e46ed953878623ae4dd4",
+      "gitBlob": "38efaa07eacd4385911455f98113711b82b5e1ca"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/score-distribution-rank-and-predicted-concentration-v1-light.svg",
+      "bytes": 5172,
+      "sha256": "ce4ab6197a73efed1e755779bcc15efec208fba9f3fbdfcdb9fa5664ffb2d645",
+      "gitBlob": "c9d4be182ded8e538e50e24a44aa5d31f38d7189"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-dark.svg",
+      "bytes": 4877,
+      "sha256": "2bb0378db532dadc441bbed9ac96d83995e6a9023b09f6acc7afd1f922215f03",
+      "gitBlob": "0ab6be4cad5364ea626152e14914d3cd80e7f408"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/images/variant-transcript-context-and-evidence-v1-light.svg",
+      "bytes": 4877,
+      "sha256": "35eaf6cfcb1fd765011b502a65258fc62a7e08cab3d9c7d4985a69e49d0cf739",
+      "gitBlob": "980ad2ea26610c849f91fb10ee46057cb2216d2d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-dark.svg",
+      "bytes": 8209,
+      "sha256": "b05374637b3bef3fa7dd74cb5c33aaa357c000a696d31a40fffdcf84e6ca902b",
+      "gitBlob": "fc4e1e4cdaeb2d494bf8cb5d2ce59eff0698603a"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/channels-masks-and-two-distance-rulers-b11-v1-light.svg",
+      "bytes": 8209,
+      "sha256": "40b77aaf1f53d3d187a5c030d0e114ac66da0dc8c2bcb3121c661a987255fd23",
+      "gitBlob": "2d5b45f485d63c9047055ed012efe508bc985a3d"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-dark.svg",
+      "bytes": 7287,
+      "sha256": "180e6d4b75c9e931c139a23fd98597e603998a58118bdfa67eacabd5574081ea",
+      "gitBlob": "1380dc7e4d05486109c9c61247c065d1a53fcd9e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/metal-tag-channels-and-spatial-sampling-v1-light.svg",
+      "bytes": 7287,
+      "sha256": "18ca8c7b87fae147350d555e8859d790bd3cd4e83530bf045d6b2c3212d53183",
+      "gitBlob": "fdf2bdff4fd450c24c806d5c7608791acd0c7e63"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-dark.svg",
+      "bytes": 8272,
+      "sha256": "521738dad24ae2d4c15fdca8fc409eaad233d56db8ad4f93a4d68e0489b13504",
+      "gitBlob": "f048ff28e78c9cb0c1209180c0fe7187dc5c1d61"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/parent-protein-and-phosphosignal-v2-light.svg",
+      "bytes": 8272,
+      "sha256": "502aaf38870f20aeda37c97b21a0bccfda8ddd13894f54ab1022bbe15fb619dc",
+      "gitBlob": "89eda097260e0754b7dc5231654b011bad17d1fb"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-dark.svg",
+      "bytes": 15810,
+      "sha256": "a1b1393132561e14d922e60488544e746d3e61d43e0fbcc08426fb99fee7cee8",
+      "gitBlob": "14d436e66dc7a601ea55952da863af307fe98283"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-observation-and-protein-inference-v1-light.svg",
+      "bytes": 15812,
+      "sha256": "89fae3a866dd6a85060b6decd3eee966ab060cb5f88dcf2ad53bd86b1eed361b",
+      "gitBlob": "b0ffef6dcd96c9465482487d0f6074607ecdd2f0"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-dark.svg",
+      "bytes": 6518,
+      "sha256": "66dc15bf7c06707c41083d520a7cf6e0ba8ee2acb5987321345c9253209ddca5",
+      "gitBlob": "e84b0c4a7c7aeff4c2d029381951ce4d4c3337d5"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/peptide-response-and-reportable-range-b11-v1-light.svg",
+      "bytes": 6518,
+      "sha256": "e3fec6565ac27d6cf652e43188908fff53d5bf04ad004bed5a886e9648be43e7",
+      "gitBlob": "946106603172272a3e754cc068a7fdbe7ea99c1f"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1-provenance.json",
+      "bytes": 5449,
+      "sha256": "b421488ec039bb150939df1b47e06705d749ff9c2ee890e1a3933465b7374232",
+      "gitBlob": "018a837dac43c03f19b52d0434bb738024c3236a"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/channels-masks-and-two-distance-rulers-b11-v1.txt",
+      "bytes": 1654,
+      "sha256": "25a74fccf7a83f3e9cec86c009e6bdbe9cd913bf11f7590faff0871f09b3cba9",
+      "gitBlob": "4b38e1601ce2b0cc565ba30e063fdf962a772539"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1-provenance.json",
+      "bytes": 5218,
+      "sha256": "33e10de580e1fc87b52ca1fa0e41e183d14f2f22f7454b663145a58f5d075cd3",
+      "gitBlob": "aa3c15a1edbe7e5f72eb785b1d69e6548c6859b8"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/metal-tag-channels-and-spatial-sampling-v1.txt",
+      "bytes": 2058,
+      "sha256": "d7270e2d27671847c10d5a52735afe77d68762acd54a04e0b3aa657b7450d172",
+      "gitBlob": "384ca1fc725ad6e75c138af65252d0d913bb5159"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-054-generated-owner-metadata-continuity.json",
+      "bytes": 5028,
+      "sha256": "4e1e74106a9c56feb2c401f8187a2605ed57516759dee86d55301b148362d67d",
+      "gitBlob": "6a84a199e1930534a199ed9084cff26b49066c33"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-078-generated-owner-metadata-continuity.json",
+      "bytes": 5094,
+      "sha256": "d5be6988cf9335480111b35f1f96ebad74fb968f0cace7458048162a80fadafd",
+      "gitBlob": "69b45f3e5ac71de8c2e519e61488258807a17906"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-079-generated-owner-metadata-continuity.json",
+      "bytes": 4933,
+      "sha256": "03774d1275739439447ebcf05c080134bc0afefeeadfabdf8c27d5d364b4d525",
+      "gitBlob": "59c24e0c911518fbfd53b12c09aa693392c794b7"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/next-gap-080-generated-owner-metadata-continuity.json",
+      "bytes": 4972,
+      "sha256": "8aa098844b7f19f7eb9716cc39d52f9402fca4d0e43a90edd0e62cf727364add",
+      "gitBlob": "eb2fcae7eaf478368d956f671ca749b775c48210"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-independent-owner-review.json",
+      "bytes": 9851,
+      "sha256": "bc0ce4a1a9d5bba44b76e04d5aa2ab8447d308ee8136d53185b533f7bde7ad9b",
+      "gitBlob": "75e1b2be74f3a1d5437ab54afbd33bb1a1266674"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2-provenance.json",
+      "bytes": 2729,
+      "sha256": "ad77e62e1480def64faafbf1fc462af7f3e9c6d7e869ad7eb874f9101a5c5a0a",
+      "gitBlob": "4c1800378c39ed197e4ce252e05a89c30aa5f5a3"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/parent-protein-and-phosphosignal-v2.txt",
+      "bytes": 1168,
+      "sha256": "20f6c3e0730329cf78f28cb5ecbb09f6ede29f129ece09575117ed1e9be4fd6f",
+      "gitBlob": "c3e699a282670071f654ea38ae9bb02896435c95"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-224-independent-new-owner-task-fit.json",
+      "bytes": 33578,
+      "sha256": "e927c903f3ec516277bbbd5b581b8a23df4d5221f684e1cfc7ad084159209576",
+      "gitBlob": "37c8f905c78985da723c027add586d725fe84cf8"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-225-independent-new-owner-task-fit.json",
+      "bytes": 28989,
+      "sha256": "bedb44b5d2bb2f62781752c351799522e6cf28ff5f1866589d9af960860165fb",
+      "gitBlob": "be71aedbe6faac5df9a37ebe819d7df3c03dd944"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-256-independent-owner-review.json",
+      "bytes": 9962,
+      "sha256": "f0d8b9c6b7e7c21d4cd522edae1157662b64157cf4a7381e48bec5e3ca646305",
+      "gitBlob": "7ae23b280c350a8df7d1f1aff3d43777c0c3179e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peer-reviews/next-gap-257-independent-owner-review.json",
+      "bytes": 13937,
+      "sha256": "8ba5021414d48bc12b2e09802ce044dad77ac6c8e49226bac80672b5cffc6500",
+      "gitBlob": "90e714df07e1fbb66f8d9e3f2ce426ee9a03ce85"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1-public-custody.json",
+      "bytes": 10561,
+      "sha256": "fb8ac6cf956fc7f646b0801b6c85105fba12517c2c5e4f2b3ec91b6d8d2eb3df",
+      "gitBlob": "0b4582f16014eb109dd91223a063af24182a2a7e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-observation-and-protein-inference-v1.txt",
+      "bytes": 1132,
+      "sha256": "1eb95a3e0c8943bea4024ab45af333e62eace02aa7dbfd5aa091111ed1f398e1",
+      "gitBlob": "34a82f5265f2412d1c56630026bea0a0840e15a4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1-provenance.json",
+      "bytes": 6628,
+      "sha256": "f8951b909d92d965d5388d3f5d4fd9cadb9199498f54dcf7bd0ca2c393d5d1ae",
+      "gitBlob": "902c37542ff0389f6aab964420621f297e6f30da"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/peptide-response-and-reportable-range-b11-v1.txt",
+      "bytes": 1734,
+      "sha256": "8cc510f874e6b50ac4b4e63a6cc98b28940c225179ed118d1c10e59762e0bc18",
+      "gitBlob": "a73ea9cdde85ac47967e37268179d29f2e492ac3"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-independent-owner-review.json",
+      "bytes": 10758,
+      "sha256": "820bf1089f78fbf506b7c9712e0824bfa57338104c83bdac442848e10e7c9efb",
+      "gitBlob": "7865ab9c2e437afe7cb5a19b4d2c7cfb6f2cba98"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2-provenance.json",
+      "bytes": 3602,
+      "sha256": "7d0a5788590812fb3b1f9a1140e2c470feebb5496d85223d5cb906082ab70071",
+      "gitBlob": "1fc96663249835e72efaf60a9fa66e6167703166"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/raw-channels-and-mask-errors-v2.txt",
+      "bytes": 1142,
+      "sha256": "9250acbf193c9547bfd0f6233ce924b1a2fc25e72b3aaa32d26a0881b5332216",
+      "gitBlob": "13c6bfaf3e26aed7783258cf9869dfc6e3c5362e"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1-provenance.json",
+      "bytes": 5477,
+      "sha256": "5a047fe8e92b5c73d43aa4a882f55e3e9b4e7f29965b3eb6242e4a2ffa02be0d",
+      "gitBlob": "7495deb5ec1543d49cde1227a5320350c71aacf4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/rppa-mixed-lysate-addresses-and-dilutions-v1.txt",
+      "bytes": 2082,
+      "sha256": "bca660bdca5044ec64c6b855bba15c60bf8ef41413f98e6c2ead76aed2bd068b",
+      "gitBlob": "38bb2f4f68dd5d83ccb53e1d502766c3c5d50ec9"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-independent-owner-review.json",
+      "bytes": 10926,
+      "sha256": "1a15763aae8818e7a6220ab465c7e0e6b438fdff4289599214293bedfa3f34b8",
+      "gitBlob": "bf71deea58560565c673833252d943cf85f579c6"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2-provenance.json",
+      "bytes": 3702,
+      "sha256": "0b67de9e1191f006b954efe133255dea321644a311d5e3c533869a146e208446",
+      "gitBlob": "64a46e991b147331fd7605ec597e7700a71b5af8"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/prompts/spatial-observation-assignment-imputation-v2.txt",
+      "bytes": 1255,
+      "sha256": "9d898d2bee26e1122cafda3c32991dbfca415fe47f9000da6c934586d3f269aa",
+      "gitBlob": "e8761e44c53cefff5533d8df4414a63535b5a0d4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-dark.svg",
+      "bytes": 10145,
+      "sha256": "63c5f66fe36a311d7637b43cdfc840f43763af180b1eba7c40693e480638d35c",
+      "gitBlob": "884131d9de371e7a74767a26b9b4bb6b400ebef9"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/raw-channels-and-mask-errors-v2-light.svg",
+      "bytes": 10145,
+      "sha256": "735561959ab2fdb81e710cb038a85d19cf70d4080d35441d7dc75f844250e06c",
+      "gitBlob": "a60112dd7bf484cf792c93b21bf00c16c70e740c"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-dark.svg",
+      "bytes": 8037,
+      "sha256": "d4173a8ab0eeeaf3b9c65d028cbffeddf97817b248f25c819cd83109fe879177",
+      "gitBlob": "88b7966a01b01498d2255e3103fc800edc9793f4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/rppa-mixed-lysate-addresses-and-dilutions-v1-light.svg",
+      "bytes": 8037,
+      "sha256": "03828075f0f8f04d5fb5a1b5ad364995ce22ff0326ff11860fa1c14db8f75943",
+      "gitBlob": "33302ecb212d7435b014123e2625336ce960c5b7"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-dark.svg",
+      "bytes": 9483,
+      "sha256": "bae357c6e9a903ac2ca00a58cb5856b14c220b121da1bbe8779a3ab64ba22161",
+      "gitBlob": "d8ad7658ebe9122f3d36ce7aa697adf5e4e30609"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/images/spatial-observation-assignment-imputation-v2-light.svg",
+      "bytes": 9483,
+      "sha256": "d2ec752a25b13d327ed587a7b4269aa306ff8305ae372a43d2c5453856ce53ac",
+      "gitBlob": "22677f771695aaea2c6df27d4641d40ace1d8c21"
+    }
+  ],
+  "reviewedFigureFiles": 30,
+  "reviewedFigureVersionEntries": 60,
+  "supportingAssets": "Remaining 94 supporting-asset version entries verified by identity only in this checkpoint; no new support classification claimed."
+}

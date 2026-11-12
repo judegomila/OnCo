@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-12",
+  "dataCommit": "6cb3e9a92c9538c8c7c2a57e3942a08089b53584",
+  "firstParent": "3b125286c28e487a3923d0dfb85c3b1d14fb5996",
+  "incorporatedMain": "2f25843d31097b6b12824e0a4cc528e4fcdbda99",
+  "mergeParents": [
+    "3b125286c28e487a3923d0dfb85c3b1d14fb5996",
+    "2f25843d31097b6b12824e0a4cc528e4fcdbda99"
+  ],
+  "upstreamFiles": 88,
+  "upstreamLiteralRecordChanges": 107,
+  "resolvedConflictFiles": 4,
+  "resolvedConflictHunks": 7,
+  "explicitAliasDecisions": 21,
+  "runtimeAliasChanges": 49,
+  "runtimeProtocolDrugListChanges": 56,
+  "runtimeMedicineBacklinks": 40,
+  "newProtocolMedicineRelations": 96,
+  "selectedCanonicalSnapshotsRefreshed": 6,
+  "newProposalReceipts": 1,
+  "learningRequirementsAdded": 0,
+  "sourceAssessmentsAdded": 0,
+  "sourceAssetDispositionsAdded": 0,
+  "graphIdsAdded": 0,
+  "graphIdsRemoved": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "wholeCorpusReauditCredit": 0,
+  "broaderGoalComplete": false
+}

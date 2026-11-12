@@ -1,0 +1,122 @@
+{
+  "dataCommit": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "matchingRootReferencesRebound": 4,
+  "distinctFields": 1,
+  "references": [
+    {
+      "ledger": "ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "pointId": "antigen-r45",
+      "requirement": "Cross-presentation (display) versus cross-priming (activation)",
+      "before": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "field": "summary",
+        "fieldSha256": "1623809f22875fc0a0f3f85776426b6b7563b30f7fe52df92cd7cb8c9daf738e",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "summary",
+        "fieldSha256": "71dc8845dba286b7bb69d61ac4baebc1d20953fca25a28222eaf55a6d0591605",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the corrected committed root summary: the direct/cross-presentation, cross-dressing and cross-priming paragraph is retained byte-exactly. Earlier source-reading and acceptance limits are unchanged."
+      },
+      "teachingRetained": true
+    },
+    {
+      "ledger": "ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "pointId": "antigen-r46",
+      "requirement": "Direct presentation by vaccine-transfected cell; cross-dressing is not recipient processing; class II external antigen excluded",
+      "before": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "field": "summary",
+        "fieldSha256": "1623809f22875fc0a0f3f85776426b6b7563b30f7fe52df92cd7cb8c9daf738e",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "summary",
+        "fieldSha256": "71dc8845dba286b7bb69d61ac4baebc1d20953fca25a28222eaf55a6d0591605",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the corrected committed root summary: the direct/cross-presentation, cross-dressing and cross-priming paragraph is retained byte-exactly. Earlier source-reading and acceptance limits are unchanged."
+      },
+      "teachingRetained": true
+    },
+    {
+      "ledger": "source-phases/c9689645/ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "pointId": "antigen-r45",
+      "requirement": "Cross-presentation (display) versus cross-priming (activation)",
+      "before": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "field": "summary",
+        "fieldSha256": "1623809f22875fc0a0f3f85776426b6b7563b30f7fe52df92cd7cb8c9daf738e",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "summary",
+        "fieldSha256": "71dc8845dba286b7bb69d61ac4baebc1d20953fca25a28222eaf55a6d0591605",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the corrected committed root summary: the direct/cross-presentation, cross-dressing and cross-priming paragraph is retained byte-exactly. Earlier source-reading and acceptance limits are unchanged."
+      },
+      "teachingRetained": true
+    },
+    {
+      "ledger": "source-phases/c9689645/ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/cross-presentation.md",
+      "pointId": "antigen-r46",
+      "requirement": "Direct presentation by vaccine-transfected cell; cross-dressing is not recipient processing; class II external antigen excluded",
+      "before": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "field": "summary",
+        "fieldSha256": "1623809f22875fc0a0f3f85776426b6b7563b30f7fe52df92cd7cb8c9daf738e",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "dendritic-cell-cross-presentation",
+        "version": "proposal-vaccine-data-guides-root",
+        "field": "summary",
+        "fieldSha256": "71dc8845dba286b7bb69d61ac4baebc1d20953fca25a28222eaf55a6d0591605",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the corrected committed root summary: the direct/cross-presentation, cross-dressing and cross-priming paragraph is retained byte-exactly. Earlier source-reading and acceptance limits are unchanged."
+      },
+      "teachingRetained": true
+    }
+  ],
+  "separateDraft373ReferencesRetained": [
+    {
+      "ledger": "ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "pointId": "antigen-r52",
+      "evidenceIndex": 0,
+      "requirement": "Neoantigen candidate evidence ladder (sequence, prediction, recovered peptide, natural recognition); splice and frameshift sources",
+      "evidence": {
+        "recordId": "neoantigen",
+        "version": "draft-373",
+        "field": "notes",
+        "fieldSha256": "83c841ad54865bfa4e4a061440237be5ce2a0a2b13274b8624e63a8a8dff433b",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      }
+    },
+    {
+      "ledger": "source-phases/c9689645/ledger.json",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+      "pointId": "antigen-r52",
+      "evidenceIndex": 0,
+      "requirement": "Neoantigen candidate evidence ladder (sequence, prediction, recovered peptide, natural recognition); splice and frameshift sources",
+      "evidence": {
+        "recordId": "neoantigen",
+        "version": "draft-373",
+        "field": "notes",
+        "fieldSha256": "83c841ad54865bfa4e4a061440237be5ce2a0a2b13274b8624e63a8a8dff433b",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      }
+    }
+  ],
+  "scope": "Current root dependencies are rebound without upgrading their source depth or independent acceptance. The two frozen peer neoantigen bindings are unchanged."
+}

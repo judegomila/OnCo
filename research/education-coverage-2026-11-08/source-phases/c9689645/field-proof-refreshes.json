@@ -1,0 +1,61 @@
+{
+  "checkedOn": "2026-11-09",
+  "items": [
+    {
+      "sourceVersion": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "routes",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    },
+    {
+      "sourceVersion": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "access-paperwork-costs",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    },
+    {
+      "sourceVersion": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "request-denominator",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    },
+    {
+      "sourceVersion": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "routes",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    },
+    {
+      "sourceVersion": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "access-paperwork-costs",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    },
+    {
+      "sourceVersion": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "requirement": "request-denominator",
+      "recordId": "expanded-access",
+      "field": "notes",
+      "scope": "Existing requirement rechecked against retained and strengthened notes; exact new array hash."
+    }
+  ],
+  "newRequirementsClosed": [
+    "charging-cost-scope",
+    "emergency-authority-and-reporting",
+    "percist-baseline-and-timing",
+    "percist-full-categories",
+    "percist-breast-comparison"
+  ],
+  "persistentRenderedBundle": "render-checkpoints/source-phases-2026-11-09-r1"
+}

@@ -12,7 +12,7 @@ import type { EntityInput, IdeaInput, PathwayInput, TermInput } from "@/lib/sche
 const asOf = "2026-09-08";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 type P = Omit<PathwayInput, "kind" | "asOf"> & { asOf?: string };
-type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string };
+type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string; asOf?: string };
 type I = Omit<IdeaInput, "kind" | "asOf">;
 const p = ({ asOf: checked = asOf, ...x }: P): PathwayInput => ({ kind: "pathway", asOf: checked, ...x });
 const t = ({ category = "Cancer biology", ...x }: T): TermInput => ({ kind: "term", asOf, category, ...x });
@@ -45,9 +45,14 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "tumor-microenvironment", related: ["theories-of-cancer", "microenvironment-inflammation-theory", "tissue-organisation-field-theory"], keyPapers: ["paper-quail-joyce-microenvironment-metastasis-natmed-2013"], name: "Tumour microenvironment (TME)", wikipedia: W("Tumor_microenvironment"),
-    tldr: "A tumour is not just cancer cells. It is a neighbourhood of fibroblasts, immune cells, blood vessels, nerves, and scaffolding that the cancer recruits and corrupts, and that decides whether drugs and immune cells can get in.",
-    summary: "Cancer-associated fibroblasts (CAFs; myCAF/iCAF/apCAF subtypes) build desmoplastic stroma and secrete TGF-β, CXCL12, and IL-6; tumour-associated macrophages (TAMs) and myeloid-derived suppressor cells (MDSCs) suppress T cells; regulatory T cells and exhausted CD8 T cells define immune phenotypes (inflamed, excluded, desert); abnormal vasculature creates hypoxia and blocks drug delivery; extracellular matrix stiffness signals through integrins and YAP; nerves and adipocytes add fuel and signals. Single-cell and spatial profiling has turned the TME from a concept into a map with druggable niches (FAP, CSF1R, CXCR4, TGF-β, adenosine).",
+    id: "tumor-microenvironment", related: [
+  "theories-of-cancer",
+  "microenvironment-inflammation-theory",
+  "tissue-organisation-field-theory",
+  "extracellular-matrix"
+], keyPapers: ["paper-quail-joyce-microenvironment-metastasis-natmed-2013"], name: "Tumour microenvironment (TME)", wikipedia: W("Tumor_microenvironment"),
+    tldr: "A tumour’s surroundings include cells, vessels, matrix and local conditions. Their presence or location alone does not establish how they affect the cancer or its treatment.",
+    summary: "Cancer cells interact with neighbouring immune and stromal cells, vessels, extracellular material and physical conditions. These interactions vary across sites, regions and time and can have different consequences. Composition, position, molecular programs and demonstrated function are separate layers of evidence.",
     analogy: "A castle under siege from the inside: the cancer conscripts the town's builders (fibroblasts) to raise walls, bribes the guards (macrophages) to look away, and diverts the water supply (vessels) so that reinforcements (T cells, drugs) never arrive.",
     nodes: [
       { id: "tumour", label: "Tumour cells", x: 50, y: 50 }, { id: "caf", label: "CAFs (FAP+)", x: 20, y: 30, targetId: "fap" }, { id: "tam", label: "TAMs (CSF1R, CD47 axis)", x: 80, y: 30, targetId: "cd47" },
@@ -61,10 +66,35 @@ const pathways: PathwayInput[] = [
     interventions: ["Checkpoint blockade (PD-1, CTLA-4, LAG-3) releases exhausted T cells", "Anti-VEGF normalises vessels and improves infiltration", "FAP-targeted imaging and radioligands attack CAFs", "CSF1R, CD47/SIRPα, CXCR4, TGF-β, adenosine (A2A/CD73) agents target myeloid and stromal suppression; most have been modest so far", "Radiation and oncolytic viruses convert excluded tumours"],
     pathways: ["pd1-checkpoint", "vegf-angiogenesis", "cgas-sting", "emt", "cancer-neuroscience", "inflammation-nfkb"], targets: ["fap", "pd1", "ctla4", "vegf", "cd47"], technologies: ["single-cell-spatial", "fapi-pet", "checkpoint-inhibitor", "antiangiogenic"], terms: ["cold-vs-hot", "tils", "cancer-associated-fibroblasts", "tumor-associated-macrophages", "myeloid-derived-suppressor-cells", "immune-exclusion"],
     institutions: ["mskcc", "md-anderson", "cold-spring-harbor", "dana-farber", "institut-curie"],
-    notes: ["Leading programmes: Tuveson (CSHL) on CAF subtypes; Sahai (Crick) and Mechta-Grigoriou (Institut Curie) on fibroblast heterogeneity; Joyce (Ludwig Lausanne) on TAMs; MD Anderson and MSK spatial atlases; Human Tumor Atlas Network (NCI)."],
-    links: [{ label: "de Visser & Joyce, The evolving tumor microenvironment (Cancer Cell 2023)", url: "https://doi.org/10.1016/j.ccell.2023.02.016" }, { label: "Human Tumor Atlas Network", url: "https://humantumoratlas.org" }],
+    notes: [
+  "Leading programmes: Tuveson (CSHL) on CAF subtypes; Sahai (Crick) and Mechta-Grigoriou (Institut Curie) on fibroblast heterogeneity; Joyce (Ludwig Lausanne) on TAMs; MD Anderson and MSK spatial atlases; Human Tumor Atlas Network (NCI).",
+  "The tumour microenvironment includes neighbouring cells, extracellular material, vessels and local physical conditions. A neighbouring cell need not belong to the malignant clone. Cell populations, cytokines and chemokines, matrix, oxygen, nutrients and waste interact in both directions, and their arrangement varies between regions, disease sites and times. A drawing is a map of possible participants, not a measured recipe or a fixed job description.",
+  "Keren used multiplexed protein imaging in 41 human triple-negative breast cancers to describe composition and spatial organisation. This is observational evidence. Salmon used viable human lung-tumour slices to investigate matrix and T-cell movement, including a perturbation. The two designs answer different questions, and neither makes stromal removal a universal treatment instruction. Presence or proximity alone does not demonstrate signalling, recognition, killing or suppression.",
+  "Retain site, date, treatment, region and denominator: cells per area differs from a fraction of detected cells. Selected-protein imaging, spatial RNA capture with cell assignment and a controlled functional experiment are different outputs. Segmentation can misassign boundaries and dissociation changes which cells are recovered. There is no universal TME score that establishes treatment benefit.",
+  "In a fictional macrophage-rich region with inflammatory RNA, composition and expression are observed. The result does not identify every RNA signal’s cellular source, demonstrate macrophage suppression or select the best treatment. A workflow through cells, locations, vessels, matrix and conditions orders questions; it is not a causal chain from cell counts to immune function."
+],
+    links: [
+  {
+    "label": "de Visser & Joyce, The evolving tumor microenvironment (Cancer Cell 2023)",
+    "url": "https://doi.org/10.1016/j.ccell.2023.02.016"
+  },
+  {
+    "label": "Human Tumor Atlas Network",
+    "url": "https://humantumoratlas.org"
+  },
+  {
+    "label": "Keren et al., A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging. (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30193111/"
+  },
+  {
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22293174/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "antigen-presentation-immunoediting", name: "Antigen presentation & immune editing", wikipedia: W("Immunoediting"),
     tldr: "How the immune system sees cancer, and how cancer learns to hide. Tumours display fragments of their proteins on MHC molecules; T cells kill the ones they recognise; the survivors are the ones that stopped showing fragments or switched on brakes.",
@@ -107,9 +137,9 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "replication-stress", name: "DNA replication stress", wikipedia: W("Replication_stress"),
-    tldr: "Cancers copy their DNA too fast and with broken checkpoints, so replication forks stall and collapse. They survive only by leaning on emergency repair kinases such as ATR, CHK1, and WEE1, which is why blocking those kinases can be selectively lethal.",
-    summary: "Oncogene activation (MYC, cyclin E, RAS) shortens G1, increases origin firing, and causes fork stalling, ssDNA gaps, and transcription-replication conflicts. ATR senses stalled forks and signals via CHK1 to slow origin firing and stabilise forks; WEE1 restrains CDK1/2. TP53-mutant and CCNE1-amplified cells depend on this axis (G1 checkpoint gone, G2/M checkpoint essential), the rationale for ATR (ceralasertib, camonsertib), CHK1, WEE1 (azenosertib), and PKMYT1 (lunresertib) inhibitors, often with PARP inhibitors or chemotherapy. Toxicity is the recurring limitation because normal proliferating tissue also uses these checkpoints.",
-    analogy: "A photocopier running at triple speed with the paper-jam sensor removed. It keeps working only because a technician (ATR/CHK1/WEE1) constantly clears jams. Remove the technician and it destroys itself.",
+    tldr: "Replication stress means difficulty copying DNA. Slowed forks, damage responses and dependence on a checkpoint are different observations.",
+    summary: "Replication stress concerns difficulty copying DNA, including slow or stalled forks. A stalled fork can be protected and restart; it is not automatically a broken chromosome. Checkpoint activation, recovery, incomplete copying, damage and death are separate stages and measurements. High checkpoint-gene RNA or rapid proliferation alone does not establish fork stress, dependence or drug sensitivity.\n\nRPA coats exposed single-stranded DNA and helps recruit ATR through ATRIP, initiating checkpoint signaling in biochemical and cellular experiments. Activated H-Ras in normal human-cell models produced hyper-replication before damage signaling and senescence. Bester studied HPV E6/E7 or cyclin-E-driven models in which nucleotide limitation disturbed replication and nucleoside supplementation in culture improved dynamics. These experiments do not recommend supplements or predict the behavior of every oncogene-bearing tumor.\n\nIn a fictional DNA-combing exercise, live cells receive a 30-minute IdU pulse followed by a 30-minute CldU pulse. At the stated example stretching calibration of 2 kilobases per micrometre, a 7.5-micrometre second track represents 15 kilobases copied in 30 minutes, or 0.5 kilobases per minute; a 15-micrometre track gives 1 kilobase per minute. Bester used those pulse times and calibration, but these example lengths are not that study's results and the calibration is not universal.\n\nDNA-fiber measurements require viable cells that incorporate labels; extraction destroys sampled cells. Ordinary fixed pathology cannot retrospectively supply live-label tracks. Document pulse timing, labeling, stretching, track selection, cell-cycle distribution, model and comparison group. A lower population S-phase fraction is distinct from the speed of one selected molecule. Track length alone establishes neither the cause, breaks, restart nor death; checkpoint dependence needs a targeted perturbation and a separate functional outcome, without a universal patient-positive cutoff.",
+    analogy: "A copying machine can pause and recover, or remain stalled. Measuring the pause, the response and the final result answers different questions.",
     nodes: [
       { id: "onc", label: "Oncogenes (MYC, cyclin E, RAS)", x: 15, y: 20, targetId: "kras" }, { id: "origin", label: "Excess origin firing, short G1", x: 45, y: 20 }, { id: "fork", label: "Stalled forks, ssDNA gaps", x: 75, y: 20 },
       { id: "atr", label: "ATR → CHK1", x: 75, y: 55, targetId: "atr" }, { id: "wee1", label: "WEE1 / PKMYT1 restrain CDK1", x: 45, y: 55, targetId: "wee1" }, { id: "g2m", label: "G2/M checkpoint", x: 15, y: 55 },
@@ -122,9 +152,28 @@ const pathways: PathwayInput[] = [
     pathways: ["ddr", "p53-cell-cycle", "myc"], targets: ["atr", "wee1", "tp53", "parp"], technologies: ["synthetic-lethality-approaches", "parp-inhibitor"], terms: ["synthetic-lethality", "genome-instability-mutation"],
     institutions: ["icr-london", "dana-farber", "nki", "francis-crick"],
     notes: ["Leading programmes: Zou (MGH/Duke) and Cimprich (Stanford) on replication-stress signalling; ICR and Dana-Farber early-phase ATR/WEE1 programmes; NKI on CCNE1 dependencies."],
-    links: [{ label: "Saxena & Zou, Hallmarks of DNA replication stress (Molecular Cell 2022)", url: "https://doi.org/10.1016/j.molcel.2022.05.004" }],
+    links: [
+  {
+    "label": "Saxena & Zou, Hallmarks of DNA replication stress (Molecular Cell 2022)",
+    "url": "https://doi.org/10.1016/j.molcel.2022.05.004"
+  },
+  {
+    "label": "Sensing DNA damage through ATRIP recognition of RPA-ssDNA complexes. (2003; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12791985/"
+  },
+  {
+    "label": "Oncogene-induced senescence is a DNA damage response triggered by DNA hyper-replication. (2006; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17136094/"
+  },
+  {
+    "label": "Nucleotide deficiency promotes genomic instability in early stages of cancer development. (2011; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21529715/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "chromosomal-instability", name: "Chromosomal instability & aneuploidy", wikipedia: W("Chromosome_instability"),
     tldr: "Most cancers have the wrong number of chromosomes and keep shuffling them at every division. This chaos fuels evolution and drug resistance, but it also stresses the cell and can trigger immune alarms, a double edge that researchers are trying to exploit.",
@@ -166,27 +215,146 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "autophagy", name: "Autophagy", wikipedia: W("Autophagy"),
-    tldr: "Autophagy is the cell's recycling programme. Cancer cells, especially pancreatic and RAS-driven tumours, use it to survive starvation and drug stress, which is why hydroxychloroquine, an old malaria drug that blocks it, keeps appearing in trials.",
-    summary: "Macroautophagy engulfs organelles and proteins into autophagosomes for lysosomal degradation, supplying amino acids and nucleotides under stress. RAS-mutant and pancreatic cancers are autophagy-addicted; KRAS or MEK inhibition further increases autophagy, so hydroxychloroquine or ULK1 inhibitors are combined with trametinib (phase 1/2, PDAC) and with KRAS inhibitors. Autophagy also degrades MHC-I in PDAC (immune evasion) and is context-dependent: tumour-suppressive early, pro-survival late. No selective autophagy drug is approved; hydroxychloroquine achieves inconsistent lysosomal inhibition at tolerated doses.",
+    tldr: "Autophagy delivers cellular material for breakdown and reuse. The amount present, the rate of recycling and whether cells need it to survive are different questions.",
+    summary: "Macroautophagy encloses cargo in autophagosomes for lysosomal delivery and breakdown. LC3 abundance alone cannot distinguish increased formation from reduced removal. Tandem fluorescent LC3 reporters exploit different responses to acidic and degradative conditions to examine maturation in cell experiments; interpretation requires appropriate controls. Flux and survival dependence need separate tests. In a randomised phase 2 trial of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel did not improve the primary endpoint of survival at 12 months. A drug trial does not by itself establish selective autophagy dependence in a tumour.",
     analogy: "A besieged city that starts recycling furniture into firewood. It keeps the lights on through the siege, and burning the 'wanted posters' (MHC) hides its criminals too.",
     nodes: [
-      { id: "stress", label: "Nutrient stress, KRAS/MEK inhibition", x: 15, y: 30, targetId: "kras" }, { id: "ulk", label: "ULK1 / AMPK", x: 40, y: 30 }, { id: "mtor", label: "mTORC1 (inhibits)", x: 40, y: 70 },
-      { id: "phag", label: "Autophagosome", x: 65, y: 30 }, { id: "lys", label: "Lysosome (HCQ blocks)", x: 85, y: 30 }, { id: "fuel", label: "Recycled fuel → survival", x: 85, y: 70 }, { id: "mhc", label: "MHC-I degradation (PDAC)", x: 65, y: 90 },
-    ],
+  {
+    "id": "stress",
+    "label": "Defined nutrient or drug stress",
+    "x": 15,
+    "y": 30,
+    "targetId": "kras"
+  },
+  {
+    "id": "ulk",
+    "label": "ULK1 / AMPK",
+    "x": 40,
+    "y": 30
+  },
+  {
+    "id": "mtor",
+    "label": "mTORC1 (inhibits)",
+    "x": 40,
+    "y": 70
+  },
+  {
+    "id": "phag",
+    "label": "Autophagosome",
+    "x": 65,
+    "y": 30
+  },
+  {
+    "id": "lys",
+    "label": "Lysosomal delivery and breakdown",
+    "x": 85,
+    "y": 30
+  },
+  {
+    "id": "fuel",
+    "label": "Reused building blocks; test survival",
+    "x": 85,
+    "y": 70
+  },
+  {
+    "id": "mhc",
+    "label": "MHC-I degradation (PDAC)",
+    "x": 65,
+    "y": 90
+  }
+],
     edges: [
       { from: "stress", to: "ulk" }, { from: "mtor", to: "ulk", type: "inhibits" }, { from: "ulk", to: "phag" }, { from: "phag", to: "lys" }, { from: "lys", to: "fuel" }, { from: "lys", to: "mhc" },
     ],
-    interventions: ["Hydroxychloroquine + MEK inhibitor or + KRAS inhibitor in PDAC (phase 1/2)", "ULK1 inhibitors (DCC-3116) in RAS-driven cancers", "Autophagy inhibition to restore MHC-I and immunotherapy response (preclinical)"],
+    interventions: [
+  "Clinical drug studies and mechanistic dependence tests answer different questions.",
+  "Assess flux, selected cargo and survival separately with complementary controls."
+],
     pathways: ["ras-mapk", "pi3k-akt-mtor", "cancer-metabolism", "antigen-presentation-immunoediting"], targets: ["kras"], cancers: ["pancreatic"], technologies: ["kras-inhibitors"],
     institutions: ["penn-abramson", "cold-spring-harbor"],
-    notes: ["Leading programmes: Amaravadi (Penn) on autophagy inhibition trials; Kimmelman (NYU) on PDAC autophagy and MHC-I; Der (UNC) on KRAS/autophagy."],
-    links: [{ label: "Yamamoto et al., Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I (Nature 2020)", url: "https://doi.org/10.1038/s41586-020-2229-5" }],
+    notes: [
+  "Leading programmes: Amaravadi (Penn) on autophagy inhibition trials; Kimmelman (NYU) on PDAC autophagy and MHC-I; Der (UNC) on KRAS/autophagy.",
+  "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+  "A completed macroautophagosome has separate inner and outer membranes, with space between them. When it fuses with a lysosome, the outer membrane joins the lysosomal boundary, while the inner membrane is degraded before enzymes gain access to the enclosed cargo. Itakura and colleagues located syntaxin 17 on completed autophagosomes, and Tsuboyama and colleagues found that loss of ATG conjugation systems markedly delayed inner-membrane degradation even when fusion occurred. A direct-fusion sketch omits intermediate endosomal interactions described in multicellular organisms; it is not the complete route taken by every compartment.",
+  "Product return has evidence in defined systems. In leucine-starved cultured human HEK-293T cells, Wyant and colleagues found that SLC38A9 was needed for leucine made by lysosomal protein breakdown to reach the cytosol; the response also depended on the autophagy protein ATG7. Abu-Remaileh and colleagues measured regulated lysosomal amino-acid exchange in mammalian cells. Yeast experiments identified Atg22, Avt3 and Avt4 as partially redundant vacuolar amino-acid exporters. These results support amino-acid recycling in those systems, without establishing transport of every breakdown product, secretion from the cell or guaranteed growth.",
+  "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+  "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+  "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination."
+],
+    links: [
+  {
+    "label": "Primary source, PMID 17534139",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/"
+  },
+  {
+    "label": "Primary source, PMID 31120501",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/"
+  },
+  {
+    "label": "Yamamoto et al., Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I (Nature 2020)",
+    "url": "https://doi.org/10.1038/s41586-020-2229-5"
+  },
+  {
+    "label": "Source identity and scope, PMID 33634751",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/"
+  },
+  {
+    "label": "Source identity and scope, PMID 29362479",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+  },
+  {
+    "label": "Source identity and scope, PMID 33584716",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/"
+  },
+  {
+    "label": "Source identity and scope, PMID 19250911",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/"
+  },
+  {
+    "label": "Source identity and scope, PMID 19258318",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/"
+  },
+  {
+    "label": "Lysosome biology in autophagy (2020 review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32047650/"
+  },
+  {
+    "label": "The hairpin-type tail-anchored SNARE syntaxin 17 targets to autophagosomes for fusion with endosomes/lysosomes (2012 cell experiments)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23217709/"
+  },
+  {
+    "label": "The ATG conjugation systems are important for degradation of the inner autophagosomal membrane (2016 cell experiments)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27885029/"
+  },
+  {
+    "label": "Autophagosome maturation: An epic journey from the ER to lysosomes (2019 review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30578282/"
+  },
+  {
+    "label": "mTORC1 Activator SLC38A9 Is Required to Efflux Essential Amino Acids from Lysosomes and Use Protein as a Nutrient (2017 cell and transport experiments)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29053970/"
+  },
+  {
+    "label": "Lysosomal metabolomics reveals V-ATPase- and mTOR-dependent regulation of amino acid efflux from lysosomes (2017 lysosomal metabolomics)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29074583/"
+  },
+  {
+    "label": "Atg22 recycles amino acids to link the degradative and recycling functions of autophagy (2006 yeast experiments)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17021250/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-11"
+,
+"related": [
+  "nutrient-sensing-ampk"
+]
+}),
   p({
     id: "ferroptosis-cell-death", name: "Ferroptosis & regulated cell death", wikipedia: W("Ferroptosis"),
-    tldr: "Cells can die in several programmed ways. Beyond the classic apoptosis, ferroptosis kills through iron-driven fat oxidation, and drug-resistant, mesenchymal cancer cells turn out to be unusually prone to it.",
-    summary: "Ferroptosis is iron-dependent lipid peroxidation restrained by GPX4 (using glutathione from the cystine transporter SLC7A11/xCT) and by FSP1. Therapy-persistent, mesenchymal, and dedifferentiated cancer cells depend on GPX4; radiation and some immunotherapies act partly via ferroptosis. Necroptosis (RIPK3/MLKL) and pyroptosis (gasdermins) are inflammatory death modes that can be immunogenic. No ferroptosis inducer is approved; GPX4 inhibitors lack drug-like properties, so xCT inhibition, cyst(e)inase, and sulfasalazine repurposing are the clinical routes.",
+    tldr: "Ferroptosis is a form of cell death involving iron-dependent membrane-lipid damage. General oxidative stress or one positive marker does not establish this mechanism.",
+    summary: "Ferroptosis involves iron-dependent membrane-lipid peroxidation and death. Cystine uptake through system xc- can support cysteine and glutathione availability; it does not transport glutathione itself. GPX4 uses glutathione to reduce lipid hydroperoxides, while FSP1 provides a parallel coenzyme-Q-associated defence. Dependence on these routes varies with the model and cellular conditions. Establishing the mechanism requires appropriately controlled measurements of death, lipid damage, iron dependence and rescue, with complementary perturbations. Findings in persistent or mesenchymal model cells do not establish a universal vulnerability or a treatment recommendation. Necrotic appearance, danger signals and adaptive antitumour immunity are separate questions.",
     analogy: "Ferroptosis is rust. Iron plus oxygen eats through the cell's membranes unless an antioxidant crew (GPX4) keeps repainting them. Cells that changed shape to dodge chemotherapy have thinner paint.",
     nodes: [
       { id: "cys", label: "Cystine import (SLC7A11)", x: 15, y: 30 }, { id: "gsh", label: "Glutathione", x: 40, y: 30 }, { id: "gpx4", label: "GPX4", x: 65, y: 30 }, { id: "lpo", label: "Lipid peroxidation", x: 65, y: 70 },
@@ -198,29 +366,152 @@ const pathways: PathwayInput[] = [
     interventions: ["xCT inhibitors, cyst(e)inase, sulfasalazine repurposing (early trials)", "Radiotherapy and IFN-γ from T cells induce lipid peroxidation", "BH3 mimetics (venetoclax) exploit apoptosis; MCL-1 inhibitors in development", "Persister-cell targeting after EGFR/ALK inhibitors (preclinical)"],
     pathways: ["apoptosis-bcl2", "emt", "cancer-metabolism"], targets: ["bcl2"], drugs: ["venetoclax"], terms: ["resisting-cell-death", "resistance"],
     institutions: ["mskcc", "stanford", "broad-institute"],
-    notes: ["Leading programmes: Stockwell (Columbia, coined ferroptosis); Dixon (Stanford); Schreiber (Broad) on persister-cell GPX4 dependence; Jiang (MSK) on ferroptosis in immunotherapy."],
-    links: [{ label: "Stockwell, Ferroptosis turns 10 (Cell 2022)", url: "https://doi.org/10.1016/j.cell.2022.06.003" }, { label: "Viswanathan et al., Dependency of a therapy-resistant state on a lipid peroxidase pathway (Nature 2017)", url: "https://doi.org/10.1038/nature23007" }],
+    notes: [
+  "Leading programmes: Stockwell (Columbia, coined ferroptosis); Dixon (Stanford); Schreiber (Broad) on persister-cell GPX4 dependence; Jiang (MSK) on ferroptosis in immunotherapy.",
+  "Ferroptosis involves iron-dependent membrane-lipid peroxidation causing death. Erastin experiments implicated cystine uptake through system xc-, connecting cysteine and glutathione supply to antioxidant defence. Vulnerable polyunsaturated lipid chains, iron availability and cellular conditions matter; general reactive-oxygen fluorescence does not establish this mechanism.",
+  "GPX4 uses glutathione to reduce lipid hydroperoxides to lipid alcohols. FSP1 provides a parallel coenzyme-Q radical-trapping defence; it does not replace every GPX4 function or describe the whole protection network. Protein abundance alone does not measure protective activity or predict compound sensitivity.",
+  "Assigning ferroptosis needs convergent measurements of death, lipid damage preceding death, iron dependence and appropriately controlled rescue. Independent genetic and chemical perturbations strengthen attribution; rescue alone is not complete proof. Probe chemistry, concentration, nutrients, cell density and observation time can alter results. A lipid-probe ratio and death fraction are different outputs, with no universal diagnostic staining threshold. Live death and rescue tests consume viable model material. Specify lipid-probe oxidation ratios and independently measured death percentages over a stated interval; a marker snapshot does not reconstruct the full causal sequence.",
+  "A culture with abundant GPX4, a general oxidation signal and no death has not demonstrated ferroptosis. Cell-line and xenograft vulnerabilities do not establish tolerable exposure, selective cancer killing or benefit in patients. Alternative defences can confer resistance, so a strong antioxidant programme is not automatically a treatment vulnerability."
+],
+    links: [
+  {
+    "label": "Stockwell, Ferroptosis turns 10 (Cell 2022)",
+    "url": "https://doi.org/10.1016/j.cell.2022.06.003"
+  },
+  {
+    "label": "Viswanathan et al., Dependency of a therapy-resistant state on a lipid peroxidase pathway (Nature 2017)",
+    "url": "https://doi.org/10.1038/nature23007"
+  },
+  {
+    "label": "Source identity and scope, PMID 22632970",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
+  },
+  {
+    "label": "Source identity and scope, PMID 27506793",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27506793/"
+  },
+  {
+    "label": "Source identity and scope, PMID 24439385",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/"
+  },
+  {
+    "label": "Source identity and scope, PMID 31634900",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31634900/"
+  },
+  {
+    "label": "Source identity and scope, PMID 29362479",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-09"
+,
+"related": [
+  "reactive-oxygen-species"
+]
+}),
   p({
     id: "senescence", name: "Cellular senescence", wikipedia: W("Cellular_senescence"),
-    tldr: "Damaged cells can stop dividing permanently instead of dying. That protects against cancer at first, but senescent cells linger, secrete inflammatory signals, and after chemotherapy can help tumours relapse, so removing them (senolytics) is a new strategy.",
-    summary: "Oncogene-induced and therapy-induced senescence engage p53/p21 and p16/RB to arrest the cycle; the senescence-associated secretory phenotype (SASP: IL-6, IL-8, MMPs) remodels the microenvironment, promotes inflammation, immune recruitment, and paradoxically tumour progression and treatment resistance. 'One-two punch' therapy induces senescence (e.g., CDK4/6 inhibitors, chemotherapy) then clears it with senolytics (BCL-XL/BCL-2 inhibitors, navitoclax; dasatinib+quercetin; uPAR CAR-T in mice). Senescent cells are a 2022 hallmark. Clinical proof in oncology is early; toxicity of BCL-XL inhibition (platelets) drives PROTAC approaches.",
-    analogy: "Retired workers who refuse to leave the office. They no longer do the job, but they shout, clutter the corridors, and sometimes hire back the very people who were fired.",
+    tldr: "Senescent cells remain alive while their division is durably arrested. Their effects depend on the cells, signals and surrounding tissue.",
+    summary: "Senescence is a stress-associated cell state with durable cell-cycle arrest and other context-dependent features. Identifying it requires combined measurements rather than one marker. In genetically switchable blood-cancer models, release from senescence allowed renewed division with enhanced clonogenic potential. That experimental result does not predict that every senescent cell will restart or that a person will relapse. Arrest, secretion and effects on neighbouring cells require separate assessment. Model findings do not establish a preferred senolytic treatment.",
+    analogy: "A workshop can stop making copies while continuing to use energy and send messages. The messages and their effects must be measured in context.",
     nodes: [
-      { id: "dmg", label: "Oncogene / therapy stress", x: 15, y: 30 }, { id: "p53", label: "p53 → p21", x: 40, y: 20, targetId: "tp53" }, { id: "p16", label: "p16 → RB", x: 40, y: 45, targetId: "cdk4-6" },
-      { id: "arrest", label: "Stable arrest", x: 65, y: 30 }, { id: "sasp", label: "SASP (IL-6, IL-8, MMPs)", x: 65, y: 70 }, { id: "tme", label: "Inflammation, relapse, resistance", x: 90, y: 70 }, { id: "seno", label: "Senolytics (BCL-XL, uPAR CAR-T)", x: 90, y: 30 },
-    ],
+  {
+    "id": "dmg",
+    "label": "Oncogene / therapy stress",
+    "x": 15,
+    "y": 30
+  },
+  {
+    "id": "p53",
+    "label": "p53 → p21",
+    "x": 40,
+    "y": 20,
+    "targetId": "tp53"
+  },
+  {
+    "id": "p16",
+    "label": "p16 → RB",
+    "x": 40,
+    "y": 45,
+    "targetId": "cdk4-6"
+  },
+  {
+    "id": "arrest",
+    "label": "Stable arrest",
+    "x": 65,
+    "y": 30
+  },
+  {
+    "id": "sasp",
+    "label": "Variable secretory programme",
+    "x": 65,
+    "y": 70
+  },
+  {
+    "id": "tme",
+    "label": "Context-dependent neighbour effects",
+    "x": 90,
+    "y": 70
+  },
+  {
+    "id": "seno",
+    "label": "Investigational clearance approaches",
+    "x": 90,
+    "y": 30
+  }
+],
     edges: [
       { from: "dmg", to: "p53" }, { from: "dmg", to: "p16" }, { from: "p53", to: "arrest" }, { from: "p16", to: "arrest" }, { from: "arrest", to: "sasp" }, { from: "sasp", to: "tme" }, { from: "seno", to: "arrest", type: "inhibits" },
     ],
-    interventions: ["Senescence-inducing therapy (CDK4/6 inhibitors, chemotherapy, radiation) followed by senolytics (one-two punch)", "Navitoclax and BCL-XL PROTACs; uPAR-targeted CAR-T (preclinical)", "SASP modulation with JAK inhibitors or IL-6 blockade"],
+    interventions: [
+  "Experimental induction, persistence and clearance require separate measurements.",
+  "Model findings do not establish a preferred senolytic treatment."
+],
     pathways: ["p53-cell-cycle", "apoptosis-bcl2", "inflammation-nfkb", "tumor-microenvironment"], targets: ["tp53", "cdk4-6", "bcl2"], technologies: ["cdk46-inhibitor"], terms: ["senescent-cells"],
     institutions: ["mskcc", "cold-spring-harbor", "mayo-clinic"],
-    notes: ["Leading programmes: Lowe (MSK) on senescence and immune clearance; Campisi legacy (Buck); Kirkland (Mayo) on senolytics; Demaria (ERIBA Groningen); Peeper (NKI) on one-two punch."],
-    links: [{ label: "Schmitt, Wang & Demaria, Senescence and cancer: role and therapeutic opportunities (Nature Reviews Clinical Oncology 2022)", url: "https://doi.org/10.1038/s41571-022-00668-4" }],
+    notes: [
+  "Leading programmes: Lowe (MSK) on senescence and immune clearance; Campisi legacy (Buck); Kirkland (Mayo) on senolytics; Demaria (ERIBA Groningen); Peeper (NKI) on one-two punch.",
+  "Senescent cells remain alive and metabolically active while division is durably arrested. Damage, oncogenic signals and treatment stresses can induce the state. It is distinct from death, reversible quiescence, the broader concept of dormancy and immune exhaustion, and is not a synonym for a person's age.",
+  "Low proliferation and increased p21 one day after stress do not establish durable senescence or a harmful secretory programme. Combine cell identity, longitudinal arrest or regrowth assessment and complementary features such as p16, p21, damage markers and senescence-associated beta-galactosidase. Fixed tissue cannot test later recovery, and no universal marker or arrest-duration cutoff works across contexts. Research outputs include method-defined cell fractions, marker intensities and longitudinal proliferation or regrowth. Stained sections and tested cells consume material. Secretions and their functional effects require their own readouts rather than inference from an arrest marker.",
+  "The senescence-associated secretory phenotype varies with cell, stimulus, timing and environment. In Coppé and colleagues' culture experiments, selected secretions promoted epithelial invasiveness; in Demaria and colleagues' mouse skin wounds, senescent cells and PDGF-AA supported repair. Neither experiment establishes a universal harmful mixture or a clinical instruction to remove senescent cells.",
+  "Genetically switchable blood-cancer models showed enhanced clonogenic growth after release from senescence. This supports possible escape in those systems, not inevitable restart, relapse prediction or a preferred senolytic treatment. Arrest, secretion and effects on neighbouring cells require separate tests."
+],
+    links: [
+  {
+    "label": "Primary source, PMID 31675495",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31675495/"
+  },
+  {
+    "label": "Primary source, PMID 29258294",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/"
+  },
+  {
+    "label": "Schmitt, Wang & Demaria, Senescence and cancer: role and therapeutic opportunities (Nature Reviews Clinical Oncology 2022)",
+    "url": "https://doi.org/10.1038/s41571-022-00668-4"
+  },
+  {
+    "label": "Source identity and scope, PMID 29362479",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+  },
+  {
+    "label": "Source identity and scope, PMID 39121846",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39121846/"
+  },
+  {
+    "label": "Source identity and scope, PMID 19053174",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19053174/"
+  },
+  {
+    "label": "Source identity and scope, PMID 25499914",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25499914/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-09"
+}),
   p({
     id: "cancer-stem-cells-plasticity", related: ["theories-of-cancer", "cancer-stem-cell-theory"], keyPapers: ["paper-singh-brain-tumour-initiating-cells-nature-2004"], name: "Cancer stem cells & phenotypic plasticity", wikipedia: W("Cancer_stem_cell"),
     tldr: "Some cancer cells behave like stem cells: they can regrow the whole tumour, resist treatment, and switch identities. This plasticity explains why tumours come back and why some lung and prostate cancers transform into a different cancer type under therapy.",
@@ -242,8 +533,8 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "clonal-evolution", related: ["theories-of-cancer", "clonal-evolution-theory"], name: "Clonal evolution & minimal residual disease", wikipedia: W("Somatic_evolution_in_cancer"),
-    tldr: "A tumour is a population that evolves by natural selection. Treatment kills the sensitive cells and selects the rest, which is why resistance is the rule; measuring the surviving population (MRD) and adapting therapy is the counter-strategy.",
-    summary: "Truncal mutations are shared by all cells; branched subclones carry private alterations (TRACERx, PCAWG). Therapy imposes selection: pre-existing resistant clones (EGFR T790M, ESR1) expand, or drug-tolerant persisters acquire mutations later. Neutral and punctuated evolution, whole-genome doubling, and CIN modulate the tempo. ctDNA lets clonal dynamics be followed in real time; MRD detection after curative therapy identifies who will relapse. Adaptive therapy (dose modulation to maintain sensitive competitors, Moffitt prostate pilot) and combination strategies aim to steer rather than merely suppress evolution.",
+    tldr: "Cancer populations can change through inherited variation, selection and chance. A clone’s larger share does not by itself prove more cells, resistance or the cause of change.",
+    summary: "Related cancer-cell populations can differ in inherited features and in their representation over time or across sites. Selection depends on context, while chance and sampling also affect observed frequencies. An inferred ancestry, a measured cell state and an abundance estimate answer different questions.",
     analogy: "Clonal evolution is like weeding a field with one herbicide year after year: the field fills with the one weed that shrugs it off. Rotating herbicides and leaving some susceptible weeds to crowd out the resistant ones is the evolutionary alternative.",
     nodes: [
       { id: "trunk", label: "Truncal driver clone", x: 12, y: 50, targetId: "tp53" }, { id: "b1", label: "Subclone A", x: 38, y: 25 }, { id: "b2", label: "Subclone B (resistant)", x: 38, y: 75 },
@@ -255,10 +546,47 @@ const pathways: PathwayInput[] = [
     interventions: ["ctDNA MRD to escalate or de-escalate (IMvigor011, DYNAMIC)", "Upfront combinations to pre-empt resistant clones (osimertinib + chemotherapy, BRAF + MEK)", "Adaptive therapy trials (Moffitt)", "Serial liquid biopsy to switch therapy at molecular progression (SERENA-6)"],
     pathways: ["chromosomal-instability", "metastatic-cascade", "tumor-dormancy"], technologies: ["mrd-testing", "liquid-biopsy", "wes-wgs"], terms: ["mrd", "ctdna", "resistance", "vaf", "mutational-signature"], trials: ["imvigor011", "dynamic"],
     institutions: ["francis-crick", "moffitt", "broad-institute", "mskcc"],
-    notes: ["Leading programmes: Swanton (Crick, TRACERx); Gatenby and Brown (Moffitt, adaptive therapy); Getz (Broad) on clonal reconstruction; Landau (Weill Cornell) on single-cell evolution."],
-    links: [{ label: "Jamal-Hanjani et al., Tracking the evolution of non-small-cell lung cancer (NEJM 2017)", url: "https://doi.org/10.1056/NEJMoa1616288" }, { label: "Zhang et al., Integrating evolutionary dynamics into treatment of mCRPC (Nature Communications 2017)", url: "https://doi.org/10.1038/s41467-017-01968-5" }],
+    notes: [
+  "Leading programmes: Swanton (Crick, TRACERx); Gatenby and Brown (Moffitt, adaptive therapy); Getz (Broad) on clonal reconstruction; Landau (Weill Cornell) on single-cell evolution.",
+  "Clonal evolution concerns inherited lineage features and changing population composition through variation, selection and chance. Drivers can contribute to behaviour while passengers accompany them. A newly detected variant may already have existed below the earlier detection limit. Selection and fitness depend on location, nutrients, immunity and treatment, rather than simply the fastest growth or a universal measure of danger.",
+  "Nowell proposed an evolutionary framework; Gerlinger’s multiregion study of four renal cancers supplied evidence for branching in its sampled setting. Neither study is a census of every tumour. Genetic drift is chance-driven change in variant frequency, and bottlenecks can change composition without the same selective explanation. A frequency change alone does not identify drift, selection or resistance. Williams tested a defined neutral-growth model in which newly arising variants have no further fitness differences during the modelled expansion, relating frequencies to mutation timing. Tarabichi showed why a good frequency-model fit is not sufficient proof of neutrality or the absence of historical selection.",
+  "Fictional direct counts change from 900 A and 100 B to 90 A and 90 B. B rises from 10% to 50% of the total while falling from 100 to 90 cells. Relative enrichment is not absolute expansion. Any supplied ancestry is separate evidence; the counts do not establish a resistance mechanism or the cause of change.",
+  "Sequencing read fractions and inferred cancer-cell fractions are different quantities, affected by purity, copy number and detection limits. Compare appropriate regional or time samples for shared and differing alterations, or trace labelled descendants experimentally, retaining date, location, resolution and uncertainty. An expression cluster is not automatically a genetic clone. A dominant sampled branch does not count every lesion or establish target coverage in unseen disease."
+],
+    links: [
+  {
+    "label": "Jamal-Hanjani et al., Tracking the evolution of non-small-cell lung cancer (NEJM 2017)",
+    "url": "https://doi.org/10.1056/NEJMoa1616288"
+  },
+  {
+    "label": "Zhang et al., Integrating evolutionary dynamics into treatment of mCRPC (Nature Communications 2017)",
+    "url": "https://doi.org/10.1038/s41467-017-01968-5"
+  },
+  {
+    "label": "Nowell, The clonal evolution of tumor cell populations. (1976)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/959840/"
+  },
+  {
+    "label": "Gerlinger et al., Intratumor heterogeneity and branched evolution revealed by multiregion sequencing. (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22397650/"
+  },
+  {
+    "label": "Williams et al., Identification of neutral tumor evolution across cancer types. (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26780609/"
+  },
+  {
+    "label": "Tarabichi et al., limits of inferring neutral tumour evolution (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30374075/"
+  },
+  {
+    "label": "NHGRI: genetic drift",
+    "url": "https://www.genome.gov/genetics-glossary/Genetic-Drift"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "inflammation-nfkb", name: "Inflammation & NF-κB", wikipedia: W("NF-κB"),
     tldr: "Chronic inflammation is soil for cancer: it feeds growth signals, DNA damage, and immune suppression. The NF-κB switch inside cells is the master relay, and colitis, hepatitis, and H. pylori gastritis are the clinical proof.",
@@ -296,8 +624,8 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "notch", name: "Notch signalling", wikipedia: W("Notch_signaling_pathway"),
-    tldr: "A cell-to-cell contact signal that decides cell fate. It drives T-cell leukaemia when mutated on, acts as a tumour suppressor in some squamous cancers when lost, and its ligand DLL3 became a drug target in small-cell lung cancer.",
-    summary: "Notch receptors are cleaved by γ-secretase on ligand binding (Delta-like, Jagged), releasing NICD to activate HES/HEY genes. Activating NOTCH1 mutations occur in >50% of T-ALL and in CLL (shorter survival); inactivating mutations in head and neck, oesophageal, and cutaneous squamous carcinomas mark a tumour-suppressor role. γ-secretase inhibitors failed as anticancer drugs (gut toxicity) but nirogacestat is approved in desmoid tumours (2023). DLL3, an inhibitory Notch ligand aberrantly on SCLC cell surfaces, is targeted by tarlatamab. Context dependence is the central lesson.",
+    tldr: "Notch receptors can relay signals between contacting cells. The effect depends on the receptor, ligand, alteration and tissue; receiving a signal does not by itself prove growth dependence.",
+    summary: "A ligand-bearing sender, receptor amount, received signal and growth dependence are separate observations. Locate malignant, vessel and other neighboring cells before assigning a Notch mechanism. Ligand on a vessel is not evidence that the tumor received the signal, and total receptor is different from a released nuclear intracellular domain.\n\nCommon contact-dependent Notch signaling begins when Delta-like or Jagged ligand on one cell engages a receptor on a neighbor. Ligand-regulated extracellular cleavage permits subsequent gamma-secretase-mediated membrane cleavage; the released Notch intracellular domain, NICD, can enter the nucleus and work with transcriptional partners. This route differs from an RTK phosphorylation relay and omits receptor maturation and sender mechanics.\n\nWeng found activating NOTCH1 changes in extracellular heterodimerization or PEST regions in more than half of the studied T-ALLs. Agrawal identified predicted inactivating alterations in head-and-neck squamous tumors, suggesting a tumor-suppressor role there. An uncharacterized allele inherits neither direction from the pathway name; tissue, cell identity and alteration effect matter.\n\nA fictional T-ALL culture with high nuclear NICD without a ligand-bearing neighbor, and lower NICD after gamma-secretase blockade, supports a ligand-independent activation hypothesis. A contact-blocking experiment that lowers NICD without changing growth instead supports reduced received signaling without demonstrating a growth requirement. Control general toxicity, contact conditions, independent pathway perturbations and compensation. Gamma-secretase also processes other proteins; responsive HES/HEY RNA and nuclear staining need validated assays and are not universal eligibility cutoffs.",
     analogy: "A doorbell that only works when a neighbour presses it. In some cancers the bell rings constantly (T-ALL); in others it has been ripped out so cells never hear 'stop and mature'.",
     nodes: [
       { id: "lig", label: "DLL/JAG ligand (neighbour)", x: 15, y: 40 }, { id: "notch", label: "NOTCH receptor", x: 40, y: 40 }, { id: "gs", label: "γ-secretase cleavage", x: 60, y: 40 }, { id: "nicd", label: "NICD → RBPJ", x: 80, y: 40 }, { id: "hes", label: "HES1/HEY, MYC", x: 80, y: 78 },
@@ -308,9 +636,36 @@ const pathways: PathwayInput[] = [
     pathways: ["cancer-stem-cells-plasticity", "myc"], targets: ["dll3"], drugs: ["tarlatamab", "nirogacestat"], cancers: ["sclc", "all-leukemia", "cll", "head-and-neck"],
     institutions: ["dana-farber", "penn-abramson"],
     notes: ["Leading programmes: Aster (Brigham/Harvard) on Notch in leukaemia; Pear (Penn); Radtke (EPFL)."],
-    links: [{ label: "Aster, Pear & Blacklow, The varied roles of Notch in cancer (Annual Review of Pathology 2017)", url: "https://doi.org/10.1146/annurev-pathol-052016-100127" }],
+    links: [
+  {
+    "label": "Aster, Pear & Blacklow, The varied roles of Notch in cancer (Annual Review of Pathology 2017)",
+    "url": "https://doi.org/10.1146/annurev-pathol-052016-100127"
+  },
+  {
+    "label": "Notch-1 signalling requires ligand-induced proteolytic release of intracellular domain. (primary abstract; 1998)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9620803/"
+  },
+  {
+    "label": "Activating mutations of NOTCH1 in human T cell acute lymphoblastic leukemia. (primary abstract; 2004)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15472075/"
+  },
+  {
+    "label": "Exome sequencing of head and neck squamous cell carcinoma reveals inactivating mutations in NOTCH1. (primary abstract; 2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21798897/"
+  },
+  {
+    "label": "A ligand-induced extracellular cleavage regulates gamma-secretase-like proteolytic activation of Notch1. (2000; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10882062/"
+  },
+  {
+    "label": "A presenilin-1-dependent gamma-secretase-like protease mediates release of Notch intracellular domain. (1999; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10206645/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "jak-stat", keyPapers: ["paper-darnell-jak-stat-science-1994"], name: "JAK-STAT signalling", wikipedia: W("JAK-STAT_signaling_pathway"),
     tldr: "The relay that turns cytokine signals into gene changes. Overactive in blood cancers (JAK2 in myelofibrosis), it is also the wire that carries interferon's cancer-killing message, so tumours cut it to escape immunotherapy.",
@@ -324,9 +679,24 @@ const pathways: PathwayInput[] = [
     interventions: ["JAK inhibitors in myeloproliferative neoplasms and GVHD", "STAT3 degraders/antisense (early trials)", "Anti-IL-6 (tocilizumab) for CRS and under study for cachexia", "JAK-loss tumours: MHC-independent therapies (T-cell engagers, NK cells)"],
     pathways: ["antigen-presentation-immunoediting", "inflammation-nfkb", "cachexia-biology", "pd1-checkpoint"], targets: ["pdl1", "stat5", "mpl", "jak1"], terms: ["crs"],
     institutions: ["mskcc", "mayo-clinic"],
-    notes: ["Leading programmes: Levine (MSK) on JAK2 and MPN; Ribas (UCLA) on JAK mutations and PD-1 resistance; Darnell legacy (Rockefeller)."],
-    links: [{ label: "Hu et al., The JAK/STAT signaling pathway: from bench to clinic (Signal Transduction and Targeted Therapy 2021)", url: "https://doi.org/10.1038/s41392-021-00791-1" }],
+    notes: [
+  "Leading programmes: Levine (MSK) on JAK2 and MPN; Ribas (UCLA) on JAK mutations and PD-1 resistance; Darnell legacy (Rockefeller).",
+  "JAK-STAT is a route used by many cytokine receptors rather than a synonym for every cytokine response. Engelowski’s artificial receptor/ligand systems tested defined signalling and growth responses. Stüber’s TGF-beta experiments measured a SMAD-associated response in ROR1 CAR T cells. Follow the specified receptor and measured pathway through to gene output and cell phenotype; a phosphate signal, feedback response, growth measurement and completed target killing are different observations."
+],
+    links: [
+  { label: "Hu et al., The JAK/STAT signaling pathway: from bench to clinic (Signal Transduction and Targeted Therapy 2021)", url: "https://doi.org/10.1038/s41392-021-00791-1" },
+  {
+  "label": "Synthetic cytokine receptors transmit biological signals using artificial ligands. (2018)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/29789554/"
+},
+  {
+  "label": "Inhibition of TGF-β-receptor signaling augments the antitumor function of ROR1-specific CAR T-cells against triple-negative breast cancer. (2020)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32303620/"
+}
+],
     tags: ["mechanism"],
+
+    asOf: "2026-11-12",
   }),
   p({
     id: "tgf-beta", targets: ["acvr1"], name: "TGF-β signalling", wikipedia: W("TGF_beta_signaling_pathway"),
@@ -363,8 +733,8 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "myc", name: "MYC", wikipedia: W("Myc"),
-    tldr: "MYC is the most commonly amplified cancer gene, a master switch that turns on thousands of growth genes. It has no pocket for a conventional drug, so it remained 'undruggable' for 40 years; the first direct MYC drugs finally entered trials in the 2020s.",
-    summary: "MYC family transcription factors (MYC, MYCN, MYCL) dimerise with MAX to drive ribosome biogenesis, metabolism, and proliferation; deregulated in >50% of cancers via amplification, translocation (Burkitt), or upstream signalling (Wnt, RAS, Notch). MYC also suppresses immune recognition (CD47, PD-L1). Direct approaches: OMO-103 (Omomyc mini-protein, phase 1/2 in PDAC), MYC degraders, and MAX-stabilising molecules; indirect: CDK9 and BET inhibitors that reduce MYC transcription, PLK1 and AURKA inhibitors that destabilise MYC/MYCN protein (neuroblastoma), and synthetic-lethal dependencies (mTOR, splicing).",
+    tldr: "MYC is a protein that helps regulate gene activity and cell growth. Gene copy number, RNA, protein amount and dependence on MYC are different findings.",
+    summary: "MYC is a transcription regulator involved in programs of cell growth and metabolism. Its abundance and activity depend on cellular context and regulatory partners.\n\nCopy gain, RNA abundance, protein amount, chromatin binding, a transcriptional program and functional dependence are separate layers. MYC pairs with MAX for sequence-specific DNA binding. A high RNA level or subtype association alone does not establish that disrupting MYC will selectively impair the sampled cancer.\n\nMYC helps regulate programs involving growth, metabolism and proliferation through partners and regulatory context. Sabo's mouse and cultured-cell work separated selective gene regulation from broader RNA increases accompanying altered cell state; direct binding and indirect transcription effects are not equivalent. Normalize for cell composition, proliferation and RNA per cell before assigning a MYC mechanism to a gene-expression pattern.\n\nIn a fictional sample with high MYC RNA, unmeasured protein and growth suppression by a broadly acting compound, MYC dependence remains unresolved. Confirm the relevant cells and MYC disruption, use independent perturbations, appropriate restoration and normal-cell comparisons, and measure growth and death separately. General transcriptional damage or many changed messages does not attribute the compound's effect to MYC.\n\nHoriuchi compared MYC-related patterns in human TNBC and tested CDK-inhibitor vulnerabilities in selected models; it did not establish dependence in every patient. Soucek used reversible genetic MYC inhibition in a Ras-driven mouse lung-cancer model and observed tumor regression alongside effects on normal regenerating tissues. Delmore showed JQ1-associated MYC transcription reduction in myeloma models. Genetic MYC inhibition, BET inhibition and a particular medicine's exposure, safety and clinical benefit remain different evidence settings.",
     analogy: "A conductor who can make every section of the orchestra play louder at once. You cannot take away the baton, so drugs try to silence the score (transcription), tire the conductor (degradation), or exploit the fact that a full-volume orchestra cannot afford a single missing player.",
     nodes: [
       { id: "up", label: "Wnt, RAS, Notch, amplification", x: 12, y: 40 }, { id: "myc", label: "MYC/MAX", x: 40, y: 40 }, { id: "ribo", label: "Ribosome biogenesis, metabolism", x: 70, y: 20 }, { id: "prol", label: "Proliferation", x: 90, y: 40 },
@@ -375,9 +745,44 @@ const pathways: PathwayInput[] = [
     pathways: ["wnt", "ras-mapk", "notch", "cancer-metabolism", "mrna-translation-eif4f", "rna-splicing"], targets: ["cd47", "kras"], cancers: ["neuroblastoma", "dlbcl", "pancreatic"], terms: ["mycn-amplification", "sustaining-proliferative-signaling"],
     institutions: ["vall-dhebron", "ucsf", "dana-farber", "cold-spring-harbor"],
     notes: ["Leading programmes: Soucek (VHIO, Omomyc/Peptomyc); Felsher (Stanford, MYC addiction); Eilers (Würzburg); Dang (Ludwig); Bradner/Vakoc (CSHL, BET inhibitors)."],
-    links: [{ label: "Dhanasekaran et al., The MYC oncogene: the grand orchestrator of cancer growth and immune evasion (Nature Reviews Clinical Oncology 2022)", url: "https://doi.org/10.1038/s41571-021-00549-2" }, { label: "OMO-103 first-in-human (Nature Medicine 2024)", url: "https://doi.org/10.1038/s41591-024-02875-1" }],
+    links: [
+  {
+    "label": "Dhanasekaran et al., The MYC oncogene: the grand orchestrator of cancer growth and immune evasion (Nature Reviews Clinical Oncology 2022)",
+    "url": "https://doi.org/10.1038/s41571-021-00549-2"
+  },
+  {
+    "label": "Garralda et al., MYC targeting by OMO-103 in solid tumors: a phase 1 trial (Nature Medicine 2024)",
+    "url": "https://doi.org/10.1038/s41591-024-02805-1"
+  },
+  {
+    "label": "Max: a helix-loop-helix zipper protein that forms a sequence-specific DNA-binding complex with Myc. (primary abstract; 1991)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2006410/"
+  },
+  {
+    "label": "Selective transcriptional regulation by Myc in cellular growth control and lymphomagenesis. (2014; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25043028/"
+  },
+  {
+    "label": "MYC pathway activation in triple-negative breast cancer is synthetic lethal with CDK inhibition. (2012; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22430491/"
+  },
+  {
+    "label": "Modelling Myc inhibition as a cancer therapy. (2008; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18716624/"
+  },
+  {
+    "label": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc. (2011; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21889194/"
+  },
+  {
+    "label": "UniProt P01106: reviewed human protein function",
+    "url": "https://www.uniprot.org/uniprotkb/P01106/entry"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
   p({
     id: "keap1-nrf2", name: "KEAP1-NRF2 antioxidant pathway", wikipedia: W("NFE2L2"),
     tldr: "KEAP1-NRF2 is the cell's antioxidant defence switch. Lung cancers often break the off-switch (KEAP1), leaving NRF2 permanently on, which detoxifies chemotherapy and radiation and makes these tumours resistant to almost everything.",
@@ -429,10 +834,11 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
+    asOf:"2026-11-08", related:["rna","gene","mutation","nonsense-mediated-decay"],
     id: "rna-splicing", name: "RNA splicing", wikipedia: W("RNA_splicing"),
-    tldr: "Genes are cut and pasted into messages before they are used. Blood cancers often carry mutations in the splicing machinery, and the errors create abnormal proteins that could serve as targets or immune flags.",
-    summary: "Spliceosome mutations (SF3B1, SRSF2, U2AF1, ZRSR2) occur in ~50% of MDS and in CLL and uveal melanoma; they cause mis-splicing, R-loops, and dependence on the remaining wild-type spliceosome (H3B-8800, negative), and on PRMT5 and NMD. Splicing produces drug-resistance isoforms (AR-V7 in prostate cancer, BCL2L1 isoforms) and neoantigens (splice-junction-derived) that may be immunogenic across patients. RNA-targeting small molecules (risdiplam-like) and antisense oligonucleotides are the therapeutic tools; MYC-driven tumours are spliceosome-dependent.",
-    analogy: "Splicing is film editing. The raw footage (pre-mRNA) is cut into a final movie. Cancer's editor makes odd cuts: some create villains (AR-V7), some create scenes no one has seen before (neoantigens), and the editing room itself becomes a place where the cancer can be attacked.",
+    tldr: "RNA processing removes introns and joins retained exons. Different processing choices can produce different messages without changing the underlying gene sequence.",
+    summary: "Splicing processes an initial RNA transcript. Exons are retained in a specified product and may contain untranslated sequence; introns are removed. For many nuclear pre-mRNAs, a spliceosome made of RNA and proteins recognizes boundary and regulatory sequences. The donor site starts an intron and the acceptor site ends it. Alternative choices yield transcript isoforms; a variant can alter exon inclusion, intron retention or use of a cryptic site. Exon skipping is not automatically a frameshift: the coding sequence and resulting joins matter. An altered message may undergo nonsense-mediated decay or produce a changed protein, but neither outcome follows from a prediction alone.\n\nCancer-associated splicing changes can arise through altered RNA-processing factors or their expression. SF3B1, SRSF2, U2AF1 and ZRSR2 illustrate studied factors; AR-V7 and BCL2L1 illustrate named transcript contexts. The linked review describes disease-specific mechanisms and therapeutic research. An altered transcript alone does not establish an intact abnormal protein, immune presentation, a therapeutic dependency or patient benefit. Free-drug development and a conjugated payload also require their own construct-specific evidence.",
+    analogy: "Splicing is like editing a recording into different versions. A changed edit can alter the final product, but the RNA join alone does not show which complete protein is made or what it does.",
     nodes: [
       { id: "pre", label: "Pre-mRNA", x: 12, y: 40 }, { id: "sf3b1", label: "SF3B1 / SRSF2 / U2AF1 (mutant)", x: 38, y: 20 }, { id: "spl", label: "Spliceosome", x: 38, y: 60 }, { id: "iso", label: "Aberrant isoforms (AR-V7)", x: 66, y: 25, targetId: "androgen-receptor" },
       { id: "neo", label: "Splice neoantigens", x: 66, y: 60 }, { id: "rloop", label: "R-loops, replication stress", x: 66, y: 90 }, { id: "prmt5", label: "PRMT5 dependence", x: 90, y: 60 },
@@ -441,8 +847,8 @@ const pathways: PathwayInput[] = [
     interventions: ["Spliceosome modulators (H3B-8800 negative; next generation in development)", "PRMT5 inhibitors in MTAP-deleted and splicing-mutant cancers", "Antisense oligonucleotides to redirect splicing (AR-V7, BCL2L1)", "Splice-derived neoantigen vaccines (research)"],
     pathways: ["myc", "replication-stress", "ar-signaling", "antigen-presentation-immunoediting"], targets: ["androgen-receptor"], cancers: ["aml", "cll", "melanoma", "prostate"], terms: ["ar-v7", "neoantigen"], technologies: ["antisense-sirna", "rna-seq"],
     institutions: ["mskcc", "dana-farber", "fred-hutch"],
-    notes: ["Leading programmes: Abdel-Wahab (MSK) on spliceosome mutations; Bradley (Fred Hutch) on splicing and neoantigens; Ebert (Dana-Farber) on SF3B1 in MDS."],
-    links: [{ label: "Bradley & Anczuków, RNA splicing dysregulation and the hallmarks of cancer (Nature Reviews Cancer 2023)", url: "https://doi.org/10.1038/s41568-022-00541-7" }],
+    notes: ["Leading programmes: Abdel-Wahab (MSK) on spliceosome mutations; Bradley (Fred Hutch) on splicing and neoantigens; Ebert (Dana-Farber) on SF3B1 in MDS.","A junction read supports a local RNA join, not necessarily a complete isoform. Gene-level counts can hide transcript differences. RNA quality, read coverage, reference version and cell mixture affect interpretation; protein quantity and function need separate evidence.","The pathway drawing groups possible consequences studied in particular cancer systems. Its arrows do not mean that every splice change causes every listed outcome; protein formation, presentation and functional dependence require their own evidence."],
+    links: [{"label":"Bradley & Anczuków, RNA splicing dysregulation and the hallmarks of cancer (Nature Reviews Cancer 2023)","url":"https://doi.org/10.1038/s41568-022-00541-7"},{"label":"NHGRI: Exon","url":"https://www.genome.gov/genetics-glossary/Exon"},{"label":"NHGRI: Intron","url":"https://www.genome.gov/genetics-glossary/Intron"},{"label":"OpenStax Biology 2e: 16-5-eukaryotic-post-transcriptional-gene-regulation","url":"https://openstax.org/books/biology-2e/pages/16-5-eukaryotic-post-transcriptional-gene-regulation"},{"label":"Intron function in the nonsense-mediated decay of beta-globin mRNA: indications that pre-mRNA splicing in the nucleus can influence mRNA translation in the cytoplasm.","url":"https://pubmed.ncbi.nlm.nih.gov/9671053/"},{"label":"HGVS: reference sequences","url":"https://hgvs-nomenclature.org/stable/background/refseq/"}],
     tags: ["mechanism"],
   }),
   p({
@@ -533,9 +939,12 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "clonal-haematopoiesis", related: ["ageing-tissue-field-theory"], name: "Clonal haematopoiesis (CHIP)", wikipedia: W("Clonal_hematopoiesis"),
-    tldr: "As we age, blood stem cells with cancer-like mutations quietly expand in most people. These clones raise leukaemia and heart disease risk, are accelerated by chemotherapy, and confuse blood tests for cancer DNA.",
-    summary: "Clonal haematopoiesis of indeterminate potential (CHIP: DNMT3A, TET2, ASXL1, and after chemotherapy PPM1D, TP53, CHEK2 mutations at VAF ≥2%) is present in >10% of people over 70. It confers ~0.5-1%/year progression to myeloid neoplasm, doubles cardiovascular risk via inflammasome-primed macrophages, and predicts therapy-related MDS/AML after PARP inhibitors, platinum, and radioligand therapy. For liquid biopsy, CHIP variants are the main source of false-positive ctDNA calls, so tumour-informed or paired white-cell sequencing is needed. Interventions are preventive (avoid unnecessary genotoxic exposure, monitor) with IL-1β/IL-6 blockade under study.",
+    id: "clonal-haematopoiesis", related: [
+  "ageing-tissue-field-theory",
+  "ctdna-imaging-discordance"
+], name: "Clonal haematopoiesis (CHIP)", wikipedia: W("Clonal_hematopoiesis"),
+    tldr: "Some blood-forming cells acquire mutations and form an expanding clone. This can affect blood tests for tumour DNA and is distinct from a diagnosis of leukaemia.",
+    summary: "Clonal haematopoiesis of indeterminate potential (CHIP, a defined category within blood-cell clonal expansion; see the source-specific variant-fraction and clinical criteria below) is present in >10% of people over 70. It confers ~0.5-1%/year progression to myeloid neoplasm, doubles cardiovascular risk via inflammasome-primed macrophages, and predicts therapy-related MDS/AML after PARP inhibitors, platinum, and radioligand therapy. For plasma testing, blood-cell clones can contribute variants that require origin assessment using matched blood-cell data, tumour evidence and the stated assay limits; some assignments remain ambiguous. Interventions are preventive (avoid unnecessary genotoxic exposure, monitor) with IL-1β/IL-6 blockade under study.",
     analogy: "Weeds in the blood's seed bank. Harmless individually, they spread with age and after chemical sprays, some turn into leukaemia, and their DNA litters the blood, so a test for tumour DNA can mistake weeds for cancer.",
     nodes: [
       { id: "hsc", label: "Ageing HSCs", x: 15, y: 50 }, { id: "mut", label: "DNMT3A, TET2, ASXL1, PPM1D, TP53", x: 40, y: 50, targetId: "tp53" }, { id: "chip", label: "CHIP clone (VAF ≥2%)", x: 65, y: 50 },
@@ -545,10 +954,49 @@ const pathways: PathwayInput[] = [
     interventions: ["Paired white-blood-cell sequencing in liquid biopsy pipelines", "Monitoring after PARP inhibitors and radioligand therapy", "IL-1β/IL-6 blockade trials for CHIP-associated cardiovascular risk"],
     pathways: ["clonal-evolution", "inflammation-nfkb", "epigenetic-reprogramming"], targets: ["tp53", "parp", "tet2"], technologies: ["liquid-biopsy", "mrd-testing", "parp-inhibitor"], cancers: ["aml"], terms: ["vaf", "ctdna"],
     institutions: ["dana-farber", "broad-institute", "mskcc"],
-    notes: ["Leading programmes: Ebert (Dana-Farber/Broad) and Jaiswal (Stanford) who defined CHIP; Levine and Bolton (MSK) on therapy-related clonal haematopoiesis."],
-    links: [{ label: "Jaiswal et al., Age-related clonal hematopoiesis associated with adverse outcomes (NEJM 2014)", url: "https://doi.org/10.1056/NEJMoa1408617" }, { label: "Bolton et al., Cancer therapy shapes the fitness landscape of clonal hematopoiesis (Nature Genetics 2020)", url: "https://doi.org/10.1038/s41588-020-00710-0" }],
+    notes: [
+  "Leading programmes: Ebert (Dana-Farber/Broad) and Jaiswal (Stanford) who defined CHIP; Levine and Bolton (MSK) on therapy-related clonal haematopoiesis.",
+  "Clonal haematopoiesis (CH) is the broader phenomenon of blood-cell clones carrying acquired changes. In the 2022 WHO myeloid classification, CHIP requires a somatic mutation in a myeloid-malignancy-associated gene at a variant allele fraction of at least 2%, or at least 4% for X-linked gene mutations in males, without a diagnosed haematological disorder or unexplained cytopenia (Khoury 2022). Persistent unexplained cytopenia changes the classification question. These are criteria for a named category, not a rule that every smaller blood-cell clone is absent, tumour-derived or a sequencing error.",
+  "Which genes: in blood-cell exomes from 17,182 people most clonal variants fell in DNMT3A, TET2 and ASXL1, were rare before age 40, and were seen in 9.5% of people aged 70 to 79 (Jaiswal 2014). ASXL1 mutations were enriched in current or former smokers, and radiation, platinum and topoisomerase II inhibitors selected for DNA-damage-response genes (TP53, PPM1D, CHEK2), with sequential samples showing those clones outgrowing others after exposure (Bolton 2020). In 8,810 people with non-haematological cancers, PPM1D and TP53 mutations were associated with prior chemotherapy, and clonal haematopoiesis was found in 25% (Coombs 2017).",
+  "Source attribution in plasma, interpretation rule: TP53 is a tumour gene and also a therapy-selected blood-cell gene, so a TP53 variant in plasma after chemotherapy can come from either compartment. Matched white-blood-cell DNA and the tumour's variant list, where available, help assess its origin; some variants remain ambiguous. In Razavi's paired sequencing 53.2% of cfDNA mutations in 124 people with metastatic cancer and 81.6% in 47 controls without cancer had features of clonal haematopoiesis, and variants that could not be separated from white-blood-cell DNA kept an explicit ambiguous category, so subtracting every blood match is not a complete attribution method.",
+  "Fictional example: a plasma assay detects a variant that sensitive matched blood-cell sequencing finds at 0.8% VAF. The blood result supports a blood-cell contribution even below the 2% cut-off, but it does not make the variant CHIP or exclude a tumour contribution, because tumour evidence, shared variants and each method's limits still apply. Matched sequencing has its own gene coverage, depth and detection rules, so a clone below its sensitivity can stay unseen, and a clone finding is not a leukaemia diagnosis or a solid-tumour treatment instruction.",
+  "Reading the figures: a variant allele fraction counts variant alleles among the alleles evaluated and is not automatically the percentage of cells. Acquired (somatic) means not inherited and does not mean malignant. There is no age at which a plasma variant can simply be dismissed. Sequential samples show clones with DNA-damage-response mutations outgrowing others after radiation, platinum or topoisomerase II inhibitor exposure (Bolton 2020), which is selection of clones that can already be present and does not mean every new detection was caused by treatment.",
+  "For an origin comparison, keep plasma, extracted blood-cell DNA and any separately sampled tumour clearly identified, with collection dates relative to treatment. The report needs the variants, coverage, allele fractions, detection limits, identity and contamination checks, and any unresolved source assignment. A clone result alone does not locate a solid-tumour lesion, predict whether that particular clone will progress, or choose a solid-tumour drug. A later blood-cell comparator can help, but it is not a time-matched measurement of the earlier sample. A clone-classification rule or origin filter does not itself establish regulatory approval or clinical validation of the sequencing method."
+,
+    "A gene name does not settle a plasma variant's source. Shah and colleagues found TP53 to be the most frequently mutated gene in their 2012 primary triple-negative breast-cancer cohort; Bolton's 2020 study found that radiation, platinum and topoisomerase II inhibitor exposure selected blood-cell clones with TP53 and other DNA-damage-response mutations. Those are different populations and compartments. A tumour reference and a matched blood-cell comparison help answer different questions, each within its own coverage and sensitivity. A newly confirmed tumour alteration can also reflect evolution rather than a blood-cell clone or technical noise."
+  ],
+    links: [
+  {
+    "label": "Jaiswal et al., Age-related clonal hematopoiesis associated with adverse outcomes (NEJM 2014)",
+    "url": "https://doi.org/10.1056/NEJMoa1408617"
+  },
+  {
+    "label": "Bolton et al., Cancer therapy shapes the fitness landscape of clonal hematopoiesis (Nature Genetics 2020)",
+    "url": "https://doi.org/10.1038/s41588-020-00710-0"
+  },
+  {
+    "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants",
+    "url": "https://doi.org/10.1038/s41591-019-0652-7"
+  },
+  {
+    "label": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes",
+    "url": "https://doi.org/10.1016/j.stem.2017.07.010"
+  },
+  {
+    "label": "Steensma2015",
+    "url": "https://doi.org/10.1182/blood-2015-03-631747"
+  },
+  {
+    "label": "Khoury et al.: WHO myeloid and histiocytic/dendritic classification (2022)",
+    "url": "https://doi.org/10.1038/s41375-022-01613-1"
+  }
+,
+    {"label":"Shah et al., 2012: clonal and mutational evolution in primary triple-negative breast cancer","url":"https://doi.org/10.1038/nature10933"}
+  ],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-12"
+}),
   p({
     id: "field-cancerisation", related: ["ageing-tissue-field-theory"], name: "Field cancerisation", wikipedia: W("Field_cancerization"),
     tldr: "Cancer often arises from a whole region of tissue that already carries mutations, not from one rogue cell. Sun-exposed skin, smokers' airways, and Barrett's oesophagus are patchworks of mutant clones competing long before a tumour appears.",
@@ -568,8 +1016,8 @@ const pathways: PathwayInput[] = [
   }),
   p({
     id: "tumor-dormancy", name: "Tumour dormancy",
-    tldr: "Cancer cells can hide in bone marrow, lung, or brain for years or decades, asleep and invisible to scans and chemotherapy, then wake up. Late relapse in breast and prostate cancer is dormancy ending.",
-    summary: "Disseminated tumour cells enter quiescence (p38-high/ERK-low, NR2F1, DYRK1A), are held by niche signals (TGF-β2, BMP7, endothelial thrombospondin) and immune surveillance (NK cells, T cells), and evade cytotoxics by not dividing. Awakening triggers include inflammation (neutrophil extracellular traps), ageing, surgery-induced wound healing, and loss of immune control. Extended endocrine therapy in ER+ breast cancer is de facto dormancy maintenance. Strategies: keep cells asleep (NR2F1 agonists, 5-azacytidine + retinoic acid pilot in prostate), wake and kill (with cell-cycle-dependent drugs), or clear them immunologically. MRD assays make dormancy measurable for the first time.",
+    tldr: "Viable cancer cells may remain nondividing, or a population may stay stable because gains balance losses. A quiet scan alone cannot establish either state.",
+    summary: "Dormancy describes viable persistence with restrained growth, at the cellular or population level. Model experiments investigate immune and vascular contributions, but stable imaging does not reveal which cells are present or what maintains them. Dormancy is neither proof of harmlessness nor a prediction that recurrence will occur.",
     analogy: "Seeds that stay in the soil for years waiting for the right spring. You can keep the ground cold (maintenance therapy), force them to sprout and mow them (wake-and-kill), or dig them out (immune clearance).",
     nodes: [
       { id: "dtc", label: "Disseminated tumour cell", x: 15, y: 50 }, { id: "quies", label: "Quiescence (p38↑, ERK↓, NR2F1)", x: 42, y: 30 }, { id: "niche", label: "Niche: TGF-β2, BMP7, endothelium", x: 42, y: 70 },
@@ -579,10 +1027,35 @@ const pathways: PathwayInput[] = [
     interventions: ["Extended adjuvant endocrine therapy and CDK4/6 inhibitors (de facto dormancy maintenance)", "5-azacytidine + all-trans retinoic acid to enforce dormancy (pilot, prostate)", "MRD-guided intervention at molecular relapse", "NET/inflammation inhibitors to prevent awakening (preclinical)"],
     pathways: ["metastatic-cascade", "clonal-evolution", "tgf-beta", "er-signaling"], technologies: ["mrd-testing", "endocrine-therapy", "cdk46-inhibitor"], cancers: ["breast-hr-positive", "prostate", "melanoma"], terms: ["late-recurrence", "disseminated-tumor-cells", "mrd"],
     institutions: ["mount-sinai", "cold-spring-harbor", "mskcc"],
-    notes: ["Leading programmes: Aguirre-Ghiso (Einstein/Mount Sinai) on dormancy signalling and NR2F1; Egeblad (CSHL) on NETs awakening dormant cells; Massagué (MSK) on latency competent cells; Ghajar (Fred Hutch) on perivascular niches."],
-    links: [{ label: "Phan & Croucher, The dormant cancer cell life cycle (Nature Reviews Cancer 2020)", url: "https://doi.org/10.1038/s41568-020-0263-0" }, { label: "Albrengues et al., Neutrophil extracellular traps produced during inflammation awaken dormant cancer cells (Science 2018)", url: "https://doi.org/10.1126/science.aao4227" }],
+    notes: [
+  "Leading programmes: Aguirre-Ghiso (Einstein/Mount Sinai) on dormancy signalling and NR2F1; Egeblad (CSHL) on NETs awakening dormant cells; Massagué (MSK) on latency competent cells; Ghajar (Fred Hutch) on perivascular niches.",
+  "Cellular dormancy is viable nondivision; population-level dormancy can instead reflect balanced division and loss or other growth restraint. Restricted vascular support and immune control are possible contributors, not proof that every cell stopped cycling. Dormancy is different from death and from senescence or another arrest; low proliferation alone does not distinguish all these states.",
+  "Ghajar studied mouse breast-cancer metastasis and engineered microvascular cultures. Stable endothelial niches supported quiescence, with thrombospondin-1 implicated, while sprouting regions enriched in active TGF-beta1 and periostin supported outgrowth. This is a model-specific mechanism, not a universal human reactivation trigger. A quiet scan can mean no cells, cells below detection or restrained growth. It does not prove dormancy, harmlessness, inevitable recurrence or a universal relapse clock.",
+  "Fictional one-week cultures both end with 100 viable cells. In one, no divisions or losses occur; in the other, 20 gains are balanced by 20 losses. Equal final size does not establish equal cellular state. Distinguishing these cases needs repeated viable counts, division and loss measurements, sample or volume denominators and time. Clinical scans, blood assays and controlled environmental experiments answer different questions; no universal negative threshold diagnoses all dormancy.",
+  "A dissemination schematic can distinguish failure, viable persistence and later outgrowth without forecasting any person’s outcome. Its glyphs are symbolic, not measured cell counts. Evidence for a viable state, a maintenance mechanism and a causal reactivation mechanism should remain separate."
+],
+    links: [
+  {
+    "label": "Phan & Croucher, The dormant cancer cell life cycle (Nature Reviews Cancer 2020)",
+    "url": "https://doi.org/10.1038/s41568-020-0263-0"
+  },
+  {
+    "label": "Albrengues et al., Neutrophil extracellular traps produced during inflammation awaken dormant cancer cells (Science 2018)",
+    "url": "https://doi.org/10.1126/science.aao4227"
+  },
+  {
+    "label": "Aguirre-Ghiso, Models, mechanisms and clinical evidence for cancer dormancy. (2007)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17957189/"
+  },
+  {
+    "label": "Ghajar et al., The perivascular niche regulates breast tumour dormancy. (2013)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23728425/"
+  }
+],
     tags: ["mechanism"],
-  }),
+
+"asOf": "2026-11-10"
+}),
 ];
 
 // ============================================================================================
@@ -590,15 +1063,62 @@ const pathways: PathwayInput[] = [
 // ============================================================================================
 const terms: TermInput[] = [
   t({ id: "hallmarks-of-cancer", related: ["theories-of-cancer", "hallmarks-synthesis"], name: "Hallmarks of Cancer", wikipedia: W("The_Hallmarks_of_Cancer"),
-    tldr: "The Hallmarks of Cancer is the most-cited framework in cancer biology: a short list of the capabilities every cancer must acquire, from unlimited growth to hiding from the immune system. The 2022 update lists eight hallmarks, two enabling characteristics, and four new dimensions.",
-    summary: "Hanahan and Weinberg (2000, 2011) and Hanahan (2022). Core hallmarks: sustaining proliferative signalling, evading growth suppressors, resisting cell death, enabling replicative immortality, inducing/accessing vasculature, activating invasion and metastasis, reprogramming cellular metabolism, avoiding immune destruction. Enabling characteristics: genome instability and mutation, tumour-promoting inflammation. 2022 additions: unlocking phenotypic plasticity, non-mutational epigenetic reprogramming, polymorphic microbiomes, senescent cells. Each hallmark maps to drug classes; OnCo links every hallmark term to the pathways and technologies that address it.",
-    links: [HALLMARKS_2022, { label: "Hanahan & Weinberg, Hallmarks of Cancer: The Next Generation (Cell 2011)", url: "https://doi.org/10.1016/j.cell.2011.02.013" }],
-    terms: ["sustaining-proliferative-signaling", "evading-growth-suppressors", "resisting-cell-death", "enabling-replicative-immortality", "inducing-angiogenesis", "activating-invasion-metastasis", "deregulating-cellular-energetics", "avoiding-immune-destruction", "genome-instability-mutation", "tumor-promoting-inflammation", "unlocking-phenotypic-plasticity", "nonmutational-epigenetic-reprogramming", "polymorphic-microbiomes", "senescent-cells"], tags: ["hallmark"] }),
+    tldr: "The hallmarks organise research on cancer capabilities. The framework has changed over time and is not a diagnostic checklist or a treatment-selection test.",
+    summary: "The hallmarks framework groups recurring capabilities and enabling processes involved in cancer. Its 2000, 2011 and 2022 versions distinguish core capabilities from emerging or provisional additions. Different cells and their surroundings can contribute, and a measurement of one process does not establish all the others.",
+    links: [
+  {
+    "label": "Hanahan, Hallmarks of Cancer: New Dimensions (Cancer Discovery 2022)",
+    "url": "https://doi.org/10.1158/2159-8290.CD-21-1059"
+  },
+  {
+    "label": "Hanahan & Weinberg, Hallmarks of Cancer: The Next Generation (Cell 2011)",
+    "url": "https://doi.org/10.1016/j.cell.2011.02.013"
+  },
+  {
+    "label": "Hanahan et al., Hallmarks of cancer: the next generation. (2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21376230/"
+  }
+,
+{
+  "label": "NCI: what cancer is, altered cells and the tumour microenvironment",
+  "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+}
+],
+    terms: ["sustaining-proliferative-signaling", "evading-growth-suppressors", "resisting-cell-death", "enabling-replicative-immortality", "inducing-angiogenesis", "activating-invasion-metastasis", "deregulating-cellular-energetics", "avoiding-immune-destruction", "genome-instability-mutation", "tumor-promoting-inflammation", "unlocking-phenotypic-plasticity", "nonmutational-epigenetic-reprogramming", "polymorphic-microbiomes", "senescent-cells"], tags: ["hallmark"] ,
+"notes": [
+  "The hallmarks are a versioned research framework, not a diagnostic checklist, stage, clinical assay standard or a demand that every cell independently perform every capability. The 2000 proposal contained six capabilities. The 2011 account retained six, added two emerging capabilities and described two enabling characteristics. In the 2022 account, the two emerging capabilities joined the eight core capabilities.",
+  "The eight core capabilities are sustained growth signalling, evasion of growth restraints, resistance to cell death, sustained replicative capacity, obtaining a blood supply, invasion and distant colonisation, altered metabolism, and evasion of immune control. These are distinct processes: division speed does not measure replicative capacity, and a growth-related gene alteration does not establish invasion or immune escape. Vascular access can include existing vessels, not only new vessel growth.",
+  "Genome instability and mutation, and tumour-promoting inflammation, are enabling characteristics in the stated framework; not every mutation matters and not all inflammation promotes cancer. Hanahan’s 2022 additions remain at different explanatory levels: plasticity as a proposed capability, nonmutational epigenetic reprogramming and microbiomes as possible enablers, and senescent cells as microenvironment participants. They are not four equivalent established core hallmarks.",
+  "Capabilities can depend on cooperation with surrounding cells. To measure one, specify the process: division, death, invasion, vascular relations, metabolism or immune function. An RNA program is not a direct measurement of every capability or metabolic flux, and there is no universal hallmark unit or cutoff selecting treatment. In a fictional mutation-rich report, an enabling characteristic alone neither establishes distant disease nor proves those mutations caused the behaviour. A framework diagram organises concepts and provisional additions; it does not measure them in a specimen."
+,
+"Cancer develops when altered body cells grow outside normal controls. Invasion into neighbouring tissue and metastasis to a distant site are distinct capabilities, rather than consequences established by one report label. NCI also describes surrounding immune cells, fibroblasts, vessels and molecules as part of the tumour microenvironment. A specimen named for a cancer can therefore contain several cell populations; the name does not make every sampled cell malignant."
+],
+"asOf": "2026-11-11"
+}),
   t({ id: "sustaining-proliferative-signaling", name: "Hallmark: sustaining proliferative signalling", wikipedia: W("The_Hallmarks_of_Cancer"), tldr: "Cancer cells keep telling themselves to divide, by making their own growth signals or jamming the receptors on.", summary: "Sustaining proliferative signalling is the hallmark by which cancer cells keep instructing themselves to divide, either by producing their own growth signals or by locking growth receptors in the on position. It is achieved through receptor mutation or amplification (EGFR, HER2, ALK), downstream activation (KRAS, BRAF, PIK3CA) or autocrine ligand production, and it runs through the RAS / RAF / MEK / ERK (MAPK), PI3K / AKT / mTOR and MYC pathways. This is the hallmark behind Small-molecule kinase inhibitors, Monoclonal antibodies such as HER2 antibodies, and KRAS & RAS inhibitors, and it underpins the concept of Oncogene addiction. Readers reach it from the Hallmarks of Cancer overview and the original 2000 hallmarks paper, and from the Oncogene, Growth signal and Proliferation entries.", pathways: ["ras-mapk", "pi3k-akt-mtor", "myc"], targets: ["egfr", "her2", "kras", "braf", "pik3ca", "alk"], technologies: ["kinase-inhibitors", "monoclonal-antibody", "kras-inhibitors"], terms: ["oncogene-addiction"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
   t({ id: "evading-growth-suppressors", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: evading growth suppressors", tldr: "Evading growth suppressors means cutting the brakes that normally stop division, p53 and RB above all.", summary: "Evading growth suppressors is the hallmark of cutting the brakes that normally halt cell division, above all p53 and RB. The lesions are losses of TP53 (in half of cancers), RB1, CDKN2A (p16), PTEN, NF1 and APC, acting through the p53 / RB / cell-cycle checkpoint, Wnt / β-catenin and Hippo-YAP/TAZ pathways. Therapeutically, CDK4/6 inhibitors re-impose the RB brake, MDM2 inhibitors and p53 reactivators try to restore p53, and PTEN loss sensitises tumours to AKT inhibition, which is why TP53, CDK4/6 and AKT are the linked targets. Readers arrive here from the Hallmarks of Cancer overview and the 2000 hallmarks paper, from the Tumour suppressor gene entry, and from the p53 network and cell-cycle engine pathway pages.", pathways: ["p53-cell-cycle", "wnt", "hippo-yap"], targets: ["tp53", "cdk4-6", "akt"], technologies: ["cdk46-inhibitor"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
   t({ id: "resisting-cell-death", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: resisting cell death", tldr: "Resisting cell death is the hallmark by which cancer cells disable their self-destruct programmes, chiefly apoptosis.", summary: "Resisting cell death is the hallmark by which cancer cells disable their own self-destruct programmes, chiefly apoptosis. It is achieved through BCL-2 family overexpression, p53 loss, IAP upregulation and dependence on autophagy, which is why the linked targets are BCL-2 and TP53 and the linked pathways are Intrinsic apoptosis (BCL-2 family), Autophagy, and Ferroptosis & regulated cell death. BH3 mimetics such as Venetoclax restore apoptosis, while ferroptosis and necroptosis are alternative death routes now being exploited. Readers meet this hallmark from the Hallmarks of Cancer overview, the 2000 hallmarks paper, the Apoptosis entry and the ferroptosis pathway page.", pathways: ["apoptosis-bcl2", "ferroptosis-cell-death", "autophagy"], targets: ["bcl2", "tp53"], drugs: ["venetoclax"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
   t({ id: "enabling-replicative-immortality", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: enabling replicative immortality", tldr: "Cancer cells bypass the division limit set by shortening telomeres, usually by reactivating telomerase.", summary: "Enabling replicative immortality is the hallmark by which cancer cells bypass the division limit imposed by shortening telomeres, usually by reactivating telomerase. Most tumours do this through TERT reactivation and a minority through the ALT route, as described in the Telomere maintenance & replicative immortality pathway, while the Cellular senescence pathway explains the barrier being evaded. Imetelstat is the first telomerase inhibitor to be approved (MDS, 2024), and the linked TERT promoter mutation entry covers the mutations that serve as diagnostic biomarkers. Readers reach this hallmark from the Hallmarks of Cancer overview, the 2000 hallmarks paper and the telomere maintenance pathway.", pathways: ["telomere-maintenance", "senescence"], terms: ["tert-promoter"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
-  t({ id: "inducing-angiogenesis", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: inducing or accessing vasculature", tldr: "Tumours grow their own blood supply, or co-opt existing vessels, to get oxygen and nutrients.", summary: "Inducing or accessing vasculature is the hallmark by which tumours grow their own blood supply, or co-opt existing vessels, to obtain oxygen and nutrients. The mechanisms are VEGF-driven sprouting angiogenesis, vessel co-option and vasculogenic mimicry, described in the VEGF angiogenesis and VHL / HIF oxygen sensing pathways, with VEGF / VEGFR and HIF-2α as the linked targets. Anti-angiogenic therapy modestly extends survival on its own and enables immunotherapy by normalising vessels, while HIF-2α inhibition acts upstream in VHL-deficient renal cell carcinoma. Readers meet this hallmark from the Hallmarks of Cancer overview and the 2000 hallmarks paper, from the Angiogenesis entry and the angiogenic switch pathway, and from the Judah Folkman biography.", pathways: ["vegf-angiogenesis", "hif-vhl"], targets: ["vegf", "hif2a"], technologies: ["antiangiogenic"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
+  t({ id: "inducing-angiogenesis", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: inducing or accessing vasculature", tldr: "Obtaining a blood supply is a cancer capability. New-vessel growth is one route; use of existing vessels is another, and neither vessel count alone proves useful delivery.", summary: "Angiogenesis involves endothelial growth and vascular signalling, while some tumours use pre-existing vessels. Vessel structure, flow, transport and oxygenation require different measurements. Vascular interventions have setting-specific effects and risks; a biological mechanism alone does not establish clinical benefit.", pathways: ["vegf-angiogenesis", "hif-vhl"], targets: ["vegf", "hif2a"], technologies: ["antiangiogenic"], links: [
+  {
+    "label": "Hanahan, Hallmarks of Cancer: New Dimensions (Cancer Discovery 2022)",
+    "url": "https://doi.org/10.1158/2159-8290.CD-21-1059"
+  },
+  {
+    "label": "Holash et al., Vessel cooption, regression, and growth in tumors mediated by angiopoietins and VEGF. (1999)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10373119/"
+  },
+  {
+    "label": "Hanahan et al., Hallmarks of cancer: the next generation. (2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21376230/"
+  }
+], tags: ["hallmark"] ,
+"notes": [
+  "Angiogenesis creates new vessels from existing vessels through endothelial-cell growth and signalling, including VEGF and its receptors. It also occurs in development and repair. A tumour can obtain blood by other routes: Holash and colleagues observed co-option of existing vessels in their tumour models. Vessel structure, perfusion, permeability, tracer transport and oxygenation are separate measurements. Oxygen availability also depends on diffusion and cellular consumption.",
+  "Blocking vascular signalling can change vessel integrity and transport as well as vessel number. Tong studied transport after VEGFR2 blockade; Winkler studied a temporary oxygenation and radiation-response window in mouse brain-tumour models. These are conditional experimental findings. They do not establish a universal dose, treatment schedule or clinical benefit, and excessive loss of useful vessels can limit delivery."
+],
+"asOf": "2026-11-10"
+}),
   t({ id: "activating-invasion-metastasis", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: activating invasion and metastasis", tldr: "Cancer cells detach, invade, travel, and colonise other organs, the process responsible for most cancer deaths.", summary: "Activating invasion and metastasis is the hallmark by which cancer cells detach, invade, travel and colonise other organs, the process responsible for most cancer deaths. Its components are EMT programmes, matrix degradation, intravasation, dormancy and colonisation, laid out in The metastatic cascade, Epithelial-mesenchymal transition, Tumour dormancy and TGF-β signalling pathways and in the Disseminated tumour cells (DTCs) entry. No approved drug targets metastasis directly; the clinical tools are adjuvant therapy, MRD / molecular residual disease testing and metastasis-directed SBRT / SABR for Oligometastatic disease. Readers reach this hallmark from the Hallmarks of Cancer overview, the Metastasis and Invasive entries, and the invasion and intravasation pathway pages.", pathways: ["metastatic-cascade", "emt", "tumor-dormancy", "tgf-beta"], technologies: ["mrd-testing", "sbrt"], terms: ["disseminated-tumor-cells", "oligometastatic"], links: [HALLMARKS_2022], tags: ["hallmark"], journals: ["cancer-metastasis-reviews", "clinical-and-experimental-metastasis"] }),
   t({ id: "deregulating-cellular-energetics", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: reprogramming cellular metabolism", tldr: "Cancer cells rewire their metabolism to build biomass fast, burning glucose inefficiently and gorging on glutamine and lipids.", summary: "Reprogramming cellular metabolism is the hallmark by which cancer cells rewire their metabolism to build biomass quickly, burning glucose inefficiently and consuming large amounts of glutamine and lipids. The Warburg effect and its relatives define this hallmark, which is described in the Cancer metabolism, VHL / HIF oxygen sensing and KEAP1-NRF2 antioxidant pathways. It is exploited clinically by FDG PET for imaging, by antimetabolite chemotherapy and by inhibitors of IDH1 / IDH2, whereas broader metabolic drugs have struggled against metabolic plasticity. Readers meet this hallmark from the Hallmarks of Cancer overview, the Cancer metabolism, Glutamine addiction and lipid metabolism pathway pages, and the entry on Warburg-effect diet claims.", pathways: ["cancer-metabolism", "hif-vhl", "keap1-nrf2"], targets: ["idh"], technologies: ["fdg-pet"], terms: ["warburg-effect"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
   t({ id: "avoiding-immune-destruction", wikipedia: "https://en.wikipedia.org/wiki/The_Hallmarks_of_Cancer", name: "Hallmark: avoiding immune destruction", tldr: "Cancers hide from or switch off the immune system, by losing the molecules that display their antigens or by raising checkpoint brakes.", summary: "Avoiding immune destruction is the hallmark by which cancers hide from or switch off the immune system, by losing the molecules that display their antigens or by raising checkpoint brakes. Mechanisms include MHC and B2M loss, JAK mutations, PD-L1 expression, Treg and myeloid recruitment and TGF-β-mediated exclusion, covered in the PD-1 / PD-L1 immune checkpoint, Antigen presentation & immune editing and Tumour microenvironment (TME) pathways and the Immune exclusion entry. It is the hallmark behind Immune checkpoint inhibitors against PD-1, PD-L1, CTLA-4 and LAG-3, CAR-T cell therapy, T-cell engagers and Personalised neoantigen (mRNA) vaccines. Readers arrive from the Hallmarks of Cancer overview and the Immune checkpoint and T-cell exhaustion pages.", pathways: ["pd1-checkpoint", "antigen-presentation-immunoediting", "tumor-microenvironment", "tgf-beta"], targets: ["pd1", "pdl1", "ctla4", "lag3"], technologies: ["checkpoint-inhibitor", "car-t", "t-cell-engager", "neoantigen-mrna-vaccine"], terms: ["cold-vs-hot", "immune-exclusion"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
@@ -610,11 +1130,244 @@ const terms: TermInput[] = [
   t({ id: "senescent-cells", wikipedia: "https://en.wikipedia.org/wiki/Cellular_senescence", name: "Hallmark (2022): senescent cells", tldr: "Cells that have permanently stopped dividing but stay alive and secrete inflammatory signals, helping nearby cancer cells grow and resist treatment.", summary: "Senescent cells, a hallmark added in 2022, are cells that have permanently stopped dividing but stay alive and secrete inflammatory signals, helping nearby cancer cells grow and resist treatment. The senescence-associated secretory phenotype arises from both stromal and tumour cells after therapy, and the underlying biology is laid out in the Cellular senescence pathway. Senolytic drugs aim to clear these cells in a one-two punch after cancer treatment, the strategy explored in the idea One-two punch: clear senescent cells after chemotherapy. Readers meet this hallmark from the Hallmarks of Cancer overview and from the 2022 hallmarks paper that added phenotypic plasticity, epigenetic reprogramming, microbiomes and senescent cells to the framework.", pathways: ["senescence"], links: [HALLMARKS_2022], tags: ["hallmark"] }),
   // core mechanism vocabulary
   t({ id: "disseminated-tumor-cells", wikipedia: W("Micrometastasis"), name: "Disseminated tumour cells (DTCs)", aka: ["disseminated tumour cell"], tldr: "Single cancer cells that have already spread to distant organs, often found in bone marrow years before any metastasis appears.", summary: "Disseminated tumour cells (DTCs) are single cancer cells that have already spread to distant organs, often found in bone marrow years before any metastasis appears. They are detected by bone marrow aspiration with cytokeratin staining in a substantial minority of early breast cancer patients and are prognostic for relapse, yet most are dormant and non-proliferating, as described in The metastatic cascade and Tumour dormancy pathways. DTCs are the biological substrate of Minimal / molecular residual disease (MRD), measured by MRD / molecular residual disease testing, and of Late recurrence. Readers meet the term in the hallmark Activating invasion and metastasis, the Metastasis and Recurrence and relapse entries, and the idea What decides which disseminated cells ever colonise?", pathways: ["metastatic-cascade", "tumor-dormancy"], terms: ["mrd", "late-recurrence"], technologies: ["mrd-testing"], links: [{ label: "Braun et al., A pooled analysis of bone marrow micrometastasis in breast cancer (NEJM 2005)", url: "https://doi.org/10.1056/NEJMoa050434" }] }),
-  t({ id: "warburg-effect", related: ["metabolic-theory-of-cancer"], name: "Warburg effect", wikipedia: W("Warburg_effect_(oncology)"), tldr: "Cancer cells burn glucose into lactate even when oxygen is plentiful, an inefficient but fast way to make building blocks. Otto Warburg described it in the 1920s.", summary: "The Warburg effect is the tendency of cancer cells to burn glucose into lactate even when oxygen is plentiful, an inefficient but fast way to make building blocks, first described by Otto Warburg in the 1920s. This aerobic glycolysis is driven by oncogenic signalling and HIF, as set out in the Cancer metabolism and VHL / HIF oxygen sensing pathways; it supplies intermediates for nucleotide, lipid and amino-acid synthesis and acidifies the microenvironment. It is the basis of FDG PET imaging and of the Standardised uptake value (SUV) used to report it. Readers meet the term in the hallmark Reprogramming cellular metabolism, the Glutamine addiction pathway, and the entries on Warburg-effect diet claims, Ketogenic diets in glioblastoma and the ERGO2 trial.", pathways: ["cancer-metabolism", "hif-vhl"], technologies: ["fdg-pet"], terms: ["suv"], links: [{ label: "Wikipedia", url: W("Warburg_effect_(oncology)") }] }),
-  t({ id: "immune-exclusion", wikipedia: W("Tumor_microenvironment"), name: "Immune exclusion", tldr: "A tumour where the immune cells arrive but are stopped at the edge, held back by scar tissue and signals such as TGF-β.", summary: "Immune exclusion describes a tumour where immune cells arrive but are stopped at the edge, held back by scar tissue and signals such as TGF-β. It is one of three immune phenotypes (inflamed, excluded and desert) and is associated with TGF-β-activated fibroblasts, dense extracellular matrix and abnormal vessels, as described in the TGF-β signalling and Tumour microenvironment (TME) pathways and the Hot vs cold tumours entry. It predicts poor response to checkpoint inhibitors in bladder, colorectal and pancreatic cancer, and the candidate targets are TGF-β, FAP, CXCL12/CXCR4 and VEGF / VEGFR. Readers meet the term in the hallmark Avoiding immune destruction, in the cold tumours pathway, and in the idea What actually holds T cells at the tumour border?", pathways: ["tgf-beta", "tumor-microenvironment", "pd1-checkpoint"], terms: ["cold-vs-hot", "tils"], targets: ["fap", "vegf", "cxcr3"], drugs: ["retlirafusp-alfa", "ficerafusp-alfa"], trials: ["fortifi-hn01", "nct04950322", "nct05300269", "nct05503888", "nct05671822", "nct06679673", "nct07102901", "nct07175220", "nct07478731", "nct07503639", "nct07728019", "nct07752550", "nct07773363", "nct07797244", "nct07802184", "nct07807163", "nct07814859", "nct07815288"], links: [{ label: "Mariathasan et al., TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells (Nature 2018)", url: "https://doi.org/10.1038/nature25501" }] }),
-  t({ id: "cancer-associated-fibroblasts", name: "Cancer-associated fibroblasts (CAFs)", wikipedia: W("Cancer-associated_fibroblast"), tldr: "The scaffolding cells that tumours recruit to build scar-like tissue around themselves. They feed the cancer, block drugs and immune cells, and carry the FAP protein that PET scans can now see.", summary: "Heterogeneous (myCAF, iCAF, apCAF); sources include resident fibroblasts, stellate cells, and mesenchymal stem cells. Secrete TGF-β, IL-6, CXCL12; deposit ECM. Depletion experiments show both pro- and anti-tumour roles, so targeting is moving toward reprogramming (vitamin D receptor agonists) and FAP-directed theranostics.", pathways: ["tumor-microenvironment", "tgf-beta"], targets: ["fap"], technologies: ["fapi-pet", "radioligand-therapy"], terms: ["desmoplasia"], drugs: ["fap-2286", "eb-mf-car-nk-01"], trials: ["nct04939610", "nct06710756", "nct07036380", "nct07510815"], links: [{ label: "Wikipedia", url: W("Cancer-associated_fibroblast") }] }),
-  t({ id: "tumor-associated-macrophages", name: "Tumour-associated macrophages (TAMs)", wikipedia: W("Tumor-associated_macrophage"), tldr: "Tumour-associated macrophages are immune cells that should eat cancer cells but are re-educated by the tumour to protect it instead. They are often the most abundant immune cell in a tumour.", summary: "Mostly M2-like, immunosuppressive, pro-angiogenic; recruited by CSF1 and CCL2; express PD-L1, SIRPα, TREM2. Targets: CSF1R (pexidartinib approved in TGCT; broadly disappointing in cancer), CD47/SIRPα (magrolimab failed), TREM2, CD40 agonists. Depleting M2 TAMs is also the rationale of the MERTK ADC RGX-019-MMAE.", pathways: ["tumor-microenvironment", "myc"], targets: ["cd47", "pdl1", "csf1r", "sirpa", "cd40", "mertk", "cd163", "cd14"], drugs: ["magrolimab", "ak117", "evorpacept", "peluntamig", "spevatamig", "selicrelumab", "mitazalimab", "axatilimab", "emactuzumab"], trials: ["aspen-06", "nct03424005", "nct03768063", "nct04313881", "nct04675294", "nct04675333", "nct04778397", "nct04888312", "nct04980885", "nct05079230", "nct05227664", "nct05229497", "nct05382442", "nct05482893", "nct05491226", "nct05652686", "nct05849480", "nct05868226", "nct06488378", "nct06601335", "nct06789848", "nct06953999", "nct07007559", "nct07015853", "nct07036380", "nct07199764", "nct07245446", "nct07437287"], links: [{ label: "Wikipedia", url: W("Tumor-associated_macrophage") }] }),
-  t({ id: "myeloid-derived-suppressor-cells", name: "Myeloid-derived suppressor cells (MDSCs)", wikipedia: W("Myeloid-derived_suppressor_cell"), tldr: "Immature immune cells that tumours summon to switch off T cells. Their numbers in blood predict worse immunotherapy outcomes.", summary: "Granulocytic (PMN-MDSC) and monocytic (M-MDSC) subsets; suppress T cells via arginase, iNOS, ROS, and PD-L1. Expanded by G-CSF, IL-6, and VEGF from tumours. Targets under study: CXCR2, STAT3, arginase inhibitors, PI3Kγ; also depleted by some chemotherapies (gemcitabine, 5-FU) and inhibited by PDE5 inhibitors in pilot trials. No medicine in OnCo is recorded as acting mainly on MDSCs. The four linked trials test SX-682, an oral CXCR1/2 inhibitor that blocks MDSCs from travelling into tumours in mouse models of head and neck cancer (Greene et al., Clinical Cancer Research 2020), with checkpoint inhibitors or enzalutamide.", pathways: ["tumor-microenvironment", "jak-stat"], targets: ["vegf", "pdl1"], trials: ["nct05570825", "nct06149481", "nct06228053", "nct07322341"], links: [{ label: "Wikipedia", url: W("Myeloid-derived_suppressor_cell") }, { label: "Greene et al., Inhibition of MDSC trafficking with SX-682, a CXCR1/2 inhibitor, enhances NK-cell immunotherapy in head and neck cancer models (Clinical Cancer Research 2020)", url: "https://doi.org/10.1158/1078-0432.ccr-19-2625" }] }),
+  t({ id: "warburg-effect", related: [
+  "metabolic-theory-of-cancer",
+  "oxidative-phosphorylation",
+  "nutrient-sensing-ampk"
+], name: "Warburg effect", wikipedia: W("Warburg_effect_(oncology)"), tldr: "The Warburg effect is a pattern of making lactate from glucose while oxygen is available. It does not mean that mitochondrial energy production has stopped.", summary: "Aerobic glycolysis can coexist with mitochondrial glucose oxidation and use of other nutrients. Human lung-tumour tracer experiments demonstrated variation within and between tumours, rather than a single cancer-wide metabolic state. The pattern can support proliferation but does not establish an irreplaceable survival requirement. Glucose uptake, lactate release, oxygen consumption and calculated energy production answer different questions. Neither this pattern nor a culture nutrient-removal result supplies a dietary or drug recommendation.", pathways: ["cancer-metabolism", "hif-vhl"], technologies: ["fdg-pet"], terms: ["suv"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Warburg_effect_(oncology)"
+  },
+  {
+    "label": "Source identity and scope, PMID 19460998",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19460998/"
+  },
+  {
+    "label": "Source identity and scope, PMID 26853473",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26853473/"
+  },
+  {
+    "label": "Source identity and scope, PMID 25449966",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25449966/"
+  }
+] ,
+"asOf": "2026-11-09",
+"notes": [
+  "The Warburg effect describes substantial glucose-to-lactate metabolism with oxygen available. Glycolysis can supply ATP and lactate formation regenerates a carrier needed for its continuation. Lactate production does not imply absent mitochondrial oxidation, and proliferating normal cells can use aerobic glycolysis too.",
+  "Intraoperative glucose-tracer studies in nine people with non-small-cell lung cancer found enhanced glycolysis alongside glucose oxidation, with heterogeneity within and between tumours and evidence for other nutrient use. These observations do not describe every cancer or establish an irreplaceable survival route.",
+  "FDG imaging measures uptake and trapping of a glucose analogue, not lactate production or a cancer-exclusive process. Respiratory carbon dioxide contributes to medium acidification, so pH change is not pure glycolysis. Keep oxygen conditions, viable-cell normalisation, tracer identity, metabolites and timing with rate measurements; tracer labelling alone is not automatically a complete flux estimate.",
+  "Lactate release, oxygen consumption and labelled glucose reaching mitochondrial metabolites can coexist. High pathway activity, a transcript signature or glucose uptake does not prove survival dependence. A culture nutrient-removal experiment does not establish that changing a person's diet selectively starves a tumour or identifies a medicine. Functional rate or tracer studies use viable cells, slices or a defined in-vivo experiment and consume or perturb material. No universal Warburg-positive threshold predicts treatment benefit; a functional perturbation and survival outcome are separate from the metabolic pattern."
+]
+}),
+  t({ id: "immune-exclusion", wikipedia: W("Tumor_microenvironment"), name: "Immune exclusion", tldr: "Immune exclusion describes immune cells concentrated outside cancer-cell regions. Their distribution raises questions about access; it does not identify the barrier or a treatment that will overcome it.", summary: "After priming, a T cell must be recruited, adhere to and leave a vessel, traverse stroma and reach relevant cancer cells. An excluded distribution records where cells were found. It does not establish why they stopped. A cell that has reached a target but is inhibited has a different measured problem, although access and functional failures can coexist.\n\nCandidate mechanisms include recruitment signals, vascular interactions, matrix architecture, fibroblast signalling and myeloid-cell contacts. Their evidence comes from different cancers, human tissue studies and experimental models. A location measurement, causal perturbation and successful clinical intervention are different claims. Dense stroma alone does not diagnose exclusion or identify a safe way to reverse it.", pathways: ["tgf-beta", "tumor-microenvironment", "pd1-checkpoint"], terms: ["cold-vs-hot", "tils"], targets: ["fap", "vegf", "cxcr3"], drugs: ["retlirafusp-alfa", "ficerafusp-alfa"], trials: ["fortifi-hn01", "nct04950322", "nct05300269", "nct05503888", "nct05671822", "nct06679673", "nct07102901", "nct07175220", "nct07478731", "nct07503639", "nct07728019", "nct07752550", "nct07773363", "nct07797244", "nct07802184", "nct07807163", "nct07814859", "nct07815288"], links: [
+  {
+    "label": "Mariathasan et al., TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells (Nature 2018)",
+    "url": "https://doi.org/10.1038/nature25501"
+  },
+  {
+    "label": "T cell exclusion, immune privilege, and the tumor microenvironment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25838376/"
+  },
+  {
+    "label": "Trafficking of T cells into tumors.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25477332/"
+  },
+  {
+    "label": "Chemokine expression in melanoma metastases associated with CD8+ T-cell recruitment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19293190/"
+  },
+  {
+    "label": "Melanoma-intrinsic β-catenin signalling prevents anti-tumour immunity.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25970248/"
+  },
+  {
+    "label": "Non-redundant requirement for CXCR3 signalling during tumoricidal T-cell trafficking across tumour vascular checkpoints.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26109379/"
+  },
+  {
+    "label": "Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22293174/"
+  },
+  {
+    "label": "TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29443960/"
+  },
+  {
+    "label": "Macrophages impede CD8 T cells from reaching tumor cells and limit the efficacy of anti-PD-1 treatment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29632196/"
+  },
+  {
+    "label": "Spatial immunophenotypes predict response to anti-PD1 treatment and capture distinct paths of T cell evasion in triple negative breast cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34580291/"
+  },
+  {
+    "label": "Spatially distinct tumor immune microenvironments stratify triple-negative breast cancers.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30753167/"
+  },
+  {
+    "label": "Intratumoral Activity of the CXCR3 Chemokine System Is Required for the Efficacy of Anti-PD-1 Therapy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31097342/"
+  },
+  {
+    "label": "A new paradigm for tumor immune escape: β-catenin-driven immune exclusion.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26380088/"
+  }
+] ,
+"asOf": "2026-11-11",
+"notes": [
+  "Harlin found six chemokines, including CCL5, CXCL9 and CXCL10, preferentially in T-cell-containing human melanoma metastases, with supporting migration experiments. In melanoma models, Mikucki found that CXCR3 supported intravascular arrest and extravasation of transferred CD8 effectors. These findings identify defined recruitment and vascular dependencies, not a universal explanation for every abnormal vessel. Spranger’s human melanoma association and mouse experiments connected tumour WNT/beta-catenin activity with deficient dendritic-cell recruitment and absent T-cell infiltration, a desert-like problem rather than necessarily an excluded rim. In their 2015 commentary on the mouse experiments, Spranger and Gajewski describe reduced CCL4 expression and failed recruitment of Batf3-lineage dendritic cells. This is a defined melanoma mechanism, not a universal explanation for every excluded tissue pattern.",
+  "In viable human lung-tumour slices, Salmon observed better T-cell movement in loose matrix, restricted movement in dense aligned matrix and increased cancer-cell contact after collagenase. Mariathasan associated stromal fibroblast TGF-beta signalling, exclusion and atezolizumab non-response in metastatic urothelial cancer; combined TGF-beta and PD-L1 blockade improved penetration and regression in mice. Peranzoni linked long macrophage-CD8 contacts and poor motility to exclusion in human lung squamous cancers, then used macrophage-directed treatment in mice to improve tumour-islet access. None of these model interventions establishes a beneficial breast-cancer regimen.",
+  "Hammerl’s spatial analysis of 681 TNBCs distinguished excluded, ignored and inflamed groups. Excluded samples showed collagen-10 deposits and TGF-beta/VEGF programmes; ignored samples showed either dense CD163-positive myeloid cells or WNT/PPAR-gamma programmes. The classifier also associated with anti-PD-1 response in a metastatic-TNBC phase-II trial. Gruosso separately associated stroma-restricted CD8 cells and stromal PD-L1 with poorer outcome. These associations do not prove the observed barrier caused resistance or that its removal helps a particular patient.",
+  "A chemokine can matter after entry. Chow found that CXCR3 and dendritic-cell-derived CXCL9 were required for productive anti-PD-1 responses in tumour-bearing mice but were not required for initial CD8 infiltration. This is different from Mikucki’s transferred-cell vascular-trafficking experiment. Name the tested step, model, stimulus and endpoint before treating the two studies as the same claim.",
+  "Multiplex imaging can separately count CD8 cells in stroma and malignant nests and measure distances. Bulk chemokine, fibroblast or TGF-beta RNA programmes lose direct location. A high stromal TIL area score can therefore coexist with exclusion. In a fictional comparison, collagen-rich stroma with peripheral CD8 cells and high TGF-beta suggests a different access question from sparse T cells with low recruiting chemokines. Both remain hypotheses requiring appropriate measurements and functional controls, rather than diagnoses from one image.",
+  "Feig’s pancreatic mouse model found T cells outside cancer-cell regions coated with CAF-derived CXCL12; fibroblast depletion or CXCR4 blockade improved access and revealed checkpoint-antibody activity in that model. Separately, Balachandran’s human pancreatic-cancer study associated combined neoantigen and CD8 features with long survival, detected relevant T-cell reactivity and observed selective loss of high-quality neoantigenic clones during metastatic progression. Those findings do not show that every long-term survivor overcame one specific physical exclusion barrier."
+],
+"related": [
+  "cold-vs-hot",
+  "immune-desert-exclusion",
+  "cancer-associated-fibroblasts",
+  "tumor-associated-macrophages",
+  "extracellular-matrix"
+]
+}),
+  t({ id: "cancer-associated-fibroblasts", name: "Cancer-associated fibroblasts (CAFs)", wikipedia: W("Cancer-associated_fibroblast"), tldr: "Cancer-associated fibroblasts are stromal cells with varied states and effects. No single marker or abundance measurement shows that all of them suppress immunity or promote cancer.", summary: "Fibroblasts can produce and remodel extracellular matrix and exchange signals with nearby cells. Their origins, states and functions vary with tissue and experimental context. Stroma is broader than fibroblasts, and a spatial or molecular association is different from a functional or therapeutic result.", pathways: ["tumor-microenvironment", "tgf-beta"], targets: ["fap"], technologies: ["fapi-pet", "radioligand-therapy"], terms: ["desmoplasia"], drugs: ["fap-2286", "eb-mf-car-nk-01"], trials: ["nct04939610", "nct06710756", "nct07036380", "nct07510815"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cancer-associated_fibroblast"
+  },
+  {
+    "label": "Sahai et al., A framework for advancing our understanding of cancer-associated fibroblasts. (2020)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31980749/"
+  },
+  {
+    "label": "Öhlund et al., Distinct populations of inflammatory fibroblasts and myofibroblasts in pancreatic cancer. (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28232471/"
+  },
+  {
+    "label": "Özdemir et al., Depletion of carcinoma-associated fibroblasts and fibrosis induces immunosuppression and accelerates pancreas cancer with reduced survival. (2014)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24856586/"
+  },
+  {
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22293174/"
+  },
+  {
+    "label": "Ozdemir et al., indexed correction (2015; body unavailable at review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28843279/"
+  },
+  {
+    "label": "TGFβ attenuates tumour response to PD-L1 blockade by contributing to exclusion of T cells.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29443960/"
+  }
+] ,
+"notes": [
+  "Fibroblasts are cells; stroma is a broader compartment that also includes extracellular matrix, vascular structures and other cells. Fibroblasts can produce and remodel matrix and exchange signals with neighbouring cells. In the solid-tumour settings discussed here, a stromal signal is not automatically a malignant-epithelial signal. Sahai and colleagues describe diverse origins and states, without one marker or one effect shared by every cancer-associated fibroblast.",
+  "Ohlund and colleagues described alpha-smooth-muscle-actin-high myofibroblastic fibroblasts near pancreatic cancer cells and IL-6-producing inflammatory populations farther away in pancreatic models and samples. This is not an exhaustive classification of breast stroma or a permanent job assignment for each cell. Ozdemir reported that depletion of selected alpha-smooth-muscle-actin-positive myofibroblasts worsened disease and immunosuppression in pancreatic mouse models. Removing all fibroblasts is not a general treatment conclusion. The indexed 2015 correction is linked; its body was unavailable for this review, so no correction-specific figure claim is adopted.",
+  "Immune exclusion describes immune-cell positions relative to malignant nests. Salmon studied how matrix architecture affected T-cell movement in viable human lung-tumour slices, including a collagenase perturbation. That experiment does not show that a fibroblast-rich breast specimen is immune-excluded or that removing its stroma would help. The locations and the proposed mechanism need separate evidence.",
+  "A fibroblast assessment may use fixed sections or appropriately prepared cells; sectioning and dissociation consume finite material. Report the defined marker-positive populations, cells per area or another stated denominator, cell states and positions relative to tumour structures. Retain marker combinations, morphology, cell assignment, specificity and sampled regions. There is no universal CAF-high threshold establishing function or treatment benefit. Bulk RNA can increase because there are more cells or because each cell expresses more; dissociation also loses the spatial map.",
+  "In a fictional breast section with many fibroblasts and collagen but no scored immune-cell positions, immune exclusion has not been measured. First map the immune cells against tumour nests, then test candidate causes. A neighbourhood drawing can locate fibroblasts, matrix and vessels and suggest possible signals or remodelling. It does not measure movement or show that every fibroblast promotes cancer.",
+  "Mariathasan’s metastatic-urothelial cohort associated stromal fibroblast TGF-beta signalling with CD8 exclusion and non-response to atezolizumab. Combined TGF-beta and PD-L1 blockade facilitated penetration and regression in a mouse model. Keep that perturbation separate from the human association: the findings do not establish that any fibroblast-rich breast specimen has the same barrier or that removing all fibroblasts would help."
+],
+"asOf": "2026-11-11",
+"related": [
+  "extracellular-matrix",
+  "immune-exclusion"
+]
+}),
+  t({ id: "tumor-associated-macrophages", name: "Tumour-associated macrophages (TAMs)", wikipedia: W("Tumor-associated_macrophage"), tldr: "Tumour-associated macrophages are macrophages in or around a tumour. Their states and functions vary; a location or marker count alone does not show that they suppress immunity or promote cancer.", summary: "Often described as M2-like, immunosuppressive and pro-angiogenic, although M1 and M2 are labels from laboratory stimulation experiments and a tumour can hold several macrophage programmes in different neighbourhoods or at different times (Murray et al., 2014; Xue et al., 2014); the name tumour-associated records location, and state and function are separate questions, so an M2-like marker pattern does not by itself show that the cells suppress T cells. Recruited by CSF1 and CCL2; express PD-L1, SIRPα, TREM2. Targets: CSF1R (pexidartinib approved in TGCT; broadly disappointing in cancer), CD47/SIRPα (magrolimab failed), TREM2, CD40 agonists. Depleting M2 TAMs is also the rationale of the MERTK ADC RGX-019-MMAE.", pathways: ["tumor-microenvironment", "myc"], targets: ["cd47", "pdl1", "csf1r", "sirpa", "cd40", "mertk", "cd163", "cd14"], drugs: ["magrolimab", "ak117", "evorpacept", "peluntamig", "spevatamig", "selicrelumab", "mitazalimab", "axatilimab", "emactuzumab"], trials: ["aspen-06", "nct03424005", "nct03768063", "nct04313881", "nct04675294", "nct04675333", "nct04778397", "nct04888312", "nct04980885", "nct05079230", "nct05227664", "nct05229497", "nct05382442", "nct05482893", "nct05491226", "nct05652686", "nct05849480", "nct05868226", "nct06488378", "nct06601335", "nct06789848", "nct06953999", "nct07007559", "nct07015853", "nct07036380", "nct07199764", "nct07245446", "nct07437287"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tumor-associated_macrophage"
+  },
+  {
+    "label": "Macrophage activation and polarization: nomenclature and experimental guidelines.",
+    "url": "https://doi.org/10.1016/j.immuni.2014.06.008"
+  },
+  {
+    "label": "Transcriptome-based network analysis reveals a spectrum model of human macrophage activation.",
+    "url": "https://doi.org/10.1016/j.immuni.2014.01.006"
+  },
+  {
+    "label": "Zhu et al., resident and recruited macrophages in pancreatic mouse models (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28813661/"
+  },
+  {
+    "label": "Beatty et al., CD40 and macrophage-associated stromal effects (2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21436454/"
+  },
+  {
+    "label": "Keren et al., spatial immune organisation in human TNBC (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30193111/"
+  },
+  {
+    "label": "HGNC: TYRO3 receptor family membership",
+    "url": "https://rest.genenames.org/fetch/symbol/TYRO3"
+  },
+  {
+    "label": "HGNC: AXL receptor family membership",
+    "url": "https://rest.genenames.org/fetch/symbol/AXL"
+  },
+  {
+    "label": "HGNC: MERTK receptor family membership",
+    "url": "https://rest.genenames.org/fetch/symbol/MERTK"
+  },
+  {
+    "label": "Macrophages impede CD8 T cells from reaching tumor cells and limit the efficacy of anti-PD-1 treatment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29632196/"
+  },
+  {
+    "label": "CD4(+) T cells regulate pulmonary metastasis of mammary carcinomas by enhancing protumor properties of macrophages.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19647220/"
+  }
+] ,
+"asOf": "2026-11-11"
+,
+"notes": [
+  "Tumour-associated macrophage describes macrophages in or around a tumour. Location, developmental origin, measured state and function are separate questions. These cells may engulf material, present antigens, remodel tissue, affect vessels or alter immune responses; not every cell performs every activity. M1 and M2 are experimental stimulation labels rather than a complete map of tumour macrophages.",
+  "In pancreatic mouse models, Zhu traced contributions from embryonically derived resident cells and recruited monocytes with differing programs. This is not a census of all human tumours. Beatty combined a small human CD40-agonist study with mouse experiments in which macrophages supported tumouricidal and stromal effects. The mouse mechanism does not establish that reprogramming every macrophage is beneficial. Abundance, an outcome association and benefit from intervention require different evidence; depletion can also remove useful activities.",
+  "CD68 or CD163 staining is not a T-cell suppression experiment, and circulating monocyte counts do not count tissue macrophages. Retain the marker panel, cell classification, tumour and stromal regions, area or cell denominator, site, time and treatment. Cell RNA describes programs; lineage origin needs additional evidence. Keren mapped human triple-negative breast-cancer neighbourhoods observationally, rather than testing macrophage-directed treatment selection.",
+  "Dissociation, viability and culture can alter recovered cells and behaviour. A functional claim needs a defined population and a measured endpoint such as engulfment or a change in responding cells. In a fictional example, increased CD163-positive tissue cells after treatment differs from isolated cells reducing stimulated T-cell proliferation. Linking those findings requires matching definitions and sampling; neither alone proves that depletion helps.",
+  "The acronym TAM also names the TYRO3, AXL and MERTK receptor tyrosine-kinase family. Those are proteins, not a macrophage population. HGNC assigns the three genes to the same receptor family; the shared acronym does not make a receptor result a tumour-macrophage count.",
+  "Peranzoni linked long macrophage-CD8 contacts and low T-cell motility to exclusion in human lung squamous cancers. In mice, CSF1R-directed macrophage treatment improved tumour-islet access, and adding anti-PD-1 delayed progression. DeNardo’s mouse mammary-cancer work separately showed that IL-4-producing CD4 cells could shape macrophages that promoted invasion and lung metastasis through epithelial EGFR signalling. These are bounded human-tissue and animal findings, not a universal macrophage state or proof that depletion benefits every cancer."
+]
+,
+"related": [
+  "immune-exclusion",
+  "cd4-t-cell-subsets"
+]
+}),
+  t({ id: "myeloid-derived-suppressor-cells", name: "Myeloid-derived suppressor cells (MDSCs)", wikipedia: W("Myeloid-derived_suppressor_cell"), tldr: "These heterogeneous myeloid populations are characterised using phenotype, suppressive function and context. A marker or blood-cell count alone does not establish them.", summary: "Myeloid-derived suppressor cells are research-defined populations with demonstrable immune-suppressive activity and appropriate myeloid characteristics. Monocytic, polymorphonuclear and early-stage groups require species- and preparation-specific interpretation. Their phenotype overlaps other myeloid cells; a suggestive phenotype without established function needs qualification.", pathways: ["tumor-microenvironment", "jak-stat"], targets: ["vegf", "pdl1"], trials: ["nct05570825", "nct06149481", "nct06228053", "nct07322341"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Myeloid-derived_suppressor_cell"
+  },
+  {
+    "label": "Greene et al., Inhibition of MDSC trafficking with SX-682, a CXCR1/2 inhibitor, enhances NK-cell immunotherapy in head and neck cancer models (Clinical Cancer Research 2020)",
+    "url": "https://doi.org/10.1158/1078-0432.ccr-19-2625"
+  },
+  {
+    "label": "Bronte et al., Recommendations for myeloid-derived suppressor cell nomenclature and characterization standards. (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27381735/"
+  },
+  {
+    "label": "Condamine et al., Lectin-type oxidized LDL receptor-1 distinguishes population of human polymorphonuclear myeloid-derived suppressor cells in cancer patients. (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28417112/"
+  },
+  {
+    "label": "Bruger et al., How to measure the immunosuppressive activity of MDSC: assays, problems and potential solutions. (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29785656/"
+  }
+] ,
+"notes": [
+  "Myeloid-derived suppressor cells are heterogeneous myeloid populations described using phenotype, suppressive function and context. They are not a unique lineage or a permanent identity defined by one marker, and populations can include mature and immature cells. The Bronte standards distinguish monocytic, polymorphonuclear and early-stage groups and recommend MDSC-like terminology for cells with a suggestive phenotype but no established suppressive activity.",
+  "Human research panels include CD11b-positive, CD14-positive, low or absent HLA-DR, CD15-negative monocytic candidates, and CD14-negative cells with CD15 or CD66b for polymorphonuclear candidates. Mouse Ly6C/Ly6G panels are different. Morphology, additional markers, preparation and species remain necessary. Neither CD11b alone nor CD11b-positive/CD3-negative blood cells establish suppression. Condamine linked LOX-1 to molecular and functional features of the studied human cancer-associated polymorphonuclear population; it is not a universal marker of every subtype.",
+  "Proposed suppressive routes include altered amino-acid availability, reactive molecules and inhibitory signalling, with effects depending on the population and experiment. Enzyme abundance or an RNA program does not measure the entire effect. For a suppression experiment, document candidate-cell purity and viability, adequate stimulation of responding T cells, T cells without the candidate population, suitable myeloid comparators, ratios and incubation time. Lower proliferation or cytokine output can also follow failed stimulation or cell death. The Bronte standards emphasise titration and appropriate phenotype-matched controls.",
+  "Retain the tissue or blood compartment, species, isolation, gating, time and treatment. A fraction of recovered cells differs from an absolute blood concentration, and neither directly measures tissue burden. Gradient separation, freezing and sorting can change recovery or behaviour; the standards specifically warn of losses after freezing, especially in polymorphonuclear populations. A lower post-procedure count alone does not establish removal of suppressive activity or clinical benefit.",
+  "The reasoning sequence is sample and species, candidate phenotype, controlled function, then a claim bounded to that context. A marker result cannot skip the functional question. No generic MDSC count or assay supplies a universal clinical cutoff or predicts benefit from depletion; such treatment claims need their own comparisons."
+],
+"asOf": "2026-11-10"
+}),
   t({ id: "whole-genome-doubling", wikipedia: W("Polyploidy"), name: "Whole-genome doubling (WGD)", tldr: "Whole-genome doubling is a single event in which a cancer cell duplicates its entire genome, becoming tetraploid. It happens in about a third of cancers and buffers the chaos that follows.", summary: "Whole-genome doubling (WGD) is a single event in which a cancer cell duplicates its entire genome and becomes tetraploid. It occurs in about a third of tumours, often early and with TP53 loss, and it buffers the chaos that follows: the doubled cell tolerates later chromosome loss and instability, evolves faster and carries a worse prognosis, as described in the Chromosomal instability & aneuploidy and p53 / RB / cell-cycle checkpoint pathways. WGD also creates dependencies on KIF18A and the spindle checkpoint that CIN-directed drugs are beginning to exploit, pursued in the idea Is aneuploidy itself a druggable vulnerability? Readers meet the term under Genome instability and mutation, in the TRACERx 100 and TRACERx 421 papers and in the spindle assembly checkpoint pathway.", pathways: ["chromosomal-instability", "p53-cell-cycle"], targets: ["tp53"], terms: ["genome-instability-mutation"], links: [{ label: "Bielski et al., Genome doubling shapes the evolution and prognosis of advanced cancers (Nature Genetics 2018)", url: "https://doi.org/10.1038/s41588-018-0165-1" }] }),
 ];
 

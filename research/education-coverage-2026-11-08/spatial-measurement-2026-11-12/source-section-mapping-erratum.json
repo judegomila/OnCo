@@ -1,0 +1,11 @@
+{
+  "inventorySha256": "dae63daa6bb5409dc3e3a9b618d35f5f0850d0fbdcc34d81647634651cd75af9",
+  "frozenRowsRewritten": false,
+  "newRequirements": 0,
+  "correction": {
+    "lesson": "spatial-proximity-metrics",
+    "sectionOrdinal": 2,
+    "row": "P-001",
+    "reason": "The frozen requirement already includes density versus proximity and the single-slice analogy limit, but its section list named only the repeated one-sentence definition. The Intuition section is additionally mapped to that same retained requirement; no semantic teaching is removed or invented."
+  }
+}

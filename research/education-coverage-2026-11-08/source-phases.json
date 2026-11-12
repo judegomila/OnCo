@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-09",
+  "scope": "Keep the original 537-source curriculum ledger and this later 550-source census independently required. Never add their overlapping totals or discard an original requirement after a route move. Both source versions share canonical proposals, adjacent findings, schema dependencies and literature screening.",
+  "phases": [
+    {
+      "id": "guide-c9689645",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "directory": "source-phases/c9689645",
+      "sourceCount": 550
+    }
+  ],
+  "primaryGuideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "supplementalSources": "source-assets.json"
+}

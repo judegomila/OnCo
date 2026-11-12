@@ -1,0 +1,780 @@
+{
+  "baseHead": "96f633212088b79b8f17c89b6823028d0505bff5",
+  "sourceFirst": true,
+  "freshCanonicalOwnerFieldsOpened": false,
+  "priorCohortExposure": "Genetic-code and three related owners were assessed in the preceding cohort; this inventory precedes fresh comparison of the vaccine/sequence owners.",
+  "rows": [
+    {
+      "id": "V01",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        2
+      ],
+      "requirement": "Vaccination can prime or expand antigen-reactive cells without normally genetically rewriting the receptors of mature T cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V02",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        1
+      ],
+      "requirement": "A conventional T-cell receptor recognizes peptide with HLA; a tumour DNA alteration is an upstream antigen source, not the directly recognized object.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V03",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0
+      ],
+      "requirement": "Keep innate sensing and a specific adaptive response distinct.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V04",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "Credible tumour sequences, target selection and product construction are successive questions after the recognition mechanism is understood.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V05",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A matching receptor can be present at low frequency before antigen exposure; appropriate activation can select and increase responding cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V06",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Adult thymic output declines with age but does not cease at a universal twentieth-birthday cutoff; retain the measurement and population scope of the supporting study.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V07",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A pre-dose blood sample is a limited comparison, not a complete inventory of every receptor.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V08",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Priming denotes initial activation of a naive T cell.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V09",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Dendritic-cell peptide display and supporting signals contribute to priming.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V10",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Direct presentation after a cell translates vaccine RNA and class-I cross-presentation of acquired antigen are distinct routes.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V11",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "After priming, effector cells still need access to the tumour, a displayed recognized target and functional capacity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V12",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "A shared antigen-processing defect can limit several candidate targets, rather than being solved by adding more source sequences.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V13",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "The delivery-to-presentation-to-activation-to-access-to-recognition-to-benefit sequence is a set of separately testable dependencies, not a guarantee of killing or durable benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V14",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "A fictional blood peptide-response increase supports a response in the sampled compartment, without establishing tumour entry, natural recognition or recurrence prevention.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V15",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Repeating a blood count cannot by itself test natural tumour recognition or added clinical efficacy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V16",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Rare or absent matching cells, inappropriate delivery, inadequate display or supporting signals, and later access/function barriers are different failure modes requiring different measurements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V17",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A tenfold increase in a sampled receptor sequence reports increased representation; specificity, absolute cell expansion and cancer killing are separate questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V18",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "In the fictional clone-Q exercise, pre-dose non-detection with a stated 0.1% reliability limit is not proof that Q was absent.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V19",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A later 1% frequency supports first detection and possible enrichment, but an unmeasured baseline does not supply an exact observed fold change.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V20",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Relative receptor frequency and absolute cell expansion differ; compatible counts and sampling are needed to infer the latter.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V21",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A peptide-stimulated mixture response is not automatically assigned to clone Q without linkage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V22",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "First detection and a separate peptide response establish neither receptor rewriting, natural tumour recognition nor a clinical outcome comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "V23",
+      "subject": "priming",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "The 0.1%, 1% and tenfold examples are invented assumptions with compatible methods and sampling, not clinical thresholds or patient observations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "VE01",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "The Mermaid repeats the six-stage dependency chain already assessed in V13; render and inspect it but award no second teaching unit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "VE02",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "Explain-it-back restates V01 and V11 without a new independent requirement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "VE03",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Takeaway and next-step routing recap the priming-to-benefit distinction.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "VE04",
+      "subject": "priming",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Source list and review/schedule limitations describe evidence scope; citation presence alone earns no scientific coverage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D01",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        3
+      ],
+      "requirement": "DNA, RNA and protein measurements address different biological layers.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D02",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        0,
+        1
+      ],
+      "requirement": "A vaccine source list requires alteration identity, tumour specificity and biological support before HLA matching and target selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D03",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        1
+      ],
+      "requirement": "A longer source list may add uncertain calls as well as genuine candidates.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D04",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Variant calling infers alterations from prepared molecules, aligned reads, a reference, support and competing explanations; it does not directly observe a complete tumour genome.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D05",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Matched normal comparison helps distinguish inherited from acquired sequence findings.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D06",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "A somatic sequence change does not by itself establish malignancy, because acquired changes can occur in nonmalignant cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D07",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Normal-specimen suitability, sampling and contamination must be assessed.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D08",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        2
+      ],
+      "requirement": "Tumour-only analysis estimates some inherited/acquired distinctions but does not always establish them confidently.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D09",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For tumour DNA, record call support, coverage, artefacts, tumour fraction and copy number.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D10",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For normal DNA, absence is conditional on the appropriate comparison, sampling and detection limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D11",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "For tumour RNA, assess altered transcript support, mixed-cell origin, expression depth and RNA processing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D12",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Protein or peptide detection needs method coverage, cell-of-origin and detection-limit context.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D13",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Targeted panels, whole exomes and whole genomes examine selected, largely coding and broader sequence territories respectively.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D14",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        3
+      ],
+      "requirement": "Greater sequencing breadth does not itself ensure sufficient depth, accurate structural calls or a useful antigen.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D15",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "VAF is a proportion of usable reads or assay-defined molecules supporting an allele at a specified locus.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D16",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Normal-cell admixture, local copy number and mutant-copy multiplicity affect VAF.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D17",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4,
+        7
+      ],
+      "requirement": "Read fraction is not automatically cancer-cell fraction; a half-read observation cannot be converted to half the cancer cells without purity, copy-number and multiplicity assumptions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D18",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Truncal ancestry across sampled branches differs from a subclone carried by only a subset of cancer cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D19",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "One small biopsy need not establish the alteration distribution across all sites.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D20",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        4
+      ],
+      "requirement": "Neither ancestry nor allele fraction demonstrates peptide display.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D21",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate A has tumour DNA, adequate normal absence and mutant RNA; this is further evidence progression but not demonstrated presentation or T-cell recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D22",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate B has inadequate normal coverage, leaving tumour specificity unresolved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D23",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate C has a weakly supported RNA junction and needs reproducibility and artefact checks.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D24",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        5
+      ],
+      "requirement": "Invented candidate D has strong DNA and shallow-RNA non-detection; lack of RNA detection is not definitive absence of expression.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D25",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Fixation, alignment, contamination and uncertain junctions can generate misleading candidate calls.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D26",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Sampling can miss a genuine alteration.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D27",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "A transcript/reference mismatch can change translation of an altered sequence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "D28",
+      "subject": "data",
+      "kind": "teaching",
+      "sectionOrdinals": [
+        6
+      ],
+      "requirement": "Retain methods, versions, coverage and manual decisions so each candidate remains traceable to its evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "DE01",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        7
+      ],
+      "requirement": "The half-read exercise is assessed by D17 and receives no additional independent credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "DE02",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        8
+      ],
+      "requirement": "Explain-it-back recaps comparison, expression and presentation/recognition boundaries.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "DE03",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        9
+      ],
+      "requirement": "Takeaway and next-step link repeat the separate source-quality, expression and tumour-coverage questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "DE04",
+      "subject": "data",
+      "kind": "recap-routing-scope",
+      "sectionOrdinals": [
+        10
+      ],
+      "requirement": "Source listings and the distinction between a reading framework and a laboratory protocol are scope metadata.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    }
+  ]
+}

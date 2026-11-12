@@ -1,0 +1,268 @@
+{
+  "createdAt": "2026-11-08T22:43:09.977256+00:00",
+  "scope": "Adjacent concept discovery beyond the pinned public curriculum; no trial availability or clinical recommendation inferred.",
+  "queries": [
+    {
+      "id": "access-and-regulation",
+      "query": "Which original studies and regulatory analyses identify common oncology misunderstandings about companion diagnostics, test clinical utility, investigator-sponsored studies, investigational authorization versus marketing approval, and trial-site or cohort access?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "biology-basics",
+      "query": "Which primary cancer-biology experiments expose important distinctions between gene dosage, transcription, RNA processing, protein localization, receptor binding and cell behavior that are needed to interpret molecular tests?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "breast-cancer",
+      "query": "Which original pathology and clinical-methods studies distinguish specimen orientation, inked margins, sampling, residual tumor cellularity, nodal deposits and treatment response in breast cancer pathology?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "cancer-biology",
+      "query": "Which original cancer-biology studies distinguish cell of origin, cell state, clonal evolution, lineage plasticity, tissue invasion, tumor dormancy and metastatic colonization, including limits of extrapolating models?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "engineering-and-manufacturing",
+      "query": "Which primary method studies identify overlooked distinctions in RNA and cell-therapy product characterization, delivery, process comparability, analytical method validation, impurities, stability and potency?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "evidence-and-statistics",
+      "query": "Which original statistical methods studies explain common oncology errors involving causal estimands, intercurrent events, treatment-effect interactions, competing risks, repeated biomarkers, calibration and clinical utility?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "immunology",
+      "query": "Which original immunology experiments distinguish central and peripheral tolerance, antigen display and recognition, co-stimulation, T-cell activation, exhaustion, memory, receptor specificity and immune-mediated tumor killing?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "measurement",
+      "query": "Which original methods studies show overlooked interpretation limits in spatial and single-cell omics, DNA copy number and loss of heterozygosity, RNA isoforms, phosphoproteomics, immune assays and functional tumor models?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "therapeutics",
+      "query": "Which primary studies identify important distinctions across next-generation oncology payloads, targeted degradation, immune agonists, metabolic and epigenetic agents, radiation biology, therapeutic delivery and mechanism-specific resistance?",
+      "maxResults": 15,
+      "lane": "semantic paper discovery"
+    },
+    {
+      "id": "biology-binding-response",
+      "query": "Which original receptor pharmacology experiments distinguish ligand binding affinity, receptor occupancy, agonist efficacy, constitutive activity, signaling kinetics and cell behavior?",
+      "maxResults": 15,
+      "lane": "follow-up semantic discovery after biology gap review"
+    },
+    {
+      "id": "biology-lineage-state",
+      "query": "Which original single-cell lineage tracing experiments show why similar gene expression states do not establish common ancestry, future cell fate or a genetic clone?",
+      "maxResults": 15,
+      "lane": "follow-up semantic discovery after biology gap review"
+    },
+    {
+      "id": "cell-therapies",
+      "query": "Engineered CAR T and CAR NK cell architecture, cytokine armoring, antigen logic gates, safety switches and source-dependent persistence: primary experiments and clinical studies reporting limitations or new mechanisms",
+      "maxResults": 15,
+      "lane": "follow-up semantic discovery after cell-therapy curriculum review"
+    },
+    {
+      "id": "top1-chemical-exposure",
+      "query": "Which primary studies compare free exatecan clinical outcomes with antibody-delivered exatecan or redesigned TOP1 payloads, including defined transporter or TOP1-mutant resistance, payload release and bystander controls?",
+      "maxResults": 10,
+      "lane": "Follow-up exact chemical/exposure and dosage/retraction discovery; adopted primary evidence separately resolved in draft #369."
+    },
+    {
+      "id": "polr2a-dosage-evidence",
+      "query": "Which primary studies or retraction/correction notices test POLR2A copy-number collateral vulnerability, amanitin antibody conjugates and normal-tissue uptake, distinguishing TP53 deletion from mutation and nanoparticle siRNA from an ADC?",
+      "maxResults": 10,
+      "lane": "Follow-up exact chemical/exposure and dosage/retraction discovery; adopted primary evidence separately resolved in draft #369."
+    },
+    {
+      "id": "chk1-attached-cargo",
+      "query": "Which primary experiments physically attach a CHK1 checkpoint kinase 1 inhibitor or CHK1 degrader to an antibody as its active cargo? Distinguish actual chemical conjugation from separately administered prexasertib, AZD7762 or ATR inhibitor combinations, and siRNA or nanoparticles.",
+      "maxResults": 15,
+      "lane": "Follow-up attached-cargo versus separate-drug and negative-delivery evidence."
+    },
+    {
+      "id": "crossref-chk1-pair-title",
+      "query": "Combined Top1 and CHK Inhibitor Dual-Payload Strategy for Synergistic Reversal of Tumor Drug Resistance",
+      "maxResults": 3,
+      "lane": "Crossref title resolver; exact report and two adjacent candidates screened at deposited-abstract depth."
+    },
+    {
+      "id": "europepmc-trop2-growth-title",
+      "query": "TITLE:\"Trop-2\" AND (TITLE:\"growth\" OR TITLE:\"oncogen\")",
+      "maxResults": 20,
+      "lane": "Europe PMC title search; all eight returned MED abstracts read. Discovery metadata does not by itself establish clinical evidence.",
+      "responseFile": "expression-primary/trop2-growth-search.json",
+      "responseSha256": "602ed29ae7a42a0568d7dbbad8399783cc5e46dfddabafbb8594eb468e5909f8",
+      "hitCount": 8,
+      "returnedCount": 8
+    },
+    {
+      "id": "elicit-local-treatment-context-2026-11-09",
+      "query": "Randomized studies of local ablation or stereotactic radiotherapy added to systemic immunotherapy in oligoresidual or oligoprogressive lung and breast cancer; negative comparisons, starting time, distant outcomes and immune mechanism evidence",
+      "maxResults": 8,
+      "lane": "Elicit semantic discovery; all returned metadata and available abstracts read. Verification depth and unavailable items are named per occurrence.",
+      "responseFile": "local-treatment-elicit.json",
+      "responseSha256": "435d25d05bcb01a64a08f8e81df143acb6e125718785d0cf77c5daed277d00f3",
+      "returnedCount": 8,
+      "retrievedAt": "2026-11-09T19:22:27.599Z",
+      "endpoint": "https://elicit.com/api/v2/search/papers",
+      "reportURL": null,
+      "questionURL": null
+    },
+    {
+      "id": "tcell-state-prior-and-tonic-core",
+      "query": "%28EXT_ID%3A26885860%20OR%20EXT_ID%3A33020644%20OR%20EXT_ID%3A25939063%29%20AND%20SRC%3AMED",
+      "queryEncoding": "URL-encoded Europe PMC query; request URL retained in capture manifest",
+      "maxResults": 20,
+      "lane": "Targeted primary lookup or title discovery; every returned available abstract read. Not an exhaustive field census.",
+      "responseFile": "tcell-state-primary/prior-and-tonic-core.json",
+      "responseSha256": "c4f209347f016fb2b574ca97db77e45400bb0b9b4d079325d39a00d68c94b854",
+      "hitCount": 3,
+      "returnedCount": 3
+    },
+    {
+      "id": "tcell-state-transgene-2025-core",
+      "query": "DOI%3A10.1182/bloodadvances.2024014995",
+      "queryEncoding": "URL-encoded Europe PMC query; request URL retained in capture manifest",
+      "maxResults": 20,
+      "lane": "Targeted primary lookup or title discovery; every returned available abstract read. Not an exhaustive field census.",
+      "responseFile": "tcell-state-primary/transgene-2025-core.json",
+      "responseSha256": "4da262ce8bb737face0d0ef9c7d9a2034f0c022b36382d97b8bcadbbcf3ca0a9",
+      "hitCount": 1,
+      "returnedCount": 1
+    },
+    {
+      "id": "tcell-state-decade-persistence-2026-core",
+      "query": "DOI%3A10.1038/s41591-026-04578-1",
+      "queryEncoding": "URL-encoded Europe PMC query; request URL retained in capture manifest",
+      "maxResults": 20,
+      "lane": "Targeted primary lookup or title discovery; every returned available abstract read. Not an exhaustive field census.",
+      "responseFile": "tcell-state-primary/decade-persistence-2026-core.json",
+      "responseSha256": "d65c960a45995df988f2c37cad4138e5f11c7721cbcc6aa63dbb5c74ce2812a5",
+      "hitCount": 1,
+      "returnedCount": 1
+    },
+    {
+      "id": "tcell-state-humanized-cd19-core",
+      "query": "EXT_ID%3APMC9851702%20OR%20TITLE%3A%22Humanized%20CD19-Targeted%20Chimeric%20Antigen%20Receptor%22",
+      "queryEncoding": "URL-encoded Europe PMC query; request URL retained in capture manifest",
+      "maxResults": 20,
+      "lane": "Targeted primary lookup or title discovery; every returned available abstract read. Not an exhaustive field census.",
+      "responseFile": "tcell-state-primary/humanized-cd19-core.json",
+      "responseSha256": "f9ab3e25f4cee08e9a41b4510be78b0b80aa7321017e2ed2eaa6784479357ec6",
+      "hitCount": 3,
+      "returnedCount": 3
+    },
+    {
+      "id": "tcell-state-stemlike-exhaustion-search",
+      "query": "TITLE%3A%22TCF1%22%20AND%20%28TITLE%3A%22exhausted%22%20OR%20TITLE%3A%22stem-like%22%29%20AND%20FIRST_PDATE%3A%5B2018-01-01%20TO%202020-12-31%5D",
+      "queryEncoding": "URL-encoded Europe PMC query; request URL retained in capture manifest",
+      "maxResults": 20,
+      "lane": "Targeted primary lookup or title discovery; every returned available abstract read. Not an exhaustive field census.",
+      "responseFile": "tcell-state-primary/stemlike-exhaustion-search.json",
+      "responseSha256": "f8f9308ddaf7e380f5c3e87df63ed1a9604c393b95c78255839a412e18107631",
+      "hitCount": 4,
+      "returnedCount": 4
+    },
+    {
+      "id": "endpoint-definitions-recist-core",
+      "query": "DOI%3A10.1016/j.ejca.2008.10.026",
+      "queryEncoding": "URL-encoded Europe PMC field query; capture manifest retains exact request URL",
+      "maxResults": 25,
+      "lane": "Targeted primary identity lookup; every returned complete MED abstract read. Not an exhaustive endpoint-methodology literature census.",
+      "responseFile": "response-endpoint-primary/recist-core.json",
+      "responseSha256": "52d96d27b58672569eaa347d64cbfb6692181da66e635fe6fa6d678f0303ee36",
+      "hitCount": 1,
+      "returnedCount": 1
+    },
+    {
+      "id": "endpoint-definitions-cbr-examples-core",
+      "query": "%28EXT_ID%3A23965901%20OR%20EXT_ID%3A29373071%29%20AND%20SRC%3AMED",
+      "queryEncoding": "URL-encoded Europe PMC field query; capture manifest retains exact request URL",
+      "maxResults": 25,
+      "lane": "Targeted primary identity lookup; every returned complete MED abstract read. Not an exhaustive endpoint-methodology literature census.",
+      "responseFile": "response-endpoint-primary/cbr-examples-core.json",
+      "responseSha256": "b2d93e5cfb962bd4ea9f2ee340dc38361da47a8130bdf542898aae259d41ae67",
+      "hitCount": 2,
+      "returnedCount": 2
+    },
+    {
+      "id": "endpoint-definitions-criteria-med-quoted",
+      "query": "DOI%3A%2210.1016/S1470-2045%2817%2930074-8%22%20OR%20DOI%3A%2210.2967/jnumed.108.057307%22",
+      "queryEncoding": "URL-encoded Europe PMC field query; capture manifest retains exact request URL",
+      "maxResults": 25,
+      "lane": "Targeted primary identity lookup; every returned complete MED abstract read. Not an exhaustive endpoint-methodology literature census.",
+      "responseFile": "response-endpoint-primary/criteria-med-quoted.json",
+      "responseSha256": "7c0f59bee2b1054ab3dda9dcd8ca400799bda2fda14a51b8eea28117d3596049",
+      "hitCount": 2,
+      "returnedCount": 2
+    },
+    {
+      "id": "cell-manufacturing-process-outcomes",
+      "queryId": "cell-manufacturing-process-outcomes",
+      "query": "How do starting cell composition, cryopreservation and manufacturing process changes affect release quality, treatment attrition and collection-to-infusion time for cancer cell therapies?",
+      "maxResults": 8,
+      "minYear": 2022,
+      "lane": "Bounded semantic discovery; full JSON outside Git, public metadata and exact response hash.",
+      "responseFile": "cell-manufacturing-2026-11-09/elicit-discovery.json",
+      "responseSha256": "da5eddea4863a072c4d838903172dd298f2e830cddf34cba2fb8e1eb12835060",
+      "returnedCount": 8
+    },
+    {
+      "id": "cell-manufacturing-direct",
+      "lane": "Fourteen exact primary-source MED identity lookups from the nine concepts and consequential existing-owner claims; not an exhaustive clinical programme census.",
+      "requestFiles": [
+        "med-28123068.json",
+        "med-33308471.json",
+        "med-36970059.json",
+        "med-38231412.json",
+        "med-30030295.json",
+        "med-14085017.json",
+        "med-31178392.json",
+        "med-30910382.json",
+        "med-40066375.json",
+        "med-40377509.json",
+        "uk-panel-med.json",
+        "med-40536974.json",
+        "med-34990237.json",
+        "depil-med.json"
+      ],
+      "responseManifest": "cell-manufacturing-2026-11-09/capture-manifest.json",
+      "returnedCount": 14
+    },
+    {
+      "id": "payload-chemical-species-follow-up",
+      "query": "Bounded exact-chemical, released-species, loading and transporter follow-up. The original Elicit request, twelve returned results and direct MED/label captures are retained in the immutable linked receipt.",
+      "lane": "One captured Elicit discovery plus direct identifier/title/source follow-up; mixed provenance is recorded per occurrence.",
+      "occurrences": 46,
+      "requestReceipt": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/elicit-discovery.json",
+      "note": "An occurrence count is not a count of independent studies or whole-paper reads."
+    },
+    {
+      "id": "tcells-primary-follow-up",
+      "lane": "Direct primary identifier/source follow-up with independently repeated MED checks and a Crossref DOI reconciliation",
+      "occurrences": 39,
+      "scope": "Publication occurrences, not all 45 assessment rows or independent experiments. Original Elicit immunity discovery stays separate.",
+      "sourceReceipt": "tcells-2026-11-09/primary-sources.json"
+    }
+  ],
+  "rules": [
+    "Every result occurrence receives a disposition.",
+    "A semantic result is not verified evidence.",
+    "New concepts enter the same coverage ledger.",
+    "Registry sweeps are added for any program, trial, access or current-status claim.",
+    "Two full review passes without a new unrepresented learning requirement are required for scoped completion."
+  ]
+}

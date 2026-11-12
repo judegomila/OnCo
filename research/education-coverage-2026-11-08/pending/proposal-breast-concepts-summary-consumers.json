@@ -1,0 +1,3460 @@
+{
+  "version": "proposal-breast-concepts-summary-consumers",
+  "records": [
+    {
+      "id": "basal-like-ar",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (ar)",
+      "canonicalRecordId": "basal-like",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-ar",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (ar)",
+      "canonicalRecordId": "brca-germline",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-ar",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (ar)",
+      "canonicalRecordId": "curative-intent",
+      "language": "ar",
+      "available": true,
+      "text": "ما إذا كان هدف العلاج القضاء على السرطان نهائياً (شافٍ) أو السيطرة عليه وتخفيف الأعراض وإطالة العمر عندما يكون الشفاء غير ممكن (تلطيفي). النية، لا الدواء، هي التي تحدد الكلمة: فالعلاج الكيميائي نفسه يمكن أن يكون أياً منهما."
+    },
+    {
+      "id": "er-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ar)",
+      "canonicalRecordId": "er-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (ar)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (ar)",
+      "canonicalRecordId": "germline-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ar)",
+      "canonicalRecordId": "her2-low",
+      "language": "ar",
+      "available": true,
+      "text": "أورام تحتوي على قدر قليل من HER2 (IHC 1+ أو 2+ دون تضخيم)، أو على أثر ضئيل منه فقط (ultralow)، كانت أدوية HER2 القديمة تتجاهلها لكن Enhertu قادر على مهاجمتها."
+    },
+    {
+      "id": "her2-positive-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ar)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (ar)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "ar",
+      "available": true,
+      "text": "نحو 5-10% من السرطانات تنشأ عن خلل جيني موروث. والتعرف على هذه المتلازمات (BRCA، وLynch، وLi-Fraumeni، وVHL، وMEN، وFAP، والورم الأرومي الشبكي، وعشرات غيرها) يغيّر الفحص المبكر والجراحة والعلاج للمريض ولأقاربه."
+    },
+    {
+      "id": "hormone-receptor-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (ar)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-ar",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (ar)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-ar",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (ar)",
+      "canonicalRecordId": "nucleus",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-ar",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (ar)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (ar)",
+      "canonicalRecordId": "pr-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (ar)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "ar",
+      "available": true,
+      "text": "عاد السرطان بعد فترة لم يكن من الممكن اكتشافه فيها. كلمة 'النكس' هي المعتادة للأورام الصلبة و'الانتكاس' لسرطانات الدم؛ والمعنى واحد."
+    },
+    {
+      "id": "remission-ar",
+      "kind": "reader-summary-entry",
+      "name": "Remission (ar)",
+      "canonicalRecordId": "remission",
+      "language": "ar",
+      "available": true,
+      "text": "عندما تتقلص علامات السرطان (هدأة جزئية) أو تختفي تماما (هدأة كاملة). وهي ليست الشفاء نفسه، لأن خلايا قليلة جدا لا يمكن كشفها قد تبقى."
+    },
+    {
+      "id": "secondary-brain-tumours-ar",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (ar)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (ar)",
+      "canonicalRecordId": "tnbc",
+      "language": "ar",
+      "available": true,
+      "text": "سرطان ثدي يفتقر إلى المستقبلات الثلاثة (الإستروجين والبروجستيرون وHER2) التي تُعالَج من خلالها سرطانات الثدي الأخرى. كان أصعب الأنواع الفرعية لعقود؛ ومنذ 2020 غيّر العلاج المناعي ومركّبات ADC ذلك."
+    },
+    {
+      "id": "basal-like-de",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (de)",
+      "canonicalRecordId": "basal-like",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-de",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (de)",
+      "canonicalRecordId": "brca-germline",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-de",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (de)",
+      "canonicalRecordId": "curative-intent",
+      "language": "de",
+      "available": true,
+      "text": "Ob das Ziel der Behandlung darin besteht, den Krebs dauerhaft zu beseitigen (kurativ), oder ihn zu kontrollieren, Symptome zu lindern und das Leben zu verlängern, wenn Heilung nicht möglich ist (palliativ). Die Absicht, nicht das Medikament, bestimmt das Wort: Dieselbe Chemotherapie kann beides sein."
+    },
+    {
+      "id": "er-status-de",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (de)",
+      "canonicalRecordId": "er-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-de",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (de)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (de)",
+      "canonicalRecordId": "germline-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (de)",
+      "canonicalRecordId": "her2-low",
+      "language": "de",
+      "available": true,
+      "text": "Tumoren mit wenig HER2 (IHC 1+ oder 2+ ohne Amplifikation) oder nur einer Spur davon (ultralow), die ältere HER2-Medikamente ignorierten, die Enhertu aber angreifen kann."
+    },
+    {
+      "id": "her2-positive-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (de)",
+      "canonicalRecordId": "her2-positive",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-de",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (de)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "de",
+      "available": true,
+      "text": "Etwa 5 bis 10 % der Krebserkrankungen entstehen durch einen vererbten Gendefekt. Das Erkennen dieser Syndrome (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, Retinoblastom und Dutzende weitere) verändert Früherkennung, Operation und Behandlung für die Betroffenen und ihre Angehörigen."
+    },
+    {
+      "id": "hormone-receptor-status-de",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (de)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-de",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (de)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-de",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (de)",
+      "canonicalRecordId": "nucleus",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-de",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (de)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-de",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (de)",
+      "canonicalRecordId": "pr-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-de",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (de)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "de",
+      "available": true,
+      "text": "Der Krebs ist nach einer Phase, in der er nicht nachweisbar war, zurückgekehrt. „Rezidiv“ ist das übliche Wort bei soliden Tumoren und „Rückfall“ bei Blutkrebs; gemeint ist dasselbe."
+    },
+    {
+      "id": "remission-de",
+      "kind": "reader-summary-entry",
+      "name": "Remission (de)",
+      "canonicalRecordId": "remission",
+      "language": "de",
+      "available": true,
+      "text": "Wenn die Anzeichen des Krebses zurückgegangen (partielle Remission) oder vollständig verschwunden sind (komplette Remission). Das ist nicht dasselbe wie Heilung, denn es können Zellen zurückbleiben, die zu wenige sind, um nachgewiesen zu werden."
+    },
+    {
+      "id": "secondary-brain-tumours-de",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (de)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-de",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (de)",
+      "canonicalRecordId": "tnbc",
+      "language": "de",
+      "available": true,
+      "text": "Ein Brustkrebs, dem die drei Rezeptoren (Östrogen, Progesteron, HER2) fehlen, über die andere Brustkrebsarten behandelt werden können. Jahrzehntelang war er der schwierigste Subtyp; seit 2020 haben Immuntherapie und ADCs das verändert."
+    },
+    {
+      "id": "basal-like-es",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (es)",
+      "canonicalRecordId": "basal-like",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-es",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (es)",
+      "canonicalRecordId": "brca-germline",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-es",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (es)",
+      "canonicalRecordId": "curative-intent",
+      "language": "es",
+      "available": true,
+      "text": "Si el objetivo del tratamiento es eliminar el cáncer definitivamente (curativo) o controlarlo, aliviar los síntomas y prolongar la vida cuando la curación no es posible (paliativo). La intención, no el fármaco, define la palabra: la misma quimioterapia puede ser cualquiera de las dos."
+    },
+    {
+      "id": "er-status-es",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (es)",
+      "canonicalRecordId": "er-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-es",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (es)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (es)",
+      "canonicalRecordId": "germline-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (es)",
+      "canonicalRecordId": "her2-low",
+      "language": "es",
+      "available": true,
+      "text": "Tumores con un poco de HER2 (IHC 1+ o 2+ sin amplificación), o un rastro (ultrabajo), que los fármacos anti-HER2 antiguos ignoraban pero Enhertu puede atacar."
+    },
+    {
+      "id": "her2-positive-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (es)",
+      "canonicalRecordId": "her2-positive",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-es",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (es)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "es",
+      "available": true,
+      "text": "Alrededor del 5-10% de los cánceres se deben a un fallo genético heredado. Reconocer estos síndromes (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, retinoblastoma y decenas más) cambia el cribado, la cirugía y el tratamiento tanto para el paciente como para sus familiares."
+    },
+    {
+      "id": "hormone-receptor-status-es",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (es)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-es",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (es)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-es",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (es)",
+      "canonicalRecordId": "nucleus",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-es",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (es)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-es",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (es)",
+      "canonicalRecordId": "pr-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-es",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (es)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "es",
+      "available": true,
+      "text": "El cáncer ha vuelto tras un periodo en el que no podía detectarse. 'Recurrencia' es la palabra habitual para los tumores sólidos y 'recaída' para los cánceres de la sangre; significan lo mismo."
+    },
+    {
+      "id": "remission-es",
+      "kind": "reader-summary-entry",
+      "name": "Remission (es)",
+      "canonicalRecordId": "remission",
+      "language": "es",
+      "available": true,
+      "text": "Cuando los signos del cáncer se han reducido (remisión parcial) o han desaparecido por completo (remisión completa). No es lo mismo que curación, porque pueden quedar células demasiado escasas para detectarlas."
+    },
+    {
+      "id": "secondary-brain-tumours-es",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (es)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-es",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (es)",
+      "canonicalRecordId": "tnbc",
+      "language": "es",
+      "available": true,
+      "text": "Un cáncer de mama que carece de los tres receptores (estrógeno, progesterona, HER2) a través de los cuales se tratan otros cánceres de mama. Fue el subtipo más difícil durante décadas; desde 2020 la inmunoterapia y los ADC lo han cambiado."
+    },
+    {
+      "id": "basal-like-fr",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (fr)",
+      "canonicalRecordId": "basal-like",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-fr",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (fr)",
+      "canonicalRecordId": "brca-germline",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-fr",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (fr)",
+      "canonicalRecordId": "curative-intent",
+      "language": "fr",
+      "available": true,
+      "text": "Selon que l'objectif du traitement est d'éliminer le cancer pour de bon (curatif) ou de le contrôler, de soulager les symptômes et de prolonger la vie quand la guérison n'est pas possible (palliatif). C'est l'intention, et non le médicament, qui définit le mot : la même chimiothérapie peut être l'un ou l'autre."
+    },
+    {
+      "id": "er-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (fr)",
+      "canonicalRecordId": "er-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (fr)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (fr)",
+      "canonicalRecordId": "germline-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (fr)",
+      "canonicalRecordId": "her2-low",
+      "language": "fr",
+      "available": true,
+      "text": "Des tumeurs qui présentent un peu de HER2 (IHC 1+ ou 2+ sans amplification), ou seulement une trace (ultralow), que les anciens médicaments anti-HER2 ignoraient mais qu'Enhertu peut attaquer."
+    },
+    {
+      "id": "her2-positive-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (fr)",
+      "canonicalRecordId": "her2-positive",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (fr)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "fr",
+      "available": true,
+      "text": "Environ 5 à 10 % des cancers sont dus à une anomalie génétique héréditaire. Reconnaître ces syndromes (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, rétinoblastome et des dizaines d'autres) change le dépistage, la chirurgie et le traitement pour le patient et ses proches."
+    },
+    {
+      "id": "hormone-receptor-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (fr)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-fr",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (fr)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-fr",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (fr)",
+      "canonicalRecordId": "nucleus",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-fr",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (fr)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (fr)",
+      "canonicalRecordId": "pr-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (fr)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "fr",
+      "available": true,
+      "text": "Le cancer est revenu après une période pendant laquelle il n'était plus détectable. « Récidive » est le mot habituel pour les tumeurs solides et « rechute » pour les cancers du sang ; ils désignent la même chose."
+    },
+    {
+      "id": "remission-fr",
+      "kind": "reader-summary-entry",
+      "name": "Remission (fr)",
+      "canonicalRecordId": "remission",
+      "language": "fr",
+      "available": true,
+      "text": "Lorsque les signes du cancer ont diminué (rémission partielle) ou ont entièrement disparu (rémission complète). Ce n'est pas la même chose que la guérison, car des cellules trop peu nombreuses pour être détectées peuvent subsister."
+    },
+    {
+      "id": "secondary-brain-tumours-fr",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (fr)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (fr)",
+      "canonicalRecordId": "tnbc",
+      "language": "fr",
+      "available": true,
+      "text": "Un cancer du sein dépourvu des trois récepteurs (œstrogène, progestérone, HER2) par lesquels on traite les autres cancers du sein. Ce fut le sous-type le plus difficile pendant des décennies ; depuis 2020, l'immunothérapie et les ADC ont changé la donne."
+    },
+    {
+      "id": "basal-like-hi",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (hi)",
+      "canonicalRecordId": "basal-like",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-hi",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (hi)",
+      "canonicalRecordId": "brca-germline",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-hi",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (hi)",
+      "canonicalRecordId": "curative-intent",
+      "language": "hi",
+      "available": true,
+      "text": "उपचार का लक्ष्य कैंसर को हमेशा के लिए समाप्त करना है (क्यूरेटिव) या, जब इलाज संभव न हो, उसे नियंत्रित करना, लक्षणों से राहत देना और जीवन बढ़ाना (पैलिएटिव)। इस शब्द को दवा नहीं, इरादा परिभाषित करता है: एक ही कीमोथेरेपी दोनों में से कोई भी हो सकती है।"
+    },
+    {
+      "id": "er-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (hi)",
+      "canonicalRecordId": "er-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (hi)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (hi)",
+      "canonicalRecordId": "germline-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (hi)",
+      "canonicalRecordId": "her2-low",
+      "language": "hi",
+      "available": true,
+      "text": "थोड़े HER2 (IHC 1+ या 2+ बिना एम्प्लिफ़िकेशन) या अंश (अल्ट्रालो) वाले ट्यूमर, जिन्हें पुरानी HER2 दवाएँ अनदेखा करती थीं पर Enhertu पर वार कर सकता है।"
+    },
+    {
+      "id": "her2-positive-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (hi)",
+      "canonicalRecordId": "her2-positive",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (hi)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "hi",
+      "available": true,
+      "text": "लगभग 5-10% कैंसर किसी विरासत में मिली जीन की खराबी से उत्पन्न होते हैं। इन सिंड्रोमों (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, रेटिनोब्लास्टोमा और दर्जनों अन्य) की पहचान से रोगी और उसके रिश्तेदारों की स्क्रीनिंग, सर्जरी और उपचार बदल जाते हैं।"
+    },
+    {
+      "id": "hormone-receptor-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (hi)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-hi",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (hi)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-hi",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (hi)",
+      "canonicalRecordId": "nucleus",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-hi",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (hi)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (hi)",
+      "canonicalRecordId": "pr-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (hi)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "hi",
+      "available": true,
+      "text": "कैंसर एक ऐसी अवधि के बाद वापस आ गया है जिसमें उसका पता नहीं लगाया जा सका था। ठोस ट्यूमर के लिए सामान्य शब्द 'रिकरेंस' है और रक्त कैंसर के लिए 'रिलैप्स'; दोनों का अर्थ एक ही है।"
+    },
+    {
+      "id": "remission-hi",
+      "kind": "reader-summary-entry",
+      "name": "Remission (hi)",
+      "canonicalRecordId": "remission",
+      "language": "hi",
+      "available": true,
+      "text": "जब कैंसर के संकेत सिकुड़ गए हों (आंशिक रिमिशन) या पूरी तरह गायब हो गए हों (पूर्ण रिमिशन)। यह इलाज के समान नहीं है, क्योंकि पता लगाने के लिए बहुत कम कोशिकाएं बची रह सकती हैं।"
+    },
+    {
+      "id": "secondary-brain-tumours-hi",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (hi)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (hi)",
+      "canonicalRecordId": "tnbc",
+      "language": "hi",
+      "available": true,
+      "text": "एक स्तन कैंसर जिसमें वे तीन रिसेप्टर (एस्ट्रोजन, प्रोजेस्टेरोन, HER2) नहीं होते जिनके ज़रिये दूसरे स्तन कैंसरों का इलाज होता है। दशकों तक यह सबसे कठिन उपप्रकार रहा; 2020 से इम्यूनोथेरेपी और ADC ने इसे बदल दिया है।"
+    },
+    {
+      "id": "basal-like-ja",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (ja)",
+      "canonicalRecordId": "basal-like",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-ja",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (ja)",
+      "canonicalRecordId": "brca-germline",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-ja",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (ja)",
+      "canonicalRecordId": "curative-intent",
+      "language": "ja",
+      "available": true,
+      "text": "治療の目的が、がんを完全に取り除くこと（根治的）なのか、治癒が望めない場合に病勢を抑え、症状を和らげ、生命を延ばすこと（緩和的）なのかを表す。この言葉を定義するのは薬ではなく意図である。同じ化学療法がどちらにもなり得る。"
+    },
+    {
+      "id": "er-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ja)",
+      "canonicalRecordId": "er-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (ja)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (ja)",
+      "canonicalRecordId": "germline-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (ja)",
+      "canonicalRecordId": "her2-low",
+      "language": "ja",
+      "available": true,
+      "text": "HER2がわずかにある腫瘍（増幅のないIHC 1+または2+）や、ごく微量しかない腫瘍（ウルトラロー）。従来のHER2標的薬は対象にしてこなかったが、Enhertuなら攻撃できる。"
+    },
+    {
+      "id": "her2-positive-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ja)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (ja)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "ja",
+      "available": true,
+      "text": "がんの約5〜10%は、遺伝によって受け継いだ遺伝子の異常から生じる。こうした症候群（BRCA、Lynch、Li-Fraumeni、VHL、MEN、FAP、網膜芽細胞腫など数十種類）を見つけ出すことで、患者本人とその親族の検診、手術、治療の方針が変わる。"
+    },
+    {
+      "id": "hormone-receptor-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (ja)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-ja",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (ja)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-ja",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (ja)",
+      "canonicalRecordId": "nucleus",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-ja",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (ja)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (ja)",
+      "canonicalRecordId": "pr-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (ja)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "ja",
+      "available": true,
+      "text": "検出できない期間を経て、がんが再び現れた状態。固形がんでは「再発(recurrence)」、血液がんでは「再燃(relapse)」という言葉が一般的だが、意味は同じである。"
+    },
+    {
+      "id": "remission-ja",
+      "kind": "reader-summary-entry",
+      "name": "Remission (ja)",
+      "canonicalRecordId": "remission",
+      "language": "ja",
+      "available": true,
+      "text": "がんの兆候が縮小した(部分寛解)か、完全に消失した(完全寛解)状態を指す。検出できないほど少数の細胞が残っている可能性があるため、治癒と同じではない。"
+    },
+    {
+      "id": "secondary-brain-tumours-ja",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (ja)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (ja)",
+      "canonicalRecordId": "tnbc",
+      "language": "ja",
+      "available": true,
+      "text": "他の乳がんの治療の手がかりとなる3つの受容体（エストロゲン、プロゲステロン、HER2）をすべて欠く乳がん。数十年にわたり最も難しいサブタイプだったが、2020年以降、免疫療法とADCがそれを変えた。"
+    },
+    {
+      "id": "basal-like-pt",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (pt)",
+      "canonicalRecordId": "basal-like",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-pt",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (pt)",
+      "canonicalRecordId": "brca-germline",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-pt",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (pt)",
+      "canonicalRecordId": "curative-intent",
+      "language": "pt",
+      "available": true,
+      "text": "Se o objetivo do tratamento é eliminar o câncer de vez (curativo) ou controlá-lo, aliviar os sintomas e prolongar a vida quando a cura não é possível (paliativo). A intenção, não o fármaco, define a palavra: a mesma quimioterapia pode ser qualquer uma das duas."
+    },
+    {
+      "id": "er-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (pt)",
+      "canonicalRecordId": "er-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (pt)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (pt)",
+      "canonicalRecordId": "germline-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (pt)",
+      "canonicalRecordId": "her2-low",
+      "language": "pt",
+      "available": true,
+      "text": "Tumores com um pouco de HER2 (IHC 1+ ou 2+ sem amplificação), ou um traço (ultrabaixo), que drogas anti-HER2 antigas ignoravam mas o Enhertu pode atacar."
+    },
+    {
+      "id": "her2-positive-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (pt)",
+      "canonicalRecordId": "her2-positive",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (pt)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "pt",
+      "available": true,
+      "text": "Cerca de 5-10% dos cânceres surgem de uma falha genética herdada. Reconhecer essas síndromes (BRCA, Lynch, Li-Fraumeni, VHL, MEN, FAP, retinoblastoma e dezenas de outras) muda o rastreamento, a cirurgia e o tratamento para o paciente e seus familiares."
+    },
+    {
+      "id": "hormone-receptor-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (pt)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-pt",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (pt)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-pt",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (pt)",
+      "canonicalRecordId": "nucleus",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-pt",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (pt)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (pt)",
+      "canonicalRecordId": "pr-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (pt)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "pt",
+      "available": true,
+      "text": "O cancro voltou após um período em que não podia ser detetado. 'Recorrência' é a palavra habitual para tumores sólidos e 'recaída' para cancros do sangue; significam a mesma coisa."
+    },
+    {
+      "id": "remission-pt",
+      "kind": "reader-summary-entry",
+      "name": "Remission (pt)",
+      "canonicalRecordId": "remission",
+      "language": "pt",
+      "available": true,
+      "text": "Quando os sinais do câncer diminuíram (remissão parcial) ou desapareceram completamente (remissão completa). Não é o mesmo que cura, porque podem restar células em número pequeno demais para serem detectadas."
+    },
+    {
+      "id": "secondary-brain-tumours-pt",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (pt)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (pt)",
+      "canonicalRecordId": "tnbc",
+      "language": "pt",
+      "available": true,
+      "text": "Um câncer de mama que não tem os três receptores (estrogênio, progesterona, HER2) pelos quais os outros cânceres de mama podem ser tratados. Foi o subtipo mais difícil por décadas; desde 2020, imunoterapia e ADCs mudaram isso."
+    },
+    {
+      "id": "basal-like-zh",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (zh)",
+      "canonicalRecordId": "basal-like",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-zh",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (zh)",
+      "canonicalRecordId": "brca-germline",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-zh",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (zh)",
+      "canonicalRecordId": "curative-intent",
+      "language": "zh",
+      "available": true,
+      "text": "治疗目标是彻底消除癌症（根治性），还是在无法治愈时控制疾病、缓解症状并延长生命（姑息性）。定义这个词的是意图而非药物：同一种化疗可以是其中任何一种。"
+    },
+    {
+      "id": "er-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (zh)",
+      "canonicalRecordId": "er-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (zh)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (zh)",
+      "canonicalRecordId": "germline-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-low-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (zh)",
+      "canonicalRecordId": "her2-low",
+      "language": "zh",
+      "available": true,
+      "text": "带少量HER2（IHC 1+或2+且无扩增）或微量（超低）的肿瘤，旧HER2药物忽视它们，但Enhertu可以攻击。"
+    },
+    {
+      "id": "her2-positive-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (zh)",
+      "canonicalRecordId": "her2-positive",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hereditary-cancer-syndromes-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (zh)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "zh",
+      "available": true,
+      "text": "约5-10%的癌症源于遗传的基因缺陷。识别这些综合征（BRCA、Lynch、Li-Fraumeni、VHL、MEN、FAP、视网膜母细胞瘤以及其他数十种）会改变患者及其亲属的筛查、手术和治疗。"
+    },
+    {
+      "id": "hormone-receptor-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (zh)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hrd-in-breast-cancer-zh",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (zh)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-zh",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (zh)",
+      "canonicalRecordId": "nucleus",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "oligometastatic-zh",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (zh)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pr-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (zh)",
+      "canonicalRecordId": "pr-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (zh)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "zh",
+      "available": true,
+      "text": "癌症在一段无法检测到的时期之后又回来了。\"复发\"(recurrence)是实体瘤的常用说法,\"复发\"(relapse)则用于血液系统癌症;两者含义相同。"
+    },
+    {
+      "id": "remission-zh",
+      "kind": "reader-summary-entry",
+      "name": "Remission (zh)",
+      "canonicalRecordId": "remission",
+      "language": "zh",
+      "available": true,
+      "text": "指癌症的迹象已经缩小（部分缓解）或完全消失（完全缓解）。这与治愈不同，因为可能仍残留少到无法检测的细胞。"
+    },
+    {
+      "id": "secondary-brain-tumours-zh",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (zh)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "zh",
+      "available": true,
+      "text": "脑转移是从身体其他部位（最常见为肺、乳腺和皮肤）扩散到脑的癌症。针对每个病灶的立体定向放射外科已基本取代全脑放疗；对某些癌症，现代靶向药和免疫治疗能充分进入脑内，单独即可缩小病灶。"
+    },
+    {
+      "id": "tnbc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (zh)",
+      "canonicalRecordId": "tnbc",
+      "language": "zh",
+      "available": true,
+      "text": "一种缺少三种受体（雌激素、孕激素、HER2）的乳腺癌，而其他乳腺癌正是通过这些受体来治疗。几十年来它一直是最难治的亚型；2020年以来，免疫治疗和ADC改变了这一局面。"
+    },
+    {
+      "id": "basal-like-simple",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (simple)",
+      "canonicalRecordId": "basal-like",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "brca-germline-simple",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA1/2 pathogenic variant (gBRCAm) (simple)",
+      "canonicalRecordId": "brca-germline",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "curative-intent-simple",
+      "kind": "reader-summary-entry",
+      "name": "Curative intent vs palliative intent (simple)",
+      "canonicalRecordId": "curative-intent",
+      "language": "simple",
+      "available": true,
+      "text": "Curative intent means the goal is to eliminate the cancer for good, while palliative intent means controlling it and relieving symptoms when cure is not possible."
+    },
+    {
+      "id": "er-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (simple)",
+      "canonicalRecordId": "er-status",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gbrca-mutation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Germline BRCA mutation (gBRCA) (simple)",
+      "canonicalRecordId": "gbrca-mutation",
+      "language": "simple",
+      "available": true,
+      "text": "A harmful constitutional BRCA1 or BRCA2 variant can raise cancer risk and matter for relatives. It may be inherited or arise newly, and does not guarantee that a cancer or a drug response will occur."
+    },
+    {
+      "id": "germline-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Germline (hereditary) testing (simple)",
+      "canonicalRecordId": "germline-testing",
+      "language": "simple",
+      "available": true,
+      "text": "Germline testing looks for DNA changes outside the tumour that may explain inherited risk. The result depends on what the test covers and needs interpretation alongside personal and family history."
+    },
+    {
+      "id": "her2-low-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-low and HER2-ultralow (simple)",
+      "canonicalRecordId": "her2-low",
+      "language": "simple",
+      "available": true,
+      "text": "Tumours with just a little HER2, which older HER2 drugs ignored but Enhertu can attack."
+    },
+    {
+      "id": "her2-positive-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (simple)",
+      "canonicalRecordId": "her2-positive",
+      "language": "simple",
+      "available": true,
+      "text": "HER2-positive breast cancer has an integrated result showing excess HER2 protein or gene amplification under the testing rules. Whether a particular medicine is suitable is a separate question."
+    },
+    {
+      "id": "hereditary-cancer-syndromes-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hereditary cancer syndromes (simple)",
+      "canonicalRecordId": "hereditary-cancer-syndromes",
+      "language": "simple",
+      "available": true,
+      "text": "Hereditary cancer syndromes are inherited gene faults behind about one in twenty cancers, and recognising them changes screening, surgery and treatment for whole families."
+    },
+    {
+      "id": "hormone-receptor-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hormone receptor status (ER / PR) (simple)",
+      "canonicalRecordId": "hormone-receptor-status",
+      "language": "simple",
+      "available": true,
+      "text": "Hormone receptor status reports ER and PR separately in breast tumour tissue. The staining does not measure blood hormone levels or guarantee that a treatment will help."
+    },
+    {
+      "id": "hrd-in-breast-cancer-simple",
+      "kind": "reader-summary-entry",
+      "name": "Homologous recombination deficiency (HRD) in breast cancer (simple)",
+      "canonicalRecordId": "hrd-in-breast-cancer",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nucleus-simple",
+      "kind": "reader-summary-entry",
+      "name": "Nucleus (simple)",
+      "canonicalRecordId": "nucleus",
+      "language": "simple",
+      "available": true,
+      "text": "The nucleus is a part of a cell surrounded by a membrane. It holds chromosomes, which contain DNA."
+    },
+    {
+      "id": "oligometastatic-simple",
+      "kind": "reader-summary-entry",
+      "name": "Oligometastatic disease (simple)",
+      "canonicalRecordId": "oligometastatic",
+      "language": "simple",
+      "available": true,
+      "text": "Oligometastatic disease means a limited number of detected distant metastases under a stated definition. A few visible spots do not prove that all disease is visible or that treating each will cure the cancer."
+    },
+    {
+      "id": "pr-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (simple)",
+      "canonicalRecordId": "pr-status",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "relapse-recurrence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Recurrence and relapse (simple)",
+      "canonicalRecordId": "relapse-recurrence",
+      "language": "simple",
+      "available": true,
+      "text": "Recurrence or relapse means the cancer has come back after a period in which it could not be detected, the two words meaning the same thing."
+    },
+    {
+      "id": "remission-simple",
+      "kind": "reader-summary-entry",
+      "name": "Remission (simple)",
+      "canonicalRecordId": "remission",
+      "language": "simple",
+      "available": true,
+      "text": "Remission is when the signs of cancer have shrunk or disappeared, which is not the same as cure because undetectable cells may remain."
+    },
+    {
+      "id": "secondary-brain-tumours-simple",
+      "kind": "reader-summary-entry",
+      "name": "Brain metastases (secondary brain tumours) (simple)",
+      "canonicalRecordId": "secondary-brain-tumours",
+      "language": "simple",
+      "available": true,
+      "text": "Brain metastases are cancers that have spread to the brain from somewhere else in the body, most often from the lung, breast or skin."
+    },
+    {
+      "id": "tnbc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (simple)",
+      "canonicalRecordId": "tnbc",
+      "language": "simple",
+      "available": true,
+      "text": "A kind of breast cancer that does not have the three usual 'handles' doctors use to attack breast cancer. It used to be the hardest kind. New treatments since 2020 have made it much more treatable."
+    }
+  ],
+  "verification": {
+    "entries": 162,
+    "available": 62,
+    "EnglishFallback": 100,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 144,
+      "rows": [
+        {
+          "id": "basal-like",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "basal-like-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "38c3619dcdc584c67cd7f5efb526dde46be5cd8fe715ea2ef50e044e7ad96d9f"
+      },
+      {
+        "id": "er-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "adf640194320d8a168e59e8dc26cb70c0bbd37ce5f594cb551c3c7d73f386141"
+      },
+      {
+        "id": "her2-positive-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "cbd61dec8f1b2e35e58f4164cabeac6094d22c1290386ae3de77e1b656582f02"
+      },
+      {
+        "id": "hormone-receptor-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "509f53bf228d7e3ec7b2f2ea6aaa433b0a62137df89d151c43e3a2333a79b804"
+      },
+      {
+        "id": "remission-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "1d942a6642d829211d179776b3aba717455a4dd918d80dbfbb74403a81db3d99"
+      },
+      {
+        "id": "secondary-brain-tumours-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "45734f0d2d185d394bdd745c130526a29304f546af462216358cede8204a8101"
+      },
+      {
+        "id": "basal-like-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "ce2d21131ee3fa33be8b98d3fd7b9aa66d78d04c429eaad2ffc9598c3a10a350"
+      },
+      {
+        "id": "er-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "72e99f0ed54879121fe842672fde0595239c5db931fb304b937d6634a65cb227"
+      },
+      {
+        "id": "her2-positive-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "865ed7803526dd66be64e7d61d05d3da082005b510394ae2b6794b1b15b7238c"
+      },
+      {
+        "id": "hormone-receptor-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "76cc12d927aef5b94bf4ec2e9072a7d20487172a973377259e7fceef2834964c"
+      },
+      {
+        "id": "remission-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "3c1c3b2e281a78d3257fb7e0ea528acd990ba24102af2456b820ec196e049480"
+      },
+      {
+        "id": "secondary-brain-tumours-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "5afd7a39640d781ec984ef2f65f90e0db5e700a01691b15e25cd2d20730daabb"
+      },
+      {
+        "id": "basal-like-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "d16eb1d721d701a67f943c62370b31ce886db2666218e41b375870f4d3a74f31"
+      },
+      {
+        "id": "er-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "3ac14106407d70a1aac026cae693ebedf8630556044b1ab022407ae26acca714"
+      },
+      {
+        "id": "her2-positive-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "984e5430d60e1daf02b84cc5f28e12d516f204dfb391e33b56e8ac663b521597"
+      },
+      {
+        "id": "hormone-receptor-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "93b07b8f795bb5992a92f8929040a27ca701dee2e922b11c9271b7e035a6c2fc"
+      },
+      {
+        "id": "remission-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "6789802c1c45fb3514a7e091e6a9fcf285801e53889c1f0ed4e93812f9fead64"
+      },
+      {
+        "id": "secondary-brain-tumours-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "555832fd1b65fdb2c20aee8aefb1347d20c5b83e76fa85e60b11af177b185319"
+      },
+      {
+        "id": "basal-like-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "d541c9183704f69a8767c12ec5afae0b2393e67c8748c34f60daec5efadae2e0"
+      },
+      {
+        "id": "er-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "0c6ec010849700226ece76d1f7b29f49ab330b39419da0774e6c6532c1013dd6"
+      },
+      {
+        "id": "her2-positive-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "b1ea4438e061fb63a9ae4fa48224d061a887bd501a196657190cef1002fbe901"
+      },
+      {
+        "id": "hormone-receptor-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "7980bbf4ab470518b76772e44af84a24da15b11f420f8c6ffe7c12928d57ab2d"
+      },
+      {
+        "id": "remission-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "6e90e4fc51ff3a6afc889c6e60548b4a0d540a2827783217944ae6e5c27340b2"
+      },
+      {
+        "id": "secondary-brain-tumours-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "33b67d6b3607ce628d9352bb50e003e905edc49c138fd4c15502a928e37bdb43"
+      },
+      {
+        "id": "basal-like-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "432a986d72679c96a3efa6b472e7ff9c20fad2b6e770385a79c5849de1d36c3a"
+      },
+      {
+        "id": "er-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ef44ff791bf3deb8f4d1753a15ce3240054350ed77176fd607a9377f0d5ebad5"
+      },
+      {
+        "id": "her2-positive-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "c96d109b766254dde43fe3769e452ab5e41e63be1341820307646a70af04fb6d"
+      },
+      {
+        "id": "hormone-receptor-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ec8dff160723a78b4bfa92d2c09a7d802d0ee1e2ec79be5d3d15069ff95e3bbf"
+      },
+      {
+        "id": "remission-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "cb264ed2e61c53506ed4490c62571de959edd67f27a9c38028d1d9ebb77803d0"
+      },
+      {
+        "id": "secondary-brain-tumours-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "7740c8634ef410166778ddd70f8cddc300f64884d4285ae7bc5697f5cc4d0946"
+      },
+      {
+        "id": "basal-like-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "51d35e78007d06609be53e5ac281301f2d44a56627a47d26642ea6b27787c6e6"
+      },
+      {
+        "id": "er-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "5358795c59ca5697f30a609dc7ad096096f2aad8eada169c7cbfe8a70914a48d"
+      },
+      {
+        "id": "her2-positive-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "8bfc35c2bbab4460aa2b4ef542302fa117befb64d083de3b11f77eec208fdc69"
+      },
+      {
+        "id": "hormone-receptor-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "4c9718d6c5ea4272dbd9b1ca2736d058e4f19965b13c28bc275a96b6a5277c16"
+      },
+      {
+        "id": "remission-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "deedeb85e47be35907875145ac4f3d028cd708e8e7b7a7f7f9054235b8765e18"
+      },
+      {
+        "id": "secondary-brain-tumours-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "b29b47dcf36884e6c697ed3fe3a3186a1b4cc73b9b8bb6a87db30b4b933bbe91"
+      },
+      {
+        "id": "basal-like-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "75f7a7a13ffc4fb5d4411acf86115a3bbd6f2caf5e7d0e117a0a84b90aa0d418"
+      },
+      {
+        "id": "er-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "f4054a72af5509a13f7f951dcd6c7dc0e770a93299986c647a8f7fb27f352e7a"
+      },
+      {
+        "id": "her2-positive-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "85fb36a2a4c88d51fb896fe660f7731134791b085d9936868cec91f457b91fba"
+      },
+      {
+        "id": "hormone-receptor-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "4e3062117c84bb3c80c96b7ab9ca88a87e0d9d34265daf2eb6c4feecf380f7e8"
+      },
+      {
+        "id": "remission-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "704bf90135214f34635054293c1edd1f75de7795f0b397afc999a5c719e21b67"
+      },
+      {
+        "id": "secondary-brain-tumours-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "97b110425a8e83f18746a631b98d63dd2951e34d2b738ae42003a489babe0a93"
+      },
+      {
+        "id": "basal-like-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "78f3e9b559c942cdf0ab03925797b774e4b194200f015aa02979cb8f1f898421"
+      },
+      {
+        "id": "er-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "240d939d620a1b9304bf9af60871c6e53b2f90e393f20f5d25fe8d5eea852e7e"
+      },
+      {
+        "id": "her2-positive-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "0440e9322fe6824c433aac3a282c9cc2adc4f2ef733c8522baa3d61111d6f8eb"
+      },
+      {
+        "id": "hormone-receptor-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "ad862b85e96315a274fc523b397be638290309370f623133bb33d05fef8ad546"
+      },
+      {
+        "id": "remission-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "f8b2ecb874c004c2b5a3e7a8cc42aaf1b0a81c944cc227ab72126392eefe6805"
+      },
+      {
+        "id": "secondary-brain-tumours-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "48acd8325837cc88eee7fd8995ea0d4a0ce0188b8ed78546f5c09a60ed49801d"
+      },
+      {
+        "id": "tnbc-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "1d57dbdc2510db8b57563c00ad044d4236d241047b12f82a5f316f8e6eae43b3"
+      },
+      {
+        "id": "basal-like-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7730c2df99965adfc86ac3018044645234b6719f162e61bcc68279d4bed006ae"
+      },
+      {
+        "id": "er-status-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "95f59b4d7dc86ea770f27bef40eb37a677e932a509ce2a4c642ccf63f0931a91"
+      },
+      {
+        "id": "germline-testing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "eff880d8f20bf48d1a62d4abf411b4332bedbedf9dda38c2f7efa0d18c2e3196"
+      },
+      {
+        "id": "her2-low-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "9e2e3354f5b7e6ec96a7b58069a1b2830f8c1182de24720ec2c18e14fb775c39"
+      },
+      {
+        "id": "her2-positive-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "e86e4703c606485da9093843607c4651c8901952ce259b4aa9f6f2e65b18b9c9"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "07c08454d4130f2ba7d9c1833c0b2f615d66ad020179c322c22730225de2e90a"
+      },
+      {
+        "id": "hormone-receptor-status-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "d19bd4af9d5d0001aa5d2a6cffe1113b63a7b24a52a4b453107ce2f2124f0a7b"
+      },
+      {
+        "id": "hrd-in-breast-cancer-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7f2452ef03696ab454cfbd7ba9f5acc7772209aa793634ddfdabd54aeb9752b4"
+      },
+      {
+        "id": "oligometastatic-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "40e28c1fa2ba286105ab6c70c23fd01403774a0ddebe75746963bdc14ca49cb0"
+      },
+      {
+        "id": "pr-status-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "70305c3dbc9777dc967baa8658b842ecfc0bddcee43a20f6fe5c68f08b2ae301"
+      },
+      {
+        "id": "remission-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "5cb4bf60e494557feb9859577f0af8249d898a6ae87bc77b9be61bc9e95b0b1c"
+      },
+      {
+        "id": "secondary-brain-tumours-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "3c1f5874623e9b1d15cb215a51b870d0808231c8cf67643bc8cb89d994c65dd5"
+      },
+      {
+        "id": "tnbc-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7a861be9b752720cb1f581b036e5cbeb1884a97fb53be802074857befb966ac6"
+      }
+    ]
+  },
+  "state": "Actual short-summary selector outputs for the eighteen reviewed owners; no named language approval."
+}

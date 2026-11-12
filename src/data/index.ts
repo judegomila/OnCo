@@ -14,6 +14,35 @@ import { companies } from "./companies";
 import { institutions } from "./institutions";
 import { pathways } from "./pathways";
 import { terms } from "./terms";
+import { educationAccessEvidence } from "./education-access-evidence";
+import { educationBiologyEvidence } from "./education-biology-evidence";
+import { educationGeneticCode202611 } from "./education-genetic-code-2026-11";
+import { educationVaccinePresentation202611 } from "./education-vaccine-presentation-guides-2026-11";
+import { educationTherapeuticEvidence } from "./education-therapeutic-evidence";
+import { educationParallelTcells, educationParallelTcellTargets } from "./education-parallel-tcells-2026-11";
+import { educationAntigenAntibodiesTerms, educationAntigenProcessingTargets } from "./education-parallel-antigen-antibodies-2026-11";
+import { educationParallelDeathMetabolism } from "./education-parallel-death-metabolism-2026-11";
+import { rnaDeliveryTerms } from "./terms-rna-delivery-audit-2026-11";
+import { educationParallelSpatialComputationalTerms } from "./education-parallel-spatial-computational-2026-11";
+import { educationMeasurementTerms } from "./terms-education-measurement";
+import { breastPathologyEducationTerms } from "./breast-pathology-education-2026-11";
+import { educationParallelInnateImmuneTerms } from "./education-parallel-innate-immune-2026-11";
+import { bindersCmcEducation2026 } from "./binders-cmc-education-2026-11";
+import { educationEffectReasoningTerms } from "./education-effect-reasoning-2026-11";
+import { functionalModelEducation } from "./education-functional-model-2026-11";
+import { EDUCATION_BLOOD_IMMUNE_MEASUREMENT_TERMS } from "./education-blood-immune-measurement-2026-11";
+import { educationTissuePathology } from "./education-tissue-pathology-2026-11";
+import { educationCancerBiology } from "./education-cancer-biology-2026-11";
+import { termsEducationTumorImmunology2026 } from "./education-tumor-immunology-2026-11"
+import { educationStudyPrediction202611Terms } from "./education-study-prediction-2026-11";
+import { termsEducationPharmacologyToxicity2026 } from "./education-pharmacology-toxicity-2026-11";
+import { educationTherapyConjugates2026 } from "./education-therapy-conjugates-2026-11";
+import { educationImagingFollowUp202611 } from "./education-imaging-follow-up-2026-11";
+import { educationRepairResistance202611Terms } from "./education-repair-resistance-2026-11";
+import { educationImmunotherapy202611Terms } from "./education-immunotherapy-2026-11";
+import { educationSpatialMeasurement202611Terms } from "./education-spatial-measurement-2026-11";
+import { educationTargetedSmallMolecules202611Terms } from "./education-targeted-small-molecules-2026-11";
+import { educationEngineeredCellTherapy202611Targets } from "./education-engineered-cell-therapy-2026-11";
 import { trials } from "./trials";
 import { pairings } from "./pairings";
 import { roadmaps } from "./roadmaps";
@@ -189,6 +218,7 @@ import { companiesSponsors } from "./companies-sponsors";
 import { companiesSponsorsWave3 } from "./companies-sponsors-wave3";
 import { companiesMakersWave4 } from "./companies-makers-wave4";
 import { targetsWaveSoc } from "./targets-wave-soc";
+import { repairEducationTargets } from "./targets-repair-education-2026-11";
 import { targetsPipelineGap } from "./targets-pipeline-gap";
 import { targetsGenesWave } from "./targets-genes-wave";
 import { targetsImmuneMarkers } from "./targets-immune-markers";
@@ -331,6 +361,37 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutions,
   ...pathways,
   ...terms,
+  ...educationAccessEvidence,
+  ...educationBiologyEvidence,
+  ...educationGeneticCode202611,
+  ...educationVaccinePresentation202611,
+  ...educationTherapeuticEvidence,
+  ...educationParallelTcells,
+  ...educationParallelTcellTargets,
+  ...educationAntigenAntibodiesTerms,
+  ...educationAntigenProcessingTargets,
+  ...educationParallelDeathMetabolism,
+  ...rnaDeliveryTerms,
+  ...educationParallelSpatialComputationalTerms,
+  ...educationMeasurementTerms,
+  ...breastPathologyEducationTerms,
+  ...educationParallelInnateImmuneTerms,
+  ...bindersCmcEducation2026,
+  ...educationEffectReasoningTerms,
+  ...functionalModelEducation,
+  ...EDUCATION_BLOOD_IMMUNE_MEASUREMENT_TERMS,
+  ...educationTissuePathology,
+  ...educationCancerBiology,
+  ...termsEducationTumorImmunology2026,
+  ...educationStudyPrediction202611Terms,
+  ...termsEducationPharmacologyToxicity2026,
+  ...educationTherapyConjugates2026,
+  ...educationImagingFollowUp202611,
+  ...educationRepairResistance202611Terms,
+  ...educationImmunotherapy202611Terms,
+  ...educationSpatialMeasurement202611Terms,
+  ...educationTargetedSmallMolecules202611Terms,
+  ...educationEngineeredCellTherapy202611Targets,
   ...trials,
   ...pairings,
   ...roadmaps,
@@ -461,7 +522,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutionsPrizes202611,
   ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026, ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
   ...supportiveCareGapDrugs, ...supportiveCareGapTechnologies, ...supportiveCareGapTerms,
-  ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
+  ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...repairEducationTargets, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
   ...pipelineTrialsWave2,

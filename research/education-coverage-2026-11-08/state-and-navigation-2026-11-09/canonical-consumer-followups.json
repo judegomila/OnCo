@@ -1,0 +1,17 @@
+[
+  {
+    "recordId": "tnbc",
+    "version": "proposal-therapeutic",
+    "fields": [
+      {
+        "field": "summary",
+        "sha256": "18a2ae08efb485c1b1b089b12d1adf1ca0cd343237120d707214e65f03a3030f"
+      },
+      {
+        "field": "subtypes",
+        "sha256": "0fa005b77fbef6fc839a519b648f2cb8129e2e70d81b437012d797f6e358b567"
+      }
+    ],
+    "scope": "Observed remaining research-group/clinical-category and broad treatment-sensitivity wording. Raw primary classification-source review and repair remain open; no positive coverage proof is assigned to those clauses."
+  }
+]

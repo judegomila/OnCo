@@ -1,0 +1,23 @@
+{
+  "newOpenItem": {
+    "id": "access-catalogue-consent-protocol-qualifications",
+    "title": "Retained trial, consent and protocol catalogue qualifications",
+    "domain": "access-and-regulation",
+    "sourceURLs": [
+      "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent"
+    ],
+    "discoveryOccurrences": [
+      "access-guides:retained clinical-trial summary",
+      "access-guides:retained informed-consent summary",
+      "access-guides:retained trial-protocol summary"
+    ],
+    "review": {
+      "status": "unreviewed",
+      "points": [],
+      "rationale": "New access-guide fields do not recertify older catalogue context. Verify the undated fewer-than-one-in-ten participation statement with a defined population and period; distinguish specific emergency-research consent exceptions from a general deferred-consent rule and verify the cross-jurisdiction child/representative wording; qualify universal amendment-review and untraceable-analysis assertions in the protocol summary. These are separate from the source-first guide requirements and remain queued for direct source review."
+    }
+  },
+  "newCanonicalSubjects": [],
+  "earlierSurfaceApprovalInventory": "ST4-014 remains explicitly partial and unadopted in its earlier packet; this access batch supplies no exhaustive ADC approval inventory."
+}

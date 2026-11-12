@@ -1,0 +1,22 @@
+{
+  "status": "coordinator-implemented-draft-not-main",
+  "scope": {
+    "originalLessons": 13,
+    "laterLessons": 14,
+    "retainedUnits": 277,
+    "representedTeachingUnits": 276,
+    "excludedBibliographicUnits": 1,
+    "exactFieldProofs": 602
+  },
+  "canonicalOwners": 20,
+  "newRegisteredRecords": 4,
+  "sharedDraftHead": "833efb4c7309cb601483ce1b56d865f7b4cc7ff2",
+  "rootBase": "e6c9848c9750b6a2cc9bf9b542124bd7f18b45b8",
+  "integratedIntoDrafts": [
+    375,
+    371
+  ],
+  "mainCredit": 0,
+  "expertCredit": 0,
+  "languageCredit": 0
+}

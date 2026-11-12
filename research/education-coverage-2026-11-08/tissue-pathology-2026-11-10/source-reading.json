@@ -1,0 +1,2697 @@
+{
+  "versions": [
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/digital-pathology.md",
+      "sourceSha256": "917c3ad9cbae35051649eda026c03496697ac3aa44b500b2dfff3636f20ec4ce",
+      "gitBlob": "0f82b3ba58b7beaa6b0734c99849d210152b4db1",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "digital-pathology",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "920f137f3d4650618a6f7870be219cbc25870aec4d8f8786e3d883ca271634ae",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f162ae8bb7df9cd98bd61b66020bd919fb5184a87627e12adc71143a4a063540",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fe843b04416e28f10ab76403d2e85c3a359d753ba44461f9e6b123c8dfe11ef9",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "38da7c625c457d8d71eab825d326bb407fdc1a1147d21c01f66a756c8da3a601",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b4e9bc7c7886ec884f6e59d5a159c61c0ddb04fdec20c521ea5208ffe631a0a6",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c651eb7dc5d1a7d88cb36169ac4c0ca6dad58b9861ff9e99b2ab247e6782e520",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fe20cd91689d948b757c46600fc22329af4533c32fffcc0c5b931a8294bea2a8",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "590b576a1e76b3c4edf537f3acfdff3838dbca33f8b373db7bccba41e6d84bf2",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b5f255510eb6bda475400f9f8cf8be81e51cb975b046dc9ed7202f161c09b716",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ad31e680271c525a176922a78d563d71ef5cdf8312eb6501cde67f31df383afe",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "21e366fcbbb96abfa79e9a347b4b7d69cd773e4ac9943d9c3c3fed3c7efd1e0d",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+      "sourceSha256": "4c16af89c63587bc73d98291518a1ede351859be02c992be54c316d58913ad1b",
+      "gitBlob": "9b5f6eb6151acd777ee8b892df9f3cebbb1247e5",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "h-and-e-morphology",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b71af9a555ea57b7eecce3888520b48f9533b2de97dcde9b027aab1a651c5731",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1eee47a1e098f146fc0e56a981150df9cd1037a906e12d56d0d4d7d26e311738",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "18efefdca374448b09c945b73189fbb3aa9a39c40c400e1635da5ba5ad41c5df",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ff6abbef32b55b5796e65d5637771548efefdf010a58a82fcb29653a1176d4fb",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e06532f14e1347f084e0383200ad5f3dc9e3a49c32901c84f999404da4797a0",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b08838c092fbe7ce2b7e3664fafc3cf55eb0706b2094683ccfeeb471d5a51184",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f9cd2adb0a5a29a6a6e46a67d6abed9967d2a44db95c426118797919357b485a",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "387a06de402b5a2329fddd3f4f8bf402b36b7958c81037c012d1ed7b05327096",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8f571532d0e4fd17b6e19d0ac68c6ba17653fce19bcd9e752d46f522b0393a55",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "37c98e20254359c08a4a1208d07541b7462b9645cb821a9f4e7cfa1740bb3eab",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "5e00ac6ded8aa48ca0f748fdcd94dd5bbfeec27e9c974094ce7da37f3059b43e",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "sourceSha256": "f68dfbdf30f370840a752f22f9519935522dcb7910b542675ebf0b88f472d94e",
+      "gitBlob": "940a606300b7a35e2ed8e6c2ff1a8f07aae6738f",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "immunohistochemistry",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5cfd27668d5c027d8d354fc1ae3f44c2eff9064beef8c615293b9ce266eede9c",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e951b6d35a07daaaf6565c9ec3a2f6a0c72ee2a27b59acca6c6f860e1c696b09",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6c97d74d88b08e96e53bc8e23f554cea654930e5270c8916b7d6b9b0e1105385",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d543c144a1771df837de622f0db5888e0eb01c6961ea80114357599172178e6b",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f9a15fba87dea35a73275547b04d67d6cf6eaad6aaaf1f04fbd56db80d56403",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "d8adec36777eb40726286d97fee15165a0a5fca6966eb70558ef34b6f1d6ce8c",
+          "heading": "Worked example",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d2a093b23add47ac6f2e49f34130376a7621d319f0fac95f5f881ddfbc4a2f1f",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4269d32b019629ced9807b80ffa020c584e92620a2b1233fe2d1a14613ccc686",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "e63273eb26cdb490a87ba87183a770b50f60741cbfb9454508ced4284aee3df4",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "48e0da6ca710e16ed704c8bff2681e56947cc2ce18d224219416081e5854c28c",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "9a1ce28882f14273799829781248691f6ff08cb708271bce351bf5e4cb63343e",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "66342577699609a9f7a9216e0c640caeba334f8b460013d5c2ca2d389bbff087",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+      "sourceSha256": "5cdb1789329c5b211e90091e7d858f829db5036734a5c99aae977a6393a52345",
+      "gitBlob": "bc9d3b09409f31a371cc5cdbd7daaaaf5117ae9f",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "pd-l1-scoring",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ad11a92e87ff66ce1f5dc65fe6ce2b47fef10198b0e69c1eec4894942e84f2ce",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "404586cccd0b4471785b6ac20b61c4c4048767e676534484fa41647f5296828b",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "540c10ec299a80c62ad8773c8384caeab2ccf101d602121a8b2676dbb13f037b",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b417fb956425c8b17f7199749a794677ad98a6f511122a2fbc3203790e14b925",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "70d3d930b32048168744d98d2ba36ef0e820af502b93e3271949588d8dbf768e",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6da11d67fc89655992bb108f06124284bbffda0163b3272f5bc1f38160084a80",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c82c973e0aeb7bcf13ddeacd416994a30d397c6dc71513b8f021aa8889a773db",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "709352403fe9d0f89ffcc1cbfe8577a1f74a8961ee5a7acd925a6d75bb1e327f",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2ef1f020b714c22ca8f8236045c4173934b449cda5349b468521334d06c7276a",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ddc558db9f7908ca1d095bf312183439c24e51a8cf9b4293635eec5bff72ed04",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e31ba4a774c12d87ff9c341f68bf2b4338dea91dd842b2e5678757791c263968",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "sourceSha256": "0d9a4cb692a6e2ea7a0acad26cca2b5c0bf5a991525d766b7c5da632b6d1952b",
+      "gitBlob": "f183432abf6bd2d02877c71c897818a848ebed09",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "stil-scoring",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cc4807d4318c96d44a523fc2e01182f9e70b5832fd437f8a00f05ba23d1dca08",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "db84824545bcca1833e54210fd7a10907e3a51ca5ed166a17cc0bb81e0b22ab8",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "26d5be43f038dacfccc6d095c55c2689a965a17ce8d183f8583c640a6d4507ff",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "92acf8a8658b8f19278d69563a2e078e3eab79c5fb21edb32edb0bf4b873770a",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7b303997f26f00eb55adac2da096c0b28a9f215b6ccd5960384a2fadcc3bd5bb",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "d1955c0f6d277058cd6f6d1d11e9b959a0953be318e2aad4e13f372bd8f0d5ed",
+          "heading": "Worked example",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c2f7827b4450a313c22fc24783c977e888384ae69a363760f495b3ba40020883",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9d905ed72a74ac6ab94c7d463af911f9fcdeb4a96fe07bc31bfe6dbdf5c34879",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8c4722b867257abcfc8eb634127c2f3253730e0069600aa4199b80b83606c06d",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "245bd1983b0a65de0530c24ec7b4f65d223f1883e751e8d3406cacd1253eca89",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "8a6612bc2818aaa948befb4392d1b0659a79b4ac5a06e119879121f0b0be3b5d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "30620ddd3acd9ab9d41544c67283407ab493b2d841849614563bd849b4cf525d",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/blood-as-a-renewable-sample.md",
+      "sourceSha256": "911f8b7fe0f37da55c084c81503b8974c33e790d9d55e01d1bd88648a167c617",
+      "gitBlob": "b744dbb0b64366683d0afaea0f3be991481e0f1e",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "blood-as-a-renewable-sample",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d1af0ccd652a2caa5c1492c54d3eee3c07f93cda10a3132c661ac4bc3ce887c0",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ec8dab7762cd6b43cb29b0cddaedb91f79364d3d90a56c1fc221e8bf5bfa374",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8c8707a9ee246498a118cf2586e8c2e2f8acfcffc2cda14271311a8a798ece8b",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "591bb80bc5002d88b139488ad05bb96ee6e819604a9d9bca0db7db36cd39744d",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7f0061974fd271d89cd02da77bb5af87b079288fc3604e9ffa2dd01205206c8",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ae528509daa92f56c2683dac8c5eb4a396f34351a49bdfc3ea924804485daf42",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35cb846d16d96a87c7ed0d48e384b48d7ee99c16c907b3a7d61208f2647f2dd1",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "b26206207aeae3532df8b38849e796b210521f4e28ccccffd6bdb0ec510eb3ef",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "efe1c51417fb4a775059143f3c6964b18a145cad24f920a87a5f34ff25e21c86",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dcafbe773c3a5173eafed73a78a5ed61b1ca5194ff17e28f7a467a3bb894951d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "0a2c5377e04dfa50a2228962d6ff616393918316d2de575c61942bf69a044fb9",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "sourceSha256": "d0ceeff7d78fdda8f3d49ae3e48e2354d1cc18bb796f6d9c3ca1a8d88ffd2236",
+      "gitBlob": "c3141f9629792c9d3dbca3e258dbd9c3813bc5d4",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "core-needle-biopsy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5d7724808894ca17237f8bc3e46fb8b6290696f380d2c33db702923b3be9d7d0",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "75428060f017cfddad494e787555c48cf0e7cdc85b2a435d603c93bb7388f8ac",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "45dbbadc5dd2157559cb02b44a1d7fde90e4ea1b7aa4599b9c661569a51aa663",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ff12704dd0a07281ea85d101e502cba653008e54d5cf6480712a254cb11de8ac",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cc83ece9bfb7c9fe4c4ce7492e43a9d15cb8d99603d12f972a9de2e08b345490",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "da8b8eb24020d22e734e4191457bb4dbfc132b203363ba5f467ba58cb1025161",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "dda3da224a9f10bae08f22a9668dd2a2d93e025d155712d4231bfb0f2abb98eb",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d8a5c8a39c7da3d0c79c5012b08de27a5c9bf58ab9e55d60edfef834dc818867",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3db1f304fb76e4af8d6f404e181b94725ae91b8aa703f6e8b9529fe8b70ae7bf",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b1e8ac8df41fdeda4133ba3f53366ed993db4dc50a5342d896f56a86c34ef537",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "1d64954b0bd65cbdc79d2e46943532d1cbbadc6856f6920e08583bf34b52a423",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "sourceSha256": "34ed49b42b9037f3fa363ce05219deab417edef102838540f8bf502af91b9b95",
+      "gitBlob": "72c8a265cc682b2b412ac435fa0b8a4515b28d88",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "ffpe-vs-fresh-frozen-vs-viable",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f5833df47e921b0dfaeed6ddf334ac4de13c819847b0b97442b572beceb0755b",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e1d550229a2db23e3a9c0727b5e1182bd7a6b7c678d411144a5d5c36f45adee5",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2c403e28ae07c77f4a96650ba69dc57e530b342aeeeee559ef61ce4866456b7c",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a474acec68e6bf2a5a29a4990f9e62487b0e9f351210e9b8cd525424ee152a71",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "01e6a881b46156eb6ff18d6d672c99986ecadeafcb953b25d78fc5ce00f6d8bb",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "df303671d70f64bfb5778ba8b409cff8e27d5b7109a289d97c2ddf1ee805c114",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2f99c729099b75d32010cc5cf7d12d8dfd237d3d287ed48a9d9c8243039d5773",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c94827213baf7dd75f0a5f9061cd518fc1a6abebeb005f9002ffc831848d7cc1",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "05e4e6286f85e212a593420af7b48c3e28edbe2ae5e1f0ebf84201a9481a74f6",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b34bf3be669dd86d7d5941ae893a716632d33236cdc96745d343a8fde4e08de1",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "07a0d53108884af74a0db578e410f99e7b06c5a66ee2e2ba063fa2beed454dde",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "sourceSha256": "bf96f14adffd9564eef55ba41c2cb2279faff312654159005c8b07792e393c35",
+      "gitBlob": "43fd8ba4d77872debe101c43845de7933f71a105",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "fine-needle-aspiration",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1792561a392a9f0a4eb5c4b5ee6605844e1abb3a22336aa7b4c3a20d0036de6c",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "839a7b19eac12a36b3f8c6252dc90a6806937846191928df915d8705d0da59ac",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b2ed374ff62754268546fdadf9d11a51c9a2f8b1f9083d7a470069a4c2c12293",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "24c674a5485474bd2d61ba1602a5fa2c6866c34404981fb4eaf7909ed99a0846",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "630e7ececa7cdfe37745a0491c2775fb5df35877cb99e5ea6fb3be467114eb75",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aa802f59abeae9b07ada9f7553ee8ed4d3a2a942e8cdb9fea276de3126237e91",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c2fc5922e03f51e2cea919a3d9d64c7d56315719348dc7a0b80097543c2d6747",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ef0e0cccc874805dc91db4fed107993ca81f4c36e4da1e0ebe3b46c878ada71",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a3825e597f263a53d4763f92807bae470da2df91bcc134e222eab6a5831c9669",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ba85f0d3f4aed48be0742af1db4580b1bee78876b8e95a881cd6a4574536e6af",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bed37e38d30924b3cdb2f2600f76d367b552124b04b0ac789663d3ce3e14acb9",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "sourceSha256": "fb0a7e3bafb45693cf35c522654c0eda69e91c02f0364c307f0ca96b4a9ea3e3",
+      "gitBlob": "42b148cea0194755bc8b993221d6c4516e4f2b10",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "rna-integrity",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1d96a2db664c9042a56f997a26ba732783f8d9b6f9231001b974953caabe2ab2",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8480c2c511cc41e5f424ae5e144f2f6bdaeb9025c6b2043d92c838f9d3094d04",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8666a70e2f64e9974a8ab84a1620e60a57b5380d67b2e83632c2c2c641a99184",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "42171ed9de383060a953673a7d6953d6d95d11c63562ede0d59d07b54fed4657",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "396ab5998cf7d7bd312b34313b1095ac510ec58ec236cd7724b959d976a42aa5",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "635f45a53143b8eed9e4f2c936206e05aa0fb57c2624e0071b5b0f18b09a61ae",
+          "heading": "Assay card",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c815d036a4e6ce22ef023eab634e097eacc9434f66fedab6904244743837379f",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "316345ba56663530668e11e6bba35ba53cd8a1a4c17b661919c6346bf7611150",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "acc7fde91c89c881ac743fc1fabca77decd1b1c881b83d31fb63ff0221bc09ae",
+          "heading": "Related concepts",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "1a22fd68b122e6851f822cb5152ca6e948c030e53f3aba7fd1a173e4639dc1aa",
+          "heading": "Sources",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "sourceSha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+      "gitBlob": "02bb50e18e2f3e78b5bad764fed038cfba0ca855",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "surgical-resection-specimen",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b57a0b9bf4104e472467c7f51daa0e63343f394b5024fa8639ed8383a8801924",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9f1adee12c015bb0ee4c34cca78265509109f57f825d6273cf8cfa82eee5253e",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "cf36efdb9f8c706883e0604254e0a9409fdf51491cf5c11b03808243ff09d9b1",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c7a1285dc0841f02e3275ea4ac4efeac3b6ca37d08feebf350999a9961d8f245",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6ec4e6c11dca88fa637a344545ed42f7143957112bc90ff5dcfdcb3ba614208a",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e70dac48f930acb37bccb42c547ea8d767419b0aeeef08baacefcd81218d86ff",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a762d84b632e773a1e5534f549fcb53586647393997277ac853faa5187091c0b",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "0a70d8c4c2fe9ea1fac71811751c7a0f7f655679c5cdbbee473deeff1b879b16",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a403d6fe68e4ef82cbee8f9375717882e18ddd5993648165cfa5c4f3cfe73097",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e8bb8fc74fdbbd2dc636a8c3ec2a54b5ba3a7963ccae2a00b9c0c328ddd68e2d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a1e8759f2dffdfc70d07674df8b5d922b97ae7b3f39cc46ddae303ba23dc3fb5",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "sourceSha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+      "gitBlob": "92da153a800a779630910e8bc4cf663c97343afe",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "tissue-is-non-renewable",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "197fa9cecfe32264ed9c886e7527796b0f94f82e5ec768c949f7c229845a4002",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1bda2a8195e3a4793cb8004774f690c4689de51ffb1d3b00d33fea8bb379794d",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4d174c0bdcda457cd99fc920ba112986d7b3340d96e676ad4c7c255a231ec5f2",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f2e4b2fd630a8fb71223e13802f3469329513a395e4aa30f0e94f30fdff74e19",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a4d899532cca0370692cd39a9b64dcc9dc1a2e3a8bfee26142cd9a791c52d45d",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "64e07a95aa7843114ad756697d0d21cd7aca697ad91bd7155dfebdf9d47cb796",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0481816bdcee9824d84889f4efc7c5fe8beb1e544c73e576ea944c064681710",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e012041ff3960727736535e25fcabc880fb269a46ad7e3be38c14dacba2076e4",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "76d3f803a71d88aa6fa1895917d80d8fe5af67cc59f4cf4e2594707d1a7fa912",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2f561bc5631bfbdc5c17d00cbfdff0a274a28081f7c3a1d15ebaf01dc0ba451f",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "9f934641358cf2d53e91bba07ac687b9963b203d4f38d65219d70dbe5a5328f6",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "sourceSha256": "20621805b8ee50e5764117f6451670e9f0bdccfbaaa54d08cf8a8c48e35539b1",
+      "gitBlob": "1bc11dccbc5cc63bcf71392b75a9234d2b4d0969",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "lesson": "vacuum-assisted-biopsy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9d59855a9174aa7e6364b7c232372a360d953e80a26cbfc796433cdf0e8a76bc",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "04ba237898cfb6c2aff683bfda889fd0207cb9dba32e912f9ca0eca6aee36a13",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "aea5c2c887ee383ee39dca46efef8373a6f824298961f975758de4f04d9101e1",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7447120799e8bfc500e9fdd24bd25fc3238dbd0a8ccebeab16b9a036fd23fdb2",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "69a9434193adfa63ac0ec593f2aab361bd7002c43f9bf0252cf7d179eb632aad",
+          "heading": "Biopsy after neoadjuvant therapy",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "4fba420c97e5b12bf63368bcad3fc27f2499165b7404ece924f5536ffdc0a611",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "648de049ff2bb82ac07ad005bb0b8b155d05689ae3346aa4a07f9a72e1646118",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "28f7351b5994b0f2b8fa807c41cf96bb1383d771b26f8639c6a33714a68f3103",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8ba7c2650216ecdf2cdc9053b4e60aabe84cdb2b95fbf8ad6c8bd504135e82a9",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "569e3813c79bb2ac1442f87cc801e39a6776db0abcc57eceffcbc9f6b41608e5",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "4e800614aeadf09db280d760db46edbe014431a26b0f50f70b8ef7c0fe2b089e",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a778fcfdf2e6d075dd49cd460d1ad28ae39582352fc6866b101782d9fe386cc7",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/digital-pathology.md",
+      "sourceSha256": "9be13cf97b2ed6d3f102509327ce304c2e3d5b555837af803675323ef3e1789e",
+      "gitBlob": "b9eefebec9fac1856f5a0c90590ae3afdb7698c6",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "digital-pathology",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "920f137f3d4650618a6f7870be219cbc25870aec4d8f8786e3d883ca271634ae",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f162ae8bb7df9cd98bd61b66020bd919fb5184a87627e12adc71143a4a063540",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fe843b04416e28f10ab76403d2e85c3a359d753ba44461f9e6b123c8dfe11ef9",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "38da7c625c457d8d71eab825d326bb407fdc1a1147d21c01f66a756c8da3a601",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b4e9bc7c7886ec884f6e59d5a159c61c0ddb04fdec20c521ea5208ffe631a0a6",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c651eb7dc5d1a7d88cb36169ac4c0ca6dad58b9861ff9e99b2ab247e6782e520",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fe20cd91689d948b757c46600fc22329af4533c32fffcc0c5b931a8294bea2a8",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "590b576a1e76b3c4edf537f3acfdff3838dbca33f8b373db7bccba41e6d84bf2",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b5f255510eb6bda475400f9f8cf8be81e51cb975b046dc9ed7202f161c09b716",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ad31e680271c525a176922a78d563d71ef5cdf8312eb6501cde67f31df383afe",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "21e366fcbbb96abfa79e9a347b4b7d69cd773e4ac9943d9c3c3fed3c7efd1e0d",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/h-and-e-morphology.md",
+      "sourceSha256": "0da07607f092892565632fb6c57f3ba184c43338725829b6b922e7a125f47abf",
+      "gitBlob": "76d78009000697a0b4ce529ae60957a2d20c7d80",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "h-and-e-morphology",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b71af9a555ea57b7eecce3888520b48f9533b2de97dcde9b027aab1a651c5731",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1eee47a1e098f146fc0e56a981150df9cd1037a906e12d56d0d4d7d26e311738",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "18efefdca374448b09c945b73189fbb3aa9a39c40c400e1635da5ba5ad41c5df",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ff6abbef32b55b5796e65d5637771548efefdf010a58a82fcb29653a1176d4fb",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e06532f14e1347f084e0383200ad5f3dc9e3a49c32901c84f999404da4797a0",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b08838c092fbe7ce2b7e3664fafc3cf55eb0706b2094683ccfeeb471d5a51184",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f9cd2adb0a5a29a6a6e46a67d6abed9967d2a44db95c426118797919357b485a",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "387a06de402b5a2329fddd3f4f8bf402b36b7958c81037c012d1ed7b05327096",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8f571532d0e4fd17b6e19d0ac68c6ba17653fce19bcd9e752d46f522b0393a55",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "37c98e20254359c08a4a1208d07541b7462b9645cb821a9f4e7cfa1740bb3eab",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "5e00ac6ded8aa48ca0f748fdcd94dd5bbfeec27e9c974094ce7da37f3059b43e",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/immunohistochemistry.md",
+      "sourceSha256": "cd8111f0b900dd8b51863314cf9e1a912bdaee4608db6b7650f79de1f6949357",
+      "gitBlob": "a51ca8fc32d906c7d81ce2a35639c818fd5e156e",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "immunohistochemistry",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5cfd27668d5c027d8d354fc1ae3f44c2eff9064beef8c615293b9ce266eede9c",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e951b6d35a07daaaf6565c9ec3a2f6a0c72ee2a27b59acca6c6f860e1c696b09",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6c97d74d88b08e96e53bc8e23f554cea654930e5270c8916b7d6b9b0e1105385",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d543c144a1771df837de622f0db5888e0eb01c6961ea80114357599172178e6b",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1f9a15fba87dea35a73275547b04d67d6cf6eaad6aaaf1f04fbd56db80d56403",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "d8adec36777eb40726286d97fee15165a0a5fca6966eb70558ef34b6f1d6ce8c",
+          "heading": "Worked example",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d2a093b23add47ac6f2e49f34130376a7621d319f0fac95f5f881ddfbc4a2f1f",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4269d32b019629ced9807b80ffa020c584e92620a2b1233fe2d1a14613ccc686",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "e63273eb26cdb490a87ba87183a770b50f60741cbfb9454508ced4284aee3df4",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "48e0da6ca710e16ed704c8bff2681e56947cc2ce18d224219416081e5854c28c",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "9a1ce28882f14273799829781248691f6ff08cb708271bce351bf5e4cb63343e",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "66342577699609a9f7a9216e0c640caeba334f8b460013d5c2ca2d389bbff087",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/pd-l1-scoring.md",
+      "sourceSha256": "804541ec1431ef6e7d30669008b8a2f74eeb123b146dee5e9732b37175cb10aa",
+      "gitBlob": "1475bc232231924daef9b05d887ba57ae06d7a84",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "pd-l1-scoring",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ad11a92e87ff66ce1f5dc65fe6ce2b47fef10198b0e69c1eec4894942e84f2ce",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e594c6159e3f28fdcd7569e602ef2853cdaaf7ce127e7b7698a43298079977ce",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "540c10ec299a80c62ad8773c8384caeab2ccf101d602121a8b2676dbb13f037b",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d3ab1b8f184dbab4412b52ebea0e5fe60f771e8638ed41654465885f35f9c226",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "70d3d930b32048168744d98d2ba36ef0e820af502b93e3271949588d8dbf768e",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bf0ee288621b1c0e72dcc109c43d15d60cf3fe463d29800bb74ed78799593c2f",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c82c973e0aeb7bcf13ddeacd416994a30d397c6dc71513b8f021aa8889a773db",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "709352403fe9d0f89ffcc1cbfe8577a1f74a8961ee5a7acd925a6d75bb1e327f",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2ef1f020b714c22ca8f8236045c4173934b449cda5349b468521334d06c7276a",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ddc558db9f7908ca1d095bf312183439c24e51a8cf9b4293635eec5bff72ed04",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e31ba4a774c12d87ff9c341f68bf2b4338dea91dd842b2e5678757791c263968",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/stil-scoring.md",
+      "sourceSha256": "fc9e9fccc79302837f9d67e224fbacd0d8d14d948e34f252136f652291772e59",
+      "gitBlob": "8d68e62541773bc5ad0bfe6864b1e3cb9e037dd5",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "stil-scoring",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cc4807d4318c96d44a523fc2e01182f9e70b5832fd437f8a00f05ba23d1dca08",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "db84824545bcca1833e54210fd7a10907e3a51ca5ed166a17cc0bb81e0b22ab8",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "26d5be43f038dacfccc6d095c55c2689a965a17ce8d183f8583c640a6d4507ff",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "92acf8a8658b8f19278d69563a2e078e3eab79c5fb21edb32edb0bf4b873770a",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7b303997f26f00eb55adac2da096c0b28a9f215b6ccd5960384a2fadcc3bd5bb",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "d1955c0f6d277058cd6f6d1d11e9b959a0953be318e2aad4e13f372bd8f0d5ed",
+          "heading": "Worked example",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c2f7827b4450a313c22fc24783c977e888384ae69a363760f495b3ba40020883",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9d905ed72a74ac6ab94c7d463af911f9fcdeb4a96fe07bc31bfe6dbdf5c34879",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8c4722b867257abcfc8eb634127c2f3253730e0069600aa4199b80b83606c06d",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "245bd1983b0a65de0530c24ec7b4f65d223f1883e751e8d3406cacd1253eca89",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "8a6612bc2818aaa948befb4392d1b0659a79b4ac5a06e119879121f0b0be3b5d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "30620ddd3acd9ab9d41544c67283407ab493b2d841849614563bd849b4cf525d",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/pathology-readouts/tumor-stroma-ratio.md",
+      "sourceSha256": "acf954fbabad57e8d9e1b9f1bc553645391a4ff67d43e8e83a1897225c1cdde6",
+      "gitBlob": "e716cc3d86916560e6c68c0e9a34554de005779e",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "tumor-stroma-ratio",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3bef1d2ee237d61df3370a5b11ccac7b1a1be007422d8c0eaf3046f886443185",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "be2af5773b30e639dedbcfef597991d12072c95ef150f4a3d2218fc5f115c84c",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f4b9bd3455e3086ea269fa7d16f891dc3c610c0ab901234642b0bc2122a49456",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1e2471c57c1cb36f9052aa3094a3169f52a9564ffdcb4c9a97539fdb74656405",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "090c8a9cf6a400f96eb86b17bf760c8278fc571a21c0bdbf63a9f8b19f49b248",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a20b2e6af27d30fea9beb194a2539f378b4b5bb531c823d12b8b66438d2c49b8",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9495fb4ce485c7cb96a709f0485b407ee9b09a3eb923154203ea509eb9c98337",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "73ed02507e61ee9df76d1289e08943127153dda86ad5572794f6049fabeece07",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "da872b655b85378447fc9df425368b2d82100da2288e7371b27c5c26fc197cfe",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "0aada7507327c349f1793ea1ca0abd0a178b51d66b3a3e4e0ee4daa28abffb8b",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "2dee010e1ceb7e7de209ba99fdb0e37aa9eeff5950ebe7c08e39c694e6c3b546",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-purity-and-ploidy.md",
+      "sourceSha256": "99dbf6fa41cc019d832b97450f1b7165bce08bcf2202489cbd002b1a7e18e5d2",
+      "gitBlob": "104f346e9cf52fb65b132c0b707a3da6a84ebf2a",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "tumor-purity-and-ploidy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c8f1e56ae2553d96145c472af249e35da73f1ff073d94a0bdc5077588a4cf4db",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6b24f90e9baf43250c88f83650aac0738c32f73482320fa37f67a1de1f61bcb4",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "398780e15fb8c1540ba3e4081d0412f40b5ad63290d165de9b7a49126965554e",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9f767bdc510554d4a41477a8f67a18603331516b7e165cfc99d2408a41874f8d",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "74b7bc086eb4f015feaf23c24cdc4d9fde8c93a0af253a9771b19a3cbd848f9a",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1243180c67b39ddfcd2af33ea48bc8a68de645bb258ef92a5fea2b07d25798ca",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0652b588b9332610212aaf486297a4d20fe72b14662dd9beb085d785295fcaf0",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c86fa2c3d34b5ef18330952e85bbc51519f74740427c3c78b0f23836a9360d2e",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "256469db4f0e1599ba0fce78279dd5fa473a0de30cf51898ba654f39dec89d55",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "716a66ccb3b1b2fd5be535520a18e0e0ce1666f06bf5321e76f72fa8339355e7",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a7f0e925f3be050931a9cab84067fd5a70e079a034c4b3a3934771569cba0e94",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/biopsy-after-neoadjuvant-therapy.md",
+      "sourceSha256": "9f0233e4962de390c4c620cbeddb6ca88ee1aa1a73acdce4b59cefd24d789370",
+      "gitBlob": "066d9ad957285c09351dff0f684450db6069114d",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "biopsy-after-neoadjuvant-therapy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e88976514d232e808959d1fe8514d8eca85a32b3095984876113bd005380d1e7",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "dffb1c6b74dc6e4c4ed6c135e60832e2be13086770dfdb97dcf0ecd93556e991",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "39c727f61b7a1ee4a0f0162c320cf6560d5df158b78e25d0b6f3136eddafeb4a",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1d737b83d3e2cfed56ac409f751d1199859531b012da8db2e96b9f2a5437cac0",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0422a0f57e2bc7527183fae0cabd8b6ea34d033925b8fa321d6d0af5d1bb8a4f",
+          "heading": "What the trials found",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "6d0184768292b48494a9f5bbc8e2c0b4007d7b5d0b4439329e744f6445050813",
+          "heading": "Why surgery is still standard",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "25dc5e36fd3fffc3f1619f60ca043b109c4b708fc25dee57631920161974dad3",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "843124620db01e7c9469c6836d26787dd3790c7a6f942ac1c68efb609c0a612b",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "36247ae2bd1d01e2c4df63072d5c559721a3a47765a718de1473040359dd11c2",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "b40e584db9440ef0ec16b5cc0a84ee7b1a720854ffba801cd8ea68f4edf8129d",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "7b8409f7657185317a3961a4aeb47d2cd14e728595f11e1ca636fa4beb14af7a",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "1cca45da63d3775a939f612809144784bcae4b828bc50f83217bc9f189fed322",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/blood-as-a-renewable-sample.md",
+      "sourceSha256": "0b2fcd1f327aef2bc204596f14ae7f547dbc92ecb185359467e47eacacc60ba6",
+      "gitBlob": "c81e08acc565e3701948b6822d0716b919dafd73",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "blood-as-a-renewable-sample",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d1af0ccd652a2caa5c1492c54d3eee3c07f93cda10a3132c661ac4bc3ce887c0",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ec8dab7762cd6b43cb29b0cddaedb91f79364d3d90a56c1fc221e8bf5bfa374",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8c8707a9ee246498a118cf2586e8c2e2f8acfcffc2cda14271311a8a798ece8b",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "591bb80bc5002d88b139488ad05bb96ee6e819604a9d9bca0db7db36cd39744d",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e7f0061974fd271d89cd02da77bb5af87b079288fc3604e9ffa2dd01205206c8",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ae528509daa92f56c2683dac8c5eb4a396f34351a49bdfc3ea924804485daf42",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35cb846d16d96a87c7ed0d48e384b48d7ee99c16c907b3a7d61208f2647f2dd1",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "b26206207aeae3532df8b38849e796b210521f4e28ccccffd6bdb0ec510eb3ef",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "efe1c51417fb4a775059143f3c6964b18a145cad24f920a87a5f34ff25e21c86",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dcafbe773c3a5173eafed73a78a5ed61b1ca5194ff17e28f7a467a3bb894951d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "0a2c5377e04dfa50a2228962d6ff616393918316d2de575c61942bf69a044fb9",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/core-needle-biopsy.md",
+      "sourceSha256": "cd0f52291598f25dec8a25bd55a97330c2b1a6d74094825d443ffdad95ff8cf6",
+      "gitBlob": "7cacbd5ec1522710c81c878146d5333f9353ca55",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "core-needle-biopsy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5d7724808894ca17237f8bc3e46fb8b6290696f380d2c33db702923b3be9d7d0",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "75428060f017cfddad494e787555c48cf0e7cdc85b2a435d603c93bb7388f8ac",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "45dbbadc5dd2157559cb02b44a1d7fde90e4ea1b7aa4599b9c661569a51aa663",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ff12704dd0a07281ea85d101e502cba653008e54d5cf6480712a254cb11de8ac",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cc83ece9bfb7c9fe4c4ce7492e43a9d15cb8d99603d12f972a9de2e08b345490",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "da8b8eb24020d22e734e4191457bb4dbfc132b203363ba5f467ba58cb1025161",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f827d4355d3e6ecfdbf92728751dcba0b71208b143050db7cb5116b5bdc33a41",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d8a5c8a39c7da3d0c79c5012b08de27a5c9bf58ab9e55d60edfef834dc818867",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3db1f304fb76e4af8d6f404e181b94725ae91b8aa703f6e8b9529fe8b70ae7bf",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b1e8ac8df41fdeda4133ba3f53366ed993db4dc50a5342d896f56a86c34ef537",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "120dfe455710ea0c0ad8785f120eb8f490dd3d0c22bae4387dca49455d8c1266",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "sourceSha256": "2f8fe15fc5e10da70dfebc068dd77c8e9a893ed6fda95ab7d53713e616338334",
+      "gitBlob": "995555ce82f16b97fa6a38b12d75946e8d1c0750",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "ffpe-vs-fresh-frozen-vs-viable",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f5833df47e921b0dfaeed6ddf334ac4de13c819847b0b97442b572beceb0755b",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e1d550229a2db23e3a9c0727b5e1182bd7a6b7c678d411144a5d5c36f45adee5",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2c403e28ae07c77f4a96650ba69dc57e530b342aeeeee559ef61ce4866456b7c",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a474acec68e6bf2a5a29a4990f9e62487b0e9f351210e9b8cd525424ee152a71",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "01e6a881b46156eb6ff18d6d672c99986ecadeafcb953b25d78fc5ce00f6d8bb",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "df303671d70f64bfb5778ba8b409cff8e27d5b7109a289d97c2ddf1ee805c114",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2f99c729099b75d32010cc5cf7d12d8dfd237d3d287ed48a9d9c8243039d5773",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c94827213baf7dd75f0a5f9061cd518fc1a6abebeb005f9002ffc831848d7cc1",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "05e4e6286f85e212a593420af7b48c3e28edbe2ae5e1f0ebf84201a9481a74f6",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b34bf3be669dd86d7d5941ae893a716632d33236cdc96745d343a8fde4e08de1",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "07a0d53108884af74a0db578e410f99e7b06c5a66ee2e2ba063fa2beed454dde",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/fine-needle-aspiration.md",
+      "sourceSha256": "bf96f14adffd9564eef55ba41c2cb2279faff312654159005c8b07792e393c35",
+      "gitBlob": "43fd8ba4d77872debe101c43845de7933f71a105",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "fine-needle-aspiration",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1792561a392a9f0a4eb5c4b5ee6605844e1abb3a22336aa7b4c3a20d0036de6c",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "839a7b19eac12a36b3f8c6252dc90a6806937846191928df915d8705d0da59ac",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b2ed374ff62754268546fdadf9d11a51c9a2f8b1f9083d7a470069a4c2c12293",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "24c674a5485474bd2d61ba1602a5fa2c6866c34404981fb4eaf7909ed99a0846",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "630e7ececa7cdfe37745a0491c2775fb5df35877cb99e5ea6fb3be467114eb75",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "aa802f59abeae9b07ada9f7553ee8ed4d3a2a942e8cdb9fea276de3126237e91",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c2fc5922e03f51e2cea919a3d9d64c7d56315719348dc7a0b80097543c2d6747",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ef0e0cccc874805dc91db4fed107993ca81f4c36e4da1e0ebe3b46c878ada71",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a3825e597f263a53d4763f92807bae470da2df91bcc134e222eab6a5831c9669",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ba85f0d3f4aed48be0742af1db4580b1bee78876b8e95a881cd6a4574536e6af",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "bed37e38d30924b3cdb2f2600f76d367b552124b04b0ac789663d3ce3e14acb9",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "sourceSha256": "5292b8428ed7b478bfef66d7be16653ff54896a2a2fd05b889c91997ac1eb1f9",
+      "gitBlob": "b709a3ebf29f3e2d40ff2c1f589ad8a1c26de265",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "rna-integrity",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1d96a2db664c9042a56f997a26ba732783f8d9b6f9231001b974953caabe2ab2",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8480c2c511cc41e5f424ae5e144f2f6bdaeb9025c6b2043d92c838f9d3094d04",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "8666a70e2f64e9974a8ab84a1620e60a57b5380d67b2e83632c2c2c641a99184",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "42171ed9de383060a953673a7d6953d6d95d11c63562ede0d59d07b54fed4657",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "396ab5998cf7d7bd312b34313b1095ac510ec58ec236cd7724b959d976a42aa5",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "635f45a53143b8eed9e4f2c936206e05aa0fb57c2624e0071b5b0f18b09a61ae",
+          "heading": "Assay card",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c815d036a4e6ce22ef023eab634e097eacc9434f66fedab6904244743837379f",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "316345ba56663530668e11e6bba35ba53cd8a1a4c17b661919c6346bf7611150",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "acc7fde91c89c881ac743fc1fabca77decd1b1c881b83d31fb63ff0221bc09ae",
+          "heading": "Related concepts",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "1a22fd68b122e6851f822cb5152ca6e948c030e53f3aba7fd1a173e4639dc1aa",
+          "heading": "Sources",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "sourceSha256": "3019770040bfc01b8e3095e9b9e9e2a4028b6ac5bc42246af5276b5626f83987",
+      "gitBlob": "59cf03419d5568d23f045a3a349234ea1f252acf",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "surgical-resection-specimen",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b57a0b9bf4104e472467c7f51daa0e63343f394b5024fa8639ed8383a8801924",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9f1adee12c015bb0ee4c34cca78265509109f57f825d6273cf8cfa82eee5253e",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "cf36efdb9f8c706883e0604254e0a9409fdf51491cf5c11b03808243ff09d9b1",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c7a1285dc0841f02e3275ea4ac4efeac3b6ca37d08feebf350999a9961d8f245",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6ec4e6c11dca88fa637a344545ed42f7143957112bc90ff5dcfdcb3ba614208a",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e70dac48f930acb37bccb42c547ea8d767419b0aeeef08baacefcd81218d86ff",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a762d84b632e773a1e5534f549fcb53586647393997277ac853faa5187091c0b",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "0a70d8c4c2fe9ea1fac71811751c7a0f7f655679c5cdbbee473deeff1b879b16",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a403d6fe68e4ef82cbee8f9375717882e18ddd5993648165cfa5c4f3cfe73097",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e8bb8fc74fdbbd2dc636a8c3ec2a54b5ba3a7963ccae2a00b9c0c328ddd68e2d",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a1e8759f2dffdfc70d07674df8b5d922b97ae7b3f39cc46ddae303ba23dc3fb5",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "sourceSha256": "e354ed8e7a516aa5ac99653012464438f2bef63c1afb0a3a32628665f52d6a0a",
+      "gitBlob": "24245eb2493b9ea69b104a8f6a0492f5e7ab1e93",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "tissue-is-non-renewable",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "197fa9cecfe32264ed9c886e7527796b0f94f82e5ec768c949f7c229845a4002",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1bda2a8195e3a4793cb8004774f690c4689de51ffb1d3b00d33fea8bb379794d",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4d174c0bdcda457cd99fc920ba112986d7b3340d96e676ad4c7c255a231ec5f2",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f2e4b2fd630a8fb71223e13802f3469329513a395e4aa30f0e94f30fdff74e19",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a4d899532cca0370692cd39a9b64dcc9dc1a2e3a8bfee26142cd9a791c52d45d",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "64e07a95aa7843114ad756697d0d21cd7aca697ad91bd7155dfebdf9d47cb796",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0481816bdcee9824d84889f4efc7c5fe8beb1e544c73e576ea944c064681710",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e012041ff3960727736535e25fcabc880fb269a46ad7e3be38c14dacba2076e4",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "76d3f803a71d88aa6fa1895917d80d8fe5af67cc59f4cf4e2594707d1a7fa912",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2f561bc5631bfbdc5c17d00cbfdff0a274a28081f7c3a1d15ebaf01dc0ba451f",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "9f934641358cf2d53e91bba07ac687b9963b203d4f38d65219d70dbe5a5328f6",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    },
+    {
+      "path": "wiki/education/concepts/measurement/specimens/vacuum-assisted-biopsy.md",
+      "sourceSha256": "1b7690ada85e43f8b42ef6bbe687624a9d9255e82f82fbeedbd46b12e0ee1071",
+      "gitBlob": "73fc2530ac35e5897c7a75a174358378b9a09602",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "lesson": "vacuum-assisted-biopsy",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9d59855a9174aa7e6364b7c232372a360d953e80a26cbfc796433cdf0e8a76bc",
+          "heading": "preamble",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "04ba237898cfb6c2aff683bfda889fd0207cb9dba32e912f9ca0eca6aee36a13",
+          "heading": "In one sentence",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "aea5c2c887ee383ee39dca46efef8373a6f824298961f975758de4f04d9101e1",
+          "heading": "The intuition",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7447120799e8bfc500e9fdd24bd25fc3238dbd0a8ccebeab16b9a036fd23fdb2",
+          "heading": "How it works",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f6d5cf65967b8da9ac1c61b8aeb3271eb636e2633c1167d345350206783d5481",
+          "heading": "Biopsy after neoadjuvant therapy",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "4fba420c97e5b12bf63368bcad3fc27f2499165b7404ece924f5536ffdc0a611",
+          "heading": "Why it matters in cancer",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "648de049ff2bb82ac07ad005bb0b8b155d05689ae3346aa4a07f9a72e1646118",
+          "heading": "How it is measured",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "28f7351b5994b0f2b8fa807c41cf96bb1383d771b26f8639c6a33714a68f3103",
+          "heading": "Common confusions",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8ba7c2650216ecdf2cdc9053b4e60aabe84cdb2b95fbf8ad6c8bd504135e82a9",
+          "heading": "Try it",
+          "disposition": "learning-mapped"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "569e3813c79bb2ac1442f87cc801e39a6776db0abcc57eceffcbc9f6b41608e5",
+          "heading": "Explain it back",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "4e800614aeadf09db280d760db46edbe014431a26b0f50f70b8ef7c0fe2b089e",
+          "heading": "Takeaway",
+          "disposition": "analogy-or-recap-mapped-no-new-learning-count"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "eba8b96dd8ff2143a8eaff52b1fd86b417bf9a714f93033ad2253b3e2ea8457b",
+          "heading": "Sources and scope",
+          "disposition": "metadata-and-source-scope-assessed-no-learning-credit"
+        }
+      ],
+      "sourceHashVerifiedThisPass": true,
+      "reading": "Coordinator preserved complete later-page reading plus exact original teaching differences; previous complete worker reading retained. Latest source-verification pass freshly reread three pages and primary abstracts, not all lessons."
+    }
+  ],
+  "versionCounts": {
+    "original": 13,
+    "later": 16
+  },
+  "sectionCounts": {
+    "original": 145,
+    "later": 179
+  },
+  "nonSignatureWorkerMetadataRows": 1,
+  "reuseRule": "Unchanged teaching and figures reuse actual documented assessments only after identity checks. Hashing does not claim fresh reading.",
+  "originalDifferences": [
+    {
+      "lesson": "blood-as-a-renewable-sample",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "core-needle-biopsy",
+      "teachingByteIdenticalAfterRoutingRemoval": false,
+      "diffSha256": "5609c0e55048ebe6599daa762e37d82593e5e731ebb853fe274fe65565708ecf"
+    },
+    {
+      "lesson": "digital-pathology",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "ffpe-vs-fresh-frozen-vs-viable",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "fine-needle-aspiration",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "h-and-e-morphology",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "immunohistochemistry",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "pd-l1-scoring",
+      "teachingByteIdenticalAfterRoutingRemoval": false,
+      "diffSha256": "0c34ef0b83e44a72843243864aaa67dca6438fb3e1f0fd50c0b14df92f887612"
+    },
+    {
+      "lesson": "rna-integrity",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "stil-scoring",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "surgical-resection-specimen",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "tissue-is-non-renewable",
+      "teachingByteIdenticalAfterRoutingRemoval": true,
+      "diffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "lesson": "vacuum-assisted-biopsy",
+      "teachingByteIdenticalAfterRoutingRemoval": false,
+      "diffSha256": "dff9158af11ff1d45635526002d7e818680063b87b7a8b768e07237c3d686e24"
+    }
+  ]
+}

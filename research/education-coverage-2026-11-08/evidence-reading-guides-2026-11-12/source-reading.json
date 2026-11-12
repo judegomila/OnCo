@@ -1,0 +1,2519 @@
+{
+  "dataCommit": "bf8aea4de6de35b06dc1b4ba0eac66474aa12904",
+  "sourceVersions": 11,
+  "sectionSignatures": 127,
+  "documents": [
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "file": "original-01-name-the-comparison-and-endpoint.md",
+      "bytes": 12015,
+      "sourceSha256": "482fc2a70df07d8f65aa7c477feb230fa46a0d27e7b47dc3b95aaef96bf240b1",
+      "gitBlob": "b013bfada4ce404f4008c905d8a9ff1013dfa1e2",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9b22e1132f1590c5a7ae541a0eeffe63d7898d55efd1c0dd043c8e9caaa25aea"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "00567926e3250cd403b21923aef96f50b0e781ca957ce0d02c477c2158c2002d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b018ae490cb32fa8057e6e81d6d32a43d138dd0416f9a9a527841405d49ea43e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "faac07b2fffea138b701817b46487c25a523e2a666c2f0845f8f57529809f799"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "519285a4d7a6dde26cde2938996c518d094e3526de89b9228e7b5f3a1d35e19a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f7bf00fadd22e7e725cd066a47baf4d9f3ccbda316814a54bc2fb844a128eb36"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6166a89660126c86e6f3f6b2b760f53530bd6fafb4f2d0f27b2624fb4a7e3f70"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9a9466dc4a9ba0cd4c9a4a9d6093dbc60e808c6eddd2d8dacdf36c9c2c7cf8b4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "52aa7bfb686967818176d38c5f687aeda9683aa1dd03534d0c7edcc496c5d190"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "27bd70a6cb6da2a985854c627d65c1f7753e440bd4ddfd55ad7dccfe76d772e2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "bf87ee732474084aee961c1b9710144bec0ec9e444cd7ae02e4c2e463ccb8d62"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "ff0c929628f9e2a47aac614f634fdae93b7af538b10ec6012e8f679cd8993d18"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "8cb34cbde90419a781eb07f0e93d6cd18ae49ba29e0beb39af247f51b305a550"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "file": "original-02-read-the-curve-and-effect.md",
+      "bytes": 11277,
+      "sourceSha256": "4832618b7ba318d7e299ff443896c9355329059b2cd3282cd418f88003a46493",
+      "gitBlob": "b64f29aee5c7d79819a97b9158afc22ab86b1d0e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "60b63feabf4dd2e6bddda391969ea321bc4cdb005816bfd15519da5c51a919fa"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1b60c5b303e756631071c688a6e0eb2aa5ed71006fa8860082ea62ee424fa9a5"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "19cc902d9cbc405a22064cd0b8b80a354d83096518ded416d391f32267021cfa"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "bf377fa16c99e2e99c77403afa9f30670ea06102e219d6fe01b7ee59b5067995"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "afe138e93a1a1bf9b02bffb9d77dfaf35285437cb18e712ee8f93186f28b83d6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "306f89258e1c8c8bb97c70ae732e525232c656ad316745802bcfd48154332486"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "f4adbc2fcdf847952c6a100dd79bd12741ddcd78c75fe43f805ef7da5b9a29cc"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "8762f340ea69ac7c65e2327ea48f2a56ba437aa1066f994a6c36a40dfebdba32"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c2d662cc338a95331db0e8a1801893bf12dbcbeef9d1d2ca85d5ba06ff1e9e3f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f1c1d8850c527fef9350671e4bb4774ff0248e5a4816a477c334d3897b9714ef"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e79fc9edaa94182250be560a6c4a1573594a74870167cb568d38e340cff9fe56"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "db402f06c25d849da52fefdd451cd024ed873417c64710ebef4833ddae03c926"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "file": "original-03-check-applicability-and-uncertainty.md",
+      "bytes": 13086,
+      "sourceSha256": "61b4e8ce1ec9127adb5997baa7f3319724ba0eb6baacb7290e58c90dc9cc1f87",
+      "gitBlob": "05598d082c521b87fddd6d70f27941bd51f47a72",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7636044e37999deb8245a44b92543eeb5bfb22fd0070e1d8c1b3420304255cdc"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "88cce99907aba0a286661bad6979201fbe01196e4732d69487a6e063c34f8040"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b2e067163d066b672bf98d93a4e4524ff912e107e63c5ec97d3266e71c9ec43a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "886ea59585cf94b9cae838398c4ffaee9138604aac84fde9f7f7763812e16180"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "18b350e37a68fc8966ea7e92b65b04f3ef49a0b599201064fd70de573a718e10"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "cf33f2a8b57842e7e9fb67eb822fd1bf9c7e848222b500979271d3cb89f89d8f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "e2139aab4314f6d83859deebcd0bb82d11dd432a3b5d149d66f3e4f565d0b25f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "344c44d456fad863c55e93a6e60db40c2a184d710dba47e1100a05e703926e93"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "ec8055e488f23fc640cfe38ff5dec11bc17c5a02cb3487e90330cd098cabba43"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f15c662a33b0a89764d00c3f20bd6b1b325350e31d679f024d3ff73842cfd206"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "1dba11c2d57fb68e94aca2930ab6e5313955cf27a6ee72fb1fe9c26678f9ec57"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "db616af2974d3ca4969561adc9002e445dc40d7aeaedc04d32ed5ae1b7fb4f91"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "671c10d39c49b075b8afb273e2aa24067691701a1cad608cef6f17d332a10ccd"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "file": "original-04-read-a-single-success-story.md",
+      "bytes": 7461,
+      "sourceSha256": "d50042928e19a5cd93a2e1d15434e5c53d337da870e1b06ff4eb76104bb3cc44",
+      "gitBlob": "0f22e2dd41b6e48bd13121d791c9503b2a07fca4",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "309ebb68cea4d75d335b243029c05db6958c40f46d4473b0b820e6d403cc5ebe"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2ccce9386220ef749bfbe270b12e9fadc95c47080591df35e62062f895234e50"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fdff97f91de78feab87cd02371e35fcc073589979d5313ee20ed37d85a0ec746"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "64061df842974d07b95a389009b6b46969b29c2c988969e691b3cdf1f4749114"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4f9845c38ffa4e682ee13bb131496f0644a929e64a5fc03918693a802fd3704b"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "d35143f2fbf1c551fad7bfd6df35ad52119c643ec77fab3513cef44e5d2ba277"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "8c42c3f5d68fe5f08ff6cac85237723268ab004291971c74b799a9eaa89b7e34"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "90462ad44e72a80788de6d01704e30fdae004dc0cfc129c5b080b07e4fa12b21"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "e71da3493e90ac8f24cfabfa1245f2f3a09fb1e66cdab4ab583224c848f48725"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "ad0ebfb3a18ccbb68b92fb33100e4da3cfe3e0f914f0b588f59a80ab69dde5bf"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "file": "original-index.md",
+      "bytes": 8671,
+      "sourceSha256": "27760fe89fe6c9e6c3f7a1bdca243b8bb47fe0e5e301aa92738deef43f54c566",
+      "gitBlob": "cc9be86bf32c1f6e1419d126958bf8eede1e3bc1",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "367ec5ee1ecaa50eab8818903035f5262e0608e3e436e2d1f6a0db7a79018611"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "20735dc7e20fc25cb6d8694f495ee27e2da582140f8ad32d00e2249f87adbbd4"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b2fd43a18cadadba559b145df77060f4971142cb90d473491d0648a721a4bf27"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a77326898bd48ede8c767ef958ef8f7bbb3ad1ada9cbb36981a6b343bc1d7b19"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "342df99dff8db4e5b66c4c94b3c717a299ddff3d95376508f5397967dcf78810"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dc11ca64c2d992df7bed34fe7b16d1ba9cc5c34e658c917ab2885e7ef9cc1e36"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "c373c18b899ebf864a77b265d7bb1ac14b413b7b4d1e234615ea67a14423385f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ce3bb16f495d0efaf1a618195b358f9b3c35116723f89fd0b3bfb9168998b30b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d98f9f054bcd7fe832c4b85b7c2840da30f05f6c74771415f54033e06ba1b852"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "file": "later-01-name-the-comparison-and-endpoint.md",
+      "bytes": 12122,
+      "sourceSha256": "2eacb20dd02b6a8fccc07019471395ec9faae98e0f650c98f4ec0f7766ec10bd",
+      "gitBlob": "81984d8ed2c395d764d379b4dd50351ef618a8aa",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9b22e1132f1590c5a7ae541a0eeffe63d7898d55efd1c0dd043c8e9caaa25aea"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "00567926e3250cd403b21923aef96f50b0e781ca957ce0d02c477c2158c2002d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b018ae490cb32fa8057e6e81d6d32a43d138dd0416f9a9a527841405d49ea43e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "51aa6bdc3e171d8c3242e3a99ba6520a1d707668fbbc995152c19203865370eb"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "519285a4d7a6dde26cde2938996c518d094e3526de89b9228e7b5f3a1d35e19a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f7bf00fadd22e7e725cd066a47baf4d9f3ccbda316814a54bc2fb844a128eb36"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6166a89660126c86e6f3f6b2b760f53530bd6fafb4f2d0f27b2624fb4a7e3f70"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9a9466dc4a9ba0cd4c9a4a9d6093dbc60e808c6eddd2d8dacdf36c9c2c7cf8b4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "52aa7bfb686967818176d38c5f687aeda9683aa1dd03534d0c7edcc496c5d190"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "27bd70a6cb6da2a985854c627d65c1f7753e440bd4ddfd55ad7dccfe76d772e2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "bf87ee732474084aee961c1b9710144bec0ec9e444cd7ae02e4c2e463ccb8d62"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "ff0c929628f9e2a47aac614f634fdae93b7af538b10ec6012e8f679cd8993d18"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "8cb34cbde90419a781eb07f0e93d6cd18ae49ba29e0beb39af247f51b305a550"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "file": "later-02-read-the-curve-and-effect.md",
+      "bytes": 11396,
+      "sourceSha256": "37f94fcff450577c11710b7a579e9ad117c357c3f8c8ac54d56540a9c19167ac",
+      "gitBlob": "715e958d9dcbc6f9c627c7d006bc037545dfb77b",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "60b63feabf4dd2e6bddda391969ea321bc4cdb005816bfd15519da5c51a919fa"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1b60c5b303e756631071c688a6e0eb2aa5ed71006fa8860082ea62ee424fa9a5"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "19cc902d9cbc405a22064cd0b8b80a354d83096518ded416d391f32267021cfa"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "bf377fa16c99e2e99c77403afa9f30670ea06102e219d6fe01b7ee59b5067995"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "afe138e93a1a1bf9b02bffb9d77dfaf35285437cb18e712ee8f93186f28b83d6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "306f89258e1c8c8bb97c70ae732e525232c656ad316745802bcfd48154332486"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "ed9cc99334b8ca40a6ebb178e78190b4116005f8ef8871d103e775536d8f13f5"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "8762f340ea69ac7c65e2327ea48f2a56ba437aa1066f994a6c36a40dfebdba32"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c2d662cc338a95331db0e8a1801893bf12dbcbeef9d1d2ca85d5ba06ff1e9e3f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f1c1d8850c527fef9350671e4bb4774ff0248e5a4816a477c334d3897b9714ef"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e79fc9edaa94182250be560a6c4a1573594a74870167cb568d38e340cff9fe56"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "db402f06c25d849da52fefdd451cd024ed873417c64710ebef4833ddae03c926"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "file": "later-03-check-applicability-and-uncertainty.md",
+      "bytes": 13418,
+      "sourceSha256": "244ce3b0825d9ba729f3e4da293e57b68f56cb97a4de7e9026f9bc02ec11ae29",
+      "gitBlob": "1ffe6332ec66e0ab0d0ed6efb60541b83fd78bd3",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7636044e37999deb8245a44b92543eeb5bfb22fd0070e1d8c1b3420304255cdc"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "88cce99907aba0a286661bad6979201fbe01196e4732d69487a6e063c34f8040"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b3737b8af06972bda56530d470f121ad6bbbe6d5f9eccf18922cff649387d80c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "886ea59585cf94b9cae838398c4ffaee9138604aac84fde9f7f7763812e16180"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "18b350e37a68fc8966ea7e92b65b04f3ef49a0b599201064fd70de573a718e10"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "cf33f2a8b57842e7e9fb67eb822fd1bf9c7e848222b500979271d3cb89f89d8f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "e2139aab4314f6d83859deebcd0bb82d11dd432a3b5d149d66f3e4f565d0b25f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "344c44d456fad863c55e93a6e60db40c2a184d710dba47e1100a05e703926e93"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "69b126e6f9ad95c2718bea9dc24fad37cf27487e8b16d103462e7fe319643948"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f15c662a33b0a89764d00c3f20bd6b1b325350e31d679f024d3ff73842cfd206"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "1dba11c2d57fb68e94aca2930ab6e5313955cf27a6ee72fb1fe9c26678f9ec57"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "db616af2974d3ca4969561adc9002e445dc40d7aeaedc04d32ed5ae1b7fb4f91"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "671c10d39c49b075b8afb273e2aa24067691701a1cad608cef6f17d332a10ccd"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "file": "later-04-read-a-single-success-story.md",
+      "bytes": 7417,
+      "sourceSha256": "0cb370f18a4bfeeb5dbf2cddef8cf1fb6b3c499646346620656083ab143616f1",
+      "gitBlob": "cc0c80f3a06d57365ea02131b5a6132a06205c84",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "309ebb68cea4d75d335b243029c05db6958c40f46d4473b0b820e6d403cc5ebe"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0a81757c66c08db7b03f13c2eaba99f7f608232a085a532f80b66bcbdb87b6c3"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fdff97f91de78feab87cd02371e35fcc073589979d5313ee20ed37d85a0ec746"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "64061df842974d07b95a389009b6b46969b29c2c988969e691b3cdf1f4749114"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4f9845c38ffa4e682ee13bb131496f0644a929e64a5fc03918693a802fd3704b"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "d35143f2fbf1c551fad7bfd6df35ad52119c643ec77fab3513cef44e5d2ba277"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "8c42c3f5d68fe5f08ff6cac85237723268ab004291971c74b799a9eaa89b7e34"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "90462ad44e72a80788de6d01704e30fdae004dc0cfc129c5b080b07e4fa12b21"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "50f384101a7959a936449da45c72473912098766ec27410569acc29f23a5b547"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "ad0ebfb3a18ccbb68b92fb33100e4da3cfe3e0f914f0b588f59a80ab69dde5bf"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "file": "later-05-read-a-real-trial.md",
+      "bytes": 12652,
+      "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+      "gitBlob": "0d7cf2833e4c663b02864881c0754453a200f332",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cb9d5d91200e0568b8077f4b3c595c42924463256dda4030c54251b5e95023c6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a0589dc4acf4c87883dc77af69bd36b21f8371efdafae65097145fa7fb0a2d76"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "351b170cd32d5eb2f7082e338adecee86516bf6e241e33604a1c03a0f33e5877"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "c78f6f992c065a0d9e7171547cfd609a31a3fdd07383af90f72434feb3738ca8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "155dbb810f45bf6a093be8645a7308a603ce7d47fcbb488c3be3ba7737dc2492"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e552ccd7920890684ed2c88b313f62c3b563919f165e1be87e2c9dde010e39a7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "52840e9ffab0f5274f5f58baf2a2ddfce6605441ff8a83a48a5ff4fcc9f4fab0"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "751d0d87924cd8fb47c53f648cf7c5e0a0ff11ff19403d3d68ac3619555abd3c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "ed5fc53ad099e3f34ebc5d18bf8141f4c26645dd4a14d511fc7182d1224b32d9"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "8b8b114ea904191090d4c0c077605c284fa02b9e8f2e2fd65bb24bf31217f9ce"
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "de354bed088eaec4926d935fe60af167920aff26196009f7b502519989be98fa"
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "be3688ef7569fd30b2e0f989821ccbcea6fbb4098b458dfe4cededbb60e6ad6f"
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "2cde65c79d335b2d5a479c5b2b011024d7558e55eb3ead703ef1d1ae3befe682"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "file": "later-index.md",
+      "bytes": 9755,
+      "sourceSha256": "155dc6bc3ca894bab7a59fbbba0ed6b6734c2cff3504cef0e77cd04d2f469e47",
+      "gitBlob": "b063707d26d41c898e3fd462399a96363c11a9b2",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "367ec5ee1ecaa50eab8818903035f5262e0608e3e436e2d1f6a0db7a79018611"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "20735dc7e20fc25cb6d8694f495ee27e2da582140f8ad32d00e2249f87adbbd4"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "72f7ff6a15437c929f3e4dc4c13767f6980a6c261e5979253e25303cc1265e73"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "6726d23a820c83c6c5c20c4b6cc6635fea1f3a048d8fb7f0776531370cd63e60"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "bd056ff24861ba8dc2e4032918d57129e99082477dedca942d0e93da855b8b19"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dc11ca64c2d992df7bed34fe7b16d1ba9cc5c34e658c917ab2885e7ef9cc1e36"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "c373c18b899ebf864a77b265d7bb1ac14b413b7b4d1e234615ea67a14423385f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "a7223af9b25bba22e27b4c71bc7225e66a6e737674eb447fbc622f2a8e80b82d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "ad6146cb31625e26f93c7628f8627bc020f54422e7c68be127ed7e4cfe9a3fd1"
+        }
+      ]
+    }
+  ],
+  "readingMode": "All six later documents read in full, all five original/later exact diffs read, including original-only map state. Original bodies verified by pinned bytes and matched teaching, not claimed independently reread. Frozen before fresh canonical field inspection; previous audit exposure acknowledged.",
+  "sourceFirstFreeze": {
+    "sha256": "d8707ccbe811168c22379accce7ec8a641fea0aad543a9c02da9f463a61e866b",
+    "bytes": 154140,
+    "rows": 122,
+    "kinds": {
+      "substantive": 94,
+      "non-credit": 25,
+      "derived-map": 3
+    },
+    "substantivePerPhase": {
+      "original": 67,
+      "later": 94
+    },
+    "personalCaseSectionsExcluded": 2
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "9b22e1132f1590c5a7ae541a0eeffe63d7898d55efd1c0dd043c8e9caaa25aea",
+      "lineStart": 23,
+      "lineEnd": 29,
+      "requirementIds": [
+        "1-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "00567926e3250cd403b21923aef96f50b0e781ca957ce0d02c477c2158c2002d",
+      "lineStart": 30,
+      "lineEnd": 39,
+      "requirementIds": [
+        "1-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b018ae490cb32fa8057e6e81d6d32a43d138dd0416f9a9a527841405d49ea43e",
+      "lineStart": 40,
+      "lineEnd": 45,
+      "requirementIds": [
+        "1-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "faac07b2fffea138b701817b46487c25a523e2a666c2f0845f8f57529809f799",
+      "lineStart": 46,
+      "lineEnd": 60,
+      "requirementIds": [
+        "1-002",
+        "1-003",
+        "1-004",
+        "1-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "519285a4d7a6dde26cde2938996c518d094e3526de89b9228e7b5f3a1d35e19a",
+      "lineStart": 61,
+      "lineEnd": 66,
+      "requirementIds": [
+        "1-006",
+        "1-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f7bf00fadd22e7e725cd066a47baf4d9f3ccbda316814a54bc2fb844a128eb36",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "1-008",
+        "1-009"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "6166a89660126c86e6f3f6b2b760f53530bd6fafb4f2d0f27b2624fb4a7e3f70",
+      "lineStart": 73,
+      "lineEnd": 78,
+      "requirementIds": [
+        "1-010",
+        "1-011"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "9a9466dc4a9ba0cd4c9a4a9d6093dbc60e808c6eddd2d8dacdf36c9c2c7cf8b4",
+      "lineStart": 79,
+      "lineEnd": 93,
+      "requirementIds": [
+        "1-012",
+        "1-013",
+        "1-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "52aa7bfb686967818176d38c5f687aeda9683aa1dd03534d0c7edcc496c5d190",
+      "lineStart": 94,
+      "lineEnd": 100,
+      "requirementIds": [
+        "1-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "27bd70a6cb6da2a985854c627d65c1f7753e440bd4ddfd55ad7dccfe76d772e2",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "1-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "bf87ee732474084aee961c1b9710144bec0ec9e444cd7ae02e4c2e463ccb8d62",
+      "lineStart": 107,
+      "lineEnd": 112,
+      "requirementIds": [
+        "1-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "ff0c929628f9e2a47aac614f634fdae93b7af538b10ec6012e8f679cd8993d18",
+      "lineStart": 113,
+      "lineEnd": 118,
+      "requirementIds": [
+        "1-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "8cb34cbde90419a781eb07f0e93d6cd18ae49ba29e0beb39af247f51b305a550",
+      "lineStart": 119,
+      "lineEnd": 127,
+      "requirementIds": [
+        "1-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "60b63feabf4dd2e6bddda391969ea321bc4cdb005816bfd15519da5c51a919fa",
+      "lineStart": 25,
+      "lineEnd": 31,
+      "requirementIds": [
+        "2-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "1b60c5b303e756631071c688a6e0eb2aa5ed71006fa8860082ea62ee424fa9a5",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "2-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "19cc902d9cbc405a22064cd0b8b80a354d83096518ded416d391f32267021cfa",
+      "lineStart": 42,
+      "lineEnd": 45,
+      "requirementIds": [
+        "2-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "bf377fa16c99e2e99c77403afa9f30670ea06102e219d6fe01b7ee59b5067995",
+      "lineStart": 46,
+      "lineEnd": 63,
+      "requirementIds": [
+        "2-002",
+        "2-003",
+        "2-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "afe138e93a1a1bf9b02bffb9d77dfaf35285437cb18e712ee8f93186f28b83d6",
+      "lineStart": 64,
+      "lineEnd": 78,
+      "requirementIds": [
+        "2-005",
+        "2-006",
+        "2-007",
+        "2-008"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "306f89258e1c8c8bb97c70ae732e525232c656ad316745802bcfd48154332486",
+      "lineStart": 79,
+      "lineEnd": 86,
+      "requirementIds": [
+        "2-009",
+        "2-010",
+        "2-011"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "f4adbc2fcdf847952c6a100dd79bd12741ddcd78c75fe43f805ef7da5b9a29cc",
+      "lineStart": 87,
+      "lineEnd": 102,
+      "requirementIds": [
+        "2-012",
+        "2-013",
+        "2-014",
+        "2-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "8762f340ea69ac7c65e2327ea48f2a56ba437aa1066f994a6c36a40dfebdba32",
+      "lineStart": 103,
+      "lineEnd": 109,
+      "requirementIds": [
+        "2-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "c2d662cc338a95331db0e8a1801893bf12dbcbeef9d1d2ca85d5ba06ff1e9e3f",
+      "lineStart": 110,
+      "lineEnd": 115,
+      "requirementIds": [
+        "2-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f1c1d8850c527fef9350671e4bb4774ff0248e5a4816a477c334d3897b9714ef",
+      "lineStart": 116,
+      "lineEnd": 121,
+      "requirementIds": [
+        "2-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "e79fc9edaa94182250be560a6c4a1573594a74870167cb568d38e340cff9fe56",
+      "lineStart": 122,
+      "lineEnd": 127,
+      "requirementIds": [
+        "2-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "db402f06c25d849da52fefdd451cd024ed873417c64710ebef4833ddae03c926",
+      "lineStart": 128,
+      "lineEnd": 139,
+      "requirementIds": [
+        "2-022"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "7636044e37999deb8245a44b92543eeb5bfb22fd0070e1d8c1b3420304255cdc",
+      "lineStart": 25,
+      "lineEnd": 31,
+      "requirementIds": [
+        "3-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "88cce99907aba0a286661bad6979201fbe01196e4732d69487a6e063c34f8040",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "3-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b2e067163d066b672bf98d93a4e4524ff912e107e63c5ec97d3266e71c9ec43a",
+      "lineStart": 42,
+      "lineEnd": 59,
+      "requirementIds": [
+        "3-001",
+        "3-002",
+        "3-003",
+        "3-004",
+        "3-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "886ea59585cf94b9cae838398c4ffaee9138604aac84fde9f7f7763812e16180",
+      "lineStart": 60,
+      "lineEnd": 74,
+      "requirementIds": [
+        "3-006",
+        "3-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "18b350e37a68fc8966ea7e92b65b04f3ef49a0b599201064fd70de573a718e10",
+      "lineStart": 75,
+      "lineEnd": 82,
+      "requirementIds": [
+        "3-008",
+        "3-009",
+        "3-010"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "cf33f2a8b57842e7e9fb67eb822fd1bf9c7e848222b500979271d3cb89f89d8f",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "3-011",
+        "3-012"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "e2139aab4314f6d83859deebcd0bb82d11dd432a3b5d149d66f3e4f565d0b25f",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "3-013",
+        "3-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "344c44d456fad863c55e93a6e60db40c2a184d710dba47e1100a05e703926e93",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "3-015",
+        "3-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "ec8055e488f23fc640cfe38ff5dec11bc17c5a02cb3487e90330cd098cabba43",
+      "lineStart": 101,
+      "lineEnd": 107,
+      "requirementIds": [
+        "3-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f15c662a33b0a89764d00c3f20bd6b1b325350e31d679f024d3ff73842cfd206",
+      "lineStart": 108,
+      "lineEnd": 113,
+      "requirementIds": [
+        "3-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "1dba11c2d57fb68e94aca2930ab6e5313955cf27a6ee72fb1fe9c26678f9ec57",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "3-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "db616af2974d3ca4969561adc9002e445dc40d7aeaedc04d32ed5ae1b7fb4f91",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "3-022"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "671c10d39c49b075b8afb273e2aa24067691701a1cad608cef6f17d332a10ccd",
+      "lineStart": 126,
+      "lineEnd": 134,
+      "requirementIds": [
+        "3-023"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "309ebb68cea4d75d335b243029c05db6958c40f46d4473b0b820e6d403cc5ebe",
+      "lineStart": 22,
+      "lineEnd": 28,
+      "requirementIds": [
+        "4-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2ccce9386220ef749bfbe270b12e9fadc95c47080591df35e62062f895234e50",
+      "lineStart": 29,
+      "lineEnd": 41,
+      "requirementIds": [
+        "4-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "fdff97f91de78feab87cd02371e35fcc073589979d5313ee20ed37d85a0ec746",
+      "lineStart": 42,
+      "lineEnd": 51,
+      "requirementIds": [
+        "4-001",
+        "4-002"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "64061df842974d07b95a389009b6b46969b29c2c988969e691b3cdf1f4749114",
+      "lineStart": 52,
+      "lineEnd": 59,
+      "requirementIds": [
+        "4-003",
+        "4-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "4f9845c38ffa4e682ee13bb131496f0644a929e64a5fc03918693a802fd3704b",
+      "lineStart": 60,
+      "lineEnd": 71,
+      "requirementIds": [
+        "4-005",
+        "4-006",
+        "4-007",
+        "4-008",
+        "4-009"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "d35143f2fbf1c551fad7bfd6df35ad52119c643ec77fab3513cef44e5d2ba277",
+      "lineStart": 72,
+      "lineEnd": 78,
+      "requirementIds": [
+        "4-010"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "8c42c3f5d68fe5f08ff6cac85237723268ab004291971c74b799a9eaa89b7e34",
+      "lineStart": 79,
+      "lineEnd": 88,
+      "requirementIds": [
+        "4-011",
+        "4-012"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "90462ad44e72a80788de6d01704e30fdae004dc0cfc129c5b080b07e4fa12b21",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "4-013"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "e71da3493e90ac8f24cfabfa1245f2f3a09fb1e66cdab4ab583224c848f48725",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "4-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "ad0ebfb3a18ccbb68b92fb33100e4da3cfe3e0f914f0b588f59a80ab69dde5bf",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "4-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "367ec5ee1ecaa50eab8818903035f5262e0608e3e436e2d1f6a0db7a79018611",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "map-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "20735dc7e20fc25cb6d8694f495ee27e2da582140f8ad32d00e2249f87adbbd4",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "map-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b2fd43a18cadadba559b145df77060f4971142cb90d473491d0648a721a4bf27",
+      "lineStart": 30,
+      "lineEnd": 40,
+      "requirementIds": [
+        "map-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "a77326898bd48ede8c767ef958ef8f7bbb3ad1ada9cbb36981a6b343bc1d7b19",
+      "lineStart": 41,
+      "lineEnd": 49,
+      "requirementIds": [
+        "map-006"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "342df99dff8db4e5b66c4c94b3c717a299ddff3d95376508f5397967dcf78810",
+      "lineStart": 50,
+      "lineEnd": 61,
+      "requirementIds": [
+        "map-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "dc11ca64c2d992df7bed34fe7b16d1ba9cc5c34e658c917ab2885e7ef9cc1e36",
+      "lineStart": 62,
+      "lineEnd": 65,
+      "requirementIds": [
+        "map-002"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "c373c18b899ebf864a77b265d7bb1ac14b413b7b4d1e234615ea67a14423385f",
+      "lineStart": 66,
+      "lineEnd": 69,
+      "requirementIds": [],
+      "disposition": "Personal-context section excluded; identity only, no teaching credit or copied case text."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ce3bb16f495d0efaf1a618195b358f9b3c35116723f89fd0b3bfb9168998b30b",
+      "lineStart": 70,
+      "lineEnd": 75,
+      "requirementIds": [
+        "map-003"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "d98f9f054bcd7fe832c4b85b7c2840da30f05f6c74771415f54033e06ba1b852",
+      "lineStart": 76,
+      "lineEnd": 82,
+      "requirementIds": [
+        "map-008"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "9b22e1132f1590c5a7ae541a0eeffe63d7898d55efd1c0dd043c8e9caaa25aea",
+      "lineStart": 23,
+      "lineEnd": 29,
+      "requirementIds": [
+        "1-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "00567926e3250cd403b21923aef96f50b0e781ca957ce0d02c477c2158c2002d",
+      "lineStart": 30,
+      "lineEnd": 39,
+      "requirementIds": [
+        "1-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b018ae490cb32fa8057e6e81d6d32a43d138dd0416f9a9a527841405d49ea43e",
+      "lineStart": 40,
+      "lineEnd": 45,
+      "requirementIds": [
+        "1-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "51aa6bdc3e171d8c3242e3a99ba6520a1d707668fbbc995152c19203865370eb",
+      "lineStart": 46,
+      "lineEnd": 60,
+      "requirementIds": [
+        "1-002",
+        "1-003",
+        "1-004",
+        "1-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "519285a4d7a6dde26cde2938996c518d094e3526de89b9228e7b5f3a1d35e19a",
+      "lineStart": 61,
+      "lineEnd": 66,
+      "requirementIds": [
+        "1-006",
+        "1-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f7bf00fadd22e7e725cd066a47baf4d9f3ccbda316814a54bc2fb844a128eb36",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "1-008",
+        "1-009"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "6166a89660126c86e6f3f6b2b760f53530bd6fafb4f2d0f27b2624fb4a7e3f70",
+      "lineStart": 73,
+      "lineEnd": 78,
+      "requirementIds": [
+        "1-010",
+        "1-011"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "9a9466dc4a9ba0cd4c9a4a9d6093dbc60e808c6eddd2d8dacdf36c9c2c7cf8b4",
+      "lineStart": 79,
+      "lineEnd": 93,
+      "requirementIds": [
+        "1-012",
+        "1-013",
+        "1-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "52aa7bfb686967818176d38c5f687aeda9683aa1dd03534d0c7edcc496c5d190",
+      "lineStart": 94,
+      "lineEnd": 100,
+      "requirementIds": [
+        "1-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "27bd70a6cb6da2a985854c627d65c1f7753e440bd4ddfd55ad7dccfe76d772e2",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "1-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "bf87ee732474084aee961c1b9710144bec0ec9e444cd7ae02e4c2e463ccb8d62",
+      "lineStart": 107,
+      "lineEnd": 112,
+      "requirementIds": [
+        "1-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "ff0c929628f9e2a47aac614f634fdae93b7af538b10ec6012e8f679cd8993d18",
+      "lineStart": 113,
+      "lineEnd": 118,
+      "requirementIds": [
+        "1-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/01-name-the-comparison-and-endpoint.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "8cb34cbde90419a781eb07f0e93d6cd18ae49ba29e0beb39af247f51b305a550",
+      "lineStart": 119,
+      "lineEnd": 127,
+      "requirementIds": [
+        "1-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "60b63feabf4dd2e6bddda391969ea321bc4cdb005816bfd15519da5c51a919fa",
+      "lineStart": 25,
+      "lineEnd": 31,
+      "requirementIds": [
+        "2-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "1b60c5b303e756631071c688a6e0eb2aa5ed71006fa8860082ea62ee424fa9a5",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "2-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "19cc902d9cbc405a22064cd0b8b80a354d83096518ded416d391f32267021cfa",
+      "lineStart": 42,
+      "lineEnd": 45,
+      "requirementIds": [
+        "2-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "bf377fa16c99e2e99c77403afa9f30670ea06102e219d6fe01b7ee59b5067995",
+      "lineStart": 46,
+      "lineEnd": 63,
+      "requirementIds": [
+        "2-002",
+        "2-003",
+        "2-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 4,
+      "kind": "practice-or-worked-example",
+      "sha256": "afe138e93a1a1bf9b02bffb9d77dfaf35285437cb18e712ee8f93186f28b83d6",
+      "lineStart": 64,
+      "lineEnd": 78,
+      "requirementIds": [
+        "2-005",
+        "2-006",
+        "2-007",
+        "2-008"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "306f89258e1c8c8bb97c70ae732e525232c656ad316745802bcfd48154332486",
+      "lineStart": 79,
+      "lineEnd": 86,
+      "requirementIds": [
+        "2-009",
+        "2-010",
+        "2-011"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "ed9cc99334b8ca40a6ebb178e78190b4116005f8ef8871d103e775536d8f13f5",
+      "lineStart": 87,
+      "lineEnd": 102,
+      "requirementIds": [
+        "2-012",
+        "2-013",
+        "2-014",
+        "2-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "8762f340ea69ac7c65e2327ea48f2a56ba437aa1066f994a6c36a40dfebdba32",
+      "lineStart": 103,
+      "lineEnd": 109,
+      "requirementIds": [
+        "2-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "c2d662cc338a95331db0e8a1801893bf12dbcbeef9d1d2ca85d5ba06ff1e9e3f",
+      "lineStart": 110,
+      "lineEnd": 115,
+      "requirementIds": [
+        "2-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f1c1d8850c527fef9350671e4bb4774ff0248e5a4816a477c334d3897b9714ef",
+      "lineStart": 116,
+      "lineEnd": 121,
+      "requirementIds": [
+        "2-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "e79fc9edaa94182250be560a6c4a1573594a74870167cb568d38e340cff9fe56",
+      "lineStart": 122,
+      "lineEnd": 127,
+      "requirementIds": [
+        "2-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/02-read-the-curve-and-effect.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "db402f06c25d849da52fefdd451cd024ed873417c64710ebef4833ddae03c926",
+      "lineStart": 128,
+      "lineEnd": 139,
+      "requirementIds": [
+        "2-022"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "7636044e37999deb8245a44b92543eeb5bfb22fd0070e1d8c1b3420304255cdc",
+      "lineStart": 25,
+      "lineEnd": 31,
+      "requirementIds": [
+        "3-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "88cce99907aba0a286661bad6979201fbe01196e4732d69487a6e063c34f8040",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "3-021"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b3737b8af06972bda56530d470f121ad6bbbe6d5f9eccf18922cff649387d80c",
+      "lineStart": 42,
+      "lineEnd": 59,
+      "requirementIds": [
+        "3-001",
+        "3-002",
+        "3-003",
+        "3-004",
+        "3-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "886ea59585cf94b9cae838398c4ffaee9138604aac84fde9f7f7763812e16180",
+      "lineStart": 60,
+      "lineEnd": 74,
+      "requirementIds": [
+        "3-006",
+        "3-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "18b350e37a68fc8966ea7e92b65b04f3ef49a0b599201064fd70de573a718e10",
+      "lineStart": 75,
+      "lineEnd": 82,
+      "requirementIds": [
+        "3-008",
+        "3-009",
+        "3-010"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "cf33f2a8b57842e7e9fb67eb822fd1bf9c7e848222b500979271d3cb89f89d8f",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "3-011",
+        "3-012"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "e2139aab4314f6d83859deebcd0bb82d11dd432a3b5d149d66f3e4f565d0b25f",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "3-013",
+        "3-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "344c44d456fad863c55e93a6e60db40c2a184d710dba47e1100a05e703926e93",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "3-015",
+        "3-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "69b126e6f9ad95c2718bea9dc24fad37cf27487e8b16d103462e7fe319643948",
+      "lineStart": 101,
+      "lineEnd": 107,
+      "requirementIds": [
+        "3-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "f15c662a33b0a89764d00c3f20bd6b1b325350e31d679f024d3ff73842cfd206",
+      "lineStart": 108,
+      "lineEnd": 113,
+      "requirementIds": [
+        "3-018"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "1dba11c2d57fb68e94aca2930ab6e5313955cf27a6ee72fb1fe9c26678f9ec57",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "3-019"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "db616af2974d3ca4969561adc9002e445dc40d7aeaedc04d32ed5ae1b7fb4f91",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "3-022"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/03-check-applicability-and-uncertainty.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "671c10d39c49b075b8afb273e2aa24067691701a1cad608cef6f17d332a10ccd",
+      "lineStart": 126,
+      "lineEnd": 134,
+      "requirementIds": [
+        "3-023"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "309ebb68cea4d75d335b243029c05db6958c40f46d4473b0b820e6d403cc5ebe",
+      "lineStart": 22,
+      "lineEnd": 28,
+      "requirementIds": [
+        "4-014"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "0a81757c66c08db7b03f13c2eaba99f7f608232a085a532f80b66bcbdb87b6c3",
+      "lineStart": 29,
+      "lineEnd": 42,
+      "requirementIds": [
+        "4-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "fdff97f91de78feab87cd02371e35fcc073589979d5313ee20ed37d85a0ec746",
+      "lineStart": 43,
+      "lineEnd": 52,
+      "requirementIds": [
+        "4-001",
+        "4-002"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "64061df842974d07b95a389009b6b46969b29c2c988969e691b3cdf1f4749114",
+      "lineStart": 53,
+      "lineEnd": 60,
+      "requirementIds": [
+        "4-003",
+        "4-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "4f9845c38ffa4e682ee13bb131496f0644a929e64a5fc03918693a802fd3704b",
+      "lineStart": 61,
+      "lineEnd": 72,
+      "requirementIds": [
+        "4-005",
+        "4-006",
+        "4-007",
+        "4-008",
+        "4-009"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "d35143f2fbf1c551fad7bfd6df35ad52119c643ec77fab3513cef44e5d2ba277",
+      "lineStart": 73,
+      "lineEnd": 79,
+      "requirementIds": [
+        "4-010"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "8c42c3f5d68fe5f08ff6cac85237723268ab004291971c74b799a9eaa89b7e34",
+      "lineStart": 80,
+      "lineEnd": 89,
+      "requirementIds": [
+        "4-011",
+        "4-012"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "90462ad44e72a80788de6d01704e30fdae004dc0cfc129c5b080b07e4fa12b21",
+      "lineStart": 90,
+      "lineEnd": 95,
+      "requirementIds": [
+        "4-013"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "50f384101a7959a936449da45c72473912098766ec27410569acc29f23a5b547",
+      "lineStart": 96,
+      "lineEnd": 101,
+      "requirementIds": [
+        "4-016"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/04-read-a-single-success-story.md",
+      "ordinal": 9,
+      "kind": "source-scope",
+      "sha256": "ad0ebfb3a18ccbb68b92fb33100e4da3cfe3e0f914f0b588f59a80ab69dde5bf",
+      "lineStart": 102,
+      "lineEnd": 107,
+      "requirementIds": [
+        "4-017"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "cb9d5d91200e0568b8077f4b3c595c42924463256dda4030c54251b5e95023c6",
+      "lineStart": 25,
+      "lineEnd": 31,
+      "requirementIds": [
+        "5-028"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a0589dc4acf4c87883dc77af69bd36b21f8371efdafae65097145fa7fb0a2d76",
+      "lineStart": 32,
+      "lineEnd": 45,
+      "requirementIds": [
+        "5-029"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "351b170cd32d5eb2f7082e338adecee86516bf6e241e33604a1c03a0f33e5877",
+      "lineStart": 46,
+      "lineEnd": 59,
+      "requirementIds": [
+        "5-001",
+        "5-002",
+        "5-003",
+        "5-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "c78f6f992c065a0d9e7171547cfd609a31a3fdd07383af90f72434feb3738ca8",
+      "lineStart": 60,
+      "lineEnd": 77,
+      "requirementIds": [
+        "5-005",
+        "5-006",
+        "5-007",
+        "5-008",
+        "5-009"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "155dbb810f45bf6a093be8645a7308a603ce7d47fcbb488c3be3ba7737dc2492",
+      "lineStart": 78,
+      "lineEnd": 91,
+      "requirementIds": [
+        "5-010",
+        "5-011",
+        "5-012",
+        "5-013"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "e552ccd7920890684ed2c88b313f62c3b563919f165e1be87e2c9dde010e39a7",
+      "lineStart": 92,
+      "lineEnd": 95,
+      "requirementIds": [
+        "5-014",
+        "5-015"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "52840e9ffab0f5274f5f58baf2a2ddfce6605441ff8a83a48a5ff4fcc9f4fab0",
+      "lineStart": 96,
+      "lineEnd": 103,
+      "requirementIds": [
+        "5-016",
+        "5-017",
+        "5-018",
+        "5-019",
+        "5-020"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "751d0d87924cd8fb47c53f648cf7c5e0a0ff11ff19403d3d68ac3619555abd3c",
+      "lineStart": 104,
+      "lineEnd": 110,
+      "requirementIds": [
+        "5-021",
+        "5-022",
+        "5-023",
+        "5-024"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "ed5fc53ad099e3f34ebc5d18bf8141f4c26645dd4a14d511fc7182d1224b32d9",
+      "lineStart": 111,
+      "lineEnd": 117,
+      "requirementIds": [
+        "5-025"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "8b8b114ea904191090d4c0c077605c284fa02b9e8f2e2fd65bb24bf31217f9ce",
+      "lineStart": 118,
+      "lineEnd": 123,
+      "requirementIds": [
+        "5-026"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 10,
+      "kind": "practice-or-worked-example",
+      "sha256": "de354bed088eaec4926d935fe60af167920aff26196009f7b502519989be98fa",
+      "lineStart": 124,
+      "lineEnd": 129,
+      "requirementIds": [
+        "5-027"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 11,
+      "kind": "additional-teaching",
+      "sha256": "be3688ef7569fd30b2e0f989821ccbcea6fbb4098b458dfe4cededbb60e6ad6f",
+      "lineStart": 130,
+      "lineEnd": 135,
+      "requirementIds": [
+        "5-030"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+      "ordinal": 12,
+      "kind": "source-scope",
+      "sha256": "2cde65c79d335b2d5a479c5b2b011024d7558e55eb3ead703ef1d1ae3befe682",
+      "lineStart": 136,
+      "lineEnd": 146,
+      "requirementIds": [
+        "5-031"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "367ec5ee1ecaa50eab8818903035f5262e0608e3e436e2d1f6a0db7a79018611",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "map-004"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "20735dc7e20fc25cb6d8694f495ee27e2da582140f8ad32d00e2249f87adbbd4",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "map-001"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "72f7ff6a15437c929f3e4dc4c13767f6980a6c261e5979253e25303cc1265e73",
+      "lineStart": 30,
+      "lineEnd": 41,
+      "requirementIds": [
+        "map-005"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "6726d23a820c83c6c5c20c4b6cc6635fea1f3a048d8fb7f0776531370cd63e60",
+      "lineStart": 42,
+      "lineEnd": 51,
+      "requirementIds": [
+        "map-006"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "bd056ff24861ba8dc2e4032918d57129e99082477dedca942d0e93da855b8b19",
+      "lineStart": 52,
+      "lineEnd": 63,
+      "requirementIds": [
+        "map-007"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "dc11ca64c2d992df7bed34fe7b16d1ba9cc5c34e658c917ab2885e7ef9cc1e36",
+      "lineStart": 64,
+      "lineEnd": 67,
+      "requirementIds": [
+        "map-002"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "c373c18b899ebf864a77b265d7bb1ac14b413b7b4d1e234615ea67a14423385f",
+      "lineStart": 68,
+      "lineEnd": 71,
+      "requirementIds": [],
+      "disposition": "Personal-context section excluded; identity only, no teaching credit or copied case text."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "a7223af9b25bba22e27b4c71bc7225e66a6e737674eb447fbc622f2a8e80b82d",
+      "lineStart": 72,
+      "lineEnd": 77,
+      "requirementIds": [
+        "map-003"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "ad6146cb31625e26f93c7628f8627bc020f54422e7c68be127ed7e4cfe9a3fd1",
+      "lineStart": 78,
+      "lineEnd": 84,
+      "requirementIds": [
+        "map-008"
+      ],
+      "disposition": "Full later-body reading plus exact original reconciliation; substantive, derived overview and non-credit source/routing rows remain distinct."
+    }
+  ],
+  "personalCaseSectionsExcluded": 2,
+  "versionReconciliation": "Lessons 1 to 3 change navigation/front matter only. Lesson 4 and the overview extend a four-step route/map to five. Lesson 5 is later-only. Both inventories remain separate; original unchanged lines are not claimed independently reread.",
+  "sourceBodiesPublished": false
+}

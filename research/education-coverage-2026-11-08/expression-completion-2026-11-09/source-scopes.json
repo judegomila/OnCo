@@ -1,0 +1,78 @@
+[
+  {
+    "files": [
+      "med-34116144.json",
+      "ascent-primary-core.json",
+      "ascent-subgroup-core.json",
+      "trodelvy-current.html",
+      "trodelvy-versions.json"
+    ],
+    "scope": "2021 primary non-brain-metastasis population (468), 529 overall randomization, 290 biomarker-assessable patients, prespecified exploratory H-score and underpowered low group; 2024 post hoc comparisons are not prospective interaction tests. U.S. breast label does not require TROP2 testing; separate PD-L1 and regimen/setting conditions remain."
+  },
+  {
+    "files": [
+      "med-35665782.json",
+      "db04-pmc.html",
+      "db04-update-core.json"
+    ],
+    "scope": "Original full report methods, Table 2 and population footnotes read. 63 receptor-negative at randomization and 40/18 (58) in the efficacy table are retained with the documented status-data distinction. Original 11 January 2022 results and safety are separate from 2025 32-month overall-population estimates. Unrelated UK site and NICE statements are retained but not newly revalidated here."
+  },
+  {
+    "files": [
+      "med-39282896.json",
+      "enhertu-current.html",
+      "enhertu-versions.json"
+    ],
+    "scope": "Original HR-positive DB06 population and primary HER2-low comparison, exploratory ultralow status and immature OS. Current ENHERTU SPL 28 (28 May 2026) exploratory ultralow regulatory analysis is separately identified; no cause or new cutoff is invented to explain version differences. Low/ultralow indication context is scoped, avoiding a blanket metastatic-only statement about all ENHERTU breast uses."
+  },
+  {
+    "files": [
+      "med-37488289.json",
+      "daisy-pmc.html"
+    ],
+    "scope": "DAISY identity/complete MED abstract and selected full-text context, not a claim to have read all methods. Single-arm cohort activity is not a randomized treatment effect, target irrelevance or a universal threshold. The registry’s older IHC 0+ notation must not be equated with CAP 2026 0+ without the study definition."
+  },
+  {
+    "files": [
+      "med-35113160.json",
+      "cap-breast-biomarker-202609.pdf",
+      "cap-current-guidelines.html",
+      "cap-current-protocols.html",
+      "who6-core.json"
+    ],
+    "scope": "Historical selected-biopsy inter-reader study is not an individual report-error probability. CAP template 1.6.2.0, September 2026, separates negative 0/0+, 1+, equivocal 2+, positive 3+ and complete uncommon ISH algorithms. Template explicitly not required for accreditation. WHO review does not establish a universally mandatory report or universal access."
+  },
+  {
+    "files": [
+      "rcpath-g148-landing.html",
+      "uk-her2-core.json"
+    ],
+    "scope": "The RCPath URL returned a PDF; v3 November 2024, section 10.3.3 and reporting instructions read. UK rare-group conventions and ASCO/CAP are not collapsed; the current CAP group 2 IHC 3+ positive exception is retained. Technically invalid tests do not acquire a negative biological interpretation."
+  },
+  {
+    "files": [
+      "boissiere-core.json"
+    ],
+    "scope": "367 untreated non-metastatic TNBC cohort and 38.4/37.6/24 percent categories. Not finding added prognostic value in this cohort is not proof of no association in every TNBC population. Other retained prevalence figures from older contributors are not newly revalidated."
+  },
+  {
+    "files": [
+      "fda-cdx-current.html",
+      "p150013s016.html",
+      "p150013s032.html",
+      "keytruda-label-search.json",
+      "keytruda-current.html"
+    ],
+    "scope": "Current FDA list includes both ESCC CPS 10 S016 and esophageal/GEJ CPS 1 S032. Both PMA approval-order profiles and current IV KEYTRUDA SPL 229 (2 November 2026), section 1.11, read. Combination and single-agent histology/prior-line/clinical and GEJ anatomic conditions retained. QLEX is a separate retrieved search result, not silently substituted."
+  },
+  {
+    "files": [
+      "hpa-tacstd2-summary.html",
+      "hpa-tacstd2-tissue.html",
+      "trop2-growth-search.json",
+      "datroway-current.html",
+      "datroway-versions.json"
+    ],
+    "scope": "Current HPA profile supports normal epithelial protein/RNA context, without inventing a new HPA version or replacing generated historical counts. Two independently resolved experimental TROP2 papers support studied growth/AKT functions, not universal mutation-driven dependency or clinical AKT selection. Current U.S. DATROWAY breast indications retain disease/regimen/previous-treatment conditions and no TROP2-selection requirement."
+  }
+]

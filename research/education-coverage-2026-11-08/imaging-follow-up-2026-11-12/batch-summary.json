@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-12",
+  "dataCommit": "de53831915247c76e4fe4bb384393bacc8f40265",
+  "sourceOriginal": {
+    "lessons": 6,
+    "sections": 74,
+    "requirements": 99,
+    "representedDraft": 99
+  },
+  "sourceLater": {
+    "lessons": 7,
+    "sections": 86,
+    "requirements": 131,
+    "representedDraft": 131
+  },
+  "sourceFirstRows": 153,
+  "nonCreditRows": 22,
+  "transcriptionErrata": 1,
+  "existingOwners": 10,
+  "newRegisteredTechnology": "granzyme-b-pet",
+  "newNotes": 42,
+  "exactFieldProofs": 195,
+  "readerViews": 11,
+  "summarySlots": 99,
+  "availableTexts": 18,
+  "EnglishFallbacks": 81,
+  "primaryReadingCounts": {
+    "publicationIdentities": 27,
+    "completeAbstractsRead": 26,
+    "identityOnlyPublications": 1,
+    "wholePapersRead": 0,
+    "targetedBodyParagraphs": 33,
+    "officialSourcePages": 14,
+    "officialBlocksRead": 328,
+    "pdfTextPagesRead": 8,
+    "fullPdfPageViews": 5,
+    "requests": 95,
+    "retainedRawBodies": 94,
+    "noBodyRequests": 1
+  },
+  "originalGuidelineAndCurrentContextSeparate": true,
+  "sourceAssetScopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa"
+    }
+  ],
+  "newAdjacentGroups": 1,
+  "priorPacketsPreserved": true,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertApproval": false,
+  "learnerApproval": false,
+  "languageApproval": false,
+  "broaderGoalComplete": false
+}

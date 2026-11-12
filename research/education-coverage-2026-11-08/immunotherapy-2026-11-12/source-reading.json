@@ -1,0 +1,3932 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "name": "cancer-vaccines-overview",
+      "file": "original-cancer-vaccines-overview.md",
+      "sourceSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "gitBlob": "d10b32c1fbe0951c4b8080f62ca0d655d11c8f1f",
+      "bytes": 8989,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "name": "cytokine-therapy",
+      "file": "original-cytokine-therapy.md",
+      "sourceSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "gitBlob": "9ae9eab3b211d53ec1db8ccadfdac077b5908e98",
+      "bytes": 9477,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "name": "immune-checkpoint-inhibitor",
+      "file": "original-immune-checkpoint-inhibitor.md",
+      "sourceSha256": "2e9f251f883e7c0cbbe483c9b9a2d86d1d4638952719f574cef1ee728269618c",
+      "gitBlob": "fa14ae4a2eea8be5fe64689599e36ffc164f38aa",
+      "bytes": 12834,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd"
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "name": "in-situ-vs-designed-vaccine",
+      "file": "original-in-situ-vs-designed-vaccine.md",
+      "sourceSha256": "a3a79e65aded6c1c1b998e048235cce5f3b090cce733ba3cd8c48c8a699bad24",
+      "gitBlob": "4875a709b6245bf375c6fd2a8c9e938b7fc0228e",
+      "bytes": 9682,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926"
+        },
+        {
+          "ordinal": 3,
+          "kind": "source-scope",
+          "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8dd59f5ad3ff54eefd5121fd57baef543454525af6ecf6742e1e830482fcde55"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "name": "intratumoral-immunotherapy",
+      "file": "original-intratumoral-immunotherapy.md",
+      "sourceSha256": "77576a34c3e748777ba49e8e7a8a328b3e461ddb65500b230b83b352324ce70e",
+      "gitBlob": "4b15b33c72ea2734a54ba038ca1dcca8c4935be9",
+      "bytes": 8492,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "name": "oncolytic-virus",
+      "file": "original-oncolytic-virus.md",
+      "sourceSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "gitBlob": "1eb968294059660cc4f26d544e6703ed93ea061b",
+      "bytes": 9101,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md"
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "name": "vaccine-adjuvants",
+      "file": "original-vaccine-adjuvants.md",
+      "sourceSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "gitBlob": "4696c68614a460e78d4ba4889d3f92c6a9664f1c",
+      "bytes": 9355,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "name": "cancer-vaccines-overview",
+      "file": "later-cancer-vaccines-overview.md",
+      "sourceSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "gitBlob": "d10b32c1fbe0951c4b8080f62ca0d655d11c8f1f",
+      "bytes": 8989,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "name": "cytokine-therapy",
+      "file": "later-cytokine-therapy.md",
+      "sourceSha256": "4055227708223db99e6888741908fc46bbb321263e1e09f5ba5943621b741a32",
+      "gitBlob": "6ddbdee815ee2233c283e420d67c2e61f659ac72",
+      "bytes": 9545,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "name": "immune-checkpoint-inhibitor",
+      "file": "later-immune-checkpoint-inhibitor.md",
+      "sourceSha256": "d869c469488487b930262c931400eedcd3cfa4bedadcf44fad6ae377c45b8e30",
+      "gitBlob": "2fe0e08861346cfa7dbeda904fef2e9cf900ea20",
+      "bytes": 13157,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd"
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "name": "in-situ-vs-designed-vaccine",
+      "file": "later-in-situ-vs-designed-vaccine.md",
+      "sourceSha256": "c6d946da93f2be75c47105ce4e6cf2ec3091f6801aaaceaa6585a8f1c2d6318f",
+      "gitBlob": "c092d5004e8d598ddf2adf25b57e46ad6c11f56b",
+      "bytes": 9858,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926"
+        },
+        {
+          "ordinal": 3,
+          "kind": "source-scope",
+          "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "ecdc8941fe3c9a1579af0115d5deec498bf7c618d492f105a90112e991ca9295"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "name": "intratumoral-immunotherapy",
+      "file": "later-intratumoral-immunotherapy.md",
+      "sourceSha256": "d62e68e6c4779a3357619d9e70d72c0820c3c75d7d69bdeded594fc6b8b32e19",
+      "gitBlob": "126672da2d40ad917a1a33cb28989d36d6eba3f4",
+      "bytes": 8407,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "name": "oncolytic-virus",
+      "file": "later-oncolytic-virus.md",
+      "sourceSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "gitBlob": "1eb968294059660cc4f26d544e6703ed93ea061b",
+      "bytes": 9101,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md"
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "name": "vaccine-adjuvants",
+      "file": "later-vaccine-adjuvants.md",
+      "sourceSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "gitBlob": "4696c68614a460e78d4ba4889d3f92c6a9664f1c",
+      "bytes": 9355,
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7"
+        }
+      ],
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md"
+    }
+  ],
+  "versionReconciliation": [
+    {
+      "lesson": "cancer-vaccines-overview",
+      "originalSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "laterSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "rawByteIdentical": true,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "083dfbc4c30e49cab27ad656396753c04e48c64060d1a461488ebb9ad94aace0"
+    },
+    {
+      "lesson": "cytokine-therapy",
+      "originalSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "laterSha256": "4055227708223db99e6888741908fc46bbb321263e1e09f5ba5943621b741a32",
+      "rawByteIdentical": false,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "3d95e5dd9eca71a7099783ffea1a5a7e27d9f6d7039136ee8fa3ff6798e92c96"
+    },
+    {
+      "lesson": "immune-checkpoint-inhibitor",
+      "originalSha256": "2e9f251f883e7c0cbbe483c9b9a2d86d1d4638952719f574cef1ee728269618c",
+      "laterSha256": "d869c469488487b930262c931400eedcd3cfa4bedadcf44fad6ae377c45b8e30",
+      "rawByteIdentical": false,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "7f273fc05f2febd4bebc6eb347c974d7cc6dca33014789189b26b62dfea2e8c5"
+    },
+    {
+      "lesson": "in-situ-vs-designed-vaccine",
+      "originalSha256": "a3a79e65aded6c1c1b998e048235cce5f3b090cce733ba3cd8c48c8a699bad24",
+      "laterSha256": "c6d946da93f2be75c47105ce4e6cf2ec3091f6801aaaceaa6585a8f1c2d6318f",
+      "rawByteIdentical": false,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "08c0b2746ec6efd5ab0790fed3ba4b9d9957932e41237f42439fcbd3ee3048b6"
+    },
+    {
+      "lesson": "intratumoral-immunotherapy",
+      "originalSha256": "77576a34c3e748777ba49e8e7a8a328b3e461ddb65500b230b83b352324ce70e",
+      "laterSha256": "d62e68e6c4779a3357619d9e70d72c0820c3c75d7d69bdeded594fc6b8b32e19",
+      "rawByteIdentical": false,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "6fd46f6a31170ba9bafa680086d7a2fd111ef5742d6afee02ee9bf43114a8adb"
+    },
+    {
+      "lesson": "oncolytic-virus",
+      "originalSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "laterSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "rawByteIdentical": true,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "84a381e339219f04a25b03ac303569c24a9bf7bfa5294a4551c18c15deae62e2"
+    },
+    {
+      "lesson": "vaccine-adjuvants",
+      "originalSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "laterSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "rawByteIdentical": true,
+      "teachingIdenticalAfterFrontmatterAndGeneratedNavigationExclusion": true,
+      "laterRead": "Full body read",
+      "originalRead": "Complete exact diff read; identical teaching assessment reused",
+      "teachingSha256": "8936860ce4836e3ef35eeb8dbe5a95a49577ff41da3efed610c54786e007fdea"
+    }
+  ],
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f",
+      "lineStart": 34,
+      "lineEnd": 58,
+      "requirementIds": [
+        "V-002",
+        "V-003",
+        "V-004",
+        "V-005",
+        "V-006",
+        "V-007",
+        "V-008",
+        "V-009",
+        "V-010",
+        "V-011",
+        "V-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d",
+      "lineStart": 59,
+      "lineEnd": 62,
+      "requirementIds": [
+        "V-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9",
+      "lineStart": 63,
+      "lineEnd": 66,
+      "requirementIds": [
+        "V-014",
+        "V-015",
+        "V-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "V-017",
+        "V-018",
+        "V-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "V-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90",
+      "lineStart": 80,
+      "lineEnd": 83,
+      "requirementIds": [
+        "V-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e",
+      "lineStart": 84,
+      "lineEnd": 87,
+      "requirementIds": [
+        "V-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea",
+      "lineStart": 94,
+      "lineEnd": 103,
+      "requirementIds": [
+        "V-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "C-001",
+        "C-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d",
+      "lineStart": 34,
+      "lineEnd": 65,
+      "requirementIds": [
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-013",
+        "C-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a",
+      "lineStart": 66,
+      "lineEnd": 71,
+      "requirementIds": [
+        "C-015",
+        "C-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b",
+      "lineStart": 72,
+      "lineEnd": 75,
+      "requirementIds": [
+        "C-017",
+        "C-018",
+        "C-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a",
+      "lineStart": 76,
+      "lineEnd": 82,
+      "requirementIds": [
+        "C-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "C-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af",
+      "lineStart": 89,
+      "lineEnd": 92,
+      "requirementIds": [
+        "C-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "C-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c",
+      "lineStart": 103,
+      "lineEnd": 112,
+      "requirementIds": [
+        "C-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b",
+      "lineStart": 30,
+      "lineEnd": 65,
+      "requirementIds": [
+        "I-002",
+        "I-003",
+        "I-004",
+        "I-005",
+        "I-006",
+        "I-007",
+        "I-008",
+        "I-009",
+        "I-010"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2",
+      "lineStart": 66,
+      "lineEnd": 82,
+      "requirementIds": [
+        "I-011",
+        "I-012",
+        "I-013",
+        "I-014",
+        "I-015",
+        "I-016",
+        "I-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331",
+      "lineStart": 83,
+      "lineEnd": 86,
+      "requirementIds": [
+        "I-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "I-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "I-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "I-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 9,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941",
+      "lineStart": 101,
+      "lineEnd": 107,
+      "requirementIds": [
+        "I-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471",
+      "lineStart": 114,
+      "lineEnd": 126,
+      "requirementIds": [
+        "I-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926",
+      "lineStart": 29,
+      "lineEnd": 34,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 3,
+      "kind": "source-scope",
+      "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919",
+      "lineStart": 35,
+      "lineEnd": 44,
+      "requirementIds": [
+        "S-002",
+        "S-003",
+        "S-004",
+        "S-005"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31",
+      "lineStart": 45,
+      "lineEnd": 57,
+      "requirementIds": [
+        "S-006",
+        "S-007",
+        "S-008",
+        "S-009",
+        "S-010",
+        "S-011"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c",
+      "lineStart": 58,
+      "lineEnd": 63,
+      "requirementIds": [
+        "S-012",
+        "S-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef",
+      "lineStart": 64,
+      "lineEnd": 70,
+      "requirementIds": [
+        "S-014",
+        "S-015"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d",
+      "lineStart": 71,
+      "lineEnd": 85,
+      "requirementIds": [
+        "S-016",
+        "S-017",
+        "S-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "S-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a",
+      "lineStart": 92,
+      "lineEnd": 95,
+      "requirementIds": [
+        "S-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7",
+      "lineStart": 96,
+      "lineEnd": 99,
+      "requirementIds": [
+        "S-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "8dd59f5ad3ff54eefd5121fd57baef543454525af6ecf6742e1e830482fcde55",
+      "lineStart": 100,
+      "lineEnd": 106,
+      "requirementIds": [
+        "S-019",
+        "S-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc",
+      "lineStart": 30,
+      "lineEnd": 37,
+      "requirementIds": [
+        "T-002",
+        "T-003",
+        "T-004",
+        "T-005"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe",
+      "lineStart": 38,
+      "lineEnd": 51,
+      "requirementIds": [
+        "T-006",
+        "T-007",
+        "T-008",
+        "T-009",
+        "T-010"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369",
+      "lineStart": 52,
+      "lineEnd": 57,
+      "requirementIds": [
+        "T-011",
+        "T-012",
+        "T-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b",
+      "lineStart": 58,
+      "lineEnd": 63,
+      "requirementIds": [
+        "T-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31",
+      "lineStart": 64,
+      "lineEnd": 70,
+      "requirementIds": [
+        "T-015",
+        "T-016",
+        "T-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010",
+      "lineStart": 78,
+      "lineEnd": 87,
+      "requirementIds": [
+        "T-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "O-002",
+        "O-003",
+        "O-004",
+        "O-005",
+        "O-006",
+        "O-007"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93",
+      "lineStart": 42,
+      "lineEnd": 47,
+      "requirementIds": [
+        "O-008",
+        "O-009"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf",
+      "lineStart": 48,
+      "lineEnd": 71,
+      "requirementIds": [
+        "O-010",
+        "O-011",
+        "O-012",
+        "O-013",
+        "O-014",
+        "O-015",
+        "O-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553",
+      "lineStart": 72,
+      "lineEnd": 78,
+      "requirementIds": [
+        "O-017",
+        "O-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e",
+      "lineStart": 85,
+      "lineEnd": 93,
+      "requirementIds": [
+        "O-019",
+        "O-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4",
+      "lineStart": 34,
+      "lineEnd": 68,
+      "requirementIds": [
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "A-008",
+        "A-009",
+        "A-010",
+        "A-011"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4",
+      "lineStart": 69,
+      "lineEnd": 72,
+      "requirementIds": [
+        "A-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925",
+      "lineStart": 73,
+      "lineEnd": 76,
+      "requirementIds": [
+        "A-013",
+        "A-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798",
+      "lineStart": 77,
+      "lineEnd": 83,
+      "requirementIds": [
+        "A-015",
+        "A-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "A-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f",
+      "lineStart": 90,
+      "lineEnd": 93,
+      "requirementIds": [
+        "A-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2",
+      "lineStart": 94,
+      "lineEnd": 97,
+      "requirementIds": [
+        "A-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7",
+      "lineStart": 104,
+      "lineEnd": 113,
+      "requirementIds": [
+        "A-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "V-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f",
+      "lineStart": 34,
+      "lineEnd": 58,
+      "requirementIds": [
+        "V-002",
+        "V-003",
+        "V-004",
+        "V-005",
+        "V-006",
+        "V-007",
+        "V-008",
+        "V-009",
+        "V-010",
+        "V-011",
+        "V-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d",
+      "lineStart": 59,
+      "lineEnd": 62,
+      "requirementIds": [
+        "V-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9",
+      "lineStart": 63,
+      "lineEnd": 66,
+      "requirementIds": [
+        "V-014",
+        "V-015",
+        "V-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c",
+      "lineStart": 67,
+      "lineEnd": 73,
+      "requirementIds": [
+        "V-017",
+        "V-018",
+        "V-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e",
+      "lineStart": 74,
+      "lineEnd": 79,
+      "requirementIds": [
+        "V-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90",
+      "lineStart": 80,
+      "lineEnd": 83,
+      "requirementIds": [
+        "V-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e",
+      "lineStart": 84,
+      "lineEnd": 87,
+      "requirementIds": [
+        "V-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea",
+      "lineStart": 94,
+      "lineEnd": 103,
+      "requirementIds": [
+        "V-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "C-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "C-001",
+        "C-002"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d",
+      "lineStart": 34,
+      "lineEnd": 65,
+      "requirementIds": [
+        "C-003",
+        "C-004",
+        "C-005",
+        "C-006",
+        "C-007",
+        "C-008",
+        "C-009",
+        "C-010",
+        "C-011",
+        "C-012",
+        "C-013",
+        "C-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a",
+      "lineStart": 66,
+      "lineEnd": 71,
+      "requirementIds": [
+        "C-015",
+        "C-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b",
+      "lineStart": 72,
+      "lineEnd": 75,
+      "requirementIds": [
+        "C-017",
+        "C-018",
+        "C-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a",
+      "lineStart": 76,
+      "lineEnd": 82,
+      "requirementIds": [
+        "C-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "C-021"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af",
+      "lineStart": 89,
+      "lineEnd": 92,
+      "requirementIds": [
+        "C-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "C-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c",
+      "lineStart": 103,
+      "lineEnd": 112,
+      "requirementIds": [
+        "C-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "I-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b",
+      "lineStart": 30,
+      "lineEnd": 65,
+      "requirementIds": [
+        "I-002",
+        "I-003",
+        "I-004",
+        "I-005",
+        "I-006",
+        "I-007",
+        "I-008",
+        "I-009",
+        "I-010"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2",
+      "lineStart": 66,
+      "lineEnd": 82,
+      "requirementIds": [
+        "I-011",
+        "I-012",
+        "I-013",
+        "I-014",
+        "I-015",
+        "I-016",
+        "I-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331",
+      "lineStart": 83,
+      "lineEnd": 86,
+      "requirementIds": [
+        "I-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "I-019"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e",
+      "lineStart": 93,
+      "lineEnd": 96,
+      "requirementIds": [
+        "I-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 8,
+      "kind": "additional-teaching",
+      "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd",
+      "lineStart": 97,
+      "lineEnd": 100,
+      "requirementIds": [
+        "I-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 9,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941",
+      "lineStart": 101,
+      "lineEnd": 107,
+      "requirementIds": [
+        "I-020"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471",
+      "lineStart": 114,
+      "lineEnd": 126,
+      "requirementIds": [
+        "I-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926",
+      "lineStart": 29,
+      "lineEnd": 34,
+      "requirementIds": [
+        "S-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 3,
+      "kind": "source-scope",
+      "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919",
+      "lineStart": 35,
+      "lineEnd": 44,
+      "requirementIds": [
+        "S-002",
+        "S-003",
+        "S-004",
+        "S-005"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31",
+      "lineStart": 45,
+      "lineEnd": 57,
+      "requirementIds": [
+        "S-006",
+        "S-007",
+        "S-008",
+        "S-009",
+        "S-010",
+        "S-011"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c",
+      "lineStart": 58,
+      "lineEnd": 63,
+      "requirementIds": [
+        "S-012",
+        "S-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef",
+      "lineStart": 64,
+      "lineEnd": 70,
+      "requirementIds": [
+        "S-014",
+        "S-015"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d",
+      "lineStart": 71,
+      "lineEnd": 85,
+      "requirementIds": [
+        "S-016",
+        "S-017",
+        "S-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "S-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a",
+      "lineStart": 92,
+      "lineEnd": 95,
+      "requirementIds": [
+        "S-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7",
+      "lineStart": 96,
+      "lineEnd": 99,
+      "requirementIds": [
+        "S-R"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "ecdc8941fe3c9a1579af0115d5deec498bf7c618d492f105a90112e991ca9295",
+      "lineStart": 100,
+      "lineEnd": 108,
+      "requirementIds": [
+        "S-019",
+        "S-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff",
+      "lineStart": 26,
+      "lineEnd": 29,
+      "requirementIds": [
+        "T-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc",
+      "lineStart": 30,
+      "lineEnd": 37,
+      "requirementIds": [
+        "T-002",
+        "T-003",
+        "T-004",
+        "T-005"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe",
+      "lineStart": 38,
+      "lineEnd": 51,
+      "requirementIds": [
+        "T-006",
+        "T-007",
+        "T-008",
+        "T-009",
+        "T-010"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369",
+      "lineStart": 52,
+      "lineEnd": 57,
+      "requirementIds": [
+        "T-011",
+        "T-012",
+        "T-013"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 6,
+      "kind": "practice-or-worked-example",
+      "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b",
+      "lineStart": 58,
+      "lineEnd": 63,
+      "requirementIds": [
+        "T-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31",
+      "lineStart": 64,
+      "lineEnd": 70,
+      "requirementIds": [
+        "T-015",
+        "T-016",
+        "T-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010",
+      "lineStart": 78,
+      "lineEnd": 87,
+      "requirementIds": [
+        "T-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c",
+      "lineStart": 32,
+      "lineEnd": 41,
+      "requirementIds": [
+        "O-002",
+        "O-003",
+        "O-004",
+        "O-005",
+        "O-006",
+        "O-007"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93",
+      "lineStart": 42,
+      "lineEnd": 47,
+      "requirementIds": [
+        "O-008",
+        "O-009"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf",
+      "lineStart": 48,
+      "lineEnd": 71,
+      "requirementIds": [
+        "O-010",
+        "O-011",
+        "O-012",
+        "O-013",
+        "O-014",
+        "O-015",
+        "O-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553",
+      "lineStart": 72,
+      "lineEnd": 78,
+      "requirementIds": [
+        "O-017",
+        "O-018"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e",
+      "lineStart": 85,
+      "lineEnd": 93,
+      "requirementIds": [
+        "O-019",
+        "O-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6",
+      "lineStart": 19,
+      "lineEnd": 21,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Title-only framing repeats the linked first definition; no additional requirement or credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c",
+      "lineStart": 22,
+      "lineEnd": 25,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4",
+      "lineStart": 26,
+      "lineEnd": 33,
+      "requirementIds": [
+        "A-001"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4",
+      "lineStart": 34,
+      "lineEnd": 68,
+      "requirementIds": [
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006",
+        "A-007",
+        "A-008",
+        "A-009",
+        "A-010",
+        "A-011"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4",
+      "lineStart": 69,
+      "lineEnd": 72,
+      "requirementIds": [
+        "A-012"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925",
+      "lineStart": 73,
+      "lineEnd": 76,
+      "requirementIds": [
+        "A-013",
+        "A-014"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798",
+      "lineStart": 77,
+      "lineEnd": 83,
+      "requirementIds": [
+        "A-015",
+        "A-016"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "A-017"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f",
+      "lineStart": 90,
+      "lineEnd": 93,
+      "requirementIds": [
+        "A-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2",
+      "lineStart": 94,
+      "lineEnd": 97,
+      "requirementIds": [
+        "A-D"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7",
+      "lineStart": 104,
+      "lineEnd": 113,
+      "requirementIds": [
+        "A-S"
+      ],
+      "disposition": "Teaching and non-credit rows remain separate. All later bodies were fully read; all original differences were fully read and unchanged teaching reused by exact identity. Later-only absences have separate receipts."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T18:04:29.730282+00:00",
+    "baseHead": "6386be7921d00e5285f92d33ce43a76688d39b43",
+    "inventorySha256": "37c10413f911772c64e36573476c195718729a069f2f0cf95f6cd03d5a1bf013",
+    "rows": 152,
+    "substantive": 133,
+    "originalSubstantive": 133,
+    "laterSubstantive": 133,
+    "nonCredit": 19,
+    "sourceVersions": 14,
+    "sourceSectionSignatures": 146,
+    "sourceFigureFiles": 20,
+    "mermaidThemeViews": 8,
+    "order": "All seven later bodies, seven complete original/later diffs, twenty source image themes and eight Mermaid renders read before fresh canonical-owner inspection. All pairs have exact identical teaching after frontmatter/generated-navigation removal; no original counterpart is invented or omitted."
+  },
+  "actualSectionVerifier": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "sourceSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "sourceSha256": "a8a517026cf3c6da6b3e3d62c1840908abfa772a737fd90025159c16707fa5ac",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "sourceSha256": "2e9f251f883e7c0cbbe483c9b9a2d86d1d4638952719f574cef1ee728269618c",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd"
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "sourceSha256": "a3a79e65aded6c1c1b998e048235cce5f3b090cce733ba3cd8c48c8a699bad24",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926"
+        },
+        {
+          "ordinal": 3,
+          "kind": "source-scope",
+          "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8dd59f5ad3ff54eefd5121fd57baef543454525af6ecf6742e1e830482fcde55"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "sourceSha256": "77576a34c3e748777ba49e8e7a8a328b3e461ddb65500b230b83b352324ce70e",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "sourceSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "sourceSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cancer-vaccines-overview.md",
+      "sourceSha256": "d92d93ed329ae17aea519c9b3d8296bcc1fae811b82288ec561ce29cd62448be",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41c117d40b52133dab03d745f574871487073691f08cd6ca47e16f1c05ff29f1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9c4b6589d132fbccbab515a588fd77d95ef643e25bc1083fda5e5418b9b262ce"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "53e5eff9bd6b2439e2da4a28d83156bdbc7489f20edd4d778c38540e1724c8a3"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7deb8290326a659edcb730a402e7cc2f15794cf47c0e4ea0e08295e2b943759f"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f6ab4f88ed8df992131f1eb6b95ab4f1fd1bd66eef5474d974475a7453ec719d"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2c94f8e48b17bd5d1b6f5594faf79d682ef144b53d366cb6a095433cd0beb4b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "004a77aa4d0afcb76aab74263ad656249fbda821c72435062891d7be798f571c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8e589f1d2c48b1d2a19ccc99c7d5a672e08ecd3912d12df934f0c54a6bbeee1e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "db26b7543c22ca6472419dc826815f0a59718fc56675e280a7ba42fc0da35e90"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "62caf9c482239cbede0eeb4b1abb5ae090c257c4bc96b3290fd97cc4f1b4098e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db047c9ab209eed424d5166ae67976a30f4ad14a48cd7bd97238c2a7fb97c8ea"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/cytokine-therapy.md",
+      "sourceSha256": "4055227708223db99e6888741908fc46bbb321263e1e09f5ba5943621b741a32",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2a40bdec2119342055d889fa4003f785051df0cc081eb032f3b3980980b6a518"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2fd3d504997443c92a563b2a52a8eee9232f4800815a63f3b70066c4ac46462d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f93a07b4c52aa4e21749d76392806da077abbb379d899fd2d9b11ad24f34d304"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4ba37f4f397d74bc484b759e8c3d5035390bbfa96f1467a3f04e2f349aea592d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "cd74abcc3c6b131d54fbd4106d243616af5a97e1b7f119e5b2ed2bb3f43eaf4a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2a860266c9061e8c2d1b23e7d0bf472990d93dd4d8db90ffceca39d06dcf155b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b9990af6b663392e59a8a02c3502ddf9a455c4fadfa26c82f58fabea080f155a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1421126fbb896f7fc5b9b779baeadddaf8320922a2ea6f456dd43a15e0f81364"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5329bfaa36fabbeae0934afb19d548eeb597414c0f12d75510803ecbb470f9af"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "42cf677a490bb6e432610039db118ec891505bda091469c4e93453d3db309739"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "73ecc2501441af49df2a476e2ddcf19515af779d6687084e622a2e8492435b5c"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/immune-checkpoint-inhibitor.md",
+      "sourceSha256": "d869c469488487b930262c931400eedcd3cfa4bedadcf44fad6ae377c45b8e30",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1204c672d140a067b97012fc00038402b98b8ba177aa77e27e1e8b902018f268"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "cb69f8e44139ca117b6443f82aeb229fe477effdff18a937d9d4bc6b74c31db1"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "17c64baf2baf84b72823fc594b5c9515184e8b2b8226ca102ca81240c260bc94"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a6abf4d967d1e039f8c289c5c1ec59dfa2595975dda283de6dae5697baf21f4b"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6e4a0f01e5d3b6c57d034623458f252661cb9bb63fc201b8eea87475e05220d2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "a86a8f4687fc3d36222cae0239d50c40baf7c48a763fc5e1411bf2c94ac15331"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d58758401c8cc64f76520bbf17c4a607e53c50eca881809034c0fd8da55d32c7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "892b75f923bea5673385e081c9249834169600c0d5eeb8b7a899105d6941ce2e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "0b9301780023bc3826a8fb3e5b23e3825f25f082c85f8b50e19bcf5f78c2fddd"
+        },
+        {
+          "ordinal": 9,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0f38ef2a9568c4f7509c3c164381fc74689ec943f5f8aaa92e18be14ed4f4941"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e2c27744b4b66d3a313785423162709235d8ce583c90353bee0055ceb7a80471"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+      "sourceSha256": "c6d946da93f2be75c47105ce4e6cf2ec3091f6801aaaceaa6585a8f1c2d6318f",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "37f9c719073cd748176f303fe801cd06ae427bc79385a995df7a0530ed2e0879"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "96cbbf9c690d5bec20c7a78de63e8f233b2729ebb1833607d4a66a4438ae8479"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ed55525d7b8ea74ee3bce4a111669b92d366fcb7786617f49d3032a13ea87926"
+        },
+        {
+          "ordinal": 3,
+          "kind": "source-scope",
+          "sha256": "6329879f85d157f7784b46746138d9a8ab37e5d2bff738842805f5b2f950b919"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ac8bdefd2a6cda7dd8635da7a33ac8b1ea82cc6a79bfbb313518356802d1ef31"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "97569df3b7c1228e3a9b15842d760e7f0e06b08f2b2946c84efd621a5169800c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35d66adcd91b7ed0e4e6654956828a70f5f66557a8b5c779611f89c206f0e9ef"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f300774f863ed574aa2549678d1a9aa4f7d1df75bb382369d976f459b759001d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c874bd6d3db9e806dc8e9741e4af30b254593cf3f8e6d36488367aa069b553cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "18415a9ff2de52f21d5bbfa21766f30cc5f303999061c6a18796699ec99ab82a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "5babd88e601132333ab866c88301a978b8f443f53af70845fa8a8988fd5ad8a7"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "ecdc8941fe3c9a1579af0115d5deec498bf7c618d492f105a90112e991ca9295"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/intratumoral-immunotherapy.md",
+      "sourceSha256": "d62e68e6c4779a3357619d9e70d72c0820c3c75d7d69bdeded594fc6b8b32e19",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c6a97a82d861627b3aaa6d93835849d7325ff22a34019aad052b86dfbb6d2bc7"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "01ae90a8ba596cbcd183526258d4808fa770047752fbe0faedeb1e7caca07714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "878a53a8c1a7753d3a1be7e04181d1c097cfe01d8330440cd2be7119c49730ff"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "abddb95c55183c511be60d2c12e017150742b9cbb74644d359efa8320261c6bc"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "73e0ec70f547d5fbb5e9a4ffe4c846dd585c8c9b38eeb06ccdff931e9dd3dabe"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "3c825d65a35a2cff3884f7ebe3542001df8b6273f1836e3ef924d54d62627369"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "5eff13051d0223e5bd91ec6bee5901b749186a2759748376c84078b3e82afa5b"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ea11eee6c051d7b9062d324453746f37b53c89110d3f173ed3529f7f71e17e31"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "5ea765065a2d57d59f3cd511ebd20bd1109d21cde76a25216efa4ede135cb010"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/oncolytic-virus.md",
+      "sourceSha256": "bd5224716eb54dde785ca798bc49e817c9dec58ae7c6d79f6bc0c40531bdebd6",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "cf530ffc289258cfd8a9af8c950f0c352f8401428f9ef93c894e20f7479856c4"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4addc2ba6d2e8909f3a22b773c884bf88abc1f95b44b3e6b0de494d6a65e9d1b"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e98f61abe2ddb26cbe9a95cd071febbb0d3d7f7dea49dfc9de4960eb2b4f8d87"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "acf204b6c03b2d8aef0673f01985c4dce3a164f9a5e78e62308ca79649a2a36c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c356a10f18afe61f4505201d7a828c22e0d14ed829b790d226f8cc6b2a4b9a93"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "1ebf6574f50f1672f4f3f4425e7bf65a377063bed9f857bffd585965aac9edcf"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "675d251472dfc37ad5d901609cf54a2789072414e4c887e79ad68078c4703553"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "d0fbf577f2b438958cfe2439e565a18b26b569dda3599bc264f135e00fafc66e"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md",
+      "sourceSha256": "899b529059d6f41b8ead20ae8bfd86075a15f26af90811d63f58e6bcb34d8728",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6f1b6b510411ac4fefa1da67051c4c3becfc67228e041abdf832291dc5550aa6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0714ba0c97db81ddd3306caf0dac2af9fca6c05a3132836f8c667b32e12d6e5c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e5e9ab2f1ec4e69fbfeedd437ace0942515ebc3dab8fdac4ca876016db480ee4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fcb031753354c7891ca9b38c930d7bee5cb6e16022307c3450f6f2934ce0a1c4"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "4e8bebee18cab334e20119a24b7cee4523f57e3bae9af2a9b6f5b7287c6764b4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360a38e49ffb4f90f7acf2becbbf4ed1e8933968de0c4f3e0abcf0f820d64925"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "047dcb33bf5afd1f32bd7aa1143a75371c9fb942166d667c52e2521e193d2798"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dc5b5692e0937731cce4250727fefa86b4d8de18571a0ae2e2f5d2e91cdd1bc7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "64427a86bd9e8f2751011945ac84f4f70ae0310e74b9cd8bce4d4161a5cbd63f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "677c505f03a4c1901710c2a44c15f2fd79fa328087ee2970306bdaf730fc87b2"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "c2372bb97b16e2fbc829a309ce84352318069eb4646dcc536c87fdce2a0aa0e7"
+        }
+      ]
+    }
+  ],
+  "scope": "Seven later bodies fully read and seven complete original/later diffs read. Teaching identical after front matter/generated navigation; original assessments reused by identity without inventing separate end-to-end reading."
+}

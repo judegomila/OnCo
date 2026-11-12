@@ -1,0 +1,413 @@
+{
+  "captures": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29993362+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-29993362.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 9990,
+      "sha256": "7c8b8dfa791b46c047dceb40012de65c8dee869172d7dda495c5ab5941ab36c7",
+      "capturedAt": "2026-11-12T19:24:32.310507+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.7554%2Felife.31657",
+      "file": "raw/crossref-29993362.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 29923,
+      "sha256": "6f5f1e0a9a7ea7cdf18e6c52191ea41c8d06626a183dad47be4e1494ed684aef",
+      "capturedAt": "2026-11-12T19:24:32.658628+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24584193+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-24584193.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 9141,
+      "sha256": "b835615eba69e0025b567bf390a4fb32a6659a3b90347a226f4f0e369472d552",
+      "capturedAt": "2026-11-12T19:24:41.640431+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnmeth.2869",
+      "file": "raw/crossref-24584193.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 19584,
+      "sha256": "3e425254eec3e2a0bb09a0efa748af0d08a81a2e65af3cea53adbcb3aa713e76",
+      "capturedAt": "2026-11-12T19:24:41.964382+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30193111+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-30193111.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 12636,
+      "sha256": "cf389613071e275dcc6b1b82d1bd86026778646858fce89511ca603bc9cedaa8",
+      "capturedAt": "2026-11-12T19:24:32.316712+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2018.08.039",
+      "file": "raw/crossref-30193111.json",
+      "httpStatus": 429,
+      "exitCode": 0,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "capturedAt": "2026-11-12T19:24:32.572793+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32393914+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-32393914.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 9190,
+      "sha256": "43004023d610250afd8bf07412c5f09134e124bf9d933abb3dd9ccb11ff17f44",
+      "capturedAt": "2026-11-12T19:24:33.262730+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fs41587-020-0472-9",
+      "file": "raw/crossref-32393914.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 19970,
+      "sha256": "3ffa62d258ddb770ce6f2b8bfd7781ee0b2743f5ac4eeb9a4aaeda67dc4ccd27",
+      "capturedAt": "2026-11-12T19:24:33.578708+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27365449+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-27365449.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 12500,
+      "sha256": "f66b4980598d8247bccddb07817bbf670e85ee886f74778786e2f23fcb5390d1",
+      "capturedAt": "2026-11-12T19:24:33.321995+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.aaf2403",
+      "file": "raw/crossref-27365449.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 14897,
+      "sha256": "46b544a253a7338a802b66b8be84142c054b66a2cf0d4a9365c23073baa96bb7",
+      "capturedAt": "2026-11-12T19:24:33.628209+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25858977+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-25858977.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 7768,
+      "sha256": "45aff96e2f52e0bbded5011379e7f1ab597d9e22f8a474d2e79e48d479d098be",
+      "capturedAt": "2026-11-12T19:24:44.191229+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1126%2Fscience.aaa6090",
+      "file": "raw/crossref-25858977.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10282,
+      "sha256": "417dd2cb8822150896ede3b0e7ceaf1eef0ff5043869ba2b6db619f719566eb5",
+      "capturedAt": "2026-11-12T19:24:44.496943+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37608771+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-37608771.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 53164,
+      "sha256": "f7d7ca1c86d3e3eb59ccc2e7047cac3545644146974a29d049313022085b9a7d",
+      "capturedAt": "2026-11-12T19:24:34.474407+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002%2Fpath.6165",
+      "file": "raw/crossref-37608771.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 57366,
+      "sha256": "65391f7188a9e69ce41db9384eac909fea4058db04744f0f1c91385a21bd6b80",
+      "capturedAt": "2026-11-12T19:24:34.880725+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35449453+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-35449453.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10907,
+      "sha256": "5dad1ef613f62507bb02c3fe61e72ef1a28fcc9cf26b214d64175768e841ec6e",
+      "capturedAt": "2026-11-12T19:24:35.548602+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fs41416-022-01822-6",
+      "file": "raw/crossref-35449453.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 23749,
+      "sha256": "37ca6629d3c99516258a22e2a5a2c10fae795b7c632d898fba217ec4668bb837",
+      "capturedAt": "2026-11-12T19:24:35.869073+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32002281+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-32002281.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11110,
+      "sha256": "066891b1877d6d463c566a82da57d21522fb5cdbddccd9dd6465558833fcabff",
+      "capturedAt": "2026-11-12T19:24:36.773280+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1080%2F2162402x.2019.1659093",
+      "file": "raw/crossref-32002281.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10866,
+      "sha256": "1f1e8cbc93a8686e7a26b05d0caee376d3466cbf36b926fa7e35e72972f813b8",
+      "capturedAt": "2026-11-12T19:24:37.047421+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26395345+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-26395345.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 9794,
+      "sha256": "f93de660b74440b128d5530e2810a9f17a5b437444143dae7d7b932399bf50a9",
+      "capturedAt": "2026-11-12T19:24:48.319730+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1186%2Fs13058-015-0638-4",
+      "file": "raw/crossref-26395345.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 20405,
+      "sha256": "09f11050b6dae1ca65dc12effeaaf66c0d627ae69848096f56001102f6d293e8",
+      "capturedAt": "2026-11-12T19:24:48.646045+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41091832+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-41091832.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 13372,
+      "sha256": "65be3a9cb39519e47aa08f1d3a8759104ded84e78afbf341c6676d47f0687560",
+      "capturedAt": "2026-11-12T19:24:42.871913+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.1004647",
+      "file": "raw/crossref-41091832.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 22887,
+      "sha256": "6baf62e5bb7d752fcd7a1fcde9e04bbfc6ded4ad309ebf26cfa58be9b635fdff",
+      "capturedAt": "2026-11-12T19:24:43.188036+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34266881+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-34266881.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 11660,
+      "sha256": "f2063f93c947cb79ddaf1652a96acdf1c95acdf38b586c5716583c2debcce3e0",
+      "capturedAt": "2026-11-12T19:24:43.854700+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1136%2Fjitc-2020-002197",
+      "file": "raw/crossref-34266881.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 17354,
+      "sha256": "0c9034d9dd5ac9826f5653d9e53c7e15e1b0c31db6d47fbb1492ad44aaca4302",
+      "capturedAt": "2026-11-12T19:24:44.173832+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36669472+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-36669472.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 10237,
+      "sha256": "455f8fbdc29d0b50dfbec5ee1647145e9a3262cf34773cc62e4e5d7b7cb3d918",
+      "capturedAt": "2026-11-12T19:24:44.872523+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2022.12.028",
+      "file": "raw/crossref-36669472.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 31865,
+      "sha256": "99c486117307c2a9c7ec2be6d585f3d6c74bf22a9983b354dddecc209c9ac1f2",
+      "capturedAt": "2026-11-12T19:24:45.203756+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6075866",
+      "file": "raw/pmc-29993362.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 404399,
+      "sha256": "c8c2e88f0b2a94b0c991dc59395aa0ad52e2a01e04fc1943826fc2c3405aa7c4",
+      "capturedAt": "2026-11-12T19:27:27.288494+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 127
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6132072",
+      "file": "raw/pmc-30193111.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 179571,
+      "sha256": "befce7898d5ce09e00851bd912db5af1ff4360e607879df32c76d7d37bab1164",
+      "capturedAt": "2026-11-12T19:27:29.003713+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 69
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4662681",
+      "file": "raw/pmc-25858977.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 165754,
+      "sha256": "1e5621abc458babd739595051981915cfe7453fc5461514888456158fb50b5b6",
+      "capturedAt": "2026-11-12T19:27:30.615264+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 74
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=11288334",
+      "file": "raw/pmc-37608771.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 196541,
+      "sha256": "7d4f3f62abf92845ff1c6e1fa573e0419f1554fe71ae0bfff72b7f6163ab8fa0",
+      "capturedAt": "2026-11-12T19:27:32.516424+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 43
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=9345858",
+      "file": "raw/pmc-35449453.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 130050,
+      "sha256": "799051cab0914e407951a6ae08e79d0be3d40292dd328e0fdedfc51a8fd404ce",
+      "capturedAt": "2026-11-12T19:27:34.284583+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 57
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=6959449",
+      "file": "raw/pmc-32002281.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 137447,
+      "sha256": "149e69c3e1b8a427cb1b91b3afabf9b3f2099e830ee845f5ba094315c264a61c",
+      "capturedAt": "2026-11-12T19:27:36.571824+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 50
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4579663",
+      "file": "raw/pmc-26395345.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 116632,
+      "sha256": "9fcbcb87503cb0b191a46e764a3182bbdf70609b8c30f3d68e12ed91ea496442",
+      "capturedAt": "2026-11-12T19:27:38.205232+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 31
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12539700",
+      "file": "raw/pmc-41091832.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 208313,
+      "sha256": "4c68694d6ac8241aa0b47db544a8b612d1c97374b9ce3ce64a8bf7f97550db29",
+      "capturedAt": "2026-11-12T19:27:40.055666+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 65
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8286792",
+      "file": "raw/pmc-34266881.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 88724,
+      "sha256": "e425363a3cfc81cee4d9ab8c8b9f84e5bdfa4c8c7c63090909856937b7fd6323",
+      "capturedAt": "2026-11-12T19:27:41.604738+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 39
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=10019067",
+      "file": "raw/pmc-36669472.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 259122,
+      "sha256": "a82d540688531579c21446e83e094c68b6d50e4eedb38284aeb57e29a27617c9",
+      "capturedAt": "2026-11-12T19:27:43.319435+00:00",
+      "articleBodyPresent": true,
+      "paragraphs": 83
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2018.08.039",
+      "file": "raw/crossref-30193111-retry.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 24240,
+      "sha256": "a8d286c080f2cc7ff069f1c78eac530422aa7515c3128377d0944ea21fd684fc",
+      "capturedAt": "2026-11-12T19:27:44.784818+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32763154+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-32763154.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 16671,
+      "sha256": "500eab1ef29636a8480ade9016ef5dfe82f6eeb483e86c44a396a077744d6edc",
+      "capturedAt": "2026-11-12T19:31:08.824564+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.07.005",
+      "file": "raw/crossref-32763154.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 35816,
+      "sha256": "a2023e79ace051408dc8b71e6665098ba5947b51e5b269745fa7348be81e5e38",
+      "capturedAt": "2026-11-12T19:31:10.303268+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7479520",
+      "file": "raw/pmc-32763154.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 225671,
+      "sha256": "c75ca0b3b26d2209eab57a7d2c8092b25a16bdf5c51dab07b9e2dc1fdc5c257f",
+      "capturedAt": "2026-11-12T19:31:11.971430+00:00"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33125896+AND+SRC%3AMED&resultType=core&format=json",
+      "file": "raw/epmc-33125896.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 3890,
+      "sha256": "626745ce0cc76f21c233239f7365b463a0336662fa16c685577d128ecacfa45c",
+      "capturedAt": "2026-11-12T19:31:15.646522+00:00"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.cell.2020.10.021",
+      "file": "raw/crossref-33125896.json",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 5385,
+      "sha256": "999b11422c4a2940ef1e5417fa3a244914e4cf02ae80e61b862b25b35472c4d4",
+      "capturedAt": "2026-11-12T19:31:17.036923+00:00"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=7658307",
+      "file": "raw/pmc-33125896.xml",
+      "httpStatus": 200,
+      "exitCode": 0,
+      "bytes": 8385,
+      "sha256": "de9a813a1d99ea12df1c42408b5bb10332dca279c50263f0adb32d36750d082c",
+      "capturedAt": "2026-11-12T19:31:18.463018+00:00"
+    }
+  ],
+  "allCaptureBytesVerified": true,
+  "sourceBodiesRemainPrivate": true
+}

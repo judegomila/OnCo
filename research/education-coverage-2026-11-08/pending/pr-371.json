@@ -1,0 +1,1937 @@
+{
+  "pr": 371,
+  "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "newCount": 29,
+  "modifiedCount": 5,
+  "records": [
+    {
+      "id": "measurement-to-benefit-evidence",
+      "kind": "term",
+      "name": "Evidence from measurement to patient benefit",
+      "aka": [],
+      "tldr": "A reliable measurement, a biological explanation and a useful treatment decision each need evidence. This map helps readers identify which part of a claim has actually been tested.",
+      "summary": "A useful reading framework follows the observation through its interpretation, mechanism, intervention and patient outcome. These are questions to examine, not a mandatory experimental sequence. An accurate assay can measure a marker that does not predict treatment benefit; a compound can bind a protein without proving that its effect depends on that protein. A model can reproduce an experiment without predicting an outcome in people. Each linked concept identifies a different evidence boundary and the source supporting it.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: biomarkers, roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        },
+        {
+          "label": "Cellular target-engagement study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        },
+        {
+          "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
+        },
+        {
+          "label": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30137196/"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: evidence-chain-variant-to-benefit (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antigen-expression-and-response",
+        "binding-site-barrier",
+        "antibody-internalization-trafficking",
+        "lysosomal-payload-egress",
+        "drug-target-engagement",
+        "experimental-versus-clinical-exposure",
+        "prognostic-versus-predictive-biomarkers",
+        "functional-variant-evidence",
+        "blood-cell-variants-liquid-biopsy",
+        "ctdna-shedding-negative-results",
+        "detection-versus-quantification",
+        "finite-molecule-sampling",
+        "tumor-informed-assay-design",
+        "biomarker-qualification-context",
+        "test-agreement-versus-accuracy",
+        "growth-rate-inhibition",
+        "cytostasis-versus-cell-death",
+        "on-target-drug-validation",
+        "model-context-of-use",
+        "confounding-by-indication",
+        "immortal-time-bias",
+        "target-trial-emulation",
+        "competing-risks",
+        "trial-population-transportability",
+        "biomarker-cutpoint-selection",
+        "decision-curve-net-benefit",
+        "inconclusive-and-negative-evidence",
+        "analytical-vs-clinical-validation",
+        "cancer-drivers-vs-actionable"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+        "Expression and controlled functional evidence for the exact alteration can strengthen a biological interpretation; another alteration in the same gene may behave differently. Perturbation with rescue or complementary controls can test dependence, because an active pathway need not be necessary for growth. A drug-effect claim needs relevant exposure and evidence that the compound reaches and interacts with its intended target; other drug actions or failure to reach tumour remain possible. Activation, loss of function and high protein abundance do not all imply that inhibiting the named protein will help. Other cells, parallel pathways and treatment history can change that hypothesis. A protein-only construct may miss RNA-processing effects, so a normal assay is not proof that a variant is harmless. Brnich's functional-classification recommendations address assay relevance; Mateo's actionability framework separately distinguishes relevant human, adjacent clinical and preclinical evidence. Neither framework turns pathogenicity into drug sensitivity or an evidence grade into treatment access. Repeated predictions may share data or assumptions and are not independent experiments.",
+        "Each claim needs its own measurement. Sequence identity, specimen, assay version, controls and interpretation establish what was tested. Altered-transcript proportion, normalised protein activity, cell growth at a defined exposure and participant response rate have different units and meanings; combining them into one score can hide those differences. Target engagement is separate from downstream change, cancer-cell death, tumour response and survival. At the clinical step, disease, biomarker, treatment setting and comparator must match the claim, with outcome definition, follow-up, harms and uncertainty retained. A biochemical signal alone does not establish clinical benefit, eligibility, availability or an individual's outcome. The model above is fictional, and the FDA's dated 2018 endpoint guidance is used for these outcome distinctions."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "antigen-expression-and-response",
+      "kind": "term",
+      "name": "Antigen expression and treatment response",
+      "aka": [
+        "target expression versus ADC response",
+        "antigen density and ADC response"
+      ],
+      "tldr": "Finding a surface protein can help explain how an antibody drug reaches a tumor. The amount of protein measured in a biopsy does not describe every step needed for the treatment to work.",
+      "summary": "Antigen measurement, drug uptake, intracellular processing and payload sensitivity describe different parts of antibody-drug conjugate activity. DAISY, a single-arm phase 2 study, examined trastuzumab deruxtecan across HER2 expression cohorts and found activity in more than one expression category. That study does not establish a universal expression cutoff or a comparative treatment effect in every cohort. A biomarker rule needs evidence for the particular drug, assay, disease and setting.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "DAISY: variable HER2 expression and treatment activity (2023)",
+          "url": "https://doi.org/10.1038/s41591-023-02478-2"
+        },
+        {
+          "label": "Cellular processing of a maytansinoid conjugate (2016)",
+          "url": "https://doi.org/10.1208/s12248-016-9892-3"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ihc",
+        "biomarker",
+        "antibody-internalization-trafficking",
+        "prognostic-versus-predictive-biomarkers"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "binding-site-barrier",
+      "kind": "term",
+      "name": "Binding-site barrier in tumor delivery",
+      "aka": [
+        "binding site barrier",
+        "perivascular antibody trapping"
+      ],
+      "tldr": "An antibody can bind so readily near a tumor's blood vessels that little reaches cells farther away. Strong binding and even delivery throughout a tumor are different properties.",
+      "summary": "Antibody uptake can be concentrated near accessible binding sites, leaving heterogeneous intratumoral distribution. A primary antibody-drug conjugate study altered antibody coadministration in a mouse xenograft model and improved penetration and efficacy without increasing the payload dose. This establishes a delivery mechanism in that model, not a dosing recommendation for patients. Distribution, retained binding and effective intracellular exposure need to be considered together.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Tumor penetration and single-cell conjugate targeting study (2018)",
+          "url": "https://doi.org/10.1158/0008-5472.CAN-17-1638"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "epitope",
+        "antigen-expression-and-response",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "antibody-internalization-trafficking",
+      "kind": "term",
+      "name": "Antibody internalization and intracellular trafficking",
+      "aka": [
+        "ADC internalization",
+        "antibody uptake and recycling",
+        "endosomal ADC trafficking"
+      ],
+      "tldr": "After binding a cell, an antibody drug may be taken inside, recycled or processed. These movements affect how much active drug reaches the place where it acts.",
+      "summary": "A quantitative study of a trastuzumab-maytansinoid conjugate separated surface binding, internalization, degradation, payload movement and intracellular binding. It found that processing rates influenced delivered payload in the studied cell lines. Surface staining or uptake alone does not establish release of an active species at its intracellular target. The relevant processing steps depend on the construct and its linker-payload chemistry.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Cellular processing rates and conjugate design (2016)",
+          "url": "https://doi.org/10.1208/s12248-016-9892-3"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "linker",
+        "lysosomal-payload-egress",
+        "drug-target-engagement"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "lysosomal-payload-egress",
+      "kind": "term",
+      "name": "Lysosomal payload transport",
+      "aka": [
+        "lysosomal payload egress",
+        "SLC46A3 payload transport",
+        "lysosomal payload trapping"
+      ],
+      "tldr": "Releasing a drug inside a cell's recycling compartment is one step in delivery. Some released drug forms also need transport into the rest of the cell before they can act.",
+      "summary": "Primary experiments identified SLC46A3 as a transporter involved in movement of noncleavable maytansine-conjugate catabolites from lysosomes to the cytoplasm. Reducing SLC46A3 affected the studied maytansine conjugates, while the tested MMAF conjugates behaved differently. Transporter dependence is therefore specific to the released species and construct. It is a mechanistic research finding, not a validated clinical selection test for every antibody-drug conjugate.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "SLC46A3 and maytansine-catabolite transport (2015)",
+          "url": "https://doi.org/10.1158/0008-5472.CAN-15-1610"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dm1",
+        "mmaf",
+        "trastuzumab-emtansine",
+        "antibody-internalization-trafficking"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "drug-target-engagement",
+      "kind": "term",
+      "name": "Drug target engagement",
+      "aka": [
+        "cellular target engagement",
+        "CETSA",
+        "cellular thermal shift assay"
+      ],
+      "tldr": "Target engagement asks whether a drug reaches and interacts with its intended target in the tested setting. The effect on the cell and the benefit of treatment need their own measurements.",
+      "summary": "The cellular thermal shift assay introduced a way to assess drug-associated changes in protein stability in cells and tissues as evidence of target engagement. The original work examined binding, transport, activation and resistance in defined systems. Engagement evidence must be interpreted within the assay used. It does not by itself demonstrate that the target is required for cancer-cell survival or that the drug's cellular effect is caused by acting on that target.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Genetic validation of drug mechanisms (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aaw8412"
+        },
+        {
+          "label": "Primary cellular thermal shift assay study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Ball et al., isothermal shift assay in lysates and cells (2020)",
+          "url": "https://doi.org/10.1038/s42003-020-0795-6"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "on-target-drug-validation",
+        "experimental-versus-clinical-exposure",
+        "functional-variant-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Target engagement and the evidence ladder. Target engagement asks whether a compound interacts with its intended target in the relevant system. Binding to a purified protein does not show that the compound enters the cell or reaches its target in a tumour, and engagement is also not a change in the target's function, a downstream effect or clinical benefit. Each question needs its own measurement: engagement first, then a measured biological effect, then a check of the causal explanation with controls, then clinical evidence.",
+        "Reading a thermal-shift result. The cellular thermal shift assay was introduced to evaluate drug binding to target proteins in cells and tissue samples through ligand-induced thermal stabilisation (Martinez Molina et al. 2013). The readout is the soluble target signal remaining after heating, plotted either against temperature at a fixed compound concentration or against concentration at a fixed temperature, so degrees Celsius and concentration units sit on different axes and the two designs ask different bounded questions. A shift of the compound curve against a matched control supports engagement under those conditions; indirect stability or protein-complex effects can also change the signal, so it is not an inhibition or occupancy percentage, and no universal shift cut-off is given here. The heated aliquots are consumed, so a record should carry the compound, concentration, exposure time, temperature series, cell or tissue system and controls. In an isothermal-shift study with a pan-kinase inhibitor, a large share of non-kinase proteins shifted in cells, which the authors read as in-cell profiling being more likely than lysate profiling to identify indirect binding targets; they recommend lysate profiling to identify targets and in-cell profiling to verify intracellular engagement (Ball et al. 2020).",
+        "Probes and medicines. Chemical probes are judged by potency, known selectivity and proven mechanism for the question asked, and the numerical criteria published for them belong to a consortium and target class (Arrowsmith et al. 2015; Workman and Collins 2010); a probe is a research starting point and not evidence of a usable medicine.",
+        "Record the named target and its detectability, baseline thermal behaviour, compound exposure, sample system and controls. In a temperature series, temperature changes while concentration is held fixed; in a concentration series, the selected temperature stays fixed. The output is soluble target signal, with different x-axis units in those two designs. Heated aliquots are consumed. An indirect stability change or protein-complex effect can alter the result, and neither a universal shift threshold nor a direct occupancy percentage follows from the plot."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "experimental-versus-clinical-exposure",
+      "kind": "term",
+      "name": "Experimental and clinical drug exposure",
+      "aka": [
+        "clinically relevant experimental concentrations",
+        "in vitro to clinical exposure bridge"
+      ],
+      "tldr": "A drug concentration that affects cells in a dish may differ from what can safely reach a tumor. Exposure includes the amount of drug, how long it remains available and the setting in which it is measured.",
+      "summary": "A primary compilation of oncology drug pharmacokinetics showed why nonclinical studies need concentrations relevant to measured human exposures. A high-concentration experiment can help investigate a mechanism without establishing that the effect is achievable clinically. Plasma concentration, free drug, exposure duration and tumor delivery are separate quantities; a reported peak concentration is not a universal concentration to use in every assay. The comparison must fit the drug, measured species and experimental conditions.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Clinically relevant concentrations for nonclinical studies (2017)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-16-3083"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pharmacokinetics",
+        "dose",
+        "drug-target-engagement",
+        "drug-response-sensitivity"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Methods and models"
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers",
+      "kind": "term",
+      "name": "Prognostic and predictive biomarkers",
+      "aka": [
+        "prognostic versus predictive",
+        "treatment-by-biomarker interaction"
+      ],
+      "tldr": "A marker can describe the likely course of a cancer or help identify differences in treatment benefit. Those roles require different evidence, and the same marker can have both.",
+      "summary": "A prognostic marker is associated with an outcome in a defined setting; a predictive marker identifies differences in treatment effect. Evidence for prediction needs a treatment comparison and assessment of how the treatment effect varies with the marker. A response association among people receiving one treatment can reflect prognosis or other differences. Statistical significance in one subgroup and nonsignificance in another does not by itself establish an interaction.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Prognostic and predictive biomarker methodology (2015)",
+          "url": "https://doi.org/10.1200/JCO.2015.63.3651"
+        },
+        {
+          "label": "FDA: biomarkers, roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        },
+        {
+          "label": "FDA: circulating tumour DNA in early-stage solid-tumour drug development, 2024",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+          "url": "https://doi.org/10.1371/journal.pmed.1004587"
+        },
+        {
+          "label": "ICH E9: statistical principles for clinical trials, 1998",
+          "url": "https://www.fda.gov/media/71336/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "biomarker",
+        "subgroup-analysis",
+        "biomarker-cutpoint-selection",
+        "surrogate-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A prognostic marker is associated with a defined outcome under specified care in a defined population and time horizon. It is not automatically a description of untreated natural history. A predictive biomarker concerns the effect of a named treatment relative to a comparator: compare those treatment effects across marker groups, with an explicit effect scale and uncertainty. A marker can serve both roles. Prespecified groups and randomized treatment assignment support this comparison, although the actual design, missing specimens and applicability still matter. Keep the assay, specimen timing, population, care, endpoint and horizon with either claim.",
+        "A model that predicts response among people all receiving treatment A has not thereby measured the added effect of A versus another strategy. More responses in one marker group can support a response association while leaving that treatment-effect question unanswered. The same reasoning applies to attributing benefit to one component of a combined regimen. A post-treatment marker can reflect response rather than validate a baseline selection rule. Worse prognosis does not automatically imply a larger relative treatment benefit, and even an interaction does not establish safe withholding or escalation. Decision utility requires evidence about the marker-guided strategy and its harms.",
+        "Fictional two-year bad-outcome risks illustrate why the effect scale matters. In marker-positive people, comparator risk is 40 per cent and treatment risk 20 per cent; in marker-negative people they are 20 and 10 per cent. Comparator risks differ, while absolute risk reductions are 20 and 10 percentage points and both risk ratios are 0.5. Benefit is twice as large only on the stated absolute scale. These are exact invented quantities without sampling uncertainty, not measured trial effects or a treatment recommendation.",
+        "Significant in one subgroup and nonsignificant in another does not demonstrate different treatment effects. Assess the treatment-by-marker interaction, its uncertainty, multiplicity, prespecification, selection of available specimens and independent validation. A credible marker analysis needs enough relevant outcomes; its label alone supplies neither precision nor clinical usefulness."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "functional-variant-evidence",
+      "kind": "term",
+      "name": "Functional evidence for a sequence variant",
+      "aka": [
+        "variant functional assay evidence",
+        "PS3 and BS3 functional evidence"
+      ],
+      "tldr": "A functional assay tests what a genetic change does in a particular system. The result needs to fit the question about disease, and it does not automatically identify a useful treatment.",
+      "summary": "ClinGen's primary recommendations for functional variant evidence evaluate disease mechanism, assay relevance, assay validation and the evidence for an individual variant. An abnormal assay result needs controls and evidence that the measured function is relevant to the disease mechanism. The PS3/BS3 framework concerns sequence-variant interpretation; it is not a cancer-drug actionability score. Treatment claims require evidence for the exact alteration, disease and intervention context.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "ClinGen functional-evidence recommendations (2019)",
+          "url": "https://doi.org/10.1186/s13073-019-0690-2"
+        },
+        {
+          "label": "Clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "vus",
+        "cancer-drivers-vs-actionable",
+        "on-target-drug-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy",
+      "kind": "term",
+      "name": "Blood-cell variants in liquid biopsy",
+      "aka": [
+        "clonal hematopoiesis and plasma variant origin",
+        "white blood cell sequencing for cfDNA interpretation"
+      ],
+      "tldr": "A DNA change found in plasma may come from blood cells rather than a tumor. Establishing where a change came from is part of interpreting a liquid biopsy.",
+      "summary": "A primary study compared plasma cell-free DNA, matched white blood cells and tumor samples and found substantial contributions from clonal hematopoiesis to plasma variants. Matched blood-cell sequencing helped attribute origin. A technically real somatic variant is not necessarily tumor-derived, and origin cannot be assigned from the gene name alone. This measurement problem is distinct from assessing the future health implications of a blood-cell clone.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Matched plasma, blood-cell and tumor sequencing study (2019)",
+          "url": "https://doi.org/10.1038/s41591-019-0652-7"
+        },
+        {
+          "label": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis",
+          "url": "https://doi.org/10.1038/s41588-020-00710-0"
+        },
+        {
+          "label": "Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes",
+          "url": "https://doi.org/10.1056/NEJMoa1408617"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna",
+        "vaf",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [
+        "clonal-haematopoiesis"
+      ],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "How common it is: in paired plasma and white-blood-cell sequencing, 53.2% of cfDNA mutations in 124 people with metastatic cancer and 81.6% in 47 people without cancer had features of clonal haematopoiesis, and variants that could not be separated from white-blood-cell DNA kept an explicit ambiguous category (Razavi 2019). Blood-cell clones also fall into gene groups: DNMT3A, TET2 and ASXL1 with age (Jaiswal 2014) and TP53, PPM1D and CHEK2 selected by radiation, platinum and topoisomerase II inhibitors (Bolton 2020). A gene often mutated in tumours is therefore not proof of tumour origin.",
+        "Attribution rule: matched white-blood-cell sequencing is the standard comparison, but its gene coverage, depth and detection rules matter, a clone below its sensitivity can stay unseen, and subtracting every blood match is not a complete method because a variant can be present in blood and tumour. In a fictional case the same variant V is detected in plasma and blood cells and not in the sampled tumour. That supports a blood-cell contribution, and tumour non-detection is not a biological zero because it is bounded by coverage, sensitivity, timing and the region sampled."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "ctdna-shedding-negative-results",
+      "kind": "term",
+      "name": "Tumor DNA shedding and negative plasma results",
+      "aka": [
+        "ctDNA shedding",
+        "uninformative negative plasma test",
+        "low-shedding tumors"
+      ],
+      "tldr": "A tumor may release too little DNA into the sampled blood for a test to detect. A negative plasma result needs to be read with the test, sample and clinical setting in mind.",
+      "summary": "A primary study across multiple cancers found that circulating tumor DNA detection varied by cancer type and stage. Assay capability and biological availability of tumor DNA both affect a result. A negative plasma call can reflect low shedding, limited sampled material or absence of the tracked signal, rather than proving that no tumor exists. This concept explains a limitation; it does not specify which additional clinical test an individual should receive.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Circulating tumor DNA detection across cancer types and stages (2014)",
+          "url": "https://doi.org/10.1126/scitranslmed.3007094"
+        },
+        {
+          "label": "Molecular recovery and error suppression study (2016)",
+          "url": "https://doi.org/10.1038/nbt.3520"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna",
+        "mrd",
+        "finite-molecule-sampling",
+        "detection-versus-quantification"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "detection-versus-quantification",
+      "kind": "term",
+      "name": "Detection and quantification limits",
+      "aka": [
+        "limit of detection",
+        "limit of quantification",
+        "limit of quantitation",
+        "LoD versus LoQ"
+      ],
+      "tldr": "A test may detect that a signal is present before it can measure its amount reliably. Both limits need to be defined for the method and sample conditions.",
+      "summary": "A detection limit concerns the lowest amount that can be detected under stated conditions; a quantitation limit concerns an amount measurable with suitable accuracy and precision. These are analytical properties, distinct from the proportion of patients with a condition who test positive. Input, recovery, background, calling rules and acceptable error influence what a stated limit means. The FDA/ICH source supplies general analytical definitions for drug procedures, not certification of any particular clinical tumor-DNA assay. The ICH Q2(R2) glossary, as reproduced in FDA guidance, defines the detection limit as the lowest amount of an analyte that can be detected but not necessarily quantitated as an exact value, and the quantitation limit as the lowest amount that can be quantitatively determined with suitable precision and accuracy. It defines accuracy as closeness of agreement between an accepted reference value and the measured value, and precision as the closeness of agreement, or scatter, between a series of measurements of the same homogeneous sample, which is usually expressed as a variance, standard deviation or coefficient of variation. Mass spectrometry assay validation also considers the limit of the blank, the lower limit of quantification, linearity and parallelism (Carr and colleagues, 2014).",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "FDA/ICH Q2(R2): analytical procedure validation, glossary",
+          "url": "https://www.fda.gov/media/161201/download"
+        },
+        {
+          "label": "Primary limit-of-detection estimation method (2004)",
+          "url": "https://doi.org/10.1373/clinchem.2003.029983"
+        },
+        {
+          "label": "FDA: biomarker technical review, terminology appendix (November 2018)",
+          "url": "https://www.fda.gov/media/119431/download"
+        },
+        {
+          "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "CLSI: harmonized analytical terminology",
+          "url": "https://htd.clsi.org/listterms.asp?button=Submit"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "sensitivity-specificity",
+        "analytical-vs-clinical-validation",
+        "finite-molecule-sampling"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A detection call and a reliable amount are different claims: the limit of detection describes detection probability under specified conditions and the limit of quantitation describes where a number is reliable, and the two have separate validation criteria. A value detected below the quantitative range does not support an exact fold change. In ctDNA reporting, a concentration such as mean tumour molecules per millilitre, a fraction such as variant allele fraction and a call are different quantities, so the fictional 0.01% variant allele fraction (100 parts per million of variant alleles) cannot be compared with a 0.2 molecules per millilitre report without both assays' methods and calibration.",
+        "Detection and quantitation need different validation criteria. The terminology appendix of a November 2018 FDA technical review defines a detection limit using a specified detection probability and a quantitation limit using stated accuracy, or bias and precision, requirements. That review concerns a malaria biomarker, not an oncology-assay validation. The distinction explains why detection below a validated quantitative range does not justify an exact fold change; a commonly used 95% detection criterion is a specified convention, not a property guaranteed for every input or sample.",
+        "Validation of an amount needs the stated bias and precision criteria in the relevant specimen matrix, input range and measuring interval, with appropriate reference material and controls. A nominal detection limit describes its own conditions; it does not predict whether a different assay would miss a particular printed result. Keep the assay version and collection time with a trend, and treat failed input quality separately from a negative detection call.",
+        "The limit of blank describes an upper background response at a specified probability. A limit of detection concerns an amount that can be detected under stated false-call and detection-probability conditions; LoD95 specifies 95 per cent detection in the tested workflow. It is not a line above which every repeat must be positive, nor 95 per cent certainty that a person has disease. A limit of quantitation requires stated quantitative accuracy, including bias and imprecision goals. The limits answer different questions and have no universal spacing; they may coincide under a particular method and its criteria.",
+        "Evaluate repeated blanks and low-level specimens across the conditions the claim covers. Each finite set of repeats needs representative clinical specimens or suitably equivalent reference inputs. Record the analyte, amount or concentration units, specimen matrix, input, workflow boundary, assay version and acceptable false-positive, false-negative and quantitative-error rates. Matrix means the material surrounding the analyte; reference material with a known added analyte amount needs justified equivalence to the clinical specimen. A limit measured on purified material is not automatically a collection-to-report limit. Contamination, nonspecific signal, calibration bias, poor recovery, unrepresentative targets, different lots or operators and inadequate input can change performance. Calibration-slope sensitivity, analytical detection capability and clinical sensitivity are different uses of the same word.",
+        "A clinical decision threshold answers a different question from analytical detection or quantitation. Clinical sensitivity counts positive results among people meeting a defined reference condition; it cannot be converted directly from a laboratory detection limit. Analytical limits alone do not establish tumour location, prognosis, improved recurrence detection or benefit from acting on a result. Comparing assays requires their own specimen, input, calibration and clinical-validation evidence.",
+        "Fictional assay example: the blank-response axis describes background readings, while a separate known-input axis has LoD95 at 2 units. At that input, the assumption leaves about 5 per cent of repeated tests undetected. A signal near 4 units is detected but remains below an assumed quantitation limit of 8 units. It therefore does not establish an exact 33 per cent rise from 3 to 4. These invented amounts, curves and limits belong to this example; neither the spacing nor the missed-repeat fraction is a personal disease probability."
+      ],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "finite-molecule-sampling",
+      "kind": "term",
+      "name": "Finite-molecule sampling in blood tests",
+      "aka": [
+        "ctDNA molecular sampling",
+        "independent molecules versus sequencing reads"
+      ],
+      "tldr": "A small blood sample contains a finite number of original DNA molecules. Sequencing copies of those molecules more deeply cannot recover a tumor molecule that never entered the analyzed sample.",
+      "summary": "Original molecule availability, recovery and technical errors place different limits on cell-free DNA analysis. A primary error-suppression study combined molecular barcoding and background correction to improve detection in a defined assay. Another primary comparison examined tumor-informed and tumor-naive assays on matched breast cancer samples. Their findings do not create one universal detection limit: sample input, tracked features and the complete workflow remain part of the result.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Molecular recovery and digital error suppression (2016)",
+          "url": "https://doi.org/10.1038/nbt.3520"
+        },
+        {
+          "label": "Matched comparison of tumor-DNA assays (2023)",
+          "url": "https://doi.org/10.15252/emmm.202216505"
+        },
+        {
+          "label": "FDA: statistical guidance for diagnostic-test studies (March 2007)",
+          "url": "https://www.fda.gov/media/71147/download"
+        },
+        {
+          "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna-shedding-negative-results",
+        "detection-versus-quantification",
+        "tumor-informed-assay-design"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For independent random target-molecule counts with Poisson mean lambda, the chance of none is exp(-lambda). At lambda = 1 this is 36.8%, so an average of one does not guarantee a molecule. In a fictional model, an evaluated aliquot supplies 4,500 independent amplifiable opportunities at one locus, each with a target-allele probability of 1 in 10,000. The expected target count is 0.45. If target counts follow a Poisson distribution, the chance of no target is exp(-0.45), 63.8%. Twenty independent loci with the same opportunity count and probability give an expected total of 9 and exp(-9), 0.012%, for none. Independence, equal recovery and one retained target being sufficient are assumptions of this model. These are not measured clinical false-negative rates. A tumour-DNA fraction cannot simply replace the target-allele probability without assumptions about copy number, variant multiplicity and which tumour clones carry the variant. More reads cannot recover an original molecule absent from the aliquot.",
+        "A worked example: in a multiplex PCR assay with a theoretical limit of 1 / (4,500 copies x variants), one sample not detected with 4,500 amplifiable copies was detected at 7.9 parts per million when re-assayed with 27,000 copies, and the authors note that detection at the theoretical limit rests on a single mutant molecule and is subject to the stochastic nature of sampling (Santonja 2023). A nominal detection limit from high-input validation material may not apply to a low-input clinical sample, so a laboratory with a 95% detection claim at 30 units of input cannot attach the same claim to a sample with 5 units without supporting data.",
+        "Analytical detection and clinical sensitivity answer different questions. FDA diagnostic-test guidance dated March 2007 defines clinical sensitivity by the proportion testing positive among people who have the specified condition, judged against the reference standard in the intended-use population. In a residual-disease study, disease definition, follow-up, draw schedule, evaluable samples and recurrence sites shape that denominator. An analytical limit measured in prepared material does not supply that clinical proportion, and a negative test does not establish absence of cancer.",
+        "Following a blood test from body to result separates biological availability, inclusion in the evaluated aliquot, recovery through processing, and the final calling rule. Low shedding, handling losses, background or a failed quality criterion can interrupt different steps. Repeated draws observe different times, but tumour biology and handling can make their errors correlated; they are not automatically independent repeats. A failed sample or an unbuildable reference needs its stated failure disposition rather than being silently called negative.",
+        "A validation report needs the evaluated plasma volume, recovered DNA and independent molecular coverage, together with the feature-level and combined calling rules. FDA's November 2024 drug-development guidance asks for representative clinical specimens, relevant input ranges, precision and accuracy, and comparability of any contrived reference samples. Testing one prepared input cannot show that every clinical sample has the same recovery, detection probability or outcome-based sensitivity."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "tumor-informed-assay-design",
+      "kind": "term",
+      "name": "Tumor-informed and tumor-naive assay design",
+      "aka": [
+        "tumour-informed ctDNA assays",
+        "tumor-informed versus tumor-naive",
+        "tumor-agnostic ctDNA assay design"
+      ],
+      "tldr": "Some blood tests first learn which DNA changes to track from a tumor sample. Others look for predefined signals without requiring that tumor-specific starting information.",
+      "summary": "Tumor-informed assays select features from a person's tumor; tumor-naive approaches use signals specified without that individual tumor profile. A primary breast cancer study compared several such assays on the same plasma samples and found method-dependent sensitivity at low concentrations. That comparison does not rank every commercial platform. Tissue availability, selected features, sampled molecules and intended clinical use all matter, while detection performance remains separate from evidence that acting on the result improves outcomes.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Tumor-informed and tumor-naive assay comparison (2023)",
+          "url": "https://doi.org/10.15252/emmm.202216505"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctdna",
+        "finite-molecule-sampling",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "liquid-biopsy",
+        "mrd-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "biomarker-qualification-context",
+      "kind": "term",
+      "name": "Biomarker qualification and context of use",
+      "aka": [
+        "biomarker context of use",
+        "FDA biomarker qualification"
+      ],
+      "tldr": "A biomarker can be accepted for a specified role in drug development. That acceptance has a defined scope and does not approve every test that measures it.",
+      "summary": "FDA biomarker qualification concerns a specified interpretation and context of use in medical product development. The agency explicitly distinguishes qualification of the biomarker from qualification of its measurement method. The biomarker, specimen source, measurable characteristic and analytic method belong in a complete description. A qualification claim should retain that scope rather than being treated as general diagnostic approval or proof of clinical utility for every use.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FDA: biomarkers, roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "biomarker",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "test-agreement-versus-accuracy",
+      "kind": "term",
+      "name": "Test agreement and diagnostic accuracy",
+      "aka": [
+        "reference standard and test agreement",
+        "positive percent agreement",
+        "negative percent agreement"
+      ],
+      "tldr": "Two tests can agree without proving that either identifies the condition correctly. Accuracy claims depend on what was used to establish whether the condition was present.",
+      "summary": "FDA's primary diagnostic-test guidance distinguishes comparison with a reference standard from comparison with a non-reference method. Agreement with the latter is reported as positive and negative percent agreement rather than being automatically labelled sensitivity and specificity. The comparator, condition definition, sampling and uncertainty need to remain visible. Treating agreement as accuracy can conceal shared errors or an imperfect comparator.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FDA: reporting results of diagnostic-test studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "sensitivity-specificity",
+        "ppv",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "kind": "term",
+      "name": "Growth-rate correction in drug-response assays",
+      "aka": [
+        "GR metrics",
+        "growth rate inhibition metrics",
+        "GR50",
+        "GRmax"
+      ],
+      "tldr": "Two cell cultures can appear differently sensitive to a drug because they divide at different speeds. Growth-rate measures account for divisions during the experiment when comparing drug effects.",
+      "summary": "The primary growth-rate inhibition study showed that conventional concentration-response metrics can depend on how many cell divisions occur during an assay. It developed corrected measures using initial measurements and the treated and untreated cell populations. These measures help interpret experiments in dividing cells under the method's assumptions; they do not remove exposure, measurement or model-context limitations, and they are not predictions of treatment benefit in a person.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary growth-rate inhibition metrics study (2016)",
+          "url": "https://doi.org/10.1038/nmeth.3853"
+        },
+        {
+          "label": "RECIST 1.1: original response-assessment guideline",
+          "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: reduction-is-not-regression (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-response-sensitivity",
+        "cytostasis-versus-cell-death",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+        "Clinical RECIST assessment uses a sum of selected lesion diameters, with rules for lymph nodes, non-target disease and new lesions. A mouse-volume percentage in cubic millimetres cannot be inserted into a diameter threshold measured in millimetres. Partial response compares with baseline; target-lesion progression compares with the smallest previous sum, commonly called the nadir, and applies its specified thresholds. Overall response also considers the rest of the disease, so one shrinking lesion does not make the person an overall responder. Cell number, metabolic activity and target-cell death are also distinct readouts, not interchangeable tumour-size measurements. The measured object, units, time, reference, calculation, controls and excluded observations determine what a reduction means.",
+        "In another fictional example, a tumour starts at 100 cubic millimetres and later measures 60 while control measures 300. It is 40% below its own start, supporting regression under this volume assessment, and 80% below the concurrent control. These percentages answer different questions. Neither supplies a RECIST response category, complete eradication or patient benefit. Shrinkage can leave measurable disease, and disappearance on a scan does not prove eradication. Duration, other disease sites, harms and clinical outcomes still need assessment. The volume examples are fictional; RECIST clinical criteria and the FDA's December 2018 outcome guidance address separate measurement and interpretation frameworks."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "cytostasis-versus-cell-death",
+      "kind": "term",
+      "name": "Growth arrest, cell number and cell death",
+      "aka": [
+        "cytostasis versus cytotoxicity",
+        "ATP assay versus cell count",
+        "metabolic viability readouts"
+      ],
+      "tldr": "A lower assay signal can reflect slower growth, fewer cells or changed metabolism. Measuring cell death requires evidence suited to that question.",
+      "summary": "A primary high-content assay study compared direct cell counts with ATP- and metabolism-based measurements and found mechanism-dependent discrepancies. Cell-cycle arrest could change ATP per cell and distort apparent potency. Time-dependent population measurements also distinguish growth behavior from a single endpoint. A result reported as reduced viability should retain its readout, baseline and timing rather than being automatically described as tumor-cell killing.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Cell counts versus ATP and MTS assay study (2013)",
+          "url": "https://doi.org/10.1371/journal.pone.0063583"
+        },
+        {
+          "label": "Drug-induced proliferation rate method (2016)",
+          "url": "https://doi.org/10.1038/nmeth.3852"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-response-sensitivity",
+        "growth-rate-inhibition",
+        "cell-composition-confound"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Methods and models"
+    },
+    {
+      "id": "on-target-drug-validation",
+      "kind": "term",
+      "name": "On-target validation of drug effects",
+      "aka": [
+        "on-target versus off-target drug effects",
+        "genetic validation of drug mechanism"
+      ],
+      "tldr": "A drug can change cell behavior through a different target from the one proposed. Complementary experiments help establish which mechanism actually caused the effect.",
+      "summary": "Primary genetic interrogation of selected cancer drugs found examples in which cell-killing activity persisted after loss of the proposed target. The study illustrates why pharmacological response alone is insufficient to establish a cancer dependency. Genetic perturbation, complementary compounds, suitable controls and target-engagement measurements address different parts of the claim. Agreement strengthens a mechanism within the tested system; it does not establish a safe or effective treatment in people.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Genetic validation of proposed cancer-drug targets (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aaw8412"
+        },
+        {
+          "label": "Workman and Collins, fit-for-purpose chemical probes (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20609406/"
+        },
+        {
+          "label": "Arrowsmith et al., chemical-probe quality and controls (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26196764/"
+        },
+        {
+          "label": "Sakai et al., BRCA2 restoration and acquired resistance (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-target-engagement",
+        "crispr-copy-number-artifact",
+        "functional-variant-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "crispr-screens"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Controls and their limits. In chemical-probe practice an inactive close analogue serves as a negative control and a second, structurally unrelated probe reduces the chance of shared off-targets (Arrowsmith et al. 2015). Genetic perturbation is a separate line of evidence, with its own limit: removing a whole protein can differ from inhibiting one of its functions (the teaching lesson's reasoning, not a result read). The nearest real example is natural reversion: ovarian cancer lines from one BRCA2 mutation carrier acquired a secondary BRCA2 mutation that restored BRCA2 and went with resistance to cisplatin and a PARP inhibitor, and transient siRNA depletion of BRCA2 re-sensitised the restored clones (Sakai et al. 2009); that is natural reversion plus knockdown in one patient's lineage, and depletion is not pharmacological inhibition. Agreement among controls supports a mechanism in the tested system only.",
+        "What to do next with a viability result. If a compound lowers viability in culture at one concentration, measure engagement and relevant selectivity, compare an inactive analogue and an independent probe, and use a suitable genetic perturbation or rescue; exposure, product quality, safety and clinical evidence remain separate questions that controls do not settle."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "crispr-copy-number-artifact",
+      "kind": "term",
+      "name": "Copy-number artifacts in gene-dependency screens",
+      "aka": [
+        "CRISPR copy-number effect",
+        "gene-independent CRISPR cutting toxicity"
+      ],
+      "tldr": "Cutting many copies of a DNA region can slow cell growth even when the named gene is not the cause. Gene-dependency screens need to distinguish this effect from dependence on the gene itself.",
+      "summary": "Primary cancer-cell screening experiments showed that CRISPR-Cas9 cutting in amplified regions could cause a gene-independent antiproliferative response. The CERES method subsequently modeled copy-number effects to improve specificity of essentiality estimates. A corrected score still depends on the experiment and algorithm. Guide depletion does not by itself identify a mechanism of cell death or establish that a drug against the nominated protein will help patients.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Gene-independent response to CRISPR cutting (2016)",
+          "url": "https://doi.org/10.1158/2159-8290.CD-16-0154"
+        },
+        {
+          "label": "CERES correction for copy-number effects (2017)",
+          "url": "https://doi.org/10.1038/ng.3984"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "gene-amplification",
+        "on-target-drug-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "crispr-screens"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Methods and models"
+    },
+    {
+      "id": "model-context-of-use",
+      "kind": "term",
+      "name": "Context of use for a tumor model",
+      "aka": [
+        "tumor model fitness for purpose",
+        "functional model scope"
+      ],
+      "tldr": "A model needs the components required to answer its particular question. A model that works for one experiment may leave out the biology needed for another.",
+      "summary": "Tumor models differ in which cancer, stromal and immune components they retain, and those properties can change with the method. A primary organoid study preserved endogenous immune cells and examined checkpoint-blockade responses in that system. This establishes capabilities of a defined model, not a universal ability to predict clinical treatment benefit. The question, retained components, exposure, readout and comparison against relevant observations should accompany a model claim.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Organoid modeling of the tumor immune microenvironment (2018)",
+          "url": "https://doi.org/10.1016/j.cell.2018.11.021"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://www.fda.gov/media/154985/download"
+        },
+        {
+          "label": "Source for experimental setting and intended-use interpretation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cell-lines-as-proxy",
+        "cell-composition-confound",
+        "external-validation",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "organoids",
+        "pdx-models"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Question-first reading framework. Name the intervention, required cells or processes, endpoint, observation time and intended inference. Predicting a molecular change, culture growth, scan response and benefit from a treatment strategy are different questions. Trust belongs to this question and evidence, not the model name or complexity. Include the consequence of an incorrect answer when deciding how much supporting evidence the use needs.",
+        "Construction and readout. Record source and identity, retained or added populations, viable window, preparation/version and missing components. Define measured or predicted object, units, reference and uncertainty. Check relevant controls, baseline growth and population attribution. A lower count than a dividing control is not necessarily a count below the start. Reliability within a run, independent biological specimens and correctness answer different questions. Sources: https://pmc.ncbi.nlm.nih.gov/articles/PMC4887336/ ; https://pubmed.ncbi.nlm.nih.gov/30550791/ Human-derived cells or tissue are not complete human physiology. Repeatability can preserve a systematic error; a measured treatment effect does not identify its mechanism without comparisons that distinguish alternative explanations.",
+        "Prediction and proposed use. Evaluate outcomes not used to build or tune a rule, retain failures, uncertainty and mismatches, and examine relevant baselines. Attach assay version, population, treatment and endpoint to agreement. Ladan's preoperative breast-slice comparison cannot validate an unrelated postoperative drug or assay. Clinical validity and benefit from using a decision strategy remain distinct; the analytical-versus-clinical-validation owner holds that distinction. Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10542784/",
+        "Scoped computational analogy. FDA's 2023 device-simulation guidance distinguishes verification of the mathematical implementation from empirical validation with independent observations, and treats calibration as separate from validation. Its stated scope is first-principles computational models in medical-device submissions, not a blanket rule for every machine-learning system or living culture. We use the distinction as a reading framework, not a universal certification ladder. Source: https://www.fda.gov/media/154985/download",
+        "Fictional example. A tumour-only culture repeatedly responds to Drug A. This does not test an immune-dependent Drug B or prove benefit because the cells came from a patient. Check the required immune interaction, actual intervention, endpoint and independent validation. Repeatability cannot repair a mismatch between question and model. These are invented drugs and a reading exercise. Complexity is useful when it represents biology necessary for the question and remains measurable. A simpler model may isolate a mechanism, while another model is needed for an interaction absent from it. More components alone do not show better prediction.",
+        "Recap. Question, construction, measurement and controls, intended prediction and proposed use are a checklist of distinct questions rather than a mandatory sequence or trust score. State what the model is trusted to answer, the evidence supporting that use and the questions still open."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "confounding-by-indication",
+      "kind": "term",
+      "name": "Confounding by indication",
+      "aka": [
+        "treatment-selection confounding",
+        "indication bias"
+      ],
+      "tldr": "People often receive different treatments because their health or cancer differs. Those starting differences can distort a comparison of outcomes between treatments.",
+      "summary": "A primary observational breast cancer study examined how treatment selection could make chemotherapy appear associated with recurrence and how adjustment methods changed the estimate. Measured-covariate adjustment did not eliminate the study's concern about residual confounding. A treatment association in routine-care data must be interpreted with the reasons treatment was selected. Propensity scores and large sample size do not automatically reproduce random assignment.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Treatment-selection confounding in an observational breast cancer study (2009)",
+          "url": "https://doi.org/10.1016/j.jclinepi.2009.03.001"
+        },
+        {
+          "label": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+          "url": "https://doi.org/10.1016/j.jclinepi.2016.04.014"
+        },
+        {
+          "label": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies.",
+          "url": "https://doi.org/10.1371/journal.pmed.0040296"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "real-world-evidence",
+        "target-trial-emulation",
+        "trial-population-transportability"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Confounding by indication arises when a reason for choosing treatment also relates to the outcome, such as giving more intensive therapy to people with more severe disease. Baseline fitness, access and prior care can also influence both treatment selection and outcome. A treatment-outcome association alone does not separate those pathways from the effect of treatment. The causal role and timing of each variable require the actual study context.",
+        "Fictional six-week symptom example: each treatment group contains 100 people. With A, 60 of 80 people in better baseline health improve and 5 of 20 in poorer health improve. With B, the corresponding counts are 15 of 20 and 20 of 80. Within each health category both treatments therefore have the same rates, 75 and 25 per cent, yet the pooled rates are 65 and 35 per cent because the baseline mixtures differ. This arithmetic illustrates a confounding explanation, not a recipe showing that matching one factor fixes every real comparison. Other differences, imperfect measurements, missing follow-up and clocks still matter."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "immortal-time-bias",
+      "kind": "term",
+      "name": "Immortal time bias",
+      "aka": [
+        "guarantee-time bias",
+        "time-dependent treatment assignment bias"
+      ],
+      "tldr": "A group can appear to survive longer simply because people had to survive long enough to enter it. The starting time and rules for group membership are part of a fair comparison.",
+      "summary": "Immortal time is a period during which an outcome cannot occur for someone to qualify for a later-defined exposure group. Misclassifying or excluding that period can bias an observational treatment comparison. Primary methodological work demonstrated the effect using different cohort designs and a lung cancer example. Aligning eligibility, treatment assignment and follow-up is essential; calling an analysis adjusted does not establish that this timing problem was addressed.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Primary immortal-time bias analysis (2008)",
+          "url": "https://doi.org/10.1093/aje/kwm324"
+        },
+        {
+          "label": "Target-trial emulation framework (2016)",
+          "url": "https://doi.org/10.1093/aje/kwv254"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "real-world-evidence",
+        "target-trial-emulation",
+        "landmark-survival"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Trials"
+    },
+    {
+      "id": "target-trial-emulation",
+      "kind": "term",
+      "name": "Target-trial emulation",
+      "aka": [
+        "emulated target trial",
+        "target trial framework"
+      ],
+      "tldr": "An observational study can first describe the trial it is trying to approximate. This makes its treatment comparison and remaining assumptions easier to examine.",
+      "summary": "The primary target-trial framework makes the hypothetical randomized comparison explicit before analyzing observational data. Eligibility, strategies, assignment, follow-up, outcomes and analysis need to answer the same question. This structure helps identify timing and selection problems. It does not create randomization or remove unmeasured confounding simply because a study uses the label emulation.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Primary target-trial emulation framework (2016)",
+          "url": "https://doi.org/10.1093/aje/kwv254"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "real-world-evidence",
+        "confounding-by-indication",
+        "immortal-time-bias",
+        "estimand"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Trials"
+    },
+    {
+      "id": "competing-risks",
+      "kind": "term",
+      "name": "Competing events and cumulative incidence",
+      "aka": [
+        "competing risks",
+        "cause-specific hazard and cumulative incidence"
+      ],
+      "tldr": "One event can prevent another outcome from being observed. A cancer study needs to explain how it handles such events when estimating the chance of an outcome.",
+      "summary": "For a recurrence outcome, death before recurrence may be a competing event; another endpoint may count death as part of a composite instead. Methodological work using relapse and non-relapse mortality illustrates why a cause-specific event rate and cumulative event probability answer different questions. Treating competing events as ordinary censoring can distort the estimated probability. Interpretation depends on the endpoint definition and analysis, rather than the name of the survival curve alone.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Competing-risk methodology with transplantation illustration (2012)",
+          "url": "https://doi.org/10.1093/ije/dyr213"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "other-cause-mortality",
+        "estimand",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Endpoints"
+    },
+    {
+      "id": "trial-population-transportability",
+      "kind": "term",
+      "name": "Transporting trial evidence to another population",
+      "aka": [
+        "clinical trial transportability",
+        "trial generalizability",
+        "eligibility and target population"
+      ],
+      "tldr": "A trial result describes the people and setting studied. Applying it elsewhere requires checking the differences that could change benefit or harm.",
+      "summary": "A primary methodological framework used trial-participation propensity scores to assess similarity between trial participants and a target population. Its worked example was outside oncology; it provides a way to examine generalizability, not a validated cancer-treatment matching rule. Weighting measured characteristics depends on assumptions and sufficient overlap. Disease, treatment setting, prior therapy and other possible effect modifiers still matter, and an average trial effect is not an individual forecast.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary framework for trial generalizability (2011)",
+          "url": "https://doi.org/10.1111/j.1467-985X.2010.00673.x"
+        },
+        {
+          "label": "Study Designs for Extending Causal Inferences From a Randomized Trial to a Target Population.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536837/"
+        },
+        {
+          "label": "Dahabreh and colleagues: transportability methods, May 2019 v1",
+          "url": "https://arxiv.org/pdf/1905.07764"
+        },
+        {
+          "label": "NCI: finding a trial and checking eligibility",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+        },
+        {
+          "label": "OncoGuide: transportability-and-eligibility (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "external-validation",
+        "subgroup-analysis",
+        "confounding-by-indication"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Eligibility asks whether someone meets protocol entry rules. Transportability asks whether a treatment-effect estimate can extend to a specified target population or setting. Randomisation assigns treatment within an enrolled sample; it does not randomly select that sample from everyone who might receive treatment. Eligible, invited, enrolled and followed people can differ. First specify the target population and align disease, treatment history, intervention and background care, comparator, endpoint and clock. A change of sequence or comparator may change the question itself. A prognostic factor predicts outcomes, while an effect modifier changes a treatment contrast on a specified scale. Even a constant relative effect can yield different absolute benefits when baseline risks differ. A marker or cancer label shared between heavily pretreated metastatic and early postoperative settings does not bridge differences in biology, competing risks, tolerance and endpoints.",
+        "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+        "Protocol eligibility can depend on disease, prior treatment, organ function, safety history and assay definitions, and needs study-team confirmation. Meeting criteria guarantees neither benefit, enrolment nor an available slot. If a fictional trial allows older adults but enrols almost nobody with a particular organ limitation, matching its age rule does not establish its average effect for that group. Actual representation, safety data, treatment context, overlap and the assumptions bridging populations remain necessary, with follow-up, harms and uncertainty considered. No universal similarity score certifies that bridge. An adjusted estimate is not automatically established, and even a well-supported population effect is not a person's guaranteed outcome. The examples here are fictional and provide no actual eligibility or access determination."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "biomarker-cutpoint-selection",
+      "kind": "term",
+      "name": "Biomarker cutoff selection and validation",
+      "aka": [
+        "biomarker cutpoint selection",
+        "data-derived biomarker threshold",
+        "optimal biomarker cutoff"
+      ],
+      "tldr": "The threshold used to call a test positive is part of the test's evidence. A cutoff selected because it looked best in one dataset needs evaluation beyond that same dataset.",
+      "summary": "The primary Cutoff Finder study demonstrated methods that optimize biomarker thresholds against distributions, outcomes or survival. Such an optimized split is a discovery result. Its performance must retain the selection procedure and be assessed with appropriate independent evaluation before a clinical rule is claimed. The assay scale and intended decision also matter: a threshold chosen for one drug or purpose is not automatically transferable to another.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Primary biomarker cutoff-optimization methods (2012)",
+          "url": "https://doi.org/10.1371/journal.pone.0051862"
+        },
+        {
+          "label": "FDA: reporting results of diagnostic-test studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+        },
+        {
+          "label": "Dichotomizing continuous predictors in multiple regression: a bad idea",
+          "url": "https://doi.org/10.1002/sim.2331"
+        },
+        {
+          "label": "CLSI: harmonized analytical terminology",
+          "url": "https://htd.clsi.org/listterms.asp?button=Submit"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "biomarker",
+        "prognostic-versus-predictive-biomarkers",
+        "data-leakage",
+        "external-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A cutpoint applies a category rule to a continuous measurement. Analytical thresholds concern detection or quantitation; diagnostic thresholds classify a defined reference condition; protocol entry cutoffs determine eligibility; treatment-selection thresholds require evidence for an action. Detectable, quantifiable, positive and actionable are separate claims. Categorizing a continuous score does not make biology binary or imply a sharp switch across the line. Nor are cutoffs automatically interchangeable across assays, scales, model versions, drugs or intended uses.",
+        "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+        "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+        "A mathematical optimization is only as appropriate as its stated objective and error costs. Using the same fictional counts, stipulate cost 5 for a missed case and 1 for a false call: the 0.7 rule costs 11 units and the 0.4 rule 8. Reverse the emphasis to costs 1 and 10, and the totals become 12 and 31. The preferred rule changes without changing any test result. These invented costs are not clinical valuations; actual decisions require relevant benefits, harms and evidence, not a universal mathematical maximum."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "decision-curve-net-benefit",
+      "kind": "term",
+      "name": "Decision curves and net benefit",
+      "aka": [
+        "decision curve analysis",
+        "model net benefit"
+      ],
+      "tldr": "A prediction model can be evaluated by the consequences of using it for a decision. Decision curves examine that trade-off across a range of decision thresholds.",
+      "summary": "The original decision-curve method combines true-positive and false-positive consequences through a threshold probability reflecting their relative weight. It compares model-based strategies with alternatives across a threshold range and was illustrated with prostate cancer prediction models. Net benefit is a model-based decision measure with assumptions about the decision and its consequences. It does not itself demonstrate that using a model improves outcomes in a clinical trial.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Original decision-curve analysis method (2006)",
+          "url": "https://doi.org/10.1177/0272989X06295361"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "calibration",
+        "roc-auc",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Methods and models"
+    },
+    {
+      "id": "inconclusive-and-negative-evidence",
+      "kind": "term",
+      "name": "Inconclusive results and evidence against an effect",
+      "aka": [
+        "absence of evidence versus evidence of absence",
+        "interpretation of null results"
+      ],
+      "tldr": "A study may fail to find an effect because the effect is small or because the study is not informative enough. Its estimate and uncertainty help distinguish those possibilities.",
+      "summary": "A primary methodological analysis of replication projects, including cancer biology, showed that nonsignificant original and replication results can both be inconclusive. Failure to cross a significance threshold does not establish equivalence. Evidence against a meaningful effect needs a question, margin or model suited to that claim and enough information to distinguish relevant possibilities. A precise negative result and an untested idea should remain different evidence states.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Null-result replication and evidence of absence (2024)",
+          "url": "https://doi.org/10.7554/eLife.92311"
+        },
+        {
+          "label": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4877414/"
+        },
+        {
+          "label": "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5502906/"
+        },
+        {
+          "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
+        },
+        {
+          "label": "OncoGuide: absence-of-evidence (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "statistical-significance",
+        "non-inferiority-margin",
+        "reproducibility"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "“We did not find it” needs a description of where and how we looked. A literature search can establish that no relevant publication was found within its queries, synonyms, databases, access and cutoff date; it cannot substitute for a biological experiment. A negative assay means no signal met the detection rule in the tested preparation. Its interpretation depends on the material, recovery, units, controls, sensitivity, threshold, time and compartment sampled. A false negative occurs when the condition is present but the test says otherwise. A study missing a significance threshold asks a third question: whether the data met that analysis's decision rule. Its population, comparator, endpoint, effect scale, uncertainty, follow-up and missing-data rules determine what remains open.",
+        "Read the effect estimate and confidence interval together. Too few events can leave a study with low power and an interval compatible with meaningful benefit and harm. Precision concerns sampling uncertainty under the analysis; it does not remove bias. Evidence excluding a large effect need not exclude a smaller one, and an unresolved effect is neither evidence of benefit nor proof of exactly zero effect. Equivalence testing asks whether an effect lies within justified lower and upper bounds, preferably specified before seeing results, using an appropriate analysis. Non-inferiority instead asks whether a treatment is worse than its comparator by more than a prespecified margin. Neither question is settled by failing to reject a zero difference, and meaningful margins depend on the outcome and setting.",
+        "If no exact-variant drug-response study is found in the documented search, the proposed drug match remains unsupported. That absence establishes neither resistance nor benefit. A normal functional result also covers only the measured function under its assay conditions. A protein-function test may miss an effect on RNA processing. Disease mechanism, assay validity and the particular function tested must remain attached to the conclusion.",
+        "In a fictional randomised study, the new treatment minus control difference in one-year event risk is -2 percentage points, with a 95% confidence interval from -12 to +8 points. The interval includes both appreciable benefit and harm; it does not support a claim of identical outcomes. It also crosses illustrative equivalence bounds of -5 and +5 points. Those bounds are invented for this example, rather than a universal definition of an unimportant effect. Even a narrower interval would need a sound design, justified prespecified bounds and the appropriate analysis. These numbers are not a patient estimate."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "biomarker",
+      "kind": "term",
+      "name": "Biomarker",
+      "aka": [
+        "biomarkers",
+        "marker",
+        "markers",
+        "molecular marker",
+        "molecular markers",
+        "predictive biomarker",
+        "predictive biomarkers",
+        "prognostic biomarker",
+        "prognostic biomarkers",
+        "biomarker-positive",
+        "biomarker-negative",
+        "biomarker-selected",
+        "biomarker-driven",
+        "biomarker-defined"
+      ],
+      "tldr": "A measurable feature of the body or tumour that helps describe a biological process, a disease or a response to an intervention. Its meaning depends on what was measured and how the result is being used.",
+      "summary": "FDA distinguishes susceptibility or risk, diagnostic, monitoring, prognostic, predictive, response and safety biomarker roles. One marker can serve more than one role, but evidence for one use does not establish the others. A prognostic association describes an outcome; a predictive claim concerns differences in treatment effect and needs comparative evidence. A positive marker does not guarantee benefit, and a negative result does not universally exclude it. The specimen, assay, cutoff, disease and intended use belong with the claim; a companion diagnostic has a specific regulatory purpose.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Biomarker_(medicine)",
+      "links": [
+        {
+          "label": "FDA: biomarker roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        },
+        {
+          "label": "Ballman: predictive or prognostic biomarkers (2015)",
+          "url": "https://doi.org/10.1200/JCO.2015.63.3651"
+        },
+        {
+          "label": "FDA: companion diagnostics",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumour-marker",
+        "ihc",
+        "genomic-profiling",
+        "companion-diagnostic-term",
+        "overexpression",
+        "prognosis",
+        "ctdna",
+        "tmb",
+        "msi",
+        "prognostic-versus-predictive-biomarkers",
+        "biomarker-qualification-context",
+        "biomarker-cutpoint-selection",
+        "measurement-to-benefit-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "companion-diagnostic",
+        "cgp",
+        "histopathology-ihc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [
+        "cancer-biomarkers",
+        "international-journal-of-biological-markers",
+        "tumour-biology"
+      ],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "drug-response-sensitivity",
+      "kind": "term",
+      "name": "Drug response and drug sensitivity (IC50, AUC)",
+      "aka": [
+        "drug sensitivity",
+        "drug response prediction",
+        "cell-line drug sensitivity",
+        "IC50",
+        "half maximal inhibitory concentration",
+        "dose-response AUC",
+        "area under the dose-response curve",
+        "GI50",
+        "AAC"
+      ],
+      "tldr": "Drug sensitivity describes how a measured response changes with drug concentration. The assay, timing and comparison determine what a reported IC50 or response-curve area means.",
+      "summary": "IC50 is the concentration producing half of a defined inhibitory effect; it does not inherently mean half the cells died. A response-curve area also depends on the tested concentration range and readout. Primary experiments show that cell division rate and changes in ATP per cell can alter apparent potency. Initial cell number, untreated growth, exposure duration and measurement method help separate growth arrest, cell loss and metabolic change. Laboratory sensitivity still needs an exposure and model-context comparison before it supports a claim about treatment in people.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/IC50",
+      "links": [
+        {
+          "label": "Yang et al., GDSC: a resource for therapeutic biomarker discovery in cancer cells (Nucleic Acids Research 2013)",
+          "url": "https://doi.org/10.1093/nar/gks1111"
+        },
+        {
+          "label": "Growth-rate inhibition metrics (2016)",
+          "url": "https://doi.org/10.1038/nmeth.3853"
+        },
+        {
+          "label": "Cell count versus ATP and MTS measurements (2013)",
+          "url": "https://doi.org/10.1371/journal.pone.0063583"
+        },
+        {
+          "label": "Clinically relevant concentrations for nonclinical studies (2017)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-16-3083"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/IC50"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "depmap",
+        "growth-rate-inhibition",
+        "cytostasis-versus-cell-death",
+        "experimental-versus-clinical-exposure",
+        "model-context-of-use",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "pharmacogenomics-term",
+        "cell-lines-as-proxy"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/drug-response."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Biomarkers"
+    },
+    {
+      "id": "cancer-drivers-vs-actionable",
+      "kind": "term",
+      "name": "Actionable genomic biomarkers",
+      "aka": [
+        "actionable genomic biomarkers",
+        "actionable alteration",
+        "actionable alterations",
+        "actionable mutation",
+        "actionable mutations",
+        "actionable biomarker",
+        "clinically actionable"
+      ],
+      "tldr": "An actionable genomic finding has evidence relevant to a treatment decision in a specified setting. The exact alteration, cancer type and strength of treatment evidence matter.",
+      "summary": "Biological function, contribution to cancer growth and evidence of treatment benefit are different claims. ESCAT ranks genomic targets by clinical evidence, distinguishing routine-use evidence from investigational, other-disease and preclinical findings. An abnormal functional assay does not establish drug benefit, and a gene-level match does not make every variant equivalent. Actionability should retain the alteration, disease, intervention and evidence tier. Trial eligibility, access and an individual's treatment decision require additional information.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Personalized_medicine",
+      "links": [
+        {
+          "label": "ESMO clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        },
+        {
+          "label": "ClinGen functional variant evidence recommendations (2019)",
+          "url": "https://doi.org/10.1186/s13073-019-0690-2"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Personalized_medicine"
+        },
+        {
+          "label": "OncoKB: therapeutic levels of evidence",
+          "url": "https://www.oncokb.org/content/files/levelOfEvidence/V2/LevelsOfEvidence.pdf"
+        },
+        {
+          "label": "fda-cdx",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "oncokb",
+        "civic",
+        "vus",
+        "functional-variant-evidence",
+        "measurement-to-benefit-evidence",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "cgp"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "driver-mutation",
+        "biomarker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Clinical actionability connects a reliable finding to a specified decision in a particular cancer and treatment setting. A pathogenic variant, a cancer driver, target engagement, tumour response and longer survival are different claims. Ask whether actionable means worth studying, matched to a trial or supported for standard care; an evidence tier is not an individual response probability. Measurement reliability, clinical meaning and benefit from the resulting decision each need evidence.",
+        "The original 2018 ESCAT framework has six tiers: I, targets ready for routine clinical decisions; II, investigational targets with likely benefit requiring additional data; III, benefit in another tumour type or a similar target; IV, preclinical evidence; V, evidence for co-targeting approaches; and X, lack of evidence for actionability. Preserve any subtier and assessment date. Tier V does not endorse an arbitrary combination, and tier X describes the available evidence rather than proving that a target can never become useful.",
+        "The OncoKB therapeutic-level definitions distinguish level 1, an FDA-recognized biomarker for an approved drug in that indication; 2, a standard-care biomarker recommended by professional guidelines for an approved drug in that indication; 3A, compelling clinical evidence in that indication; 3B, standard-care or investigational evidence in another indication; and 4, compelling biological evidence. Resistance is separate: R1 is a standard-care resistance biomarker for an approved drug in that indication, while R2 is compelling clinical resistance evidence. These are framework definitions, not a current list of available therapies.",
+        "Keep the framework, version or assessment date, exact alteration, drug, disease and supporting evidence together. There is no automatic numerical conversion between ESCAT and OncoKB. In a fictional report labelled OncoKB 3B, evidence in another indication does not establish standard treatment for the current tumour. Check the actual label or protocol, assay intended use, treatment line, prior therapy, formulation, safety and access. A therapy-linked companion diagnostic and a biologically similar research assay are not automatically interchangeable.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/actionable-genomic-biomarkers."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Biomarkers"
+    },
+    {
+      "id": "analytical-vs-clinical-validation",
+      "kind": "term",
+      "name": "Analytical versus clinical validation",
+      "aka": [
+        "analytical validation",
+        "clinical validation",
+        "analytical validity",
+        "clinical validity",
+        "clinical utility",
+        "validation of a biomarker test"
+      ],
+      "tldr": "Analytical validity concerns the measurement. Clinical validity concerns its relationship to a clinical condition or outcome, and clinical utility concerns the consequences of using it for a decision.",
+      "summary": "Repeatability or detection accuracy does not establish that a test predicts an outcome, and an outcome association does not establish benefit from acting on the result. These questions depend on the assay version, specimen, population and intended use. Clinical utility can be studied by comparing decision strategies: DYNAMIC randomized people with stage II colon cancer to ctDNA-guided or standard management and evaluated chemotherapy use and recurrence-free survival. That design illustrates evidence about a particular strategy; it does not validate every residual-disease test or treatment change. Prediction-model validation and a study of model-guided care also answer different questions. MedlinePlus Genetics describes analytical validity as how well a test detects whether a specific genetic variant is present or absent, clinical validity as how well the variant relates to the presence, absence or risk of a disease, and clinical utility as whether the test provides helpful information about diagnosis, treatment, management or prevention. Laboratory certification under CLIA standards is designed to ensure analytical validity and does not address clinical validity or clinical utility. FDA guidance on circulating tumour DNA in curative-intent solid tumour drug development says analytical validation ensures that an assay measures the intended analytes in the intended tumour type and establishes its performance characteristics, and that pre-analytical factors such as sample collection, storage and handling should be controlled because they affect sensitivity and specificity. The same guidance says the evidence for clinical validity or clinical utility of ctDNA varies across malignancies and patient populations, and that a trial in which a minimal residual disease result guides de-escalation of treatment should be randomised. A prediction model is judged on overall fit, calibration and discrimination, so separating risk groups well does not by itself give accurate individual probabilities (Riley and colleagues, 2024); an outcome association also does not show who benefits from a treatment, which is a separate comparison of strategies.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Biomarker_(medicine)",
+      "links": [
+        {
+          "label": "FDA: Software as a Medical Device (SaMD)",
+          "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+        },
+        {
+          "label": "FDA: diagnostic-test study interpretation",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+        },
+        {
+          "label": "DYNAMIC randomized ctDNA-guided treatment strategy (2022)",
+          "url": "https://doi.org/10.1056/NEJMoa2200075"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Biomarker_(medicine)"
+        },
+        {
+          "label": "MedlinePlus Genetics: judging a valid and useful test",
+          "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/"
+        },
+        {
+          "label": "FDA: Use of Circulating Tumor DNA for Curative-Intent Solid Tumor Drug Development (guidance)",
+          "url": "https://www.fda.gov/media/183874/download"
+        },
+        {
+          "label": "Riley et al., Evaluation of clinical prediction models (part 2): how to undertake an external validation study (BMJ 2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-074820"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "measurement-to-benefit-evidence",
+        "detection-versus-quantification",
+        "test-agreement-versus-accuracy",
+        "biomarker-qualification-context",
+        "decision-curve-net-benefit",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "external-validation",
+        "calibration",
+        "samd",
+        "biomarker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reading guide (OnCo inference built on the definitions above): a test-guided strategy is the test, its result rule, the action taken and the care setting taken together, and its utility is judged against a defined alternative using outcomes and harms. Measurement evidence (repeat readings of a spiked target), meaning evidence (a result followed by a later outcome) and use evidence (the strategy compared with an alternative) are three separate questions, and an answer to one is not an answer to another.",
+        "Evidence table in words. Does it measure correctly? Inspect reference specimens, repeats, background, input range and failures; the tempting overread is that reliable measurement must predict benefit. Does the result mean something clinically? Inspect an appropriate population, endpoint, follow-up and independent validation; the tempting overread is that association means the proposed intervention works. Does acting on it help? Inspect a defined decision strategy against a comparator with meaningful outcomes and harms; the tempting overread is that a changed decision must be improved care.",
+        "Fictional worked example. A blood test detects a spiked target reproducibly, and in a separate cohort more recurrences follow positive calls. No study compares starting Drug A after a positive call with a specified alternative, so the utility of the Drug A strategy is unsupported: the first finding supports analytical performance and the second a scoped clinical association, and neither tests whether the action helps more than it harms.",
+        "Figure reading (fictional example, light and dark renders agree): three parallel panels ask whether the test measures (a spiked target and repeat readings), what its result is associated with (a result followed by a later outcome) and whether the strategy helps (positive result then Drug A against a defined alternative, with both outcome boxes unanswered and outcomes and harms not compared). The empty boxes mark the missing comparison; they are not a validation ladder or a treatment recommendation.",
+        "Lead time (an inference that applies the existing lead-time-bias record, which is framed for screening): a blood result that anticipates recurrence earlier lengthens how long a person knows about the disease even if the date of the outcome does not change, so benefit needs a comparison of outcomes with and without acting early, measured on the same clock.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/clinical-vs-analytical-validation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Biomarkers"
+    },
+    {
+      "id": "external-validation",
+      "kind": "term",
+      "name": "External validation",
+      "aka": [
+        "external validation",
+        "externally validated",
+        "external cohort",
+        "independent cohort",
+        "independent validation",
+        "external test set",
+        "generalisability",
+        "generalizability"
+      ],
+      "tldr": "External validation evaluates a developed model in participant data that were not used to develop it. It shows how the model performs in that evaluation setting.",
+      "summary": "The original TRIPOD reporting framework distinguishes internal validation within development data from evaluation in other participant data. External studies can use a later time period, another institution or a different population; these test different degrees of transfer. The original model's predictions are compared with observed outcomes, with discrimination, calibration and uncertainty reported for the task. Internal validation remains evidence within its scope. An external evaluation does not guarantee performance in every setting or show that using the model improves patient outcomes. Riley and colleagues define external validation as evaluating a model's predictive performance in a different but relevant dataset that was not used in its development, and advise examining overall fit, calibration and discrimination in the overall population and, ideally, in key subgroups. They separate reproducibility, where the validation data come from a similar population and setting and where internal methods such as cross-validation and bootstrapping also apply, from transportability, where the setting is intentionally different (BMJ 2024).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/External_validity",
+      "links": [
+        {
+          "label": "TRIPOD: prediction-model development and validation reporting (2015)",
+          "url": "https://doi.org/10.1038/bjc.2014.639"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/External_validity"
+        },
+        {
+          "label": "Riley et al., Evaluation of clinical prediction models (part 2): how to undertake an external validation study (BMJ 2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-074820"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "idea-tr2-ai-external-validation-registry",
+        "idea-data-multisite-validation-precondition",
+        "trial-population-transportability",
+        "model-context-of-use",
+        "biomarker-cutpoint-selection",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "train-test-discipline",
+        "domain-adaptation",
+        "calibration",
+        "analytical-vs-clinical-validation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/external-validation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    }
+  ],
+  "normalization": "JSON public record shape; undefined-only runtime properties are omitted on both sides."
+}

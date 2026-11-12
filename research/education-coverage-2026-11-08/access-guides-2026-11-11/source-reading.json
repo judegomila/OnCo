@@ -1,0 +1,2953 @@
+{
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "documents": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "title": "Name the access route",
+      "bytes": 7848,
+      "sourceSha256": "923096ad9f0b9780bacabfcf0c43d2082cb548a134aef74cead3572a1f51a9d5",
+      "gitBlob": "589c0dcfb125ef26bd76302386e97900a840063a",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d572210022da46a91e09e606e976217fc1aad1b2e6459fa2d1d223798a3c7006"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b26875fdec420e9a70b41496008d3ac53234aa36a097cd676a95991879aa4512"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4f08bd14637fc6ecd1f23b1cb5c7854ff6942ad3561795717637c6ae3ff30b7b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "e0428c0ccf90ee9505e54bf504ce3a2f63b62b2cf993fe01b1ac72ac15d31014"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "6e0811ad0d9d089ddc8f36c0998eec2b50a579eceadd98f88b21a647a0be6696"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "19dd55bc2e94414994a08349713b68dab3af7163797be6ee43b0813c6c21501c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "978dac93e74468cd8a59096a29ca97fb421d50d5c3f701fe712f4163c1a3272d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2a91965dfc8d546b6f2c2a2e598e85e946d2d849d837f3a1001cbba5d0a9a822"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "84b7d916bfea0242446f31e1a860539915ab65d64a2b2ae724c55f6d55ad0d10"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "cbf4376801b903d6d7fe401d7b44eacf80e8e32a2e8edc59c2bcbcb53d6ba4ec"
+        }
+      ],
+      "projectionSha256": "a20c7373f30e8cccfc335c181bfe2f835b4973f2ab68c7b2469e8b151b954ce6",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "title": "Check a real trial opportunity",
+      "bytes": 7916,
+      "sourceSha256": "8668e38206a84324f8485eefc50376a3ec774cbcb76bda761b8305a185f5cf41",
+      "gitBlob": "7956c6ac4112f5a6855ce77061f478d4883ba5e6",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6516192fd56cd245be3adb3aa348f8ca3824ac1786b9bb9bffb8f7e634c4169a"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9149bbdbb19d7fbeddb308c119bb307520e993667ce859e8bb672d8655fe9411"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a8931947f31d215a33b5851acd95732b5f88876b54b536e039f1c8b4d3e9cc11"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "457b56c6b0c4342f2f3e3236c7240fe896a042cf3d47d0009bbd7b711fff74d7"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d932a0102bec2bcb21a846d2f9108500eb5ee949aadeda602eb6112710489ad"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "653ad975dde4d06f025ec7e93e9ae0759358b8b972b77291017bac2d4da59246"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "b76a7d56c5a78244da5d7f41ddd53d9e5388942ce42956cdbbf2e89ee6bbd15f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a2376f6252de7a4c7c896dcbc0cda8d3293f7d9c4db2636315f4b7e639d276a1"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "47a09e973e42bb787385b47271a418ee99bec7042f6291382f2f321819f7ecd1"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "ff890040fef0d8a6ea98bf68e23eb92aca7b24467860be28891d3cb4dd78d7b5"
+        }
+      ],
+      "projectionSha256": "24c6e6dd23e662a28dd2bd8f3aecc7473d9e4bfee5664de0d81d80eb70a4ff80",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "title": "Build the readiness picture",
+      "bytes": 10674,
+      "sourceSha256": "d963049882aa3009cccc603784cc6c19266dddac022bc2ce8e1a6fa18bc64632",
+      "gitBlob": "076e82cff4dd1032b52dae77185da46c3de30a87",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e09ba455674ae6cb844a333463f1121da6ae0c029b8cbaa22301ea240d452886"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5b699a1694fbdb6ff8aff8b356d3a65715d56a58c6f657ed8f05a966a233b2b9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2df9ded5e4e9f36b37299d6f6750a64cb57ed28cae22af257230675fd7901ccf"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "650b235a378b0d42cbd33e7ee555c6429ae612071df098b4fbe7f8d6b34099e0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "6323571335096f47c38b377b60ec31e876b74cdb1b115a6c910df7eee47a4292"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "c768377f080df9a5abd311539188abc35440d779a93ec41583a1d9d7c0da7460"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6e2e47c9026cdfe2938f5de866805caf9a2ef39956eedc348ef3dcb7b3a7ceac"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "45de0924f9d8ced21bc680d78831cb4b22ef585129839f1ab74dd4d29652eca7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "99d374a873f7983ff028e2574a4ea52dbd865481cef4fcb93693257e4c2ba083"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f3d36336b6ecb2393e31987ca54878459b5ae90e6337db0524948104fa85514e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "389cf0fc0ef24ba22f593a6bfc5adfaeca7530d1f4f92fb281503cadc6e9a745"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d69a3f07c0fdc46d162542d93180087da6ac57d903ba5e38bf6309c736d77bb7"
+        }
+      ],
+      "projectionSha256": "e87fe936040385169edf0cb0a02681b0c04df0b2f5302aedde0a2c72d79d557d",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "title": "Walk the non-trial route",
+      "bytes": 6475,
+      "sourceSha256": "106e0ed2eaf3f6a96617531ee5303e170753c1c7f6b947ea70483a21cb21114c",
+      "gitBlob": "192092abe91e4d27a997c8e1be282b7c1b3ea473",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f2869a509f33b7e3776a244be48ba81e4867974489b51b69051dd5f6c0c15dbf"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6716ca8831990ea2b9f751b9341d5a5f11b7046321a949d58e30ffee0694d59a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d23b02aaa78f16d408d2c51be081cd7a835e5949dc6c1a3f3b055682f8ff5bd2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "83dc15728f56a9c230798b35d6712513f1050404f535c97033c1c50f4a70f705"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "4ae7af4aaab65fac76d2a49611b4ee9f33c4b3073ccb6e6333611581a0cf8a85"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f71780a952680630ffcd43710f268146ae5aa6a4cae833902e06662ad077e8a7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "e60bea037d70ea6882acfd62a265fa7bc3d21a11e1f247f9bf9c9ac0a3f51f7d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "32899e7186ad2b5e69253aa7661079bfc524168afa6e62fb849ad54c59fd555f"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "114e1e394d123bf5cd2f7ba8c2b76cc5a3374cce89360d9ffb80c8e10c4af918"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "c5145f0f294872338b50ddddc80830f8e223eb45faeeb810f6ba79431146f017"
+        }
+      ],
+      "projectionSha256": "21218218d75c9c7839995eafd9942f32ce8a61e63a710735f037521f90aafd5a",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "title": "Understand access to an experimental therapy",
+      "bytes": 8178,
+      "sourceSha256": "51863acbccb4a0a0c8011a123b4df60428bc388173225e9058c17764a1fe2d85",
+      "gitBlob": "1b3bc7c1c778df7796be783f04b4ed860a61369b",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ab67d01bef021201c5ec8b3a7f3a37451dfea1cbffd3b5a0aabaff744a4342f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9dfc19d301cb0a987963d9ab477af9499cbfb65f9a03cfcaf383a9973cee190f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "86b930042a43eb6739ff2adec1c74bfa51ae320b93d0e545350e57a5f24ccdad"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "64191feb44438db5849d87ff44e096f4189f8bc562f5bbb0163c070f8e6bfc48"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "717464e122be7af808f9f4330ef09185262cf137a5ef75d32a4d1663aeee38ab"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9fe635b0349c4174b134db15493c649b33b1f99a4506f0f31a1aca21a607e1c6"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "29942481e2775ee605eac4491092fd748fad826f54c4aaee4b1a0871dc0e0aa6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "990859a3a3e0d8dcaa2891f4c8650fceabe728a285d765729a172338a43926b6"
+        }
+      ],
+      "projectionSha256": "fd1b41f0ed6689a4b62dbe41326f4eaa3591c26aeda120347967b92a00bdd4a1",
+      "excludedPersonalSections": 1,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "title": "Name the access route",
+      "bytes": 7848,
+      "sourceSha256": "923096ad9f0b9780bacabfcf0c43d2082cb548a134aef74cead3572a1f51a9d5",
+      "gitBlob": "589c0dcfb125ef26bd76302386e97900a840063a",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d572210022da46a91e09e606e976217fc1aad1b2e6459fa2d1d223798a3c7006"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b26875fdec420e9a70b41496008d3ac53234aa36a097cd676a95991879aa4512"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4f08bd14637fc6ecd1f23b1cb5c7854ff6942ad3561795717637c6ae3ff30b7b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "e0428c0ccf90ee9505e54bf504ce3a2f63b62b2cf993fe01b1ac72ac15d31014"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "6e0811ad0d9d089ddc8f36c0998eec2b50a579eceadd98f88b21a647a0be6696"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "19dd55bc2e94414994a08349713b68dab3af7163797be6ee43b0813c6c21501c"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "978dac93e74468cd8a59096a29ca97fb421d50d5c3f701fe712f4163c1a3272d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "2a91965dfc8d546b6f2c2a2e598e85e946d2d849d837f3a1001cbba5d0a9a822"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "84b7d916bfea0242446f31e1a860539915ab65d64a2b2ae724c55f6d55ad0d10"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "cbf4376801b903d6d7fe401d7b44eacf80e8e32a2e8edc59c2bcbcb53d6ba4ec"
+        }
+      ],
+      "projectionSha256": "a20c7373f30e8cccfc335c181bfe2f835b4973f2ab68c7b2469e8b151b954ce6",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "title": "Check a real trial opportunity",
+      "bytes": 7916,
+      "sourceSha256": "8668e38206a84324f8485eefc50376a3ec774cbcb76bda761b8305a185f5cf41",
+      "gitBlob": "7956c6ac4112f5a6855ce77061f478d4883ba5e6",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6516192fd56cd245be3adb3aa348f8ca3824ac1786b9bb9bffb8f7e634c4169a"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9149bbdbb19d7fbeddb308c119bb307520e993667ce859e8bb672d8655fe9411"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a8931947f31d215a33b5851acd95732b5f88876b54b536e039f1c8b4d3e9cc11"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "457b56c6b0c4342f2f3e3236c7240fe896a042cf3d47d0009bbd7b711fff74d7"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "8d932a0102bec2bcb21a846d2f9108500eb5ee949aadeda602eb6112710489ad"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "653ad975dde4d06f025ec7e93e9ae0759358b8b972b77291017bac2d4da59246"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "b76a7d56c5a78244da5d7f41ddd53d9e5388942ce42956cdbbf2e89ee6bbd15f"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a2376f6252de7a4c7c896dcbc0cda8d3293f7d9c4db2636315f4b7e639d276a1"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "47a09e973e42bb787385b47271a418ee99bec7042f6291382f2f321819f7ecd1"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "ff890040fef0d8a6ea98bf68e23eb92aca7b24467860be28891d3cb4dd78d7b5"
+        }
+      ],
+      "projectionSha256": "24c6e6dd23e662a28dd2bd8f3aecc7473d9e4bfee5664de0d81d80eb70a4ff80",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "title": "Build the readiness picture",
+      "bytes": 11473,
+      "sourceSha256": "2c504aa431a9c9c654491b000b01f66e0b63d54942ada9955090930fe45fa7fb",
+      "gitBlob": "2cef6f7dd1f12e4dfafd7c7a47849fb360a468d8",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e09ba455674ae6cb844a333463f1121da6ae0c029b8cbaa22301ea240d452886"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5b699a1694fbdb6ff8aff8b356d3a65715d56a58c6f657ed8f05a966a233b2b9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "2df9ded5e4e9f36b37299d6f6750a64cb57ed28cae22af257230675fd7901ccf"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "650b235a378b0d42cbd33e7ee555c6429ae612071df098b4fbe7f8d6b34099e0"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3cb9dfffc0d320963a712130d41b84598edbd9d545fda8602d678fba9d5bb0ed"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "c768377f080df9a5abd311539188abc35440d779a93ec41583a1d9d7c0da7460"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6e2e47c9026cdfe2938f5de866805caf9a2ef39956eedc348ef3dcb7b3a7ceac"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "45de0924f9d8ced21bc680d78831cb4b22ef585129839f1ab74dd4d29652eca7"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "99d374a873f7983ff028e2574a4ea52dbd865481cef4fcb93693257e4c2ba083"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f3d36336b6ecb2393e31987ca54878459b5ae90e6337db0524948104fa85514e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "389cf0fc0ef24ba22f593a6bfc5adfaeca7530d1f4f92fb281503cadc6e9a745"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "d69a3f07c0fdc46d162542d93180087da6ac57d903ba5e38bf6309c736d77bb7"
+        }
+      ],
+      "projectionSha256": "7817234f8502e029427dae725cfc059542bc79f060f777ba1da79d0c91c2b69f",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "title": "Walk the non-trial route",
+      "bytes": 10315,
+      "sourceSha256": "763e46c44ff840c5f463b42f2e303ea938728c22d902b0019d68bd0cbef7993d",
+      "gitBlob": "30dc3711dd8f0fdae7fcfdd3f6999374c027e143",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f2869a509f33b7e3776a244be48ba81e4867974489b51b69051dd5f6c0c15dbf"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6716ca8831990ea2b9f751b9341d5a5f11b7046321a949d58e30ffee0694d59a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e26fe3f1271b81bd7e76c0c715e421e56bd09ecd99781d8e82ba920dd72a6d9a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "011adfd7dfce5208f39707f57ce4c41b04dd69b1f2390a6c4569a38be60728cb"
+        },
+        {
+          "ordinal": 4,
+          "kind": "practice-or-worked-example",
+          "sha256": "4ae7af4aaab65fac76d2a49611b4ee9f33c4b3073ccb6e6333611581a0cf8a85"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f71780a952680630ffcd43710f268146ae5aa6a4cae833902e06662ad077e8a7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "df6dea27662544c6ab0fc670661fd3855900b85d26b966223183f84d679c7bf0"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "32899e7186ad2b5e69253aa7661079bfc524168afa6e62fb849ad54c59fd555f"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "957adc633f1f6832aff9e9cc111dca68db83e7bad5616dcf57e5b89f998683de"
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "347df48c075010477eef7d53aa5a2d09cb5f59f82b82d26ba8f2ef28b01256cb"
+        }
+      ],
+      "projectionSha256": "57c2b7542c9f51d851f3af3a03a5c2e57743a0c7aaf42db33ebcc775be0a755c",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "title": "Sequence the work and respect what cannot be undone",
+      "bytes": 14120,
+      "sourceSha256": "b24819755793ffb7ad403b8e6ba3e5f46ac8140bafef8133a8290ba0f19d3a35",
+      "gitBlob": "c25ffd251e4f2ebfd5ae9097679df9c039521a33",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d8ea91ef564341556e6ded00b212039a50f5090d22338bb4be055d2aa85a1311"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5885694a5f9d7f4e5de710b72947c0425d891161909fafd4da29147deaf998d4"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "37fcbd797f34a817ab2535c539ed2396c48d0235574c7f2822118075c4571786"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "efa6b81342a0764474700f52733c871b1794e788a3a1a4eaa3f45980ec3ace77"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "86d3b1872ecb4a0d8d78c47293db49b2b23316e5ab626a8c0d9f500c8068da56"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "5dc1eb1afa02a3f54c37dc03a754285b15bcd415fcd84f426fbd66fbb9aa88cc"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6b267108477936e97500647e8aa11bbe3094421cd107600e0875affabb90a5ab"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "214b4bad2c1d60bb344a608a5f7422e1fe6cf159b7657b2cdad02581eaa10a38"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "66470dba4c5bec4ed1459be6386fc3770eaefb37263deff30dceb921a2f33b03"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "96783383ce095720cce8c42ad0ff90597da9a4616f857ae40bcb144270f43867"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "6237820df07eb4e499fc56d96a5f9a29685bd192c14cf1f301ce02b4eebc1e2b"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "79c89ab7b2799fa19feac01fa6c1fcbb12fe58c9cff5fbe80d62a3fa5ac64d9b"
+        }
+      ],
+      "projectionSha256": "13ead337497ffc94449e8818e306baa89982ebd598522dc452fafb5027fbc995",
+      "excludedPersonalSections": 0,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "title": "Understand access to an experimental therapy",
+      "bytes": 8617,
+      "sourceSha256": "972360bfc43e4fca8b28ae43a8f60df276a9d0c1419c463782f1d85c93a52c84",
+      "gitBlob": "f0b4a3639115ae4b9776e78f61f6066813ac22a0",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "ab67d01bef021201c5ec8b3a7f3a37451dfea1cbffd3b5a0aabaff744a4342f3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9dfc19d301cb0a987963d9ab477af9499cbfb65f9a03cfcaf383a9973cee190f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "82611244f6b2c95b659f59558afd124860c5e76c5ce9225c1824954c4e6e11c5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "c6d9d8886bc36090630a1d613a5c680612951a78b46e0e99a0d0a1e29fcf173b"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "717464e122be7af808f9f4330ef09185262cf137a5ef75d32a4d1663aeee38ab"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9fe635b0349c4174b134db15493c649b33b1f99a4506f0f31a1aca21a607e1c6"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "29942481e2775ee605eac4491092fd748fad826f54c4aaee4b1a0871dc0e0aa6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "a98162a0d699bf7d2482198da923a15ed73facbaf3b33cc8fb8adada136c5cc6"
+        }
+      ],
+      "projectionSha256": "7cffd54039122a4695572dec51d4e204bb43e703c7659d59fffb27d32662631e",
+      "excludedPersonalSections": 1,
+      "read": true,
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "title": "Overlap and sequencing",
+      "bytes": 13756,
+      "sourceSha256": "6ab1e175fb8fea64c392af3d5213991f6657ebcafbd02824856791cabb9b6278",
+      "gitBlob": "64cc878ebe344539944fa478f8e9e6338d0583b6",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "fe1df70d9cd27189570eeabdf5042b6f09cf9b75309f0c7a6ad7c57619f92b97"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a0c3f8f73f854a22c3810b19b52b684d8368f4f372e34baec97979d03b43cb57"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "f3aeb46baece4801d57627260cd921702197a5e5ad7e31694d539f058d5196d5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d5d8a5e82759cd3c41773e60d61257104dd5cb9e1cde769cdeed09da010c326e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d2641677fc1eb8adcc3344f728cbb1a15ad62dd218038cbf0b1280519838dce4"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "00dad176b0f4f2be00e213003b8178e47f26a0b2be10334b0c1e72edf679169a"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4d8b49b278bb30497a48eb2a338c385997010095b53cf3c49056074ffb803ffd"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "3f5a45bbd87a6dd78a0074781cdf2bdbf432e6eb3d832d3f233dceba74ddea8c"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "b0d889c8427fa236679958258f9954b2c6a03770ffe3975fc7fc4a397b18e50a"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "fefcfbded16ca7457144c3beef9b333d349a2e7b57c96006571d76ba2019b196"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "b043fc6ba86999cc1e39b48a6acbb2969e1ae6c17793049cfd0945ddd65a5e5b"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "bcf99107abe56960d6c4cc821ddd79d2e04aed2c0733b7bf7f2c6bf10b3f01e9"
+        }
+      ],
+      "projectionSha256": "1477cf31d2b830487ad39d2e4e49541bb8196f07e26e9799ef5934567383731c",
+      "read": true,
+      "counterpartOf": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "readDepth": "Later general teaching read in full; original compared by complete source diff and same-text reuse, with all substantive deltas read."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "baseHead": "53f121b935c3c02f4c35ae0761f9c68fd4427bb2",
+    "sourceVersions": 12,
+    "requirements": 120,
+    "countsByVersion": {
+      "original": 110,
+      "later": 120
+    },
+    "freshOwnerFieldsOpened": false,
+    "receipts": {
+      "source-reading.json": "cb49c05433585d867bb475a65d7d7c0580795fe563be28769268ccbf5b2ad478",
+      "learning-requirements.json": "f08913bfce494401bda799661d8160309d27826f5fb4b525d7b8625cd00b1f0b"
+    }
+  },
+  "sourceVerification": {
+    "sourceVersions": 12,
+    "sectionSignatures": 124,
+    "rows": [
+      {
+        "version": "original",
+        "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "sourceSha256": "923096ad9f0b9780bacabfcf0c43d2082cb548a134aef74cead3572a1f51a9d5",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "sourceSha256": "8668e38206a84324f8485eefc50376a3ec774cbcb76bda761b8305a185f5cf41",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "sourceSha256": "d963049882aa3009cccc603784cc6c19266dddac022bc2ce8e1a6fa18bc64632",
+        "sections": 12,
+        "match": true
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "sourceSha256": "106e0ed2eaf3f6a96617531ee5303e170753c1c7f6b947ea70483a21cb21114c",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "sourceSha256": "51863acbccb4a0a0c8011a123b4df60428bc388173225e9058c17764a1fe2d85",
+        "sections": 8,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+        "sourceSha256": "923096ad9f0b9780bacabfcf0c43d2082cb548a134aef74cead3572a1f51a9d5",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+        "sourceSha256": "8668e38206a84324f8485eefc50376a3ec774cbcb76bda761b8305a185f5cf41",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+        "sourceSha256": "2c504aa431a9c9c654491b000b01f66e0b63d54942ada9955090930fe45fa7fb",
+        "sections": 12,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+        "sourceSha256": "763e46c44ff840c5f463b42f2e303ea938728c22d902b0019d68bd0cbef7993d",
+        "sections": 10,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+        "sourceSha256": "b24819755793ffb7ad403b8e6ba3e5f46ac8140bafef8133a8290ba0f19d3a35",
+        "sections": 12,
+        "match": true
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+        "sourceSha256": "972360bfc43e4fca8b28ae43a8f60df276a9d0c1419c463782f1d85c93a52c84",
+        "sections": 8,
+        "match": true
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+        "sourceSha256": "6ab1e175fb8fea64c392af3d5213991f6657ebcafbd02824856791cabb9b6278",
+        "sections": 12,
+        "match": true
+      }
+    ],
+    "frozenBeforeFreshOwnerFields": true
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 0,
+      "sha256": "d572210022da46a91e09e606e976217fc1aad1b2e6459fa2d1d223798a3c7006",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004",
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011",
+        "AG1-012",
+        "AG1-013",
+        "AG1-014",
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 1,
+      "sha256": "b26875fdec420e9a70b41496008d3ac53234aa36a097cd676a95991879aa4512",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 2,
+      "sha256": "4f08bd14637fc6ecd1f23b1cb5c7854ff6942ad3561795717637c6ae3ff30b7b",
+      "heading": "Ask two opening questions",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 3,
+      "sha256": "e0428c0ccf90ee9505e54bf504ce3a2f63b62b2cf993fe01b1ac72ac15d31014",
+      "heading": "Understand the main routes",
+      "requirementIds": [
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 4,
+      "sha256": "6e0811ad0d9d089ddc8f36c0998eec2b50a579eceadd98f88b21a647a0be6696",
+      "heading": "Worked example: three fictional proposals",
+      "requirementIds": [
+        "AG1-012",
+        "AG1-013",
+        "AG1-014"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 5,
+      "sha256": "19dd55bc2e94414994a08349713b68dab3af7163797be6ee43b0813c6c21501c",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 6,
+      "sha256": "978dac93e74468cd8a59096a29ca97fb421d50d5c3f701fe712f4163c1a3272d",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004",
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011",
+        "AG1-012",
+        "AG1-013",
+        "AG1-014",
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 7,
+      "sha256": "2a91965dfc8d546b6f2c2a2e598e85e946d2d849d837f3a1001cbba5d0a9a822",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 8,
+      "sha256": "84b7d916bfea0242446f31e1a860539915ab65d64a2b2ae724c55f6d55ad0d10",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 9,
+      "sha256": "cbf4376801b903d6d7fe401d7b44eacf80e8e32a2e8edc59c2bcbcb53d6ba4ec",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 0,
+      "sha256": "6516192fd56cd245be3adb3aa348f8ca3824ac1786b9bb9bffb8f7e634c4169a",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005",
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011",
+        "AG2-012",
+        "AG2-013",
+        "AG2-014",
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 1,
+      "sha256": "9149bbdbb19d7fbeddb308c119bb307520e993667ce859e8bb672d8655fe9411",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 2,
+      "sha256": "a8931947f31d215a33b5851acd95732b5f88876b54b536e039f1c8b4d3e9cc11",
+      "heading": "Read the protocol as a set of gates",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 3,
+      "sha256": "457b56c6b0c4342f2f3e3236c7240fe896a042cf3d47d0009bbd7b711fff74d7",
+      "heading": "Ask about the cohort and the site",
+      "requirementIds": [
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 4,
+      "sha256": "8d932a0102bec2bcb21a846d2f9108500eb5ee949aadeda602eb6112710489ad",
+      "heading": "Worked example: a fictional randomized study",
+      "requirementIds": [
+        "AG2-012",
+        "AG2-013",
+        "AG2-014"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 5,
+      "sha256": "653ad975dde4d06f025ec7e93e9ae0759358b8b972b77291017bac2d4da59246",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 6,
+      "sha256": "b76a7d56c5a78244da5d7f41ddd53d9e5388942ce42956cdbbf2e89ee6bbd15f",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005",
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011",
+        "AG2-012",
+        "AG2-013",
+        "AG2-014",
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 7,
+      "sha256": "a2376f6252de7a4c7c896dcbc0cda8d3293f7d9c4db2636315f4b7e639d276a1",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 8,
+      "sha256": "47a09e973e42bb787385b47271a418ee99bec7042f6291382f2f321819f7ecd1",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 9,
+      "sha256": "ff890040fef0d8a6ea98bf68e23eb92aca7b24467860be28891d3cb4dd78d7b5",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 0,
+      "sha256": "e09ba455674ae6cb844a333463f1121da6ae0c029b8cbaa22301ea240d452886",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 1,
+      "sha256": "5b699a1694fbdb6ff8aff8b356d3a65715d56a58c6f657ed8f05a966a233b2b9",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 2,
+      "sha256": "2df9ded5e4e9f36b37299d6f6750a64cb57ed28cae22af257230675fd7901ccf",
+      "heading": "Give each gate an owner",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 3,
+      "sha256": "650b235a378b0d42cbd33e7ee555c6429ae612071df098b4fbe7f8d6b34099e0",
+      "heading": "Use a readiness ledger",
+      "requirementIds": [
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 4,
+      "sha256": "6323571335096f47c38b377b60ec31e876b74cdb1b115a6c910df7eee47a4292",
+      "heading": "Understand the clock you are looking at",
+      "requirementIds": [
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 5,
+      "sha256": "c768377f080df9a5abd311539188abc35440d779a93ec41583a1d9d7c0da7460",
+      "heading": "Worked example: a fictional “ready next week” message",
+      "requirementIds": [
+        "AG3-019",
+        "AG3-020"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 6,
+      "sha256": "6e2e47c9026cdfe2938f5de866805caf9a2ef39956eedc348ef3dcb7b3a7ceac",
+      "heading": "Consent is an ongoing conversation",
+      "requirementIds": [
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 7,
+      "sha256": "45de0924f9d8ced21bc680d78831cb4b22ef585129839f1ab74dd4d29652eca7",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 8,
+      "sha256": "99d374a873f7983ff028e2574a4ea52dbd865481cef4fcb93693257e4c2ba083",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 9,
+      "sha256": "f3d36336b6ecb2393e31987ca54878459b5ae90e6337db0524948104fa85514e",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 10,
+      "sha256": "389cf0fc0ef24ba22f593a6bfc5adfaeca7530d1f4f92fb281503cadc6e9a745",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 11,
+      "sha256": "d69a3f07c0fdc46d162542d93180087da6ac57d903ba5e38bf6309c736d77bb7",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 0,
+      "sha256": "f2869a509f33b7e3776a244be48ba81e4867974489b51b69051dd5f6c0c15dbf",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010",
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016",
+        "AG4-021",
+        "AG4-022",
+        "AG4-023"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 1,
+      "sha256": "6716ca8831990ea2b9f751b9341d5a5f11b7046321a949d58e30ffee0694d59a",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 2,
+      "sha256": "d23b02aaa78f16d408d2c51be081cd7a835e5949dc6c1a3f3b055682f8ff5bd2",
+      "heading": "The steps and their owners",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 3,
+      "sha256": "83dc15728f56a9c230798b35d6712513f1050404f535c97033c1c50f4a70f705",
+      "heading": "Who pays",
+      "requirementIds": [
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 4,
+      "sha256": "4ae7af4aaab65fac76d2a49611b4ee9f33c4b3073ccb6e6333611581a0cf8a85",
+      "heading": "Worked example: Mara's request",
+      "requirementIds": [
+        "AG4-021",
+        "AG4-022"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 5,
+      "sha256": "f71780a952680630ffcd43710f268146ae5aa6a4cae833902e06662ad077e8a7",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010",
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016",
+        "AG4-021",
+        "AG4-022",
+        "AG4-023"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 6,
+      "sha256": "e60bea037d70ea6882acfd62a265fa7bc3d21a11e1f247f9bf9c9ac0a3f51f7d",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG4-023"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 7,
+      "sha256": "32899e7186ad2b5e69253aa7661079bfc524168afa6e62fb849ad54c59fd555f",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 8,
+      "sha256": "114e1e394d123bf5cd2f7ba8c2b76cc5a3374cce89360d9ffb80c8e10c4af918",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 9,
+      "sha256": "c5145f0f294872338b50ddddc80830f8e223eb45faeeb810f6ba79431146f017",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 0,
+      "sha256": "ab67d01bef021201c5ec8b3a7f3a37451dfea1cbffd3b5a0aabaff744a4342f3",
+      "heading": "preamble",
+      "requirementIds": [
+        "AGI-001",
+        "AGI-002",
+        "AGI-003"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 1,
+      "sha256": "9dfc19d301cb0a987963d9ab477af9499cbfb65f9a03cfcaf383a9973cee190f",
+      "heading": "The big ideas",
+      "requirementIds": [
+        "AGI-001",
+        "AGI-002",
+        "AGI-003"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 2,
+      "sha256": "86b930042a43eb6739ff2adec1c74bfa51ae320b93d0e545350e57a5f24ccdad",
+      "heading": "The map",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 3,
+      "sha256": "64191feb44438db5849d87ff44e096f4189f8bc562f5bbb0163c070f8e6bfc48",
+      "heading": "Lessons",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 4,
+      "sha256": "717464e122be7af808f9f4330ef09185262cf137a5ef75d32a4d1663aeee38ab",
+      "heading": "Concepts you will use",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 5,
+      "sha256": "9fe635b0349c4174b134db15493c649b33b1f99a4506f0f31a1aca21a607e1c6",
+      "heading": "Applied to Diana",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 6,
+      "sha256": "29942481e2775ee605eac4491092fd748fad826f54c4aaee4b1a0871dc0e0aa6",
+      "heading": "What is still uncertain",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 7,
+      "sha256": "990859a3a3e0d8dcaa2891f4c8650fceabe728a285d765729a172338a43926b6",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 0,
+      "sha256": "fe1df70d9cd27189570eeabdf5042b6f09cf9b75309f0c7a6ad7c57619f92b97",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 1,
+      "sha256": "a0c3f8f73f854a22c3810b19b52b684d8368f4f372e34baec97979d03b43cb57",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 2,
+      "sha256": "f3aeb46baece4801d57627260cd921702197a5e5ad7e31694d539f058d5196d5",
+      "heading": "Shared data, different experiments",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 3,
+      "sha256": "d5d8a5e82759cd3c41773e60d61257104dd5cb9e1cde769cdeed09da010c326e",
+      "heading": "Which dependencies are real?",
+      "requirementIds": [
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 4,
+      "sha256": "d2641677fc1eb8adcc3344f728cbb1a15ad62dd218038cbf0b1280519838dce4",
+      "heading": "Worked worksheet: two fictional laboratories",
+      "requirementIds": [
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 5,
+      "sha256": "00dad176b0f4f2be00e213003b8178e47f26a0b2be10334b0c1e72edf679169a",
+      "heading": "Clinical overlap requires a new comparison",
+      "requirementIds": [
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 6,
+      "sha256": "4d8b49b278bb30497a48eb2a338c385997010095b53cf3c49056074ffb803ffd",
+      "heading": "Collection timing is product-specific",
+      "requirementIds": [
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 7,
+      "sha256": "3f5a45bbd87a6dd78a0074781cdf2bdbf432e6eb3d832d3f233dceba74ddea8c",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 8,
+      "sha256": "b0d889c8427fa236679958258f9954b2c6a03770ffe3975fc7fc4a397b18e50a",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 9,
+      "sha256": "fefcfbded16ca7457144c3beef9b333d349a2e7b57c96006571d76ba2019b196",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 10,
+      "sha256": "b043fc6ba86999cc1e39b48a6acbb2969e1ae6c17793049cfd0945ddd65a5e5b",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "ordinal": 11,
+      "sha256": "bcf99107abe56960d6c4cc821ddd79d2e04aed2c0733b7bf7f2c6bf10b3f01e9",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 0,
+      "sha256": "d572210022da46a91e09e606e976217fc1aad1b2e6459fa2d1d223798a3c7006",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004",
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011",
+        "AG1-012",
+        "AG1-013",
+        "AG1-014",
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 1,
+      "sha256": "b26875fdec420e9a70b41496008d3ac53234aa36a097cd676a95991879aa4512",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 2,
+      "sha256": "4f08bd14637fc6ecd1f23b1cb5c7854ff6942ad3561795717637c6ae3ff30b7b",
+      "heading": "Ask two opening questions",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 3,
+      "sha256": "e0428c0ccf90ee9505e54bf504ce3a2f63b62b2cf993fe01b1ac72ac15d31014",
+      "heading": "Understand the main routes",
+      "requirementIds": [
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 4,
+      "sha256": "6e0811ad0d9d089ddc8f36c0998eec2b50a579eceadd98f88b21a647a0be6696",
+      "heading": "Worked example: three fictional proposals",
+      "requirementIds": [
+        "AG1-012",
+        "AG1-013",
+        "AG1-014"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 5,
+      "sha256": "19dd55bc2e94414994a08349713b68dab3af7163797be6ee43b0813c6c21501c",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 6,
+      "sha256": "978dac93e74468cd8a59096a29ca97fb421d50d5c3f701fe712f4163c1a3272d",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG1-001",
+        "AG1-002",
+        "AG1-003",
+        "AG1-004",
+        "AG1-005",
+        "AG1-006",
+        "AG1-007",
+        "AG1-008",
+        "AG1-009",
+        "AG1-010",
+        "AG1-011",
+        "AG1-012",
+        "AG1-013",
+        "AG1-014",
+        "AG1-015",
+        "AG1-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 7,
+      "sha256": "2a91965dfc8d546b6f2c2a2e598e85e946d2d849d837f3a1001cbba5d0a9a822",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 8,
+      "sha256": "84b7d916bfea0242446f31e1a860539915ab65d64a2b2ae724c55f6d55ad0d10",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG1-017",
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "ordinal": 9,
+      "sha256": "cbf4376801b903d6d7fe401d7b44eacf80e8e32a2e8edc59c2bcbcb53d6ba4ec",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG1-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 0,
+      "sha256": "6516192fd56cd245be3adb3aa348f8ca3824ac1786b9bb9bffb8f7e634c4169a",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005",
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011",
+        "AG2-012",
+        "AG2-013",
+        "AG2-014",
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 1,
+      "sha256": "9149bbdbb19d7fbeddb308c119bb307520e993667ce859e8bb672d8655fe9411",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 2,
+      "sha256": "a8931947f31d215a33b5851acd95732b5f88876b54b536e039f1c8b4d3e9cc11",
+      "heading": "Read the protocol as a set of gates",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 3,
+      "sha256": "457b56c6b0c4342f2f3e3236c7240fe896a042cf3d47d0009bbd7b711fff74d7",
+      "heading": "Ask about the cohort and the site",
+      "requirementIds": [
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 4,
+      "sha256": "8d932a0102bec2bcb21a846d2f9108500eb5ee949aadeda602eb6112710489ad",
+      "heading": "Worked example: a fictional randomized study",
+      "requirementIds": [
+        "AG2-012",
+        "AG2-013",
+        "AG2-014"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 5,
+      "sha256": "653ad975dde4d06f025ec7e93e9ae0759358b8b972b77291017bac2d4da59246",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 6,
+      "sha256": "b76a7d56c5a78244da5d7f41ddd53d9e5388942ce42956cdbbf2e89ee6bbd15f",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG2-001",
+        "AG2-002",
+        "AG2-003",
+        "AG2-004",
+        "AG2-005",
+        "AG2-006",
+        "AG2-007",
+        "AG2-008",
+        "AG2-009",
+        "AG2-010",
+        "AG2-011",
+        "AG2-012",
+        "AG2-013",
+        "AG2-014",
+        "AG2-015",
+        "AG2-016"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 7,
+      "sha256": "a2376f6252de7a4c7c896dcbc0cda8d3293f7d9c4db2636315f4b7e639d276a1",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 8,
+      "sha256": "47a09e973e42bb787385b47271a418ee99bec7042f6291382f2f321819f7ecd1",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG2-017",
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "ordinal": 9,
+      "sha256": "ff890040fef0d8a6ea98bf68e23eb92aca7b24467860be28891d3cb4dd78d7b5",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG2-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 0,
+      "sha256": "e09ba455674ae6cb844a333463f1121da6ae0c029b8cbaa22301ea240d452886",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-016",
+        "AG3-017",
+        "AG3-018",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 1,
+      "sha256": "5b699a1694fbdb6ff8aff8b356d3a65715d56a58c6f657ed8f05a966a233b2b9",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 2,
+      "sha256": "2df9ded5e4e9f36b37299d6f6750a64cb57ed28cae22af257230675fd7901ccf",
+      "heading": "Give each gate an owner",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 3,
+      "sha256": "650b235a378b0d42cbd33e7ee555c6429ae612071df098b4fbe7f8d6b34099e0",
+      "heading": "Use a readiness ledger",
+      "requirementIds": [
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 4,
+      "sha256": "3cb9dfffc0d320963a712130d41b84598edbd9d545fda8602d678fba9d5bb0ed",
+      "heading": "Understand the clock you are looking at",
+      "requirementIds": [
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-016",
+        "AG3-017",
+        "AG3-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 5,
+      "sha256": "c768377f080df9a5abd311539188abc35440d779a93ec41583a1d9d7c0da7460",
+      "heading": "Worked example: a fictional “ready next week” message",
+      "requirementIds": [
+        "AG3-019",
+        "AG3-020"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 6,
+      "sha256": "6e2e47c9026cdfe2938f5de866805caf9a2ef39956eedc348ef3dcb7b3a7ceac",
+      "heading": "Consent is an ongoing conversation",
+      "requirementIds": [
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 7,
+      "sha256": "45de0924f9d8ced21bc680d78831cb4b22ef585129839f1ab74dd4d29652eca7",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-016",
+        "AG3-017",
+        "AG3-018",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 8,
+      "sha256": "99d374a873f7983ff028e2574a4ea52dbd865481cef4fcb93693257e4c2ba083",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG3-001",
+        "AG3-002",
+        "AG3-003",
+        "AG3-004",
+        "AG3-005",
+        "AG3-006",
+        "AG3-007",
+        "AG3-008",
+        "AG3-009",
+        "AG3-010",
+        "AG3-011",
+        "AG3-012",
+        "AG3-013",
+        "AG3-014",
+        "AG3-015",
+        "AG3-016",
+        "AG3-017",
+        "AG3-018",
+        "AG3-019",
+        "AG3-020",
+        "AG3-021",
+        "AG3-022",
+        "AG3-023",
+        "AG3-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 9,
+      "sha256": "f3d36336b6ecb2393e31987ca54878459b5ae90e6337db0524948104fa85514e",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 10,
+      "sha256": "389cf0fc0ef24ba22f593a6bfc5adfaeca7530d1f4f92fb281503cadc6e9a745",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG3-025",
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "ordinal": 11,
+      "sha256": "d69a3f07c0fdc46d162542d93180087da6ac57d903ba5e38bf6309c736d77bb7",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG3-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 0,
+      "sha256": "f2869a509f33b7e3776a244be48ba81e4867974489b51b69051dd5f6c0c15dbf",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010",
+        "AG4-011",
+        "AG4-012",
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016",
+        "AG4-017",
+        "AG4-018",
+        "AG4-019",
+        "AG4-020",
+        "AG4-021",
+        "AG4-022",
+        "AG4-023",
+        "AG4-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 1,
+      "sha256": "6716ca8831990ea2b9f751b9341d5a5f11b7046321a949d58e30ffee0694d59a",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 2,
+      "sha256": "e26fe3f1271b81bd7e76c0c715e421e56bd09ecd99781d8e82ba920dd72a6d9a",
+      "heading": "The steps and their owners",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010",
+        "AG4-011",
+        "AG4-012"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 3,
+      "sha256": "011adfd7dfce5208f39707f57ce4c41b04dd69b1f2390a6c4569a38be60728cb",
+      "heading": "Who pays",
+      "requirementIds": [
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016",
+        "AG4-017",
+        "AG4-018",
+        "AG4-019",
+        "AG4-020"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 4,
+      "sha256": "4ae7af4aaab65fac76d2a49611b4ee9f33c4b3073ccb6e6333611581a0cf8a85",
+      "heading": "Worked example: Mara's request",
+      "requirementIds": [
+        "AG4-021",
+        "AG4-022"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 5,
+      "sha256": "f71780a952680630ffcd43710f268146ae5aa6a4cae833902e06662ad077e8a7",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG4-001",
+        "AG4-002",
+        "AG4-003",
+        "AG4-004",
+        "AG4-005",
+        "AG4-006",
+        "AG4-007",
+        "AG4-008",
+        "AG4-009",
+        "AG4-010",
+        "AG4-011",
+        "AG4-012",
+        "AG4-013",
+        "AG4-014",
+        "AG4-015",
+        "AG4-016",
+        "AG4-017",
+        "AG4-018",
+        "AG4-019",
+        "AG4-020",
+        "AG4-021",
+        "AG4-022",
+        "AG4-023",
+        "AG4-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 6,
+      "sha256": "df6dea27662544c6ab0fc670661fd3855900b85d26b966223183f84d679c7bf0",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG4-023",
+        "AG4-024"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 7,
+      "sha256": "32899e7186ad2b5e69253aa7661079bfc524168afa6e62fb849ad54c59fd555f",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 8,
+      "sha256": "957adc633f1f6832aff9e9cc111dca68db83e7bad5616dcf57e5b89f998683de",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG4-025",
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "ordinal": 9,
+      "sha256": "347df48c075010477eef7d53aa5a2d09cb5f59f82b82d26ba8f2ef28b01256cb",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG4-026"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 0,
+      "sha256": "d8ea91ef564341556e6ded00b212039a50f5090d22338bb4be055d2aa85a1311",
+      "heading": "preamble",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 1,
+      "sha256": "5885694a5f9d7f4e5de710b72947c0425d891161909fafd4da29147deaf998d4",
+      "heading": "Where this step sits",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 2,
+      "sha256": "37fcbd797f34a817ab2535c539ed2396c48d0235574c7f2822118075c4571786",
+      "heading": "Shared data, different experiments",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 3,
+      "sha256": "efa6b81342a0764474700f52733c871b1794e788a3a1a4eaa3f45980ec3ace77",
+      "heading": "Which dependencies are real?",
+      "requirementIds": [
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 4,
+      "sha256": "86d3b1872ecb4a0d8d78c47293db49b2b23316e5ab626a8c0d9f500c8068da56",
+      "heading": "Worked worksheet: two fictional laboratories",
+      "requirementIds": [
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 5,
+      "sha256": "5dc1eb1afa02a3f54c37dc03a754285b15bcd415fcd84f426fbd66fbb9aa88cc",
+      "heading": "Clinical overlap requires a new comparison",
+      "requirementIds": [
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 6,
+      "sha256": "6b267108477936e97500647e8aa11bbe3094421cd107600e0875affabb90a5ab",
+      "heading": "Collection timing is product-specific",
+      "requirementIds": [
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 7,
+      "sha256": "214b4bad2c1d60bb344a608a5f7422e1fe6cf159b7657b2cdad02581eaa10a38",
+      "heading": "What can go wrong at this step",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 8,
+      "sha256": "66470dba4c5bec4ed1459be6386fc3770eaefb37263deff30dceb921a2f33b03",
+      "heading": "Try it",
+      "requirementIds": [
+        "AG5-001",
+        "AG5-002",
+        "AG5-003",
+        "AG5-004",
+        "AG5-005",
+        "AG5-006",
+        "AG5-007",
+        "AG5-008",
+        "AG5-009",
+        "AG5-010",
+        "AG5-011",
+        "AG5-012",
+        "AG5-013",
+        "AG5-014",
+        "AG5-015",
+        "AG5-016",
+        "AG5-017",
+        "AG5-018",
+        "AG5-019",
+        "AG5-020",
+        "AG5-021",
+        "AG5-022",
+        "AG5-023",
+        "AG5-024",
+        "AG5-025"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 9,
+      "sha256": "96783383ce095720cce8c42ad0ff90597da9a4616f857ae40bcb144270f43867",
+      "heading": "Explain it back",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 10,
+      "sha256": "6237820df07eb4e499fc56d96a5f9a29685bd192c14cf1f301ce02b4eebc1e2b",
+      "heading": "Takeaway",
+      "requirementIds": [
+        "AG5-026",
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "ordinal": 11,
+      "sha256": "79c89ab7b2799fa19feac01fa6c1fcbb12fe58c9cff5fbe80d62a3fa5ac64d9b",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AG5-027"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 0,
+      "sha256": "ab67d01bef021201c5ec8b3a7f3a37451dfea1cbffd3b5a0aabaff744a4342f3",
+      "heading": "preamble",
+      "requirementIds": [
+        "AGI-001",
+        "AGI-002",
+        "AGI-003"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 1,
+      "sha256": "9dfc19d301cb0a987963d9ab477af9499cbfb65f9a03cfcaf383a9973cee190f",
+      "heading": "The big ideas",
+      "requirementIds": [
+        "AGI-001",
+        "AGI-002",
+        "AGI-003"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 2,
+      "sha256": "82611244f6b2c95b659f59558afd124860c5e76c5ce9225c1824954c4e6e11c5",
+      "heading": "The map",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 3,
+      "sha256": "c6d9d8886bc36090630a1d613a5c680612951a78b46e0e99a0d0a1e29fcf173b",
+      "heading": "Lessons",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 4,
+      "sha256": "717464e122be7af808f9f4330ef09185262cf137a5ef75d32a4d1663aeee38ab",
+      "heading": "Concepts you will use",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 5,
+      "sha256": "9fe635b0349c4174b134db15493c649b33b1f99a4506f0f31a1aca21a607e1c6",
+      "heading": "Applied to Diana",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 6,
+      "sha256": "29942481e2775ee605eac4491092fd748fad826f54c4aaee4b1a0871dc0e0aa6",
+      "heading": "What is still uncertain",
+      "requirementIds": [
+        "AGI-004",
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "ordinal": 7,
+      "sha256": "a98162a0d699bf7d2482198da923a15ed73facbaf3b33cc8fb8adada136c5cc6",
+      "heading": "Sources and scope",
+      "requirementIds": [
+        "AGI-005"
+      ],
+      "disposition": "Source section read and reconciled; requirements retain their individual representation/source limits. Routing/recap and source metadata receive no independent teaching credit."
+    }
+  ],
+  "rawBodiesPublished": false,
+  "scope": "Later general teaching fully read; original full differences read and identical teaching reused. Original relocated overlap chapter explicitly included. No personal bodies in this cohort."
+}

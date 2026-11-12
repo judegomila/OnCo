@@ -1,0 +1,86 @@
+[
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/README.md",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 4349,
+    "sha256": "0959dd1d31f15dbb0285e65afcd076cb645968caf0b864fe13a14042b870dfcc",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/README.md"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/api-verification.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 24711,
+    "sha256": "7fda4c5288892dbb8c92d2ab00ee85dbd62a8b8bc9c419476ad3d8b39a195fcd",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/api-verification.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/capture-manifest.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 37454,
+    "sha256": "cecd553ef5b889dd8dd14d1e302f5b7ab83fbc6f683e099740807bafed318411",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/capture-manifest.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/elicit-discovery.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 1232,
+    "sha256": "d7ab7d193d7aed62b805e77ef3fad2170e871b65dec233d04c3ed9991b27fd97",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/elicit-discovery.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/literature-dispositions.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 30862,
+    "sha256": "acc208b2edfe4b91798c92d60157adf20377553778248c3743d6d82a4ac2a0ea",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/literature-dispositions.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/publication-identities.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 42175,
+    "sha256": "cf9459f58244d93c87637157b4128c8287894eb53226b8d10a24a3e794ae14cd",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/publication-identities.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/reading-scope.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 8977,
+    "sha256": "be8482d1add190d7e803be9d06a783677415096f5aeccb3c7eced5d085264619",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/reading-scope.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/registry-observations.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 4283,
+    "sha256": "91dc8a4b843446fef282ced68adfd102cb354b798fe223825901ef7e331cd4e0",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/registry-observations.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/render-verification.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 25793,
+    "sha256": "96631ebca0e56b4299681b3202a431aa576941f5a9e1c521c263274d165fa7b3",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/render-verification.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/source-summary.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 427,
+    "sha256": "58cd4f28085ad3cf1ecbe825337ad531fe45428830077a9e5fd420e533d150af",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/source-summary.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/summary-consumer-verification.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 66355,
+    "sha256": "182a31be2f61846d501ac79cd3bd07507c7b9f7dbe8753461a5b1b53ae6238e3",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/summary-consumer-verification.json"
+  },
+  {
+    "path": "research/payloads-2026-11-08/chemical-species-2026-11-09/validation.json",
+    "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "bytes": 2663,
+    "sha256": "09a7e72d0f409ded389213b168a9b3575d2d4d3b53af48089a2f0fe9b7aa9fec",
+    "url": "https://github.com/judegomila/OnCo/blob/c6deecb92b279b11964c7ef81f419e6a18e26aeb/research/payloads-2026-11-08/chemical-species-2026-11-09/validation.json"
+  }
+]

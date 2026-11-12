@@ -1,0 +1,3842 @@
+{
+  "version": "selected-rna-summary-consumers",
+  "scope": "Actual lazy-loaded short tables and long-cache selectors. Selected-text SSR only; existing review labels preserved, no new named language or browser review.",
+  "records": [
+    {
+      "id": "tumor-associated-macrophages-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ar)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ar",
+      "available": true,
+      "text": "البلاعم المرتبطة بالورم خلايا مناعية يُفترض أن تلتهم الخلايا السرطانية، لكن الورم يعيد تعليمها لتحميه بدلا من ذلك. وهي غالبا أكثر الخلايا المناعية وفرة في الورم."
+    },
+    {
+      "id": "lymph-node-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (ar)",
+      "canonicalRecordId": "lymph-node",
+      "language": "ar",
+      "available": true,
+      "text": "مرشحات صغيرة على شكل حبة الفاصولياء على امتداد الأوعية اللمفاوية تتجمع فيها الخلايا المناعية. وهي غالباً أول موقع ينتشر إليه السرطان، لذلك يفحصها الجراحون لمعرفة مدى انتشار المرض."
+    },
+    {
+      "id": "immune-system-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (ar)",
+      "canonicalRecordId": "immune-system",
+      "language": "ar",
+      "available": true,
+      "text": "شبكة الدفاع في الجسم المكوّنة من خلايا وجزيئات تتعرّف على الخلايا المصابة والغريبة وغير الطبيعية وتدمّرها. وهي تقتل معظم السرطانات المحتملة قبل أن يلاحظها أحد؛ أما تلك التي تنجو فقد تعلّمت كيف تختبئ منها."
+    },
+    {
+      "id": "macrophage-ar",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (ar)",
+      "canonicalRecordId": "macrophage",
+      "language": "ar",
+      "available": true,
+      "text": "خلايا مناعية كبيرة تبتلع الحطام والميكروبات والخلايا الميتة وتهضمها وتنسّق الالتهاب. وتستقطبها الأورام وتعيد تدريبها، فينتهي الأمر بالبلاعم في كثير من السرطانات إلى مساعدة الورم بدلاً من محاربته."
+    },
+    {
+      "id": "cytokine-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (ar)",
+      "canonicalRecordId": "cytokine",
+      "language": "ar",
+      "available": true,
+      "text": "بروتينات صغيرة تستخدمها خلايا المناعة للتواصل فيما بينها: إنذارات، ونداءات استقدام، وأوامر نمو، وإشارات تهدئة. بعضها أدوية للسرطان، وتدفّقها الغزير هو خطر بعض العلاجات المناعية."
+    },
+    {
+      "id": "inflammation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (ar)",
+      "canonicalRecordId": "inflammation",
+      "language": "ar",
+      "available": true,
+      "text": "استجابة الجسم للإصابة أو العدوى: تتدفق الخلايا المناعية والسوائل إلى الموضع، مسببةً الاحمرار والحرارة والتورم. النوبات القصيرة تشفي؛ أما الالتهاب المزمن المتقد ببطء فيعزز السرطان."
+    },
+    {
+      "id": "immune-checkpoint-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (ar)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "ar",
+      "available": true,
+      "text": "مكابح في الجهاز المناعي تمنع الخلايا التائية من مهاجمة الأنسجة السليمة. وتشدّ الأورام هذه المكابح لحماية نفسها؛ أما أدوية مثبطات نقاط التفتيش فتحررها لتتمكن الخلايا التائية من مهاجمة السرطان."
+    },
+    {
+      "id": "ido1-ar",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (ar)",
+      "canonicalRecordId": "ido1",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (ar)",
+      "canonicalRecordId": "entpd1",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-ar",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (ar)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (ar)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (ar)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-ar",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (ar)",
+      "canonicalRecordId": "interferons",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-ar",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (ar)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (ar)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (ar)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-ar",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (ar)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-ar",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (ar)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "ar",
+      "available": true,
+      "text": "cGAS-STING هو جهاز الإنذار في الخلية لوجود DNA في المكان الخطأ. يتسبب الإشعاع والعلاج الكيميائي وأدوية ADC في تسرّب DNA إلى السيتوبلازم؛ فيكتشفه cGAS، ويُطلق STING الإنذار، ويستدعي الإنترفيرون الجهاز المناعي."
+    },
+    {
+      "id": "nk-cell-ar",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ar)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ar",
+      "available": true,
+      "text": "الخلايا القاتلة الطبيعية: خلايا مناعية سريعة الفعل تدمر الخلايا غير الطبيعية دون الحاجة إلى التدريب على هدف محدد. وهي متخصصة في قتل الخلايا التي أخفت نفسها عن الخلايا التائية."
+    },
+    {
+      "id": "cd73-adenosine-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (ar)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "ar",
+      "available": true,
+      "text": "CD73 إنزيم على الخلايا الورمية والمناعية يحوّل نواتج تحلل ATP إلى أدينوزين، وهو مثبط مناعي قوي؛ كان حجبه أو حجب مستقبلات الأدينوزين أملاً كبيراً في العلاج المناعي لم يتحقق بعد."
+    },
+    {
+      "id": "tumor-associated-macrophages-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (de)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "de",
+      "available": true,
+      "text": "Tumorassoziierte Makrophagen sind Immunzellen, die eigentlich Krebszellen fressen sollten, vom Tumor aber umerzogen werden, um ihn stattdessen zu schützen. Sie sind oft die häufigste Immunzelle in einem Tumor."
+    },
+    {
+      "id": "lymph-node-de",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (de)",
+      "canonicalRecordId": "lymph-node",
+      "language": "de",
+      "available": true,
+      "text": "Kleine bohnenförmige Filter entlang der Lymphgefäße, in denen sich Immunzellen sammeln. Sie sind oft der erste Ort, an den sich ein Krebs ausbreitet, deshalb untersuchen Chirurgen sie, um zu sehen, wie weit die Krankheit fortgeschritten ist."
+    },
+    {
+      "id": "immune-system-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (de)",
+      "canonicalRecordId": "immune-system",
+      "language": "de",
+      "available": true,
+      "text": "Das Abwehrnetzwerk des Körpers aus Zellen und Molekülen, das infizierte, fremde und abnorme Zellen erkennt und zerstört. Es tötet die meisten angehenden Krebse, bevor sie je bemerkt werden; die überlebenden haben gelernt, sich vor ihm zu verstecken."
+    },
+    {
+      "id": "macrophage-de",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (de)",
+      "canonicalRecordId": "macrophage",
+      "language": "de",
+      "available": true,
+      "text": "Große Immunzellen, die Zelltrümmer, Mikroben und tote Zellen verschlingen und verdauen und die Entzündung koordinieren. Tumoren rekrutieren und umprogrammieren sie, sodass Makrophagen bei vielen Krebsarten am Ende dem Tumor helfen, statt ihn zu bekämpfen."
+    },
+    {
+      "id": "cytokine-de",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (de)",
+      "canonicalRecordId": "cytokine",
+      "language": "de",
+      "available": true,
+      "text": "Kleine Proteine, mit denen Immunzellen untereinander kommunizieren: Alarmsignale, Rekrutierungsrufe, Wachstumsbefehle und Entwarnungen. Einige sind Krebsmedikamente, und eine Flut von ihnen ist die Gefahr bestimmter Immuntherapien."
+    },
+    {
+      "id": "inflammation-de",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (de)",
+      "canonicalRecordId": "inflammation",
+      "language": "de",
+      "available": true,
+      "text": "Die Reaktion des Körpers auf Verletzung oder Infektion: Immunzellen und Flüssigkeit strömen ein und verursachen Rötung, Wärme und Schwellung. Kurze Schübe heilen; eine lang anhaltende, schwelende Entzündung fördert Krebs."
+    },
+    {
+      "id": "immune-checkpoint-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (de)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "de",
+      "available": true,
+      "text": "Bremsen des Immunsystems, die T-Zellen davon abhalten, gesundes Gewebe anzugreifen. Tumoren ziehen diese Bremsen, um sich zu schützen; Checkpoint-Inhibitoren lösen sie, damit T-Zellen den Krebs angreifen können."
+    },
+    {
+      "id": "ido1-de",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (de)",
+      "canonicalRecordId": "ido1",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-de",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (de)",
+      "canonicalRecordId": "entpd1",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-de",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (de)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (de)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (de)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-de",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (de)",
+      "canonicalRecordId": "interferons",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-de",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (de)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (de)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-de",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (de)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-de",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (de)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-de",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (de)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "de",
+      "available": true,
+      "text": "cGAS-STING ist der Alarm der Zelle für DNA am falschen Ort. Strahlung, Chemotherapie und ADCs lassen DNA ins Zytoplasma gelangen; cGAS erkennt sie, STING schlägt Alarm, und Interferon ruft das Immunsystem herbei."
+    },
+    {
+      "id": "nk-cell-de",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (de)",
+      "canonicalRecordId": "nk-cell",
+      "language": "de",
+      "available": true,
+      "text": "Natürliche Killerzellen: schnell wirkende Immunzellen, die abnorme Zellen zerstören, ohne auf ein bestimmtes Ziel trainiert werden zu müssen. Sie sind darauf spezialisiert, Zellen zu töten, die sich vor T-Zellen versteckt haben."
+    },
+    {
+      "id": "cd73-adenosine-de",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (de)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "de",
+      "available": true,
+      "text": "CD73 ist ein Enzym auf Tumor- und Immunzellen, das Abbauprodukte von ATP in Adenosin umwandelt, einen starken Immunsuppressor; seine Blockade oder die der Adenosinrezeptoren war eine große Hoffnung der Immuntherapie, die sich bislang nicht erfüllt hat."
+    },
+    {
+      "id": "tumor-associated-macrophages-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (es)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "es",
+      "available": true,
+      "text": "Los macrófagos asociados al tumor son células inmunitarias que deberían devorar las células cancerosas, pero el tumor las reeduca para que lo protejan. A menudo son la célula inmunitaria más abundante dentro de un tumor."
+    },
+    {
+      "id": "lymph-node-es",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (es)",
+      "canonicalRecordId": "lymph-node",
+      "language": "es",
+      "available": true,
+      "text": "Pequeños filtros con forma de judía situados a lo largo de los vasos linfáticos donde se reúnen las células inmunitarias. Suelen ser el primer lugar al que se extiende un cáncer, por lo que los cirujanos los examinan para ver hasta dónde ha llegado la enfermedad."
+    },
+    {
+      "id": "immune-system-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (es)",
+      "canonicalRecordId": "immune-system",
+      "language": "es",
+      "available": true,
+      "text": "La red de defensa del cuerpo, formada por células y moléculas, que reconoce y destruye las células infectadas, extrañas y anómalas. Elimina la mayoría de los posibles cánceres antes de que nadie los note; los que sobreviven han aprendido a esconderse de ella."
+    },
+    {
+      "id": "macrophage-es",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (es)",
+      "canonicalRecordId": "macrophage",
+      "language": "es",
+      "available": true,
+      "text": "Células inmunitarias grandes que engullen y digieren restos, microbios y células muertas y coordinan la inflamación. Los tumores las reclutan y las reprograman, de modo que en muchos cánceres los macrófagos acaban ayudando al tumor en lugar de combatirlo."
+    },
+    {
+      "id": "cytokine-es",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (es)",
+      "canonicalRecordId": "cytokine",
+      "language": "es",
+      "available": true,
+      "text": "Pequeñas proteínas que las células inmunitarias usan para comunicarse entre sí: alarmas, llamadas de reclutamiento, órdenes de crecimiento y señales de retirada. Algunas son fármacos contra el cáncer, y una avalancha de ellas es el peligro de ciertas inmunoterapias."
+    },
+    {
+      "id": "inflammation-es",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (es)",
+      "canonicalRecordId": "inflammation",
+      "language": "es",
+      "available": true,
+      "text": "La respuesta del cuerpo a una lesión o infección: las células inmunitarias y el líquido acuden en masa, causando enrojecimiento, calor e hinchazón. Los episodios breves curan; la inflamación crónica latente favorece el cáncer."
+    },
+    {
+      "id": "immune-checkpoint-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (es)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "es",
+      "available": true,
+      "text": "Frenos del sistema inmunitario que impiden que las células T ataquen el tejido sano. Los tumores accionan estos frenos para protegerse; los fármacos inhibidores de puntos de control los sueltan para que las células T puedan atacar el cáncer."
+    },
+    {
+      "id": "ido1-es",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (es)",
+      "canonicalRecordId": "ido1",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-es",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (es)",
+      "canonicalRecordId": "entpd1",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-es",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (es)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (es)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (es)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-es",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (es)",
+      "canonicalRecordId": "interferons",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-es",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (es)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (es)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-es",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (es)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-es",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (es)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-es",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (es)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "es",
+      "available": true,
+      "text": "La alarma de la célula ante ADN fuera de lugar. La radiación, la quimioterapia y los ADC derraman ADN en el citoplasma; cGAS lo detecta, STING da la alarma y el interferón llama al sistema inmunitario."
+    },
+    {
+      "id": "nk-cell-es",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (es)",
+      "canonicalRecordId": "nk-cell",
+      "language": "es",
+      "available": true,
+      "text": "Células asesinas naturales: células inmunitarias de acción rápida que destruyen células anormales sin necesidad de ser entrenadas frente a una diana concreta. Se especializan en matar células que se han ocultado de los linfocitos T."
+    },
+    {
+      "id": "cd73-adenosine-es",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (es)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "es",
+      "available": true,
+      "text": "CD73 es una enzima presente en células tumorales e inmunitarias que convierte los productos de degradación del ATP en adenosina, un potente inmunosupresor; bloquearla, o bloquear los receptores de adenosina, fue una gran esperanza de la inmunoterapia que aún no ha dado resultados."
+    },
+    {
+      "id": "tumor-associated-macrophages-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (fr)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "fr",
+      "available": true,
+      "text": "Les macrophages associés aux tumeurs sont des cellules immunitaires censées dévorer les cellules cancéreuses, mais que la tumeur rééduque pour qu'elles la protègent. Ils sont souvent la cellule immunitaire la plus abondante dans une tumeur."
+    },
+    {
+      "id": "lymph-node-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (fr)",
+      "canonicalRecordId": "lymph-node",
+      "language": "fr",
+      "available": true,
+      "text": "Petits filtres en forme de haricot le long des vaisseaux lymphatiques où se rassemblent les cellules immunitaires. Ils sont souvent le premier endroit où un cancer se propage, et les chirurgiens les examinent donc pour voir jusqu'où la maladie s'est étendue."
+    },
+    {
+      "id": "immune-system-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (fr)",
+      "canonicalRecordId": "immune-system",
+      "language": "fr",
+      "available": true,
+      "text": "Le réseau de défense du corps, fait de cellules et de molécules, qui reconnaît et détruit les cellules infectées, étrangères et anormales. Il élimine la plupart des cancers en devenir avant même qu'on les remarque ; ceux qui survivent ont appris à s'en cacher."
+    },
+    {
+      "id": "macrophage-fr",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (fr)",
+      "canonicalRecordId": "macrophage",
+      "language": "fr",
+      "available": true,
+      "text": "Grandes cellules immunitaires qui engloutissent et digèrent les débris, les microbes et les cellules mortes et coordonnent l'inflammation. Les tumeurs les recrutent et les reprogramment, si bien que dans de nombreux cancers les macrophages finissent par aider la tumeur plutôt que de la combattre."
+    },
+    {
+      "id": "cytokine-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (fr)",
+      "canonicalRecordId": "cytokine",
+      "language": "fr",
+      "available": true,
+      "text": "De petites protéines que les cellules immunitaires utilisent pour communiquer entre elles : alarmes, appels de renfort, ordres de croissance et signaux d'arrêt. Certaines sont des médicaments anticancéreux, et leur déferlement constitue le danger de certaines immunothérapies."
+    },
+    {
+      "id": "inflammation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (fr)",
+      "canonicalRecordId": "inflammation",
+      "language": "fr",
+      "available": true,
+      "text": "La réaction de l'organisme à une blessure ou à une infection : les cellules immunitaires et le liquide affluent, provoquant rougeur, chaleur et gonflement. Les poussées brèves guérissent ; l'inflammation chronique qui couve favorise le cancer."
+    },
+    {
+      "id": "immune-checkpoint-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (fr)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "fr",
+      "available": true,
+      "text": "Des freins du système immunitaire qui empêchent les lymphocytes T d'attaquer les tissus sains. Les tumeurs actionnent ces freins pour se protéger ; les inhibiteurs de points de contrôle les relâchent pour que les lymphocytes T puissent attaquer le cancer."
+    },
+    {
+      "id": "ido1-fr",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (fr)",
+      "canonicalRecordId": "ido1",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (fr)",
+      "canonicalRecordId": "entpd1",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-fr",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (fr)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (fr)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (fr)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-fr",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (fr)",
+      "canonicalRecordId": "interferons",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-fr",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (fr)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (fr)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (fr)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-fr",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (fr)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-fr",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (fr)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "fr",
+      "available": true,
+      "text": "cGAS-STING est l'alarme de la cellule face à du DNA qui se trouve au mauvais endroit. La radiothérapie, la chimiothérapie et les ADC répandent du DNA dans le cytoplasme ; cGAS le détecte, STING déclenche l'alarme et l'interféron appelle le système immunitaire."
+    },
+    {
+      "id": "nk-cell-fr",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (fr)",
+      "canonicalRecordId": "nk-cell",
+      "language": "fr",
+      "available": true,
+      "text": "Cellules tueuses naturelles : des cellules immunitaires à action rapide qui détruisent les cellules anormales sans avoir besoin d'être entraînées contre une cible précise. Elles se spécialisent dans l'élimination des cellules qui se sont cachées des cellules T."
+    },
+    {
+      "id": "cd73-adenosine-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (fr)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "fr",
+      "available": true,
+      "text": "CD73 est une enzyme présente sur les cellules tumorales et immunitaires qui transforme les produits de dégradation de l'ATP en adénosine, un puissant immunosuppresseur ; la bloquer, ou bloquer les récepteurs de l'adénosine, a été un grand espoir de l'immunothérapie qui n'a pas encore tenu ses promesses."
+    },
+    {
+      "id": "tumor-associated-macrophages-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (hi)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "hi",
+      "available": true,
+      "text": "ट्यूमर-संबद्ध मैक्रोफेज ऐसी प्रतिरक्षा कोशिकाएं हैं जिन्हें कैंसर कोशिकाओं को खा जाना चाहिए, लेकिन ट्यूमर उन्हें फिर से सिखाकर अपनी रक्षा में लगा लेता है। ये अक्सर ट्यूमर में सबसे अधिक संख्या वाली प्रतिरक्षा कोशिका होती हैं।"
+    },
+    {
+      "id": "lymph-node-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (hi)",
+      "canonicalRecordId": "lymph-node",
+      "language": "hi",
+      "available": true,
+      "text": "लसीका वाहिकाओं के साथ स्थित छोटे, सेम के आकार के फिल्टर, जहां प्रतिरक्षा कोशिकाएं एकत्र होती हैं। ये अक्सर वह पहली जगह होते हैं जहां कैंसर फैलता है, इसलिए सर्जन इन्हें जांचते हैं कि बीमारी कितनी दूर तक पहुंची है।"
+    },
+    {
+      "id": "immune-system-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (hi)",
+      "canonicalRecordId": "immune-system",
+      "language": "hi",
+      "available": true,
+      "text": "कोशिकाओं और अणुओं का शरीर का रक्षा-तंत्र, जो संक्रमित, बाहरी और असामान्य कोशिकाओं को पहचानकर नष्ट करता है। यह अधिकतर संभावित कैंसरों को पता चलने से पहले ही मार देता है; जो बच जाते हैं, उन्होंने इससे छिपना सीख लिया होता है।"
+    },
+    {
+      "id": "macrophage-hi",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (hi)",
+      "canonicalRecordId": "macrophage",
+      "language": "hi",
+      "available": true,
+      "text": "बड़ी प्रतिरक्षा कोशिकाएं जो मलबे, सूक्ष्मजीवों और मृत कोशिकाओं को निगलकर पचाती हैं और सूजन का समन्वय करती हैं। ट्यूमर इन्हें भर्ती करके फिर से प्रशिक्षित कर देते हैं, इसलिए कई कैंसरों में मैक्रोफेज अंततः ट्यूमर से लड़ने के बजाय उसकी मदद करते हैं।"
+    },
+    {
+      "id": "cytokine-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (hi)",
+      "canonicalRecordId": "cytokine",
+      "language": "hi",
+      "available": true,
+      "text": "छोटे प्रोटीन जिनका उपयोग प्रतिरक्षा कोशिकाएँ आपस में बात करने के लिए करती हैं: चेतावनी, बुलावे के संकेत, बढ़ने के आदेश और शांत होने के संकेत। इनमें से कुछ कैंसर की दवाएँ हैं, और इनकी बाढ़ ही कुछ इम्यूनोथेरेपियों का ख़तरा है।"
+    },
+    {
+      "id": "inflammation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (hi)",
+      "canonicalRecordId": "inflammation",
+      "language": "hi",
+      "available": true,
+      "text": "चोट या संक्रमण पर शरीर की प्रतिक्रिया: प्रतिरक्षा कोशिकाएं और तरल तेज़ी से पहुंचते हैं, जिससे लालिमा, गर्मी और सूजन होती है। थोड़े समय की सूजन उपचार करती है; लंबे समय तक सुलगती रहने वाली सूजन कैंसर को बढ़ावा देती है।"
+    },
+    {
+      "id": "immune-checkpoint-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (hi)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "hi",
+      "available": true,
+      "text": "प्रतिरक्षा तंत्र के ब्रेक जो T कोशिकाओं को स्वस्थ ऊतक पर हमला करने से रोकते हैं। ट्यूमर खुद को बचाने के लिए इन ब्रेकों को खींच लेते हैं; चेकपॉइंट अवरोधक दवाएँ इन्हें छोड़ देती हैं ताकि T कोशिकाएँ कैंसर पर हमला कर सकें।"
+    },
+    {
+      "id": "ido1-hi",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (hi)",
+      "canonicalRecordId": "ido1",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (hi)",
+      "canonicalRecordId": "entpd1",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-hi",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (hi)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (hi)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (hi)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-hi",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (hi)",
+      "canonicalRecordId": "interferons",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-hi",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (hi)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (hi)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (hi)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-hi",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (hi)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-hi",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (hi)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "hi",
+      "available": true,
+      "text": "गलत जगह DNA के लिए कोशिका का अलार्म। विकिरण, कीमोथेरेपी और ADC DNA को कोशिकाद्रव्य में बहाते हैं; cGAS इसे पकड़ता है, STING अलार्म बजाता है और इंटरफ़ेरॉन प्रतिरक्षा तंत्र को बुलाता है।"
+    },
+    {
+      "id": "nk-cell-hi",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (hi)",
+      "canonicalRecordId": "nk-cell",
+      "language": "hi",
+      "available": true,
+      "text": "नेचुरल किलर कोशिकाएं: तेजी से काम करने वाली प्रतिरक्षा कोशिकाएं जो किसी विशेष लक्ष्य पर प्रशिक्षित हुए बिना असामान्य कोशिकाओं को नष्ट करती हैं। वे उन कोशिकाओं को मारने में विशेषज्ञ हैं जो T कोशिकाओं से छिप गई हैं।"
+    },
+    {
+      "id": "cd73-adenosine-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (hi)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "hi",
+      "available": true,
+      "text": "CD73 ट्यूमर और प्रतिरक्षा कोशिकाओं पर मौजूद एक एंज़ाइम है जो ATP के विघटन उत्पादों को एडेनोसिन में बदलता है, जो एक शक्तिशाली प्रतिरक्षा-दमनकारी है; इसे या एडेनोसिन रिसेप्टरों को अवरुद्ध करना इम्यूनोथेरेपी की एक बड़ी उम्मीद थी जो अभी तक पूरी नहीं हुई है।"
+    },
+    {
+      "id": "tumor-associated-macrophages-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (ja)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "ja",
+      "available": true,
+      "text": "腫瘍関連マクロファージは本来がん細胞を食べるべき免疫細胞だが、腫瘍によって再教育され、逆に腫瘍を守るようになる。腫瘍内で最も多い免疫細胞であることが多い。"
+    },
+    {
+      "id": "lymph-node-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (ja)",
+      "canonicalRecordId": "lymph-node",
+      "language": "ja",
+      "available": true,
+      "text": "リンパ管に沿って並ぶ豆の形をした小さなフィルターで、免疫細胞が集まる場所。がんが最初に広がる場所であることが多いため、外科医は病気がどこまで進んでいるかを見るためにこれを調べる。"
+    },
+    {
+      "id": "immune-system-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (ja)",
+      "canonicalRecordId": "immune-system",
+      "language": "ja",
+      "available": true,
+      "text": "感染した細胞、異物、異常な細胞を見分けて破壊する、細胞と分子からなる体の防御ネットワークである。がんになりかけたものの大半を気づかれる前に殺してしまうが、生き残ったものはそこから隠れる方法を学んでいる。"
+    },
+    {
+      "id": "macrophage-ja",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (ja)",
+      "canonicalRecordId": "macrophage",
+      "language": "ja",
+      "available": true,
+      "text": "残骸、微生物、死んだ細胞を取り込んで消化し、炎症を調整する大型の免疫細胞。腫瘍はこれを呼び寄せて再教育するため、多くのがんでマクロファージは腫瘍と戦うのではなく、腫瘍を助ける側に回ってしまう。"
+    },
+    {
+      "id": "cytokine-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (ja)",
+      "canonicalRecordId": "cytokine",
+      "language": "ja",
+      "available": true,
+      "text": "免疫細胞が互いに連絡を取り合うために使う小さなタンパク質で、警報、応援要請、増殖の指令、待機解除の信号などを担う。一部はがん治療薬になっており、その大量放出が一部の免疫療法の危険性でもある。"
+    },
+    {
+      "id": "inflammation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (ja)",
+      "canonicalRecordId": "inflammation",
+      "language": "ja",
+      "available": true,
+      "text": "けがや感染に対する体の反応。免疫細胞と体液が急速に集まり、赤み、熱感、腫れを引き起こす。短期間の炎症は治癒をもたらすが、長期にくすぶり続ける炎症はがんを促進する。"
+    },
+    {
+      "id": "immune-checkpoint-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (ja)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "ja",
+      "available": true,
+      "text": "T細胞が健康な組織を攻撃しないように抑える、免疫系のブレーキである。腫瘍は自らを守るためにこのブレーキを引く。チェックポイント阻害薬はそれを解除し、T細胞ががんを攻撃できるようにする。"
+    },
+    {
+      "id": "ido1-ja",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (ja)",
+      "canonicalRecordId": "ido1",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (ja)",
+      "canonicalRecordId": "entpd1",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-ja",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (ja)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (ja)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (ja)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-ja",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (ja)",
+      "canonicalRecordId": "interferons",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-ja",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (ja)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (ja)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (ja)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-ja",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (ja)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-ja",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (ja)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "ja",
+      "available": true,
+      "text": "cGAS-STINGは、DNAが本来あるべきでない場所にあることを知らせる細胞の警報装置である。放射線、化学療法、ADCはDNAを細胞質にこぼれ出させる。cGASがそれを検知し、STINGが警報を鳴らし、インターフェロンが免疫系を呼び寄せる。"
+    },
+    {
+      "id": "nk-cell-ja",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ja)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ja",
+      "available": true,
+      "text": "ナチュラルキラー細胞:特定の標的について訓練される必要なく異常細胞を破壊する、即応性の免疫細胞。T細胞から身を隠した細胞を殺すことを専門とする。"
+    },
+    {
+      "id": "cd73-adenosine-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (ja)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "ja",
+      "available": true,
+      "text": "CD73は腫瘍細胞や免疫細胞にある酵素で、ATPの分解産物を強力な免疫抑制物質であるアデノシンに変える。これやアデノシン受容体を阻害することは免疫療法の大きな希望だったが、まだ成果を出していない。"
+    },
+    {
+      "id": "tumor-associated-macrophages-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (pt)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "pt",
+      "available": true,
+      "text": "Os macrófagos associados ao tumor são células imunológicas que deveriam devorar as células cancerosas, mas são reeducadas pelo tumor para protegê-lo. Costumam ser a célula imunológica mais abundante em um tumor."
+    },
+    {
+      "id": "lymph-node-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (pt)",
+      "canonicalRecordId": "lymph-node",
+      "language": "pt",
+      "available": true,
+      "text": "Pequenos filtros em forma de feijão ao longo dos vasos linfáticos onde as células imunes se reúnem. Costumam ser o primeiro local para onde um câncer se espalha, por isso os cirurgiões os examinam para ver até onde a doença chegou."
+    },
+    {
+      "id": "immune-system-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (pt)",
+      "canonicalRecordId": "immune-system",
+      "language": "pt",
+      "available": true,
+      "text": "A rede de defesa do corpo, formada por células e moléculas, que reconhece e destrói células infectadas, estranhas e anormais. Ela mata a maioria dos possíveis cânceres antes que sejam sequer notados; os que sobrevivem aprenderam a se esconder dela."
+    },
+    {
+      "id": "macrophage-pt",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (pt)",
+      "canonicalRecordId": "macrophage",
+      "language": "pt",
+      "available": true,
+      "text": "Células imunes grandes que engolfam e digerem detritos, micróbios e células mortas e coordenam a inflamação. Os tumores as recrutam e as reprogramam, de modo que em muitos cânceres os macrófagos acabam ajudando o tumor em vez de combatê-lo."
+    },
+    {
+      "id": "cytokine-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (pt)",
+      "canonicalRecordId": "cytokine",
+      "language": "pt",
+      "available": true,
+      "text": "Pequenas proteínas que as células imunes usam para conversar entre si: alarmes, chamados de recrutamento, ordens de crescimento e sinais de recuo. Algumas são medicamentos contra o câncer, e uma enxurrada delas é o perigo de certas imunoterapias."
+    },
+    {
+      "id": "inflammation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (pt)",
+      "canonicalRecordId": "inflammation",
+      "language": "pt",
+      "available": true,
+      "text": "A resposta do corpo a uma lesão ou infeção: células imunitárias e líquido acorrem ao local, causando vermelhidão, calor e inchaço. Episódios curtos curam; a inflamação crónica latente favorece o cancro."
+    },
+    {
+      "id": "immune-checkpoint-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (pt)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "pt",
+      "available": true,
+      "text": "Freios do sistema imunológico que impedem as células T de atacar tecidos saudáveis. Os tumores acionam esses freios para se proteger; os medicamentos inibidores de checkpoint os soltam para que as células T possam atacar o câncer."
+    },
+    {
+      "id": "ido1-pt",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (pt)",
+      "canonicalRecordId": "ido1",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (pt)",
+      "canonicalRecordId": "entpd1",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-pt",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (pt)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (pt)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (pt)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-pt",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (pt)",
+      "canonicalRecordId": "interferons",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-pt",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (pt)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (pt)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (pt)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-pt",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (pt)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-pt",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (pt)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "pt",
+      "available": true,
+      "text": "O alarme da célula para DNA no lugar errado. Radiação, quimioterapia e ADCs derramam DNA no citoplasma; cGAS detecta, STING dispara o alarme e o interferon chama o sistema imune."
+    },
+    {
+      "id": "nk-cell-pt",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (pt)",
+      "canonicalRecordId": "nk-cell",
+      "language": "pt",
+      "available": true,
+      "text": "Células natural killer: células imunitárias de ação rápida que destroem células anormais sem precisar de ser treinadas para um alvo específico. Especializam-se em matar células que se esconderam das células T."
+    },
+    {
+      "id": "cd73-adenosine-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (pt)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "pt",
+      "available": true,
+      "text": "O CD73 é uma enzima presente em células tumorais e imunitárias que converte os produtos de degradação do ATP em adenosina, um potente imunossupressor; bloqueá-la, ou bloquear os recetores de adenosina, foi uma grande esperança da imunoterapia que ainda não deu frutos."
+    },
+    {
+      "id": "tumor-associated-macrophages-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (zh)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "zh",
+      "available": true,
+      "text": "肿瘤相关巨噬细胞是本应吞噬癌细胞的免疫细胞，却被肿瘤“再教育”转而保护肿瘤。它们往往是肿瘤中数量最多的免疫细胞。"
+    },
+    {
+      "id": "lymph-node-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (zh)",
+      "canonicalRecordId": "lymph-node",
+      "language": "zh",
+      "available": true,
+      "text": "沿淋巴管分布的豆形小过滤器，免疫细胞在此聚集。它们常常是癌症扩散的第一站，因此外科医生会检查它们以了解疾病进展的程度。"
+    },
+    {
+      "id": "immune-system-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (zh)",
+      "canonicalRecordId": "immune-system",
+      "language": "zh",
+      "available": true,
+      "text": "人体由细胞和分子组成的防御网络，能识别并摧毁受感染的、外来的和异常的细胞。它在大多数潜在癌症被察觉之前就将其消灭；那些存活下来的癌症已经学会了躲避它。"
+    },
+    {
+      "id": "macrophage-zh",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (zh)",
+      "canonicalRecordId": "macrophage",
+      "language": "zh",
+      "available": true,
+      "text": "吞噬并消化碎屑、微生物和死细胞并协调炎症的大型免疫细胞。肿瘤会招募并改造它们，因此在许多癌症中巨噬细胞最终帮助肿瘤而不是对抗它。"
+    },
+    {
+      "id": "cytokine-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (zh)",
+      "canonicalRecordId": "cytokine",
+      "language": "zh",
+      "available": true,
+      "text": "免疫细胞用来彼此交流的小分子蛋白：警报、召集信号、生长指令和解除警戒的信号。其中一些是抗癌药物，而它们的大量涌出则是某些免疫疗法的危险所在。"
+    },
+    {
+      "id": "inflammation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (zh)",
+      "canonicalRecordId": "inflammation",
+      "language": "zh",
+      "available": true,
+      "text": "机体对损伤或感染的反应：免疫细胞和液体大量涌入，引起发红、发热和肿胀。短暂的炎症促进愈合；长期持续的慢性炎症则促进癌症。"
+    },
+    {
+      "id": "immune-checkpoint-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (zh)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "zh",
+      "available": true,
+      "text": "免疫系统的刹车，阻止T细胞攻击健康组织。肿瘤会拉动这些刹车来保护自己；检查点抑制剂药物则松开刹车，让T细胞能够攻击癌症。"
+    },
+    {
+      "id": "ido1-zh",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (zh)",
+      "canonicalRecordId": "ido1",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (zh)",
+      "canonicalRecordId": "entpd1",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-zh",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (zh)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (zh)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (zh)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-zh",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (zh)",
+      "canonicalRecordId": "interferons",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-zh",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (zh)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (zh)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (zh)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-zh",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (zh)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-zh",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (zh)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "zh",
+      "available": true,
+      "text": "细胞对错位DNA的警报。放疗、化疗和ADC把DNA洒入胞质；cGAS探测到，STING拉响警报，干扰素召来免疫系统。"
+    },
+    {
+      "id": "nk-cell-zh",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (zh)",
+      "canonicalRecordId": "nk-cell",
+      "language": "zh",
+      "available": true,
+      "text": "自然杀伤细胞：快速反应的免疫细胞，无需针对特定靶点进行训练即可摧毁异常细胞。它们专门杀伤那些躲避了T细胞的细胞。"
+    },
+    {
+      "id": "cd73-adenosine-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (zh)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "zh",
+      "available": true,
+      "text": "CD73是肿瘤细胞和免疫细胞上的一种酶，可将ATP的分解产物转化为腺苷，一种强效的免疫抑制物；阻断它或腺苷受体曾是免疫治疗的一大希望，但至今尚未兑现。"
+    },
+    {
+      "id": "tumor-associated-macrophages-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-associated macrophages (TAMs) (simple)",
+      "canonicalRecordId": "tumor-associated-macrophages",
+      "language": "simple",
+      "available": true,
+      "text": "Tumour-associated macrophages are immune cells that should eat cancer cells but are retrained by the tumour to protect it instead, often the commonest immune cell present."
+    },
+    {
+      "id": "lymph-node-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lymph node (simple)",
+      "canonicalRecordId": "lymph-node",
+      "language": "simple",
+      "available": true,
+      "text": "Lymph nodes are small bean-shaped filters where immune cells gather, often the first place a cancer spreads, so surgeons check them to see how far it has gone."
+    },
+    {
+      "id": "immune-system-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (simple)",
+      "canonicalRecordId": "immune-system",
+      "language": "simple",
+      "available": true,
+      "text": "The immune system is the body's defence network that destroys infected and abnormal cells, killing most would-be cancers before anyone notices them."
+    },
+    {
+      "id": "macrophage-simple",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage (simple)",
+      "canonicalRecordId": "macrophage",
+      "language": "simple",
+      "available": true,
+      "text": "Macrophages are large immune cells that eat debris and microbes, but tumours retrain them so in many cancers they end up helping the tumour."
+    },
+    {
+      "id": "cytokine-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cytokine (simple)",
+      "canonicalRecordId": "cytokine",
+      "language": "simple",
+      "available": true,
+      "text": "Cytokines are small proteins immune cells use to talk to each other, some used as drugs and some dangerous when immunotherapy releases a flood of them."
+    },
+    {
+      "id": "inflammation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Inflammation (simple)",
+      "canonicalRecordId": "inflammation",
+      "language": "simple",
+      "available": true,
+      "text": "Inflammation is the body's response to injury or infection, healing in short bursts but promoting cancer when it smoulders for years."
+    },
+    {
+      "id": "immune-checkpoint-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint (simple)",
+      "canonicalRecordId": "immune-checkpoint",
+      "language": "simple",
+      "available": true,
+      "text": "An immune checkpoint is a brake that stops T cells attacking healthy tissue, which tumours exploit and which checkpoint inhibitor drugs release."
+    },
+    {
+      "id": "ido1-simple",
+      "kind": "reader-summary-entry",
+      "name": "IDO1 (simple)",
+      "canonicalRecordId": "ido1",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "entpd1-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD39 (ENTPD1) (simple)",
+      "canonicalRecordId": "entpd1",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "adenosine-and-ido-simple",
+      "kind": "reader-summary-entry",
+      "name": "Adenosine and IDO: two separate routes that can restrain immune responses (simple)",
+      "canonicalRecordId": "adenosine-and-ido",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic cells (simple)",
+      "canonicalRecordId": "dendritic-cells",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (simple)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "interferons-simple",
+      "kind": "reader-summary-entry",
+      "name": "Interferon types I, II and III (simple)",
+      "canonicalRecordId": "interferons",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "macrophage-states-simple",
+      "kind": "reader-summary-entry",
+      "name": "Macrophage states beyond M1 and M2 (simple)",
+      "canonicalRecordId": "macrophage-states",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nkt-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Natural killer T (NKT) cells (simple)",
+      "canonicalRecordId": "nkt-cells",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pattern recognition: DAMPs and PAMPs (simple)",
+      "canonicalRecordId": "pattern-recognition-damps-and-pamps",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peripheral-tolerance-simple",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral tolerance (simple)",
+      "canonicalRecordId": "peripheral-tolerance",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cgas-sting-simple",
+      "kind": "reader-summary-entry",
+      "name": "cGAS-STING innate sensing (simple)",
+      "canonicalRecordId": "cgas-sting",
+      "language": "simple",
+      "available": true,
+      "text": "The cell's alarm for DNA in the wrong place. When it goes off, the immune system is called in."
+    },
+    {
+      "id": "nk-cell-simple",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (simple)",
+      "canonicalRecordId": "nk-cell",
+      "language": "simple",
+      "available": true,
+      "text": "NK cells are fast-acting immune cells that destroy abnormal cells without training on a specific target, specialising in cells that have hidden from T cells."
+    },
+    {
+      "id": "cd73-adenosine-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD73 / adenosine axis (simple)",
+      "canonicalRecordId": "cd73-adenosine",
+      "language": "simple",
+      "available": true,
+      "text": "CD73 is an enzyme on tumour and immune cells that makes adenosine, a molecule which quietens immune cells; blocking it was a big hope that has not yet delivered."
+    }
+  ],
+  "verification": {
+    "entries": 180,
+    "available": 90,
+    "EnglishFallback": 90,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 160,
+      "rows": [
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tumor-associated-macrophages",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "lymph-node",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-system",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cytokine",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "inflammation",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "immune-checkpoint",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ido1",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "entpd1",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "adenosine-and-ido",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "dendritic-cells",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gamma-delta-t-cells",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "interferons",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "macrophage-states",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nkt-cells",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pattern-recognition-damps-and-pamps",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "peripheral-tolerance",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cgas-sting",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nk-cell",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "cd73-adenosine",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "tumor-associated-macrophages-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "50f8387b1ee0be26a24fe18150d932b76cb964ecf3dee1d94be45d6ad609b671"
+      },
+      {
+        "id": "lymph-node-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "26515474b9cb94d1434af4505fae59e8480ca44d29198193d129f2dbe78a05ef"
+      },
+      {
+        "id": "immune-system-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "dcec22c9d5a10faccd50dd1f66a97b4a6c9371b9f0eede97f0dfb69eba093d77"
+      },
+      {
+        "id": "macrophage-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "a8f4f75d276d879e852afc6c2bdfe0765bc9448b00b96a32e601a53cf4d3d316"
+      },
+      {
+        "id": "cytokine-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "998bbb580dfef97471aa5ab7c09ccf14eaeafa5f571cabca876b2d5ecc856ac6"
+      },
+      {
+        "id": "inflammation-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "8dda30ee8ed73f4838d02c1f48aecef4161f0cb602defc4d78cb9395215454ba"
+      },
+      {
+        "id": "immune-checkpoint-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "ea1968efb894377d08f53b579051fdd0eaf1e366600ffbeb33267951263efc48"
+      },
+      {
+        "id": "ido1-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "9b6973056683f4c9c53c7aec95a74266af965a662e29d1b4f7a25b85cafbe168"
+      },
+      {
+        "id": "nk-cell-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "9bad08609244b7148e8e07d1aa69ae2136427ed13db81eb73cad61d5202d3598"
+      },
+      {
+        "id": "cd73-adenosine-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "cb84e14f50794f0f920c2db366ca5c5e1cbe40a754621ccc8b252b1a514d5ff8"
+      },
+      {
+        "id": "tumor-associated-macrophages-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "b2f1bf4e82bb9b1f3adbbba5c6dfa7b97af31107003d421e89a71014189daee4"
+      },
+      {
+        "id": "lymph-node-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "affe3783408c2b43baad35970009369e3a6f7d496e2aff2e20fdf8a4897dc120"
+      },
+      {
+        "id": "immune-system-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "92dbf19ec5e45fa08835b9539b6ccc6ba839fb25d56fbd6bfb09f743950bfae0"
+      },
+      {
+        "id": "macrophage-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "a8fdd339c7ba751dab2b32e54f89e5028b76a8e76105f5ff83accfa51908e44a"
+      },
+      {
+        "id": "cytokine-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "7822a2e460640c387180427e64c36bbec0d59b401839333fab7fea819dd8b148"
+      },
+      {
+        "id": "inflammation-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "e9a79e1e48da7f018117b42f455be2e45c2dd7ee40bcc4e286f498ffef622561"
+      },
+      {
+        "id": "immune-checkpoint-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "332a74077d553e9b8e0be479d4e9291d7d538dfe7c7e1d758e5b3f038df1dd6c"
+      },
+      {
+        "id": "ido1-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "6dfce020a09075ee46f8a7793487467448109b4ec1315077ab21ca93644eb8a0"
+      },
+      {
+        "id": "nk-cell-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "fa17685c962e7ca16a6cd66609f0b3d58413c750c57ff3a724f88c269003bd9c"
+      },
+      {
+        "id": "cd73-adenosine-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "1955aec1e0ef6ebf3ec9ab3017dc9546358922e5b7ec965b8abccaef7bef3dfa"
+      },
+      {
+        "id": "tumor-associated-macrophages-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "fa784d132929d142462a0e126de54ba791100fa253202e9b215a06258d160aa6"
+      },
+      {
+        "id": "lymph-node-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "041e310bfa9352fcfa863d07633bd128815cd594911972f70a88d3995aa6abcf"
+      },
+      {
+        "id": "immune-system-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "92b55473b4c530c200d415c64c46a2581db81ae6f818d20672eb310e723d5d0c"
+      },
+      {
+        "id": "macrophage-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "4297c5fe44ed2dce2eb3d50a4a3ace9609d485d9a2a3454af5968bf4e854fd60"
+      },
+      {
+        "id": "cytokine-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "8bf30c2627517d8d33411cf9f35ef7797b0ccd5f306a95171499c6ab2ed03d2b"
+      },
+      {
+        "id": "inflammation-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "5fe7dff5f56f1ca48923503cc390eedad1cc539116840201b53db406d0242388"
+      },
+      {
+        "id": "immune-checkpoint-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "0f9cabb79106ef4f808f3ecf4555267799233635287ecb2b8e812ab152c72015"
+      },
+      {
+        "id": "ido1-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "b59f1f8bb6b6e91e9b748965bdaa97cff756a7bdb31a6f7aacdbff97e9e9b032"
+      },
+      {
+        "id": "nk-cell-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "8cfc00b53291ff73a6f735abd838327f3bae7633eb417b7f9c9b15d60c29f726"
+      },
+      {
+        "id": "cd73-adenosine-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "d3371670336dea04b6b913f00cfb76fff77b09d7a952e84dcc3c474b0bc03e22"
+      },
+      {
+        "id": "tumor-associated-macrophages-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "7d5da757a5131dc5f9e69a17dea0c3b3a94f82e403214443b3c05be19d6da02f"
+      },
+      {
+        "id": "lymph-node-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "54d9089dbf5ed6e30fcafa4ea9c9de723b626fc660c18122425dd8de2eda3bd9"
+      },
+      {
+        "id": "immune-system-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "5d4dbea5f2519cc292cbe8d33e42f00d79f7702cb3d7bbd01c90422ec1bea034"
+      },
+      {
+        "id": "macrophage-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "a3523704fe215100a20bb56b51e99263a06e6bf9e5b524009e590e4d8c9116ff"
+      },
+      {
+        "id": "cytokine-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "45bb6e667031570d8bf0db4fecae904fd7a5a5cb89ec3f85d2ee91fe804c5429"
+      },
+      {
+        "id": "inflammation-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "ee4540dc5b99a0f2e096ba74dd59043c2f1c4eab7b4cbc8a5fc9e803d3c92005"
+      },
+      {
+        "id": "immune-checkpoint-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "0dc0be3e93beafdab7c13431a6a9c455aa1b14c5a237f22e4034e0aed251f151"
+      },
+      {
+        "id": "ido1-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "61cc50193dab8877a5af8cd9fe1bbb13a68b495f4d4fe6a3170712ae65bee725"
+      },
+      {
+        "id": "nk-cell-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "5a420bf4ece632d60d70e6118148ed4b5a6b5dba40d095c3e73a3d3ae6b05972"
+      },
+      {
+        "id": "cd73-adenosine-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "d5a45c835165799123e514689b3355963ff47a2118ab9cdca9d146f1e361ddc9"
+      },
+      {
+        "id": "tumor-associated-macrophages-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "321f7f0640a155cca141504b70717def8c6071a67f8b102e70610fb3d6a7f191"
+      },
+      {
+        "id": "lymph-node-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "915d991458af3bebd8a1ed46eb2606bc9d2063128f6960ec60c26d5462681c21"
+      },
+      {
+        "id": "immune-system-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "6ce59ecf13a0175e5928be849f57c1cb29d338a6667dab4fb31bb816f838eb6e"
+      },
+      {
+        "id": "macrophage-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "04530f8ffa08a36fec401426f36a9225762424475c5d59a476086577a3e52746"
+      },
+      {
+        "id": "cytokine-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "852091541e5e1b1ee14ff1ca52955689961457f7018c22e42906f0497e5e9439"
+      },
+      {
+        "id": "inflammation-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "42ab3ceac920645ce002546bcf9ae4df552e983d6d66ae25782c891ad265a32f"
+      },
+      {
+        "id": "immune-checkpoint-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "058fb95e941ce35628e588d2e94fe0085107ffde33de9069e40dd5815a99dcd3"
+      },
+      {
+        "id": "ido1-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "1b4aebf47f13200c1f6e059f50dc91f02ccdb77da3e8fa1dd8f2e262a5276573"
+      },
+      {
+        "id": "nk-cell-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ccd16025e9b0caffc32e602016aab689a5f74f8426719da7b5b227ae634a25b6"
+      },
+      {
+        "id": "cd73-adenosine-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "0566bb46333af4cfc939e7f4b619b9a6839c48450f85b7e3665f0de766426a0c"
+      },
+      {
+        "id": "tumor-associated-macrophages-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "f5b596902037642ca229f34f80bdfba298ac65432aa003a3af1cad02f300a537"
+      },
+      {
+        "id": "lymph-node-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "24201c2e5874bb16cab6fca3159937a847817b78d663fcdc6f9679b87c538f9f"
+      },
+      {
+        "id": "immune-system-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "a79247a9661509482073d6a7c1ac26c2449ee4f84c098c4f42ab21c5e4999c2b"
+      },
+      {
+        "id": "macrophage-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "c10e2dd254a1c658bd604b34e894b10ec52d0e6fe796cf66d1501d0eab54b0e4"
+      },
+      {
+        "id": "cytokine-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "d16664c7e257a23812e7387bd279138eea10fd47a00eb256424581e6b7861b0a"
+      },
+      {
+        "id": "inflammation-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "fd038f6c7d292691c7897b5aa9636bb94b4acdd67b6b599497c0af5364b32112"
+      },
+      {
+        "id": "immune-checkpoint-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "76ed81d247098c0551b810a9ea450168b6a5fb3bebfa1e2e8744fa91202b4e51"
+      },
+      {
+        "id": "ido1-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "b69d24bcc39cfef1d4bda02ee26e87f961aac523ecc0cd0d3a87cfe4da2f2f4d"
+      },
+      {
+        "id": "nk-cell-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "c642fa14fc54bce4e244fa0f5f66ecb891ba0f19a9b5c8c5d5187b29bf23b39a"
+      },
+      {
+        "id": "cd73-adenosine-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "c7bca42e041a3ec2f821e80d78f71d0f0f1e574ebb4bcf63da64680f0353d957"
+      },
+      {
+        "id": "tumor-associated-macrophages-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "1952c6435cebf41b66c7b2f8982da4056fcf077ea05a8a9802b5eb918b7c2d84"
+      },
+      {
+        "id": "lymph-node-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "447424f755f696486af86802ee0160b8dd84004068511b694488ce354790a455"
+      },
+      {
+        "id": "immune-system-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "54cc31859ec349fcaad24194144f5c0a5432fdbc6dee871c8ea73f66c4407f60"
+      },
+      {
+        "id": "macrophage-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "35d69f6edb18eefd784922f29f4191b6b41dd18a950224c648c75ee3880a7670"
+      },
+      {
+        "id": "cytokine-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "e317979c41a52cc873faddf116ebaa9930ffaa2810b6c0b50dfcfa4e990742c6"
+      },
+      {
+        "id": "inflammation-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "7067107cdbf3c246c0ff7529697b7d5f360636afb081449a5e1c326dd3864b11"
+      },
+      {
+        "id": "immune-checkpoint-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "46b8616e516c0f37306eea3cb93de7ac25efd69fa15663b93d7846269a1b01d4"
+      },
+      {
+        "id": "ido1-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "0fa3daa67a79ae6359bbd8a90f359edce6d30942810ab9ebe1c4fd74cb0b1520"
+      },
+      {
+        "id": "nk-cell-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "e2d0a9c95f8c223c070a53fa0324e8e3f2900e975af53896b61c7f3bc76152e3"
+      },
+      {
+        "id": "cd73-adenosine-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "6b7609ee0ce7ecc1cb8c6f0ca6fcdf9806c878b62bf0d6eec91b16f05783ffb1"
+      },
+      {
+        "id": "tumor-associated-macrophages-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "f35d9e517b0f0b5c068a03872b80464f337aec21e576804288e10a26fc35e89a"
+      },
+      {
+        "id": "lymph-node-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "c479a74f418aeafa2b2a728a1f7a9601e578313b84eb89b3674a662de8daf7d3"
+      },
+      {
+        "id": "immune-system-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "f143b956ab4d6d9aa56df982cc27b8bae43a923f82d072d2b4c962d16abb08c4"
+      },
+      {
+        "id": "macrophage-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "aec0e610f29db3a48db9d257f229fee3fc3f9ea3cc7d7324076034a8d44bdde8"
+      },
+      {
+        "id": "cytokine-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "437cd442578da998ffcb226679542bcecaf33b5981b830452e93c6be64f4278c"
+      },
+      {
+        "id": "inflammation-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "8f170e07c511b9e2feb87d0b444ebe6ec5d0f23409a71f77a25383bff442926a"
+      },
+      {
+        "id": "immune-checkpoint-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "be7630ff4d0609544c314ab7aea0e8e786bb73675f66ab1da8c2d3f2608dfdec"
+      },
+      {
+        "id": "ido1-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "7b2b2718c9a8dc7073387aebbd3cb62e2696ced8af45d7cb0c645125efe969ab"
+      },
+      {
+        "id": "nk-cell-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "40ec224806b529d1937d06e730adfa320c1c8a6056401445c5af5e4795a6d2c6"
+      },
+      {
+        "id": "cd73-adenosine-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "46dce508b0c42a15c5d0d56039f7c98bf00757cfe5512ed172a4a42f7c930645"
+      },
+      {
+        "id": "tumor-associated-macrophages-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "c1b702b28f40508e51e1b42915a03c75d47e2903a5c4a9420e2a07c4c24a0aab"
+      },
+      {
+        "id": "lymph-node-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "fea1029313b03ea6c91e0f760153a67b4e100ecd6f4ae295953ee72e70b18ba0"
+      },
+      {
+        "id": "immune-system-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "5f8161ecb38a8a470ab9c5edf7d549c45ec388eb14ec269aa84d9ec0ca9dc70f"
+      },
+      {
+        "id": "macrophage-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "5dd4fe40da55a1d17574f5844a2cc6ee688f39a2e61bfe44d14cdaeff46db0dd"
+      },
+      {
+        "id": "cytokine-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "0ca23653c4aeb2d264f95dddaa682d215958d1b609c8b6ba5c4379c972cf94f8"
+      },
+      {
+        "id": "inflammation-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "25f01d43e9628fe33fe30de09509a4593f58fd67afdf0ebc7a9618cefcfd8aa8"
+      },
+      {
+        "id": "immune-checkpoint-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "49fa32864303e935dcba5428a1ab38e711f923e99fa71d196707350ca465dd9b"
+      },
+      {
+        "id": "ido1-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "066a7ad1d6e55c57db84759bcb5c5d8f8d50559f472c680c9547a27b261de277"
+      },
+      {
+        "id": "entpd1-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "972c4f8e43f1af496fdfe3da25887e3fd4e5abea9737b7a49678dce103d6d122"
+      },
+      {
+        "id": "adenosine-and-ido-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "8f0236054c344eaf44de5a28637467a6659f8c554b4cc9f5eac16cea747a83bd"
+      },
+      {
+        "id": "dendritic-cells-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "7a228b15b3061ca2ff96c293dda55b5ef8f26f2b5fd19f88b861e254e9c4d279"
+      },
+      {
+        "id": "gamma-delta-t-cells-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f88a7d3c2b5397ccb47faa4be53b5f8d1551534d3271b871f01149a7846e28d1"
+      },
+      {
+        "id": "interferons-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "5cbcf703a52e8971db74c8d9d12bfd2382ad97d1989f1f0e2c60bbac3611ba0c"
+      },
+      {
+        "id": "macrophage-states-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "7fba5eb1943e71e604e33aa2cbd060695f9b519ddf6dc515b850b36a269c3c39"
+      },
+      {
+        "id": "nkt-cells-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "a88c5bfd4fbd360ed76e31318d98029c83f1414c99ce288be2b447ab7c53c7ac"
+      },
+      {
+        "id": "pattern-recognition-damps-and-pamps-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "b03d4a40662f9b34958eff9ecfc57a8fad33f6926c054a70f2c53555a009ceac"
+      },
+      {
+        "id": "peripheral-tolerance-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "acc66d4bb38aba63be9900d99e8325f9da265d561a5fa2a0d7fc436d6e405ecf"
+      },
+      {
+        "id": "cgas-sting-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "0ba07ca5e9f2dfe2d3ea3b6993cf93dc51ec7e79842bf0f2f512fdc5b018d4fa"
+      },
+      {
+        "id": "nk-cell-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "b79285be016debd034fc1a74df0689787056edade50b06bd7d1a1b80ceecc13a"
+      },
+      {
+        "id": "cd73-adenosine-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "2349d9b60bd4178c021e88b3c2f337b9a55e46508963f3494bf72f07492ce7d4"
+      }
+    ]
+  }
+}

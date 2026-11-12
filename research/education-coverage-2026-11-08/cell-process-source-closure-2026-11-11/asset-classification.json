@@ -1,0 +1,1927 @@
+{
+  "paths": 40,
+  "versionEntries": 80,
+  "roles": {
+    "authoring/provenance": 12,
+    "mixed authoring and scientific construction": 28
+  },
+  "supportingScope": 40,
+  "teachingCoveragePoints": 0,
+  "classificationRule": "Role and scientific entailment are independent. Construction/custody bodies route to separately inventoried teaching assets; mixed marks scientific construction or explicit reader strings without granting coverage.",
+  "dispositions": [
+    {
+      "batch": "r26",
+      "index": 0,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette-only edit call preserving the accepted macroautophagy scene; topology is routed to its separate figure and owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1755,
+          "gitBlob": "30256ddd454bd7efde0080a181cca28034523768",
+          "sourceSha256": "a64efaff2bf74c1b91263f60c5f67642c4858628e5662104e30306f1d96a39ea"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1755,
+          "gitBlob": "30256ddd454bd7efde0080a181cca28034523768",
+          "sourceSha256": "a64efaff2bf74c1b91263f60c5f67642c4858628e5662104e30306f1d96a39ea"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+          "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+          "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 1,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-light-call.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Bounded annotation and membrane-contour repair brief with scientific construction constraints; those constraints are routed to autophagy and the separate figure.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-light-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4363,
+          "gitBlob": "910b371864618042f4211e3eedb5216fdc63c041",
+          "sourceSha256": "4c5ce092cf5c8b4ee482f2992d1c92269581efd95c807c21cabf6311ca9d18cb"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1-light-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4363,
+          "gitBlob": "910b371864618042f4211e3eedb5216fdc63c041",
+          "sourceSha256": "4c5ce092cf5c8b4ee482f2992d1c92269581efd95c807c21cabf6311ca9d18cb"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+          "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+          "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 2,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Original macroautophagy construction specification, not a separate lesson or observation; its mechanism is assessed separately below.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4673,
+          "gitBlob": "0176350710170e9f5665c52e2abb638289daa871",
+          "sourceSha256": "587d2845fe5e9ba24deea3b16b227c05c8ecf392cbd9eb9510ebf92828c5f7c5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/macroautophagy-cargo-route-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4673,
+          "gitBlob": "0176350710170e9f5665c52e2abb638289daa871",
+          "sourceSha256": "587d2845fe5e9ba24deea3b16b227c05c8ecf392cbd9eb9510ebf92828c5f7c5"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+          "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+          "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "autophagy"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 3,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Ferroptosis construction brief, including parallel defence mechanisms and diagnostic guardrails; scientific assessment stays with the figure and ferroptosis owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1701,
+          "gitBlob": "1474472ffef7546b66b8f92fa525536fc2d66321",
+          "sourceSha256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/membrane-lipid-damage-and-parallel-defenses-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1701,
+          "gitBlob": "1474472ffef7546b66b8f92fa525536fc2d66321",
+          "sourceSha256": "a72e15578f4d82900b560c0166e39d5a1a3b00b84d43f7b519304a297bd63c87"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+          "gitBlob": "90612b65767afa7f84aa54e72a027c46e0dbab88",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "ferroptosis-cell-death"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+          "gitBlob": "dd965acbbdf033a6d31c2170268a572f4d41ed3f",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "ferroptosis-cell-death"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 4,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette-only ubiquitin figure edit; it neither establishes native pixel equality nor supplies a new biological result.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1862,
+          "gitBlob": "6e81aeffb3cf4ef8168e5050fae99638677bc6b5",
+          "sourceSha256": "9d508444381b1c398b33c01b3b3df5da53e5f3a3c97fbae617817e3779d0c6c6"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1862,
+          "gitBlob": "6e81aeffb3cf4ef8168e5050fae99638677bc6b5",
+          "sourceSha256": "9d508444381b1c398b33c01b3b3df5da53e5f3a3c97fbae617817e3779d0c6c6"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+          "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+          "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+        "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 5,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Single outlet-fragment colour repair record; colour identity is a drawing convention, with the proteolysis mechanism owned separately.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1589,
+          "gitBlob": "4198e56a5dcc9da7b60f3ee1b3a04df218692eee",
+          "sourceSha256": "4bb10f5cd8d581e36b61cdb882b1c17b792fc3eb2b47206a13a4638279b3f03b"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1589,
+          "gitBlob": "4198e56a5dcc9da7b60f3ee1b3a04df218692eee",
+          "sourceSha256": "4bb10f5cd8d581e36b61cdb882b1c17b792fc3eb2b47206a13a4638279b3f03b"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+          "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+          "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+        "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 6,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Provenance plus explicit caption and final alt text, both byte-matched to the pinned owner. Full construction text remains a scientific dependency, not independent coverage.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 8621,
+          "gitBlob": "ea708c2c07f33bbada2bbbb88e806a4596f1b08e",
+          "sourceSha256": "18406c1f2026e80c675592b5c403b01a66eaae7e5be451dde083010c4da403f9"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5-light.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 8621,
+          "gitBlob": "ea708c2c07f33bbada2bbbb88e806a4596f1b08e",
+          "sourceSha256": "18406c1f2026e80c675592b5c403b01a66eaae7e5be451dde083010c4da403f9"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+          "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+          "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+        "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 7,
+      "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Full ubiquitin/proteasome construction specification, including non-destructive tagging; the delivered figure and canonical pathway own that teaching.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 5222,
+          "gitBlob": "a0c12d4d9c8f930ce451e1924b8201b0ceb0f5f8",
+          "sourceSha256": "4905fdf0fc444ca7c2e1665f911c13fca9ec2d4735edafe89af6a8e26b0cfec5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/prompts/ubiquitin-selected-cargo-v5.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 5222,
+          "gitBlob": "a0c12d4d9c8f930ce451e1924b8201b0ceb0f5f8",
+          "sourceSha256": "4905fdf0fc444ca7c2e1665f911c13fca9ec2d4735edafe89af6a8e26b0cfec5"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+          "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+          "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "keap1",
+            "ubiquitin-proteasome-system"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+        "wiki/education/concepts/cancer-biology/signaling-pathways/nrf2-keap1.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 8,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "DNA-lesion and selected-route construction specification; it gives no exclusive pathway assignment or new measured repair result.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1377,
+          "gitBlob": "6ce4acf196eb6e048ba444522ee0a78386137975",
+          "sourceSha256": "21d061bec5e753cf5d1bbf022b585efc69bd591405b7f33040245e78a2c2f246"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/dna-lesions-and-selected-repair-jobs-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1377,
+          "gitBlob": "6ce4acf196eb6e048ba444522ee0a78386137975",
+          "sourceSha256": "21d061bec5e753cf5d1bbf022b585efc69bd591405b7f33040245e78a2c2f246"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-dark.svg",
+          "gitBlob": "3175494a1a7d4e96c656c54dd5c2afe7b57fdac6",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "ddr"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/dna-lesions-and-selected-repair-jobs-v1-light.svg",
+          "gitBlob": "97816c17a03b742945b36ed87735f8589b47ba21",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "ddr"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/dna-damage-and-repair-overview.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 9,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Genomic-scar construction specification with illustrative parental-copy notation and segment lengths; notation and biological meaning remain separately scoped.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1264,
+          "gitBlob": "f9cb7e573c1b9c1e66d21dfbdfd466f5eac147f3",
+          "sourceSha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/genomic-scars-chromosome-tracks-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1264,
+          "gitBlob": "f9cb7e573c1b9c1e66d21dfbdfd466f5eac147f3",
+          "sourceSha256": "73d16ee2aa4ed25a1cf4c8095e886ce9f097598c7c8002c8a491f4aa7c3b21c3"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-dark.svg",
+          "gitBlob": "317b79392ca3bd77c1b64e2a7f641b6cf92ab4a0",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "hrd-genomic-scar-scores"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/genomic-scars-chromosome-tracks-v1-light.svg",
+          "gitBlob": "547be6f79ba704c4bc0d7e06cb273ec58ce45324",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "hrd-genomic-scar-scores"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/genomic-scars.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 10,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Matching-template repair construction brief, explicitly one successful route after DNA copying. Template stays is scoped to that route, not every recombination outcome.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 5170,
+          "gitBlob": "f333f5346a515fd80ea3eb32d7e56ce2d55e18d1",
+          "sourceSha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-matching-template-route-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 5170,
+          "gitBlob": "f333f5346a515fd80ea3eb32d7e56ce2d55e18d1",
+          "sourceSha256": "ac105abe9d70856572f61d1a535a740a4192cf231bdbe3fa1da3c43cbf02181a"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-dark.png",
+          "gitBlob": "3a5635edd772bbe65b198d5b190b0d3297a55fc6",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "brca",
+            "hrd"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-matching-template-route-v1-light.png",
+          "gitBlob": "582aa434e1ce19e983b83eb9679edf6c5d589d5d",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "brca",
+            "hrd"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca1-and-brca2.md",
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 11,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Hypothetical old-scar/current-function construction specification; its timepoints are not a patient history, diagnostic result or measured restoration frequency.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3491,
+          "gitBlob": "23c0607409573010c38ac5d23e5caaf2ec58c5b5",
+          "sourceSha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/hr-scar-and-current-function-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3491,
+          "gitBlob": "23c0607409573010c38ac5d23e5caaf2ec58c5b5",
+          "sourceSha256": "43bb665e5cd859f2f967566ecdb6591ff2e61aca2c20dde95ff5a97ada50a1c5"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-dark.png",
+          "gitBlob": "6b6258556dd7fa4fe094ad5bdf7a9ae19dfdbfb2",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "hrd"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/hr-scar-and-current-function-v1-light.png",
+          "gitBlob": "ae60b9b6047cac2b2c4049ad4a957741478acf59",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "hrd"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/homologous-recombination-and-hrd.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 12,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Fictional mixture construction specification. Arithmetic is reproduced, while model-fitting and uncertainty claims stay with the mutational-signature owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1374,
+          "gitBlob": "c2665f46a5d77125a7e1995e1b2fea0ca6251718",
+          "sourceSha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/mutational-signature-mixtures-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1374,
+          "gitBlob": "c2665f46a5d77125a7e1995e1b2fea0ca6251718",
+          "sourceSha256": "f35f82eadea791112ea79447924f6f15093fcbd22f25c2c5b6ecdef62f611ff9"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-dark.svg",
+          "gitBlob": "b60e4f3b29a5fdf6764869ea9cb263c3455d2d7a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "mutational-signature"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/mutational-signature-mixtures-v1-light.svg",
+          "gitBlob": "6538164edfcac17bd3d919a796fef3e606e10b69",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "mutational-signature"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/mutational-signatures.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 13,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Complete toy end-joining construction and derivation. Complementary pairing and 14-to-7-base accounting are checked; this does not identify the enzyme that made a junction.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4983,
+          "gitBlob": "006a88c28d94f1eff830a09e59e293e6f4a0e2a1",
+          "sourceSha256": "47ae3c103ec6b01a0c68ae3e540b810d9c4360deba080f36afe4a2551af311e0"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/nhej-mmej-selected-toy-ends-v2.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4983,
+          "gitBlob": "006a88c28d94f1eff830a09e59e293e6f4a0e2a1",
+          "sourceSha256": "47ae3c103ec6b01a0c68ae3e540b810d9c4360deba080f36afe4a2551af311e0"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-dark.svg",
+          "gitBlob": "33276c9ad5259f6ad3d3a1ba07964b6844bb3830",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "homologous-recombination-repair"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/nhej-mmej-selected-toy-ends-v2-light.svg",
+          "gitBlob": "8bf175d2f4a20873b895e8ec34e88278f1a202d9",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "homologous-recombination-repair"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/nhej-and-mmej.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 14,
+      "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Timed-track construction brief. The internal speed calculation is checked; protocol-specific calibration verification is inherited explicitly from the earlier repair assessment.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1609,
+          "gitBlob": "ab0ccde6509a3ec222b9bf001e67ce07bd49f750",
+          "sourceSha256": "de6773137ea92eb4a94c74f435af1daa2952d1ba8f729849cd44888536917cb7"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/prompts/replication-fork-and-timed-toy-tracks-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1609,
+          "gitBlob": "ab0ccde6509a3ec222b9bf001e67ce07bd49f750",
+          "sourceSha256": "de6773137ea92eb4a94c74f435af1daa2952d1ba8f729849cd44888536917cb7"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-dark.svg",
+          "gitBlob": "d70d498a2d14188727bdf9de543e11cc24a18fb8",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "replication-stress"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/images/replication-fork-and-timed-toy-tracks-v1-light.svg",
+          "gitBlob": "1f7c03215774629f810c75f0505d3be89a0d0b30",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "replication-stress"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/genome-instability-and-repair/replication-stress.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 15,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Three-branch ER-response construction specification, including distinct phosphorylation, RNA and cleavage outputs. Earlier source and figure assessments remain at their recorded depth.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1730,
+          "gitBlob": "72766b0b57c9788012d8e062262387c27c6c232c",
+          "sourceSha256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/er-sensors-rna-phosphate-and-cleaved-fragment-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1730,
+          "gitBlob": "72766b0b57c9788012d8e062262387c27c6c232c",
+          "sourceSha256": "ede09100a9493652fce1f31153d1d507b6d0f236be59d58a18fbb8870177d721"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+          "gitBlob": "ba0c912177c15d156f6713267f02b6a645fd1055",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "er-stress-and-unfolded-protein-response"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+          "gitBlob": "9d82c9ffa589da652a8020ee121c493ae54b8c67",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "er-stress-and-unfolded-protein-response"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 16,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette-only mitochondrial edit call; preservation instructions are not a quantitative theme-equality measurement.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1459,
+          "gitBlob": "dbc93008d53468300b74ff1df00fbbd86f1cdc9f",
+          "sourceSha256": "2532e189a8a67e5e014dffdd2bf43ad503118c875e9d682c9dfbf0f1a2602ff8"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1459,
+          "gitBlob": "dbc93008d53468300b74ff1df00fbbd86f1cdc9f",
+          "sourceSha256": "2532e189a8a67e5e014dffdd2bf43ad503118c875e9d682c9dfbf0f1a2602ff8"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+          "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+          "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 17,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Tool custody with three complete scientific prompts and edit history. Mechanism, earlier attempts and delivered v2 figure have separate dispositions.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 11710,
+          "gitBlob": "93e1554011dba36b26fc3d27737f0a7b8f50134f",
+          "sourceSha256": "9e0ce415cfd91dcf571bf2f1b6be2684616ea1392f3ca2f041b5def5b7198119"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-dark.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 11710,
+          "gitBlob": "93e1554011dba36b26fc3d27737f0a7b8f50134f",
+          "sourceSha256": "9e0ce415cfd91dcf571bf2f1b6be2684616ea1392f3ca2f041b5def5b7198119"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+          "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+          "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 18,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light-call.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Targeted ATP-synthase proton/reaction repair specification; the distinction between energy transfer and material conversion is checked against sources.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1437,
+          "gitBlob": "73b219b962cb8f72275fd83c4ad7f80d5299d307",
+          "sourceSha256": "eb6cf7a71a9bbd894c4d9878651fd34c0132d061fd42054260898d2ce5ed9b61"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1437,
+          "gitBlob": "73b219b962cb8f72275fd83c4ad7f80d5299d307",
+          "sourceSha256": "eb6cf7a71a9bbd894c4d9878651fd34c0132d061fd42054260898d2ce5ed9b61"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+          "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+          "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r26",
+      "index": 19,
+      "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Pre-generation repair custody record repeating the same scientific repair prompt; its date/status and model claims are self-attestations.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1982,
+          "gitBlob": "07c1e5ba646743967f05a8653aab7c8061b0b983",
+          "sourceSha256": "213f12735e0c8bcb37f44b1bc07c47175da4adda86551d99d98fb3df82032858"
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/prompts/mitochondrial-proton-paths-v2-light.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1982,
+          "gitBlob": "07c1e5ba646743967f05a8653aab7c8061b0b983",
+          "sourceSha256": "213f12735e0c8bcb37f44b1bc07c47175da4adda86551d99d98fb3df82032858"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+          "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+          "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "oxidative-phosphorylation"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 0,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/binding-is-only-one-step-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit with copied CD3/MRI preservation clauses. An irrelevant clause does not establish that the delivered image contains it; custody specificity remains open.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/binding-is-only-one-step-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 652,
+          "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+          "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/prompts/binding-is-only-one-step-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 652,
+          "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+          "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-dark.png",
+          "gitBlob": "18c4da4cc18b96b9586a74df911e7ec3556196de",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "binder-targeting-module"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-light.png",
+          "gitBlob": "87ab4f64355b6a2308832d788fa24d5e878b513d",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "binder-targeting-module"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 1,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Cassette and insertion construction brief. Delivery, transposase and insertion remain separately assessed through the transposon figure and owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 732,
+          "gitBlob": "541053954dadf697b7365abcc8083e776b2860b7",
+          "sourceSha256": "a91797928629991646ecc0b31931ea33108b107b3707caf62ad86e9291c605f8"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/prompts/cassette-boundaries-and-separate-insertion-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 732,
+          "gitBlob": "541053954dadf697b7365abcc8083e776b2860b7",
+          "sourceSha256": "a91797928629991646ecc0b31931ea33108b107b3707caf62ad86e9291c605f8"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-dark.svg",
+          "gitBlob": "e4fafc183e1edd094731728f3b3ed4c132b36763",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "transposon"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/images/cassette-boundaries-and-separate-insertion-v1-light.svg",
+          "gitBlob": "08609984a3cdf69d824fdb147c092eac7c67024b",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "transposon"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/transposon.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 2,
+      "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "RNA sequence/chemistry/byproduct construction brief. Its independent axes do not establish a universal benefit from a modification.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 764,
+          "gitBlob": "1e02471529184bf4fed60428b4f5fe872cae120e",
+          "sourceSha256": "a7ad2914bc9c903c24d2e9c7e3689db1fe2e230a9d178334d639bcf2bfb46234"
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/prompts/rna-sequence-chemistry-and-byproduct-axes-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 764,
+          "gitBlob": "1e02471529184bf4fed60428b4f5fe872cae120e",
+          "sourceSha256": "a7ad2914bc9c903c24d2e9c7e3689db1fe2e230a9d178334d639bcf2bfb46234"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-dark.svg",
+          "gitBlob": "9bbf26a62889d172450bc6fbfa7d0f9fb4878a9a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "modified-rna-nucleosides"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/images/rna-sequence-chemistry-and-byproduct-axes-v1-light.svg",
+          "gitBlob": "5782b55e194d900447604598535ea0dc328cf4c8",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "modified-rna-nucleosides"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Fictional participant-clock construction brief: progression at 12 and death at 30. Declared endpoints, rather than a different patient outcome, set the clocks.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 716,
+          "gitBlob": "f67084c56fdaf90bb5e204e17fa0e5880d278e72",
+          "sourceSha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/one-participant-two-endpoint-clocks-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 716,
+          "gitBlob": "f67084c56fdaf90bb5e204e17fa0e5880d278e72",
+          "sourceSha256": "856429bf7f72a7639195e7e521a589c69b6ddcb3142372c8af12ecc76dcc8364"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-dark.svg",
+          "gitBlob": "e461354777716b9423c5feb2c510d74fdddfa282",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "efs"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/images/one-participant-two-endpoint-clocks-v1-light.svg",
+          "gitBlob": "252aa23e50e1a685c1b298c0b141e172f01a53b7",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "efs"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/evidence-and-statistics/endpoints/survival-endpoints.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Fictional earlier-detection construction brief with unchanged death date. Its arithmetic does not show a screening benefit.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 600,
+          "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+          "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 600,
+          "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+          "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+          "gitBlob": "3941beee8dd67e451ac3bb6a07844aea35f44037",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "lead-time-bias"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+          "gitBlob": "977e330ae9aa5ddd65eb53d306a61925315e4218",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "lead-time-bias"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Prespecification construction brief with a fictional 3 by 4 cutoff search. It asserts no computed P value or new confirmatory evidence.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 746,
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 746,
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+          "gitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "prespecified-vs-post-hoc"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+          "gitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "prespecified-vs-post-hoc"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit shared with another image. Ticks and line-preservation instructions are not proof of the actual recycling scene geometry.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 540,
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 540,
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-dark.png",
+          "gitBlob": "612051234acfc5c896aed64840bece14e1a973bd",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "calibration"
+          ]
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-light.png",
+          "gitBlob": "d9b8564e39bbf1e4a42aeb7f446ce932805355f5",
+          "reviewStatus": "reviewed",
+          "evidenceOwners": [
+            "calibration"
+          ]
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 7,
+      "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Antibody recognition/action construction brief. Binding, blocking, effectors, cargo and cell bridging remain routed to the unassessed figure and owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 645,
+          "gitBlob": "f84ebd304f984514066e2e5df1e366d88f06c65c",
+          "sourceSha256": "dd9f0e8bf52cc86f50f4fea4d052f80c8f5c151a1c7ba7ef87deb1d2753bea42"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/prompts/antibody-recognition-and-four-contact-jobs-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 645,
+          "gitBlob": "f84ebd304f984514066e2e5df1e366d88f06c65c",
+          "sourceSha256": "dd9f0e8bf52cc86f50f4fea4d052f80c8f5c151a1c7ba7ef87deb1d2753bea42"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-dark.svg",
+          "gitBlob": "816cd61e649163d91c58c6db215e13f0307d6142",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/antibody-based/images/antibody-recognition-and-four-contact-jobs-v1-light.svg",
+          "gitBlob": "6ece9d15fb3424e9ce2bb33ea704c96eb3d4ac9d",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/antibody-based/monoclonal-antibodies.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 8,
+      "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Platinum-DNA adduct construction brief. Adduct topology and the no-alkyl-transfer distinction remain an explicit therapy-source dependency, not certified by this role decision.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 835,
+          "gitBlob": "d8aa018fdf7080f63b3e3a2bdff657dde8979f5a",
+          "sourceSha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/prompts/base-links-versus-backbone-break-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 835,
+          "gitBlob": "d8aa018fdf7080f63b3e3a2bdff657dde8979f5a",
+          "sourceSha256": "97d5e9ae2952f4260029c079a9c5935e60f9c21cfd3a534e7ba2f5d1be1c5d7c"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-dark.svg",
+          "gitBlob": "6bc950e43ddf1549a1f19b8d25bd42146ecbdbb3",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/chemotherapy/images/base-links-versus-backbone-break-v1-light.svg",
+          "gitBlob": "e14ff0546393702f18e5afa68a5ea871f927e4a3",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/chemotherapy/alkylating-agents.md",
+        "wiki/education/concepts/therapeutics/chemotherapy/platinum-agents.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 9,
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Antigen/adjuvant-input construction brief. Presentation, priming, inflammation and efficacy remain separately assessed at the figure/owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 631,
+          "gitBlob": "96c14bff7c910b6b170b82cb3f7b3ddbc53b1096",
+          "sourceSha256": "4aac97afca3ea4c6b86366adc8eeeca46331bf96163d266c1ea0b7ce6a406519"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/prompts/antigen-material-and-support-inputs-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 631,
+          "gitBlob": "96c14bff7c910b6b170b82cb3f7b3ddbc53b1096",
+          "sourceSha256": "4aac97afca3ea4c6b86366adc8eeeca46331bf96163d266c1ea0b7ce6a406519"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+          "gitBlob": "8a5fd96bb5dabaed77cfa841fc457b10f6c609ac",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+          "gitBlob": "3f960ae3ec3b7e47c5bbb33e4df57bb208b675e3",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/immunotherapy/vaccine-adjuvants.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 10,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Local-ablation comparison construction brief with a declared physics comparator and no measured lethal boundary or superiority result.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 506,
+          "gitBlob": "7c40535218fb69cd49315d87daeec5ae5f23e343",
+          "sourceSha256": "8c25f260c562b54137c2058db55ae4bc52420ca4e94bdb65a86b71206892ce71"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 506,
+          "gitBlob": "7c40535218fb69cd49315d87daeec5ae5f23e343",
+          "sourceSha256": "8c25f260c562b54137c2058db55ae4bc52420ca4e94bdb65a86b71206892ce71"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-dark.svg",
+          "gitBlob": "a9883c7dd83b40141b881357ef08ce52b82711b1",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/cryo-vs-rfa-vs-mwa-comparison-physics-and-boundaries-v1-light.svg",
+          "gitBlob": "807a6f59d6915b690e903c3fb66196a874fb8329",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 11,
+      "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Radiotherapy comparison construction brief with a declared comparator. Calendar length is not a definition of stereotactic treatment or a measured safety ranking.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 524,
+          "gitBlob": "2d9087d142c906e826e918e6a0a56e1b51c0750b",
+          "sourceSha256": "01ba713977950000e53a929134ee83afa7da4602a25c5ef9bc53ff854b3409eb"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/prompts/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 524,
+          "gitBlob": "2d9087d142c906e826e918e6a0a56e1b51c0750b",
+          "sourceSha256": "01ba713977950000e53a929134ee83afa7da4602a25c5ef9bc53ff854b3409eb"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1-dark.svg",
+          "gitBlob": "946d2328121816dfdc4bcd33cb754948e1ddf486",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/local-therapies/images/sbrt-vs-conventional-radiation-comparison-geometry-and-schedule-v1-light.svg",
+          "gitBlob": "c9b45ebd155350f1d943de47dd2d2df5aa52e1c5",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 12,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "Androgen-receptor intervention construction brief. The functional glyphs are not structures or evidence of shared disease-specific benefit.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 753,
+          "gitBlob": "27b5a277e54a1d602883ffc6a7695a1fe9c9b2f7",
+          "sourceSha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/ar-intervention-locations-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 753,
+          "gitBlob": "27b5a277e54a1d602883ffc6a7695a1fe9c9b2f7",
+          "sourceSha256": "0343de5a9a2cfb6a834b518dbfeb4ec465ab13fdd582726ff845ada1faf75d3d"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+          "gitBlob": "e93e8d9f75b3d466757c882412c04d338a1a85eb",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+          "gitBlob": "632385f2f4956ce63e49073b0c4b282c015f462c",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 13,
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+      "role": "mixed authoring and scientific construction",
+      "scope": "supporting",
+      "rationale": "EGFR outside/inside/cargo construction brief. Target staining, an activating variant and dependence remain different observations.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 615,
+          "gitBlob": "833fb68fb7e8e7bef53fd067dddcbbee22d259f9",
+          "sourceSha256": "4b7964e21a2714485cbfda9d47beb151f5e9611b4c339fd6447d1960a267edbc"
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/prompts/egfr-outside-inside-and-cargo-contacts-v1.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 615,
+          "gitBlob": "833fb68fb7e8e7bef53fd067dddcbbee22d259f9",
+          "sourceSha256": "4b7964e21a2714485cbfda9d47beb151f5e9611b4c339fd6447d1960a267edbc"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+          "gitBlob": "25130022ea39e19eea9204b3ae02999d5615bf21",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+          "gitBlob": "ba136b3beab4ecbea8abe1905b4384344d4bd3b0",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 14,
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit for multimer, capture and cell-free readouts; scientific interpretation remains with the separate figure and owner.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 625,
+          "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+          "sourceSha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d"
+        },
+        {
+          "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 625,
+          "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+          "sourceSha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+          "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+          "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/designing-a-vaccine/03-immunopeptidomics.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 15,
+      "path": "wiki/education/guides/from-variant-to-drug/images/prompts/functional-experiment-evidence-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit with a private generated-image reference; the path is custody, not source verification or delivered-figure acceptance.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/guides/from-variant-to-drug/images/prompts/functional-experiment-evidence-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 618,
+          "gitBlob": "8ba909a172546e9a27c001f82175903464af6389",
+          "sourceSha256": "be9246d1203cf8b357dc4396b2a526b9d2e19f7b7d1142c58f34c6a6018f02dc"
+        },
+        {
+          "path": "wiki/education/guides/from-variant-to-drug/images/prompts/functional-experiment-evidence-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 618,
+          "gitBlob": "8ba909a172546e9a27c001f82175903464af6389",
+          "sourceSha256": "be9246d1203cf8b357dc4396b2a526b9d2e19f7b7d1142c58f34c6a6018f02dc"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/guides/from-variant-to-drug/images/functional-experiment-evidence-v2-dark.png",
+          "gitBlob": "a2941997d95a1acbd141e7bf4f4127d294925c27",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/guides/from-variant-to-drug/images/functional-experiment-evidence-v2-light.png",
+          "gitBlob": "aa41685d53e900ab7c5ba22d3d90a35a4000b69a",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 16,
+      "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit for immune-assay questions. The same preservation wording in another call does not verify equality of their final pixels.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 739,
+          "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+          "sourceSha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+        },
+        {
+          "path": "wiki/education/guides/personalized-cancer-vaccine/images/prompts/immune-assay-questions-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 739,
+          "gitBlob": "ab9d9094d824bf8eefb35c6bca71b65b18e716ab",
+          "sourceSha256": "68adca3fda889708076c97c919333b023714780a451e963dc240707f6094ef4c"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-dark.png",
+          "gitBlob": "c672598fd1f28b351471fa89da441ebe51dd67d7",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/guides/personalized-cancer-vaccine/images/immune-assay-questions-v2-light.png",
+          "gitBlob": "98cafff1830d0cfd1868a4822a256eb2611cdfd8",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 17,
+      "path": "wiki/education/guides/start-here/images/prompts/report-questions-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit copied from immune-assay wording. Irrelevant numbering/arrow clauses are a custody-quality issue, not proof of new teaching in the report figure.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/guides/start-here/images/prompts/report-questions-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 739,
+          "gitBlob": "7b909fa4f8b3c1b1c22fab7ec6d9c5fd37120826",
+          "sourceSha256": "b23e9360a3e5aa3f57febe874400d04ff34e88bd9fd9c757645f673d83f856a4"
+        },
+        {
+          "path": "wiki/education/guides/start-here/images/prompts/report-questions-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 739,
+          "gitBlob": "7b909fa4f8b3c1b1c22fab7ec6d9c5fd37120826",
+          "sourceSha256": "b23e9360a3e5aa3f57febe874400d04ff34e88bd9fd9c757645f673d83f856a4"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/guides/start-here/images/report-questions-v2-dark.png",
+          "gitBlob": "44307d469c4046806abb1a7b93960a2cc94c8320",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/guides/start-here/images/report-questions-v2-light.png",
+          "gitBlob": "b1d8ae3fdc51edc8ea9759cbe8db13e6e3c38c60",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/guides/start-here/01-read-the-labels.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 18,
+      "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit byte-identical to the ranking/calibration call. Actual geometry and biological reading remain dependencies of the delivered image.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 540,
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+        },
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/prompts/recycling-snapshot-and-flow-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 540,
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-dark.png",
+          "gitBlob": "256bbd790cef1d5d94417cce38829d2ee09dd534",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/molecular-profiling/evee-pathways/images/recycling-snapshot-and-flow-v2-light.png",
+          "gitBlob": "460dd2efc042837cfb376ec760f71c80276b8df1",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/molecular-profiling/evee-pathways/01-autophagy-and-proteostasis.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    },
+    {
+      "batch": "r27",
+      "index": 19,
+      "path": "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows-v2-dark-call.txt",
+      "role": "authoring/provenance",
+      "scope": "supporting",
+      "rationale": "Palette edit byte-identical to the binder call. The CD3 clause does not establish CD3 in a blood/imaging scene; caption and delivered pixels remain separate.",
+      "readDepth": "Complete body read by source worker and coordinator; identical second pinned version reuses that reading by exact bytes.",
+      "versionReceipts": [
+        {
+          "path": "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows-v2-dark-call.txt",
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 652,
+          "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+          "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+        },
+        {
+          "path": "wiki/education/molecular-profiling/images/prompts/blood-and-imaging-windows-v2-dark-call.txt",
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 652,
+          "gitBlob": "cfc15e99595679d3b5663b34f90b02415d8d7a4c",
+          "sourceSha256": "03f7d89185cb2961eaf85fc0ad34f34f3207acbfd9b44add338b8829ca704610"
+        }
+      ],
+      "figureDependencies": [
+        {
+          "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-dark.png",
+          "gitBlob": "440b8895aac24bef9c1ab7fc826e3aa910c6986a",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        },
+        {
+          "path": "wiki/education/molecular-profiling/images/blood-and-imaging-windows-v2-light.png",
+          "gitBlob": "faeec96a391cd4b94fd3c59ecea1d2d64d582fa3",
+          "reviewStatus": "unreviewed",
+          "evidenceOwners": []
+        }
+      ],
+      "sourceOwnerPages": [
+        "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md"
+      ],
+      "scientificDisposition": "No scientific credit from this role. Existing figure assessments remain at their stated depth; unreviewed figures, source clauses, caption and custody findings remain explicit dependencies.",
+      "coveragePoints": 0
+    }
+  ],
+  "readerStringComparisons": [
+    {
+      "body": "r26-06",
+      "field": "caption",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "exactOwnerCopy": true,
+      "ownerPath": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md"
+    },
+    {
+      "body": "r26-06",
+      "field": "finalAlt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "exactOwnerCopy": true,
+      "ownerPath": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md"
+    },
+    {
+      "body": "r26-06",
+      "field": "caption",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "exactOwnerCopy": true,
+      "ownerPath": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md"
+    },
+    {
+      "body": "r26-06",
+      "field": "finalAlt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "exactOwnerCopy": true,
+      "ownerPath": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md"
+    }
+  ]
+}

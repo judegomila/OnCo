@@ -1,0 +1,524 @@
+{
+  "sourceFirstInventorySha256": "f4a0d2f4818d0f56490c1e5cee1af48375cea29ee51790a27f06f89a1cd19471",
+  "unitFindings": [
+    {
+      "id": "AR-001",
+      "rationale": "Antagonism is defined at the receptor and distinguished from staining-defined presence and sensitivity.",
+      "qualification": null
+    },
+    {
+      "id": "AR-002",
+      "rationale": "The receptor explanation retains changes in partners, form and cellular setting without assigning dependence from presence.",
+      "qualification": null
+    },
+    {
+      "id": "AR-003",
+      "rationale": "Four intervention locations and a missing ligand-binding region are explained in prose, preserving the picture's comparisons.",
+      "qualification": null
+    },
+    {
+      "id": "AR-004",
+      "rationale": "The signal-following answer separates hormone supply from receptor blockade and declines a breast-benefit inference from a stain.",
+      "qualification": null
+    },
+    {
+      "id": "AR-005",
+      "rationale": "The full-length receptor, testosterone, dihydrotestosterone and regulation from DNA to RNA are named explicitly.",
+      "qualification": null
+    },
+    {
+      "id": "AR-006",
+      "rationale": "Receptor-region binding by the named antagonists is separated from activating hormone ligands and hormone depletion.",
+      "qualification": null
+    },
+    {
+      "id": "AR-007",
+      "rationale": "The Tran paragraph separates the measured nuclear, DNA-binding and coactivator effects and confines them to tested prostate systems.",
+      "qualification": null
+    },
+    {
+      "id": "AR-008",
+      "rationale": "Sequence, abundance, partners and splice form are named contextual modifiers rather than automatic resistance or benefit labels.",
+      "qualification": null
+    },
+    {
+      "id": "AR-009",
+      "rationale": "The text explains RNA segment assembly and the ligand-region-lacking variants actually identified in the small TBCRC analysis.",
+      "qualification": null
+    },
+    {
+      "id": "AR-010",
+      "rationale": "Hormone production, androgen-receptor binding and estrogen-receptor blockade are stated as different actions.",
+      "qualification": null
+    },
+    {
+      "id": "AR-011",
+      "rationale": "The historical examples identify product, disease, regimen and setting rather than all receptor-positive cancers.",
+      "qualification": null
+    },
+    {
+      "id": "AR-012",
+      "rationale": "The abstract supplies the 16-week rates and populations; the matched trial registry independently supplies inclusion of qualifying stability.",
+      "qualification": null
+    },
+    {
+      "id": "AR-013",
+      "rationale": "The Traina example explicitly states single arm, phase II, locally advanced or metastatic TNBC and the breast-optimised assay.",
+      "qualification": null
+    },
+    {
+      "id": "AR-014",
+      "rationale": "Enzalutamide and taselisib are named, with hormone-receptor-positive disease allowed in phase Ib and TNBC required in phase II.",
+      "qualification": null
+    },
+    {
+      "id": "AR-015",
+      "rationale": "The exploratory RNA subtype is separated from protein staining, receptor dependence and validated selection.",
+      "qualification": null
+    },
+    {
+      "id": "AR-016",
+      "rationale": "The text explicitly rejects substituting any PI3K drug or extending the metastatic combination result to postoperative benefit.",
+      "qualification": null
+    },
+    {
+      "id": "AR-017",
+      "rationale": "The IHC paragraph states nuclear tumour staining, antibody, percentage, specimen, scoring and threshold.",
+      "qualification": null
+    },
+    {
+      "id": "AR-018",
+      "rationale": "More-than-zero enrolment positivity and at-least-ten-percent evaluability plus postbaseline assessment are kept separate.",
+      "qualification": null
+    },
+    {
+      "id": "AR-019",
+      "rationale": "RNA pattern classification is explicitly distinguished from measurement of drug occupation of receptor.",
+      "qualification": null
+    },
+    {
+      "id": "AR-020",
+      "rationale": "The model paragraph connects exposure to engagement, transcription, growth and death with comparators and matching assay exposures.",
+      "qualification": null
+    },
+    {
+      "id": "AR-021",
+      "rationale": "The stained-cell denominator is contrasted with patient response, with population, analysis set and time required.",
+      "qualification": null
+    },
+    {
+      "id": "AR-022",
+      "rationale": "The fictional one-third example asks about stability, assay, enrolment, evaluable denominator and duration before shrinkage is inferred.",
+      "qualification": null
+    },
+    {
+      "id": "AR-023",
+      "rationale": "The practice answer gives receptor function, assay expression and product/population/outcome evidence as distinct steps.",
+      "qualification": null
+    },
+    {
+      "id": "BET-001",
+      "rationale": "Pocket recognition and remaining protein functions are separated; occupation is not whole-protein depletion.",
+      "qualification": null
+    },
+    {
+      "id": "BET-002",
+      "rationale": "The remaining protein interactions and independently measured acetyl state preserve the sensor analogy's limit without fixing biology to a cartoon.",
+      "qualification": null
+    },
+    {
+      "id": "BET-003",
+      "rationale": "The self-contained summary explicitly identifies the fixed mark as a drawing convention rather than unchanged measured acetylation.",
+      "qualification": "A fixed cartoon mark is not an empirical unchanged-acetylation result."
+    },
+    {
+      "id": "BET-004",
+      "rationale": "JQ1 competition is explicit and Shu's resistant-model dependence is compared with pocket inhibition.",
+      "qualification": null
+    },
+    {
+      "id": "BET-005",
+      "rationale": "The summary names BRD2, BRD3, BRD4 and BRDT and acetyl-lysine reading in transcriptional regulation.",
+      "qualification": null
+    },
+    {
+      "id": "BET-006",
+      "rationale": "The revised JQ1 paragraph explicitly states competition with acetylated binding partners at the recognition pocket.",
+      "qualification": null
+    },
+    {
+      "id": "BET-007",
+      "rationale": "JQ1 is identified as an experimental chemical probe; neither its binding nor the schematic is a personal regimen result.",
+      "qualification": null
+    },
+    {
+      "id": "BET-008",
+      "rationale": "The text names BD1 and BD2 and retains the other interaction regions rather than reducing the protein to one pocket.",
+      "qualification": null
+    },
+    {
+      "id": "BET-009",
+      "rationale": "Compound-specific protein and domain profiles are required, and the original JQ1 two-domain binding scope is retained.",
+      "qualification": null
+    },
+    {
+      "id": "BET-010",
+      "rationale": "BD2 preference is explicitly separated from comparative human safety or anticancer benefit.",
+      "qualification": null
+    },
+    {
+      "id": "BET-011",
+      "rationale": "Pocket occupation leaves regions that a separately verified protein depletion removes; the operations are not equated.",
+      "qualification": null
+    },
+    {
+      "id": "BET-012",
+      "rationale": "The MYC exercise and summary separate transcription changes from attribution of a growth or death effect.",
+      "qualification": null
+    },
+    {
+      "id": "BET-013",
+      "rationale": "The source comparison remains selected TNBC cultures and models rather than a patient efficacy claim.",
+      "qualification": null
+    },
+    {
+      "id": "BET-014",
+      "rationale": "The source-backed summary and Shu paragraph explicitly retain BRD4 dependence after resistance to bromodomain inhibition.",
+      "qualification": null
+    },
+    {
+      "id": "BET-015",
+      "rationale": "MYC RNA reduction and direct MYC-protein inhibition are distinguished, with causal death left to functional evidence.",
+      "qualification": null
+    },
+    {
+      "id": "BET-016",
+      "rationale": "The BRD3-variant example explicitly declines an inference to BRD4 dependence or broad-compound sensitivity.",
+      "qualification": null
+    },
+    {
+      "id": "BET-017",
+      "rationale": "Molibresib is scoped to first-in-human dose escalation, NUT carcinoma and other solid tumours, exposure, PD, safety and preliminary activity.",
+      "qualification": null
+    },
+    {
+      "id": "BET-018",
+      "rationale": "Thrombocytopenia and gastrointestinal events are confined to the named product and study, without a class ranking or postoperative TNBC claim.",
+      "qualification": null
+    },
+    {
+      "id": "BET-019",
+      "rationale": "Binding and displacement assays are named for the pocket interaction rather than for clinical response.",
+      "qualification": null
+    },
+    {
+      "id": "BET-020",
+      "rationale": "Chromatin and RNA, cell counts, growth, death and washout regrowth remain separate readouts.",
+      "qualification": null
+    },
+    {
+      "id": "BET-021",
+      "rationale": "Genetic and independent-compound perturbation, comparison cells and general transcription are given as attribution checks.",
+      "qualification": null
+    },
+    {
+      "id": "BET-022",
+      "rationale": "Exact protein/domain, compound, concentration, time and comparator are required, with nM and assay-specific output units explained.",
+      "qualification": null
+    },
+    {
+      "id": "BET-023",
+      "rationale": "The molibresib cytokine example and measurement paragraph distinguish pharmacodynamics from a patient-benefit endpoint.",
+      "qualification": null
+    },
+    {
+      "id": "BET-024",
+      "rationale": "The fictional MYC-RNA-down/growth-continuing case gives protein, timing, perturbation and comparison controls and leaves patient benefit unresolved.",
+      "qualification": null
+    },
+    {
+      "id": "BET-025",
+      "rationale": "The practice answer identifies a reading interaction, attributed protein dependence and comparative clinical evidence.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-001",
+      "rationale": "The definition explicitly distinguishes cell-cycle and transcription jobs of selected CDKs.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-002",
+      "rationale": "The workshop comparison states that a family name does not identify the affected job and partners can connect multiple processes.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-003",
+      "rationale": "The text carries the selected CDK4/6, CDK2, CDK7 and CDK9 roles and explicitly rejects exclusive boxes.",
+      "qualification": "The pictured kinase jobs overlap and do not exhaust each kinase's functions."
+    },
+    {
+      "id": "CDK-004",
+      "rationale": "RB presence, a working arrest pathway, reversible arrest, death, marrow protection and tumour control are contrasted across the connected paragraphs.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-005",
+      "rationale": "Phosphate transfer, cyclin regulatory partners and reading DNA into RNA are defined in the opening paragraph.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-006",
+      "rationale": "The G1-to-S/RB route is stated with its functional requirement rather than inferred from staining.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-007",
+      "rationale": "Cyclins E and A are named for CDK2, with no drug selection from cyclin E abundance alone.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-008",
+      "rationale": "CDK7's initiation and activating functions are supported by the primary chemical-genetic study and kept connected but distinguishable.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-009",
+      "rationale": "CDK9 elongation is sourced; the short-lived-transcript statement is a conditional measurement-reading rule, not a universal sensitivity claim.",
+      "qualification": "CDK9 elongation is source-backed. The short-lived-transcript part is framed as a conditional assay-reading rule; no universal empirical drug response is asserted."
+    },
+    {
+      "id": "CDK-010",
+      "rationale": "RB restraint, phosphorylation and the possible loss of this route with RB1 loss are separated from the presence of stained protein.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-011",
+      "rationale": "Achieved exposure and multikinase profiles are stated, and engagement is distinguished from cellular effects.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-012",
+      "rationale": "The actual purvalanol A/dinaciclib profiles and kinase knockdown scope replace an inference from MYC to any modern CDK drug.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-013",
+      "rationale": "NATALEE's ribociclib, nonsteroidal aromatase-inhibitor comparator and HR-positive/HER2-negative stage II/III population are explicit.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-014",
+      "rationale": "Prechemotherapy transient arrest of susceptible blood-forming cells is explained as a myeloprotection purpose.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-015",
+      "rationale": "TRACES is identified as Chinese ES-SCLC with distinct open and randomised parts and the cycle-one severe-neutropenia-duration endpoint.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-016",
+      "rationale": "The marrow endpoint is explicitly kept separate from tumour shrinkage, survival and evidence in another disease.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-017",
+      "rationale": "The assay paragraph names substrate phosphorylation, DNA synthesis, phases, RNA, cell counts and death with exposure, time and controls.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-018",
+      "rationale": "The cell-phase denominator is explicitly distinguished from the share of patients benefiting.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-019",
+      "rationale": "Counts and neutropenia days are described as marrow measures rather than tumour-response measurements.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-020",
+      "rationale": "Washout regrowth supports reversible arrest in the fictional case; kinase attribution, death, durability and comparison cells remain required.",
+      "qualification": null
+    },
+    {
+      "id": "CDK-021",
+      "rationale": "The practice answer separates affected kinase functions, stained RB presence, functional arrest and the clinically tested outcome.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-001",
+      "rationale": "Receptor signalling inhibition is defined with variant, drug, exposure and cellular-network context.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-002",
+      "rationale": "The extracellular/intracellular comparison is preserved while branched downstream networks reject a binary-switch interpretation.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-003",
+      "rationale": "All three contacts are explained and the cargo arrow is explicitly not a molecular map of processing.",
+      "qualification": "The cargo arrow is a contact/delivery schematic, not a molecular processing measurement."
+    },
+    {
+      "id": "EGFR-004",
+      "rationale": "The conjugate explanation explicitly separates target recognition and cargo delivery from kinase dependence.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-005",
+      "rationale": "The receptor aliases, tyrosine-kinase identity, outside ligand, receptor arrangement and internal phosphate-transfer machinery are stated.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-006",
+      "rationale": "MAPK and PI3K-AKT branches have other inputs, so downstream signal does not uniquely identify EGFR.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-007",
+      "rationale": "Drug-specific receptor/variant coverage, reversibility and achieved exposure are required for kinase inhibitors.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-008",
+      "rationale": "Cetuximab's extracellular contact is sourced; any immune contribution and a kinase inhibitor's evidence require separate assessment.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-009",
+      "rationale": "The contact explanation states that target recognition for cargo does not establish dependence on receptor kinase signalling.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-010",
+      "rationale": "Lynch's disease, activating kinase-domain alterations, gefitinib comparison and mutant-protein tests are preserved rather than inferred from abundance.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-011",
+      "rationale": "TBCRC 001 retains metastatic TNBC, the actual antibody/platinum combination and the paired-biopsy activation/inhibition counts.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-012",
+      "rationale": "BALI-1 retains its comparator, metastatic population, negative primary response endpoint and separation from secondary PFS and postoperative benefit.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-013",
+      "rationale": "Protein amount/location, DNA alteration, phosphorylation, engagement and growth dependence remain separate measurements.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-014",
+      "rationale": "Specimen, assay, variant and time are specified, and stain score, VAF and normalised signal use different units and denominators.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-015",
+      "rationale": "Concentrations and controls are required; an unspecified EGFR-high cutoff cannot select all EGFR-directed medicines.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-016",
+      "rationale": "The TBCRC paragraph distinguishes objective response from response plus prolonged stabilisation.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-017",
+      "rationale": "The fictional strong-stain/phosphorylation-down/growth-persisting example preserves attribution and alternative-input questions and leaves patient benefit open.",
+      "qualification": null
+    },
+    {
+      "id": "EGFR-018",
+      "rationale": "The practice answer separately asks amount, alteration function and product-specific mechanism and clinical-outcome evidence.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-001",
+      "rationale": "PI3K, AKT and mTOR are named as different intervention nodes with distinct profiles and clinical evidence.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-002",
+      "rationale": "The feedback example treats the pathway as an interacting network rather than a straight wire of isolated boxes.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-003",
+      "rationale": "The membrane lipid conversion, PTEN opposition, AKT recruitment, indirect mTORC1 coupling and nonexhaustive diagram scope are explicit.",
+      "qualification": "The selected pathway omits branches and uses indirect connections."
+    },
+    {
+      "id": "PIK-004",
+      "rationale": "The fictional output/phosphosite contrast is only compatible with compensation, not proof of the loop, universal rebound or benefit.",
+      "qualification": "A single fictional phosphosite contrast does not establish the feedback route."
+    },
+    {
+      "id": "PIK-005",
+      "rationale": "The lipid modification, AKT/protein-kinase-B identity and distinct mTOR complexes are explained without making PI3K exclusively a lipid enzyme.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-006",
+      "rationale": "PTEN phosphatase action is sourced and DNA, RNA, protein and enzyme-function measurements remain distinct.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-007",
+      "rationale": "Alpelisib's predominantly alpha profile, capivasertib's AKT forms and everolimus's different mTOR intervention are sourced separately.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-008",
+      "rationale": "Isoforms are defined and binding, selectivity and exposure remain product-specific rather than interchangeable at adjacent nodes.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-009",
+      "rationale": "O'Reilly's abstract supports the feedback/AKT finding in studied cells and patient tumours; the exercise does not infer missed target or survival.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-010",
+      "rationale": "The historical FDA example retains adult HR-positive/HER2-negative advanced disease, test-detected alterations, fulvestrant and prior endocrine conditions.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-011",
+      "rationale": "CAPItello-290's first-line metastatic TNBC population and dual negative primary OS outcomes are separated from secondary PFS.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-012",
+      "rationale": "Model hypotheses about repair or immunity explicitly do not prove improved combinations for every pathway inhibitor.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-013",
+      "rationale": "Phosphosite, substrate, specimen, comparator and time are required, with phosphorylation not used as a universal activity meter.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-014",
+      "rationale": "nM, normalised signals, growth and death are differentiated, as are engagement, dependence and clinical interpretation.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-015",
+      "rationale": "The fictional variant-to-any-AKT-drug inference is answered with variant function, product/exposure, disease, assay and clinical evidence.",
+      "qualification": null
+    },
+    {
+      "id": "PIK-016",
+      "rationale": "The practice answer identifies a mechanism hypothesis, the particular perturbed node and the outcome in the relevant treatment setting.",
+      "qualification": null
+    }
+  ],
+  "independentReview": false,
+  "coordinatorSourceAndReaderAssessment": true,
+  "unrepresentedUnits": [],
+  "inferenceBoundary": "Hypothetical exercises, measurement comparisons and non-transfer rules are authored inference. They do not assert observed treatment effects."
+}

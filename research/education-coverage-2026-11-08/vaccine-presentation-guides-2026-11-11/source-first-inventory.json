@@ -1,0 +1,1332 @@
+{
+  "baseHead": "d1bf9bb42d2908b408d69fee2b709aa5142a69c3",
+  "stage": "immutable source-first inventory before fresh owner comparisons",
+  "priorExposure": "Preceding vaccine/data and antigen audits exist; this inventory is not claimed blind to earlier project work.",
+  "rows": [
+    {
+      "id": "hla-01",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        0
+      ],
+      "kind": "teaching",
+      "requirement": "Keep the exact peptide and HLA protein attached to recognition claims; typing or a shared allele-group name alone does not prove tumour recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-02",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        2
+      ],
+      "kind": "teaching",
+      "requirement": "Read the fictional two-copy report at HLA-A, HLA-B and HLA-C, retaining all six named alleles rather than treating the report as a unique personal barcode.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-03",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        2
+      ],
+      "kind": "teaching",
+      "requirement": "Distinguish locus, allele group, protein field, synonymous and noncoding fields and the N null-expression suffix; retain report resolution and ambiguity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-04",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        2
+      ],
+      "kind": "teaching",
+      "requirement": "HLA-C*07:01 and HLA-C*07:02 share a first field but identify different proteins; transfer of a peptide or receptor result needs evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-05",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Laboratory typing tests or sequences specified regions; Sanger and next-generation methods differ in coverage and phase-resolving ability by protocol.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-06",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Phase assigns differences to an inherited copy; compare tested loci and regions, resolution and alternative assignments before accepting the allele report.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-07",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Computational inference from genome, exome or RNA data retains dataset, software/version and validation; capture, coverage and expression limit it, and research inference is distinct from clinically accepted typing and peptide-display measurement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-08",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Classical HLA-A/B/C commonly display intracellular-source peptides on most nucleated cells to conventional CD8 cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-09",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "HLA-DR/DP/DQ class II mainly occurs on professional presenting cells with inducible expression elsewhere and is conventionally read by CD4 cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-10",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Class-I groove geometry is closed at both ends; scope the roughly 8 to 10 residue usual range and reported roughly 11-residue repertoire to the source rather than an absolute length rule.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-11",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Class-II groove is open at both ends and accommodates the cited roughly 13 to 25 residue range; datasets and individual peptides vary.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-12",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "CD4 help and some cytotoxic CD4 responses do not demonstrate that a tumour displays the same peptide through class I.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-13",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Inherited type, tumour retention/expression, natural processing/display, matched recognition, function, safety and patient benefit are separate measurements; the diagram is a dependency chain rather than proof that every step occurred.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-14",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Proteasome cutting, TAP transport and ERAP trimming shape fragments; trimming can generate or destroy an epitope and more encoded windows do not bypass a shared processing defect.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-15",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "B2M supports classical class-I structure, with shared loss effects across class-I targets distinct from class II; RNA alone does not establish assembled surface peptide-HLA.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-16",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Affinity estimates, eluted-ligand outputs and percentile ranks differ; retain allele, model/version and output, and 0.5 percent rank does not imply 99.5 percent benefit. Limited allele training warrants scrutiny rather than categorical exclusion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-17",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "In the fictional P example, A*02:01 prediction, A*24:02 receptor recognition and source RNA do not establish one naturally displayed recognised pair; seek matched-allele and controlled tumour-recognition evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-18",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "TNBC-MERIT presentation escape is one relapse specimen with downregulated processing genes including B2M and near-complete class-I protein loss; probable B2M downregulation is not a demonstrated new B2M DNA mutation or a recurrence/rescue rule.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-19",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "Surface CAR recognition can avoid peptide-HLA restriction and NK responses depend on activating/inhibitory signals; neither becomes automatically effective after HLA loss.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-20",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        8
+      ],
+      "kind": "teaching",
+      "requirement": "The C*07:01 versus C*07:02 fictional prediction exercise needs the reported protein allele, resolution and model support; correct matching still leaves display, recognition and outcomes open.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-21",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        9
+      ],
+      "kind": "teaching",
+      "requirement": "Choosing a phase-ambiguous allele pair for favourable peptide predictions does not resolve inheritance; retain alternatives and obtain phase-resolving evidence, with later biological steps still unproved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-scope-01",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        1
+      ],
+      "kind": "non-credit",
+      "requirement": "The display-stand analogy restates peptide-HLA compatibility.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-scope-02",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        10
+      ],
+      "kind": "non-credit",
+      "requirement": "Explain-it-back derives from the independent evidence stages.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-scope-03",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        11
+      ],
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-step routing restate exact-pair evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "hla-scope-04",
+      "lesson": "hla",
+      "sectionOrdinals": [
+        12
+      ],
+      "kind": "non-credit",
+      "requirement": "Citation list, source-check labels and pending expert/learner status are source metadata, not evidence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-01",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        0
+      ],
+      "kind": "teaching",
+      "requirement": "Presentation, reagent binding, stimulated secretion and controlled target-cell effects answer different questions and do not independently establish clinical benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-02",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        1
+      ],
+      "kind": "teaching",
+      "requirement": "Choose the experiment to reduce a named candidate-board uncertainty rather than to accumulate positive-looking results.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-03",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Immunopeptidomics identifies HLA-associated peptides in a specified preparation, leaving completeness, cell of origin, recognition and function open.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-04",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "A specified peptide-HLA multimer labels sampled reagent-binding cells without by itself proving activation, natural tumour recognition or safe killing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-05",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Peptide-stimulated ELISpot measures secretion-associated spots, not receptor identity or recognition of naturally presenting tumour cells.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-06",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "A controlled tumour-cell assay supports effects under its defined conditions, leaving tissue safety, cell access, persistence and patient benefit open.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-07",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Compare sequence, allele, cell preparation, controls and analysis; complementary assays are not interchangeable and not every study uses all.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-08",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "PBMC preparations mix circulating immune cells; processing and freezing affect recovery/responses and blood is distinct from tumour.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-09",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "A multimer/flow percentage needs its parent population: T cells and all recovered cells are different denominators.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-10",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "ELISpot interpretation retains input-cell denominator, background and positivity rules; prior culture expansion can alter the comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-11",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "ICS assigns a defined-stimulus cytokine response to gated stained populations; multiple cytokines do not establish target-cell death.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-12",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "TCR sequencing supplies sampled receptor identities and clonality summarises their distribution; standard ICS and ELISpot do not supply receptor sequences.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-13",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Connecting a responsive population with a particular receptor needs a compatible identity experiment, rather than unrelated positive assay results.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-14",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "A cytotoxicity assay requires target-only survival, effector-to-target ratio, incubation time and antigen/presentation controls; reduced growth or metabolism is not necessarily killing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-15",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Synthetic peptide loading can supply abundant target while bypassing tumour production and processing; positive loaded-cell response needs a natural-presentation bridge.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-16",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "The biological immunopeptidome has cell/HLA/time context; the identified list is an incompletely recovered subset.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-17",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Retain capture reagent, HLA class, sequence database and confidence criteria; computational allele assignment differs from directly isolating that allele.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-18",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Mixed tissue may supply cancer, immune or stromal peptides, and whole-cell extracts can recover intracellular HLA; detection does not prove tumour-cell surface display or tumour exclusivity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-19",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Non-detection needs assay recovery and identification-sensitivity context rather than proof of biological absence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-20",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "A fixed paraffin block is not automatically a validated input for a named immunopeptidomics method; retain method-specific specimen requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-21",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Barroso-Sousa 2020 compares 3969 primary/metastatic breast samples and receptor-defined subtype median TMB; higher group median in TNBC does not establish individual TMB-high classification, assay yield, display, treatment eligibility or benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-22",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Receptor binding and cellular state/signalling differ; binding can label functionally different cells and a secretion assay can miss another response programme.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-23",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "In the invented notebook, mixed-tissue peptide A detection requires identification confidence and cell-origin questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-24",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "In the notebook, A-HLA blood multimer binding retains allele, staining controls and denominator, without a function conclusion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-25",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "More post-dose peptide-A spots require background, viability and expansion history, rather than unqualified natural tumour recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-26",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "A receptor sequence becoming relatively frequent does not identify the cells producing secretion spots or prove absolute expansion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-27",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "Keep the untested naturally presenting tumour-cell step visible despite several positives; a controlled positive strengthens that target/condition only, with safety and benefit separate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-28",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        8
+      ],
+      "kind": "teaching",
+      "requirement": "Negative results can reflect sample quality, recovery or wrong reagent; positives can reflect background, loading or culture selection, so inspect controls.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-29",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        8
+      ],
+      "kind": "teaching",
+      "requirement": "Relative clone share can rise because other clones fall; longitudinal interpretation retains handling, absolute counts where available, method/version and analysis.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-30",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        9
+      ],
+      "kind": "teaching",
+      "requirement": "Non-detection by immunopeptidomics plus a strong loaded-peptide ELISpot response does not prove natural display; both biological and technical explanations remain.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-31",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Interpret the figure as independent HLA-peptide recovery, shared-scaffold multimer binding and incubation/capture followed by washed spot readout; shapes and spot counts are schematic, with no implied killing or patient benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-scope-01",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        2
+      ],
+      "kind": "non-credit",
+      "requirement": "The smaller-question intuition recaps the independent experiment questions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-scope-02",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        10
+      ],
+      "kind": "non-credit",
+      "requirement": "Explain-it-back prompt derives from assay scope and limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-scope-03",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        11
+      ],
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-guide link restate scope and route the reader.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "assays-scope-04",
+      "lesson": "assays",
+      "sectionOrdinals": [
+        12
+      ],
+      "kind": "non-credit",
+      "requirement": "Source-check statements and citation list retain reading metadata without evidence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-01",
+      "lesson": "board",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Separate tumour event, longer encoded source window, processed epitope and the conventional TCR peptide-HLA target.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-02",
+      "lesson": "board",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Several windows or pairs can arise from one event; ten windows are not ten independent alterations and multiple classical class-I alleles can share B2M dependence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-03",
+      "lesson": "board",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "A stop-gain introduces termination rather than a new amino acid; unchanged upstream sequence alone supplies no new mutant peptide, while a frameshift can create an altered downstream tail.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-04",
+      "lesson": "board",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "In the fictional M/N comparison the unchanged truncated M label supplies no new sequence by itself, while N supplies a candidate tail; neither proves displayed recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-05",
+      "lesson": "board",
+      "sectionOrdinals": [
+        3
+      ],
+      "kind": "teaching",
+      "requirement": "Nonsense-mediated decay depends on transcript context; retain mutant RNA support and later processing/recognition tests rather than use the prediction as a universal filter.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-06",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Credible tumour/normal sequence comparison supports an event without establishing expression or display.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-07",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Sampled mutant RNA does not alone prove protein production or processing.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-08",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Processing/binding prediction is model support rather than measured surface presentation.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-09",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Measured HLA-associated peptide supports the preparation with cell origin, recognition and safety still open.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-10",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "A controlled T-cell response supports activity under the tested conditions without automatically proving natural tumour recognition or clinical benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-11",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Controlled tumour-cell recognition or killing supports tested targets without establishing distribution, durability or benefit in patients.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-12",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "A clinical outcome with a suitable comparison estimates benefit for that population, without automatic transfer to another product or setting.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-13",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Retain recovered-repertoire context and non-detection sensitivity, artificial loading limits and the exact tested method/version.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-14",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "DAI compares predicted mutant and matching normal peptide-HLA binding with explicit formula/sign conventions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-15",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "DAI inherits prediction errors; a possible tolerance rationale is not a measured lack of tolerance or a validated universal selection rule.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-16",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Ghorani 2018 is retrospective advanced lung/melanoma cohort evidence, mean DAI associated with survival in three of five cohorts for clonal peptides, not measured display/recognition or prospective vaccine benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-17",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional K at 0.4 percent eluted-ligand rank and L at predicted IC50 40 nM are not numerically comparable; retain output/task, units, allele and version, and IC50 is not automatically an equilibrium binding constant.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-18",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional A/B share Event 1 and allele X; B may add a window without independent coverage and loss of X challenges both.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-19",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional C has measured HLA-associated peptide but unresolved cancer-cell origin and recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-20",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional D has peptide-stimulated response and needs natural tumour-recognition evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-21",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional E combines broad estimated tumour-cell fraction with weak RNA support.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-22",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional F has RNA/prediction agreement but possible small-subclone coverage.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-23",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional G is a class-II helper route needing presenting-cell/context evidence; it is not an established rescue.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-24",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional H needs specificity work against similar healthy sequences; tumour-specific sequence does not prove selective recognition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-25",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional I has a strong rank with limited predictor support for its allele.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-26",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Fictional J has controlled tumour recognition but unresolved healthy-tissue specificity and durability.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-27",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Choose a next experiment against a named uncertainty rather than a universal A-J rank; for D a controlled tumour positive connects those tested cells, while a negative prompts processing/display/state/adequacy checks and neither estimates patient benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-28",
+      "lesson": "board",
+      "sectionOrdinals": [
+        5
+      ],
+      "kind": "teaching",
+      "requirement": "Tumour-cell fraction and truncality inference depend on purity, copy number and altered-copy count; high raw variant read fraction does not prove a truncal target.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-29",
+      "lesson": "board",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Correlated windows and model agreement are not independent validation; weighted models need appropriate held-out evaluation and explicit healthy-sequence/allele-support limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-30",
+      "lesson": "board",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Class-I and class-II choices can support different response components without guaranteeing recognition or resolving a shared presentation failure.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-31",
+      "lesson": "board",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Immunodominance may concentrate responses in a few encoded targets rather than all selected sequences.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-32",
+      "lesson": "board",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Epitope spreading can extend observed recognition to unencoded targets but does not itself demonstrate clinical benefit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-33",
+      "lesson": "board",
+      "sectionOrdinals": [
+        6
+      ],
+      "kind": "teaching",
+      "requirement": "Record selection and exclusion reasons, model versions, manual overrides and construct version as traceable design decisions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-34",
+      "lesson": "board",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "Ten added windows from one alteration restricted to one lost allele increase count without repairing shared display dependence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-35",
+      "lesson": "board",
+      "sectionOrdinals": [
+        7
+      ],
+      "kind": "teaching",
+      "requirement": "Under the fictional changed reports, X loss challenges A/B/C/J, whereas B2M-supported classical class-I failure challenges A-F and H-J; G needs separate class-II assessment and original open questions and clinical-ranking limits remain.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-36",
+      "lesson": "board",
+      "sectionOrdinals": [
+        4
+      ],
+      "kind": "teaching",
+      "requirement": "Original-only explanatory definition distinguishes the peptide HLA-contacting agretope from the TCR-reading face; retain it as an explanatory model rather than a universal structural partition.",
+      "appliesTo": [
+        "original"
+      ]
+    },
+    {
+      "id": "board-scope-01",
+      "lesson": "board",
+      "sectionOrdinals": [
+        0
+      ],
+      "kind": "non-credit",
+      "requirement": "The lead, prerequisites and objectives restate the evidence-ledger task.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-scope-02",
+      "lesson": "board",
+      "sectionOrdinals": [
+        1
+      ],
+      "kind": "non-credit",
+      "requirement": "Pipeline placement is routing from data/HLA to construction, not an independent experiment.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-scope-03",
+      "lesson": "board",
+      "sectionOrdinals": [
+        2
+      ],
+      "kind": "non-credit",
+      "requirement": "The ledger-versus-rank intuition derives from evidence/dependency comparison.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-scope-04",
+      "lesson": "board",
+      "sectionOrdinals": [
+        8
+      ],
+      "kind": "non-credit",
+      "requirement": "Explain-it-back derives from measured-step limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-scope-05",
+      "lesson": "board",
+      "sectionOrdinals": [
+        9
+      ],
+      "kind": "non-credit",
+      "requirement": "Takeaway and next-guide link recap dependency-aware selection.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    },
+    {
+      "id": "board-scope-06",
+      "lesson": "board",
+      "sectionOrdinals": [
+        10
+      ],
+      "kind": "non-credit",
+      "requirement": "Citation list, check dates and pending review remain metadata without credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ]
+    }
+  ]
+}

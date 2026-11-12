@@ -1,0 +1,1403 @@
+{
+  "dataCommit": "bf8aea4de6de35b06dc1b4ba0eac66474aa12904",
+  "existingOwnersChanged": [
+    "case-report",
+    "data-maturity",
+    "endpoint",
+    "hazard-ratio",
+    "intention-to-treat",
+    "keynote-522",
+    "meta-analysis",
+    "optimice-pcr",
+    "orr",
+    "population-versus-individual-risk",
+    "trial-protocol"
+  ],
+  "newCanonicalIds": [],
+  "newConnectedNotes": 29,
+  "literalFieldChanges": [
+    {
+      "id": "intention-to-treat",
+      "file": "src/data/terms-jargon.ts",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis"
+          }
+        ],
+        "asOf": "2026-09-09",
+        "tldr": "Analysing every patient in the group they were randomised to, whether or not they actually took the treatment. It preserves the fairness of randomisation and reflects what happens when a treatment is prescribed in real life; per-protocol analysis, by contrast, counts only those who complied.",
+        "summary": "ITT is the primary analysis for superiority trials because excluding non-compliers or early dropouts reintroduces bias. Per-protocol analyses matter for non-inferiority trials, where non-compliance can mask a real difference. 'Modified ITT' variants exclude patients who never received a dose or lacked a baseline measurement and should be pre-specified. 'Response-evaluable' populations in single-arm trials inflate response rates by dropping early progressors, and 'safety population' counts patients as treated. Trial and drug pages on this site report ITT results unless stated."
+      },
+      "after": {
+        "notes": [
+          "The intention-to-treat principle follows everyone in the group to which they were randomly assigned, including people who stop, switch or never start treatment. Keeping that assignment protects the comparison against selection after randomisation; it does not supply an unobserved outcome. ICH E9 describes a full analysis set as close as possible to all randomised participants, with limited, justified exclusions. Its 2021 addendum asks which treatment effect is intended and how treatment changes are reflected. A treatment-policy question uses relevant outcomes despite specified treatment changes, while a hypothetical question targets a stated alternative scenario. Neither label makes missing data harmless.",
+          "A per-protocol set uses prespecified requirements such as sufficient treatment exposure, relevant measurements and absence of major protocol violations. It is not simply everyone who finished, and adherence can be related to treatment and outcome. ICH E9 recommends the full analysis set for the primary superiority comparison apart from exceptions. In non-inferiority or equivalence, dilution towards no difference can instead make similarity too easy to claim; the roles of analysis sets and sensitivity analyses need careful justification. Selecting adherent participants does not automatically restore an unbiased causal comparison.",
+          "Read the exact definition behind modified intention-to-treat, evaluable and safety populations. A modified set might require a dose, a baseline result or another condition; the name supplies no universal rule. Report all assigned participants, those analysed, exclusion reasons, missing outcomes, grouping and observation window. Safety commonly includes exposed participants, with the actual grouping and exposure denominator specified. These sets can differ from an efficacy comparison. No default analysis population should be assumed for a trial or drug page without checking its report.",
+          "Fictional denominator example: four responses among 20 people give 20%. If ten people without documented response are excluded and the four responses remain, four of ten gives 40%. This illustrates how that particular exclusion changes the reported rate; it is not evidence that every evaluable analysis inflates response by a known amount. The reason for missing assessment, prespecified rules and the scientific question still matter."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Intention-to-treat_analysis"
+          },
+          {
+            "label": "ICH E9: statistical principles, analysis sets and safety (September 1998)",
+            "url": "https://www.fda.gov/media/71336/download"
+          },
+          {
+            "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+            "url": "https://www.fda.gov/media/148473/download"
+          },
+          {
+            "label": "CONSORT 2025: transparent reporting of randomised trials",
+            "url": "https://doi.org/10.1136/bmj-2024-081123"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "An intention-to-treat analysis keeps participants in the groups to which they were randomly assigned. Missing outcomes and departures from treatment still need an explicit analysis plan.",
+        "summary": "Intention to treat is an analysis principle preserving the original randomised assignment, including people who change or stop treatment. ICH E9 describes a full analysis set as close as possible to all randomised participants and requires justification of exclusions. Missing outcomes remain a potential source of bias. Per-protocol and modified populations need explicit, prespecified definitions; their roles depend on the clinical question and design. The E9(R1) estimand framework links that question to the treatment conditions, population, outcome, handling of intercurrent events and summary measure. Read the actual report rather than assuming a default analysis population."
+      },
+      "beforeHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "5b7b54bd4ef81d90106de36a030c99e7e5579c88ced7e964fb9e83eb993ff376",
+        "asOf": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+        "tldr": "941d7ad580728dbc8e1c37f87292f4d122516ecdcbbf8b317371b706e0cea83b",
+        "summary": "7fb54b04ab26f477402d390ac7fb4371735f259eca8e80a7714e63941551d509"
+      },
+      "afterHashes": {
+        "notes": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "links": "8c4881b79178c22cc332ed1924670402e9fe5d280de516610d785f4fe22a4453",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "106ca99457b47e5e3e18f8785b597435b6bc53a52dad003550d286afd7eebb66",
+        "summary": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b"
+      },
+      "newNoteStart": 0,
+      "newNotes": 4
+    },
+    {
+      "id": "endpoint",
+      "file": "src/data/terms-basics.ts",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Clinical_endpoint"
+          }
+        ],
+        "asOf": "2026-09-09",
+        "tldr": "The specific outcome a trial is designed to measure, fixed in advance: for example how long patients live, or how long before their cancer grows. A trial 'meets its endpoint' when the new treatment beats the comparison on that measure.",
+        "summary": "The primary endpoint determines the trial's size and its verdict; secondary endpoints (response rate, quality of life, safety, overall survival if not primary) add context but are not what the trial was powered to prove. Overall survival is the gold standard because it is unambiguous and matters most, but it takes years and is muddied when control patients later receive the new drug; progression-free survival, response rate and pathologic complete response are faster surrogates that may or may not translate into living longer. Choosing endpoints, and whether regulators should accept surrogates, is one of the most contested areas in oncology."
+      },
+      "after": {
+        "notes": [
+          "A study question card keeps the population and setting, prior treatment and exclusions, complete intervention and comparator, endpoint definition and assessment, starting clock and horizon together. The intervention may be a sequence of medicines, procedures and surgery. Read the protocol and analysis plan for treatment stopping, switching and missing outcomes. A percentage without these details may answer a different question from the proposed action.",
+          "Consider a fictional trial in operable cancer with one random assignment to study drug plus common chemotherapy, surgery and study drug afterwards, or placebo on the same sequence. Comparing the whole assigned strategies does not isolate starting the drug only after surgery, because there is no second postoperative assignment. From the common randomisation origin, a recurrence in someone still alive and a death without earlier recurrence both count in a recurrence-or-death composite; only the death counts in overall survival. An improvement in a composite need not mean that every component improved. This is a reasoning example, with no dosing schedule or effect size.",
+          "For another fictional comparison, 95% alive three years after surgery and 90% free of recurrence or death three years after randomisation cannot be ranked as if they measured one outcome. The events and starting clocks differ; someone alive with recurrence contributes differently. An event-free percentage is not a permanent cure rate. State the eligible population, both complete strategies, event definition and origin before interpreting a benefit."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Clinical_endpoint"
+          },
+          {
+            "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+            "url": "https://www.fda.gov/media/148473/download"
+          },
+          {
+            "label": "FDA: oncology clinical endpoints, nonbinding guidance (December 2018)",
+            "url": "https://www.fda.gov/media/71195/download"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "An endpoint specifies an outcome and how and when it is assessed. A study's statistical plan determines what counts as meeting its primary endpoint.",
+        "summary": "A trial defines primary, secondary and exploratory outcomes and how they are measured and analysed. The primary question informs design, sample size and testing; having a secondary endpoint does not by itself establish whether it was adequately powered or met a prespecified testing rule. Overall survival concerns death from any cause, while response, progression, symptoms and quality of life answer different questions. A composite endpoint combines specified events, so its definition and starting time matter. FDA's December 2018 nonbinding oncology-endpoint guidance distinguishes direct clinical benefit and context-dependent surrogate evidence; use in an approval does not make an endpoint interchangeable with survival in every setting."
+      },
+      "beforeHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "2eed88508fb52b8e2c53df896e41965a37a8a785a7861895be5d20a08108a1e8",
+        "asOf": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+        "tldr": "7cc51d0d698ec936a251767384e20d52dc078b02de99b78b8c1a5d2cb7eaed45",
+        "summary": "c36941e4a5679e1588e8171072a5d91388a10ef1ff74200f2d854d21f8c9b13e"
+      },
+      "afterHashes": {
+        "notes": "2b8f69c7f87d079d7c981bc8c466cd69318046a2e5d59959732c0e5c5ce3f43b",
+        "links": "2a459c2994e7e4e16a1f5f1b1cd45ff30fce78e0761f316f91d32f8ae083ae1f",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "c6f774b2a15d35c6a67ed5d16e1dc89136aae3eccf1a72c1a22e00085aabd6c9",
+        "summary": "21e3b8ecf04a5484b60a5cbf40992dd1874b8340a6e60f805a84bbbfcb03c1d8"
+      },
+      "newNoteStart": 0,
+      "newNotes": 3
+    },
+    {
+      "id": "trial-protocol",
+      "file": "src/data/trial-design-wave.ts",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Clinical_trial_protocol"
+          },
+          {
+            "label": "SPIRIT statement: standard protocol items for clinical trials",
+            "url": "https://www.spirit-statement.org/"
+          },
+          {
+            "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+            "url": "https://www.ich.org/page/efficacy-guidelines"
+          }
+        ],
+        "asOf": "2026-09-17",
+        "summary": "A protocol is a long document, often more than a hundred pages, that states the rationale and objectives, the design, the eligibility criteria, the treatments and their dose modifications, the schedule of visits and assessments, the endpoints and how each is defined and measured, the sample size and its justification, the interim analyses and stopping rules, the safety reporting rules, and the governance (sponsor, steering committee, data monitoring committee, ethics oversight). The SPIRIT statement lists what a protocol should contain, and journals increasingly publish protocols so that the final report can be checked against them. The statistical analysis plan is a companion document finalised before the data are unblinded that fixes the analysis populations, the handling of missing data and intercurrent events, the order in which endpoints are tested and the alpha each receives, the pre-specified subgroups and the sensitivity analyses. Together they are what makes pre-specified mean something.\n\nProtocols change. Amendments add sites, adjust eligibility when recruitment is slow, revise dose modifications in response to toxicity, or, more consequentially, change the primary endpoint or the sample size; each amendment goes back to the ethics committee and regulators and is dated in the registry record, so a reader can see what changed and when. Deviations are departures from the protocol for individual patients (a missed scan, a dose given outside its window) and are logged and classified by seriousness; a pattern of deviations at one site is a monitoring finding. The strict week-twelve event definition written into BELINDA's protocol, combined with a long manufacturing interval, is a documented example of protocol choices deciding a trial's verdict: the trial found no difference in event-free survival where two similar trials found a large one.\n\nFor readers, the protocol answers the questions a paper leaves out: exactly who was eligible, what counted as progression, how many analyses were planned, and whether the headline analysis was the one specified. Registries link to protocols for many trials, and supplementary appendices to trial papers usually contain them. A result that cannot be traced to a pre-specified analysis in a dated protocol is a hypothesis, however small its p-value."
+      },
+      "after": {
+        "notes": [
+          "Read the protocol and dated analysis plan alongside the report. Write the population, complete assigned strategies, comparator, outcome and assessment, origin and horizon, analysis population and treatment-change rules. Then check precision, bias and applicability separately. Events, sample size, intervals and power concern precision; assignment, assessment, missing outcomes and selected reporting concern bias; eligibility, care sequence, comparator and endpoint concern applicability. A narrow interval cannot fix a systematically biased or mismatched comparison. CONSORT 2025 requests transparent reporting, including plan access, denominators, missing data and harms; a completed checklist is not a certificate of validity.",
+          "Two fictional studies answer different questions. Study A treats a single group with metastatic disease after several earlier therapies and observes shrinkage. It describes activity among those treated without supplying a concurrent alternative, comparative survival or quality of life, or postoperative safety. More participants or a phase label cannot erase differences in selection, treatment era or assessment against a historical cohort. Study B randomises people with operable disease to whole treatment sequences and compares first recurrence or death. That can address its assigned strategy under suitable conduct and analysis, while leaving the final unrandomised component unresolved. Resemblance to the participants does not turn an untested action into a tested one.",
+          "Keep harms in the same comparison: the number assessed, absolute frequency, severity, onset, duration, symptoms, discontinuation and quality of life. An omitted adverse outcome is not an observed absence of harm, and uncommon or late effects may remain uncertain. More follow-up can clarify one question without supplying a different treatment comparison. Benefits from separate trials with different populations, controls or starting clocks cannot simply be added into a personal estimate."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Clinical_trial_protocol"
+          },
+          {
+            "label": "SPIRIT statement: standard protocol items for clinical trials",
+            "url": "https://www.spirit-statement.org/"
+          },
+          {
+            "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+            "url": "https://www.ich.org/page/efficacy-guidelines"
+          },
+          {
+            "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+            "url": "https://www.fda.gov/media/148473/download"
+          },
+          {
+            "label": "CONSORT 2025: transparent reporting of randomised trials",
+            "url": "https://doi.org/10.1136/bmj-2024-081123"
+          },
+          {
+            "label": "NCI: how clinical trials work",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+          },
+          {
+            "label": "Cochrane Handbook chapter 5: link multiple reports of one study",
+            "url": "https://training.cochrane.org/handbook/current/chapter-05"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "summary": "A protocol is a long document, often more than a hundred pages, that states the rationale and objectives, the design, the eligibility criteria, the treatments and their dose modifications, the schedule of visits and assessments, the endpoints and how each is defined and measured, the sample size and its justification, the interim analyses and stopping rules, the safety reporting rules, and the governance (sponsor, steering committee, data monitoring committee, ethics oversight). The SPIRIT statement lists what a protocol should contain, and journals increasingly publish protocols so that the final report can be checked against them. The statistical analysis plan is a companion document finalised before the data are unblinded that fixes the analysis populations, the handling of missing data and intercurrent events, the order in which endpoints are tested and the alpha each receives, the pre-specified subgroups and the sensitivity analyses. Together they are what makes pre-specified mean something.\n\nProtocols change. Amendments add sites, adjust eligibility when recruitment is slow, revise dose modifications in response to toxicity, or, more consequentially, change the primary endpoint or the sample size; each amendment goes back to the ethics committee and regulators and is dated in the registry record, so a reader can see what changed and when. Deviations are departures from the protocol for individual patients (a missed scan, a dose given outside its window) and are logged and classified by seriousness; a pattern of deviations at one site is a monitoring finding. The strict week-twelve event definition written into BELINDA's protocol, combined with a long manufacturing interval, is a documented example of protocol choices deciding a trial's verdict: the trial found no difference in event-free survival where two similar trials found a large one.\n\nFor readers, the protocol answers the questions a paper leaves out: exactly who was eligible, what counted as progression, how many analyses were planned, and whether the headline analysis was the one specified. Registries link to protocols for many trials, and supplementary appendices to trial papers usually contain them. Check the dated plan and access to relevant outcomes to distinguish a confirmatory analysis from planned exploration and later discovery. A small p-value alone does not establish that the analysis was prespecified."
+      },
+      "beforeHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "6a2f409cf2910cf4350dcd62b2565e35a347ace8f62936bb7580882607fad5a5",
+        "asOf": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+        "summary": "857998894d9aadf1f5ca386914ac61bbc45336c2ffca417fb6f80f70b1e326b5"
+      },
+      "afterHashes": {
+        "notes": "9015a1c36584a98d0560cf7d7983dad7ee4b073434359a5835215158585f78cb",
+        "links": "a166eaf2d18eff114c2d909754c51e4f0d2deccb875e18029985479a153866bb",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "summary": "227b6d44aa8ae01e7a01ab3a28a20a228c111da172e34e9bac8b931e57957b55"
+      },
+      "newNoteStart": 0,
+      "newNotes": 3
+    },
+    {
+      "id": "orr",
+      "file": "src/data/terms.ts",
+      "before": {
+        "notes": [
+          "DCR and CBR may add protocol-defined stable disease and minimum-duration conditions; adding those participants changes the endpoint rather than increasing ORR. Duration of response concerns the responding population and its own starting time."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors"
+          },
+          {
+            "label": "FDA 2018: response, duration and clinical endpoint context",
+            "url": "https://www.fda.gov/media/71195/download?attachment="
+          },
+          {
+            "label": "RECIST 1.1 primary guideline: definitions and confirmation, 2009",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19097774/"
+          },
+          {
+            "label": "RECIST 1.1 full guideline: overall categories and duration sections",
+            "url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "notes": [
+          "DCR and CBR may add protocol-defined stable disease and minimum-duration conditions; adding those participants changes the endpoint rather than increasing ORR. Duration of response concerns the responding population and its own starting time.",
+          "Fictional response example: among 20 people with complete assessment, four partial responses and six additional stable-disease outcomes give an objective response rate of 4/20, or 20%, and a disease-control rate of 10/20, or 50%. A clinical-benefit rate that requires durable stable disease cannot be calculated until the duration rule and follow-up are supplied. These are participant-level outcomes, not a fraction of tumour cells killed. Response criteria, confirmation, assessment period, denominator and missing-result rules stay with the number; neither label alone establishes survival or quality-of-life benefit."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Response_evaluation_criteria_in_solid_tumors"
+          },
+          {
+            "label": "FDA 2018: response, duration and clinical endpoint context",
+            "url": "https://www.fda.gov/media/71195/download?attachment="
+          },
+          {
+            "label": "RECIST 1.1 primary guideline: definitions and confirmation, 2009",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19097774/"
+          },
+          {
+            "label": "RECIST 1.1 full guideline: overall categories and duration sections",
+            "url": "https://project.eortc.org/recist/wp-content/uploads/sites/4/2015/03/RECISTGuidelines.pdf"
+          },
+          {
+            "label": "FDA: oncology clinical endpoints, nonbinding guidance (December 2018)",
+            "url": "https://www.fda.gov/media/71195/download"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "3b1a184da3d10919e412443c3c1f15a9acbd1e21bd5fbdc9f65ebcfa485f8442",
+        "links": "3b38d5824059ac412d2dfdd0d436d288e169f5671b35ba3f23bb4641e4f45642",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterHashes": {
+        "notes": "5089bb6d8d5f2115c965ca99d1ec244668c602aab73cb613c50e68708f579046",
+        "links": "16db017ccbe7fde46d78e29d538bfb07bc35fd0983c3288377fec700332abd42",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNoteStart": 1,
+      "newNotes": 1
+    },
+    {
+      "id": "case-report",
+      "file": "src/data/education-study-prediction-2026-11.ts",
+      "before": {
+        "notes": [
+          "A careful case timeline can preserve an unusual experience and generate questions. Published memorable successes do not supply all treated people as a denominator, so they cannot establish a response probability or treatment ranking. Several scans in one person remain observations from one person. A report usually lacks the concurrent counterfactual outcome under another treatment, and even a rigorous individual comparison would not establish the average effect in everyone sharing a cancer label.",
+          "Fictional clinical history: treatment A starts, a procedure is added, treatment B starts and a later scan improves. This establishes improvement during that course, not the separate added contributions of the procedure or B. The earlier treatment, procedure and later treatment can have overlapping lasting influences. Drawing overlapping ribbons represents that possibility and ordering only; it supplies no measured effect size or known duration. Documenting experience and planning an interpretable comparison are different routes to evidence."
+        ],
+        "links": [
+          {
+            "label": "CARE guidelines: consensus-based clinical case reporting guideline (Deutsches Arzteblatt 2013)",
+            "url": "https://doi.org/10.3238/arztebl.2013.0603"
+          },
+          {
+            "label": "CENT 2015: CONSORT extension for reporting N-of-1 trials (BMJ)",
+            "url": "https://doi.org/10.1136/bmj.h1738"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "A careful case timeline can preserve an unusual experience and generate questions. Published memorable successes do not supply all treated people as a denominator, so they cannot establish a response probability or treatment ranking. Several scans in one person remain observations from one person. A report usually lacks the concurrent counterfactual outcome under another treatment, and even a rigorous individual comparison would not establish the average effect in everyone sharing a cancer label.",
+          "Fictional clinical history: treatment A starts, a procedure is added, treatment B starts and a later scan improves. This establishes improvement during that course, not the separate added contributions of the procedure or B. The earlier treatment, procedure and later treatment can have overlapping lasting influences. Drawing overlapping ribbons represents that possibility and ordering only; it supplies no measured effect size or known duration. Documenting experience and planning an interpretable comparison are different routes to evidence.",
+          "A testimonial remains an attributed report until its underlying observations can be checked. In an explicitly fictional blog, a person with metastatic cancer adds an off-label medicine to standard chemotherapy and later scans show shrinkage. Accepting those observations as the example's premise establishes improvement during that combination; it does not isolate the added medicine, its safety or how often the result occurs. Record every intervention and measurement on the timeline and ask for a series or trial with all treated participants, failures, follow-up and a suitable comparison. A company video showing three successes has a different meaning if three of five or three of 500 people were treated. Selected successes do not supply the missing denominator or a personal forecast."
+        ],
+        "links": [
+          {
+            "label": "CARE guidelines: consensus-based clinical case reporting guideline (Deutsches Arzteblatt 2013)",
+            "url": "https://doi.org/10.3238/arztebl.2013.0603"
+          },
+          {
+            "label": "CENT 2015: CONSORT extension for reporting N-of-1 trials (BMJ)",
+            "url": "https://doi.org/10.1136/bmj.h1738"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "3f1ebb527ae71641eb90fbd0487b659e61b342f5bbf8437dc0ebdc9ddfc33bd7",
+        "links": "373593f683080dcb900eb832b4d0740a873f890b19e2a315bcb09995a21d0bb2",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "066eae6216ada4367191d8f3e2a0546111778f43cccfbf4c7894436e70e5e9c5",
+        "links": "373593f683080dcb900eb832b4d0740a873f890b19e2a315bcb09995a21d0bb2",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNoteStart": 2,
+      "newNotes": 1
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "file": "src/data/education-effect-reasoning-2026-11.ts",
+      "before": {
+        "notes": [
+          "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+          "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "A model that ranks outcomes well at Hospital A may need evaluation at Hospital B before its printed probabilities can be trusted there, particularly if treatment and follow-up differ. Relevant calibration, outcome definitions, horizon, inputs and uncertainty matter. A post-treatment test cannot simply replace a model's required pretreatment input, or vice versa. Risk under current care is also different from benefit from changing care: outcome prediction alone does not estimate a treatment effect. An uncertain but appropriately evaluated estimate can help a discussion without promising an outcome. A confidence interval for a group parameter is not a range of individual futures, and a narrow subgroup may contain too little information for precise personalisation."
+        ],
+        "links": [
+          {
+            "label": "NCI: understanding cancer prognosis",
+            "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+          },
+          {
+            "label": "TRIPOD-Cluster: model evaluation across settings",
+            "url": "https://www.bmj.com/content/380/bmj-2022-071058"
+          },
+          {
+            "label": "Hernan and Robins: Causal Inference: What If",
+            "url": "https://miguelhernan.org/whatifbook"
+          },
+          {
+            "label": "OncoGuide: population-vs-individual-risk (pinned teaching source)",
+            "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "notes": [
+          "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+          "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "A model that ranks outcomes well at Hospital A may need evaluation at Hospital B before its printed probabilities can be trusted there, particularly if treatment and follow-up differ. Relevant calibration, outcome definitions, horizon, inputs and uncertainty matter. A post-treatment test cannot simply replace a model's required pretreatment input, or vice versa. Risk under current care is also different from benefit from changing care: outcome prediction alone does not estimate a treatment effect. An uncertain but appropriately evaluated estimate can help a discussion without promising an outcome. A confidence interval for a group parameter is not a range of individual futures, and a narrow subgroup may contain too little information for precise personalisation.",
+          "Before using a calculator, record its exact name, version and recalibration; required input definitions, units, specimen dates and missing-value rules; development population, care era and received treatments; and predicted endpoint, origin and horizon. Ask how independent evaluation checked discrimination, calibration, selected cutpoints and uncertainty in the intended setting. TRIPOD+AI covers reporting of regression and machine-learning prediction studies; it is not a quality appraisal tool or proof that acting on a score helps. If a fictional calculator requires a residual postoperative marker but only a pretreatment result exists, do not substitute it or invent a correction with unrelated hazard ratios. An unknown input is not negative, and a printed 85% remains a model estimate rather than a guarantee.",
+          "In a fictional study, a negative blood test is associated with favourable five-year outcomes while everyone receives standard treatment. Those data do not establish that stopping treatment after a negative result is safe. The missing question compares the proposed result-guided strategy with the relevant alternative, with matched sampling time, population, event, uncertainty and follow-up. Pretreatment, on-treatment and surgical samples describe different states. A later landmark includes only people eligible at that time and excludes earlier events; the last sample available during year one is not automatically an early postoperative sample. Analytical reliability, prognosis, treatment-effect prediction and benefit from a test-guided action require distinct evidence."
+        ],
+        "links": [
+          {
+            "label": "NCI: understanding cancer prognosis",
+            "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+          },
+          {
+            "label": "TRIPOD-Cluster: model evaluation across settings",
+            "url": "https://www.bmj.com/content/380/bmj-2022-071058"
+          },
+          {
+            "label": "Hernan and Robins: Causal Inference: What If",
+            "url": "https://miguelhernan.org/whatifbook"
+          },
+          {
+            "label": "OncoGuide: population-vs-individual-risk (pinned teaching source)",
+            "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md"
+          },
+          {
+            "label": "Collins et al.: TRIPOD+AI prediction-model reporting guidance (2024)",
+            "url": "https://doi.org/10.1136/bmj-2023-078378"
+          },
+          {
+            "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+            "url": "https://www.fda.gov/media/148473/download"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "ace235a4204ec5b4d7ce9f76a5cf12a085793ddb2bf7eda1b7b1032521f39ff0",
+        "links": "7618bb3abb794155dc87a1d72c74d585488ed6f80a6b33e2440764f257d85cfb",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "notes": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+        "links": "49b53739b6eee4b3415b157decdab6c50656b76fe47cf307c946a77681c04650",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNoteStart": 3,
+      "newNotes": 2
+    },
+    {
+      "id": "data-maturity",
+      "file": "src/data/terms-jargon.ts",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Censoring_(statistics)"
+          }
+        ],
+        "asOf": "2026-09-09",
+        "tldr": "Survival results are 'immature' when too few patients have died (or progressed) for the comparison to be reliable, so medians are 'not reached' and confidence intervals are wide. Mature data come with time and events; early positive looks can fade or strengthen.",
+        "summary": "Trials pre-specify the number of events needed for each analysis (the information fraction at an interim); with fewer events the hazard ratio is unstable and the median cannot be estimated. Regulators accept immature OS if PFS is positive and there is no detriment, but require the final analysis as a post-marketing commitment; ADAURA and KEYNOTE-522 were approved on DFS/EFS with OS immature, and both later matured positively, whereas other trials' early OS trends vanished. 'Not reached' medians in the experimental arm are a favourable sign but not a result. Censoring marks patients still event-free at the cut-off, and heavy early censoring (dropouts, loss to follow-up) can bias curves."
+      },
+      "after": {
+        "notes": [
+          "Read the data cutoff, planned look, follow-up distribution, endpoint event count, censoring and numbers still at risk beside the estimate and interval. More observed events can add information without guaranteeing a stable point estimate or eliminating bias. A fixed-time curve height, a median outcome time and median follow-up describe different quantities. A median is not reached when the estimated survival curve has not reached 50% during observation; a raw fraction of recorded events alone does not define the Kaplan-Meier median. An unreached median neither proves no events nor prevents every precise treatment comparison.",
+          "KEYNOTE-522 illustrates repeated looks within one trial. The 2020 report described median follow-up of 15.5 months, 104 event-free-survival events and a hazard ratio of 0.63 (95% confidence interval 0.43 to 0.93). At the fourth planned interim analysis, median follow-up was 39.1 months and the estimate was 0.63 (0.48 to 0.82). The sponsor-posted protocol-specified final update gives 0.68 (0.54 to 0.86) and explicitly says no formal statistical testing was performed for that update; its reported p-value is nominal. These reports are linked observations of the same randomised trial, not independent replications or permission for unlimited repeated significance tests. Registry medians for event-free and overall survival remain unestimable in both groups; use defined fixed-time results with their risk sets instead."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Censoring_(statistics)"
+          },
+          {
+            "label": "ICH E9: statistical principles, analysis sets and safety (September 1998)",
+            "url": "https://www.fda.gov/media/71336/download"
+          },
+          {
+            "label": "Schmid et al.: KEYNOTE-522 response and early EFS (2020)",
+            "url": "https://doi.org/10.1056/NEJMoa1910549"
+          },
+          {
+            "label": "Schmid et al.: KEYNOTE-522 event-free survival (2022)",
+            "url": "https://doi.org/10.1056/NEJMoa2112651"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT03036488: specified populations and sponsor-posted final results",
+            "url": "https://clinicaltrials.gov/study/NCT03036488"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "Data maturity describes how much follow-up and outcome information an analysis has. An unreached median and a precise treatment comparison are different questions.",
+        "summary": "Data maturity concerns the follow-up and outcome information available at a stated cutoff for a specified analysis. A trial may plan an analysis after a number of events or at another prespecified point. Interpret its estimate with the event count, interval, observation pattern, risk sets and analysis plan. More events often add precision, but do not guarantee stability or remove bias. A median that has not been reached is a statement about the estimated curve, not proof of no events, cure or an inherently unreliable treatment contrast. Repeated looks require a suitable statistical plan, and updated reports of the same participants do not constitute independent replication."
+      },
+      "beforeHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "538e732b290a138392cebe70f366d4f45f0aba5688ab05d56b336244a42651de",
+        "asOf": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+        "tldr": "5d5f1d21c9bdd0a057190821d47830dab442ca64d214aa84147bc3b573ccf765",
+        "summary": "34ffd5a999d026cb0fe05b41e0bb46dd67c573e209a4d895a08171fe2becaad9"
+      },
+      "afterHashes": {
+        "notes": "6563289d96767ba5f7597beaf28f00f4f087127a083805193548a78cb3cb223b",
+        "links": "9fa1ed2adb9be1e533d3bdbaec5b965fe51512d2b9ba6607af5f06a962bcf09c",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "f176456ce9e41b98330d14f23524190c685718c2a37d859d30e0477bb5f0f609",
+        "summary": "2a9b443670bf5c79c1c05564e7785f5842b2e066ca4848849a9abb8f4e51df85"
+      },
+      "newNoteStart": 0,
+      "newNotes": 2
+    },
+    {
+      "id": "keynote-522",
+      "file": "src/data/trials.ts",
+      "before": {
+        "notes": [
+          "Design (NEJM 2020): 1,174 patients with untreated stage II or III triple-negative breast cancer randomised 2 to 1 to pembrolizumab 200 mg or placebo every 3 weeks with four cycles of paclitaxel and carboplatin then four of doxorubicin or epirubicin with cyclophosphamide, surgery, then nine cycles of adjuvant pembrolizumab or placebo. Pathological complete response 64.8 versus 51.2 percent (first 602 patients); event-free survival at 36 months 84.5 versus 76.8 percent (hazard ratio 0.63, NEJM 2022); overall survival at 60 months 86.6 versus 81.7 percent (p 0.002, median follow-up 75.1 months, NEJM 2024). Residual cancer burden analysis (Annals of Oncology 2024): pembrolizumab reduced events in RCB-0, 1 and 2 (hazard ratios 0.70, 0.92, 0.52) but not RCB-3 (1.24).",
+          "UK sites (registry, 7): Colchester General Hospital, Barts Cancer Institute, St George's Hospital London, Maidstone Hospital, James Cook University Hospital Middlesbrough, Nottingham University Hospitals, Royal Cornwall Hospitals Truro. NICE TA851 (14 December 2022) commissions the regimen in England.",
+          "Label safety (Keytruda, 778 treated patients): serious adverse reactions 44 percent, fatal 0.9 percent, discontinuation of pembrolizumab 20 percent, most often for raised transaminases and rash."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT03036488",
+            "url": "https://clinicaltrials.gov/study/NCT03036488"
+          },
+          {
+            "label": "KEYNOTE-522 pathological complete response (NEJM 2020)",
+            "url": "https://doi.org/10.1056/NEJMoa1910549"
+          },
+          {
+            "label": "KEYNOTE-522 event-free survival (NEJM 2022)",
+            "url": "https://doi.org/10.1056/NEJMoa2112651"
+          },
+          {
+            "label": "KEYNOTE-522 overall survival (NEJM 2024)",
+            "url": "https://doi.org/10.1056/NEJMoa2409932"
+          },
+          {
+            "label": "KEYNOTE-522 event-free survival by residual cancer burden (Annals of Oncology 2024)",
+            "url": "https://doi.org/10.1016/j.annonc.2024.02.002"
+          },
+          {
+            "label": "NICE TA851 (14 December 2022)",
+            "url": "https://www.nice.org.uk/guidance/ta851"
+          }
+        ],
+        "asOf": "2026-09-04",
+        "tldr": "The trial that added immunotherapy to pre-surgery chemotherapy for triple-negative breast cancer and, uniquely, improved survival.",
+        "summary": "1,174 patients. pCR 64.8% vs 51.2%; event-free survival at 5 years 81.2% vs 72.2%; 7-year EFS 78.3% vs 69.8% and OS 85.1% vs 77.2% (ASCO 2026 update). Defines the standard of care for stage II-III TNBC. Open questions: whether adjuvant pembrolizumab is needed after pCR (OptimICE-pCR) and how to escalate for residual disease."
+      },
+      "after": {
+        "notes": [
+          "Design (NEJM 2020): 1,174 patients with untreated stage II or III triple-negative breast cancer randomised 2 to 1 to pembrolizumab 200 mg or placebo every 3 weeks with four cycles of paclitaxel and carboplatin then four of doxorubicin or epirubicin with cyclophosphamide, surgery, then nine cycles of adjuvant pembrolizumab or placebo. Pathological complete response 64.8 versus 51.2 percent (first 602 patients); event-free survival at 36 months 84.5 versus 76.8 percent (hazard ratio 0.63, NEJM 2022); overall survival at 60 months 86.6 versus 81.7 percent (p 0.002, median follow-up 75.1 months, NEJM 2024). The preplanned exploratory residual-cancer-burden analysis (Annals of Oncology 2024) reported EFS hazard ratios for RCB-0, 1, 2 and 3 of 0.70 (95% confidence interval 0.38 to 1.31), 0.92 (0.39 to 2.20), 0.52 (0.32 to 0.82) and 1.24 (0.69 to 2.23). These post-treatment strata can themselves be affected by treatment; their estimates do not separately randomise postoperative treatment or prove a benefit in every stratum.",
+          "UK sites (registry, 7): Colchester General Hospital, Barts Cancer Institute, St George's Hospital London, Maidstone Hospital, James Cook University Hospital Middlesbrough, Nottingham University Hospitals, Royal Cornwall Hospitals Truro. NICE TA851 (14 December 2022) commissions the regimen in England.",
+          "Label safety (Keytruda, 778 treated patients): serious adverse reactions 44 percent, fatal 0.9 percent, discontinuation of pembrolizumab 20 percent, most often for raised transaminases and rash.",
+          "The study question concerns the whole assigned sequence in previously untreated, non-metastatic stage II or III triple-negative breast cancer: T1c with N1 or N2, or T2 to T4 with N0 to N2, and performance status 0 or 1. The registry excludes prior checkpoint therapy and active autoimmune disease requiring systemic treatment in the preceding two years, among other criteria. There was one assignment of 784 people to pembrolizumab and 390 to placebo across preoperative chemotherapy, surgery and postoperative treatment, without a separate postoperative randomisation. Smaller node-negative tumours outside those entry criteria and metastatic disease are different settings. Entry did not require PD-L1 selection, and the high-risk early-stage indication in the prescribing information has no PD-L1 threshold.",
+          "The co-primary endpoints were pathological complete response at surgery, defined as ypT0/Tis ypN0, and event-free survival from randomisation. The response definition permits residual in-situ disease in the breast while excluding invasive residual cancer in breast and nodes. Event-free survival counts progression preventing definitive surgery, local or distant recurrence, a second primary cancer or death from any cause; overall survival is a secondary endpoint counting death from any cause. Because death is part of EFS, it is an event rather than a competing event for that composite. Analysing a recurrence component alone can require a different competing-risk question.",
+          "Keep the analysis cohorts separate. The 2020 first-interim pCR comparison used the first 602 randomised participants: 64.8% versus 51.2%, estimated difference 13.6 percentage points (95% confidence interval 5.4 to 21.8). The sponsor-posted first-1,002 comparison is 64.0% versus 54.7%, with a stratified difference of 9.2 points (2.8 to 15.6). That reported adjusted estimate is not simple subtraction of the rounded percentages. The current label also presents an all-1,174 pCR comparison, 63.0% versus 55.6%, estimated difference 7.5 points (1.6 to 13.4). These are different specified analysis populations, not interchangeable response claims.",
+          "At the fourth planned interim analysis reported in 2022, median follow-up was 39.1 months and all 1,174 participants contributed to the assigned-group survival comparison. Estimated 36-month EFS was 84.5% (95% confidence interval 81.7 to 86.9) versus 76.8% (72.2 to 80.7), with hazard ratio 0.63 (0.48 to 0.82). From the rounded survival estimates, the three-year absolute gain is 7.7 points, approximately eight additional people alive and event-free per 100, and number needed to treat is 1/0.077, about 13. The corresponding event risks are 15.5% versus 23.2%, a relative risk reduction of about 33%; the model's 37% lower hazard is a different measure.",
+          "The final overall-survival analysis published in 2024 used a March 22, 2024 cutoff and median follow-up of 75.1 months. Estimated 60-month OS was 86.6% versus 81.7%, with the paper reporting P=0.002; the label reports an OS hazard ratio of 0.66 (95% confidence interval 0.50 to 0.87) for the prespecified analysis. The absolute difference is 4.9 points, about five additional people alive per 100 at five years. Its reciprocal is 20.4, or 21 when rounding up to a whole-person number needed to treat. Neither this result nor the three-year EFS calculation identifies who benefits or combines benefit with harms. Comparing the 13.6-point pCR, 7.7-point EFS and 4.9-point OS gains does not show an effect shrinking over time: their endpoints, cohorts and horizons differ.",
+          "The ASCO 2026 conference abstract reports the later protocol-specified final follow-up, with an October 14, 2025 cutoff and median follow-up of 93.8 months. Seven-year EFS was 78.3% versus 69.8%, hazard ratio 0.68 (95% confidence interval 0.54 to 0.86); seven-year OS was 85.1% versus 77.2%, hazard ratio 0.64 (0.49 to 0.85). This is a conference abstract deposited by the authors, distinct from the 2024 full journal report and the sponsor-posted registry results. Longer observation of this cohort is not a second randomised trial.",
+          "Safety also retains its report and denominator. Across treatment phases, the 2020 paper reported treatment-related grade 3 or higher events in 78.0% versus 73.0%, including treatment-related deaths in 0.4% versus 0.3%. The label describes 778 versus 389 participants receiving at least one dose, distinct from the 784 versus 390 assigned. Its adverse-reaction categories and fatal-event figures must not be substituted for the paper's treatment-related categories. The prescribing information warns that immune-mediated reactions can arise after treatment stops and that hypothyroidism may require long-term hormone replacement. Event frequency, severity, duration, discontinuation and quality of life remain separate parts of the comparison.",
+          "The earlier adaptive phase 2 I-SPY2 report estimated pCR of 60% versus 22% in its triple-negative subgroup against its own chemotherapy control. That is a different comparison from KEYNOTE-522 and cannot establish a cross-trial treatment ranking. Likewise, better survival among people who achieve pCR is a prognostic association within selected response groups, not proof of the postoperative drug's separate effect or a validated rule selecting individual benefit. CTNeoBC found a strong pCR-outcome association but did not validate pCR as a trial-level surrogate for EFS or OS in its included trials. Here survival itself was measured.",
+          "The postoperative-only question remains distinct: OptimICE-pCR randomises people after pCR to postoperative pembrolizumab or observation, and the registry lists it as recruiting with no posted results. KEYNOTE-522 did not randomise dropping a chemotherapy component. CREATE-X compared postoperative capecitabine with standard postsurgical treatment after residual HER2-negative disease, while OlympiA compared olaparib with placebo in eligible high-risk germline BRCA1/2-associated HER2-negative disease after chemotherapy and local treatment. Those reports describe their own comparisons rather than a randomised test of adding either drug to the KEYNOTE-522 sequence. No result here is a personal forecast or a treatment-omission rule."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT03036488",
+            "url": "https://clinicaltrials.gov/study/NCT03036488"
+          },
+          {
+            "label": "KEYNOTE-522 pathological complete response (NEJM 2020)",
+            "url": "https://doi.org/10.1056/NEJMoa1910549"
+          },
+          {
+            "label": "KEYNOTE-522 event-free survival (NEJM 2022)",
+            "url": "https://doi.org/10.1056/NEJMoa2112651"
+          },
+          {
+            "label": "KEYNOTE-522 overall survival (NEJM 2024)",
+            "url": "https://doi.org/10.1056/NEJMoa2409932"
+          },
+          {
+            "label": "KEYNOTE-522 event-free survival by residual cancer burden (Annals of Oncology 2024)",
+            "url": "https://doi.org/10.1016/j.annonc.2024.02.002"
+          },
+          {
+            "label": "NICE TA851 (14 December 2022)",
+            "url": "https://www.nice.org.uk/guidance/ta851"
+          },
+          {
+            "label": "KEYTRUDA prescribing information: DailyMed version 228",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287&version=228"
+          },
+          {
+            "label": "Schmid et al.: KEYNOTE-522 final follow-up, ASCO 2026 conference abstract 507",
+            "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.507"
+          },
+          {
+            "label": "Nanda et al.: pembrolizumab in adaptive I-SPY2 (2020)",
+            "url": "https://doi.org/10.1001/jamaoncol.2019.6650"
+          },
+          {
+            "label": "Cortazar et al.: CTNeoBC association and trial-level surrogate analysis (2014)",
+            "url": "https://doi.org/10.1016/S0140-6736(13)62422-8"
+          },
+          {
+            "label": "Masuda et al.: CREATE-X postoperative capecitabine comparison (2017)",
+            "url": "https://doi.org/10.1056/NEJMoa1612645"
+          },
+          {
+            "label": "Tutt et al.: OlympiA postoperative olaparib comparison (2021)",
+            "url": "https://doi.org/10.1056/NEJMoa2105215"
+          },
+          {
+            "label": "ClinicalTrials.gov NCT05812807: OptimICE-pCR study and posted status",
+            "url": "https://clinicaltrials.gov/study/NCT05812807"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "KEYNOTE-522 compared adding pembrolizumab before and after surgery with placebo on the same chemotherapy and surgery sequence in early triple-negative breast cancer. It measured improvements in response and survival.",
+        "summary": "KEYNOTE-522 randomised 1,174 people with previously untreated stage II or III triple-negative breast cancer to a whole pembrolizumab or placebo strategy before and after surgery, with the same chemotherapy backbone. The first-602 pCR analysis reported 64.8% versus 51.2%. The 2022 report estimated three-year event-free survival at 84.5% versus 76.8%; the 2024 report estimated five-year overall survival at 86.6% versus 81.7%. An ASCO 2026 conference abstract reports seven-year EFS of 78.3% versus 69.8% and OS of 85.1% versus 77.2%. Keep each endpoint, analysis cohort and follow-up cutoff attached to its result. The trial did not separately randomise postoperative pembrolizumab or chemotherapy omission."
+      },
+      "beforeHashes": {
+        "notes": "6a11e6d8d3542dc542ba7ce76bfc177a2e5504b4fbd848f017ec6fe1bd690abe",
+        "links": "dc79d52f74a863ae1eeaeb08343666d6a578113a7d5b1b4cac7593acdabc6608",
+        "asOf": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "tldr": "05203306dab5164258da597c368aedf18006d9cc66d09861325d55c54f29c07e",
+        "summary": "abced349d7d00ce81b927005ff7a7ce0d559a64302e1ae5a6b9809f41bcca6e0"
+      },
+      "afterHashes": {
+        "notes": "4471c7e3d8c9684a1ba939ca8a09df7a4131e2f7977cc595984afac826f3bf5c",
+        "links": "e245c5b8dc53b89a040c63ebae2a7c2940ae6cf6aac95bf0800915ad1330f1c8",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "1b6e3e8f75a80d8988e333b5179c37338a76d35909fe4b45973996d09f844a79",
+        "summary": "e53b269075bbd1b88c9c932f5c4117e0c4703a22332610381af504be948996b0"
+      },
+      "newNoteStart": 3,
+      "newNotes": 9,
+      "intentionalRetainedNoteCorrection": {
+        "index": 0,
+        "reason": "Reconfirmed primary abstract; keep point estimates with their intervals and the post-treatment exploratory scope. All earlier regimen and dose facts retained."
+      },
+      "sourceWriters": {
+        "scalars": "src/data/trials.ts",
+        "notesAndSupplementLinks": "src/data/spikes/tnbc-treatment.ts",
+        "baseNCTLink": "src/data/trials.ts"
+      }
+    },
+    {
+      "id": "optimice-pcr",
+      "file": "src/data/trials.ts",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT05812807",
+            "url": "https://clinicaltrials.gov/study/NCT05812807"
+          }
+        ],
+        "asOf": "2026-09-04",
+        "tldr": "Asks whether patients whose cancer completely disappeared before surgery still need a year of immunotherapy afterwards.",
+        "summary": "OptimICE-pCR, Alliance trial A012103, NCT05812807, sponsored by the Alliance and the NCI, asks whether patients with stage II to III triple-negative breast cancer whose cancer completely disappeared before surgery on the KEYNOTE-522 regimen still need a year of adjuvant pembrolizumab afterwards. It is a de-escalation trial of 1,295 patients comparing adjuvant pembrolizumab with observation, and if non-inferior it would spare about sixty percent of KEYNOTE-522 patients nine cycles of immunotherapy; it was discussed at ASCO 2026 and is ongoing with no results. OnCo links it to triple-negative breast cancer, pembrolizumab, the pCR term, the TNBC roadmap, the idea of ctDNA-triggered escalation and the Alliance for Clinical Trials in Oncology. Whether pathologic complete response is a safe enough signal to stop treatment is the question it will answer."
+      },
+      "after": {
+        "notes": [
+          "The registry specifies randomisation after neoadjuvant chemotherapy with pembrolizumab and definitive surgery showing a pathological complete response. It compares continued pembrolizumab for 27 weeks with observation and asks whether observation is non-inferior for recurrence-free survival. That endpoint starts at this new randomisation and includes invasive local, regional or distant recurrence or death from any cause. Quality of life and adverse effects are also assessed. This is a separate postoperative comparison from KEYNOTE-522's whole perioperative assignment; a favourable pCR prognosis alone is not its answer.",
+          "The registry lists an estimated enrolment of 1,295, recruiting status and no posted results when checked on November 12, 2026; its last posted update is August 5, 2026. The planned postoperative duration is about 27 weeks, not a further year of immunotherapy after surgery. The study does not promise that a particular person can safely stop treatment."
+        ],
+        "links": [
+          {
+            "label": "ClinicalTrials.gov NCT05812807",
+            "url": "https://clinicaltrials.gov/study/NCT05812807"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "A trial comparing postoperative pembrolizumab with observation after a pathological complete response to preoperative treatment for triple-negative breast cancer.",
+        "summary": "OptimICE-pCR, Alliance A012103 and NCT05812807, is a randomised phase 3 trial after pathological complete response to neoadjuvant chemotherapy with pembrolizumab and definitive surgery for early-stage triple-negative breast cancer. It asks whether observation gives non-inferior recurrence-free survival compared with another 27 weeks of pembrolizumab and also assesses quality of life and adverse effects. The registry lists an estimated 1,295 participants, recruiting status and no posted results. This tests a postoperative continuation question rather than assuming that response alone establishes safe treatment omission."
+      },
+      "beforeHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "4fa5381866ad6f5f7f38d8e52b534d2b59f23b757d04a3c6e632609cebf95e68",
+        "asOf": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "tldr": "d676941d33127811d5dc71b6dcf4743319869dc58c1ad0a71da4e218b4119294",
+        "summary": "1d2b9ed484a354e0526fbbd8654147c60847c155b7fef46de57e68750399a673"
+      },
+      "afterHashes": {
+        "notes": "f77249ad11bc322e45ab3ca03a3de63ea6122c5a5f49fbe23d592327e4bfa374",
+        "links": "4fa5381866ad6f5f7f38d8e52b534d2b59f23b757d04a3c6e632609cebf95e68",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "ba3fb6e3899ade5055b469b79ffe54156c9947761475f1ab77f73949bc82a5e2",
+        "summary": "998c209f3f8648806400a3ebc8a5fc02d358ca0906ca31c7b70caaf594082496"
+      },
+      "newNoteStart": 0,
+      "newNotes": 2
+    },
+    {
+      "id": "hazard-ratio",
+      "file": "src/data/terms.ts",
+      "before": {
+        "notes": [
+          "A hazard is an instantaneous event rate among people still at risk, rather than the fraction of everyone enrolled who has had an event by a date. A hazard ratio divides one group's hazard by its reference group's hazard for a defined endpoint. A true ratio of one at a time means equal hazards at that time; the numerator determines the direction. As arithmetic from that definition, treatment/control HR 0.70 describes a 30% lower hazard under the model. It does not mean 30 percentage points fewer events, 30% longer survival or a 30% reduction in each person's probability. Reversing the comparison gives 1/0.70, about 1.43. Neither direction supplies five-year absolute benefit without further outcome information and assumptions.",
+          "In a Cox proportional-hazards model, proportionality means the ratio stays constant over time; the two hazards themselves need not be constant. An adjusted estimate depends on the included covariates and their coding, and adjustment does not remove unmeasured confounding. Read event and censoring times, comparison direction, analysis population and confidence interval with the model assessment. A reported HR may average changing effects, and an estimated HR of one does not establish that the curves are identical. Crossing curves can raise concern about proportionality without diagnosing every model failure. Time-specific rates or other prespecified summaries may be more informative. Cause-specific and subdistribution hazard ratios answer different competing-risk questions and cannot be substituted for one another.",
+          "A fictional exponential model makes the distinction between rate and risk visible. Assume constant control and treatment hazards of 0.10 and 0.07 per year, one event type and no competing events. The hazard ratio is 0.70, but the risk by time t is 1 - exp(-hazard × t). At five years, risks are about 39.3% and 29.5%: a risk ratio of about 0.75 and a difference of about 9.8 percentage points. Constant hazard lines therefore coexist with rising accumulated risks. Real studies need their actual curves and model checks. Only under the constant-hazard exponential assumptions does treatment median survival divided by control median survival equal 1/HR; an HR is not generally a ratio of medians. These invented numbers are not personal prognosis estimates.",
+          "Randomisation balances baseline groups in expectation, without guaranteeing identical realised groups or later risk sets. As follow-up proceeds, an HR compares people who have remained event-free, and treatment can change who those people are. Hernán's 2010 critique explains why that selection complicates a causal interpretation and recommends appropriately adjusted survival curves or risks at fixed times. Read the endpoint, curves, absolute outcomes and uncertainty beside the ratio. An adjusted biomarker association does not demonstrate that using the marker to select treatment improves outcomes. Boyd, Kittelson and Gillen (2012) argue that a marginal hazard ratio can still be useful as an average description over the observed data when hazards are not proportional. They also explain that the usual unweighted estimate can depend on the censoring distribution and study an estimator intended to remove that dependence under their assumptions. A defined average summary therefore needs its estimand, observation period, estimation method and censoring assumptions stated; it does not automatically become a fixed-time risk contrast or an individual causal effect."
+        ],
+        "links": [
+          {
+            "label": "Regression Models and Life-Tables",
+            "url": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x"
+          },
+          {
+            "label": "NIST: exponential-model formulas",
+            "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm"
+          },
+          {
+            "label": "The hazards of hazard ratios.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20010207/"
+          },
+          {
+            "label": "OncoGuide: hazard-ratio (pinned teaching source)",
+            "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md"
+          },
+          {
+            "label": "Boyd et al., 2012: average hazard-ratio interpretation and censoring",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22763957/"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "notes": [
+          "A hazard is an instantaneous event rate among people still at risk, rather than the fraction of everyone enrolled who has had an event by a date. A hazard ratio divides one group's hazard by its reference group's hazard for a defined endpoint. A true ratio of one at a time means equal hazards at that time; the numerator determines the direction. As arithmetic from that definition, treatment/control HR 0.70 describes a 30% lower hazard under the model. It does not mean 30 percentage points fewer events, 30% longer survival or a 30% reduction in each person's probability. Reversing the comparison gives 1/0.70, about 1.43. Neither direction supplies five-year absolute benefit without further outcome information and assumptions.",
+          "In a Cox proportional-hazards model, proportionality means the ratio stays constant over time; the two hazards themselves need not be constant. An adjusted estimate depends on the included covariates and their coding, and adjustment does not remove unmeasured confounding. Read event and censoring times, comparison direction, analysis population and confidence interval with the model assessment. A reported HR may average changing effects, and an estimated HR of one does not establish that the curves are identical. Crossing curves can raise concern about proportionality without diagnosing every model failure. Time-specific rates or other prespecified summaries may be more informative. Cause-specific and subdistribution hazard ratios answer different competing-risk questions and cannot be substituted for one another.",
+          "A fictional exponential model makes the distinction between rate and risk visible. Assume constant control and treatment hazards of 0.10 and 0.07 per year, one event type and no competing events. The hazard ratio is 0.70, but the risk by time t is 1 - exp(-hazard × t). At five years, risks are about 39.3% and 29.5%: a risk ratio of about 0.75 and a difference of about 9.8 percentage points. Constant hazard lines therefore coexist with rising accumulated risks. Real studies need their actual curves and model checks. Only under the constant-hazard exponential assumptions does treatment median survival divided by control median survival equal 1/HR; an HR is not generally a ratio of medians. These invented numbers are not personal prognosis estimates.",
+          "Randomisation balances baseline groups in expectation, without guaranteeing identical realised groups or later risk sets. As follow-up proceeds, an HR compares people who have remained event-free, and treatment can change who those people are. Hernán's 2010 critique explains why that selection complicates a causal interpretation and recommends appropriately adjusted survival curves or risks at fixed times. Read the endpoint, curves, absolute outcomes and uncertainty beside the ratio. An adjusted biomarker association does not demonstrate that using the marker to select treatment improves outcomes. Boyd, Kittelson and Gillen (2012) argue that a marginal hazard ratio can still be useful as an average description over the observed data when hazards are not proportional. They also explain that the usual unweighted estimate can depend on the censoring distribution and study an estimator intended to remove that dependence under their assumptions. A defined average summary therefore needs its estimand, observation period, estimation method and censoring assumptions stated; it does not automatically become a fixed-time risk contrast or an individual causal effect.",
+          "A separate fictional proportional-hazards example estimates a treatment-versus-control hazard ratio of 0.68 with a 95% confidence interval of 0.50 to 0.92 for first recurrence or death. Under that fitted model, the point estimate describes a 32% lower instantaneous event rate among those still at risk. It is different from the 30% five-year relative risk reduction in the fictional 20% versus 14% risk example. Neither 1/HR nor 1/(1 - HR) is number needed to treat; the actual time-specific absolute outcomes and relevant assumptions are needed."
+        ],
+        "links": [
+          {
+            "label": "Regression Models and Life-Tables",
+            "url": "https://doi.org/10.1111/j.2517-6161.1972.tb00899.x"
+          },
+          {
+            "label": "NIST: exponential-model formulas",
+            "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr161.htm"
+          },
+          {
+            "label": "The hazards of hazard ratios.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20010207/"
+          },
+          {
+            "label": "OncoGuide: hazard-ratio (pinned teaching source)",
+            "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/hazard-ratio.md"
+          },
+          {
+            "label": "Boyd et al., 2012: average hazard-ratio interpretation and censoring",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22763957/"
+          },
+          {
+            "label": "Altman and Andersen: time-specific number needed to treat and hazard-ratio limits (1999)",
+            "url": "https://doi.org/10.1136/bmj.319.7223.1492"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "91c0c5919ddffe819f663e52ac270c547d7722b91055ef8f07ce22dc0295593c",
+        "links": "5c2b5d811426528efc9a345ba691632d86f1ab1045542754982784504047e959",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "notes": "fac846eb91e45b135ff7b79ceffe7d22cb55c126684f54f9312c1ea6c6e4ccf5",
+        "links": "fa2cbae83db4a0c1a6ddd1f59b41e0c8b52361c23852bafddfa89cae0a873f27",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNoteStart": 4,
+      "newNotes": 1
+    },
+    {
+      "id": "meta-analysis",
+      "file": "src/data/education-study-prediction-2026-11.ts",
+      "before": {
+        "notes": [
+          "A common-effect model targets one underlying effect, while a random-effects model describes a distribution of study effects and its mean. Weights follow the stated estimator, not simply the largest participant count. Clinical and methodological differences, bias and heterogeneity beyond sampling error need investigation; a random-effects calculation does not remove them or make incompatible studies comparable.",
+          "A confidence interval for the mean effect differs from a prediction interval for an underlying effect in another comparable study under the model. Neither is a personal prognosis interval. I-squared estimates the proportion of variability in study estimates associated with heterogeneity rather than sampling error; it is neither the percentage of people helped nor the percentage of studies that are wrong. Tau-squared is between-study effect variance on the chosen scale, such as squared score points or squared log risk ratios. These estimates can be uncertain, especially with few studies, and no I-squared cutoff alone makes pooling safe.",
+          "Fictional forest example: five studies compare treatment A minus control on the same 0 to 100 symptom scale at day 30. Their effects are -8, -6, -4, -2 and 0 points, each with standard error 2 and weight 20 per cent, so the square areas are equal. The mean is -4.0 points. With a classical moment variance estimate, Q = 10, I-squared = 60 per cent and tau-squared = 6 squared score points. A normal 95 per cent mean interval is about -6.8 to -1.2; the stated 2009 prediction method, using a t distribution with three degrees of freedom, gives about -13.0 to +5.0. The study intervals, mean diamond and wider prediction interval answer different questions. Five studies are few and these intervals are approximate; a negative mean does not imply a negative effect in every setting.",
+          "Retain search dates, eligibility, unique study identities, risk of bias, treatment sequence, event definition, starting clock, horizon, effect scale, model, weights, uncertainty and sensitivity analyses. Abstracts, full reports and follow-up of the same participants are linked reports rather than independently weighted trials. Availability related to findings can leave evidence missing. Pooling observational associations does not create randomization or establish one person's treatment benefit. PRISMA promotes transparent reporting; completing its checklist does not certify validity.",
+          "Fictional weighted example: two comparable three-year risk differences are -4 and -8 percentage points with supplied weights 0.75 and 0.25. Their weighted mean is -5 points; these stipulated weights are not claimed precision estimates. Correct arithmetic would still not justify pooling if one study starts at randomization and another selects responders at a later landmark. The eligibility, clock and target question must be compared first."
+        ],
+        "links": [
+          {
+            "label": "Higgins, Thompson and Spiegelhalter: a re-evaluation of random-effects meta-analysis (JRSS A 2009)",
+            "url": "https://doi.org/10.1111/j.1467-985X.2008.00552.x"
+          },
+          {
+            "label": "Cochrane Handbook chapter 10: analysing data and undertaking meta-analyses",
+            "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10"
+          },
+          {
+            "label": "PRISMA 2020 statement: reporting systematic reviews (BMJ 2021)",
+            "url": "https://doi.org/10.1136/bmj.n71"
+          },
+          {
+            "label": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+            "url": "https://doi.org/10.1016/j.jclinepi.2016.04.014"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "A common-effect model targets one underlying effect, while a random-effects model describes a distribution of study effects and its mean. Weights follow the stated estimator, not simply the largest participant count. Clinical and methodological differences, bias and heterogeneity beyond sampling error need investigation; a random-effects calculation does not remove them or make incompatible studies comparable.",
+          "A confidence interval for the mean effect differs from a prediction interval for an underlying effect in another comparable study under the model. Neither is a personal prognosis interval. I-squared estimates the proportion of variability in study estimates associated with heterogeneity rather than sampling error; it is neither the percentage of people helped nor the percentage of studies that are wrong. Tau-squared is between-study effect variance on the chosen scale, such as squared score points or squared log risk ratios. These estimates can be uncertain, especially with few studies, and no I-squared cutoff alone makes pooling safe.",
+          "Fictional forest example: five studies compare treatment A minus control on the same 0 to 100 symptom scale at day 30. Their effects are -8, -6, -4, -2 and 0 points, each with standard error 2 and weight 20 per cent, so the square areas are equal. The mean is -4.0 points. With a classical moment variance estimate, Q = 10, I-squared = 60 per cent and tau-squared = 6 squared score points. A normal 95 per cent mean interval is about -6.8 to -1.2; the stated 2009 prediction method, using a t distribution with three degrees of freedom, gives about -13.0 to +5.0. The study intervals, mean diamond and wider prediction interval answer different questions. Five studies are few and these intervals are approximate; a negative mean does not imply a negative effect in every setting.",
+          "Retain search dates, eligibility, unique study identities, risk of bias, treatment sequence, event definition, starting clock, horizon, effect scale, model, weights, uncertainty and sensitivity analyses. Abstracts, full reports and follow-up of the same participants are linked reports rather than independently weighted trials. Availability related to findings can leave evidence missing. Pooling observational associations does not create randomization or establish one person's treatment benefit. PRISMA promotes transparent reporting; completing its checklist does not certify validity.",
+          "Fictional weighted example: two comparable three-year risk differences are -4 and -8 percentage points with supplied weights 0.75 and 0.25. Their weighted mean is -5 points; these stipulated weights are not claimed precision estimates. Correct arithmetic would still not justify pooling if one study starts at randomization and another selects responders at a later landmark. The eligibility, clock and target question must be compared first.",
+          "Before pooling, link abstracts, full reports and later follow-up of the same study using registry identifiers, recruiting centres, recruitment dates, treatments, participant counts and baseline characteristics. Different author lists or sample sizes need not mean different trials: a later cutoff or selected analysis cohort can change the reported number. Conversely, one report can describe more than one study. Cochrane Handbook chapter 5 makes the study, rather than the publication, the unit of interest. Retain useful details from secondary reports without counting the same participants again as independent replication."
+        ],
+        "links": [
+          {
+            "label": "Higgins, Thompson and Spiegelhalter: a re-evaluation of random-effects meta-analysis (JRSS A 2009)",
+            "url": "https://doi.org/10.1111/j.1467-985X.2008.00552.x"
+          },
+          {
+            "label": "Cochrane Handbook chapter 10: analysing data and undertaking meta-analyses",
+            "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10"
+          },
+          {
+            "label": "PRISMA 2020 statement: reporting systematic reviews (BMJ 2021)",
+            "url": "https://doi.org/10.1136/bmj.n71"
+          },
+          {
+            "label": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+            "url": "https://doi.org/10.1016/j.jclinepi.2016.04.014"
+          },
+          {
+            "label": "Cochrane Handbook chapter 5: identifying and linking multiple reports of one study",
+            "url": "https://training.cochrane.org/handbook/current/chapter-05"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "7de2d85a505c99b94742feeb5d8388d43acf2c48cbb8deaa7f7ea47f6a083a33",
+        "links": "5b41e38aa56ae4bdc2948f4a8f40f483904848bdf1f2e0aa2b38dc5ee6f29f81",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "8e0164456bcedf976e8db391bc11bafabdff869efb782df5e79424d8a642f537",
+        "links": "7242dadd62cebba192238c378a94979ab987de6a1e9fda162326f53e9d97831f",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNoteStart": 5,
+      "newNotes": 1
+    }
+  ],
+  "dynamicSupplementScope": "KEYNOTE-522 notes and source links are authored in its existing trialSup; scalar fields stay on the trial. No new supplement or registry entry.",
+  "summaryConsumerCorrections": {
+    "scope": "Exact current table preconditions; no named reviews changed; corrected simple English and withdraw unreviewed stale translations to the explicit English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "178f9fa75b86cf58ea1e37ed9bd7155522a8d3c1fda528f43c317b91979cfeb9",
+        "afterSha256": "95c4b6374a8f15e398cca2d32548a6c999e2deb147461105325cc6ff35b4c02d",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "ar",
+            "before": "تسأل ما إذا كان المرضى الذين اختفى سرطانهم تماماً قبل الجراحة لا يزالون بحاجة إلى عام من العلاج المناعي بعدها.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "dfd128e7850bdf45df275bb27e86452a62836b360cc761c5e0da9e33f00e59a3",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "ar",
+            "before": "تحليل كل مريض ضمن المجموعة التي وُزّع إليها عشوائياً، سواء تلقى العلاج فعلياً أم لا. يحافظ ذلك على عدالة التوزيع العشوائي ويعكس ما يحدث عندما يُوصف العلاج في الحياة الواقعية؛ أما التحليل وفق البروتوكول، في المقابل، فلا يحسب إلا من التزموا بالعلاج.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "79cc20a8c153d5fc4d12171b30827f6655180b806b17bd506c410a0bb019c106",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "ar",
+            "before": "تكون نتائج البقاء 'غير ناضجة' عندما يكون عدد المرضى الذين توفوا (أو تقدم مرضهم) قليلاً جداً بحيث لا تكون المقارنة موثوقة، فتصبح الوسيطات 'لم يتم الوصول إليها' وفواصل الثقة واسعة. أما البيانات الناضجة فتأتي مع الوقت والأحداث؛ وقد تتلاشى المؤشرات الإيجابية المبكرة أو تتعزز.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "25a4fac8e9e2be5325be8376c2fb93b44272f30cf7d1c2f18f69765648e30660",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "ar",
+            "before": "النتيجة المحددة التي تُصمم التجربة لقياسها وتُثبَّت مسبقاً: مثلاً كم يعيش المرضى، أو كم يمر من الوقت قبل أن ينمو سرطانهم. و'تحقق التجربة غايتها' عندما يتفوق العلاج الجديد على العلاج المقارن في ذلك المقياس.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "336904bf6c9fd9d88aee090c19e94a03036399d32ddb930f6a1b330f0c9a0c82",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "ar",
+            "before": "معدل الاستجابة الموضوعية (ORR) هو النسبة المئوية للمرضى الذين تنكمش أورامهم بنسبة 30% على الأقل.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "04c990503f3f0abea722b0b3e326b5e24d9ec81d9bf107dac0aa025fdf7742b4",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "ar",
+            "before": "التجربة التي أضافت العلاج المناعي إلى العلاج الكيميائي قبل الجراحة لسرطان الثدي الثلاثي السلبي، وحسّنت البقاء على قيد الحياة بشكل فريد.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5b0483e35744b1c9172998c1cf48b73e3d445b137ef777bf1859c30ca7019eed",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "f5e06c3c87a570107c70993cb885ca56bbd7b389cec372709bb832dde26eab29"
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "ce017b7b7481b7404ef299141aa7af321bab99a9e59e1adc00ae52aa9d0fac23",
+        "afterSha256": "9fc048fd9b675e11336df16f3e9fb5e14c0bb9ef0fccf456c8d866dc23ad4136",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "de",
+            "before": "Untersucht, ob Patientinnen, deren Krebs vor der Operation vollständig verschwunden ist, danach noch ein Jahr Immuntherapie brauchen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "1a8cae0e92f855903f074b58041eec4fcf8922302028aa3091874e355efd9558",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "de",
+            "before": "Jeden Patienten in der Gruppe auswerten, der er per Zufall zugeteilt wurde, unabhängig davon, ob er die Behandlung tatsächlich erhalten hat. Das bewahrt die Fairness der Randomisierung und spiegelt wider, was passiert, wenn eine Behandlung im echten Leben verordnet wird; die Per-Protocol-Analyse zählt dagegen nur diejenigen, die sich an die Behandlung gehalten haben.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5b5ee93981b7c06a518097412aa3c81d2841538377b9beed10a68de3775133df",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "de",
+            "before": "Überlebensergebnisse sind „unreif“, wenn zu wenige Patienten gestorben sind (oder eine Progression hatten), als dass der Vergleich zuverlässig wäre, sodass Mediane „nicht erreicht“ sind und Konfidenzintervalle breit ausfallen. Reife Daten kommen mit Zeit und Ereignissen; frühe positive Eindrücke können verblassen oder sich verstärken.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "cd2a6aebe96eafd8d7aa7e3227c1aa4feb6e020d80d5ff2876d9dc75f5768894",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "de",
+            "before": "Das konkrete, im Voraus festgelegte Ergebnis, das eine Studie messen soll: zum Beispiel, wie lange Patienten leben oder wie lange es dauert, bis ihr Krebs wächst. Eine Studie 'erreicht ihren Endpunkt', wenn die neue Behandlung den Vergleich auf dieser Messgröße schlägt.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4dfb4c67f9646149559ac2b3c41f5acc0cb1d2e79b21ea7e9ffb52f9aab20261",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "de",
+            "before": "Die objektive Ansprechrate (ORR) ist der Prozentsatz der Patienten, deren Tumoren um mindestens 30 % schrumpfen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "08041658fa6efbd028a3722a4383644079747ed0c33d8a874c32227deafba2e3",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "de",
+            "before": "Die Studie, die beim dreifach negativen Brustkrebs eine Immuntherapie zur Chemotherapie vor der Operation hinzufügte und, einzigartig, das Überleben verbesserte.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "0383c6e99c4e4d9d263bd490939a020df3018a36fa8181c50c6d45f45c18c3a2",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "7c9d34fa00327c6e16619dda779bf8e3519d6292eed2d660ece85af3e9fd9f99"
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "21f3336ccdaa8e8d5051f7841578d7002ce51dfeb91acc6776946e0f3d3077f4",
+        "afterSha256": "be6826c18611442e04a6cf0e65e9acab45fb0e541efa9900d7a4287999e568ab",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "es",
+            "before": "Pregunta si las pacientes cuyo cáncer desapareció por completo antes de la cirugía necesitan aún un año de inmunoterapia después.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6c1455f2afc43a04a2405219e083218314cf954dcbf7166a848116bfd6e63f96",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "es",
+            "before": "Analizar a cada paciente en el grupo al que fue aleatorizado, haya tomado o no realmente el tratamiento. Preserva la equidad de la aleatorización y refleja lo que ocurre cuando un tratamiento se prescribe en la vida real; el análisis por protocolo, en cambio, cuenta solo a quienes cumplieron.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "c07e35686d4c616507031f943d5b7ab503f09696312d1e31f2f0f4cf3a551782",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "es",
+            "before": "Los resultados de supervivencia son 'inmaduros' cuando han muerto (o progresado) demasiado pocos pacientes para que la comparación sea fiable, de modo que las medianas 'no se alcanzan' y los intervalos de confianza son amplios. Los datos maduros llegan con el tiempo y los eventos; las primeras señales positivas pueden desvanecerse o reforzarse.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d9047c3a38b2a6dd74f86bac8adb92c32bfa3e3060c2f561c31fefaedce2f7e3",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "es",
+            "before": "El resultado concreto que un ensayo está diseñado para medir, fijado de antemano: por ejemplo, cuánto viven los pacientes o cuánto tarda su cáncer en crecer. Un ensayo 'cumple su criterio de valoración' cuando el nuevo tratamiento supera al de comparación en esa medida.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f14833fb3c069f8b246392366c5f67a3750a0807a9501d7bbb362ef3e2c78243",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "es",
+            "before": "El ensayo que añadió inmunoterapia a la quimioterapia previa a la cirugía en el cáncer de mama triple negativo y que, de forma excepcional, mejoró la supervivencia.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "c0e6dfaec6164205dfe16e389658849f6f9b0958384da6057ae9e9a2ee43b0ee",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "es",
+            "before": "El porcentaje de pacientes cuyos tumores se reducen al menos un 30 %.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "1ecd7d2ccfc1f0b897c227cfd0480c2126fdce1729cb0fc4d95880a4ed2d4aab",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "c37da11c6812e539d5ead9184c40d11a7da2974a65580b340400803e96d98a18"
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "52f41dfde4530b12c2bb366ef95293f9da5f784a06662ab2630a0ef09c47540a",
+        "afterSha256": "4f7275e5bb3114402a529eed5b621ae60e5187f20c4303072b4091d56d4e6e04",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "fr",
+            "before": "Cherche à savoir si les patientes dont le cancer a complètement disparu avant la chirurgie ont encore besoin d'un an d'immunothérapie ensuite.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "fd2b69055b370b0b9074efb656a88ea4046bd14dd1544456cc9faafc028482a8",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "fr",
+            "before": "Analyser chaque patient dans le groupe où il a été randomisé, qu'il ait ou non réellement pris le traitement. Cela préserve l'équité de la randomisation et reflète ce qui se passe lorsqu'un traitement est prescrit dans la vie réelle ; l'analyse per protocole, à l'inverse, ne compte que ceux qui ont respecté le traitement.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2e04d80ca985f1b4efbbc0e606485f835c25e7e8340347235711604b3ba52315",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "fr",
+            "before": "Les résultats de survie sont « immatures » quand trop peu de patients sont décédés (ou ont progressé) pour que la comparaison soit fiable, de sorte que les médianes sont « non atteintes » et les intervalles de confiance larges. Les données mûrissent avec le temps et les événements ; des premiers signaux positifs peuvent s'estomper ou se renforcer.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "42c17d9a01a84e7509c233254e8ebefcf5f251cc3f8f402d13cf4ade940287a3",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "fr",
+            "before": "Le résultat précis qu'un essai est conçu pour mesurer, fixé à l'avance : par exemple la durée de survie des patients, ou le délai avant que leur cancer progresse. Un essai « atteint son critère principal » lorsque le nouveau traitement bat le traitement de comparaison sur cette mesure.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ad2e3113525e4c25f846c14f4fbb17eace5a75a022e43218be1fd792bd7372af",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "fr",
+            "before": "Le taux de réponse objective (ORR) est le pourcentage de patients dont les tumeurs diminuent d'au moins 30 %.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "cfc4b3f5198f8a72b9a296f676dd6d07d11bea15dca09c00966abbfb076c4e8c",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "fr",
+            "before": "L'essai qui a ajouté l'immunothérapie à la chimiothérapie préopératoire du cancer du sein triple négatif et qui, fait unique, a amélioré la survie.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "0da0d940933aa94e48f46dd276c442c47a43556548061067c4e2f8f71e8e5f2e",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "dab49f498e5b9dccbd40360beeadfe1c4a2591841966176169a1a353cca37258"
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "a90e4f16ab35b3cb0152c3b1dfe2d1d06fb95ea5d824c9e62b2c643687e2a30a",
+        "afterSha256": "3a4f5827dd6100f75f4703ae9c28e721be809a04c5011229f18590832ef75d93",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "hi",
+            "before": "यह सवाल पूछता है कि जिन मरीज़ों का कैंसर सर्जरी से पहले पूरी तरह गायब हो गया, क्या उन्हें बाद में भी एक साल की इम्यूनोथेरेपी की ज़रूरत है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "23695dc379255da4da1d74435f5459f918f176e95b8fffbbe86071ec189efedf",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "hi",
+            "before": "हर रोगी का विश्लेषण उसी समूह में करना जिसमें उसे यादृच्छिक रूप से रखा गया था, चाहे उसने वास्तव में उपचार लिया हो या नहीं। यह यादृच्छिकीकरण की निष्पक्षता बनाए रखता है और दर्शाता है कि वास्तविक जीवन में उपचार लिखे जाने पर क्या होता है; इसके विपरीत, प्रति-प्रोटोकॉल विश्लेषण केवल उन्हें गिनता है जिन्होंने पालन किया।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ae6790f920848d46753cbeddadee6074433f4e4c00460cfdf4f4fb6da746651c",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "hi",
+            "before": "जीवित रहने के परिणाम तब 'अपरिपक्व' होते हैं जब तुलना को विश्वसनीय बनाने के लिए बहुत कम रोगियों की मृत्यु (या रोग की प्रगति) हुई हो, इसलिए माध्यिकाएं 'प्राप्त नहीं' होतीं और विश्वास अंतराल चौड़े होते हैं। परिपक्व डेटा समय और घटनाओं के साथ आता है; शुरुआती सकारात्मक संकेत फीके पड़ सकते हैं या मज़बूत हो सकते हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f9dd936f5bd19e80c7e676b343dba162619a513fd28c8df4ce94b0097f887968",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "hi",
+            "before": "वह विशेष परिणाम जिसे मापने के लिए परीक्षण बनाया गया है और जो पहले से तय होता है: उदाहरण के लिए मरीज़ कितने समय जीते हैं, या उनका कैंसर बढ़ने में कितना समय लगता है। कोई परीक्षण अपना 'एंडपॉइंट पूरा करता है' जब नया उपचार उस माप पर तुलना वाले उपचार से बेहतर साबित होता है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ef2650dde84c65c5266eb1ea5c17edbb7dc64b3e1020b45cd9cab58475a9d4fc",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "hi",
+            "before": "वह परीक्षण जिसने ट्रिपल-नेगेटिव स्तन कैंसर में सर्जरी से पहले की कीमोथेरेपी में इम्यूनोथेरेपी जोड़ी और, अनूठे रूप से, जीवित रहने की दर में सुधार किया।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "37f94200096e66db329a2b03ee7d18b0ba29c98cac92b42391c8868781a9649a",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "hi",
+            "before": "उन मरीज़ों का प्रतिशत जिनके ट्यूमर कम से कम 30% सिकुड़ते हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a9b4269c446d97c14beb30fe9807c645b0a097e4b371bd8bb3586931751b4c5e",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "f41a1233e5e6a0c7d8c493405db35ceb8bbbbe4fd7da8da3ef629ce1365e3c21"
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "0b316e7d387e93e65bd1e1a980edbf8c638b8a04656bec95b1a0dc8f85acc8b5",
+        "afterSha256": "9e33dbfe85b71eb9ed5111974b2e1124e3d41353a9e93998e02bfe0d947486de",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "ja",
+            "before": "手術前にがんが完全に消失した患者に、術後もなお1年間の免疫療法が必要かどうかを問う試験である。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9b519a5581d97678503bbbb9d8fd83116611dff73ecf15ac9cb552264b7a2901",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "ja",
+            "before": "実際に治療を受けたかどうかにかかわらず、すべての患者をランダムに割り付けられた群のまま解析する方法である。ランダム化の公平性を保ち、治療が実際の診療で処方されたときに何が起こるかを反映する。これに対し、パープロトコル解析は治療を守った人だけを数える。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "05cb63511abbac70728fe6c761fc393ec250983938c1aa1a665d0607e2cd86bc",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "ja",
+            "before": "生存結果が「未成熟」とされるのは、死亡（または進行）した患者が少なすぎて比較の信頼性が確保できない場合であり、その際は中央値が「未到達」となり、信頼区間が広くなる。成熟したデータは時間とイベントの蓄積とともに得られる。早期の良好な所見は薄れることも強まることもある。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "060a927685849aba92abc20b8d07339c092a9eaf997fb85cd85938bd176af0e8",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "ja",
+            "before": "試験が測定するために設計され、事前に定められた特定の結果である。たとえば患者がどれだけ長く生きるか、がんが進行するまでどれだけの期間があるかなどである。新しい治療がその指標で比較対象を上回ったとき、試験は「エンドポイントを達成した」とされる。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3a62a5b3ab067ff4e111dd93b470dda808e979935bbeadadb0ff6285ce484627",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "ja",
+            "before": "客観的奏効率（ORR）とは、腫瘍が30%以上縮小した患者の割合のことである。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "095c56ed238fad93fdf8059251bf118f4f7fe2a7f135dd77f6b82f4083a5f7e4",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "ja",
+            "before": "トリプルネガティブ乳がんの術前化学療法に免疫療法を加え、他に例のない形で生存期間を改善した試験。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "62bba4d555c745e62904be2c7c250b0f5640672e643034807a1f05bbbd9d2fe6",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "517e57fadb673f753635bf6d0e58d1d91f1f06e8d698528e7692698baf902b51"
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "f66b4acf8300c26b3bfbcdb628d597725efa76d5040d8ebfea2a6ab31b93e81c",
+        "afterSha256": "e366095e3661539f9ca6f181141b3706d93287d9e18585846c2db40263bcf5b9",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "pt",
+            "before": "Pergunta se as pacientes cujo câncer desapareceu completamente antes da cirurgia ainda precisam de um ano de imunoterapia depois.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "466bb155b328680d3fdabd229254e08c8602869d95c24d101ff16bfef63645f6",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "pt",
+            "before": "Analisar cada paciente no grupo para o qual foi randomizado, tenha ele tomado ou não o tratamento de fato. Isso preserva a justiça da randomização e reflete o que acontece quando um tratamento é prescrito na vida real; a análise por protocolo, em contraste, conta apenas os que cumpriram o tratamento.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "06f302a9e3b55a6f149069ad51c439f6aba8cedcfd9cd541a499a011928e29e0",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "pt",
+            "before": "Os resultados de sobrevida são 'imaturos' quando poucos pacientes morreram (ou progrediram) para que a comparação seja confiável, de modo que as medianas 'não são alcançadas' e os intervalos de confiança são amplos. Dados maduros vêm com o tempo e com os eventos; sinais positivos iniciais podem desaparecer ou se fortalecer.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "35ffba435ac60ea3e5de67fe9217cde6725f3d9290ac92037eec72f70ae764fc",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "pt",
+            "before": "O desfecho específico que um ensaio é desenhado para medir, fixado de antemão: por exemplo, quanto tempo os pacientes vivem ou quanto tempo até o câncer crescer. Um ensaio 'atinge seu desfecho' quando o novo tratamento supera o de comparação nessa medida.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2de253d1045e6e9badb2a8eb2dce85f0ab10ed06eabc5ddfb144b9bce5628699",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "pt",
+            "before": "O estudo que acrescentou imunoterapia à quimioterapia pré-operatória para câncer de mama triplo-negativo e, de forma única, melhorou a sobrevida.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "399679707b6662a2bcc00d8c79e24305d503e33672b17794cd86226e5f9159bb",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "pt",
+            "before": "A porcentagem de pacientes cujos tumores encolhem pelo menos 30%.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "bb04da539ef46b20447095b678e98053d2b46a9885cb785a3acf992a1185af8f",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "9bc0af74c4d2e1ec9a0599c317a02a343c2e7720ad7574614ad3e92fe6fb9ea4"
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "542bb3d05dc4b2284f46ef0fad5ef4010cb4ad4cb32a1444158fdea7d5d83616",
+        "afterSha256": "c8cc6f4c371c2f6817e6932019dcc3fb479336428b306441e6e880a49afa8fdd",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "zh",
+            "before": "探讨术前癌症已完全消失的患者术后是否仍需要一年的免疫治疗。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "bfe7cd2edc846db12293626b6c925e7e603bb2278154fc7f76c11b71cec8dba6",
+            "afterSha256": null
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "zh",
+            "before": "按每位患者被随机分配到的组别进行分析，无论其是否真正接受了治疗。这保留了随机化的公平性，并反映了治疗在现实中被处方时的情况；相比之下，符合方案分析只统计那些依从治疗的人。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "90b4d3a791d0720f21359f04270226f095123d85eced1d4734d3f21e6dede087",
+            "afterSha256": null
+          },
+          {
+            "id": "data-maturity",
+            "language": "zh",
+            "before": "当死亡（或进展）的患者太少、比较不可靠时，生存结果是“不成熟的”，此时中位数“未达到”，置信区间很宽。成熟的数据随时间和事件的积累而来；早期的积极表现可能消退，也可能增强。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "14616c38e71e2971924d4b0c28665fa9eea8327007bc03d37d10005a9cecfe0a",
+            "afterSha256": null
+          },
+          {
+            "id": "endpoint",
+            "language": "zh",
+            "before": "试验设计用来测量的、事先确定的具体结果：例如患者能活多久，或癌症多久之后才会进展。当新治疗在该指标上胜过对照治疗时，试验就“达到了终点”。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "152766859940a04cbcaee9ed7551efda589afa66d6dc937d694e6d90c076dfe6",
+            "afterSha256": null
+          },
+          {
+            "id": "keynote-522",
+            "language": "zh",
+            "before": "该试验在三阴性乳腺癌的术前化疗基础上加入免疫治疗，并且独一无二地改善了生存期。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9e9a843829cbfa343e877ef9e6b20f191ca42d8cccfd8554977f1cbb9a81a42e",
+            "afterSha256": null
+          },
+          {
+            "id": "orr",
+            "language": "zh",
+            "before": "肿瘤缩小至少30%的患者百分比。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "45fc701d1570048ebe2bced161d65c52c4a71771c342f55fa1080d7da8af16aa",
+            "afterSha256": null
+          }
+        ],
+        "preWhitespaceCleanupSha256": "1671077a6320a99f7b0408a22329e460a5fb8412882871e6b349688ed7e3b1f7"
+      },
+      {
+        "file": "src/data/simple/part-j.ts",
+        "beforeSha256": "73134f5c5fa6e6ade55f3b396576217d80628a90dbcee1e1dbdde374fc2c40e0",
+        "afterSha256": "07ee00490b32319fb4d35d0ced86e882dcbab5be6af11bb957e17acd0b58c334",
+        "changes": [
+          {
+            "id": "data-maturity",
+            "language": "simple",
+            "before": "Data maturity describes whether enough events have happened in a trial for the comparison to be reliable, and early positive results can fade or strengthen with time.",
+            "after": "How much follow-up and outcome information a result has. An unreached median alone does not tell you whether the treatment comparison is precise.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "36548c15bc385441097ae855fea2e1e9ce17b5628c907434ed3175d4eb51a435",
+            "afterSha256": "03f00c9be111bfd7db185ce746449c6a769e33071434c3a56b6db2df557d4294"
+          },
+          {
+            "id": "intention-to-treat",
+            "language": "simple",
+            "before": "Intention-to-treat analysis counts every patient in the group they were randomised to, whether or not they took the treatment, preserving the fairness of randomisation.",
+            "after": "Count people in the group they were assigned to, even if treatment changed. Missing results still need careful handling.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "7d7b95cfffeb6fa751ab203e16ec7d6ed0aba9621627e350f31fc721c1c3c46c",
+            "afterSha256": "0437e56e3d3cdb7a6b6b0029471fa181b134d1d512197ca46c61f3a73ebd52d6"
+          },
+          {
+            "id": "endpoint",
+            "language": "simple",
+            "before": "An endpoint is the specific outcome a trial is designed to measure, fixed in advance, such as how long before the cancer grows.",
+            "after": "An endpoint says what the study measures and when. The plan states what result would count as success.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "64e1d66059466faa570ac55b871503aaab3c08bb713f2f70cc80f68ba81aae81",
+            "afterSha256": "f82c4394ae8b3fb827da0287bc128bc43c2902f1d9dbedb1d065ca20d8572e05"
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-b.ts",
+        "beforeSha256": "a8b54e8d5b387dc075e7585864eceb634c1b23e92946138d0bbd74d459314313",
+        "afterSha256": "30d757f036c88f8f7b625ce762c05d8174a40427a0be6df483cd06446844e2eb",
+        "changes": [
+          {
+            "id": "optimice-pcr",
+            "language": "simple",
+            "before": "Asks whether patients whose cancer completely disappeared before surgery still need a year of immune drug afterwards.",
+            "after": "This trial asks whether people with no invasive cancer left at surgery can omit the next 27 weeks of pembrolizumab.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "6283bf99cacbadd9e5edae5144a0ffbad657a08b930311eea1fedcb61c594322",
+            "afterSha256": "75465627f497b0b52b7972419b1934367a2282f78b3513732596cd6a833442d0"
+          },
+          {
+            "id": "keynote-522",
+            "language": "simple",
+            "before": "The trial that added an immune drug to pre-surgery chemotherapy for triple-negative breast cancer and helped people live longer.",
+            "after": "This trial tested adding pembrolizumab before and after surgery to the same chemotherapy plan. It measured response and survival.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "8c48bdeaf14ac097cabb12acaa78e7e4f7610b6f5ceaaed2ba0333af539aaca5",
+            "afterSha256": "2d3c10ba6f98807b73697c3d5efb187cd974aaf19707eaaa05f0c570913df826"
+          },
+          {
+            "id": "orr",
+            "language": "simple",
+            "before": "The share of patients whose tumours shrink by at least 30%.",
+            "after": "The share of people who meet the study rules for complete or partial tumour response.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "23dc2c104685f2fe76e6107a7b18b6af7345b5b6a695468564a76904e6ea372a",
+            "afterSha256": "f04a80b1b23ddd70c4d7d1e6fd67444b18e4660b81faa97f3c1987290251d0be"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 48,
+    "correctedSimpleEntries": 6,
+    "priorRevision": "summary-consumer-corrections.json"
+  },
+  "intentionalWithdrawals": [
+    "Unsupported site-wide ITT default and automatic evaluable-population inflation.",
+    "Unqualified real-world/analysis-set and unreached-median/reliability assertions.",
+    "Universal regulatory survival-follow-up assertion in data maturity.",
+    "Unsupported uniquely-improves-survival wording in KEYNOTE-522.",
+    "Further-year postoperative duration and complete-disappearance shorthand in OptimICE-pCR."
+  ],
+  "allEarlierLinksRetained": true,
+  "earlierNoteException": "One KEYNOTE-522 exploratory RCB sentence is qualified after its primary abstract is rechecked; its design, dose and outcome facts remain.",
+  "peerDraftSnapshotsPreserved": true,
+  "sourceGuideAndArtworkUnchanged": true
+}

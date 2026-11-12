@@ -1,0 +1,63 @@
+{
+  "checkedOn": "2026-11-09",
+  "newSourcesReadPerVersion": 2,
+  "newRequirementsClosedPerVersion": 13,
+  "crossVersionCountsMustNotBeAdded": true,
+  "newRecords": {
+    "terms": 1,
+    "papers": 1,
+    "trials": 1
+  },
+  "newExistingOwnersAddedToProposal": 10,
+  "existingOwnersTouched": 12,
+  "total375Owners": 171,
+  "total375NewRecords": 36,
+  "total375ExistingOwnerUpdates": 135,
+  "newAdjacentFindingsRepresented": 1,
+  "previousClassificationFindingClosed": 1,
+  "newClassificationSchemaFinding": "design required; not implemented",
+  "schemaFindingsOpen": 5,
+  "implementedSchemaPrototypes": 4,
+  "newElicitQueries": 2,
+  "newElicitOccurrences": 16,
+  "newDirectMEDOccurrences": 12,
+  "newLiteratureOccurrences": 28,
+  "resolvedUniqueMEDIdentities": 21,
+  "completeMEDAbstractsRead": 21,
+  "crossrefIdentities": 6,
+  "availableCrossrefAbstractsRead": 5,
+  "registryIdentities": 4,
+  "rawRequestReceipts": 48,
+  "rawHTTP200": 44,
+  "rawRequestErrors": 4,
+  "validZeroMEDQueries": 6,
+  "parsedWebResponseReceipts": 5,
+  "completeElicitResponseReceipts": 2,
+  "renderedOwners": 171,
+  "authoredReaderFieldParts": 98,
+  "validation": {
+    "entities": 22719,
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "preexistingWarnings": 7
+    },
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2823,
+      "existingSkips": 2,
+      "durationSeconds": 93.39
+    },
+    "focusedFilesPassed": 3,
+    "focusedTestsPassed": 17,
+    "initialFailures": "Two family/organ assertions exposed missing plain-language parent context and false subtypes under research profiles. Data fixes name the parent and remove unsupported child hierarchies; no test, floor or budget changed. Two introduced unused helpers were removed.",
+    "duplicates": "Fresh pre/post-addition surveys each have nine groups; no new DOI/PMID or registry-identity duplicate. Final full duplicate tests pass.",
+    "paperIdentity": "One fresh NCBI ESummary entry added through the existing parser. Legacy snapshot entries/date retained.",
+    "closureExitCodes": {
+      "original": 2,
+      "newer": 2
+    },
+    "staleFieldOrSectionProofs": 0
+  },
+  "goalStatus": "active; no final complete re-audit performed"
+}

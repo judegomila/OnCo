@@ -1,0 +1,380 @@
+{
+  "checkedOn": "2026-11-09",
+  "event": "Environment refresh removed the earlier /tmp bundles. Committed data, metadata and hashes survived.",
+  "baseline": {
+    "commit": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "entities": 22683,
+    "sha256": "ee984f247eb1071d14760146e23fbb3ce60b6c3a635cf6b4f7a25023963caf75",
+    "status": "Rebuilt from a new own baseline worktree and matched the original file bytes/hash exactly."
+  },
+  "educationOriginalResponses": {
+    "checkedOn": "2026-11-09",
+    "method": "Compare unchanged historical Git blobs with each committed original-response hash; retain matching bytes outside checkout. Missing matches stay unavailable.",
+    "recovered": 11,
+    "unavailable": 4,
+    "files": [
+      {
+        "path": "elicit-adjacent/access-and-regulation.json",
+        "expectedOriginalSha256": "dfb7c5807c43ce7e2c086d2b613e5599c9e1d71b04fd56cfaa4f3f71fc4294ba",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 45716
+      },
+      {
+        "path": "elicit-adjacent/biology-basics.json",
+        "expectedOriginalSha256": "3c932d7f7d1463372d6e7a5540f57edcbdb95f29b9d0ec45369a03f9c3c5596a",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 30262
+      },
+      {
+        "path": "elicit-adjacent/biology-binding-response.json",
+        "expectedOriginalSha256": "a513731e23ab08bc28fdd2733256bc7e5ebd1a7285c70674d8e91e34dbcdb7be",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "67eee0b7edafb4568e11c4f9719ca73d410b66a5",
+        "bytes": 26372
+      },
+      {
+        "path": "elicit-adjacent/biology-lineage-state.json",
+        "expectedOriginalSha256": "dde10e801c11e52d7a16645bcf31f5ffd3db595f3f4be8a9739763a738d24e72",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "67eee0b7edafb4568e11c4f9719ca73d410b66a5",
+        "bytes": 38327
+      },
+      {
+        "path": "elicit-adjacent/breast-cancer.json",
+        "expectedOriginalSha256": "05254e7b7255978cb8808062c1664ab32dfb89e211b0523e026d41fdd19fa801",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 27693
+      },
+      {
+        "path": "elicit-adjacent/cancer-biology.json",
+        "expectedOriginalSha256": "a2353b5819dcc0b7b1781339f1442b336f310f33f479cde486bad3ef26428500",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 29092
+      },
+      {
+        "path": "elicit-adjacent/cell-therapies.json",
+        "expectedOriginalSha256": "6b21c4efb4d5fb8940016265f92ee2fd18b0cafdb05315e4c9b37171407e51b1",
+        "status": "unavailable"
+      },
+      {
+        "path": "elicit-adjacent/chk1-attached-cargo.json",
+        "expectedOriginalSha256": "09e043d7753d5f110530feff38ac01a321706a17f6949a157400ff1d706b2e44",
+        "status": "unavailable"
+      },
+      {
+        "path": "elicit-adjacent/engineering-and-manufacturing.json",
+        "expectedOriginalSha256": "e0cc5c57282bf8808ededc26396ffc37ed65282182d890a3942899ac23ec1706",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 28593
+      },
+      {
+        "path": "elicit-adjacent/evidence-and-statistics.json",
+        "expectedOriginalSha256": "acee537e01a62409deff6c92d31eb9d44546f1ba4945cb5cf441e4ece81084ba",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 31550
+      },
+      {
+        "path": "elicit-adjacent/immunology.json",
+        "expectedOriginalSha256": "961db7dbb8efa68b5a835bd74d250fb7a8bd2d62b53bb926f3063a93c30e5345",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 30734
+      },
+      {
+        "path": "elicit-adjacent/measurement.json",
+        "expectedOriginalSha256": "0e8cd43b408ea409367d749717b1b4229c6d4090e46d036d52613d626295a4cc",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 31140
+      },
+      {
+        "path": "elicit-adjacent/polr2a-dosage-evidence.json",
+        "expectedOriginalSha256": "c902dc7e4339c522bfda0df1cdf91c7c3218a30f813c1b5450a33556434515bf",
+        "status": "unavailable"
+      },
+      {
+        "path": "elicit-adjacent/therapeutics.json",
+        "expectedOriginalSha256": "9d60c9932912078bef396f9d64f188a992821db875403ac34e51f218c19366c7",
+        "status": "recovered-byte-exact",
+        "recoveredFrom": "c11d9fd9e2fef884d3e1fac5c140efc10bcad7c6",
+        "bytes": 31950
+      },
+      {
+        "path": "elicit-adjacent/top1-chemical-exposure.json",
+        "expectedOriginalSha256": "3b4aef8ed1d6c9b3b6972b9f7c990a2b1ed6116e8079403aac644db081a8fdb3",
+        "status": "unavailable"
+      }
+    ]
+  },
+  "payloadOriginalCaptures": {
+    "checkedOn": "2026-11-09",
+    "method": "Read unchanged Git blobs from the recorded prior head and verify against every original capture hash/size. No quotations edited or original-response bytes invented.",
+    "filesRecovered": 39,
+    "excludedAbstracts": 167,
+    "files": [
+      {
+        "path": "elicit/completion-check.json",
+        "bytes": 31631,
+        "sha256": "a51ddcbb8d4c5b26929918105dd612d9b19cdf6ed507b1813c1f9bdb8a79f417",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "elicit/emerging-families.json",
+        "bytes": 69939,
+        "sha256": "a2c2b4fbe0015e4002ae281dd6836bb81c0470acf2515a6ef2727e612c861c16",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "elicit/expanded-frontier.json",
+        "bytes": 56807,
+        "sha256": "6218bfb53b2dc09ddfaec16e09bb6095ccd0c327885823d5cb0b18d5cfc3255d",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "elicit/immune-ddr-degrader.json",
+        "bytes": 62477,
+        "sha256": "c76f556acdffc4921e86d5561c7cee17249359d91165456f86c1e8363f49c778",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "elicit/mechanisms.json",
+        "bytes": 75280,
+        "sha256": "207c99a10e0eb8a80983cffec8964da8b54bae9b4f6de172e6db4e636cd24873",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/amanitin.json",
+        "bytes": 10331,
+        "sha256": "c373f2cf5bf88f31a01a4532f80c37a23941e1e8b2d7f09e68bd662d91b14630",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/anthracycline.json",
+        "bytes": 64432,
+        "sha256": "7f3b65d553fe3efbb3e81bf118f7df868c3325d5b7acf41d5e8f87e709bfa553",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/bclxl.json",
+        "bytes": 18770,
+        "sha256": "0fbf24ea8b3810fae2c23eb41bf90968bfbb5a286cd75803ce3c2e0199c1d727",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/brd4.json",
+        "bytes": 17332,
+        "sha256": "df1a14263773ca8588ef8cf7d24b710020c83077fb906d7614780b7c9fe90eb7",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/cdk.json",
+        "bytes": 19006,
+        "sha256": "bef4f0bd2feb67b2a2ecf30e1003933ff77258772f07f3839c804a0cda82a7c4",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/clio-abstract-crossref.json",
+        "bytes": 9330,
+        "sha256": "475975e02525ca4c7d00bde3d603eddc3bea8a64ff149e81db5752652d747a06",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/cryptophycin.json",
+        "bytes": 23863,
+        "sha256": "bdc17d624d91e3875c94bc906f075af731d006d1d35d77f62e030a115466ca2a",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/ddr.json",
+        "bytes": 47174,
+        "sha256": "a20aac15b1a8066e86015609620ef2337ae13b067c1ac613462c66f1f2b9971b",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/dual.json",
+        "bytes": 11647,
+        "sha256": "b17b055e22c4beab072b6212a643cd1f739c5d97657393df636af3b8576a9a08",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/eribulin.json",
+        "bytes": 50438,
+        "sha256": "8e3328bbf9aa57103043664def079a225169ef126b869561a4001e03e9986ab1",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/ferroptosis-fgfr4.json",
+        "bytes": 6267,
+        "sha256": "58a4c58f4d576153d8b85760a69ca00750425f4e6b582a09f5fdae5c4a854ec2",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/ferroptosis.json",
+        "bytes": 10437,
+        "sha256": "060dfbc5dba4e0cd7779b5d28d8d44000ddf028a66e6b03d69b42b8f571c1080",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/gq11.json",
+        "bytes": 16019,
+        "sha256": "8f9ba2795aaf5f4a035c7dc51b0e9ccc2543775ffa74ab0681ddaf9dbd9fbbdd",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/gspt1-abstract-crossref.json",
+        "bytes": 8941,
+        "sha256": "e9ab47eea4579c02bb2e1f41b073e22b146e871e7c942459c022e900f9255a26",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/hdac.json",
+        "bytes": 7002,
+        "sha256": "9cddf17fb2c71cdd572c0c5af0c95f76475fd49d6a81d9c17004d36269cb8b7c",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/hemiasterlin-select.json",
+        "bytes": 20238,
+        "sha256": "0fe49dd87f6dd59235c5fbf968e632eb73c361eed3217af3597dc219df9e1697",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/ign.json",
+        "bytes": 33758,
+        "sha256": "c00224ec6457b53c56d8559aaa6dc2c8d09c7714f2e1244bc20aa76773e81ff1",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/kif11-abstract-crossref.json",
+        "bytes": 6437,
+        "sha256": "694ed6c7c3a4404bfb62ad0a1346f8e82566ce9f0ba38d12c04199ea90bc9e6e",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/ksp-primary.json",
+        "bytes": 7820,
+        "sha256": "d46f8385ac408e686bd0f5fc59f4a96dcc3279d606e2378cea4e9dd1d146d79d",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/mcl1-crossref.json",
+        "bytes": 15133,
+        "sha256": "2c0dd1180f22897fb9a9f3af280f959292438e06c32eeb1db99df8c9d4099c59",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/nampt-2026.json",
+        "bytes": 7205,
+        "sha256": "d597a85cbaab33489b95155826f632f0a46f2c8814313e4d03fe696b8d99787f",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/nampt.json",
+        "bytes": 8461,
+        "sha256": "3d50d539dd008c3d1cb9a137937a8fff518450cf78cca6dac63137072ea5d1a4",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/pa289-crossref.json",
+        "bytes": 7806,
+        "sha256": "3563cbd69472a91ee28b4cee1c8872b000e9c3e0b14f096afec751b2ee8c6c4a",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/pdd.json",
+        "bytes": 6930,
+        "sha256": "383d2bf9ed6311287a216b9ce8ef3f97d008d123b0744fcf729dfea9ac882d89",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/pi3k-abstract-crossref.json",
+        "bytes": 10493,
+        "sha256": "6ec8e4ee681b8f8fe00fb5a05d445e879db8ee37b68f6cf9fd9a4ed0129c703b",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/proteasome-failure.json",
+        "bytes": 9658,
+        "sha256": "3d283caa0c583ac7764a3ccbdf4cc0f6b05f7257fd2c8889be2153c72a80a1fd",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/protein-toxin.json",
+        "bytes": 8492,
+        "sha256": "a6e77d04bab7d337a8bc53788fd0debf73802abd0f9561981e6055e5d9df43ee",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/splicing-site.json",
+        "bytes": 8924,
+        "sha256": "38e92f6ea3d308608f4da1f3d9eab106b6b96d14e6d3484a2a26218baa17dc6a",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/splicing.json",
+        "bytes": 9628,
+        "sha256": "5f78b74862e69b6e1dda229642756dc866dbbcd4f3408eb86833d509ff344d38",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/sting-platform.json",
+        "bytes": 9650,
+        "sha256": "c41586f9328b611bb640ca60cb387a88e692a5eb23ad61d55969fa60fde38115",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/sting.json",
+        "bytes": 13825,
+        "sha256": "586017dc101dd54b87b520c65e579b7bfc0de69028e098c40ec9c73a3d286daf",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/tlr.json",
+        "bytes": 14061,
+        "sha256": "3c83564f854a0ced5d792b65ef2cfe7e1e77a250ddc3ba6ded2b7d83c8d345bf",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/triptolide.json",
+        "bytes": 7515,
+        "sha256": "e647119acbb93065d2a43ddac55dbabd638158e197154fb1749e5edad502c02a",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      },
+      {
+        "path": "primary/tubulysin.json",
+        "bytes": 74089,
+        "sha256": "09895b660cf533ade9deafe6238b47414430fb6e29e8b741a6e443ad15ba7587",
+        "recoveredFrom": "7c69e41f995a2675fbc9e8afd7f76d95751f74ef"
+      }
+    ],
+    "limits": "This recovers the earlier 7c69 payload capture bundle. Newer follow-up responses that were never committed remain unavailable until separately recaptured; later captures cannot recreate historical retrieval timestamps or raw response bytes."
+  },
+  "reviewImages": {
+    "historicalStatus": "Original temporary PNGs unavailable; their historical hashes retained.",
+    "replacement": "32 matched SSR captures, baseline 0f8ebc2 versus implementation f5c50fd, in persistent local storage. Exact historical images not claimed.",
+    "receipt": "Draft #376 research/scoped-evidence-schema-2026-11-08/artifact-recovery-2026-11-09.json"
+  },
+  "reviewPack": {
+    "location": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/review-pack",
+    "recovered": "Rebuilt from the same pinned public curriculum; semantic/field-proof counts unchanged.",
+    "default": "Persistent local cache instead of /tmp; --review-pack-out selects another directory outside Git.",
+    "boundaryCheck": {
+      "checkedOn": "2026-11-09",
+      "insideGitRejected": true,
+      "noOutputCreated": true,
+      "pinnedBaselineReconstructedByteExactly": true
+    }
+  },
+  "availabilityLimits": [
+    "Four newer Elicit response bodies were never committed and could not be recovered byte-exactly; metadata, abstract hashes and prior reading dispositions remain.",
+    "Newer raw primary/registry files that existed only in the prior temporary bundle are unavailable. Fresh captures must be distinguished from those original responses.",
+    "A hash is not a substitute for missing bytes, and a new retrieval cannot recreate a historical response timestamp."
+  ],
+  "scope": "No content requirement is closed and no new medical claim or expert sign-off is asserted by this custody recovery."
+}

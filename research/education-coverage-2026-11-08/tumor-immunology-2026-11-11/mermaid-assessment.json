@@ -1,0 +1,155 @@
+{
+  "instances": [
+    {
+      "file": "7510db6b-abscopal-effect.md",
+      "ordinal": 0,
+      "diagramId": "diagram-228dc4dc21fb"
+    },
+    {
+      "file": "7510db6b-cancer-immunity-cycle.md",
+      "ordinal": 0,
+      "diagramId": "diagram-33481b3f3f88"
+    },
+    {
+      "file": "7510db6b-in-situ-vaccination.md",
+      "ordinal": 0,
+      "diagramId": "diagram-ce987c9e7d74"
+    },
+    {
+      "file": "7510db6b-tumor-infiltrating-lymphocytes.md",
+      "ordinal": 0,
+      "diagramId": "diagram-63281995879c"
+    },
+    {
+      "file": "c9689645-abscopal-effect.md",
+      "ordinal": 0,
+      "diagramId": "diagram-228dc4dc21fb"
+    },
+    {
+      "file": "c9689645-cancer-immunity-cycle.md",
+      "ordinal": 0,
+      "diagramId": "diagram-33481b3f3f88"
+    },
+    {
+      "file": "c9689645-in-situ-vaccination.md",
+      "ordinal": 0,
+      "diagramId": "diagram-ce987c9e7d74"
+    },
+    {
+      "file": "c9689645-tumor-infiltrating-lymphocytes.md",
+      "ordinal": 0,
+      "diagramId": "diagram-63281995879c"
+    }
+  ],
+  "diagrams": [
+    {
+      "id": "diagram-228dc4dc21fb",
+      "sourceSha256": "228dc4dc21fb5d4ad153ad27e4c736080dcb7242d4d1d470a21f08bb11032a24",
+      "instances": [
+        {
+          "file": "7510db6b-abscopal-effect.md",
+          "ordinal": 0,
+          "diagramId": "diagram-228dc4dc21fb"
+        },
+        {
+          "file": "c9689645-abscopal-effect.md",
+          "ordinal": 0,
+          "diagramId": "diagram-228dc4dc21fb"
+        }
+      ],
+      "renderSha256": "100f1edb76df2603b73a9ca4a7689b9a85f55349a82c6e8fd10c39c4305eb811",
+      "width": 168,
+      "height": 409,
+      "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+      "viewed": true,
+      "checkedAt": "2026-11-11",
+      "scientificDefect": false
+    },
+    {
+      "id": "diagram-33481b3f3f88",
+      "sourceSha256": "33481b3f3f886a7022cb278218ce3472557d6e90b869edcdb1adba62890bf8bd",
+      "instances": [
+        {
+          "file": "7510db6b-cancer-immunity-cycle.md",
+          "ordinal": 0,
+          "diagramId": "diagram-33481b3f3f88"
+        },
+        {
+          "file": "c9689645-cancer-immunity-cycle.md",
+          "ordinal": 0,
+          "diagramId": "diagram-33481b3f3f88"
+        }
+      ],
+      "renderSha256": "205370bbbff289af9b08cc8bb24af04f71af0f9220c2016054c6de0cf4fa791e",
+      "width": 216,
+      "height": 832,
+      "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+      "viewed": true,
+      "checkedAt": "2026-11-11",
+      "scientificDefect": false
+    },
+    {
+      "id": "diagram-ce987c9e7d74",
+      "sourceSha256": "ce987c9e7d74862439a5b14bb0a61602681446834934354dc1007952f9016bf0",
+      "instances": [
+        {
+          "file": "7510db6b-in-situ-vaccination.md",
+          "ordinal": 0,
+          "diagramId": "diagram-ce987c9e7d74"
+        },
+        {
+          "file": "c9689645-in-situ-vaccination.md",
+          "ordinal": 0,
+          "diagramId": "diagram-ce987c9e7d74"
+        }
+      ],
+      "renderSha256": "a37b47f35bf765a02f0a03e0b88f726caad0060b43767531a3185896defc576d",
+      "width": 168,
+      "height": 409,
+      "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+      "viewed": true,
+      "checkedAt": "2026-11-11",
+      "scientificDefect": false
+    },
+    {
+      "id": "diagram-63281995879c",
+      "sourceSha256": "63281995879c494c9746b0ca5c0c0805c804bedbc25a75e512b35c8cee4d4c82",
+      "instances": [
+        {
+          "file": "7510db6b-tumor-infiltrating-lymphocytes.md",
+          "ordinal": 0,
+          "diagramId": "diagram-63281995879c"
+        },
+        {
+          "file": "c9689645-tumor-infiltrating-lymphocytes.md",
+          "ordinal": 0,
+          "diagramId": "diagram-63281995879c"
+        }
+      ],
+      "renderSha256": "6ee9ac39428c449c3632622e2bd8f1e87c9851a69e55e51c422e419debceb32a",
+      "width": 168,
+      "height": 409,
+      "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+      "viewed": true,
+      "checkedAt": "2026-11-11",
+      "scientificDefect": false
+    }
+  ],
+  "sheets": [
+    {
+      "file": "sheet-1.png",
+      "width": 248,
+      "height": 2259,
+      "diagrams": [
+        "diagram-228dc4dc21fb",
+        "diagram-33481b3f3f88",
+        "diagram-ce987c9e7d74",
+        "diagram-63281995879c"
+      ]
+    }
+  ],
+  "limits": [
+    "Composite source-label headings clip, but each full diagram is visible at its native raster extent; labels and surrounding captions were read in the lessons.",
+    "No Guide browser-page or accessibility certification."
+  ]
+}

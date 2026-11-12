@@ -1,0 +1,3981 @@
+{
+  "dataCommit": "1c394ddbb1d7b8f05c450df50fcad89226007867",
+  "sourceVersions": 18,
+  "sectionSignatures": 199,
+  "documents": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "file": "original-line-of-therapy.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "0f39587ae227390c0d0158fdbb64b16c05c3465753439552fffc68985fb3214d",
+      "gitBlob": "32343f47190fc647b7ed6c0c7a0577129a4e7726",
+      "bytes": 8675,
+      "title": "Line of therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f989eec482a0876f79b6b1f23167cb00aa6729325f8327d46c5bb1e1e191950f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8d98c43514a567f768bb830f328b0f14ac3095b315595bb49db544f7a31902b6"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "693fe3d090a2d0b6d0d997880cb29b915a6262041dd283a8ecb36cf4495835a8"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "50b770d46573134e48b655f3147cf29c7e55130f3daeb5c35155e97534cc6ca2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e5dda5b44895eeb6b9034b8e3e64c7abe5e5c4a65833111f25570d65a3d099cc"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "5e0beff13d0488dbe50af9db8357a7821349140a88a94cde96cae1e56ae24dc5"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "827d5d4c097a7e1c10ca69fb7febae73758828a64dacd735b1713841bf1dd682"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d3ce8fb873b1fd7fe53a123b162a2182845fce7f39035f4fefc6d277ccae1533"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7fe0cdbf7f6ccb90c887e4b07ae0a51ee5c22d3375b80a026bb2f8b622f3dec0"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e412907fca0bcd2e6e0cf69e50783fbbe2c5339f468e755dc45e0255174dfb01"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "016ef9879949cd98a3131feaa6153e59c8d77448770f131856c9c4f468844e71"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "file": "original-neoadjuvant-vs-adjuvant.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "4a6cba3a283cde6c01a6b213571b5f17999fd091750143ad84f7aa4aac26e7a0",
+      "gitBlob": "6a19a2ac100f73343f6291d41212661160e1311d",
+      "bytes": 9846,
+      "title": "Neoadjuvant versus adjuvant therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e63705fb37b7ea7d4769e9889cd5479e125a11a8e4cad7abc7a05646ceb87bfb"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "df42c2f1092c2619c635f64b8cd04efef0425671de44499410fb4c828df45c30"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d58365b1da76ffb0d09994f6d8a1e2cb8b1bef7313ab4ae2f9736691255a9bca"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0fcfe68acef10afa419c52677587f293014bbba2c2576ed2c71a4e45bc1bce3c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "847721e25b3173e95f8cfd490a72a37a38e772a6ddfaaa31e4090358ca7bc312"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "5bfc42b4b6c0bd954645ebf2a995a26f5f3252fd0e2f2d40063b9a952ddf3763"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "22f0722d9b8c43dab72f7b07320a1c967597f9c06f8db1b2ed0b73595d2d4d6a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1d55e9229fe58f858aa1e5384ff406ecea7cc657c98ed0c619cd07ce6bd51f40"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a9846cf468e609554ba90fa6a0997b8c67c29fc4cb33e68a66a90fe656583c15"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "de6f216d277da0a0808577333f1564436de6ec8a814b800b7b98f5c80bca7943"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "111d7cdd0c5d13df636ae7d9b84aa9b0857d11aeb94326e14c9d4a117793408b"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "file": "original-post-neoadjuvant-escalation.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "45b2fa768e5fd16524793a733062ffc9d1ccfa7a21125a6768edd13f9d105615",
+      "gitBlob": "69c7bd828de5a5a8a1dbb977534a768df4034458",
+      "bytes": 11268,
+      "title": "Post-neoadjuvant escalation after residual disease",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "96c86529255b12c565971591442fe9f60d50c19f00e5ee9475752523a33d2c75"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "bacd14161def6726e66549b66b1dc0957f70bf22f4f9d9aa12665c482e6472fb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "047a3bb8c412cc0b0442cd52af3abaa52c14fcd42b75de21bb51d53ca866b87b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f7281b2bfb112970b32a13401cc59b91309c05b71d255cb6e8884c8e75023211"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "37fd117136280ab72c3e3533ea60f970a04e6d2699674b8482063a1fc8a21bae"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "fd2885b6efa84380ea7938dec03e582d2f2ece2a551e3dc1e45e0efcd4fd68e7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "63492f46a01489987363e7e06f1db51d0d269a89a2716f953a52e95a995cc6d7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98d480f1b91a30f51fcd3b81dc9ce33da181f36ff44e140c77662544d1c2c648"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2fe3653e382bc8b37baf70ac944c2916ab9e024416bbc0a995a07a783a4d53ef"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "ae85abd406da713dd29d140df06f7329910d2faf046ddcf0336b0fdc26526a99"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "d6d5a58d110b356ce793c4e014ad5dc8e7f001d56ec2ece613376251ea9a25b2"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a884d48e6da92db234f5b3e33b3f8c5c78f646d457e964995da8ea9d96d08a27"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "file": "original-response-adapted-therapy.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "60ce0209a2219e65385fd1b7db3472909d224f4769d74e0f38687136a628930e",
+      "gitBlob": "40eeb5f2bc8b76a3464117e713cd7a0919f451a9",
+      "bytes": 9618,
+      "title": "Response-adapted therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "757243deb2a528bba65fc6965a8f1217b21780890c8b9803eadaa93a15d09666"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2f7f63af98b3ba34be3eee3437946cdb2e93b6a3117198375e1d4329e424d40a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "969b62e5dae2df636213733e1c58f955333212a9e24f74b2114f01a29bad08a8"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1a826c9941b72583302a43bb3c18f4d9c95d29bfc3bb3d395d536a1d58c17f93"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "380e444b0c9771b467b09811d1b5fd282968d22edc69398840d8fc9075317ae7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5a159a49616b7e81a1de2db25e2d6db5dfbf9e79eed43d22ce2a8828bbe8be65"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "45639c38ecc855b2d38f51ef3030c8bbd4f934c3d4af62496e00d35ff79f2e43"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cf4f0482c771874e8ee83364f4e7a9f0a193b175926c989323dc81f6e89ca11d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a5ceebcb1d37d636c64a586aee6eb336e11f601860f0776b87cdc8b5feb89b40"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c61b1d1dfe3c9f8fdda2da7de5980951f61d23ff8ea835ee448fcf76b9e346f4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "658fa4e697648ff0d805eca9fcaf007e189f21103504ca9e3dca5940f8a270e6"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "file": "original-the-keynote-522-regimen.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "e641b1e02afc2a9abcd5d63475e8ae3bc332907fdae857e835ace156d5fc2bf2",
+      "gitBlob": "e56fd40255aa16c3f66dfe1f723be2bda36faf52",
+      "bytes": 10578,
+      "title": "The KEYNOTE-522 regimen",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "60665560195ca4549c9b4b308d2cf0dc6adff0e238d5e6691cb98d8039e02a7f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9d566ff8ea5c562053bcda7f45dd399eedcf882e58914cf250aefe28ba6713f7"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ac298d0ead8b0e5cf3c1142df0ca93af2c43aeb640c663b974ea586c371c27a2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "135715e74ace34fec7481812fe967036361a23f75022d74e2af0e989d1383df2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "630757029f67ed9cef01ead5cc0487beaeb8d9074946fedfd206f738aebf3740"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "8d1d0d4cc2d1c113dd72210ed09c6e30e70ce25a45f0771b97b8f0daa248b6dd"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7387dbaba840795b8bbb5afcd7b90576cc257157e16da0051c613174e77e4ea2"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58dde3b741889d0c5f871468ae8ea474d4f0fb519a0fc37d535b305be26dfe44"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "930e354ab6068a21108493c0e7b73af643c70693ef4a56c1b3cc9da58b1d309b"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "273e4d082fd44ebc50e72eeef329083d5dea9130456ac3bdcd87017bf1a3cbfa"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "054f88d2c7c8eba3153a53a2f25743666d27ea903e659ff3d6c76d4a6db0484f"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "file": "original-01-read-the-jobs-in-the-plan.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "b3ff8d70b6349402d1e81ca7f949fd3b0421237b81a5ebb75cb99bd890dbedc4",
+      "gitBlob": "9ba69ec60127e688d274aa695571c112057723ab",
+      "bytes": 12199,
+      "title": "Read the jobs in the treatment plan",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "72367e1369a9a5902c8e71ad99c10fbd505183f56e0f78407b065e87d5bf0c5f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "75c3023e81a2d3c714be10cb90974810aaa4955297ae2051c1ea5f673854fe24"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "50a8bac85ca6e0c72944241d496e6d99ecbaddf279bc718bafdad3e894df5aca"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c2f574148e35bbb9868454e85cb7d2f0ce5d80877ceaf2b916a33dc8c67bab8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e8bc570fbf3cc847fbba9f49959ec20963f5e8e2691846b02b2124b9e3ce8146"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "fc1f395952f58a83350d3f794fac901e8cdadeb1b26423bdaae7e40a9af11296"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4d1004fd581cabb12c9bcaf1771dd78c56a977b7683bcbe1a096f288063bb639"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dba9af58afa621f83979e3c98bc454af443d591d99838201fff4fd423b90cfa4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7d00da30480411ffac9723b7b785544cecf30634ec014a7d1114822537aee759"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8a18cf2ae467e1a7dbffb6457a50efbae4b730135d41dca7b8b206c8c3c95491"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "aa5fdaf9f636d1d634e86f1b9f1b18ae175b32880c7ec5a1b1fca54c8759ac28"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "file": "original-02-read-timing-around-surgery.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "5ca1ff4ed0387301bf6a4a50ab1935cc129b82516b5a3a3b3f2e4ceef0f44eef",
+      "gitBlob": "3192421290e1ed83a6400f12f79356094870831c",
+      "bytes": 8834,
+      "title": "Read timing around surgery",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c9ddec4d0c6e903f8672ee44cc2e9a4c0761aab5d1768b696f1e7c279385016f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a5aae30fe7b5c5d7a18299593493419779ace4ff5baaab7f6d8662a0f1c4c714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7fc689d551ca8d6afddf403a21e4235ee41fff78e647ce40605eb50a3a84ca2b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "dda715bfa2b87792a501e07bfec90baa01c638b0a9ffc2f68c8aeecf2db057eb"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9925a02d46dad3e29b6702db469de0d0c14546583ec5837dfef22ab3d03764e2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f82142a7354d4b47e894e691f33a81f6241d130c9e9c3d3788d231a47360dc40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "295cae4aad9dd0b6f5be2473b30f1ef31770a9b98b7f3dd9bff36c7d3e5506cb"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "44705925b529fa404bb520c496820a24b03d8831fc8c0d2f7b272d78cb899227"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "197defe517ad80b2cd28ddd0d45812c308e48ac596898899a2c8316c40455a3d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e2762a52dfa2b3a0a28101128e8f1cb00775070c53d5139ffb58e752e83cccff"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e2a4e233f23e130ec22912e0d1acb36abf15b96ee4591515247f40016cba1107"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "440a8546955cd2d14c645111c76a31eb00df49661468925f32f8d23dbb5eb2d8"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "file": "original-03-use-the-findings-in-the-next-conversation.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "35dfbfc3981d9606e91957df657afd438cef4203d9e873b905ea95379c220beb",
+      "gitBlob": "43a4de1d6f7761a5ef68314ce6c6501ee8a9d67b",
+      "bytes": 9104,
+      "title": "Use the findings in the next conversation",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "28c82093d761f9788bfecb6bfe4f965d853940d9dd4ea131e2c6fb2448367741"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "316d0ffc4bcfb8b7178ece1399be3e5dfe884149f683595b9c7e6cd60ca52f45"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bdbdfd74a6d538d51e1e8c4cf45680176e561333cc5459416e9e465b5209ebea"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "b0859a5206fa3e4218d796c6b7e3c76ec261377ab1239d13999172752a7fd789"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0be94de741c4e8d44273decaca4520f419a3d7d738e497744922304a2dda4488"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dc9761dda855075f9b3d60b97b762c4bbe6c17afa0ce944c32bebe5991d2ecd6"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "fbc0493ace5566af2212a08777224369b0c68c5319675b811523ab7b9ded013c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ea99ef1443947fb4e2da5f5be8d8c22f2a0e63928314371b20d4811117446d16"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "9b11bccdd9cc73114f5fe2f7a1f80a84e747f5fe742191ec4a1de01b6aac0280"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d88b2287a7b15405c89bd0f2b96d7e577e7ba5d351cff41995c92a8cc353b453"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "000ee49f7f2b98c0cc6204c9178872a7cd97f76dd0aad5d319c59f048d18d175"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8cdda7541381ab2d3c0f6994da3651ffc1612a89402f0f245f7036bcf86b7be2"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "file": "original-index.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "267513e2390cba2e723147874f0a2e2dcbf157003e2b948eaade8ca5456bdc6f",
+      "gitBlob": "33e40dec6ec77f48dac1b1d8a1e9b4eeb7a7dfc6",
+      "bytes": 7489,
+      "title": "Understand how treatment is sequenced",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "25c71f0b5e69370008a1c4a1dff3915e46baf4c6693128b4d26a76ee7065317e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d48a55b48d3d747c08fc815eb1b628b3c5af3189a55add23dcfa903f9cadc3b6"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "67b750c8e9137b815db23259b1e4f6ad7be9cc75bc2cf224e6c7d86a94413f52"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c133b1b53423c02a74bcb9de277761930243885e28b568cb5c93ca8e442d9f5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b08346164cf262531b72e59bd53ae7f16f20d64261751be108267198cf98c274"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f60ed514b22a8d4fe051ceeba09f5e46514ccb8d1062e5da5cfe17bdf9dc110d"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "47518e3ede6190fa8086b0a02dae7dad6d4a8e13537f4eccb83c097909c6a656"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "80f8a0daaa74a90a068ca296c621d229b724fba2e4ceeb4326ce376665f14f29"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "file": "later-line-of-therapy.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "0f39587ae227390c0d0158fdbb64b16c05c3465753439552fffc68985fb3214d",
+      "gitBlob": "32343f47190fc647b7ed6c0c7a0577129a4e7726",
+      "bytes": 8675,
+      "title": "Line of therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "f989eec482a0876f79b6b1f23167cb00aa6729325f8327d46c5bb1e1e191950f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8d98c43514a567f768bb830f328b0f14ac3095b315595bb49db544f7a31902b6"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "693fe3d090a2d0b6d0d997880cb29b915a6262041dd283a8ecb36cf4495835a8"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "50b770d46573134e48b655f3147cf29c7e55130f3daeb5c35155e97534cc6ca2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e5dda5b44895eeb6b9034b8e3e64c7abe5e5c4a65833111f25570d65a3d099cc"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "5e0beff13d0488dbe50af9db8357a7821349140a88a94cde96cae1e56ae24dc5"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "827d5d4c097a7e1c10ca69fb7febae73758828a64dacd735b1713841bf1dd682"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d3ce8fb873b1fd7fe53a123b162a2182845fce7f39035f4fefc6d277ccae1533"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7fe0cdbf7f6ccb90c887e4b07ae0a51ee5c22d3375b80a026bb2f8b622f3dec0"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e412907fca0bcd2e6e0cf69e50783fbbe2c5339f468e755dc45e0255174dfb01"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "016ef9879949cd98a3131feaa6153e59c8d77448770f131856c9c4f468844e71"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "file": "later-neoadjuvant-vs-adjuvant.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "fd050858add0187bcfd178666fe81c0cfb46cd83415761f26561c73f486a454f",
+      "gitBlob": "0ab0dc8803a9860e28465f0d69414e72c835a007",
+      "bytes": 9878,
+      "title": "Neoadjuvant versus adjuvant therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e63705fb37b7ea7d4769e9889cd5479e125a11a8e4cad7abc7a05646ceb87bfb"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "df42c2f1092c2619c635f64b8cd04efef0425671de44499410fb4c828df45c30"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d58365b1da76ffb0d09994f6d8a1e2cb8b1bef7313ab4ae2f9736691255a9bca"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0fcfe68acef10afa419c52677587f293014bbba2c2576ed2c71a4e45bc1bce3c"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "847721e25b3173e95f8cfd490a72a37a38e772a6ddfaaa31e4090358ca7bc312"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "5bfc42b4b6c0bd954645ebf2a995a26f5f3252fd0e2f2d40063b9a952ddf3763"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "22f0722d9b8c43dab72f7b07320a1c967597f9c06f8db1b2ed0b73595d2d4d6a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1d55e9229fe58f858aa1e5384ff406ecea7cc657c98ed0c619cd07ce6bd51f40"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a9846cf468e609554ba90fa6a0997b8c67c29fc4cb33e68a66a90fe656583c15"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "de6f216d277da0a0808577333f1564436de6ec8a814b800b7b98f5c80bca7943"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "111d7cdd0c5d13df636ae7d9b84aa9b0857d11aeb94326e14c9d4a117793408b"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "file": "later-post-neoadjuvant-escalation.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "c657640fcd1b130193553123450ef2a0e708c4b44caaff7c9adf0ceaa30a0498",
+      "gitBlob": "29e12a1d20fd6760a4d6316c06a5358a5c3010ea",
+      "bytes": 11445,
+      "title": "Post-neoadjuvant escalation after residual disease",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "96c86529255b12c565971591442fe9f60d50c19f00e5ee9475752523a33d2c75"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "bacd14161def6726e66549b66b1dc0957f70bf22f4f9d9aa12665c482e6472fb"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "047a3bb8c412cc0b0442cd52af3abaa52c14fcd42b75de21bb51d53ca866b87b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f7281b2bfb112970b32a13401cc59b91309c05b71d255cb6e8884c8e75023211"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "37fd117136280ab72c3e3533ea60f970a04e6d2699674b8482063a1fc8a21bae"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "fd2885b6efa84380ea7938dec03e582d2f2ece2a551e3dc1e45e0efcd4fd68e7"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "63492f46a01489987363e7e06f1db51d0d269a89a2716f953a52e95a995cc6d7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "98d480f1b91a30f51fcd3b81dc9ce33da181f36ff44e140c77662544d1c2c648"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2fe3653e382bc8b37baf70ac944c2916ab9e024416bbc0a995a07a783a4d53ef"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "ae85abd406da713dd29d140df06f7329910d2faf046ddcf0336b0fdc26526a99"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "d6d5a58d110b356ce793c4e014ad5dc8e7f001d56ec2ece613376251ea9a25b2"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a884d48e6da92db234f5b3e33b3f8c5c78f646d457e964995da8ea9d96d08a27"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "file": "later-response-adapted-therapy.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "d7d03542dd7da2e8145b2317dfdf3dfda8b6d0931f1f06afc5c05b8b7f46993f",
+      "gitBlob": "b692ed0abc20fe222ea9461bb3bc0e9e6cab85b7",
+      "bytes": 9875,
+      "title": "Response-adapted therapy",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "757243deb2a528bba65fc6965a8f1217b21780890c8b9803eadaa93a15d09666"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2f7f63af98b3ba34be3eee3437946cdb2e93b6a3117198375e1d4329e424d40a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "969b62e5dae2df636213733e1c58f955333212a9e24f74b2114f01a29bad08a8"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1a826c9941b72583302a43bb3c18f4d9c95d29bfc3bb3d395d536a1d58c17f93"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "380e444b0c9771b467b09811d1b5fd282968d22edc69398840d8fc9075317ae7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5a159a49616b7e81a1de2db25e2d6db5dfbf9e79eed43d22ce2a8828bbe8be65"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f5bfe6a6ba5330ec0f7aafdd18f137b0a8839af80d21f88d2328ee39f4b73db0"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cf4f0482c771874e8ee83364f4e7a9f0a193b175926c989323dc81f6e89ca11d"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a5ceebcb1d37d636c64a586aee6eb336e11f601860f0776b87cdc8b5feb89b40"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c61b1d1dfe3c9f8fdda2da7de5980951f61d23ff8ea835ee448fcf76b9e346f4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "c7c17761600a28b78e8191d3ce03739b7fc7c63b75528aa6304d9cd228370d0f"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "658fa4e697648ff0d805eca9fcaf007e189f21103504ca9e3dca5940f8a270e6"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "file": "later-the-keynote-522-regimen.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "cdf2245c78452e5bfb43658a44e09c5091a7ce56a5d5806ca10ae81a895a5fa2",
+      "gitBlob": "a0eb83839969307040b572bdca49782046764682",
+      "bytes": 10814,
+      "title": "The KEYNOTE-522 regimen",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "60665560195ca4549c9b4b308d2cf0dc6adff0e238d5e6691cb98d8039e02a7f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9d566ff8ea5c562053bcda7f45dd399eedcf882e58914cf250aefe28ba6713f7"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ac298d0ead8b0e5cf3c1142df0ca93af2c43aeb640c663b974ea586c371c27a2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "135715e74ace34fec7481812fe967036361a23f75022d74e2af0e989d1383df2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "630757029f67ed9cef01ead5cc0487beaeb8d9074946fedfd206f738aebf3740"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "8d1d0d4cc2d1c113dd72210ed09c6e30e70ce25a45f0771b97b8f0daa248b6dd"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7387dbaba840795b8bbb5afcd7b90576cc257157e16da0051c613174e77e4ea2"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58dde3b741889d0c5f871468ae8ea474d4f0fb519a0fc37d535b305be26dfe44"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "930e354ab6068a21108493c0e7b73af643c70693ef4a56c1b3cc9da58b1d309b"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "273e4d082fd44ebc50e72eeef329083d5dea9130456ac3bdcd87017bf1a3cbfa"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "054f88d2c7c8eba3153a53a2f25743666d27ea903e659ff3d6c76d4a6db0484f"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "file": "later-01-read-the-jobs-in-the-plan.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "b3ff8d70b6349402d1e81ca7f949fd3b0421237b81a5ebb75cb99bd890dbedc4",
+      "gitBlob": "9ba69ec60127e688d274aa695571c112057723ab",
+      "bytes": 12199,
+      "title": "Read the jobs in the treatment plan",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "72367e1369a9a5902c8e71ad99c10fbd505183f56e0f78407b065e87d5bf0c5f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "75c3023e81a2d3c714be10cb90974810aaa4955297ae2051c1ea5f673854fe24"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "50a8bac85ca6e0c72944241d496e6d99ecbaddf279bc718bafdad3e894df5aca"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c2f574148e35bbb9868454e85cb7d2f0ce5d80877ceaf2b916a33dc8c67bab8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e8bc570fbf3cc847fbba9f49959ec20963f5e8e2691846b02b2124b9e3ce8146"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "fc1f395952f58a83350d3f794fac901e8cdadeb1b26423bdaae7e40a9af11296"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4d1004fd581cabb12c9bcaf1771dd78c56a977b7683bcbe1a096f288063bb639"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "dba9af58afa621f83979e3c98bc454af443d591d99838201fff4fd423b90cfa4"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "7d00da30480411ffac9723b7b785544cecf30634ec014a7d1114822537aee759"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8a18cf2ae467e1a7dbffb6457a50efbae4b730135d41dca7b8b206c8c3c95491"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "aa5fdaf9f636d1d634e86f1b9f1b18ae175b32880c7ec5a1b1fca54c8759ac28"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "file": "later-02-read-timing-around-surgery.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "56a984dceb37f37576334bbbaaf053f48e0fc050f60cf3566fdf5b7868fa46ce",
+      "gitBlob": "358434d78ac5c1ed9f340d069c612f8bba99c878",
+      "bytes": 9290,
+      "title": "Read timing around surgery",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c9ddec4d0c6e903f8672ee44cc2e9a4c0761aab5d1768b696f1e7c279385016f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a5aae30fe7b5c5d7a18299593493419779ace4ff5baaab7f6d8662a0f1c4c714"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "7bf95616e56af9f2702ef4995db0b435744516bf82b2964f577b4f6bed75952d"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "dda715bfa2b87792a501e07bfec90baa01c638b0a9ffc2f68c8aeecf2db057eb"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "9925a02d46dad3e29b6702db469de0d0c14546583ec5837dfef22ab3d03764e2"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f82142a7354d4b47e894e691f33a81f6241d130c9e9c3d3788d231a47360dc40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "8dda858c162b3945ddd2e1b4cb43bbb29eba3736c8300de92c5ebef25f069e2e"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "44705925b529fa404bb520c496820a24b03d8831fc8c0d2f7b272d78cb899227"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "197defe517ad80b2cd28ddd0d45812c308e48ac596898899a2c8316c40455a3d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "e2762a52dfa2b3a0a28101128e8f1cb00775070c53d5139ffb58e752e83cccff"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "e2a4e233f23e130ec22912e0d1acb36abf15b96ee4591515247f40016cba1107"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "440a8546955cd2d14c645111c76a31eb00df49661468925f32f8d23dbb5eb2d8"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "file": "later-03-use-the-findings-in-the-next-conversation.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "35dfbfc3981d9606e91957df657afd438cef4203d9e873b905ea95379c220beb",
+      "gitBlob": "43a4de1d6f7761a5ef68314ce6c6501ee8a9d67b",
+      "bytes": 9104,
+      "title": "Use the findings in the next conversation",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "28c82093d761f9788bfecb6bfe4f965d853940d9dd4ea131e2c6fb2448367741"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "316d0ffc4bcfb8b7178ece1399be3e5dfe884149f683595b9c7e6cd60ca52f45"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bdbdfd74a6d538d51e1e8c4cf45680176e561333cc5459416e9e465b5209ebea"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "b0859a5206fa3e4218d796c6b7e3c76ec261377ab1239d13999172752a7fd789"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0be94de741c4e8d44273decaca4520f419a3d7d738e497744922304a2dda4488"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dc9761dda855075f9b3d60b97b762c4bbe6c17afa0ce944c32bebe5991d2ecd6"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "fbc0493ace5566af2212a08777224369b0c68c5319675b811523ab7b9ded013c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "ea99ef1443947fb4e2da5f5be8d8c22f2a0e63928314371b20d4811117446d16"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "9b11bccdd9cc73114f5fe2f7a1f80a84e747f5fe742191ec4a1de01b6aac0280"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d88b2287a7b15405c89bd0f2b96d7e577e7ba5d351cff41995c92a8cc353b453"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "000ee49f7f2b98c0cc6204c9178872a7cd97f76dd0aad5d319c59f048d18d175"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8cdda7541381ab2d3c0f6994da3651ffc1612a89402f0f245f7036bcf86b7be2"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "file": "later-index.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "11ea7c462b129c7ca781a93b3915dbe69e54df1cd700eaa9e17d0cabaf936732",
+      "gitBlob": "9bdb3ea0798750d26811119ef08f5625431bad6f",
+      "bytes": 7652,
+      "title": "Understand how treatment is sequenced",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "25c71f0b5e69370008a1c4a1dff3915e46baf4c6693128b4d26a76ee7065317e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d48a55b48d3d747c08fc815eb1b628b3c5af3189a55add23dcfa903f9cadc3b6"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "67b750c8e9137b815db23259b1e4f6ad7be9cc75bc2cf224e6c7d86a94413f52"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "5c133b1b53423c02a74bcb9de277761930243885e28b568cb5c93ca8e442d9f5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e129ee5ebd00615d6272ee38e56d95687bda8a87d69a38979b664eeaf39c22a5"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f60ed514b22a8d4fe051ceeba09f5e46514ccb8d1062e5da5cfe17bdf9dc110d"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "47518e3ede6190fa8086b0a02dae7dad6d4a8e13537f4eccb83c097909c6a656"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "80f8a0daaa74a90a068ca296c621d229b724fba2e4ceeb4326ce376665f14f29"
+        }
+      ]
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T11:25:21.415468+00:00",
+    "headBeforeFreshOwnerInspection": "4e5d5f7f1512564409f45d81c75fdb463c2814c8",
+    "sourceVersions": 18,
+    "inventorySha256": "82aa096fd491f6688b608f5bb66ce6dddea0752531ad69658101b162eb846134",
+    "rows": 169,
+    "substantive": 132,
+    "derivedOverview": 3,
+    "perPhaseSubstantive": {
+      "original": 131,
+      "later": 132
+    },
+    "freshCanonicalFieldsInspected": false
+  },
+  "laterOnlyAddendum": {
+    "frozenAtUtc": "2026-11-12T12:11:43.327588+00:00",
+    "priorInventorySha256": "82aa096fd491f6688b608f5bb66ce6dddea0752531ad69658101b162eb846134",
+    "reason": "Exhaustive reader comparison identified that a routing sentence also contains a short definition; retain and verify its teaching rather than discard it as navigation.",
+    "rows": [
+      {
+        "id": "OV-009",
+        "file": "index",
+        "kind": "substantive",
+        "requirement": "Retain the later-only embedded description of surveillance as follow-up after treatment without treating that short gloss as a reviewed clinical surveillance schedule.",
+        "appliesTo": [
+          "later"
+        ],
+        "sourceEvidence": [
+          {
+            "phase": "later",
+            "path": "wiki/education/guides/treating-early-tnbc/index.md",
+            "sourceSha256": "11ea7c462b129c7ca781a93b3915dbe69e54df1cd700eaa9e17d0cabaf936732",
+            "heading": "Concepts you will use",
+            "scope": "Short added glossary clause; no schedule, efficacy or follow-up interval asserted."
+          }
+        ],
+        "disposition": "Source-led reconciliation addendum, frozen before fresh inspection of surveillance-owner fields; prior 169-row source-first inventory remains unchanged."
+      }
+    ]
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "f989eec482a0876f79b6b1f23167cb00aa6729325f8327d46c5bb1e1e191950f",
+      "lineStart": 20,
+      "lineEnd": 22,
+      "requirementIds": [
+        "LT-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "8d98c43514a567f768bb830f328b0f14ac3095b315595bb49db544f7a31902b6",
+      "lineStart": 23,
+      "lineEnd": 26,
+      "requirementIds": [
+        "LT-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "693fe3d090a2d0b6d0d997880cb29b915a6262041dd283a8ecb36cf4495835a8",
+      "lineStart": 27,
+      "lineEnd": 32,
+      "requirementIds": [
+        "LT-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "50b770d46573134e48b655f3147cf29c7e55130f3daeb5c35155e97534cc6ca2",
+      "lineStart": 33,
+      "lineEnd": 42,
+      "requirementIds": [
+        "LT-003",
+        "LT-004",
+        "LT-005",
+        "LT-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e5dda5b44895eeb6b9034b8e3e64c7abe5e5c4a65833111f25570d65a3d099cc",
+      "lineStart": 43,
+      "lineEnd": 48,
+      "requirementIds": [
+        "LT-007",
+        "LT-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "5e0beff13d0488dbe50af9db8357a7821349140a88a94cde96cae1e56ae24dc5",
+      "lineStart": 49,
+      "lineEnd": 59,
+      "requirementIds": [
+        "LT-009",
+        "LT-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "827d5d4c097a7e1c10ca69fb7febae73758828a64dacd735b1713841bf1dd682",
+      "lineStart": 60,
+      "lineEnd": 66,
+      "requirementIds": [
+        "LT-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "d3ce8fb873b1fd7fe53a123b162a2182845fce7f39035f4fefc6d277ccae1533",
+      "lineStart": 67,
+      "lineEnd": 80,
+      "requirementIds": [
+        "LT-012",
+        "LT-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7fe0cdbf7f6ccb90c887e4b07ae0a51ee5c22d3375b80a026bb2f8b622f3dec0",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "LT-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "e412907fca0bcd2e6e0cf69e50783fbbe2c5339f468e755dc45e0255174dfb01",
+      "lineStart": 87,
+      "lineEnd": 90,
+      "requirementIds": [
+        "LT-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "016ef9879949cd98a3131feaa6153e59c8d77448770f131856c9c4f468844e71",
+      "lineStart": 97,
+      "lineEnd": 108,
+      "requirementIds": [
+        "LT-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e63705fb37b7ea7d4769e9889cd5479e125a11a8e4cad7abc7a05646ceb87bfb",
+      "lineStart": 20,
+      "lineEnd": 22,
+      "requirementIds": [
+        "NA-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "df42c2f1092c2619c635f64b8cd04efef0425671de44499410fb4c828df45c30",
+      "lineStart": 23,
+      "lineEnd": 26,
+      "requirementIds": [
+        "NA-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "d58365b1da76ffb0d09994f6d8a1e2cb8b1bef7313ab4ae2f9736691255a9bca",
+      "lineStart": 27,
+      "lineEnd": 32,
+      "requirementIds": [
+        "NA-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "0fcfe68acef10afa419c52677587f293014bbba2c2576ed2c71a4e45bc1bce3c",
+      "lineStart": 33,
+      "lineEnd": 52,
+      "requirementIds": [
+        "NA-003",
+        "NA-004",
+        "NA-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "847721e25b3173e95f8cfd490a72a37a38e772a6ddfaaa31e4090358ca7bc312",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "NA-006",
+        "NA-007",
+        "NA-008",
+        "NA-009",
+        "NA-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "5bfc42b4b6c0bd954645ebf2a995a26f5f3252fd0e2f2d40063b9a952ddf3763",
+      "lineStart": 63,
+      "lineEnd": 70,
+      "requirementIds": [
+        "NA-011",
+        "NA-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "22f0722d9b8c43dab72f7b07320a1c967597f9c06f8db1b2ed0b73595d2d4d6a",
+      "lineStart": 71,
+      "lineEnd": 78,
+      "requirementIds": [
+        "NA-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "1d55e9229fe58f858aa1e5384ff406ecea7cc657c98ed0c619cd07ce6bd51f40",
+      "lineStart": 79,
+      "lineEnd": 84,
+      "requirementIds": [
+        "NA-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a9846cf468e609554ba90fa6a0997b8c67c29fc4cb33e68a66a90fe656583c15",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "NA-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "de6f216d277da0a0808577333f1564436de6ec8a814b800b7b98f5c80bca7943",
+      "lineStart": 91,
+      "lineEnd": 94,
+      "requirementIds": [
+        "NA-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "111d7cdd0c5d13df636ae7d9b84aa9b0857d11aeb94326e14c9d4a117793408b",
+      "lineStart": 102,
+      "lineEnd": 114,
+      "requirementIds": [
+        "NA-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "96c86529255b12c565971591442fe9f60d50c19f00e5ee9475752523a33d2c75",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "PE-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "bacd14161def6726e66549b66b1dc0957f70bf22f4f9d9aa12665c482e6472fb",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "PE-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "047a3bb8c412cc0b0442cd52af3abaa52c14fcd42b75de21bb51d53ca866b87b",
+      "lineStart": 29,
+      "lineEnd": 32,
+      "requirementIds": [
+        "PE-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f7281b2bfb112970b32a13401cc59b91309c05b71d255cb6e8884c8e75023211",
+      "lineStart": 33,
+      "lineEnd": 48,
+      "requirementIds": [
+        "PE-003",
+        "PE-004",
+        "PE-005",
+        "PE-006",
+        "PE-007",
+        "PE-008",
+        "PE-009",
+        "PE-010",
+        "PE-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "37fd117136280ab72c3e3533ea60f970a04e6d2699674b8482063a1fc8a21bae",
+      "lineStart": 49,
+      "lineEnd": 58,
+      "requirementIds": [
+        "PE-012",
+        "PE-013",
+        "PE-014",
+        "PE-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "fd2885b6efa84380ea7938dec03e582d2f2ece2a551e3dc1e45e0efcd4fd68e7",
+      "lineStart": 59,
+      "lineEnd": 64,
+      "requirementIds": [
+        "PE-016",
+        "PE-017",
+        "PE-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "63492f46a01489987363e7e06f1db51d0d269a89a2716f953a52e95a995cc6d7",
+      "lineStart": 65,
+      "lineEnd": 70,
+      "requirementIds": [
+        "PE-019",
+        "PE-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "98d480f1b91a30f51fcd3b81dc9ce33da181f36ff44e140c77662544d1c2c648",
+      "lineStart": 71,
+      "lineEnd": 77,
+      "requirementIds": [
+        "PE-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "2fe3653e382bc8b37baf70ac944c2916ab9e024416bbc0a995a07a783a4d53ef",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "PE-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "ae85abd406da713dd29d140df06f7329910d2faf046ddcf0336b0fdc26526a99",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "PE-023"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "d6d5a58d110b356ce793c4e014ad5dc8e7f001d56ec2ece613376251ea9a25b2",
+      "lineStart": 90,
+      "lineEnd": 93,
+      "requirementIds": [
+        "PE-025"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "a884d48e6da92db234f5b3e33b3f8c5c78f646d457e964995da8ea9d96d08a27",
+      "lineStart": 101,
+      "lineEnd": 117,
+      "requirementIds": [
+        "PE-027"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "757243deb2a528bba65fc6965a8f1217b21780890c8b9803eadaa93a15d09666",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "RA-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2f7f63af98b3ba34be3eee3437946cdb2e93b6a3117198375e1d4329e424d40a",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "RA-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "969b62e5dae2df636213733e1c58f955333212a9e24f74b2114f01a29bad08a8",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "RA-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "1a826c9941b72583302a43bb3c18f4d9c95d29bfc3bb3d395d536a1d58c17f93",
+      "lineStart": 34,
+      "lineEnd": 43,
+      "requirementIds": [
+        "RA-003",
+        "RA-004",
+        "RA-005",
+        "RA-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "380e444b0c9771b467b09811d1b5fd282968d22edc69398840d8fc9075317ae7",
+      "lineStart": 44,
+      "lineEnd": 49,
+      "requirementIds": [
+        "RA-007",
+        "RA-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "5a159a49616b7e81a1de2db25e2d6db5dfbf9e79eed43d22ce2a8828bbe8be65",
+      "lineStart": 50,
+      "lineEnd": 59,
+      "requirementIds": [
+        "RA-009",
+        "RA-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "45639c38ecc855b2d38f51ef3030c8bbd4f934c3d4af62496e00d35ff79f2e43",
+      "lineStart": 60,
+      "lineEnd": 66,
+      "requirementIds": [
+        "RA-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "cf4f0482c771874e8ee83364f4e7a9f0a193b175926c989323dc81f6e89ca11d",
+      "lineStart": 67,
+      "lineEnd": 80,
+      "requirementIds": [
+        "RA-012",
+        "RA-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a5ceebcb1d37d636c64a586aee6eb336e11f601860f0776b87cdc8b5feb89b40",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "RA-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "c61b1d1dfe3c9f8fdda2da7de5980951f61d23ff8ea835ee448fcf76b9e346f4",
+      "lineStart": 87,
+      "lineEnd": 90,
+      "requirementIds": [
+        "RA-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "658fa4e697648ff0d805eca9fcaf007e189f21103504ca9e3dca5940f8a270e6",
+      "lineStart": 99,
+      "lineEnd": 110,
+      "requirementIds": [
+        "RA-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "60665560195ca4549c9b4b308d2cf0dc6adff0e238d5e6691cb98d8039e02a7f",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "K5-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "9d566ff8ea5c562053bcda7f45dd399eedcf882e58914cf250aefe28ba6713f7",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "K5-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ac298d0ead8b0e5cf3c1142df0ca93af2c43aeb640c663b974ea586c371c27a2",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "K5-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "135715e74ace34fec7481812fe967036361a23f75022d74e2af0e989d1383df2",
+      "lineStart": 32,
+      "lineEnd": 52,
+      "requirementIds": [
+        "K5-003",
+        "K5-004",
+        "K5-005",
+        "K5-006",
+        "K5-007",
+        "K5-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "630757029f67ed9cef01ead5cc0487beaeb8d9074946fedfd206f738aebf3740",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "K5-009",
+        "K5-010",
+        "K5-011",
+        "K5-012",
+        "K5-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "8d1d0d4cc2d1c113dd72210ed09c6e30e70ce25a45f0771b97b8f0daa248b6dd",
+      "lineStart": 63,
+      "lineEnd": 69,
+      "requirementIds": [
+        "K5-014",
+        "K5-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7387dbaba840795b8bbb5afcd7b90576cc257157e16da0051c613174e77e4ea2",
+      "lineStart": 70,
+      "lineEnd": 76,
+      "requirementIds": [
+        "K5-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "58dde3b741889d0c5f871468ae8ea474d4f0fb519a0fc37d535b305be26dfe44",
+      "lineStart": 77,
+      "lineEnd": 82,
+      "requirementIds": [
+        "K5-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "930e354ab6068a21108493c0e7b73af643c70693ef4a56c1b3cc9da58b1d309b",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "K5-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "273e4d082fd44ebc50e72eeef329083d5dea9130456ac3bdcd87017bf1a3cbfa",
+      "lineStart": 89,
+      "lineEnd": 92,
+      "requirementIds": [
+        "K5-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "054f88d2c7c8eba3153a53a2f25743666d27ea903e659ff3d6c76d4a6db0484f",
+      "lineStart": 101,
+      "lineEnd": 110,
+      "requirementIds": [
+        "K5-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "72367e1369a9a5902c8e71ad99c10fbd505183f56e0f78407b065e87d5bf0c5f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T1-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "75c3023e81a2d3c714be10cb90974810aaa4955297ae2051c1ea5f673854fe24",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T1-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "50a8bac85ca6e0c72944241d496e6d99ecbaddf279bc718bafdad3e894df5aca",
+      "lineStart": 36,
+      "lineEnd": 45,
+      "requirementIds": [
+        "T1-002",
+        "T1-003",
+        "T1-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "5c2f574148e35bbb9868454e85cb7d2f0ce5d80877ceaf2b916a33dc8c67bab8",
+      "lineStart": 46,
+      "lineEnd": 58,
+      "requirementIds": [
+        "T1-005",
+        "T1-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e8bc570fbf3cc847fbba9f49959ec20963f5e8e2691846b02b2124b9e3ce8146",
+      "lineStart": 59,
+      "lineEnd": 91,
+      "requirementIds": [
+        "T1-007",
+        "T1-008",
+        "T1-009",
+        "T1-010",
+        "T1-011",
+        "T1-012",
+        "T1-013",
+        "T1-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "fc1f395952f58a83350d3f794fac901e8cdadeb1b26423bdaae7e40a9af11296",
+      "lineStart": 92,
+      "lineEnd": 106,
+      "requirementIds": [
+        "T1-015",
+        "T1-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "4d1004fd581cabb12c9bcaf1771dd78c56a977b7683bcbe1a096f288063bb639",
+      "lineStart": 107,
+      "lineEnd": 113,
+      "requirementIds": [
+        "T1-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "dba9af58afa621f83979e3c98bc454af443d591d99838201fff4fd423b90cfa4",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "T1-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7d00da30480411ffac9723b7b785544cecf30634ec014a7d1114822537aee759",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "T1-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "8a18cf2ae467e1a7dbffb6457a50efbae4b730135d41dca7b8b206c8c3c95491",
+      "lineStart": 126,
+      "lineEnd": 131,
+      "requirementIds": [
+        "T1-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "aa5fdaf9f636d1d634e86f1b9f1b18ae175b32880c7ec5a1b1fca54c8759ac28",
+      "lineStart": 132,
+      "lineEnd": 145,
+      "requirementIds": [
+        "T1-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c9ddec4d0c6e903f8672ee44cc2e9a4c0761aab5d1768b696f1e7c279385016f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T2-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a5aae30fe7b5c5d7a18299593493419779ace4ff5baaab7f6d8662a0f1c4c714",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T2-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "7fc689d551ca8d6afddf403a21e4235ee41fff78e647ce40605eb50a3a84ca2b",
+      "lineStart": 36,
+      "lineEnd": 47,
+      "requirementIds": [
+        "T2-002",
+        "T2-003",
+        "T2-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "dda715bfa2b87792a501e07bfec90baa01c638b0a9ffc2f68c8aeecf2db057eb",
+      "lineStart": 48,
+      "lineEnd": 53,
+      "requirementIds": [
+        "T2-005",
+        "T2-006",
+        "T2-007"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9925a02d46dad3e29b6702db469de0d0c14546583ec5837dfef22ab3d03764e2",
+      "lineStart": 54,
+      "lineEnd": 57,
+      "requirementIds": [
+        "T2-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f82142a7354d4b47e894e691f33a81f6241d130c9e9c3d3788d231a47360dc40",
+      "lineStart": 58,
+      "lineEnd": 70,
+      "requirementIds": [
+        "T2-009",
+        "T2-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "295cae4aad9dd0b6f5be2473b30f1ef31770a9b98b7f3dd9bff36c7d3e5506cb",
+      "lineStart": 71,
+      "lineEnd": 76,
+      "requirementIds": [
+        "T2-011",
+        "T2-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "44705925b529fa404bb520c496820a24b03d8831fc8c0d2f7b272d78cb899227",
+      "lineStart": 77,
+      "lineEnd": 83,
+      "requirementIds": [
+        "T2-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "197defe517ad80b2cd28ddd0d45812c308e48ac596898899a2c8316c40455a3d",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "T2-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e2762a52dfa2b3a0a28101128e8f1cb00775070c53d5139ffb58e752e83cccff",
+      "lineStart": 90,
+      "lineEnd": 95,
+      "requirementIds": [
+        "T2-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "e2a4e233f23e130ec22912e0d1acb36abf15b96ee4591515247f40016cba1107",
+      "lineStart": 96,
+      "lineEnd": 101,
+      "requirementIds": [
+        "T2-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "440a8546955cd2d14c645111c76a31eb00df49661468925f32f8d23dbb5eb2d8",
+      "lineStart": 102,
+      "lineEnd": 109,
+      "requirementIds": [
+        "T2-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "28c82093d761f9788bfecb6bfe4f965d853940d9dd4ea131e2c6fb2448367741",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T3-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "316d0ffc4bcfb8b7178ece1399be3e5dfe884149f683595b9c7e6cd60ca52f45",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T3-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bdbdfd74a6d538d51e1e8c4cf45680176e561333cc5459416e9e465b5209ebea",
+      "lineStart": 36,
+      "lineEnd": 43,
+      "requirementIds": [
+        "T3-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "b0859a5206fa3e4218d796c6b7e3c76ec261377ab1239d13999172752a7fd789",
+      "lineStart": 44,
+      "lineEnd": 53,
+      "requirementIds": [
+        "T3-003",
+        "T3-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "0be94de741c4e8d44273decaca4520f419a3d7d738e497744922304a2dda4488",
+      "lineStart": 54,
+      "lineEnd": 65,
+      "requirementIds": [
+        "T3-005",
+        "T3-006",
+        "T3-007"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "dc9761dda855075f9b3d60b97b762c4bbe6c17afa0ce944c32bebe5991d2ecd6",
+      "lineStart": 66,
+      "lineEnd": 75,
+      "requirementIds": [
+        "T3-008",
+        "T3-009"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "fbc0493ace5566af2212a08777224369b0c68c5319675b811523ab7b9ded013c",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "T3-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ea99ef1443947fb4e2da5f5be8d8c22f2a0e63928314371b20d4811117446d16",
+      "lineStart": 82,
+      "lineEnd": 88,
+      "requirementIds": [
+        "T3-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "9b11bccdd9cc73114f5fe2f7a1f80a84e747f5fe742191ec4a1de01b6aac0280",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "T3-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "d88b2287a7b15405c89bd0f2b96d7e577e7ba5d351cff41995c92a8cc353b453",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "T3-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "000ee49f7f2b98c0cc6204c9178872a7cd97f76dd0aad5d319c59f048d18d175",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "T3-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "8cdda7541381ab2d3c0f6994da3651ffc1612a89402f0f245f7036bcf86b7be2",
+      "lineStart": 107,
+      "lineEnd": 116,
+      "requirementIds": [
+        "T3-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "25c71f0b5e69370008a1c4a1dff3915e46baf4c6693128b4d26a76ee7065317e",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "OV-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "d48a55b48d3d747c08fc815eb1b628b3c5af3189a55add23dcfa903f9cadc3b6",
+      "lineStart": 22,
+      "lineEnd": 40,
+      "requirementIds": [
+        "OV-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "67b750c8e9137b815db23259b1e4f6ad7be9cc75bc2cf224e6c7d86a94413f52",
+      "lineStart": 41,
+      "lineEnd": 48,
+      "requirementIds": [
+        "OV-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "5c133b1b53423c02a74bcb9de277761930243885e28b568cb5c93ca8e442d9f5",
+      "lineStart": 49,
+      "lineEnd": 56,
+      "requirementIds": [
+        "OV-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "b08346164cf262531b72e59bd53ae7f16f20d64261751be108267198cf98c274",
+      "lineStart": 57,
+      "lineEnd": 66,
+      "requirementIds": [
+        "OV-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f60ed514b22a8d4fe051ceeba09f5e46514ccb8d1062e5da5cfe17bdf9dc110d",
+      "lineStart": 67,
+      "lineEnd": 70,
+      "requirementIds": [
+        "OV-007"
+      ],
+      "disposition": "Personal-context routing excluded; no case text, named heading or individual facts adopted."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "47518e3ede6190fa8086b0a02dae7dad6d4a8e13537f4eccb83c097909c6a656",
+      "lineStart": 71,
+      "lineEnd": 78,
+      "requirementIds": [
+        "OV-003"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "80f8a0daaa74a90a068ca296c621d229b724fba2e4ceeb4326ce376665f14f29",
+      "lineStart": 79,
+      "lineEnd": 85,
+      "requirementIds": [
+        "OV-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "f989eec482a0876f79b6b1f23167cb00aa6729325f8327d46c5bb1e1e191950f",
+      "lineStart": 20,
+      "lineEnd": 22,
+      "requirementIds": [
+        "LT-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "8d98c43514a567f768bb830f328b0f14ac3095b315595bb49db544f7a31902b6",
+      "lineStart": 23,
+      "lineEnd": 26,
+      "requirementIds": [
+        "LT-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "693fe3d090a2d0b6d0d997880cb29b915a6262041dd283a8ecb36cf4495835a8",
+      "lineStart": 27,
+      "lineEnd": 32,
+      "requirementIds": [
+        "LT-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "50b770d46573134e48b655f3147cf29c7e55130f3daeb5c35155e97534cc6ca2",
+      "lineStart": 33,
+      "lineEnd": 42,
+      "requirementIds": [
+        "LT-003",
+        "LT-004",
+        "LT-005",
+        "LT-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e5dda5b44895eeb6b9034b8e3e64c7abe5e5c4a65833111f25570d65a3d099cc",
+      "lineStart": 43,
+      "lineEnd": 48,
+      "requirementIds": [
+        "LT-007",
+        "LT-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "5e0beff13d0488dbe50af9db8357a7821349140a88a94cde96cae1e56ae24dc5",
+      "lineStart": 49,
+      "lineEnd": 59,
+      "requirementIds": [
+        "LT-009",
+        "LT-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "827d5d4c097a7e1c10ca69fb7febae73758828a64dacd735b1713841bf1dd682",
+      "lineStart": 60,
+      "lineEnd": 66,
+      "requirementIds": [
+        "LT-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "d3ce8fb873b1fd7fe53a123b162a2182845fce7f39035f4fefc6d277ccae1533",
+      "lineStart": 67,
+      "lineEnd": 80,
+      "requirementIds": [
+        "LT-012",
+        "LT-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7fe0cdbf7f6ccb90c887e4b07ae0a51ee5c22d3375b80a026bb2f8b622f3dec0",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "LT-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "e412907fca0bcd2e6e0cf69e50783fbbe2c5339f468e755dc45e0255174dfb01",
+      "lineStart": 87,
+      "lineEnd": 90,
+      "requirementIds": [
+        "LT-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/line-of-therapy.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "016ef9879949cd98a3131feaa6153e59c8d77448770f131856c9c4f468844e71",
+      "lineStart": 97,
+      "lineEnd": 108,
+      "requirementIds": [
+        "LT-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e63705fb37b7ea7d4769e9889cd5479e125a11a8e4cad7abc7a05646ceb87bfb",
+      "lineStart": 20,
+      "lineEnd": 22,
+      "requirementIds": [
+        "NA-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "df42c2f1092c2619c635f64b8cd04efef0425671de44499410fb4c828df45c30",
+      "lineStart": 23,
+      "lineEnd": 26,
+      "requirementIds": [
+        "NA-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "d58365b1da76ffb0d09994f6d8a1e2cb8b1bef7313ab4ae2f9736691255a9bca",
+      "lineStart": 27,
+      "lineEnd": 32,
+      "requirementIds": [
+        "NA-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "0fcfe68acef10afa419c52677587f293014bbba2c2576ed2c71a4e45bc1bce3c",
+      "lineStart": 33,
+      "lineEnd": 52,
+      "requirementIds": [
+        "NA-003",
+        "NA-004",
+        "NA-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "847721e25b3173e95f8cfd490a72a37a38e772a6ddfaaa31e4090358ca7bc312",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "NA-006",
+        "NA-007",
+        "NA-008",
+        "NA-009",
+        "NA-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 5,
+      "kind": "practice-or-worked-example",
+      "sha256": "5bfc42b4b6c0bd954645ebf2a995a26f5f3252fd0e2f2d40063b9a952ddf3763",
+      "lineStart": 63,
+      "lineEnd": 70,
+      "requirementIds": [
+        "NA-011",
+        "NA-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "22f0722d9b8c43dab72f7b07320a1c967597f9c06f8db1b2ed0b73595d2d4d6a",
+      "lineStart": 71,
+      "lineEnd": 78,
+      "requirementIds": [
+        "NA-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "1d55e9229fe58f858aa1e5384ff406ecea7cc657c98ed0c619cd07ce6bd51f40",
+      "lineStart": 79,
+      "lineEnd": 84,
+      "requirementIds": [
+        "NA-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a9846cf468e609554ba90fa6a0997b8c67c29fc4cb33e68a66a90fe656583c15",
+      "lineStart": 85,
+      "lineEnd": 90,
+      "requirementIds": [
+        "NA-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "de6f216d277da0a0808577333f1564436de6ec8a814b800b7b98f5c80bca7943",
+      "lineStart": 91,
+      "lineEnd": 94,
+      "requirementIds": [
+        "NA-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "111d7cdd0c5d13df636ae7d9b84aa9b0857d11aeb94326e14c9d4a117793408b",
+      "lineStart": 102,
+      "lineEnd": 114,
+      "requirementIds": [
+        "NA-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "96c86529255b12c565971591442fe9f60d50c19f00e5ee9475752523a33d2c75",
+      "lineStart": 22,
+      "lineEnd": 24,
+      "requirementIds": [
+        "PE-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "bacd14161def6726e66549b66b1dc0957f70bf22f4f9d9aa12665c482e6472fb",
+      "lineStart": 25,
+      "lineEnd": 28,
+      "requirementIds": [
+        "PE-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "047a3bb8c412cc0b0442cd52af3abaa52c14fcd42b75de21bb51d53ca866b87b",
+      "lineStart": 29,
+      "lineEnd": 32,
+      "requirementIds": [
+        "PE-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f7281b2bfb112970b32a13401cc59b91309c05b71d255cb6e8884c8e75023211",
+      "lineStart": 33,
+      "lineEnd": 48,
+      "requirementIds": [
+        "PE-003",
+        "PE-004",
+        "PE-005",
+        "PE-006",
+        "PE-007",
+        "PE-008",
+        "PE-009",
+        "PE-010",
+        "PE-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "37fd117136280ab72c3e3533ea60f970a04e6d2699674b8482063a1fc8a21bae",
+      "lineStart": 49,
+      "lineEnd": 58,
+      "requirementIds": [
+        "PE-012",
+        "PE-013",
+        "PE-014",
+        "PE-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "fd2885b6efa84380ea7938dec03e582d2f2ece2a551e3dc1e45e0efcd4fd68e7",
+      "lineStart": 59,
+      "lineEnd": 64,
+      "requirementIds": [
+        "PE-016",
+        "PE-017",
+        "PE-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "63492f46a01489987363e7e06f1db51d0d269a89a2716f953a52e95a995cc6d7",
+      "lineStart": 65,
+      "lineEnd": 70,
+      "requirementIds": [
+        "PE-019",
+        "PE-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 7,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "98d480f1b91a30f51fcd3b81dc9ce33da181f36ff44e140c77662544d1c2c648",
+      "lineStart": 71,
+      "lineEnd": 77,
+      "requirementIds": [
+        "PE-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "2fe3653e382bc8b37baf70ac944c2916ab9e024416bbc0a995a07a783a4d53ef",
+      "lineStart": 78,
+      "lineEnd": 83,
+      "requirementIds": [
+        "PE-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "ae85abd406da713dd29d140df06f7329910d2faf046ddcf0336b0fdc26526a99",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "PE-023"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "d6d5a58d110b356ce793c4e014ad5dc8e7f001d56ec2ece613376251ea9a25b2",
+      "lineStart": 90,
+      "lineEnd": 93,
+      "requirementIds": [
+        "PE-025"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/post-neoadjuvant-escalation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "a884d48e6da92db234f5b3e33b3f8c5c78f646d457e964995da8ea9d96d08a27",
+      "lineStart": 101,
+      "lineEnd": 117,
+      "requirementIds": [
+        "PE-027"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "757243deb2a528bba65fc6965a8f1217b21780890c8b9803eadaa93a15d09666",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "RA-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2f7f63af98b3ba34be3eee3437946cdb2e93b6a3117198375e1d4329e424d40a",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "RA-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "969b62e5dae2df636213733e1c58f955333212a9e24f74b2114f01a29bad08a8",
+      "lineStart": 28,
+      "lineEnd": 33,
+      "requirementIds": [
+        "RA-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "1a826c9941b72583302a43bb3c18f4d9c95d29bfc3bb3d395d536a1d58c17f93",
+      "lineStart": 34,
+      "lineEnd": 43,
+      "requirementIds": [
+        "RA-003",
+        "RA-004",
+        "RA-005",
+        "RA-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "380e444b0c9771b467b09811d1b5fd282968d22edc69398840d8fc9075317ae7",
+      "lineStart": 44,
+      "lineEnd": 49,
+      "requirementIds": [
+        "RA-007",
+        "RA-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 5,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "5a159a49616b7e81a1de2db25e2d6db5dfbf9e79eed43d22ce2a8828bbe8be65",
+      "lineStart": 50,
+      "lineEnd": 59,
+      "requirementIds": [
+        "RA-009",
+        "RA-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "f5bfe6a6ba5330ec0f7aafdd18f137b0a8839af80d21f88d2328ee39f4b73db0",
+      "lineStart": 60,
+      "lineEnd": 66,
+      "requirementIds": [
+        "RA-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "cf4f0482c771874e8ee83364f4e7a9f0a193b175926c989323dc81f6e89ca11d",
+      "lineStart": 67,
+      "lineEnd": 80,
+      "requirementIds": [
+        "RA-012",
+        "RA-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a5ceebcb1d37d636c64a586aee6eb336e11f601860f0776b87cdc8b5feb89b40",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "RA-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "c61b1d1dfe3c9f8fdda2da7de5980951f61d23ff8ea835ee448fcf76b9e346f4",
+      "lineStart": 87,
+      "lineEnd": 90,
+      "requirementIds": [
+        "RA-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "c7c17761600a28b78e8191d3ce03739b7fc7c63b75528aa6304d9cd228370d0f",
+      "lineStart": 91,
+      "lineEnd": 99,
+      "requirementIds": [
+        "RA-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/response-adapted-therapy.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "658fa4e697648ff0d805eca9fcaf007e189f21103504ca9e3dca5940f8a270e6",
+      "lineStart": 100,
+      "lineEnd": 111,
+      "requirementIds": [
+        "RA-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "60665560195ca4549c9b4b308d2cf0dc6adff0e238d5e6691cb98d8039e02a7f",
+      "lineStart": 21,
+      "lineEnd": 23,
+      "requirementIds": [
+        "K5-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "9d566ff8ea5c562053bcda7f45dd399eedcf882e58914cf250aefe28ba6713f7",
+      "lineStart": 24,
+      "lineEnd": 27,
+      "requirementIds": [
+        "K5-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "ac298d0ead8b0e5cf3c1142df0ca93af2c43aeb640c663b974ea586c371c27a2",
+      "lineStart": 28,
+      "lineEnd": 31,
+      "requirementIds": [
+        "K5-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 3,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "135715e74ace34fec7481812fe967036361a23f75022d74e2af0e989d1383df2",
+      "lineStart": 32,
+      "lineEnd": 52,
+      "requirementIds": [
+        "K5-003",
+        "K5-004",
+        "K5-005",
+        "K5-006",
+        "K5-007",
+        "K5-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "630757029f67ed9cef01ead5cc0487beaeb8d9074946fedfd206f738aebf3740",
+      "lineStart": 53,
+      "lineEnd": 62,
+      "requirementIds": [
+        "K5-009",
+        "K5-010",
+        "K5-011",
+        "K5-012",
+        "K5-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "8d1d0d4cc2d1c113dd72210ed09c6e30e70ce25a45f0771b97b8f0daa248b6dd",
+      "lineStart": 63,
+      "lineEnd": 69,
+      "requirementIds": [
+        "K5-014",
+        "K5-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 6,
+      "kind": "mechanism-measurement-interpretation",
+      "sha256": "7387dbaba840795b8bbb5afcd7b90576cc257157e16da0051c613174e77e4ea2",
+      "lineStart": 70,
+      "lineEnd": 76,
+      "requirementIds": [
+        "K5-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "58dde3b741889d0c5f871468ae8ea474d4f0fb519a0fc37d535b305be26dfe44",
+      "lineStart": 77,
+      "lineEnd": 82,
+      "requirementIds": [
+        "K5-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "930e354ab6068a21108493c0e7b73af643c70693ef4a56c1b3cc9da58b1d309b",
+      "lineStart": 83,
+      "lineEnd": 88,
+      "requirementIds": [
+        "K5-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "273e4d082fd44ebc50e72eeef329083d5dea9130456ac3bdcd87017bf1a3cbfa",
+      "lineStart": 89,
+      "lineEnd": 92,
+      "requirementIds": [
+        "K5-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/breast-cancer/treatment-setting/the-keynote-522-regimen.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "054f88d2c7c8eba3153a53a2f25743666d27ea903e659ff3d6c76d4a6db0484f",
+      "lineStart": 101,
+      "lineEnd": 110,
+      "requirementIds": [
+        "K5-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "72367e1369a9a5902c8e71ad99c10fbd505183f56e0f78407b065e87d5bf0c5f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T1-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "75c3023e81a2d3c714be10cb90974810aaa4955297ae2051c1ea5f673854fe24",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T1-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "50a8bac85ca6e0c72944241d496e6d99ecbaddf279bc718bafdad3e894df5aca",
+      "lineStart": 36,
+      "lineEnd": 45,
+      "requirementIds": [
+        "T1-002",
+        "T1-003",
+        "T1-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "5c2f574148e35bbb9868454e85cb7d2f0ce5d80877ceaf2b916a33dc8c67bab8",
+      "lineStart": 46,
+      "lineEnd": 58,
+      "requirementIds": [
+        "T1-005",
+        "T1-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e8bc570fbf3cc847fbba9f49959ec20963f5e8e2691846b02b2124b9e3ce8146",
+      "lineStart": 59,
+      "lineEnd": 91,
+      "requirementIds": [
+        "T1-007",
+        "T1-008",
+        "T1-009",
+        "T1-010",
+        "T1-011",
+        "T1-012",
+        "T1-013",
+        "T1-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "fc1f395952f58a83350d3f794fac901e8cdadeb1b26423bdaae7e40a9af11296",
+      "lineStart": 92,
+      "lineEnd": 106,
+      "requirementIds": [
+        "T1-015",
+        "T1-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "4d1004fd581cabb12c9bcaf1771dd78c56a977b7683bcbe1a096f288063bb639",
+      "lineStart": 107,
+      "lineEnd": 113,
+      "requirementIds": [
+        "T1-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "dba9af58afa621f83979e3c98bc454af443d591d99838201fff4fd423b90cfa4",
+      "lineStart": 114,
+      "lineEnd": 119,
+      "requirementIds": [
+        "T1-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "7d00da30480411ffac9723b7b785544cecf30634ec014a7d1114822537aee759",
+      "lineStart": 120,
+      "lineEnd": 125,
+      "requirementIds": [
+        "T1-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "8a18cf2ae467e1a7dbffb6457a50efbae4b730135d41dca7b8b206c8c3c95491",
+      "lineStart": 126,
+      "lineEnd": 131,
+      "requirementIds": [
+        "T1-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/01-read-the-jobs-in-the-plan.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "aa5fdaf9f636d1d634e86f1b9f1b18ae175b32880c7ec5a1b1fca54c8759ac28",
+      "lineStart": 132,
+      "lineEnd": 145,
+      "requirementIds": [
+        "T1-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c9ddec4d0c6e903f8672ee44cc2e9a4c0761aab5d1768b696f1e7c279385016f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T2-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "a5aae30fe7b5c5d7a18299593493419779ace4ff5baaab7f6d8662a0f1c4c714",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T2-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "7bf95616e56af9f2702ef4995db0b435744516bf82b2964f577b4f6bed75952d",
+      "lineStart": 36,
+      "lineEnd": 49,
+      "requirementIds": [
+        "T2-002",
+        "T2-003",
+        "T2-004",
+        "T2-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "dda715bfa2b87792a501e07bfec90baa01c638b0a9ffc2f68c8aeecf2db057eb",
+      "lineStart": 50,
+      "lineEnd": 55,
+      "requirementIds": [
+        "T2-005",
+        "T2-006",
+        "T2-007"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "9925a02d46dad3e29b6702db469de0d0c14546583ec5837dfef22ab3d03764e2",
+      "lineStart": 56,
+      "lineEnd": 59,
+      "requirementIds": [
+        "T2-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f82142a7354d4b47e894e691f33a81f6241d130c9e9c3d3788d231a47360dc40",
+      "lineStart": 60,
+      "lineEnd": 72,
+      "requirementIds": [
+        "T2-009",
+        "T2-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "8dda858c162b3945ddd2e1b4cb43bbb29eba3736c8300de92c5ebef25f069e2e",
+      "lineStart": 73,
+      "lineEnd": 78,
+      "requirementIds": [
+        "T2-011",
+        "T2-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "44705925b529fa404bb520c496820a24b03d8831fc8c0d2f7b272d78cb899227",
+      "lineStart": 79,
+      "lineEnd": 85,
+      "requirementIds": [
+        "T2-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "197defe517ad80b2cd28ddd0d45812c308e48ac596898899a2c8316c40455a3d",
+      "lineStart": 86,
+      "lineEnd": 91,
+      "requirementIds": [
+        "T2-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "e2762a52dfa2b3a0a28101128e8f1cb00775070c53d5139ffb58e752e83cccff",
+      "lineStart": 92,
+      "lineEnd": 97,
+      "requirementIds": [
+        "T2-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "e2a4e233f23e130ec22912e0d1acb36abf15b96ee4591515247f40016cba1107",
+      "lineStart": 98,
+      "lineEnd": 103,
+      "requirementIds": [
+        "T2-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/02-read-timing-around-surgery.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "440a8546955cd2d14c645111c76a31eb00df49661468925f32f8d23dbb5eb2d8",
+      "lineStart": 104,
+      "lineEnd": 111,
+      "requirementIds": [
+        "T2-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "28c82093d761f9788bfecb6bfe4f965d853940d9dd4ea131e2c6fb2448367741",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "T3-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "316d0ffc4bcfb8b7178ece1399be3e5dfe884149f683595b9c7e6cd60ca52f45",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "T3-014"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "bdbdfd74a6d538d51e1e8c4cf45680176e561333cc5459416e9e465b5209ebea",
+      "lineStart": 36,
+      "lineEnd": 43,
+      "requirementIds": [
+        "T3-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "b0859a5206fa3e4218d796c6b7e3c76ec261377ab1239d13999172752a7fd789",
+      "lineStart": 44,
+      "lineEnd": 53,
+      "requirementIds": [
+        "T3-003",
+        "T3-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "0be94de741c4e8d44273decaca4520f419a3d7d738e497744922304a2dda4488",
+      "lineStart": 54,
+      "lineEnd": 65,
+      "requirementIds": [
+        "T3-005",
+        "T3-006",
+        "T3-007"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "dc9761dda855075f9b3d60b97b762c4bbe6c17afa0ce944c32bebe5991d2ecd6",
+      "lineStart": 66,
+      "lineEnd": 75,
+      "requirementIds": [
+        "T3-008",
+        "T3-009"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "fbc0493ace5566af2212a08777224369b0c68c5319675b811523ab7b9ded013c",
+      "lineStart": 76,
+      "lineEnd": 81,
+      "requirementIds": [
+        "T3-010"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "ea99ef1443947fb4e2da5f5be8d8c22f2a0e63928314371b20d4811117446d16",
+      "lineStart": 82,
+      "lineEnd": 88,
+      "requirementIds": [
+        "T3-011"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "9b11bccdd9cc73114f5fe2f7a1f80a84e747f5fe742191ec4a1de01b6aac0280",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "T3-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 9,
+      "kind": "practice-or-worked-example",
+      "sha256": "d88b2287a7b15405c89bd0f2b96d7e577e7ba5d351cff41995c92a8cc353b453",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "T3-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 10,
+      "kind": "additional-teaching",
+      "sha256": "000ee49f7f2b98c0cc6204c9178872a7cd97f76dd0aad5d319c59f048d18d175",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "T3-015"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/03-use-the-findings-in-the-next-conversation.md",
+      "ordinal": 11,
+      "kind": "source-scope",
+      "sha256": "8cdda7541381ab2d3c0f6994da3651ffc1612a89402f0f245f7036bcf86b7be2",
+      "lineStart": 107,
+      "lineEnd": 116,
+      "requirementIds": [
+        "T3-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "25c71f0b5e69370008a1c4a1dff3915e46baf4c6693128b4d26a76ee7065317e",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "OV-004"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "d48a55b48d3d747c08fc815eb1b628b3c5af3189a55add23dcfa903f9cadc3b6",
+      "lineStart": 22,
+      "lineEnd": 40,
+      "requirementIds": [
+        "OV-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "67b750c8e9137b815db23259b1e4f6ad7be9cc75bc2cf224e6c7d86a94413f52",
+      "lineStart": 41,
+      "lineEnd": 48,
+      "requirementIds": [
+        "OV-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "5c133b1b53423c02a74bcb9de277761930243885e28b568cb5c93ca8e442d9f5",
+      "lineStart": 49,
+      "lineEnd": 56,
+      "requirementIds": [
+        "OV-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "e129ee5ebd00615d6272ee38e56d95687bda8a87d69a38979b664eeaf39c22a5",
+      "lineStart": 57,
+      "lineEnd": 66,
+      "requirementIds": [
+        "OV-006",
+        "OV-009"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f60ed514b22a8d4fe051ceeba09f5e46514ccb8d1062e5da5cfe17bdf9dc110d",
+      "lineStart": 67,
+      "lineEnd": 70,
+      "requirementIds": [
+        "OV-007"
+      ],
+      "disposition": "Personal-context routing excluded; no case text, named heading or individual facts adopted."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "47518e3ede6190fa8086b0a02dae7dad6d4a8e13537f4eccb83c097909c6a656",
+      "lineStart": 71,
+      "lineEnd": 78,
+      "requirementIds": [
+        "OV-003"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/treating-early-tnbc/index.md",
+      "ordinal": 7,
+      "kind": "source-scope",
+      "sha256": "80f8a0daaa74a90a068ca296c621d229b724fba2e4ceeb4326ce376665f14f29",
+      "lineStart": 79,
+      "lineEnd": 85,
+      "requirementIds": [
+        "OV-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, overview integration and non-credit framing/scope remain distinct."
+    }
+  ],
+  "readingMode": "Nine later bodies fully read; all nine original/later exact diffs read. Unchanged original lines reused by identity, not independently reread.",
+  "versionReconciliation": "Three pairs are byte-identical. Other differences include generated navigation, KEYNOTE aliases and an I-SPY2 link, later perioperative and biopsy/surgery-omission teaching in chapter two, and the short follow-up gloss in the overview. Inventories remain separate.",
+  "personalContextSectionsExcluded": 2,
+  "sourceBodiesPublished": false
+}

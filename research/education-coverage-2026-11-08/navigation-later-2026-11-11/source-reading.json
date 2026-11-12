@@ -1,0 +1,679 @@
+{
+  "guideRef": "c96896452386202405c435aa161bc5047919337a",
+  "fullReads": [
+    {
+      "path": "wiki/education/comparisons/index.md",
+      "bytes": 8738,
+      "lines": 99,
+      "sha256": "9b0cec3b811937de7d538674fc2a17849c13c212ef23ffb9f0551582ec80c971",
+      "gitBlob": "c8177d5ee547d98c7b8b55a602cf9e49a7bad8a9",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5c32b38eb902dc1b0357e17a83482615eeac6616f3a00d780fb3b1c1dc7b66a1"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "9e7710c73c4494746fd90071e4288509c69fe5f8a5710bf300d7dc8d93f1cd7d"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "520e21f2e97c5087943dbd2f3f60ae6ac2a0d28f91a10fd03269f2c25fdafe71"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "69651168630ca93c66f5afa7013c64af5231fa8f7852dd643a9f7156c9f5d2b1"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7b784859fb875e5c5903b650cf93ca6394c058c9d095adcc85844f14160d25bf"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "639919eb990b0168e709144e8a990503e93023b79486a9a706accb12da60fdcb"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "67139accd0021ffa21741bb0d9a7772acac7a6b5dee2bf11835bd06d1fb64bca"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "e3945c26e8a25a378454116b33701ba9627f01c472497d51e79382420d7e7feb"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "6c32d2f10633de06e464882e64632efc2116066a8180790ee439b33469eb5736"
+        }
+      ],
+      "fullBodyRead": true,
+      "readSpan": "First byte to end, all 99 lines",
+      "sectionSignaturesReproduced": 9,
+      "publicEducationTargets": [
+        {
+          "route": "/wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality",
+          "path": "wiki/education/concepts/cancer-biology/what-cancer-is/oncogene-addiction-vs-synthetic-lethality.md",
+          "gitBlob": "9ed71ee40fbd2bb005b74fd4060e0a0cc08a5a41",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis",
+          "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-vs-necrosis-vs-ferroptosis.md",
+          "gitBlob": "3a9c64868eccd0ad43e7bf17a9ddbe4ad1fc8ce3",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/biology-basics/genetics/germline-vs-somatic",
+          "path": "wiki/education/concepts/biology-basics/genetics/germline-vs-somatic.md",
+          "gitBlob": "8e5b4aa4bbeabce2cb7c6f57783b1da15bb976bb",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna",
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/cfdna-vs-ctdna.md",
+          "gitBlob": "a5a6be82397398893c004901252b6c38b9193e04",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/variant-allele-fraction-and-cancer-cell-fraction.md",
+          "gitBlob": "c94b2e64dddb7fb6a2e59800a94431cb554cf716",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-normal-vs-tumor-only-sequencing.md",
+          "gitBlob": "96d514f14db0a2784a306d13ac285230fde10d41",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays",
+          "path": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-vs-tumor-naive-mrd-assays.md",
+          "gitBlob": "734e4b0f2746879beaeb115c51ef65ec29b50446",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome",
+          "path": "wiki/education/concepts/measurement/sequencing-basics/panel-exome-genome.md",
+          "gitBlob": "494ac30b1e2c03af72a5d93c9fe83045360f1ca5",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna",
+          "path": "wiki/education/concepts/measurement/transcriptomics/bulk-vs-single-cell-vs-spatial-rna.md",
+          "gitBlob": "50f1b7123b29dd1280d2013614443e6548d4486b",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared",
+          "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-methods-compared.md",
+          "gitBlob": "5e0550d1a55de3685c8b6c113f9b0235acb9a438",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable",
+          "path": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+          "gitBlob": "995555ce82f16b97fa6a38b12d75946e8d1c0750",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity",
+          "path": "wiki/education/concepts/immunology/the-immune-system/innate-vs-adaptive-immunity.md",
+          "gitBlob": "e837f35a92a6f4fa9de01da56194abc4cd4e536d",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8",
+          "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+          "gitBlob": "e59b87cc12b8b9b3cc8f231adbf531bc5b1096dd",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion",
+          "path": "wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+          "gitBlob": "58a71726a3c258d6d7d530c2ce5cf9f8a9ea1809",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor",
+          "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+          "gitBlob": "3f2204ed9841dfbf866200c1efb6331e267cb86a",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition",
+          "path": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+          "gitBlob": "a0609e7de3878102cf85d6b09fcbef1c9c897ba8",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant",
+          "path": "wiki/education/concepts/breast-cancer/treatment-setting/neoadjuvant-vs-adjuvant.md",
+          "gitBlob": "0ab0dc8803a9860e28465f0d69414e72c835a007",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy",
+          "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/lumpectomy-vs-mastectomy.md",
+          "gitBlob": "81fb2dbdf1204bb78647d2bc99772e7fbab2cc82",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+          "gitBlob": "2f655f4a505c7c23985c291aed967ae1cecd61f8",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis",
+          "path": "wiki/education/concepts/therapeutics/antibody-based/target-vs-chassis.md",
+          "gitBlob": "5803d1c554a376e7360cc41b6b1c26e04b32a72c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response",
+          "path": "wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response.md",
+          "gitBlob": "110f83307a379a74ce5e3e225131a3b4b7c890ae",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/antibody-based/adc-vs-radioligand-therapy",
+          "path": "wiki/education/concepts/therapeutics/antibody-based/adc-vs-radioligand-therapy.md",
+          "gitBlob": "4777814ad9044c8c6c173144af5c8c8dcb6a70a5",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t",
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+          "gitBlob": "b266fd60d87ef146eef58f739bc146b436596d19",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/cell-therapies/tcr-t-vs-tcr-engager",
+          "path": "wiki/education/concepts/therapeutics/cell-therapies/tcr-t-vs-tcr-engager.md",
+          "gitBlob": "be488690e0c82d0688fe695ef83c199f259b9b0a",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/autologous-vs-allogeneic-cell-therapy.md",
+          "gitBlob": "4ba6a60f38a4d96cc99f1983d6e090e7ab866204",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/ex-vivo-vs-in-vivo-engineering.md",
+          "gitBlob": "0d41d73d1b5f3a9622ba46f23f47a0d2ff68bb41",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components",
+          "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components.md",
+          "gitBlob": "c7a540aa58cbb6375ea7e64803f691c6392ac3dc",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine",
+          "path": "wiki/education/concepts/therapeutics/immunotherapy/in-situ-vs-designed-vaccine.md",
+          "gitBlob": "c092d5004e8d598ddf2adf25b57e46ad6c11f56b",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+          "gitBlob": "69d4523a2e1ee3f03cd00495eae8151b488a3978",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa",
+          "path": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+          "gitBlob": "cbbf46a9d9f4112161d9bdd1dda3950a494e956d",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation",
+          "path": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+          "gitBlob": "377741b04105a94e01700f8ca0428fc751c7c682",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive",
+          "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+          "gitBlob": "7c11c687d56fa007d422259ac5c8507dde233d34",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates",
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk",
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis",
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+          "gitBlob": "5bcf22db946bfc40608eff86cd1352f35ebc9919",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed",
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/abstract-vs-peer-reviewed.md",
+          "gitBlob": "7c6ac2c043e483224f587959f320313c3b8d4642",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment",
+          "path": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+          "gitBlob": "d844e5ef7a344ecd3d1b0952a5e5fdc70ff6c2c7",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy",
+          "path": "wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md",
+          "gitBlob": "def8ae823339c96be3a55a8fe99d262a770ea0cd",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access",
+          "path": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+          "gitBlob": "612ff318cadfb93a537a460f44e4e0331e73ef8c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla",
+          "path": "wiki/education/concepts/access-and-regulation/trials-and-access/ind-vs-bla.md",
+          "gitBlob": "453a3ca44f158ab57320f382fd6d42484a0346c6",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/index",
+          "path": "wiki/education/concepts/index.md",
+          "gitBlob": "0dca7fa4ef27ffba7ae9c37f2e1282771447460b",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/index",
+          "path": "wiki/education/index.md",
+          "gitBlob": "191cbcdec99e3e8b1a9b6e15ef80f0efad91cf81",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/guides/index.md",
+      "bytes": 2500,
+      "lines": 34,
+      "sha256": "c9c1a875bbd210dfc3f1688dd381c78953f9f2b5cd90ad072fe5b1ccfcaabd02",
+      "gitBlob": "6838a11a13cd689990a3975f0a62a87948d6c974",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "4aac54ac69df7572177954a7efe6afeadb6bef4bdfa2a41d3b1e25a04bdcfe48"
+        }
+      ],
+      "fullBodyRead": true,
+      "readSpan": "First byte to end, all 34 lines",
+      "sectionSignaturesReproduced": 1,
+      "publicEducationTargets": [
+        {
+          "route": "/wiki/education/guides/start-here/index",
+          "path": "wiki/education/guides/start-here/index.md",
+          "gitBlob": "75899d959da43ce3dfd0bb5f019cfed0d783d58c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/index",
+          "path": "wiki/education/index.md",
+          "gitBlob": "191cbcdec99e3e8b1a9b6e15ef80f0efad91cf81",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/treating-early-tnbc/index",
+          "path": "wiki/education/guides/treating-early-tnbc/index.md",
+          "gitBlob": "9bdb3ea0798750d26811119ef08f5625431bad6f",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/reading-pathology-and-surgery-results/index",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "gitBlob": "1741efe0576d2b7304b6c81cfe906e4578540125",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/how-the-immune-system-fights-cancer/index",
+          "path": "wiki/education/guides/how-the-immune-system-fights-cancer/index.md",
+          "gitBlob": "8f9c82e9fd1538e54793557a6d21b861e4f59c30",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/what-multi-omics-tells-us/index",
+          "path": "wiki/education/guides/what-multi-omics-tells-us/index.md",
+          "gitBlob": "92d62242cd8c66d320785e46f959c9eba36c7735",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/monitoring-residual-disease/index",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "gitBlob": "23c07d7d1c9429208a97523a08c36f98beab9b7c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/personalized-cancer-vaccine/index",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/index.md",
+          "gitBlob": "0c97e6119c29c25926d12a5d2a5655e686c30435",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/engineered-cell-therapy/index",
+          "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+          "gitBlob": "f11c31b4cb7aaa9d1e7411dfcbd6eef36343ee41",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/aiming-a-drug-at-a-surface-target/index",
+          "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+          "gitBlob": "b917b3ac46dfef439df490a541e84d9e2505b50a",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/local-therapy-and-the-immune-system/index",
+          "path": "wiki/education/guides/local-therapy-and-the-immune-system/index.md",
+          "gitBlob": "1cdbf5d3daf0261d463edc0197869198a1da0383",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/from-variant-to-drug/index",
+          "path": "wiki/education/guides/from-variant-to-drug/index.md",
+          "gitBlob": "9a8d26530d36e49e565fb994359ed1a3d9004a85",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/predicting-response-before-treating/index",
+          "path": "wiki/education/guides/predicting-response-before-treating/index.md",
+          "gitBlob": "91b3e25e781d9762ffed94e2b106f377f33036c9",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/reading-cancer-evidence/index",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "gitBlob": "b063707d26d41c898e3fd462399a96363c11a9b2",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/accessing-experimental-therapy/index",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "gitBlob": "f0b4a3639115ae4b9776e78f61f6066813ac22a0",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/judging-a-test-or-vendor-claim/index",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "gitBlob": "42246f51ab77bbeae44330ed177fde8984225044",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/index",
+          "path": "wiki/education/concepts/index.md",
+          "gitBlob": "0dca7fa4ef27ffba7ae9c37f2e1282771447460b",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/comparisons/index",
+          "path": "wiki/education/comparisons/index.md",
+          "gitBlob": "c8177d5ee547d98c7b8b55a602cf9e49a7bad8a9",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "path": "wiki/education/index.md",
+      "bytes": 5963,
+      "lines": 56,
+      "sha256": "a0556285dd04d78c675860d357d948f5c865978b756ac99b0d4098fffd17c39e",
+      "gitBlob": "191cbcdec99e3e8b1a9b6e15ef80f0efad91cf81",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "742e6641429b1a7a7a5a768d374d19e223c0cfc48c49e20c457e7d81b7b95f22"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "b736eb84f413d601526d80dc39a270853a2833606d92f34cd3e27232c3932d70"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5f26b617d48fe6279c2ede48b818d928289ced703f77987568be79f93e39d48b"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "d0dd4aefbb4126d2ad9db15bfdd074c936284f6e96455925856c7b838ad8402f"
+        }
+      ],
+      "fullBodyRead": true,
+      "readSpan": "First byte to end, all 56 lines",
+      "sectionSignaturesReproduced": 4,
+      "publicEducationTargets": [
+        {
+          "route": "/wiki/education/guides/start-here/index",
+          "path": "wiki/education/guides/start-here/index.md",
+          "gitBlob": "75899d959da43ce3dfd0bb5f019cfed0d783d58c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/treating-early-tnbc/index",
+          "path": "wiki/education/guides/treating-early-tnbc/index.md",
+          "gitBlob": "9bdb3ea0798750d26811119ef08f5625431bad6f",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/reading-pathology-and-surgery-results/index",
+          "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+          "gitBlob": "1741efe0576d2b7304b6c81cfe906e4578540125",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/how-the-immune-system-fights-cancer/index",
+          "path": "wiki/education/guides/how-the-immune-system-fights-cancer/index.md",
+          "gitBlob": "8f9c82e9fd1538e54793557a6d21b861e4f59c30",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/reading-cancer-evidence/index",
+          "path": "wiki/education/guides/reading-cancer-evidence/index.md",
+          "gitBlob": "b063707d26d41c898e3fd462399a96363c11a9b2",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/monitoring-residual-disease/index",
+          "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+          "gitBlob": "23c07d7d1c9429208a97523a08c36f98beab9b7c",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/judging-a-test-or-vendor-claim/index",
+          "path": "wiki/education/guides/judging-a-test-or-vendor-claim/index.md",
+          "gitBlob": "42246f51ab77bbeae44330ed177fde8984225044",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/what-multi-omics-tells-us/index",
+          "path": "wiki/education/guides/what-multi-omics-tells-us/index.md",
+          "gitBlob": "92d62242cd8c66d320785e46f959c9eba36c7735",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/from-variant-to-drug/index",
+          "path": "wiki/education/guides/from-variant-to-drug/index.md",
+          "gitBlob": "9a8d26530d36e49e565fb994359ed1a3d9004a85",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/aiming-a-drug-at-a-surface-target/index",
+          "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/index.md",
+          "gitBlob": "b917b3ac46dfef439df490a541e84d9e2505b50a",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/local-therapy-and-the-immune-system/index",
+          "path": "wiki/education/guides/local-therapy-and-the-immune-system/index.md",
+          "gitBlob": "1cdbf5d3daf0261d463edc0197869198a1da0383",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/personalized-cancer-vaccine/index",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/index.md",
+          "gitBlob": "0c97e6119c29c25926d12a5d2a5655e686c30435",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/engineered-cell-therapy/index",
+          "path": "wiki/education/guides/engineered-cell-therapy/index.md",
+          "gitBlob": "f11c31b4cb7aaa9d1e7411dfcbd6eef36343ee41",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/predicting-response-before-treating/index",
+          "path": "wiki/education/guides/predicting-response-before-treating/index.md",
+          "gitBlob": "91b3e25e781d9762ffed94e2b106f377f33036c9",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/guides/accessing-experimental-therapy/index",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "gitBlob": "f0b4a3639115ae4b9776e78f61f6066813ac22a0",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/concepts/index",
+          "path": "wiki/education/concepts/index.md",
+          "gitBlob": "0dca7fa4ef27ffba7ae9c37f2e1282771447460b",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/comparisons/index",
+          "path": "wiki/education/comparisons/index.md",
+          "gitBlob": "c8177d5ee547d98c7b8b55a602cf9e49a7bad8a9",
+          "exists": true
+        },
+        {
+          "route": "/wiki/education/local-treatment-modalities/index",
+          "path": "wiki/education/local-treatment-modalities/index.md",
+          "gitBlob": "5b6694adec2f0c1a8b41b56baec46d14f44cd0aa",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "partialReadsNotCredited": [
+    {
+      "path": "wiki/education/concepts/index.md",
+      "bytes": 132312,
+      "lines": 753,
+      "sha256": "6a154f017a52d7e53f273af7bc36bc9bbb7271d6e49aa676d7b8c32992608748",
+      "gitBlob": "0dca7fa4ef27ffba7ae9c37f2e1282771447460b",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "8b0bdd591cb018c9483a8c27689db81805acfa3074b45055c7fbd3218ba5a34d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f9f0e403c328b279767a816ff6fedf20c2e8163ae4804ee66cdf329493278cef"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "95e5bb6b6eb28d19dd5679785614e417b4e2bf9bc2d571008005a9b0f0aae774"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "23592297c8ec9e924c83cf0166855e5f96f2776c4f07745b619a17a3910513de"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "500d320da827b1ebc2f34700a1a2ab4cd8597b60e9934fd17d4c76d889c7db2e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "da973c2f28cef8ec0917a05c253550af7ea54acc4480a619ba7f329bfd9d5440"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "4ad3c50d504beae61a7b6cbd9bb674fb13a88e8827a128d83de6343a227880a1"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "4405dde16f69c83a0fc0126400a971785eea92814b5e4258ef1ce6e7f80f33ef"
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "a930dbd5be05a1a2f11a0e5df2f93b56b6051023e323cf0da6ac1239db347105"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e6cb1c6be502ba5f50cf19644b9293591792b4acf3e13c9fbab9e8852204e4f9"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "ef09e4059823064a7a8a3a9d9ad1f58bb1135781a33e53cdfe871e2233349340"
+        }
+      ],
+      "fullBodyRead": false,
+      "readSpan": "Introductory lines 1 to 28 only; remaining body unreviewed",
+      "sectionSignaturesReproduced": 11,
+      "publicEducationTargets": []
+    },
+    {
+      "path": "wiki/education/images/index.md",
+      "bytes": 172322,
+      "lines": 397,
+      "sha256": "ab5c575c9192cc2638312e8e557b5b677d351ba642ab79f2ce6493808de8ad47",
+      "gitBlob": "188298957b127b9daf9fc164d673584faa37a485",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "185e7dfa2d067629c7fe719fc44ea2c2cb1ad6724ba655158338d8213afa6959"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c2a9e189871f70942b2d25ff7d3cb466ba5b2841d973e2d6be41cd2d1ca3b650"
+        }
+      ],
+      "fullBodyRead": false,
+      "readSpan": "Introductory lines 1 to 28 only; remaining body unreviewed",
+      "sectionSignaturesReproduced": 2,
+      "publicEducationTargets": []
+    }
+  ],
+  "originalPin": "No new original-pin read or coverage credit; the earlier original dispositions remain unchanged."
+}

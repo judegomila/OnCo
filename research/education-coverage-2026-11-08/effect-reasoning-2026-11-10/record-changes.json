@@ -1,0 +1,2465 @@
+{
+  "comparison": "Immutable pinned main baseline; a draft subject absent from main can already exist in a peer draft.",
+  "baselineHead": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "owners": [
+    {
+      "ownerId": "lead-time-bias",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "c7da93bd16c47ebe81ad35956d3c215f3b578000d76893a6286bf29cb8d7f805",
+      "currentDraftRecordSha256": "b2c8ca7af3cca55d472e83c5568f083f9c5d20e86625ff7acb43a72a908e5e1e",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "83fc487c5e007665083a624f65b73573a7f57852628ae8a63111ea32ada8a627",
+          "beforeState": "present",
+          "afterSha256": "380d284d2f5d37869a97bebe6778f9f454ef57849caf62fa6239f6d675c3a055",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "77c04c4c42cd34fb4bfa21d9332a2023025fa6e625c74fe459c24f1c638c9e26",
+          "beforeState": "present",
+          "afterSha256": "b6fa89c41afecefa55747157f15f86307090a54198cad7e99a71b2fc3909f9a6",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "5b6075f73c62b2e5ec3ab540ec89b4058870ec7bb5f1ded6eee2fc2916adb8c2",
+          "beforeState": "present",
+          "afterSha256": "96d78d85674e3368e5556305c2666a5c1bb00003f33c9f7731a645cc3306638d",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "f652b4d61b0287812f0d311f8b42ff755d038f80331da3918fb91f0be504fa80",
+          "beforeState": "present",
+          "afterSha256": "aef21766bf553475f9664610f4f0ccc717d0e30244f7594af8e21337f38b64b9",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "efs",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "e5b9bc74c8104a6b0b3d0812fd736b5ab781d0b43164961500f259049e6278c4",
+      "currentDraftRecordSha256": "cee2f5c1b0c78e45b228a5fd6d7e1d5392b2d508575f26cad31789c33601b1a6",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "603165576a5b90a57c4b71289b35074fae97d62496c86a10ba8b1067b6fe9816",
+          "beforeState": "present",
+          "afterSha256": "0b9fda0b9b5e1e13243f498ded7cbc75211752c4ce12395fec559853cb9d0c40",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "3af2f5f434a5ee94ea1d66718e14b19246688f8646bca205fca1e8e733dbe56f",
+          "beforeState": "present",
+          "afterSha256": "ff4abcca44e046d7d4b2cc68e23d40abc7eaff4f7fec84b4811bacbdf56b28bb",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "84bc471df9f6936cd601cfe511758dd9bd4de02e5faec5e491b607e7682c8511",
+          "beforeState": "present",
+          "afterSha256": "c24a00bd2ae4707f3f082dc6612705447ece94f90c70c37e2a2de0fd872078af",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "hazard-ratio",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "ec6514f74016d83bc268b0d1517002e5d1045e7068f5e08ff3948c6913c0c2c3",
+      "currentDraftRecordSha256": "8742212d2d3ca29e4d66e678210fddab1e3aa45a4e91d6f8fea0321f0cd013e4",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "a86e112c19c3aff7055b93b2b0bc74ff5484675608f611debae08ae9cbe353fd",
+          "beforeState": "present",
+          "afterSha256": "5c2b5d811426528efc9a345ba691632d86f1ab1045542754982784504047e959",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "91c0c5919ddffe819f663e52ac270c547d7722b91055ef8f07ce22dc0295593c",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "c6a719d19b6857842cfa89a44f167fe52881550ce3fd298cc16ef985487eb122",
+          "beforeState": "present",
+          "afterSha256": "6c3470bb05048f4e3dafb3605933af908177fe89739f40677098ab30d5895a0d",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "fa9a6cf1d77a906ada47d810420e55002e44952ea20ad0e26d15912e0863d35b",
+          "beforeState": "present",
+          "afterSha256": "f759bec547681203c20857b1e73576c6ba9ce901ec14964eda77054a44e9e1b4",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "hazard-ratio-basics",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "1afa557ef254b34ee972701413e041223c0e3fbe468ca4754f0f7d11a26dadeb",
+      "currentDraftRecordSha256": "b4dbedb948e121f28f2ff488196e51f118253c838aa32c77f70b607e08cbfa57",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "a86e112c19c3aff7055b93b2b0bc74ff5484675608f611debae08ae9cbe353fd",
+          "beforeState": "present",
+          "afterSha256": "e58b195a68fb7d895f81aef3f12e252896984a87695d9e2909c255e1e826fc8f",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "1334ac8961e1350cd8894ff810bd269e27240613f95213b109d62be18159e936",
+          "beforeState": "present",
+          "afterSha256": "cd4afa3f21bef3b42a2ad169799da003751d88b9a13f78f2df02a1263c9baf8c",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "da5d6547f49e8bf9df3830d7f218939a14dc532986564641dae9feb575024d46",
+          "beforeState": "present",
+          "afterSha256": "2f1c1b4bf1cf808de0bd672fd11e27f0ccd8f89ae6bfbf867eee29edd018cea2",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "confidence-interval",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "d970dd438a98599103a1e39b09eda968c3dec33cbfc5763986b6615ff0844ed6",
+      "currentDraftRecordSha256": "bc7de8cc09660623dcd28e9c34e6363140d0eb1bf323b298cca8f1096a049116",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "88e4e075cecc61ecc38c33a97aec676a6a000f2365274947988c2702154040c7",
+          "beforeState": "present",
+          "afterSha256": "920184750b360a1c4eef4ec8cc61eed98dddc0f0642b69cbfeef31569902661d",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "abdbf666d8a4e7057d3f7b1366a63a03e7381551a4102caac13dc4c50a0f1ccf",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "dd5ce76d5209bf995b59a1fb6ab00d17ad0600346345c1b8cbce7c3afbf713a6",
+          "beforeState": "present",
+          "afterSha256": "1ebc9ae6725b9c270dfb682d91b3765f56e287e518f1606b1216849b6ab032c5",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "65c1c20ea2a5f72347d9457ed1c042fcfbf3d601d4967f5583382350f263d817",
+          "beforeState": "present",
+          "afterSha256": "54f963c127252e47693f626e17f4372aa127bd0bdd62f665559f70c5a512d402",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "b68eb79bcb7d502c098a53c97ea613a95bb15f614395788fda66bfad2a602aa3",
+          "beforeState": "present",
+          "afterSha256": "03929cf50a44a8a2985e4ff2fe88ffeb19437f141e55fcbf95c2bf972b29aafc",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "p-value",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "762c96cbf9c723360c5e1e0767e7e7042520c758cd6768481ca2fb54161a4618",
+      "currentDraftRecordSha256": "847e38798b162bd83d26808ad5a1013258537aa58ba7fc791f1a4bc1ac1e507b",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "0b901cf8313f133b68402b535225278afaab877a92d13a08aeaba324525e8b5d",
+          "beforeState": "present",
+          "afterSha256": "1facc910aee584613b2d896d7383a523d1904900dcd9f6d469a6a5914958c1c2",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "6c1215dfa8cb1e398b07cde1a8b16fd7314971e6227caec27d597a3041d74ab8",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "e3bd690820dfaacdc9dd12d10d6c0cabf894b15cfbfc289bc9bde144c6c76158",
+          "beforeState": "present",
+          "afterSha256": "7379f01103153e6c04e53be273b6d2f22d51d98b2bc7471a60129dd3bc1ed259",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": "82d7b921a947cccefdd7ff0dc373e84d89da1b344a8659169a28e59221260513",
+          "beforeState": "present",
+          "afterSha256": "9c67b5a5378e2f32602b0b42266d202af7a7e3df733f789d14d8f9352d8165e9",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "kaplan-meier-curve",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "c9ba7f317cd4531556e5d4f3308d936a3d199a482fdf6cd5d2c797060394c214",
+      "currentDraftRecordSha256": "ab7870cd4e4669441580336f36bfe1ed748647617e43cdc8ed8632750fa046a1",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "4bfde49c4b694daaf91b5f28cbb6021ac6f2b217663fbe2531a7d3338c7e30d0",
+          "beforeState": "present",
+          "afterSha256": "1da6d94b6373b5aa47b28ddcb206e2a678b8e94349cff30d584c63aaac0a2c14",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "d489c70f831ffad3677b5d3c04beb1b9b03a609fcd95c11ee4c86927932cf9be",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "05237ea88d8cd4d38c242ae0e7a3742c23e2f965965d0de026070d415162627a",
+          "beforeState": "present",
+          "afterSha256": "48b97945ea2015b6fb50ef28e3b90f27d3394ad8cb7390c20acee8f59a6976fa",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "d32e056baeb07d29db19bf17e09236897803d484766100d7e197467663d09ac5",
+          "beforeState": "present",
+          "afterSha256": "93a64a4d80df7c3c46120b32b78075f2fc3e7b40e06862a0e808b64f76a8c853",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "absolute-benefit",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "309b4c42f593fc3fbf48267f36fa086ab29e91c989492825f41d39ab0e7b35a9",
+      "currentDraftRecordSha256": "8e3cc49e5790e93af6c0f9b36e570d946e2836a0d59938b89fb00109230117e0",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "17291b32004ae97c5351809569872f788fc054009ed2300bd50acc943f1be131",
+          "beforeState": "present",
+          "afterSha256": "325bba21226879a4c191bd96df8841bf5d7b8ac2643f0b6cb42a3117ecc7b4cb",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "5fab5934d994f033b31cefbcea2110cf9a788f886c8a520070c7501eb738d982",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": "81d67448b92492423b8d6bf7141e511045c386525da346ec66dfeeb49da36cc7",
+          "beforeState": "present",
+          "afterSha256": "377466cedeaa289f2548363c61935c40aba6a2ac862992b5916faad4473c1dec",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "08e0b2ea8095df01041ee646e5d7f01080ab426a83af0207fd8fc806684f4054",
+          "beforeState": "present",
+          "afterSha256": "5185f08133edc4eacd216dc056cb6b47f20ef1e2122fd49e17b97cc2a2025843",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "surrogate-validation",
+      "draft": 375,
+      "mainBaselineState": "present",
+      "mainBaselineRecordSha256": "fbe5d4731769e3eb296fe4b830a20ff1f651dfb55a6b0073a038d98ea3cfee40",
+      "currentDraftRecordSha256": "7e547023ccf1005ce34fd42e8561af42cea481404768339d25448c57b06a2b69",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "asOf",
+          "beforeSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+          "beforeState": "present",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "5c89fc5565a2803d78698a7a8fb1564a38606ca64f694b8506063fe0ed9683ff",
+          "beforeState": "present",
+          "afterSha256": "d88477a5a1aa6b75093e3bb6e92ef9d45b204ace13c3037c35662926dcb02a83",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "beforeState": "present",
+          "afterSha256": "21d8d2277d4e31785974981b4f33f6f2fda9b74b97e1a13004be3bec9c987950",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": "68bb6aac9a80dee0cf66dd19c6b8ee10f14bb19fa73313767a0d80f6c77b930b",
+          "beforeState": "present",
+          "afterSha256": "9015d7b596cd3a72e741bf5caf45e87ccac403535bd00f021df3dd21e093ff75",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "odds-ratio",
+      "draft": 375,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "a4bf70c24b758579385ddcbf5ae866acb1aa3b1b46a729c12a4bd018fcc972b4",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "2c6053c9bf4c1f0457078a7f8353dc5b98890424bdf6a00435e85822acec4e1f",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "138de3126b32ea648de07d4279695c6cc2a803c77a1b1f8840a2e2880dbe67a2",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "1744ba410846fe827cc80c90c5bae050c3d77952412f683caece57763bf990e3",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e9e46e8991f47001652e57749ee5f7d6c61efa8047fb33039706f04cd4fb8614",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "24dade548e0c095da54c5e08e682ca72e855fddb92fcabb879ef3e2dae68bc2e",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "provenance",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "da1e5863b17ee8ec8372813fe1a953d83b2a1fa91f5473c2aa35220a1f7587a5",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fc2cb56d849af03d25fd887d08f6d44ce30561dfb8f17ff9a7d5c1fc3631b768",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9066d9e98842cb63fa9a697da327656fa91868173b086e2d58490c6be8f2e3d7",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "1ae4434e1b8600f06163f444d702e3e078ff0519b5ce90b793c2028971176612",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "cross-trial-comparison",
+      "draft": 375,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "85adb7e8f0f40dbd304c59f227f8406149c35a5055630729d33385b36b025205",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "14cd455f6d1f2ae868c99ef5eb7b996cea36214914a4193f3fcf954f2cd6210b",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e5aaae975d9d9ebe35f65e3383d79a65941fe11d0c88b77bf07338095500f496",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "5f26cd9c7b511a4c48f166904c349c25ccc6b373fc4cd53e3abd86e5ccfe399d",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "provenance",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "da1e5863b17ee8ec8372813fe1a953d83b2a1fa91f5473c2aa35220a1f7587a5",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fc2cb56d849af03d25fd887d08f6d44ce30561dfb8f17ff9a7d5c1fc3631b768",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "246bac31d4987148f5c76a03a70516386302a490b0db8b0aed56249ef1725d33",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "8a8fe946860ad67aba5c486186b624e49ce385a87b52f79a12167bd2d6a6e522",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "denominators-and-conditional-probability",
+      "draft": 375,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "bf0c05bb090cc459274b7ff1cf87d66bbfdd0a31c9bde2298df5e1c5590daf14",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "394fc3bcc244980c6af00e32507e4201c36c64d4bd774493e6ac8f3a80963e8d",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "46acd502bcd90e09a7faa10d2ed316065be8837e603e2625fed7317ae29ef23e",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "8cab49bcf9a0bd2966fbf28e96ec560ddac846ae419dadfc776ec300eea6d36a",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "provenance",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "da1e5863b17ee8ec8372813fe1a953d83b2a1fa91f5473c2aa35220a1f7587a5",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fc2cb56d849af03d25fd887d08f6d44ce30561dfb8f17ff9a7d5c1fc3631b768",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "526d62761e009b3d53759f4847ffb2ab9c10d47de9992108582206cd9ba1d328",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9f9c27c0992b0952b22804fc88a4fc17bf0d59de9db239d495afe78e62bbad43",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "population-versus-individual-risk",
+      "draft": 375,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "998832be955f0c17165359802be4fe788a7008c44689cb0f7fd25aafb0b50434",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "8623c4b70ca1f36f34778d95644f7b81ec7016344b5dd4d9a2b00ed42f7d3027",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "7cd4a8f3bf76d4ac93727c9b704f41cf35612e8d511c8721c05fcc9892ef3da1",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "7618bb3abb794155dc87a1d72c74d585488ed6f80a6b33e2440764f257d85cfb",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "ca79a5b16657f2163b71371b86e0da556ab9d59702ba9bbb7d7ce060eb04beb5",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "ace235a4204ec5b4d7ce9f76a5cf12a085793ddb2bf7eda1b7b1032521f39ff0",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "provenance",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "da1e5863b17ee8ec8372813fe1a953d83b2a1fa91f5473c2aa35220a1f7587a5",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fc2cb56d849af03d25fd887d08f6d44ce30561dfb8f17ff9a7d5c1fc3631b768",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "832f325ad02201385d743df289e745a94b044d7c5c452753437bee38c1535256",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e3973be425a1f46838b66dacb02232fd25cdcaa82e0209a9e01ea1a7bea0f95d",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "graph-reading",
+      "draft": 375,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "0712d45180a25666721b16b5f8d8b14883548e8d0ee7ea668bc4874e271fe022",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f9d5412d041fac85eed2d5b86e31499e7e9944b87c4eb574cd9c2552423fc457",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "077fa9d258c3aa8001001e2d11c7c27ebf51aac2e5db97d09fcd597f167fccfc",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4e9b4f20d989d691aa69df112aae8716f4239edb7315c5cec6b425b29fb65742",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "provenance",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fab7eb3c568e77ad1b1a783bd3cac9c48a3cc9a95d5177f33e63f8cc5b51ed8f",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "da1e5863b17ee8ec8372813fe1a953d83b2a1fa91f5473c2aa35220a1f7587a5",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fc2cb56d849af03d25fd887d08f6d44ce30561dfb8f17ff9a7d5c1fc3631b768",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "aa401452c58832a2d5685f995ffe50c0ade855b8066d3bd375907220ce525e8b",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9659b8e7f8cdc8bfa93148c3fb495331b14eadae47ac04cf822163a5276b96e3",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "inconclusive-and-negative-evidence",
+      "draft": 371,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "60173552f21bd630e74dddd2042430b8eb0c4ce10eb24ae627c4760c6e4d1d78",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "396ad8aa9ee4b4c02b27381d84012e115a33022cfce4eb1dd881d7fbaef6193b",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "6ab1ffe5609fb263d99cb6c73f9697ba2706cb4fad54257561434928344e2f8e",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "734234ea67145f504ce5302e56e134b19f8b0d14d349374290e0f74ebb3573f5",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "2619b5ef03d37d3e6a4ab3a3f3b0094eeb02c09c6379703f979d1fab12ee9b45",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "34823de9a423c6d3f139b3a692e602613ac87ba00f4cfc9da25154c39d2cd45c",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "0b978515334cdd8cbe4ce868e39362cab8629d703c840ad982b7173e897fbb06",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "45e249be55845fe54c93ff70b5ace9c73f1c13c5b0a24b7191baa716f06a58bf",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "af68918031cd8ea8e50247458a3a82f91fd332048553d512559b58e282b9b91c",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "94fd4a759d23f95be6d7cdf8ae75cbce2614502b6d4fc52bdb6c103119744f2c",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "measurement-to-benefit-evidence",
+      "draft": 371,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "7133b60ba6b4d284ce2f031977c8801e5df9412c408e1fe30c919df847e191eb",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "27fce548e589ff115a3a0dc113cb1b3966ff8072e30105b5491904057dd9dba7",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "24542147a6d36a849498e641ab0d4c9b85e089c9109c3a51394bc0e574cbdb8a",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "612b7d94c82867a0fd9a31481f72b7c3b508e218062a289c328aee51b0bc970a",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e943e3432e4691dfe72ee42492a3f37ff8c02bbe2bf8a0e4e361e22391d80581",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e7d474c5204ceaa8054dbd3e46673f622fcdb3f91a768185588ad21ec5a9ff0a",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "growth-rate-inhibition",
+      "draft": 371,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "b1806db74bf428070e4c1b8ada2c14c2a054c0b6466aa0f44b97ff955247dd6f",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "88cb2cc3ce1c7d77719872c658ef6e965f4b97dd91c4d7f3753d56687f87ecec",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "059bf75b00ab9d6990b8baa08651c0c7a77b3a15223ac0e81d3a6c23c6a3cbcd",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "08f9e6bcef3c52b4846d800d54ca7d6f8991cd52d21672f41f33874262d4d37e",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9e85426137dba4222e9a31f69ceba69802e568088697ef25fb9092ea63c7bb7b",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "b348b79336497285d7c26ead817e4b0fb678a13f91142cba4b817eef92670898",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e5229c685af4a0e79c014ef749eee911c37d67ad928f3f58896035ac32aabf6c",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "cb31e644b6fee0aafeae2b80f2fe17233949b628cd0f299f92703eace73ed091",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "trial-population-transportability",
+      "draft": 371,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "eb95b8235b74890368de59f0a1a0bddf01638eeda139356014a96efd30b02a00",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "6ab1ffe5609fb263d99cb6c73f9697ba2706cb4fad54257561434928344e2f8e",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "8146c69a3a0c62f88c9a6959af6a47e66744429e7a52d2019f8fbe0d8ca751ff",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "564818a726ca3142b0e3e856192ccba9e9c2b9b9a0c77f296fd04e1ef29367ce",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f7da565ca34386951b1c90f7506e61af9ec6b8e006024cae740dbc1188981fe8",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "e97ba54c1c6585e0af359fcfe4bf3b37d5988a0c3df0c276f99936409218c1ad",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "dc83b0b8959a9e3dec6322d5b73904d7545e03f68bd66803b889e051e5463450",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "1657773fb70286926ae8aed04da5c76ae5c15aebad40719c21dbc1ef0219691d",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    },
+    {
+      "ownerId": "immunogenicity-versus-efficacy",
+      "draft": 373,
+      "mainBaselineState": "absent",
+      "mainBaselineRecordSha256": null,
+      "currentDraftRecordSha256": "57b44227b2729800f01ea521a9778e8f809437425678e65c6f3b94e026cb3b5b",
+      "changedFieldsAgainstPinnedMain": [
+        {
+          "field": "aka",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterState": "present"
+        },
+        {
+          "field": "bottlenecks",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "cancers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "category",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f553e793f6b9104412e8b28919cc5ffab11c95dc59d1b2fc3e4b00cae8c38490",
+          "afterState": "present"
+        },
+        {
+          "field": "companies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "dependsOn",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "drugs",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "id",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "ec0ba1da5bfc6b64852ec4d0e374e45d954204220d0bc227d89b0d6e038ec6c2",
+          "afterState": "present"
+        },
+        {
+          "field": "institutions",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "journals",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "keyPapers",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "kind",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a",
+          "afterState": "present"
+        },
+        {
+          "field": "links",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "ae4eaba317f994ad7ef3f42d2fc62969122488956f7850f6fd80e9cbc1786a9b",
+          "afterState": "present"
+        },
+        {
+          "field": "name",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "fa69e8f82c3aa60240b32e4b19dc140cee9c01d6144daa4337c6cf24843f9fd0",
+          "afterState": "present"
+        },
+        {
+          "field": "notes",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "6021395c3e7a96799cdc183cf4ea78e5ad18321b63a8189e2a38a44853fbe426",
+          "afterState": "present"
+        },
+        {
+          "field": "pathways",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "people",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "related",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "86ec1f3a1a58b59cabcb40c65e55239a76d79040795402a9aacc330ec45f43bc",
+          "afterState": "present"
+        },
+        {
+          "field": "sections",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "summary",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "f2416150e00efd7d4a509d6023e87e162a4e493bb60541223b3b781c001c1e01",
+          "afterState": "present"
+        },
+        {
+          "field": "tags",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "targets",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "technologies",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "terms",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        },
+        {
+          "field": "tldr",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "47d2147586f5d3bbbfc6cdaf7d1fb8265e11776c7b51aa1c1255612559a3988a",
+          "afterState": "present"
+        },
+        {
+          "field": "trials",
+          "beforeSha256": null,
+          "beforeState": "missing",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterState": "present"
+        }
+      ]
+    }
+  ],
+  "ownershipVerification": {
+    "w": {
+      "side": "w",
+      "canonicalBefore": 22784,
+      "canonicalAfter": 22784,
+      "added": [],
+      "changed": [
+        "lead-time-bias",
+        "efs",
+        "hazard-ratio",
+        "odds-ratio",
+        "cross-trial-comparison",
+        "denominators-and-conditional-probability",
+        "population-versus-individual-risk",
+        "graph-reading",
+        "confidence-interval",
+        "p-value",
+        "kaplan-meier-curve",
+        "absolute-benefit",
+        "surrogate-validation"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "mismatches": [],
+      "missingRelations": [],
+      "schemaParses": 14,
+      "normalization": "Existing canonicalTermCategory applied to raw term category labels; no category code changed."
+    },
+    "f": {
+      "side": "f",
+      "canonicalBefore": 22712,
+      "canonicalAfter": 22712,
+      "added": [],
+      "changed": [
+        "measurement-to-benefit-evidence",
+        "growth-rate-inhibition",
+        "trial-population-transportability",
+        "inconclusive-and-negative-evidence"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "mismatches": [],
+      "missingRelations": [],
+      "schemaParses": 4,
+      "normalization": "Existing canonicalTermCategory applied to raw term category labels; no category code changed."
+    },
+    "s": {
+      "side": "s",
+      "canonicalBefore": 22719,
+      "canonicalAfter": 22719,
+      "added": [],
+      "changed": [
+        "immunogenicity-versus-efficacy"
+      ],
+      "removed": [],
+      "unexpected": [],
+      "mismatches": [],
+      "missingRelations": [],
+      "schemaParses": 1,
+      "normalization": "Existing canonicalTermCategory applied to raw term category labels; no category code changed."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-12",
+  "dataCommit": "dc2eb11265c65f5508278281b8f7685e90d4a134",
+  "original": {
+    "lessons": 5,
+    "sections": 55,
+    "requirements": 103
+  },
+  "later": {
+    "lessons": 5,
+    "sections": 55,
+    "requirements": 103
+  },
+  "sourceFirstRows": 123,
+  "substantiveRequirements": 103,
+  "nonCreditRows": 20,
+  "qualifiedSourceAssessments": 6,
+  "existingOwnersSupplementedOrLinked": 5,
+  "newRegisteredOwners": 1,
+  "selectedReaders": 6,
+  "newConnectedNotes": 35,
+  "exactFieldReferences": 121,
+  "primaryReading": {
+    "assignedPublicationIdentities": 16,
+    "assignedCompleteAbstracts": 16,
+    "targetedBodyParagraphs": 40,
+    "bodiesReadAtTargetedDepth": 8,
+    "completeCorrectionNotices": 1,
+    "wholeResearchPapersRead": 0,
+    "officialDrugDefinitions": 8,
+    "reviewedProteinFunctionEntries": 5,
+    "trialRegistryOutcomeReads": 1,
+    "datedFDANotifications": 2,
+    "officialLabelMechanismSections": 1,
+    "generalNCITargetedParagraphReads": 3,
+    "rawCaptures": 82
+  },
+  "freshSourceImageFilesViewed": 10,
+  "newTeachingAssetVersionEntries": 16,
+  "retainedTeachingAssetVersionEntries": 4,
+  "summaryStates": 54,
+  "availableTexts": 30,
+  "EnglishFallbacks": 24,
+  "priorRootBindingsRebased": 20,
+  "newAdjacentGroups": 1,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "broaderGoalComplete": false
+}

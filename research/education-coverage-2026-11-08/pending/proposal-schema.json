@@ -1,0 +1,954 @@
+{
+  "version": "draft-376",
+  "state": "Open draft product proposal; current local checks and historical browser/build scopes are recorded separately; owner approval and hosted preview pending; not merged.",
+  "pr": 376,
+  "url": "https://github.com/judegomila/OnCo/pull/376",
+  "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+  "records": [
+    {
+      "id": "trastuzumab-emtansine",
+      "kind": "drug",
+      "name": "Trastuzumab emtansine",
+      "aka": [],
+      "tldr": "Trastuzumab emtansine (Kadcyla, T-DM1) was the first ADC for a solid tumour (2013). It is still standard after surgery for HER2+ breast cancer patients whose tumour did not fully respond to pre-surgery treatment.",
+      "summary": "Approved 2013 for pretreated HER2+ metastatic breast cancer (EMILIA) and 2019 for residual disease after neoadjuvant therapy (KATHERINE: invasive DFS HR 0.50, with OS benefit). Non-cleavable linker means no bystander effect, which explains its inferiority to T-DXd in DESTINY-Breast03 and its failure in HER2-low disease. Being displaced post-neoadjuvantly by T-DXd (DESTINY-Breast05).",
+      "status": "approved",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Trastuzumab_emtansine",
+      "links": [
+        {
+          "label": "FDA label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20emtansine"
+        },
+        {
+          "label": "KADCYLA label: chemical composition, loading and measured catabolites",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Trastuzumab Emtansine",
+          "url": "https://ncoda.org/pes/trastuzumab-emtansine/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "her2-ihc-3-plus"
+      ],
+      "cancers": [
+        "breast-her2-positive",
+        "her2-positive-early-breast-cancer"
+      ],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [
+        "her2"
+      ],
+      "drugs": [],
+      "companies": [
+        "roche-genentech"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "smcc"
+      ],
+      "trials": [
+        "nct06313086",
+        "nct06830889",
+        "nct06316531",
+        "nct05081609",
+        "nct06324357",
+        "nct04931342",
+        "nct04873362",
+        "nct00781612",
+        "nct06126640"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "brand": "Kadcyla",
+      "code": "T-DM1",
+      "modality": "ADC",
+      "payload": "DM1 (maytansinoid, tubulin inhibitor), DAR ~3.5",
+      "linker": "SMCC, non-cleavable",
+      "conjugateComposition": {
+        "sources": [
+          {
+            "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+          }
+        ],
+        "checkedOn": "2026-11-08",
+        "deliveryTargetIds": [
+          "her2"
+        ],
+        "payloads": [
+          {
+            "sources": [
+              {
+                "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+                "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+              }
+            ],
+            "checkedOn": "2026-11-08",
+            "id": "dm1",
+            "cargoKind": "small-molecule",
+            "chemical": {
+              "name": "DM1",
+              "entityId": "dm1"
+            },
+            "mechanism": "Tubulin binding and microtubule inhibition",
+            "classIds": [
+              "tubulin-inhibitor-payloads"
+            ],
+            "molecularTargets": [
+              {
+                "name": "Tubulin"
+              }
+            ],
+            "attachedSpecies": "MCC-DM1 (emtansine), covalently linked to trastuzumab",
+            "releasedSpecies": [
+              {
+                "sources": [
+                  {
+                    "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+                    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+                  }
+                ],
+                "checkedOn": "2026-11-08",
+                "chemical": {
+                  "name": "MCC-DM1"
+                },
+                "context": "The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell."
+              },
+              {
+                "sources": [
+                  {
+                    "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+                    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+                  }
+                ],
+                "checkedOn": "2026-11-08",
+                "chemical": {
+                  "name": "Lys-MCC-DM1"
+                },
+                "context": "The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell."
+              },
+              {
+                "sources": [
+                  {
+                    "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+                    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+                  }
+                ],
+                "checkedOn": "2026-11-08",
+                "chemical": {
+                  "name": "DM1",
+                  "entityId": "dm1"
+                },
+                "context": "The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell."
+              }
+            ],
+            "loadingObservations": [
+              {
+                "sources": [
+                  {
+                    "label": "KADCYLA prescribing information: sections 11, 12.1 and 12.3",
+                    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+                  }
+                ],
+                "checkedOn": "2026-11-08",
+                "quantity": "mean-count-per-antibody",
+                "value": 3.5,
+                "unit": "payload-molecules/antibody",
+                "scope": "Average in the labeled product description; the label does not give a complete loading distribution."
+              }
+            ]
+          }
+        ],
+        "note": "Delivery antigen, attached DM1 moiety, observed catabolites and average loading retain separate source scopes. No exposure or component ratio is inferred from this mean."
+      },
+      "mechanism": "Trastuzumab with lysine-conjugated DM1; released as Lys-MCC-DM1 after lysosomal degradation, cell-impermeable.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2013,
+          "indication": "HER2+ metastatic breast cancer after trastuzumab and taxane"
+        },
+        {
+          "region": "US",
+          "year": 2019,
+          "indication": "Adjuvant HER2+ breast cancer with residual disease after neoadjuvant therapy"
+        }
+      ],
+      "mechanismSteps": [
+        "Antibody binds HER2 on the tumour cell surface",
+        "Receptor-ADC complex is internalised by endocytosis",
+        "Trafficked to the lysosome; linker is cleaved or antibody degraded",
+        "DM1 (lysine-MCC-DM1, non-permeable) is released inside the cell",
+        "Microtubule assembly is blocked; mitosis arrests",
+        "Tumour cell dies by apoptosis"
+      ],
+      "dosing": {
+        "route": "IV infusion",
+        "schedule": "3.6 mg/kg every 3 weeks; 14 cycles in the adjuvant setting",
+        "modifications": "Reduce to 3 then 2.4 mg/kg for thrombocytopenia, hepatotoxicity, neuropathy; discontinue for LVEF <40%",
+        "monitoring": "LFTs and platelets before each dose; LVEF every 3 months",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+      },
+      "toxicity": [
+        {
+          "event": "Fatigue",
+          "anyGradePct": 50,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Nausea",
+          "anyGradePct": 42,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Transaminases increased",
+          "anyGradePct": 32,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Musculoskeletal pain",
+          "anyGradePct": 30,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Haemorrhage",
+          "anyGradePct": 29,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Thrombocytopenia",
+          "anyGradePct": 29,
+          "grade3PlusPct": 6,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Headache",
+          "anyGradePct": 28,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Peripheral neuropathy",
+          "anyGradePct": 28,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        },
+        {
+          "event": "Left ventricular dysfunction",
+          "anyGradePct": 3,
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+          "note": "KATHERINE (adjuvant)"
+        }
+      ],
+      "access": [
+        {
+          "country": "US",
+          "reimbursement": "Medicare Part B (physician-administered); commercial plans per formulary",
+          "assistance": "https://www.genentech-access.com",
+          "source": "https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files",
+          "asOf": "2026-09-06"
+        },
+        {
+          "country": "UK",
+          "reimbursement": "NICE: recommended for residual invasive disease after neoadjuvant therapy (TA632) and HER2+ metastatic disease (TA458)",
+          "source": "https://www.nice.org.uk/guidance/published?ngt=Technology%20appraisal%20guidance",
+          "asOf": "2026-09-06"
+        }
+      ],
+      "regulatoryEvents": [
+        {
+          "date": "2013-02-22",
+          "type": "approval",
+          "region": "US",
+          "note": "HER2+ metastatic breast cancer after trastuzumab and taxane (EMILIA); first ADC for a solid tumour",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2019-05-03",
+          "type": "approval",
+          "region": "US",
+          "note": "Adjuvant treatment of HER2+ early breast cancer with residual disease (KATHERINE)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2026-Q2",
+          "type": "label-change",
+          "region": "US",
+          "note": "Displaced post-neoadjuvantly by T-DXd approval (DESTINY-Breast05)",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        }
+      ]
+    },
+    {
+      "id": "clio-8221",
+      "kind": "drug",
+      "name": "CLIO-8221",
+      "aka": [],
+      "tldr": "CLIO-8221 is an experimental dual-payload antibody-drug conjugate from Callio Therapeutics, in phase 1 trials for HER2-expressing advanced solid tumours and metastatic breast cancer.",
+      "summary": "CLIO-8221 is a dual-payload antibody-drug conjugate from Callio Therapeutics, with Hummingbird Bioscience as partner. A HER2-targeted ADC carrying two payloads at once, the topoisomerase 1 inhibitor exatecan and the ATR inhibitor berzosertib, paired to address resistance that emerges on existing HER2 ADCs. Its furthest stage is phase 1, for HER2-expressing advanced solid tumours and metastatic breast cancer. ClinicalTrials.gov registers it in one study linked below. Phase 1/2 recruiting in the US and Australia, China planned (NCT07300943). Whether it works in people has not been established unless a trial below reports it.",
+      "status": "phase-1",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "Callio Therapeutics: calliotx.com",
+          "url": "https://calliotx.com/"
+        },
+        {
+          "label": "Callio Therapeutics: biospace.com",
+          "url": "https://www.biospace.com/press-releases/callio-therapeutics-to-present-phase-1-trial-design-of-clio-8221-novel-dual-payload-adc-at-asco-2026"
+        },
+        {
+          "label": "Callio Therapeutics: biospace.com",
+          "url": "https://www.biospace.com/press-releases/callio-therapeutics-to-present-phase-1-trial-design-of-clio-8221-novel-dual-payload-adc-at-asco-2026"
+        },
+        {
+          "label": "Callio Therapeutics: clinicaltrials.gov",
+          "url": "https://clinicaltrials.gov/study/NCT07300943"
+        },
+        {
+          "label": "ClinicalTrials.gov: trials of CLIO-8221",
+          "url": "https://clinicaltrials.gov/search?intr=CLIO-8221"
+        },
+        {
+          "label": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+          "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+        }
+      ],
+      "tags": [
+        "pipeline",
+        "ctgov-ingest"
+      ],
+      "related": [],
+      "cancers": [
+        "metastatic-cancer"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "her2"
+      ],
+      "drugs": [],
+      "companies": [
+        "callio-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct07300943"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "provenance": {
+        "editedBy": "OnCo gap audit, class 5 (company pipeline pages and ClinicalTrials.gov v2)",
+        "editedOn": "2026-11-03"
+      },
+      "code": "CLIO-8221",
+      "modality": "Dual-payload antibody-drug conjugate",
+      "conjugateComposition": {
+        "sources": [
+          {
+            "label": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+            "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+          }
+        ],
+        "checkedOn": "2026-11-08",
+        "deliveryTargetIds": [
+          "her2"
+        ],
+        "payloads": [
+          {
+            "sources": [
+              {
+                "label": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+                "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+              }
+            ],
+            "checkedOn": "2026-11-08",
+            "id": "exatecan",
+            "cargoKind": "small-molecule",
+            "chemical": {
+              "name": "Exatecan"
+            },
+            "mechanism": "TOP1 inhibitor payload",
+            "classIds": [
+              "topoisomerase-i-payloads"
+            ],
+            "molecularTargets": [
+              {
+                "name": "Topoisomerase I (TOP1)"
+              }
+            ],
+            "note": "Agent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description."
+          },
+          {
+            "sources": [
+              {
+                "label": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+                "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+              }
+            ],
+            "checkedOn": "2026-11-08",
+            "id": "berzosertib",
+            "cargoKind": "small-molecule",
+            "chemical": {
+              "name": "Berzosertib"
+            },
+            "mechanism": "ATR inhibitor payload",
+            "classIds": [
+              "atr-chk1-inhibitors"
+            ],
+            "molecularTargets": [
+              {
+                "name": "ATR",
+                "entityId": "atr"
+              }
+            ],
+            "note": "Agent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description."
+          }
+        ],
+        "note": "Two reported attached agents on one HER2-directed construct. This is not co-administration of separate drugs. No component loading, ratio, exposure or clinical benefit is inferred."
+      },
+      "mechanism": "A HER2-targeted ADC carrying two payloads at once, the topoisomerase 1 inhibitor exatecan and the ATR inhibitor berzosertib, paired to address resistance that emerges on existing HER2 ADCs.",
+      "approvals": [],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    },
+    {
+      "id": "dako-pd-l1-22c3-pharmdx",
+      "kind": "drug",
+      "name": "PD-L1 IHC 22C3 pharmDx",
+      "aka": [],
+      "tldr": "The 22C3 pharmDx assay is the PD-L1 stain tied to pembrolizumab since 2015 and the source of the combined positive score (CPS). The cut-off differs by cancer: 1% of tumour cells in lung cancer, CPS 1 in gastric, cervical and head and neck cancer, CPS 10 in oesophageal and triple-negative breast cancer, so one stain is read differently per disease.",
+      "summary": "Approved 2 October 2015 (PMA P150013, Dako, now Agilent) as the companion diagnostic for pembrolizumab in non-small-cell lung cancer, initially at TPS ≥50% and from 2016 at TPS ≥1%. It has since been approved for gastric and gastro-oesophageal junction cancer (CPS ≥1, 2017), cervical cancer (CPS ≥1, 2018), head and neck squamous cell carcinoma (CPS ≥1, 2019), oesophageal squamous cell carcinoma (CPS ≥10, 2019) and triple-negative breast cancer (CPS ≥10, 2020, KEYNOTE-355). The many cut-offs are a source of confusion for patients: the same stain is read differently depending on the cancer and the trial that set the threshold.",
+      "status": "approved",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FDA PMA P150013",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013"
+        },
+        {
+          "label": "Agilent: PD-L1 IHC 22C3 pharmDx",
+          "url": "https://www.agilent.com/en/product/pharmdx/pd-l1-ihc-22c3-pharmdx"
+        }
+      ],
+      "tags": [
+        "test"
+      ],
+      "related": [],
+      "cancers": [
+        "nsclc",
+        "gastric",
+        "cervical",
+        "head-and-neck",
+        "esophageal",
+        "tnbc",
+        "tnbc-metastatic"
+      ],
+      "sections": [],
+      "technologies": [
+        "companion-diagnostic",
+        "histopathology-ihc"
+      ],
+      "targets": [
+        "pdl1"
+      ],
+      "drugs": [
+        "pembrolizumab"
+      ],
+      "companies": [
+        "agilent"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "pd-l1-testing",
+        "cps",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-rugo-pd-l1-assay-comparison-impassion130-jnci-2021",
+        "paper-sigurjonsdottir-sp142-22c3-tnbc-bcr-2023"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "What a result means: the report gives a TPS or CPS; whether it counts as 'positive' depends on the drug label for your cancer, so the same number can be positive in one cancer and negative in another."
+      ],
+      "brand": "PD-L1 IHC 22C3 pharmDx",
+      "modality": "PD-L1 immunohistochemistry companion diagnostic assay",
+      "regulatoryClaims": [
+        {
+          "sources": [
+            {
+              "label": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+              "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+            }
+          ],
+          "checkedOn": "2026-11-08",
+          "sourceVersion": "P150013/S012",
+          "subject": {
+            "type": "product",
+            "name": "PD-L1 IHC 22C3 pharmDx"
+          },
+          "claimType": "marketing-authorization",
+          "authority": "FDA",
+          "jurisdiction": "United States",
+          "scope": "The listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.",
+          "intendedUse": {
+            "diseaseIds": [
+              "nsclc"
+            ],
+            "therapyIds": [
+              "pembrolizumab"
+            ],
+            "specimen": "Tissue",
+            "decisionRule": "PD-L1 Tumor Proportion Score at least 1%"
+          },
+          "statement": "FDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit."
+        },
+        {
+          "sources": [
+            {
+              "label": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+              "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+            }
+          ],
+          "checkedOn": "2026-11-08",
+          "sourceVersion": "P150013/S021",
+          "subject": {
+            "type": "product",
+            "name": "PD-L1 IHC 22C3 pharmDx"
+          },
+          "claimType": "marketing-authorization",
+          "authority": "FDA",
+          "jurisdiction": "United States",
+          "scope": "The separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.",
+          "intendedUse": {
+            "diseaseIds": [
+              "nsclc"
+            ],
+            "therapyIds": [
+              "cemiplimab"
+            ],
+            "specimen": "Tissue",
+            "decisionRule": "PD-L1 Tumor Proportion Score at least 50%"
+          },
+          "statement": "FDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule."
+        }
+      ],
+      "mechanism": "Mouse monoclonal antibody 22C3 on the Dako Autostainer Link 48, reported as tumour proportion score (TPS) in lung cancer or combined positive score (CPS, tumour plus immune cells relative to tumour cells) in other cancers.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2015,
+          "indication": "Companion diagnostic for pembrolizumab in NSCLC (TPS)"
+        },
+        {
+          "region": "US",
+          "year": 2017,
+          "indication": "Gastric / GEJ adenocarcinoma, CPS ≥1"
+        },
+        {
+          "region": "US",
+          "year": 2019,
+          "indication": "Head and neck squamous cell carcinoma (CPS ≥1) and oesophageal squamous cell carcinoma (CPS ≥10)"
+        },
+        {
+          "region": "US",
+          "year": 2020,
+          "indication": "Triple-negative breast cancer, CPS ≥10 (pembrolizumab plus chemotherapy)"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    },
+    {
+      "id": "bl-b01d1-307",
+      "kind": "trial",
+      "name": "BL-B01D1-307",
+      "aka": [],
+      "tldr": "The first phase 3 win for a bispecific ADC, in triple-negative breast cancer, announced February 2026.",
+      "summary": "BL-B01D1-307, trial NCT06382142 sponsored by SystImmune and Bristol Myers Squibb and announced on 26 February 2026, delivered the first phase 3 win for a bispecific antibody-drug conjugate, izalontamab brengitecan, in previously treated locally advanced or metastatic triple-negative breast cancer. It randomised 418 patients in China to the EGFR by HER3 conjugate or chemotherapy and met its primary progression-free survival endpoint by blinded review and its interim overall survival endpoint with statistically significant and clinically meaningful improvements, with full data at ASCO 2026 and a parallel positive phase 3 in oesophageal squamous cell carcinoma. It has not been replicated outside China, and the global first-line IZABRIGHT-Breast01 trial will show whether the result travels, which is the open question.",
+      "status": "positive",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov NCT06382142",
+          "url": "https://clinicaltrials.gov/study/NCT06382142"
+        },
+        {
+          "label": "Targeted Oncology report",
+          "url": "https://www.targetedonc.com/view/iza-bren-meets-pfs-and-os-end-points-in-phase-3-tnbc-trial"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "src-targeted-oncology"
+      ],
+      "cancers": [
+        "tnbc"
+      ],
+      "sections": [],
+      "technologies": [
+        "bispecific-adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "izalontamab-brengitecan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "nct": "NCT06382142",
+      "phase": "3",
+      "setting": "Previously treated locally advanced or metastatic TNBC: izalontamab brengitecan vs chemotherapy",
+      "sponsor": "SystImmune / BMS",
+      "participation": [
+        {
+          "nct": "NCT06382142",
+          "source": "https://clinicaltrials.gov/study/NCT06382142",
+          "fetchedAt": "2026-11-09T01:56:04.268Z",
+          "studySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+          "responseStudySha256": "1d1c9feb493ba1a2c39f7b15eb2759c2ac344f307836f7aa8d2cbfbc29bbd973",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePosted": "2026-07-23",
+          "leadSponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
+          "collaboratorCount": 1,
+          "minimumAge": "18 Years",
+          "maximumAge": "75 Years",
+          "sex": "ALL",
+          "healthyVolunteers": false,
+          "hasEligibility": true,
+          "enrolment": 418,
+          "enrolmentType": "ACTUAL",
+          "siteCount": 1,
+          "recruitingSiteCount": 0,
+          "countries": [
+            "China"
+          ],
+          "facilities": [
+            {
+              "facility": "Fudan University Shanghai Cancer Center",
+              "city": "Shanghai",
+              "state": "Shanghai Municipality",
+              "country": "China"
+            }
+          ]
+        }
+      ],
+      "result": "PFS and OS significantly improved at interim analysis (numbers presented ASCO 2026).",
+      "started": "2024-06-21",
+      "startedType": "actual",
+      "yearReported": 2026,
+      "enrolled": 418,
+      "enrolledBasis": "registry",
+      "outcomes": [
+        {
+          "endpoint": "Progression-free survival (BICR)",
+          "primary": true,
+          "unit": "months",
+          "arms": [
+            {
+              "name": "Izalontamab brengitecan",
+              "n": 207,
+              "value": 8.5
+            },
+            {
+              "name": "Chemotherapy (TPC)",
+              "n": 211,
+              "value": 3.1
+            }
+          ],
+          "hr": 0.29,
+          "ci": [
+            0.22,
+            0.38
+          ],
+          "p": "<0.0001",
+          "source": "https://www.onclive.com/view/iza-bren-yields-pfs-and-os-benefits-vs-chemo-in-previously-treated-advanced-tnbc"
+        },
+        {
+          "endpoint": "Overall survival (interim, median follow-up 11 months)",
+          "primary": true,
+          "unit": "months",
+          "arms": [
+            {
+              "name": "Izalontamab brengitecan",
+              "value": 15.9
+            },
+            {
+              "name": "Chemotherapy (TPC)",
+              "value": 12.5
+            }
+          ],
+          "hr": 0.6,
+          "ci": [
+            0.42,
+            0.85
+          ],
+          "p": "0.0019",
+          "source": "https://www.onclive.com/view/iza-bren-yields-pfs-and-os-benefits-vs-chemo-in-previously-treated-advanced-tnbc"
+        },
+        {
+          "endpoint": "Confirmed objective response rate (BICR)",
+          "unit": "%",
+          "arms": [
+            {
+              "name": "Izalontamab brengitecan",
+              "value": 51.7
+            },
+            {
+              "name": "Chemotherapy (TPC)",
+              "value": 20.5
+            }
+          ]
+        }
+      ],
+      "replication": "Single Chinese phase 3 with an interim OS analysis; a parallel positive phase 3 in oesophageal squamous cell carcinoma supports the drug, and the global IZABRIGHT-Breast01 trial will test the first-line setting. Not yet replicated outside China."
+    },
+    {
+      "id": "ras-mapk",
+      "kind": "pathway",
+      "name": "RAS / RAF / MEK / ERK (MAPK)",
+      "aka": [],
+      "tldr": "A signalling network in which RAS proteins act as molecular switches and RAF, MEK and ERK relay signals. A gene alteration or downstream signal alone does not establish dependence or treatment benefit.",
+      "summary": "A measured downstream signal does not uniquely identify its upstream driver, survival dependence or clinical benefit. Particular alleles and drug mechanisms matter: Poulikakos found RAS-dependent RAF-dimer transactivation and increased ERK signaling in wild-type-BRAF cell settings exposed to certain ATP-competitive RAF inhibitors. This is an experimental context-dependent effect, not a direction assigned to every RAF drug or RAS alteration.\n\nThis MAPK branch relays signals from receptor and other inputs through the GDP/GTP RAS switch to RAF kinases, MEK and ERK. RAS is a GTP-binding switch; RAF, MEK and ERK are protein kinases. Moodie examined active-RAS complexes, and Kyriakis tested Raf-1 activation of MAP kinase kinase. These defined experiments support steps in the relay; other MAPK branches exist and the simplified map omits regulators.\n\nA fictional compound that lowers phospho-ERK within an hour without changing growth has demonstrated a sampled downstream biochemical effect, subject to assay controls. It has not alone proved direct target binding, attributed growth dependence or patient benefit. Specify the allele, protein site, total-protein normalization, preservation, exposure, timing and cell population, then confirm engagement and functional effects with independent perturbations and appropriate controls.\n\nShared inputs, branches and feedback can alter the magnitude or even direction of a perturbation response over time. High pathway-associated RNA is not a universal activity meter, and a changed ERK site cannot identify a sole upstream receptor. Davies' BRAF work established transforming activity for specific mutations in defined models, not a common effect for every uncertain BRAF variant. Drug selection still needs its own allele-, disease- and setting-specific evidence.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/MAPK/ERK_pathway",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/MAPK/ERK_pathway"
+        },
+        {
+          "label": "RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF. (2010; primary evidence)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20179705/"
+        },
+        {
+          "label": "Complexes of Ras.GTP with Raf-1 and mitogen-activated protein kinase kinase. (1993; primary evidence)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8503013/"
+        },
+        {
+          "label": "Raf-1 activates MAP kinase-kinase. (1992; primary evidence)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1322500/"
+        },
+        {
+          "label": "Mutations of the BRAF gene in human cancer. (2002; primary evidence)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12068308/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "pancreatic",
+        "colorectal",
+        "nsclc",
+        "melanoma",
+        "gallbladder"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "kras",
+        "braf",
+        "egfr",
+        "alk",
+        "ret",
+        "met",
+        "ntrk",
+        "fgfr2",
+        "kit",
+        "nras",
+        "shp2",
+        "nf1"
+      ],
+      "drugs": [
+        "sotorasib",
+        "adagrasib",
+        "daraxonrasib",
+        "encorafenib",
+        "osimertinib",
+        "lorlatinib"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "analogy": "A relay race: receptor hands the baton to RAS, RAS to RAF, RAF to MEK, MEK to ERK, ERK runs into the nucleus and shouts 'divide'. A KRAS mutation is a runner who never stops running whether or not anyone handed them the baton.",
+      "nodes": [
+        {
+          "id": "rtk",
+          "label": "RTK (EGFR, ALK, RET, MET)",
+          "x": 50,
+          "y": 5,
+          "targetId": "egfr"
+        },
+        {
+          "id": "sos",
+          "label": "GRB2 / SOS1",
+          "x": 50,
+          "y": 20
+        },
+        {
+          "id": "ras",
+          "label": "RAS (KRAS)",
+          "x": 50,
+          "y": 36,
+          "targetId": "kras"
+        },
+        {
+          "id": "nf1",
+          "label": "NF1 (GAP)",
+          "x": 15,
+          "y": 36
+        },
+        {
+          "id": "raf",
+          "label": "RAF (BRAF, CRAF)",
+          "x": 50,
+          "y": 52,
+          "targetId": "braf"
+        },
+        {
+          "id": "mek",
+          "label": "MEK1/2",
+          "x": 50,
+          "y": 68
+        },
+        {
+          "id": "erk",
+          "label": "ERK1/2",
+          "x": 50,
+          "y": 82
+        },
+        {
+          "id": "out",
+          "label": "Cyclin D1, MYC → proliferation",
+          "x": 50,
+          "y": 97
+        },
+        {
+          "id": "fb",
+          "label": "DUSP / SPRY feedback",
+          "x": 85,
+          "y": 60
+        }
+      ],
+      "edges": [
+        {
+          "from": "rtk",
+          "to": "sos",
+          "type": "activates"
+        },
+        {
+          "from": "sos",
+          "to": "ras",
+          "type": "activates"
+        },
+        {
+          "from": "nf1",
+          "to": "ras",
+          "type": "inhibits"
+        },
+        {
+          "from": "ras",
+          "to": "raf",
+          "type": "activates"
+        },
+        {
+          "from": "raf",
+          "to": "mek",
+          "type": "activates",
+          "evidence": [
+            {
+              "sources": [
+                {
+                  "label": "Huang et al., PNAS 1993 (primary experiment)",
+                  "url": "https://doi.org/10.1073/pnas.90.23.10947"
+                }
+              ],
+              "checkedOn": "2026-11-08",
+              "sourceDate": "1993-12-01",
+              "basis": "observed",
+              "context": "Recombinant Raf-1 (CRAF) and Mek1 proteins produced in Sf9 insect cells; association and phosphorylation experiments.",
+              "statement": "The study reported a Raf-1–Mek1 complex and Mek1 activation associated with serine phosphorylation after coexpression with Raf-1.",
+              "limitation": "This experiment concerns CRAF and MEK1 in a recombinant system. It does not establish the same behaviour for every RAF isoform or show patient benefit from a drug combination."
+            }
+          ]
+        },
+        {
+          "from": "mek",
+          "to": "erk",
+          "type": "activates"
+        },
+        {
+          "from": "erk",
+          "to": "out",
+          "type": "activates"
+        },
+        {
+          "from": "erk",
+          "to": "fb",
+          "type": "activates"
+        },
+        {
+          "from": "fb",
+          "to": "rtk",
+          "type": "inhibits"
+        }
+      ],
+      "interventions": [
+        "KRAS G12C inhibitors (sotorasib, adagrasib) ± anti-EGFR in colorectal cancer",
+        "Pan-RAS(ON) inhibitor daraxonrasib (phase 3, pancreatic)",
+        "BRAF + MEK inhibitors (dabrafenib/trametinib, encorafenib/binimetinib)",
+        "Encorafenib + cetuximab (+ chemo) in BRAF V600E CRC",
+        "Upstream: EGFR, ALK, RET, MET, NTRK inhibitors and bispecifics"
+      ]
+    }
+  ]
+}

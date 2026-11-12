@@ -1,0 +1,775 @@
+{
+  "version": "draft-373-summary-consumers",
+  "state": "81 actual selected short-summary entries at the current shared draft head; 63 additional RNA selectors use English fallback. Earlier 18 entries and their scopes are retained. No new named language review.",
+  "scope": "Available text is an actual dictionary entry. Missing entries are retained explicitly and use the English fallback; this is not evidence of a completed translation or language review. kind is an audit owner type. Three further existing-owner notes/links/date patches leave these summary source files and English summary fields unchanged.",
+  "records": [
+    {
+      "id": "cell-therapy-release-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ar)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ar",
+      "available": true,
+      "text": "تُفحص دفعة المنتج الخلوي وفق متطلبات جودة محددة قبل اتخاذ قرار بشأن استخدامها. وتجيب الهوية وقياسات الخلايا الحية والنشاط البيولوجي عن أسئلة مختلفة تتعلق بهذه الدفعة."
+    },
+    {
+      "id": "cell-therapy-release-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (de)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "de",
+      "available": true,
+      "text": "Eine Charge eines Zellprodukts wird anhand festgelegter Qualitätsanforderungen geprüft, bevor über ihre Verwendung entschieden wird. Identität, Messungen lebender Zellen und biologische Aktivität beantworten unterschiedliche Fragen zu dieser Charge."
+    },
+    {
+      "id": "cell-therapy-release-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (es)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "es",
+      "available": true,
+      "text": "Un lote de un producto celular se evalúa frente a requisitos de calidad especificados antes de decidir sobre su uso. La identidad, las mediciones de células vivas y la actividad biológica responden a preguntas diferentes sobre ese lote."
+    },
+    {
+      "id": "cell-therapy-release-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (fr)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "fr",
+      "available": true,
+      "text": "Un lot de produit cellulaire est évalué selon des exigences de qualité définies avant de décider de son utilisation. L'identité, les mesures des cellules vivantes et l'activité biologique répondent à des questions différentes sur ce lot."
+    },
+    {
+      "id": "cell-therapy-release-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (hi)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "hi",
+      "available": true,
+      "text": "किसी कोशिका उत्पाद के बैच के उपयोग पर निर्णय लेने से पहले उसे तय गुणवत्ता आवश्यकताओं के अनुसार जांचा जाता है। पहचान, जीवित कोशिकाओं के माप और जैविक गतिविधि उस बैच के बारे में अलग-अलग सवालों के जवाब देते हैं।"
+    },
+    {
+      "id": "cell-therapy-release-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ja)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ja",
+      "available": true,
+      "text": "細胞製品のロットは、その使用について判断する前に、定められた品質要件に照らして検査されます。同一性、生きた細胞の測定、生物学的活性は、そのロットに関する異なる問いに答えるものです。"
+    },
+    {
+      "id": "cell-therapy-release-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (pt)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "pt",
+      "available": true,
+      "text": "Um lote de um produto celular é avaliado de acordo com requisitos de qualidade especificados antes de se decidir sobre a sua utilização. A identidade, as medições de células vivas e a atividade biológica respondem a perguntas diferentes sobre esse lote."
+    },
+    {
+      "id": "cell-therapy-release-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (zh)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "zh",
+      "available": true,
+      "text": "在决定如何处置一个细胞产品批次之前，需要按照规定的质量要求进行检查。身份、活细胞测量和生物活性回答的是关于该批次的不同问题。"
+    },
+    {
+      "id": "cell-therapy-release-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (simple)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "simple",
+      "available": true,
+      "text": "A batch of cells is checked against quality requirements before a decision about its use. Checking which cells are present, how many are alive and what they do answers different questions."
+    },
+    {
+      "id": "vein-to-vein-time-ar",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (ar)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "ar",
+      "available": true,
+      "text": "يقيس زمن «من الوريد إلى الوريد» الفترة من جمع خلايا الشخص إلى تسريب المنتج الخلوي المصنَّع. وقد يشمل الانتظار الشحن والتصنيع وفحوصات الجودة وتنسيق الموعد السريري."
+    },
+    {
+      "id": "vein-to-vein-time-de",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (de)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "de",
+      "available": true,
+      "text": "Die Vein-to-vein-Zeit misst die Zeit von der Entnahme der Zellen einer Person bis zur Infusion des hergestellten Zellprodukts. Transport, Herstellung, Qualitätsprüfungen und die klinische Terminplanung können zur Wartezeit beitragen."
+    },
+    {
+      "id": "vein-to-vein-time-es",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (es)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "es",
+      "available": true,
+      "text": "El tiempo de vena a vena mide el intervalo desde la recogida de las células de una persona hasta la infusión del producto celular fabricado. El transporte, la fabricación, las pruebas de calidad y la programación clínica pueden contribuir a la espera."
+    },
+    {
+      "id": "vein-to-vein-time-fr",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (fr)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "fr",
+      "available": true,
+      "text": "Le délai « de veine à veine » mesure le temps entre le prélèvement des cellules d'une personne et la perfusion du produit cellulaire fabriqué. Le transport, la fabrication, les contrôles de qualité et la planification clinique peuvent contribuer à l'attente."
+    },
+    {
+      "id": "vein-to-vein-time-hi",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (hi)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "hi",
+      "available": true,
+      "text": "वेन-टू-वेन समय किसी व्यक्ति की कोशिकाएं एकत्र करने से लेकर उनसे बने कोशिका उत्पाद का इन्फ्यूजन देने तक का अंतराल है। परिवहन, निर्माण, गुणवत्ता जांच और इलाज का समय तय करने में लगने वाला समय इस प्रतीक्षा में शामिल हो सकता है।"
+    },
+    {
+      "id": "vein-to-vein-time-ja",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (ja)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "ja",
+      "available": true,
+      "text": "Vein-to-vein timeは、本人の細胞を採取してから製造した細胞製品を輸注するまでの期間です。輸送、製造、品質検査、診療日程の調整にかかる時間も待機期間に含まれます。"
+    },
+    {
+      "id": "vein-to-vein-time-pt",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (pt)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "pt",
+      "available": true,
+      "text": "O tempo de veia a veia mede o intervalo entre a colheita das células de uma pessoa e a infusão do produto celular fabricado. O transporte, o fabrico, os testes de qualidade e o agendamento clínico podem contribuir para a espera."
+    },
+    {
+      "id": "vein-to-vein-time-zh",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (zh)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "zh",
+      "available": true,
+      "text": "“静脉到静脉时间”指从采集一个人的细胞到输注制造完成的细胞产品之间的时间。运输、制造、质量检测和临床安排都可能构成等待时间的一部分。"
+    },
+    {
+      "id": "vein-to-vein-time-simple",
+      "kind": "reader-summary-entry",
+      "name": "Vein-to-vein time and manufacturing slots (simple)",
+      "canonicalRecordId": "vein-to-vein-time",
+      "language": "simple",
+      "available": true,
+      "text": "Vein-to-vein time is the wait from collecting a person's cells to infusing the cell product made from them. Transport, manufacture, testing and treatment scheduling can all take time."
+    },
+    {
+      "id": "mrna-construct-anatomy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (ar)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-ar",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (ar)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-ar",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (ar)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-ar",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (ar)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-ar",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (ar)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (ar)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-ar",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (ar)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-de",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (de)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-de",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (de)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-de",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (de)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-de",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (de)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-de",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (de)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-de",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (de)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-de",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (de)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-es",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (es)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-es",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (es)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-es",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (es)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-es",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (es)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-es",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (es)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-es",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (es)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-es",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (es)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (fr)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-fr",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (fr)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-fr",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (fr)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-fr",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (fr)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-fr",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (fr)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (fr)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-fr",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (fr)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (hi)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-hi",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (hi)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-hi",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (hi)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-hi",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (hi)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-hi",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (hi)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (hi)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-hi",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (hi)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (ja)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-ja",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (ja)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-ja",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (ja)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-ja",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (ja)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-ja",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (ja)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (ja)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-ja",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (ja)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (pt)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-pt",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (pt)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-pt",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (pt)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-pt",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (pt)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-pt",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (pt)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (pt)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-pt",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (pt)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (zh)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-zh",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (zh)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-zh",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (zh)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-zh",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (zh)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-zh",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (zh)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (zh)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-zh",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (zh)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrna-construct-anatomy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Messenger RNA construct anatomy (simple)",
+      "canonicalRecordId": "mrna-construct-anatomy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "codon-optimization-simple",
+      "kind": "reader-summary-entry",
+      "name": "Codon optimization (simple)",
+      "canonicalRecordId": "codon-optimization",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "modified-rna-nucleosides-simple",
+      "kind": "reader-summary-entry",
+      "name": "Modified nucleosides in messenger RNA (simple)",
+      "canonicalRecordId": "modified-rna-nucleosides",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-transcription-simple",
+      "kind": "reader-summary-entry",
+      "name": "In vitro transcription for RNA products (simple)",
+      "canonicalRecordId": "in-vitro-transcription",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dsrna-impurities-simple",
+      "kind": "reader-summary-entry",
+      "name": "Double-stranded RNA impurities (simple)",
+      "canonicalRecordId": "dsrna-impurities",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "multi-epitope-constructs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Multi-epitope constructs and antigen processing (simple)",
+      "canonicalRecordId": "multi-epitope-constructs",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target-simple",
+      "kind": "reader-summary-entry",
+      "name": "Delivery targets and therapeutic targets (simple)",
+      "canonicalRecordId": "delivery-target-versus-therapeutic-target",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "sources": [
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "2523c24eb94cb8add155dc8d29efc22e3883410accce7cb7f0b149a585d2f1b2"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "aaae1f898d75c5d376f832f26adc039a572ccb60c7aa690184e6dd5332f25e35"
+    },
+    {
+      "language": "es",
+      "selectedEntriesSha256": "d5526f2d82ecda713edb73c8ab831aeb7c2cbcc5a711da2c9514821680790db2"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "9863d85fef84cdb4c27be996d9ec47f96e24d217144940be64dd8f228c710fe3"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "c76010d127b5c713708777cf2e3fbf4071f23924331121a1354b1658f5bed36b"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "f9a05c1c47b194d1043167868514562a0566e0d037a4f9d4e9319140fe367013"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "96e66d89f7219cd9dc1eae1385e0bf3b1ff9e7cc7dfdb77cdfd3384a673b141f"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "78944eed2bce189ba1a8fd2a40c102cfd6fae5d7af3b1166032d05c5b8629a5e"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "0436acd3365086b89eadeac8a30e8e6f8e34007ed76e0d63b98d4dd8645a1fab"
+    }
+  ],
+  "head": "390ad658620b31deeebb9438c88cd959751f68aa"
+}

@@ -1,0 +1,116 @@
+{
+  "status": "passed",
+  "baseCommit": "bb5efeb81d773b2bea2c065a2c7b3a9d4e8e8992",
+  "gates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.84
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 10.65
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 28.95
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 94.35
+    }
+  ],
+  "fullSuite": {
+    "filesPassed": 284,
+    "testsPassed": 2829,
+    "skipped": 2
+  },
+  "lint": {
+    "errors": 0,
+    "warnings": 7,
+    "scope": "Existing warnings retained; no lint errors."
+  },
+  "exportVerification": {
+    "scope": "Actual static JSON, OpenAPI and Markdown context generation; no new Next production build or deployed-page claim",
+    "generation": [
+      {
+        "name": "build-api",
+        "exitCode": 0,
+        "seconds": 27.84
+      },
+      {
+        "name": "build-openapi",
+        "exitCode": 0,
+        "seconds": 1.66
+      },
+      {
+        "name": "build-context",
+        "exitCode": 0,
+        "seconds": 4.1
+      }
+    ],
+    "exactEntityJsonMatches": true,
+    "exactMarkdownPassages": 9,
+    "captures": [
+      {
+        "file": "pneumonitis.json",
+        "bytes": 6781,
+        "sha256": "d86c65a10ebaa9f92f63d13c75b7a1ed1875fadf76b3afd04f21a3f111bad769"
+      },
+      {
+        "file": "pneumonitis.md",
+        "bytes": 6168,
+        "sha256": "d5eb7bafd2487a39b8f3ccd0dbbdd2398b93bc4c1dea57522106f51bdec84940"
+      }
+    ],
+    "restoredGeneratedTrackedFiles": [
+      "public/.well-known/llms.txt",
+      "public/.well-known/mcp.json",
+      "public/llms.txt"
+    ]
+  },
+  "renderedReader": {
+    "pages": 1,
+    "exactTextPassages": 9,
+    "sourceLinks": 5,
+    "missingSources": 0,
+    "nestedAnchors": 0
+  },
+  "summaryConsumers": {
+    "checked": 9,
+    "present": 0,
+    "englishFallback": 9,
+    "acceptedLongSummaryCaches": 0,
+    "newLanguageReviews": 0
+  },
+  "notRun": [
+    "Next production build",
+    "browser hydration or responsive review",
+    "deployment"
+  ],
+  "curriculumCredit": 0,
+  "mainCredit": 0
+}

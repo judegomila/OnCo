@@ -1,0 +1,2355 @@
+{
+  "version": "proposal-blood-immune-summary-consumers",
+  "state": "Actual selected text or current English fallback; no new named language review.",
+  "records": [
+    {
+      "id": "cfdna-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (ar)",
+      "canonicalRecordId": "cfdna",
+      "language": "ar",
+      "available": true,
+      "text": "قطع قصيرة من الحمض النووي DNA تطفو في الدم، تطلقها الخلايا المحتضرة في أنحاء الجسم. معظمها من خلايا طبيعية؛ والجزء الصغير المشتق من الورم (ctDNA) هو ما تلتقطه الخزعات السائلة."
+    },
+    {
+      "id": "ctdna-ar",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (ar)",
+      "canonicalRecordId": "ctdna",
+      "language": "ar",
+      "available": true,
+      "text": "الحمض النووي الورمي المنتشر (ctDNA) يتكون من شظايا DNA تطلقها الخلايا السرطانية في الدم، ويمكن كشفها بتقنيات تسلسل حساسة."
+    },
+    {
+      "id": "ctdna-tumour-fraction-ar",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (ar)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (ar)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-ar",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (ar)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-ar",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (ar)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-ar",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (ar)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-ar",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (ar)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "ar",
+      "available": true,
+      "text": "بدلًا من فحص الدم كل ثلاثة أشهر، تُؤخذ العينات باستمرار، بحيث يُكشف الانتكاس في الأسبوع الذي يبدأ فيه."
+    },
+    {
+      "id": "fragmentomics-ar",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (ar)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "ar",
+      "available": true,
+      "text": "تقرأ الفراغمنتوميكس أحجام ومواقع شظايا الحمض النووي في الدم، لا الطفرات. تموت الخلايا السرطانية بطريقة غير منظمة وتترك نمط تفتت يمكن التعرف عليه."
+    },
+    {
+      "id": "cfdna-methylation-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (ar)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-ar",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (ar)",
+      "canonicalRecordId": "mrd",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-ar",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (ar)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (ar)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (ar)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-ar",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (ar)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "ar",
+      "available": true,
+      "text": "جهاز يمرّر الخلايا واحدة تلو الأخرى أمام أشعة ليزر ويقرأ البروتينات السطحية (واسمات CD) التي تحملها كل خلية، فيحدد نوعها. بهذه الطريقة تُصنَّف سرطانات الدم واللمفومات ويُحصى المرض المتبقي."
+    },
+    {
+      "id": "lead-time-bias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ar)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-ar",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (ar)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-ar",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (ar)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (ar)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (de)",
+      "canonicalRecordId": "cfdna",
+      "language": "de",
+      "available": true,
+      "text": "Kurze DNA-Stücke, die im Blut treiben und von sterbenden Zellen im ganzen Körper freigesetzt werden. Das meiste stammt aus normalen Zellen; der kleine tumorbürtige Anteil (ctDNA) ist das, was Flüssigbiopsien herausfischen."
+    },
+    {
+      "id": "ctdna-de",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (de)",
+      "canonicalRecordId": "ctdna",
+      "language": "de",
+      "available": true,
+      "text": "Zirkulierende Tumor-DNA (ctDNA) besteht aus DNA-Fragmenten, die Tumorzellen ins Blut abgeben und die sich mit empfindlicher Sequenzierung nachweisen lassen."
+    },
+    {
+      "id": "ctdna-tumour-fraction-de",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (de)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-de",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (de)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-de",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (de)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-de",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (de)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-de",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (de)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-de",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (de)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "de",
+      "available": true,
+      "text": "Statt das Blut alle drei Monate zu untersuchen, wird ständig Probenmaterial genommen, sodass ein Rückfall in der Woche erkannt wird, in der er beginnt."
+    },
+    {
+      "id": "fragmentomics-de",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (de)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "de",
+      "available": true,
+      "text": "Die Fragmentomik liest die Größe und Position von DNA-Fragmenten im Blut, nicht die Mutationen. Krebszellen sterben unordentlich ab und hinterlassen ein erkennbares Fragmentierungsmuster."
+    },
+    {
+      "id": "cfdna-methylation-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (de)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-de",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (de)",
+      "canonicalRecordId": "mrd",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-de",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (de)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (de)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (de)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-de",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (de)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "de",
+      "available": true,
+      "text": "Ein Gerät, das Zellen einzeln an Lasern vorbeiströmen lässt und die Oberflächenproteine (CD-Marker) jeder Zelle abliest, um zu bestimmen, um welche Zellart es sich handelt. So werden Leukämien und Lymphome typisiert und wird die Resterkrankung gezählt."
+    },
+    {
+      "id": "lead-time-bias-de",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (de)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-de",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (de)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-de",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (de)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-de",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (de)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (es)",
+      "canonicalRecordId": "cfdna",
+      "language": "es",
+      "available": true,
+      "text": "Fragmentos cortos de ADN que flotan en la sangre, liberados por células que mueren en todo el cuerpo. La mayor parte procede de células normales; la pequeña fracción derivada del tumor (ctDNA) es lo que las biopsias líquidas pescan."
+    },
+    {
+      "id": "ctdna-es",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (es)",
+      "canonicalRecordId": "ctdna",
+      "language": "es",
+      "available": true,
+      "text": "Fragmentos de ADN liberados por las células tumorales a la sangre, detectables con secuenciación sensible."
+    },
+    {
+      "id": "ctdna-tumour-fraction-es",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (es)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-es",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (es)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-es",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (es)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-es",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (es)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-es",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (es)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-es",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (es)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "es",
+      "available": true,
+      "text": "En lugar de analizar la sangre cada tres meses, tomar muestras de forma constante, de modo que una recaída se detecte la misma semana en que empieza."
+    },
+    {
+      "id": "fragmentomics-es",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (es)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "es",
+      "available": true,
+      "text": "Leer los tamaños y posiciones de los fragmentos de ADN en la sangre, no las mutaciones. Las células cancerosas mueren de forma desordenada y dejan un patrón reconocible."
+    },
+    {
+      "id": "cfdna-methylation-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (es)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-es",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (es)",
+      "canonicalRecordId": "mrd",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-es",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (es)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (es)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (es)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-es",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (es)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "es",
+      "available": true,
+      "text": "Una máquina que hace pasar las células una a una frente a láseres y lee las proteínas de superficie (marcadores CD) que cada una lleva, identificando qué tipo de célula es. Así se tipifican las leucemias y los linfomas y así se cuenta la enfermedad residual."
+    },
+    {
+      "id": "lead-time-bias-es",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (es)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-es",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (es)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-es",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (es)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-es",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (es)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (fr)",
+      "canonicalRecordId": "cfdna",
+      "language": "fr",
+      "available": true,
+      "text": "De courts fragments d'ADN flottant dans le sang, libérés par les cellules qui meurent dans tout le corps. La plupart proviennent de cellules normales ; la petite fraction issue de la tumeur (ctDNA) est ce que les biopsies liquides vont pêcher."
+    },
+    {
+      "id": "ctdna-fr",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (fr)",
+      "canonicalRecordId": "ctdna",
+      "language": "fr",
+      "available": true,
+      "text": "L'ADN tumoral circulant (ctDNA) est constitué de fragments d'ADN libérés par les cellules tumorales dans le sang, détectables par un séquençage sensible."
+    },
+    {
+      "id": "ctdna-tumour-fraction-fr",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (fr)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (fr)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-fr",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (fr)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-fr",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (fr)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-fr",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (fr)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-fr",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (fr)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "fr",
+      "available": true,
+      "text": "Plutôt que d'analyser le sang tous les trois mois, prélever des échantillons en continu, afin de détecter une rechute la semaine même où elle commence."
+    },
+    {
+      "id": "fragmentomics-fr",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (fr)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "fr",
+      "available": true,
+      "text": "La fragmentomique analyse la taille et la position des fragments d'ADN dans le sang, et non les mutations. Les cellules cancéreuses meurent de façon désordonnée et laissent un schéma de fragmentation reconnaissable."
+    },
+    {
+      "id": "cfdna-methylation-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (fr)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-fr",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (fr)",
+      "canonicalRecordId": "mrd",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-fr",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (fr)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (fr)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (fr)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-fr",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (fr)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "fr",
+      "available": true,
+      "text": "Un appareil qui fait défiler les cellules une à une devant des lasers et lit les protéines de surface (marqueurs CD) que chacune porte, afin d'identifier de quel type de cellule il s'agit. C'est ainsi que l'on classe les leucémies et les lymphomes et que l'on mesure la maladie résiduelle."
+    },
+    {
+      "id": "lead-time-bias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (fr)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-fr",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (fr)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-fr",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (fr)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (fr)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (hi)",
+      "canonicalRecordId": "cfdna",
+      "language": "hi",
+      "available": true,
+      "text": "रक्त में तैरते DNA के छोटे टुकड़े, जो पूरे शरीर में मरती कोशिकाओं से निकलते हैं। इनमें से अधिकतर सामान्य कोशिकाओं से आते हैं; ट्यूमर से निकला छोटा हिस्सा (ctDNA) ही वह है जिसे लिक्विड बायोप्सी पकड़ती है।"
+    },
+    {
+      "id": "ctdna-hi",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (hi)",
+      "canonicalRecordId": "ctdna",
+      "language": "hi",
+      "available": true,
+      "text": "ट्यूमर कोशिकाओं द्वारा रक्त में छोड़े DNA टुकड़े, संवेदी अनुक्रमण से पकड़ने योग्य।"
+    },
+    {
+      "id": "ctdna-tumour-fraction-hi",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (hi)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (hi)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-hi",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (hi)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-hi",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (hi)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-hi",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (hi)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-hi",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (hi)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "hi",
+      "available": true,
+      "text": "हर तीन महीने में रक्त की जांच करने के बजाय लगातार नमूने लेना, ताकि पुनरावृत्ति उसी सप्ताह पकड़ में आ जाए जिसमें वह शुरू होती है।"
+    },
+    {
+      "id": "fragmentomics-hi",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (hi)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "hi",
+      "available": true,
+      "text": "रक्त में DNA टुकड़ों के आकार और स्थान पढ़ना, म्यूटेशन नहीं। कैंसर कोशिकाएँ अव्यवस्थित रूप से मरती हैं और पहचानने योग्य विखंडन पैटर्न छोड़ती हैं।"
+    },
+    {
+      "id": "cfdna-methylation-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (hi)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-hi",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (hi)",
+      "canonicalRecordId": "mrd",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-hi",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (hi)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (hi)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (hi)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-hi",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (hi)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "hi",
+      "available": true,
+      "text": "एक मशीन जो कोशिकाओं को एक-एक करके लेज़र के सामने से गुज़ारती है और हर कोशिका पर मौजूद सतह प्रोटीन (CD मार्कर) पढ़ती है, यह पहचानते हुए कि वह किस प्रकार की कोशिका है। इसी से ल्यूकेमिया और लिम्फोमा का प्रकार तय होता है और अवशिष्ट रोग की गिनती होती है।"
+    },
+    {
+      "id": "lead-time-bias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (hi)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-hi",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (hi)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-hi",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (hi)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (hi)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (ja)",
+      "canonicalRecordId": "cfdna",
+      "language": "ja",
+      "available": true,
+      "text": "血液中を漂う短いDNAの断片であり、全身の死んでいく細胞から放出される。大部分は正常細胞由来であり、腫瘍由来のごく一部（ctDNA）こそがリキッドバイオプシーの拾い上げる対象である。"
+    },
+    {
+      "id": "ctdna-ja",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (ja)",
+      "canonicalRecordId": "ctdna",
+      "language": "ja",
+      "available": true,
+      "text": "血中循環腫瘍DNA（ctDNA）は、腫瘍細胞から血液中に放出されたDNAの断片で、高感度のシーケンシングで検出できます。"
+    },
+    {
+      "id": "ctdna-tumour-fraction-ja",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (ja)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (ja)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-ja",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (ja)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-ja",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (ja)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-ja",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (ja)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-ja",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (ja)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "ja",
+      "available": true,
+      "text": "3か月ごとに血液を検査するのではなく、絶えず採取を続けることで、再発が始まったその週に捉える。"
+    },
+    {
+      "id": "fragmentomics-ja",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (ja)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "ja",
+      "available": true,
+      "text": "フラグメントミクスは、血液中のDNA断片の大きさと位置を読み取るもので、変異を読むわけではない。がん細胞は乱雑に死ぬため、見分けやすい断片化パターンを残す。"
+    },
+    {
+      "id": "cfdna-methylation-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (ja)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-ja",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (ja)",
+      "canonicalRecordId": "mrd",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-ja",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (ja)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (ja)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (ja)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-ja",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (ja)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "ja",
+      "available": true,
+      "text": "細胞を1個ずつレーザーの前に流し、それぞれが持つ表面タンパク質（CDマーカー）を読み取って、どの種類の細胞かを判別する装置。白血病やリンパ腫の分類や、残存病変の測定はこの方法で行われる。"
+    },
+    {
+      "id": "lead-time-bias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ja)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-ja",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (ja)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-ja",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (ja)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (ja)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (pt)",
+      "canonicalRecordId": "cfdna",
+      "language": "pt",
+      "available": true,
+      "text": "Pedaços curtos de DNA que flutuam no sangue, liberados por células que morrem em todo o corpo. A maior parte vem de células normais; a pequena fração derivada do tumor (ctDNA) é o que as biópsias líquidas pescam."
+    },
+    {
+      "id": "ctdna-pt",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (pt)",
+      "canonicalRecordId": "ctdna",
+      "language": "pt",
+      "available": true,
+      "text": "Fragmentos de DNA liberados por células tumorais no sangue, detectáveis com sequenciamento sensível."
+    },
+    {
+      "id": "ctdna-tumour-fraction-pt",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (pt)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (pt)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-pt",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (pt)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cellsearch-ctc-count-pt",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (pt)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-pt",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (pt)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "continuous-ctdna-monitoring-pt",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (pt)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "pt",
+      "available": true,
+      "text": "Em vez de testar o sangue a cada três meses, coletar amostras constantemente, para que uma recidiva seja detectada na semana em que começa."
+    },
+    {
+      "id": "fragmentomics-pt",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (pt)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "pt",
+      "available": true,
+      "text": "Ler os tamanhos e posições dos fragmentos de DNA no sangue, não as mutações. Células cancerosas morrem de forma desordenada e deixam um padrão reconhecível."
+    },
+    {
+      "id": "cfdna-methylation-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (pt)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-pt",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (pt)",
+      "canonicalRecordId": "mrd",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-pt",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (pt)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (pt)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (pt)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-pt",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (pt)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "pt",
+      "available": true,
+      "text": "Uma máquina que faz passar as células uma a uma diante de lasers e lê as proteínas de superfície (marcadores CD) que cada uma transporta, identificando que tipo de célula é. É assim que as leucemias e os linfomas são tipificados e que a doença residual é contada."
+    },
+    {
+      "id": "lead-time-bias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (pt)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-pt",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (pt)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-pt",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (pt)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (pt)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (zh)",
+      "canonicalRecordId": "cfdna",
+      "language": "zh",
+      "available": true,
+      "text": "漂浮在血液中的短DNA片段，由全身各处死亡的细胞释放。大部分来自正常细胞；其中来源于肿瘤的一小部分（ctDNA）正是液体活检要捕捞的对象。"
+    },
+    {
+      "id": "ctdna-zh",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (zh)",
+      "canonicalRecordId": "ctdna",
+      "language": "zh",
+      "available": true,
+      "text": "肿瘤细胞脱落到血液中的DNA片段，可用敏感测序检测。"
+    },
+    {
+      "id": "ctdna-tumour-fraction-zh",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (zh)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "clonal-haematopoiesis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (zh)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctc-capture-zh",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (zh)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "zh",
+      "available": true,
+      "text": "从血样中“钓出”完整癌细胞进行计数或研究；其数量在乳腺癌、前列腺癌和结直肠癌中具有预后意义。"
+    },
+    {
+      "id": "cellsearch-ctc-count-zh",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (zh)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "parsortix-ctc-harvest-zh",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (zh)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "zh",
+      "available": true,
+      "text": "一种微流控盒，按细胞大小和硬度而非表面标志物从血液中截留癌细胞，再将其完整释放供检测；是美国首个获批的此类装置，用于转移性乳腺癌。"
+    },
+    {
+      "id": "continuous-ctdna-monitoring-zh",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (zh)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "zh",
+      "available": true,
+      "text": "不再每三个月检测一次血液，而是持续采样，让复发在开始的那一周就被发现。"
+    },
+    {
+      "id": "fragmentomics-zh",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (zh)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "zh",
+      "available": true,
+      "text": "读取血液中DNA片段的大小和位置而非突变。癌细胞死得杂乱，留下可识别的碎片模式。"
+    },
+    {
+      "id": "cfdna-methylation-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (zh)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "zh",
+      "available": true,
+      "text": "读取肿瘤脱落DNA片段上化学标记的血液检测；这些标记可区分癌症DNA与正常DNA，并提示癌症所在部位。"
+    },
+    {
+      "id": "mrd-zh",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (zh)",
+      "canonicalRecordId": "mrd",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-mrd-positive-zh",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (zh)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "mrd-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (zh)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-informed-assay-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (zh)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "flow-cytometry-zh",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (zh)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "zh",
+      "available": true,
+      "text": "一种让细胞逐个流过激光并读取每个细胞所携带表面蛋白（CD标志物）的机器，从而识别细胞类型。白血病和淋巴瘤的分型以及残留病灶的计数都依靠它。"
+    },
+    {
+      "id": "lead-time-bias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (zh)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-zh",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (zh)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-zh",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (zh)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (zh)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (simple)",
+      "canonicalRecordId": "cfdna",
+      "language": "simple",
+      "available": true,
+      "text": "Cell-free DNA is short pieces of DNA floating in the blood shed by dying cells, and the small tumour-derived fraction is what liquid biopsies fish out."
+    },
+    {
+      "id": "ctdna-simple",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA (ctDNA) (simple)",
+      "canonicalRecordId": "ctdna",
+      "language": "simple",
+      "available": true,
+      "text": "Bits of DNA shed by tumour cells into the blood, detectable with sensitive tests."
+    },
+    {
+      "id": "ctdna-tumour-fraction-simple",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour DNA fraction (and what a negative plasma result means) (simple)",
+      "canonicalRecordId": "ctdna-tumour-fraction",
+      "language": "simple",
+      "available": true,
+      "text": "An estimate of the share of DNA in a blood sample that came from the tumour. A low share can make a negative genetic test harder to interpret."
+    },
+    {
+      "id": "clonal-haematopoiesis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Clonal haematopoiesis (CHIP) (simple)",
+      "canonicalRecordId": "clonal-haematopoiesis",
+      "language": "simple",
+      "available": true,
+      "text": "A group of blood-forming cells with acquired changes can expand. DNA from that group can appear in a blood test and needs to be distinguished from tumour DNA."
+    },
+    {
+      "id": "ctc-capture-simple",
+      "kind": "reader-summary-entry",
+      "name": "Circulating tumour cell capture (simple)",
+      "canonicalRecordId": "ctc-capture",
+      "language": "simple",
+      "available": true,
+      "text": "Circulating tumour cell capture fishes whole cancer cells out of a blood sample to count or study them, and the count predicts outcome in breast, prostate and colorectal cancer."
+    },
+    {
+      "id": "cellsearch-ctc-count-simple",
+      "kind": "reader-summary-entry",
+      "name": "CellSearch circulating tumour cell count (simple)",
+      "canonicalRecordId": "cellsearch-ctc-count",
+      "language": "simple",
+      "available": true,
+      "text": "A test that counts cells captured and identified under set rules in a blood sample. What the count means depends on the cancer, test and clinical question."
+    },
+    {
+      "id": "parsortix-ctc-harvest-simple",
+      "kind": "reader-summary-entry",
+      "name": "Parsortix label-free circulating tumour cell harvest (simple)",
+      "canonicalRecordId": "parsortix-ctc-harvest",
+      "language": "simple",
+      "available": true,
+      "text": "Parsortix is a cassette that traps cancer cells from blood by their size and stiffness, then releases them alive for testing, and was the first such device cleared in the US."
+    },
+    {
+      "id": "continuous-ctdna-monitoring-simple",
+      "kind": "reader-summary-entry",
+      "name": "Continuous and near-continuous ctDNA monitoring (simple)",
+      "canonicalRecordId": "continuous-ctdna-monitoring",
+      "language": "simple",
+      "available": true,
+      "text": "Taking blood samples more often could change when tumour DNA is first detected. The timing depends on the sampling schedule, and earlier detection alone does not show a survival benefit."
+    },
+    {
+      "id": "fragmentomics-simple",
+      "kind": "reader-summary-entry",
+      "name": "cfDNA fragmentomics (simple)",
+      "canonicalRecordId": "fragmentomics",
+      "language": "simple",
+      "available": true,
+      "text": "Reading the sizes and positions of DNA pieces in blood. Cancer cells die messily and leave a recognisable pattern."
+    },
+    {
+      "id": "cfdna-methylation-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA methylation tests (simple)",
+      "canonicalRecordId": "cfdna-methylation-testing",
+      "language": "simple",
+      "available": true,
+      "text": "Cell-free DNA methylation tests read chemical marks on DNA fragments shed by tumours into the blood, telling cancer DNA from normal DNA and hinting at where the cancer is."
+    },
+    {
+      "id": "mrd-simple",
+      "kind": "reader-summary-entry",
+      "name": "Minimal / molecular residual disease (MRD) (simple)",
+      "canonicalRecordId": "mrd",
+      "language": "simple",
+      "available": true,
+      "text": "A test for small amounts of disease after treatment. A negative result means the test found no qualifying signal in that sample; it does not prove that no cancer remains."
+    },
+    {
+      "id": "ctdna-mrd-positive-simple",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA MRD positivity (molecular residual disease after curative treatment) (simple)",
+      "canonicalRecordId": "ctdna-mrd-positive",
+      "language": "simple",
+      "available": true,
+      "text": "A positive residual-disease blood result meets that test's detection rules. Its source and clinical setting matter; it does not guarantee recurrence or show which treatment will help."
+    },
+    {
+      "id": "mrd-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "MRD / molecular residual disease testing (simple)",
+      "canonicalRecordId": "mrd-testing",
+      "language": "simple",
+      "available": true,
+      "text": "A residual-disease test looks for a small disease signal after treatment; a negative result does not prove cure, and earlier detection alone does not show that changing treatment helps."
+    },
+    {
+      "id": "tumour-informed-assay-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-informed versus tumour-naive ctDNA assays (simple)",
+      "canonicalRecordId": "tumour-informed-assay",
+      "language": "simple",
+      "available": true,
+      "text": "One method first selects features from a sampled tumour to track in blood. Another starts with predefined features. Their performance depends on the actual tests, samples and clinical question."
+    },
+    {
+      "id": "flow-cytometry-simple",
+      "kind": "reader-summary-entry",
+      "name": "Flow cytometry (immunophenotyping) (simple)",
+      "canonicalRecordId": "flow-cytometry",
+      "language": "simple",
+      "available": true,
+      "text": "Flow cytometry streams cells one by one past lasers and reads the surface markers each carries, which is how leukaemias and lymphomas are typed and residual disease counted."
+    },
+    {
+      "id": "lead-time-bias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (simple)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-units-simple",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA units, fractions and concentrations (simple)",
+      "canonicalRecordId": "ctdna-units",
+      "language": "simple",
+      "available": true,
+      "text": "A tumour-DNA result needs its unit. A concentration, a share of all measured DNA and a yes-or-no call answer different questions."
+    },
+    {
+      "id": "ctdna-imaging-discordance-simple",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (simple)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "simple",
+      "available": true,
+      "text": "A blood test measures material in a blood sample, while a scan measures a region of the body. Different results need their timing and limits checked before deciding what they mean."
+    },
+    {
+      "id": "ctdna-monitoring-lead-time-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lead time in ctDNA monitoring studies (simple)",
+      "canonicalRecordId": "ctdna-monitoring-lead-time",
+      "language": "simple",
+      "available": true,
+      "text": "The gap between a qualifying positive blood test and a later defined event. It depends on the study rules and sampling schedule and is not extra time added to life."
+    },
+    {
+      "id": "finite-molecule-sampling-ar",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (ar)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (ar)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-ar",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (ar)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-de",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (de)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (de)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-de",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (de)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-es",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (es)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (es)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-es",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (es)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-fr",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (fr)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (fr)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-fr",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (fr)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-hi",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (hi)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (hi)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-hi",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (hi)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-ja",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (ja)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (ja)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-ja",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (ja)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-pt",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (pt)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (pt)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-pt",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (pt)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-zh",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (zh)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (zh)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-zh",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (zh)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-molecule-sampling-simple",
+      "kind": "reader-summary-entry",
+      "name": "Finite-molecule sampling in blood tests (simple)",
+      "canonicalRecordId": "finite-molecule-sampling",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Blood-cell variants in liquid biopsy (simple)",
+      "canonicalRecordId": "blood-cell-variants-liquid-biopsy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-simple",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (simple)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "simple",
+      "available": true,
+      "text": "A test may find a signal before it can measure the amount reliably. Its limits belong to the stated method and sample conditions."
+    },
+    {
+      "id": "elispot-ar",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (ar)",
+      "canonicalRecordId": "elispot",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-ar",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (ar)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-ar",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (ar)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-ar",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (ar)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (ar)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (ar)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (ar)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-de",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (de)",
+      "canonicalRecordId": "elispot",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-de",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (de)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-de",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (de)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-de",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (de)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (de)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (de)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (de)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-es",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (es)",
+      "canonicalRecordId": "elispot",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-es",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (es)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-es",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (es)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-es",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (es)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (es)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (es)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (es)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-fr",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (fr)",
+      "canonicalRecordId": "elispot",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-fr",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (fr)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-fr",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (fr)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-fr",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (fr)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (fr)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (fr)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (fr)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-hi",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (hi)",
+      "canonicalRecordId": "elispot",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-hi",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (hi)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-hi",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (hi)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-hi",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (hi)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (hi)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (hi)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (hi)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-ja",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (ja)",
+      "canonicalRecordId": "elispot",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-ja",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (ja)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-ja",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (ja)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-ja",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (ja)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (ja)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (ja)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (ja)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-pt",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (pt)",
+      "canonicalRecordId": "elispot",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-pt",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (pt)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-pt",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (pt)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-pt",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (pt)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (pt)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (pt)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (pt)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-zh",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (zh)",
+      "canonicalRecordId": "elispot",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-zh",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (zh)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-zh",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (zh)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-zh",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (zh)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (zh)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (zh)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (zh)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "elispot-simple",
+      "kind": "reader-summary-entry",
+      "name": "ELISpot secretion assays (simple)",
+      "canonicalRecordId": "elispot",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intracellular-cytokine-staining-simple",
+      "kind": "reader-summary-entry",
+      "name": "Intracellular cytokine staining (simple)",
+      "canonicalRecordId": "intracellular-cytokine-staining",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-hla-multimer-staining-simple",
+      "kind": "reader-summary-entry",
+      "name": "Peptide-HLA multimer staining (simple)",
+      "canonicalRecordId": "peptide-hla-multimer-staining",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pbmc-specimens-simple",
+      "kind": "reader-summary-entry",
+      "name": "Peripheral blood mononuclear cell specimens (simple)",
+      "canonicalRecordId": "pbmc-specimens",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-sequencing-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire sequencing (simple)",
+      "canonicalRecordId": "tcr-repertoire-sequencing",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tcr-repertoire-clonality-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor repertoire diversity and clonality (simple)",
+      "canonicalRecordId": "tcr-repertoire-clonality",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-cytotoxicity-assays-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune-cell cytotoxicity assays (simple)",
+      "canonicalRecordId": "immune-cytotoxicity-assays",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

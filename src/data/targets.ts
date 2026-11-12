@@ -6,10 +6,15 @@ const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const targets: TargetInput[] = [
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
-    id: "trop2", drugs: ["ak146d1", "bio-106", "datopotamab-deruxtecan", "eb-nk-301", "lcb84", "sacituzumab-govitecan", "sacituzumab-tirumotecan"], trials: ["nct04617522", "nct05922930", "nct06311214", "nct06454890", "nct06902389", "nct06929663", "nct07067567", "nct07101432", "nct07299747", "nct07377526", "nct07509008", "nct07553390", "nct07631013"], kind: "target", name: "TROP2", symbol: "TACSTD2", hgnc: "HGNC:11530", ensembl: "ENSG00000184292", uniprot: "P09758", entrez: "4070", targetClass: "surface-antigen", asOf: "2026-10-06",
-    tldr: "TROP2 is a surface glycoprotein present at high levels on most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) and at low levels on normal tissue. It does not drive the cancer; it is a delivery address, used by the approved ADCs sacituzumab govitecan and datopotamab deruxtecan and by sacituzumab tirumotecan, with a TROP2 PET tracer in development to pick patients.",
-    summary: "Trophoblast cell-surface antigen 2 is a transmembrane glycoprotein overexpressed in most epithelial cancers (breast, lung, urothelial, gastric, pancreatic) with low normal-tissue expression. It is not an oncogenic driver; it is a delivery address. Three TROP2 ADCs are approved or in registration (sacituzumab govitecan, datopotamab deruxtecan, sacituzumab tirumotecan) and a TROP2 PET tracer is in development to select patients.",
-    biology: "Regulates calcium signalling and cell adhesion; overexpression correlates with shorter survival. Expression is heterogeneous within tumours, which limits the value of IHC selection. Internalises on antibody binding and traffics to lysosomes, which is what makes it a good ADC target.",
+    notes:[
+  "The Human Protein Atlas reports substantial membrane and cytoplasmic protein expression in normal respiratory and squamous epithelial cells. A summary of selected normal-tissue staining does not establish tumour-exclusive expression or predict a person’s toxicity. RNA abundance, protein localisation and drug exposure are different observations; retain the assay and sampled cell types.",
+  "Wild-type TROP2 overexpression and knockdown experiments, and later AKT-pathway studies, support biological activity in their studied models. The 2013 growth paper did not establish TROP2-induced oncogenic transformation or a requirement for tumour-associated TROP2 mutations. Model-level growth or drug-sensitivity findings do not validate TROP2 as a clinical AKT-inhibitor selection test or establish a dependency in every tumour.",
+  "A cell-therapy recognition claim needs the actual binder and accessible epitope, including tumour cells that lack it and relevant healthy cells. Sun’s TROP2 CAR used a sacituzumab-derived binding fragment. Human-cell and TNBC xenograft experiments tested antitumour activity; a separate murine-cell construct in mice expressing human TROP2 tested toxicity. The ungated construct caused lung injury and inflammation in that model. This does not turn an RNA measurement, an antibody stain or an antibody-drug conjugate result into a demonstration of safe human CAR-T recognition. Expression can vary within and between lesions and after treatment. Bulk RNA, soluble protein and an antibody stain need not report the feature accessible to the finished receptor."
+],
+    id: "trop2", drugs: ["ak146d1", "bio-106", "datopotamab-deruxtecan", "eb-nk-301", "lcb84", "sacituzumab-govitecan", "sacituzumab-tirumotecan"], trials: ["nct04617522", "nct05922930", "nct06311214", "nct06454890", "nct06902389", "nct06929663", "nct07067567", "nct07101432", "nct07299747", "nct07377526", "nct07509008", "nct07553390", "nct07631013"], kind: "target", name: "TROP2", symbol: "TACSTD2", hgnc: "HGNC:11530", ensembl: "ENSG00000184292", uniprot: "P09758", entrez: "4070", targetClass: "surface-antigen", asOf: "2026-11-12",
+    tldr: "TROP2 is a surface protein found in normal epithelial cells and many cancers. It is used to deliver antibody-drug conjugates and has biological signalling roles; those observations do not establish an individual tumour’s response.",
+    summary: "TROP2, encoded by TACSTD2, is a transmembrane protein used as a delivery target by sacituzumab govitecan and datopotamab deruxtecan. Experimental studies have also linked wild-type TROP2 expression and signalling to growth in defined cell and animal models. Its delivery role, biological function, possible genomic alterations and clinical treatment-selection rules are separate questions. The current U.S. breast-cancer indications of these two ADCs do not require a TROP2 expression test, while other disease, prior-treatment and regimen-specific criteria still apply.",
+    biology: "TROP2 is used as a surface target for antibody-drug conjugate delivery and also has biological signalling functions in studied experimental systems. Wild-type overexpression, knockdown and AKT-pathway experiments support growth-related roles in their model contexts. Delivery, biological function and clinical treatment selection remain separate questions: expression does not measure every delivery step or establish a universal tumour dependency.",
     whereFound: ["Triple-negative breast cancer (~80-90% express)", "HR+ breast cancer", "NSCLC", "Urothelial carcinoma", "Gastric, pancreatic, endometrial cancers"],
     cancers: ["tnbc", "breast-hr-positive", "nsclc", "urothelial"],
     tags: ["adc-target", "pet-target"],
@@ -19,13 +24,26 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "60-70", measure: "IHC, moderate-high", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Adenocarcinoma and squamous" },
       { cancerId: "urothelial", pct: "80-90", measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/" },
       { cancerId: "pancreatic", pct: 50, measure: "IHC, any expression", source: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13059868/", note: "Approximate; heterogeneous" },
-    ], links: [{ label: "UniProt P09758: TACSTD2 (TROP2)", url: "https://www.uniprot.org/uniprotkb/P09758/entry" },
-      { label: "Bardia et al., ASCENT biomarker analysis (Ann Oncol 2021)", url: "https://doi.org/10.1016/j.annonc.2021.06.002" },
-      { label: "TRODELVY prescribing information (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d" },
-      { label: "DATROWAY prescribing information (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0" }],
+    ], links: [
+  {"label":"UniProt P09758: TACSTD2 (TROP2)","url":"https://www.uniprot.org/uniprotkb/P09758/entry"},
+  {"label":"Bardia et al., ASCENT biomarker analysis (Ann Oncol 2021)","url":"https://doi.org/10.1016/j.annonc.2021.06.002"},
+  {"label":"TRODELVY prescribing information (DailyMed)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"},
+  {"label":"DATROWAY prescribing information (DailyMed)","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"},
+  {"label":"Human Protein Atlas: TACSTD2 normal-tissue protein and RNA context","url":"https://www.proteinatlas.org/ENSG00000184292-TACSTD2/tissue"},
+  {"label":"Wild-type TROP2 and growth in experimental systems (2013)","url":"https://pubmed.ncbi.nlm.nih.gov/22349828/"},
+  {"label":"TROP2/AKT pathway experiments and preclinical drug sensitivity (2016)","url":"https://pubmed.ncbi.nlm.nih.gov/27022065/"},
+  {
+  "label": "Preclinical evaluation of antitumor activity and toxicity of TROP2-specific CAR-T cells for treatment of triple-negative breast cancer. (2025)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40903191/"
+},
+  {
+  "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+  "url": "https://www.fda.gov/media/156896/download"
+}
+],
   },
   {
-    id: "her2", trials: ["nct06043817", "nct07589517", "nct05532696", "nct07510802", "nct05523947", "nct06369831", "nct07467863", "nct06616766", "nct06439771", "nct05771584", "nct07641023", "nct07462650", "nct07192432"], technologies: ["her2-tyrosine-kinase-inhibitors"], kind: "target", keyPapers: ["paper-slamon-her2-breast-ovarian-science-1989", "paper-yarden-sliwkowski-erbb-network-nrmcb-2001"], name: "HER2", symbol: "ERBB2", hgnc: "HGNC:3430", ensembl: "ENSG00000141736", uniprot: "P04626", entrez: "2064", targetClass: "surface-antigen", asOf, wikipedia: W("HER2/neu"),
+    id: "her2", trials: ["nct06043817", "nct07589517", "nct05532696", "nct07510802", "nct05523947", "nct06369831", "nct07467863", "nct06616766", "nct06439771", "nct05771584", "nct07641023", "nct07462650", "nct07192432"], technologies: ["her2-tyrosine-kinase-inhibitors"], kind: "target", keyPapers: ["paper-slamon-her2-breast-ovarian-science-1989", "paper-yarden-sliwkowski-erbb-network-nrmcb-2001"], name: "HER2", symbol: "ERBB2", hgnc: "HGNC:3430", ensembl: "ENSG00000141736", uniprot: "P04626", entrez: "2064", targetClass: "surface-antigen", "asOf": "2026-11-11", wikipedia: W("HER2/neu"),
     tldr: "A growth-signal receptor. Some cancers make far too much of it, and drugs that block it or use it as a docking site have transformed those cancers.",
     summary: "Human epidermal growth factor receptor 2 is a receptor tyrosine kinase amplified in ~15-20% of breast cancers and a subset of gastric, colorectal, lung (mutations), and biliary cancers. Trastuzumab (1998) was the first targeted antibody in solid tumours. Trastuzumab deruxtecan redefined the target by working in 'HER2-low' tumours that older drugs ignored, and in 2026 gained approval in early-stage disease.",
     biology: "Ligand-less receptor that heterodimerises with HER3/EGFR to drive PI3K and MAPK signalling. Amplification is a true oncogenic driver; low expression is merely a delivery address for ADCs.",
@@ -41,8 +59,17 @@ export const targets: TargetInput[] = [
       { cancerId: "nsclc", pct: "2-3", measure: "ERBB2 exon 20 mutation", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
       { cancerId: "colorectal", pct: "3-5", measure: "Amplification/IHC 3+", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "RAS wild-type enriched" },
       { cancerId: "cholangiocarcinoma", pct: "10-20", measure: "IHC 3+ or amplification", source: "https://en.wikipedia.org/wiki/HER2/neu", note: "Higher in gallbladder/extrahepatic" },
-    ], drugs: ["her2-testing-assays", "tqb2102", "kn026", "ibi354", "a166", "hlx22", "glsi-100", "hlx11", "rph-051", "ro7771950", "ose2101", "gq1005", "iah0968", "tqb2930", "ssgj-705", "avzo-021", "cinrebafusp-alfa", "absk061", "ssgj-612"], companies: ["dualitybio", "amunix-pharmaceuticals", "callio-therapeutics", "cogent-biosciences", "dantari", "enliven-therapeutics", "ibex-medical-analytics", "iksuda-therapeutics", "imagene-ai", "myricx-bio", "orum-therapeutics", "precirix"], links: [{ label: "Wikipedia", url: W("HER2/neu") }],
-  },
+    ], drugs: ["her2-testing-assays", "tqb2102", "kn026", "ibi354", "a166", "hlx22", "glsi-100", "hlx11", "rph-051", "ro7771950", "ose2101", "gq1005", "iah0968", "tqb2930", "ssgj-705", "avzo-021", "cinrebafusp-alfa", "absk061", "ssgj-612"], companies: ["dualitybio", "amunix-pharmaceuticals", "callio-therapeutics", "cogent-biosciences", "dantari", "enliven-therapeutics", "ibex-medical-analytics", "iksuda-therapeutics", "imagene-ai", "myricx-bio", "orum-therapeutics", "precirix"], links: [{ label: "Wikipedia", url: W("HER2/neu") },
+{
+  "label": "Diwanji et al.: HER2-HER3-neuregulin structural experiments (2021)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34759323/"
+}
+],
+
+"notes": [
+  "HER2 need not be drawn with a growth factor binding directly to it. Diwanji and colleagues' 2021 structural study examined a HER2-HER3 complex with neuregulin-1 beta bound to HER3. It describes HER2 as an orphan, ligand-less receptor and shows how the two receptors form their interface. Binding of a therapeutic antibody to HER2 is a different interaction from growth-factor binding to HER3. This structural experiment does not by itself identify a tumour's dependence or predict a clinical response."
+]
+},
   {
     id: "her3", drugs: ["yl202", "hmbd-001", "env-501", "sys6023"], kind: "target", name: "HER3", symbol: "ERBB3", hgnc: "HGNC:3431", ensembl: "ENSG00000065361", uniprot: "P21860", entrez: "2065", targetClass: "surface-antigen", asOf, wikipedia: W("ERBB3"),
     tldr: "HER3 is a cousin of HER2 that cancers use as an escape route when HER2 or EGFR are blocked.",
@@ -58,7 +85,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("ERBB3") }],
   },
   {
-    id: "egfr", trials: ["nct06043817", "nct06567015", "nct06975410", "nct05394831", "nct05168566", "nct07467863", "nct06080776", "nct06616766", "nct07136779", "nct07641023", "nct05920135", "nct06940401", "nct06010329"], drugs: ["dacomitinib", "mobocertinib", "guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "tempus-xt-cdx", "necitumumab", "hlx43", "zipalertinib", "jmt101", "hs-20117", "mcla-129", "tqb6411", "tqb2930", "tqb2922", "e-edv-d682", "hmbd-001", "silevertinib", "vrn110755", "js111"], kind: "target", name: "EGFR", symbol: "EGFR", hgnc: "HGNC:3236", ensembl: "ENSG00000146648", uniprot: "P00533", entrez: "1956", targetClass: "kinase", asOf, wikipedia: W("Epidermal_growth_factor_receptor"),
+    id: "egfr", trials: ["nct06043817", "nct06567015", "nct06975410", "nct05394831", "nct05168566", "nct07467863", "nct06080776", "nct06616766", "nct07136779", "nct07641023", "nct05920135", "nct06940401", "nct06010329"], drugs: ["dacomitinib", "mobocertinib", "guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "tempus-xt-cdx", "necitumumab", "hlx43", "zipalertinib", "jmt101", "hs-20117", "mcla-129", "tqb6411", "tqb2930", "tqb2922", "e-edv-d682", "hmbd-001", "silevertinib", "vrn110755", "js111"], kind: "target", name: "EGFR", symbol: "EGFR", hgnc: "HGNC:3236", ensembl: "ENSG00000146648", uniprot: "P00533", entrez: "1956", targetClass: "kinase", asOf: "2026-11-12", wikipedia: W("Epidermal_growth_factor_receptor"),
     tldr: "A growth receptor that is mutated in some lung cancers and overproduced in others; the first great success of targeted pills.",
     summary: "EGFR activating mutations (exon 19 del, L858R) drive ~15% of Western and ~40-50% of East Asian NSCLC; osimertinib is standard first-line. EGFR is also an antibody target in colorectal and head-and-neck cancer (cetuximab, panitumumab) and a component of bispecifics (amivantamab, EGFR×MET; EGFR×HER3 ADCs). Resistance via C797S, MET amplification, and histologic transformation is the central problem.",
     biology: "EGFR is a receptor tyrosine kinase activating RAS-MAPK and PI3K-AKT. Exon 20 insertions need dedicated drugs.",
@@ -71,10 +98,71 @@ export const targets: TargetInput[] = [
       { cancerId: "colorectal", pct: 100, measure: "Wild-type EGFR is the antibody target", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor", note: "Benefit restricted to RAS/BRAF wild-type (~40%)" },
       { cancerId: "head-and-neck", pct: "80-90", measure: "Overexpression by IHC", source: "https://en.wikipedia.org/wiki/Epidermal_growth_factor_receptor" },
       { cancerId: "glioblastoma", pct: "40-50", measure: "Amplification", source: "https://www.cbioportal.org/study/summary?id=gbm_tcga_pan_can_atlas_2018", note: "EGFRvIII in ~25-30%" },
-    ], links: [{ label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") }], companies: ["bicara-therapeutics", "imagene-ai", "inivata", "lucence", "oric-pharmaceuticals"],
+    ], links: [
+  { label: "Wikipedia", url: W("Epidermal_growth_factor_receptor") },
+  {
+  "label": "An allosteric mechanism for activation of the kinase domain of epidermal growth factor receptor.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/16777603/"
+},
+  {
+  "label": "UniProt P00533: reviewed human EGFR function",
+  "url": "https://www.uniprot.org/uniprotkb/P00533/entry"
+},
+  {
+  "label": "NCI Drug Dictionary: cetuximab",
+  "url": "https://www.cancer.gov/publications/dictionaries/cancer-drug/def/cetuximab"
+},
+  {
+  "label": "NCI: targeted therapy types and mechanisms",
+  "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+},
+  {
+  "label": "Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/15118073/"
+},
+  {
+  "label": "TBCRC 001: randomized phase II study of cetuximab in combination with carboplatin in stage IV triple-negative breast cancer.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/22665533/"
+},
+  {
+  "label": "Randomized phase II study of the anti-epidermal growth factor receptor monoclonal antibody cetuximab with cisplatin versus cisplatin alone in patients with metastatic triple-negative breast cancer.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/23733761/"
+},
+  {
+  "label": "Errata to Baselga 2013: funding acknowledgement (2018)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6162024/"
+},
+  {
+  "label": "FDA: sunvozertinib accelerated approval, July 2025",
+  "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-sunvozertinib-metastatic-non-small-cell-lung-cancer-egfr-exon-20"
+},
+  {
+  "label": "EGFR as a potent CAR T target in triple negative breast cancer brain metastases. (2023)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36318382/"
+},
+  {
+  "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+  "url": "https://www.fda.gov/media/156896/download"
+}
+], companies: ["bicara-therapeutics", "imagene-ai", "inivata", "lucence", "oric-pharmaceuticals"],
+
+    notes: [
+  "EGFR, also called HER1 or ERBB1, is a receptor tyrosine kinase. Ligand binding outside the cell can change receptor arrangement and the activity of phosphate-transfer machinery inside. Cetuximab binds the extracellular region, whereas an EGFR tyrosine kinase inhibitor acts at the intracellular kinase. An antibody conjugate instead adds a cargo-delivery job to target recognition. Its mechanism and evidence need separate assessment, including any antibody-mediated immune effects. A schematic contact or cargo arrow is not a molecular map of receptor processing, and delivery to a recognised target does not by itself establish dependence on the receptor kinase.",
+  "EGFR can feed RAS-MAPK and PI3K-AKT signalling, but these networks receive other inputs too. A downstream signal therefore does not uniquely identify the receptor driving it. Compare the actual inhibitor: which receptors and variants it covers, whether binding is reversible and what exposure is achieved. Evidence for an extracellular antibody cannot simply be assigned to an intracellular kinase inhibitor, even when both treatments use the same target name.",
+  "Lynch and colleagues linked defined EGFR kinase-domain mutations to gefitinib responsiveness in non-small-cell lung cancer and tested the mutant proteins in cultured cells. They found mutations in eight of nine responsive cancers and none of seven nonresponsive cancers in the reported comparison. This was evidence about specific alterations in that disease and about their functional consequences, not a rule that abundant EGFR protein in another cancer predicts response.",
+  "TBCRC 001 studied cetuximab with carboplatin in metastatic triple-negative breast cancer. Among 16 patients with paired biopsies, the expression-based EGFR pathway analysis showed activation in 13 and inhibition after treatment in five. The regimen given together from the start produced a 17% response rate; 31% had a response or prolonged disease stabilisation. The latter outcome is broader than objective response. Receptor abundance, measured pathway suppression and clinical disease control cannot be substituted for each other.",
+  "BALI-1 compared cisplatin with or without cetuximab in metastatic triple-negative breast cancer. Its primary overall-response endpoint was not met: response was 20% versus 10%, with P = 0.11. Progression-free survival was a secondary endpoint, and the reported overall-survival difference was not statistically significant. These results do not establish a general EGFR-treatment rule or postoperative benefit. The later erratum added a funding acknowledgement rather than changing these efficacy results.",
+  "An EGFR report identifies the specimen, assay, variant if any and sampling time. Immunostaining measures protein amount and location; sequencing measures a DNA alteration; receptor or downstream phosphorylation measures a particular signalling state. A staining score, variant allele fraction and signal normalised to a control have different denominators and units. In model tests, state concentration and controls and distinguish engagement from growth dependence. An unspecified EGFR-high cutoff cannot select every EGFR-directed medicine.",
+  "In a fictional culture with strong EGFR staining, reduced receptor phosphorylation after treatment and continued growth, the stain and phosphoprotein result can both be correct. Growth may have other support, and attribution to the intended target still needs controlled perturbation and comparable exposure. This pattern does not establish sensitivity or patient benefit. Explain separately how much receptor was observed, what the exact alteration does and which product-specific mechanism and clinical outcome have been demonstrated.",
+  "A total-EGFR measurement does not specify recognition by an EGFR806 CAR. Subham’s study used an mAb806-derived binding region in a particular construct and examined TNBC brain-metastasis tissue, cell lines and mice. Its antibody-derived spacer was modified to reduce Fc-receptor recognition. Statements about tumour-restricted binding or normal-brain expression in the introduction draw on earlier work; they are not a substitute for testing the proposed finished receptor against relevant healthy cells. This preclinical result is not a clinical breast-cancer benefit or safety estimate."
+],
+    related: [
+  "tki-term",
+  "drug-target-and-mechanism"
+],
   },
   {
-    id: "nectin4", trials: ["nct07299747"], drugs: ["crb-701"], kind: "target", name: "Nectin-4", symbol: "NECTIN4", hgnc: "HGNC:19688", ensembl: "ENSG00000143217", uniprot: "Q96NY8", entrez: "81607", targetClass: "surface-antigen", asOf, wikipedia: W("Nectin-4"),
+    id: "nectin4", trials: ["nct07299747"], drugs: ["crb-701"], kind: "target", name: "Nectin-4", symbol: "NECTIN4", hgnc: "HGNC:19688", ensembl: "ENSG00000143217", uniprot: "Q96NY8", entrez: "81607", targetClass: "surface-antigen", asOf: "2026-11-12", wikipedia: W("Nectin-4"),
     tldr: "Nectin-4 is an adhesion protein plentiful on bladder cancer cells, used as the docking site for the ADC enfortumab vedotin.",
     summary: "Nectin-4 is expressed at high levels in urothelial carcinoma and also in breast, lung, and pancreatic cancers. Enfortumab vedotin plus pembrolizumab is first-line standard in advanced urothelial cancer (EV-302). Next-generation Nectin-4 ADCs with topoisomerase-I payloads (MK-3120) and Nectin-4×TROP2 bispecific ADCs (AK146D1, AVZO-103) are in development.",
     biology: "Nectin-4 is a cell adhesion molecule and also a receptor for measles virus. Skin expression explains the rash seen with enfortumab.",
@@ -84,10 +172,24 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "urothelial", pct: "80-90", measure: "IHC, moderate-strong", source: "https://en.wikipedia.org/wiki/Nectin-4" },
       { cancerId: "tnbc", pct: "50-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Nectin-4" },
-    ], links: [{ label: "Wikipedia", url: W("Nectin-4") }], companies: ["emergence-therapeutics", "marengo-therapeutics"],
+    ], links: [
+  { label: "Wikipedia", url: W("Nectin-4") },
+  {
+  "label": "Development of Nectin4/FAP-targeted CAR-T cells secreting IL-7, CCL19, and IL-12 for malignant solid tumors. (2022)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36479116/"
+},
+  {
+  "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+  "url": "https://www.fda.gov/media/156896/download"
+}
+], companies: ["emergence-therapeutics", "marengo-therapeutics"],
+
+    notes: [
+  "Li studied specified Nectin-4 and FAP constructs rather than every receptor against these antigens. The Nectin4-7.19 cells also encoded IL-7 and CCL19; a separate FAP-12 product encoded IL-12. Tissue surveys, colorectal-tumour mouse experiments and lung-metastasis models had different purposes. Recognition of human and mouse FAP was tested separately. No observed pathology in sampled mouse organs does not establish that a human Nectin-4 binder recognises the relevant healthy antigen in every species or proves human safety. Retain the actual binder, species, added functions and comparator."
+],
   },
   {
-    id: "b7h3", drugs: ["yl201", "qlc5508", "bnt324", "bcb-276"], kind: "target", name: "B7-H3", symbol: "CD276", hgnc: "HGNC:19137", ensembl: "ENSG00000103855", uniprot: "Q5ZPR3", entrez: "80381", targetClass: "surface-antigen", asOf, wikipedia: W("CD276"),
+    id: "b7h3", drugs: ["yl201", "qlc5508", "bnt324", "bcb-276"], kind: "target", name: "B7-H3", symbol: "CD276", hgnc: "HGNC:19137", ensembl: "ENSG00000103855", uniprot: "Q5ZPR3", entrez: "80381", targetClass: "surface-antigen", asOf: "2026-11-12", wikipedia: W("CD276"),
     tldr: "B7-H3 is an immune checkpoint-like surface protein found on 60 to 70% of small-cell lung cancers and 80 to 90% of castration-resistant prostate cancers, with little on normal tissue. It is used as an ADC address, chiefly by ifinatamab deruxtecan, now in phase 3 in small-cell lung cancer; whether blocking its immune-dampening role adds anything beyond payload delivery is unresolved.",
     summary: "B7-H3 (CD276) is an immune checkpoint-like molecule broadly overexpressed in solid tumours with limited normal expression; its function is debated, inhibiting T-cell activation and promoting tumour cell migration. Expression is more homogeneous than many ADC targets, found in 60-70% of small-cell lung cancer and 80-90% of castration-resistant prostate cancer by IHC, as well as head and neck and paediatric solid tumours. Ifinatamab deruxtecan (I-DXd) has shown high response rates in small-cell lung cancer and is in phase 3. B7-H3 is also pursued with radioligands and CAR-T. Whether its immune-dampening role means antibodies against it add an immunological benefit beyond payload delivery is unresolved. The simple version is a widely present tumour surface protein now used mainly as an address for ADCs.",
     biology: "Function debated: inhibits T-cell activation, promotes tumour cell migration. Expression is more homogeneous than many ADC targets.",
@@ -97,7 +199,21 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "sclc", pct: "60-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276" },
       { cancerId: "prostate", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/CD276", note: "Castration-resistant disease" },
-    ], companies: ["dualitybio", "myricx-bio"], links: [{ label: "Wikipedia", url: W("CD276") }],
+    ], companies: ["dualitybio", "myricx-bio"], links: [
+  { label: "Wikipedia", url: W("CD276") },
+  {
+  "label": "Preclinical evaluation of antitumor activity and toxicity of TROP2-specific CAR-T cells for treatment of triple-negative breast cancer. (2025)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40903191/"
+},
+  {
+  "label": "Precision Tumor Recognition by T Cells With Combinatorial Antigen-Sensing Circuits. (2016)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/26830879/"
+}
+],
+
+    notes: [
+  "In Sun’s preclinical design, a B7-H3-binding synNotch receptor induced expression of a TROP2 CAR. The added input changed the recognition rule; it did not simply add a second independently activating CAR. The study compared human tumour models and a separate murine-cell system in human-TROP2 mice, where the gated construct avoided the measured inflammatory injury seen with the ungated construct. Induction, residual receptor expression after priming, tissue movement and healthy recognition still need testing for the actual circuit. Two positive stains do not establish those dynamics or human safety."
+],
   },
   {
     id: "cldn18-2", drugs: ["lm-302", "asp2138", "m108", "ibi343", "xnw27011", "azd4360", "tac01-cldn18-2", "lcb02a", "rc118-adc", "bdc-4182", "lb4330", "spevatamig", "azd5863"], kind: "target", name: "Claudin 18.2", symbol: "CLDN18", hgnc: "HGNC:2039", ensembl: "ENSG00000066405", uniprot: "P56856", entrez: "51208", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
@@ -181,7 +297,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Folate_receptor_1") }], companies: ["profoundbio"],
   },
   {
-    id: "tissue-factor", drugs: ["tisotumab-vedotin"], kind: "target", name: "Tissue factor", symbol: "F3", hgnc: "HGNC:3541", ensembl: "ENSG00000117525", uniprot: "P13726", entrez: "2152", targetClass: "surface-antigen", asOf, wikipedia: W("Tissue_factor"),
+    id: "tissue-factor", drugs: ["tisotumab-vedotin"], kind: "target", name: "Tissue factor", symbol: "F3", hgnc: "HGNC:3541", ensembl: "ENSG00000117525", uniprot: "P13726", entrez: "2152", targetClass: "surface-antigen", asOf: "2026-11-12", wikipedia: W("Tissue_factor"),
     tldr: "Tissue factor is a clotting protein that cancers abnormally display on their surface, used as an ADC target in cervical cancer.",
     summary: "Tissue factor (F3) initiates the extrinsic coagulation cascade; when cancers display it abnormally on their surface it drives thrombosis and angiogenesis, and it becomes an ADC target. It is overexpressed in cervical, pancreatic, head and neck, and ovarian tumours, with 90-95% of cervical and 50-80% of pancreatic cancers positive by IHC. Tisotumab vedotin (Tivdak) is approved in recurrent cervical cancer on the basis of innovaTV 301, and innovaTV did not select patients on tissue factor expression, so the drug is given without a companion test. Topoisomerase-I payload successors (XNW28012) are in phase 3. The open questions are ocular toxicity management and whether newer payloads widen the indication. The simple version is a clotting protein that cancers wear on their surface, letting an ADC find them.",
     biology: "Initiates the extrinsic coagulation cascade; tumour expression drives thrombosis and angiogenesis.",
@@ -191,7 +307,21 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "cervical", pct: "90-95", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor", note: "innovaTV did not select on TF" },
       { cancerId: "pancreatic", pct: "50-80", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Tissue_factor" },
-    ], links: [{ label: "Wikipedia", url: W("Tissue_factor") }], companies: ["adcendo"],
+    ], links: [
+  { label: "Wikipedia", url: W("Tissue_factor") },
+  {
+  "label": "Tissue factor as a new target for CAR-NK cell immunotherapy of triple-negative breast cancer. (2020)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32071339/"
+},
+  {
+  "label": "Structural basis for distinct binding properties of the human galectins to Thomsen-Friedenreich antigen. (2011)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/21949831/"
+}
+], companies: ["adcendo"],
+
+    notes: [
+  "Here tissue factor means the coagulation-related protein CD142, not the Thomsen-Friedenreich carbohydrate also called TF. Hu’s recognition module used the human factor-VII light chain and was installed in NK-92MI, a continuously growing cell line. The work tested TNBC cultures and cell-line or patient-derived xenografts, including a separate immunoconjugate combination. It does not describe donor primary NK cells or establish the behaviour of a T-cell product. Tumour binding, recognition of healthy vascular compartments and coagulation-related effects require their own measurements."
+],
   },
   {
     id: "cdh6", drugs: ["raludotatug-deruxtecan"], kind: "target", name: "CDH6", symbol: "CDH6", hgnc: "HGNC:1765", ensembl: "ENSG00000113361", uniprot: "P55285", entrez: "1004", targetClass: "surface-antigen", asOf, wikipedia: W("CDH6"),
@@ -233,9 +363,9 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Glypican_3") }],
   },
   {
-    id: "mesothelin", trials: ["nct07467863", "nct07480954", "nct07641023", "nct07083323"], drugs: ["eb-mf-car-nk-01"], kind: "target", name: "Mesothelin", symbol: "MSLN", hgnc: "HGNC:7371", ensembl: "ENSG00000102854", uniprot: "Q13421", entrez: "10232", targetClass: "surface-antigen", asOf, wikipedia: W("Mesothelin"),
+    id: "mesothelin", trials: ["nct07467863", "nct07480954", "nct07641023", "nct07083323"], drugs: ["eb-mf-car-nk-01"], kind: "target", name: "Mesothelin", symbol: "MSLN", hgnc: "HGNC:7371", ensembl: "ENSG00000102854", uniprot: "Q13421", entrez: "10232", targetClass: "surface-antigen", asOf: "2026-11-12", wikipedia: W("Mesothelin"),
     tldr: "Mesothelin is a surface protein on mesothelioma, ovarian, and pancreatic cancers, targeted by ADCs, CAR-T, and T-cell engagers.",
-    summary: "Mesothelin (MSLN) is a GPI-anchored protein with restricted normal expression on mesothelial surfaces; it binds MUC16/CA-125 but its function is largely dispensable, so targeting it carries little on-target risk in healthy tissue. It is expressed in 85-100% of epithelioid mesothelioma (lower in sarcomatoid), 80-90% of pancreatic cancer, 60-70% of serous ovarian cancer, and lung adenocarcinoma. Anetumab ravtansine failed in mesothelioma, which set back the ADC route. Mesothelin remains a leading solid-tumour CAR-T target, including regionally delivered and mRNA-CAR approaches designed to overcome poor infiltration and short persistence, and T-cell engagers are also in development. The simple version is a surface protein shared by several hard-to-treat cancers that engineered immune cells can be aimed at.",
+    summary: "Mesothelin (MSLN) is a GPI-anchored protein with restricted normal expression on mesothelial surfaces and binds MUC16/CA-125. Normal mesothelial expression makes healthy-tissue recognition a question for the actual binder and engineered product. It is expressed in 85-100% of epithelioid mesothelioma (lower in sarcomatoid), 80-90% of pancreatic cancer, 60-70% of serous ovarian cancer, and lung adenocarcinoma. Anetumab ravtansine failed in mesothelioma, which set back the ADC route. Mesothelin remains a leading solid-tumour CAR-T target, including regionally delivered and mRNA-CAR approaches designed to overcome poor infiltration and short persistence, and T-cell engagers are also in development. The simple version is a surface protein shared by several hard-to-treat cancers that engineered immune cells can be aimed at.",
     biology: "Binds MUC16/CA-125; function largely dispensable.",
     whereFound: ["Mesothelioma", "Pancreatic", "Ovarian", "Lung adenocarcinoma"],
     cancers: ["mesothelioma", "pancreatic", "ovarian"],
@@ -244,7 +374,21 @@ export const targets: TargetInput[] = [
       { cancerId: "mesothelioma", pct: "85-100", measure: "Epithelioid histology", source: "https://en.wikipedia.org/wiki/Mesothelin", note: "Lower in sarcomatoid" },
       { cancerId: "pancreatic", pct: "80-90", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Mesothelin" },
       { cancerId: "ovarian", pct: "60-70", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/Mesothelin", note: "Serous" },
-    ], links: [{ label: "Wikipedia", url: W("Mesothelin") }],
+    ], links: [
+  { label: "Wikipedia", url: W("Mesothelin") },
+  {
+  "label": "Mesothelin, a novel immunotherapy target for triple negative breast cancer. (2012)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/22418702/"
+},
+  {
+  "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+  "url": "https://www.fda.gov/media/156896/download"
+}
+,{"label":"Moon et al. 2011: mesothelin CAR construction","url":"https://pubmed.ncbi.nlm.nih.gov/21610146/"}],
+
+    notes: [
+  "Tchou’s tissue survey and live-cell experiment answer different questions. In 99 archival primary breast-cancer specimens, mesothelin expression was more frequent in the TNBC group. The functional killing experiment used TB129, a primary breast-cancer line derived from an oestrogen-receptor-negative, HER2-positive cancer, rather than a TNBC line. Mesothelin-CAR cells killed 31.7 per cent versus 8.7 per cent with unmodified T cells under the reported conditions. Tissue staining, accessible binding by the proposed receptor and healthy mesothelial recognition must remain separate; the study does not establish a safe clinical treatment for TNBC. The mesoCAR construction paper cited by Tchou describes an SS1 single-chain antibody fragment joined to 4-1BB and CD3-zeta signalling domains (Moon and colleagues); this is a construct specification, not a result for every mesothelin binder."
+],
   },
   {
     id: "cd70", drugs: ["cusatuzumab", "adi-270"], kind: "target", name: "CD70", symbol: "CD70", hgnc: "HGNC:11937", ensembl: "ENSG00000125726", uniprot: "P32970", entrez: "970", targetClass: "surface-antigen", asOf, wikipedia: W("CD70"),
@@ -260,7 +404,7 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("CD70") }],
   },
   {
-    id: "ror1", drugs: ["zilovertamab-vedotin"], trials: ["nct07510802"], kind: "target", name: "ROR1", symbol: "ROR1", hgnc: "HGNC:10256", ensembl: "ENSG00000185483", uniprot: "Q01973", entrez: "4919", targetClass: "surface-antigen", asOf, wikipedia: W("ROR1"),
+    id: "ror1", drugs: ["zilovertamab-vedotin"], trials: ["nct07510802"], kind: "target", name: "ROR1", symbol: "ROR1", hgnc: "HGNC:10256", ensembl: "ENSG00000185483", uniprot: "Q01973", entrez: "4919", targetClass: "surface-antigen", asOf: "2026-11-12", wikipedia: W("ROR1"),
     tldr: "ROR1 is a fetal pseudo-kinase receptor re-expressed on over 90% of chronic lymphocytic leukaemias, 30 to 50% of diffuse large B-cell lymphomas and 40 to 60% of triple-negative breast cancers, and largely absent from healthy adult tissue. Zilovertamab vedotin uses it as an ADC address, in phase 3 in large B-cell lymphoma; whether expression level predicts benefit is unproven.",
     summary: "ROR1 is an oncofetal receptor tyrosine kinase-like protein, a Wnt5a pseudo-kinase receptor that drives survival signalling in CLL and mantle cell lymphoma and is largely absent from normal adult tissue. Surface expression is seen in over 90% of CLL, 30-50% of DLBCL, and 40-60% of TNBC by IHC, with NSCLC expression also reported. Zilovertamab vedotin (MK-2140), an ADC, is in phase 3 in DLBCL, and the TNBC and NSCLC expression supports solid-tumour programmes. Because the receptor is a pseudo-kinase, it is used as a delivery address rather than a signalling target, and whether expression level predicts ADC benefit remains to be shown. The simple version is an embryonic receptor that many cancers re-express, giving ADCs a target largely missing from healthy cells.",
     biology: "Wnt5a pseudo-kinase receptor; drives survival signalling in CLL and MCL.",
@@ -271,7 +415,21 @@ export const targets: TargetInput[] = [
       { cancerId: "cll", pct: ">90", measure: "Surface expression", source: "https://en.wikipedia.org/wiki/ROR1" },
       { cancerId: "dlbcl", pct: "30-50", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ROR1" },
       { cancerId: "tnbc", pct: "40-60", measure: "IHC, any expression", source: "https://en.wikipedia.org/wiki/ROR1" },
-    ], links: [{ label: "Wikipedia", url: W("ROR1") }],
+    ], links: [
+  { label: "Wikipedia", url: W("ROR1") },
+  {
+  "label": "Inhibition of TGF-β-receptor signaling augments the antitumor function of ROR1-specific CAR T-cells against triple-negative breast cancer. (2020)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32303620/"
+},
+  {
+  "label": "Phase I Study of ROR1-Specific CAR-T Cells in Advanced Hematopoietic and Epithelial Malignancies. (2025)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39466024/"
+}
+],
+
+    notes: [
+  "Stüber’s R12-based ROR1 CAR study used healthy-donor CD4 and CD8 T cells, the MDA-MB-231 TNBC line and a three-dimensional model on a decellularised porcine-gut scaffold. Added TGF-beta impaired function; the TGF-beta-receptor inhibitor SD-208 protected several measured responses under those conditions. This is a defined preclinical perturbation, not a clinical combination result. In the later Jaeger-Ruckstuhl phase-I study, 21 people received ROR1 CAR-T cells: three with CLL, ten with TNBC and eight with NSCLC. One of the 18 solid-tumour participants had a partial response, with poor tumour infiltration reported. That pooled denominator is not a TNBC-specific response rate or a universal verdict about all ROR1 products."
+],
   },
   {
     id: "cd19", trials: ["nct06948981", "nct06179524", "nct05326243", "nct04684147", "nct07284433"], drugs: ["mk-1045", "rondecabtagene-autoleucel", "azd0486", "zamtocabtagene-autoleucel", "tc011", "englumafusp-alfa", "crc01", "azd0120", "jnj-90014496", "ctx112", "at101", "cd19-t-hank", "tbi-1501"], kind: "target", name: "CD19", symbol: "CD19", hgnc: "HGNC:1633", ensembl: "ENSG00000177455", uniprot: "P15391", entrez: "930", targetClass: "surface-antigen", asOf, wikipedia: W("CD19"),
@@ -398,8 +556,8 @@ export const targets: TargetInput[] = [
 
   // ---- Checkpoints ----
   {
-    id: "pd1", trials: ["nct06631092", "nct07266428", "nct06492005", "nct06144671", "nct06244992", "nct06107374", "nct06631079", "nct05023486", "nct05838729", "nct07444437", "nct07293754"], drugs: ["tqb2450", "bcd-217", "tak-928", "sasanlimab", "ibi363", "t3011", "ssgj-705", "ssgj-706", "rilvegostomig", "lorigerlimab", "ai-081", "gc101-til", "azd7789", "lb1410"], kind: "target", name: "PD-1", symbol: "PDCD1", hgnc: "HGNC:8760", ensembl: "ENSG00000188389", uniprot: "Q15116", entrez: "5133", targetClass: "checkpoint", asOf, wikipedia: W("Programmed_cell_death_protein_1"),
-    tldr: "PD-1 is a brake on T cells. Blocking it releases the immune system against the tumour and has cured some previously incurable cancers.",
+    id: "pd1", trials: ["nct06631092", "nct07266428", "nct06492005", "nct06144671", "nct06244992", "nct06107374", "nct06631079", "nct05023486", "nct05838729", "nct07444437", "nct07293754"], drugs: ["tqb2450", "bcd-217", "tak-928", "sasanlimab", "ibi363", "t3011", "ssgj-705", "ssgj-706", "rilvegostomig", "lorigerlimab", "ai-081", "gc101-til", "azd7789", "lb1410"], kind: "target", name: "PD-1", symbol: "PDCD1", hgnc: "HGNC:8760", ensembl: "ENSG00000188389", uniprot: "Q15116", entrez: "5133", targetClass: "checkpoint", "asOf": "2026-11-11", wikipedia: W("Programmed_cell_death_protein_1"),
+    tldr: "PD-1 helps regulate T-cell responses. Blocking its signals can improve cancer control in studied settings, but it does not guarantee recognition, killing or benefit.",
     summary: "PD-1 blockade (pembrolizumab, nivolumab, cemiplimab, dostarlimab and a growing list of biosimilar-adjacent agents) is standard across melanoma, NSCLC, RCC, urothelial, head and neck, MSI-high tumours, TNBC (with chemotherapy), Hodgkin lymphoma, and more. PD-1×VEGF bispecifics (ivonescimab) and PD-1×CTLA-4 combinations are the next wave.",
     biology: "Inhibitory receptor on activated T cells; ligands PD-L1/PD-L2. Tumour PD-L1 expression, TMB, and MSI predict response imperfectly.",
     whereFound: ["Exhausted T cells in the tumour microenvironment"],
@@ -409,8 +567,17 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "melanoma", pct: "30-40", measure: "Objective response to PD-1 monotherapy (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1", note: "Not an expression prevalence" },
       { cancerId: "nsclc", pct: "20-45", measure: "Response by PD-L1 stratum (proxy)", source: "https://en.wikipedia.org/wiki/Programmed_cell_death_protein_1" },
-    ], links: [{ label: "Wikipedia", url: W("Programmed_cell_death_protein_1") }], companies: ["cofactor-genomics", "compass-therapeutics", "insight-molecular-diagnostics", "onc-ai", "oncohost", "ose-immunotherapeutics", "xilio-therapeutics"],
-  },
+    ], links: [{ label: "Wikipedia", url: W("Programmed_cell_death_protein_1") },
+{
+  "label": "KEYTRUDA U.S. prescribing information: PD-1 binding, mechanism and immune-mediated warnings",
+  "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+}
+], companies: ["cofactor-genomics", "compass-therapeutics", "insight-molecular-diagnostics", "onc-ai", "oncohost", "ose-immunotherapeutics", "xilio-therapeutics"],
+
+"notes": [
+  "PD-L1 and PD-L2 can engage PD-1 on T cells and inhibit proliferation and cytokine production. Pembrolizumab binds PD-1 and blocks its interactions with both ligands. Interrupting this pathway does not supply every other requirement for target recognition, tissue access or useful killing. The U.S. label warns that immune-mediated reactions can be severe or fatal and affect any organ system, including after treatment stops; antitumour activity and safety are separate questions."
+]
+},
   {
     id: "pdl1", trials: ["nct06107374", "nct07169552", "nct06631079", "nct07444437", "nct07293754"], kind: "target", name: "PD-L1", symbol: "CD274", hgnc: "HGNC:17635", ensembl: "ENSG00000120217", uniprot: "Q9NZQ7", entrez: "29126", targetClass: "checkpoint", asOf, wikipedia: W("PD-L1"),
     tldr: "PD-L1 is the tumour's side of the PD-1 brake, and also the biomarker that decides who gets immunotherapy.",
@@ -487,9 +654,9 @@ export const targets: TargetInput[] = [
     ], drugs: ["guardant360-cdx", "therascreen-cdx", "tempus-xt-cdx", "resolution-ctdx-first", "calderasib", "jdq443", "gfh375", "setidegrasib", "incb161734", "jyp0015"], links: [{ label: "Wikipedia", url: W("KRAS") }], companies: ["adventris-pharmaceuticals", "bridgebio-oncology-therapeutics", "cogent-biosciences", "erasca", "imagene-ai", "inivata", "kumquat-biosciences", "lucence", "treeline-biosciences"],
   },
   {
-    id: "braf", trials: ["nct05503797"], kind: "target", name: "BRAF", symbol: "BRAF", hgnc: "HGNC:1097", ensembl: "ENSG00000157764", uniprot: "P15056", entrez: "673", targetClass: "kinase", asOf, wikipedia: W("BRAF_(gene)"),
-    tldr: "BRAF is a signalling kinase mutated in half of melanomas; blocking it with two drugs at once became a template for targeted therapy.",
-    summary: "BRAF V600E/K mutations occur in ~50% of melanoma, ~10% of colorectal, ~2% of NSCLC, most papillary thyroid cancers, and hairy-cell leukaemia. BRAF+MEK inhibitor doublets (dabrafenib/trametinib, encorafenib/binimetinib) are standard; encorafenib+cetuximab (+chemotherapy, BREAKWATER) is first-line in BRAF V600E colorectal cancer since 2025-2026. Tumour-agnostic approval of dabrafenib/trametinib exists.",
+    id: "braf", trials: ["nct05503797"], kind: "target", name: "BRAF", symbol: "BRAF", hgnc: "HGNC:1097", ensembl: "ENSG00000157764", uniprot: "P15056", entrez: "673", targetClass: "kinase",  wikipedia: W("BRAF_(gene)"),
+    tldr: "BRAF is a protein kinase in the RAS/MAPK signalling network. Different BRAF alterations and cellular settings can have different effects and treatment implications.",
+    summary: "BRAF is a protein kinase that can pass signals through the RAS/MAPK network. Its normal molecular function is separate from the effects of a particular cancer-associated alteration.\n\nThe exact allele and intervention matter. In chemical-genetic cell experiments, ATP-competitive RAF inhibitors could increase ERK signaling through RAS-dependent RAF dimer transactivation in wild-type-BRAF settings. Reduced downstream phosphorylation, growth dependence and clinical benefit are separate endpoints. A pathway name or RNA score cannot identify the upstream driver or predict the direction of an inhibitor effect.",
     biology: "Serine/threonine kinase in the MAPK cascade; class I (V600) mutants are monomer-active and inhibitor-sensitive, class II/III are not.",
     whereFound: ["Melanoma", "Colorectal", "Thyroid", "NSCLC", "Glioma (paediatric)"],
     pathways: ["ras-mapk", "colorectal-cancer-signalling", "glioma-signalling", "melanoma-signalling", "pancreatic-cancer-signalling", "thyroid-cancer-signalling"],
@@ -500,8 +667,23 @@ export const targets: TargetInput[] = [
       { cancerId: "colorectal", pct: "8-12", measure: "V600E mutation", source: "https://www.cbioportal.org/study/summary?id=coadread_tcga_pan_can_atlas_2018" },
       { cancerId: "thyroid", pct: "40-60", measure: "Papillary V600E", source: "https://www.cbioportal.org/study/summary?id=thca_tcga_pan_can_atlas_2018", note: "Near-universal in some PTC variants" },
       { cancerId: "nsclc", pct: "2-4", measure: "V600E and non-V600", source: "https://www.cbioportal.org/study/summary?id=luad_tcga_pan_can_atlas_2018" },
-    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "gc101-til"], links: [{ label: "Wikipedia", url: W("BRAF_(gene)") }], companies: ["imagene-ai", "nested-therapeutics"],
+    ], drugs: ["guardant360-cdx", "oncomine-dx-target-test", "therascreen-cdx", "gc101-til"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/BRAF_(gene)"
   },
+  {
+    "label": "RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF. (primary abstract; 2010)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20179705/"
+  },
+  {
+    "label": "UniProt P15056: reviewed human protein function",
+    "url": "https://www.uniprot.org/uniprotkb/P15056/entry"
+  }
+], companies: ["imagene-ai", "nested-therapeutics"],
+
+"asOf": "2026-11-10"
+},
   {
     id: "alk", drugs: ["ceritinib", "brigatinib", "ensartinib", "guardant360-cdx", "tri-611"], kind: "target", name: "ALK", symbol: "ALK", hgnc: "HGNC:427", ensembl: "ENSG00000171094", uniprot: "Q9UM73", entrez: "238", targetClass: "kinase", asOf, wikipedia: W("Anaplastic_lymphoma_kinase"),
     tldr: "ALK is a gene fusion driver in about 4 to 5% of non-small-cell lung cancers that responds to a succession of ALK inhibitor pills. Lorlatinib kept about 60% of patients progression-free at five years, alectinib is approved after surgery, and neladalkib targets compound resistance mutations.",
@@ -789,9 +971,9 @@ export const targets: TargetInput[] = [
     ], links: [{ label: "Wikipedia", url: W("Estrogen_receptor_alpha") }],
   },
   {
-    id: "androgen-receptor", kind: "target", name: "Androgen receptor", symbol: "AR", hgnc: "HGNC:644", ensembl: "ENSG00000169083", uniprot: "P10275", entrez: "367", targetClass: "nuclear-receptor", asOf, wikipedia: W("Androgen_receptor"),
-    tldr: "The hormone switch that drives prostate cancer, attacked by castration and by pills that block the receptor.",
-    summary: "Androgen deprivation plus AR pathway inhibitors (abiraterone, enzalutamide, apalutamide, darolutamide) is standard in advanced prostate cancer. AR degraders, AR N-terminal domain inhibitors, and combinations with PARP or AKT inhibitors address castration resistance. AR is also a target in a subset of TNBC (luminal androgen receptor subtype).",
+    id: "androgen-receptor", kind: "target", name: "Androgen receptor", symbol: "AR", hgnc: "HGNC:644", ensembl: "ENSG00000169083", uniprot: "P10275", entrez: "367", targetClass: "nuclear-receptor",  wikipedia: W("Androgen_receptor"),
+    tldr: "The androgen receptor can bind androgen hormones and regulate gene activity. Receptor staining, an RNA subtype and dependence on the receptor are different findings.",
+    summary: "The full-length androgen receptor is a hormone-binding protein that can regulate transcription. Its interactions with other proteins, receptor form and cellular setting affect its activity.\n\nReceptor amount, location, transcription and growth dependence are different observations. Nuclear AR immunostaining reports protein in sampled cells; a luminal androgen receptor, or LAR, label is a versioned RNA-classifier result. TBCRC 032 correlative analyses found AR protein expression alone insufficient to identify AR-dependent tumors. Neither staining nor classifier membership alone proves patient benefit.\n\nFull-length AR has distinct regions for transcriptional regulation, DNA binding and ligand binding. Androgens can change receptor interactions, nuclear localization and regulatory-DNA binding, with effects determined by partners, accessible DNA and receptor form. Tran's antiandrogen experiments in prostate models tested binding, nuclear movement and transcriptional effects separately. An RNA signal does not characterize a truncated protein or transfer those prostate results to breast-cancer treatment.\n\nA fictional tumor with 20% AR-positive nuclei but a non-LAR RNA classification need not have a mistaken result. The assays measure different layers; compare antibody, scoring, tumor-cell content, preservation, sampling, normalization and classifier version. Twenty percent stained nuclei is not twenty percent of patients expected to respond. Dependence requires a controlled receptor perturbation with downstream and growth or survival measurements.\n\nLehmann 2016 refined TNBCtype from six classes to four tumor-specific classes after immune and stromal contributions explained the former immunomodulatory and mesenchymal stem-like signals. LAR does not mean estrogen-receptor-positive disease. TBCRC 032 was a defined phase Ib/II metastatic breast-cancer study of enzalutamide with or without taselisib, with phase II focused on AR-positive TNBC; its exploratory correlations do not turn an RNA subtype into a universal treatment rule or import a prostate indication.",
     biology: "Nuclear receptor; amplification, splice variants (AR-V7), and ligand-binding-domain mutations drive resistance.",
     whereFound: ["Prostate cancer", "LAR-subtype TNBC", "Salivary duct carcinoma"],
     pathways: ["ar-signaling", "prostate-cancer-signalling"],
@@ -800,8 +982,31 @@ export const targets: TargetInput[] = [
     prevalence: [
       { cancerId: "prostate", pct: ">95", measure: "AR-driven at diagnosis", source: "https://en.wikipedia.org/wiki/Androgen_receptor", note: "AR-V7 in ~20-40% of mCRPC" },
       { cancerId: "tnbc", pct: "10-15", measure: "Luminal androgen receptor subtype", source: "https://en.wikipedia.org/wiki/Androgen_receptor" },
-    ], drugs: ["nilutamide", "triptorelin", "bms-986365", "azd9750", "ep0062", "qlh12016"], links: [{ label: "Wikipedia", url: W("Androgen_receptor") }], companies: ["oric-pharmaceuticals"],
+    ], drugs: ["nilutamide", "triptorelin", "bms-986365", "azd9750", "ep0062", "qlh12016"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Androgen_receptor"
   },
+  {
+    "label": "TBCRC 032 IB/II Multicenter Study: Molecular Insights to AR Antagonist and PI3K Inhibitor Efficacy in Patients with AR+ Metastatic Triple-Negative Breast Cancer. (primary abstract; 2020)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31822498/"
+  },
+  {
+    "label": "Development of a second-generation antiandrogen for treatment of advanced prostate cancer. (2009; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19359544/"
+  },
+  {
+    "label": "Refinement of Triple-Negative Breast Cancer Molecular Subtypes: Implications for Neoadjuvant Chemotherapy Selection. (2016; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27310713/"
+  },
+  {
+    "label": "UniProt P10275: reviewed human protein function",
+    "url": "https://www.uniprot.org/uniprotkb/P10275/entry"
+  }
+], companies: ["oric-pharmaceuticals"],
+
+"asOf": "2026-11-10"
+},
   {
     id: "tp53", trials: ["nct07060989"], keyPapers: ["paper-vogelstein-surfing-p53-network-nature-2000"], drugs: ["ose2101", "krt-232"], kind: "target", name: "TP53", symbol: "TP53", hgnc: "HGNC:11998", ensembl: "ENSG00000141510", uniprot: "P04637", entrez: "7157", targetClass: "tumor-suppressor", asOf, wikipedia: W("P53"),
     tldr: "TP53 is the 'guardian of the genome', broken in half of all cancers. Fixing it directly has so far defeated every attempt, so drugs exploit what its loss makes cancers depend on.",
@@ -821,9 +1026,9 @@ export const targets: TargetInput[] = [
     ], companies: ["bulsara-bioworks", "nested-therapeutics", "photys-therapeutics"], links: [{ label: "Wikipedia", url: W("P53") }],
   },
   {
-    id: "brca", drugs: ["bracanalysis-cdx", "mychoice-cdx", "olaparib", "rucaparib", "talazoparib"], kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor", asOf, wikipedia: W("BRCA_mutation"),
-    tldr: "DNA repair genes. Inheriting a broken copy raises breast and ovarian cancer risk, but tumours that lose them become uniquely vulnerable to PARP inhibitors and platinum.",
-    summary: "BRCA1 and BRCA2 are homologous recombination repair genes; a tumour that loses both copies must rely on error-prone repair, which makes it uniquely vulnerable to PARP inhibitors and platinum. Germline BRCA1/2 mutations account for roughly 5 to 10 percent of breast cancers and about 15 percent of ovarian cancers, with 10 to 20 percent of triple-negative breast cancers (mostly BRCA1) and 3 to 5 percent of HR-positive cases (mostly BRCA2); BRCA2 alterations occur in 8 to 12 percent of metastatic prostate cancers and germline BRCA1/2 in 5 to 8 percent of pancreatic cancers. Homologous recombination deficiency (HRD) extends the phenotype to BRCA-wild-type tumours and is measured by genomic scars (myChoice CDx). HRD predicts benefit from PARP inhibitors and platinum, though the best assay and cut-off remain debated. The same genes guide both prevention and treatment.",
+    id: "brca", drugs: ["bracanalysis-cdx", "mychoice-cdx", "olaparib", "rucaparib", "talazoparib"], kind: "target", name: "BRCA1 / BRCA2 (HRD)", symbol: "BRCA1, BRCA2", targetClass: "tumor-suppressor",  wikipedia: W("BRCA_mutation"),
+    tldr: "BRCA1 and BRCA2 help repair damaged DNA. A reported variant, inherited cancer risk, remaining gene copies and current repair function need separate interpretation.",
+    summary: "BRCA1 and BRCA2 name genes everyone normally carries. Interpret a reported variant by its classification, sample and origin, then assess the remaining allele and repair function. An uncertain BRCA2 variant with no normal sample and no remaining-copy assessment establishes neither inheritance nor biallelic loss nor current repair deficiency. Tumor purity and complex copy-number states can limit allele interpretation.\n\nBRCA1 and BRCA2 have different repair roles. Brca1-deficient mouse embryonic stem cells had impaired homologous repair of defined chromosome breaks in Moynahan 1999. Purified full-length human BRCA2 promoted RAD51 assembly on single-stranded DNA in Jensen 2010. These model-specific results do not determine the effect of every human variant; the matching-template diagram omits many preparation and finishing steps.\n\nIn the CIMBA analysis, the invasive-breast-cancer results included 3,797 BRCA1 and 2,392 BRCA2 carriers, with individual marker data available for varying subsets. Among tumors with relevant marker information, 68% in BRCA1 carriers and 16% in BRCA2 carriers were triple-negative. These are pathology proportions among cancers in mutation carriers, not the chance that an individual carrier develops cancer or that a person with triple-negative disease carries a BRCA variant. Age and ascertainment matter.\n\nRepair capacity can change after treatment. In the selected eight-person resistant metastatic breast cancer cohort of Waks 2020, four acquired definite or putative BRCA reversions; other mechanisms could restore repair too. A reversion can restore a disrupted reading frame, while old genomic patterns remain. This selected cohort does not establish a common or most-frequent mechanism across all breast cancers, and a single tissue or blood sample can miss heterogeneous reversions.",
     biology: "Homologous recombination repair; loss forces reliance on error-prone pathways.",
     whereFound: ["Breast (esp. TNBC)", "Ovarian", "Prostate", "Pancreatic"],
     pathways: ["ddr", "breast-cancer-signalling", "pancreatic-cancer-signalling"],
@@ -835,8 +1040,39 @@ export const targets: TargetInput[] = [
       { cancerId: "prostate", pct: "8-12", measure: "Germline or somatic BRCA2 (metastatic)", source: "https://www.cbioportal.org/study/summary?id=prad_tcga_pan_can_atlas_2018" },
       { cancerId: "pancreatic", pct: "5-8", measure: "Germline BRCA1/2", source: "https://www.cbioportal.org/study/summary?id=paad_tcga_pan_can_atlas_2018" },
       { cancerId: "breast-hr-positive", pct: "3-5", measure: "Germline BRCA1/2", source: "https://en.wikipedia.org/wiki/BRCA_mutation", note: "BRCA2 predominant" },
-    ], related: ["platinum-plus-hrd"], links: [{ label: "Wikipedia", url: W("BRCA_mutation") }],
+    ], related: ["platinum-plus-hrd"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/BRCA_mutation"
   },
+  {
+    "label": "NCI: BRCA findings and test interpretation",
+    "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet"
+  },
+  {
+    "label": "RAD51 foci as a functional biomarker of homologous recombination repair and PARP inhibitor resistance in germline BRCA-mutated breast cancer. (2018; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29635390/"
+  },
+  {
+    "label": "Brca1 controls homology-directed DNA repair. (1999; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/10549283/"
+  },
+  {
+    "label": "Purified human BRCA2 stimulates RAD51-mediated recombination. (2010; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20729832/"
+  },
+  {
+    "label": "Pathology of breast and ovarian cancers among BRCA1 and BRCA2 mutation carriers: results from the Consortium of Investigators of Modifiers of BRCA1/2 (CIMBA). (2012; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22144499/"
+  },
+  {
+    "label": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer. (2020; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/"
+  }
+],
+
+"asOf": "2026-11-10"
+},
   {
     id: "cd47", technologies: ["cd47-blockade"], drugs: ["peluntamig", "spevatamig"], kind: "target", name: "CD47", symbol: "CD47", hgnc: "HGNC:1682", ensembl: "ENSG00000196776", uniprot: "Q08722", entrez: "961", targetClass: "checkpoint", asOf, wikipedia: W("CD47"),
     tldr: "CD47 is the 'don't eat me' signal: it binds SIRP-alpha on macrophages to stop them engulfing the cell, and over 90% of AML blasts and large B-cell lymphoma cells display it. Blocking it should let macrophages eat tumour cells, but red cells carry CD47 too, so anaemia is built in, and the lead antibody magrolimab was dropped after failed trials.",
@@ -964,15 +1200,48 @@ export const targets: TargetInput[] = [
     links: [{ label: "UniProt Q9NQ25: SLAMF7", url: "https://www.uniprot.org/uniprotkb/Q9NQ25/entry" }],
   },
   {
-    id: "tubulin", kind: "target", name: "Tubulin (microtubules)", symbol: "TUBB", hgnc: "HGNC:20778", ensembl: "ENSG00000196230", uniprot: "P07437", entrez: "203068", targetClass: "other", asOf, wikipedia: W("Tubulin"),
-    tldr: "The protein that builds the microtubule scaffolding a cell needs to pull its chromosomes apart. Taxanes freeze the scaffold and vinca alkaloids and eribulin stop it forming; either way the dividing cell stalls and dies.",
-    summary: "Alpha and beta tubulin dimers assemble into microtubules, the dynamic fibres that form the mitotic spindle, move cargo and shape the cell. Taxanes such as paclitaxel and docetaxel bind beta tubulin and lock microtubules in place; vinca alkaloids such as vincristine and the halichondrin analogue eribulin bind the growing ends and stop assembly. Both leave the spindle unable to segregate chromosomes, triggering mitotic arrest. The same mechanism carries the MMAE payload of brentuximab vedotin and enfortumab vedotin and the maytansinoid payload of trastuzumab emtansine. Peripheral neuropathy, from microtubule damage in long axons, is the shared dose-limiting toxicity.",
-    biology: "Heterodimeric building block of microtubules; drug binding at the taxane, vinca or maytansine site disrupts spindle dynamics.",
-    whereFound: ["Every dividing cell; the basis of taxane, vinca alkaloid, eribulin and tubulin-payload antibody-drug conjugate therapy"],
+    id: "tubulin", kind: "target", name: "Tubulin (microtubules)", symbol: "TUBB", hgnc: "HGNC:20778", ensembl: "ENSG00000196230", uniprot: "P07437", entrez: "203068", targetClass: "other", asOf: "2026-11-11", wikipedia: W("Tubulin"),
+    tldr: "Tubulin proteins build microtubules, structures used in cell division, organisation and transport. Different medicines disturb their dynamics in different ways; a disturbed microtubule does not by itself prove cell death.",
+    summary: "Alpha- and beta-tubulin pairs assemble into microtubules. These dynamic structures help form the mitotic spindle and also support organisation and transport in cells outside mitosis. Paclitaxel promotes assembly and stabilises microtubules against disassembly. Vinca medicines and eribulin instead inhibit formation, assembly or growth through their own mechanisms.\n\nThe MMAE cargo of vedotin conjugates and the DM1 cargo of trastuzumab emtansine interfere with microtubule function. Binding, altered dynamics, mitotic arrest, completed death and recovery are different observations. Effects on normal cells can matter even when those cells are not dividing; no universal neuropathy mechanism, dose limit or treatment benefit follows from the target name.",
+    biology: "Tubulin pairs assemble into dynamic microtubules used in mitosis and interphase. Stabilisation and inhibition of assembly or growth are distinct drug effects.",
+    whereFound: [
+  "Microtubules function in normal and tumour cells, during mitosis and in interphase"
+],
     drugs: ["paclitaxel","docetaxel","vincristine","eribulin"], cancers: ["breast-hr-positive","nsclc","ovarian","all-leukemia"],
     prevalence: [{"cancerId":"metastatic-cancer","pct":"all","measure":"Housekeeping enzyme present in every dividing cell (microtubule scaffold for cell division); not a selection marker, which is why these drugs are given by cancer type rather than by test."}],
-    links: [{ label: "UniProt P07437: TUBB", url: "https://www.uniprot.org/uniprotkb/P07437/entry" }],
+    links: [...([{ label: "UniProt P07437: TUBB", url: "https://www.uniprot.org/uniprotkb/P07437/entry" }]), ...[
+  {
+    "label": "Paclitaxel label: microtubule dynamics in mitosis and interphase",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
   },
+  {
+    "label": "Vincristine label: inhibition of microtubule formation",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c"
+  },
+  {
+    "label": "Vinorelbine label: assembly inhibition",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397"
+  },
+  {
+    "label": "Eribulin label: growth-phase inhibition",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13"
+  },
+  {
+    "label": "Trastuzumab emtansine label: DM1 microtubule activity",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+  },
+  {
+    "label": "Brentuximab vedotin label: MMAE activity",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+  }
+]],
+
+"aka": [
+  "vinca",
+  "vinca alkaloid",
+  "vinca alkaloids"
+]
+},
   {
     id: "dnmt1", kind: "target", name: "DNMT1 (DNA methyltransferase 1)", symbol: "DNMT1", hgnc: "HGNC:2976", ensembl: "ENSG00000130816", uniprot: "P26358", entrez: "1786", targetClass: "enzyme", asOf, wikipedia: W("DNMT1"),
     tldr: "The enzyme that copies methylation marks onto newly made DNA, keeping genes silenced. Azacitidine and decitabine trap and destroy it, waking silenced tumour suppressor genes in blood cancers.",

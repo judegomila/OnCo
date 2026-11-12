@@ -1,0 +1,1770 @@
+{
+  "dataCommit": "2de4cac995426bdca7c9555b221838b3335f41ff",
+  "sourceVersions": 8,
+  "sectionSignatures": 84,
+  "documents": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "file": "original-01-read-the-blood-result.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "18bff15bfc6f2fa98a7f07472d4c383dd71cc5259f18436ebe168d8333e8ab5b",
+      "gitBlob": "80402b96b87e058d22ac059516ddc1c0f5d166f5",
+      "bytes": 9297,
+      "title": "Read the blood result before reading the trend",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "1e6b5ab069f8361a7bd56e71c58cd4214a1d5c011410018691117de523465cdd"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "5debeaeb30ede0f7be102715694b4e70f61b85655472506ab6a55d8ff5664638"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "e9c9e382eeb4b733688ee12f5cc3e6372df62ec8e4c63c2eca133d943c69d36e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "eecd7c0e5448b8f8c3d46e7edec6fdca0a81e73541d6d21ac0a933cbb115dbf2"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "2cc951dd79d63c3340fcc34ef21dafcb0e0cbf9184a7a5e7531e546ae4b28864"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9d101dfebf75f485dc96ec0c9500a4782aa37dc70a982d3f7529ccaf842baea9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "8eb33aa45c0bbcb6f5cf210949bf89850b8bdff07d86b19e7b39a2c7520cca52"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cb9265c99470e7b47fba99d24812d54b078e8b81f2ed471a80a9a808a766b906"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "073aaeaaebbcc37eab015771719ab9a94c1393ce579c19c8ae11c6837191b6cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "7a6cc4fec292afaee3c851157ff5e6f624c0e2785d5cc3159310dbedb93e6a21"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dda04b41fc0c8167bb6f600bbd2572895705d0fb91f8a2d40760001a14f53a35"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "1"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "file": "original-ctdna-ppm-and-mri.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "2cb53e60374a35ca5a00966ce8dd41d616887daef77fe7ae449a7099f0faceb0",
+      "gitBlob": "3b72d24348c69a206cc317d76c2d697a972f7cfe",
+      "bytes": 9494,
+      "title": "Compare blood results with imaging",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c0cd2e0eb4ae133f8b495bd31bd0378a6089a331440c98aa91275e9af4f97a51"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d96df1e150dcf0584fd1cbf20efe9c4467d60a7910fc1de431c82e1ecb4f0599"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "70e58c94e0efb8af1d31b10b7deae4fd2510c54b963a4f9a7efc16f56995b48c"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "9189a76517b2b655610c3ec810ceec9efdf1c74947eb12627fba4a6317f20515"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "11eda8c3735f6c33caaed027b89266fb7c0d6f40a4e06eee23715cb63f67351e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "30b5cfbb6218b8589648b16f7ab4cc51ec48b16d93e2706848d6f72218daedfc"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "926c5b1a30b3d5efb107f499586be666f8b236355e2ca3292c4ad8c637bfa40a"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e7b58dac0e3a9d908b11958fe0bfe2af712e7487142fb29cd482e591467a5897"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "4726a4090ba777d316da77e445d0ba6c75ec156a68438ad25bfa0057ad12cf38"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "539198187f815eae6275a77182a4e9365ba214b17cab80bd073e2b1c0ee03c4d"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "4b878238ce046fdfecde774e6e15ee122090f288207e46a1afb4fc7683551738"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "2"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "file": "original-03-ask-what-a-result-should-change.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "a4bb37c57df0fe340036fe9cf089901149a38d52b6c5b1f701c19a2091b8f9d4",
+      "gitBlob": "1e441d2bccec47043b8b9d101f8d3bd5955654a2",
+      "bytes": 8630,
+      "title": "Ask what a result should change",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "760cec63a818382f7d4ef7423f9806d59b1c47309084a51a094bbf3742ffec0f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f73167861bd0482d71481987dd7105c8504488c42ffacdb035f606ddb342a5df"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b8ac1ef4274fd9603ae4fb27d4bb09fdbfb0e99b416c1de3022257f54dc43b99"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f14976604133bc467ec1ed955683c2a9bbc07025f2221e36005001679a706d57"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d9e07badc417fa167323e06b4787616fb2dbd261ee1cea942548966bb5e59ddc"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f56810c778c56270b9104ff1bcb4375bf3a825b0cf8118e1026d13bfd7c7e30f"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "18127d9c9d660c1604d1988bac49b57519fefbf521e1cd4de346d91cc7596135"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8506aefa7f1e0a0dd9a4600ca7ad1149e941ba0017feb14247e49b6699b25a36"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "76d43770a2c8d218739f1342fdbcb735ba4b4b3a7ef226c20166d62e8a54d598"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e363ab0669ecca6f1f60ca538582286cc82dc9fc1010a5f190dff6070c67e3c4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "5e5b077960cee9007cf9d19ed10990d236a0c5bb97f52a0ab01bbd2914a3ed14"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "3"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "file": "original-index.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "37013d7017f4d60866afa3b6799b278125f8ce9cbd7f5e0552f998436908cf9d",
+      "gitBlob": "72b6c384163908961551c3f15041f52f1085954f",
+      "bytes": 7919,
+      "title": "Understand blood tests and imaging after treatment",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d37b0edcc94e7776555422d612e73e53a2dffd79b6a4c0772e7e363556534699"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "916227f064d0b0685a457d7f8b216d6ea8005796334369d75bb3e1b843bfca4a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "214ae605481388a2d2f9a8fad8a7718782321a98ac2209a08049d0a5d47c928e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4920654700dd9c8a15068e16d43f98179cc144dc3b9300790c6542132ce45176"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7c536f1734bb1f6d8ec7c83634722c70717b41b9faa798ed2d16553e1b3ca9fb"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1648dd7e46e5651b59f0735c353a0cc184d5d93b40c1aece1a83604aba67b20e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "108687410254b1bd59c745aa28d0548db9f1be931aa86baf00fea3a71dda2c11"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "9db4662bd73d5d3283232da2c3f683876ec10c257635550fe2353be94361ae38"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "27dfce1baa22e4e91fd83832d982555661db9ed3eb2e43b90ad6695b2d1875f4"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "map"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "file": "later-01-read-the-blood-result.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "46666678c7a5377f5380c2293235d684f683e5e63e699b562b98cb9e49d983f6",
+      "gitBlob": "78c16ad7d98092e59495b102497cd83a84e8dd15",
+      "bytes": 11011,
+      "title": "Read the blood result before reading the trend",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e80870f2aa6bddeaf8bbe00d154ad3d193315875bb591c832b261094691a5dbd"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1e6c90f841a4b526952ac6a923fd2bf63fa637d09e91d82396581963ef372f09"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d55c4df89653d6c1dfa6b8eedb76e5fc6e9d810ed55617c7c8f1a72fb41c7fe2"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "b2a90fc093def59b504cca3644ae5412abb69b8a5da135bf5b7f98af3aa7597d"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3357de068badf0cf4d724b3297503243084d3c2a61d7bae615773b2e6a84de79"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "d94a083417c9032922add340c8e9e373f792e44015e3e7283074850f5761291e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "549fe2168b6a2cfe327fccf492ba00862fed92cef118dc5baaa87bae32978a6b"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "cb9265c99470e7b47fba99d24812d54b078e8b81f2ed471a80a9a808a766b906"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "073aaeaaebbcc37eab015771719ab9a94c1393ce579c19c8ae11c6837191b6cf"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "f792eeb0a01e18cd69590e5b8aaaafc5adbd03602dd46c7a128fc67c78fc3266"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "b857e030c83fdeae649a449e85ba842a33bb7513608de166932d0c576d3d962b"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "1"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "file": "later-02-compare-blood-results-with-imaging.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "a338273455554d976ad9d77d099bb9e1f25ec369f54151f2ea145b7e4dbb2212",
+      "gitBlob": "20f78b9273049e35bdd693efa428aa0126072c21",
+      "bytes": 10089,
+      "title": "Compare blood results with imaging",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5050d6c0250455334565b55c6b0f116f0788ba24d513b47427a70efebc0e3f0c"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2d31ea48c09493d30f20f60853e724de9d9ad00672eff31159fdd2f9f4e786af"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "aa4d5dad851eabfbe315f6f1ad653d0151ba10b0ad8d260fd5b553e5c41c11cc"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "0eeeaa1f973b570b344c98c7d578d24bcb6a925628ccf2d9e9283ba7ea1c92ad"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "34a4ae907eb5bdcd50e55d3814bccbeb88a3304ae69ec142781489e7b2116736"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "2393c913369217afb53127a6f57c2ceaa5b177ed2dd035ba5b1e8a238ff57688"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "5abb9ed026516010c8cc8c6beba64a997d8cdaf7288065363cd9fb97bf91a9de"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "551d181adaf2f61d0cae437d8d2e4461ca9503df61f667568eff2be787c48bc8"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a9bcb54ee48a1491c39faf50d7ac17ad31c9f24f5de694e040ea783b38cc5cbe"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "b9241c95e1596b7d2caf9d67a861e3d59795c5458920f0a3d3c0dcff3d88f1f1"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3277e55eff238edd9d8508ffb08e29332fc1fe8031069c8c48e88b69f8360f77"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "2"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "file": "later-03-ask-what-a-result-should-change.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "9f1bfcaf66ec54a3aa2c285f589cc47037775012540851825ada2b999f4edeee",
+      "gitBlob": "bf9f604db76ab4bd86a22b2e33bbf5ef36f6220a",
+      "bytes": 8828,
+      "title": "Ask what a result should change",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "760cec63a818382f7d4ef7423f9806d59b1c47309084a51a094bbf3742ffec0f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f73167861bd0482d71481987dd7105c8504488c42ffacdb035f606ddb342a5df"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b8ac1ef4274fd9603ae4fb27d4bb09fdbfb0e99b416c1de3022257f54dc43b99"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "f14976604133bc467ec1ed955683c2a9bbc07025f2221e36005001679a706d57"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d9e07badc417fa167323e06b4787616fb2dbd261ee1cea942548966bb5e59ddc"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "629c8b485169e56b737763f718a8b1dad25da7fc3681138c7ad3a780c1844e1b"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "18127d9c9d660c1604d1988bac49b57519fefbf521e1cd4de346d91cc7596135"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "8506aefa7f1e0a0dd9a4600ca7ad1149e941ba0017feb14247e49b6699b25a36"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "76d43770a2c8d218739f1342fdbcb735ba4b4b3a7ef226c20166d62e8a54d598"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e363ab0669ecca6f1f60ca538582286cc82dc9fc1010a5f190dff6070c67e3c4"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "5e5b077960cee9007cf9d19ed10990d236a0c5bb97f52a0ab01bbd2914a3ed14"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "3"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "file": "later-index.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "64e175c1727d246a269842fe4ba940147377e5791a4d1286a4e3af5775a21743",
+      "gitBlob": "23c07d7d1c9429208a97523a08c36f98beab9b7c",
+      "bytes": 7874,
+      "title": "Understand blood tests and imaging after treatment",
+      "manifestSections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d37b0edcc94e7776555422d612e73e53a2dffd79b6a4c0772e7e363556534699"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2bbbd54bac50ce6af15c1fc4f9489d3122bb8922fec1ca8984308479f6344fd6"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "214ae605481388a2d2f9a8fad8a7718782321a98ac2209a08049d0a5d47c928e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4395d5508b78cc9de216c0f534fe552ed6d58bc20b3fffc884f5166384eec7b6"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "deb3b9158a93093b7f8fd43b729e8f187f7df9abd7983d723f0cc3108843580c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1648dd7e46e5651b59f0735c353a0cc184d5d93b40c1aece1a83604aba67b20e"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "108687410254b1bd59c745aa28d0548db9f1be931aa86baf00fea3a71dda2c11"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "9db4662bd73d5d3283232da2c3f683876ec10c257635550fe2353be94361ae38"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "27dfce1baa22e4e91fd83832d982555661db9ed3eb2e43b90ad6695b2d1875f4"
+        }
+      ],
+      "previousReviewStatus": "unreviewed",
+      "lesson": "map"
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAtUtc": "2026-11-12T12:47:13.406748+00:00",
+    "headBeforeFreshOwnerInspection": "058575fbc7aa103a838ec5abb81944e4cce35177",
+    "sourceVersions": 8,
+    "inventorySha256": "d5e6a24676e9d5a4982ea7878bea7b4485b3946efc560197eb5a06a19831a93f",
+    "rows": 105,
+    "substantive": 86,
+    "derivedOverview": 3,
+    "perPhaseSubstantive": {
+      "original": 78,
+      "later": 86
+    },
+    "freshCanonicalFieldsInspected": false,
+    "relocation": "The original imaging chapter retains its molecular-profiling path; the later version has a guide path. Neither version disappears."
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "1e6b5ab069f8361a7bd56e71c58cd4214a1d5c011410018691117de523465cdd",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M1fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "5debeaeb30ede0f7be102715694b4e70f61b85655472506ab6a55d8ff5664638",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M1ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "e9c9e382eeb4b733688ee12f5cc3e6372df62ec8e4c63c2eca133d943c69d36e",
+      "lineStart": 36,
+      "lineEnd": 45,
+      "requirementIds": [
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "B-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "eecd7c0e5448b8f8c3d46e7edec6fdca0a81e73541d6d21ac0a933cbb115dbf2",
+      "lineStart": 46,
+      "lineEnd": 60,
+      "requirementIds": [
+        "B-009",
+        "B-010",
+        "B-011",
+        "B-012",
+        "B-013",
+        "B-014",
+        "B-015",
+        "B-016",
+        "B-017",
+        "B-018"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "2cc951dd79d63c3340fcc34ef21dafcb0e0cbf9184a7a5e7531e546ae4b28864",
+      "lineStart": 61,
+      "lineEnd": 70,
+      "requirementIds": [
+        "B-020",
+        "B-021",
+        "B-022",
+        "B-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "9d101dfebf75f485dc96ec0c9500a4782aa37dc70a982d3f7529ccaf842baea9",
+      "lineStart": 71,
+      "lineEnd": 80,
+      "requirementIds": [
+        "B-025",
+        "B-026",
+        "B-027",
+        "B-028"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "8eb33aa45c0bbcb6f5cf210949bf89850b8bdff07d86b19e7b39a2c7520cca52",
+      "lineStart": 81,
+      "lineEnd": 88,
+      "requirementIds": [
+        "B-029",
+        "B-030"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "cb9265c99470e7b47fba99d24812d54b078e8b81f2ed471a80a9a808a766b906",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "B-032"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "073aaeaaebbcc37eab015771719ab9a94c1393ce579c19c8ae11c6837191b6cf",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "B-033"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "7a6cc4fec292afaee3c851157ff5e6f624c0e2785d5cc3159310dbedb93e6a21",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "M1de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "dda04b41fc0c8167bb6f600bbd2572895705d0fb91f8a2d40760001a14f53a35",
+      "lineStart": 107,
+      "lineEnd": 113,
+      "requirementIds": [
+        "M1so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "c0cd2e0eb4ae133f8b495bd31bd0378a6089a331440c98aa91275e9af4f97a51",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M2fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "d96df1e150dcf0584fd1cbf20efe9c4467d60a7910fc1de431c82e1ecb4f0599",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M2ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "70e58c94e0efb8af1d31b10b7deae4fd2510c54b963a4f9a7efc16f56995b48c",
+      "lineStart": 36,
+      "lineEnd": 49,
+      "requirementIds": [
+        "I-001",
+        "I-002",
+        "I-003",
+        "I-004",
+        "I-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "9189a76517b2b655610c3ec810ceec9efdf1c74947eb12627fba4a6317f20515",
+      "lineStart": 50,
+      "lineEnd": 66,
+      "requirementIds": [
+        "I-006",
+        "I-007",
+        "I-008",
+        "I-009",
+        "I-010",
+        "I-011",
+        "I-012",
+        "I-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "11eda8c3735f6c33caaed027b89266fb7c0d6f40a4e06eee23715cb63f67351e",
+      "lineStart": 67,
+      "lineEnd": 74,
+      "requirementIds": [
+        "I-014",
+        "I-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "30b5cfbb6218b8589648b16f7ab4cc51ec48b16d93e2706848d6f72218daedfc",
+      "lineStart": 75,
+      "lineEnd": 80,
+      "requirementIds": [
+        "I-017",
+        "I-018",
+        "I-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "926c5b1a30b3d5efb107f499586be666f8b236355e2ca3292c4ad8c637bfa40a",
+      "lineStart": 81,
+      "lineEnd": 88,
+      "requirementIds": [
+        "I-020",
+        "I-021",
+        "I-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "e7b58dac0e3a9d908b11958fe0bfe2af712e7487142fb29cd482e591467a5897",
+      "lineStart": 89,
+      "lineEnd": 94,
+      "requirementIds": [
+        "I-023"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "4726a4090ba777d316da77e445d0ba6c75ec156a68438ad25bfa0057ad12cf38",
+      "lineStart": 95,
+      "lineEnd": 100,
+      "requirementIds": [
+        "I-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "539198187f815eae6275a77182a4e9365ba214b17cab80bd073e2b1c0ee03c4d",
+      "lineStart": 101,
+      "lineEnd": 106,
+      "requirementIds": [
+        "M2de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/molecular-profiling/ctdna-ppm-and-mri.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "4b878238ce046fdfecde774e6e15ee122090f288207e46a1afb4fc7683551738",
+      "lineStart": 107,
+      "lineEnd": 113,
+      "requirementIds": [
+        "M2so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "760cec63a818382f7d4ef7423f9806d59b1c47309084a51a094bbf3742ffec0f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M3fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "f73167861bd0482d71481987dd7105c8504488c42ffacdb035f606ddb342a5df",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M3ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b8ac1ef4274fd9603ae4fb27d4bb09fdbfb0e99b416c1de3022257f54dc43b99",
+      "lineStart": 36,
+      "lineEnd": 48,
+      "requirementIds": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "f14976604133bc467ec1ed955683c2a9bbc07025f2221e36005001679a706d57",
+      "lineStart": 49,
+      "lineEnd": 56,
+      "requirementIds": [
+        "A-007",
+        "A-008",
+        "A-009"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "d9e07badc417fa167323e06b4787616fb2dbd261ee1cea942548966bb5e59ddc",
+      "lineStart": 57,
+      "lineEnd": 66,
+      "requirementIds": [
+        "A-010",
+        "A-011",
+        "A-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "f56810c778c56270b9104ff1bcb4375bf3a825b0cf8118e1026d13bfd7c7e30f",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "A-013",
+        "A-014",
+        "A-016",
+        "A-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "18127d9c9d660c1604d1988bac49b57519fefbf521e1cd4de346d91cc7596135",
+      "lineStart": 73,
+      "lineEnd": 80,
+      "requirementIds": [
+        "A-018",
+        "A-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "8506aefa7f1e0a0dd9a4600ca7ad1149e941ba0017feb14247e49b6699b25a36",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "A-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "76d43770a2c8d218739f1342fdbcb735ba4b4b3a7ef226c20166d62e8a54d598",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "A-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "e363ab0669ecca6f1f60ca538582286cc82dc9fc1010a5f190dff6070c67e3c4",
+      "lineStart": 93,
+      "lineEnd": 98,
+      "requirementIds": [
+        "M3de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "5e5b077960cee9007cf9d19ed10990d236a0c5bb97f52a0ab01bbd2914a3ed14",
+      "lineStart": 99,
+      "lineEnd": 106,
+      "requirementIds": [
+        "M3so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "d37b0edcc94e7776555422d612e73e53a2dffd79b6a4c0772e7e363556534699",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "MF-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "916227f064d0b0685a457d7f8b216d6ea8005796334369d75bb3e1b843bfca4a",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "214ae605481388a2d2f9a8fad8a7718782321a98ac2209a08049d0a5d47c928e",
+      "lineStart": 30,
+      "lineEnd": 40,
+      "requirementIds": [
+        "MF-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "4920654700dd9c8a15068e16d43f98179cc144dc3b9300790c6542132ce45176",
+      "lineStart": 41,
+      "lineEnd": 48,
+      "requirementIds": [
+        "O-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "7c536f1734bb1f6d8ec7c83634722c70717b41b9faa798ed2d16553e1b3ca9fb",
+      "lineStart": 49,
+      "lineEnd": 66,
+      "requirementIds": [
+        "O-003"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "1648dd7e46e5651b59f0735c353a0cc184d5d93b40c1aece1a83604aba67b20e",
+      "lineStart": 67,
+      "lineEnd": 79,
+      "requirementIds": [
+        "S-001",
+        "S-002",
+        "S-003",
+        "S-004",
+        "S-005",
+        "S-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "108687410254b1bd59c745aa28d0548db9f1be931aa86baf00fea3a71dda2c11",
+      "lineStart": 80,
+      "lineEnd": 83,
+      "requirementIds": [
+        "MX-001"
+      ],
+      "disposition": "Personal-context routing excluded; no named heading, links or individual facts adopted."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "9db4662bd73d5d3283232da2c3f683876ec10c257635550fe2353be94361ae38",
+      "lineStart": 84,
+      "lineEnd": 89,
+      "requirementIds": [
+        "S-007",
+        "S-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "27dfce1baa22e4e91fd83832d982555661db9ed3eb2e43b90ad6695b2d1875f4",
+      "lineStart": 90,
+      "lineEnd": 97,
+      "requirementIds": [
+        "MS-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "e80870f2aa6bddeaf8bbe00d154ad3d193315875bb591c832b261094691a5dbd",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M1fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "1e6c90f841a4b526952ac6a923fd2bf63fa637d09e91d82396581963ef372f09",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M1ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "d55c4df89653d6c1dfa6b8eedb76e5fc6e9d810ed55617c7c8f1a72fb41c7fe2",
+      "lineStart": 36,
+      "lineEnd": 51,
+      "requirementIds": [
+        "B-001",
+        "B-002",
+        "B-003",
+        "B-004",
+        "B-005",
+        "B-006",
+        "B-007",
+        "B-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "b2a90fc093def59b504cca3644ae5412abb69b8a5da135bf5b7f98af3aa7597d",
+      "lineStart": 52,
+      "lineEnd": 68,
+      "requirementIds": [
+        "B-009",
+        "B-010",
+        "B-011",
+        "B-012",
+        "B-013",
+        "B-014",
+        "B-015",
+        "B-016",
+        "B-017",
+        "B-018",
+        "B-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "3357de068badf0cf4d724b3297503243084d3c2a61d7bae615773b2e6a84de79",
+      "lineStart": 69,
+      "lineEnd": 78,
+      "requirementIds": [
+        "B-020",
+        "B-021",
+        "B-022",
+        "B-023",
+        "B-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "d94a083417c9032922add340c8e9e373f792e44015e3e7283074850f5761291e",
+      "lineStart": 79,
+      "lineEnd": 88,
+      "requirementIds": [
+        "B-025",
+        "B-026",
+        "B-027",
+        "B-028"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "549fe2168b6a2cfe327fccf492ba00862fed92cef118dc5baaa87bae32978a6b",
+      "lineStart": 89,
+      "lineEnd": 97,
+      "requirementIds": [
+        "B-029",
+        "B-030",
+        "B-031"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "cb9265c99470e7b47fba99d24812d54b078e8b81f2ed471a80a9a808a766b906",
+      "lineStart": 98,
+      "lineEnd": 103,
+      "requirementIds": [
+        "B-032"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "073aaeaaebbcc37eab015771719ab9a94c1393ce579c19c8ae11c6837191b6cf",
+      "lineStart": 104,
+      "lineEnd": 109,
+      "requirementIds": [
+        "B-033"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "f792eeb0a01e18cd69590e5b8aaaafc5adbd03602dd46c7a128fc67c78fc3266",
+      "lineStart": 110,
+      "lineEnd": 115,
+      "requirementIds": [
+        "M1de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/01-read-the-blood-result.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "b857e030c83fdeae649a449e85ba842a33bb7513608de166932d0c576d3d962b",
+      "lineStart": 116,
+      "lineEnd": 124,
+      "requirementIds": [
+        "M1so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "5050d6c0250455334565b55c6b0f116f0788ba24d513b47427a70efebc0e3f0c",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M2fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2d31ea48c09493d30f20f60853e724de9d9ad00672eff31159fdd2f9f4e786af",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M2ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "aa4d5dad851eabfbe315f6f1ad653d0151ba10b0ad8d260fd5b553e5c41c11cc",
+      "lineStart": 36,
+      "lineEnd": 49,
+      "requirementIds": [
+        "I-001",
+        "I-002",
+        "I-003",
+        "I-004",
+        "I-005"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "0eeeaa1f973b570b344c98c7d578d24bcb6a925628ccf2d9e9283ba7ea1c92ad",
+      "lineStart": 50,
+      "lineEnd": 66,
+      "requirementIds": [
+        "I-006",
+        "I-007",
+        "I-008",
+        "I-009",
+        "I-010",
+        "I-011",
+        "I-012",
+        "I-013"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "34a4ae907eb5bdcd50e55d3814bccbeb88a3304ae69ec142781489e7b2116736",
+      "lineStart": 67,
+      "lineEnd": 76,
+      "requirementIds": [
+        "I-014",
+        "I-015",
+        "I-016"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "2393c913369217afb53127a6f57c2ceaa5b177ed2dd035ba5b1e8a238ff57688",
+      "lineStart": 77,
+      "lineEnd": 82,
+      "requirementIds": [
+        "I-017",
+        "I-018",
+        "I-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "5abb9ed026516010c8cc8c6beba64a997d8cdaf7288065363cd9fb97bf91a9de",
+      "lineStart": 83,
+      "lineEnd": 90,
+      "requirementIds": [
+        "I-020",
+        "I-021",
+        "I-022"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "551d181adaf2f61d0cae437d8d2e4461ca9503df61f667568eff2be787c48bc8",
+      "lineStart": 91,
+      "lineEnd": 96,
+      "requirementIds": [
+        "I-023"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "a9bcb54ee48a1491c39faf50d7ac17ad31c9f24f5de694e040ea783b38cc5cbe",
+      "lineStart": 97,
+      "lineEnd": 102,
+      "requirementIds": [
+        "I-024"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "b9241c95e1596b7d2caf9d67a861e3d59795c5458920f0a3d3c0dcff3d88f1f1",
+      "lineStart": 103,
+      "lineEnd": 108,
+      "requirementIds": [
+        "M2de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/02-compare-blood-results-with-imaging.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "3277e55eff238edd9d8508ffb08e29332fc1fe8031069c8c48e88b69f8360f77",
+      "lineStart": 109,
+      "lineEnd": 116,
+      "requirementIds": [
+        "M2so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "760cec63a818382f7d4ef7423f9806d59b1c47309084a51a094bbf3742ffec0f",
+      "lineStart": 17,
+      "lineEnd": 23,
+      "requirementIds": [
+        "M3fr-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "f73167861bd0482d71481987dd7105c8504488c42ffacdb035f606ddb342a5df",
+      "lineStart": 24,
+      "lineEnd": 35,
+      "requirementIds": [
+        "M3ro-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "b8ac1ef4274fd9603ae4fb27d4bb09fdbfb0e99b416c1de3022257f54dc43b99",
+      "lineStart": 36,
+      "lineEnd": 48,
+      "requirementIds": [
+        "A-001",
+        "A-002",
+        "A-003",
+        "A-004",
+        "A-005",
+        "A-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "f14976604133bc467ec1ed955683c2a9bbc07025f2221e36005001679a706d57",
+      "lineStart": 49,
+      "lineEnd": 56,
+      "requirementIds": [
+        "A-007",
+        "A-008",
+        "A-009"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "d9e07badc417fa167323e06b4787616fb2dbd261ee1cea942548966bb5e59ddc",
+      "lineStart": 57,
+      "lineEnd": 66,
+      "requirementIds": [
+        "A-010",
+        "A-011",
+        "A-012"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "629c8b485169e56b737763f718a8b1dad25da7fc3681138c7ad3a780c1844e1b",
+      "lineStart": 67,
+      "lineEnd": 72,
+      "requirementIds": [
+        "A-013",
+        "A-014",
+        "A-015",
+        "A-016",
+        "A-017"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "18127d9c9d660c1604d1988bac49b57519fefbf521e1cd4de346d91cc7596135",
+      "lineStart": 73,
+      "lineEnd": 80,
+      "requirementIds": [
+        "A-018",
+        "A-019"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 7,
+      "kind": "practice-or-worked-example",
+      "sha256": "8506aefa7f1e0a0dd9a4600ca7ad1149e941ba0017feb14247e49b6699b25a36",
+      "lineStart": 81,
+      "lineEnd": 86,
+      "requirementIds": [
+        "A-020"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 8,
+      "kind": "practice-or-worked-example",
+      "sha256": "76d43770a2c8d218739f1342fdbcb735ba4b4b3a7ef226c20166d62e8a54d598",
+      "lineStart": 87,
+      "lineEnd": 92,
+      "requirementIds": [
+        "A-021"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 9,
+      "kind": "additional-teaching",
+      "sha256": "e363ab0669ecca6f1f60ca538582286cc82dc9fc1010a5f190dff6070c67e3c4",
+      "lineStart": 93,
+      "lineEnd": 98,
+      "requirementIds": [
+        "M3de-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/03-ask-what-a-result-should-change.md",
+      "ordinal": 10,
+      "kind": "source-scope",
+      "sha256": "5e5b077960cee9007cf9d19ed10990d236a0c5bb97f52a0ab01bbd2914a3ed14",
+      "lineStart": 99,
+      "lineEnd": 106,
+      "requirementIds": [
+        "M3so-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 0,
+      "kind": "preamble",
+      "sha256": "d37b0edcc94e7776555422d612e73e53a2dffd79b6a4c0772e7e363556534699",
+      "lineStart": 15,
+      "lineEnd": 21,
+      "requirementIds": [
+        "MF-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 1,
+      "kind": "additional-teaching",
+      "sha256": "2bbbd54bac50ce6af15c1fc4f9489d3122bb8922fec1ca8984308479f6344fd6",
+      "lineStart": 22,
+      "lineEnd": 29,
+      "requirementIds": [
+        "O-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 2,
+      "kind": "additional-teaching",
+      "sha256": "214ae605481388a2d2f9a8fad8a7718782321a98ac2209a08049d0a5d47c928e",
+      "lineStart": 30,
+      "lineEnd": 40,
+      "requirementIds": [
+        "MF-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 3,
+      "kind": "additional-teaching",
+      "sha256": "4395d5508b78cc9de216c0f534fe552ed6d58bc20b3fffc884f5166384eec7b6",
+      "lineStart": 41,
+      "lineEnd": 48,
+      "requirementIds": [
+        "O-002"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 4,
+      "kind": "additional-teaching",
+      "sha256": "deb3b9158a93093b7f8fd43b729e8f187f7df9abd7983d723f0cc3108843580c",
+      "lineStart": 49,
+      "lineEnd": 64,
+      "requirementIds": [
+        "O-003"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 5,
+      "kind": "additional-teaching",
+      "sha256": "1648dd7e46e5651b59f0735c353a0cc184d5d93b40c1aece1a83604aba67b20e",
+      "lineStart": 65,
+      "lineEnd": 77,
+      "requirementIds": [
+        "S-001",
+        "S-002",
+        "S-003",
+        "S-004",
+        "S-005",
+        "S-006"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 6,
+      "kind": "additional-teaching",
+      "sha256": "108687410254b1bd59c745aa28d0548db9f1be931aa86baf00fea3a71dda2c11",
+      "lineStart": 78,
+      "lineEnd": 81,
+      "requirementIds": [
+        "MX-001"
+      ],
+      "disposition": "Personal-context routing excluded; no named heading, links or individual facts adopted."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 7,
+      "kind": "additional-teaching",
+      "sha256": "9db4662bd73d5d3283232da2c3f683876ec10c257635550fe2353be94361ae38",
+      "lineStart": 82,
+      "lineEnd": 87,
+      "requirementIds": [
+        "S-007",
+        "S-008"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+      "ordinal": 8,
+      "kind": "source-scope",
+      "sha256": "27dfce1baa22e4e91fd83832d982555661db9ed3eb2e43b90ad6695b2d1875f4",
+      "lineStart": 88,
+      "lineEnd": 95,
+      "requirementIds": [
+        "MS-001"
+      ],
+      "disposition": "Later body read fully and original reconciled by exact diff. Teaching, derived overview and non-credit framing/scope remain distinct."
+    }
+  ],
+  "readingMode": "Four later bodies read fully; all four original/later exact diffs read. Unchanged original lines reused by identity, not independently reread.",
+  "versionReconciliation": "Original chapter two remains at its molecular-profiling path. Later chapter one adds three-design, new-variant, VAF and prognostic/action teaching; later imaging adds NRG-BR005 and chapter three distinguishes routine follow-up. Index scientific study table is unchanged.",
+  "personalContextSectionsExcluded": 2,
+  "sourceBodiesPublished": false
+}

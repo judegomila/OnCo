@@ -1,0 +1,921 @@
+{
+  "selectors": 153,
+  "available": 31,
+  "EnglishFallbacks": 122,
+  "simpleEntriesCorrected": 12,
+  "staleTranslationsRemoved": 89,
+  "newNamedLanguageReviews": 0,
+  "changes": [
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "simple",
+      "file": "src/data/simple/part-a.ts",
+      "before": "Drugs that kill fast-dividing cells. Still cures several cancers, and is also the 'warhead' inside newer smart drugs.",
+      "after": "These medicines can kill cancer cells or stop their growth. Their benefits and harms depend on the drug, treatment plan and cancer setting.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "simple",
+      "file": "src/data/simple/part-a.ts",
+      "before": "Chemotherapy drugs like cisplatin and carboplatin that tangle up DNA. Central to treating lung, ovarian, bladder, and triple-negative breast cancer.",
+      "after": "Platinum medicines can attach to DNA and link sites together. That does not by itself show that a cell dies or that a treatment will work.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "simple",
+      "file": "src/data/simple/part-a.ts",
+      "before": "Drugs that jam the enzyme that untangles DNA when cells copy themselves. Weak on their own, but powerful when delivered by an antibody-drug.",
+      "after": "These medicines can trap an enzyme on DNA during a temporary cut. Further damage depends on the medicine, exposure and cell response.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "simple",
+      "file": "src/data/simple/part-n.ts",
+      "before": "Capecitabine (Xeloda), from Roche, is a tablet form of the chemotherapy fluorouracil that is a backbone of bowel cancer treatment and a standard option in advanced breast cancer.",
+      "after": "The body converts capecitabine tablets into fluorouracil. Taking a medicine by mouth does not remove the risk of serious harm.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Chemotherapy means drugs that kill rapidly dividing cells by damaging their DNA or division machinery, hitting cancer hardest but also hair, gut lining and bone marrow.",
+      "after": "Chemotherapy medicines affect different cell processes. They can kill cancer cells or slow their growth, and healthy cells can be affected too.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "A regimen is a named recipe of drugs, doses and timing, and a cycle is one round of it, usually two to four weeks, giving normal tissues time to recover.",
+      "after": "A regimen sets out the medicines, amounts and timing. A cycle is a defined period of treatment and recovery; its length depends on the plan.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Anthracyclines are a family of red chemotherapy drugs that damage cancer DNA, cornerstones of breast cancer, lymphoma and leukaemia treatment, but they weaken the heart with cumulative doses.",
+      "after": "Anthracyclines affect DNA and an enzyme that cuts and reseals it. They can also harm the heart, sometimes after treatment has ended.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Taxanes are chemotherapy drugs originally from the yew tree that freeze the cell's internal scaffolding so it cannot divide, widely used but causing nerve damage in hands and feet.",
+      "after": "Taxanes change how microtubules grow and shorten. These structures help cells divide and do other jobs, so healthy tissue can be affected too.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Alkylating agents glue DNA strands together so cells cannot copy them, while antimetabolites are fake building blocks that jam DNA synthesis, the two oldest chemotherapy families.",
+      "after": "These are two different drug families. Alkylating agents attach chemical groups to molecules such as DNA; antimetabolites interfere with chemicals cells normally use.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "language": "simple",
+      "file": "src/data/simple/part-o.ts",
+      "before": "Tubulin builds the microtubule scaffolding a cell needs to pull its chromosomes apart, and taxanes freeze it while vinca alkaloids and eribulin stop it forming, so dividing cells stall and die.",
+      "after": "Tubulin builds microtubules used in division, transport and cell organisation. Medicines can change these structures without every exposed cell dying.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "تعمل مثبطات التوبوإيزوميراز I عن طريق تعطيل الإنزيم الذي يفكّ تشابك الحمض النووي DNA أثناء نسخه. وهي ضعيفة كأدوية حرة في كثير من السرطانات، لكنها مدمّرة عندما يوصلها دواء ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "أدوية علاج كيميائي مستخلصة أصلا من شجرة الطقسوس، تجمّد الهيكل الداخلي للخلية (الأنيبيبات الدقيقة) فلا تستطيع الانقسام. تُستخدم في سرطانات الثدي والرئة والمبيض والبروستاتا والمعدة والرأس والعنق؛ وأثرها الجانبي الدائم الرئيسي هو تلف الأعصاب في اليدين والقدمين.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "عائلة من أدوية العلاج الكيميائي حمراء اللون، مستخلصة من بكتيريا في التربة، تُلحق الضرر بـ DNA السرطان. وهي ركائز علاج سرطان الثدي والورم اللمفاوي وابيضاض الدم والساركوما، لكنها تُضعف القلب بشكل يعتمد على الجرعة، لذلك يوجد حد أقصى مدى الحياة.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "أدوية تقتل الخلايا سريعة الانقسام عن طريق إتلاف حمضها النووي DNA أو آلية الانقسام. ولأن الخلايا السرطانية تنقسم بسرعة فهي الأكثر تضرراً، لكن الشعر وبطانة الأمعاء ونخاع العظم يتضررون أيضاً، ومن هنا تأتي الآثار الجانبية.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "أقدم عائلتين من العلاج الكيميائي: عوامل الألكلة (cyclophosphamide وtemozolomide وmelphalan) تلصق شريطي DNA ببعضهما فلا تستطيع الخلايا نسخهما؛ ومضادات الاستقلاب (5-FU وcapecitabine وmethotrexate وgemcitabine) لبنات بناء زائفة تعطّل تخليق DNA.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "كابيسيتابين (Xeloda) هو الشكل القرصي للعلاج الكيميائي فلورويوراسيل. وهو ركيزة أساسية في علاج سرطان الأمعاء وخيار معياري في سرطان الثدي المتقدم.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "تعمل مركبات البلاتين مثل cisplatin وcarboplatin عن طريق الربط التشابكي للحمض النووي DNA. وهي شافية في سرطان الخصية وأساسية في علاج سرطانات الرئة والمبيض والمثانة والرأس والعنق وTNBC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "أدوية العلاج الكيميائي السامة للخلايا تقتل الخلايا سريعة الانقسام. وما زالت قادرة على الشفاء في سرطان الخصية واللمفوما واللوكيميا وكثير من السرطانات في مراحلها المبكرة، وهي الرأس المتفجر داخل أدوية ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Topoisomerase-I-Inhibitoren blockieren das Enzym, das die DNA beim Kopieren entwirrt. Als freie Wirkstoffe sind sie bei vielen Krebsarten schwach, aber verheerend wirksam, wenn sie über ein ADC zugeführt werden.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Chemotherapeutika, die ursprünglich aus der Eibe stammen und das innere Gerüst der Zelle (die Mikrotubuli) erstarren lassen, sodass sie sich nicht teilen kann. Eingesetzt bei Brust-, Lungen-, Eierstock-, Prostata-, Magen- sowie Kopf-Hals-Krebs; ihre wichtigste bleibende Nebenwirkung ist eine Nervenschädigung an Händen und Füßen.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Eine Familie roter Chemotherapeutika, die aus einem Bodenbakterium stammen und die DNA von Krebszellen schädigen. Eckpfeiler der Behandlung von Brustkrebs, Lymphom, Leukämie und Sarkom, aber sie schwächen das Herz dosisabhängig, weshalb es eine Lebenszeit-Höchstdosis gibt.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Medikamente, die sich schnell teilende Zellen abtöten, indem sie deren DNA oder die Maschinerie der Zellteilung schädigen. Weil Krebszellen sich schnell teilen, werden sie am stärksten getroffen, aber ebenso Haare, Darmschleimhaut und Knochenmark, und daher kommen die Nebenwirkungen.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Die beiden ältesten Chemotherapie-Familien: Alkylanzien (Cyclophosphamide, Temozolomide, Melphalan) verkleben die DNA-Stränge miteinander, sodass Zellen sie nicht mehr kopieren können; Antimetabolite (5-FU, Capecitabine, Methotrexate, Gemcitabine) sind falsche Bausteine, die die DNA-Synthese blockieren.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Capecitabin (Xeloda) ist die Tablettenform der Chemotherapie Fluorouracil. Es ist eine Säule der Behandlung von Darmkrebs und eine Standardoption bei fortgeschrittenem Brustkrebs.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Platinverbindungen wie cisplatin und carboplatin wirken, indem sie die DNA quervernetzen. Sie können Hodenkrebs heilen und sind zentral für die Behandlung von Lungen-, Eierstock- und Blasenkrebs, Kopf-Hals-Tumoren und TNBC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Zytotoxische Chemotherapeutika töten sich schnell teilende Zellen. Sie wirken weiterhin heilend bei Hodenkrebs, Lymphomen, Leukämie und vielen Krebsarten im Frühstadium, und sie sind der Sprengkopf in ADCs.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Fármacos que bloquean la enzima que desenreda el ADN al copiarse. Débiles solos en muchos cánceres, pero devastadores cuando los entrega un ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Fármacos de quimioterapia derivados originalmente del tejo que congelan el andamiaje interno de la célula (los microtúbulos) para que no pueda dividirse. Se usan en cánceres de mama, pulmón, ovario, próstata, estómago y cabeza y cuello; su principal efecto secundario duradero es el daño a los nervios de manos y pies.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Una familia de fármacos de quimioterapia de color rojo, derivados de una bacteria del suelo, que dañan el ADN del cáncer. Son pilares del tratamiento del cáncer de mama, el linfoma, la leucemia y el sarcoma, pero debilitan el corazón de forma dependiente de la dosis, por lo que existe un límite de por vida.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Fármacos que matan las células que se dividen rápidamente dañando su ADN o la maquinaria de la división. Como las células cancerosas se dividen deprisa, son las más afectadas, pero también lo son el cabello, el revestimiento intestinal y la médula ósea, y de ahí vienen los efectos secundarios.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Las dos familias más antiguas de quimioterapia: los alquilantes (cyclophosphamide, temozolomide, melphalan) pegan entre sí las hebras de ADN para que las células no puedan copiarlas; los antimetabolitos (5-FU, capecitabine, methotrexate, gemcitabine) son bloques de construcción falsos que atascan la síntesis de ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "La capecitabina (Xeloda) es la forma en comprimidos de la quimioterapia fluorouracilo. Es un pilar del tratamiento del cáncer de intestino y una opción estándar en el cáncer de mama avanzado.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Cisplatino y carboplatino entrecruzan el ADN. Curativos en cáncer testicular y centrales en el tratamiento de pulmón, ovario, vejiga, cabeza y cuello y TNBC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Fármacos que matan las células que se dividen rápido. Aún curativos en cáncer testicular, linfoma, leucemia y muchos cánceres tempranos, y la ojiva dentro de los ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les inhibiteurs de la topoisomérase I agissent en bloquant l'enzyme qui démêle l'ADN pendant sa copie. Ils sont peu efficaces sous forme libre dans de nombreux cancers, mais redoutables lorsqu'ils sont délivrés par un ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Médicaments de chimiothérapie issus à l'origine de l'if, qui figent l'échafaudage interne de la cellule (les microtubules) pour l'empêcher de se diviser. Utilisés dans les cancers du sein, du poumon, de l'ovaire, de la prostate, de l'estomac et de la tête et du cou ; leur principal effet secondaire durable est une atteinte des nerfs des mains et des pieds.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Une famille de médicaments de chimiothérapie de couleur rouge, dérivés d'une bactérie du sol, qui endommagent l'ADN du cancer. Piliers du traitement du cancer du sein, du lymphome, de la leucémie et du sarcome, mais ils affaiblissent le cœur de façon dose-dépendante, d'où une limite à vie.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Des médicaments qui tuent les cellules à division rapide en endommageant leur ADN ou la machinerie de la division. Comme les cellules cancéreuses se divisent vite, elles sont les plus touchées, mais c'est aussi le cas des cheveux, de la paroi intestinale et de la moelle osseuse, d'où viennent les effets secondaires.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les deux plus anciennes familles de chimiothérapie : les alkylants (cyclophosphamide, temozolomide, melphalan) soudent les brins d'ADN entre eux pour que les cellules ne puissent plus les copier ; les antimétabolites (5-FU, capecitabine, methotrexate, gemcitabine) sont de faux éléments de construction qui bloquent la synthèse de l'ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "La capécitabine (Xeloda) est la forme en comprimés de la chimiothérapie fluorouracile. Elle est un pilier du traitement du cancer de l'intestin et une option standard dans le cancer du sein avancé.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les agents à base de platine, comme le cisplatin et le carboplatin, agissent en créant des pontages dans l'ADN. Ils sont curatifs dans le cancer du testicule et occupent une place centrale dans le traitement des cancers du poumon, de l'ovaire, de la vessie, de la tête et du cou, et du TNBC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les médicaments de chimiothérapie cytotoxique tuent les cellules qui se divisent rapidement. Ils restent curatifs dans le cancer du testicule, le lymphome, la leucémie et de nombreux cancers à un stade précoce, et ils constituent l'ogive contenue dans les ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "DNA नकल के समय उसे खोलने वाले एंज़ाइम को जाम करने वाली दवाएँ। अकेले कई कैंसरों में कमज़ोर, पर ADC से पहुँचने पर विनाशकारी।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "मूल रूप से यू (yew) पेड़ से प्राप्त कीमोथेरेपी दवाएं, जो कोशिका के आंतरिक ढांचे (माइक्रोट्यूब्यूल) को जमा देती हैं ताकि वह विभाजित न हो सके। स्तन, फेफड़े, अंडाशय, प्रोस्टेट, पेट और सिर-गर्दन के कैंसर में इस्तेमाल होती हैं; इनका मुख्य स्थायी दुष्प्रभाव हाथों और पैरों की नसों की क्षति है।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "मिट्टी के एक जीवाणु से प्राप्त लाल रंग की कीमोथेरेपी दवाओं का एक परिवार, जो कैंसर के DNA को नुकसान पहुँचाती हैं। ये स्तन कैंसर, लिंफोमा, ल्यूकेमिया और सार्कोमा के उपचार की आधारशिला हैं, लेकिन खुराक के अनुसार दिल को कमज़ोर करती हैं, इसलिए इनकी एक आजीवन सीमा होती है।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "ऐसी दवाएँ जो तेज़ी से विभाजित होने वाली कोशिकाओं को उनके DNA या विभाजन की मशीनरी को नुकसान पहुँचाकर मार देती हैं। क्योंकि कैंसर कोशिकाएँ तेज़ी से विभाजित होती हैं, उन पर सबसे ज़्यादा असर पड़ता है, लेकिन बाल, आँत की परत और अस्थि मज्जा पर भी असर पड़ता है, और यहीं से दुष्प्रभाव आते हैं।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "कीमोथेरेपी के दो सबसे पुराने परिवार: एल्काइलेटिंग एजेंट (cyclophosphamide, temozolomide, melphalan) DNA की लड़ियों को आपस में चिपका देते हैं ताकि कोशिकाएं उनकी नकल न कर सकें; एंटीमेटाबोलाइट (5-FU, capecitabine, methotrexate, gemcitabine) नकली निर्माण खंड हैं जो DNA संश्लेषण को जाम कर देते हैं।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "कैपेसिटाबाइन (Xeloda) कीमोथेरेपी फ्लोरोयूरासिल का गोली रूप है। यह आंत के कैंसर के उपचार की रीढ़ है और उन्नत स्तन कैंसर में एक मानक विकल्प है।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "Cisplatin और carboplatin DNA को क्रॉसलिंक करते हैं। वृषण कैंसर में उपचारक और फेफड़े, अंडाशय, मूत्राशय, सिर-गर्दन व TNBC उपचार के केंद्र में।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "तेज़ी से विभाजित होती कोशिकाओं को मारने वाली दवाएँ। वृषण कैंसर, लिंफोमा, ल्यूकेमिया और कई प्रारंभिक कैंसरों में अब भी उपचारक, और ADC के भीतर का वारहेड।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "トポイソメラーゼI阻害薬は、DNAが複製されるときにそのもつれをほどく酵素の働きを止めることで作用します。単独の薬としては多くのがんで効果が弱いのですが、ADCで運ばれると非常に強力な効果を発揮します。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "もとはイチイの木に由来する化学療法薬で、細胞内部の骨格（微小管）を固定して分裂できなくする。乳がん・肺がん・卵巣がん・前立腺がん・胃がん・頭頸部がんに用いられ、主な持続的副作用は手足の神経障害である。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "土壌細菌に由来する赤い色の抗がん薬の一群で、がんのDNAを傷つける。乳がん、リンパ腫、白血病、肉腫の治療の柱であるが、用量に応じて心臓を弱らせるため、生涯にわたる累積投与量の上限がある。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "DNAや分裂の仕組みを傷つけることで、急速に分裂する細胞を殺す薬である。がん細胞は分裂が速いため最も強く打撃を受けるが、毛髪、腸の内壁、骨髄も同様に影響を受け、そこから副作用が生じる。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "最も古い2つの化学療法薬の系統。アルキル化薬（cyclophosphamide、temozolomide、melphalan）はDNAの鎖を互いに接着させて細胞が複製できないようにし、代謝拮抗薬（5-FU、capecitabine、methotrexate、gemcitabine）は偽の構成材料としてDNA合成を妨げる。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "カペシタビン（Xeloda）は化学療法薬フルオロウラシルの錠剤型である。大腸がん治療の柱であり、進行乳がんでも標準的な選択肢のひとつだ。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "cisplatinやcarboplatinなどのプラチナ製剤は、DNAどうしを架橋して結びつけることで効果を発揮する。精巣がんでは治癒をもたらし、肺がん、卵巣がん、膀胱がん、頭頸部がん、TNBCの治療でも中心的な役割を担う。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "細胞毒性のある抗がん剤は、盛んに分裂している細胞を殺します。精巣がん、リンパ腫、白血病、そして多くの早期がんでは今でも治癒をもたらす治療であり、ADCの中に組み込まれた弾頭の役割も果たしています。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Drogas que travam a enzima que desembaraça o DNA durante a cópia. Fracas sozinhas em muitos cânceres, mas devastadoras quando entregues por um ADC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Medicamentos de quimioterapia originalmente derivados do teixo que congelam o andaime interno da célula (os microtúbulos) para que ela não consiga se dividir. Usados nos cânceres de mama, pulmão, ovário, próstata, estômago e cabeça e pescoço; seu principal efeito colateral duradouro é o dano aos nervos das mãos e dos pés.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Uma família de quimioterápicos vermelhos derivados de uma bactéria do solo que danificam o DNA do câncer. Pilares do tratamento do câncer de mama, linfoma, leucemia e sarcoma, mas enfraquecem o coração de forma dependente da dose, por isso há um limite para toda a vida.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Medicamentos que matam células em divisão rápida ao danificar seu DNA ou a maquinaria da divisão. Como as células cancerosas se dividem depressa, são as mais atingidas, mas o mesmo acontece com o cabelo, o revestimento do intestino e a medula óssea, e é daí que vêm os efeitos colaterais.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "As duas famílias mais antigas de quimioterapia: os alquilantes (cyclophosphamide, temozolomide, melphalan) colam as fitas de DNA umas às outras para que as células não consigam copiá-las; os antimetabólitos (5-FU, capecitabine, methotrexate, gemcitabine) são blocos de construção falsos que travam a síntese de DNA.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "A capecitabina (Xeloda) é a forma em comprimidos da quimioterapia fluorouracilo. É um pilar do tratamento do cancro do intestino e uma opção padrão no cancro da mama avançado.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Cisplatina e carboplatina fazem ligações cruzadas no DNA. Curativas no câncer de testículo e centrais no tratamento de pulmão, ovário, bexiga, cabeça e pescoço e TNBC.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Drogas que matam células em divisão rápida. Ainda curativas em câncer de testículo, linfoma, leucemia e muitos cânceres iniciais, e a ogiva dentro dos ADCs.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "topoisomerase-inhibitors",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "卡住复制时解开DNA的酶的药物。作为游离药在许多癌症中作用弱，但由ADC递送时威力巨大。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "taxane",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "最初来源于红豆杉的化疗药物，通过固定细胞内部支架（微管）使细胞无法分裂。用于乳腺癌、肺癌、卵巢癌、前列腺癌、胃癌以及头颈癌；其主要的持久副作用是手脚的神经损伤。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "anthracycline",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "一类源自土壤细菌的红色化疗药物，能够破坏癌细胞的DNA。它们是乳腺癌、淋巴瘤、白血病和肉瘤治疗的基石，但会以剂量依赖的方式削弱心脏，因此有终生累积剂量上限。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-term",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "通过破坏DNA或分裂机制来杀死快速分裂细胞的药物。由于癌细胞分裂很快，受到的打击最大，但毛发、肠道内壁和骨髓也同样受损，这正是副作用的来源。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "alkylating-agent",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "最古老的两大化疗药物家族：烷化剂（cyclophosphamide、temozolomide、melphalan）把DNA链粘在一起，使细胞无法复制；抗代谢药（5-FU、capecitabine、methotrexate、gemcitabine）是假的构建单元，会卡住DNA合成。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "capecitabine",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "卡培他滨（Xeloda）是化疗药物氟尿嘧啶的片剂形式。它是肠癌治疗的基石，也是晚期乳腺癌的标准选择之一。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "platinum",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "顺铂和卡铂交联DNA。在睾丸癌中可治愈，是肺癌、卵巢癌、膀胱癌、头颈癌和TNBC治疗的核心。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "tubulin",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "构建细胞分离染色体所需微管支架的蛋白。紫杉类冻结支架，长春碱类和eribulin阻止其形成；无论哪种方式，分裂中的细胞都会停滞并死亡。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "cytotoxic-chemotherapy",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "杀灭快速分裂细胞的药物。在睾丸癌、淋巴瘤、白血病和许多早期癌症中仍可治愈，也是ADC内部的弹头。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "simple",
+      "file": "src/data/simple/part-a.ts",
+      "before": "An antibody-drug whose cargo wakes up the immune system inside the tumour instead of poisoning the cell.",
+      "after": "The antibody carries a drug intended to stimulate immune sensing. Delivery, immune activation and useful tumour control each need evidence.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Topoisomerase-I inhibitor payloads are the poisons behind Enhertu, Trodelvy and Dato-DXd, trapping the enzyme that untwists DNA so dividing cancer cells break their own DNA.",
+      "after": "These drug cargoes can trap an enzyme on DNA during a temporary cut. The chemical, exposure and cell response determine what happens next.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "حمولات مثبطات التوبوإيزوميراز I هي فئة الحمولة التي تقف خلف Enhertu وTrodelvy وDato-DXd: سموم تحاصر الإنزيم الذي يفك التواء الحمض النووي DNA، فتكسر الخلايا المنقسمة حمضها النووي بنفسها.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "المترافق المضاد المحفِّز للمناعة (ISAC) هو ADC تعمل حمولته على إيقاظ الجهاز المناعي داخل الورم بدلًا من تسميم الخلية.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Topoisomerase-I-Inhibitor-Payloads sind die Wirkstoffklasse hinter Enhertu, Trodelvy und Dato-DXd: Gifte, die das Enzym, das die DNA entwindet, in seiner Position festhalten, sodass sich teilende Zellen ihre eigene DNA zerbrechen.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Ein immunstimulierendes Antikörperkonjugat (ISAC) ist ein ADC, dessen Wirkstoffanteil das Immunsystem im Tumor aktiviert, statt die Zelle zu vergiften.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Las cargas útiles inhibidoras de la topoisomerasa I son la clase de carga útil detrás de Enhertu, Trodelvy y Dato-DXd: venenos que atrapan la enzima que desenrolla el ADN, de modo que las células en división rompen su propio ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Un ADC cuya carga despierta al sistema inmunitario dentro del tumor en vez de envenenar la célula.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les charges inhibitrices de la topoisomérase I sont la classe de charge utile derrière Enhertu, Trodelvy et Dato-DXd : des poisons qui piègent l'enzyme qui déroule l'ADN, de sorte que les cellules en division cassent leur propre ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Un conjugué anticorps-immunostimulant (ISAC) est un ADC dont la charge utile réveille le système immunitaire à l'intérieur de la tumeur au lieu d'empoisonner la cellule.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "टोपोआइसोमरेज़-I अवरोधक पेलोड वही पेलोड वर्ग हैं जो Enhertu, Trodelvy और Dato-DXd के पीछे है: ये ऐसे विष हैं जो DNA को खोलने वाले एंज़ाइम को फँसा लेते हैं, जिससे विभाजित हो रही कोशिकाएँ अपना ही DNA तोड़ देती हैं।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "एक ADC जिसका पेलोड कोशिका को ज़हर देने के बजाय ट्यूमर के भीतर प्रतिरक्षा तंत्र को जगाता है।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "トポイソメラーゼI阻害薬ペイロードは、Enhertu、Trodelvy、Dato-DXdを支えるペイロードの一群である。DNAのねじれをほどく酵素を捕まえて動けなくする毒であり、分裂中の細胞が自らのDNAを切断してしまう。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "免疫刺激性抗体複合体（ISAC）は、ペイロードが細胞を毒殺するのではなく、腫瘍内部で免疫系を目覚めさせるタイプのADCである。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "As cargas inibidoras de topoisomerase I são a classe de carga por trás de Enhertu, Trodelvy e Dato-DXd: venenos que aprisionam a enzima que desenrola o DNA, fazendo com que as células em divisão quebrem o próprio DNA.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Um ADC cuja carga desperta o sistema imune dentro do tumor em vez de envenenar a célula.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "拓扑异构酶I抑制剂载荷是Enhertu、Trodelvy和Dato-DXd背后的载荷类别：这类毒素会困住负责解开DNA螺旋的酶，使正在分裂的细胞把自己的DNA弄断。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "其载荷在肿瘤内唤醒免疫系统而非毒杀细胞的ADC。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "النظام العلاجي وصفة مسماة من الأدوية والجرعات والتوقيت؛ والدورة جولة واحدة منه، تمتد عادة من أسبوعين إلى أربعة أسابيع، لإتاحة الوقت للأنسجة السليمة كي تتعافى قبل الجولة التالية. وعبارة 'ست دورات من FOLFOX' تعني تكرار تلك الوصفة ست مرات.",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Ein Regime ist ein benanntes Rezept aus Medikamenten, Dosen und Zeitplan; ein Zyklus ist ein Durchlauf davon, meist zwei bis vier Wochen, damit sich normales Gewebe vor dem nächsten erholen kann. „Sechs Zyklen FOLFOX“ bedeutet sechs Wiederholungen dieses Rezepts.",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Un régimen es una receta con nombre de fármacos, dosis y calendario; un ciclo es una vuelta de esa receta, normalmente de dos a cuatro semanas, que da tiempo a los tejidos normales para recuperarse antes de la siguiente. 'Seis ciclos de FOLFOX' significa seis repeticiones de esa receta.",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Un protocole est une recette nommée de médicaments, de doses et de calendrier ; un cycle est un tour de cette recette, généralement de deux à quatre semaines, qui laisse aux tissus normaux le temps de récupérer avant le suivant. « Six cycles de FOLFOX » signifie six répétitions de cette recette.",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "रेजिमेन दवाओं, खुराकों और समय-सारणी का एक नामित नुस्खा है; चक्र उसका एक दौर है, आमतौर पर दो से चार सप्ताह का, जो सामान्य ऊतकों को अगले दौर से पहले उबरने का समय देता है। 'FOLFOX के छह चक्र' का अर्थ है उस नुस्खे की छह पुनरावृत्तियां।",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "レジメンとは、薬剤、用量、投与スケジュールを定めた名前付きの処方であり、サイクルはその1回分で、通常2から4週間であり、次のサイクルまでに正常組織が回復する時間を与える。「FOLFOX 6サイクル」とは、その処方を6回繰り返すことを意味する。",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Um regime é uma receita nomeada de fármacos, doses e cronograma; um ciclo é uma rodada dessa receita, geralmente de duas a quatro semanas, dando aos tecidos normais tempo para se recuperar antes da próxima. 'Seis ciclos de FOLFOX' significa seis repetições dessa receita.",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    },
+    {
+      "group": "root",
+      "id": "chemotherapy-regimen",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "方案是一份有名称的药物、剂量和给药时间的配方；一个周期是这份配方的一轮，通常为两到四周，让正常组织在下一轮之前有时间恢复。“六个周期的FOLFOX”意味着该配方重复六次。",
+      "after": null,
+      "disposition": "Removed the inherited default two-to-four-week cycle claim while revising the canonical definition to require the actual regimen; corrected English fallback, no replacement translation."
+    }
+  ],
+  "longCacheAccepted": 0,
+  "scope": "Actual lazy-loaded short tables and long-cache hash selectors checked. English fallback replaces stale unversioned text; no automatic or named-language approval."
+}

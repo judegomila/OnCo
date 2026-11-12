@@ -1,0 +1,1710 @@
+{
+  "sourceVersions": 40,
+  "sectionSignatures": 454,
+  "headingBlocks": 474,
+  "intakeSourceAnchorOccurrences": 836,
+  "assetVersionEntries": 152,
+  "derivativeRenderReceipts": 28,
+  "rawCaptureChecks": [
+    {
+      "captureName": "PMC2844771.json",
+      "expectedSha256": "ea919a8a156228c9228d199d5694e913f083a35ee8e0379463e2162c73457a12",
+      "exists": true,
+      "actualSha256": "ea919a8a156228c9228d199d5694e913f083a35ee8e0379463e2162c73457a12",
+      "match": true
+    },
+    {
+      "captureName": "PMC3833702.json",
+      "expectedSha256": "c2cac66d71c6dd435f91968c41edde77060446a99475f5e624eb9f1a4a030d7e",
+      "exists": true,
+      "actualSha256": "c2cac66d71c6dd435f91968c41edde77060446a99475f5e624eb9f1a4a030d7e",
+      "match": true
+    },
+    {
+      "captureName": "PMC4383288.json",
+      "expectedSha256": "e37d9c7fee067c7fcc5b6c64e18fd4728f9bb8ea52bbfb4fec39756239598b7a",
+      "exists": true,
+      "actualSha256": "e37d9c7fee067c7fcc5b6c64e18fd4728f9bb8ea52bbfb4fec39756239598b7a",
+      "match": true
+    },
+    {
+      "captureName": "PMC4404308.json",
+      "expectedSha256": "b75ef7abbfcd7e5a7899e0b36f345aa49818a094b54c53b69a7e71409c1f97a6",
+      "exists": true,
+      "actualSha256": "b75ef7abbfcd7e5a7899e0b36f345aa49818a094b54c53b69a7e71409c1f97a6",
+      "match": true
+    },
+    {
+      "captureName": "PMC4442685.json",
+      "expectedSha256": "242b5d664869cbae3d7400e6533dd1dcc9f140be71efb7227e5561057d874369",
+      "exists": true,
+      "actualSha256": "242b5d664869cbae3d7400e6533dd1dcc9f140be71efb7227e5561057d874369",
+      "match": true
+    },
+    {
+      "captureName": "PMC4662681.json",
+      "expectedSha256": "c505e717b323b61792eb50439c084e623c4774056e2f8ff660e461eaf266cf06",
+      "exists": true,
+      "actualSha256": "c505e717b323b61792eb50439c084e623c4774056e2f8ff660e461eaf266cf06",
+      "match": true
+    },
+    {
+      "captureName": "PMC5027494.json",
+      "expectedSha256": "a548970d7f4d25a3a0bb5b439ffdf4c5a51f268e433af8009b09378a4e313887",
+      "exists": true,
+      "actualSha256": "a548970d7f4d25a3a0bb5b439ffdf4c5a51f268e433af8009b09378a4e313887",
+      "match": true
+    },
+    {
+      "captureName": "PMC5461196.json",
+      "expectedSha256": "7eb7eb56cea3fe8ccac0caf885e8408e766be0117bed606a829f9c8670381020",
+      "exists": true,
+      "actualSha256": "7eb7eb56cea3fe8ccac0caf885e8408e766be0117bed606a829f9c8670381020",
+      "match": true
+    },
+    {
+      "captureName": "PMC5720478.json",
+      "expectedSha256": "ab60628bf4ae8ee8f2b46b1b2e55a59844bdc89ef168b909dbf3e1621722ee87",
+      "exists": true,
+      "actualSha256": "ab60628bf4ae8ee8f2b46b1b2e55a59844bdc89ef168b909dbf3e1621722ee87",
+      "match": true
+    },
+    {
+      "captureName": "PMC6456263.json",
+      "expectedSha256": "5403c3064ffa35683e88fadcb5f040251f10e3b0b985d294f3f94bb00f502bb7",
+      "exists": true,
+      "actualSha256": "5403c3064ffa35683e88fadcb5f040251f10e3b0b985d294f3f94bb00f502bb7",
+      "match": true
+    },
+    {
+      "captureName": "PMC6941185.json",
+      "expectedSha256": "ca2985fe7787952a9112d6cba0f31fa4584e0777bb9d3c5cfa9ba3d33ae68c02",
+      "exists": true,
+      "actualSha256": "ca2985fe7787952a9112d6cba0f31fa4584e0777bb9d3c5cfa9ba3d33ae68c02",
+      "match": true
+    },
+    {
+      "captureName": "PMID1542678.json",
+      "expectedSha256": "9cab660af16a2697dbb685a88d65d4f297cb7b0cf7b591a97da2078b553b94bd",
+      "exists": true,
+      "actualSha256": "9cab660af16a2697dbb685a88d65d4f297cb7b0cf7b591a97da2078b553b94bd",
+      "match": true
+    },
+    {
+      "captureName": "PMID16199517.json",
+      "expectedSha256": "1ba69bc810951e34d9880160e431c76da07f61eb8ad2f38e89584ddd09270e91",
+      "exists": true,
+      "actualSha256": "1ba69bc810951e34d9880160e431c76da07f61eb8ad2f38e89584ddd09270e91",
+      "match": true
+    },
+    {
+      "captureName": "PMID19204204.json",
+      "expectedSha256": "3d3b363c400d5d5a4905707303977a8e3736f5f8ae20e21c428c71c42ed340cb",
+      "exists": true,
+      "actualSha256": "3d3b363c400d5d5a4905707303977a8e3736f5f8ae20e21c428c71c42ed340cb",
+      "match": true
+    },
+    {
+      "captureName": "PMID20196867.json",
+      "expectedSha256": "5d01a14824dc6180b82abdd4a4bb760d73a0de60377e245100154a84d8da4e2f",
+      "exists": true,
+      "actualSha256": "5d01a14824dc6180b82abdd4a4bb760d73a0de60377e245100154a84d8da4e2f",
+      "match": true
+    },
+    {
+      "captureName": "PMID20208531.json",
+      "expectedSha256": "cd1dfc6708f9f3c6b69f82f0413714e4d9e63d18a747cce15fbe43558419395e",
+      "exists": true,
+      "actualSha256": "cd1dfc6708f9f3c6b69f82f0413714e4d9e63d18a747cce15fbe43558419395e",
+      "match": true
+    },
+    {
+      "captureName": "PMID21261984.json",
+      "expectedSha256": "7aae53a0a65cc3d3c876376ecbd7a24284550b7c4c5aa53151c1c153f1e55d87",
+      "exists": true,
+      "actualSha256": "7aae53a0a65cc3d3c876376ecbd7a24284550b7c4c5aa53151c1c153f1e55d87",
+      "match": true
+    },
+    {
+      "captureName": "PMID22872506.json",
+      "expectedSha256": "9fd8d379cfd2ea6ea6ca0ed8c91639e135403d2da86b759a2ccb6be7e9c0ae10",
+      "exists": true,
+      "actualSha256": "9fd8d379cfd2ea6ea6ca0ed8c91639e135403d2da86b759a2ccb6be7e9c0ae10",
+      "match": true
+    },
+    {
+      "captureName": "PMID23323831.json",
+      "expectedSha256": "13725388ae1ecb448154c32facf48230b3709fd8b7f282a86c8eba5c2e153075",
+      "exists": true,
+      "actualSha256": "13725388ae1ecb448154c32facf48230b3709fd8b7f282a86c8eba5c2e153075",
+      "match": true
+    },
+    {
+      "captureName": "PMID25150838.json",
+      "expectedSha256": "88b5d73c06171504b725ea117d0563cf10e3a1158861ded405801fade14a4fac",
+      "exists": true,
+      "actualSha256": "88b5d73c06171504b725ea117d0563cf10e3a1158861ded405801fade14a4fac",
+      "match": true
+    },
+    {
+      "captureName": "PMID25384085.json",
+      "expectedSha256": "598c4970d1a1af091d6cda5fe56da883b3a62136340e8a8221d9cff5a79e2e1a",
+      "exists": true,
+      "actualSha256": "598c4970d1a1af091d6cda5fe56da883b3a62136340e8a8221d9cff5a79e2e1a",
+      "match": true
+    },
+    {
+      "captureName": "PMID25516281.json",
+      "expectedSha256": "001ab7b63df327d5e46fee6ab19cf555d6cddddb52f5238a9350f1505ec63428",
+      "exists": true,
+      "actualSha256": "001ab7b63df327d5e46fee6ab19cf555d6cddddb52f5238a9350f1505ec63428",
+      "match": true
+    },
+    {
+      "captureName": "PMID25822800.json",
+      "expectedSha256": "41cf3f04788dd09e3c0ecef716a9e0d87a4d0aafd18dad718f51adb28e4d4a68",
+      "exists": true,
+      "actualSha256": "41cf3f04788dd09e3c0ecef716a9e0d87a4d0aafd18dad718f51adb28e4d4a68",
+      "match": true
+    },
+    {
+      "captureName": "PMID26829591.json",
+      "expectedSha256": "b9b43f907d57f7a161e74eb8ed7faf5e0bf68ba4d1935d36bbd4dace8e5c9dda",
+      "exists": true,
+      "actualSha256": "b9b43f907d57f7a161e74eb8ed7faf5e0bf68ba4d1935d36bbd4dace8e5c9dda",
+      "match": true
+    },
+    {
+      "captureName": "PMID27365449.json",
+      "expectedSha256": "a9c8c2db498df3aa32439565238001ee784651822888c1fac48d42ee56586157",
+      "exists": true,
+      "actualSha256": "a9c8c2db498df3aa32439565238001ee784651822888c1fac48d42ee56586157",
+      "match": true
+    },
+    {
+      "captureName": "PMID28091601.json",
+      "expectedSha256": "e05e8172f0beb093fcc021717b71305db41c16fe77a87473128ff4fe60e535fa",
+      "exists": true,
+      "actualSha256": "e05e8172f0beb093fcc021717b71305db41c16fe77a87473128ff4fe60e535fa",
+      "match": true
+    },
+    {
+      "captureName": "PMID28100584.json",
+      "expectedSha256": "caabaa3af753ede80f4e8166590832f9af00c2ef4642002ed850e41ac4e21727",
+      "exists": true,
+      "actualSha256": "caabaa3af753ede80f4e8166590832f9af00c2ef4642002ed850e41ac4e21727",
+      "match": true
+    },
+    {
+      "captureName": "PMID28218898.json",
+      "expectedSha256": "f6d788f2219d29282b12474c4a00fe7cb8b7ef2fb62545e068fb0a172b5b69c7",
+      "exists": true,
+      "actualSha256": "f6d788f2219d29282b12474c4a00fe7cb8b7ef2fb62545e068fb0a172b5b69c7",
+      "match": true
+    },
+    {
+      "captureName": "PMID29130882.json",
+      "expectedSha256": "6be013ba0391feff19ac373c2450f6b2de535666ecd3e38e43a35d27476f86cd",
+      "exists": true,
+      "actualSha256": "6be013ba0391feff19ac373c2450f6b2de535666ecd3e38e43a35d27476f86cd",
+      "match": true
+    },
+    {
+      "captureName": "PMID29344893.json",
+      "expectedSha256": "4618ae09136a68e00e9ba32a819625520251344890fdc706b06a39bba34eb970",
+      "exists": true,
+      "actualSha256": "4618ae09136a68e00e9ba32a819625520251344890fdc706b06a39bba34eb970",
+      "match": true
+    },
+    {
+      "captureName": "PMID31061481.json",
+      "expectedSha256": "006d37c68b379905e3eec96b6b503833f9a351e45c351f3ce80e7779c63f8550",
+      "exists": true,
+      "actualSha256": "006d37c68b379905e3eec96b6b503833f9a351e45c351f3ce80e7779c63f8550",
+      "match": true
+    },
+    {
+      "captureName": "PMID33367645.json",
+      "expectedSha256": "22c9cf7e0392b74e88e4a6d2c64eccdb9c095d9b30bebd13b4efd6a56b93e3f7",
+      "exists": true,
+      "actualSha256": "22c9cf7e0392b74e88e4a6d2c64eccdb9c095d9b30bebd13b4efd6a56b93e3f7",
+      "match": true
+    },
+    {
+      "captureName": "PMID33495335.json",
+      "expectedSha256": "f8120a54e8a36a366dbeb4fdbde47781dda671072d54a439fd4dd82d7c92ad5a",
+      "exists": true,
+      "actualSha256": "f8120a54e8a36a366dbeb4fdbde47781dda671072d54a439fd4dd82d7c92ad5a",
+      "match": true
+    },
+    {
+      "captureName": "PMID34584091.json",
+      "expectedSha256": "fb6ee0fa569308a694bfa56ff23645da1df418e2111d12900898ead689a980ea",
+      "exists": true,
+      "actualSha256": "fb6ee0fa569308a694bfa56ff23645da1df418e2111d12900898ead689a980ea",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1038_nbt.2702.json",
+      "expectedSha256": "ba48368fe68e1d3561affc5be48d55d6b5de1309d306f84820c4c8d98f1bada8",
+      "exists": true,
+      "actualSha256": "ba48368fe68e1d3561affc5be48d55d6b5de1309d306f84820c4c8d98f1bada8",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1101_gr.8.3.186.json",
+      "expectedSha256": "be7ce91ee4c5a02c417cf67499a370772f5a36c8ec928b7eebc68cae484c8d58",
+      "exists": true,
+      "actualSha256": "be7ce91ee4c5a02c417cf67499a370772f5a36c8ec928b7eebc68cae484c8d58",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1186_s13059-016-0881-8.json",
+      "expectedSha256": "7bcf5fa49d4188f57c15d4b40cc025da0517e2abe09888c4277c92294529b225",
+      "exists": true,
+      "actualSha256": "7bcf5fa49d4188f57c15d4b40cc025da0517e2abe09888c4277c92294529b225",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1371_journal.pcbi.1002240.json",
+      "expectedSha256": "72d15b9a7bce78b71d344273b10e838c9b088344811a640c58eed33b833c35b3",
+      "exists": true,
+      "actualSha256": "72d15b9a7bce78b71d344273b10e838c9b088344811a640c58eed33b833c35b3",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1186_1741-7015-11-220.json",
+      "expectedSha256": "30ad5f29f0c267b30058d698f75ae216f5aef2c7d3bd765562aa600b934f5f74",
+      "exists": true,
+      "actualSha256": "30ad5f29f0c267b30058d698f75ae216f5aef2c7d3bd765562aa600b934f5f74",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1186_s13059-019-1842-9.json",
+      "expectedSha256": "240099af97b44252197fae2c87f3dcfd3432239a186a96fcee6cb09b0339d9e8",
+      "exists": true,
+      "actualSha256": "240099af97b44252197fae2c87f3dcfd3432239a186a96fcee6cb09b0339d9e8",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1371_journal.pone.0209648.json",
+      "expectedSha256": "6e9ce3663d81d39c21a04039bb487083948270831d7b859d43cdfb27a1dfc6f3",
+      "exists": true,
+      "actualSha256": "6e9ce3663d81d39c21a04039bb487083948270831d7b859d43cdfb27a1dfc6f3",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1038_nmeth.2883.json",
+      "expectedSha256": "01b55e6e1d06ff4461598a3408c1b63325c4d1aae9657e60479ddd83ac57c421",
+      "exists": true,
+      "actualSha256": "01b55e6e1d06ff4461598a3408c1b63325c4d1aae9657e60479ddd83ac57c421",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1038_nbt.4060.json",
+      "expectedSha256": "9aaae4b090249763ac6fbfe3ab9ad22f56b8789bfc19de0f6b65b0033b2b459d",
+      "exists": true,
+      "actualSha256": "9aaae4b090249763ac6fbfe3ab9ad22f56b8789bfc19de0f6b65b0033b2b459d",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1038_s41467-017-01062-w.json",
+      "expectedSha256": "be94118a22389ea02b8bcb529190358ac88dd73434a7184df231c4eb98939a7e",
+      "exists": true,
+      "actualSha256": "be94118a22389ea02b8bcb529190358ac88dd73434a7184df231c4eb98939a7e",
+      "match": true
+    },
+    {
+      "captureName": "DOI10.1038_s41588-024-01883-8.json",
+      "expectedSha256": "ff311ba391e43ea12c38c181fe67f1baf1e3a0ca894bb1c359da0c80dfb8508f",
+      "exists": true,
+      "actualSha256": "ff311ba391e43ea12c38c181fe67f1baf1e3a0ca894bb1c359da0c80dfb8508f",
+      "match": true
+    },
+    {
+      "captureName": "PMC5720478.xml",
+      "expectedSha256": "6cd8c59baccd724fdf0eaad02f5fd982159034724f435c33086bd20f587e9506",
+      "exists": true,
+      "actualSha256": "6cd8c59baccd724fdf0eaad02f5fd982159034724f435c33086bd20f587e9506",
+      "match": true
+    },
+    {
+      "captureName": "PMC2844771.xml",
+      "expectedSha256": "99589e0ab6952122c0007e93a057cde3c531fdadd332fb1bfebb66499543e9aa",
+      "exists": true,
+      "actualSha256": "99589e0ab6952122c0007e93a057cde3c531fdadd332fb1bfebb66499543e9aa",
+      "match": true
+    },
+    {
+      "captureName": "PMC5461196.xml",
+      "expectedSha256": "83e41555d086926af994ab0287ad8cb77d04a9584f21f208b4016f784f372cbc",
+      "exists": true,
+      "actualSha256": "83e41555d086926af994ab0287ad8cb77d04a9584f21f208b4016f784f372cbc",
+      "match": true
+    },
+    {
+      "captureName": "PMC11621028.xml",
+      "expectedSha256": "a301a4dc38edb3b856017bb62095c4daee298bb9db0e86bd73fd7b22bdccf87d",
+      "exists": true,
+      "actualSha256": "a301a4dc38edb3b856017bb62095c4daee298bb9db0e86bd73fd7b22bdccf87d",
+      "match": true
+    },
+    {
+      "captureName": "fda.txt",
+      "expectedSha256": "fae4fd437c6a2b7ac7d7998d6ff7f68535354082677dbaecbf27a8b9f7a74b2a",
+      "exists": true,
+      "actualSha256": "fae4fd437c6a2b7ac7d7998d6ff7f68535354082677dbaecbf27a8b9f7a74b2a",
+      "match": true
+    },
+    {
+      "captureName": "cap.txt",
+      "expectedSha256": "7ef57d15593c41290aa7918b57b954316ca369b19700b35557c7c92666c2bb85",
+      "exists": true,
+      "actualSha256": "7ef57d15593c41290aa7918b57b954316ca369b19700b35557c7c92666c2bb85",
+      "match": true
+    },
+    {
+      "captureName": "vcf.txt",
+      "expectedSha256": "d8d7485bb8c3812c2c81ea3fba1a16adfe60ca2408132004d5317119a4f20f9b",
+      "exists": true,
+      "actualSha256": "d8d7485bb8c3812c2c81ea3fba1a16adfe60ca2408132004d5317119a4f20f9b",
+      "match": true
+    },
+    {
+      "captureName": "merino.txt",
+      "expectedSha256": "a9a37ae0807bc0ccbd12a0fd0cb047b634886aa1682a9ee18ac0c7d8869377ae",
+      "exists": true,
+      "actualSha256": "a9a37ae0807bc0ccbd12a0fd0cb047b634886aa1682a9ee18ac0c7d8869377ae",
+      "match": true
+    },
+    {
+      "captureName": "b1f33f3fe8fffcec.raw",
+      "expectedSha256": "f981ec64fd3feb9fdacab10b438c658386ea44860238daecdcd15ea6ffaa0489",
+      "exists": true,
+      "actualSha256": "f981ec64fd3feb9fdacab10b438c658386ea44860238daecdcd15ea6ffaa0489",
+      "match": true
+    },
+    {
+      "captureName": "9a7303703bca5f46.raw",
+      "expectedSha256": "f093832ca2521a2455c601288b78dfaccc48c8ef8e0fa701ff278e9b1787dc98",
+      "exists": true,
+      "actualSha256": "f093832ca2521a2455c601288b78dfaccc48c8ef8e0fa701ff278e9b1787dc98",
+      "match": true
+    },
+    {
+      "captureName": "1069abd360394a57.raw",
+      "expectedSha256": "2738a8a25edceb6b2d0ab786c9c2d97b311d35ad0f8d6c4b1f93704f46045cae",
+      "exists": true,
+      "actualSha256": "2738a8a25edceb6b2d0ab786c9c2d97b311d35ad0f8d6c4b1f93704f46045cae",
+      "match": true
+    },
+    {
+      "captureName": "8a86f338ddabcc32.raw",
+      "expectedSha256": "58fbb9fe366b024b678473dc63ae7f7fa964f7e9409763fe5cafb3403e00c249",
+      "exists": true,
+      "actualSha256": "58fbb9fe366b024b678473dc63ae7f7fa964f7e9409763fe5cafb3403e00c249",
+      "match": true
+    },
+    {
+      "captureName": "cc3cd44279a40774.raw",
+      "expectedSha256": "7a1f6990dbfca4a20d9b6f21a4cb0bcbfd876853bfc86a832af2de6153abffa5",
+      "exists": true,
+      "actualSha256": "7a1f6990dbfca4a20d9b6f21a4cb0bcbfd876853bfc86a832af2de6153abffa5",
+      "match": true
+    },
+    {
+      "captureName": "4dc41eade31e8de0.raw",
+      "expectedSha256": "4346ad291f8ddf217c2f94c819700afc9d9ac62e17c8d369aa3f5c5ddb4ae50d",
+      "exists": true,
+      "actualSha256": "4346ad291f8ddf217c2f94c819700afc9d9ac62e17c8d369aa3f5c5ddb4ae50d",
+      "match": true
+    },
+    {
+      "captureName": "b44f0ed7e613c536.raw",
+      "expectedSha256": "94242a3c3c764cd0d94bab48054bffe0d38302948d992a49b8f6d6c116eb6e3a",
+      "exists": true,
+      "actualSha256": "94242a3c3c764cd0d94bab48054bffe0d38302948d992a49b8f6d6c116eb6e3a",
+      "match": true
+    },
+    {
+      "captureName": "3733d482d6004237.raw",
+      "expectedSha256": "29d074199bb50284b322f8c9ba348115e3419aa311249418fdf75fe1ebfabc39",
+      "exists": true,
+      "actualSha256": "29d074199bb50284b322f8c9ba348115e3419aa311249418fdf75fe1ebfabc39",
+      "match": true
+    },
+    {
+      "captureName": "759b0b7b34d344f2.raw",
+      "expectedSha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28",
+      "exists": true,
+      "actualSha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28",
+      "match": true
+    },
+    {
+      "captureName": "76acdf5f977f3511.raw",
+      "expectedSha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28",
+      "exists": true,
+      "actualSha256": "16642440474dfc4892935c36dfff8a3deed2bba4749a4427d4f6a2559bd83e28",
+      "match": true
+    },
+    {
+      "captureName": "65bba90eed21fb5d.raw",
+      "expectedSha256": "7ad2b337be978c9dced547883007342c62d64acadbbfcbfe5f818fc12cd274aa",
+      "exists": true,
+      "actualSha256": "7ad2b337be978c9dced547883007342c62d64acadbbfcbfe5f818fc12cd274aa",
+      "match": true
+    },
+    {
+      "captureName": "954fb158e823ebb5.raw",
+      "expectedSha256": "f8afeaef5daf945f9f8a7c3ec32576ccb30dbb64e572658da1c88c3700575d33",
+      "exists": true,
+      "actualSha256": "f8afeaef5daf945f9f8a7c3ec32576ccb30dbb64e572658da1c88c3700575d33",
+      "match": true
+    },
+    {
+      "captureName": "8f843ff6d73ac9e2.raw",
+      "expectedSha256": "fe5b4b0b3c1cd3c3f42154e9c34ba1c7286e500829c9469d87d7a62e7ab0bbd5",
+      "exists": true,
+      "actualSha256": "fe5b4b0b3c1cd3c3f42154e9c34ba1c7286e500829c9469d87d7a62e7ab0bbd5",
+      "match": true
+    },
+    {
+      "captureName": "e15d4449d9408e69.raw",
+      "expectedSha256": "893b3d719ba726edbd072b965f18bdde634228483231045a22089b1e95d1b0af",
+      "exists": true,
+      "actualSha256": "893b3d719ba726edbd072b965f18bdde634228483231045a22089b1e95d1b0af",
+      "match": true
+    },
+    {
+      "captureName": "2d294e53c70000dd.raw",
+      "expectedSha256": "b997a8e13908f7e355fcb6aeedf17e82e356e4aa2dc2a222508492e9894a8799",
+      "exists": true,
+      "actualSha256": "b997a8e13908f7e355fcb6aeedf17e82e356e4aa2dc2a222508492e9894a8799",
+      "match": true
+    },
+    {
+      "captureName": "3f42139612d91662.raw",
+      "expectedSha256": "f58d746de6bb7a446de7c5a49a0bf48861258ffe7ea8f25f7f8d31efaaf90dcf",
+      "exists": true,
+      "actualSha256": "f58d746de6bb7a446de7c5a49a0bf48861258ffe7ea8f25f7f8d31efaaf90dcf",
+      "match": true
+    },
+    {
+      "captureName": "4eaeed344a71dc78.raw",
+      "expectedSha256": "211a619c5544beb9ef8d2e80d03d45474f9b23a7e845e8892f777de58cedad5b",
+      "exists": true,
+      "actualSha256": "211a619c5544beb9ef8d2e80d03d45474f9b23a7e845e8892f777de58cedad5b",
+      "match": true
+    },
+    {
+      "captureName": "PMC5895181-bioc.xml",
+      "expectedSha256": "846847f49524bff6ea59a3f7566a0b27dab2ffa384f45ef232893c3d1750bd73",
+      "exists": true,
+      "actualSha256": "846847f49524bff6ea59a3f7566a0b27dab2ffa384f45ef232893c3d1750bd73",
+      "match": true
+    },
+    {
+      "captureName": "2b1c492d40e18b01.raw",
+      "expectedSha256": "2208b4033f11d2cc333984cee9bd0471683792893360c2453b601de5f2c9a6e8",
+      "exists": true,
+      "actualSha256": "2208b4033f11d2cc333984cee9bd0471683792893360c2453b601de5f2c9a6e8",
+      "match": true
+    },
+    {
+      "captureName": "2cfca3558e4689c2.raw",
+      "expectedSha256": "e395c6e1395a08a48d4dfbaef851d87bbe49081bc5354c40e7bd8a855a1646f6",
+      "exists": true,
+      "actualSha256": "e395c6e1395a08a48d4dfbaef851d87bbe49081bc5354c40e7bd8a855a1646f6",
+      "match": true
+    },
+    {
+      "captureName": "ac135e8cd7a00f8e.raw",
+      "expectedSha256": "96ac492e0336b5a6bd8d1e5a6555d7a9c64c719df655eb240d011c77e0e37d47",
+      "exists": true,
+      "actualSha256": "96ac492e0336b5a6bd8d1e5a6555d7a9c64c719df655eb240d011c77e0e37d47",
+      "match": true
+    },
+    {
+      "captureName": "70a23babebe9d3c4.raw",
+      "expectedSha256": "fe8609420f5d6d08e18e22dbf5d88dee5ae34fa7cce42e93eed177452a15f3ff",
+      "exists": true,
+      "actualSha256": "fe8609420f5d6d08e18e22dbf5d88dee5ae34fa7cce42e93eed177452a15f3ff",
+      "match": true
+    },
+    {
+      "captureName": "13069a0f2fc2c542.raw",
+      "expectedSha256": "a5260d14912669e17d3cd025e9492bdd3c581e214fa3c586e890f1c7b83d95ff",
+      "exists": true,
+      "actualSha256": "a5260d14912669e17d3cd025e9492bdd3c581e214fa3c586e890f1c7b83d95ff",
+      "match": true
+    },
+    {
+      "captureName": "8c63061e1c8ec76b.raw",
+      "expectedSha256": "3b9279ef772ab6542744cc30d5054fdefd244b968b8d78ab7af2d3f025004022",
+      "exists": true,
+      "actualSha256": "3b9279ef772ab6542744cc30d5054fdefd244b968b8d78ab7af2d3f025004022",
+      "match": true
+    },
+    {
+      "captureName": "1569f31b9e32d3a3.raw",
+      "expectedSha256": "e33f33f569be0337f22d8dfb6526791648133d7c6785090c6f8d08c9c3f1c8e5",
+      "exists": true,
+      "actualSha256": "e33f33f569be0337f22d8dfb6526791648133d7c6785090c6f8d08c9c3f1c8e5",
+      "match": true
+    },
+    {
+      "captureName": "7e29c5838c811279.raw",
+      "expectedSha256": "6ac2514917f7e85eb9e7e31ad2f05b1069ac0fbd6bc5fda68dc45f3afa991894",
+      "exists": true,
+      "actualSha256": "6ac2514917f7e85eb9e7e31ad2f05b1069ac0fbd6bc5fda68dc45f3afa991894",
+      "match": true
+    },
+    {
+      "captureName": "merino-identity.json",
+      "expectedSha256": "d2ccad719eaa46941bcc9876c0ea3049e1dae30cfcc1a17fbc248da73463724c",
+      "exists": true,
+      "actualSha256": "d2ccad719eaa46941bcc9876c0ea3049e1dae30cfcc1a17fbc248da73463724c",
+      "match": true
+    }
+  ],
+  "arithmetic": {
+    "TMB_24_over_2": true,
+    "TMB_24_over_1": true,
+    "breadth_900_of_1000": true,
+    "Q20": true,
+    "Q30": true,
+    "VAF_diploid": true,
+    "VAF_one_tumour_copy": true,
+    "DNA_contribution_p05_P4": true,
+    "VAF_alternative_fits": true,
+    "methylation_8_of_10": true,
+    "immune_denominators": true,
+    "mean_rank": true,
+    "crossed_cells_total": true,
+    "TPM_length_rates": true
+  },
+  "identityCrossrefCheck": [
+    {
+      "sourceId": "PMC2844771",
+      "doi": "10.1038/nature08250",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "01.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMC3833702",
+      "doi": "10.1038/nbt.2514",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "02.json",
+      "captureSha256": "110ef475328fae6fbf6e21eeadc12b06e920612916ce2db60533447b2f8c1fea",
+      "returnedTitle": "Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples",
+      "expectedTitle": "Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Cibulskis",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              2,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              2,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMC4383288",
+      "doi": "10.1038/nbt.2203",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "03.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMC4404308",
+      "doi": "10.1038/nbt.2931",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "04.json",
+      "captureSha256": "210592f285a7fc1ac04398364ccaa1a1e206d1992ab58f4f07b4786b5c69073a",
+      "returnedTitle": "Normalization of RNA-seq data using factor analysis of control genes or samples",
+      "expectedTitle": "Normalization of RNA-seq data using factor analysis of control genes or samples.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Risso",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMC4442685",
+      "doi": "10.1126/scitranslmed.aaa7161",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "05.json",
+      "captureSha256": "fbb7653b490a3e303db0f0291ef8b778678d0041beeef60319e4745710ebd375",
+      "returnedTitle": "Personalized genomic analyses for cancer mutation discovery and interpretation",
+      "expectedTitle": "Personalized genomic analyses for cancer mutation discovery and interpretation.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Jones",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              15
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              15
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMC4662681",
+      "doi": "10.1126/science.aaa6090",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "06.json",
+      "captureSha256": "700b8eac3d249b80cce56da415eacec639399c9be92ba69446758cfcae2054a5",
+      "returnedTitle": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+      "expectedTitle": "RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells.",
+      "titleMatches": false,
+      "returnedFirstAuthor": "Chen",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              4,
+              24
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMC5027494",
+      "doi": "10.1093/nar/gkw520",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "07.json",
+      "captureSha256": "ee84da4b772a736faecac46d73c31992cc80ac071748837edcf14e2af4ea1801",
+      "returnedTitle": "FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing",
+      "expectedTitle": "FACETS: allele-specific copy number and clonal heterogeneity analysis tool for high-throughput DNA sequencing.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Shen",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              7
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              19
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              7
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMC5461196",
+      "doi": "10.1038/nm.4333",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "08.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMC5720478",
+      "doi": "10.1016/j.cell.2017.10.001",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "09.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMC6456263",
+      "doi": "10.1038/gim.2017.192",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "10.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMC6941185",
+      "doi": "10.1016/j.jmoldx.2017.01.011",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "11.json",
+      "captureSha256": "a68ee22a942d7cdac785f18079782ce049c6be67b978e5f555ec30d286a35797",
+      "returnedTitle": "Guidelines for Validation of Next-Generation Sequencing–Based Oncology Panels",
+      "expectedTitle": "Guidelines for Validation of Next-Generation Sequencing-Based Oncology Panels: A Joint Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists.",
+      "titleMatches": false,
+      "returnedFirstAuthor": "Jennings",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              5
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID1542678",
+      "doi": "10.1073/pnas.89.5.1827",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "12.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID16199517",
+      "doi": "10.1073/pnas.0506580102",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "13.json",
+      "captureSha256": "9dfbc5d54fd6a3b08d0fc31deaa82e1a6edfb0acd43765a59042a386afbdbebe",
+      "returnedTitle": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+      "expectedTitle": "Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Subramanian",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2005,
+              9,
+              30
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2005,
+              10,
+              25
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2005,
+              9,
+              30
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID19204204",
+      "doi": "10.1200/jco.2008.18.1370",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "14.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID20196867",
+      "doi": "10.1186/gb-2010-11-3-r25",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "15.json",
+      "captureSha256": "53bef589a4bef72e25f44224b55585fd132077a53fbd117dedf325c6720af455",
+      "returnedTitle": "A scaling normalization method for differential expression analysis of RNA-seq data",
+      "expectedTitle": "A scaling normalization method for differential expression analysis of RNA-seq data.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Robinson",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              3,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              3,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID20208531",
+      "doi": "10.1038/nmeth.1439",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "16.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID21261984",
+      "doi": "10.1186/1755-8794-4-11",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "17.json",
+      "captureSha256": "40b7192a31caa61bed9910a877fcfec273c3910251310ee2f2f5468a0b552bb5",
+      "returnedTitle": "Deep RNA sequencing analysis of readthrough gene fusions in human prostate adenocarcinoma and reference samples",
+      "expectedTitle": "Deep RNA sequencing analysis of readthrough gene fusions in human prostate adenocarcinoma and reference samples.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Nacu",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              1,
+              24
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID22872506",
+      "doi": "10.1007/s12064-012-0162-3",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "18.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID23323831",
+      "doi": "10.1186/1471-2105-14-7",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "19.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID25150838",
+      "doi": "10.1038/nbt.2957",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "20.json",
+      "captureSha256": "67fd3a64fc755c6614f29dbcc7dada42434d88566f1938be55f48a674f75b864",
+      "returnedTitle": "A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium",
+      "expectedTitle": "A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium.",
+      "titleMatches": true,
+      "returnedFirstAuthor": null,
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              9
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              24
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID25384085",
+      "doi": "10.1038/nm.3729",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "21.json",
+      "captureSha256": "2404a1e11705e27a9d26c2b485f3a5d3537eccf5f745d39aff9e873f065d4285",
+      "returnedTitle": "Anchored multiplex PCR for targeted next-generation sequencing",
+      "expectedTitle": "Anchored multiplex PCR for targeted next-generation sequencing.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Zheng",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              11,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID25516281",
+      "doi": "10.1186/s13059-014-0550-8",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "22.json",
+      "captureSha256": "1a0fc2200f7308657a315ec95b730b418cba9d5fc930946a4b0ccd7a838b1668",
+      "returnedTitle": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+      "expectedTitle": "Moderated estimation of fold change and  dispersion for RNA-seq data with DESeq2.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Love",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID25822800",
+      "doi": "10.1038/nmeth.3337",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "23.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID26829591",
+      "doi": "10.7554/elife.11752",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "24.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID27365449",
+      "doi": "10.1126/science.aaf2403",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "25.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID28091601",
+      "doi": "10.1038/ncomms14049",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "26.json",
+      "captureSha256": "077264a403efbed66403d592ef8892db51f958eaffea7d7e7bc8b75d4b656c12",
+      "returnedTitle": "Massively parallel digital transcriptional profiling of single cells",
+      "expectedTitle": "Massively parallel digital transcriptional profiling of single cells.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Zheng",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              16
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID28100584",
+      "doi": "10.1101/gr.209601.116",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "27.json",
+      "captureSha256": "639d8631d363f9802fcce0a01f9dd81cb74fc81904de5293047810cba93366a7",
+      "returnedTitle": "UMI-tools: modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy",
+      "expectedTitle": "UMI-tools: modeling sequencing errors in Unique Molecular Identifiers to improve quantification accuracy.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Smith",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              18
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              18
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID28218898",
+      "doi": "10.1038/nmeth.4184",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "28.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID29130882",
+      "doi": "10.7554/elife.26476",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "29.json",
+      "captureSha256": "c6950e31c87195c17de0597b4ed65f0f56d322e355e3b07286ffd121f333f1ee",
+      "returnedTitle": "Simultaneous enumeration of cancer and immune cell types from bulk tumor gene expression data",
+      "expectedTitle": "Simultaneous enumeration of cancer and immune cell types from bulk tumor gene expression data.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Racle",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              13
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              13
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID29344893",
+      "doi": "10.1007/978-1-4939-7493-1_12",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "30.json",
+      "captureSha256": "f4e7f669a370793dd178c90cd6a34a024178741705285ed788b2189c4aabf278",
+      "returnedTitle": "Profiling Tumor Infiltrating Immune Cells with CIBERSORT",
+      "expectedTitle": "Profiling Tumor Infiltrating Immune Cells with CIBERSORT.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Chen",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              18
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID31061481",
+      "doi": "10.1038/s41587-019-0114-2",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "31.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID33367645",
+      "doi": "10.1093/gigascience/giaa151",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "32.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "PMID33495335",
+      "doi": "10.1073/pnas.2019768118",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "33.json",
+      "captureSha256": "9afc17450f1db0263e2d8905852018fc1c64c4088000de2f772f2f0a53d98282",
+      "returnedTitle": "Genome-wide detection of cytosine methylation by single molecule real-time sequencing",
+      "expectedTitle": "Genome-wide detection of cytosine methylation by single molecule real-time sequencing.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Tse",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              25
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              2
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              1,
+              25
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "PMID34584091",
+      "doi": "10.1038/s41467-021-25960-2",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "34.json",
+      "captureSha256": "5023a8f4c051c0d0570b3dfd1dc36cea631f519afffdaaba550b79ae3f6fe359",
+      "returnedTitle": "Confronting false discoveries in single-cell differential expression",
+      "expectedTitle": "Confronting false discoveries in single-cell differential expression.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Squair",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              28
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              28
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1038/nbt.2702",
+      "doi": "10.1038/nbt.2702",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "35.json",
+      "captureSha256": "1c2ca3a12015ba2be2eb3f9e92e7ae08556f0efd30c7ec6e1742a8eda455863e",
+      "returnedTitle": "Reproducibility of high-throughput mRNA and small RNA sequencing across laboratories",
+      "expectedTitle": "Reproducibility of high-throughput mRNA and small RNA sequencing across laboratories.",
+      "titleMatches": true,
+      "returnedFirstAuthor": null,
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              11
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              11,
+              1
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1101/gr.8.3.186",
+      "doi": "10.1101/gr.8.3.186",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "36.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "DOI10.1186/s13059-016-0881-8",
+      "doi": "10.1186/s13059-016-0881-8",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "37.json",
+      "captureSha256": "3fc4fd36ce4c4eac31bb89312eb7068f8a2b7bc637c948d73e8fd36d67cad6b9",
+      "returnedTitle": "A survey of best practices for RNA-seq data analysis",
+      "expectedTitle": "A survey of best practices for RNA-seq data analysis.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Conesa",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              26
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              26
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1371/journal.pcbi.1002240",
+      "doi": "10.1371/journal.pcbi.1002240",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "38.json",
+      "captureSha256": "b2c0a4f327c6f949038d09aef2f0323d4f5494823c6e0d729692b02882694489",
+      "returnedTitle": "Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome",
+      "expectedTitle": "Most random gene expression signatures are significantly associated with breast cancer outcome.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Venet",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              20
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1186/1741-7015-11-220",
+      "doi": "10.1186/1741-7015-11-220",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "39.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "DOI10.1186/s13059-019-1842-9",
+      "doi": "10.1186/s13059-019-1842-9",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "40.json",
+      "captureSha256": "f490bc42f24efc24cd01422a3358e5bb26f426cc71a3700a5c9a57aa877ff07c",
+      "returnedTitle": "Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods",
+      "expectedTitle": "Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Haas",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              21
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              12
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              21
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1371/journal.pone.0209648",
+      "doi": "10.1371/journal.pone.0209648",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "41.json",
+      "captureSha256": "71e6042bca298a5ac889aacbd88da0b8074e22b3a25239380ae2316e0b8a42bc",
+      "returnedTitle": "Single-nucleus and single-cell transcriptomes compared in matched cortical cell types",
+      "expectedTitle": "Single-nucleus and single-cell transcriptomes compared in matched cortical cell types.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Bakken",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              26
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              26
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1038/nmeth.2883",
+      "doi": "10.1038/nmeth.2883",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "42.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "DOI10.1038/nbt.4060",
+      "doi": "10.1038/nbt.4060",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "43.json",
+      "captureSha256": "1b6f535651270bc696f78aac8838c145ab1feeda9708bbdcc5e27f086a6470f9",
+      "returnedTitle": "Nanopore sequencing and assembly of a human genome with ultra-long reads",
+      "expectedTitle": "Nanopore sequencing and assembly of a human genome with ultra-long reads.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Jain",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              29
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              29
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "DOI10.1038/s41467-017-01062-w",
+      "doi": "10.1038/s41467-017-01062-w",
+      "httpStatus": "429",
+      "exit": 0,
+      "file": "44.json",
+      "captureSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourceId": "DOI10.1038/s41588-024-01883-8",
+      "doi": "10.1038/s41588-024-01883-8",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "45.json",
+      "captureSha256": "bd43269f3b536d9af4df7eb3083d65fe11d9176c572b2fde538f60cb19d8f5ad",
+      "returnedTitle": "MHC Hammer reveals genetic and non-genetic HLA disruption in cancer evolution",
+      "expectedTitle": "MHC Hammer reveals genetic and non-genetic HLA disruption in cancer evolution.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Puttick",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2024,
+              10
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              2
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sourceId": "merino-harmonization",
+      "doi": "10.1136/jitc-2019-000147",
+      "httpStatus": "200",
+      "exit": 0,
+      "file": "46.json",
+      "captureSha256": "dfd15c7338c647b1df96fc5b14c2044e4538257ccd2d3cfe8bdf59caba7b229c",
+      "returnedTitle": "Establishing guidelines to harmonize tumor mutational burden (TMB): in silico assessment of variation in TMB quantification across diagnostic platforms: phase I of the Friends of Cancer Research TMB Harmonization Project",
+      "expectedTitle": "Establishing guidelines to harmonize tumor mutational burden (TMB): in silico assessment of variation in TMB quantification across diagnostic platforms: phase I of the Friends of Cancer Research TMB Harmonization Project.",
+      "titleMatches": true,
+      "returnedFirstAuthor": "Merino",
+      "dates": {
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              3
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              26
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "corrections": [
+    "Selected HLA validation regions do not establish typical all-loci loss frequency.",
+    "HLA-A, HLA-B and HLA-C locations verified at HGNC, replacing the source’s coarse shared cytoband wording.",
+    "Current FDA TMB criterion is 13 with traditional approval; historical study and accelerated-approval thresholds are retained as history.",
+    "Seurat module-score implementation is named rather than defining every module score."
+  ],
+  "schemaDisposition": "Existing notes arrays carry assay cards and fictional exercises. No schema or product consumer change required."
+}

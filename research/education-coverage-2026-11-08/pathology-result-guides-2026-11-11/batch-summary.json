@@ -1,0 +1,45 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Implemented in the unmerged audit draft at stated source depth. Broader audit remains active; linked erratum bodies remain unread.",
+  "dataCommit": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "sourceVersions": 10,
+  "sectionSignatures": 102,
+  "uniqueRows": 86,
+  "countsByVersion": {
+    "original": {
+      "pages": 5,
+      "sections": 51,
+      "allRows": 85,
+      "substantive": 75,
+      "representedAtStatedScope": 75,
+      "recapAndScopeMetadata": 10
+    },
+    "later": {
+      "pages": 5,
+      "sections": 51,
+      "allRows": 86,
+      "substantive": 76,
+      "representedAtStatedScope": 76,
+      "recapAndScopeMetadata": 10
+    }
+  },
+  "changedCanonicalOwners": 5,
+  "newCanonicalIds": 0,
+  "connectedNotesAdded": 12,
+  "exactFieldReferences": 133,
+  "priorProofRebases": 76,
+  "completeParagraphChecks": 184,
+  "embeddedDiagramInstances": 10,
+  "distinctDiagramCodes": 5,
+  "diagramThemeRendersViewed": 10,
+  "standaloneThemeRendersViewed": 2,
+  "nativeJSONBodiesReadInFull": 2,
+  "assetPathsAssessed": 4,
+  "paperAbstractsRead": 16,
+  "wholeOriginalPapersRead": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

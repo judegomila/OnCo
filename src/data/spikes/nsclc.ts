@@ -9,7 +9,7 @@ const asOf = "2026-09-06";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 
-type T = Omit<TrialInput, "kind" | "asOf">;
+type T = Omit<TrialInput, "kind" | "asOf"> & { asOf?: TrialInput["asOf"] };
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
 type D = Omit<DrugInput, "kind" | "asOf">;
 const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
@@ -34,12 +34,13 @@ const trials: TrialInput[] = [
     summary: "ALINA, trial NCT03456076 sponsored by Roche and reported in 2023, showed that two years of the ALK inhibitor alectinib after surgery, instead of platinum chemotherapy, sharply reduces recurrence in resected stage IB to IIIA ALK-positive non-small-cell lung cancer, including recurrence in the brain. It enrolled 257 patients, met its primary disease-free survival endpoint in stage II to IIIA disease with a large reduction in the risk of recurrence, also reduced central nervous system recurrence, and led to FDA approval in April 2024. OnCo links it to ALK as a target, to alectinib and to ADAURA, whose adjuvant osimertinib template it follows for a second oncogene. Overall survival data are immature, so whether delaying recurrence translates into more cures is the open question. Alectinib has its own page.",
     result: "DFS HR 0.24.",
     drugs: ["alectinib"], targets: ["alk"], cancers: ["nsclc", "alk-positive-nsclc", "resectable-nsclc"], trials: ["adaura"], links: [ct("NCT03456076")] }),
-  t({ id: "pacific", name: "PACIFIC", nct: "NCT02125461", phase: "3", status: "positive", yearReported: 2017, sponsor: "AstraZeneca",
+  t({
+    asOf:"2026-11-09", id: "pacific", name: "PACIFIC", nct: "NCT02125461", phase: "3", status: "positive", yearReported: 2017, sponsor: "AstraZeneca",
     setting: "Unresectable stage III NSCLC without progression after chemoradiation: durvalumab 1 year vs placebo",
-    tldr: "Made a year of immunotherapy after chemoradiation the standard for stage III lung cancer, with a survival benefit that held at five years.",
-    summary: "PACIFIC, trial NCT02125461 sponsored by AstraZeneca and reported in 2017, made a year of durvalumab after chemoradiation the standard for unresectable stage III non-small-cell lung cancer. It randomised 713 patients without progression after chemoradiation to durvalumab or placebo, met its primary progression-free survival endpoint by blinded review, and went on to show an overall survival benefit that held at five years, establishing consolidation immunotherapy as a concept. Its findings were reproduced in the real-world PACIFIC-R cohort and by GEMSTONE-301 with sugemalimab, and OnCo links it to Scott J. Antonia and to the chemoradiation and consolidation therapy terms. The benefit was weaker in EGFR-mutant disease, where LAURA now applies, and whether shorter or biomarker-guided consolidation could match a full year is the open question. Durvalumab has its own page.",
-    result: "OS HR 0.68; 5-year OS 42.9% vs 33.4%.",
-    drugs: ["durvalumab"], cancers: ["nsclc", "stage-iii-unresectable-nsclc"], technologies: ["imrt-igrt", "checkpoint-inhibitor"], links: [ct("NCT02125461")], people: ["scott-antonia"] }),
+    tldr: "PACIFIC tested durvalumab after concurrent chemoradiotherapy in unresectable stage III lung cancer without progression. Its survival results belong to that selected setting and treatment sequence.",
+    summary: "PACIFIC randomised 713 patients with unresectable stage III non-small-cell lung cancer and no progression after concurrent chemoradiotherapy to durvalumab or placebo. This was consolidation after the combined treatment, rather than a trial adding local ablation to ongoing systemic therapy for metastatic disease.\n\nThe 2022 five-year update, at data cutoff 11 January 2021, reported estimated five-year overall survival of 42.9 versus 33.4 percent and progression-free survival of 33.1 versus 19.0 percent. Updated hazard ratios were 0.72 and 0.55 respectively. These dated analyses are distinct from the earlier primary estimates. Survival landmarks do not prove cure for a particular person or isolate an immune mechanism of radiation.",
+    result: "Primary and updated analyses remain separate: the 2022 update reports overall-survival hazard ratio 0.72 and estimated five-year survival 42.9 versus 33.4 percent in the selected post-chemoradiotherapy population.",
+    drugs: ["durvalumab"], cancers: ["nsclc", "stage-iii-unresectable-nsclc"], technologies: ["imrt-igrt", "checkpoint-inhibitor"], links: [{"label":"ClinicalTrials.gov NCT02125461","url":"https://clinicaltrials.gov/study/NCT02125461"},{"label":"PACIFIC five-year update, 2022","url":"https://pubmed.ncbi.nlm.nih.gov/35108059/"}], people: ["scott-antonia"] }),
   t({ id: "laura", technologies: ["kinase-inhibitors"], name: "LAURA", nct: "NCT03521154", phase: "3", status: "positive", yearReported: 2024, sponsor: "AstraZeneca",
     setting: "Unresectable stage III EGFR-mutant NSCLC after chemoradiation: osimertinib until progression vs placebo",
     tldr: "For stage III lung cancers with an EGFR mutation, a targeted pill after chemoradiation cut progression by more than 80%.",

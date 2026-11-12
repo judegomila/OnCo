@@ -1,0 +1,51 @@
+{
+  "assignedTeachingUnitsWithoutRepresentation": 0,
+  "sourceLimits": [
+    "NIH Assay Guidance Manual NBK144065: challenge/access page; full chapter not read. Official Promega ATP technical bulletin and Hafner supply the adopted interpretation.",
+    "Janeway NBK27163: access/challenge page; no full chapter credit. Macdonald primary raw abstract supports the bounded HLA allorecognition mechanism.",
+    "Voabil full article not read here: resident T-cell reactivation/clinical-response association restricted to verified raw abstract.",
+    "Yang 2026 humanized immune-stroma PDX restricted to abstract; no general conventional-PDX immune claim.",
+    "Fraser protocol full-article scope remains as recorded previously; mitochondrial/BAX/BAK and peptide interpretation supported by accessible Ryan/Butterworth targeted text."
+  ],
+  "inheritedClauseDispositionsBeforeCoordinatorSourceAdditions": [
+    {
+      "unit": "IND-104",
+      "clause": "Cryopreservation distinctions not adopted without a method-specific viable recovery source. Preparation and viability checks replace the unsupported general promise."
+    },
+    {
+      "unit": "IND-118",
+      "clause": "NBK144065 full chapter access failed; ATP interpretation supplied by the accessible official Promega technical bulletin and Hafner. No claim of reading the blocked chapter."
+    },
+    {
+      "unit": "IND-141",
+      "clause": "No universal fast/cheap claim: computation cost and task vary. Prediction is distinguished from measurement; Ahlmann-Eltze result is scoped to its benchmark."
+    },
+    {
+      "unit": "IND-226",
+      "clause": "No universal number of drugs or universal ability to freeze/retest. Expansion, passage and finite-tissue constraints stated by model; recovery after freezing requires separate evidence."
+    },
+    {
+      "unit": "IND-240",
+      "clause": "Take varies by tumour type; named Izumchenko series supplies 85% CRC versus 30% breast. No universal aggression-to-engraftment law adopted."
+    }
+  ],
+  "newEvidence": "Restivo and Dijkstra add method-specific recovery/banking evidence; no universal freezing, throughput or clinical benefit claim.",
+  "literalClaimsWithheld": [
+    "Universal freeze-and-retest capability for organoids, fresh/snap/viably-frozen equivalence, universal throughput ranking.",
+    "A universal seven-to-fourteen-day observed slice turnaround; Ladan states planned window.",
+    "Only the ex-vivo branch measures human tissue; human tumour cells can also be in mouse grafts or dishes.",
+    "An unseen Guide figure as evidence; self-contained distinctions now replace dangling references.",
+    "Withdrawn 17-of-22 Ladan statement and withdrawn Jenkins-stromal objection are not reinstated."
+  ],
+  "retainedMetadataSourceWork": [
+    "functional-model-legacy-target-context"
+  ],
+  "guideArtwork": "Cosmetic collisions remain in Guide; OnCo does not adopt those assets.",
+  "publication": [
+    "No new Next production page build",
+    "No deployed-page or full-site hydration certification",
+    "No expert or new named-language sign-off",
+    "No main merge or deployment"
+  ],
+  "next": "Continue study/prediction, tissue/pathology, blood/immune and toxicity acceptance, remaining ordinary curriculum, assets, adjacent source work and final re-audits."
+}

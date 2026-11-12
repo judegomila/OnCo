@@ -1,0 +1,1815 @@
+{
+  "publications": [
+    {
+      "pmid": "10564271",
+      "doi": "10.1091/mbc.10.11.3787",
+      "title": "Mammalian transcription factor ATF6 is synthesized as a transmembrane protein and activated by proteolysis in response to endoplasmic reticulum stress.",
+      "authors": "Haze K, Yoshida H, Yanagi H, Yura T, Mori K.",
+      "year": "1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10564271/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-branches",
+        "er-stress-and-unfolded-protein-response-measurement"
+      ],
+      "rawSha256": "94714e05cc8b5666524f446828f3e2707f34cf0372426d860be1b6a45b530e65",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "a7ae48d40f00e10e4ba306d65026bbdd04b9e8c838b28cf96ce2bb2eed6e7604",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "11326099",
+      "doi": "10.1126/science.1059108",
+      "title": "Proapoptotic BAX and BAK: a requisite gateway to mitochondrial dysfunction and death.",
+      "authors": "Wei MC, Zong WX, Cheng EH, Lindsten T, Panoutsakopoulou V, Ross AJ, Roth KA, MacGregor GR, Thompson CB, Korsmeyer SJ.",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11326099/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-mechanism",
+        "apoptosis-and-bcl2-family-family"
+      ],
+      "rawSha256": "32a6aa83174cc8d6c3d41853bcb7c3ab2e98bf6e0cf40207fe21a35ff0ffc764",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "886bc41f0cb7131e306acee5a2ac2ea57542fde3f02f054f8bd9830f3fb515b7",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "11779464",
+      "doi": "10.1016/s0092-8674(01)00611-0",
+      "title": "XBP1 mRNA is induced by ATF6 and spliced by IRE1 in response to ER stress to produce a highly active transcription factor.",
+      "authors": "Yoshida H, Matsui T, Yamamoto A, Okada T, Mori K.",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11779464/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-branches",
+        "er-stress-and-unfolded-protein-response-compartments",
+        "er-stress-and-unfolded-protein-response-measurement"
+      ],
+      "rawSha256": "08b852440cd27f8ca36e9e09cdde5d92fe416f854b3546ee8ee26fd45100d650",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "e00a358179b367acd5c75901a1cece39fa76e4e75e0c56670913dc92da6e2a28",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "11782314",
+      "doi": "10.1016/s1534-5807(01)00116-2",
+      "title": "A distinct pathway remodels mitochondrial cristae and mobilizes cytochrome c during apoptosis.",
+      "authors": "Scorrano L, Ashiya M, Buttle K, Weiler S, Oakes SA, Mannella CA, Korsmeyer SJ.",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11782314/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-compartment"
+      ],
+      "rawSha256": "7e66c25fbce6de034d7f6e293f8b0fa5e571241b10b9e4ab14a9b0b2ffc48348",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "bd67b3d31d630bcc0e7102ae7d62f5ba575d48ce8ba4c46561a3d5fba64f601a",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "11821395",
+      "doi": "10.1074/jbc.m110636200",
+      "title": "The luminal domain of ATF6 senses endoplasmic reticulum (ER) stress and causes translocation of ATF6 from the ER to the Golgi.",
+      "authors": "Chen X, Shen J, Prywes R.",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11821395/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-compartments"
+      ],
+      "rawSha256": "b72d3c18e1f273e35d0630c69250be46594c02edd9115cd36894748a85bddd5a",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "18bddf584c93c775f93e829aa3f23ddf843eb635090141f5d15aebabca36c63c",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "12110890",
+      "doi": "10.1038/nature00858",
+      "title": "Release of chromatin protein HMGB1 by necrotic cells triggers inflammation.",
+      "authors": "Scaffidi P, Misteli T, Bianchi ME.",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12110890/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "necrosis-immunity"
+      ],
+      "rawSha256": "df85d78e99c748a4971a101ebfe0f6e8106e658c63e0e95e7a9ebe29153e37bb",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "49089fb4a149265ac5fbeeb1da430a41f0c90fa92c7ab838fcfa13dd283d6bc5",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "15282312",
+      "doi": "10.1128/mcb.24.16.7130-7139.2004",
+      "title": "Oxidative stress sensor Keap1 functions as an adaptor for Cul3-based E3 ligase to regulate proteasomal degradation of Nrf2.",
+      "authors": "Kobayashi A, Kang MI, Okawa H, Ohtsuji M, Zenke Y, Chiba T, Igarashi K, Yamamoto M.",
+      "year": "2004",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15282312/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-measurement"
+      ],
+      "rawSha256": "5463fb48803852828cacb6d8accae17ee383ed50aa1c0498d04f9aa5f35eace1",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "350f2a3939eae4b34922813e3376172f5c55b73d687eb9f297f474ba535cc611",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "15958804",
+      "doi": "10.1056/nejmoa043445",
+      "title": "Bortezomib or high-dose dexamethasone for relapsed multiple myeloma.",
+      "authors": "Richardson PG, Sonneveld P, Schuster MW, Irwin D, Stadtmauer EA, Facon T, Harousseau JL, Ben-Yehuda D, Lonial S, Goldschmidt H, Reece D, San-Miguel JF, Bladé J, Boccadoro M, Cavenagh J, Dalton WS, Boral AL, Esseltine DL, Porter JB, Schenkein D, Anderson KC, Assessment of Proteasome Inhibition for Extending Remissions (APEX) Investigators.",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15958804/",
+      "indexedTypes": [
+        "Comparative Study",
+        "Clinical Trial",
+        "Research Support, Non-U.S. Gov't",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-clinical"
+      ],
+      "rawSha256": "3181fc8956a2f8c6a8c9004de85e278d7b75df9f344e194170184f1d25b21798",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "e9384f99a3ac0d75a727dff33b73afedbd9bec487853deaf17ca18d0b6811b18",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "16054095",
+      "doi": "10.1016/j.cmet.2005.05.009",
+      "title": "Calmodulin-dependent protein kinase kinase-beta is an alternative upstream kinase for AMP-activated protein kinase.",
+      "authors": "Hawley SA, Pan DA, Mustard KJ, Ross L, Bain J, Edelman AM, Frenguelli BG, Hardie DG.",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16054095/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "nutrient-sensing-ampk-inputs",
+        "nutrient-sensing-ampk-measurement"
+      ],
+      "rawSha256": "be084eb0f78ed3bc2936194281ddd91c03ed08aa84a4bded1597ee736c2b2100",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "20926107f24c8b97c952f456f3f6d0d2efec9e2b1f08f24f6735f2ea49615a3f",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "16554833",
+      "doi": "10.1038/nmeth866",
+      "title": "Genetically encoded fluorescent indicator for intracellular hydrogen peroxide.",
+      "authors": "Belousov VV, Fradkov AF, Lukyanov KA, Staroverov DB, Shakhbazov KS, Terskikh AV, Lukyanov S.",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16554833/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "reactive-oxygen-species-chemistry",
+        "reactive-oxygen-species-sensors",
+        "reactive-oxygen-species-outcomes"
+      ],
+      "rawSha256": "2b522aa863f0b7bb01400f390d87d1024a74f836ab85d66465dc5f1e1a65cb7b",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "3ce295065078de93eadea06ff6b0470600f653110fa48ac0fb09ceba4a1f959f",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "17187072",
+      "doi": "10.1038/nm1523",
+      "title": "Calreticulin exposure dictates the immunogenicity of cancer cell death.",
+      "authors": "Obeid M, Tesniere A, Ghiringhelli F, Fimia GM, Apetoh L, Perfettini JL, Castedo M, Mignot G, Panaretakis T, Casares N, Métivier D, Larochette N, van Endert P, Ciccosanti F, Piacentini M, Zitvogel L, Kroemer G.",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17187072/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-interpretation",
+        "immunogenic-cell-death-definition",
+        "immunogenic-cell-death-signals"
+      ],
+      "rawSha256": "d7ce48f9435bc5db95f475534cfe63d38af29c5557f7ef02cfaace006b73adc8",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "c38ab4a551de017e94dfd4e955d78dc3feab819685980e7cf8597cc28a2ebf27",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "17534139",
+      "doi": "10.4161/auto.4451",
+      "title": "Dissection of the autophagosome maturation process by a novel reporter protein, tandem fluorescent-tagged LC3.",
+      "authors": "Kimura S, Noda T, Yoshimori T.",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "autophagy-mechanism",
+        "autophagy-flux"
+      ],
+      "rawSha256": "d841a31235620cc7724448203d712ae16f15d67f97cbf57fd181a04c7b738820",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "4db629cfac42fdcba43b71a96ae1517ed79d81df0a0e60c8fbf3877e68bbf2ec",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "17704786",
+      "doi": "10.1038/nm1622",
+      "title": "Toll-like receptor 4-dependent contribution of the immune system to anticancer chemotherapy and radiotherapy.",
+      "authors": "Apetoh L, Ghiringhelli F, Tesniere A, Obeid M, Ortiz C, Criollo A, Mignot G, Maiuri MC, Ullrich E, Saulnier P, Yang H, Amigorena S, Ryffel B, Barrat FJ, Saftig P, Levi F, Lidereau R, Nogues C, Mira JP, Chompret A, Joulin V, Clavel-Chapelon F, Bourhis J, André F, Delaloge S, Tursz T, Kroemer G, Zitvogel L.",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17704786/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "immunogenic-cell-death-signals"
+      ],
+      "rawSha256": "f2bd73e14d2d869305dc10c4361f1e838cf6e42ffacd5b7e549e537c0ffa6098",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "50d9de26346b25d14b36dea6cb50137277e226283b33dd8782a658766bc4de51",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "18024962",
+      "doi": "10.1074/jbc.m706967200",
+      "title": "Effectors of rapid homeostatic responses of endoplasmic reticulum cholesterol and 3-hydroxy-3-methylglutaryl-CoA reductase.",
+      "authors": "Lange Y, Ory DS, Ye J, Lanier MH, Hsu FF, Steck TL.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18024962/",
+      "indexedTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [],
+      "rawSha256": "b2d469912f611adf2a4662a17fa7b14cf93931c85143af9dd6c0ba94882abc00",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [
+        "cholesterol-and-srebp-members"
+      ],
+      "abstractSha256": "64245df0052130fb97c993a0d536301f6f247866a35ce249498ecc1ea66a24bd",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "18439900",
+      "doi": "10.1016/j.molcel.2008.03.003",
+      "title": "AMPK phosphorylation of raptor mediates a metabolic checkpoint.",
+      "authors": "Gwinn DM, Shackelford DB, Egan DF, Mihaylova MM, Mery A, Vasquez DS, Turk BE, Shaw RJ.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18439900/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "nutrient-sensing-ampk-inputs",
+        "nutrient-sensing-ampk-adaptation"
+      ],
+      "rawSha256": "a8a07e719912c038e51d1eda84c01ea4d9b336c687794373d4b951ca497b2316",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "89a4ac1ed63f91f473af25da0b5931213faad3a5f78b7fdd1645d2202a2eeaa0",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19250911",
+      "doi": "10.1016/j.molcel.2009.01.020",
+      "title": "A role for NBR1 in autophagosomal degradation of ubiquitinated substrates.",
+      "authors": "Kirkin V, Lamark T, Sou YS, Bjørkøy G, Nunn JL, Bruun JA, Shvets E, McEwan DG, Clausen TH, Wild P, Bilusic I, Theurillat JP, Øvervatn A, Ishii T, Elazar Z, Komatsu M, Dikic I, Johansen T.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "autophagy-specificity"
+      ],
+      "rawSha256": "909e0f54d26f13f0dc66a7553a9361eaf534f7edf5c522fd09c2d6b18327ffb5",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "d006495c350be62ab5ea72ab2dc071fc25f3397a0b291226768db4ec886b6064",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19258318",
+      "doi": "10.1074/jbc.m900573200",
+      "title": "ULK1.ATG13.FIP200 complex mediates mTOR signaling and is essential for autophagy.",
+      "authors": "Ganley IG, Lam du H, Wang J, Ding X, Chen S, Jiang X.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "autophagy-specificity"
+      ],
+      "rawSha256": "c1531c9b662989cca09ca07bacd0d9eae9fa722e597a9aca4bd0834fc133d8b1",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "1dc1b6a5468ce8cfc2b33a0aed6f1376f2354581eed1220ac5d0ed4e4073a6a8",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19345192",
+      "doi": "10.1016/j.cell.2009.01.041",
+      "title": "Quantitative proteomics reveals the function of unconventional ubiquitin chains in proteasomal degradation.",
+      "authors": "Xu P, Duong DM, Seyfried NT, Cheng D, Xie Y, Robert J, Rush J, Hochstrasser M, Finley D, Peng J.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19345192/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-fates"
+      ],
+      "rawSha256": "7749fd933b961c292039d1f5945e4806353f30637073415a1e33d4db86716456",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "7fb2c5ca2a1b8cc480e9e0eb4e7767a601cc1d866c4ef212475896032e296170",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19460998",
+      "doi": "10.1126/science.1160809",
+      "title": "Understanding the Warburg effect: the metabolic requirements of cell proliferation.",
+      "authors": "Vander Heiden MG, Cantley LC, Thompson CB.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19460998/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "warburg-effect-pattern",
+        "warburg-effect-measurement",
+        "warburg-effect-interpretation"
+      ],
+      "rawSha256": "309cd7c8a6909bc64326fd3c6356de87d90d2a6211db8a9d49713dd153777df1",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "d3a1df0c53502efc55006c67d07f41bafcb77f8c3b0b47b0c41d380acefc02ad",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "19693011",
+      "doi": "10.1038/nature08268",
+      "title": "Antioxidant and oncogene rescue of metabolic defects caused by loss of matrix attachment.",
+      "authors": "Schafer ZT, Grassian AR, Song L, Jiang Z, Gerhart-Hines Z, Irie HY, Gao S, Puigserver P, Brugge JS.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19693011/",
+      "indexedTypes": [
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "reactive-oxygen-species-context"
+      ],
+      "rawSha256": "d764cf9c842c4c1f43395cbd94938f6cb40ebdcfc8a90d9a1785442a8e9160c4",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "8acfe5203ca4adc986bcd9a0b704a06d36ff6b50ae2e0253bb41d5fa9b9b631a",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19767732",
+      "doi": "10.1038/nm.2028",
+      "title": "Activation of the NLRP3 inflammasome in dendritic cells induces IL-1beta-dependent adaptive immunity against tumors.",
+      "authors": "Ghiringhelli F, Apetoh L, Tesniere A, Aymeric L, Ma Y, Ortiz C, Vermaelen K, Panaretakis T, Mignot G, Ullrich E, Perfettini JL, Schlemmer F, Tasdemir E, Uhl M, Génin P, Civas A, Ryffel B, Kanellopoulos J, Tschopp J, André F, Lidereau R, McLaughlin NM, Haynes NM, Smyth MJ, Kroemer G, Zitvogel L.",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19767732/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "immunogenic-cell-death-signals"
+      ],
+      "rawSha256": "31a3c9158baf6a02dfbc12e3db8a7a7a823a64ad1c36eee0186024164c3e4f06",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "64a23a9e6d2f73f5fb62c760c28cd55dddc717b996c6d04f127e3b275b3ce9c7",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "21399626",
+      "doi": "10.1038/nature09932",
+      "title": "Structure of mammalian AMPK and its regulation by ADP.",
+      "authors": "Xiao B, Sanders MJ, Underwood E, Heath R, Mayer FV, Carmena D, Jing C, Walker PA, Eccleston JF, Haire LF, Saiu P, Howell SA, Aasland R, Martin SR, Carling D, Gamblin SJ.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21399626/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "nutrient-sensing-ampk-energy",
+        "nutrient-sensing-ampk-measurement"
+      ],
+      "rawSha256": "7079599eaa5d0abeca030f0ef31fdfa7e403837d22ceaf35bac50f048b756454",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "d4a310b257aac92939c41b5c5235f2ff286b823d84338cb014cd1f09136310b5",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "21734707",
+      "doi": "10.1038/nature10189",
+      "title": "Oncogene-induced Nrf2 transcription promotes ROS detoxification and tumorigenesis.",
+      "authors": "DeNicola GM, Karreth FA, Humpton TJ, Gopinathan A, Wei C, Frese K, Mangal D, Yu KH, Yeo CJ, Calhoun ES, Scrimieri F, Winter JM, Hruban RH, Iacobuzio-Donahue C, Kern SE, Blair IA, Tuveson DA.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21734707/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "reactive-oxygen-species-chemistry",
+        "reactive-oxygen-species-context"
+      ],
+      "rawSha256": "a072574e34e98f04db0a71c6b6cf47452dfc4f1df4652c36a94fb9a0cd98631d",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "88630d2490207a745baf6afcc2afc03bfeb072b859ae16ded8d8f7a85a12aae4",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "22116877",
+      "doi": "10.1126/science.1209038",
+      "title": "The unfolded protein response: from stress pathway to homeostatic regulation.",
+      "authors": "Walter P, Ron D.",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22116877/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-branches"
+      ],
+      "rawSha256": "2e2f0f207b0eeb9b1c1da768fc988e87e9076873c533951035c185eecfd50757",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "5fdf4bd3062ea3766fdfeff0eebb66b3589dcd97bc34a0fea000f76a4ea63d8a",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "22265413",
+      "doi": "10.1016/j.cell.2011.11.031",
+      "title": "Mixed lineage kinase domain-like protein mediates necrosis signaling downstream of RIP3 kinase.",
+      "authors": "Sun L, Wang H, Wang Z, He S, Chen S, Liao D, Wang L, Yan J, Liu W, Lei X, Wang X.",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22265413/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "necrosis-necroptosis"
+      ],
+      "rawSha256": "bcf20ebdf661cd7ffae7ede1cd76d822f4bbe25861e9c00288112d5970d6bb93",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "550d185899839f515007e8882c80206f76b925decb3d733d3ab8306e490daf09",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "22632970",
+      "doi": "10.1016/j.cell.2012.03.042",
+      "title": "Ferroptosis: an iron-dependent form of nonapoptotic cell death.",
+      "authors": "Dixon SJ, Lemberg KM, Lamprecht MR, Skouta R, Zaitsev EM, Gleason CE, Patel DN, Bauer AJ, Cantley AM, Yang WS, Morrison B, Stockwell BR.",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ferroptosis-mechanism",
+        "ferroptosis-measurement",
+        "reactive-oxygen-species-outcomes",
+        "apoptosis-vs-necrosis-vs-ferroptosis-comparison",
+        "apoptosis-vs-necrosis-vs-ferroptosis-exercise"
+      ],
+      "rawSha256": "afe64a6a0927037d743a6db61bd5e08581b73e718c7dc680f5615065131e0c4e",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "c0137d17ae5942c8904ece05ab6513f4fad588149ed0d7167e49f01a63b36cb0",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "22660331",
+      "doi": "10.1038/nature11066",
+      "title": "AMPK regulates NADPH homeostasis to promote tumour cell survival during energy stress.",
+      "authors": "Jeon SM, Chandel NS, Hay N.",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22660331/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "nutrient-sensing-ampk-adaptation",
+        "nutrient-sensing-ampk-measurement"
+      ],
+      "rawSha256": "cce05999da8197db1be0409d4deeedcb2eca529fddc7015e80c36f77f8e5307c",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "388213f1f931636bd2b54dcdbae1b49bd06ff40c70bcc0defca8bf3937457902",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "23291630",
+      "doi": "10.1038/nm.3048",
+      "title": "ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets.",
+      "authors": "Souers AJ, Leverson JD, Boghaert ER, Ackler SL, Catron ND, Chen J, Dayton BD, Ding H, Enschede SH, Fairbrother WJ, Huang DC, Hymowitz SG, Jin S, Khaw SL, Kovar PJ, Lam LT, Lee J, Maecker HL, Marsh KC, Mason KD, Mitten MJ, Nimmer PM, Oleksijew A, Park CH, Park CM, Phillips DC, Roberts AW, Sampath D, Seymour JF, Smith ML, Sullivan GM, Tahir SK, Tse C, Wendt MD, Xiao Y, Xue JC, Zhang H, Humerickhouse RA, Rosenberg SH, Elmore SW.",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23291630/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-interpretation"
+      ],
+      "rawSha256": "4d0ae73fbe8a3e0c3a33fd48a38fec3e113f05765fd4c0e927bb8935a0979ab1",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "5a608a283b9f04ed616819f2c5cb81a2aef4f6e330999a9faefafc11f04f9e33",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "24439385",
+      "doi": "10.1016/j.cell.2013.12.010",
+      "title": "Regulation of ferroptotic cancer cell death by GPX4.",
+      "authors": "Yang WS, SriRamaratnam R, Welsch ME, Shimada K, Skouta R, Viswanathan VS, Cheah JH, Clemons PA, Shamji AF, Clish CB, Brown LM, Girotti AW, Cornish VW, Schreiber SL, Stockwell BR.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/",
+      "indexedTypes": [
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ferroptosis-defences",
+        "ferroptosis-measurement",
+        "ferroptosis-translation",
+        "apoptosis-vs-necrosis-vs-ferroptosis-exercise"
+      ],
+      "rawSha256": "d61256561a046e27a6598aab397eea46122a6e5b6d7cfbb5e322ff22a84bb33f",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "f8d588af38ec5438fbec80971ead0764466237b3382492051aa3b3c297841703",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "24670641",
+      "doi": "10.1038/nature13119",
+      "title": "XBP1 promotes triple-negative breast cancer by controlling the HIF1α pathway.",
+      "authors": "Chen X, Iliopoulos D, Zhang Q, Tang Q, Greenblatt MB, Hatziapostolou M, Lim E, Tam WL, Ni M, Chen Y, Mai J, Shen H, Hu DZ, Adoro S, Hu B, Song M, Tan C, Landis MD, Ferrari M, Shin SJ, Brown M, Chang JC, Liu XS, Glimcher LH.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24670641/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-cancer"
+      ],
+      "rawSha256": "cad8fdbdab5fbff91fcec527ab213cd36ecc6cc8943bd05ac495c198d3833dc1",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "8a948f753fdc1110f20396405a2909b2cfa2999913e7f6a456438880f3eccdf6",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "25449966",
+      "doi": "10.1016/j.bbabio.2014.10.005",
+      "title": "The contributions of respiration and glycolysis to extracellular acid production.",
+      "authors": "Mookerjee SA, Goncalves RLS, Gerencser AA, Nicholls DG, Brand MD.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25449966/",
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "warburg-effect-measurement"
+      ],
+      "rawSha256": "22bdb50fa52171792cc11edbd0628387a3625d94646eff0441225559064a3d0b",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [
+        "oxidative-phosphorylation-method-version"
+      ],
+      "abstractSha256": "25aeae85811ff4a691c781910939cda2ec85fd5719c06e5e5c47284465623586",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "26709455",
+      "doi": "10.3791/53464",
+      "title": "Measurement and Analysis of Extracellular Acid Production to Determine Glycolytic Rate.",
+      "authors": "Mookerjee SA, Brand MD.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26709455/",
+      "indexedTypes": [
+        "Video-Audio Media",
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "oxidative-phosphorylation-rates"
+      ],
+      "rawSha256": "149645211e3cabda16382b82e12eb5aecacf68067f15faea1b3019b0579791d0",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [
+        "oxidative-phosphorylation-method-version"
+      ],
+      "abstractSha256": "e0b463980d0db6cdaef0462d4f138f7b794944bda64733fdbc17652e2a965553",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "26853473",
+      "doi": "10.1016/j.cell.2015.12.034",
+      "title": "Metabolic Heterogeneity in Human Lung Tumors.",
+      "authors": "Hensley CT, Faubert B, Yuan Q, Lev-Cohain N, Jin E, Kim J, Jiang L, Ko B, Skelton R, Loudat L, Wodzak M, Klimko C, McMillan E, Butt Y, Ni M, Oliver D, Torrealba J, Malloy CR, Kernstine K, Lenkinski RE, DeBerardinis RJ.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26853473/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "warburg-effect-pattern",
+        "warburg-effect-heterogeneity",
+        "warburg-effect-measurement",
+        "warburg-effect-interpretation"
+      ],
+      "rawSha256": "96102603b33d3b119ee85de4230ff806963885fe670f4827e41789a3831f611d",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "ceb7385274574b68dca9c007b9d6d632425c12efac4e440c420c0bea206ea8cd",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "27506793",
+      "doi": "10.1073/pnas.1603244113",
+      "title": "Peroxidation of polyunsaturated fatty acids by lipoxygenases drives ferroptosis.",
+      "authors": "Yang WS, Kim KJ, Gaschler MM, Patel M, Shchepinov MS, Stockwell BR.",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27506793/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ferroptosis-mechanism"
+      ],
+      "rawSha256": "414f6ffad746229ea4e6251b70bf3f9ef2c9d030ed83d19aaeaf6e810d8a23e0",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "4df155072d2455d13e997f8fad0effce7c4ae2950a2838cac9115926e1cebfad",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "28270511",
+      "doi": "10.1074/jbc.m116.774471",
+      "title": "Quantifying intracellular rates of glycolytic and oxidative ATP production and consumption using extracellular flux measurements.",
+      "authors": "Mookerjee SA, Gerencser AA, Nicholls DG, Brand MD.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "oxidative-phosphorylation-rates",
+        "oxidative-phosphorylation-calculation"
+      ],
+      "rawSha256": "b958a71aaca6284fa0e9939718c4927ada0d76d8fb65a6478bad2fa1165dea7e",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "a065ac1dd5d3cc7146b254a89247584d65b598813e06a53ea674ccaeb3ad8af8",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "28421184",
+      "doi": "10.3389/fmolb.2017.00018",
+      "title": "The Proteasomal ATPases Use a Slow but Highly Processive Strategy to Unfold Proteins.",
+      "authors": "Snoberger A, Anderson RT, Smith DM.",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28421184/",
+      "indexedTypes": [
+        "research-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-fates"
+      ],
+      "rawSha256": "4afd634f30c431ae4454da33e8a40ff800537d7074d0b00bb10ad233e18dcf44",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "4342e5a0c9f724b42f3411a168e4c76dd59ed59bf35846db313e3f3ea0be1829",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "29258294",
+      "doi": "10.1038/nature25167",
+      "title": "Senescence-associated reprogramming promotes cancer stemness.",
+      "authors": "Milanovic M, Fan DNY, Belenki D, Däbritz JHM, Zhao Z, Yu Y, Dörr JR, Dimitrova L, Lenze D, Monteiro Barbosa IA, Mendoza-Parra MA, Kanashova T, Metzner M, Pardon K, Reimann M, Trumpp A, Dörken B, Zuber J, Gronemeyer H, Hummel M, Dittmar G, Lee S, Schmitt CA.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "senescence-state",
+        "senescence-escape",
+        "apoptosis-vs-necrosis-vs-ferroptosis-comparison"
+      ],
+      "rawSha256": "86a486af200be569d4d10bc91ece9e562474f160427824901f3624d05a22e3c4",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "42b456fa4187e2f9f2555767f3280699014adf0d351d039425dfb4f76fb86da3",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "29362479",
+      "doi": "10.1038/s41418-017-0012-4",
+      "title": "Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018.",
+      "authors": "Galluzzi L, Vitale I, Aaronson SA, Abrams JM, Adam D, Agostinis P, Alnemri ES, Altucci L, Amelio I, Andrews DW, Annicchiarico-Petruzzelli M, Antonov AV, Arama E, Baehrecke EH, Barlev NA, Bazan NG, Bernassola F, Bertrand MJM, Bianchi K, Blagosklonny MV, Blomgren K, Borner C, Boya P, Brenner C, Campanella M, Candi E, Carmona-Gutierrez D, Cecconi F, Chan FK, Chandel NS, Cheng EH, Chipuk JE, Cidlowski JA, Ciechanover A, Cohen GM, Conrad M, Cubillos-Ruiz JR, Czabotar PE, D'Angiolella V, Dawson TM, Dawson VL, De Laurenzi V, De Maria R, Debatin KM, DeBerardinis RJ, Deshmukh M, Di Daniele N, Di Virgilio F, Dixit VM, Dixon SJ, Duckett CS, Dynlacht BD, El-Deiry WS, Elrod JW, Fimia GM, Fulda S, García-Sáez AJ, Garg AD, Garrido C, Gavathiotis E, Golstein P, Gottlieb E, Green DR, Greene LA, Gronemeyer H, Gross A, Hajnoczky G, Hardwick JM, Harris IS, Hengartner MO, Hetz C, Ichijo H, Jäättelä M, Joseph B, Jost PJ, Juin PP, Kaiser WJ, Karin M, Kaufmann T, Kepp O, Kimchi A, Kitsis RN, Klionsky DJ, Knight RA, Kumar S, Lee SW, Lemasters JJ, Levine B, Linkermann A, Lipton SA, Lockshin RA, López-Otín C, Lowe SW, Luedde T, Lugli E, MacFarlane M, Madeo F, Malewicz M, Malorni W, Manic G, Marine JC, Martin SJ, Martinou JC, Medema JP, Mehlen P, Meier P, Melino S, Miao EA, Molkentin JD, Moll UM, Muñoz-Pinedo C, Nagata S, Nuñez G, Oberst A, Oren M, Overholtzer M, Pagano M, Panaretakis T, Pasparakis M, Penninger JM, Pereira DM, Pervaiz S, Peter ME, Piacentini M, Pinton P, Prehn JHM, Puthalakath H, Rabinovich GA, Rehm M, Rizzuto R, Rodrigues CMP, Rubinsztein DC, Rudel T, Ryan KM, Sayan E, Scorrano L, Shao F, Shi Y, Silke J, Simon HU, Sistigu A, Stockwell BR, Strasser A, Szabadkai G, Tait SWG, Tang D, Tavernarakis N, Thorburn A, Tsujimoto Y, Turk B, Vanden Berghe T, Vandenabeele P, Vander Heiden MG, Villunger A, Virgin HW, Vousden KH, Vucic D, Wagner EF, Walczak H, Wallach D, Wang Y, Wells JA, Wood W, Yuan J, Zakeri Z, Zhivotovsky B, Zitvogel L, Melino G, Kroemer G.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": true,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-mechanism",
+        "autophagy-mechanism",
+        "ferroptosis-measurement",
+        "necrosis-mechanism",
+        "necrosis-sampling",
+        "senescence-state",
+        "apoptosis-vs-necrosis-vs-ferroptosis-comparison"
+      ],
+      "rawSha256": "a2f53496e38ef5b8037ea3c50e8ebb489168f4fd58743a2eec6b261e53a266d3",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw primary/consensus abstract plus named full-text sections",
+      "fullTextSectionsRead": "Intrinsic apoptosis; Extrinsic apoptosis; Ferroptosis; Autophagy-dependent cell death; Cellular senescence",
+      "claimsNotVerified": [],
+      "abstractSha256": "d49bdfa6837aced892d358b26dab58c159f106c5221be09895625fcc90aa33dd",
+      "evidenceType": "Consensus or assay guidance"
+    },
+    {
+      "pmid": "30097494",
+      "doi": "10.1074/jbc.aac118.004855",
+      "title": "Quantifying intracellular rates of glycolytic and oxidative ATP production and consumption using extracellular flux measurements.",
+      "authors": "Mookerjee SA, Gerencser AA, Nicholls DG, Brand MD.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30097494/",
+      "indexedTypes": [
+        "Published Erratum",
+        "correction",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": false,
+      "fullTextRead": true,
+      "claimsVerified": [],
+      "rawSha256": "d0b140a07ca3b6e88682ed70b037ed11a00d7463b528fe9b0633274ada4cebd6",
+      "identityComparedToGuide": false,
+      "readingDepth": "Official complete PMC correction text read through web; direct scripted captures were challenged or had no body.",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [
+        "oxidative-phosphorylation-method-version"
+      ],
+      "abstractSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidenceType": "Published correction; method-version evidence"
+    },
+    {
+      "pmid": "3031653",
+      "doi": "10.1073/pnas.84.7.1829",
+      "title": "Ubiquitin-aldehyde: a general inhibitor of ubiquitin-recycling processes.",
+      "authors": "Hershko A, Rose IA.",
+      "year": "1987",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-fates",
+        "ubiquitin-and-proteasome-measurement"
+      ],
+      "rawSha256": "e9ccfa40632bd72de0ec5002c0144162e73dc17dd8487c5d9734e33719627cb8",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "c6b1601a0e148c0f7a48a19b34b5ccbac5bb4024d5f4d60c3ab9d3b4684ed36b",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "31120501",
+      "doi": "10.1001/jamaoncol.2019.0684",
+      "title": "Effect of Gemcitabine and nab-Paclitaxel With or Without Hydroxychloroquine on Patients With Advanced Pancreatic Cancer: A Phase 2 Randomized Clinical Trial.",
+      "authors": "Karasic TB, O'Hara MH, Loaiza-Bonilla A, Reiss KA, Teitelbaum UR, Borazanci E, De Jesus-Acosta A, Redlinger C, Burrell JA, Laheru DA, Von Hoff DD, Amaravadi RK, Drebin JA, O'Dwyer PJ.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/",
+      "indexedTypes": [
+        "Clinical Trial, Phase II",
+        "research-article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "autophagy-clinical"
+      ],
+      "rawSha256": "0af993963a88e8d1647ed66ca0dbaa7af24d86d66f309482bed02464fe8c1ceb",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "9868a21b162b964d612a4846563f2f86ef0403547af59e98f33c76daf882d505",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "31634900",
+      "doi": "10.1038/s41586-019-1705-2",
+      "title": "The CoQ oxidoreductase FSP1 acts parallel to GPX4 to inhibit ferroptosis.",
+      "authors": "Bersuker K, Hendricks JM, Li Z, Magtanong L, Ford B, Tang PH, Roberts MA, Tong B, Maimone TJ, Zoncu R, Bassik MC, Nomura DK, Dixon SJ, Olzmann JA.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31634900/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ferroptosis-defences",
+        "ferroptosis-measurement",
+        "ferroptosis-translation"
+      ],
+      "rawSha256": "9d5197b6c09b43e291407c3ad0813ea5ef8a7dfb4c8f8da9acd8fb3d6f9658bd",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "c44aecefffa14f985c9a8438646942523363a618b683046889b5670491d1013c",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "31675495",
+      "doi": "10.1016/j.cell.2019.10.005",
+      "title": "Cellular Senescence: Defining a Path Forward.",
+      "authors": "Gorgoulis V, Adams PD, Alimonti A, Bennett DC, Bischof O, Bishop C, Campisi J, Collado M, Evangelou K, Ferbeyre G, Gil J, Hara E, Krizhanovsky V, Jurk D, Maier AB, Narita M, Niedernhofer L, Passos JF, Robbins PD, Schmitt CA, Sedivy J, Vougas K, von Zglinicki T, Zhou D, Serrano M, Demaria M.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31675495/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "senescence-state",
+        "senescence-measurement"
+      ],
+      "rawSha256": "edabf7d798cbab10fb52ea367d07f83302050a114e5c6f7e193fb4d9ba8a2fae",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "e2ff5dc3c1f2fad8f8be4c34e1e49d42c5c25c0caad423b6c8b3086e378a6290",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "32130885",
+      "doi": "10.1016/j.cmet.2020.02.003",
+      "title": "Ultrasensitive Genetically Encoded Indicator for Hydrogen Peroxide Identifies Roles for the Oxidant in Cell Migration and Mitochondrial Function.",
+      "authors": "Pak VV, Ezeriņa D, Lyublinskaya OG, Pedre B, Tyurin-Kuzmin PA, Mishina NM, Thauvin M, Young D, Wahni K, Martínez Gache SA, Demidovich AD, Ermakova YG, Maslova YD, Shokhina AG, Eroglu E, Bilan DS, Bogeski I, Michel T, Vriz S, Messens J, Belousov VV.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32130885/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "reactive-oxygen-species-sensors",
+        "reactive-oxygen-species-outcomes"
+      ],
+      "rawSha256": "152e13411a83cefb97053a8a39f7e4f15020daffbf2b30c909b6f27293ceb17a",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "89c0440e7c62a6531f9486fef75de95579d0021926af57f9a45ea3acb90b4d67",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "32209603",
+      "doi": "10.1136/jitc-2019-000337",
+      "title": "Consensus guidelines for the definition, detection and interpretation of immunogenic cell death.",
+      "authors": "Galluzzi L, Vitale I, Warren S, Adjemian S, Agostinis P, Martinez AB, Chan TA, Coukos G, Demaria S, Deutsch E, Draganov D, Edelson RL, Formenti SC, Fucikova J, Gabriele L, Gaipl US, Gameiro SR, Garg AD, Golden E, Han J, Harrington KJ, Hemminki A, Hodge JW, Hossain DMS, Illidge T, Karin M, Kaufman HL, Kepp O, Kroemer G, Lasarte JJ, Loi S, Lotze MT, Manic G, Merghoub T, Melcher AA, Mossman KL, Prosper F, Rekdal Ø, Rescigno M, Riganti C, Sistigu A, Smyth MJ, Spisek R, Stagg J, Strauss BE, Tang D, Tatsuno K, van Gool SW, Vandenabeele P, Yamazaki T, Zamarin D, Zitvogel L, Cesano A, Marincola FM.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "review-article",
+        "Review",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": true,
+      "claimsVerified": [
+        "immunogenic-cell-death-definition",
+        "immunogenic-cell-death-functional-test",
+        "immunogenic-cell-death-translation",
+        "necrosis-immunity",
+        "apoptosis-vs-necrosis-vs-ferroptosis-comparison"
+      ],
+      "rawSha256": "4b6d188923745acb42a16a5443b6e8330ca8595bd65266c7f0d2d65a5adca76a",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw primary/consensus abstract plus named full-text sections",
+      "fullTextSectionsRead": "In vivo models; Interpretation of ICD",
+      "claimsNotVerified": [],
+      "abstractSha256": "d2f3f92c7a7a8304e0adafae7c653af4fc0fca288db8d3d75070cf3cb2498d7d",
+      "evidenceType": "Consensus or assay guidance"
+    },
+    {
+      "pmid": "33634751",
+      "doi": "10.1080/15548627.2020.1797280",
+      "title": "Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)&lt;sup&gt;1&lt;/sup&gt;.",
+      "authors": "Klionsky DJ, Abdel-Aziz AK, Abdelfatah S, Abdellatif M, Abdoli A, Abel S, Abeliovich H, Abildgaard MH, Abudu YP, Acevedo-Arozena A, Adamopoulos IE, Adeli K, Adolph TE, Adornetto A, Aflaki E, Agam G, Agarwal A, Aggarwal BB, Agnello M, Agostinis P, Agrewala JN, Agrotis A, Aguilar PV, Ahmad ST, Ahmed ZM, Ahumada-Castro U, Aits S, Aizawa S, Akkoc Y, Akoumianaki T, Akpinar HA, Al-Abd AM, Al-Akra L, Al-Gharaibeh A, Alaoui-Jamali MA, Alberti S, Alcocer-Gómez E, Alessandri C, Ali M, Alim Al-Bari MA, Aliwaini S, Alizadeh J, Almacellas E, Almasan A, Alonso A, Alonso GD, Altan-Bonnet N, Altieri DC, Álvarez ÉMC, Alves S, Alves da Costa C, Alzaharna MM, Amadio M, Amantini C, Amaral C, Ambrosio S, Amer AO, Ammanathan V, An Z, Andersen SU, Andrabi SA, Andrade-Silva M, Andres AM, Angelini S, Ann D, Anozie UC, Ansari MY, Antas P, Antebi A, Antón Z, Anwar T, Apetoh L, Apostolova N, Araki T, Araki Y, Arasaki K, Araújo WL, Araya J, Arden C, Arévalo MA, Arguelles S, Arias E, Arikkath J, Arimoto H, Ariosa AR, Armstrong-James D, Arnauné-Pelloquin L, Aroca A, Arroyo DS, Arsov I, Artero R, Asaro DML, Aschner M, Ashrafizadeh M, Ashur-Fabian O, Atanasov AG, Au AK, Auberger P, Auner HW, Aurelian L, Autelli R, Avagliano L, Ávalos Y, Aveic S, Aveleira CA, Avin-Wittenberg T, Aydin Y, Ayton S, Ayyadevara S, Azzopardi M, Baba M, Backer JM, Backues SK, Bae DH, Bae ON, Bae SH, Baehrecke EH, Baek A, Baek SH, Baek SH, Bagetta G, Bagniewska-Zadworna A, Bai H, Bai J, Bai X, Bai Y, Bairagi N, Baksi S, Balbi T, Baldari CT, Balduini W, Ballabio A, Ballester M, Balazadeh S, Balzan R, Bandopadhyay R, Banerjee S, Banerjee S, Bánréti Á, Bao Y, Baptista MS, Baracca A, Barbati C, Bargiela A, Barilà D, Barlow PG, Barmada SJ, Barreiro E, Barreto GE, Bartek J, Bartel B, Bartolome A, Barve GR, Basagoudanavar SH, Bassham DC, Bast RC, Basu A, Batoko H, Batten I, Baulieu EE, Baumgarner BL, Bayry J, Beale R, Beau I, Beaumatin F, Bechara LRG, Beck GR, Beers MF, Begun J, Behrends C, Behrens GMN, Bei R, Bejarano E, Bel S, Behl C, Belaid A, Belgareh-Touzé N, Bellarosa C, Belleudi F, Belló Pérez M, Bello-Morales R, Beltran JSO, Beltran S, Benbrook DM, Bendorius M, Benitez BA, Benito-Cuesta I, Bensalem J, Berchtold MW, Berezowska S, Bergamaschi D, Bergami M, Bergmann A, Berliocchi L, Berlioz-Torrent C, Bernard A, Berthoux L, Besirli CG, Besteiro S, Betin VM, Beyaert R, Bezbradica JS, Bhaskar K, Bhatia-Kissova I, Bhattacharya R, Bhattacharya S, Bhattacharyya S, Bhuiyan MS, Bhutia SK, Bi L, Bi X, Biden TJ, Bijian K, Billes VA, Binart N, Bincoletto C, Birgisdottir AB, Bjorkoy G, Blanco G, Blas-Garcia A, Blasiak J, Blomgran R, Blomgren K, Blum JS, Boada-Romero E, Boban M, Boesze-Battaglia K, Boeuf P, Boland B, Bomont P, Bonaldo P, Bonam SR, Bonfili L, Bonifacino JS, Boone BA, Bootman MD, Bordi M, Borner C, Bornhauser BC, Borthakur G, Bosch J, Bose S, Botana LM, Botas J, Boulanger CM, Boulton ME, Bourdenx M, Bourgeois B, Bourke NM, Bousquet G, Boya P, Bozhkov PV, Bozi LHM, Bozkurt TO, Brackney DE, Brandts CH, Braun RJ, Braus GH, Bravo-Sagua R, Bravo-San Pedro JM, Brest P, Bringer MA, Briones-Herrera A, Broaddus VC, Brodersen P, Brodsky JL, Brody SL, Bronson PG, Bronstein JM, Brown CN, Brown RE, Brum PC, Brumell JH, Brunetti-Pierri N, Bruno D, Bryson-Richardson RJ, Bucci C, Buchrieser C, Bueno M, Buitrago-Molina LE, Buraschi S, Buch S, Buchan JR, Buckingham EM, Budak H, Budini M, Bultynck G, Burada F, Burgoyne JR, Burón MI, Bustos V, Büttner S, Butturini E, Byrd A, Cabas I, Cabrera-Benitez S, Cadwell K, Cai J, Cai L, Cai Q, Cairó M, Calbet JA, Caldwell GA, Caldwell KA, Call JA, Calvani R, Calvo AC, Calvo-Rubio Barrera M, Camara NO, Camonis JH, Camougrand N, Campanella M, Campbell EM, Campbell-Valois FX, Campello S, Campesi I, Campos JC, Camuzard O, Cancino J, Candido de Almeida D, Canesi L, Caniggia I, Canonico B, Cantí C, Cao B, Caraglia M, Caramés B, Carchman EH, Cardenal-Muñoz E, Cardenas C, Cardenas L, Cardoso SM, Carew JS, Carle GF, Carleton G, Carloni S, Carmona-Gutierrez D, Carneiro LA, Carnevali O, Carosi JM, Carra S, Carrier A, Carrier L, Carroll B, Carter AB, Carvalho AN, Casanova M, Casas C, Casas J, Cassioli C, Castillo EF, Castillo K, Castillo-Lluva S, Castoldi F, Castori M, Castro AF, Castro-Caldas M, Castro-Hernandez J, Castro-Obregon S, Catz SD, Cavadas C, Cavaliere F, Cavallini G, Cavinato M, Cayuela ML, Cebollada Rica P, Cecarini V, Cecconi F, Cechowska-Pasko M, Cenci S, Ceperuelo-Mallafré V, Cerqueira JJ, Cerutti JM, Cervia D, Cetintas VB, Cetrullo S, Chae HJ, Chagin AS, Chai CY, Chakrabarti G, Chakrabarti O, Chakraborty T, Chakraborty T, Chami M, Chamilos G, Chan DW, Chan EYW, Chan ED, Chan HYE, Chan HH, Chan H, Chan MTV, Chan YS, Chandra PK, Chang CP, Chang C, Chang HC, Chang K, Chao J, Chapman T, Charlet-Berguerand N, Chatterjee S, Chaube SK, Chaudhary A, Chauhan S, Chaum E, Checler F, Cheetham ME, Chen CS, Chen GC, Chen JF, Chen LL, Chen L, Chen L, Chen M, Chen MK, Chen N, Chen Q, Chen RH, Chen S, Chen W, Chen W, Chen XM, Chen XW, Chen X, Chen Y, Chen YG, Chen Y, Chen Y, Chen YJ, Chen YQ, Chen ZS, Chen Z, Chen ZH, Chen ZJ, Chen Z, Cheng H, Cheng J, Cheng SY, Cheng W, Cheng X, Cheng XT, Cheng Y, Cheng Z, Chen Z, Cheong H, Cheong JK, Chernyak BV, Cherry S, Cheung CFR, Cheung CHA, Cheung KH, Chevet E, Chi RJ, Chiang AKS, Chiaradonna F, Chiarelli R, Chiariello M, Chica N, Chiocca S, Chiong M, Chiou SH, Chiramel AI, Chiurchiù V, Cho DH, Choe SK, Choi AMK, Choi ME, Choudhury KR, Chow NS, Chu CT, Chua JP, Chua JJE, Chung H, Chung KP, Chung S, Chung SH, Chung YL, Cianfanelli V, Ciechomska IA, Cifuentes M, Cinque L, Cirak S, Cirone M, Clague MJ, Clarke R, Clementi E, Coccia EM, Codogno P, Cohen E, Cohen MM, Colasanti T, Colasuonno F, Colbert RA, Colell A, Čolić M, Coll NS, Collins MO, Colombo MI, Colón-Ramos DA, Combaret L, Comincini S, Cominetti MR, Consiglio A, Conte A, Conti F, Contu VR, Cookson MR, Coombs KM, Coppens I, Corasaniti MT, Corkery DP, Cordes N, Cortese K, Costa MDC, Costantino S, Costelli P, Coto-Montes A, Crack PJ, Crespo JL, Criollo A, Crippa V, Cristofani R, Csizmadia T, Cuadrado A, Cui B, Cui J, Cui Y, Cui Y, Culetto E, Cumino AC, Cybulsky AV, Czaja MJ, Czuczwar SJ, D'Adamo S, D'Amelio M, D'Arcangelo D, D'Lugos AC, D'Orazi G, da Silva JA, Dafsari HS, Dagda RK, Dagdas Y, Daglia M, Dai X, Dai Y, Dai Y, Dal Col J, Dalhaimer P, Dalla Valle L, Dallenga T, Dalmasso G, Damme M, Dando I, Dantuma NP, Darling AL, Das H, Dasarathy S, Dasari SK, Dash S, Daumke O, Dauphinee AN, Davies JS, Dávila VA, Davis RJ, Davis T, Dayalan Naidu S, De Amicis F, De Bosscher K, De Felice F, De Franceschi L, De Leonibus C, de Mattos Barbosa MG, De Meyer GRY, De Milito A, De Nunzio C, De Palma C, De Santi M, De Virgilio C, De Zio D, Debnath J, DeBosch BJ, Decuypere JP, Deehan MA, Deflorian G, DeGregori J, Dehay B, Del Rio G, Delaney JR, Delbridge LMD, Delorme-Axford E, Delpino MV, Demarchi F, Dembitz V, Demers ND, Deng H, Deng Z, Dengjel J, Dent P, Denton D, DePamphilis ML, Der CJ, Deretic V, Descoteaux A, Devis L, Devkota S, Devuyst O, Dewson G, Dharmasivam M, Dhiman R, di Bernardo D, Di Cristina M, Di Domenico F, Di Fazio P, Di Fonzo A, Di Guardo G, Di Guglielmo GM, Di Leo L, Di Malta C, Di Nardo A, Di Rienzo M, Di Sano F, Diallinas G, Diao J, Diaz-Araya G, Díaz-Laviada I, Dickinson JM, Diederich M, Dieudé M, Dikic I, Ding S, Ding WX, Dini L, Dinić J, Dinic M, Dinkova-Kostova AT, Dionne MS, Distler JHW, Diwan A, Dixon IMC, Djavaheri-Mergny M, Dobrinski I, Dobrovinskaya O, Dobrowolski R, Dobson RCJ, Đokić J, Dokmeci Emre S, Donadelli M, Dong B, Dong X, Dong Z, Dorn Ii GW, Dotsch V, Dou H, Dou J, Dowaidar M, Dridi S, Drucker L, Du A, Du C, Du G, Du HN, Du LL, du Toit A, Duan SB, Duan X, Duarte SP, Dubrovska A, Dunlop EA, Dupont N, Durán RV, Dwarakanath BS, Dyshlovoy SA, Ebrahimi-Fakhari D, Eckhart L, Edelstein CL, Efferth T, Eftekharpour E, Eichinger L, Eid N, Eisenberg T, Eissa NT, Eissa S, Ejarque M, El Andaloussi A, El-Hage N, El-Naggar S, Eleuteri AM, El-Shafey ES, Elgendy M, Eliopoulos AG, Elizalde MM, Elks PM, Elsasser HP, Elsherbiny ES, Emerling BM, Emre NCT, Eng CH, Engedal N, Engelbrecht AM, Engelsen AST, Enserink JM, Escalante R, Esclatine A, Escobar-Henriques M, Eskelinen EL, Espert L, Eusebio MO, Fabrias G, Fabrizi C, Facchiano A, Facchiano F, Fadeel B, Fader C, Faesen AC, Fairlie WD, Falcó A, Falkenburger BH, Fan D, Fan J, Fan Y, Fang EF, Fang Y, Fang Y, Fanto M, Farfel-Becker T, Faure M, Fazeli G, Fedele AO, Feldman AM, Feng D, Feng J, Feng L, Feng Y, Feng Y, Feng W, Fenz Araujo T, Ferguson TA, Fernández ÁF, Fernandez-Checa JC, Fernández-Veledo S, Fernie AR, Ferrante AW, Ferraresi A, Ferrari MF, Ferreira JCB, Ferro-Novick S, Figueras A, Filadi R, Filigheddu N, Filippi-Chiela E, Filomeni G, Fimia GM, Fineschi V, Finetti F, Finkbeiner S, Fisher EA, Fisher PB, Flamigni F, Fliesler SJ, Flo TH, Florance I, Florey O, Florio T, Fodor E, Follo C, Fon EA, Forlino A, Fornai F, Fortini P, Fracassi A, Fraldi A, Franco B, Franco R, Franconi F, Frankel LB, Friedman SL, Fröhlich LF, Frühbeck G, Fuentes JM, Fujiki Y, Fujita N, Fujiwara Y, Fukuda M, Fulda S, Furic L, Furuya N, Fusco C, Gack MU, Gaffke L, Galadari S, Galasso A, Galindo MF, Gallolu Kankanamalage S, Galluzzi L, Galy V, Gammoh N, Gan B, Ganley IG, Gao F, Gao H, Gao M, Gao P, Gao SJ, Gao W, Gao X, Garcera A, Garcia MN, Garcia VE, García-Del Portillo F, Garcia-Escudero V, Garcia-Garcia A, Garcia-Macia M, García-Moreno D, Garcia-Ruiz C, García-Sanz P, Garg AD, Gargini R, Garofalo T, Garry RF, Gassen NC, Gatica D, Ge L, Ge W, Geiss-Friedlander R, Gelfi C, Genschik P, Gentle IE, Gerbino V, Gerhardt C, Germain K, Germain M, Gewirtz DA, Ghasemipour Afshar E, Ghavami S, Ghigo A, Ghosh M, Giamas G, Giampietri C, Giatromanolaki A, Gibson GE, Gibson SB, Ginet V, Giniger E, Giorgi C, Girao H, Girardin SE, Giridharan M, Giuliano S, Giulivi C, Giuriato S, Giustiniani J, Gluschko A, Goder V, Goginashvili A, Golab J, Goldstone DC, Golebiewska A, Gomes LR, Gomez R, Gómez-Sánchez R, Gomez-Puerto MC, Gomez-Sintes R, Gong Q, Goni FM, González-Gallego J, Gonzalez-Hernandez T, Gonzalez-Polo RA, Gonzalez-Reyes JA, González-Rodríguez P, Goping IS, Gorbatyuk MS, Gorbunov NV, Görgülü K, Gorojod RM, Gorski SM, Goruppi S, Gotor C, Gottlieb RA, Gozes I, Gozuacik D, Graef M, Gräler MH, Granatiero V, Grasso D, Gray JP, Green DR, Greenhough A, Gregory SL, Griffin EF, Grinstaff MW, Gros F, Grose C, Gross AS, Gruber F, Grumati P, Grune T, Gu X, Guan JL, Guardia CM, Guda K, Guerra F, Guerri C, Guha P, Guillén C, Gujar S, Gukovskaya A, Gukovsky I, Gunst J, Günther A, Guntur AR, Guo C, Guo C, Guo H, Guo LW, Guo M, Gupta P, Gupta SK, Gupta S, Gupta VB, Gupta V, Gustafsson AB, Gutterman DD, H B R, Haapasalo A, Haber JE, Hać A, Hadano S, Hafrén AJ, Haidar M, Hall BS, Halldén G, Hamacher-Brady A, Hamann A, Hamasaki M, Han W, Hansen M, Hanson PI, Hao Z, Harada M, Harhaji-Trajkovic L, Hariharan N, Haroon N, Harris J, Hasegawa T, Hasima Nagoor N, Haspel JA, Haucke V, Hawkins WD, Hay BA, Haynes CM, Hayrabedyan SB, Hays TS, He C, He Q, He RR, He YW, He YY, Heakal Y, Heberle AM, Hejtmancik JF, Helgason GV, Henkel V, Herb M, Hergovich A, Herman-Antosiewicz A, Hernández A, Hernandez C, Hernandez-Diaz S, Hernandez-Gea V, Herpin A, Herreros J, Hervás JH, Hesselson D, Hetz C, Heussler VT, Higuchi Y, Hilfiker S, Hill JA, Hlavacek WS, Ho EA, Ho IHT, Ho PW, Ho SL, Ho WY, Hobbs GA, Hochstrasser M, Hoet PHM, Hofius D, Hofman P, Höhn A, Holmberg CI, Hombrebueno JR, Yi-Ren Hong CH, Hooper LV, Hoppe T, Horos R, Hoshida Y, Hsin IL, Hsu HY, Hu B, Hu D, Hu LF, Hu MC, Hu R, Hu W, Hu YC, Hu ZW, Hua F, Hua J, Hua Y, Huan C, Huang C, Huang C, Huang C, Huang C, Huang H, Huang K, Huang MLH, Huang R, Huang S, Huang T, Huang X, Huang YJ, Huber TB, Hubert V, Hubner CA, Hughes SM, Hughes WE, Humbert M, Hummer G, Hurley JH, Hussain S, Hussain S, Hussey PJ, Hutabarat M, Hwang HY, Hwang S, Ieni A, Ikeda F, Imagawa Y, Imai Y, Imbriano C, Imoto M, Inman DM, Inoki K, Iovanna J, Iozzo RV, Ippolito G, Irazoqui JE, Iribarren P, Ishaq M, Ishikawa M, Ishimwe N, Isidoro C, Ismail N, Issazadeh-Navikas S, Itakura E, Ito D, Ivankovic D, Ivanova S, Iyer AKV, Izquierdo JM, Izumi M, Jäättelä M, Jabir MS, Jackson WT, Jacobo-Herrera N, Jacomin AC, Jacquin E, Jadiya P, Jaeschke H, Jagannath C, Jakobi AJ, Jakobsson J, Janji B, Jansen-Dürr P, Jansson PJ, Jantsch J, Januszewski S, Jassey A, Jean S, Jeltsch-David H, Jendelova P, Jenny A, Jensen TE, Jessen N, Jewell JL, Ji J, Jia L, Jia R, Jiang L, Jiang Q, Jiang R, Jiang T, Jiang X, Jiang Y, Jimenez-Sanchez M, Jin EJ, Jin F, Jin H, Jin L, Jin L, Jin M, Jin S, Jo EK, Joffre C, Johansen T, Johnson GVW, Johnston SA, Jokitalo E, Jolly MK, Joosten LAB, Jordan J, Joseph B, Ju D, Ju JS, Ju J, Juárez E, Judith D, Juhász G, Jun Y, Jung CH, Jung SC, Jung YK, Jungbluth H, Jungverdorben J, Just S, Kaarniranta K, Kaasik A, Kabuta T, Kaganovich D, Kahana A, Kain R, Kajimura S, Kalamvoki M, Kalia M, Kalinowski DS, Kaludercic N, Kalvari I, Kaminska J, Kaminskyy VO, Kanamori H, Kanasaki K, Kang C, Kang R, Kang SS, Kaniyappan S, Kanki T, Kanneganti TD, Kanthasamy AG, Kanthasamy A, Kantorow M, Kapuy O, Karamouzis MV, Karim MR, Karmakar P, Katare RG, Kato M, Kaufmann SHE, Kauppinen A, Kaushal GP, Kaushik S, Kawasaki K, Kazan K, Ke PY, Keating DJ, Keber U, Kehrl JH, Keller KE, Keller CW, Kemper JK, Kenific CM, Kepp O, Kermorgant S, Kern A, Ketteler R, Keulers TG, Khalfin B, Khalil H, Khambu B, Khan SY, Khandelwal VKM, Khandia R, Kho W, Khobrekar NV, Khuansuwan S, Khundadze M, Killackey SA, Kim D, Kim DR, Kim DH, Kim DE, Kim EY, Kim EK, Kim HR, Kim HS, Hyung-Ryong Kim, Kim JH, Kim JK, Kim JH, Kim J, Kim JH, Kim KI, Kim PK, Kim SJ, Kimball SR, Kimchi A, Kimmelman AC, Kimura T, King MA, Kinghorn KJ, Kinsey CG, Kirkin V, Kirshenbaum LA, Kiselev SL, Kishi S, Kitamoto K, Kitaoka Y, Kitazato K, Kitsis RN, Kittler JT, Kjaerulff O, Klein PS, Klopstock T, Klucken J, Knævelsrud H, Knorr RL, Ko BCB, Ko F, Ko JL, Kobayashi H, Kobayashi S, Koch I, Koch JC, Koenig U, Kögel D, Koh YH, Koike M, Kohlwein SD, Kocaturk NM, Komatsu M, König J, Kono T, Kopp BT, Korcsmaros T, Korkmaz G, Korolchuk VI, Korsnes MS, Koskela A, Kota J, Kotake Y, Kotler ML, Kou Y, Koukourakis MI, Koustas E, Kovacs AL, Kovács T, Koya D, Kozako T, Kraft C, Krainc D, Krämer H, Krasnodembskaya AD, Kretz-Remy C, Kroemer G, Ktistakis NT, Kuchitsu K, Kuenen S, Kuerschner L, Kukar T, Kumar A, Kumar A, Kumar D, Kumar D, Kumar S, Kume S, Kumsta C, Kundu CN, Kundu M, Kunnumakkara AB, Kurgan L, Kutateladze TG, Kutlu O, Kwak S, Kwon HJ, Kwon TK, Kwon YT, Kyrmizi I, La Spada A, Labonté P, Ladoire S, Laface I, Lafont F, Lagace DC, Lahiri V, Lai Z, Laird AS, Laird AS, Lakkaraju A, Lamark T, Lan SH, Landajuela A, Lane DJR, Lane JD, Lang CH, Lange C, Langel Ü, Langer R, Lapaquette P, Laporte J, LaRusso NF, Lastres-Becker I, Lau WCY, Laurie GW, Lavandero S, Law BYK, Law HK, Layfield R, Le W, Le Stunff H, Leary AY, Lebrun JJ, Leck LYW, Leduc-Gaudet JP, Lee C, Lee CP, Lee DH, Lee EB, Lee EF, Lee GM, Lee HJ, Lee HK, Lee JM, Lee JS, Lee JA, Lee JY, Lee JH, Lee M, Lee MG, Lee MJ, Lee MS, Lee SY, Lee SJ, Lee SY, Lee SB, Lee WH, Lee YR, Lee YH, Lee Y, Lefebvre C, Legouis R, Lei YL, Lei Y, Leikin S, Leitinger G, Lemus L, Leng S, Lenoir O, Lenz G, Lenz HJ, Lenzi P, León Y, Leopoldino AM, Leschczyk C, Leskelä S, Letellier E, Leung CT, Leung PS, Leventhal JS, Levine B, Lewis PA, Ley K, Li B, Li DQ, Li J, Li J, Li J, Li K, Li L, Li M, Li M, Li M, Li M, Li M, Li PL, Li MQ, Li Q, Li S, Li T, Li W, Li W, Li X, Li YP, Li Y, Li Z, Li Z, Li Z, Lian J, Liang C, Liang Q, Liang W, Liang Y, Liang Y, Liao G, Liao L, Liao M, Liao YF, Librizzi M, Lie PPY, Lilly MA, Lim HJ, Lima TRR, Limana F, Lin C, Lin CW, Lin DS, Lin FC, Lin JD, Lin KM, Lin KH, Lin LT, Lin PH, Lin Q, Lin S, Lin SJ, Lin W, Lin X, Lin YX, Lin YS, Linden R, Lindner P, Ling SC, Lingor P, Linnemann AK, Liou YC, Lipinski MM, Lipovšek S, Lira VA, Lisiak N, Liton PB, Liu C, Liu CH, Liu CF, Liu CH, Liu F, Liu H, Liu HS, Liu HF, Liu H, Liu J, Liu J, Liu J, Liu L, Liu L, Liu M, Liu Q, Liu W, Liu W, Liu XH, Liu X, Liu X, Liu X, Liu X, Liu Y, Liu Y, Liu Y, Liu Y, Liu Y, Livingston JA, Lizard G, Lizcano JM, Ljubojevic-Holzer S, LLeonart ME, Llobet-Navàs D, Llorente A, Lo CH, Lobato-Márquez D, Long Q, Long YC, Loos B, Loos JA, López MG, López-Doménech G, López-Guerrero JA, López-Jiménez AT, López-Pérez Ó, López-Valero I, Lorenowicz MJ, Lorente M, Lorincz P, Lossi L, Lotersztajn S, Lovat PE, Lovell JF, Lovy A, Lőw P, Lu G, Lu H, Lu JH, Lu JJ, Lu M, Lu S, Luciani A, Lucocq JM, Ludovico P, Luftig MA, Luhr M, Luis-Ravelo D, Lum JJ, Luna-Dulcey L, Lund AH, Lund VK, Lünemann JD, Lüningschrör P, Luo H, Luo R, Luo S, Luo Z, Luparello C, Lüscher B, Luu L, Lyakhovich A, Lyamzaev KG, Lystad AH, Lytvynchuk L, Ma AC, Ma C, Ma M, Ma NF, Ma QH, Ma X, Ma Y, Ma Z, MacDougald OA, Macian F, MacIntosh GC, MacKeigan JP, Macleod KF, Maday S, Madeo F, Madesh M, Madl T, Madrigal-Matute J, Maeda A, Maejima Y, Magarinos M, Mahavadi P, Maiani E, Maiese K, Maiti P, Maiuri MC, Majello B, Major MB, Makareeva E, Malik F, Mallilankaraman K, Malorni W, Maloyan A, Mammadova N, Man GCW, Manai F, Mancias JD, Mandelkow EM, Mandell MA, Manfredi AA, Manjili MH, Manjithaya R, Manque P, Manshian BB, Manzano R, Manzoni C, Mao K, Marchese C, Marchetti S, Marconi AM, Marcucci F, Mardente S, Mareninova OA, Margeta M, Mari M, Marinelli S, Marinelli O, Mariño G, Mariotto S, Marshall RS, Marten MR, Martens S, Martin APJ, Martin KR, Martin S, Martin S, Martín-Segura A, Martín-Acebes MA, Martin-Burriel I, Martin-Rincon M, Martin-Sanz P, Martina JA, Martinet W, Martinez A, Martinez A, Martinez J, Martinez Velazquez M, Martinez-Lopez N, Martinez-Vicente M, Martins DO, Martins JO, Martins WK, Martins-Marques T, Marzetti E, Masaldan S, Masclaux-Daubresse C, Mashek DG, Massa V, Massieu L, Masson GR, Masuelli L, Masyuk AI, Masyuk TV, Matarrese P, Matheu A, Matoba S, Matsuzaki S, Mattar P, Matte A, Mattoscio D, Mauriz JL, Mauthe M, Mauvezin C, Maverakis E, Maycotte P, Mayer J, Mazzoccoli G, Mazzoni C, Mazzulli JR, McCarty N, McDonald C, McGill MR, McKenna SL, McLaughlin B, McLoughlin F, McNiven MA, McWilliams TG, Mechta-Grigoriou F, Medeiros TC, Medina DL, Megeney LA, Megyeri K, Mehrpour M, Mehta JL, Meijer AJ, Meijer AH, Mejlvang J, Meléndez A, Melk A, Memisoglu G, Mendes AF, Meng D, Meng F, Meng T, Menna-Barreto R, Menon MB, Mercer C, Mercier AE, Mergny JL, Merighi A, Merkley SD, Merla G, Meske V, Mestre AC, Metur SP, Meyer C, Meyer H, Mi W, Mialet-Perez J, Miao J, Micale L, Miki Y, Milan E, Milczarek M, Miller DL, Miller SI, Miller S, Millward SW, Milosevic I, Minina EA, Mirzaei H, Mirzaei HR, Mirzaei M, Mishra A, Mishra N, Mishra PK, Misirkic Marjanovic M, Misasi R, Misra A, Misso G, Mitchell C, Mitou G, Miura T, Miyamoto S, Miyazaki M, Miyazaki M, Miyazaki T, Miyazawa K, Mizushima N, Mogensen TH, Mograbi B, Mohammadinejad R, Mohamud Y, Mohanty A, Mohapatra S, Möhlmann T, Mohmmed A, Moles A, Moley KH, Molinari M, Mollace V, Møller AB, Mollereau B, Mollinedo F, Montagna C, Monteiro MJ, Montella A, Montes LR, Montico B, Mony VK, Monzio Compagnoni G, Moore MN, Moosavi MA, Mora AL, Mora M, Morales-Alamo D, Moratalla R, Moreira PI, Morelli E, Moreno S, Moreno-Blas D, Moresi V, Morga B, Morgan AH, Morin F, Morishita H, Moritz OL, Moriyama M, Moriyasu Y, Morleo M, Morselli E, Moruno-Manchon JF, Moscat J, Mostowy S, Motori E, Moura AF, Moustaid-Moussa N, Mrakovcic M, Muciño-Hernández G, Mukherjee A, Mukhopadhyay S, Mulcahy Levy JM, Mulero V, Muller S, Münch C, Munjal A, Munoz-Canoves P, Muñoz-Galdeano T, Münz C, Murakawa T, Muratori C, Murphy BM, Murphy JP, Murthy A, Myöhänen TT, Mysorekar IU, Mytych J, Nabavi SM, Nabissi M, Nagy P, Nah J, Nahimana A, Nakagawa I, Nakamura K, Nakatogawa H, Nandi SS, Nanjundan M, Nanni M, Napolitano G, Nardacci R, Narita M, Nassif M, Nathan I, Natsumeda M, Naude RJ, Naumann C, Naveiras O, Navid F, Nawrocki ST, Nazarko TY, Nazio F, Negoita F, Neill T, Neisch AL, Neri LM, Netea MG, Neubert P, Neufeld TP, Neumann D, Neutzner A, Newton PT, Ney PA, Nezis IP, Ng CCW, Ng TB, Nguyen HTT, Nguyen LT, Ni HM, Ní Cheallaigh C, Ni Z, Nicolao MC, Nicoli F, Nieto-Diaz M, Nilsson P, Ning S, Niranjan R, Nishimune H, Niso-Santano M, Nixon RA, Nobili A, Nobrega C, Noda T, Nogueira-Recalde U, Nolan TM, Nombela I, Novak I, Novoa B, Nozawa T, Nukina N, Nussbaum-Krammer C, Nylandsted J, O'Donovan TR, O'Leary SM, O'Rourke EJ, O'Sullivan MP, O'Sullivan TE, Oddo S, Oehme I, Ogawa M, Ogier-Denis E, Ogmundsdottir MH, Ogretmen B, Oh GT, Oh SH, Oh YJ, Ohama T, Ohashi Y, Ohmuraya M, Oikonomou V, Ojha R, Okamoto K, Okazawa H, Oku M, Oliván S, Oliveira JMA, Ollmann M, Olzmann JA, Omari S, Omary MB, Önal G, Ondrej M, Ong SB, Ong SG, Onnis A, Orellana JA, Orellana JA, Orellana-Muñoz S, Ortega-Villaizan MDM, Ortiz-Gonzalez XR, Ortona E, Osiewacz HD, Osman AK, Osta R, Otegui MS, Otsu K, Ott C, Ottobrini L, Ou JJ, Outeiro TF, Oynebraten I, Ozturk M, Pagès G, Pahari S, Pajares M, Pajvani UB, Pal R, Paladino S, Pallet N, Palmieri M, Palmisano G, Palumbo C, Pampaloni F, Pan L, Pan Q, Pan W, Pan X, Panasyuk G, Pandey R, Pandey UB, Pandya V, Paneni F, Pang SY, Panzarini E, Papademetrio DL, Papaleo E, Papinski D, Papp D, Park EC, Park HT, Park JM, Park JI, Park JT, Park J, Park SC, Park SY, Parola AH, Parys JB, Pasquier A, Pasquier B, Passos JF, Pastore N, Patel HH, Patschan D, Pattingre S, Pedraza-Alva G, Pedraza-Chaverri J, Pedrozo Z, Pei G, Pei J, Peled-Zehavi H, Pellegrini JM, Pelletier J, Peñalva MA, Peng D, Peng Y, Penna F, Pennuto M, Pentimalli F, Pereira CM, Pereira GJS, Pereira LC, Pereira de Almeida L, Perera ND, Pérez-Lara Á, Perez-Oliva AB, Pérez-Pérez ME, Periyasamy P, Perl A, Perrotta C, Perrotta I, Pestell RG, Petersen M, Petrache I, Petrovski G, Pfirrmann T, Pfister AS, Philips JA, Pi H, Picca A, Pickrell AM, Picot S, Pierantoni GM, Pierdominici M, Pierre P, Pierrefite-Carle V, Pierzynowska K, Pietrocola F, Pietruczuk M, Pignata C, Pimentel-Muiños FX, Pinar M, Pinheiro RO, Pinkas-Kramarski R, Pinton P, Pircs K, Piya S, Pizzo P, Plantinga TS, Platta HW, Plaza-Zabala A, Plomann M, Plotnikov EY, Plun-Favreau H, Pluta R, Pocock R, Pöggeler S, Pohl C, Poirot M, Poletti A, Ponpuak M, Popelka H, Popova B, Porta H, Porte Alcon S, Portilla-Fernandez E, Post M, Potts MB, Poulton J, Powers T, Prahlad V, Prajsnar TK, Praticò D, Prencipe R, Priault M, Proikas-Cezanne T, Promponas VJ, Proud CG, Puertollano R, Puglielli L, Pulinilkunnil T, Puri D, Puri R, Puyal J, Qi X, Qi Y, Qian W, Qiang L, Qiu Y, Quadrilatero J, Quarleri J, Raben N, Rabinowich H, Ragona D, Ragusa MJ, Rahimi N, Rahmati M, Raia V, Raimundo N, Rajasekaran NS, Ramachandra Rao S, Rami A, Ramírez-Pardo I, Ramsden DB, Randow F, Rangarajan PN, Ranieri D, Rao H, Rao L, Rao R, Rathore S, Ratnayaka JA, Ratovitski EA, Ravanan P, Ravegnini G, Ray SK, Razani B, Rebecca V, Reggiori F, Régnier-Vigouroux A, Reichert AS, Reigada D, Reiling JH, Rein T, Reipert S, Rekha RS, Ren H, Ren J, Ren W, Renault T, Renga G, Reue K, Rewitz K, Ribeiro de Andrade Ramos B, Riazuddin SA, Ribeiro-Rodrigues TM, Ricci JE, Ricci R, Riccio V, Richardson DR, Rikihisa Y, Risbud MV, Risueño RM, Ritis K, Rizza S, Rizzuto R, Roberts HC, Roberts LD, Robinson KJ, Roccheri MC, Rocchi S, Rodney GG, Rodrigues T, Rodrigues Silva VR, Rodriguez A, Rodriguez-Barrueco R, Rodriguez-Henche N, Rodriguez-Rocha H, Roelofs J, Rogers RS, Rogov VV, Rojo AI, Rolka K, Romanello V, Romani L, Romano A, Romano PS, Romeo-Guitart D, Romero LC, Romero M, Roney JC, Rongo C, Roperto S, Rosenfeldt MT, Rosenstiel P, Rosenwald AG, Roth KA, Roth L, Roth S, Rouschop KMA, Roussel BD, Roux S, Rovere-Querini P, Roy A, Rozieres A, Ruano D, Rubinsztein DC, Rubtsova MP, Ruckdeschel K, Ruckenstuhl C, Rudolf E, Rudolf R, Ruggieri A, Ruparelia AA, Rusmini P, Russell RR, Russo GL, Russo M, Russo R, Ryabaya OO, Ryan KM, Ryu KY, Sabater-Arcis M, Sachdev U, Sacher M, Sachse C, Sadhu A, Sadoshima J, Safren N, Saftig P, Sagona AP, Sahay G, Sahebkar A, Sahin M, Sahin O, Sahni S, Saito N, Saito S, Saito T, Sakai R, Sakai Y, Sakamaki JI, Saksela K, Salazar G, Salazar-Degracia A, Salekdeh GH, Saluja AK, Sampaio-Marques B, Sanchez MC, Sanchez-Alcazar JA, Sanchez-Vera V, Sancho-Shimizu V, Sanderson JT, Sandri M, Santaguida S, Santambrogio L, Santana MM, Santoni G, Sanz A, Sanz P, Saran S, Sardiello M, Sargeant TJ, Sarin A, Sarkar C, Sarkar S, Sarrias MR, Sarkar S, Sarmah DT, Sarparanta J, Sathyanarayan A, Sathyanarayanan R, Scaglione KM, Scatozza F, Schaefer L, Schafer ZT, Schaible UE, Schapira AHV, Scharl M, Schatzl HM, Schein CH, Scheper W, Scheuring D, Schiaffino MV, Schiappacassi M, Schindl R, Schlattner U, Schmidt O, Schmitt R, Schmidt SD, Schmitz I, Schmukler E, Schneider A, Schneider BE, Schober R, Schoijet AC, Schott MB, Schramm M, Schröder B, Schuh K, Schüller C, Schulze RJ, Schürmanns L, Schwamborn JC, Schwarten M, Scialo F, Sciarretta S, Scott MJ, Scotto KW, Scovassi AI, Scrima A, Scrivo A, Sebastian D, Sebti S, Sedej S, Segatori L, Segev N, Seglen PO, Seiliez I, Seki E, Selleck SB, Sellke FW, Selsby JT, Sendtner M, Senturk S, Seranova E, Sergi C, Serra-Moreno R, Sesaki H, Settembre C, Setty SRG, Sgarbi G, Sha O, Shacka JJ, Shah JA, Shang D, Shao C, Shao F, Sharbati S, Sharkey LM, Sharma D, Sharma G, Sharma K, Sharma P, Sharma S, Shen HM, Shen H, Shen J, Shen M, Shen W, Shen Z, Sheng R, Sheng Z, Sheng ZH, Shi J, Shi X, Shi YH, Shiba-Fukushima K, Shieh JJ, Shimada Y, Shimizu S, Shimozawa M, Shintani T, Shoemaker CJ, Shojaei S, Shoji I, Shravage BV, Shridhar V, Shu CW, Shu HB, Shui K, Shukla AK, Shutt TE, Sica V, Siddiqui A, Sierra A, Sierra-Torre V, Signorelli S, Sil P, Silva BJA, Silva JD, Silva-Pavez E, Silvente-Poirot S, Simmonds RE, Simon AK, Simon HU, Simons M, Singh A, Singh LP, Singh R, Singh SV, Singh SK, Singh SB, Singh S, Singh SP, Sinha D, Sinha RA, Sinha S, Sirko A, Sirohi K, Sivridis EL, Skendros P, Skirycz A, Slaninová I, Smaili SS, Smertenko A, Smith MD, Soenen SJ, Sohn EJ, Sok SPM, Solaini G, Soldati T, Soleimanpour SA, Soler RM, Solovchenko A, Somarelli JA, Sonawane A, Song F, Song HK, Song JX, Song K, Song Z, Soria LR, Sorice M, Soukas AA, Soukup SF, Sousa D, Sousa N, Spagnuolo PA, Spector SA, Srinivas Bharath MM, St Clair D, Stagni V, Staiano L, Stalnecker CA, Stankov MV, Stathopulos PB, Stefan K, Stefan SM, Stefanis L, Steffan JS, Steinkasserer A, Stenmark H, Sterneckert J, Stevens C, Stoka V, Storch S, Stork B, Strappazzon F, Strohecker AM, Stupack DG, Su H, Su LY, Su L, Suarez-Fontes AM, Subauste CS, Subbian S, Subirada PV, Sudhandiran G, Sue CM, Sui X, Summers C, Sun G, Sun J, Sun K, Sun MX, Sun Q, Sun Y, Sun Z, Sunahara KKS, Sundberg E, Susztak K, Sutovsky P, Suzuki H, Sweeney G, Symons JD, Sze SCW, Szewczyk NJ, Tabęcka-Łonczynska A, Tabolacci C, Tacke F, Taegtmeyer H, Tafani M, Tagaya M, Tai H, Tait SWG, Takahashi Y, Takats S, Talwar P, Tam C, Tam SY, Tampellini D, Tamura A, Tan CT, Tan EK, Tan YQ, Tanaka M, Tanaka M, Tang D, Tang J, Tang TS, Tanida I, Tao Z, Taouis M, Tatenhorst L, Tavernarakis N, Taylor A, Taylor GA, Taylor JM, Tchetina E, Tee AR, Tegeder I, Teis D, Teixeira N, Teixeira-Clerc F, Tekirdag KA, Tencomnao T, Tenreiro S, Tepikin AV, Testillano PS, Tettamanti G, Tharaux PL, Thedieck K, Thekkinghat AA, Thellung S, Thinwa JW, Thirumalaikumar VP, Thomas SM, Thomes PG, Thorburn A, Thukral L, Thum T, Thumm M, Tian L, Tichy A, Till A, Timmerman V, Titorenko VI, Todi SV, Todorova K, Toivonen JM, Tomaipitinca L, Tomar D, Tomas-Zapico C, Tomić S, Tong BC, Tong C, Tong X, Tooze SA, Torgersen ML, Torii S, Torres-López L, Torriglia A, Towers CG, Towns R, Toyokuni S, Trajkovic V, Tramontano D, Tran QG, Travassos LH, Trelford CB, Tremel S, Trougakos IP, Tsao BP, Tschan MP, Tse HF, Tse TF, Tsugawa H, Tsvetkov AS, Tumbarello DA, Tumtas Y, Tuñón MJ, Turcotte S, Turk B, Turk V, Turner BJ, Tuxworth RI, Tyler JK, Tyutereva EV, Uchiyama Y, Ugun-Klusek A, Uhlig HH, Ułamek-Kozioł M, Ulasov IV, Umekawa M, Ungermann C, Unno R, Urbe S, Uribe-Carretero E, Üstün S, Uversky VN, Vaccari T, Vaccaro MI, Vahsen BF, Vakifahmetoglu-Norberg H, Valdor R, Valente MJ, Valko A, Vallee RB, Valverde AM, Van den Berghe G, van der Veen S, Van Kaer L, van Loosdregt J, van Wijk SJL, Vandenberghe W, Vanhorebeek I, Vannier-Santos MA, Vannini N, Vanrell MC, Vantaggiato C, Varano G, Varela-Nieto I, Varga M, Vasconcelos MH, Vats S, Vavvas DG, Vega-Naredo I, Vega-Rubin-de-Celis S, Velasco G, Velázquez AP, Vellai T, Vellenga E, Velotti F, Verdier M, Verginis P, Vergne I, Verkade P, Verma M, Verstreken P, Vervliet T, Vervoorts J, Vessoni AT, Victor VM, Vidal M, Vidoni C, Vieira OV, Vierstra RD, Viganó S, Vihinen H, Vijayan V, Vila M, Vilar M, Villalba JM, Villalobo A, Villarejo-Zori B, Villarroya F, Villarroya J, Vincent O, Vindis C, Viret C, Viscomi MT, Visnjic D, Vitale I, Vocadlo DJ, Voitsekhovskaja OV, Volonté C, Volta M, Vomero M, Von Haefen C, Vooijs MA, Voos W, Vucicevic L, Wade-Martins R, Waguri S, Waite KA, Wakatsuki S, Walker DW, Walker MJ, Walker SA, Walter J, Wandosell FG, Wang B, Wang CY, Wang C, Wang C, Wang C, Wang CY, Wang D, Wang F, Wang F, Wang F, Wang G, Wang H, Wang H, Wang H, Wang HG, Wang J, Wang J, Wang J, Wang J, Wang K, Wang L, Wang L, Wang MH, Wang M, Wang N, Wang P, Wang P, Wang P, Wang P, Wang QJ, Wang Q, Wang QK, Wang QA, Wang WT, Wang W, Wang X, Wang X, Wang Y, Wang Y, Wang Y, Wang YY, Wang Y, Wang Y, Wang Y, Wang Y, Wang Z, Wang Z, Wang Z, Warnes G, Warnsmann V, Watada H, Watanabe E, Watchon M, Wawrzyńska A, Weaver TE, Wegrzyn G, Wehman AM, Wei H, Wei L, Wei T, Wei Y, Weiergräber OH, Weihl CC, Weindl G, Weiskirchen R, Wells A, Wen RH, Wen X, Werner A, Weykopf B, Wheatley SP, Whitton JL, Whitworth AJ, Wiktorska K, Wildenberg ME, Wileman T, Wilkinson S, Willbold D, Williams B, Williams RSB, Williams RL, Williamson PR, Wilson RA, Winner B, Winsor NJ, Witkin SS, Wodrich H, Woehlbier U, Wollert T, Wong E, Wong JH, Wong RW, Wong VKW, Wong WW, Wu AG, Wu C, Wu J, Wu J, Wu KK, Wu M, Wu SY, Wu S, Wu SY, Wu S, Wu WKK, Wu X, Wu X, Wu YW, Wu Y, Xavier RJ, Xia H, Xia L, Xia Z, Xiang G, Xiang J, Xiang M, Xiang W, Xiao B, Xiao G, Xiao H, Xiao HT, Xiao J, Xiao L, Xiao S, Xiao Y, Xie B, Xie CM, Xie M, Xie Y, Xie Z, Xie Z, Xilouri M, Xu C, Xu E, Xu H, Xu J, Xu J, Xu L, Xu WW, Xu X, Xue Y, Yakhine-Diop SMS, Yamaguchi M, Yamaguchi O, Yamamoto A, Yamashina S, Yan S, Yan SJ, Yan Z, Yanagi Y, Yang C, Yang DS, Yang H, Yang HT, Yang H, Yang JM, Yang J, Yang J, Yang L, Yang L, Yang M, Yang PM, Yang Q, Yang S, Yang S, Yang SF, Yang W, Yang WY, Yang X, Yang X, Yang Y, Yang Y, Yao H, Yao S, Yao X, Yao YG, Yao YM, Yasui T, Yazdankhah M, Yen PM, Yi C, Yin XM, Yin Y, Yin Z, Yin Z, Ying M, Ying Z, Yip CK, Yiu SPT, Yoo YH, Yoshida K, Yoshii SR, Yoshimori T, Yousefi B, Yu B, Yu H, Yu J, Yu J, Yu L, Yu ML, Yu SW, Yu VC, Yu WH, Yu Z, Yu Z, Yuan J, Yuan LQ, Yuan S, Yuan SF, Yuan Y, Yuan Z, Yue J, Yue Z, Yun J, Yung RL, Zacks DN, Zaffagnini G, Zambelli VO, Zanella I, Zang QS, Zanivan S, Zappavigna S, Zaragoza P, Zarbalis KS, Zarebkohan A, Zarrouk A, Zeitlin SO, Zeng J, Zeng JD, Žerovnik E, Zhan L, Zhang B, Zhang DD, Zhang H, Zhang H, Zhang H, Zhang H, Zhang H, Zhang H, Zhang H, Zhang HL, Zhang J, Zhang J, Zhang JP, Zhang KYB, Zhang LW, Zhang L, Zhang L, Zhang L, Zhang L, Zhang M, Zhang P, Zhang S, Zhang W, Zhang X, Zhang XW, Zhang X, Zhang X, Zhang X, Zhang X, Zhang XD, Zhang Y, Zhang Y, Zhang Y, Zhang YD, Zhang Y, Zhang YY, Zhang Y, Zhang Z, Zhang Z, Zhang Z, Zhang Z, Zhang Z, Zhang Z, Zhao H, Zhao L, Zhao S, Zhao T, Zhao XF, Zhao Y, Zhao Y, Zhao Y, Zhao Y, Zheng G, Zheng K, Zheng L, Zheng S, Zheng XL, Zheng Y, Zheng ZG, Zhivotovsky B, Zhong Q, Zhou A, Zhou B, Zhou C, Zhou G, Zhou H, Zhou H, Zhou H, Zhou J, Zhou J, Zhou J, Zhou J, Zhou K, Zhou R, Zhou XJ, Zhou Y, Zhou Y, Zhou Y, Zhou ZY, Zhou Z, Zhu B, Zhu C, Zhu GQ, Zhu H, Zhu H, Zhu H, Zhu WG, Zhu Y, Zhu Y, Zhuang H, Zhuang X, Zientara-Rytter K, Zimmermann CM, Ziviani E, Zoladek T, Zong WX, Zorov DB, Zorzano A, Zou W, Zou Z, Zou Z, Zuryn S, Zwerschke W, Brand-Saberi B, Dong XC, Kenchappa CS, Li Z, Lin Y, Oshima S, Rong Y, Sluimer JC, Stallings CL, Tong CK.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Guideline",
+        "review-article",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "autophagy-mechanism",
+        "autophagy-flux",
+        "autophagy-specificity"
+      ],
+      "rawSha256": "df5a4188142fec63aafa82a68d36b4b39f6e00e12427e29e7081ddc4d115e789",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "9da9748b907c2a935ae24480e81abee99487bd2c0c429484daa18c249ce02539",
+      "evidenceType": "Consensus or assay guidance"
+    },
+    {
+      "pmid": "4272126",
+      "doi": "10.1016/s0021-9258(19)43080-9",
+      "title": "Reconstitution of purple membrane vesicles catalyzing light-driven proton uptake and adenosine triphosphate formation.",
+      "authors": "Racker E, Stoeckenius W.",
+      "year": "1974",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4272126/",
+      "indexedTypes": [
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": false,
+      "fullTextRead": false,
+      "claimsVerified": [],
+      "rawSha256": "57bac23fc84d342f73b39d2a91a59a03d1810f687f63c576d2298c1c28283ece",
+      "identityComparedToGuide": false,
+      "readingDepth": "Original paper Summary and Introduction read from indexed primary-paper transcription; publisher PDF blocked, no PDF read claimed.",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [
+        "oxidative-phosphorylation-gradient"
+      ],
+      "abstractSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim",
+      "selectedPrimaryTextRead": true
+    },
+    {
+      "pmid": "6305978",
+      "doi": "10.1016/s0021-9258(20)82050-x",
+      "title": "Components of ubiquitin-protein ligase system. Resolution, affinity purification, and role in protein breakdown.",
+      "authors": "Hershko A, Heller H, Elias S, Ciechanover A.",
+      "year": "1983",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "ubiquitin-and-proteasome-enzymes",
+        "ubiquitin-and-proteasome-measurement"
+      ],
+      "rawSha256": "4b366c3d592fcd6e0ef587c6d006ba2fa65d6b66188b1cc5c399d57827837e7a",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "cc2f94188abd8056ff8723ac9f8d717a4538ab348d8a13272225a7536dda12b3",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "8689682",
+      "doi": "10.1016/s0092-8674(00)80085-9",
+      "title": "Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c.",
+      "authors": "Liu X, Kim CN, Yang J, Jemmerson R, Wang X.",
+      "year": "1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8689682/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-mechanism",
+        "apoptosis-and-bcl2-family-compartment"
+      ],
+      "rawSha256": "1ab94fb72964d7edd54f7d5f7535f3948d3b31c337211ca3ed8fcdb6f1a541aa",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "79aef7f8ae0b6d0ac90dc9d3bd25e3a47ae764290023a6f334a77cc4e136260a",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "9727492",
+      "doi": "10.1016/s0092-8674(00)81590-1",
+      "title": "Cleavage of BID by caspase 8 mediates the mitochondrial damage in the Fas pathway of apoptosis.",
+      "authors": "Li H, Zhu H, Xu CJ, Yuan J.",
+      "year": "1998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9727492/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-mechanism"
+      ],
+      "rawSha256": "27454261deded83c9c2228dd3ec23b65291900c08a10d3f04bdc08dc9def9cb4",
+      "identityComparedToGuide": false,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "3890ebde3cfec3857192fcdfd1b46ebc15fe161604ab758fa0842b86acc6ee16",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "9930704",
+      "doi": "10.1038/16729",
+      "title": "Protein translation and folding are coupled by an endoplasmic-reticulum-resident kinase.",
+      "authors": "Harding HP, Zhang Y, Ron D.",
+      "year": "1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9930704/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "claimsVerified": [
+        "er-stress-and-unfolded-protein-response-branches",
+        "er-stress-and-unfolded-protein-response-compartments",
+        "er-stress-and-unfolded-protein-response-measurement"
+      ],
+      "rawSha256": "8b6b48537aabd9d1f54fad070fad662f8efc3f3f4f992adb02db7fd92763169f",
+      "identityComparedToGuide": true,
+      "readingDepth": "raw MED abstract",
+      "fullTextSectionsRead": [],
+      "claimsNotVerified": [],
+      "abstractSha256": "1649c517ec6909d61f772ebf483fa519480c756b79f895eb503d226562dbdab1",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "24355989",
+      "doi": "10.1038/nrm3722",
+      "title": "Control of apoptosis by the BCL-2 protein family: implications for physiology and therapy.",
+      "authors": "Czabotar PE, Lessene G, Strasser A, Adams JM.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24355989/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "Review",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "fullTextSectionsRead": [],
+      "readingDepth": "raw MED abstract",
+      "claimsVerified": [
+        "apoptosis-and-bcl2-family-family"
+      ],
+      "claimsNotVerified": [],
+      "abstractSha256": "14b789cba38d4d5ce76b863c1129c27e78d529638a79f792d6fd8cf3d0d820e2",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "39121846",
+      "doi": "10.1016/j.cell.2024.05.059",
+      "title": "Guidelines for minimal information on cellular senescence experimentation in vivo.",
+      "authors": "Ogrodnik M, Carlos Acosta J, Adams PD, d'Adda di Fagagna F, Baker DJ, Bishop CL, Chandra T, Collado M, Gil J, Gorgoulis V, Gruber F, Hara E, Jansen-Dürr P, Jurk D, Khosla S, Kirkland JL, Krizhanovsky V, Minamino T, Niedernhofer LJ, Passos JF, Ring NAR, Redl H, Robbins PD, Rodier F, Scharffetter-Kochanek K, Sedivy JM, Sikora E, Witwer K, von Zglinicki T, Yun MH, Grillari J, Demaria M.",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39121846/",
+      "indexedTypes": [
+        "research-article",
+        "Review",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "fullTextSectionsRead": [],
+      "readingDepth": "raw MED abstract",
+      "claimsVerified": [
+        "senescence-measurement"
+      ],
+      "claimsNotVerified": [],
+      "abstractSha256": "613bbe2ea012da404e57706ad9ab62f939d307693fc95899c82dc9d265ead3f6",
+      "evidenceType": "Consensus or assay guidance"
+    },
+    {
+      "pmid": "19041766",
+      "doi": "10.1016/j.cmet.2008.10.008",
+      "title": "Switch-like control of SREBP-2 transport triggered by small changes in ER cholesterol: a delicate balance.",
+      "authors": "Radhakrishnan A, Goldstein JL, McDonald JG, Brown MS.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19041766/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": true,
+      "fullTextSectionsRead": "Summary; Introduction; Experimental procedures material/context; no SREBP-1 or cholesterol-specific rescue claim inferred",
+      "readingDepth": "raw primary/consensus abstract plus named full-text sections",
+      "claimsVerified": [
+        "cholesterol-and-srebp-transport",
+        "cholesterol-and-srebp-compensation"
+      ],
+      "claimsNotVerified": [
+        "cholesterol-and-srebp-members",
+        "cholesterol-and-srebp-rescue"
+      ],
+      "abstractSha256": "e9031b7d95fc8dbabde6de0192c8d26b6ef76ba6fdc8ca858303c133d1904473",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "25499914",
+      "doi": "10.1016/j.devcel.2014.11.012",
+      "title": "An essential role for senescent cells in optimal wound healing through secretion of PDGF-AA.",
+      "authors": "Demaria M, Ohtani N, Youssef SA, Rodier F, Toussaint W, Mitchell JR, Laberge RM, Vijg J, Van Steeg H, Dollé ME, Hoeijmakers JH, de Bruin A, Hara E, Campisi J.",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25499914/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": true,
+      "fullTextSectionsRead": "Summary and introductory marker/context discussion",
+      "readingDepth": "raw primary/consensus abstract plus named full-text sections",
+      "claimsVerified": [
+        "senescence-secretions"
+      ],
+      "claimsNotVerified": [],
+      "abstractSha256": "f7346099ba58ed7be019627d252c9c085c106fc22deab34aac2c882527c94533",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "33584716",
+      "doi": "10.3389/fimmu.2020.620602",
+      "title": "Assessing Autophagy in Microglia: A Two-Step Model to Determine Autophagosome Formation, Degradation, and Net Turnover.",
+      "authors": "Plaza-Zabala A, Sierra-Torre V, Sierra A.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "methods-article",
+        "Journal Article"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "fullTextSectionsRead": "Abstract only",
+      "readingDepth": "raw MED abstract",
+      "claimsVerified": [
+        "autophagy-flux"
+      ],
+      "claimsNotVerified": [],
+      "abstractSha256": "5b061bd1a4c3e2776a4bb30bacee70d9d5c8449faeb7a1bd021a8ea263158616",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "19053174",
+      "doi": "10.1371/journal.pbio.0060301",
+      "title": "Senescence-associated secretory phenotypes reveal cell-nonautonomous functions of oncogenic RAS and the p53 tumor suppressor.",
+      "authors": "Coppé JP, Patil CK, Rodier F, Sun Y, Muñoz DP, Goldstein J, Nelson PS, Desprez PY, Campisi J.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19053174/",
+      "indexedTypes": [
+        "Clinical Trial, Phase II",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "fullTextSectionsRead": [],
+      "readingDepth": "raw MED abstract",
+      "claimsVerified": [
+        "senescence-secretions"
+      ],
+      "claimsNotVerified": [],
+      "abstractSha256": "6d2d34f404da7a56cc2d4e90ab8e928743143dbba86214830d7e3cd57d9c75fc",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "9616204",
+      "doi": "10.1172/jci2961",
+      "title": "Activation of cholesterol synthesis in preference to fatty acid synthesis in liver and adipose tissue of transgenic mice overproducing sterol regulatory element-binding protein-2.",
+      "authors": "Horton JD, Shimomura I, Brown MS, Hammer RE, Goldstein JL, Shimano H.",
+      "year": "1998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9616204/",
+      "indexedTypes": [
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "rawSha256": "99b3d6b634cd8f710ace2c0b3e8281c6d44201dfaa2430f3ecb3c1db9f4b3dbf",
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "selectedPrimaryTextRead": false,
+      "readingDepth": "Raw primary abstract; transgenic mouse, tissue and method scope",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    },
+    {
+      "pmid": "22265415",
+      "doi": "10.1016/j.cell.2011.12.017",
+      "title": "Mutant p53 disrupts mammary tissue architecture via the mevalonate pathway.",
+      "authors": "Freed-Pastor WA, Mizuno H, Zhao X, Langerød A, Moon SH, Rodriguez-Barrueco R, Barsotti A, Chicas A, Li W, Polotskaia A, Bissell MJ, Osborne TF, Tian B, Lowe SW, Silva JM, Børresen-Dale AL, Levine AJ, Bargonetti J, Prives C.",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22265415/",
+      "indexedTypes": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "rawSha256": "ba617d78050b2c119447fbd83957b9f5355971b5ecd3ea621e1de4db3f20f53b",
+      "identityResolved": true,
+      "abstractRead": true,
+      "fullTextRead": false,
+      "selectedPrimaryTextRead": true,
+      "readingDepth": "Raw primary abstract and selected author-manuscript Results/Discussion and Figure 5 context",
+      "evidenceType": "Indexed journal article; experimental scope retained per claim"
+    }
+  ],
+  "educationalSources": [
+    {
+      "title": "OpenStax Biology 2e, 7.4 Oxidative Phosphorylation",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation",
+      "readingDepth": "Selected actual text on compartments, proton movement and ATP synthase; educational rather than primary experimental evidence."
+    }
+  ],
+  "accessFailures": [
+    {
+      "pmcid": "PMC25679",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC25679/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2652870",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2652870/fullTextXML",
+      "error": "The read operation timed out",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2668214",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2668214/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2673298",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2673298/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2674027",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2674027/fullTextXML",
+      "error": "The read operation timed out",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2849637",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2849637/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC2931797",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2931797/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC304534",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC304534/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC3049805",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3049805/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC3078618",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3078618/fullTextXML",
+      "sha256": "5ca9c141adcd2c7687a69889e050cd9e8b63cdb8f1bc3de858fbde8ee57a7f00",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC3367386",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3367386/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC3404470",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3404470/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC3607316",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3607316/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC4076414",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4076414/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC4105133",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4105133/fullTextXML",
+      "sha256": "791697c126c6d2c8ffb88a98fb8917f83551b4f56f7cb7579cd917516eb2e93b",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC4349629",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4349629/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC4692795",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4692795/fullTextXML",
+      "sha256": "3b6a34e516879d162ca5f543646e2a50d5918bbff811af204782953fc1285bca",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC4752889",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4752889/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC479737",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC479737/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC5003261",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5003261/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC5378721",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5378721/fullTextXML",
+      "sha256": "79de63d07286be383a81a0f0ffc1db16ce466de199793ab29f10401a9dccd340",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC5409486",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5409486/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC5864239",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5864239/fullTextXML",
+      "sha256": "d54b4ad5d08fcc024e99ed405bc6f0e55ceb43f64c1d70c274b3255f97047768",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC6093231",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6093231/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC6547080",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6547080/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC6883167",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6883167/fullTextXML",
+      "sha256": "601838070fcffd2f854a1df4909695a8cf5e015b6a5cad5bdc6e9d157ea468ff",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC7064135",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7064135/fullTextXML",
+      "sha256": "7d8a46f34d404e2cef3a7e71cd6717998c5a73348dcc404c7463b20ad6bb0bbf",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC7088435",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7088435/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC7878397",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7878397/fullTextXML",
+      "sha256": "a751edf70c346c834df725143878885d835a3d8fa700f9d1fd67f143e5b45a2d",
+      "status": "retrieved",
+      "fullTextRead": false
+    },
+    {
+      "pmcid": "PMC7996087",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7996087/fullTextXML",
+      "error": "HTTP Error 500: ",
+      "status": "access-failed",
+      "fullTextRead": false
+    }
+  ],
+  "scope": "Abstract, selected-text and complete-correction depths are itemised. Primary experiments, reviews, consensus guidance and educational text are distinct. Failed PDF/challenge/no-body captures are not called full-text reading."
+}

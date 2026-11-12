@@ -1,0 +1,4382 @@
+{
+  "algorithm": "sha256",
+  "scope": "Every audit artifact below this directory except this manifest; raw source bodies and review media remain private.",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "f75084d5bc233b95194702c89bf5625b28e567e809e557db0a6bce7fbf1a1f6b"
+    },
+    {
+      "path": "access-completion-2026-11-09/capture-manifest.json",
+      "sha256": "c039d15be687a724b55c0da7cf8b0862dadbd7caeba92b15c2ef292f71dc096d"
+    },
+    {
+      "path": "access-completion-2026-11-09/record-sources.json",
+      "sha256": "03ebd5e55e98a25b8f61fb94903419904d83e17fc898d36439815ce4d2be4c75"
+    },
+    {
+      "path": "access-completion-2026-11-09/render-verification.json",
+      "sha256": "a0143740fb7222a989293e3f1a3191b8b7b5ca10bddbb6d36cc7d5722fa57f75"
+    },
+    {
+      "path": "access-completion-2026-11-09/scope.json",
+      "sha256": "bd3a1c168f86839d171254b5bf9c59ef29b29b3b87b7c7ccc36a5c411063745b"
+    },
+    {
+      "path": "access-completion-2026-11-09/source-scopes.json",
+      "sha256": "724376138c3b0d6f2d0f1d2a2f5db44cd6d1149b849bd6614b2a00b9dfcbcd3d"
+    },
+    {
+      "path": "access-guides-2026-11-11/README.md",
+      "sha256": "d4aa2a23e486399209624b94c9ccac7b78fe22ddbdd821aca4301c9bc7f156e5"
+    },
+    {
+      "path": "access-guides-2026-11-11/adjacent-queue.json",
+      "sha256": "713ef5ed20a3e8284572cec45b2ef3342fff8a2db2f16db3157e6a45386d1710"
+    },
+    {
+      "path": "access-guides-2026-11-11/aggregate-reconciliation.json",
+      "sha256": "ce021eb78f4aa2de5b2482eab1bae29160f018066edf344f9c9f90c5cf423ee8"
+    },
+    {
+      "path": "access-guides-2026-11-11/artifact-review.json",
+      "sha256": "f702dc00da0e48761fbf61b7aa95219e1d2e985aa9d016d2bf5962e871c3bca2"
+    },
+    {
+      "path": "access-guides-2026-11-11/batch-summary.json",
+      "sha256": "a43a2d91facb78bb4a84c462982f9a96fe98f9fe11bf8dbab465ffa9bbe93312"
+    },
+    {
+      "path": "access-guides-2026-11-11/coverage-proofs.json",
+      "sha256": "554d7a123aa513cf05dfee0f4f344b131125b89d8428376d1e5caeb9ed6c105f"
+    },
+    {
+      "path": "access-guides-2026-11-11/learning-requirements.json",
+      "sha256": "b6bbbd2e7836d4ef8675c2fd6dd9c6294efeeabc1aaacf974940e222ed41d98a"
+    },
+    {
+      "path": "access-guides-2026-11-11/primary-sources.json",
+      "sha256": "a2903c8325adf0785ed926e1918767bdfe9eb25d8d4599d53dbb1466fb19a9d5"
+    },
+    {
+      "path": "access-guides-2026-11-11/record-changes.json",
+      "sha256": "c23af4d9d877f4eb2ba83931ea5b99b21f8158cc6a2b7e819873856b5c17cae2"
+    },
+    {
+      "path": "access-guides-2026-11-11/remaining-gaps.json",
+      "sha256": "763b4327a22ca9d4c7848e6e2b78ec3f40783a8ab4aa94c707cd80f2a3db1314"
+    },
+    {
+      "path": "access-guides-2026-11-11/review-findings.json",
+      "sha256": "adc00fc57e3ff1856d9274df1e4843b36520cd6e75b6778935159d71693b9e3e"
+    },
+    {
+      "path": "access-guides-2026-11-11/source-reading.json",
+      "sha256": "3e8f47aeec1ab0e825d6028442f387f424e6bbe2f364fd0130f8d4eaa2fd32aa"
+    },
+    {
+      "path": "access-guides-2026-11-11/validation.json",
+      "sha256": "7dedde3ebab03afd6449a2e16d887d0ac999930150fc435ddb285ab0e1f98adb"
+    },
+    {
+      "path": "access-guides-2026-11-11/zero-change-replay.json",
+      "sha256": "cb85c0d6b75628719e0581fe0daed9224501ee0f8695132d009e181a3035f8a3"
+    },
+    {
+      "path": "access-primary/cms-clia.html.gz",
+      "sha256": "0d893640717d6288b67b74c2722c963b9cce6da9422d86c02502de282499065b"
+    },
+    {
+      "path": "access-primary/cms-ldt-faq.pdf.gz",
+      "sha256": "edb23f7954e99299bc865fec4476df47f757943f9ad0613ad6f25cb3c5dc4973"
+    },
+    {
+      "path": "access-primary/ctgov-definitions.html.gz",
+      "sha256": "22f9e2b5d5a48e995192150e89d415d812a19c45c62a09b1f489608f252629b0"
+    },
+    {
+      "path": "access-primary/ecfr-312-2.html.gz",
+      "sha256": "01d68551f1fd949c9d2e1d8b24993cce5e80c8f4494c21e70847e13dc9947cc4"
+    },
+    {
+      "path": "access-primary/ecfr-312-3.html.gz",
+      "sha256": "01d68551f1fd949c9d2e1d8b24993cce5e80c8f4494c21e70847e13dc9947cc4"
+    },
+    {
+      "path": "access-primary/ema-marketing.html.gz",
+      "sha256": "9a4deadef6eab89d992767a84ef61a3434135ee7c397f31e28a897727077e5c1"
+    },
+    {
+      "path": "access-primary/ema-prime.html.gz",
+      "sha256": "549910384d4f50b7f62cf5016c5032b1fcc65ec60100ca1536b2463cd08a23e0"
+    },
+    {
+      "path": "access-primary/fda-accelerated.html.gz",
+      "sha256": "2e7f338a1437b6de3bb3ebf4244df806ec38122d6db474f1050bbb6e01b5cb2f"
+    },
+    {
+      "path": "access-primary/fda-bla.html.gz",
+      "sha256": "abcb1b94ff142eb9764b67f909901439b743b09180a4ad8be0306a6e411067b9"
+    },
+    {
+      "path": "access-primary/fda-companion-group-guidance.pdf.gz",
+      "sha256": "74c4c8acade2b6ab9cbf298f1ea13a483bc906d40d6071b6414d4e6f62081ffa"
+    },
+    {
+      "path": "access-primary/fda-companion-guidance.pdf.gz",
+      "sha256": "88b9cf95ca3972d11ce9e478258f58f0f7c1e92403cab587ac875da27fd0a5e3"
+    },
+    {
+      "path": "access-primary/fda-companion-list.html.gz",
+      "sha256": "3779fe16e83a375c713afa1b9c1b57bee75cd08e68002daee3413ed929d4eb78"
+    },
+    {
+      "path": "access-primary/fda-companion.html.gz",
+      "sha256": "1fb606de012ab95faa125ffc05c1a1532f5d6b25fc51d06bf9de34c05e83a299"
+    },
+    {
+      "path": "access-primary/fda-expanded-irb.html.gz",
+      "sha256": "ffeaad4a1a29b9b5bcddf9e68e59f5882e3cc6f0ae3098810c8c00a1657d3c8a"
+    },
+    {
+      "path": "access-primary/fda-expanded-qa.pdf.gz",
+      "sha256": "396c31f4f43c9c08d8ea7b2c6437b9b18562a58b733055820c373bf876e1ad82"
+    },
+    {
+      "path": "access-primary/fda-expanded.html.gz",
+      "sha256": "bd274bc0b969b8a825678b9b2df1b2153be1bb239cdbff3596159b52a905ab92"
+    },
+    {
+      "path": "access-primary/fda-expedited-guidance.pdf.gz",
+      "sha256": "72b13a292f6480039ef819fb31db4b07bc48172ea6c8df573305e6ba6de2618e"
+    },
+    {
+      "path": "access-primary/fda-expedited.html.gz",
+      "sha256": "dc74eea7b6fa773c1f3cc339e501dcdbf7d05cb5903228121fcb5d8bfb3b6c3f"
+    },
+    {
+      "path": "access-primary/fda-ind-exemptions.html.gz",
+      "sha256": "bc0868343f2f407b12e71eaf011920c6ed4a0000a12db07311e0cdbd501af12b"
+    },
+    {
+      "path": "access-primary/fda-ind.html.gz",
+      "sha256": "aea6c1afc6d13c1d176e868c7f498c7369ddfe9b63c34d9caeb40b31ddeda645"
+    },
+    {
+      "path": "access-primary/fda-ldt.html.gz",
+      "sha256": "b209142561c59a30c9bb245e8c6744b0f4839bd0aa10081036407729fe0ab471"
+    },
+    {
+      "path": "access-primary/fda-nda.html.gz",
+      "sha256": "bfb419a2df42cea457e45a36e330e35da822b1c0168c3a4b319026590276bac5"
+    },
+    {
+      "path": "access-primary/fda-offlabel.html.gz",
+      "sha256": "29b660467b772efc8e762e7c1328b73dbbbc0d1a4d154020b71ce64062a5f2ed"
+    },
+    {
+      "path": "access-primary/fda-registration.html.gz",
+      "sha256": "d076b61d87f7054e7100cc9a7cfe6ab1eada926887b48128934614d0dd4c8997"
+    },
+    {
+      "path": "access-primary/fda-righttotry.html.gz",
+      "sha256": "012f9236d94e2e815fdcc007afaf334e4072cf037696af108fb121d7e638789c"
+    },
+    {
+      "path": "access-primary/fda-rmat.html.gz",
+      "sha256": "30a7fdbbb4a998ad50e1d7605c3b13a82693a556700f58e99d341e00e1872459"
+    },
+    {
+      "path": "access-primary/fda-ruo.pdf.gz",
+      "sha256": "8de374d4dd9a2ea2926fa2e71e28059f077ba19c179755819f018eee5bad72e4"
+    },
+    {
+      "path": "access-primary/govinfo-ind-definitions-2025.pdf.gz",
+      "sha256": "dffe73b29e96c2fc1ef961d5276997a8482faaff99f243c83a45a3ea22d996d4"
+    },
+    {
+      "path": "access-primary/govinfo-ind-definitions-2026.html.gz",
+      "sha256": "1d257b9449f24e069d7ad463f390274dc3aab204fe13ff2f7f21e89fb092fee9"
+    },
+    {
+      "path": "access-primary/govinfo-recruitment-definitions.pdf.gz",
+      "sha256": "d322637a5f966d6410fc52690a6de86987b41eed954521ce08b28f60a42efd02"
+    },
+    {
+      "path": "access-primary/manifest.json",
+      "sha256": "d425e0197de71db1667a362647db14ced36a323a8defad72e0a9cad78fd87a4a"
+    },
+    {
+      "path": "access-primary/nci-trial-expect.html.gz",
+      "sha256": "912553ac831cbdcbbac99e16f606f437e31ee8f06aaed4dea690bf3fcaa8e518"
+    },
+    {
+      "path": "access-primary/nci-trial-search.html.gz",
+      "sha256": "825c60054ca0f9c6cfe012a4d918452b667698c1f4d6a6fe93340167e6ea8029"
+    },
+    {
+      "path": "access-record-sources.json",
+      "sha256": "5de458d91e260bf23cf67b089f938e66f49f4944d5ad18e603146a0987622b66"
+    },
+    {
+      "path": "access-render-verification.json",
+      "sha256": "12978919bb0c93b2dbcf8b1e97a00b0858715a8e5233ea602bbad321a1ad12cc"
+    },
+    {
+      "path": "access-validation.md",
+      "sha256": "3de1d5451500a601699a469dd57fdfe146f94c25bb903704a9eff245663e0df4"
+    },
+    {
+      "path": "adjacent-concepts.json",
+      "sha256": "d65a5972a4f491a161b9b566dfaaf6ce6845a28d416db2b3abbad913dce81eb3"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/README.md",
+      "sha256": "d9db43ee6b8b2d1709be80e7dce1abfa13b5df6cb9e80b8b84bf8cc442d56c62"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/api-verification.json",
+      "sha256": "dfc9920aa08ee9cdbe369e2929afc9dff571559160491a0c980fcb43771c6aba"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/coverage-proofs.json",
+      "sha256": "067ba437c5356c5b0023fbaecee728bc3959769374f4e594d62cb3417afd7d32"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/figure-reading.json",
+      "sha256": "8820bfb673bcb2a2745ba535f3fff186aafd6c6f854dabc87258d3d8edd4169a"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/independent-review-followup.json",
+      "sha256": "f1cb82bfe147f59d924c92008e4a9e33282c2439e4623bfe17ec31701f1d60f7"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/intake-verification.json",
+      "sha256": "34812eb5674e875d87ef72407f217b2ae480b8d43713621de8e61d5d78f5ecfd"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/learning-requirements.json",
+      "sha256": "ddc8bbf78cfaee098c165e48dbd7d5c6bbebd8b3b4e807eccfee482d419cd096"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/primary-sources.json",
+      "sha256": "056f94710abb045a7a7cb9a5ac79c276a5947e241f8bd514b3561be3d6a51020"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/render-verification.json",
+      "sha256": "a7136064c30522b1233f553f6a6b6d97c353e1bb75e35e46d6df8d85debdcb20"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/scope.json",
+      "sha256": "6cffd2caac74ba5b1ab579b756807383f02adbe61f6e20a8ec0c5db3469f74dd"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/section-dispositions.json",
+      "sha256": "13c63eac0ee79918de1ca21450e40ff72162e490ebb151d19a6bda057950a321"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/source-reading.json",
+      "sha256": "1c386641573fd508f27bc11b5043dc4d609905a82e3761dfc24a19284e942682"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/summary-consumers.json",
+      "sha256": "cea828a087b4b0ebed1997d0e9a91991660a5299a783a8fca2c81a664df1b0f7"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/validation.json",
+      "sha256": "d537fce342018fc92b2984c68a4c43968a911fd74426bff6504852d9528752bb"
+    },
+    {
+      "path": "antigen-antibodies-2026-11-09/xref-verification.json",
+      "sha256": "7ba423220bdc766a3be299b8cddf11688c08ca2e295798f713b3e6929910534f"
+    },
+    {
+      "path": "artifact-recovery-2026-11-09.json",
+      "sha256": "d0fda745d2c889207b003d048df88a2e5d5c040e09b06138dcbf1ac5b5591175"
+    },
+    {
+      "path": "asset-scope-reconciliation-2026-11-10.json",
+      "sha256": "f55ef522e69d380619468626503694d1e5a525037ee9647984f5058cddd8c2a7"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/README.md",
+      "sha256": "b741e6e2f6853798e4fd5752d3e7db11051dff3da2581e477922d72073417ff1"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/api-verification.json",
+      "sha256": "1ced7e019176b0222c12c596ceeaa6d6a7ca1c1cab851b6552d9acbdaff4580c"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/coverage-proofs.json",
+      "sha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/figures.json",
+      "sha256": "2acb8d9e861c99f4572fd50b0d46928482d370a1d9c819ae14997cb104ffaf9b"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/learning-requirements.json",
+      "sha256": "ed468b4a9178a728b589e5e50fdbc48bd0c7ecb799bdc19771d45168c8b0a025"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/literature-screen.json",
+      "sha256": "8b5ea7fee34d43fabfbd736fdc1f478543d9a868dca5e44d24c3b508743763db"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/primary-sources.json",
+      "sha256": "9b334face78c0eb4b6c76274383b836d22dd1ff0111561fb1bf98bf555ddebc4"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/proof-revisions.json",
+      "sha256": "7aae4165306e69bbe0d8da8e9c4c38852d291f2947aa100e039133807ae64ad4"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/record-changes.json",
+      "sha256": "fafc40ea26085f6ec21864407fc36c566a5ae24110df435f03f7d67c47bd3bc5"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/remaining-gaps.json",
+      "sha256": "b40e28880a91375861cd983f2359f26be6134433002fdfa64fd960f7ed3d566d"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/render-verification.json",
+      "sha256": "fcd8e58affd541791f33ab65848142ad23a59ae093febbe2292a31442d04e7cb"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37c3e533b34737aad9df90b250906cb5ab2cb4de7c613e7b91228e35c75e1c4e"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/scope.json",
+      "sha256": "2561d6a76d5967ebe7e1799fb608a000b13f8ed7047194c625856c39e409b09e"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/source-reading.json",
+      "sha256": "c51083425fb11bd800d8112be2031a8e1e88c418306a6dbebd08de23e2f4fdf4"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/summary-consumers.json",
+      "sha256": "1932b708a726d4ac8a038fc789e2857b0872b93be2e5dd1e9a0714f5ca594913"
+    },
+    {
+      "path": "binders-cmc-2026-11-10/validation.json",
+      "sha256": "392f2a3b15d56c0cd303147dd3e936baa866b71c95d8e5a755a17e1f6c95818b"
+    },
+    {
+      "path": "biology-completion-2026-11-09/capture-manifest.json",
+      "sha256": "2c6aa0fddf82b19f91808d911c32dd9aa295f0168ec2bb802a4fe1c51f6ec238"
+    },
+    {
+      "path": "biology-completion-2026-11-09/publication-identities.json",
+      "sha256": "f548ebd7a618e0733976a78580f9514eb978abddeb8680faab1699a5196f9548"
+    },
+    {
+      "path": "biology-completion-2026-11-09/record-sources.json",
+      "sha256": "fad474b70ed2a3c95defe48e8b3e036d2c50e9407997ce4907d171b5e1f4af81"
+    },
+    {
+      "path": "biology-completion-2026-11-09/render-verification.json",
+      "sha256": "9837d221f5959f16f357e47f61bb72f74f1c79877affe573781368ebf831284d"
+    },
+    {
+      "path": "biology-completion-2026-11-09/scope.json",
+      "sha256": "b2c78e1cbbcf9b1c6726aef7ec7cd192f5a0578db202b3e47e38333bfc9f7a41"
+    },
+    {
+      "path": "biology-completion-2026-11-09/source-scopes.json",
+      "sha256": "24bf8ce33c745987e0ef40e3b3a99f5d5bb3223e10451a4ad091f79188ca0e29"
+    },
+    {
+      "path": "biology-primary/alternate-manifest.json",
+      "sha256": "b750023c3096733e5b7d8f3d4f1295625ee726878412d608e69762b7e6af7314"
+    },
+    {
+      "path": "biology-primary/official-manifest.json",
+      "sha256": "83075b041cc529a53f74376c16948ad9ecf38467adb38b5a87d261818cd9cadd"
+    },
+    {
+      "path": "biology-primary/publication-identities.json",
+      "sha256": "839920f34751643e3b9102fd9986db10889e73024b17c54afff81b8ae032feba"
+    },
+    {
+      "path": "biology-primary/targeted-fulltext.json",
+      "sha256": "e350fa5e714833619714c6da4d0fb8cafba12b79372e5066c503b61d4caa6c2a"
+    },
+    {
+      "path": "biology-record-sources.json",
+      "sha256": "7d322c272e088a2329ce3f5814bedf80236eb2c21fb1c7ec28dfb8cff4b1d281"
+    },
+    {
+      "path": "biology-render-verification.json",
+      "sha256": "813b1c904522da8f7d39ff42eaaba1bafba87c5ad6d4fb1a7a9b9ffaa04d2327"
+    },
+    {
+      "path": "biology-validation.md",
+      "sha256": "9055ea78b651ef4e72c43b5950ea1e0103e4c14fc377383b7664efc7c3e4ec84"
+    },
+    {
+      "path": "blood-immune-2026-11-10/README.md",
+      "sha256": "8c6e1ef7a6ef1d025342448c3d981399fdb019b75e79b6b30d88a096f977e572"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/README.md",
+      "sha256": "4ce512d3717761614b99b6f55f1295f1a78f5c1d98506487f84256391e48a1c4"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/adjacent-queue.json",
+      "sha256": "76e82bc9273a46ede66bbf6c6011f2cd229695ff2ee7437e1b39f8efa1539952"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/batch-summary.json",
+      "sha256": "20a0a5b26b6b83dfd72a567daf6cbf9621b653506004bd84a830c3e758af79bc"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/coverage-proofs.json",
+      "sha256": "458353ca02fd4c773b2f90c5ec3649814ce4f60107884c39c10db243418b652a"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/figure-review-reuse.json",
+      "sha256": "6ca657af7e5aa4e3e4e6a4fb3ca681a088f2c0fad9d3ef28d432b36c46be487b"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/learning-requirements.json",
+      "sha256": "af651982d12a78ec14fb24afd3eebc15879bee5fd3b024881a7aa31584ce89b9"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/non-counting-dispositions.json",
+      "sha256": "6743e5ef194303342c08c58469ca7158e3f8a0d2cc180b1b812a2504e46e5794"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/pending-proof-refreshes.json",
+      "sha256": "c1c17d5676b48a1bd4254c9c4abf650e69473ab17cacf86b7258862e020a50fc"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/primary-sources.json",
+      "sha256": "57e29e920b8627692460ed773c02eb4e35a410d70a26ef588f219d5fbe497a63"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/record-changes.json",
+      "sha256": "eed7ccbc913861e21de216c1dc1e52e72cf6ae4de483ba27dfa1f9ee32749292"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/remaining-gaps.json",
+      "sha256": "492bb5a58c077a9fe3fe64f74c3ddff4b92024461094aed8e7fc0f2d96e466ec"
+    },
+    {
+      "path": "blood-immune-2026-11-10/acceptance-r2/source-reading.json",
+      "sha256": "d206eb2e258f2aaf98d1e378618b1a3a21d8a6e984cf8a7e2177e614e02cb960"
+    },
+    {
+      "path": "blood-immune-2026-11-10/adjacent-queue.json",
+      "sha256": "5b46dfa26e12781524f68237d669f6fa84f76313bd764e849c950ff1a35b6659"
+    },
+    {
+      "path": "blood-immune-2026-11-10/batch-summary.json",
+      "sha256": "05044bd23211fc79c732aa6bb555de472e079bc6280e122a09608a4dc27ba68f"
+    },
+    {
+      "path": "blood-immune-2026-11-10/closure-checkpoint.json",
+      "sha256": "787173742ef008c8361652e79b3881877dfca7f4dbacefeb2eb01b80b384c933"
+    },
+    {
+      "path": "blood-immune-2026-11-10/coverage-proofs.json",
+      "sha256": "215dcfb0b7f3c93b453dc44778cd9811efa718975d9991b8e7260584344dba6a"
+    },
+    {
+      "path": "blood-immune-2026-11-10/learning-requirements.json",
+      "sha256": "83b518d7e4c1ecff20def5acc2951ff0469c370c85d13f99c1d69feb1416c88c"
+    },
+    {
+      "path": "blood-immune-2026-11-10/pending-proof-refreshes.json",
+      "sha256": "9f7918b377a0a331f497faeb9f19c6069375ba08a9792d9f5f4030ac79a105f9"
+    },
+    {
+      "path": "blood-immune-2026-11-10/primary-sources.json",
+      "sha256": "fa2ac9396291a8973a1e64e817fc332f608b3d6ac185bb5dc416f6637801704e"
+    },
+    {
+      "path": "blood-immune-2026-11-10/record-changes.json",
+      "sha256": "7ff3d0b8a6e77d97fe119f749bee252ad9014f9630e86b6dab976fc5c0b0dba7"
+    },
+    {
+      "path": "blood-immune-2026-11-10/remaining-gaps.json",
+      "sha256": "63b7cfcabafeb3d9226bc64cc92f86bbb51b6959b535c47adcd2b317d8872195"
+    },
+    {
+      "path": "blood-immune-2026-11-10/source-reading.json",
+      "sha256": "e49c67e5154efe2c990b5272d67cb8816a192f4640fc64d17af1fa7f8b44d282"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/README.md",
+      "sha256": "91b67345ed8a8e015d8b6631e7c0defe9203fb61a515a62246fea9dd82d66dae"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/adjacent-queue.json",
+      "sha256": "0535cbc1e917a46295600890e46df1460c382d92bf2aec4f31bd70f41d7db5d1"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/batch-summary.json",
+      "sha256": "79f3015c351aa19037c4cec3025099799b3866c99a561d9cbe88834ca52021e6"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/coverage-proofs.json",
+      "sha256": "ec8b86c1aa71cc24fa643aacf0d72ab7a8cd40c4c88d071d8b864208b3d65749"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/figure-review.json",
+      "sha256": "6fa7af8549c346d453f1fd451e2432c39b4afe1de7b3cb2b51a8551e00329e4d"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/learning-requirements.json",
+      "sha256": "87192b830be57038d39c5ca695ee842d1a0d8f9a49de1bc92259e2c392c00593"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/ledger-integration.json",
+      "sha256": "1068ac1b07e9cde7329f3841a40f1b5df0603fe92f84011ae66dea462ae3d3cb"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/primary-sources.json",
+      "sha256": "a239f70f9646a0be9e2831b1bec924b7efea620cc6cbdfb191f5c624f49136ba"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/reader-verification.json",
+      "sha256": "3fdbff002a928e7166117d55b7aac0ccd8fc05343c1aaa14da9a2898d64111c9"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/record-changes.json",
+      "sha256": "966a76b58535833a9a2466d3c4259b4595af99c6d41f5dc67743877c90f10e49"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/remaining-gaps.json",
+      "sha256": "d6ab88fc99aadcce5cfdfb07705d69b9c323d100fe71a7008788e26721034b15"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/review-findings.json",
+      "sha256": "b3e46ec4995f77a936563f2f2cb7ab262d274df359ff60c8c6b6b9e912860017"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/source-block-acceptance.json",
+      "sha256": "bcdf7fc80d5a91a39b33a839c9c0cff10eada9f00ec49d6c0f38b7a65ad69a92"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/source-reading.json",
+      "sha256": "0be9bb01053057550a3cff76b9f58e2d1168bbf3dbeb2740e5c6f686280125ec"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/validation.json",
+      "sha256": "81e194039ea0821e54267bbd1c90024ff8eaca32e51a1bcd0417e07507f42f0c"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/version-reconciliation.json",
+      "sha256": "781501ce7766d875f3ece75c5c8270cb03182267775cf11303caae17dcc8d148"
+    },
+    {
+      "path": "breast-concepts-2026-11-11/whole-graph-verification.json",
+      "sha256": "f9d41f23918a6f40f1d67af12002ce568ed158d10ee3ada328ce4e34999e1d31"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/README.md",
+      "sha256": "6a9dbd7531daa982dd24c64acf92a6ccbac29a9ea291d3089f5f11ac0d589d06"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/api-verification.json",
+      "sha256": "b0fc6ae441004b55227ad9da402baddbcdb94b636fb548a91d6f0bc88916bca4"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/coverage-proofs.json",
+      "sha256": "9ba3799a8a860f956cd7d7118ff17772230419610e512aac9e8535b318211f7e"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/figure-identity-checks.json",
+      "sha256": "4a08fea0af0000b4df6c0e0fb5e829a73e8ca9365c4a3193b8c985f6f079b881"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/figures.json",
+      "sha256": "5f54b5adbc82dead8ec5e014332e05d655f001f0266d97483a9f2666ddc89be9"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/fresh-source-capture-checks.json",
+      "sha256": "b6b0f8744c9dd285bb7791a0cf7ec54a97d0fe6ee19e42b3e72a45674768e963"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/learning-requirements.json",
+      "sha256": "9ba3799a8a860f956cd7d7118ff17772230419610e512aac9e8535b318211f7e"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/non-guide-dispositions.json",
+      "sha256": "e5672974e07309f511cd2fdbb24d864e7e8a6917777d5746992847254593b184"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/primary-sources.json",
+      "sha256": "79060b649699de51e99c85d4f15d3fe33eedbc4cb9abbfdc54ba5ddb954ff1d5"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/record-changes.json",
+      "sha256": "078b62b950f45751cd7a710546aeb488b2490f577a4457eac9525257b3695a62"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/remaining-gaps.json",
+      "sha256": "c73ec3c35a1d4ddd9b5587775e04afc369849d19f1254ff766d64c1e656b5d22"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/rendered-requirement-verification.json",
+      "sha256": "920156a4742c2fa3beaf672556463eed007b71dd787b0c6a1e07504a5ff3d056"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/scope.json",
+      "sha256": "dd11a880acec4cc186b07f02b0175b5c54b40e9d32c4b8aca8056ebe8db9162b"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/section-map.json",
+      "sha256": "2f70715ac52a72dc324cba1770fca41dc04c69f450c0b32106d50363c93210a5"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/source-capture-checks.json",
+      "sha256": "6a3ebdad5c59dad53ab4c2aeacdacb90feac329dd7b3f5c5b1cb2aa36c08eba6"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/source-reading.json",
+      "sha256": "d4b2e22eb16ecae20ef712b9e6615236a221f688252372df8a4bd3d482f49d6a"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/source-version-checks.json",
+      "sha256": "52a90761ab13970b0caba28183e1c92c1d3d50fb366b03237369b5586ef3c95e"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/summary-consumers.json",
+      "sha256": "1d2f3738d18171693d4ae47c005ec5830f2d6b6a14368c47b2c3ed7da4d77dc9"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/validation.json",
+      "sha256": "c83417f362c73497f9215f71aed1b68163f7916cbb33a7715f185c00ffa081d1"
+    },
+    {
+      "path": "breast-pathology-2026-11-10/worker-schema-hash-checks.json",
+      "sha256": "bcdb1ca4bdb29045a15eae01dde8beabd9b871195b40e444c85a53489263cb4a"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/README.md",
+      "sha256": "c4bac8e7a6a49f74cfb397061f8af4f0847e10374271e3b43f0abc919e8f7279"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/adjacent-queue.json",
+      "sha256": "c097d33fbf8e251b179be5283be8436c401547a392ba42ccb7ff9605106181e2"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/arithmetic-verification.json",
+      "sha256": "4ba3ae18fa538e1ba02b0aa4a4682934dffe2015f708e098296f52533f3c0942"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/batch-summary.json",
+      "sha256": "2182e2677f10aed241e3d0147e634d708159311e1a1f1fdb761c71c275c13920"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/citation-labels.json",
+      "sha256": "7210f82c5949b264a39d1f2ee719655eb51ea510ec3f602dbcba40d3d86b3f68"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/correction-dispositions.json",
+      "sha256": "5cae42747bcbe7b66edec6959d4d681cc78dc5c4352aa49fed3656e91e813c04"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/coverage-proofs.json",
+      "sha256": "4674aa26f0b1ee02aa86851249fc03bd29d0c9cf30991c8d8022176fa3417957"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/doi-registry-additions.json",
+      "sha256": "9af31626e84f11e07bd6ef744940502bda6c3a69cf0b9ffed4cbd1d3ca402498"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/figures-and-diagrams.json",
+      "sha256": "e3dd2741808c874256d9e780a7c7525c3fadee0f2b19c48f58a63925489eb55d"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/learning-requirements.json",
+      "sha256": "5fafe3a8f1d7421232c806e53a88bc7ea0918b0441e5e703196e016473e0754c"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/ledger-replay-verification.json",
+      "sha256": "f989cb8bb8605f4463e56d53de7a845a806b953e9615b11532cfc03974fe0242"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/ownership-preservation.json",
+      "sha256": "fedd56f57ec7ea7391f317305a544346b4694a7724c12629f1262758a09df37f"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/primary-sources.json",
+      "sha256": "269ed64761380e25b60902933e7e8f43561d0e7875a9ef810c9f3cc4e0bf001b"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/record-changes.json",
+      "sha256": "1f89a7587ab441f5cfed042303871feb382e3de650ac28d32e0033b050557cbe"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/remaining-gaps.json",
+      "sha256": "7f3ef0d92f241424b2b9f8cf64ee940812f06c8d473c67273026fbeebb9df1c9"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/short-reader-changes.json",
+      "sha256": "4b9fb74909f524bb903ff7a84f19718d30a89931568fe2574c7b76887767d603"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/source-reading.json",
+      "sha256": "a8cd917a8c36f83049bd3f622edcdef85da89ca300020c028fbb6a882abab6f0"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/validation.json",
+      "sha256": "6a3fa646c41db1c69f5b9ba492fe8f230c6eb1ca64fc778f05569f9391986cfa"
+    },
+    {
+      "path": "cancer-biology-2026-11-10/worker-block-reconciliation.json",
+      "sha256": "c62b62b47d50c8cca0c43a48a12bb623d4c8010580fe38928f8282392f6bb9bf"
+    },
+    {
+      "path": "candidates.json",
+      "sha256": "1a5f13b8a2423ec4f86799fb202ca104cb5e3174c63b57780428ed16cfd7b533"
+    },
+    {
+      "path": "cell-control-primary/capture-manifest.json",
+      "sha256": "310d713c40b9f7999c1c1a65156f70dfbd550ac507c988c6426e8e1c49da4334"
+    },
+    {
+      "path": "cell-control-primary/publication-identities.json",
+      "sha256": "c226d1c8646f15631aae52b280d4b097935a942113e162fa7d76c695781cd27f"
+    },
+    {
+      "path": "cell-control-primary/reading-scope.json",
+      "sha256": "549b7ff38f02f0042974a349d95f28abb1cf7daf8330941c7b911eea5c093090"
+    },
+    {
+      "path": "cell-control-record-sources.json",
+      "sha256": "5e282fc38085e90f8804de48d192ae14ade01e3828aade831c2750cb0d6ef6a0"
+    },
+    {
+      "path": "cell-control-render-verification.json",
+      "sha256": "d771b1a77c0b747d714b2a747f3beec7079abf9c5541db461170605da6e62b79"
+    },
+    {
+      "path": "cell-control-retrieval-verification.json",
+      "sha256": "c96041ac6aae63a9829d365c6f8242ee36f35a2574dca3f17c591911a5d11ca4"
+    },
+    {
+      "path": "cell-control-validation.md",
+      "sha256": "f3fc7b3d32d3626ff212fe0fdbbeac355f62d802c710c3e64faf061c601296d5"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/README.md",
+      "sha256": "c02de2dbbfd4fb76eba69e3cb2d96dceda964832601aa6a41e29309aa37e0350"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/capture-manifest.json",
+      "sha256": "ee16c595229687287cd86bf8fa06d9f3dd5dc12e38222d3f61aa83197bbfc1d3"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/elicit-discovery.json",
+      "sha256": "6983d2f6ec79deeb42c0bc626611b4797b633d92451ba64097f2cf306c24b1ba"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/field-proof-refreshes.json",
+      "sha256": "63be5444748e21256f9dc704babfdb8859311d2169fe462be847fab109d63ab6"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/literature-occurrences.json",
+      "sha256": "ec3c7c96ab55e04c97086e7a431c7c82b84cad9339eec390fb3d92a650acaa7e"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/primary-identities.json",
+      "sha256": "d1b71dd1db1154bcc65b48ad8eb4bf60f7c69858793a64ffd6437cf80a6e23b9"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/registry-discovery.json",
+      "sha256": "e2682e9c84eb17b765975ebd1c4b0b17d47b997ecefcf3472414a38a3eca7b0c"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/render-verification.json",
+      "sha256": "a18ac0906da8d50258e6eeb402fd0413a5c1c2baa97a5a402629d985543a724c"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/scope.json",
+      "sha256": "6d53f03ec6dd441a55b2da8703bd400190fe1069136e262cc9b958595f3b158a"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/source-reading.json",
+      "sha256": "f5d75ef720507c7bae4c5e4de692bf7a49331fab36bec72455670635646d850a"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/source-scopes.json",
+      "sha256": "fcc9bb0f6981898b7d32fa510dcb3e89f3f30746ef88b7fc83ff03b7e8f8bbcb"
+    },
+    {
+      "path": "cell-manufacturing-2026-11-09/validation.json",
+      "sha256": "ae9c12287d0c8a6c18c33505bd265276916a2816f3e3b36658940b4e7a6d2185"
+    },
+    {
+      "path": "cell-primary/access-limitations.json",
+      "sha256": "75b383b6cb3f032e5360840dc9b0f77b6a756a6c689e9eca9a4f7f710bf20fb8"
+    },
+    {
+      "path": "cell-primary/capture-manifest.json",
+      "sha256": "4e9ff6a60dd591fb15f135d9975988ae85afec2f1d1986a2a38820f80fb9eed0"
+    },
+    {
+      "path": "cell-primary/preprint-identity.json",
+      "sha256": "e79757004a6b0f9d7681acbaefddb1856c7b083c6359eef0c6c4f47ed19316cc"
+    },
+    {
+      "path": "cell-primary/publication-identities.json",
+      "sha256": "31535b929647b2a8d80ee7d383a0b5a7b9fcb6533af0fe43cc4d51c7a04eb37b"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/adjacent-queue.json",
+      "sha256": "bb279aa4e5e12f8a577a43ada22966aec0b9a8234e80cf4c249419228779cd2e"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/arithmetic-verification.json",
+      "sha256": "be423748778f8ef83713592e0b66766b23bb1fa3b1c83c7db0270a5bdb2dc1b5"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/asset-classification.json",
+      "sha256": "5936ab924458472d7897abd3cec55474fce15097108a3abe9b25f969335669a1"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/batch-summary.json",
+      "sha256": "aa646d4a766ce431d4a2f104579f8ac00d364ee38d51330c452c5500e0540273"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/coverage-proofs.json",
+      "sha256": "b89dd7f997ad13cdc1508337379cc02c26cc3b793872161df266bf44fd6c73f0"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/figure-review.json",
+      "sha256": "207bd2986b0ef81dd52c623b775b2e9177b21368abfb0120f7657c56b7817078"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/learning-requirements.json",
+      "sha256": "1138062957592bc642a90dface663c1f23a60e5c35f1b45cb5d2808a76bf2867"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/primary-sources.json",
+      "sha256": "0eae75f4b63fb534bfff1809fd75f102d0b6af02eb25f6dea4732205354056a5"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/record-changes.json",
+      "sha256": "7148d7c1761996b3f035fcade6f746f322c4a059960c0e99798479e9804c940e"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/remaining-gaps.json",
+      "sha256": "4b566c5380893eccbbbfecb2b6d1042dd0658f9fb415331ad53ccd67df9b2cfe"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/rendered-passage-verification.json",
+      "sha256": "0e41507e3bffbd95d4e8f454611888dcc28c3ea6e002375c9c3f6e196c563024"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/root-export-verification.json",
+      "sha256": "721517b150297dd5844b34e98c46c014ad6e41fb7349a36a20b6e90da01c0b18"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/source-reading.json",
+      "sha256": "e4578ed35dde7c9761fb94f86bac47bd0fcf6b0c63fe0331f2dc7477c5fc4813"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/summary-consumers.json",
+      "sha256": "da66b8a2dec23aabae4ab70cfd613a34d6c26feeb050d51e9fa1c21ecb883904"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/validation.json",
+      "sha256": "7a0ed3138c4afb95cf193c2c78cdbdef461c075a9e0995759a2b62d815193d46"
+    },
+    {
+      "path": "cell-process-source-closure-2026-11-11/whole-graph-verification.json",
+      "sha256": "edd02dc457c17b65a254ca099fced41b59f45a803832bfd6423fb201cb56395e"
+    },
+    {
+      "path": "cell-record-sources.json",
+      "sha256": "150c039ef48406214e32a3704d83e8b309d87a46fb18464da02dd6b9dacfa6da"
+    },
+    {
+      "path": "cell-render-verification.json",
+      "sha256": "d2570fabce048dd44b24be84562b07b1c50af629933f0b904e6b8f8229f5e8c6"
+    },
+    {
+      "path": "cell-retrieval-verification.json",
+      "sha256": "914d4f1c695cf7c5f48f79bd88a2e82093725471215619e6792921c156e40248"
+    },
+    {
+      "path": "cell-validation.md",
+      "sha256": "ccc8dbca54f9f1b0fd81abf65da0374ace237d7aba85060890646e66d3f56e56"
+    },
+    {
+      "path": "chk1-follow-up/capture-manifest.json",
+      "sha256": "60335091b45e1219ea72c7415db4e9d756b49c156ea3088aebd7c3a3d5024723"
+    },
+    {
+      "path": "chk1-follow-up/crossref-title-candidates.json",
+      "sha256": "87cd038da26714e745f6ebaa2e4bd12618ef6ac1f6abf8abfcfc470ba59a775e"
+    },
+    {
+      "path": "chk1-follow-up/papers.json",
+      "sha256": "84c3ec8ba72e9bd39e289b96acec29035b82fdb35c5ad7aac8a2c94b97d86aae"
+    },
+    {
+      "path": "chk1-follow-up/publication-identities.json",
+      "sha256": "3c24207068f54a0ac2177e352ad7252b1503d586601dde0809f5eed39666713a"
+    },
+    {
+      "path": "chk1-follow-up/registry-captures.json",
+      "sha256": "bc50229a658416b77b097c42b50d502a47a8ddf65be1f4d810749e1e1a727dd6"
+    },
+    {
+      "path": "chk1-follow-up/registry-dispositions.json",
+      "sha256": "4a1560fe3169bc5651f23b1a97077288fb7a84e973996bb71bd198456fe7b035"
+    },
+    {
+      "path": "chk1-follow-up/render-verification.json",
+      "sha256": "bc0cf23a5514b00ee6a8e3e08638b45691799fa8284d909a4d645f14cae22789"
+    },
+    {
+      "path": "chk1-follow-up/scope.json",
+      "sha256": "f1c97ddaed72c204dfd3eda8331c8a64deec4fd01f645793c0e684171ed0ee66"
+    },
+    {
+      "path": "chk1-follow-up/trials.json",
+      "sha256": "96b73316022aa73886d11ae5dbd472c9cb54c928b69af21f68e03f44ce7cfeb4"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/capture-manifest.json",
+      "sha256": "09ec524e5b3b20a811042a7b1294abb503452a1b3b4468e08ddda75b8c9c9977"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/discovery-queries.json",
+      "sha256": "7b928b814898352aa7ab66a6fdc9a603d064a8a1c12513b2d5c10099c66896cf"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/elicit-discovery.json",
+      "sha256": "9992b816d9ee9ab30a93f94e19152aa081bb3a5c4c68f4194a0ad7bcc211eef7"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/field-proof-refreshes.json",
+      "sha256": "72863d12caee22d8626ac316a2712d26eda48e998f32582134f5137eee2a7759"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/literature-occurrences.json",
+      "sha256": "a915305f42fc15cfbabce7370125255d62fa9815d69c7cf4d18432dacec10892"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/primary-identities.json",
+      "sha256": "7d411d978b4d63059fe84bce980d8eed62436aba140bd52085cb78792b3de6af"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/registry-discovery.json",
+      "sha256": "576749db4da47e45b379a549a23f47e4c0f821c8db526783e683f963ee84e643"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/render-verification.json",
+      "sha256": "f131c357e10e641de52a0041e272a366f9a5bfa275f2027d0ddb9b98d3fcc877"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/scope.json",
+      "sha256": "4ffa68d3b6bd25c2c03482c735831f416c9040e4a53325ad1dc4aaf149314352"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/source-reading.json",
+      "sha256": "baf83d6dc70c5382e434566b24473c9df2937a6b55e32ca30d192ff32d107d92"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/source-scopes.json",
+      "sha256": "b72969e4f317cee5a7e9887c1afe6c0a15fa46cdbba62836dbf0624f713dddaa"
+    },
+    {
+      "path": "cytokine-receptors-2026-11-09/validation.json",
+      "sha256": "5d2a158faf392fc44426a7b887cd14c46979b404449f552e0688421951435809"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/README.md",
+      "sha256": "1f4188692cfaefda8ce8e2d6d4a4cd4bada13cd7cb31d581f3928c322c6e24b8"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/adjacent-queue.json",
+      "sha256": "5a9ec3a401b909e1137465aac97b99caf015c06dcff3b7c956412811a109303d"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/api-verification.json",
+      "sha256": "550bfbd5fcc624b895ef4a91cdc252173f60c7ce8110dade7bcbb52cb92a1801"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/block-reconciliation.json",
+      "sha256": "7402bcc4968ff90070d385a56135bc798eedb6f0cd1ce20e69c8b45478689df7"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/coverage-proofs.json",
+      "sha256": "a7700b0045776f5884a5d5ab9eccd65993a99fea890b22217fe1cc67ba73750c"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/figure-reading.json",
+      "sha256": "c8c43f97575f0b7fe02efd85af6a3aaec804397987bb1bf3fe5b5c1d515db3e0"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/graph-corrections.json",
+      "sha256": "88a865225d52d363cf334a0d222fbe104dbc5d9f792a7e08d6068e43f77deb11"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/intake-verification.json",
+      "sha256": "57c229d6911ccfcbfd45718c09c2005b48c3d0d3f24b8d7c76d87145df0af9ce"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/learning-requirements.json",
+      "sha256": "260f288ff83dd4177058eeba6a4e66bfcade6129101e191a36b2efeb88a8aec5"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/mechanism-map-reading.json",
+      "sha256": "27e7f87809a4f0ad688291e89cdc888ca9a8c1ca818fd60404c28503ae283998"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/primary-sources.json",
+      "sha256": "ebcefc7325fb2fc02d51ae3b2b54d127c64d649f4d073f8e20788416c6144a73"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/render-verification.json",
+      "sha256": "6c1817750b2882eb70cb4bcd8bfd9d32d76c077dc99c7510f7ce520fb4084efc"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/requirement-clarifications.json",
+      "sha256": "4f072d24d5819f5ef7069fbca53aa1e663d81e4ad6f04706cfe9f54ddb055728"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/scope.json",
+      "sha256": "75d10d694ed00ac8f83cb0eb1aa40ba712819c6825f600d14f40349085b2c9a9"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/section-dispositions.json",
+      "sha256": "12828b85defc9887e68cb4a19e3a0d70bad855edd9a02cd6a83168e01711b1ff"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/source-closures.json",
+      "sha256": "13e547a5e9eec989b74f2f8a7f085d1fed80f4add2b3fe76222d08b2c5f8aca4"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/source-reading.json",
+      "sha256": "1af3bf8ac0240e2d2a9e9059946eb8859fb19003ef8e1baa0030ceede81336e4"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/summary-consumers.json",
+      "sha256": "aac6c278f6dd2298eba456cba0adf86e7f60e9bb31e0d1786d59a0472497f750"
+    },
+    {
+      "path": "death-metabolism-2026-11-09/validation.json",
+      "sha256": "e0784a175ee052000d2a989c131cbc493e43033eb41de8670ed855509f194e10"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/README.md",
+      "sha256": "522be2df630570b85f7adde60e06699fa8fff063afd6e4d870b4eaa16c861896"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/adjacent-queue.json",
+      "sha256": "87839e5936630ba57d7cf0756bb3a05dc2af2eebbf276fac0a1e411369a714b2"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/aggregate.json",
+      "sha256": "1a660b2bca27e446e6c406144dd75d02a23972086b2601e3fda561f3ca236952"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/batch-summary.json",
+      "sha256": "d7497829febfc62b61ce5f4af6c914f59023dbb50cf1d504ebaf67d010168a3d"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/capture-hashes.json",
+      "sha256": "98417ad432df4b2e1ce1f9fc7110591692636a5c4a477d06ef8c55eb0aa18f2e"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/coverage-proofs.json",
+      "sha256": "ee96d4bf48670bfb4e9d1bd55dba48341e8fbc4c2fdb88cb607a057524e42b15"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/figure-review.json",
+      "sha256": "bac0beb3964b197505a05c9f5c379ad76c89739dbf5e165f1295ea1c0a66a754"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/learning-requirements.json",
+      "sha256": "b9274e8a2af5bc29343d9aae20ccff9d67cf57e66452cafcd165dcc7e5dafa0d"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/overview-accounting.json",
+      "sha256": "fa3b9f1eceb14a72b0d5ad4fd323fda02017c5bb0559ab34291849a42a922cbd"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/preservation-audit.json",
+      "sha256": "7b0b1ff55819afb32fd2425e23022f828ae7c607d3345e55cff611d512cab8c8"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/primary-sources.json",
+      "sha256": "1385e91374545b3b30881ade3c90c6efb99a45100e73befa94312a382cc26787"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/prior-field-rebases.json",
+      "sha256": "343b98232034cda1fe353e1f6c9e80a35ad2766f461851de3738bab9dc2f000a"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/record-changes.json",
+      "sha256": "ff543119dcbfdfcbb1494ad70ca5d824c1c088613ad4212d0be3b8008e101667"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/remaining-gaps.json",
+      "sha256": "9bd9aec8af3ee7933747afcdf113c7b9ee99fe45661d22d35c43bdf51e9a6260"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/source-first-addendum.json",
+      "sha256": "1563208ba161477dbab612ee77d151e0bdb863d9adb6d873fb16bd1b983ced97"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/source-first-inventory.json",
+      "sha256": "e891d082a2688430cb4155915cc64fd5f6812c3787e46d9bd946c8045e41e2b1"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/source-reading.json",
+      "sha256": "38c0c8870834e3d7ab8c17f88cbef8622d9b9821838891cf25eb9f2177d9e2b2"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/validation.json",
+      "sha256": "4bf0de35fd5272b228a644138b177a6514b815592a07c456cc4067d344e8bf0e"
+    },
+    {
+      "path": "early-tnbc-sequencing-2026-11-12/zero-change-replay.json",
+      "sha256": "f011a878f9d8ab3cfd9888704bfa26816622b1eaf858f6ac919d2a316c2e83c7"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/README.md",
+      "sha256": "a65a9f8656dd2a7198930a08bbd158f41d5522839f7e90d49b0021cb55b2e55b"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/api-verification.json",
+      "sha256": "9035a1a23d5dc61f90eec56c9c5634f9264fa40105fb6f126fe4033b0ef2d24f"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/closure-checkpoint.json",
+      "sha256": "5a4da4d22889fcc07c6220ae5e9c62e63b8b0cb701f9ebd4d0820b05e223e688"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/coverage-proofs.json",
+      "sha256": "6fbf1c2567b87776283827362e77cff49ab2e1082d58f345d01d02cb9c8f4604"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/figures.json",
+      "sha256": "8acfd6abbad8cab34ec39594b65042c46caece21ae94ce5f9f250d01bbb21bab"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/learning-requirements.json",
+      "sha256": "d7200493a6405d7e43914afabc7c261bfc5b24e84f823c406554a9685baaa232"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/primary-sources.json",
+      "sha256": "aebc38156c21f335f16e4ac950734ec6b3137be3d9537f037d11b72710a02957"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/reader-prose.json",
+      "sha256": "98f159f53ddefc46b8978cd16779144f6a470b2037a54b218ff36bfdfe28a9ab"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/record-changes.json",
+      "sha256": "f96f051d0be7e4376c0807c2baf8c5d50a2d98e743769b7bc9f086c52df59a51"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/remaining-gaps.json",
+      "sha256": "d39a1ff2a5bf7fb066894c8a86719454c615c4720e99570994a55a35a87e98cc"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/render-verification.json",
+      "sha256": "c45c4acde25a02d733e3bbf456dd7c3367d4df3434d4ee50456fde4825a39bf9"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/review-resolutions.json",
+      "sha256": "8a6aec1efe9956398df453d49936a6bd5fc16bc19daec9b95e9fc1734ca29d2c"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/scope.json",
+      "sha256": "a3d3c85e4591641d3fc6ea77907357d05a8b0ed7ac3062ac31948044243a3836"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/source-reading.json",
+      "sha256": "d0b82d2d94e311380973f6b9937ac1971d36b5cb4901b48c952b7b3b74b066d3"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/summary-consumers.json",
+      "sha256": "2b67e3672b196a5d8ab756b0055c362a478b6634d1b75d600d8f1494fd4a346f"
+    },
+    {
+      "path": "effect-reasoning-2026-11-10/validation.json",
+      "sha256": "9ca24c782a58a7e6c397f8862a895abfdbe8c483257d52bd82234ad5576de6f0"
+    },
+    {
+      "path": "elicit-adjacent/access-and-regulation.json",
+      "sha256": "0411cc291da0e956cc4597bf87fdf499bfe08e9c9f606a0beda4c88a4b37cd42"
+    },
+    {
+      "path": "elicit-adjacent/biology-basics.json",
+      "sha256": "de4d494a97601ca1dd7c5ad1b8d4972c4926670189f742e4ffb3579cfd1839d6"
+    },
+    {
+      "path": "elicit-adjacent/biology-binding-response.json",
+      "sha256": "fc98f05e249af6f3b5cc6d9e26ab138d10cf5095c46845fa6ee417b2111f8f8e"
+    },
+    {
+      "path": "elicit-adjacent/biology-lineage-state.json",
+      "sha256": "2717cc10bb0eb196e6a8c49cacedd85e0ea22a429f7c7c35c257927ebd89ebd8"
+    },
+    {
+      "path": "elicit-adjacent/breast-cancer.json",
+      "sha256": "0ffe158753e8fc541508d59f355724c8293393d952dc42083f9497dcdd0ca696"
+    },
+    {
+      "path": "elicit-adjacent/cancer-biology.json",
+      "sha256": "18c76b7102b495466f9eda4107967965da47c945fa6f21a7fbd101df6aacd380"
+    },
+    {
+      "path": "elicit-adjacent/cell-therapies.json",
+      "sha256": "e5fa1ce463e45d6d045bcd66ce6a3fafefa41e9f652cbaefce90cd6ecd889bb3"
+    },
+    {
+      "path": "elicit-adjacent/chk1-attached-cargo.json",
+      "sha256": "84c3ec8ba72e9bd39e289b96acec29035b82fdb35c5ad7aac8a2c94b97d86aae"
+    },
+    {
+      "path": "elicit-adjacent/engineering-and-manufacturing.json",
+      "sha256": "9c8126f97b55727f2e0d8d6b7ba6cbf33d47c2f82cfb962b97d924484c2a3382"
+    },
+    {
+      "path": "elicit-adjacent/evidence-and-statistics.json",
+      "sha256": "e3652576ce8fce0c05419f63f89a55d0a10cd9205b4392f11ee1f44b764c5444"
+    },
+    {
+      "path": "elicit-adjacent/immunology.json",
+      "sha256": "c921e806690a8fae5f5ab0ccffcdfb82537788b4af7ec2071bceab1907ff18a8"
+    },
+    {
+      "path": "elicit-adjacent/measurement.json",
+      "sha256": "87c09275631e02d8c9b61db403e27edee5d9f917ec5cb489ebdf3074c15b7e9f"
+    },
+    {
+      "path": "elicit-adjacent/polr2a-dosage-evidence.json",
+      "sha256": "f891a87fff91304da2d6d500cf5a24d06d637072e51db608dda9d77eda4d7624"
+    },
+    {
+      "path": "elicit-adjacent/therapeutics.json",
+      "sha256": "ec529a398eb8d2278e2a6f7a9bbc4298037e4bae02ae85c75f3e7dd1e958ba88"
+    },
+    {
+      "path": "elicit-adjacent/top1-chemical-exposure.json",
+      "sha256": "6791704d7b84e50fb1bfe38ebd79f50d0155d3e397d7b7a7f2bb5bd04a85b03c"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/README.md",
+      "sha256": "0fe6652fc30fab01ac2f85be05327d0a041ddd1438701925a7fdcc4fc8f44698"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/adjacent-queue.json",
+      "sha256": "e8fc8ec4ccfd8753d76ebb0fc55031d5f899b95dba11d9d817a271c4b51dc112"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/aggregate.json",
+      "sha256": "9006318d9d7ea6af49badc6b09803395200dd02ec875455155fd57ca71423108"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/arithmetic.json",
+      "sha256": "e34cac5315d39e29d334dfa3e60d660e03a001bcae5c3753d39584db95e46dd3"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/asset-dispositions.json",
+      "sha256": "f808a89788ee1ab68bdd857eb7b15a6c1320444617127873d4cbe9449a028365"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/batch-summary.json",
+      "sha256": "8daae9ad83dab0eb9e464724b3fd3893e6d6d60fc690179714bdb493704731f7"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/capture-hashes.json",
+      "sha256": "6bfbd42b38d1c4e4181b0d7d09703dc29103c47ab808d87d58402edc10e66c76"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/coverage-proofs.json",
+      "sha256": "0dc06e2161180d76439887627e55b1f4b2b87fe8e4a4939b9fac0a773e71b214"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/frozen-discovery.json",
+      "sha256": "620f7d827647c05545d65e61ca97038144e5a2d7d2c5e24dfbe9cdca8b11ec9c"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/learning-requirements.json",
+      "sha256": "9118111ebe1913c5326b6213885dcdc37edf787fd971d4bd52c655d9c6234807"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/primary-sources.json",
+      "sha256": "b925bfa3a63c35dc842d91d1506e87d248c13e925146000ab89776d686db437f"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "ca02826b889dd466182e51d8867e67581050a268c676b02441659973edbc4169"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/prior-field-rebases.json",
+      "sha256": "b401d52cc5b2963b80989ae638fdc1de81b72fc48814921435c5ca00656cc429"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/reader-prose.json",
+      "sha256": "5bad82dee96575c467a4f324081f383ac085b3ededc02e100b9cfc8e5ca530e2"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/record-changes.json",
+      "sha256": "3b73ded3f30991a888962230b046b70ab7553a851c6dfa01ae7b5c7508ee5304"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/remaining-gaps.json",
+      "sha256": "23b733720c594050e0391868d5f39ae89d2516c9fcfd789c978f9a4ea819f9f3"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/semantic-review.json",
+      "sha256": "6354a874af6ca4467dff8e160a874e06be0dba2ccd825785795ee73b05c70699"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/source-first-inventory.json",
+      "sha256": "9118111ebe1913c5326b6213885dcdc37edf787fd971d4bd52c655d9c6234807"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/source-reading.json",
+      "sha256": "0a70f61a8daef6aa5ca0076bce9a1839d665b7d0d383264d1a39dd9de9fd92f1"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/summary-table-corrections.json",
+      "sha256": "784dc09061af908590eea8f5408e05497a4a4c0d4a6270756132d6f1a560af96"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/validation.json",
+      "sha256": "7b27ab0dd3e00b3dc2d611881ac1e6964da18ec5e8d0b483035390b612cb05de"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/visual-review.json",
+      "sha256": "5e255038234e7e60193b44e4159edcc83d20b0ee069ce25de40768c926c0e014"
+    },
+    {
+      "path": "engineered-cell-therapy-2026-11-12/zero-change-replay.json",
+      "sha256": "c4309bb9688ed2ef8130d8b90608e4b859fa24875052d93c566b5442f6bfb4f5"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/README.md",
+      "sha256": "31404edb137688126be13ac278f9307b5f4533bd40aac1b58ac008adaeacc802"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/adjacent-queue.json",
+      "sha256": "debd77d136df07001d0b9b16453325e9521ee0079b70fe02e0f19689a2a56240"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/aggregate.json",
+      "sha256": "59023257d070db7d962d1feaaaab72d806a361e19ec6b108b97f0c67f8b17b01"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/batch-summary.json",
+      "sha256": "ecb0e5e75f54e9dfef555bfd93ed4d2abc146d4e30f233ed540058156e6d6d67"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/coverage-proofs.json",
+      "sha256": "1bd327c34688b56b7a12d0c7f8c82d25041e402fb92ffb7cc09068093a67ba4d"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/figure-review.json",
+      "sha256": "1750150effb0060e45e5a9a99c407b7d6cd1ad1f80ed1840cc1db79610e910fe"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/learning-requirements.json",
+      "sha256": "711f0e764e44c029c92570b84296a264b8bd33fe39ccf5463534b83071fdffb6"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/overview-accounting.json",
+      "sha256": "2ca3172c44bb4256b0c287d889fcf942f7f159a2ee2445d5a230f1b3ff333988"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/primary-sources.json",
+      "sha256": "31803a427992d929c5b514f8710b8c0bef6e20964af86608272ee2227b9362e7"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/prior-field-rebases.json",
+      "sha256": "37e71c31b41dc4dfddb78e9923a5b61803355b7cd0e9e984e75473de5634c722"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/record-changes.json",
+      "sha256": "bce86a29677a0949d90a8954729b39bcf78e1bfeb5b79842b2989c4ee5166d03"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/remaining-gaps.json",
+      "sha256": "49ea202b92c36bd8b20dbc9d983506cc0af4b3f9eb8885e672062416b7d606d6"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/source-first-inventory.json",
+      "sha256": "d8707ccbe811168c22379accce7ec8a641fea0aad543a9c02da9f463a61e866b"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/source-reading.json",
+      "sha256": "7629e605d8bae9850929aeb6fefe3c8a6781751a3e2b4e2f9134e1af89807f8a"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/validation.json",
+      "sha256": "73737e9e0b5009642f6989b2cfceec6c20265bf92f80a1d910b55e1dda36597e"
+    },
+    {
+      "path": "evidence-reading-guides-2026-11-12/zero-change-replay.json",
+      "sha256": "1bf5d4bf6f964223f477591498a85667cf33199e16a4a00dcb7f46b739d493c8"
+    },
+    {
+      "path": "expression-completion-2026-11-09/capture-manifest.json",
+      "sha256": "0b88a5161e7973f62453517b4082d43d9fde6e90c1bdb389d5ecdd96679fe0ac"
+    },
+    {
+      "path": "expression-completion-2026-11-09/publication-identities.json",
+      "sha256": "3f6209fdd7988ea90a2230d95e230bda5491ee791bd040caa633a1cc50282de8"
+    },
+    {
+      "path": "expression-completion-2026-11-09/record-sources.json",
+      "sha256": "57a7d0b83cbe1b14a951706205411a07c6ae6c76d73159b27bbac2e5a4f36124"
+    },
+    {
+      "path": "expression-completion-2026-11-09/registry-identities.json",
+      "sha256": "da51c31b3d9fd60b3aba94e007326c325db1f72a87b91d01d2112a33d902e71e"
+    },
+    {
+      "path": "expression-completion-2026-11-09/render-verification.json",
+      "sha256": "64fbec6ab532f587853019dc49e999992520193c0944ee50b78feaedd12ec394"
+    },
+    {
+      "path": "expression-completion-2026-11-09/scope.json",
+      "sha256": "b794322261a6fe06da5231c1bd22ae3def529d262d0c89fc00141c04abb806cc"
+    },
+    {
+      "path": "expression-completion-2026-11-09/source-scopes.json",
+      "sha256": "c59d2c3c7f7524774c416d51240e673ab363452b8a7ad14afa1ae56a679c03c5"
+    },
+    {
+      "path": "functional-models-2026-11-10/README.md",
+      "sha256": "e37eec50098d7477584323a4c29332e55510d7f1833bf780b75084a008197aa0"
+    },
+    {
+      "path": "functional-models-2026-11-10/adjacent-queue.json",
+      "sha256": "4184db24a1de1629a6651cd22da6c5cd010ed07b464716e899e816cf5a93a473"
+    },
+    {
+      "path": "functional-models-2026-11-10/api-verification.json",
+      "sha256": "5c3bc517500da7956c7260cb8f9f9055056eba533c7fb074909041e3cc020afa"
+    },
+    {
+      "path": "functional-models-2026-11-10/batch-summary.json",
+      "sha256": "94ea3ceefe8a0845ebf5e1d8344afc7677e2eb28387e9763b6057a95c2b77e14"
+    },
+    {
+      "path": "functional-models-2026-11-10/closure-checkpoint.json",
+      "sha256": "1ab1d04978e4cc89a69c78348c52f207b890a698bc43713551c02802c163219d"
+    },
+    {
+      "path": "functional-models-2026-11-10/coverage-proofs.json",
+      "sha256": "4295b1e0ed70e107d93e87603f0341051a48763b374616892a7eb801a6971c64"
+    },
+    {
+      "path": "functional-models-2026-11-10/figures.json",
+      "sha256": "6314fabb1454e2ad393f4f8e40babc37a5a87b2c4f2dfed64959ccc1c3e00a33"
+    },
+    {
+      "path": "functional-models-2026-11-10/learning-requirements.json",
+      "sha256": "5453c38c258881d6a49cba13f18542661e7cd1bcd1a1a364e0086a33cf7070cb"
+    },
+    {
+      "path": "functional-models-2026-11-10/primary-sources.json",
+      "sha256": "9eeac6cb21a69f1453ed0918b3da0e297b19fc19f19e9de246ad9863bf944fb6"
+    },
+    {
+      "path": "functional-models-2026-11-10/record-changes.json",
+      "sha256": "4f43ea6aeae62d318820526babfa725444edfa13f0a90dc633516270e8fd4669"
+    },
+    {
+      "path": "functional-models-2026-11-10/remaining-gaps.json",
+      "sha256": "53ac100f3a27937e908f00966e1d963e37206625f2a143c0026d8c3cd1cffaa3"
+    },
+    {
+      "path": "functional-models-2026-11-10/render-verification.json",
+      "sha256": "2d48ba8d4b8c93f37e749b9bdb94c6984875527e6bd69789774aa7e08867e49c"
+    },
+    {
+      "path": "functional-models-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "functional-models-2026-11-10/review-resolutions.json",
+      "sha256": "c5e1ac42a9d7c9300981b472a69b8fabd22fdd6941bcf57befb19c74c73b0fe1"
+    },
+    {
+      "path": "functional-models-2026-11-10/scope.json",
+      "sha256": "d3eecbf7bd7832dc4c2b2fec85fa58a3475225b9b1c92f4133efa73e110fc306"
+    },
+    {
+      "path": "functional-models-2026-11-10/source-reading.json",
+      "sha256": "bb1ebb6c45cb0a4745ec17a398ba9b8800400a0345826d8088240734de2ea96f"
+    },
+    {
+      "path": "functional-models-2026-11-10/summary-consumers.json",
+      "sha256": "7deeaaaabef56b3e1ff1dd479acc7a6d78b4f567d4e6e307591e18d1e205170d"
+    },
+    {
+      "path": "functional-models-2026-11-10/validation.json",
+      "sha256": "46fcb13a4a296823ad8838a963c52d991e528e4b269f5e2d8f3948018e79b87c"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/README.md",
+      "sha256": "f5f9e60d72450b23666733bf61e2df5b28fdf128aa736cd43e689d552af7ce5c"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/adjacent-queue.json",
+      "sha256": "295b3d955b242272516990e7029b54b8111e359c09081f38a8bbf07d590e7098"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/batch-summary.json",
+      "sha256": "e9d0612cb5f7cb91b977c1d23e1f89d5077a7376b60083744f7414cac000a8d0"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/coverage-proofs.json",
+      "sha256": "0e5d862934f3e19630c8634ef7f3d2a580b5d9ea4c8cabf4238b8c06025a8746"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/learning-requirements.json",
+      "sha256": "7e93085da1ec66f5bd9d5d087e9561877c224db6eaa38c0455db57ab88c91e25"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/primary-sources.json",
+      "sha256": "a86e7584447008399f2cc8fe2c9383c74fd142900a333468f1f01e1fae717fcc"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/reading-receipts.json",
+      "sha256": "678ad45cc7427846986c5f6f927cde49fb8bb352f671c575ff9f5049e6e39220"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/record-changes.json",
+      "sha256": "323f37efd99e0bd9d30a5dc4d27ecede18595c1c61aec273fac09969dab9b474"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/remaining-gaps.json",
+      "sha256": "2b14383dcefe86f49266f2f282de0772655bedb4a96fe04da77904cda64caa5b"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/source-quality-findings.json",
+      "sha256": "e4827618f7ede8bd8e3a8a371b5b139f797c6c4e03090ab046b11275671c25be"
+    },
+    {
+      "path": "generated-catalogues-2026-11-11/source-reading.json",
+      "sha256": "5170360c2b647ee3b8f86ee614aeed06c72637bb555e46ff0aebe9e767de3488"
+    },
+    {
+      "path": "genetic-code-2026-11-11/README.md",
+      "sha256": "56c98892877697ec94c52f5dce476e26e41b9c950cfe8c3e7f08024b860818a4"
+    },
+    {
+      "path": "genetic-code-2026-11-11/adjacent-queue.json",
+      "sha256": "0d391d4a82ca9d17d21b37f73db20bf7b40b6b69fa6667018986d961cb887d38"
+    },
+    {
+      "path": "genetic-code-2026-11-11/aggregate.json",
+      "sha256": "fbc4404859a1c6c0c314ed25fa6dfc66b427b9558e354b2740a95c7203cd14c8"
+    },
+    {
+      "path": "genetic-code-2026-11-11/batch-summary.json",
+      "sha256": "d6b88810641b338b593fc9a852b183aae061854b0ca9dbc2fad22fc44258172b"
+    },
+    {
+      "path": "genetic-code-2026-11-11/coverage-proofs.json",
+      "sha256": "52afd191448af4b63f61b300bf063106885cdfd828725dd59abcdbb3709f6509"
+    },
+    {
+      "path": "genetic-code-2026-11-11/learning-requirements.json",
+      "sha256": "fab5601be8b24afd1254d33cbd15c3a7adc5594b7ed17a3e0705e763abb0f483"
+    },
+    {
+      "path": "genetic-code-2026-11-11/ledger-integration-preservation.json",
+      "sha256": "62d5c3ffe7598cfcf85c0ab129599f60997f158a51da8999bed64b0eb577196a"
+    },
+    {
+      "path": "genetic-code-2026-11-11/primary-sources.json",
+      "sha256": "dc44a34dbca83466a145f7bca8e71189fb17fa87ae6973bb926b9813b95dfa8a"
+    },
+    {
+      "path": "genetic-code-2026-11-11/record-changes.json",
+      "sha256": "2e77292d16d57a43e7a7e7f5ba23a547c9ee9e6006d62bc3916f19c9407ffa57"
+    },
+    {
+      "path": "genetic-code-2026-11-11/remaining-gaps.json",
+      "sha256": "ec7b400937dfe24516195ad60f5ed2d69f7262171286354d52cc338e09daf155"
+    },
+    {
+      "path": "genetic-code-2026-11-11/source-reading.json",
+      "sha256": "0fa38ea2e4a013d8466d0d81e453584c8d4933de6199dc86a14ea8321148df73"
+    },
+    {
+      "path": "genetic-code-2026-11-11/validation.json",
+      "sha256": "82b531f2739dcb5b54ad45f657282d35dbba64fcf5793f99d6d7be3d8e06a12e"
+    },
+    {
+      "path": "genetic-code-2026-11-11/zero-change-replay.json",
+      "sha256": "1cdeac819eecbfb664497edc514eff1bef6fa151970e80669081b3a49dddc455"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/README.md",
+      "sha256": "e123cd4a5df356f4a5ab188d8ab85885230e87417da0044599fbdf2adfd21086"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/adjacent-queue.json",
+      "sha256": "3b498cf578fc485f695845ad46d600b6ddf1a6ae7542fc8d3c841500e64a387e"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/aggregate.json",
+      "sha256": "a71f716c5843b360d505e8455c055bd02026486b6e1c9ac930ebc8a463266b50"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/batch-summary.json",
+      "sha256": "99507e183738a6328a7f25f1aae807652c16da2ca1ad93bd557778cf7547ab45"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/capture-hashes.json",
+      "sha256": "43913e14ac04a72e105d52ffd0018add5378f1b637cd38697e5ec4482aeb3b0d"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/coverage-proofs.json",
+      "sha256": "b11dff738188fbe1d54442b5d2126729b488816ddd7e8b4fb18f4978bb5abb5b"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/figure-review.json",
+      "sha256": "c49f788e9631e69a6de1ec0027b2a3cca0348f763a0b97de8bfd783cffc32e41"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/learning-requirements.json",
+      "sha256": "db57396548b98157819428f45f0187ccb12bab5ecc53f82aee7bb8072c5accb4"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/overview-accounting.json",
+      "sha256": "e7f823b10f4f53efd19af638da519cf093c50e9e408199c86921a1aa48183017"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/primary-sources.json",
+      "sha256": "53a50809a35fdf25ea5be5f764ccfef953a2d333dfda562a354fd78309e57ca0"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/prior-field-rebases.json",
+      "sha256": "eb0e8dc69b6b2f58ed9f2da2cda20466872430a629f5f2b0a8ef1f98c1974546"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/record-changes.json",
+      "sha256": "060bf5072e14bd479a83df736bd1ded49a6b266d9d57422bb8211fa9db5e59c6"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/remaining-gaps.json",
+      "sha256": "cbbee6173b8e9584393ea3e51a20c8b79688571203badcaa587a6051be5e39e8"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/source-first-erratum.json",
+      "sha256": "2ae8809850dc841fe8f4805bf9bf4557409076b2f4f35c823dee8fa7bb23610e"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/source-first-inventory.json",
+      "sha256": "9452de6f370de804ad0d4eb022c85bb6fbdc2410172d56615268b6d9e3948621"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/source-reading.json",
+      "sha256": "407c3c3a56dceeb445c2668f7b598adec4f4ca7ce781642d1d6e4f11c1e8d685"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/validation.json",
+      "sha256": "efb6fff6d57e4d93331bcb34d4e5028ff086dd081ee4f2d8a18325892d6d44e0"
+    },
+    {
+      "path": "imaging-follow-up-2026-11-12/zero-change-replay.json",
+      "sha256": "a513d6d7af648b468ae3a4e5bc9e149ba84f8edda8246c55b5633e29e4e22cd2"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/README.md",
+      "sha256": "5c92d7a00b6b31ff2fd4835938184b89fd78b800ba4207139fdec058fc953e71"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/adjacent-queue.json",
+      "sha256": "e1a4d02af48c859b1d96309447ddec551316c2d20aaa9753dda2dcaff4c94508"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/aggregate.json",
+      "sha256": "f9ef9e10d9c43387a47d016815e95abcdd237bdc955e9c1199e8d76dd7aecb8e"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/arithmetic.json",
+      "sha256": "b95016fa58cec6c57375a608b96e82e91f4194c034dcfb43b3c2e503d1930f3b"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/batch-summary.json",
+      "sha256": "2d8769dd6fe32a106bffba04077df72882cbfc6ed4ebfd46ef1817f14a37b7fa"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/capture-hashes.json",
+      "sha256": "ebd62b6d96936347db7e8117f35fe63182c94ba6a81ddb9ea0f56a4e84a721c6"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/coverage-proofs.json",
+      "sha256": "2156f6d9f692efe75d28091fce257641a1e889ab361b55f137f805f0d855117a"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/learning-requirements.json",
+      "sha256": "92b828589e913e54057b260675459bf16ff3e0a8977bf35447582538284077c5"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/primary-sources.json",
+      "sha256": "0cce3b06131b968fa09eb054943c67e051060b18e07d50d3d6ea5e78b1c364df"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "8d4e77981e555b9278db4d394a0595e71bc970665149721c9d97b44fac61b4ba"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/prior-field-rebases.json",
+      "sha256": "0281dcca62e920f1d00ec5544538c1950cef5969f9550f9ba6a563a5c8da296b"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/record-changes.json",
+      "sha256": "a0e1cb342bacad6a9ec4edca1a6e9d3ca4569c6876143afbbf5a86b99f1a4c1a"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/remaining-gaps.json",
+      "sha256": "ccbe958c32a1655b267b671ce17cc439e7a4df4260a1e976b534b96b085aec5f"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/source-asset-dispositions.json",
+      "sha256": "13da2e0a485da36afd9fc7b442a879f15bd5897aaad8e53ad81ee9d175765545"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/source-first-inventory.json",
+      "sha256": "37c10413f911772c64e36573476c195718729a069f2f0cf95f6cd03d5a1bf013"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/source-reading.json",
+      "sha256": "992ef184f83c8de9ee2d8ab0e3744503d3cc9bc0a5977b7553d4a5cc726d1cb5"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/validation.json",
+      "sha256": "514e12a7461d60c146cc1433624076ac15c13998f4667d25ff416772ee6bc446"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/visual-review.json",
+      "sha256": "38e512b44c961df800c0662f78d6851c92dde26ce3ddb42bf338f0af5d37695c"
+    },
+    {
+      "path": "immunotherapy-2026-11-12/zero-change-replay.json",
+      "sha256": "59729f422c847d716c7bc3c79b37ba4d1014ca8c9c0fd6e5078b8a99aba28042"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/README.md",
+      "sha256": "ba5d320aafaf2f750f391db5c80a5d89575e30fa2cfc309cbcc27d45227705ca"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/api-verification.json",
+      "sha256": "bafc0759c6f92b6c640a1ebb121a84ba3f3e5ce4717f13a75635a0a17252520a"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/coverage-proofs.json",
+      "sha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/figures.json",
+      "sha256": "4d2ddac07ac560a0ddc7682dc888252334455cbd3ed89f67f6dcd84a86b090bc"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/learning-requirements.json",
+      "sha256": "0d2b4297d3eabc4f9a01717400c69aedf50e58c87bc0709199f175a307665407"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/non-learning-dispositions.json",
+      "sha256": "bda4e4b048b08720e61bf319fcb638076605c8d4aafc8f0ebdbcc421c689a355"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/primary-sources.json",
+      "sha256": "ceaa491c3784e61a8bceac39e6474f4b3d6540d8f1b42322f5069aebbf335d54"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/record-changes.json",
+      "sha256": "19cc590c694d2d22e05f839c5179fc4cc4bb84520ba11cbc726c03e71c34f998"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/remaining-gaps.json",
+      "sha256": "173a4ab347b5bd4ed720a235fde2e1666067f8c377cd4a6a1fbfc44433eda01e"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/render-verification.json",
+      "sha256": "45fce0d4a5725133b2486d221acfd71937cf61708bfb4f4e6705c78c68c97531"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/scope.json",
+      "sha256": "148abdd1d984d70ed7c8e8992f0b06fdc1be2236bfa229c1ea3a63138afdb572"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/source-reading.json",
+      "sha256": "013dc20a48c3094fc2ebc2f09de4840d34938a7e8edcfe2f4b91760d368c6a74"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/summary-consumers.json",
+      "sha256": "2a062f794a80b148b3d49c453f6261c2dee53da37e79f9005c6bea18c8dd9ed7"
+    },
+    {
+      "path": "innate-immunity-2026-11-10/validation.json",
+      "sha256": "05d998409e11ef380c68db3153536f31150ff11fb19e108d65ac12a07171eba0"
+    },
+    {
+      "path": "latest-render-verification.json",
+      "sha256": "4d2bd82bde79a36ef1daf884032224a4fdd398e932d3f97c30fc7fcc52168f44"
+    },
+    {
+      "path": "ledger.json",
+      "sha256": "b25500cd02892aa99c598d43109d1d9dc7f6731449f30e6d321899e502e69fae"
+    },
+    {
+      "path": "literature-dispositions.json",
+      "sha256": "2ea7ad3272a07f81fe5ee387eb94e602ada7b0e58cbb9c094675b91e5d6c777d"
+    },
+    {
+      "path": "literature-manufacturing-2026-11-10/README.md",
+      "sha256": "52a0b043b366cd1149ffa30e29ec116bebc2f02841557efcc29fbf5f7489f5ce"
+    },
+    {
+      "path": "literature-manufacturing-2026-11-10/capture-receipts.json",
+      "sha256": "0c6fe946e6b314197583c2dcf1ba6d2a89e4ec964ba516a47329a0841d10b808"
+    },
+    {
+      "path": "literature-manufacturing-2026-11-10/queued-owner-work.json",
+      "sha256": "1c107140122fe991f02b24347da5e0bf36f0604defc652f2dac5b6060a0e5e7c"
+    },
+    {
+      "path": "literature-manufacturing-2026-11-10/screen.json",
+      "sha256": "9572f38f979b23343e90c840b503a670aec183f5ae90e005b7e1c546fe837f6b"
+    },
+    {
+      "path": "literature-plan.json",
+      "sha256": "e5189bf40d572e3b7a68f16a671427d9cce70273e3997d410f5c01933f0839e4"
+    },
+    {
+      "path": "local-treatment-2026-11-09/capture-manifest.json",
+      "sha256": "8de830772585b85dc3408ac9abb738047248f7f023a205f6e428106403698237"
+    },
+    {
+      "path": "local-treatment-2026-11-09/publication-identities.json",
+      "sha256": "57bdce530cf81db56abca07e055f1082dd857340c4890e41e44e4ee22ac8183f"
+    },
+    {
+      "path": "local-treatment-2026-11-09/record-sources.json",
+      "sha256": "70ef42e4db4f85862d39ae8d6ac88591c89035fdad7ece1781aa44810b5a4f56"
+    },
+    {
+      "path": "local-treatment-2026-11-09/registry-identities.json",
+      "sha256": "f3a7bb080af0029fabf620423f8fcb4f0b1bd1ccbf603d4950b58a82117a1e2a"
+    },
+    {
+      "path": "local-treatment-2026-11-09/render-verification.json",
+      "sha256": "0f20eb830894c8bfb687d18d65ccdfcaa9876696953680eee5db673196f037df"
+    },
+    {
+      "path": "local-treatment-2026-11-09/scope.json",
+      "sha256": "d52f9fa1170354801c38fc97abea2b0f76dc6c67ccdf3b5da399b516bf2926a6"
+    },
+    {
+      "path": "local-treatment-2026-11-09/source-scopes.json",
+      "sha256": "6b37dc238ae7c7dee9aa5a5a63964a8ce7272fb4dd1126ce2af5d272c106ab3e"
+    },
+    {
+      "path": "main-refresh-2026-11-11/README.md",
+      "sha256": "d11a83d5de4eb49eadccffb1a2cb30a63543148a3168652030caeb8d9caebf9f"
+    },
+    {
+      "path": "main-refresh-2026-11-11/cancer-section-verification.json",
+      "sha256": "ae3275feaca4f56abd89bdc316110ccd12190c03c8ae55864af29a673fc2b752"
+    },
+    {
+      "path": "main-refresh-2026-11-11/checkpoint-counts.json",
+      "sha256": "ea9120dfb18c8382d77f8c5d9ef9fd7111a3a79af05806af7fcf3ba390603ad9"
+    },
+    {
+      "path": "main-refresh-2026-11-11/conflict-resolution-fields.json",
+      "sha256": "5a05204f7d58bf04faad5de76a180397c03fe5b42869664b393817e22b6d4df3"
+    },
+    {
+      "path": "main-refresh-2026-11-11/dependency-receipt.json",
+      "sha256": "bd1d0912e82acfe4434b85debaf9adbe97b5c7b7c011c47a9a0206bd09cbf0d4"
+    },
+    {
+      "path": "main-refresh-2026-11-11/evidence-preservation.json",
+      "sha256": "d8962317b442c44831195d16b3340b56445bd6a006a55c99ea4c0a2e3b246b35"
+    },
+    {
+      "path": "main-refresh-2026-11-11/ledger-reproducibility.json",
+      "sha256": "3beda6ff9f67dd8346d8798222d02ca47818ee6c4300f6fefc4589b125dbe7f1"
+    },
+    {
+      "path": "main-refresh-2026-11-11/rendered-passage-verification.json",
+      "sha256": "12e7d55e5a816c3b8285ba8585f6d23b7c6575c19ae2ddd76ff4ee055dce93d4"
+    },
+    {
+      "path": "main-refresh-2026-11-11/root-export-verification.json",
+      "sha256": "f7624f3a3e92a0660a6f9fcee221b75e304bd15ec6967edc7d7c8c68b541d166"
+    },
+    {
+      "path": "main-refresh-2026-11-11/runtime-delta.json",
+      "sha256": "93f56eb22227025e5493a177a66da99d1e63025d70dbc3083621f44984c23697"
+    },
+    {
+      "path": "main-refresh-2026-11-11/scope.json",
+      "sha256": "c588e1c33a86b202db36374fd4c92bded29ae6bf3c2f5f83ceec52ca7f4211b7"
+    },
+    {
+      "path": "main-refresh-2026-11-11/snapshot-refresh.json",
+      "sha256": "3eaa682d9e76305489721350a3cd41fea766a8f9453ad1eb49fe4c12193dd5c9"
+    },
+    {
+      "path": "main-refresh-2026-11-11/summary-consumer-verification.json",
+      "sha256": "e501481d2553e89b7170239cbfbd09b8ecfbe4e9b889e8502daf72db1abfa4f3"
+    },
+    {
+      "path": "main-refresh-2026-11-11/upstream-link-verification.json",
+      "sha256": "3c4022ebd2c56783dc0bc0fe99f1ce32616cbb5baeeda5fbc34c8e9215287d6c"
+    },
+    {
+      "path": "main-refresh-2026-11-11/validation.json",
+      "sha256": "17704a80806f1d36bcfff0e9f378f592976426ef21129a5174020a2d8785bf2b"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/README.md",
+      "sha256": "50ed03a52e9b1ac7e1072d606747273e7051edc3547f57463514f49d58b094ce"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/checkpoint.json",
+      "sha256": "925fd0f9f7acac9686115d3a88e5854e365cdd27346a4bff2a5c1a56302c87cf"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/evidence-field-preservation.json",
+      "sha256": "7c07519ebbec20744d8946a8da787a16ed1e3c01f637aa181b71e3bcc1a6012e"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/reader-export-checks.json",
+      "sha256": "991662f2b04d42b1b86d7a14b77e23cdef90a568448ac3ffa4fbc77e17209c3b"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/validation.json",
+      "sha256": "7d5d3c11b9c55f30f6838452a6962ffcd759fe523d42abe58792f1db85fd7f58"
+    },
+    {
+      "path": "main-refresh-3ba4e9-2026-11-11/zero-change-replay.json",
+      "sha256": "51b5e784547ec217a8fd89d088473c77d01fcbae3f124a3abf75d898a1435758"
+    },
+    {
+      "path": "main-refresh-b1d278-2026-11-11/README.md",
+      "sha256": "1a8eae66507dfa9d7f6d170834ed11e42678a4e0af1ecb5107c9c8d04f15bb33"
+    },
+    {
+      "path": "main-refresh-b1d278-2026-11-11/checkpoint.json",
+      "sha256": "31c206f7258159e213eca2773d77c408b50a8433c2f0e79010456786988d49af"
+    },
+    {
+      "path": "main-refresh-b1d278-2026-11-11/evidence-field-preservation.json",
+      "sha256": "1ff958657eaf807fec97bccdb172349687247f0e0179ecf09099530f7fd75900"
+    },
+    {
+      "path": "main-refresh-b1d278-2026-11-11/validation.json",
+      "sha256": "57144e082f35a7f4ec35a4c1c8876685ba303ef40c1cefcafc2081111a11f9f7"
+    },
+    {
+      "path": "main-refresh-b1d278-2026-11-11/zero-change-replay.json",
+      "sha256": "6c7faa3b31e02e98bb325f4297842cb08ad4c718ae01441b0edef0a906b0e2af"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/README.md",
+      "sha256": "8aa0255d89c1f9b438865dd4031180f735fa0991da4bc3be171f811d9a85d20a"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/api-verification.json",
+      "sha256": "0fb9712d89ed932dc1b7b1c6a6996554940d9f858b09ca1f9ca3342260d16a51"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/coverage-proofs.json",
+      "sha256": "16dfe3de44f8c3e650883fe540a5d3b7c654ac5450cd9e24348c20f40b66a90c"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/excluded-nonlearning-rows.json",
+      "sha256": "9c3ff41e2c3af2211332c694aed6a346317f59d666b4926d81ddb829578ee1aa"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/figure-reading.json",
+      "sha256": "4947efd82df3f414e8069c60b446c338ae546f6cdb695805ef3f95eb895a8ced"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/intake-verification.json",
+      "sha256": "a0d57c6e92c99ed9fc8a87d9b1769bb61160ae54cb10a2d615cdc9c4d3697048"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/learning-requirements.json",
+      "sha256": "287d4b591241294b5b818e78ce9b39fc8dd9483e918297780a10cc8ed3134d38"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/primary-sources.json",
+      "sha256": "e8dcc0d4f4baead42657a769bbcc03ba5fd68146bc1a18b4a45ab5a1f20d129e"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/record-changes.json",
+      "sha256": "410620edde62e2304b19cc025da2085c72e8002ef38a72142087c61fca456af1"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/remaining-gaps.json",
+      "sha256": "f0434182c5eec2d3c8226199895be48d31d0cb99f3a2a66b96b4319271005662"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/render-verification.json",
+      "sha256": "4423a2105629fe2f6db98af3ffdf74f5ce081d22e9471d3f73c79d6203788bc0"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "6f7dfb12c0c649843b1ea00af2951b53a25ab5c14e035fa9579f1084a13e03cc"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/scope.json",
+      "sha256": "cde2092bff7c8933cf103d7f3b21255adb82a1fc26a2448b57a4fa26f35fc43b"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/source-reading.json",
+      "sha256": "2e93c79ddcb47e4302147b18cd36399717578013f87697adb5c54f15b1ab9dc2"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/summary-consumers.json",
+      "sha256": "24ab7983621acf950c02a047e3ec7f1ed65a39f1021284e1bf169247e3d88c22"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/tmb-policy-contexts.json",
+      "sha256": "9bb2c3ad90880e9df67f200cf02e6acd9dd7571623d7761d312752b17dc14e33"
+    },
+    {
+      "path": "measurement-sequencing-2026-11-10/validation.json",
+      "sha256": "46daf2b34913d73a71316cbce19b2601516021e0d7d1fd86d4a9e968471ebb68"
+    },
+    {
+      "path": "navigation-later-2026-11-11/README.md",
+      "sha256": "b3b7127521ef27e9fe4bd350b0cd1c2d2fd4bb0a1c59b450aaeed9546eac599a"
+    },
+    {
+      "path": "navigation-later-2026-11-11/adjacent-queue.json",
+      "sha256": "e691433145bbd04b02dfe255f3dec917c959e7c181306c2ae233901e4040a380"
+    },
+    {
+      "path": "navigation-later-2026-11-11/batch-summary.json",
+      "sha256": "62ab2f6e9076ad01d8afc3ca063fb411f2e61bd1751b8cfb3038978667558a6c"
+    },
+    {
+      "path": "navigation-later-2026-11-11/coverage-proofs.json",
+      "sha256": "ed4b1e765fd842d7a0ca32a0ff71e265e12c9d644e999818b8108551c4253183"
+    },
+    {
+      "path": "navigation-later-2026-11-11/learning-requirements.json",
+      "sha256": "67564e5a2f91f1c92b913d86116e67cc5c1dacd82154b82e9bdff3a089f4643b"
+    },
+    {
+      "path": "navigation-later-2026-11-11/primary-sources.json",
+      "sha256": "6037e98f95b4a3aee8f81c0faae36a5aca919a5fa1474915f7a0c58c5f30846a"
+    },
+    {
+      "path": "navigation-later-2026-11-11/record-changes.json",
+      "sha256": "013b18e78774bf4a295091bd5d61683d8061a8f1a54e4a738fa6243a32c790a3"
+    },
+    {
+      "path": "navigation-later-2026-11-11/remaining-gaps.json",
+      "sha256": "cb417435cda4f54694df43dea8202341268c1b6deeb5f18e85b11e0d52399df5"
+    },
+    {
+      "path": "navigation-later-2026-11-11/source-reading.json",
+      "sha256": "ff634abc18f520b55474a16f8842569e345a1a163e23765f5dab16e21f344613"
+    },
+    {
+      "path": "open-dependencies.json",
+      "sha256": "aa9aa57f29f07ae390b0d970761471c104c93aa65cbc0f9849962b7b903dffe3"
+    },
+    {
+      "path": "open-items.json",
+      "sha256": "f4ddeab676b08ede782dfadb6049cde6098c3295547cec064469ef267dc72696"
+    },
+    {
+      "path": "open-source-assets.json",
+      "sha256": "0cd89c938fe6ffd7179d5065066b95250eeb30d980d57c4417f57781f1bc0b26"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/README.md",
+      "sha256": "92b436e2e33c5a65396644b22da620a25dc28d72f567582c333c92934608a54e"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/adjacent-queue.json",
+      "sha256": "6bee48eebaba846bf5ab3000cf302075dc85ecc132a8fb1cbda241b13ec12354"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/aggregate.json",
+      "sha256": "8eb606cf23ab1bba6e396f59ecd86833e02abefcae8b3e802bc9f01f0d71d9eb"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/artifact-review.json",
+      "sha256": "07bb9f0e32d2624d46e56e98d63f46aa4452b091e7c5de4cbc05d926b6d18770"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/asset-classification.json",
+      "sha256": "f11cd8aa87ca448a3476d44e71803c18db928de8452fe84b7e79d9a2f9a0f0b0"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/batch-summary.json",
+      "sha256": "ee3960a6a3b6762201b672fcdf156bbee5846a3d3a08349e471f76204c44d474"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/coverage-proofs.json",
+      "sha256": "add4181e85ecce4cce997bef25cc22e2c52cb7a8563533e7be27662e045ad552"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/learning-requirements.json",
+      "sha256": "973dc92378e1104a6a32cbe9060c9f302187fc509e1c666d7a051b78fee9e96d"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/primary-sources.json",
+      "sha256": "d4ce6d450248284c48a24fba4f65a0c8a7232272de66e6dc4f77e2c55f878ab6"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/record-changes.json",
+      "sha256": "dfbbd2964e66dd90b9716dc522c7d84eadf09607cc11e13331aa9a0d6c066fa6"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/remaining-gaps.json",
+      "sha256": "e5b8474296d722d4efcd8c0ea8a34f1713ab81ee8579c696c5dfd06d7888c5cb"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/review-findings.json",
+      "sha256": "ff0acbb6c0c9bc454443655d43e12676ec48e798262cf3c2adf21b4b7783ca4c"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/source-reading.json",
+      "sha256": "559e940414ba8e655eb404b3b0aba34ae2219340feb11051b0513e1b4ddb75e9"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/validation.json",
+      "sha256": "5f4f74d404326e0e0a16ef88221d881bfb3255385108c4c609d5f797853a82a7"
+    },
+    {
+      "path": "pathology-result-guides-2026-11-11/zero-change-replay.json",
+      "sha256": "792e658f37508b3afc1c9d3b1fcf50f261857cdc87a83693b039e030f5d89db3"
+    },
+    {
+      "path": "payload-chemical-species-2026-11-09/README.md",
+      "sha256": "d2bb7c89876448d704b371002911c3371b6682149f4156dad46f8b24ca450ca2"
+    },
+    {
+      "path": "payload-chemical-species-2026-11-09/scope.json",
+      "sha256": "b14d1d68098439a41838cec8f77510330a4933049088d0f6048ddba56bff8497"
+    },
+    {
+      "path": "payload-chemical-species-2026-11-09/source-audit-links.json",
+      "sha256": "03cd91a242cf28102cc48b11405b5bbadf34e60f28190a77774006947aa1d4cf"
+    },
+    {
+      "path": "payload-chemical-species-2026-11-09/validation.json",
+      "sha256": "29ad1b5bfe72418f55357c2381279e4c678f75dad3c4b857fd207701777a42ad"
+    },
+    {
+      "path": "payload-follow-up-reconciliation.json",
+      "sha256": "d1afea816ca7d64ae68d584914647b4eac29767084066d15f72362a0b18f63cd"
+    },
+    {
+      "path": "pending/pr-369-summary-consumers.json",
+      "sha256": "03039c2cacd0ae876a3ce5c7d31d05507d9faf41d2df2f36d206653853c4a524"
+    },
+    {
+      "path": "pending/pr-369.json",
+      "sha256": "5e9b6745ab54cda6031a8ea1412644602f817d9d42ee8df4faba159a84e7c42c"
+    },
+    {
+      "path": "pending/pr-371.json",
+      "sha256": "7f649fdcb6e0437d7e0cec58e0d2c9d6299701d4bc3cc91c3baaf0fdf5a6653f"
+    },
+    {
+      "path": "pending/pr-373-summary-consumers.json",
+      "sha256": "1394bf56a711f646bda551bdffe6c20cd8e0d0596f7c66558a6e966dc97f69a7"
+    },
+    {
+      "path": "pending/pr-373.json",
+      "sha256": "ee4dfe83531937739f0f12df37f6585846125185941ea02a54e3c4b0dc338b61"
+    },
+    {
+      "path": "pending/proposal-access-guides-root.json",
+      "sha256": "255abf49ac876a938d1724f2571df27a8f1816c7b2248678c28c112555d9e8d6"
+    },
+    {
+      "path": "pending/proposal-access-guides-summary-consumers.json",
+      "sha256": "06a18f3db1d6dabb1d4d4b4f354fc1f620995218741ac8be851c701d859c090f"
+    },
+    {
+      "path": "pending/proposal-access.json",
+      "sha256": "59d5f0b84361e47c235f67ebe8559c57a08520c5a2c462e3a04cb65d7988ae8e"
+    },
+    {
+      "path": "pending/proposal-antigen-antibodies.json",
+      "sha256": "b0d13f614a2e5780124a455def64b221da31086e30e5614bb805a9aadc6cc3bd"
+    },
+    {
+      "path": "pending/proposal-antigen-summary-consumers.json",
+      "sha256": "b6d4f97ffb233b4dbd991a8cbe1ab4de1af62e2a0362d83ca1fb62eba6427b8a"
+    },
+    {
+      "path": "pending/proposal-binders-cmc.json",
+      "sha256": "44ea3ff9d7fe890c7c8a56fe528b4a38c252cb90811c0f17824bb6d9b773e67c"
+    },
+    {
+      "path": "pending/proposal-biology.json",
+      "sha256": "1edc86db3188177b355b9756045de100b041d99049dcfa0347375abb682d97d3"
+    },
+    {
+      "path": "pending/proposal-blood-immune-peer.json",
+      "sha256": "629d5aa2c855bc36929e13642c8df5e76fc21b4b1d77be93d27149907a40a984"
+    },
+    {
+      "path": "pending/proposal-blood-immune-root.json",
+      "sha256": "97d8e9f9b9018a17929ec7b4d7a7192fd9cca5598db8ed4ce01abc645008c5b8"
+    },
+    {
+      "path": "pending/proposal-blood-immune-shared.json",
+      "sha256": "3bedb72c6210507c18d28733f60afded5557f37cd34d30f1a9d73f19cce904d9"
+    },
+    {
+      "path": "pending/proposal-blood-immune-summary-consumers.json",
+      "sha256": "a1f588385295bf72e5fb28966563b7067c70f86f3dc339234c6b2a85e3c7fefa"
+    },
+    {
+      "path": "pending/proposal-breast-concepts-root.json",
+      "sha256": "150772bfca7accaf3693f641c1e1cd0bc36290ff2a029385d6dfbb841a9902cc"
+    },
+    {
+      "path": "pending/proposal-breast-concepts-summary-consumers.json",
+      "sha256": "307d8229628ac533edeeb4ab687e0546a9dec37c5c209cadbce1bb10432d64e4"
+    },
+    {
+      "path": "pending/proposal-breast-pathology.json",
+      "sha256": "9c94e8301d191484e04d62ef25a65e950787350a341a0d7fb8af4260de8dac8f"
+    },
+    {
+      "path": "pending/proposal-breast-summary-consumers.json",
+      "sha256": "9a6c4cc1fd505240bc6e3f284d56e6905cf21c934111812f4293c40a0bd4c760"
+    },
+    {
+      "path": "pending/proposal-cancer-biology-root.json",
+      "sha256": "df5d190e7f9e09de097d07611a7d19756db072a0098c66c463d3ca55900cbbff"
+    },
+    {
+      "path": "pending/proposal-cancer-biology-shared.json",
+      "sha256": "4f5a2f7d2e305ddfad6c263ab4e251193c7b3480786b33eb26740ebf056b4ed5"
+    },
+    {
+      "path": "pending/proposal-cancer-biology-summary-consumers.json",
+      "sha256": "79b160e287831f0b3533aa022917f0b51bb5b25bec9b0125552509e1b14b00fa"
+    },
+    {
+      "path": "pending/proposal-chemical-consumers.json",
+      "sha256": "ac3bb92fb073c63421a50a44971821638c61ab5cb90f4fd5c4d20e8639f2e873"
+    },
+    {
+      "path": "pending/proposal-cmc-summary-consumers.json",
+      "sha256": "a1cc7fa5e5808a98b5761ae77e2dbbd2fe2014076eb363ccd59eee7e2ea7c3a6"
+    },
+    {
+      "path": "pending/proposal-death-metabolism.json",
+      "sha256": "465d7c14427ac2df63eb023c1f5ac62c9fd05033d6cf3a20d55010622b2a1e20"
+    },
+    {
+      "path": "pending/proposal-death-summary-consumers.json",
+      "sha256": "3ac48225e24fc80a5926af92ddcd57f653d55b050a81e2a9b085583c226b70b1"
+    },
+    {
+      "path": "pending/proposal-early-tnbc-sequencing-root.json",
+      "sha256": "6f4c513c3614fc56387e6cc9b1347863bc387a392e63e87aebf4ca44413d512a"
+    },
+    {
+      "path": "pending/proposal-early-tnbc-sequencing-summary-consumers.json",
+      "sha256": "8a07cef15e052a28fee5a00d35d07d806ee4a0664b51d4a7d5298c59f1e8f284"
+    },
+    {
+      "path": "pending/proposal-effect-reasoning.json",
+      "sha256": "0c10a4a1989f50ea103535c3cd57cb4801716a269ddcd332f7e1eeca01359e08"
+    },
+    {
+      "path": "pending/proposal-effect-summary-consumers.json",
+      "sha256": "2c7de48ddb4cd0a6068ebf80c37da25eb61a1fc6ad70abe7585805fb81bf76ea"
+    },
+    {
+      "path": "pending/proposal-engineered-cell-therapy-root.json",
+      "sha256": "ea45e28e7cc1c804db80e57182c6f35b16f8414796810b2834c5e779314498fb"
+    },
+    {
+      "path": "pending/proposal-engineered-cell-therapy-summary-consumers.json",
+      "sha256": "254846d45b0b5f2794285bba4ab3f1205827f73c911cf9af547af5c0294962af"
+    },
+    {
+      "path": "pending/proposal-evidence-reading-guides-root.json",
+      "sha256": "1b0b0c31a9ae1013cd95814d5331d6222a56350017c60a3913704e698b9a4dae"
+    },
+    {
+      "path": "pending/proposal-evidence-reading-guides-summary-consumers.json",
+      "sha256": "1f37030dad30fe8732284447c9b2cb46f701c87a8126196ae7b01d8c253e97c7"
+    },
+    {
+      "path": "pending/proposal-functional-models.json",
+      "sha256": "2cb4cf6c464cdb2977cff4d95bdefb3653c3e2b846cd3615e7e29922001ff64b"
+    },
+    {
+      "path": "pending/proposal-functional-summary-consumers.json",
+      "sha256": "ba4aa5a44d031f315761434e0e2b1f639fc397317e93e72e4803cb62a4ed2b8d"
+    },
+    {
+      "path": "pending/proposal-genetic-code-root.json",
+      "sha256": "9bbc69f27de62f5e3c12ea41391987f58b0e2f6c7c573b01066ae6c6a06edc88"
+    },
+    {
+      "path": "pending/proposal-genetic-code-summary-consumers.json",
+      "sha256": "51e04cbe5daa29de43bc0790da4a5408e9a615bbe745e0615055444930768333"
+    },
+    {
+      "path": "pending/proposal-imaging-follow-up-root.json",
+      "sha256": "c2fe9591c1b0d83254aa7f88c7ebd6903b8dbffdce4b2b84a411bddacbe17f71"
+    },
+    {
+      "path": "pending/proposal-imaging-follow-up-summary-consumers.json",
+      "sha256": "6a27d5114395b1315bd5c6a32601966ba1fd8355f219cec837f0be79adb7c599"
+    },
+    {
+      "path": "pending/proposal-immunotherapy-root.json",
+      "sha256": "c590197fff8ba9e64884d3ec16fd9ae160791ab4baeffbcecb8985d2be425d95"
+    },
+    {
+      "path": "pending/proposal-immunotherapy-summary-consumers.json",
+      "sha256": "401c4f301ebb8343f612bc344bf18de3065848c33429fcd6689d91cf6c42dd8e"
+    },
+    {
+      "path": "pending/proposal-innate-immunity.json",
+      "sha256": "4815cee1633e2b349442f3ce19f8000d016263f287a07aa3afc7794dc1e13c06"
+    },
+    {
+      "path": "pending/proposal-innate-summary-consumers.json",
+      "sha256": "e81374898bc7a5ac37f1a8280fa6d4078342308f4d859b300200b23661c81cb8"
+    },
+    {
+      "path": "pending/proposal-main-refresh-b1-root.json",
+      "sha256": "b579570e77176cf87d74baf9bfb7eb6fcfd9966615ba7057f91764de4ae7f3b5"
+    },
+    {
+      "path": "pending/proposal-main-refresh-b1-summary-consumers.json",
+      "sha256": "460dfc5f6ae80c65c7adcd4675bc29abc28dd8b58023d2090de36d9b5925e962"
+    },
+    {
+      "path": "pending/proposal-measurement-sequencing.json",
+      "sha256": "e8487cccb18419e31780076bfbf69d8cc94bf5cb6194623eb26aff0feeb4c247"
+    },
+    {
+      "path": "pending/proposal-measurement-summary-consumers.json",
+      "sha256": "f3d894a764f865aa3bd1414d4363d9a9b11381fcfc3b46dc931e68c1b21a141c"
+    },
+    {
+      "path": "pending/proposal-pathology-result-guides-root.json",
+      "sha256": "ace120586b82ee31a579c96d443df6c07bf862997a3755d6aadd76e93e0fd7cf"
+    },
+    {
+      "path": "pending/proposal-pathology-result-guides-summary-consumers.json",
+      "sha256": "84f4f87c88383ddf9fa1f1e0e2aeaa6d82f291b86f454de57344a3f5df6b7b23"
+    },
+    {
+      "path": "pending/proposal-pharmacology-toxicity-peer.json",
+      "sha256": "c677fee68328349925e7d5fb4b57e065d0f1a738e259c49c1a72e3987d7a6603"
+    },
+    {
+      "path": "pending/proposal-pharmacology-toxicity-root.json",
+      "sha256": "78842ba9c8a273b4e7cae88d88fa4aee39ac28e4d5a1f45e5cf8066997866d3a"
+    },
+    {
+      "path": "pending/proposal-pharmacology-toxicity-summary-consumers.json",
+      "sha256": "66d8675e5821c9aa2fdc27919189796cbbbff49b136cce1f7fed5f906ce0e380"
+    },
+    {
+      "path": "pending/proposal-repair-resistance-root.json",
+      "sha256": "65bf8de3edbabc08de198018bff941b3d6229398331b1759042386f6ea53a9b8"
+    },
+    {
+      "path": "pending/proposal-repair-resistance-summary-consumers.json",
+      "sha256": "4e8fc26ad1a0ad12c5ebf58e1bac46ab2e379ebfa3048b1a7e01ac266194028f"
+    },
+    {
+      "path": "pending/proposal-repair-signaling.json",
+      "sha256": "88d023eb40cdbd74220816e9d2e6be868b504c93a432c1b07b1825e3e891afba"
+    },
+    {
+      "path": "pending/proposal-repair-summary-consumers.json",
+      "sha256": "56779137dcd870a45c57fb7d01cac0ebf1042cfaa61686c13057c5597c239724"
+    },
+    {
+      "path": "pending/proposal-residual-monitoring-guides-root.json",
+      "sha256": "770632c66e53402896170394a4a6adf7c0d2c549879e9cf469a8fbd2f90a993e"
+    },
+    {
+      "path": "pending/proposal-residual-monitoring-guides-summary-consumers.json",
+      "sha256": "12e5fe894eab0d2107c2e9fab53cb8060b33bd303502677266d254a04e8cbef6"
+    },
+    {
+      "path": "pending/proposal-rna-delivery.json",
+      "sha256": "948c55bf7b223da437e37343c96e44219a5e5c78bbd1ce4390db110e9a02f0d5"
+    },
+    {
+      "path": "pending/proposal-rna-summary-consumers.json",
+      "sha256": "4be9a6fee14e67749c69a97e0bdde4a5b3cc2bcca946b559c6fddaf4a7ab4f0a"
+    },
+    {
+      "path": "pending/proposal-schema.json",
+      "sha256": "093d16bacd92558792183826a54a358692af7d5a82cafb34d5bbdb440ee1dc4c"
+    },
+    {
+      "path": "pending/proposal-service-directory.json",
+      "sha256": "b37fec6e314108d50cec8017b60518aebb620b16b09d21474eac8d0b5290764c"
+    },
+    {
+      "path": "pending/proposal-spatial-computational.json",
+      "sha256": "b702f9a112afb5bfbc15e6ae580eb3572ffdea818cfd68516dbd7762f85e9291"
+    },
+    {
+      "path": "pending/proposal-spatial-measurement-root.json",
+      "sha256": "d3c42e10e4668528b17cb150f02efeed4aeac392a7811f080f88bacee5b31974"
+    },
+    {
+      "path": "pending/proposal-spatial-measurement-summary-consumers.json",
+      "sha256": "3eb1a5394f1374e84a1d125a8400d1d4a762d2207a12aa11fc943f9f0a2b3682"
+    },
+    {
+      "path": "pending/proposal-spatial-summary-consumers.json",
+      "sha256": "efe9a1e1e2770a8adfce1ebfa7148bd2a18d2d836541191de7cdd6f16afea759"
+    },
+    {
+      "path": "pending/proposal-start-here-root.json",
+      "sha256": "a4290a3fa959a257061b993294cc780625d1674cce3830d55534db437b5b81cd"
+    },
+    {
+      "path": "pending/proposal-start-here-summary-consumers.json",
+      "sha256": "eaf6c4437c6ded3a3ba286a918f6d336a06a0621513bc46d86fc69fb1b7b85dc"
+    },
+    {
+      "path": "pending/proposal-study-prediction-peer.json",
+      "sha256": "27f0559354eaf714687886ce4399fc1cdf7c7f23975bb6e27cff47d83987acf1"
+    },
+    {
+      "path": "pending/proposal-study-prediction-root.json",
+      "sha256": "c42766ae0bb6d2ff2ceaf28739f6173d37f6e24c9282bcfd94e3db0e340ecebb"
+    },
+    {
+      "path": "pending/proposal-study-prediction-summary-consumers.json",
+      "sha256": "ca7574c55bb6fde0202e38ecf4e838eda5517766f77d899cdc8a792781c3f6ce"
+    },
+    {
+      "path": "pending/proposal-study-statistics-peer-371.json",
+      "sha256": "437c9d36f55084cfec6132825e0ef29753b5db597214b27df3a8fe0a8b098a03"
+    },
+    {
+      "path": "pending/proposal-study-statistics-root.json",
+      "sha256": "f11292a1336f385894a46f44042bad7fc853099c7b2ca451915363fe2f8fd141"
+    },
+    {
+      "path": "pending/proposal-study-statistics-summary-consumers.json",
+      "sha256": "f2de6dbb5a72a4221bab69d0bac6ca3aeed389a723c90cccf3acd5928ed97cee"
+    },
+    {
+      "path": "pending/proposal-summary-consumers.json",
+      "sha256": "c0f17cc9b16eab17ead017800acda645e2e69f1218a70016431f2cfc528101e3"
+    },
+    {
+      "path": "pending/proposal-surface-targeting-root.json",
+      "sha256": "6fa695415af564250404696bdae4cdf287f573e37336782169bee5dd8bfda96f"
+    },
+    {
+      "path": "pending/proposal-surface-targeting-summary-consumers.json",
+      "sha256": "1925e6c3b6e6f3844106dbc06c3ceac8e47192b6f4f7713f1085cf13e8940bfe"
+    },
+    {
+      "path": "pending/proposal-targeted-small-molecules-root.json",
+      "sha256": "2838948747f86b19d9e0e6f6e3418a55da821738fec5ac94b4a1324cdd80de65"
+    },
+    {
+      "path": "pending/proposal-targeted-small-molecules-summary-consumers.json",
+      "sha256": "dc2460c2507b3bd29afd7e62d399cafef11eec09a5bbd7f45107f67354811272"
+    },
+    {
+      "path": "pending/proposal-tcell-summary-consumers.json",
+      "sha256": "85f9f324f721c2d3d8456101900c4282c6cd10a4963d6ba468f9ccbe25e14fc7"
+    },
+    {
+      "path": "pending/proposal-tcells.json",
+      "sha256": "a4877be26fea9f721376ad3119a4f916da4f97abbeb170750cca006a5e7bdc68"
+    },
+    {
+      "path": "pending/proposal-test-vendor-guides-root.json",
+      "sha256": "350c18a3b136d1300811833be76382bf98eed05cff2a5aa2dc3f9ed7a611bd72"
+    },
+    {
+      "path": "pending/proposal-test-vendor-guides-summary-consumers.json",
+      "sha256": "d474a76f6d0d7f0b86e7015216056f341351fd85cee18fc11a0d87237e6cea7e"
+    },
+    {
+      "path": "pending/proposal-therapeutic.json",
+      "sha256": "3cf7e33693e6fff59717da3b4ccf08ccb7a8796b651e71742a999ecbf626af6c"
+    },
+    {
+      "path": "pending/proposal-therapy-conjugates-chem.json",
+      "sha256": "ae48688e123e5dea12b9ffcfaa16056a67d0683edf7d7e27cf20b87f32809bb5"
+    },
+    {
+      "path": "pending/proposal-therapy-conjugates-root.json",
+      "sha256": "c4bb5cc22e651474f7c98bdcfcfed52ef91a14e5da004860bac7ad1dcf8e6a41"
+    },
+    {
+      "path": "pending/proposal-therapy-conjugates-summary-consumers.json",
+      "sha256": "c70a8940e08827b995049fb832fece8f45e79868f0b198d6b1e97c6d43c790df"
+    },
+    {
+      "path": "pending/proposal-tissue-pathology-root.json",
+      "sha256": "29185776512e714dfa6b2d319eb39f8ffdb88203ceed0e5ffdb1b06daa8c8077"
+    },
+    {
+      "path": "pending/proposal-tissue-pathology-shared.json",
+      "sha256": "7d72b782759d1bd4a811b849b4f539348f4229d15cf4f871cd2ea56f44cd0f93"
+    },
+    {
+      "path": "pending/proposal-tissue-pathology-summary-consumers.json",
+      "sha256": "88e770a3118393db501d9957059dd60b06a64a6fa3046060dc2ce32ea8e58068"
+    },
+    {
+      "path": "pending/proposal-tumor-immunology-root.json",
+      "sha256": "304334faef7532a22bc6c5237fff8f84705ebca0fe93ee3ec2f1935a7f4cc3d4"
+    },
+    {
+      "path": "pending/proposal-tumor-immunology-shared.json",
+      "sha256": "8abb3e2a2ad14b40cd73a30d518b7f256bc5fdfc2e42803b4aba48902588f2e2"
+    },
+    {
+      "path": "pending/proposal-tumor-immunology-summary-consumers.json",
+      "sha256": "c5a2c153ed75a9174899673ef01921c430f3c55c039cfe929464a12233fa882a"
+    },
+    {
+      "path": "pending/proposal-upstream-metadata-2026-11-12-root.json",
+      "sha256": "bcf5268569a961b2e2165e289839b2eeb1acf0b784f60268ebded8268fdece20"
+    },
+    {
+      "path": "pending/proposal-vaccine-data-guides-root.json",
+      "sha256": "e4b7ac6bd0b85ff52cc660a705b910ff0f717647d027e371d22b89bb442f3ddb"
+    },
+    {
+      "path": "pending/proposal-vaccine-data-guides-summary-consumers.json",
+      "sha256": "e06699a19065d322c2b4c1f034166bc638c61422b262893bc59cff01da47f068"
+    },
+    {
+      "path": "pending/proposal-vaccine-presentation-guides-root.json",
+      "sha256": "7c60c4a5c1d52ac684b713173810d444019f30a27f836de486ef038742ee7b38"
+    },
+    {
+      "path": "pending/proposal-vaccine-presentation-guides-summary-consumers.json",
+      "sha256": "cae36af477989b750dd8176f4338498271cccc85b674e227e17bfa3f19ecee25"
+    },
+    {
+      "path": "pending/proposal-vaccine-production-guides-root.json",
+      "sha256": "189398f53057a4bb7078c21cb2772a667594d5a4a03049c7feac92a7ec30840e"
+    },
+    {
+      "path": "pending/proposal-vaccine-production-guides-summary-consumers.json",
+      "sha256": "2b87ed3acb4042cea629d3bd3003b1d82e72ce9c3902b84d367c7c5394fd0782"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/README.md",
+      "sha256": "4eddb6d2168db654867cc7566bac075fb51422eafeae9373b18bee2a97ffc435"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/adjacent-queue.json",
+      "sha256": "c88a1051b30e8df625291194079202c80b13d91b61570443b205e418203fe5d8"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/arithmetic-verification.json",
+      "sha256": "2d3863e93ee257aebd1e81c4de8bf986a6c681fb679a2fcb1fd97fe10835ba19"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/batch-summary.json",
+      "sha256": "06839d9717995ca03179f6929a02e1c718f0301e245bc168244be982a3fb950c"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/checkpoint-counts.json",
+      "sha256": "84d8cc3ce2c1661456de3c25c761389047cc4cdd488e6e2464c6f9bb3f8c0127"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/coverage-proofs.json",
+      "sha256": "c7daac813a24a34d930e7c63cd6d70c291228952993daf12f6a4b5722efc0bb6"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/figure-assessment.json",
+      "sha256": "d007d671b3f663f7a5c4cb0d184bf7e1a7f43e0f9857041624facb9afb60dedf"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/learning-requirements.json",
+      "sha256": "f4a66c744e57cdecbb062dd9eddb864f1035ddb121238c16df2ce99e0d9b6cd8"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/mermaid-assessment.json",
+      "sha256": "0685eaa7734cb46e3a864beafc3ab1582ec6a9915165139b10220fb7aaccd8af"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/ownership-preservation.json",
+      "sha256": "20427af97f82bfb8e081ef56f473506a211453e44920ae4d30039fb2bffa2c2c"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/primary-sources.json",
+      "sha256": "e8957014ea10601a375b77a4ce54a5adea1dee0905a1e66d5a6040dda1bb9308"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/record-changes.json",
+      "sha256": "0be0b6da3e9a052e1a930a93a2d432407482d57d8561567df9342459e84d6c9b"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/remaining-gaps.json",
+      "sha256": "6d2dd9aaf88883d456df2549cf64305886eecfed27da14710deeb62decb2d7e0"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/rendered-passage-verification.json",
+      "sha256": "2495b3880bead36eb892a9e39d8fe872b955760cbd14648bd52454cc790a4c90"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/replay-verification.json",
+      "sha256": "6cec3b8d03148ce0785a09977a5f5933c484108bf41c6eaf296695168ce39672"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/source-reading.json",
+      "sha256": "55806a9104e306ddca4a0567a9166de7650d24d33e26f3205a5a03e3d5862b10"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/summary-consumer-changes.json",
+      "sha256": "188120e83d5fdaf530cdd4a122acdb3c889f4dba74848eba1ae66b28bacc06a3"
+    },
+    {
+      "path": "pharmacology-toxicity-2026-11-11/validation.json",
+      "sha256": "c04e288ead000e04e5a7b3972d303b45ba24ad1d37db98f24bbbbe0ffaa1e5f4"
+    },
+    {
+      "path": "prior-concepts-2026-11-08.json",
+      "sha256": "77e2eeb5c82915ea5fd18c5df2db21f0e6ada1809e282ffd11c406e6336601fb"
+    },
+    {
+      "path": "prior-crosswalk.json",
+      "sha256": "a1a66c2dd5b7f28f1751564d8abf101debcae00f50c43c1f933badf761b82961"
+    },
+    {
+      "path": "prior-education-round2-2026-11-08.json",
+      "sha256": "6ee747728d33c7b44ecdcf8500f70666d2dbcca0d6640c03597f2de2be9ee564"
+    },
+    {
+      "path": "progress.md",
+      "sha256": "97969cbafd7e04352dd1543d0d12bedda9a6eaf77e56216ef964f46c4fdff213"
+    },
+    {
+      "path": "remaining-literature-2026-11-10/README.md",
+      "sha256": "06c59bf0c204edfc70c6669df8b0fcfb69549da21d7472e62b52b6481fd18a1d"
+    },
+    {
+      "path": "remaining-literature-2026-11-10/capture-receipts.json",
+      "sha256": "57a9f2403c14e26f18487afb34116deda465d36ba4492967429666735b449cd2"
+    },
+    {
+      "path": "remaining-literature-2026-11-10/citation-dispositions.json",
+      "sha256": "c721e888e420f89c71f87d8e5370777d9eba96fa78e70434f238196c07842efe"
+    },
+    {
+      "path": "remaining-literature-2026-11-10/coordinator-dispositions.json",
+      "sha256": "de8f2ba9dcd2cc15b8699713a1cd553cd700453f656b0cb7e29f0c327492cb8e"
+    },
+    {
+      "path": "remaining-literature-2026-11-10/scope.json",
+      "sha256": "f05616951fe3b374dd793b3079c005f5c75bc4194e08f6ca1e281859db388df5"
+    },
+    {
+      "path": "render-findings.json",
+      "sha256": "99fe4f22306fb33d549539a32e72dfd10077036b96d33ca57ca1f2bb87c088a9"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/README.md",
+      "sha256": "48eb34c7a6afd713e9ce1586ba03b6fe75a6d3774c541bafa66d95ae3eb0c64d"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/adjacent-queue.json",
+      "sha256": "cfe44d869ba8940f1d91b6e63faf94236618b822467f86668ca9f18ba4032cc3"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/aggregate.json",
+      "sha256": "44430b82a0f6ccbb71f0612942330d065456fcfdc0e64cb47ecd79ab5ea6f541"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/arithmetic.json",
+      "sha256": "e6993be54e426a72eba01570b9d0c6c7dd833b72d4864ab09de167bbb54662fd"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/batch-summary.json",
+      "sha256": "de965b342696c23ae92ac341729c52e6a46d2e06c87d672c37854de1e70e2ecd"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/capture-hashes.json",
+      "sha256": "19ad9fc3f40917cd715c90c3785956b2a01a26933633684551b440d891e5bb7a"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/coverage-proofs.json",
+      "sha256": "013bbf279732fc5a912e4e0cf49ae24a2c31ac577b74cc686cf081cb52660618"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/learning-requirements.json",
+      "sha256": "9826b9f223c1e2f51661577fe23a7f1919a81885e10b91b964b51324eac61705"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/primary-sources.json",
+      "sha256": "38bccd54579a8b58af527c961527e57d6c72b693b75aae8b84b4566a988d7218"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "5e1c14e820a1477e897f59c2282a2bd10acdc11dd104c7d75b2874678b3170fd"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/prior-field-rebases.json",
+      "sha256": "2adc56aafa5588ed9cb24640ffc322e99e5c97d75c84e75eb8e23b6d31cdee71"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/record-changes.json",
+      "sha256": "fc4f35c6329b4ff151e1a71dcea5fc77341f01b23f8c8b85962ae51eb91d825f"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/remaining-gaps.json",
+      "sha256": "f9f460f303de02405b46749a6e4a9416d2198ecbb4a12e47c529302d18f9dff4"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/source-asset-dispositions.json",
+      "sha256": "e9db55d47f28c27c5d11bf0a2a80fa3a607c28b527404c24e12dd234237cc3ee"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/source-first-erratum.json",
+      "sha256": "7ab1ee56035b2bdc178a0849e94ef3ea2b0a0fcc0a50efcedef42359f9f47bbf"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/source-first-inventory.json",
+      "sha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/source-reading.json",
+      "sha256": "cca1568792e0cba54fd6cf65768ebe5bfb62d862305b942c62e0c202f657d19f"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/validation.json",
+      "sha256": "cbbfd5f40d97122a9bf1ca4cf7d753bccd33d0148739d2d8e2b889364bef580e"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/visual-review.json",
+      "sha256": "302e39f8b287ca6b85cf04a6e031de98c232dc36c90e27b25b49fa3b265aad79"
+    },
+    {
+      "path": "repair-resistance-2026-11-12/zero-change-replay.json",
+      "sha256": "171cae3adfcf386b078d2a245a55fe2163d3eff40f856ccbae4f7222762c3837"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/README.md",
+      "sha256": "0db5d1e7e85cf6621a7a8dcfd59105c4bd0fbe7e573b92744bb3b55f2b7666fa"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/api-verification.json",
+      "sha256": "d7f2dbbc86fa7bda82d9e62a119cf0e7898ea39dd825dc510e7c2c5676298091"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/coordinator-adjustments.json",
+      "sha256": "684de150608a455851213849f8bb7d8c4f43313bbe8816209038b7a8402a972c"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/coverage-proofs.json",
+      "sha256": "2d013477143af72ca4af2e73bd81d883a700ade8ee9eb3ae8759aedda96de4b6"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/figure-reading.json",
+      "sha256": "82a5bd2ed1107a6864a70b06ea1b820a8e3456b9e730c99ddc13c544f1fedc07"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/intake-verification.json",
+      "sha256": "94b8e9fe2bad0ce111894b5615573c0ced4471b7fee1798dd61ce4f8a659fffa"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/learning-requirements.json",
+      "sha256": "bd1f991fef457a6d1dc1a65c200fd00ff00ad9f03eceff60a718ad4c48569973"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/primary-sources.json",
+      "sha256": "cbf724a47706832ba6e8a684a811407164e17ac5aff2f9327d431c387d4a7448"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/record-changes.json",
+      "sha256": "246e551e57b16f32e09eda0ff62508979aeb95b6ec5e8873e9d7601a3edb0a83"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/remaining-gaps.json",
+      "sha256": "2de71d01d59d20f883bbcf47e7ec6ccda3c7affae5bdfb26279d647ce2c7b432"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/render-verification.json",
+      "sha256": "7e2a09e169d2db7c206dbd3cba3b8e92b0e744ed8235eb077467b7e5576dda7b"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/scope.json",
+      "sha256": "2604309e0585d945dcb5ab242245c9e34655e45cc6e14773d180bc4ecdb1f61a"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/section-verification.json",
+      "sha256": "ca7cc2d50432093195e116db81f3b47e5869ffae607c72b76a5bd284e1c27ce1"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/source-reading.json",
+      "sha256": "acd42a87eb21e6b35ff08373c7333637517c732c5ca0b39c417f53afdaf66cb9"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/summary-consumers.json",
+      "sha256": "93e43f511ffe43286b0d12e99fd0e06592f3651659aaa6a1a92a14f6bc11ee70"
+    },
+    {
+      "path": "repair-signaling-2026-11-10/validation.json",
+      "sha256": "43cdf5b7d853571a2428f7fa2f1755d61a71e0502fd19163187e02dc32a408d7"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/README.md",
+      "sha256": "4686337222134be156cfccdee382c1eccebb010d1b5ee8d735116ef802bed62f"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/adjacent-queue.json",
+      "sha256": "7f02c93d3166c52f490865c78eac1bb3ecc6ab82479f96f4d3ab154ad1f92667"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/aggregate.json",
+      "sha256": "bf23c23886dcf2b13e8737ea8ccf1e4f549b2729a0d308421e2bc3ae465a6d83"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/batch-summary.json",
+      "sha256": "146e42991d43a6b4aee4ca9736a1862a526b654221aad69047885de8701f1d55"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/capture-hashes.json",
+      "sha256": "3bfb9e2d607d2c5f7a143c08f5f9d9bd6ab709f7db689a69b967b64d4d0bd292"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/coverage-proofs.json",
+      "sha256": "3cc903b1685d848192dd1d3e3d720caa89e64f40bdfef33985b55bc0ecbd1602"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/figure-review.json",
+      "sha256": "eae50c1b08606fe9825ec7568d05c2b28845fa6185633ff584536abe1828df71"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/learning-requirements.json",
+      "sha256": "bb6fe1c489475d27f1d2dcc7c343e1b516d0c468ce5a6c012ef79f58796f20c4"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/overview-accounting.json",
+      "sha256": "7b3d4de87158efa7a521e60358b583f3f86b08df535e3f4b637abb61386d8ef6"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/primary-sources.json",
+      "sha256": "9d61646807f87980bf39f460b2ee9743c41cc637211302bb1a19a49e34253e7b"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/prior-field-rebases.json",
+      "sha256": "cda8823551bed1a09ab322d89ca859b391eb1284df7c000920ecdb1c977fd4f0"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/record-changes.json",
+      "sha256": "208c05bde9dd3a8a3f327ac770a151d89c0452f27693c10d8a50d76a461f41c5"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/remaining-gaps.json",
+      "sha256": "57d12dbd25e3fa63ee077e4148ef2b8606d8bceaab56bbf561903dc228efbb3e"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/source-first-inventory.json",
+      "sha256": "f92cfb5aac53a95eb046a0a209a5e1fcaf8fda18603970fe3a24f35ff3dbda58"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/source-reading.json",
+      "sha256": "dba1c75320ac95185227891658314e193aef4516def4a432793d5e4a5d78f1cf"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/validation.json",
+      "sha256": "80796cabfc32f587b8e1240867ac504d6d4eb9a08e0e5cef7013f03f8ff6a6b4"
+    },
+    {
+      "path": "residual-monitoring-guides-2026-11-12/zero-change-replay.json",
+      "sha256": "f8ec21d5ae1ba0f2f4422743b4fbf568a1db23234b2c0e9071f4816b9dae53b5"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/capture-manifest.json",
+      "sha256": "ec0f60804b7fcd2056b2dffbbe060d3ce7e5f288c69da74e8bbe813da20a602e"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/publication-identities.json",
+      "sha256": "00c24d19dca5e0ff6710a7a43aa12adac472ae091ed2822cd1159e6ee2850e8f"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/record-sources.json",
+      "sha256": "6666704cda0ee0f7a96f2cffc8754a8b857433d6cbba39ac736ba9eff2dce157"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/render-verification.json",
+      "sha256": "a6e4c66f23574e369a093919163cd144b53997c8c2ca7f90c00393bf903b2f55"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/scope.json",
+      "sha256": "92cd752401eb994d40ca1f3b00c8a11bd3c648d90ad16af3bfed3aeb41b0b8e9"
+    },
+    {
+      "path": "response-endpoints-2026-11-09/source-scopes.json",
+      "sha256": "39de66c03c167e9e6709e25c336f6a220ec7580abdc47f08969f79db91016f78"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/README.md",
+      "sha256": "893564c246878205d8bbcb6d69fa5cee5e3bf064e142266eb01b88d6c71dbebc"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/adjacent-queue.json",
+      "sha256": "26d35e87f3c37be22ace8ad46ab2923b1e0e28962e9ff194fad24898a68859cc"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/api-verification.json",
+      "sha256": "cec47c14f556625fe675d65358cee1ea9c75b1b1a6adc1baa70f9220c87214fc"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/coverage-proofs.json",
+      "sha256": "409129f5dcb29849a2dfbcbaa037d9bc55b44816fb3d47ea49f444561cb031cd"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/denominator-policy.json",
+      "sha256": "0d97779ba7d73738fdac8a695c8619a6bdf2209ed3877a5d986b77a4535aa2d1"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/figure-reading.json",
+      "sha256": "45ef8d17cfed35526d89f1090172d605337ac01ff3f2cc79971467f027a91df9"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/held-cross-draft-links.json",
+      "sha256": "a2890b3914911acd702001fc48408af613b197697b04bc15ce96373687822c89"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/intake-verification.json",
+      "sha256": "bdd16f689e842c394b40bc6c77fc2b034579c89fe4abe59adb003e3665794bf2"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/learning-requirements.json",
+      "sha256": "88e1d33d838877445f272eadd4184a83c865aee69b54c877ef68748c645b737d"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/noncredit-dispositions.json",
+      "sha256": "0ca897023b2e5ae3e8e1c981fb5fd1a40f99f1818d7d751f01c84bb97a58e78a"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/primary-sources.json",
+      "sha256": "80704d43da659bffb39b8a234430f7504cf765cb7e0c861bbfb9a0e340ded59e"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/publication-identity-verification.json",
+      "sha256": "373aeb200e80de1dc69574345f3209097a032a9c19410ecc5ca7fab7f9f3063c"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/render-verification.json",
+      "sha256": "6e8e18ce9653aba5305e95061c4ecaba1af9cd90bc9bc84d10ee5cbc8f09ddad"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/scope.json",
+      "sha256": "1963970856eba4739a0ddd6dfd92bff8c363fd3da5219f4664b4ef6aaf9b4b72"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/section-dispositions.json",
+      "sha256": "232036c4542bf1278f1dc1f3ad0fbf7753593c70ca7f115936c73729e27e761d"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/source-corrections.json",
+      "sha256": "f7634d2a11bfa242d63d03b99d3fce4a2fb02e5049cdb74e76ef2efb91157eb2"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/source-passage-verification.json",
+      "sha256": "9107062a18905651763ca337a03ccadff65066ca17a1d31752a40739648006bf"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/source-reading.json",
+      "sha256": "e39603029e1a18487380a5d01fb3a56a985e8f9184db6d55795f4d6f0991c9b0"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/summary-consumers.json",
+      "sha256": "564c2f8c915b085de61df1583dcb163e33d21bb2880c1ba12ff68e896924826d"
+    },
+    {
+      "path": "rna-delivery-2026-11-10/validation.json",
+      "sha256": "411e4532a9321b94953f0be00136737f9b2b7765e9cf4b8e3ac859aeef5ce60e"
+    },
+    {
+      "path": "schema-gaps.json",
+      "sha256": "176c9fd133f9912be41c8e107140115da5dd669e5efa10e9f26a465fac416688"
+    },
+    {
+      "path": "service-cost-2026-11-09/capture-manifest.json",
+      "sha256": "5ccf1e2e9a251df1986788d1ec0e9e4e38704b518157962f503547c0510f6280"
+    },
+    {
+      "path": "service-cost-2026-11-09/render-verification.json",
+      "sha256": "1c168a6d35f7139fb14ff115fd82405abbec0eb30568bb5d42f12fa3d2d9bcf7"
+    },
+    {
+      "path": "service-cost-2026-11-09/scope.json",
+      "sha256": "09885ba35fbcf125b460f9687e20a50b3577aa229f17b48062459e36374d0a7b"
+    },
+    {
+      "path": "service-cost-2026-11-09/source-scopes.json",
+      "sha256": "efd3ce86fbe17ef009329af09d352e9228688dc1a32995ff7b6e42b2a965ca22"
+    },
+    {
+      "path": "service-cost-2026-11-09/validation.json",
+      "sha256": "565d6904926720d52d12d8aff5d0316a72604dc47aed825301aab8d5fb114b52"
+    },
+    {
+      "path": "source-assets.json",
+      "sha256": "f880585046b3675336d84c13c4a0771f5dc8b2ef2228272f17873e34247f53df"
+    },
+    {
+      "path": "source-checkout-isolation-2026-11-09.json",
+      "sha256": "21cf952eb735c673a47ed89a11320bd90134274bd39eb52adf6c4098c968e346"
+    },
+    {
+      "path": "source-phases/c9689645/README.md",
+      "sha256": "1887e1f72fe6c5a7310abe8529230c0b2c036f526545ce2f97623e746338193b"
+    },
+    {
+      "path": "source-phases/c9689645/candidates.json",
+      "sha256": "063ac3cac6b963afae7f3fb812b75779d4ff7fdb8d42db0a9de554874db1de89"
+    },
+    {
+      "path": "source-phases/c9689645/capture-manifest.json",
+      "sha256": "315a13a2cfeafffc5fc84e3b372ad61b0e7410cf8fefa3bff6e19735335a72fa"
+    },
+    {
+      "path": "source-phases/c9689645/exact-review-carryovers.json",
+      "sha256": "117f456284b161c87b78c9e3cedabea0b10fffaa067f7ec11935058b4c970b3b"
+    },
+    {
+      "path": "source-phases/c9689645/field-proof-refreshes.json",
+      "sha256": "fb1b06f30759f8241ff221834960378d50991da4166a6d6c25a675fdc4dd0cb5"
+    },
+    {
+      "path": "source-phases/c9689645/ledger.json",
+      "sha256": "1ce0a7aadbeaea4861381dff08c9da17b8516f48143e49a34056a26ba46ab9a9"
+    },
+    {
+      "path": "source-phases/c9689645/open-dependencies.json",
+      "sha256": "52254b9829b6e794783abb2745ca00646ea44d299962ac3fd699b7a750930ef9"
+    },
+    {
+      "path": "source-phases/c9689645/open-items.json",
+      "sha256": "7cc5f677232bea6f01a0c88360584a4a96b56dc47132496a35eb0cf3ecf80031"
+    },
+    {
+      "path": "source-phases/c9689645/open-source-assets.json",
+      "sha256": "0cd89c938fe6ffd7179d5065066b95250eeb30d980d57c4417f57781f1bc0b26"
+    },
+    {
+      "path": "source-phases/c9689645/publication-identities.json",
+      "sha256": "5b55122f792328617d7f40a8d9bb767cffe47b19eecb9cc2fa8385bea176e1fe"
+    },
+    {
+      "path": "source-phases/c9689645/render-verification.json",
+      "sha256": "67ac0337757de86b27c4ec0e52417e5ac8e64666256272dd899a508f20ad46ee"
+    },
+    {
+      "path": "source-phases/c9689645/reviewed-source-deltas.json",
+      "sha256": "a0fd5760c37cbba2f4d673143a26784fba59b8b289a18f1b95f512e8bef3f9e8"
+    },
+    {
+      "path": "source-phases/c9689645/scope.json",
+      "sha256": "448a54332088484f2c6ec7f21a5b18d3854ba6983aa5b69131ceefcf782814bd"
+    },
+    {
+      "path": "source-phases/c9689645/source-comparison.json",
+      "sha256": "8360f5ab5b18d4d49bc8ee4428198d086dd44894b2055ecf09131692ff23fc0e"
+    },
+    {
+      "path": "source-phases/c9689645/source-scopes.json",
+      "sha256": "8644df07bc0fc540d29910431d70cf3973fb6a7b7116861ecce7c0bff7e9aeab"
+    },
+    {
+      "path": "source-phases.json",
+      "sha256": "902c17616f14e6692e5a9c21ba15fa8c6f17e8c66a587d1f536244a009df8219"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/README.md",
+      "sha256": "cc83a132b4c30d04b7db982bd705ea17e764798acfc193750545234f468122a2"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/api-verification.json",
+      "sha256": "628baa6f1bbdc660d25976a5f87675e1b2aa77040fd0e17edab310263d3420bc"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/coverage-proofs.json",
+      "sha256": "54673b29ca541faedee3192287a11535c55acda72729c288db8dab471ca1868e"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/figure-reading.json",
+      "sha256": "f4bc00efcb5077b629c6ef423c30d17faadb2ba425e2879219457f10ade12b52"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/intake-verification.json",
+      "sha256": "fd8f1ed36f02ca0512847675c2b016a52cd405ef6ec2a33b64f2d071b565212a"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/learning-requirements.json",
+      "sha256": "b819e521f1d43701aa269a1187a5b415d217b54b3fd9dbf1aa88bc11be03389a"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/primary-sources.json",
+      "sha256": "fbccc2a8a77335ef209cb3caa66648ace38e829965dd4fba8c10952941cba6f4"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/record-changes.json",
+      "sha256": "f8aaea2b70f7a10645177a3eb0825012e8e40ca87e6ee8999b24c898752fc00c"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/remaining-gaps.json",
+      "sha256": "e87c6586978236e201af3ef2e835dd67e8ab314f4a8e8da13e6f131c7619d41e"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/render-verification.json",
+      "sha256": "a8314f138646dc95b3afb4edab438a081fc3e9b4e5497a7a9471cf4e74c1a2df"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/retained-proof-refreshes.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/scope.json",
+      "sha256": "881fd830aaf11dbe35f6c9cd3d3dab9a5835a6433e3b73c1647fc4a3071703ef"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/source-reading.json",
+      "sha256": "6f6efa3b6375edbd26d931a0cd3e8961e8d226fd9631922edbb2c46eeeef12fe"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/summary-consumers.json",
+      "sha256": "3ed8d8f20ff7f5aed96279c339efe70001997360add4445967ed7c6c871a240d"
+    },
+    {
+      "path": "spatial-computational-2026-11-10/validation.json",
+      "sha256": "5e0fea98cf0f25cfebf82db8c0c151a390386384435086309d4ada0680eb3ec9"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/README.md",
+      "sha256": "21330b14586b4763dd1c93d062f12f776457ee4105a9dfd0fb8d6ec7d11a934b"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/adjacent-queue.json",
+      "sha256": "e5cadac5a1a433d44ca90c426ab61ab8bd9c55c41e28c706f21b228ea6e07676"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/aggregate.json",
+      "sha256": "79fbeac6d7b71ca192d63275d34ac3dfed1ed18091495f9bb40fc02118b47332"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/arithmetic.json",
+      "sha256": "b887048236bb869db8d6562dbf69451b90ed137dcf45a50945696b3ac65e3695"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/batch-summary.json",
+      "sha256": "f1a446e543ad2c48e229454179c72722dc6c50e066701e54b98f6237faac7e74"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/capture-hashes.json",
+      "sha256": "637178b57e8b65ae0fb687f26b4c9527f96187be65d44df6b6926f9256b64569"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/coverage-proofs.json",
+      "sha256": "5fc85e981cd982a1bdd04c3f0263bfcdf4dc65f8a8208219e31fe147b70548c4"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/frozen-discovery.json",
+      "sha256": "c20a5d6c665a3b38f3b715e98cb021ec334be0fd9840dfc0ac3206c464334ee1"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/learning-requirements.json",
+      "sha256": "9e2ee183192a03c1f3ee3b27b23ed33304ca7d1ad231e2f94fdfc2e2017be79e"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/primary-sources.json",
+      "sha256": "c71db544b8ce7442d8fa59d18e381c85fd4e6cb86ddec77d63917af3b308c2b8"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "0234db01fc62ec90e4f90774ca4ff41b40a647b2d2013bfafc2760b2d6b447a9"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/prior-field-rebases.json",
+      "sha256": "8954acea95c99085a7722d9eacf5deaa23cbff4ca48b3a78e1732912f88b6ec5"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/record-changes.json",
+      "sha256": "4bb1031db1c59536546c708865691896e81387f0fb9f6ab9b8f5da5568258827"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/remaining-gaps.json",
+      "sha256": "7d5b46c428b5fa1b0e0d38ecb572e50122b75210a063b91da1a71baac224cf4c"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/semantic-review.json",
+      "sha256": "b348efe807b670451dbb0c8d28bf512f80f959f1ec2d6488109aa2db9b98d2fc"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/source-first-inventory.json",
+      "sha256": "dae63daa6bb5409dc3e3a9b618d35f5f0850d0fbdcc34d81647634651cd75af9"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/source-reading.json",
+      "sha256": "c09c6f7fa9798ab322f9015e84f6681bc7c94bb69ad4ca498955059d7fdfa5cf"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/source-section-mapping-erratum.json",
+      "sha256": "03ae89447fffb98f97161ad33bad5b52b4c68fa304aa815bd71cc432b1fc3982"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/validation.json",
+      "sha256": "c2fd0b539de28093f5000c35caa730ad6c97b458a6a2222f7d954f1b7f5a6a19"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/visual-review.json",
+      "sha256": "6cc2114927086c0a579e0ef267427ae5915190fc9fe047ef710a37da3e462ba9"
+    },
+    {
+      "path": "spatial-measurement-2026-11-12/zero-change-replay.json",
+      "sha256": "b7736953eb89edc5ebfc4e1a5b8d8a9317441a5776787999921c24502c4a7dcd"
+    },
+    {
+      "path": "start-here-2026-11-11/README.md",
+      "sha256": "134ef519146ac26d08aca9910f9c4911e094b97ce9a68bb28f80fd54c643cd74"
+    },
+    {
+      "path": "start-here-2026-11-11/adjacent-queue.json",
+      "sha256": "1397c58b12a0d1a3cf6b67fb5fe54f84842870267552dc7e81fb2c6a08afe641"
+    },
+    {
+      "path": "start-here-2026-11-11/artifact-review.json",
+      "sha256": "2829376761907e08dd14034473cb8a7bffb578c2e28a4fd03d1c4ee5b5adba09"
+    },
+    {
+      "path": "start-here-2026-11-11/batch-summary.json",
+      "sha256": "78ff5a5cf492ca40f568865673592eec58a90e8516a0b9f94be9e545a6733493"
+    },
+    {
+      "path": "start-here-2026-11-11/coverage-proofs.json",
+      "sha256": "967558d851f345bb67a18ecaa8b5b0cb1f75b674559157520929361272ee9fa5"
+    },
+    {
+      "path": "start-here-2026-11-11/learning-requirements.json",
+      "sha256": "dbf1aae2eda32fa2e9c048a8a263f5ca27a61c4489e129d3e2b6258da3f64da2"
+    },
+    {
+      "path": "start-here-2026-11-11/primary-sources.json",
+      "sha256": "91e82ac04fc44ca970ab5339ae59c33a90f3b0fb1d2249c6e93e72dea451905b"
+    },
+    {
+      "path": "start-here-2026-11-11/record-changes.json",
+      "sha256": "c3b3dbb3c8e69eb904ec4da6bd458cad416e9de7a129a33a6bfe118c1ec248fc"
+    },
+    {
+      "path": "start-here-2026-11-11/remaining-gaps.json",
+      "sha256": "45417e1909663d47d40b9d58193009b07fabca43a51d6b33d01c11fe14a39b72"
+    },
+    {
+      "path": "start-here-2026-11-11/review-findings.json",
+      "sha256": "210a0b74881221efbb026d5aa4e1ef603860174bf110a4a1d711cf4818c5672a"
+    },
+    {
+      "path": "start-here-2026-11-11/source-reading.json",
+      "sha256": "1de3ee662cc6761c3c2f3cfbad7fc5106f7b71ee382c4022bc39b228a7e85dcf"
+    },
+    {
+      "path": "start-here-2026-11-11/validation.json",
+      "sha256": "4f5d60b9d2ed726f8e476f214a3abf8743dbce8bbd4ce7b026ff026bd32a8af1"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/canonical-consumer-followups.json",
+      "sha256": "46712b80ab86a5f05786cd58b356373c02c029e1a0f170a2517484da22756226"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/capture-manifest.json",
+      "sha256": "876df3c6a119efb8b201a377a25be3a84fa286d7f16ed859d90ee4c0400b7dd5"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/generated-navigation-checks.json",
+      "sha256": "7b68b16ab13487754c818d246eea675b97e1e606cc3cb039942be18f4e02434d"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/publication-identities.json",
+      "sha256": "e47938d72bee7bbb30fb05b2158d73c4422494c787f0c93c1cbdff452eec317f"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/record-sources.json",
+      "sha256": "0d932a348fb6dd3e1c900aba796bbec35f0ae6d1bf5131a2b1eaddab5ea0b9e9"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/render-verification.json",
+      "sha256": "700b8d93505e7b0eda1aedbd255c2a61c8c716dd8a22cae9e5147c44ea01a194"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/scope.json",
+      "sha256": "770f32bd117747da7120cbf30e73f82f7d153901593ef231a35c3ad8b8e032e7"
+    },
+    {
+      "path": "state-and-navigation-2026-11-09/source-scopes.json",
+      "sha256": "91195ac0f945015c858d26de169ace278d949247ea0328b335bf7501f9ca88ea"
+    },
+    {
+      "path": "study-prediction-2026-11-11/README.md",
+      "sha256": "4b8ac5f881686abd45c40472d8c3e55994cd0344091ff678e5232cd0f2da65e5"
+    },
+    {
+      "path": "study-prediction-2026-11-11/adjacent-queue.json",
+      "sha256": "c193ab60bcb3e8199df791f67e6acfd788a42a9506eba340736b945e5e0ee916"
+    },
+    {
+      "path": "study-prediction-2026-11-11/arithmetic-verification.json",
+      "sha256": "4e20a6c4fdb620b40e0af4dd240fb7c2dd4908aa19c97efcd26d1d822af64d11"
+    },
+    {
+      "path": "study-prediction-2026-11-11/batch-summary.json",
+      "sha256": "18180033e64d6ce99a8f155f0528bf260fb980fc59c690f86d4282894e5e3043"
+    },
+    {
+      "path": "study-prediction-2026-11-11/checkpoint-counts.json",
+      "sha256": "39d6f53acf05aea5590f011b1d3daee995c3b47a26c02d1fb8d131540aa78cca"
+    },
+    {
+      "path": "study-prediction-2026-11-11/coverage-proofs.json",
+      "sha256": "1a1cc365dd31be0a92fa29882f7738138a5a7e8b3a3e0f4d0096b974548f95f5"
+    },
+    {
+      "path": "study-prediction-2026-11-11/figure-assessment.json",
+      "sha256": "59a2cf0f5bd533f40e30b17774b794dd537a5a0bee60ea4ea377d0ed75c36952"
+    },
+    {
+      "path": "study-prediction-2026-11-11/learning-requirements.json",
+      "sha256": "8619423aeaf7055b89d2d386d31f2b85c202fc540a69892d1079d796b2e7333c"
+    },
+    {
+      "path": "study-prediction-2026-11-11/mermaid-assessment.json",
+      "sha256": "857f33bf8c53e8c30cbc4c7934dbd661fa0ceb3a0c24589b6e78ba5d565b1a56"
+    },
+    {
+      "path": "study-prediction-2026-11-11/ownership-preservation.json",
+      "sha256": "db1e61c18a47da56aece9fda16321fed49859871a93a89d8c77fb7b730294c67"
+    },
+    {
+      "path": "study-prediction-2026-11-11/primary-sources.json",
+      "sha256": "27fe7604fcc932df5aa114c451e326ebcbe21136bdbd0044ac2762bdc6725624"
+    },
+    {
+      "path": "study-prediction-2026-11-11/record-changes.json",
+      "sha256": "4451ad6f2b54abfe3c09c99cb618f80b442d3fa2d6fe773ed7f22b0456cc34e8"
+    },
+    {
+      "path": "study-prediction-2026-11-11/remaining-gaps.json",
+      "sha256": "d486aa397450c4f49ec832199d98b3ff9e0b7f0ac27028900158be7a2092fc38"
+    },
+    {
+      "path": "study-prediction-2026-11-11/rendered-passage-verification.json",
+      "sha256": "dbdb9cdbe9d528ada7f53833e6c714fb930c0d0321db6f374e372fbb3ea02412"
+    },
+    {
+      "path": "study-prediction-2026-11-11/replay-verification.json",
+      "sha256": "36aa2876713e48a2c99023f6826eeb9bc34282d0386f6344fd80c1092f7be5ea"
+    },
+    {
+      "path": "study-prediction-2026-11-11/source-reading.json",
+      "sha256": "6be669b1267ca502260ace6df650d2ad4d5d07d3bba28fd748e2ae8cb342b9d8"
+    },
+    {
+      "path": "study-prediction-2026-11-11/summary-consumer-changes.json",
+      "sha256": "47c45d8179effda83a9bbc397b40386db75b0c5cbae335a9820d94fc85235718"
+    },
+    {
+      "path": "study-prediction-2026-11-11/validation.json",
+      "sha256": "1d6148743aef89dd134b5eac6a1a5f53362c17bf9a4f2bbab54f0ed21809d571"
+    },
+    {
+      "path": "study-statistics-2026-11-12/README.md",
+      "sha256": "bddb4feabba2b4d7daaa14e5bdb7b6442e57a3445b4eec4d32d86adaadd9de45"
+    },
+    {
+      "path": "study-statistics-2026-11-12/adjacent-queue.json",
+      "sha256": "fb81a3f2ab218269ecd20b091683987cf56c43faa9659b7d33ff0a1ea66cb754"
+    },
+    {
+      "path": "study-statistics-2026-11-12/aggregate.json",
+      "sha256": "c0eb0348aff8495a85adfae45d66591b10d1fb65a327b326cb491f36d5f8fdc7"
+    },
+    {
+      "path": "study-statistics-2026-11-12/arithmetic.json",
+      "sha256": "9f6f06bf4f1d4813e725c5a68858f2d099d35f5618a434c6b5d5e776ea504e42"
+    },
+    {
+      "path": "study-statistics-2026-11-12/batch-summary.json",
+      "sha256": "5874948c95915b6565731779634b73427c04c148750af591162a9e33b286299a"
+    },
+    {
+      "path": "study-statistics-2026-11-12/capture-hashes.json",
+      "sha256": "4fc1e2cdb6107fc0b561dcb03d834db714783745dcf27c79c33ed178efadbd7f"
+    },
+    {
+      "path": "study-statistics-2026-11-12/coverage-proofs.json",
+      "sha256": "6e6764a7c42bacf2ef4bab654654dd2c1ff7fb917dc42e3fbf7ae7175ab06e15"
+    },
+    {
+      "path": "study-statistics-2026-11-12/learning-requirements.json",
+      "sha256": "2034751259ed3b75e6e09aa22177e11859ce670257165ca6fbeefc5cfb46a310"
+    },
+    {
+      "path": "study-statistics-2026-11-12/peer-freshness.json",
+      "sha256": "8637ef89919ab2e3d45755bb5352f27c53cc9c46f45c171bacd7e61eb378e1f5"
+    },
+    {
+      "path": "study-statistics-2026-11-12/primary-sources.json",
+      "sha256": "10a111dbc9ebb27163035b13faec4f60a87091984a3d33c4a22fe3c9bd847d30"
+    },
+    {
+      "path": "study-statistics-2026-11-12/prior-field-rebases.json",
+      "sha256": "c8117aaef7d6cb39bc52575d495590e2d064452b17861a0629a2815f32d1146f"
+    },
+    {
+      "path": "study-statistics-2026-11-12/record-changes.json",
+      "sha256": "1e3ec4ec8d8160b3c8f757a7b8e25e2c955791d90e6c98391654413b46d75c04"
+    },
+    {
+      "path": "study-statistics-2026-11-12/remaining-gaps.json",
+      "sha256": "224b43dc13dc0415ce7428e83d9fcde89b318258213c543769594f335c10e42b"
+    },
+    {
+      "path": "study-statistics-2026-11-12/source-first-inventory.json",
+      "sha256": "b7ce1570db3e6b19c12f4064f2705b0b77e7f1cd093a93394805d1e7b95e3252"
+    },
+    {
+      "path": "study-statistics-2026-11-12/source-reading.json",
+      "sha256": "35fa7aa97a83c8477142a6654b8615b9b33fe9e4f893fd9f624553fa75880f91"
+    },
+    {
+      "path": "study-statistics-2026-11-12/validation.json",
+      "sha256": "6c66af49982c897260f50f011d8844db0a73b2fee72e5c96da2ce738155cf257"
+    },
+    {
+      "path": "study-statistics-2026-11-12/visual-census.json",
+      "sha256": "43745d4fc82a8e63a79e15d6cde331adacf5346b4a887c2b421f751602c59419"
+    },
+    {
+      "path": "study-statistics-2026-11-12/zero-change-replay.json",
+      "sha256": "7c6903db126c271f9c887c106424b6b627f62250aad6a339a27012b9a40d0a8c"
+    },
+    {
+      "path": "subtypes-2026-11-09/capture-manifest.json",
+      "sha256": "275bb7c80032b0b6eba6b3b0563e04fb117dae26d0d98ec6ff85d8f6b7e78da4"
+    },
+    {
+      "path": "subtypes-2026-11-09/crossref-identities.json",
+      "sha256": "1ad48f0406f137c8faf3e1433aaaa4fd1acedee20ba6166bdc87912d768f2b4f"
+    },
+    {
+      "path": "subtypes-2026-11-09/discovery-queries.json",
+      "sha256": "487195f47aa98d8d53d856363ff17665c3a69d8d115ef1f5b215408a540d9168"
+    },
+    {
+      "path": "subtypes-2026-11-09/field-proof-refreshes.json",
+      "sha256": "9cf5a45a90fc5304ef131fc4cae72903509a43e52fbb0d0301d5bb17050f2dd0"
+    },
+    {
+      "path": "subtypes-2026-11-09/new-literature-dispositions.json",
+      "sha256": "976ca7b2209b18248ec343f04da7ef122ca51e4cdc5d20649b6c270a76f51b1d"
+    },
+    {
+      "path": "subtypes-2026-11-09/publication-identities.json",
+      "sha256": "aa57c3a2815bd15b7c28b995d1fca4827f509f02dd03926b11e0f208408e738c"
+    },
+    {
+      "path": "subtypes-2026-11-09/registry-identities.json",
+      "sha256": "5a82da8cb45dc20449ac3202b1da57fff5ef1baff39bd541795d7e08a482dd5d"
+    },
+    {
+      "path": "subtypes-2026-11-09/render-verification.json",
+      "sha256": "a2a1daa551a040b1aec1f324b0d6f83ce40a04489fe4b5f8520f2cafaf346c8b"
+    },
+    {
+      "path": "subtypes-2026-11-09/scope.json",
+      "sha256": "3303f8f77ea039d875c009997659b662465ee796c1d211bddc8e737384044de2"
+    },
+    {
+      "path": "subtypes-2026-11-09/source-reading.json",
+      "sha256": "7bd70e678eddb87e1360c376c5ce8137d85cbd08cec7de680548a18ed5e40873"
+    },
+    {
+      "path": "subtypes-2026-11-09/source-scopes.json",
+      "sha256": "903993eda9d7fdadc950f0b9e4d259513ee4a1a4eed5b39c76e4037e4147c06a"
+    },
+    {
+      "path": "subtypes-2026-11-09/zero-result-queries.json",
+      "sha256": "41284aedadb5b678f50d0e0f89fe8d53a3c1d6c49a6a8679862fd8ed4a7fa9c8"
+    },
+    {
+      "path": "support-asset-dispositions-2026-11-10.json",
+      "sha256": "60644c840510fbfe5c2bcbaedd86ecaa56c00aa1a0cffaf5e01bcd4794415e14"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/README.md",
+      "sha256": "ddd9f30479841f9319456412dbbc00ecd27aa19ca2835b6a17b7ed2a330a6778"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/adjacent-queue.json",
+      "sha256": "6fb01509385b151d2354e4c343e8eb1e62bdb9af4e213c41b6f9fc155468787d"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/asset-classification.json",
+      "sha256": "618f56a86860fd8f8085996afec1d935d11ee624befb18c9b66b5de48414f200"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/batch-summary.json",
+      "sha256": "272b69061b53274fca96c7b49b256f0e646046a341a1050512c9ec5f18a5384d"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/coverage-proofs.json",
+      "sha256": "b72ead66c028536238796051103afbc53ef0a9605df9b06f8d6b26e7f538a202"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/learning-requirements.json",
+      "sha256": "b3e259002ff7c2d01a5c63a5257f0b15ea3b85c7abf541aa53571686e3d8ff53"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/primary-sources.json",
+      "sha256": "f90f4c6c73477302a979d925dde012a257de623a14eb0aeed6e019ddd0e891ec"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/record-changes.json",
+      "sha256": "42604a2e3311afec934fc846f6a13a56e4a8e4791b79856cdc826356c7cf2c19"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/remaining-gaps.json",
+      "sha256": "8b6f42ac275cffcee69a190e6f0dcb432f5ce7eee4f3f94e6d504edf99566dd4"
+    },
+    {
+      "path": "support-assets-20-2026-11-10/source-reading.json",
+      "sha256": "114a1441bdf794bb784b99d2998cefc30ee487684d6b994f94710a9c33cd84c3"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/CORRECTIONS.md",
+      "sha256": "9919b8cf217bc6dca7d3ec24eeb28334cbd3e79fb78e952e213a0e176c5fa29a"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/README.md",
+      "sha256": "3350d82f9b5fab24f539f45ef436712fd53ff82d2c3cc68ebd5aeb0e9617a158"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/adjacent-queue.json",
+      "sha256": "0871c928b980d5f1a5e5774cebfeac734d036ed16bb2d615f0ee4ee74cd8501a"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/aggregate-census.json",
+      "sha256": "6f464fed5175968fae8507dcb43bb45a0c41f48107b29b40be00d3ef60aac1a6"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/artifact-review.json",
+      "sha256": "12028280a3a93faa5c56ca6307221d5d7274ec4781b4a4296722c3815efa3171"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/batch-summary.json",
+      "sha256": "ced4921b03dc51f3ca0f849af24b4870bd81badc05d2a118179fe1b7023dedeb"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/coverage-proofs.json",
+      "sha256": "07e0d5239083cd96679fc9722b6267d7756d19158d9fa00b5a81206ce4b79c15"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/learning-requirements.json",
+      "sha256": "ab4d925a53b6fd972dbacf5c75fc15e34e8c29f31638f9119a69b78835f13fcc"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/primary-sources.json",
+      "sha256": "3c93e1e542b31c0f083a0200cfe7535000a3ded6c5a15846139e979adae05432"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/record-changes.json",
+      "sha256": "9d5e0edf8ad538f41396234772b773f563d6e2fb570a770a93bad9320e131aae"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/remaining-gaps.json",
+      "sha256": "17cba8dc2eda61e701c7d7dcb9efe9969fe9e4f8d0c7b9eba1a5df7a4ea76396"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/review-findings.json",
+      "sha256": "11c796034b9a50341feda757db556d2ae1ae53adb0b41c82b15a4c80e6ee96f5"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/source-reading.json",
+      "sha256": "563db56ca5f4a81b2ddec23194040db03f7816fe534f9863963be8ff7541b5db"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/validation.json",
+      "sha256": "81a824009f2dfab5e14983ceb952827805cfa2fa7f1cb216d60a4ff31a2b3588"
+    },
+    {
+      "path": "surface-targeting-2026-11-11/zero-change-replay.json",
+      "sha256": "320ad2fbd038825ed88bd7744685c800e168bb4bf7e8d205cb76ae23df93ae11"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/README.md",
+      "sha256": "d7d9461a868495a1d3e0de3eda3a4b02dfec0ec6ada213f4236009a8b71332f1"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/adjacent-queue.json",
+      "sha256": "8a19ce0e0f4e5542da24b30ac497550bf91febcf05fc977b7031c3e25205679b"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/aggregate.json",
+      "sha256": "849b194e63d059bf574e7e9b3a5a10b3034445cd5ac3a08b71c0776446ae2de4"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/arithmetic.json",
+      "sha256": "b8151cad4aedc03c5644e45d64e1db2a695e30a251b3032f8af90c8547526a0c"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/asset-dispositions.json",
+      "sha256": "f1461507e335501c7324610f7f693ba07e4a2545a77542f85d9a5d9fde8f0f52"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/batch-summary.json",
+      "sha256": "a2e70833fa827f913a609b41f1245090439755d1f3c1ce44030e8733f0ecf393"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/capture-hashes.json",
+      "sha256": "62058da4807959903da37f5c55c8db69dfaedae67164d9bacafcafe3a71ffb06"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/coverage-proofs.json",
+      "sha256": "3b0928e7bb192f2a6b4c4ceaf7da917cbc93d26304761097ad4b6a1e94cf49b4"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/frozen-discovery.json",
+      "sha256": "1406bc61ec39567d9f0ad70d05fd11132153906275b9fb6f4c4e39eef76e0955"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/learning-requirements.json",
+      "sha256": "f4a0d2f4818d0f56490c1e5cee1af48375cea29ee51790a27f06f89a1cd19471"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/primary-sources.json",
+      "sha256": "f7a068af4a0074f1d8d1baecae4a420de2e7c339378ca163d8f8c179adfe9646"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "35d0e97344e7fe4c11322517c051643c239d37b62e30118b99b84e1b00e6556a"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/prior-field-rebases.json",
+      "sha256": "89dc569008a0bf384b1f1adc90371b5eccc6719f20310284fc5a372a0b3f5559"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/record-changes.json",
+      "sha256": "8b3b7d2c6dfa1a9a66437a652b5c8a175981eba49aa3011c2a6ab31cc291085c"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/remaining-gaps.json",
+      "sha256": "de48717281cf0667d8647a512811ab743b3a24937f52cf764f731e85f8c7a5f2"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/semantic-review.json",
+      "sha256": "3fd20eeff942bb4dfa39eca2d7b8f45c99b71ff8aa53a6fdc0a4b8b22f2bd3a5"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/source-first-inventory.json",
+      "sha256": "f4a0d2f4818d0f56490c1e5cee1af48375cea29ee51790a27f06f89a1cd19471"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/source-reading.json",
+      "sha256": "62425e9f47d862a3382cd098d6e82ea457521fa1015ba0bcc2b70f6f1664631a"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/validation.json",
+      "sha256": "3875313b6eb6795082a4a9d6d88208b0d50a8d9787915639401af263a03b12eb"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/visual-review.json",
+      "sha256": "2ee7a6fc764882a81a39ffdffc1bf2bc7608468b26340190652398b26cd7928b"
+    },
+    {
+      "path": "targeted-small-molecules-2026-11-12/zero-change-replay.json",
+      "sha256": "1d2c15eceba364101b3cd2bb97180ec7a094eb08efcf71237529db4454e08dea"
+    },
+    {
+      "path": "tcells-2026-11-09/README.md",
+      "sha256": "378ec2e22b9e08b1a6e09da16970ba206e03bb59aedf54ddbff29fa523c381a9"
+    },
+    {
+      "path": "tcells-2026-11-09/api-verification.json",
+      "sha256": "d0c6ac4c25611c2cabb3efd7c648811ed8b8ad98c098f072a8071d27318d519a"
+    },
+    {
+      "path": "tcells-2026-11-09/block-reconciliation.json",
+      "sha256": "b29093f4de700ae3030497efcd2bb72fc3d39a5a65795fa19b69a21680a94e5b"
+    },
+    {
+      "path": "tcells-2026-11-09/coverage-proofs.json",
+      "sha256": "bb0f57c953c7285d699be396362de7235253f0721df8a8c30628dbb366af4b8c"
+    },
+    {
+      "path": "tcells-2026-11-09/doi-reconciliation.json",
+      "sha256": "97e592c87e1eed897c7c3b671109af5181df664bc66a3a54b5793cbaed1c6b05"
+    },
+    {
+      "path": "tcells-2026-11-09/exclusions.json",
+      "sha256": "19099b3a9913e1a3fa0ac647b7216447e63d3040717d59b22990290f0f4d9189"
+    },
+    {
+      "path": "tcells-2026-11-09/figure-reading.json",
+      "sha256": "734ee5fca06abd6906c801b9171b16c60d9d63f6a8835df56374035e2e4c7df6"
+    },
+    {
+      "path": "tcells-2026-11-09/intake-verification.json",
+      "sha256": "c8df1973b4e0ee35c63c283386a68d79b80c8b33d56b162c29ea21446e71c003"
+    },
+    {
+      "path": "tcells-2026-11-09/learning-requirements.json",
+      "sha256": "6fafd04b6a688001c63c94a17349bb8fc08ac85f7741c5f94faa15d8367c3a2d"
+    },
+    {
+      "path": "tcells-2026-11-09/primary-sources.json",
+      "sha256": "c0a962b26453ec8980a24154577954426f74435e064063d0598af075df21748f"
+    },
+    {
+      "path": "tcells-2026-11-09/render-verification.json",
+      "sha256": "146a32a1ba5f544d600074a6a173facdb235d9e886dc1ece7c59cb740fb9667b"
+    },
+    {
+      "path": "tcells-2026-11-09/scope.json",
+      "sha256": "9b311a30d15841e410427e110a682a57392f9a2f8c4e52d324000e616f36ad77"
+    },
+    {
+      "path": "tcells-2026-11-09/source-reading.json",
+      "sha256": "4dc25081ab70e1b461e910760e6431f5dfca9c2488f1020ce2d962d48dd87a64"
+    },
+    {
+      "path": "tcells-2026-11-09/summary-consumer-verification.json",
+      "sha256": "9ae2ae22075d544bbdb20a88f765590930b96a8af460c4dad280dc7b3e33f61b"
+    },
+    {
+      "path": "tcells-2026-11-09/validation.json",
+      "sha256": "be32148c6167c7eaf7eb650785cf139a13f32023766d77f11bfa87562b829d4d"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/README.md",
+      "sha256": "3de73dc089e38c1ffd2e4e5e8525cf85b45f9fa96884982c4a93e729fe199b65"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/adjacent-queue.json",
+      "sha256": "7419da22050dcda4790699389e268bfb7c6dd38c5d97e983597ecc9ba38e7668"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/aggregate.json",
+      "sha256": "06b1652888af1cdb26c50236cc918c38972479c28fee73542190731823cd36a4"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/batch-summary.json",
+      "sha256": "e775814ce201f9b328fc3283e54dd15640ee16ffa24cbcde3f04d0608a299c23"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/coverage-proofs.json",
+      "sha256": "b3a2c0e7ad697622c41eee8c919091d98c3f84cef8cad8aa6a7cc3fa81d0ae47"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/figure-review.json",
+      "sha256": "c8b4611942a2d055ce940ae53384efb6497ad6836897d33f05bbf37889db098e"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/learning-requirements.json",
+      "sha256": "1d589670822a245d5ed145a89f6dba5567a3733733a62366849d0ae4276936bf"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/ledger-integration-preservation.json",
+      "sha256": "894563f13d7d649391e71ad27446d375b4232a7fa09a3f23e219df86dd61f610"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/primary-sources.json",
+      "sha256": "decc017a18caa8dc5191747070f50af6ffb5b52c9261ff5b3c969d957da4f543"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/prior-field-rebases.json",
+      "sha256": "96f2362e57398315ca728a5c13ab7425c1ba5b48bafbcb9883b0038c8b5fb4ff"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/record-changes.json",
+      "sha256": "2d4633fd3d047e6947d8d8fe7723ba05deecd0a31c41c2a2113e878218feb7ab"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/remaining-gaps.json",
+      "sha256": "eca2f95fe8e125be15a6398bcc0045b9973a585994438e34180b824d60b145c0"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/source-first-inventory.json",
+      "sha256": "cf6d7e7552fac4a5797348135425c29f4fcdfcff534862621aedf9611c6d5fb5"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/source-reading.json",
+      "sha256": "56181f987588679369f729c8e8a0bde2f0c1589721db81b1395259e452a99dcd"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/validation.json",
+      "sha256": "fbd860e104beea0403ffefb054bed6fc03315b34a45cecd029245f8d663d6990"
+    },
+    {
+      "path": "test-vendor-guides-2026-11-12/zero-change-replay.json",
+      "sha256": "6bc9e2ce49da96c97846071f1dc3c1d0beee21e83f24300f2234816d0f71051f"
+    },
+    {
+      "path": "therapeutic-primary/access-limitations.json",
+      "sha256": "0eb2b3e404b49d8f32008fccef1ca625b154ea537aff9360b563d5e153f248ba"
+    },
+    {
+      "path": "therapeutic-primary/conference-identities.json",
+      "sha256": "5336c4cad9f6ddb0e85aee249651a8a18a45972cb9892ccafa9621e2ea97e690"
+    },
+    {
+      "path": "therapeutic-primary/official-and-method-manifest.json",
+      "sha256": "6d06300eacec17ee132f6e16eb4c51599978c86b384287ec61f57f65c60fefe8"
+    },
+    {
+      "path": "therapeutic-primary/publication-identities.json",
+      "sha256": "c18c9d6d10a608095c07686b7677ecc2cff880cdadddf61e95a57dce3e300f7c"
+    },
+    {
+      "path": "therapeutic-primary/registry-checks.json",
+      "sha256": "811bc0e8ae329861e328a236da749a596a71496e7efd94f104bea81034c78de7"
+    },
+    {
+      "path": "therapeutic-record-sources.json",
+      "sha256": "e0959914f9ea165d11a4b0428ed719ccd7a43e1abb01bc1fcbb912e9d46e28b3"
+    },
+    {
+      "path": "therapeutic-render-verification.json",
+      "sha256": "d7cda0a89667c92a3f46c8378c8d411a6b6f87a3bcccd0e04f7864e8ff2e3a1f"
+    },
+    {
+      "path": "therapeutic-retrieval-verification.json",
+      "sha256": "edb122564770e600646935c343e8dc8f2c0497be2efe353c2b97277b0c98780d"
+    },
+    {
+      "path": "therapeutic-validation.md",
+      "sha256": "4287a1ae2be0dfb83165a41c77a8a5e56bedb7296c6136dab08e7608629e6932"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/README.md",
+      "sha256": "a4f251a607e083b45cf722d2d0ae955de47c579ad55a12353ed05406961f20aa"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/adjacent-queue.json",
+      "sha256": "1a202b7f1dc701fa32fe14c5ac66bffc1d40a36a493bf77ecb0d27b49d19b05f"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/arithmetic-verification.json",
+      "sha256": "f8af0a7652a8526b1cf76bcfad231b12c1298bea55cb3b0e233a4db04d3cc4f8"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/asset-classification.json",
+      "sha256": "7a4ee82dbbec501e7b20c0af7163ee5e1044a2c85066a0f270a0e5ec7ef44347"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/batch-summary.json",
+      "sha256": "45d7d8e7a9d3c7e9ca80685d1bb84d2dadddc6dedee6b7b165776a5d107f49f3"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/checkpoint-counts.json",
+      "sha256": "eee3dc1592fa3ccde1d532d3cb3d456472372562a4b4a427011f2f1e969ca6fe"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/chem-export-verification.json",
+      "sha256": "fe5190016a741ae31cccdbae59e55548cd1477c7c9452cfa8b1690f221bdb3f0"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/coverage-proofs.json",
+      "sha256": "d6d5b2d7d4be05ea7e97ab2b2b420066e4e7b9dfa640efcb7716416692864dcc"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/doi-cache-additions.json",
+      "sha256": "5d555e0466e6007e39a7ed4b21522402658c1b8a773da8ca7a043c6d9032046c"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/figure-review.json",
+      "sha256": "2281247adddf29cfc70259327394525b8195128e85cd3c8654a721269c484e46"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/learning-requirements.json",
+      "sha256": "81a65abba4877b61992388386c861eb81a1d754d2a0d6724cf42b95ca14fdac8"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/ledger-reproducibility.json",
+      "sha256": "3d95fa9c11c717d3cc5a5be29f5d7684c296fcb4e01612f5284bd00a510a4946"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/primary-sources.json",
+      "sha256": "6a87e119e94d52e767383b5a9b223a4c24abcc8bfaadb61a3c639ac167547644"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/prior-inventories.json",
+      "sha256": "7aab69fce8464583af27c99984e8ceab87d32ba7f6041b4296bf48aa121f81d1"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/record-changes.json",
+      "sha256": "0dfcc1af7877d37919cd289057e1c2062b86d96a1fb4486dd5c8bb95d84475f4"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/remaining-gaps.json",
+      "sha256": "cc73c6942de8aa1852e2d93619c98e7c000f088cb9438362942c85d87d732fa3"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/rendered-passage-verification.json",
+      "sha256": "50277fbc5ffe94b5e0416a21a9a69086bacf9a3fae3c2e7dc4e25899b4c40f22"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/review-finding-dispositions.json",
+      "sha256": "edd522a03e2ba8c211d3753a6ff74b1f6c2bd8abfd2000ba615bc9aa387743c1"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/root-export-verification.json",
+      "sha256": "2f797d89facf4b4bbc9a0f959e547f25db3555aa00d8f27dd6fb26a15fad1503"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/source-metadata-reconciliation.json",
+      "sha256": "4cdbf292feb8585c7da06d66e770d18c3c5ffac687b5a8a1d21fe382e40669ab"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/source-reading.json",
+      "sha256": "2f6e006f2ce842db20317032b4b7e7405c36a19e3d40dbaa461b0f68a9120a4d"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/summary-consumers.json",
+      "sha256": "859ef1b38f7280f94ce2b01b57fe06cce674c6a132494ccd1de2e67746189d03"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/validation.json",
+      "sha256": "d4a0f60cdcc557f8293fb62aff804ed750b2b02ef668e7afdcaab0e98199b8c0"
+    },
+    {
+      "path": "therapy-conjugates-2026-11-11/whole-graph-verification.json",
+      "sha256": "ac979e374fe828e77aeac4346f1909aead332f859a14b155b7400834b0e1a197"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/README.md",
+      "sha256": "ea871a95fb0e8c1d6c66cb8e76e9681b021f43828be7b06b60f963819953fbfa"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/adjacent-queue.json",
+      "sha256": "43842813fb899b265399394e7607d5a16bfd5ddaa79aadc143e20b647cdbd016"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/batch-summary.json",
+      "sha256": "087278bf936b1321f1b2dbb2cbb6ec2e28e324e3356ddf01f1dfd7b570aa06df"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/coverage-proofs.json",
+      "sha256": "a9532eff4bf9be6b4977b25ac80fbda7584d05a6220a02897f4a7cd9add6510c"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/figure-assessments.json",
+      "sha256": "3eef9a5d24d3f9b4440ffe5d805e4788ed42c4b7afbbed7742307527bcf1f6ca"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/figure-learning-requirements.json",
+      "sha256": "e93fbf3743e860941c5aba5576ce63dbe3fa0d8e626c06a1a445af66b0d811c7"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/learning-requirements.json",
+      "sha256": "269402fc1bd55ba2ea9db0b7e90ff0fd93dba146ea7c6d01cda5a69e1e32af37"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/ledger-replay-verification.json",
+      "sha256": "ae86fd46796210e40e4087d3dd992372dad33e09aa375d7b4b574f4be999c65f"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/primary-sources.json",
+      "sha256": "acc3fbed66a9e40d6143d25cec6de44f544b346bc7a482b6babdd74fc69db183"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/record-changes.json",
+      "sha256": "434aa6f1c968b340eb0a9910ebcfa7df33aaa46fde83487a4af3afc90d4ccbf1"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/remaining-gaps.json",
+      "sha256": "c4c1e2ea641ba5586e809acb1e428cf4d1f45b3ebf0d912a19134a95e50b7f1c"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/source-reading.json",
+      "sha256": "f8d246d5a3919eb4bb401a69dc7cfc28127171f1253430e283c50a149d72ac9f"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/validation.json",
+      "sha256": "38e874efa879a44a816dfbebb9c08f1d4eb67d61a2258db7b20a2fe1eaa13636"
+    },
+    {
+      "path": "tissue-pathology-2026-11-10/worker-reconciliation.json",
+      "sha256": "afdbb9c05b147f47a4c586f3fe291173db24e0fa2452de93ff930566a4377721"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/README.md",
+      "sha256": "1add7099969ee09e69f5e4caca626b0b0b3cb7db28a5381243ea38583925bcdb"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/adjacent-queue.json",
+      "sha256": "184c8117ce2c9851248eff5927ada02da89c6e023540651c90e70534a28a827c"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/arithmetic-verification.json",
+      "sha256": "813a891b12e2945cebbe60835cb1e4d0054993d2a0a47903644d3743fddcc105"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/batch-summary.json",
+      "sha256": "c208b233a855102c0a26cf9a2b207f217bd830d11970f8009e3b39e08b0d9ab9"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/canonical-census.json",
+      "sha256": "5d9d415526cc6c40b7320e5679f60ab212b9035b3328588bfba5c9d1daa23b4c"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/checkpoint-counts.json",
+      "sha256": "eed9056a1d745d44423f4969daf6240a4ca01a179928700d7a3fa58cce489437"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/correction-dispositions.json",
+      "sha256": "da5f5169b34d21d9a181ece6f1a4352c1b9c59a36ad5ac4932c10544ecbd130c"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/coverage-proofs.json",
+      "sha256": "f4882ea6bbe845779a059d9e45b1dca64d6014094cc44fb77c356305b0098257"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/figure-assessment.json",
+      "sha256": "65be2165133fb20b5dd6c002acb46ee87e2d5f6054d76ffbae02735f77049931"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/indexed-corrections.json",
+      "sha256": "d5f23c2030af4256737634849962a7e4a11e6cec3c5b653bdd79b5a9c2c02887"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/learning-inventory-refinements.json",
+      "sha256": "8d9c0fc8ad3aad24a5c8ab6c0695910a64471bb6dd74821982e564c5f6b3a2c5"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/learning-requirements.json",
+      "sha256": "0b3e10b2dfb968aa5c87c0abc2cccdfa585271e114bb9d5dde5739912868addc"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/ledger-replay-verification.json",
+      "sha256": "b95fb08c6923842075b5dc8d2aa85c4ff91deb0bb5154cc65e10b2c4e1391dc7"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/mermaid-assessment.json",
+      "sha256": "9717770284fc6f82601bd086ea6dc38c450ffcd42c319adcea8ac5f4b939a343"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/ownership-preservation.json",
+      "sha256": "3afaffc77000b8ff5e3ac30e81b8d40dc2dc536ec079b604abe883bed0b0fae0"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/primary-sources.json",
+      "sha256": "0ca57023fa652517cc19c5911763e1411696347529a44b2d383aa573fdfa1bda"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/reading-method-correction.json",
+      "sha256": "7eedf36c384fa5abcb8ab1a97f2835717a79cc99fd4f73111ff6657f6962aaee"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/record-changes.json",
+      "sha256": "ad7bd7b4d3e8b4a4793d98d6a610e1822ef5748bb036fa99b95c0556628f7149"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/registration-collisions.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/remaining-gaps.json",
+      "sha256": "39c9157f9087fc63c83957785860b4b07ba422684d20b1753be8a7b195b2eb3f"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/rendered-passage-verification.json",
+      "sha256": "f054b9447e184d5942df5090b3560c63b14821ab09245acbf1b28a232d85b86c"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/root-doi-registry-additions.json",
+      "sha256": "d1330c56691bd25fdabc5f591685274d2d229145c165d3177d44a8e38ee84d2d"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/shared-doi-registry-additions.json",
+      "sha256": "50764916ba77c9b60fe7e89d1a1a2d96935d48bbac96c25181f13e494f3cf18a"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/short-reader-changes.json",
+      "sha256": "5c1dc38ba71a49e0cb735bd28f8e9b7bd64bdca542225575064ef59ab30e8bf5"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/source-reading.json",
+      "sha256": "deb6698ffe61664afdc22b675408d7f2cdf18301dad7c89b1d8de2564b75224a"
+    },
+    {
+      "path": "tumor-immunology-2026-11-11/validation.json",
+      "sha256": "2a1342ca9cd5dca9f0b3ef2165f6ada5f458ae4e1f92fa344dd91f251638b036"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/README.md",
+      "sha256": "139cdc09360f4211a07ab90deaa9e65263f5b33eb458488509f673a7c55fed47"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/aggregate.json",
+      "sha256": "14cb49781b048b11dd33307377203397da6e8ffc1aa41a3cf3d458bbaf161316"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/checkpoint.json",
+      "sha256": "b8ad7cf1360b498583b90b632e7d4ae7cd226652c16983b1091c0f5159fb8696"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/conflict-resolution.json",
+      "sha256": "c1581f3ce519b5912cc0c9e337c0e6f5d27f34f533c50b6f2338204ef4b2fde7"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/prior-artifact-preservation.json",
+      "sha256": "45e8ff32486152645b2eb9f6f7ab285a61e1193e447b7c08e9c5b62cf00f7fc3"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/protocol-link-verification.json",
+      "sha256": "9b6b582f1a676233694fef2822df7ec4f5f281f50f00c04e2e2b72226948e065"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/record-changes.json",
+      "sha256": "dfcba8e248564daa80322116688f4769a64412a2e2753a8dd3587df1f3ccbf5f"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/upstream-changes.json",
+      "sha256": "592b0e1732e75e0a5d02accd010aba5d8c9055c9b0cab78d1a5bc133871f5888"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/validation.json",
+      "sha256": "ebe22d503d12c72704a923de3f724d3bc106eca42a49f0f2d70191e269c91bed"
+    },
+    {
+      "path": "upstream-refresh-2026-11-12/zero-change-replay.json",
+      "sha256": "c5ad08ddac4be34ff0db701bb5b1e75b1f85eddaedc296786cd6d4f271abf189"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/README.md",
+      "sha256": "4c22f0f91c4b316ed6dea78e9527b124d6250575731b0a69e23e981f337e6f34"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/adjacent-queue.json",
+      "sha256": "1304c5bcc34e6c746ce37e379722cde10c5cab9fe75b6e9e47846f52e26fdf48"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/aggregate.json",
+      "sha256": "8ccd785f403d7d302237ee7123b4eca3257f137f94ca2afabf895f2e3ba8c8ea"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/batch-summary.json",
+      "sha256": "94cf9ebccf0a5a69ef34631efb95bd9c9021dfb93c6f1122d18b2e603afc46ec"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/coverage-proofs.json",
+      "sha256": "c3ecb6520de571fdda6f3120eb873b7164f65ed0a579ff387b62e38d5de46576"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/figure-review.json",
+      "sha256": "6e89f9c22528bd34f61b1eea18564d6c834f9795e036dea8a4dee8379a51fd57"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/learning-requirements.json",
+      "sha256": "2c5f467794ddbb72815ccd2aa89f87f94f0e7d5ddd9d57d17c0fee25136397b3"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/ledger-integration-preservation.json",
+      "sha256": "3422d0eae2a229a0011624846536cca2aa98583d0290b6626b6fc781d146ab86"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/primary-sources.json",
+      "sha256": "f97674d8b584b9c9f22cb4a10a700b16f58cabce7f4a3aa1bd4fcdcf2615b836"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/prior-field-rebases.json",
+      "sha256": "42f59db7eedfd748cc331e134b01524e8ca8aea2db852d2f6a552d604257676b"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/record-changes.json",
+      "sha256": "6ca896ff130470c0dc52e82a239d86fe607146fddc4b6cfe4d82273261113d0d"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/remaining-gaps.json",
+      "sha256": "8e82d413ebbc49cf701d95725ea6fc7892edc245d65ca2893c157aed8ffc2dec"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/source-first-inventory.json",
+      "sha256": "ae7d163ae5c3cd04ba841cc2dfae822ca644bbad639803b7e88dd0d678e5cce3"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/source-reading.json",
+      "sha256": "a80ae5d2803639995c3839e7f2f941572a5caed885933635ac4100be1dc31b6e"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/validation.json",
+      "sha256": "f69c39f06570b54cdb625fb24b4f4177826bff6bf501fbefa88287ad3ac1a2b2"
+    },
+    {
+      "path": "vaccine-data-guides-2026-11-11/zero-change-replay.json",
+      "sha256": "845c660b1127e8cde7cb75f91a5c34f17c1f395546ea1ab405b844dd93c262db"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/README.md",
+      "sha256": "1ae1f1ca4ca95e9cb39f336106b0a831163d6d323aa03ef7831789102d744a12"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/adjacent-queue.json",
+      "sha256": "af1a172358e9daf1c1c1e49b698b7346490c48b77895cad713fba2883d7ef905"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/aggregate.json",
+      "sha256": "a821398f595a9f5b478ff19445cca761d3523ea32bdc7790a58443b76414c72d"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/batch-summary.json",
+      "sha256": "934a818daffebe5133c038cd16d1d23705fbd58fea4b1269356f6f492b74c212"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/coverage-proofs.json",
+      "sha256": "615316b443fdffc8c9a5bf560f17db92820031fae9922339053d2fe60c8d63f5"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/figure-review.json",
+      "sha256": "a22379beab28fdf7856b2c815bb12bae0e31f4cf3342078eec0f5a525e4ecbf3"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/learning-requirements.json",
+      "sha256": "fc6fd21e331bd776053296ccd30cb51d64931be40e23c612144267db63507a2a"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/ledger-integration-preservation.json",
+      "sha256": "cf19ef2a655851ce4e8c731354cede46d8c661d4d617e4aecb92a5057d50ccc9"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/primary-sources.json",
+      "sha256": "d7d3dd8a33c987436606bf36151c5d4fcb97cf9abb83e70fe6ca8e343efbe0ff"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/prior-field-rebases.json",
+      "sha256": "24b5836ce2f322346b820cee2ec0eec0811715e5f2257183dda089c5173024b0"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/record-changes.json",
+      "sha256": "8abe1f258b597132efcf30d4b4a45259d0f71ff27d0f9938683d43af5324c6f7"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/remaining-gaps.json",
+      "sha256": "d2e969208509bbc39f0ab55e12b7a7bbd691935cb54daf98d030d75b2b2f2303"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/source-first-inventory.json",
+      "sha256": "a191a377c0e8ccb57cd6afefff29c438adf396e2385606c81211407eebbeccc7"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/source-reading.json",
+      "sha256": "a3acc14fed26a4d8b28ba0643da75190240f1da40b6bd7dc680f32142b91ed3e"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/validation.json",
+      "sha256": "d5c013d316fd40d5b9fd332cfe857dc1625087a2e7331143c7479c01dbeddd8c"
+    },
+    {
+      "path": "vaccine-presentation-guides-2026-11-11/zero-change-replay.json",
+      "sha256": "b25a4d072f1d22212be57b4c6d7463aed26182a982951fca4d94643fccd04068"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/README.md",
+      "sha256": "4f9f95e27e562f52c7e3b0df78eab19cf2a1b8fb380240190cff0fcf50a28b85"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/adjacent-queue.json",
+      "sha256": "1c7bf6a014835f38623331dc1b04db72cc0548edfe0bd36238871705f0be3952"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/aggregate.json",
+      "sha256": "b47134c01897e89be921bd0f417f233122043418f287c31f3c2de7e0884383dd"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/batch-summary.json",
+      "sha256": "5eb5cf049db9e96f8b5df5998186088642a16bdcbb92f90771319d663536215f"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/coverage-proofs.json",
+      "sha256": "0a6db0b3934129b2ca07a57f04c42883538d37ec12c6c910a365e461fce2a236"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/figure-review.json",
+      "sha256": "63b9010f97e386792d38aa7713e04bc77a34fc48ed073b4b20f877fe05080bd9"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/learning-requirements.json",
+      "sha256": "f1d5bdb693588acf4c1515668f751087e9f997951058399019205b6d8253f021"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/ledger-integration-preservation.json",
+      "sha256": "b0fd456d79291edbae58e058739716b158b3f7e470b7e692d940f69ea3bef358"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/primary-sources.json",
+      "sha256": "5d8cefe42432500d07768a92bc11dee04adc7a4a041d58ac15cdd486fd5533d7"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/prior-field-rebases.json",
+      "sha256": "b6d770ffdddbe2e95aa0fba2d9fc506d713569156a6b21b28f7f5ae990d49fa4"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/record-changes.json",
+      "sha256": "8e3825117ef5f14790bc35c848afe96ae35b28bbb348756bd1c5fd512896f1df"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/remaining-gaps.json",
+      "sha256": "ecbd8da207f80ecca9d590e5f7cab573d0bbaf6b8d4f11071cb17703e39c4db5"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/source-first-inventory.json",
+      "sha256": "7cab26ce1e93f34b5e51b9d752b93351de58881fc531446edaaf7431a02b8222"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/source-reading.json",
+      "sha256": "97dc1066a70261520393f9bbe6dbb138c17fa51ac436563fd27024965f7814b3"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/validation.json",
+      "sha256": "e15a8b49eb978db0a67f35d0f41657802a64006b552e8d2c786c65e9e18a4d3f"
+    },
+    {
+      "path": "vaccine-production-guides-2026-11-12/zero-change-replay.json",
+      "sha256": "d613bc81193b7034b2a4b5148a309d9f09ce0cc321cc6e020c01294e55b2373c"
+    }
+  ]
+}

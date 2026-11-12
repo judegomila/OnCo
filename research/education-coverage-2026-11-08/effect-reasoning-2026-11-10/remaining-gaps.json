@@ -1,0 +1,47 @@
+{
+  "assignedLearningRequirementsOpen": 0,
+  "legacySourceWork": [
+    {
+      "id": "codebreak-200",
+      "withdrawnAssertion": "Delayed progression without lengthening life",
+      "nextEvidence": "Read the exact overall-survival primary report and its power, crossover, estimate and uncertainty before restating"
+    },
+    {
+      "id": "adjuvant-endpoint-generalisations",
+      "owners": [
+        "monarche",
+        "natalee",
+        "adaura"
+      ],
+      "withdrawnAssertion": "A stronger generic surrogate-validation record for adjuvant DFS/EFS",
+      "nextEvidence": "Check each primary endpoint, event definition, survival follow-up and the applicable trial-level validation rather than infer a class rule"
+    },
+    {
+      "id": "mrd-regulatory-and-treatment-claims",
+      "owners": [
+        "perseus",
+        "captivate",
+        "mrd"
+      ],
+      "withdrawnAssertion": "FDA advisory acceptance and MRD driving treatment decisions described without their specific context",
+      "nextEvidence": "Read the 2024 FDA committee documents and primary trial protocols/readouts with disease and decision rules"
+    },
+    {
+      "id": "ukctocs",
+      "withdrawnAssertion": "Found cancers earlier without reducing deaths, labelled the clearest warning",
+      "nextEvidence": "Read the primary stage-distribution and mortality report with uncertainty; remove the unsubstantiated ranking"
+    }
+  ],
+  "sourceDepth": "Primary materials and raw abstracts stay private. Existing reading depth is carried honestly; no full-document or clinical expert certification.",
+  "unreadSources": [
+    "STEEP 2007 table",
+    "Paywalled and challenge-protected sources remain at their recorded available depth"
+  ],
+  "publication": [
+    "No new Next production page build",
+    "No browser hydration or mobile/accessibility certification",
+    "No expert or named language sign-off",
+    "No merge or deployment"
+  ],
+  "next": "Continue the remaining curriculum, supporting assets, adjacent source work and final re-audits. Main and live adoption remain separate."
+}

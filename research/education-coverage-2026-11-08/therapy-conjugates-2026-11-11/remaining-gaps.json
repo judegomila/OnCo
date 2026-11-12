@@ -1,0 +1,52 @@
+{
+  "partialRequirements": [
+    {
+      "id": "dose-dense-scheduling:O009",
+      "version": "original",
+      "remaining": [
+        "C9741 numerical results retain abstract scope; the listed June 2003 erratum is unresolved at DOI/text level."
+      ]
+    },
+    {
+      "id": "antibody-tumor-penetration:T012",
+      "version": "later",
+      "remaining": [
+        "The numerical observation is abstract-scoped; Baker 2008 correction text remains publisher-blocked and unread."
+      ]
+    },
+    {
+      "id": "dose-dense-scheduling:T009",
+      "version": "later",
+      "remaining": [
+        "C9741 numerical results retain abstract scope; the listed June 2003 erratum is unresolved at DOI/text level."
+      ]
+    }
+  ],
+  "sourceDepth": "Most papers are abstract-only. Targeted full-text passages, one full OCR article body, label sections, source notices and curated entries remain separately described. No blanket full-paper claim.",
+  "artifactDependencies": [
+    {
+      "id": "binding-site-barrier-related",
+      "status": "held-until-records-coexist",
+      "owner": "antibody-tumor-penetration and companion binding-site-barrier",
+      "dependency": "PR 371 and PR 375 integration; both directions require the two registered ids."
+    },
+    {
+      "id": "Guide-mermaid-dark-contrast",
+      "status": "Guide-owner-product-follow-up",
+      "owner": "Four antibody-lesson Mermaid diagrams",
+      "dependency": "Inline pale fills produce weak dark-theme contrast. These diagrams are not imported to OnCo."
+    },
+    {
+      "id": "Guide-caption-and-leader-annotations",
+      "status": "Guide-caption-artwork-follow-up",
+      "owner": "Taxane, anthracycline, penetration, ISAC and TOP1 design illustrations",
+      "dependency": "Source figure labels and geometry remain schematic; OnCo prose corrects the interpretation without rewriting the pins."
+    }
+  ],
+  "mainCoverage": 0,
+  "liveCoverage": 0,
+  "expertAcceptance": 0,
+  "learnerAcceptance": 0,
+  "namedLanguageAcceptance": 0,
+  "globalAuditStillOpen": true
+}

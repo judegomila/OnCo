@@ -1,0 +1,509 @@
+[
+  {
+    "id": "aav-vector:R15",
+    "page": "aav-vector",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "aav-vector:R02",
+      "aav-vector:R03",
+      "aav-vector:R05",
+      "aav-vector:R12"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "lentiviral-vector:R10",
+    "page": "lentiviral-vector",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "lentiviral-vector:R01",
+      "lentiviral-vector:R02",
+      "lentiviral-vector:R03",
+      "lentiviral-vector:R04",
+      "lentiviral-vector:R05",
+      "lentiviral-vector:R06",
+      "lentiviral-vector:R07",
+      "lentiviral-vector:R08",
+      "lentiviral-vector:R09"
+    ],
+    "versionOrdinals": {
+      "original": [
+        11
+      ],
+      "later": [
+        11
+      ]
+    }
+  },
+  {
+    "id": "lentiviral-vector:R11",
+    "page": "lentiviral-vector",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "lentiviral-vector:R03",
+      "lentiviral-vector:R04",
+      "lentiviral-vector:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "lipid-nanoparticle:R10",
+    "page": "lipid-nanoparticle",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "lipid-nanoparticle:R01",
+      "lipid-nanoparticle:R02",
+      "lipid-nanoparticle:R03",
+      "lipid-nanoparticle:R04",
+      "lipid-nanoparticle:R05",
+      "lipid-nanoparticle:R06",
+      "lipid-nanoparticle:R07",
+      "lipid-nanoparticle:R08",
+      "lipid-nanoparticle:R09"
+    ],
+    "versionOrdinals": {
+      "original": [
+        11
+      ],
+      "later": [
+        11
+      ]
+    }
+  },
+  {
+    "id": "lipid-nanoparticle:R11",
+    "page": "lipid-nanoparticle",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "lipid-nanoparticle:R04",
+      "lipid-nanoparticle:R07",
+      "lipid-nanoparticle:R09"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "rna-lipoplex:R10",
+    "page": "rna-lipoplex",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "rna-lipoplex:R01",
+      "rna-lipoplex:R02",
+      "rna-lipoplex:R03",
+      "rna-lipoplex:R04",
+      "rna-lipoplex:R05",
+      "rna-lipoplex:R06",
+      "rna-lipoplex:R07",
+      "rna-lipoplex:R08",
+      "rna-lipoplex:R09"
+    ],
+    "versionOrdinals": {
+      "original": [
+        11
+      ],
+      "later": [
+        11
+      ]
+    }
+  },
+  {
+    "id": "rna-lipoplex:R11",
+    "page": "rna-lipoplex",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "rna-lipoplex:R01",
+      "rna-lipoplex:R07",
+      "rna-lipoplex:R09"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "targeted-lnps:R11",
+    "page": "targeted-lnps",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "targeted-lnps:R01",
+      "targeted-lnps:R02",
+      "targeted-lnps:R03",
+      "targeted-lnps:R04",
+      "targeted-lnps:R05",
+      "targeted-lnps:R06",
+      "targeted-lnps:R07",
+      "targeted-lnps:R08",
+      "targeted-lnps:R09",
+      "targeted-lnps:R10"
+    ],
+    "versionOrdinals": {
+      "original": [
+        11
+      ],
+      "later": [
+        11
+      ]
+    }
+  },
+  {
+    "id": "targeted-lnps:R12",
+    "page": "targeted-lnps",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "targeted-lnps:R05",
+      "targeted-lnps:R08",
+      "targeted-lnps:R10"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "transposon:R11",
+    "page": "transposon",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "transposon:R01",
+      "transposon:R02",
+      "transposon:R03",
+      "transposon:R04",
+      "transposon:R05",
+      "transposon:R06",
+      "transposon:R07",
+      "transposon:R08",
+      "transposon:R09",
+      "transposon:R10"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "transposon:R12",
+    "page": "transposon",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "transposon:R02",
+      "transposon:R05",
+      "transposon:R08"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "delivery-targeting-vs-cancer-targeting:R08",
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "delivery-targeting-vs-cancer-targeting:R01",
+      "delivery-targeting-vs-cancer-targeting:R02",
+      "delivery-targeting-vs-cancer-targeting:R03",
+      "delivery-targeting-vs-cancer-targeting:R04",
+      "delivery-targeting-vs-cancer-targeting:R05",
+      "delivery-targeting-vs-cancer-targeting:R06",
+      "delivery-targeting-vs-cancer-targeting:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        11
+      ],
+      "later": [
+        11
+      ]
+    }
+  },
+  {
+    "id": "delivery-targeting-vs-cancer-targeting:R09",
+    "page": "delivery-targeting-vs-cancer-targeting",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "delivery-targeting-vs-cancer-targeting:R01",
+      "delivery-targeting-vs-cancer-targeting:R04",
+      "delivery-targeting-vs-cancer-targeting:R06"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "codon-optimization:R08",
+    "page": "codon-optimization",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "codon-optimization:R01",
+      "codon-optimization:R02",
+      "codon-optimization:R03",
+      "codon-optimization:R04",
+      "codon-optimization:R05",
+      "codon-optimization:R06",
+      "codon-optimization:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "codon-optimization:R09",
+    "page": "codon-optimization",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "codon-optimization:R04",
+      "codon-optimization:R06"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "in-vitro-transcription:R08",
+    "page": "in-vitro-transcription",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "in-vitro-transcription:R01",
+      "in-vitro-transcription:R02",
+      "in-vitro-transcription:R03",
+      "in-vitro-transcription:R04",
+      "in-vitro-transcription:R05",
+      "in-vitro-transcription:R06",
+      "in-vitro-transcription:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "in-vitro-transcription:R09",
+    "page": "in-vitro-transcription",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "in-vitro-transcription:R03",
+      "in-vitro-transcription:R06"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "modified-nucleosides:R08",
+    "page": "modified-nucleosides",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "modified-nucleosides:R01",
+      "modified-nucleosides:R02",
+      "modified-nucleosides:R03",
+      "modified-nucleosides:R04",
+      "modified-nucleosides:R05",
+      "modified-nucleosides:R06",
+      "modified-nucleosides:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "modified-nucleosides:R09",
+    "page": "modified-nucleosides",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "modified-nucleosides:R03",
+      "modified-nucleosides:R05",
+      "modified-nucleosides:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "dsrna-impurities-and-purification:R08",
+    "page": "dsrna-impurities-and-purification",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "dsrna-impurities-and-purification:R01",
+      "dsrna-impurities-and-purification:R02",
+      "dsrna-impurities-and-purification:R03",
+      "dsrna-impurities-and-purification:R04",
+      "dsrna-impurities-and-purification:R05",
+      "dsrna-impurities-and-purification:R06",
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "dsrna-impurities-and-purification:R09",
+    "page": "dsrna-impurities-and-purification",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "dsrna-impurities-and-purification:R04",
+      "dsrna-impurities-and-purification:R06",
+      "dsrna-impurities-and-purification:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "mrna-construct-anatomy:R06",
+    "page": "mrna-construct-anatomy",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "mrna-construct-anatomy:R01",
+      "mrna-construct-anatomy:R02",
+      "mrna-construct-anatomy:R03",
+      "mrna-construct-anatomy:R04",
+      "mrna-construct-anatomy:R05"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "mrna-construct-anatomy:R07",
+    "page": "mrna-construct-anatomy",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "mrna-construct-anatomy:R01",
+      "mrna-construct-anatomy:R03",
+      "mrna-construct-anatomy:R05"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  },
+  {
+    "id": "multi-epitope-constructs:R08",
+    "page": "multi-epitope-constructs",
+    "kind": "source-list/scope metadata; source reading retained, not additional teaching credit",
+    "mappedRequirements": [
+      "multi-epitope-constructs:R01",
+      "multi-epitope-constructs:R02",
+      "multi-epitope-constructs:R03",
+      "multi-epitope-constructs:R04",
+      "multi-epitope-constructs:R05",
+      "multi-epitope-constructs:R06",
+      "multi-epitope-constructs:R07"
+    ],
+    "versionOrdinals": {
+      "original": [
+        10
+      ],
+      "later": [
+        10
+      ]
+    }
+  },
+  {
+    "id": "multi-epitope-constructs:R09",
+    "page": "multi-epitope-constructs",
+    "kind": "derived takeaway; assessed but not an independent semantic requirement",
+    "mappedRequirements": [
+      "multi-epitope-constructs:R02",
+      "multi-epitope-constructs:R05",
+      "multi-epitope-constructs:R06"
+    ],
+    "versionOrdinals": {
+      "original": [
+        9
+      ],
+      "later": [
+        9
+      ]
+    }
+  }
+]

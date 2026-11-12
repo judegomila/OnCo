@@ -1,0 +1,20 @@
+{
+  "scopedBreastRepresentationGaps": [],
+  "sourceDepthLimits": [
+    "Three Crossref requests were rate-limited; Europe PMC identities still resolved.",
+    "Yang and Martin efetch records lacked article bodies; abstract-only source scope retained.",
+    "NICE live recommendations returned 403; the UK comparison is attributed to RCPath, not a fresh NICE read.",
+    "No new Elicit searches or report links.",
+    "The abstract formatter was corrected before repository edits: all four affected abstracts were reread without an overbroad tag-removal regex.",
+    "The nucleus dependency uses its corrected definition only; legacy clinical examples in its longer summary are not recertified.",
+    "No universal blood-cancer remission cut-off or five-year cure proxy is retained in the rewritten remission summary."
+  ],
+  "primaryReadingLimit": "Most papers were read as complete abstracts; eight were also read in selected full-text passages. These receipts do not claim whole-paper verification.",
+  "legacyCatalogueLimit": "Unchanged earlier assertions inside touched records retain their earlier scope; the nucleus dependency does not recertify its clinical examples.",
+  "visualOwnerItems": [
+    "HER2 dark cytoplasm colours remain ambiguous under the membrane-stain legend.",
+    "Oligometastatic symbolic clusters crowd their label in both themes."
+  ],
+  "integrationState": "Complete at stated source scope in the unmerged registered audit draft; no main or live coverage.",
+  "independentExpertLearnerOrLanguageApproval": false
+}

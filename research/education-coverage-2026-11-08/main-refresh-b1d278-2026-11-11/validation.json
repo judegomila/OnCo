@@ -1,0 +1,74 @@
+{
+  "mergeDataHead": "f28dabca920a3387f285c7293400321c599c6324",
+  "gates": [
+    {
+      "name": "typecheck-r2",
+      "exitCode": 0,
+      "seconds": 3.22
+    },
+    {
+      "name": "eslint-r2",
+      "exitCode": 0,
+      "seconds": 1.1
+    },
+    {
+      "name": "validate-r2",
+      "exitCode": 0,
+      "seconds": 2.01
+    },
+    {
+      "name": "full-suite-r2",
+      "exitCode": 0,
+      "seconds": 125.15
+    }
+  ],
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2,
+    "logSha256": "ca2e7d397533304ea70a617e44a374393f8087c327c25894a18d6abbea817cb7"
+  },
+  "ask": {
+    "extractiveRecall": 0.4302,
+    "rubric": 0.661,
+    "existingFloorsPassed": true,
+    "rankingOrFloorChanged": false
+  },
+  "readers": {
+    "records": 44,
+    "surfaceFieldReferences": 342,
+    "completeParagraphChecks": 405,
+    "allPresent": true,
+    "sourceLinksMissing": 0,
+    "nestedAnchors": 0,
+    "scope": "Actual EntityDetail SSR; no browser hydration or live-page claim."
+  },
+  "exports": {
+    "exactJSONRecords": 44,
+    "exactMarkdownPassages": 215,
+    "openAPI": true,
+    "dedupe": "Passed; pre-existing candidate groups retained."
+  },
+  "summarySelectors": {
+    "entries": 396,
+    "available": 200,
+    "EnglishFallback": 196
+  },
+  "longSummaryCachesAccepted": 0,
+  "secretScan": {
+    "rawMergeFindings": 107,
+    "mergeFindingsDisposition": "Exact upstream public protocol identifiers.",
+    "branchDiffRawFindings": 3,
+    "branchFindingsDisposition": "Existing public graph ids in relationship arrays, already present at the published prior checkpoint.",
+    "credentialFindings": 0,
+    "unclassifiedFindings": 0,
+    "scannerRulesChanged": false
+  },
+  "changeClass": "product 0; existing approved upstream product changes are inherited, not new product work in this branch.",
+  "sourceLedgers": "Both source pins have unchanged evidence fields; replay receipt follows after comparison.",
+  "buildLimits": [
+    "No full Next production build",
+    "No merge of the pull request or deployment",
+    "No expert, learner or language sign-off"
+  ]
+}

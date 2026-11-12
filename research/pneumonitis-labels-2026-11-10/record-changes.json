@@ -1,0 +1,96 @@
+{
+  "ownerId": "pneumonitis",
+  "owningFile": "src/data/spikes/lung-core.ts",
+  "baseCommit": "bb5efeb81d773b2bea2c065a2c7b3a9d4e8e8992",
+  "hashRecipe": "SHA-256 of UTF-8 compact JSON, without ASCII escaping",
+  "fields": [
+    {
+      "field": "asOf",
+      "beforeSha256": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc",
+      "afterSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+      "beforeValueState": "present",
+      "after": "2026-11-10"
+    },
+    {
+      "field": "tldr",
+      "beforeSha256": "193473d9ed75a25d2ac857103743d1aefdfb72403b4ec7b165b78bbf1eb25e7d",
+      "afterSha256": "c1d73b9c71b9c07a66f3938d02e651b4fc4ec59deb1027333d97a5a36451b81f",
+      "beforeValueState": "present",
+      "after": "Inflammation of lung tissue that can occur during cancer treatment. A new cough or breathing difficulty needs prompt medical assessment; the cause and medicine determine how it is managed."
+    },
+    {
+      "field": "summary",
+      "beforeSha256": "645231f40a2e048d92f9aa2914d6a0d5216fe4355ab82f1d26b426dc65ad1128",
+      "afterSha256": "83e4778bbce6805c75cd7cc995419f8eac5922a58c1eefc035f3ea6cab1d5cff",
+      "beforeValueState": "present",
+      "after": "Pneumonitis is non-infectious inflammation of lung tissue. In cancer care it can occur with immune checkpoint inhibitors, antibody-drug conjugates or chest radiotherapy. New or worsening respiratory symptoms require prompt assessment. The medicine, severity and suspected cause matter when interpreting a scan and deciding how treatment is modified.\n\nThere is no single grade-based interruption rule for all of these treatments. The October 2026 US pembrolizumab label withholds treatment for grade 2 pneumonitis and permanently discontinues it for grade 3 or 4. The May 2026 trastuzumab deruxtecan label specifies permanent discontinuation for symptomatic grade 2 or higher interstitial lung disease or pneumonitis. The May 2026 datopotamab deruxtecan label requires withholding while suspected disease is investigated and permanent discontinuation for confirmed grade 2 or higher disease. The trastuzumab deruxtecan label separately addresses suspected radiotherapy-only pneumonitis in the adjuvant setting. Those distinctions, including the footnotes and conditions for resumption, belong with the named product.\n\nThe deruxtecan warning sections call for symptom monitoring and prompt investigation of suspected lung disease, including radiographic evaluation. They do not establish one universal scheduled imaging or breathing-test programme for every cancer treatment. Reported incidence also depends on the population, regimen and event definition; an estimate from one cohort is not a rate for every drug in the class."
+    },
+    {
+      "field": "notes",
+      "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "afterSha256": "81242c165917bce6837ce8ea6baed53a06d1336895537b3b6841104ac56575b9",
+      "beforeValueState": "present",
+      "after": [
+        "In the two-institution cohort reported by Naidoo and colleagues in 2017, investigators diagnosed pneumonitis in 43 of 915 recipients of anti-PD-1 or anti-PD-L1 antibodies, about 5% (95% confidence interval 3% to 6%). It occurred in 24 of 716 receiving one antibody (about 3%) and 19 of 199 receiving an anti-CTLA-4 combination (about 10%). Cases with confirmed infection or malignant lung infiltration were excluded. These are cohort-specific observational estimates, not a randomised comparison or universal class rates.",
+        "The May 2026 US trastuzumab deruxtecan label, Table 3, interrupts treatment for asymptomatic grade 1 interstitial lung disease or pneumonitis until resolution to grade 0. It retains the dose if resolution occurs within 28 days of onset and reduces it one level if longer. Symptomatic grade 2 or higher calls for permanent discontinuation. The table also addresses corticosteroids. Its adjuvant-setting footnote requires distinguishing drug-induced disease from radiotherapy-related pneumonitis: if only radiotherapy-related pneumonitis is suspected, it considers interruption at grade 2 and permanent discontinuation at grade 3 or higher. The table defines severity using NCI CTCAE version 5.0.",
+        "The May 2026 US datopotamab deruxtecan label, Table 3 and section 5.1, withholds treatment while suspected interstitial lung disease or pneumonitis is investigated and calls for permanent discontinuation of confirmed grade 2 or higher disease. Its dose-modification and corticosteroid instructions are specific to that product.",
+        "The October 2026 US pembrolizumab label, Table 2, lists withholding for grade 2 pneumonitis and permanent discontinuation for grade 3 or 4, using CTCAE version 4.0. Its footnote permits resumption after resolution to grade 0 or 1 and corticosteroid taper. It requires permanent discontinuation if this improvement has not occurred within 12 weeks of starting steroids or prednisone cannot be reduced to 10 mg per day or less, or equivalent, within those 12 weeks. The medicine and the complete label conditions determine whether resumption is an option.",
+        "The deruxtecan warning sections ask clinicians to monitor respiratory symptoms and promptly investigate suspected disease, including imaging. Suspected, attributed and resolved disease are different states. A scan pattern or symptom alone does not identify the cause, and improvement alone does not establish that restarting a medicine is appropriate."
+      ]
+    },
+    {
+      "field": "links",
+      "beforeSha256": "dc6238de5a6ebe362f0621845d06d988f855ca06d2e9119e150c89311c845820",
+      "afterSha256": "ebe3aa437a50d23c21c9c14d32194edf0611d98b5fc2e8db1c173c3a373dd302",
+      "beforeValueState": "present",
+      "after": [
+        {
+          "label": "NICE NG122: lung cancer, diagnosis and management",
+          "url": "https://www.nice.org.uk/guidance/ng122"
+        },
+        {
+          "label": "FDA: trastuzumab deruxtecan, revised May 2026, Table 3 and section 5.1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761139s041s043lbl.pdf"
+        },
+        {
+          "label": "FDA: datopotamab deruxtecan, revised May 2026, Table 3 and section 5.1",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf"
+        },
+        {
+          "label": "DailyMed: pembrolizumab, revised October 2026, Table 2 and section 5.1",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        },
+        {
+          "label": "Naidoo et al., JCO 2017: pneumonitis in anti-PD-1/PD-L1 recipients",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27646942/"
+        }
+      ]
+    }
+  ],
+  "preservedFields": [
+    "id",
+    "kind",
+    "name",
+    "aka",
+    "wikipedia",
+    "tags",
+    "related",
+    "cancers",
+    "sections",
+    "technologies",
+    "targets",
+    "drugs",
+    "companies",
+    "institutions",
+    "pathways",
+    "terms",
+    "trials",
+    "people",
+    "bottlenecks",
+    "keyPapers",
+    "journals",
+    "dependsOn",
+    "category"
+  ],
+  "factoryChange": "Allows an individual asOf override; the shared factory date and every other runtime record remain unchanged."
+}

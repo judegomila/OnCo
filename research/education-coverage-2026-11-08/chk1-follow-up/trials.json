@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/trials",
+  "retrievedAt": "2026-11-09T07:10:19.690Z",
+  "request": {
+    "query": "Human trials of antibody conjugates carrying a CHK1 inhibitor or CHK1 degrader, distinguishing separate CHK1 inhibitor combination regimens and ATR inhibitor cargo",
+    "searchMode": "semantic",
+    "maxResults": 10
+  },
+  "response": {
+    "trials": [
+      {
+        "nctId": "NCT03057145",
+        "title": "Combination Study of Prexasertib and Olaparib in Patients With Advanced Solid Tumors",
+        "url": "https://clinicaltrials.gov/study/NCT03057145",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 29,
+        "conditions": [
+          "Solid Tumor"
+        ],
+        "interventions": [
+          "Prexasertib",
+          "Olaparib"
+        ],
+        "leadSponsor": "Geoffrey Shapiro, MD, PhD",
+        "startDate": "2017-03-10",
+        "primaryCompletionDate": "2020-02-25",
+        "completionDate": "2021-06-09",
+        "hasResults": false,
+        "lastUpdatedYear": 2021,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "a0ae2eb08888a6db841328e1b3df0fd9ee44229b1700387ecb24692d1905e836",
+          "characters": 2686
+        }
+      },
+      {
+        "nctId": "NCT05827614",
+        "title": "Study of the CHK1 Inhibitor BBI-355, an ecDNA-directed Therapy (ecDTx), and the RNR Inhibitor BBI-825, in Subjects With Tumors With Oncogene Amplifications",
+        "url": "https://clinicaltrials.gov/study/NCT05827614",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 85,
+        "conditions": [
+          "Triple Negative Breast Cancer (TNBC)",
+          "High Grade Serous Ovarian Carcinoma",
+          "High Grade Endometrial Carcinoma",
+          "Anogenital Cancer",
+          "Head and Neck (HNSCC)",
+          "Cutaneous Squamous Cell Carcinoma (CSCC)",
+          "Cervical Squamous Cell Carcinoma",
+          "ER+ Breast Cancer",
+          "Leiomyosarcoma (LMS)",
+          "Undifferentiated Pleomorphic Sarcoma (UPS)",
+          "Pancreatic Cancer Metastatic",
+          "Small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "BBI-355",
+          "Erlotinib",
+          "Futibatinib",
+          "BBI-825"
+        ],
+        "leadSponsor": "Boundless Bio, Inc.",
+        "startDate": "2023-03-24",
+        "primaryCompletionDate": "2026-03-17",
+        "completionDate": "2026-03-17",
+        "hasResults": false,
+        "lastUpdatedYear": 2026,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "9c0f7e3a918fe1e540992619ca6b8fd5c890a8a3a5b5386264c883bc9c08392b",
+          "characters": 2017
+        }
+      },
+      {
+        "nctId": "NCT02808650",
+        "title": "Prexasertib in Treating Pediatric Patients With Recurrent or Refractory Solid Tumors",
+        "url": "https://clinicaltrials.gov/study/NCT02808650",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 30,
+        "conditions": [
+          "Childhood Solid Neoplasm",
+          "Recurrent Malignant Solid Neoplasm",
+          "Recurrent Primary Central Nervous System Neoplasm",
+          "Refractory Malignant Solid Neoplasm",
+          "Refractory Primary Central Nervous System Neoplasm"
+        ],
+        "interventions": [
+          "Laboratory Biomarker Analysis",
+          "Pharmacokinetic (PK) study",
+          "Prexasertib"
+        ],
+        "leadSponsor": "Children's Oncology Group",
+        "startDate": "2017-02-27",
+        "primaryCompletionDate": "2019-12-31",
+        "completionDate": "2021-03-31",
+        "hasResults": true,
+        "lastUpdatedYear": 2023,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "aaef0994e418a6d7d80da44abdf3fa835b0be678f867fae989a5ea2a01784b71",
+          "characters": 2368
+        }
+      },
+      {
+        "nctId": "NCT02873975",
+        "title": "A Study of LY2606368 (Prexasertib) in Patients With Solid Tumors With Replicative Stress or Homologous Repair Deficiency",
+        "url": "https://clinicaltrials.gov/study/NCT02873975",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 27,
+        "conditions": [
+          "Advanced Cancers"
+        ],
+        "interventions": [
+          "LY2606368"
+        ],
+        "leadSponsor": "Dana-Farber Cancer Institute",
+        "startDate": "2016-10-12",
+        "primaryCompletionDate": "2020-09-30",
+        "completionDate": "2021-07-01",
+        "hasResults": true,
+        "lastUpdatedYear": 2022,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "1c92db606940a3b2905d03fe94a1958eacb80683c10c1daf766b8b56635d0faf",
+          "characters": 1085
+        }
+      },
+      {
+        "nctId": "NCT03735446",
+        "title": "Prexasertib in Combination With MEC in Relapsed/Refractory AML and High Risk MDS - a Phase I Trial",
+        "url": "https://clinicaltrials.gov/study/NCT03735446",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 2,
+        "conditions": [
+          "Acute Myeloid Leukemia",
+          "Myelodysplastic Syndromes"
+        ],
+        "interventions": [
+          "Prexasertib",
+          "Mitoxantrone",
+          "Etoposide",
+          "Cytarabine"
+        ],
+        "leadSponsor": "Dana-Farber Cancer Institute",
+        "startDate": "2019-01-18",
+        "primaryCompletionDate": "2019-03-29",
+        "completionDate": "2019-03-29",
+        "hasResults": false,
+        "lastUpdatedYear": 2019,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "162db04025cf922b696c34717199aaf877111442a4fb1a199c0a7db4758c82ba",
+          "characters": 1983
+        }
+      },
+      {
+        "nctId": "NCT02514603",
+        "title": "A Study of Prexasertib (LY2606368) in Japanese Participants With Advanced Cancers",
+        "url": "https://clinicaltrials.gov/study/NCT02514603",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 12,
+        "conditions": [
+          "Neoplasm"
+        ],
+        "interventions": [
+          "Prexasertib"
+        ],
+        "leadSponsor": "Eli Lilly and Company",
+        "startDate": "2015-10",
+        "primaryCompletionDate": "2017-04-10",
+        "completionDate": "2017-04-10",
+        "hasResults": false,
+        "lastUpdatedYear": 2017,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "bfcdd1cc25611f66ff03074c6dae45f7cd404d758c2fe95f9950d66548162c76",
+          "characters": 756
+        }
+      },
+      {
+        "nctId": "NCT01870596",
+        "title": "Cytarabine With or Without SCH 900776 in Treating Adult Patients With Relapsed Acute Myeloid Leukemia",
+        "url": "https://clinicaltrials.gov/study/NCT01870596",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 32,
+        "conditions": [
+          "Adult Acute Megakaryoblastic Leukemia",
+          "Adult Acute Monoblastic Leukemia",
+          "Adult Acute Monocytic Leukemia",
+          "Adult Acute Myeloid Leukemia With Inv(16)(p13.1q22); CBFB-MYH11",
+          "Adult Acute Myeloid Leukemia With Maturation",
+          "Adult Acute Myeloid Leukemia With Minimal Differentiation",
+          "Adult Acute Myeloid Leukemia With t(16;16)(p13.1;q22); CBFB-MYH11",
+          "Adult Acute Myeloid Leukemia With t(8;21)(q22;q22); RUNX1-RUNX1T1",
+          "Adult Acute Myeloid Leukemia With t(9;11)(p22;q23); MLLT3-MLL",
+          "Adult Acute Myeloid Leukemia Without Maturation",
+          "Adult Acute Myelomonocytic Leukemia",
+          "Adult Erythroleukemia",
+          "Adult Pure Erythroid Leukemia",
+          "Alkylating Agent-Related Acute Myeloid Leukemia",
+          "Recurrent Adult Acute Myeloid Leukemia"
+        ],
+        "interventions": [
+          "Cytarabine",
+          "CHK1 Inhibitor SCH 900776",
+          "Laboratory Biomarker Analysis"
+        ],
+        "leadSponsor": "National Cancer Institute (NCI)",
+        "startDate": "2013-05",
+        "primaryCompletionDate": "2014-12",
+        "completionDate": "2014-12",
+        "hasResults": true,
+        "lastUpdatedYear": 2016,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "329430669c3b9da648ded651f31b0a19b076042f314bb24f0d9224dca60e5aad",
+          "characters": 2048
+        }
+      },
+      {
+        "nctId": "NCT05983523",
+        "title": "A Study of PEP07 (Checkpoint Kinase 1 Inhibitor) in Patients with Advanced or Metastatic Solid Tumors",
+        "url": "https://clinicaltrials.gov/study/NCT05983523",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 54,
+        "conditions": [
+          "Advanced Solid Tumor",
+          "Metastatic Solid Tumor"
+        ],
+        "interventions": [
+          "PEP07"
+        ],
+        "leadSponsor": "PharmaEngine",
+        "startDate": "2024-03-27",
+        "primaryCompletionDate": "2027-02-25",
+        "completionDate": "2027-08-31",
+        "hasResults": false,
+        "lastUpdatedYear": 2024,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "162f637e0a3eface16861a228f877fe5edc6304e5cc4f580b66eed45064e8e72",
+          "characters": 1501
+        }
+      },
+      {
+        "nctId": "NCT05659732",
+        "title": "A Study of PEP07 (Checkpoint Kinase 1 Inhibitor) in Patients With Advanced Cancer",
+        "url": "https://clinicaltrials.gov/study/NCT05659732",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 32,
+        "conditions": [
+          "Acute Myeloid Leukemia",
+          "Lymphoma, Mantle-Cell"
+        ],
+        "interventions": [
+          "PEP07"
+        ],
+        "leadSponsor": "PharmaEngine",
+        "startDate": "2023-07-17",
+        "primaryCompletionDate": "2026-12-31",
+        "completionDate": "2026-12-31",
+        "hasResults": false,
+        "lastUpdatedYear": 2025,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "29a19a75c48e139a4d36d6c961d0551c52104437844354ba884c83584b81bb54",
+          "characters": 2378
+        }
+      },
+      {
+        "nctId": "NCT03678883",
+        "title": "9-ING-41 in Patients With Advanced Cancers",
+        "url": "https://clinicaltrials.gov/study/NCT03678883",
+        "overallStatus": "ACTIVE_NOT_RECRUITING",
+        "phase": [
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 350,
+        "conditions": [
+          "Cancer",
+          "Pancreatic Cancer",
+          "Sarcoma",
+          "Renal Cancer",
+          "Refractory Cancer",
+          "Refractory Neoplasm",
+          "Refractory Non-Hodgkin Lymphoma",
+          "Pancreatic Adenocarcinoma",
+          "Resistant Cancer",
+          "Neoplasm Metastasis",
+          "Neoplasm of Bone",
+          "Neoplasm, Breast",
+          "Neoplasm of Lung",
+          "Neoplasms,Colorectal",
+          "Neoplasms Pancreatic",
+          "Malignant Glioma",
+          "Malignancies",
+          "Malignancies Multiple",
+          "Bone Metastases",
+          "Bone Neoplasm",
+          "Bone Cancer",
+          "Pancreas Cancer",
+          "Pancreatic Neoplasms",
+          "Breast Neoplasms",
+          "Acute T Cell Leukemia Lymphoma"
+        ],
+        "interventions": [
+          "9-ING-41",
+          "Gemcitabine - 21 day cycle",
+          "Doxorubicin.",
+          "Lomustine",
+          "Carboplatin.",
+          "Nab paclitaxel.",
+          "Paclitaxel.",
+          "Gemcitabine - 28 day cycle",
+          "Irinotecan"
+        ],
+        "leadSponsor": "Actuate Therapeutics Inc.",
+        "startDate": "2019-01-04",
+        "primaryCompletionDate": "2026-06",
+        "completionDate": "2026-06",
+        "hasResults": false,
+        "lastUpdatedYear": 2026,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "dd54efa388c3137ed8065fdf0c0abbab4b96b44b02a3f4051819494fd703b7e0",
+          "characters": 6072
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "originalResponseSha256": "e972d4ae1bbbe83be3d1cf19cd34f5b8f871107e432f669a0a5f3fb7c3ef9a76",
+    "originalResponseLocation": "outside public checkout",
+    "transform": "Body removed without rewriting a quotation; metadata and exact body hashes retained."
+  }
+}

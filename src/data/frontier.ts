@@ -21,7 +21,7 @@ const frontierBase: EntityInput[] = [
     links: [{ label: "FinalDose (Y Combinator)", url: "https://www.ycombinator.com/companies/finaldose" }],
   },
   {
-    id: "fragmentomics", kind: "technology", name: "cfDNA fragmentomics", sections: ["early-detection", "diagnostics"], status: "established", asOf, wikipedia: "https://en.wikipedia.org/wiki/Cell-free_DNA",
+    id: "fragmentomics", kind: "technology", name: "cfDNA fragmentomics", sections: ["early-detection", "diagnostics"], status: "established", asOf: "2026-11-10", wikipedia: "https://en.wikipedia.org/wiki/Cell-free_DNA",
     tldr: "Fragmentomics reads the sizes and positions of DNA fragments in blood, not the mutations. Cancer cells die messily and leave a recognisable fragmentation pattern.",
     summary: "Fragmentomics analyses genome-wide cell-free DNA fragment length, end motifs, and nucleosome footprints at low sequencing depth, which is cheaper than deep mutation or methylation sequencing. DELFI Diagnostics commercialised FirstLook Lung (2023) as a blood test to increase uptake of low-dose CT screening, and presented the first randomised clinical-utility data (L301 FIRSTLUNG) at ATS 2026. Fragment features are also being layered into multi-cancer detection and MRD assays by Guardant, GRAIL, and academic groups.",
     principle: "Plasma cfDNA is whole-genome sequenced at ~1-2x depth; machine learning on fragment-size distributions across genomic windows distinguishes tumour-derived from haematopoietic DNA.",
@@ -29,7 +29,38 @@ const frontierBase: EntityInput[] = [
     limitations: ["Lower specificity than deep methylation panels alone", "Tissue-of-origin resolution weaker than methylation", "Clinical utility (mortality benefit) unproven"],
     technologies: ["liquid-biopsy", "mced", "mrd-testing"], terms: ["ctdna"], cancers: ["nsclc"],
     tags: ["frontier", "precision"],
-    links: [{ label: "DELFI FIRSTLUNG at ATS 2026", url: "https://www.biospace.com/press-releases/delfi-diagnostics-to-present-first-clinical-utility-data-for-blood-based-lung-cancer-screening-at-ats-2026-international-conference" }],
+    links: [
+  {
+    "label": "DELFI FIRSTLUNG at ATS 2026",
+    "url": "https://www.biospace.com/press-releases/delfi-diagnostics-to-present-first-clinical-utility-data-for-blood-based-lung-cancer-screening-at-ats-2026-international-conference"
+  },
+  {
+    "label": "Enhanced detection of circulating tumor DNA by fragment size analysis",
+    "url": "https://doi.org/10.1126/scitranslmed.aat4921"
+  },
+  {
+    "label": "Genome-wide cell-free DNA fragmentation in patients with cancer",
+    "url": "https://doi.org/10.1038/s41586-019-1272-6"
+  },
+  {
+    "label": "Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin",
+    "url": "https://doi.org/10.1016/j.cell.2015.11.050"
+  },
+  {
+    "label": "The Effect of Preanalytical and Physiological Variables on Cell-Free DNA Fragmentation",
+    "url": "https://doi.org/10.1093/clinchem/hvac029"
+  },
+  {
+    "label": "OpenStax Biology 2e: nucleosome definition",
+    "url": "https://openstax.org/books/biology-2e/pages/10-key-terms"
+  }
+], notes: [
+  "Measure, then infer: the measured features are fragment length, end sequences, genomic positions and chemical marks. A reference or trained model then turns them into a source estimate or a score, so the output is an inference and not a cell census, and no single fragment carries a cancer address. Tumour fragments are shorter on average, but most short fragments in a sample still come from normal cells because normal DNA outnumbers tumour DNA when the tumour fraction is low. These features can complement mutation tracking when few informative mutations are sampled, and neither a source estimate nor a score by itself establishes tumour location, stage, a resistance mechanism or benefit from acting on a result.",
+  "Evidence read: selecting fragments of 90 to 150 base pairs gave more than twofold median enrichment of tumour DNA in over 95% of cases among 344 plasma samples from 200 people with cancer (Mouliere 2018). A genome-wide fragmentation classifier detected 57% to more than 99% of seven cancer types at 98% specificity (area under the curve 0.94) in 236 patients and 245 healthy people, and located tissue of origin to a limited number of sites in 75% of cases (Cristiano 2019). Nucleosome footprints in cfDNA correlate with cell-type epigenetics (Snyder 2016). Each is a proof of principle in defined cohorts and does not transfer to another population, collection protocol or assay version.",
+  "Handling is part of the measurement: neither collection tube nor plasma processing time changed cfDNA fragment sizes in one study, but both could change genome-wide fragmentation patterns and fragment-end sequences, and a size profile that looks fine is an incomplete quality check (van der Pol 2022). In a fictional case a classifier trained on promptly processed plasma gives higher scores on samples transported under another protocol while DNA yield meets the minimum, and that does not show more cancer-associated DNA until the new conditions are validated.",
+  "A nucleosome consists of DNA wound around histone proteins. The association between fragment patterns and nucleosome organisation provides information for inference, rather than a unique address stamped on each fragment. Fragment length is reported in base pairs, end patterns as defined proportions or sequence features, and a classifier score in the scale of its model. These quantities need their own denominators and cannot be exchanged for a count of living tumour cells.",
+  "DNA extraction and analysis use a finite plasma aliquot, and the amount recovered differs from the amount drawn. A predefined detector need not build a patient-specific tumour reference, but the actual method's tissue and input requirements still need checking. Collection-to-separation time, storage and timing relative to treatment belong with the specimen. Validation has to follow the measured feature: retain collection and processing dates, reference mixtures and process controls, batch checks, and the population, assay version and cut-off used to develop and evaluate the model. A satisfactory DNA yield or size distribution does not validate fragment-end patterns. Analytical reproducibility of a feature is separate from cancer detection, prognosis and benefit from acting on the score."
+],
   },
   {
     id: "adc-payload-neutralizer", kind: "technology", name: "ADC payload neutralisers", sections: ["adcs", "supportive-care"], status: "phase-1", asOf,
@@ -360,27 +391,75 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "ClinicalTrials.gov: antibody oligonucleotide conjugate", url: "https://clinicaltrials.gov/search?term=antibody%20oligonucleotide%20conjugate" }],
   },
   {
-    id: "logic-gated-therapeutics", kind: "technology", name: "Logic-gated therapeutics (AND, NOT gates)", sections: ["cell-therapy", "targeted-therapy"], status: "phase-1", asOf: RAD,
-    tldr: "Cells or drugs that fire only when two conditions are true at once, so healthy tissue expressing just one of them is spared.",
-    summary: "SynNotch and similar circuits require antigen A to license killing of antigen B; NOT gates use an inhibitory receptor against an antigen present only on normal tissue. Tmod NOT-gated CAR-T exploiting HLA loss of heterozygosity is in early-phase trials, and AND-gated constructs are in phase 1 for solid tumours. Logic gating is the leading answer to on-target off-tumour toxicity, but circuit complexity reduces potency and manufacturability.",
-    principle: "A synthetic receptor circuit integrates two antigen inputs; killing proceeds only if the required combination is present, and is blocked if a protective antigen is detected.",
-    strengths: ["Directly addresses the antigen-specificity ceiling in solid tumours", "Turns non-specific antigens into usable targets", "Applies to bispecifics and masked drugs as well as cells"],
-    limitations: ["Complex constructs are harder to manufacture and less potent", "Antigen loss defeats AND gates", "Very early clinical data"],
+    notes:["Kloss combined suboptimal activation through one receptor with costimulation through another in specified tumor models. Two fully activating CARs do not, by themselves, establish an AND rule. Zah tested CD19/CD20 OR-like recognition; recognizing either target is a coverage strategy rather than proof of greater tumor selectivity.","Fedorov used PD-1- or CTLA-4-derived inhibitory receptors to restrain responses in defined experiments. Such a NOT-like recognition input differs from an externally activated switch that eliminates engineered cells. Receptor expression and the balance of activating and inhibitory inputs still need measurement.","Roybal used a synNotch input to induce a CAR for another antigen. CAR expression decayed after the priming stimulus was removed, rather than disappearing instantly. The studied bilateral mouse model did not show killing of the separate single-antigen bystander tumor. Whether another circuit remains active long enough to act elsewhere still needs a timing and tissue-distribution experiment; neither result establishes universal clinical safety.","Test A only, B only, both and neither, together with low antigen density, mixed populations, healthy tissues, repeated encounters and separated or sequential contacts. Activation, proliferation and completed killing are different outputs. Retain cell preparation, donor, cell ratio, timing and the units of each readout; a selected assay threshold is not a universal safe/unsafe boundary.","The Zah experimental addendum found that post-thaw viability over subsequent culture differed between donors and affected xenograft results, despite similar initial viability measurements. That result supports checking preparation and recovery; it does not validate a universal clinical viability cutoff or guarantee freedom from antigen escape."], related:["cellular-kinetics-and-persistence"],
+    id: "logic-gated-therapeutics", kind: "technology", name: "Logic-gated therapeutics (AND, NOT gates)", sections: ["cell-therapy", "targeted-therapy"], status: "phase-1", asOf: "2026-11-08",
+    tldr: "Recognition circuits combine inputs to broaden target coverage or restrict activation. AND-like, OR-like, inhibitory and sequential designs have different failure modes and need direct testing.",
+    summary: "In cell-based examples, split and tuned activation/costimulation can implement an AND-like requirement, either-target recognition can broaden coverage with an OR-like rule, and a protective-antigen input can inhibit activity. SynNotch-to-CAR systems induce a second receptor over time, creating a primed state rather than requiring two antigens to remain simultaneously present on one cell. Thresholds, expression, decay and movement between tissues matter. An intended rule is a design hypothesis, not proof that healthy tissue is spared or that the complete product improves outcomes.",
+    principle: "Define the actual receptors, signaling split, thresholds and timing. Measure the intended output for each relevant input combination and after the priming input disappears.",
+    strengths: ["Can test combinations of recognition inputs rather than a single target","Coverage and selectivity can be explored as separate design goals"],
+    limitations: ["Stricter gates may miss tumors lacking a required input","Broader OR recognition may add healthy-tissue recognition routes","Residual activity, antigen density, manufacture and clinical harms need product-specific evidence"],
     technologies: ["car-t", "armored-car", "masked-adc", "bispecific-adc", "in-vivo-car-t"], companies: ["arsenal-bio", "sana-biotechnology", "senti-biosciences", "cartography-biosciences"],
     tags: ["frontier", "promising"],
-    links: [{ label: "ClinicalTrials.gov: logic-gated CAR T", url: "https://clinicaltrials.gov/search?term=logic%20gated%20CAR%20T" }],
+    links: [{"label":"ClinicalTrials.gov: logic-gated CAR T","url":"https://clinicaltrials.gov/search?term=logic%20gated%20CAR%20T"},{"label":"Kloss et al.: balanced activation and costimulation in tumor models (2013)","url":"https://pubmed.ncbi.nlm.nih.gov/23242161/"},{"label":"Zah et al.: CD19/CD20 OR-like recognition in tumor models (2016)","url":"https://pubmed.ncbi.nlm.nih.gov/27059623/"},{"label":"Zah et al.: experimental addendum on cell viability and OR-gate results (2016)","url":"https://pubmed.ncbi.nlm.nih.gov/27371639/"},{"label":"Fedorov et al.: inhibitory CARs in defined experimental systems (2013)","url":"https://pubmed.ncbi.nlm.nih.gov/24337479/"},{"label":"Roybal et al.: sequential synNotch-CAR circuit and priming/decay tests (2016)","url":"https://pubmed.ncbi.nlm.nih.gov/26830879/"},{"label":"FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)","url":"https://www.fda.gov/media/156896/download"}],
   },
   {
-    id: "in-situ-vaccination", companies: ["trogenix", "aummune", "onchilles-pharma", "syncromune"], trials: ["nct05688280"], kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: RAD,
-    tldr: "Treating one tumour so aggressively that the immune system learns to attack every other one, using the tumour itself as the vaccine.",
-    summary: "Rather than manufacturing a vaccine, an injected adjuvant, virus, cytokine or ablative therapy turns a single lesion into an antigen source. Intratumoural TLR9 agonists with low-dose radiotherapy produced systemic responses in lymphoma, and oncolytic viruses, cryoablation, histotripsy and IL-12 electroporation all pursue the same idea. Systemic responses are real but modest and inconsistent, and the field lacks a way to predict who will respond.",
-    principle: "Local immunogenic cell death plus an adjuvant recruits antigen-presenting cells at the tumour, priming T cells against the patient's own full antigen repertoire.",
-    strengths: ["No manufacturing or antigen prediction needed", "Covers the whole private antigen repertoire", "Cheap and fast"],
-    limitations: ["Abscopal responses are inconsistent", "Needs an injectable lesion", "No validated predictive biomarker"],
+    id: "in-situ-vaccination", companies: ["trogenix", "aummune", "onchilles-pharma", "syncromune"], trials: ["nct05688280"], kind: "technology", name: "In situ vaccination", sections: ["immunotherapy"], status: "phase-2", asOf: "2026-11-12",
+    tldr: "In situ vaccination aims to use antigens at a tumour site to stimulate useful immune recognition. Local destruction does not automatically make the tumour a successful vaccine.",
+    summary: "Local treatment can supply tumour antigens, and an adjuvant or other immune intervention may support their presentation and priming. The proposal needs evidence for each step and for useful immune effects in the relevant host and setting. It does not guarantee recognition of every antigen or every lesion.\n\nInjury, danger signals, immune-cell changes, distant lesion responses and comparative patient outcomes are different observations. The actual local method and accompanying treatments must be named. A response during combined treatment does not isolate which component caused it.",
+    principle: "Use a treated lesion as an antigen source while seeking effective presentation and adaptive immune recognition; the hypothesised chain requires experimental and clinical evidence.",
+    strengths: ["Can investigate tumour-derived antigens without preselecting every sequence","Allows local delivery approaches to be studied with immune support"],
+    limitations: ["Local injury or marker release does not establish protective immunity","Access and delivery requirements depend on the chosen method","Whole-regimen benefit, harms and distant effects need their own evidence"],
     technologies: ["oncolytic-virus", "sting-agonist", "sbrt", "hifu-histotripsy", "cytokine-therapy", "thermal-ablation"], terms: ["abscopal-effect", "immunogenic-cell-death"], cancers: ["melanoma", "dlbcl"],
     tags: ["frontier", "promising"],
-    links: [{ label: "ClinicalTrials.gov: in situ vaccination cancer", url: "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer" }],
+    links: [
+  {
+    "label": "ClinicalTrials.gov: in situ vaccination cancer",
+    "url": "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer"
   },
+  {
+    "label": "ICD consensus: antigens, host, assay and model requirements",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+  },
+  {
+    "label": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+  },
+  {
+    "label": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+  },
+  {
+    "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+  }
+,
+    {"label":"Marabelle et al.: terminology and reporting recommendations (2018)","url":"https://pubmed.ncbi.nlm.nih.gov/30295695/"},
+    {"label":"Joffre et al.: cross-presentation by dendritic cells (2012)","url":"https://pubmed.ncbi.nlm.nih.gov/22790179/"}
+  ],
+
+"notes": [
+  "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+  "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+  "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+  "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+  "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event."
+,
+    "For T-cell-directed therapeutic strategies, compare the antigen source and what can be selected beforehand. An in-situ approach uses tumour material in the body and selects a site and intervention; a supplied design selects planned composition or encoded targets using adequate sample information or material. Defined peptide or encoded targets differ from broader cell preparations. Manufacturing a product does not mean every peptide ultimately displayed is known or controlled. The room-material versus teaching-kit analogy describes these inputs, not assured learning or a winner.",
+    "Priming is initial activation of a naive T cell. Cross-presentation places externally acquired material on class I HLA in a presenting cell; that event is distinct from a cancer cell naturally displaying a recognised target. Both strategies still need evidence of presentation, suitable priming or expansion, tumour access, useful function, outcomes and harms. Dashed links in a comparison diagram mark questions to investigate, not successful completion of each step.",
+    "The required opportunity depends on the method. A lesion-based local approach needs available tumour material at an identified, safely accessible site. A supplied product needs appropriate information or material and a workable manufacturing and delivery plan. If no identifiable lesion is accessible, that removes the stated opportunity for that local method; it does not show that another vaccine is feasible or choose treatment. Match a research question about local material and support to that design, or one about planned antigen selection to a supplied design, then compare complete strategies in suitable studies.",
+    "Injection specifies a route, and using one person's tumour material is not equivalent to manufacturing a selected personalised vaccine. A study can combine local tumour material with a supplied antigen product; report both sources rather than forcing one exclusive category. Personalisation, platform and route are independent descriptors. Local shrinkage, an immune assay and control at another lesion remain different outcomes.",
+    "Consider two fictional cards. A uses accessible tumour material with a local intervention and immune stimulus; B supplies selected encoded targets based on sample information. Neither gives outcome data. A does not specify a fixed presented mixture, and B does not guarantee processing, HLA display or natural tumour recognition. For both, investigate presentation, priming, access and function and then matched clinical outcomes and harms. If A's lesion becomes inaccessible, B is not thereby chosen. If B is added to A, the study now uses both antigen sources.",
+    "The examples answer different questions. Brody used radiation plus injected CpG in low-grade lymphoma. Hammerich used Flt3 ligand, low-dose radiation and poly-ICLC in indolent lymphoma, with accompanying models; the reported new responsiveness to PD-1 blockade was in mice. Ott's melanoma study supplied selected long peptides with poly-ICLC. These are not a head-to-head efficacy ranking, evidence for a breast-cancer regimen or an individual eligibility assessment."
+  ],
+"related": [
+  "abscopal-effect",
+  "cancer-immunity-cycle"
+,
+    "intratumoral-immunotherapy",
+    "vaccine-adjuvants",
+    "vaccines-and-oncolytic-viruses"
+  ]
+},
   {
     id: "interception-vaccination", companies: ["rinuagene-biotechnology"], kind: "technology", name: "Cancer interception vaccines", sections: ["prevention", "immunotherapy"], status: "phase-2", asOf: RAD,
     tldr: "Cancer interception vaccines immunise people who do not yet have cancer but carry a high inherited risk, such as Lynch syndrome carriers, against the antigens their future tumour is predicted to express, so memory T cells remove transformed cells early. Because healthy people accept risk for a probabilistic benefit, the safety bar is far higher and trials take years.",
@@ -459,7 +538,7 @@ const frontierRadical: EntityInput[] = [
     links: [{ label: "FDA: individualised antisense oligonucleotide guidance (page moved; nearest live section)", url: "https://www.fda.gov/drugs/" }],
   },
   {
-    id: "continuous-ctdna-monitoring", kind: "technology", name: "Continuous and near-continuous ctDNA monitoring", sections: ["diagnostics"], status: "concept", asOf: RAD,
+    id: "continuous-ctdna-monitoring", kind: "technology", name: "Continuous and near-continuous ctDNA monitoring", sections: ["diagnostics"], status: "concept", asOf: "2026-11-10",
     tldr: "Instead of testing blood every three months, sampling constantly, so a relapse is caught the week it starts.",
     summary: "MRD testing already detects relapse months before imaging, but sampling is episodic. Work on implantable and wearable sampling, microneedle interstitial-fluid collection, and at-home dried blood spots aims to shorten the interval, while urine and saliva ctDNA reduce the burden of venepuncture. Nothing in this class was validated for clinical use by 2026, and the question of what to do with an earlier signal is still open.",
     principle: "Frequent low-volume sampling of blood or interstitial fluid, with error-suppressed sequencing or targeted PCR, turns a periodic test into a trend line.",
@@ -467,8 +546,21 @@ const frontierRadical: EntityInput[] = [
     limitations: ["No validated device", "Assay sensitivity limited by cfDNA quantity in small samples", "Lead time without a proven intervention causes harm as well as good"],
     technologies: ["mrd-testing", "liquid-biopsy", "fragmentomics"], terms: ["ctdna", "mrd"], companies: ["natera", "guardant-health", "foresight-diagnostics"],
     tags: ["frontier", "promising"],
-    links: [{ label: "ClinicalTrials.gov: serial ctDNA monitoring", url: "https://clinicaltrials.gov/search?term=serial%20ctDNA%20monitoring" }],
+    links: [
+  {
+    "label": "ClinicalTrials.gov: serial ctDNA monitoring",
+    "url": "https://clinicaltrials.gov/search?term=serial%20ctDNA%20monitoring"
   },
+  {
+    "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+    "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+  }
+], notes: ["What denser sampling changes: blood draws and scans are both intermittent, so an observed gap between a first positive sample and a later event depends on both schedules and cannot locate when the signal began. In García-Murillas 2019 plasma was taken every 3 months in the first year and every 6 months after, and detection preceded clinical relapse by a median of 10.7 months (95% CI 8.1 to 19.1) in the combined cohort of 144. A median from three-monthly draws is not comparable with one from near-continuous sampling, and a shorter interval shows earlier detection and does not show that acting on it improves survival."],
+
+"related": [
+  "ctdna-monitoring-lead-time"
+]
+},
   {
     id: "breath-vocs", kind: "technology", name: "Breath and volatile-organic-compound detection", sections: ["early-detection", "diagnostics"], status: "phase-2", asOf: RAD,
     tldr: "Smelling cancer: measuring the trace chemicals a tumour puts into exhaled breath.",

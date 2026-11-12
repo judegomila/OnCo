@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T23:39:05.099Z",
+  "request": {
+    "query": "Which original receptor pharmacology experiments distinguish ligand binding affinity, receptor occupancy, agonist efficacy, constitutive activity, signaling kinetics and cell behavior?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-1423433",
+        "title": "Overview of Receptor Interactions of Agonists and Antagonists",
+        "authors": [
+          "T. Kenakin"
+        ],
+        "year": 2008,
+        "doi": "10.1002/0471141755.ph0401s42",
+        "pmid": "22294222",
+        "venue": "Current Protocols in Pharmacology",
+        "citedByCount": 20,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4676bcc1e861e544b1c7e7a558bfb046567622bdde83b0b0aaca46b73051c937",
+          "characters": 1167
+        }
+      },
+      {
+        "elicitId": "ss-104464661",
+        "title": "UNIT 4.1 Overview of Receptor Interactions of Agonists and Antagonists",
+        "authors": [
+          "T. Kenakin"
+        ],
+        "year": 2001,
+        "doi": "10.1002/0471141755.PH0401S00",
+        "pmid": null,
+        "venue": "Current protocols in pharmacology",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "c9b53cfc55c2ea55256d1937ccdd313f194bcdbc210b89342b1d8ed74841505a",
+          "characters": 1259
+        }
+      },
+      {
+        "elicitId": "ss-9657523",
+        "title": "The Pharmacology of Functional, Biochemical, and Recombinant Receptor Systems",
+        "authors": [
+          "J. Angus",
+          "T. Kenakin"
+        ],
+        "year": 2012,
+        "doi": "10.1007/978-3-642-57081-0",
+        "pmid": null,
+        "venue": "Handbook of Experimental Pharmacology",
+        "citedByCount": 29,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "09b156c4716051cc6af10504ce41b6fe0f7cbffa8ae8a6eceb6728e8b1736b52",
+          "characters": 200
+        }
+      },
+      {
+        "elicitId": "ss-32388095",
+        "title": "Agonist binding, agonist affinity and agonist efficacy at G protein‐coupled receptors",
+        "authors": [
+          "Philip G. Strange"
+        ],
+        "year": 2008,
+        "doi": "10.1038/sj.bjp.0707672",
+        "pmid": "18223670",
+        "venue": "British Journal of Pharmacology",
+        "citedByCount": 106,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "541957271a0d6ca7a49d781b87a1101fc392a3e74f9cea711a415da835e9aed7",
+          "characters": 1609
+        }
+      },
+      {
+        "elicitId": "ss-249779775",
+        "title": "Estimation of Ligand Affinity for Receptor States in Functional Studies on G Protein‐Coupled Receptors",
+        "authors": [
+          "Frederick J. Ehlert",
+          "Richard S. L. Stein"
+        ],
+        "year": 2016,
+        "doi": "10.1096/fasebj.30.1_supplement.931.3",
+        "pmid": null,
+        "venue": "The FASEB Journal",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "fa11afc7f125ff5af79a631ddda975d3a021ba9dba6bea91ffbb3524af0d5f1b",
+          "characters": 2454
+        }
+      },
+      {
+        "elicitId": "ss-26949262",
+        "title": "Agonist-receptor efficacy. I: Mechanisms of efficacy and receptor promiscuity.",
+        "authors": [
+          "T. Kenakin"
+        ],
+        "year": 1995,
+        "doi": "10.1016/S0165-6147(00)89020-3",
+        "pmid": "7652927",
+        "venue": "TIPS - Trends in Pharmacological Sciences",
+        "citedByCount": 174,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-7636822",
+        "title": "To What Extent Can Binding Studies Allow the Quantification of Affinity and Efficacy?",
+        "authors": [
+          "N. J. Birdsall",
+          "S. Lazareno"
+        ],
+        "year": 1997,
+        "doi": "10.1111/j.1749-6632.1997.tb48144.x",
+        "pmid": "9186719",
+        "venue": "Annals of the New York Academy of Sciences",
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "3b6d688d4290ca5a19fd81d8018b23d6c5aa7bc20adee2ef7d0e0479de9d98a4",
+          "characters": 2062
+        }
+      },
+      {
+        "elicitId": "ss-205607905",
+        "title": "Estimation of Ligand Affinity Constants for Receptor States in Functional Studies Involving the Allosteric Modulation of G Protein-Coupled Receptors: Implications for Ligand Bias",
+        "authors": [
+          "F. Ehlert",
+          "M. T. Griffin"
+        ],
+        "year": 2014,
+        "doi": "10.1016/j.vascn.2014.01.002",
+        "pmid": "24434717",
+        "venue": "Journal of pharmacological and toxicological methods",
+        "citedByCount": 15,
+        "urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1056871914000112"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://www.sciencedirect.com/science/article/pii/S1056871914000112",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-32602558",
+        "title": "Quantifying agonist activity at G protein-coupled receptors.",
+        "authors": [
+          "F. Ehlert",
+          "H. Suga",
+          "M. T. Griffin"
+        ],
+        "year": 2011,
+        "doi": "10.3791/3179",
+        "pmid": "22231636",
+        "venue": "Journal of Visualized Experiments",
+        "citedByCount": 11,
+        "urls": [
+          "https://www.jove.com/pdf/3179/quantifying-agonist-activity-at-g-protein-coupled-receptors",
+          "https://europepmc.org/articles/pmc3369663?pdf=render"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.jove.com/pdf/3179/quantifying-agonist-activity-at-g-protein-coupled-receptors",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "bcf32825a41cdac0616921d091cb1f0dc7eff095d506712981cdd4c0ce3989ad",
+          "characters": 2505
+        }
+      },
+      {
+        "elicitId": "ss-184487558",
+        "title": "A Receptor Model With Binding Affinity, Activation Efficacy, and Signal Amplification Parameters for Complex Fractional Response Versus Occupancy Data",
+        "authors": [
+          "P. Buchwald"
+        ],
+        "year": 2019,
+        "doi": "10.3389/fphar.2019.00605",
+        "pmid": "31244653",
+        "venue": "Frontiers in Pharmacology",
+        "citedByCount": 48,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fphar.2019.00605/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fphar.2019.00605/pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "6d9007513595989a159f1c923b63ea52f470fcffdd67dc8b06b7bce8a8e72e46",
+          "characters": 2216
+        }
+      },
+      {
+        "elicitId": "ss-8478143",
+        "title": "Analysis of Agonism and Inverse Agonism in Functional Assays with Constitutive Activity: Estimation of Orthosteric Ligand Affinity Constants for Active and Inactive Receptor States",
+        "authors": [
+          "F. Ehlert",
+          "H. Suga",
+          "M. T. Griffin"
+        ],
+        "year": 2011,
+        "doi": "10.1124/jpet.111.179309",
+        "pmid": "21576379",
+        "venue": "Journal of Pharmacology and Experimental Therapeutics",
+        "citedByCount": 29,
+        "urls": [
+          "https://europepmc.org/articles/pmc3141894?pdf=render"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://europepmc.org/articles/pmc3141894?pdf=render",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "511eef7e5df5df4b0f8ed55eeee4adbf68da2aab7ef87ca4887922d1b0eb3385",
+          "characters": 1424
+        }
+      },
+      {
+        "elicitId": "ss-30811891",
+        "title": "Unravelling intrinsic efficacy and ligand bias at G protein coupled receptors: A practical guide to assessing functional data.",
+        "authors": [
+          "L. Stott",
+          "D. A. Hall",
+          "Nicholas D. Holliday"
+        ],
+        "year": 2016,
+        "doi": "10.1016/j.bcp.2015.10.011",
+        "pmid": "26478533",
+        "venue": "Biochemical Pharmacology",
+        "citedByCount": 43,
+        "urls": [
+          "https://nottingham-repository.worktribe.com/output/1859159"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://nottingham-repository.worktribe.com/output/1859159",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-93648278",
+        "title": "Selected Pharmacological Methods",
+        "authors": [
+          "T. Kenakin"
+        ],
+        "year": 2019,
+        "doi": "10.1016/B978-012370599-0/50013-7",
+        "pmid": null,
+        "venue": "A Pharmacology Primer",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-9055828",
+        "title": "Ligand-binding residues integrate affinity and efficacy in the NMDA receptor.",
+        "authors": [
+          "T. L. Kalbaugh",
+          "Hendrika M. Vandongen",
+          "A. VanDongen"
+        ],
+        "year": 2004,
+        "doi": "10.1124/MOL.66.2.209",
+        "pmid": "15266011",
+        "venue": "Molecular Pharmacology",
+        "citedByCount": 29,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "817ddf14f16476efd55d42048dfac6f035f10364e8a6d8d0e05703ad3a76d488",
+          "characters": 1373
+        }
+      },
+      {
+        "elicitId": "ss-39079824",
+        "title": "Estimation of the receptor-state affinity constants of ligands in functional studies using wild type and constitutively active mutant receptors: Implications for estimation of agonist bias",
+        "authors": [
+          "F. Ehlert",
+          "Richard S. L. Stein"
+        ],
+        "year": 2016,
+        "doi": "10.1016/j.vascn.2016.09.007",
+        "pmid": "27725245",
+        "venue": "Journal of pharmacological and toxicological methods",
+        "citedByCount": 3,
+        "urls": [
+          "https://europepmc.org/articles/pmc5769967?pdf=render"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://europepmc.org/articles/pmc5769967?pdf=render",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "a513731e23ab08bc28fdd2733256bc7e5ebd1a7285c70674d8e91e34dbcdb7be",
+    "rawBytes": 26372,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

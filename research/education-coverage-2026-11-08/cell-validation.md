@@ -1,0 +1,15 @@
+# Cell-therapy checkpoint
+
+This batch adds `cellular-kinetics-and-persistence` and `endogenous-promoter-payload-control`, and supplements seven existing owners. All five fully read cell-therapy sources have field evidence for their 25 recorded requirements. These are draft representations, not expert sign-offs or coverage on main.
+
+The sources distinguish receptor architecture, whole cells, generation labels, recognition gates, native NK inputs and source-dependent kinetics. Clinical observations retain the actual construct/population; mouse and cell experiments remain preclinical. The source receipts include 26 independently resolved MED identities (25 available abstracts read), one independently resolved preprint and targeted primary methods/addendum checks. FDA sources preserve approved examples and distinguish the REMS change from continuing warnings and different follow-up obligations. No complete abstract, manuscript or individual case body is republished.
+
+The initial content rewrite reduced extractive recall by losing the direct approved-cancer meaning in the short CAR-T definition. The correction restored a sourced clinical overview and treatment workflow. The resulting measurement is above the unchanged floor; ranking code, benchmark entities and thresholds were untouched. The [retrieval receipt](cell-retrieval-verification.json) retains the comparison.
+
+Validation accepts 22,707 entities; typecheck passes; lint has no errors and seven baseline warnings. The full suite passed 282 files / 2,821 tests, with two existing skips. The 44 focused tests passed after wording clarifications. Subsequent merged-record inspection found that the base-only rewrite had left an additive contributor note mixing B-ALL and lymphoma evidence; the cell-control checkpoint corrects that contributing owner. The earlier claim that the note had already been removed was inaccurate. All 85 current owners were server-rendered with dates/source URLs checked and no nested anchors. The new small pages were read directly. [Rendered receipt](cell-render-verification.json).
+
+Rendered reading also found ordinary words receiving unrelated glossary explanations: `reflect` matched the REFLECT trial and `same` matched the SAMe alias. The new small pages use unambiguous wording. Existing `term-hover.tsx` already has a stop-word policy, so this is a product matching-policy follow-up rather than evidence that a new ontology field is necessarily required. The wider matching rule remains to be corrected and reviewed.
+
+This data branch retains the known baseline Next.js map-route extra-export build blocker. The separate product prototype #376 moves that constant into a library and passed a complete 52,905-page webpack export. This is not a deployment of the current data branch. No test floor or page budget was relaxed.
+
+The audit also retains two newly named adjacent gaps, plus the already-open payload breadth review. It does not claim every cell-therapy program, clinical indication, source requirement or schema consumer has been audited.

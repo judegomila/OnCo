@@ -1,0 +1,20 @@
+{
+  "events": {
+    "0.6": 121,
+    "0.7": 247,
+    "0.74": 347,
+    "0.85": 1189
+  },
+  "powerHR085At247": 0.24794794797008646,
+  "allocationTwoToOneInflation": 1.125,
+  "logEffectHalfInflation": 4,
+  "competingExample": {
+    "CIFrecurrence": 0.4,
+    "CIFdeath": 0.4,
+    "eventFree": 0.2,
+    "deathCensoredKMrecurrence": 0.625
+  },
+  "schoolITT_A": 0.26,
+  "schoolITT_B": 0.26,
+  "schoolPP_A": 0.2
+}

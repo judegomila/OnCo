@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:18.003Z",
+  "request": {
+    "query": "Which original studies and regulatory analyses identify common oncology misunderstandings about companion diagnostics, test clinical utility, investigator-sponsored studies, investigational authorization versus marketing approval, and trial-site or cohort access?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-6082522",
+        "title": "NCCN Task Force report: Evaluating the clinical utility of tumor markers in oncology.",
+        "authors": [
+          "P. Febbo",
+          "M. Ladanyi",
+          "Kenneth D. Aldape",
+          "A. D. De Marzo",
+          "M. E. Hammond",
+          "D. Hayes",
+          "A. Iafrate",
+          "R. Kelley",
+          "G. Marcucci",
+          "S. Ogino",
+          "W. Pao",
+          "D. Sgroi",
+          "M. Birkeland"
+        ],
+        "year": 2011,
+        "doi": "10.6004/JNCCN.2011.0137",
+        "pmid": "22138009",
+        "venue": "The Journal of the National Comprehensive Cancer Network",
+        "citedByCount": 268,
+        "urls": [
+          "https://jnccn.org/downloadpdf/journals/jnccn/9/Suppl_5/article-pS-1.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://jnccn.org/downloadpdf/journals/jnccn/9/Suppl_5/article-pS-1.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "fc30c7af5b2452b5275ac52dfdb8a371b082e9d18661a591a26fbd6e1a480867",
+          "characters": 1241
+        }
+      },
+      {
+        "elicitId": "ss-80222523",
+        "title": "The Role of Companion Diagnostics in Oncology Care",
+        "authors": [
+          "Catlin Nalley"
+        ],
+        "year": 2017,
+        "doi": "10.1097/01.cot.0000516748.21023.cf",
+        "pmid": null,
+        "venue": "Oncology Times",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "00786bd0f11db750831d7c9d3ed4d23545954875cd342ba39ad8606060cd47f8",
+          "characters": 10000
+        }
+      },
+      {
+        "elicitId": "ss-17207703",
+        "title": "Companion Diagnostics for Targeted Cancer Drugs – Clinical and Regulatory Aspects",
+        "authors": [
+          "D. Olsen",
+          "J. T. Jørgensen"
+        ],
+        "year": 2014,
+        "doi": "10.3389/fonc.2014.00105",
+        "pmid": "24904822",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 90,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fonc.2014.00105/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fonc.2014.00105/pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e6ea6f8111b11bda842daeaf531b2c6e7c5725455b1aa2383363de1b22dd9c63",
+          "characters": 1311
+        }
+      },
+      {
+        "elicitId": "ss-40289364",
+        "title": "Companion Diagnostics in Oncology - Current Status and Future Aspects",
+        "authors": [
+          "J. T. Jørgensen"
+        ],
+        "year": 2013,
+        "doi": "10.1159/000353454",
+        "pmid": "23860090",
+        "venue": "Oncology",
+        "citedByCount": 38,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "dbc1693d739911d622eff8aa0a643ec4c89652edfbe67b8d95cfa31f59d521fb",
+          "characters": 1247
+        }
+      },
+      {
+        "elicitId": "ss-19918377",
+        "title": "Companion diagnostics: a regulatory perspective from the last 5 years of molecular companion diagnostic approvals",
+        "authors": [
+          "Donna Roscoe",
+          "Yun Hu",
+          "Reena Philip"
+        ],
+        "year": 2015,
+        "doi": "10.1586/14737159.2015.1045490",
+        "pmid": "26109316",
+        "venue": "Expert Review of Molecular Diagnostics",
+        "citedByCount": 24,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "daf46e056b3ab7f0f6dc20bed05b215812ef5bb217ef727156e8fbb942cbf28c",
+          "characters": 736
+        }
+      },
+      {
+        "elicitId": "ss-72780478",
+        "title": "Development of Targeted Agents and Companion Diagnostics",
+        "authors": [
+          "Béatrice Gerard",
+          "Marie-Christine Bétard",
+          "Bradley L. Smith",
+          "M. Denyer"
+        ],
+        "year": 2012,
+        "doi": "10.1177/0092861512444032",
+        "pmid": null,
+        "venue": "Drug information journal : DIJ / Drug Information Association",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "b460166a048bcf9de033a9d07ce151c6628f60a453d8499e50d760a84986b047",
+          "characters": 554
+        }
+      },
+      {
+        "elicitId": "ss-41813047",
+        "title": "Clinical and Regulatory Aspects of Companion Diagnostic Development in Oncology",
+        "authors": [
+          "Jan Trøst Jørgensen",
+          "Maria Hersom"
+        ],
+        "year": 2018,
+        "doi": "10.1002/cpt.955",
+        "pmid": "29197081",
+        "venue": "Clinical pharmacology and therapy",
+        "citedByCount": 36,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4dce98723f353ceb26edcd150f089af3fe81489b52057a184395fec5ac3736ae",
+          "characters": 474
+        }
+      },
+      {
+        "elicitId": "ss-248403812",
+        "title": "Companion Diagnostics.",
+        "authors": [
+          "J. Willis",
+          "Frederick Eyerer",
+          "Eric E. Walk",
+          "P. Vasalos",
+          "Georganne Bradshaw",
+          "S. Yohe",
+          "Jordan Laser"
+        ],
+        "year": 2022,
+        "doi": "10.5858/arpa.2021-0151-CP",
+        "pmid": "35472701",
+        "venue": "Archives of Pathology & Laboratory Medicine",
+        "citedByCount": 3,
+        "urls": [
+          "https://meridian.allenpress.com/aplm/article-pdf/doi/10.5858/arpa.2021-0151-CP/3049817/10.5858_arpa.2021-0151-cp.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://meridian.allenpress.com/aplm/article-pdf/doi/10.5858/arpa.2021-0151-CP/3049817/10.5858_arpa.2021-0151-cp.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "90f69e5ab7d1e95af3c1b82e792c0dda958a3b126c09246955c920a6bc748a94",
+          "characters": 2082
+        }
+      },
+      {
+        "elicitId": "ss-286640674",
+        "title": "Strategic Integration of Companion Diagnostics in Precision Oncology: Key Factors, Drug Development Timelines, and Regulatory Insights from U.S. FDA Approvals",
+        "authors": [
+          "K. Saito",
+          "M. Narukawa"
+        ],
+        "year": 2026,
+        "doi": "10.1007/s43441-026-00917-z",
+        "pmid": "41845174",
+        "venue": "Therapeutic Innovation and  Regulatory Science",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "3f0521b8fbb198a580a137ddcb144c040dc4dd204162085f2103e91632f07c0d",
+          "characters": 2161
+        }
+      },
+      {
+        "elicitId": "ss-75728205",
+        "title": "IOM Workshop: Better Oversight Needed on Diagnostic Tests Used for Tailored Therapies",
+        "authors": [
+          "P. Eastman"
+        ],
+        "year": 2009,
+        "doi": "10.1097/01.COT.0000358148.66012.C3",
+        "pmid": null,
+        "venue": "Oncology Times",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "51fc8dff31f72bafe0d4c31d429c0e778931b68ac55c6f2fcb64cb2ef683bfed",
+          "characters": 10000
+        }
+      },
+      {
+        "elicitId": "ss-2847698",
+        "title": "Considerations for the successful co-development of targeted cancer therapies and companion diagnostics",
+        "authors": [
+          "J. Fridlyand",
+          "R. Simon",
+          "Jessica C. Walrath",
+          "N. Roach",
+          "R. Buller",
+          "D. Schenkein",
+          "K. Flaherty",
+          "J. Allen",
+          "E. Sigal",
+          "H. Scher"
+        ],
+        "year": 2013,
+        "doi": "10.1038/nrd4101",
+        "pmid": "24008432",
+        "venue": "Nature reviews. Drug discovery",
+        "citedByCount": 77,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a356088eff6ec2cd474c55add1ffafc189677051a7ba51bb5c09139ba29e6fd0",
+          "characters": 1076
+        }
+      },
+      {
+        "elicitId": "ss-284520359",
+        "title": "Milestone to Ensure Safety and Efficacy of Companion Diagnostic (CDx) That Support Treatment Decisions in Cancer Patients",
+        "authors": [
+          "Sulim Kang",
+          "Sungmin Kim"
+        ],
+        "year": 2026,
+        "doi": "10.3390/diagnostics16010155",
+        "pmid": "41515650",
+        "venue": "Diagnostics",
+        "citedByCount": 2,
+        "urls": [
+          "https://www.mdpi.com/2075-4418/16/1/155/pdf?version=1767497706"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.mdpi.com/2075-4418/16/1/155/pdf?version=1767497706",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "8bf95fe786428e5d23fad1ce6141dba433fb23f0626ed621619d7d223fa5e1f3",
+          "characters": 1471
+        }
+      },
+      {
+        "elicitId": "ss-13763105",
+        "title": "Clinical trial designs for evaluating the medical utility of prognostic and predictive biomarkers in oncology",
+        "authors": [
+          "R. Simon"
+        ],
+        "year": 2010,
+        "doi": "10.2217/PME.09.49",
+        "pmid": "20383292",
+        "venue": "Personalized Medicine",
+        "citedByCount": 191,
+        "urls": [
+          "https://europepmc.org/articles/pmc2851173?pdf=render"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://europepmc.org/articles/pmc2851173?pdf=render",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "d9357cc7208605aab8fe8019981b5e1c517e1feaa85ba2af23e67635da9b7cf2",
+          "characters": 1557
+        }
+      },
+      {
+        "elicitId": "ss-244485175",
+        "title": "Oncology drug-companion diagnostic combinations.",
+        "authors": [
+          "J. T. Jørgensen"
+        ],
+        "year": 2021,
+        "doi": "10.1016/j.ctarc.2021.100492",
+        "pmid": "34844911",
+        "venue": "Cancer Treatment and Research Communications",
+        "citedByCount": 19,
+        "urls": [
+          "https://www.sciencedirect.com/science/article/pii/S246829422100188X/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.sciencedirect.com/science/article/pii/S246829422100188X/pdf",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-7325759",
+        "title": "Drug-diagnostic codevelopment strategies: FDA and industry dialog at the 4th FDA/DIA/PhRMA/PWG/BIO Pharmacogenomics Workshop.",
+        "authors": [
+          "Lois Hinman",
+          "B. Spear",
+          "Z. Tsuchihashi",
+          "James F Kelly",
+          "Peter F. Bross",
+          "F. Goodsaid",
+          "F. Kalush"
+        ],
+        "year": 2009,
+        "doi": "10.2217/14622416.10.1.127",
+        "pmid": "19102722",
+        "venue": "Pharmacogenomics (London)",
+        "citedByCount": 17,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "1b11f908f5d1b068b361a5192b34ba8395045b6d8c8451b7715e5af6d821b05a",
+          "characters": 920
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "dfb7c5807c43ce7e2c086d2b613e5599c9e1d71b04fd56cfaa4f3f71fc4294ba",
+    "rawBytes": 45716,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

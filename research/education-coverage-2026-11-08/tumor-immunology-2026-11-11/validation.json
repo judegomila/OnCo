@@ -1,0 +1,4478 @@
+{
+  "groups": {
+    "root": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.88
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.0
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.51
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 90.81
+        }
+      ],
+      "fullSuiteFiles": 284,
+      "fullSuitePassedTests": 2829,
+      "exports": {
+        "records": 17,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "cancer-immunity-cycle",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-immunity-cycle",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-immunity-cycle",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-immunity-cycle",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cold-vs-hot",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-exclusion",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-desert-exclusion",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-desert-exclusion",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "neoadjuvant-adjuvant",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "neoadjuvant-adjuvant",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell-recognition",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "abscopal-effect",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-situ-vaccination",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 9,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 10,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tils",
+            "field": "notes",
+            "index": 11,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-associated-fibroblasts",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "tumor-associated-macrophages",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "nk-cell",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "agretopicity",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "agretopicity",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "agretopicity",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "agretopicity",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "agretopicity",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "adaptive-immune-resistance",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "perioperative-immune-window",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 7,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cd4-t-cell-subsets",
+            "field": "notes",
+            "index": 8,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "cancer-immunity-cycle.json",
+            "bytes": 17988,
+            "sha256": "f645335b5328b85e6e1aafa0efb9a265718ec10b02dc71cbb63ac96422a67dfa"
+          },
+          {
+            "file": "cancer-immunity-cycle.md",
+            "bytes": 12354,
+            "sha256": "5336e25c1729ed918d3655c643eaf2762a1d5d3cde8b12dde3c05b526a0023f4"
+          },
+          {
+            "file": "cold-vs-hot.json",
+            "bytes": 22832,
+            "sha256": "01a3f94d6a0bb34e8903173beb5736fd7f72eca1181e497767748d5dd3446883"
+          },
+          {
+            "file": "cold-vs-hot.md",
+            "bytes": 16880,
+            "sha256": "80fbd02945d69768eb6c161d77965f651f28494029b3f414bbbabf8f2db42d4c"
+          },
+          {
+            "file": "immune-exclusion.json",
+            "bytes": 15812,
+            "sha256": "237bd138b609e99bc24d0d44aab299476f08b557ee640e6e5a7bd7ea1d7dabf6"
+          },
+          {
+            "file": "immune-exclusion.md",
+            "bytes": 12648,
+            "sha256": "a37af22277a5ca127766277c6667f0164dffe99fa69100ba063ecc1883478a48"
+          },
+          {
+            "file": "immune-desert-exclusion.json",
+            "bytes": 13609,
+            "sha256": "344e2186dc5038122ddc30c7ae9901aa260dc67c296222220ef978645c54cb33"
+          },
+          {
+            "file": "immune-desert-exclusion.md",
+            "bytes": 9019,
+            "sha256": "c7adfbfa0e00d70a1148d9d5b3d257235431a59b08797c0021f93a273395f6e8"
+          },
+          {
+            "file": "neoadjuvant-adjuvant.json",
+            "bytes": 30307,
+            "sha256": "4be224cbce60ff81a220ea75d212188724d793953ea7730e53eb592eeed479a5"
+          },
+          {
+            "file": "neoadjuvant-adjuvant.md",
+            "bytes": 21567,
+            "sha256": "20447d88a07ad52a50fc258ea168995508d3f0bcd20bcedf44fb996789678dc7"
+          },
+          {
+            "file": "nk-cell-recognition.json",
+            "bytes": 15141,
+            "sha256": "8bf9a18d688621cbeab4e19860258eb664fe63510dfe7dda35871b0ae973b8cf"
+          },
+          {
+            "file": "nk-cell-recognition.md",
+            "bytes": 11678,
+            "sha256": "069f01225fea367f6022c57271d3696c86da862506a3d67477880cdd0671f232"
+          },
+          {
+            "file": "abscopal-effect.json",
+            "bytes": 7305,
+            "sha256": "fa2ded83886e8bf3271cc025b0bd3e375bc6623cb01f307a367dd9d7648b88f4"
+          },
+          {
+            "file": "abscopal-effect.md",
+            "bytes": 6210,
+            "sha256": "e9710487e1e6db124ba7131669cc565c429e60c2d8c703cf32dcb5d8b3981265"
+          },
+          {
+            "file": "in-situ-vaccination.json",
+            "bytes": 7787,
+            "sha256": "1fb4bcd23074a0dc75d337086d84d96fb10c8c4d61b456d81fb2b86b32add134"
+          },
+          {
+            "file": "in-situ-vaccination.md",
+            "bytes": 6514,
+            "sha256": "039cf1b76ad3a4f9d856ceaaf0c4e23c727a012c2569dc686b44f5a1e2cb9eb3"
+          },
+          {
+            "file": "tils.json",
+            "bytes": 19483,
+            "sha256": "2c439e5c7dcc7bcb5ff0e8d1d012af0ecbec570a2a1f7c914b904e8544378268"
+          },
+          {
+            "file": "tils.md",
+            "bytes": 15744,
+            "sha256": "99acf35f9e17b68efbd8698995da3f1cf65eb98e524cd36dce4c7f7ecb7c5d1c"
+          },
+          {
+            "file": "immune-surveillance-immunoediting.json",
+            "bytes": 18279,
+            "sha256": "2b1fd59429fa73f8024a3def7636ebb37df9b975d28e73fff0dfcc28709800e9"
+          },
+          {
+            "file": "immune-surveillance-immunoediting.md",
+            "bytes": 14974,
+            "sha256": "3a06b272d603811bbecab30d2936f283f3458392d41d353cadcd75faf9093cd7"
+          },
+          {
+            "file": "cancer-associated-fibroblasts.json",
+            "bytes": 9437,
+            "sha256": "6f796a6c638d27a30d413d075b26db0f93d1a6bf87383a114ac67ccf16bec78e"
+          },
+          {
+            "file": "cancer-associated-fibroblasts.md",
+            "bytes": 7857,
+            "sha256": "cfa73dc39e659d69a0dfc3dd521b8432ec808de6d624d793a9491531a0e0a0dc"
+          },
+          {
+            "file": "tumor-associated-macrophages.json",
+            "bytes": 14227,
+            "sha256": "887708a2298cfb2f5f7587741c7dc38dd0e2e09c6fa4cbb3e35d058fdcd5f0d6"
+          },
+          {
+            "file": "tumor-associated-macrophages.md",
+            "bytes": 11288,
+            "sha256": "3988fc08cc65c916e0c8d4c1f0489b1c970666c7e32c116e5d0a438e5b1883a2"
+          },
+          {
+            "file": "nk-cell.json",
+            "bytes": 9398,
+            "sha256": "e6cca986ef9b0a1a708c5ab24adff07685fed0d71aba7cdcee77e4999c770346"
+          },
+          {
+            "file": "nk-cell.md",
+            "bytes": 8082,
+            "sha256": "4725cd658ef9cfbab9813fd65bdcee46ccc9364ffca8036f8b5b742301be44ec"
+          },
+          {
+            "file": "agretopicity.json",
+            "bytes": 7295,
+            "sha256": "37c140f1bb123139cd460f32b03029277bf55baf901a928fb11c2304e3207cde"
+          },
+          {
+            "file": "agretopicity.md",
+            "bytes": 6779,
+            "sha256": "c6e6dff6657dd594aab6f693e071bdda941c7b4c500980efb852836432d39727"
+          },
+          {
+            "file": "adaptive-immune-resistance.json",
+            "bytes": 8945,
+            "sha256": "eabc8ad27f9c4d9bfa806be9898f90b8f23508e20cdad23264485c2e1b6b5f63"
+          },
+          {
+            "file": "adaptive-immune-resistance.md",
+            "bytes": 7701,
+            "sha256": "f5110b9638768966453605d97f84083dcdef7d1ec17864198e34dc39a25daf27"
+          },
+          {
+            "file": "perioperative-immune-window.json",
+            "bytes": 9117,
+            "sha256": "dae58c56cd242f4b0907185eff5546363b28f862933a4f619acc017e834e24ce"
+          },
+          {
+            "file": "perioperative-immune-window.md",
+            "bytes": 8432,
+            "sha256": "296e3413953e8439152860e3dcab6d88fd39c7caa953bfd0bf64fa5b724cf4e6"
+          },
+          {
+            "file": "cd4-t-cell-subsets.json",
+            "bytes": 10493,
+            "sha256": "9392da0eb08185dce81d35075099ff192cf16b78f5508d440b940ae7998cc30e"
+          },
+          {
+            "file": "cd4-t-cell-subsets.md",
+            "bytes": 9349,
+            "sha256": "9714e8c6dcf17a65c07672c184236c6c6aa648c2f307cbefb707876cca997989"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 153,
+        "available": 41,
+        "EnglishFallback": 112,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 136,
+          "rows": [
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-immunity-cycle",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cold-vs-hot",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-exclusion",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-desert-exclusion",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "neoadjuvant-adjuvant",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell-recognition",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "abscopal-effect",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-situ-vaccination",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tils",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-associated-fibroblasts",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "tumor-associated-macrophages",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "nk-cell",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "agretopicity",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "adaptive-immune-resistance",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "perioperative-immune-window",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cd4-t-cell-subsets",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "cancer-immunity-cycle-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "979b72675700fcfc3ab7cc15fcc1037cfbf0019ed1659162b82139b62becb496"
+          },
+          {
+            "id": "in-situ-vaccination-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "866f6b97425e8aa6dab2433e033da9ffa567ab1f25d3cb2b80c69a007c2f199c"
+          },
+          {
+            "id": "tils-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-ar",
+            "available": true,
+            "fallback": false,
+            "sha256": "9bad08609244b7148e8e07d1aa69ae2136427ed13db81eb73cad61d5202d3598"
+          },
+          {
+            "id": "agretopicity-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "d4ee7aaccfbbebe60599da0cfd6b680b132a78ca44fcb28a37773c2b97cde2b1"
+          },
+          {
+            "id": "in-situ-vaccination-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "f1fa3c17873cca8a22b56845ff09f4cc05fa4f128ec055d05c291b6e5d40c105"
+          },
+          {
+            "id": "tils-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-de",
+            "available": true,
+            "fallback": false,
+            "sha256": "fa17685c962e7ca16a6cd66609f0b3d58413c750c57ff3a724f88c269003bd9c"
+          },
+          {
+            "id": "agretopicity-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "65cd0d798b8ad1adb49c66608cfe919eada45ca0a388d661138bb4ffc1ac5202"
+          },
+          {
+            "id": "in-situ-vaccination-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "75a8e1903a58844e2f237522fe29f0f998140c7386447b0489968f1c9c94f65b"
+          },
+          {
+            "id": "tils-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-es",
+            "available": true,
+            "fallback": false,
+            "sha256": "8cfc00b53291ff73a6f735abd838327f3bae7633eb417b7f9c9b15d60c29f726"
+          },
+          {
+            "id": "agretopicity-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "b8b6466c8e8f4c9034955e9557d506568e01930c9da89f5f3b882165aa147a7f"
+          },
+          {
+            "id": "in-situ-vaccination-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "04ee3df9dbb7e623043cc3b4e829b5b38e43e3cfab22476aa8a2d74e4183fcc4"
+          },
+          {
+            "id": "tils-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-fr",
+            "available": true,
+            "fallback": false,
+            "sha256": "5a420bf4ece632d60d70e6118148ed4b5a6b5dba40d095c3e73a3d3ae6b05972"
+          },
+          {
+            "id": "agretopicity-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "db9e774626acbbf5b18f6dd4704cd0db2c31567aafd7368bdc36d5cb98fcf114"
+          },
+          {
+            "id": "in-situ-vaccination-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "216225ed7a6e41ffe0b82105fed48ff09e350bbf007843d49e9611a3ab7c4e0c"
+          },
+          {
+            "id": "tils-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-hi",
+            "available": true,
+            "fallback": false,
+            "sha256": "ccd16025e9b0caffc32e602016aab689a5f74f8426719da7b5b227ae634a25b6"
+          },
+          {
+            "id": "agretopicity-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "aa2bf35126d52993e91fcf0ce60a70e6c38a327fa06b9dd2461a067074a52415"
+          },
+          {
+            "id": "in-situ-vaccination-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "441fa4a6b93e0ed327501e7fac66ab071a2a140b67bb655254ce3f5c98504c82"
+          },
+          {
+            "id": "tils-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-ja",
+            "available": true,
+            "fallback": false,
+            "sha256": "c642fa14fc54bce4e244fa0f5f66ecb891ba0f19a9b5c8c5d5187b29bf23b39a"
+          },
+          {
+            "id": "agretopicity-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "b4d0c4fc808497fe9bdf850ebc33c309f1a33448f238a409c972a60ba925c314"
+          },
+          {
+            "id": "in-situ-vaccination-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "123a173d2577e364a6c051aa1f077c0d0926916961443ac272ec822899009704"
+          },
+          {
+            "id": "tils-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-pt",
+            "available": true,
+            "fallback": false,
+            "sha256": "e2d0a9c95f8c223c070a53fa0324e8e3f2900e975af53896b61c7f3bc76152e3"
+          },
+          {
+            "id": "agretopicity-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "fc5f1e3feb232261fc531368d04ec2b98ad3fbeb5e5ec00ef0c84c97b7a43240"
+          },
+          {
+            "id": "cold-vs-hot-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "c4b1a4783c3915397d18e545d5c7436624872b40952bb4166532f1a4026421d7"
+          },
+          {
+            "id": "immune-exclusion-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e62d3a15b0bb2ad1e693d9b530e9edf57bdfb9fccc06cc0449828802b382633d"
+          },
+          {
+            "id": "immune-desert-exclusion-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "a78ac2362e6eadd75e7d5d66e7c388b4f134c63c78658e1d38b8f6eb68344df9"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "f7dd76eccf338c0de41eed70870505b25bcdf6f015cbdd7b104b9df3987ea07c"
+          },
+          {
+            "id": "nk-cell-recognition-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "0fb8b0cea9075d581aa4b104a33fc5f495dacc49cc466673a0dc7fa2a14c2e40"
+          },
+          {
+            "id": "abscopal-effect-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "a6fa2c4014522afe855570cffd491b69f4f20457ab5cc2a274eb26a38a6f1ae5"
+          },
+          {
+            "id": "in-situ-vaccination-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "48e73f118a58f2d18eeb2b21b276b5a56b2075fada36c4a1f97dc560c9c4a3e0"
+          },
+          {
+            "id": "tils-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "529818cc4f5c30063318151fc227cb0a6cc1cd65a687b056258ee3ff02692d54"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "52d33230d732be4d4d9fe27745348714f16ac851eeeb27c2add19efe3054e3b5"
+          },
+          {
+            "id": "nk-cell-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "40ec224806b529d1937d06e730adfa320c1c8a6056401445c5af5e4795a6d2c6"
+          },
+          {
+            "id": "agretopicity-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "33ae67dc4801a81b1dd8d6807cee63eb21ab28cc34f6e9b1958a9ca323b447cd"
+          },
+          {
+            "id": "adaptive-immune-resistance-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "2163374952d825116ad26c02eea079c2a8fb1d0954b2837164430cc1ab342f70"
+          },
+          {
+            "id": "perioperative-immune-window-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "d8a06ee0d888aaa48d373ea4f0f0fb83707fb6e14ae7cf3ae88aeb586bf7e260"
+          },
+          {
+            "id": "cd4-t-cell-subsets-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "114cda9812b30e597113edef6d7e2ea96eb551c1dcdda1ddb8285b4721653c46"
+          },
+          {
+            "id": "cancer-immunity-cycle-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "06d6ca087edd6af2dcc60afe9c67b47cc4ca44fc86165069303716b4f7c5d44a"
+          },
+          {
+            "id": "cold-vs-hot-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "f6fa54f83461926a33c64e590d014b82cbe7cc18c0f6a520465e70f25a7946cd"
+          },
+          {
+            "id": "immune-exclusion-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "0a26b084951f5bca77def088a33c7aa87858fa3c43d577fa378f88895ee30d6e"
+          },
+          {
+            "id": "immune-desert-exclusion-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "ef8259be10f3f99087f66dff9d6065824df677f884cf2523e857bc011aa4dc84"
+          },
+          {
+            "id": "neoadjuvant-adjuvant-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "7e4f3881be7f8973aa4cfcb34141c8530efdb1290863ea0694ec2f5268bf3993"
+          },
+          {
+            "id": "nk-cell-recognition-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "6dd458a530c370db0b73bf63581480dcfa97ed2cbf93cb37d9809893904619b7"
+          },
+          {
+            "id": "abscopal-effect-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "23665137dabfe1d50cc2650e06f1ad33a510605b118ac7745ef56e6685ced32d"
+          },
+          {
+            "id": "in-situ-vaccination-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "703a21038d75cce26686f38a97b6ea2e539be564ce24e114e178293d78152c59"
+          },
+          {
+            "id": "tils-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "0f96a97b9fcef8c484b7d01e700eb9b897fa5c9b7bc0bf48a7a44f2f5b2eebd0"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "29b623e0fe93b206ac0a34e3f9e24320c72d1eb1020dc7cf6d7bd58a9e0be109"
+          },
+          {
+            "id": "cancer-associated-fibroblasts-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "7b2fa54f32dcf0a401aa497d31e34f5f74e01f28d144502c1bdea232a7b8c85b"
+          },
+          {
+            "id": "tumor-associated-macrophages-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "105ea41d420c10c8bd110e318564e0133d5c91eb1104b6789ed795428815044e"
+          },
+          {
+            "id": "nk-cell-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "b79285be016debd034fc1a74df0689787056edade50b06bd7d1a1b80ceecc13a"
+          },
+          {
+            "id": "agretopicity-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "927c2fd5c3d6218a7307d19654bc9a02d095dd2159f6937dc1504f520b0e4a1d"
+          },
+          {
+            "id": "adaptive-immune-resistance-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "73bf67b52fb71ea426e2ef26a23f56b491909244f09eb77cf9fecad187a1ffd8"
+          },
+          {
+            "id": "perioperative-immune-window-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "ebd607c01e0443c273e90ab46a55d4d5eeab013902b3e7eb6de371285ff25bde"
+          },
+          {
+            "id": "cd4-t-cell-subsets-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5207c47a9cf006ceb41e37ea66761ec977e4e4b0551940d2931d142f66d65eb5"
+          }
+        ]
+      }
+    },
+    "shared": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.82
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 2.75
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.8
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 90.16
+        }
+      ],
+      "fullSuiteFiles": 281,
+      "fullSuitePassedTests": 2813,
+      "exports": {
+        "records": 1,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "immune-surveillance-immunoediting",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "immune-surveillance-immunoediting.json",
+            "bytes": 15132,
+            "sha256": "aa81173e72fc818b8caba6d7d6e0cbd5e9ffa0667fabfadf8ed938946ea0889d"
+          },
+          {
+            "file": "immune-surveillance-immunoediting.md",
+            "bytes": 12050,
+            "sha256": "6e9f3c919bbaf2e7ab90e75b8fb7a9dc2e2c3ae2da3499b61b2b68dfbecd1453"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 9,
+        "available": 2,
+        "EnglishFallback": 7,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 8,
+          "rows": [
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "immune-surveillance-immunoediting",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "immune-surveillance-immunoediting-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "579cd3e46ff96c34d808882726282ad7559ad1acfcdd4b299ba287d314076a0c"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-zh",
+            "available": true,
+            "fallback": false,
+            "sha256": "dc610cb67b97e70a90544ae3529a3f22f6d792c1a95a8c00d438a38491d4ddf9"
+          },
+          {
+            "id": "immune-surveillance-immunoediting-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "a584e8ae43fe43d7f57c706387df14ac7a0199b7bfef84ca7a85818cb35d63c0"
+          }
+        ]
+      }
+    }
+  },
+  "readerText": {
+    "fieldPassages": 157,
+    "missing": [],
+    "checks": [
+      {
+        "group": "root",
+        "id": "cancer-immunity-cycle",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "193945377afe22a95100f8762da9dcb3127f53f54b5ada19d49584f895da638d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-immunity-cycle",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "fdb2a3b2ed2612865a9df70533b10b0630d3fae551d558bc27cc31c65bbe93a7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-immunity-cycle",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "30e3040050196b9e1eb63695a335990d9af06a7235981d56068ab1f69ec0d19d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-immunity-cycle",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "3e3208e1426cc223ad4b211c669a00cdf35e388ed958efe24d89c5f01990dce8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-immunity-cycle",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "1e309e5be7575d0c0e34b48e71a697fab318b1eb3f785b66000eb48dde3329d7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "c9b6948c75e03f860b16ea6ad8b6339511eb2e3bd6410de5574a65572135b7b5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "d2dc0c85c2a5cb1f004acc5e366b5df6dd188604d167532d37c39022a74860c1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "14adbe3d4dc33d6efa0db1dfb9af789122708f47b29abac63dd9a51eb2d0b03f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "aff8a562c1a8568f3cd78e3c2a809394d236c2b5c2faf6656e1b1782bd8ebada",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "85b1072a74b203b4df256f261f55d47ea88c6df83214db143c5542aa595d74f6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "e32c1280ee72c6852690fa7dbc51e73ed95242d228eeded48472bb1955fdda51",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cold-vs-hot",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "705019fdf3c44836ef27b4cfbde015a9237bb05f37a0c24664936dc65e7b560c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "9720a2c94321a8c89c902c48542f77a7427fde6a1dc81aacd3f0a8deebdf07a5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "99fecc1d58bccefae61118a8a0230ae11a48adf254832d3a1ad3973c9448ef9a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "5f47686909af5730dc229a89e1da0396d2696b2e3511f52b38e2e40c493ade46",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "334a5c9a81cb640b20113fba863af3801581c1cd6d0599bfe126faaf7d0375ce",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "be13903772ef517ea0127995385ef0febf2ee2ffb19527972c012c90c9772aec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "10af9a17e584552a072f9f443a89fd0f213dae4b1ad02e34fc62edc8cc9be020",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "bbadf6fdda1bd7b7618f812cf31ed9b5a60712314e01795473fb84ccaa0496ca",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "b8a812cc1ab31a4c6a03da03778a4f312d4c4af4de43c9ab8c1358a72362bceb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-exclusion",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "e8b7cfc43638a6cdd80beffbf7488424b2d71eb928a2a4f2141abc0db000e74d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-desert-exclusion",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e08596167f3a078f79173fede6d9e4e885b2f3c567fca567fb11a0ca9987413b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-desert-exclusion",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "1a3db76284e4c44b6da8adc5704511889931c33454c8aeecabe6f82dacae60e1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-desert-exclusion",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "2249af1515dc7a4893d8984271f89a9eedb26b03844cb0ff9a835976c0e5ead8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "neoadjuvant-adjuvant",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "a29b92d24d22cb6447a2d0bec517d0d6b396747c3e408ec1bd35b1055dfce3fe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "neoadjuvant-adjuvant",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "ae3e79530125f1d2e7e8b5489645d68fa967df215d485232d374ff4a8d860ea2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "neoadjuvant-adjuvant",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "7d0a00bb7a7ca997c2e72d1a94f1e8ff17f027f2e2971c826d1a24c9859ba846",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "61a7f0402822fe66ee9b15819c3be8b0162514a40dafa4e40fcb453c93beb7af",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "40eafba9aac377940461022ecb55e8237f930bb910004cb5dfb7511d81a5089b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "f2292f7ed2a83af87eb991c66376be0b467074d05971278f78c01686575339d7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "80331745b2b8bcd86f049ffc483b192a0b9717bff64ded03e30927584d382c21",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "777b2b02c8730ff9e2e6e6e2a3c9c3dd8f8fcff7639dddf522b3654b6f81efb9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "3097a03f6f4529b21752f808cd938d65f6e0d5d878fff22811fecc632e535534",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "8d9efdf2b638c80ed150a64bdf264127cff260ad6325925a46459e57badc1e7b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "196b2336f45232ce71376579d2b0f828f6ef3f5265a0846c3c5177aa1edd39b8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell-recognition",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "52ecc9459879a35eba1d6adaad79616991d04a9edb363cbb8b32a29caaff1ec7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e75584d8605afb066b632651e70d5f8bc95547669068967e21372b200d04a684",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "4f9cc7ab7ef37897196b1fd1a96a00bb37e4c91c7e44ed3c8df0dfbd4d4a4089",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "3835a1674492fba0d273472341f8fe2fcbd9dab84cc9d7aa4922ae389feed883",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b48b861531186d3333d32a9365779999a4d9f4572219edcc6e201f2658651df8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "92c2839060f7a8f03823fa2b5fd35945634f1a30540b9569f8142d6688d5d38c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "707a55dc3e1f969efe5a7fe3f1f8ff04c6d6e2b7103c941b707cde8a22e8466a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "f0b8dfbe8817fa11abdb3f169073bef85d6811089212dfb4d838b4c1eb29b998",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "abscopal-effect",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "cce0410f461b231993f54b3fd017a942f6ce10ee933edbff1dddf0c2cfb6489c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7d6ca70643aefee2644acbe8f1fe6c7a3978d10d2727154bb9d47323d8703898",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "3449ebc0cf572445291db463348fc190751f972233fe950701220d57ab42f199",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "6deb69eac3e3c6d4cb44a9cea83e3ed26f2e8db2f5264b61b7d052f3fed2e01f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-situ-vaccination",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "9794bbe4c76c0b21d4b90d7f9c2b27981501df58f6c1fe790db5e586d3c93eb8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "d1884d4167a698001dcdcf686a4063481daa576466a674d059db063baefac4e3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "276c99649560fb3f8990fadd8fcf461f2d7dfe27578cd0bc156157a70341764b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "83d3c72f67c60b6ea4878bd9ee70a2a3e43920bca23b01f0c379ef3b784c6a4d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "a5bf77197f859a8e3e8452883ef820f18d12c21843ffe33e1fe592e61b22f7fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "76c4bd9c386c4733b7b5a4b15b5d529fec4f85e9afb21c96ec7b7766129dcaeb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "bdf8071eac4729bc7fcbedd901a6f67b6ff15e55534c601c75ba5607250bf340",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "c65b3e5ffcf97e462a620667f722b6d3f4c19a605697448b688ae93cbacd4685",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 6,
+        "segment": "field or note",
+        "passageSha256": "b99c874019b2f6cb8db98d0e62eec7c3edf6d7922aa19ef46fd84d6ecf18a45c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 7,
+        "segment": "field or note",
+        "passageSha256": "df8f56cedd106c9b0c48044d6c4bc54555105046112dbd397ed626f3cf1615be",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 8,
+        "segment": "field or note",
+        "passageSha256": "4878b4a6ccd2a753af2babf1e5e93f4db61a7bf6307b40cceaf4ecd422edfe8f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 9,
+        "segment": "field or note",
+        "passageSha256": "a871965df64968285a1871aa03c9a6ccb5ee2d4b97c924abb407a2af9ec00bc9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 10,
+        "segment": "field or note",
+        "passageSha256": "f866ade46b6d79feaec9c8a4438afb2aa00413b5dd210fa18c1ba257b7a2bc7b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tils",
+        "field": "notes",
+        "index": 11,
+        "segment": "field or note",
+        "passageSha256": "bebb6e5fb0b65ebe877e81e0e31ec39842bfb1053ec07d5d98459cf98fd3b18d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7580adf3b4d7bc91ea5e5ada648e3c09b37b84112077c894fcedbd89e3a41215",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "7e4ee6f58f0c19910d84ec766d6f1c60558e703484bea49b4aa13e439ad06c61",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "dcc11dbfbeee154df53714dd970c5c841d4f0e588bcb532f05a294ba3d336f1d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "7f059872f66c2545cb6326e5118c42e1e621969aa065a4ac9073b95e59477da8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "0ce66c77426bc7bf099a0d3f22bd0fe6947810550472940f418fee6c3c3a13c3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "03e0be36714a4524d47c97e22898dba2ebfe32bdf4eeefc37653263462a7e976",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 5,
+        "segment": "summary paragraph",
+        "passageSha256": "f656d9fc0661f8634cd2e068dfc3d732f1d34e38c33c46b6a774b6f8d93f1df0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 6,
+        "segment": "summary paragraph",
+        "passageSha256": "7f47324a38defa58cadc21b04ff5712bb37b30425bac66621bccf4f89ac87cb7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "52366480c08e18f6dd4647b21852f6afbb6f5e93d716ac76b1dd93d5f7e4d3fa",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "d720c43ab8274a33cbbf8cda2e8cb901e26c9372ca90aa9d4ad89e51f5f7805e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "9e162383766f4727f44eb98d3a267a8e00d7e6a6c94ca60f2a3c99452d4d17c4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "784614d52c190479610dbac282ee62a2c32c198f33a4704c41d7485d7ce121bc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "b4f9ac7fc105af22aa1a5316016dcad5093a532b587583c2b24b23a6f103ef51",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "5882b76a549dee6e6e5a09d894de13ca3bac3e8c0e69291727853060db7d8145",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 6,
+        "segment": "field or note",
+        "passageSha256": "6e8140113a3fd19e84e0624c7bdc85db570c1d3f9dfa922503d3b4691242beec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 7,
+        "segment": "field or note",
+        "passageSha256": "855a3f3ccff01c199764524391a21c6b641d83a07a51185686e63bbb6e5fe707",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 8,
+        "segment": "field or note",
+        "passageSha256": "756882a2a9014265cbb5d071250737635a1992e80263a7232cce01e2f66d9f48",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "61393752fe50270153699053b03ba786c1fb8b198c4dbcd0be395a80ec640255",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "05c0ff34f8637604fe3f6ab88477a00fb18f8ed0e5117851f07b8ccc92dc9613",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "31a40f838aa560e7834cab5c724bb1e6d493b54fe5466e7efb28ef9bc5e311e7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "34ea1b1ee0830a0028660dc462de7c2b048da3bdeca37cabb6e43ea9cca4e494",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "7453fcf0f5f220f404d584147558781d9c4b496d2eee4815d10c7d588b00738f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "add53b9fab84df4542e29acd905f32893381556b527a9a3bd8d612c968244f1e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "13ff65f15a9a13112e36314eceddf2b7fd5f41f51444e92f635926f258c7c2e8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cancer-associated-fibroblasts",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "58722b4754b92b086dea969cdbd2b515c714eb8c8b43ae229a5d6afd479ae914",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "66ebae0895d7f5d69acccba77ac0d8f44787f57929a5da89ea2f2dee5b4c9ebb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "71ce89668f92a13b3caa06bb5886c613f6c2674357a719a19bf2b7a1f6c7f507",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "601f5b3b1f271ae62122c0fd931a7c1a65ebd4a9d5300a753b359f8335876918",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "63bc9dc35a81b78d064077ed18d38ae3a2dc873eae58460f3491921506868f9a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "e9c340dd5fc6d7f430acda0ac7e24c41bcacc88fee475eca0de6af4ae47f0a23",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "dd5e5ec7c9bac04dcd7bd841c34a9a7a82fccb76587937c9d554e2ded2b45890",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "64120320aab9cfaf7fe42b9c42d336e2633b8afdc0252fc62ec86db4e42eaef4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "tumor-associated-macrophages",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "0ae53298bc30dfa9b7f0e16af755f10441d5e76320872a3757288756eb21bde9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "4bdbf03eddaab0b4ae0cdb2939008b1164a2a45917f3423eec9a6095a419ca33",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "c20c3472c20ae017f7309c7bc44536472aa447190fbfd842f8d3505fdf742ef0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "8a5ac874c5e344286b85d6028452c46fe47383be5ff6c5abbc3dc8ea3d633c22",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "51d810ca71aa5275e5e8c2980fed5a14c214432409cb500ac5bbc3caaec566dc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "nk-cell",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "33a7b42accda0024d391862846d7baf7a3a20a8a96520ae8d4fcbc78f43dee0d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b5a9f3617110364f3f2bf454651ecc232295e647e27d819656d85831c4a8daa3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "36f02d5f36e3726ae62764471df368aeceba4f76760be6e5fc647b3ebe359e81",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "03d6ce0cb5a137a8a9effdd3a3dfb668a3eaec0b7d8c6dec3671c07958311f7c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "agretopicity",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b7676e3f1003781d541603a90efee726704fc4a38f6125f6b74f263fbff22719",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "242e99e63aaf5f1b3a832f1e83fedc5f39268a18fec6aac87d27ed80019d311e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "150cabd120ac6b2bb52bf8fbc018d4f4b0eb4db403d34a31b412fec591363d9f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "f42d97edb013cad0cea7b990debc974e5988599b2910326e918251a594c9ecec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "68bb195a405556682b4ba1c3ca9995e8c2b6e4c32468af7c2fb1651975d2eac2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7a1fb952b9da823cb1f0703422ab233a9962f1f7c76361be6dfb5592fc0e024c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "29e552f77b558151227ecff398a5b06a719451051f6ade81d0c91faa4e4881ad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "f966d407906c33a4337de06227b9e157aa84db29fe1a7f07a22efc1ed909c7dc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "adaptive-immune-resistance",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "ffd44dbe2e921896f9240ae888971d0d3e96353592201cfe841db2d15d1dcc9c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "31b56d58cfbe77dd8b1b5068b4b1c6fe9282c46bd04af2b31add7364e76fedae",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "e7b1e32ab015b2a5d0f7061d0595be908203bd9a1f9d79e6085b045916d12539",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "9bd61d92b4fab108a24c30239bce42e1426106bfdb8cb4dfa50e81ee3ef87afe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "37145502f96eaf72b17151a74f8d8604ca7cb3acd9a28747cd69caac06a9674a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "97c2528bddbb3b62df07524bb920a472775e8500668a7c0741377bc495655930",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "37a7ea8e1b9bf8dc9b37b40e0053b213cf30aebf74da396f9fcea665f15f5ff2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "79415e380b24e6adc909882e03b86dbbbe7aff9c9e00d2d5b1dd503863a56137",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "c5ba2bf8e417c365337e6130ea1653138e88081f5829ff164fa6d447bef00dde",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "perioperative-immune-window",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "877641ee6b893f80ccecdbdd13945fe7da4d6a445c976d0d52495a74ecd1da86",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "64fc3b574304fa08e3c3dd2676a463c72451494cb07446c9e4d910499cfd5666",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "f9230dbc7958ed7eb952ae6d6383583083fe39d03a41cbe780198b91388c68b5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "083364a95e834ddbcae8053f813f05714dbaee8df4cd0153c06c402264a39dd8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "05aa7753142553fae384dde0db170da834d668d577caa0e17ee50f9d0ce7d6fb",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "c6bd70cf37884a547977c4fb57b8de92a6cdf0590dc73f8244e8f1ff62a1b974",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "d615c44751c95aefc85dd5661950a68a99ee0111f71347814cfccc183c180eed",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "daeffaa4a1acf06bd8843767e78ac8940f02d78a4e6b51fbbd1afb2e4e5ebd6e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "263d9c0296c041fc212e4624c9964a45240caf9c29076e22dc6e32de44904e49",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "7cbfa68c722e45ea8dfb64c2012e20c8ca49d1252b6121fbf4cadc97b4dda30d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "c2e69d9ada0d537b0704c3e50637e2adbd9eb6534e398a438479372f3e2e0d1c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "f051aefeba529a1992ef2f0e956bf61ccc11a025c4de74089f02fe165432ea22",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 6,
+        "segment": "field or note",
+        "passageSha256": "b06611713c47449d0e554e906a8106f60888ab2737009258a048300ddb5e2d6f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 7,
+        "segment": "field or note",
+        "passageSha256": "f9f4c722723161de85acd6783c2764d88c9b0101ddab46bd3c7d616066ecc7db",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "cd4-t-cell-subsets",
+        "field": "notes",
+        "index": 8,
+        "segment": "field or note",
+        "passageSha256": "8ccbb75dd5410fac416564686a47e6ac6428dc7b7f78307ade9081df1b23da02",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "647595396b038ba27c2a7552d5b292abf9f6175f65b7fa75ae98717bccdf4328",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "f13eba9199796737482b0cb06047f349641f27b116ceb71aa18fd9326ba61a5e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 1,
+        "segment": "summary paragraph",
+        "passageSha256": "dcc11dbfbeee154df53714dd970c5c841d4f0e588bcb532f05a294ba3d336f1d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 2,
+        "segment": "summary paragraph",
+        "passageSha256": "4cefd1bf97779c4c3d61086a51bc563c0782ad670d92bee43daed54a22236172",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 3,
+        "segment": "summary paragraph",
+        "passageSha256": "73267a52718e72c709c066bf5be60a4e452e59ed915ec24180d280fc31a81f53",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 4,
+        "segment": "summary paragraph",
+        "passageSha256": "91a14ed59d346d752e28d8f21536ce2314efeb86b10254ecf0e5a2e8ed66ee24",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 5,
+        "segment": "summary paragraph",
+        "passageSha256": "f656d9fc0661f8634cd2e068dfc3d732f1d34e38c33c46b6a774b6f8d93f1df0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "summary",
+        "index": 6,
+        "segment": "summary paragraph",
+        "passageSha256": "dd8c5be9022c85d62d1505304788af436f1108e380b3d637baf508f013dc3242",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "5882b76a549dee6e6e5a09d894de13ca3bac3e8c0e69291727853060db7d8145",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "6e8140113a3fd19e84e0624c7bdc85db570c1d3f9dfa922503d3b4691242beec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "855a3f3ccff01c199764524391a21c6b641d83a07a51185686e63bbb6e5fe707",
+        "inActualReaderText": true
+      },
+      {
+        "group": "shared",
+        "id": "immune-surveillance-immunoediting",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "756882a2a9014265cbb5d071250737635a1992e80263a7232cce01e2f66d9f48",
+        "inActualReaderText": true
+      }
+    ],
+    "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+  },
+  "regressions": "Two pathway-target findings were corrected by fixing the beta-catenin/PIK3CA mistarget and restoring scoped CXCR4 mouse-model context. The focused file and complete root chain then pass. Shared factory type now permits its existing per-record date field. No floor or budget changed.",
+  "doiCache": "One positive was normalized to the existing numeric cache contract and its six focused tests passed; bulk fetched date retained.",
+  "mainCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "namedLanguageCredit": 0
+}

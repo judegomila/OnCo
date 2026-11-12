@@ -1,0 +1,738 @@
+{
+  "generation": [
+    {
+      "command": "npx tsx scripts/build-api.ts",
+      "exitCode": 0,
+      "seconds": 26.43
+    },
+    {
+      "command": "npx tsx scripts/build-openapi.ts",
+      "exitCode": 0,
+      "seconds": 1.76
+    },
+    {
+      "command": "npx tsx scripts/build-context.ts",
+      "exitCode": 0,
+      "seconds": 4.26
+    }
+  ],
+  "verification": {
+    "canonicalOwners": 30,
+    "checks": [
+      {
+        "id": "adcc-adcp-cdc",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antibody-structure",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antigen",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "epitope",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antibody",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b-cell",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "adcc",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fc-effector",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "complement-in-cancer",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-a-02-01",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tap1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tap2",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "erap1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "erap2",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b2m",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-b",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-c",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-dra",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-dqa1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr3a",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr2a",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr2b",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      }
+    ],
+    "requirements": 51,
+    "requirementProofs": [
+      {
+        "id": "R01",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R02",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R03",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R04",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R05",
+        "owner": "adcc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R06",
+        "owner": "complement-in-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R07",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R08",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R09",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R10",
+        "owner": "antibody",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R11",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R12",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R13",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R14",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R14b",
+        "owner": "b-cell",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R15",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R16",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R17",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R18",
+        "owner": "fc-effector",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R19",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R20",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R21",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R22",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R23",
+        "owner": "antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R24",
+        "owner": "epitope",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R25",
+        "owner": "epitope",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R26",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R27",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R28",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R29",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R30",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R31",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R32",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R33",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R34",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R35",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R36",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R37",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R38",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R39",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R40",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R41",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R42",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R43",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R44",
+        "owner": "hla-a-02-01",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R45",
+        "owner": "dendritic-cell-cross-presentation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R46",
+        "owner": "dendritic-cell-cross-presentation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R47",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R48",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R49",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R54",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      }
+    ],
+    "scope": "Actual root JSON and Markdown generation. Four shared-draft requirements have current SSR and field proofs; no fresh shared API export is claimed."
+  },
+  "immutableFiles": {
+    "files": [
+      {
+        "path": "adcc-adcp-cdc.json",
+        "bytes": 5813,
+        "sha256": "cb5c0cbddc68b45d3914dca308d36ae6c79555a514e5cef59ac8b9662e62308f"
+      },
+      {
+        "path": "adcc-adcp-cdc.md",
+        "bytes": 5109,
+        "sha256": "81fb12be01ee53ecbd673ed23a24376e4e7e4c85aa07ccbff5e634ef1341caf1"
+      },
+      {
+        "path": "antibody-structure.json",
+        "bytes": 4783,
+        "sha256": "8a5d858e7e4818eae5ee20db82ac266987fbe5b7bad0da9b924f4378313a41e3"
+      },
+      {
+        "path": "antibody-structure.md",
+        "bytes": 4371,
+        "sha256": "540d0b2479dfd936ea7cb251952ec91fc9159ccb2f9f262d98cb71161ea8c72a"
+      },
+      {
+        "path": "b-cells-and-plasma-cells.json",
+        "bytes": 4990,
+        "sha256": "529bc80e0b7077dd6f96ef0359e13f8e413fe48347fc3f075cc94d9cb92e238f"
+      },
+      {
+        "path": "b-cells-and-plasma-cells.md",
+        "bytes": 4509,
+        "sha256": "4062dff9dfd9bbc36b90d75407a7941a74e9665f25b3c8c8bbef2a99dd36986b"
+      },
+      {
+        "path": "isotypes-and-fc-silencing.json",
+        "bytes": 6159,
+        "sha256": "5a184a81c2bd463a6ce5ca9b8048fe1847653029c45ef3c1de29aa68fe86eceb"
+      },
+      {
+        "path": "isotypes-and-fc-silencing.md",
+        "bytes": 5510,
+        "sha256": "d944f2fc9a4c03743c776606690c48b2957617fbf015498dc2f092f2452f4ce6"
+      },
+      {
+        "path": "antigen-processing-machinery.json",
+        "bytes": 6985,
+        "sha256": "73330a3583c9564dd808fc4617a6122b0216095767176a89c6575e42408df12b"
+      },
+      {
+        "path": "antigen-processing-machinery.md",
+        "bytes": 6117,
+        "sha256": "e725c190ccd84fb5a5eb25e016b7d931d5474ffa8af57c3e5762a0ce8d65d58a"
+      },
+      {
+        "path": "hla-typing-and-nomenclature.json",
+        "bytes": 5479,
+        "sha256": "55b7f1ea0706fbfea089465f6503bb536e5d67e4b0787d1b7ef456034314e71c"
+      },
+      {
+        "path": "hla-typing-and-nomenclature.md",
+        "bytes": 4938,
+        "sha256": "0056f3b19f9d360c2f40fab4877bf5802baa3fc7a03222b9e645542b15426ea0"
+      },
+      {
+        "path": "hla.json",
+        "bytes": 9882,
+        "sha256": "42749d16ff789d6d640afead0bdd40f114315d5bb4385254fab0e13ef39c0b39"
+      },
+      {
+        "path": "hla.md",
+        "bytes": 8661,
+        "sha256": "a757b401b4fec6c5e2f5bc40a6dea11df0295e8582ad263b809ea9762be349ee"
+      },
+      {
+        "path": "tumor-associated-antigen.json",
+        "bytes": 4674,
+        "sha256": "6093bc5b87fa6558a5db301cd40f400b1a36a02604b668221719a0959d72f71e"
+      },
+      {
+        "path": "tumor-associated-antigen.md",
+        "bytes": 4274,
+        "sha256": "53f7135692b299a34758c576403cf08b6ec620278ce078f30dc35215b8814aa5"
+      },
+      {
+        "path": "antigen.json",
+        "bytes": 4324,
+        "sha256": "8446ac6eda013728a0a015cd51609874b3ebedd02fb62629c4603b000a3f16f0"
+      },
+      {
+        "path": "antigen.md",
+        "bytes": 3273,
+        "sha256": "5a35f6ec5ad9afccf99f17bce2adc0e1069469f36f0d9f59a3a42cf59f06364f"
+      },
+      {
+        "path": "epitope.json",
+        "bytes": 3331,
+        "sha256": "bc6ab0feee54b5159e3ffe95785e254a5c30064db6acb00fb2d9cb6b027ef403"
+      },
+      {
+        "path": "epitope.md",
+        "bytes": 2726,
+        "sha256": "945df09de6d5b2c9a94df4c505bd443f9732f25f079f07b02292b862521c6b84"
+      },
+      {
+        "path": "antibody.json",
+        "bytes": 4753,
+        "sha256": "5068a452c5b801289eaf2740cdce384f24621cdbdb2af1fe6fbbc25e03e0829c"
+      },
+      {
+        "path": "antibody.md",
+        "bytes": 3446,
+        "sha256": "898b4dc9de25b3c2b02f79707dc471f2aaf680c9695f64f16489fb8eb029996f"
+      },
+      {
+        "path": "b-cell.json",
+        "bytes": 4019,
+        "sha256": "599306dc9ca66d0c59d81b1385c4d42fe2b496950f7fccefbe718d6e823a6e62"
+      },
+      {
+        "path": "b-cell.md",
+        "bytes": 3037,
+        "sha256": "6ec440298b606fb910b3aea49144a8b8bf9990c3ba9df1458c1819cf352b4c34"
+      },
+      {
+        "path": "adcc.json",
+        "bytes": 5137,
+        "sha256": "139f5f962a54a7614782e6ebf6fae75987b3d41599d4c921d4898cd125e111c7"
+      },
+      {
+        "path": "adcc.md",
+        "bytes": 3959,
+        "sha256": "c1770a427f0e7a05cb97ae35a53eac6a89d2cc51ec58d38bfb9c2b8aed76f20b"
+      },
+      {
+        "path": "fc-effector.json",
+        "bytes": 4313,
+        "sha256": "bd39d107d0bed9c6333b7820842ef46e24ea491e8e037879c3298b5e15da5bd3"
+      },
+      {
+        "path": "fc-effector.md",
+        "bytes": 3398,
+        "sha256": "3af8105af8be5c6b65b56973b5ffa73839965c656fcb24dc6d7296b0aacfc9f3"
+      },
+      {
+        "path": "dendritic-cell-cross-presentation.json",
+        "bytes": 6818,
+        "sha256": "04687f60a89fcbc2781d0159be5ae528509f143329614526c0c240f92e3d58b9"
+      },
+      {
+        "path": "dendritic-cell-cross-presentation.md",
+        "bytes": 5817,
+        "sha256": "635164a67b16770eb957ed809390bc3aa3ca408cdf0134e13a3493801e28c2de"
+      },
+      {
+        "path": "complement-in-cancer.json",
+        "bytes": 7353,
+        "sha256": "03e364e98257cc362fd0ea83c7728a76284ecf6386793edb266af915c96c0605"
+      },
+      {
+        "path": "complement-in-cancer.md",
+        "bytes": 4742,
+        "sha256": "785092873dc324b6b3a199f9a84a522ff2129e85401662064c4e2b8d422f08f5"
+      },
+      {
+        "path": "tertiary-lymphoid-structures.json",
+        "bytes": 5894,
+        "sha256": "38c0fe65d727d278c44cf2b3f0cfbc204932508ae5d37dfe4c8120e4e9b61b3a"
+      },
+      {
+        "path": "tertiary-lymphoid-structures.md",
+        "bytes": 4764,
+        "sha256": "eb347290d045df2f03c1c52e95fd180ea5f41a5a4f53a66e0484d04e7e6da34f"
+      },
+      {
+        "path": "hla-a-02-01.json",
+        "bytes": 7140,
+        "sha256": "c8bf0e06f30237b75a8a34bd8c2ea47ac09392828d92a7fa46b3d5c66c5d2578"
+      },
+      {
+        "path": "hla-a-02-01.md",
+        "bytes": 3072,
+        "sha256": "2678e03d397c368f310e853f1f35de3dbd66bcee7fd64c46b144474c43e2f6f4"
+      },
+      {
+        "path": "tap1.json",
+        "bytes": 2869,
+        "sha256": "2d6b134e54f2e868511049897fbdc5567a11f7fa914b7dffb28abb3bb292c730"
+      },
+      {
+        "path": "tap1.md",
+        "bytes": 1817,
+        "sha256": "6d642869ea9709f9772b8688e22b461115eb4e901284dbb415151fd4cc563d8d"
+      },
+      {
+        "path": "tap2.json",
+        "bytes": 2869,
+        "sha256": "9aa157ac02e79e8e025d5336e19302fc0c2de2808da2798d273502f2e88792f1"
+      },
+      {
+        "path": "tap2.md",
+        "bytes": 1817,
+        "sha256": "d2b09e8bae0578957e56c120a361378a7befbeb66db7146ffe49c7510b60335c"
+      },
+      {
+        "path": "erap1.json",
+        "bytes": 3007,
+        "sha256": "8e9c9130976516fbabf7ed752ba37a55d32a0b17ec52bfc35f6cb3d85d7946fc"
+      },
+      {
+        "path": "erap1.md",
+        "bytes": 1926,
+        "sha256": "3828432d4b154e6b6d1cc8df4bfc192fecce870d3f27a1922c139b33b215281a"
+      },
+      {
+        "path": "erap2.json",
+        "bytes": 2889,
+        "sha256": "6491e60ac0976ab8ab53bff542c7def2282e257fc2faca45db2d9b86f035f8d5"
+      },
+      {
+        "path": "erap2.md",
+        "bytes": 1825,
+        "sha256": "169868b69cec6d59ccc042d7b93634736b124ae5754671ba100bf7d327814eb1"
+      },
+      {
+        "path": "b2m.json",
+        "bytes": 13917,
+        "sha256": "493a25ddf82b36ec60abe150fa986cca7c5bc519f6651785d52fd75f2867ed0b"
+      },
+      {
+        "path": "b2m.md",
+        "bytes": 8009,
+        "sha256": "2b3fc3458ea36707e6f566a22eca6dcf63de0e928d2bd925be14621b0e7edf88"
+      },
+      {
+        "path": "hla-b.json",
+        "bytes": 9650,
+        "sha256": "588346bfa39aa0f46d9245ee9cc56a2ad2f0c0e8aa5f51b5e9120c5d40a016e8"
+      },
+      {
+        "path": "hla-b.md",
+        "bytes": 5402,
+        "sha256": "0aee8f1b457c9d153ca1598c0fe6b77c0121fd30fb5ee37e1cd04322e5e5017e"
+      },
+      {
+        "path": "hla-c.json",
+        "bytes": 8308,
+        "sha256": "d2fff1ebaa1e784243dd79bc0ff8ae4c91e28731729bfa441dc9162301d7a16d"
+      },
+      {
+        "path": "hla-c.md",
+        "bytes": 4671,
+        "sha256": "b2c6f35856b144b78e5344f2882d4dd383c24031b55e51cc72e959b0f6a8089f"
+      },
+      {
+        "path": "hla-dra.json",
+        "bytes": 6748,
+        "sha256": "2d6e8dd3a7a53c71e0723cc4b7dd584a8479791208b4e8ee161f4b915de0c33a"
+      },
+      {
+        "path": "hla-dra.md",
+        "bytes": 3837,
+        "sha256": "9ff1790382df848635046a7b5dca959690e449215de11ab7600b786834e296f9"
+      },
+      {
+        "path": "hla-dqa1.json",
+        "bytes": 5454,
+        "sha256": "0b054b182e9524a37bb8f56d6d1064ae2d8004f56f220b0e89ee65a310e07f85"
+      },
+      {
+        "path": "hla-dqa1.md",
+        "bytes": 3748,
+        "sha256": "7d379801f794e0324dc9ce33775a1095ade6adc597599c69ec237be5f80061f3"
+      },
+      {
+        "path": "fcgr3a.json",
+        "bytes": 7181,
+        "sha256": "f43a93c8054a3cfe8e220a61f8682e85a9201d87841c9b1bef75874aeab6f37d"
+      },
+      {
+        "path": "fcgr3a.md",
+        "bytes": 3856,
+        "sha256": "066a83672add863be495e9f13bea437eae393aeae6f99d1825756de81a9e3258"
+      },
+      {
+        "path": "fcgr2a.json",
+        "bytes": 5685,
+        "sha256": "2fe3b3f79b20aefc6a5283247b7f6abe77a3e5ba5aac5cf4dbbfeafc38f80f4a"
+      },
+      {
+        "path": "fcgr2a.md",
+        "bytes": 2762,
+        "sha256": "ea05b604bc45227bcea19da037e3ef4120ef2f03b5f53a7b78e12b9b5f251399"
+      },
+      {
+        "path": "fcgr2b.json",
+        "bytes": 7727,
+        "sha256": "2bf483be8230ca699e453155422efa9dc4e1e12e28958d07262f5e2424643de7"
+      },
+      {
+        "path": "fcgr2b.md",
+        "bytes": 3712,
+        "sha256": "aed8c7a01e5a5cd35aca3f424045ec2a9234102025e50394d2af10714ea31a90"
+      }
+    ],
+    "scope": "Actual root JSON and Markdown generation. Four shared-draft requirements have current SSR and field proofs; no fresh shared API export is claimed."
+  }
+}

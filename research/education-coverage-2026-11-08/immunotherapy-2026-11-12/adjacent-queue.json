@@ -1,0 +1,42 @@
+{
+  "newGroup": {
+    "id": "immunotherapy-source-depth",
+    "title": "Immunotherapy source dates, legacy catalogues and figure context",
+    "domain": "immunotherapy-adjacent",
+    "sourceURLs": [
+      "https://www.fda.gov/media/94129/download",
+      "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+    ],
+    "discoveryOccurrences": [
+      "immunotherapy-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator follow-up intake only; no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Retained catalogue/source-date and Guide-owner tasks remain separate from representation of the seven pinned lessons. No source body or artwork is rewritten. The sole current DailyMed Imlygic entry and its targeted indication, limitation, mechanism and infection/wound sections were checked before publication; index date and SPL effective date remain separate.",
+      "points": [
+        {
+          "id": "legacy-immunotherapy-catalogues",
+          "requirement": "Reverify retained oncolytic/cytokine/shared-vaccine programme catalogues and checkpoint cancer-specific generalisations at their own source scope. The new abstract/label checks do not certify every older efficacy, approval, historical-first, uptake or frequency assertion. Deliberately withdrawn overview catalogue and exclusivity claims have exact before/after fields.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Reverify retained oncolytic/cytokine/shared-vaccine programme catalogues and checkpoint cancer-specific generalisations at their own source scope. The new abstract/label checks do not certify every older efficacy, approval, historical-first, uptake or frequency assertion. Deliberately withdrawn overview catalogue and exclusivity claims have exact before/after fields."
+          ]
+        },
+        {
+          "id": "immunotherapy-guide-art-context",
+          "requirement": "Guide owner: retain genetic-loss context for the short HLA footer and directed-chemotaxis context for the movement footer; consider improving the dark viral-entry dashed path. Current prose carries the qualifications. No source artwork or caption is edited and no accessibility approval is implied.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: retain genetic-loss context for the short HLA footer and directed-chemotaxis context for the movement footer; consider improving the dark viral-entry dashed path. Current prose carries the qualifications. No source artwork or caption is edited and no accessibility approval is implied."
+          ]
+        }
+      ]
+    }
+  },
+  "globalGroups": 65,
+  "frozenLiteratureOccurrencesUnchanged": 917
+}

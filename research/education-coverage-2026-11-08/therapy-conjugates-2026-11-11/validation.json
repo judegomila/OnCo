@@ -1,0 +1,112 @@
+{
+  "rootFullChain": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.35
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 3.19
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 29.52
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 89.85
+    }
+  ],
+  "companionFullChain": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.17
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 10.4
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 28.25
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 100.13
+    }
+  ],
+  "rootFullSuite": {
+    "filesPassed": 284,
+    "testsPassed": 2829,
+    "skipped": 2
+  },
+  "companionFullSuite": {
+    "filesPassed": 281,
+    "testsPassed": 2813,
+    "skipped": 2
+  },
+  "initialFailure": "The first root full suite found a lost FOLFOX connection after capecitabine/fluorouracil prose replacement. Source-backed CAPOX/FOLFOX component distinctions were restored, preserving separate regimens. The full root chain then passed. No floor or budget was changed.",
+  "actualReaderSegments": 156,
+  "actualJsonEntities": 17,
+  "actualMarkdownFieldPassages": 117,
+  "shortSummarySelectors": 153,
+  "askRecall": {
+    "questions": 100,
+    "extractiveBefore": 0.4335,
+    "extractiveAfter": 0.4335,
+    "rubricBefore": 0.668,
+    "rubricAfter": 0.668
+  },
+  "pageWeight": "Both branches pass all fourteen recorded ceilings; selected owner SSR bytes are in the reader receipts.",
+  "secrets": "Both staged scopes scanned; no leaks. Root final staged scan is repeated at checkpoint commit.",
+  "limits": "No full Next production build, browser hydration, main merge, deployment or expert/learner/language sign-off.",
+  "secretScanReceiptFormatting": "The first staged scan matched a SHA-256 under a source field named keyPapers. Hash metadata now uses explicit field/sha256 entries; no secret, scanner rule or allowlist was changed."
+}

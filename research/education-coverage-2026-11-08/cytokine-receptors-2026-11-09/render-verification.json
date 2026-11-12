@@ -1,0 +1,88 @@
+{
+  "checkedAt": "2026-11-09",
+  "method": "Actual EntityDetail static server renders; no deployed or interactive-browser claim.",
+  "knowledgeGraphOwners": 172,
+  "sourceDateAndAnchorChecksPassed": true,
+  "changedOwners": [
+    {
+      "id": "armored-car",
+      "route": "/technologies/armored-car/",
+      "asOf": "2026-11-09",
+      "bytes": 41734,
+      "sha256": "7a98c53e3d2ac43214be794c240478a659f5dd20d9510adccc0c51a246f5c570",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "route": "/terms/synthetic-cytokine-receptors/",
+      "asOf": "2026-11-09",
+      "bytes": 25371,
+      "sha256": "b42646be0e652c049e2c6b4943f2e64d7db481f1ef63bf9b10021832d05626a3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "authoredFieldParts": [
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "tldr",
+      "part": 0,
+      "matchedReaderBody": true,
+      "valueSha256": "88a8de70b2ab2cd0c65f6afdb77df77f259c8c92c40ba9c5d045313a3f160a3f"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "summary",
+      "part": 0,
+      "matchedReaderBody": true,
+      "valueSha256": "d5d7e7cea86424b000d9198732c23ce8110e1612e2931913b7061336169f3aaa"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 0,
+      "matchedReaderBody": true,
+      "valueSha256": "5819d02534cc5bef8618bb56e0412a42a5bfe179aeeaf8166ce8ff93458c1c3f"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 1,
+      "matchedReaderBody": true,
+      "valueSha256": "e85b75128efb8b28c8a85fb60c74e3461cafdbada017fec05966e46d54c9e8db"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 2,
+      "matchedReaderBody": true,
+      "valueSha256": "c66d2e63d9d66f72a37705d93cf3a5202710016257b96d48072e472aac23a88e"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 3,
+      "matchedReaderBody": true,
+      "valueSha256": "3338651fe20ecf540ac22cdf0230c5254c218a31ddf9e0ae931a1893fe464b55"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 4,
+      "matchedReaderBody": true,
+      "valueSha256": "7fe71c3ce17e42570b16641ac22e4807bb9cb5db62497047493662db0646b630"
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "field": "notes",
+      "part": 5,
+      "matchedReaderBody": true,
+      "valueSha256": "b605ff73e057b6ba809cb1b7b79ef6d0157d59c7d9b07b356b7c21b6865ea66e"
+    }
+  ],
+  "bodyExtraction": "Script/style data excluded; inline text preserved; block boundaries and whitespace normalised without deleting scientific words or punctuation.",
+  "exactHtmlArchive": "Persistent local render-checkpoints/cytokine-receptors-2026-11-09-r3; all copied bytes verified."
+}

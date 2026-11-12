@@ -1,0 +1,40 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Implemented in the unmerged audit draft with one source-open negative-inventory claim. Broader audit remains active.",
+  "dataCommit": "12cc76ee50c46bfa211434317bd7a05b94c537d4",
+  "original": {
+    "pages": 6,
+    "requirements": 129,
+    "substantive": 117,
+    "evidencedAtStatedScope": 116,
+    "partialSourceOpen": 1,
+    "recaps": 6,
+    "sourceScopeRows": 6
+  },
+  "later": {
+    "pages": 7,
+    "requirements": 169,
+    "substantive": 155,
+    "evidencedAtStatedScope": 154,
+    "partialSourceOpen": 1,
+    "recaps": 7,
+    "sourceScopeRows": 7
+  },
+  "uniqueRows": 176,
+  "sectionSignatures": 135,
+  "personalApplicationsExcluded": 2,
+  "changedCanonicalOwners": 32,
+  "newCanonicalIds": 0,
+  "connectedNotesAdded": 43,
+  "selectedOwners": 43,
+  "exactFieldProofs": 342,
+  "priorProofRebases": 108,
+  "embeddedDiagramsViewedInBothThemes": 9,
+  "wholeOriginalPapersRead": 0,
+  "completeCorrectionNoticesRead": 3,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

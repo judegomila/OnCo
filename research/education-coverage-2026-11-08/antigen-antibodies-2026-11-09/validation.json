@@ -1,0 +1,57 @@
+{
+  "checkedOn": "2026-11-09",
+  "rootValidateEntities": 22742,
+  "sharedValidateEntities": 22719,
+  "rootTypecheck": "pass",
+  "sharedTypecheck": "pass",
+  "rootLint": "0 errors, seven pre-existing warnings",
+  "sharedLint": "pass",
+  "rootFullSuite": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2,
+    "seconds": 100.93
+  },
+  "sharedFullSuite": {
+    "files": 281,
+    "passed": 2813,
+    "skipped": 2,
+    "seconds": 87.83
+  },
+  "initialRootFailure": "The first suite found missing side-table HGNC joins for the four new genes. Approved HGNC/UniProt identities were resolved, the existing manual extension supplied all four joins, the focused eight side-data tests passed and the final full suite passed. No floor or test changed.",
+  "readerBodies": {
+    "rootOwners": 30,
+    "sharedOwners": 45,
+    "exactRequirementPassages": 55
+  },
+  "summarySelectors": {
+    "entries": 270,
+    "EnglishFallbacks": 270,
+    "namedLanguageReviews": 0
+  },
+  "actualExports": {
+    "rootOwners": 30,
+    "rootRequirements": 51,
+    "immutableFiles": 60
+  },
+  "sourceIntake": {
+    "MDVersions": 32,
+    "originalPapers": 42,
+    "newPrimaryIdentities": 3,
+    "reusedPrimaryAssessments": 2,
+    "figureBlobChecks": 32,
+    "renderDerivativeChecks": 11
+  },
+  "generatedGeneAndBaseXrefFiles": "unchanged",
+  "productionBuild": "Not rerun; the unchanged GRAPH_JSON page-export limitation remains documented. No browser hydration, responsive/hosted review, expert sign-off, merge or deployment is claimed.",
+  "focusedAuditTests": {
+    "files": 3,
+    "passed": 16
+  },
+  "dedupe": {
+    "groups": 9,
+    "newGroups": 0,
+    "doiGroups": 0,
+    "pmidGroups": 0
+  }
+}

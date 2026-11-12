@@ -1,0 +1,283 @@
+{
+  "priorAuditHead": "6386be7921d00e5285f92d33ce43a76688d39b43",
+  "priorFiles": 992,
+  "protectedEarlierFiles": 977,
+  "protectedPriorPendingFiles": 93,
+  "protectedPriorCohortFiles": 842,
+  "allProtectedBytesUnchanged": true,
+  "sharedArtifactsAllowedToRefresh": [
+    "README.md",
+    "adjacent-concepts.json",
+    "artifact-manifest.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-assets.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ],
+  "sourceAssetEntryChanges": [
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+      "beforeScope": "teaching",
+      "afterScope": "teaching",
+      "kind": "prior-field-rebase"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+      "beforeScope": "teaching",
+      "afterScope": "teaching",
+      "kind": "prior-field-rebase"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-dark.svg",
+      "beforeScope": "teaching",
+      "afterScope": "teaching",
+      "kind": "prior-field-rebase"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/images/tumor-material-presenting-cells-and-distant-lesion-v1-light.svg",
+      "beforeScope": "teaching",
+      "afterScope": "teaching",
+      "kind": "prior-field-rebase"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    },
+    {
+      "phase": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "kind": "classification"
+    }
+  ],
+  "newAssetClassifications": 32,
+  "existingAssetBindingRebases": 4,
+  "protectedReceiptSha256": "ca7af77d87e55eba0d2dc28a01ad1935add1d0782fdb0163025e934f2336c230",
+  "scope": "Every earlier artifact outside fifteen explicitly shared indices/ledgers/readmes/manifest stays byte-identical. All old pending files and cohort packets are frozen. Thirty-two asset entries gain teaching classification and four earlier asset evidence bindings are rebound after preserving all their old text."
+}

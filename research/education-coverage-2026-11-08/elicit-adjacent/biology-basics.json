@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:16.124Z",
+  "request": {
+    "query": "Which primary cancer-biology experiments expose important distinctions between gene dosage, transcription, RNA processing, protein localization, receptor binding and cell behavior that are needed to interpret molecular tests?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-39600767",
+        "title": "Accelerating drug discovery: Open source cancer cell biology?",
+        "authors": [
+          "S. Friend",
+          "H. Dai"
+        ],
+        "year": 2006,
+        "doi": "10.1016/J.CCR.2006.10.011",
+        "pmid": "17097556",
+        "venue": "Cancer Cell",
+        "citedByCount": 5,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-12308415",
+        "title": "Transcriptional consequences of autosomal trisomy: primary gene dosage with complex downstream effects.",
+        "authors": [
+          "D. FitzPatrick"
+        ],
+        "year": 2005,
+        "doi": "10.1016/J.TIG.2005.02.012",
+        "pmid": "15851056",
+        "venue": "Trends in Genetics",
+        "citedByCount": 74,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-16042542",
+        "title": "Clinical Implications of Gene Dosage and Gene Expression Patterns in Diploid Breast Carcinoma",
+        "authors": [
+          "T. Parris",
+          "A. Danielsson",
+          "S. Nemes",
+          "A. Kovács",
+          "U. Delle",
+          "G. Fallenius",
+          "Elin Möllerström",
+          "P. Karlsson",
+          "K. Helou"
+        ],
+        "year": 2010,
+        "doi": "10.1158/1078-0432.CCR-10-0889",
+        "pmid": "20551037",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 102,
+        "urls": [
+          "https://aacrjournals.org/clincancerres/article-pdf/16/15/3860/1992068/3860.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/clincancerres/article-pdf/16/15/3860/1992068/3860.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f16f2aadd3eaab1e875143b9685d7eb47d201efd033ce8833dd0ceab1cad1946",
+          "characters": 1838
+        }
+      },
+      {
+        "elicitId": "ss-8325651",
+        "title": "Integrated high-resolution genome-wide analysis of gene dosage and gene expression in human brain tumors.",
+        "authors": [
+          "D. Juric",
+          "C. Bredel",
+          "B. Sikic",
+          "M. Bredel"
+        ],
+        "year": 2007,
+        "doi": "10.1007/978-1-59745-390-5_12",
+        "pmid": "17634618",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 16,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "bc3a213d5bcfd19f75a7eb3969067df04e536af50e8f71da84a90ae3d9ea9d60",
+          "characters": 1095
+        }
+      },
+      {
+        "elicitId": "ss-42644469",
+        "title": "Cellular reactions to gene dosage imbalance: genomic, transcriptomic and proteomic effects.",
+        "authors": [
+          "R. Veitia",
+          "S. Bottani",
+          "J. Birchler"
+        ],
+        "year": 2008,
+        "doi": "10.1016/j.tig.2008.05.005",
+        "pmid": "18585818",
+        "venue": "Trends in Genetics",
+        "citedByCount": 273,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-91569418",
+        "title": "High gene dosage changes transcriptional regulation of genetic structures and contributes to diversity and heterogeneity",
+        "authors": [
+          "Dianbo Liu",
+          "R. Hannam",
+          "L. Albergante"
+        ],
+        "year": 2018,
+        "doi": "10.1101/505446",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2018/12/23/505446.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2018/12/23/505446.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f0ceda74b04af02856ea65eef3643c986a4c1369cd997c1f4b52a53657634253",
+          "characters": 786
+        }
+      },
+      {
+        "elicitId": "ss-82562923",
+        "title": "Deciphering the role of gene dosage in lung adenocarcinoma expression networks.",
+        "authors": [
+          "Bradley P. Coe",
+          "R. Chari",
+          "R. Ng",
+          "C. MacAulay",
+          "S. Lam",
+          "W. Lam"
+        ],
+        "year": 2007,
+        "doi": null,
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "ae7d009f48113093ebedb3ca08af782dc5ae47475b26a2069e4112b2fb15f6b6",
+          "characters": 2539
+        }
+      },
+      {
+        "elicitId": "ss-17348890",
+        "title": "A general lack of compensation for gene dosage in yeast",
+        "authors": [
+          "Michael Springer",
+          "J. Weissman",
+          "M. Kirschner"
+        ],
+        "year": 2010,
+        "doi": "10.1038/msb.2010.19",
+        "pmid": "20461075",
+        "venue": "Molecular Systems Biology",
+        "citedByCount": 130,
+        "urls": [
+          "https://doi.org/10.1038/msb.2010.19"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1038/msb.2010.19",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "06c581a278b25faa4910f9438ba712d98010332ac35ea55b89e85054e14d83e4",
+          "characters": 934
+        }
+      },
+      {
+        "elicitId": "ss-52970193",
+        "title": "Detection of Gene Dosage in Circulating Free Plasma DNA as Biomarker for Lung Cancer",
+        "authors": [
+          "A. Álvarez",
+          "Sandra Janneth Perdomo Lara",
+          "D. Palacios",
+          "E. F. Carrillo",
+          "Luis Gerardo García Herreros",
+          "F. C. Durán",
+          "Paulina Ojeda León",
+          "F. Aristizábal"
+        ],
+        "year": 2012,
+        "doi": "10.4236/JCT.2012.324045",
+        "pmid": null,
+        "venue": "Journal of Cancer Therapy",
+        "citedByCount": 4,
+        "urls": [
+          "http://www.scirp.org/journal/PaperDownload.aspx?paperID=22310"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=22310",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a74df19ca2b0a8159a6581a60bc09332d09eed7bc21eead4eb34f62ea3a89711",
+          "characters": 1186
+        }
+      },
+      {
+        "elicitId": "ss-225420493",
+        "title": "Predictive Reporter System for Investigating Dose Dependency in Oncogene-Induced Senescence",
+        "authors": [
+          "S. Chan"
+        ],
+        "year": 2020,
+        "doi": "10.17863/CAM.56412",
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "048dffd8ab59bc8a4820440e2a27fd70c30beb7bb196356516884a57e30d4f2d",
+          "characters": 2160
+        }
+      },
+      {
+        "elicitId": "ss-24459638",
+        "title": "Digital karyotyping technology: exploring the cancer genome",
+        "authors": [
+          "T. Parrett",
+          "Hai Yan"
+        ],
+        "year": 2005,
+        "doi": "10.1586/14737159.5.6.917",
+        "pmid": "16255633",
+        "venue": "Expert Review of Molecular Diagnostics",
+        "citedByCount": 9,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "29263c59d2e7f49038ea0c9d2c02d023299933a57279e343f90b119d91359040",
+          "characters": 1675
+        }
+      },
+      {
+        "elicitId": "ss-232178370",
+        "title": "Machine Learning and Systems Biology Approaches to Characterize Dosage-Based Gene Dependencies in Cancer Cells",
+        "authors": [
+          "Kevin Meng-Lin",
+          "C. Ung",
+          "Taylor M. Weiskittel",
+          "Alex S. Chen",
+          "Cheng Zhang",
+          "Cristina Correia",
+          "Hu Li"
+        ],
+        "year": 2021,
+        "doi": "10.26502/jbsb.5107019",
+        "pmid": "33842927",
+        "venue": "Journal of Bioinformatics and Systems Biology",
+        "citedByCount": 2,
+        "urls": [
+          "http://dx.doi.org/10.26502/jbsb.5107019"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://dx.doi.org/10.26502/jbsb.5107019",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "b07e6936a703e6a2244253a929a0a55df43d323c7ad02f60a1939ed5cde3dbec",
+          "characters": 1137
+        }
+      },
+      {
+        "elicitId": "ss-24054263",
+        "title": "Gene expression analysis identifies global gene dosage sensitivity in cancer",
+        "authors": [
+          "R. Fehrmann",
+          "J. Karjalainen",
+          "M. Krajewska",
+          "H. Westra",
+          "D. Maloney",
+          "A. Simeonov",
+          "T. Pers",
+          "J. Hirschhorn",
+          "R. Jansen",
+          "E. Schultes",
+          "Herman H. H. B. M. van Haagen",
+          "E. de Vries",
+          "G. T. te Meerman",
+          "C. Wijmenga",
+          "M. V. van Vugt",
+          "L. Franke"
+        ],
+        "year": 2015,
+        "doi": "10.1038/ng.3173",
+        "pmid": "25581432",
+        "venue": "Nature Genetics",
+        "citedByCount": 351,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9b4549ebd45d0b37d093e162136ddacb047985a002cc585c8f77a80b76505240",
+          "characters": 1089
+        }
+      },
+      {
+        "elicitId": "ss-28017589",
+        "title": "Functional implications of gene dosage effects in trisomy 21.",
+        "authors": [
+          "Charles J. Epstein",
+          "Lois B. Epstein",
+          "David R. Cox",
+          "Jon Weil"
+        ],
+        "year": 1981,
+        "doi": "10.1007/978-3-642-68006-9_12",
+        "pmid": "6185454",
+        "venue": "Human genetics. Supplement",
+        "citedByCount": 35,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "63a244748db58583ba54256522b260f26c0d9305b1691748c1be1dd8e2ec58b1",
+          "characters": 3456
+        }
+      },
+      {
+        "elicitId": "ss-286674395",
+        "title": "Principles of subclonal gene dosage across human cancer",
+        "authors": [
+          "Solrun Kolbeinsdottir",
+          "V. Zachariadis",
+          "Mu-Yi Yang",
+          "Luuk A. Broeils",
+          "Christian Sommerauer",
+          "Huai-Tao Cheng",
+          "Xin-Song Chen",
+          "Yingbo Lin",
+          "Matias M. Falco",
+          "J. Hynninen",
+          "S. Hautaniemi",
+          "Yizhe Sun",
+          "O. Lohi",
+          "M. Heinäniemi",
+          "S. E. Brage",
+          "D. Sarhan",
+          "N. Herold",
+          "J. Hartman",
+          "H. Helgadottir",
+          "F. H. de Flon",
+          "Anna Vähärautio",
+          "Martin Enge"
+        ],
+        "year": 2026,
+        "doi": "10.64898/2026.03.15.711906",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2026/03/18/2026.03.15.711906.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/03/18/2026.03.15.711906.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "ba029b5734bc3d5b0ccbd6ff79bebc6a3005cf6b2727155b432553c3e88ae33a",
+          "characters": 1332
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "3c932d7f7d1463372d6e7a5540f57edcbdb95f29b9d0ec45369a03f9c3c5596a",
+    "rawBytes": 30262,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

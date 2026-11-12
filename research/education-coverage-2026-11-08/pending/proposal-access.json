@@ -1,0 +1,1465 @@
+{
+  "version": "proposal-access",
+  "state": "implemented in this branch; validation and rendered-source checks passed; not merged",
+  "records": [
+    {
+      "id": "investigational-new-drug-application",
+      "kind": "term",
+      "name": "Investigational New Drug application",
+      "aka": [
+        "IND application",
+        "Investigational New Drug",
+        "investigator IND"
+      ],
+      "tldr": "This application supports a specified investigation or treatment-access use of a drug in the United States. It is separate from permission to market the product.",
+      "summary": "An Investigational New Drug application contains nonclinical, manufacturing and clinical-protocol information for defined investigational use. Becoming effective does not establish that the product benefits a person or is approved for marketing, and a clinical hold can prevent use. A New Drug Application or Biologics License Application instead requests marketing authorization. Submission, acceptance for filing, an application becoming effective and a marketing decision are different events. The applicable route and product version matter.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FDA: Investigational New Drug application",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "url": "https://www.fda.gov/media/162793/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bla-nda",
+        "first-in-human",
+        "expanded-access",
+        "investigator-initiated-trials",
+        "trial-protocol"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For an ordinary new IND, FDA describes a 30-calendar-day period after receipt before an investigation may begin, unless FDA gives earlier notification or imposes a hold. Expanded-access INDs and protocols have route-specific rules; no application number establishes a treatment start date."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "investigator-initiated-trials",
+      "kind": "term",
+      "name": "Investigator-initiated trials and study responsibilities",
+      "aka": [
+        "investigator-initiated trial",
+        "investigator-sponsored study",
+        "sponsor-investigator"
+      ],
+      "tldr": "A researcher can originate a study while its sponsor, investigators, supplier and funders have distinct responsibilities. The protocol and regulatory arrangement identify who does what.",
+      "summary": "Investigator-initiated describes the origin of a study, not its phase, evidence strength or authorization. Under U.S. drug-investigation rules, a sponsor initiates and takes responsibility for the investigation; an investigator conducts it. An individual sponsor-investigator has both sets of responsibilities. An academic institution can also sponsor a study. Product supply or funding alone should not be used to infer the regulatory sponsor. The proposed protocol determines whether an IND or another applicable arrangement is needed.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "21 CFR 312.3: sponsor and investigator definitions",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3"
+        },
+        {
+          "label": "21 CFR 312.2: applicability and exemptions",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.2"
+        },
+        {
+          "label": "FDA: IND exemption criteria",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements"
+        },
+        {
+          "label": "FDA: Investigational New Drug application",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "investigational-new-drug-application",
+        "clinical-trial",
+        "trial-protocol",
+        "expanded-access",
+        "off-label"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A study of a lawfully marketed drug is IND-exempt only when all applicable exemption conditions are met. These include the study purpose, risk implications of dose, route or population, and required ethics review and informed consent. Academic origin or approved-drug status alone does not establish exemption."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "laboratory-certification-test-authorization",
+      "kind": "term",
+      "name": "Laboratory certification and test authorization",
+      "aka": [
+        "Clinical Laboratory Improvement Amendments",
+        "CLIA laboratory certification",
+        "CLIA certification",
+        "laboratory quality versus test authorization"
+      ],
+      "tldr": "Laboratory certification addresses the laboratory and its testing quality. Product authorization and evidence that a particular test use helps patients answer separate questions.",
+      "summary": "The U.S. Clinical Laboratory Improvement Amendments program sets laboratory-quality requirements for testing human specimens. CMS distinguishes analytical oversight under that program from clinical validity, which concerns what a result means for a clinical condition. A research-use label describes intended purpose; a laboratory-developed-test description concerns how and where a test is developed and used. FDA product authorization concerns a specified product and intended use. These descriptions can coexist and do not form one universal ladder of clinical usefulness or payment.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"
+        },
+        {
+          "label": "CMS: CLIA analytical oversight and clinical validity (2013 FAQ; historical FDA discussion not used)",
+          "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf"
+        },
+        {
+          "label": "FDA: current laboratory-developed-test rule notice",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests"
+        },
+        {
+          "label": "FDA: research-use-only and investigational-use-only IVD guidance",
+          "url": "https://www.fda.gov/media/87374/download"
+        },
+        {
+          "label": "FDA: companion diagnostics",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        },
+        {
+          "label": "FDA: registration and listing do not establish authorization",
+          "url": "https://www.fda.gov/medical-devices/device-registration-and-listing/important-reminders-about-registration-and-listing"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "research-use-only",
+        "fda-ldt-rule",
+        "analytical-vs-clinical-validation",
+        "companion-diagnostic",
+        "companion-diagnostic-term"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The CMS FAQ is used here for the analytical-oversight versus clinical-validity distinction, not its historical discussion of FDA authority over laboratory-developed tests. Current procedural history is retained in the separate FDA LDT-rule record.",
+        "An entry in FDA establishment registration or device listing does not itself mean that the facility or device is approved, cleared or authorized. Registration and product authorization are separate claims."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "trial-search-site-verification",
+      "kind": "term",
+      "name": "Clinical trial search, site verification and screening",
+      "aka": [
+        "finding a clinical trial",
+        "trial-site verification",
+        "trial prescreening",
+        "trial screening and enrollment"
+      ],
+      "tldr": "A trial search identifies studies to examine. The study team must separately check the relevant site, cohort and full eligibility requirements.",
+      "summary": "NCI describes finding a study, discussing it with the team, informed consent and formal screening as distinct steps. A registry identifier helps distinguish studies, while the dated protocol and record describe the design and entry rules. Overall recruiting status can reflect an open facility elsewhere; it does not establish an available place in the relevant local cohort. A matching diagnosis or biomarker is only part of eligibility. Medical-history review and required tests can still exclude participation after an initial discussion.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "NCI: steps to find a clinical trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+        },
+        {
+          "label": "NCI: what to expect during a clinical trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+        },
+        {
+          "label": "ClinicalTrials.gov: protocol registration definitions",
+          "url": "https://clinicaltrials.gov/policy/protocol-definitions"
+        },
+        {
+          "label": "42 CFR 11.10: overall recruitment and individual-site status",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+        },
+        {
+          "label": "NCI: eligibility, randomization and clinical-trial comparisons",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "clinical-trial",
+        "trial-registration",
+        "trial-protocol",
+        "accrual",
+        "expanded-access",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Search with disease, treatment setting, intervention aliases, biomarker and location terms. Keep registry verification and update dates with the result; ask the team about the current protocol, site and cohort. A record or invitation to screen is not a promise of enrollment.",
+        "Estimated enrollment is a target total, while actual enrollment records people already enrolled. Neither is a count of places available now. Overall study recruitment, an individual facility’s status and availability in the relevant cohort or dose group require separate dated checks.",
+        "When a protocol randomizes participants, meeting its entry rules does not reserve the experimental arm. Assignment follows the protocol’s chance process rather than a choice by the participant or doctor. Screening, eligibility, enrollment, arm assignment and individual benefit are different steps; a plausible match or invitation to screen does not establish the later steps."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "companion-diagnostic",
+      "kind": "technology",
+      "name": "Companion diagnostics",
+      "aka": [],
+      "tldr": "A companion diagnostic supplies information needed for a corresponding medicine to be used safely and effectively. Its labeling defines the intended use of the result.",
+      "summary": "FDA describes companion diagnostics as devices that supply essential information for a corresponding treatment. Their roles can include identifying likely benefit, increased risk of serious adverse effects or a specified monitoring need. The treatment label and diagnostic labeling retain the relevant disease, specimen, biomarker and decision rule. Some devices have documented group labeling for specified oncology therapies. Similar analyte names do not establish assay interchangeability, and a label-matched result does not guarantee individual benefit or complete clinical suitability.",
+      "status": "standard-of-care",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Companion_diagnostic",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Companion_diagnostic"
+        },
+        {
+          "label": "FDA: companion diagnostics",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        },
+        {
+          "label": "FDA: authorized companion diagnostic devices and intended uses",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "FDA: in vitro companion diagnostic devices",
+          "url": "https://www.fda.gov/media/81309/download"
+        },
+        {
+          "label": "FDA: labeling diagnostics for a group of oncology therapies",
+          "url": "https://www.fda.gov/media/120340/download"
+        },
+        {
+          "label": "42 CFR 493.1256(f): acceptable controls before reporting patient results",
+          "url": "https://www.ecfr.gov/current/title-42/section-493.1256"
+        },
+        {
+          "label": "GovInfo: published 2025 control-procedure rule, independently read",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "hrd-genomic-scar-scores",
+        "rad51-foci-assay",
+        "dpyd-genotyping",
+        "fes-pet",
+        "cellsearch-ctc-count",
+        "serum-tumour-markers",
+        "laboratory-certification-test-authorization",
+        "companion-diagnostic-term",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "acrivon-therapeutics",
+        "ataraxis-ai",
+        "cofactor-genomics",
+        "ibex-medical-analytics",
+        "imagene-ai",
+        "insight-molecular-diagnostics",
+        "nonagen-bioscience",
+        "oncohost",
+        "signatur-biosciences",
+        "valar-labs"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cps",
+        "her2-low"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "An invalid, failed or inadequate test is not a valid negative biomarker result. The specimen and assay must meet the relevant acceptance criteria. U.S. CLIA control rules require applicable control results to be acceptable before patient results are reported. Whether to repeat a measurement or use another specimen depends on the actual test and laboratory criteria."
+      ],
+      "principle": "Evaluate a specified diagnostic result within the corresponding device and treatment labeling.",
+      "strengths": [
+        "Connects a defined test use to treatment information",
+        "Makes labeling and measurement context checkable"
+      ],
+      "limitations": [
+        "Intended use is product- and context-specific",
+        "A result alone does not establish individual benefit",
+        "Different assays are not interchangeable without supporting evidence"
+      ]
+    },
+    {
+      "id": "companion-diagnostic-term",
+      "kind": "term",
+      "name": "Companion diagnostic",
+      "aka": [],
+      "tldr": "A companion diagnostic provides information required for a corresponding treatment to be used safely and effectively within its specified context. The result is one part of a treatment decision.",
+      "summary": "The category concerns a device and a corresponding treatment use. FDA describes roles involving likely benefit, serious-adverse-effect risk or specified treatment monitoring. Check both the treatment and diagnostic labeling, including specimen, disease, biomarker and decision rule. A molecular report listing a drug is not by itself a companion-diagnostic authorization. Similar gene names do not establish assay interchangeability, and a positive result does not promise a response.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Companion_diagnostic",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Companion_diagnostic"
+        },
+        {
+          "label": "FDA: companion diagnostics",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        },
+        {
+          "label": "FDA: in vitro companion diagnostic devices",
+          "url": "https://www.fda.gov/media/81309/download"
+        },
+        {
+          "label": "FDA: authorized companion diagnostic devices and intended uses",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "42 CFR 493.1256(f): acceptable controls before reporting patient results",
+          "url": "https://www.ecfr.gov/current/title-42/section-493.1256"
+        },
+        {
+          "label": "GovInfo: published 2025 control-procedure rule, independently read",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "companion-diagnostic",
+        "laboratory-certification-test-authorization",
+        "label-indication"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "companion-diagnostic"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "An invalid, failed or inadequate test is not a valid negative biomarker result. The specimen and assay must meet the relevant acceptance criteria. U.S. CLIA control rules require applicable control results to be acceptable before patient results are reported. Whether to repeat a measurement or use another specimen depends on the actual test and laboratory criteria."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "label-indication",
+      "kind": "term",
+      "name": "Label, indication and label expansion",
+      "aka": [
+        "label expansion",
+        "label expansions",
+        "indication",
+        "approved indication",
+        "new indication",
+        "expanded indication",
+        "expanded label",
+        "expanded approval",
+        "US label",
+        "FDA label",
+        "drug label",
+        "prescribing information",
+        "on-label",
+        "off-label",
+        "off-label use",
+        "sBLA",
+        "sNDA",
+        "supplemental BLA",
+        "supplemental NDA",
+        "supplemental approval",
+        "boxed warning",
+        "black box warning",
+        "label restriction",
+        "boxed warnings",
+        "label restrictions"
+      ],
+      "tldr": "A drug label describes its approved uses, how to use it and important risks. The indication names the disease and treatment context covered by that approval.",
+      "summary": "U.S. prescribing information retains the approved indication, dosing, warnings and supporting evidence. An oncology indication may specify disease, biomarker, prior therapy or combination requirements. A drug approved for one use is not thereby approved for every use proposed by a molecular report. Off-label prescribing concerns an approved product used outside its labeling, while a never-approved product requires an applicable investigational route. Regulatory status, evidence for a particular use, clinical suitability and payment are separate questions.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Drug_labelling",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Drug_labelling"
+        },
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bla-nda",
+        "full-approval",
+        "accelerated-approval",
+        "companion-diagnostic-term",
+        "off-label",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "nccn-compendium"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "off-label",
+      "kind": "term",
+      "name": "Off-label",
+      "aka": [
+        "off label",
+        "off-label use",
+        "off-label prescribing",
+        "on-label",
+        "labelled indication",
+        "labeled indication",
+        "approved indication",
+        "approved indications",
+        "drug label",
+        "prescribing information"
+      ],
+      "tldr": "Off-label use means using an approved medicine outside its approved labeling. The evidence for that particular use and whether it will be paid for need separate assessment.",
+      "summary": "A different disease, dose or route can make use of an approved medicine off label. FDA states that clinicians generally may prescribe an approved drug for an unapproved use when they consider it medically appropriate, but the original approval does not establish safety and effectiveness for that use. The supporting evidence can vary. A product never approved for any use is investigational rather than simply off label; clinical trials and expanded access have different arrangements. Approval, a guideline recommendation and insurance coverage are not interchangeable decisions.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Off-label_use",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Off-label_use"
+        },
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+        },
+        {
+          "label": "FDA: expanded access",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "standard-of-care",
+        "tumour-agnostic",
+        "basket-umbrella-platform",
+        "accelerated-approval",
+        "orphan-drug",
+        "rare-cancers",
+        "companion-diagnostic-term",
+        "label-indication",
+        "expanded-access",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "full-approval",
+      "kind": "term",
+      "name": "Full (traditional, regular) approval",
+      "aka": [
+        "full approval",
+        "traditional approval",
+        "regular approval",
+        "standard approval",
+        "converted to full approval",
+        "conversion to regular approval",
+        "full FDA approval",
+        "received full approval",
+        "gained full approval",
+        "regular FDA approval"
+      ],
+      "tldr": "Traditional approval is a marketing decision for a specified use. Its evidence can include direct clinical benefit or an established surrogate endpoint; it does not promise that every person will benefit.",
+      "summary": "FDA distinguishes a validated surrogate that can support traditional approval from a surrogate reasonably likely to predict benefit that can support accelerated approval. Traditional approval does not always require a demonstrated survival increase. Accelerated approval carries requirements to confirm the anticipated clinical benefit and can later be converted or withdrawn through the applicable process. The current indication and evidence matter more than a general approved-drug badge.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/New_Drug_Application",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/New_Drug_Application"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "url": "https://www.fda.gov/media/86377/download"
+        },
+        {
+          "label": "FDA: accelerated approval program",
+          "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "accelerated-approval",
+        "confirmatory-trial",
+        "conditional-approval",
+        "approval-withdrawal",
+        "fdora-2022",
+        "fdca",
+        "bla-nda",
+        "japan-conditional-early-approval",
+        "cancer-drugs-fund",
+        "surrogate-endpoint",
+        "surrogate-validation",
+        "label-indication"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "fast-track-rmat",
+      "kind": "term",
+      "name": "Fast Track and RMAT designations",
+      "aka": [
+        "Fast Track",
+        "fast-track designation",
+        "Fast Track designation",
+        "RMAT",
+        "regenerative medicine advanced therapy",
+        "RMAT designation",
+        "expedited programme",
+        "expedited program",
+        "expedited pathway",
+        "expedited review",
+        "expedited approval",
+        "fast track designations"
+      ],
+      "tldr": "Fast Track and regenerative-medicine designations support development and review for eligible products. A designation is separate from a decision authorizing marketing.",
+      "summary": "Fast Track supports development and review for drugs addressing serious conditions and unmet need. Regenerative Medicine Advanced Therapy designation has its own eligible-product and preliminary-clinical-evidence criteria. Breakthrough Therapy and Priority Review likewise have distinct purposes; review support is not an efficacy result or a guarantee of approval or delivery timing. Accelerated approval, in contrast, is an approval pathway with benefit-confirmation requirements. Read the named program and the actual product decision separately.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fast_track_(FDA)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_track_(FDA)"
+        },
+        {
+          "label": "FDA: expedited development and review programs",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "url": "https://www.fda.gov/media/86377/download"
+        },
+        {
+          "label": "FDA: regenerative medicine advanced therapy designation",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-designation"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "breakthrough-designation",
+        "accelerated-approval",
+        "orphan-designation",
+        "bla-nda",
+        "fdasia-2012",
+        "21st-century-cures-act",
+        "sakigake",
+        "ilap",
+        "eu-regulation-726-2004",
+        "full-approval",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "accelerated-approval",
+      "kind": "term",
+      "name": "Accelerated approval",
+      "aka": [
+        "accelerated approvals",
+        "accelerated-approval",
+        "Project Confirm"
+      ],
+      "tldr": "This FDA pathway can authorize a specified use based on an endpoint reasonably likely to predict clinical benefit. Further studies must confirm the anticipated benefit.",
+      "summary": "Accelerated approval is a marketing approval for an indication, distinct from a development designation. FDA can use a surrogate or intermediate clinical endpoint reasonably likely to predict benefit for an eligible serious condition. Required studies must confirm the anticipated benefit; the use can receive traditional approval or undergo withdrawal through the applicable process. A preliminary laboratory signal, a product name or a historical announcement does not establish current approval for a particular use.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Accelerated_approval_(FDA)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Accelerated_approval_(FDA)"
+        },
+        {
+          "label": "FDA: accelerated approval program",
+          "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "url": "https://www.fda.gov/media/86377/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "fdora-2022",
+        "fdca",
+        "fdasia-2012",
+        "conditional-approval",
+        "japan-conditional-early-approval",
+        "china-drug-administration-law",
+        "full-approval",
+        "approval-withdrawal",
+        "confirmatory-trial",
+        "surrogate-endpoint",
+        "expanded-access",
+        "cancer-drugs-fund",
+        "abigail-alliance",
+        "label-indication",
+        "fast-track-rmat"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "research-use-only",
+      "kind": "term",
+      "name": "Research use only (RUO)",
+      "aka": [
+        "research use only",
+        "RUO",
+        "for research use only",
+        "not for diagnostic use",
+        "research-only notice",
+        "not for clinical use"
+      ],
+      "tldr": "A research-use-only label describes a product intended for research in its applicable framework. It does not establish that the product is suitable for clinical diagnosis.",
+      "summary": "FDA guidance on research-use-only in vitro diagnostic products concerns their intended use, labeling and distribution. The label alone is not a complete account of analytical performance or clinical usefulness, and its legal framework should not be generalized to every research model or dataset. Laboratory certification, development within a laboratory and product authorization are separate descriptions. A research result can motivate further study without becoming a validated treatment-selection report.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "FDA guidance: Distribution of in vitro diagnostic products labeled for research use only or investigational use only (2013)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only"
+        },
+        {
+          "label": "FDA: research-use-only and investigational-use-only IVD guidance",
+          "url": "https://www.fda.gov/media/87374/download"
+        },
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary",
+        "laboratory-certification-test-authorization",
+        "fda-ldt-rule",
+        "analytical-vs-clinical-validation",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "samd",
+        "analytical-vs-clinical-validation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/research-use-only."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "fda-ldt-rule",
+      "kind": "term",
+      "name": "FDA laboratory-developed test (LDT) rule",
+      "aka": [],
+      "tldr": "A laboratory-developed test is described by its development and use within a laboratory. Laboratory oversight, product authorization and evidence supporting a particular test use are separate questions.",
+      "summary": "FDA issued its laboratory-developed-test rule in May 2024. Its current notice states that a federal court vacated that rule in March 2025 and that FDA restored the earlier regulatory text in September 2025. The vacated phaseout schedule should not be presented as a current requirement. An LDT description alone does not establish FDA authorization, research-only status or clinical usefulness. Check the actual laboratory, product and intended use rather than assigning every LDT one approval or evidence status.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Laboratory-developed_test",
+      "links": [
+        {
+          "label": "FDA: current laboratory-developed-test rule notice",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests"
+        },
+        {
+          "label": "CMS: Clinical Laboratory Improvement Amendments",
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"
+        },
+        {
+          "label": "CMS: CLIA analytical oversight and clinical validity (2013 FAQ; historical FDA discussion not used)",
+          "url": "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "laboratory-certification-test-authorization",
+        "research-use-only",
+        "companion-diagnostic-term",
+        "analytical-vs-clinical-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "companion-diagnostic",
+        "mrd-testing",
+        "mced"
+      ],
+      "targets": [],
+      "drugs": [
+        "galleri",
+        "signatera",
+        "cancerguard"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "ivdr",
+        "regulatory-agencies"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "bla-nda",
+      "kind": "term",
+      "name": "BLA / NDA / MAA (marketing applications) and PDUFA dates",
+      "aka": [
+        "BLA",
+        "NDA",
+        "MAA",
+        "biologics license application",
+        "new drug application",
+        "marketing authorisation application",
+        "marketing application",
+        "regulatory submission",
+        "filing accepted",
+        "submission accepted",
+        "regulatory review",
+        "PDUFA",
+        "PDUFA date",
+        "action date",
+        "target action date",
+        "goal date",
+        "rolling submission",
+        "standard review",
+        "10-month review",
+        "6-month review",
+        "new drug applications",
+        "regulatory submissions"
+      ],
+      "tldr": "A New Drug Application or Biologics License Application asks the FDA for permission to market a product. Submission, filing acceptance and approval are separate events.",
+      "summary": "Marketing applications contain clinical, manufacturing and labeling information. The applicable product determines whether an NDA, BLA or another route applies; an NDA is not an earlier stage every biologic must pass through. An IND supports specified investigational use instead of marketing approval. A review target date is a goal for regulatory action, not a guaranteed approval or treatment-access date. An approval still has an indication and conditions of use that need to be read in the current labeling. In the EU centralised procedure, a marketing-authorisation application is assessed by EMA and the European Commission makes the authorization decision; an agency opinion is distinct from that decision.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Prescription_Drug_User_Fee_Act",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Prescription_Drug_User_Fee_Act"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+        },
+        {
+          "label": "FDA: Investigational New Drug application",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        },
+        {
+          "label": "FDA: expedited development and review programs",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review"
+        },
+        {
+          "label": "EMA: EU marketing-authorisation assessment and Commission decision",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "label-indication",
+        "complete-response-letter",
+        "breakthrough-designation",
+        "regulatory-agencies",
+        "investigational-new-drug-application",
+        "full-approval",
+        "accelerated-approval"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "real-time-oncology-review",
+        "project-orbis"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "expanded-access",
+      "kind": "term",
+      "name": "Expanded access (compassionate use)",
+      "aka": [
+        "compassionate use",
+        "expanded access programme",
+        "expanded access program",
+        "expanded access programmes",
+        "treatment IND",
+        "single-patient IND",
+        "emergency IND",
+        "named-patient supply",
+        "named patient programme",
+        "Project Facilitate",
+        "early access programme",
+        "pre-approval access"
+      ],
+      "tldr": "Expanded access permits qualifying treatment use of an investigational drug outside a clinical trial. Supply, physician responsibility and applicable regulatory and ethics requirements still need to be met.",
+      "summary": "United States, federal regulation: drug and biologic expanded access has individual-patient, intermediate-population and widespread-treatment arrangements. Criteria include serious or immediately life-threatening illness, no comparable satisfactory alternative, justified potential benefit and risk, and no interference with clinical development. A new individual-patient IND is different from a protocol under an existing active IND. Supplier agreement and applicable FDA, ethics-review and consent requirements remain separate from manufacture, institutional readiness and scheduling. Access authorization is not evidence that treatment improves outcomes.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Expanded_access",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Expanded_access"
+        },
+        {
+          "label": "FDA: expanded access",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+        },
+        {
+          "label": "FDA Oncology Center of Excellence: Project Facilitate",
+          "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "url": "https://www.fda.gov/media/162793/download"
+        },
+        {
+          "label": "FDA: expanded access information for institutional review boards",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+        },
+        {
+          "label": "FDA: current Form 3926 instructions, including permission to reference another IND",
+          "url": "https://www.fda.gov/media/98627/download"
+        },
+        {
+          "label": "FDA: charging for investigational drugs under an IND, February 2024",
+          "url": "https://www.fda.gov/media/176308/download"
+        },
+        {
+          "label": "FDA: separate industry, physician, IRB and agency responsibilities",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry"
+        },
+        {
+          "label": "21 CFR 312.8: Costs recoverable for investigational drugs (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/312.8"
+        },
+        {
+          "label": "21 CFR 312.310: Individual-patient emergency procedures (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/312.310"
+        },
+        {
+          "label": "21 CFR 56.104: Emergency IRB exception and subsequent use (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/56.104"
+        }
+      ],
+      "tags": [
+        "law",
+        "us"
+      ],
+      "related": [
+        "right-to-try",
+        "abigail-alliance",
+        "clinical-trial",
+        "france-early-access",
+        "eu-regulation-726-2004",
+        "21st-century-cures-act",
+        "accelerated-approval",
+        "off-label",
+        "investigational-new-drug-application",
+        "trial-search-site-verification",
+        "investigator-initiated-trials"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "fda-oce",
+        "ema"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-enrolment",
+        "b-global-access"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For non-emergency individual-patient use, a new IND ordinarily becomes effective 30 calendar days after FDA receipt unless held or FDA permits earlier use. An individual-patient protocol under an existing active IND has no automatic 30-day wait, but must be submitted and have applicable IRB approval and consent. Widespread-use treatment protocols have different start rules.",
+        "Emergency individual-patient use can receive prior FDA authorisation by telephone or other rapid communication, allowing use to begin before the written expanded-access submission. That submission is due within 15 working days of FDA authorisation. When the emergency exception to prospective IRB review applies, report the emergency use to the IRB within 5 working days of use. Any later use of the test article at that institution requires IRB review. These are separate events and units; the exception is not continuing permission or a promised treatment date.",
+        "A licensed physician acting as sponsor-investigator can use Form FDA 3926 for an individual-patient expanded-access IND. Form FDA 1571 remains an option. The streamlined individual-patient form is not a marketing application or a universal form for every access category.",
+        "When an application references another sponsor’s IND, a letter of authorization permits FDA to reference specified product information. That permission does not itself authorize treatment or guarantee drug supply. If such a letter is unavailable, the FDA review division can advise which other information may satisfy the applicable requirements.",
+        "For an unapproved investigational drug supplied under an IND, the IND sponsor needs separate prior written FDA authorization to charge for the drug. Recoverable costs and other conditions differ between clinical trials and expanded access. Treatment authorization does not itself authorize charging, and permission to recover drug costs does not decide insurer payment or the total cost of clinical care.",
+        "A reported FDA authorization rate needs its stated submitted-request denominator, period and request categories. It does not measure the fraction of everyone seeking the drug who obtains manufacturer supply, meets every requirement or actually receives treatment. An application authorization is not a personal probability of access or benefit.",
+        "For individual-patient expanded access, authorised drug-cost recovery is limited to direct costs attributable specifically to supplying the drug for that authorised investigational use. Examples include per-unit manufacture or acquisition, shipping and storage. Commercial-scale facilities and equipment, and research, administrative or labour expenses that would occur anyway, are indirect costs excluded by 21 CFR 312.8(d)(1). This concerns the sponsor's authorised drug charge, not every bill for clinical care.",
+        "For intermediate-size populations and treatment INDs or protocols under 21 CFR 312.315 and 312.320, the regulation additionally permits specified monitoring, IND reporting and directly associated administrative costs. Those additional categories do not apply automatically to an individual-patient arrangement. FDA authorisation of the treatment and prior written permission to charge remain separate."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "right-to-try",
+      "kind": "term",
+      "name": "Right to Try Act 2018 and state right-to-try laws",
+      "aka": [
+        "Right to Try",
+        "Right to Try Act",
+        "right-to-try",
+        "right-to-try law",
+        "right-to-try laws",
+        "state right-to-try",
+        "Trickett Wendler, Frank Mongiello, Jordan McLinn, and Matthew Bellina Right to Try Act"
+      ],
+      "tldr": "Federal Right to Try has specific patient and investigational-drug criteria. Meeting them does not require a supplier to provide the drug or establish that it will help.",
+      "summary": "United States, federal statute. Patient requirements include life-threatening illness, exhausted approved options, inability to join a trial involving the eligible drug, physician certification and written informed consent. Drug requirements include completed phase 1 testing, no FDA approval for any use, a qualifying marketing application or effectiveness investigation under an active IND, ongoing development or production and no clinical hold. The federal route does not require individual FDA or IRB request review. Reporting and consent duties remain, and supply is voluntary.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Right-to-try_law",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Right-to-try_law"
+        },
+        {
+          "label": "Congress.gov: S.204, Right to Try Act (Public Law 115-176)",
+          "url": "https://www.congress.gov/bill/115th-congress/senate-bill/204"
+        },
+        {
+          "label": "FDA: federal Right to Try criteria and responsibilities",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try"
+        }
+      ],
+      "tags": [
+        "law",
+        "us"
+      ],
+      "related": [
+        "expanded-access",
+        "abigail-alliance",
+        "clinical-trial",
+        "accelerated-approval",
+        "fdca",
+        "21st-century-cures-act",
+        "investigational-new-drug-application",
+        "off-label",
+        "trial-search-site-verification"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "fda-oce"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-enrolment",
+        "b-patient-voice"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Completing phase 1 or having an IND number alone is not the complete product-eligibility test. Federal Right to Try, expanded access and off-label use have distinct requirements. The federal criteria do not settle state law, institutional availability, payment or an individual treatment decision."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "eu-regulation-726-2004",
+      "kind": "term",
+      "name": "Regulation (EC) No 726/2004: the EU centralised procedure",
+      "aka": [
+        "Regulation 726/2004",
+        "centralised procedure",
+        "centralised marketing authorisation",
+        "Community marketing authorisation",
+        "EU marketing authorisation",
+        "CHMP opinion",
+        "Article 83 compassionate use",
+        "PRIME scheme"
+      ],
+      "tldr": "The 2004 EU regulation under which every new cancer medicine is assessed once by the European Medicines Agency and authorised for all member states by the European Commission, and which also carries the rules for conditional authorisation and compassionate use.",
+      "summary": "European Union, regulation. Regulation (EC) No 726/2004 of 31 March 2004 lays down Union procedures for the authorisation and supervision of medicines and establishes the European Medicines Agency, replacing Regulation (EEC) No 2309/93 which had created the agency in 1995. Its Annex makes the centralised procedure compulsory for medicines for cancer, for biotechnology products and for orphan and advanced therapy medicines. Primary text: EUR-Lex.\n\nHow it works: the Committee for Medicinal Products for Human Use (CHMP) assesses the application within 210 active days, with clock stops for questions, and the European Commission issues a decision valid in all member states, plus Iceland, Liechtenstein and Norway, within about 67 days. Article 14-a (formerly Article 14(7)) and Regulation (EC) No 507/2006 provide for conditional marketing authorisation on less complete data for unmet needs, renewed yearly; Article 14(8) allows authorisation under exceptional circumstances; and Article 83 lets member states run compassionate use programmes for medicines under assessment. The EMA's PRIME scheme (2016) for priority medicines is an agency initiative built on the accelerated assessment provision (150 days).\n\nWhat it changed and the arguments: one assessment instead of up to 27 gave cancer medicines simultaneous legal availability across Europe, though pricing and reimbursement stay national and delay actual access by one to two years. The 2023 pharmaceutical package proposes to replace this regulation, shorten assessment to 180 days and reform the committee structure. The centralised procedure is the model that the UK's international recognition route and Project Orbis both reference.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "EUR-Lex: Regulation (EC) No 726/2004",
+          "url": "https://eur-lex.europa.eu/eli/reg/2004/726/oj"
+        },
+        {
+          "label": "EMA: conditional marketing authorisation",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/conditional-marketing-authorisation"
+        },
+        {
+          "label": "EMA: PRIME development support and eligibility",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/prime-priority-medicines"
+        },
+        {
+          "label": "EMA: EU marketing-authorisation assessment and Commission decision",
+          "url": "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step"
+        }
+      ],
+      "tags": [
+        "law",
+        "eu"
+      ],
+      "related": [
+        "conditional-approval",
+        "regulatory-agencies",
+        "bla-nda",
+        "eu-orphan-regulation",
+        "eu-paediatric-regulation",
+        "eu-pharma-package",
+        "expanded-access",
+        "eu-data-exclusivity",
+        "eu-hta-regulation",
+        "project-orbis",
+        "fast-track-rmat"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "ema"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-regulatory-fragmentation"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "EMA's PRIME scheme provides early development support for eligible medicines targeting unmet needs. Participation is separate from a marketing-authorisation decision. In the centralised procedure, EMA evaluates the application and the European Commission makes the authorization decision; the FDA's Fast Track and RMAT names describe different U.S. programs."
+      ],
+      "category": "Regulation & policy",
+      "wikipediaChecked": "2026-09-22"
+    },
+    {
+      "id": "dako-pd-l1-22c3-pharmdx",
+      "kind": "drug",
+      "name": "PD-L1 IHC 22C3 pharmDx",
+      "aka": [],
+      "tldr": "PD-L1 IHC 22C3 pharmDx is an assay whose scoring and cutoff depend on the medicine, disease and regimen. Valid esophageal uses include both CPS 1 and CPS 10 under different pembrolizumab treatment conditions.",
+      "summary": "FDA lists multiple tissue- and treatment-specific intended uses for the 22C3 PD-L1 assay. TPS and CPS are different scores. Even within one cancer family, one generic cutoff loses important conditions.\n\nFor locally advanced or metastatic esophageal or GEJ carcinoma with a tumour epicenter 1 to 5 centimeters above the junction not amenable to surgical resection or definitive chemoradiation, the current U.S. KEYTRUDA label uses CPS at least 1 with platinum- and fluoropyrimidine-based chemotherapy. Its single-agent use after one or more prior systemic lines is restricted to squamous histology with CPS at least 10. The FDA diagnostic listing retains the esophageal/GEJ CPS 1 authorization P150013/S032 and the ESCC CPS 10 authorization P150013/S016. Both are valid scoped uses, not contradictory generic thresholds.\n\nOther tissue, medicine and regimen combinations have their own intended uses. A result described as positive without the score type, assay, disease and treatment context is incomplete.",
+      "status": "approved",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "FDA PMA P150013",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013"
+        },
+        {
+          "label": "Agilent: PD-L1 IHC 22C3 pharmDx",
+          "url": "https://www.agilent.com/en/product/pharmdx/pd-l1-ihc-22c3-pharmdx"
+        },
+        {
+          "label": "FDA: current diagnostic intended uses, including both esophageal rows",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "FDA authorization P150013/S016: ESCC CPS 10 intended use",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S016"
+        },
+        {
+          "label": "FDA authorization P150013/S032: expanded esophageal/GEJ intended use",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S032"
+        },
+        {
+          "label": "Current U.S. KEYTRUDA label, section 1.11: separate combination and single-agent uses",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        }
+      ],
+      "tags": [
+        "test"
+      ],
+      "related": [],
+      "cancers": [
+        "nsclc",
+        "gastric",
+        "cervical",
+        "head-and-neck",
+        "esophageal",
+        "tnbc",
+        "tnbc-metastatic"
+      ],
+      "sections": [],
+      "technologies": [
+        "companion-diagnostic",
+        "histopathology-ihc"
+      ],
+      "targets": [
+        "pdl1"
+      ],
+      "drugs": [
+        "pembrolizumab"
+      ],
+      "companies": [
+        "agilent"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "pd-l1-testing",
+        "cps",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-rugo-pd-l1-assay-comparison-impassion130-jnci-2021",
+        "paper-sigurjonsdottir-sp142-22c3-tnbc-bcr-2023"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The current therapeutic label and the diagnostic intended use must be read together. An assay authorization does not itself establish that an individual meets the treatment indication; the same stain or numerical score is not interchangeable across every medicine, regimen or disease."
+      ],
+      "brand": "PD-L1 IHC 22C3 pharmDx",
+      "modality": "PD-L1 immunohistochemistry companion diagnostic assay",
+      "mechanism": "Mouse monoclonal antibody 22C3 on the Dako Autostainer Link 48, reported as tumour proportion score (TPS) in lung cancer or combined positive score (CPS, tumour plus immune cells relative to tumour cells) in other cancers.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2015,
+          "indication": "Companion diagnostic for pembrolizumab in NSCLC (TPS)"
+        },
+        {
+          "region": "US",
+          "year": 2017,
+          "indication": "Gastric / GEJ adenocarcinoma, CPS ≥1"
+        },
+        {
+          "region": "US",
+          "year": 2019,
+          "indication": "Head and neck squamous cell carcinoma (CPS ≥1) and oesophageal squamous cell carcinoma (CPS ≥10)"
+        },
+        {
+          "region": "US",
+          "year": 2020,
+          "indication": "Triple-negative breast cancer, CPS ≥10 (pembrolizumab plus chemotherapy)"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    },
+    {
+      "id": "prosigna",
+      "kind": "drug",
+      "name": "Prosigna (PAM50)",
+      "aka": [],
+      "tldr": "Prosigna is a tissue RNA test that estimates risk of distant breast-cancer recurrence in a defined clinical setting. A risk estimate is different from a direct prediction of chemotherapy benefit.",
+      "summary": "Prosigna is a commercial gene-expression assay with product-specific specimen, reporting and intended-use rules. The FDA K130010 record documents a substantial-equivalence clearance dated 6 September 2013. Its decision summary describes risk-category/score reporting from FFPE invasive breast-cancer tissue, used with clinicopathological factors.\n\nThat 2013 U.S. intended use concerns ten-year distant recurrence-free prognosis in postmenopausal women with HR-positive disease after surgery and appropriate locoregional care, with endocrine therapy alone: node-negative stage I or II, or one to three positive nodes at stage II. It excludes four or more positive nodes and does not authorise diagnosis, response detection or selection of an optimal therapy. This dated clearance is distinct from every later product version or jurisdiction.\n\nNICE HTG719 describes a CE-marked implementation and gives separate NHS recommendations. It permits Prosigna within its intended purpose for postmenopausal women with ER- or PR-positive, HER2-negative early disease, alongside clinical risk and shared decisions. Node-positive and node-negative recommendations have different conditions. A regulatory intended use, a guideline recommendation and an individual treatment decision are separate.",
+      "status": "established",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "FDA 510(k) K130010",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130010"
+        },
+        {
+          "label": "NICE DG34: tumour profiling tests for breast cancer",
+          "url": "https://www.nice.org.uk/guidance/dg34"
+        },
+        {
+          "label": "FDA openFDA: exact K130010 device identity and clearance date",
+          "url": "https://api.fda.gov/device/510k.json?search=k_number%3A%22K130010%22"
+        },
+        {
+          "label": "FDA K130010 decision summary: dated intended use and risk reporting",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf"
+        },
+        {
+          "label": "NICE HTG719: current recommendations and conditions",
+          "url": "https://www.nice.org.uk/guidance/htg719/chapter/1-Recommendations"
+        },
+        {
+          "label": "NICE HTG719: test descriptions and CE-marked implementation",
+          "url": "https://www.nice.org.uk/guidance/htg719/chapter/2-The-diagnostic-tests"
+        },
+        {
+          "label": "Lehmann 2011: original expression profiles and cell-model experiments",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21633166/"
+        },
+        {
+          "label": "Lehmann 2016: tissue attribution and TNBCtype-4 refinement",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27310713/"
+        },
+        {
+          "label": "Chen 2012: TNBCtype input and reported correlation/permutation statistics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22872785/"
+        }
+      ],
+      "tags": [
+        "test"
+      ],
+      "related": [
+        "oncotype-dx",
+        "mammaprint",
+        "endopredict"
+      ],
+      "cancers": [
+        "breast-hr-positive"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "veracyte"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "biomarker",
+        "rna",
+        "pam50"
+      ],
+      "trials": [
+        "nct02653755"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A low score describes prognosis under its model and population; it does not by itself measure the additional benefit of chemotherapy. A high score does not automatically prescribe treatment. Consider all relevant clinical factors and the applicable evidence.",
+        "NICE HTG719 recommendation 1.1 covers specified postmenopausal node-positive disease. Its node-negative/micrometastatic recommendation 1.4 includes intermediate clinical risk and evidence-generation/data conditions. The intended-purpose, access-proposal, quality-assurance and shared-decision requirements in 1.6-1.7 also apply.",
+        "The European implementation described by NICE can report subtype information and has different product-purpose details from the 2013 U.S. clearance. Do not transfer an overseas report format, risk cutoff or population into another authorisation. The linked NICE source does not establish an original CE-marking year."
+      ],
+      "brand": "Prosigna",
+      "modality": "Gene-expression prognostic assay (50-gene PAM50 risk of recurrence)",
+      "mechanism": "Digital RNA counting by hybridisation on the nCounter Dx system uses 50 classifier genes and housekeeping/control measurements. A product-specific algorithm combines expression and clinical information for its reported recurrence-risk output. This is not RNA sequencing, and reported outputs depend on the product version and jurisdiction.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2013,
+          "indication": "510(k) K130010 clearance: specified postmenopausal HR-positive, stage I/II node-negative or stage II with 1-3 positive nodes, ten-year distant-recurrence prognosis with endocrine therapy alone; see the dated intended-use restrictions"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    }
+  ]
+}

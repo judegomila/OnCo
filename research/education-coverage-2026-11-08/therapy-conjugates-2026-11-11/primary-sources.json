@@ -1,0 +1,1918 @@
+{
+  "checkedOn": "2026-11-11",
+  "publications": [
+    {
+      "sourceId": "pmid:11805306",
+      "pmid": "11805306",
+      "doi": "10.1073/pnas.251664698",
+      "title": "Structural basis of transcription: alpha-amanitin-RNA polymerase II cocrystal at 2.8 A resolution.",
+      "firstAuthor": "Bushnell",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "7693d1e1165e65fed53d18624aefe6bd0e657b4c3cbcb6898087ac2768fbf63c",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:12668651",
+      "pmid": "12668651",
+      "doi": "10.1200/JCO.2003.09.081",
+      "title": "Randomized trial of dose-dense versus conventionally scheduled and sequential versus concurrent combination chemotherapy as postoperative adjuvant treatment of node-positive primary breast cancer: first report of Intergroup Trial C9741/Cancer and Leukemia Group B Trial 9741.",
+      "firstAuthor": "Citron",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12668651/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "eeeeb16fbcd4c0c8b1a982f062ec954dfd69dd42d4165e6be059542068950483",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumIn",
+          "pmid": null,
+          "source": "J Clin Oncol. 2003 Jun 1;21(11):2226"
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "12668653",
+          "source": "J Clin Oncol. 2003 Apr 15;21(8):1425-8. doi: 10.1200/JCO.2003.12.068."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "14966103",
+          "source": "J Clin Oncol. 2004 Feb 15;22(4):749-50; author reply 751-3. doi: 10.1200/JCO.2004.99.114."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "14966104",
+          "source": "J Clin Oncol. 2004 Feb 15;22(4):749; author rpely 751-3. doi: 10.1200/JCO.2004.99.103."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "14966105",
+          "source": "J Clin Oncol. 2004 Feb 15;22(4):750-1; author reply 751-3. doi: 10.1200/JCO.2004.99.130."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:15007088",
+      "pmid": "15007088",
+      "doi": "10.1200/JCO.2004.07.173",
+      "title": "Genetic variants in the UDP-glucuronosyltransferase 1A1 gene predict the risk of severe neutropenia of irinotecan.",
+      "firstAuthor": "Innocenti",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15007088/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "6ba177786300e92697a2a6bd6decdfc045d627555b18e52750f854ae5830297e",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "15007084",
+          "source": "J Clin Oncol. 2004 Apr 15;22(8):1356-9. doi: 10.1200/JCO.2004.01.950."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:16495352",
+      "pmid": "16495352",
+      "doi": "10.1093/toxsci/kfj141",
+      "title": "Molecular characterization and inhibition of amanitin uptake into human hepatocytes.",
+      "firstAuthor": "Letschert",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "0c0320906eb5c04419bee4661ebc1e8ebf7b6313a0260061590f6787fd976240",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:16990856",
+      "pmid": "16990856",
+      "doi": "10.1038/nrc1977",
+      "title": "Topoisomerase I inhibitors: camptothecins and beyond.",
+      "firstAuthor": "Pommier",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16990856/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "70f3ddbfaebce0a8aa00760a562d92007c336bbf763bab1ce764da9a927bef04",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Intramural",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:18381959",
+      "pmid": "18381959",
+      "doi": "10.1158/1078-0432.CCR-07-4465",
+      "title": "Direct visualization of heterogeneous extravascular distribution of trastuzumab in human epidermal growth factor receptor type 2 overexpressing xenografts.",
+      "firstAuthor": "Baker",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18381959/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "15a6a1f9c8fa401e8908b5a8883842abfdb7bef387c5ff25f18438f3e6d009ed",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumIn",
+          "pmid": null,
+          "source": "Clin Cancer Res. 2008 May 1;14(9):2893"
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:18541331",
+      "pmid": "18541331",
+      "doi": "10.1016/j.addr.2008.04.012",
+      "title": "Antibody tumor penetration: transport opposed by systemic and antigen-mediated clearance.",
+      "firstAuthor": "Thurber",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18541331/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "f49b39190ca7efb3523bbc913ef2c347d45b96f9110a14cc96b2146a1cdd7838",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:20534341",
+      "pmid": "20534341",
+      "doi": "10.1016/j.chembiol.2010.04.012",
+      "title": "DNA topoisomerases and their poisoning by anticancer and antibacterial drugs.",
+      "firstAuthor": "Pommier",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20534341/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "27979dd98931d7590e5c6696ab236ec251826096785c73010495e8fa38a3eb3a",
+      "readingDepth": "Abstract plus targeted full-text paragraphs on TOP1/TOP2 cutting complexes and poisoning; not the complete paper.",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Intramural",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:22927417",
+      "pmid": "22927417",
+      "doi": "10.1073/pnas.1205943109",
+      "title": "Putative DNA/RNA helicase Schlafen-11 (SLFN11) sensitizes cancer cells to DNA-damaging agents.",
+      "firstAuthor": "Zoppoli",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "fe51d2547ea34032432f2e0d4e166be5e61f467b5480ed4f1d8c9e95de13ca0e",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:25901683",
+      "pmid": "25901683",
+      "doi": "10.1038/nature14418",
+      "title": "TP53 loss creates therapeutic vulnerability in colorectal cancer.",
+      "firstAuthor": "Liu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "36986064367405924b8d54c5a3a05a7c0b908c6d517d8c476c49d98e81ca10b1",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "25901678",
+          "source": "Nature. 2015 Apr 30;520(7549):626-7. doi: 10.1038/nature14390."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25971675",
+          "source": "Nat Rev Cancer. 2015 Jun;15(6):318-9. doi: 10.1038/nrc3962."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25985938",
+          "source": "Nat Rev Clin Oncol. 2015 Jul;12(7):374. doi: 10.1038/nrclinonc.2015.94."
+        },
+        {
+          "type": "ErratumIn",
+          "pmid": "34433970",
+          "source": "Nature. 2021 Sep;597(7875):E6. doi: 10.1038/s41586-021-03664-3."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:2681557",
+      "pmid": "2681557",
+      "doi": "10.1200/JCO.1989.7.11.1748",
+      "title": "Carboplatin dosage: prospective evaluation of a simple formula based on renal function.",
+      "firstAuthor": "Calvert",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2681557/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "ddc1efae2e8b8c745df16806174d86e8dac3668c8669c688cdc84bb0f9a9d79c",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "7636563",
+          "source": "J Clin Oncol. 1995 Aug;13(8):2147-8. doi: 10.1200/JCO.1995.13.8.2147."
+        },
+        {
+          "type": "ReprintIn",
+          "pmid": "37757592",
+          "source": "J Clin Oncol. 2023 Oct 1;41(28):4453-4454. doi: 10.1200/JCO.22.02768."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:27026201",
+      "pmid": "27026201",
+      "doi": "10.1158/1078-0432.CCR-15-2822",
+      "title": "DS-8201a, A Novel HER2-Targeting ADC with a Novel DNA Topoisomerase I Inhibitor, Demonstrates a Promising Antitumor Efficacy with Differentiation from T-DM1.",
+      "firstAuthor": "Ogitani",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27026201/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "31d4b99af778994ecd72a1f38daf837478ec84f6713af9e88cc32c65d30a08dc",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:27166974",
+      "pmid": "27166974",
+      "doi": "10.1111/cas.12966",
+      "title": "Bystander killing effect of DS-8201a, a novel anti-human epidermal growth factor receptor 2 antibody-drug conjugate, in tumors with human epidermal growth factor receptor 2 heterogeneity.",
+      "firstAuthor": "Ogitani",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "1f22e9a041a9db7d370d7ebe450e508b78f3f15b1175d37428bf86f7e744b1ba",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:27912061",
+      "pmid": "27912061",
+      "doi": "10.1016/j.cell.2016.11.022",
+      "title": "Tumor Interferon Signaling Regulates a Multigenic Resistance Program to Immune Checkpoint Blockade.",
+      "firstAuthor": "Benci",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "c558046bccae5fc1a073c630f59842e2d024d5826fad7740342b894bcbfe7716",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "28002724",
+          "source": "Immunity. 2016 Dec 20;45(6):1181-1183. doi: 10.1016/j.immuni.2016.12.004."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "28718428",
+          "source": "Trends Cancer. 2017 Mar;3(3):161-163. doi: 10.1016/j.trecan.2017.01.004."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:28564564",
+      "pmid": "28564564",
+      "doi": "10.1056/NEJMoa1612645",
+      "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "firstAuthor": "Masuda",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "c253a883c8e31afe231c67ae028554bd84355e4c265c5ea2f71b24646e150e95",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial, Phase III",
+        "Comparative Study",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "28834475",
+          "source": "N Engl J Med. 2017 Aug 24;377(8):791. doi: 10.1056/NEJMc1708487."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "28836422",
+          "source": "N Engl J Med. ;377(8):790-1. doi: 10.1056/NEJMc1708487."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:28677116",
+      "pmid": "28677116",
+      "doi": "10.1002/ijc.30870",
+      "title": "DS-8201a, a new HER2-targeting antibody-drug conjugate incorporating a novel DNA topoisomerase I inhibitor, overcomes HER2-positive gastric cancer T-DM1 resistance.",
+      "firstAuthor": "Takegawa",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28677116/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "e0fd26aab7ea357349e9cf47155d38d8cbdd14d130f04372505d276542dbdede",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:29217763",
+      "pmid": "29217763",
+      "doi": "10.1158/0008-5472.CAN-17-1638",
+      "title": "Improved Tumor Penetration and Single-Cell Targeting of Antibody-Drug Conjugates Increases Anticancer Efficacy and Host Survival.",
+      "firstAuthor": "Cilliers",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29217763/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "729228e25e63ac324fecbf1fe3347d3a0e5e2955c991a05e7f52395ba7f131aa",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:29395061",
+      "pmid": "29395061",
+      "doi": "10.1016/j.molcel.2018.01.012",
+      "title": "SLFN11 Blocks Stressed Replication Forks Independently of ATR.",
+      "firstAuthor": "Murai",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29395061/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "f52af6d340fb3e1ae9cd3f12925a5249aab8dad255ceceff3e4be21e1d124c02",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "29439152",
+          "source": "Cancer Discov. 2018 Apr;8(4):OF9. doi: 10.1158/2159-8290.CD-RW2018-021."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:30553524",
+      "pmid": "30553524",
+      "doi": "10.1016/j.ddtec.2018.08.005",
+      "title": "Amanitins and their development as a payload for antibody-drug conjugates.",
+      "firstAuthor": "Pahl",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30553524/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "1f064f0a1cf97208a5cef9c631205d94a9e520686de613a9bcf6e016ed2b3b79",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:30739743",
+      "pmid": "30739743",
+      "doi": "10.1016/S0140-6736(18)33137-4",
+      "title": "Increasing the dose intensity of chemotherapy by more frequent administration or sequential scheduling: a patient-level meta-analysis of 37 298 women with early breast cancer in 26 randomised trials.",
+      "firstAuthor": "Early Breast Cancer Trialists' Collaborative Group (EBCTCG)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30739743/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "7f8cd984e57aaf3054ed52c5ab1a2014e6d67ed412eb36ecc707991d094f84aa",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Meta-Analysis"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "31741891",
+          "source": "Gland Surg. 2019 Oct;8(5):585-587. doi: 10.21037/gs.2019.08.04."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "32132126",
+          "source": "Evid Based Nurs. 2021 Apr;24(2):62-63. doi: 10.1136/ebnurs-2019-103138."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:30804480",
+      "pmid": "30804480",
+      "doi": "10.1038/s41565-019-0381-6",
+      "title": "Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+      "firstAuthor": "Xu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "7d6d0dea1482b62a7ded17fb62ba1b10b95ed367735b528a0b80f31f3ca03401",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumIn",
+          "pmid": "30837690",
+          "source": "Nat Nanotechnol. 2019 May;14(5):496. doi: 10.1038/s41565-019-0417-y."
+        },
+        {
+          "type": "ErratumIn",
+          "pmid": "31953520",
+          "source": "Nat Nanotechnol. 2020 Apr;15(4):342. doi: 10.1038/s41565-020-0635-3."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:30837690",
+      "pmid": "30837690",
+      "doi": "10.1038/s41565-019-0417-y",
+      "title": "Publisher Correction: Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+      "firstAuthor": "Xu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "d2e66507a062e24cd220922c817c90efb465ec521c0128a2e1769ffd72a165c9",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumFor",
+          "pmid": "30804480",
+          "source": "Nat Nanotechnol. 2019 Apr;14(4):388-397. doi: 10.1038/s41565-019-0381-6."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:31953520",
+      "pmid": "31953520",
+      "doi": "10.1038/s41565-020-0635-3",
+      "title": "Author Correction: Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+      "firstAuthor": "Xu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "f7ea7e8328a755ffb5942f9ba11515d74a3306b506dddc7d966b7551570b7bd6",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumFor",
+          "pmid": "30804480",
+          "source": "Nat Nanotechnol. 2019 Apr;14(4):388-397. doi: 10.1038/s41565-019-0381-6."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:31980465",
+      "pmid": "31980465",
+      "doi": "10.1158/1078-0432.CCR-19-3717",
+      "title": "Predicting Therapeutic Antibody Delivery into Human Head and Neck Cancers.",
+      "firstAuthor": "Lu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31980465/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "b29986e3b97c2256755e1ca0957b390442ef899c088a07e57a84518ea52895b2",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:32101663",
+      "pmid": "32101663",
+      "doi": "10.1056/NEJMoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "firstAuthor": "Schmid",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "3c6f735451cd64628129ec48971089b01fd233117eb0ceffac6e579d89929aca",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial, Phase III",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "32127649",
+          "source": "Nat Rev Clin Oncol. 2020 Apr;17(4):196. doi: 10.1038/s41571-020-0349-3."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "32145769",
+          "source": "Lancet Oncol. 2020 Apr;21(4):e183. doi: 10.1016/S1470-2045(20)30154-6."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "32561940",
+          "source": "Strahlenther Onkol. 2020 Sep;196(9):841-843. doi: 10.1007/s00066-020-01641-9."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "32579834",
+          "source": "N Engl J Med. 2020 Jun 25;382(26):e108. doi: 10.1056/NEJMc2006684."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "36152640",
+          "source": "Int J Radiat Oncol Biol Phys. 2022 Nov 1;114(3):377-381. doi: 10.1016/j.ijrobp.2022.05.024."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:32609548",
+      "pmid": "32609548",
+      "doi": "10.1080/15563650.2020.1784428",
+      "title": "N-acetylcysteine as a treatment for amatoxin poisoning: a systematic review.",
+      "firstAuthor": "Liu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32609548/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "fa92ce8e6d6f2dfa55d3b5fb63117ea202270c52802aa2c4e98675e1bd01be73",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Systematic Review"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "32870070",
+          "source": "Clin Toxicol (Phila). 2021 Jun;59(6):535-536. doi: 10.1080/15563650.2020.1811299."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "32969754",
+          "source": "Clin Toxicol (Phila). 2021 Jun;59(6):534-535. doi: 10.1080/15563650.2020.1807562."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "33245011",
+          "source": "Clin Toxicol (Phila). 2021 Jul;59(7):680-681. doi: 10.1080/15563650.2020.1849717."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "33302727",
+          "source": "Clin Toxicol (Phila). 2021 Jul;59(7):681-682. doi: 10.1080/15563650.2020.1858096."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:33298585",
+      "pmid": "33298585",
+      "doi": "10.1158/1535-7163.MCT-20-0287",
+      "title": "HDP-101, an Anti-BCMA Antibody-Drug Conjugate, Safely Delivers Amanitin to Induce Cell Death in Proliferating and Resting Multiple Myeloma Cells.",
+      "firstAuthor": "Figueroa-Vazquez",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33298585/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "aa75769d90d6f657c01018b28cd4c661ad4072d99e23c30687ac21ffe4e7f381",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:33833439",
+      "pmid": "33833439",
+      "doi": "10.1038/s41577-021-00524-z",
+      "title": "The cGAS-STING pathway as a therapeutic target in inflammatory diseases.",
+      "firstAuthor": "Decout",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33833439/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "0cc2cfa2fcda51d18664de6dfff24633512fff6d4d188ad9d4b8d2253720f0d4",
+      "readingDepth": "Abstract plus targeted review paragraphs on cGAS, cGAMP, STING, cellular DNA context and signalling; not the complete review.",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:34433970",
+      "pmid": "34433970",
+      "doi": "10.1038/s41586-021-03664-3",
+      "title": "Author Correction: TP53 loss creates therapeutic vulnerability in colorectal cancer.",
+      "firstAuthor": "Liu",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "12932b889b62eb503ba2f99d318cca8204232863f88fd8b4270e1a65d3a963ae",
+      "readingDepth": "Correction identity plus the publisher correction text about two replacement images; the original full experimental paper was not read.",
+      "publicationTypes": [
+        "Published Erratum"
+      ],
+      "correctionRelations": [
+        {
+          "type": "ErratumFor",
+          "pmid": "25901683",
+          "source": "Nature. 2015 Apr 30;520(7549):697-701. doi: 10.1038/nature14418."
+        }
+      ],
+      "claimScope": "Not used to establish an unread experimental or clinical claim."
+    },
+    {
+      "sourceId": "pmid:34857660",
+      "pmid": "34857660",
+      "doi": "10.2967/jnumed.121.262940",
+      "title": "Use of 64Cu-DOTA-Trastuzumab PET to Predict Response and Outcome of Patients Receiving Trastuzumab Emtansine for Metastatic Breast Cancer: A Pilot Study.",
+      "firstAuthor": "Mortimer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34857660/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "67758610d959016fc688709244699f2c34d1b36822374538491fb7c0bd07ab79",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:35439320",
+      "pmid": "35439320",
+      "doi": "10.1158/1535-7163.MCT-21-1000",
+      "title": "TOP1-DNA Trapping by Exatecan and Combination Therapy with ATR Inhibitor.",
+      "firstAuthor": "Jo",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "055503b600f113cbd7338b3a90e8b4784eaa68edf894c77f42cdeb8ddf41d869",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Intramural"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:36129967",
+      "pmid": "36129967",
+      "doi": "10.1158/2326-6066.CIR-21-0722",
+      "title": "Preclinical Characterization and Phase I Study of an Anti-HER2-TLR7 Immune-Stimulator Antibody Conjugate in Patients with HER2+ Malignancies.",
+      "firstAuthor": "Janku",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "e46f90c47f114167142e12a51a03323be2b20e5b4ca09f7bf1787f8f42ca54c9",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial, Phase I",
+        "Multicenter Study",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:36693125",
+      "pmid": "36693125",
+      "doi": "10.1158/2159-8290.CD-22-1368",
+      "title": "Antibody-Exatecan Conjugates with a Novel Self-immolative Moiety Overcome Resistance in Colon and Lung Cancer.",
+      "firstAuthor": "Weng",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "0a4884f067aa11d1ba472a03db0ee873383f1ef8e533894af5bb991ba0524645",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "37009702",
+          "source": "Cancer Discov. 2023 Apr 3;13(4):817-818. doi: 10.1158/2159-8290.CD-23-0091."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:38260385",
+      "pmid": "38260385",
+      "doi": "10.21203/rs.3.rs-3843028/v1",
+      "title": "Novel Anti-B-cell Maturation Antigen Alpha-Amanitin Antibody-drug Conjugate HDP-101 Shows Superior Activity to Belantamab Mafodotin and Enhanced Efficacy in Deletion 17p Myeloma Models.",
+      "firstAuthor": "Singh",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38260385/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "421df0c7d5a15b4b203e655e51c4d5da1c7ca682c80a35ab67483133bc43ccfb",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Preprint",
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:39235949",
+      "pmid": "39235949",
+      "doi": "10.1021/acs.jmedchem.4c00804",
+      "title": "Discovery and Evaluation of TLR-Targeted Immune Agonists.",
+      "firstAuthor": "Chernyak",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "0e71cc1724b39215d967f960041a9e685e873948899e98e33fbe92307fd1bfe4",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:39449023",
+      "pmid": "39449023",
+      "doi": "10.1186/s12964-024-01893-3",
+      "title": "Immunomodulatory effects of trastuzumab deruxtecan through the cGAS-STING pathway in gastric cancer cells.",
+      "firstAuthor": "Oh",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "18bddc8971d6be1a4257f0a0e795e865f3a950870a39b1b36a47824d009e3b9f",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:39564769",
+      "pmid": "39564769",
+      "doi": "10.1158/1535-7163.MCT-24-0266",
+      "title": "Novel Amanitin-Based Antibody-Drug Conjugates Targeting TROP2 for the Treatment of Pancreatic Cancer.",
+      "firstAuthor": "Papacharisi",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39564769/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "6e591fc7f2b8eaf430c05eecb6720b0de337414971c106ed500d5f2f72a2972f",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:39745368",
+      "pmid": "39745368",
+      "doi": "10.1158/1078-0432.CCR-24-2771",
+      "title": "TOP1 Mutations and Cross-Resistance to Antibody-Drug Conjugates in Patients with Metastatic Breast Cancer.",
+      "firstAuthor": "Abelman",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "e7d16189ce2c304ecc47c2bc3f77e89e5049a403b1a2a19e7f15b43099dd9e2e",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:39918395",
+      "pmid": "39918395",
+      "doi": "10.1158/2326-6066.CIR-24-0103",
+      "title": "Selective STING Activation in Intratumoral Myeloid Cells via CCR2-Directed Antibody-Drug Conjugate TAK-500.",
+      "firstAuthor": "Appleman",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39918395/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "26f3813cb4d6e5e4736c5e491c36cc0abcbf9de43e9f1b4eb18e8b94ef04a753",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:40029253",
+      "pmid": "40029253",
+      "doi": "10.1158/1078-0432.CCR-24-2449",
+      "title": "XMT-2056, a HER2-Directed STING Agonist Antibody-Drug Conjugate, Induces Innate Antitumor Immune Responses by Acting on Cancer Cells and Tumor-Resident Immune Cells.",
+      "firstAuthor": "Bukhalid",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40029253/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "747eabe22a8566f82db1b645fc34d3a18a70df2c0183a0a9a111f980c9c91976",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:40145387",
+      "pmid": "40145387",
+      "doi": "10.1002/advs.202500296",
+      "title": "STING Agonists and How to Reach Their Full Potential in Cancer Immunotherapy.",
+      "firstAuthor": "Gehrcken",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40145387/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "f9e607a28d7972703600db48e4ccab0863af61219c312b5c02770cb6463b5c18",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41121984",
+      "pmid": "41121984",
+      "doi": "10.1158/1535-7163.MCT-25-0271",
+      "title": "A Novel Dual-Payload ADC Platform Integrating Exatecan and Triptolide to Enhance Antitumor Efficacy and Overcome Resistance.",
+      "firstAuthor": "Ren",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41121984/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "a97ea2afacfd039e5a5b1f1626da7b94289ac133f596457fdeb652575d57b228",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41143331",
+      "pmid": "41143331",
+      "doi": "10.1021/acs.bioconjchem.5c00424",
+      "title": "Identification of a Novel Linker Enabling the Bioconjugation of a Cyclic Dinucleotide for the STING Antibody-Drug Conjugate TAK-500.",
+      "firstAuthor": "Lee",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41143331/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "c65417dc4099b2f475c34f6a59e584ae3e45aa88c952d4832d6dc0b0f497eb87",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41414896",
+      "pmid": "41414896",
+      "doi": "10.1021/acs.jmedchem.5c02706",
+      "title": "Discovery and Preclinical Evaluation of PBX-7016, a Methylenedioxy-Camptothecin Payload for Antibody-Drug Conjugates with Enhanced Therapeutic Potential.",
+      "firstAuthor": "Chun",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41414896/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "53ab533da84d66d8660c1b73436776738045d1cde80786e0bd15c939702f394e",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41548044",
+      "pmid": "41548044",
+      "doi": "10.1111/cas.70319",
+      "title": "Therapeutic Strategies to Overcome Payload Resistance of Trastuzumab Deruxtecan in HER2-Positive Cancers.",
+      "firstAuthor": "Murase",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41548044/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "7dc51fb58375d17e178e8183be46ecea4b7c38110f1c3ae1564b14fb42e53882",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41591991",
+      "pmid": "41591991",
+      "doi": "10.1158/1078-0432.CCR-25-3321",
+      "title": "Payload Diversification Overcomes Resistance and Guides Sequential Antibody-Drug Conjugate Therapy in Breast Cancer.",
+      "firstAuthor": "Rampa",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "8278fe118631c4f981064e3ad6385df3ee7f5ebc804624f5708ee02dc4179da6",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41888610",
+      "pmid": "41888610",
+      "doi": "10.1111/cts.70522",
+      "title": "Population-Based Modeling to Predict Human PK/PD of TAK-500, an Anti-CCR2 Antibody-Drug Conjugate for First-in-Human Study in Cancer Patients.",
+      "firstAuthor": "Saravanakumar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41888610/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "bc756ec72520020579ea9fcf5a218012674b24460f46c20cc8a4802f94c6e4ba",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Clinical Trial, Phase I",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:41984934",
+      "pmid": "41984934",
+      "doi": "10.1126/scitranslmed.aeh3593",
+      "title": "Retraction of the Research Article \"Targeted immunotherapy for HER2-low breast cancer with 17p loss\".",
+      "firstAuthor": "Vinson",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "f01361aad9a4b560a6d5197d1a0f58492fc3015ad02d2e7a927c862ce78b4950",
+      "readingDepth": "Identity and correction/retraction metadata only; no abstract available",
+      "publicationTypes": [
+        "Journal Article",
+        "Retraction Notice"
+      ],
+      "correctionRelations": [
+        {
+          "type": "RetractionOf",
+          "pmid": "33568521",
+          "source": "Sci Transl Med. 2021 Feb 10;13(580):eabc6894. doi: 10.1126/scitranslmed.abc6894."
+        }
+      ],
+      "claimScope": "Retraction status only; the retracted work contributes no scientific support."
+    },
+    {
+      "sourceId": "pmid:423966",
+      "pmid": "423966",
+      "doi": "10.1038/277665a0",
+      "title": "Promotion of microtubule assembly in vitro by taxol.",
+      "firstAuthor": "Schiff",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/423966/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "037cbaba09942a9eb96e82dd77295b0a9cabb0390c323b4040e845c5b350625d",
+      "readingDepth": "Identity and correction/retraction metadata only; no abstract available",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "correctionRelations": [],
+      "claimScope": "Not used to establish an unread experimental or clinical claim."
+    },
+    {
+      "sourceId": "pmid:42414292",
+      "pmid": "42414292",
+      "doi": "10.1038/s41467-026-74720-7",
+      "title": "Retraction Note: Heterozygous deletion of chromosome 17p renders prostate cancer vulnerable to inhibition of RNA polymerase II.",
+      "firstAuthor": "Li",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "6a3d43ad214307451e9a09676de85ce7b4a7cf1647b8325d7bfff83ace8db243",
+      "readingDepth": "Identity and correction/retraction metadata only; no abstract available",
+      "publicationTypes": [
+        "Journal Article",
+        "Retraction Notice"
+      ],
+      "correctionRelations": [
+        {
+          "type": "RetractionOf",
+          "pmid": "30349055",
+          "source": "Nat Commun. 2018 Oct 22;9(1):4394. doi: 10.1038/s41467-018-06811-z."
+        }
+      ],
+      "claimScope": "Retraction status only; the retracted work contributes no scientific support."
+    },
+    {
+      "sourceId": "pmid:6093249",
+      "pmid": "6093249",
+      "doi": "10.1126/science.6093249",
+      "title": "Adriamycin-induced DNA damage mediated by mammalian DNA topoisomerase II.",
+      "firstAuthor": "Tewey",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/",
+      "rawMetadataSha256": "d2cd400d1512d6f9e36eb8741abade13a555931e6897637584282ee4aedaea6d",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "3ff8245b527ede4786a8555dd3f7d953efdd3f45050413d4caae1b596ecffbed",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:475846",
+      "pmid": "475846",
+      "doi": "10.1016/0006-2952(79)90222-3",
+      "title": "Cyclophosphamide cystitis--identification of acrolein as the causative agent.",
+      "firstAuthor": "Cox",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/475846/",
+      "rawMetadataSha256": "9f6b47f2b213cdbdf22a7c54e93606266a66dd7760b28b7f6bdca568e1733ef3",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "8cf07ad3b3c86ed146c994d218eb230307b86898dabc2f5172d21e2be2a8d5ae",
+      "readingDepth": "Identity and correction/retraction metadata only; no abstract available",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Not used to establish an unread experimental or clinical claim."
+    },
+    {
+      "sourceId": "pmid:10101191",
+      "pmid": "10101191",
+      "doi": "10.1093/nar/27.8.1837",
+      "title": "Crystal structure of a double-stranded DNA containing a cisplatin interstrand cross-link at 1.63 A resolution: hydration at the platinated site.",
+      "firstAuthor": "Coste",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10101191/",
+      "rawMetadataSha256": "9f6b47f2b213cdbdf22a7c54e93606266a66dd7760b28b7f6bdca568e1733ef3",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "fd4ac66d1f42c54cf1127d4d0de616034971b34eac6fad5e3e5a27f5ee79b3a7",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:27894788",
+      "pmid": "27894788",
+      "doi": "10.1016/j.expneurol.2016.11.015",
+      "title": "Neurotoxic mechanisms of paclitaxel are local to the distal axon and independent of transport defects.",
+      "firstAuthor": "Gornstein",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27894788/",
+      "rawMetadataSha256": "9f6b47f2b213cdbdf22a7c54e93606266a66dd7760b28b7f6bdca568e1733ef3",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "2180aa8b136882b81ffe35fc2d99786131122c0ec21a9c7b9404489c010e3087",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:8525382",
+      "pmid": "8525382",
+      "doi": "10.1126/science.270.5243.1842",
+      "title": "Solution structure of a cisplatin-induced DNA interstrand cross-link.",
+      "firstAuthor": "Huang",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8525382/",
+      "rawMetadataSha256": "9f6b47f2b213cdbdf22a7c54e93606266a66dd7760b28b7f6bdca568e1733ef3",
+      "identifierRegistry": "Crossref",
+      "registrySha256": "24c43135a34fffbdfe40143f628bef228cf489cd2937ec7c51d1c0f9fdcbb64e",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:14976262",
+      "pmid": "14976262",
+      "doi": "10.1126/science.1093620",
+      "title": "Species-specific recognition of single-stranded RNA via toll-like receptor 7 and 8.",
+      "firstAuthor": "Heil",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14976262/",
+      "rawMetadataSha256": "a1d9ec9fb52e25c8fa0ec145a5d356fa43e62f198f5cb6b695a2ce5fb6072a47",
+      "identifierRegistry": "Europe PMC",
+      "registrySha256": "af914fa35ac479c4db13146b683ef7a4d36bd3419c3ea37e54f390a1d01332f6",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "15001768",
+          "source": "Science. 2004 Mar 5;303(5663):1481-2. doi: 10.1126/science.1096113."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:31857431",
+      "pmid": "31857431",
+      "doi": "10.1158/1078-0432.CCR-19-3470",
+      "title": "Phase I Clinical Trial of the Wee1 Inhibitor Adavosertib (AZD1775) with Irinotecan in Children with Relapsed Solid Tumors: A COG Phase I Consortium Report (ADVL1312).",
+      "firstAuthor": "Cole",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31857431/",
+      "rawMetadataSha256": "bf7e37de951c1df112a37e77cb868e7e4e84ee6d4d2f95b4740f54d62274b34d",
+      "identifierRegistry": "Europe PMC",
+      "registrySha256": "af914fa35ac479c4db13146b683ef7a4d36bd3419c3ea37e54f390a1d01332f6",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial, Phase I",
+        "Journal Article",
+        "Multicenter Study",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:25738668",
+      "pmid": "25738668",
+      "doi": "10.1056/NEJMoa1413204",
+      "title": "Goserelin for ovarian protection during breast-cancer adjuvant chemotherapy.",
+      "firstAuthor": "Moore",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25738668/",
+      "rawMetadataSha256": "780cc25a21f5d879be7e1276d180cfde34fd5b57409d91bb1d1ca96c367fbc94",
+      "identifierRegistry": "Europe PMC",
+      "registrySha256": "af914fa35ac479c4db13146b683ef7a4d36bd3419c3ea37e54f390a1d01332f6",
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Clinical Trial, Phase III",
+        "Comparative Study",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "correctionRelations": [
+        {
+          "type": "CommentIn",
+          "pmid": "25752307",
+          "source": "BMJ. 2015 Mar 08;350:h1274. doi: 10.1136/bmj.h1274."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "25801817",
+          "source": "Nat Rev Clin Oncol. 2015 May;12(5):252. doi: 10.1038/nrclinonc.2015.55."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "26039609",
+          "source": "N Engl J Med. 2015 Jun 4;372(23):2269-70. doi: 10.1056/NEJMc1504241."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "26039610",
+          "source": "N Engl J Med. 2015 Jun 4;372(23):2268. doi: 10.1056/NEJMc1504241."
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "26039611",
+          "source": "N Engl J Med. 2015 Jun 4;372(23):2268-9. doi: 10.1056/NEJMc1504241."
+        }
+      ],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:231445",
+      "pmid": "231445",
+      "doi": "10.1016/0006-2952(79)90390-3",
+      "title": "Cyclophosphamide cystitis. Studies aimed at its minimization.",
+      "firstAuthor": "Cox",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/231445/",
+      "rawMetadataSha256": "edd27c3bf3673ba259b52b1fc0e6897c1037fe9472afa31d80cff6a73c0e2aab",
+      "identifierRegistry": "Europe PMC",
+      "registrySha256": "af914fa35ac479c4db13146b683ef7a4d36bd3419c3ea37e54f390a1d01332f6",
+      "readingDepth": "Identity and correction/retraction metadata only; no abstract available",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Not used to establish an unread experimental or clinical claim."
+    },
+    {
+      "sourceId": "pmid:114192",
+      "pmid": "114192",
+      "doi": null,
+      "title": "Acrolein, the causative factor of urotoxic side-effects of cyclophosphamide, ifosfamide, trofosfamide and sufosfamide.",
+      "firstAuthor": "Brock",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/114192/",
+      "rawMetadataSha256": "edd27c3bf3673ba259b52b1fc0e6897c1037fe9472afa31d80cff6a73c0e2aab",
+      "identifierRegistry": "PubMed identifier record; no DOI supplied",
+      "registrySha256": null,
+      "readingDepth": "Complete raw PubMed abstract read",
+      "publicationTypes": [
+        "Journal Article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Abstract-level evidence does not certify full methods, subgroup detail, clinical applicability or absence of other evidence."
+    },
+    {
+      "sourceId": "pmid:13304213",
+      "pmid": "13304213",
+      "doi": "10.1038/bjc.1955.55",
+      "title": "The Histological Structure of Some Human Lung Cancers and the Possible Implications for Radiotherapy",
+      "firstAuthor": "Thomlinson",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13304213/",
+      "rawMetadataSha256": "558051aee2f13565b2ab5bbab5fb9309ecad2dbfcca1929764388a423c3f536d",
+      "identifierRegistry": "Europe PMC article header and full text; preserved capture re-hashed",
+      "registrySha256": "558051aee2f13565b2ab5bbab5fb9309ecad2dbfcca1929764388a423c3f536d",
+      "readingDepth": "Abstract and the full OCR article body read in two contiguous spans; original PDF figures were not independently inspected.",
+      "publicationTypes": [
+        "Research article"
+      ],
+      "correctionRelations": [],
+      "claimScope": "Selected human lung-carcinoma histology and model assumptions, not an antibody transport rule."
+    }
+  ],
+  "labels": [
+    {
+      "sourceId": "label:paclitaxel-albumin",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/15ca4829-8fee-45f9-b4bc-b31c15732cd6.xml",
+      "setId": "15ca4829-8fee-45f9-b4bc-b31c15732cd6",
+      "splVersion": "6",
+      "effectiveDate": "20250611",
+      "sha256": "41eed9d17e2850f087e4bf26f986b1b8d204f694f1415633fb56fab2935e5433",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:eribulin",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/311a12f4-e5b3-4959-ab84-3d0eb6558d13.xml",
+      "setId": "311a12f4-e5b3-4959-ab84-3d0eb6558d13",
+      "splVersion": "3",
+      "effectiveDate": "20261102",
+      "sha256": "d6544affda5af829489ae03e64e97b22282950a91c432b27ddd3181fc9bd724a",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:t-dm1",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/23f3c1f4-0fc8-4804-a9e3-04cf25dd302e.xml",
+      "setId": "23f3c1f4-0fc8-4804-a9e3-04cf25dd302e",
+      "splVersion": "35",
+      "effectiveDate": "20260401",
+      "sha256": "032a562966e0bec01a6d545cbd9d9444e034ee40eda305ace445b368a295d7ab",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:fluorouracil",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b268684b-487f-4716-a2e8-6e6d3e117b14.xml",
+      "setId": "b268684b-487f-4716-a2e8-6e6d3e117b14",
+      "splVersion": "1",
+      "effectiveDate": "20260602",
+      "sha256": "ba14c0f127bda5059cb08051f778711908f4b2576d0c1f9dc57d6a75549b2f94",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:capecitabine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3e7d6317-1439-4976-ae00-6f62619ec3dd.xml",
+      "setId": "3e7d6317-1439-4976-ae00-6f62619ec3dd",
+      "splVersion": "3",
+      "effectiveDate": "20260512",
+      "sha256": "b40deee9ec8db41df7a2c41ad78711fc74e60788c791b5f548609ab38655e170",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:sacituzumab",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/57a597d2-03f0-472e-b148-016d7169169d.xml",
+      "setId": "57a597d2-03f0-472e-b148-016d7169169d",
+      "splVersion": "20",
+      "effectiveDate": "20260624",
+      "sha256": "203ed69f797ee24717646a67c28a6546db63f0a3aecbfffa758fe957388da51d",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:cyclophosphamide-cand",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/5bad5bfc-12c0-46a2-8355-1028f108ecbf.xml",
+      "setId": "5bad5bfc-12c0-46a2-8355-1028f108ecbf",
+      "splVersion": "1",
+      "effectiveDate": "20261015",
+      "sha256": "c32ca806eeac1a6a260767a9be52142259101461e0296135ffa390dc7236e120",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:enhertu",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7e67e73e-ddf4-4e4d-8b50-09d7514910b6.xml",
+      "setId": "7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "splVersion": "28",
+      "effectiveDate": "20260515",
+      "sha256": "2eed5d3cb0ea867219aa50af325a3bc197de6daddf983f57f920ccab6fe34049",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:datroway",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2950227c-6230-4ca4-a135-46e44d9424a0.xml",
+      "setId": "2950227c-6230-4ca4-a135-46e44d9424a0",
+      "splVersion": "18",
+      "effectiveDate": "20260527",
+      "sha256": "ce2e185bc8f496e66f660eb78cdc1b0e991bc3ed7ac006b3dccdb6ae95cb2e3e",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:vincristine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b22e4c8e-dbe1-4d4b-a026-e1812974071c.xml",
+      "setId": "b22e4c8e-dbe1-4d4b-a026-e1812974071c",
+      "splVersion": "16",
+      "effectiveDate": "20260217",
+      "sha256": "3122bdffb98c428b75d3ade89f07f5b11a55263be6b20a3ba7ab2a5bd3664027",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:vinorelbine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/10a70995-e04d-4044-b1dc-c9aa27460397.xml",
+      "setId": "10a70995-e04d-4044-b1dc-c9aa27460397",
+      "splVersion": "10",
+      "effectiveDate": "20240816",
+      "sha256": "54f36aac7fde0fab79092958bf40fee698b323956ab061006ee6ce3ff650581c",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:adcetris",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/3904f8dd-1aef-3490-e48f-bd55f32ed67f.xml",
+      "setId": "3904f8dd-1aef-3490-e48f-bd55f32ed67f",
+      "splVersion": "38",
+      "effectiveDate": "20251111",
+      "sha256": "fc21c1803b4ac4821ba410f460fdbea8325a31157b8b346fe1d57d08147ae615",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:padcev",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b5631d3e-4604-4363-8f20-11dfc5a4a8ed.xml",
+      "setId": "b5631d3e-4604-4363-8f20-11dfc5a4a8ed",
+      "splVersion": "18",
+      "effectiveDate": "20260804",
+      "sha256": "cfee6aa93164da8d42a77189d30e590df63ffc16e6810f99f9560db179477200",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:polivy",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/20a16ab2-f338-4abb-9dcd-254bd949a2bc.xml",
+      "setId": "20a16ab2-f338-4abb-9dcd-254bd949a2bc",
+      "splVersion": "15",
+      "effectiveDate": "20260824",
+      "sha256": "393cf3ede82628d26b3df162a5769638b44188b72f0d5c51e0175ffdd1f62339",
+      "readingDepth": "Mechanism section read; additional product-specific warning, pharmacokinetic or description sections read where used. No full-label reading or complete prescribing-instruction claim.",
+      "scope": "Named product and labelled population; warning layout alone is not a comparative adverse-event rate."
+    },
+    {
+      "sourceId": "label:doxorubicin-2019",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/050467s077lbl.pdf",
+      "sha256": "55be41637e774f9ac008143a42aeebba45dde52be34a79001d5db17096507995",
+      "readingDepth": "Targeted sections 5.1, 5.2, 11 and 12.1 read; dated conventional-product source, not current full instructions."
+    },
+    {
+      "sourceId": "label:cyclophosphamide-2023",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/210735s002lbl.pdf",
+      "sha256": "f3945e218dcbca7521227afc3bf7c8a8d8c9668e8d27f79052c05feca6610a37",
+      "readingDepth": "Dated PDF identity checked; adopted metabolism, urinary and fertility claims independently read in the current SPL."
+    },
+    {
+      "sourceId": "label:abecma",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b90c1fe7-f5cc-464e-958a-af36e9c26d7c",
+      "sha256": "c06486cb8eeeec2b4ad42e2be16b56f0df9b97df4de6aa637ac9aa27eed48a28",
+      "readingDepth": "Targeted lymphodepleting-pretreatment paragraph read. The actual SPL set identifier is recorded in the capture; this source is not a breast-cancer conditioning recommendation."
+    }
+  ],
+  "registries": [
+    {
+      "sourceId": "NCT05514717",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05514717",
+      "sha256": "70a7361abd8db5607bc17de8ba5c9aeafeb337a09f5d91a607f1a06226570157",
+      "status": {
+        "overallStatus": "TERMINATED",
+        "whyStopped": "Development discontinued.",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-06-18",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2026-06",
+        "startDateStruct": {
+          "date": "2023-01-24",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2026-05-22",
+          "type": "ACTUAL"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT05070247",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05070247",
+      "sha256": "bcec33f2ff83fddf6685004e1dd06aa5f309d735fe9cd03d8ea100014be84a2f",
+      "status": {
+        "overallStatus": "TERMINATED",
+        "whyStopped": "Clinical Futility of TAK 500 met. No further development with this compound",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-01-22",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2026-01",
+        "startDateStruct": {
+          "date": "2022-04-14",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2025-01-06",
+          "type": "ACTUAL"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT04278144",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04278144",
+      "sha256": "d24970568695fd1520a41ec6025fcbffa16ccaf29ff899ae23d8a635884552af",
+      "status": {
+        "overallStatus": "TERMINATED",
+        "whyStopped": "Sponsor Decision",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-09-15",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2025-09",
+        "startDateStruct": {
+          "date": "2020-02-24",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2025-02-14",
+          "type": "ACTUAL"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT05954143",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05954143",
+      "sha256": "3b9b6ea1f612ed6cda85ab8f8954c6a6b4322b092703743e9ed330ff659856d2",
+      "status": {
+        "overallStatus": "TERMINATED",
+        "whyStopped": "Sponsor Decision",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-11-20",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2025-08",
+        "startDateStruct": {
+          "date": "2023-11-30",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2024-09-25",
+          "type": "ACTUAL"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT05091528",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT05091528",
+      "sha256": "79ce12bc5bb6c4155293afa385a133e7b5a5d559b80f7f3e4e4debbf684d4e89",
+      "status": {
+        "overallStatus": "TERMINATED",
+        "whyStopped": "Sponsor decision based on strategic re-alignment",
+        "lastUpdatePostDateStruct": {
+          "date": "2022-08-18",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2022-07",
+        "startDateStruct": {
+          "date": "2022-02-08",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2022-07-07",
+          "type": "ACTUAL"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT04460456",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04460456",
+      "sha256": "8da95a243d12819a541a9e666987b4437698d4ffbb6aa07791fd84191ad8063f",
+      "status": {
+        "overallStatus": "UNKNOWN",
+        "whyStopped": null,
+        "lastUpdatePostDateStruct": {
+          "date": "2022-06-30",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2022-06",
+        "startDateStruct": {
+          "date": "2020-07-27",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2022-12",
+          "type": "ESTIMATED"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT04879043",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04879043",
+      "sha256": "94e7162aa25d0ac97f150a028959f61938ab817719ae2989dd2bcc5dd74b0be6",
+      "status": {
+        "overallStatus": "RECRUITING",
+        "whyStopped": null,
+        "lastUpdatePostDateStruct": {
+          "date": "2026-09-17",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2026-09",
+        "startDateStruct": {
+          "date": "2022-02-07",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2028-09",
+          "type": "ESTIMATED"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    },
+    {
+      "sourceId": "NCT07529782",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT07529782",
+      "sha256": "ed58f429174e446ca85d8b86b4f9e13d8c2b85281ecf2ba1bc7d9fe5e474114b",
+      "status": {
+        "overallStatus": "RECRUITING",
+        "whyStopped": null,
+        "lastUpdatePostDateStruct": {
+          "date": "2026-04-14",
+          "type": "ACTUAL"
+        },
+        "statusVerifiedDate": "2026-04",
+        "startDateStruct": {
+          "date": "2026-03-17",
+          "type": "ACTUAL"
+        },
+        "completionDateStruct": {
+          "date": "2026-12-31",
+          "type": "ESTIMATED"
+        }
+      },
+      "readingDepth": "Selected identity, design, enrolment and status fields; no posted efficacy result is inferred."
+    }
+  ],
+  "officialAndCuratedSources": [
+    {
+      "sourceId": "web:nci-alkylating-agent",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/alkylating-agent",
+      "sha256": "fa24ff34f194744d661139c6ab108ca9bfabfcd3450f2e77d374e896427e34cc",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "web:nci-antimetabolite",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/antimetabolite",
+      "sha256": "2a41e336ae7c16afc3407e43758ebffbb605d6154809cc7ce10078455c0f0504",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "web:nci-dose-dense-chemotherapy",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/dose-dense-chemotherapy",
+      "sha256": "cd3fdeb8f617a870a1468b7c4cbcca108468f9a21509068041aa0b4c3bc8399e",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "web:nci-chemotherapy-definition",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/chemotherapy",
+      "sha256": "88c21a5f7b7ac9ce217d9a3d1360aa273f0b38b1e859d98d1eef3b938516bb7e",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "web:nci-anthracycline",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/anthracycline",
+      "sha256": "bad3c43a37869db392c5fb6ffcda1bfe5ec77bfbebf10f318c5c9fb3ab719530",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "web:nci-antitumor-antibiotic",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/antitumor-antibiotic",
+      "sha256": "01e395c3a7fb09ef2dc17a2e34cf545db857e6d539e9473608cc0f669224cea8",
+      "readingDepth": "Complete raw glossary definition read; no linked research paper or whole website is claimed read."
+    },
+    {
+      "sourceId": "uniprot:Q9NYK1",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ATLR7%20AND%20organism_id%3A9606%20AND%20reviewed%3Atrue&format=json&size=3",
+      "sha256": "f24fb22d7e92a065a168271b503124bdeffca77498f9d3e5448d28ba17800ac6",
+      "readingDepth": "Selected curated function, subcellular-location and cellular-context comments read. Embedded publication identifiers were not themselves read."
+    },
+    {
+      "sourceId": "uniprot:Q9NR97",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3ATLR8%20AND%20organism_id%3A9606%20AND%20reviewed%3Atrue&format=json&size=3",
+      "sha256": "b13964e4c59b2a636ef088a0ba58c604938d37da7e14d6b1441b2f243e3cded2",
+      "readingDepth": "Selected curated function, subcellular-location and cellular-context comments read. Embedded publication identifiers were not themselves read."
+    },
+    {
+      "sourceId": "uniprot:P16284",
+      "url": "https://rest.uniprot.org/uniprotkb/search?query=gene_exact%3APECAM1%20AND%20organism_id%3A9606%20AND%20reviewed%3Atrue&format=json&size=3",
+      "sha256": "fef601b489671242bbd03ef7b4148ce214ac1cb1017f22eb9a242ebf57e65b2f",
+      "readingDepth": "Selected curated function, subcellular-location and cellular-context comments read. Embedded publication identifiers were not themselves read."
+    },
+    {
+      "sourceId": "web:usda-alkylation",
+      "url": "https://lod.nal.usda.gov/nalt/6495",
+      "sha256": "9eaf264a68e9ce1f15184e260a18328bf7772f886b34dd1a10619c906c3ca044",
+      "readingDepth": "Complete raw terminology definition read; addition/substitution of carbon-containing alkyl groups. The adopted link is the actual resolved URL recorded separately."
+    },
+    {
+      "sourceId": "web:iarc-cyclophosphamide",
+      "url": "https://www.inchem.org/documents/iarc/iarcmono/v100aiarc.pdf",
+      "sha256": "a014305341c27012c6269a35b1c02b4587ed1e123a7aaa9ecf2bdcfa0b0aa095",
+      "readingDepth": "Targeted cyclophosphamide/acrolein toxicology paragraph; no whole-volume read."
+    },
+    {
+      "sourceId": "web:kohn-chapter3",
+      "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf",
+      "sha256": "cac82dd1b5908595e4cd8e8b97ab235349bedf019e2079f5e658a5acd04177d6",
+      "readingDepth": "First two pages and selected chemistry passages; overbroad cross-link wording in the chapter is not adopted."
+    },
+    {
+      "sourceId": "web:fda-dpd",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine",
+      "sha256": "a326dca585247bca2581e2f87b58af80b651ffab9adc82ecdd788afdb4dbdf28",
+      "readingDepth": "Targeted raw FDA safety update body; page current 5 February 2026."
+    },
+    {
+      "sourceId": "web:nci-folfox",
+      "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox",
+      "sha256": "6367db19f3c1791acb8003f64c5dae1c3135a798ee85b1892074d24bcdc4fa71",
+      "readingDepth": "Regimen-component paragraph read; no dose, schedule or individual eligibility inference."
+    },
+    {
+      "sourceId": "web:nci-epirubicin",
+      "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epirubicinhydrochloride",
+      "sha256": "108fb246bfce4ecb5709a2d060a171a50e2aed9ddc8e642dad7076b8bf4107d3",
+      "readingDepth": "Primary NCI family-identification paragraph read; no efficacy, dosing or comparative-harm claim."
+    },
+    {
+      "sourceId": "web:nci-chemotherapy",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy",
+      "sha256": "c518dd806c7fef0cc2b5ce8f4576528e3a44030d48f10f60c853880662a7c3e7",
+      "readingDepth": "Targeted raw NCI purposes, routes and cycles passages read; not a whole-site review."
+    },
+    {
+      "sourceId": "web:nci-capox",
+      "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capox",
+      "sha256": "65548657174618ed9f744caa3053c937fe97d5f6ca5b198ea089d9e241c638f6",
+      "readingDepth": "Named regimen-component definition read; no universal dose or efficacy comparison."
+    }
+  ],
+  "noticesAndSponsor": [
+    {
+      "sourceId": "xu-2020-correction",
+      "url": "https://www.nature.com/articles/s41565-020-0635-3",
+      "sha256": "bd013bdc9dbd319ae04c0a9af946325407af79da76725ec1407c1ae2a20db484",
+      "readingDepth": "Targeted correction or source text where obtained; publisher errors remain access failures, not claim support.",
+      "httpOrExit": 0
+    },
+    {
+      "sourceId": "iarc-cyclophosphamide",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK304336/",
+      "sha256": "1c4aece2582423a2e993180175332a7c1b7dada5dd9495be6569ffc7f8e08f10",
+      "readingDepth": "Targeted correction or source text where obtained; publisher errors remain access failures, not claim support.",
+      "httpOrExit": 0
+    },
+    {
+      "sourceId": "cox-1979-publisher",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/0006295279902223",
+      "sha256": "8c0e0f5c5f0213e93d7b72f1eac815e67c1bef68ef326b76a56857db634f2aed",
+      "readingDepth": "Targeted correction or source text where obtained; publisher errors remain access failures, not claim support.",
+      "httpOrExit": 22
+    },
+    {
+      "sourceId": "web:sponsor-9m2026",
+      "url": "https://heidelberg-pharma.com/en/press-investors/announcements/press-releases-and-ad-hoc-announcements/pr-heidelberg-pharma-reports-on-the-first-nine-months-of-financial-year-2026",
+      "sha256": "420a922897a1b843fe86752a0f33e3f640d4474ff033ddec21d6c9a4a161c0be",
+      "readingDepth": "Clinical development paragraphs read, not the whole financial release.",
+      "evidenceTier": "Sponsor report, not peer reviewed; confirmation and comparative benefit not established."
+    },
+    {
+      "sourceId": "web:liu-2021-correction",
+      "url": "https://www.nature.com/articles/s41586-021-03664-3",
+      "sha256": "9651d7c48dd956d3c7e71e6ed1ef1327b8320e455cb7571bf594d563649b399f",
+      "readingDepth": "Full short correction text on two staining panels read; not the original full experimental article."
+    }
+  ],
+  "counts": {
+    "uniquePubMedRecords": 61,
+    "rawAbstractsRead": 55,
+    "coreCrossrefIdentityChecks": 55,
+    "supplementalEuropePmcIdentityChecks": 4,
+    "labelCards": 17,
+    "registryCards": 8
+  },
+  "elicit": {
+    "callable": false,
+    "newQuestions": 0,
+    "newReports": 0,
+    "discoveryIsNotClaimVerification": true
+  },
+  "limits": [
+    "The majority of papers remain abstract-only. No blanket full-text, clinical, expert or language certification is given.",
+    "Baker 2008 correction is identified but its publisher text is access-blocked. Citron 2003 erratum identity is incomplete and its text is unread. Their numeric observations retain explicit abstract scope.",
+    "A fresh four-record Crossref refresh returned HTTP 429; Europe PMC independently resolved the four identities. No access challenge was bypassed.",
+    "Schiff, Cox and Cox-Abel lack accessible abstracts in these captures. Unread experiments are not adopted from their titles.",
+    "Thurber full-text routes failed or returned metadata-only bodies; its abstract, other targeted sources and labelled inference delimit the adopted teaching."
+  ],
+  "sourceAliases": {
+    "web:nci-dose-dense": "web:nci-dose-dense-chemotherapy",
+    "web:iarc-volume100a": "web:iarc-cyclophosphamide",
+    "web:xu-2020-correction": "xu-2020-correction"
+  },
+  "registryGroups": {
+    "registry:isac-six": [
+      "NCT05514717",
+      "NCT05070247",
+      "NCT04278144",
+      "NCT05954143",
+      "NCT05091528",
+      "NCT04460456"
+    ],
+    "registry:hdp101-two": [
+      "NCT04879043",
+      "NCT07529782"
+    ]
+  },
+  "nonLiteratureEvidence": [
+    {
+      "sourceId": "onco:inference",
+      "type": "authored premise or inference; not an experimental observation"
+    },
+    {
+      "sourceId": "onco:fictional-inference",
+      "type": "authored premise or inference; not an experimental observation"
+    },
+    {
+      "sourceId": "visual:alkyl",
+      "type": "Pinned figure viewed in both themes; interpretation qualified and no artwork imported"
+    },
+    {
+      "sourceId": "visual:anthracycline",
+      "type": "Pinned figure viewed in both themes; interpretation qualified and no artwork imported"
+    },
+    {
+      "sourceId": "visual:capecitabine",
+      "type": "Pinned figure viewed in both themes; interpretation qualified and no artwork imported"
+    },
+    {
+      "sourceId": "visual:platinum",
+      "type": "Pinned figure viewed in both themes; interpretation qualified and no artwork imported"
+    },
+    {
+      "sourceId": "visual:taxane",
+      "type": "Pinned figure viewed in both themes; interpretation qualified and no artwork imported"
+    },
+    {
+      "sourceId": "gap:baker-erratum",
+      "type": "Published correction or erratum remains unread; numeric observations explicitly retain abstract scope"
+    },
+    {
+      "sourceId": "gap:citron-erratum",
+      "type": "Published correction or erratum remains unread; numeric observations explicitly retain abstract scope"
+    }
+  ]
+}

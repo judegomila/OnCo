@@ -1,0 +1,96 @@
+{
+  "sourceVersions": 24,
+  "nonRoutingPairs": 432,
+  "scientificTeachingDeltas": 0,
+  "separatelyInspectedDelta": {
+    "page": "tnbc-recurrence-timing-and-sites",
+    "heading": "Common confusions",
+    "change": "Later inline link to surveillance after treatment; the remaining sentence sequence is identical."
+  },
+  "pages": [
+    {
+      "page": "brcaness",
+      "originalBlocks": 43,
+      "laterBlocks": 43,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "germline-testing",
+      "originalBlocks": 40,
+      "laterBlocks": 40,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "hereditary-breast-cancer-genes",
+      "originalBlocks": 33,
+      "laterBlocks": 33,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "brain-metastasis-risk",
+      "originalBlocks": 43,
+      "laterBlocks": 45,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 2
+    },
+    {
+      "page": "oligometastatic-disease",
+      "originalBlocks": 44,
+      "laterBlocks": 44,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "tnbc-recurrence-timing-and-sites",
+      "originalBlocks": 31,
+      "laterBlocks": 32,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 1
+    },
+    {
+      "page": "estrogen-receptor",
+      "originalBlocks": 36,
+      "laterBlocks": 36,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "her2",
+      "originalBlocks": 45,
+      "laterBlocks": 45,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "progesterone-receptor",
+      "originalBlocks": 36,
+      "laterBlocks": 36,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "sox10-and-basal-markers",
+      "originalBlocks": 38,
+      "laterBlocks": 38,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "tnbc",
+      "originalBlocks": 42,
+      "laterBlocks": 42,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 0
+    },
+    {
+      "page": "curative-intent",
+      "originalBlocks": 31,
+      "laterBlocks": 32,
+      "uniqueTeachingDelta": false,
+      "extraLaterRoutingBlocks": 1
+    }
+  ]
+}

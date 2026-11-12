@@ -1,0 +1,86 @@
+{
+  "dataCommit": "12cc76ee50c46bfa211434317bd7a05b94c537d4",
+  "graphCount": 22809,
+  "gates": [
+    {
+      "name": "typecheck-r4",
+      "exitCode": 0,
+      "seconds": 3.21
+    },
+    {
+      "name": "eslint-r3",
+      "exitCode": 0,
+      "seconds": 2.51
+    },
+    {
+      "name": "validate-r3",
+      "exitCode": 0,
+      "seconds": 1.84
+    },
+    {
+      "name": "full-suite-r2",
+      "exitCode": 0,
+      "seconds": 108.52
+    }
+  ],
+  "eslint": "Zero errors; one existing unused-variable warning.",
+  "fullSuite": {
+    "filesPassed": 289,
+    "testsPassed": 2875,
+    "testsSkipped": 2,
+    "logSha256": "57314ecfe2c862961f5c19a1100a68b243776277c56dd719b443d495671de440"
+  },
+  "regressionsResolved": "Two simple-English lengths fixed and subject vocabulary restored; no ranking or floor change.",
+  "retrieval": {
+    "before": {
+      "recall": 0.4351904761904762,
+      "rubric": 0.6679999999999998
+    },
+    "after": {
+      "recall": 0.43185714285714283,
+      "rubric": 0.6679999999999998
+    }
+  },
+  "remainingRetrievalChange": "The broad pre-treatment Enhertu query loses one expected top-six record; overall recall and rubric pass their existing floors.",
+  "readerRecords": 43,
+  "requirementReferences": 342,
+  "completeParagraphChecks": 405,
+  "appliedFieldPassages": 75,
+  "missingSourceLinks": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "exactJSONRecords": 43,
+    "exactMarkdownPassages": 207,
+    "openAPI": true,
+    "dedupe": "Passed; nine pre-existing candidate groups, no new ids."
+  },
+  "generationResults": [
+    {
+      "group": "root",
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 27.89
+    },
+    {
+      "group": "root",
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.65
+    },
+    {
+      "group": "root",
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.36
+    },
+    {
+      "group": "root",
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 4.9
+    }
+  ],
+  "secretScan": "No findings in staged data diff.",
+  "changeClass": "product 0  data 28  neither 1   (--cached)",
+  "zeroChangeLedgerReplay": "See zero-change-replay.json. That receipt is written after the comparison and is not itself counted among pre-replay files."
+}

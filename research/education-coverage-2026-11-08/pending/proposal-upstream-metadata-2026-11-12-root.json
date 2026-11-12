@@ -1,0 +1,593 @@
+{
+  "version": "proposal-upstream-metadata-2026-11-12-root",
+  "state": "Actual committed registered-root metadata in unmerged draft #375; no new curriculum, science, main/live or approval credit",
+  "draft": 375,
+  "committedDataHead": "6cb3e9a92c9538c8c7c2a57e3942a08089b53584",
+  "records": [
+    {
+      "id": "cell-division",
+      "kind": "term",
+      "name": "Cell division",
+      "aka": [
+        "cell divisions",
+        "divide",
+        "dividing",
+        "divides",
+        "dividing cells",
+        "rapidly dividing",
+        "fast-dividing",
+        "replicating",
+        "cell replication"
+      ],
+      "tldr": "Cell division produces daughter cells for growth and renewal. Chemotherapy can disrupt this process and can also affect cells through mechanisms beyond division.",
+      "summary": "DNA copying, chromosome segregation and cytokinesis are distinct steps; errors or unequal allocation can make daughters differ. Many cytotoxic drugs affect DNA or microtubules, with drug-specific dependence on cell-cycle state. Normal renewing tissues can also be affected. Division history cannot be read directly from a mutation count: damage, repair, selection and other processes contribute. Ki-67 staining and a mitotic count describe particular sampled properties, not a universal rate of cell production.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cell_division",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cell_division"
+        },
+        {
+          "label": "OpenStax Biology 2e: 10-2-the-cell-cycle",
+          "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+        },
+        {
+          "label": "NCI: chemotherapy mechanisms and healthy-cell effects",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+        },
+        {
+          "label": "Neurotoxic mechanisms of paclitaxel are local to the distal axon and independent of transport defects.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27894788/"
+        },
+        {
+          "label": "Assaying Cell Cycle Status Using Flow Cytometry.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26131851/"
+        },
+        {
+          "label": "Franken and colleagues: clonogenic reproductive survival in vitro",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17406473/"
+        },
+        {
+          "label": "Brix and colleagues: model and format limits of clonogenic assays",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34697469/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cell-cycle",
+        "proliferation",
+        "mutation",
+        "tumour-grade",
+        "chemotherapy-term",
+        "cell-lineage-and-state"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Growth arrest and cell death need separate measurements. A population count reflects both production and loss. In adult mouse sensory-neuron cultures, paclitaxel disrupted distal axon growth without requiring cell division; this defined experimental model does not predict every clinical toxicity or treatment effect.",
+        "Side effects are not a test of whether chemotherapy is controlling a tumor. NCI explicitly separates those observations; clinical assessment needs the appropriate examination, imaging or other response evaluation. A proliferation-marker fraction also does not by itself measure treatment benefit.",
+        "A lower cell count at one time can reflect slower division, cell loss or both; surviving cells may later resume growth. Colony-formation assays assess whether individual cells can produce descendants under the chosen culture conditions over a longer observation period. The result depends on the model and assay format. Neither a short growth assay nor colony formation alone establishes durable tumor control in a person."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "remission",
+      "kind": "term",
+      "name": "Remission",
+      "aka": [
+        "remissions",
+        "in remission",
+        "complete remission",
+        "partial remission",
+        "durable remission",
+        "durable remissions",
+        "functional cure",
+        "no evidence of disease",
+        "NED",
+        "disease-free"
+      ],
+      "tldr": "When the signs of cancer have shrunk (partial remission) or disappeared entirely (complete remission). It is not the same as cure, because cells too few to detect may remain.",
+      "summary": "Remission means a decrease or disappearance of signs and symptoms of cancer. In partial remission, some but not all have disappeared; in complete remission, all have disappeared, although cancer may still remain in the body. The assessment and its criteria depend on the cancer and the test or clinical context. Remission describes what is observed, rather than establishing that every cancer cell has been eliminated or that cancer will never return. The term itself supplies no universal timetable for declaring cure.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Remission_(medicine)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Remission_(medicine)"
+        },
+        {
+          "label": "NCI Dictionary: remission",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/remission"
+        },
+        {
+          "label": "NCI: understanding cancer prognosis",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "complete-response",
+        "partial-response",
+        "mrd",
+        "relapse-recurrence",
+        "progression",
+        "os"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "trial-protocol",
+      "kind": "term",
+      "name": "Trial protocol and statistical analysis plan",
+      "aka": [
+        "trial protocol",
+        "study protocol",
+        "protocol amendment",
+        "protocol amendments",
+        "amended protocol",
+        "protocol deviation",
+        "protocol deviations",
+        "protocol violation",
+        "protocol synopsis",
+        "schedule of assessments",
+        "schedule of events",
+        "protocol-defined",
+        "protocol-specified",
+        "per the protocol",
+        "eligibility criteria",
+        "investigator's brochure",
+        "investigator brochure",
+        "case report form",
+        "CRF",
+        "eCRF",
+        "SPIRIT statement",
+        "SAP",
+        "statistical analysis plan",
+        "statistical analysis plans",
+        "analysis plan",
+        "pre-specified analysis plan",
+        "hierarchy of endpoints",
+        "testing hierarchy",
+        "data cut-off date",
+        "database lock"
+      ],
+      "tldr": "The protocol is the rulebook a trial is run by, written before it starts: who can join, what they get, what is measured and when, and how the answer will be calculated; the statistical analysis plan spells out the last part in detail so nobody can choose the analysis after seeing the data.",
+      "summary": "A protocol is a long document, often more than a hundred pages, that states the rationale and objectives, the design, the eligibility criteria, the treatments and their dose modifications, the schedule of visits and assessments, the endpoints and how each is defined and measured, the sample size and its justification, the interim analyses and stopping rules, the safety reporting rules, and the governance (sponsor, steering committee, data monitoring committee, ethics oversight). The SPIRIT statement lists what a protocol should contain, and journals increasingly publish protocols so that the final report can be checked against them. The statistical analysis plan is a companion document finalised before the data are unblinded that fixes the analysis populations, the handling of missing data and intercurrent events, the order in which endpoints are tested and the alpha each receives, the pre-specified subgroups and the sensitivity analyses. Together they are what makes pre-specified mean something.\n\nProtocols change. Amendments add sites, adjust eligibility when recruitment is slow, revise dose modifications in response to toxicity, or, more consequentially, change the primary endpoint or the sample size; each amendment goes back to the ethics committee and regulators and is dated in the registry record, so a reader can see what changed and when. Deviations are departures from the protocol for individual patients (a missed scan, a dose given outside its window) and are logged and classified by seriousness; a pattern of deviations at one site is a monitoring finding. The strict week-twelve event definition written into BELINDA's protocol, combined with a long manufacturing interval, is a documented example of protocol choices deciding a trial's verdict: the trial found no difference in event-free survival where two similar trials found a large one.\n\nFor readers, the protocol answers the questions a paper leaves out: exactly who was eligible, what counted as progression, how many analyses were planned, and whether the headline analysis was the one specified. Registries link to protocols for many trials, and supplementary appendices to trial papers usually contain them. Check the dated plan and access to relevant outcomes to distinguish a confirmatory analysis from planned exploration and later discovery. A small p-value alone does not establish that the analysis was prespecified.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clinical_trial_protocol",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clinical_trial_protocol"
+        },
+        {
+          "label": "SPIRIT statement: standard protocol items for clinical trials",
+          "url": "https://www.spirit-statement.org/"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        },
+        {
+          "label": "ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)",
+          "url": "https://www.fda.gov/media/148473/download"
+        },
+        {
+          "label": "CONSORT 2025: transparent reporting of randomised trials",
+          "url": "https://doi.org/10.1136/bmj-2024-081123"
+        },
+        {
+          "label": "NCI: how clinical trials work",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        },
+        {
+          "label": "Cochrane Handbook chapter 5: link multiple reports of one study",
+          "url": "https://training.cochrane.org/handbook/current/chapter-05"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "prespecified-vs-post-hoc",
+        "trial-registration",
+        "primary-endpoint",
+        "estimand",
+        "group-sequential-design",
+        "trial-lifecycle",
+        "ethics-review",
+        "accrual",
+        "data-monitoring-committee"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "belinda",
+        "add-aspirin",
+        "keynote-522"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read the protocol and dated analysis plan alongside the report. Write the population, complete assigned strategies, comparator, outcome and assessment, origin and horizon, analysis population and treatment-change rules. Then check precision, bias and applicability separately. Events, sample size, intervals and power concern precision; assignment, assessment, missing outcomes and selected reporting concern bias; eligibility, care sequence, comparator and endpoint concern applicability. A narrow interval cannot fix a systematically biased or mismatched comparison. CONSORT 2025 requests transparent reporting, including plan access, denominators, missing data and harms; a completed checklist is not a certificate of validity.",
+        "Two fictional studies answer different questions. Study A treats a single group with metastatic disease after several earlier therapies and observes shrinkage. It describes activity among those treated without supplying a concurrent alternative, comparative survival or quality of life, or postoperative safety. More participants or a phase label cannot erase differences in selection, treatment era or assessment against a historical cohort. Study B randomises people with operable disease to whole treatment sequences and compares first recurrence or death. That can address its assigned strategy under suitable conduct and analysis, while leaving the final unrandomised component unresolved. Resemblance to the participants does not turn an untested action into a tested one.",
+        "Keep harms in the same comparison: the number assessed, absolute frequency, severity, onset, duration, symptoms, discontinuation and quality of life. An omitted adverse outcome is not an observed absence of harm, and uncommon or late effects may remain uncertain. More follow-up can clarify one question without supplying a different treatment comparison. Benefits from separate trials with different populations, controls or starting clocks cannot simply be added into a personal estimate."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "dose-modification",
+      "kind": "term",
+      "name": "Dose reduction, interruption and discontinuation",
+      "aka": [
+        "dose reduction",
+        "dose reductions",
+        "dose-reduction",
+        "dose reduced",
+        "dose interruption",
+        "dose interruptions",
+        "dose delay",
+        "dose delays",
+        "treatment delay",
+        "dose hold",
+        "hold treatment",
+        "dose modification",
+        "dose modifications",
+        "dose adjustment",
+        "dose adjustments",
+        "discontinuation",
+        "discontinuations",
+        "discontinued",
+        "treatment discontinuation",
+        "discontinuation rate",
+        "discontinuation due to adverse events",
+        "permanent discontinuation",
+        "stopped treatment",
+        "treatment cessation",
+        "relative dose intensity",
+        "RDI",
+        "adherence",
+        "non-adherence",
+        "real-world dosing",
+        "starting dose",
+        "dose holds",
+        "treatment delays"
+      ],
+      "tldr": "An interruption is a temporary pause, a reduction uses a lower dose, and discontinuation stops the treatment. What a change means depends on the medicine, treatment plan and reason for changing it.",
+      "summary": "Interruption, dose reduction and permanent discontinuation describe different changes to treatment exposure. Dose intensity is drug amount per unit time, commonly adjusted for body surface area; relative dose intensity is the delivered intensity divided by a stated reference intensity. Dose reductions, delays and treatment duration must be interpreted using that study's calculation. The effect of a change depends on the medicine, regimen, population and reason for modification. Outcome associations and exploratory dose analyses retain their study-specific uncertainty.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Dose_(biochemistry)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Dose_(biochemistry)"
+        },
+        {
+          "label": "Alberto, 1995: dose intensity and average relative dose intensity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7626852/"
+        },
+        {
+          "label": "Zhang et al., 2018: observational breast-cancer dose intensity and survival",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29368311/"
+        },
+        {
+          "label": "Goetz et al., 2024: exploratory monarchE dose-reduction analyses",
+          "url": "https://doi.org/10.1038/s41523-024-00639-1"
+        },
+        {
+          "label": "Kim et al., dose intensification of cisplatin through biweekly administration (1993)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8471554/"
+        },
+        {
+          "label": "FDA: optimizing the dosage of drugs for oncologic diseases (August 2024 guidance)",
+          "url": "https://www.fda.gov/media/164555/download"
+        },
+        {
+          "label": "Bonadonna and Valagussa, dose-response effect of adjuvant chemotherapy in breast cancer (1981)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7432433/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ctcae-grading",
+        "mtd",
+        "therapeutic-index",
+        "pharmacokinetics",
+        "qol-pro",
+        "dpyd-testing-before-fluoropyrimidines",
+        "sact-prescribing-and-pharmacy-verification"
+      ],
+      "cancers": [],
+      "sections": [
+        "supportive-care"
+      ],
+      "technologies": [
+        "project-optimus"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Dose intensity includes time. In a fictional single-drug course, a reference of 600 mg/m² over six weeks is 100 mg/m²/week. Giving 600 mg/m² over eight weeks gives 75 mg/m²/week, or 75% relative dose intensity; giving 450 mg/m² over six weeks produces the same ratio by a different change. These calculations assume the same body-surface-area basis and defined treatment interval. For combinations, report each drug's reference and how its ratio contributes to the combined measure. Alberto's 1995 overview describes average relative dose intensity as the mean of the component ratios, not a measure that by itself establishes an outcome.",
+        "Zhang et al. (2018) studied women diagnosed in Louisiana in 2011 with stage I to III breast cancer: 494 had hormone-receptor-positive, HER2-negative disease and 180 had triple-negative disease. Across five predefined cutoffs, their abstract reports that relative dose intensity below 85% was associated with worse overall survival in the hormone-receptor-positive, HER2-negative group (hazard ratio 1.93, 95% confidence interval 1.09 to 3.40). Cutoff findings differed by subtype: in the triple-negative group (180 women) 75% was the cutoff at which a higher relative dose intensity was associated with better overall survival (hazard ratio 2.39, 95% confidence interval 1.04 to 5.51), and the authors recommend keeping relative dose intensity at 85% or above in the hormone-receptor-positive, HER2-negative group and 75% or above in the triple-negative group, which is one registry's recommendation and not a standard. This adjusted observational association does not establish a universal dosing threshold or isolate the causal effect of a reduction from the reasons for it.",
+        "Goetz et al. (2024) reported reductions in 1,221 of 2,791 abemaciclib-treated monarchE participants (43.7%), with node-positive, high-risk, hormone-receptor-positive, HER2-negative early breast cancer receiving endocrine therapy. In an exploratory time-dependent analysis, the full-versus-reduced-dose hazard ratio for invasive disease-free survival was 0.905 (95% confidence interval 0.727 to 1.125). The trial randomised adding abemaciclib, not dose-reduction strategies; protocol-managed reductions followed toxicity. The authors found no apparent loss of benefit in these analyses. This is a drug- and setting-specific result, rather than proof that starting at any lower dose is equivalent.",
+        "Reading rule: compare dose holds, reductions and permanent stops separately, with their denominator, observation period and reasons. A rate of modification describes treatment exposure and tolerability; judging clinical benefit also requires the study's outcome comparison and its uncertainty. The same percentage can describe different drugs, schedules and patient groups.",
+        "Planned versus delivered. Dose is the quantity of drug and dosage is the dose with its schedule (FDA, 'Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases', August 2024). A delay in the sequence of cycles lowers delivered intensity in the same proportion as an equal dose reduction (Alberto 1995), and planned and delivered intensity can differ: in a biweekly cisplatin study, delays of three or more days on 17 of 66 courses (26 per cent) left mean delivered intensity at 83 mg/m2 per week, 88 per cent of the planned intensity (Kim et al. 1993). An older, narrower finding sits beside the 2018 observational result above: in a retrospective analysis of adjuvant cyclophosphamide, methotrexate and fluorouracil for breast cancer, benefit was seen only at 85 per cent or more of the planned dose (Bonadonna and Valagussa 1981, abstract level, one regimen and disease), whereas Alberto found the link between delivered intensity and response or survival not fully demonstrated, with a threshold evident and no clear linear relation above it. That reductions are often made because of illness or toxicity, which can themselves affect outcome, is standard observational reasoning and is not attributed to these sources."
+      ],
+      "category": "Side effects"
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy",
+      "kind": "technology",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera)",
+      "aka": [
+        "Vacuum-assisted biopsy",
+        "VAB",
+        "Vacuum-assisted excision",
+        "Mammotome Revolve",
+        "Mammotome Prima MR",
+        "EnCor Enspire",
+        "EnCor EnCompass",
+        "Eviva",
+        "Brevera"
+      ],
+      "tldr": "A breast biopsy needle that uses suction to pull tissue into its side window and cut it, so several larger samples can be taken through one small cut in the skin, guided by mammogram, ultrasound or MRI.",
+      "summary": "Breast biopsy instruments are FDA product code KNW (21 CFR 876.1075). Vacuum-assisted systems cleared in the database include Devicor's Mammotome Revolve dual vacuum-assisted biopsy system (K202012, 18 August 2020) and Mammotome Prima MR for MRI-guided biopsy (K260365, 4 March 2026), the EnCor Enspire breast biopsy system (Senorx, K233220, 27 October 2023) and EnCor EnCompass biopsy and tissue removal system (Bard Peripheral Vascular, K252681, 12 December 2025), Bard's EleVation driver and probes (K192948, 7 November 2019), Hologic's Eviva stereotactic system (K180233, 10 April 2018) and Hologic's Brevera with CorLumina imaging (K163052, 29 March 2017; updated K262792, 12 August 2026), which images each core as it is taken. The Mammotome Revolve summary states that it provides breast tissue \"for histologic examination with partial or complete removal of the imaged abnormality\" and warns that \"the extent of removal of the palpated or imaged evidence of an abnormality does not predict the extent of removal of a histologic abnormality, e.g., malignancy\".",
+      "status": "standard-of-care",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA product code KNW: biopsy instrument",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=KNW"
+        },
+        {
+          "label": "FDA 510(k) K202012: Mammotome Revolve (18 August 2020)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202012"
+        },
+        {
+          "label": "FDA 510(k) K260365: Mammotome Prima MR (4 March 2026)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260365"
+        },
+        {
+          "label": "FDA 510(k) K233220: EnCor Enspire (27 October 2023)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233220"
+        },
+        {
+          "label": "FDA 510(k) K252681: EnCor EnCompass (12 December 2025)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252681"
+        },
+        {
+          "label": "FDA 510(k) K192948: EleVation breast biopsy driver (7 November 2019)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192948"
+        },
+        {
+          "label": "FDA 510(k) K180233: Eviva stereotactic guided breast biopsy system (10 April 2018)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180233"
+        },
+        {
+          "label": "FDA 510(k) K163052: Brevera with CorLumina imaging (29 March 2017)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163052"
+        },
+        {
+          "label": "FDA 510(k) K262792: Brevera with CorLumina imaging (12 August 2026)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262792"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        },
+        {
+          "label": "Heil et al., RESPONDER, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/"
+        },
+        {
+          "label": "Kuerer et al., omission trial, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/"
+        },
+        {
+          "label": "Kuerer et al., omission follow-up, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/"
+        }
+      ],
+      "tags": [
+        "devices-gaps-2026-11"
+      ],
+      "related": [
+        "biopsy-after-neoadjuvant-therapy",
+        "surgical-resection-specimen",
+        "image-guided-core-biopsy-preparation-and-aftercare"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics",
+        "imaging",
+        "devices"
+      ],
+      "technologies": [
+        "stereotactic-breast-biopsy",
+        "breast-lesion-localisation",
+        "mammography",
+        "breast-mri-coils-abbreviated-mri",
+        "automated-breast-ultrasound"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "mammotome",
+        "hologic",
+        "becton-dickinson"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "core-needle-biopsy",
+        "biopsy"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Suction and a cutter collect several tissue pieces through a positioned probe. More pieces can broaden sampling but do not provide the mapped outer boundary of an oriented excision. Little visible abnormality after biopsy does not establish microscopic clearance or negative surgical margins.",
+        "Collection and preservation are separate: vacuum-collected tissue placed in formalin does not become a viable-cell bank. Retain target, sampled locations, concordance, preparation and assay-specific adequacy. No universal number of pieces proves complete representation.",
+        "Vacuum pressure draws tissue into a sampling opening and a cutter collects pieces through the positioned probe. Pathology identifies the cells, while imaging correlation asks whether the target was represented, including relevant calcifications. Sampling method does not establish preservation for living-cell work or every ancillary assay.",
+        "Fictional vacuum samples show a lesion and imaging shows little remaining visible abnormality. That does not establish negative microscopic margins. Several selected pieces do not supply the mapped outer boundary of an oriented excision, and a marker identifies a location rather than certifying that every abnormal cell was removed.",
+        "RESPONDER missed residual cancer in 37 of 208 women with residual disease at surgery. Exploratory combined imaging and biopsy gave a 6.2% false-negative rate; zero false negatives with the largest needle were also exploratory. The 2022 selected omission cohort of 31 women had no ipsilateral breast recurrence at median 26.4 months, updated to 55.4 months in 2025. These are study-specific results, not universal sampling adequacy or clearance rules.",
+        "Vacuum-assisted sampling combines image guidance, probe sampling, tissue preparation and pathology correlation. Document the target, site and collected pieces, then report the diagnosis, sample inventory and any assay-specific results. Collection and subsequent sections use finite material; each ancillary assay has its own input requirements. No universal piece count proves adequacy or complete removal. Missed or incompletely represented targets, bleeding, damaged tissue, necrosis and inadequate analyte can limit the procedure. Results depend on the intended lesion and workflow and cannot alone establish whole-lesion biology, surgical clearance or future treatment response."
+      ],
+      "provenance": {
+        "editedBy": "OnCo device gap fill (openFDA, accessdata.fda.gov, NICE, Europe PMC, maker pages)",
+        "editedOn": "2026-11-04"
+      },
+      "principle": "A hollow probe with a side aperture is placed beside the lesion under imaging; vacuum draws tissue into the aperture, a rotating or oscillating inner cutter severs it, and the core is carried back to a collection chamber without withdrawing the probe.",
+      "strengths": [
+        "Larger and more numerous cores through one skin entry",
+        "Works with stereotactic, tomosynthesis, ultrasound or MRI guidance"
+      ],
+      "limitations": [
+        "Bruising and haematoma",
+        "Removing the imaged lesion does not mean a cancer has been removed with clear margins"
+      ],
+      "since": 2017
+    },
+    {
+      "id": "batch-effects",
+      "kind": "term",
+      "name": "Batch effects and harmonisation",
+      "aka": [
+        "batch effects",
+        "batch effect",
+        "batch correction",
+        "platform effect",
+        "cross-platform harmonisation",
+        "harmonisation across platforms"
+      ],
+      "tldr": "A batch effect is a systematic measurement difference associated with how samples were prepared, processed or analysed.",
+      "summary": "Technical conditions can shift molecular measurements and become confused with biological groups. Normalization and batch modelling address specified effects under assumptions; they cannot manufacture contrasts absent from the design. Biological changes in tissue mixture should not automatically be removed as technical variation. Controls, recorded metadata, distributed preparation and independent replication help evaluate the comparison.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Batch_effect",
+      "links": [
+        {
+          "label": "Johnson, Li and Rabinovic, Adjusting batch effects in microarray expression data using empirical Bayes methods (ComBat, Biostatistics 2007)",
+          "url": "https://doi.org/10.1093/biostatistics/kxj037"
+        },
+        {
+          "label": "sva Bioconductor package (ComBat)",
+          "url": "https://bioconductor.org/packages/release/bioc/html/sva.html"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Batch_effect"
+        },
+        {
+          "label": "Normalization of RNA-seq data using factor analysis of control genes or samples.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25150836/"
+        },
+        {
+          "label": "Reproducibility of high-throughput mRNA and small RNA sequencing across laboratories.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24037425/"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "quantile-normalisation",
+        "tpm-fpkm-counts",
+        "microarray-expression",
+        "data-leakage"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Record preparation, laboratory, protocol and analysis conditions before comparing RNA profiles. The GEUVADIS study examined lymphoblastoid cell lines across laboratories; its reproducibility findings apply to that design and do not validate every tumour preparation. Source: https://doi.org/10.1038/nbt.2702.",
+        "Fictional design exercise: if all baseline specimens use laboratory A and all follow-up specimens use laboratory B, the observed difference cannot separate laboratory from time. Correction cannot supply the missing crossed comparison. A changed tissue mixture can be real biology; a tidy corrected plot alone does not establish a treatment effect.",
+        "A batch effect is a systematic measurement difference tied to preparation, processing or analysis conditions that can be mistaken for biology; a batch is a group sharing a technical condition.",
+        "Normalisation adjusts defined aspects such as library size or composition and does not automatically remove gene-specific technical differences; models can include recorded batch variables; controls and repeat preparations help under assumptions.",
+        "When every sample of one group is processed one way and every sample of another group another way the effects cannot be separately identified; an algorithm cannot supply the missing experiment.",
+        "Cell mixture and treatment response can be real biology; erasing them as batch removes signal; a tidy corrected plot is not proof.",
+        "Reprocessing one extract is a technical, not a biological, replicate.",
+        "Multi-laboratory RNA-seq work shows why preparation conditions should be recorded.",
+        "Assess technical variation using preparation metadata, appropriate controls, diagnostic plots and a defined design/model. Reanalysis uses no new tissue; new preparations use extract and resequencing can use an existing library. Acceptance criteria depend on the comparison. Missing metadata, complete confounding and removal of genuine biology can invalidate correction; check assumptions and reproducibility rather than a universal batch-size cutoff.",
+        "Fictional design exercise: six baseline specimens in lab A and six follow-up specimens in lab B leave two group-laboratory cells unobserved. Allocating three to each of the four cells retains six per time point while adding the crossed contrasts. The design supports a stated model, with other biases and assumptions still requiring checks.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/batch-effects."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Genomics & genetics"
+    }
+  ]
+}

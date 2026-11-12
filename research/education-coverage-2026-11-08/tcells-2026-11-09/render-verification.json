@@ -1,0 +1,953 @@
+{
+  "root": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checkout": "/Users/jasonlaster/src/projects/onco-reference-systematic-audit",
+    "checks": [
+      {
+        "id": "anergy",
+        "route": "/terms/anergy/",
+        "asOf": "2026-11-09",
+        "bytes": 23505,
+        "sha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "costimulation",
+        "route": "/terms/costimulation/",
+        "asOf": "2026-11-09",
+        "bytes": 20141,
+        "sha256": "870c3463943a7c7ff97fa591cdd8c060acd4a3e675487b66ebc429a656567145",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "regulatory-t-cells",
+        "route": "/terms/regulatory-t-cells/",
+        "asOf": "2026-11-09",
+        "bytes": 20877,
+        "sha256": "c308c5af1257f3763fa175919a486b17d79e457ceacb4da56152bac61c31fc2e",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "route": "/terms/t-cell-priming-three-signals/",
+        "asOf": "2026-11-09",
+        "bytes": 20506,
+        "sha256": "f01ba043fb1306a2b589076d52d58dbc45bab4b76c6e2d3718e31846f239ddce",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "t-cell-receptor",
+        "route": "/terms/t-cell-receptor/",
+        "asOf": "2026-11-09",
+        "bytes": 18675,
+        "sha256": "d8e65fd81a8b7fa06e722c6a38d1cb7cd34c3095eccdd03b340d2c35bc4b55fa",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "t-cell-states",
+        "route": "/terms/t-cell-states/",
+        "asOf": "2026-11-09",
+        "bytes": 24211,
+        "sha256": "d3e9bc47317bd5cebe5d2a74951b36b2ac08520f208fdd77cdf485a7465ec4ed",
+        "sourceLinksChecked": 8,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "route": "/terms/thymic-output-and-aging/",
+        "asOf": "2026-11-09",
+        "bytes": 19011,
+        "sha256": "759f2b9ee2f7c4e2ab4f1c9e5a8dbd4fc2a4aae4684f2251a998dcccf09926d7",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pd1-checkpoint",
+        "route": "/pathways/pd1-checkpoint/",
+        "asOf": "2026-11-09",
+        "bytes": 106795,
+        "sha256": "5292453342304019df90add817245cbf9740bfcde50f5dbc9964f909318437b2",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "t-cell",
+        "route": "/terms/t-cell/",
+        "asOf": "2026-11-09",
+        "bytes": 32964,
+        "sha256": "0e95940de7445c874e477d425f72402144e60830642f89a544d5967b2e7994df",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "route": "/pathways/t-cell-exhaustion/",
+        "asOf": "2026-11-09",
+        "bytes": 76545,
+        "sha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7",
+        "sourceLinksChecked": 10,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cd28",
+        "route": "/targets/cd28/",
+        "asOf": "2026-11-09",
+        "bytes": 61988,
+        "sha256": "1655adb2891ca260ddcfaa3758a159ac5760c72b7daa3ba3f734ef552a6713ef",
+        "sourceLinksChecked": 9,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "foxp3",
+        "route": "/targets/foxp3/",
+        "asOf": "2026-11-09",
+        "bytes": 43250,
+        "sha256": "c9beb9071a52a228c0f06c30f47314ce62bc6b061e4e1ca4114c69f8b34b059d",
+        "sourceLinksChecked": 7,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cd4",
+        "route": "/targets/cd4/",
+        "asOf": "2026-11-09",
+        "bytes": 34159,
+        "sha256": "1def3bc35c07741b1745ecfec2c7eeacb03d2eadb698a5fb0afe414cc552ebd1",
+        "sourceLinksChecked": 10,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cd8",
+        "route": "/targets/cd8/",
+        "asOf": "2026-11-09",
+        "bytes": 36627,
+        "sha256": "9676e316c632cfa88eed53598cf7ae6c6c43df06f8004b73470bbea3ee17872f",
+        "sourceLinksChecked": 9,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "shared": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checkout": "/Users/jasonlaster/src/projects/onco-reference-tcell-shared-followup",
+    "checks": [
+      {
+        "id": "proteomics",
+        "route": "/technologies/proteomics/",
+        "asOf": "2026-11-08",
+        "bytes": 68567,
+        "sha256": "f9855d1241ab4320c598deb5f576d93814c79ece3dcbbc3dde2a676d90e14613",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "route": "/technologies/imaging-mass-cytometry/",
+        "asOf": "2026-11-08",
+        "bytes": 30187,
+        "sha256": "3ec439ffe1da04d67ba9736056589fb13e826401425a04b0bc34d8fbc2cb330b",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "neoantigen",
+        "route": "/terms/neoantigen/",
+        "asOf": "2026-11-08",
+        "bytes": 53634,
+        "sha256": "4573f838b3b7243ecd6838aaeaec8f246e068bcd8ef78afdb900a6a5c60d484f",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immune-product-evidence",
+        "route": "/terms/immune-product-evidence/",
+        "asOf": "2026-11-08",
+        "bytes": 25591,
+        "sha256": "6c3ebebdc10c752e4784929d22b63b6753fe93cbba960f4050a1cff8e32c5900",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "elispot",
+        "route": "/terms/elispot/",
+        "asOf": "2026-11-08",
+        "bytes": 18905,
+        "sha256": "d0ab0923e05df8b24e924af3d1868fd21bf6367dcbea8bea79ed6ae92faed138",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "intracellular-cytokine-staining",
+        "route": "/terms/intracellular-cytokine-staining/",
+        "asOf": "2026-11-08",
+        "bytes": 18036,
+        "sha256": "86e037bf0f689b4863eb5950e4f4510072c58380b47c6ae9e08c91dc86e008f9",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "peptide-hla-multimer-staining",
+        "route": "/terms/peptide-hla-multimer-staining/",
+        "asOf": "2026-11-08",
+        "bytes": 20106,
+        "sha256": "65891b6d76a6daed1a1c94c43e15bdadeea59741364769d957be6db24357c7d9",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immune-cytotoxicity-assays",
+        "route": "/terms/immune-cytotoxicity-assays/",
+        "asOf": "2026-11-08",
+        "bytes": 20514,
+        "sha256": "305428d285966b8691533761e1dab521b52603151e74099400eee4e7d1cafc56",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tcr-repertoire-sequencing",
+        "route": "/terms/tcr-repertoire-sequencing/",
+        "asOf": "2026-11-08",
+        "bytes": 20693,
+        "sha256": "f7797c133246536aea3576c8ad098d581f2c58dab17207d9bcbff72bc9f34c39",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tcr-repertoire-clonality",
+        "route": "/terms/tcr-repertoire-clonality/",
+        "asOf": "2026-11-09",
+        "bytes": 25900,
+        "sha256": "31f1b544957c029ff0d50f852fb3cbba811421772d470c7ebe3909ef5a54f511",
+        "sourceLinksChecked": 6,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "pbmc-specimens",
+        "route": "/terms/pbmc-specimens/",
+        "asOf": "2026-11-08",
+        "bytes": 21260,
+        "sha256": "b4c00cb9735d416fea178b3b10425a02af4e1ed3a64188f09f96730387ab4053",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binding-presentation-recognition",
+        "route": "/terms/binding-presentation-recognition/",
+        "asOf": "2026-11-08",
+        "bytes": 21584,
+        "sha256": "66ca7b92444047fc42518cae0bed03498b0cb635532af7bb28881f126e0414e1",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunopeptidome",
+        "route": "/terms/immunopeptidome/",
+        "asOf": "2026-11-08",
+        "bytes": 20671,
+        "sha256": "6eb949eddbddc021d9669e43e7fa9757d2c3cae296b0adb3301798f75d3bb50a",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunopeptidomics",
+        "route": "/terms/immunopeptidomics/",
+        "asOf": "2026-11-08",
+        "bytes": 20601,
+        "sha256": "27c171f3a6042f53bf403187221aef0cd3f09899ac1a6924821933bc4f8153a5",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "peptide-hla-binding-prediction",
+        "route": "/terms/peptide-hla-binding-prediction/",
+        "asOf": "2026-11-08",
+        "bytes": 19831,
+        "sha256": "3c106e82a529179fe8823165653268524c99bd03f444875af8745d0cc274320a",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunodominance",
+        "route": "/terms/immunodominance/",
+        "asOf": "2026-11-09",
+        "bytes": 24033,
+        "sha256": "8fe05e6793e0f371b6cb527252c6235e1996270156914372af842a00eab15118",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "epitope-spreading",
+        "route": "/terms/epitope-spreading/",
+        "asOf": "2026-11-09",
+        "bytes": 22658,
+        "sha256": "e371509b8cc998a1f8961021049d72bac1d7f2fe0b0109b1d708583a16d9c32a",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "self-similarity-immune-recognition",
+        "route": "/terms/self-similarity-immune-recognition/",
+        "asOf": "2026-11-08",
+        "bytes": 22114,
+        "sha256": "55230e491031e166eff7ac20c7f357f4fe0932d9ea82302f299c965a251a15fa",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "immunogenicity-versus-efficacy",
+        "route": "/terms/immunogenicity-versus-efficacy/",
+        "asOf": "2026-11-08",
+        "bytes": 21254,
+        "sha256": "e55e967dac30e31f2313bba88cc45158a542c55cd727921eb55a620a130a0fe7",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "tissue-preparation-assay-fit",
+        "route": "/terms/tissue-preparation-assay-fit/",
+        "asOf": "2026-11-08",
+        "bytes": 21127,
+        "sha256": "0f6cf6b21aa6186dd263fdf895d300eacd3fa10cf54d93c80d4f88f6af46b930",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "finite-tissue-budget",
+        "route": "/terms/finite-tissue-budget/",
+        "asOf": "2026-11-08",
+        "bytes": 19342,
+        "sha256": "9a1ec5834fd2e3cf15b3ebbeecd6a76384dd064f2cac08be2181508dc2577c75",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "rna-integrity",
+        "route": "/terms/rna-integrity/",
+        "asOf": "2026-11-08",
+        "bytes": 17597,
+        "sha256": "1800f3cfa5e47b56a2579974986f8b8b06557c86d3bde85137299d677a376eea",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "specimen-provenance",
+        "route": "/terms/specimen-provenance/",
+        "asOf": "2026-11-08",
+        "bytes": 17733,
+        "sha256": "68dced62d138a5e6a77a9ec8699d7c78dad123196451ea27a1756f03f0ade046",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "mrna-construct-anatomy",
+        "route": "/terms/mrna-construct-anatomy/",
+        "asOf": "2026-11-08",
+        "bytes": 19853,
+        "sha256": "123c4afedf115f302a87cc240183a645f7d8abdbe6403dcd5d1ea682eeb6bc74",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "codon-optimization",
+        "route": "/terms/codon-optimization/",
+        "asOf": "2026-11-08",
+        "bytes": 17236,
+        "sha256": "b25bf8498cd94af9ea8c757c6fb66ba4701ad13228d26a714ed865a9802452e1",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "modified-rna-nucleosides",
+        "route": "/terms/modified-rna-nucleosides/",
+        "asOf": "2026-11-08",
+        "bytes": 18747,
+        "sha256": "d0297f453926f167aba4168ac18cb158534b9f30f3656d23204b0ab1a0e96e0a",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "in-vitro-transcription",
+        "route": "/terms/in-vitro-transcription/",
+        "asOf": "2026-11-08",
+        "bytes": 18935,
+        "sha256": "7636bbada85a0a3d1280827a452cc1c1f983dcc09e3e5578370b8a536ff94cf4",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "dsrna-impurities",
+        "route": "/terms/dsrna-impurities/",
+        "asOf": "2026-11-08",
+        "bytes": 16967,
+        "sha256": "123bf547d0d5c2aeffbd8e7b408dda67f7f240a3f505bf6ba4550041e8be7933",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "multi-epitope-constructs",
+        "route": "/terms/multi-epitope-constructs/",
+        "asOf": "2026-11-08",
+        "bytes": 19549,
+        "sha256": "bf383ba42f45cb9d7b71b6153c8dafed530384e88686cef0fe1ad0b9fc7285ad",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-targeting-module",
+        "route": "/terms/binder-targeting-module/",
+        "asOf": "2026-11-08",
+        "bytes": 17203,
+        "sha256": "7044b1334a27e5fb0ab3703f44b203a779838c793bbaa866069f7f52e9bf58fa",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-affinity-epitope-developability",
+        "route": "/terms/binder-affinity-epitope-developability/",
+        "asOf": "2026-11-08",
+        "bytes": 20800,
+        "sha256": "1922a558752cb11d3b55bf6b00e31e6fbb303c937759cc8456314026df71c750",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "binder-format-constraints",
+        "route": "/terms/binder-format-constraints/",
+        "asOf": "2026-11-08",
+        "bytes": 17029,
+        "sha256": "be181230d870517ee8fc8467d4318f082ffede01522b5a35a731155ef9e470d7",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "scfv-vhh-formats",
+        "route": "/terms/scfv-vhh-formats/",
+        "asOf": "2026-11-08",
+        "bytes": 16507,
+        "sha256": "d00472ed5e2c6fc2cfd371c8b77c738824a24b095ff89eb91a077bbd0053d3b3",
+        "sourceLinksChecked": 3,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "delivery-target-versus-therapeutic-target",
+        "route": "/terms/delivery-target-versus-therapeutic-target/",
+        "asOf": "2026-11-08",
+        "bytes": 19544,
+        "sha256": "5decc81a7db47d58cef8fec0fbfe8f0d8bdd9a4d00ab52e22629ccde80bdf89c",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "chemistry-manufacturing-controls",
+        "route": "/terms/chemistry-manufacturing-controls/",
+        "asOf": "2026-11-08",
+        "bytes": 20252,
+        "sha256": "94288c212d3348160a47f7b47a37c05054d6f6ddfa03938583ddc07726085e72",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "certificate-of-analysis",
+        "route": "/terms/certificate-of-analysis/",
+        "asOf": "2026-11-08",
+        "bytes": 17711,
+        "sha256": "a47288a4a20eac84849f754f7694bd884d6caade18b8418cc25a18bcd8a113f8",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "manufacturing-process-comparability",
+        "route": "/terms/manufacturing-process-comparability/",
+        "asOf": "2026-11-08",
+        "bytes": 18191,
+        "sha256": "24a06cb7d9fab697bba69bcfdd321382b172ee7b679921a05015e9af7ead4796",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cell-segmentation",
+        "route": "/terms/cell-segmentation/",
+        "asOf": "2026-11-08",
+        "bytes": 16311,
+        "sha256": "290f1d3bf73f9961ec7e360cd90b5915757b510e195e861b59fe026b05fd93f0",
+        "sourceLinksChecked": 2,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "targeted-proteomics-quantification",
+        "route": "/terms/targeted-proteomics-quantification/",
+        "asOf": "2026-11-08",
+        "bytes": 19726,
+        "sha256": "8b181947d53f91f739b4694d0581911bdcd2b9b09f90be6ff3d4a8e76332abaf",
+        "sourceLinksChecked": 1,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "antigen-presentation-immunoediting",
+        "route": "/pathways/antigen-presentation-immunoediting/",
+        "asOf": "2026-11-08",
+        "bytes": 68780,
+        "sha256": "8823a9b4f23ac275e92dee31219e5f08e70a466a445c01ca0ae6c9bf6622dc15",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "cell-therapy-release-testing",
+        "route": "/technologies/cell-therapy-release-testing/",
+        "asOf": "2026-11-09",
+        "bytes": 40926,
+        "sha256": "f51cb8890b9493f17c38bba77ae51a542a9eaf7a11c749c6cdcfc82d2f5c4f9c",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "preanalytics-sample-stabilisation",
+        "route": "/technologies/preanalytics-sample-stabilisation/",
+        "asOf": "2026-11-08",
+        "bytes": 33673,
+        "sha256": "40cc0229a395dfd8f91ceec835b8bed030a4f1324ff17c3870dfdec516aa058d",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "flow-cytometry",
+        "route": "/terms/flow-cytometry/",
+        "asOf": "2026-11-08",
+        "bytes": 29867,
+        "sha256": "8b8a77843401b84e7d4e328d7babedb98d93068cafa81b6f70b179f3452e6cc6",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "vein-to-vein-time",
+        "route": "/terms/vein-to-vein-time/",
+        "asOf": "2026-11-09",
+        "bytes": 31253,
+        "sha256": "fc6e7e4f2a549de779176bc7d16e6e08138a1c4de88d07e27347256dba763380",
+        "sourceLinksChecked": 5,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "rppa",
+        "route": "/terms/rppa/",
+        "asOf": "2026-11-08",
+        "bytes": 24342,
+        "sha256": "a4cf02c4ac95dcffe721f5681104dd9c7c8f0ad89f6521523c1a17e232825f88",
+        "sourceLinksChecked": 4,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "body": {
+    "scope": "Actual visible document text, excluding JSON-LD, script, style and SVG; disclosure content remains available in native document markup. Not browser hydration or responsive verification.",
+    "checks": [
+      {
+        "requirement": "anergy-history",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "anergy-mechanism",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "anergy-controls",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "anergy-tolerance",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "anergy-exhaustion-comparison",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "comparison-example",
+        "owner": "anergy",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "691e2624a9878dca569db8eaafb57b120c5a018bcba3e0e19df739c600c6317f"
+      },
+      {
+        "requirement": "coreceptor-identity",
+        "owner": "cd4",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "1def3bc35c07741b1745ecfec2c7eeacb03d2eadb698a5fb0afe414cc552ebd1"
+      },
+      {
+        "requirement": "presentation-routing",
+        "owner": "cd8",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "9676e316c632cfa88eed53598cf7ae6c6c43df06f8004b73470bbea3ee17872f"
+      },
+      {
+        "requirement": "coreceptor-geometry",
+        "owner": "cd8",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "9676e316c632cfa88eed53598cf7ae6c6c43df06f8004b73470bbea3ee17872f"
+      },
+      {
+        "requirement": "coreceptor-assay",
+        "owner": "cd4",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "1def3bc35c07741b1745ecfec2c7eeacb03d2eadb698a5fb0afe414cc552ebd1"
+      },
+      {
+        "requirement": "cd4-help",
+        "owner": "cd4",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "1def3bc35c07741b1745ecfec2c7eeacb03d2eadb698a5fb0afe414cc552ebd1"
+      },
+      {
+        "requirement": "costimulation-identity",
+        "owner": "costimulation",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "870c3463943a7c7ff97fa591cdd8c060acd4a3e675487b66ebc429a656567145"
+      },
+      {
+        "requirement": "costimulation-ligands",
+        "owner": "cd28",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "1655adb2891ca260ddcfaa3758a159ac5760c72b7daa3ba3f734ef552a6713ef"
+      },
+      {
+        "requirement": "costimulation-rescue",
+        "owner": "cd28",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "1655adb2891ca260ddcfaa3758a159ac5760c72b7daa3ba3f734ef552a6713ef"
+      },
+      {
+        "requirement": "costimulation-measurement",
+        "owner": "costimulation",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "870c3463943a7c7ff97fa591cdd8c060acd4a3e675487b66ebc429a656567145"
+      },
+      {
+        "requirement": "spreading-definition",
+        "owner": "epitope-spreading",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "e371509b8cc998a1f8961021049d72bac1d7f2fe0b0109b1d708583a16d9c32a"
+      },
+      {
+        "requirement": "spreading-causality",
+        "owner": "epitope-spreading",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "e371509b8cc998a1f8961021049d72bac1d7f2fe0b0109b1d708583a16d9c32a"
+      },
+      {
+        "requirement": "spreading-example",
+        "owner": "epitope-spreading",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "e371509b8cc998a1f8961021049d72bac1d7f2fe0b0109b1d708583a16d9c32a"
+      },
+      {
+        "requirement": "dominance-context",
+        "owner": "immunodominance",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "8fe05e6793e0f371b6cb527252c6235e1996270156914372af842a00eab15118"
+      },
+      {
+        "requirement": "dominance-mechanism",
+        "owner": "immunodominance",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "8fe05e6793e0f371b6cb527252c6235e1996270156914372af842a00eab15118"
+      },
+      {
+        "requirement": "dominance-example",
+        "owner": "immunodominance",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "8fe05e6793e0f371b6cb527252c6235e1996270156914372af842a00eab15118"
+      },
+      {
+        "requirement": "dominance-assay",
+        "owner": "immunodominance",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "8fe05e6793e0f371b6cb527252c6235e1996270156914372af842a00eab15118"
+      },
+      {
+        "requirement": "regulatory-role",
+        "owner": "regulatory-t-cells",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "c308c5af1257f3763fa175919a486b17d79e457ceacb4da56152bac61c31fc2e"
+      },
+      {
+        "requirement": "foxp3-limit",
+        "owner": "foxp3",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "c9beb9071a52a228c0f06c30f47314ce62bc6b061e4e1ca4114c69f8b34b059d"
+      },
+      {
+        "requirement": "regulatory-measurement",
+        "owner": "regulatory-t-cells",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "c308c5af1257f3763fa175919a486b17d79e457ceacb4da56152bac61c31fc2e"
+      },
+      {
+        "requirement": "exhaustion-programme",
+        "owner": "t-cell-exhaustion",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7"
+      },
+      {
+        "requirement": "exhaustion-subsets",
+        "owner": "t-cell-exhaustion",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7"
+      },
+      {
+        "requirement": "exhaustion-chromatin",
+        "owner": "t-cell-exhaustion",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7"
+      },
+      {
+        "requirement": "exhaustion-markers",
+        "owner": "t-cell-exhaustion",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7"
+      },
+      {
+        "requirement": "response-origin",
+        "owner": "t-cell-exhaustion",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "2416926d96344050a2bea13dc223e726123162b3c02e0e50961f38b058cb08b7"
+      },
+      {
+        "requirement": "priming-signals",
+        "owner": "t-cell-priming-three-signals",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "f01ba043fb1306a2b589076d52d58dbc45bab4b76c6e2d3718e31846f239ddce"
+      },
+      {
+        "requirement": "priming-cytokines",
+        "owner": "t-cell-priming-three-signals",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "f01ba043fb1306a2b589076d52d58dbc45bab4b76c6e2d3718e31846f239ddce"
+      },
+      {
+        "requirement": "priming-endpoints",
+        "owner": "t-cell-priming-three-signals",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "f01ba043fb1306a2b589076d52d58dbc45bab4b76c6e2d3718e31846f239ddce"
+      },
+      {
+        "requirement": "tcr-structure",
+        "owner": "t-cell-receptor",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d8e65fd81a8b7fa06e722c6a38d1cb7cd34c3095eccdd03b340d2c35bc4b55fa"
+      },
+      {
+        "requirement": "tcr-crossreactivity",
+        "owner": "t-cell-receptor",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d8e65fd81a8b7fa06e722c6a38d1cb7cd34c3095eccdd03b340d2c35bc4b55fa"
+      },
+      {
+        "requirement": "tcr-readouts",
+        "owner": "t-cell-receptor",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d8e65fd81a8b7fa06e722c6a38d1cb7cd34c3095eccdd03b340d2c35bc4b55fa"
+      },
+      {
+        "requirement": "tcr-intervention",
+        "owner": "t-cell-receptor",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d8e65fd81a8b7fa06e722c6a38d1cb7cd34c3095eccdd03b340d2c35bc4b55fa"
+      },
+      {
+        "requirement": "repertoire-definition",
+        "owner": "tcr-repertoire-clonality",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "31f1b544957c029ff0d50f852fb3cbba811421772d470c7ebe3909ef5a54f511"
+      },
+      {
+        "requirement": "repertoire-sampling",
+        "owner": "tcr-repertoire-clonality",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "31f1b544957c029ff0d50f852fb3cbba811421772d470c7ebe3909ef5a54f511"
+      },
+      {
+        "requirement": "repertoire-denominator",
+        "owner": "tcr-repertoire-clonality",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "31f1b544957c029ff0d50f852fb3cbba811421772d470c7ebe3909ef5a54f511"
+      },
+      {
+        "requirement": "state-history",
+        "owner": "t-cell-states",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d3e9bc47317bd5cebe5d2a74951b36b2ac08520f208fdd77cdf485a7465ec4ed"
+      },
+      {
+        "requirement": "state-identity",
+        "owner": "t-cell-states",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d3e9bc47317bd5cebe5d2a74951b36b2ac08520f208fdd77cdf485a7465ec4ed"
+      },
+      {
+        "requirement": "state-function",
+        "owner": "t-cell-states",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d3e9bc47317bd5cebe5d2a74951b36b2ac08520f208fdd77cdf485a7465ec4ed"
+      },
+      {
+        "requirement": "tcell-family",
+        "owner": "t-cell",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "0e95940de7445c874e477d425f72402144e60830642f89a544d5967b2e7994df"
+      },
+      {
+        "requirement": "tcell-measurement",
+        "owner": "t-cell",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "0e95940de7445c874e477d425f72402144e60830642f89a544d5967b2e7994df"
+      },
+      {
+        "requirement": "thymus-maintenance",
+        "owner": "thymic-output-and-aging",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "759f2b9ee2f7c4e2ab4f1c9e5a8dbd4fc2a4aae4684f2251a998dcccf09926d7"
+      },
+      {
+        "requirement": "trec-denominator",
+        "owner": "thymic-output-and-aging",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "759f2b9ee2f7c4e2ab4f1c9e5a8dbd4fc2a4aae4684f2251a998dcccf09926d7"
+      },
+      {
+        "requirement": "thymus-interpretation",
+        "owner": "thymic-output-and-aging",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "759f2b9ee2f7c4e2ab4f1c9e5a8dbd4fc2a4aae4684f2251a998dcccf09926d7"
+      },
+      {
+        "requirement": "dominance-subsets-model",
+        "owner": "t-cell-states",
+        "field": "notes",
+        "exactExcerptInBody": true,
+        "htmlSha256": "d3e9bc47317bd5cebe5d2a74951b36b2ac08520f208fdd77cdf485a7465ec4ed"
+      }
+    ],
+    "failures": []
+  }
+}

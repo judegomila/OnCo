@@ -1,0 +1,864 @@
+[
+  {
+    "recordId": "thermal-ablation",
+    "ownerFiles": [
+      "src/data/technologies.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "principle",
+      "strengths",
+      "limitations",
+      "notes",
+      "links",
+      "keyPapers"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Radiofrequency_ablation",
+      "https://www.nice.org.uk/guidance/ng151/chapter/Recommendations",
+      "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+      "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+      "https://pubmed.ncbi.nlm.nih.gov/41213939/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "radiofrequency-ablation",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Radiofrequency_ablation",
+      "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+      "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/",
+      "https://pubmed.ncbi.nlm.nih.gov/25738477/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "microwave-ablation",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Microwave_ablation",
+      "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+      "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3065977/",
+      "https://pubmed.ncbi.nlm.nih.gov/25738477/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "cryoablation",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Cryoablation",
+      "https://pubmed.ncbi.nlm.nih.gov/25442132/",
+      "https://www.radiologyinfo.org/en/info/thermal-ablation-therapy",
+      "https://www.cancer.gov/about-cancer/treatment/types/surgery/cryosurgery",
+      "https://pubmed.ncbi.nlm.nih.gov/9787063/",
+      "https://pubmed.ncbi.nlm.nih.gov/22933102/",
+      "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "sbrt",
+    "ownerFiles": [
+      "src/data/technologies.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Stereotactic_radiosurgery",
+      "https://www.nice.org.uk/guidance/ng122/chapter/Management",
+      "https://www.cancerresearchuk.org/about-cancer/lung-cancer/living-with/coping-with-breathlessness",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "https://pubmed.ncbi.nlm.nih.gov/35283342/",
+      "https://pubmed.ncbi.nlm.nih.gov/20233825/",
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/",
+      "https://pubmed.ncbi.nlm.nih.gov/42842849/",
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "sbrt-term",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Stereotactic_body_radiation_therapy",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "https://pubmed.ncbi.nlm.nih.gov/35283342/",
+      "https://pubmed.ncbi.nlm.nih.gov/20233825/",
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/",
+      "https://pubmed.ncbi.nlm.nih.gov/42842849/",
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1556_web.pdf"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "radiotherapy",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Radiation_therapy",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam",
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "hypofractionation",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Hypofractionation",
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/18356109/",
+      "https://pubmed.ncbi.nlm.nih.gov/24055415/",
+      "https://pubmed.ncbi.nlm.nih.gov/32580883/",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "hypofractionated-radiotherapy",
+    "ownerFiles": [
+      "src/data/radiation-wave1.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Hypofractionated_radiation_therapy",
+      "https://www.nice.org.uk/guidance/ng131/chapter/Recommendations",
+      "https://doi.org/10.1056/EVIDoa2300018",
+      "https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1196_web.pdf",
+      "https://pubmed.ncbi.nlm.nih.gov/18356109/",
+      "https://pubmed.ncbi.nlm.nih.gov/24055415/",
+      "https://pubmed.ncbi.nlm.nih.gov/32580883/",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy/external-beam"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "immunogenic-cell-death",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Immunogenic_cell_death",
+      "https://pubmed.ncbi.nlm.nih.gov/32209603/",
+      "https://pubmed.ncbi.nlm.nih.gov/41213939/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "in-situ-vaccination",
+    "ownerFiles": [
+      "src/data/frontier.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "principle",
+      "strengths",
+      "limitations",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer",
+      "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "abscopal-effect",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Abscopal_effect",
+      "https://pubmed.ncbi.nlm.nih.gov/32209603/",
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "systemic-vs-local-therapy",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Systemic_therapy",
+      "https://www.cancer.gov/about-cancer/treatment/types/radiation-therapy",
+      "https://pubmed.ncbi.nlm.nih.gov/41213939/",
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/",
+      "https://pubmed.ncbi.nlm.nih.gov/42842849/",
+      "https://pubmed.ncbi.nlm.nih.gov/35108059/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "theranostics",
+    "ownerFiles": [
+      "src/data/terms.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Theranostics",
+      "https://www.fda.gov/media/129547/download",
+      "https://pubmed.ncbi.nlm.nih.gov/37246997/",
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-lutetium-lu-177-vipivotide-tetraxetan-androgen-receptor-pathway-inhibitor-therapy"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "nsabp-b51",
+    "ownerFiles": [
+      "src/data/spikes/breast-treatment-trials-radiotherapy.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "result",
+      "replication",
+      "notes",
+      "links",
+      "keyPapers"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT01872975",
+      "https://doi.org/10.1056/NEJMoa2414859",
+      "https://pubmed.ncbi.nlm.nih.gov/40466065/",
+      "https://clinicaltrials.gov/study/NCT01901094"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "acosog-z0011",
+    "ownerFiles": [
+      "src/data/spikes/breast-treatment-trials-surgery.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links",
+      "enrolledBasis",
+      "enrolledNote",
+      "notes"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT00003855",
+      "https://doi.org/10.1001/jama.2017.11470",
+      "https://pubmed.ncbi.nlm.nih.gov/28898379/",
+      "https://clinicaltrials.gov/study/NCT01901094"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "amaros",
+    "ownerFiles": [
+      "src/data/spikes/breast-treatment-trials-surgery.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links",
+      "enrolledBasis",
+      "enrolledNote"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT00014612",
+      "https://doi.org/10.1200/JCO.22.01565",
+      "https://pubmed.ncbi.nlm.nih.gov/25439688/",
+      "https://pubmed.ncbi.nlm.nih.gov/36383926/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "sentinel-node",
+    "ownerFiles": [
+      "src/data/technologies.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Sentinel_lymph_node",
+      "https://www.cancer.gov/types/breast/treatment/surgery",
+      "https://pubmed.ncbi.nlm.nih.gov/28898379/",
+      "https://pubmed.ncbi.nlm.nih.gov/25439688/",
+      "https://clinicaltrials.gov/study/NCT01901094"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "lumpectomy",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Lumpectomy",
+      "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer",
+      "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+      "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer",
+      "https://doi.org/10.1056/NEJMoa020989",
+      "https://doi.org/10.1056/NEJMoa022152",
+      "https://doi.org/10.1016/S0140-6736(11)61629-2",
+      "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "mastectomy",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Mastectomy",
+      "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/removing-the-breast-mastectomy",
+      "https://www.nhs.uk/tests-and-treatments/mastectomy/",
+      "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+      "https://www.cancerresearchuk.org/about-cancer/breast-cancer/treatment/surgery/breast-reconstruction",
+      "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "https://www.cancer.gov/types/breast/treatment/surgery"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "breast-reconstruction",
+    "ownerFiles": [
+      "src/data/spikes/breast-treatment.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://www.nice.org.uk/guidance/ng101",
+      "https://doi.org/10.1001/jamasurg.2018.1677",
+      "https://doi.org/10.1016/S1470-2045(18)30781-2",
+      "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+      "https://www.cancerresearchuk.org/about-cancer/breast-cancer/treatment/surgery/breast-reconstruction",
+      "https://www.macmillan.org.uk/cancer-information-and-support/breast-cancer/breast-reconstruction",
+      "https://www.nhs.uk/tests-and-treatments/mastectomy/",
+      "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "resection-margins",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Resection_margin",
+      "https://doi.org/10.1111/j.1365-2559.2009.03376.x",
+      "https://doi.org/10.1097/sla.0000000000002557",
+      "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "https://www.cancer.gov/types/breast/treatment/surgery",
+      "https://pubmed.ncbi.nlm.nih.gov/38569931/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "breast-margins-and-re-excision",
+    "ownerFiles": [
+      "src/data/spikes/breast-living.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "notes",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+      "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer",
+      "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer",
+      "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "pacific",
+    "ownerFiles": [
+      "src/data/spikes/nsclc.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "result",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT02125461",
+      "https://pubmed.ncbi.nlm.nih.gov/35108059/"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+    "ownerFiles": [
+      "src/data/spikes/lung-evidence-papers-immunotherapy.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "whatItMeans",
+      "caveats",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://doi.org/10.1200/JCO.21.01308",
+      "https://pubmed.ncbi.nlm.nih.gov/35108059/",
+      "https://clinicaltrials.gov/study/NCT02125461"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "lymph-node-status",
+    "ownerFiles": [
+      "src/data/terms-jargon.ts"
+    ],
+    "changedFields": [
+      "asOf",
+      "tldr",
+      "summary",
+      "links"
+    ],
+    "sourceURLs": [
+      "https://en.wikipedia.org/wiki/Lymph_node_metastasis",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/",
+      "https://clinicaltrials.gov/study/NCT01901094",
+      "https://www.cancer.gov/types/breast/treatment/surgery"
+    ],
+    "scope": "Only listed new authored fields are checked; unrelated retained fields are not certified."
+  },
+  {
+    "recordId": "completion-surgery",
+    "ownerFiles": [
+      "src/data/education-therapeutic-evidence.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "category",
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "cancers",
+      "trials",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "https://pubmed.ncbi.nlm.nih.gov/28898379/",
+      "https://pubmed.ncbi.nlm.nih.gov/25439688/",
+      "https://clinicaltrials.gov/study/NCT01901094"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "regional-nodal-irradiation",
+    "ownerFiles": [
+      "src/data/education-therapeutic-evidence.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "category",
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "cancers",
+      "trials",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/40466065/",
+      "https://clinicaltrials.gov/study/NCT01872975",
+      "https://clinicaltrials.gov/study/NCT01901094",
+      "https://www.cancer.gov/types/breast/treatment/radiation"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "paper-booster-ablation-immunotherapy-2025",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "tldr",
+      "summary",
+      "journal",
+      "year",
+      "doi",
+      "pmid",
+      "authors",
+      "paperType",
+      "participants",
+      "findings",
+      "caveats",
+      "whatItMeans",
+      "cancers",
+      "trials",
+      "technologies",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/41213939/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12603194/"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "paper-curb-oligoprogression-lancet-2024",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "tldr",
+      "summary",
+      "journal",
+      "year",
+      "doi",
+      "pmid",
+      "authors",
+      "paperType",
+      "participants",
+      "findings",
+      "caveats",
+      "whatItMeans",
+      "cancers",
+      "trials",
+      "technologies",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC10880046/",
+      "https://clinicaltrials.gov/study/NCT03808662"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "paper-nrg-br002-jco-2026",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "tldr",
+      "summary",
+      "journal",
+      "year",
+      "doi",
+      "pmid",
+      "authors",
+      "paperType",
+      "participants",
+      "findings",
+      "caveats",
+      "whatItMeans",
+      "cancers",
+      "trials",
+      "technologies",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/42842849/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC13647293/",
+      "https://clinicaltrials.gov/study/NCT02364557"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "paper-nsabp-b51-nejm-2025",
+    "ownerFiles": [
+      "src/data/key-papers/solid-tumours.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "tldr",
+      "summary",
+      "journal",
+      "year",
+      "doi",
+      "pmid",
+      "authors",
+      "paperType",
+      "participants",
+      "findings",
+      "caveats",
+      "whatItMeans",
+      "cancers",
+      "trials",
+      "technologies",
+      "related",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/40466065/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/",
+      "https://clinicaltrials.gov/study/NCT01872975"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "curb-oligoprogression",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "nct",
+      "phase",
+      "status",
+      "yearReported",
+      "setting",
+      "sponsor",
+      "started",
+      "startedType",
+      "enrolled",
+      "enrolledBasis",
+      "enrolledNote",
+      "tldr",
+      "summary",
+      "result",
+      "cancers",
+      "technologies",
+      "keyPapers",
+      "links",
+      "asOf",
+      "tags",
+      "outcomes"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT03808662",
+      "https://pubmed.ncbi.nlm.nih.gov/38104577/"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "nrg-br002",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "nct",
+      "phase",
+      "status",
+      "yearReported",
+      "setting",
+      "sponsor",
+      "started",
+      "startedType",
+      "enrolled",
+      "enrolledBasis",
+      "tldr",
+      "summary",
+      "result",
+      "cancers",
+      "technologies",
+      "keyPapers",
+      "links",
+      "asOf",
+      "tags",
+      "outcomes"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT02364557",
+      "https://pubmed.ncbi.nlm.nih.gov/42842849/"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  },
+  {
+    "recordId": "alliance-a011202",
+    "ownerFiles": [
+      "src/data/trials.ts"
+    ],
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "nct",
+      "phase",
+      "status",
+      "setting",
+      "sponsor",
+      "started",
+      "startedType",
+      "enrolled",
+      "enrolledBasis",
+      "tldr",
+      "summary",
+      "result",
+      "cancers",
+      "technologies",
+      "terms",
+      "links",
+      "asOf",
+      "tags"
+    ],
+    "sourceURLs": [
+      "https://clinicaltrials.gov/study/NCT01901094"
+    ],
+    "scope": "New canonical record with source, population and interpretation limits; no optional product-schema fields added."
+  }
+]

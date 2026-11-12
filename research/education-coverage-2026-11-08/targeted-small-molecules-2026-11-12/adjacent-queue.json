@@ -1,0 +1,43 @@
+{
+  "newGroup": {
+    "id": "targeted-small-molecule-source-scope",
+    "title": "Targeted inhibitor source depth and retained catalogue claims",
+    "domain": "therapeutics-targeted-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/23064645/",
+      "https://pubmed.ncbi.nlm.nih.gov/29373071/",
+      "https://clinicaltrials.gov/study/NCT01889238"
+    ],
+    "discoveryOccurrences": [
+      "targeted-small-molecules-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional coverage credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Current field representation and source-depth limits are explicit. This preserves separate work on retained catalogue assertions and source deepening rather than certifying them through a new asOf or an adjacent class definition.",
+      "points": [
+        {
+          "id": "targeted-retained-catalogue-claims",
+          "requirement": "Retained ARPI, CDK4/6, EGFR, BRD4 and PI3K/AKT/mTOR catalogue scalars, older prevalence/resistance figures and linked clinical programmes outside the named corrections need their own current primary checks. The new general CDK class does not independently assess the narrower pending conjugated-payload records.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Retained ARPI, CDK4/6, EGFR, BRD4 and PI3K/AKT/mTOR catalogue scalars, older prevalence/resistance figures and linked clinical programmes outside the named corrections need their own current primary checks. The new general CDK class does not independently assess the narrower pending conjugated-payload records."
+          ]
+        },
+        {
+          "id": "targeted-source-deepening",
+          "requirement": "Traina, Carey and O'Reilly full bodies remain inaccessible on the recorded legal routes; their complete abstracts retain their actual scope. Traina CBR stability and single-arm design are independently checked in the matched primary registry. Find a source specifying the short-lived transcript species and response before replacing the current conditional CDK9 assay-reading rule with a general empirical claim. Registry commentaries were not read beyond the listed funding correction.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Traina, Carey and O'Reilly full bodies remain inaccessible on the recorded legal routes; their complete abstracts retain their actual scope. Traina CBR stability and single-arm design are independently checked in the matched primary registry. Find a source specifying the short-lived transcript species and response before replacing the current conditional CDK9 assay-reading rule with a general empirical claim. Registry commentaries were not read beyond the listed funding correction."
+          ]
+        }
+      ]
+    }
+  },
+  "globalGroups": 67,
+  "literatureOccurrenceCensusUnchanged": 917
+}

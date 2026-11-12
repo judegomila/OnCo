@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:23.039Z",
+  "request": {
+    "query": "Which original statistical methods studies explain common oncology errors involving causal estimands, intercurrent events, treatment-effect interactions, competing risks, repeated biomarkers, calibration and clinical utility?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-267301274",
+        "title": "Inference for Cumulative Incidences and Treatment Effects in Randomized Controlled Trials With Time‐to‐Event Outcomes Under ICH E9 (R1)",
+        "authors": [
+          "Yuhao Deng",
+          "Shasha Han",
+          "Xiao-Hua Zhou"
+        ],
+        "year": 2024,
+        "doi": "10.1002/sim.70091",
+        "pmid": "40386918",
+        "venue": "Statistics in Medicine",
+        "citedByCount": 2,
+        "urls": [
+          "https://arxiv.org/pdf/2401.14684",
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.70091"
+        ],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.70091",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "ce080407f3dc2e305b4d2632a8dc44f9e267edfc87535fbae5cbd13b86f3427c",
+          "characters": 1199
+        }
+      },
+      {
+        "elicitId": "ss-292898630",
+        "title": "Estimands for combination therapy oncology trials with competing risks and their integration with Project SignifiCanT.",
+        "authors": [
+          "Ayon Mukherjee",
+          "Satrajit Roychoudhury",
+          "Atanu Bhattacharjee",
+          "J. Wason"
+        ],
+        "year": 2026,
+        "doi": "10.1080/10543406.2026.2741430",
+        "pmid": "42870401",
+        "venue": "Journal of Biopharmaceutical Statistics",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/10543406.2026.2741430?needAccess=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.tandfonline.com/doi/pdf/10.1080/10543406.2026.2741430?needAccess=true",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "00bdc4093c19b752cd0ff35f90ff1e2ac8a42bbcdc05ec5651e97ea33280a0bb",
+          "characters": 1778
+        }
+      },
+      {
+        "elicitId": "ss-51620235",
+        "title": "Estimation of causal effects in clinical endpoint bioequivalence studies in the presence of intercurrent events: noncompliance and missing data",
+        "authors": [
+          "Y. Lou",
+          "Michael P. Jones",
+          "Wan-Jie Sun"
+        ],
+        "year": 2018,
+        "doi": "10.1080/10543406.2018.1489408",
+        "pmid": "29995564",
+        "venue": "Journal of Biopharmaceutical Statistics",
+        "citedByCount": 21,
+        "urls": [
+          "https://figshare.com/articles/journal_contribution/Estimation_of_causal_effects_in_clinical_endpoint_bioequivalence_studies_in_the_presence_of_intercurrent_events_noncompliance_and_missing_data/6804644"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://figshare.com/articles/journal_contribution/Estimation_of_causal_effects_in_clinical_endpoint_bioequivalence_studies_in_the_presence_of_intercurrent_events_noncompliance_and_missing_data/6804644",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "b9a5fac868c3541d13cd36fc4e8b93c20a02c33e35ae8ee993bdf42bd5bb2e9f",
+          "characters": 1408
+        }
+      },
+      {
+        "elicitId": "ss-241190485",
+        "title": "Competing Risks",
+        "authors": [
+          "A. Latouche",
+          "Gang Li",
+          "Qinghe Yang"
+        ],
+        "year": 2019,
+        "doi": "10.1201/9781315112084-21",
+        "pmid": null,
+        "venue": "Textbook of Clinical Trials in Oncology",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "da1bfb187c1c5e1d4ef5afd65063295cdda5a3fc7523ff42a13359b36b44be6e",
+          "characters": 512
+        }
+      },
+      {
+        "elicitId": "ss-289706696",
+        "title": "Causal Inference for All: Marginal Estimands for Outcomes Truncated by Death",
+        "authors": [
+          "Rui-Xi Zhao",
+          "M. Stensrud",
+          "Lin-Bo Wang"
+        ],
+        "year": 2026,
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "5b906e135859f655b225c47f47450618c1bb848127d78e0ed330c9b28a4a8fa2",
+          "characters": 1099
+        }
+      },
+      {
+        "elicitId": "ss-276782359",
+        "title": "Estimating treatment effects with competing intercurrent events in randomized controlled trials",
+        "authors": [
+          "Sizhu Lu",
+          "Yan-Yao Yi",
+          "Y. Qu",
+          "Huayu Liu",
+          "Ting Ye",
+          "Peng Ding"
+        ],
+        "year": 2025,
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "55ec65a0097871919cd4de4f93a61dfbec1a8c15fcab01057e8c6cfdd757a678",
+          "characters": 1858
+        }
+      },
+      {
+        "elicitId": "ss-270526128",
+        "title": "MSR80 Estimands and Strategies for Handling Treatment Switching As an Intercurrent Event in Evidence Synthesis of Randomized Clinical Trials in Oncology",
+        "authors": [
+          "R. Metcalfe",
+          "A. Gorst-Rasmussen",
+          "A. Morga",
+          "Remiro Azocar A",
+          "J. Park"
+        ],
+        "year": 2024,
+        "doi": "10.1016/j.jval.2024.03.1513",
+        "pmid": null,
+        "venue": "Value in Health",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-281310359",
+        "title": "Robust evaluation of treatment effects in longitudinal studies with truncation by death or other intercurrent events",
+        "authors": [
+          "Georgi Baklicharov",
+          "K. Van Lancker",
+          "S. Vansteelandt"
+        ],
+        "year": 2025,
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "925e7e44637badb4415d1d98dd7c8f6267d9c8af289ff3ffc0512e6058d5de3c",
+          "characters": 1861
+        }
+      },
+      {
+        "elicitId": "ss-281819272",
+        "title": "Estimating treatment effects in trials with outcome data truncated by death: A case study on aligning estimators with estimands",
+        "authors": [
+          "T. Pham",
+          "B. C. Kahan",
+          "Andre Lopes",
+          "Memuna Rashid",
+          "Peter Hoskin",
+          "Ian R. White"
+        ],
+        "year": 2025,
+        "doi": "10.1177/17407745251360645",
+        "pmid": "41045149",
+        "venue": "Clinical Trials",
+        "citedByCount": 7,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9f7b5ac3e25b44f31504241870344200c7ce067d53f1f89b3c37151e5e20496f",
+          "characters": 2861
+        }
+      },
+      {
+        "elicitId": "ss-271945658",
+        "title": "Estimands in clinical trials of complex disease processes",
+        "authors": [
+          "Richard J. Cook",
+          "J. Lawless"
+        ],
+        "year": 2024,
+        "doi": "10.1177/17407745241268054",
+        "pmid": "39180288",
+        "venue": "Clinical Trials",
+        "citedByCount": 1,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11528884/pdf/10.1177_17407745241268054.pdf",
+          "https://doi.org/10.1177/17407745241268054"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11528884/pdf/10.1177_17407745241268054.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "fbb48d1d89bf0291c658883248472904b10dad6683660b8e66bf49d1885a9db0",
+          "characters": 1082
+        }
+      },
+      {
+        "elicitId": "ss-235790535",
+        "title": "Hypothetical Estimands in Clinical Trials: A Unification of Causal Inference and Missing Data Methods",
+        "authors": [
+          "Camila Olarte Parra",
+          "R. Daniel",
+          "J. Bartlett"
+        ],
+        "year": 2021,
+        "doi": "10.1080/19466315.2022.2081599",
+        "pmid": "37260584",
+        "venue": "Statistics in Biopharmaceutical Research",
+        "citedByCount": 50,
+        "urls": [
+          "https://www.tandfonline.com/doi/epdf/10.1080/19466315.2022.2081599?needAccess=true&role=button",
+          "https://orca.cardiff.ac.uk/id/eprint/161213/1/Hypothetical%20Estimands%20in%20Clinical%20Trials%20A%20Unification%20of%20Causal%20Inference%20and%20Missing%20Data%20Methods.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10228513/pdf/USBR_15_2081599.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.tandfonline.com/doi/epdf/10.1080/19466315.2022.2081599?needAccess=true&role=button",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "44faa78ac6627d4459476a179ffa6adeb668a76ed5e540ae1cae084f4a811ded",
+          "characters": 1284
+        }
+      },
+      {
+        "elicitId": "ss-67761364",
+        "title": "The choice to define competing risk events as censoring events and implications for causal inference",
+        "authors": [
+          "Jessica G. Young",
+          "E. T. Tchetgen Tchetgen",
+          "M. Hernán"
+        ],
+        "year": 2018,
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 10,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9618445e10cd8f7a1e5b2b85e8e6b6b91f12cc2069d5deeed20734b0cb737675",
+          "characters": 1448
+        }
+      },
+      {
+        "elicitId": "ss-252568207",
+        "title": "Multistate models as a framework for estimand specification in clinical trials of complex processes",
+        "authors": [
+          "A. Bühler",
+          "R. Cook",
+          "J. Lawless"
+        ],
+        "year": 2022,
+        "doi": "10.1002/sim.9675",
+        "pmid": "36721334",
+        "venue": "Statistics in Medicine",
+        "citedByCount": 22,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.9675"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/sim.9675",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "35f3968f54cb19a8b2f0e451ad39d6c66e0589f4c6e6ddcc9006726455a4f443",
+          "characters": 835
+        }
+      },
+      {
+        "elicitId": "ss-2500177",
+        "title": "Top ten errors of statistical analysis in observational studies for cancer research",
+        "authors": [
+          "A. Carmona-Bayonas",
+          "P. Jiménez-Fonseca",
+          "A. Fernández-Somoano",
+          "F. Álvarez-Manceñido",
+          "E. Castañón",
+          "A. Custodio",
+          "F. A. de la Peña",
+          "R. M. Payo",
+          "L. P. Valiente"
+        ],
+        "year": 2018,
+        "doi": "10.1007/s12094-017-1817-9",
+        "pmid": "29218627",
+        "venue": "Clinical and Translational Oncology",
+        "citedByCount": 26,
+        "urls": [
+          "http://hdl.handle.net/10651/46370"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "http://hdl.handle.net/10651/46370",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9e46ee0b907b37161f614642e01b2e6fe65c852fa766fff45629934fe8971be0",
+          "characters": 964
+        }
+      },
+      {
+        "elicitId": "ss-226270378",
+        "title": "Estimand framework: Are we asking the right questions? A case study in the solid tumor setting",
+        "authors": [
+          "M. Casey",
+          "E. Degtyarev",
+          "M. Lechuga",
+          "P. Aimone",
+          "A. Ravaud",
+          "R. Motzer",
+          "Feng Liu",
+          "V. Stalbovskaya",
+          "R. Tang",
+          "E. Butler",
+          "O. Sailer",
+          "S. Halabi",
+          "D. George"
+        ],
+        "year": 2020,
+        "doi": "10.1002/pst.2079",
+        "pmid": "33155417",
+        "venue": "Pharmaceutical statistics",
+        "citedByCount": 18,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "bc78b3f4187028d737f6bd07e0f201f1f0596b627bf87fa0b8b2864dac9a2cd9",
+          "characters": 1681
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "acee537e01a62409deff6c92d31eb9d44546f1ba4945cb5cf441e4ece81084ba",
+    "rawBytes": 31550,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

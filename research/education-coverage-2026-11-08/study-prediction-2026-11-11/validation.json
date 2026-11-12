@@ -1,0 +1,4987 @@
+{
+  "groups": {
+    "root": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 1.88
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.19
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 28.88
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 94.57
+        }
+      ],
+      "passedFiles": 284,
+      "passedTests": 2829,
+      "exports": {
+        "records": 19,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "roc-auc",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "roc-auc",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "roc-auc",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "roc-auc",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "roc-auc",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "roc-auc",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "concordance-index",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "concordance-index",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "concordance-index",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "concordance-index",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "concordance-index",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "calibration",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ppv",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ppv",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ppv",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ppv",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "ppv",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "trial-phases",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "trial-phases",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "trial-phases",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "trial-phases",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "randomised-trial",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "randomised-trial",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "randomised-trial",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "randomised-trial",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "preclinical",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "in-vitro-in-vivo",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "n-of-1-trial",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "n-of-1-trial",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "n-of-1-trial",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "n-of-1-trial",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prespecified-vs-post-hoc",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prespecified-vs-post-hoc",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prespecified-vs-post-hoc",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prespecified-vs-post-hoc",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prespecified-vs-post-hoc",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "subgroup-analysis",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "subgroup-analysis",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "subgroup-analysis",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "group-sequential-design",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "futility",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "futility",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "futility",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "real-world-evidence",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "real-world-evidence",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "real-world-evidence",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "real-world-evidence",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "real-world-evidence",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "publication-and-peer-review-status",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "publication-and-peer-review-status",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "publication-and-peer-review-status",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "publication-and-peer-review-status",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "publication-and-peer-review-status",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "case-report",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "case-report",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "case-report",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "case-report",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "meta-analysis",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "controlled-perturbation",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "controlled-perturbation",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "controlled-perturbation",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "controlled-perturbation",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "controlled-perturbation",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "false-discovery-rate",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "false-discovery-rate",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "false-discovery-rate",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "false-discovery-rate",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "false-discovery-rate",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "roc-auc.json",
+            "bytes": 5192,
+            "sha256": "03d9fb5be0517dc1ff662a82530312fc4ac78f1a81ed163e4893cf674110d3af"
+          },
+          {
+            "file": "roc-auc.md",
+            "bytes": 4393,
+            "sha256": "8c20852c3f78d285842534358545af2d0a61bcc8bea3b00ee7856c555e9e73b4"
+          },
+          {
+            "file": "concordance-index.json",
+            "bytes": 4412,
+            "sha256": "e533e874027c34436703ca9c520e9fd7ff703e8cadb5fd32e6f9caa1224ea399"
+          },
+          {
+            "file": "concordance-index.md",
+            "bytes": 3532,
+            "sha256": "4895628208589007fec30535a80e287eafbdfe73f4f84b602cb593f2e6f330ea"
+          },
+          {
+            "file": "calibration.json",
+            "bytes": 5684,
+            "sha256": "2f4421fb2c8672963c7dc936834752c9e0f484825d899c9305db8cc4ab39dfcf"
+          },
+          {
+            "file": "calibration.md",
+            "bytes": 4731,
+            "sha256": "81b79d09fc1fdddfdb23901d29c39353cae687117e169bab5049a51f14aafad3"
+          },
+          {
+            "file": "ppv.json",
+            "bytes": 12635,
+            "sha256": "cafc9716773ad001d2c626510981ecdcff6b153623740ec2e515fe7d4a9e2f7b"
+          },
+          {
+            "file": "ppv.md",
+            "bytes": 9881,
+            "sha256": "96725aaa7a3b8bed726b94bd1544ae468af666fae153e67561365adb9da9973c"
+          },
+          {
+            "file": "trial-phases.json",
+            "bytes": 11059,
+            "sha256": "e44d6be946564145a2c5cd9da34d95b0c0ef28f8008c76812392e95ee6a7ba67"
+          },
+          {
+            "file": "trial-phases.md",
+            "bytes": 7782,
+            "sha256": "2130ed8163061545143d1791a28ce1e6e24eac4de2e64b98ca58f408b39e4a9a"
+          },
+          {
+            "file": "randomised-trial.json",
+            "bytes": 7749,
+            "sha256": "0114810bbd638db7e548d5d786974bd9546e9ac91c6f12c72166bb149d38bab8"
+          },
+          {
+            "file": "randomised-trial.md",
+            "bytes": 5738,
+            "sha256": "209b7e6c30a8e18eb0e5ce20ff2f81d55360c04da6323b1d426815de0c955954"
+          },
+          {
+            "file": "preclinical.json",
+            "bytes": 10351,
+            "sha256": "1a24d71be349e88a07f7371101fbfa334d51c1245058968ea13ae0c2639e25a0"
+          },
+          {
+            "file": "preclinical.md",
+            "bytes": 8390,
+            "sha256": "aac10cb85f6a152bc6480ca31212c80dcfa7cfb7b50fdbcf70326267f233f7fd"
+          },
+          {
+            "file": "in-vitro-in-vivo.json",
+            "bytes": 8773,
+            "sha256": "a3fb582622545f748c128df184ddfe4232a664cd233410e7830f8f4e936e2646"
+          },
+          {
+            "file": "in-vitro-in-vivo.md",
+            "bytes": 7855,
+            "sha256": "cd345ba2ee0a6838fcbce2ea98c9020d3ac8b15e6ccf08374f2b06c23025ecac"
+          },
+          {
+            "file": "n-of-1-trial.json",
+            "bytes": 4904,
+            "sha256": "f9a3214705edfa78b160241790d21c83cb5aa66c8d98bf510915f92ce90001a0"
+          },
+          {
+            "file": "n-of-1-trial.md",
+            "bytes": 4089,
+            "sha256": "c9ff042fefbf243aff5d786bb120c2ba9356dd2381ba12b3057da10fb92a69a2"
+          },
+          {
+            "file": "prespecified-vs-post-hoc.json",
+            "bytes": 5797,
+            "sha256": "43b0c944b921703716178f3de9c2c18924b88d625615774522e3b25667c11dd2"
+          },
+          {
+            "file": "prespecified-vs-post-hoc.md",
+            "bytes": 4787,
+            "sha256": "7fe1a89e992232e3baead464c53394d09da325cc8b5db63ab49a20c238275e88"
+          },
+          {
+            "file": "subgroup-analysis.json",
+            "bytes": 4196,
+            "sha256": "913a955ff5011f9d4fc004d1799a520950e3cd1aa9c0ba987531087b25599349"
+          },
+          {
+            "file": "subgroup-analysis.md",
+            "bytes": 3410,
+            "sha256": "d45e45a06ae2578ef59724cedd722fc1a74e301abdd5424c3ceff1ecc56b8f66"
+          },
+          {
+            "file": "group-sequential-design.json",
+            "bytes": 7990,
+            "sha256": "37175f727b2e710aa60000722b16526074d5acbb9bd8370ad68cf49ef29d680e"
+          },
+          {
+            "file": "group-sequential-design.md",
+            "bytes": 6796,
+            "sha256": "fa638673502bf2645cf6267dc2bb10fde6858abb6f55ec4b1f562ca4e0e0882e"
+          },
+          {
+            "file": "futility.json",
+            "bytes": 4656,
+            "sha256": "79f91145d5c5638bef655e59d372d8bf082dc68192808477939f8b068e0903f4"
+          },
+          {
+            "file": "futility.md",
+            "bytes": 3684,
+            "sha256": "93258c08e211d49a9ad91558889e9234e308f0f1c569c9e2d4dca15ff6690b97"
+          },
+          {
+            "file": "real-world-evidence.json",
+            "bytes": 23816,
+            "sha256": "d9214aba9a2a215e5c26459fbf1b314e624b3cf5b8a2519e261087b8214f4073"
+          },
+          {
+            "file": "real-world-evidence.md",
+            "bytes": 17293,
+            "sha256": "d823e9443e793f984d02ef01808a55e397e9ca2602aff58a854c228a8ecb192d"
+          },
+          {
+            "file": "publication-and-peer-review-status.json",
+            "bytes": 4477,
+            "sha256": "aa628df6da820d0fb7b7dcf8b44b750691783450268d9a137980c35d95c3ea90"
+          },
+          {
+            "file": "publication-and-peer-review-status.md",
+            "bytes": 4023,
+            "sha256": "032f19e1a53d25765c00924b4a603aaaa87bf7341a243e4a3d03d2f48a34b34a"
+          },
+          {
+            "file": "case-report.json",
+            "bytes": 3011,
+            "sha256": "601e32a259dcf38b22434e5163422fc9dfc1eaf85503071a5fca40bf4fb30e54"
+          },
+          {
+            "file": "case-report.md",
+            "bytes": 2649,
+            "sha256": "d5735c62d933654c2b2d8b8e846e27bcd596e0af2cfa2d4581a743e5db6e04e8"
+          },
+          {
+            "file": "meta-analysis.json",
+            "bytes": 5265,
+            "sha256": "5e079b947ac2c2fb068d563caac360d732db3e563d287c14ced65a441bda6135"
+          },
+          {
+            "file": "meta-analysis.md",
+            "bytes": 4855,
+            "sha256": "2b0f3942240a45737b91decce6373d988f968a3dcf9492c4578ffc724c75a017"
+          },
+          {
+            "file": "controlled-perturbation.json",
+            "bytes": 4420,
+            "sha256": "a109487bdd3e452afd5dad24b5b5845408f676252dc0457c0b8e2ae5cfd57d0d"
+          },
+          {
+            "file": "controlled-perturbation.md",
+            "bytes": 4055,
+            "sha256": "9bec31c2dd3424ae24ac6f5e04e53260ea6a5c6f85f1071372399fdcaebbd924"
+          },
+          {
+            "file": "false-discovery-rate.json",
+            "bytes": 4218,
+            "sha256": "7866bb122a402a64c8e59a595f562db06432f3dea70a118be74676ca809b016a"
+          },
+          {
+            "file": "false-discovery-rate.md",
+            "bytes": 3849,
+            "sha256": "6c0381039e7f84366713ee5e292fe6175b28c33b6e7c83273ab4b0d897862120"
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+      },
+      "summarySelectors": {
+        "entries": 171,
+        "available": 19,
+        "EnglishFallback": 152,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 152,
+          "rows": [
+            {
+              "id": "roc-auc",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "roc-auc",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "concordance-index",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "calibration",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "ppv",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "trial-phases",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "randomised-trial",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "preclinical",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "in-vitro-in-vivo",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "n-of-1-trial",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prespecified-vs-post-hoc",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "subgroup-analysis",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "group-sequential-design",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "futility",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "real-world-evidence",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "publication-and-peer-review-status",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "case-report",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "meta-analysis",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "controlled-perturbation",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "false-discovery-rate",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "roc-auc-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "476388734a6f32850b4bf663a4d9c7c9d8590b466ca259c5b320f76695337f87"
+          },
+          {
+            "id": "concordance-index-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "c617d1aeaf80a35cca4287621989f5b2b86456959bf2f58ff61285e509c86943"
+          },
+          {
+            "id": "calibration-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "52a7f9cc6b9e532e3605aad87968ba2e0ca605d474b4c230d6d3c7d68ffba377"
+          },
+          {
+            "id": "ppv-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "8cf1ad9174a83dc70b91443f75ae4370f2b004334fc7dbb944542d95503024c8"
+          },
+          {
+            "id": "trial-phases-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "0c5b29447a23a9a036b78d58797722fead7fbdfb5d259dabddcdd4f6e13b704c"
+          },
+          {
+            "id": "randomised-trial-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "b329922ea8e8fb046e22f91dc384b53646451fa36cd6baf733edcde0f586f15d"
+          },
+          {
+            "id": "preclinical-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e25c0c8fc93f2d9f656c1e7ca7eef27c70d89007019bece98708b676fdded7d1"
+          },
+          {
+            "id": "in-vitro-in-vivo-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "489cec8f859a597449f4be6ff1416bb7dd5bc0f01206d7e224832933c1f2f7cd"
+          },
+          {
+            "id": "n-of-1-trial-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "0ed65c8c869aa00785fb8238be933f0ad6828379a00173fe2da525020fac65e7"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "5e62b8aa8a3087d587a67a4ecf3f85b0b880941a6c46dabb5c97aa319b3a68f6"
+          },
+          {
+            "id": "subgroup-analysis-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e782c42a2b576b69a22e66fcdecbe8c59124e7cc4fee9f7575aefc9736ca0404"
+          },
+          {
+            "id": "group-sequential-design-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "1f6203fce3865dca580b8131daf5c5704c0ee080f5fc67f289e6b2e4a62a514d"
+          },
+          {
+            "id": "futility-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "33119cf889b7a9b428fea2982012700895774c95a7f8a349d8f7accee2dc97f5"
+          },
+          {
+            "id": "real-world-evidence-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "a4a0a643124f4266dd0060105c32e8139347f4e2de4ec86ae2b291a2c6e889ec"
+          },
+          {
+            "id": "publication-and-peer-review-status-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "7bfadf0f6325aba51000dd4fb8375dd5afb2e2f47060d8574e01f29a87982593"
+          },
+          {
+            "id": "case-report-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "bf9a1b62887d3024f1cfd07fcb641c7a53f8f38c282e1e1864a18d917a0f1ab7"
+          },
+          {
+            "id": "meta-analysis-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "3b3f874f61190111331f383bb50987af357a187a913e0eb843144ceedc49d937"
+          },
+          {
+            "id": "controlled-perturbation-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "36ea22a01fb8f3a592cd46ef72f8df0f335ffffc23357b4fd91a70b7a072ef80"
+          },
+          {
+            "id": "false-discovery-rate-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "e135c334e138f6a96f1eee8409a2939092f76308838022b38ca43944caa685e5"
+          },
+          {
+            "id": "roc-auc-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "2a8145c8ad9913b6e0e1ad614faa9077d3b8695a691330def52edc6497a37f5d"
+          },
+          {
+            "id": "concordance-index-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "73e83eac6d20f213503f29a5dab4067ee635a9645e0c182e0b9c27944d4729a6"
+          },
+          {
+            "id": "calibration-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "85eb9c441779873ebdf8c7fe0524e1798c2e8fac1a052b3a6119ccb2c13b1cb2"
+          },
+          {
+            "id": "ppv-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "164e65211ef93a9f10b75f4a30508e8e72a76a92b112afdaacee72c8de2dd562"
+          },
+          {
+            "id": "trial-phases-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "7fcd01c8ed4c4d8a8c68f11234415fa0e83b97fc72a8e8a84582b62ef7fbc601"
+          },
+          {
+            "id": "randomised-trial-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "70abb3a51c0d0e64b09d38227e4570db04638a59ee0cee277a65dd375da13c6d"
+          },
+          {
+            "id": "preclinical-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5e63e3807baf64f95f7f9a40bd8798ae253ec482ffe0fafc3ef2594b7623d34d"
+          },
+          {
+            "id": "in-vitro-in-vivo-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "1d9986aa083ce6d3b6f596653559307b968a4d41cc827959a35528892555693f"
+          },
+          {
+            "id": "n-of-1-trial-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "648e7b161dbeac5c9b75c46648591742dbf55fd7b94277be7b63ef293dbd86a0"
+          },
+          {
+            "id": "prespecified-vs-post-hoc-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "708260fffa8ee9b66a3d9335ef2d38935f06cdc2620923aea4450cbc01066fba"
+          },
+          {
+            "id": "subgroup-analysis-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "849088e5070b5096a5f9f74500528ecedc1334932e485092e6879c189c728d63"
+          },
+          {
+            "id": "group-sequential-design-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "f19cd441619e6f4edd00e5dbdcb32dec3a6fe5dde3899ec4b7749e3ae2c5f8e0"
+          },
+          {
+            "id": "futility-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "3274bb1f093f4ce02a7c5c830cc7482453454e719ebc4142e74ba78239c89ce2"
+          },
+          {
+            "id": "real-world-evidence-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "5931ef73023ca2af4d357775ca7b9dd77fd2b0f2334cc17eb59e8145b0a1abdc"
+          },
+          {
+            "id": "publication-and-peer-review-status-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "8fcfaca4127cd9575501493e9a6c75593dfdc3bf0c8e37ab584434f7ae7191ac"
+          },
+          {
+            "id": "case-report-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "51ac879e8b8759bccef53d0ba5f589e1977fbb25a77981dc44b9cbfb01606b5e"
+          },
+          {
+            "id": "meta-analysis-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "38a734e3715593c3904e68328b75f9e5ef52b713a1fab0d5cbbb22bb0e3ce9fa"
+          },
+          {
+            "id": "controlled-perturbation-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "46005542ad9288d96fb11c09bbd432d534953b16d742e78475337f51ebd69b60"
+          },
+          {
+            "id": "false-discovery-rate-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "cca9ce86b92c17c27674bb62a61cefe795af85c6f813c92b0c9f8dcf755cdf98"
+          }
+        ]
+      }
+    },
+    "peer": {
+      "gates": [
+        {
+          "name": "validate",
+          "command": [
+            "npm",
+            "run",
+            "validate"
+          ],
+          "exitCode": 0,
+          "seconds": 2.36
+        },
+        {
+          "name": "typecheck",
+          "command": [
+            "npm",
+            "run",
+            "typecheck"
+          ],
+          "exitCode": 0,
+          "seconds": 3.31
+        },
+        {
+          "name": "lint",
+          "command": [
+            "npm",
+            "run",
+            "lint"
+          ],
+          "exitCode": 0,
+          "seconds": 29.01
+        },
+        {
+          "name": "full-suite",
+          "command": [
+            "npx",
+            "vitest",
+            "run"
+          ],
+          "exitCode": 0,
+          "seconds": 92.19
+        }
+      ],
+      "passedFiles": 281,
+      "passedTests": 2813,
+      "exports": {
+        "records": 5,
+        "exactEntityJSON": true,
+        "checks": [
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "cancer-drivers-vs-actionable",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 4,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 5,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "detection-versus-quantification",
+            "field": "notes",
+            "index": 6,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "confounding-by-indication",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "confounding-by-indication",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "confounding-by-indication",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "confounding-by-indication",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "tldr",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "summary",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "notes",
+            "index": 0,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "notes",
+            "index": 1,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "notes",
+            "index": 2,
+            "passageInActualMarkdown": true
+          },
+          {
+            "id": "biomarker-cutpoint-selection",
+            "field": "notes",
+            "index": 3,
+            "passageInActualMarkdown": true
+          }
+        ],
+        "files": [
+          {
+            "file": "cancer-drivers-vs-actionable.json",
+            "sha256": "93602184903a6c131b5206e7064e3cc78de9069bf76fc330a901df9d70cdf1c5",
+            "bytes": 6531
+          },
+          {
+            "file": "cancer-drivers-vs-actionable.md",
+            "sha256": "fdb840d054baffe449e9fd036a4eba7dba241736236047472fd3b34d1c9a8e72",
+            "bytes": 5393
+          },
+          {
+            "file": "detection-versus-quantification.json",
+            "sha256": "5deeaae30b39e46ceeaec3ddc2f0dc324601e5228795a9b6c37dc20d85af2122",
+            "bytes": 8009
+          },
+          {
+            "file": "detection-versus-quantification.md",
+            "sha256": "d5bd9e2091fbbf59197969f0f36e1996ae76b2b44500eb74f67b531d2ad833db",
+            "bytes": 7503
+          },
+          {
+            "file": "prognostic-versus-predictive-biomarkers.json",
+            "sha256": "c6d1aa82944df41c244121ec39a21bbd58d69a9876704c94e886f8ddde035b0e",
+            "bytes": 5102
+          },
+          {
+            "file": "prognostic-versus-predictive-biomarkers.md",
+            "sha256": "634b3cc69feb383706bb9afcab2f37d48893b02506b3a7e707859ace03ea0c80",
+            "bytes": 4619
+          },
+          {
+            "file": "confounding-by-indication.json",
+            "sha256": "4e6e28ec2ba892b2286708492843f1705946f29fdf789e1da84a357369c1911b",
+            "bytes": 3431
+          },
+          {
+            "file": "confounding-by-indication.md",
+            "sha256": "e34dcfca44787f2db12c777ec9f11dc42dac4c613f2acf4e9a1510cdf31bf875",
+            "bytes": 3054
+          },
+          {
+            "file": "biomarker-cutpoint-selection.json",
+            "sha256": "5724e2a45bfa4d48825f350dcfcd83e0f5152042b6bdf655c4ef175af60205f0",
+            "bytes": 5099
+          },
+          {
+            "file": "biomarker-cutpoint-selection.md",
+            "sha256": "f8fd10b09071f43eb8445350061d06d53b7b07ad3f03d3eb8b4fbd5d52f29ba9",
+            "bytes": 4649
+          }
+        ],
+        "openApiHasPathsAndComponents": true,
+        "scope": "All four generators completed successfully. The first comparison used a capture still being written; this verification uses final captures and the generated outputs without rerunning generators. No production Next build or deployment claim."
+      },
+      "summarySelectors": {
+        "entries": 45,
+        "available": 5,
+        "EnglishFallback": 40,
+        "longSummaryCache": {
+          "accepted": 0,
+          "rejectedStale": 0,
+          "absent": 40,
+          "rows": [
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "cancer-drivers-vs-actionable",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "detection-versus-quantification",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "prognostic-versus-predictive-biomarkers",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "confounding-by-indication",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "es",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "zh",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "pt",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "hi",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "fr",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "de",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "ja",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            },
+            {
+              "id": "biomarker-cutpoint-selection",
+              "language": "ar",
+              "stored": false,
+              "accepted": false,
+              "rejectedStale": false
+            }
+          ]
+        },
+        "existingReviewLabels": [],
+        "newNamedLanguageReviews": 0,
+        "files": [
+          {
+            "id": "cancer-drivers-vs-actionable-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-ar",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-de",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-es",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-fr",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-hi",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-ja",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-pt",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "2d99ee9ea0c00c1e197a53cb322aa6afa3a6a974fc212ec5a8cc699fa8126b1f"
+          },
+          {
+            "id": "detection-versus-quantification-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "2db931806978d33200c6a76166bd069e8a5fccb7199785384789009ee57d5927"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "173b2c1b7785b3568fb114e0f3360c9c4d84d8ff25a3290df30c41e2ef76a859"
+          },
+          {
+            "id": "confounding-by-indication-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "98031fa77e8f4177d48e3cc5bd827f109b8792076340a458bee43e575cd78861"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-zh",
+            "available": false,
+            "fallback": true,
+            "sha256": "957b8bb3bcbb4da5793e138faed730454f7cb91c50d202e2f7d731c8ab5b9960"
+          },
+          {
+            "id": "cancer-drivers-vs-actionable-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "faba6898247bebcfc23a24b860bc788179b1e38875a6d0ab4725fce0fa22cd40"
+          },
+          {
+            "id": "detection-versus-quantification-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "01f1ac318cc5a49ab20d0bd92a012282c0a6046700e3ae328d775640b5111b5d"
+          },
+          {
+            "id": "prognostic-versus-predictive-biomarkers-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "28479f1305f44437bde8f0960e3e4b73620b05d040cccc2f4e259f28892805aa"
+          },
+          {
+            "id": "confounding-by-indication-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "a254d1535d67b18c64cb538fff04c54c50484447be3ff03fec44d2c9fbf890e8"
+          },
+          {
+            "id": "biomarker-cutpoint-selection-simple",
+            "available": true,
+            "fallback": false,
+            "sha256": "4e84870e1c8bb8e578d5960c3005fb6237dd07811f4e00933215f2ea27b48775"
+          }
+        ]
+      }
+    }
+  },
+  "reader": {
+    "fieldPassages": 130,
+    "missing": [],
+    "checks": [
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "20262e6aa07bd8c0b9f068872afc9757ec02e5292f2b3b6aac97a93be844b8dc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "c01e8bbad455ccb50f5d5c5c86eef989c633e99ea6fe280fff75fafa2bc1d35f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "roc-auc",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "874b0e1e9aeece6d1099cbf92e0e1397bf26187088547c241befce938fd25431",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "concordance-index",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "d506c462acf7bfd28ee5e76848807f6ebca26966164d7115fce6fb4ae7d75f96",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "concordance-index",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "bcb123a0085cc4bae8995400826e52d2fee5dbab0a6f6ac95ad056d51319d0ad",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "concordance-index",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "981e84c8b72d0ebc7e3a21069776931d0777b61af645936df1f355ee17762167",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "concordance-index",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "concordance-index",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "9c6dd7b914123c4a313ad3adb7bc8962844fd5046f061b8c40a4ae6fb9b3e2a1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6d010472e3d2e193b732d4a8db3f382b2ac3801c689a97c81e69cd1ca11a983c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "e282ec08a6a4b5aa160de6a54985264a0fd4c3945d81fcd18254a782bbfe68aa",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "calibration",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "b849cab85c3499d03742e3dd181e2a4b0c65b214c730072227d54e72d25bcc5c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ppv",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7c7670725c527ce56c4fa6799ce779d65a10bd1e52ddfabb159b24f164cd5faa",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ppv",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "ebc0071461f063189cfc6b8ff6a249f877becd25ea6bf266345442f8fa4678c9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ppv",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ppv",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "ppv",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "trial-phases",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "ea45ae61966fea8e307d0da3cf49b7a1b03335591acf10175081b12274b98752",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "trial-phases",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "8c36a07b02778c4fd45a94436bf646dcf1d72b523ced06acb6825b4b0ec69c27",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "trial-phases",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "trial-phases",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "4d8350c5437baedbcbd237f423dcf3f89d699276d403dfc7d6135ebd37d8a727",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "randomised-trial",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "f95c55bc6a73967838ab57d05ef1f144d1c9f759c7d643e85d78cdd2f938effe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "randomised-trial",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "262ec0e6cc1c4f7f61f0945b2824b28c3de93c3c407c53be8a03edc61311bd87",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "randomised-trial",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "34866b9054e9d4ea1afb4660daded5562c6cc4855f6a09ebe8c85e4976ef1450",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "randomised-trial",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "e07da32a78cf25dd731e259841dd757ff25ae7f578b6164fa0fefa92ff3a6ac8",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "4d07f43871f64c5a88c44ad448465e7f81ce53e1cb6d98150ff8758684d62f9c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "81b9854fdd81a49ee974456533d3b2436e935cb7d73def3c8404c80d0b24f5a0",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "fbf312df5f8a6111edaf782e3fb5890d7b9c240bff92e1bfeac0f2f120f0490e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "9d6a1f0031018cc4ae4ff79dc51e096ecd99ed000f1b83f75035998d3b3b2408",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "b16b85644558ec2b14112e1b1ba5855035f7974f51ab5beb1844e7bc36e20535",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "ff6a588daf2089c9e91b41c2e213d758c6c70ad6c665606f0352e2583edd4e94",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "preclinical",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "635480c13c8f1e769eab7362190b70f98a66df9a659101b4e13fcecfeffd120b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "0f908ef1b57fe83192c201b0949eee263d941e169e426cfedaf2b5cc4fd34c3c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "fdf0b0924c307ba9e3c54c52b16546d7db56b044504b1650779089bf0a852dda",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "4af2c1e6c67a380e93e9272241f2c0018d64b2130515f2177c40ef88aa9214dd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "656b3c9ef4680c6ad959f38744f086d5d1099fe0cf415a20fa3e80ebbe5581e4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "in-vitro-in-vivo",
+        "field": "notes",
+        "index": 6,
+        "segment": "field or note",
+        "passageSha256": "472f1c3adfbddf7c0f31c1354bd4e5a302b31661517252f59dba5db298d58256",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "n-of-1-trial",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "2084cd43b7a01a3230c3f9782f55d9f8717c02a72dfa739fa64d65ca8bf7a061",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "n-of-1-trial",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "b0cbfea42ff0600ec4eed0bad39d8b4d6a562d9409ae8f70b1d2c07a84f75526",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "n-of-1-trial",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "d5fae97b173b691ed5e676fdd150ceb87b9de01db695ce5dbc89f23c8deb5f83",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "n-of-1-trial",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "25899947406aeea4445c513d16939f79d3ccba0a56b0fba98df544d21c5f36df",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "prespecified-vs-post-hoc",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "0ba7261e10706567896e6f29d73101a97246f55c1bc22de337b30a867b653fd4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "prespecified-vs-post-hoc",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "4a1524d761b6df3acefd322dec54e5d24ac3da4640653e4df6f22f419fa5e87b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "prespecified-vs-post-hoc",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "4e91b0dbbb6a025ed4462bb361acab073832c421df1f4072bf76dbd7368e13d1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "prespecified-vs-post-hoc",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "be2a428d410ca08b54c2a18fcb06d7f0095d77b0ec72554e0edde382ba83fdd6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "prespecified-vs-post-hoc",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "96cc324cb79cca041e6c7e273e7a9c1dcecb1c9bf68d7754c3aa8267328f4be1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "subgroup-analysis",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "d5c021ecffb2d1d6aff12f6b9010680b380885c3a03c69d23f923dd162517ac3",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "subgroup-analysis",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "e9466310f7f96017c15848e8b4512cbd2cd6f8a63073ab604e8dc5cc673eba06",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "subgroup-analysis",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "35ef4cc9be5936b2fd21d4f090c0b2419a74396013032422ce72340605c2f7e1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "c26efa540fc50fa9771dcaa854289f32b8c1a42196b9056b4e19287f0ae128ef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "6ed39d7cf7349a5009986658db1d8051a2b1025a69947fcbf2c7775f10ec53fd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "23b1cdb545467b0c84841b6b42f02fd1de805f9dcf0ad1260c2ae1c56efcf1fe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "053d1bd0f9aa3cbb6b97e4ce36c7d97aee13ceadccfeb13b097b32e8f5667dfd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "02ddf3e8964cc1d982868870f2a17368cc9dc7e63b6a5b32ee062d93aba097ef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "group-sequential-design",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "b86d34cdf61d8a4305821dfb11c22fe451c6dbc1a2ad9acf1262d9fff2b7efb2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "futility",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7386b57a793331fd289e606e52c73e1343c485143160dee7a9fbf637fc9a938c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "futility",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "b57d77094a53582d28ae33ba8b407cfbef119d26960f6aa3219ab5b5bb30b389",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "futility",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7d642cd5cb43f2729585c64d04f1506881fbaca6172ba75ac90a78b279a2c77f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "real-world-evidence",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6c749e1eef7ec0c4da918c6b8c008cb85ef95daad8febcccc1c6ca632d5e93a5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "real-world-evidence",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "9cbc75506f1fd0a97d8129709e75bd1a4521524cf4402112479b717d8317bbe1",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "real-world-evidence",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "86b4a781fe5f0180d165792667faba13005ff2058aa22008029658d297182f3b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "real-world-evidence",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "real-world-evidence",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "ad7817830466c3226359927909ebfd261e38b5f51ccf3ef61080cf4e92a6f7a9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "publication-and-peer-review-status",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "f5c43b5d6acaf15bd974e306dac53ca86ff2994413fd35a071e4ba0b0f7e7511",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "publication-and-peer-review-status",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "5d5f5a9b392675cadd7f350ec9dca19913987e445331870f8f2511b76b6371e4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "publication-and-peer-review-status",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "ed5b7b350aa0992e2604eff9d10a6a8e0445dd1599174e32e42a4644c879a29a",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "publication-and-peer-review-status",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "97e17f3ee11f77bf46df32c530718749c36531b2cfdafb2a36bc0a3109cff2de",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "publication-and-peer-review-status",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "a52d1ae6e27389b461f28f982de80cdf2a4c5fc799e2e89aaaf1985ef3be6300",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "case-report",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "67d6bd5f4a630fb856a1dfd5ff56934f2252fcecebcb9855f7cc23d5351e59b9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "case-report",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "5adb56f893d47dbd84d9beb93a59dd3bb7461729e92e715f308e4c731fd803d4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "case-report",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "92ad5bd9880df7e365402907300444551fae5587e8b4a9de89345c29942a8587",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "case-report",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "870a8ba1f439c98bd6b44a8c1d50c85a27c61cc6a13df831eb5c7205a039f4fe",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "436b102779a7b9140a0194a6af8f8a67f98b4d979b1e0cd1d3c711f5c6c213e2",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "72eedbe1aa9c14df05da733f4093bd8ad3f62e7c1576eaefdb5179ed85bdcccd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "45245011d158f3a7e9e7590b3a3e7824e643782fe2892e8b711d1683a6290666",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "5a9a3608798d0681564774eadbbe38f7ac9e8be21f80ec3c9511efdec9b9adee",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "916261bc98bbf18fde20e1caf6075b4e24386e903f330d3c2a23625f1a048d54",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "d26153f07457566e16647b47a03b349975411cda4cd39a76a8a1a457c3ffba80",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "meta-analysis",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "a9e3b678714c12bc77f64296d24f121692245d908af10ed8ea53dd5c8b78e845",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "controlled-perturbation",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "755ab951ae085d30c479196326b91978241164ba9d0797c142c73d0d0243dd97",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "controlled-perturbation",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "9cffdcd03c258cc864f0e3de2b800ed82a9826ef1383464d50198853309ad471",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "controlled-perturbation",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "controlled-perturbation",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "3dc89241f95a440cd82ef42ad63a16a78711904b3c43a6ed4f1ac11602c50c41",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "controlled-perturbation",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "df399fea216b250eeff5aedfaab48b7851e9fd6baf54dc0080db5f05b87e0171",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "false-discovery-rate",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "975c14c785065c8bd0162d3b274ecf6645f335c20cfe80cd96d976842c48e6bd",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "false-discovery-rate",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "75ce7dd3cdc98174acbd74b7bd009efad5f4ae58ea96aec5834d9cbd6dc92d19",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "false-discovery-rate",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "false-discovery-rate",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+        "inActualReaderText": true
+      },
+      {
+        "group": "root",
+        "id": "false-discovery-rate",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "2911da86e235b7ec18432d9f45543694e1ba71e6c15ffc32a871d091b1a40112",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "e3d24b39284b5c13e7af52190ed0efd424e6766c33dc0204a4ad1fb8b210667b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "2401f757591e322680db2271f1c1a970a7ba6d1f2b61a9c1326bbb2e24b0266e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "bed10d93fb901e2f3d0f56f35d6682dddc4423a28a9d99c36645dcb6c054a23e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "7c49abdd4b2c9da436fb43e670457ee603ba88ce37b25a9d65e9f866516dbd3b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "82305c4362f3cbe13ebfce380cb8e47e2ca55fa4e37e0dd94d104cb12e0ba556",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "83aba1ef9d8efb1c3297d1ee054c67626416389077b95715cfceede787f766c7",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "cancer-drivers-vs-actionable",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "9646e26fe3e24483b962c6156afcd0a4797d494410c2e013ef74f8e2278a00a6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6d63ee2fdd20820a8cb7c41dd9e2a2b8239ac0a9e3d27bb3c4c0a645da4c3260",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "a5999a83864c3e9b3d1f3445a16f9586e32c3ac291a129cfcf29238066876847",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "7142986fc19890553e0259de252d5d23ff217ece6942fdea697ae2df93aebea9",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "02c975c9f65a742da351f7868837488711a21459e7395808d193de07f00a922c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "fae87e0406519f46961519e70c927ab51521d19001aa7f5e5ca207e66dea0047",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "f2b88ee1653ad71418fa1e82733ca25828ca23cd6bb93999d185567a36b0a892",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 4,
+        "segment": "field or note",
+        "passageSha256": "49a76694961e16832d6f5f41c3f799bd1c6140bcacf4d22f8bcba64b2c627c5c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 5,
+        "segment": "field or note",
+        "passageSha256": "0a4c50fdcf38cd5837683aee21e34e28f2e5e730e298c9ab023af2dd85a7746c",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "detection-versus-quantification",
+        "field": "notes",
+        "index": 6,
+        "segment": "field or note",
+        "passageSha256": "b55ba6d8c42044e35203f8946824544c9ebdfcdca92671929c8f2353c81f0678",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "43a233e4c7e4af608cdc366b2bf40d50a5596bd928e82b27b78735c96ce83402",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "37eff5f523eca268af3aa338e06ef5bb972244d53e96a4044476a3a9aa2b1086",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "8951d8e3ccc409e10d893bf53d76fa8a9eeba4a7e4125a2fe245125d20f180ba",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "dd9b80057db8b6662bd02fb15a96de4a8c57500abfef8bad60f06dadf5b89e3e",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "293c3a762dac2ad174b2eec67a13b5ce8c69493f6e8c338ae8105343526272ef",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "prognostic-versus-predictive-biomarkers",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "17bb321447116cc485f3f67450e29c7aa604b0803be397bd8b73c2badcfc0c3b",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "confounding-by-indication",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "b60f008b00d5261e5f5113b765d9289290684b448c797a05922867ba7ae6e144",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "confounding-by-indication",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "2cc61805d1e90290a5c737c4ea558acb707d5cca45a844cef7cbf714c6eda925",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "confounding-by-indication",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "bfe3b77aa33889cd091caf5b68867c938bd1f449efcd98d0aa47045caf8694a6",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "confounding-by-indication",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "214bb2eeb8cd1c72783da07ba06ba1f1f8e0d6afe29f2ee12c048cecaa9c67a5",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "tldr",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "c38f045b64cd1e4ec0eac011fb95b6b850feb9d277a517be872456cb6ade7f82",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "summary",
+        "index": 0,
+        "segment": "summary paragraph",
+        "passageSha256": "8fdef183224693e77102e4e5f7e6688c34a8850d5ea002311d37f6db00a4af34",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "notes",
+        "index": 0,
+        "segment": "field or note",
+        "passageSha256": "6c10b9fe0a04be1d650c38831b830a9b40c4a1e77ff2ae726a9d3d5eb0944a1f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "notes",
+        "index": 1,
+        "segment": "field or note",
+        "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "notes",
+        "index": 2,
+        "segment": "field or note",
+        "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+        "inActualReaderText": true
+      },
+      {
+        "group": "peer",
+        "id": "biomarker-cutpoint-selection",
+        "field": "notes",
+        "index": 3,
+        "segment": "field or note",
+        "passageSha256": "07a76398cf446bcd23859ebce2ca401c98fcfebaf7de866a0e53fdfb6cdbfeb4",
+        "inActualReaderText": true
+      }
+    ],
+    "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+  },
+  "regressions": "The initial root suite found an extractive-answer context regression. The companion suite found a house-style word in an analytical-material description. Both were corrected in source text; focused and complete chains then pass. No floor or budget changed.",
+  "limits": "Actual SSR and static generators, not a complete Next production build, browser hydration, expert review, merge or deployment."
+}

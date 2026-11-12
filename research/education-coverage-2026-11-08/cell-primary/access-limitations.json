@@ -1,0 +1,8 @@
+{
+  "failed": [
+    "NCBI BioC for PMC6048396 returned HTTP 429",
+    "Europe PMC fullTextXML for PMC6048396 and PMC11029721 returned HTTP 500"
+  ],
+  "alternate": "The primary PMC HTML pages returned substantive text; scoped irradiation and NFAT paragraphs were read there. Other BioC captures and official FDA/NCI pages were read as named.",
+  "scope": "No failed response was treated as source content. No unseen complete manuscript is claimed."
+}

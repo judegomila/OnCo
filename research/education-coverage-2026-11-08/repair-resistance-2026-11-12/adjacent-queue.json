@@ -1,0 +1,51 @@
+{
+  "newGroup": {
+    "id": "repair-resistance-source-depth",
+    "title": "Repair and resistance source notices, legacy claims and diagram qualification",
+    "domain": "repair-resistance-adjacent",
+    "sourceURLs": [
+      "https://doi.org/10.1158/2159-8290.CD-13-0326",
+      "https://pubmed.ncbi.nlm.nih.gov/21490603/"
+    ],
+    "discoveryOccurrences": [
+      "repair-resistance-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator follow-up intake; no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "These source-depth, deliberately withdrawn catalogue and source-diagram tasks remain separate from the represented pinned obligations. No original source bytes or artwork are rewritten.",
+      "points": [
+        {
+          "id": "birkbak-raw-correction",
+          "requirement": "Read the raw Birkbak 2013 correction body before claiming it checked. Identity is resolved; publisher HTML and PDF remain blocked. The current original counting method is separately read.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the raw Birkbak 2013 correction body before claiming it checked. Identity is resolved; publisher HTML and PDF remain blocked. The current original counting method is separately read."
+          ]
+        },
+        {
+          "id": "repair-resistance-withdrawn-catalogues",
+          "requirement": "Reverify deliberately withdrawn broad PARP indication/benefit and lung-resistance frequency/switching catalogues, and unsupported universal combination-cure/model extensions, before restoring them. Complete before and after fields are retained.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Reverify deliberately withdrawn broad PARP indication/benefit and lung-resistance frequency/switching catalogues, and unsupported universal combination-cure/model extensions, before restoring them. Complete before and after fields are retained."
+          ]
+        },
+        {
+          "id": "ddr-tp53-diagram-qualification",
+          "requirement": "Route the source DDR Mermaid edge that equates TP53 mutation with complete G1 checkpoint loss to its Guide owner. The OnCo prose now requires defined functional loss and does not certify a clinical selection rule; source bytes are preserved.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Route the source DDR Mermaid edge that equates TP53 mutation with complete G1 checkpoint loss to its Guide owner. The OnCo prose now requires defined functional loss and does not certify a clinical selection rule; source bytes are preserved."
+          ]
+        }
+      ]
+    }
+  },
+  "globalGroups": 64,
+  "frozenLiteratureOccurrencesUnchanged": 917
+}

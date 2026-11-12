@@ -25,7 +25,7 @@ const provenance = { editedBy: "OnCo content wave 5 (HGNC REST, UniProt REST, co
 const tags = ["wave5-target"];
 const NO_PREVALENCE = "Prevalence not recorded in this wave: HGNC and UniProt carry no positivity rates and no other source was consulted.";
 
-type T = Omit<TargetInput, "kind" | "asOf" | "provenance" | "tags">;
+type T = Omit<TargetInput, "kind" | "asOf" | "provenance" | "tags"> & Partial<Pick<TargetInput, "asOf">>;
 const t = (x: T): TargetInput => ({
   kind: "target", asOf, provenance, tags,
   ...x,
@@ -53,7 +53,11 @@ export const targetsWaveSoc: TargetInput[] = [
     biology: "CD28 is constitutively expressed on T cells, and CD80 on antigen-presenting cells is its primary auxiliary signal (UniProt P33681). The bispecific approach costimulates only T cells whose other arm is already engaged with a tumour antigen, here PSMA.",
     whereFound: ["T cells (constitutive); the costimulatory domain of CD19 CAR-T products", "Prostate cancer (PSMA x CD28 bispecific JNJ-87189401)"],
     cancers: ["prostate", "dlbcl"], pathways: ["cancer-immunity-cycle", "pd1-checkpoint"], technologies: ["car-t", "bispecific-antibody"],
-    drugs: ["jnj-87189401"], related: ["ipilimumab", "axicabtagene-ciloleucel", "brexucabtagene-autoleucel", "lisocabtagene-maraleucel", "ctla4", "cd80", "psma"] }),
+    drugs: ["jnj-87189401"], related: ["ipilimumab", "axicabtagene-ciloleucel", "brexucabtagene-autoleucel", "lisocabtagene-maraleucel", "ctla4", "cd80", "psma"] ,
+    asOf: "2026-11-09",
+    links: [{"label":"HGNC HGNC:1653","url":"https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:1653"},{"label":"UniProt P10747","url":"https://www.uniprot.org/uniprotkb/P10747/entry"},{"label":"NCBI Gene 940","url":"https://www.ncbi.nlm.nih.gov/gene/940"},{"label":"PubMed 1847722","url":"https://pubmed.ncbi.nlm.nih.gov/1847722/"},{"label":"PubMed 21474713","url":"https://pubmed.ncbi.nlm.nih.gov/21474713/"},{"label":"PubMed 28280249","url":"https://pubmed.ncbi.nlm.nih.gov/28280249/"}],
+    notes: ["Prevalence not recorded in this wave: HGNC and UniProt carry no positivity rates and no other source was consulted.","CD28 engages CD80/CD86 (B7) on presenting cells. Controlled B7/CD28 experiments demonstrated support for proliferation and IL-2 responses. CTLA-4 shares these ligands and can capture and degrade them by trans-endocytosis, reducing CD28 support. Shared binding partners do not make CD28 and CTLA-4 equivalent.","CD28/B7 support was required for effective PD-1 therapy in chronic viral infection and tumour-bearing mouse experiments. In related human lung-cancer observations, proliferating blood CD8 cells after treatment were predominantly CD28-positive. This does not validate CD28 abundance as a stand-alone treatment-selection test."]
+  }),
 
   t({ id: "hla-a", name: "HLA-A", symbol: "HLA-A", aka: ["HLA-A*02", "HLA-A*02:01", "major histocompatibility complex, class I, A"], hgnc: "HGNC:4931", ensembl: "ENSG00000206503", uniprot: "P04439", entrez: "3105", targetClass: "surface-antigen",
     tldr: "HLA-A is the molecule that holds up short pieces of a cell's proteins for T cells to inspect. Engineered T-cell receptor therapies such as tebentafusp and afami-cel only work in people with the HLA-A*02 variant, because the receptor recognises the tumour peptide sitting in that particular groove.",
@@ -163,19 +167,78 @@ export const targetsWaveSoc: TargetInput[] = [
 
   t({ id: "ido1", name: "IDO1", symbol: "IDO1", aka: ["IDO", "INDO", "indoleamine 2,3-dioxygenase 1"], hgnc: "HGNC:6059", ensembl: "ENSG00000131203", uniprot: "P14902", entrez: "3620", targetClass: "enzyme",
     tldr: "IDO1 is an enzyme tumours use to burn up tryptophan, starving T cells and producing by-products that switch them off. Epacadostat blocked it but its programme ended in failure; the IO102-IO103 vaccine instead teaches T cells to attack the IDO1-expressing cells themselves.",
-    summary: "IDO1 (chromosome 8p11.21) catalyses the first, rate-limiting step of tryptophan catabolism along the kynurenine pathway; the tryptophan shortage stops T lymphocytes dividing and the catabolites induce T-cell apoptosis and regulatory T-cell differentiation, so the enzyme maintains peripheral tolerance, protects the fetus from maternal rejection, limits intracellular pathogens and suppresses anti-tumour immunity (UniProt P14902). In OnCo, IDO1 is the target of epacadostat, a selective reversible enzyme inhibitor recorded as a negative programme in melanoma, and one of the two antigens (with PD-L1) of the IO102-IO103 peptide vaccine in phase 3 for melanoma and head and neck cancer.",
+    summary: "IDO1 (chromosome 8p11.21) catalyses the first, rate-limiting step of tryptophan catabolism along the kynurenine pathway; the tryptophan shortage stops T lymphocytes dividing and the catabolites induce T-cell apoptosis and regulatory T-cell differentiation, so the enzyme maintains peripheral tolerance, protects the fetus from maternal rejection, limits intracellular pathogens and suppresses anti-tumour immunity (UniProt P14902). In OnCo, IDO1 is the target of epacadostat, a selective reversible enzyme inhibitor recorded as a negative programme in melanoma, and one of the two antigens (with PD-L1) of the IO102-IO103 peptide vaccine in phase 3 for melanoma and head and neck cancer. The negative programme is the phase 3 ECHO-301/KEYNOTE-252 trial: in 706 people with unresectable or metastatic melanoma not previously treated with a PD-1 or PD-L1 blocker, epacadostat plus pembrolizumab did not improve progression-free survival (median 4.7 against 4.9 months, hazard ratio 1.00, 95 per cent confidence interval 0.83 to 1.21) or overall survival (hazard ratio 1.13, 0.86 to 1.49) compared with placebo plus pembrolizumab, and the authors concluded that the usefulness of IDO1 inhibition to enhance anti-PD-1 therapy remains uncertain (Long et al., 2019). That bounds one drug, one dose and one disease.",
     biology: "The two corpus approaches differ in kind: epacadostat blocked the enzyme's chemistry, while IO102-IO103 raises T cells against cells that express IDO1 or PD-L1 in the tumour microenvironment, turning the suppressive cells themselves into targets.",
     whereFound: ["Tumour cells and myeloid cells of the tumour microenvironment", "Melanoma and head and neck cancer (IO102-IO103); melanoma (epacadostat)"],
     cancers: ["melanoma", "head-and-neck"], pathways: ["nutrient-competition-tme", "immune-desert-exclusion", "cancer-immunity-cycle"], technologies: ["checkpoint-inhibitor"],
-    drugs: ["epacadostat", "io102-io103"], related: ["pdl1"] }),
+    drugs: ["epacadostat", "io102-io103"], related: ["pdl1"] ,
+"asOf": "2026-11-10",
+"links": [
+  {
+    "label": "Epacadostat plus pembrolizumab versus placebo plus pembrolizumab in patients with unresectable or metastatic melanoma (ECHO-301/KEYNOTE-252): a phase 3, randomised, double-blind study.",
+    "url": "https://doi.org/10.1016/s1470-2045(19)30274-8"
+  },
+  {
+    "label": "Expression of indoleamine 2,3-dioxygenase by plasmacytoid dendritic cells in tumor-draining lymph nodes.",
+    "url": "https://doi.org/10.1172/jci21583"
+  }
+],
+"notes": [
+  "Expression of IDO1 in a tissue section shows a measured protein in the sampled cells and not local enzyme activity, immune suppression or benefit from an inhibitor; IDO-dependent suppression has been shown by selected plasmacytoid dendritic cells in mouse tumour-draining lymph nodes (Munn et al., 2004), a separate layer of evidence from expression in human tissue."
+]
+}),
 
   t({ id: "brd4", name: "BRD4", symbol: "BRD4", aka: ["BET", "BET bromodomain proteins (BRD2, BRD3, BRD4, BRDT)", "bromodomain containing 4", "MCAP", "HUNK1"], hgnc: "HGNC:13575", ensembl: "ENSG00000141867", uniprot: "O60885", entrez: "23476", targetClass: "transcription",
-    tldr: "BRD4 is a reader protein that docks on acetylated DNA packaging and pulls in the machinery that switches growth genes such as MYC on. BET inhibitors such as pelabresib and ZEN-3694 block that docking; in NUT carcinoma the cancer's own driver is a BRD4 fusion.",
-    summary: "BRD4 (chromosome 19p13.12) is a chromatin reader of the BET (bromodomain and extra-terminal) family that binds acetylated histones, stays on chromatin through the cell cycle to preserve epigenetic memory and higher-order chromatin structure, and recruits the P-TEFb elongation complex to promoters and to distal enhancers to drive transcription of signal-inducible genes (UniProt O60885). In OnCo, BET inhibitors include pelabresib (phase 3 in primary myelofibrosis) and ZEN-3694, which binds the bromodomains of BRD2, BRD3 and BRD4 and is being tested in NUT carcinoma, prostate and triple-negative breast cancer; fedratinib carries BRD4 activity alongside JAK2 and FLT3; and NUT carcinoma is driven by a BRD4-NUT fusion, itself a BET protein, that the inhibitors displace from chromatin so the cells differentiate.",
+    tldr: "BRD4 reads acetyl marks on DNA-packaging proteins and helps regulate transcription. Blocking a recognition pocket and removing the whole protein test different functions.",
+    summary: "BRD4 is a chromatin reader that recognizes acetylated histones and helps regulate transcription. Its recognition pockets and other protein interactions can contribute different functions.\n\nEngaging an acetyl-recognition pocket and depleting a whole protein are different interventions. In selected TNBC models with acquired BET-inhibitor resistance, cells remained dependent on BRD4 through bromodomain-independent regulation. Verify pocket engagement and depletion independently before comparing growth outcomes. Neither operation alone establishes clinical benefit or a vulnerability caused by an uncharacterized BET-family variant.\n\nBET proteins read acetylated lysine marks; they do not write the acetyl mark. The family includes BRD2, BRD3, BRD4 and BRDT, with two bromodomains and an extra-terminal interaction region. BRD4 can recruit transcription-elongation machinery, but other bromodomain proteins are not all BET proteins and family members are not functionally interchangeable. A schematic that retains the same histone mark during pocket occupation and protein depletion isolates two different interventions. The fixed mark is a drawing convention rather than a measured unchanged acetylation state; the state of the mark needs its own measurement. A representative pocket also does not make JQ1 specific to BD1.\n\nIn a fictional culture, an engaged BET pocket probe leaves growth unchanged while independently controlled BRD4 depletion impairs growth. The findings can coexist if the remaining protein supplies functions the probe does not block, as the resistant-model work illustrates. Binding assays, chromatin occupancy, early RNA changes, later growth and death, general transcription effects and appropriate restoration controls answer different questions. Lower MYC RNA alone does not attribute a later effect to MYC.\n\nFrench identified a BRD4-NUT fusion in the defined carcinoma; a fusion is a different biological alteration from an ordinary sequence variant. Stathis reported four people with confirmed BRD4-NUT carcinomas treated with OTX015/MK-8628 in compassionate use: two had rapid regression, with no randomized comparison or established survival benefit. The report described thrombocytopenia, including reversible grade 3 events and a grade 4 event in one patient. This small selected series does not establish efficacy across BET-altered tumors.",
     biology: "The ZEN-3694 record describes BET inhibitors as blocking the bromodomain proteins that switch on growth genes such as MYC, with objective but short-lived responses in early NUT carcinoma trials of molibresib and birabresib; the epigenetic-reprogramming pathway record lists BET proteins among the chromatin readers hijacked in cancer.",
     whereFound: ["NUT carcinoma (BRD4-NUT fusion)", "Primary myelofibrosis (pelabresib)", "Castration-resistant prostate cancer and triple-negative breast cancer (ZEN-3694 trials)"],
     cancers: ["nut-carcinoma", "primary-myelofibrosis", "prostate", "tnbc"], pathways: ["transcription-addiction", "epigenetic-reprogramming", "myc"], technologies: ["epigenetic-drugs"],
-    drugs: ["pelabresib", "zen-3694", "fedratinib"], related: ["myc", "jak2"] }),
+    drugs: ["pelabresib", "zen-3694", "fedratinib"], related: [
+  "myc",
+  "jak2",
+  "chemical-probe"
+] ,
+"links": [
+  {
+    "label": "Response and resistance to BET bromodomain inhibitors in triple-negative breast cancer. (primary abstract; 2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26735014/"
+  },
+  {
+    "label": "Selective inhibition of BET bromodomains. (primary abstract; 2010)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20871596/"
+  },
+  {
+    "label": "Recruitment of P-TEFb for stimulation of transcriptional elongation by the bromodomain protein Brd4. (2005; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16109377/"
+  },
+  {
+    "label": "BET bromodomain inhibition as a therapeutic strategy to target c-Myc. (2011; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21889194/"
+  },
+  {
+    "label": "BRD4-NUT fusion oncogene: a novel mechanism in aggressive carcinoma. (2003; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12543779/"
+  },
+  {
+    "label": "Clinical Response of Carcinomas Harboring the BRD4-NUT Oncoprotein to the Targeted Bromodomain Inhibitor OTX015/MK-8628. (2016; primary evidence)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26976114/"
+  },
+  {
+  "label": "Phase 1 Study of Molibresib (GSK525762), a Bromodomain and Extra-Terminal Domain Protein Inhibitor, in NUT Carcinoma and Other Solid Tumors.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/32328561/"
+}
+],
+"asOf": "2026-11-12"
+,
+    notes: [
+  "BET proteins contain two recognition domains, BD1 and BD2, alongside other interaction regions. JQ1 competes with acetylated binding partners at these pockets. It was developed as an experimental chemical probe, with binding measured across bromodomains. The original work found binding to both BRD4 bromodomains and other BET-family members; a drawing of one occupied pocket does not make the compound specific to BD1. Compare the actual protein and domain profile of each compound. A preference for BD2, or for one family member, is not comparative evidence of human safety or anticancer benefit. Pocket occupation also leaves protein regions that a separately verified depletion experiment removes.",
+  "Piha-Paul and colleagues reported a first-in-human molibresib study in NUT carcinoma and other solid tumours, published online in 2019 and in the 2020 journal issue. The dose-escalation report included 65 patients and assessed exposure, pharmacodynamic effects, safety and preliminary activity. Thrombocytopenia and gastrointestinal events were frequent treatment-related adverse events in this study. Circulating monocyte chemoattractant protein 1 was a pharmacodynamic measurement, not a patient-benefit endpoint. These findings describe this product and study; they do not rank every BET inhibitor or show postoperative benefit in triple-negative breast cancer.",
+  "A binding or displacement assay tests the pocket interaction; chromatin occupancy and RNA output test later biological effects. Cell counts, growth, death and regrowth after washout answer further questions. State the protein or domain tested, compound, concentration, duration and comparator. Nanomolar, abbreviated nM, means one billionth of a mole per litre; RNA counts and signals normalised to a control use their own units. Genetic perturbation, an independent compound, comparison cells and monitoring of general transcription help distinguish a specific dependence from broad disruption. No single one of these readouts is a clinical sensitivity score.",
+  "Consider a fictional culture in which a BET inhibitor lowers MYC RNA while cells continue growing. The RNA change shows a measured transcriptional effect, not MYC-mediated cell death or absence of every remaining BET function. Check which protein and pocket were engaged, the timing of the RNA and growth measurements, general transcription, independently controlled protein perturbation and comparison cells. Shu and colleagues found that selected inhibitor-resistant triple-negative breast-cancer cultures still required BRD4 through bromodomain-independent regulation. That result explains why pocket response and whole-protein dependence can diverge; it does not predict patient benefit from the fictional result.",
+  "A BRD3 sequence variant, BRD4 dependence and sensitivity to a compound acting across BET proteins are three separate propositions. A family name cannot connect them without functional evidence. To explain a BET result, identify the reading interaction being perturbed, show which protein functions account for the measured effect and then state the comparative clinical evidence. Decreased MYC RNA is also different from directly inhibiting MYC protein."
+],
+  }),
 
   t({ id: "irf4", name: "IRF4", symbol: "IRF4", aka: ["MUM1", "LSIRF", "interferon regulatory factor 4"], hgnc: "HGNC:6119", ensembl: "ENSG00000137265", uniprot: "Q15306", entrez: "3662", targetClass: "transcription",
     tldr: "IRF4 is a master transcription factor of plasma cells and a protein myeloma cells cannot do without. Lenalidomide and its successors lower IRF4 by destroying the two factors, Ikaros and Aiolos, that keep it switched on.",

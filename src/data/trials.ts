@@ -33,31 +33,40 @@ const raw: TrialInput[] = [
     drugs: ["larotrectinib"], cancers: ["metastatic-cancer", "ntrk-fusion-nsclc"], targets: ["ntrk"],
     links: [ct("NCT02576431"), { label: "Drilon et al., Efficacy of larotrectinib in TRK fusion-positive cancers in adults and children (NEJM 2018)", url: "https://doi.org/10.1056/NEJMoa1714448" }] }),
   // ---- TNBC ----
-  t({ id: "keynote-522", name: "KEYNOTE-522", nct: "NCT03036488", phase: "3", status: "positive", yearReported: 2020, sponsor: "Merck",
+  t({
+     asOf:"2026-11-12", id: "keynote-522", name: "KEYNOTE-522", nct: "NCT03036488", phase: "3", status: "positive", yearReported: 2020, sponsor: "Merck",
     setting: "Early-stage (II-III) TNBC: pembrolizumab + chemotherapy before surgery, pembrolizumab after",
-    tldr: "The trial that added immunotherapy to pre-surgery chemotherapy for triple-negative breast cancer and, uniquely, improved survival.",
-    summary: "1,174 patients. pCR 64.8% vs 51.2%; event-free survival at 5 years 81.2% vs 72.2%; 7-year EFS 78.3% vs 69.8% and OS 85.1% vs 77.2% (ASCO 2026 update). Defines the standard of care for stage II-III TNBC. Open questions: whether adjuvant pembrolizumab is needed after pCR (OptimICE-pCR) and how to escalate for residual disease.",
+    tldr: "KEYNOTE-522 compared adding pembrolizumab before and after surgery with placebo on the same chemotherapy and surgery sequence in early triple-negative breast cancer. It measured improvements in response and survival.",
+    summary: "KEYNOTE-522 randomised 1,174 people with previously untreated stage II or III triple-negative breast cancer to a whole pembrolizumab or placebo strategy before and after surgery, with the same chemotherapy backbone. The first-602 pCR analysis reported 64.8% versus 51.2%. The 2022 report estimated three-year event-free survival at 84.5% versus 76.8%; the 2024 report estimated five-year overall survival at 86.6% versus 81.7%. An ASCO 2026 conference abstract reports seven-year EFS of 78.3% versus 69.8% and OS of 85.1% versus 77.2%. Keep each endpoint, analysis cohort and follow-up cutoff attached to its result. The trial did not separately randomise postoperative pembrolizumab or chemotherapy omission.",
     result: "EFS HR 0.63; OS HR 0.66 (5-year); 7-year OS 85.1% vs 77.2%.",
     drugs: ["pembrolizumab", "carboplatin", "paclitaxel"], cancers: ["tnbc", "tnbc-early"], technologies: ["checkpoint-inhibitor"], terms: ["pcr", "efs"],
     links: [ct("NCT03036488")], people: ["rebecca-dent", "peter-schmid", "loi-sherene"] }),
   t({ id: "keynote-355", technologies: ["checkpoint-inhibitor"], name: "KEYNOTE-355", nct: "NCT02819518", phase: "3", status: "positive", yearReported: 2020, sponsor: "Merck",
     setting: "First-line metastatic TNBC: pembrolizumab + chemotherapy vs chemotherapy",
-    tldr: "Established immunotherapy plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression.",
-    summary: "KEYNOTE-355, trial NCT02819518 sponsored by Merck and published in the New England Journal of Medicine in 2022, established pembrolizumab plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. It randomised 847 patients and met its primary progression-free and overall survival endpoints in tumours with a combined positive score of ten or more, with no benefit below that threshold, which defined the PD-L1 cut-off used today. OnCo links it to triple-negative breast cancer, pembrolizumab, the CPS term, the TNBC roadmap and IMpassion131. It is now being succeeded by ADC-based first-line regimens such as ASCENT-04, and whether chemotherapy remains part of first-line treatment at all is the open question.",
+    tldr: "This trial found longer survival with pembrolizumab plus chemotherapy in its selected group with previously untreated advanced triple-negative breast cancer.",
+    summary: "KEYNOTE-355, trial NCT02819518 sponsored by Merck and published in the New England Journal of Medicine in 2022, established pembrolizumab plus chemotherapy as first-line treatment for metastatic triple-negative breast cancer with PD-L1 expression. It randomised 847 patients and met its primary progression-free and overall survival endpoints in tumours with a combined positive score of ten or more, in the prespecified CPS-ten-or-more comparison. This does not prove that the effect is exactly absent in every lower-score group. OnCo links it to triple-negative breast cancer, pembrolizumab, the CPS term, the TNBC roadmap and IMpassion131. Other first-line strategies, including ADC-based regimens, are separate comparisons; this trial alone cannot rank them.",
     result: "OS HR 0.73 in CPS ≥10.",
-    drugs: ["pembrolizumab"], cancers: ["tnbc", "tnbc-metastatic"], terms: ["cps"], links: [ct("NCT02819518")] }),
+    drugs: ["pembrolizumab"], cancers: ["tnbc", "tnbc-metastatic"], terms: ["cps"], links: [ct("NCT02819518")] ,
+  asOf: "2026-11-12",
+  notes: [
+    "In this study, previously untreated referred to the locally recurrent inoperable or metastatic setting, not to absence of every earlier cancer treatment. The 2020 report stratified randomisation by previous exposure to the same chemotherapy class in neoadjuvant or adjuvant care. The later overall-survival report met its significance criterion for combined positive score ten or more; a nonsignificant broader subgroup or an untested significance comparison does not demonstrate exactly zero effect in each lower-score stratum."
+  ]
+}),
   t({ id: "impassion130", technologies: ["checkpoint-inhibitor"], name: "IMpassion130", nct: "NCT02425891", phase: "3", status: "mixed", yearReported: 2018, sponsor: "Roche",
     setting: "First-line metastatic TNBC: atezolizumab + nab-paclitaxel",
     tldr: "IMpassion130 was the first immunotherapy success in breast cancer, later undermined when a sister trial failed and the approval was withdrawn.",
     summary: "IMpassion130, trial NCT02425891 sponsored by Roche and reported in 2018, was the first immunotherapy success in breast cancer, adding atezolizumab to nab-paclitaxel in first-line metastatic triple-negative breast cancer, and it was later undermined when a sister trial failed and the approval was withdrawn. It randomised 902 patients, met its primary progression-free survival endpoint in PD-L1-positive patients by the SP142 assay, and showed a survival difference in that group that was not formally tested under the hierarchical design, but IMpassion131 with paclitaxel was negative and the US approval was withdrawn in 2021. The record treats it as a lesson in chemotherapy partner and biomarker assay choice, and why the two trials diverged is the open question.",
     result: "PFS HR 0.62 in PD-L1+; approval withdrawn 2021 (US).",
     drugs: ["atezolizumab", "paclitaxel"], cancers: ["tnbc", "tnbc-metastatic"], links: [ct("NCT02425891")], people: ["rebecca-dent", "peter-schmid"] }),
-  t({ id: "ascent", technologies: ["adc", "topoisomerase-inhibitors"], name: "ASCENT", nct: "NCT02574455", phase: "3", status: "positive", yearReported: 2020, sponsor: "Gilead (Immunomedics)",
+  t({
+    notes:["The 2021 primary report gives progression-free survival of 5.6 versus 1.7 months and overall survival of 12.1 versus 6.7 months in the population without brain metastases. The total randomised count, the primary population and the biomarker-assessable subset are different denominators. Current breast-cancer labels and sequencing questions should be read separately from the original comparison.",
+"All 468 participants in the original primary population without brain metastases had previously received a taxane. The comparator was physician's-choice single-agent eribulin, vinorelbine, capecitabine or gemcitabine. The 2021 progression-free and overall-survival results belong to that previously treated metastatic population; they are not a comparison between two ADCs or evidence for postoperative use or use after a specified prior TOP1 conjugate."
+], asOf:"2026-11-11", id: "ascent", technologies: ["adc", "topoisomerase-inhibitors"], name: "ASCENT", nct: "NCT02574455", phase: "3", status: "positive", yearReported: 2020, sponsor: "Gilead (Immunomedics)",
     setting: "Pretreated metastatic TNBC: sacituzumab govitecan vs chemotherapy",
-    tldr: "The trial that proved a TROP2 ADC could nearly double survival in heavily pretreated triple-negative breast cancer.",
-    summary: "ASCENT, trial NCT02574455 sponsored by Gilead through Immunomedics and published in the New England Journal of Medicine in 2020, proved that the TROP2 antibody-drug conjugate sacituzumab govitecan could nearly double survival in heavily pretreated metastatic triple-negative breast cancer. It randomised 529 patients with at least two prior lines to sacituzumab govitecan or chemotherapy, met its primary progression-free survival endpoint in patients without brain metastases and showed a large overall survival benefit with a much higher response rate, regardless of TROP2 expression level, which shaped the view that immunohistochemistry selection is unnecessary for TROP2 ADCs. Whether TROP2 ADCs work equally well after other topoisomerase payloads is the open question.",
+    tldr: "ASCENT compared sacituzumab govitecan with single-agent chemotherapy in previously treated metastatic triple-negative breast cancer. The primary analysis excluded patients with brain metastases.",
+    summary: "ASCENT (NCT02574455), published in the New England Journal of Medicine in 2021, randomised 529 patients overall. The primary population comprised 468 without brain metastases. Sacituzumab govitecan improved progression-free and overall survival compared with physician’s-choice single-agent chemotherapy in that population. The randomised comparison does not establish equal effects at every TROP2 expression level.\n\nA prespecified exploratory biomarker analysis had TROP2 data for 290 of the 468 primary-population patients. The authors supported benefit in the high and medium groups and considered the low group too small for a definitive conclusion. The absence of a TROP2 label-selection requirement is a separate regulatory fact. Post hoc demographic and brain-metastasis analyses retain their own populations and uncertainty; none is a prospective validation of a universal marker cutoff.",
     result: "OS 12.1 vs 6.7 months, HR 0.48.",
-    drugs: ["sacituzumab-govitecan"], cancers: ["tnbc", "tnbc-metastatic"], targets: ["trop2"], links: [ct("NCT02574455")], people: ["aditya-bardia"] }),
+    drugs: ["sacituzumab-govitecan"], cancers: ["tnbc", "tnbc-metastatic"], targets: ["trop2"], links: [{"label":"ClinicalTrials.gov NCT02574455","url":"https://clinicaltrials.gov/study/NCT02574455"},{"label":"ASCENT primary analysis (NEJM 2021)","url":"https://doi.org/10.1056/NEJMoa2028485"},{"label":"ASCENT subgroup analyses (npj Breast Cancer 2024)","url":"https://doi.org/10.1038/s41523-024-00635-5"},{"label":"NICE TA819 (17 August 2022)","url":"https://www.nice.org.uk/guidance/ta819"},{"label":"ASCENT original randomised report, 2021","url":"https://pubmed.ncbi.nlm.nih.gov/33882206/"},{"label":"ASCENT prespecified exploratory biomarker analysis","url":"https://pubmed.ncbi.nlm.nih.gov/34116144/"},{"label":"ASCENT post hoc subgroup report, 2024","url":"https://pubmed.ncbi.nlm.nih.gov/38664404/"}], people: ["aditya-bardia"] }),
   t({ id: "ascent-03", technologies: ["adc", "topoisomerase-inhibitors"], name: "ASCENT-03", nct: "NCT05382299", phase: "3", status: "positive", yearReported: 2025, sponsor: "Gilead",
     setting: "First-line metastatic TNBC, not candidates for PD-1 inhibitors: sacituzumab govitecan vs chemotherapy",
     tldr: "Moved Trodelvy into first-line use for triple-negative patients who cannot receive immunotherapy.",
@@ -82,11 +91,16 @@ const raw: TrialInput[] = [
     drugs: ["datopotamab-deruxtecan"], cancers: ["breast-hr-positive"], links: [ct("NCT05104866")], people: ["aditya-bardia", "sara-tolaney"], keyPapers: ["paper-tropion-breast01-china-cohort-esmo-open-2026"] }),
   t({ id: "tropion-breast02", technologies: ["adc", "topoisomerase-inhibitors"], name: "TROPION-Breast02", nct: "NCT05374512", phase: "3", status: "positive", yearReported: 2025, sponsor: "AstraZeneca / Daiichi Sankyo",
     setting: "First-line metastatic TNBC, not candidates for PD-1/PD-L1: Dato-DXd vs chemotherapy",
-    tldr: "The first trial to show an overall survival benefit for a first-line ADC in triple-negative breast cancer.",
+    tldr: "TROPION-Breast02 found longer overall survival with the ADC datopotamab deruxtecan than chemotherapy in first-line advanced triple-negative breast cancer when immunotherapy was unsuitable.",
     summary: "TROPION-Breast02 randomized 644 patients (323/321) with previously untreated advanced TNBC for whom PD-1/PD-L1 inhibitor therapy was unsuitable. FDA reports median PFS 10.8 versus 5.6 months (HR 0.57, 95% CI 0.47 to 0.69) and OS 23.7 versus 18.7 months (HR 0.79, 95% CI 0.64 to 0.98). FDA approved the advanced-disease indication May 22, 2026. These outcomes do not establish postoperative benefit or provide a head-to-head comparison against sacituzumab govitecan.",
     result: "TROPION-Breast02 randomized 644 patients (323/321) with previously untreated advanced TNBC for whom PD-1/PD-L1 inhibitor therapy was unsuitable. FDA reports median PFS 10.8 versus 5.6 months (HR 0.57, 95% CI 0.47 to 0.69) and OS 23.7 versus 18.7 months (HR 0.79, 95% CI 0.64 to 0.98). FDA approved the advanced-disease indication May 22, 2026. These outcomes do not establish postoperative benefit or provide a head-to-head comparison against sacituzumab govitecan.",
-    drugs: ["datopotamab-deruxtecan"], cancers: ["tnbc", "tnbc-metastatic"], links: [{"label": "FDA approval and randomized efficacy results", "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer"}], people: ["rebecca-dent"],
-    asOf: "2026-10-06",
+    drugs: ["datopotamab-deruxtecan"], cancers: ["tnbc", "tnbc-metastatic"], links: [{"label": "FDA approval and randomized efficacy results", "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-datopotamab-deruxtecan-dlnk-unresectable-or-metastatic-triple-negative-breast-cancer"},
+{
+  "label": "Dent et al.: TROPION-Breast02 randomised primary report (2026)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41937088/"
+}
+], people: ["rebecca-dent"],
+    asOf: "2026-11-11",
 
   }),
   t({ id: "tropion-breast05", technologies: ["adc", "topoisomerase-inhibitors"], name: "TROPION-Breast05", nct: "NCT06103864", phase: "3", status: "recruiting", sponsor: "AstraZeneca / Daiichi Sankyo",
@@ -116,11 +130,12 @@ const raw: TrialInput[] = [
     tldr: "IZABRIGHT-Breast01 is the global first-line trial of the EGFR×HER3 bispecific ADC in triple-negative breast cancer.",
     summary: "IZABRIGHT-Breast01, trial NCT06926868 sponsored by Bristol Myers Squibb, is the global first-line trial of the EGFR by HER3 bispecific antibody-drug conjugate izalontamab brengitecan in metastatic triple-negative breast cancer patients ineligible for PD-1 or PD-L1 inhibitors, comparing it with chemotherapy. It plans to enrol 570 patients, directly competes for the populations studied in ASCENT-03 and TROPION-Breast02, and is ongoing with no results. OnCo links it to triple-negative breast cancer, izalontamab brengitecan and the TNBC roadmap. Whether a bispecific ADC that succeeded in a Chinese phase 3 can match or beat the approved TROP2 ADCs in a global first-line population is the question it exists to answer.",
     drugs: ["izalontamab-brengitecan"], cancers: ["tnbc"], links: [ct("NCT06926868")] }),
-  t({ id: "optimice-pcr", technologies: ["checkpoint-inhibitor"], name: "OptimICE-pCR (A012103)", nct: "NCT05812807", phase: "3", status: "recruiting", sponsor: "Alliance / NCI",
+  t({
+    notes:["The registry specifies randomisation after neoadjuvant chemotherapy with pembrolizumab and definitive surgery showing a pathological complete response. It compares continued pembrolizumab for 27 weeks with observation and asks whether observation is non-inferior for recurrence-free survival. That endpoint starts at this new randomisation and includes invasive local, regional or distant recurrence or death from any cause. Quality of life and adverse effects are also assessed. This is a separate postoperative comparison from KEYNOTE-522's whole perioperative assignment; a favourable pCR prognosis alone is not its answer.","The registry lists an estimated enrolment of 1,295, recruiting status and no posted results when checked on November 12, 2026; its last posted update is August 5, 2026. The planned postoperative duration is about 27 weeks, not a further year of immunotherapy after surgery. The study does not promise that a particular person can safely stop treatment."], asOf:"2026-11-12", id: "optimice-pcr", technologies: ["checkpoint-inhibitor"], name: "OptimICE-pCR (A012103)", nct: "NCT05812807", phase: "3", status: "recruiting", sponsor: "Alliance / NCI",
     setting: "Stage II-III TNBC with pathologic complete response after KEYNOTE-522 regimen: adjuvant pembrolizumab vs observation",
-    tldr: "Asks whether patients whose cancer completely disappeared before surgery still need a year of immunotherapy afterwards.",
-    summary: "OptimICE-pCR, Alliance trial A012103, NCT05812807, sponsored by the Alliance and the NCI, asks whether patients with stage II to III triple-negative breast cancer whose cancer completely disappeared before surgery on the KEYNOTE-522 regimen still need a year of adjuvant pembrolizumab afterwards. It is a de-escalation trial of 1,295 patients comparing adjuvant pembrolizumab with observation, and if non-inferior it would spare about sixty percent of KEYNOTE-522 patients nine cycles of immunotherapy; it was discussed at ASCO 2026 and is ongoing with no results. OnCo links it to triple-negative breast cancer, pembrolizumab, the pCR term, the TNBC roadmap, the idea of ctDNA-triggered escalation and the Alliance for Clinical Trials in Oncology. Whether pathologic complete response is a safe enough signal to stop treatment is the question it will answer.",
-    drugs: ["pembrolizumab"], cancers: ["tnbc"], terms: ["pcr"], links: [ct("NCT05812807")] }),
+    tldr: "A trial comparing postoperative pembrolizumab with observation after a pathological complete response to preoperative treatment for triple-negative breast cancer.",
+    summary: "OptimICE-pCR, Alliance A012103 and NCT05812807, is a randomised phase 3 trial after pathological complete response to neoadjuvant chemotherapy with pembrolizumab and definitive surgery for early-stage triple-negative breast cancer. It asks whether observation gives non-inferior recurrence-free survival compared with another 27 weeks of pembrolizumab and also assesses quality of life and adverse effects. The registry lists an estimated 1,295 participants, recruiting status and no posted results. This tests a postoperative continuation question rather than assuming that response alone establishes safe treatment omission.",
+    drugs: ["pembrolizumab"], cancers: ["tnbc"], terms: ["pcr"], links: [{"label":"ClinicalTrials.gov NCT05812807","url":"https://clinicaltrials.gov/study/NCT05812807"}] }),
   t({ id: "scarlet-s2212", technologies: ["checkpoint-inhibitor"], name: "SCARLET (SWOG S2212)", nct: "NCT05929768", phase: "3", status: "recruiting", sponsor: "SWOG / NCI",
     setting: "Stage II-III TNBC: anthracycline-free carboplatin/docetaxel + pembrolizumab vs KEYNOTE-522 regimen",
     tldr: "Tests whether the anthracycline can be dropped from TNBC pre-surgery treatment without losing effect.",
@@ -128,14 +143,22 @@ const raw: TrialInput[] = [
     drugs: ["pembrolizumab", "carboplatin"], cancers: ["tnbc"], links: [ct("NCT05929768")], people: ["priyanka-sharma"] }),
   t({ id: "olympia", technologies: ["parp-inhibitor"], name: "OlympiA", nct: "NCT02032823", phase: "3", status: "positive", yearReported: 2021, sponsor: "AstraZeneca / NRG / BIG",
     setting: "Adjuvant olaparib for one year in germline BRCA-mutated, HER2-negative, high-risk early breast cancer",
-    tldr: "Showed that a year of a PARP inhibitor after standard treatment improves survival in women with inherited BRCA mutations.",
+    tldr: "OlympiA found better outcomes with one year of olaparib after standard treatment in people with high-risk early breast cancer, inherited BRCA1 or BRCA2 variants and HER2-negative disease.",
     summary: "OlympiA, trial NCT02032823 sponsored by AstraZeneca, NRG Oncology and the Breast International Group and published in the New England Journal of Medicine in 2021, showed that a year of the PARP inhibitor olaparib after standard treatment improves survival in women with germline BRCA mutations and high-risk, HER2-negative early breast cancer, about eighty percent of whom had triple-negative disease. It randomised 1,836 patients to olaparib or placebo, met its primary invasive disease-free survival endpoint and showed an overall survival benefit that was sustained at six years. It makes germline testing a treatment decision for every such patient, and whether the benefit extends to somatic or non-BRCA HRD alterations is the open question.",
     result: "iDFS HR 0.58; OS HR 0.72.",
-    drugs: ["olaparib"], cancers: ["tnbc", "breast-hr-positive", "tnbc-early", "hr-positive-early-high-risk"], targets: ["brca"], links: [{"label": "ClinicalTrials.gov NCT02032823", "url": "https://clinicaltrials.gov/study/NCT02032823"}, {"label": "OlympiA overall survival (Annals of Oncology 2022)", "url": "https://doi.org/10.1016/j.annonc.2022.09.159"}, {"label": "NICE TA886 (10 May 2023)", "url": "https://www.nice.org.uk/guidance/ta886"}, {"label": "Lynparza label (openFDA): OlympiA eligibility and results", "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"}, {"label": "OlympiA six-year primary publication", "url": "https://doi.org/10.1016/j.annonc.2026.08.002"}], keyPapers: ["paper-olympia-nejm-2021"], people: ["andrew-tutt", "charles-geyer", "judy-garber"],
-    asOf: "2026-10-06",
+    drugs: ["olaparib"], cancers: ["tnbc", "breast-hr-positive", "tnbc-early", "hr-positive-early-high-risk"], targets: ["brca"], links: [{"label": "ClinicalTrials.gov NCT02032823", "url": "https://clinicaltrials.gov/study/NCT02032823"}, {"label": "OlympiA overall survival (Annals of Oncology 2022)", "url": "https://doi.org/10.1016/j.annonc.2022.09.159"}, {"label": "NICE TA886 (10 May 2023)", "url": "https://www.nice.org.uk/guidance/ta886"}, {"label": "Lynparza label (openFDA): OlympiA eligibility and results", "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"}, {"label": "OlympiA six-year primary publication", "url": "https://doi.org/10.1016/j.annonc.2026.08.002"},
+    {"label":"Tutt et al., OlympiA primary report and eligibility (2021)","url":"https://pubmed.ncbi.nlm.nih.gov/34081848/"},
+    {"label":"Garber et al., OlympiA six-year report (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/42636977/"}
+  ], keyPapers: ["paper-olympia-nejm-2021"], people: ["andrew-tutt", "charles-geyer", "judy-garber"],
+    asOf: "2026-11-12",
     enrolled: 1836,
     enrolledBasis: "randomised",
-  }),
+
+  notes: [
+    "The 2021 primary comparison randomised 1,836 people with high-risk HER2-negative early breast cancer and germline BRCA1 or BRCA2 pathogenic or likely pathogenic variants to one year of olaparib or placebo after local treatment and chemotherapy. Three-year invasive disease-free survival was 85.9% versus 77.1%, difference 8.8 points (95% confidence interval 4.5 to 13.0), with hazard ratio 0.58 and its prespecified 99.5% interval 0.41 to 0.82. In the TNBC neoadjuvant group, residual invasive disease was required; after adjuvant chemotherapy, eligibility required positive axillary nodes or an invasive primary at least 2 cm. The hormone-receptor-positive entry rules differed. The trial did not establish benefit for every inherited variant, lower-risk situation or somatic-only alteration.",
+    "The 2026 third interim report has median follow-up 6.1 years and describes maintained benefit. Six-year overall survival was 87.5% versus 83.2%, with hazard ratio 0.72 (95% confidence interval 0.56 to 0.93). The authors report an estimated survival difference of 4.4 points (0.9 to 6.7); subtracting the separately rounded percentages gives 4.3, so retain the reported estimate rather than silently treating it as rounded arithmetic. This is longer observation of OlympiA, not a second independent trial or a comparison with postoperative pembrolizumab combinations."
+  ]
+}),
 
   // ---- HER2 / HR+ breast ----
   t({ id: "destiny-breast03", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast03", nct: "NCT03529110", phase: "3", status: "positive", yearReported: 2021, sponsor: "Daiichi Sankyo / AstraZeneca",
@@ -144,18 +167,22 @@ const raw: TrialInput[] = [
     summary: "DESTINY-Breast03, trial NCT03529110 sponsored by Daiichi Sankyo and AstraZeneca and reported in 2021, was the head-to-head antibody-drug conjugate trial in which trastuzumab deruxtecan beat trastuzumab emtansine by a wide margin in HER2-positive metastatic breast cancer after trastuzumab and a taxane, showing that payload and bystander effect matter. It randomised 524 patients, met its primary progression-free survival endpoint by blinded review with a very large effect and a much higher response rate, and showed an overall survival benefit, redefining second-line HER2-positive therapy and validating the DXd platform. OnCo links it to HER2-positive breast cancer, both drugs, Ian E. Krop, Javier Cortés, Sara A. Hurvitz, Sung-Bae Kim, Vall d'Hebron, the ADC roadmap and the DESTINY-Breast03 and KATHERINE papers. Whether T-DM1 retains any role after this result is the open question.",
     result: "PFS HR 0.33; OS HR 0.64.",
     drugs: ["trastuzumab-deruxtecan", "trastuzumab-emtansine"], cancers: ["breast-her2-positive"], links: [ct("NCT03529110")], people: ["ian-krop", "javier-cortes", "sara-hurvitz", "kim-sung-bae"] }),
-  t({ id: "destiny-breast04", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast04", nct: "NCT03734029", phase: "3", status: "positive", yearReported: 2022, sponsor: "Daiichi Sankyo / AstraZeneca",
+  t({
+    notes:["The original paper’s hormone receptor-negative efficacy table uses 40 versus 18 patients, while 63 were classified hormone receptor-negative at randomisation. For primary and key secondary intention-to-treat analyses, status came from the interactive response system at randomisation, including mis-stratified patients; other analyses used electronic data corrected for mis-stratification. Preserve the endpoint-specific denominator.",
+"The original 2022 report gives overall-population progression-free survival of 9.9 versus 5.1 months, hazard ratio 0.50, and overall survival of 23.4 versus 16.8 months, hazard ratio 0.64. The primary endpoint was progression-free survival in the hormone receptor-positive cohort; the hormone receptor-negative analyses were exploratory, not a separately powered trial. Keep these original overall-population results distinct from subgroup estimates and later follow-up. They do not answer a postoperative question or compare T-DXd directly with another ADC."
+], asOf:"2026-11-11", id: "destiny-breast04", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast04", nct: "NCT03734029", phase: "3", status: "positive", yearReported: 2022, sponsor: "Daiichi Sankyo / AstraZeneca",
     setting: "HER2-low metastatic breast cancer after chemotherapy: T-DXd vs chemotherapy",
-    tldr: "Created a new category of breast cancer, HER2-low, by showing Enhertu works in tumours previously called HER2-negative.",
-    summary: "DESTINY-Breast04, trial NCT03734029 sponsored by Daiichi Sankyo and AstraZeneca and published in the New England Journal of Medicine in 2022, created a new category of breast cancer, HER2-low, by showing that trastuzumab deruxtecan works in tumours previously called HER2-negative after chemotherapy. It randomised 557 patients to trastuzumab deruxtecan or chemotherapy, met its primary progression-free survival endpoint in the HR-positive cohort and showed an overall survival benefit in all patients, with an exploratory HR-negative cohort pointing the same way, and it drew a standing ovation at ASCO 2022 as roughly half of all breast cancers became eligible for a HER2-directed drug. Whether pathologists can score HER2-low reproducibly is the open question.",
+    tldr: "DESTINY-Breast04 compared trastuzumab deruxtecan with chemotherapy in previously treated HER2-low metastatic breast cancer. Its results concern the enrolled score categories and clinical setting.",
+    summary: "DESTINY-Breast04 (NCT03734029) randomised 557 patients with HER2-low metastatic breast cancer after one or two prior lines of chemotherapy: 494 were hormone receptor-positive and 63 hormone receptor-negative at randomisation. HER2-low meant IHC 1+ or IHC 2+/ISH-negative. The primary endpoint was progression-free survival in the hormone receptor-positive cohort; key secondary endpoints included overall-population progression-free survival and overall survival. The 2022 report showed longer progression-free and overall survival with trastuzumab deruxtecan.\n\nThe study did not randomize IHC 0 tumours and does not establish a universal HER2-expression floor, biological category or eligibility for everyone with HER2-negative disease. Exploratory hormone receptor-negative analyses use their specified efficacy populations, distinct from the randomised stratification count. The later Nature Medicine report and current drug label are separate dated sources, not interchangeable versions of the original result.",
     result: "OS HR 0.64.",
-    drugs: ["trastuzumab-deruxtecan"], cancers: ["breast-hr-positive", "tnbc", "her2-low-metastatic-breast-cancer", "tnbc-metastatic"], terms: ["her2-low"], links: [ct("NCT03734029")], people: ["shanu-modi"] }),
-  t({ id: "destiny-breast06", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast06", nct: "NCT04494425", phase: "3", status: "positive", yearReported: 2024, sponsor: "Daiichi Sankyo / AstraZeneca",
+    drugs: ["trastuzumab-deruxtecan"], cancers: ["breast-hr-positive", "tnbc", "her2-low-metastatic-breast-cancer", "tnbc-metastatic"], terms: ["her2-low"], links: [{"label":"ClinicalTrials.gov NCT03734029","url":"https://clinicaltrials.gov/study/NCT03734029"},{"label":"DESTINY-Breast04 long-term survival (Nature Medicine 2025)","url":"https://doi.org/10.1038/s41591-025-03981-4"},{"label":"NICE TA1197 (7 October 2026): recommended","url":"https://www.nice.org.uk/guidance/ta1197"},{"label":"NICE TA992 (29 July 2024): not recommended, replaced by TA1197","url":"https://www.nice.org.uk/guidance/ta992"},{"label":"Original 2022 report: methods, Table 2 and analysis-population footnotes","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/"},{"label":"Original publication identity","url":"https://pubmed.ncbi.nlm.nih.gov/35665782/"},{"label":"Later 32-month-follow-up report","url":"https://pubmed.ncbi.nlm.nih.gov/41062831/"},{"label":"Current U.S. ENHERTU indication and study context","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"}], people: ["shanu-modi"] }),
+  t({
+    notes:["The current U.S. ENHERTU label has a specified HR-positive low/ultralow indication after progression on endocrine therapy in the metastatic setting. Do not turn that into an ultralow indication for hormone receptor-negative disease or infer a universal cutoff for other ADCs."], asOf:"2026-11-09", id: "destiny-breast06", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast06", nct: "NCT04494425", phase: "3", status: "positive", yearReported: 2024, sponsor: "Daiichi Sankyo / AstraZeneca",
     setting: "HR+ HER2-low/ultralow breast cancer after endocrine therapy, chemotherapy-naive: T-DXd vs chemotherapy",
-    tldr: "Moved Enhertu ahead of chemotherapy in hormone-positive breast cancer and extended it to 'ultralow' HER2.",
-    summary: "DESTINY-Breast06, trial NCT04494425 sponsored by Daiichi Sankyo and AstraZeneca and published in the New England Journal of Medicine in 2024, moved trastuzumab deruxtecan ahead of chemotherapy in HR-positive, HER2-low breast cancer after endocrine therapy and extended it to HER2-ultralow tumours. It randomised 866 chemotherapy-naive patients to trastuzumab deruxtecan or chemotherapy, met its primary progression-free survival endpoint in HER2-low disease with a similar benefit in the ultralow group and a much higher response rate, and was approved in 2025. It replicates DESTINY-Breast04 in an earlier line, and whether any HER2 expression threshold matters at all is the open question.",
+    tldr: "DESTINY-Breast06 compared trastuzumab deruxtecan with chemotherapy after endocrine therapy in hormone receptor-positive metastatic breast cancer without prior chemotherapy for metastatic disease.",
+    summary: "DESTINY-Breast06 (NCT04494425), reported in 2024, randomised 866 patients with hormone receptor-positive metastatic breast cancer after endocrine-based therapy and no prior chemotherapy for metastatic disease. Of these, 713 had HER2-low and 153 HER2-ultralow disease. The primary endpoint was blinded-central-review progression-free survival in HER2-low disease; the ultralow analysis was exploratory.\n\nIn the primary HER2-low population, median progression-free survival was 13.2 versus 8.1 months, hazard ratio 0.62 with 95 percent confidence interval 0.52 to 0.75. Overall survival was immature in the original report. The trial did not establish an ultralow treatment effect in TNBC or test every HER2 expression category. Prior chemotherapy in a non-metastatic setting is not the same as prior metastatic chemotherapy. Current drug-label eligibility is a separate product-specific question.",
     result: "PFS HR 0.62.",
-    drugs: ["trastuzumab-deruxtecan"], cancers: ["breast-hr-positive", "her2-low-metastatic-breast-cancer", "hr-positive-metastatic-post-cdk46"], terms: ["her2-low"], links: [ct("NCT04494425")], keyPapers: ["paper-destiny-breast06-nejm-2024"], people: ["giuseppe-curigliano"] }),
+    drugs: ["trastuzumab-deruxtecan"], cancers: ["breast-hr-positive", "her2-low-metastatic-breast-cancer", "hr-positive-metastatic-post-cdk46"], terms: ["her2-low"], links: [{"label":"ClinicalTrials.gov NCT04494425","url":"https://clinicaltrials.gov/study/NCT04494425"},{"label":"Original 2024 report","url":"https://pubmed.ncbi.nlm.nih.gov/39282896/"},{"label":"Current U.S. ENHERTU indication and regulatory study analysis","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"}], keyPapers: ["paper-destiny-breast06-nejm-2024"], people: ["giuseppe-curigliano"] }),
   t({ id: "destiny-breast09", technologies: ["adc", "topoisomerase-inhibitors"], name: "DESTINY-Breast09", nct: "NCT04784715", phase: "3", status: "positive", yearReported: 2025, sponsor: "Daiichi Sankyo / AstraZeneca",
     setting: "First-line HER2+ metastatic breast cancer: T-DXd + pertuzumab vs THP",
     tldr: "Showed Enhertu plus pertuzumab beats the decade-old first-line standard for HER2-positive metastatic breast cancer.",
@@ -288,6 +315,236 @@ const raw: TrialInput[] = [
     summary: "DYNAMIC, registered as ACTRN12615000381583, sponsored by the Walter and Eliza Hall Institute and published in the New England Journal of Medicine in 2022, showed that a circulating tumour DNA blood test can safely halve the number of stage II colon cancer patients given chemotherapy after surgery. It randomised 455 patients to ctDNA-guided management or standard management, and chemotherapy use fell from 28 to 15 percent while two-year recurrence-free survival was non-inferior. DYNAMIC-III in stage III gave a more nuanced result, and whether escalating treatment in ctDNA-positive patients helps is the open question.",
     result: "Chemotherapy use 15% vs 28% with non-inferior RFS.",
     technologies: ["mrd-testing"], cancers: ["colorectal"], terms: ["mrd"], links: [{ label: "NEJM 2022", url: "https://www.nejm.org/doi/full/10.1056/NEJMoa2200075" }], people: ["jeanne-tie"] }),
+
+{
+    outcomes:[{"endpoint":"Progression-free survival from randomisation, overall 2024 report","primary":true,"unit":"months","arms":[{"name":"SBRT plus standard care","n":55,"value":7.2},{"name":"Standard care","n":51,"value":3.2}],"hr":0.53,"ci":[0.35,0.81],"p":"0.0035","source":"https://pubmed.ncbi.nlm.nih.gov/38104577/"},{"endpoint":"Progression-free survival, prespecified NSCLC subgroup","unit":"months","arms":[{"name":"SBRT plus standard care","n":31,"value":10},{"name":"Standard care","n":28,"value":2.2}],"hr":0.41,"ci":[0.22,0.75],"p":"0.0039","source":"https://pubmed.ncbi.nlm.nih.gov/38104577/"},{"endpoint":"Progression-free survival, prespecified breast subgroup","unit":"months","arms":[{"name":"SBRT plus standard care","n":24,"value":4.4},{"name":"Standard care","n":23,"value":4.2}],"hr":0.78,"ci":[0.43,1.43],"p":"0.43","source":"https://pubmed.ncbi.nlm.nih.gov/38104577/"}],
+  "id": "curb-oligoprogression",
+  "kind": "trial",
+  "name": "CURB: SBRT for oligoprogressive breast or non-small-cell lung cancer",
+  "aka": [
+    "CURB oligoprogression trial",
+    "PROMISE-004"
+  ],
+  "nct": "NCT03808662",
+  "phase": "2",
+  "status": "mixed",
+  "yearReported": 2024,
+  "setting": "Metastatic breast cancer or NSCLC after at least first-line systemic treatment, with no more than five progressing lesions: SBRT plus standard care versus standard care",
+  "sponsor": "Memorial Sloan Kettering Cancer Center",
+  "started": "2019-01-16",
+  "startedType": "actual",
+  "enrolled": 106,
+  "enrolledBasis": "randomised",
+  "enrolledNote": "The 2024 primary report gives 106 randomised participants; the registry captured in November 2026 reports 107 actual enrollment. The reason for the source difference is not established here.",
+  "tldr": "CURB tested added SBRT for limited progression during systemic treatment. Its lung and breast subgroup findings should not be combined into one rule for every metastatic cancer.",
+  "summary": "The randomised phase 2 report compared standard care with or without SBRT in 106 participants, including 59 with NSCLC and 47 with breast cancer. Progression-free survival began at randomisation. The overall comparison favoured added SBRT; the prespecified lung subgroup showed a benefit and the breast estimate was imprecise and nonsignificant.\n\nThe captured registry lists active, not recruiting status and estimated 2027 completion. That administrative status is distinct from the published 2024 analysis or current availability at a site. It does not make the report a study in every oligoresidual or first-line limited-metastatic setting.",
+  "result": "Overall progression-free survival hazard ratio 0.53; breast subgroup 0.78 with 95 percent confidence interval 0.43 to 1.43. The latter does not establish exactly zero effect.",
+  "cancers": [
+    "nsclc",
+    "breast-cancer"
+  ],
+  "technologies": [
+    "sbrt"
+  ],
+  "keyPapers": [
+    "paper-curb-oligoprogression-lancet-2024"
+  ],
+  "links": [
+    {
+      "label": "ClinicalTrials.gov registry",
+      "url": "https://clinicaltrials.gov/study/NCT03808662"
+    },
+    {
+      "label": "Original randomised report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38104577/"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+{
+    outcomes:[{"endpoint":"Progression-free survival from randomisation, eligible 2026 analysis","primary":true,"unit":"months","arms":[{"name":"Systemic therapy plus ablation","value":19.5,"note":"The 2026 eligible analysis; confidence interval for the hazard ratio is 95 percent."},{"name":"Systemic therapy without ablation","value":23}],"hr":0.92,"ci":[0.57,1.47],"p":"0.42","source":"https://pubmed.ncbi.nlm.nih.gov/42842849/"}],
+  "id": "nrg-br002",
+  "kind": "trial",
+  "name": "NRG-BR002: metastasis-directed ablation in limited metastatic breast cancer",
+  "aka": [
+    "NRG BR002"
+  ],
+  "nct": "NCT02364557",
+  "phase": "2/3",
+  "status": "negative",
+  "yearReported": 2026,
+  "setting": "Breast cancer with no more than four metastases, controlled primary and no progression on up to twelve months of first-line systemic therapy: standard care with or without metastasis-directed SBRT/surgery",
+  "sponsor": "NRG Oncology",
+  "started": "2014-12-24",
+  "startedType": "actual",
+  "enrolled": 129,
+  "enrolledBasis": "registry",
+  "tldr": "NRG-BR002 did not meet its progression endpoint for added metastasis-directed ablation in a selected breast-cancer population. The planned phase 3 portion did not proceed.",
+  "summary": "The 2026 report analysed 125 eligible participants among 129 enrolled. Most had HR-positive, HER2-negative disease; 93 percent of ablation was SBRT. The study compared first-line systemic treatment alone with the same approach plus treatment of visible metastases.\n\nProgression-free survival was measured from randomisation. The trial did not show a statistically significant progression-free or overall-survival improvement and did not proceed to phase 3. The captured registry lists completed status. These findings do not erase palliation or establish the effect in every breast subtype or other disease setting.",
+  "result": "Progression-free survival hazard ratio 0.92, 95 percent confidence interval 0.57 to 1.47; overall-survival hazard ratio 1.07, interval 0.60 to 1.89.",
+  "cancers": [
+    "breast-cancer"
+  ],
+  "technologies": [
+    "sbrt"
+  ],
+  "keyPapers": [
+    "paper-nrg-br002-jco-2026"
+  ],
+  "links": [
+    {
+      "label": "ClinicalTrials.gov registry",
+      "url": "https://clinicaltrials.gov/study/NCT02364557"
+    },
+    {
+      "label": "Primary 2026 report",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842849/"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+{
+  "id": "alliance-a011202",
+  "kind": "trial",
+  "name": "Alliance A011202: axillary treatment after residual positive sentinel nodes",
+  "aka": [
+    "A011202"
+  ],
+  "nct": "NCT01901094",
+  "phase": "3",
+  "status": "active",
+  "setting": "cT1 to T3 N1 breast cancer with positive sentinel-node disease after neoadjuvant chemotherapy: axillary dissection plus nodal radiation versus axillary plus nodal radiation without dissection",
+  "sponsor": "Alliance for Clinical Trials in Oncology",
+  "started": "2014-02-24",
+  "startedType": "actual",
+  "enrolled": 2012,
+  "enrolledBasis": "registry",
+  "tldr": "A011202 studies how to treat the axilla when sentinel nodes remain positive after chemotherapy. Both registry arms include radiation; this differs from the B-51 ypN0 question.",
+  "summary": "The retrieved registry describes an open-label randomised phase 3 comparison in cT1 to T3 N1 breast cancer with residual positive sentinel-node disease after neoadjuvant chemotherapy. The protocol requires a nodal metastasis greater than 0.2 millimetres; isolated tumour cells at or below that size are treated as N0i+. One arm includes completion level I/II axillary dissection and nodal radiation. The other includes radiation to the full axilla and nodal regions without that dissection.\n\nThe captured record lists 2,012 actual participants, active not recruiting status and estimated primary completion on 31 January 2031. Its primary measure is invasive breast cancer recurrence-free interval, with a stated follow-up timeframe up to eight years after radiation completion. The captured record supplies no efficacy estimate. Registry status is separate from a treatment result or availability at a local site.",
+  "result": "The registry describes the comparison and follow-up, without an efficacy estimate.",
+  "cancers": [
+    "breast-cancer"
+  ],
+  "technologies": [
+    "sentinel-node",
+    "imrt-igrt"
+  ],
+  "terms": [
+    "completion-surgery",
+    "regional-nodal-irradiation"
+  ],
+  "links": [
+    {
+      "label": "Exact ClinicalTrials.gov record and arms",
+      "url": "https://clinicaltrials.gov/study/NCT01901094"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+
+{
+  "id": "future-super",
+  "kind": "trial",
+  "name": "FUTURE-SUPER",
+  "aka": [
+    "FUTURE SUPER",
+    "NCT04395989"
+  ],
+  "asOf": "2026-11-09",
+  "nct": "NCT04395989",
+  "phase": "2",
+  "status": "positive",
+  "design": "superiority",
+  "started": "2020-07-28",
+  "startedType": "actual",
+  "yearReported": 2024,
+  "enrolled": 139,
+  "enrolledBasis": "registry",
+  "setting": "Single-centre first-line untreated metastatic/recurrent TNBC; Fudan subtype/genomic-marker cohorts, matched combinations plus nab-paclitaxel versus nab-paclitaxel alone",
+  "sponsor": "Fudan University",
+  "tldr": "FUTURE-SUPER tested a defined subtype-linked treatment strategy in advanced TNBC. The pooled phase 2 PFS comparison was positive; the current registry does not establish availability.",
+  "summary": "Single-centre, open-label phase 2 study at Fudan University Shanghai Cancer Center. Participants were women aged 18-70, ECOG 0-1, with untreated metastatic or recurrent TNBC. Five cohorts combined a Fudan subtype classification with genomic biomarkers. Within that strategy, 139 participants were randomised to matched additions to nab-paclitaxel (69) or nab-paclitaxel alone (70). This is a different classifier from Lehmann TNBCtype-4.\n\nThe primary comparison was investigator-assessed progression-free survival in the pooled intention-to-treat groups. At the 31 May 2023 cutoff, median follow-up was 22.5 months (interquartile range 15.2-29.0). It tested a package of classification, matching rules and regimens; it did not separately establish each component's effect.",
+  "result": "At the 31 May 2023 analysis, median PFS was 11.3 versus 5.8 months, hazard ratio 0.44 (95 percent confidence interval 0.30-0.65). Treatment-related serious events occurred in 7/69 versus 0/70.",
+  "outcomes": [
+    {
+      "endpoint": "Investigator-assessed progression-free survival, pooled intention-to-treat comparison",
+      "primary": true,
+      "unit": "months",
+      "arms": [
+        {
+          "name": "Subtype/genomic-marker strategy plus nab-paclitaxel",
+          "n": 69,
+          "value": 11.3,
+          "note": "95 percent confidence interval 8.6-15.2"
+        },
+        {
+          "name": "Nab-paclitaxel alone",
+          "n": 70,
+          "value": 5.8,
+          "note": "95 percent confidence interval 4.0-6.7"
+        }
+      ],
+      "hr": 0.44,
+      "ci": [
+        0.3,
+        0.65
+      ],
+      "p": "<0.0001",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/38211606/"
+    }
+  ],
+  "notes": [
+    "The four Fudan subtype labels generated five treatment cohorts after genomic splitting. Additions included pyrotinib for LAR with activating HER2 mutation; everolimus in specified PI3K/AKT-altered LAR/MES groups; camrelizumab plus famitinib in IM; and bevacizumab in BLIS/MES without those alterations. This does not equate those groups with TNBCtype-4 or pathology receptor labels.",
+    "The positive outcome label refers to the published pooled primary comparison. Registry recruitment status captured on 9 November 2026 is UNKNOWN, last known ACTIVE_NOT_RECRUITING; last posted update 22 December 2023. It is not an available-slot claim. Registry actual enrollment is 139 and no results module is posted.",
+    "The registry uses enrollment for its PFS clock and first dose for its secondary OS clock. Do not silently make those endpoints share a start or turn the PFS result into a demonstrated OS benefit."
+  ],
+  "replication": "This single-centre phase 2 strategy result does not isolate a classifier or individual matched component; independent larger comparative validation and setting-specific comparators remain important.",
+  "cancers": [
+    "tnbc"
+  ],
+  "keyPapers": [
+    "paper-future-super-lancet-oncology-2024"
+  ],
+  "drugs": [
+    "nab-paclitaxel",
+    "pyrotinib",
+    "everolimus",
+    "camrelizumab",
+    "bevacizumab"
+  ],
+  "terms": [
+    "tnbc-molecular-subtyping"
+  ],
+  "related": [
+    "paper-future-super-lancet-oncology-2024"
+  ],
+  "links": [
+    {
+      "label": "ClinicalTrials.gov NCT04395989",
+      "url": "https://clinicaltrials.gov/study/NCT04395989"
+    },
+    {
+      "label": "Primary randomised report: PMID 38211606",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38211606/"
+    }
+  ],
+  "tags": [
+    "education-audit",
+    "subtyping-strategy"
+  ]
+},
 ];
 
 /** Structured outcomes, enrolment, and replication notes live in trial-outcomes.ts and are merged here. */

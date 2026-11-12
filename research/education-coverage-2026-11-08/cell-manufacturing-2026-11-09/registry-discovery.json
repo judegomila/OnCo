@@ -1,0 +1,260 @@
+{
+  "scope": "Six exact source/semantic study identities, including all discovered semantic NCTs; no exhaustive trial search or site/slot review claimed.",
+  "studies": [
+    {
+      "id": "NCT02808442",
+      "title": "Study of UCART19 in Pediatric Patients With Relapsed/Refractory B Acute Lymphoblastic Leukemia",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePost": {
+        "date": "2021-10-08",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "enrollment": {
+        "count": 13,
+        "type": "ACTUAL"
+      },
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "UCART19",
+          "armGroupLabels": [
+            "UCART19"
+          ],
+          "otherNames": [
+            "S68587"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "registry-NCT02808442.json",
+      "rawSha256": "a9d4bd247fb58373de1e6c856777fd3ad4137903737402e84239d574377f81d7"
+    },
+    {
+      "id": "NCT02746952",
+      "title": "Dose Escalation Study of UCART19 in Adult Patients With Relapsed / Refractory B-cell Acute Lymphoblastic Leukaemia",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePost": {
+        "date": "2021-10-01",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "enrollment": {
+        "count": 25,
+        "type": "ACTUAL"
+      },
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "UCART19",
+          "armGroupLabels": [
+            "UCART19"
+          ],
+          "otherNames": [
+            "S68587"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "registry-NCT02746952.json",
+      "rawSha256": "751cf2decacceca97acbb517b57322f31af09ef28baac194ab80ab526263e35a"
+    },
+    {
+      "id": "NCT04094311",
+      "title": "Study of Out of Specification for Tisagenlecleucel",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePost": {
+        "date": "2026-09-15",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE3"
+      ],
+      "enrollment": {
+        "count": 200,
+        "type": "ESTIMATED"
+      },
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CTL019",
+          "description": "A single intravenous (i.v.) infusion of CAR-positive viable T cells.",
+          "armGroupLabels": [
+            "Group A: pALL",
+            "Group B: r/r LBCL",
+            "Group C: r/r NHL"
+          ],
+          "otherNames": [
+            "Tisagenlecleucel"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "registry-NCT04094311.json",
+      "rawSha256": "1670d87585e83c47aa35764d16e7cc868920d969f4559e134b2e0f33d44179a3"
+    },
+    {
+      "id": "NCT03686124",
+      "title": "ACTengine® IMA203/IMA203CD8 as Monotherapy or in Combination With Nivolumab in Recurrent and/or Refractory Solid Tumors",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePost": {
+        "date": "2026-05-13",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "enrollment": {
+        "count": 375,
+        "type": "ESTIMATED"
+      },
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "IMA203 Product",
+          "description": "The cell dose will be based on viable CD3+CD8+ HLA- Dextramer+ cells per body surface area (BSA) as defined by the Mosteller formula",
+          "armGroupLabels": [
+            "Dose Escalation A (closed to enrollment)",
+            "Extension Cohort A",
+            "Extension Cohort B (closed to enrollment)",
+            "Uveal Melanoma"
+          ],
+          "otherNames": [
+            "anzutresgene autoleucel",
+            "anzu-cel"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "IMA203 product- flat dose",
+          "description": "The cell dose will be based on viable CD3+CD8+ HLA- Dextramer+ cells",
+          "armGroupLabels": [
+            "Extension Cohort AA"
+          ],
+          "otherNames": [
+            "anzutresgene autoleucel",
+            "anzu-cel"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "IMA203CD8 Product",
+          "description": "The cell dose will be based on viable CD3+CD8+ HLA- Dextramer+ cells per body surface area (BSA) as defined by the Mosteller formula",
+          "armGroupLabels": [
+            "Dose Escalation B",
+            "Endometrial",
+            "Extension Cohort C",
+            "Extension Cohort D",
+            "Head and Neck, Lung, and Triple Negative Breast Cancer",
+            "Ovarian",
+            "Rare Cancers"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "Nivolumab will be given post IMA203/IMA203CD8 infusion, after hematologic recovery is achieved. Clinical supply provided by Bristol Myers Squibb.",
+          "armGroupLabels": [
+            "Extension Cohort B (closed to enrollment)"
+          ],
+          "otherNames": [
+            "Opdivo®"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "IMADetect®",
+          "description": "IMADetect® is developed as a companion diagnostic to aid in selecting patients with relapsed and/or refractory solid cancers who might be eligible for enrollment in Immatics clinical trials.",
+          "armGroupLabels": [
+            "Dose Escalation A (closed to enrollment)",
+            "Dose Escalation B",
+            "Endometrial",
+            "Extension Cohort A",
+            "Extension Cohort AA",
+            "Extension Cohort C",
+            "Extension Cohort D",
+            "Head and Neck, Lung, and Triple Negative Breast Cancer",
+            "Ovarian",
+            "Rare Cancers",
+            "Uveal Melanoma"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "semantic-NCT03686124.json",
+      "rawSha256": "f04e51306b700e7f8d15c81fb502b0147c83f393df467908f849381970e6e7e2"
+    },
+    {
+      "id": "NCT03229876",
+      "title": "Safety and Efficacy Evaluation of CD19-UCART",
+      "overallStatus": "SUSPENDED",
+      "lastUpdatePost": {
+        "date": "2023-07-24",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "NA"
+      ],
+      "enrollment": {
+        "count": 20,
+        "type": "ESTIMATED"
+      },
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CD19-UCART",
+          "description": "A conditioning therapy with cyclophosphamide and fludarabine will be conducted before CD19-UCART injection. VP16 can be added to the conditioning therapy.",
+          "armGroupLabels": [
+            "CD19-UCART"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "registry-NCT03229876.json",
+      "rawSha256": "ba12f725122d9bf5f177b90065a90bf634ab418cbb9bb880c67731bcf1c416fc"
+    },
+    {
+      "id": "NCT06539338",
+      "title": "A Study to Investigate Safety of INT2104 Infusions in Participants Aged 18 Years of Age and Older Who Have B-cell Cancers That Came Back After Previous Treatment",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePost": {
+        "date": "2026-09-08",
+        "type": "ACTUAL"
+      },
+      "phases": [
+        "PHASE1"
+      ],
+      "enrollment": {
+        "count": 10,
+        "type": "ACTUAL"
+      },
+      "interventions": [
+        {
+          "type": "GENETIC",
+          "name": "INT2104",
+          "description": "INT2104 is a lentiviral vector delivering a transgene for a chimeric antigen receptor specific for CD20 (CAR20)",
+          "armGroupLabels": [
+            "INT2104 Dose Level 1",
+            "INT2104 Dose Level 2",
+            "INT2104 Dose Level 3",
+            "INT2104 Dose Level 4",
+            "INT2104 Recommended Dose"
+          ]
+        }
+      ],
+      "hasPostedResults": false,
+      "sourceFile": "registry-NCT06539338.json",
+      "rawSha256": "7308cb132406d472d8b1b6c1a4914dfda61e7bcc5dae25e823fd7dcf98ab51f1"
+    }
+  ],
+  "discrepancies": [
+    "Chen publication phase 1/ongoing wording versus NCT03229876 phase NA/suspended dated record.",
+    "Kato published cohort versus larger, later updated NCT04094311 programme.",
+    "PALL/CALM earlier publication counts and later adult cohort overlap; not additive."
+  ]
+}

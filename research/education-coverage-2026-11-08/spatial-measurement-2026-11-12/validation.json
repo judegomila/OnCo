@@ -1,0 +1,1016 @@
+{
+  "dataCommit": "c45e688c03ff958d85bfe442f1700af0229e9a13",
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck",
+        "exitCode": 0,
+        "seconds": 2.94
+      },
+      {
+        "name": "lint",
+        "exitCode": 0,
+        "seconds": 29.99
+      },
+      {
+        "name": "validate",
+        "exitCode": 0,
+        "seconds": 1.95
+      },
+      {
+        "name": "full-suite",
+        "exitCode": 0,
+        "seconds": 307.92
+      }
+    ],
+    "unchangedDuringGates": true,
+    "workerHeapMiB": 8192,
+    "fullSuiteMaxWorkers": 2
+  },
+  "graphCount": 23089,
+  "changedExistingIds": [
+    "single-cell-spatial",
+    "imaging-mass-cytometry"
+  ],
+  "newIds": [
+    "spatial-proximity-metrics"
+  ],
+  "allFourCommittedDataFilesEqualFullGateBytes": true,
+  "readerManifest": {
+    "scope": "Actual EntityDetail SSR of the selected registered draft-root records; no peer overlay. No browser hydration, mobile, deployment or independent language claim.",
+    "checks": [
+      {
+        "id": "single-cell-spatial",
+        "state": "registered-local-graph",
+        "route": "/technologies/single-cell-spatial/",
+        "sha256": "2d87d3fe860262d29f308b1d86531f1f25ccdaa7a520da1f5f79684bacd7fe5a",
+        "bytes": 90999,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "state": "registered-local-graph",
+        "route": "/technologies/imaging-mass-cytometry/",
+        "sha256": "b5ee745bbc2e0d7ce2e47a86276f245b1adef549c43b6a8bedc67cbf2d2fc4de",
+        "bytes": 28465,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "state": "registered-local-graph",
+        "route": "/technologies/multiplex-immunofluorescence/",
+        "sha256": "f954329bbc231d5457a8efc08f6f13d548a6d532a157ce644a7c1a1561622325",
+        "bytes": 43692,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "state": "registered-local-graph",
+        "route": "/technologies/spatial-transcriptomics/",
+        "sha256": "3a20fb43dda59f48d16522d16afe028bf52a025b2e577dab6fe1c6a294cc095b",
+        "bytes": 58073,
+        "missingSources": [],
+        "nestedAnchors": 0
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "state": "registered-local-graph",
+        "route": "/terms/spatial-proximity-metrics/",
+        "sha256": "1c4680bb2c11e639afe4bb1e1dcedd0ecabedd7f0bacee4758a38e16b1357e11",
+        "bytes": 42405,
+        "missingSources": [],
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "readerPassages": {
+    "readers": 5,
+    "registeredRootReaders": 5,
+    "frozenPeerReaders": 0,
+    "exactFieldExcerptReferences": 93,
+    "uniqueReferencedFieldParagraphs": 41,
+    "failures": [],
+    "allPass": true,
+    "scope": "Actual EntityDetail SSR text and exact canonical fields. Paragraph presence is rendering evidence, not primary-source or independent semantic approval."
+  },
+  "readerFields": {
+    "allPass": true,
+    "checks": [
+      {
+        "id": "single-cell-spatial",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 11,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 12,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 13,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 14,
+        "present": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 15,
+        "present": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "tldr",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "summary",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "summary",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 0,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 1,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 2,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 3,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 4,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 5,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 6,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 7,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 8,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 9,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 10,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 11,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 12,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 13,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 14,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 15,
+        "present": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 16,
+        "present": true
+      }
+    ]
+  },
+  "rootExports": {
+    "records": 5,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "single-cell-spatial",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 12,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 13,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 14,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "single-cell-spatial",
+        "field": "notes",
+        "index": 15,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 12,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 13,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 14,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 15,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "field": "notes",
+        "index": 16,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "files": [
+      {
+        "file": "single-cell-spatial.json",
+        "bytes": 23048,
+        "sha256": "1e5510eba9f59d77d4a9867711e27eb734d651dee5bdbbe86ead1a935b84455d"
+      },
+      {
+        "file": "single-cell-spatial.md",
+        "bytes": 17871,
+        "sha256": "44fb2c18381303d2559155adffc0c4b3d79fc07368bf82fdbc723af23cf05689"
+      },
+      {
+        "file": "imaging-mass-cytometry.json",
+        "bytes": 4098,
+        "sha256": "30e75f7b3e86ce650274ad531b214a33e5feebe359348dc7d4e840dbbf0851c8"
+      },
+      {
+        "file": "imaging-mass-cytometry.md",
+        "bytes": 3640,
+        "sha256": "afb8e95c9c921bd0d3947ef8ad311a83523a8edb8d45e7a252d6268fdb761c0d"
+      },
+      {
+        "file": "multiplex-immunofluorescence.json",
+        "bytes": 6299,
+        "sha256": "a6a3e6dd4053d4b159db87884dde66ccec393f0d661d69fbaeb27e5799821b2c"
+      },
+      {
+        "file": "multiplex-immunofluorescence.md",
+        "bytes": 5222,
+        "sha256": "e412db456b3f8c25fde8ba094d853555f1b5c2c7f797b62ee939f24a35cf4ce3"
+      },
+      {
+        "file": "spatial-transcriptomics.json",
+        "bytes": 9188,
+        "sha256": "c4750b19b47ab9ec4978cbde6e857fee291dee58b3fafe86ac0c72a7f00f29b3"
+      },
+      {
+        "file": "spatial-transcriptomics.md",
+        "bytes": 7488,
+        "sha256": "f424b28707f9f27bad9bed7998101be62d3a121bae7c4233e636c89f0714acf5"
+      },
+      {
+        "file": "spatial-proximity-metrics.json",
+        "bytes": 12507,
+        "sha256": "c622a7e0492a2febc8b42344f1c5da6e4bb1d7fded668a7515ef60548714dab5"
+      },
+      {
+        "file": "spatial-proximity-metrics.md",
+        "bytes": 11908,
+        "sha256": "76879e91455a1d4713715d857dfc99cba388ba2080182dad33b3457f9ef514ab"
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "summaryConsumers": {
+    "entries": 45,
+    "texts": 3,
+    "fallbacks": 42,
+    "longAccepted": 0,
+    "long": [
+      {
+        "id": "single-cell-spatial",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "imaging-mass-cytometry",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "multiplex-immunofluorescence",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-transcriptomics",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "spatial-proximity-metrics",
+        "language": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ],
+    "namedReviews": []
+  },
+  "zeroSecretFindings": true,
+  "initialSimpleEntryLengthCorrection": {
+    "initialCharacters": 226,
+    "finalCharacters": 184,
+    "existingExclusiveLimit": 200,
+    "ruleUnchanged": true,
+    "onlyChangedConsumer": "spatial-proximity-metrics-simple"
+  },
+  "scope": "Current registered graph, actual EntityDetail SSR and static JSON/Markdown/OpenAPI generation. No full Next build, browser hydration, mobile, deployed page or independent acceptance claim."
+}

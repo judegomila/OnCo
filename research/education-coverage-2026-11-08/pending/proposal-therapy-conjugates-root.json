@@ -1,0 +1,1626 @@
+{
+  "version": "proposal-therapy-conjugates-root",
+  "state": "Registered unmerged owner fields; exact source-to-field, reader, export and gate receipts. No main, live, expert or language acceptance.",
+  "draft": 375,
+  "captureParentHead": "2f729291c55a4caac2e9869cd4efb5d4da67deba",
+  "companionCommittedHead": null,
+  "records": [
+    {
+      "id": "chemotherapy-term",
+      "kind": "term",
+      "name": "Chemotherapy",
+      "aka": [
+        "chemotherapies",
+        "chemo",
+        "cytotoxic",
+        "cytotoxics",
+        "cytotoxic chemotherapy",
+        "cytotoxic drugs",
+        "cytotoxic drug",
+        "cytotoxic agent",
+        "cytotoxic agents",
+        "chemotherapy regimen",
+        "chemotherapy regimens",
+        "chemo regimen",
+        "platinum-based chemotherapy",
+        "platinum doublet",
+        "taxane",
+        "taxanes",
+        "anthracycline",
+        "anthracyclines"
+      ],
+      "tldr": "Chemotherapy uses medicines to kill cancer cells or stop their growth. Different medicines disturb different cell processes, and their benefits and harms depend on the treatment and setting.",
+      "summary": "Here chemotherapy means conventional cytotoxic medicines, although the word is sometimes used more broadly for cancer drug treatment. These medicines can affect DNA, RNA, the supply of building blocks or microtubules. Many of those processes also operate in healthy cells. Fast division alone does not predict response, and DNA damage alone does not describe the whole family.\n\nA medicine, the way it is formulated, the amount and timing, and the disease setting all matter. An antibody-drug conjugate changes how a cargo is delivered and released; it does not make the cargo harmless to every healthy tissue. Some cargoes or related medicines have also been used outside conjugates.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chemotherapy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chemotherapy"
+        },
+        {
+          "label": "NCI: chemotherapy, purposes, routes and cycles",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+        },
+        {
+          "label": "Tewey et al., doxorubicin and topoisomerase II complexes (1984)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/"
+        },
+        {
+          "label": "Albumin-bound paclitaxel label: mechanism and formulation",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
+        },
+        {
+          "label": "Fluorouracil injection label: mechanism and DPD warning",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        },
+        {
+          "label": "Eribulin label: inhibition of microtubule growth",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cell-division",
+        "targeted-therapy-term",
+        "immunotherapy-term",
+        "bone-marrow",
+        "toxicity-grade",
+        "dose",
+        "payload",
+        "efflux-pump"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [
+        "cytotoxic-chemotherapy",
+        "platinum",
+        "topoisomerase-inhibitors",
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [
+        "carboplatin",
+        "paclitaxel"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The families disturb different jobs. Taxanes such as paclitaxel suppress microtubule dynamics; vinca medicines, eribulin and some conjugate cargoes inhibit assembly or growth instead. Platinum medicines form DNA attachments and cross-links. Classic alkylating agents such as cyclophosphamide act through reactive metabolites that attach groups to DNA. Anthracyclines such as doxorubicin can stabilise topoisomerase II cutting complexes. Fluoropyrimidines such as fluorouracil interfere with nucleotide supply and RNA function. Camptothecin-class medicines such as irinotecan and topotecan trap topoisomerase I complexes. These are mechanism examples, not interchangeable doses or a ranking of benefit.",
+        "Follow a defined exposure through a drug-specific disturbance, the damage and cell response, and then recovery or death. Record the exact medicine or active metabolite, concentration and units, exposure time, whether it was removed, and the recovery period. A clinical amount in milligrams or milligrams per square metre is not a concentration at every tumour cell. Cell counts, DNA synthesis, damage markers, survival and regrowth answer different questions. A lower metabolic signal alone can reflect changed cell number or state and does not distinguish arrest from death. Use matched untreated or vehicle controls, relevant normal cells and a time course before interpreting an effect as selective killing.",
+        "In a fictional assay, Drug A reduces survival in two tumour populations after the same exposure, but one recovers more readily after drug removal; Drug B gives a separate pattern. This does not identify which population a person has, whether a tolerable exposure reaches it, or whether treatment improves an outcome. In another fictional assay there are half as many cells at the end, but no death measurement or observation after drug removal. Slower growth remains an explanation. Compare starting counts, timed death measurements and recovery to distinguish slower growth from killing; neither assay proves a cure.",
+        "NCI describes several treatment purposes: cure, reducing the chance of recurrence, stopping or slowing growth, and easing symptoms. Chemotherapy can shrink disease before surgery or radiotherapy, treat cells remaining after local treatment, help another treatment, or treat returned or spread disease. Which purpose has clinical evidence depends on the named cancer, stage, regimen, comparator, endpoint and follow-up. A cell-mechanism diagram cannot establish that evidence.",
+        "An oral medicine can still have systemic harms; an infusion is a route, not a mechanism. Side effects do not measure how well a tumour is responding, and shrinkage is different from duration of control or survival. Uptake, activation, removal, repair and cell state can differ between tumour populations. Failure of one cytotoxic medicine does not establish failure of every member, and a new product name does not establish that resistance has been bypassed. A scheduled rest interval allows recovery but does not show that every biological effect has ended."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "kind": "technology",
+      "name": "Cytotoxic chemotherapy",
+      "aka": [],
+      "tldr": "Cytotoxic chemotherapy can kill cancer cells or stop their growth by disturbing cell processes. Healthy cells can be affected too, and each drug and regimen needs its own evidence.",
+      "summary": "Cytotoxic chemotherapy includes medicines acting on DNA attachments and topoisomerase complexes, nucleotide metabolism and RNA, or microtubule dynamics. It is broader than damaging the DNA of rapidly dividing cells. Tumour response depends on the medicine, its exposure and the cell response; a molecular disturbance does not by itself establish completed cell death.\n\nThese medicines can be used to cure some cancers, reduce recurrence risk, control disease or ease symptoms. The named regimen and clinical setting determine the evidence. The glossary explains the mechanism families and how to distinguish a laboratory growth effect from killing or clinical benefit.",
+      "status": "standard-of-care",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chemotherapy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chemotherapy"
+        },
+        {
+          "label": "NCI: chemotherapy uses, cycles and adverse effects",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/chemotherapy"
+        },
+        {
+          "label": "Paclitaxel label: interphase and mitotic microtubule functions",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
+        },
+        {
+          "label": "Fluorouracil label: nucleotide and RNA effects",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "genomic-assay-to-chemo-omission",
+        "body-surface-area-dosing",
+        "log-kill-hypothesis"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "raltitrexed",
+        "vindesine",
+        "alitretinoin",
+        "estramustine",
+        "floxuridine",
+        "streptozocin",
+        "teniposide",
+        "altretamine",
+        "plicamycin",
+        "amsacrine",
+        "uracil-mustard",
+        "mitobronitol",
+        "pipobroman",
+        "doxifluridine",
+        "plitidepsin"
+      ],
+      "companies": [
+        "lupin",
+        "intas",
+        "shasqi",
+        "telik",
+        "vion-pharmaceuticals",
+        "filamon",
+        "quetzal-therapeutics",
+        "thena-biotech",
+        "fulgent-genetics",
+        "inhatarget-therapeutics",
+        "bryet",
+        "crism-therapeutics",
+        "panther-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "efflux-pump"
+      ],
+      "trials": [
+        "euramos-1",
+        "gefitinib-chemo-tmh"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [
+        "cancer-chemotherapy-and-pharmacology",
+        "gan-to-kagaku-ryoho"
+      ],
+      "dependsOn": [],
+      "notes": [],
+      "principle": "A defined drug exposure can disturb DNA, RNA, metabolism or microtubules; subsequent growth arrest, recovery or death depends on the drug and biological setting.",
+      "strengths": [
+        "Clinical evidence supports curative, recurrence-reducing or symptom-relieving regimens in specified settings"
+      ],
+      "limitations": [
+        "Healthy-tissue effects and tolerated exposure differ by medicine and regimen",
+        "Delivery, activation, transport and cell response can affect activity"
+      ],
+      "since": 1946
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "kind": "term",
+      "name": "Regimen and cycles",
+      "aka": [
+        "regimen",
+        "regimens",
+        "chemotherapy regimen",
+        "treatment regimen",
+        "cycles",
+        "chemotherapy cycles",
+        "cycles of chemotherapy",
+        "21-day cycle",
+        "28-day cycle",
+        "every 3 weeks",
+        "q3w",
+        "q2w",
+        "q4w",
+        "day 1",
+        "days 1-14",
+        "×6 cycles",
+        "× 6",
+        "chemotherapy cycle"
+      ],
+      "tldr": "A chemotherapy regimen specifies the medicines, amounts and timing. A cycle is a defined period of treatment and recovery, whose duration and supportive care depend on the plan.",
+      "summary": "A chemotherapy regimen specifies the medicines, formulations, amounts, administration days, intervals, number of cycles and supportive care. A cycle is a defined period of treatment and recovery. Abbreviations such as AC, EC, TC, FOLFOX, FOLFIRI, FOLFIRINOX, CAPOX and BEP name particular combinations; a treatment abbreviation alone does not supply every dose or eligibility condition.\n\nDose-dense scheduling shortens intervals relative to a stated reference. Some tested regimens use growth-factor support, but that is a property of the protocol, not a rule supplied by the word dose-dense. Compare the intended schedule with what was delivered, and distinguish the duration of one phase from that of the whole treatment course.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chemotherapy_regimen",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chemotherapy_regimen"
+        },
+        {
+          "label": "Citron et al., C9741 postoperative schedule comparison (2003)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12668651/"
+        },
+        {
+          "label": "EBCTCG, dose-intensity strategies in 26 randomised trials (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30739743/"
+        },
+        {
+          "label": "Schmid et al., KEYNOTE-522 neoadjuvant strategy (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "doublet-triplet",
+        "folfox-family",
+        "r-chop",
+        "dose-dense-chemotherapy",
+        "dose-modification"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "C9741 randomised 2,005 women with node-positive primary breast cancer after surgery in a factorial comparison of two-weekly versus three-weekly treatment and sequential versus concurrent schedules. The two-weekly strategy included filgrastim. Its 2003 abstract reports risk ratios of 0.74 for disease-free survival and 0.69 for overall survival, and four-year disease-free survival of 82% versus 75%. These are results for that postoperative comparison and support package. The listed June 2003 erratum was not accessible in this check, so these numbers retain their abstract-level scope.",
+        "The 2019 EBCTCG individual-patient meta-analysis included 37,298 women in 26 early-breast-cancer trials, mostly younger than 70 and with node-positive disease. Across the strategies studied, ten-year recurrence was 28.0% versus 31.4%, breast-cancer mortality 18.9% versus 21.3%, and all-cause mortality 22.1% versus 24.8%. These comparisons do not test every shorter schedule. KEYNOTE-522 studied its own pembrolizumab-containing neoadjuvant and postoperative strategy; neither report establishes that changing the timing of that regimen reproduces the earlier dose-density result."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "anthracycline",
+      "kind": "term",
+      "name": "Anthracyclines (doxorubicin, epirubicin)",
+      "aka": [
+        "anthracyclines",
+        "anthracycline-based",
+        "anthracycline-free",
+        "anthracycline-containing",
+        "liposomal doxorubicin",
+        "AC-T",
+        "FEC",
+        "anthracycline cardiotoxicity"
+      ],
+      "tldr": "Anthracyclines are chemotherapy medicines that disturb DNA and an enzyme that cuts and reseals it. They can also harm the heart, including after treatment, so prior exposure and heart function matter.",
+      "summary": "Doxorubicin and epirubicin are members of the anthracycline family. Doxorubicin intercalates between DNA bases and can stabilise complexes of DNA with topoisomerase II, an enzyme that temporarily cuts both DNA strands, passes another segment and reseals the cut. Stabilising this intermediate interferes with resealing; it differs from simply switching the enzyme off. Other interactions, including reactive molecules and cell membranes, also contribute.\n\nCardiac risk depends on cumulative exposure, prior anthracyclines, other treatments and the person’s circumstances. It is not defined by a single dose above which every person develops cardiomyopathy or below which nobody does. A normal baseline heart scan and a symptom-free infusion cannot guarantee freedom from later cardiac injury.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Anthracycline",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Anthracycline"
+        },
+        {
+          "label": "Tewey et al., doxorubicin and topoisomerase II-mediated DNA damage (1984)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6093249/"
+        },
+        {
+          "label": "Pommier et al., topoisomerase poisoning mechanisms (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20534341/"
+        },
+        {
+          "label": "Conventional doxorubicin US label (2019): mechanisms and cumulative risks",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/050467s077lbl.pdf"
+        },
+        {
+          "label": "NCI glossary: anthracycline origins and class",
+          "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/anthracycline"
+        },
+        {
+          "label": "NCI glossary: antitumour antibiotic",
+          "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/antitumor-antibiotic"
+        },
+        {
+          "label": "NCI: epirubicin as an anthracycline family example",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/epirubicinhydrochloride"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cardiotoxicity",
+        "secondary-malignancy",
+        "r-chop",
+        "seven-plus-three"
+      ],
+      "cancers": [
+        "breast-hr-positive",
+        "dlbcl",
+        "aml",
+        "sarcoma"
+      ],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [
+        "cytotoxic-chemotherapy",
+        "cardio-oncology"
+      ],
+      "targets": [],
+      "drugs": [
+        "doxorubicin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Tewey and colleagues’ 1984 experiments linked doxorubicin-induced strand breaks and protein-DNA complexes to mammalian topoisomerase II. The cut ends remain associated with the enzyme in the cleavage complex; a drawing of two separated lines is not proof of freely severed DNA or a prediction of treatment response. Topoisomerase I poisons instead stabilise an intermediate involving a single-strand nick. These are different mechanisms; their names alone do not establish cross-resistance or a useful next treatment. The antitumour-antibiotic classification refers to the drug family and origin; it does not make an anthracycline cancer regimen routine treatment for an infection.",
+        "The 2019 conventional doxorubicin US label describes cardiomyopathy during treatment or years later and asks that prior anthracycline or anthracenedione doses count towards cumulative exposure. For administration every three weeks, its estimates range from 1% to 2% at 300 mg/m² cumulative doxorubicin to 6% to 20% at 500 mg/m². Those are labelled estimates in a stated schedule, not an individual risk calculator. The same label reports secondary acute myeloid leukaemia or myelodysplastic syndromes, with cumulative incidences from 0.2% at five years to 1.5% at ten years in two adjuvant breast-cancer trials.",
+        "Dose per administration and lifetime cumulative amount are separate quantities, often expressed in milligrams per square metre. Left ventricular ejection fraction measures cardiac pumping function; it is neither a tumour-response test nor a guarantee against future injury. Conventional and liposomal formulations need their own instructions and evidence. In a fictional experiment, a strand-break marker plus a normal baseline heart scan establishes neither successful cancer treatment nor absence of cardiac risk."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "taxane",
+      "kind": "term",
+      "name": "Taxanes (paclitaxel, docetaxel, nab-paclitaxel)",
+      "aka": [
+        "taxanes",
+        "taxane-based",
+        "taxane-pretreated",
+        "post-taxane",
+        "taxane-naive",
+        "weekly paclitaxel",
+        "gemcitabine/nab-paclitaxel",
+        "carboplatin/paclitaxel"
+      ],
+      "tldr": "Taxanes disturb the normal growth and shortening of microtubules, structures used in cell division and other cell jobs. Their formulation, exposure and effects on healthy tissue matter as well as tumour activity.",
+      "summary": "Paclitaxel, docetaxel and cabazitaxel are taxanes. Paclitaxel promotes microtubule assembly and stabilises microtubules against disassembly, suppressing their normal dynamics. Microtubules remain present; this is not tube destruction. Their reorganisation matters in mitosis and in interphase, when a cell is not dividing.\n\nAlbumin-bound paclitaxel and solvent-based paclitaxel contain the same active molecule in different products. Their administration and safety instructions are not interchangeable. Albumin binding does not eliminate hypersensitivity: the albumin-bound product label reports severe, sometimes fatal reactions and cross-hypersensitivity with other taxanes.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Taxane",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Taxane"
+        },
+        {
+          "label": "Albumin-bound paclitaxel label: mechanism, neuropathy and hypersensitivity",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
+        },
+        {
+          "label": "Eribulin label: microtubule growth inhibition",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13"
+        },
+        {
+          "label": "Vincristine label: clinical pharmacology",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c"
+        },
+        {
+          "label": "Vinorelbine label: microtubule assembly",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397"
+        },
+        {
+          "label": "Brentuximab vedotin label: MMAE mechanism",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+        },
+        {
+          "label": "Enfortumab vedotin label: MMAE mechanism",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed"
+        },
+        {
+          "label": "Trastuzumab emtansine label: DM1 mechanism",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Gornstein and Schwarz, paclitaxel effects in adult sensory-neuron cultures (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27894788/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "peripheral-neuropathy",
+        "tubulin-inhibitor-payloads",
+        "doublet-triplet"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [
+        "paclitaxel",
+        "docetaxel"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Microtubules help organise cells, separate chromosomes and transport material. The albumin-bound paclitaxel label explicitly describes interphase and mitotic functions. Its neuropathy warning is dose- and schedule-dependent. Neuropathy is a healthy-tissue effect, not a test of tumour killing. In Gornstein and Schwarz’s adult murine sensory-neuron cultures, low paclitaxel exposures arrested distal axon growth without cell death or fragmentation; early transport defects did not explain that result. This model does not establish one cause or incidence for all clinical neuropathy.",
+        "Other microtubule medicines need their own mechanism. Vinorelbine interferes with assembly; vincristine’s label describes inhibition of spindle microtubule formation while noting that its mechanisms remain under investigation. Eribulin inhibits the growth phase. The MMAE cargo of vedotin conjugates and the DM1 cargo of trastuzumab emtansine also inhibit microtubule function or assembly. A shared broad target does not make stabilisation and inhibition of growth the same operation, or prove that every exposed cell dies.",
+        "A laboratory concentration in nanomoles per litre and an administered dose in milligrams per square metre describe different things. Record formulation, exposure duration, drug removal, cell state and recovery, and distinguish altered microtubules, mitotic arrest, death and later regrowth. In a fictional culture that resumes growth after treatment, a picture of disrupted division is not proof of eradication. Schematic drug symbols on a tube show a functional comparison, not an atomic binding site or a clinical response threshold."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "alkylating-agent",
+      "kind": "term",
+      "name": "Alkylating agents and antimetabolites",
+      "aka": [
+        "alkylating",
+        "alkylator",
+        "alkylators",
+        "alkylating agent",
+        "alkylating agents",
+        "alkylating chemotherapy",
+        "antimetabolite",
+        "antimetabolites",
+        "fluoropyrimidine",
+        "fluoropyrimidines",
+        "nucleoside analogue",
+        "purine analogue",
+        "purine analogues"
+      ],
+      "tldr": "Alkylating agents and antimetabolites are different chemotherapy families. Some attach chemical groups to DNA; others interfere with the cell’s use of building blocks.",
+      "summary": "This overview covers two distinct families. Classic alkylating agents or their active metabolites attach alkyl groups to cellular molecules, including DNA. An alkyl group contains carbon; some agents with two reactive sites can link DNA sites within one strand or between strands. Not every alkylator creates the same lesions or forms cross-links. A DNA attachment is different from cutting its backbone.\n\nAntimetabolites resemble or interfere with chemicals used in normal cell reactions. Fluorouracil and its oral prodrug capecitabine are fluoropyrimidine examples, with nucleotide and RNA effects rather than alkyl transfer. Vinca medicines instead act on microtubules. Platinum medicines can make DNA attachments and cross-links but use metal coordination, which is why the grouping alkylating-like does not make them chemically identical to alkylators.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Alkylating_antineoplastic_agent",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Alkylating_antineoplastic_agent"
+        },
+        {
+          "label": "Cyclophosphamide label: metabolism, urotoxicity and fertility",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5bad5bfc-12c0-46a2-8355-1028f108ecbf"
+        },
+        {
+          "label": "NCI glossary: alkylating agent",
+          "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/alkylating-agent"
+        },
+        {
+          "label": "NCI glossary: antimetabolite",
+          "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/antimetabolite"
+        },
+        {
+          "label": "Brock et al., acrolein and oxazaphosphorine urotoxicity (1979)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/114192/"
+        },
+        {
+          "label": "IARC Monographs volume 100A: cyclophosphamide mechanism synthesis",
+          "url": "https://www.inchem.org/documents/iarc/iarcmono/v100aiarc.pdf"
+        },
+        {
+          "label": "ABECMA label: cyclophosphamide-containing lymphodepletion",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b90c1fe7-f5cc-464e-958a-af36e9c26d7c"
+        },
+        {
+          "label": "USDA National Agricultural Library thesaurus: alkylation",
+          "url": "https://lod.nal.usda.gov/nalt/6495"
+        },
+        {
+          "label": "Kohn, Drugs Against Cancer chapter 3: platinum chemistry",
+          "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf"
+        },
+        {
+          "label": "Moore et al., POEMS ovarian-protection trial (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25738668/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "secondary-malignancy",
+        "conditioning-regimen",
+        "lymphodepletion",
+        "folfox-family",
+        "fluorouracil",
+        "capecitabine",
+        "tubulin",
+        "platinum"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [
+        "cyclophosphamide",
+        "fluorouracil",
+        "methotrexate",
+        "gemcitabine",
+        "temozolomide",
+        "melphalan"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Cyclophosphamide is a prodrug activated through cytochrome P450 metabolism, producing 4-hydroxycyclophosphamide and aldophosphamide and then phosphoramide mustard and acrolein. Parent-drug amount is not active-metabolite exposure. In a fictional culture without a suitable activation system, little killing after parent cyclophosphamide does not establish clinical resistance. Measure activation and exposure before making that inference.",
+        "Urinary injury and antitumour alkylation are different consequences of metabolism. The cyclophosphamide label describes haemorrhagic cystitis and other urotoxicity, hydration and bladder emptying, and use of mesna. Brock’s 1979 abstract attributes oxazaphosphorine urotoxicity to urinary acrolein; IARC’s later synthesis calls acrolein the likely cause of cyclophosphamide-induced cystitis, drawing on experimental toxicology. This supports a harmful-by-product mechanism, not a universal cystitis rate or a reason to select supportive care from the family name.",
+        "Cyclophosphamide also suppresses immune cells. For example, the ABECMA product label includes it with fludarabine in lymphodepleting pretreatment before the cell infusion. That product-specific conditioning schedule is different from a breast-cancer regimen. The cyclophosphamide label describes impaired fertility, transient or permanent amenorrhoea and a premature-menopause risk that increases with age; sterility can be irreversible in some people. This is a risk, not a prediction that ovarian function always ends. Trials such as POEMS studied temporary ovarian suppression during chemotherapy in a defined premenopausal breast-cancer population; neither the risk nor the trial supplies a universal guarantee of loss or protection.",
+        "Follow the named product, active species and regimen when reading safety and exposure data. A clinical dose may be written in milligrams or milligrams per square metre, while a laboratory exposure has concentration and time units. Blood counts, kidney and urinary findings and reproductive effects answer different safety questions. A base attachment, same-strand cross-link or opposite-strand cross-link leaves the sugar-phosphate backbone continuous; a double-strand break severs it. Schematic connectors illustrate these categories, not their frequencies or a guarantee of cell death."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "platinum",
+      "kind": "technology",
+      "name": "Platinum agents",
+      "aka": [],
+      "tldr": "Platinum medicines can attach to DNA and link sites together. The resulting injury, healthy-tissue effects and treatment benefit depend on the drug, exposure and cancer setting.",
+      "summary": "Cisplatin, carboplatin and oxaliplatin are metal-containing medicines. Platinum can coordinate to DNA bases, forming attachments called adducts, including links within one strand or between strands. An experiment with one product does not establish the lesion mixture or formation rate for every platinum medicine. They are sometimes grouped as alkylating-like medicines, but platinum coordination is different from transferring a carbon-containing alkyl group.\n\nDNA attachments can disturb DNA function and lead to further damage, yet they do not by themselves establish apoptosis or clinical sensitivity. Uptake, removal, repair and cell survival mechanisms matter. A historical repair scar or the name of a repair gene cannot alone establish present response to a particular platinum regimen.",
+      "status": "standard-of-care",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Platinum-based_antineoplastic",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Platinum-based_antineoplastic"
+        },
+        {
+          "label": "Kohn, Drugs Against Cancer chapter 3: platinum coordination",
+          "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter3_v221004be3.pdf"
+        },
+        {
+          "label": "Coste et al., defined cisplatin interstrand DNA cross-link structure (1999)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10101191/"
+        },
+        {
+          "label": "Huang et al., cisplatin interstrand cross-link structure (1995)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8525382/"
+        },
+        {
+          "label": "Calvert et al., renal-function-based carboplatin dosage (1989)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/2681557/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "platinum-plus-hrd"
+      ],
+      "cancers": [
+        "tnbc",
+        "ovarian",
+        "nsclc",
+        "urothelial",
+        "head-and-neck"
+      ],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [],
+      "targets": [
+        "brca"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A single-base attachment, a link between bases on the same strand and a link between opposite strands are different from a double-strand break. The first three attach to bases while the sugar-phosphate backbones remain continuous; the last severs both backbones. G denotes guanine and C denotes cytosine in the schematic DNA. The paired platinum drawings omit ligands and atomic geometry and do not show lesion proportions. Structural studies of defined cisplatin interstrand cross-links support base connectivity in selected DNA sequences, not every product’s mixture or a patient response.",
+        "Calvert and colleagues developed a renal-function-based carboplatin dosing approach in adults. Target exposure, the area under the concentration-time curve, can be expressed in mg·min/mL; the administered amount is in milligrams. Kidney function enters that calculation. Neither those units nor the original study supply one target for every combination or justify exchanging cisplatin and carboplatin dose for dose. Their efficacy and adverse-effect evidence belongs to the actual product and regimen.",
+        "In a fictional experiment, more platinum-DNA adducts after treatment show more measured attachments under that assay’s conditions. They do not prove that cells died, that recovery failed, or that treatment benefits a person. Check the active species, exposure, sampling time, repair and survival readouts, and then the clinical comparison. This is a reading rule, not a diagnostic cutoff."
+      ],
+      "principle": "Platinum coordination to DNA bases can form adducts and cross-links; downstream injury and response depend on exposure and cellular handling.",
+      "strengths": [
+        "Clinical activity is established for specified platinum medicines and regimens"
+      ],
+      "limitations": [
+        "Kidney, hearing, nerve and blood-cell effects differ by product and regimen",
+        "A repair biomarker or DNA-adduct measurement alone does not establish treatment benefit"
+      ]
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "kind": "technology",
+      "name": "Topoisomerase-I inhibitors (and ADC payloads)",
+      "aka": [],
+      "tldr": "These medicines can trap an enzyme on DNA while it is making a temporary cut. This can cause further damage during copying, but the exact drug, exposure and cell response determine what follows.",
+      "summary": "Camptothecin-class topoisomerase I poisons stabilise an enzyme-DNA cleavage complex and slow resealing of a temporary single-strand nick. A replication fork encountering the trapped complex can create a double-strand break. This is different from simply removing topoisomerase I or treating every inhibitor as an identical chemical.\n\nIrinotecan is converted to SN-38; topotecan is administered as an active drug. SN-38, exatecan and DXd are distinct chemicals, and deruxtecan refers to a linker-payload component. Conjugates carrying related TOP1 cargoes can differ in targeting, loading, release, exposure, resistance and harms. A shared mechanism does not establish family-wide permeability, a safety advantage or benefit after another conjugate.",
+      "status": "standard-of-care",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Topoisomerase_inhibitor",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Topoisomerase_inhibitor"
+        },
+        {
+          "label": "Pommier, camptothecin-class TOP1 poisons (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16990856/"
+        },
+        {
+          "label": "Pommier et al., topoisomerase poisoning (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20534341/"
+        },
+        {
+          "label": "Murai et al., SLFN11 and ATR-independent stressed-fork responses (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29395061/"
+        },
+        {
+          "label": "Zoppoli et al., SLFN11 and several DNA-damaging drug classes (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/"
+        },
+        {
+          "label": "Abelman et al., selected TOP1 mutations and conjugate resistance (2025)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/"
+        },
+        {
+          "label": "Innocenti et al., UGT1A1 and irinotecan neutropenia (2004)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15007088/"
+        },
+        {
+          "label": "Sacituzumab govitecan label: UGT1A1 and adverse effects",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+        },
+        {
+          "label": "Trastuzumab deruxtecan label: lung warning",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"
+        },
+        {
+          "label": "Datopotamab deruxtecan label: lung warning",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0"
+        },
+        {
+          "label": "Weng et al., exatecan-conjugate combination models (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+        },
+        {
+          "label": "Cole et al., paediatric adavosertib-irinotecan phase 1 trial (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31857431/"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "chemotherapy",
+        "adcs"
+      ],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "dantari",
+        "pheon-therapeutics",
+        "profoundbio",
+        "sunesis",
+        "crescent-biopharma",
+        "kivu-bioscience",
+        "fulgent-genetics",
+        "crism-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "bystander-effect"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "ATR checkpoint activity, homologous-recombination repair and SLFN11-associated replication responses are mechanisms studied after TOP1 damage. They are not mutually exclusive branches that guarantee survival or death. Murai’s experiments found that SLFN11 could block stressed replication forks independently of ATR. Zoppoli compared gene expression with four TOP1 inhibitors across the NCI-60 panel and used siRNA silencing to test the cell-death and cell-cycle response. That work also linked SLFN11 to response to other DNA-damaging drug categories, including TOP2 poisons, alkylators and DNA-synthesis inhibitors, so switching away from TOP1 does not automatically bypass this dependency. Specific response-pathway combinations need their own evidence: Weng tested PARP and ATR combinations with exatecan conjugates in preclinical models, while Cole’s phase 1 study tested the WEE1 inhibitor adavosertib with irinotecan in children and adolescents with relapsed solid or central-nervous-system tumours. Those studies do not establish an adult breast-cancer treatment rule.",
+        "Abelman and colleagues reported TOP1 mutations at progression in 4 of 31 people with metastatic breast cancer treated with a TOP1 conjugate, compared with 3 of 420 people without prior conjugate exposure. The observed variants were S57C, R364H, W401C and G359E. Three mutant proteins tested in their laboratory had reduced enzymatic activity and covalent DNA binding and resisted SN-38 and DXd. These selected cohort and functional results do not establish that any TOP1 sequence change predicts the same response, that all later conjugates fail, or that a redesigned cargo covers every mutant.",
+        "Host drug handling is a separate question. In Innocenti’s 66-person irinotecan study using 350 mg/m² every three weeks, cycle-one grade 4 neutropenia occurred in 3 of 6 people homozygous for the reduced-function promoter allele and in 0 of 29 with the reference genotype; this was one irinotecan regimen. The current sacituzumab govitecan label reports grade 3 or 4 neutropenia in 57% of 138 UGT1A1*28 homozygotes, 48% of 531 heterozygotes and 41% of 533 reference homozygotes, among 1,202 genotyped recipients. These denominators and products cannot be exchanged, and genotype is not a tumour-response test.",
+        "The current trastuzumab deruxtecan label has a boxed interstitial-lung-disease warning; datopotamab deruxtecan has an interstitial-lung-disease warning outside its box. Sacituzumab govitecan’s different warning structure does not establish a comparative lung-injury rate. Compare product, disease population, exposure, adverse-event definition and follow-up before comparing percentages; a TOP1 mechanism alone supplies none of them.",
+        "For an experimental claim, name the exact free or released drug, concentration range and duration, then distinguish cell survival, regrowth, TOP1 expression or sequence, DNA-damage markers such as gamma-H2AX, SLFN11 and efflux measurements. A damage marker is not completed death, a protein level is not a cleavage-complex assay, and an exploratory association is not a validated clinical selection rule. TOP2 poisons stabilise a different enzyme’s double-strand-cut intermediate; the enzyme names alone do not select a subsequent medicine."
+      ],
+      "principle": "Camptothecin-class poisons stabilise TOP1-DNA cleavage complexes; replication-associated injury and cell response determine subsequent recovery or death.",
+      "strengths": [
+        "Some TOP1-carrying conjugates have clinical evidence and approvals in specified disease and prior-treatment settings"
+      ],
+      "limitations": [
+        "TOP1 mutations, transport and cell-response mechanisms can affect different products differently",
+        "Lung injury, neutropenia and diarrhoea warnings are product- and population-specific"
+      ]
+    },
+    {
+      "id": "fluorouracil",
+      "kind": "drug",
+      "name": "Fluorouracil (5-FU)",
+      "aka": [
+        "5-FU",
+        "5 fluorouracil"
+      ],
+      "tldr": "The 1957 chemotherapy that remains the backbone of treatment for bowel, stomach, pancreatic, anal, head and neck and breast cancers, and as a cream for skin precancers.",
+      "summary": "Fluorouracil is a fluoropyrimidine antimetabolite, used in systemic regimens and in separate topical products. Capecitabine is an oral prodrug converted to fluorouracil; it is not the same formulation or an interchangeable dose. In cells, active metabolites interfere with thymidylate synthase and nucleotide supply, enter RNA, and can enter DNA. These processes also occur in normal cells.\n\nThe US injection label calls for DPYD variant testing before treatment unless immediate treatment is necessary. Complete DPD deficiency carries a boxed warning; partial deficiency can also raise the risk of serious or fatal toxicity. The label says that no dose is proven safe in complete deficiency, no FDA-authorised DPYD test is available, and serious reactions can occur even when no variant is identified. These statements concern the labelled systemic product; topical preparations and their instructions must be considered separately.",
+      "status": "approved",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fluorouracil",
+      "links": [
+        {
+          "label": "Label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fluorouracil%20injection"
+        },
+        {
+          "label": "Fluorouracil injection label: mechanism and DPYD testing",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        },
+        {
+          "label": "FDA safety-label update: capecitabine and fluorouracil",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine"
+        },
+        {
+          "label": "Jansen et al., five-year results of a randomised controlled trial comparing photodynamic therapy, topical imiquimod and topical 5-fluorouracil in superficial basal cell carcinoma (J Invest Dermatol 2018)",
+          "url": "https://doi.org/10.1016/j.jid.2017.09.033"
+        },
+        {
+          "label": "Cancer Research UK: chemotherapy cream for non-melanoma skin cancer",
+          "url": "https://www.cancerresearchuk.org/about-cancer/skin-cancer/treatment/chemotherapy-cream"
+        },
+        {
+          "label": "British Association of Dermatologists: basal cell carcinoma, patient information leaflet (updated July 2025)",
+          "url": "https://www.skinhealthinfo.org.uk/condition/basal-cell-carcinoma/"
+        },
+        {
+          "label": "NCI: FOLFOX components",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox"
+        }
+      ],
+      "tags": [
+        "gap-fill",
+        "generic",
+        "who-essential"
+      ],
+      "related": [
+        "uridine-triacetate"
+      ],
+      "cancers": [
+        "colorectal",
+        "gastric",
+        "pancreatic",
+        "anal",
+        "esophageal",
+        "head-and-neck",
+        "basal-cell-carcinoma",
+        "hepatoblastoma",
+        "anal-hsil-precursor",
+        "localised-anal-cancer",
+        "localised-penile-cancer",
+        "skin-cancer"
+      ],
+      "sections": [],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "mast-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "topical-and-destructive-treatment-bcc"
+      ],
+      "trials": [
+        "int-0116",
+        "cao-aro-aio-94",
+        "dbcg-82bc",
+        "nct07775287",
+        "nct07676162",
+        "nct04430738",
+        "nct06107413",
+        "nct06792695",
+        "nct07805551",
+        "nct05009069",
+        "nct05846867",
+        "nct06820463",
+        "nct04421820",
+        "nct05379595",
+        "nct04675333",
+        "nct05489211",
+        "nct06428409",
+        "nct07554521",
+        "nct06469944",
+        "nct06901531",
+        "nct04241185",
+        "nct04379596",
+        "nct07069712",
+        "nct07256782",
+        "nct06780111",
+        "nct06922383",
+        "nct01954992",
+        "mal-pdt-imiquimod-fluorouracil-superficial-bcc"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-sauer-preoperative-chemoradiotherapy-rectal-nejm-2004"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Fluoropyrimidines are a medicine family, not another name for every alkylator. Fluorouracil is one member and capecitabine is a prodrug. The active fluorouracil metabolites FdUMP, FUTP and FdUTP have different jobs: thymidylate-synthase inhibition, incorporation into RNA and incorporation into DNA. Both tumour and normal cells can form active metabolites. Oral delivery or activation enriched in a tumour does not establish cancer-only activity. FOLFOX is a combination of fluorouracil, leucovorin and oxaliplatin. Its name identifies components, not every dose or eligibility condition.",
+        "DPYD is the gene and DPD is the enzyme involved in fluorouracil breakdown. Host clearance and tumour sensitivity are different questions. Identifying selected DNA variants is a different measurement from assessing enzyme activity. The label distinguishes complete from partial deficiency, calls for individualised dosing for partial deficiency, and notes that available tests differ in which variants they identify and in performance. A negative panel does not establish normal handling or freedom from serious toxicity; interpretation and treatment decisions belong to the prescribing team.",
+        "As a cream for superficial basal cell carcinoma. In the Dutch randomised trial of 601 patients, fluorouracil cream was applied twice daily for four weeks, and the probability of tumour-free survival five years later was 70.0 percent, against 80.5 percent for imiquimod and 62.7 percent for photodynamic therapy; fluorouracil was inferior to imiquimod (hazard ratio 0.65 in favour of imiquimod, 95 percent confidence interval 0.43 to 0.98) and not significantly different from photodynamic therapy at that timepoint, having been found non-inferior to it at one and three years. The NHS says a chemotherapy cream is used once or twice a day for three to four weeks for cancers affecting only the top layer of skin."
+      ],
+      "brand": "Adrucil / Efudex",
+      "modality": "Fluoropyrimidine antimetabolite",
+      "mechanism": "Converted to FdUMP (thymidylate synthase inhibition) and FUTP (RNA incorporation); potentiated by leucovorin; DPD deficiency causes severe toxicity.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 1962,
+          "indication": "Colorectal, breast, gastric and pancreatic adenocarcinoma"
+        },
+        {
+          "region": "US",
+          "year": 1970,
+          "indication": "Topical: actinic keratosis and superficial basal cell carcinoma"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": [
+        {
+          "date": "2024-03-21",
+          "type": "label-change",
+          "region": "US",
+          "note": "FDA approved safety labeling changes for fluorouracil injection products.",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-safety-labeling-changes-regarding-dpd-deficiency-fluorouracil-injection-products",
+          "indication": "fluorouracil injection products"
+        }
+      ]
+    },
+    {
+      "id": "capecitabine",
+      "kind": "drug",
+      "name": "Capecitabine",
+      "aka": [],
+      "tldr": "Capecitabine is an oral prodrug that the body converts to fluorouracil. It is used in specified cancer treatments, and oral delivery does not remove the risk of serious toxicity.",
+      "summary": "Capecitabine is a fluoropyrimidine antimetabolite, converted through enzyme steps to fluorouracil. Its active metabolites interfere with nucleotide production and RNA function in normal as well as tumour cells. It is not simply a tablet containing fluorouracil, and the names, formulations and doses must not be exchanged.\n\nThe US label calls for DPYD variant testing before starting unless immediate treatment is necessary. It carries warnings for serious or fatal toxicity in complete DPD deficiency and for bleeding with vitamin K antagonists. Partial DPD deficiency can also increase risk; no capecitabine dose has been proven safe in complete deficiency, and a negative genetic result does not remove all risk. Clinical benefit and combinations belong to the specific disease, setting and comparison.",
+      "status": "approved",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Capecitabine",
+      "links": [
+        {
+          "label": "US label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=capecitabine"
+        },
+        {
+          "label": "NCI drug page",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capecitabine"
+        },
+        {
+          "label": "EPAR",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xeloda"
+        },
+        {
+          "label": "Capecitabine label: activation, mechanism and DPD warnings",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e7d6317-1439-4976-ae00-6f62619ec3dd"
+        },
+        {
+          "label": "Fluorouracil label: active metabolites and DPD",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        },
+        {
+          "label": "Masuda et al., CREATE-X residual invasive HER2-negative breast cancer (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+        },
+        {
+          "label": "FDA: updated capecitabine and fluorouracil safety labelling",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/safety-labeling-update-capecitabine-and-fluorouracil-5-fu-risks-associated-dihydropyrimidine"
+        },
+        {
+          "label": "Palmer et al., ESPAC4 long-term outcomes (JCO 2025)",
+          "url": "https://doi.org/10.1200/JCO.24.01118"
+        },
+        {
+          "label": "NICE NG85 recommendations 1.8.6 and 1.9.3",
+          "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations"
+        },
+        {
+          "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Capecitabine",
+          "url": "https://ncoda.org/pes/capecitabine/"
+        },
+        {
+          "label": "NCI: CAPOX components",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/capox"
+        },
+        {
+          "label": "NCI: FOLFOX components",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/folfox"
+        }
+      ],
+      "tags": [
+        "nci-list",
+        "generic"
+      ],
+      "related": [
+        "fluorouracil",
+        "capox",
+        "capecitabine-temozolomide",
+        "uridine-triacetate"
+      ],
+      "cancers": [
+        "colorectal",
+        "breast-hr-positive",
+        "tnbc",
+        "breast-her2-positive",
+        "gastric",
+        "pancreatic",
+        "her2-positive-breast-brain-metastases",
+        "tnbc-early"
+      ],
+      "sections": [],
+      "technologies": [
+        "cytotoxic-chemotherapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "roche-genentech"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "rapido",
+        "nct04854668",
+        "nct06435429",
+        "nct07412613",
+        "nct06118333",
+        "nct04430738",
+        "nct07805551",
+        "nct05009069",
+        "nct07432295",
+        "nct05126719",
+        "nct06324357",
+        "nct05382442",
+        "nct02955940",
+        "nct05093907",
+        "nct06493760",
+        "nct05489211",
+        "nct06081959",
+        "nct06393374",
+        "nct05300269",
+        "nct07554521",
+        "nct05980481",
+        "nct06202261",
+        "nct03899155",
+        "nct05702229",
+        "nct06469944",
+        "nct06155383",
+        "nct05814354",
+        "nct06901531",
+        "nct07331155",
+        "nct06942234",
+        "nct05785741",
+        "nct06247956",
+        "nct06312176",
+        "nct06764875",
+        "nct05840211",
+        "nct06343948",
+        "nct06771622",
+        "nct06568692",
+        "nct05700084",
+        "nct07060807",
+        "nct07056777",
+        "nct05934331",
+        "nct06109779",
+        "nct05144854",
+        "nct07007559",
+        "nct06764940",
+        "nct07582315",
+        "nct07606599",
+        "nct07431281",
+        "nct04895358",
+        "nct06957886",
+        "nct07315750",
+        "nct04379596",
+        "nct07069712",
+        "nct06247995",
+        "nct07679360",
+        "nct06279364",
+        "spotlight-glow",
+        "nct04721977",
+        "nct07390383",
+        "nct06313983",
+        "nct06825494",
+        "nct07283367",
+        "nct07140393",
+        "nct06703177",
+        "nct04550260",
+        "nct07648914",
+        "nct07071337",
+        "nct06741644",
+        "nct04639986",
+        "nct05671822",
+        "nct06256328",
+        "nct04919226",
+        "nct04725994",
+        "create-x",
+        "sysucc-001",
+        "geicam-ciboma",
+        "ea1131",
+        "bre12-158",
+        "ascent-05",
+        "tropion-breast03",
+        "keynote-119",
+        "espac-4",
+        "espac-5",
+        "scalop",
+        "scalop-2",
+        "lap07"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Activation, cellular action and host breakdown are separate steps. Capecitabine becomes fluorouracil through several enzyme reactions; the simplified arrow omits intermediates. FdUMP limits the DNA building block thymidylate by inhibiting thymidylate synthase, while FUTP can enter RNA and disrupt its work. DPD-mediated breakdown affects host exposure. A fictional brochure claiming tumour-enriched activation has not thereby shown that normal tissues avoid active metabolites or toxicity. CAPOX combines capecitabine with oxaliplatin; FOLFOX instead combines fluorouracil, leucovorin and oxaliplatin. These are separate regimens, and the prodrug relationship does not make their instructions interchangeable.",
+        "The current capecitabine label says an FDA-authorised DPYD test is not available and available panels differ in variants and performance. It calls for individualising dosing in partial DPD deficiency and notes that serious adverse reactions may occur despite no identified variant. Tablet strength in milligrams, administered amount, and capecitabine or metabolite concentrations in ng/mL describe different quantities; none is itself a tumour-response measurement.",
+        "CREATE-X randomised 910 people with HER2-negative residual invasive breast cancer after neoadjuvant chemotherapy containing an anthracycline, a taxane or both. Five-year disease-free survival was 74.1% with additional capecitabine versus 67.6% with control, and overall survival was 89.2% versus 83.6%. These are the trial’s populations and comparisons, not a universal instruction for all residual disease or a test of every modern immunotherapy combination.",
+        "Triple-negative breast cancer: in the CREATE-X triple-negative subgroup with residual invasive disease after neoadjuvant chemotherapy, capecitabine improved five-year disease-free survival (69.8 versus 56.1 percent, hazard ratio 0.58) and overall survival (78.8 versus 70.3 percent, hazard ratio 0.52). One year of low-dose metronomic capecitabine after standard adjuvant chemotherapy improved disease-free survival in SYSUCC-001 (five-year 82.8 versus 73.0 percent; ten-year 78.1 versus 66.6 percent) without a significant overall survival gain, while eight cycles of extended adjuvant capecitabine did not reach significance in the Spanish GEICAM/CIBOMA trial (hazard ratio 0.82). In EA1131 platinum was not better than capecitabine for residual basal-like disease. It is the physician's-choice comparator or control in ASCENT, ASCENT-05, TROPION-Breast03, KEYNOTE-119 and OlympiAD. NICE has never appraised it for this use; it is a generic prescribed on the CREATE-X evidence.",
+        "Pancreatic cancer: with gemcitabine, capecitabine is the adjuvant regimen NICE NG85 recommends in England (1.8.6, an off-label use) on ESPAC-4 (median overall survival 28.0 against 25.5 months, hazard ratio 0.82; long-term 31.6 against 28.4 months and 49.9 against 32.2 months after R0 resection, JCO 2025), the standard for people not eligible for modified FOLFIRINOX. It is the preferred radiosensitiser for chemoradiotherapy (SCALOP: median survival 15.2 against 13.4 months with gemcitabine-based chemoradiotherapy; NG85 1.9.3) and the chemoradiotherapy partner in LAP07 and ESPAC-5."
+      ],
+      "brand": "Xeloda",
+      "modality": "Oral fluoropyrimidine prodrug (antimetabolite)",
+      "mechanism": "Converted in three steps, the last by thymidine phosphorylase enriched in tumours, to fluorouracil; FdUMP blocks thymidylate synthase and FUTP is incorporated into RNA.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 1998,
+          "indication": "Metastatic breast cancer after anthracycline and taxane; later adjuvant and metastatic colorectal cancer, rectal chemoradiotherapy"
+        },
+        {
+          "region": "EU",
+          "year": 2001,
+          "indication": "Colorectal, gastric and breast cancer"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": [
+        {
+          "date": "1998-04-30",
+          "type": "accelerated-approval",
+          "region": "US",
+          "note": "Accelerated approval on a surrogate endpoint, with a confirmatory trial required.",
+          "indication": "Metastatic breast cancer resistant to paclitaxel and an anthracycline-containing chemotherapy regimen or resistant to paclitaxel and further anthracycline therapy is contraindicated"
+        },
+        {
+          "date": "2001-09-07",
+          "type": "conversion",
+          "region": "US",
+          "note": "Confirmed: the accelerated approval of 1998 converted to traditional approval 3.4 years after it was granted.",
+          "indication": "Metastatic breast cancer resistant to paclitaxel and an anthracycline-containing chemotherapy regimen or resistant to paclitaxel and further anthracycline therapy is contraindicated"
+        },
+        {
+          "date": "2022-12-14",
+          "type": "label-change",
+          "region": "US",
+          "note": "FDA approved updated labeling for capecitabine tablets (Xeloda, Genentech, Inc.) under Project Renewal, an Oncology Center of Excellence (OCE) initiative aimed at updating labeling information for certain older oncology drugs to ensure information is clinically meaningful and scientifically up to date.",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-updated-drug-labeling-including-new-indications-and-dosing-regimens-capecitabine",
+          "indication": "capecitabine tablets under Project Renewal"
+        }
+      ]
+    },
+    {
+      "id": "tubulin",
+      "kind": "target",
+      "name": "Tubulin (microtubules)",
+      "aka": [
+        "vinca",
+        "vinca alkaloid",
+        "vinca alkaloids"
+      ],
+      "tldr": "Tubulin proteins build microtubules, structures used in cell division, organisation and transport. Different medicines disturb their dynamics in different ways; a disturbed microtubule does not by itself prove cell death.",
+      "summary": "Alpha- and beta-tubulin pairs assemble into microtubules. These dynamic structures help form the mitotic spindle and also support organisation and transport in cells outside mitosis. Paclitaxel promotes assembly and stabilises microtubules against disassembly. Vinca medicines and eribulin instead inhibit formation, assembly or growth through their own mechanisms.\n\nThe MMAE cargo of vedotin conjugates and the DM1 cargo of trastuzumab emtansine interfere with microtubule function. Binding, altered dynamics, mitotic arrest, completed death and recovery are different observations. Effects on normal cells can matter even when those cells are not dividing; no universal neuropathy mechanism, dose limit or treatment benefit follows from the target name.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tubulin",
+      "links": [
+        {
+          "label": "UniProt P07437: TUBB",
+          "url": "https://www.uniprot.org/uniprotkb/P07437/entry"
+        },
+        {
+          "label": "Paclitaxel label: microtubule dynamics in mitosis and interphase",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15ca4829-8fee-45f9-b4bc-b31c15732cd6"
+        },
+        {
+          "label": "Vincristine label: inhibition of microtubule formation",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c"
+        },
+        {
+          "label": "Vinorelbine label: assembly inhibition",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10a70995-e04d-4044-b1dc-c9aa27460397"
+        },
+        {
+          "label": "Eribulin label: growth-phase inhibition",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=311a12f4-e5b3-4959-ab84-3d0eb6558d13"
+        },
+        {
+          "label": "Trastuzumab emtansine label: DM1 microtubule activity",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=23f3c1f4-0fc8-4804-a9e3-04cf25dd302e"
+        },
+        {
+          "label": "Brentuximab vedotin label: MMAE activity",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [
+        "breast-hr-positive",
+        "nsclc",
+        "ovarian",
+        "all-leukemia"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "paclitaxel",
+        "docetaxel",
+        "vincristine",
+        "eribulin"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "symbol": "TUBB",
+      "role": [],
+      "sources": [],
+      "specificity": "broadly-expressed",
+      "distribution": "few-types",
+      "specificityNote": "Broadly expressed or essential: HPA lists TUBB among essential proteins and finds the RNA at low tissue specificity; the 8 medicines aimed at it (Paclitaxel / nab-paclitaxel, Docetaxel, Vincristine and more) act on the wild-type protein, so normal tissue is exposed and the therapeutic window comes from the tumour's faster division or its dependence on the protein. HPA TUBB: RNA low tissue specificity; high antibody staining in 9 normal tissues; highest cancer staining testis cancer (3 of 11 high). Distribution: 4 cancer families in the corpus carry a prevalence row, label threshold or catalogue link for it (Breast cancer (all types), Lung cancer (all types), Ovarian cancer, Leukaemia); approvals of single-target medicines aimed at it also list Prostate cancer, not counted; Open Targets associates it with 19 specific cancer types at or above 0.5 (breast cancer, non-small cell lung carcinoma, breast carcinoma, Hodgkins lymphoma, plasma cell myeloma, diffuse large B-cell lymphoma and more). (Rule 7 of scripts/fetch-target-specificity.ts.)",
+      "specificitySources": [
+        {
+          "label": "Human Protein Atlas TUBB tissue",
+          "url": "https://www.proteinatlas.org/ENSG00000196230-TUBB/tissue",
+          "note": "RNA tissue and blood lineage specificity, normal tissue antibody staining (version 25.1, CC BY-SA 3.0)"
+        },
+        {
+          "label": "Open Targets ENSG00000196230 associations",
+          "url": "https://platform.opentargets.org/target/ENSG00000196230/associations",
+          "note": "cancer associations at or above 0.5 (CC0)"
+        }
+      ],
+      "hgnc": "HGNC:20778",
+      "ensembl": "ENSG00000196230",
+      "uniprot": "P07437",
+      "entrez": "203068",
+      "firstDescribed": 1983,
+      "firstDescribedBasis": "sequence",
+      "firstDescribedNote": "Earliest sequence paper UniProt cites for the protein: Lee M.G.-S. et al, Cell, 1983, \"Evolutionary history of a multigene family: an expressed human beta-tubulin gene and three processed pseudogenes\".",
+      "firstDescribedSource": "https://pubmed.ncbi.nlm.nih.gov/6688039/",
+      "biology": "Tubulin pairs assemble into dynamic microtubules used in mitosis and interphase. Stabilisation and inhibition of assembly or growth are distinct drug effects.",
+      "whereFound": [
+        "Microtubules function in normal and tumour cells, during mitosis and in interphase"
+      ],
+      "targetClass": "other",
+      "prevalence": [
+        {
+          "cancerId": "metastatic-cancer",
+          "pct": "all",
+          "measure": "Housekeeping enzyme present in every dividing cell (microtubule scaffold for cell division); not a selection marker, which is why these drugs are given by cancer type rather than by test."
+        }
+      ]
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "kind": "term",
+      "name": "Dose-dense and metronomic chemotherapy",
+      "aka": [
+        "dose-dense",
+        "dose dense",
+        "dose-intense",
+        "dose intensity",
+        "interval-compressed",
+        "metronomic",
+        "metronomic chemotherapy",
+        "low-dose metronomic",
+        "dose-dense AC",
+        "weekly paclitaxel"
+      ],
+      "tldr": "Dose-dense scheduling shortens treatment intervals, while metronomic schedules use repeated lower doses; dose amount, timing, supportive care and outcomes must be assessed for the named regimen.",
+      "summary": "Dose-dense and metronomic chemotherapy describe scheduling strategies, not interchangeable medicines or universal safety claims. Dose-dense scheduling shortens intervals; a metronomic regimen repeatedly delivers lower doses. State the drugs, formulation, per-administration amount, intervals, duration and supportive care when comparing schedules.\n\nDose intensity is administered amount per unit time. It differs from cumulative amount, measured exposure and clinical benefit. Growth-factor support and other safety measures belong to a particular protocol. Results for breast cancer, Ewing sarcoma or another disease do not establish the benefit or tolerability of every schedule using the same label.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Metronomic_therapy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Metronomic_therapy"
+        },
+        {
+          "label": "Kim et al., dose intensification of cisplatin through biweekly administration (1993)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8471554/"
+        },
+        {
+          "label": "Alberto, dose intensity in cancer chemotherapy: definition, average relative dose intensity and effective dose intensity (1995)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7626852/"
+        },
+        {
+          "label": "FDA: optimizing the dosage of drugs for oncologic diseases (August 2024 guidance)",
+          "url": "https://www.fda.gov/media/164555/download"
+        },
+        {
+          "label": "Bonadonna and Valagussa, dose-response effect of adjuvant chemotherapy in breast cancer (1981)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7432433/"
+        },
+        {
+          "label": "NCI glossary: dose-dense chemotherapy",
+          "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/dose-dense-chemotherapy"
+        },
+        {
+          "label": "Citron et al., two-weekly C9741 strategy with filgrastim (2003)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12668651/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "chemotherapy-regimen",
+        "neutropenia",
+        "maintenance-therapy"
+      ],
+      "cancers": [
+        "tnbc",
+        "sarcoma",
+        "head-and-neck"
+      ],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [
+        "cytotoxic-chemotherapy",
+        "g-csf-growth-factors"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Amount, schedule and delivery are different questions. Dose is the quantity of drug and dosage is the dose with its schedule, meaning the interval between doses and the duration of treatment (FDA, 'Optimizing the Dosage of Human Prescription Drugs and Biological Products for the Treatment of Oncologic Diseases', August 2024). Dose-dense scheduling shortens the interval, a dose reduction changes the amount, a delay lowers delivered intensity even if the eventual cumulative amount is unchanged, and omission lowers cumulative dose; a delay lowers dose intensity in the same proportion as an equal reduction (Alberto 1995). Planned and delivered intensity can differ: in a biweekly cisplatin study, delays of three or more days on 17 of 66 courses (26 per cent) left the mean delivered intensity at 83 mg/m2 per week, 88 per cent of the planned intensity (Kim et al.).",
+        "Dose intensity is the amount of a named medicine delivered per unit time, commonly milligrams per square metre per week. Relative dose intensity divides that by the intensity of a specified reference regimen. A combination average requires its declared method, such as the mean of the component ratios in Alberto's 1995 overview. Equal milligrams of different medicines are not equivalent activity. Illness and toxicity can drive both modification and outcomes, so an observational association is not a causal effect of changing the dose. Bonadonna and Valagussa's retrospective 1981 CMF analysis associated benefit with at least 85% of the planned dose in that regimen; this was a dose-level finding, not a universal relative-intensity threshold or proof for other treatments.",
+        "In the fictional four-dose example, both schedules use the same Drug Z and formulation. The first window is week 0 up to week 4, with administrations at weeks 0, 1, 2 and 3; the second is week 0 up to week 8, with administrations at weeks 0, 2, 4 and 6. Each declared window includes one nominal final interval and no administration at its right endpoint. Both totals are 40 arbitrary units, but the intensities are 10 and 5 units per week. A different final-cycle convention needs its own definition. Cumulative dose retains amount units; intensity adds a time denominator; relative intensity is the dimensionless ratio to a stated reference.",
+        "Shorter intervals are one scheduling strategy, distinct from increasing the amount per administration or giving a medicine weekly. The rationale of limiting regrowth is a model that must be tested with the actual drugs, population and support package. Less recovery time can matter to normal tissues; growth-factor support does not remove every harm. Delays, reductions and omissions change delivery and may be necessary for safety, rather than a failure by the person receiving treatment.",
+        "For a fictional same-drug comparison, four doses of the same amount every three weeks and every two weeks can have the same cumulative amount but different intensity. If the declared windows include the nominal final interval, they last twelve and eight weeks respectively; if measurement stops at the fourth administration, elapsed time is nine and six weeks. State the convention before calculating. Shortening this phase need not shorten another phase or the whole course."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "kind": "term",
+      "name": "Antibody penetration into tumours",
+      "aka": [
+        "tumour antibody penetration",
+        "ADC penetration into tumours"
+      ],
+      "tldr": "An antibody’s presence in the blood does not show how evenly it reaches a tumour. Supply from vessels, movement through tissue, binding and removal all affect where it goes.",
+      "summary": "Antibody penetration describes movement and distribution from the circulation into tumour tissue. Crossing the vessel wall, moving between cells, binding a target, and uptake or clearance are separate processes. Their balance can create uneven distribution. A high concentration near a vessel does not establish exposure throughout the tumour, and a target-positive biopsy does not measure drug delivery.\n\nThere is no single reach distance supplied by the word antibody or by a tissue section. Antibody distribution and the spread of a released conjugate payload are also different measurements. Specific studies can support a delivery hypothesis; a response predictor needs validation in the intended product and clinical setting.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Sacituzumab govitecan label: specified conjugate molecular mass",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+        },
+        {
+          "label": "Fluorouracil label: specified small-molecule molecular mass",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b268684b-487f-4716-a2e8-6e6d3e117b14"
+        },
+        {
+          "label": "Thurber et al., antibody transport opposed by clearance (2008 review)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18541331/"
+        },
+        {
+          "label": "Baker et al., heterogeneous trastuzumab distribution in xenografts (2008)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18381959/"
+        },
+        {
+          "label": "Cilliers et al., antibody co-administration and conjugate distribution in mice (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29217763/"
+        },
+        {
+          "label": "Lu et al., antibody delivery in 24 head-and-neck patients (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31980465/"
+        },
+        {
+          "label": "Mortimer et al., trastuzumab PET and T-DM1 pilot (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34857660/"
+        },
+        {
+          "label": "Ogitani et al., local DXd bystander controls (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Thomlinson and Gray, lung-carcinoma histology and oxygen modelling (1955)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13304213/"
+        },
+        {
+          "label": "UniProt PECAM1/CD31: endothelial borders, platelets and leukocytes",
+          "url": "https://www.uniprot.org/uniprotkb/P16284/entry"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bystander-effect",
+        "antibody"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "adc"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Binding can capture an antibody close to vessels before it reaches deeper cells, a mechanism called the binding-site barrier. Affinity, accessible target abundance, dose, supply, internalisation and systemic clearance all enter the balance. It is not a binary rule that a molecule always stops permanently at its first target or can move deeper only when every nearby site is occupied. An antibody, its conjugate and the released small-molecule cargo are different entities; a single mass ratio to chemotherapy is not defined. For example, the sacituzumab govitecan label gives approximately 160 kilodaltons for the finished conjugate, while the fluorouracil injection label gives 130.08 g/mole for that small molecule. Those are specified entities, not one typical chemotherapy mass or a measure of tumour reach. Crossing the vessel wall is one barrier; it is not established as the main bottleneck for every tumour or construct.",
+        "In Baker’s HER2-overexpressing mouse xenografts, the 2008 abstract describes trastuzumab bound up to about 150 micrometres from vessels in some regions, with poor access near other vessels; measured HER2, vessel density and perfusion did not explain the heterogeneity. This is a model observation, not a universal range or an independence rule for every tumour. The paper has a listed correction whose text was unavailable in this check, so the numerical statement is limited to its abstract.",
+        "Cilliers and colleagues co-administered unconjugated trastuzumab with T-DM1 in a trastuzumab-insensitive mouse xenograft model. The tested 3:1 and 8:1 antibody-to-conjugate ratios improved distribution and efficacy under those conditions without increasing the conjugate payload amount. This is evidence for a particular experimental strategy, not an instruction to add antibody to a patient’s treatment.",
+        "In Lu’s 24-person head-and-neck-cancer study, labelled antibody given before surgery showed heterogeneous delivery, and tumour size had strong predictive value within that study. That is not a claim that size is the strongest predictor in all cancers. Mortimer’s ten-woman metastatic-breast pilot associated radiolabelled trastuzumab PET uptake with T-DM1 response and outcome. A small exploratory association does not establish a general selection threshold.",
+        "The carrier and released drug can travel differently. Ogitani’s DS-8201a experiments used a membrane-permeable DXd cargo, a low-permeability comparator, mixed HER2-positive/negative tumours and a distant opposite-flank tumour. Neighbouring target-negative killing in that model, with no comparable effect at the distant tumour, supports local bystander action for that construct. It does not give every payload the same permeability or prove that healthy tissues are protected.",
+        "A vessel-lining stain such as CD31 identifies structures, not ongoing perfusion or antibody leakage. CD31 also occurs on platelets and leukocytes, so signal needs cellular and tissue context. Labelled-antibody imaging in removed tissue and appropriately designed molecular imaging measure distribution more directly than vessel counts; each still has timing, sampling and resolution limits. For a delivery claim, document the antibody or conjugate, dose, time after dosing, perfused vessels, accessible target and direct drug measurement. A cell with unmeasured exposure has not been shown to resist the drug.",
+        "Thomlinson and Gray’s 1955 study concerned selected human lung-carcinoma cords and oxygen-related histology, not antibodies. They reported no apparently intact cell more than about 180 micrometres from stroma and calculated a 145-micrometre critical radius using assumed constants. They explicitly did not treat the numerical agreement as proof that oxygen lack caused central necrosis. Oxygen consumption and diffusion in that geometry cannot supply an antibody penetration distance.",
+        "In a fictional section with a median cell-to-vessel distance of 300 micrometres, distance alone cannot establish failure of an antibody-drug conjugate to reach its target. Check which vessels were perfused, the three-dimensional sampling geometry, dose and timing, binding and uptake, direct carrier distribution, and released-payload spread. Delivery failure, loss of the delivery antigen and resistance to the released drug require different evidence. The studies described here do not validate one section-distance cutoff for treatment selection."
+      ],
+      "category": "ADC chemistry"
+    },
+    {
+      "id": "adc",
+      "kind": "technology",
+      "name": "Antibody-drug conjugate (ADC)",
+      "aka": [],
+      "tldr": "An antibody-drug conjugate links a target-binding antibody to an active drug. Binding, delivery, release and drug action each matter, and normal tissues can also be exposed.",
+      "summary": "The antibody recognizes an accessible antigen; the attachment chemistry and linker affect stability and release; the payload acts through its own molecular mechanism. Cytotoxic examples include TOP1 inhibitors, tubulin inhibitors and DNA-damaging agents. Uptake and lysosomal processing are important for many constructs, while some linkers also release drug outside cells. A surface antigen can be a delivery address without being a driver the tumor depends on. The dose, mean loading, loading distribution, released species and exposure must be interpreted for the finished product. There is no universal fold improvement in the therapeutic window.",
+      "status": "approved",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Antibody-drug_conjugate",
+      "links": [
+        {
+          "label": "FDA: clinical pharmacology considerations for cytotoxic antibody-drug conjugates (2024)",
+          "url": "https://www.fda.gov/media/155997/download"
+        },
+        {
+          "label": "Goldenberg et al.: sacituzumab govitecan and gradual SN-38 release (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26101915/"
+        },
+        {
+          "label": "Tomabechi et al.: lysosomal transport of a T-DM1 catabolite (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36741448/"
+        },
+        {
+          "label": "Ogitani et al.: released-species permeability and local bystander killing in models (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+        },
+        {
+          "label": "Rampa et al.: acquired ADC resistance and payload switching in breast cancer models (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/"
+        },
+        {
+          "label": "FDA: companion diagnostics and corresponding therapeutic uses",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+        },
+        {
+          "label": "Lim et al.: rituximab-CD20 internalization in B-cell malignancies (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21768293/"
+        },
+        {
+          "label": "Kinneer et al.: lysosomal-transporter-dependent conjugate resistance (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30131388/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-efflux-agnostic",
+        "idea-neoadjuvant-adc-io",
+        "db-1305",
+        "ibi130",
+        "9mw2921",
+        "bat8008",
+        "avzo-103",
+        "ibi3014",
+        "bhv-1510",
+        "vbc103",
+        "antibody-tumor-penetration"
+      ],
+      "cancers": [
+        "dlbcl",
+        "hodgkin-lymphoma",
+        "non-hodgkin-lymphoma"
+      ],
+      "sections": [
+        "adcs"
+      ],
+      "technologies": [
+        "topoisomerase-inhibitors",
+        "bispecific-adc",
+        "dual-payload-adc",
+        "degrader-antibody-conjugate",
+        "immune-stimulating-adc",
+        "masked-adc",
+        "site-specific-conjugation",
+        "radioimmunotherapy"
+      ],
+      "targets": [
+        "trop2",
+        "her2",
+        "her3",
+        "nectin4",
+        "b7h3",
+        "cldn18-2",
+        "folr1",
+        "tissue-factor",
+        "cdh6",
+        "met",
+        "cd19",
+        "bcma",
+        "cd33",
+        "cd123",
+        "ror1",
+        "cd79b",
+        "cd30",
+        "cd22"
+      ],
+      "drugs": [],
+      "companies": [
+        "celldex",
+        "tubulis",
+        "adcendo",
+        "alentis-therapeutics",
+        "bighat-biosciences",
+        "callio-therapeutics",
+        "cytomx-therapeutics",
+        "dantari",
+        "emergence-therapeutics",
+        "enlaza-therapeutics",
+        "firefly-bio",
+        "ideaya-biosciences",
+        "iksuda-therapeutics",
+        "mablink-bioscience",
+        "myricx-bio",
+        "mythic-therapeutics",
+        "nbe-therapeutics",
+        "orum-therapeutics",
+        "pheon-therapeutics",
+        "profoundbio",
+        "tallac-therapeutics",
+        "valink-therapeutics",
+        "neok-bio",
+        "sidewinder-therapeutics",
+        "adcytherix",
+        "stipple-bio",
+        "indupro-therapeutics",
+        "crescent-biopharma",
+        "kivu-bioscience",
+        "disco-pharmaceuticals",
+        "angiex",
+        "novelty-nobility",
+        "intocell",
+        "tagworks-pharmaceuticals",
+        "axcynsis-therapeutics",
+        "oncusp-therapeutics",
+        "primelink-biotherapeutics",
+        "dem-biopharma",
+        "var2-pharmaceuticals",
+        "biolojic-design",
+        "phrontline-biopharma",
+        "nanolattix",
+        "solve-therapeutics",
+        "advesya",
+        "dauntless-biotherapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "payload",
+        "linker",
+        "dar",
+        "bystander-effect",
+        "ild",
+        "adc-analytes-and-exposure",
+        "chk1-inhibitor-payloads",
+        "parp-inhibitor-payloads"
+      ],
+      "trials": [
+        "aaml0531",
+        "luminosity",
+        "nct07299747",
+        "nct06797999",
+        "nct06842498",
+        "nct07354711",
+        "nct07258407",
+        "nct06464055"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "monoclonal-antibody",
+        "adc-cdmo-manufacturing",
+        "high-potency-payload-synthesis",
+        "site-specific-conjugation",
+        "sterile-fill-finish"
+      ],
+      "notes": [
+        "The treatment and diagnostic labels retain product-specific indications and testing requirements. A companion diagnostic validated for one drug or intended use is not automatically interchangeable with another. Keep the study population, comparator and prior exposure with any clinical result; a binding result or shared antigen name does not transfer benefit.",
+        "Lymphoma: binding and antigen abundance do not by themselves establish usable payload delivery. Internalization, intracellular processing and payload transport need construct-specific evidence. CD20 is not universally non-internalizing: rituximab-CD20 uptake varied with target-cell Fc-gamma receptor IIb in the cited experiments. Lysosomal-transporter experiments with other conjugates also show that a block after uptake can cause resistance. These observations do not establish one limiting toxicity for all lymphoma ADCs."
+      ],
+      "principle": "Binding can support delivery, but uptake, processing, access to the payload’s target and cellular response require separate evidence.",
+      "generation": "Attachment chemistry, payload and delivery format vary across products",
+      "strengths": [
+        "Can deliver an active drug through a selected molecular address",
+        "Some constructs kill neighboring target-negative cells in defined models"
+      ],
+      "limitations": [
+        "Normal-tissue exposure and product-specific lung, blood-cell, nerve or eye toxicity remain possible",
+        "Antigen, trafficking, release, efflux and cell-response changes can cause resistance",
+        "Binding or an expression score alone does not establish benefit"
+      ],
+      "since": 2000
+    }
+  ]
+}

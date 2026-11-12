@@ -1,0 +1,122 @@
+{
+  "version": "proposal-pharmacology-toxicity-peer",
+  "state": "Registered draft fields; exact source-to-field, reader, export and full-gate checks. No main, live, expert or language acceptance.",
+  "draft": 371,
+  "captureParentHead": "7e2882557c08376eef3ed04b5c2adc4aa73f37ef",
+  "companionCommittedHead": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "records": [
+    {
+      "id": "drug-target-engagement",
+      "kind": "term",
+      "name": "Drug target engagement",
+      "aka": [
+        "cellular target engagement",
+        "CETSA",
+        "cellular thermal shift assay"
+      ],
+      "tldr": "Target engagement asks whether a drug reaches and interacts with its intended target in the tested setting. The effect on the cell and the benefit of treatment need their own measurements.",
+      "summary": "The cellular thermal shift assay introduced a way to assess drug-associated changes in protein stability in cells and tissues as evidence of target engagement. The original work examined binding, transport, activation and resistance in defined systems. Engagement evidence must be interpreted within the assay used. It does not by itself demonstrate that the target is required for cancer-cell survival or that the drug's cellular effect is caused by acting on that target.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Genetic validation of drug mechanisms (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aaw8412"
+        },
+        {
+          "label": "Primary cellular thermal shift assay study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Ball et al., isothermal shift assay in lysates and cells (2020)",
+          "url": "https://doi.org/10.1038/s42003-020-0795-6"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "on-target-drug-validation",
+        "experimental-versus-clinical-exposure",
+        "functional-variant-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Target engagement and the evidence ladder. Target engagement asks whether a compound interacts with its intended target in the relevant system. Binding to a purified protein does not show that the compound enters the cell or reaches its target in a tumour, and engagement is also not a change in the target's function, a downstream effect or clinical benefit. Each question needs its own measurement: engagement first, then a measured biological effect, then a check of the causal explanation with controls, then clinical evidence.",
+        "Reading a thermal-shift result. The cellular thermal shift assay was introduced to evaluate drug binding to target proteins in cells and tissue samples through ligand-induced thermal stabilisation (Martinez Molina et al. 2013). The readout is the soluble target signal remaining after heating, plotted either against temperature at a fixed compound concentration or against concentration at a fixed temperature, so degrees Celsius and concentration units sit on different axes and the two designs ask different bounded questions. A shift of the compound curve against a matched control supports engagement under those conditions; indirect stability or protein-complex effects can also change the signal, so it is not an inhibition or occupancy percentage, and no universal shift cut-off is given here. The heated aliquots are consumed, so a record should carry the compound, concentration, exposure time, temperature series, cell or tissue system and controls. In an isothermal-shift study with a pan-kinase inhibitor, a large share of non-kinase proteins shifted in cells, which the authors read as in-cell profiling being more likely than lysate profiling to identify indirect binding targets; they recommend lysate profiling to identify targets and in-cell profiling to verify intracellular engagement (Ball et al. 2020).",
+        "Probes and medicines. Chemical probes are judged by potency, known selectivity and proven mechanism for the question asked, and the numerical criteria published for them belong to a consortium and target class (Arrowsmith et al. 2015; Workman and Collins 2010); a probe is a research starting point and not evidence of a usable medicine.",
+        "Record the named target and its detectability, baseline thermal behaviour, compound exposure, sample system and controls. In a temperature series, temperature changes while concentration is held fixed; in a concentration series, the selected temperature stays fixed. The output is soluble target signal, with different x-axis units in those two designs. Heated aliquots are consumed. An indirect stability change or protein-complex effect can alter the result, and neither a universal shift threshold nor a direct occupancy percentage follows from the plot."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "on-target-drug-validation",
+      "kind": "term",
+      "name": "On-target validation of drug effects",
+      "aka": [
+        "on-target versus off-target drug effects",
+        "genetic validation of drug mechanism"
+      ],
+      "tldr": "A drug can change cell behavior through a different target from the one proposed. Complementary experiments help establish which mechanism actually caused the effect.",
+      "summary": "Primary genetic interrogation of selected cancer drugs found examples in which cell-killing activity persisted after loss of the proposed target. The study illustrates why pharmacological response alone is insufficient to establish a cancer dependency. Genetic perturbation, complementary compounds, suitable controls and target-engagement measurements address different parts of the claim. Agreement strengthens a mechanism within the tested system; it does not establish a safe or effective treatment in people.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Genetic validation of proposed cancer-drug targets (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aaw8412"
+        },
+        {
+          "label": "Workman and Collins, fit-for-purpose chemical probes (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20609406/"
+        },
+        {
+          "label": "Arrowsmith et al., chemical-probe quality and controls (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26196764/"
+        },
+        {
+          "label": "Sakai et al., BRCA2 restoration and acquired resistance (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-target-engagement",
+        "crispr-copy-number-artifact",
+        "functional-variant-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "crispr-screens"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Controls and their limits. In chemical-probe practice an inactive close analogue serves as a negative control and a second, structurally unrelated probe reduces the chance of shared off-targets (Arrowsmith et al. 2015). Genetic perturbation is a separate line of evidence, with its own limit: removing a whole protein can differ from inhibiting one of its functions (the teaching lesson's reasoning, not a result read). The nearest real example is natural reversion: ovarian cancer lines from one BRCA2 mutation carrier acquired a secondary BRCA2 mutation that restored BRCA2 and went with resistance to cisplatin and a PARP inhibitor, and transient siRNA depletion of BRCA2 re-sensitised the restored clones (Sakai et al. 2009); that is natural reversion plus knockdown in one patient's lineage, and depletion is not pharmacological inhibition. Agreement among controls supports a mechanism in the tested system only.",
+        "What to do next with a viability result. If a compound lowers viability in culture at one concentration, measure engagement and relevant selectivity, compare an inactive analogue and an independent probe, and use a suitable genetic perturbation or rescue; exposure, product quality, safety and clinical evidence remain separate questions that controls do not settle."
+      ],
+      "category": "Methods and models"
+    }
+  ]
+}

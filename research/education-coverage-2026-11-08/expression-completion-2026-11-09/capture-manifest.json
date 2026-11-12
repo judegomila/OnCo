@@ -1,0 +1,312 @@
+[
+  {
+    "file": "med-35113160.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35113160+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:06:02.911133+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35113160+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11343,
+    "sha256": "9bf4a9991a31a0d680105ccb665b5e9c9adaf6125f1c8f46d52a6dce449c5e70"
+  },
+  {
+    "file": "med-35665782.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35665782+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:06:02.911360+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35665782+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 135566,
+    "sha256": "4868d59ffd470c326fae0ff4c5a9b51bf3b64ca3a5063757d1c222f5128301aa"
+  },
+  {
+    "file": "med-39282896.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39282896+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:06:02.911465+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39282896+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 84837,
+    "sha256": "6546556f5042069355853ffa775cf553f3898f12bae2dc798d23e04f197ff434"
+  },
+  {
+    "file": "med-37488289.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37488289+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:06:02.911573+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37488289+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 17394,
+    "sha256": "bfae09097c00107a868524b4b7efab7dd5726b60c7ed67e5c7f4546d9f2dc206"
+  },
+  {
+    "file": "med-34116144.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34116144+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:06:02.911638+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34116144+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 12265,
+    "sha256": "6981145d2ae07eb5880656d4a49dafe057fac79650fe1c48a99545fc10f201a8"
+  },
+  {
+    "file": "enhertu-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+    "capturedAt": "2026-11-09T18:06:04.066486+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 492974,
+    "sha256": "59dedf4863eb00d153ee4db06bc1ee9ab7534056348f8e27d1129111aad9d09a"
+  },
+  {
+    "file": "enhertu-versions.json",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7e67e73e-ddf4-4e4d-8b50-09d7514910b6/history.json",
+    "capturedAt": "2026-11-09T18:06:04.409382+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/7e67e73e-ddf4-4e4d-8b50-09d7514910b6/history.json",
+    "contentType": "application/json",
+    "bytes": 1670,
+    "sha256": "9607686e7bac61973231241a75e59ff159286e39d2f54abb55494728b5c84904"
+  },
+  {
+    "file": "trodelvy-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+    "capturedAt": "2026-11-09T18:06:04.409836+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 328675,
+    "sha256": "5d93ee557a146400a4352d796ed814fe3f313d9aa8a1ac89651e43c1a6dfda1d"
+  },
+  {
+    "file": "trodelvy-versions.json",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/57a597d2-03f0-472e-b148-016d7169169d/history.json",
+    "capturedAt": "2026-11-09T18:06:04.931439+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/57a597d2-03f0-472e-b148-016d7169169d/history.json",
+    "contentType": "application/json",
+    "bytes": 1364,
+    "sha256": "7e3b0fbe17a32b2cf0eb7edf60d72b83311f69371dd7f89ff1e409ae5e4eff64"
+  },
+  {
+    "file": "datroway-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+    "capturedAt": "2026-11-09T18:06:05.042639+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 256746,
+    "sha256": "937726711767d219a40473fc1bc831cecfa8d69a7a7dd4de7164e9ffc050a0e3"
+  },
+  {
+    "file": "datroway-versions.json",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2950227c-6230-4ca4-a135-46e44d9424a0/history.json",
+    "capturedAt": "2026-11-09T18:06:05.152299+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/2950227c-6230-4ca4-a135-46e44d9424a0/history.json",
+    "contentType": "application/json",
+    "bytes": 950,
+    "sha256": "d4046aeecdc67f104fb4556d4951df36ad3abd0cbfdc3f3b8612658941ceee5e"
+  },
+  {
+    "file": "cap-breast-biomarker-202609.pdf",
+    "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+    "capturedAt": "2026-11-09T18:16:21.324297+00:00",
+    "status": 200,
+    "finalURL": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+    "contentType": "application/pdf",
+    "bytes": 422411,
+    "sha256": "0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691"
+  },
+  {
+    "file": "cap-current-guidelines.html",
+    "url": "https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/",
+    "capturedAt": "2026-11-09T18:16:21.324452+00:00",
+    "status": 200,
+    "finalURL": "https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 364752,
+    "sha256": "1b3f130a7e8aa3b05ed5ed6df88b443125f1d9b33f706e881acfd2baa9c5b052"
+  },
+  {
+    "file": "cap-current-protocols.html",
+    "url": "https://www.cap.org/protocols-and-guidelines/cancer-protocols/current-cancer-protocols/",
+    "capturedAt": "2026-11-09T18:16:21.324517+00:00",
+    "status": 200,
+    "finalURL": "https://www.cap.org/protocols-and-guidelines/cancer-protocols/current-cancer-protocols/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 1601826,
+    "sha256": "8c47a2a5b1627c7584d54760f8bedfc072aa215a078a38be86ebb75f9331e53f"
+  },
+  {
+    "file": "hpa-tacstd2-summary.html",
+    "url": "https://www.proteinatlas.org/ENSG00000184292-TACSTD2/summary",
+    "capturedAt": "2026-11-09T18:16:21.324561+00:00",
+    "status": 200,
+    "finalURL": "https://www.proteinatlas.org/ENSG00000184292-TACSTD2/summary",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 269269,
+    "sha256": "cd7f1b8a3f14f91027f88bfc28202d71cd899597c123c02af0f85b203e970c89"
+  },
+  {
+    "file": "hpa-tacstd2-tissue.html",
+    "url": "https://www.proteinatlas.org/ENSG00000184292-TACSTD2/tissue",
+    "capturedAt": "2026-11-09T18:16:21.754053+00:00",
+    "status": 200,
+    "finalURL": "https://www.proteinatlas.org/ENSG00000184292-TACSTD2/tissue",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 483927,
+    "sha256": "9921a49f8a57122fc0949f8166dcf0a20a246bdf2ff313eff5eda7b809ee3598"
+  },
+  {
+    "file": "trop2-growth-search.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Trop-2%22+AND+%28TITLE%3A%22growth%22+OR+TITLE%3A%22oncogen%22%29&resultType=core&format=json&pageSize=20",
+    "capturedAt": "2026-11-09T18:16:21.796040+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Trop-2%22+AND+%28TITLE%3A%22growth%22+OR+TITLE%3A%22oncogen%22%29&resultType=core&format=json&pageSize=20",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 75555,
+    "sha256": "602ed29ae7a42a0568d7dbbad8399783cc5e46dfddabafbb8594eb468e5909f8"
+  },
+  {
+    "file": "fda-cdx-current.html",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+    "capturedAt": "2026-11-09T18:23:18.301335+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 180164,
+    "sha256": "e4ddbce3abfb427a41eb8efbc2bd7b5417dd4c2765e4b90b9f8844dff6882f98"
+  },
+  {
+    "file": "db04-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/",
+    "capturedAt": "2026-11-09T18:23:18.301531+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 426843,
+    "sha256": "bee20ac27ecaf3139391f4b06402e2e67a87d58151f4b33ef17c1b52b4ea20ec"
+  },
+  {
+    "file": "daisy-pmc.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427426/",
+    "capturedAt": "2026-11-09T18:23:18.301625+00:00",
+    "status": 200,
+    "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10427426/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 292541,
+    "sha256": "89bdb7b822c04c1c5f2f701e2cb53bdb3028c74ed4d7a7c165e648bb0bf5c426"
+  },
+  {
+    "file": "ascent-primary-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa2028485&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:23:18.301692+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa2028485&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 93067,
+    "sha256": "27796bea82e7c666f551653aaff580134f28cbefd5df2975228a84c6da36165a"
+  },
+  {
+    "file": "ascent-subgroup-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-024-00635-5&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:23:18.791124+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-024-00635-5&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7632,
+    "sha256": "4794d0c458d3bc49cf07dadc4162c7d0b514466d25e62dba2d012b09ad816227"
+  },
+  {
+    "file": "db04-update-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41591-025-03981-4&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:23:18.792049+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41591-025-03981-4&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 13858,
+    "sha256": "f142b3293118478a434fac1fc18bc453460e5d83b3bbc6f749cf577b260e5c66"
+  },
+  {
+    "file": "who6-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111%2Fhis.70149&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:23:18.854980+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1111%2Fhis.70149&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 17790,
+    "sha256": "f59cf9254173e1075ad44052107bc665a826b9f3ff4614cbe0e605792ee2ad9c"
+  },
+  {
+    "file": "keytruda-label-search.json",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=KEYTRUDA&pagesize=100",
+    "capturedAt": "2026-11-09T18:31:50.386778+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls.json?drug_name=KEYTRUDA&pagesize=100",
+    "contentType": "application/json",
+    "bytes": 853,
+    "sha256": "98bbb2659427774a9075f707306e693ae2226e02a0b2c44ec230370eb932ad40"
+  },
+  {
+    "file": "keytruda-current.html",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+    "capturedAt": "2026-11-09T18:34:37.337708+00:00",
+    "status": 200,
+    "finalURL": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 1250133,
+    "sha256": "cc606b0b866e61293f4bd60464f70440675a7e07852a919486417d2bc343681f"
+  },
+  {
+    "file": "rcpath-g148-landing.html",
+    "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html",
+    "capturedAt": "2026-11-09T18:34:37.337896+00:00",
+    "status": 200,
+    "finalURL": "https://www.rcpath.org/static/d255f34c-176a-490d-9b5a7d58ac85f3a6/b4cf9184-33ff-4662-b33990b3701c3d87/G148-Dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.pdf",
+    "contentType": "application/pdf",
+    "bytes": 7911011,
+    "sha256": "661c6d1df6c987d450093ba1d8c06244590e712ed83efd7b1cd9345548d51ff6"
+  },
+  {
+    "file": "boissiere-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs00428-026-04425-1&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:34:37.337967+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1007%2Fs00428-026-04425-1&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8766,
+    "sha256": "81fb2bd79dd10eaa652acf412409a6a4f8feaa2726cc60390a29d7227d027c3b"
+  },
+  {
+    "file": "uk-her2-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136%2Fjcp-2022-208632&resultType=core&format=json",
+    "capturedAt": "2026-11-09T18:34:37.338011+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136%2Fjcp-2022-208632&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8428,
+    "sha256": "4482fbc264a17f450dd2358262119c5e3b496fffcbfa7b18df77df5e6aa7ada8"
+  },
+  {
+    "file": "p150013s016.html",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S016",
+    "capturedAt": "2026-11-09T18:42:50.151855+00:00",
+    "status": 200,
+    "finalURL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S016",
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 41203,
+    "sha256": "1da7e0a745f8db9a6ea4aeaddeed79a0be372d0436bd9aadd0e27fd5c7b34973"
+  },
+  {
+    "file": "p150013s032.html",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S032",
+    "capturedAt": "2026-11-09T18:42:50.152033+00:00",
+    "status": 200,
+    "finalURL": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S032",
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 38805,
+    "sha256": "2c2aeabcfd501b4aa765a24764f03a5161172417af9069fec138a8709f9e38e4"
+  }
+]

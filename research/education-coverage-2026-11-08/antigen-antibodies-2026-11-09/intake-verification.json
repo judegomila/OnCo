@@ -1,0 +1,587 @@
+{
+  "sourceVersionEntriesVerified": 32,
+  "paperIdentities": [
+    {
+      "pmid": "10742152",
+      "doi": "10.1038/74704",
+      "title": "Inhibitory Fc receptors modulate in vivo cytotoxicity against tumor targets.",
+      "abstractPresent": true,
+      "captureSha256": "d54162d737dc85f62c065445d88291e9d0ca1433228d3fb46b542005a13290e5",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "11060013",
+      "doi": "10.1093/emboj/19.21.5611",
+      "title": "Structure of a covalently stabilized complex of a human alphabeta T-cell receptor, influenza HA peptide and MHC class II molecule, HLA-DR1.",
+      "abstractPresent": true,
+      "captureSha256": "34c540ea016db24eb8f00b0f7de0400d459ebfd4a544134dede6237e02c43f25",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "11120766",
+      "doi": "10.1084/jem.192.12.1685",
+      "title": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+      "abstractPresent": true,
+      "captureSha256": "da3ba73101b8bcb704a67332b9cc69bc76bc7ed53a8af4372b276b835d25d1a1",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "14563324",
+      "doi": "10.1016/s1074-7613(03)00267-x",
+      "title": "Blimp-1 is required for the formation of immunoglobulin secreting plasma cells and pre-plasma memory B cells.",
+      "abstractPresent": true,
+      "captureSha256": "bd7176a9228c6cb07faddfb253b5e3df98e0b736266b3a05b591e179caecfebe",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "15908954",
+      "doi": "10.1038/ni1208",
+      "title": "Concerted peptide trimming by human ERAP1 and ERAP2 aminopeptidase complexes in the endoplasmic reticulum.",
+      "abstractPresent": true,
+      "captureSha256": "289e5c36b9c4a65814ca2045a029b0dbc0fb657e1132b196be628b36b7296525",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "16322460",
+      "doi": "10.1126/science.1118948",
+      "title": "Divergent immunoglobulin g subclass activity through selective Fc receptor binding.",
+      "abstractPresent": true,
+      "captureSha256": "2e614c05d3f08599191b90ad75c7d86aaa8fafc992527f96b142f12817051b73",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "16549777",
+      "doi": "10.1073/pnas.0600548103",
+      "title": "Familial hypercatabolic hypoproteinemia caused by deficiency of the neonatal Fc receptor, FcRn, due to a mutant beta2-microglobulin gene.",
+      "abstractPresent": true,
+      "captureSha256": "8672d4927124e0b1918defdf18f5e7c26dd5b3d551fd47a0e2ebc2d5e54ee5d7",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "20479116",
+      "doi": "10.1084/jem.20092140",
+      "title": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+      "abstractPresent": true,
+      "captureSha256": "bb4ff5c7691b8b89e13f76b095b99f9feaf0e14490f921a76e6ebc5b178cc72d",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "21455179",
+      "doi": "10.1038/nature09863",
+      "title": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+      "abstractPresent": true,
+      "captureSha256": "152c4857e09275200b4c94336f18f98ffc4740e2146842389a33e1ae2ff31604",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "22431638",
+      "doi": "10.1073/pnas.1118801109",
+      "title": "Crystal structure of a complete ternary complex of T-cell receptor, peptide-MHC, and CD4.",
+      "abstractPresent": true,
+      "captureSha256": "f56f00c9166916e4c176cc7ac02770e474a46d8f12736afa53f45691d559a317",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "23770775",
+      "doi": "10.1182/blood-2013-03-490565",
+      "title": "Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma.",
+      "abstractPresent": true,
+      "captureSha256": "c8f87f811e9658710605911b9a882be435eb284052ffc9ead36c09eef727015e",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "23778140",
+      "doi": "10.1172/jci67428",
+      "title": "CD4⁺ follicular helper T cell infiltration predicts breast cancer survival.",
+      "abstractPresent": true,
+      "captureSha256": "98d770d1bdd0251b177a6c2cd2fa7b511fe4c80f2323559f5e0842953e66b47b",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "23926201",
+      "doi": "10.1126/scitranslmed.3006034",
+      "title": "Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells.",
+      "abstractPresent": true,
+      "captureSha256": "3959a49c305b27d25ed807d3ed39946f5e53486957f1c5989e689a79cf850147",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "24626930",
+      "doi": "10.1126/science.1248943",
+      "title": "Complement is activated by IgG hexamers assembled at the cell surface.",
+      "abstractPresent": true,
+      "captureSha256": "cd616f0fb5996d9467c7a34ce36fc72cc751039db9ed955eb0b9dcd2657416b1",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "25143287",
+      "doi": "10.1093/bioinformatics/btu548",
+      "title": "OptiType: precision HLA typing from next-generation sequencing data.",
+      "abstractPresent": true,
+      "captureSha256": "ac618af904ebf40216442361bec6b2f590f48d844fa1b3abdcecd757de28415d",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "25368619",
+      "doi": "10.3389/fimmu.2014.00520",
+      "title": "IgG subclasses and allotypes: from structure to effector functions.",
+      "abstractPresent": true,
+      "captureSha256": "de33ec50d6a1013dd83fffb8fd507bed8b076b63ba291cb5c7883d68364abd7f",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "27281205",
+      "doi": "10.1038/nature18300",
+      "title": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+      "abstractPresent": true,
+      "captureSha256": "013e7cff2b447387bc4868efef4198c211d21cbbe6c1615c5534c177e0df9b4d",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "27433843",
+      "doi": "10.1056/nejmoa1604958",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "abstractPresent": true,
+      "captureSha256": "da22b637ced56ce08395105c9aadd3a82243e6fb4e42b7e1962e92d8d219c129",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "27959684",
+      "doi": "10.1056/nejmoa1609279",
+      "title": "T-Cell Transfer Therapy Targeting Mutant KRAS in Cancer.",
+      "abstractPresent": true,
+      "captureSha256": "f2e3fcc12f62d8dbca2ad855c789e2e5f1c99f989f765c9893aa8346244b0c43",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "28077575",
+      "doi": "10.1074/jbc.m116.767749",
+      "title": "Effector-attenuating Substitutions That Maintain Antibody Stability and Reduce Toxicity in Mice.",
+      "abstractPresent": true,
+      "captureSha256": "71bcdb00739367971a156ccfd9d3ac9bf9ee66dbc6cc01d3fed73083c77d28dd",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "28649982",
+      "doi": "10.1038/ncomms15924",
+      "title": "Structural and regulatory diversity shape HLA-C protein expression levels.",
+      "abstractPresent": true,
+      "captureSha256": "0c9eb1ed1393cb553df5456b540d321e7e124cc45115e9c4a380c050bf1deae8",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "29242379",
+      "doi": "10.1074/mcp.tir117.000383",
+      "title": "High-throughput and Sensitive Immunopeptidomics Platform Reveals Profound Interferonγ-Mediated Remodeling of the Human Leukocyte Antigen (HLA) Ligandome.",
+      "abstractPresent": true,
+      "captureSha256": "1fab3d10b9f00329cbfbb14853362aa216f179dae1ce44ab765238d8314cb410",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "30833945",
+      "doi": "10.3389/fimmu.2019.00141",
+      "title": "Pro-inflammatory Cytokines Alter the Immunopeptidome Landscape by Modulation of HLA-B Expression.",
+      "abstractPresent": true,
+      "captureSha256": "3cfc2732b753d37c35854f96a2cc456eefbb4f28153ab7ab05f5ef2edd01075f",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "31092913",
+      "doi": "10.1038/s41596-019-0133-y",
+      "title": "Mass spectrometry-based identification of MHC-bound peptides for immunopeptidomics.",
+      "abstractPresent": true,
+      "captureSha256": "ddb4575de492be53773fa0ba631ca21e1cdf85de66499a027eb82f005693f28c",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "31345234",
+      "doi": "10.1186/s12920-019-0544-1",
+      "title": "Elevated neoantigen levels in tumors with somatic mutations in the HLA-A, HLA-B, HLA-C and B2M genes.",
+      "abstractPresent": true,
+      "captureSha256": "2aefd990146c190acf0702638af10bfa0128e34224ea647ba00d55a6b9ea333a",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "31844290",
+      "doi": "10.1038/s41587-019-0322-9",
+      "title": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population.",
+      "abstractPresent": true,
+      "captureSha256": "d08e8bb78f4361394e7d381cefcd5d02b67b96bfacbeaa33dc5325ee8d8957ff",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "31942071",
+      "doi": "10.1038/s41586-019-1914-8",
+      "title": "Tertiary lymphoid structures improve immunotherapy and survival in melanoma.",
+      "abstractPresent": true,
+      "captureSha256": "f33c84322e8c55a2e36ca883688e63732d6639879e660653f3950c9bac0ba16b",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "32406916",
+      "doi": "10.1093/nar/gkaa379",
+      "title": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data.",
+      "abstractPresent": true,
+      "captureSha256": "019ff82029e3dccf9306af21705d514edeca065da5204d1e5df06f317bb3ff60",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "32733040",
+      "doi": "10.1038/s41467-020-17526-5",
+      "title": "Escape from nonsense-mediated decay associates with anti-tumor immunogenicity.",
+      "abstractPresent": true,
+      "captureSha256": "f22e4dd83b99712d1c5e54537c0029a57ca954661a2024646ea9fd35316536b3",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "abstractPresent": true,
+      "captureSha256": "8fb3ed36d6c346b62a8c83e683a207531aaa2c2c7104a219f4fa721de3515981",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "34099720",
+      "doi": "10.1038/s41467-021-23713-9",
+      "title": "Deep learning boosts sensitivity of mass spectrometry-based immunopeptidomics.",
+      "abstractPresent": true,
+      "captureSha256": "4fd63c7fffa2e43e5fbf07af1151fc93976a111ea956f0eb74eafd8f2f2274fe",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "35118423",
+      "doi": "10.1038/s43018-021-00232-6",
+      "title": "Mature tertiary lymphoid structures predict immune checkpoint inhibitor efficacy in solid tumors independently of PD-L1 expression.",
+      "abstractPresent": true,
+      "captureSha256": "28c7bde4909308423dfdd109ae6e8fbadef5dc84ea3018682b6bd88c61f0efdc",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "8348620",
+      "doi": "10.1016/0092-8674(93)80058-m",
+      "title": "TAP1-dependent peptide translocation in vitro is ATP dependent and peptide selective.",
+      "abstractPresent": true,
+      "captureSha256": "a2eee500ca424cbbec2ef06bcd823f4055b0f350df8843bf0c97076f64a2059e",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "8810254",
+      "doi": "10.1126/science.274.5284.94",
+      "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+      "abstractPresent": true,
+      "captureSha256": "97975b884761f295e3d08538b7b19bc6b1baa28f4b1b05bc91c2a77b6502c330",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "8906788",
+      "doi": "10.1038/384134a0",
+      "title": "Structure of the complex between human T-cell receptor, viral peptide and HLA-A2.",
+      "abstractPresent": true,
+      "captureSha256": "05aaf303e87ee1ac48a93830aadf513c81bcd6427d9fab151bf3ee4fcd998a97",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "9177355",
+      "doi": "10.1038/42523",
+      "title": "Crystal structure of the complex between human CD8alpha(alpha) and HLA-A2.",
+      "abstractPresent": true,
+      "captureSha256": "c2ba25955415e87f7d3998f4f9d6a8f585d8f37817a2cb80baded83b9faf76b0",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "9486650",
+      "doi": "10.1038/35869",
+      "title": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+      "abstractPresent": true,
+      "captureSha256": "b3947ecfc6b7cbf7fd611a438df4d213c9ca1151da95ca1e753877cc28f29767",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "28561041",
+      "doi": "10.1038/ncomms15440",
+      "title": "Acquired IFNγ resistance impairs anti-tumor immunity and gives rise to T-cell-resistant melanoma lesions.",
+      "abstractPresent": true,
+      "captureSha256": "706619a7946801c40751a66a5c69d1708d99002259ccdae48e65fdebd4ef798e",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "12436110",
+      "doi": "10.1038/ni860",
+      "title": "The ER aminopeptidase ERAP1 enhances or limits antigen presentation by trimming epitopes to 8-9 residues.",
+      "abstractPresent": true,
+      "captureSha256": "354930d40de0d68526720e25d38fa28873edbbf5f56ed2ba654782d320bc47cd",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "35589842",
+      "doi": "10.1038/s41586-022-04735-9",
+      "title": "Neoantigen quality predicts immunoediting in survivors of pancreatic cancer.",
+      "abstractPresent": true,
+      "captureSha256": "41bb3a618a8481797f188fa5a5dbad8c0048a101c638055efc9cacd142ad6f37",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "24430180",
+      "doi": "10.1172/jci66776",
+      "title": "Macrophages eliminate circulating tumor cells after monoclonal antibody therapy.",
+      "abstractPresent": true,
+      "captureSha256": "872c6e048c8715abe359910e7ffce7df787f02662eeb277e454a0a92b09d0b29",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    },
+    {
+      "pmid": "23714642",
+      "doi": "10.1186/1471-2164-14-355",
+      "title": "Phase-defined complete sequencing of the HLA genes by next-generation sequencing.",
+      "abstractPresent": true,
+      "captureSha256": "e4ca9961234753bdee5da0f8d5ef1a70ab2fec13bb661f17c932e9bddbfb49dd",
+      "source": "Europe PMC MED; DOI and title comparison against intended identity"
+    }
+  ],
+  "figureVersionEntries": 32,
+  "figurePaths": [
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcc-v1-light.png",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcp-v1-light.png",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-cdc-v1-light.png",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+    "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/antigen-origin-and-display-routes-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-v2-light.png",
+    "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+    "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png"
+  ],
+  "figureBlobChecks": [
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcc-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "62244959f41fdee78b8d005a67eda8abd734605b",
+      "bytes": 1685008,
+      "sha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcp-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "b984e8535afdce120be1b3c8e77e0634bc09f175",
+      "bytes": 1753332,
+      "sha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-cdc-v1-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "675b32715e6aad60d6e7c22379b938d7fd76ee6a",
+      "bytes": 1804445,
+      "sha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "28ddf56e7859154cdfb9fbd952fdf85b6b372cc0",
+      "bytes": 6491,
+      "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "e0d47a05cade70e7a5a28670416a25dd501972fd",
+      "bytes": 5472,
+      "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "67594832b58a8de9889afac6c1ca031ab789bffe",
+      "bytes": 7439,
+      "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "28d472860a5ff3b9644b7146755ead47d966dcc1",
+      "bytes": 16940,
+      "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/antigen-origin-and-display-routes-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "2dbc95da373d1eca3ecdaa3257785fc00d6d6186",
+      "bytes": 14206,
+      "sha256": "5fe75052689b996041a3662170bbbf5fd545acafd67c5af72c2b8eafdd11cc1e"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "859140cbe78d2f84fbf382df30c230a3e785e4db",
+      "bytes": 20682,
+      "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "8be174bcc96632739d549da62a4b848ca653be7e",
+      "bytes": 4577,
+      "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "0dcfb893f9ac9b9651eeec33c8afba3aebfd957d",
+      "bytes": 4019,
+      "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "5698ea0bc379602061a71d7f8ea011210fab9b12",
+      "bytes": 4036,
+      "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "ba19ee50d0fdbbb5e239d1207e01f8fd71d09022",
+      "bytes": 2062337,
+      "sha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "4dbeca8b53cdfc34785b6987345ce88914159b82",
+      "bytes": 6343,
+      "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "edfe96e1e2a40aedec1994e694f08d171248839c",
+      "bytes": 5783,
+      "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "944c981b737c49818f367fbdd24880c3d3919d0d",
+      "bytes": 1830505,
+      "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcc-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "62244959f41fdee78b8d005a67eda8abd734605b",
+      "bytes": 1685008,
+      "sha256": "f50af6b3ee6490e75eaf7c896335cea39d73a2593fdd02bec95a268daaf41c16"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcp-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "b984e8535afdce120be1b3c8e77e0634bc09f175",
+      "bytes": 1753332,
+      "sha256": "8558761905229402b24176acf38eed2d4710f90be354d5f27c02dd5773a6a89d"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-cdc-v1-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "675b32715e6aad60d6e7c22379b938d7fd76ee6a",
+      "bytes": 1804445,
+      "sha256": "a56fd4c12def16d6b96b7e5edd991a9e95baed4148fed236464810365dc90a0a"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "28ddf56e7859154cdfb9fbd952fdf85b6b372cc0",
+      "bytes": 6491,
+      "sha256": "a352ac7faa0008b2e9579a938146c115e00642de4d85ab1a301e94961ce927d9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/matched-igg-selected-fc-contacts-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "e0d47a05cade70e7a5a28670416a25dd501972fd",
+      "bytes": 5472,
+      "sha256": "da712db1616d27f05b2cd15eb26b2c7828287e0943d3f715448e61201b6d69be"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/typical-igg-domains-binding-and-partners-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "67594832b58a8de9889afac6c1ca031ab789bffe",
+      "bytes": 7439,
+      "sha256": "aaebfebd78ccb4e6aa5d9cf785e3edd2274a79531faa738c5c2243f747049f35"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/altered-protein-candidate-evidence-gates-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "28d472860a5ff3b9644b7146755ead47d966dcc1",
+      "bytes": 16940,
+      "sha256": "7179e1d68e7ccc21db682494f6c8d38897f181af01a18f505a43132baf92ebf1"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/antigen-origin-and-display-routes-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "2dbc95da373d1eca3ecdaa3257785fc00d6d6186",
+      "bytes": 14206,
+      "sha256": "5fe75052689b996041a3662170bbbf5fd545acafd67c5af72c2b8eafdd11cc1e"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/b2m-location-and-shared-dependency-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "859140cbe78d2f84fbf382df30c230a3e785e4db",
+      "bytes": 20682,
+      "sha256": "9a8f5c1d50976f3674e0e165e59c5b2fd3c3eb9e07f6abf1a5b6a68765809bad"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/folded-epitope-and-peptide-hla-surfaces-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "8be174bcc96632739d549da62a4b848ca653be7e",
+      "bytes": 4577,
+      "sha256": "4cf43f52e04e24668b1df5ac7bca708153a6bb50af73fb4b7c4be32af0893d96"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-i-contacts-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "0dcfb893f9ac9b9651eeec33c8afba3aebfd957d",
+      "bytes": 4019,
+      "sha256": "4685d04f859d453b92a29b6f501cfed46ee88edf0908c7b3960a765b079c233d"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/hla-class-ii-contacts-v2-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "5698ea0bc379602061a71d7f8ea011210fab9b12",
+      "bytes": 4036,
+      "sha256": "f89f33c910485f19ff9c922736a32dc50d9fe085ee13732e37a6677335137297"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/immunopeptidome-repertoire-and-recovery-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "ba19ee50d0fdbbb5e239d1207e01f8fd71d09022",
+      "bytes": 2062337,
+      "sha256": "de42ec37f9f657427493c863ee49d18972befc3877085a30ed46d98316aec0a9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/intended-x-and-unintended-y-recognition-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "4dbeca8b53cdfc34785b6987345ce88914159b82",
+      "bytes": 6343,
+      "sha256": "562d17ef9c3f51c822732937cd5010e514639d6ebcb50b7bd46fa990c4833be9"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/matched-mutant-normal-peptide-responses-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "edfe96e1e2a40aedec1994e694f08d171248839c",
+      "bytes": 5783,
+      "sha256": "a1d12ba89048a87851b0ed122be237fe2966b376419acfd2310c68b85e42cee2"
+    },
+    {
+      "path": "wiki/education/concepts/immunology/antigen-presentation/images/processing-display-recognition-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "944c981b737c49818f367fbdd24880c3d3919d0d",
+      "bytes": 1830505,
+      "sha256": "5647fb77218395d3c354c21354dac95f57a90e68533a48753d7bc0bb707475a3"
+    }
+  ],
+  "renderDerivativeHashesVerified": 11
+}

@@ -1,0 +1,237 @@
+{
+  "occurrences": 50,
+  "identityAgrees": 42,
+  "resolvedByTitleOrPmc": 6,
+  "heldIndices": [
+    30,
+    31
+  ],
+  "sourceTextDepths": {
+    "targetedPrimaryText": 6,
+    "abstract": 30,
+    "preprintAbstract": 5,
+    "conferenceAbstract": 1,
+    "descriptionOrOpening": 4,
+    "noContent": 2,
+    "held": 2
+  },
+  "fullPapersRead": 0,
+  "curriculumCoverageCredit": 0,
+  "canonicalChangesApplied": 0,
+  "denominators": {
+    "occurrences": 50,
+    "byQuery": {
+      "cancer-biology": 15,
+      "evidence-and-statistics": 15,
+      "immunology": 15,
+      "cell-manufacturing-process-outcomes": 3,
+      "rna-co-delivery-adjacent-discovery": 2
+    },
+    "uniqueFrozenRecordsByDoiOrTitle": 50,
+    "duplicateFrozenRecords": [],
+    "uniqueDistinctPublicationsTouched": "51: 50 frozen records plus the second, distinct publication behind occurrence 31 (frozen DOI = Sprent 1996; frozen PMID = Sprent & Kishimoto 2001). Occurrence 14 and 26 also have a published version (Cell 2022; Stat Med 2020) that was resolved but is not an assigned occurrence and is not counted",
+    "withFrozenDoi": 42,
+    "withoutFrozenDoi": [
+      19,
+      20,
+      22,
+      26,
+      30,
+      32,
+      48,
+      49
+    ],
+    "withFrozenPmid": 37,
+    "withoutFrozenPmid": [
+      14,
+      18,
+      19,
+      20,
+      21,
+      22,
+      26,
+      30,
+      45,
+      46,
+      47,
+      48,
+      49
+    ],
+    "identityCategories": {
+      "frozenIdentifiersResolveAndAgree": 42,
+      "resolvedByTitleOrPmcidSearchBecauseNoFrozenDoiPmid": 6,
+      "heldConflictOrUnresolved": [
+        30,
+        31
+      ],
+      "note": "42 occurrences whose frozen identifiers resolve and agree (occurrence 32 by PMID alone); benign mismatches kept as notes: 13 (capture venue bioRxiv), 41 (title prefix CHAPTER:), 42 (1998 PMID vs 2007 e-reissue DOI), year drifts online vs issue",
+      "frozenIdentifiersResolveAndAgreeIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        21,
+        23,
+        24,
+        25,
+        27,
+        28,
+        29,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    "readingDepth": {
+      "primaryTextReadTargeted": {
+        "count": 6,
+        "indices": [
+          3,
+          23,
+          24,
+          25,
+          48,
+          49
+        ],
+        "note": "all six are partial or targeted reads (paragraph openings, Results/Table 4 for 23); none is a complete reading"
+      },
+      "abstractReadFromEuropePMC": {
+        "count": 30,
+        "indices": [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      "preprintAbstract": {
+        "count": 5,
+        "indices": [
+          14,
+          19,
+          20,
+          22,
+          26
+        ]
+      },
+      "conferenceAbstractFromElicitCapture": {
+        "count": 1,
+        "indices": [
+          45
+        ]
+      },
+      "descriptionOrOpeningTextOrSponsorBlurbOnly": {
+        "count": 4,
+        "indices": [
+          18,
+          35,
+          44,
+          47
+        ]
+      },
+      "noContentAvailable": {
+        "count": 2,
+        "indices": [
+          21,
+          46
+        ]
+      },
+      "heldBeforeAnyCitation": {
+        "count": 2,
+        "indices": [
+          30,
+          31
+        ],
+        "note": "31: both candidate abstracts read, identity conflict held; 30: Elicit text only, unresolved"
+      },
+      "sumCheck": 50
+    },
+    "dispositionLabels": {
+      "screened-identity-confirmed-abstract-read": 28,
+      "screened-identity-confirmed-partial-primary-read": 3,
+      "screened-preprint-identity-confirmed-published-version-resolved-not-read": 1,
+      "screened-identity-confirmed-abstract-read-low-relevance": 1,
+      "screened-identity-confirmed-description-only": 1,
+      "screened-preprint-identity-resolved-via-title-search": 3,
+      "screened-identity-confirmed-no-content-available": 2,
+      "screened-identity-confirmed-primary-read-proposal-supported": 1,
+      "screened-preprint-identity-resolved-published-version-resolved-not-read": 1,
+      "HELD-identity-unresolved": 1,
+      "HELD-identity-conflict": 1,
+      "screened-identity-confirmed-opening-text-only": 2,
+      "screened-identity-confirmed-prior-ledger-reuse-abstract-read": 1,
+      "screened-identity-confirmed-conference-abstract-read": 1,
+      "screened-identity-confirmed-sponsor-summary-no-data": 1,
+      "screened-identity-resolved-primary-read-proposal-supported": 1,
+      "screened-identity-resolved-primary-read-conditional-proposal": 1
+    },
+    "sourceVersionKinds": {
+      "preprint": 5,
+      "conferenceAbstract": 3,
+      "vendorPosterSummary": 1,
+      "bookChapter": 1,
+      "symposiumChapter": 1,
+      "peerReviewedArticleOrReviewOrEditorial": 39,
+      "sumCheck": 50
+    }
+  },
+  "elicit": {
+    "callable": false,
+    "why": "no ELICIT_API_KEY or Elicit credential in the environment; no new question or report was created, so there are no new Elicit question/report links and none exist in the frozen captures (request objects contain query/searchMode/maxResults only)",
+    "frozenCaptureUsed": "education-original-captures/elicit-adjacent/*.json (45 occurrences) and cell-manufacturing-primary/elicit-manufacturing-process.json (3 manufacturing occurrences); the 2 RNA co-delivery occurrences have no Elicit id (web-search discovery, PMC URLs)"
+  }
+}

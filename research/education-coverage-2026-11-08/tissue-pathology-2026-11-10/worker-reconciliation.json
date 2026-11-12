@@ -1,0 +1,15 @@
+{
+  "workerRequirements": 178,
+  "coordinatorSourceFirstInventory": 156,
+  "compositeParentsNotCounted": 15,
+  "separatelyCheckedCardRows": 111,
+  "unionTeachingRequirements": 251,
+  "originalRequirements": 206,
+  "laterRequirements": 250,
+  "caseSpecificExclusions": 1,
+  "sourceVersionFiles": 29,
+  "sourceSections": 324,
+  "originalPacketsPreserved": true,
+  "ownershipAndSourceLinksPreserved": true,
+  "returnedTwoProseCorrectionsApplied": true
+}

@@ -1,0 +1,25 @@
+{
+  "checkedOn": "2026-11-09",
+  "sourcePagesPerVersion": 16,
+  "sourceVersionEntries": 32,
+  "sourceRequirementsPerVersion": 55,
+  "workerSemanticRequirements": 55,
+  "adjacentGeneRequirement": 1,
+  "rootCanonicalOwners": 30,
+  "newConcepts": 8,
+  "newGeneOwners": 4,
+  "existingOwners": 18,
+  "sharedExistingOwners": 4,
+  "sharedHead": "4064995963b71f72ac0d1d2bd486454b55838d80",
+  "figurePaths": 16,
+  "newFigurePathsPerVersion": {
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab": 14,
+    "c96896452386202405c435aa161bc5047919337a": 14
+  },
+  "summaryConsumers": 270,
+  "staleShortEntriesRemoved": 63,
+  "namedLanguageReview": 0,
+  "remaining": "Other returned batches, unreviewed curriculum/assets/literature, seven earlier source requirements, broader catalogue-template/source questions and existing schema/product dependencies remain open. No final re-audit, merge or deployment.",
+  "semanticRequirementsAfterReview": 56,
+  "independentReview": "Six objections corrected, three source-access additions retained, and omitted TLS requirement added. Three formerly overcredited requirements receive new exact evidence."
+}

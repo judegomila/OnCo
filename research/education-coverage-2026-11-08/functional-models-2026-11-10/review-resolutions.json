@@ -1,0 +1,58 @@
+[
+  {
+    "id": "RV-01",
+    "disposition": "Corrected mouse versus patient-derived organoid size effects; patient-derived R-squared .023 and no change point."
+  },
+  {
+    "id": "RV-02",
+    "disposition": "Qualified Dijkstra as MMR-deficient colorectal and NSCLC, with 4/8 in the MHC-I-positive CRC comparison."
+  },
+  {
+    "id": "RV-03",
+    "disposition": "Separated zero-reference vehicle from the 20 percent vehicle-preexposed challenged condition."
+  },
+  {
+    "id": "RV-04",
+    "disposition": "Removed duplicate CanSim attribution while preserving its single automatic published note."
+  },
+  {
+    "id": "RV-05",
+    "disposition": "Term and technology summaries have distinct scopes."
+  },
+  {
+    "id": "RV-06",
+    "disposition": "Removed unseen-diagram wording; fresh official NCI raw API verifies the attributed definition."
+  },
+  {
+    "id": "RV-07",
+    "disposition": "Corrected Godin to flow reversal/dynamic trapping; serial-sensor measurements remain a separate design."
+  },
+  {
+    "id": "RV-08",
+    "disposition": "Corrected Hafner link label and removed unused unread chapter links; access failures remain."
+  },
+  {
+    "id": "RV-09",
+    "disposition": "Retained hedged Hidalgo selection impression, not a universal engraftment law."
+  },
+  {
+    "id": "RV-10",
+    "disposition": "Optional Ladan threshold detail left outside the requirement; failed test versus resistance remains explicit."
+  },
+  {
+    "id": "RV-11",
+    "disposition": "Split dense BH3 and organoid notes without losing scoped teaching."
+  },
+  {
+    "id": "RV-12",
+    "disposition": "Set per-owner dates after review; retained CCLE target metadata is explicitly queued, not recertified."
+  },
+  {
+    "id": "RV-13",
+    "disposition": "Guide cosmetic defects remain queued; no artwork copied."
+  },
+  {
+    "id": "RV-14",
+    "disposition": "No main/live, expert or language credit."
+  }
+]

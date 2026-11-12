@@ -1,0 +1,23 @@
+{
+  "openTeachingRequirements": [
+    {
+      "id": "cancer-associated-fibroblasts-and-stroma:coordinator:05",
+      "remaining": [
+        "The 2015 indexed correction is resolved and disclosed, but its body could not be read from the publisher. No correction-specific figure or conclusion is certified."
+      ]
+    }
+  ],
+  "sourceLimits": [
+    "The CAF correction body remains unavailable; metadata and an empty-body publisher XML do not constitute a reading.",
+    "Aguirre-Ghiso dormancy review, Bruger methods review and several original studies remain abstract-only at their recorded scope.",
+    "Hanahan 2022 raw publisher fetch was blocked; its resolved abstract and the primary publisher figure caption were read, with no claim of full-document reading.",
+    "Earlier historical assertions and catalogue material outside mapped teaching are not blanket re-certified."
+  ],
+  "schema": "Existing notes can carry the self-contained examples and method boundaries. No new field or consumer contract required for this batch. Wider schema proposals remain open.",
+  "pending": [
+    "Independent expert/learner review",
+    "Named-language review of English fallbacks",
+    "Main merge and live verification",
+    "Remaining corpus and source-asset work"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "unrepresentedOrPartialCohortUnits": [
+    {
+      "id": "DEL-022",
+      "status": "source-open",
+      "remaining": "Frank's abstract does not verify the specified stem-cell-derived model, complete vector and sampled compartments; no detailed new claim is adopted."
+    },
+    {
+      "id": "DEL-023",
+      "status": "source-open",
+      "remaining": "The exact Frank T/non-T/mouse parent gates remain source-open because the accessible abstract does not carry them."
+    },
+    {
+      "id": "DEL-024",
+      "status": "source-open",
+      "remaining": "Frank's detailed peak/decline, controls and per-animal baseline are not verified by the accessible abstract and receive no coverage credit."
+    },
+    {
+      "id": "DEL-026",
+      "status": "partial",
+      "remaining": "The source Results says CD8-negative cells; the more specific T-cell parent gate requires Appendix Fig S1A. Supplement retrieval timed out or returned HTML instead of a valid DOCX. Only the verified broader wording is carried."
+    }
+  ],
+  "otherQualifiedAssessments": [
+    {
+      "id": "TGT-004",
+      "qualification": "The curriculum universal negative is narrowed to the studies actually read; no exhaustive absence-of-benefit finding is claimed."
+    },
+    {
+      "id": "CAR-010",
+      "qualification": "Architecture is carried in frozen PR-373 fields, not a newly integrated root owner."
+    },
+    {
+      "id": "DEL-026",
+      "qualification": "The source Results says CD8-negative cells; the more specific T-cell parent gate requires Appendix Fig S1A. Supplement retrieval timed out or returned HTML instead of a valid DOCX. Only the verified broader wording is carried."
+    },
+    {
+      "id": "BAR-023",
+      "qualification": "No global absence of breast indications or clinical benefit is inferred from a selected product list."
+    },
+    {
+      "id": "SAF-018",
+      "qualification": "INV-01: the frozen paraphrase mislabels six days (1–55) as onset. The source and new reader correctly call this duration; onset was three days (0–9). The report’s follow-up wording is retained alongside its early fatal events and does not imply that all participants survived for 12 weeks."
+    },
+    {
+      "id": "MAP-008",
+      "qualification": "Binder-format/profile content depends on frozen peer PR-373 fields; no new root record or duplicate is created."
+    },
+    {
+      "id": "MAP-016",
+      "qualification": "The original-only route combines an existing root discovery field with frozen peer targeting/profile fields; peer status is retained."
+    },
+    {
+      "id": "MAP-019",
+      "qualification": "Class-I dependency is substituted for the later Guide index universal every-HLA-dependent-design assertion. Existing B2M note 4 already made this distinction and was not edited."
+    }
+  ],
+  "retainedCatalogueAndSourceFollowUps": {
+    "id": "engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "title": "Engineered-cell source depth, retained catalogue assertions and illustration limits",
+    "domain": "therapeutics-cell-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/33216892/",
+      "https://pubmed.ncbi.nlm.nih.gov/30224381/",
+      "https://pubmed.ncbi.nlm.nih.gov/22418702/",
+      "https://www.fda.gov/media/156896/download"
+    ],
+    "discoveryOccurrences": [
+      "engineered-cell-therapy-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional curriculum coverage credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Preserves the exact source-open curriculum clauses, source-depth limits, retained older assertions and illustration/product questions rather than certifying them through new notes or dates.",
+      "points": [
+        {
+          "id": "cell-frank-full-source",
+          "requirement": "Frank model/gates/compartments, controls and 3–4-week/5-week kinetics require an accessible primary body. Complete abstract identity is resolved, while recorded BioC/efetch responses are errors or metadata-only and the publisher/PMC routes are blocked. These are the three source-blocked curriculum units.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Frank model/gates/compartments, controls and 3–4-week/5-week kinetics require an accessible primary body. Complete abstract identity is resolved, while recorded BioC/efetch responses are errors or metadata-only and the publisher/PMC routes are blocked. These are the three source-blocked curriculum units."
+          ]
+        },
+        {
+          "id": "cell-pfeiffer-parent-gate",
+          "requirement": "The primary Results supports CD8-negative cells and the stated day-seven fractions. Read Appendix Fig S1A before narrowing the parent gate to CD8-negative T cells. The supplementary ZIP timed out and the DOCX route returned HTML, not a valid document; the broader verified reader wording remains.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "The primary Results supports CD8-negative cells and the stated day-seven fractions. Read Appendix Fig S1A before narrowing the parent gate to CD8-negative T cells. The supplementary ZIP timed out and the DOCX route returned HTML, not a valid document; the broader verified reader wording remains."
+          ]
+        },
+        {
+          "id": "cell-retained-catalogue",
+          "requirement": "Retained target prevalence, programme/status and biology assertions, including mesothelin dispensability wording outside the corrected risk inference, need their own current primary checks. No whole-owner certification follows from a new asOf. Two existing MUC1-named trial titles merit registry/product/target-edge review rather than assuming an unverified product relationship.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Retained target prevalence, programme/status and biology assertions, including mesothelin dispensability wording outside the corrected risk inference, need their own current primary checks. No whole-owner certification follows from a new asOf. Two existing MUC1-named trial titles merit registry/product/target-edge review rather than assuming an unverified product relationship."
+          ]
+        },
+        {
+          "id": "cell-visual-and-generic-reader",
+          "requirement": "Queue the source CAR bracket, theme-specific conditional support sentence and standalone Mermaid word wrap for their illustration owners. The generic target schematic says a surface target can be reached from blood; accessibility remains an experimental question in the new prose. Any change to that shared product wording belongs under PRODUCT-APPROVAL, rather than a silent product edit in this data audit.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Queue the source CAR bracket, theme-specific conditional support sentence and standalone Mermaid word wrap for their illustration owners. The generic target schematic says a surface target can be reached from blood; accessibility remains an experimental question in the new prose. Any change to that shared product wording belongs under PRODUCT-APPROVAL, rather than a silent product edit in this data audit."
+          ]
+        }
+      ]
+    }
+  },
+  "sourceReadingLimits": "No whole-paper read is claimed; fetched bodies are distinct from read passages. Existing canonical and peer excerpts retain their inherited source assessment, separately labelled.",
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "broaderGoalComplete": false
+}

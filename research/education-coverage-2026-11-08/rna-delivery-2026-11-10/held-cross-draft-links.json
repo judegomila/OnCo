@@ -1,0 +1,11 @@
+[
+  {
+    "owner": "delivery-target-versus-therapeutic-target",
+    "field": "related",
+    "values": [
+      "targeted-lnps",
+      "lipid-nanoparticle"
+    ],
+    "reason": "These new canonical owners are in draft375 and absent from standalone draft373. Apply cross-draft links only when the release includes both owner sets; no dangling references introduced."
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "recordId": "cell-division",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 1,
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/17406473/",
+      "https://pubmed.ncbi.nlm.nih.gov/34697469/"
+    ]
+  },
+  {
+    "recordId": "epithelium-and-stroma",
+    "ownerFiles": [
+      "src/data/education-biology-evidence.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 1,
+    "sourceURLs": [
+      "https://seer.cancer.gov/tools/ssm/Summary-Stage_v3.4.pdf"
+    ]
+  },
+  {
+    "recordId": "mutation",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 1,
+    "sourceURLs": [
+      "https://www.genome.gov/genetics-glossary/Frameshift-Mutation",
+      "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/",
+      "https://hgvs-nomenclature.org/stable/recommendations/protein/delins/"
+    ]
+  },
+  {
+    "recordId": "vdj-recombination",
+    "ownerFiles": [
+      "src/data/education-biology-evidence.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 2,
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/24413735/",
+      "https://pubmed.ncbi.nlm.nih.gov/17130450/",
+      "https://pubmed.ncbi.nlm.nih.gov/21383244/"
+    ]
+  },
+  {
+    "recordId": "dna-term",
+    "ownerFiles": [
+      "src/data/terms-basics.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 1,
+    "sourceURLs": [
+      "https://id.nlm.nih.gov/mesh/D004249.html",
+      "https://pubmed.ncbi.nlm.nih.gov/9488723/",
+      "https://pubmed.ncbi.nlm.nih.gov/21555580/"
+    ]
+  },
+  {
+    "recordId": "protein-structure-and-domains",
+    "ownerFiles": [
+      "src/data/education-biology-evidence.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "notes",
+      "links"
+    ],
+    "newNotes": 1,
+    "sourceURLs": [
+      "https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/methods-for-determining-structure"
+    ]
+  },
+  {
+    "recordId": "tnbc",
+    "ownerFiles": [
+      "src/data/cancers.ts",
+      "src/data/spikes/tnbc-core.ts",
+      "src/data/spikes/breast-core.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "tldr",
+      "summary introduction",
+      "notes 0/6/12",
+      "biomarker classification",
+      "diagnostic classification",
+      "ER-low subtype boundary",
+      "history classification text",
+      "ER-low open question",
+      "links"
+    ],
+    "scope": "Classification-related text only; other clinical content remains outside this checkpoint. Both contributing notes and the base introduction are corrected."
+  },
+  {
+    "recordId": "er-pr-negative-threshold",
+    "ownerFiles": [
+      "src/data/spikes/tnbc-core.ts"
+    ],
+    "asOf": "2026-11-09",
+    "changedFields": [
+      "tldr",
+      "summary"
+    ],
+    "scope": "Guideline classification and selected-cohort statistical/eligibility boundaries; all retained cohort figures checked against resolved abstracts."
+  }
+]

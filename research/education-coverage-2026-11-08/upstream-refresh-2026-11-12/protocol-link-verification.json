@@ -1,0 +1,1163 @@
+{
+  "newRelations": 96,
+  "uniqueMedicines": 40,
+  "checks": [
+    {
+      "protocol": "antibacterial-prophylaxis-in-neutropenia",
+      "drug": "levofloxacin",
+      "route": "/protocols/antibacterial-prophylaxis-in-neutropenia/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levofloxacin",
+        "levofloxacin"
+      ]
+    },
+    {
+      "protocol": "antibacterial-prophylaxis-in-neutropenia",
+      "drug": "ciprofloxacin",
+      "route": "/protocols/antibacterial-prophylaxis-in-neutropenia/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Ciprofloxacin",
+        "ciprofloxacin"
+      ]
+    },
+    {
+      "protocol": "anticipatory-nausea-and-vomiting",
+      "drug": "midazolam",
+      "route": "/protocols/anticipatory-nausea-and-vomiting/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Midazolam",
+        "midazolam"
+      ]
+    },
+    {
+      "protocol": "anticoagulants-and-antiplatelets-before-endoscopy",
+      "drug": "apixaban",
+      "route": "/protocols/anticoagulants-and-antiplatelets-before-endoscopy/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Apixaban",
+        "apixaban"
+      ]
+    },
+    {
+      "protocol": "anticoagulants-and-antiplatelets-before-endoscopy",
+      "drug": "rivaroxaban",
+      "route": "/protocols/anticoagulants-and-antiplatelets-before-endoscopy/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Rivaroxaban",
+        "rivaroxaban"
+      ]
+    },
+    {
+      "protocol": "anticoagulants-and-antiplatelets-before-endoscopy",
+      "drug": "edoxaban",
+      "route": "/protocols/anticoagulants-and-antiplatelets-before-endoscopy/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Edoxaban",
+        "edoxaban"
+      ]
+    },
+    {
+      "protocol": "anticoagulants-and-antiplatelets-before-endoscopy",
+      "drug": "warfarin",
+      "route": "/protocols/anticoagulants-and-antiplatelets-before-endoscopy/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Warfarin",
+        "warfarin"
+      ]
+    },
+    {
+      "protocol": "antifungal-prophylaxis-in-haematology",
+      "drug": "posaconazole",
+      "route": "/protocols/antifungal-prophylaxis-in-haematology/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Posaconazole",
+        "posaconazole"
+      ]
+    },
+    {
+      "protocol": "antithrombotic-interruption-around-surgery",
+      "drug": "warfarin",
+      "route": "/protocols/antithrombotic-interruption-around-surgery/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Warfarin",
+        "vitamin K antagonist",
+        "warfarin"
+      ]
+    },
+    {
+      "protocol": "bispecific-step-up-dosing",
+      "drug": "anakinra",
+      "route": "/protocols/bispecific-step-up-dosing/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Anakinra",
+        "anakinra"
+      ]
+    },
+    {
+      "protocol": "bone-marrow-aspirate-and-trephine-biopsy",
+      "drug": "lidocaine",
+      "route": "/protocols/bone-marrow-aspirate-and-trephine-biopsy/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Lidocaine",
+        "lidocaine"
+      ]
+    },
+    {
+      "protocol": "cancer-associated-vte-treatment",
+      "drug": "apixaban",
+      "route": "/protocols/cancer-associated-vte-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Apixaban",
+        "apixaban"
+      ]
+    },
+    {
+      "protocol": "cancer-associated-vte-treatment",
+      "drug": "rivaroxaban",
+      "route": "/protocols/cancer-associated-vte-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Rivaroxaban",
+        "rivaroxaban"
+      ]
+    },
+    {
+      "protocol": "cancer-associated-vte-treatment",
+      "drug": "edoxaban",
+      "route": "/protocols/cancer-associated-vte-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Edoxaban",
+        "edoxaban"
+      ]
+    },
+    {
+      "protocol": "cancer-associated-vte-treatment",
+      "drug": "warfarin",
+      "route": "/protocols/cancer-associated-vte-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Warfarin",
+        "vitamin K antagonist",
+        "warfarin"
+      ]
+    },
+    {
+      "protocol": "car-t-infection-prevention",
+      "drug": "valaciclovir",
+      "route": "/protocols/car-t-infection-prevention/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "valacyclovir"
+      ]
+    },
+    {
+      "protocol": "car-t-infection-prevention",
+      "drug": "tenofovir",
+      "route": "/protocols/car-t-infection-prevention/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "tenofovir"
+      ]
+    },
+    {
+      "protocol": "care-in-the-last-days-of-life",
+      "drug": "hyoscine",
+      "route": "/protocols/care-in-the-last-days-of-life/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "scopolamine",
+        "hyoscine butylbromide",
+        "hyoscine"
+      ]
+    },
+    {
+      "protocol": "catheter-related-thrombosis-in-cancer",
+      "drug": "apixaban",
+      "route": "/protocols/catheter-related-thrombosis-in-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Apixaban",
+        "apixaban"
+      ]
+    },
+    {
+      "protocol": "catheter-related-thrombosis-in-cancer",
+      "drug": "rivaroxaban",
+      "route": "/protocols/catheter-related-thrombosis-in-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Rivaroxaban",
+        "rivaroxaban"
+      ]
+    },
+    {
+      "protocol": "catheter-related-thrombosis-in-cancer",
+      "drug": "edoxaban",
+      "route": "/protocols/catheter-related-thrombosis-in-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Edoxaban",
+        "edoxaban"
+      ]
+    },
+    {
+      "protocol": "central-line-occlusion-management",
+      "drug": "alteplase",
+      "route": "/protocols/central-line-occlusion-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Alteplase",
+        "Cathflo",
+        "alteplase"
+      ]
+    },
+    {
+      "protocol": "central-line-occlusion-management",
+      "drug": "urokinase",
+      "route": "/protocols/central-line-occlusion-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Urokinase",
+        "urokinase"
+      ]
+    },
+    {
+      "protocol": "chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention",
+      "drug": "duloxetine",
+      "route": "/protocols/chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Duloxetine",
+        "duloxetine"
+      ]
+    },
+    {
+      "protocol": "chronic-pain-in-cancer-survivors",
+      "drug": "duloxetine",
+      "route": "/protocols/chronic-pain-in-cancer-survivors/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Duloxetine",
+        "duloxetine"
+      ]
+    },
+    {
+      "protocol": "crs-grading-and-management",
+      "drug": "anakinra",
+      "route": "/protocols/crs-grading-and-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Anakinra",
+        "anakinra"
+      ]
+    },
+    {
+      "protocol": "diagnostic-bronchoscopy-and-ebus-preparation",
+      "drug": "midazolam",
+      "route": "/protocols/diagnostic-bronchoscopy-and-ebus-preparation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Midazolam",
+        "midazolam"
+      ]
+    },
+    {
+      "protocol": "diagnostic-bronchoscopy-and-ebus-preparation",
+      "drug": "propofol",
+      "route": "/protocols/diagnostic-bronchoscopy-and-ebus-preparation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Propofol",
+        "propofol"
+      ]
+    },
+    {
+      "protocol": "diagnostic-bronchoscopy-and-ebus-preparation",
+      "drug": "lidocaine",
+      "route": "/protocols/diagnostic-bronchoscopy-and-ebus-preparation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Lidocaine",
+        "lidocaine"
+      ]
+    },
+    {
+      "protocol": "diagnostic-bronchoscopy-and-ebus-preparation",
+      "drug": "glycopyrronium",
+      "route": "/protocols/diagnostic-bronchoscopy-and-ebus-preparation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "glycopyrrolate"
+      ]
+    },
+    {
+      "protocol": "egfr-inhibitor-rash-prophylaxis",
+      "drug": "doxycycline",
+      "route": "/protocols/egfr-inhibitor-rash-prophylaxis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Doxycycline",
+        "doxycycline"
+      ]
+    },
+    {
+      "protocol": "egfr-inhibitor-rash-prophylaxis",
+      "drug": "minocycline",
+      "route": "/protocols/egfr-inhibitor-rash-prophylaxis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Minocycline",
+        "minocycline"
+      ]
+    },
+    {
+      "protocol": "enhanced-recovery-after-gynaecological-cancer-surgery",
+      "drug": "morphine",
+      "route": "/protocols/enhanced-recovery-after-gynaecological-cancer-surgery/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Morphine",
+        "morphine"
+      ]
+    },
+    {
+      "protocol": "febrile-neutropenia-first-hour",
+      "drug": "piperacillin-tazobactam",
+      "route": "/protocols/febrile-neutropenia-first-hour/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Piperacillin with tazobactam"
+      ]
+    },
+    {
+      "protocol": "hand-foot-syndrome-prevention-and-dose-modification",
+      "drug": "urea-cream",
+      "route": "/protocols/hand-foot-syndrome-prevention-and-dose-modification/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Urea cream",
+        "urea-based cream",
+        "urea cream"
+      ]
+    },
+    {
+      "protocol": "hand-foot-syndrome-prevention-and-dose-modification",
+      "drug": "lidocaine",
+      "route": "/protocols/hand-foot-syndrome-prevention-and-dose-modification/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Lidocaine",
+        "lidocaine"
+      ]
+    },
+    {
+      "protocol": "head-and-neck-radiotherapy-oral-mucositis",
+      "drug": "morphine",
+      "route": "/protocols/head-and-neck-radiotherapy-oral-mucositis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Morphine",
+        "morphine"
+      ]
+    },
+    {
+      "protocol": "hepatitis-b-screening-and-reactivation-prophylaxis",
+      "drug": "tenofovir",
+      "route": "/protocols/hepatitis-b-screening-and-reactivation-prophylaxis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "tenofovir alafenamide",
+        "TAF",
+        "tenofovir"
+      ]
+    },
+    {
+      "protocol": "herpes-simplex-and-zoster-antiviral-prophylaxis",
+      "drug": "valaciclovir",
+      "route": "/protocols/herpes-simplex-and-zoster-antiviral-prophylaxis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Valaciclovir",
+        "valacyclovir",
+        "valaciclovir"
+      ]
+    },
+    {
+      "protocol": "hot-flushes-on-endocrine-therapy-non-hormonal-options",
+      "drug": "venlafaxine",
+      "route": "/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Venlafaxine",
+        "venlafaxine"
+      ]
+    },
+    {
+      "protocol": "hot-flushes-on-endocrine-therapy-non-hormonal-options",
+      "drug": "gabapentin",
+      "route": "/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Gabapentin",
+        "gabapentin"
+      ]
+    },
+    {
+      "protocol": "hot-flushes-on-endocrine-therapy-non-hormonal-options",
+      "drug": "cyproterone",
+      "route": "/protocols/hot-flushes-on-endocrine-therapy-non-hormonal-options/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Cyproterone acetate",
+        "cyproterone"
+      ]
+    },
+    {
+      "protocol": "icans-grading-and-management",
+      "drug": "levetiracetam",
+      "route": "/protocols/icans-grading-and-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levetiracetam",
+        "levetiracetam"
+      ]
+    },
+    {
+      "protocol": "iec-hs-management",
+      "drug": "anakinra",
+      "route": "/protocols/iec-hs-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Anakinra",
+        "anakinra"
+      ]
+    },
+    {
+      "protocol": "image-guided-core-biopsy-preparation-and-aftercare",
+      "drug": "warfarin",
+      "route": "/protocols/image-guided-core-biopsy-preparation-and-aftercare/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Warfarin",
+        "warfarin"
+      ]
+    },
+    {
+      "protocol": "irae-colitis",
+      "drug": "infliximab",
+      "route": "/protocols/irae-colitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-colitis",
+      "drug": "vedolizumab",
+      "route": "/protocols/irae-colitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Vedolizumab",
+        "vedolizumab"
+      ]
+    },
+    {
+      "protocol": "irae-hepatitis",
+      "drug": "infliximab",
+      "route": "/protocols/irae-hepatitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-hepatitis",
+      "drug": "mycophenolate",
+      "route": "/protocols/irae-hepatitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Mycophenolate mofetil",
+        "mycophenolate"
+      ]
+    },
+    {
+      "protocol": "irae-hypophysitis-adrenal",
+      "drug": "levothyroxine",
+      "route": "/protocols/irae-hypophysitis-adrenal/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levothyroxine",
+        "T4",
+        "thyroxine",
+        "levothyroxine"
+      ]
+    },
+    {
+      "protocol": "irae-myocarditis",
+      "drug": "infliximab",
+      "route": "/protocols/irae-myocarditis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-myocarditis",
+      "drug": "mycophenolate",
+      "route": "/protocols/irae-myocarditis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Mycophenolate mofetil",
+        "mycophenolate"
+      ]
+    },
+    {
+      "protocol": "irae-nephritis",
+      "drug": "infliximab",
+      "route": "/protocols/irae-nephritis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-nephritis",
+      "drug": "mycophenolate",
+      "route": "/protocols/irae-nephritis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Mycophenolate mofetil",
+        "mycophenolate"
+      ]
+    },
+    {
+      "protocol": "irae-neurological",
+      "drug": "gabapentin",
+      "route": "/protocols/irae-neurological/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Gabapentin",
+        "gabapentin"
+      ]
+    },
+    {
+      "protocol": "irae-neurological",
+      "drug": "duloxetine",
+      "route": "/protocols/irae-neurological/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Duloxetine",
+        "duloxetine"
+      ]
+    },
+    {
+      "protocol": "irae-pneumonitis",
+      "drug": "infliximab",
+      "route": "/protocols/irae-pneumonitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-pneumonitis",
+      "drug": "mycophenolate",
+      "route": "/protocols/irae-pneumonitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Mycophenolate mofetil",
+        "mycophenolate"
+      ]
+    },
+    {
+      "protocol": "irae-skin",
+      "drug": "infliximab",
+      "route": "/protocols/irae-skin/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Infliximab",
+        "infliximab"
+      ]
+    },
+    {
+      "protocol": "irae-thyroid",
+      "drug": "levothyroxine",
+      "route": "/protocols/irae-thyroid/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levothyroxine",
+        "T4",
+        "levothyroxine"
+      ]
+    },
+    {
+      "protocol": "irinotecan-early-cholinergic-syndrome-and-late-diarrhoea",
+      "drug": "loperamide",
+      "route": "/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Loperamide",
+        "loperamide"
+      ]
+    },
+    {
+      "protocol": "irinotecan-early-cholinergic-syndrome-and-late-diarrhoea",
+      "drug": "hyoscine",
+      "route": "/protocols/irinotecan-early-cholinergic-syndrome-and-late-diarrhoea/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "scopolamine"
+      ]
+    },
+    {
+      "protocol": "malignant-bowel-obstruction",
+      "drug": "haloperidol",
+      "route": "/protocols/malignant-bowel-obstruction/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Haloperidol",
+        "haloperidol"
+      ]
+    },
+    {
+      "protocol": "malignant-bowel-obstruction",
+      "drug": "metoclopramide",
+      "route": "/protocols/malignant-bowel-obstruction/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Metoclopramide",
+        "metoclopramide"
+      ]
+    },
+    {
+      "protocol": "malignant-bowel-obstruction",
+      "drug": "hyoscine",
+      "route": "/protocols/malignant-bowel-obstruction/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "hyoscine butylbromide",
+        "hyoscine"
+      ]
+    },
+    {
+      "protocol": "nausea-and-vomiting-in-advanced-cancer",
+      "drug": "metoclopramide",
+      "route": "/protocols/nausea-and-vomiting-in-advanced-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Metoclopramide",
+        "metoclopramide"
+      ]
+    },
+    {
+      "protocol": "nausea-and-vomiting-in-advanced-cancer",
+      "drug": "haloperidol",
+      "route": "/protocols/nausea-and-vomiting-in-advanced-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Haloperidol",
+        "haloperidol"
+      ]
+    },
+    {
+      "protocol": "nausea-and-vomiting-in-advanced-cancer",
+      "drug": "levomepromazine",
+      "route": "/protocols/nausea-and-vomiting-in-advanced-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levomepromazine",
+        "methotrimeprazine",
+        "levomepromazine"
+      ]
+    },
+    {
+      "protocol": "nausea-and-vomiting-in-advanced-cancer",
+      "drug": "cyclizine",
+      "route": "/protocols/nausea-and-vomiting-in-advanced-cancer/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Cyclizine",
+        "cyclizine"
+      ]
+    },
+    {
+      "protocol": "neratinib-diarrhoea-prophylaxis-and-dose-escalation",
+      "drug": "loperamide",
+      "route": "/protocols/neratinib-diarrhoea-prophylaxis-and-dose-escalation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Loperamide",
+        "loperamide"
+      ]
+    },
+    {
+      "protocol": "neutropenic-enterocolitis",
+      "drug": "piperacillin-tazobactam",
+      "route": "/protocols/neutropenic-enterocolitis/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "piperacillin-tazobactam"
+      ]
+    },
+    {
+      "protocol": "opioid-switching-and-conversion",
+      "drug": "morphine",
+      "route": "/protocols/opioid-switching-and-conversion/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Morphine",
+        "morphine"
+      ]
+    },
+    {
+      "protocol": "opioid-switching-and-conversion",
+      "drug": "oxycodone",
+      "route": "/protocols/opioid-switching-and-conversion/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Oxycodone",
+        "oxycodone"
+      ]
+    },
+    {
+      "protocol": "oral-mucositis-prevention-and-oral-care",
+      "drug": "morphine",
+      "route": "/protocols/oral-mucositis-prevention-and-oral-care/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Morphine",
+        "morphine"
+      ]
+    },
+    {
+      "protocol": "paediatric-chemotherapy-nausea-vomiting-prevention",
+      "drug": "metoclopramide",
+      "route": "/protocols/paediatric-chemotherapy-nausea-vomiting-prevention/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Metoclopramide",
+        "metoclopramide"
+      ]
+    },
+    {
+      "protocol": "paediatric-fever-and-neutropenia",
+      "drug": "piperacillin-tazobactam",
+      "route": "/protocols/paediatric-fever-and-neutropenia/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Piperacillin with tazobactam"
+      ]
+    },
+    {
+      "protocol": "paediatric-procedural-pain-and-sedation",
+      "drug": "ketamine",
+      "route": "/protocols/paediatric-procedural-pain-and-sedation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Ketamine",
+        "ketamine"
+      ]
+    },
+    {
+      "protocol": "paediatric-procedural-pain-and-sedation",
+      "drug": "midazolam",
+      "route": "/protocols/paediatric-procedural-pain-and-sedation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Midazolam",
+        "midazolam"
+      ]
+    },
+    {
+      "protocol": "paediatric-procedural-pain-and-sedation",
+      "drug": "propofol",
+      "route": "/protocols/paediatric-procedural-pain-and-sedation/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Propofol",
+        "propofol"
+      ]
+    },
+    {
+      "protocol": "palliative-sedation-for-refractory-suffering",
+      "drug": "midazolam",
+      "route": "/protocols/palliative-sedation-for-refractory-suffering/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Midazolam",
+        "midazolam"
+      ]
+    },
+    {
+      "protocol": "palliative-sedation-for-refractory-suffering",
+      "drug": "levomepromazine",
+      "route": "/protocols/palliative-sedation-for-refractory-suffering/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Levomepromazine",
+        "levomepromazine"
+      ]
+    },
+    {
+      "protocol": "palliative-sedation-for-refractory-suffering",
+      "drug": "propofol",
+      "route": "/protocols/palliative-sedation-for-refractory-suffering/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Propofol",
+        "propofol"
+      ]
+    },
+    {
+      "protocol": "radiation-dermatitis-skin-care",
+      "drug": "mometasone",
+      "route": "/protocols/radiation-dermatitis-skin-care/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "mometasone",
+        "mometasone"
+      ]
+    },
+    {
+      "protocol": "sentinel-node-tracers-and-blue-dye-safety",
+      "drug": "lidocaine",
+      "route": "/protocols/sentinel-node-tracers-and-blue-dye-safety/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Lidocaine",
+        "lidocaine"
+      ]
+    },
+    {
+      "protocol": "skin-and-nail-care-during-cancer-drug-treatment",
+      "drug": "doxycycline",
+      "route": "/protocols/skin-and-nail-care-during-cancer-drug-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Doxycycline",
+        "doxycycline"
+      ]
+    },
+    {
+      "protocol": "skin-and-nail-care-during-cancer-drug-treatment",
+      "drug": "minocycline",
+      "route": "/protocols/skin-and-nail-care-during-cancer-drug-treatment/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Minocycline",
+        "minocycline"
+      ]
+    },
+    {
+      "protocol": "strong-opioids-for-cancer-pain",
+      "drug": "morphine",
+      "route": "/protocols/strong-opioids-for-cancer-pain/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Morphine",
+        "morphine"
+      ]
+    },
+    {
+      "protocol": "strong-opioids-for-cancer-pain",
+      "drug": "oxycodone",
+      "route": "/protocols/strong-opioids-for-cancer-pain/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Oxycodone",
+        "oxycodone"
+      ]
+    },
+    {
+      "protocol": "strong-opioids-for-cancer-pain",
+      "drug": "naloxone",
+      "route": "/protocols/strong-opioids-for-cancer-pain/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Naloxone",
+        "naloxone"
+      ]
+    },
+    {
+      "protocol": "suspected-central-line-infection",
+      "drug": "urokinase",
+      "route": "/protocols/suspected-central-line-infection/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Urokinase",
+        "urokinase"
+      ]
+    },
+    {
+      "protocol": "syringe-driver-continuous-subcutaneous-infusion",
+      "drug": "cyclizine",
+      "route": "/protocols/syringe-driver-continuous-subcutaneous-infusion/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Cyclizine",
+        "cyclizine"
+      ]
+    },
+    {
+      "protocol": "treatment-induced-diarrhoea-grading-and-management",
+      "drug": "loperamide",
+      "route": "/protocols/treatment-induced-diarrhoea-grading-and-management/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Loperamide",
+        "loperamide"
+      ]
+    },
+    {
+      "protocol": "vte-prophylaxis-after-cancer-surgery",
+      "drug": "apixaban",
+      "route": "/protocols/vte-prophylaxis-after-cancer-surgery/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Apixaban",
+        "apixaban"
+      ]
+    },
+    {
+      "protocol": "vte-prophylaxis-after-cancer-surgery",
+      "drug": "rivaroxaban",
+      "route": "/protocols/vte-prophylaxis-after-cancer-surgery/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Rivaroxaban",
+        "rivaroxaban"
+      ]
+    },
+    {
+      "protocol": "vte-risk-assessment-and-thromboprophylaxis-ambulatory",
+      "drug": "apixaban",
+      "route": "/protocols/vte-risk-assessment-and-thromboprophylaxis-ambulatory/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Apixaban",
+        "apixaban"
+      ]
+    },
+    {
+      "protocol": "vte-risk-assessment-and-thromboprophylaxis-ambulatory",
+      "drug": "rivaroxaban",
+      "route": "/protocols/vte-risk-assessment-and-thromboprophylaxis-ambulatory/",
+      "incoming": true,
+      "member": true,
+      "rendered": true,
+      "mentions": [
+        "Rivaroxaban",
+        "rivaroxaban"
+      ]
+    }
+  ],
+  "scope": "Related protocol names and routes, not new indications, recommendations or independent clinical guideline verification."
+}

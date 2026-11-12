@@ -1,0 +1,11 @@
+{
+  "bothSourcePhasesReplayed": true,
+  "byteIdenticalFiles": 515,
+  "changedFiles": [],
+  "staleOrMissingCurrentFieldProofs": 0,
+  "closureExitCodes": [
+    2,
+    2
+  ],
+  "closureReason": "Remaining curriculum, assets, adjacent and schema work; no full-corpus completion claimed."
+}

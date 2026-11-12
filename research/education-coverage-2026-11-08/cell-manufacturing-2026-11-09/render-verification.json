@@ -1,0 +1,2358 @@
+{
+  "scope": "Actual EntityDetail output and visible text, excluding scripts/styles and attributes; no browser hydration or live deployment claimed.",
+  "knowledgeGraphOwners": 180,
+  "newAuthoredBodyParts": [
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "30e66a9a90bf2eca50224495c1ae643e2a077987c69ab090df1e29b6c1624437",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "summary",
+      "part": 0,
+      "sha256": "5faa810227568112f943fbe0b20a26cbdbec440dd950c8fb7a1e86c3d9d76624",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "principle",
+      "part": 0,
+      "sha256": "acb21e17241790a7d6a0222478621885db5684bc67898dc6f800b845e4c79b36",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "strengths",
+      "part": 0,
+      "sha256": "18e8db56b7d8007fce600255ef9a6237c3b279f70b8cd930e6a2cfcdc2277c8f",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "strengths",
+      "part": 1,
+      "sha256": "08f7580576b865e0efaaf8348e075549c2e4d50815d2752f04447d1c4110d72a",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "limitations",
+      "part": 0,
+      "sha256": "00d96f376b608494fa22d8da519eb06963d564f6b20b67b9aedca5ef8b5ba108",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "limitations",
+      "part": 1,
+      "sha256": "261690de5ece480e8644c67eb9eef0beda00750af9a57798071881411a239df6",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "limitations",
+      "part": 2,
+      "sha256": "a80dbbb4af439215c914aca188687fdf18a3ff60638bbd12cc939ee76227e2d5",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 0,
+      "sha256": "1de56d325cf493adfded76add0d0e18a841172d2c96ec4ba04e56f88fe44fb02",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 1,
+      "sha256": "c615c9b37516c9a5862603896f39892c147d3ff02488516d29b78b8d65b7658a",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 2,
+      "sha256": "7b2fd78e67fdcaea52531d8c4f82c700a33b316ea3154e1b3cbe490c2520f152",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 3,
+      "sha256": "bbca5771c6d2c4ba1948efb185a43a65dc4ae3e52c4d0b0a665748c07c49077b",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 4,
+      "sha256": "09b67d9aa65ae3e612cc9977ad95bc3e130d3cd0e4867c151e04cbfca69b6ead",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "field": "notes",
+      "part": 5,
+      "sha256": "a43d5271666f0a1ca361221948e98157429262be291edd53e604c006404f6cb8",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "47b357e37c5518434db0e8c31dc7aab96ca1b41db7822cedb20fe06d83d2339c",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "summary",
+      "part": 0,
+      "sha256": "99371a58abac7210dc3a53a622c6025dce5f48bae6fa2d24ddbadab5b365dca8",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "notes",
+      "part": 0,
+      "sha256": "68ea584f33ec8af0c8337a0a7578e8e662662eb4cb8c55b395f00d37fe84c655",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "notes",
+      "part": 1,
+      "sha256": "4eb78d2127ea265fa3591974d3d5ab16946def41d42e0722292ea77fae3d2692",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "notes",
+      "part": 2,
+      "sha256": "5caa7f64da90c3bf55f888f4cdd0ffa9aa8af6eaa0038ae48aef9be9c55f2b17",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "apheresis",
+      "field": "notes",
+      "part": 3,
+      "sha256": "bebfb697430908bed1e2bcc0f9c14d6ff84fed4ed6286682fafcba99cbbd29a9",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "7593bdea2cbc0b8cf5926ea05c5e7bacdb6b8754f18551ffb7f1b75d869d090e",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "summary",
+      "part": 0,
+      "sha256": "3fdb79f1d34cd5a5f16bab6f0b749c44bcbbc28217dc1d6faa88195581b4a8e5",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "principle",
+      "part": 0,
+      "sha256": "3a024b1f64b07803b23869dc31e3b249c3b948e8a8d0c9565e6bb99e19b7d089",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "strengths",
+      "part": 0,
+      "sha256": "87a087efc1fe06f7cb227917dab2fa0944b4fe359157506f7e4b0a9d0d519a15",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "strengths",
+      "part": 1,
+      "sha256": "5e7f9d27246f42d6582238c1d0a24aaf9cd045db36f580335395dfcacd6aa25c",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "limitations",
+      "part": 0,
+      "sha256": "258a203def022827e35377856ea6b98a954380922c3639f2ebc7c1aa73a5c596",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "limitations",
+      "part": 1,
+      "sha256": "0dbffdea36892a958b1c83273aefd540fba57a5bd45035be25dd65b7bf945ebd",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "limitations",
+      "part": 2,
+      "sha256": "64b27c1c99caee6f17a8b54fc7afb6f9d73b5a96e07f248fc9987ffd95d49ae9",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 0,
+      "sha256": "e60d1687ac5eb819de1242066bda1401b7a6b6ff4092c433010607ac991ec927",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 1,
+      "sha256": "dc3e17691e573db90ae1b52526e55c668e9bcde5cd5fc060e5a12bb50d32b176",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 2,
+      "sha256": "0f7695b521a758b78c973cf2b25342393f7014afd5132f7ab158951e99639ca4",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 3,
+      "sha256": "64f619c682317de7cf6618abd6a915ce0af06613b3b6fc608395c58ae018b765",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 4,
+      "sha256": "261fca33f980ecfb5eb19d9f07835aa9f63b22fffdb7d68a72344ca77128659d",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "field": "notes",
+      "part": 5,
+      "sha256": "95ea55c88974e333ddbd29f3dc019d6e63a90e982a809d35dfb8a6634c13f533",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "067106dd8d7802002f0453ea3fd9972822dc6612c082e0f84a8c1319fc507001",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "summary",
+      "part": 0,
+      "sha256": "bed464d186325242143dd6445bc9edbf47b995d31c2102e06fec2e18dfae7256",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "principle",
+      "part": 0,
+      "sha256": "5a683e3723480f02df0d14ab013daec1660eec234fe69bf3590f3137bef75252",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "strengths",
+      "part": 0,
+      "sha256": "def3e871b6d62d6da7395535c0fb0ef3328ed44260daa25df070005f8f8a795a",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "strengths",
+      "part": 1,
+      "sha256": "6d93c74764b72c307855a0a65c9c28253baa32ec3577950294391692e1eb00cd",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "limitations",
+      "part": 0,
+      "sha256": "d432cea3ff37026748b1a68f4d0d469e922a7b68d3cc65421e99d3f6803f38ee",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "limitations",
+      "part": 1,
+      "sha256": "1d72e3516c365eb0190a2e9a2cfe466e1afc0d15ffddc88f68194e033da01097",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "limitations",
+      "part": 2,
+      "sha256": "1c3e5e306164390dbf8b563a53ade5b109ef0c5dafbc7dd8188cfd343d7efce3",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "notes",
+      "part": 0,
+      "sha256": "fd414e314e5ea0bff7b3ea7cf577cdc93365eb38e7ac28bd6986f1200ef6315a",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "notes",
+      "part": 1,
+      "sha256": "a3acb8e18968474907d6503fd7cf5486305f193d36b739101c3e5292e945881f",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "notes",
+      "part": 2,
+      "sha256": "ed93e2d2ca0af02d158ab593259641b48c43f96b6747f34db2c2cbe2b203ea16",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "field": "notes",
+      "part": 3,
+      "sha256": "056cb013965951b12217981a7eab6d77efefb6858680e803a7e0e83572fed89f",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "9115f96d0735558debb1f001dc9ee5fc771964f81d3fa0f7faec743ae4eec541",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "summary",
+      "part": 0,
+      "sha256": "6524fefb7faf5f20255e7fbd724cf9af7f53bc39a6477ea6928fd03b33a2ec54",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "principle",
+      "part": 0,
+      "sha256": "fa14d0a5442cfbb02cd3f1deb6bdb8e5fb84b961ca5530682b4d1302b1c80707",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "strengths",
+      "part": 0,
+      "sha256": "d3a7a5ec232bf8ae0f46e33a983e3a0e40942d63da54bd12d8fc38d575a76f9c",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "strengths",
+      "part": 1,
+      "sha256": "f7016cdaea507a1dc98157cfd08420936183b3ef1a70ca3b8d881b0f4e04d801",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "limitations",
+      "part": 0,
+      "sha256": "8d8a75b91309703a8b1105215fef2d6dada7525f98f22d3ff751d9563c91c6ab",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "limitations",
+      "part": 1,
+      "sha256": "0ffac5ce3302475536e264b7a4ae0c4adfce74fd74043ea29bec1d8000814e1d",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "limitations",
+      "part": 2,
+      "sha256": "ceaff4f171da6e3acb439b23de8f78e169e43eef9e5297ba421eb904800b82b2",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 0,
+      "sha256": "b6ca6a5e24dd94963ecb7f50ede306b8605234d691f04db33191af3c0fc50429",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 1,
+      "sha256": "ae3034f6e5c403e79fca4029f2ff322d465c5f6c3474d2c88ea17aff580e57c1",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 2,
+      "sha256": "65e1f276027b32a686f5dba00a4e430c4e3de7202236aa0ec40977dd63d35363",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 3,
+      "sha256": "6c221ee82aedeafe517b3cc7366823a8761b8b352e7ac2fbe367470c9c8b3efe",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 4,
+      "sha256": "7f976a389bf93d1ea0e566d85385bbac7702b08596ad1b2eccba8258aa9810ae",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 5,
+      "sha256": "894956183508042b251beba34b171b88a36f582d82b5a14da042fad3569e7ffd",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "field": "notes",
+      "part": 6,
+      "sha256": "5dcd784767a8af3521474ee63f03cb02bb8ae4487897d00809448c8e627302e4",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "in-vivo-car-t",
+      "field": "notes",
+      "part": 0,
+      "sha256": "fc678c9e68d8479241fab30f1072dcb994e9fa096e0aa7d46f840c545a717589",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "in-vivo-car-t",
+      "field": "notes",
+      "part": 1,
+      "sha256": "fb19147c456d1fabae78ad582339afd3bd9911ece4c5b31f852600b9751177b6",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "in-vivo-car-t",
+      "field": "notes",
+      "part": 2,
+      "sha256": "78b50223246bbf406f830b45b86316c7126ac4b99bc606c9d96f458f60639789",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "99f91ee136fcff33b0920aa13e1ef3131baa7b9e1258950fd39626e5a2446eb9",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "summary",
+      "part": 0,
+      "sha256": "b946bd0f079b0661928490333f71fdfacfda1d7002df1038535eaf7c99905f39",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "notes",
+      "part": 0,
+      "sha256": "05e2bd4fc28ca5a1d1e7cd82c07fc7485fefa1e28946790376b4c8cc6f91c9b8",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "notes",
+      "part": 1,
+      "sha256": "9b9137fc828028066e02fe43c4dcc23245c8b5908c4e97d9543946e26a4ff91b",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "notes",
+      "part": 2,
+      "sha256": "9c38b5deb819d641ed44cdd5de5309e68f5d67dd7be38dcab489b0bc73347a9b",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "notes",
+      "part": 3,
+      "sha256": "c60d972f55b90b65cd698f8ea5e56ec423806ed54683494d76e08793add6fd98",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "field": "notes",
+      "part": 4,
+      "sha256": "a046e59e114d706845da71510b155560e5f50cd0bb3902440c726f9fce807006",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "fe7b2b92ac005a12d43ebf9fdb597b7d5ac9d617124cc00df36b80dd3fba7f90",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "summary",
+      "part": 0,
+      "sha256": "9c48e79e96f571343fa92b9a25c2aff2058880f47ecf10602d3ac70de11e3aa5",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "notes",
+      "part": 0,
+      "sha256": "20b9caa524284428b9e7b9ba81c375f5f92d25b7bcc5ea167ec0528a8cf272ac",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "notes",
+      "part": 1,
+      "sha256": "ad1aa1034e74d314c89f4b03cade6a2906c7776eac51e23850c6cd07b2f774e7",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "notes",
+      "part": 2,
+      "sha256": "75e22542624a7fc81701e66694e8fa14395422ef4cec1c6d81edec08d62cbcb8",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "notes",
+      "part": 3,
+      "sha256": "7523fa7970e1d8b640d85288e7d837719db61dda5eb4d14b86dc07ce5353db21",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "field": "notes",
+      "part": 4,
+      "sha256": "48f9fd64034b07fb12e577c587a87036f972cda6a4b660a3d646a8b65e1fcce0",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "tldr",
+      "part": 0,
+      "sha256": "f18f25c5d5db6e0ce2a25cd85fd1513e4a46fcee23e899f01559f191529ba933",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "summary",
+      "part": 0,
+      "sha256": "54534b1f1d9f94c37aebfd3d6dc8f8262a5460c14ca214ab8317cdeb410e1908",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 0,
+      "sha256": "47aa92baf524b121903f0c9abb5c1a5af830ef1158859ef5587177e4be5619a6",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 1,
+      "sha256": "1fbbfc27a721c17e607bb50e5d16a3fd50b58e7d61c4fec297947440cce904b0",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 2,
+      "sha256": "de9ed5c2e347d68562ba542f1f8b08149deed20a0b874c86dc74f7b93ff40f4f",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 3,
+      "sha256": "5dbea9e1cab25ea244d45070598ebdd097994f3b574e966ed7313bd8fb3539ba",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 4,
+      "sha256": "c90872ce020eb88697b7972af67db82f363706402f44a78111e031d7c908db0b",
+      "readerBodyMatched": true
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "field": "notes",
+      "part": 5,
+      "sha256": "c5c01259ffb91d4974135cf249e6a04008d8bc5d70d6723da5f651626fe84aa8",
+      "readerBodyMatched": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "investigational-new-drug-application",
+      "route": "/terms/investigational-new-drug-application/",
+      "asOf": "2026-11-08",
+      "bytes": 23070,
+      "sha256": "7b8187a69b7c7acf8d2bc97ac9ffc5150bacf1508d3a91a048918c443a2ab62c",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "investigator-initiated-trials",
+      "route": "/terms/investigator-initiated-trials/",
+      "asOf": "2026-11-08",
+      "bytes": 21100,
+      "sha256": "bc5e768802184f74a2dc9dad91f2221f0954cb4ed91694967e0811bba6048e35",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "laboratory-certification-test-authorization",
+      "route": "/terms/laboratory-certification-test-authorization/",
+      "asOf": "2026-11-08",
+      "bytes": 22185,
+      "sha256": "e11211256922819db2db2759c9e808ab27b0a226b61d1726a9719d7b0aaeffe9",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "trial-search-site-verification",
+      "route": "/terms/trial-search-site-verification/",
+      "asOf": "2026-11-09",
+      "bytes": 26324,
+      "sha256": "c6d2f37961abb7e746e4667cb0d8042dc4471f66cd42825e3bf5d80a5600c4a0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "companion-diagnostic",
+      "route": "/technologies/companion-diagnostic/",
+      "asOf": "2026-11-09",
+      "bytes": 188198,
+      "sha256": "01254e087e3d428ef63317a0767ff7a1867d45035a62ebd23774eb45407fbafc",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "companion-diagnostic-term",
+      "route": "/terms/companion-diagnostic-term/",
+      "asOf": "2026-11-09",
+      "bytes": 73007,
+      "sha256": "6aa9e9cf78ceb5cf114d762f446f82857a5c54a4f513586740774e9a965c7eb2",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "label-indication",
+      "route": "/terms/label-indication/",
+      "asOf": "2026-11-08",
+      "bytes": 25346,
+      "sha256": "0b7136c1337fab1c90bff1dea10567be1fd0b716ce1d49170bee7fe6946013e2",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "off-label",
+      "route": "/terms/off-label/",
+      "asOf": "2026-11-08",
+      "bytes": 33603,
+      "sha256": "2a0c1cea089201518a36ff6c81ae4e565c3ac6438e5480c475df177f550d45b2",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "full-approval",
+      "route": "/terms/full-approval/",
+      "asOf": "2026-11-08",
+      "bytes": 24946,
+      "sha256": "f4ae9f1bde15f0cf2fce59d0199bb717a1e0b4c47de020ab0022f83336d70e5b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "fast-track-rmat",
+      "route": "/terms/fast-track-rmat/",
+      "asOf": "2026-11-08",
+      "bytes": 26156,
+      "sha256": "3946538552863f88bfd34ce3d495df8c82dc36be31c5969c899c0161a855e9d6",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "accelerated-approval",
+      "route": "/terms/accelerated-approval/",
+      "asOf": "2026-11-08",
+      "bytes": 49479,
+      "sha256": "f9500c43bb77619866c9cea79a5593020400190dcc22ec2ed4da81df31ed2121",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "research-use-only",
+      "route": "/terms/research-use-only/",
+      "asOf": "2026-11-08",
+      "bytes": 22068,
+      "sha256": "72dc041e521902e3caadcd3e43929db90bbacbcc019d69656b9dabc21605f32c",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "fda-ldt-rule",
+      "route": "/terms/fda-ldt-rule/",
+      "asOf": "2026-11-08",
+      "bytes": 27640,
+      "sha256": "da9ed997121d71b3679db2fd0cc7c03bbde64497a0efbd64553d5b328040434b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bla-nda",
+      "route": "/terms/bla-nda/",
+      "asOf": "2026-11-08",
+      "bytes": 29117,
+      "sha256": "8bc856edf2a8c03308a2b8533bb7a0ef8c8f580694a007ca8de0a86b172b5de9",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "expanded-access",
+      "route": "/terms/expanded-access/",
+      "asOf": "2026-11-09",
+      "bytes": 33838,
+      "sha256": "3a24e23b20098c0f6d3b15107357e38d166d39e45b968a8768b411a76b7b886d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "right-to-try",
+      "route": "/terms/right-to-try/",
+      "asOf": "2026-11-08",
+      "bytes": 24877,
+      "sha256": "258751229f16d82aceb46e3cb8ad18ac555138d4970f68a9d9837633382f6bec",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "eu-regulation-726-2004",
+      "route": "/terms/eu-regulation-726-2004/",
+      "asOf": "2026-11-08",
+      "bytes": 30606,
+      "sha256": "dac5926dcf9e527193aa8c2e19cda4de72a520976fd7a4d97ffa6be87b29dbc0",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dako-pd-l1-22c3-pharmdx",
+      "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+      "asOf": "2026-11-09",
+      "bytes": 54109,
+      "sha256": "61bcff79088e7f312748a06a259f3588d21d25a2792fa9ec828f6a83ad1b05ab",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "prosigna",
+      "route": "/drugs/prosigna/",
+      "asOf": "2026-11-09",
+      "bytes": 44503,
+      "sha256": "87f98f1146a4ba02bfa99dd25da8035fc2dc0f6acd029e79accd4187dabc734e",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cell-lineage-and-state",
+      "route": "/terms/cell-lineage-and-state/",
+      "asOf": "2026-11-08",
+      "bytes": 23370,
+      "sha256": "00e80b9cf231258beefe0f9f224dd11b99b3b4119b2e16aef70416c5e1d53c18",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epithelium-and-stroma",
+      "route": "/terms/epithelium-and-stroma/",
+      "asOf": "2026-11-09",
+      "bytes": 22424,
+      "sha256": "b4864c3c3507e669a6b60910c5fb016cbb86a7fc5bb1be5debcaf09f050c340a",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cellular-compartments",
+      "route": "/terms/cellular-compartments/",
+      "asOf": "2026-11-08",
+      "bytes": 21230,
+      "sha256": "be6f4b5edbb8537ea0513898ca5038d29f75979ca91fe29772b11994f8a0029d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "alleles-and-zygosity",
+      "route": "/terms/alleles-and-zygosity/",
+      "asOf": "2026-11-08",
+      "bytes": 20186,
+      "sha256": "aa99d581187bc0b324079b80fe64d67d90642d1fa22465f51203e323951cd878",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epigenetic-marks",
+      "route": "/terms/epigenetic-marks/",
+      "asOf": "2026-11-08",
+      "bytes": 24690,
+      "sha256": "7040e5ef67369a87f51c32c3465bf61375e70156ea3b651e63a03b680d1c083d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nonsense-mediated-decay",
+      "route": "/terms/nonsense-mediated-decay/",
+      "asOf": "2026-11-08",
+      "bytes": 19236,
+      "sha256": "289ace904a2680bb92e52ebd2e1b6207412a934ea0ac7d0025dc405b9748da83",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vdj-recombination",
+      "route": "/terms/vdj-recombination/",
+      "asOf": "2026-11-09",
+      "bytes": 27472,
+      "sha256": "0d836e944921ea9394e29aee99a39df8cbf44ea5f33f1b98b7a6d769ddd4ae7f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "protein-structure-and-domains",
+      "route": "/terms/protein-structure-and-domains/",
+      "asOf": "2026-11-09",
+      "bytes": 21331,
+      "sha256": "2eb90f6fa7b306b5d6da33a7feee352cdf1700365894f069d1abc221c6fa6457",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "binding-affinity-and-kinetics",
+      "route": "/terms/binding-affinity-and-kinetics/",
+      "asOf": "2026-11-08",
+      "bytes": 23393,
+      "sha256": "bf9ac4b675c4f9eb2be0bad4bdac64b0c76994ea50f033737f5024abfe1d754a",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "feedback-and-feedforward",
+      "route": "/terms/feedback-and-feedforward/",
+      "asOf": "2026-11-08",
+      "bytes": 20935,
+      "sha256": "bee68f46aee7d2f7f7147b0a22c674eec0adfa35748b77a165ed444218e97cbe",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "receptor-reserve",
+      "route": "/terms/receptor-reserve/",
+      "asOf": "2026-11-08",
+      "bytes": 17932,
+      "sha256": "f883e442dd26dc06021c2b5e8af901b5f0087a8c6695182c0762a16c2489c70b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "biased-agonism",
+      "route": "/terms/biased-agonism/",
+      "asOf": "2026-11-08",
+      "bytes": 19425,
+      "sha256": "dd01a62da4ce6ab5ea06944ab733082e49ad11c497c7bde312be839a5c7beaf3",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-regulatory-elements",
+      "route": "/terms/gene-regulatory-elements/",
+      "asOf": "2026-11-08",
+      "bytes": 21113,
+      "sha256": "5d4513cbd1833f5bb09abf96a5298a93870956eff4dd5c8e191cfb2fc03b7ed5",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "central-dogma-information-flow",
+      "route": "/terms/central-dogma-information-flow/",
+      "asOf": "2026-11-08",
+      "bytes": 19779,
+      "sha256": "14a9831c18ede424880149929021bc2eb98e27b4f9610b603444709f4090ba73",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-membrane",
+      "route": "/terms/cell-membrane/",
+      "asOf": "2026-11-08",
+      "bytes": 21389,
+      "sha256": "830de03381349f7d41f9ed814397945d3de4f9c46a0fc987fa1440a6c66dd659",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-cycle",
+      "route": "/terms/cell-cycle/",
+      "asOf": "2026-11-08",
+      "bytes": 39222,
+      "sha256": "dd32365075b92f3f4ddfe47afae9f0424db18d0f53013410d33db7070a6f7c96",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-division",
+      "route": "/terms/cell-division/",
+      "asOf": "2026-11-09",
+      "bytes": 26472,
+      "sha256": "0fa337b753dc80f7879bef03f77a804c3ccf224ec4c68c9b0b54b070bc6fa4c2",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "differentiation",
+      "route": "/terms/differentiation/",
+      "asOf": "2026-11-08",
+      "bytes": 24225,
+      "sha256": "fc4a503c75e321d661e2edc7a9a2485496fce28daa44ef3552c5c40ca8b280c3",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "emt",
+      "route": "/pathways/emt/",
+      "asOf": "2026-11-08",
+      "bytes": 60464,
+      "sha256": "7c27ae1fe9c67bf9044422d993eb83fb1fe502d406353ec67d90c44c4e45ba21",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "germline-vs-somatic",
+      "route": "/terms/germline-vs-somatic/",
+      "asOf": "2026-11-08",
+      "bytes": 69436,
+      "sha256": "ecadc85f1eec222980f467e4ff0f3f356e80243cb66a540bdd84903637c470ab",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-term",
+      "route": "/terms/dna-term/",
+      "asOf": "2026-11-09",
+      "bytes": 23251,
+      "sha256": "c6f6f30319c064a1876738475c7d1cefabef65fedff708c93e1e6eb3aeabd088",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "rna",
+      "route": "/terms/rna/",
+      "asOf": "2026-11-08",
+      "bytes": 24902,
+      "sha256": "b4cd83284d1ac830a986fc4fde4628708698c9abe41e4bcc6881673babfd83cd",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene",
+      "route": "/terms/gene/",
+      "asOf": "2026-11-08",
+      "bytes": 22156,
+      "sha256": "e0e136cc5a9b408608411ee45d44f90b42ca06bf4abc8860310e4f77d3c52f8c",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein",
+      "route": "/terms/protein/",
+      "asOf": "2026-11-08",
+      "bytes": 22676,
+      "sha256": "940e00aca45de8bbcd8d9129a97698b2d824b23d266095d2b54cbc285592fe9f",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "enzyme",
+      "route": "/terms/enzyme/",
+      "asOf": "2026-11-08",
+      "bytes": 24527,
+      "sha256": "cb2b4fc4e074f17003cbeeadfed6bda939577982dd87df7ab4660bba68a1ee94",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-expression",
+      "route": "/terms/gene-expression/",
+      "asOf": "2026-11-08",
+      "bytes": 27109,
+      "sha256": "000683c1a299120fddd9492c3c321f56beb32c158bcf6a6d72e3e80a33d3eb9b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna-splicing",
+      "route": "/pathways/rna-splicing/",
+      "asOf": "2026-11-08",
+      "bytes": 52840,
+      "sha256": "f5ef7e2967322218bae23cc048f5edc39aa25d6ee0e3714b992e8df746e778fd",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mutation",
+      "route": "/terms/mutation/",
+      "asOf": "2026-11-09",
+      "bytes": 28231,
+      "sha256": "d14014a5dc9f460503895207e677a6b9a9fa177a1a6f25e813e4fe5b416112ef",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "ligand",
+      "route": "/terms/ligand/",
+      "asOf": "2026-11-08",
+      "bytes": 27345,
+      "sha256": "909c05172950f3d0d520ca1b6686c03d316ccc47da8760237b6027f1a97cf676",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "receptor",
+      "route": "/terms/receptor/",
+      "asOf": "2026-11-08",
+      "bytes": 27187,
+      "sha256": "2df8e564640c344bf3d4d0727431b5ecacd5d50c60c0ed963042b823e787cc31",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "agonist-antagonist",
+      "route": "/terms/agonist-antagonist/",
+      "asOf": "2026-11-08",
+      "bytes": 26900,
+      "sha256": "6055328abffeb8905693bac25bb454e7cce6cc69a4714c5742d69f41f286a878",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "signalling-pathway",
+      "route": "/terms/signalling-pathway/",
+      "asOf": "2026-11-08",
+      "bytes": 30070,
+      "sha256": "254e55f2aa7905b691f5703a2df286b10d29c06c6cb424a44eb555b8cec37a0f",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "kinase",
+      "route": "/terms/kinase/",
+      "asOf": "2026-11-08",
+      "bytes": 30857,
+      "sha256": "2a2fed263b41ff414b2ace7ce9b2fc4f4f6ab99ec70e44d1850928ec82b31539",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "phosphorylation",
+      "route": "/terms/phosphorylation/",
+      "asOf": "2026-11-08",
+      "bytes": 24214,
+      "sha256": "20f82deda0f43993ad3c24ff0301c6c417d465c93ea4f50b728130509f561c10",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pathway-activation-state",
+      "route": "/terms/pathway-activation-state/",
+      "asOf": "2026-11-08",
+      "bytes": 27489,
+      "sha256": "278e9bf0f5e2d7258a42ac608a435cf78c58c80e5d7b1b9c96262a9e6be9e571",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vaf",
+      "route": "/terms/vaf/",
+      "asOf": "2026-11-08",
+      "bytes": 35876,
+      "sha256": "a4b7537bc8fc0dad69a4cc16067ff19ea970593c2a3534556093dda9f1feb2f6",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity",
+      "route": "/terms/genome-wide-loss-of-heterozygosity/",
+      "asOf": "2026-11-08",
+      "bytes": 45769,
+      "sha256": "7bf093476270870a936c509c8775e198054f0fe736d73c3a8b511846e3b266d0",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-amplification",
+      "route": "/terms/gene-amplification/",
+      "asOf": "2026-11-08",
+      "bytes": 55030,
+      "sha256": "f86c8d5ef58a47109aaabb547077c2ae366fbca92113e03ba597bdf519950fc3",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "clonality-testing",
+      "route": "/technologies/clonality-testing/",
+      "asOf": "2026-11-08",
+      "bytes": 41461,
+      "sha256": "486f4ecdafb5d7ec40567deec5206771304b4cd1fe900499db407ca548208c96",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ig-tcr-clonality",
+      "route": "/biomarkers/ig-tcr-clonality/",
+      "asOf": "2026-11-08",
+      "bytes": 35838,
+      "sha256": "7619315c9052c0e084784b249258d81906df5eced4de3e5c6090e90084b5ac88",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "methylation-arrays",
+      "route": "/terms/methylation-arrays/",
+      "asOf": "2026-11-08",
+      "bytes": 25132,
+      "sha256": "6efc77f60b19141cd7da2fea10f9cd9618bb02fed17192cc51b933bca3555961",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tnbc",
+      "route": "/cancers/tnbc/",
+      "asOf": "2026-11-09",
+      "bytes": 228434,
+      "sha256": "46e4eec8e8b063395fc0d07d66e74e5bb16178836df4af7867b9352de6366356",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "er-pr-negative-threshold",
+      "route": "/terms/er-pr-negative-threshold/",
+      "asOf": "2026-11-09",
+      "bytes": 39298,
+      "sha256": "ddfee5595aad8c9c614fdb8663035fd63f20042b7198ad03feeed7ad43d495bb",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "basal-like",
+      "route": "/terms/basal-like/",
+      "asOf": "2026-11-09",
+      "bytes": 33497,
+      "sha256": "138b2cbd306568151f451ef186eae1a9e844c47a0b9f24102086ffe6de3db2b9",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "luminal-androgen-receptor",
+      "route": "/terms/luminal-androgen-receptor/",
+      "asOf": "2026-11-09",
+      "bytes": 28777,
+      "sha256": "0a90c2f480dc1207110641e5f9df41dca6048eca0dc7e22bfe834a6978b128af",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "pam50",
+      "route": "/terms/pam50/",
+      "asOf": "2026-11-09",
+      "bytes": 48966,
+      "sha256": "08e6f4b77d9d4319e211813b0586cf25de28c9cff8ad6e450ae8abc3547c855e",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-basal-like-1",
+      "route": "/cancers/tnbc-basal-like-1/",
+      "asOf": "2026-11-09",
+      "bytes": 73686,
+      "sha256": "9d1f3300cf8db7f1310b94361a9960134b2803a3d1eaf13a7fcca8f97075f341",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-basal-like-2",
+      "route": "/cancers/tnbc-basal-like-2/",
+      "asOf": "2026-11-09",
+      "bytes": 64356,
+      "sha256": "5a796fe001c481f7a52449dabca639056073dfdf98cc3559b5746b5f3d7cc196",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-mesenchymal",
+      "route": "/cancers/tnbc-mesenchymal/",
+      "asOf": "2026-11-09",
+      "bytes": 65964,
+      "sha256": "b778f343845894feed27ad67d286ef21182a3c58033eae3c2d269d286bc6549f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-mesenchymal-stem-like",
+      "route": "/cancers/tnbc-mesenchymal-stem-like/",
+      "asOf": "2026-11-09",
+      "bytes": 64061,
+      "sha256": "f946345b4a471da603b20d11d9b436b914ffb027b6dae6971cfbe0c760b3ebf9",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-luminal-androgen-receptor",
+      "route": "/cancers/tnbc-luminal-androgen-receptor/",
+      "asOf": "2026-11-09",
+      "bytes": 80174,
+      "sha256": "48ad55a8166ce78f155c83e1f1e6cce869e59566a4fef5bffc2614dc4154a459",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-immunomodulatory",
+      "route": "/cancers/tnbc-immunomodulatory/",
+      "asOf": "2026-11-09",
+      "bytes": 68182,
+      "sha256": "c3b8cf4c6eb248b32d86ef2f69b7793afb2f15c57b45c5d4061c1fb3fc875ac8",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "tnbc-molecular-subtyping",
+      "route": "/terms/tnbc-molecular-subtyping/",
+      "asOf": "2026-11-09",
+      "bytes": 32384,
+      "sha256": "998f90fe44c4fa446a692392056b018643b4fe79369b51aef30d10353ad1a3c3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "adc",
+      "route": "/technologies/adc/",
+      "asOf": "2026-11-08",
+      "bytes": 227340,
+      "sha256": "ef91372f539bdd5b70f48627412d67ac25c9bc91bdf57bf29482c06f373f9469",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "site-specific-conjugation",
+      "route": "/technologies/site-specific-conjugation/",
+      "asOf": "2026-11-08",
+      "bytes": 39372,
+      "sha256": "9e9274f5aa8c8189a7e1b46456d802f40986cafea26b56cbfc0d8b0875c4e4cc",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "linker",
+      "route": "/terms/linker/",
+      "asOf": "2026-11-08",
+      "bytes": 28294,
+      "sha256": "284d0d31ce3c4d685f2baac805915c952d1b13d6747cdc04019b46a30d880a08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dar",
+      "route": "/terms/dar/",
+      "asOf": "2026-11-08",
+      "bytes": 26010,
+      "sha256": "a2868f84a6f6e7f3d6be678da9b269899e4b4e2321766f74d59c2189747e0d53",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bystander-effect",
+      "route": "/terms/bystander-effect/",
+      "asOf": "2026-11-08",
+      "bytes": 34501,
+      "sha256": "cb876907fd6b9bb0f635fc8476ee6c4e2113234095f614f674457b13253fe49e",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cross-resistance",
+      "route": "/terms/cross-resistance/",
+      "asOf": "2026-11-08",
+      "bytes": 35238,
+      "sha256": "beffc68b2e1c6f44290049437c233b18463cedd696fd7eeefc3f176d4a24c84d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "adc-sequencing",
+      "route": "/terms/adc-sequencing/",
+      "asOf": "2026-11-08",
+      "bytes": 37955,
+      "sha256": "996aad99a6383bde2cf41c1a7b5acabd1f115865eff832443280ac36c375d534",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bispecific-adc",
+      "route": "/technologies/bispecific-adc/",
+      "asOf": "2026-11-08",
+      "bytes": 63014,
+      "sha256": "ebab88af6331875cc057dbb245bef2f7c8ce989b4bdadf471a3b243c8a6fcb0c",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "monoclonal-antibody",
+      "route": "/technologies/monoclonal-antibody/",
+      "asOf": "2026-11-08",
+      "bytes": 176298,
+      "sha256": "f3ef218ebfccd391fc1290ec0fee5fdc55cc94f3a34ebc066146b82b3bc766f9",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioligand-therapy",
+      "route": "/technologies/radioligand-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 98782,
+      "sha256": "9d1ce1d4a3789416fdff2b684bcf200436500e7fc640ea2358559f8b0a7a4d60",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dosimetry",
+      "route": "/terms/dosimetry/",
+      "asOf": "2026-11-08",
+      "bytes": 33102,
+      "sha256": "dbc1ee9111b090e64cdcb6a417c0d26a4130ba744152ec76f2b89035ac38b275",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioligand-dosimetry",
+      "route": "/technologies/radioligand-dosimetry/",
+      "asOf": "2026-11-08",
+      "bytes": 34336,
+      "sha256": "7f2bf6c6d71db7682a160ff37fccd3cb370967e5c5bb538df25ea0bcffc40785",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "radioimmunotherapy",
+      "route": "/technologies/radioimmunotherapy/",
+      "asOf": "2026-11-08",
+      "bytes": 45048,
+      "sha256": "dd69be4a077e8fd41785a0eb91720bcdcf30d453db614c56152a49a2595ba9ad",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "adc-analytes-and-exposure",
+      "route": "/terms/adc-analytes-and-exposure/",
+      "asOf": "2026-11-08",
+      "bytes": 22849,
+      "sha256": "5c3a88fb08ce5ec42f609563aa1afb63a63287fe617572e49437ad63cdce0479",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "chk1-inhibitor-payloads",
+      "route": "/terms/chk1-inhibitor-payloads/",
+      "asOf": "2026-11-08",
+      "bytes": 30488,
+      "sha256": "112222fe29e5806f59f577dacaf0369f59fe8c899cd3f93b7344390684885212",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "parp-inhibitor-payloads",
+      "route": "/terms/parp-inhibitor-payloads/",
+      "asOf": "2026-11-08",
+      "bytes": 22777,
+      "sha256": "a31fc7105d415800dd46c3dc5a7f9dedcf03734b7b95b05a1026a5b967918630",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "atr-chk1-inhibitors",
+      "route": "/technologies/atr-chk1-inhibitors/",
+      "asOf": "2026-11-08",
+      "bytes": 35512,
+      "sha256": "74606a374ae70fbc3ac1b6fe07a792e8c222a7347608c285ea605a7b92b329ce",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "histone-lactylation",
+      "route": "/terms/histone-lactylation/",
+      "asOf": "2026-11-08",
+      "bytes": 16578,
+      "sha256": "2b2affa502f02dc09bd34d2617ddbe761ee7fba89409f8cc62d83359bc7596cc",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "car-t",
+      "route": "/technologies/car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 183495,
+      "sha256": "c3736bcf1c05dcae07cceaafdd8771c8ea6b1b44816d1eef357b079721e590bc",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "armored-car",
+      "route": "/technologies/armored-car/",
+      "asOf": "2026-11-09",
+      "bytes": 41734,
+      "sha256": "4915ecbb7f7cff9c24cc477a7de72645d81443c24e03e4cebe5c2b0456534127",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "logic-gated-therapeutics",
+      "route": "/technologies/logic-gated-therapeutics/",
+      "asOf": "2026-11-08",
+      "bytes": 35905,
+      "sha256": "5b34d4005880fd8011597fcf4dde7f8ef79e083cf9d9a5065225bf3037ffff73",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "car-nk-macrophage",
+      "route": "/technologies/car-nk-macrophage/",
+      "asOf": "2026-11-08",
+      "bytes": 53803,
+      "sha256": "15317b704d10f952e43df893cf827f7cec69dbb74037c49d9e5c6ca8235415de",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nk-cell-therapy",
+      "route": "/technologies/nk-cell-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 35677,
+      "sha256": "d81f55e50ecd8f1cfdc13d654247fd9d0c57353fe81a0638c4555c444dac53ca",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nk-cell",
+      "route": "/terms/nk-cell/",
+      "asOf": "2026-11-08",
+      "bytes": 25827,
+      "sha256": "c50762915646e21c33d68fe47962fb23e7038a462d53428324a443a2d96966a8",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "in-vivo-car-t",
+      "route": "/technologies/in-vivo-car-t/",
+      "asOf": "2026-11-09",
+      "bytes": 56547,
+      "sha256": "3ce89ae46789e464b7d4c4579a71549555ad65e2ee50e317527aa4c04fd867a1",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cellular-kinetics-and-persistence",
+      "route": "/terms/cellular-kinetics-and-persistence/",
+      "asOf": "2026-11-08",
+      "bytes": 28756,
+      "sha256": "4e7c3e2cd65a4e3397bcb4b87bd2a8dff55ca72c88e1ebbf68c878dbec25b256",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "endogenous-promoter-payload-control",
+      "route": "/terms/endogenous-promoter-payload-control/",
+      "asOf": "2026-11-08",
+      "bytes": 23058,
+      "sha256": "f367f90417956391ed6ccc506999c060803f4e8cca161f3c0b7c1761c4a3509a",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "safety-switch-car-t",
+      "route": "/technologies/safety-switch-car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 39944,
+      "sha256": "596e06adb7ce55b78725fc226ad9f9c64b5faa04d9eddc67364f461f22f3b88a",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "t-cell-engager",
+      "route": "/technologies/t-cell-engager/",
+      "asOf": "2026-11-08",
+      "bytes": 164089,
+      "sha256": "f75cf46bc8be4215d3cc94cff9568ceeee875c8a51a1e84805d4795b1e6ee664",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-t",
+      "route": "/technologies/tcr-t/",
+      "asOf": "2026-11-08",
+      "bytes": 80806,
+      "sha256": "c30dbbb2ea71307e449eaef8af1525fef12943e20e23a87f8d40c040cf667daf",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "til-therapy",
+      "route": "/technologies/til-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 82561,
+      "sha256": "f90da9a43781cd6f3cf9fad725d09b32ebbb837d8182447549b4e75c184b964b",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bispecific-antibody",
+      "route": "/technologies/bispecific-antibody/",
+      "asOf": "2026-11-08",
+      "bytes": 116840,
+      "sha256": "d762de01c5a75e4232b6d9c103cff5cc3d222a270a5abc41c3ff073ea9a0b7e6",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tarlatamab",
+      "route": "/drugs/tarlatamab/",
+      "asOf": "2026-11-08",
+      "bytes": 92982,
+      "sha256": "e15d91c038ef20cf100a6db9adf18ccdc68bec70c65e15dd784fc7d75c66304d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "paper-dellphi-301-nejm-2023",
+      "route": "/key-papers/paper-dellphi-301-nejm-2023/",
+      "asOf": "2026-11-08",
+      "bytes": 51805,
+      "sha256": "52211cd7bec51a21074c538eaad4a6604cadfe92795212db203aef30016e4dce",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "paper-c-144-01-lifileucel-melanoma-jco-2021",
+      "route": "/key-papers/paper-c-144-01-lifileucel-melanoma-jco-2021/",
+      "asOf": "2026-11-08",
+      "bytes": 48675,
+      "sha256": "ba8018751de746afebac5b16696e683641dcf7f31e836ceaf9127b002e8d94c5",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "trop2",
+      "route": "/targets/trop2/",
+      "asOf": "2026-11-09",
+      "bytes": 185935,
+      "sha256": "66a2aaeef0ab713f65f004e049b91b6b2ddf2dc627fc7f37e68e1f122212aab5",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "trop2-expression",
+      "route": "/biomarkers/trop2-expression/",
+      "asOf": "2026-11-09",
+      "bytes": 51480,
+      "sha256": "deb723270eae1131166805edd50673d0cff3331c9f0c1d23f3ac503ff9432113",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low",
+      "route": "/terms/her2-low/",
+      "asOf": "2026-11-09",
+      "bytes": 56680,
+      "sha256": "b66ad83c2b118afca52376ac73c1876beabb1f4258bf13546a0bb6f8a76df8fb",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low-and-trop2-adc-eligibility-tnbc",
+      "route": "/terms/her2-low-and-trop2-adc-eligibility-tnbc/",
+      "asOf": "2026-11-09",
+      "bytes": 39289,
+      "sha256": "cca94b1e4a70102ebe4126ae3bcf6bcfa743b609d6049121290b58b2795c6b18",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-low-ihc",
+      "route": "/biomarkers/her2-low-ihc/",
+      "asOf": "2026-11-09",
+      "bytes": 65018,
+      "sha256": "98e2f0921556459bb4fc27e50c595ecd630a80a6dcc90580a7a4aaad21012bf8",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ultralow",
+      "route": "/biomarkers/her2-ultralow/",
+      "asOf": "2026-11-09",
+      "bytes": 51297,
+      "sha256": "5c9173ab220e2d6706187e1649f8a51966547d2e915deb2fccb2a0f3d0dc57f4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-0",
+      "route": "/biomarkers/her2-ihc-0/",
+      "asOf": "2026-11-09",
+      "bytes": 54368,
+      "sha256": "5820c267611df8c9801fe0527e20f6707c819f42fc4f81874cabb12382a267e5",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "route": "/biomarkers/her2-ihc-1-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 45415,
+      "sha256": "3ac8267859830c7ec429871981a86aa767b3145b77f368bb52f88927edeffb2a",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "route": "/biomarkers/her2-ihc-2-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 59886,
+      "sha256": "5e522792ac8d4880069862c37bda6793cc5df93a02bb0f49fab0412a9aac4513",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "route": "/biomarkers/her2-ihc-3-plus/",
+      "asOf": "2026-11-09",
+      "bytes": 80660,
+      "sha256": "3083a633dda9bd6edf173d9a1376fa43980594ec00e4de7387025d9a2ffeb533",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-ish-amplified",
+      "route": "/biomarkers/her2-ish-amplified/",
+      "asOf": "2026-11-09",
+      "bytes": 72686,
+      "sha256": "f0996351ce65a42a6c0936738b319db49117a9f30965507fa66f163d8c0e4c29",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "ascent",
+      "route": "/trials/ascent/",
+      "asOf": "2026-11-09",
+      "bytes": 79789,
+      "sha256": "a4999f59c523ce2f8b83ac564861e572fc0a9e4236f65b5a1aa43c7313a7a896",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "destiny-breast04",
+      "route": "/trials/destiny-breast04/",
+      "asOf": "2026-11-09",
+      "bytes": 67424,
+      "sha256": "d7f77f55ddb0b969bd4212ba40b204660f367d9e4d1903202044ca073599fdc4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "destiny-breast06",
+      "route": "/trials/destiny-breast06/",
+      "asOf": "2026-11-09",
+      "bytes": 73606,
+      "sha256": "62b44f83e435a3400202ce3efb94311642ff2c541b2480be944cb06d8576c9f4",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-destiny-breast04-nejm-2022",
+      "route": "/key-papers/paper-destiny-breast04-nejm-2022/",
+      "asOf": "2026-11-09",
+      "bytes": 49233,
+      "sha256": "b42c3ee206ebd1149ff57910c762899b7854c57f926f5361b67cab73b8c0f820",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-destiny-breast06-nejm-2024",
+      "route": "/key-papers/paper-destiny-breast06-nejm-2024/",
+      "asOf": "2026-11-09",
+      "bytes": 47631,
+      "sha256": "0cc0de699b69f036181d830b0806d2d18a7f26f4fe75d2af17643be5e9a23020",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "her2-testing-uk-breast",
+      "route": "/terms/her2-testing-uk-breast/",
+      "asOf": "2026-11-09",
+      "bytes": 31190,
+      "sha256": "74e8264a4865669ebfa909dbb3f24e4563f7a102980c8480ccacf744e32b4a65",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "thermal-ablation",
+      "route": "/technologies/thermal-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 50245,
+      "sha256": "d4e66d47dc3c437f4748a0204fd243c7b785cdd59571853980730cd019d05014",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "radiofrequency-ablation",
+      "route": "/terms/radiofrequency-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 25710,
+      "sha256": "92b8afb0a8cef286fec76b3dcbd22acdfbd9e2373e115014aabca14df43e0727",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "microwave-ablation",
+      "route": "/terms/microwave-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 22531,
+      "sha256": "124481bd1667ca481f13ee5bc5f413ea2fa664819205f3ec86809d4cd5275acf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cryoablation",
+      "route": "/terms/cryoablation/",
+      "asOf": "2026-11-09",
+      "bytes": 25608,
+      "sha256": "31980e5ce22ffced02b0710fa980d0bdf5830e53b3cb4786429e55e928aa9f22",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sbrt",
+      "route": "/technologies/sbrt/",
+      "asOf": "2026-11-09",
+      "bytes": 81738,
+      "sha256": "e96e3a1abbad889b66932e5223c775272f5a5dde0dc42f6aab310861c3859064",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sbrt-term",
+      "route": "/terms/sbrt-term/",
+      "asOf": "2026-11-09",
+      "bytes": 29710,
+      "sha256": "d2209d32cc160ae49709391064c6aa8a01d2ac216d1265fa9b4bf04ac6091d55",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "radiotherapy",
+      "route": "/terms/radiotherapy/",
+      "asOf": "2026-11-09",
+      "bytes": 66113,
+      "sha256": "244c718dcdd7405a80070325df47b5b11c5156de70a2e4ebb791b3a9916d5359",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "hypofractionation",
+      "route": "/terms/hypofractionation/",
+      "asOf": "2026-11-09",
+      "bytes": 37792,
+      "sha256": "b55af7916ae322eec85d8618c6bf7f2ee903a1824bef344c041a2529da17a803",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "hypofractionated-radiotherapy",
+      "route": "/technologies/hypofractionated-radiotherapy/",
+      "asOf": "2026-11-09",
+      "bytes": 47253,
+      "sha256": "357aea163fbd0d557aae20839a7b4ffbc1263ccd1e9a044ea104475eda835adc",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "immunogenic-cell-death",
+      "route": "/terms/immunogenic-cell-death/",
+      "asOf": "2026-11-09",
+      "bytes": 28138,
+      "sha256": "13669473ca361f12755362b823ddf4bb302b9fd77df8b1f900af14434dfe80f0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "in-situ-vaccination",
+      "route": "/technologies/in-situ-vaccination/",
+      "asOf": "2026-11-09",
+      "bytes": 31217,
+      "sha256": "b98264a8438ddc60c9e6f99b963e83d9b2d55e583811d3f11d43fa3b756aa424",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "abscopal-effect",
+      "route": "/terms/abscopal-effect/",
+      "asOf": "2026-11-09",
+      "bytes": 26569,
+      "sha256": "6d016c088beaf7c276d75609ac005fe88db1700d97b31f9264bc72a58645b80e",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "systemic-vs-local-therapy",
+      "route": "/terms/systemic-vs-local-therapy/",
+      "asOf": "2026-11-09",
+      "bytes": 35154,
+      "sha256": "4c9e3e9f96acd3e07f36d8b6d7727de896a58f99b4a7cbfb063e2de15ee4e01f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "theranostics",
+      "route": "/terms/theranostics/",
+      "asOf": "2026-11-09",
+      "bytes": 49769,
+      "sha256": "dd8f9cee9d92fdb588883f4511b4623f557675e09f7983ab9cdb1f415e8d1600",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "nsabp-b51",
+      "route": "/trials/nsabp-b51/",
+      "asOf": "2026-11-09",
+      "bytes": 46805,
+      "sha256": "18ad9d9bb44dcb52cbe8109de008ca4cedb0377d499dabaf2001e61c59f7a54d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "acosog-z0011",
+      "route": "/trials/acosog-z0011/",
+      "asOf": "2026-11-09",
+      "bytes": 73465,
+      "sha256": "87d1f4f443903647ccad5928913b91cfa8e34e4806d462076d532d22694ddaa0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "amaros",
+      "route": "/trials/amaros/",
+      "asOf": "2026-11-09",
+      "bytes": 98383,
+      "sha256": "12db23f67a10e0e5d30a80fc6c5d9e2b9663d74e98ce6820f6f882a03f1f546c",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sentinel-node",
+      "route": "/technologies/sentinel-node/",
+      "asOf": "2026-11-09",
+      "bytes": 60504,
+      "sha256": "3b77957da6fd06fa3ddc60996527e26be634903a13aa543e1496fc738dcd34cf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "lumpectomy",
+      "route": "/terms/lumpectomy/",
+      "asOf": "2026-11-09",
+      "bytes": 41897,
+      "sha256": "6a4a5e4aa17078b8aa7cded2e4e6987744732b2e0711736a2ad563f2eb953ee6",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "mastectomy",
+      "route": "/terms/mastectomy/",
+      "asOf": "2026-11-09",
+      "bytes": 42801,
+      "sha256": "8e381f5a1c876a369e97a3496c9253d3febdd1ce67d358d91676022445f468fc",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "breast-reconstruction",
+      "route": "/terms/breast-reconstruction/",
+      "asOf": "2026-11-09",
+      "bytes": 39679,
+      "sha256": "5a114a6832911f8fc2aa2a890795abdd4f1f081e3d836d715d68bf8b9b09cc20",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "resection-margins",
+      "route": "/terms/resection-margins/",
+      "asOf": "2026-11-09",
+      "bytes": 48698,
+      "sha256": "14677bb77831531e69f2cbc3b44f2ea067def2f1f5d012765d2100d4ca5ae4be",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "breast-margins-and-re-excision",
+      "route": "/terms/breast-margins-and-re-excision/",
+      "asOf": "2026-11-09",
+      "bytes": 27699,
+      "sha256": "8726350a44d3c71c2d73e6f583215f90f7cbd15ebb53707b2eca58b8539d1175",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "pacific",
+      "route": "/trials/pacific/",
+      "asOf": "2026-11-09",
+      "bytes": 78076,
+      "sha256": "f20e295529bb47dfec5dbb7c46cb22afe2184b7069831eee874cdb9e96e7cf3f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-spigel-pacific-five-year-survival-jco-2022",
+      "route": "/key-papers/paper-spigel-pacific-five-year-survival-jco-2022/",
+      "asOf": "2026-11-09",
+      "bytes": 48681,
+      "sha256": "79ecbf759009ce667446bfc874ce091e97b87db9309a861261924ca4cf78869d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "lymph-node-status",
+      "route": "/terms/lymph-node-status/",
+      "asOf": "2026-11-09",
+      "bytes": 26893,
+      "sha256": "35fbd361299457c61a69750144ce61bb7118f1b21b8306669634fb85f10448fe",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "completion-surgery",
+      "route": "/terms/completion-surgery/",
+      "asOf": "2026-11-09",
+      "bytes": 24703,
+      "sha256": "177b8c3c08ab65c782ac6ae2701c1a340d731eb291c60146567487f90f626b0f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "regional-nodal-irradiation",
+      "route": "/terms/regional-nodal-irradiation/",
+      "asOf": "2026-11-09",
+      "bytes": 25866,
+      "sha256": "e97412c40027fec37d4867e76f8a1d1a4d0a5a307489397402f36f9f595d91c9",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-booster-ablation-immunotherapy-2025",
+      "route": "/key-papers/paper-booster-ablation-immunotherapy-2025/",
+      "asOf": "2026-11-09",
+      "bytes": 30070,
+      "sha256": "3d757655e74b5340b01ad9b8256a7521dfbbb122fc440fac60dea3e5c82d7be0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-curb-oligoprogression-lancet-2024",
+      "route": "/key-papers/paper-curb-oligoprogression-lancet-2024/",
+      "asOf": "2026-11-09",
+      "bytes": 33311,
+      "sha256": "8f101f0b131b4db53db7cb5fcca2e0526a68a05f4a0125e8f7c1e402ac98f33b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-nrg-br002-jco-2026",
+      "route": "/key-papers/paper-nrg-br002-jco-2026/",
+      "asOf": "2026-11-09",
+      "bytes": 30508,
+      "sha256": "e3f5f576f4f250f97ed0fe066ca85dc0fef8115ca5b375d419d206e2be0b7cf3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-nsabp-b51-nejm-2025",
+      "route": "/key-papers/paper-nsabp-b51-nejm-2025/",
+      "asOf": "2026-11-09",
+      "bytes": 28395,
+      "sha256": "d0d6fc2edf2d759798a15cf8683acf1479bc5b1381dd17e777f480e2854b75bf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "curb-oligoprogression",
+      "route": "/trials/curb-oligoprogression/",
+      "asOf": "2026-11-09",
+      "bytes": 41241,
+      "sha256": "c29b7ce1dbac85940dc05d4fe9f28211394ec0f5de4ada40fa077dae4287649b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "nrg-br002",
+      "route": "/trials/nrg-br002/",
+      "asOf": "2026-11-09",
+      "bytes": 32882,
+      "sha256": "4aade0d4e86bda16085920acabc62fd15f87e5c0246e71d3abc39e2d21497f45",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "alliance-a011202",
+      "route": "/trials/alliance-a011202/",
+      "asOf": "2026-11-09",
+      "bytes": 25466,
+      "sha256": "70640dadd7f99a3e62537c8a744de78bac454132ab4d206ab5b2c87f01af5c6e",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "t-cell-exhaustion-term",
+      "route": "/terms/t-cell-exhaustion-term/",
+      "asOf": "2026-11-09",
+      "bytes": 64049,
+      "sha256": "c97918e855a46a8f140a8e2d8dc11fa9955fc5e779e3a6d207843cebc7278ab3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "complete-response",
+      "route": "/terms/complete-response/",
+      "asOf": "2026-11-09",
+      "bytes": 42203,
+      "sha256": "77c8756dde532532002268975ca619143f30ccde66897986d8d77045812b0462",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "complete-response-term",
+      "route": "/terms/complete-response-term/",
+      "asOf": "2026-11-09",
+      "bytes": 31856,
+      "sha256": "0a7da3e5055b2737367df6ef78fba5d6d78daf4cbd267dc4561d7d279b7b1ca3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "duration-of-response",
+      "route": "/terms/duration-of-response/",
+      "asOf": "2026-11-09",
+      "bytes": 24385,
+      "sha256": "6d5c362f00f5630f996bfad15ae6edde51579442a2d6ce82f59f957487add76f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "duration-of-response-term",
+      "route": "/terms/duration-of-response-term/",
+      "asOf": "2026-11-09",
+      "bytes": 32311,
+      "sha256": "020f4b51e299f6532247dffb0366c99d38fae359bd260cf86b70c1ae73b1336d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "orr",
+      "route": "/terms/orr/",
+      "asOf": "2026-11-09",
+      "bytes": 61347,
+      "sha256": "cd7a896b05627b551bd44448715023a211086502f8f6740b1fdf5fcd030d00da",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "recist",
+      "route": "/terms/recist/",
+      "asOf": "2026-11-09",
+      "bytes": 38842,
+      "sha256": "6ac250422bb2083c290d5d7150a40512cc09ad5f5e4a7cd9fc2068a64baf5789",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "irecist",
+      "route": "/terms/irecist/",
+      "asOf": "2026-11-09",
+      "bytes": 23925,
+      "sha256": "e3ac02dc2e9264296aba739316176625c6d378fd2c91f14e23299a80474c9e15",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "percist",
+      "route": "/terms/percist/",
+      "asOf": "2026-11-09",
+      "bytes": 29685,
+      "sha256": "74168ff807a2b9022eb2136178e7ad937fe7a4b883a481a888660f0339b466b1",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "quantitative-imaging-biomarkers",
+      "route": "/technologies/quantitative-imaging-biomarkers/",
+      "asOf": "2026-11-09",
+      "bytes": 51000,
+      "sha256": "2eab20d6914295c3a46b16762d51d26434ebb58fcaba9acd61a3d88d243baa86",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-future-super-lancet-oncology-2024",
+      "route": "/key-papers/paper-future-super-lancet-oncology-2024/",
+      "asOf": "2026-11-09",
+      "bytes": 29590,
+      "sha256": "658e70eabd10d3578cbd45a3fc32e1f56608cbb7a622622cec5f0175e1066eb2",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "future-super",
+      "route": "/trials/future-super/",
+      "asOf": "2026-11-09",
+      "bytes": 43760,
+      "sha256": "ef171e817af1cc742b63e3c60ae55cc6c9cca01bc54fcadaa6e0ba2b1e31fdfb",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "synthetic-cytokine-receptors",
+      "route": "/terms/synthetic-cytokine-receptors/",
+      "asOf": "2026-11-09",
+      "bytes": 26024,
+      "sha256": "75e9764cefdec845a6441bd16525c1bebf0864048c1b6465d7e0bffd25c4693b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "allogeneic-cell-therapy",
+      "route": "/technologies/allogeneic-cell-therapy/",
+      "asOf": "2026-11-09",
+      "bytes": 66379,
+      "sha256": "affb284fb13349b4e23320dc7900a87835fc1151e8d70c8282a026d0bf9f5f08",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "apheresis",
+      "route": "/terms/apheresis/",
+      "asOf": "2026-11-09",
+      "bytes": 28286,
+      "sha256": "e9f23bc253d327c60fb89bd844759c2cabb3ef9eded2d98faaa8578b94c94bdf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cell-therapy-cold-chain",
+      "route": "/technologies/cell-therapy-cold-chain/",
+      "asOf": "2026-11-09",
+      "bytes": 36291,
+      "sha256": "3770c6ee6113682b108f176ff288836fdedfae79f857c68822b1597387a3963d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cell-therapy-orchestration-software",
+      "route": "/technologies/cell-therapy-orchestration-software/",
+      "asOf": "2026-11-09",
+      "bytes": 32146,
+      "sha256": "5c88a344a83f9c48a715f204a857479a90c788703d9fa9a1a16bbf9ca5e9cb37",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "car-t-manufacturing-process",
+      "route": "/technologies/car-t-manufacturing-process/",
+      "asOf": "2026-11-09",
+      "bytes": 49578,
+      "sha256": "82f72099bfe7e5b70dc13bf6580b28b08fc788873d31e3275b39f79d0241f2d3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "chain-of-identity-and-custody",
+      "route": "/terms/chain-of-identity-and-custody/",
+      "asOf": "2026-11-09",
+      "bytes": 26772,
+      "sha256": "c3a9c0fa5b4649aa7d2ec871f1cca22f1226aee7c9a97aced9c567086ab0eb4d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "ex-vivo-cell-expansion",
+      "route": "/terms/ex-vivo-cell-expansion/",
+      "asOf": "2026-11-09",
+      "bytes": 26290,
+      "sha256": "975230f27ea3d1318a634c9395012fbb0c37cd6b7e4332c0dc24349ad2aec205",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "route": "/terms/cell-manufacturing-outcomes/",
+      "asOf": "2026-11-09",
+      "bytes": 30472,
+      "sha256": "98013e16a199ffd92744410a0fd23f52222d1d7553d038cd7d1f88aaacb93f72",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "additionalSectionCounts": {
+    "tnbcSections": 6,
+    "subtypeSections": 6
+  },
+  "changedOwnersInThisCheckpoint": [
+    "allogeneic-cell-therapy",
+    "apheresis",
+    "cell-therapy-cold-chain",
+    "cell-therapy-orchestration-software",
+    "car-t-manufacturing-process",
+    "in-vivo-car-t",
+    "chain-of-identity-and-custody",
+    "ex-vivo-cell-expansion",
+    "cell-manufacturing-outcomes"
+  ],
+  "directoryConsumerPreviouslyVerified": 1,
+  "readerSummaryConsumers": {
+    "proposal375": {
+      "selectedEntries": 54,
+      "available": 47,
+      "explicitEnglishFallbacks": 7
+    },
+    "draft373": {
+      "selectedEntries": 18,
+      "available": 18,
+      "head": "1329c14243c52b30fab3459bb0c68eadb63bdd8b"
+    },
+    "scope": "Actual dictionaries imported into snapshots; available text checked against authored intents. Prior draft consumer lookups additionally verified in its own worktree. Translations remain machine-assisted and unreviewed."
+  }
+}

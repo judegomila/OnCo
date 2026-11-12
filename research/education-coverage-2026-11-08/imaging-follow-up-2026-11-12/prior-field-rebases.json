@@ -1,0 +1,75 @@
+{
+  "reboundCurrentRootReferences": 0,
+  "separateFrozenPeerReferencesPreserved": 4,
+  "references": [
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+      "pointId": "dosimetry-scope",
+      "requirement": "Separate product-specific absorbed-dose evidence from mandatory serial individual dosimetry; preserve the 2023 guideline’s then-labeled setting and uncertainty about adaptation benefit.",
+      "index": 0,
+      "evidence": {
+        "recordId": "theranostics",
+        "version": "proposal-therapeutic",
+        "field": "notes",
+        "fieldSha256": "35c8ab6c5208c5d79c5098f4065ad0e823d95e047335bb9e2aa4d4c141c70112",
+        "explanation": "The 2023 guideline then-approved setting, fixed activities, non-mandatory individual dosimetry and uncertainty about adaptation benefit remain scoped."
+      },
+      "eligibleCurrentRootVersion": false,
+      "oldExcerptPreserved": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/local-treatment-modalities/index.md",
+      "pointId": "radiopharmaceutical-exposure",
+      "requirement": "Separate tracer uptake, biodistribution, absorbed radiation dose and normal-organ exposure for the actual product.",
+      "index": 1,
+      "evidence": {
+        "recordId": "radioligand-dosimetry",
+        "version": "proposal-therapeutic",
+        "field": "notes",
+        "fieldSha256": "468a5198fce07e24214825d01fb2b7869cb761f0ee24e28a9d7963ba61bb15ed",
+        "explanation": "Decay, clearance, daughters and microscopic heterogeneity limit inference; FDA nonclinical guidance is not a universal clinical protocol."
+      },
+      "eligibleCurrentRootVersion": false,
+      "oldExcerptPreserved": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/local-therapies/theranostics.md",
+      "pointId": "dosimetry-scope",
+      "requirement": "Separate product-specific absorbed-dose evidence from mandatory serial individual dosimetry; preserve the 2023 guideline’s then-labeled setting and uncertainty about adaptation benefit.",
+      "index": 0,
+      "evidence": {
+        "recordId": "theranostics",
+        "version": "proposal-therapeutic",
+        "field": "notes",
+        "fieldSha256": "35c8ab6c5208c5d79c5098f4065ad0e823d95e047335bb9e2aa4d4c141c70112",
+        "explanation": "The 2023 guideline then-approved setting, fixed activities, non-mandatory individual dosimetry and uncertainty about adaptation benefit remain scoped."
+      },
+      "eligibleCurrentRootVersion": false,
+      "oldExcerptPreserved": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/local-treatment-modalities/index.md",
+      "pointId": "radiopharmaceutical-exposure",
+      "requirement": "Separate tracer uptake, biodistribution, absorbed radiation dose and normal-organ exposure for the actual product.",
+      "index": 1,
+      "evidence": {
+        "recordId": "radioligand-dosimetry",
+        "version": "proposal-therapeutic",
+        "field": "notes",
+        "fieldSha256": "468a5198fce07e24214825d01fb2b7869cb761f0ee24e28a9d7963ba61bb15ed",
+        "explanation": "Decay, clearance, daughters and microscopic heterogeneity limit inference; FDA nonclinical guidance is not a universal clinical protocol."
+      },
+      "eligibleCurrentRootVersion": false,
+      "oldExcerptPreserved": true
+    }
+  ],
+  "scope": "No prior current-root field binding required replacement. Byte-matching frozen therapeutic-proposal versions remain distinct and unchanged; this cohort does not flatten them into the registered root."
+}

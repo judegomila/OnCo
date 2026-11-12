@@ -1,0 +1,86 @@
+[
+  {
+    "nctId": "NCT03734029",
+    "briefTitle": "Trastuzumab Deruxtecan (DS-8201a) Versus Investigator's Choice for HER2-low Breast Cancer That Has Spread or Cannot be Surgically Removed [DESTINY-Breast04]",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "enrollment": {
+      "count": 557,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression-free Survival (PFS) Based on Blinded Independent Central Review (BICR) in the Hormone Receptor-Positive Cohort in Participants With HER2-low Breast Cancer",
+        "description": "Progression-free survival (PFS), defined as at least a 20% increase in the sum of diameters of target lesions, was assessed from the date of randomization to the date of the first radiographic disease progression or death due to any cause, whichever came first. PFS was based on blinded independent central review (BICR) in the hormone receptor-positive cohort according to modified Response Evaluation Criteria in Solid Tumors (mRECIST) version 1.1. Median PFS was from Kaplan-Meier analysis. Confidence interval for median was computed using the Brookmeyer-Crowley method.",
+        "timeFrame": "From the date of randomization to the earliest date of the first objective documentation of radiographic disease progression or death due to any cause, up to approximately 3 years"
+      }
+    ],
+    "rawResponseFile": "registry/expression-linked-studies/page-0001.json",
+    "rawResponseSha256": "8496fcc8120af72b216b694535c9c4950cf03c34be344ab54fe4475b255676fd",
+    "scope": "Identity, design, arms and primary-outcome context read. Registry versions and glyphs retain their own definitions; no current site/cohort availability or treatment delivery inferred."
+  },
+  {
+    "nctId": "NCT02574455",
+    "briefTitle": "Trial of Sacituzumab Govitecan in Participants With Refractory/Relapsed Metastatic Triple-Negative Breast Cancer (TNBC)",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "enrollment": {
+      "count": 529,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression-Free Survival (PFS) by Independent Review Committee (IRC) Assessment in Brain Metastasis Negative (BM-ve) Population",
+        "description": "PFS was defined as the time from randomization until objective tumor progression by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 or death, whichever came first. The date of progression was date of the last observation or radiological assessment of target lesions that either showed a predefined increase (greater than or equal to \\[≥\\] 20%) in the sum of the target lesions or the appearance of new non-target lesions. PFS was estimated using Kaplan-Meier estimate.",
+        "timeFrame": "From randomization until objective tumor progression or death (assessed every 6 weeks for 9 months and then every 9 weeks thereafter until the occurrence of progression of disease; maximum exposure: 29.6 months)"
+      }
+    ],
+    "rawResponseFile": "registry/expression-linked-studies/page-0001.json",
+    "rawResponseSha256": "8496fcc8120af72b216b694535c9c4950cf03c34be344ab54fe4475b255676fd",
+    "scope": "Identity, design, arms and primary-outcome context read. Registry versions and glyphs retain their own definitions; no current site/cohort availability or treatment delivery inferred."
+  },
+  {
+    "nctId": "NCT04494425",
+    "briefTitle": "Study of Trastuzumab Deruxtecan (T-DXd) vs Investigator's Choice Chemotherapy in HER2-low, Hormone Receptor Positive, Metastatic Breast Cancer",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "interventionModel": "PARALLEL",
+    "enrollment": {
+      "count": 866,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression-Free Survival (PFS) Assessed by Blinded Independent Central Review (BICR) in the Hormone Receptor-Positive (HR+), Human Epidermal Growth Factor Receptor 2 (HER2)-Low Population",
+        "description": "PFS per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST 1.1) assessed by BICR was defined as the time from the date of randomization until the date of PD, as defined or death (by any cause in the absence of progression) regardless of whether the participant withdrew from randomized therapy or received another anticancer therapy prior to progression. PD was defined as at least a 20% increase in the sum of diameters of target lesions (TLs), taking as reference the smallest previous sum of diameters (nadir), this included the baseline sum if that was the smallest on study. In addition to the relative increase of 20%, the sum must demonstrate an absolute increase of at least 5 millimeter (mm) from nadir. Median PFS was calculated using Kaplan-Meier method and its confidence interval (CI) using Brookmeyer-Crowley method.",
+        "timeFrame": "Response evaluations performed at screening, every 6 weeks (q6w) ± 1 week from randomization for 48 weeks, and then every 9 weeks (q9w) ± 1 week, starting at Week 48 until PD, up to PCD of 18 March 2024 (maximum of approximately 43.85 months)"
+      }
+    ],
+    "rawResponseFile": "registry/expression-linked-studies/page-0001.json",
+    "rawResponseSha256": "8496fcc8120af72b216b694535c9c4950cf03c34be344ab54fe4475b255676fd",
+    "scope": "Identity, design, arms and primary-outcome context read. Registry versions and glyphs retain their own definitions; no current site/cohort availability or treatment delivery inferred."
+  },
+  {
+    "nctId": "NCT04132960",
+    "briefTitle": "Study of DS-8201a, an Antibody Drug Conjugate for Advanced Breast Cancer Patients, With Biomarkers Analysis",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "NA",
+    "interventionModel": "SINGLE_GROUP",
+    "enrollment": {
+      "count": 186,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Antitumor activity of DS-8201a in the 3 cohorts of patients",
+        "description": "The primary endpoint is antitumor activity of DS-8201a carried out by the determination of the confirmed best objective response (BOR) rate in each cohort. The BOR is defined as the presence of a confirmed partial or complete response observed on treatment, as assessed by investigators.",
+        "timeFrame": "12 months"
+      }
+    ],
+    "rawResponseFile": "registry/expression-linked-studies/page-0001.json",
+    "rawResponseSha256": "8496fcc8120af72b216b694535c9c4950cf03c34be344ab54fe4475b255676fd",
+    "scope": "Identity, design, arms and primary-outcome context read. Registry versions and glyphs retain their own definitions; no current site/cohort availability or treatment delivery inferred."
+  }
+]

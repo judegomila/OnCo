@@ -1,0 +1,125 @@
+[
+  {
+    "nct": "NCT01592825",
+    "briefTitle": "PiA: Prognosis Used Every Day for Patients With Operable Breast Cancer - Comparison of Invasion Factors uPA/PAI-1 With Other Prognostic Factors",
+    "captureFile": "registry-NCT01592825.json",
+    "overallStatus": "UNKNOWN",
+    "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+    "lastUpdate": {
+      "date": "2017-06-26",
+      "type": "ACTUAL"
+    },
+    "design": {
+      "studyType": "OBSERVATIONAL",
+      "designInfo": {
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE"
+      },
+      "bioSpec": {
+        "retention": "SAMPLES_WITH_DNA",
+        "description": "Tumor specimen frozen Tumor specimen formalin fixed"
+      },
+      "enrollmentInfo": {
+        "count": 1000,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false,
+    "scope": "Identity/design captured independently for a semantic-discovery identifier. Current availability is not inferred from a stale last-known status."
+  },
+  {
+    "nct": "NCT01642771",
+    "briefTitle": "Comparative Study on Two Post-operative Adjuvant Chemotherapy Regimens for Treating Triple-negative Breast Cancer",
+    "captureFile": "registry-NCT01642771.json",
+    "overallStatus": "UNKNOWN",
+    "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+    "lastUpdate": {
+      "date": "2017-04-19",
+      "type": "ACTUAL"
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 636,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false,
+    "scope": "Identity/design captured independently for a semantic-discovery identifier. Current availability is not inferred from a stale last-known status."
+  },
+  {
+    "nct": "NCT03805399",
+    "briefTitle": "FUSCC Refractory TNBC Umbrella (FUTURE)",
+    "captureFile": "registry-NCT03805399.json",
+    "overallStatus": "UNKNOWN",
+    "lastKnownStatus": "RECRUITING",
+    "lastUpdate": {
+      "date": "2022-08-10",
+      "type": "ACTUAL"
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The refractory mTNBC participants will be classified into four subtypes based on immunohistochemistry tests namely luminal androgen receptor (LAR), immunomodulatory (IM), basal-like immune suppressed (BLIS), and mesenchymal (MES).Then according to gene sequencing outcomes, different subtypes would receive different targeted therapy (combined with chemotherapy in three treatment arms).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 140,
+        "type": "ESTIMATED"
+      }
+    },
+    "hasResults": false,
+    "scope": "Identity/design captured independently for a semantic-discovery identifier. Current availability is not inferred from a stale last-known status."
+  },
+  {
+    "nct": "NCT04395989",
+    "briefTitle": "An Umbrella Trial Based on Molecular Pathway for Patients With Metastatic TNBC.",
+    "captureFile": "registry-NCT04395989.json",
+    "overallStatus": "UNKNOWN",
+    "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+    "lastUpdate": {
+      "date": "2023-12-22",
+      "type": "ACTUAL"
+    },
+    "design": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 139,
+        "type": "ACTUAL"
+      }
+    },
+    "hasResults": false,
+    "scope": "Identity/design captured independently for a semantic-discovery identifier. Current availability is not inferred from a stale last-known status."
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "checkedOn": "2026-11-09",
+  "scope": "All 21 resolved MED abstracts read; selected full-text/regulatory passages below. No full review of every manuscript or source number elsewhere in a retained owner is claimed.",
+  "items": [
+    {
+      "sources": [
+        "PMID 21633166, Lehmann 2011",
+        "PMID 27310713, Lehmann 2016",
+        "PMID 22872785, Chen 2012"
+      ],
+      "urls": [
+        "https://www.jci.org/articles/view/45014",
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157368",
+        "https://pubmed.ncbi.nlm.nih.gov/22872785/"
+      ],
+      "review": "Complete resolved abstracts; selected original HTML programme, model, tissue-attribution, microdissection and refinement passages in the first two papers. IM/MSL reassignment is by second-highest correlated centroid. No universal MSL-to-M mapping, functional HRD, drug dependency or clinical benefit follows from an expression label."
+    },
+    {
+      "sources": [
+        "PMID 10963602, Perou 2000",
+        "PMID 19204204, Parker 2009",
+        "PMID 23035882, Bastien 2012",
+        "PMID 21718502, Elloumi 2011"
+      ],
+      "review": "Complete resolved abstracts. Elloumi raw XML identity verified and selected paired-tissue results/figure-caption labels checked against the primary page. Classifier/risk output, incomplete receptor concordance and normal-admixture bias remain distinct. Parker full-text XML returned 500 and its web page a challenge; no Parker full-text review is claimed."
+    },
+    {
+      "sources": [
+        "PMID 23948975, Masuda 2013",
+        "PMID 30335131, Loibl 2018",
+        "PMID 23663520, Lehmann-Che 2013",
+        "PMID 20813035, Prat 2010",
+        "PMID 32286297, Fougner 2020",
+        "PMID 25208879, Burstein 2015"
+      ],
+      "review": "Complete resolved abstracts used at the stated cohort/analysis scope. Masuda has 146 profiled cases/130 with treated evaluable response; GeparSixto HRD measured in 193/315, with definition and non-significant treatment interaction retained. Molecular apocrine, claudin-low and independent Burstein labels are not invented children of a Lehmann profile."
+    },
+    {
+      "sources": [
+        "PMID 32406563, Zhao 2020",
+        "PMID 38211606, Fan 2024",
+        "NCT04395989"
+      ],
+      "review": "Complete resolved abstracts and selected registry design/arms/endpoint/status modules. Fudan research IHC proxy and genomic cohorts are distinct from Lehmann or PAM50. The pooled randomised phase 2 package keeps population, comparator, cutoff, CI and harms. The first display of the raw MED text was re-read without tag-stripping to preserve p<0.0001 and the complete safety paragraph. The primary result is not a phase 3 OS or every-component claim."
+    },
+    {
+      "sources": [
+        "DOI 10.1200/JCO.2023.41.16_suppl.3011",
+        "DOI 10.1016/S1470-2045(23)00579-X"
+      ],
+      "review": "Earlier conference and full 2024 analyses have different follow-up, HR and safety descriptions. Conference HR 0.38 is not substituted for the 2024 HR 0.44, and their safety analyses are not merged. No explanation for their differences is invented."
+    },
+    {
+      "sources": [
+        "FDA K130010/openFDA identity",
+        "NICE HTG719 recommendations 1.1-1.7 and test description 2.23-2.25"
+      ],
+      "urls": [
+        "https://api.fda.gov/device/510k.json?search=k_number%3A%22K130010%22",
+        "https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf",
+        "https://www.nice.org.uk/guidance/htg719/chapter/1-Recommendations",
+        "https://www.nice.org.uk/guidance/htg719/chapter/2-The-diagnostic-tests"
+      ],
+      "review": "Exact raw openFDA identity verifies 6 September 2013 clearance. Selected original FDA decision PDF text is available through the primary parser; three direct PDF requests returned 404 and are not raw PDF captures. The NICE raw pages were read directly despite a separate web-parser 403. U.S. reporting/intended use, CE-marked product description and NHS conditions are different scopes; an original CE-marking year was not established. Low risk is not a direct chemotherapy-benefit estimate."
+    },
+    {
+      "sources": [
+        "Earlier PMID 23965901 and 29373071 captures in response-endpoints-2026-11-09"
+      ],
+      "review": "Already resolved/read same-day primary abstracts reused for the AR-IHC-versus-RNA-LAR and study-specific CBR/population boundary. No fresh retrieval or new outcome extraction is claimed."
+    }
+  ],
+  "discoveryScreeningDepth": {
+    "subtype-classifier-validation": "Ranks 1-5 and 7: complete resolved MED abstracts; rank 2 also selected original full-text passages. Ranks 6 and 8: Crossref identity and available complete conference abstract.",
+    "subtype-prospective-strategies": "Ranks 2,3,7,8: complete resolved MED abstracts. Ranks 1,4,5: Crossref identities and available complete conference abstracts. Rank 6: identity/title metadata only; no returned abstract."
+  },
+  "rawBodies": "Persistent local cache outside Git; public files retain metadata and hashes only."
+}

@@ -1,0 +1,7 @@
+{
+  "reason": "Separate the semantic learning requirements from the worker packet's historical source-access statuses, now resolved by explicitly bounded coordinator reads. Original worker packet is preserved.",
+  "requirements": {
+    "oxidative-phosphorylation-gradient": "Distinguish electron transport, proton pumping from the mitochondrial matrix to the intermembrane space, return through ATP synthase and leak. Treat the foundational reconstitution as a named artificial-vesicle coupling experiment, with its own orientation, rather than a universal cellular orientation or fixed proton-to-ATP ratio.",
+    "oxidative-phosphorylation-method-version": "Extracellular acidification includes respiratory carbon dioxide as well as glycolytic acid production. Quantitative glycolytic or ATP-rate calculations need appropriate corrections and an identified method version; the contents of the published correction must be checked before adopting a corrected formula or conversion ratio."
+  }
+}

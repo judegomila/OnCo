@@ -1,0 +1,4489 @@
+{
+  "sourceVersions": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+      "lesson": "affinity-epitope-and-developability",
+      "sourceSha256": "4ff78d5a39741c21e1de951289f868ebfc56f765ca798d9f3f12581f94259acf",
+      "gitBlob": "641655971d7f83fae2369f3cb1002fb2870be7bc",
+      "bytes": 9245,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0e2d4fb0b233cb506bffa648fd6245c73f8d19a6ec274680371ae2feb4227fc1",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "145ed16698ec6b25d093ffa5977b7b36fa5c788cc8f67ebf00b54f22725b4126",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c19dcf67868495f87c9a7bcd1c0563ab13e6137604dd0f0aa4d915b60c32ff00",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "49ecca25179fe8a2f46673930980160e1bdfce8df6e84f63f09e70749af102c8",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "16510db7f3237023ff21799b01c879c4935398fd5cf55e1c7e2271e12ab96ce9",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d7c5c4fb8c4d8b9004df192d3907b147ae25f27df85272ba50a0e8c88f6499c9",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "89998b3050eb3a55099f1b8d16f68dc4966f6936ff0b837199372b0eeeb2af72",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f6d1e9ff0bd03ca49f4a6d6ee80e70abb017930668511b2ef9f44325ba8d7af1",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c5f9cc0ff7e9c2c26492885a97e24305a5b982daff34924422dd27a2a798431b",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dfe92cd886b6dd69fd860b41d2e8d348c0134178b002d748c955d2f44ddfb663",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e4b5bbe2d34753b49fcd1e8d00f75cbc014d7f9e6cb59427101f6717dc62ed61",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md",
+      "lesson": "binder-as-a-targeting-module",
+      "sourceSha256": "6001b03705aabf3319d65dcf8aed174f0901ca2db7a86c54fed0b82137813e7b",
+      "gitBlob": "a0bc1458b0235f69802fc9a487b74d140c655bb4",
+      "bytes": 8213,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "782c26a27652a65ff0e1bbc2ff0da8cd65ef92926d04a4715ca3530cfedb284c",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "502140cb908a6e2dffdbeb84fb787274fec8810151f987e6b515e23439357ac3",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b4b4e793b85d177a8b7281743f6970ecf32ed8cc9315c8e9b490723ed6b6eace",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a63ff64d42897e2497b597a949334b368b88844c1f86bfb9d85b8f427682b0ad",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "be3c4a7fe8caea805b7cab63463b9dd47ce875221f0f5d81bb38332a3ede58f0",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "113540018a7a6a84e2a65f2c9c5d6fb892bff64ee1b44a289c0d0453759d2327",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7a9358a51e41a87037598532ff082e71e08cff32cff8d56f7c8735a590de3649",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "7f8438e5d255791848a5852d847a8f42a78ca437f2b146a740887f2c63ab2613",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41ac6f8279acd9c571627f145dd261716b2e0f55c5e0c42a30638116f011449",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "3138756acdd696a0a9142e0ef881a3bcdc60ca330cc2135b81495a49bd1fd80b",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "7b9897ced9ed84e93065f155c94e0caef7f82dbe9ef5bbd1bef5c86b2501f6ed",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery.md",
+      "lesson": "binder-discovery",
+      "sourceSha256": "32a6aa871e656716d03f855e75579cc898825a18ccab70a9d0a56d87f6b9cf49",
+      "gitBlob": "0b7a4d569be7c1fe04acffb82c6a938bfa71691d",
+      "bytes": 8764,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "4fd4f54639d65fb8cb22dcfb6f808f93789e425a047feaebfef93d72dfddb9be",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "954c944f703e17f4b9f3907639482ab62c10e44d7e1e1d48490211859a42f8f5",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "63e06fe13c5c9d3a140dd6dabb074a3ed2f58331d3b1efac9c180c8564d0702f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cee17b49990d0661fa4a6af2d3fdee8faff0b1a25dbc960dc9f2068ddde0d93d",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7d94a97ae4aafce6d306d982944b0a9cc4c2f39b1e4f4cc5a33dca24a8c04208",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c0a08cad9e331843e8790a41b9207f9a9875103624bfaf2ca95a2a669a42baca",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cfd41138d3adc0f1f9a5c3403044b2b2a7ceed02337c2669a372409dfe41521d",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1e67df8d777f5914c904aa4377ca17a01f5a1e9131faec438178cb7aac041745",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bda063848ac884774a8882f0f88b3e49bc2528db1369fd5e982d70a68689b2b8",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ffd0623e6b52eb865c9d489436143f95f6cace3c25a05aaeb66b96313c56b977",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "2e2a05128284a3757ea3337ced04d4de09f71aca29900e24bddd68ca6bdda770",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+      "lesson": "format-constraints-on-binders",
+      "sourceSha256": "2d51bc89926533de2f3a70c6091820b580eb14684551e803926cd5d8490db874",
+      "gitBlob": "66f18d457225e91ef7a97e4de5fc9ead84ef9e7a",
+      "bytes": 8723,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a14ac4cfbc930289326b07849ec0f9dcd5181e08ee620d224cb7b4f01ba03601",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f15bb52249bf0f840387be71c605a9b93fe363d9526348a93f11710cf6f0fe6c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b8343508919cb122f4fb59411ad311a5010159f2b3a75b9ea95a6b84a7bef6f1",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3ee25a3f488a20797ee903488ad3b11e70fb5b3202033aca07716dc8f18f9a4e",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e95b9de97a5a1eecd50b74f84ab0ae204f5a1a1bb9464d0ee6048f93fa8006d9",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "688a8f8b6f0ac5cc25cc0c4eab4db9390e66520b214a985c757b17b8f7bb55f4",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c03a639330d2117e66b46881a7c670ac9512e844ed0ab116dfcf0efe713500c7",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "095d4f11fdf5540bb9a66fc63f3b166ec15d316ae1098a6f56643149260631e4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd7988d7f8195fd9ecc2ae6966abd7ede57e75fe559347da28b0686b48ed5d87",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "36f68045c71575842b2806eece920ba2edc071ba0351c4662ae4af67eaf47c7d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "7e1b6045a2404f954bf64ef2e5bad46a18ec1cf16cb02be7c72404d59def9710",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "lesson": "scfv-and-vhh-nanobodies",
+      "sourceSha256": "37f3ddf4fe8c26d6b87f10c084de88355e19e7e575d0d5966cc27742caa10af9",
+      "gitBlob": "1556b70fd1d6e5f2c070296ef173172759a153e4",
+      "bytes": 9954,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9fe8bb8c3c321e456ee3bbf5c8900c073eb9decdd2db676823916c47622fe6dd",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7736ee76f7c9bd7283832c98c882e84b7c3edc23a615863879b3c1c7f99c6a65",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "72a414417c9a65ec1aa6a154de9b2dae17a77ca9f8509eab2e9bca0cfe551e7d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "be143027aa1f61d0a0f4b35f69ab854e045240cf3bb7b4de2038b72d3c57edff",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "bee94cf320037783b5bf8043d1e77f31ad54b9f3f119fc71faad43811f1d5e92",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "79133afb4c6e9ab221b6346e2fe7d8f724d5c0882963ec862ce6d81284080398",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d1b3cdcd9c1cde6312278dc310eeacb553fb96cdc2ecd23bed9bab4c96ed1098",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4fc916045be98dab84c82d761901b1e9e4adf7929c917ed1d876bbefdf0e4f49",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "becdbb91ab5ee50c161f5bbefd4df34548b642651b4bf744fee2376990060eee",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "cf9ca092373e2f34ee94ec32aaf7dfe63a001d16b645a822700ea2b0c9251b6d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "12bdfbdf31cf43dffd6e66db94bffe51048d8c21d23b8c4aa6e696611a24da42",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release.md",
+      "lesson": "batch-release",
+      "sourceSha256": "fc202f0f87452a3a9976884f6384281f4947d8798557ddfb2d2bc89d64dbf8d8",
+      "gitBlob": "ec192526626d29c7592cddf39249472d5e3eefa1",
+      "bytes": 7808,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3c4e72b083baf52886d4bc0bb15b5d617d5fb1a8664700c7a90e4708c657aa95",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ccf1492e7730329d93c7e98bd6fd59fac8a3080464b07e187fc03ac4a4d0eaa4",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "69330d404b3e51c59de1e377d33342036a94002fcf44d267c2be3edac4c6707d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0dae25b4ed7e34bd77e502b5fa4642b1c40efd21ff986777a31f1803a545f921",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c4c1a96c865b7fdd0936d5d8256687359e5ffdfbb3ebfb12120d1b3029293d17",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c006abd1c387d0fb895f96a0cd412342b1f4d4a5a94e8ef48d59821c3fcff543",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "a81ad1457cd8b1352c8a1111a90df2c53b39f44549ce2bacb460a399121103ec",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ccf330a2085069e0a5fc8ea1886f9339249911b80e5d498ec22f35db96bff5d4",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "fdd83cf5fe3109dd2134afd67988c4b668b4359cd5bd6e79dea21226320c30db",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4b4730ee48a3c0b458b70ac7152ec8e03a50ba34aa6f659a752b345fd5205767",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db60bddb81ada31f6ee037a51dd05c6a426a36226ec910cd7c286d53d4ea88fa",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/cdmo-role.md",
+      "lesson": "cdmo-role",
+      "sourceSha256": "432f79a69b1c707d34ef2235df2b2fff1bd4a84be920c4e86bad78e5ddcd17a7",
+      "gitBlob": "e8ba52f35de94e3a10833e7865135a69747a40b4",
+      "bytes": 6517,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9154419753802e9ab8d7d6267e75a06085a6f52aceb0572f3f335c8e75dac5a1",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "473a6369c29bdf8e6fb494ec6009f4879b5ba1cc90b711c03769d193ec3b5c3a",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b46ee9ef26093efe0496825596e28d68f9cf24debaa6cb6cc47f90f588780c83",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f5c9fbb335de30ab313922968d3cc62efb4d2e49700eab0349b6b8ca2ce39303",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8bc9ee3d8b51c12fb9bca9d3b4991c7c33d62855496403eba564ec1a5e841c83",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "eae698a49174eb59974879ddcf52a49b144678ab7efbadfa9dbfef03786dde00",
+          "heading": "How the role is checked",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "dae5da4245c3a52d97cc1214e5de9aee17c02ad09eecd5f3ff2104662fe52f68",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360b87e2de5a8ccf52a51d8f38c653f66e39f7c15890eeaa007df33a3bd715a3",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c6c47d539635b8ff3cc908e4291979b1281e08ed55e8aa7a61ed00abad05d1bb",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "c2b83a17f5c496d65c31a211cb10b7a1a89852759ca17f9a557c0822e6693594",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md",
+      "lesson": "certificate-of-analysis",
+      "sourceSha256": "1216a5c970dcbaeea254e01cb85802081071346f3f4737114b9d4698a263f8f2",
+      "gitBlob": "41e2fee73b25c5442b6ff7553dc557dcbd073670",
+      "bytes": 7015,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c82e5b273677c563353d65b6afbd0908cb49e6a981c53bf5ffa4730b20c0f8a7",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1c778a206ecca28b93b3a97b90775c6663d30863e19b81dc27eaafebe6007ef9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fea796822c2640c56e7ab7015b3435d23d3ba1254336951a807ae4d15d73f6cc",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "89040e122d11eedc357c0f035603139b69c8c1283e2bbb9dd6ddb95227f2ecc4",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a55d139f903579f8cc5e4f40bb7aaa3075a96e744c3d5e089e0809b1ed037efb",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "a8babb1f92bebf2502b296bfe947a3917e60c5256aacb2f95f38d8119608dacc",
+          "heading": "How to read the fields",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "27693eef75cc9cae2cd98d6d37de922abacbb968d4cdd72b4a540227869ea6cd",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9a3e40abefd0c22f2b885ba199d0e5f34c5cfccd76df57ad4343740546a6c8b1",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "776b0127980d5d775e6eea142ae6a01d18cc87ba81c4a15e6a96b8decddaa4f6",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "361987365207c67303554cc4e1c3596252a9f878a753edab49846799c0f3726a",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "075bf577c07126b03577aef756b72c5f23e37324916f03972f13265c33bb522b",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md",
+      "lesson": "chemistry-manufacturing-and-controls",
+      "sourceSha256": "597266b8cb269fe5a3c048331ba8745ac6db5b4e99dd5189f36f1f0c4728667e",
+      "gitBlob": "55409ec9f099cc36bc78e1d9dcc49b05af04a82c",
+      "bytes": 7091,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42d66bf49d5d621d8ac9f6d22446f89c891b89abaa4fae11d9183f0605bee028",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "bec14768a65c7ea1e9513b2e9732f2fee0defa9c50a9fc175ecdf4e50cc2ee47",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "afcf540e376d5897a4970e10c01f49a65d2e187625dce7547a991e77827d352c",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "01bcec9a394681d1d8e79e76d70b986f311897a1b5912f044101eee94cb0c901",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d263d6e055b7ca4a4a70853b21a198fc661f8d530cebc72a401b7d91e00ac07e",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "6208d0505797ba35650345aafb72f5b2392e285ade524043afbe642831126519",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "48d4abfa240df0cc538949a4cf60df48db1af4882150363c946517fcab9ac81f",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "91db1885aa2614645067495a5a2688bc41ddf50117268cf0a646b58de21a55d0",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bda9161bd34ffbfe14328e297797220dba784cf162089965bf06db16097493ea",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e57930c2ebb8b5b740cf3c175f6673c77943515776ec9c538568d53fcf82d9a0",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "d190f7b8a6d5dcc1504e25fbe6927aba8b4675ca55a385597cb0789f952e17c9",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release.md",
+      "lesson": "gmp-and-batch-release",
+      "sourceSha256": "dd6fa5cdfad96e6ce8e0b603e502943fcc97d064082f04d69b54d4e9366442d8",
+      "gitBlob": "7e8fe59a9a658555b72a5c8365336125b40fb904",
+      "bytes": 7441,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "46ba582f7f60c96dfc33fe1314d03e97c95b7317f5e3d088f8ddac3df2f06a17",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "101507f213288ddcb8c7ac273df20a9d51d61d9c8062939847f8c06ac30b84c9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bc2c88d17c18fc138382f201ffd22558ef3673cec7c79367b0d645daf1b2f4c0",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "33f15eda2dce2a794550382f3d4ade2ea0ba14b82bc2d722ce607793116794d2",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d57d980d545a7e6a7f75e7a39768a6257e2055b75bf0b4a6a3e564ec609ae94e",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "50b12294a380e969a8364253600e43cef9868cbc47317a9985fbbd848e0dd6d6",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "cc28237b7bc00d2517540b9034e3f8a846f08b578f8604a3021d86c6b0025bbd",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52c7c3ca1e6e02ce471b37b4d34b0346df1b60b95005f3afe6fd06af147d3c9e",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0551fb5983f34cf33e59a7e291dc03cb50bd871a56ff1585012e6cff0d4c2feb",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "22a6d9376ba6f9a9b14050a5932df7c212101031de658afec56e6e64a94df581",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "1122ac9fee77a4df031255393c4a5b701716ac94f038a060904aedc0327ce81d",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "lesson": "manufacturing-comparability",
+      "sourceSha256": "a67848c774ccac46b25cd41942d853d701ed52b8427674f647b6a55d7443a587",
+      "gitBlob": "bc7f3cb3453114c45cf9df5376b1496f32592a51",
+      "bytes": 8789,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a44bfc57a7e3e970a80e8aa06850de3a28f10b1987ee7220a7ee0ee88e4de95e",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6ec11b1b8cca9b0040ab38c816a2589402570fbfae718537a7a9b3f7f622e23c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0636b015c2a29d6940f5d5371641ff154d9590eb8dae814ff7d1a5452759c331",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "da577e619e5c4dcbc66ff980e230ce94e9ac184364bf78a636ba71e64bb13b7c",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f8a1c4c7a5af1ed04dc5bc986c2a9bc7926dc85e9397f814dbbbd646895d2daa",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0fd96973b365e90a5ed5da53b199e7d68781c6b05b390697cd718c0005fcb878",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "0c7e81f849a7d1611b06a20e2273212726d20e3ee39c79f29b326c9dc2c17171",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "dbeefd2afbe996cf2369a28969fa69697b804a65a16e3b4bc7f0424f263de335",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0f9d4da29497592b8a15fb266ae0203146aca09db98434985af03cd47d30106a",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "fcddd95efaf4347d39e6a538393f3d985d165cb5592e3a746701eb7c9137e619",
+          "heading": "Related concepts",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "6ae195c65ab4d2611a31490b4f74878208f8247c28f0c998322d1eaaff2170bb",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+      "lesson": "peptide-synthesis-spps",
+      "sourceSha256": "7f793a2df861800660217e4c31cfa08307d43ae2cb745381ea41adca9923a83f",
+      "gitBlob": "5f3003b1779dbd6c2ca4db742a1a7b24f2105cda",
+      "bytes": 7453,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2445fd0ccd8eae4a28d0e3360637f69b47580a1b3035c9bfd6288c202c24d527",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "25a0081b6523dc9c33e92d298951e5b908c1484a6d290f0057f40f28e2127058",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b89c2f1267cbf8f4f58fa965586e7f51ea6f551590e6abe6c274e03e17d2697f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "47527313d72877fd92d0209be6c803c780e9390c28ccf7b8c795ca7709ac4cbf",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "dc0bbbc3743a521414f4369e759ec22ca0ddf7c5d082ee22d753a56e48fa488b",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "105b0a6096f29ba96686427d5f6740a385dabe3250467086907271eb919a213c",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "afc78a32087f460ca01c3ad935f0dc2f142ceac35dd65da4046409c0b84e3167",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7b7f9f00c4535e7f1c7f0767690fc01f36cb7d9bbb8e994a56a933cfecd87f6d",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e9c8b58c7d0a7005d324ebdf6ba30dbf3b536ea1bf4ededf11a17dfbc16736c",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "bd800c57db1fccec7a3f16ff454fcab159f7b2fa581c9330d1a2fbed2b56aab9",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components.md",
+      "lesson": "platform-vs-personalized-components",
+      "sourceSha256": "dab44cfb73796a13ad11d244d2f1dfd964dd485b0d40989aa41bf0745fb4dc12",
+      "gitBlob": "34d7491962fb1e43bfb0fc7ad1521f517f5420db",
+      "bytes": 8652,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "db345c19fca4f761de5710fe79f3d35317bde3dd55ddd27ddedaecef4afb0557",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0a7e3727c8048bcf4dc60ddf951f588894cf2acb40056e80e0d40df26dc7105e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9e7490b41ad2d9c017b0acb9e141077a544ab92b2fd06b61e36f802ab2bf9b8a",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "bbcda5599665acd8e151f173adf54d0f4326a7742c96c64b76feffde2ab62f7e",
+          "heading": "What they share",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b88995ee031d1142b7ca4713c3efd9f99881b4d5fa9fcf4736b966a692e28612",
+          "heading": "The axis that differs",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "bbcd22ac3a22c2bf65e55d6955975c858fbdf09b2a69b9888f7f2f378188c83c",
+          "heading": "How this works in cancer products",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "66be3c9328428577eb273c1e017cbb04d6568aed705807006e1d0a306f97ebff",
+          "heading": "When each is useful",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "cb50c4107923fe5d6414ac11cf53ec0285d5c17fd25a48a96a7a9cfd60062925",
+          "heading": "How the distinction is checked",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8113f415f95b59b07cd1b7654d094890d2298cecf3a4c14a087387cd9dd862fc",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "417bf6b2dbee1ef1619de1cc57b068b1340bcb23b19b30303f66162d0f95eeb1",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "36624214eee0e4bcf03f98c6f52ca022a485fa198bdbfea995d56dfcd22abfc6",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "a97b3bab89abc58655e4953e187b2a71af6bc28408d3498df78ee24f0a2fd2c5",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "9039689015d763141f746a5802cf770f124dc6c7f279fe87724930f7b73b47be",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "lesson": "potency-assays",
+      "sourceSha256": "290e7007e651c76397c8c1ac2a24d4013700cd89abfbf74f488d1bcaa072c0ff",
+      "gitBlob": "43c25b55e306be26f0dc9624a852b29a67854be7",
+      "bytes": 8429,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5fe2e056e6e24e5ce6c41b7e7f283eda2c913f46df70880e44fffb3bc680ede9",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6f014f14fdfee876711b8ef29fcff4e1d3dbae766c9bd6077fe2f9eb6e3684c9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c7d901ca6b9db62ad11e95da2180495eab2ea270653d00b7450f9afd1849be84",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e082977e2d7bfa8d008ef8fefd9d79d733488272823955e3db9e568781ccf815",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8cb1e97d86307a449777071df10534ae50737070520e8efb2b7255adc6d114a4",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b15a66c607aaf49bf25c1abaa2869e9a2eeb6c84f11d5dce2188000f7932533c",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "298d79a2cf233f79e01d3cae4f8f14500c2232e7f3efaf66b0d62967988399e0",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b4282b3e7511dad2cd1f3f4fcc021e310a25924d19148c28a65a0f08d98c25c3",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "75ebe512f2cc1897ee29eb61cbb0825ca41237bbe523477d9cbbb1419421f46f",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8c362f2826ff1ad4fa7e1d5cae1213b44498a1c02610eac1624cea1a4f4be880",
+          "heading": "Related concepts",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "44fba0dadf4375bf928cb1c9fef3e1887ed8149f5fd65c6e6d1cceb938bd28ac",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+      "lesson": "affinity-epitope-and-developability",
+      "sourceSha256": "4ff78d5a39741c21e1de951289f868ebfc56f765ca798d9f3f12581f94259acf",
+      "gitBlob": "641655971d7f83fae2369f3cb1002fb2870be7bc",
+      "bytes": 9245,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "0e2d4fb0b233cb506bffa648fd6245c73f8d19a6ec274680371ae2feb4227fc1",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "145ed16698ec6b25d093ffa5977b7b36fa5c788cc8f67ebf00b54f22725b4126",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c19dcf67868495f87c9a7bcd1c0563ab13e6137604dd0f0aa4d915b60c32ff00",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "49ecca25179fe8a2f46673930980160e1bdfce8df6e84f63f09e70749af102c8",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "16510db7f3237023ff21799b01c879c4935398fd5cf55e1c7e2271e12ab96ce9",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d7c5c4fb8c4d8b9004df192d3907b147ae25f27df85272ba50a0e8c88f6499c9",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "89998b3050eb3a55099f1b8d16f68dc4966f6936ff0b837199372b0eeeb2af72",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "f6d1e9ff0bd03ca49f4a6d6ee80e70abb017930668511b2ef9f44325ba8d7af1",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c5f9cc0ff7e9c2c26492885a97e24305a5b982daff34924422dd27a2a798431b",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dfe92cd886b6dd69fd860b41d2e8d348c0134178b002d748c955d2f44ddfb663",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "aff-1",
+            "aff-2",
+            "aff-3",
+            "aff-4",
+            "aff-5",
+            "aff-6",
+            "aff-7"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e4b5bbe2d34753b49fcd1e8d00f75cbc014d7f9e6cb59427101f6717dc62ed61",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md",
+      "lesson": "binder-as-a-targeting-module",
+      "sourceSha256": "fbd2fb6715ad8f1f2e37dabd04866a8ce1f5e733fd83b424c2854035dc17b524",
+      "gitBlob": "b0a77b2d89639050604b8a82b2d587ddf0702cb8",
+      "bytes": 8070,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "782c26a27652a65ff0e1bbc2ff0da8cd65ef92926d04a4715ca3530cfedb284c",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "502140cb908a6e2dffdbeb84fb787274fec8810151f987e6b515e23439357ac3",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b4b4e793b85d177a8b7281743f6970ecf32ed8cc9315c8e9b490723ed6b6eace",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a63ff64d42897e2497b597a949334b368b88844c1f86bfb9d85b8f427682b0ad",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "be3c4a7fe8caea805b7cab63463b9dd47ce875221f0f5d81bb38332a3ede58f0",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "113540018a7a6a84e2a65f2c9c5d6fb892bff64ee1b44a289c0d0453759d2327",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7a9358a51e41a87037598532ff082e71e08cff32cff8d56f7c8735a590de3649",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "7f8438e5d255791848a5852d847a8f42a78ca437f2b146a740887f2c63ab2613",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "a41ac6f8279acd9c571627f145dd261716b2e0f55c5e0c42a30638116f011449",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "3138756acdd696a0a9142e0ef881a3bcdc60ca330cc2135b81495a49bd1fd80b",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "tm-1",
+            "tm-2",
+            "tm-3",
+            "tm-4",
+            "tm-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "7b9897ced9ed84e93065f155c94e0caef7f82dbe9ef5bbd1bef5c86b2501f6ed",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-discovery.md",
+      "lesson": "binder-discovery",
+      "sourceSha256": "014f700a7bdfcbe786e524dd6fb76652dd0439796985f312c42ed80363b634d7",
+      "gitBlob": "1b5e8ac0939e73ae10e58a4083e5f368ec9a1b2a",
+      "bytes": 8621,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "4fd4f54639d65fb8cb22dcfb6f808f93789e425a047feaebfef93d72dfddb9be",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "954c944f703e17f4b9f3907639482ab62c10e44d7e1e1d48490211859a42f8f5",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "63e06fe13c5c9d3a140dd6dabb074a3ed2f58331d3b1efac9c180c8564d0702f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cee17b49990d0661fa4a6af2d3fdee8faff0b1a25dbc960dc9f2068ddde0d93d",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7d94a97ae4aafce6d306d982944b0a9cc4c2f39b1e4f4cc5a33dca24a8c04208",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c0a08cad9e331843e8790a41b9207f9a9875103624bfaf2ca95a2a669a42baca",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cfd41138d3adc0f1f9a5c3403044b2b2a7ceed02337c2669a372409dfe41521d",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1e67df8d777f5914c904aa4377ca17a01f5a1e9131faec438178cb7aac041745",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bda063848ac884774a8882f0f88b3e49bc2528db1369fd5e982d70a68689b2b8",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ffd0623e6b52eb865c9d489436143f95f6cace3c25a05aaeb66b96313c56b977",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "dis-1",
+            "dis-2",
+            "dis-3",
+            "dis-4",
+            "dis-5",
+            "dis-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "2e2a05128284a3757ea3337ced04d4de09f71aca29900e24bddd68ca6bdda770",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+      "lesson": "format-constraints-on-binders",
+      "sourceSha256": "e821beb8131f348da6231e6d5ebce8f27a16650325bf7073aa4966e8c5f026cd",
+      "gitBlob": "f3ee18d16d7422ea420ba91db78f0b9ad730551e",
+      "bytes": 8580,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a14ac4cfbc930289326b07849ec0f9dcd5181e08ee620d224cb7b4f01ba03601",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f15bb52249bf0f840387be71c605a9b93fe363d9526348a93f11710cf6f0fe6c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b8343508919cb122f4fb59411ad311a5010159f2b3a75b9ea95a6b84a7bef6f1",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3ee25a3f488a20797ee903488ad3b11e70fb5b3202033aca07716dc8f18f9a4e",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e95b9de97a5a1eecd50b74f84ab0ae204f5a1a1bb9464d0ee6048f93fa8006d9",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "688a8f8b6f0ac5cc25cc0c4eab4db9390e66520b214a985c757b17b8f7bb55f4",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c03a639330d2117e66b46881a7c670ac9512e844ed0ab116dfcf0efe713500c7",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "095d4f11fdf5540bb9a66fc63f3b166ec15d316ae1098a6f56643149260631e4",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bd7988d7f8195fd9ecc2ae6966abd7ede57e75fe559347da28b0686b48ed5d87",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "36f68045c71575842b2806eece920ba2edc071ba0351c4662ae4af67eaf47c7d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "fmt-1",
+            "fmt-2",
+            "fmt-3",
+            "fmt-4",
+            "fmt-5",
+            "fmt-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "7e1b6045a2404f954bf64ef2e5bad46a18ec1cf16cb02be7c72404d59def9710",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "lesson": "scfv-and-vhh-nanobodies",
+      "sourceSha256": "1d6750986f3cf89a4f9656d14e943ebb2458446fb91c64d2ce04883e3c6e9aa1",
+      "gitBlob": "7b2e04a8d478dd142151822e5710dcdccfa09cad",
+      "bytes": 9970,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9fe8bb8c3c321e456ee3bbf5c8900c073eb9decdd2db676823916c47622fe6dd",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7736ee76f7c9bd7283832c98c882e84b7c3edc23a615863879b3c1c7f99c6a65",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "72a414417c9a65ec1aa6a154de9b2dae17a77ca9f8509eab2e9bca0cfe551e7d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "709b50eca0ee2f269bba254ce4182114484174db3dd45a88be1635f92dc80904",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "bee94cf320037783b5bf8043d1e77f31ad54b9f3f119fc71faad43811f1d5e92",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "79133afb4c6e9ab221b6346e2fe7d8f724d5c0882963ec862ce6d81284080398",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d1b3cdcd9c1cde6312278dc310eeacb553fb96cdc2ecd23bed9bab4c96ed1098",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4fc916045be98dab84c82d761901b1e9e4adf7929c917ed1d876bbefdf0e4f49",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "becdbb91ab5ee50c161f5bbefd4df34548b642651b4bf744fee2376990060eee",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "cf9ca092373e2f34ee94ec32aaf7dfe63a001d16b645a822700ea2b0c9251b6d",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "scfv-1",
+            "scfv-2",
+            "scfv-3",
+            "scfv-4",
+            "scfv-5",
+            "scfv-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "12bdfbdf31cf43dffd6e66db94bffe51048d8c21d23b8c4aa6e696611a24da42",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/batch-release.md",
+      "lesson": "batch-release",
+      "sourceSha256": "cd1a8960ab5d51c08ffb225f06bde8d6bb5c93d7d76b56c7a622c3c1bd2d4407",
+      "gitBlob": "ff92ae46d8823010af0ccbfc5655cecc664d34f6",
+      "bytes": 7855,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3c4e72b083baf52886d4bc0bb15b5d617d5fb1a8664700c7a90e4708c657aa95",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "ccf1492e7730329d93c7e98bd6fd59fac8a3080464b07e187fc03ac4a4d0eaa4",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "69330d404b3e51c59de1e377d33342036a94002fcf44d267c2be3edac4c6707d",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0dae25b4ed7e34bd77e502b5fa4642b1c40efd21ff986777a31f1803a545f921",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c4c1a96c865b7fdd0936d5d8256687359e5ffdfbb3ebfb12120d1b3029293d17",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c006abd1c387d0fb895f96a0cd412342b1f4d4a5a94e8ef48d59821c3fcff543",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "a81ad1457cd8b1352c8a1111a90df2c53b39f44549ce2bacb460a399121103ec",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ccf330a2085069e0a5fc8ea1886f9339249911b80e5d498ec22f35db96bff5d4",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "fdd83cf5fe3109dd2134afd67988c4b668b4359cd5bd6e79dea21226320c30db",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4b4730ee48a3c0b458b70ac7152ec8e03a50ba34aa6f659a752b345fd5205767",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "br-1",
+            "br-2",
+            "br-3",
+            "br-4",
+            "br-5",
+            "br-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "db60bddb81ada31f6ee037a51dd05c6a426a36226ec910cd7c286d53d4ea88fa",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/cdmo-role.md",
+      "lesson": "cdmo-role",
+      "sourceSha256": "306dc766cacca6773760cb736a53e06cfd6b44e1e4df4ef9cca3a397c1a572d4",
+      "gitBlob": "ffd52a98964a0837a2c21a57b63e72652aa88b0c",
+      "bytes": 6525,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9154419753802e9ab8d7d6267e75a06085a6f52aceb0572f3f335c8e75dac5a1",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "473a6369c29bdf8e6fb494ec6009f4879b5ba1cc90b711c03769d193ec3b5c3a",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b46ee9ef26093efe0496825596e28d68f9cf24debaa6cb6cc47f90f588780c83",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f5c9fbb335de30ab313922968d3cc62efb4d2e49700eab0349b6b8ca2ce39303",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8bc9ee3d8b51c12fb9bca9d3b4991c7c33d62855496403eba564ec1a5e841c83",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "eae698a49174eb59974879ddcf52a49b144678ab7efbadfa9dbfef03786dde00",
+          "heading": "How the role is checked",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "dae5da4245c3a52d97cc1214e5de9aee17c02ad09eecd5f3ff2104662fe52f68",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "360b87e2de5a8ccf52a51d8f38c653f66e39f7c15890eeaa007df33a3bd715a3",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c6c47d539635b8ff3cc908e4291979b1281e08ed55e8aa7a61ed00abad05d1bb",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cdmo-1",
+            "cdmo-2",
+            "cdmo-3",
+            "cdmo-4",
+            "cdmo-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "c2b83a17f5c496d65c31a211cb10b7a1a89852759ca17f9a557c0822e6693594",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md",
+      "lesson": "certificate-of-analysis",
+      "sourceSha256": "95e3b22c2a3fbc6dbfb432b4d9d9136f88edd0cb97442e9f9c76ecd241d304a8",
+      "gitBlob": "a24ca79054ed35aa3a2d6c31ae5ef34c88a8b4ee",
+      "bytes": 7023,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c82e5b273677c563353d65b6afbd0908cb49e6a981c53bf5ffa4730b20c0f8a7",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1c778a206ecca28b93b3a97b90775c6663d30863e19b81dc27eaafebe6007ef9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "fea796822c2640c56e7ab7015b3435d23d3ba1254336951a807ae4d15d73f6cc",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "89040e122d11eedc357c0f035603139b69c8c1283e2bbb9dd6ddb95227f2ecc4",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a55d139f903579f8cc5e4f40bb7aaa3075a96e744c3d5e089e0809b1ed037efb",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "a8babb1f92bebf2502b296bfe947a3917e60c5256aacb2f95f38d8119608dacc",
+          "heading": "How to read the fields",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "27693eef75cc9cae2cd98d6d37de922abacbb968d4cdd72b4a540227869ea6cd",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9a3e40abefd0c22f2b885ba199d0e5f34c5cfccd76df57ad4343740546a6c8b1",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "776b0127980d5d775e6eea142ae6a01d18cc87ba81c4a15e6a96b8decddaa4f6",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "361987365207c67303554cc4e1c3596252a9f878a753edab49846799c0f3726a",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "coa-1",
+            "coa-2",
+            "coa-3",
+            "coa-4",
+            "coa-5",
+            "coa-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "075bf577c07126b03577aef756b72c5f23e37324916f03972f13265c33bb522b",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md",
+      "lesson": "chemistry-manufacturing-and-controls",
+      "sourceSha256": "63a36e9357a450818c40ee34fb3498496d62ecda13bb6a64d2dd8fba2a1c4744",
+      "gitBlob": "22b66b2fb3a214a2509bbcf72391025def3fdb49",
+      "bytes": 7099,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42d66bf49d5d621d8ac9f6d22446f89c891b89abaa4fae11d9183f0605bee028",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "bec14768a65c7ea1e9513b2e9732f2fee0defa9c50a9fc175ecdf4e50cc2ee47",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "afcf540e376d5897a4970e10c01f49a65d2e187625dce7547a991e77827d352c",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "01bcec9a394681d1d8e79e76d70b986f311897a1b5912f044101eee94cb0c901",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d263d6e055b7ca4a4a70853b21a198fc661f8d530cebc72a401b7d91e00ac07e",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "6208d0505797ba35650345aafb72f5b2392e285ade524043afbe642831126519",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "48d4abfa240df0cc538949a4cf60df48db1af4882150363c946517fcab9ac81f",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "91db1885aa2614645067495a5a2688bc41ddf50117268cf0a646b58de21a55d0",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "bda9161bd34ffbfe14328e297797220dba784cf162089965bf06db16097493ea",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "e57930c2ebb8b5b740cf3c175f6673c77943515776ec9c538568d53fcf82d9a0",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "cmc-1",
+            "cmc-2",
+            "cmc-3",
+            "cmc-4",
+            "cmc-5",
+            "cmc-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "d190f7b8a6d5dcc1504e25fbe6927aba8b4675ca55a385597cb0789f952e17c9",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/gmp-and-batch-release.md",
+      "lesson": "gmp-and-batch-release",
+      "sourceSha256": "04bff056d3aeb62a379586a23a35a1ef4041a38a828cfa826504082d04242774",
+      "gitBlob": "25d0911a7ab69758af0d0795f429f0cb4a0b6a97",
+      "bytes": 7473,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "46ba582f7f60c96dfc33fe1314d03e97c95b7317f5e3d088f8ddac3df2f06a17",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "101507f213288ddcb8c7ac273df20a9d51d61d9c8062939847f8c06ac30b84c9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bc2c88d17c18fc138382f201ffd22558ef3673cec7c79367b0d645daf1b2f4c0",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "33f15eda2dce2a794550382f3d4ade2ea0ba14b82bc2d722ce607793116794d2",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d57d980d545a7e6a7f75e7a39768a6257e2055b75bf0b4a6a3e564ec609ae94e",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "50b12294a380e969a8364253600e43cef9868cbc47317a9985fbbd848e0dd6d6",
+          "heading": "How it is assessed",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "cc28237b7bc00d2517540b9034e3f8a846f08b578f8604a3021d86c6b0025bbd",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52c7c3ca1e6e02ce471b37b4d34b0346df1b60b95005f3afe6fd06af147d3c9e",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0551fb5983f34cf33e59a7e291dc03cb50bd871a56ff1585012e6cff0d4c2feb",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "22a6d9376ba6f9a9b14050a5932df7c212101031de658afec56e6e64a94df581",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "gmp-1",
+            "gmp-2",
+            "gmp-3",
+            "gmp-4",
+            "gmp-5",
+            "gmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "1122ac9fee77a4df031255393c4a5b701716ac94f038a060904aedc0327ce81d",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "lesson": "manufacturing-comparability",
+      "sourceSha256": "a78466885d44f4975808919a2aafeeb14e6f97b318e8d25238492c85588c3933",
+      "gitBlob": "a757d11fdf8ad729f2ab1583329f15c22b2ba633",
+      "bytes": 8845,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "a44bfc57a7e3e970a80e8aa06850de3a28f10b1987ee7220a7ee0ee88e4de95e",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6ec11b1b8cca9b0040ab38c816a2589402570fbfae718537a7a9b3f7f622e23c",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0636b015c2a29d6940f5d5371641ff154d9590eb8dae814ff7d1a5452759c331",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "da577e619e5c4dcbc66ff980e230ce94e9ac184364bf78a636ba71e64bb13b7c",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "f8a1c4c7a5af1ed04dc5bc986c2a9bc7926dc85e9397f814dbbbd646895d2daa",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0fd96973b365e90a5ed5da53b199e7d68781c6b05b390697cd718c0005fcb878",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "0c7e81f849a7d1611b06a20e2273212726d20e3ee39c79f29b326c9dc2c17171",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "dbeefd2afbe996cf2369a28969fa69697b804a65a16e3b4bc7f0424f263de335",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "0f9d4da29497592b8a15fb266ae0203146aca09db98434985af03cd47d30106a",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "fcddd95efaf4347d39e6a538393f3d985d165cb5592e3a746701eb7c9137e619",
+          "heading": "Related concepts",
+          "learningRequirementIds": [
+            "cmp-1",
+            "cmp-2",
+            "cmp-3",
+            "cmp-4",
+            "cmp-5",
+            "cmp-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "6ae195c65ab4d2611a31490b4f74878208f8247c28f0c998322d1eaaff2170bb",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/peptide-synthesis-spps.md",
+      "lesson": "peptide-synthesis-spps",
+      "sourceSha256": "2d762767ef3d8707f33b49a9d7afc3de3edf87a60fb99f78a5b3f36c9f239c03",
+      "gitBlob": "a7cd680ac3e98862488e5ed835ad12c249009390",
+      "bytes": 7461,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "2445fd0ccd8eae4a28d0e3360637f69b47580a1b3035c9bfd6288c202c24d527",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "25a0081b6523dc9c33e92d298951e5b908c1484a6d290f0057f40f28e2127058",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b89c2f1267cbf8f4f58fa965586e7f51ea6f551590e6abe6c274e03e17d2697f",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "47527313d72877fd92d0209be6c803c780e9390c28ccf7b8c795ca7709ac4cbf",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "dc0bbbc3743a521414f4369e759ec22ca0ddf7c5d082ee22d753a56e48fa488b",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "105b0a6096f29ba96686427d5f6740a385dabe3250467086907271eb919a213c",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "afc78a32087f460ca01c3ad935f0dc2f142ceac35dd65da4046409c0b84e3167",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7b7f9f00c4535e7f1c7f0767690fc01f36cb7d9bbb8e994a56a933cfecd87f6d",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e9c8b58c7d0a7005d324ebdf6ba30dbf3b536ea1bf4ededf11a17dfbc16736c",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "spps-1",
+            "spps-2",
+            "spps-3",
+            "spps-4",
+            "spps-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "bd800c57db1fccec7a3f16ff454fcab159f7b2fa581c9330d1a2fbed2b56aab9",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/platform-vs-personalized-components.md",
+      "lesson": "platform-vs-personalized-components",
+      "sourceSha256": "db09593463dc56d480aa9adc8d6f4376f4a72cac809403d79445733b2ee363a1",
+      "gitBlob": "c7a540aa58cbb6375ea7e64803f691c6392ac3dc",
+      "bytes": 9197,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "db345c19fca4f761de5710fe79f3d35317bde3dd55ddd27ddedaecef4afb0557",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0a7e3727c8048bcf4dc60ddf951f588894cf2acb40056e80e0d40df26dc7105e",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9e7490b41ad2d9c017b0acb9e141077a544ab92b2fd06b61e36f802ab2bf9b8a",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "bbcda5599665acd8e151f173adf54d0f4326a7742c96c64b76feffde2ab62f7e",
+          "heading": "What they share",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b88995ee031d1142b7ca4713c3efd9f99881b4d5fa9fcf4736b966a692e28612",
+          "heading": "The axis that differs",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "bbcd22ac3a22c2bf65e55d6955975c858fbdf09b2a69b9888f7f2f378188c83c",
+          "heading": "How this works in cancer products",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "66be3c9328428577eb273c1e017cbb04d6568aed705807006e1d0a306f97ebff",
+          "heading": "When each is useful",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "cb50c4107923fe5d6414ac11cf53ec0285d5c17fd25a48a96a7a9cfd60062925",
+          "heading": "How the distinction is checked",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8113f415f95b59b07cd1b7654d094890d2298cecf3a4c14a087387cd9dd862fc",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "417bf6b2dbee1ef1619de1cc57b068b1340bcb23b19b30303f66162d0f95eeb1",
+          "heading": "Try it",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "36624214eee0e4bcf03f98c6f52ca022a485fa198bdbfea995d56dfcd22abfc6",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "a97b3bab89abc58655e4953e187b2a71af6bc28408d3498df78ee24f0a2fd2c5",
+          "heading": "Takeaway",
+          "learningRequirementIds": [
+            "pp-1",
+            "pp-2",
+            "pp-3",
+            "pp-4",
+            "pp-5"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "1643a3fa323be1655066d6ea6b950cc76d0b6a21ca3419e2fb0e4b732c535320",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "lesson": "potency-assays",
+      "sourceSha256": "b067bad596a9843597ef4f1f1a0ff16e08c47580ae420930859078a1af9ef5d4",
+      "gitBlob": "3b8b1a4d1ecc79640e1cde8b48ba5cf6fa08f591",
+      "bytes": 8485,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5fe2e056e6e24e5ce6c41b7e7f283eda2c913f46df70880e44fffb3bc680ede9",
+          "heading": "preamble",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6f014f14fdfee876711b8ef29fcff4e1d3dbae766c9bd6077fe2f9eb6e3684c9",
+          "heading": "In one sentence",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c7d901ca6b9db62ad11e95da2180495eab2ea270653d00b7450f9afd1849be84",
+          "heading": "The intuition",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e082977e2d7bfa8d008ef8fefd9d79d733488272823955e3db9e568781ccf815",
+          "heading": "How it works",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8cb1e97d86307a449777071df10534ae50737070520e8efb2b7255adc6d114a4",
+          "heading": "Why it matters in cancer",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b15a66c607aaf49bf25c1abaa2869e9a2eeb6c84f11d5dce2188000f7932533c",
+          "heading": "How it is measured",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "298d79a2cf233f79e01d3cae4f8f14500c2232e7f3efaf66b0d62967988399e0",
+          "heading": "Worked example and practice",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b4282b3e7511dad2cd1f3f4fcc021e310a25924d19148c28a65a0f08d98c25c3",
+          "heading": "Common confusions",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "75ebe512f2cc1897ee29eb61cbb0825ca41237bbe523477d9cbbb1419421f46f",
+          "heading": "Explain it back",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "8c362f2826ff1ad4fa7e1d5cae1213b44498a1c02610eac1624cea1a4f4be880",
+          "heading": "Related concepts",
+          "learningRequirementIds": [
+            "pot-1",
+            "pot-2",
+            "pot-3",
+            "pot-4",
+            "pot-5",
+            "pot-6"
+          ],
+          "disposition": "Full page-level semantic assessment retained for this exact section inventory. Practice and recaps reuse the named page requirements; the list does not assert every requirement occurs in every section."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "44fba0dadf4375bf928cb1c9fef3e1887ed8149f5fd65c6e6d1cceb938bd28ac",
+          "heading": "Sources and scope",
+          "learningRequirementIds": [],
+          "disposition": "Preamble or bibliography metadata, no independent teaching credit."
+        }
+      ]
+    }
+  ],
+  "assessmentReuse": "Scoped workers read all fourteen lessons, with independent full later-pin review and original-pin diff. Coordinator reproduces every source and section identity, maps exact current fields, and reconciles the reviewed source corrections. No carried assessment is relabelled a fresh end-to-end source read.",
+  "nonLearningDisposition": "Preamble and bibliography metadata excluded from independent learning credit. Analogy, recall and takeaway sections reuse semantic requirements.",
+  "schemaDisposition": "Existing notes fields carry the distinctions and assay cards. No product schema or rendering change required."
+}

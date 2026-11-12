@@ -1,0 +1,416 @@
+{
+  "checkedAt": "2026-11-10T04:38:33.096009+00:00",
+  "primaryPMID": "7636184",
+  "rows": [
+    {
+      "name": "sakaguchi-returned-doi",
+      "url": "https://api.crossref.org/works/10.1038%2Fni.1840",
+      "httpStatus": 200,
+      "sha256": "196e949f7eb1ea05d6cd1394e60b811fa7332c51f04dd9131fee1995be1036e5",
+      "metadata": [
+        {
+          "DOI": "10.1038/ni.1840",
+          "title": [
+            "Signaling by intrathymic cytokines, not T cell antigen receptors, specifies CD8 lineage choice and promotes the differentiation of cytotoxic-lineage T cells"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                2010,
+                1,
+                31
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2010,
+                3
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2010,
+                1,
+                31
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "author": [
+            {
+              "given": "Jung-Hyun",
+              "family": "Park",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Stanley",
+              "family": "Adoro",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Terry",
+              "family": "Guinter",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Batu",
+              "family": "Erman",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Amala S",
+              "family": "Alag",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Marta",
+              "family": "Catalfamo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Motoko Y",
+              "family": "Kimura",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Yongzhi",
+              "family": "Cui",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Philip J",
+              "family": "Lucas",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Ronald E",
+              "family": "Gress",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Masato",
+              "family": "Kubo",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lothar",
+              "family": "Hennighausen",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Lionel",
+              "family": "Feigenbaum",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "Alfred",
+              "family": "Singer",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sakaguchi-original-title",
+      "url": "https://api.crossref.org/works?query.bibliographic=Immunologic+self-tolerance+maintained+by+activated+T+cells+expressing+IL-2+receptor+alpha-chains+%28CD25%29.+Breakdown+of+a+single+mechanism+of+self-tolerance+causes+various+autoimmune+diseases.&filter=from-pub-date%3A1995-01-01%2Cuntil-pub-date%3A1995-12-31&rows=3",
+      "httpStatus": 200,
+      "sha256": "d1de7117a95513ab7c1c71b3060719229af3043c4c653682b253e1fb926159fc",
+      "metadata": [
+        {
+          "DOI": "10.4049/jimmunol.155.3.1151",
+          "title": [
+            "Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor α-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1995,
+                8,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1995,
+                8,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                1995,
+                8,
+                1
+              ]
+            ]
+          },
+          "type": "journal-article",
+          "author": [
+            {
+              "given": "S",
+              "family": "Sakaguchi",
+              "sequence": "first",
+              "affiliation": [
+                {
+                  "name": "Precursory Research for Embryonic Science and Technology (PRESTO), Research and Development Corporation of Japan (JRDC), Tsukuba Life Science Center"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "N",
+              "family": "Sakaguchi",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Precursory Research for Embryonic Science and Technology (PRESTO), Research and Development Corporation of Japan (JRDC), Tsukuba Life Science Center"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M",
+              "family": "Asano",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Precursory Research for Embryonic Science and Technology (PRESTO), Research and Development Corporation of Japan (JRDC), Tsukuba Life Science Center"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M",
+              "family": "Itoh",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Precursory Research for Embryonic Science and Technology (PRESTO), Research and Development Corporation of Japan (JRDC), Tsukuba Life Science Center"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            },
+            {
+              "given": "M",
+              "family": "Toda",
+              "sequence": "additional",
+              "affiliation": [
+                {
+                  "name": "Precursory Research for Embryonic Science and Technology (PRESTO), Research and Development Corporation of Japan (JRDC), Tsukuba Life Science Center"
+                }
+              ],
+              "role": [
+                {
+                  "vocabulary": "crossref",
+                  "role": "author"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.1016/s0966-842x(00)88995-7",
+          "title": [
+            "Role of viruses in the loss of tolerance to self-antigens and in autoimmune diseases"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1995,
+                11
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1995,
+                11
+              ]
+            ]
+          },
+          "published-online": null,
+          "type": "journal-article",
+          "author": [
+            {
+              "given": "M",
+              "family": "VONHERRATH",
+              "sequence": "first",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            },
+            {
+              "given": "M",
+              "family": "OLDSTONE",
+              "sequence": "additional",
+              "affiliation": [],
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.1016/0198-8859(95)92906-l",
+          "title": [
+            "Breakdown of {itin vivo} T cell tolerance to a self-antigen following allotransplantation"
+          ],
+          "published": {
+            "date-parts": [
+              [
+                1995,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                1995,
+                1
+              ]
+            ]
+          },
+          "published-online": null,
+          "type": "journal-article",
+          "author": null
+        }
+      ]
+    }
+  ]
+}

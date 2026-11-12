@@ -1,0 +1,191 @@
+[
+  {
+    "fileName": "PMC11029721-raw.html",
+    "sha256": "b23517a495e5d61b7bf03a26c9e5b5aa53c07d52f95ce9bb35c582e90e549981",
+    "bytes": 184249,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11029721/",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC11029721-raw.txt",
+    "sha256": "e37df398ca394c4f5f61bdf6f508e49ad2673008c203be47c7edeb9678bc79b5",
+    "bytes": 50319,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC12328239-bioc.json",
+    "sha256": "888f7499c9d3bb829be62ce8f57019a4b990312de9afc61b4bb0ca9471400637",
+    "bytes": 166518,
+    "source": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC12328239/unicode",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC4752902-bioc.json",
+    "sha256": "b8ebb760532dd8fba53caddbf97c07f6123ade7f514cbf7171e84796008a1e3e",
+    "bytes": 76048,
+    "source": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC4752902/unicode",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC4943870-bioc.json",
+    "sha256": "9e33b286aa104ced6e464fd5e7971a5442aedbe2c872a344d5fa3ca92295067d",
+    "bytes": 14421,
+    "source": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC4943870/unicode",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC6048396-raw.html",
+    "sha256": "50b1653db75aa1718ea2926dd943517816417cfc8ac272e3a63184d05c24c8a5",
+    "bytes": 143338,
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6048396/",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "PMC6048396-raw.txt",
+    "sha256": "19d0e9bea6abf2828c3e5d0a18cfa14cdfe6bed7ff507dfc7f83349be5dd4336",
+    "bytes": 32214,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "car-relapse-europepmc.json",
+    "sha256": "edf11149e45f5b8a7546a53b5674ac9e0bd04ab9916d1dc115132d6bf5b8e23c",
+    "bytes": 35721,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-approved-cell-products.html",
+    "sha256": "62b635e494297af1f2679c9190cf4088d5673a36f85bf2a2785789070a631333",
+    "bytes": 47483,
+    "source": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-approved-cell-products.txt",
+    "sha256": "81bdf2cf5f51b6ff15806bdbd9abd8b3b8a35dcf3e5a4d4242cb64a64adfdb90",
+    "bytes": 5905,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-guidance.html",
+    "sha256": "a2ff0a8a4a819bb3c96334cda479eede7040d3496e32c30ed4e666019174ca16",
+    "bytes": 37656,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-guidance.pdf",
+    "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+    "bytes": 528619,
+    "source": "https://www.fda.gov/media/156896/download",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-guidance.txt",
+    "sha256": "69946fb7cee5f20eb3de163c3d497715802443ed113c6e8929e78903f1a14731",
+    "bytes": 127137,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-rems.html",
+    "sha256": "80d5aa28e87c4b3c8d0280c004e0de6c20742098f15aaef7fc85b6b6e64ea65e",
+    "bytes": 36195,
+    "source": "https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-rems.txt",
+    "sha256": "6043a5c02c9776c6da060a8cd1da73dfad93e24948d63bb37c4f09409057d182",
+    "bytes": 6070,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-warning.html",
+    "sha256": "192a53cc0338518c8be51198bfaf8da58b9accc8c6ecd1318f671625087e60c3",
+    "bytes": 38566,
+    "source": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "fda-car-warning.txt",
+    "sha256": "2922835ea0682a8d043bf88dbf0360ef99edf7bc651d2d3f066dec66eb5aedfd",
+    "bytes": 5545,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "guide-primary-europepmc.json",
+    "sha256": "342b2dee2968850e53bfbaf8aefaf7791d5dcac9046ece6c152b148854e7ac8a",
+    "bytes": 175040,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "in-vivo-europepmc.json",
+    "sha256": "7a053f5218c7963e2165604f771992e2b85c0db9d98c6b775f5dd154272d19ff",
+    "bytes": 26914,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "inducible-payload-europepmc.json",
+    "sha256": "dde76d23f0c59c7845a3751a166bdd5265e14b1b159e3ee99568de8da16b1930",
+    "bytes": 29548,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "int2104-registry.json",
+    "sha256": "e402ed34d244a2964e44c6c6e27d90b17037b8c9f4e77d59351bb99ca6cd861f",
+    "bytes": 2141,
+    "source": "https://clinicaltrials.gov/api/v2/studies?query.intr=INT2104&fields=NCTId%2CBriefTitle%2CprotocolSection.statusModule%2CprotocolSection.designModule&pageSize=5&format=json",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "macrophage-history-europepmc.json",
+    "sha256": "625e6d2d53204bb0a821e1a67a60b7d58f92c14b18dfe652c3909d396bd343f8",
+    "bytes": 22853,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "nci-t-cell-transfer.html",
+    "sha256": "02065faa9597addeeead8af64511a73b2cbe6c65bbacb27ed3b1737d8c8597fe",
+    "bytes": 52053,
+    "source": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy",
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "nci-t-cell-transfer.txt",
+    "sha256": "3b9bb4ebc67f34bba9a38f67c2367e891a18cbde477a00e7061415e348bdafda",
+    "bytes": 7600,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "official-captures.json",
+    "sha256": "3b9d16124b0fa28bd695ca7e6c211ba546acc6c074882b6fde3a87e7468f2c2b",
+    "bytes": 852,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "signaling-screen-crossref.json",
+    "sha256": "d6f1780af710f808e9a569894ed69b6dd9662bc3078be1f4cb09cd713f32aa89",
+    "bytes": 14170,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  },
+  {
+    "fileName": "wt1-car-europepmc.json",
+    "sha256": "aad3fe2032813733771f4c263e27a130e3507feb2cbfb810428b7cf45a590cbc",
+    "bytes": 8150,
+    "source": null,
+    "retention": "Exact reading/capture file outside public checkout; only identities, receipts and scope published"
+  }
+]

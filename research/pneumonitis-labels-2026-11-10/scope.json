@@ -1,0 +1,26 @@
+{
+  "status": "draft-only focused factual correction",
+  "reviewedAt": "2026-11-10T23:34:47.498078+00:00",
+  "ownerCount": 1,
+  "newRecords": 0,
+  "schemaChanges": 0,
+  "curriculumCredit": 0,
+  "adjacentCredit": 0,
+  "mainCredit": 0,
+  "deployed": false,
+  "integrationBase": "bb5efeb81d773b2bea2c065a2c7b3a9d4e8e8992",
+  "notCertified": [
+    "Completion of the 20-lesson pharmacology and toxicity batch",
+    "Other claims in linked records or NICE guidance",
+    "Full prescribing documents, language review, hydration, responsive layout or live deployment"
+  ],
+  "withdrawnLegacyAssertions": [
+    "Universal generic grade ladder across treatments",
+    "A required scheduled-imaging programme from the deruxtecan warning sections",
+    "One universal diagnostic workup and unscoped checkpoint class incidence ranges"
+  ],
+  "technicalCaptureNotes": [
+    "An attempted DailyMed services route returned generic HTML, not SPL XML. Those responses were rejected and are not evidence or a scientific-source access failure. Current drug-info HTML was successfully retrieved and read."
+  ],
+  "sourceVersionDecision": "The current October pembrolizumab HTML supersedes the July PDF for the named current-label text. Enhertu and Datroway remain May revisions in the current DailyMed pages."
+}

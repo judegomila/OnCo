@@ -1,0 +1,531 @@
+{
+  "version": "proposal-summary-consumers",
+  "state": "selected reader-summary data in draft #375; not merged; not graph entities",
+  "scope": "Available text is an actual dictionary entry. Missing entries are retained explicitly and use the English fallback; this is not evidence of a completed translation or language review. kind is an audit owner type.",
+  "records": [
+    {
+      "id": "allogeneic-cell-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (ar)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "ar",
+      "available": true,
+      "text": "يستخدم العلاج الخلوي الخيفي خلايا من شخص غير المتلقي. وقد يغني المنتج المخزّن عن جمع خلايا المتلقي، لكن العلاج يظل بحاجة إلى منتج مناسب وتحضير سريري."
+    },
+    {
+      "id": "allogeneic-cell-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (de)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "de",
+      "available": true,
+      "text": "Eine allogene Zelltherapie verwendet Zellen einer anderen Person als des Empfängers. Ein gelagertes Produkt kann die Entnahme eigener Zellen ersparen; die Behandlung erfordert weiterhin ein geeignetes Produkt und klinische Vorbereitung."
+    },
+    {
+      "id": "allogeneic-cell-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (es)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "es",
+      "available": true,
+      "text": "La terapia celular alogénica utiliza células de alguien distinto del receptor. Un producto almacenado puede evitar la recogida de células del receptor, pero el tratamiento sigue necesitando un producto adecuado y preparación clínica."
+    },
+    {
+      "id": "allogeneic-cell-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (fr)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "fr",
+      "available": true,
+      "text": "Une thérapie cellulaire allogénique utilise les cellules d'une autre personne que le receveur. Un produit conservé peut éviter de prélever les cellules du receveur, mais le traitement nécessite toujours un produit adapté et une préparation clinique."
+    },
+    {
+      "id": "allogeneic-cell-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (hi)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "hi",
+      "available": true,
+      "text": "एलोजेनिक कोशिका उपचार में प्राप्तकर्ता के अलावा किसी दूसरे व्यक्ति की कोशिकाएं इस्तेमाल होती हैं। पहले से रखा उत्पाद प्राप्तकर्ता की कोशिकाएं लेने की जरूरत से बचा सकता है, लेकिन उपचार के लिए फिर भी उपयुक्त उत्पाद और चिकित्सकीय तैयारी चाहिए।"
+    },
+    {
+      "id": "allogeneic-cell-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (ja)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "ja",
+      "available": true,
+      "text": "同種細胞療法は、投与を受ける本人以外の人の細胞を用います。保存された製品なら本人からの採取を省ける場合がありますが、適切な製品と診療上の準備は必要です。"
+    },
+    {
+      "id": "allogeneic-cell-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (pt)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "pt",
+      "available": true,
+      "text": "A terapia celular alogénica utiliza células de outra pessoa que não o recetor. Um produto armazenado pode evitar a colheita de células do recetor, mas o tratamento continua a exigir um produto adequado e preparação clínica."
+    },
+    {
+      "id": "allogeneic-cell-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (zh)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "zh",
+      "available": true,
+      "text": "异体细胞疗法使用受者之外的人的细胞。预先储存的产品可能省去采集受者自身细胞的步骤，但治疗仍需要合适的产品和临床准备。"
+    },
+    {
+      "id": "allogeneic-cell-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Allogeneic (off-the-shelf) cell therapy (simple)",
+      "canonicalRecordId": "allogeneic-cell-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "This cell therapy uses cells from another person. A stored product may avoid collecting your cells, but a suitable product and treatment preparation are still needed."
+    },
+    {
+      "id": "apheresis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (ar)",
+      "canonicalRecordId": "apheresis",
+      "language": "ar",
+      "available": true,
+      "text": "يفصل الفِصاد مكونات من الدم ويعيد مكونات أخرى إلى الدورة الدموية. ويجمع فصاد الكريات البيضاء مزيجاً غنياً بهذه الخلايا يمكن أن يكون مادة أولية لعلاج خلوي أو للبحث."
+    },
+    {
+      "id": "apheresis-de",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (de)",
+      "canonicalRecordId": "apheresis",
+      "language": "de",
+      "available": true,
+      "text": "Bei der Apherese werden Bestandteile aus dem Blut abgetrennt und andere in den Kreislauf zurückgeführt. Die Leukapherese sammelt ein Gemisch mit vielen weissen Blutkörperchen, das Ausgangsmaterial für eine Zelltherapie oder Forschung sein kann."
+    },
+    {
+      "id": "apheresis-es",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (es)",
+      "canonicalRecordId": "apheresis",
+      "language": "es",
+      "available": true,
+      "text": "La aféresis separa componentes de la sangre y devuelve otros a la circulación. La leucaféresis recoge una mezcla rica en glóbulos blancos que puede servir de material inicial para terapia celular o investigación."
+    },
+    {
+      "id": "apheresis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (fr)",
+      "canonicalRecordId": "apheresis",
+      "language": "fr",
+      "available": true,
+      "text": "L'aphérèse sépare des composants du sang et en renvoie d'autres dans la circulation. La leucaphérèse recueille un mélange riche en globules blancs pouvant servir de matière de départ pour une thérapie cellulaire ou la recherche."
+    },
+    {
+      "id": "apheresis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (hi)",
+      "canonicalRecordId": "apheresis",
+      "language": "hi",
+      "available": true,
+      "text": "अफेरेसिस रक्त से कुछ घटक अलग करके बाकी घटकों को परिसंचरण में लौटाता है। ल्यूकाफेरेसिस श्वेत रक्त कोशिकाओं से भरपूर मिश्रण एकत्र करता है, जो कोशिका उपचार या शोध का शुरुआती पदार्थ हो सकता है।"
+    },
+    {
+      "id": "apheresis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (ja)",
+      "canonicalRecordId": "apheresis",
+      "language": "ja",
+      "available": true,
+      "text": "アフェレーシスは血液から成分を分離し、ほかの成分を循環に戻します。白血球アフェレーシスでは、細胞療法や研究の出発材料となる白血球を多く含む混合物を採取します。"
+    },
+    {
+      "id": "apheresis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (pt)",
+      "canonicalRecordId": "apheresis",
+      "language": "pt",
+      "available": true,
+      "text": "A aférese separa componentes do sangue e devolve outros à circulação. A leucaférese recolhe uma mistura rica em glóbulos brancos que pode servir de material inicial para uma terapia celular ou investigação."
+    },
+    {
+      "id": "apheresis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (zh)",
+      "canonicalRecordId": "apheresis",
+      "language": "zh",
+      "available": true,
+      "text": "单采术分离血液中的部分成分，并将其他成分送回循环。白细胞单采术收集富含白细胞的混合物，可用作细胞疗法或研究的起始材料。"
+    },
+    {
+      "id": "apheresis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Apheresis (leukapheresis) (simple)",
+      "canonicalRecordId": "apheresis",
+      "language": "simple",
+      "available": true,
+      "text": "A machine separates some blood components and returns others to the body. Collecting white blood cells gives a mixture that may be used to start a cell therapy or a research study."
+    },
+    {
+      "id": "cell-therapy-cold-chain-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (ar)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "ar",
+      "available": true,
+      "text": "يمكن أن يحافظ التجميد والتخزين والشحن والإذابة على خلايا لاستخدامها لاحقاً. وترتبط الشروط والفحوصات التي تم التحقق من صلاحيتها بالمنتج الخلوي المحدد."
+    },
+    {
+      "id": "cell-therapy-cold-chain-de",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (de)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "de",
+      "available": true,
+      "text": "Einfrieren, Lagerung, Transport und Auftauen können Zellen für eine spätere Verwendung erhalten. Die validierten Bedingungen und Prüfungen gelten für das jeweilige Zellprodukt."
+    },
+    {
+      "id": "cell-therapy-cold-chain-es",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (es)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "es",
+      "available": true,
+      "text": "La congelación, el almacenamiento, el transporte y la descongelación pueden conservar células para su uso posterior. Las condiciones y comprobaciones validadas corresponden al producto celular concreto."
+    },
+    {
+      "id": "cell-therapy-cold-chain-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (fr)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "fr",
+      "available": true,
+      "text": "La congélation, le stockage, le transport et la décongélation peuvent préserver des cellules pour une utilisation ultérieure. Les conditions et les contrôles validés concernent le produit cellulaire précis."
+    },
+    {
+      "id": "cell-therapy-cold-chain-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (hi)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "hi",
+      "available": true,
+      "text": "जमाना, भंडारण, परिवहन और पिघलाना कोशिकाओं को बाद में उपयोग के लिए संरक्षित कर सकते हैं। जांची गई परिस्थितियां और गुणवत्ता जांच उस विशेष कोशिका उत्पाद से संबंधित होती हैं।"
+    },
+    {
+      "id": "cell-therapy-cold-chain-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (ja)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "ja",
+      "available": true,
+      "text": "凍結、保存、輸送、解凍によって、細胞を後で使うために保存できます。検証された条件や検査は、それぞれの細胞製品に対応するものです。"
+    },
+    {
+      "id": "cell-therapy-cold-chain-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (pt)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "pt",
+      "available": true,
+      "text": "A congelação, o armazenamento, o transporte e a descongelação podem preservar células para utilização posterior. As condições e verificações validadas dizem respeito ao produto celular específico."
+    },
+    {
+      "id": "cell-therapy-cold-chain-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (zh)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "zh",
+      "available": true,
+      "text": "冷冻、储存、运输和解冻可以保存细胞供日后使用。经过验证的条件和检查要求属于特定的细胞产品。"
+    },
+    {
+      "id": "cell-therapy-cold-chain-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cryopreservation and cell-therapy cold chain (simple)",
+      "canonicalRecordId": "cell-therapy-cold-chain",
+      "language": "simple",
+      "available": true,
+      "text": "Cells can be frozen, stored, transported and thawed for later use. Each cell product needs its own checked conditions and quality assessment."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (ar)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "ar",
+      "available": true,
+      "text": "يمكن لبرامج الجدولة والتتبع أن تدعم سجلات جمع الخلايا وتصنيع العلاج الخلوي ونقله وإعطائه. وهي تساعد الفرق على متابعة سير العمل والتحقيق في المشكلات."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (de)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "de",
+      "available": true,
+      "text": "Planungs- und Nachverfolgungssoftware kann die Dokumentation von Zellentnahme, Herstellung, Transport und Behandlung unterstützen. Sie hilft Teams, den Ablauf zu verfolgen und Probleme zu untersuchen."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (es)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "es",
+      "available": true,
+      "text": "Los programas de planificación y seguimiento pueden apoyar los registros de recogida, fabricación, transporte y tratamiento de una terapia celular. Ayudan a los equipos a seguir el proceso e investigar problemas."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (fr)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "fr",
+      "available": true,
+      "text": "Les logiciels de planification et de suivi peuvent soutenir la documentation du prélèvement, de la fabrication, du transport et du traitement d'une thérapie cellulaire. Ils aident les équipes à suivre le parcours et à examiner les problèmes."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (hi)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "hi",
+      "available": true,
+      "text": "समय तय करने और स्थिति का पता रखने वाला सॉफ्टवेयर कोशिका उपचार के संग्रह, निर्माण, परिवहन और इलाज के रिकॉर्ड में मदद कर सकता है। यह टीमों को प्रक्रिया पर नजर रखने और समस्याओं की जांच करने में सहायता देता है।"
+    },
+    {
+      "id": "cell-therapy-orchestration-software-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (ja)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "ja",
+      "available": true,
+      "text": "日程管理や追跡のソフトウェアは、細胞療法の採取、製造、輸送、治療の記録を支援できます。チームが工程を追跡し、問題を調べるのに役立ちます。"
+    },
+    {
+      "id": "cell-therapy-orchestration-software-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (pt)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "pt",
+      "available": true,
+      "text": "O software de agendamento e acompanhamento pode apoiar os registos de colheita, fabrico, transporte e tratamento de uma terapia celular. Ajuda as equipas a seguir o processo e a investigar problemas."
+    },
+    {
+      "id": "cell-therapy-orchestration-software-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (zh)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "zh",
+      "available": true,
+      "text": "排期和追踪软件可以支持细胞疗法从采集、制造、运输到治疗的记录。它帮助团队跟进流程并调查问题。"
+    },
+    {
+      "id": "cell-therapy-orchestration-software-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy orchestration and chain-of-identity software (simple)",
+      "canonicalRecordId": "cell-therapy-orchestration-software",
+      "language": "simple",
+      "available": true,
+      "text": "Software can help teams plan and track cell collection, manufacture, transport and treatment. It supports the records used to follow the process and investigate problems."
+    },
+    {
+      "id": "car-t-manufacturing-process-ar",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (ar)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-de",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (de)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-es",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (es)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-fr",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (fr)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-hi",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (hi)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-ja",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (ja)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-pt",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (pt)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "car-t-manufacturing-process-zh",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (zh)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "zh",
+      "available": true,
+      "text": "自体CAR T细胞产品由预定受者自身的细胞制成。采集、改造、培养、质量评估和治疗安排是不同的步骤。"
+    },
+    {
+      "id": "car-t-manufacturing-process-simple",
+      "kind": "reader-summary-entry",
+      "name": "Autologous CAR-T manufacturing, batch by batch (simple)",
+      "canonicalRecordId": "car-t-manufacturing-process",
+      "language": "simple",
+      "available": true,
+      "text": "An autologous CAR T-cell product is made from the cells of the person who will receive it. Collection, changes to the cells, growth, quality checks and treatment scheduling are different steps."
+    },
+    {
+      "id": "in-vivo-car-t-ar",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (ar)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "ar",
+      "available": true,
+      "text": "يحمل منتج توصيل داخل الجسم تعليمات لتكوين مستقبل إلى خلايا داخل الجسم. وتختلف جرعته عن عدد الخلايا المهندسة ونشاطها اللذين ينتجان لاحقاً."
+    },
+    {
+      "id": "in-vivo-car-t-de",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (de)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "de",
+      "available": true,
+      "text": "Ein Produkt zur Verabreichung im Körper bringt Bauanleitungen für einen Rezeptor in dortige Zellen. Seine Dosis ist eine andere Grösse als die spätere Zahl und Aktivität der veränderten Zellen."
+    },
+    {
+      "id": "in-vivo-car-t-es",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (es)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "es",
+      "available": true,
+      "text": "Un producto de administración in vivo lleva instrucciones para producir un receptor a células dentro del organismo. Su dosis es distinta del número y la actividad posteriores de las células modificadas."
+    },
+    {
+      "id": "in-vivo-car-t-fr",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (fr)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "fr",
+      "available": true,
+      "text": "Un produit d'administration in vivo apporte des instructions de fabrication d'un récepteur à des cellules dans l'organisme. Sa dose est différente du nombre et de l'activité ultérieurs des cellules modifiées."
+    },
+    {
+      "id": "in-vivo-car-t-hi",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (hi)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "hi",
+      "available": true,
+      "text": "इन विवो वितरण उत्पाद शरीर के भीतर कोशिकाओं तक रिसेप्टर बनाने के निर्देश पहुंचाता है। उसकी खुराक बाद में बनने वाली संशोधित कोशिकाओं की संख्या और गतिविधि से अलग माप है।"
+    },
+    {
+      "id": "in-vivo-car-t-ja",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (ja)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "ja",
+      "available": true,
+      "text": "生体内に投与する送達製品は、体内の細胞に受容体を作るための指示を運びます。その投与量は、後にできる改変細胞の数や働きとは異なる量です。"
+    },
+    {
+      "id": "in-vivo-car-t-pt",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (pt)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "pt",
+      "available": true,
+      "text": "Um produto de administração in vivo transporta instruções para produzir um recetor até células no organismo. A sua dose é diferente do número e da atividade posteriores das células modificadas."
+    },
+    {
+      "id": "in-vivo-car-t-zh",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (zh)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "zh",
+      "available": true,
+      "text": "体内递送产品将制造受体的指令送入体内细胞。它的剂量与随后产生的改造细胞的数量和活性是不同的量。"
+    },
+    {
+      "id": "in-vivo-car-t-simple",
+      "kind": "reader-summary-entry",
+      "name": "In vivo CAR-T (simple)",
+      "canonicalRecordId": "in-vivo-car-t",
+      "language": "simple",
+      "available": true,
+      "text": "A delivery product carries instructions into cells inside the body. The amount given does not tell us how many changed cells will later be present or what they will do."
+    }
+  ],
+  "sources": [
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "7f5522079c6e98e730f94db4b9dc3715dc2f0f28de36a36c631192514560b09e"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "c66484306a7d89e6b480a890b918c2ee0050b2de7412e08ba0d56e0ef176489a"
+    },
+    {
+      "language": "es",
+      "selectedEntriesSha256": "489661e93f00ab1747628e5731f682f00ad362dac2bc050a05f18ea5945050f1"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "a7b6374e8b664fc76c8c72aacf23b2a38229398dbb1e8240ec110553faa582f3"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "9b285ec3e22dafff568523e748a392154b1b2e1a14279657b4c966e3730c3098"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "0059063cc81071619e1b558c6997c1e964ae67fba1b8233a22d207569324fcf5"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "a2b0ac9be8d35f4177bbb9d0a643ffabdbd3b72f985a3ab9493831183393e29d"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "16ff7e3fdcccb8b4e4f97b42c7995eae920f56f7185f0e8d33b57b85fcfe4e1e"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "8dc561dd4c8cbdd6ee96bcafd5e03939c91d5accd721eee45e531d75c8c4761b"
+    }
+  ]
+}

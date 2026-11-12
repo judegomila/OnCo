@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-09",
+  "sources": [
+    {
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+      "capture": "fda-expanded-access-patients.html",
+      "reviewDepth": "Raw main text read; access roles, cooperation, eligibility and cost sections checked.",
+      "usedFor": [
+        "Information is publicly readable; product access is conditional.",
+        "Supply, clinical services and institutional review can involve costs.",
+        "Company cooperation is needed; FDA authorisation alone does not guarantee supply."
+      ],
+      "notUsedFor": [
+        "No typical free-supply rate or insurance coverage probability.",
+        "The page generalises recoverable expenses; precise drug cost rules remain at the canonical owner sourced to 21 CFR 312.8."
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+      "capture": "fda-expanded-access-information.html",
+      "reviewDepth": "Complete raw main text read.",
+      "usedFor": [
+        "Public guidance for patients, physicians, industry and institutional review boards."
+      ],
+      "notUsedFor": [
+        "No efficacy, supply or clinical suitability claim."
+      ]
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/21/312.8",
+      "capture": "Previously retained source-phase-primary/cornell-312-8.html outside Git; no new request counted.",
+      "reviewDepth": "Re-read paragraphs (a), (c) and (d).",
+      "usedFor": [
+        "Prior written FDA permission to charge for an investigational drug is required separately from treatment-use permission."
+      ],
+      "notUsedFor": [
+        "No claim that the sponsor must supply the product free."
+      ]
+    }
+  ]
+}

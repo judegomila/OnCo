@@ -1,0 +1,39 @@
+{
+  "checkedOn": "2026-11-09",
+  "newCurriculumTeachingSourcesRead": 6,
+  "additionalNavigationOnlyClassifications": 3,
+  "navigationSourcesRemainingUnclassified": 0,
+  "newCurriculumRequirements": 14,
+  "newRequirementsEvidenced": 6,
+  "newRequirementsRetainingWork": 8,
+  "existingAdjacentFindingsClosed": 1,
+  "newAdjacentFindingsOpen": 1,
+  "newRecords": 0,
+  "newExistingOwnersAddedToProposal": 1,
+  "resolvedMEDIdentities": 12,
+  "completeAvailableMEDAbstractsRead": 11,
+  "newLiteratureOccurrences": 12,
+  "selectedFullTextSources": 2,
+  "rawCaptureReceipts": 7,
+  "renderedOwners": 149,
+  "readerFieldParts": 7,
+  "rawBodies": "Persistent cache outside Git. No patient case, lesson or article body republished. Captured endpoint follow-up sources are not yet credited as verified corrections.",
+  "validation": {
+    "status": "passed",
+    "testFloorsAndBudgetsChanged": false,
+    "entities": 22716,
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "preexistingWarnings": 7
+    },
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2821,
+      "existingSkips": 2,
+      "durationSeconds": 109.76
+    },
+    "build": "No combined-draft build or deployment; previously documented pinned-main GRAPH_JSON blocker retained."
+  },
+  "existingAdjacentFindingsReopenedByAdditionalConsumerRequirement": 1
+}

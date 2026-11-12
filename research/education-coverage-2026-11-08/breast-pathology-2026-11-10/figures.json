@@ -1,0 +1,971 @@
+{
+  "sourceVersionEntries": [
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036",
+      "gitBlob": "e1bed015cd977900c9c18b30441e890cdc28a9e0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83",
+      "gitBlob": "1e353595f84687ee89cc049ede1644621b2c4f51",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa",
+      "gitBlob": "22bcb51d2b65b8362175a2149368f41f87521fcd",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608",
+      "gitBlob": "3b26f3de986239d17681494ad96f5d9ff6f85123",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-light.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "a260be3e9a526b14cef648edde9d2d053f161501a143b2b29e2639cb4cbf6036",
+      "gitBlob": "e1bed015cd977900c9c18b30441e890cdc28a9e0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-branching-neighborhood-v1-dark.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "3c68df4d24d369da9748243f58cfccc06abce6f501dd17c424788e9061f58a83",
+      "gitBlob": "1e353595f84687ee89cc049ede1644621b2c4f51",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-dark.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "ed6fafe7838b3406a0260374d01309ff7727ca4d32d011a389fb5e8b24bf7caa",
+      "gitBlob": "22bcb51d2b65b8362175a2149368f41f87521fcd",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/tdlu-nested-boundary-v1-light.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "2a9dad0aad64a3e85e1fa77e5066de3de2ce5916711da89b16ce333a5f43c608",
+      "gitBlob": "3b26f3de986239d17681494ad96f5d9ff6f85123",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd",
+      "gitBlob": "29936a960044f3ae80e6964e077b7ef211971b7c",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f",
+      "gitBlob": "9de8302b6ebfed4c2a249070c0f168d6d7584b19",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-dark.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "1506b6f2d4d78be7c8e5e369223d7affb44a53aaa4b94c2288bc630f702dbabd",
+      "gitBlob": "29936a960044f3ae80e6964e077b7ef211971b7c",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/dcis-coexisting-components-v1-light.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "f3a5d398b23b98603b7d2a725209a8ec072a039da75b939071b5cfa0779fdb9f",
+      "gitBlob": "9de8302b6ebfed4c2a249070c0f168d6d7584b19",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+      "gitBlob": "e4edae9352fcd8024a7fb3e0d3833659dd2d79f8",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+      "gitBlob": "95fa07f09a44a7b59232d0f35d4c671961a0e42e",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "993ae86f1d61270239bbb62ffc7fc95aaacaa4f11dfb409a82e0eb8fba4b28e9",
+      "gitBlob": "e4edae9352fcd8024a7fb3e0d3833659dd2d79f8",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/breast-regional-map-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "ad1f2dde08cb00215025f2e3f0b4e8c2830ac6e319df72ebda603e566c644d43",
+      "gitBlob": "95fa07f09a44a7b59232d0f35d4c671961a0e42e",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b",
+      "gitBlob": "25e41d5634c3e61c3966696e1f68f116be241061",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c",
+      "gitBlob": "ca29f03a80fa03334094190eaf01ce345f7bcf58",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "b1ff35d4b5733e2187936cca859f4ed4f71de00fb0ba16443da5808e4c3fb66b",
+      "gitBlob": "25e41d5634c3e61c3966696e1f68f116be241061",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/idc-within-boundary-and-stroma-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "e4c07d3246e44e00650e1256a423f0ad16a9c6fd0c55dcbc490319fbe2ad566c",
+      "gitBlob": "ca29f03a80fa03334094190eaf01ce345f7bcf58",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+      "gitBlob": "7297e5ad72c68d78b81d68ae583c3fca4c26f393",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+      "gitBlob": "181ca9250b4da01435d6d53b3b41500fa800b036",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "6fafdc5985a471a02f0c9ef7f0b5ff77dcdc7b7cb047e4aa6133c4313cddf3cc",
+      "gitBlob": "7297e5ad72c68d78b81d68ae583c3fca4c26f393",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/anatomy-and-histology/images/myoepithelial-layers-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "a47ad7a5ffc2e23663f9a3b822a7b18ed1976371c6c1e69a97004151bb190df6",
+      "gitBlob": "181ca9250b4da01435d6d53b3b41500fa800b036",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "c56ca428524bcd59389d1918a918ee1030f8be562f94d8a46bbae2177ae10d7d",
+      "gitBlob": "357b212af2c6d0e697db2c7f93aebad89305f4e6",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "019fa337da2583ef1564381875d8e96e6b8146b421fa0a8273495bdf54bc105a",
+      "gitBlob": "0ee2437df5075a3d4ffceb822581d291f7113a7e",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "c56ca428524bcd59389d1918a918ee1030f8be562f94d8a46bbae2177ae10d7d",
+      "gitBlob": "357b212af2c6d0e697db2c7f93aebad89305f4e6",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/three-microscopic-features-before-grade-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "019fa337da2583ef1564381875d8e96e6b8146b421fa0a8273495bdf54bc105a",
+      "gitBlob": "0ee2437df5075a3d4ffceb822581d291f7113a7e",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "68d2e21ea9db282097a645985b4ff663c790d6be4978d7aa7d93e379f1826ca9",
+      "gitBlob": "a92122f28d18f7af52352132fc2f0331f9bf94e4",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "6be0e6dc1202d508c4f2d0b835394732ff89157c1ef966fe52deeece91d1ceb6",
+      "gitBlob": "728799a582f565de3965508acca5c7aad4ace4e6",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "68d2e21ea9db282097a645985b4ff663c790d6be4978d7aa7d93e379f1826ca9",
+      "gitBlob": "a92122f28d18f7af52352132fc2f0331f9bf94e4",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/eligible-nuclei-and-three-estimators-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "6be0e6dc1202d508c4f2d0b835394732ff89157c1ef966fe52deeece91d1ceb6",
+      "gitBlob": "728799a582f565de3965508acca5c7aad4ace4e6",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "25bf734469418c0710f2767635b37e5c9f3d02a1953cc961212555b2d6fdb57f",
+      "gitBlob": "f7285b46cf79cf1ff254c53c37716c6696ebd077",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "11c592e320f671d67ae084ffd8a6b55793877153db6dab8c71bb7e580fca1222",
+      "gitBlob": "3fa1df3b5bb2a858933f215780932a36fb6a2309",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "25bf734469418c0710f2767635b37e5c9f3d02a1953cc961212555b2d6fdb57f",
+      "gitBlob": "f7285b46cf79cf1ff254c53c37716c6696ebd077",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/node-count-and-deposit-size-context-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "11c592e320f671d67ae084ffd8a6b55793877153db6dab8c71bb7e580fca1222",
+      "gitBlob": "3fa1df3b5bb2a858933f215780932a36fb6a2309",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "641ae9bc74902ed222658604da2aadf2ce10427594d1db295d15edf255586a49",
+      "gitBlob": "60e19c1f698d91d729f8a9a886b2e02c50195cda",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "7cd9752ec1af9ba717d8bd43f1fa42bfd771f0f333747ad0b076dc20fd2aaa40",
+      "gitBlob": "48daf44ec2d5b3983856421c8bc5687fdd02e0b1",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "641ae9bc74902ed222658604da2aadf2ce10427594d1db295d15edf255586a49",
+      "gitBlob": "60e19c1f698d91d729f8a9a886b2e02c50195cda",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/specimen-collection-and-later-addendum-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "7cd9752ec1af9ba717d8bd43f1fa42bfd771f0f333747ad0b076dc20fd2aaa40",
+      "gitBlob": "48daf44ec2d5b3983856421c8bc5687fdd02e0b1",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971",
+      "gitBlob": "9fab09ac470f989a7be7a1bc8fb25158b17218f7",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0",
+      "gitBlob": "0127b3fa7b9d28a5379d0d9c7c9a54b297bdab8b",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "469fa99553c384c1be839ada45ab5f102d4405dfa34258bd13c605f2b79ba971",
+      "gitBlob": "9fab09ac470f989a7be7a1bc8fb25158b17218f7",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/ene-boundaries-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "dbdd33e9b956524d98c4ebd727971adf064895612a3cf9723e09def86b099bb0",
+      "gitBlob": "0127b3fa7b9d28a5379d0d9c7c9a54b297bdab8b",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+      "gitBlob": "e4c0cf36d52844ba99827d80f391e16827b113d3",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+      "gitBlob": "60cb57cb7e2c73772c9c7db212092eeaeb05e8cc",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "3c2185de44e8a7f2f828ac006aacb7385acc3a8d7b9b1a74b57d73b0a176a426",
+      "gitBlob": "e4c0cf36d52844ba99827d80f391e16827b113d3",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/gland-removal-and-outer-structures-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "17d67485dbb2bf1c009fd2e51e8aeeefeb282e27c49b1132b4f58b3717328593",
+      "gitBlob": "60cb57cb7e2c73772c9c7db212092eeaeb05e8cc",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d",
+      "gitBlob": "307a6a8d649abf009e5d4477ebc4a823508c7aec",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c",
+      "gitBlob": "5b5caa2ae9a9924b62581c4ba52c98e7f5647ddf",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98",
+      "gitBlob": "a5c31fcb85b3e07a6fa7a1be494d13161d3be9b0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86",
+      "gitBlob": "cf2ccf56cef3228eae5e032c46ab9393b11a52a9",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "a881a7a068e4f09e7955d81ee98478397095129b447527d61ba98167986cb95d",
+      "gitBlob": "307a6a8d649abf009e5d4477ebc4a823508c7aec",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-components-v2-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "299b9edf455c6ee211f150cdec8cbb12a0700333125f037a91094865d3ef006c",
+      "gitBlob": "5b5caa2ae9a9924b62581c4ba52c98e7f5647ddf",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "0057b49bc73775ede8f996ca7f6934c9afe48d83a3f7cbf8019ec52f62be8e98",
+      "gitBlob": "a5c31fcb85b3e07a6fa7a1be494d13161d3be9b0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/pcr-definitions-and-margins-v2-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "1bc39a2cde9b1df564870120ebc1e01ec65b94a993b5432c0c5a695be9e11d86",
+      "gitBlob": "cf2ccf56cef3228eae5e032c46ab9393b11a52a9",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-dark.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "eaedf5d8d9cd5beaf2d625bc2c30c92d1e5fa396b8139c90b97990a7eb6d3abf",
+      "gitBlob": "65f17e270072c5030a0be38474b9b62b2766b3f1",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-light.png",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "9202f8eefc28cc10b101623b6c5a26a93456ab5a4aa2e46c9211a28bb3f2a05c",
+      "gitBlob": "dd61bae4892255c91d6dded23bae644559c8271d",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1",
+      "gitBlob": "127c8389ea2ebc574c5b3b0f9d8eddb604f112a8",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d",
+      "gitBlob": "6fa4af277345e64932a5450072bb3f138ddd62c0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-dark.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "eaedf5d8d9cd5beaf2d625bc2c30c92d1e5fa396b8139c90b97990a7eb6d3abf",
+      "gitBlob": "65f17e270072c5030a0be38474b9b62b2766b3f1",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/tumor-bed-area-denominators-light.png",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "9202f8eefc28cc10b101623b6c5a26a93456ab5a4aa2e46c9211a28bb3f2a05c",
+      "gitBlob": "dd61bae4892255c91d6dded23bae644559c8271d",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "f1689ba11f239e6034a6add8ed8301b541a7bd4234111d44e240e0259288a0f1",
+      "gitBlob": "127c8389ea2ebc574c5b3b0f9d8eddb604f112a8",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/rcb-breast-and-node-inputs-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "fdffe8ee25b48503dbdcd5d85851a71560e6d619da706f72ce34bc500be5067d",
+      "gitBlob": "6fa4af277345e64932a5450072bb3f138ddd62c0",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "28e416ad6f66a5bec097f3280fcebd12ad83d2bd460448ab0a61d6567e95b53a",
+      "gitBlob": "0dd26bf55386919214787f284637414d7e797f4b",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "6b1348e410ca8c76d114b84ed5b01760d530a511fa5254c7050b9ffaf60434f8",
+      "gitBlob": "b58940a3fb80f66df592801cafb2001ec6b1f397",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "28e416ad6f66a5bec097f3280fcebd12ad83d2bd460448ab0a61d6567e95b53a",
+      "gitBlob": "0dd26bf55386919214787f284637414d7e797f4b",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/mapped-marked-and-broader-node-sample-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "6b1348e410ca8c76d114b84ed5b01760d530a511fa5254c7050b9ffaf60434f8",
+      "gitBlob": "b58940a3fb80f66df592801cafb2001ec6b1f397",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40",
+      "gitBlob": "a21ad5637e002529fb4c669dc948d9ce1bfbbd06",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426",
+      "gitBlob": "3cded1919bbf4b5e7ca23029f330cce4a9d3e82a",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f",
+      "gitBlob": "c59aedde11d996cb70dd06a345651c4bea275aed",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70",
+      "gitBlob": "f9f0369aae31d567c706aa502422e64e8cac3f24",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "ecab1ca9fefc9b0b3a7d00b18f0438110e9740e7dd9cce4591e5dc7768a9eb40",
+      "gitBlob": "a21ad5637e002529fb4c669dc948d9ce1bfbbd06",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-edges-main-and-final-v2-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "0e05e0f42f0943e7dd072a6c0d97b72467e2c3efa4d167ca48127c9cbe34e426",
+      "gitBlob": "3cded1919bbf4b5e7ca23029f330cce4a9d3e82a",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "4f6a49d17b1fd8908dc826e12989e036844a5ef609906ebbf113ffcc21e6aa9f",
+      "gitBlob": "c59aedde11d996cb70dd06a345651c4bea275aed",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/margin-close-versus-at-ink-v2-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "7976d33cdeac91b75a3846057335dac3d599aa32f251bad051b70d9760ac7d70",
+      "gitBlob": "f9f0369aae31d567c706aa502422e64e8cac3f24",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc",
+      "gitBlob": "7f548965ca2a9e66fdab3f64721a083d04fc3688",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "version": "original",
+      "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09",
+      "gitBlob": "4b8bd9412c5b805a2375814ad170aa67502d8bbc",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-light.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "5413a4483615e642900bad15e20b098fd7e01e7dc81b7b1417d5c331a096b9fc",
+      "gitBlob": "7f548965ca2a9e66fdab3f64721a083d04fc3688",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    },
+    {
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/treatment-bed-three-extents-v1-dark.svg",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "version": "later",
+      "sha256": "3a47c37c8548d27d4c655720ed454104c166699f164f0ce65adea5d901ec4b09",
+      "gitBlob": "4b8bd9412c5b805a2375814ad170aa67502d8bbc",
+      "viewingAttribution": "Independent Sonnet reviewer; this worker did not claim the views as its own.",
+      "identityMatch": true
+    }
+  ],
+  "families": [
+    {
+      "figureId": "tdlu-branching-neighborhood",
+      "lessonContext": "breast-anatomy.md",
+      "reviewerScientificDisposition": "Shows larger duct -> terminal duct -> 5 acini inside bracket, stroma around. Consistent with the caption claim that the bracket is an annotation, not a capsule. DCEG page (raw) confirms TDLU = lobule, epithelial structure, acini per TDLU, involution reduces acini count. Raw DCEG text does NOT say the terminal duct is part of the TDLU; that inclusion (bracket begins at the terminal duct) is unverified from any retrieved raw source.",
+      "reviewerIssues": [
+        "Terminal-duct-in-TDLU boundary unsourced in retrieved raw text",
+        "Colour layers unlabelled in this panel",
+        "Raster provenance (who/what drew it) not recorded"
+      ],
+      "contentWorkerReconciliation": "Terminal duct plus acini definition independently supported by UBC pathology normal-breast chapter, page 22 (raw PDF retained). DCEG supports involution. Missing colour key and artwork provenance remain source-artwork issues.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "tdlu-nested-boundary",
+      "lessonContext": "breast-anatomy.md",
+      "reviewerScientificDisposition": "Order lumen -> luminal cells (pink) -> myoepithelial (green, nuclei) -> basement membrane (blue band) -> stroma is drawn correctly and the \"living cells\" vs \"extracellular material\" sub-labels carry the key distinction. The myoepithelial layer is drawn as an essentially continuous ring; the raw p63/calponin/SMM-HC abstract (PMID 12502930) reports focal gaps in the myoepithelial layer in a minority of cases, so continuity is a simplification.",
+      "reviewerIssues": [
+        "Continuous myoepithelial ring is a simplification (p63 study: focal gaps around nests incl. DCIS)",
+        "Inset is a thumbnail, not a labelled magnification step"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "dcis-coexisting-components",
+      "lessonContext": "dcis.md",
+      "reviewerScientificDisposition": "DCIS cells fill a duct whose wall shows green myoepithelial ring and blue basement-membrane band; a separate invasive cluster sits in stroma with no myoepithelial ring. Matches caption (location, not diagnosis, not an inevitable progression). Epithelial cluster is solid; no grade/necrosis shown (not claimed).",
+      "reviewerIssues": [
+        "Typo \"Myoepi'thelial\" burned into raster in light and dark; needs regeneration or an overlay fix by owner",
+        "Continuous myoepithelial ring simplification"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "breast-regional-map",
+      "lessonContext": "lymphatic-drainage-and-axilla.md; internal-mammary-nodes.md",
+      "reviewerScientificDisposition": "Left breast front view: sternum at viewer left, breast to its right, axilla lateral: orientation correct. Dashed arrows go to internal mammary and axillary nodes and are labelled \"possible fluid routes\". Level I lateral / II behind / III medial are placed in the correct order relative to the pectoralis minor. The muscle is drawn as a wedge whose broad end is upper-right and narrow tip lower-left, which reverses the usual shape (muscle fans from ribs to a narrow coracoid insertion): flag as generic silhouette. The PDQ AJCC table (raw) places level III nodes infraclavicular. Raw Suami cadaver paper (PMC2234450) supports radial drainage to axilla plus perforating vessels to internal mammary lymphatics; it contains no mention of an intramammary node or of level I-III definitions, so those two labels are not verified.",
+      "reviewerIssues": [
+        "Clavicle line overstrikes \"Axilla\" label",
+        "Pectoralis minor silhouette orientation generic/possibly reversed",
+        "Intramammary node and level I-III definitions unverified from retrieved raw text"
+      ],
+      "contentWorkerReconciliation": "CAP 4.11 Note M directly supports level I/II/III positions and intramammary inclusion with axillary N staging. Diagram label strike-through and silhouette concerns remain; a cartoon is not precise operative anatomy.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "idc-within-boundary-and-stroma",
+      "lessonContext": "invasive-ductal-carcinoma.md",
+      "reviewerScientificDisposition": "Scene A: malignant cells inside the duct boundary; scene B: cells pass through a gap in the gold band into stroma. Stated limits (\"not a time sequence\", \"A cartoon is not a stand-alone invasion test\", grade/receptors/stage need own evidence) are appropriate. No numbers.",
+      "reviewerIssues": [
+        "Green/blue rings unlabelled",
+        "NST not expanded on the figure",
+        "The gap in the band could be read as a mechanism of invasion"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "myoepithelial-layers",
+      "lessonContext": "myoepithelial-cells-and-basement-membrane.md",
+      "reviewerScientificDisposition": "Concentric lumen / luminal / myoepithelial / basement-membrane (hatched) / stroma is correct and the inset separates a cell plasma membrane from extracellular matrix, matching its question title. Rings are complete and uniform; real layer shows focal gaps (PMID 12502930 abstract). Hatched band reads as a distinct structure.",
+      "reviewerIssues": [
+        "Complete uniform ring is a simplification",
+        "Inset shows luminal cell as a block only"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "three-microscopic-features-before-grade",
+      "lessonContext": "histologic-grade.md",
+      "reviewerScientificDisposition": "Arithmetic check: 2+3+3 = 8, and AJCC/NCI PDQ raw table gives G3 = SBR 8-9 points (G1 3-5, G2 6-7): correct. Elston-Ellis abstract (PMID 1757079) confirms three features (tubule formation, nuclear pleomorphism, mitotic count with defined field area) summed to three grades. The figure deliberately omits cutoffs. The mitotic icon (spindle with two chromosomes) is schematic. Fictional score is not tied to the icons above it.",
+      "reviewerIssues": [
+        "Icons carry no score rule; the 2/3/3 report is a separate fictional note",
+        "Tubule/nuclear/mitotic cutoffs absent by design"
+      ],
+      "contentWorkerReconciliation": "Assigned 2/3/3 scores remain fictional. CAP synoptic fields pages 6-7 and Note E read; verified tubule thresholds added, nuclear comparison uses benign epithelial nuclei. Exact RCPath legacy ratios/biopsy agreement not verified and not restored.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4,
+      "priorReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module."
+    },
+    {
+      "figureId": "eligible-nuclei-and-three-estimators",
+      "lessonContext": "ki-67.md",
+      "reviewerScientificDisposition": "Arithmetic verified: A 90/900 = 10%; B 50/100 = 50%; pooled 140/1000 = 14%; field mean (10+50)/2 = 30%; hotspot B = 50%. Bar proportions correct (A 90% / B 10% of width). Raw IKWG 2021 full text (PMC8487652) Box 1 describes a weighted global method scoring 100 nuclei in each field type, so the \"not the IKWG weighted-global algorithm\" caption is supported. IKWG reports hotspot scoring had lower reproducibility than global scoring (ICC 0.84 vs 0.87 core biopsy). The same text gives 5% or less / 30% or more for prognosis in T1-2 N0-1 ER+/HER2- disease; the figure's field mean of 30% numerically coincides and must not be read as that cutoff. 100 nuclei in field B is a fictional, tiny field.",
+      "reviewerIssues": [
+        "Field-mean 30% coincides with IKWG 30% prognostic cut value",
+        "Colour reuse for tan"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "node-count-and-deposit-size-context",
+      "lessonContext": "n-categories-and-nodal-burden.md",
+      "reviewerScientificDisposition": "Raw NCI PDQ (AJCC 8th) table: pN1mi = micrometastases (~200 cells, >0.2 mm, <=2.0 mm); pN1a = 1-3 axillary nodes with at least one >2.0 mm. Case A (three 0.8 mm deposits) -> pN1mi consistent; case B (one 4 mm among three) -> pN1a consistent only if all three nodes are positive; panel B leaves two nodes as \"?\" outlines and does not say they are positive. ITC rule is only gestured at (\"separate counting rules\"): PDQ gives pN0(i+) for clusters <=0.2 mm. Sentinel (sn) suffix and neoadjuvant context not shown.",
+      "reviewerIssues": [
+        "Panel B does not state that the two \"?\" nodes are positive",
+        "No numeric ITC boundary shown"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "specimen-collection-and-later-addendum",
+      "lessonContext": "tnm-staging.md",
+      "reviewerScientificDisposition": "Raw PDQ text: use of neoadjuvant therapy does not change clinical (pretreatment) stage; c prefix clinical; yc/yp after neoadjuvant therapy. Figure matches. The report-date rule (\"a later issue date does not supply yp\") is a reasoning point, not a quoted source claim.",
+      "reviewerIssues": [
+        "No source states the addendum-date rule; keep as a worked-reasoning requirement"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "ene-boundaries",
+      "lessonContext": "extranodal-extension.md",
+      "reviewerScientificDisposition": "Capsule breach by contiguous deposit into nearby soft tissue = ENE: matches the raw definition in PMC8099896 (\"tumor cells breaking through the lymph node capsule into peripheral adipose tissue\"). Inked cut edge and vessel lumen are shown as separate questions. The figure shows no ruler (agrees with raw survey PMID 36030639: no uniform measurement method; 47% largest dimension, 30% perpendicular from capsule). Prognostic claims for ENE are not in the figure.",
+      "reviewerIssues": [
+        "The ENE definition source is a single-centre cohort paper, not a staging manual",
+        "Source SVG text nodes lack spaces (accessibility/search only)"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "gland-removal-and-outer-structures",
+      "lessonContext": "lumpectomy-vs-mastectomy.md",
+      "reviewerScientificDisposition": "Qualitatively consistent: lumpectomy removes a local region and keeps much gland; nipple-sparing mastectomy removes gland and keeps skin envelope/nipple. No outcome claims. Retroareolar tissue handling and residual breast tissue after mastectomy are not depicted; no raw source retrieved for surgical extent.",
+      "reviewerIssues": [
+        "No removed-tissue key in the NSM panel",
+        "No source retrieved for surgical-extent statements (illustration only)"
+      ],
+      "contentWorkerReconciliation": "NCI mastectomy and lumpectomy pages directly describe tissue removal and retained skin/nipple variants. Source evidence gap resolved; artwork key remains a source-artwork issue.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "pcr-components-v2",
+      "lessonContext": "pcr.md",
+      "reviewerScientificDisposition": "Two cases differ only in node: A no residual nodal cancer, B 4 mm invasive deposit; both no residual invasive breast, residual DCIS. Consistent with the CTNeoBC abstract definitions (ypT0 ypN0, ypT0/is ypN0, ypT0/is) and the PDQ statement that pCR = no residual invasive cancer in breast and nodes with or without in situ. ITC handling in nodes is not shown.",
+      "reviewerIssues": [
+        "ITCs in nodes not addressed",
+        "FDA guidance text not retrieved"
+      ],
+      "contentWorkerReconciliation": "FDA July 2020 Rev1 sections III/IV read at their actual trial-design/accelerated-approval scope. Current pCR notes state permissive versus strict definitions and specimen scope. ITC handling must retain its protocol; no inference from ypN0 shorthand.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4,
+      "priorReconciliation": "FDA July 2020 guidance sections III/IV read directly. It specifies complete resected breast and all sampled regional nodes and permissive versus strict definitions. ITC handling remains protocol-specific, not inferred from ypN0 shorthand."
+    },
+    {
+      "figureId": "pcr-definitions-and-margins-v2",
+      "lessonContext": "pcr.md",
+      "reviewerScientificDisposition": "Logic check: A (no invasive, DCIS, N0) meets ypT0/Tis ypN0 and not ypT0 ypN0; B (4 mm node) meets neither: correct. \"Response does not settle margins or mean cure\": CTNeoBC interpretation says pCR is prognostic but could not be validated as a surrogate endpoint (trial-level R2 0.03 EFS, 0.24 OS), supporting the caution on cure; margin independence is the figure's own point (SSO-ASTRO margin abstracts, which concern breast-conserving surgery).",
+      "reviewerIssues": [
+        "No mention that DCIS-at-ink in a pCR case triggers separate margin decisions beyond the figure"
+      ],
+      "contentWorkerReconciliation": "CAP Note L directly establishes component-specific final margins; FDA and CTNeoBC support separate response definitions and outcome interpretation. A response label allowing DCIS does not resolve DCIS at final ink.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "tumor-bed-area-denominators",
+      "lessonContext": "tumor-bed-cellularity.md; residual-cancer-burden.md",
+      "reviewerScientificDisposition": "Arithmetic verified: 20 tiles x 5 units = 100; 4 cancer tiles = 20 units = 20% of bed; 1 of 4 hatched = 25% in situ; 20% x 75% = 15%; 5 in situ + 15 invasive units. Raw MDACC page and protocol define %CA as percentage of tumour-bed area that contains carcinoma (invasive + in situ) and %CIS as the percentage of that cancer that is in situ; cellularity is area-based (model 1 cell = 0.1% area). NOTE: the protocol/calculator choose %CIS from 0,1,5,10,20,...,100, so the 25% value is not an allowed entry; it is fictional simplification only.",
+      "reviewerIssues": [
+        "25% in situ is not an RCB calculator option (steps 0,1,5,10,20,..)",
+        "Tile grid is not an area-estimation method"
+      ],
+      "contentWorkerReconciliation": "25% denominator arithmetic is fictional and correct, but outside MD Anderson nearest-10% with low 1%/5% estimation choices. Free-text calculator acceptance does not validate a protocol increment. Current owned notes explicitly distinguish these facts and the separate S=50 RCB specimen; artwork unchanged.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4,
+      "priorReconciliation": "The grid arithmetic is independently correct and explicitly fictional area teaching. The claim that 25% in situ is not a calculator entry is too strong: the current official calculator uses a free text input and returned 1.591 RCB-II for a documented fictional example with 25%. Protocol estimation conventions do not prohibit that text input. It remains a denominator example, not a clinical estimation instruction."
+    },
+    {
+      "figureId": "rcb-breast-and-node-inputs",
+      "lessonContext": "residual-cancer-burden.md",
+      "reviewerScientificDisposition": "Six RCB inputs per raw protocol: d1, d2, %CA, %CIS, positive node count, largest metastasis diameter: figure shows the two dimensions, two area fractions and node inputs. Protocol states internal mammary nodes may reasonably be included; ITC handling not stated in retrieved raw text (Symmans 2007 full text paywalled).",
+      "reviewerIssues": [
+        "The d1/d2 box is drawn as a rectangle; the protocol defines the bed by gross measure revised microscopically",
+        "ITC counting in RCB unresolved"
+      ],
+      "contentWorkerReconciliation": "CAP 4.11 Note K directly resolves RCB counting: routine-stain ITC-only nodes enter RCB positive-node inputs although excluded from AJCC positive-node counts; nodal dimensions can also differ.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "mapped-marked-and-broader-node-sample",
+      "lessonContext": "sentinel-node-and-axillary-dissection.md",
+      "reviewerScientificDisposition": "Tracer-mapped A/B (bold rings), clipped C, overlap example, broader axillary tissue packet. Raw TAD abstract (PMID 26811528): clipped node not retrieved as an SLN in 23% (31/134); adding the clipped node lowered FNR to 1.4%. Z1071 abstract (PMID 24101169): FNR 12.6% with >=2 SLNs after chemotherapy. The figure states no rates. \"Tracer routes are not cancer-spread tracks\" is a reasoned caution.",
+      "reviewerIssues": [
+        "No numeric claims, so nothing to check beyond identity of overlap/non-overlap"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "margin-edges-main-and-final-v2",
+      "lessonContext": "surgical-margins.md",
+      "reviewerScientificDisposition": "Invasive cells at original inked edge and at the final outer edge of a separate strip; edges kept distinct. Raw SSO-ASTRO abstract (PMID 24521674): positive margin = ink on invasive carcinoma or DCIS; no ink on tumor is the adequate margin for invasive cancer. The figure shows no distances.",
+      "reviewerIssues": [
+        "Whether invasive cells at the final outer ink of the strip changes the overall margin call is not stated in the figure (needs specimen-level report rule)"
+      ],
+      "contentWorkerReconciliation": "CAP 4.11 Note L explicitly bases final status on relevant additional margins and final main-specimen edges. Involved means invasive carcinoma/DCIS at confirmed final ink.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "margin-close-versus-at-ink-v2",
+      "lessonContext": "surgical-margins.md",
+      "reviewerScientificDisposition": "DCIS 0.7 mm from ink vs DCIS at ink. Raw DCIS guideline abstract (PMID 27528719): negative margins halve IBTR vs ink on DCIS; 2 mm is the standard adequate margin when treated with whole-breast radiation; margins <2 mm alone are not an indication for mastectomy. The figure gives no 2 mm threshold and says distance alone does not choose an operation (supported). That guideline is for DCIS; invasive cancer with DCIS follows the invasive guideline per its full text (PMC5477830, EIC discussion).",
+      "reviewerIssues": [
+        "2 mm threshold and its pure-DCIS / WBRT scope not shown"
+      ],
+      "contentWorkerReconciliation": "Source teaching and limits assessed against this worker's primary/official source map; retain reviewer observations and any artwork issues. No artwork copied into the public module.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4
+    },
+    {
+      "figureId": "treatment-bed-three-extents",
+      "lessonContext": "treatment-effect-in-pathology.md",
+      "reviewerScientificDisposition": "CONFLICT RISK: the figure says RCB = \"two-dimensional residual span; includes separated invasive foci\" and draws blue bars across invasive foci only. Raw MDACC protocol says d1 and d2 are the dimensions of the residual tumour bed (largest bed if multicentric), starting from the gross bed and revised after microscopy to the extent of residual cancer, and cellularity counts invasive OR in situ cancer. So \"residual span\" is only right if described as the microscopically revised bed and it should not exclude in situ. The ypT line (\"largest contiguous invasive focus\") could not be checked against a raw AJCC/CAP text (PDQ raw page does not contain the rule; CAP PDF returned 403 in the prior round).",
+      "reviewerIssues": [
+        "RCB bars defined by invasive foci only; protocol includes in situ and uses revised tumour bed",
+        "ypT contiguous-focus rule unverified from raw",
+        "Bracket wider than bed outline"
+      ],
+      "contentWorkerReconciliation": "CAP 4.11 residual-invasive span excludes DCIS; MD Anderson gross bed is microscopically revised and its cellularity includes invasive plus in situ cancer. The protocols are now named separately in all three relevant owners. CAP supports the contiguous ypT focus rule. Neither protocol wording is silently substituted for the other. Bracket-layout concern remains in artwork.",
+      "viewAttribution": "Independent Sonnet reviewer; 40 distinct individual full-extent views, with exact-identity reuse for later versions.",
+      "entryCount": 4,
+      "priorReconciliation": "Reviewer recommendation to extend RCB dimensions to in-situ-only extent is rejected for current CAP 4.11 guidance. Note K and Figure K1 specify the two-dimensional span of residual invasion, not DCIS, potentially discontiguous. Overall cellularity separately includes invasive plus in situ cancer; these are different definitions. The contiguous-focus ypT rule is also explicit. Bracket layout remains an artwork defect."
+    }
+  ],
+  "viewAttribution": "Independent reviewer: forty individual full-extent light/dark views; version reuse by identical blobs. Coordinator did not claim new image views.",
+  "copiedArtwork": 0
+}

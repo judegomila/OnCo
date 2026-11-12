@@ -1,0 +1,1238 @@
+{
+  "dataCommit": "4f3fa3b55765676ceea5271a2941f5b4c57260bd",
+  "matchingCurrentRootReferencesRebound": 51,
+  "distinctFields": 5,
+  "references": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "pointId": "requirement-3",
+      "requirement": "Test allele/transcript RNA fate separately from protein amount/function; compensation and mixtures can mask gene-level effects.",
+      "before": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-biology",
+        "field": "notes",
+        "fieldSha256": "fe774a401e19bf6bf8e0c05a174a3ca5607c1c171ce7a326df0ca4e19ade312a",
+        "explanation": "Explains compensation/mixtures and allele/transcript measurement separately from protein persistence and function."
+      },
+      "after": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "1214f2270df90c50cab1af50aa67ac80944c972fd28e4629702ef6e8bd37b5e6",
+        "explanation": "Explains compensation/mixtures and allele/transcript measurement separately from protein persistence and function. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "pointId": "peptide-chain",
+      "requirement": "Separate a prediction of RNA decay from measured peptide generation, HLA display and immune recognition.",
+      "before": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-biology",
+        "field": "notes",
+        "fieldSha256": "fe774a401e19bf6bf8e0c05a174a3ca5607c1c171ce7a326df0ca4e19ade312a",
+        "explanation": "RNA decay does not establish the remaining protein’s identity, persistence or function."
+      },
+      "after": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "1214f2270df90c50cab1af50aa67ac80944c972fd28e4629702ef6e8bd37b5e6",
+        "explanation": "RNA decay does not establish the remaining protein’s identity, persistence or function. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "pointId": "antigen-r38",
+      "requirement": "Distinguish allele-specific HLA-C expression, a scoped HLA-A/B/C comparison and a method-dependent observed peptide share, without inferring a universal expression hierarchy or binding advantage.",
+      "before": {
+        "recordId": "hla",
+        "version": "proposal-antigen-antibodies",
+        "field": "notes",
+        "fieldSha256": "2e726229ab460d92ac471d8c5386d9928e4d91d678476ad9b582f6317f4d6bab",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "hla",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "3296b75ef7b097712fb127edccb90784a2f2f996ecd84fabd158d9fd9dd17bd8",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.density-definition",
+      "requirement": "TMB is the density of eligible somatic mutations over the assay reporting region, in mut/Mb (Mb = one million bases); the numerator rules, filters and any calibration are method-specific.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.denominator",
+      "requirement": "Panel, exome and genome examine different regions; a cancer-gene-enriched region need not behave as a random genomic sample.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.harmonisation",
+      "requirement": "When laboratories analysed the same exome data with their own regions and pipelines panel TMB estimates varied; this was a computational comparison, not proof of interchangeability for treatment selection.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.neoantigen-limit",
+      "requirement": "More mutations offer more candidate neoantigens, but processing, HLA display and immune function still matter; high TMB neither guarantees checkpoint benefit nor applies to all cancers.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.label-1-18",
+      "requirement": "Retain the FDA-authorised test, disease and treatment-setting conditions, and distinguish the historical 10-mut/Mb accelerated indication from the October 2026 13-mut/Mb traditional indication.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.worked-12-vs-24",
+      "requirement": "24 eligible mutations over 2 Mb is 12 mut/Mb and over 1 Mb is 24 mut/Mb; not comparable clinically without counting and calibration rules; a research result does not establish authorised-test eligibility.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.not-cin-not-msi",
+      "requirement": "TMB differs from copy-number instability and from MSI, and a TMB category does not settle an individual outcome.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.assay-contract",
+      "requirement": "Retain measurement inputs, consumption, procedure, units, quality rules, failure modes and intended-use limitations from the assay table.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.study-design-boundary",
+      "requirement": "Retain the nonrandomized supporting analysis and distinguish its population from early triple-negative breast cancer treatment selection.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "pointId": "requirement-3",
+      "requirement": "Test allele/transcript RNA fate separately from protein amount/function; compensation and mixtures can mask gene-level effects.",
+      "before": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-biology",
+        "field": "notes",
+        "fieldSha256": "fe774a401e19bf6bf8e0c05a174a3ca5607c1c171ce7a326df0ca4e19ade312a",
+        "explanation": "Explains compensation/mixtures and allele/transcript measurement separately from protein persistence and function."
+      },
+      "after": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "1214f2270df90c50cab1af50aa67ac80944c972fd28e4629702ef6e8bd37b5e6",
+        "explanation": "Explains compensation/mixtures and allele/transcript measurement separately from protein persistence and function. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "pointId": "peptide-chain",
+      "requirement": "Separate a prediction of RNA decay from measured peptide generation, HLA display and immune recognition.",
+      "before": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-biology",
+        "field": "notes",
+        "fieldSha256": "fe774a401e19bf6bf8e0c05a174a3ca5607c1c171ce7a326df0ca4e19ade312a",
+        "explanation": "RNA decay does not establish the remaining protein’s identity, persistence or function."
+      },
+      "after": {
+        "recordId": "nonsense-mediated-decay",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "1214f2270df90c50cab1af50aa67ac80944c972fd28e4629702ef6e8bd37b5e6",
+        "explanation": "RNA decay does not establish the remaining protein’s identity, persistence or function. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:comparison",
+      "requirement": "Compare predicted HLA binding for mutant and matched wild-type peptide windows for a named allele.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Compare predicted HLA binding for mutant and matched wild-type peptide windows for a named allele.",
+        "supportingExcerpt": "Agretopicity compares two predicted binding scores for the same stretch of protein: the mutant peptide carrying the tumour's altered amino acid, and its wild-type counterpart from the normal genome, each scored against a person's human leukocyte antigen (HLA) class I molecules by prediction software. Duan and colleagues named the numerical difference in NetMHC scores between mutated and unmutated sequences the differential agretopic index (DAI). Duan subtracted the wild-type NetMHC score from the mutant score. Some groups use a ratio instead, and sign conventions and subtraction order differ between papers, so a DAI value cannot be compared across pipelines without reading each one's definition.",
+        "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Compare predicted HLA binding for mutant and matched wild-type peptide windows for a named allele. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity compares two predicted binding scores for the same stretch of protein: the mutant peptide carrying the tumour's altered amino acid, and its wild-type counterpart from the normal genome, each scored against a person's human leukocyte antigen (HLA) class I molecules by prediction software. Duan and colleagues named the numerical difference in NetMHC scores between mutated and unmutated sequences the differential agretopic index (DAI). Duan subtracted the wild-type NetMHC score from the mutant score. Some groups use a ratio instead, and sign conventions and subtraction order differ between papers, so a DAI value cannot be compared across pipelines without reading each one's definition.",
+        "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:convention",
+      "requirement": "Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines.",
+        "supportingExcerpt": "Agretopicity compares two predicted binding scores for the same stretch of protein: the mutant peptide carrying the tumour's altered amino acid, and its wild-type counterpart from the normal genome, each scored against a person's human leukocyte antigen (HLA) class I molecules by prediction software. Duan and colleagues named the numerical difference in NetMHC scores between mutated and unmutated sequences the differential agretopic index (DAI). Duan subtracted the wild-type NetMHC score from the mutant score. Some groups use a ratio instead, and sign conventions and subtraction order differ between papers, so a DAI value cannot be compared across pipelines without reading each one's definition.",
+        "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity compares two predicted binding scores for the same stretch of protein: the mutant peptide carrying the tumour's altered amino acid, and its wild-type counterpart from the normal genome, each scored against a person's human leukocyte antigen (HLA) class I molecules by prediction software. Duan and colleagues named the numerical difference in NetMHC scores between mutated and unmutated sequences the differential agretopic index (DAI). Duan subtracted the wild-type NetMHC score from the mutant score. Some groups use a ratio instead, and sign conventions and subtraction order differ between papers, so a DAI value cannot be compared across pipelines without reading each one's definition.",
+        "passageSha256": "37ec6e445ac81a624bb407b6811664230232be57f97e461a196796909c46d422"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:convention",
+      "requirement": "Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify difference or ratio, units, subtraction or division order and score direction before comparing pipelines. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:anchor",
+      "requirement": "An anchor-changing mutation can change presentation; state Duan’s mouse-model scope and combined rigidity result.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: An anchor-changing mutation can change presentation; state Duan’s mouse-model scope and combined rigidity result.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: An anchor-changing mutation can change presentation; state Duan’s mouse-model scope and combined rigidity result. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tolerance",
+      "requirement": "Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tolerance",
+      "requirement": "Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Treat weak wild-type display as a tolerance hypothesis rather than proof that every reactive clone escaped deletion. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:absolute",
+      "requirement": "A large mutant/wild-type difference does not establish strong absolute binding; retain Duan’s weak-affinity H-2Kd finding and threshold scope.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A large mutant/wild-type difference does not establish strong absolute binding; retain Duan’s weak-affinity H-2Kd finding and threshold scope.",
+        "supportingExcerpt": "A high value does not require strong absolute binding. In that mouse work the protective neoepitopes produced CD8-dependent immunity although their affinity for the mouse class I molecule H-2Kd was orders of magnitude weaker than the conventional 500 nanomolar threshold, which is part of the argument for ranking on the mutant-versus-wild-type comparison rather than on absolute predicted affinity alone.",
+        "passageSha256": "36f02d5f36e3726ae62764471df368aeceba4f76760be6e5fc647b3ebe359e81"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A large mutant/wild-type difference does not establish strong absolute binding; retain Duan’s weak-affinity H-2Kd finding and threshold scope. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "A high value does not require strong absolute binding. In that mouse work the protective neoepitopes produced CD8-dependent immunity although their affinity for the mouse class I molecule H-2Kd was orders of magnitude weaker than the conventional 500 nanomolar threshold, which is part of the argument for ranking on the mutant-versus-wild-type comparison rather than on absolute predicted affinity alone.",
+        "passageSha256": "36f02d5f36e3726ae62764471df368aeceba4f76760be6e5fc647b3ebe359e81"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:two-questions",
+      "requirement": "Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:two-questions",
+      "requirement": "Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Separate display from unfamiliarity; predicted fit is not measured presentation and tools can disagree. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:ranking",
+      "requirement": "Explain why paired binding can change candidate ranking while expression, clonality and measured presentation remain separate.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain why paired binding can change candidate ranking while expression, clonality and measured presentation remain separate.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain why paired binding can change candidate ranking while expression, clonality and measured presentation remain separate. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tissue",
+      "requirement": "Computation requires sequence and typing rather than a tissue-consuming presentation assay.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Computation requires sequence and typing rather than a tissue-consuming presentation assay.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Computation requires sequence and typing rather than a tissue-consuming presentation assay. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tiers",
+      "requirement": "Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Two separate ideas sit behind the measure. First, a mutation at a position the HLA groove grips can create a new anchor residue and change binding, potentially changing presentation; Duan and colleagues found that neoepitopes mutated to create new anchor residues, together with greater predicted rigidity of the peptide and HLA complex, identified protective neoepitopes with relatively high accuracy in mouse tumours (the CMS5 and Meth A mouse tumours). Second, reasoning rather than a finding of the cited papers: a peptide that normal tissue never displayed well may not have had its reactive T cells removed by self-tolerance, so a high value is sometimes read as a proxy for an intact T-cell repertoire against that target.",
+        "passageSha256": "55ae117853cfac8e00ea52879533e9b00b455dd72e866665939e6cdef192b7f8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tiers",
+      "requirement": "Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep binding mechanism, animal protection, retrospective human association and prospective clinical validation separate. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:ghorani-cohorts",
+      "requirement": "Retain the 66 lung and 72 melanoma TCGA cohorts plus 131 treated melanomas and 31 treated NSCLCs, with retrospective disease scope.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the 66 lung and 72 melanoma TCGA cohorts plus 131 treated melanomas and 31 treated NSCLCs, with retrospective disease scope.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the 66 lung and 72 melanoma TCGA cohorts plus 131 treated melanomas and 31 treated NSCLCs, with retrospective disease scope. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:three-five",
+      "requirement": "Mean DAI correlated with survival in three of five cohorts rather than uniformly across datasets.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mean DAI correlated with survival in three of five cohorts rather than uniformly across datasets.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mean DAI correlated with survival in three of five cohorts rather than uniformly across datasets. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:clonal",
+      "requirement": "Retain the clonal rather than subclonal peptide finding without turning association into an intervention effect.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the clonal rather than subclonal peptide finding without turning association into an intervention effect.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the clonal rather than subclonal peptide finding without turning association into an intervention effect. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:infiltration",
+      "requirement": "Retain DAI/infiltration P values 0.027 melanoma and 0.024 lung and their association scope.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain DAI/infiltration P values 0.027 melanoma and 0.024 lung and their association scope.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain DAI/infiltration P values 0.027 melanoma and 0.024 lung and their association scope. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:heterogeneity",
+      "requirement": "Retain the melanoma P=0.068 versus treated-cohort P=0.003 contrast and avoid a universal ranking claim.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the melanoma P=0.068 versus treated-cohort P=0.003 contrast and avoid a universal ranking claim.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the melanoma P=0.068 versus treated-cohort P=0.003 contrast and avoid a universal ranking claim. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:tesla",
+      "requirement": "Retain the consortium’s 608 epitopes, 310 validation, 98% nonimmunogenic filtering and precision above 0.70 without inventing which features its abstract names.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the consortium’s 608 epitopes, 310 validation, 98% nonimmunogenic filtering and precision above 0.70 without inventing which features its abstract names.",
+        "supportingExcerpt": "The 2020 Tumor Neoantigen Selection Alliance study tested which peptide features predict immunogenicity: 608 predicted epitopes were assessed for T-cell binding in patient-matched samples, and a model integrating peptide features linked to presentation and recognition filtered out 98% of non-immunogenic peptides at a precision above 0.70, then held in an independent cohort of 310 epitopes (Wells and colleagues). Its abstract does not say which features entered the model, so this record does not claim that the study supported or rejected agretopicity.",
+        "passageSha256": "03d6ce0cb5a137a8a9effdd3a3dfb668a3eaec0b7d8c6dec3671c07958311f7c"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain the consortium’s 608 epitopes, 310 validation, 98% nonimmunogenic filtering and precision above 0.70 without inventing which features its abstract names. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The 2020 Tumor Neoantigen Selection Alliance study tested which peptide features predict immunogenicity: 608 predicted epitopes were assessed for T-cell binding in patient-matched samples, and a model integrating peptide features linked to presentation and recognition filtered out 98% of non-immunogenic peptides at a precision above 0.70, then held in an independent cohort of 310 epitopes (Wells and colleagues). Its abstract does not say which features entered the model, so this record does not claim that the study supported or rejected agretopicity.",
+        "passageSha256": "03d6ce0cb5a137a8a9effdd3a3dfb668a3eaec0b7d8c6dec3671c07958311f7c"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:immunogenicity",
+      "requirement": "Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:immunogenicity",
+      "requirement": "Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish predicted binding comparison from measured T-cell immunogenicity and from absolute binding strength. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:self-similarity",
+      "requirement": "Distinguish mutant/wild-type HLA binding from sequence self-similarity.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish mutant/wild-type HLA binding from sequence self-similarity.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish mutant/wild-type HLA binding from sequence self-similarity. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:class-scope",
+      "requirement": "Attribute the cited evidence to class I; do not generalize those studies to class II or assert that no class-II comparison can exist.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Attribute the cited evidence to class I; do not generalize those studies to class II or assert that no class-II comparison can exist.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Attribute the cited evidence to class I; do not generalize those studies to class II or assert that no class-II comparison can exist. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not absolute binding strength: the reference is the peptide's own wild-type version. It is also different from sequence self-similarity, which asks how much a peptide resembles normal human sequences more broadly. The Duan and Ghorani studies concern class I; their findings do not validate a class-II ranking rule. HLA is the human form of the major histocompatibility complex, called MHC in the mouse experiments.",
+        "passageSha256": "b0ee7339024430ea125c71f2dcb3af2a734cec9713effd99b477158a977f147c"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:pipeline",
+      "requirement": "Report typing, allele, prediction tool, both peptide scores and the combination rule; inherit uncertainty from both typing and prediction.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Report typing, allele, prediction tool, both peptide scores and the combination rule; inherit uncertainty from both typing and prediction.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Report typing, allele, prediction tool, both peptide scores and the combination rule; inherit uncertainty from both typing and prediction. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:gates",
+      "requirement": "Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Agretopicity is not immunogenicity. It is a predicted property of a peptide and HLA pair, while immunogenicity is a measured T-cell response; prediction, presentation and recognition are three separate questions, and agretopicity speaks only to the first. Whether a peptide is actually displayed is a separate measurement (immunopeptidomics), and whether T cells respond to it is another again.",
+        "passageSha256": "2649af360ca247dae06e2a4a6ecf902b5abd97749dc55d23295adc17d274cf4a"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:gates",
+      "requirement": "Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "d3b3329a17e650e530576a3a41ed4adf6399c8835c27977edb62f2ecf6d28b2d",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "231ce381c4276aa731dd5642c961d2a1cd83bb54b2a83ba2f5f482e8376789bf",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use separate presentation and T-cell assays to test the later gates; no DAI threshold alone establishes clinical benefit. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "The score is computed from sequence and binding predictions for the alleles supplied by HLA typing. Retain the peptide windows, allele, predictor and version, both scores, units and subtraction or ratio rule. Sign conventions differ, so a larger number in one pipeline need not match another's scale. Computation adds no tissue assay, but depends on the sequence and typing inputs. On a design board it sits beside expression, clonality and measured presentation. Absolute affinity alone does not reveal how much the mutant differs from its wild-type counterpart. Neither comparison proves escape from tolerance, natural presentation or a useful T-cell response. Different predictors can give different estimates for the same peptide pair.",
+        "passageSha256": "523c85ce28bff09e2128cb864bf0d62450117b9a6ee42ed17adb1ecfccb5c6d8"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "pointId": "agretopicity:burden-comparison",
+      "requirement": "Retain Ghorani’s reported comparison with nonsynonymous mutational and neoantigen burden at its retrospective-cohort scope, without a universal superiority claim.",
+      "before": {
+        "recordId": "agretopicity",
+        "version": "proposal-tumor-immunology-root",
+        "field": "summary",
+        "fieldSha256": "47a62824e3ac1e6846a438047e582130f6baf593508c27068b2b3b2ce2dbecdc",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain Ghorani’s reported comparison with nonsynonymous mutational and neoantigen burden at its retrospective-cohort scope, without a universal superiority claim.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "after": {
+        "recordId": "agretopicity",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "summary",
+        "fieldSha256": "21b0dca07b6b0b9c85ba3896bd64d13bad62d66484b4a05a864cd654293f6a05",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Retain Ghorani’s reported comparison with nonsynonymous mutational and neoantigen burden at its retrospective-cohort scope, without a universal superiority claim. Rebound to the current committed root field. Agretopicity is distinguished from DAI; the mutant/normal comparison, formula conventions, model/cohort limits and later-gate teaching remain. Earlier primary-reading depth and acceptance limits are not upgraded.",
+        "supportingExcerpt": "Ghorani’s retrospective human analysis included 66 lung adenocarcinomas and 72 melanomas from The Cancer Genome Atlas, plus three immunotherapy-treated cohorts containing 131 melanoma patients in total and 31 with non-small-cell lung cancer. Mean DAI correlated with overall survival in three of five cohorts, with the reported effect for clonal rather than subclonal peptides. The authors reported evidence of superiority over nonsynonymous mutational and neoantigen burden in these analyses, not a universally superior clinical predictor. Mean DAI also correlated with immune-infiltration measures in melanoma (P = 0.027) and lung adenocarcinoma (P = 0.024), whereas mutational and neoantigen burden did not. The association with survival was not uniform: P = 0.068 in the TCGA melanoma cohort and P = 0.003 in one treated melanoma cohort. These population associations and the animal protection findings are different evidence tiers. Neither prospectively demonstrates that selecting a vaccine by DAI improves clinical outcomes.",
+        "passageSha256": "e31984f83af9ba1d510cee5e1cf6dc3299d702132b9dc5333ce1a692b9ea25a9"
+      },
+      "scientificTermCorrection": true,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/hla.md",
+      "pointId": "antigen-r38",
+      "requirement": "Distinguish allele-specific HLA-C expression, a scoped HLA-A/B/C comparison and a method-dependent observed peptide share, without inferring a universal expression hierarchy or binding advantage.",
+      "before": {
+        "recordId": "hla",
+        "version": "proposal-antigen-antibodies",
+        "field": "notes",
+        "fieldSha256": "2e726229ab460d92ac471d8c5386d9928e4d91d678476ad9b582f6317f4d6bab",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet."
+      },
+      "after": {
+        "recordId": "hla",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "3296b75ef7b097712fb127edccb90784a2f2f996ecd84fabd158d9fd9dd17bd8",
+        "explanation": "Exact current field passage, bounded source reading, actual reader body and applicable actual export checks are retained in the batch packet. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.density-definition",
+      "requirement": "TMB is the density of eligible somatic mutations over the assay reporting region, in mut/Mb (Mb = one million bases); the numerator rules, filters and any calibration are method-specific.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.denominator",
+      "requirement": "Panel, exome and genome examine different regions; a cancer-gene-enriched region need not behave as a random genomic sample.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.harmonisation",
+      "requirement": "When laboratories analysed the same exome data with their own regions and pipelines panel TMB estimates varied; this was a computational comparison, not proof of interchangeability for treatment selection.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.neoantigen-limit",
+      "requirement": "More mutations offer more candidate neoantigens, but processing, HLA display and immune function still matter; high TMB neither guarantees checkpoint benefit nor applies to all cancers.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.label-1-18",
+      "requirement": "Retain the FDA-authorised test, disease and treatment-setting conditions, and distinguish the historical 10-mut/Mb accelerated indication from the October 2026 13-mut/Mb traditional indication.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.worked-12-vs-24",
+      "requirement": "24 eligible mutations over 2 Mb is 12 mut/Mb and over 1 Mb is 24 mut/Mb; not comparable clinically without counting and calibration rules; a research result does not establish authorised-test eligibility.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.not-cin-not-msi",
+      "requirement": "TMB differs from copy-number instability and from MSI, and a TMB category does not settle an individual outcome.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.assay-contract",
+      "requirement": "Retain measurement inputs, consumption, procedure, units, quality rules, failure modes and intended-use limitations from the assay table.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/measurement/sequencing-basics/tumor-mutational-burden.md",
+      "pointId": "measurement-r1.tumor-mutational-burden.study-design-boundary",
+      "requirement": "Retain the nonrandomized supporting analysis and distinguish its population from early triple-negative breast cancer treatment selection.",
+      "before": {
+        "recordId": "tmb",
+        "version": "proposal-measurement-sequencing",
+        "field": "notes",
+        "fieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10."
+      },
+      "after": {
+        "recordId": "tmb",
+        "version": "proposal-vaccine-presentation-guides-root",
+        "field": "notes",
+        "fieldSha256": "df46bbd16bd2f5be310855dec7c1d6df02aef138b175d6ccad757a26406a81ff",
+        "explanation": "Exact current passage, correction and actual reader/export check in measurement-sequencing-2026-11-10. Rebound to the current committed root field. Existing teaching remains byte-exact within the supplemented field. Earlier primary-reading depth and acceptance limits are not upgraded."
+      },
+      "scientificTermCorrection": false,
+      "priorLearningPointRetained": true
+    }
+  ],
+  "scope": "Only matching current-root field bindings are rebound. Frozen peer fields remain distinct, and source depth and independent acceptance are not upgraded."
+}

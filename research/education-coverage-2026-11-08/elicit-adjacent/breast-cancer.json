@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:15.289Z",
+  "request": {
+    "query": "Which original pathology and clinical-methods studies distinguish specimen orientation, inked margins, sampling, residual tumor cellularity, nodal deposits and treatment response in breast cancer pathology?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-30177312",
+        "title": "[Breast TUMORS].",
+        "authors": [
+          "Lee Jordan",
+          "J. Thomas"
+        ],
+        "year": 1956,
+        "doi": "10.1201/b13192-7",
+        "pmid": "13323898",
+        "venue": "La Revue du praticien",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "03705c1f161ed5268d73a89b066dd3c23e25fdf45f6560f6362c3d169b6e1826",
+          "characters": 1405
+        }
+      },
+      {
+        "elicitId": "ss-243622588",
+        "title": "P103. Intraoperative inking of breast specimens improves margin orientation concordance between the operating theatre and the pathology laboratory",
+        "authors": [
+          "E. S. St John",
+          "Lynsey Williams",
+          "Ashley Gilchrist",
+          "A. Heeney",
+          "Samantha Muktar",
+          "R. O'Connell",
+          "A. Nerurkar",
+          "J. Rusby",
+          "K. Krupa",
+          "P. Barry"
+        ],
+        "year": null,
+        "doi": "10.1016/j.ejso.2021.03.107",
+        "pmid": null,
+        "venue": "European Journal of Surgical Oncology",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-24409479",
+        "title": "The pathology of invasive breast cancer A Syllabus Derived from Findings of the National Surgical Adjuvant Breast Project (Protocol No. 4)",
+        "authors": [
+          "Edwin R. Fisher",
+          "R. Gregorio",
+          "B. Fisher",
+          "F. Vellios",
+          "S. Sommers"
+        ],
+        "year": 1975,
+        "doi": "10.1002/1097-0142(197507)36:1<1::AID-CNCR2820360102>3.0.CO;2-4",
+        "pmid": "173455",
+        "venue": "Cancer",
+        "citedByCount": 782,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "c6784578b5acc29b7d2a1c20572c4fddb8f1c054d7a28451beb72e67d75d73f5",
+          "characters": 1547
+        }
+      },
+      {
+        "elicitId": "ss-23818501",
+        "title": "[Recent therapeutic options and expectations to the pathologist].",
+        "authors": [
+          "A. Lebeau",
+          "R. Kreienberg"
+        ],
+        "year": 2005,
+        "doi": null,
+        "pmid": "18035674",
+        "venue": "Verhandlungen der Deutschen Gesellschaft fur Pathologie",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "210d472edf9d72ca1d5426b91c831ce480ba8fd215d5d2650bd6a0e8115b4061",
+          "characters": 1415
+        }
+      },
+      {
+        "elicitId": "ss-23091406",
+        "title": "Variability in Gross and Microscopic Pathology Reporting in Excisional Biopsies of Breast Cancer Tissue",
+        "authors": [
+          "S. Apple"
+        ],
+        "year": 2006,
+        "doi": "10.1111/j.1075-122X.2006.00222.x",
+        "pmid": "16509839",
+        "venue": "The Breast Journal",
+        "citedByCount": 20,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1075-122X.2006.00222.x",
+          "https://doi.org/10.1111/j.1075-122x.2006.00222.x"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1075-122X.2006.00222.x",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "eada524af550ed73118b231631c9d6e50618d7f8e7c1014a6f063d9c9e77aeb5",
+          "characters": 2035
+        }
+      },
+      {
+        "elicitId": "ss-225519900",
+        "title": "Grossing Breast Cancer Specimens: A Comprehensive Review",
+        "authors": [
+          "Apeksha N. Agarwal",
+          "J. Ritter",
+          "N. Dornbluth",
+          "Daniel D. Mais",
+          "A. Nazarullah"
+        ],
+        "year": 2020,
+        "doi": "10.1097/pcr.0000000000000388",
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "8105067c0259d50552bd3a1e342d6f15fe46447ea65cb76199e1f1069c019de1",
+          "characters": 902
+        }
+      },
+      {
+        "elicitId": "ss-201832276",
+        "title": "Intraoperative inking is superior to suture marking for specimen orientation in breast cancer",
+        "authors": [
+          "A. Altman",
+          "David-Dan Nguyen",
+          "Benjamin E. Johnson",
+          "S. Marmor",
+          "M. Klein",
+          "T. Tuttle",
+          "J. Hui"
+        ],
+        "year": 2020,
+        "doi": "10.1111/tbj.13508",
+        "pmid": "31482614",
+        "venue": "The Breast Journal",
+        "citedByCount": 9,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4c01d46f2116ce9834177055c8dee8b6d840c6d14cc79df9c4f922f7b07b0efc",
+          "characters": 1347
+        }
+      },
+      {
+        "elicitId": "ss-212621275",
+        "title": "Lack of Standardization in the Processing and Reporting of Post-Neoadjuvant Breast Cancer Specimens: A Survey of Canadian Pathologists and Pathology Assistants.",
+        "authors": [
+          "Rachel Han",
+          "Steffi Regpala",
+          "E. Slodkowska",
+          "S. Nofech-Mozes",
+          "W. Hanna",
+          "Carlos Parra-Herrán",
+          "Fang-I Lu"
+        ],
+        "year": 2020,
+        "doi": "10.5858/arpa.2019-0539-OA",
+        "pmid": "32142368",
+        "venue": "Archives of Pathology & Laboratory Medicine",
+        "citedByCount": 8,
+        "urls": [
+          "https://meridian.allenpress.com/aplm/article-pdf/144/10/1262/2603346/i1543-2165-144-10-1262.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://meridian.allenpress.com/aplm/article-pdf/144/10/1262/2603346/i1543-2165-144-10-1262.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "dddf1a6267b90c1a3a4796d436f905b99d4d967b1a7b37d30b9042f0f4ba7914",
+          "characters": 1870
+        }
+      },
+      {
+        "elicitId": "ss-43070291",
+        "title": "Limited resection for breast cancer: a study of inked specimen margins before radiotherapy.",
+        "authors": [
+          "B. McCormick",
+          "D. Kinne",
+          "J. Petrek",
+          "M. Osborne",
+          "L. Cox",
+          "B. Shank",
+          "S. Hellman",
+          "J. Yahalom",
+          "P. Rosen"
+        ],
+        "year": 1987,
+        "doi": "10.1016/0360-3016(87)90163-5",
+        "pmid": "2444573",
+        "venue": "International Journal of Radiation Oncology, Biology, Physics",
+        "citedByCount": 37,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-23940359",
+        "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group",
+        "authors": [
+          "E. Provenzano",
+          "V. Bossuyt",
+          "G. Viale",
+          "D. Cameron",
+          "S. Badve",
+          "C. Denkert",
+          "G. MacGrogan",
+          "F. Penault-Llorca",
+          "J. Boughey",
+          "G. Curigliano",
+          "J Michael Dixon",
+          "L. Esserman",
+          "G. Fastner",
+          "T. Kuehn",
+          "F. Peintinger",
+          "G. von Minckwitz",
+          "J. White",
+          "W. Yang",
+          "W. Symmans"
+        ],
+        "year": 2015,
+        "doi": "10.1038/modpathol.2015.74",
+        "pmid": "26205180",
+        "venue": "Modern Pathology",
+        "citedByCount": 247,
+        "urls": [
+          "https://www.nature.com/articles/modpathol201574.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/modpathol201574.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "3f5c6c51a662dce941ed7695482fcc0e34b7885566eb8a6538cb7698c175173b",
+          "characters": 2199
+        }
+      },
+      {
+        "elicitId": "ss-17786056",
+        "title": "The effect of intraoperative specimen inking on lumpectomy re-excision rates",
+        "authors": [
+          "Mansher Singh",
+          "Gayatri Singh",
+          "K. Hogan",
+          "K. Atkins",
+          "A. T. Schroen"
+        ],
+        "year": 2010,
+        "doi": "10.1186/1477-7819-8-4",
+        "pmid": "20082705",
+        "venue": "World Journal of Surgical Oncology",
+        "citedByCount": 46,
+        "urls": [
+          "https://wjso.biomedcentral.com/counter/pdf/10.1186/1477-7819-8-4"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://wjso.biomedcentral.com/counter/pdf/10.1186/1477-7819-8-4",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "22ebe66d0ed99065608fdcf938ba0df0657aa2150c4deac56b9efff2bf3c2dee",
+          "characters": 989
+        }
+      },
+      {
+        "elicitId": "ss-247163500",
+        "title": "Neoadjuvant Therapy in Breast Cancer: Histologic Changes and Clinical Implications.",
+        "authors": [
+          "M. Troxell",
+          "Tanya Gupta"
+        ],
+        "year": 2022,
+        "doi": "10.1016/j.path.2021.11.004",
+        "pmid": "35236634",
+        "venue": "Surgical Pathology Clinics",
+        "citedByCount": 10,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-21792644",
+        "title": "[Margin status in invasive breast cancer].",
+        "authors": [
+          "G. Houvenaeghel",
+          "E. Lambaudie",
+          "M. Buttarelli",
+          "M. Cohen",
+          "M. Bannier",
+          "A. Tallet",
+          "J. Jacquemier"
+        ],
+        "year": 2008,
+        "doi": "10.1684/bdc.2008.0766",
+        "pmid": "19091649",
+        "venue": "Bulletin du Cancer",
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 3,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "35c09a27916685cdfb297aed9d56a8220d0323716f3518b5655e2c2317623051",
+          "characters": 1220
+        }
+      },
+      {
+        "elicitId": "ss-528713",
+        "title": "Specimen‐orientated radiography helps define excision margins of malignant lesions detected by breast screening",
+        "authors": [
+          "C. Carter",
+          "N. Carty",
+          "G. Royle",
+          "J. Dixon"
+        ],
+        "year": 1993,
+        "doi": "10.1002/bjs.1800810165",
+        "pmid": "8155117",
+        "venue": "British Journal of Surgery",
+        "citedByCount": 23,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "0b8492611c1ea9fb98110be7b9f5d784c6b45c863eb2c585a7a42341b7baeb54",
+          "characters": 762
+        }
+      },
+      {
+        "elicitId": "ss-22995004",
+        "title": "Change in tumor cellularity of breast carcinoma after neoadjuvant chemotherapy as a variable in the pathologic assessment of response",
+        "authors": [
+          "Radhika Rajan",
+          "A. Poniecka",
+          "Terry L. Smith",
+          "Ying Yang",
+          "D. Frye",
+          "L. Pusztai",
+          "D. J. Fiterman",
+          "Eva C. Gal-Gombos",
+          "G. Whitman",
+          "R. Rouzier",
+          "M. Green",
+          "H. Kuerer",
+          "A. Buzdar",
+          "G. Hortobagyi",
+          "W. Symmans"
+        ],
+        "year": 2004,
+        "doi": "10.1002/cncr.20134",
+        "pmid": "15042669",
+        "venue": "Cancer",
+        "citedByCount": 175,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "5df39cf39e76052997de8f1b3be38b5d42eccf57c18f0209b7ffa6b424c32de2",
+          "characters": 481
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "05254e7b7255978cb8808062c1664ab32dfb89e211b0523e026d41fdd19fa801",
+    "rawBytes": 27693,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

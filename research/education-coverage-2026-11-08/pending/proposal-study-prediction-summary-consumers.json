@@ -1,0 +1,1950 @@
+{
+  "version": "proposal-study-prediction-summary-consumers",
+  "state": "Actual nine short selectors and explicit English fallback. Simple text is unreviewed; no new named-language review.",
+  "records": [
+    {
+      "id": "roc-auc-ar",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ar)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (ar)",
+      "canonicalRecordId": "concordance-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ar",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ar)",
+      "canonicalRecordId": "calibration",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-ar",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (ar)",
+      "canonicalRecordId": "ppv",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-ar",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ar)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ar)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ar",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ar)",
+      "canonicalRecordId": "preclinical",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ar",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ar)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (ar)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (ar)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (ar)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-ar",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (ar)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-ar",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (ar)",
+      "canonicalRecordId": "futility",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (ar)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (ar)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-ar",
+      "kind": "reader-summary-entry",
+      "name": "Case report (ar)",
+      "canonicalRecordId": "case-report",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (ar)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ar)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-ar",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (ar)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-de",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (de)",
+      "canonicalRecordId": "roc-auc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-de",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (de)",
+      "canonicalRecordId": "concordance-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-de",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (de)",
+      "canonicalRecordId": "calibration",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-de",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (de)",
+      "canonicalRecordId": "ppv",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-de",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (de)",
+      "canonicalRecordId": "trial-phases",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (de)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-de",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (de)",
+      "canonicalRecordId": "preclinical",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-de",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (de)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (de)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-de",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (de)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (de)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-de",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (de)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-de",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (de)",
+      "canonicalRecordId": "futility",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (de)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-de",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (de)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-de",
+      "kind": "reader-summary-entry",
+      "name": "Case report (de)",
+      "canonicalRecordId": "case-report",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (de)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-de",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (de)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-de",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (de)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-es",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (es)",
+      "canonicalRecordId": "roc-auc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-es",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (es)",
+      "canonicalRecordId": "concordance-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-es",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (es)",
+      "canonicalRecordId": "calibration",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-es",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (es)",
+      "canonicalRecordId": "ppv",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-es",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (es)",
+      "canonicalRecordId": "trial-phases",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (es)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-es",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (es)",
+      "canonicalRecordId": "preclinical",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-es",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (es)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (es)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-es",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (es)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (es)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-es",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (es)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-es",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (es)",
+      "canonicalRecordId": "futility",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (es)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-es",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (es)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-es",
+      "kind": "reader-summary-entry",
+      "name": "Case report (es)",
+      "canonicalRecordId": "case-report",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (es)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-es",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (es)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-es",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (es)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-fr",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (fr)",
+      "canonicalRecordId": "roc-auc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (fr)",
+      "canonicalRecordId": "concordance-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-fr",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (fr)",
+      "canonicalRecordId": "calibration",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-fr",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (fr)",
+      "canonicalRecordId": "ppv",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-fr",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (fr)",
+      "canonicalRecordId": "trial-phases",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (fr)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-fr",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (fr)",
+      "canonicalRecordId": "preclinical",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-fr",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (fr)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (fr)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (fr)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (fr)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-fr",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (fr)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-fr",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (fr)",
+      "canonicalRecordId": "futility",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (fr)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (fr)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-fr",
+      "kind": "reader-summary-entry",
+      "name": "Case report (fr)",
+      "canonicalRecordId": "case-report",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (fr)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (fr)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-fr",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (fr)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-hi",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (hi)",
+      "canonicalRecordId": "roc-auc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (hi)",
+      "canonicalRecordId": "concordance-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-hi",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (hi)",
+      "canonicalRecordId": "calibration",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-hi",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (hi)",
+      "canonicalRecordId": "ppv",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-hi",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (hi)",
+      "canonicalRecordId": "trial-phases",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (hi)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-hi",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (hi)",
+      "canonicalRecordId": "preclinical",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-hi",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (hi)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (hi)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (hi)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (hi)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-hi",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (hi)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-hi",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (hi)",
+      "canonicalRecordId": "futility",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (hi)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (hi)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-hi",
+      "kind": "reader-summary-entry",
+      "name": "Case report (hi)",
+      "canonicalRecordId": "case-report",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (hi)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (hi)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-hi",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (hi)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-ja",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ja)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (ja)",
+      "canonicalRecordId": "concordance-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ja",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ja)",
+      "canonicalRecordId": "calibration",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-ja",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (ja)",
+      "canonicalRecordId": "ppv",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-ja",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ja)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ja)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ja",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ja)",
+      "canonicalRecordId": "preclinical",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-ja",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (ja)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (ja)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (ja)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (ja)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-ja",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (ja)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-ja",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (ja)",
+      "canonicalRecordId": "futility",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (ja)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (ja)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-ja",
+      "kind": "reader-summary-entry",
+      "name": "Case report (ja)",
+      "canonicalRecordId": "case-report",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (ja)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ja)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-ja",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (ja)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-pt",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (pt)",
+      "canonicalRecordId": "roc-auc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (pt)",
+      "canonicalRecordId": "concordance-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-pt",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (pt)",
+      "canonicalRecordId": "calibration",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-pt",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (pt)",
+      "canonicalRecordId": "ppv",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-pt",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (pt)",
+      "canonicalRecordId": "trial-phases",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (pt)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-pt",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (pt)",
+      "canonicalRecordId": "preclinical",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-pt",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (pt)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (pt)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (pt)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (pt)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-pt",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (pt)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-pt",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (pt)",
+      "canonicalRecordId": "futility",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (pt)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (pt)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-pt",
+      "kind": "reader-summary-entry",
+      "name": "Case report (pt)",
+      "canonicalRecordId": "case-report",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (pt)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (pt)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-pt",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (pt)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-zh",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (zh)",
+      "canonicalRecordId": "roc-auc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (zh)",
+      "canonicalRecordId": "concordance-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-zh",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (zh)",
+      "canonicalRecordId": "calibration",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-zh",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (zh)",
+      "canonicalRecordId": "ppv",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-zh",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (zh)",
+      "canonicalRecordId": "trial-phases",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (zh)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-zh",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (zh)",
+      "canonicalRecordId": "preclinical",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "in-vitro-in-vivo-zh",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (zh)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (zh)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (zh)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (zh)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "group-sequential-design-zh",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (zh)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "futility-zh",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (zh)",
+      "canonicalRecordId": "futility",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (zh)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "publication-and-peer-review-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (zh)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-zh",
+      "kind": "reader-summary-entry",
+      "name": "Case report (zh)",
+      "canonicalRecordId": "case-report",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (zh)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (zh)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-zh",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (zh)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-simple",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (simple)",
+      "canonicalRecordId": "roc-auc",
+      "language": "simple",
+      "available": true,
+      "text": "A score can put people in the right order while getting their numerical risks wrong. Good ranking alone does not show that using the score helps patients."
+    },
+    {
+      "id": "concordance-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (simple)",
+      "canonicalRecordId": "concordance-index",
+      "language": "simple",
+      "available": true,
+      "text": "This measure checks whether predicted risk order matches observed event order. Unknown later outcomes need suitable handling."
+    },
+    {
+      "id": "calibration-simple",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (simple)",
+      "canonicalRecordId": "calibration",
+      "language": "simple",
+      "available": true,
+      "text": "A risk estimate needs checking against what actually happens over the same time. A correct overall average can hide errors in lower- and higher-risk groups."
+    },
+    {
+      "id": "ppv-simple",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (simple)",
+      "canonicalRecordId": "ppv",
+      "language": "simple",
+      "available": true,
+      "text": "Among people with a positive result, how many really meet the condition being tested? The answer depends on the test and the population."
+    },
+    {
+      "id": "trial-phases-simple",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (simple)",
+      "canonicalRecordId": "trial-phases",
+      "language": "simple",
+      "available": true,
+      "text": "Trial phases describe the questions being studied, such as dose, safety and treatment comparison. A phase number does not promise benefit or tell you how treatment is assigned."
+    },
+    {
+      "id": "randomised-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (simple)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "simple",
+      "available": true,
+      "text": "Chance assigns people to different treatment groups. This helps make a fair comparison, but does not guarantee identical groups or complete follow-up."
+    },
+    {
+      "id": "preclinical-simple",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (simple)",
+      "canonicalRecordId": "preclinical",
+      "language": "simple",
+      "available": true,
+      "text": "Laboratory and other model studies can help explain a treatment and guide human studies. A model response does not establish benefit for patients."
+    },
+    {
+      "id": "in-vitro-in-vivo-simple",
+      "kind": "reader-summary-entry",
+      "name": "In vitro and in vivo (simple)",
+      "canonicalRecordId": "in-vitro-in-vivo",
+      "language": "simple",
+      "available": true,
+      "text": "Check whether a result was measured in a laboratory, removed living tissue, a living animal or person, or a computer model. Each setting includes and leaves out different things."
+    },
+    {
+      "id": "n-of-1-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (simple)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "simple",
+      "available": true,
+      "text": "A planned comparison in one person may use repeated treatment periods. Lasting effects or changes over time can prevent a fair comparison."
+    },
+    {
+      "id": "prespecified-vs-post-hoc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (simple)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "simple",
+      "available": true,
+      "text": "Find out what was planned before the relevant results were seen, and what was explored afterwards. Useful discoveries still need an appropriate later test."
+    },
+    {
+      "id": "subgroup-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (simple)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "simple",
+      "available": true,
+      "text": "A treatment can be studied in groups defined by age, a marker or another feature. Different-looking results do not by themselves prove different treatment effects."
+    },
+    {
+      "id": "group-sequential-design-simple",
+      "kind": "reader-summary-entry",
+      "name": "Group sequential design, stopping rules and alpha spending (simple)",
+      "canonicalRecordId": "group-sequential-design",
+      "language": "simple",
+      "available": true,
+      "text": "A trial can plan checks before it finishes. The evidence needed at each check follows rules designed to account for repeated looks."
+    },
+    {
+      "id": "futility-simple",
+      "kind": "reader-summary-entry",
+      "name": "Futility analysis (stopped for futility) (simple)",
+      "canonicalRecordId": "futility",
+      "language": "simple",
+      "available": true,
+      "text": "A trial may stop because it is unlikely to meet its planned goal. That does not prove the treatments are equal."
+    },
+    {
+      "id": "real-world-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (simple)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "simple",
+      "available": true,
+      "text": "Health records and other routinely collected data can answer useful questions. Why people received different care and when follow-up began still matter."
+    },
+    {
+      "id": "publication-and-peer-review-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "Publication format and peer-review status (simple)",
+      "canonicalRecordId": "publication-and-peer-review-status",
+      "language": "simple",
+      "available": true,
+      "text": "Find the exact study report and version before using its result. A full paper, an early report and a correction can describe different stages of the same study."
+    },
+    {
+      "id": "case-report-simple",
+      "kind": "reader-summary-entry",
+      "name": "Case report (simple)",
+      "canonicalRecordId": "case-report",
+      "language": "simple",
+      "available": true,
+      "text": "A report of what happened to one person can raise useful questions. It usually cannot separate the treatment effect from other possible explanations."
+    },
+    {
+      "id": "meta-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (simple)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "simple",
+      "available": true,
+      "text": "A calculation that combines results from suitable studies. A precise average can still hide different results, bias or incompatible questions."
+    },
+    {
+      "id": "controlled-perturbation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (simple)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "simple",
+      "available": true,
+      "text": "Change a defined factor and compare the result with suitable controls. A real change in a laboratory test does not by itself show why it happened or that patients benefit."
+    },
+    {
+      "id": "false-discovery-rate-simple",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (simple)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "simple",
+      "available": true,
+      "text": "A multiple-testing rule limits the expected share of false findings among selected results under stated assumptions. It does not tell you which individual finding is false."
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-ar",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (ar)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-ar",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (ar)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-ar",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (ar)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-ar",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (ar)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-ar",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (ar)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-de",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (de)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-de",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (de)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-de",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (de)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-de",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (de)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-de",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (de)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-es",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (es)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-es",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (es)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-es",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (es)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-es",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (es)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-es",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (es)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-fr",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (fr)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-fr",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (fr)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-fr",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (fr)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-fr",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (fr)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-fr",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (fr)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-hi",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (hi)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-hi",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (hi)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-hi",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (hi)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-hi",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (hi)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-hi",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (hi)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-ja",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (ja)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-ja",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (ja)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-ja",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (ja)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-ja",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (ja)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-ja",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (ja)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-pt",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (pt)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-pt",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (pt)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-pt",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (pt)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-pt",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (pt)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-pt",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (pt)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-zh",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (zh)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "detection-versus-quantification-zh",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (zh)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-zh",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (zh)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confounding-by-indication-zh",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (zh)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biomarker-cutpoint-selection-zh",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (zh)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-drivers-vs-actionable-simple",
+      "kind": "reader-summary-entry",
+      "name": "Actionable genomic biomarkers (simple)",
+      "canonicalRecordId": "cancer-drivers-vs-actionable",
+      "language": "simple",
+      "available": true,
+      "text": "A DNA finding needs evidence for a particular treatment decision. A match to a gene or to another cancer is not enough on its own."
+    },
+    {
+      "id": "detection-versus-quantification-simple",
+      "kind": "reader-summary-entry",
+      "name": "Detection and quantification limits (simple)",
+      "canonicalRecordId": "detection-versus-quantification",
+      "language": "simple",
+      "available": true,
+      "text": "A test may find a signal before it can measure the amount reliably. Its limits belong to the stated method and sample conditions."
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers-simple",
+      "kind": "reader-summary-entry",
+      "name": "Prognostic and predictive biomarkers (simple)",
+      "canonicalRecordId": "prognostic-versus-predictive-biomarkers",
+      "language": "simple",
+      "available": true,
+      "text": "A marker can describe the likely outcome or help identify a difference in treatment benefit. Those are different questions and need different comparisons."
+    },
+    {
+      "id": "confounding-by-indication-simple",
+      "kind": "reader-summary-entry",
+      "name": "Confounding by indication (simple)",
+      "canonicalRecordId": "confounding-by-indication",
+      "language": "simple",
+      "available": true,
+      "text": "People may receive different care because their health differs. Those starting differences can also affect the outcome."
+    },
+    {
+      "id": "biomarker-cutpoint-selection-simple",
+      "kind": "reader-summary-entry",
+      "name": "Biomarker cutoff selection and validation (simple)",
+      "canonicalRecordId": "biomarker-cutpoint-selection",
+      "language": "simple",
+      "available": true,
+      "text": "The line used to call a result positive needs its own evidence. A line chosen because it looked best in one set of results needs testing beyond those same results."
+    }
+  ]
+}

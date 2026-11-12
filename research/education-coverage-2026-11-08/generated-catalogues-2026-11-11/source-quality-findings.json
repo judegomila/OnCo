@@ -1,0 +1,63 @@
+{
+  "findings": [
+    {
+      "id": "catalogue-truncation-t-cell-engager-vs-car-t",
+      "status": "Open source-only catalogue quality finding; no unique OnCo teaching gap",
+      "finding": "The register omits the end of the T-cell contact description and the CAR lane. The raw registered text is a strict prefix ending immediately before an ASCII apostrophe.",
+      "instances": [
+        {
+          "version": "original",
+          "index": 305,
+          "line": 319,
+          "ownerPath": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+          "filename": "t-cell-engager-vs-car-t-comparison-product-axis-v1-light.svg",
+          "catalogueTextSha256": "ceb182c90505ebd9c6c2eeab797e304e0c2eb59fe6c2b46fdd028ebc9c4f2c50",
+          "ownerAltSha256": "6131e109ee78f17df0975c2ff2ca235decebb031b4404a7bedc1033c2ef84466",
+          "relationship": "Strict prefix; omitted suffix starts with an ASCII apostrophe. No wording is added."
+        },
+        {
+          "version": "later",
+          "index": 301,
+          "line": 315,
+          "ownerPath": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+          "filename": "t-cell-engager-vs-car-t-comparison-product-axis-v1-light.svg",
+          "catalogueTextSha256": "ceb182c90505ebd9c6c2eeab797e304e0c2eb59fe6c2b46fdd028ebc9c4f2c50",
+          "ownerAltSha256": "6131e109ee78f17df0975c2ff2ca235decebb031b4404a7bedc1033c2ef84466",
+          "relationship": "Strict prefix; omitted suffix starts with an ASCII apostrophe. No wording is added."
+        }
+      ],
+      "suggestedAction": "The source catalogue owner should retain the full owner alt value when regenerating the register. No source or renderer edit is applied here.",
+      "scientificApprovalOrCanonicalChange": false
+    },
+    {
+      "id": "catalogue-truncation-breast-surgery-basics",
+      "status": "Open source-only catalogue quality finding; no unique OnCo teaching gap",
+      "finding": "The register omits the end of the reconstruction description and the separation of the three surgical jobs. The raw registered text is a strict prefix ending immediately before an ASCII apostrophe.",
+      "instances": [
+        {
+          "version": "original",
+          "index": 337,
+          "line": 351,
+          "ownerPath": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+          "filename": "surgery-three-jobs-v1-light.svg",
+          "catalogueTextSha256": "42032003ab28a7d3023e6b2732dd70ebe8c3fc1cca806157be93f10e5da7b232",
+          "ownerAltSha256": "774fd81664150d2afecdff6915ba404fa75439170e89db4497f985452a2e8f3a",
+          "relationship": "Strict prefix; omitted suffix starts with an ASCII apostrophe. No wording is added."
+        },
+        {
+          "version": "later",
+          "index": 333,
+          "line": 347,
+          "ownerPath": "wiki/education/concepts/therapeutics/local-therapies/breast-surgery-basics.md",
+          "filename": "surgery-three-jobs-v1-light.svg",
+          "catalogueTextSha256": "42032003ab28a7d3023e6b2732dd70ebe8c3fc1cca806157be93f10e5da7b232",
+          "ownerAltSha256": "774fd81664150d2afecdff6915ba404fa75439170e89db4497f985452a2e8f3a",
+          "relationship": "Strict prefix; omitted suffix starts with an ASCII apostrophe. No wording is added."
+        }
+      ],
+      "suggestedAction": "The source catalogue owner should retain the full owner alt value when regenerating the register. No source or renderer edit is applied here.",
+      "scientificApprovalOrCanonicalChange": false
+    }
+  ],
+  "scope": "Raw source-generation defects are separate from OnCo scientific coverage and from a scientific or pixel approval."
+}

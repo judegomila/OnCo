@@ -1,0 +1,344 @@
+{
+  "records": [
+    {
+      "id": "cell-lineage-and-state",
+      "kind": "term",
+      "bytes": 23370,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epithelium-and-stroma",
+      "kind": "term",
+      "bytes": 20288,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cellular-compartments",
+      "kind": "term",
+      "bytes": 21230,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "alleles-and-zygosity",
+      "kind": "term",
+      "bytes": 20186,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epigenetic-marks",
+      "kind": "term",
+      "bytes": 24591,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nonsense-mediated-decay",
+      "kind": "term",
+      "bytes": 19236,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vdj-recombination",
+      "kind": "term",
+      "bytes": 23198,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein-structure-and-domains",
+      "kind": "term",
+      "bytes": 19518,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binding-affinity-and-kinetics",
+      "kind": "term",
+      "bytes": 23393,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "feedback-and-feedforward",
+      "kind": "term",
+      "bytes": 20935,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "receptor-reserve",
+      "kind": "term",
+      "bytes": 17932,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "biased-agonism",
+      "kind": "term",
+      "bytes": 19425,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-regulatory-elements",
+      "kind": "term",
+      "bytes": 20339,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "central-dogma-information-flow",
+      "kind": "term",
+      "bytes": 19779,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-membrane",
+      "kind": "term",
+      "bytes": 21389,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-cycle",
+      "kind": "term",
+      "bytes": 39222,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-division",
+      "kind": "term",
+      "bytes": 24426,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "differentiation",
+      "kind": "term",
+      "bytes": 24225,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "emt",
+      "kind": "pathway",
+      "bytes": 60464,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "germline-vs-somatic",
+      "kind": "term",
+      "bytes": 69436,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dna-term",
+      "kind": "term",
+      "bytes": 20618,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna",
+      "kind": "term",
+      "bytes": 22491,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene",
+      "kind": "term",
+      "bytes": 22156,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "protein",
+      "kind": "term",
+      "bytes": 22702,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "enzyme",
+      "kind": "term",
+      "bytes": 24527,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-expression",
+      "kind": "term",
+      "bytes": 27010,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna-splicing",
+      "kind": "pathway",
+      "bytes": 52840,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mutation",
+      "kind": "term",
+      "bytes": 25904,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ligand",
+      "kind": "term",
+      "bytes": 27345,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "receptor",
+      "kind": "term",
+      "bytes": 27187,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "agonist-antagonist",
+      "kind": "term",
+      "bytes": 26900,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "signalling-pathway",
+      "kind": "term",
+      "bytes": 30070,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "kinase",
+      "kind": "term",
+      "bytes": 30857,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "phosphorylation",
+      "kind": "term",
+      "bytes": 24214,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pathway-activation-state",
+      "kind": "term",
+      "bytes": 27489,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vaf",
+      "kind": "term",
+      "bytes": 35876,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity",
+      "kind": "term",
+      "bytes": 45769,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "gene-amplification",
+      "kind": "term",
+      "bytes": 55023,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "clonality-testing",
+      "kind": "technology",
+      "bytes": 41461,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ig-tcr-clonality",
+      "kind": "biomarker",
+      "bytes": 35838,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "methylation-arrays",
+      "kind": "term",
+      "bytes": 25132,
+      "asOf": "2026-11-08",
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ],
+  "humanReadPages": [
+    "central-dogma-information-flow",
+    "binding-affinity-and-kinetics",
+    "alleles-and-zygosity",
+    "vdj-recombination",
+    "nonsense-mediated-decay",
+    "receptor-reserve",
+    "biased-agonism",
+    "germline-vs-somatic"
+  ],
+  "followUp": "The inherited-variant schematic label was corrected after reading the germline page. All 41 affected records were rerendered afterward.",
+  "method": "Actual EntityDetail React server rendering with AppRouterContext; no public deployment or browser screenshot claimed."
+}

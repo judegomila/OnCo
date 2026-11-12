@@ -1,0 +1,557 @@
+{
+  "dataCommit": "c45e688c03ff958d85bfe442f1700af0229e9a13",
+  "rootGraphRecords": 23089,
+  "phaseChecks": [
+    {
+      "phase": "original",
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 458,
+        "implementedCoverage": 447,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 83,
+        "unresolvedSources": 83,
+        "adjacentConcepts": 66,
+        "unresolvedAdjacentConcepts": 42,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "assessedOrClassified": 465,
+      "ordinaryUnreviewed": 72,
+      "requirements": 4931,
+      "evidencedRequirements": 4917,
+      "openRequirements": 14,
+      "assetScopes": {
+        "unclassified": 1282,
+        "teaching": 535,
+        "supporting": 71
+      }
+    },
+    {
+      "phase": "later",
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 5,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 480,
+        "implementedCoverage": 470,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 75,
+        "unresolvedSources": 75,
+        "adjacentConcepts": 66,
+        "unresolvedAdjacentConcepts": 42,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "assessedOrClassified": 485,
+      "ordinaryUnreviewed": 65,
+      "requirements": 5568,
+      "evidencedRequirements": 5558,
+      "openRequirements": 10,
+      "assetScopes": {
+        "unclassified": 1282,
+        "teaching": 535,
+        "supporting": 71
+      }
+    }
+  ],
+  "registeredProposalReceipts": 95,
+  "selectedCanonicalIds": 654,
+  "selectedAbsentBaseline": 169,
+  "selectedExistingBaseline": 485,
+  "readerObservationIds": 5286,
+  "distinctCanonicalLanguageSlots": 5211,
+  "availableTexts": 1356,
+  "EnglishFallbacks": 3855,
+  "proposalFiles": [
+    {
+      "version": "proposal-access",
+      "file": "pending/proposal-access.json",
+      "recordSnapshotSha256": "bf268734e6ec642e227195e1ff4188a598c2d7144c5af7bdecd3d9c3f4ead0a6"
+    },
+    {
+      "version": "proposal-biology",
+      "file": "pending/proposal-biology.json",
+      "recordSnapshotSha256": "f13c8dc3618ecd405cd394d4bfffe6c5b6efe0072bba4871354c62da841f5362"
+    },
+    {
+      "version": "proposal-therapeutic",
+      "file": "pending/proposal-therapeutic.json",
+      "recordSnapshotSha256": "11678d7097aec77b582a0012894f285ab9fea69174f049291af0f13a130f35d8"
+    },
+    {
+      "version": "draft-376",
+      "file": "pending/proposal-schema.json",
+      "recordSnapshotSha256": "56d109d9d3f9b6881cf6309aeb5517de62e625acd22df15d639ea8a4137d04d7"
+    },
+    {
+      "version": "proposal-service-directory",
+      "file": "pending/proposal-service-directory.json",
+      "recordSnapshotSha256": "6fe2e87d6de63c1451e28daf6ab97b494ff743d95bd6ed4f89c6e0c7693083ed"
+    },
+    {
+      "version": "proposal-summary-consumers",
+      "file": "pending/proposal-summary-consumers.json",
+      "recordSnapshotSha256": "f72cc1ea50f1ddf0817054765ae3d7cf8e05fedd22faf85eb45b6c2007f586bb"
+    },
+    {
+      "version": "draft-373-summary-consumers",
+      "file": "pending/pr-373-summary-consumers.json",
+      "recordSnapshotSha256": "f2247923c8afe6248d414ec32353363b1643ccd77f11374b89dcc1697e266082"
+    },
+    {
+      "version": "draft-369-summary-consumers",
+      "file": "pending/pr-369-summary-consumers.json",
+      "recordSnapshotSha256": "d5834df3b5a4ba06fa611b4dedaf3169d57fb4bb47146bbbe1656a0e37fc4aa1"
+    },
+    {
+      "version": "draft-369-376-chemical-consumers",
+      "file": "pending/proposal-chemical-consumers.json",
+      "recordSnapshotSha256": "5aee1b0ea7e434f33ca536a63840504e1ee633e0d38110a0c62b65c914165c37"
+    },
+    {
+      "version": "proposal-tcells",
+      "file": "pending/proposal-tcells.json",
+      "recordSnapshotSha256": "2f4e3bdcc7019acb0d2d47475a5c1387920185d65f6e6000f9a9069ee8bb13fc"
+    },
+    {
+      "version": "proposal-tcell-summary-consumers",
+      "file": "pending/proposal-tcell-summary-consumers.json",
+      "recordSnapshotSha256": "012257da71f31be08bd8cb3f7cc61bd3ecc9ddcb7314313756916998e13abb6b"
+    },
+    {
+      "version": "proposal-antigen-antibodies",
+      "file": "pending/proposal-antigen-antibodies.json",
+      "recordSnapshotSha256": "6cb59f93e2ad3a0efbdf33133efc67803cff5d92b4bcf2c4eb39d37b2876d060"
+    },
+    {
+      "version": "proposal-antigen-summary-consumers",
+      "file": "pending/proposal-antigen-summary-consumers.json",
+      "recordSnapshotSha256": "0f06cab95304f9e7a7e387bfa118bb8cfbc4ecec6f1e70553760b44e00ee19b4"
+    },
+    {
+      "version": "proposal-death-metabolism",
+      "file": "pending/proposal-death-metabolism.json",
+      "recordSnapshotSha256": "ff97ceb5d24e5acc95033498de770d43c70c118bb28ed894898271efb655cc09"
+    },
+    {
+      "version": "proposal-death-summary-consumers",
+      "file": "pending/proposal-death-summary-consumers.json",
+      "recordSnapshotSha256": "cf2bf186d7eb99521b11b995cfbbc1198aa8e67512a8ab9367e4bb4eb453a3d3"
+    },
+    {
+      "version": "proposal-rna-delivery",
+      "file": "pending/proposal-rna-delivery.json",
+      "recordSnapshotSha256": "9af078b431fd74f7dde76f3db0ddb3a10198faee44c106612d2ef43671b4c954"
+    },
+    {
+      "version": "proposal-rna-summary-consumers",
+      "file": "pending/proposal-rna-summary-consumers.json",
+      "recordSnapshotSha256": "fb4d977ea39c5361530e1d389b27fd30929b03d5ca48ecc0a5dc20fa0ee91eff"
+    },
+    {
+      "version": "proposal-repair-signaling",
+      "file": "pending/proposal-repair-signaling.json",
+      "recordSnapshotSha256": "9b87da7d6e2c5452fafdd1b529954d37579fbbef2cc745d296d5f88b2ec97d81"
+    },
+    {
+      "version": "proposal-repair-summary-consumers",
+      "file": "pending/proposal-repair-summary-consumers.json",
+      "recordSnapshotSha256": "86c5c99b500d8db0b7e07f76a52a715706f629e9be8a44d0a0659b3d7ed6fbe3"
+    },
+    {
+      "version": "proposal-spatial-computational",
+      "file": "pending/proposal-spatial-computational.json",
+      "recordSnapshotSha256": "490488318e2265cccc29b486ef06e9cbf803d3e6388f65c5549a893ccc0c5f6a"
+    },
+    {
+      "version": "proposal-spatial-summary-consumers",
+      "file": "pending/proposal-spatial-summary-consumers.json",
+      "recordSnapshotSha256": "819bcdb33ae8c77cca36e7e5057e3b8e61c77e01119e46f6d614130af6db80ec"
+    },
+    {
+      "version": "proposal-measurement-sequencing",
+      "file": "pending/proposal-measurement-sequencing.json",
+      "recordSnapshotSha256": "3be45ab0bf41c404aa2114cfcf8ba4cf0e4ab15f036a7c842d9b617e814eaa08"
+    },
+    {
+      "version": "proposal-measurement-summary-consumers",
+      "file": "pending/proposal-measurement-summary-consumers.json",
+      "recordSnapshotSha256": "864c8fe80e7dc171e6ef2e6cb3787a48f972d5f70deba6ca6fcc0a7cce663561"
+    },
+    {
+      "version": "proposal-breast-pathology",
+      "file": "pending/proposal-breast-pathology.json",
+      "recordSnapshotSha256": "2b06577fb64c6a87eb2b16eea6669c078c6c9be85f111cfa26af75ce9d1d8155"
+    },
+    {
+      "version": "proposal-breast-summary-consumers",
+      "file": "pending/proposal-breast-summary-consumers.json",
+      "recordSnapshotSha256": "922e976c2b2b24de0116f951f7f5853c2f984e300fbb88ca62cf6b7c73c43f8a"
+    },
+    {
+      "version": "proposal-innate-immunity",
+      "file": "pending/proposal-innate-immunity.json",
+      "recordSnapshotSha256": "738c5583e19d6dba447aa226c4c3def59ab968213a07c1359fa48631d9ee14c4"
+    },
+    {
+      "version": "proposal-innate-summary-consumers",
+      "file": "pending/proposal-innate-summary-consumers.json",
+      "recordSnapshotSha256": "82d69027579d9de3134486a91a0f2ac6f1476baad27a2823fb9d10ef051569c7"
+    },
+    {
+      "version": "proposal-binders-cmc",
+      "file": "pending/proposal-binders-cmc.json",
+      "recordSnapshotSha256": "47e79a579e2f3ca8c21eb44cdec6ba50929f4f0d2185f36e72ec8fd1e1b58af7"
+    },
+    {
+      "version": "proposal-cmc-summary-consumers",
+      "file": "pending/proposal-cmc-summary-consumers.json",
+      "recordSnapshotSha256": "8f6019ec9579bfa1ada882fb40f7d41760e2be594b3d2e02e4c1f3f42010ca43"
+    },
+    {
+      "version": "proposal-effect-reasoning",
+      "file": "pending/proposal-effect-reasoning.json",
+      "recordSnapshotSha256": "10e0591765c1fdd94d275b27b765e0c4383c0f8ee9d7ee6c7645a4e76b181e10"
+    },
+    {
+      "version": "proposal-effect-summary-consumers",
+      "file": "pending/proposal-effect-summary-consumers.json",
+      "recordSnapshotSha256": "2cb4990c3e5496a73ce187cf8dc1e3c5b1cea5ca0b86fae7fa1fb9434e67e6a0"
+    },
+    {
+      "version": "proposal-functional-models",
+      "file": "pending/proposal-functional-models.json",
+      "recordSnapshotSha256": "1e2053b91d141bd160265e1c2f6b944b114165e2b87a14aa244b06aabfd8b601"
+    },
+    {
+      "version": "proposal-functional-summary-consumers",
+      "file": "pending/proposal-functional-summary-consumers.json",
+      "recordSnapshotSha256": "13af1cf6b692b9cb59543a8e6a1f5c820c961596b06ea77516776effb4e8777b"
+    },
+    {
+      "version": "proposal-blood-immune-root",
+      "file": "pending/proposal-blood-immune-root.json",
+      "recordSnapshotSha256": "c6044e2d73a7f4c895015e75391ff1310d8615a6bdf1a901bdf25f8f8eb35b27"
+    },
+    {
+      "version": "proposal-blood-immune-peer",
+      "file": "pending/proposal-blood-immune-peer.json",
+      "recordSnapshotSha256": "85d2ecde229fb364bc476533af890e18e620b27e8af21201d2031a5ba7e00728"
+    },
+    {
+      "version": "proposal-blood-immune-shared",
+      "file": "pending/proposal-blood-immune-shared.json",
+      "recordSnapshotSha256": "0a64aad85f4a8674a661a534326e42a714200109ad23d5d79616b27ed43f08b7"
+    },
+    {
+      "version": "proposal-blood-immune-summary-consumers",
+      "file": "pending/proposal-blood-immune-summary-consumers.json",
+      "recordSnapshotSha256": "2083c7afea56e982fb14057d402db1a9cd199040726c143428b26783d962b94c"
+    },
+    {
+      "version": "proposal-tissue-pathology-root",
+      "file": "pending/proposal-tissue-pathology-root.json",
+      "recordSnapshotSha256": "c9557cb194f4a7ee0f7653c7fc02082f62cbce426409eccf7681b5ca19b89387"
+    },
+    {
+      "version": "proposal-tissue-pathology-shared",
+      "file": "pending/proposal-tissue-pathology-shared.json",
+      "recordSnapshotSha256": "00d76fecc1647e4b06024e48f8ddeaf823f4e7248253690b1ed8e0a97ef6b513"
+    },
+    {
+      "version": "proposal-tissue-pathology-summary-consumers",
+      "file": "pending/proposal-tissue-pathology-summary-consumers.json",
+      "recordSnapshotSha256": "ea7970ab915cfa71bd8b53fbc1cf529bff3cf7ee3167a4b7571f5d76915c6a1a"
+    },
+    {
+      "version": "proposal-cancer-biology-root",
+      "file": "pending/proposal-cancer-biology-root.json",
+      "recordSnapshotSha256": "64e2b30c5edb494cc32d117723a5546c5deb82c67f7be55c06bb7f68d24d3935"
+    },
+    {
+      "version": "proposal-cancer-biology-shared",
+      "file": "pending/proposal-cancer-biology-shared.json",
+      "recordSnapshotSha256": "feafb863ac8b2398b42091a4b93d307bceed8d5654d59cabb84249df453f8771"
+    },
+    {
+      "version": "proposal-cancer-biology-summary-consumers",
+      "file": "pending/proposal-cancer-biology-summary-consumers.json",
+      "recordSnapshotSha256": "ed4718aae6fd3e65c51e88a094388aef6ba83dd1d56af83f9184ffea43b36949"
+    },
+    {
+      "version": "proposal-tumor-immunology-root",
+      "file": "pending/proposal-tumor-immunology-root.json",
+      "recordSnapshotSha256": "d576ce9840def1710ba81190bc5b60bbbe94eac63ec95b9763c8742819c23d88"
+    },
+    {
+      "version": "proposal-tumor-immunology-shared",
+      "file": "pending/proposal-tumor-immunology-shared.json",
+      "recordSnapshotSha256": "120a2d5af973d3b22b00a3ecafd33d2de3334751b6ea054cc86626540e768528"
+    },
+    {
+      "version": "proposal-tumor-immunology-summary-consumers",
+      "file": "pending/proposal-tumor-immunology-summary-consumers.json",
+      "recordSnapshotSha256": "d3117f1529847ed16927e928d277dab851a46d711236636368ee2f0283d65fb4"
+    },
+    {
+      "version": "proposal-study-prediction-root",
+      "file": "pending/proposal-study-prediction-root.json",
+      "recordSnapshotSha256": "640e3bfbf4a6d012d767325da546244ed57b9b4b3f378489de51fa2d523ed3fc"
+    },
+    {
+      "version": "proposal-study-prediction-peer",
+      "file": "pending/proposal-study-prediction-peer.json",
+      "recordSnapshotSha256": "fc131462f397738668cb497d4b6743de6831b6685fd7be737090b7047edccd16"
+    },
+    {
+      "version": "proposal-study-prediction-summary-consumers",
+      "file": "pending/proposal-study-prediction-summary-consumers.json",
+      "recordSnapshotSha256": "ff927c2da8c9efdfaf44ac8343d8541acb45e80ad26d030252422bf705d3ed70"
+    },
+    {
+      "version": "proposal-pharmacology-toxicity-root",
+      "file": "pending/proposal-pharmacology-toxicity-root.json",
+      "recordSnapshotSha256": "3154aff9983f9ff1eecff89297f640d581f10ee2ea7446eb6a9f5d56e2040323"
+    },
+    {
+      "version": "proposal-pharmacology-toxicity-peer",
+      "file": "pending/proposal-pharmacology-toxicity-peer.json",
+      "recordSnapshotSha256": "c47ef7064ad68cd511741d6e6e73ae919c0098dd8e2e874444d4dac76f9d849a"
+    },
+    {
+      "version": "proposal-pharmacology-toxicity-summary-consumers",
+      "file": "pending/proposal-pharmacology-toxicity-summary-consumers.json",
+      "recordSnapshotSha256": "b03bbeac77338bcbbf42bff88f5803a4715bba0b72cbd8dd2ad966f8bb82c003"
+    },
+    {
+      "version": "proposal-therapy-conjugates-root",
+      "file": "pending/proposal-therapy-conjugates-root.json",
+      "recordSnapshotSha256": "bb0adec7dadb62fb0c0396597403b05643a8ce41abc42646da1ea3341ac54026"
+    },
+    {
+      "version": "proposal-therapy-conjugates-chem",
+      "file": "pending/proposal-therapy-conjugates-chem.json",
+      "recordSnapshotSha256": "d7230714c7e9b067c51af3a64973abcf025830e271dd4f07b2136df68a737bca"
+    },
+    {
+      "version": "proposal-therapy-conjugates-summary-consumers",
+      "file": "pending/proposal-therapy-conjugates-summary-consumers.json",
+      "recordSnapshotSha256": "38eea37c14878a8c74bfb4addfd044a4e2dc3681e2a679e7d4e073f2b61be265"
+    },
+    {
+      "version": "proposal-breast-concepts-root",
+      "file": "pending/proposal-breast-concepts-root.json",
+      "recordSnapshotSha256": "a99a41c5ef139cf3db57756529de5c5bf13110d5a0df7ac12a6a88ad272b33ee"
+    },
+    {
+      "version": "proposal-breast-concepts-summary-consumers",
+      "file": "pending/proposal-breast-concepts-summary-consumers.json",
+      "recordSnapshotSha256": "921b7a20050505af8888e811aaecbc1d9805c085e06beef775f084e9cb02ea5e"
+    },
+    {
+      "version": "proposal-start-here-root",
+      "file": "pending/proposal-start-here-root.json",
+      "recordSnapshotSha256": "375178c6d71ef41d9d10f7bd280b3f93f3ae4a22372035fe1d3f4105f709d575"
+    },
+    {
+      "version": "proposal-start-here-summary-consumers",
+      "file": "pending/proposal-start-here-summary-consumers.json",
+      "recordSnapshotSha256": "8ba498aac8f1b29cacaaaaa597ef1bd03dfe83f762fe4f6babb90b3eeef7d232"
+    },
+    {
+      "version": "proposal-surface-targeting-root",
+      "file": "pending/proposal-surface-targeting-root.json",
+      "recordSnapshotSha256": "6cd23ec4d20e22922a2bd9fc41239063190582f6a410bfba9f067d58d33f46e3"
+    },
+    {
+      "version": "proposal-surface-targeting-summary-consumers",
+      "file": "pending/proposal-surface-targeting-summary-consumers.json",
+      "recordSnapshotSha256": "e33041811154f9fe8301b5b888eec12fa0a218dd058a0c59a4da1bc289396994"
+    },
+    {
+      "version": "proposal-main-refresh-b1-root",
+      "file": "pending/proposal-main-refresh-b1-root.json",
+      "recordSnapshotSha256": "9ad59050647868ddfe9831a8578621ebc7f197fc281ba7a2505b0bb86129769a"
+    },
+    {
+      "version": "proposal-main-refresh-b1-summary-consumers",
+      "file": "pending/proposal-main-refresh-b1-summary-consumers.json",
+      "recordSnapshotSha256": "830bc0ed50d08083879661c1976cf7470880ce12d2764104a5d4f907ff69798b"
+    },
+    {
+      "version": "proposal-access-guides-root",
+      "file": "pending/proposal-access-guides-root.json",
+      "recordSnapshotSha256": "c08039f0b0b033ab397650df294fa0f37431a70806c05bcf90a2d21aa8560c65"
+    },
+    {
+      "version": "proposal-access-guides-summary-consumers",
+      "file": "pending/proposal-access-guides-summary-consumers.json",
+      "recordSnapshotSha256": "d4e1f7c279b3343c630b649e9899ad4231f588aa4b825ca6844e0c1f6831df16"
+    },
+    {
+      "version": "proposal-pathology-result-guides-root",
+      "file": "pending/proposal-pathology-result-guides-root.json",
+      "recordSnapshotSha256": "b3d91e831ea5ed6d424f02f059c4374b6d41fa3d312d3fda3d4a5c2880a2796e"
+    },
+    {
+      "version": "proposal-pathology-result-guides-summary-consumers",
+      "file": "pending/proposal-pathology-result-guides-summary-consumers.json",
+      "recordSnapshotSha256": "9a50fb685de207e5dded4b9fa95122347bd11bcce1a78a8b43cdc4b9d4a32994"
+    },
+    {
+      "version": "proposal-genetic-code-root",
+      "file": "pending/proposal-genetic-code-root.json",
+      "recordSnapshotSha256": "8222233a2a34952e60f24900f4f334e87cd8b31b3ada4b48aaa71b7cee2c3b6e"
+    },
+    {
+      "version": "proposal-genetic-code-summary-consumers",
+      "file": "pending/proposal-genetic-code-summary-consumers.json",
+      "recordSnapshotSha256": "a21d0a04b6d7ec62fd2d684425e9088a8f674aed4ba9781d28ca65e49ab8c891"
+    },
+    {
+      "version": "proposal-vaccine-data-guides-root",
+      "file": "pending/proposal-vaccine-data-guides-root.json",
+      "recordSnapshotSha256": "3f41eff8616bf30ce81be9a4210b406898581f5ea85581b7e85a74e825039571"
+    },
+    {
+      "version": "proposal-vaccine-data-guides-summary-consumers",
+      "file": "pending/proposal-vaccine-data-guides-summary-consumers.json",
+      "recordSnapshotSha256": "12301a16aacbe40195b76b2a2c902a5a74fd07404e2b807495bd063381393d3e"
+    },
+    {
+      "version": "proposal-vaccine-presentation-guides-root",
+      "file": "pending/proposal-vaccine-presentation-guides-root.json",
+      "recordSnapshotSha256": "29c7ddefb90bb3586a0ac201dbd138fcb34d497f621ed036b3d05770469df831"
+    },
+    {
+      "version": "proposal-vaccine-presentation-guides-summary-consumers",
+      "file": "pending/proposal-vaccine-presentation-guides-summary-consumers.json",
+      "recordSnapshotSha256": "4a60856cb0fec53daef44f6dc81b26fb87b2e5e98c5376ac6422e21586b06f3c"
+    },
+    {
+      "version": "proposal-vaccine-production-guides-root",
+      "file": "pending/proposal-vaccine-production-guides-root.json",
+      "recordSnapshotSha256": "8ce35983b4c450c09985fd56860d467cbef8347cd2d9a19381f14de5c2a8329c"
+    },
+    {
+      "version": "proposal-vaccine-production-guides-summary-consumers",
+      "file": "pending/proposal-vaccine-production-guides-summary-consumers.json",
+      "recordSnapshotSha256": "96d1da1a1d54c692204fe903d3566edfc0d399dc06cb801b31774ea19af12431"
+    },
+    {
+      "version": "proposal-test-vendor-guides-root",
+      "file": "pending/proposal-test-vendor-guides-root.json",
+      "recordSnapshotSha256": "232ae5860c019c458dcb723195935f9d3767b61d0a32d902ecdda1176aa18534"
+    },
+    {
+      "version": "proposal-test-vendor-guides-summary-consumers",
+      "file": "pending/proposal-test-vendor-guides-summary-consumers.json",
+      "recordSnapshotSha256": "06ddd7e6529494a5488e48459c2c2a4ab2e0750e179b8d2fa815a00da11f9800"
+    },
+    {
+      "version": "proposal-evidence-reading-guides-root",
+      "file": "pending/proposal-evidence-reading-guides-root.json",
+      "recordSnapshotSha256": "65eb981fa4e5cc1d35914527aeeb15960f853ab27be2e66fc2dd8eae5d95b46a"
+    },
+    {
+      "version": "proposal-evidence-reading-guides-summary-consumers",
+      "file": "pending/proposal-evidence-reading-guides-summary-consumers.json",
+      "recordSnapshotSha256": "740371f32ea64c68cacceed72c1455a7565e6beda173ea12d17f112152a53b4f"
+    },
+    {
+      "version": "proposal-early-tnbc-sequencing-root",
+      "file": "pending/proposal-early-tnbc-sequencing-root.json",
+      "recordSnapshotSha256": "43bfcaeaf9156503ee9daf61dce0ea684026d91f30fe258f04a7dc5e2bf85d40"
+    },
+    {
+      "version": "proposal-early-tnbc-sequencing-summary-consumers",
+      "file": "pending/proposal-early-tnbc-sequencing-summary-consumers.json",
+      "recordSnapshotSha256": "cff19eb6aaef92752fe4d504c4f9911198526b96faf36502b4aac4cf281af6aa"
+    },
+    {
+      "version": "proposal-residual-monitoring-guides-root",
+      "file": "pending/proposal-residual-monitoring-guides-root.json",
+      "recordSnapshotSha256": "9b2f25bb0f290cba30dfe19c9f9f73b23ce6c836c59324fd24ba86b686ba4e7f"
+    },
+    {
+      "version": "proposal-residual-monitoring-guides-summary-consumers",
+      "file": "pending/proposal-residual-monitoring-guides-summary-consumers.json",
+      "recordSnapshotSha256": "1fdc3948819dda91643e4c6a79e9511e956d037c645bead1e83103a0953c7cb1"
+    },
+    {
+      "version": "proposal-imaging-follow-up-root",
+      "file": "pending/proposal-imaging-follow-up-root.json",
+      "recordSnapshotSha256": "5105cb3128cec276169a43422ed4c9073985f95f4d4e5c718b9c8e86b690aecc"
+    },
+    {
+      "version": "proposal-imaging-follow-up-summary-consumers",
+      "file": "pending/proposal-imaging-follow-up-summary-consumers.json",
+      "recordSnapshotSha256": "6bbca682f49c3037f6f733c687cbd90690800c692f5de8763ea96d8d2ed07af9"
+    },
+    {
+      "version": "proposal-study-statistics-root",
+      "file": "pending/proposal-study-statistics-root.json",
+      "recordSnapshotSha256": "ee93ddca0cd21e35d3572eb57ee965e76834d96d781464f2fceee90c5c000736"
+    },
+    {
+      "version": "proposal-study-statistics-peer-371",
+      "file": "pending/proposal-study-statistics-peer-371.json",
+      "recordSnapshotSha256": "9546a43bec0878e8e27686884ee04cb4c055308120482576ee7c982ef0407e9e"
+    },
+    {
+      "version": "proposal-study-statistics-summary-consumers",
+      "file": "pending/proposal-study-statistics-summary-consumers.json",
+      "recordSnapshotSha256": "bc6b74eefdb3aea100491116a59dd23e449411a7c2d342168262bb7bd1669a51"
+    },
+    {
+      "version": "proposal-repair-resistance-root",
+      "file": "pending/proposal-repair-resistance-root.json",
+      "recordSnapshotSha256": "33a2466d59bfc3a8e380bdb9f148a8f7bf9f8eca64ffa6b95432fda254f20b52"
+    },
+    {
+      "version": "proposal-repair-resistance-summary-consumers",
+      "file": "pending/proposal-repair-resistance-summary-consumers.json",
+      "recordSnapshotSha256": "201d63136ba99d7fc3a9157d6c4192e74de5227679b0ccdc35dc7dd305aee5e8"
+    },
+    {
+      "version": "proposal-immunotherapy-root",
+      "file": "pending/proposal-immunotherapy-root.json",
+      "recordSnapshotSha256": "0460771aef84e1ee135b283d7d1f722c1595854e5fadf33e0d7727c9b11b4c4d"
+    },
+    {
+      "version": "proposal-immunotherapy-summary-consumers",
+      "file": "pending/proposal-immunotherapy-summary-consumers.json",
+      "recordSnapshotSha256": "03b658ffd19a9f84c28efdab295d9486da68c88ede5330229d2181b32221c03a"
+    },
+    {
+      "version": "proposal-upstream-metadata-2026-11-12-root",
+      "file": "pending/proposal-upstream-metadata-2026-11-12-root.json",
+      "recordSnapshotSha256": "897a6856e6df8885eb3be379676e3e3df1b535b11d8d41e445f6dbd9b8b97b4e"
+    },
+    {
+      "version": "proposal-spatial-measurement-root",
+      "file": "pending/proposal-spatial-measurement-root.json",
+      "recordSnapshotSha256": "de6c6c6c88b00de129f19faedc761d7836f8ab1ae58444f1d90c130737b501bd"
+    },
+    {
+      "version": "proposal-spatial-measurement-summary-consumers",
+      "file": "pending/proposal-spatial-measurement-summary-consumers.json",
+      "recordSnapshotSha256": "83c76715168dd16271d9b72e668ddbb072e65432ddee4bf21f7e5950830b603b"
+    }
+  ],
+  "literatureScope": "917 defined occurrences identity/relevance-screened, not blanket claim or full-text verification.",
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "broaderGoalComplete": false
+}

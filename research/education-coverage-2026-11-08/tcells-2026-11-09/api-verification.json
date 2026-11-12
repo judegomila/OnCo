@@ -1,0 +1,290 @@
+{
+  "generation": {
+    "commands": [
+      {
+        "script": "scripts/build-api.ts",
+        "exitCode": 0,
+        "durationSeconds": 31.73,
+        "logSha256": "cf12c309488719e53092c59b1ccba48b156a7a89c78d753d146e00f534e4157d"
+      },
+      {
+        "script": "scripts/build-openapi.ts",
+        "exitCode": 0,
+        "durationSeconds": 1.89,
+        "logSha256": "989d651e083fc2fcb9d90dc16d8d3bead847cfb8c69dd94734e8f92bcf6a639e"
+      },
+      {
+        "script": "scripts/build-context.ts",
+        "exitCode": 0,
+        "durationSeconds": 4.63,
+        "logSha256": "9ea61129742139cd67ed9b939bd94b26c77e7830846f77f4fde5071f7b04af7d"
+      }
+    ],
+    "scope": "Actual current standalone data-branch generators. No production Next build, deployment or hosted-preview claim."
+  },
+  "verification": {
+    "owners": 14,
+    "requirements": 39,
+    "jsonCanonicalRecordsMatch": 14,
+    "markdownMissingRequirements": [],
+    "checks": [
+      {
+        "id": "anergy",
+        "jsonBytes": 5288,
+        "jsonSha256": "0895c3f9bc06db02add9bf14983a1ce2153995475056b791ae5ff1c34b07aadd",
+        "markdownBytes": 5065,
+        "markdownSha256": "d26ef2c61b257912aa7b1b705e7271dc4a775180bea31f4da781595f16c64c4b",
+        "requirements": 6
+      },
+      {
+        "id": "costimulation",
+        "jsonBytes": 3194,
+        "jsonSha256": "dfb43e2dba5d4884380d3e97a740fe5fa0da8368f6c3df3f4b610204fb5f2efc",
+        "markdownBytes": 3044,
+        "markdownSha256": "fee350d0d45f8f44ead9a15978504e807716546a541af530dbe3f85da47bdb19",
+        "requirements": 2
+      },
+      {
+        "id": "regulatory-t-cells",
+        "jsonBytes": 3803,
+        "jsonSha256": "fd121ad204586afca61306ab1d09a6de88abae28ded536d380a0aafcca2755b5",
+        "markdownBytes": 3591,
+        "markdownSha256": "04428af60ae766c2f08f4920cd885155e08c647d3f9ddb1d31bc117e9e1f6669",
+        "requirements": 2
+      },
+      {
+        "id": "t-cell-priming-three-signals",
+        "jsonBytes": 3959,
+        "jsonSha256": "e23fea83fd5cf2481a2ed776dd1ce7c0c17331718718ecc0a16c1321a4aefae5",
+        "markdownBytes": 3824,
+        "markdownSha256": "1507600268a004756d7c817f6792e1216fd5b48e7683f5587a3811ccf2dcac56",
+        "requirements": 3
+      },
+      {
+        "id": "t-cell-receptor",
+        "jsonBytes": 4229,
+        "jsonSha256": "9c15e5aad2283fb0c6fce54e0853f9fca71ed9277b26fcd315049ff0ffa6ee9d",
+        "markdownBytes": 4047,
+        "markdownSha256": "cf363c8a29e30e0d59586a7a61ee2d78079c098b22efdd895eecd621c7f4491b",
+        "requirements": 4
+      },
+      {
+        "id": "t-cell-states",
+        "jsonBytes": 5354,
+        "jsonSha256": "1efe3fd0a49d3487d9bac84a82d9224ba55563c4e6f19c0d6d69247eaa2fcb06",
+        "markdownBytes": 5102,
+        "markdownSha256": "ce903ea0ab7d1ddacb51393f85d209201614b38145afc3c490653cfd395a7837",
+        "requirements": 4
+      },
+      {
+        "id": "thymic-output-and-aging",
+        "jsonBytes": 4117,
+        "jsonSha256": "7a57e0f136d43c124ed1fb16b181f9c39825aad86e79a5948309a8e5767e0eae",
+        "markdownBytes": 3945,
+        "markdownSha256": "1a00b526559ab8cee716114d4a63cb23f17d40be6b6f67f8d949f0e2160a7a66",
+        "requirements": 3
+      },
+      {
+        "id": "pd1-checkpoint",
+        "jsonBytes": 27052,
+        "jsonSha256": "45ec0874895dc07189799bbf81db39321010e674bbba87196548707b9a2f06bc",
+        "markdownBytes": 18299,
+        "markdownSha256": "dbbd53696f4d19530682b926ff5f7bb6db659c26c095296af361f9c7538a2a29",
+        "requirements": 0
+      },
+      {
+        "id": "t-cell",
+        "jsonBytes": 6814,
+        "jsonSha256": "2bdf3765398e869abf457a658d44a899e1aed9a3aadd54e75ed1b94806a6957e",
+        "markdownBytes": 4876,
+        "markdownSha256": "90528b46b91d1998952c888c620c865dd31da7a0bc33f203d8fba9a7ed66d276",
+        "requirements": 2
+      },
+      {
+        "id": "t-cell-exhaustion",
+        "jsonBytes": 12204,
+        "jsonSha256": "194a3fddf3f20391e2f917e33af01b2b35b16ffd63afc4e6edcca83993dbab1d",
+        "markdownBytes": 8574,
+        "markdownSha256": "cf56aa4606ad093b7de986da07972e0fa03b373e66cd4ba62b5b064cad5e06cd",
+        "requirements": 5
+      },
+      {
+        "id": "cd28",
+        "jsonBytes": 7946,
+        "jsonSha256": "b468e0a071cb92e148b5dd2e2a4836f0fcbaae067b5bf5fc52a9026733384903",
+        "markdownBytes": 4878,
+        "markdownSha256": "017bc7bc9365e74b176bd02c6de74c752c23bcb6de50d0272b17f44ccf4ac8d4",
+        "requirements": 2
+      },
+      {
+        "id": "foxp3",
+        "jsonBytes": 7278,
+        "jsonSha256": "a2943cc23206e9f24dda536ed49df84ac737796208dedba15049125274872412",
+        "markdownBytes": 4638,
+        "markdownSha256": "749f3191257516602494b8ad768b5a16be31ed7b9e3ba6eee92c22e9ab908ec0",
+        "requirements": 1
+      },
+      {
+        "id": "cd4",
+        "jsonBytes": 4108,
+        "jsonSha256": "57896a98dc45485a0830b8b1bffc3c0cc03067933dec4794562cfc6119108e60",
+        "markdownBytes": 3680,
+        "markdownSha256": "6430acc14a11bc1879422968fadd149b19a691f093a23651eee71f501a401f65",
+        "requirements": 3
+      },
+      {
+        "id": "cd8",
+        "jsonBytes": 4000,
+        "jsonSha256": "7caa5e8825e550ffe471985714c436b70c9f4d7bb0ace0fb5c248610ec538371",
+        "markdownBytes": 3388,
+        "markdownSha256": "3303be6c392a35595f7589f51a462c5dd00077e5afd0cd4d25e0603d961753a5",
+        "requirements": 2
+      }
+    ]
+  },
+  "immutableSelectedFiles": {
+    "scope": "Immutable copies of selected actual generated entity JSON and Markdown at the T-cell integration checkpoint; complete generation logs are retained separately.",
+    "files": [
+      {
+        "path": "anergy.json",
+        "bytes": 5288,
+        "sha256": "0895c3f9bc06db02add9bf14983a1ce2153995475056b791ae5ff1c34b07aadd"
+      },
+      {
+        "path": "anergy.md",
+        "bytes": 5065,
+        "sha256": "d26ef2c61b257912aa7b1b705e7271dc4a775180bea31f4da781595f16c64c4b"
+      },
+      {
+        "path": "costimulation.json",
+        "bytes": 3194,
+        "sha256": "dfb43e2dba5d4884380d3e97a740fe5fa0da8368f6c3df3f4b610204fb5f2efc"
+      },
+      {
+        "path": "costimulation.md",
+        "bytes": 3044,
+        "sha256": "fee350d0d45f8f44ead9a15978504e807716546a541af530dbe3f85da47bdb19"
+      },
+      {
+        "path": "regulatory-t-cells.json",
+        "bytes": 3803,
+        "sha256": "fd121ad204586afca61306ab1d09a6de88abae28ded536d380a0aafcca2755b5"
+      },
+      {
+        "path": "regulatory-t-cells.md",
+        "bytes": 3591,
+        "sha256": "04428af60ae766c2f08f4920cd885155e08c647d3f9ddb1d31bc117e9e1f6669"
+      },
+      {
+        "path": "t-cell-priming-three-signals.json",
+        "bytes": 3959,
+        "sha256": "e23fea83fd5cf2481a2ed776dd1ce7c0c17331718718ecc0a16c1321a4aefae5"
+      },
+      {
+        "path": "t-cell-priming-three-signals.md",
+        "bytes": 3824,
+        "sha256": "1507600268a004756d7c817f6792e1216fd5b48e7683f5587a3811ccf2dcac56"
+      },
+      {
+        "path": "t-cell-receptor.json",
+        "bytes": 4229,
+        "sha256": "9c15e5aad2283fb0c6fce54e0853f9fca71ed9277b26fcd315049ff0ffa6ee9d"
+      },
+      {
+        "path": "t-cell-receptor.md",
+        "bytes": 4047,
+        "sha256": "cf363c8a29e30e0d59586a7a61ee2d78079c098b22efdd895eecd621c7f4491b"
+      },
+      {
+        "path": "t-cell-states.json",
+        "bytes": 5354,
+        "sha256": "1efe3fd0a49d3487d9bac84a82d9224ba55563c4e6f19c0d6d69247eaa2fcb06"
+      },
+      {
+        "path": "t-cell-states.md",
+        "bytes": 5102,
+        "sha256": "ce903ea0ab7d1ddacb51393f85d209201614b38145afc3c490653cfd395a7837"
+      },
+      {
+        "path": "thymic-output-and-aging.json",
+        "bytes": 4117,
+        "sha256": "7a57e0f136d43c124ed1fb16b181f9c39825aad86e79a5948309a8e5767e0eae"
+      },
+      {
+        "path": "thymic-output-and-aging.md",
+        "bytes": 3945,
+        "sha256": "1a00b526559ab8cee716114d4a63cb23f17d40be6b6f67f8d949f0e2160a7a66"
+      },
+      {
+        "path": "pd1-checkpoint.json",
+        "bytes": 27052,
+        "sha256": "45ec0874895dc07189799bbf81db39321010e674bbba87196548707b9a2f06bc"
+      },
+      {
+        "path": "pd1-checkpoint.md",
+        "bytes": 18299,
+        "sha256": "dbbd53696f4d19530682b926ff5f7bb6db659c26c095296af361f9c7538a2a29"
+      },
+      {
+        "path": "t-cell.json",
+        "bytes": 6814,
+        "sha256": "2bdf3765398e869abf457a658d44a899e1aed9a3aadd54e75ed1b94806a6957e"
+      },
+      {
+        "path": "t-cell.md",
+        "bytes": 4876,
+        "sha256": "90528b46b91d1998952c888c620c865dd31da7a0bc33f203d8fba9a7ed66d276"
+      },
+      {
+        "path": "t-cell-exhaustion.json",
+        "bytes": 12204,
+        "sha256": "194a3fddf3f20391e2f917e33af01b2b35b16ffd63afc4e6edcca83993dbab1d"
+      },
+      {
+        "path": "t-cell-exhaustion.md",
+        "bytes": 8574,
+        "sha256": "cf56aa4606ad093b7de986da07972e0fa03b373e66cd4ba62b5b064cad5e06cd"
+      },
+      {
+        "path": "cd28.json",
+        "bytes": 7946,
+        "sha256": "b468e0a071cb92e148b5dd2e2a4836f0fcbaae067b5bf5fc52a9026733384903"
+      },
+      {
+        "path": "cd28.md",
+        "bytes": 4878,
+        "sha256": "017bc7bc9365e74b176bd02c6de74c752c23bcb6de50d0272b17f44ccf4ac8d4"
+      },
+      {
+        "path": "foxp3.json",
+        "bytes": 7278,
+        "sha256": "a2943cc23206e9f24dda536ed49df84ac737796208dedba15049125274872412"
+      },
+      {
+        "path": "foxp3.md",
+        "bytes": 4638,
+        "sha256": "749f3191257516602494b8ad768b5a16be31ed7b9e3ba6eee92c22e9ab908ec0"
+      },
+      {
+        "path": "cd4.json",
+        "bytes": 4108,
+        "sha256": "57896a98dc45485a0830b8b1bffc3c0cc03067933dec4794562cfc6119108e60"
+      },
+      {
+        "path": "cd4.md",
+        "bytes": 3680,
+        "sha256": "6430acc14a11bc1879422968fadd149b19a691f093a23651eee71f501a401f65"
+      },
+      {
+        "path": "cd8.json",
+        "bytes": 4000,
+        "sha256": "7caa5e8825e550ffe471985714c436b70c9f4d7bb0ace0fb5c248610ec538371"
+      },
+      {
+        "path": "cd8.md",
+        "bytes": 3388,
+        "sha256": "3303be6c392a35595f7589f51a462c5dd00077e5afd0cd4d25e0603d961753a5"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1177 @@
+{
+  "fieldPassages": 130,
+  "missing": [],
+  "checks": [
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "20262e6aa07bd8c0b9f068872afc9757ec02e5292f2b3b6aac97a93be844b8dc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c01e8bbad455ccb50f5d5c5c86eef989c633e99ea6fe280fff75fafa2bc1d35f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "roc-auc",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "874b0e1e9aeece6d1099cbf92e0e1397bf26187088547c241befce938fd25431",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "concordance-index",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d506c462acf7bfd28ee5e76848807f6ebca26966164d7115fce6fb4ae7d75f96",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "concordance-index",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "bcb123a0085cc4bae8995400826e52d2fee5dbab0a6f6ac95ad056d51319d0ad",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "concordance-index",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "981e84c8b72d0ebc7e3a21069776931d0777b61af645936df1f355ee17762167",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "concordance-index",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "concordance-index",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "9c6dd7b914123c4a313ad3adb7bc8962844fd5046f061b8c40a4ae6fb9b3e2a1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "6d010472e3d2e193b732d4a8db3f382b2ac3801c689a97c81e69cd1ca11a983c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e282ec08a6a4b5aa160de6a54985264a0fd4c3945d81fcd18254a782bbfe68aa",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "calibration",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "b849cab85c3499d03742e3dd181e2a4b0c65b214c730072227d54e72d25bcc5c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ppv",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7c7670725c527ce56c4fa6799ce779d65a10bd1e52ddfabb159b24f164cd5faa",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ppv",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "ebc0071461f063189cfc6b8ff6a249f877becd25ea6bf266345442f8fa4678c9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ppv",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ppv",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "ppv",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "trial-phases",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "ea45ae61966fea8e307d0da3cf49b7a1b03335591acf10175081b12274b98752",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "trial-phases",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "8c36a07b02778c4fd45a94436bf646dcf1d72b523ced06acb6825b4b0ec69c27",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "trial-phases",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "trial-phases",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "4d8350c5437baedbcbd237f423dcf3f89d699276d403dfc7d6135ebd37d8a727",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "randomised-trial",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f95c55bc6a73967838ab57d05ef1f144d1c9f759c7d643e85d78cdd2f938effe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "randomised-trial",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "262ec0e6cc1c4f7f61f0945b2824b28c3de93c3c407c53be8a03edc61311bd87",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "randomised-trial",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "34866b9054e9d4ea1afb4660daded5562c6cc4855f6a09ebe8c85e4976ef1450",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "randomised-trial",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "e07da32a78cf25dd731e259841dd757ff25ae7f578b6164fa0fefa92ff3a6ac8",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4d07f43871f64c5a88c44ad448465e7f81ce53e1cb6d98150ff8758684d62f9c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "81b9854fdd81a49ee974456533d3b2436e935cb7d73def3c8404c80d0b24f5a0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "fbf312df5f8a6111edaf782e3fb5890d7b9c240bff92e1bfeac0f2f120f0490e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "9d6a1f0031018cc4ae4ff79dc51e096ecd99ed000f1b83f75035998d3b3b2408",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "b16b85644558ec2b14112e1b1ba5855035f7974f51ab5beb1844e7bc36e20535",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "ff6a588daf2089c9e91b41c2e213d758c6c70ad6c665606f0352e2583edd4e94",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "preclinical",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "635480c13c8f1e769eab7362190b70f98a66df9a659101b4e13fcecfeffd120b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "0f908ef1b57fe83192c201b0949eee263d941e169e426cfedaf2b5cc4fd34c3c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "fdf0b0924c307ba9e3c54c52b16546d7db56b044504b1650779089bf0a852dda",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "78f78f3aee69fc58993bcb6ea90ccfefedfa5ca0b78dc6f27e53f493a9b11885",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "c540840a7612b702966ebeb3156bc3cff599ca3278761afbb9a52b0f0af790ab",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "dc209519977236d2fc87aaa9bb9ab04ebad73c651c736fa7e2950877047a5ecc",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "4af2c1e6c67a380e93e9272241f2c0018d64b2130515f2177c40ef88aa9214dd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "9db547f533499993b2bc3a5f845311f5c4bec7cb9cee80a026f3ea88c7b51ad3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "656b3c9ef4680c6ad959f38744f086d5d1099fe0cf415a20fa3e80ebbe5581e4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "in-vitro-in-vivo",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "472f1c3adfbddf7c0f31c1354bd4e5a302b31661517252f59dba5db298d58256",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "n-of-1-trial",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "2084cd43b7a01a3230c3f9782f55d9f8717c02a72dfa739fa64d65ca8bf7a061",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "n-of-1-trial",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b0cbfea42ff0600ec4eed0bad39d8b4d6a562d9409ae8f70b1d2c07a84f75526",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "n-of-1-trial",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d5fae97b173b691ed5e676fdd150ceb87b9de01db695ce5dbc89f23c8deb5f83",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "n-of-1-trial",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "25899947406aeea4445c513d16939f79d3ccba0a56b0fba98df544d21c5f36df",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "prespecified-vs-post-hoc",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "0ba7261e10706567896e6f29d73101a97246f55c1bc22de337b30a867b653fd4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "prespecified-vs-post-hoc",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "4a1524d761b6df3acefd322dec54e5d24ac3da4640653e4df6f22f419fa5e87b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "4e91b0dbbb6a025ed4462bb361acab073832c421df1f4072bf76dbd7368e13d1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "be2a428d410ca08b54c2a18fcb06d7f0095d77b0ec72554e0edde382ba83fdd6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "96cc324cb79cca041e6c7e273e7a9c1dcecb1c9bf68d7754c3aa8267328f4be1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "subgroup-analysis",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "d5c021ecffb2d1d6aff12f6b9010680b380885c3a03c69d23f923dd162517ac3",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "subgroup-analysis",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "e9466310f7f96017c15848e8b4512cbd2cd6f8a63073ab604e8dc5cc673eba06",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "subgroup-analysis",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "35ef4cc9be5936b2fd21d4f090c0b2419a74396013032422ce72340605c2f7e1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c26efa540fc50fa9771dcaa854289f32b8c1a42196b9056b4e19287f0ae128ef",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "6ed39d7cf7349a5009986658db1d8051a2b1025a69947fcbf2c7775f10ec53fd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "23b1cdb545467b0c84841b6b42f02fd1de805f9dcf0ad1260c2ae1c56efcf1fe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "053d1bd0f9aa3cbb6b97e4ce36c7d97aee13ceadccfeb13b097b32e8f5667dfd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "02ddf3e8964cc1d982868870f2a17368cc9dc7e63b6a5b32ee062d93aba097ef",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "group-sequential-design",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "b86d34cdf61d8a4305821dfb11c22fe451c6dbc1a2ad9acf1262d9fff2b7efb2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "futility",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7386b57a793331fd289e606e52c73e1343c485143160dee7a9fbf637fc9a938c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "futility",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "b57d77094a53582d28ae33ba8b407cfbef119d26960f6aa3219ab5b5bb30b389",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "futility",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7d642cd5cb43f2729585c64d04f1506881fbaca6172ba75ac90a78b279a2c77f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "real-world-evidence",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "6c749e1eef7ec0c4da918c6b8c008cb85ef95daad8febcccc1c6ca632d5e93a5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "real-world-evidence",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9cbc75506f1fd0a97d8129709e75bd1a4521524cf4402112479b717d8317bbe1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "real-world-evidence",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "86b4a781fe5f0180d165792667faba13005ff2058aa22008029658d297182f3b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "real-world-evidence",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "real-world-evidence",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "ad7817830466c3226359927909ebfd261e38b5f51ccf3ef61080cf4e92a6f7a9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "publication-and-peer-review-status",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "f5c43b5d6acaf15bd974e306dac53ca86ff2994413fd35a071e4ba0b0f7e7511",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "publication-and-peer-review-status",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "5d5f5a9b392675cadd7f350ec9dca19913987e445331870f8f2511b76b6371e4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "publication-and-peer-review-status",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "ed5b7b350aa0992e2604eff9d10a6a8e0445dd1599174e32e42a4644c879a29a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "publication-and-peer-review-status",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "97e17f3ee11f77bf46df32c530718749c36531b2cfdafb2a36bc0a3109cff2de",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "publication-and-peer-review-status",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "a52d1ae6e27389b461f28f982de80cdf2a4c5fc799e2e89aaaf1985ef3be6300",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "case-report",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "67d6bd5f4a630fb856a1dfd5ff56934f2252fcecebcb9855f7cc23d5351e59b9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "case-report",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "5adb56f893d47dbd84d9beb93a59dd3bb7461729e92e715f308e4c731fd803d4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "case-report",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "92ad5bd9880df7e365402907300444551fae5587e8b4a9de89345c29942a8587",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "case-report",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "870a8ba1f439c98bd6b44a8c1d50c85a27c61cc6a13df831eb5c7205a039f4fe",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "436b102779a7b9140a0194a6af8f8a67f98b4d979b1e0cd1d3c711f5c6c213e2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "72eedbe1aa9c14df05da733f4093bd8ad3f62e7c1576eaefdb5179ed85bdcccd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "45245011d158f3a7e9e7590b3a3e7824e643782fe2892e8b711d1683a6290666",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "5a9a3608798d0681564774eadbbe38f7ac9e8be21f80ec3c9511efdec9b9adee",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "916261bc98bbf18fde20e1caf6075b4e24386e903f330d3c2a23625f1a048d54",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "d26153f07457566e16647b47a03b349975411cda4cd39a76a8a1a457c3ffba80",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "meta-analysis",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "a9e3b678714c12bc77f64296d24f121692245d908af10ed8ea53dd5c8b78e845",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "controlled-perturbation",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "755ab951ae085d30c479196326b91978241164ba9d0797c142c73d0d0243dd97",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "controlled-perturbation",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "9cffdcd03c258cc864f0e3de2b800ed82a9826ef1383464d50198853309ad471",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "controlled-perturbation",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "controlled-perturbation",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "3dc89241f95a440cd82ef42ad63a16a78711904b3c43a6ed4f1ac11602c50c41",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "controlled-perturbation",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "df399fea216b250eeff5aedfaab48b7851e9fd6baf54dc0080db5f05b87e0171",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "false-discovery-rate",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "975c14c785065c8bd0162d3b274ecf6645f335c20cfe80cd96d976842c48e6bd",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "false-discovery-rate",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "75ce7dd3cdc98174acbd74b7bd009efad5f4ae58ea96aec5834d9cbd6dc92d19",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "false-discovery-rate",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "false-discovery-rate",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "false-discovery-rate",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "2911da86e235b7ec18432d9f45543694e1ba71e6c15ffc32a871d091b1a40112",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e3d24b39284b5c13e7af52190ed0efd424e6766c33dc0204a4ad1fb8b210667b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "2401f757591e322680db2271f1c1a970a7ba6d1f2b61a9c1326bbb2e24b0266e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "bed10d93fb901e2f3d0f56f35d6682dddc4423a28a9d99c36645dcb6c054a23e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "7c49abdd4b2c9da436fb43e670457ee603ba88ce37b25a9d65e9f866516dbd3b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "82305c4362f3cbe13ebfce380cb8e47e2ca55fa4e37e0dd94d104cb12e0ba556",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "83aba1ef9d8efb1c3297d1ee054c67626416389077b95715cfceede787f766c7",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "cancer-drivers-vs-actionable",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "9646e26fe3e24483b962c6156afcd0a4797d494410c2e013ef74f8e2278a00a6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "6d63ee2fdd20820a8cb7c41dd9e2a2b8239ac0a9e3d27bb3c4c0a645da4c3260",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a5999a83864c3e9b3d1f3445a16f9586e32c3ac291a129cfcf29238066876847",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "7142986fc19890553e0259de252d5d23ff217ece6942fdea697ae2df93aebea9",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "02c975c9f65a742da351f7868837488711a21459e7395808d193de07f00a922c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "fae87e0406519f46961519e70c927ab51521d19001aa7f5e5ca207e66dea0047",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "f2b88ee1653ad71418fa1e82733ca25828ca23cd6bb93999d185567a36b0a892",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "49a76694961e16832d6f5f41c3f799bd1c6140bcacf4d22f8bcba64b2c627c5c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "0a4c50fdcf38cd5837683aee21e34e28f2e5e730e298c9ab023af2dd85a7746c",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "detection-versus-quantification",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "b55ba6d8c42044e35203f8946824544c9ebdfcdca92671929c8f2353c81f0678",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "43a233e4c7e4af608cdc366b2bf40d50a5596bd928e82b27b78735c96ce83402",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "37eff5f523eca268af3aa338e06ef5bb972244d53e96a4044476a3a9aa2b1086",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "8951d8e3ccc409e10d893bf53d76fa8a9eeba4a7e4125a2fe245125d20f180ba",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "dd9b80057db8b6662bd02fb15a96de4a8c57500abfef8bad60f06dadf5b89e3e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "293c3a762dac2ad174b2eec67a13b5ce8c69493f6e8c338ae8105343526272ef",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "prognostic-versus-predictive-biomarkers",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "17bb321447116cc485f3f67450e29c7aa604b0803be397bd8b73c2badcfc0c3b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "confounding-by-indication",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "b60f008b00d5261e5f5113b765d9289290684b448c797a05922867ba7ae6e144",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "confounding-by-indication",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "2cc61805d1e90290a5c737c4ea558acb707d5cca45a844cef7cbf714c6eda925",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "confounding-by-indication",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "bfe3b77aa33889cd091caf5b68867c938bd1f449efcd98d0aa47045caf8694a6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "confounding-by-indication",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "214bb2eeb8cd1c72783da07ba06ba1f1f8e0d6afe29f2ee12c048cecaa9c67a5",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c38f045b64cd1e4ec0eac011fb95b6b850feb9d277a517be872456cb6ade7f82",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "8fdef183224693e77102e4e5f7e6688c34a8850d5ea002311d37f6db00a4af34",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "6c10b9fe0a04be1d650c38831b830a9b40c4a1e77ff2ae726a9d3d5eb0944a1f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "peer",
+      "id": "biomarker-cutpoint-selection",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "07a76398cf446bcd23859ebce2ca401c98fcfebaf7de866a0e53fdfb6cdbfeb4",
+      "inActualReaderText": true
+    }
+  ],
+  "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+}

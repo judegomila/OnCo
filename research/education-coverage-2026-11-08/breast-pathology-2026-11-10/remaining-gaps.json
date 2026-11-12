@@ -1,0 +1,9 @@
+{
+  "assignedLessonRequirementsOpen": 0,
+  "sourceOwnerArtworkIssues": "See figures.json for all twenty family dispositions; these are not silently certified or copied.",
+  "adjacentOpenIds": [
+    "breast-retained-source-context",
+    "breast-guide-artwork-issues"
+  ],
+  "releaseLimits": "Draft contribution only. No named expert/language sign-off, Next production build, browser hydration/mobile review, main merge or deployment. The pre-existing GRAPH_JSON route-export build limitation is unchanged."
+}

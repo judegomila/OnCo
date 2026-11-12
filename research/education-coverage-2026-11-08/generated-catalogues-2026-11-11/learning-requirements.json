@@ -1,0 +1,59 @@
+{
+  "uniqueScientificRequirementsAddedByTheCatalogues": [],
+  "disposition": "Verified duplicate generated text. No independent teaching denominator or evidence credit is added; linked owners remain separately required sources.",
+  "ownerStates": [
+    {
+      "version": "original",
+      "cataloguePath": "wiki/education/concepts/index.md",
+      "uniqueOwnerPaths": 400,
+      "ownerReviewStates": {
+        "reviewed": 374,
+        "unreviewed": 26
+      }
+    },
+    {
+      "version": "original",
+      "cataloguePath": "wiki/education/images/index.md",
+      "uniqueOwnerPaths": 346,
+      "ownerReviewStates": {
+        "reviewed": 296,
+        "unreviewed": 50
+      }
+    },
+    {
+      "version": "later",
+      "cataloguePath": "wiki/education/concepts/index.md",
+      "uniqueOwnerPaths": 434,
+      "ownerReviewStates": {
+        "reviewed": 397,
+        "unreviewed": 37
+      }
+    },
+    {
+      "version": "later",
+      "cataloguePath": "wiki/education/images/index.md",
+      "uniqueOwnerPaths": 346,
+      "ownerReviewStates": {
+        "reviewed": 297,
+        "unreviewed": 49
+      }
+    }
+  ],
+  "versionReconciliation": [
+    {
+      "kind": "concepts",
+      "laterEntries": 434,
+      "originalEntries": 400,
+      "originalVerbatimTextsAlsoLater": 399,
+      "originalDistinctTextsToRead": 1
+    },
+    {
+      "kind": "images",
+      "laterEntries": 380,
+      "originalEntries": 381,
+      "originalVerbatimTextsAlsoLater": 380,
+      "originalDistinctTextsToRead": 1
+    }
+  ],
+  "noGeneratedPresenceCredit": true
+}

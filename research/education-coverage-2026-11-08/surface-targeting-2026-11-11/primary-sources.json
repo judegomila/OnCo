@@ -1,0 +1,2274 @@
+{
+  "sourceProvidedPaperIdentities": 26,
+  "additionalPaperIdentities": 1,
+  "papers": [
+    {
+      "pmid": "15501986",
+      "pmcid": null,
+      "doi": "10.1158/1078-0432.ccr-04-0789",
+      "title": "Effects of drug loading on the antitumor activity of a monoclonal antibody drug conjugate.",
+      "authors": [
+        "Hamblett KJ",
+        "Senter PD",
+        "Chace DF",
+        "Sun MM",
+        "Lenox J",
+        "Cerveny CG",
+        "Kissler KM",
+        "Bernhardt SX",
+        "Kopcha AK",
+        "Zabinski RF",
+        "Meyer DL",
+        "Francisco JA"
+      ],
+      "authorString": "Hamblett KJ, Senter PD, Chace DF, Sun MM, Lenox J, Cerveny CG, Kissler KM, Bernhardt SX, Kopcha AK, Zabinski RF, Meyer DL, Francisco JA.",
+      "pubYear": "2004",
+      "firstPublicationDate": "2004-10-01",
+      "captureSha256": "7f231082cd8a620a768b98b41fdf8b9cdac2dea65385a7050de301b36e8e18a4",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "HTTP 429 capture retained; no successful Crossref reading claimed"
+      }
+    },
+    {
+      "pmid": "20179677",
+      "pmcid": "PMC2862534",
+      "doi": "10.1038/mt.2010.24",
+      "title": "Case report of a serious adverse event following the administration of T cells transduced with a chimeric antigen receptor recognizing ERBB2.",
+      "authors": [
+        "Morgan RA",
+        "Yang JC",
+        "Kitano M",
+        "Dudley ME",
+        "Laurencot CM",
+        "Rosenberg SA"
+      ],
+      "authorString": "Morgan RA, Yang JC, Kitano M, Dudley ME, Laurencot CM, Rosenberg SA.",
+      "pubYear": "2010",
+      "firstPublicationDate": "2010-02-23",
+      "captureSha256": "fce662e7f70ba3325ea8752ea976fc9dbd9b48969ece5e446faa0423ead82332",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/mt.2010.24",
+        "firstAuthor": {
+          "given": "Richard A",
+          "family": "Morgan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              4
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2010,
+              4
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "21551320",
+      "pmcid": "PMC3201164",
+      "doi": "10.1369/0022155411410430",
+      "title": "Expression of Trop2 cell surface glycoprotein in normal and tumor tissues: potential implications as a cancer therapeutic target.",
+      "authors": [
+        "Stepan LP",
+        "Trueblood ES",
+        "Hale K",
+        "Babcook J",
+        "Borges L",
+        "Sutherland CL"
+      ],
+      "authorString": "Stepan LP, Trueblood ES, Hale K, Babcook J, Borges L, Sutherland CL.",
+      "pubYear": "2011",
+      "firstPublicationDate": "2011-05-06",
+      "captureSha256": "e52e41c9aba314bf2a1415d67d0d596afe83cd75c4aaadfd03c7d8d87f8abe8a",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1369/0022155411410430",
+        "firstAuthor": {
+          "given": "Lara P.",
+          "family": "Stepan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Oncology (LPS,LB,CLS), Amgen Inc., Seattle, Washington"
+            },
+            {
+              "name": "Department of Pathology (EST), Amgen Inc., Seattle, Washington"
+            },
+            {
+              "name": "Department of Molecular Sciences (KH), Amgen Inc., Seattle, Washington"
+            },
+            {
+              "name": "Department of Protein Sciences (JB), Amgen Inc., Burnaby, British Columbia, Canada"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              6
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2011,
+              5,
+              6
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2011,
+              7
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "25253783",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-13-0896",
+      "title": "SGN-LIV1A: a novel antibody-drug conjugate targeting LIV-1 for the treatment of metastatic breast cancer.",
+      "authors": [
+        "Sussman D",
+        "Smith LM",
+        "Anderson ME",
+        "Duniho S",
+        "Hunter JH",
+        "Kostner H",
+        "Miyamoto JB",
+        "Nesterova A",
+        "Westendorf L",
+        "Van Epps HA",
+        "Whiting N",
+        "Benjamin DR"
+      ],
+      "authorString": "Sussman D, Smith LM, Anderson ME, Duniho S, Hunter JH, Kostner H, Miyamoto JB, Nesterova A, Westendorf L, Van Epps HA, Whiting N, Benjamin DR.",
+      "pubYear": "2014",
+      "firstPublicationDate": "2014-09-24",
+      "captureSha256": "e9befc5a8943c02a44b5679df7e57d93765b0ac04f1960b9c6beaef503c04df4",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1158/1535-7163.mct-13-0896",
+        "firstAuthor": {
+          "given": "Django",
+          "family": "Sussman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Seattle Genetics, Inc., Bothell, Washington."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              1
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              4
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              1
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1158/1535-7163.c.6537138",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1535-7163.22502631",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1535-7163.22502631.v1",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1535-7163.c.6537138.v1",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "25585957",
+      "pmcid": null,
+      "doi": "10.1007/s11095-015-1624-3",
+      "title": "Evolving Strategies for Target Selection for Antibody-Drug Conjugates.",
+      "authors": [
+        "Damelin M",
+        "Zhong W",
+        "Myers J",
+        "Sapra P"
+      ],
+      "authorString": "Damelin M, Zhong W, Myers J, Sapra P.",
+      "pubYear": "2015",
+      "firstPublicationDate": "2015-01-15",
+      "captureSha256": "a6cd03e8aa04b774472ad94a07cc6a4a5a475ec4e8777b1db63443eba2d2b699",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1007/s11095-015-1624-3",
+        "firstAuthor": {
+          "given": "Marc",
+          "family": "Damelin",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              15
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2015,
+              1,
+              15
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2015,
+              11
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "26076429",
+      "pmcid": null,
+      "doi": "10.1038/nbt.3212",
+      "title": "Reducing hydrophobicity of homogeneous antibody-drug conjugates improves pharmacokinetics and therapeutic index.",
+      "authors": [
+        "Lyon RP",
+        "Bovee TD",
+        "Doronina SO",
+        "Burke PJ",
+        "Hunter JH",
+        "Neff-LaFord HD",
+        "Jonas M",
+        "Anderson ME",
+        "Setter JR",
+        "Senter PD"
+      ],
+      "authorString": "Lyon RP, Bovee TD, Doronina SO, Burke PJ, Hunter JH, Neff-LaFord HD, Jonas M, Anderson ME, Setter JR, Senter PD.",
+      "pubYear": "2015",
+      "firstPublicationDate": "2015-06-15",
+      "captureSha256": "a2d36aad056afa2c0553f760ec5c62ce6cceffb83d46b79757bddff499ffb437",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/nbt.3212",
+        "firstAuthor": {
+          "given": "Robert P",
+          "family": "Lyon",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              15
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              15
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2015,
+              7
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "26101915",
+      "pmcid": "PMC4673178",
+      "doi": "10.18632/oncotarget.4318",
+      "title": "Trop-2 is a novel target for solid cancer therapy with sacituzumab govitecan (IMMU-132), an antibody-drug conjugate (ADC).",
+      "authors": [
+        "Goldenberg DM",
+        "Cardillo TM",
+        "Govindan SV",
+        "Rossi EA",
+        "Sharkey RM"
+      ],
+      "authorString": "Goldenberg DM, Cardillo TM, Govindan SV, Rossi EA, Sharkey RM.",
+      "pubYear": "2015",
+      "firstPublicationDate": "2015-09-01",
+      "captureSha256": "463d2d92ba0b90570398788532e486c23fbce35525a80825e1d2f603653747ea",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Developer-authored release, delivery-rationale and assay passages; human release location is not directly mapped.",
+        "passageOrdinals": [
+          37,
+          75,
+          86,
+          256,
+          447,
+          462,
+          545
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.18632/oncotarget.4318",
+        "firstAuthor": {
+          "given": "David M.",
+          "family": "Goldenberg",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Immunomedics, Inc., Morris Plains, NJ, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              18
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2015,
+              6,
+              18
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              9
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "27998973",
+      "pmcid": null,
+      "doi": "10.1093/annonc/mdw678",
+      "title": "Nectin-4: a new prognostic biomarker for efficient therapeutic targeting of primary and metastatic triple-negative breast cancer.",
+      "authors": [
+        "M-Rabet M",
+        "Cabaud O",
+        "Josselin E",
+        "Finetti P",
+        "Castellano R",
+        "Farina A",
+        "Agavnian-Couquiaud E",
+        "Saviane G",
+        "Collette Y",
+        "Viens P",
+        "Gonçalves A",
+        "Ginestier C",
+        "Charafe-Jauffret E",
+        "Birnbaum D",
+        "Olive D",
+        "Bertucci F",
+        "Lopez M"
+      ],
+      "authorString": "M-Rabet M, Cabaud O, Josselin E, Finetti P, Castellano R, Farina A, Agavnian-Couquiaud E, Saviane G, Collette Y, Viens P, Gonçalves A, Ginestier C, Charafe-Jauffret E, Birnbaum D, Olive D, Bertucci F, Lopez M.",
+      "pubYear": "2017",
+      "firstPublicationDate": "2017-04-01",
+      "captureSha256": "7232a9f5f24f56c8512f4758a11961ea2370c6b45a335ac5ee3731fd7972392a",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1093/annonc/mdw678",
+        "firstAuthor": {
+          "given": "M.",
+          "family": "M-Rabet",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "28399408",
+      "pmcid": "PMC5458750",
+      "doi": "10.1016/j.ccell.2017.03.005",
+      "title": "Eradication of Tumors through Simultaneous Ablation of CD276/B7-H3-Positive Tumor Cells and Tumor Vasculature.",
+      "authors": [
+        "Seaman S",
+        "Zhu Z",
+        "Saha S",
+        "Zhang XM",
+        "Yang MY",
+        "Hilton MB",
+        "Morris K",
+        "Szot C",
+        "Morris H",
+        "Swing DA",
+        "Tessarollo L",
+        "Smith SW",
+        "Degrado S",
+        "Borkin D",
+        "Jain N",
+        "Scheiermann J",
+        "Feng Y",
+        "Wang Y",
+        "Li J",
+        "Welsch D",
+        "DeCrescenzo G",
+        "Chaudhary A",
+        "Zudaire E",
+        "Klarmann KD",
+        "Keller JR",
+        "Dimitrov DS",
+        "St Croix B"
+      ],
+      "authorString": "Seaman S, Zhu Z, Saha S, Zhang XM, Yang MY, Hilton MB, Morris K, Szot C, Morris H, Swing DA, Tessarollo L, Smith SW, Degrado S, Borkin D, Jain N, Scheiermann J, Feng Y, Wang Y, Li J, Welsch D, DeCrescenzo G, Chaudhary A, Zudaire E, Klarmann KD, Keller JR, Dimitrov DS, St Croix B.",
+      "pubYear": "2017",
+      "firstPublicationDate": "2017-04-01",
+      "captureSha256": "9e9b7ac3765e477b16356ee6258fef7198e0f176630b4a978e704961edf940d2",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Abstract plus selected MMAE cancer-cell xenograft and expression passages. PBD dual-compartment/eradication statement is also in the abstract.",
+        "passageOrdinals": [
+          106,
+          118
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1016/j.ccell.2017.03.005",
+        "firstAuthor": {
+          "given": "Steven",
+          "family": "Seaman",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2017,
+              4
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "30221040",
+      "pmcid": "PMC6136859",
+      "doi": "10.1080/2162402x.2018.1450710",
+      "title": "A multicenter phase 1 study of solitomab (MT110, AMG 110), a bispecific EpCAM/CD3 T-cell engager (BiTE®) antibody construct, in patients with refractory solid tumors.",
+      "authors": [
+        "Kebenko M",
+        "Goebeler ME",
+        "Wolf M",
+        "Hasenburg A",
+        "Seggewiss-Bernhardt R",
+        "Ritter B",
+        "Rautenberg B",
+        "Atanackovic D",
+        "Kratzer A",
+        "Rottman JB",
+        "Friedrich M",
+        "Vieser E",
+        "Elm S",
+        "Patzak I",
+        "Wessiepe D",
+        "Stienen S",
+        "Fiedler W"
+      ],
+      "authorString": "Kebenko M, Goebeler ME, Wolf M, Hasenburg A, Seggewiss-Bernhardt R, Ritter B, Rautenberg B, Atanackovic D, Kratzer A, Rottman JB, Friedrich M, Vieser E, Elm S, Patzak I, Wessiepe D, Stienen S, Fiedler W.",
+      "pubYear": "2018",
+      "firstPublicationDate": "2018-04-18",
+      "captureSha256": "f796bce4c89343b09af9de52f6854d2a8184e21e3de6b1ace09c0916a9b12d99",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1080/2162402x.2018.1450710",
+        "firstAuthor": {
+          "given": "Maxim",
+          "family": "Kebenko",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Oncology/Hematology, Bone Marrow Transplantation and Section Pneumology, University Medical Center Hamburg-Eppendorf, Hamburg, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              21
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              21
+            ]
+          ]
+        },
+        "publishedPrint": null,
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "30827997",
+      "pmcid": null,
+      "doi": "10.1248/cpb.c18-00744",
+      "title": "The Latest Research and Development into the Antibody-Drug Conjugate, [fam-] Trastuzumab Deruxtecan (DS-8201a), for HER2 Cancer Therapy.",
+      "authors": [
+        "Nakada T",
+        "Sugihara K",
+        "Jikoh T",
+        "Abe Y",
+        "Agatsuma T"
+      ],
+      "authorString": "Nakada T, Sugihara K, Jikoh T, Abe Y, Agatsuma T.",
+      "pubYear": "2019",
+      "firstPublicationDate": "2019-01-01",
+      "captureSha256": "f6967023d9ee6dc4612af18ddfab2698a54c8cb0fb5ce80d53d9266d957558ed",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "J-STAGE paragraphs 9, 53, 57 and 65 plus EPMC affiliation metadata; preclinical design rationale is distinguished from later human label parameters.",
+        "paragraphOrdinals": [
+          9,
+          53,
+          57,
+          65
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1248/cpb.c18-00744",
+        "firstAuthor": {
+          "given": "Takashi",
+          "family": "Nakada",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Research and Development Division, Daiichi Sankyo Co., Ltd."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              1
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2019,
+              3,
+              1
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "32728208",
+      "pmcid": "PMC7390460",
+      "doi": "10.1038/s41573-020-0073-9",
+      "title": "Radiopharmaceutical therapy in cancer: clinical advances and challenges.",
+      "authors": [
+        "Sgouros G",
+        "Bodei L",
+        "McDevitt MR",
+        "Nedrow JR"
+      ],
+      "authorString": "Sgouros G, Bodei L, McDevitt MR, Nedrow JR.",
+      "pubYear": "2020",
+      "firstPublicationDate": "2020-07-29",
+      "captureSha256": "97fd9d9d8022fc9977ad177e8d791f50b6e10e38566a666a9a5fe44e3a58eff7",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Review Table 1 approximate tissue-range column, with selected radiation/geometry discussion. No mean/maximum convention supplied by that column.",
+        "passageOrdinals": [
+          102,
+          632,
+          678
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/s41573-020-0073-9",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0002-4553-2866",
+          "authenticated-orcid": false,
+          "given": "George",
+          "family": "Sgouros",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              29
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2020,
+              7,
+              29
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2020,
+              9,
+              1
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "33558752",
+      "pmcid": "PMC8287784",
+      "doi": "10.1038/s41571-021-00470-8",
+      "title": "Unlocking the potential of antibody-drug conjugates for cancer therapy.",
+      "authors": [
+        "Drago JZ",
+        "Modi S",
+        "Chandarlapaty S"
+      ],
+      "authorString": "Drago JZ, Modi S, Chandarlapaty S.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-02-08",
+      "captureSha256": "4a6e46eb1d2ef3a0b26f7fe3b18049a790c1303b4dc80eddcc318f5053685c6f",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/s41571-021-00470-8",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0002-7245-1172",
+          "authenticated-orcid": false,
+          "given": "Joshua Z.",
+          "family": "Drago",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              8
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              8
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2021,
+              6
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "33882206",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2028485",
+      "title": "Sacituzumab Govitecan in Metastatic Triple-Negative Breast Cancer.",
+      "authors": [
+        "Bardia A",
+        "Hurvitz SA",
+        "Tolaney SM",
+        "Loirat D",
+        "Punie K",
+        "Oliveira M",
+        "Brufsky A",
+        "Sardesai SD",
+        "Kalinsky K",
+        "Zelnak AB",
+        "Weaver R",
+        "Traina T",
+        "Dalenc F",
+        "Aftimos P",
+        "Lynce F",
+        "Diab S",
+        "Cortés J",
+        "O'Shaughnessy J",
+        "Diéras V",
+        "Ferrario C",
+        "Schmid P",
+        "Carey LA",
+        "Gianni L",
+        "Piccart MJ",
+        "Loibl S",
+        "Goldenberg DM",
+        "Hong Q",
+        "Olivo MS",
+        "Itri LM",
+        "Rugo HS",
+        "ASCENT Clinical Trial Investigators"
+      ],
+      "authorString": "Bardia A, Hurvitz SA, Tolaney SM, Loirat D, Punie K, Oliveira M, Brufsky A, Sardesai SD, Kalinsky K, Zelnak AB, Weaver R, Traina T, Dalenc F, Aftimos P, Lynce F, Diab S, Cortés J, O'Shaughnessy J, Diéras V, Ferrario C, Schmid P, Carey LA, Gianni L, Piccart MJ, Loibl S, Goldenberg DM, Hong Q, Olivo MS, Itri LM, Rugo HS, ASCENT Clinical Trial Investigators.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-04-01",
+      "captureSha256": "a102a16523ab47133a3eb2c24a23998d3e7d3eb7b3ebc6998bb574d67fa3097c",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1056/nejmoa2028485",
+        "firstAuthor": {
+          "given": "Aditya",
+          "family": "Bardia",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "From the Division of Medical Oncology, Massachusetts General Hospital Cancer Center (A. Bardia), and the Department of Medical Oncology, Dana–Farber Cancer Institute (S.M.T.) — both in Boston; the University of California, Los Angeles, Jonsson Comprehensive Cancer Center, Los Angeles (S.A.H.); the Medical Oncology Department and the Department of Drug Development and Innovation, Institut Curie, Paris (D.L.), Institut Claudius Regaud, Institut Universitaire du Cancer de Toulouse Oncopole, Toulouse (F.D.), and the Department of Medical Oncology, Centre Eugène Marquis, Rennes (V.D.) — all in France; the Department of General Medical Oncology and Multidisciplinary Breast Center, Leuven Cancer Institute, University Hospitals Leuven, Leuven (K.P.), and the Clinical Trials Conduct Unit (P.A.), Institut Jules Bordet–Université Libre de Bruxelles (M.J.P.), Brussels — all in Belgium; the Medical Oncology Department and Breast Cancer Group, Vall d’Hebron University Hospital and Vall d’Hebron Institute of Oncology (M...."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              22
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2021,
+              4,
+              22
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "34161051",
+      "pmcid": "PMC8446332",
+      "doi": "10.1056/nejmoa2107322",
+      "title": "Lutetium-177-PSMA-617 for Metastatic Castration-Resistant Prostate Cancer.",
+      "authors": [
+        "Sartor O",
+        "de Bono J",
+        "Chi KN",
+        "Fizazi K",
+        "Herrmann K",
+        "Rahbar K",
+        "Tagawa ST",
+        "Nordquist LT",
+        "Vaishampayan N",
+        "El-Haddad G",
+        "Park CH",
+        "Beer TM",
+        "Armour A",
+        "Pérez-Contreras WJ",
+        "DeSilvio M",
+        "Kpamegan E",
+        "Gericke G",
+        "Messmann RA",
+        "Morris MJ",
+        "Krause BJ",
+        "VISION Investigators"
+      ],
+      "authorString": "Sartor O, de Bono J, Chi KN, Fizazi K, Herrmann K, Rahbar K, Tagawa ST, Nordquist LT, Vaishampayan N, El-Haddad G, Park CH, Beer TM, Armour A, Pérez-Contreras WJ, DeSilvio M, Kpamegan E, Gericke G, Messmann RA, Morris MJ, Krause BJ, VISION Investigators.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-06-23",
+      "captureSha256": "41e78fb2bc23767a461eccd40f898f68d51efc0cc73f486d36ba77cbd5d10c0e",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1056/nejmoa2107322",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0002-8777-7343",
+          "authenticated-orcid": false,
+          "given": "Oliver",
+          "family": "Sartor",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "From the School of Medicine, Tulane University, New Orleans (O.S.); the Institute of Cancer Research and Royal Marsden Hospital, London (J.B.); the British Columbia Cancer Agency, Vancouver, Canada (K.N.C.); Gustave Roussy Institute, Paris-Saclay University, Villejuif, France (K.F.); the University of Duisberg–Essen and German Cancer Consortium, University Hospital Essen, Essen (K.H.), University Hospital Münster, Münster (K.R.), and Rostock University Medical Center, Rostock (B.J.K.) — all in Germany; Weill Cornell Medicine (S.T.T.) and Memorial Sloan Kettering Cancer Center (M.J.M.) — both in New York; the Urology Cancer Center, Omaha, NE (L.T.N.); the School of Medicine, Wayne State University, Detroit (N.V.); Moffitt Cancer Center and Research Institute, Tampa, FL (G.E.-H.); Norton Cancer Institute, Louisville, KY (C.H.P.); Knight Cancer Institute, Oregon Health and Science University, Portland (T.M.B.); Endocyte (a Novartis company), West Lafayette, IN (A.A.); Novartis Pharmaceuticals, East Hanover, N..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              16
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              16
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.740348378.793587503",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "34252375",
+      "pmcid": null,
+      "doi": "10.1016/s1470-2045(21)00301-6",
+      "title": "Clinical and molecular characteristics of HER2-low-positive breast cancer: pooled analysis of individual patient data from four prospective, neoadjuvant clinical trials.",
+      "authors": [
+        "Denkert C",
+        "Seither F",
+        "Schneeweiss A",
+        "Link T",
+        "Blohmer JU",
+        "Just M",
+        "Wimberger P",
+        "Forberger A",
+        "Tesch H",
+        "Jackisch C",
+        "Schmatloch S",
+        "Reinisch M",
+        "Solomayer EF",
+        "Schmitt WD",
+        "Hanusch C",
+        "Fasching PA",
+        "Lübbe K",
+        "Solbach C",
+        "Huober J",
+        "Rhiem K",
+        "Marmé F",
+        "Reimer T",
+        "Schmidt M",
+        "Sinn BV",
+        "Janni W",
+        "Stickeler E",
+        "Michel L",
+        "Stötzer O",
+        "Hahnen E",
+        "Furlanetto J",
+        "Seiler S",
+        "Nekljudova V",
+        "Untch M",
+        "Loibl S"
+      ],
+      "authorString": "Denkert C, Seither F, Schneeweiss A, Link T, Blohmer JU, Just M, Wimberger P, Forberger A, Tesch H, Jackisch C, Schmatloch S, Reinisch M, Solomayer EF, Schmitt WD, Hanusch C, Fasching PA, Lübbe K, Solbach C, Huober J, Rhiem K, Marmé F, Reimer T, Schmidt M, Sinn BV, Janni W, Stickeler E, Michel L, Stötzer O, Hahnen E, Furlanetto J, Seiler S, Nekljudova V, Untch M, Loibl S.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-07-09",
+      "captureSha256": "57bcc9f70798dd8a3e7fec02773d0f6df48de51157df1237b4a05af21b8f7f50",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "HTTP 429 capture retained; no successful Crossref reading claimed"
+      }
+    },
+    {
+      "pmid": "34551229",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa2103485",
+      "title": "Overall Survival Benefit with Tebentafusp in Metastatic Uveal Melanoma.",
+      "authors": [
+        "Nathan P",
+        "Hassel JC",
+        "Rutkowski P",
+        "Baurain JF",
+        "Butler MO",
+        "Schlaak M",
+        "Sullivan RJ",
+        "Ochsenreither S",
+        "Dummer R",
+        "Kirkwood JM",
+        "Joshua AM",
+        "Sacco JJ",
+        "Shoushtari AN",
+        "Orloff M",
+        "Piulats JM",
+        "Milhem M",
+        "Salama AKS",
+        "Curti B",
+        "Demidov L",
+        "Gastaud L",
+        "Mauch C",
+        "Yushak M",
+        "Carvajal RD",
+        "Hamid O",
+        "Abdullah SE",
+        "Holland C",
+        "Goodall H",
+        "Piperno-Neumann S",
+        "IMCgp100-202 Investigators"
+      ],
+      "authorString": "Nathan P, Hassel JC, Rutkowski P, Baurain JF, Butler MO, Schlaak M, Sullivan RJ, Ochsenreither S, Dummer R, Kirkwood JM, Joshua AM, Sacco JJ, Shoushtari AN, Orloff M, Piulats JM, Milhem M, Salama AKS, Curti B, Demidov L, Gastaud L, Mauch C, Yushak M, Carvajal RD, Hamid O, Abdullah SE, Holland C, Goodall H, Piperno-Neumann S, IMCgp100-202 Investigators.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-09-01",
+      "captureSha256": "1a4037f6d7d6153a0af4a81a3dc40f04c4b1927b95cab62cc0a3c804be3d0526",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1056/nejmoa2103485",
+        "firstAuthor": {
+          "given": "Paul",
+          "family": "Nathan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "From Mount Vernon Cancer Centre, Northwood (P.N.), the Clatterbridge Cancer Centre NHS Foundation Trust, Wirral (J.J.S.), the University of Liverpool, Liverpool (J.J.S.), and Immunocore, Abingdon (S.E.A., C.H., H.G.) — all in the United Kingdom; the Department of Dermatology and the National Center for Tumor Diseases, University Hospital Heidelberg, Heidelberg (J.C.H.), the Department of Dermatology and Allergy, University Hospital, Ludwig Maximilian University of Munich, Munich (M.S.), the Department of Hematology and Oncology, Charité–Comprehensive Cancer Center (S.O.), Berlin, and the Department of Dermatology and the Center for Integrated Oncology, University Hospital Cologne, Cologne (C.M.) — all in Germany; Maria Sklodowska-Curie National Research Institute of Oncology, Warsaw, Poland (P.R.); Institut Roi Albert II des Cliniques Universitaires Saint-Luc and Université Catholique de Louvain, Brussels (J.-F.B.); Princess Margaret Cancer Centre, Toronto (M.O.B.); Massachusetts General Hospital Cancer Ce..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              23
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2021,
+              9,
+              23
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "34759323",
+      "pmcid": "PMC9298180",
+      "doi": "10.1038/s41586-021-04084-z",
+      "title": "Structures of the HER2-HER3-NRG1β complex reveal a dynamic dimer interface.",
+      "authors": [
+        "Diwanji D",
+        "Trenker R",
+        "Thaker TM",
+        "Wang F",
+        "Agard DA",
+        "Verba KA",
+        "Jura N"
+      ],
+      "authorString": "Diwanji D, Trenker R, Thaker TM, Wang F, Agard DA, Verba KA, Jura N.",
+      "pubYear": "2021",
+      "firstPublicationDate": "2021-11-10",
+      "captureSha256": "817cd797b2258a967591fd5bb5387c27db3100d9a51cac94a51a22e20b94934e",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "BioC passages on orphan/ligand-less HER2 and the HER2-HER3-neuregulin interface; not a clinical response study."
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/s41586-021-04084-z",
+        "firstAuthor": {
+          "given": "Devan",
+          "family": "Diwanji",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              10
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2021,
+              11,
+              10
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2021,
+              12,
+              9
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.741143054.793589870",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "35665782",
+      "pmcid": "PMC10561652",
+      "doi": "10.1056/nejmoa2203690",
+      "title": "Trastuzumab Deruxtecan in Previously Treated HER2-Low Advanced Breast Cancer.",
+      "authors": [
+        "Modi S",
+        "Jacot W",
+        "Yamashita T",
+        "Sohn J",
+        "Vidal M",
+        "Tokunaga E",
+        "Tsurutani J",
+        "Ueno NT",
+        "Prat A",
+        "Chae YS",
+        "Lee KS",
+        "Niikura N",
+        "Park YH",
+        "Xu B",
+        "Wang X",
+        "Gil-Gil M",
+        "Li W",
+        "Pierga JY",
+        "Im SA",
+        "Moore HCF",
+        "Rugo HS",
+        "Yerushalmi R",
+        "Zagouri F",
+        "Gombos A",
+        "Kim SB",
+        "Liu Q",
+        "Luo T",
+        "Saura C",
+        "Schmid P",
+        "Sun T",
+        "Gambhire D",
+        "Yung L",
+        "Wang Y",
+        "Singh J",
+        "Vitazka P",
+        "Meinhardt G",
+        "Harbeck N",
+        "Cameron DA",
+        "DESTINY-Breast04 Trial Investigators"
+      ],
+      "authorString": "Modi S, Jacot W, Yamashita T, Sohn J, Vidal M, Tokunaga E, Tsurutani J, Ueno NT, Prat A, Chae YS, Lee KS, Niikura N, Park YH, Xu B, Wang X, Gil-Gil M, Li W, Pierga JY, Im SA, Moore HCF, Rugo HS, Yerushalmi R, Zagouri F, Gombos A, Kim SB, Liu Q, Luo T, Saura C, Schmid P, Sun T, Gambhire D, Yung L, Wang Y, Singh J, Vitazka P, Meinhardt G, Harbeck N, Cameron DA, DESTINY-Breast04 Trial Investigators.",
+      "pubYear": "2022",
+      "firstPublicationDate": "2022-06-05",
+      "captureSha256": "ebfed9f239ddce8c43a238edc7442d4212a6a146bcedc23fe1db04092577731b",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Abstract and the complete primary statistical-analysis paragraph; original endpoint hierarchy is separate from subgroup or later follow-up claims."
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1056/nejmoa2203690",
+        "firstAuthor": {
+          "given": "Shanu",
+          "family": "Modi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "From the Memorial Sloan Kettering Cancer Center, New York (S.M.); Institut du Cancer de Montpellier, Université Montpellier, INSERM Unité 1194, Montpellier (W.J.), and Institut Curie, Université Paris Cité, Paris (J.-Y.P.) — both in France; Kanagawa Cancer Center, Yokohama (T.Y.), Kyushu Cancer Center, National Hospital Organization, Fukuoka (E.T.), Showa University Hospital, Tokyo (J.T.), and Tokai University School of Medicine, Isehara-shi (N.N.) — all in Japan; Yonsei Cancer Center, Yonsei University Health System (J. Sohn), Samsung Medical Center (Y.H.P.), Seoul National University Hospital, Cancer Research Institute, Seoul National University College of Medicine, Seoul National University (S.-A.I.), and Asan Medical Center, University of Ulsan College of Medicine (S.-B.K.), Seoul, Kyungpook National University Chilgok Hospital, Daegu (Y.S.C.), and the National Cancer Center, Goyang-si (K.S.L.) — all in South Korea; the Department of Medical Oncology, Hospital Clínic de Barcelona (M.V., A.P.), Translat..."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              7
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              7
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "has-review": [
+            {
+              "id-type": "doi",
+              "id": "10.3410/f.742178874.793594085",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "36577919",
+      "pmcid": "PMC9797547",
+      "doi": "10.1038/s41598-022-27093-y",
+      "title": "Correlation of TROP-2 expression with clinical-pathological characteristics and outcome in triple-negative breast cancer.",
+      "authors": [
+        "Izci H",
+        "Punie K",
+        "Waumans L",
+        "Laenen A",
+        "Wildiers H",
+        "Verdoodt F",
+        "Desmedt C",
+        "Ardui J",
+        "Smeets A",
+        "Han SN",
+        "Nevelsteen I",
+        "Neven P",
+        "Floris G"
+      ],
+      "authorString": "Izci H, Punie K, Waumans L, Laenen A, Wildiers H, Verdoodt F, Desmedt C, Ardui J, Smeets A, Han SN, Nevelsteen I, Neven P, Floris G.",
+      "pubYear": "2022",
+      "firstPublicationDate": "2022-12-28",
+      "captureSha256": "cc5a7f3d200de2d7a3374fa3737352fc65020d2151962c16ac50f1e5069b8300",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Abstract plus assay method, scored denominator and associated table/discussion. The paper's discussion calls 589/685 positivity, although 589 is the staining-available denominator; no 86% positivity claim is adopted.",
+        "passageOrdinals": [
+          64,
+          263,
+          277,
+          742
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1038/s41598-022-27093-y",
+        "firstAuthor": {
+          "given": "Hava",
+          "family": "Izci",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              28
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2022,
+              12,
+              28
+            ]
+          ]
+        },
+        "publishedPrint": null,
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "36741448",
+      "pmcid": "PMC9896951",
+      "doi": "10.1093/pnasnexus/pgac063",
+      "title": "SLC46A3 is a lysosomal proton-coupled steroid conjugate and bile acid transporter involved in transport of active catabolites of T-DM1.",
+      "authors": [
+        "Tomabechi R",
+        "Kishimoto H",
+        "Sato T",
+        "Saito N",
+        "Kiyomiya K",
+        "Takada T",
+        "Higuchi K",
+        "Shirasaka Y",
+        "Inoue K"
+      ],
+      "authorString": "Tomabechi R, Kishimoto H, Sato T, Saito N, Kiyomiya K, Takada T, Higuchi K, Shirasaka Y, Inoue K.",
+      "pubYear": "2022",
+      "firstPublicationDate": "2022-05-20",
+      "captureSha256": "c9a347096a0b63f053a2647b6d6ef25fc4d2b133dc7d6fd6f783b96c960d779e",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1093/pnasnexus/pgac063",
+        "firstAuthor": {
+          "given": "Ryuto",
+          "family": "Tomabechi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biopharmaceutics, School of Pharmacy, Tokyo University of Pharmacy and Life Sciences , 1432-1, Horinouchi, Hachioji, Tokyo 192-0392, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              20
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2022,
+              5,
+              20
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              1
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "39745368",
+      "pmcid": "PMC12079096",
+      "doi": "10.1158/1078-0432.ccr-24-2771",
+      "title": "TOP1 Mutations and Cross-Resistance to Antibody-Drug Conjugates in Patients with Metastatic Breast Cancer.",
+      "authors": [
+        "Abelman RO",
+        "Wu B",
+        "Barnes H",
+        "Medford A",
+        "Norden B",
+        "Putur A",
+        "Bitman E",
+        "Thant W",
+        "Liu T",
+        "Weipert C",
+        "Fell G",
+        "Spring LM",
+        "Wander SA",
+        "Moy B",
+        "Vidula N",
+        "Isakoff SJ",
+        "Varkaris A",
+        "Juric D",
+        "Corcoran RB",
+        "Ellisen LW",
+        "Bardia A"
+      ],
+      "authorString": "Abelman RO, Wu B, Barnes H, Medford A, Norden B, Putur A, Bitman E, Thant W, Liu T, Weipert C, Fell G, Spring LM, Wander SA, Moy B, Vidula N, Isakoff SJ, Varkaris A, Juric D, Corcoran RB, Ellisen LW, Bardia A.",
+      "pubYear": "2025",
+      "firstPublicationDate": "2025-05-01",
+      "captureSha256": "e2ec743bc4993bdaa81ea900a9ab4a5c6cdfad3940653dab3fe89fa03f026504",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Selected paired-plasma cohort, baseline-detection and functional discussion/method paragraphs.",
+        "passageOrdinals": [
+          51,
+          57,
+          84,
+          106,
+          306
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1158/1078-0432.ccr-24-2771",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0002-3946-7420",
+          "authenticated-orcid": false,
+          "given": "Rachel O.",
+          "family": "Abelman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "1Massachusetts General Hospital, Harvard Medical School, Boston, Massachusetts."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              2
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              15
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.c.7819852",
+              "asserted-by": "object"
+            }
+          ],
+          "is-supplemented-by": [
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.29072266",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.29072263",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "40059728",
+      "pmcid": "PMC11891490",
+      "doi": "10.1002/cam4.70615",
+      "title": "Prognostic Value of Trop-2 Expression in Nonmetastatic Triple-Negative Breast Cancer and Correlation With Emerging Biomarkers.",
+      "authors": [
+        "Jacot W",
+        "Chateau MC",
+        "Thezenas S",
+        "Guiu S",
+        "Firmin N",
+        "Lafont V",
+        "Lazennec G",
+        "Theillet C",
+        "Boissière-Michot F"
+      ],
+      "authorString": "Jacot W, Chateau MC, Thezenas S, Guiu S, Firmin N, Lafont V, Lazennec G, Theillet C, Boissière-Michot F.",
+      "pubYear": "2025",
+      "firstPublicationDate": "2025-03-01",
+      "captureSha256": "2e0eb03b5d9b22e7a69fd2d67845e5be832051cea496c16787b084fe2eb9c90c",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1002/cam4.70615",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0001-7834-061X",
+          "authenticated-orcid": false,
+          "given": "William",
+          "family": "Jacot",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Medical Oncology Montpellier Cancer Institute Val d'Aurelle  Montpellier France"
+            },
+            {
+              "name": "Translational Research Unit Montpellier Cancer Institute Val d'Aurelle  Montpellier France"
+            },
+            {
+              "name": "Montpellier University  Montpellier France"
+            },
+            {
+              "name": "Institut de Recherche en Cancérologie de Montpellier (IRCM)  Montpellier France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2025,
+              3,
+              10
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2025,
+              3
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "41591991",
+      "pmcid": "PMC13055631",
+      "doi": "10.1158/1078-0432.ccr-25-3321",
+      "title": "Payload Diversification Overcomes Resistance and Guides Sequential Antibody-Drug Conjugate Therapy in Breast Cancer.",
+      "authors": [
+        "Rampa DR",
+        "Seo M",
+        "Ogata N",
+        "Yang Z",
+        "Sridhar N",
+        "Fujii T",
+        "Wannaphut C",
+        "Maynard JA",
+        "Tsuchikama K",
+        "Sledge GW Jr",
+        "Ueno NT",
+        "Lee J"
+      ],
+      "authorString": "Rampa DR, Seo M, Ogata N, Yang Z, Sridhar N, Fujii T, Wannaphut C, Maynard JA, Tsuchikama K, Sledge GW, Ueno NT, Lee J.",
+      "pubYear": "2026",
+      "firstPublicationDate": "2026-04-01",
+      "captureSha256": "6948150f992879c7481f8805596cd75fd220606589debc25c4f63a93291abcae",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract plus selected body passages",
+      "wholePaperRead": false,
+      "claimScope": {
+        "scope": "Resistant-cell model, nude-mouse xenograft protocol and specified MMAF-result paragraphs.",
+        "passageOrdinals": [
+          45,
+          114
+        ]
+      },
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1158/1078-0432.ccr-25-3321",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0003-3086-4822",
+          "authenticated-orcid": false,
+          "given": "Dileep Reddy",
+          "family": "Rampa",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "1Preclinical Core, Cancer Biology Program, University of Hawai‘i Cancer Center, Honolulu, Hawaii."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              27
+            ]
+          ]
+        },
+        "publishedOnline": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              27
+            ]
+          ]
+        },
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2026,
+              4,
+              15
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {
+          "is-supplemented-by": [
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712531",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712534",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712522",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712528",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712537",
+              "asserted-by": "object"
+            },
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.32712525",
+              "asserted-by": "object"
+            }
+          ],
+          "has-preprint": [
+            {
+              "id-type": "doi",
+              "id": "10.1158/1078-0432.c.8542605",
+              "asserted-by": "object"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pmid": "41937088",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2026.03.008",
+      "title": "Datopotamab deruxtecan in patients with untreated, advanced triple-negative breast cancer (TROPION-Breast02): a randomised, open-label, international, phase III trial.",
+      "authors": [
+        "Dent R",
+        "Shao Z",
+        "Schmid P",
+        "Cortes J",
+        "Cescon DW",
+        "Saji S",
+        "Jung KH",
+        "Bachelot T",
+        "Wang S",
+        "Ramírez EM",
+        "Basaran G",
+        "Stradella A",
+        "Mathiba R",
+        "Chen SC",
+        "Shen K",
+        "Wéber Á",
+        "Battelli N",
+        "Niikura N",
+        "Luo T",
+        "Chae YS",
+        "Fischbach N",
+        "Garbaos G",
+        "Patera A",
+        "Zhao K",
+        "Vuković P",
+        "Maxwell MJ",
+        "Traina T",
+        "TROPION-Breast02 investigators"
+      ],
+      "authorString": "Dent R, Shao Z, Schmid P, Cortes J, Cescon DW, Saji S, Jung KH, Bachelot T, Wang S, Ramírez EM, Basaran G, Stradella A, Mathiba R, Chen SC, Shen K, Wéber Á, Battelli N, Niikura N, Luo T, Chae YS, Fischbach N, Garbaos G, Patera A, Zhao K, Vuković P, Maxwell MJ, Traina T, TROPION-Breast02 investigators.",
+      "pubYear": "2026",
+      "firstPublicationDate": "2026-04-03",
+      "captureSha256": "ad41c168b9b5a34ac8b409d45df0e077f465241d8f6b7bc74eb5eedadc7a88ee",
+      "identity": "Resolved through the exact supplied PMID in Europe PMC MED; title, author list and publication-year context read.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "claimScope": {},
+      "crossref": {
+        "status": "resolved",
+        "doi": "10.1016/j.annonc.2026.03.008",
+        "firstAuthor": {
+          "ORCID": "https://orcid.org/0000-0001-6421-7602",
+          "authenticated-orcid": false,
+          "given": "R.",
+          "family": "Dent",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "publishedOnline": null,
+        "publishedPrint": {
+          "date-parts": [
+            [
+              2026,
+              8
+            ]
+          ]
+        },
+        "updateTo": null,
+        "relation": {}
+      }
+    },
+    {
+      "pmid": "34112795",
+      "doi": "10.1038/s41467-021-23793-7",
+      "title": "Antibody-drug conjugates with dual payloads for combating breast tumor heterogeneity and drug resistance.",
+      "authorString": "Yamazaki CM, Yamaguchi A, Anami Y, Xiong W, Otani Y, Lee J, Ueno NT, Zhang N, An Z, Tsuchikama K.",
+      "pubYear": "2021",
+      "identity": "Resolved via existing owner DOI, Europe PMC and Crossref.",
+      "readDepth": "abstract only",
+      "wholePaperRead": false,
+      "role": "additional support for correcting the dual-payload lead"
+    },
+    {
+      "doi": "10.1200/oa-25-00053",
+      "title": "Enfortumab Vedotin in Patients With Previously Treated Advanced Breast Cancer in the Phase II EV-202 Study",
+      "firstAuthor": {
+        "ORCID": "https://orcid.org/0000-0002-7760-9717",
+        "authenticated-orcid": true,
+        "given": "Antonio",
+        "family": "Giordano",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dana-Farber Cancer Institute, Harvard Medical School, Boston, MA"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      },
+      "identity": "Resolved in Crossref; Europe PMC DOI and exact-title searches returned zero, so no PMID was assigned.",
+      "readDepth": "publisher-registered abstract in raw Crossref response",
+      "wholePaperRead": false,
+      "accessFailures": [
+        "Publisher HTML and PDF both returned 403; no bypass."
+      ],
+      "claimScope": "42 TNBC participants, ORR 19.0%, DCR 57.1%, nonrandomised phase 2 design and failure to meet the prespecified threshold. No numeric threshold adopted from search output."
+    }
+  ],
+  "labels": [
+    {
+      "source": "spl-1e7b6163-5d83-42ea-82c9-cf7620cdc782.xml",
+      "sha256": "a649007db1c2b4edefd8af1ce1f1dfeac524c7216dda0221de718db0b53a41ae",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-23f3c1f4-0fc8-4804-a9e3-04cf25dd302e.xml",
+      "sha256": "032a562966e0bec01a6d545cbd9d9444e034ee40eda305ace445b368a295d7ab",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-24a49f57-d2fc-4ffe-9eb1-fe0460c6b067.xml",
+      "sha256": "84609a02b2ce51dd0645d83ca429190fbefd336d0e8b07eb0e97649d697462a3",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-2950227c-6230-4ca4-a135-46e44d9424a0.xml",
+      "sha256": "ce2e185bc8f496e66f660eb78cdc1b0e991bc3ed7ac006b3dccdb6ae95cb2e3e",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-57a597d2-03f0-472e-b148-016d7169169d.xml",
+      "sha256": "203ed69f797ee24717646a67c28a6546db63f0a3aecbfffa758fe957388da51d",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-7e67e73e-ddf4-4e4d-8b50-09d7514910b6.xml",
+      "sha256": "2eed5d3cb0ea867219aa50af325a3bc197de6daddf983f57f920ccab6fe34049",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "spl-b5631d3e-4604-4363-8f20-11dfc5a4a8ed.xml",
+      "sha256": "cfee6aa93164da8d42a77189d30e590df63ffc16e6810f99f9560db179477200",
+      "readDepth": "Selected indications/mechanisms, relevant PK paragraphs and specified warning clauses; not the whole label.",
+      "normalization": "Every section with direct XML text, including unnamed nested subsections. XML text nodes joined with whitespace only; no markup-stripping regex."
+    },
+    {
+      "source": "herceptin-resolved-spl.xml",
+      "sha256": "0cce78eb36d9b7f11e815e973a2d584aa63b79e33dd6a3a74c22c09e92a19b66",
+      "resolution": "DailyMed brand query distinguished IV HERCEPTIN from HERCEPTIN HYLECTA.",
+      "readDepth": "Mechanism-of-action section 12.1 only."
+    }
+  ],
+  "registryEntries": [
+    {
+      "id": "NCT01969643",
+      "title": "A Safety Study of SGN-LIV1A in Breast Cancer Patients",
+      "source": "NCT01969643.json",
+      "sha256": "091f31b8ec371c5b75f752d40afd3b852411db857fdab38667fb45606c116c84",
+      "status": "COMPLETED",
+      "phase": [
+        "PHASE1"
+      ],
+      "lastUpdate": {
+        "date": "2023-03-07",
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    },
+    {
+      "id": "NCT03310957",
+      "title": "Safety and Efficacy of SGN-LIV1A Plus Pembrolizumab for Patients With Locally-Advanced or Metastatic Triple-Negative Breast Cancer",
+      "source": "NCT03310957.json",
+      "sha256": "939f393c17de480655774eb833ebcef0c2b010bc789e093e1cb08e7dd1b8dc82",
+      "status": "COMPLETED",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "lastUpdate": {
+        "date": "2025-12-12",
+        "type": "ACTUAL"
+      },
+      "hasResults": true,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    },
+    {
+      "id": "NCT06203210",
+      "title": "A Study of Ifinatamab Deruxtecan Versus Treatment of Physician's Choice in Subjects With Relapsed Small Cell Lung Cancer",
+      "source": "NCT06203210.json",
+      "sha256": "622cb70ae5f5a87444ed289e3938d2aa6f73632782d3f18b1e5595f55d4ffd46",
+      "status": "RECRUITING",
+      "phase": [
+        "PHASE3"
+      ],
+      "lastUpdate": {
+        "date": "2026-08-06",
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    },
+    {
+      "id": "NCT06644781",
+      "title": "A Study of Ifinatamab Deruxtecan in Subjects With Pretreated Advanced or Metastatic Esophageal Squamous Cell Carcinoma (ESCC) (IDeate-Esophageal01)",
+      "source": "NCT06644781.json",
+      "sha256": "52c1326bec39ed13531b02d678712cd6bbb9ba3e1d109615da32215e6723e643",
+      "status": "RECRUITING",
+      "phase": [
+        "PHASE3"
+      ],
+      "lastUpdate": {
+        "date": "2026-10-26",
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    },
+    {
+      "id": "NCT06925737",
+      "title": "A Clinical Study of Ifinatamab Deruxtecan (I-DXd) in People With Metastatic Prostate Cancer (MK-2400-001)",
+      "source": "NCT06925737.json",
+      "sha256": "528e5259de682cf714fcde6a7c11c1dc8a318858b9b9c1c8b56cf4aa02970952",
+      "status": "RECRUITING",
+      "phase": [
+        "PHASE3"
+      ],
+      "lastUpdate": {
+        "date": "2026-10-30",
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    },
+    {
+      "id": "NCT04225117",
+      "title": "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
+      "source": "ev202-current-registry.json",
+      "sha256": "bedf7c01106bdc1b16e6c29df8bd7e4189001b26d97bcb5a96c1e7633cb80210",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": [
+        "PHASE2"
+      ],
+      "lastUpdate": {
+        "date": "2026-09-23",
+        "type": "ACTUAL"
+      },
+      "hasResults": true,
+      "readDepth": "Specified identity, condition, status, phase and selected description/outcome fields; EV-202 outcomes also re-extracted identically by the existing generator.",
+      "interpretation": "Registration is separate from efficacy, approval, individual eligibility and availability."
+    }
+  ],
+  "officialDocuments": [
+    {
+      "source": "fda-155997.pdf",
+      "depth": "Targeted background and bioanalytical paragraphs, March 2024 nonbinding guidance."
+    },
+    {
+      "source": "fda-129547.pdf",
+      "depth": "August 2019 front matter and glossary/time-integrated-activity passages."
+    },
+    {
+      "source": "nci-monoclonal-antibodies.html",
+      "depth": "Main article body read; linked audiovisual material not viewed."
+    },
+    {
+      "source": "nci-targeted-therapies.html",
+      "depth": "Main article body read. Its target-negative-cell absolute is not adopted."
+    },
+    {
+      "source": "nci-car-t-cells.html",
+      "depth": "Selected manufacture, intracellular-signalling, in-body expansion and approval-context paragraphs only; no fixed manufacturing duration adopted."
+    }
+  ],
+  "wholePapersRead": 0,
+  "parserCorrections": "Original raw captures are unchanged. V1 abstract markup removal swallowed inequalities; all five corrected V2 abstract projections were read. Label V3 includes unnamed nested sections and preserves comparison symbols. No unsupported adopted number relies on the flawed projections.",
+  "metadataScreenLimit": "Registry correction/retraction metadata is not certification that no correction or retraction exists. Failed Crossref responses remain failed.",
+  "elicit": "No callable Elicit tool found in this turn; no new Elicit question, search or report claimed.",
+  "remainingPrimaryTasks": [
+    {
+      "id": "ST4-014",
+      "task": "Bound the dated US approval-inventory negative claims. The new reader text uses four named label examples and does not assert exhaustive absence."
+    }
+  ],
+  "scienceExpertApproval": false,
+  "clinicalOwnerApproval": false,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "formalCorrections": [
+    {
+      "originalPMID": "26101915",
+      "correctionPMID": "32206190",
+      "doi": "10.18632/oncotarget.27512",
+      "title": "Correction: Trop-2 is a novel target for solid cancer therapy with sacituzumab govitecan (IMMU-132), an antibody-drug conjugate (ADC).",
+      "captureSha256": "8ffd47f12a74f20820fae3aac29ec137956bff5f3f39d69a8ff4c83251a60c0d",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Changes the release half-life in human serum from 23.98 to 18.82 hours. The new linker note and source link are corrected; original raw captures are preserved.",
+      "repoDisposition": "applied correction to one new note and appended notice link"
+    },
+    {
+      "originalPMID": "32728208",
+      "correctionPMID": "32895501",
+      "doi": "10.1038/s41573-020-0085-5",
+      "title": "Author Correction: Radiopharmaceutical therapy in cancer: clinical advances and challenges.",
+      "captureSha256": "c5de45d1e4fd0f726075f2d59999e55d2571d28d78cbd5dcfae9a867f9f0c751",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Corrects the sentence on lutetium-177 imaging photons and therapeutic beta emission. It does not amend the approximate-range table entries used here.",
+      "repoDisposition": "no change required to the narrowly used original claim"
+    },
+    {
+      "originalPMID": "34759323",
+      "correctionPMID": "35132240",
+      "doi": "10.1038/s41586-021-04299-0",
+      "title": "Author Correction: Structures of the HER2-HER3-NRG1β complex reveal a dynamic dimer interface.",
+      "captureSha256": "3028fb07b42b46d32990097f1af6a75acb3d339e320910a97c3d0bdcedee66fe",
+      "readDepth": "complete correction notice body; no full-original-paper claim",
+      "impact": "Corrects rotation, software, antibody/mutant and sequence labels in specified figures. It does not amend the orphan/ligand-less HER2 or HER3-bound neuregulin interaction used here.",
+      "repoDisposition": "no change required to the narrowly used original claim"
+    }
+  ],
+  "correctionNoticesRead": 3,
+  "wholeOriginalPapersRead": 0,
+  "preservedAssessment": "primary-reading-assessment-r1.json",
+  "additionalRetainedFieldReads": [
+    {
+      "source": "Hamblett 2004 abstract",
+      "scope": "Exact E8/E4 mouse-loading and clearance comparison."
+    },
+    {
+      "source": "IMDELLTRA label sections 2.1 and 2.2",
+      "scope": "Complete sections, including first-dose monitoring and later-dose schedule."
+    },
+    {
+      "source": "KADCYLA sections 1.1, 1.2 and 12.1",
+      "scope": "Complete named sections, product eligibility and measured action."
+    },
+    {
+      "source": "PADCEV section 14.1",
+      "scope": "EV-302 outcome-table passage and boxed skin warning; not all label studies."
+    },
+    {
+      "source": "KIMMTRAK section 2.2 and 12.1",
+      "scope": "Exact administration/observation conditions and specified recognition/effector action."
+    }
+  ],
+  "rawBodiesPublished": false,
+  "priorSourceScopeRetained": "Unchanged dependent structure, receptor, toxicity and clinical-catalogue assertions retain earlier reading limits; not every assertion in the 43 owners is re-certified."
+}

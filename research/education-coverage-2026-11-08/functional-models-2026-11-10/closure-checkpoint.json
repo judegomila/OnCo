@@ -1,0 +1,46 @@
+{
+  "original": {
+    "assessedOrClassified": 291,
+    "completeDraft": 280,
+    "requirements": 2001,
+    "evidencedRequirements": 1994,
+    "openRequirements": 7,
+    "ordinaryUnreadSources": 246
+  },
+  "later": {
+    "assessedOrClassified": 277,
+    "completeDraft": 277,
+    "requirements": 1999,
+    "evidencedRequirements": 1999,
+    "openRequirements": 0,
+    "ordinaryUnreadSources": 268,
+    "unclassifiedNavigation": 5
+  },
+  "sourceAssets": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "total": 1888,
+      "reviewedTeaching": 310,
+      "supporting": 23,
+      "unclassified": 1555
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "total": 1888,
+      "reviewedTeaching": 310,
+      "supporting": 23,
+      "unclassified": 1555
+    }
+  ],
+  "literatureScreened": 917,
+  "literatureTotal": 917,
+  "adjacentFindings": 55,
+  "representedAdjacentFindings": 23,
+  "openAdjacentFindings": 32,
+  "openSchemaItems": 6,
+  "mainCoverage": 0,
+  "finalReaudits": 0,
+  "sourceClosureExitCode": 2,
+  "staleOrMissingProofs": 0,
+  "scope": "The two inventories overlap and are not added. Unread curriculum/assets, seven original requirements, adjacent work and schema/product dependencies remain open. Literature screening is not claim verification."
+}

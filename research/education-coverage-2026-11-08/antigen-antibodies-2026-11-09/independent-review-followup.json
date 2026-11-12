@@ -1,0 +1,1876 @@
+{
+  "originalReview": {
+    "checkout": {
+      "branch": "t3/review-antigen-lessons",
+      "head": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+      "base": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+      "workingTree": "clean, no repository edits made"
+    },
+    "objections": [
+      {
+        "id": "F01",
+        "type": "scientific scope and internal contradiction",
+        "severity": "moderate",
+        "requirements": [
+          "R38",
+          "R30"
+        ],
+        "owner": "hla",
+        "fields": [
+          "notes",
+          "summary"
+        ],
+        "currentFieldSha256": {
+          "notes": "66e112da300e2a2fb975f650509382d69fac5a98385503632e082465d59d8633",
+          "summary": "ed5f199ac00b0c551b65ac34d2c2adf8ab28d314b2688dc9e24b7cd6747c1144"
+        },
+        "currentFieldPassages": {
+          "notes[0]": "ovember 2026. The Guide's statement that HLA-C has a smaller observed peptide share and lower expression than HLA-A and HLA-B is not supported by the abstracts read and is not asserted here.",
+          "notes[2]": "HLA-C surface expression is often lower than HLA-A/B, but allele and cell context matter. Kaur and colleagues compared H",
+          "summary": "HLA-C often has lower surface expression than HLA-A/B, while allele and cell context affect the comparison."
+        },
+        "rawEvidenceIds": [
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "defect": "notes[0] says the lower-expression statement is \"not supported by the abstracts read and is not asserted here\", while notes[2] and the summary assert it. The packet claims selected full-text reads of Kaur and Schellens; in those texts the locus-level statement is background citing earlier work (Kaur introduction; Schellens results discussion), not a finding of either study, and the Kaur abstract states only allele-specific variation.",
+        "proposedReplacement": {
+          "notes[0]": "Abstract-depth reads on 9 November 2026, with selected full-text reads of Kaur et al. (2017) and Schellens et al. (2015). The abstracts do not state that HLA-C is expressed below HLA-A and HLA-B. That statement appears as background, citing earlier work, in the Kaur introduction and in the Schellens results; it is reported here as background and not as a result of either study.",
+          "summary sentence": "Kaur et al. (2017) showed that HLA-C surface expression varies across individuals in an allele-specific manner, influenced by the structure of the peptide-binding cleft and peptide diversity; the introduction of that paper, citing earlier work, describes HLA-C as expressed at lower surface levels than HLA-A and HLA-B, and allele and cell context affect any such comparison."
+        },
+        "creditEffect": "R38 not credited until corrected. The assignment caveat itself (HLA-C assigned only when a peptide could not be assigned to HLA-A or -B; authors expect to underestimate) is verified and correct."
+      },
+      {
+        "id": "F02",
+        "type": "editorial defect on the rendered page",
+        "severity": "minor",
+        "requirements": [
+          "R22"
+        ],
+        "owner": "tertiary-lymphoid-structures",
+        "fields": [
+          "summary"
+        ],
+        "currentFieldSha256": {
+          "summary": "5f55b4b1c4123b5e87136604096e266231a37d74dffe071a1dae6810ec7c9638"
+        },
+        "currentFieldPassages": {
+          "summary": "Report density with its area and the criteria used (structures per mm2; two organised structures in 4 mm2 is 0.5 per mm2), because thresholds are method- and study-specific, and small sections or disrupted architecture limit the reading. [appears twice, consecutive, verbatim]"
+        },
+        "rawEvidenceIds": [],
+        "defect": "The assay-card sentence is repeated verbatim at the end of the summary (also present at the reviewed root head, two occurrences in the owner file). The packet verified that each requirement passage appears in the body but did not detect the repeat.",
+        "proposedReplacement": {
+          "summary": "Delete the second occurrence of the sentence; keep one."
+        },
+        "creditEffect": "R22 credited as evidenced-with-note; fix before the page is reused."
+      },
+      {
+        "id": "F03",
+        "type": "requirement not proven by the cited field",
+        "severity": "moderate",
+        "requirements": [
+          "R10"
+        ],
+        "owner": "antibody",
+        "fields": [
+          "summary"
+        ],
+        "currentFieldSha256": {
+          "summary": "731c8424ecfc0c82204c9545c374f96750e194912e405f25e50a83930306d2f2"
+        },
+        "currentFieldPassages": {
+          "summary": "Bispecific formats have two binding specificities. Some are designed to bring a T cell and a target cell together; their structures and functions vary.",
+          "packetExcerpt": "binding does not guarantee killing"
+        },
+        "rawEvidenceIds": [],
+        "defect": "The requirement \"same-target antibodies can act differently (block, payload, bispecific); typical Y is not every format\" is only half present: formats vary, but no sentence says antibodies to one target can differ in action. The same idea is in antibody-structure, a different owner. The packet excerpt does not address it.",
+        "proposedReplacement": {
+          "summary": "Add after the sentence ending \"radioimmunotherapy.\": \"Antibodies that bind the same target can act differently: a blocking antibody, an antibody-drug conjugate and a bispecific format can share a target and still differ in what follows.\" (Same statement already carried in antibody-structure; no new fact.)"
+        },
+        "creditEffect": "R10 not credited until corrected."
+      },
+      {
+        "id": "F04",
+        "type": "requirement partly stated",
+        "severity": "moderate",
+        "requirements": [
+          "R19"
+        ],
+        "owner": "tertiary-lymphoid-structures",
+        "fields": [
+          "summary"
+        ],
+        "currentFieldSha256": {
+          "summary": "5f55b4b1c4123b5e87136604096e266231a37d74dffe071a1dae6810ec7c9638"
+        },
+        "currentFieldPassages": {
+          "summary": "Sautès-Fridman and colleagues review tertiary lymphoid structures as organised aggregates of B cells, T cells and dendritic cells that develop in chronically inflamed tissues including tumours, where they are generally associated with longer survival",
+          "packetExcerpt": "Aggregate, B-cell follicle and germinal centre are different architectural levels"
+        },
+        "rawEvidenceIds": [
+          "E15"
+        ],
+        "defect": "\"Tertiary is location, not stage\" is not stated. The Sautès-Fridman review named in the first sentence was not in the packet reading list; this review resolved it (Crossref and Europe PMC agree on title, year and authors) and read its abstract.",
+        "proposedReplacement": {
+          "summary": "After the first sentence add: \"Tertiary names where they form: ectopic lymphoid organs in non-lymphoid tissue at sites of chronic inflammation, including tumours, found at different maturation states up to germinal-centre formation (Sautès-Fridman et al., Nature Reviews Cancer 2019, PMID 31092904).\""
+        },
+        "creditEffect": "R19 not credited until corrected."
+      },
+      {
+        "id": "F05",
+        "type": "lesson claim with no requirement or field",
+        "severity": "moderate",
+        "requirements": [
+          "unassigned"
+        ],
+        "owner": "tertiary-lymphoid-structures",
+        "fields": [
+          "summary"
+        ],
+        "currentFieldSha256": {
+          "summary": "5f55b4b1c4123b5e87136604096e266231a37d74dffe071a1dae6810ec7c9638"
+        },
+        "currentFieldPassages": {
+          "lessonSentence": "Breast-cancer and melanoma studies associated organized immune responses with outcomes; those findings retain their own specimens, methods and settings. Gu-Trantien 2013, Cabrita 2020 (both versions of the lesson)",
+          "ownerRecord": "Both papers are linked but no sentence carries them."
+        },
+        "rawEvidenceIds": [
+          "E16",
+          "E17"
+        ],
+        "defect": "The lesson cites Gu-Trantien 2013 and Cabrita 2020 for a scoped claim. The 54 requirements contain none for it and the owner summary does not state it, although the packet read both abstracts. The claim is therefore uncovered.",
+        "proposedReplacement": {
+          "newRequirement": "Breast and melanoma studies associate organised immune responses with outcome, each in its own specimens and methods.",
+          "summary": "Add: \"In untreated invasive breast tumours, CXCL13-producing follicular helper T cells in tertiary lymphoid structure germinal centres and an eight-gene signature predicted survival or response to preoperative chemotherapy (Gu-Trantien et al., 2013). In metastatic melanoma, co-occurring CD8-positive T cells and CD20-positive B cells with tertiary lymphoid structures were associated with survival, and a derived signature predicted outcome in checkpoint-blockade cohorts (Cabrita et al., 2020); each result keeps its specimens and methods.\""
+        },
+        "creditEffect": "Adds one uncredited teaching requirement to the inventory (55 becomes 56 until written and evidenced)."
+      },
+      {
+        "id": "F06",
+        "type": "attribution scope",
+        "severity": "minor",
+        "requirements": [
+          "R54"
+        ],
+        "owner": "tap2",
+        "fields": [
+          "links"
+        ],
+        "currentFieldSha256": {
+          "links": "bc0b02f53e4ac004d7fe793a36883b817fb80c6298e5a05589f5a00354e8c0f3"
+        },
+        "currentFieldPassages": {
+          "link label": "Primary antigen-processing experiment (PubMed 8348620)"
+        },
+        "rawEvidenceIds": [
+          "E27"
+        ],
+        "defect": "The linked abstract demonstrates that TAP1 is part of an ATP-dependent peptide translocator; it names TAP1 and TAP2 as a gene pair but the experiment is a TAP1-dependence result. The TAP2 and TAP1 links share one generic label.",
+        "proposedReplacement": {
+          "links label on tap1 and tap2": "Shepherd et al. 1993: TAP1-dependent, ATP-driven peptide translocation in a cell-free system (PubMed 8348620)"
+        },
+        "creditEffect": "None; label precision only. The TAP2 function itself is supported by UniProt Q03519 (E65)."
+      }
+    ],
+    "supplements": [
+      {
+        "id": "S1",
+        "requirement": "R27",
+        "proposal": "Add Wieczorek et al., Front Immunol 2017 (PMID 28367149, PMC5355494) to the antigen-processing-machinery sources as accessible review anatomy for invariant chain, cathepsin cleavage, CLIP and HLA-DM exchange. Raw passage E31.",
+        "status": "proposal; not in any record"
+      },
+      {
+        "id": "S2",
+        "requirement": "R12, R14b",
+        "proposal": "Add PMC6464033 (PMID 31024553, Front Immunol 2019) as review support for plasmablast as a proliferating short-lived stage and bone-marrow niches for long-lived plasma cells. Raw passage E10.",
+        "status": "proposal; not in any record"
+      },
+      {
+        "id": "S3",
+        "requirement": "R24",
+        "proposal": "Add PMC5763123 (PMID 29445754, J Immunol Res 2017) as review support for linear versus conformational B-cell epitopes. Raw passage E54.",
+        "status": "proposal; not in any record"
+      }
+    ],
+    "rendererAndLegibilityNotes": [
+      {
+        "id": "L01",
+        "figure": "typical-igg-domains-binding-and-partners-v1-light.svg",
+        "kind": "legibility",
+        "note": "VL overlaps VH and CL overlaps CH1 so the CH1 and VH labels are partly covered; domain pairing is still readable. Scientific content (two heavy and two light chains, Fab with V and C domains, Fc as CH2+CH3, hinge) matches the field and E69/E70."
+      },
+      {
+        "id": "L02",
+        "figure": "matched-igg-selected-fc-contacts-v1-light.svg",
+        "kind": "legibility",
+        "note": "In panel 2 the dashed lines join the Fc gamma receptor to the C1q bar and the C1q bar to a cell, not each partner to the Fc; a reader may take the dashes as receptor-binds-C1q. Panel 1 and 3 are clear. Not a scientific defect in the lesson text."
+      },
+      {
+        "id": "L03",
+        "figure": "immune-aggregate-organized-regions-and-germinal-center-v1-light.svg",
+        "kind": "legibility",
+        "note": "The germinal-centre panel contains an unlabelled outlined polygon inside the GC ellipse."
+      },
+      {
+        "id": "L04",
+        "figure": "intended-x-and-unintended-y-recognition-v1-light.svg",
+        "kind": "legibility",
+        "note": "In panel 2 the \"Same TCR\" label is crossed by the arrow and the X and Y glyphs sit under the peptide curve; readable but cramped."
+      },
+      {
+        "id": "L05",
+        "figure": "antigen-origin-and-display-routes-v1-light.svg",
+        "kind": "legibility",
+        "note": "Labels are small at the figure width; worth a phone-width check."
+      },
+      {
+        "id": "L06",
+        "figure": "processing-display-recognition-v2-light.png",
+        "kind": "completeness",
+        "note": "The field names ERAP trimming as part of step 3; the figure shows Cut, Transport, Load, Display, Recognition without a trimming step. Consistent as a five-step schematic; not an error."
+      },
+      {
+        "id": "L07",
+        "figure": "hla-class-i-contacts-v2-light.svg; hla-class-ii-contacts-v2-light.svg",
+        "kind": "renderer",
+        "note": "Both source SVGs define colours as CSS custom properties on :root inside an SVG style element; a direct librsvg render is solid black (viewed). A browser resolves them. This is a renderer limitation for non-browser consumers (thumbnailers, PDF export), not proof of a broken source. Literal fills would remove the dependency."
+      },
+      {
+        "id": "L08",
+        "figure": "matched-mutant-normal-peptide-responses-v1-light.svg",
+        "kind": "content check",
+        "note": "Plotted points read as 5, 28, 70, 90 (mutant) and 3, 18, 61, 86 (normal) per cent, matching the series in the requirement; labelled fictional."
+      }
+    ],
+    "preservedEarlierAssertionsNotCertified": [
+      "adcc: \"ADCC contributes to the activity of trastuzumab, rituximab and cetuximab\" and the drug-record list (earlier text).",
+      "complement-in-cancer: CD46/CD55/CD59, factor H, C5a-C5aR1, avdoralimab, CAR-T inflammation (earlier text).",
+      "b-cell: CD19/CD20/CD22/BCMA targeting, antibody replacement, organised B cells and immunotherapy response (earlier text).",
+      "dendritic-cell-cross-presentation: Hildner 2008, Salmon 2016, Alfaro 2013, cDC1 marker details (not in the reading list).",
+      "tertiary-lymphoid-structures: no medicine designed to build them, the two linked trials (earlier text; the Sautès-Fridman attribution is now resolved).",
+      "hla-a-02-01: SeCore CDx companion diagnostic, 45 per cent of Europeans, Tecelra allele list (earlier text).",
+      "Eight generated gene owners: CIViC, Open Targets and IntOGen sentences, driver labels, evidence tiers and the older role text; b2m colorectal and lymphoma notes."
+    ],
+    "noObjection": "No scientific defect was found in the figures; all 16 referenced light figures agree with their lessons and fields."
+  },
+  "coordinatorResolution": {
+    "reviewedRootHead": "1d82802f5b924d749c0455b1e9792446962eef3f",
+    "findingsAddressed": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06"
+    ],
+    "reviewSourcesAdded": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "newTeachingRequirement": {
+      "id": "R55",
+      "page": "wiki/education/concepts/immunology/antibodies-and-b-cells/tertiary-lymphoid-structures.md",
+      "owner": "tertiary-lymphoid-structures",
+      "requirement": "Breast and melanoma studies associate organised immune responses with outcomes, retaining each study's specimens, methods and setting.",
+      "field": "summary",
+      "exactExcerpt": "In untreated invasive breast-tumour specimens, Gu-Trantien and colleagues linked CXCL13-producing follicular helper T cells in TLS germinal centres and an eight-gene signature to group outcomes, including survival or preoperative chemotherapy response. In metastatic melanoma samples, Cabrita and colleagues associated co-occurring CD8-positive T cells and CD20-positive B cells with survival, and a derived TLS signature predicted outcomes in checkpoint-blockade cohorts. Each result retains its specimens, methods and setting; these associations do not establish that inducing a TLS will benefit a particular patient."
+    },
+    "r38ExactExcerpt": "Apps and colleagues found lower HLA-C than HLA-A/B in the analysed healthy-donor peripheral blood lymphocytes with the A*02:01/B*44:02/C*05:01 haplotype; the magnitude differed between flow cytometry and mass spectrometry. This is a defined comparison, not a universal hierarchy.",
+    "r19ExactExcerpt": "Tertiary names where these structures form: ectopic lymphoid organisation in non-lymphoid tissue, including inflamed tissues and tumours. It does not name a cancer stage or establish a particular maturation level.",
+    "r10ExactExcerpt": "Antibodies that bind the same target can act differently:",
+    "classifier": {
+      "range": "cb1affd6a..1d82802f5",
+      "product": 0,
+      "data": 21,
+      "neither": 36,
+      "scope": "Executable repository classification, not an approval inference from reader-visible effects."
+    }
+  },
+  "newSources": [
+    {
+      "pmid": "25754738",
+      "title": "Relative expression levels of the HLA class-I proteins in normal and HIV-infected cells.",
+      "doi": "10.4049/jimmunol.1403234",
+      "year": "2015",
+      "sha256": "d4f5cc8ecec265ba00f3493c2efa5ee7def51b553470ecb9c4280ff62fed683e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25754738%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw primary abstract; specific HLA haplotype, two quantification methods and donor/cell scope",
+      "evidenceType": "Primary experimental article; abstract-only"
+    },
+    {
+      "pmid": "31092904",
+      "title": "Tertiary lymphoid structures in the era of cancer immunotherapy.",
+      "doi": "10.1038/s41568-019-0144-6",
+      "year": "2019",
+      "sha256": "4d3ec714a512ad311d1a1e9530e457c5c7533d5e4e641aad40c77f557f4d8ed6",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31092904%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Review abstract; ectopic lymphoid organisation and outcome-association scope",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "28367149",
+      "title": "Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.",
+      "doi": "10.3389/fimmu.2017.00292",
+      "year": "2017",
+      "sha256": "ea19c05c187ef6cef723ab0ae03d4a8912b02ed91f2d70fa3a2c25afd63cd775",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28367149%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages on Ii, CLIP and HLA-DM",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "31024553",
+      "title": "The Maintenance of Memory Plasma Cells.",
+      "doi": "10.3389/fimmu.2019.00721",
+      "year": "2019",
+      "sha256": "c9c55be472f16e7413b839a118adf86c365695aaaf2200d769968b7b230fa848",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31024553%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages on plasmablasts, plasma cells and niches",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "29445754",
+      "title": "Fundamentals and Methods for T- and B-Cell Epitope Prediction.",
+      "doi": "10.1155/2017/2680160",
+      "year": "2017",
+      "sha256": "3b396964a6ebd950c3f5011f1003734f4d6b481526dc5c9dccee332c5af4573e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29445754%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages defining sequential and discontinuous epitopes",
+      "evidenceType": "Review; secondary evidence"
+    }
+  ],
+  "bodyVerification": {
+    "scope": "Actual EntityDetail body text outside scripts, style and SVG; unchanged shared-draft field/body evidence reused at head406499596. No browser hydration or responsive check.",
+    "requirements": 110,
+    "passed": 110,
+    "rows": [
+      {
+        "id": "apoptosis-and-bcl2-family-mechanism",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-family",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-compartment",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-interpretation",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-mechanism",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-flux",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-specificity",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "autophagy-clinical",
+        "batch": "death",
+        "owner": "autophagy",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-mechanism",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-defences",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-measurement",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ferroptosis-translation",
+        "batch": "death",
+        "owner": "ferroptosis-cell-death",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-definition",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-signals",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-functional-test",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "immunogenic-cell-death-translation",
+        "batch": "death",
+        "owner": "immunogenic-cell-death",
+        "version": "proposal-therapeutic",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-mechanism",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-necroptosis",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-sampling",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "necrosis-immunity",
+        "batch": "death",
+        "owner": "necrosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-state",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-measurement",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-secretions",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "senescence-escape",
+        "batch": "death",
+        "owner": "senescence",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-enzymes",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-fates",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-measurement",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-clinical",
+        "batch": "death",
+        "owner": "ubiquitin-proteasome-system",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-transport",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-members",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-compensation",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "cholesterol-and-srebp-rescue",
+        "batch": "death",
+        "owner": "lipid-metabolism-cancer",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-branches",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-compartments",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-measurement",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-cancer",
+        "batch": "death",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-energy",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-inputs",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-adaptation",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-measurement",
+        "batch": "death",
+        "owner": "nutrient-sensing-ampk",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-gradient",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-rates",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-calculation",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "oxidative-phosphorylation-method-version",
+        "batch": "death",
+        "owner": "oxidative-phosphorylation",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-chemistry",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-sensors",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-outcomes",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "reactive-oxygen-species-context",
+        "batch": "death",
+        "owner": "reactive-oxygen-species",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-pattern",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-heterogeneity",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-measurement",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "warburg-effect-interpretation",
+        "batch": "death",
+        "owner": "warburg-effect",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-comparison",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-exercise",
+        "batch": "death",
+        "owner": "apoptosis",
+        "version": "proposal-death-metabolism",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R01",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R02",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R03",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R04",
+        "batch": "antigen-review",
+        "owner": "adcc-adcp-cdc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R05",
+        "batch": "antigen-review",
+        "owner": "adcc",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R06",
+        "batch": "antigen-review",
+        "owner": "complement-in-cancer",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R07",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R08",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R09",
+        "batch": "antigen-review",
+        "owner": "antibody-structure",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R10",
+        "batch": "antigen-review",
+        "owner": "antibody",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R11",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R12",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R13",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R14",
+        "batch": "antigen-review",
+        "owner": "b-cells-and-plasma-cells",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R14b",
+        "batch": "antigen-review",
+        "owner": "b-cell",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R15",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R16",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R17",
+        "batch": "antigen-review",
+        "owner": "isotypes-and-fc-silencing",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R18",
+        "batch": "antigen-review",
+        "owner": "fc-effector",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R19",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R20",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R21",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R22",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R23",
+        "batch": "antigen-review",
+        "owner": "antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R24",
+        "batch": "antigen-review",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R25",
+        "batch": "antigen-review",
+        "owner": "epitope",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R26",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R27",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R28",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R29",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R30",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R31",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R32",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R33",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R34",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R35",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R36",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R37",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R38",
+        "batch": "antigen-review",
+        "owner": "hla",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R39",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R40",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R41",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R42",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R43",
+        "batch": "antigen-review",
+        "owner": "hla-typing-and-nomenclature",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R44",
+        "batch": "antigen-review",
+        "owner": "hla-a-02-01",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R45",
+        "batch": "antigen-review",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R46",
+        "batch": "antigen-review",
+        "owner": "dendritic-cell-cross-presentation",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R47",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R48",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R49",
+        "batch": "antigen-review",
+        "owner": "tumor-associated-antigen",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R50",
+        "batch": "antigen-review",
+        "owner": "binding-presentation-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R51",
+        "batch": "antigen-review",
+        "owner": "immunopeptidome",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R52",
+        "batch": "antigen-review",
+        "owner": "neoantigen",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R53",
+        "batch": "antigen-review",
+        "owner": "self-similarity-immune-recognition",
+        "version": "draft-373",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R54",
+        "batch": "antigen-review",
+        "owner": "antigen-processing-machinery",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      },
+      {
+        "id": "R55",
+        "batch": "antigen-review",
+        "owner": "tertiary-lymphoid-structures",
+        "version": "proposal-antigen-antibodies",
+        "actualBodyContainsExactPassage": true
+      }
+    ]
+  },
+  "apiVerification": {
+    "canonicalOwners": 43,
+    "checks": [
+      {
+        "id": "adcc-adcp-cdc",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antibody-structure",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antigen",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "epitope",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "antibody",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b-cell",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "adcc",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fc-effector",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "complement-in-cancer",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-a-02-01",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tap1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "tap2",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "erap1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "erap2",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "b2m",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-b",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-c",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-dra",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "hla-dqa1",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr3a",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr2a",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "fcgr2b",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "apoptosis",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "autophagy",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "necrosis",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "senescence",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "warburg-effect",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "ferroptosis-cell-death",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "immunogenic-cell-death",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "ubiquitin-proteasome-system",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "lipid-metabolism-cancer",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "nutrient-sensing-ampk",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "reactive-oxygen-species",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      },
+      {
+        "id": "oxidative-phosphorylation",
+        "canonicalJsonMatches": true,
+        "markdownGenerated": true
+      }
+    ],
+    "requirements": 106,
+    "requirementProofs": [
+      {
+        "id": "apoptosis-and-bcl2-family-mechanism",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-family",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-compartment",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "apoptosis-and-bcl2-family-interpretation",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "autophagy-mechanism",
+        "owner": "autophagy",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "autophagy-flux",
+        "owner": "autophagy",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "autophagy-specificity",
+        "owner": "autophagy",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "autophagy-clinical",
+        "owner": "autophagy",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ferroptosis-mechanism",
+        "owner": "ferroptosis-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ferroptosis-defences",
+        "owner": "ferroptosis-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ferroptosis-measurement",
+        "owner": "ferroptosis-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ferroptosis-translation",
+        "owner": "ferroptosis-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immunogenic-cell-death-definition",
+        "owner": "immunogenic-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immunogenic-cell-death-signals",
+        "owner": "immunogenic-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immunogenic-cell-death-functional-test",
+        "owner": "immunogenic-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immunogenic-cell-death-translation",
+        "owner": "immunogenic-cell-death",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "necrosis-mechanism",
+        "owner": "necrosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "necrosis-necroptosis",
+        "owner": "necrosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "necrosis-sampling",
+        "owner": "necrosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "necrosis-immunity",
+        "owner": "necrosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "senescence-state",
+        "owner": "senescence",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "senescence-measurement",
+        "owner": "senescence",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "senescence-secretions",
+        "owner": "senescence",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "senescence-escape",
+        "owner": "senescence",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-enzymes",
+        "owner": "ubiquitin-proteasome-system",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-fates",
+        "owner": "ubiquitin-proteasome-system",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-measurement",
+        "owner": "ubiquitin-proteasome-system",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "ubiquitin-and-proteasome-clinical",
+        "owner": "ubiquitin-proteasome-system",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cholesterol-and-srebp-transport",
+        "owner": "lipid-metabolism-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cholesterol-and-srebp-members",
+        "owner": "lipid-metabolism-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cholesterol-and-srebp-compensation",
+        "owner": "lipid-metabolism-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "cholesterol-and-srebp-rescue",
+        "owner": "lipid-metabolism-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-branches",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-compartments",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-measurement",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "er-stress-and-unfolded-protein-response-cancer",
+        "owner": "er-stress-and-unfolded-protein-response",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-energy",
+        "owner": "nutrient-sensing-ampk",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-inputs",
+        "owner": "nutrient-sensing-ampk",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-adaptation",
+        "owner": "nutrient-sensing-ampk",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "nutrient-sensing-ampk-measurement",
+        "owner": "nutrient-sensing-ampk",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oxidative-phosphorylation-gradient",
+        "owner": "oxidative-phosphorylation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oxidative-phosphorylation-rates",
+        "owner": "oxidative-phosphorylation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oxidative-phosphorylation-calculation",
+        "owner": "oxidative-phosphorylation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "oxidative-phosphorylation-method-version",
+        "owner": "oxidative-phosphorylation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "reactive-oxygen-species-chemistry",
+        "owner": "reactive-oxygen-species",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "reactive-oxygen-species-sensors",
+        "owner": "reactive-oxygen-species",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "reactive-oxygen-species-outcomes",
+        "owner": "reactive-oxygen-species",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "reactive-oxygen-species-context",
+        "owner": "reactive-oxygen-species",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "warburg-effect-pattern",
+        "owner": "warburg-effect",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "warburg-effect-heterogeneity",
+        "owner": "warburg-effect",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "warburg-effect-measurement",
+        "owner": "warburg-effect",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "warburg-effect-interpretation",
+        "owner": "warburg-effect",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-comparison",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "apoptosis-vs-necrosis-vs-ferroptosis-exercise",
+        "owner": "apoptosis",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R01",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R02",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R03",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R04",
+        "owner": "adcc-adcp-cdc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R05",
+        "owner": "adcc",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R06",
+        "owner": "complement-in-cancer",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R07",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R08",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R09",
+        "owner": "antibody-structure",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R10",
+        "owner": "antibody",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R11",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R12",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R13",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R14",
+        "owner": "b-cells-and-plasma-cells",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R14b",
+        "owner": "b-cell",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R15",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R16",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R17",
+        "owner": "isotypes-and-fc-silencing",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R18",
+        "owner": "fc-effector",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R19",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R20",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R21",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R22",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R23",
+        "owner": "antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R24",
+        "owner": "epitope",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R25",
+        "owner": "epitope",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R26",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R27",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R28",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R29",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R30",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R31",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R32",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R33",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R34",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R35",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R36",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R37",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R38",
+        "owner": "hla",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R39",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R40",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R41",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R42",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R43",
+        "owner": "hla-typing-and-nomenclature",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R44",
+        "owner": "hla-a-02-01",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R45",
+        "owner": "dendritic-cell-cross-presentation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R46",
+        "owner": "dendritic-cell-cross-presentation",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R47",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R48",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R49",
+        "owner": "tumor-associated-antigen",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R54",
+        "owner": "antigen-processing-machinery",
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "R55",
+        "owner": "tertiary-lymphoid-structures",
+        "passageInActualMarkdown": true
+      }
+    ],
+    "scope": "Actual root JSON and Markdown generation. Four shared-draft requirements have current SSR and field proofs; no fresh shared API export is claimed."
+  },
+  "sourceInventoryCountsRetained": true,
+  "approvalClassification": "Actual change-class result: data changes only. Independent reviewer product-class interpretation did not match the executable classifier."
+}

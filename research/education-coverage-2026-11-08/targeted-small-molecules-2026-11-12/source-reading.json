@@ -1,0 +1,2691 @@
+{
+  "sourceVersions": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "title": "AR antagonists: interrupting androgen receptor function",
+      "aliases": [
+        "AR antagonist",
+        "AR antagonists",
+        "androgen receptor antagonist",
+        "androgen receptor antagonists",
+        "antiandrogens"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "gitBlob": "42dcb9f069e9a97d54c8a4de5258e4e1f838ade4",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa"
+        }
+      ],
+      "bytes": 7760,
+      "lines": 101
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "title": "BET inhibitors: blocking a chromatin-reading interaction",
+      "aliases": [
+        "BET inhibitors",
+        "BET inhibitor",
+        "BET bromodomain inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "gitBlob": "d274dae3031fe92da7bd86183a5892e28e822e30",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d"
+        }
+      ],
+      "bytes": 8247,
+      "lines": 105
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "title": "CDK inhibitors: cell-cycle control and transcription",
+      "aliases": [
+        "CDK inhibitor",
+        "CDK inhibitors",
+        "cyclin-dependent kinase inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "gitBlob": "7d462028d757489aeb4baa47e219828259862a31",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a"
+        }
+      ],
+      "bytes": 8357,
+      "lines": 108
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "title": "EGFR inhibitors: interrupting a receptor signal",
+      "aliases": [
+        "EGFR inhibitor",
+        "EGFR inhibitors",
+        "epidermal growth factor receptor inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "gitBlob": "e6709d2b5263a3846f5905fd10cd960882e3dc0f",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918"
+        }
+      ],
+      "bytes": 8186,
+      "lines": 106
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "title": "PI3K and AKT inhibitors: choose the actual signaling step",
+      "aliases": [
+        "PI3K inhibitors",
+        "PI3K inhibitor",
+        "AKT inhibitors",
+        "AKT inhibitor",
+        "PI3K–AKT inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "gitBlob": "c44c29edea6c39b1459b3e02d61ff6fc8cfe5c2e",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f"
+        }
+      ],
+      "bytes": 8816,
+      "lines": 109
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "title": "AR antagonists: interrupting androgen receptor function",
+      "aliases": [
+        "AR antagonist",
+        "AR antagonists",
+        "androgen receptor antagonist",
+        "androgen receptor antagonists",
+        "antiandrogens"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "gitBlob": "42dcb9f069e9a97d54c8a4de5258e4e1f838ade4",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa"
+        }
+      ],
+      "bytes": 7760,
+      "lines": 101
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "title": "BET inhibitors: blocking a chromatin-reading interaction",
+      "aliases": [
+        "BET inhibitors",
+        "BET inhibitor",
+        "BET bromodomain inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "gitBlob": "d274dae3031fe92da7bd86183a5892e28e822e30",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d"
+        }
+      ],
+      "bytes": 8247,
+      "lines": 105
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "title": "CDK inhibitors: cell-cycle control and transcription",
+      "aliases": [
+        "CDK inhibitor",
+        "CDK inhibitors",
+        "cyclin-dependent kinase inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "gitBlob": "7d462028d757489aeb4baa47e219828259862a31",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a"
+        }
+      ],
+      "bytes": 8357,
+      "lines": 108
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "title": "EGFR inhibitors: interrupting a receptor signal",
+      "aliases": [
+        "EGFR inhibitor",
+        "EGFR inhibitors",
+        "epidermal growth factor receptor inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "gitBlob": "e6709d2b5263a3846f5905fd10cd960882e3dc0f",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918"
+        }
+      ],
+      "bytes": 8186,
+      "lines": 106
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "title": "PI3K and AKT inhibitors: choose the actual signaling step",
+      "aliases": [
+        "PI3K inhibitors",
+        "PI3K inhibitor",
+        "AKT inhibitors",
+        "AKT inhibitor",
+        "PI3K–AKT inhibitors"
+      ],
+      "sourceType": "concept",
+      "domain": "therapeutics/targeted-small-molecules",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "gitBlob": "c44c29edea6c39b1459b3e02d61ff6fc8cfe5c2e",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f"
+        }
+      ],
+      "bytes": 8816,
+      "lines": 109
+    }
+  ],
+  "actualSectionVerifier": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918"
+        }
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "sourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "sourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "sourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "sourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918"
+        }
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "sourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+      "verified": true,
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5"
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e"
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9"
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f"
+        }
+      ]
+    }
+  ],
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 0,
+      "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36",
+      "kind": "preamble",
+      "inventoryRows": [
+        "AR-X01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 1,
+      "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-001"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 2,
+      "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-002"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 3,
+      "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-003",
+        "AR-004",
+        "AR-005",
+        "AR-006",
+        "AR-007",
+        "AR-008",
+        "AR-009",
+        "AR-010"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 4,
+      "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-011",
+        "AR-012",
+        "AR-013",
+        "AR-014",
+        "AR-015",
+        "AR-016"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 5,
+      "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-017",
+        "AR-018",
+        "AR-019",
+        "AR-020",
+        "AR-021"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 6,
+      "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-010",
+        "AR-012",
+        "AR-015"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 7,
+      "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "AR-022"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 8,
+      "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "AR-023"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 9,
+      "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-X02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 10,
+      "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "AR-X03"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3",
+      "kind": "preamble",
+      "inventoryRows": [
+        "BET-X01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-001"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-002"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-003",
+        "BET-004",
+        "BET-005",
+        "BET-006",
+        "BET-007",
+        "BET-008",
+        "BET-009",
+        "BET-010",
+        "BET-011",
+        "BET-012"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-013",
+        "BET-014",
+        "BET-015",
+        "BET-016",
+        "BET-017",
+        "BET-018"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-019",
+        "BET-020",
+        "BET-021",
+        "BET-022",
+        "BET-023"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-010",
+        "BET-011",
+        "BET-015"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "BET-024"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "BET-025"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-X02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "BET-X03"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef",
+      "kind": "preamble",
+      "inventoryRows": [
+        "CDK-X01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-001"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-002"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-003",
+        "CDK-004",
+        "CDK-005",
+        "CDK-006",
+        "CDK-007",
+        "CDK-008",
+        "CDK-009",
+        "CDK-010",
+        "CDK-011"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-012",
+        "CDK-013",
+        "CDK-014",
+        "CDK-015",
+        "CDK-016"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-017",
+        "CDK-018",
+        "CDK-019"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-010",
+        "CDK-016"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "CDK-020"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "CDK-021"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-X02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "CDK-X03"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6",
+      "kind": "preamble",
+      "inventoryRows": [
+        "EGFR-X01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-001"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-002"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-003",
+        "EGFR-004",
+        "EGFR-005",
+        "EGFR-006",
+        "EGFR-007",
+        "EGFR-008",
+        "EGFR-009"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-010",
+        "EGFR-011",
+        "EGFR-012"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-013",
+        "EGFR-014",
+        "EGFR-015"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-013",
+        "EGFR-016"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "EGFR-017"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "EGFR-018"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-X02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "EGFR-X03"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d",
+      "kind": "preamble",
+      "inventoryRows": [
+        "PIK-X01"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-001"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-002"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-003",
+        "PIK-004",
+        "PIK-005",
+        "PIK-006",
+        "PIK-007",
+        "PIK-008",
+        "PIK-009"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-010",
+        "PIK-011",
+        "PIK-012"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-013",
+        "PIK-014"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-006"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "PIK-015"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "PIK-016"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-X02"
+      ]
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "PIK-X03"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 0,
+      "sha256": "09bbc1624edd15fa889746e753991bdfceed593ce31c4d1fb1d3595a8b697c36",
+      "kind": "preamble",
+      "inventoryRows": [
+        "AR-X01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 1,
+      "sha256": "879a384066d73a9cfcc409bf8f841581bfbc75c7103750c21248cff278b8f3f9",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-001"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 2,
+      "sha256": "4a28b2afeb019f669eb3523f66d0fec7d23846a0d21514f349e970adae710031",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-002"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 3,
+      "sha256": "8aca60c79657c356eecd6ceeb12d5d35649c9aaa919794168a4e8f2da6d4a5d8",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-003",
+        "AR-004",
+        "AR-005",
+        "AR-006",
+        "AR-007",
+        "AR-008",
+        "AR-009",
+        "AR-010"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 4,
+      "sha256": "0b9b6f09305e2f1d0e8579c1cbd44c98593a1eb391d2406e2af6c2b18c6e21c3",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-011",
+        "AR-012",
+        "AR-013",
+        "AR-014",
+        "AR-015",
+        "AR-016"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 5,
+      "sha256": "524083a92572e09857436cb1ddb7577678ae4c7a24e062ad3c63a6ae8371bf40",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-017",
+        "AR-018",
+        "AR-019",
+        "AR-020",
+        "AR-021"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 6,
+      "sha256": "687228c37e6dbfe135937539105b281b6e1aad3cafbedc7fb45e9ebc22e37aa7",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "AR-010",
+        "AR-012",
+        "AR-015"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 7,
+      "sha256": "d703339c9887a5032d4fe12c99491c0e18efc5bcbaf23cdbf5353103e5086b22",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "AR-022"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 8,
+      "sha256": "095f19f7375d59aa4a25b864222e24d35b8d0de93cb7be825308ef491b77ca03",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "AR-023"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 9,
+      "sha256": "0a076c3200862403a1bba5f7a1fb9b4a5a669b91abc421ed6110c90ee5c9029e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "AR-X02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ar-antagonists.md",
+      "ordinal": 10,
+      "sha256": "dabd2dde98090735972f979f48f045cf3ca92026f52fef07f1a5078c9e0fdafa",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "AR-X03"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "34c2339cd1745f4f17de4ff2d9f9da58f02fb75083f756383f785c16ac2c9ba3",
+      "kind": "preamble",
+      "inventoryRows": [
+        "BET-X01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "8ddf4409dfdde7a99f5c67d4f4f33ea5a8c2041f223598952466679a2c2e4e2e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-001"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "d8f2af0f6e00e335fdf871f4d9d978b7bde66e673b34aa70835041d806fe065e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-002"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "71609ea1c25560aee4544887ceb9e50ee7981f661192156b487c94c6402b6c1a",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-003",
+        "BET-004",
+        "BET-005",
+        "BET-006",
+        "BET-007",
+        "BET-008",
+        "BET-009",
+        "BET-010",
+        "BET-011",
+        "BET-012"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "7025a643b29122b4a0693e240a36ee6d71a1850cfd504273eccd9c7065fb61d3",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-013",
+        "BET-014",
+        "BET-015",
+        "BET-016",
+        "BET-017",
+        "BET-018"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "fef8d5b18a26f95b50de3e672ad32cbe2dd3a3edcfde8fed02786f16cc1a4295",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-019",
+        "BET-020",
+        "BET-021",
+        "BET-022",
+        "BET-023"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "896a713063d37bd8d55139a6806ccb2021d6431ede52fb6c6cd06d96e2e911db",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "BET-010",
+        "BET-011",
+        "BET-015"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "9ff84315ebd17425136c5b4caf930c71d25ab7407c8dda673df872f9a9784088",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "BET-024"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "d6bf55644cf34b8c851a7e2b1c3532c88fef2bf372066ce159b0e62709669e6a",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "BET-025"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "d213ca9e44c14d80191be85fefc31f698d9049fc8f55dbfcb96dabdb2637791c",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "BET-X02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/bet-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "43a9fc32d43f2bab6e7f1c7a22fb0d52d04cf1aae0d51a7939077021ca0bc76d",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "BET-X03"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "42da02af0ab7aefd5ba331e7c32a0bd286090cf9b003f34e8873fee15b84f7ef",
+      "kind": "preamble",
+      "inventoryRows": [
+        "CDK-X01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "8defea26cf440c151189010fbeac05bc5f28af2ec3dcced0fdb45cca1d81729a",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-001"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "ddfe09d82b71848449eeb156d3c22b43421efae4c9968c5fb75ca73bd19905b4",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-002"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "db400868e6ab63fab2b5c2a25a6fac7ba086a57aad809e77a941ecdb3f4cf28e",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-003",
+        "CDK-004",
+        "CDK-005",
+        "CDK-006",
+        "CDK-007",
+        "CDK-008",
+        "CDK-009",
+        "CDK-010",
+        "CDK-011"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "a49c0e6e29de9ebfe1745516ea7a03476146e4d266ed4661e73d0674e8a836a6",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-012",
+        "CDK-013",
+        "CDK-014",
+        "CDK-015",
+        "CDK-016"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "8532a2a4415169f258706253ad4a2094921db2b815b4c69a06af35c7c52fa1b2",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-017",
+        "CDK-018",
+        "CDK-019"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "52397c646f4efdbc9dcc33e13570cdd00e38a132510b698045634c906d03f112",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "CDK-010",
+        "CDK-016"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "962ee24166e6af100c1a3f4c390ba3bf033d1116dfcac3592bfa7a3c75d0b476",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "CDK-020"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "3769a5dbadbd529c1eef89461d1a4c5d7f032f540e783396d8a5b2f2d525b796",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "CDK-021"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "91731206bc1c78a3475242e5dea308b3112ea61a482476e6b4c033871da7e303",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "CDK-X02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/cdk-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "a008a5d830a1f71723c8885a6d65bf78850f5516402847099c71655a4cef6a8a",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "CDK-X03"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "bd0061de35c5be8821cd0ba5160d4e0c4df11968b92b2dcdea3abd92d9cd08b6",
+      "kind": "preamble",
+      "inventoryRows": [
+        "EGFR-X01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "2af7d67cd88cff0161273e2c00280fe07ffbe0027ebb791d0d096c0373edf382",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-001"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "a4c9f2f5bfcd96ea7f796585c3abd012c237d6effbb0d0d5dfc6e88a4b1ee6af",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-002"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "6fb31b899edab0fa8a72f7205c41d36b378eed6f35f52db3f67b0015348cd176",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-003",
+        "EGFR-004",
+        "EGFR-005",
+        "EGFR-006",
+        "EGFR-007",
+        "EGFR-008",
+        "EGFR-009"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "b069e5116ceaf808cba86ef8aa9bfa4639b1604b15f1449eca4f6f0714cd4ba7",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-010",
+        "EGFR-011",
+        "EGFR-012"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "af4e3642cea1daaa6d05c7422d0a936fb58c785d13bf82ceb87a42a6deb369f2",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-013",
+        "EGFR-014",
+        "EGFR-015"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "35ed7b52e1eb31abc7c4eaca8fe6fb9140f05b2a7c8192a5e679a4cbb2618356",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "EGFR-013",
+        "EGFR-016"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "e007c4f137c085d5be696bce858a59d5415f30136196bb2878ce6d020f62805b",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "EGFR-017"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "850ae4227b971373e278f942d895b2d795807aa890d853b8c7ba7e5256169182",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "EGFR-018"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "2432a1e401d713b8961c38e86edfcb1800522aadc25569d9160436174fb8e4ec",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "EGFR-X02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/egfr-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "ca64b5761f5f8a76455826f7be813ffff9d7afa378fd8a36b8bcc887489a8918",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "EGFR-X03"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 0,
+      "sha256": "c7b3c3488fb9f8d20ae22c7d18b86e141c4a7347f1dba6de8b29247f5c60057d",
+      "kind": "preamble",
+      "inventoryRows": [
+        "PIK-X01"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 1,
+      "sha256": "f84d6a0393c85000daca3de18eb06f10badb5d6e6880e73b56a42f13dd5e0a08",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-001"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 2,
+      "sha256": "af838d037c57514cbbe2f6d62e3b0f609c29d2675b4217f8d5f637a5ae0d33e5",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-002"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 3,
+      "sha256": "bc251b9fdb033ddb2ac3c6698120feaef45879297aea86eeaf86de9e8f6593e5",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-003",
+        "PIK-004",
+        "PIK-005",
+        "PIK-006",
+        "PIK-007",
+        "PIK-008",
+        "PIK-009"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 4,
+      "sha256": "941e183f40de5b89d189be983bb2ab78601c39f117c22775039a487c72e7652e",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-010",
+        "PIK-011",
+        "PIK-012"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 5,
+      "sha256": "d423c074270ed9eb1527083e76c741fd295ac9984e53afae268175be2e2590b9",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-013",
+        "PIK-014"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 6,
+      "sha256": "b0538dd09b829635ded944b94977c3d48accd515fb339af60c0963f66b46f240",
+      "kind": "mechanism-measurement-interpretation",
+      "inventoryRows": [
+        "PIK-006"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 7,
+      "sha256": "c02759932868a66d486542b3513a73fda8983c8f195d80d26235e9bc525b5c4b",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "PIK-015"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 8,
+      "sha256": "2b633f1b180ac057b4999a8dcd50d3d11b06cbb5757f0575f16171b3ac9c376f",
+      "kind": "practice-or-worked-example",
+      "inventoryRows": [
+        "PIK-016"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 9,
+      "sha256": "4f8162e6bd045a4ece74cf3cb36e7e1fd60ec5e500f1f1e013c4de40d17f3092",
+      "kind": "additional-teaching",
+      "inventoryRows": [
+        "PIK-X02"
+      ]
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/pi3k-akt-inhibitors.md",
+      "ordinal": 10,
+      "sha256": "ad5ed13e567a4a32fea9c426fc87cdef7e1688caa5af9b06b7664d5b9cc2ea4f",
+      "kind": "source-scope",
+      "inventoryRows": [
+        "PIK-X03"
+      ]
+    }
+  ],
+  "sourceFirstFreeze": {
+    "frozenAt": "2026-11-12T20:28:48.535248+00:00",
+    "inventorySha256": "f4a0d2f4818d0f56490c1e5cee1af48375cea29ee51790a27f06f89a1cd19471",
+    "substantiveRows": 103,
+    "nonCreditRows": 20,
+    "totalRows": 123,
+    "ownersInspectedBeforeFreeze": false,
+    "originalRequirements": 103,
+    "laterRequirements": 103
+  },
+  "versionReconciliation": {
+    "allFivePairsByteIdentical": true,
+    "originalSources": 5,
+    "laterSources": 5,
+    "uniqueBodies": 5,
+    "pairs": [
+      {
+        "file": "ar-antagonists.md",
+        "originalSourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+        "laterSourceSha256": "532446a2906b71dde86c4b93e01dc22fe84b22a18dcac046018584b502c25c2c",
+        "gitBlob": "42dcb9f069e9a97d54c8a4de5258e4e1f838ade4"
+      },
+      {
+        "file": "bet-inhibitors.md",
+        "originalSourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+        "laterSourceSha256": "5a2ee6b00a7830119872bb492344be68ba02c908b6178648ed94dee1c20bc04a",
+        "gitBlob": "d274dae3031fe92da7bd86183a5892e28e822e30"
+      },
+      {
+        "file": "cdk-inhibitors.md",
+        "originalSourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+        "laterSourceSha256": "78fb87c56d6dea361c4b56be9f8583cd84403450a68cf602a4a098373cf8ae65",
+        "gitBlob": "7d462028d757489aeb4baa47e219828259862a31"
+      },
+      {
+        "file": "egfr-inhibitors.md",
+        "originalSourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+        "laterSourceSha256": "92e609ba9c032547d91524f6067de07ab210f6fd753c76183a9d3b23a6100ae8",
+        "gitBlob": "e6709d2b5263a3846f5905fd10cd960882e3dc0f"
+      },
+      {
+        "file": "pi3k-akt-inhibitors.md",
+        "originalSourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+        "laterSourceSha256": "dfb9459d1cf94dcd027975de51c5cf2070d66901d7993403ce1d5a78297c822b",
+        "gitBlob": "c44c29edea6c39b1459b3e02d61ff6fc8cfe5c2e"
+      }
+    ]
+  },
+  "scope": "Five unique complete bodies read before owner inspection; all five pairs are wholly byte-identical. Five sources and 55 sections at each pin remain separately censused. There is no personal-case section in this cohort."
+}

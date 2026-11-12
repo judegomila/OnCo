@@ -1,0 +1,943 @@
+{
+  "distinction": "Identifier resolution, claim verification and reading depth are separate. Rejected recalled identifiers and failed fetches do not support claims.",
+  "inheritedIdentities": [
+    {
+      "identifier": "DOI 10.1200/JCO.20.03613",
+      "resolver": "Crossref",
+      "title": "Updated Standardized Definitions for Efficacy End Points (STEEP) in Adjuvant Breast Cancer Clinical Trials: STEEP Version 2.0",
+      "container": "Journal of Clinical Oncology",
+      "year": 2021,
+      "firstAuthor": "Tolaney",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1200/jco.2006.10.3523",
+      "resolver": "Crossref",
+      "title": "Proposal for Standardized Definitions for Efficacy End Points in Adjuvant Breast Cancer Trials: The STEEP System",
+      "container": "Journal of Clinical Oncology",
+      "year": 2007,
+      "firstAuthor": "Hudis",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1186/1471-2288-13-152",
+      "resolver": "Crossref",
+      "title": "Restricted mean survival time: an alternative to the hazard ratio for the design and analysis of randomized trials with a time-to-event outc",
+      "container": "BMC Medical Research Methodology",
+      "year": 2013,
+      "firstAuthor": "Royston",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1007/s10654-016-0149-3",
+      "resolver": "Crossref",
+      "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations",
+      "container": "European Journal of Epidemiology",
+      "year": 2016,
+      "firstAuthor": "Greenland",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1093/jnci/djp001",
+      "resolver": "Crossref",
+      "title": "Lead Time and Overdiagnosis in Prostate-Specific Antigen Screening: Importance of Methods and Context",
+      "container": "JNCI Journal of the National Cancer Institute",
+      "year": 2009,
+      "firstAuthor": "Draisma",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1016/S0140-6736(13)62422-8",
+      "resolver": "Crossref",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis",
+      "container": "The Lancet",
+      "year": 2014,
+      "firstAuthor": "Cortazar",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1136/bmj.n2736",
+      "resolver": "Crossref",
+      "title": "Long covid: new wine in need of new bottles",
+      "container": "BMJ",
+      "year": 2021,
+      "firstAuthor": "Banerjee",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1056/NEJMoa1910549",
+      "resolver": "Crossref",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer",
+      "container": "New England Journal of Medicine",
+      "year": 2020,
+      "firstAuthor": "Schmid",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1056/NEJMoa2409932",
+      "resolver": "Crossref",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer",
+      "container": "New England Journal of Medicine",
+      "year": 2024,
+      "firstAuthor": "Schmid",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1080/01621459.1958.10501452",
+      "resolver": "Crossref",
+      "title": "Nonparametric Estimation from Incomplete Observations",
+      "container": "Journal of the American Statistical Association",
+      "year": 1958,
+      "firstAuthor": "Kaplan",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1111/j.2517-6161.1972.tb00899.x",
+      "resolver": "Crossref",
+      "title": "Regression Models and Life-Tables",
+      "container": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "year": 1972,
+      "firstAuthor": "Cox",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1098/rsta.1937.0005",
+      "resolver": "Crossref",
+      "title": "Outline of a Theory of Statistical Estimation Based on the Classical Theory of Probability",
+      "container": "Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences",
+      "year": 1937,
+      "firstAuthor": "Neyman",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1080/01621459.1999.10474144",
+      "resolver": "Crossref",
+      "title": "A Proportional Hazards Model for the Subdistribution of a Competing Risk",
+      "container": "Journal of the American Statistical Association",
+      "year": 1999,
+      "firstAuthor": "Fine",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1136/bmj.310.6977.452",
+      "resolver": "Crossref",
+      "title": "The number needed to treat: a clinically useful measure of treatment effect",
+      "container": "BMJ",
+      "year": 1995,
+      "firstAuthor": "Cook",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1136/bmj.317.7168.1309",
+      "resolver": "Crossref",
+      "title": "Confidence intervals for the number needed to treat",
+      "container": "BMJ",
+      "year": 1998,
+      "firstAuthor": "Altman",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1136/bmj.320.7247.1468",
+      "resolver": "Crossref",
+      "title": "Statistics Notes: The odds ratio",
+      "container": "BMJ",
+      "year": 2000,
+      "firstAuthor": "Bland",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1214/ss/1009211805",
+      "resolver": "Crossref",
+      "title": "Confounding and Collapsibility in Causal Inference",
+      "container": "Statistical Science",
+      "year": 1999,
+      "firstAuthor": "Greenland",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1080/00031305.2016.1154108",
+      "resolver": "Crossref",
+      "title": "The ASA Statement on                     <i>p</i>                     -Values: Context, Process, and Purpose",
+      "container": "The American Statistician",
+      "year": 2016,
+      "firstAuthor": "Wasserstein",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1083/jcb.202001064",
+      "resolver": "Crossref",
+      "title": "SuperPlots: Communicating reproducibility and variability in cell biology",
+      "container": "Journal of Cell Biology",
+      "year": 2020,
+      "firstAuthor": "Lord",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1038/nmeth.3853",
+      "resolver": "Crossref",
+      "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs",
+      "container": "Nature Methods",
+      "year": 2016,
+      "firstAuthor": "Hafner",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1111/j.1467-985X.2010.00673.x",
+      "resolver": "Crossref",
+      "title": "The Use of Propensity Scores to Assess the Generalizability of Results from Randomized Trials",
+      "container": "Journal of the Royal Statistical Society Series A: Statistics in Society",
+      "year": 2010,
+      "firstAuthor": "Stuart",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1016/j.annonc.2022.11.005",
+      "resolver": "Crossref",
+      "title": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger interven",
+      "container": "Annals of Oncology",
+      "year": 2023,
+      "firstAuthor": "Turner",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1093/annonc/mdy263",
+      "resolver": "Crossref",
+      "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Tar",
+      "container": "Annals of Oncology",
+      "year": 2018,
+      "firstAuthor": "Mateo",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1038/nature22991",
+      "resolver": "Crossref",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma",
+      "container": "Nature",
+      "year": 2017,
+      "firstAuthor": "Ott",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1038/s41591-020-01206-4",
+      "resolver": "Crossref",
+      "title": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma",
+      "container": "Nature Medicine",
+      "year": 2021,
+      "firstAuthor": "Hu",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1056/nejmoa2105215",
+      "resolver": "Crossref",
+      "title": "Adjuvant Olaparib for Patients with                     <i>BRCA1</i>                     - or                     <i>BRCA2</i>              ",
+      "container": "New England Journal of Medicine",
+      "year": 2021,
+      "firstAuthor": "Tutt",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.7554/eLife.92311",
+      "resolver": "Crossref",
+      "title": "Replication of null results: Absence of evidence or evidence of absence?",
+      "container": "eLife",
+      "year": 2024,
+      "firstAuthor": "Pawel",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1126/science.1233606",
+      "resolver": "Crossref",
+      "title": "Monitoring Drug Target Engagement in Cells and Tissues Using the Cellular Thermal Shift Assay",
+      "container": "Science",
+      "year": 2013,
+      "firstAuthor": "Molina",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1161/CIRCULATIONAHA.115.017719",
+      "resolver": "Crossref",
+      "title": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks",
+      "container": "Circulation",
+      "year": 2016,
+      "firstAuthor": "Austin",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1093/biostatistics/1.1.49",
+      "resolver": "Crossref",
+      "title": "The validation of surrogate endpoints in meta-analyses of   randomized experiments",
+      "container": "Biostatistics",
+      "year": 2000,
+      "firstAuthor": "Buyse",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1056/NEJMoa1802905",
+      "resolver": "Crossref",
+      "title": "Talazoparib in Patients with Advanced Breast Cancer and a Germline                     <i>BRCA</i>                     Mutation",
+      "container": "New England Journal of Medicine",
+      "year": 2018,
+      "firstAuthor": "Litton",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1093/aje/kwab110",
+      "resolver": "Crossref",
+      "title": "The Use of Active Comparators in Self-Controlled Designs",
+      "container": "American Journal of Epidemiology",
+      "year": 2021,
+      "firstAuthor": "Hallas",
+      "error": null
+    },
+    {
+      "identifier": "DOI 10.1186/s13073-019-0690-2",
+      "resolver": "Crossref",
+      "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework",
+      "container": "Genome Medicine",
+      "year": 2019,
+      "firstAuthor": null,
+      "error": null
+    },
+    {
+      "identifier": "PMID 12933525",
+      "resolver": "Europe PMC",
+      "title": "The validation of surrogate endpoints in meta-analyses of randomized experiments.",
+      "doi": "10.1093/biostatistics/1.1.49",
+      "pmid": "12933525",
+      "pmcid": null,
+      "year": "2000",
+      "authors": "Buyse M, Molenberghs G, Burzykowski T, Renard D, Geys H.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 24529560",
+      "resolver": "Europe PMC",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "pmid": "24529560",
+      "pmcid": null,
+      "year": "2014",
+      "authors": "Cortazar P, Zhang L, Untch M, Mehta K, Costantino JP, Wolmar",
+      "error": null
+    },
+    {
+      "identifier": "PMID 34933868",
+      "resolver": "Europe PMC",
+      "title": "Evaluation of pathological complete response as surrogate endpoint in neoadjuvant randomised clinical trials of early stage breast cancer: s",
+      "doi": "10.1136/bmj-2021-066381",
+      "pmid": "34933868",
+      "pmcid": "PMC8689398",
+      "year": "2021",
+      "authors": "Conforti F, Pala L, Sala I, Oriecuia C, De Pas T, Specchia C",
+      "error": null
+    },
+    {
+      "identifier": "PMID 32101663",
+      "resolver": "Europe PMC",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "doi": "10.1056/nejmoa1910549",
+      "pmid": "32101663",
+      "pmcid": null,
+      "year": "2020",
+      "authors": "Schmid P, Cortes J, Pusztai L, McArthur H, Kümmel S, Bergh J",
+      "error": null
+    },
+    {
+      "identifier": "PMID 39282906",
+      "resolver": "Europe PMC",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "doi": "10.1056/nejmoa2409932",
+      "pmid": "39282906",
+      "pmcid": null,
+      "year": "2024",
+      "authors": "Schmid P, Cortes J, Dent R, McArthur H, Pusztai L, Kümmel S,",
+      "error": null
+    },
+    {
+      "identifier": "PMID 35139274",
+      "resolver": "Europe PMC",
+      "title": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+      "doi": "10.1056/nejmoa2112651",
+      "pmid": "35139274",
+      "pmcid": null,
+      "year": "2022",
+      "authors": "Schmid P, Cortes J, Dent R, Pusztai L, McArthur H, Kümmel S,",
+      "error": null
+    },
+    {
+      "identifier": "PMID 17513820",
+      "resolver": "Europe PMC",
+      "title": "Proposal for standardized definitions for efficacy end points in adjuvant breast cancer trials: the STEEP system.",
+      "doi": "10.1200/jco.2006.10.3523",
+      "pmid": "17513820",
+      "pmcid": null,
+      "year": "2007",
+      "authors": "Hudis CA, Barlow WE, Costantino JP, Gray RJ, Pritchard KI, C",
+      "error": null
+    },
+    {
+      "identifier": "PMID 26858290",
+      "resolver": "Europe PMC",
+      "title": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks.",
+      "doi": "10.1161/circulationaha.115.017719",
+      "pmid": "26858290",
+      "pmcid": "PMC4741409",
+      "year": "2016",
+      "authors": "Austin PC, Lee DS, Fine JP.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 6668489",
+      "resolver": "Europe PMC",
+      "title": "Analysis of survival by tumor response.",
+      "doi": "10.1200/jco.1983.1.11.710",
+      "pmid": "6668489",
+      "pmcid": null,
+      "year": "1983",
+      "authors": "Anderson JR, Cain KC, Gelber RD.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 20010207",
+      "resolver": "Europe PMC",
+      "title": "The hazards of hazard ratios.",
+      "doi": "10.1097/ede.0b013e3181c1ea43",
+      "pmid": "20010207",
+      "pmcid": "PMC3653612",
+      "year": "2010",
+      "authors": "Hernán MA.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 9250266",
+      "resolver": "Europe PMC",
+      "title": "The results of direct and indirect treatment comparisons in meta-analysis of randomized controlled trials.",
+      "doi": "10.1016/s0895-4356(97)00049-8",
+      "pmid": "9250266",
+      "pmcid": null,
+      "year": "1997",
+      "authors": "Bucher HC, Guyatt GH, Griffith LE, Walter SD.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 28678778",
+      "resolver": "Europe PMC",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "doi": "10.1038/nature22991",
+      "pmid": "28678778",
+      "pmcid": "PMC5577644",
+      "year": "2017",
+      "authors": "Ott PA, Hu Z, Keskin DB, Shukla SA, Sun J, Bozym DJ, Zhang W",
+      "error": null
+    },
+    {
+      "identifier": "PMID 30137196",
+      "resolver": "Europe PMC",
+      "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Tar",
+      "doi": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "pmcid": "PMC6158764",
+      "year": "2018",
+      "authors": "Mateo J, Chakravarty D, Dienstmann R, Jezdic S, Gonzalez-Per",
+      "error": null
+    },
+    {
+      "identifier": "PMID 27894788",
+      "resolver": "Europe PMC",
+      "title": "Neurotoxic mechanisms of paclitaxel are local to the distal axon and independent of transport defects.",
+      "doi": "10.1016/j.expneurol.2016.11.015",
+      "pmid": "27894788",
+      "pmcid": "PMC5568627",
+      "year": "2017",
+      "authors": "Gornstein EL, Schwarz TL.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 27135972",
+      "resolver": "Europe PMC",
+      "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+      "doi": "10.1038/nmeth.3853",
+      "pmid": "27135972",
+      "pmcid": "PMC4887336",
+      "year": "2016",
+      "authors": "Hafner M, Niepel M, Chung M, Sorger PK.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 24314264",
+      "resolver": "Europe PMC",
+      "title": "Restricted mean survival time: an alternative to the hazard ratio for the design and analysis of randomized trials with a time-to-event outc",
+      "doi": "10.1186/1471-2288-13-152",
+      "pmid": "24314264",
+      "pmcid": "PMC3922847",
+      "year": "2013",
+      "authors": "Royston P, Parmar MK.",
+      "error": null
+    },
+    {
+      "identifier": "PMID 19276453",
+      "resolver": "Europe PMC",
+      "title": "Lead time and overdiagnosis in prostate-specific antigen screening: importance of methods and context.",
+      "doi": "10.1093/jnci/djp001",
+      "pmid": "19276453",
+      "pmcid": "PMC2720697",
+      "year": "2009",
+      "authors": "Draisma G, Etzioni R, Tsodikov A, Mariotto A, Wever E, Gulat",
+      "error": null
+    },
+    {
+      "identifier": "PMID 34003702",
+      "resolver": "Europe PMC",
+      "title": "Updated Standardized Definitions for Efficacy End Points (STEEP) in Adjuvant Breast Cancer Clinical Trials: STEEP Version 2.0.",
+      "doi": "10.1200/jco.20.03613",
+      "pmid": "34003702",
+      "pmcid": "PMC10166345",
+      "year": "2021",
+      "authors": "Tolaney SM, Garrett-Mayer E, White J, Blinder VS, Foster JC,",
+      "error": null
+    },
+    {
+      "identifier": "PMID 27209009",
+      "resolver": "Europe PMC",
+      "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+      "doi": "10.1007/s10654-016-0149-3",
+      "pmid": "27209009",
+      "pmcid": "PMC4877414",
+      "year": "2016",
+      "authors": "Greenland S, Senn SJ, Rothman KJ, Carlin JB, Poole C, Goodma",
+      "error": null
+    },
+    {
+      "identifier": "PMC4877414",
+      "resolver": "Europe PMC",
+      "title": "Statistical tests, P values, confidence intervals, and power: a guide to misinterpretations.",
+      "doi": "10.1007/s10654-016-0149-3",
+      "pmid": "27209009",
+      "pmcid": "PMC4877414",
+      "year": "2016",
+      "authors": "Greenland S, Senn SJ, Rothman KJ, Carlin JB, Poole C, Goodma",
+      "error": null
+    },
+    {
+      "identifier": "PMC5502906",
+      "resolver": "Europe PMC",
+      "title": "Equivalence Tests: A Practical Primer for <i>t</i> Tests, Correlations, and Meta-Analyses.",
+      "doi": "10.1177/1948550617697177",
+      "pmid": "28736600",
+      "pmcid": "PMC5502906",
+      "year": "2017",
+      "authors": "Lakens D.",
+      "error": null
+    },
+    {
+      "identifier": "PMC6938631",
+      "resolver": "Europe PMC",
+      "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+      "doi": "10.1186/s13073-019-0690-2",
+      "pmid": "31892348",
+      "pmcid": "PMC6938631",
+      "year": "2019",
+      "authors": "Brnich SE, Abou Tayoun AN, Couch FJ, Cutting GR, Greenblatt ",
+      "error": null
+    },
+    {
+      "identifier": "PMC1117211",
+      "resolver": "Europe PMC",
+      "title": "Calculating the number needed to treat for trials where the outcome is time to an event.",
+      "doi": "10.1136/bmj.319.7223.1492",
+      "pmid": "10582940",
+      "pmcid": "PMC1117211",
+      "year": "1999",
+      "authors": "Altman DG, Andersen PK.",
+      "error": null
+    },
+    {
+      "identifier": "PMC8536837",
+      "resolver": "Europe PMC",
+      "title": "Study Designs for Extending Causal Inferences From a Randomized Trial to a Target Population.",
+      "doi": "10.1093/aje/kwaa270",
+      "pmid": "33324969",
+      "pmcid": "PMC8536837",
+      "year": "2021",
+      "authors": "Dahabreh IJ, Haneuse SJA, Robins JM, Robertson SE, Buchanan ",
+      "error": null
+    }
+  ],
+  "inheritedClaimAssessments": [
+    {
+      "claim": "STEEP 2.0 Table 1: distant RFI = distant recurrence + breast-cancer death; DRFS = distant recurrence + three death categories; IDFS and IBCFS rows",
+      "source": "Tolaney 2021 (PMID 34003702, DOI 10.1200/JCO.20.03613)",
+      "readingDepth": "Table 1 page fully viewed (reviewer render) + pdftotext layout",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "STEEP 2.0: 11 phase III trials, 3 followed STEEP; simulations; IBCFS recommended",
+      "source": "same",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "CTNeoBC 11,955 pts/12 trials; EFS HR 0.48, OS 0.36; TNBC 0.24/0.16; R2 0.03 (0.00-0.25) EFS, 0.24 (0.00-0.70) OS",
+      "source": "Cortazar 2014 (PMID 24529560)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "Conforti 54 trials, 32,611 pts; R2 0.14 (0.00-0.29) DFS, 0.08 (0.00-0.22) OS",
+      "source": "Conforti 2021 (PMID 34933868, DOI 10.1136/bmj-2021-066381)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "KEYNOTE-522 pCR 64.8% vs 51.2%, difference 13.6 pp; EFS and OS improvements",
+      "source": "Schmid 2020/2022/2024 (PMIDs 32101663/35139274/39282906)",
+      "readingDepth": "abstracts",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "Draisma: lead time 5.4-6.9 y, overdiagnosis 23-42% (US); 7.9 y and 66% (Rotterdam); earlier range 3-12 y; models agree within a definition, differ across definitions",
+      "source": "Draisma 2009 (PMID 19276453)",
+      "readingDepth": "abstract; PMC efetch for PMC2720697 returned the abstract page only (8.6k bytes), full text not obtained",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "Log-rank and RMST significance levels close to nominal under PH and non-PH; log-rank underpowered under the non-PH design; RMST = area under curve to a horizon",
+      "source": "Royston and Parmar 2013 (PMC3922847)",
+      "readingDepth": "abstract + Table 2 and surrounding text of full XML",
+      "status": "verified-against-raw (piecewise-exponential scenarios, 5,000 replicates; not general)"
+    },
+    {
+      "claim": "CI coverage is a property of repeated intervals not one interval; overlapping CIs mislead; large P not evidence of no effect",
+      "source": "Greenland 2016 (PMC4877414)",
+      "readingDepth": "targeted passages of full XML",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "1-KM biased upward with competing risks; CIF; cause-specific vs subdistribution hazards",
+      "source": "Austin 2016 (PMC4741409)",
+      "readingDepth": "full XML, abstract and keyword passages",
+      "status": "verified-against-raw (Aalen-Johansen/nonparametric NOT present: F03)"
+    },
+    {
+      "claim": "HR time-varying and built-in selection bias even in a randomized trial; survival curves recommended",
+      "source": "Hernan 2010 (PMC3653612)",
+      "readingDepth": "full text read",
+      "status": "verified-against-raw (\"others defend\" not present: F08)"
+    },
+    {
+      "claim": "Responder-vs-nonresponder survival comparison is biased; landmark/Mantel-Byar valid",
+      "source": "Anderson, Cain, Gelber 1983 (PMID 6668489)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "Pooling active arms is prone to bias; adjusted indirect comparison preserves randomization with limited strength",
+      "source": "Bucher 1997 (PMID 9250266)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "Individual-level vs trial-level surrogate validation",
+      "source": "Buyse 2000 (PMID 12933525)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "ESCAT tiers (I-X) incl. preclinical tier IV and other-tumour tier III",
+      "source": "Mateo 2018 (PMID 30137196)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "TOST, prespecified bounds from smallest effect size of interest",
+      "source": "Lakens 2017 (PMC5502906)",
+      "readingDepth": "full text, targeted passages",
+      "status": "verified-against-raw (one-sided non-inferiority sentence not stated: F12)"
+    },
+    {
+      "claim": "Assays at mRNA level inform splice effects; cDNA over-expression may not reflect endogenous situation",
+      "source": "Brnich 2019 (PMC6938631)",
+      "readingDepth": "full text, targeted passages",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "Identifiability conditions incl. positivity of trial participation; weighting/standardization designs",
+      "source": "Dahabreh 2021 (PMC8536837) and 2019 arXiv v1",
+      "readingDepth": "PMC XML = abstract only; arXiv v1 section 2.2 read by keyword",
+      "status": "verified-against-preprint-section"
+    },
+    {
+      "claim": "Propensity-score generalizability; school-based worked example (non-oncology)",
+      "source": "Stuart 2011 (PMID 24926156)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "GR metrics correct IC50/Emax dependence on division number in cells",
+      "source": "Hafner 2016 (PMID 27135972)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract (supports in vitro metrics only)"
+    },
+    {
+      "claim": "Six-patient melanoma neoantigen vaccine; 60% CD4 / 16% CD8 of 97 neoantigens; 4/6 recurrence-free at 25 months; ex vivo IFN-gamma ELISPOT with supplied peptide pools; CD8 responses to epitope pools detectable only after one round of in vitro peptide expansion",
+      "source": "Ott 2017 (PMID 28678778; PMC5577644)",
+      "readingDepth": "abstract + targeted passages of the PMC efetch full text (72k chars): ELISPOT, peptide pools, in vitro pre-stimulation",
+      "status": "verified-against-raw (matches immunogenicity-vs-efficacy:2 supplied-peptide/expansion caution)"
+    },
+    {
+      "claim": "c-TRAK TN: 27.3% ctDNA detection by 12 months; 72% metastatic at ctDNA+; 5 started pembrolizumab, none sustained clearance",
+      "source": "Turner 2023 (PMID 36423745)",
+      "readingDepth": "abstract",
+      "status": "verified-abstract"
+    },
+    {
+      "claim": "FDA 2018: PFS definition; PFS can be accelerated-approval surrogate, traditional-approval surrogate or direct benefit by context; OS-PFS correlation data usually insufficient; externally controlled trials seldom reliable; NI margin",
+      "source": "FDA guidance Dec 2018",
+      "readingDepth": "keyword-targeted sections of 52,663 chars",
+      "status": "verified-against-raw (dated, nonbinding)"
+    },
+    {
+      "claim": "Bonferroni divides alpha by m; Bonferroni and Holm assumption-free over correlation structure",
+      "source": "FDA multiple endpoints 2022",
+      "readingDepth": "Appendix passages",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "MRD-guided strategy trials should be randomized with DFS/EFS/OS primary endpoint",
+      "source": "FDA ctDNA 2024",
+      "readingDepth": "keyword passages",
+      "status": "verified-against-raw (keyword only)"
+    },
+    {
+      "claim": "Lead-time bias, length bias, overdiagnosis definitions; overdiagnosis called extreme example of length bias",
+      "source": "NCI, What Cancer Screening Statistics Really Tell Us",
+      "readingDepth": "page text read",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "HR, false-negative definitions",
+      "source": "NCI Dictionary (API JSON)",
+      "readingDepth": "definition JSON",
+      "status": "verified-against-raw (dictionary web page is a JS shell)"
+    },
+    {
+      "claim": "Eligibility criteria definition; random assignment within trial",
+      "source": "NCI trial pages",
+      "readingDepth": "passages",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "RECIST PR >=30% decrease vs baseline; PD >=20% and >=5 mm vs smallest sum on study; sum of diameters",
+      "source": "Eisenhauer 2009",
+      "readingDepth": "keyword passages of 138k chars",
+      "status": "verified-against-raw (\"nadir\" term absent: F15)"
+    },
+    {
+      "claim": "Transitivity requires comparable effect modifiers",
+      "source": "Cochrane Handbook ch. 11",
+      "readingDepth": "page text keyword",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "Exponential CDF 1-exp(-lambda t), median ln2/lambda; KM product-limit steps; 95% CI not a probability for one interval",
+      "source": "NIST handbook pages",
+      "readingDepth": "page text",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "Participant flow, analysed counts, missing-data handling are reporting items",
+      "source": "CONSORT 2025 statement/E&E (PMC11995449, PMC11995452)",
+      "readingDepth": "items 21b-22b read",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "External validation heterogeneity across settings",
+      "source": "TRIPOD-Cluster E&E (PMC9903176)",
+      "readingDepth": "passages",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "Six ASA principles on p-values",
+      "source": "ASA 2016 official release",
+      "readingDepth": "full text of release",
+      "status": "verified-against-raw (statement itself not read)"
+    },
+    {
+      "claim": "Odds-ratio formula (CDC)",
+      "source": "CDC archived lesson 3 section 5",
+      "readingDepth": "passage",
+      "status": "verified-against-raw"
+    },
+    {
+      "claim": "CHALLENGE 5-yr DFS 80.3% vs 73.9%, HR 0.72; OlympiA 3-yr IDFS 85.9 vs 77.1, HR 0.58, 1,836 pts; PRODIGE 24 median DFS 21.6 vs 12.8 mo, HR 0.58",
+      "source": "retained legacy claims in absolute-benefit, idfs, efs",
+      "readingDepth": "abstracts",
+      "status": "verified-abstract (outside the 71 requirements)"
+    }
+  ],
+  "inheritedAccessFailures": [
+    {
+      "target": "BMJ web pages (TRIPOD-Cluster, CONSORT 2025)",
+      "result": "HTTP 403",
+      "handled": "PMC full texts used"
+    },
+    {
+      "target": "cancer.gov dictionary pages",
+      "result": "JS shell (identical HTML)",
+      "handled": "NCI glossary API JSON used"
+    },
+    {
+      "target": "PMC PDFs for Altman 1998, Altman and Andersen 1999, Bland and Altman 2000",
+      "result": "proof-of-work challenge HTML / scanned-image XML",
+      "handled": "not bypassed; claims rest on stated-premise arithmetic"
+    },
+    {
+      "target": "NCBI efetch for PMC8689398 (Conforti)",
+      "result": "HTTP 429 once",
+      "handled": "abstract via Europe PMC suffices for cited numbers"
+    },
+    {
+      "target": "Elicit",
+      "result": "no callable tool",
+      "handled": "absence reported; no results invented"
+    }
+  ],
+  "newTrialReportIdentities": [
+    {
+      "doi": "10.1016/j.annonc.2025.12.017",
+      "title": "Datopotamab deruxtecan versus chemotherapy in previously treated inoperable/metastatic hormone receptor-positive, HER2-negative breast cancer: final overall survival analysis of the phase III TROPION-Breast01 study.",
+      "authors": "Pistilli B, Jhaveri K, Im SA, Pernas S, De Laurentiis M, Wang S, Martínez Jañez N, Borges G, Cescon DW, Hattori M, Lu YS, Hamilton E, Tsurutani J, Kalinsky K, Rubini Liedke PE, Carroll D, Khan S, Rugo HS, Xu B, Bardia A, TROPION-Breast01 investigators.",
+      "year": "2026",
+      "pmid": "41448362",
+      "pmcid": null,
+      "sha256": "0fff3c092d7031c893cb0bf0d5b7082f09ef105b07d1f0f90e41172bc0fc4468",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "df14ed77937d293c57cd50e1a882a7a4ff850d9396ef9023f874b202df7a0791"
+    },
+    {
+      "doi": "10.1016/j.annonc.2025.11.020",
+      "title": "Durvalumab with carboplatin/paclitaxel and bevacizumab followed by durvalumab and bevacizumab with or without olaparib maintenance in newly diagnosed non-BRCA-mutated advanced ovarian cancer.",
+      "authors": "Harter P, Trillsch F, Okamoto A, Reuss A, Kim JW, Rubio-Pérez MJ, Vardar MA, Scambia G, Trédan O, Nyvang GB, Colombo N, Bidziński M, Grimm C, Lheureux S, Van Nieuwenhuysen E, Heitz F, Wenham RM, Nishio S, Lim MC, Marquina G, Altundağ Ö, Bergamini A, Sabatier R, Wimberger P, Gold MA, Sehouli J, Park-Simon TW, Kent E, Correa A, Aghajanian C, DUO-O Investigators.",
+      "year": "2026",
+      "pmid": "41380962",
+      "pmcid": null,
+      "sha256": "a065aea8cfc6289f69c32cb88f188d32915a03872073b16f81024939cd0c58fa",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "9ece175f7f0dfe745153151dab61bddc686c3c286d15fbd887ba1601b699af62"
+    },
+    {
+      "doi": "10.1016/j.annonc.2024.12.014",
+      "title": "A randomised phase III study of bevacizumab and carboplatin-pemetrexed chemotherapy with or without atezolizumab as first-line treatment for advanced pleural mesothelioma: results of the ETOP 13-18 BEAT-meso trial.",
+      "authors": "Felip E, Popat S, Dafni U, Ribi K, Pope A, Cedres S, Shah R, de Marinis F, Cove Smith L, Bernabé R, Früh M, Nackaerts K, Greillier L, Scherz A, Massuti B, Nadal E, Vila Martinez L, Talbot T, Roschitzki-Voser H, Dimopoulou G, Schär S, Ruepp B, Savic S, Peters S, Stahel R, ETOP 13-18 BEAT-meso Collaborators.",
+      "year": "2025",
+      "pmid": "39814199",
+      "pmcid": null,
+      "sha256": "3638278f53d6088ca8512499e514e501a921661eaae1a0ad754bdf575cd06d4a",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "6a9501cb512f2d7488cb6729bb5dbd3fa3e58d365c5e55515059244f334232d3"
+    },
+    {
+      "doi": "10.1001/jama.2020.1707",
+      "title": "Effect of Doxorubicin Plus Olaratumab vs Doxorubicin Plus Placebo on Survival in Patients With Advanced Soft Tissue Sarcomas: The ANNOUNCE Randomized Clinical Trial.",
+      "authors": "Tap WD, Wagner AJ, Schöffski P, Martin-Broto J, Krarup-Hansen A, Ganjoo KN, Yen CC, Abdul Razak AR, Spira A, Kawai A, Le Cesne A, Van Tine BA, Naito Y, Park SH, Fedenko A, Pápai Z, Soldatenkova V, Shahir A, Mo G, Wright J, Jones RL, ANNOUNCE Investigators.",
+      "year": "2020",
+      "pmid": "32259228",
+      "pmcid": "PMC7139275",
+      "sha256": "53f6255f4d3fe9133651ad9deb44509693e374acea5644b146a7f9227fec5dc9",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "1647c39fd700e353792a94dcb332296f16f596a5638a5fc72ebbed3ffdd5d606"
+    },
+    {
+      "doi": "10.1016/s2213-2600(22)00309-5",
+      "title": "Combination lurbinectedin and doxorubicin versus physician's choice of chemotherapy in patients with relapsed small-cell lung cancer (ATLANTIS): a multicentre, randomised, open-label, phase 3 trial.",
+      "authors": "Aix SP, Ciuleanu TE, Navarro A, Cousin S, Bonanno L, Smit EF, Chiappori A, Olmedo ME, Horvath I, Grohé C, Farago AF, López-Vilariño JA, Cullell-Young M, Nieto A, Vasco N, Gómez J, Kahatt C, Zeaiter A, Carcereny E, Roubec J, Syrigos K, Lo G, Barneto I, Pope A, Sánchez A, Kattan J, Zarogoulidis K, Waller CF, Bischoff H, Juan-Vidal O, Reinmuth N, Dómine M, Paz-Ares L.",
+      "year": "2023",
+      "pmid": "36252599",
+      "pmcid": null,
+      "sha256": "c316d700b00d54bf6d6ba11fb7ba27283942af39144474fa6b49264b43d4c800",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "c60ab344baf14358c85aa9c540ac95fbde280e74b28eaf57619116886d34c4a9"
+    },
+    {
+      "doi": "10.1158/1078-0432.CCR-20-3901",
+      "title": "FDA Approval Summary: Lurbinectedin for the Treatment of Metastatic Small Cell Lung Cancer.",
+      "authors": "Singh S, Jaigirdar AA, Mulkey F, Cheng J, Hamed SS, Li Y, Liu J, Zhao H, Goheer A, Helms WS, Wang X, Agarwal R, Pragani R, Korsah K, Tang S, Leighton J, Rahman A, Beaver JA, Pazdur R, Theoret MR, Singh H.",
+      "year": "2021",
+      "pmid": "33288660",
+      "pmcid": "PMC9532454",
+      "sha256": "99c0442d71e63f2d0a655733af6cc629b41c210736eeb3dc17e8a6f91a23587e",
+      "resolver": "Europe PMC",
+      "depth": "raw abstract read; no full-text claim",
+      "identityComparison": "Title, authors, publication year and DOI/PMID agree with the primary trial/report selected; not a similarly named subgroup report.",
+      "abstractSha256": "12444a69f8c9712710555f847bd33fce46ddf45522eb97952d2947805ffedec5"
+    }
+  ],
+  "coordinatorIdentityCaptures": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A22763957%20AND%20SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 5537,
+      "sha256": "c9e13ea7cc0c16d5ac5678717fcaa93738f4c4a397735181a444d1711a94547d",
+      "identity": {
+        "id": "22763957",
+        "doi": "10.1002/sim.5440",
+        "title": "Estimation of treatment effect under non-proportional hazards and conditionally independent censoring.",
+        "authorString": "Boyd AP, Kittelson JM, Gillen DL.",
+        "pubYear": "2012",
+        "firstPublicationDate": "2012-07-04",
+        "pmcid": "PMC3876422"
+      }
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19472308%20AND%20SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 4655,
+      "sha256": "fe709644ccff8571e244f005beaceaf7b552db0524025a1192b0fd91b807c564",
+      "identity": {
+        "id": "19472308",
+        "doi": "10.1002/sim.3623",
+        "title": "The estimation of average hazard ratios by weighted Cox regression.",
+        "authorString": "Schemper M, Wakounig S, Heinze G.",
+        "pubYear": "2009",
+        "firstPublicationDate": "2009-08-01",
+        "pmcid": null
+      }
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34933868%20AND%20SRC%3AMED&format=json&resultType=core",
+      "httpStatus": 200,
+      "bytes": 10894,
+      "sha256": "5336fbf7913d807b454edcca7ff2d7fde6c09b93dc1af56481eee5f6fb9f44c1",
+      "identity": {
+        "id": "34933868",
+        "doi": "10.1136/bmj-2021-066381",
+        "title": "Evaluation of pathological complete response as surrogate endpoint in neoadjuvant randomised clinical trials of early stage breast cancer: systematic review and meta-analysis.",
+        "authorString": "Conforti F, Pala L, Sala I, Oriecuia C, De Pas T, Specchia C, Graffeo R, Pagan E, Queirolo P, Pennacchioli E, Colleoni M, Viale G, Bagnardi V, Gelber RD.",
+        "pubYear": "2021",
+        "firstPublicationDate": "2021-12-21",
+        "pmcid": "PMC8689398"
+      }
+    }
+  ],
+  "additionalScope": [
+    "Boyd 2012 complete raw abstract supports an attributed average-hazard-ratio argument and its censoring limitation; Schemper 2009 is context-only.",
+    "Conforti 2021 raw abstract supplies trial-level R-squared estimates and confidence intervals.",
+    "Bucher 1997 raw abstract supports the qualified adjusted-indirect-comparison limitation.",
+    "STEEP 2.0 Table 1 was viewed; the 2007 table remains unread. Current endpoint definitions are attributed to 2021.",
+    "Therneau competing-risks vignette section 2.1 and the Aalen-Johansen passage were read; this attribution is separate from Austin.",
+    "FDA olaratumab multidisciplinary review: actual director decision page viewed. The accelerated-approval rationale is not inferred from an outcome headline.",
+    "Rosselli Del Turco and GIVIO complete abstracts reread; historical surveillance examples do not establish modern-care equivalence."
+  ],
+  "elicit": "No live Elicit tool was callable for these batches; no question/report links or responses are invented.",
+  "scope": "Primary materials and raw abstracts stay private. Existing reading depth is carried honestly; no full-document or clinical expert certification."
+}

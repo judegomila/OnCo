@@ -1,0 +1,35 @@
+{
+  "inScopeRequirementResiduals": [
+    {
+      "id": "S-002",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify 61 of 84 detected before treatment (73%) and 9% just before surgery, with the actual draw denominators and timing.",
+      "remaining": [
+        "Exact evaluable final-draw denominator for the reported 9% is not verified from raw Figure 3. The parent 84 and joint-analysis 60 must not replace it."
+      ],
+      "primaryFigureAccessStatus": 403
+    }
+  ],
+  "sourceReadingLimits": [
+    "S-002 remains partial: the reported 9% final-draw rate is verified in the abstract and body, but the exact evaluable denominator in Figure 3 was not obtained. Do not use 84 as that denominator.",
+    "All original/later identities are verified. Every later body and all original/later diffs are read; unchanged original lines are not claimed independently reread.",
+    "No whole original paper, review or guidance is claimed read. Abstracts, the 26 named body paragraphs and selected official paragraphs/PDF text keep their depth.",
+    "The Basik original efetch contains metadata rather than an article body. Its current abstract supports the scoped result; the raw erratum body remains inaccessible and its earlier follow-up stays open.",
+    "PMC article/Bookshelf HTML, Europe PMC PDFs and publisher routes sometimes return challenge pages, errors or metadata. HTML served under a PDF filename is not treated as a PDF. No challenges were bypassed.",
+    "The existing VAF definition and other unchanged canonical assertions retain their inherited primary-reading scope. Earlier catalogue claims outside the selected field excerpts are not blanket recertified.",
+    "Eight stale cfDNA translations are withdrawn to English fallback and Simple English corrected; no independent language approval."
+  ],
+  "limits": [
+    "The exact final-draw denominator for the reported 9% remains unverified. Figure 3 asset access returned 403; the parent 84 and joint 60 must not replace it.",
+    "All later bodies and original/later diffs read; unchanged original lines are not claimed independently reread.",
+    "No whole paper, review or guidance read. Complete abstracts, 26 targeted body paragraphs and selected official text retain their depth.",
+    "Basik correction identity is resolved but raw body access failed; its earlier follow-up remains open. No correction-specific clinical wording is adopted.",
+    "Older assertions beyond selected fields retain inherited source scope. Source presence does not itself provide coverage.",
+    "Figures and component SSR are not live Guide rendering, hydration, mobile, measured accessibility, independent expert or learner approval.",
+    "Source artwork, earlier cohort packets and frozen proposal versions remain unchanged. No main/live or language credit."
+  ],
+  "broaderAuditComplete": false
+}

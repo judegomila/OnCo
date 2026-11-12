@@ -1,0 +1,29 @@
+{
+  "ledgers": [
+    {
+      "ledger": "ledger.json",
+      "priorSourceReviewsUnchanged": 537,
+      "changedReviews": [],
+      "proposalsAdded": 2
+    },
+    {
+      "ledger": "source-phases/c9689645/ledger.json",
+      "priorSourceReviewsUnchanged": 549,
+      "changedReviews": [
+        "wiki/education/concepts/biology-basics/genetics/genetic-code.md"
+      ],
+      "proposalsAdded": 2
+    }
+  ],
+  "preexistingArtifactsFrozen": 784,
+  "changedByRegeneration": [
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-items.json"
+  ],
+  "allOtherPreexistingArtifactsUnchanged": true,
+  "scope": "Comparison immediately after the first ledger regeneration; README, aggregate and manifest updates are prepared and replayed separately."
+}

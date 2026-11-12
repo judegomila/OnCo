@@ -1,0 +1,464 @@
+{
+  "records": 14,
+  "exactEntityJSON": true,
+  "checks": [
+    {
+      "id": "chemotherapy-term",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-term",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "cytotoxic-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "chemotherapy-regimen",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "anthracycline",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "taxane",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "alkylating-agent",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "platinum",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "topoisomerase-inhibitors",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "fluorouracil",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "capecitabine",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tubulin",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "tubulin",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "dose-dense-chemotherapy",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 2,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 3,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 4,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 5,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 6,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "antibody-tumor-penetration",
+      "field": "notes",
+      "index": 7,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "tldr",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "summary",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "notes",
+      "index": 0,
+      "passageInActualMarkdown": true
+    },
+    {
+      "id": "adc",
+      "field": "notes",
+      "index": 1,
+      "passageInActualMarkdown": true
+    }
+  ],
+  "openApiHasPathsAndComponents": true,
+  "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+}

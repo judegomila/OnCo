@@ -1,0 +1,952 @@
+{
+  "sourceFirstBeforeFreshCandidateComparison": true,
+  "dataCommit": "26b59741dd431156e71159375bf2982a4fb9dcfe",
+  "rows": [
+    {
+      "id": "SHI-001",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Define cancer as altered body cells escaping normal controls, with invasion and spread distinct from a report label.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The connected definition distinguishes altered-cell control, local invasion, distant spread and the mixed microenvironment."
+    },
+    {
+      "id": "SHI-002",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Separate classification, microscopic grade and anatomical extent rather than treating a biopsy label as all three.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Explicitly separates receptor category, microscopic grade and extent rather than inferring one from another."
+    },
+    {
+      "id": "SHI-003",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Define TNBC through the three completed negative receptor tests, including the expanded HER2 name; do not infer absolute absence of molecules or every target.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Completed valid tests define the category; HER2 is expanded and protein/testing status is separated from molecule absence and drug eligibility."
+    },
+    {
+      "id": "SHI-004",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify and scope the NCI about-15-percent share, age, Black-women and BRCA-variant associations and growth comparison; retain population rather than personal interpretation.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "All four NCI associations and the faster-growth tendency retain population scope and no individual forecast."
+    },
+    {
+      "id": "SHI-005",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Assess the blanket no-hormone/no-HER2-treatment sentence rather than adopting it as a universal rule across treatment settings.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Endocrine-negative disease, ER-low positive and indication-specific HER2-low ADC use replace a blanket no-hormone/no-HER2-drug assertion."
+    },
+    {
+      "id": "SHI-006",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Explain the selected peptide-display/T-cell recognition route and PD-1/PD-L1 regulation, with pembrolizumab as PD-1 blockade rather than a guarantee of restored function.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Conventional peptide-HLA recognition, checkpoint regulation, the actual pembrolizumab target and lack of automatic function are explicit."
+    },
+    {
+      "id": "SHI-007",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify the selected stage-II/III perioperative treatment strategy and approximate pre/postoperative durations, preserving eligibility and indication scope.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Names the selected population, planned pre/post durations, label eligibility and non-isolated treatment phases."
+    },
+    {
+      "id": "SHI-008",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Keep residual-disease options and uncertainty about the best added treatment separate from a universal postoperative instruction.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Further treatment is conditional on prior care and distinct trial eligibility; no score-only or universal added-drug choice is retained."
+    },
+    {
+      "id": "SHI-009",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Interpret the rounded 51-to-65-percent pCR comparison separately from roughly 82-to-87-percent five-year survival, with population, comparator, endpoint and time.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Both comparisons have their own denominator, endpoint, time and percentage-point calculation, with estimate and rounding limits."
+    },
+    {
+      "id": "SHI-010",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Group outcomes do not determine how an individual tumour will respond; the learner must keep the studied question attached to a number.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Population associations and trial estimates explicitly do not forecast an individual course."
+    },
+    {
+      "id": "SHI-011",
+      "source": "index.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain NCI explanatory versus randomized-study source scopes and pending expert/learner review; citations alone earn no teaching credit.",
+      "class": "source-scope",
+      "disposition": "scope metadata retained; no teaching credit",
+      "entailment": "Source identities and reading depth are recorded in the packet. Citations do not establish semantic teaching or expert/learner approval."
+    },
+    {
+      "id": "SH1-001",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Attach each cancer-report label to its specimen and the question it answers before combining observations.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Attaches the finding to the specimen, collection date, method and integrated interpretation."
+    },
+    {
+      "id": "SH1-002",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A small sampled region does not survey every cell or region of a heterogeneous tumour.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The specimen and an unsampled region are separated; one sampled region cannot survey the tumour."
+    },
+    {
+      "id": "SH1-003",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A specimen can contain malignant cells, immune cells, stroma and treatment effects; its tumour name does not make every cell malignant.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Cancer, immune and supporting cells plus treatment changes can coexist; a specimen name does not make every cell malignant."
+    },
+    {
+      "id": "SH1-004",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Distinguish specimen collection from report issue, and an addendum about old material from a new specimen.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Explicitly distinguishes collection, reporting and an addendum on old material."
+    },
+    {
+      "id": "SH1-005",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Prioritise the integrated final interpretation over an isolated descriptive word, retaining pending and qualified results.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The final integrated diagnosis takes precedence over an isolated descriptive word while pending and qualified results retain their limits."
+    },
+    {
+      "id": "SH1-006",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Histologic type and invasive versus in-situ findings do not by themselves establish whole-body extent.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Microscopic naming/invasion and whole-body extent answer different questions; the core does not establish distant spread."
+    },
+    {
+      "id": "SH1-007",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Histologic grade describes microscopic features rather than stage or an exact growth rate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Grade is cancer-specific microscopic assessment, distinct from extent and a direct growth clock."
+    },
+    {
+      "id": "SH1-008",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "ER, PR and HER2 findings answer receptor questions rather than cataloguing every possible therapeutic target.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Three specified receptor tests do not catalogue every receptor or treatment target."
+    },
+    {
+      "id": "SH1-009",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "An intrinsic RNA-expression subtype and clinical receptor status are different observations.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A clinical receptor category, basal-marker measurement and RNA classifier are distinct observations."
+    },
+    {
+      "id": "SH1-010",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "TNM addresses extent; some prognostic systems incorporate grade and biomarkers, and neither label supplies a certain individual outcome.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "TNM extent, breast prognostic factors and limits on individual prediction are retained together."
+    },
+    {
+      "id": "SH1-011",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Interpret the blank report-question schematic as separate appearance, receptor, extent and date fields, with no patient finding, stage calculation or forecast.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The separate blank appearance, receptor, extent and timing fields explicitly contain no patient findings, stage calculation or forecast."
+    },
+    {
+      "id": "SH1-012",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Expand HER2 as human epidermal growth factor receptor 2 and keep its protein/testing category separate from all growth signals; ER and PR remain separate hormone-receptor results.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "HER2 is expanded as its named receptor protein and ER/PR are independent receptor measurements, not all growth signalling."
+    },
+    {
+      "id": "SH1-013",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Define TNBC by all three completed negative tests and verify the NCI share/age/growth statements without treating the category as a full molecular or treatment portrait.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Completed negatives, NCI descriptive share and population tendencies do not supply a full molecular or therapeutic portrait."
+    },
+    {
+      "id": "SH1-014",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "In the fictional high-grade invasive biopsy, grade does not establish distant spread.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The worked high-grade invasive core does not establish distant spread."
+    },
+    {
+      "id": "SH1-015",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "The fictional triple-negative biopsy does not establish a particular RNA subtype.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The fictional negative receptor category is not converted to an RNA subtype."
+    },
+    {
+      "id": "SH1-016",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A suspicious but unsampled regional node is a clinical finding, not automatically a signed positive-node pathology result.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A suspicious unsampled node is explicitly different from a signed positive-node pathology finding."
+    },
+    {
+      "id": "SH1-017",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Later sparse residual invasive disease after treatment does not rewrite the earlier biopsy as a post-treatment measurement; retain both specimen dates and settings.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Both specimen dates/treatment settings survive; an old-specimen addendum and a later residual assessment are not merged."
+    },
+    {
+      "id": "SH1-018",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Cell mixture, functional state and surrounding tissue can change over time; stopping division is not the same observation as dying.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Cell-state plasticity, changing mixture, treatment context and noncycling versus dead cells are separate observations; the fictional counts show the arrest/death distinction."
+    },
+    {
+      "id": "SH1-019",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Resolve the grade-3 versus stage-III exercise: the numeral does not link the systems, and stage III breast cancer is not a distant-metastasis assignment.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The same numeral does not join grade and stage, and breast stage III is not an M1 assignment."
+    },
+    {
+      "id": "SH1-020",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain the teach-back and takeaway tying label, specimen, date, method, question and interpretation limit together.",
+      "class": "derived recap",
+      "disposition": "derived recap; no additional independent teaching credit",
+      "dependsOn": [
+        "SH1-001",
+        "SH1-004",
+        "SH1-005",
+        "SH1-011"
+      ],
+      "entailment": "The recap reuses the named substantive proofs and adds no empirical result."
+    },
+    {
+      "id": "SH1-021",
+      "source": "01-read-the-labels.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain the fictional-report and source-scope qualifications, with the linked testing/staging concepts distinguished from independent source verification.",
+      "class": "source-scope",
+      "disposition": "scope metadata retained; no teaching credit",
+      "entailment": "Source identities and reading depth are recorded in the packet. Citations do not establish semantic teaching or expert/learner approval."
+    },
+    {
+      "id": "SH2-001",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Immune cells and signals have different jobs; a count alone establishes neither which job occurred nor whether it helped.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Cell identity, denominator and functional report are explicitly distinct; counts alone do not establish tumour recognition or killing."
+    },
+    {
+      "id": "SH2-002",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Scope peptide-HLA recognition to a conventional alpha-beta T-cell receptor route, with the DNA change several measured steps upstream.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A conventional alpha-beta route is scoped and the coding change is several separate measured steps upstream."
+    },
+    {
+      "id": "SH2-003",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Antibodies and natural killer cells recognise targets differently; do not force every immune treatment into the conventional T-cell diagram.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Antibody binding, integrated NK inputs and a defined unconventional T-cell recognition example are not forced into a conventional peptide-HLA route."
+    },
+    {
+      "id": "SH2-004",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Read the cancer-immunity cycle as dependencies across antigen availability, initiation, tissue access and killing; one completed step does not certify the next.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Seven linked steps are a dependency model rather than proof that a result completes the response."
+    },
+    {
+      "id": "SH2-005",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Distinguish poor display, scarce matching cells, access failure and impaired local function as different evidence questions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Poor display, few matching cells, access failure and impaired local function are named separately; location does not identify a cause."
+    },
+    {
+      "id": "SH2-006",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Explain normal checkpoint regulation, the PD-1 receptor/PD-L1 partner and pembrolizumab target, without treating a brake analogy as complete biology.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Regulation, PD-1 receptor and its partners, binding and clinical/functional limits are explicit."
+    },
+    {
+      "id": "SH2-007",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Keep pembrolizumab with chemotherapy in the appropriate KEYNOTE-522 clinical setting rather than a universal instruction for every stage-II/III patient.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The selected trial/label setting replaces a universal stage-II/III instruction."
+    },
+    {
+      "id": "SH2-008",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Checkpoint blockade does not create target recognition, guarantee tissue access or repair every failure, and immune activity can harm healthy organs.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Blockade interrupts one pathway without supplying all other dependencies; severe or fatal immune-mediated harm remains separate."
+    },
+    {
+      "id": "SH2-009",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "In the fictional matched-count samples, cells near tumour nests versus at the outer tissue raise different access questions despite equal counts.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The equal eight-symbol fields differ by inside-versus-stromal location."
+    },
+    {
+      "id": "SH2-010",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Neither spatial pattern establishes tumour recognition or useful killing.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Spatial patterns are descriptive and supply no target-recognition or killing conclusion."
+    },
+    {
+      "id": "SH2-011",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A controlled blood-cell response to a supplied peptide supports that assay response, not natural tumour display, migration or clinical benefit.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Supplied-peptide assay reactivity does not establish natural processing/display, tumour entry, killing or clinical benefit."
+    },
+    {
+      "id": "SH2-012",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Interpret eight versus eight versus two stipulated T-cell symbols as illustrative count/location contrasts rather than a stromal-area score or clinical rate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The stipulated eight/eight/two counts are not stromal-area scoring, a clinical cutoff or a response rate."
+    },
+    {
+      "id": "SH2-013",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "For an immune-cell observation ask which cells and where, retaining cell-type and state distinctions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Identity, location, specificity, state, specimen and controlled function remain distinct evidence questions."
+    },
+    {
+      "id": "SH2-014",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A peptide prediction leaves production and display as separate measurement questions.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A prediction does not measure production, processing or HLA display; each step is separately observed."
+    },
+    {
+      "id": "SH2-015",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A measured T-cell response requires its recognised target and appropriate controls.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Controlled recognition retains irrelevant-target, HLA and target-only viability controls and separates binding from function."
+    },
+    {
+      "id": "SH2-016",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Tissue entry leaves useful target-specific function unestablished.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Entry into tissue leaves useful target-specific function to be established."
+    },
+    {
+      "id": "SH2-017",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Mechanistic plausibility requires matched clinical evidence to establish benefit and acceptable harm in a population.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Mechanistic complements do not establish clinical benefit or safety; population, comparator and actual harms matter."
+    },
+    {
+      "id": "SH2-018",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Treat the question ladder as task-dependent learning questions rather than a mandatory clinical test menu.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Explicitly describes task-dependent interpretation questions rather than a required clinical test menu."
+    },
+    {
+      "id": "SH2-019",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "In the exclusion exercise, more total T cells is not a complete solution; name and test the proposed access, recognition or functional failure.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "More cells is not a complete access/function solution; a proposed failure still needs the appropriate measurement."
+    },
+    {
+      "id": "SH2-020",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain the presence-versus-recognition/access/function teach-back and dependency takeaway as recaps.",
+      "class": "derived recap",
+      "disposition": "derived recap; no additional independent teaching credit",
+      "dependsOn": [
+        "SH2-004",
+        "SH2-005",
+        "SH2-011",
+        "SH2-016"
+      ],
+      "entailment": "The recap reuses the named substantive proofs and adds no empirical result."
+    },
+    {
+      "id": "SH2-021",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Keep the conventional-route framework, product-label mechanism and general NCI explanation at their stated source scopes, with fictional examples and pending review.",
+      "class": "source-scope",
+      "disposition": "scope metadata retained; no teaching credit",
+      "entailment": "Source identities and reading depth are recorded in the packet. Citations do not establish semantic teaching or expert/learner approval."
+    },
+    {
+      "id": "SH3-001",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Distinguish selected local surgery/radiation fields from systemic distribution, without assuming uniform exposure or that every circulating medicine reaches every cell.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Named local/regional areas and broader distribution do not guarantee uniform exposure or complete cellular control."
+    },
+    {
+      "id": "SH3-002",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify the selected KEYNOTE-522 sequence: approximately 24 preoperative weeks, surgery, indicated radiation and approximately 27 postoperative pembrolizumab weeks, with residual-disease options scoped to evidence.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Planned duration arithmetic, surgery, conditional radiation and qualified residual options remain distinct."
+    },
+    {
+      "id": "SH3-003",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Explain neoadjuvant timing, earlier systemic treatment, possible shrinkage and later pathology assessment without attributing the whole outcome to one phase.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Earlier treatment, possible shrinkage, tissue response and full-strategy comparison do not isolate a phase contribution."
+    },
+    {
+      "id": "SH3-004",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Define the relevant pCR assessment of breast and sampled regional nodes under its stated definition, separate from survival and guaranteed cure.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The definition retains breast and sampled-node specimens and its DCIS convention, and is separate from cure or survival."
+    },
+    {
+      "id": "SH3-005",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Chemotherapy and PD-1 blockade act through different processes; avoid an exclusive dividing-cell mechanism or unvalidated omission of another treatment component.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Distinct cytotoxic processes and PD-1 blockade do not establish an exclusive dividing-cell mechanism or justify omission."
+    },
+    {
+      "id": "SH3-006",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain the 1174-person stage-II/III randomized regimen comparison with chemotherapy plus pembrolizumab versus chemotherapy plus placebo.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The 1174-person 2:1 trial names stage-II/III eligibility, chemotherapy/placebo control and both treatment phases."
+    },
+    {
+      "id": "SH3-007",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify the first-602 pCR comparison of 64.8% versus 51.2% at surgery, with a 13.6-percentage-point difference.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The first-602 pCR comparison and 13.6-point arithmetic remain at surgery with their own denominator."
+    },
+    {
+      "id": "SH3-008",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Verify the all-1174 five-year survival estimates of 86.6% versus 81.7%, with 4.9 points rounded to about five rather than a personal prediction.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The all-1174 60-month estimates produce 4.9 points, with rounding and individual-prediction limits."
+    },
+    {
+      "id": "SH3-009",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Do not substitute the pCR difference for the survival difference; endpoint, population and time all matter, including estimate versus literal observed-count interpretation.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Different endpoint/population/time, time-to-event estimates and no arithmetic pCR-to-survival conversion are explicit."
+    },
+    {
+      "id": "SH3-010",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A controlled laboratory pathway result establishes a mechanism under specified conditions rather than clinical benefit or harm.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A controlled model response establishes its experimental claim, not automatically its mechanism or clinical benefit/harm."
+    },
+    {
+      "id": "SH3-011",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A favourable scan in one person is an observed regional change, not proof of its cause, added benefit over an alternative or a subgroup benefit estimate.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Imaging reports regional physical findings; the uncontrolled shrinkage example does not isolate added benefit or cause."
+    },
+    {
+      "id": "SH3-012",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "A clinical comparison remains limited by setting, endpoint, follow-up, comparator and uncertainty when transported to another question.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Applicability, endpoints, comparator, follow-up and actual selected population remain attached to the clinical comparison."
+    },
+    {
+      "id": "SH3-013",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "In the fictional negative-blood-test example, sampled blood does not examine breast/nodal tissue or alone validate surgery omission; assess rather than inherit the universal no-trial assertion.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The negative blood sample is not a tissue examination or validation of surgery omission; no universal absence-of-trials assertion is inherited."
+    },
+    {
+      "id": "SH3-014",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Build a study claim with population, comparator, outcome and observation window.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The concrete study claim names its population, regimen comparator, endpoint and 60-month window rather than detaching a number."
+    },
+    {
+      "id": "SH3-015",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "For laboratory claims identify the experimental setting and controls explicitly.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The experimental claim carries model, timing, dose, readout, allocation and matched controls."
+    },
+    {
+      "id": "SH3-016",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "An absent comparator limits a better-than claim; observations can remain useful while the next claim needs a defined test.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "An observation can support activity while the added-benefit claim still needs an appropriate comparator."
+    },
+    {
+      "id": "SH3-017",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Evaluate benefit and safety separately; a response does not erase serious immune-related harm.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "Benefit and safety require their own population evidence; observed activity does not erase serious immune-mediated harm."
+    },
+    {
+      "id": "SH3-018",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Using a test result to remove a treatment assumes evidence validating the omission strategy rather than only the assay result.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A treatment-omission strategy needs decision/outcome evidence beyond analytical signal detection."
+    },
+    {
+      "id": "SH3-019",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "The dish-killing exercise supports a controlled result in that model, not recurrence prevention or comparative clinical safety.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "A controlled dish effect, including arrest-versus-killing arithmetic, does not establish recurrence prevention or comparative clinical safety."
+    },
+    {
+      "id": "SH3-020",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Retain the pCR-versus-survival teach-back and evidence-setting/strength takeaway as recaps.",
+      "class": "derived recap",
+      "disposition": "derived recap; no additional independent teaching credit",
+      "dependsOn": [
+        "SH3-007",
+        "SH3-008",
+        "SH3-009",
+        "SH3-012"
+      ],
+      "entailment": "The recap reuses the named substantive proofs and adds no empirical result."
+    },
+    {
+      "id": "SH3-021",
+      "source": "03-connect-treatment-and-evidence.md",
+      "versions": [
+        "original",
+        "later"
+      ],
+      "requirement": "Keep the 2020 pCR report and 2024 survival report separate from general NCI explanations, with no independent-review or whole-paper claim from citation presence.",
+      "class": "source-scope",
+      "disposition": "scope metadata retained; no teaching credit",
+      "entailment": "Source identities and reading depth are recorded in the packet. Citations do not establish semantic teaching or expert/learner approval."
+    },
+    {
+      "id": "SH2-O01",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original"
+      ],
+      "requirement": "Retain the explicit original DNA-to-protein-to-produced-fragment-to-HLA-display-to-TCR-recognition chain, with a separate measurement for each step.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The original-only coding-information, protein, fragment, display and recognition chain is retained as separate observations."
+    },
+    {
+      "id": "SH2-O02",
+      "source": "02-follow-immune-recognition.md",
+      "versions": [
+        "original"
+      ],
+      "requirement": "Retain the original recognition-format detail: unconventional T cells can recognise other molecules, antibodies recognise accessible features, and NK cells integrate activating and inhibitory inputs; qualify the conventional-route always/main-kind wording.",
+      "class": "substantive",
+      "disposition": "represented in registered audit-draft fields at the stated source scope",
+      "entailment": "The original recognition-format detail survives with subset/model qualifications, without an always or main-kind universal."
+    }
+  ],
+  "counts": {
+    "original": {
+      "represented in registered audit-draft fields at the stated source scope": 69,
+      "scope metadata retained; no teaching credit": 4,
+      "derived recap; no additional independent teaching credit": 3
+    },
+    "later": {
+      "represented in registered audit-draft fields at the stated source scope": 67,
+      "scope metadata retained; no teaching credit": 4,
+      "derived recap; no additional independent teaching credit": 3
+    }
+  },
+  "uniqueRows": 76,
+  "originalOnlyRows": [
+    "SH2-O01",
+    "SH2-O02"
+  ],
+  "noIndependentCreditForRecapsOrMetadata": true
+}

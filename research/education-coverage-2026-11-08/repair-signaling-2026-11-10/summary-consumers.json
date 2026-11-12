@@ -1,0 +1,2016 @@
+{
+  "root": {
+    "entries": 153,
+    "available": 0,
+    "EnglishFallback": 153,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 136,
+      "rows": [
+        {
+          "id": "hrd",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "replication-stress",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "androgen-receptor",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brd4",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "myc",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "notch",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pi3k-akt-mtor",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "wnt",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "braf",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ddr",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-genomic-scar-scores",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "mutational-signature",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "homologous-recombination-repair",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "keap1",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "rtk-activation",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "hrd-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      },
+      {
+        "id": "hrd-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "688753adb2ab28bda26fe0f3020ba4601078d7de98b51c43c8d885249fef6b93"
+      },
+      {
+        "id": "replication-stress-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f32db3c691e381cd4b81b03493b9ccf3a026212e4d68b721755acd7db5f1d8c3"
+      },
+      {
+        "id": "androgen-receptor-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "99d97e1551f358860df13017e9c8e2ede94271e905a926a1bf66ca05d73677de"
+      },
+      {
+        "id": "brd4-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "e3fca552045090f3a8fc02aca29954f8b91255cb4921700f84870ea0357b8502"
+      },
+      {
+        "id": "myc-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "e713277df3b4ea208afc83aedddaaad37c7cc69fd7fc6897fd5c7476fcb4d910"
+      },
+      {
+        "id": "notch-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "5af8ce3edc57bd078a6f9b2ce725cff9f3fb5f8b44ac1f08a65084cc1afe8742"
+      },
+      {
+        "id": "pi3k-akt-mtor-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "62fe9c1ab0d45c50c7d4a4a8307fee1025ff5f3122558b93d88ce837726ccd7c"
+      },
+      {
+        "id": "wnt-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce547ab4f0ea59e09d7875a5015dc926ee551f9fbee38da05a122b906109f7ec"
+      },
+      {
+        "id": "braf-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "70729f20a778862974c05054370852cd4f8e72a8967708f46784a1b04dfcf82b"
+      },
+      {
+        "id": "brca-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "ad082ab5159ed785b8072509c4c7d74f13ae1f3c6f3fe95d424607a655604ad7"
+      },
+      {
+        "id": "ddr-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "3ed76e82117dfc18ef3ec361465c54d22f1c3d5a05a0a035fe3a04ef48f19411"
+      },
+      {
+        "id": "hrd-genomic-scar-scores-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "6aabb10f611149c5321d4b871565d737feb4b73e84b32df8731217c471eb3fe6"
+      },
+      {
+        "id": "mutational-signature-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "e79bfa8c461b127eb9efb67a66c5ae34daf129d79dfdff20afd20d7e8ccc3aa5"
+      },
+      {
+        "id": "homologous-recombination-repair-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "e815d1b8484624e4b3171b037753bbeabc3e9a8459f253f870946097ad3494b5"
+      },
+      {
+        "id": "ras-mapk-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "keap1-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f8682a13699b6e8163bacfa9c9ac87815419b7a24d833c0582f63463c3bc195d"
+      },
+      {
+        "id": "rtk-activation-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "726ccf24438d9e889b46b1109828f09a05c7cfdbde2a5ef5d7aa8812b523a13d"
+      }
+    ]
+  },
+  "schemaRAS": {
+    "entries": 9,
+    "available": 0,
+    "EnglishFallback": 9,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 8,
+      "rows": [
+        {
+          "id": "ras-mapk",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "ras-mapk",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "ras-mapk-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      },
+      {
+        "id": "ras-mapk-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "f9b9fd6005d7bce87e6c029e399b516409320f9eb01405a57e3032c3d61a2a3a"
+      }
+    ]
+  },
+  "additionalDistinctEntries": 153,
+  "newNamedLanguageReviews": 0
+}

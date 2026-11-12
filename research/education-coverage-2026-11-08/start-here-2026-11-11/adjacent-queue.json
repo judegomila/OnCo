@@ -1,0 +1,28 @@
+{
+  "newOpenItem": {
+    "id": "checkpoint-mechanism-template-guardrails",
+    "title": "Checkpoint mechanism steps and functional limits",
+    "domain": "therapeutics",
+    "sourceURLs": [
+      "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+    ],
+    "discoveryOccurrences": [
+      "start-here:SHI-006",
+      "drug-depth.ts:PD1_STEPS"
+    ],
+    "review": {
+      "status": "unreviewed",
+      "points": [],
+      "rationale": "The pembrolizumab entry is corrected at its authoritative depth owner. The shared PD1_STEPS template still asserts restored function, killing and persistent memory for other entries. Audit the actual users, targets, label mechanisms and functional limits individually; no class-wide source or clinical approval is inferred from one product label."
+    }
+  },
+  "newCanonicalSubjects": [],
+  "sourceOnlyItems": [
+    {
+      "id": "SH-V01",
+      "kind": "source wording",
+      "finding": "The postoperative treatment node says extra medicine if cancer remains. The canonical timing and residual-disease notes qualify this by prior care and trial eligibility; the source diagram owner should qualify its label.",
+      "canonicalTeachingGapRemaining": false
+    }
+  ]
+}

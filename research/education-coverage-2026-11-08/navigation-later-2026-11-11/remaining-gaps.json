@@ -1,0 +1,17 @@
+{
+  "unreviewedCatalogues": [
+    {
+      "path": "wiki/education/concepts/index.md",
+      "bytes": 132312,
+      "lines": 753,
+      "remaining": "Read all generated definitions or alternative text and compare every entry with its owning page before deciding whether the catalogue has unique teaching."
+    },
+    {
+      "path": "wiki/education/images/index.md",
+      "bytes": 172322,
+      "lines": 397,
+      "remaining": "Read all generated definitions or alternative text and compare every entry with its owning page before deciding whether the catalogue has unique teaching."
+    }
+  ],
+  "earlierOriginalDispositions": "Kept at their recorded scope; no claim that this later partial catalogue inspection independently re-verifies them."
+}

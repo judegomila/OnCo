@@ -1,0 +1,11 @@
+# Repair and signalling
+
+Sixteen lessons are assessed at each independent pinned Guide ref. All 32 source identities and 388 section signatures reproduce. The 128 assessment rows retain 125 applicable versioned proofs: 61 original and 64 later requirements. Three later-only teaching additions receive no original-version credit.
+
+Seventeen existing canonical owners receive source-scoped molecular, assay and inference explanations. No new graph identities are created. KEAP1 uses the established handwritten-target precedence rule while inheriting generated catalogue fields; generated files and the lung supplement remain unchanged. The schema draft receives the same RAS narrative while keeping its separate contract annotations and approval status.
+
+Seventy-one assigned publication identities and nine inherited DOI links are checked. The inherited OMO-103 link resolved to an unrelated CAR-T trial and is corrected using the verified 2024 primary study, already represented by an existing paper. That additional publication makes 72 screened occurrences. Reviews, curated protein functions, official approval/label sources, textbook definitions and primary experiments keep distinct evidence roles. Abstract-only and passage-only reading remain explicit.
+
+All 30 light/dark figure paths were reviewed with their lessons and verified at both refs. Sixty asset entries retain their identities. Two paths per ref already had a cell-death assessment, which is preserved; 28 paths per ref are additional reviewed assets. All 67 selected body and Markdown passages pass; 18 selected canonical JSON outputs match their owning graphs and 36 immutable export files are hashed. All 162 selected summary selectors use corrected English fallback; 153 are distinct new audit entries. No new named language review is claimed.
+
+The broader HRD-testing owner, checkpoint-dependence wording and clinical landscape remain queued. Unavailable Bookshelf and publisher bodies are not treated as read. The Telli comparison-sign extraction discrepancy remains explicit; this content does not implement a clinical scoring algorithm. Full standalone suites pass. No new Next production build, browser hydration, hosted review, expert sign-off, merge or deployment is asserted.

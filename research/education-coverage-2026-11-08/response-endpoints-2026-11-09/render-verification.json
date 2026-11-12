@@ -1,0 +1,531 @@
+{
+  "checkedOn": "2026-11-09",
+  "renderedOwners": 158,
+  "changedOwners": [
+    {
+      "id": "complete-response",
+      "route": "/terms/complete-response/",
+      "asOf": "2026-11-09",
+      "bytes": 42203,
+      "sha256": "77c8756dde532532002268975ca619143f30ccde66897986d8d77045812b0462",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "complete-response-term",
+      "route": "/terms/complete-response-term/",
+      "asOf": "2026-11-09",
+      "bytes": 31856,
+      "sha256": "ee4cd522e6b2e30ad364139835d4b41f5cc9e1f4b1166ae0b85010f608940b6b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "duration-of-response",
+      "route": "/terms/duration-of-response/",
+      "asOf": "2026-11-09",
+      "bytes": 24385,
+      "sha256": "6d5c362f00f5630f996bfad15ae6edde51579442a2d6ce82f59f957487add76f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "duration-of-response-term",
+      "route": "/terms/duration-of-response-term/",
+      "asOf": "2026-11-09",
+      "bytes": 32311,
+      "sha256": "a80199a1a924fd7d65ea4d7b93d9e98bbe5716c424e5ab9eb897e88aa8643d46",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "orr",
+      "route": "/terms/orr/",
+      "asOf": "2026-11-09",
+      "bytes": 61347,
+      "sha256": "cd7a896b05627b551bd44448715023a211086502f8f6740b1fdf5fcd030d00da",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "recist",
+      "route": "/terms/recist/",
+      "asOf": "2026-11-09",
+      "bytes": 38842,
+      "sha256": "6ac250422bb2083c290d5d7150a40512cc09ad5f5e4a7cd9fc2068a64baf5789",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "irecist",
+      "route": "/terms/irecist/",
+      "asOf": "2026-11-09",
+      "bytes": 23925,
+      "sha256": "e3ac02dc2e9264296aba739316176625c6d378fd2c91f14e23299a80474c9e15",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "percist",
+      "route": "/terms/percist/",
+      "asOf": "2026-11-09",
+      "bytes": 22769,
+      "sha256": "c35973372c17160464052cfea310315b4be554f7d92e9850e59a558b12d89f67",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "quantitative-imaging-biomarkers",
+      "route": "/technologies/quantitative-imaging-biomarkers/",
+      "asOf": "2026-11-09",
+      "bytes": 51000,
+      "sha256": "2eab20d6914295c3a46b16762d51d26434ebb58fcaba9acd61a3d88d243baa86",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "readerFieldChecks": {
+    "checkedOn": "2026-11-09",
+    "checks": [
+      {
+        "recordId": "complete-response",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f4828f42ccc365073392c87bd53c1c1a1a9f8c3d00b2781274e257cb81285f8f"
+      },
+      {
+        "recordId": "complete-response",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "328dcc443e0cca6fa455a3f840f18e16e99273690c99202bf426520b0fcc6c3b"
+      },
+      {
+        "recordId": "complete-response",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "30e01c0efdd7329ce76c4061b01c0e43d191fd90124133e3b21658ef086c2580"
+      },
+      {
+        "recordId": "complete-response",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a00c0d6a245748225e3fb67dc95c17eee77d07a75f1d5d225601ca8b105563ee"
+      },
+      {
+        "recordId": "complete-response",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6abae0c0370d25ce6d7e2dae63bf1d82a9caa23322d9230bc900fde4411ee89c"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "723daa99811a8eaf38dc2c8ebfab4d5fddaceadb053d2700c45dd2e57a79b148"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "328dcc443e0cca6fa455a3f840f18e16e99273690c99202bf426520b0fcc6c3b"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "30e01c0efdd7329ce76c4061b01c0e43d191fd90124133e3b21658ef086c2580"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a00c0d6a245748225e3fb67dc95c17eee77d07a75f1d5d225601ca8b105563ee"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "summary",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "760608ae98f57df618005231b702767b2d4e57eb1770d13fed00a1791d9fa936"
+      },
+      {
+        "recordId": "complete-response-term",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3984eba102b76fef1ec1099e77f28c311ad4979f9ba5a50cf3434325e5d4b0cc"
+      },
+      {
+        "recordId": "duration-of-response",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c4b22b47b363cad54f291932bfdd1f847611f795ecb805dde357ae54c722c5a5"
+      },
+      {
+        "recordId": "duration-of-response",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2e6801f21ee7c2b706f39bb22439399c5083e3a9d79b348ab705072ca1eadb21"
+      },
+      {
+        "recordId": "duration-of-response",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d7f3f7956a2bd4d0f1a43db68e37f2f7db38eb3b35dea5391c2f1bab05d59233"
+      },
+      {
+        "recordId": "duration-of-response",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5a44ace05771aa23e4094b84a077db35dc812ae804aae195e17cc26e99e8966a"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c0685db0be900aba0c4fafcad5cd704b64b28a27856f6092ffbf24de07a292cb"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2e6801f21ee7c2b706f39bb22439399c5083e3a9d79b348ab705072ca1eadb21"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d7f3f7956a2bd4d0f1a43db68e37f2f7db38eb3b35dea5391c2f1bab05d59233"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5a44ace05771aa23e4094b84a077db35dc812ae804aae195e17cc26e99e8966a"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "summary",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2d2a30139f2b61ce22cc9962e96225760e066116ed2670f68b59a25dab8ecb52"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "316e0b5a236a54cdec78a42b989c447173364e501d89015cb0c7235ddef1ad59"
+      },
+      {
+        "recordId": "duration-of-response-term",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5a3b3708e073e4fb3111e9f623e8bfc58f17c71cfab8871125cdd3500bc35d18"
+      },
+      {
+        "recordId": "orr",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "dec262a296584a1c3ea06fd76f0904a314ec7a0d0044a192b8480b98dacfa908"
+      },
+      {
+        "recordId": "orr",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "884c31f80ae351a9f04195e1d015284777693cb058d8637168f708090e7dd6af"
+      },
+      {
+        "recordId": "orr",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a9cfa60de3cb2f284096fffe663f838a32646c4f8862bfc43f37e0484aac3da8"
+      },
+      {
+        "recordId": "orr",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "53489d4aac9ac3972e1870df3c213404009b0557393da64e213c731c76a30b03"
+      },
+      {
+        "recordId": "orr",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1db9b7beaec2ea8fbe4a8d8ab9315a68b4376e0a7a10c3e020ad850a63650a07"
+      },
+      {
+        "recordId": "recist",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bc32818a86873fbef8937a731fa0713803b255e3be2cfbf30b5a5be184b7e949"
+      },
+      {
+        "recordId": "recist",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "b73b278e8fd3692d8a7dacf3cf06f29d8ed1fdb9bb64fb6b54b1f96059191558"
+      },
+      {
+        "recordId": "recist",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "7b85fbb3d620e2353d1c435dd0d813cdda38a3071e80902fede9f710d79fd46b"
+      },
+      {
+        "recordId": "recist",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bfbc2dd261b13e4f0b08e0671d3c2bdb843b2fd93345852e88e37a638b90614a"
+      },
+      {
+        "recordId": "recist",
+        "field": "summary",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c406ae0ca385bc5eb153978dbcc5c15cd84cea1f7b6a71869f83a5f0dbeff7c7"
+      },
+      {
+        "recordId": "recist",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a3a41d3a713d7fc4ee3f5213ab229629f79f9ef66dd8893ae7f9c7cb94e1bcc4"
+      },
+      {
+        "recordId": "irecist",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a493d798d365246e296b010369852ef314937413b26ecfc1a2eceee4451cc656"
+      },
+      {
+        "recordId": "irecist",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "43e0b6412137f861e503b47cff1bd96f1fd92749ecf87e6df24e04591bfced2b"
+      },
+      {
+        "recordId": "irecist",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "56b8c2977b20ac6d90140a4a7fbcbdafffaea25e860a5c66f186f4b8363e0efa"
+      },
+      {
+        "recordId": "irecist",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9e5472607413dded56ac104c95417a9aa9b10ff21016b9d6d40aad0fffcf2392"
+      },
+      {
+        "recordId": "percist",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4bd8b0dc0c809ae8be81c5abc9f5ff7a9a8da9c64a6c86a9b8a33d273f5d58df"
+      },
+      {
+        "recordId": "percist",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "22aa99eb913b720d461fb642d12c3172788bf34178bcde38b23a82fc96113498"
+      },
+      {
+        "recordId": "percist",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "986e014ccd465fba4609e5fef7e033a760e2f72960f05ffa2ff2203d9b920843"
+      },
+      {
+        "recordId": "percist",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2ad298a47c1e605d0ee7b2aedb932ddd9691c23940b5788080f67ec00dab84df"
+      },
+      {
+        "recordId": "percist",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d5074fdd41328a17a3b54a1f952cd7fa1d6a756dddb1de99d71004a1b53b83c7"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d9818cfdce3aed4721436cb0eb292e43e3b063e484cdb3613e397c281f0734b9"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "49711426d12d356374170d2bdbff6ea8140100ce8de5c88e90c9eaeb3b531702"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "fbb766b69b25191f408b24b3520e25cc89b9c04139a262da0ecf537e553d3783"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5d4de4e3d8fadd7235e5046cdd98a1b421702411049c3445da415023679aa5c1"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "principle",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "722a2c4b203ff5a06f784148f701d6b1eb425cfdbaa07b3af578db18f218d3b9"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "strengths",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bfe56b1fc7ccf0c34c292859bb4d0676bab4eca2f5129f7f0723f89b2daa7a0d"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "strengths",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1c5cd9eb291780ea800c2e71b996288d9780237d1002a4763117ea0651b35e3c"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "strengths",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "db26f9e9d1bc1b5159f64db93f2b4fec6fe35a5e9db756b4932c8dd2138e49fc"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "limitations",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2a36c4f97cc28aef164ad27f315e81beb6338d8cd5b39f0b34328a3e549b1e2a"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "limitations",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "82ca58e2f7629f24d899fa296b72c044922fb941c84ff257ba731810608bd610"
+      },
+      {
+        "recordId": "quantitative-imaging-biomarkers",
+        "field": "limitations",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "266a803625c6ab39f8c37a1b6de50f08ba08c07a233c123c2291aff69392d544"
+      }
+    ],
+    "failed": [],
+    "attributeOnly": [],
+    "scope": "Authored endpoint/response-criteria fields matched in actual rendered reader text excluding script/style and JSON-LD; accessible-attribute matches named separately. No hydration, visual-layout or live-deployment certification."
+  },
+  "scope": "Canonical field and actual rendered reader text including narrative parts, excluding scripts/styles/JSON-LD. All manifest hashes match cached rendered HTML. No hydration, visual-layout, full-build or deployment certification.",
+  "persistentCacheBundle": "render-checkpoints/response-endpoints-2026-11-09-r1",
+  "retainedHtmlFiles": 158
+}

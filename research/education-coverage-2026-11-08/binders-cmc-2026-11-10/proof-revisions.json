@@ -1,0 +1,82 @@
+[
+  {
+    "requirementId": "aff-4",
+    "recordId": "binder-affinity-epitope-developability",
+    "oldPassageSha256": "fe3fa7aa73594dd30da08fae2b1a8121b6a0b111ced2356f82a1531f3e9aacb6",
+    "newPassageSha256": "f3fe25abbf2ad17b00cc107a3b547523c41c3b171963e7e05a1d72550ad04204",
+    "currentNoteIndex": 2,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "fmt-1",
+    "recordId": "binder-format-constraints",
+    "oldPassageSha256": "aef0e5de21bda73e157e21a318a948631dfcf2e3dbd59807e91adad81d6a9bd9",
+    "newPassageSha256": "cd51e9321f9dcc8b47508cee1a6f94071cd730d2d25fcb0736d8995e06a2c688",
+    "currentNoteIndex": 0,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "fmt-4",
+    "recordId": "binder-format-constraints",
+    "oldPassageSha256": "aef0e5de21bda73e157e21a318a948631dfcf2e3dbd59807e91adad81d6a9bd9",
+    "newPassageSha256": "cd51e9321f9dcc8b47508cee1a6f94071cd730d2d25fcb0736d8995e06a2c688",
+    "currentNoteIndex": 0,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "br-3",
+    "recordId": "batch-release",
+    "oldPassageSha256": "16a9f790aa9dc6b498211a8b919892243cdea67f2aaf9a8f1bfd9352f6c878c6",
+    "newPassageSha256": "e37afe13db03ddf53f38a9b6be00cddfd86c3d327f612eabbfe3261c122db496",
+    "currentNoteIndex": 3,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "br-4",
+    "recordId": "batch-release",
+    "oldPassageSha256": "1fff019aa012eb52c5ea0ff138820a4a329361aca68b8afe7e58e62d04ef227b",
+    "newPassageSha256": "70362a56f8324566c2f344cedf31e7f31e28d13ed038c84aa7db6c3f6a4a5e2c",
+    "currentNoteIndex": 4,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "br-5",
+    "recordId": "batch-release",
+    "oldPassageSha256": "e1436b8bb922db22052c7d21fac99ff2ae9f70a2556279aa8339e56b807f0098",
+    "newPassageSha256": "22cad09b1753564ccc3ef42a077bdca5782222cece4889571104a8e6f6c6db91",
+    "currentNoteIndex": 5,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "br-6",
+    "recordId": "batch-release",
+    "oldPassageSha256": "e1436b8bb922db22052c7d21fac99ff2ae9f70a2556279aa8339e56b807f0098",
+    "newPassageSha256": "22cad09b1753564ccc3ef42a077bdca5782222cece4889571104a8e6f6c6db91",
+    "currentNoteIndex": 5,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "spps-3",
+    "recordId": "peptide-synthesis-spps",
+    "oldPassageSha256": "d022e91c30dcc8a10384d6142dde7b53eeb69a97a7c74163aafcb5e3d0fe1a6e",
+    "newPassageSha256": "76035df3e4809229842f8e392b4ab7d93ce50d92ab0229045479c3c992f26ae9",
+    "currentNoteIndex": 2,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "spps-4",
+    "recordId": "peptide-synthesis-spps",
+    "oldPassageSha256": "d022e91c30dcc8a10384d6142dde7b53eeb69a97a7c74163aafcb5e3d0fe1a6e",
+    "newPassageSha256": "76035df3e4809229842f8e392b4ab7d93ce50d92ab0229045479c3c992f26ae9",
+    "currentNoteIndex": 2,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  },
+  {
+    "requirementId": "pp-4",
+    "recordId": "platform-vs-personalized-components",
+    "oldPassageSha256": "d4b4eddd6bab19a55eb407046d76cfbad6ba9f9d709c00faafed2b9a134217d5",
+    "newPassageSha256": "736e1755934e6519bf853e4efd351b64261dfc7d24f4632ea8c7638a133c922a",
+    "currentNoteIndex": 3,
+    "reason": "Coordinator source-scope clarification or human-readable boundary wording; complete corrected note retained."
+  }
+]

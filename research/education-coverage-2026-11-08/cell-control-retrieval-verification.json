@@ -1,0 +1,11 @@
+{
+  "beforeHead": "56ca54f64fde5b334cf55f0a9d7eff70b3abf352",
+  "beforeRecall": 0.43259523809523814,
+  "beforeRubric": 0.6875,
+  "afterRecall": 0.4293,
+  "afterRubric": 0.6825,
+  "questions": 100,
+  "unchangedRecallFloor": 0.4275,
+  "unchangedRubricFloor": 0.66,
+  "scope": "Rounded CLI measurements; the current source/cutoff corrections change retrieval slightly while passing the existing floors. No ranking, expected entities, test budget or floor changed."
+}

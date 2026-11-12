@@ -1,0 +1,2893 @@
+[
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+    "sourceSha256": "30112eb77234c36f6b007afa433537831dde3be942bf90ba24732ba7cf5d31ed",
+    "metadataSha256": "e10a6d73ddbad39d41f57de378540cd61decc220b1c575d3926d21668973edd4",
+    "sections": [
+      {
+        "heading": "# Anergy versus exhaustion",
+        "sha256": "3829ab681cd889f68b349bb3a7d722f236bb0827c20cb38d78923c445835f257",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## What they share",
+        "sha256": "a58d01bac8ca2eca13cf7d788c41598bd91472cda0fca751eb7dc18e3f7c3d18",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The axis is response history plus evidence",
+        "sha256": "aa1ea9685e4afac507f53d68631ac5099d10962fe352266470c2d3c7bfe82672",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Compare the same questions",
+        "sha256": "9e7af3469fcace3591f98264502468afc25e041e168e1e8ebc55df95d02ac8ef",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## When each explanation helps",
+        "sha256": "9cde795e05abdad54a33ff4cd46d403084bbd940a1cf3549aea94456b7377ebb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "01b681956995e05e20efce55e3a018d68845c405f9fd78962d59df6b6af91025",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it: two histories and one unresolved sample",
+        "sha256": "d665f97e8147ffe861f54c271c1ca916a8e46a29b85374c52e0c3c3731dcfc4c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "fff14c0ec77e3b439bfdf0a21b07a17f6828cf3ae09b3e6cd3202e8c10e360fa",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "83a98a875fbbbdce2aaaea3c82c732cf9cd1bc9505ff2132a1723c66efb70add",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "f8574c025ac225112ba9b51e981b62df491e46ca21a560c7d2bcab66259b40f9",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "6e175e324c26e155d6a01578530868771101e9342a3f5d58b034055383579019",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/anergy-vs-exhaustion.md",
+    "sourceSha256": "f3dbd810663553089ec0ea5b9e5742f42bc578eda1b0e3248c58a465adff63d4",
+    "metadataSha256": "b53c3dbed54db94a85b70a1c309215bb0412b3a7d8194d811f3f1c5b602089b7",
+    "sections": [
+      {
+        "heading": "# Anergy versus exhaustion",
+        "sha256": "3829ab681cd889f68b349bb3a7d722f236bb0827c20cb38d78923c445835f257",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## What they share",
+        "sha256": "a58d01bac8ca2eca13cf7d788c41598bd91472cda0fca751eb7dc18e3f7c3d18",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The axis is response history plus evidence",
+        "sha256": "aa1ea9685e4afac507f53d68631ac5099d10962fe352266470c2d3c7bfe82672",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Compare the same questions",
+        "sha256": "9e7af3469fcace3591f98264502468afc25e041e168e1e8ebc55df95d02ac8ef",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## When each explanation helps",
+        "sha256": "9cde795e05abdad54a33ff4cd46d403084bbd940a1cf3549aea94456b7377ebb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "01b681956995e05e20efce55e3a018d68845c405f9fd78962d59df6b6af91025",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it: two histories and one unresolved sample",
+        "sha256": "d665f97e8147ffe861f54c271c1ca916a8e46a29b85374c52e0c3c3731dcfc4c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "fff14c0ec77e3b439bfdf0a21b07a17f6828cf3ae09b3e6cd3202e8c10e360fa",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "83a98a875fbbbdce2aaaea3c82c732cf9cd1bc9505ff2132a1723c66efb70add",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "b4489dc2d683d3094ec5a8b1941a64ba06664574a2339154e3575fe0c01098dd",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "8c20a298d58d8bc5defe1ba4c719c85def02760972c51736ad95ae8dd4316ae0",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "2c2a83785d5cdaf369ff39a65f252b058a7eb271c728cecfe3226c6bc03fdeed",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "anergy",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/anergy.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/anergy.md",
+    "sourceSha256": "03936965ac1c3dd76b1b9ce60083c7d1421cbf0eb1cfcb65970c2cda70bf25fc",
+    "metadataSha256": "27e267e7ffbccaa4633ad426065ceb54526b257ed1de642ecd7212038d2726b0",
+    "sections": [
+      {
+        "heading": "# T-cell anergy",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "7c8c6ec4dc0c7741f08380d2ed5fe6d8c6ca82f047347def9db5161f5f8fa5ce",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "866c4ad10a77aadfa88632c8d4b39eaab33e575a2ccb8dafe9cc85c3098bab92",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "a5ccba06ffc2c42a1eec49891e1f6aa329f51068ca48727cfcf58090c8d34810",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "82adb3d08f64b1a79c37dcbc7df9902195b34d09c0dcd6090f0ae653943967c8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "c7f464b5b25cd5aa95c2914eeb5660f0acc0f6a74ad69a73ab65e6b8db08e5fc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "8288e1368ed5d2b08c6a7d82f98b83cacef0dddc1aaa0b3baa72a090b82d4cca",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "7e10cc45f0cd05a2d7e690af6e1252c1f9f03fb0d069821655c0404df49082dc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "d82a8371c8fe4d3a1003fbcffd14cc1103633b111fd6a87a5fca67b29fb9e22c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "ae6cbf29a6e2185f16c3f9c2519368b05712fa4d0c6868f10ce58a6ab884aad3",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "anergy",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/anergy.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/anergy.md",
+    "sourceSha256": "2b9b553cce10cddccf45c7bc4c164421ea9001226117761945ca5418ba756ac2",
+    "metadataSha256": "2b815dd8e299c1ad5baea90ddfdfbcb6fb08c5d106931773b89c822c272e3256",
+    "sections": [
+      {
+        "heading": "# T-cell anergy",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "7c8c6ec4dc0c7741f08380d2ed5fe6d8c6ca82f047347def9db5161f5f8fa5ce",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "866c4ad10a77aadfa88632c8d4b39eaab33e575a2ccb8dafe9cc85c3098bab92",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "a5ccba06ffc2c42a1eec49891e1f6aa329f51068ca48727cfcf58090c8d34810",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "82adb3d08f64b1a79c37dcbc7df9902195b34d09c0dcd6090f0ae653943967c8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "c7f464b5b25cd5aa95c2914eeb5660f0acc0f6a74ad69a73ab65e6b8db08e5fc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "8288e1368ed5d2b08c6a7d82f98b83cacef0dddc1aaa0b3baa72a090b82d4cca",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "7e10cc45f0cd05a2d7e690af6e1252c1f9f03fb0d069821655c0404df49082dc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "d82a8371c8fe4d3a1003fbcffd14cc1103633b111fd6a87a5fca67b29fb9e22c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "3a9e74ed97e3088f91a366a8719dfe6bc64ac5fd2de908f4950a47d70f083e7b",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "sourceSha256": "be360f1503d091b3596aef47d6863a54a469cb4d3062520f3013236677ad8821",
+    "metadataSha256": "d8f1f571827474a3852a3955a4aa546d1a342b6caf918348767e0cb604f632dd",
+    "sections": [
+      {
+        "heading": "# CD4 versus CD8 T cells",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "0d03670ed255e18ee0f3032db0c3d605372ffbe97a3886d1146251c5542bc532",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "a8cd971b283956a3874a5575542f9245f12d429fe3686bc8032c1b91470518fb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "a0dbba77d11d113382008d630faa07f301d3a5721017576df17a140b4b872092",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "### Shared visual reference",
+        "sha256": "30bd0c22ab592b1fc27f18a06c19beb880b9dd8c1e9cf94c5e45361840fafeaf",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "99c966f796aed44a25949f768aadf0d490b33ad15310bae6f6e997d28dd638dd",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "6f3f48b829e22b648302043d11a401de4af01f5184944e7081282bea1777cf19",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "07431395a6b1d6948368b1e095e91b963d14dcbd11fce8cce0f852954723bb68",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "87147565257b589065f2b7eb8580fd7ca3da23e7c6a5c77f9313d4dc5d6581ee",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "3e351bc17adf284be1f89e8278c5bbe1d32769c987abb3da6427312757409023",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "0873e8372509f06dd936bc7e772c6e28768697394f0401e483bb7f85a0fae254",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "1d98811b93312e0093a78a8437925d23bdae69941b49b8542c5fac4d43c4d15b",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "610ab3441d8dbd003156ce912241cc3407a4ac07bc64ed7e79a994e9f78017bd",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "a77011a0c0e045b3e8b446440d68c9f5757702673fef2f6f8ee592c45fe88dbc",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/cd4-vs-cd8.md",
+    "sourceSha256": "b85a4b6913ba883f3b32d895b0a8f81904cc692639a49f86cb639e76e616c60d",
+    "metadataSha256": "7ec797196f296c814ad60eb21257a7648524dde8e51928f3abaa51b97b9f1b05",
+    "sections": [
+      {
+        "heading": "# CD4 versus CD8 T cells",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "0d03670ed255e18ee0f3032db0c3d605372ffbe97a3886d1146251c5542bc532",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "a8cd971b283956a3874a5575542f9245f12d429fe3686bc8032c1b91470518fb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "d9c405f504d2717c37bfd3cdb7834c7fd520b835406e1baf47de4b74f5bf5170",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "### Shared visual reference",
+        "sha256": "30bd0c22ab592b1fc27f18a06c19beb880b9dd8c1e9cf94c5e45361840fafeaf",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "99c966f796aed44a25949f768aadf0d490b33ad15310bae6f6e997d28dd638dd",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "6f3f48b829e22b648302043d11a401de4af01f5184944e7081282bea1777cf19",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "07431395a6b1d6948368b1e095e91b963d14dcbd11fce8cce0f852954723bb68",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "87147565257b589065f2b7eb8580fd7ca3da23e7c6a5c77f9313d4dc5d6581ee",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "3e351bc17adf284be1f89e8278c5bbe1d32769c987abb3da6427312757409023",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "0873e8372509f06dd936bc7e772c6e28768697394f0401e483bb7f85a0fae254",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "cedaf6d997da3a21b24c420b322e64cd0bee063eae0f92f033366ed2b2efaf4d",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "610ab3441d8dbd003156ce912241cc3407a4ac07bc64ed7e79a994e9f78017bd",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "a2b6ac5024ce3217d4b4352120d3ca18abb32ecfc6ad6c24bcf986359b629a2f",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "costimulation",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/costimulation.md",
+    "sourceSha256": "fbd39b10d0e62cd10ffcc5ed2eefad27caf055fb4a7d324ae30209bf86582d3d",
+    "metadataSha256": "7bbac85f00eb27f0d5fca8c3897bc6c881630365b67be565d5001a81af498f8d",
+    "sections": [
+      {
+        "heading": "# Costimulation",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "b0113f7674812434a3e16a992e90498b57271cd7e725495d26365d02b2eec6b0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "c8c041cd4609f54ae3dc8458a791457ef05b64aa30707bc623b5b27661e8f39b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "e467e37d6d154f2d70f3e9f183e8dcc85e9cbdb688e008a735ee7794c6983556",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "3a56191efe6f3d73a148b205403056b367227e95673fd69790741beaf0ee40c8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "4bd36e77b9d642a88931e1a0de6649afab3e4a261c2f0f3c134452a950aa42e6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "d49c2ff5df264b700ed22a2f95e2e6c46c191084c7de37e0dc5da03c420b4b57",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "482487d1d7c3f9d4c17b34fcf38f820158913a9472e95751665ae042e013fe0d",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "e6d4ac1ca9d0c859c3abccbc0712615cad6337ec426c9e9b74337227283e22b4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "55659981ef71016f4f317803a85940d71c523b15bd62f2327b325d8b738df0ff",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "0bdd089ef7095b806b47d9a759ef6a7b1883145a3fb7ccde2ae1566b4a47b320",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "f7a7ab402bf48d1cb6848e3217df5741579ec46da82cb8daf688c7ab2740cddb",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "costimulation",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/costimulation.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/costimulation.md",
+    "sourceSha256": "14318e1e0648773e1a1d49ed32ebd4cc64851f3d50ed2412e5b9db92a0218302",
+    "metadataSha256": "c484779f256a51569f5fe6d52154027784edf8d098da3a2309ec834f4b017a4d",
+    "sections": [
+      {
+        "heading": "# Costimulation",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "b0113f7674812434a3e16a992e90498b57271cd7e725495d26365d02b2eec6b0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "c8c041cd4609f54ae3dc8458a791457ef05b64aa30707bc623b5b27661e8f39b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "e467e37d6d154f2d70f3e9f183e8dcc85e9cbdb688e008a735ee7794c6983556",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "3a56191efe6f3d73a148b205403056b367227e95673fd69790741beaf0ee40c8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "4bd36e77b9d642a88931e1a0de6649afab3e4a261c2f0f3c134452a950aa42e6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "d49c2ff5df264b700ed22a2f95e2e6c46c191084c7de37e0dc5da03c420b4b57",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "482487d1d7c3f9d4c17b34fcf38f820158913a9472e95751665ae042e013fe0d",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "e6d4ac1ca9d0c859c3abccbc0712615cad6337ec426c9e9b74337227283e22b4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "55659981ef71016f4f317803a85940d71c523b15bd62f2327b325d8b738df0ff",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "0bdd089ef7095b806b47d9a759ef6a7b1883145a3fb7ccde2ae1566b4a47b320",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "068e1d239189c900a6d384eeaf3b1bc1254878d6c71c74e7347cb142ac8ae1f2",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+    "sourceSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+    "metadataSha256": "f189232fc02f2d85f6e20198fcb37ca75ebbdf415309751c9663d19d1199d3ed",
+    "sections": [
+      {
+        "heading": "# Epitope spreading",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "1052d126fd0255dbb77ff0801dea0f80c5dcb462c7a0268c7f39b03c719ed3fc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "3a8e83191e36f185467d509bed7ed50d304e45fa54ea39ae8ab9d4492a7ae09b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "0f803ad04480867a36b79e960fb1232692c3a1a15753afd76833b561a3897341",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "de8679b07e55aa8b912d735c9ccd52a4be8ad008841cc78b6263994d16eb8f47",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "3b9ef15adab1fbcd763f126bdc56f21d42e279e5884e7363671671e9603896f0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "0cfc31a54331c135c342cba70ad44b9ca3b6ae4adf176720cf4cc2b23125447b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "9f2714e6b78ef2a59e78b7b05a65068840d75345258b7eff9b86419a7175bcd6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "c6053081cc49ebb3353ad94a647a9daa0867127f7b2c534624a387f41382aa11",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "ab3087b0f5be6508346e1f8b44310413bd1b7a4ab70b52608bd7baad905cafa8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "b36fb7c5a82476f69fbfa195a04268ce5db8265ed2bd39155d4d9d068714ce28",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "a990391ae54c9844580d6898ed8d8e3aaa0fdc71e148e07e5ed156803691d69a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "0de213d1e6a5b4cffcf74826641f26c27bfe6618e4f9ea6ed7af8d958de5af51",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+    "sourceSha256": "a0eb6d8fcd3a86ba9a16b760596c3eeab62df535f831f75413ad4b0eae75d9cc",
+    "metadataSha256": "387366874519a5d2a0433913dacdb37e165402eda28984ef9f4bd0329cff5eae",
+    "sections": [
+      {
+        "heading": "# Epitope spreading",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "1052d126fd0255dbb77ff0801dea0f80c5dcb462c7a0268c7f39b03c719ed3fc",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "3a8e83191e36f185467d509bed7ed50d304e45fa54ea39ae8ab9d4492a7ae09b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "0f803ad04480867a36b79e960fb1232692c3a1a15753afd76833b561a3897341",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "de8679b07e55aa8b912d735c9ccd52a4be8ad008841cc78b6263994d16eb8f47",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "3b9ef15adab1fbcd763f126bdc56f21d42e279e5884e7363671671e9603896f0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "0cfc31a54331c135c342cba70ad44b9ca3b6ae4adf176720cf4cc2b23125447b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "9f2714e6b78ef2a59e78b7b05a65068840d75345258b7eff9b86419a7175bcd6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "c6053081cc49ebb3353ad94a647a9daa0867127f7b2c534624a387f41382aa11",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "ab3087b0f5be6508346e1f8b44310413bd1b7a4ab70b52608bd7baad905cafa8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "b36fb7c5a82476f69fbfa195a04268ce5db8265ed2bd39155d4d9d068714ce28",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "a990391ae54c9844580d6898ed8d8e3aaa0fdc71e148e07e5ed156803691d69a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "d04bffd4631fb8bb9ca01b6740ce0f2362ce28526b141d1405479c6bc938bf92",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/immunodominance.md",
+    "sourceSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+    "metadataSha256": "59f46782d6aa388e42c3828e5dc78812cedbea0e1e4377b950dc5d864a6b7358",
+    "sections": [
+      {
+        "heading": "# Immunodominance",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "f18484cf760c7f2a5bc806c2fa9fdbfbe9081c101b19eca3a882f85ed27f494e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "6051a0af8e19a00f68d09dc37d25bb975a75a36a60491b15779f829a125ce813",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "6bba904c00fa114d7e2a056d912f38ee0274d51c5561ac7d513507c2a2a419a8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "ab3587dafb4b67a8503807784c2ae30f723f1ad341b076d929c9ef3c2ebff909",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "2fc9d5e7f491532d450982904c1020a7c93ee895c0b721601648b4ea73bf2db6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "96afc8df81cd2af720a006afbeb5aa94c5b6e847fda6873c882c07b5c8761cc5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "747424c075c104ed1ed1c23b4328783c16596b3e0a4cd2ef384e4ddaaf7db191",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "b27a8aae7e21e7728416a3a8d4b18c84e206bdfd2ed584c6fbd02ef64c4a7e71",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "d1471319147f04417834be5545ccae33a11d837e29494199a3274087415455d4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "6b1ed4eaed33fc73884b21122b089f2521278a1f7c54072bb93eeeaef3ba820f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "715489b768abcbc47d9173afdbc7694a7c9c3ff27d44de4e53096fcc69d16652",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "f79637f6a3a1a708e9770e1a33bc32beb66fcfe66d426cd62bdd9418bfc8d802",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "0de213d1e6a5b4cffcf74826641f26c27bfe6618e4f9ea6ed7af8d958de5af51",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/immunodominance.md",
+    "sourceSha256": "1ef05685928e0402eb760469394bb85ee3a1f0558efbbe444d28789aebbeafae",
+    "metadataSha256": "f6c51172c52d69718bdae2c8ad527b9ca722565db69b822d53a5fce4182b3ea3",
+    "sections": [
+      {
+        "heading": "# Immunodominance",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "f18484cf760c7f2a5bc806c2fa9fdbfbe9081c101b19eca3a882f85ed27f494e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "6051a0af8e19a00f68d09dc37d25bb975a75a36a60491b15779f829a125ce813",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "6bba904c00fa114d7e2a056d912f38ee0274d51c5561ac7d513507c2a2a419a8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "ab3587dafb4b67a8503807784c2ae30f723f1ad341b076d929c9ef3c2ebff909",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "2fc9d5e7f491532d450982904c1020a7c93ee895c0b721601648b4ea73bf2db6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "96afc8df81cd2af720a006afbeb5aa94c5b6e847fda6873c882c07b5c8761cc5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "747424c075c104ed1ed1c23b4328783c16596b3e0a4cd2ef384e4ddaaf7db191",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "b27a8aae7e21e7728416a3a8d4b18c84e206bdfd2ed584c6fbd02ef64c4a7e71",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "d1471319147f04417834be5545ccae33a11d837e29494199a3274087415455d4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "6b1ed4eaed33fc73884b21122b089f2521278a1f7c54072bb93eeeaef3ba820f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "715489b768abcbc47d9173afdbc7694a7c9c3ff27d44de4e53096fcc69d16652",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "f79637f6a3a1a708e9770e1a33bc32beb66fcfe66d426cd62bdd9418bfc8d802",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "d04bffd4631fb8bb9ca01b6740ce0f2362ce28526b141d1405479c6bc938bf92",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/regulatory-t-cells.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/regulatory-t-cells.md",
+    "sourceSha256": "1ccd6ddb96b13989c02dcb830cec58b0be06a13b2aa1f5d8ae5aa41939073aa0",
+    "metadataSha256": "1764d1c6f304394433bb493bfe286095e4153b56fb792cc9ed3abed92259a93d",
+    "sections": [
+      {
+        "heading": "# Regulatory T cells",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "708c5341207c8b0210cffb95fde1229157295e9bfeba213d781126ca3a53a6a8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "ef17eeb2238b9de318a5cd0bd7d72e4fe3525ad97ebed3833b9f626571c291e0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "50c11b70289d942e022dd5829bd15982be2a941d35af6ec781afe51bc5351928",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "8a79e0d5e2619e3425bd20f367754161ae860feaea94eb99fa73ceba18fc8826",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "0f5fd633b4538c0af82ffbdc9734258ad1c859ba635a49a519e20288e892573a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "9032eb2348352377928674efd4ba13137943a75f967d42f96fe51e5de9542f17",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "3cc60ff77c524eb8915a89f6faa9094ea9b7266ba584635e8f574cdab0a62581",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "60f87f053fba5639a7c007d20310a1d00f3e336db5ac3e31e8ed5d483e1f829e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "99a10370fa1606666cacb43e9373604a56cf428c0a60f8dc3ceb6ccc055fe39c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "fd974c2f78316e64174dbcdea9ad2887d964bb241a4c75b388f5ffb7c33d44a0",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "6b0818517a865662ea6847fa03899c930bf6e646bc7fe2175ff13c731801d56a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "667f674016dc3780e42de38ec9453ec21ec780776233452c125852305da21f44",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/regulatory-t-cells.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/regulatory-t-cells.md",
+    "sourceSha256": "71e52497405ec7851762a571a95678da878821ba1a451ad803eedf086bd36b8b",
+    "metadataSha256": "dd90c08b8379206e206de9ea9c44e3393627f140ff018306170c29766d6b02ca",
+    "sections": [
+      {
+        "heading": "# Regulatory T cells",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "708c5341207c8b0210cffb95fde1229157295e9bfeba213d781126ca3a53a6a8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "ef17eeb2238b9de318a5cd0bd7d72e4fe3525ad97ebed3833b9f626571c291e0",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "50c11b70289d942e022dd5829bd15982be2a941d35af6ec781afe51bc5351928",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "8a79e0d5e2619e3425bd20f367754161ae860feaea94eb99fa73ceba18fc8826",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "0f5fd633b4538c0af82ffbdc9734258ad1c859ba635a49a519e20288e892573a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "9032eb2348352377928674efd4ba13137943a75f967d42f96fe51e5de9542f17",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "3cc60ff77c524eb8915a89f6faa9094ea9b7266ba584635e8f574cdab0a62581",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "60f87f053fba5639a7c007d20310a1d00f3e336db5ac3e31e8ed5d483e1f829e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "99a10370fa1606666cacb43e9373604a56cf428c0a60f8dc3ceb6ccc055fe39c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "d5ca87c3ba0e4a9e79c5e8a1f7d936c8e16dad2bbac6fcb26802b0102a1d6fe3",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "6b0818517a865662ea6847fa03899c930bf6e646bc7fe2175ff13c731801d56a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "4e80d331d3d5277c103ab4a33a247fedef4644525126037d83e4710944de9ab1",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-exhaustion.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion.md",
+    "sourceSha256": "c0e62b798bfde4c99b068a26cbff8d566297fd8fe4cc23721df198d8690f765e",
+    "metadataSha256": "ce5aa645916f64e155cfdba4eac6c7242e424146b0fcdedd095283b05ecab66b",
+    "sections": [
+      {
+        "heading": "# T-cell exhaustion",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "69b1a7b964e9e7157697300efcf4cb08762e7e6f910df26f4c9977bc5d0f5129",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "0a1d6e0073eb03706f8330c2d8eb3caba239fe947124c22ad3f5bbf4fa323483",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "2562c22eea01862d1c46cea5ea3c584efdec7ecace3160e26ca15b2fe3925fb8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "acb5c21ba3a8ee038881b4b7703616458f3e7194dc4c7295ffa540fff9a7e923",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "51afde0be4048f58f7a0aecfe58c901a7bfd82db45f4a4f94086a89f7322378f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "fe3da3fdd002af6ba6d0a2b3a463bb05568789ffd7ee5bdc12a41bab24d7f4ce",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "1b528bba8411766f2ebb0eef5d062d7b7cb3a9a0a555b00c5f3c18ad6de3f486",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "b459e33baae92faef57bb2bd3192ee684772a5474a80a4ef973191ac61fefb78",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "818cf7305d3e564bac6637e3b121f38ed3d67001c0fc355d01a9006f1ed7230c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "aebd481a5f9dc5076a32dd97161708c9ae53bdd63720e661ccf1123bf2708c23",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "9d546518b574e021afbb077974811fe1f2c2020558aae401f8f82f6db946db62",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "b8c88f86aec26991e40b25fbdbf449a58943db199753fe5f8a0679d314848ea3",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-exhaustion.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell-exhaustion.md",
+    "sourceSha256": "28eeb87db458538ace6299c9f0c327d76f4d93d65e1376ab214f43eb96eb4bb6",
+    "metadataSha256": "4e227046874b4e63e47b943b55b7b43eccf4da248d4bceecd64215a86cba91c8",
+    "sections": [
+      {
+        "heading": "# T-cell exhaustion",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "69b1a7b964e9e7157697300efcf4cb08762e7e6f910df26f4c9977bc5d0f5129",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "0a1d6e0073eb03706f8330c2d8eb3caba239fe947124c22ad3f5bbf4fa323483",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "2562c22eea01862d1c46cea5ea3c584efdec7ecace3160e26ca15b2fe3925fb8",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "acb5c21ba3a8ee038881b4b7703616458f3e7194dc4c7295ffa540fff9a7e923",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "51afde0be4048f58f7a0aecfe58c901a7bfd82db45f4a4f94086a89f7322378f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "fe3da3fdd002af6ba6d0a2b3a463bb05568789ffd7ee5bdc12a41bab24d7f4ce",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "1b528bba8411766f2ebb0eef5d062d7b7cb3a9a0a555b00c5f3c18ad6de3f486",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "b459e33baae92faef57bb2bd3192ee684772a5474a80a4ef973191ac61fefb78",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "818cf7305d3e564bac6637e3b121f38ed3d67001c0fc355d01a9006f1ed7230c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "aebd481a5f9dc5076a32dd97161708c9ae53bdd63720e661ccf1123bf2708c23",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "9d546518b574e021afbb077974811fe1f2c2020558aae401f8f82f6db946db62",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "33e4192ec0efa590a4bc14007ebd3727b8efe7ebbdb354d78b01be34805e5f86",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "sourceSha256": "406f2b855c34ad24b0a5dbf5fcb8d230e6e7151b41715f4bcf43eb2c1379b929",
+    "metadataSha256": "02e84328b1fe94ca4a057b6a86807f0aacf487b619f18b4e046f5f1769a30678",
+    "sections": [
+      {
+        "heading": "# T-cell priming and the three-signal model",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "2966574be3d21340ba3e47ce150edc20d0cd9fd226c7b662005cf4aee24c7967",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "5b5315db4bc420bc941adc8422bc17cdf57f261e3aa22d62bf9c95b0f7cb0689",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "bd68e5b7808477abd752bb33a78ffc6bb472b4d605472eb66b0fccefc3ee4e85",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "c406ad0fe21713218e71b22ff08f392a36c922ec1be8c4c5daabd24417309d12",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "8fe7704ffe6b575aa440cac6121458ce7e84848c12149e0ca2f93ae27a27d88c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "ce8a4c2e78b3f42493213dba664e24477bf59a7fa0b4f5c1d389c2d8774835ae",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "0a9a37b6538fe5fdac02c516d51b68fb3411992189ee06a2b5cccc554dd08518",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "74da7871fb04580167cca7d8d10a3fd2381540e8b27bcd412c88e6cfe96e8358",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "3e458ab5cbc74b2a19156b51b6ccc91c7d2e19d1347d160c13879fb5c9e4e5d3",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "d16fe83a302adcec4ea855080ff252baec8fc695967020626c63381da29ca3a1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "90ac92946159623b42e347bff9466660aeeb8fbe38e3d3d235d98ab47afb40b2",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "2cfb082229af2b99438e1c34fafd57411da63ff9e30deedf946d16c80647128a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "0f64930d9dd2653265dcc3e3593074581e56cae57b5c183d4513f1918a9236be",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell-priming-three-signals.md",
+    "sourceSha256": "53e91c73ec8432d9318bd26b3edcd671298e95f14cc0503b417c8815df1f87e8",
+    "metadataSha256": "a4160947a6c5ca2d29b414ca59ebc51958fdece1e0079d4c54dd644b69a4dfb2",
+    "sections": [
+      {
+        "heading": "# T-cell priming and the three-signal model",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "2966574be3d21340ba3e47ce150edc20d0cd9fd226c7b662005cf4aee24c7967",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "5b5315db4bc420bc941adc8422bc17cdf57f261e3aa22d62bf9c95b0f7cb0689",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "bd68e5b7808477abd752bb33a78ffc6bb472b4d605472eb66b0fccefc3ee4e85",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "c406ad0fe21713218e71b22ff08f392a36c922ec1be8c4c5daabd24417309d12",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "8fe7704ffe6b575aa440cac6121458ce7e84848c12149e0ca2f93ae27a27d88c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "ce8a4c2e78b3f42493213dba664e24477bf59a7fa0b4f5c1d389c2d8774835ae",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "0a9a37b6538fe5fdac02c516d51b68fb3411992189ee06a2b5cccc554dd08518",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "74da7871fb04580167cca7d8d10a3fd2381540e8b27bcd412c88e6cfe96e8358",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "3e458ab5cbc74b2a19156b51b6ccc91c7d2e19d1347d160c13879fb5c9e4e5d3",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "d16fe83a302adcec4ea855080ff252baec8fc695967020626c63381da29ca3a1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "90ac92946159623b42e347bff9466660aeeb8fbe38e3d3d235d98ab47afb40b2",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "2cfb082229af2b99438e1c34fafd57411da63ff9e30deedf946d16c80647128a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "4eac15ce39e10eb818842c4db52250a6fb81b04f4fe60fe0e961f043438a67d1",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+    "sourceSha256": "90f7682ce546992f9f2429765acd952d02c6bd34e5cf08dd24a69ac29331340c",
+    "metadataSha256": "879fe218e7d70486b14c955be15a2837e30520b3ef68f5975755568b743d66a3",
+    "sections": [
+      {
+        "heading": "# TCR (T-cell receptor)",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "05c276478f1a87559376c4b525ba299e161d298b3fe6192987e8e6b7191889f1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "0cc5ce83972a95820d2329bb9d9a1463ac782248d6237927eeade21842b75219",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "2300e8c5efbc5df893e839853d75898caebf86703c26c36f2fa52f36435aa306",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "d94c197188dcd5d62737ef87ae77ce54911352af13b53669a4ca9a31eb6f6694",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "69eef8183e4f1eb198cc36ee667f1eea3ec1e4464fce4f6b49ec2004effc58d1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "1f3da73003a6fd2c62d035bd6e1d1d583ce31e907692b5203a53294036cb6235",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "21c28fbfb27446b37552430aaecc7ac584c5e45e458dca12dff79f70c1a8af89",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "fce90468fed93ca48d2925e48caa4ea50863dd543c5d7f1f17c34300bfd9a5c3",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "bcd1693d412f876cd659f6e189814b5c8ba9af7c8cff372c6b136a177c485793",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "af752b6e09d0a3568125275bc5b85a0476c3d7478a95b04e3f65821d520bde2c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "5d64a4193c5d0a7c6395d21dd0d65a2c0cfcf9fcda256f93e9e33ace2c662642",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "e687bd276dafbb61566b200fadd8e4283711d53ee0f0fe08e0e8c00ca29c6ca0",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell-receptor.md",
+    "sourceSha256": "bc5a8f0d4fcea7722cd9ed2b69c00920fa2c76b62cda57df4d0dfe724e9c2333",
+    "metadataSha256": "b783aa3c8e9d65887059eb3b08669881ed31b7b476db0b15b78530c1f3bf4444",
+    "sections": [
+      {
+        "heading": "# TCR (T-cell receptor)",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "05c276478f1a87559376c4b525ba299e161d298b3fe6192987e8e6b7191889f1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "0cc5ce83972a95820d2329bb9d9a1463ac782248d6237927eeade21842b75219",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "2300e8c5efbc5df893e839853d75898caebf86703c26c36f2fa52f36435aa306",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "d94c197188dcd5d62737ef87ae77ce54911352af13b53669a4ca9a31eb6f6694",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "69eef8183e4f1eb198cc36ee667f1eea3ec1e4464fce4f6b49ec2004effc58d1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "1f3da73003a6fd2c62d035bd6e1d1d583ce31e907692b5203a53294036cb6235",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "21c28fbfb27446b37552430aaecc7ac584c5e45e458dca12dff79f70c1a8af89",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "fce90468fed93ca48d2925e48caa4ea50863dd543c5d7f1f17c34300bfd9a5c3",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "bcd1693d412f876cd659f6e189814b5c8ba9af7c8cff372c6b136a177c485793",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "af752b6e09d0a3568125275bc5b85a0476c3d7478a95b04e3f65821d520bde2c",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "5d64a4193c5d0a7c6395d21dd0d65a2c0cfcf9fcda256f93e9e33ace2c662642",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "ba813d27471996728dc90b7bbcd86f6765c6591a70c85ff0f72ee2639bef520e",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+    "sourceSha256": "c950f9ba5e3c791bf4243529e6cf2c22cae4ce4f6b944f03f59990f3f280ae0a",
+    "metadataSha256": "d3e658284e5de0ff67755429c7a0eb61ba0ae3230a84b4fbba4014c2d7b7137f",
+    "sections": [
+      {
+        "heading": "# The T-cell repertoire",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "134ae32949520431deb217bef978a6bd7e1c04156eec8beb1333431a33a3c876",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "08dbde48c8fd77ef4eca741fa23c01b261f33d8ab75e2e2f3a9cfc15ca44a861",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "c996a7e08a7f5eac899ef161bf60a634500ee8ca59cde8bf285d5237137da56f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "56114f1c97355c560a05cd168c4befaed75ddd214062b03f4388bff43565c7d9",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "4d32a5b2e0be1c663b68e1f0b35dda6ad5b0ce76dbb0ecea622daeedc0409c3d",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "acab609cc21d1c525d1759a78b49c9023424850790f7753a8125319eaff51328",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "e9ee88ed3da87429361af0ce30adb5f62855305714e3f374ce4d1e38f17a5d98",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "44057727bd9bd0e71b1485981ab888f4efaa92c0f44bcef4186eec1d8a111ec5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "9b316ee94699bf1198465e2e623c3d689ded40355cf767f2966f0aefc144cd67",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "2884bd4e410c30d2fa96b339d1e05669d92eb6250b2463fce60be5c2bbe658f5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "a9cc2ef679fe3415ad2c0a42ed9321e121954a83931c0bbb0bd556151089e934",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "d2a3287976e31e3e32a0f5a2931619e20faa162f3c601dee91ea0557ac227f2e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "07b96a68ed46cde96877579318baf75967b78f074b76bd3757b82260ad516ef2",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell-repertoire.md",
+    "sourceSha256": "5da5fbca3c7c05d07ab9a4fb8e106498fb9152e5584da499fda02f57c91e9091",
+    "metadataSha256": "a165afc60f4546ea074de0622a2f5086e1907120991c524a2e80588a9d5fb082",
+    "sections": [
+      {
+        "heading": "# The T-cell repertoire",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "134ae32949520431deb217bef978a6bd7e1c04156eec8beb1333431a33a3c876",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "08dbde48c8fd77ef4eca741fa23c01b261f33d8ab75e2e2f3a9cfc15ca44a861",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "c996a7e08a7f5eac899ef161bf60a634500ee8ca59cde8bf285d5237137da56f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "56114f1c97355c560a05cd168c4befaed75ddd214062b03f4388bff43565c7d9",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "4d32a5b2e0be1c663b68e1f0b35dda6ad5b0ce76dbb0ecea622daeedc0409c3d",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "acab609cc21d1c525d1759a78b49c9023424850790f7753a8125319eaff51328",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "e9ee88ed3da87429361af0ce30adb5f62855305714e3f374ce4d1e38f17a5d98",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "44057727bd9bd0e71b1485981ab888f4efaa92c0f44bcef4186eec1d8a111ec5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "9b316ee94699bf1198465e2e623c3d689ded40355cf767f2966f0aefc144cd67",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "2884bd4e410c30d2fa96b339d1e05669d92eb6250b2463fce60be5c2bbe658f5",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "a9cc2ef679fe3415ad2c0a42ed9321e121954a83931c0bbb0bd556151089e934",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "d2a3287976e31e3e32a0f5a2931619e20faa162f3c601dee91ea0557ac227f2e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "35b7e33e2e7a7d0d887eacb569f3db6fd3bbe017956b95a36822e60d78c4dd06",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+    "sourceSha256": "d70901ed83d5a59cc22cc249cca9e69ff2c9b98c7a9888191ececb7065d53ce9",
+    "metadataSha256": "fb956c0592ab9e0789a37409e800dc47a394e97fa2ede1feb2d441e415fc80c0",
+    "sections": [
+      {
+        "heading": "# T-cell states",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "55f3d232ffe2031ddc3b7be15038328bfd337c939a3537747a0f290d4bcf9893",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "a8795109e9f449685296152963fec4e6d669ad94ca50649ee9b348ad53151eda",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "c74f5c1ce498c9f6318eda18fe05406ae08660718c9d4f7975c9502285dd14f9",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "### Shared visual reference",
+        "sha256": "7535649690c98cedecfbd602c6894a5ec3ae52bab0491c322e4ecd2cb31efb70",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "1e54c6885c20c083b5d0f1cc51e47999c9d8d205f4173dc458efe6fb3a781dfb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "8aaf5a9d18070fb86e26dabcdefea0726e8c6cfdbafc4e8b267761cf4ffee967",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "8e94f047a66eca8b4b5fd2bb8ac5436a9b0d6184ea0e096ad414c504bfbc0e68",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "ed8a4cf560e11bd83f6f691341e49fce38de9bb968abacc20f292c1d646a983b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "48d6c9ae20a1a80c83a1f3ea6bcc185845a01533bc312e0094c166fb23ba6776",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "a88a6753b4447d7f1b7437d02b8e309815d16279b117514d8b279475c2664d67",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "6e41e4cc6ab71cdf4bb66c21911ab9413ed4f3c3ff5778769e959f6bec555b54",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "d387ca7d0a26537fa86877fa1bcf42803bf972a56805ec347b9a0f1d58c2e5a6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "c7bfee56c09bcf2a75778a51d563d64dee606268eee233531d5e4d18dee696e4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "966ddbe18ed2a78cb4dcd6095b821f6b02c70c0455067d35e8646438afa879da",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell-states.md",
+    "sourceSha256": "c4f07e7152e34a93ddd2f2f2a915aa93e586c24d25897d0a71c527609f89785c",
+    "metadataSha256": "acd10669ec3c1b2c03625a1589b21fd106eb416bc863e13ae141ab8647fc218b",
+    "sections": [
+      {
+        "heading": "# T-cell states",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "55f3d232ffe2031ddc3b7be15038328bfd337c939a3537747a0f290d4bcf9893",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "a8795109e9f449685296152963fec4e6d669ad94ca50649ee9b348ad53151eda",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "81d66f2e8786bed2e229fdf984c6d8a6a82fe6397a628378bf8ff27c3438738c",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "### Shared visual reference",
+        "sha256": "7535649690c98cedecfbd602c6894a5ec3ae52bab0491c322e4ecd2cb31efb70",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "1e54c6885c20c083b5d0f1cc51e47999c9d8d205f4173dc458efe6fb3a781dfb",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "8aaf5a9d18070fb86e26dabcdefea0726e8c6cfdbafc4e8b267761cf4ffee967",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Worked example",
+        "sha256": "8e94f047a66eca8b4b5fd2bb8ac5436a9b0d6184ea0e096ad414c504bfbc0e68",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "ed8a4cf560e11bd83f6f691341e49fce38de9bb968abacc20f292c1d646a983b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "48d6c9ae20a1a80c83a1f3ea6bcc185845a01533bc312e0094c166fb23ba6776",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "a88a6753b4447d7f1b7437d02b8e309815d16279b117514d8b279475c2664d67",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "6e41e4cc6ab71cdf4bb66c21911ab9413ed4f3c3ff5778769e959f6bec555b54",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "d387ca7d0a26537fa86877fa1bcf42803bf972a56805ec347b9a0f1d58c2e5a6",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "c7bfee56c09bcf2a75778a51d563d64dee606268eee233531d5e4d18dee696e4",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "b50ab1f0e57b91bda1597a886a9d6f61c40e3a5df31aaec6b51f65696e3e4f27",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/t-cell.md",
+    "sourceSha256": "ac45f9180b833a7c5e078bcc726693766163722d5e90cb1b4644c01a238e9ea1",
+    "metadataSha256": "7c27c6e0880f7dee98ec41330bac8bd7288dfaa77753c6d53345186039bd0c32",
+    "sections": [
+      {
+        "heading": "# T cell",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "4c8403035aa3c7c34f6a9d1215c6d1b818b9d01a2a8ee5e0b7074f9d19a06e5f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "d6fb1fb16eee61c569529e45523952ff8385e479602d969b9dc65b9b3b34c348",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "659592778171b9395601e5f13d920805b0e9eb3fa3f89dd37a02e573561ad834",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "60c7b8e7bd6e081ff821944e228894cc10a11c7c5cc82fa78184bb620aef1465",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "ab7409490d42347a89ef0736f073a40778d139d9c0c1d20b77a0c1ad54e239fe",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "990f5211196e95b4f03c93a185e1b7b78f28e789b7ed06e378790824e3d4ca4a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "ecc758818163745c2f950e20eba3ca579c35566cc65ede14d6070d7c7f0c9d7f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "d374c47c067efbb7b44ab09865e56dc191642fb3ddc4c7060e692d3f00423299",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "afcbabaae166884e6a383aa3342414f03f99848fdc3bb98ac0a707b8aad6ea58",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "f529a13a21d0609e8e32f27068f216015fdc544300f9a21a414dc88f3d4be1f1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "be4f3f5db7457deae9c35303651f5a855d045708d140b44470e7fe89a2723960",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "804dc8151a8f51e779de32c8e86afb8e36fc4ee57391a0d81f4d39ab847eeb09",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "t-cell",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/t-cell.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/t-cell.md",
+    "sourceSha256": "008f40ba77f419d84a26544a9836b701f0bb48660026ae20dc661aea61c70d3f",
+    "metadataSha256": "5f13901fe369c29d6a82be4b13fd2deff0c9be140a111b50cd91ec1eec9316cd",
+    "sections": [
+      {
+        "heading": "# T cell",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "4c8403035aa3c7c34f6a9d1215c6d1b818b9d01a2a8ee5e0b7074f9d19a06e5f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "d6fb1fb16eee61c569529e45523952ff8385e479602d969b9dc65b9b3b34c348",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "659592778171b9395601e5f13d920805b0e9eb3fa3f89dd37a02e573561ad834",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "60c7b8e7bd6e081ff821944e228894cc10a11c7c5cc82fa78184bb620aef1465",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "ab7409490d42347a89ef0736f073a40778d139d9c0c1d20b77a0c1ad54e239fe",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "990f5211196e95b4f03c93a185e1b7b78f28e789b7ed06e378790824e3d4ca4a",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "ecc758818163745c2f950e20eba3ca579c35566cc65ede14d6070d7c7f0c9d7f",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Explain it back",
+        "sha256": "d374c47c067efbb7b44ab09865e56dc191642fb3ddc4c7060e692d3f00423299",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Takeaway",
+        "sha256": "afcbabaae166884e6a383aa3342414f03f99848fdc3bb98ac0a707b8aad6ea58",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "f529a13a21d0609e8e32f27068f216015fdc544300f9a21a414dc88f3d4be1f1",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "be4f3f5db7457deae9c35303651f5a855d045708d140b44470e7fe89a2723960",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "2cd3b41c8e3d4fe66cc2d251bd2692f51d033219f90ab9ea25601e7ff4cbc5e2",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "original",
+    "inventoryDenominator": 537,
+    "path": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+    "sourceSha256": "b5081df019b7a3bf935ba92cdbb1ac6e897336e7b7f24bd74f85307017cb17cd",
+    "metadataSha256": "68a20447c44bd3e9b9498863614aaa8819936315d6e0f4cebc3d108a1206ab70",
+    "sections": [
+      {
+        "heading": "# Thymic output and aging",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "724ab6ee43816e2a5f08226e66ccc9ebe4315da3ec8a19a688f5961e32089695",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "8a31185d8d00726065bf46fab8803e5e5e102ad13fa6612670d102e2ea24d394",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "0b2a1aedfa239c92b3f34aabe67af0e9dd72fbfa1137bacce5fd906c46eb315e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "6a2216db55bfec1857d080e2d113305b414f17bdaecf8f2026bf3410bc6b6377",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "d692fc9642486fef4ff899fa787bf414bc12ca2fd07f0e6beb9a3b69547107f7",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "5ceca517c9d66ac2499b1a2d96f6211443aafd1d56b98543855f70c813b66759",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "bd120893e45c0dd40a1dc01738d4c18a2d98cf3a7a7ef7dee96f313f698a8f01",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "602c02993e24c6cacbda7d687c0e0473a15ce351b91637e2f64ab8d7fc440c90",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "0ca6f258bb1af34c3fb69cedb74a964fbec9066548ce28ccc0e59a5921fb99ab",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "ae6cbf29a6e2185f16c3f9c2519368b05712fa4d0c6868f10ce58a6ab884aad3",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "later",
+    "inventoryDenominator": 550,
+    "path": "wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/immunology/t-cells/thymic-output-and-aging.md",
+    "sourceSha256": "cb1688913967ad752afe297186ec8a09b1bc6f2d2eaa334187aff535999818cf",
+    "metadataSha256": "000d9021096053f204f7fd1928c93311f0fa62c50b5afb3154431e12eee62288",
+    "sections": [
+      {
+        "heading": "# Thymic output and aging",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## In one sentence",
+        "sha256": "724ab6ee43816e2a5f08226e66ccc9ebe4315da3ec8a19a688f5961e32089695",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## The intuition",
+        "sha256": "8a31185d8d00726065bf46fab8803e5e5e102ad13fa6612670d102e2ea24d394",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it works",
+        "sha256": "0b2a1aedfa239c92b3f34aabe67af0e9dd72fbfa1137bacce5fd906c46eb315e",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Why it matters in cancer",
+        "sha256": "6a2216db55bfec1857d080e2d113305b414f17bdaecf8f2026bf3410bc6b6377",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## How it is measured",
+        "sha256": "d692fc9642486fef4ff899fa787bf414bc12ca2fd07f0e6beb9a3b69547107f7",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Common confusions",
+        "sha256": "5ceca517c9d66ac2499b1a2d96f6211443aafd1d56b98543855f70c813b66759",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Try it",
+        "sha256": "bd120893e45c0dd40a1dc01738d4c18a2d98cf3a7a7ef7dee96f313f698a8f01",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "teaching read and reconciled"
+      },
+      {
+        "heading": "## Related concepts",
+        "sha256": "602c02993e24c6cacbda7d687c0e0473a15ce351b91637e2f64ab8d7fc440c90",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Sources and scope",
+        "sha256": "0ca6f258bb1af34c3fb69cedb74a964fbec9066548ce28ccc0e59a5921fb99ab",
+        "otherVersionIdentical": true,
+        "assessment": "read once; exact section-byte identity confirmed",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      },
+      {
+        "heading": "## Used in",
+        "sha256": "3a9e74ed97e3088f91a366a8719dfe6bc64ac5fd2de908f4950a47d70f083e7b",
+        "otherVersionIdentical": false,
+        "assessment": "read both changed sections",
+        "disposition": "excluded from learner coverage: generated/navigation or source/review metadata"
+      }
+    ]
+  }
+]

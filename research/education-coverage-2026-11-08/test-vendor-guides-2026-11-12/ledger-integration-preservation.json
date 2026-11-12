@@ -1,0 +1,34 @@
+{
+  "preexistingFiles": 853,
+  "changedMutableFiles": [
+    "candidates.json",
+    "open-source-assets.json",
+    "adjacent-concepts.json",
+    "source-assets.json",
+    "open-items.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/open-source-assets.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json"
+  ],
+  "unchangedPreexistingFiles": 841,
+  "historicalCohortPacketsUnchanged": true,
+  "frozenPeerPendingFilesUnchanged": true,
+  "allowedMutationScope": [
+    "adjacent-concepts.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-assets.json",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ]
+}

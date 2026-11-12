@@ -1,0 +1,532 @@
+{
+  "assetVersionReceipts": [
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "lesson": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "file": "original-mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "bytes": 8642,
+      "gitBlob": "fcc12bdb317aeee224ed49625f316cf685effe94",
+      "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "lesson": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "file": "original-mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "bytes": 8642,
+      "gitBlob": "77db5dc7634b463ef9870e667f3c94aaf3f5d83d",
+      "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "lesson": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "file": "original-ultrasound-echo-timing-and-plane-v1-light.svg",
+      "bytes": 5755,
+      "gitBlob": "372ce3a39f730b15b9f096084c1addf6279261b0",
+      "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "lesson": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "file": "original-ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "bytes": 5755,
+      "gitBlob": "5109e77df82bf7ff947ae6577169d046eb14fc2e",
+      "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "lesson": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "file": "original-mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "bytes": 6480,
+      "gitBlob": "824d42bd6a6fd0b1a9edb2b74075d8fb4d38b715",
+      "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "lesson": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "file": "original-mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "bytes": 6480,
+      "gitBlob": "0f210c99f52e29a92150e7b2659c245a8f30f143",
+      "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "lesson": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "file": "original-pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "bytes": 10580,
+      "gitBlob": "a035e9eae9cb55c043a6b3cbd1ac0a2d5d937c3b",
+      "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "lesson": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "file": "original-pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "bytes": 10580,
+      "gitBlob": "0a558357ea937be11c252107957301813ec8b129",
+      "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "lesson": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "file": "original-labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "bytes": 4799,
+      "gitBlob": "82081b9c2820f66d44e489c6365a28b81bc97c89",
+      "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "lesson": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "file": "original-labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "bytes": 4799,
+      "gitBlob": "bdf5186f1efb54a415382d225a808aa1fa6a4748",
+      "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "file": "original-tracer-time-dose-bridge-v1-light.svg",
+      "bytes": 3450,
+      "gitBlob": "18b60af3fe64e57bd6e5f73b5f1123a35afba1e5",
+      "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "file": "original-tracer-time-dose-bridge-v1-dark.svg",
+      "bytes": 3450,
+      "gitBlob": "86c2cbe1a5e0d8dfd4668ce2e2bd486575c7aa2e",
+      "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "lesson": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "file": "later-mri-pattern-span-and-voxel-selection-v1-light.svg",
+      "bytes": 8642,
+      "gitBlob": "fcc12bdb317aeee224ed49625f316cf685effe94",
+      "sha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-mri.md",
+      "lesson": "breast-mri",
+      "path": "wiki/education/concepts/measurement/imaging/images/mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "file": "later-mri-pattern-span-and-voxel-selection-v1-dark.svg",
+      "bytes": 8642,
+      "gitBlob": "77db5dc7634b463ef9870e667f3c94aaf3f5d83d",
+      "sha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "lesson": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-light.svg",
+      "file": "later-ultrasound-echo-timing-and-plane-v1-light.svg",
+      "bytes": 5755,
+      "gitBlob": "372ce3a39f730b15b9f096084c1addf6279261b0",
+      "sha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/breast-ultrasound.md",
+      "lesson": "breast-ultrasound",
+      "path": "wiki/education/concepts/measurement/imaging/images/ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "file": "later-ultrasound-echo-timing-and-plane-v1-dark.svg",
+      "bytes": 5755,
+      "gitBlob": "5109e77df82bf7ff947ae6577169d046eb14fc2e",
+      "sha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "lesson": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "file": "later-mammography-projection-and-reconstructed-sections-v1-light.svg",
+      "bytes": 6480,
+      "gitBlob": "824d42bd6a6fd0b1a9edb2b74075d8fb4d38b715",
+      "sha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/mammography.md",
+      "lesson": "mammography",
+      "path": "wiki/education/concepts/measurement/imaging/images/mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "file": "later-mammography-projection-and-reconstructed-sections-v1-dark.svg",
+      "bytes": 6480,
+      "gitBlob": "0f210c99f52e29a92150e7b2659c245a8f30f143",
+      "sha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "lesson": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "file": "later-pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+      "bytes": 10580,
+      "gitBlob": "a035e9eae9cb55c043a6b3cbd1ac0a2d5d937c3b",
+      "sha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/pet-ct.md",
+      "lesson": "pet-ct",
+      "path": "wiki/education/concepts/measurement/imaging/images/pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "file": "later-pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+      "bytes": 10580,
+      "gitBlob": "0a558357ea937be11c252107957301813ec8b129",
+      "sha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "lesson": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "file": "later-labeled-binder-delivery-competition-and-retention-v1-light.svg",
+      "bytes": 4799,
+      "gitBlob": "82081b9c2820f66d44e489c6365a28b81bc97c89",
+      "sha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/immuno-pet.md",
+      "lesson": "immuno-pet",
+      "path": "wiki/education/concepts/measurement/imaging/images/labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "file": "later-labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+      "bytes": 4799,
+      "gitBlob": "bdf5186f1efb54a415382d225a808aa1fa6a4748",
+      "sha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-light.svg",
+      "file": "later-tracer-time-dose-bridge-v1-light.svg",
+      "bytes": 3450,
+      "gitBlob": "18b60af3fe64e57bd6e5f73b5f1123a35afba1e5",
+      "sha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "phase": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "ownerPath": "wiki/education/concepts/measurement/imaging/target-pet-and-theranostic-imaging.md",
+      "lesson": "target-pet-and-theranostic-imaging",
+      "path": "wiki/education/concepts/measurement/imaging/images/tracer-time-dose-bridge-v1-dark.svg",
+      "file": "later-tracer-time-dose-bridge-v1-dark.svg",
+      "bytes": 3450,
+      "gitBlob": "86c2cbe1a5e0d8dfd4668ce2e2bd486575c7aa2e",
+      "sha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+      "previousScope": "unclassified",
+      "previousReview": {
+        "status": "unreviewed",
+        "points": []
+      }
+    }
+  ],
+  "renders": {
+    "sourceAssetVersionEntries": 24,
+    "uniqueSourceFiles": 12,
+    "renders": [
+      {
+        "sourceFile": "later-mri-pattern-span-and-voxel-selection-v1-light.svg",
+        "sourceSha256": "ce72cdf6b7c0468bedc8a904af1e2209a7bfb4d3f34e71879c9282e909817ece",
+        "gitBlob": "fcc12bdb317aeee224ed49625f316cf685effe94",
+        "render": "later-mri-pattern-span-and-voxel-selection-v1-light.png",
+        "renderSha256": "8e36292480b42fa70da927d44390cbb2da5a4e615e10d4aab697e9d8e87cdb20",
+        "width": 780,
+        "height": 1360,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-mri-pattern-span-and-voxel-selection-v1-dark.svg",
+        "sourceSha256": "2fc68e6d6585ee9b0d2e44c414bfc87d5abab076169d058c21fbebb26ef6e186",
+        "gitBlob": "77db5dc7634b463ef9870e667f3c94aaf3f5d83d",
+        "render": "later-mri-pattern-span-and-voxel-selection-v1-dark.png",
+        "renderSha256": "d6b31605419f05836455c27cab4c18ad197b453523cd08d8575e2093b9cc8b60",
+        "width": 780,
+        "height": 1360,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-ultrasound-echo-timing-and-plane-v1-light.svg",
+        "sourceSha256": "a5681421eb763f557724fd1cf1e005fbf503304ceab5e3c31df610df180bdd38",
+        "gitBlob": "372ce3a39f730b15b9f096084c1addf6279261b0",
+        "render": "later-ultrasound-echo-timing-and-plane-v1-light.png",
+        "renderSha256": "46113147fbdf102bddaf4d96a6e63869f788413e41ed6449f7a320d89717bae1",
+        "width": 780,
+        "height": 1320,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-ultrasound-echo-timing-and-plane-v1-dark.svg",
+        "sourceSha256": "64b4c93903c7a22c6263687061ccc24e5ff9fdb3e165436bdb6505bf05b61966",
+        "gitBlob": "5109e77df82bf7ff947ae6577169d046eb14fc2e",
+        "render": "later-ultrasound-echo-timing-and-plane-v1-dark.png",
+        "renderSha256": "02e41c41406d2518b9b7abd03c9644c5b2a71dea19f131dbf710051770c8e31a",
+        "width": 780,
+        "height": 1320,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-mammography-projection-and-reconstructed-sections-v1-light.svg",
+        "sourceSha256": "36d1a9f7c9493dadde38226cdce51624cf6f247768ef3c779841b2741ef74520",
+        "gitBlob": "824d42bd6a6fd0b1a9edb2b74075d8fb4d38b715",
+        "render": "later-mammography-projection-and-reconstructed-sections-v1-light.png",
+        "renderSha256": "85114fba0e24704f58517741b9e322bf51cdc80eb54a55fdda50c5243d4e72c7",
+        "width": 780,
+        "height": 1340,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-mammography-projection-and-reconstructed-sections-v1-dark.svg",
+        "sourceSha256": "ed51256ed2c77b2aaac8c60d933dc1c4d19f9335e565d08537657572b5097014",
+        "gitBlob": "0f210c99f52e29a92150e7b2659c245a8f30f143",
+        "render": "later-mammography-projection-and-reconstructed-sections-v1-dark.png",
+        "renderSha256": "0d90852ac20e0f11c19e26b62111b2f92e94746570d17e90e6d410cadd105947",
+        "width": 780,
+        "height": 1340,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-pet-ct-distribution-anatomy-and-dilution-v1-light.svg",
+        "sourceSha256": "eff1245e6e84250dbfd1d9fa713ac663b6384f24bf8899ade18afb6c335de531",
+        "gitBlob": "a035e9eae9cb55c043a6b3cbd1ac0a2d5d937c3b",
+        "render": "later-pet-ct-distribution-anatomy-and-dilution-v1-light.png",
+        "renderSha256": "f63abd3ab28c5e2f11d66b2312e47f20866ea890d2aa921370eea45fec517fc3",
+        "width": 780,
+        "height": 1340,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-pet-ct-distribution-anatomy-and-dilution-v1-dark.svg",
+        "sourceSha256": "0f30425934771f17f385e077e900a82f4b4a1a898021a76b0101809ec828bbb7",
+        "gitBlob": "0a558357ea937be11c252107957301813ec8b129",
+        "render": "later-pet-ct-distribution-anatomy-and-dilution-v1-dark.png",
+        "renderSha256": "322d383b48da38de40c5e85b1b12fecc1a0af1828a2d824c68f77bb1a035738e",
+        "width": 780,
+        "height": 1340,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-labeled-binder-delivery-competition-and-retention-v1-light.svg",
+        "sourceSha256": "713b10166ce06481fc15898a75ed2b930d9ab8dcae23146965f2ca646cc933ac",
+        "gitBlob": "82081b9c2820f66d44e489c6365a28b81bc97c89",
+        "render": "later-labeled-binder-delivery-competition-and-retention-v1-light.png",
+        "renderSha256": "56b1b745cc6c9e5acd3d714d7ac4d100a76d427517e79fa9a5061660d2167a8c",
+        "width": 600,
+        "height": 900,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-labeled-binder-delivery-competition-and-retention-v1-dark.svg",
+        "sourceSha256": "d8cc65de35d53a4af9d66fa4096f0b3034401647c6c43227bdbc99864cc978cf",
+        "gitBlob": "bdf5186f1efb54a415382d225a808aa1fa6a4748",
+        "render": "later-labeled-binder-delivery-competition-and-retention-v1-dark.png",
+        "renderSha256": "e90aee25e9ff4e44b3562a5757d758cbeecb67a4ce0014e413fe10c332cf9c14",
+        "width": 600,
+        "height": 900,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-tracer-time-dose-bridge-v1-light.svg",
+        "sourceSha256": "80f7e2b3a170d5f5cc29c9ef8b0e88aba25d8cb063dc6d45d609f8cdc0af0462",
+        "gitBlob": "18b60af3fe64e57bd6e5f73b5f1123a35afba1e5",
+        "render": "later-tracer-time-dose-bridge-v1-light.png",
+        "renderSha256": "18d4446e4a67007551436b43d24dc2a39bd15010433a76870846a80ffd18b64d",
+        "width": 600,
+        "height": 1000,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      },
+      {
+        "sourceFile": "later-tracer-time-dose-bridge-v1-dark.svg",
+        "sourceSha256": "25be687544f956b420c97aa5bf003e936fb973ad0f31a436975b09a6aae4e3aa",
+        "gitBlob": "86c2cbe1a5e0d8dfd4668ce2e2bd486575c7aa2e",
+        "render": "later-tracer-time-dose-bridge-v1-dark.png",
+        "renderSha256": "d854151786ccbfde1314c6d8c5f9faf345cdaa568ec0e7db0b5068457e17893b",
+        "width": 600,
+        "height": 1000,
+        "viewed": true,
+        "viewedOn": "2026-11-12"
+      }
+    ],
+    "mermaidInstances": 0,
+    "scope": "Pinned SVGs rendered at complete viewBox extent in headless Chrome. Source artwork unchanged; not a live Guide-page, accessibility or expert review."
+  },
+  "sourceThemeViews": 12,
+  "mermaidInstances": 0,
+  "findings": [],
+  "scope": "All 12 unique SVG theme renders viewed whole at full viewBox extent with lesson captions. The two pins have identical asset blobs. No scientific or layout defect observed against the stated schematic scope; no measured contrast, live Guide, browser hydration, expert, learner or language approval."
+}

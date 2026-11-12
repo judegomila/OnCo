@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-11",
+  "auditParent": "063498f601f67259b660c86b568252d6ccb36c81",
+  "mergedMain": "5dca8d9d8a267a7ccf6bfa70c0213fc8363e2d3a",
+  "frozenEvidenceBaseline": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "mergeMethod": "non-fast-forward merge; preserve both parents",
+  "conflicts": [
+    {
+      "file": "src/data/technologies.ts",
+      "resolution": "Preserve audited functional teaching fields and move Cure First from companies to institutions on functional-drug-testing and organoids, as current main does."
+    }
+  ],
+  "snapshotRefresh": {
+    "files": 6,
+    "records": 15,
+    "precondition": "Each refreshed record was byte-equal to the pre-merge runtime snapshot. Only changed upstream fields were taken from the post-merge runtime.",
+    "sourceAssessmentChanged": false
+  },
+  "retiredDuplicateIds": [
+    {
+      "removed": "vs-7375",
+      "canonical": "gfh375"
+    },
+    {
+      "removed": "gc012f",
+      "canonical": "azd0120"
+    }
+  ],
+  "addedRuntimeIds": 0,
+  "newSourceReadCredit": 0,
+  "newMainCoverage": 0,
+  "noDeployment": true,
+  "goalActive": true
+}

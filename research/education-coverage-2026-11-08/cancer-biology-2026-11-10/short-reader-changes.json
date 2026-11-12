@@ -1,0 +1,878 @@
+{
+  "removedTranslations": [
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "تجنّد الأورام خلايا الإصلاح في الجسم، وهي الأرومات الليفية، وتبقيها في وضع التئام الجروح إلى الأبد. النسيج الندبي الذي تبنيه (التنسج الليفي) يضغط على الأوعية الدموية حتى يغلقها، ويحجب الخلايا المناعية، ويصلّب النسيج بطريقة تدفع هي نفسها الخلايا السرطانية إلى النمو، وهو السبب في أن سرطان البنكرياس صعب العلاج إلى هذا الحد.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "clonal-evolution",
+      "before": "الورم هو مجموعة من الخلايا تتطور عبر الانتقاء الطبيعي. يقتل العلاج الخلايا الحساسة وينتقي ما تبقى، ولهذا تكون المقاومة هي القاعدة؛ وقياس الخلايا الباقية (MRD) وتكييف العلاج تبعاً لذلك هو الاستراتيجية المضادة.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "tumor-dormancy",
+      "before": "يمكن للخلايا السرطانية أن تختبئ في نخاع العظم أو الرئة أو الدماغ لسنوات أو عقود، نائمة وغير مرئية للفحوص التصويرية والعلاج الكيميائي، ثم تستيقظ. والانتكاس المتأخر في سرطان الثدي والبروستاتا هو انتهاء لهذا الخمول.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "من بين آلاف الطفرات في الورم، لا يقود الورم فعليًا سوى حفنة منها (عادةً من 2 إلى 8). الطفرات القائدة إما تعلّق دوّاسة الوقود في وضع التشغيل (الجينات المسرطنة، وتكفي ضربة واحدة) أو تزيل مكبحًا (الجينات الكابتة للورم، ويجب أن تُفقد النسختان كلتاهما). وكل ما عدا ذلك مجرد ركّاب يرافقون الرحلة.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "oncogene-addiction",
+      "before": "حين يعتمد السرطان اعتمادًا كاملًا على جين واحد متحوّر إلى درجة أن تثبيطه يؤدي إلى انهيار الورم.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "tumor-microenvironment",
+      "before": "الورم ليس مجرد خلايا سرطانية. إنه حيّ من الأرومات الليفية والخلايا المناعية والأوعية الدموية والأعصاب والنسيج الداعم، يجنّده السرطان ويفسده، وهو الذي يحدد ما إذا كانت الأدوية والخلايا المناعية قادرة على الدخول.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Hallmarks of Cancer هو الإطار الأكثر استشهاداً به في بيولوجيا السرطان: قائمة قصيرة بالقدرات التي يجب أن يكتسبها كل سرطان، من النمو غير المحدود إلى الاختباء من جهاز المناعة. ويورد تحديث 2022 ثماني سمات مميزة، وخاصيتين تمكينيتين، وأربعة أبعاد جديدة.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "metastasis",
+      "before": "سرطان انتشر من موضعه الأصلي إلى أجزاء بعيدة من الجسم، منتقلاً عبر الدم أو اللمف. والنقائل هي السبب في أن فحوص تحديد المرحلة تنظر إلى الجسم كله، وهي الحالة التي تُعتمد فيها معظم أدوية السرطان الجديدة أولاً.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "oncogene",
+      "before": "جين يدفع الخلية إلى النمو والانقسام عندما يُفرَط في تنشيطه بسبب طفرة أو نسخ إضافية. تصوّره كدوّاسة وقود علقت مضغوطة حتى الأرض.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "جين وظيفته الطبيعية أن يوقف انقسام الخلايا أو أن يجعل الخلايا المتضررة تموت. وفقدانه يزيل مكبحاً، فتستطيع الخلية أن تنمو دون ضابط حتى من غير دوّاسة وقود عالقة.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "angiogenesis",
+      "before": "نمو أوعية دموية جديدة. الورم الذي يتجاوز حجم رأس الدبوس يحتاج إلى إمداد دموي خاص به ويرسل إشارات (أساسًا VEGF) لاستقطابه؛ والأدوية المضادة لتكوّن الأوعية تقطع هذا الإمداد.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "الخلايا الداعمة التي تستقطبها الأورام لبناء نسيج شبيه بالندبة حولها. وهي تغذي السرطان، وتعيق الأدوية والخلايا المناعية، وتحمل بروتين FAP الذي يمكن لفحوص PET رؤيته الآن.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "inducing-angiogenesis",
+      "before": "تُنمّي الأورام إمدادها الدموي الخاص، أو تستولي على الأوعية الموجودة، للحصول على الأكسجين والمغذيات.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "خلايا مناعية غير ناضجة تستدعيها الأورام لإيقاف الخلايا التائية. وتتنبأ أعدادها في الدم بنتائج أسوأ للعلاج المناعي.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ar.ts",
+      "id": "benign-vs-malignant",
+      "before": "الورم الحميد ينمو لكنه يبقى في مكانه ولا يغزو ما حوله؛ أما الورم الخبيث فيغزو الأنسجة المجاورة ويمكن أن ينتشر. الأورام الخبيثة وحدها هي السرطان.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "Tumoren rekrutieren die Reparaturzellen des Körpers, die Fibroblasten, und halten sie dauerhaft im Wundheilungsmodus. Das Narbengewebe, das diese ablagern (Desmoplasie), drückt Blutgefäße zu, sperrt Immunzellen aus, versteift das Gewebe auf eine Weise, die selbst den Krebszellen das Signal zum Wachsen gibt, und ist der Grund, warum Bauchspeicheldrüsenkrebs so schwer zu behandeln ist.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "clonal-evolution",
+      "before": "Ein Tumor ist eine Population, die sich durch natürliche Selektion weiterentwickelt. Die Behandlung tötet die empfindlichen Zellen und selektiert die übrigen, weshalb Resistenz die Regel ist; die überlebende Population zu messen (MRD) und die Therapie anzupassen, ist die Gegenstrategie.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "tumor-dormancy",
+      "before": "Krebszellen können sich jahre- oder jahrzehntelang im Knochenmark, in der Lunge oder im Gehirn verstecken, schlafend und unsichtbar für Bildgebung und Chemotherapie, und dann wieder aufwachen. Ein später Rückfall bei Brust- und Prostatakrebs ist das Ende dieser Ruhephase.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "Von den Tausenden Mutationen in einem Tumor treiben nur eine Handvoll (meist 2 bis 8) ihn tatsächlich an. Diese Treibermutationen klemmen entweder ein Gaspedal fest (Onkogene, ein Treffer genügt) oder entfernen eine Bremse (Tumorsuppressoren, beide Kopien müssen verloren gehen). Alles andere sind Mitfahrer, die nur mitreisen.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "oncogene-addiction",
+      "before": "Wenn ein Krebs so vollständig von einem einzigen mutierten Gen abhängt, dass seine Blockade den Tumor zusammenbrechen lässt.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "tumor-microenvironment",
+      "before": "Ein Tumor besteht nicht nur aus Krebszellen. Er ist eine Nachbarschaft aus Fibroblasten, Immunzellen, Blutgefäßen, Nerven und Stützgewebe, die der Krebs rekrutiert und für seine Zwecke verändert, und die darüber entscheidet, ob Medikamente und Immunzellen hineingelangen können.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Die Hallmarks of Cancer sind das meistzitierte Rahmenwerk der Krebsbiologie: eine kurze Liste der Fähigkeiten, die jeder Krebs erwerben muss, vom unbegrenzten Wachstum bis zum Verstecken vor dem Immunsystem. Die Aktualisierung von 2022 nennt acht Kennzeichen, zwei ermöglichende Eigenschaften und vier neue Dimensionen.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "metastasis",
+      "before": "Krebs, der sich von seinem Ursprungsort über Blut oder Lymphe in entfernte Körperregionen ausgebreitet hat. Metastasen sind der Grund, warum Staging-Untersuchungen den ganzen Körper betrachten, und die Situation, in der die meisten neuen Krebsmedikamente zuerst zugelassen werden.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "oncogene",
+      "before": "Ein Gen, das eine Zelle zu Wachstum und Teilung antreibt, wenn es durch eine Mutation oder zusätzliche Kopien überaktiviert wird. Man kann es sich wie ein Gaspedal vorstellen, das am Boden festklemmt.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "Ein Gen, dessen normale Aufgabe es ist, die Zellteilung zu stoppen oder geschädigte Zellen sterben zu lassen. Sein Verlust entfernt eine Bremse, sodass die Zelle auch ohne klemmendes Gaspedal ungebremst wachsen kann.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "angiogenesis",
+      "before": "Das Wachstum neuer Blutgefäße. Ein Tumor, der größer als ein Stecknadelkopf ist, braucht eine eigene Blutversorgung und sendet Signale (vor allem VEGF) aus, um sie anzulocken; antiangiogene Medikamente kappen diese Versorgung.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "Die Gerüstzellen, die Tumoren rekrutieren, um narbenähnliches Gewebe um sich herum aufzubauen. Sie ernähren den Krebs, blockieren Medikamente und Immunzellen und tragen das FAP-Protein, das PET-Scans inzwischen sichtbar machen können.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "inducing-angiogenesis",
+      "before": "Tumoren bilden ihre eigene Blutversorgung oder vereinnahmen vorhandene Gefäße, um Sauerstoff und Nährstoffe zu erhalten.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "Unreife Immunzellen, die Tumoren herbeirufen, um T-Zellen abzuschalten. Ihre Zahl im Blut sagt schlechtere Ergebnisse der Immuntherapie voraus.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "id": "benign-vs-malignant",
+      "before": "Ein gutartiger Tumor wächst, bleibt aber an seinem Ort und dringt nicht in Nachbargewebe ein; ein bösartiger Tumor infiltriert das umliegende Gewebe und kann sich ausbreiten. Nur bösartige Tumoren sind Krebs.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "oncogene-addiction",
+      "before": "Cuando un cáncer depende tan completamente de un gen mutado que bloquearlo hace colapsar el tumor.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "Los tumores reclutan a las células reparadoras del cuerpo, los fibroblastos, y los mantienen para siempre en modo de cicatrización. El tejido cicatricial que depositan (desmoplasia) aplasta los vasos sanguíneos hasta cerrarlos, deja fuera a las células inmunitarias, endurece el tejido de una forma que por sí misma ordena a las células cancerosas crecer, y es la razón por la que el cáncer de páncreas es tan difícil de tratar.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "clonal-evolution",
+      "before": "Un tumor es una población que evoluciona por selección natural. El tratamiento mata las células sensibles y selecciona las demás, por eso la resistencia es la regla; medir la población superviviente (MRD) y adaptar la terapia es la contraestrategia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "tumor-dormancy",
+      "before": "Las células cancerosas pueden esconderse en la médula ósea, el pulmón o el cerebro durante años o décadas, dormidas e invisibles para las pruebas de imagen y la quimioterapia, y luego despertar. La recaída tardía en el cáncer de mama y de próstata es el final de esa latencia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "De las miles de mutaciones que hay en un tumor, solo un puñado (normalmente entre 2 y 8) lo impulsan de verdad. Las mutaciones conductoras o bien atascan un acelerador en posición de encendido (oncogenes, basta con un solo golpe) o bien eliminan un freno (genes supresores de tumores, deben perderse las dos copias). Todo lo demás son pasajeros que van de acompañantes.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "tumor-microenvironment",
+      "before": "Un tumor no es solo células cancerosas. Es un vecindario de fibroblastos, células inmunitarias, vasos sanguíneos, nervios y tejido de sostén que el cáncer recluta y corrompe, y que decide si los fármacos y las células inmunitarias pueden entrar.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Los Hallmarks of Cancer son el marco más citado en la biología del cáncer: una lista corta de las capacidades que todo cáncer debe adquirir, desde el crecimiento ilimitado hasta esconderse del sistema inmunitario. La actualización de 2022 enumera ocho características distintivas, dos características facilitadoras y cuatro nuevas dimensiones.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "metastasis",
+      "before": "Cáncer que se ha extendido desde donde empezó hasta partes distantes del cuerpo, viajando por la sangre o la linfa. La metástasis es la razón por la que las pruebas de estadificación examinan todo el cuerpo, y el contexto en el que la mayoría de los nuevos fármacos contra el cáncer se aprueban primero.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "oncogene",
+      "before": "Un gen que, cuando se activa en exceso por una mutación o por copias adicionales, empuja a la célula a crecer y dividirse. Piense en un pedal del acelerador atascado a fondo.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "Un gen cuya función normal es impedir que las células se dividan o hacer que las células dañadas mueran. Perderlo elimina un freno, de modo que la célula puede crecer sin control incluso sin un acelerador atascado.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "angiogenesis",
+      "before": "El crecimiento de nuevos vasos sanguíneos. Un tumor mayor que la cabeza de un alfiler necesita su propio riego sanguíneo y emite señales (principalmente VEGF) para reclutarlo; los fármacos antiangiogénicos cortan ese suministro.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "Las células de andamiaje que los tumores reclutan para construir a su alrededor un tejido similar a una cicatriz. Alimentan al cáncer, bloquean fármacos y células inmunitarias, y portan la proteína FAP que ahora las PET pueden ver.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "inducing-angiogenesis",
+      "before": "Los tumores generan su propio suministro de sangre, o se apropian de vasos existentes, para obtener oxígeno y nutrientes.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "Células inmunitarias inmaduras que los tumores reclutan para apagar a las células T. Su número en sangre predice peores resultados con la inmunoterapia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "id": "benign-vs-malignant",
+      "before": "Un tumor benigno crece pero se queda en su sitio y no invade; un tumor maligno invade el tejido circundante y puede extenderse. Solo los tumores malignos son cáncer.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "Les tumeurs recrutent les cellules de réparation de l'organisme, les fibroblastes, et les maintiennent pour toujours en mode cicatrisation. Le tissu cicatriciel qu'ils déposent (desmoplasie) écrase les vaisseaux sanguins jusqu'à les fermer, tient les cellules immunitaires à l'écart, rigidifie le tissu d'une manière qui, en elle-même, incite les cellules cancéreuses à croître, et c'est la raison pour laquelle le cancer du pancréas est si difficile à traiter.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "clonal-evolution",
+      "before": "Une tumeur est une population qui évolue par sélection naturelle. Le traitement tue les cellules sensibles et sélectionne les autres, c'est pourquoi la résistance est la règle ; mesurer la population survivante (MRD) et adapter le traitement est la contre-stratégie.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "tumor-dormancy",
+      "before": "Les cellules cancéreuses peuvent se cacher dans la moelle osseuse, le poumon ou le cerveau pendant des années ou des décennies, endormies et invisibles aux examens d'imagerie comme à la chimiothérapie, puis se réveiller. La rechute tardive dans le cancer du sein et de la prostate correspond à la fin de cette dormance.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "Parmi les milliers de mutations présentes dans une tumeur, seule une poignée (généralement 2 à 8) la fait réellement avancer. Ces mutations « conductrices » soit bloquent un accélérateur en position enfoncée (oncogènes, un seul coup suffit), soit suppriment un frein (suppresseurs de tumeur, les deux copies doivent disparaître). Tout le reste n'est que passager embarqué pour le voyage.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "oncogene-addiction",
+      "before": "Lorsqu'un cancer dépend si complètement d'un seul gène muté que le bloquer fait s'effondrer la tumeur.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "tumor-microenvironment",
+      "before": "Une tumeur n'est pas seulement un amas de cellules cancéreuses. C'est un voisinage de fibroblastes, de cellules immunitaires, de vaisseaux sanguins, de nerfs et de tissu de soutien que le cancer recrute et corrompt, et qui décide si les médicaments et les cellules immunitaires peuvent y pénétrer.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Les Hallmarks of Cancer sont le cadre le plus cité en biologie du cancer : une courte liste des capacités que tout cancer doit acquérir, de la croissance illimitée à la dissimulation face au système immunitaire. La mise à jour de 2022 recense huit caractéristiques, deux caractéristiques facilitatrices et quatre nouvelles dimensions.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "metastasis",
+      "before": "Cancer qui s'est propagé de son point de départ vers des parties éloignées du corps, en voyageant par le sang ou la lymphe. Les métastases sont la raison pour laquelle les examens de stadification regardent tout le corps, et le cadre dans lequel la plupart des nouveaux médicaments anticancéreux sont d'abord approuvés.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "oncogene",
+      "before": "Un gène qui, lorsqu'il est suractivé par une mutation ou des copies supplémentaires, pousse la cellule à croître et à se diviser. Imaginez une pédale d'accélérateur bloquée au plancher.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "Un gène dont le rôle normal est d'empêcher les cellules de se diviser ou de faire mourir les cellules endommagées. Le perdre supprime un frein, si bien que la cellule peut croître sans contrôle même sans accélérateur bloqué.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "angiogenesis",
+      "before": "La croissance de nouveaux vaisseaux sanguins. Une tumeur plus grosse qu'une tête d'épingle a besoin de sa propre irrigation sanguine et envoie des signaux (surtout le VEGF) pour la recruter ; les médicaments anti-angiogéniques coupent cet approvisionnement.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "Les cellules d'échafaudage que les tumeurs recrutent pour construire autour d'elles un tissu semblable à une cicatrice. Elles nourrissent le cancer, bloquent les médicaments et les cellules immunitaires, et portent la protéine FAP que les TEP peuvent désormais voir.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "inducing-angiogenesis",
+      "before": "Les tumeurs se constituent leur propre apport sanguin, ou détournent des vaisseaux existants, pour obtenir de l'oxygène et des nutriments.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "Cellules immunitaires immatures que les tumeurs recrutent pour éteindre les lymphocytes T. Leur nombre dans le sang prédit de moins bons résultats sous immunothérapie.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "id": "benign-vs-malignant",
+      "before": "Une tumeur bénigne grossit mais reste en place et n'envahit pas ; une tumeur maligne envahit les tissus voisins et peut se propager. Seules les tumeurs malignes sont des cancers.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "oncogene-addiction",
+      "before": "जब कैंसर एक म्यूटेट जीन पर इतना निर्भर हो कि उसे रोकने से ट्यूमर ढह जाए।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "ट्यूमर शरीर की मरम्मत करने वाली कोशिकाओं, फ़ाइब्रोब्लास्ट, को अपने साथ मिला लेते हैं और उन्हें हमेशा के लिए घाव भरने की स्थिति में रखते हैं। वे जो निशान ऊतक बनाती हैं (डेस्मोप्लेसिया) वह रक्त वाहिकाओं को दबाकर बंद कर देता है, प्रतिरक्षा कोशिकाओं को बाहर रोक देता है, ऊतक को इस तरह कठोर बना देता है कि यह कठोरता खुद कैंसर कोशिकाओं को बढ़ने का संकेत देती है, और यही कारण है कि अग्न्याशय का कैंसर इलाज के लिए इतना कठिन है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "clonal-evolution",
+      "before": "ट्यूमर एक ऐसी आबादी है जो प्राकृतिक चयन से विकसित होती है। इलाज संवेदनशील कोशिकाओं को मार देता है और बाकी को चुन लेता है, इसीलिए प्रतिरोध होना आम बात है; बची हुई आबादी (MRD) को मापना और उसके अनुसार इलाज बदलना इसका जवाबी तरीका है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "tumor-dormancy",
+      "before": "कैंसर कोशिकाएँ अस्थि मज्जा, फेफड़े या मस्तिष्क में सालों या दशकों तक छिपी रह सकती हैं, सोई हुई और स्कैन तथा कीमोथेरेपी की पकड़ से बाहर, और फिर जाग उठती हैं। स्तन और प्रोस्टेट कैंसर में देर से होने वाली पुनरावृत्ति इसी सुप्तावस्था का समाप्त होना है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "ट्यूमर में मौजूद हज़ारों म्यूटेशनों में से केवल कुछ ही (आम तौर पर 2 से 8) उसे सचमुच चलाते हैं। ये चालक म्यूटेशन या तो एक्सीलरेटर को दबा हुआ जाम कर देते हैं (ऑन्कोजीन, एक ही चोट काफ़ी है) या ब्रेक हटा देते हैं (ट्यूमर सप्रेसर जीन, दोनों प्रतियाँ खत्म होनी चाहिए)। बाकी सब बस साथ सफ़र कर रहे यात्री हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "tumor-microenvironment",
+      "before": "ट्यूमर केवल कैंसर कोशिकाओं का समूह नहीं है। यह फाइब्रोब्लास्ट, प्रतिरक्षा कोशिकाओं, रक्त वाहिकाओं, तंत्रिकाओं और सहारा देने वाले ढांचे का एक ऐसा पड़ोस है, जिसे कैंसर अपने काम में लगाता है और भ्रष्ट कर देता है, और जो यह तय करता है कि दवाएं और प्रतिरक्षा कोशिकाएं अंदर पहुंच पाएंगी या नहीं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Hallmarks of Cancer कैंसर जीव विज्ञान में सबसे अधिक उद्धृत ढाँचा है: उन क्षमताओं की एक छोटी सूची जो हर कैंसर को हासिल करनी होती हैं, असीमित वृद्धि से लेकर प्रतिरक्षा तंत्र से छिपने तक। 2022 के अद्यतन में आठ विशिष्ट लक्षण, दो सहायक विशेषताएँ और चार नए आयाम सूचीबद्ध हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "metastasis",
+      "before": "ऐसा कैंसर जो अपने शुरुआती स्थान से रक्त या लसीका के माध्यम से शरीर के दूर के हिस्सों में फैल गया हो। मेटास्टेसिस ही कारण है कि स्टेजिंग स्कैन पूरे शरीर को देखते हैं, और यही वह स्थिति है जिसमें अधिकतर नई कैंसर दवाओं को सबसे पहले मंज़ूरी मिलती है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "oncogene",
+      "before": "एक ऐसा जीन जो उत्परिवर्तन या अतिरिक्त प्रतियों के कारण अत्यधिक सक्रिय हो जाने पर कोशिका को बढ़ने और विभाजित होने के लिए धकेलता है। इसे फ़र्श तक दबा हुआ, अटका एक्सीलरेटर पैडल समझें।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "एक जीन जिसका सामान्य काम कोशिकाओं को विभाजित होने से रोकना या क्षतिग्रस्त कोशिकाओं को मरवाना है। इसे खो देने से एक ब्रेक हट जाता है, इसलिए कोशिका बिना किसी अटके हुए एक्सीलरेटर के भी अनियंत्रित रूप से बढ़ सकती है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "angiogenesis",
+      "before": "नई रक्त वाहिकाओं का विकास। पिन की नोक से बड़े ट्यूमर को अपनी रक्त आपूर्ति की आवश्यकता होती है और वह इसे जुटाने के लिए संकेत (मुख्यतः VEGF) भेजता है; एंटी-एंजियोजेनिक दवाएं उस आपूर्ति को काट देती हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "वे ढांचा बनाने वाली कोशिकाएं जिन्हें ट्यूमर अपने आसपास निशान जैसा ऊतक बनाने के लिए भर्ती करते हैं। ये कैंसर को पोषण देती हैं, दवाओं और प्रतिरक्षा कोशिकाओं को रोकती हैं, और FAP प्रोटीन धारण करती हैं जिसे अब PET स्कैन देख सकते हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "inducing-angiogenesis",
+      "before": "ट्यूमर ऑक्सीजन और पोषक तत्व पाने के लिए अपनी खुद की रक्त आपूर्ति बनाते हैं, या मौजूदा रक्त वाहिकाओं को अपने कब्ज़े में ले लेते हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "अपरिपक्व प्रतिरक्षा कोशिकाएं जिन्हें ट्यूमर T कोशिकाओं को बंद करने के लिए बुलाते हैं। रक्त में इनकी संख्या इम्यूनोथेरेपी के खराब परिणामों की भविष्यवाणी करती है।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "id": "benign-vs-malignant",
+      "before": "सौम्य ट्यूमर बढ़ता है लेकिन अपनी जगह पर रहता है और आक्रमण नहीं करता; घातक ट्यूमर आसपास के ऊतक पर आक्रमण करता है और फैल सकता है। केवल घातक ट्यूमर ही कैंसर होते हैं।",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "腫瘍は体の修復細胞である線維芽細胞を呼び寄せ、いつまでも傷を治すモードのままにしておきます。線維芽細胞が作る瘢痕組織（デスモプラジア）は血管を押しつぶして閉じ、免疫細胞を締め出し、組織を硬くします。この硬さそれ自体ががん細胞に増殖の合図を送り、膵臓がんがこれほど治療しにくい理由になっています。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "clonal-evolution",
+      "before": "腫瘍は自然選択によって進化する細胞の集団です。治療は感受性のある細胞を殺し、残った細胞を選び出してしまうため、耐性が生じるのがむしろ普通です。生き残った集団（MRD）を測定し、それに応じて治療を調整することが、これに対抗する戦略です。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "tumor-dormancy",
+      "before": "がん細胞は骨髄や肺、脳の中に何年も、あるいは何十年も潜んでいることがあります。眠った状態で、画像検査にも化学療法にも見つからず、やがて目を覚まします。乳がんや前立腺がんで何年も経ってから再発するのは、この休眠が終わったということです。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "腫瘍には何千もの変異があるが、実際に腫瘍を動かしているのはごく一握り（通常2から8個）にすぎない。ドライバー変異は、アクセルを踏み込んだまま固定するか（がん遺伝子、1回のヒットで十分）、ブレーキを取り外すか（がん抑制遺伝子、2つのコピーが両方とも失われる必要がある）のどちらかである。それ以外はすべて、ただ乗り合わせているだけの乗客である。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "oncogene-addiction",
+      "before": "がんが1つの変異遺伝子に完全に依存していて、その遺伝子を阻害すると腫瘍が崩れ落ちてしまう状態のこと。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "tumor-microenvironment",
+      "before": "腫瘍はがん細胞だけでできているわけではない。線維芽細胞、免疫細胞、血管、神経、そして足場となる組織が集まった一つの街であり、がんはこれらを引き込んで自分に都合よく変えてしまう。そしてこの環境が、薬や免疫細胞が腫瘍の中に入れるかどうかを左右する。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Hallmarks of Cancerはがん生物学で最も引用される枠組みで、無制限の増殖から免疫系からの隠蔽まで、すべてのがんが獲得しなければならない能力を短く列挙したものである。2022年の更新では、8つの特徴、2つの促進的特性、4つの新しい次元が挙げられている。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "metastasis",
+      "before": "がんが発生した場所から血液やリンパを通って体の離れた部位に広がったもの。転移があるからこそ病期診断の画像検査は全身を見るのであり、また多くの新しい抗がん薬が最初に承認されるのもこの転移の状況においてである。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "oncogene",
+      "before": "突然変異や余分なコピーによって過剰に活性化すると、細胞を増殖と分裂へと押しやる遺伝子である。床まで踏み込まれたまま固まったアクセルペダルを思い浮かべればよい。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "本来の役割が、細胞の分裂を止めることや、傷ついた細胞を死なせることである遺伝子。これを失うとブレーキが外れるため、アクセルが固着していなくても細胞は歯止めなく増殖できる。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "angiogenesis",
+      "before": "新しい血管が作られること。針の先より大きな腫瘍は自前の血液供給を必要とし、シグナル（主にVEGF）を出して血管を呼び込む。血管新生阻害薬はその供給を断つ。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "腫瘍が自身の周囲に瘢痕様組織を築くために動員する足場細胞である。がんに栄養を与え、薬剤や免疫細胞を阻み、現在ではPET検査で捉えられるFAPタンパク質を持つ。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "inducing-angiogenesis",
+      "before": "腫瘍は酸素と栄養を得るために、自ら血液供給を作り出すか、既存の血管を取り込む。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "腫瘍が T 細胞を停止させるために呼び寄せる未熟な免疫細胞である。血中のその数は免疫療法の成績不良を予測する。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "id": "benign-vs-malignant",
+      "before": "良性腫瘍は大きくなるがその場にとどまり、周囲に浸潤しない。悪性腫瘍は周囲の組織に浸潤し、転移することがある。がんと呼ばれるのは悪性腫瘍だけである。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "oncogene-addiction",
+      "before": "Quando um câncer depende tão completamente de um gene mutado que bloqueá-lo faz o tumor colapsar.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "Os tumores recrutam as células de reparo do corpo, os fibroblastos, e os mantêm para sempre em modo de cicatrização. O tecido cicatricial que eles depositam (desmoplasia) comprime os vasos sanguíneos até fechá-los, barra as células imunes, enrijece o tecido de um modo que por si só manda as células cancerosas crescerem, e é o motivo pelo qual o câncer de pâncreas é tão difícil de tratar.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "clonal-evolution",
+      "before": "Um tumor é uma população que evolui por seleção natural. O tratamento mata as células sensíveis e seleciona as restantes, e é por isso que a resistência é a regra; medir a população sobrevivente (MRD) e adaptar a terapia é a contraestratégia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "tumor-dormancy",
+      "before": "As células cancerosas podem se esconder na medula óssea, no pulmão ou no cérebro por anos ou décadas, adormecidas e invisíveis aos exames de imagem e à quimioterapia, e depois despertar. A recaída tardia no câncer de mama e de próstata é o fim dessa dormência.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "Das milhares de mutações em um tumor, apenas um punhado (normalmente de 2 a 8) realmente o impulsiona. As mutações condutoras ou travam um acelerador na posição ligada (oncogenes, um único golpe basta) ou removem um freio (supressores tumorais, as duas cópias precisam ser perdidas). Todo o resto é passageiro, apenas acompanhando a viagem.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "tumor-microenvironment",
+      "before": "Um tumor não é apenas células cancerosas. É uma vizinhança de fibroblastos, células imunes, vasos sanguíneos, nervos e tecido de sustentação que o câncer recruta e corrompe, e que decide se os medicamentos e as células imunes conseguem entrar.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Os Hallmarks of Cancer são o arcabouço mais citado da biologia do câncer: uma lista curta das capacidades que todo câncer precisa adquirir, do crescimento ilimitado a esconder-se do sistema imunológico. A atualização de 2022 lista oito marcas, duas características facilitadoras e quatro novas dimensões.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "metastasis",
+      "before": "Câncer que se espalhou de onde começou para partes distantes do corpo, viajando pelo sangue ou pela linfa. A metástase é o motivo pelo qual os exames de estadiamento olham o corpo inteiro, e o cenário em que a maioria dos novos medicamentos contra o câncer é aprovada primeiro.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "oncogene",
+      "before": "Um gene que, quando ativado em excesso por mutação ou por cópias extras, empurra a célula a crescer e se dividir. Pense em um pedal do acelerador travado no fundo.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "Um gene cuja função normal é impedir que as células se dividam ou fazer com que células danificadas morram. Perdê-lo remove um freio, de modo que a célula pode crescer sem controle mesmo sem um acelerador travado.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "angiogenesis",
+      "before": "O crescimento de novos vasos sanguíneos. Um tumor maior que a cabeça de um alfinete precisa do seu próprio suprimento de sangue e envia sinais (principalmente VEGF) para recrutá-lo; os medicamentos antiangiogênicos cortam esse suprimento.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "As células de sustentação que os tumores recrutam para construir um tecido semelhante a cicatriz ao seu redor. Elas alimentam o câncer, bloqueiam fármacos e células imunes e carregam a proteína FAP, que os exames PET agora conseguem ver.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "inducing-angiogenesis",
+      "before": "Os tumores criam seu próprio suprimento de sangue, ou cooptam vasos existentes, para obter oxigênio e nutrientes.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "Células imunes imaturas que os tumores convocam para desligar as células T. O seu número no sangue prevê piores resultados com a imunoterapia.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "id": "benign-vs-malignant",
+      "before": "Um tumor benigno cresce, mas fica no lugar e não invade; um tumor maligno invade o tecido ao redor e pode se espalhar. Só os tumores malignos são câncer.",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "oncogene-addiction",
+      "before": "癌症对单一突变基因依赖到阻断它就会使肿瘤崩溃的程度。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "肿瘤招募人体的修复细胞，即成纤维细胞，并让它们永远停留在伤口愈合模式。它们沉积的瘢痕组织（促结缔组织增生）把血管挤压闭合，把免疫细胞挡在外面，使组织变硬，而这种变硬本身就会促使癌细胞生长；这也是胰腺癌如此难治的原因。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "clonal-evolution",
+      "before": "肿瘤是一个通过自然选择不断演化的细胞群体。治疗杀死敏感的细胞，同时筛选出其余的细胞，这就是耐药成为常态的原因；测量存活下来的细胞群体（MRD）并据此调整治疗，是应对这一问题的策略。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "tumor-dormancy",
+      "before": "癌细胞可以在骨髓、肺或大脑中潜伏数年甚至数十年，处于休眠状态，影像检查和化疗都无法发现，然后再苏醒过来。乳腺癌和前列腺癌的迟发性复发就是休眠结束的表现。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "肿瘤中有成千上万个突变，但真正驱动肿瘤的只有少数几个（通常为2到8个）。驱动突变要么把油门卡死（癌基因，一次打击就够了），要么拆掉刹车（肿瘤抑制基因，两个拷贝都必须失去）。其余的都只是搭便车的乘客。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "tumor-microenvironment",
+      "before": "肿瘤不只是癌细胞。它是一个由成纤维细胞、免疫细胞、血管、神经和支架结构组成的社区，癌症会招募并腐化这些成分，而这些成分决定了药物和免疫细胞能否进入。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "Hallmarks of Cancer是癌症生物学中被引用最多的框架：一份简短的清单，列出每种癌症都必须获得的能力，从无限生长到躲避免疫系统。2022年的更新列出了八项特征、两项促成特性和四个新维度。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "metastasis",
+      "before": "从原发部位经血液或淋巴扩散到身体远处部位的癌症。转移是分期检查要扫描全身的原因，也是大多数新抗癌药物最先获批的场景。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "oncogene",
+      "before": "一种基因，当它因突变或额外拷贝而被过度激活时，会推动细胞生长和分裂。可以把它想象成一个卡在最底部的油门踏板。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "一种基因，其正常职责是阻止细胞分裂或让受损细胞死亡。失去它就等于失去了一个刹车，因此即使没有卡住的油门，细胞也能不受控制地生长。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "angiogenesis",
+      "before": "新血管的生长。比针头大的肿瘤需要自己的血液供应，会发出信号（主要是VEGF）来招募血管；抗血管生成药物则切断这一供应。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "肿瘤招募来在自身周围构建瘢痕样组织的支架细胞。它们为癌症提供养分，阻挡药物和免疫细胞，并携带如今PET扫描能够看到的FAP蛋白。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "inducing-angiogenesis",
+      "before": "肿瘤自行生成血液供应，或征用现有血管，以获取氧气和营养。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "肿瘤召集来关闭 T 细胞的未成熟免疫细胞。它们在血液中的数量预示着更差的免疫治疗结局。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "benign-vs-malignant",
+      "before": "良性肿瘤会生长但停留在原位、不侵犯周围组织；恶性肿瘤会侵犯周围组织并可能扩散。只有恶性肿瘤才是癌症。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "tumour-hypoxia",
+      "before": "肿瘤乏氧：肿瘤中生长超过血供、缺乏氧气的区域。它们抵抗放疗和部分化疗，并驱使肿瘤变得更具侵袭性。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "clonal-evolution-theory",
+      "before": "肿瘤是一群会突变、竞争并被选择的细胞，与物种演化完全相同，而治疗只是另一种选择压力。Peter Nowell于1976年提出此观点；它解释了肿瘤为何是多个克隆的混合体、为何几乎任何单药都会出现耐药，以及为何有研究者尝试引导而非根除肿瘤的演化。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "microenvironment-inflammation-theory",
+      "before": "肿瘤不是一团癌细胞，而是一个组织：成纤维细胞、血管、免疫细胞和基质被伤口使用的同一套信号招募而来，却从未被叫停。Rudolf Virchow于1863年在肿瘤中看到白细胞，Harold Dvorak于1986年称肿瘤为“不愈合的伤口”。这一观点解释了慢性炎症为何导致约五分之一的癌症，以及阿司匹林、乙肝和HPV疫苗、抗血管生成药物为何有效。",
+      "after": "current English fallback"
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "id": "immune-surveillance-immunoediting",
+      "before": "免疫系统巡查恶变细胞并清除其中大多数；我们见到的肿瘤是学会隐藏的那些。Paul Ehrlich于1909年猜到这一点，Macfarlane Burnet和Lewis Thomas在1950年代论证它，该理论在1970年代被宣告死亡，Robert Schreiber的小鼠实验于2001年使其复活。能治愈部分转移性黑色素瘤的免疫检查点抑制剂是它的证明。",
+      "after": "current English fallback"
+    }
+  ],
+  "replacedSimple": [
+    {
+      "file": "src/data/simple/part-b.ts",
+      "id": "oncogene-addiction",
+      "before": "When a cancer depends so completely on one broken gene that blocking it collapses the tumour.",
+      "after": "Oncogene addiction is dependence on an activated driver in a defined context. A mutation or high expression alone does not demonstrate that dependence or a safe treatment window."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "tumor-microenvironment",
+      "before": "A tumour is a neighbourhood of fibroblasts, immune cells, blood vessels and scaffolding that the cancer recruits and corrupts, and which decides whether drugs and immune cells get in.",
+      "after": "A tumour’s surroundings include cells, vessels, matrix and local conditions. Their presence or location alone does not establish how they affect the cancer or its treatment."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "clonal-evolution",
+      "before": "A tumour evolves by natural selection: treatment kills the sensitive cells and leaves the rest, so measuring what survives and adapting therapy is the counter-strategy.",
+      "after": "Cancer populations can change through inherited variation, selection and chance. A clone’s larger share does not by itself prove more cells, resistance or the cause of change."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "tumor-dormancy",
+      "before": "Cancer cells can hide asleep in bone marrow, lung or brain for years, invisible to scans and chemotherapy, then wake up, which is what late relapse means.",
+      "after": "Viable cancer cells may remain nondividing, or a population may stay stable because gains balance losses. A quiet scan alone cannot establish either state."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "oncogene-activation-two-hit",
+      "before": "Of the thousands of mutations in a tumour only a handful drive it, either jamming an accelerator on or removing a brake, and the rest are passengers.",
+      "after": "Activating a growth driver and losing a protective function are different mechanisms. Two-hit loss explains some suppressors, while dosage and interference provide other routes."
+    },
+    {
+      "file": "src/data/simple/part-e.ts",
+      "id": "caf-activation-desmoplasia",
+      "before": "Tumours keep the body's repair cells, fibroblasts, in wound-healing mode, and the scar tissue they lay down squeezes vessels shut and walls out immune cells, especially in pancreatic cancer.",
+      "after": "Fibroblast activation can alter matrix and signals in a tumour. The resulting stroma has varied functions, so removing it is not a general treatment rule."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "hallmarks-of-cancer",
+      "before": "The Hallmarks of Cancer is a famous short list of the abilities every cancer must gain, such as endless growth and hiding from the immune system.",
+      "after": "The hallmarks organise research on cancer capabilities. The framework has changed over time and is not a diagnostic checklist or a treatment-selection test."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "inducing-angiogenesis",
+      "before": "Inducing angiogenesis means tumours grow their own blood supply or hijack existing vessels to get oxygen and nutrients, which some drugs try to block.",
+      "after": "Obtaining a blood supply is a cancer capability. New-vessel growth is one route; use of existing vessels is another, and neither vessel count alone proves useful delivery."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "cancer-associated-fibroblasts",
+      "before": "Cancer-associated fibroblasts are scaffolding cells that tumours recruit to build scar-like tissue around themselves, feeding the cancer and blocking drugs and immune cells.",
+      "after": "Cancer-associated fibroblasts are stromal cells with varied states and effects. No single marker or abundance measurement shows that all of them suppress immunity or promote cancer."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "myeloid-derived-suppressor-cells",
+      "before": "Myeloid-derived suppressor cells are immature immune cells that tumours summon to switch off T cells, and high numbers in blood predict worse immunotherapy results.",
+      "after": "These heterogeneous myeloid populations are characterised using phenotype, suppressive function and context. A marker or blood-cell count alone does not establish them."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "oncogene",
+      "before": "An oncogene is a gene that pushes a cell to grow and divide when over-activated by mutation or extra copies, like an accelerator pedal stuck down.",
+      "after": "An oncogene is an activated form of a growth-promoting gene. Its presence alone does not prove that the cancer depends on it or that a particular drug will help."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "tumour-suppressor-gene",
+      "before": "A tumour suppressor gene normally stops cells dividing or makes damaged cells die, so losing it removes a brake and lets the cell grow unchecked.",
+      "after": "Tumour-suppressor genes help restrain growth or preserve cells and their genomes. Loss can matter through several mechanisms, so losing both copies is not a universal rule."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "angiogenesis",
+      "before": "Angiogenesis is the growth of new blood vessels, which a tumour needs once it is bigger than a pinhead and which some cancer drugs cut off.",
+      "after": "Angiogenesis is the growth of new blood vessels from existing vessels. Vessel number, blood flow, transport and oxygen delivery are different measurements."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "benign-vs-malignant",
+      "before": "A benign tumour grows but stays put, while a malignant tumour invades surrounding tissue and can spread, and only malignant tumours are cancer.",
+      "after": "Benign growths do not invade or metastasise, but can cause harm by their size or location. Cancer diagnosis depends on tissue and clinical context, not one mutation or growth rate."
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "id": "metastasis",
+      "before": "Metastasis is cancer that has spread from where it started to distant parts of the body through the blood or lymph, the setting where most new drugs are first tested.",
+      "after": "Metastasis is the establishment of cancer at a distant site. Finding cells in transit or in another tissue does not by itself demonstrate sustained distant growth."
+    },
+    {
+      "file": "src/data/simple/part-o.ts",
+      "id": "clonal-evolution-theory",
+      "before": "A tumour is a population of cells that mutate, compete and are selected just as species are, which explains why tumours are mixtures of clones and why resistance to almost any single drug appears.",
+      "after": "An evolutionary framework explains how inherited variation, selection and chance change cancer populations. Sampling and model assumptions limit what can be inferred for one tumour."
+    },
+    {
+      "file": "src/data/simple/part-o.ts",
+      "id": "immune-surveillance-immunoediting",
+      "before": "Immune surveillance is the idea that the immune system destroys most cells that turn cancerous, so the tumours we see are the ones that learned to hide from it.",
+      "after": "Immune responses can control cancer and select which populations persist. Immunoediting is a testable framework, not a way to assign a phase or recurrence risk from one scan."
+    },
+    {
+      "file": "src/data/simple/part-o.ts",
+      "id": "microenvironment-inflammation-theory",
+      "before": "This theory sees a tumour as a tissue of cancer cells plus recruited blood vessels and immune cells, behaving like a wound that never heals.",
+      "after": "Cancer cells interact with surrounding tissue and immune cells. Inflammation and stromal responses can help or restrain cancer, with effects depending on the population and context."
+    },
+    {
+      "file": "src/data/simple/part-o.ts",
+      "id": "tumour-hypoxia",
+      "before": "Tumour hypoxia means regions of a tumour that have outgrown their blood supply and are short of oxygen, which makes them resist radiotherapy and become more aggressive.",
+      "after": "Hypoxia is reduced local oxygen availability relative to tissue needs. A response marker or vessel count is not a direct oxygen measurement."
+    }
+  ],
+  "addedSimple": [
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "intra-tumour-heterogeneity",
+      "text": "Cancer cells can differ in DNA, molecular state and behaviour across regions and time. One sample and one target measurement need not represent every population."
+    },
+    {
+      "file": "src/data/simple/part-s.ts",
+      "id": "extracellular-matrix",
+      "text": "The extracellular matrix is the molecular material around cells. Its amount, arrangement, mechanics and effects on cell movement are different features."
+    }
+  ],
+  "namedLanguageReviews": 0,
+  "reason": "Corrected definitions must not retain the earlier short text. Existing long-summary hash selectors reject changed source summaries automatically. No translation is claimed newly reviewed."
+}

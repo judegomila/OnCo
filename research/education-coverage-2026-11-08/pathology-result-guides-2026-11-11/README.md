@@ -1,0 +1,9 @@
+# Reading breast pathology and surgery results
+
+Five original and five later guide versions retain separate inventories: 85 and 86 rows, with 75 and 76 substantive requirements. All are represented at the stated source depth; ten recap/source-scope rows per version earn no independent credit. The later version adds the post-neoadjuvant needle-biopsy time point. All 102 section identities match the pins; two personal-case sections are excluded.
+
+Five existing records carry 12 connected new teaching paragraphs and corrections to receptor-response promises, compulsory surgical staging, the generic biopsy-only diagnostic claim and the implication that OlympiA was restricted to TNBC. Specimen collection, documented treatment and report dates remain distinct. RCB, stage, margins, immune-cell area and receptor results retain their separate denominators and roles. No new canonical id is created.
+
+All 133 field references pass 184 paragraph checks across 22 record hubs and the invasive-NST Data section. JSON matches 22 records and 202 Markdown passages; OpenAPI and dedupe pass. TypeScript, lint, validation and all 293 test files pass, with 3,100 tests passed and two existing skips. Eight stale unreviewed biopsy translations are withdrawn, Simple English is corrected and no language review is claimed.
+
+Ten full-extent Mermaid renders and both clock SVG themes were viewed. The fictional data JSON and mixed provenance JSON were read completely. Three asset paths carry teaching and one is supporting; the provenance caption and alt duplicate the owner exactly. Sixteen abstracts and targeted primary/institutional passages were read, with zero whole original papers claimed. The linked CTNeoBC and NRG-BR005 erratum bodies remain unread and are explicitly queued. Earlier catalogue statements, generator claims and historical custody hashes are not recertified. Nothing is merged, live, expert-approved or learner-approved.

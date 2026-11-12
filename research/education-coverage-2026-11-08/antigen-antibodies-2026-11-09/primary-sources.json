@@ -1,0 +1,714 @@
+{
+  "publications": [
+    {
+      "pmid": "10742152",
+      "doi": "10.1038/74704",
+      "title": "Inhibitory Fc receptors modulate in vivo cytotoxicity against tumor targets.",
+      "authors": "Clynes RA, Towers TL, Presta LG, Ravetch JV.",
+      "year": "2000",
+      "url": "https://doi.org/10.1038/74704",
+      "readingDepth": "abstract",
+      "supportedClaims": "Mouse models: FcgammaRIIB regulates ADCC in vivo; Fc gamma receptor engagement dominant for trastuzumab and rituximab activity",
+      "captureSha256": "d54162d737dc85f62c065445d88291e9d0ca1433228d3fb46b542005a13290e5"
+    },
+    {
+      "pmid": "11060013",
+      "doi": "10.1093/emboj/19.21.5611",
+      "title": "Structure of a covalently stabilized complex of a human alphabeta T-cell receptor, influenza HA peptide and MHC class II molecule, HLA-DR1.",
+      "authors": "Hennecke J, Carfi A, Wiley DC.",
+      "year": "2000",
+      "url": "https://doi.org/10.1093/emboj/19.21.5611",
+      "readingDepth": "abstract",
+      "supportedClaims": "",
+      "captureSha256": "34c540ea016db24eb8f00b0f7de0400d459ebfd4a544134dede6237e02c43f25"
+    },
+    {
+      "pmid": "11120766",
+      "doi": "10.1084/jem.192.12.1685",
+      "title": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+      "authors": "den Haan JM, Lehar SM, Bevan MJ.",
+      "year": "2000",
+      "url": "https://doi.org/10.1084/jem.192.12.1685",
+      "readingDepth": "abstract",
+      "supportedClaims": "Mouse: CD8+ DCs cross-prime, TAP dependent",
+      "captureSha256": "da3ba73101b8bcb704a67332b9cc69bc76bc7ed53a8af4372b276b835d25d1a1"
+    },
+    {
+      "pmid": "14563324",
+      "doi": "10.1016/s1074-7613(03)00267-x",
+      "title": "Blimp-1 is required for the formation of immunoglobulin secreting plasma cells and pre-plasma memory B cells.",
+      "authors": "Shapiro-Shelef M, Lin KI, McHeyzer-Williams LJ, Liao J, McHeyzer-Williams MG, Ca",
+      "year": "2003",
+      "url": "https://doi.org/10.1016/s1074-7613(03)00267-x",
+      "readingDepth": "abstract",
+      "supportedClaims": "Blimp-1 deletion in mouse B cells abolishes plasma cells and secretion with normal B-cell responses",
+      "captureSha256": "bd7176a9228c6cb07faddfb253b5e3df98e0b736266b3a05b591e179caecfebe"
+    },
+    {
+      "pmid": "15908954",
+      "doi": "10.1038/ni1208",
+      "title": "Concerted peptide trimming by human ERAP1 and ERAP2 aminopeptidase complexes in the endoplasmic reticulum.",
+      "authors": "Saveanu L, Carroll O, Lindo V, Del Val M, Lopez D, Lepelletier Y, Greer F, Schom",
+      "year": "2005",
+      "url": "https://doi.org/10.1038/ni1208",
+      "readingDepth": "abstract",
+      "supportedClaims": "Complementary ERAP1 and ERAP2 trimming",
+      "captureSha256": "289e5c36b9c4a65814ca2045a029b0dbc0fb657e1132b196be628b36b7296525"
+    },
+    {
+      "pmid": "16322460",
+      "doi": "10.1126/science.1118948",
+      "title": "Divergent immunoglobulin g subclass activity through selective Fc receptor binding.",
+      "authors": "Nimmerjahn F, Ravetch JV.",
+      "year": "2005",
+      "url": "https://doi.org/10.1126/science.1118948",
+      "readingDepth": "abstract",
+      "supportedClaims": "IgG subclass activity predicted by activating-to-inhibitory Fc receptor binding ratio (mouse)",
+      "captureSha256": "2e614c05d3f08599191b90ad75c7d86aaa8fafc992527f96b142f12817051b73"
+    },
+    {
+      "pmid": "16549777",
+      "doi": "10.1073/pnas.0600548103",
+      "title": "Familial hypercatabolic hypoproteinemia caused by deficiency of the neonatal Fc receptor, FcRn, due to a mutant beta2-microglobulin gene.",
+      "authors": "Wani MA, Haynes LD, Kim J, Bronson CL, Chaudhury C, Mohanty S, Waldmann TA, Robi",
+      "year": "2006",
+      "url": "https://doi.org/10.1073/pnas.0600548103",
+      "readingDepth": "abstract",
+      "supportedClaims": "B2M mutation causes FcRn deficiency",
+      "captureSha256": "8672d4927124e0b1918defdf18f5e7c26dd5b3d551fd47a0e2ebc2d5e54ee5d7"
+    },
+    {
+      "pmid": "20479116",
+      "doi": "10.1084/jem.20092140",
+      "title": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+      "authors": "Jongbloed SL, Kassianos AJ, McDonald KJ, Clark GJ, Ju X, Angel CE, Chen CJ, Dunb",
+      "year": "2010",
+      "url": "https://doi.org/10.1084/jem.20092140",
+      "readingDepth": "abstract",
+      "supportedClaims": "Human CD141+ DCs cross-present soluble protein and necrotic infected-cell antigen",
+      "captureSha256": "bb4ff5c7691b8b89e13f76b095b99f9feaf0e14490f921a76e6ebc5b178cc72d"
+    },
+    {
+      "pmid": "21455179",
+      "doi": "10.1038/nature09863",
+      "title": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+      "authors": "Wakim LM, Bevan MJ.",
+      "year": "2011",
+      "url": "https://doi.org/10.1038/nature09863",
+      "readingDepth": "abstract",
+      "supportedClaims": "Cross-dressing by transfer of preformed peptide-MHC in mouse viral infection",
+      "captureSha256": "152c4857e09275200b4c94336f18f98ffc4740e2146842389a33e1ae2ff31604"
+    },
+    {
+      "pmid": "22431638",
+      "doi": "10.1073/pnas.1118801109",
+      "title": "Crystal structure of a complete ternary complex of T-cell receptor, peptide-MHC, and CD4.",
+      "authors": "Yin Y, Wang XX, Mariuzza RA.",
+      "year": "2012",
+      "url": "https://doi.org/10.1073/pnas.1118801109",
+      "readingDepth": "abstract",
+      "supportedClaims": "TCR-pMHC-CD4 ternary complex structure",
+      "captureSha256": "f56f00c9166916e4c176cc7ac02770e474a46d8f12736afa53f45691d559a317"
+    },
+    {
+      "pmid": "23770775",
+      "doi": "10.1182/blood-2013-03-490565",
+      "title": "Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma.",
+      "authors": "Linette GP, Stadtmauer EA, Maus MV, Rapoport AP, Levine BL, Emery L, Litzky L, B",
+      "year": "2013",
+      "url": "https://doi.org/10.1182/blood-2013-03-490565",
+      "readingDepth": "abstract",
+      "supportedClaims": "MAGE-A3 TCR cardiac deaths, titin cross-reactivity, no MAGE-A3 in heart",
+      "captureSha256": "c8f87f811e9658710605911b9a882be435eb284052ffc9ead36c09eef727015e"
+    },
+    {
+      "pmid": "23778140",
+      "doi": "10.1172/jci67428",
+      "title": "CD4⁺ follicular helper T cell infiltration predicts breast cancer survival.",
+      "authors": "Gu-Trantien C, Loi S, Garaud S, Equeter C, Libin M, de Wind A, Ravoet M, Le Buan",
+      "year": "2013",
+      "url": "https://doi.org/10.1172/jci67428",
+      "readingDepth": "abstract",
+      "supportedClaims": "CD4 Tfh in breast TLS germinal centres; 8-gene signature predicts survival",
+      "captureSha256": "98d770d1bdd0251b177a6c2cd2fa7b511fe4c80f2323559f5e0842953e66b47b"
+    },
+    {
+      "pmid": "23926201",
+      "doi": "10.1126/scitranslmed.3006034",
+      "title": "Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells.",
+      "authors": "Cameron BJ, Gerry AB, Dukes J, Harper JV, Kannan V, Bianchi FC, Grand F, Brewer ",
+      "year": "2013",
+      "url": "https://doi.org/10.1126/scitranslmed.3006034",
+      "readingDepth": "abstract",
+      "supportedClaims": "Titin peptide ESDPIVAQY identified as cross-reactive target",
+      "captureSha256": "3959a49c305b27d25ed807d3ed39946f5e53486957f1c5989e689a79cf850147"
+    },
+    {
+      "pmid": "24626930",
+      "doi": "10.1126/science.1248943",
+      "title": "Complement is activated by IgG hexamers assembled at the cell surface.",
+      "authors": "Diebolder CA, Beurskens FJ, de Jong RN, Koning RI, Strumane K, Lindorfer MA, Voo",
+      "year": "2014",
+      "url": "https://doi.org/10.1126/science.1248943",
+      "readingDepth": "abstract",
+      "supportedClaims": "IgG hexamers on cells recruit and activate C1",
+      "captureSha256": "cd616f0fb5996d9467c7a34ce36fc72cc751039db9ed955eb0b9dcd2657416b1"
+    },
+    {
+      "pmid": "25143287",
+      "doi": "10.1093/bioinformatics/btu548",
+      "title": "OptiType: precision HLA typing from next-generation sequencing data.",
+      "authors": "Szolek A, Schubert B, Mohr C, Sturm M, Feldhahn M, Kohlbacher O.",
+      "year": "2014",
+      "url": "https://doi.org/10.1093/bioinformatics/btu548",
+      "readingDepth": "abstract",
+      "supportedClaims": "OptiType accuracy 97% in benchmark",
+      "captureSha256": "ac618af904ebf40216442361bec6b2f590f48d844fa1b3abdcecd757de28415d"
+    },
+    {
+      "pmid": "25368619",
+      "doi": "10.3389/fimmu.2014.00520",
+      "title": "IgG subclasses and allotypes: from structure to effector functions.",
+      "authors": "Vidarsson G, Dekkers G, Rispens T.",
+      "year": "2014",
+      "url": "https://doi.org/10.3389/fimmu.2014.00520",
+      "readingDepth": "abstract",
+      "supportedClaims": "Review: IgG subclass hinge/CH2 differences, FcgammaR, C1q and FcRn",
+      "captureSha256": "de33ec50d6a1013dd83fffb8fd507bed8b076b63ba291cb5c7883d68364abd7f"
+    },
+    {
+      "pmid": "27281205",
+      "doi": "10.1038/nature18300",
+      "title": "Systemic RNA delivery to dendritic cells exploits antiviral defence for cancer immunotherapy.",
+      "authors": "Kranz LM, Diken M, Haas H, Kreiter S, Loquai C, Reuter KC, Meng M, Fritz D, Vasc",
+      "year": "2016",
+      "url": "https://doi.org/10.1038/nature18300",
+      "readingDepth": "abstract",
+      "supportedClaims": "RNA-lipoplexes deliver RNA to DCs which express encoded antigen",
+      "captureSha256": "013e7cff2b447387bc4868efef4198c211d21cbbe6c1615c5534c177e0df9b4d"
+    },
+    {
+      "pmid": "27433843",
+      "doi": "10.1056/nejmoa1604958",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "authors": "Zaretsky JM, Garcia-Diaz A, Shin DS, Escuin-Ordinas H, Hugo W, Hu-Lieskovan S, T",
+      "year": "2016",
+      "url": "https://doi.org/10.1056/nejmoa1604958",
+      "readingDepth": "abstract",
+      "supportedClaims": "Acquired PD-1 resistance: JAK1/2 loss in 2 of 4 patients; B2M truncation with lost surface class I in a third",
+      "captureSha256": "da22b637ced56ce08395105c9aadd3a82243e6fb4e42b7e1962e92d8d219c129"
+    },
+    {
+      "pmid": "27959684",
+      "doi": "10.1056/nejmoa1609279",
+      "title": "T-Cell Transfer Therapy Targeting Mutant KRAS in Cancer.",
+      "authors": "Tran E, Robbins PF, Lu YC, Prickett TD, Gartner JJ, Jia L, Pasetto A, Zheng Z, R",
+      "year": "2016",
+      "url": "https://doi.org/10.1056/nejmoa1609279",
+      "readingDepth": "abstract",
+      "supportedClaims": "KRAS G12D TIL lesion escape by loss of HLA-C*08:02 haplotype",
+      "captureSha256": "f2e3fcc12f62d8dbca2ad855c789e2e5f1c99f989f765c9893aa8346244b0c43"
+    },
+    {
+      "pmid": "28077575",
+      "doi": "10.1074/jbc.m116.767749",
+      "title": "Effector-attenuating Substitutions That Maintain Antibody Stability and Reduce Toxicity in Mice.",
+      "authors": "Lo M, Kim HS, Tong RK, Bainbridge TW, Vernes JM, Zhang Y, Lin YL, Chung S, Denni",
+      "year": "2017",
+      "url": "https://doi.org/10.1074/jbc.m116.767749",
+      "readingDepth": "abstract",
+      "supportedClaims": "NG and DANG retain complement in mice; LALA-PG eliminates complement binding",
+      "captureSha256": "71bcdb00739367971a156ccfd9d3ac9bf9ee66dbc6cc01d3fed73083c77d28dd"
+    },
+    {
+      "pmid": "28649982",
+      "doi": "10.1038/ncomms15924",
+      "title": "Structural and regulatory diversity shape HLA-C protein expression levels.",
+      "authors": "Kaur G, Gras S, Mobbs JI, Vivian JP, Cortes A, Barber T, Kuttikkatte SB, Jensen ",
+      "year": "2017",
+      "url": "https://doi.org/10.1038/ncomms15924",
+      "readingDepth": "abstract",
+      "supportedClaims": "HLA-C expression varies allele-specifically",
+      "captureSha256": "0c9eb1ed1393cb553df5456b540d321e7e124cc45115e9c4a380c050bf1deae8"
+    },
+    {
+      "pmid": "29242379",
+      "doi": "10.1074/mcp.tir117.000383",
+      "title": "High-throughput and Sensitive Immunopeptidomics Platform Reveals Profound Interferonγ-Mediated Remodeling of the Human Leukocyte Antigen (HLA) Ligandome.",
+      "authors": "Chong C, Marino F, Pak H, Racle J, Daniel RT, Müller M, Gfeller D, Coukos G, Bas",
+      "year": "2018",
+      "url": "https://doi.org/10.1074/mcp.tir117.000383",
+      "readingDepth": "abstract",
+      "supportedClaims": "HLA ligandome method; IFNg remodelling in ovarian cancer cells",
+      "captureSha256": "1fab3d10b9f00329cbfbb14853362aa216f179dae1ce44ab765238d8314cb410"
+    },
+    {
+      "pmid": "30833945",
+      "doi": "10.3389/fimmu.2019.00141",
+      "title": "Pro-inflammatory Cytokines Alter the Immunopeptidome Landscape by Modulation of HLA-B Expression.",
+      "authors": "Javitt A, Barnea E, Kramer MP, Wolf-Levy H, Levin Y, Admon A, Merbl Y.",
+      "year": "2019",
+      "url": "https://doi.org/10.3389/fimmu.2019.00141",
+      "readingDepth": "abstract",
+      "supportedClaims": "TNFa/IFNg alter immunopeptidome in lung cancer cells via HLA-B",
+      "captureSha256": "3cfc2732b753d37c35854f96a2cc456eefbb4f28153ab7ab05f5ef2edd01075f"
+    },
+    {
+      "pmid": "31092913",
+      "doi": "10.1038/s41596-019-0133-y",
+      "title": "Mass spectrometry-based identification of MHC-bound peptides for immunopeptidomics.",
+      "authors": "Purcell AW, Ramarathinam SH, Ternette N.",
+      "year": "2019",
+      "url": "https://doi.org/10.1038/s41596-019-0133-y",
+      "readingDepth": "abstract",
+      "supportedClaims": "Immunoaffinity capture and MS identification protocol",
+      "captureSha256": "ddb4575de492be53773fa0ba631ca21e1cdf85de66499a027eb82f005693f28c"
+    },
+    {
+      "pmid": "31345234",
+      "doi": "10.1186/s12920-019-0544-1",
+      "title": "Elevated neoantigen levels in tumors with somatic mutations in the HLA-A, HLA-B, HLA-C and B2M genes.",
+      "authors": "Castro A, Ozturk K, Pyke RM, Xian S, Zanetti M, Carter H.",
+      "year": "2019",
+      "url": "https://doi.org/10.1186/s12920-019-0544-1",
+      "readingDepth": "abstract",
+      "supportedClaims": "",
+      "captureSha256": "2aefd990146c190acf0702638af10bfa0128e34224ea647ba00d55a6b9ea333a"
+    },
+    {
+      "pmid": "31844290",
+      "doi": "10.1038/s41587-019-0322-9",
+      "title": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population.",
+      "authors": "Sarkizova S, Klaeger S, Le PM, Li LW, Oliveira G, Keshishian H, Hartigan CR, Zha",
+      "year": "2020",
+      "url": "https://doi.org/10.1038/s41587-019-0322-9",
+      "readingDepth": "abstract",
+      "supportedClaims": ">185,000 peptides, 95 mono-allelic lines, HLAthena",
+      "captureSha256": "d08e8bb78f4361394e7d381cefcd5d02b67b96bfacbeaa33dc5325ee8d8957ff"
+    },
+    {
+      "pmid": "31942071",
+      "doi": "10.1038/s41586-019-1914-8",
+      "title": "Tertiary lymphoid structures improve immunotherapy and survival in melanoma.",
+      "authors": "Cabrita R, Lauss M, Sanna A, Donia M, Skaarup Larsen M, Mitra S, Johansson I, Ph",
+      "year": "2020",
+      "url": "https://doi.org/10.1038/s41586-019-1914-8",
+      "readingDepth": "abstract",
+      "supportedClaims": "B cells, TLS and outcomes in melanoma ICI cohorts",
+      "captureSha256": "f33c84322e8c55a2e36ca883688e63732d6639879e660653f3950c9bac0ba16b"
+    },
+    {
+      "pmid": "32406916",
+      "doi": "10.1093/nar/gkaa379",
+      "title": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data.",
+      "authors": "Reynisson B, Alvarez B, Paul S, Peters B, Nielsen M.",
+      "year": "2020",
+      "url": "https://doi.org/10.1093/nar/gkaa379",
+      "readingDepth": "abstract",
+      "supportedClaims": "NetMHCpan-4.1 prediction trained on affinity and eluted ligands",
+      "captureSha256": "019ff82029e3dccf9306af21705d514edeca065da5204d1e5df06f317bb3ff60"
+    },
+    {
+      "pmid": "32733040",
+      "doi": "10.1038/s41467-020-17526-5",
+      "title": "Escape from nonsense-mediated decay associates with anti-tumor immunogenicity.",
+      "authors": "Litchfield K, Reading JL, Lim EL, Xu H, Liu P, Al-Bakir M, Wong YNS, Rowan A, Fu",
+      "year": "2020",
+      "url": "https://doi.org/10.1038/s41467-020-17526-5",
+      "readingDepth": "abstract",
+      "supportedClaims": "NMD-escape frameshifts and immunogenicity in cohorts",
+      "captureSha256": "f22e4dd83b99712d1c5e54537c0029a57ca954661a2024646ea9fd35316536b3"
+    },
+    {
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "authors": "Wells DK, van Buuren MM, Dang KK, Hubbard-Lucey VM, Sheehan KCF, Campbell KM, La",
+      "year": "2020",
+      "url": "https://doi.org/10.1016/j.cell.2020.09.015",
+      "readingDepth": "abstract",
+      "supportedClaims": "Consortium: predicted epitopes tested for patient-matched T-cell binding; 608 epitopes",
+      "captureSha256": "8fb3ed36d6c346b62a8c83e683a207531aaa2c2c7104a219f4fa721de3515981"
+    },
+    {
+      "pmid": "34099720",
+      "doi": "10.1038/s41467-021-23713-9",
+      "title": "Deep learning boosts sensitivity of mass spectrometry-based immunopeptidomics.",
+      "authors": "Wilhelm M, Zolg DP, Graber M, Gessulat S, Schmidt T, Schnatbaum K, Schwencke-Wes",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s41467-021-23713-9",
+      "readingDepth": "abstract",
+      "supportedClaims": "Deep-learning spectrum prediction; identification limits",
+      "captureSha256": "4fd63c7fffa2e43e5fbf07af1151fc93976a111ea956f0eb74eafd8f2f2274fe"
+    },
+    {
+      "pmid": "35118423",
+      "doi": "10.1038/s43018-021-00232-6",
+      "title": "Mature tertiary lymphoid structures predict immune checkpoint inhibitor efficacy in solid tumors independently of PD-L1 expression.",
+      "authors": "Vanhersecke L, Brunet M, Guégan JP, Rey C, Bougouin A, Cousin S, Moulec SL, Bess",
+      "year": "2021",
+      "url": "https://doi.org/10.1038/s43018-021-00232-6",
+      "readingDepth": "abstract plus open-access full text via NCBI efetch (PMC8809887)",
+      "supportedClaims": "Mature TLS associated with ICI outcomes in 3 retrospective cohorts; mature = at least one CD23+ cell with dendritic morphology (full text, PMC8809887)",
+      "captureSha256": "28c7bde4909308423dfdd109ae6e8fbadef5dc84ea3018682b6bd88c61f0efdc"
+    },
+    {
+      "pmid": "8348620",
+      "doi": "10.1016/0092-8674(93)80058-m",
+      "title": "TAP1-dependent peptide translocation in vitro is ATP dependent and peptide selective.",
+      "authors": "Shepherd JC, Schumacher TN, Ashton-Rickardt PG, Imaeda S, Ploegh HL, Janeway CA,",
+      "year": "1993",
+      "url": "https://doi.org/10.1016/0092-8674(93)80058-m",
+      "readingDepth": "abstract",
+      "supportedClaims": "TAP1-dependent ATP-dependent peptide-selective translocation in vitro",
+      "captureSha256": "a2eee500ca424cbbec2ef06bcd823f4055b0f350df8843bf0c97076f64a2059e"
+    },
+    {
+      "pmid": "8810254",
+      "doi": "10.1126/science.274.5284.94",
+      "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+      "authors": "Altman JD, Moss PA, Goulder PJ, Barouch DH, McHeyzer-Williams MG, Bell JI, McMic",
+      "year": "1996",
+      "url": "https://doi.org/10.1126/science.274.5284.94",
+      "readingDepth": "abstract",
+      "supportedClaims": "Peptide-HLA tetramers bind antigen-specific T cells",
+      "captureSha256": "97975b884761f295e3d08538b7b19bc6b1baa28f4b1b05bc91c2a77b6502c330"
+    },
+    {
+      "pmid": "8906788",
+      "doi": "10.1038/384134a0",
+      "title": "Structure of the complex between human T-cell receptor, viral peptide and HLA-A2.",
+      "authors": "Garboczi DN, Ghosh P, Utz U, Fan QR, Biddison WE, Wiley DC.",
+      "year": "1996",
+      "url": "https://doi.org/10.1038/384134a0",
+      "readingDepth": "abstract",
+      "supportedClaims": "TCR docks diagonally across peptide-MHC",
+      "captureSha256": "05aaf303e87ee1ac48a93830aadf513c81bcd6427d9fab151bf3ee4fcd998a97"
+    },
+    {
+      "pmid": "9177355",
+      "doi": "10.1038/42523",
+      "title": "Crystal structure of the complex between human CD8alpha(alpha) and HLA-A2.",
+      "authors": "Gao GF, Tormo J, Gerth UC, Wyer JR, McMichael AJ, Stuart DI, Bell JI, Jones EY, ",
+      "year": "1997",
+      "url": "https://doi.org/10.1038/42523",
+      "readingDepth": "abstract",
+      "supportedClaims": "CD8alpha-alpha binds HLA-A2 alpha2, alpha3 and B2M",
+      "captureSha256": "c2ba25955415e87f7d3998f4f9d6a8f585d8f37817a2cb80baded83b9faf76b0"
+    },
+    {
+      "pmid": "9486650",
+      "doi": "10.1038/35869",
+      "title": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+      "authors": "Braud VM, Allan DS, O'Callaghan CA, Söderström K, D'Andrea A, Ogg GS, Lazetic S,",
+      "year": "1998",
+      "url": "https://doi.org/10.1038/35869",
+      "readingDepth": "abstract",
+      "supportedClaims": "HLA-E tetramer binds CD94/NKG2A, not KIR; HLA-E protects from NKG2A+ NK lysis",
+      "captureSha256": "b3947ecfc6b7cbf7fd611a438df4d213c9ca1151da95ca1e753877cc28f29767"
+    },
+    {
+      "pmid": "28561041",
+      "doi": "10.1038/ncomms15440",
+      "title": "Acquired IFNγ resistance impairs anti-tumor immunity and gives rise to T-cell-resistant melanoma lesions.",
+      "authors": "Sucker A, Zhao F, Pieper N, Heeke C, Maltaner R, Stadtler N, Real B, Bielefeld N",
+      "year": "2017",
+      "url": "https://doi.org/10.1038/ncomms15440",
+      "readingDepth": "abstract",
+      "supportedClaims": "JAK1/2 defects to HLA class I negative T-cell-resistant melanoma",
+      "captureSha256": "706619a7946801c40751a66a5c69d1708d99002259ccdae48e65fdebd4ef798e"
+    },
+    {
+      "pmid": "12436110",
+      "doi": "10.1038/ni860",
+      "title": "The ER aminopeptidase ERAP1 enhances or limits antigen presentation by trimming epitopes to 8-9 residues.",
+      "authors": "York IA, Chang SC, Saric T, Keys JA, Favreau JM, Goldberg AL, Rock KL.",
+      "year": "2002",
+      "url": "https://doi.org/10.1038/ni860",
+      "readingDepth": "abstract",
+      "supportedClaims": "ERAP1 trims to 8-9 residues, enhances or limits presentation; interferon gamma effect",
+      "captureSha256": "354930d40de0d68526720e25d38fa28873edbbf5f56ed2ba654782d320bc47cd"
+    },
+    {
+      "pmid": "35589842",
+      "doi": "10.1038/s41586-022-04735-9",
+      "title": "Neoantigen quality predicts immunoediting in survivors of pancreatic cancer.",
+      "authors": "Łuksza M, Sethna ZM, Rojas LA, Lihm J, Bravi B, Elhanati Y, Soares K, Amisaki M,",
+      "year": "2022",
+      "url": "https://doi.org/10.1038/s41586-022-04735-9",
+      "readingDepth": "abstract",
+      "supportedClaims": "Neoantigen quality and immunoediting in pancreatic cancer survivors",
+      "captureSha256": "41bb3a618a8481797f188fa5a5dbad8c0048a101c638055efc9cacd142ad6f37"
+    },
+    {
+      "pmid": "24430180",
+      "doi": "10.1172/jci66776",
+      "title": "Macrophages eliminate circulating tumor cells after monoclonal antibody therapy.",
+      "authors": "Gül N, Babes L, Siegmund K, Korthouwer R, Bögels M, Braster R, Vidarsson G, ten ",
+      "year": "2014",
+      "url": "https://doi.org/10.1172/jci66776",
+      "readingDepth": "abstract",
+      "supportedClaims": "Mouse intravital imaging: Kupffer cells sample tumour cells; antibody drives phagocytosis via FcgammaRI and FcgammaRIV",
+      "captureSha256": "872c6e048c8715abe359910e7ffce7df787f02662eeb277e454a0a92b09d0b29"
+    },
+    {
+      "pmid": "23714642",
+      "doi": "10.1186/1471-2164-14-355",
+      "title": "Phase-defined complete sequencing of the HLA genes by next-generation sequencing.",
+      "authors": "Hosomichi K, Jinam TA, Mitsunaga S, Nakaoka H, Inoue I.",
+      "year": "2013",
+      "url": "https://doi.org/10.1186/1471-2164-14-355",
+      "readingDepth": "abstract",
+      "supportedClaims": "Phase-defined HLA sequencing by long-range PCR and NGS",
+      "captureSha256": "e4ca9961234753bdee5da0f8d5ef1a70ab2fec13bb661f17c932e9bddbfb49dd"
+    },
+    {
+      "pmid": "26375851",
+      "doi": "10.1371/journal.pone.0136417",
+      "title": "Comprehensive Analysis of the Naturally Processed Peptide Repertoire: Differences between HLA-A and B in the Immunopeptidome.",
+      "authors": "Schellens IM, Hoof I, Meiring HD, Spijkers SN, Poelen MC, van Gaans-van den Brink JA, van der Poel K, Costa AI, van Els CA, van Baarle D, Kesmir C.",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26375851/",
+      "readingDepth": "Abstract and selected full-text HLA-C results/methods",
+      "supportedClaims": "Bounded HLA-C assignment comparison",
+      "captureSha256": "d0e99411ffea8b8b4f96a89d7da4318fb34b76f3d9f58b52f1b47ea317a677aa"
+    },
+    {
+      "pmid": "8790398",
+      "doi": "10.1073/pnas.93.18.9724",
+      "title": "Kinetic analysis of peptide loading onto HLA-DR molecules mediated by HLA-DM.",
+      "authors": "Vogt AB, Kropshofer H, Moldenhauer G, Hämmerling GJ.",
+      "year": "1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8790398/",
+      "readingDepth": "Abstract",
+      "supportedClaims": "HLA-DM peptide exchange in vitro",
+      "captureSha256": "c8506e9a52857d3cb331217b5234b548cdacc447bc8642084ceecfa1cba385ed"
+    },
+    {
+      "pmid": "3260350",
+      "doi": "10.1038/333742a0",
+      "title": "Tolerance in T-cell-receptor transgenic mice involves deletion of nonmature CD4+8+ thymocytes.",
+      "authors": "Kisielow P, Blüthmann H, Staerz UD, Steinmetz M, von Boehmer H.",
+      "year": "1988",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3260350/",
+      "readingDepth": "Abstract",
+      "supportedClaims": "Developmental deletion in an H-Y-receptor transgenic mouse model",
+      "captureSha256": "49f766636ed8c1e9d89faa849c2b41d7d68ad1aa89bb0a5a311af819c03b7aa6"
+    },
+    {
+      "pmid": "3029267",
+      "doi": "10.1084/jem.165.2.302",
+      "title": "Antigen presentation by chemically modified splenocytes induces antigen-specific T cell unresponsiveness in vitro and in vivo.",
+      "authors": "Jenkins MK, Schwartz RH.",
+      "year": "1987",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3029267/",
+      "supportedClaims": "Previously verified mouse anergy or regulatory-cell mechanism; reused for this explicit tolerance requirement",
+      "reusedAssessment": "tcells-2026-11-09/primary-sources.json"
+    },
+    {
+      "pmid": "7636184",
+      "doi": "10.4049/jimmunol.155.3.1151",
+      "title": "Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor alpha-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases.",
+      "authors": "Sakaguchi S, Sakaguchi N, Asano M, Itoh M, Toda M.",
+      "year": "1995",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7636184/",
+      "supportedClaims": "Previously verified mouse anergy or regulatory-cell mechanism; reused for this explicit tolerance requirement",
+      "reusedAssessment": "tcells-2026-11-09/primary-sources.json"
+    },
+    {
+      "pmid": "25754738",
+      "title": "Relative expression levels of the HLA class-I proteins in normal and HIV-infected cells.",
+      "doi": "10.4049/jimmunol.1403234",
+      "year": "2015",
+      "sha256": "d4f5cc8ecec265ba00f3493c2efa5ee7def51b553470ecb9c4280ff62fed683e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25754738%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw primary abstract; specific HLA haplotype, two quantification methods and donor/cell scope",
+      "evidenceType": "Primary experimental article; abstract-only"
+    },
+    {
+      "pmid": "31092904",
+      "title": "Tertiary lymphoid structures in the era of cancer immunotherapy.",
+      "doi": "10.1038/s41568-019-0144-6",
+      "year": "2019",
+      "sha256": "4d3ec714a512ad311d1a1e9530e457c5c7533d5e4e641aad40c77f557f4d8ed6",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31092904%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Review abstract; ectopic lymphoid organisation and outcome-association scope",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "28367149",
+      "title": "Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.",
+      "doi": "10.3389/fimmu.2017.00292",
+      "year": "2017",
+      "sha256": "ea19c05c187ef6cef723ab0ae03d4a8912b02ed91f2d70fa3a2c25afd63cd775",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28367149%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages on Ii, CLIP and HLA-DM",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "31024553",
+      "title": "The Maintenance of Memory Plasma Cells.",
+      "doi": "10.3389/fimmu.2019.00721",
+      "year": "2019",
+      "sha256": "c9c55be472f16e7413b839a118adf86c365695aaaf2200d769968b7b230fa848",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31024553%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages on plasmablasts, plasma cells and niches",
+      "evidenceType": "Review; secondary evidence"
+    },
+    {
+      "pmid": "29445754",
+      "title": "Fundamentals and Methods for T- and B-Cell Epitope Prediction.",
+      "doi": "10.1155/2017/2680160",
+      "year": "2017",
+      "sha256": "3b396964a6ebd950c3f5011f1003734f4d6b481526dc5c9dccee332c5af4573e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29445754%20AND%20SRC%3AMED&format=json&resultType=core",
+      "readingDepth": "Raw abstract and selected open review passages defining sequential and discontinuous epitopes",
+      "evidenceType": "Review; secondary evidence"
+    }
+  ],
+  "otherSources": [
+    {
+      "name": "FDA pembrolizumab label 125514s194",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "captureSha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df",
+      "readingDepth": "text extracted; section 11 states humanized monoclonal IgG4 kappa antibody, about 149 kDa",
+      "supportedClaims": "Pembrolizumab is IgG4 kappa"
+    },
+    {
+      "name": "IPD-IMGT/HLA statistics",
+      "url": "https://www.ebi.ac.uk/ipd/imgt/hla/about/statistics/",
+      "captureSha256": "2123f96adda61db368f5eeb53c349d956371f72ac8e385a39589cc777d4827d3",
+      "readingDepth": "page text read 9 Nov 2026",
+      "supportedClaims": "HLA alleles 46,146; class I 31,311; class II 14,835; A 9,457, B 11,328, C 9,580; no release number printed on the page (Guide says release 3.66, not verified)"
+    },
+    {
+      "name": "HLA nomenclature: naming alleles",
+      "url": "https://hla.alleles.org/pages/nomenclature/naming_alleles/",
+      "captureSha256": "cbaf31a83880bb607e9a32f2604fffbdc6d00c253779ccb00bd79cb222f792f6",
+      "readingDepth": "page text read",
+      "supportedClaims": "Four fields; suffixes N, L, S, C, A, Q"
+    },
+    {
+      "name": "UniProt P61769 (B2M)",
+      "url": "https://rest.uniprot.org/uniprotkb/P61769.txt",
+      "captureSha256": "4113deb597435c91eea790f578f83287c196e3710c25a95e0f11e0b337cddb19",
+      "readingDepth": "flat file read",
+      "supportedClaims": "B2M forms heterotrimers with HLA-E, HLA-G, HLA-F, MR1; interacts with CD1A/CD1B (IntAct). FcRn is supported by Wani 2006, not by a UniProt partner line"
+    },
+    {
+      "name": "NCI monoclonal antibodies and cancer treatment vaccines pages",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/monoclonal-antibodies",
+      "captureSha256": "f4c8ab37554869c3bbd8480161043460493c3c246b858ce47e5e94bdfd887335",
+      "readingDepth": "fetched, not used for any claim in records",
+      "supportedClaims": "none relied on"
+    }
+  ],
+  "additionalCuratedReads": [
+    {
+      "file": "hgnc-ERAP1.json",
+      "sha256": "b24b6656324a29e39c2e0c32033eed474b5f1fb0b5521e63a1e0d4ff225b2579",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "hgnc-ERAP2.json",
+      "sha256": "1ab735b36372a4f83801033c54028a5a555f496de2eb86bf2ff0842aab63cab1",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "hgnc-TAP1.json",
+      "sha256": "cd5e856ea5a0be9e20d26ea4855f71d4c3c382bf37ae0b66512ffe7a8c38a268",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "hgnc-TAP2.json",
+      "sha256": "56bb58f2e918d68accf5f2d309ed4cd2ba312ad617b0a476eab44ca60d9476d4",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-ERAP1.json",
+      "sha256": "d3bc6d464a0b515b75f81025696b2eb8a38bfd95042e9c9f0aadcef86dee88ec",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-ERAP2.json",
+      "sha256": "d419531b1878b4191dd078d8b7645805af85e1ca8d825a59ff653295a50e9c2b",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-TAP1.json",
+      "sha256": "188ca846278c5e02412b0bb7d8cd9171dc2a8f790fce0d6c4221940f9611fee3",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-TAP2.json",
+      "sha256": "b6ea5075cdadb77770376615b7987636ec1f3cd8dbcc01acb9d2dd1c831db43d",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-b2m-owner.json",
+      "sha256": "858a6d0e7de2ee4737a1b85134d3151f05c7f7a63ac16b84ffd97601e5ee5e9b",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-fcgr2a-owner.json",
+      "sha256": "bf991f89f6f370dee25063cc2d66f97bec76c96dcaaa0a63c672ce6879017147",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-fcgr2b-owner.json",
+      "sha256": "676e0e52ceac19e4278b687a51b517b371ba98fa182bc3aeb58f97db4c39d8f3",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-fcgr3a-owner.json",
+      "sha256": "5afed1cc7f87066eff648b867c98ea3919c33700971a779bfde0a11475340aea",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-hla-b-owner.json",
+      "sha256": "d30aa4e2e8455938e8a14049b61e52cd20b9c4fd6ce4c0b5b14eec743c0c8a08",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-hla-c-owner.json",
+      "sha256": "29e2c805066f8e6c8ae6f4deaa00e9711710fbe6b40523a3e25e0207d67bba19",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-hla-dqa1-owner.json",
+      "sha256": "e079fe6b660ddf4d774afccc89792984d591d8c1cbaa444ef46beb73ebc81def",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    },
+    {
+      "file": "uniprot-hla-dra-owner.json",
+      "sha256": "e56f0007e432cdf5d6d116410db5c735eb3cce9a03afd390d2c627de5f917946",
+      "reading": "Identity, primary gene name, function paragraph or cross-references only; other allele-specific functions not certified."
+    }
+  ],
+  "accessFailures": [
+    {
+      "source": "NCBI Bookshelf chapters NBK27171, NBK27144, NBK27160, NBK27142, NBK26884, NBK27098, NBK10770, NBK26926, NBK27174, NBK459467",
+      "failure": "reCAPTCHA interstitial (HTTP 200, 21 kB challenge page) to scripted fetch; Europe PMC does not index Bookshelf books; efetch db=books returns only an id list",
+      "consequence": "Textbook statements (class switching, central/peripheral tolerance, invariant chain/HLA-DM, linear/conformational epitopes, Fab/Fc anatomy) are kept at textbook level and attributed to the Guide's citation, not verified against chapter text"
+    },
+    {
+      "source": "NCI Dictionary of Cancer Terms antigen, epitope, neoantigen",
+      "failure": "Single-page app; fetched HTML carries no definition text",
+      "consequence": "Not used"
+    },
+    {
+      "source": "Europe PMC fullTextXML for PMC8809887",
+      "failure": "HTTP 500",
+      "consequence": "Resolved through NCBI efetch db=pmc instead"
+    },
+    {
+      "source": "IPD-IMGT/HLA release notes URL /about/latest/",
+      "failure": "404",
+      "consequence": "Release number 3.66 unverified"
+    }
+  ],
+  "scope": "42 original abstracts and the declared selected/full-text reads; three new primary identities, two reused primary assessments, accessible review anatomy/Fc sections and selected OpenStax B-cell/class-switching text. Crossref was throttled on 32 of 42 independent follow-up lookups; those are not called successful. No unavailable Bookshelf chapter is claimed read.",
+  "independentReviewFollowup": "Five source occurrences added at declared depths. Existing Gu-Trantien and Cabrita abstracts were re-read for the previously omitted scoped association requirement."
+}

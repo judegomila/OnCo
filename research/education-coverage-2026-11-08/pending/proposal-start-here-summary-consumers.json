@@ -1,0 +1,2762 @@
+{
+  "version": "proposal-start-here-summary-consumers",
+  "state": "Actual short-table and long-cache reader observations; no new canonical graph record or language approval.",
+  "draft": 375,
+  "committedDataHead": "26b59741dd431156e71159375bf2982a4fb9dcfe",
+  "records": [
+    {
+      "id": "antibody-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ar)",
+      "canonicalRecordId": "antibody",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-ar",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (ar)",
+      "canonicalRecordId": "basal-like",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (ar)",
+      "canonicalRecordId": "biopsy",
+      "language": "ar",
+      "available": true,
+      "text": "أخذ قطعة صغيرة من النسيج المشبوه ليفحصها اختصاصي علم الأمراض تحت المجهر. وهي الطريقة الوحيدة لتأكيد تشخيص السرطان ومعرفة نوعه وعلاماته."
+    },
+    {
+      "id": "cancer-immunity-cycle-ar",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (ar)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-ar",
+      "kind": "reader-summary-entry",
+      "name": "Stage (ar)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (ar)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "ar",
+      "available": true,
+      "text": "التسلسل المنظّم الذي تمر به الخلية لنسخ DNA الخاص بها والانقسام إلى خليتين، مع نقاط تفتيش على طول الطريق تتوقف عندها للتحقق من وجود ضرر. الخلايا السرطانية تندفع عبر نقاط التفتيش دون توقف."
+    },
+    {
+      "id": "chemotherapy-term-ar",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (ar)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (ar)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ar)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-ar",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (ar)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ar)",
+      "canonicalRecordId": "er-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (ar)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (ar)",
+      "canonicalRecordId": "gene-expression",
+      "language": "ar",
+      "available": true,
+      "text": "مدى تشغيل الجين، وبالتالي كمية البروتين التي تصنعها الخلية منه. غالبا ما تعبّر الخلايا السرطانية عن الجينات الخطأ بمستويات خطأ."
+    },
+    {
+      "id": "hallmarks-of-cancer-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (ar)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-ar",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ar)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-ar",
+      "kind": "reader-summary-entry",
+      "name": "Histology (ar)",
+      "canonicalRecordId": "histology",
+      "language": "ar",
+      "available": true,
+      "text": "دراسة الأنسجة تحت المجهر. والنسيج المرضي للسرطان هو نوع الخلايا التي يتكون منها وكيفية ترتيبها، وبهذا يسميه اختصاصي علم الأمراض ويحدد درجته."
+    },
+    {
+      "id": "immune-exclusion-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (ar)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (ar)",
+      "canonicalRecordId": "immune-system",
+      "language": "ar",
+      "available": true,
+      "text": "شبكة الدفاع في الجسم المكوّنة من خلايا وجزيئات تتعرّف على الخلايا المصابة والغريبة وغير الطبيعية وتدمّرها. وهي تقتل معظم السرطانات المحتملة قبل أن يلاحظها أحد؛ أما تلك التي تنجو فقد تعلّمت كيف تختبئ منها."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (ar)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-ar",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (ar)",
+      "canonicalRecordId": "keynote-522",
+      "language": "ar",
+      "available": true,
+      "text": "التجربة التي أضافت العلاج المناعي إلى العلاج الكيميائي قبل الجراحة لسرطان الثدي الثلاثي السلبي، وحسّنت البقاء على قيد الحياة بشكل فريد."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-ar",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (ar)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-ar",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ar)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ar",
+      "available": true,
+      "text": "الخلايا القاتلة الطبيعية: خلايا مناعية سريعة الفعل تدمر الخلايا غير الطبيعية دون الحاجة إلى التدريب على هدف محدد. وهي متخصصة في قتل الخلايا التي أخفت نفسها عن الخلايا التائية."
+    },
+    {
+      "id": "pcr-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ar)",
+      "canonicalRecordId": "pcr",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-ar",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (ar)",
+      "canonicalRecordId": "pd1",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (ar)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "ar",
+      "available": true,
+      "text": "العلاج المناعي للسرطان الأكثر استخداماً، وهو معتمد في أكثر من 40 حالة استخدام، بما في ذلك قبل الجراحة وبعدها في سرطان الثدي الثلاثي السلبي."
+    },
+    {
+      "id": "pr-status-ar",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (ar)",
+      "canonicalRecordId": "pr-status",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ar)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (ar)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "ar",
+      "available": true,
+      "text": "يعالج العلاج الموضعي (الجراحة، العلاج الإشعاعي) موقعًا واحدًا في الجسم؛ أما العلاج الجهازي (الأدوية التي تُعطى عن طريق الفم أو الوريد) فينتقل عبر مجرى الدم ويعالج الجسم كله، بما في ذلك الخلايا السرطانية الأصغر من أن تُرى."
+    },
+    {
+      "id": "t-cell-ar",
+      "kind": "reader-summary-entry",
+      "name": "T cell (ar)",
+      "canonicalRecordId": "t-cell",
+      "language": "ar",
+      "available": true,
+      "text": "الخلايا التائية خلايا مناعية تختلف في طرق التعرّف وأدوارها. وجودها وحده لا يثبت أنها تتعرّف على السرطان أو تقتله."
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ar)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (ar)",
+      "canonicalRecordId": "tnbc",
+      "language": "ar",
+      "available": true,
+      "text": "سرطان ثدي يفتقر إلى المستقبلات الثلاثة (الإستروجين والبروجستيرون وHER2) التي تُعالَج من خلالها سرطانات الثدي الأخرى. كان أصعب الأنواع الفرعية لعقود؛ ومنذ 2020 غيّر العلاج المناعي ومركّبات ADC ذلك."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-ar",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (ar)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ar",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ar)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-ar",
+      "kind": "reader-summary-entry",
+      "name": "Grade (ar)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-de",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (de)",
+      "canonicalRecordId": "antibody",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-de",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (de)",
+      "canonicalRecordId": "basal-like",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (de)",
+      "canonicalRecordId": "biopsy",
+      "language": "de",
+      "available": true,
+      "text": "Die Entnahme eines kleinen Stücks des verdächtigen Gewebes, damit ein Pathologe es unter dem Mikroskop untersuchen kann. Sie ist der einzige Weg, eine Krebsdiagnose zu bestätigen und Typ und Marker des Tumors zu bestimmen."
+    },
+    {
+      "id": "cancer-immunity-cycle-de",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (de)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-de",
+      "kind": "reader-summary-entry",
+      "name": "Stage (de)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (de)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "de",
+      "available": true,
+      "text": "Die geordnete Abfolge, die eine Zelle durchläuft, um ihre DNA zu kopieren und sich zu teilen, mit Kontrollpunkten auf dem Weg, an denen sie anhält, um auf Schäden zu prüfen. Krebszellen überfahren die Kontrollpunkte."
+    },
+    {
+      "id": "chemotherapy-term-de",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (de)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-de",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (de)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-de",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (de)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-de",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (de)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-de",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (de)",
+      "canonicalRecordId": "er-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (de)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-de",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (de)",
+      "canonicalRecordId": "gene-expression",
+      "language": "de",
+      "available": true,
+      "text": "Wie stark ein Gen eingeschaltet ist und wie viel von seinem Protein eine Zelle daher herstellt. Krebszellen exprimieren oft die falschen Gene in der falschen Menge."
+    },
+    {
+      "id": "hallmarks-of-cancer-de",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (de)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-de",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (de)",
+      "canonicalRecordId": "her2-positive",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-de",
+      "kind": "reader-summary-entry",
+      "name": "Histology (de)",
+      "canonicalRecordId": "histology",
+      "language": "de",
+      "available": true,
+      "text": "Die Untersuchung von Gewebe unter dem Mikroskop. Die Histologie eines Krebses beschreibt, aus welchen Zellen er besteht und wie sie angeordnet sind; danach benennt ihn der Pathologe und legt seinen Grad fest."
+    },
+    {
+      "id": "immune-exclusion-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (de)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (de)",
+      "canonicalRecordId": "immune-system",
+      "language": "de",
+      "available": true,
+      "text": "Das Abwehrnetzwerk des Körpers aus Zellen und Molekülen, das infizierte, fremde und abnorme Zellen erkennt und zerstört. Es tötet die meisten angehenden Krebse, bevor sie je bemerkt werden; die überlebenden haben gelernt, sich vor ihm zu verstecken."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-de",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (de)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-de",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (de)",
+      "canonicalRecordId": "keynote-522",
+      "language": "de",
+      "available": true,
+      "text": "Die Studie, die beim dreifach negativen Brustkrebs eine Immuntherapie zur Chemotherapie vor der Operation hinzufügte und, einzigartig, das Überleben verbesserte."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-de",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (de)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-de",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (de)",
+      "canonicalRecordId": "nk-cell",
+      "language": "de",
+      "available": true,
+      "text": "Natürliche Killerzellen: schnell wirkende Immunzellen, die abnorme Zellen zerstören, ohne auf ein bestimmtes Ziel trainiert werden zu müssen. Sie sind darauf spezialisiert, Zellen zu töten, die sich vor T-Zellen versteckt haben."
+    },
+    {
+      "id": "pcr-de",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (de)",
+      "canonicalRecordId": "pcr",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-de",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (de)",
+      "canonicalRecordId": "pd1",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-de",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (de)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "de",
+      "available": true,
+      "text": "Die am häufigsten eingesetzte Krebs-Immuntherapie, zugelassen in mehr als 40 Anwendungsbereichen, darunter vor und nach der Operation bei dreifach negativem Brustkrebs."
+    },
+    {
+      "id": "pr-status-de",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (de)",
+      "canonicalRecordId": "pr-status",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (de)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (de)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "de",
+      "available": true,
+      "text": "Die lokale Therapie (Operation, Strahlentherapie) behandelt eine Stelle im Körper; die systemische Therapie (Medikamente zum Einnehmen oder über die Vene) gelangt über den Blutkreislauf in den ganzen Körper und behandelt ihn insgesamt, einschließlich Krebszellen, die zu klein sind, um sichtbar zu sein."
+    },
+    {
+      "id": "t-cell-de",
+      "kind": "reader-summary-entry",
+      "name": "T cell (de)",
+      "canonicalRecordId": "t-cell",
+      "language": "de",
+      "available": true,
+      "text": "T-Zellen sind Immunzellen mit unterschiedlichen Erkennungssystemen und Aufgaben. Ihre Anwesenheit allein zeigt nicht, dass sie Krebs erkennen oder abtöten."
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (de)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-de",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (de)",
+      "canonicalRecordId": "tnbc",
+      "language": "de",
+      "available": true,
+      "text": "Ein Brustkrebs, dem die drei Rezeptoren (Östrogen, Progesteron, HER2) fehlen, über die andere Brustkrebsarten behandelt werden können. Jahrzehntelang war er der schwierigste Subtyp; seit 2020 haben Immuntherapie und ADCs das verändert."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-de",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (de)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-de",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (de)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-de",
+      "kind": "reader-summary-entry",
+      "name": "Grade (de)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-es",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (es)",
+      "canonicalRecordId": "antibody",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-es",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (es)",
+      "canonicalRecordId": "basal-like",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (es)",
+      "canonicalRecordId": "biopsy",
+      "language": "es",
+      "available": true,
+      "text": "Tomar un pequeño fragmento del tejido sospechoso para que un patólogo pueda examinarlo al microscopio. Es la única forma de confirmar un diagnóstico de cáncer y de conocer su tipo y sus marcadores."
+    },
+    {
+      "id": "cancer-immunity-cycle-es",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (es)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-es",
+      "kind": "reader-summary-entry",
+      "name": "Stage (es)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (es)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "es",
+      "available": true,
+      "text": "La secuencia ordenada por la que pasa una célula para copiar su ADN y dividirse en dos, con puntos de control a lo largo del camino en los que se detiene para comprobar si hay daños. Las células cancerosas se saltan los puntos de control."
+    },
+    {
+      "id": "chemotherapy-term-es",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (es)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-es",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (es)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-es",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (es)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-es",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (es)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-es",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (es)",
+      "canonicalRecordId": "er-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (es)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-es",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (es)",
+      "canonicalRecordId": "gene-expression",
+      "language": "es",
+      "available": true,
+      "text": "Cuánto está activado un gen y, por tanto, cuánta cantidad de su proteína fabrica una célula. Las células cancerosas a menudo expresan los genes equivocados en niveles equivocados."
+    },
+    {
+      "id": "hallmarks-of-cancer-es",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (es)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-es",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (es)",
+      "canonicalRecordId": "her2-positive",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-es",
+      "kind": "reader-summary-entry",
+      "name": "Histology (es)",
+      "canonicalRecordId": "histology",
+      "language": "es",
+      "available": true,
+      "text": "El estudio del tejido al microscopio. La histología de un cáncer es de qué tipo de células está hecho y cómo están organizadas, que es la forma en que un patólogo lo nombra y le asigna un grado."
+    },
+    {
+      "id": "immune-exclusion-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (es)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (es)",
+      "canonicalRecordId": "immune-system",
+      "language": "es",
+      "available": true,
+      "text": "La red de defensa del cuerpo, formada por células y moléculas, que reconoce y destruye las células infectadas, extrañas y anómalas. Elimina la mayoría de los posibles cánceres antes de que nadie los note; los que sobreviven han aprendido a esconderse de ella."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-es",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (es)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-es",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (es)",
+      "canonicalRecordId": "keynote-522",
+      "language": "es",
+      "available": true,
+      "text": "El ensayo que añadió inmunoterapia a la quimioterapia previa a la cirugía en el cáncer de mama triple negativo y que, de forma excepcional, mejoró la supervivencia."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-es",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (es)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-es",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (es)",
+      "canonicalRecordId": "nk-cell",
+      "language": "es",
+      "available": true,
+      "text": "Células asesinas naturales: células inmunitarias de acción rápida que destruyen células anormales sin necesidad de ser entrenadas frente a una diana concreta. Se especializan en matar células que se han ocultado de los linfocitos T."
+    },
+    {
+      "id": "pcr-es",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (es)",
+      "canonicalRecordId": "pcr",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-es",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (es)",
+      "canonicalRecordId": "pd1",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-es",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (es)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "es",
+      "available": true,
+      "text": "La inmunoterapia contra el cáncer más usada, aprobada en más de 40 indicaciones, incluido antes y después de la cirugía en cáncer de mama triple negativo."
+    },
+    {
+      "id": "pr-status-es",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (es)",
+      "canonicalRecordId": "pr-status",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (es)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (es)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "es",
+      "available": true,
+      "text": "La terapia local (cirugía, radioterapia) trata un solo lugar del cuerpo; la terapia sistémica (fármacos por vía oral o intravenosa) viaja por la sangre y trata todo el cuerpo, incluidas las células cancerosas demasiado pequeñas para verse."
+    },
+    {
+      "id": "t-cell-es",
+      "kind": "reader-summary-entry",
+      "name": "T cell (es)",
+      "canonicalRecordId": "t-cell",
+      "language": "es",
+      "available": true,
+      "text": "Las células T son células inmunitarias con distintos sistemas de reconocimiento y funciones. Su presencia por sí sola no demuestra que reconozcan o destruyan el cáncer."
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (es)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-es",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (es)",
+      "canonicalRecordId": "tnbc",
+      "language": "es",
+      "available": true,
+      "text": "Un cáncer de mama que carece de los tres receptores (estrógeno, progesterona, HER2) a través de los cuales se tratan otros cánceres de mama. Fue el subtipo más difícil durante décadas; desde 2020 la inmunoterapia y los ADC lo han cambiado."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-es",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (es)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-es",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (es)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-es",
+      "kind": "reader-summary-entry",
+      "name": "Grade (es)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (fr)",
+      "canonicalRecordId": "antibody",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-fr",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (fr)",
+      "canonicalRecordId": "basal-like",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (fr)",
+      "canonicalRecordId": "biopsy",
+      "language": "fr",
+      "available": true,
+      "text": "Prélever un petit fragment du tissu suspect pour qu'un pathologiste puisse l'examiner au microscope. C'est le seul moyen de confirmer un diagnostic de cancer et d'en connaître le type et les marqueurs."
+    },
+    {
+      "id": "cancer-immunity-cycle-fr",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (fr)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-fr",
+      "kind": "reader-summary-entry",
+      "name": "Stage (fr)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (fr)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "fr",
+      "available": true,
+      "text": "La séquence ordonnée que suit une cellule pour copier son ADN et se diviser en deux, avec des points de contrôle en chemin où elle s'arrête pour vérifier l'absence de dommages. Les cellules cancéreuses passent outre ces points de contrôle."
+    },
+    {
+      "id": "chemotherapy-term-fr",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (fr)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (fr)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (fr)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-fr",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (fr)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (fr)",
+      "canonicalRecordId": "er-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (fr)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (fr)",
+      "canonicalRecordId": "gene-expression",
+      "language": "fr",
+      "available": true,
+      "text": "Le degré d'activation d'un gène, et donc la quantité de sa protéine qu'une cellule fabrique. Les cellules cancéreuses expriment souvent les mauvais gènes aux mauvais niveaux."
+    },
+    {
+      "id": "hallmarks-of-cancer-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (fr)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-fr",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (fr)",
+      "canonicalRecordId": "her2-positive",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-fr",
+      "kind": "reader-summary-entry",
+      "name": "Histology (fr)",
+      "canonicalRecordId": "histology",
+      "language": "fr",
+      "available": true,
+      "text": "L'étude des tissus au microscope. L'histologie d'un cancer, c'est le type de cellules qui le composent et la façon dont elles sont organisées, ce qui permet au pathologiste de le nommer et de le grader."
+    },
+    {
+      "id": "immune-exclusion-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (fr)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (fr)",
+      "canonicalRecordId": "immune-system",
+      "language": "fr",
+      "available": true,
+      "text": "Le réseau de défense du corps, fait de cellules et de molécules, qui reconnaît et détruit les cellules infectées, étrangères et anormales. Il élimine la plupart des cancers en devenir avant même qu'on les remarque ; ceux qui survivent ont appris à s'en cacher."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (fr)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-fr",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (fr)",
+      "canonicalRecordId": "keynote-522",
+      "language": "fr",
+      "available": true,
+      "text": "L'essai qui a ajouté l'immunothérapie à la chimiothérapie préopératoire du cancer du sein triple négatif et qui, fait unique, a amélioré la survie."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-fr",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (fr)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-fr",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (fr)",
+      "canonicalRecordId": "nk-cell",
+      "language": "fr",
+      "available": true,
+      "text": "Cellules tueuses naturelles : des cellules immunitaires à action rapide qui détruisent les cellules anormales sans avoir besoin d'être entraînées contre une cible précise. Elles se spécialisent dans l'élimination des cellules qui se sont cachées des cellules T."
+    },
+    {
+      "id": "pcr-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (fr)",
+      "canonicalRecordId": "pcr",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-fr",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (fr)",
+      "canonicalRecordId": "pd1",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (fr)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "fr",
+      "available": true,
+      "text": "L'immunothérapie anticancéreuse la plus utilisée, approuvée dans plus de 40 indications, y compris avant et après la chirurgie du cancer du sein triple négatif."
+    },
+    {
+      "id": "pr-status-fr",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (fr)",
+      "canonicalRecordId": "pr-status",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (fr)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (fr)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "fr",
+      "available": true,
+      "text": "Le traitement local (chirurgie, radiothérapie) traite un seul endroit du corps ; le traitement systémique (médicaments pris par la bouche ou par voie intraveineuse) circule dans le sang et traite tout le corps, y compris les cellules cancéreuses trop petites pour être visibles."
+    },
+    {
+      "id": "t-cell-fr",
+      "kind": "reader-summary-entry",
+      "name": "T cell (fr)",
+      "canonicalRecordId": "t-cell",
+      "language": "fr",
+      "available": true,
+      "text": "Les lymphocytes T sont des cellules immunitaires aux systèmes de reconnaissance et aux rôles variés. Leur présence seule ne prouve pas qu’ils reconnaissent ou détruisent le cancer."
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (fr)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (fr)",
+      "canonicalRecordId": "tnbc",
+      "language": "fr",
+      "available": true,
+      "text": "Un cancer du sein dépourvu des trois récepteurs (œstrogène, progestérone, HER2) par lesquels on traite les autres cancers du sein. Ce fut le sous-type le plus difficile pendant des décennies ; depuis 2020, l'immunothérapie et les ADC ont changé la donne."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-fr",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (fr)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-fr",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (fr)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-fr",
+      "kind": "reader-summary-entry",
+      "name": "Grade (fr)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (hi)",
+      "canonicalRecordId": "antibody",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-hi",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (hi)",
+      "canonicalRecordId": "basal-like",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (hi)",
+      "canonicalRecordId": "biopsy",
+      "language": "hi",
+      "available": true,
+      "text": "संदिग्ध ऊतक का एक छोटा टुकड़ा लेना ताकि पैथोलॉजिस्ट उसे माइक्रोस्कोप के नीचे जांच सके। कैंसर के निदान की पुष्टि करने और उसके प्रकार तथा मार्करों को जानने का यह एकमात्र तरीका है।"
+    },
+    {
+      "id": "cancer-immunity-cycle-hi",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (hi)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-hi",
+      "kind": "reader-summary-entry",
+      "name": "Stage (hi)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (hi)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "hi",
+      "available": true,
+      "text": "वह क्रमबद्ध प्रक्रिया जिससे कोशिका अपने DNA की नक़ल बनाकर दो में बँटती है, जिसके रास्ते में चेकपॉइंट होते हैं जहाँ वह रुककर क्षति की जाँच करती है। कैंसर कोशिकाएँ इन चेकपॉइंटों को पार कर जाती हैं।"
+    },
+    {
+      "id": "chemotherapy-term-hi",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (hi)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (hi)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (hi)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-hi",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (hi)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (hi)",
+      "canonicalRecordId": "er-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (hi)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (hi)",
+      "canonicalRecordId": "gene-expression",
+      "language": "hi",
+      "available": true,
+      "text": "कोई जीन कितना सक्रिय है, और इसलिए कोई कोशिका उसका प्रोटीन कितना बनाती है। कैंसर कोशिकाएँ अक्सर गलत जीनों को गलत स्तरों पर अभिव्यक्त करती हैं।"
+    },
+    {
+      "id": "hallmarks-of-cancer-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (hi)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-hi",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (hi)",
+      "canonicalRecordId": "her2-positive",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-hi",
+      "kind": "reader-summary-entry",
+      "name": "Histology (hi)",
+      "canonicalRecordId": "histology",
+      "language": "hi",
+      "available": true,
+      "text": "सूक्ष्मदर्शी के नीचे ऊतकों का अध्ययन। किसी कैंसर की हिस्टोलॉजी यह है कि वह किस तरह की कोशिकाओं से बना है और वे कैसे व्यवस्थित हैं, और इसी के आधार पर एक पैथोलॉजिस्ट उसे नाम और ग्रेड देता है।"
+    },
+    {
+      "id": "immune-exclusion-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (hi)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (hi)",
+      "canonicalRecordId": "immune-system",
+      "language": "hi",
+      "available": true,
+      "text": "कोशिकाओं और अणुओं का शरीर का रक्षा-तंत्र, जो संक्रमित, बाहरी और असामान्य कोशिकाओं को पहचानकर नष्ट करता है। यह अधिकतर संभावित कैंसरों को पता चलने से पहले ही मार देता है; जो बच जाते हैं, उन्होंने इससे छिपना सीख लिया होता है।"
+    },
+    {
+      "id": "intra-tumour-heterogeneity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (hi)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-hi",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (hi)",
+      "canonicalRecordId": "keynote-522",
+      "language": "hi",
+      "available": true,
+      "text": "वह परीक्षण जिसने ट्रिपल-नेगेटिव स्तन कैंसर में सर्जरी से पहले की कीमोथेरेपी में इम्यूनोथेरेपी जोड़ी और, अनूठे रूप से, जीवित रहने की दर में सुधार किया।"
+    },
+    {
+      "id": "neoadjuvant-adjuvant-hi",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (hi)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-hi",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (hi)",
+      "canonicalRecordId": "nk-cell",
+      "language": "hi",
+      "available": true,
+      "text": "नेचुरल किलर कोशिकाएं: तेजी से काम करने वाली प्रतिरक्षा कोशिकाएं जो किसी विशेष लक्ष्य पर प्रशिक्षित हुए बिना असामान्य कोशिकाओं को नष्ट करती हैं। वे उन कोशिकाओं को मारने में विशेषज्ञ हैं जो T कोशिकाओं से छिप गई हैं।"
+    },
+    {
+      "id": "pcr-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (hi)",
+      "canonicalRecordId": "pcr",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-hi",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (hi)",
+      "canonicalRecordId": "pd1",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (hi)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "hi",
+      "available": true,
+      "text": "सबसे व्यापक रूप से प्रयुक्त कैंसर इम्यूनोथेरेपी, 40 से अधिक स्थितियों में स्वीकृत, ट्रिपल-नेगेटिव स्तन कैंसर में सर्जरी से पहले और बाद समेत।"
+    },
+    {
+      "id": "pr-status-hi",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (hi)",
+      "canonicalRecordId": "pr-status",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (hi)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (hi)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "hi",
+      "available": true,
+      "text": "स्थानीय चिकित्सा (सर्जरी, रेडियोथेरेपी) शरीर के एक स्थान का इलाज करती है; प्रणालीगत चिकित्सा (मुँह से या नस से दी जाने वाली दवाएँ) रक्तप्रवाह के माध्यम से यात्रा करती है और पूरे शरीर का इलाज करती है, जिसमें वे कैंसर कोशिकाएँ भी शामिल हैं जो देखने के लिए बहुत छोटी हैं।"
+    },
+    {
+      "id": "t-cell-hi",
+      "kind": "reader-summary-entry",
+      "name": "T cell (hi)",
+      "canonicalRecordId": "t-cell",
+      "language": "hi",
+      "available": true,
+      "text": "T कोशिकाएँ प्रतिरक्षा कोशिकाएँ हैं, जिनके पहचान तंत्र और काम अलग-अलग होते हैं। केवल उनकी मौजूदगी यह नहीं दिखाती कि वे कैंसर को पहचानती या मारती हैं।"
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (hi)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (hi)",
+      "canonicalRecordId": "tnbc",
+      "language": "hi",
+      "available": true,
+      "text": "एक स्तन कैंसर जिसमें वे तीन रिसेप्टर (एस्ट्रोजन, प्रोजेस्टेरोन, HER2) नहीं होते जिनके ज़रिये दूसरे स्तन कैंसरों का इलाज होता है। दशकों तक यह सबसे कठिन उपप्रकार रहा; 2020 से इम्यूनोथेरेपी और ADC ने इसे बदल दिया है।"
+    },
+    {
+      "id": "tnbc-residual-disease-decision-hi",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (hi)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-hi",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (hi)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-hi",
+      "kind": "reader-summary-entry",
+      "name": "Grade (hi)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (ja)",
+      "canonicalRecordId": "antibody",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-ja",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (ja)",
+      "canonicalRecordId": "basal-like",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (ja)",
+      "canonicalRecordId": "biopsy",
+      "language": "ja",
+      "available": true,
+      "text": "疑わしい組織の小さな一片を採取し、病理医が顕微鏡で調べられるようにすること。がんの診断を確定し、その種類とマーカーを知る唯一の方法である。"
+    },
+    {
+      "id": "cancer-immunity-cycle-ja",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (ja)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-ja",
+      "kind": "reader-summary-entry",
+      "name": "Stage (ja)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (ja)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "ja",
+      "available": true,
+      "text": "細胞がDNAを複製して2つに分かれるまでにたどる順序立った過程であり、途中には損傷がないか確認するために立ち止まるチェックポイントがある。がん細胞はこのチェックポイントを突き抜けて進む。"
+    },
+    {
+      "id": "chemotherapy-term-ja",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (ja)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (ja)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ja)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-ja",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (ja)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (ja)",
+      "canonicalRecordId": "er-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (ja)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (ja)",
+      "canonicalRecordId": "gene-expression",
+      "language": "ja",
+      "available": true,
+      "text": "遺伝子がどれだけ「オン」になっているか、つまり細胞がそのタンパク質をどれだけ作るかを表す。がん細胞では、間違った遺伝子が間違った量で発現していることが多い。"
+    },
+    {
+      "id": "hallmarks-of-cancer-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (ja)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-ja",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (ja)",
+      "canonicalRecordId": "her2-positive",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-ja",
+      "kind": "reader-summary-entry",
+      "name": "Histology (ja)",
+      "canonicalRecordId": "histology",
+      "language": "ja",
+      "available": true,
+      "text": "組織を顕微鏡で調べる学問である。がんの組織型とは、どの種類の細胞からできていて、それがどう並んでいるかを指し、病理医はこれに基づいてがんに名前を付け、悪性度を判定する。"
+    },
+    {
+      "id": "immune-exclusion-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (ja)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (ja)",
+      "canonicalRecordId": "immune-system",
+      "language": "ja",
+      "available": true,
+      "text": "感染した細胞、異物、異常な細胞を見分けて破壊する、細胞と分子からなる体の防御ネットワークである。がんになりかけたものの大半を気づかれる前に殺してしまうが、生き残ったものはそこから隠れる方法を学んでいる。"
+    },
+    {
+      "id": "intra-tumour-heterogeneity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (ja)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-ja",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (ja)",
+      "canonicalRecordId": "keynote-522",
+      "language": "ja",
+      "available": true,
+      "text": "トリプルネガティブ乳がんの術前化学療法に免疫療法を加え、他に例のない形で生存期間を改善した試験。"
+    },
+    {
+      "id": "neoadjuvant-adjuvant-ja",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (ja)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-ja",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (ja)",
+      "canonicalRecordId": "nk-cell",
+      "language": "ja",
+      "available": true,
+      "text": "ナチュラルキラー細胞:特定の標的について訓練される必要なく異常細胞を破壊する、即応性の免疫細胞。T細胞から身を隠した細胞を殺すことを専門とする。"
+    },
+    {
+      "id": "pcr-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (ja)",
+      "canonicalRecordId": "pcr",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-ja",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (ja)",
+      "canonicalRecordId": "pd1",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (ja)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "ja",
+      "available": true,
+      "text": "最も広く使われているがん免疫療法薬で、トリプルネガティブ乳がんの手術前後を含め、40以上の適応で承認されています。"
+    },
+    {
+      "id": "pr-status-ja",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (ja)",
+      "canonicalRecordId": "pr-status",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ja)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (ja)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "ja",
+      "available": true,
+      "text": "局所療法（手術、放射線治療）は体の一か所を治療する。全身療法（経口または点滴で投与する薬）は血流に乗って全身を巡り、目に見えないほど小さながん細胞も含めて全身を治療する。"
+    },
+    {
+      "id": "t-cell-ja",
+      "kind": "reader-summary-entry",
+      "name": "T cell (ja)",
+      "canonicalRecordId": "t-cell",
+      "language": "ja",
+      "available": true,
+      "text": "T細胞は、異なる認識の仕組みや役割を持つ免疫細胞です。存在するだけでは、がんを認識したり殺したりするとは示せません。"
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ja)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (ja)",
+      "canonicalRecordId": "tnbc",
+      "language": "ja",
+      "available": true,
+      "text": "他の乳がんの治療の手がかりとなる3つの受容体（エストロゲン、プロゲステロン、HER2）をすべて欠く乳がん。数十年にわたり最も難しいサブタイプだったが、2020年以降、免疫療法とADCがそれを変えた。"
+    },
+    {
+      "id": "tnbc-residual-disease-decision-ja",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (ja)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-ja",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (ja)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-ja",
+      "kind": "reader-summary-entry",
+      "name": "Grade (ja)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (pt)",
+      "canonicalRecordId": "antibody",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-pt",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (pt)",
+      "canonicalRecordId": "basal-like",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (pt)",
+      "canonicalRecordId": "biopsy",
+      "language": "pt",
+      "available": true,
+      "text": "Retirar um pequeno pedaço do tecido suspeito para que um patologista possa examiná-lo ao microscópio. É a única forma de confirmar um diagnóstico de câncer e de conhecer seu tipo e seus marcadores."
+    },
+    {
+      "id": "cancer-immunity-cycle-pt",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (pt)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-pt",
+      "kind": "reader-summary-entry",
+      "name": "Stage (pt)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (pt)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "pt",
+      "available": true,
+      "text": "A sequência ordenada pela qual uma célula passa para copiar seu DNA e se dividir em duas, com pontos de checagem ao longo do caminho em que ela pausa para verificar danos. As células cancerosas atravessam os pontos de checagem."
+    },
+    {
+      "id": "chemotherapy-term-pt",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (pt)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (pt)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (pt)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-pt",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (pt)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (pt)",
+      "canonicalRecordId": "er-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (pt)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (pt)",
+      "canonicalRecordId": "gene-expression",
+      "language": "pt",
+      "available": true,
+      "text": "O quanto um gene está ligado e, portanto, quanta proteína desse gene uma célula produz. As células cancerosas expressam frequentemente os genes errados nos níveis errados."
+    },
+    {
+      "id": "hallmarks-of-cancer-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (pt)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-pt",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (pt)",
+      "canonicalRecordId": "her2-positive",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-pt",
+      "kind": "reader-summary-entry",
+      "name": "Histology (pt)",
+      "canonicalRecordId": "histology",
+      "language": "pt",
+      "available": true,
+      "text": "O estudo do tecido ao microscópio. A histologia de um câncer é de que tipo de células ele é feito e como elas estão organizadas, e é assim que o patologista o nomeia e o gradua."
+    },
+    {
+      "id": "immune-exclusion-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (pt)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (pt)",
+      "canonicalRecordId": "immune-system",
+      "language": "pt",
+      "available": true,
+      "text": "A rede de defesa do corpo, formada por células e moléculas, que reconhece e destrói células infectadas, estranhas e anormais. Ela mata a maioria dos possíveis cânceres antes que sejam sequer notados; os que sobrevivem aprenderam a se esconder dela."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (pt)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-pt",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (pt)",
+      "canonicalRecordId": "keynote-522",
+      "language": "pt",
+      "available": true,
+      "text": "O estudo que acrescentou imunoterapia à quimioterapia pré-operatória para câncer de mama triplo-negativo e, de forma única, melhorou a sobrevida."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-pt",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (pt)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-pt",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (pt)",
+      "canonicalRecordId": "nk-cell",
+      "language": "pt",
+      "available": true,
+      "text": "Células natural killer: células imunitárias de ação rápida que destroem células anormais sem precisar de ser treinadas para um alvo específico. Especializam-se em matar células que se esconderam das células T."
+    },
+    {
+      "id": "pcr-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (pt)",
+      "canonicalRecordId": "pcr",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-pt",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (pt)",
+      "canonicalRecordId": "pd1",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (pt)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "pt",
+      "available": true,
+      "text": "A imunoterapia contra o câncer mais usada, aprovada em mais de 40 indicações, incluindo antes e depois da cirurgia no câncer de mama triplo-negativo."
+    },
+    {
+      "id": "pr-status-pt",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (pt)",
+      "canonicalRecordId": "pr-status",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (pt)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (pt)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "pt",
+      "available": true,
+      "text": "A terapia local (cirurgia, radioterapia) trata um só local do corpo; a terapia sistémica (medicamentos por via oral ou intravenosa) circula pela corrente sanguínea e trata todo o corpo, incluindo células cancerígenas demasiado pequenas para serem vistas."
+    },
+    {
+      "id": "t-cell-pt",
+      "kind": "reader-summary-entry",
+      "name": "T cell (pt)",
+      "canonicalRecordId": "t-cell",
+      "language": "pt",
+      "available": true,
+      "text": "As células T são células imunitárias com diferentes sistemas de reconhecimento e funções. A sua presença, por si só, não demonstra que reconheçam ou destruam o cancro."
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (pt)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (pt)",
+      "canonicalRecordId": "tnbc",
+      "language": "pt",
+      "available": true,
+      "text": "Um câncer de mama que não tem os três receptores (estrogênio, progesterona, HER2) pelos quais os outros cânceres de mama podem ser tratados. Foi o subtipo mais difícil por décadas; desde 2020, imunoterapia e ADCs mudaram isso."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-pt",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (pt)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-pt",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (pt)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-pt",
+      "kind": "reader-summary-entry",
+      "name": "Grade (pt)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (zh)",
+      "canonicalRecordId": "antibody",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-zh",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (zh)",
+      "canonicalRecordId": "basal-like",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (zh)",
+      "canonicalRecordId": "biopsy",
+      "language": "zh",
+      "available": true,
+      "text": "从可疑组织中取出一小块，供病理医生在显微镜下检查。这是确诊癌症并了解其类型和标志物的唯一方法。"
+    },
+    {
+      "id": "cancer-immunity-cycle-zh",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (zh)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cancer-stage-zh",
+      "kind": "reader-summary-entry",
+      "name": "Stage (zh)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-cycle-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (zh)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "zh",
+      "available": true,
+      "text": "细胞为复制其DNA并一分为二而经历的有序过程，沿途设有检查点，细胞会在此暂停以检查是否有损伤。癌细胞则冲过这些检查点。"
+    },
+    {
+      "id": "chemotherapy-term-zh",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (zh)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cold-vs-hot-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (zh)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (zh)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ctdna-imaging-discordance-zh",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (zh)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "er-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (zh)",
+      "canonicalRecordId": "er-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (zh)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (zh)",
+      "canonicalRecordId": "gene-expression",
+      "language": "zh",
+      "available": true,
+      "text": "一个基因被“开启”的程度，从而决定细胞制造多少该基因的蛋白质。癌细胞常常以错误的水平表达错误的基因。"
+    },
+    {
+      "id": "hallmarks-of-cancer-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (zh)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "her2-positive-zh",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (zh)",
+      "canonicalRecordId": "her2-positive",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "histology-zh",
+      "kind": "reader-summary-entry",
+      "name": "Histology (zh)",
+      "canonicalRecordId": "histology",
+      "language": "zh",
+      "available": true,
+      "text": "在显微镜下研究组织的学科。癌症的组织学是指它由哪种细胞构成以及这些细胞如何排列，病理医生据此为其命名并分级。"
+    },
+    {
+      "id": "immune-exclusion-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (zh)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-system-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (zh)",
+      "canonicalRecordId": "immune-system",
+      "language": "zh",
+      "available": true,
+      "text": "人体由细胞和分子组成的防御网络，能识别并摧毁受感染的、外来的和异常的细胞。它在大多数潜在癌症被察觉之前就将其消灭；那些存活下来的癌症已经学会了躲避它。"
+    },
+    {
+      "id": "intra-tumour-heterogeneity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (zh)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "keynote-522-zh",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (zh)",
+      "canonicalRecordId": "keynote-522",
+      "language": "zh",
+      "available": true,
+      "text": "该试验在三阴性乳腺癌的术前化疗基础上加入免疫治疗，并且独一无二地改善了生存期。"
+    },
+    {
+      "id": "neoadjuvant-adjuvant-zh",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (zh)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nk-cell-zh",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (zh)",
+      "canonicalRecordId": "nk-cell",
+      "language": "zh",
+      "available": true,
+      "text": "自然杀伤细胞：快速反应的免疫细胞，无需针对特定靶点进行训练即可摧毁异常细胞。它们专门杀伤那些躲避了T细胞的细胞。"
+    },
+    {
+      "id": "pcr-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (zh)",
+      "canonicalRecordId": "pcr",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-zh",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (zh)",
+      "canonicalRecordId": "pd1",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pembrolizumab-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (zh)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "zh",
+      "available": true,
+      "text": "使用最广的癌症免疫治疗，获批40多种适应症，包括三阴性乳腺癌手术前后。"
+    },
+    {
+      "id": "pr-status-zh",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (zh)",
+      "canonicalRecordId": "pr-status",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (zh)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "systemic-vs-local-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (zh)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "zh",
+      "available": true,
+      "text": "局部治疗（手术、放疗）治疗身体的某一个部位；全身治疗（口服或静脉给药）通过血流运行，治疗整个身体，包括那些小到无法看见的癌细胞。"
+    },
+    {
+      "id": "t-cell-zh",
+      "kind": "reader-summary-entry",
+      "name": "T cell (zh)",
+      "canonicalRecordId": "t-cell",
+      "language": "zh",
+      "available": true,
+      "text": "T细胞是具有不同识别机制和作用的免疫细胞。仅凭它们的存在，不能证明它们能识别或杀伤癌细胞。"
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (zh)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (zh)",
+      "canonicalRecordId": "tnbc",
+      "language": "zh",
+      "available": true,
+      "text": "一种缺少三种受体（雌激素、孕激素、HER2）的乳腺癌，而其他乳腺癌正是通过这些受体来治疗。几十年来它一直是最难治的亚型；2020年以来，免疫治疗和ADC改变了这一局面。"
+    },
+    {
+      "id": "tnbc-residual-disease-decision-zh",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (zh)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-zh",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (zh)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-zh",
+      "kind": "reader-summary-entry",
+      "name": "Grade (zh)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antibody-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antibody (simple)",
+      "canonicalRecordId": "antibody",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "basal-like-simple",
+      "kind": "reader-summary-entry",
+      "name": "Basal-like breast cancer (simple)",
+      "canonicalRecordId": "basal-like",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Biopsy (simple)",
+      "canonicalRecordId": "biopsy",
+      "language": "simple",
+      "available": true,
+      "text": "A biopsy is taking a small piece of suspicious tissue for a pathologist to examine, the only way to confirm cancer and learn its type."
+    },
+    {
+      "id": "cancer-immunity-cycle-simple",
+      "kind": "reader-summary-entry",
+      "name": "The cancer-immunity cycle (simple)",
+      "canonicalRecordId": "cancer-immunity-cycle",
+      "language": "simple",
+      "available": true,
+      "text": "The cancer-immunity cycle maps steps from tumour material to immune recognition and killing. A positive test at one step does not show that every later step worked."
+    },
+    {
+      "id": "cancer-stage-simple",
+      "kind": "reader-summary-entry",
+      "name": "Stage (simple)",
+      "canonicalRecordId": "cancer-stage",
+      "language": "simple",
+      "available": true,
+      "text": "Stage describes where a cancer is and how far it has spread. Some breast cancer staging also uses cell appearance and test results. A stage does not tell exactly what will happen to one person."
+    },
+    {
+      "id": "cell-cycle-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell cycle (simple)",
+      "canonicalRecordId": "cell-cycle",
+      "language": "simple",
+      "available": true,
+      "text": "The cell cycle is the ordered sequence a cell follows to copy its DNA and split in two, with checkpoints that cancer cells run straight through."
+    },
+    {
+      "id": "chemotherapy-term-simple",
+      "kind": "reader-summary-entry",
+      "name": "Chemotherapy (simple)",
+      "canonicalRecordId": "chemotherapy-term",
+      "language": "simple",
+      "available": true,
+      "text": "Chemotherapy medicines affect different cell processes. They can kill cancer cells or slow their growth, and healthy cells can be affected too."
+    },
+    {
+      "id": "cold-vs-hot-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hot vs cold tumours (simple)",
+      "canonicalRecordId": "cold-vs-hot",
+      "language": "simple",
+      "available": true,
+      "text": "Hot, excluded and desert describe where specified immune cells were found in a sample. These patterns alone do not show cancer recognition, killing or treatment benefit."
+    },
+    {
+      "id": "controlled-perturbation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (simple)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "simple",
+      "available": true,
+      "text": "Change a defined factor and compare the result with suitable controls. A real change in a laboratory test does not by itself show why it happened or that patients benefit."
+    },
+    {
+      "id": "ctdna-imaging-discordance-simple",
+      "kind": "reader-summary-entry",
+      "name": "ctDNA and imaging discordance (simple)",
+      "canonicalRecordId": "ctdna-imaging-discordance",
+      "language": "simple",
+      "available": true,
+      "text": "A blood test measures material in a blood sample, while a scan measures a region of the body. Different results need their timing and limits checked before deciding what they mean."
+    },
+    {
+      "id": "er-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "ER status (oestrogen receptor by IHC) (simple)",
+      "canonicalRecordId": "er-status",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gamma-delta-t-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gamma-delta T cells (simple)",
+      "canonicalRecordId": "gamma-delta-t-cells",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gene expression (simple)",
+      "canonicalRecordId": "gene-expression",
+      "language": "simple",
+      "available": true,
+      "text": "Gene expression is how much a gene is switched on and therefore how much of its protein a cell makes, and cancer cells get these levels wrong."
+    },
+    {
+      "id": "hallmarks-of-cancer-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hallmarks of Cancer (simple)",
+      "canonicalRecordId": "hallmarks-of-cancer",
+      "language": "simple",
+      "available": true,
+      "text": "The hallmarks organise research on cancer capabilities. The framework has changed over time and is not a diagnostic checklist or a treatment-selection test."
+    },
+    {
+      "id": "her2-positive-simple",
+      "kind": "reader-summary-entry",
+      "name": "HER2-positive (IHC 3+ or ISH-amplified) (simple)",
+      "canonicalRecordId": "her2-positive",
+      "language": "simple",
+      "available": true,
+      "text": "HER2-positive breast cancer has an integrated result showing excess HER2 protein or gene amplification under the testing rules. Whether a particular medicine is suitable is a separate question."
+    },
+    {
+      "id": "histology-simple",
+      "kind": "reader-summary-entry",
+      "name": "Histology (simple)",
+      "canonicalRecordId": "histology",
+      "language": "simple",
+      "available": true,
+      "text": "Histology is the study of tissue under the microscope, and a cancer's histology is what kind of cells it is made of and how they are arranged."
+    },
+    {
+      "id": "immune-exclusion-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune exclusion (simple)",
+      "canonicalRecordId": "immune-exclusion",
+      "language": "simple",
+      "available": true,
+      "text": "Immune exclusion means cells gather outside cancer-cell regions. Their position does not show what blocked access or which treatment would help."
+    },
+    {
+      "id": "immune-system-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune system (simple)",
+      "canonicalRecordId": "immune-system",
+      "language": "simple",
+      "available": true,
+      "text": "The immune system is the body's defence network that destroys infected and abnormal cells, killing most would-be cancers before anyone notices them."
+    },
+    {
+      "id": "intra-tumour-heterogeneity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Intra-tumour heterogeneity (simple)",
+      "canonicalRecordId": "intra-tumour-heterogeneity",
+      "language": "simple",
+      "available": true,
+      "text": "Cancer cells can differ in DNA, molecular state and behaviour across regions and time. One sample and one target measurement need not represent every population."
+    },
+    {
+      "id": "keynote-522-simple",
+      "kind": "reader-summary-entry",
+      "name": "KEYNOTE-522 (simple)",
+      "canonicalRecordId": "keynote-522",
+      "language": "simple",
+      "available": true,
+      "text": "The trial that added an immune drug to pre-surgery chemotherapy for triple-negative breast cancer and helped people live longer."
+    },
+    {
+      "id": "neoadjuvant-adjuvant-simple",
+      "kind": "reader-summary-entry",
+      "name": "Neoadjuvant / adjuvant / perioperative (simple)",
+      "canonicalRecordId": "neoadjuvant-adjuvant",
+      "language": "simple",
+      "available": true,
+      "text": "Neoadjuvant treatment comes before surgery and adjuvant treatment after it. A regimen spanning both phases does not separately test how much each phase helped."
+    },
+    {
+      "id": "nk-cell-simple",
+      "kind": "reader-summary-entry",
+      "name": "NK cell (simple)",
+      "canonicalRecordId": "nk-cell",
+      "language": "simple",
+      "available": true,
+      "text": "NK cells are fast-acting immune cells that destroy abnormal cells without training on a specific target, specialising in cells that have hidden from T cells."
+    },
+    {
+      "id": "pcr-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pathologic complete response (pCR) (simple)",
+      "canonicalRecordId": "pcr",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-simple",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 (simple)",
+      "canonicalRecordId": "pd1",
+      "language": "simple",
+      "available": true,
+      "text": "PD-1 helps control how T cells respond. Blocking it can help against some cancers, but does not promise that the cells will recognise or kill the cancer."
+    },
+    {
+      "id": "pembrolizumab-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pembrolizumab (simple)",
+      "canonicalRecordId": "pembrolizumab",
+      "language": "simple",
+      "available": true,
+      "text": "The most widely used cancer immune drug, approved in more than 40 settings."
+    },
+    {
+      "id": "pr-status-simple",
+      "kind": "reader-summary-entry",
+      "name": "PR status (progesterone receptor by IHC) (simple)",
+      "canonicalRecordId": "pr-status",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (simple)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "simple",
+      "available": true,
+      "text": "Chance assigns people to different treatment groups. This helps make a fair comparison, but does not guarantee identical groups or complete follow-up."
+    },
+    {
+      "id": "systemic-vs-local-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Systemic versus local therapy (simple)",
+      "canonicalRecordId": "systemic-vs-local-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "Local therapy such as surgery or radiotherapy treats one place, while systemic therapy such as drugs travels through the blood to treat the whole body."
+    },
+    {
+      "id": "t-cell-simple",
+      "kind": "reader-summary-entry",
+      "name": "T cell (simple)",
+      "canonicalRecordId": "t-cell",
+      "language": "simple",
+      "available": true,
+      "text": "T cells are immune cells with different jobs. Finding them does not show that they recognise or kill cancer."
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (simple)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnbc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Triple-negative breast cancer (TNBC) (simple)",
+      "canonicalRecordId": "tnbc",
+      "language": "simple",
+      "available": true,
+      "text": "A kind of breast cancer that does not have the three usual 'handles' doctors use to attack breast cancer. It used to be the hardest kind. New treatments since 2020 have made it much more treatable."
+    },
+    {
+      "id": "tnbc-residual-disease-decision-simple",
+      "kind": "reader-summary-entry",
+      "name": "Residual disease after neoadjuvant therapy in triple-negative breast cancer: the decision point (simple)",
+      "canonicalRecordId": "tnbc-residual-disease-decision",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tnm-staging-simple",
+      "kind": "reader-summary-entry",
+      "name": "TNM staging (simple)",
+      "canonicalRecordId": "tnm-staging",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-grade-simple",
+      "kind": "reader-summary-entry",
+      "name": "Grade (simple)",
+      "canonicalRecordId": "tumour-grade",
+      "language": "simple",
+      "available": true,
+      "text": "Grade describes how unusual cancer cells look through a microscope. The grading system depends on the cancer. It does not tell how far the cancer has spread or exactly how fast it grows."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "entries": [
+    {
+      "file": "src/data/i18n/ar.ts",
+      "key": "vein-to-vein-time",
+      "language": "ar",
+      "before": "في علاج CAR-T، عدد الأيام من جمع خلايا المريض إلى تسريب المنتج النهائي، وعادة ما يكون ثلاثة إلى ستة أسابيع. كل يوم مهم حين يكون المرض عدوانياً، وتحد القدرة التصنيعية (المواعيد المتاحة) من عدد المرضى الذين يمكن علاجهم.",
+      "after": "في علاج CAR-T، عدد الأيام من جمع خلايا المريض إلى تسريب المنتج النهائي.",
+      "beforeTextSha256": "731e36d661cb6781c8070648425ab75d1f9004581fae13411d439a572c1f99cc",
+      "afterTextSha256": "444202abc2e6ef2de99101afd53fe39f4e408836e552226d26c3913333dfbcac",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "f9eed8000fe396adf47f7ecbfad29747d73fcecabf15f72d47163d1a1eef56be",
+      "afterFileSha256": "a072280f83ef69ffc5a597374c5a977a31817146023d8c5bda2d21db569cdc2c",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/de.ts",
+      "key": "vein-to-vein-time",
+      "language": "de",
+      "before": "Bei CAR-T die Zahl der Tage von der Entnahme der Patientenzellen bis zur Infusion des fertigen Produkts, typischerweise drei bis sechs Wochen. Jeder Tag zählt, wenn die Erkrankung aggressiv ist, und die Produktionskapazität (Slots) begrenzt, wie viele Patienten behandelt werden können.",
+      "after": "Bei CAR-T die Zahl der Tage von der Entnahme der Patientenzellen bis zur Infusion des fertigen Produkts.",
+      "beforeTextSha256": "198c33b39f200c8c8e14840d071cb8be1cb1322d15735c568e2de745d5eb7589",
+      "afterTextSha256": "8b9abbe1e16480f1b128d3204ba6d06791b041f427297383804a183ee63e2bd1",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "7ab0b5ce2cb7f0dea957676647685344d345473ffd5f700d81f5a847bcbaa2f5",
+      "afterFileSha256": "426ac91c4f1339b7cffc4ad7acf5a981c269c8fff0cbc37ee8a4ca762fbaba1e",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/es.ts",
+      "key": "vein-to-vein-time",
+      "language": "es",
+      "before": "En la CAR-T, el número de días desde la extracción de las células del paciente hasta la infusión del producto terminado, normalmente de tres a seis semanas. Cada día cuenta cuando la enfermedad es agresiva, y la capacidad de fabricación (los huecos o slots) limita cuántos pacientes pueden tratarse.",
+      "after": "En la CAR-T, el número de días desde la extracción de las células del paciente hasta la infusión del producto terminado.",
+      "beforeTextSha256": "6e6165f369b682c8691e84e94851132672856f4dea17f5cebda40e14bfd59d6c",
+      "afterTextSha256": "5a707c6b817bc59eeb547651c32b641c029c98c335754daae2ac0524d5b86539",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "e3bb27ebc43e0fe561e05a35df674fc11e7650a782f3d5d8f8df4527a7a2e8a1",
+      "afterFileSha256": "cdf8d0ef229c841cbc0aff44ddfd4bae2dba08c1a25a68916f09d52e6768add7",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/fr.ts",
+      "key": "vein-to-vein-time",
+      "language": "fr",
+      "before": "Pour les CAR-T, le nombre de jours entre le prélèvement des cellules du patient et la perfusion du produit fini, généralement de trois à six semaines. Chaque jour compte quand la maladie est agressive, et la capacité de fabrication (les créneaux) limite le nombre de patients pouvant être traités.",
+      "after": "Pour les CAR-T, le nombre de jours entre le prélèvement des cellules du patient et la perfusion du produit fini.",
+      "beforeTextSha256": "6bfd706a31d19e8c93b3b2deea9a4ae61ba6f0e265b6543335a56b32a96da88d",
+      "afterTextSha256": "28ee87f36585bac64f83bbefa098dc2c4aeae8e0f577c83f8ca674a5a653b379",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "052b6dd5dd19b96f974b6da561f3953e1cdfceb18a4379b2136d183d69920808",
+      "afterFileSha256": "adfef2555421293094b31fe81767d2dba76cf378a93f0adb3e323d3fb16466c1",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/hi.ts",
+      "key": "vein-to-vein-time",
+      "language": "hi",
+      "before": "CAR-T में, मरीज की कोशिकाएं लेने से तैयार उत्पाद के इन्फ्यूजन तक के दिनों की संख्या, आम तौर पर तीन से छह सप्ताह। जब बीमारी आक्रामक हो तो हर दिन महत्वपूर्ण होता है, और निर्माण क्षमता (स्लॉट) यह सीमित करती है कि कितने मरीजों का इलाज हो सकता है।",
+      "after": "CAR-T में, मरीज की कोशिकाएं लेने से तैयार उत्पाद के इन्फ्यूजन तक के दिनों की संख्या।",
+      "beforeTextSha256": "43d75edbd2e67bdd2268cb123dfbac78d04cc89ac3f648232f00946131ae01a7",
+      "afterTextSha256": "317b9ed5967805d6b457696121feab2c6a4a5ace016d300d1923dfb1cabec917",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "bb37f244cdabf1e99d6bf57a8848e9c06a5bd412e5d04ba5481710efa59d325d",
+      "afterFileSha256": "e978da6348593cbe7b05dd9df46b59ffdd57742f643caa06a628b35790e58867",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/ja.ts",
+      "key": "vein-to-vein-time",
+      "language": "ja",
+      "before": "CAR-Tにおいて、患者の細胞を採取してから完成品を輸注するまでの日数で、通常3週間から6週間である。疾患が急速に進行する場合は一日一日が重要であり、製造能力(スロット)が治療できる患者数を制限する。",
+      "after": "CAR-Tにおいて、患者の細胞を採取してから完成品を輸注するまでの日数。",
+      "beforeTextSha256": "265ad96cfbe5a6ee63aeb3c86ae8d7bb6ee2fc4ae1a8361f26f0eaa69f0ef0cd",
+      "afterTextSha256": "4e40d4f67c49b02f4cb1ce3c22944e8a84294b904118f2555fbd51c89a855669",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "703afddd4f5be8f49e1f7b8ae25685b3f2fa406457f971c8399ac548e4fe4b9a",
+      "afterFileSha256": "9a0646e6b3350d0a2c571c992c5962609f97cf5f6b23c1c301b8ce70c13cfb6f",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/pt.ts",
+      "key": "vein-to-vein-time",
+      "language": "pt",
+      "before": "Na CAR-T, o número de dias entre a coleta das células do paciente e a infusão do produto acabado, normalmente de três a seis semanas. Cada dia conta quando a doença é agressiva, e a capacidade de fabricação (vagas ou slots) limita quantos pacientes podem ser tratados.",
+      "after": "Na CAR-T, o número de dias entre a coleta das células do paciente e a infusão do produto acabado.",
+      "beforeTextSha256": "4fce23376df1f77906a7b5c7277f24dceb82892ab10f3abd1cfbb59931559f56",
+      "afterTextSha256": "a6b9a9e09f433eb91733cb11459255d6a5ee3b1def47a9612b3541bf8ab0c7ec",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "e74535a921af25b2ee5f319b624ec6715035cf6b99139f9e2403562e76a1dc75",
+      "afterFileSha256": "78097ea401a596c699faf5d8a02d9887e92c038bcecf4e62325e576928d31da0",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/i18n/zh.ts",
+      "key": "vein-to-vein-time",
+      "language": "zh",
+      "before": "对于CAR-T，指从采集患者细胞到输注成品之间的天数，通常为三到六周。当疾病侵袭性强时每一天都至关重要，而生产能力（排产名额）限制了可治疗的患者数量。",
+      "after": "对于CAR-T，指从采集患者细胞到输注成品之间的天数。",
+      "beforeTextSha256": "63ab9de049f87c24a5e6022508947c7a55c6729b3991d88cafe5a77f233c734b",
+      "afterTextSha256": "0b469563276fb9785bfbd090a388eafcfc47372a39ea07b99cc924727547ca95",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "dbbe219692dd059b58c458b305ff64eb22a9cab8e9de577680d82a8db3ccb9ad",
+      "afterFileSha256": "1fb28c8ab85b407ea464ef39e7939039535d661e24ae09936831d3f32e74d38f",
+      "otherEntriesUnchanged": true
+    },
+    {
+      "file": "src/data/simple/part-j.ts",
+      "key": "vein-to-vein-time",
+      "language": "simple",
+      "before": "Vein-to-vein time is the number of days from collecting a patient's cells for CAR-T to infusing the finished product, typically three to six weeks.",
+      "after": "The time from collecting a person's cells to giving back the prepared cell treatment. It includes transport and testing, and varies by programme.",
+      "beforeTextSha256": "45188ed9f60bc509aadb0e2a00815f77717722fd77c25f2f0e6d31b932ca3f69",
+      "afterTextSha256": "1245c98d919e114895145cd289201b492f434900e2ef403d75e098ee6448452c",
+      "scope": "Preserves the existing definition; removes the unsupported turnaround range and urgency/capacity sentence. Simple English is rewritten without a range. No native-language approval.",
+      "beforeFileSha256": "b1af12b4413253b65d14e16efeedce5b08949bcc4dd549a5678a9af14d3f4d30",
+      "afterFileSha256": "09e1184c2285f6bb53c065f7e1e7ad2236908b845088c2c24004bcfffe553c67",
+      "otherEntriesUnchanged": true
+    }
+  ],
+  "allOtherEntriesUnchanged": true,
+  "nativeReviewClaimed": false
+}

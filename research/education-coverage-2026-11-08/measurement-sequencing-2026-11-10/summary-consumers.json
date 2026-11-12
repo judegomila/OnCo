@@ -1,0 +1,1587 @@
+{
+  "selectorsChecked": 252,
+  "present": 47,
+  "EnglishFallback": 205,
+  "additionalDistinctEntries": 252,
+  "additionalPresent": 47,
+  "additionalFallback": 205,
+  "longCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 224,
+    "rows": [
+      {
+        "id": "tmb",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "ngs",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-seq",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-spatial",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "long-read-sequencing",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "bulk-rna-seq",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "variant-calling",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "batch-effects",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "single-cell-rna-seq",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-testing",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "hla-loh",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-depth-and-coverage",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "sequencing-reads",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tumor-normal-vs-tumor-only-sequencing",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-expression-signatures",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "immune-deconvolution",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "rna-pathway-scoring",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "vaf",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gene-amplification",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tpm-fpkm-counts",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "genome-wide-loss-of-heterozygosity",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "tmb-high",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "nsclc",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "gallbladder",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "es",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "zh",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "pt",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "hi",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "fr",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "de",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "ja",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      },
+      {
+        "id": "msi-high",
+        "language": "ar",
+        "stored": false,
+        "accepted": false,
+        "rejectedStale": false
+      }
+    ]
+  },
+  "staleShortEntriesRemoved": 63,
+  "unchangedShortEntriesRetained": 47,
+  "newNamedLanguageReviews": 0,
+  "priorConsumerRefreshes": []
+}

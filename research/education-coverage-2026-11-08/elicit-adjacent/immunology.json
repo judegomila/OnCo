@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:25.356Z",
+  "request": {
+    "query": "Which original immunology experiments distinguish central and peripheral tolerance, antigen display and recognition, co-stimulation, T-cell activation, exhaustion, memory, receptor specificity and immune-mediated tumor killing?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-31878806",
+        "title": "Thymic T-Cell Education: Positive & Negative Selection",
+        "authors": [],
+        "year": 2011,
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "570ae7b2f4b9f7a0b4c0d2667fe7e4d21f11093510942b5a2dbffcb4f943bfc4",
+          "characters": 908
+        }
+      },
+      {
+        "elicitId": "ss-22100483",
+        "title": "The Thymus and Central Tolerance",
+        "authors": [
+          "J. Sprent",
+          "H. Kishimoto"
+        ],
+        "year": 1996,
+        "doi": "10.1055/S-2007-979796",
+        "pmid": "11375064",
+        "venue": "Philosophical transactions of the Royal Society of London. Series B, Biological sciences",
+        "citedByCount": 106,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e20402a8ec7b873417355cd96445e24702d132f1d0cc2fc120f0a4992d87a75f",
+          "characters": 1796
+        }
+      },
+      {
+        "elicitId": "ss-27891103",
+        "title": "Central versus peripheral tolerance: clonal inactivation versus suppressor T cells, the second half of the 'Thirty Years War'.",
+        "authors": [
+          "E. Sercarz",
+          "A. Oki",
+          "G. Gammon"
+        ],
+        "year": 1989,
+        "doi": null,
+        "pmid": "2530165",
+        "venue": "Immunology. Supplement",
+        "citedByCount": 10,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "825172086bbf1c2743c5ef9ec6a21068c8064f71fbba4947f232b437a1981ae6",
+          "characters": 501
+        }
+      },
+      {
+        "elicitId": "ss-37576861",
+        "title": "T-cell tolerance and autoimmunity in transgenic models of central and peripheral tolerance.",
+        "authors": [
+          "Jacques F. Miller",
+          "R. Flavell"
+        ],
+        "year": 1994,
+        "doi": "10.1016/0952-7915(94)90010-8",
+        "pmid": "7710713",
+        "venue": "Current Opinion in Immunology",
+        "citedByCount": 67,
+        "urls": [
+          "https://doi.org/10.1016/0952-7915(94)90010-8"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/0952-7915(94)90010-8",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-22878978",
+        "title": "Peripheral tolerance of CD8 T lymphocytes.",
+        "authors": [
+          "William L. Redmond",
+          "L. Sherman"
+        ],
+        "year": 2005,
+        "doi": "10.1016/J.IMMUNI.2005.01.010",
+        "pmid": "15780985",
+        "venue": "Immunity",
+        "citedByCount": 282,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-11285585",
+        "title": "Peripheral Tolerance as a Multi‐Step Mechanism",
+        "authors": [
+          "G. Hämmerling",
+          "G. Schönrich",
+          "I. Ferber",
+          "B. Arnold"
+        ],
+        "year": 1993,
+        "doi": "10.1111/j.1600-065X.1993.tb01511.x",
+        "pmid": "8225373",
+        "venue": "Immunological Reviews",
+        "citedByCount": 103,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "aaecc531fb4759cba2d5ecdc01b982cfea9dad332dc1fff89979586262b96e74",
+          "characters": 1303
+        }
+      },
+      {
+        "elicitId": "ss-46183537",
+        "title": "Peripheral Tolerization of Effector and Memory T Cells: Implications for Autoimmunity and Tumor-Immunity.",
+        "authors": [
+          "A. Adler"
+        ],
+        "year": 2005,
+        "doi": "10.2174/1573395052952879",
+        "pmid": "20411047",
+        "venue": "Current Immunology Reviews",
+        "citedByCount": 11,
+        "urls": [
+          "https://europepmc.org/articles/pmc2857346?pdf=render"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 4,
+        "fullTextUrl": "https://europepmc.org/articles/pmc2857346?pdf=render",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "dcccfd73c06ae36bf5b1292b8efe9c16abfde949d98c4834806c41fbd943f767",
+          "characters": 1346
+        }
+      },
+      {
+        "elicitId": "ss-44419814",
+        "title": "Molecular and cellular aspects of immunologic tolerance.",
+        "authors": [
+          "G. J. V. Nossal"
+        ],
+        "year": 1991,
+        "doi": "10.1111/J.1432-1033.1991.TB16427.X",
+        "pmid": "1765089",
+        "venue": "European Journal of Biochemistry",
+        "citedByCount": 27,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "17e418005cf314de38895e3d465c169718fb5a72a5a946fd80198071d76d5569",
+          "characters": 2629
+        }
+      },
+      {
+        "elicitId": "ss-6283748",
+        "title": "Mechanisms and models of peripheral CD4 T cell self-tolerance.",
+        "authors": [
+          "C. Anderson",
+          "W. F. Chan"
+        ],
+        "year": 2004,
+        "doi": "10.2741/1450",
+        "pmid": "15353328",
+        "venue": "Frontiers in Bioscience",
+        "citedByCount": 10,
+        "urls": [
+          "https://article.imrpress.com/bri/Landmark/articles/pdf/Landmark1450.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://article.imrpress.com/bri/Landmark/articles/pdf/Landmark1450.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "52e2017b38e46336c236ae5b43adae7fd37baaac6bff13c50c1e1bfc8dc15a43",
+          "characters": 1813
+        }
+      },
+      {
+        "elicitId": "ss-209317256",
+        "title": "Memory T cell, exhaustion, and tumor immunity",
+        "authors": [
+          "M. Ando",
+          "M. Ito",
+          "Tanakorn Srirat",
+          "T. Kondo",
+          "A. Yoshimura"
+        ],
+        "year": 2019,
+        "doi": "10.1080/25785826.2019.1698261",
+        "pmid": "31822213",
+        "venue": "Immunological Medicine",
+        "citedByCount": 192,
+        "urls": [
+          "https://doi.org/10.1080/25785826.2019.1698261"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://doi.org/10.1080/25785826.2019.1698261",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "673895d5c51005e8d6715a8dc3fe2238dc594a3549191fe09e693f407b2ba5b0",
+          "characters": 1413
+        }
+      },
+      {
+        "elicitId": "ss-576427",
+        "title": "Central tolerance: Clonal deletion or clonal arrest?",
+        "authors": [
+          "W. Swat",
+          "H. von Boehmer",
+          "P. Kisielow"
+        ],
+        "year": 1994,
+        "doi": "10.1002/eji.1830240234",
+        "pmid": "8299699",
+        "venue": "European Journal of Immunology",
+        "citedByCount": 17,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "7964eb2a98bb71178122501328c70305b9204eec2a52390f9316a671ebe18970",
+          "characters": 795
+        }
+      },
+      {
+        "elicitId": "ss-8619389",
+        "title": "CHAPTER: T cell tolerance: Central and Peripheral",
+        "authors": [
+          "Yan Xing",
+          "K. Hogquist"
+        ],
+        "year": 2012,
+        "doi": "10.1101/cshperspect.a006957",
+        "pmid": "22661634",
+        "venue": "Cold Spring Harbor Perspectives in Biology",
+        "citedByCount": 564,
+        "urls": [
+          "http://cshperspectives.cshlp.org/content/4/6/a006957.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "http://cshperspectives.cshlp.org/content/4/6/a006957.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "0f4aaab6f350d8b566b6f2ddb8fbb3a5086c54e01c1769630bbc26387c4c9234",
+          "characters": 1099
+        }
+      },
+      {
+        "elicitId": "ss-40228579",
+        "title": "Mechanisms of peripheral T cell tolerance.",
+        "authors": [
+          "L. van Parijs",
+          "Victor L. Perez",
+          "A. Abbas"
+        ],
+        "year": 1998,
+        "doi": "10.1002/9780470515525.CH2",
+        "pmid": "9760568",
+        "venue": "Novartis Foundation symposium",
+        "citedByCount": 38,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "36b5403889933ec80ff5e322d149e8ca536725ac5b3dba176d35d283cd757987",
+          "characters": 1291
+        }
+      },
+      {
+        "elicitId": "ss-199668073",
+        "title": "How does the immune system learn to distinguish between good and evil? The first definitive studies of T cell central tolerance and positive selection",
+        "authors": [
+          "P. Kisielow"
+        ],
+        "year": 2019,
+        "doi": "10.1007/s00251-019-01127-8",
+        "pmid": "31418051",
+        "venue": "Immunogenetics",
+        "citedByCount": 32,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/s00251-019-01127-8.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://link.springer.com/content/pdf/10.1007/s00251-019-01127-8.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "b5de2e053349b7ab14f288b88e5dc9c3ec1dcac4da374bcb3ed2c410c729c78c",
+          "characters": 775
+        }
+      },
+      {
+        "elicitId": "ss-7679982",
+        "title": "Immunological tolerance 50 years after the Burnet Nobel Prize",
+        "authors": [
+          "A. Liston"
+        ],
+        "year": 2011,
+        "doi": "10.1038/icb.2010.138",
+        "pmid": "21209621",
+        "venue": "Immunology and Cell Biology",
+        "citedByCount": 7,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4308f61bf3ef0507f5d1572cadb81f5543d4ea499d67ac4bc31e712d2d97fd99",
+          "characters": 5680
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "961db7dbb8efa68b5a835bd74d250fb7a8bd2d62b53bb926f3063a93c30e5345",
+    "rawBytes": 30734,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

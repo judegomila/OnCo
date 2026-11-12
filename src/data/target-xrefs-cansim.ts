@@ -5,8 +5,11 @@
  * re-running scripts/fetch-xrefs.ts supersedes these entries.
  */
 import type { TargetXref } from "./target-xrefs";
+import { targetXrefsEducation } from "./target-xrefs-education";
 
 export const targetXrefsCansim: Record<string, TargetXref> = {
+  // Reviewed education extension; the generated base table stays unchanged.
+  ...targetXrefsEducation,
   "grb7": { genes: [{"symbol": "GRB7", "name": "growth factor receptor bound protein 7", "hgnc": "HGNC:4567", "ensembl": "ENSG00000141738", "uniprot": "Q14451", "entrez": "2886", "locus": "17q12"}] },
   "stard3": { genes: [{"symbol": "STARD3", "name": "StAR related lipid transfer domain containing 3", "hgnc": "HGNC:17579", "ensembl": "ENSG00000131748", "uniprot": "Q14849", "entrez": "10948", "locus": "17q12"}] },
   "pgap3": { genes: [{"symbol": "PGAP3", "name": "post-GPI attachment to proteins phospholipase 3", "hgnc": "HGNC:23719", "ensembl": "ENSG00000161395", "uniprot": "Q96FM1", "entrez": "93210", "locus": "17q12"}] },

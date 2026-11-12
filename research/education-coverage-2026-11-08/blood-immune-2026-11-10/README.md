@@ -1,0 +1,11 @@
+# Blood and immune measurement draft checkpoint
+
+The three ctDNA subjects for units, blood/imaging discordance and monitoring lead time are registered in draft #375. Existing blood and immune owners are supplemented across drafts #375, #371 and #373: 29 canonical subjects represented by 30 versioned records. Existing notes and links are preserved. The two flow-cytometry versions retain their separate scalar ownership; take the source-scoped summary from #373 when integrating them.
+
+Corrections distinguish the CellSearch training-set result from the full cohort, clarify NCI collection recommendations, scope the WHO 2022 CHIP definition including its X-linked-male exception, and separate variant-allele probability from tumour fraction in fictional sampling arithmetic. Gating, sorting, assay controls, clinical sensitivity, reference-build failure, receptor identity, secretion and killing have explicit boundaries. Earlier detection remains distinct from survival benefit. The exact analysis denominator behind the reported García-Murillas lead-time estimate and the Diehl supplement remain named source limits.
+
+All three validation, typecheck, lint and full-suite chains pass. Actual EntityDetail markup, selected summary readers, canonical JSON, OpenAPI and Markdown outputs were checked. There are 19 root owners, three concept-expansion owners and eight shared-immune owners in those checks; source links and generated teaching passages survive. Four simplified entries were updated and four added; seventeen older short translations select current English pending language review. No new expert or language approval is claimed.
+
+The 35 pinned lesson versions retain 384 reproduced section signatures. Thirty-two figure-theme files and ten Mermaid source/render receipts reuse the worker's actual assessments by verified identity, with renderer limits retained. The 170 worker rows and 97 independent units remain separate. Coordinator source-to-field acceptance is unfinished, so this implementation checkpoint earns no new curriculum-page or requirement credit. Both global curriculum denominators and their existing coverage counts remain unchanged. Nothing is merged into main or deployed.
+
+Current coordinator acceptance: [acceptance-r2](acceptance-r2/README.md). This initial implementation-only packet is preserved as a historical checkpoint.

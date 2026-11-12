@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:20.459Z",
+  "request": {
+    "query": "Which original cancer-biology studies distinguish cell of origin, cell state, clonal evolution, lineage plasticity, tissue invasion, tumor dormancy and metastatic colonization, including limits of extrapolating models?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-261063901",
+        "title": "Cellular Origins and Lineage Plasticity in Cancer.",
+        "authors": [
+          "Jason R. Pitarresi",
+          "B. Stanger"
+        ],
+        "year": 2023,
+        "doi": "10.1101/cshperspect.a041389",
+        "pmid": "37604590",
+        "venue": "Cold Spring Harbor Perspectives in Medicine",
+        "citedByCount": 8,
+        "urls": [
+          "http://perspectivesinmedicine.cshlp.org/content/early/2023/08/21/cshperspect.a041389.full.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "http://perspectivesinmedicine.cshlp.org/content/early/2023/08/21/cshperspect.a041389.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f74a357dc27b56d5186bcfa2c1ec0db582807536ebd82358f7f3811156d9511c",
+          "characters": 1045
+        }
+      },
+      {
+        "elicitId": "ss-36620699",
+        "title": "The roots of cancer: Stem cells and the basis for tumor heterogeneity",
+        "authors": [
+          "Maho Shibata",
+          "M. Shen"
+        ],
+        "year": 2012,
+        "doi": "10.1002/bies.201200101",
+        "pmid": "23027425",
+        "venue": "Bioessays",
+        "citedByCount": 73,
+        "urls": [
+          "https://europepmc.org/articles/pmc3687804?pdf=render"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://europepmc.org/articles/pmc3687804?pdf=render",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "aaa4b63ab40807d0b49166ca7290bbde836c42c6e381e3583cb3be2667310f2f",
+          "characters": 960
+        }
+      },
+      {
+        "elicitId": "ss-25645944",
+        "title": "Insights into the cell of origin in breast cancer and breast cancer stem cells",
+        "authors": [
+          "G. Lindeman",
+          "J. Visvader"
+        ],
+        "year": 2010,
+        "doi": "10.1111/j.1743-7563.2010.01279.x",
+        "pmid": "20565420",
+        "venue": "Asia-Pacific Journal of Clinical Oncology",
+        "citedByCount": 68,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1743-7563.2010.01279.x"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1743-7563.2010.01279.x",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "c0c31819ae54c7da00155347f82e02624c00ac9e109aeff1cd1932aeab21c045",
+          "characters": 1674
+        }
+      },
+      {
+        "elicitId": "ss-9631050",
+        "title": "Lineage analysis of basal epithelial cells reveals their unexpected plasticity and supports a cell of origin model for prostate cancer heterogeneity",
+        "authors": [
+          "Zhu A. Wang",
+          "A. Mitrofanova",
+          "Sarah K. Bergren",
+          "C. Abate-Shen",
+          "R. Cardiff",
+          "A. Califano",
+          "M. Shen"
+        ],
+        "year": 2013,
+        "doi": "10.1038/ncb2697",
+        "pmid": "23434823",
+        "venue": "Nature Cell Biology",
+        "citedByCount": 312,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/3743266"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/3743266",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a1b7c0edb54be23486f576cfc330da52899227678cc1dc168fd700d2a2a06121",
+          "characters": 1144
+        }
+      },
+      {
+        "elicitId": "ss-12887619",
+        "title": "Cell-of-Origin of Cancer versus Cancer Stem Cells: Assays and Interpretations",
+        "authors": [
+          "K. Rycaj",
+          "Dean G. Tang"
+        ],
+        "year": 2015,
+        "doi": "10.1158/0008-5472.CAN-15-0798",
+        "pmid": "26292361",
+        "venue": "Cancer Research",
+        "citedByCount": 245,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/4756645"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4756645",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "591f01fcd2a5c4c97255f764bbebddd11b1da7d351e3df4e0f9f192f51b0f98f",
+          "characters": 1186
+        }
+      },
+      {
+        "elicitId": "ss-16770341",
+        "title": "Cell Plasticity and Heterogeneity in Cancer",
+        "authors": [
+          "Nemanja Marjanović",
+          "R. Weinberg",
+          "C. Chaffer"
+        ],
+        "year": 2012,
+        "doi": "10.1373/clinchem.2012.184655",
+        "pmid": "23220226",
+        "venue": "Clinical Chemistry",
+        "citedByCount": 366,
+        "urls": [
+          "http://clinchem.aaccjnls.org/content/clinchem/59/1/168.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "http://clinchem.aaccjnls.org/content/clinchem/59/1/168.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "245ea843c5cea9d0e9e5295bb348fd167ad9cb7a1c2b44405cb05b8cba937150",
+          "characters": 1891
+        }
+      },
+      {
+        "elicitId": "ss-264438010",
+        "title": "Cell State of Origin Impacts Development of Distinct Endometriosis-Related Ovarian Carcinoma Histotypes",
+        "authors": [
+          "Ian Beddows",
+          "Huihui Fan",
+          "Karolin Heinze",
+          "Benjamin K. Johnson",
+          "Anna Leonova",
+          "J. Senz",
+          "Svetlana Djirackor",
+          "Kathleen R. Cho",
+          "C. Pearce",
+          "D. Huntsman",
+          "M. Anglesio",
+          "Hui Shen"
+        ],
+        "year": 2023,
+        "doi": "10.1158/0008-5472.CAN-23-1362",
+        "pmid": "37874327",
+        "venue": "Cancer Research",
+        "citedByCount": 26,
+        "urls": [
+          "https://aacrjournals.org/cancerres/article-pdf/doi/10.1158/0008-5472.CAN-23-1362/3376111/can-23-1362.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/cancerres/article-pdf/doi/10.1158/0008-5472.CAN-23-1362/3376111/can-23-1362.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e3ac2f19d138549bd6e5dfb1c19aa74dcb6a82b0fb05254db1b7896e89bf8456",
+          "characters": 211
+        }
+      },
+      {
+        "elicitId": "ss-19625424",
+        "title": "How does multistep tumorigenesis really proceed?",
+        "authors": [
+          "C. Chaffer",
+          "R. Weinberg"
+        ],
+        "year": 2015,
+        "doi": "10.1158/2159-8290.CD-14-0788",
+        "pmid": "25583800",
+        "venue": "Cancer Discovery",
+        "citedByCount": 143,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/4295623"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4295623",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4646f52f778b6d21ef15c7359467a3ff9cc55e3f26539896a304208ba2b9986c",
+          "characters": 580
+        }
+      },
+      {
+        "elicitId": "ss-24492945",
+        "title": "Clonal evolution models of tumor heterogeneity.",
+        "authors": [
+          "L. Shlush",
+          "D. Hershkovitz"
+        ],
+        "year": 2015,
+        "doi": "10.14694/EdBook_AM.2015.35.e662",
+        "pmid": "25993239",
+        "venue": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+        "citedByCount": 34,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9b8a14cea050f21784693bb4c4484657d9c2de4b48b5b1b4073f48134b9cd089",
+          "characters": 1627
+        }
+      },
+      {
+        "elicitId": "ss-234743584",
+        "title": "Tumor Dormancy: Implications for Invasion and Metastasis",
+        "authors": [
+          "G. Gomatou",
+          "N. Syrigos",
+          "I. Vathiotis",
+          "E. Kotteas"
+        ],
+        "year": 2021,
+        "doi": "10.3390/ijms22094862",
+        "pmid": "34064392",
+        "venue": "International Journal of Molecular Sciences",
+        "citedByCount": 54,
+        "urls": [
+          "https://www.mdpi.com/1422-0067/22/9/4862/pdf?version=1620121314"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.mdpi.com/1422-0067/22/9/4862/pdf?version=1620121314",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "70ed2ad270b3b065b0bc7bb52d14325103c509048b4c64ff45e7838a6a65e817",
+          "characters": 1175
+        }
+      },
+      {
+        "elicitId": "ss-272553443",
+        "title": "The Evolutionary Theory of Cancer: Challenges and Potential Solutions",
+        "authors": [
+          "L. Laplane",
+          "Carlo C. Maley"
+        ],
+        "year": 2024,
+        "doi": "10.1038/s41568-024-00734-2",
+        "pmid": "39256635",
+        "venue": "Nature Reviews. Cancer",
+        "citedByCount": 78,
+        "urls": [
+          "https://hal.science/hal-04835671v1/document",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11627115/pdf/nihms-2028028.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://hal.science/hal-04835671v1/document",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4f869e3c5207e68351a5adabbce1b42c7be8a215359ccad6213654d281ebe43c",
+          "characters": 1528
+        }
+      },
+      {
+        "elicitId": "ss-248430429",
+        "title": "Phenotypic plasticity during metastatic colonization.",
+        "authors": [
+          "Charly Jehanno",
+          "Milica Vulin",
+          "Veronica Richina",
+          "Federica Richina",
+          "M. Bentires-Alj"
+        ],
+        "year": 2022,
+        "doi": "10.1016/j.tcb.2022.03.007",
+        "pmid": "35484037",
+        "venue": "Trends in Cell Biology",
+        "citedByCount": 52,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-269077140",
+        "title": "Correctly identifying the cells of origin is essential for tailoring treatment and understanding the emergence of cancer stem cells and late metastases",
+        "authors": [
+          "H. Waldum",
+          "G. Slupphaug"
+        ],
+        "year": 2024,
+        "doi": "10.3389/fonc.2024.1369907",
+        "pmid": "38660133",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 3,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11040596/pdf/fonc-14-1369907.pdf",
+          "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1369907/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2024.1369907/pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f9d4d8b0f3a497b045931ce285055465f488630b256ae1f0a45aa06fe36a9a3c",
+          "characters": 952
+        }
+      },
+      {
+        "elicitId": "ss-253628813",
+        "title": "Temporal chromatin accessibility changes define transcriptional states essential for osteosarcoma metastasis",
+        "authors": [
+          "W. D. Pontius",
+          "Ellen S. Hong",
+          "Z. Faber",
+          "Jeremy Gray",
+          "Craig D. Peacock",
+          "Ian M. Bayles",
+          "Katreya Lovrenert",
+          "Diana H. Chin",
+          "B. Gryder",
+          "C. Bartels",
+          "P. Scacheri"
+        ],
+        "year": 2022,
+        "doi": "10.1038/s41467-023-42656-x",
+        "pmid": "37938582",
+        "venue": "bioRxiv",
+        "citedByCount": 13,
+        "urls": [
+          "https://www.researchsquare.com/article/rs-2199384/latest.pdf",
+          "https://www.nature.com/articles/s41467-023-42656-x.pdf",
+          "https://www.biorxiv.org/content/biorxiv/early/2022/11/17/2022.11.15.516627.full.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10632377/pdf/41467_2023_Article_42656.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41467-023-42656-x.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "498e355add87277f0a305bd48d1b0ca047789b01081029ef1d56d80a5cfc6fd1",
+          "characters": 1344
+        }
+      },
+      {
+        "elicitId": "ss-239012231",
+        "title": "Lineage Recording Reveals the Phylodynamics, Plasticity and Paths of Tumor Evolution",
+        "authors": [
+          "Dian Yang",
+          "Matthew G. Jones",
+          "S. Naranjo",
+          "W. Rideout",
+          "Kyung Hoi (Joseph) Min",
+          "Raymond Ho",
+          "Wei Wu",
+          "J. Replogle",
+          "J. Page",
+          "Jeffrey J. Quinn",
+          "Felix Horns",
+          "Xiao-Jie Qiu",
+          "Michael Z. Chen",
+          "William A. Freed-Pastor",
+          "Christopher S. McGinnis",
+          "David M. Patterson",
+          "Zev J. Gartner",
+          "Eric D. Chow",
+          "T. Bivona",
+          "Michelle M. Chan",
+          "N. Yosef",
+          "T. Jacks",
+          "J. Weissman"
+        ],
+        "year": 2021,
+        "doi": "10.1101/2021.10.12.464111",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 12,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2021/10/13/2021.10.12.464111.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2021/10/13/2021.10.12.464111.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f7f520c6962e98ee42a92c5efa744bb9ca279591b9243e5184473f3aef409508",
+          "characters": 1254
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "a2353b5819dcc0b7b1781339f1442b336f310f33f479cde486bad3ef26428500",
+    "rawBytes": 29092,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

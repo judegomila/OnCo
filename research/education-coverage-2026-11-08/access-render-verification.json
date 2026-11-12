@@ -1,0 +1,217 @@
+{
+  "checkedAt": "2026-11-08T23:19:37.299874+00:00",
+  "method": "Actual EntityDetail React server renders, not a deployment or browser screenshot audit.",
+  "readIds": [
+    "investigator-initiated-trials",
+    "laboratory-certification-test-authorization",
+    "companion-diagnostic",
+    "full-approval",
+    "expanded-access"
+  ],
+  "records": [
+    {
+      "id": "investigational-new-drug-application",
+      "bytes": 23070,
+      "sources": [
+        "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+        "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+        "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+        "https://www.fda.gov/media/162793/download"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "investigator-initiated-trials",
+      "bytes": 21100,
+      "sources": [
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3",
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.2",
+        "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements",
+        "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "laboratory-certification-test-authorization",
+      "bytes": 22185,
+      "sources": [
+        "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+        "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+        "https://www.fda.gov/media/87374/download",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+        "https://www.fda.gov/medical-devices/device-registration-and-listing/important-reminders-about-registration-and-listing"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "trial-search-site-verification",
+      "bytes": 24092,
+      "sources": [
+        "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+        "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect",
+        "https://clinicaltrials.gov/policy/protocol-definitions",
+        "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "companion-diagnostic",
+      "bytes": 186213,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Companion_diagnostic",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+        "https://www.fda.gov/media/81309/download",
+        "https://www.fda.gov/media/120340/download"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "companion-diagnostic-term",
+      "bytes": 70865,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Companion_diagnostic",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+        "https://www.fda.gov/media/81309/download",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "label-indication",
+      "bytes": 25346,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Drug_labelling",
+        "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+        "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+        "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "off-label",
+      "bytes": 33603,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Off-label_use",
+        "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label",
+        "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "full-approval",
+      "bytes": 24946,
+      "sources": [
+        "https://en.wikipedia.org/wiki/New_Drug_Application",
+        "https://www.fda.gov/media/86377/download",
+        "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "fast-track-rmat",
+      "bytes": 26156,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fast_track_(FDA)",
+        "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+        "https://www.fda.gov/media/86377/download",
+        "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-designation"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "accelerated-approval",
+      "bytes": 49367,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Accelerated_approval_(FDA)",
+        "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program",
+        "https://www.fda.gov/media/86377/download"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "research-use-only",
+      "bytes": 22068,
+      "sources": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/distribution-in-vitro-diagnostic-products-labeled-research-use-only-or-investigational-use-only",
+        "https://www.fda.gov/media/87374/download",
+        "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "fda-ldt-rule",
+      "bytes": 27640,
+      "sources": [
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests",
+        "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+        "https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "bla-nda",
+      "bytes": 29117,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Prescription_Drug_User_Fee_Act",
+        "https://www.fda.gov/drugs/types-applications/new-drug-application-nda",
+        "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products",
+        "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind",
+        "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review",
+        "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "expanded-access",
+      "bytes": 27264,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Expanded_access",
+        "https://www.fda.gov/news-events/public-health-focus/expanded-access",
+        "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate",
+        "https://www.fda.gov/media/162793/download",
+        "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "right-to-try",
+      "bytes": 24877,
+      "sources": [
+        "https://en.wikipedia.org/wiki/Right-to-try_law",
+        "https://www.congress.gov/bill/115th-congress/senate-bill/204",
+        "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "eu-regulation-726-2004",
+      "bytes": 30606,
+      "sources": [
+        "https://eur-lex.europa.eu/eli/reg/2004/726/oj",
+        "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/conditional-marketing-authorisation",
+        "https://www.ema.europa.eu/en/human-regulatory-overview/research-development/prime-priority-medicines",
+        "https://www.ema.europa.eu/en/human-regulatory-overview/marketing-authorisation/obtaining-eu-marketing-authorisation-step-step"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ]
+}

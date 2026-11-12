@@ -1,0 +1,11 @@
+{
+  "workerRowsRetained": 133,
+  "semanticTeachingRequirements": 108,
+  "derivedTakeawaysMappedToParents": 13,
+  "sourceListMetadataRows": 12,
+  "reason": "Do not grant teaching coverage for citation presence or count a restated takeaway as an independent semantic requirement. All 133 rows and all 296 section signatures retain dispositions at both pins. No floor or test measure is changed.",
+  "sourceAccessStatusClarifications": {
+    "aav-vector:R10": "Distinguish the named AAV2 genome sequence, measured packaged-genome lengths and usable coding capacity. Self-complementary designs trade coding capacity for an inverted repeat that can pair with itself; do not infer one universal packaging ceiling.",
+    "in-vitro-transcription:R06": "Distinguish sequence and chemistry identity, poly(A), RNA content, length and integrity, dsRNA, residual DNA and expression assays. Unincorporated nucleotides and template DNA affect UV absorbance, so purification and measurement method must be stated rather than treating an unpurified absorbance reading as transcript-specific mass."
+  }
+}

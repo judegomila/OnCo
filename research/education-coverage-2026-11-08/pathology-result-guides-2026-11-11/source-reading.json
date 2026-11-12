@@ -1,0 +1,2576 @@
+{
+  "dataCommit": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "documents": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "title": "Read the diagnostic biopsy report",
+      "bytes": 6566,
+      "sourceSha256": "288ff89c640ec1db8028c00d0ea4db85cdc7a0c5c322453a20809e0e306140e9",
+      "gitBlob": "8275c58a00f025f797988dac457ec8b4de19bb4e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6a7099ba04e4bc1c0df4447029d5080052b28476449ecb05c9f170ffa8075fc8"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1e155e16d697a608064339438de5fbebeb44844e46342f2bbee41a6f1ef1634f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "552be8a47339a61cbf73613c47f35d4a8de33da8029c87b9c67e71dc9591b21e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "cbedb5729872357421374eef41abe75c8554e2ace6d5310e715224a0a1141f14"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "fd81c74470411a5866d0d13a1193af6570238d5eb5fed6abf12546f628d929e7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "dbf0b8494f13ccd0f068524b2968b47e1b62fc586d274e717b52344c148734a2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "34c627527ba59f23f4cc838bcc4e43a8a8242b55414d86b60c5fc5bf06f4220c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "2f49ac78769470e0a927ac86bf5092afff48621e6dcfe7e3790e1ea9d5d1078e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "f77af21ed3eeecddd7b45018d88c9252a8001184c641fef46706a287ca4e65cf"
+        }
+      ],
+      "projectionSha256": "33d081bf8a93a536661b8865797b8ba60b1dfb6f9f962f256fffbe6b602b2682",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "title": "Place the specimen in time",
+      "bytes": 8813,
+      "sourceSha256": "ede6392b92414e66ef4d15e524ba922d528ff0ce8d7c434dc94ed9aef26c2391",
+      "gitBlob": "91c53edaf909f1b555b994a14f235a5299b85f8b",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "483267c6b063dec6cedecd44f790d2fce70061af32d4fcc01fba891f1af6e485"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "dd3e291aae35bf500d8afd4c4c04d93ee1d66fc42a807a95ea211549a35699d9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b7c9895b532ed7002eace4c01dc3b34833188a77707dd7f63f8e810b78baf90a"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "c86f9f7f9efffbbe5936ae6d36d79ed3946debb36c3c9357d893ddb46ba4bf37"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "fe44368c8e62dc31e789a0f54cf05b9f5043b6e329a601d4212de2093e6b1fcd"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c20912cd4c8787547bdd7950d8a1621e03ce692556d27a3c5e4a31d56ce2b4f4"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "c94c9756cd412df358985655dc6e412da05cb1c345c36f1c107eb3e0dd2807b6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "846f0d044dc7bb6afd06aa9068b64923d9e78704d5c51ddcbacbe6495827a164"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5c37de8d380ee9e4394681b21b409a50fc2718160ea6b55eee6d09f4a13a591d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c7f0dbf7af888b0033f8a0ce8e205385cb12c858f0fb9bbf2c72bdde6ae4b46a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "94f9f6fa9a2e929364cfb6f8e9e96250b5bb43dba434d679be3fecc5973a88e8"
+        }
+      ],
+      "projectionSha256": "8223c6a569e2e7a0638b37a488f57925abbaac76de71c69fb02c23709a25eac9",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "title": "Read residual disease and margins",
+      "bytes": 8215,
+      "sourceSha256": "7cd8e92dedd22949c6b4d75d072aef5b8134179dd06133c385a881c50e5a0596",
+      "gitBlob": "5166b61625005452cb3b10c6f033a0f621ae1807",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9e8831d8692fb59facd55b19a70b74a80ac9e0cb0edc0ad5a6e90d0f8728de37"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "fb3f13fcfcc1e04ba2c022e639680e6b6e1b159b2813ff8d17674a6dbb52263c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5243f0e39a25fedcc9a2030dc296c3606e81e0f1932cc7a0d0e7ecd108dc49f1"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4df96acb570b045253fdbee700094a588e2cdf2ef92a6dde14b5c5808800e159"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c0b4211f09337f2a54db2f25c5aabb13b90c4ec35a310916ff2416c36a14782c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e339178c4851a34913b4ba94c0f03a7751a767c7755bfc5464c97333dfbdf420"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6864db56394e507ea63481b5f9ea6275608d2193c6204b4726991c2efb924ba2"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a71389f93dbf21edc9c025f70f998b1ecd0a4ddee451f38c479cac6a6a90efbc"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1df8c64c933e30877d9fdc18f0c8dede70748f29a3e79e1d544faea786665d72"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dfd67356987d683aea50f9d2b16c19bf80c4229cd5e64222934383067d874d72"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "d0cc242d20132167798621583c90c09e76e5e99b8ea2737635d3d05e1f628cfa"
+        }
+      ],
+      "projectionSha256": "23c1852b16f26c51d24c3cdc0dda803d72df9c0aa586c8045ca94178676efcc1",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "title": "Build the next question",
+      "bytes": 9902,
+      "sourceSha256": "556e76c98a2eb33cd42cc7155731d45c547baee7720ffa3d0d33bd79bf70ffa5",
+      "gitBlob": "99e578258b7521142ef4742cd1eff7f065cfc65d",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3158a49d11580df91de3f06b65415435db66e1937dc381b400b798bc2aa7cf7e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6e49c54a1d006ac66887833bd1869b06356ce700d295aa093489cf772b7e6004"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b3f6b2700a748060b27e26c07b59316528eb84caad66bdfee55e6cf1d5da07aa"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a3673bd442b3d51c0260cd81568bc4785be9a0736a051b02fda6f9b302c424aa"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "658e02ac6f6ed9d58a3b9991366ada8226ea5bd181f9388377de0fd8fc850c99"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "87f661bf362079b3e8fe1e046ff2eb24fa4dff8f2fa875f039b56dacb0552525"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "7308511ecc6042ab5b63b4e2e582fcaea46be9a9ca1e28b8649aed45a018484d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "3604d3872e18d80261fc997205fe97826d823d1597301d183f1f2e36eaa70023"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "6aa9e881618befa4323980250ec34ef9e233512a8c1e3e61509d4f783ec388d7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d02a90f5711f57b9b3772f9a50ae3e619d0bb6546152ac821d97074f5aec8221"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "2cc2be191f184a095a07c4d1f1e43626ab0e2e5d3606723a8d913c3e6f4d9b5d"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "1f92d5b4d50352967547c89518990203b371f0fcb6c9643ba49652fa32f83cd9"
+        }
+      ],
+      "projectionSha256": "574d3a5f3ce40249632b0d5763e118d564b8bdd14544d138c1ce20f349719c87",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "title": "Read pathology and surgery results",
+      "bytes": 6818,
+      "sourceSha256": "2c613a3679b827f8674b21f7accb45a0f11698595548d39d52bba13865580d36",
+      "gitBlob": "1741efe0576d2b7304b6c81cfe906e4578540125",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "08baa35246cbc44a9a51564e22f8ec5212428160af47cdcb49a2b9d508cbb28f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "67b4e0d68d7d3dd2459c2efb4391d42075da1eb2b490acb27935fd43a1bd1428"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "01c9adf0de80dbb382001158f485f1823c689a0926a142165647c1ada3e43011"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "55e1bb57ecc8d206ab476be079da755685b8633a02fa594d1705534652b1cee8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a5bca392825f4a57087cc101f4cca4f2f61d15589bb614f5353cba49c01f332a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "0c36816f9da161a0679a5258965d972d1bd0ede6b8b812568c2f9cf9e1372648"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "0ce0fe5da4edfb856e6922a3449f203469d33a5974773d6d2402f279b1959252"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "46c04dce13cdc27f56df9cbf05f0652ea5e9ce1a51eb06119a9dc1af3624837f"
+        }
+      ],
+      "projectionSha256": "677c319bf31d94fa112e842ef502e2d00fc99ca03da220c8a61d1d7e755f2789",
+      "excludedPersonalSections": 1,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "title": "Read the diagnostic biopsy report",
+      "bytes": 6566,
+      "sourceSha256": "288ff89c640ec1db8028c00d0ea4db85cdc7a0c5c322453a20809e0e306140e9",
+      "gitBlob": "8275c58a00f025f797988dac457ec8b4de19bb4e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "6a7099ba04e4bc1c0df4447029d5080052b28476449ecb05c9f170ffa8075fc8"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1e155e16d697a608064339438de5fbebeb44844e46342f2bbee41a6f1ef1634f"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "552be8a47339a61cbf73613c47f35d4a8de33da8029c87b9c67e71dc9591b21e"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "cbedb5729872357421374eef41abe75c8554e2ace6d5310e715224a0a1141f14"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "fd81c74470411a5866d0d13a1193af6570238d5eb5fed6abf12546f628d929e7"
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "dbf0b8494f13ccd0f068524b2968b47e1b62fc586d274e717b52344c148734a2"
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "34c627527ba59f23f4cc838bcc4e43a8a8242b55414d86b60c5fc5bf06f4220c"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "2f49ac78769470e0a927ac86bf5092afff48621e6dcfe7e3790e1ea9d5d1078e"
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "f77af21ed3eeecddd7b45018d88c9252a8001184c641fef46706a287ca4e65cf"
+        }
+      ],
+      "projectionSha256": "33d081bf8a93a536661b8865797b8ba60b1dfb6f9f962f256fffbe6b602b2682",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "title": "Place the specimen in time",
+      "bytes": 9138,
+      "sourceSha256": "44cac0335c2c8492a4e4e845f8fc718992f4685d12c499fe72e0d301fef6c9fc",
+      "gitBlob": "c684029b414a0a1efa353bca4ef7086d428e82a4",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "483267c6b063dec6cedecd44f790d2fce70061af32d4fcc01fba891f1af6e485"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "dd3e291aae35bf500d8afd4c4c04d93ee1d66fc42a807a95ea211549a35699d9"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9b1ab5cf32f509420a1b905942da78827771d3756744b6888ac57ce7ea1e31d1"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "c86f9f7f9efffbbe5936ae6d36d79ed3946debb36c3c9357d893ddb46ba4bf37"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "fe44368c8e62dc31e789a0f54cf05b9f5043b6e329a601d4212de2093e6b1fcd"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c20912cd4c8787547bdd7950d8a1621e03ce692556d27a3c5e4a31d56ce2b4f4"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "c94c9756cd412df358985655dc6e412da05cb1c345c36f1c107eb3e0dd2807b6"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "846f0d044dc7bb6afd06aa9068b64923d9e78704d5c51ddcbacbe6495827a164"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5c37de8d380ee9e4394681b21b409a50fc2718160ea6b55eee6d09f4a13a591d"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "c7f0dbf7af888b0033f8a0ce8e205385cb12c858f0fb9bbf2c72bdde6ae4b46a"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "94f9f6fa9a2e929364cfb6f8e9e96250b5bb43dba434d679be3fecc5973a88e8"
+        }
+      ],
+      "projectionSha256": "95d6848612894193c4e1337d0d14d506b4a1f807dc58e0e67246932544fb8d70",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "title": "Read residual disease and margins",
+      "bytes": 8215,
+      "sourceSha256": "7cd8e92dedd22949c6b4d75d072aef5b8134179dd06133c385a881c50e5a0596",
+      "gitBlob": "5166b61625005452cb3b10c6f033a0f621ae1807",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9e8831d8692fb59facd55b19a70b74a80ac9e0cb0edc0ad5a6e90d0f8728de37"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "fb3f13fcfcc1e04ba2c022e639680e6b6e1b159b2813ff8d17674a6dbb52263c"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5243f0e39a25fedcc9a2030dc296c3606e81e0f1932cc7a0d0e7ecd108dc49f1"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "4df96acb570b045253fdbee700094a588e2cdf2ef92a6dde14b5c5808800e159"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "c0b4211f09337f2a54db2f25c5aabb13b90c4ec35a310916ff2416c36a14782c"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "e339178c4851a34913b4ba94c0f03a7751a767c7755bfc5464c97333dfbdf420"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "6864db56394e507ea63481b5f9ea6275608d2193c6204b4726991c2efb924ba2"
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "a71389f93dbf21edc9c025f70f998b1ecd0a4ddee451f38c479cac6a6a90efbc"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1df8c64c933e30877d9fdc18f0c8dede70748f29a3e79e1d544faea786665d72"
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "dfd67356987d683aea50f9d2b16c19bf80c4229cd5e64222934383067d874d72"
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "d0cc242d20132167798621583c90c09e76e5e99b8ea2737635d3d05e1f628cfa"
+        }
+      ],
+      "projectionSha256": "23c1852b16f26c51d24c3cdc0dda803d72df9c0aa586c8045ca94178676efcc1",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "title": "Build the next question",
+      "bytes": 9902,
+      "sourceSha256": "556e76c98a2eb33cd42cc7155731d45c547baee7720ffa3d0d33bd79bf70ffa5",
+      "gitBlob": "99e578258b7521142ef4742cd1eff7f065cfc65d",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "3158a49d11580df91de3f06b65415435db66e1937dc381b400b798bc2aa7cf7e"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6e49c54a1d006ac66887833bd1869b06356ce700d295aa093489cf772b7e6004"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "b3f6b2700a748060b27e26c07b59316528eb84caad66bdfee55e6cf1d5da07aa"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "a3673bd442b3d51c0260cd81568bc4785be9a0736a051b02fda6f9b302c424aa"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "658e02ac6f6ed9d58a3b9991366ada8226ea5bd181f9388377de0fd8fc850c99"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "87f661bf362079b3e8fe1e046ff2eb24fa4dff8f2fa875f039b56dacb0552525"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "7308511ecc6042ab5b63b4e2e582fcaea46be9a9ca1e28b8649aed45a018484d"
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "3604d3872e18d80261fc997205fe97826d823d1597301d183f1f2e36eaa70023"
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "6aa9e881618befa4323980250ec34ef9e233512a8c1e3e61509d4f783ec388d7"
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "d02a90f5711f57b9b3772f9a50ae3e619d0bb6546152ac821d97074f5aec8221"
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "2cc2be191f184a095a07c4d1f1e43626ab0e2e5d3606723a8d913c3e6f4d9b5d"
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "1f92d5b4d50352967547c89518990203b371f0fcb6c9643ba49652fa32f83cd9"
+        }
+      ],
+      "projectionSha256": "574d3a5f3ce40249632b0d5763e118d564b8bdd14544d138c1ce20f349719c87",
+      "excludedPersonalSections": 0,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "title": "Read pathology and surgery results",
+      "bytes": 6818,
+      "sourceSha256": "2c613a3679b827f8674b21f7accb45a0f11698595548d39d52bba13865580d36",
+      "gitBlob": "1741efe0576d2b7304b6c81cfe906e4578540125",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "08baa35246cbc44a9a51564e22f8ec5212428160af47cdcb49a2b9d508cbb28f"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "67b4e0d68d7d3dd2459c2efb4391d42075da1eb2b490acb27935fd43a1bd1428"
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "01c9adf0de80dbb382001158f485f1823c689a0926a142165647c1ada3e43011"
+        },
+        {
+          "ordinal": 3,
+          "kind": "additional-teaching",
+          "sha256": "55e1bb57ecc8d206ab476be079da755685b8633a02fa594d1705534652b1cee8"
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "a5bca392825f4a57087cc101f4cca4f2f61d15589bb614f5353cba49c01f332a"
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "0c36816f9da161a0679a5258965d972d1bd0ede6b8b812568c2f9cf9e1372648"
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "0ce0fe5da4edfb856e6922a3449f203469d33a5974773d6d2402f279b1959252"
+        },
+        {
+          "ordinal": 7,
+          "kind": "source-scope",
+          "sha256": "46c04dce13cdc27f56df9cbf05f0652ea5e9ce1a51eb06119a9dc1af3624837f"
+        }
+      ],
+      "projectionSha256": "677c319bf31d94fa112e842ef502e2d00fc99ca03da220c8a61d1d7e755f2789",
+      "excludedPersonalSections": 1,
+      "readDepth": "Later general teaching fully read; original full diff inspected. Four projections are byte-identical and step 1 adds one later-only sampling paragraph; no teaching delta omitted.",
+      "generalTeachingRead": true,
+      "readScope": "Later general-teaching body fully read; original exact differences read and identical teaching reused. Personal-case bodies excluded."
+    }
+  ],
+  "sourceFirstFreeze": {
+    "baseHead": "509547d1edc73376124861e99b02cddb910d2594",
+    "sourceVersions": 10,
+    "sectionSignatures": 102,
+    "requirements": 86,
+    "countsByVersion": {
+      "original": 85,
+      "later": 86
+    },
+    "freshOwnerFieldsOpened": false,
+    "receipts": {
+      "source-reading.json": "1008e3bd93c937a9d4f75baec4ff0c84e8cadbc953af6b076650400669d416e1",
+      "learning-requirements.json": "b344462bc65a25b05d969900fb2e0c3286baf0899152a6f22f2aff027d23a794"
+    }
+  },
+  "sourceVerification": {
+    "sourceVersions": 10,
+    "sectionSignatures": 102,
+    "assetEntries": 8,
+    "checks": [
+      {
+        "version": "original",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "rawIdentity": true,
+        "sectionSignatures": 9
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "rawIdentity": true,
+        "sectionSignatures": 11
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "rawIdentity": true,
+        "sectionSignatures": 11
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "rawIdentity": true,
+        "sectionSignatures": 12
+      },
+      {
+        "version": "original",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "rawIdentity": true,
+        "sectionSignatures": 8
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+        "rawIdentity": true,
+        "sectionSignatures": 9
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+        "rawIdentity": true,
+        "sectionSignatures": 11
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+        "rawIdentity": true,
+        "sectionSignatures": 11
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+        "rawIdentity": true,
+        "sectionSignatures": 12
+      },
+      {
+        "version": "later",
+        "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+        "rawIdentity": true,
+        "sectionSignatures": 8
+      }
+    ],
+    "sourceAlgorithm": "Actual current sourceSections imported with frontmatter removed as in its caller",
+    "rawBodiesPublished": false
+  },
+  "sectionDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "6a7099ba04e4bc1c0df4447029d5080052b28476449ecb05c9f170ffa8075fc8",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "1e155e16d697a608064339438de5fbebeb44844e46342f2bbee41a6f1ef1634f",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 2,
+      "heading": "Read the fields in this order",
+      "sha256": "552be8a47339a61cbf73613c47f35d4a8de33da8029c87b9c67e71dc9591b21e",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 3,
+      "heading": "A worked report",
+      "sha256": "cbedb5729872357421374eef41abe75c8554e2ace6d5310e715224a0a1141f14",
+      "requirementIds": [
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 4,
+      "heading": "What can go wrong at this step",
+      "sha256": "fd81c74470411a5866d0d13a1193af6570238d5eb5fed6abf12546f628d929e7",
+      "requirementIds": [
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 5,
+      "heading": "Try it",
+      "sha256": "dbf0b8494f13ccd0f068524b2968b47e1b62fc586d274e717b52344c148734a2",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 6,
+      "heading": "Explain it back",
+      "sha256": "34c627527ba59f23f4cc838bcc4e43a8a8242b55414d86b60c5fc5bf06f4220c",
+      "requirementIds": [
+        "PG0-018",
+        "PG0-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 7,
+      "heading": "Takeaway",
+      "sha256": "2f49ac78769470e0a927ac86bf5092afff48621e6dcfe7e3790e1ea9d5d1078e",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 8,
+      "heading": "Sources and scope",
+      "sha256": "f77af21ed3eeecddd7b45018d88c9252a8001184c641fef46706a287ca4e65cf",
+      "requirementIds": [
+        "PG0-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "483267c6b063dec6cedecd44f790d2fce70061af32d4fcc01fba891f1af6e485",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "dd3e291aae35bf500d8afd4c4c04d93ee1d66fc42a807a95ea211549a35699d9",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 2,
+      "heading": "Read the label on the container before the result",
+      "sha256": "b7c9895b532ed7002eace4c01dc3b34833188a77707dd7f63f8e810b78baf90a",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 3,
+      "heading": "Three dates describe different events",
+      "sha256": "c86f9f7f9efffbbe5936ae6d36d79ed3946debb36c3c9357d893ddb46ba4bf37",
+      "requirementIds": [
+        "PG1-006",
+        "PG1-007"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 4,
+      "heading": "A worked report card",
+      "sha256": "fe44368c8e62dc31e789a0f54cf05b9f5043b6e329a601d4212de2093e6b1fcd",
+      "requirementIds": [
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 5,
+      "heading": "Clinical and pathologic categories keep their context",
+      "sha256": "c20912cd4c8787547bdd7950d8a1621e03ce692556d27a3c5e4a31d56ce2b4f4",
+      "requirementIds": [
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 6,
+      "heading": "What can go wrong at this step",
+      "sha256": "c94c9756cd412df358985655dc6e412da05cb1c345c36f1c107eb3e0dd2807b6",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 7,
+      "heading": "Try it",
+      "sha256": "846f0d044dc7bb6afd06aa9068b64923d9e78704d5c51ddcbacbe6495827a164",
+      "requirementIds": [
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 8,
+      "heading": "Explain it back",
+      "sha256": "5c37de8d380ee9e4394681b21b409a50fc2718160ea6b55eee6d09f4a13a591d",
+      "requirementIds": [
+        "PG1-020",
+        "PG1-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 9,
+      "heading": "Takeaway",
+      "sha256": "c7f0dbf7af888b0033f8a0ce8e205385cb12c858f0fb9bbf2c72bdde6ae4b46a",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 10,
+      "heading": "Sources and scope",
+      "sha256": "94f9f6fa9a2e929364cfb6f8e9e96250b5bb43dba434d679be3fecc5973a88e8",
+      "requirementIds": [
+        "PG1-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "9e8831d8692fb59facd55b19a70b74a80ac9e0cb0edc0ad5a6e90d0f8728de37",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "fb3f13fcfcc1e04ba2c022e639680e6b6e1b159b2813ff8d17674a6dbb52263c",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 2,
+      "heading": "A footprint is not a count of remaining cells",
+      "sha256": "5243f0e39a25fedcc9a2030dc296c3606e81e0f1932cc7a0d0e7ecd108dc49f1",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 3,
+      "heading": "Read breast and nodes before the combined endpoint",
+      "sha256": "4df96acb570b045253fdbee700094a588e2cdf2ef92a6dde14b5c5808800e159",
+      "requirementIds": [
+        "PG2-005",
+        "PG2-006",
+        "PG2-007"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 4,
+      "heading": "A worked response and margin example",
+      "sha256": "c0b4211f09337f2a54db2f25c5aabb13b90c4ec35a310916ff2416c36a14782c",
+      "requirementIds": [
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 5,
+      "heading": "Response, anatomic extent and local edges remain distinct",
+      "sha256": "e339178c4851a34913b4ba94c0f03a7751a767c7755bfc5464c97333dfbdf420",
+      "requirementIds": [
+        "PG2-013",
+        "PG2-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 6,
+      "heading": "What can go wrong at this step",
+      "sha256": "6864db56394e507ea63481b5f9ea6275608d2193c6204b4726991c2efb924ba2",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 7,
+      "heading": "Try it",
+      "sha256": "a71389f93dbf21edc9c025f70f998b1ecd0a4ddee451f38c479cac6a6a90efbc",
+      "requirementIds": [
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 8,
+      "heading": "Explain it back",
+      "sha256": "1df8c64c933e30877d9fdc18f0c8dede70748f29a3e79e1d544faea786665d72",
+      "requirementIds": [
+        "PG2-016",
+        "PG2-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 9,
+      "heading": "Takeaway",
+      "sha256": "dfd67356987d683aea50f9d2b16c19bf80c4229cd5e64222934383067d874d72",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 10,
+      "heading": "Sources and scope",
+      "sha256": "d0cc242d20132167798621583c90c09e76e5e99b8ea2737635d3d05e1f628cfa",
+      "requirementIds": [
+        "PG2-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "3158a49d11580df91de3f06b65415435db66e1937dc381b400b798bc2aa7cf7e",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "6e49c54a1d006ac66887833bd1869b06356ce700d295aa093489cf772b7e6004",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 2,
+      "heading": "Begin with a statement that stays true",
+      "sha256": "b3f6b2700a748060b27e26c07b59316528eb84caad66bdfee55e6cf1d5da07aa",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 3,
+      "heading": "Use an observation-to-question worksheet",
+      "sha256": "a3673bd442b3d51c0260cd81568bc4785be9a0736a051b02fda6f9b302c424aa",
+      "requirementIds": [
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 4,
+      "heading": "A worked conversation: risk is not a drug test",
+      "sha256": "658e02ac6f6ed9d58a3b9991366ada8226ea5bd181f9388377de0fd8fc850c99",
+      "requirementIds": [
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 5,
+      "heading": "Say where personal-risk estimates come from",
+      "sha256": "87f661bf362079b3e8fe1e046ff2eb24fa4dff8f2fa875f039b56dacb0552525",
+      "requirementIds": [
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 6,
+      "heading": "End with a concrete next question",
+      "sha256": "7308511ecc6042ab5b63b4e2e582fcaea46be9a9ca1e28b8649aed45a018484d",
+      "requirementIds": [
+        "PG3-020",
+        "PG3-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 7,
+      "heading": "What can go wrong at this step",
+      "sha256": "3604d3872e18d80261fc997205fe97826d823d1597301d183f1f2e36eaa70023",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 8,
+      "heading": "Try it",
+      "sha256": "6aa9e881618befa4323980250ec34ef9e233512a8c1e3e61509d4f783ec388d7",
+      "requirementIds": [
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 9,
+      "heading": "Explain it back",
+      "sha256": "d02a90f5711f57b9b3772f9a50ae3e619d0bb6546152ac821d97074f5aec8221",
+      "requirementIds": [
+        "PG3-023",
+        "PG3-024"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 10,
+      "heading": "Takeaway",
+      "sha256": "2cc2be191f184a095a07c4d1f1e43626ab0e2e5d3606723a8d913c3e6f4d9b5d",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 11,
+      "heading": "Sources and scope",
+      "sha256": "1f92d5b4d50352967547c89518990203b371f0fcb6c9643ba49652fa32f83cd9",
+      "requirementIds": [
+        "PG3-024"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "08baa35246cbc44a9a51564e22f8ec5212428160af47cdcb49a2b9d508cbb28f",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 1,
+      "heading": "The big ideas",
+      "sha256": "67b4e0d68d7d3dd2459c2efb4391d42075da1eb2b490acb27935fd43a1bd1428",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 2,
+      "heading": "The map",
+      "sha256": "01c9adf0de80dbb382001158f485f1823c689a0926a142165647c1ada3e43011",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 3,
+      "heading": "Lessons",
+      "sha256": "55e1bb57ecc8d206ab476be079da755685b8633a02fa594d1705534652b1cee8",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 4,
+      "heading": "Concepts you will use",
+      "sha256": "a5bca392825f4a57087cc101f4cca4f2f61d15589bb614f5353cba49c01f332a",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 5,
+      "heading": "Applied to Diana",
+      "sha256": "0c36816f9da161a0679a5258965d972d1bd0ede6b8b812568c2f9cf9e1372648",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 6,
+      "heading": "What is still uncertain",
+      "sha256": "0ce0fe5da4edfb856e6922a3449f203469d33a5974773d6d2402f279b1959252",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 7,
+      "heading": "Sources and scope",
+      "sha256": "46c04dce13cdc27f56df9cbf05f0652ea5e9ce1a51eb06119a9dc1af3624837f",
+      "requirementIds": [
+        "PGI-005"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "6a7099ba04e4bc1c0df4447029d5080052b28476449ecb05c9f170ffa8075fc8",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "1e155e16d697a608064339438de5fbebeb44844e46342f2bbee41a6f1ef1634f",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 2,
+      "heading": "Read the fields in this order",
+      "sha256": "552be8a47339a61cbf73613c47f35d4a8de33da8029c87b9c67e71dc9591b21e",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 3,
+      "heading": "A worked report",
+      "sha256": "cbedb5729872357421374eef41abe75c8554e2ace6d5310e715224a0a1141f14",
+      "requirementIds": [
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 4,
+      "heading": "What can go wrong at this step",
+      "sha256": "fd81c74470411a5866d0d13a1193af6570238d5eb5fed6abf12546f628d929e7",
+      "requirementIds": [
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 5,
+      "heading": "Try it",
+      "sha256": "dbf0b8494f13ccd0f068524b2968b47e1b62fc586d274e717b52344c148734a2",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 6,
+      "heading": "Explain it back",
+      "sha256": "34c627527ba59f23f4cc838bcc4e43a8a8242b55414d86b60c5fc5bf06f4220c",
+      "requirementIds": [
+        "PG0-018",
+        "PG0-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 7,
+      "heading": "Takeaway",
+      "sha256": "2f49ac78769470e0a927ac86bf5092afff48621e6dcfe7e3790e1ea9d5d1078e",
+      "requirementIds": [
+        "PG0-001",
+        "PG0-002",
+        "PG0-003",
+        "PG0-004",
+        "PG0-005",
+        "PG0-006",
+        "PG0-007",
+        "PG0-008",
+        "PG0-009",
+        "PG0-010",
+        "PG0-011",
+        "PG0-012",
+        "PG0-013",
+        "PG0-014",
+        "PG0-015",
+        "PG0-016",
+        "PG0-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "ordinal": 8,
+      "heading": "Sources and scope",
+      "sha256": "f77af21ed3eeecddd7b45018d88c9252a8001184c641fef46706a287ca4e65cf",
+      "requirementIds": [
+        "PG0-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "483267c6b063dec6cedecd44f790d2fce70061af32d4fcc01fba891f1af6e485",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-005",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "dd3e291aae35bf500d8afd4c4c04d93ee1d66fc42a807a95ea211549a35699d9",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-005",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 2,
+      "heading": "Read the label on the container before the result",
+      "sha256": "9b1ab5cf32f509420a1b905942da78827771d3756744b6888ac57ce7ea1e31d1",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-005"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 3,
+      "heading": "Three dates describe different events",
+      "sha256": "c86f9f7f9efffbbe5936ae6d36d79ed3946debb36c3c9357d893ddb46ba4bf37",
+      "requirementIds": [
+        "PG1-006",
+        "PG1-007"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 4,
+      "heading": "A worked report card",
+      "sha256": "fe44368c8e62dc31e789a0f54cf05b9f5043b6e329a601d4212de2093e6b1fcd",
+      "requirementIds": [
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 5,
+      "heading": "Clinical and pathologic categories keep their context",
+      "sha256": "c20912cd4c8787547bdd7950d8a1621e03ce692556d27a3c5e4a31d56ce2b4f4",
+      "requirementIds": [
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 6,
+      "heading": "What can go wrong at this step",
+      "sha256": "c94c9756cd412df358985655dc6e412da05cb1c345c36f1c107eb3e0dd2807b6",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-005",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 7,
+      "heading": "Try it",
+      "sha256": "846f0d044dc7bb6afd06aa9068b64923d9e78704d5c51ddcbacbe6495827a164",
+      "requirementIds": [
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 8,
+      "heading": "Explain it back",
+      "sha256": "5c37de8d380ee9e4394681b21b409a50fc2718160ea6b55eee6d09f4a13a591d",
+      "requirementIds": [
+        "PG1-020",
+        "PG1-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 9,
+      "heading": "Takeaway",
+      "sha256": "c7f0dbf7af888b0033f8a0ce8e205385cb12c858f0fb9bbf2c72bdde6ae4b46a",
+      "requirementIds": [
+        "PG1-001",
+        "PG1-002",
+        "PG1-003",
+        "PG1-004",
+        "PG1-005",
+        "PG1-006",
+        "PG1-007",
+        "PG1-008",
+        "PG1-009",
+        "PG1-010",
+        "PG1-011",
+        "PG1-012",
+        "PG1-013",
+        "PG1-014",
+        "PG1-015",
+        "PG1-016",
+        "PG1-017",
+        "PG1-018",
+        "PG1-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "ordinal": 10,
+      "heading": "Sources and scope",
+      "sha256": "94f9f6fa9a2e929364cfb6f8e9e96250b5bb43dba434d679be3fecc5973a88e8",
+      "requirementIds": [
+        "PG1-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "9e8831d8692fb59facd55b19a70b74a80ac9e0cb0edc0ad5a6e90d0f8728de37",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "fb3f13fcfcc1e04ba2c022e639680e6b6e1b159b2813ff8d17674a6dbb52263c",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 2,
+      "heading": "A footprint is not a count of remaining cells",
+      "sha256": "5243f0e39a25fedcc9a2030dc296c3606e81e0f1932cc7a0d0e7ecd108dc49f1",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 3,
+      "heading": "Read breast and nodes before the combined endpoint",
+      "sha256": "4df96acb570b045253fdbee700094a588e2cdf2ef92a6dde14b5c5808800e159",
+      "requirementIds": [
+        "PG2-005",
+        "PG2-006",
+        "PG2-007"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 4,
+      "heading": "A worked response and margin example",
+      "sha256": "c0b4211f09337f2a54db2f25c5aabb13b90c4ec35a310916ff2416c36a14782c",
+      "requirementIds": [
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 5,
+      "heading": "Response, anatomic extent and local edges remain distinct",
+      "sha256": "e339178c4851a34913b4ba94c0f03a7751a767c7755bfc5464c97333dfbdf420",
+      "requirementIds": [
+        "PG2-013",
+        "PG2-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 6,
+      "heading": "What can go wrong at this step",
+      "sha256": "6864db56394e507ea63481b5f9ea6275608d2193c6204b4726991c2efb924ba2",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 7,
+      "heading": "Try it",
+      "sha256": "a71389f93dbf21edc9c025f70f998b1ecd0a4ddee451f38c479cac6a6a90efbc",
+      "requirementIds": [
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 8,
+      "heading": "Explain it back",
+      "sha256": "1df8c64c933e30877d9fdc18f0c8dede70748f29a3e79e1d544faea786665d72",
+      "requirementIds": [
+        "PG2-016",
+        "PG2-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 9,
+      "heading": "Takeaway",
+      "sha256": "dfd67356987d683aea50f9d2b16c19bf80c4229cd5e64222934383067d874d72",
+      "requirementIds": [
+        "PG2-001",
+        "PG2-002",
+        "PG2-003",
+        "PG2-004",
+        "PG2-005",
+        "PG2-006",
+        "PG2-007",
+        "PG2-008",
+        "PG2-009",
+        "PG2-010",
+        "PG2-011",
+        "PG2-012",
+        "PG2-013",
+        "PG2-014",
+        "PG2-015"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "ordinal": 10,
+      "heading": "Sources and scope",
+      "sha256": "d0cc242d20132167798621583c90c09e76e5e99b8ea2737635d3d05e1f628cfa",
+      "requirementIds": [
+        "PG2-017"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "3158a49d11580df91de3f06b65415435db66e1937dc381b400b798bc2aa7cf7e",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 1,
+      "heading": "Where this step sits",
+      "sha256": "6e49c54a1d006ac66887833bd1869b06356ce700d295aa093489cf772b7e6004",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 2,
+      "heading": "Begin with a statement that stays true",
+      "sha256": "b3f6b2700a748060b27e26c07b59316528eb84caad66bdfee55e6cf1d5da07aa",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 3,
+      "heading": "Use an observation-to-question worksheet",
+      "sha256": "a3673bd442b3d51c0260cd81568bc4785be9a0736a051b02fda6f9b302c424aa",
+      "requirementIds": [
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 4,
+      "heading": "A worked conversation: risk is not a drug test",
+      "sha256": "658e02ac6f6ed9d58a3b9991366ada8226ea5bd181f9388377de0fd8fc850c99",
+      "requirementIds": [
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 5,
+      "heading": "Say where personal-risk estimates come from",
+      "sha256": "87f661bf362079b3e8fe1e046ff2eb24fa4dff8f2fa875f039b56dacb0552525",
+      "requirementIds": [
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 6,
+      "heading": "End with a concrete next question",
+      "sha256": "7308511ecc6042ab5b63b4e2e582fcaea46be9a9ca1e28b8649aed45a018484d",
+      "requirementIds": [
+        "PG3-020",
+        "PG3-021"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 7,
+      "heading": "What can go wrong at this step",
+      "sha256": "3604d3872e18d80261fc997205fe97826d823d1597301d183f1f2e36eaa70023",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 8,
+      "heading": "Try it",
+      "sha256": "6aa9e881618befa4323980250ec34ef9e233512a8c1e3e61509d4f783ec388d7",
+      "requirementIds": [
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 9,
+      "heading": "Explain it back",
+      "sha256": "d02a90f5711f57b9b3772f9a50ae3e619d0bb6546152ac821d97074f5aec8221",
+      "requirementIds": [
+        "PG3-023",
+        "PG3-024"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 10,
+      "heading": "Takeaway",
+      "sha256": "2cc2be191f184a095a07c4d1f1e43626ab0e2e5d3606723a8d913c3e6f4d9b5d",
+      "requirementIds": [
+        "PG3-001",
+        "PG3-002",
+        "PG3-003",
+        "PG3-004",
+        "PG3-005",
+        "PG3-006",
+        "PG3-007",
+        "PG3-008",
+        "PG3-009",
+        "PG3-010",
+        "PG3-011",
+        "PG3-012",
+        "PG3-013",
+        "PG3-014",
+        "PG3-015",
+        "PG3-016",
+        "PG3-017",
+        "PG3-018",
+        "PG3-019",
+        "PG3-020",
+        "PG3-021",
+        "PG3-022"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "ordinal": 11,
+      "heading": "Sources and scope",
+      "sha256": "1f92d5b4d50352967547c89518990203b371f0fcb6c9643ba49652fa32f83cd9",
+      "requirementIds": [
+        "PG3-024"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 0,
+      "heading": "preamble",
+      "sha256": "08baa35246cbc44a9a51564e22f8ec5212428160af47cdcb49a2b9d508cbb28f",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 1,
+      "heading": "The big ideas",
+      "sha256": "67b4e0d68d7d3dd2459c2efb4391d42075da1eb2b490acb27935fd43a1bd1428",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 2,
+      "heading": "The map",
+      "sha256": "01c9adf0de80dbb382001158f485f1823c689a0926a142165647c1ada3e43011",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 3,
+      "heading": "Lessons",
+      "sha256": "55e1bb57ecc8d206ab476be079da755685b8633a02fa594d1705534652b1cee8",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 4,
+      "heading": "Concepts you will use",
+      "sha256": "a5bca392825f4a57087cc101f4cca4f2f61d15589bb614f5353cba49c01f332a",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 5,
+      "heading": "Applied to Diana",
+      "sha256": "0c36816f9da161a0679a5258965d972d1bd0ede6b8b812568c2f9cf9e1372648",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 6,
+      "heading": "What is still uncertain",
+      "sha256": "0ce0fe5da4edfb856e6922a3449f203469d33a5974773d6d2402f279b1959252",
+      "requirementIds": [
+        "PGI-001",
+        "PGI-002",
+        "PGI-003"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "ordinal": 7,
+      "heading": "Sources and scope",
+      "sha256": "46c04dce13cdc27f56df9cbf05f0652ea5e9ce1a51eb06119a9dc1af3624837f",
+      "requirementIds": [
+        "PGI-005"
+      ],
+      "disposition": "General teaching read and reconciled; recaps and source-list metadata receive no independent teaching credit."
+    }
+  ],
+  "personalSectionsExcluded": 2,
+  "rawBodiesPublished": false
+}

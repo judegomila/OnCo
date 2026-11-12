@@ -1,0 +1,44 @@
+{
+  "checkedOn": "2026-11-09",
+  "sources": [
+    {
+      "url": "https://www.ecfr.gov/current/title-42/section-493.1256",
+      "scope": "Current displayed subsection (f) compared with the published 2025 rule. Online title shown up to date November 5, 2026; no proposed October virtual-access language treated as final."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf",
+      "scope": "Raw PDF subsection (f) read: control acceptance precedes patient-result reporting."
+    },
+    {
+      "url": "https://www.fda.gov/media/98627/download",
+      "scope": "Current 01/25 form instructions, individual-patient scope and letter-of-authorization meaning/alternative-information pathway."
+    },
+    {
+      "url": "https://www.fda.gov/media/176308/download",
+      "scope": "Raw February 2024 Q&A: Q1-Q3, Q13 and Q16-Q17 read; sponsor charging permission, permitted recovery and coverage are distinct. No promise of a review deadline or reimbursement."
+    },
+    {
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry",
+      "scope": "Raw current roles/responsibilities and supply dependencies read. No numeric authorization statistic adopted."
+    },
+    {
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "scope": "Raw eligibility, randomization and comparison sections read; no guaranteed arm or personal benefit."
+    },
+    {
+      "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf",
+      "scope": "Already-captured published raw PDF subsection (b)(18), (25) and (27) re-read for total enrollment versus overall/facility recruitment."
+    }
+  ],
+  "excludedDiscovery": [
+    {
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf15/P150013C.pdf",
+      "reason": "Archival 2015 quality-control text available in web reader, direct downloads unavailable; no current cutoff or archived-label claim adopted. Current/published control rule supports the general distinction instead."
+    },
+    {
+      "url": "https://www.agilent.com/cs/library/usermanuals/public/29493-d70829-pd-l1-ihc-22c3-cervical-im-ce-ivd.pdf",
+      "reason": "Direct download returned 403; no unseen PDF review or current clinical-use claim adopted."
+    }
+  ],
+  "custody": "Successful new response bytes retained in persistent local cache outside public checkout; availability failures remain in the manifest. No private patient or full copyrighted article body is copied here."
+}

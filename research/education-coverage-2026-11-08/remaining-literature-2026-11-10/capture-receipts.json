@@ -1,0 +1,1380 @@
+{
+  "captures": [
+    {
+      "bytes": 22031,
+      "sha256": "c0936288fdceb2e44bc26c682be2fd4cd2feb7d4c9303a36331038145a3eb440",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6200,
+      "sha256": "641ec8198ecd61f67f6ef98088a65d72ebf3e9872c5778e5932e7e1b54018fcd",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6238,
+      "sha256": "1fee185726aed343e541e9184bab0e948088aa48172e14a6d13687563bd410e3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 7984,
+      "sha256": "9ac833eba369573f4e94a0a4f0e900e60dafd049c13c1cd42c57ba5ce4210176",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5220,
+      "sha256": "3dcb87fa8210315ef5095a081011478f6ffe2da4affff24c0b9707c23774683b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5263,
+      "sha256": "ccca21399d87f2afc8de7b93afba10be1c5b246ad3202ba388240c3687dc495b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 7259,
+      "sha256": "35f47f18904f499607288cf1b29d498607e4b914cea73b5bb09df04aa75542c3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5299,
+      "sha256": "d762a19ef477e4b826ff819488d685983c21ffb174dc5b0f51fc64b209bd9f65",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5332,
+      "sha256": "443d53eae41e703fcc1b581926563edfc315dda2c6923ba6b071c8a9480f7459",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 22121,
+      "sha256": "60238421b946ce99c5dde18013b3e1a5ed07f77a265fe63641275f9be3b7e638",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 9716,
+      "sha256": "a00316392dbcd1f459b730972c5868a87f89554cb7b8fa20c93a5635f10cb657",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 9766,
+      "sha256": "02b5a710c4d51d791e0c56ad992cfec7b3787b7c913fd98a54e614a863e7663b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 12867,
+      "sha256": "5f0164129cab1ebe3d3ced788e41b7062533b5ecc3b81d0d8c561abfc0997eed",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6947,
+      "sha256": "bf63dba7195e7954d63d1a3dab2d7c8374a6413ef67f686c908a81d3ecaaea37",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6983,
+      "sha256": "26d134a382a8acbf741e8a2a39048197c81f432c4c4d8e76acfc0397c0c9bf30",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 22428,
+      "sha256": "0046b8bc1dfc5d2240550518fb5146dda46b85dc49784d1c446fb07194fa97cc",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5398,
+      "sha256": "0a9bbbbb71a56c31358692e552127a23b940f043d5cd5c6626c91a4c131f8008",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5435,
+      "sha256": "040c94fdce98511ac5994ae575a034fe78ab51fa1ffc02e264e64558db7fccd2",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 32896,
+      "sha256": "1c75e7737d2529c0741e710f5eee9a82df222559d24f7ccd51e123cdaec29417",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10101,
+      "sha256": "fa6dba8ada39aa7cef0d09d13f7128c0d309635722f50a1ee9a74d4e70e317b7",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10137,
+      "sha256": "85699a7870a99afc1f8cf2436f64f8eaf5ef310b2d3e30dba7bf5a8764c65fa3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6361,
+      "sha256": "807cb3a276d415271327375ce900c9b25bd11f9e3fa03d80b84e3021b4d83775",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4667,
+      "sha256": "0524b6a7e96e5685c3d8d00d77f6c6364a5ef9d73c1aa7f57bb6c8407e22801f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4704,
+      "sha256": "12a23e16a44f30819bcc496a53196638a4cb95a18388a51b6be5dae9ec1c0638",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6922,
+      "sha256": "cd5d114003e652134b345182c8d20e8833ac6a10acb781d56a57345314beb8b4",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5198,
+      "sha256": "d6b5407dcc8c149a9a8c34b7d5df14bba30b0458184488c44897e6bb1bf22253",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5232,
+      "sha256": "7099579147ff8c0778c3e5f6778fc68314aa353bd7505ba2a4bf76b0b84bcbc3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 39647,
+      "sha256": "20039c45d02db238b432b9415f0390211ec2765b5354095c3a86ef9a55889456",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8108,
+      "sha256": "38d07a138862c51d1d25e0655791252a23932da663d0841e6935e50e91d7bb72",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8153,
+      "sha256": "00af74fc6d9c7538f35a22c9a52fd0e023644fbd14fdaf8c8f15bf550c972dbb",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 99942,
+      "sha256": "e4a93597cc0802c430f1289fb69f0dacc8a9606dd7d63bf3fa82d16e9137f75f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5767,
+      "sha256": "10984c50954aa4794ad8326068b781cad8575a5b7baac98888734cb41e8aeb87",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5806,
+      "sha256": "461aefd39c61ae26eb5269d61a29aed21f8eaeaa39e06008c4362108f37541af",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 44912,
+      "sha256": "971b23c0f0e0e1a3c9f6c7b3fa6cea139e63b980ca92f3059ce22070fd368f48",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5543,
+      "sha256": "12708bfb0a36c853f01c8f32880c9556c64299950385f8767c496d699541ac3d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5583,
+      "sha256": "a0446623a3653f509f8695e1f01ef16093d8fcec0c6c2dda4bcd9e1306d508f7",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 37190,
+      "sha256": "81a71e5df8d6fdccf65fadf60193a40ceecd85f2a9b7be21edd3b235ac567f17",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4561,
+      "sha256": "5f2e1a170b96741d725357c743c176ee58c8458ccc4e513cf36ea3a14d638124",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4601,
+      "sha256": "eb2c2524dac7575d0482dd98d7262d1a313e934a4ea0d73b4fa6ddd4aeef272f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 27501,
+      "sha256": "b65a7cab90194678b2980faa887826048a6f382871711cb7cf3169acc6157f80",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10023,
+      "sha256": "10fa02bd811f6b54ad0236b7129ff1779b1ace63fcc75349ac23f29e198f0cee",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10062,
+      "sha256": "4fa02e075d311c4c3939e2b36409e0080f396fbc2d8151d8e893594a6a7927b0",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 31348,
+      "sha256": "3166a07119b147b50db875ff735a90b262a3ef527c9035a61d9b032996388084",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1070,
+      "sha256": "a511c48aeb968bd5de7468160fee2ede8ab9b1ba8ef35fe8069d060c0d8a6562",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4970,
+      "sha256": "0243326b4d13957c492d8a92728c0bd23237824b2233d62f29540fc8bdf218a3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 55536,
+      "sha256": "687dcca8edc0433c384b27e77d75b2ba42cafc9f28b21d0d802835e0b812a75b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 19872,
+      "sha256": "2f915a6c4a8351717996aaf78faeb10d2b4c7cdac89a2d60d715c97a600287f9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 17167,
+      "sha256": "8c22051391b0f714f74f37b89f371946cc845f02350b0c409426306316fe817d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6624,
+      "sha256": "01988ea8e6c552bf9d87120360e7fbad97886c994a88022f80a107dc64d0839e",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6672,
+      "sha256": "3ca17e08dd9b36c384a51289f821306ffff7961121247fbe22d45854ee738190",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8949,
+      "sha256": "becedd6a0f3f4e012a460839d49f32c533a2cfe8619a4913ad874a16ff8df674",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5196,
+      "sha256": "2496318cceec25f9e29ec4477bf8c97e25bce3706807c8455a781d96b53d513d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5232,
+      "sha256": "432ff74c7c38bbbfdc1c4259f0afe01e21a43be5a8b9e640b053cedf84d41295",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8336,
+      "sha256": "acf94a8238f275c9c7de49afbbaefbe066afa15394e5d49023705bc76fa0c137",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6259,
+      "sha256": "90c5ff378ba0023ec2e5ac37f538d70287656b6c02a78c521f75a805f876dbc9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6295,
+      "sha256": "84d04093650e825f18cccbdb92c42bf6df13fb8c41986c5c7dd0e48340b8e58d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2026,
+      "sha256": "ad7c6b82771e978e992965aae85e44586b0d7f4189ea5022082cbb67d98fd276",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 195,
+      "sha256": "55d05c5970730fe799d10e8feaed18db1a05de22c9b1507c43a6c030bcb91382",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2624,
+      "sha256": "233defb8a8138dd736ee784c228af9024a452d69166d4df0da899860328950c1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2767,
+      "sha256": "031ee2179848682c85d575f672794c10796a56113d14ae61646c0c2cf475d1bc",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1035,
+      "sha256": "b073274872295b4e62c2bf6ab3d29dbcb424956c309bf3c21ffe37e13fa1556a",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 11343,
+      "sha256": "f0a6df66af943354a5e0b4180042529b1ee7282a9db51866dbc4df01f0643a62",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 249,
+      "sha256": "2a8f9ce772d9451fdfb7ac19a743b56378946532f212548cd540da719e353367",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3563,
+      "sha256": "b8f1997e1776c9b72912020bab0c670391dad61ac06e03a6f86c6a4713c9f923",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3744,
+      "sha256": "ef0e3221d20d3dadc0a4218b4cf1a4f30448eb5d601c1b29d1901f9b84b20f81",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1135,
+      "sha256": "06e285caebdea5f6c9db3a47ee74e8ae8dc5f6ea2bcc201353bcae4a44206578",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 24179,
+      "sha256": "9b1f39b30d896df04f2312083be937c0c444eed0443743dcab834c07dda0d3a6",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 268,
+      "sha256": "3edc3831885eef07fca86d259c281c813b4640a5b0659cf57c0ec6f6e43cf9af",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4044,
+      "sha256": "985d496a0cac1673ced6805f6579bdb2d84c57b4a6ba3c86f1937fc6ad9de442",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 198,
+      "sha256": "f2dca107bf4e1f5e14c93929b6a6de36ad453f8d1abe20b9d9aeebb18a86079f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3076,
+      "sha256": "9c233cd082da1c59a7bcb2df6d01cc30f7c44c4bf0001e17d68106c015025e77",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3023,
+      "sha256": "81b06176c63631e78928138d9f93aba574b75c4cb140e238af826dea9dbd5d75",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3188,
+      "sha256": "efe37b81ba481e25d37000771aa0eaa41f55a4164bf8d984b29c0458a544f24b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1114,
+      "sha256": "f36e3a64de88b8dbf53821dcff6a66887540596d3041c16683386aa4de532f30",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 16195,
+      "sha256": "1a64fa56d9fbd9188734a0953bb4b209f4e6240465dbd229e2f21a8981001b11",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 289,
+      "sha256": "84ff66aae4710dc14fd013e841479069817b753c1e074bd20d15aa29fbe75c1f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 14404,
+      "sha256": "0cd204eeaf5b6b5b5f7f25d6ccfc02a136d266c90a4d65b83dd824c4f68a724d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8055,
+      "sha256": "71eb2b7900dc6cff976889d0b795e7d6c844fbbfc4e179ce6a03b47b21add7c9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8095,
+      "sha256": "e5b08ad5d4fa0bbb71ddc3e99c923a7e25d7160c0977c3c87de95835e328ca0e",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 9245,
+      "sha256": "706820c78d539a63c829c40858b3eedc87013bbd9e342a20f01baa8ad710dd96",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5340,
+      "sha256": "8082cc66f441030c2defd2c80fa0c17af4255a1f8f9f35e53a44c8a183dd14c3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5380,
+      "sha256": "8f52c65a8e51e1fd2cf3c120c3c5bca3c9e98805245bbda062f30214426169bf",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8024,
+      "sha256": "712588085a14aebbe60803ea52209c842a5144365b6d58cfdbdc4f939009af2c",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4776,
+      "sha256": "e06e061f61be906896e1cfab95c6d47bb60dce55916d9bf7f13a75fd69c4773b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4812,
+      "sha256": "fcd758cae66ea2abebbf055ff4af51ae2c5f7e24dbb22313a39ad1ae802f87ed",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 831,
+      "sha256": "a21c786350ab4f65526cad287fa01c274ed3d37dc3344dff9ea0ba12816f795f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3342,
+      "sha256": "dd2efe6ad590cc4184f4d6d59843aa7f9a4de9197b6cde1ff7e74de66cce512d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3249,
+      "sha256": "f7f39aa4b855dc3723d66b4e092821fe0831df7f71c9c346c05ffa396ea3de6b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 885,
+      "sha256": "d16b48949b7e0ff2cbc56e8231455f95c5cf0ad870d2b78ebd5b1b7679f1adc1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 41703,
+      "sha256": "aee7d0e16b2465db95a0f876785ffef3a960b86812e5c4ac6dbb4da69eaf3f58",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1186,
+      "sha256": "f270e1fb0dd4248b85f65241278261dd3eb14e9e28e9267ee3b37763c8ad4af8",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 34982,
+      "sha256": "c99b6191ef41b2b0aa7fa279c4f965dc234b46805386d60e65ead64eeecadf68",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 273,
+      "sha256": "049a6ac0cf378b285d89068f79d6bc7c5bd1a212e77c825e95d82529d37c1eac",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 15733,
+      "sha256": "2f9e520a91223962ef44cd86ccdf2f05ca2842cb5b4f5755a2abaf023ac742ce",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6835,
+      "sha256": "21a1965caf5bbe7b79ca75d19bcf57e6d12ed57808252c0dc12b609fad3c7afe",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 14168,
+      "sha256": "3426afedd0927b08eb27fa1d6e18b9ab38779d7bd3748d9af0f64b0bce3f1ec3",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4557,
+      "sha256": "9eb5ce4d5310b73f0d94590992610d7d9d5d0332f3bb295a5029f2a5bf1dde83",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4606,
+      "sha256": "8a7436eccf2b325734be63adb0563b29dcbcde87bcccfb0b214c6feb2c39efa7",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 31967,
+      "sha256": "b1533bd6ad041e7447e4c31e955cabead3ddb574ab591a9c8768a79f3b21f2e2",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 7323,
+      "sha256": "78375c0cff1a53296eb6a2978af967d464336b52bfebafbb90557aac86f90214",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 7363,
+      "sha256": "83320bdaae67b6273ce7cda22592a3c5d23ac5328437fef20545559f53cda0a9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10878,
+      "sha256": "d292d70cefef5b694aad1541d86474c15129c3317e27f4f30e03c1b19dbfb31a",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6856,
+      "sha256": "c6960a834187693e211de20d62253b0ab15b6e33c425e2cf49bb686eb58df352",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6905,
+      "sha256": "076c059949e7d1394789527f7f86b905becfc5a08e815624d57964fc09fac86f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 35677,
+      "sha256": "110a651a5c552a79aef6d7518207663dd110f7de07c96a170dbc3a7c50bade33",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1495,
+      "sha256": "e0aec09a5a4f369f16071096966d5199030488856c0a0d0d64949364034d6414",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 21054,
+      "sha256": "becf3b88778f0c9e0c387e01a464e0ff86480c89e9aead6c575262b757765dfc",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 227,
+      "sha256": "f0f8b6c379eb4a51b9a5f17967c73e633b8997402ebee4c4f1bd71f870728386",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 270,
+      "sha256": "a60b5e8fa58b35f41359f41c108bc434f2acaf44532dd1f5cfd3e0235f43a8da",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5132,
+      "sha256": "5ad899d278ae6532e614bbd5a4710d13e0003cee033df81beff83f3015c34280",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1789,
+      "sha256": "d0334cba44f87ca9410843d4bc2a3f0d252becf83528ad93c87faa40b38285e0",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2964,
+      "sha256": "d33631ded3a4eef1d491e0b530e34c2e8b5df776807da2a1e727de47986d7579",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6948,
+      "sha256": "583014514ebca900a7056366fae13de2767fefb862b90ce1d279541907f8d350",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 16670,
+      "sha256": "c063c4c1661697dd0d6e456a6f1311a5f4313f93cc223eaad096dca3fae8b0fd",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2856,
+      "sha256": "a68063d27665043acd067e00d0c62c97d7fc29175ce111f3d2be8be1c491bc75",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2921,
+      "sha256": "6259f97dc589ed41faf45a150d3ab3a6ff0dd039d9eb5192bf3b2576fe28805c",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 25848,
+      "sha256": "a7a7e34734831540fb39b6fd0f6b3901bc8c437da9075649e9d70a43be3c0760",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4852,
+      "sha256": "ab36a178dca66cd7a7b1f0bccb1df971df29bd5bbeb72ffe30491d32b785f3a1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4887,
+      "sha256": "555bd1671c9c730fef2b4a234e372785335dc0ae1ccc97109ad94758b58ad616",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 36505,
+      "sha256": "838fd698594563302380fda1635b7d5cf3ddee0994dad71c9f047ebfdf0c5a77",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4718,
+      "sha256": "c262c7ee0a9558cd9f26458359b37e8954517e7f83fc074b6d80f7a0e7f35d1c",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4755,
+      "sha256": "729ada4087371e9c1226ede84db4f331bb43fcfe6e80deb2a557cf69426f981c",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5621,
+      "sha256": "9d784142ecf8e004c8266ee674916025c9cf099e585486c7a4349e124a8ea9ff",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3804,
+      "sha256": "b4958257ac6992bda8ac15846b8f883c3fc24b438f6aea3e62f0dbb6b5cfbe6a",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3833,
+      "sha256": "5060fde2958678be01a5decb7385ddc168ea66733f753866a08fc2e1aba31cfd",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1803,
+      "sha256": "14614c6dc1fd061de9bff9cf1c595257af5354f3ff2ba7c7b1726f4dd301d7e2",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4348,
+      "sha256": "bc8ef934fe2f5cbd1fe8a821c1e3ecbe6d39a07ba7ccb7f620e1019315bee26a",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4389,
+      "sha256": "d1180a4eb54275f18d6a121020db645975a88457c61dc006ca91f7016848a08d",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10987,
+      "sha256": "f41944079f7c6ea465a2a62e95d6456585f519d06962df483191f3f1e810e336",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5718,
+      "sha256": "21f66ff6f23344043d7949bd878d77eb457351f319c38f687d7cdff99371eae8",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5747,
+      "sha256": "5a13f70f1e7240415a167215ba9fdb5aef1cb3ee87568762a1c3b5ad2fbce394",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 1585,
+      "sha256": "08350e69c9632a7a76a9356911c4578292ce494c5a268a70577bcbbc458517e9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6133,
+      "sha256": "d8c8bc70ac6270c2334ff7ccb35f12cf0cfe524828963f25102d3448d392fe26",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 6186,
+      "sha256": "02d9897376487656621e1f5164cba83e210637e6c7dd0fda9223f07f09e0c495",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10293,
+      "sha256": "89053add092f9513bb19044afdc2cbc7ec378ae8891d44d650fa12692105ddb4",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5566,
+      "sha256": "165834f59008fd23ab76aa694ecc26d1dd001e4b796fe379efbb424d1822987f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5602,
+      "sha256": "abe4a0676ece7801660d706edf6c9551999195289e5939579a4473231902e1b1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5733,
+      "sha256": "43a0f8ed9665010d460eca18eb5f9f52462f6f306533252494c680b5d66f20ec",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3803,
+      "sha256": "dc605cb49aecc45d80888d366dfa0771ba5e2a6ffdd32ffdc14a198bbf1448b5",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3844,
+      "sha256": "7634b0ecd64d1b6254691bd9fc3627bb5eec4272edd9cd0ce03549306f4920e7",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2021,
+      "sha256": "0efbd2ae2c1639d4b5dfb00c52f65efbb276995fcee0fccfd453c633fdf81792",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4976,
+      "sha256": "9f895b16b12343b53970e724f0f9e6b2d292875c4b93576ccd0e0b1209a1d159",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5014,
+      "sha256": "12297345efc1857042b7146d289fbfcf720476787a781ce69936a7252f58a586",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5643,
+      "sha256": "919d959bb63b1a780ce77dc7930f5ef9fec79ac311f4dc5a19c59284df4989c9",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 3964,
+      "sha256": "ae4ccdc6da91ce331ad8b2fa5925db5c698a96c1321c3c86a9c0b0ce722a5c78",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4002,
+      "sha256": "d71c41f3ba1bd399a966fa301ea0b821f9896ec05c03e2603a8f88b2b006fea1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 20054,
+      "sha256": "dca9a6762714dc8237443ce3c5d2fee4628912301a7c7d0c907355d9bd814625",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5461,
+      "sha256": "1476096c703f8bb60b834326aacbee25d79e27ee7c3633810c62ffd534565f83",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 5500,
+      "sha256": "78d3f8dc21903298867bc6c871ae6e850838f2cc6fcc297db8867bf34e131391",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4752,
+      "sha256": "995f0569e2dff9c664e6ccf7e9d478274bef4eedf0f7fcc2520198123e52eafd",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2500,
+      "sha256": "3e58b33c2a353f3924eed66e5bbb65c83d28c8c66a3b4f1e0e68cf2f3a8289b2",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2545,
+      "sha256": "be0e0e99baaa9e1b73f09220e3126205633bbc639346dc4ca1816b9393369e3f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 39613,
+      "sha256": "7ef258ba651bbf3c73c6ee3a150f56715032ca0e541b11aa1eff24add5bf04ad",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4486,
+      "sha256": "fee426684f12a2ced608c3e51021ee76b1919a597dabffefef6b3db2bef39d95",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 202,
+      "sha256": "a027aba7efeed25f24fd18fa05f6088eaa6d9aca06d22938fabab5e5f74baa1e",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 17,
+      "sha256": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 17,
+      "sha256": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 17,
+      "sha256": "e395ad55dd18b1bf23944d00b156714accfae4ec834df208053575542dfae602",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 4876,
+      "sha256": "2a94d086ef4ed847319853469e08f56a36775d1cc5dab67589afc00dc15bf022",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 197,
+      "sha256": "967185684853e3a6a13feea2ad457e49780b80ba8aba1d2ee84b79fcd687b342",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2745,
+      "sha256": "e9a1435b7ef92a5ab1f5eb8533e13eeedca2b836db6c3ddc21c55b4ed724124f",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 2357,
+      "sha256": "321ee5e46c2770b1bf2f83885f231dbaabcfbe11f7dca9da4c9d43b9f8d19dc1",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 193,
+      "sha256": "a2cdb2606d58502a1c79ed3005b92772b6e154e0501fa8d3d14fdb56c3f329ea",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 58703,
+      "sha256": "8d4d6e019f65ab5eb0de04a09c6bca559027def39138f5e806b426319aebd399",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 16034,
+      "sha256": "92ef4f21242ceee900cc245a4a3810202a2b72b968aebd4a70abaeb90ae489cb",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 10521,
+      "sha256": "4a9ee8b4e921130e565819360bed5c46e93f5412aec8c3c0f961bc0da4b902d6",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 19110,
+      "sha256": "904ddce2e23f409d72af21a6e16a4519832a09ca76f2b2acc141cf3daca3ab6b",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 8579,
+      "sha256": "c5d716e31725ca2f521baa337d024a0ea095b0d4926346a3ba721c6509ada3dd",
+      "kind": "private-raw-capture (HTTP response bytes as received)"
+    },
+    {
+      "bytes": 38980,
+      "sha256": "8acdf2021174dd58f11c704dd642e255ac451cce74c7562c7ad34d690b523afd",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 130209,
+      "sha256": "54b473bcb6b9f784f3cdb7d71005d9b3967b00e10eac3bdc948cc0bcad366f5c",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 150,
+      "sha256": "e55d824511d7495ce03a9229bd6352189b06857b626d4c62105fbdba8869977f",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 46013,
+      "sha256": "b9b105c42d878459f2ca6f8c3c6902d8ced0a7c9ab766e676a0c8c38eba61d49",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 105602,
+      "sha256": "5d475a7fd47deb2ebbd53ff68b9c8352220e7a93202039ec17f58a04f59bf1b4",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 34947,
+      "sha256": "dd86f213c9b5de47db934c1a45e5630821c9c718fc149c9b26a42389d2dc0800",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 182179,
+      "sha256": "58dab9f52e93b39e8ceb98270f9c827af7b482bdb724c3a655223c683a29a51b",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 51863,
+      "sha256": "09d8c6e2e61cc3dc0c708d0ac667430915bc4bbda96d594170bd9f85049f528f",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 315139,
+      "sha256": "1d9df936d3b33a8dcaacd48c740189d768826d6ddf672d0f3f7a0a6f35332674",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 150,
+      "sha256": "2161b4b0f0a2b71407aa8014be913d458479a60c75e3e88b622ebd5b2507796f",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 57854,
+      "sha256": "9c804280c7efb1adeefbe53ab2b6e1f01c3b855ec2c4c537072af7f8e541781a",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 170849,
+      "sha256": "e32e96e672df1b6a8adf6e9edc1a1c44c34ca23a3c6ae848a92dd4085cdc2835",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 51821,
+      "sha256": "831e44984cb699056cb8fad22f12e9e381e96d58b27a95ef87e7e793529e8fdb",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 164155,
+      "sha256": "52b2956efc54b972a2d0312a610e00ab7c557d4c80741dd20feedfe33e4bcc23",
+      "kind": "private-fulltext (PMC XML as received, or parsed text derived from it)"
+    },
+    {
+      "bytes": 1045,
+      "sha256": "f74a357dc27b56d5186bcfa2c1ec0db582807536ebd82358f7f3811156d9511c",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 960,
+      "sha256": "0270b2da85e24ed9606e0a8907d71fa9850eb34d6b391c9c3722c7c035ec4348",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1677,
+      "sha256": "6c2b6c6483da13642b087632b19fb66988ff8ef32592886e3f2f98ab612ec6bb",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1144,
+      "sha256": "a1b7c0edb54be23486f576cfc330da52899227678cc1dc168fd700d2a2a06121",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1177,
+      "sha256": "3e8a17453bb12234975387932bd8d1bc6423fea13e216b40a16cd032c41e930a",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1909,
+      "sha256": "c5379a4839450ad50a8b38c8b50e25c4ba7e018aea24e57d3310d6e9f26d3b1d",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1634,
+      "sha256": "92d4e4f6b8649933db9fe2c7ac1305b1b62fb18dfceff64c827f183d0d0f34f0",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 571,
+      "sha256": "2357ae55f424073d1b43118144bbf291c285da53869a6ce1ce1d5512a2f8b506",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1627,
+      "sha256": "9b8a14cea050f21784693bb4c4484657d9c2de4b48b5b1b4073f48134b9cd089",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1175,
+      "sha256": "70ed2ad270b3b065b0bc7bb52d14325103c509048b4c64ff45e7838a6a65e817",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1096,
+      "sha256": "5ed69a960cabfd1dfd298b46ca947caf717a6ff524b43383e73c863827bd3538",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 913,
+      "sha256": "fb602205ce1ff8276d2593172943929ea26cece211fa6f37672205aaaf2a44ee",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 952,
+      "sha256": "c85e53983e4ad1cf578497868d49a059f32425c9faeabdb496599d4024d9aad7",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1344,
+      "sha256": "498e355add87277f0a305bd48d1b0ca047789b01081029ef1d56d80a5cfc6fd1",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1274,
+      "sha256": "fca8dcad2e6de27f6e499ce0c87c39b6a1620c0132eeb4775664b97da51671b6",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1199,
+      "sha256": "c6064eac1195f991e7cc5c9a7f3511d557520266e31eec70f740ab3c7af72720",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1778,
+      "sha256": "00bdc4093c19b752cd0ff35f90ff1e2ac8a42bbcdc05ec5651e97ea33280a0bb",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1399,
+      "sha256": "b21d5ab50458edafc91afb6cda3a2ce14dd878803390ed43f3d43497a3216186",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 514,
+      "sha256": "da1bfb187c1c5e1d4ef5afd65063295cdda5a3fc7523ff42a13359b36b44be6e",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1099,
+      "sha256": "5b906e135859f655b225c47f47450618c1bb848127d78e0ed330c9b28a4a8fa2",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1099,
+      "sha256": "5b906e135859f655b225c47f47450618c1bb848127d78e0ed330c9b28a4a8fa2",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1854,
+      "sha256": "749a4a3bb379dcaacf34cb36c8b4cad2430b39609825b119d5347e29c4a06b86",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1858,
+      "sha256": "55ec65a0097871919cd4de4f93a61dfbec1a8c15fcab01057e8c6cfdd757a678",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1510,
+      "sha256": "4f29a39d43a5514458ba23d5cc62989c60c78607d9b133f59a0f6f71d5ab0eb9",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1861,
+      "sha256": "925e7e44637badb4415d1d98dd7c8f6267d9c8af289ff3ffc0512e6058d5de3c",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 2890,
+      "sha256": "35c373fccd70c61d6759af686bb6afebaad232fa0693ced6110f52e1b36cc85b",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1082,
+      "sha256": "fbb48d1d89bf0291c658883248472904b10dad6683660b8e66bf49d1885a9db0",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1275,
+      "sha256": "bafc6995c3bc06068a212b1da587b77d4073c348d4cd761bf8d7885d94767074",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1683,
+      "sha256": "e3a950bf253855c73c393301aace9166a74531e01f0d42253a89473c7efe8e8c",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1448,
+      "sha256": "9618445e10cd8f7a1e5b2b85e8e6b6b91f12cc2069d5deeed20734b0cb737675",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 835,
+      "sha256": "085d81936bb477f391fece20c61eb51f38eb84b8fb01780d2896b73b4f4250fa",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 964,
+      "sha256": "9e46ee0b907b37161f614642e01b2e6fe65c852fa766fff45629934fe8971be0",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1681,
+      "sha256": "85f47de41a0debd7e800ee8dcbbdb3a2de7f54cb5afa5324e5b389230ccc0784",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 908,
+      "sha256": "570ae7b2f4b9f7a0b4c0d2667fe7e4d21f11093510942b5a2dbffcb4f943bfc4",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1796,
+      "sha256": "e20402a8ec7b873417355cd96445e24702d132f1d0cc2fc120f0a4992d87a75f",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 501,
+      "sha256": "825172086bbf1c2743c5ef9ec6a21068c8064f71fbba4947f232b437a1981ae6",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 747,
+      "sha256": "995dbf79711dbd2ebae0e6aad3d24710b56cd2d278b5e426f25b75940c7d0efd",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 807,
+      "sha256": "8453599ab6890b9d3a1670fcfb5e94fe25e5704c4dd74537899edb44f853fe82",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1303,
+      "sha256": "aaecc531fb4759cba2d5ecdc01b982cfea9dad332dc1fff89979586262b96e74",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1346,
+      "sha256": "dcccfd73c06ae36bf5b1292b8efe9c16abfde949d98c4834806c41fbd943f767",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 2629,
+      "sha256": "17e418005cf314de38895e3d465c169718fb5a72a5a946fd80198071d76d5569",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1813,
+      "sha256": "52e2017b38e46336c236ae5b43adae7fd37baaac6bff13c50c1e1bfc8dc15a43",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1448,
+      "sha256": "6e7dfcc3e6f08c3de7cadd7db8a81b92ee3b9c5402fc5957107bfe059ac9f0c0",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 795,
+      "sha256": "86ebbfd21ce6e1cdd1e0a8f366e6c3ab4694da5b941e44f4ea410938e8e786d1",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1111,
+      "sha256": "429ec8ab899b065f0f0ca973886b7d57d8594a41188e4b86f2c873fb98de4df7",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1291,
+      "sha256": "36b5403889933ec80ff5e322d149e8ca536725ac5b3dba176d35d283cd757987",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 779,
+      "sha256": "8a40b0f20f7135d0d0491c2422b89730792d67e3e77a534d6d3e1473b12992a0",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 5708,
+      "sha256": "4308f61bf3ef0507f5d1572cadb81f5543d4ea499d67ac4bc31e712d2d97fd99",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 3566,
+      "sha256": "19a019e4915611c35568b1e21f2b7a4cbb35dac5d39fd3cfb61fd5f1da9a264d",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 977,
+      "sha256": "5f15557f7ff9339e1134473e4dcdd71e2711a739f443c9004098948ee78e990b",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1405,
+      "sha256": "16ae83a5a49e2cca126b3c8546ed4cba8c3ea24b315101b2070246fa566c7d80",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 1525,
+      "sha256": "17b3375c78d5ba263d46a0268f91f1e75bae735d33e9f62b33ade0c58bdbb53d",
+      "kind": "private-abstract-text (as read; Elicit-only or EPMC raw text)"
+    },
+    {
+      "bytes": 32915,
+      "sha256": "26bb49285821e7a8ca045d441a2da05ee07aa40ea1f314e06a0f359ade67022f",
+      "kind": "script"
+    },
+    {
+      "bytes": 28019,
+      "sha256": "92c27186b88342b86e8bb1bba57db24f05b9167083a6f4823fdd68f71ae142cf",
+      "kind": "script"
+    },
+    {
+      "bytes": 1913,
+      "sha256": "6d4fb4f2573acd2b03e645ad05cb6b5bd39d370c4ccefe218e8884c50b32d93b",
+      "kind": "script"
+    },
+    {
+      "bytes": 2411,
+      "sha256": "344c6b671113f54323405f493442961ec4575cf7e928f3b1a8a2ce78f1a0591e",
+      "kind": "script"
+    },
+    {
+      "bytes": 82420,
+      "sha256": "ec34ae8dde5bf9a57ff2c2a8a22b349445e4e2c5a9284f137a1c65a00e45341d",
+      "kind": "request log (url, time, status, sha256 per response)"
+    },
+    {
+      "bytes": 45716,
+      "sha256": "dfb7c5807c43ce7e2c086d2b613e5599c9e1d71b04fd56cfaa4f3f71fc4294ba",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 30262,
+      "sha256": "3c932d7f7d1463372d6e7a5540f57edcbdb95f29b9d0ec45369a03f9c3c5596a",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 26372,
+      "sha256": "a513731e23ab08bc28fdd2733256bc7e5ebd1a7285c70674d8e91e34dbcdb7be",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 38327,
+      "sha256": "dde10e801c11e52d7a16645bcf31f5ffd3db595f3f4be8a9739763a738d24e72",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 27693,
+      "sha256": "05254e7b7255978cb8808062c1664ab32dfb89e211b0523e026d41fdd19fa801",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 29092,
+      "sha256": "a2353b5819dcc0b7b1781339f1442b336f310f33f479cde486bad3ef26428500",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 28593,
+      "sha256": "e0cc5c57282bf8808ededc26396ffc37ed65282182d890a3942899ac23ec1706",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 31550,
+      "sha256": "acee537e01a62409deff6c92d31eb9d44546f1ba4945cb5cf441e4ece81084ba",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 30734,
+      "sha256": "961db7dbb8efa68b5a835bd74d250fb7a8bd2d62b53bb926f3063a93c30e5345",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 31140,
+      "sha256": "0e8cd43b408ea409367d749717b1b4229c6d4090e46d036d52613d626295a4cc",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 31950,
+      "sha256": "9d60c9932912078bef396f9d64f188a992821db875403ac34e51f218c19366c7",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 19232,
+      "sha256": "da5eddea4863a072c4d838903172dd298f2e830cddf34cba2fb8e1eb12835060",
+      "kind": "frozen Elicit capture (read only, unmodified)"
+    },
+    {
+      "bytes": 23073,
+      "sha256": "e24c11f308d916cecc6473a443821def958a34c35cb00d56a00225a93cc1b097",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 7822,
+      "sha256": "572e2783827e8c20819d502cc732a4308cfca5a27e77de529d4f25c772401750",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 70262997,
+      "sha256": "ee984f247eb1071d14760146e23fbb3ce60b6c3a635cf6b4f7a25023963caf75",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 4967270,
+      "sha256": "830fef1cd8170abe652854020b287aaf43f0457c7a61ec1d832b6ef57c50013d",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 156761,
+      "sha256": "1dd393ef87a5b936312f0e60b1fb512873a7a1e256321ba6c297ccc9c808b33a",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 75498,
+      "sha256": "6cc3539b407ec5fc2bd64ce0e97112fcfce8311fc3293a275d767e9160be53f2",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 170800,
+      "sha256": "833195d112bf45cc2b2102a2f9456b3d2730742eba6f630a3de31dd7919b0abf",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 69507,
+      "sha256": "59d5f0b84361e47c235f67ebe8559c57a08520c5a2c462e3a04cb65d7988ae8e",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 170134,
+      "sha256": "59d39f036bbbd9e7fb1421261bed9a7ad2e7cd7e62091c26f69b6590d47dc50b",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 353257,
+      "sha256": "1edc86db3188177b355b9756045de100b041d99049dcfa0347375abb682d97d3",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 144346,
+      "sha256": "9c94e8301d191484e04d62ef25a65e950787350a341a0d7fb8af4260de8dac8f",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 68982,
+      "sha256": "bc4ad5b7f5c42e134126945e0b5177a2130b58d77ccbc56b988c9acbdfda20fe",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 134623,
+      "sha256": "c9f8d6166aaa72cb165d779145e0fa70af3b36e6edb65de4dc099b8a8f8a5c17",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 360932,
+      "sha256": "2b18fbcdbc37bad2b85966170925c06d4b4e7600b0de3ef20a40a0b86a89d2ca",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 147644,
+      "sha256": "ceec15f8e08ba7b09aff8efee84c50de3cd8223f58ed3838420628851575ee6d",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 54024,
+      "sha256": "948c55bf7b223da437e37343c96e44219a5e5c78bbd1ce4390db110e9a02f0d5",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 1269,
+      "sha256": "b37fec6e314108d50cec8017b60518aebb620b16b09d21474eac8d0b5290764c",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 64381,
+      "sha256": "b702f9a112afb5bfbc15e6ae580eb3572ffdea818cfd68516dbd7762f85e9291",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 76787,
+      "sha256": "a4877be26fea9f721376ad3119a4f916da4f97abbeb170750cca006a5e7bdc68",
+      "kind": "input (read only)"
+    },
+    {
+      "bytes": 573478,
+      "sha256": "7518dfc038bee0096fc9083d68666f22d88552378a636a359d7ff6bc7b470623",
+      "kind": "input (read only)"
+    }
+  ],
+  "scope": "168 HTTP-response bodies, 14 full-text or derived-text captures, 54 abstract-text files, 12 frozen Elicit captures, 20 frozen inputs, four scripts and one request log. All files remain private outside Git; hashing a source does not establish it was read in full.",
+  "captureInputFilesVerified": 273,
+  "fileKinds": {
+    "private-raw-capture (HTTP response bytes as received)": 168,
+    "private-fulltext (PMC XML as received, or parsed text derived from it)": 14,
+    "private-abstract-text (as read; Elicit-only or EPMC raw text)": 54,
+    "script": 4,
+    "request log (url, time, status, sha256 per response)": 1,
+    "frozen Elicit capture (read only, unmodified)": 12,
+    "input (read only)": 20
+  }
+}

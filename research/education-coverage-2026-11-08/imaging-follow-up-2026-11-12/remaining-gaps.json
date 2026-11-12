@@ -1,0 +1,72 @@
+{
+  "cohortRepresentationOpen": [],
+  "sourceDepthFollowups": {
+    "id": "imaging-follow-up-primary-depth",
+    "title": "Current imaging and breast follow-up source depth",
+    "domain": "imaging-follow-up-adjacent",
+    "sourceURLs": [
+      "https://ascopubs.org/doi/full/10.1200/JCO-26-01700",
+      "https://doi.org/10.1016/j.eanmj.2025.100006",
+      "https://aacrjournals.org/clincancerres/article/32/4_Supplement/PS1-06-06/772355"
+    ],
+    "discoveryOccurrences": [
+      "imaging-follow-up-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator named source-follow-up intake; no additional content credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "These concrete reading tasks remain separate from the source-scoped draft representation. Current ASCO statements use its read abstract and official summary; technical PET definitions retain their read 2015 version. No modern-trial absence claim or unverified conference result is adopted.",
+      "points": [
+        {
+          "id": "asco-2026-original-methods",
+          "requirement": "Read the original ASCO2026 journal methods and detailed recommendations before independently certifying the complete guideline; the current record is limited to the complete abstract and specified official practice-summary passages.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the original ASCO2026 journal methods and detailed recommendations before independently certifying the complete guideline; the current record is limited to the complete abstract and specified official practice-summary passages."
+          ]
+        },
+        {
+          "id": "eanm-2025-technical-body",
+          "requirement": "Read the EANM2025 version3 body and compare technical changes before upgrading the version attribution of the existing definitions; current technical prose is explicitly based on the read 2015 version2 passages.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the EANM2025 version3 body and compare technical changes before upgrading the version attribution of the existing definitions; current technical prose is explicitly based on the read 2015 version2 passages."
+          ]
+        },
+        {
+          "id": "inspire-modern-followup-primary",
+          "requirement": "Resolve and read the INSPIRE/JCOG1204 2026 conference lead and any primary result report before adopting results or making an exhaustive statement about modern intensive-follow-up trials.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Resolve and read the INSPIRE/JCOG1204 2026 conference lead and any primary result report before adopting results or making an exhaustive statement about modern intensive-follow-up trials."
+          ]
+        }
+      ]
+    }
+  },
+  "primaryReadingLimits": [
+    "Original ASCO2026 journal full text inaccessible; complete abstract and specified official practice-summary blocks read.",
+    "EANM2025 technical body inaccessible; definitions attributed to read 2015 version2 passages.",
+    "BPE/Hylton full-text retrieval failed; their complete abstracts support the scoped claims. BioC responses were error text, not full articles.",
+    "The PSMA therapy XML is truncated and fails parsing; the complete abstract, one complete closed paragraph on lutetium-177 emission, and explicitly inherited earlier dosimetry scope are used. No complete-document XML reading is claimed.",
+    "GIVIO group/contributor metadata, a Rosselli DOI alias redirect and Farwell online/print/title drift are documented, not treated as scientific identity conflicts.",
+    "SURVIVE is a protocol, not an outcome report. A 2026 INSPIRE conference item was only a search lead; blocked raw page, no result adopted.",
+    "The current registry capture for SURVIVE and reused MRI-vascular body were not read for new claims; no current trial-status or new vascular result is inferred.",
+    "No live Elicit scientific interface was callable. Frozen 917-occurrence discovery accounting is unchanged; no question/report/response invented.",
+    "Earlier catalogue assertions outside the selected fields and inherited PERCIST/PSMA statements are not blanket recertified."
+  ],
+  "outOfScopeLegacyAssertions": "Earlier catalogue claims outside the selected field excerpts keep their old reading scope; current data is not a whole-record or whole-corpus scientific recertification.",
+  "creditBoundaries": {
+    "main": 0,
+    "live": 0,
+    "expert": 0,
+    "learner": 0,
+    "language": 0,
+    "wholeCorpusReaudit": 0
+  },
+  "broaderGoalComplete": false
+}

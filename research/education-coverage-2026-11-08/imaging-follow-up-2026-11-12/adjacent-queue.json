@@ -1,0 +1,54 @@
+{
+  "newSourceDepthGroup": {
+    "id": "imaging-follow-up-primary-depth",
+    "title": "Current imaging and breast follow-up source depth",
+    "domain": "imaging-follow-up-adjacent",
+    "sourceURLs": [
+      "https://ascopubs.org/doi/full/10.1200/JCO-26-01700",
+      "https://doi.org/10.1016/j.eanmj.2025.100006",
+      "https://aacrjournals.org/clincancerres/article/32/4_Supplement/PS1-06-06/772355"
+    ],
+    "discoveryOccurrences": [
+      "imaging-follow-up-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator named source-follow-up intake; no additional content credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "These concrete reading tasks remain separate from the source-scoped draft representation. Current ASCO statements use its read abstract and official summary; technical PET definitions retain their read 2015 version. No modern-trial absence claim or unverified conference result is adopted.",
+      "points": [
+        {
+          "id": "asco-2026-original-methods",
+          "requirement": "Read the original ASCO2026 journal methods and detailed recommendations before independently certifying the complete guideline; the current record is limited to the complete abstract and specified official practice-summary passages.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the original ASCO2026 journal methods and detailed recommendations before independently certifying the complete guideline; the current record is limited to the complete abstract and specified official practice-summary passages."
+          ]
+        },
+        {
+          "id": "eanm-2025-technical-body",
+          "requirement": "Read the EANM2025 version3 body and compare technical changes before upgrading the version attribution of the existing definitions; current technical prose is explicitly based on the read 2015 version2 passages.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Read the EANM2025 version3 body and compare technical changes before upgrading the version attribution of the existing definitions; current technical prose is explicitly based on the read 2015 version2 passages."
+          ]
+        },
+        {
+          "id": "inspire-modern-followup-primary",
+          "requirement": "Resolve and read the INSPIRE/JCOG1204 2026 conference lead and any primary result report before adopting results or making an exhaustive statement about modern intensive-follow-up trials.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Resolve and read the INSPIRE/JCOG1204 2026 conference lead and any primary result report before adopting results or making an exhaustive statement about modern intensive-follow-up trials."
+          ]
+        }
+      ]
+    }
+  },
+  "newCanonicalIds": 1,
+  "globalAdjacentGroupsAfterIntake": 62,
+  "frozenLiteratureOccurrencesUnchanged": 917,
+  "scope": "Named primary-depth work, not extra coverage or a claim that any read official summary is invalid."
+}

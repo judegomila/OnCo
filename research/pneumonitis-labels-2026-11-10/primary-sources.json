@@ -1,0 +1,126 @@
+{
+  "sources": [
+    {
+      "id": "enhertu-may-2026",
+      "type": "US prescribing information",
+      "version": "Revised May 2026; DailyMed updated 15 May 2026",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761139s041s043lbl.pdf",
+      "currentHtmlUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "readingDepth": "Targeted Table 3, its adjuvant radiotherapy footnote, section 5.1 and revision header. Two table pages visually inspected from the FDA PDF. Current DailyMed table and warning text read; not an end-to-end label review.",
+      "sections": [
+        "2.3 Table 3, PDF pages 6 and 7",
+        "5.1"
+      ]
+    },
+    {
+      "id": "datroway-may-2026",
+      "type": "US prescribing information",
+      "version": "Revised May 2026; DailyMed updated 27 May 2026",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf",
+      "currentHtmlUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+      "readingDepth": "Targeted Table 3, section 5.1 and revision header; Table 3 visually inspected from the FDA PDF. Current DailyMed table and warning text read; not an end-to-end label review.",
+      "sections": [
+        "2.4 Table 3, PDF page 4",
+        "5.1"
+      ]
+    },
+    {
+      "id": "keytruda-october-2026",
+      "type": "US prescribing information",
+      "version": "Revised October 2026; DailyMed updated 16 October 2026",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+      "readingDepth": "Current raw HTML revision header, Table 2 and its resumption footnote, section 2.3 context and targeted section 5.1 passages. The same pneumonitis rows and footnote were also visually inspected in the older July 2026 FDA PDF, retained as a version comparison only. No claim that the July PDF is the current full label.",
+      "sections": [
+        "2.3 Table 2 and footnote",
+        "5.1"
+      ]
+    },
+    {
+      "id": "naidoo-2017",
+      "type": "observational two-institution cohort",
+      "doi": "10.1200/JCO.2016.68.2005",
+      "pmid": "27646942",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27646942/",
+      "title": "Pneumonitis in Patients Treated With Anti-Programmed Death-1/Programmed Death Ligand 1 Therapy",
+      "printYear": 2017,
+      "onlineDate": "2016-09-30",
+      "readingDepth": "Complete raw Europe PMC MED abstract read; identity, title, first author and print year compared with Crossref. Full text not read in this focused correction.",
+      "sections": [
+        "Methods and Results in abstract"
+      ],
+      "limits": [
+        "Observational comparison, heterogeneous two-institution populations; no universal class incidence or randomised attribution."
+      ]
+    }
+  ],
+  "captures": [
+    {
+      "file": "enhertu-2026-05.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761139s041s043lbl.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1781031,
+      "sha256": "96d9fd3b6faab68e598d530b59f172b6f749115a91e3eb2e72937b7cfe74058c",
+      "retrievedAt": "2026-11-10T23:18:50.102381+00:00"
+    },
+    {
+      "file": "datroway-2026-05.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 663533,
+      "sha256": "75914ef39a10db1b6954f4ee9861bc27aaf9deb13df51ce589b2570631b33c0c",
+      "retrievedAt": "2026-11-10T23:18:50.476747+00:00"
+    },
+    {
+      "file": "keytruda-2026-07.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 4836192,
+      "sha256": "a9e298bde6c23856a1a4b61968848d145ad8d776a43862e1ebea5a89b28379df",
+      "retrievedAt": "2026-11-10T23:18:51.783006+00:00"
+    },
+    {
+      "file": "naidoo-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27646942%20AND%20SRC%3AMED&format=json&resultType=core",
+      "status": 200,
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 50573,
+      "sha256": "7c8a4bb945f7ae29745841d9e9bb39a3f750637bffacc69ef25bddc7c4830f02",
+      "retrievedAt": "2026-11-10T23:18:50.285129+00:00"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6",
+      "status": 200,
+      "bytes": 492974,
+      "sha256": "59dedf4863eb00d153ee4db06bc1ee9ab7534056348f8e27d1129111aad9d09a",
+      "retrievedAt": "2026-11-10T23:29:58.168388+00:00",
+      "file": "enhertu-current.html"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2950227c-6230-4ca4-a135-46e44d9424a0",
+      "status": 200,
+      "bytes": 256746,
+      "sha256": "937726711767d219a40473fc1bc831cecfa8d69a7a7dd4de7164e9ffc050a0e3",
+      "retrievedAt": "2026-11-10T23:29:57.861643+00:00",
+      "file": "datroway-current.html"
+    },
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+      "status": 200,
+      "bytes": 1250133,
+      "sha256": "cc606b0b866e61293f4bd60464f70440675a7e07852a919486417d2bc343681f",
+      "retrievedAt": "2026-11-10T23:29:58.663295+00:00",
+      "file": "keytruda-current.html"
+    },
+    {
+      "file": "naidoo-crossref.json",
+      "url": "https://api.crossref.org/works/10.1200%2FJCO.2016.68.2005",
+      "bytes": 27847,
+      "sha256": "b397cdc714d3554e4e630cca8626ec309280474121ce03d3f74256316a062f87",
+      "reading": "identity metadata; Crossref retrieval time not retained"
+    }
+  ],
+  "rawBodiesCommitted": false
+}

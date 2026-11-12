@@ -1,0 +1,1140 @@
+{
+  "version": "proposal-cmc-summary-consumers",
+  "state": "Actual selected short-summary entries checked in both implemented drafts; no new language approval.",
+  "records": [
+    {
+      "id": "binder-affinity-epitope-developability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (ar)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (ar)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-ar",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (ar)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (ar)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (ar)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-ar",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (ar)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (ar)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ar)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ar",
+      "available": true,
+      "text": "تُفحص دفعة المنتج الخلوي وفق متطلبات جودة محددة قبل اتخاذ قرار بشأن استخدامها. وتجيب الهوية وقياسات الخلايا الحية والنشاط البيولوجي عن أسئلة مختلفة تتعلق بهذه الدفعة."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-de",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (de)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-de",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (de)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-de",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (de)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (de)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (de)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-de",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (de)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-de",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (de)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (de)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "de",
+      "available": true,
+      "text": "Eine Charge eines Zellprodukts wird anhand festgelegter Qualitätsanforderungen geprüft, bevor über ihre Verwendung entschieden wird. Identität, Messungen lebender Zellen und biologische Aktivität beantworten unterschiedliche Fragen zu dieser Charge."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-es",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (es)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-es",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (es)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-es",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (es)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (es)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (es)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-es",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (es)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-es",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (es)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (es)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "es",
+      "available": true,
+      "text": "Un lote de un producto celular se evalúa frente a requisitos de calidad especificados antes de decidir sobre su uso. La identidad, las mediciones de células vivas y la actividad biológica responden a preguntas diferentes sobre ese lote."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (fr)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (fr)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-fr",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (fr)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (fr)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (fr)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-fr",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (fr)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (fr)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (fr)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "fr",
+      "available": true,
+      "text": "Un lot de produit cellulaire est évalué selon des exigences de qualité définies avant de décider de son utilisation. L'identité, les mesures des cellules vivantes et l'activité biologique répondent à des questions différentes sur ce lot."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (hi)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (hi)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-hi",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (hi)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (hi)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (hi)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-hi",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (hi)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (hi)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (hi)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "hi",
+      "available": true,
+      "text": "किसी कोशिका उत्पाद के बैच के उपयोग पर निर्णय लेने से पहले उसे तय गुणवत्ता आवश्यकताओं के अनुसार जांचा जाता है। पहचान, जीवित कोशिकाओं के माप और जैविक गतिविधि उस बैच के बारे में अलग-अलग सवालों के जवाब देते हैं।"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (ja)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (ja)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-ja",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (ja)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (ja)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (ja)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-ja",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (ja)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (ja)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (ja)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "ja",
+      "available": true,
+      "text": "細胞製品のロットは、その使用について判断する前に、定められた品質要件に照らして検査されます。同一性、生きた細胞の測定、生物学的活性は、そのロットに関する異なる問いに答えるものです。"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (pt)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (pt)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-pt",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (pt)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (pt)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (pt)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-pt",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (pt)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (pt)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (pt)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "pt",
+      "available": true,
+      "text": "Um lote de um produto celular é avaliado de acordo com requisitos de qualidade especificados antes de se decidir sobre a sua utilização. A identidade, as medições de células vivas e a atividade biológica respondem a perguntas diferentes sobre esse lote."
+    },
+    {
+      "id": "binder-affinity-epitope-developability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (zh)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (zh)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-zh",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (zh)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (zh)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (zh)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-zh",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (zh)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (zh)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (zh)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "zh",
+      "available": true,
+      "text": "在决定如何处置一个细胞产品批次之前，需要按照规定的质量要求进行检查。身份、活细胞测量和生物活性回答的是关于该批次的不同问题。"
+    },
+    {
+      "id": "binder-affinity-epitope-developability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binder affinity, epitope and developability (simple)",
+      "canonicalRecordId": "binder-affinity-epitope-developability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-targeting-module-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binders as targeting modules (simple)",
+      "canonicalRecordId": "binder-targeting-module",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-format-constraints-simple",
+      "kind": "reader-summary-entry",
+      "name": "Format-dependent binder function (simple)",
+      "canonicalRecordId": "binder-format-constraints",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "scfv-vhh-formats-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-chain and single-domain antibody fragments (simple)",
+      "canonicalRecordId": "scfv-vhh-formats",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "certificate-of-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Certificate of analysis (simple)",
+      "canonicalRecordId": "certificate-of-analysis",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "chemistry-manufacturing-controls-simple",
+      "kind": "reader-summary-entry",
+      "name": "Chemistry, manufacturing and controls (simple)",
+      "canonicalRecordId": "chemistry-manufacturing-controls",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "manufacturing-process-comparability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Comparability after manufacturing changes (simple)",
+      "canonicalRecordId": "manufacturing-process-comparability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cell-therapy-release-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-therapy release and potency testing (simple)",
+      "canonicalRecordId": "cell-therapy-release-testing",
+      "language": "simple",
+      "available": true,
+      "text": "A batch of cells is checked against quality requirements before a decision about its use. Checking which cells are present, how many are alive and what they do answers different questions."
+    },
+    {
+      "id": "binder-discovery-ar",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (ar)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (ar)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ar",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ar)",
+      "canonicalRecordId": "batch-release",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-ar",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (ar)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-ar",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (ar)",
+      "canonicalRecordId": "cdmo",
+      "language": "ar",
+      "available": true,
+      "text": "شركة تصنّع الأدوية لصالح شركات أخرى. ومعظم عقاقير ADC والأدوية البيولوجية والعلاجات الخلوية تُصنَع لدى حفنة منها."
+    },
+    {
+      "id": "good-manufacturing-practice-ar",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (ar)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-de",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (de)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-de",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (de)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-de",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (de)",
+      "canonicalRecordId": "batch-release",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-de",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (de)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-de",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (de)",
+      "canonicalRecordId": "cdmo",
+      "language": "de",
+      "available": true,
+      "text": "Ein Unternehmen, das Medikamente für andere Unternehmen herstellt. Die meisten ADCs, Biologika und Zelltherapien werden von einer Handvoll solcher Firmen produziert."
+    },
+    {
+      "id": "good-manufacturing-practice-de",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (de)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-es",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (es)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-es",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (es)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-es",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (es)",
+      "canonicalRecordId": "batch-release",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-es",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (es)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-es",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (es)",
+      "canonicalRecordId": "cdmo",
+      "language": "es",
+      "available": true,
+      "text": "Una empresa que fabrica medicamentos para otras empresas. La mayoría de los ADC, los biológicos y las terapias celulares los fabrican un puñado de ellas."
+    },
+    {
+      "id": "good-manufacturing-practice-es",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (es)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-fr",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (fr)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (fr)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-fr",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (fr)",
+      "canonicalRecordId": "batch-release",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-fr",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (fr)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-fr",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (fr)",
+      "canonicalRecordId": "cdmo",
+      "language": "fr",
+      "available": true,
+      "text": "Une entreprise qui fabrique des médicaments pour d'autres entreprises. La plupart des ADC, des biomédicaments et des thérapies cellulaires sont produits par une poignée d'entre elles."
+    },
+    {
+      "id": "good-manufacturing-practice-fr",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (fr)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-hi",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (hi)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (hi)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-hi",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (hi)",
+      "canonicalRecordId": "batch-release",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-hi",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (hi)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-hi",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (hi)",
+      "canonicalRecordId": "cdmo",
+      "language": "hi",
+      "available": true,
+      "text": "एक कंपनी जो दूसरी कंपनियों के लिए दवाएं बनाती है। अधिकांश ADC, बायोलॉजिक्स और कोशिका चिकित्साएं इनमें से मुट्ठी भर कंपनियां ही बनाती हैं।"
+    },
+    {
+      "id": "good-manufacturing-practice-hi",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (hi)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-ja",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (ja)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (ja)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-ja",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (ja)",
+      "canonicalRecordId": "batch-release",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-ja",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (ja)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-ja",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (ja)",
+      "canonicalRecordId": "cdmo",
+      "language": "ja",
+      "available": true,
+      "text": "他社のために医薬品を製造する企業である。ADC・生物学的製剤・細胞治療の大半は、ごく少数のこうした企業によって作られている。"
+    },
+    {
+      "id": "good-manufacturing-practice-ja",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (ja)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-pt",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (pt)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (pt)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-pt",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (pt)",
+      "canonicalRecordId": "batch-release",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-pt",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (pt)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-pt",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (pt)",
+      "canonicalRecordId": "cdmo",
+      "language": "pt",
+      "available": true,
+      "text": "Uma empresa que fabrica medicamentos para outras empresas. A maioria dos ADCs, biológicos e terapias celulares é produzida por um punhado delas."
+    },
+    {
+      "id": "good-manufacturing-practice-pt",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (pt)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-zh",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (zh)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (zh)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-zh",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (zh)",
+      "canonicalRecordId": "batch-release",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-zh",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (zh)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-zh",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (zh)",
+      "canonicalRecordId": "cdmo",
+      "language": "zh",
+      "available": true,
+      "text": "为其他公司生产药物的公司。大多数ADC、生物制剂和细胞治疗产品都由少数几家这样的公司生产。"
+    },
+    {
+      "id": "good-manufacturing-practice-zh",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (zh)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "binder-discovery-simple",
+      "kind": "reader-summary-entry",
+      "name": "Binder discovery (simple)",
+      "canonicalRecordId": "binder-discovery",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "peptide-synthesis-spps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Solid-phase peptide synthesis (simple)",
+      "canonicalRecordId": "peptide-synthesis-spps",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-release-simple",
+      "kind": "reader-summary-entry",
+      "name": "Batch release (lot disposition) (simple)",
+      "canonicalRecordId": "batch-release",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "platform-vs-personalized-components-simple",
+      "kind": "reader-summary-entry",
+      "name": "Platform and personalised components of a product (simple)",
+      "canonicalRecordId": "platform-vs-personalized-components",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cdmo-simple",
+      "kind": "reader-summary-entry",
+      "name": "CDMO (contract development and manufacturing organisation) (simple)",
+      "canonicalRecordId": "cdmo",
+      "language": "simple",
+      "available": true,
+      "text": "A CDMO is a contract company that makes drugs for other companies, and a handful of them produce most antibody-drug conjugates, biologics and cell therapies."
+    },
+    {
+      "id": "good-manufacturing-practice-simple",
+      "kind": "reader-summary-entry",
+      "name": "Good manufacturing practice (GMP) (simple)",
+      "canonicalRecordId": "good-manufacturing-practice",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

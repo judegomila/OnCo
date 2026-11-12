@@ -1,0 +1,78 @@
+{
+  "uniqueDiagrams": 4,
+  "instances": 8,
+  "diagrams": [
+    {
+      "sourceSha256": "1c0df8d02d4a8a21160b3a44657ab45440173192db5572992c6fc304f6f50021",
+      "renderSha256": "586c7b6a585e87e14b8c69235655d14d292b608e08be7d22640a69e4a0593bf5",
+      "instances": [
+        {
+          "file": "7510db6b-abstract-vs-peer-reviewed.md",
+          "ordinal": 0,
+          "diagramId": "diagram-1c0df8d02d4a"
+        },
+        {
+          "file": "c9689645-abstract-vs-peer-reviewed.md",
+          "ordinal": 0,
+          "diagramId": "diagram-1c0df8d02d4a"
+        }
+      ],
+      "read": true,
+      "disposition": "Complete rendered diagram read with its lesson. Connected steps or causal paths carry questions and assumptions, not an automatic validation pipeline."
+    },
+    {
+      "sourceSha256": "7d92852331412d8db3e2be66487b1524df396ebc9c6592b29f3578310a1408a1",
+      "renderSha256": "b14b1b98b86f68d3be03fde459ea0dff32e965ae18624b3130efeded84e08bfb",
+      "instances": [
+        {
+          "file": "7510db6b-case-reports-and-n-of-1.md",
+          "ordinal": 0,
+          "diagramId": "diagram-7d9285233141"
+        },
+        {
+          "file": "c9689645-case-reports-and-n-of-1.md",
+          "ordinal": 0,
+          "diagramId": "diagram-7d9285233141"
+        }
+      ],
+      "read": true,
+      "disposition": "Complete rendered diagram read with its lesson. Connected steps or causal paths carry questions and assumptions, not an automatic validation pipeline."
+    },
+    {
+      "sourceSha256": "a3b9c75962a3f516bfbbc0b8fff62fe561e4531b18848e348c77f2d66eb7e9a7",
+      "renderSha256": "7f760c7b48ecc0b4e1df71e4b3128b85efb2cd93929170d17dede442ceab74c3",
+      "instances": [
+        {
+          "file": "7510db6b-observational-studies-and-confounding.md",
+          "ordinal": 0,
+          "diagramId": "diagram-a3b9c75962a3"
+        },
+        {
+          "file": "c9689645-observational-studies-and-confounding.md",
+          "ordinal": 0,
+          "diagramId": "diagram-a3b9c75962a3"
+        }
+      ],
+      "read": true,
+      "disposition": "Complete rendered diagram read with its lesson. Connected steps or causal paths carry questions and assumptions, not an automatic validation pipeline."
+    },
+    {
+      "sourceSha256": "b6acf3873aea041f9bff99a980943dca24975dc1c22027ef528a82847e0b50ba",
+      "renderSha256": "82dadfb03369d0b4564165f0d0c76b7f7db53ab80586c4c620293df8b92e4f7c",
+      "instances": [
+        {
+          "file": "7510db6b-preclinical-evidence.md",
+          "ordinal": 0,
+          "diagramId": "diagram-b6acf3873aea"
+        },
+        {
+          "file": "c9689645-preclinical-evidence.md",
+          "ordinal": 0,
+          "diagramId": "diagram-b6acf3873aea"
+        }
+      ],
+      "read": true,
+      "disposition": "Complete rendered diagram read with its lesson. Connected steps or causal paths carry questions and assumptions, not an automatic validation pipeline."
+    }
+  ]
+}

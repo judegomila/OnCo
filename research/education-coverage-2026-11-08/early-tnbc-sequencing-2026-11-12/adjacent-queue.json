@@ -1,0 +1,17 @@
+{
+  "newGlobalAdjacentGroups": 0,
+  "retainedExistingGroup": "breast-guide-artwork-issues",
+  "newOpenSourceArtworkFinding": {
+    "id": "early-tnbc-overview-dark-contrast",
+    "requirement": "Check and repair pale surgery and residual-disease nodes with light text in the early-TNBC overview under the source dark Mermaid theme.",
+    "status": "gap",
+    "evidence": [],
+    "remaining": [
+      "ART-01: qualitative pinned-source render finding; no measured contrast or live-site certification. Source artwork was not changed."
+    ]
+  },
+  "unchangedEarlierFindings": true,
+  "frozenLiteratureOccurrencesUnchanged": 917,
+  "newElicitQuestionsOrReports": 0,
+  "contextOnly": "ASCENT-05 protocol-specific receptor thresholds are eligibility context rather than a replacement TNBC definition; existing classification-context design work is not closed."
+}

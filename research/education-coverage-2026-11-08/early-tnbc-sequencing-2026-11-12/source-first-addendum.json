@@ -1,0 +1,26 @@
+{
+  "frozenAtUtc": "2026-11-12T12:11:43.327588+00:00",
+  "priorInventorySha256": "82aa096fd491f6688b608f5bb66ce6dddea0752531ad69658101b162eb846134",
+  "reason": "Exhaustive reader comparison identified that a routing sentence also contains a short definition; retain and verify its teaching rather than discard it as navigation.",
+  "rows": [
+    {
+      "id": "OV-009",
+      "file": "index",
+      "kind": "substantive",
+      "requirement": "Retain the later-only embedded description of surveillance as follow-up after treatment without treating that short gloss as a reviewed clinical surveillance schedule.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/treating-early-tnbc/index.md",
+          "sourceSha256": "11ea7c462b129c7ca781a93b3915dbe69e54df1cd700eaa9e17d0cabaf936732",
+          "heading": "Concepts you will use",
+          "scope": "Short added glossary clause; no schedule, efficacy or follow-up interval asserted."
+        }
+      ],
+      "disposition": "Source-led reconciliation addendum, frozen before fresh inspection of surveillance-owner fields; prior 169-row source-first inventory remains unchanged."
+    }
+  ]
+}

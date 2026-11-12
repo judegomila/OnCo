@@ -1,0 +1,1394 @@
+{
+  "version": "proposal-tissue-pathology-root",
+  "state": "Registered and rendered draft with coordinator source-to-field acceptance at recorded evidence scope; not main or live.",
+  "draft": 375,
+  "captureParentHead": "7d262edc59945e1df237c8f24f26942e020c1642",
+  "companionCommittedHead": null,
+  "records": [
+    {
+      "id": "ihc",
+      "kind": "term",
+      "name": "Immunohistochemistry (IHC)",
+      "aka": [
+        "0/1+",
+        "1+/2+",
+        "2+/3+",
+        "membrane staining",
+        "membranous staining",
+        "staining intensity"
+      ],
+      "tldr": "Staining a tissue slice with antibodies so a protein shows up in colour under the microscope.",
+      "summary": "Immunohistochemistry (IHC) uses antibody binding and signal development to show a selected protein in a prepared tissue section. Interpretation retains which cells and compartments stain, the intensity and distribution, and the named marker-specific method. A percentage, intensity category or composite score can describe different aspects of the result. Fixation, retrieval, controls, sampling and observer variation affect interpretation. Automated quantification also needs validation for its marker, specimens and intended use. A research stain or generic score does not replace a validated clinical selection assay.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Immunohistochemistry",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immunohistochemistry"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+        },
+        {
+          "label": "RCPath breast dataset, Table 8, Allred and H-score conventions",
+          "url": "https://www.rcpath.org/static/d255f34c-176a-490d-9b5a7d58ac85f3a6/b4cf9184-33ff-4662-b33990b3701c3d87/G148-Dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "histopathology-ihc",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "There is no universal IHC scoring scale or positivity threshold. Retain antibody clone, retrieval and detection method, controls, eligible cells, subcellular location, intensity, distribution and intended use. A research stain does not automatically replace a clinical selection assay.",
+        "An H-score under the intensity-weighted convention is weak-cell percentage plus twice moderate-cell percentage plus three times strong-cell percentage, on a 0 to 300 scale. Fictional example: 50 unstained, 10 weak, 20 moderate and 20 strong cells out of 100 give 50% positive and H-score 110. Neither is a molecule count.",
+        "Bulk receptor abundance and staining mainly on blood vessels can both be correct: one measures a mixture and the other locates signal. Neither establishes target accessibility or treatment benefit. Staining also does not establish protein activity or cancer-cell dependence on that protein.",
+        "IHC makes selected proteins visible through antibody binding and signal development in a prepared section. Specificity, retrieval, detection, positive controls, internal controls and background matter. Nuclear and membrane signals answer different questions. Multiplex fluorescence adds markers but still needs validated antibody performance and cell-boundary assignment.",
+        "In the conventional Allred scheme, proportion categories are 0 for no positive cells, 1 for less than 1%, 2 for 1% to 10%, 3 for 11% to 33%, 4 for 34% to 66% and 5 for 67% to 100%. Intensity is 0 for absent staining or 1, 2 and 3 for weak, moderate and strong staining. The total is 0 or 2 to 8. In a fictional separate example, 30% positive cells with moderate staining give 3 + 2 = 5. These integer bins are a named convention, not a universal positivity rule.",
+        "Equal H-scores can conceal different intensity distributions. A negative clinical category does not establish zero protein molecules. HER2 and hormone-receptor assays have marker-specific reporting rules; current CAP breast reporting retains percentage and intensity even when an optional composite score is given.",
+        "A useful IHC result identifies the block, fixation and section, antibody clone, retrieval and detection system, eligible cells and scored compartment. Cutting and staining use finite tissue. Report the percentage, intensity, location and named scoring scale, together with expected-positive tissue, relevant internal controls and background assessment. Poor preservation, nonspecific binding, few eligible cells, heterogeneous staining and observer variation can limit interpretation. Validation must fit the assay and its intended use; a research measurement is not automatically a clinical selection test."
+      ],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "cps",
+      "kind": "term",
+      "name": "Combined positive score (CPS)",
+      "aka": [],
+      "tldr": "CPS is a PD-L1 score based on eligible stained tumour cells and certain immune cells divided by viable tumour cells. Its clinical meaning depends on the assay and treatment setting.",
+      "summary": "The combined positive score (CPS) counts eligible PD-L1-stained tumour cells, lymphocytes and macrophages, divides by all viable tumour cells and multiplies by 100. The cited 22C3 TNBC method caps the reported whole-number score at 100. In unresectable locally advanced or metastatic TNBC, CPS at least 10 is part of the selection criteria for specified pembrolizumab combinations; the score alone does not establish eligibility. TPS counts qualifying tumour cells alone, while the SP142 immune-cell score uses an area denominator. Thresholds and eligible-cell rules must stay with the relevant assay, cancer and regimen.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/PD-L1",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/PD-L1"
+        },
+        {
+          "label": "Agilent US TNBC quick scoring guide",
+          "url": "https://www.agilent.com/cs/library/flyers/public/29390-d62312-pd-l1-22c3-tnbc-qsg-us.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "pd-l1-cps"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "pdl1"
+      ],
+      "drugs": [
+        "pembrolizumab"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "keynote-355"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For 22C3 TNBC CPS, the denominator is all viable invasive tumour cells, while eligible stained tumour cells, lymphocytes and macrophages enter the numerator. Raw arithmetic can exceed 100, but the reported whole-number CPS is capped at 100. A CPS of 100 does not mean all tumour cells stain. Retain the assay and clinical setting."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "tils",
+      "kind": "term",
+      "name": "Tumour-infiltrating lymphocytes (TILs)",
+      "aka": [
+        "tumor-infiltrating lymphocytes",
+        "tumour-infiltrating lymphocyte"
+      ],
+      "tldr": "Tumour-infiltrating lymphocytes are lymphocytes found in tumour tissue. Their identity, location, measurement denominator and function answer different questions.",
+      "summary": "Tumour-infiltrating lymphocytes (TILs) are lymphocytes found in sampled tumour tissue, including T- and B-cell populations. The breast stromal TIL method estimates the area occupied by a defined mononuclear inflammatory infiltrate within eligible tumour-associated stroma on H&E sections. Higher pretreatment scores were associated with better outcomes in the cited early triple-negative breast cancer cohorts, but those associations do not guarantee an individual outcome or establish extra benefit from pembrolizumab. Intratumoral location, stromal area, immune-cell counts and cells expanded for TIL therapy are different measurements or uses.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes"
+        },
+        {
+          "label": "International TILs Working Group breast assessment recommendations",
+          "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/11/Salgado-et-al.-Annals-of-Oncology-2015.pdf"
+        },
+        {
+          "label": "Loi et al., pooled early TNBC prognostic analysis, 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30650045/"
+        },
+        {
+          "label": "Denkert et al., neoadjuvant TIL response analysis, 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29233559/"
+        },
+        {
+          "label": "Working Group residual-disease assessment recommendations",
+          "url": "https://tilsinbreastcancer.org/wp-content/uploads/2017/10/Suppl-File-3-Recommendations-for-assessing-tumor-infiltrating-lymphocytes-TILs-in-RD.pdf"
+        },
+        {
+          "label": "Bystander CD8&lt;sup&gt;+&lt;/sup&gt; T cells are abundant and phenotypically distinct in human tumour infiltrates.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/"
+        },
+        {
+          "label": "The evaluation of tumor-infiltrating lymphocytes (TILs) in breast cancer: recommendations by an International TILs Working Group 2014.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25214542/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tumor-stroma-ratio",
+        "cold-vs-hot",
+        "cd4-t-cell-subsets"
+      ],
+      "cancers": [
+        "tnbc"
+      ],
+      "sections": [],
+      "technologies": [
+        "til-therapy",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The breast stromal TIL method estimates the area occupied by mononuclear inflammatory cells, including lymphocytes and plasma cells, as a percentage of eligible tumour-associated stroma. It is not the percentage of all cells, a CD8-cell count or the fraction of cancer cells being killed.",
+        "Define the eligible region and treatment setting before estimating the percentage. Use the specified exclusions for normal structures, in-situ disease, necrosis, crush damage and biopsy-site changes, and assess the region overall rather than only its hottest spot. A prognostic association does not establish added benefit from a particular treatment.",
+        "In the pooled analysis of 2,148 early-stage TNBC patients given anthracycline-based chemotherapy with or without taxanes, each 10 percentage-point increase in pretreatment stromal TILs corresponded to an adjusted invasive disease-free survival hazard ratio of 0.87 (95% confidence interval 0.83 to 0.91) and overall survival hazard ratio of 0.84 (0.79 to 0.89). These associations do not establish an added pembrolizumab benefit by TIL level.",
+        "Among 906 TNBC patients from six neoadjuvant chemotherapy trials, pathological complete response occurred in 80 of 260 with low TILs (0% to 10%), 117 of 373 with intermediate TILs (11% to 59%) and 136 of 273 with high TILs (at least 60%): about 31%, 31% and 50%. These categories describe that analysis and are not universal treatment cutoffs.",
+        "Fictional area exercise: region A has 4 units of eligible stroma with 0.4 occupied by infiltrate; region B has 1 unit with 0.6 occupied. Pooled occupied area is (0.4 + 0.6)/(4 + 1) = 20%. Averaging the regional percentages without area weighting gives (10% + 60%)/2 = 35%. This arithmetic illustrates the denominator; it does not prescribe a pixel workflow for clinical semiquantitative scoring.",
+        "A fictional sTIL estimate of 30% means that the defined mononuclear infiltrate occupies about 30% of eligible stromal area. It does not mean 30% of all cells are lymphocytes or CD8 cells, or that 30% of cancer cells are being killed. Intratumoral TILs, positive-nucleus fractions, cells per square millimetre and bulk immune RNA measure different things. Additional stains change the measurement rather than silently changing its denominator.",
+        "Residual-disease recommendations assess the residual tumour bed rather than simply reusing untreated invasive borders. Keep specimen type, site, treatment setting and observer calibration. A high score does not prove tumour-specific recognition, entry into every malignant nest or a permanent hot-tumour state.",
+        "To interpret a stromal TIL estimate, retain the block, sampled site, specimen type and treatment setting, then define the eligible stromal region and its exclusions. The output is a continuous estimated percentage of that area occupied by the specified infiltrate. State whether a trained observer or a computational method produced it, with calibration and regional sampling where relevant. Artifacts, sparse stroma, heterogeneity, observer variation and an unrepresentative sample can limit the result. The section uses finite tissue, and measurement reproducibility is a separate question from validation for clinical treatment selection.",
+        "TIL is a location label, CD8 is a phenotype and antigen specificity is another property. Simoni found bystander CD8 cells recognizing viral rather than cancer epitopes in human lung and colorectal tumours; the study’s CD39 associations are not a universal test of every cell’s target. A functional assay compares defined effectors and targets with recognition and target-survival controls. Neither presence, cytokine release nor one killing assay reproduces every access barrier or establishes clinical benefit.",
+        "The Loi analysis pooled nine studies. In its node-negative subgroup with at least 30% stromal TILs, three-year overall survival was 99% (95% CI 97% to 100%) after the specified adjuvant chemotherapy. Denkert’s pooled neoadjuvant population contained 3,771 patients overall, including the 906 TNBC patients described above. These population and subgroup findings do not make the study categories universal beneficial-TIL thresholds or establish additional pembrolizumab benefit by score.",
+        "In a fictional section, 0.4 square millimetres of mononuclear infiltrate within 2 square millimetres of eligible stroma gives 20% by area. Separately, 30 CD8 cells among 100 counted lymphocytes gives 30% of those counted lymphocytes. Neither is the fraction of all tumour cells, a measure of cancer specificity or evidence of useful killing. One occupied unit among five equal eligible stromal-area units also gives 20%; the drawing illustrates a denominator rather than prescribing pixel counting for semiquantitative breast scoring.",
+        "Fixed sections and morphology or selected stains can measure identity, compartment and abundance; viable-cell assays ask about phenotype and function. Dissociation loses native location, culture can select populations and tests consume finite material. Keep cells per square millimetre, specified cell fractions, stromal-area percentages and assay-specific function distinct. TIL therapy is a manufactured expanded-cell product: a tissue count does not establish product yield, composition, potency or treatment success. Sampling, damage, mixed compartments, unsuitable markers and culture selection are different failure modes, and descriptive pathology, research function and clinical treatment selection require different validation."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "core-needle-biopsy",
+      "kind": "term",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA)",
+      "aka": [
+        "core biopsy",
+        "core needle biopsy",
+        "fine-needle aspiration",
+        "fine needle aspiration",
+        "FNA",
+        "image-guided biopsy",
+        "CT-guided biopsy",
+        "re-biopsy",
+        "bone marrow biopsy",
+        "bone marrow aspirate",
+        "targeted biopsy"
+      ],
+      "tldr": "Core biopsy collects small cylinders of tissue; fine-needle aspiration collects cells or fluid. Both sample a site, and adequacy depends on the diagnostic question and intended tests.",
+      "summary": "A core needle collects cylinders that preserve local tissue architecture from selected positions. Fine-needle aspiration collects cells, fluid and sometimes clusters or tissue fragments for cytology; a cell block can support additional tests without reconstructing the original full spatial map. Either method can yield diagnostically useful material, but sample adequacy, preservation and represented cells must fit the question. A readable sample may still miss the target, and enough material for diagnosis does not guarantee enough suitable material for every molecular assay.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Needle_aspiration_biopsy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Needle_aspiration_biopsy"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        },
+        {
+          "label": "Basik et al., NRG-BR005, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/"
+        },
+        {
+          "label": "Chen et al., institutional breast FNA series, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35869577/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "histology",
+        "flow-cytometry",
+        "cfdna",
+        "biopsy-after-neoadjuvant-therapy",
+        "surgical-resection-specimen"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [
+        "histopathology-ihc",
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A readable core and a representative core are separate requirements. Radiology-pathology concordance asks whether the sampled tissue explains the imaging target. A preserved core of benign fat does not establish that a suspicious target is benign if the target was missed.",
+        "A core preserves local cell relationships within the sampled piece. Aspiration may recover single cells, clusters, fluid and fragments; a cell block can support additional tests but cannot reconstruct their original spatial map. Adequacy for diagnosis does not guarantee adequacy for every ancillary assay.",
+        "For each sample, retain site, collection time, prior treatment, image target, preservation, represented cells, intended assay and remaining material. Core length or count alone does not establish tumour content, whole-lesion representation or surgical margins.",
+        "A hollow cutting needle removes a narrow tissue cylinder from an image-defined target. The preserved arrangement can show an interface where it is actually present, like a plug through cake layers. Tissue is irregular and handling can damage it. A long core of scar or normal tissue does not establish tumour content.",
+        "NRG-BR005 found only half of surgically confirmed residual cancers using its post-neoadjuvant multiple-core procedure in 101 evaluable women. This is a selected breast protocol result, not a universal sensitivity for core biopsy in every organ or setting.",
+        "Core sampling starts by locating a target, collecting cylinders from the documented site, preserving them and examining sections. Diagnosis, represented architecture and any subsequent biomarker results describe those samples; core count is an inventory measure. Sectioning and extraction use finite material, and each additional assay needs a suitable validated input. A missed target, too few relevant cells, damaged cores, necrosis or incompatible preservation may defeat the intended question. Adequacy has no universal core-count threshold, and a core cannot establish whole-lesion composition, complete surgical margins or future treatment benefit.",
+        "Aspiration uses a thin needle to recover cells or fluid, including clusters and small fragments. Cytology examines shapes, nuclei and groupings. Material may be spread on slides or processed into a cell block for sections and ancillary tests when suitable. A cell block does not reconstruct the lesion-wide spatial map.",
+        "An inadequate aspirate and a negative adequate aspirate are different results. Rapid assessment can help collection but does not guarantee all later assays. A sampled node does not map every node. A fictional aspirate containing malignant breast cells supports a malignancy interpretation in context, but does not establish the full boundary or extent of invasion. Less architecture does not erase useful diagnostic information.",
+        "The cited Chen study retrospectively assessed breast aspirations from one academic hospital. Its reported performance and limited cell-block receptor comparisons do not supply universal sensitivity for every organ, team or ancillary assay.",
+        "Fine-needle aspiration collects cells or fluid from a documented site for slides or a cell block and cytologic interpretation. The report gives a diagnostic category, adequacy and any assay-specific measurements. Preparation and ancillary tests consume the finite recovered material. Cellularity and suitability depend on the organ, laboratory and intended test; too few relevant cells, blood dilution, poor preservation or a missed target can limit the result. Clinical cytology and each ancillary assay need appropriate preparation and validation. Neither the aspirate nor a research performance estimate maps unsampled tissue boundaries, the entire lesion or every lymph node."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "tumour-purity",
+      "kind": "term",
+      "name": "Tumour purity",
+      "aka": [
+        "tumour purity",
+        "tumor purity",
+        "tumour cellularity",
+        "tumor cellularity",
+        "purity estimate"
+      ],
+      "tldr": "Tumour purity is the fraction of cells in a sample that are actually cancer cells rather than normal, immune or stromal cells.",
+      "summary": "Aran, Sirota and Butte's pan-cancer analysis of TCGA estimated the proportion of cancer cells in each sample by several methods (pathologist counts, copy number, expression and methylation based estimators) and showed purity varies widely between and within cancer types and confounds molecular comparisons. Bulk sequencing measures the whole mixture, so a low-purity sample can look like a different tumour; models trained on bulk data inherit this.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Aran, Sirota and Butte, Systematic pan-cancer analysis of tumour purity (Nature Communications 2015)",
+          "url": "https://doi.org/10.1038/ncomms9971"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20837533/"
+        },
+        {
+          "label": "Carter et al., ABSOLUTE, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+        },
+        {
+          "label": "Smits et al., pathologist estimation variability, 2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23887293/"
+        },
+        {
+          "label": "Bielski et al., advanced cancer genome doubling, 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30013179/"
+        },
+        {
+          "label": "Popova et al., ploidy-specific large-scale transitions, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/"
+        },
+        {
+          "label": "Telli et al., HRD score in platinum TNBC cohorts, 2016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26957554/"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cell-composition-confound",
+        "desmoplasia"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Purity estimates and ploidy fits belong to the tested region and method. A pathology estimate of malignant-cell proportion and a sequencing model fit can disagree. Ploidy is a genome-wide average; local copy number can differ. Several purity-ploidy combinations may explain similar data.",
+        "Idealised arithmetic assumes diploid normal cells, diploid cancer cells and one mutant copy in every cancer cell: at purity 80%, 50% and 20%, expected variant allele fractions are 40%, 25% and 10%. A one-copy cancer-cell deletion yields mixed average copy numbers 1.2, 1.5 and 1.8 respectively. Copy changes and subclones alter these relationships.",
+        "Purity describes the malignant-cell share of the sampled cell mixture; a DNA-based estimate must account for how many genome copies the cells contribute. Ploidy is the average cancer-cell genome copy number. The marble-mixture analogy stops where local copy number and subclonal differences make each cell contribution unequal.",
+        "ASCAT reported aneuploidy above 2.7 genome copies in 45% of its early breast cancer series and near-triploid basal-like genomes consistent with loss followed by duplication. A separate advanced-cancer study identified whole-genome doubling in nearly 30% of 9,692 patients. These populations are different. A region with three copies can be a relative loss against a four-copy baseline, while exceeding a normal diploid count.",
+        "Nine pathologists estimated tumour-cell content on 47 lung tumour slides; 33% of estimates differed from manually counted content by at least three categories, mostly 10 percentage-points wide. ASCAT and ABSOLUTE jointly infer purity and ploidy from allelic copy number and related signals. Several fits, subclonal changes and low tumour content can complicate interpretation; a model fit is not a direct count.",
+        "Copy-number-based genomic scars depend on segmentation and interpretation of purity and ploidy. Popova used ploidy-specific large-scale transition cutoffs in basal-like breast cancers. Telli evaluated a combined loss-of-heterozygosity, telomeric-imbalance and large-scale-transition score of at least 42 or BRCA1/2 mutation in three platinum-containing neoadjuvant TNBC trials. This does not create a universal HRD threshold or prove current repair function or treatment benefit from a fit alone.",
+        "Fictional near-diploid example: 18% variant allele fraction is compatible with one mutant copy in every malignant cell at 36% purity, assuming diploid normal cells and no local copy change. It does not prove clonality. At 90% purity, the same VAF would need a different explanation such as subclonality or copy-number context. A negative low-purity result can reflect limited detection, not biological absence.",
+        "Sequencing purity belongs to the region used for extraction. Tumour-bed cellularity is an area-based residual cancer burden input, while plasma tumour fraction concerns circulating DNA. Sparse residual malignant cells can make post-treatment sequencing difficult; retain the tested block and laboratory-specific detection limits.",
+        "A pathology estimate uses the represented slide region, while a computational purity/ploidy estimate fits sequencing copy-number and allele-fraction data. Fitting those existing data uses no additional tissue. Report purity as a fraction or percentage and ploidy as average cancer-genome copies, such as 2.1 or 3.8, with the region, method and model assumptions.",
+        "Laboratories set minimum tumour content for the particular assay. Too few tumour cells, contamination, subclonal copy changes or several similarly good model fits can make the estimate uncertain. Purity and ploidy do not identify which mutations drive the cancer or which treatment will work.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/tumour-purity."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Pathology",
+      "wikipediaChecked": "2026-09-25"
+    },
+    {
+      "id": "h-and-e-staining",
+      "kind": "term",
+      "name": "H&E staining (haematoxylin and eosin)",
+      "aka": [
+        "H&E staining",
+        "H&E stain",
+        "H&E slide",
+        "H&E slides",
+        "haematoxylin and eosin",
+        "hematoxylin and eosin",
+        "H&E section"
+      ],
+      "tldr": "H&E is the purple and pink stain on almost every pathology slide: haematoxylin colours cell nuclei blue-purple and eosin colours the cytoplasm and connective tissue pink.",
+      "summary": "Haematoxylin and eosin (H&E) stain makes cell appearance and tissue organisation visible in a prepared section. Haematoxylin colours nuclei blue-purple, while eosin colours cytoplasm and supporting tissue pink. Pathologists integrate nuclei, cell groups, boundaries and architecture with the specimen context. Image-analysis models can predict features from these appearances, but a molecular prediction is not a direct measurement of the named gene or protein. The section represents one sampled region and depth, rather than the entire tumour or body.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/H%26E_stain",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/H%26E_stain"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+        },
+        {
+          "label": "Fischer et al., H&E protocol, 2008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21356829/"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "tumor-stroma-ratio",
+        "surgical-resection-specimen",
+        "myoepithelial-cells-and-basement-membrane",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "histopathology-ihc",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "digital-pathology-wsi",
+        "tile-patch-encoding"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Haematoxylin highlights nuclei and other nucleic-acid-rich structures; eosin broadly stains cytoplasm and extracellular material. These colours show morphology and architecture rather than a named DNA sequence or protein. Molecular predictions from H&E require their own validation.",
+        "A section represents one depth and region. Record block, section, preservation and artifacts; a nearby section may contain a different cell mixture. Fictional example: pink material around tumour nests does not prove receptor R expression. A specific validated assay would be needed to identify that receptor.",
+        "Morphology includes nuclei, cell groupings, spaces, tissue boundaries and necrosis. Appearance alone does not identify every cell-death mechanism. A represented duct interface may help distinguish in-situ from invasive growth; difficult cases can require additional stains and clinical context. Grade describes selected appearance features; stage describes disease extent.",
+        "Like a map of buildings, H&E shows arrangement rather than every activity inside each cell. A large nucleus or a single coloured pixel cannot establish the whole diagnosis. H&E supplies the sample context for molecular testing, including scar, necrosis or an unexpected mixture of cells.",
+        "H&E examination starts with a prepared tissue section, staining, inspection and integration with relevant clinical information. Cutting the section uses finite material. The output describes cell appearance and organisation, with counts or distances only when a specified method calls for them. Criteria depend on the feature and tissue; no universal colour cutoff defines cancer. Poor fixation, folds, tears, staining variation or a missing relevant interface can limit interpretation. Clinical morphology, a research image classifier and an unvalidated molecular prediction have different evidence requirements; the slide does not directly quantify a named protein or gene or reveal tissue outside the section.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/h-and-e-staining."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Pathology"
+    },
+    {
+      "id": "digital-pathology-wsi",
+      "kind": "term",
+      "name": "Digital pathology and whole-slide images (WSI)",
+      "aka": [
+        "digital pathology",
+        "whole-slide image",
+        "whole-slide images",
+        "whole slide image",
+        "WSI",
+        "gigapixel slide",
+        "gigapixel slides",
+        ".svs file",
+        "slide scanner image"
+      ],
+      "tldr": "Digital pathology scans glass slides into gigapixel images that can be viewed, shared and analysed by software, which is what makes AI on pathology possible.",
+      "summary": "Digital pathology manages and analyses information from digitised specimen slides, using virtual microscopy to view, share and analyse slides on screens, with applications in diagnosis and AI (Wikipedia). A whole-slide image is typically 100,000 pixels across at 40x, stored as a pyramid in vendor formats such as Aperio .svs; OpenSlide reads them vendor-neutrally. Slides are far too large for a neural network at once, so they are cut into tiles, encoded and pooled.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Digital_pathology",
+      "links": [
+        {
+          "label": "Goode et al., OpenSlide: a vendor-neutral software foundation for digital pathology (J Pathol Inform 2013)",
+          "url": "https://doi.org/10.4103/2153-3539.119005"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Digital_pathology"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.fda.gov/medical-devices/medical-device-regulatory-science-research-programs-conducted-osel/digital-pathology-program-research-digital-pathology-medical-devices"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "whole-slide-scanners",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "h-and-e-staining",
+        "tile-patch-encoding",
+        "magnification"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A whole-slide image represents the scanned section, not every depth of the block. Keep image acquisition, computational estimation and clinical interpretation separate. A model that predicts RNA from morphology has not directly measured RNA. Scanner validation does not validate every downstream model.",
+        "For interpretation, retain slide identity, stain, scanner, focus and tissue coverage, image resolution, analysis version, defined output and intended-use validation. Folds, missed tissue, stain variation and incorrect segmentation can affect results. Reusing pixels requires no new section but cannot recover unscanned tissue.",
+        "A quality-checked scan preserves visible information in the captured section. Segmentation assigns boundaries; counts, areas and model scores depend on the defined analysis. A heat map or precise decimal is a method output, not proof of its biological meaning. Independent validation must fit the intended stains, scanners and population.",
+        "Fictional example: research software labels an H&E region as having high predicted RNA signal. This is a prediction from appearance, not a direct RNA assay. Good image quality does not supply the missing molecular measurement. The image, analytical method and intended-use evidence are separate layers.",
+        "A whole-slide workflow scans a prepared slide, checks image quality, displays it for interpretation or applies a defined analysis. Scanning generally needs no additional section. Optics, focus, colour capture, file handling, display and viewer all affect the workflow. Report image resolution and, for analysis, the defined counts, areas or model-score units; the scanner, task and intended use determine quality criteria and cutoffs.",
+        "Missed tissue, poor focus, folds, stain variation, compression and incorrect cell boundaries can limit the image or its analysis. A validated diagnostic viewing workflow does not validate every computational claim. Neither a scan nor a model score supplies unscanned tissue, directly measured molecular expression or proof of treatment benefit.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/wsi-histopathology."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Pathology"
+    },
+    {
+      "id": "pd-l1-cps",
+      "kind": "biomarker",
+      "name": "PD-L1 CPS (combined positive score)",
+      "aka": [
+        "PD-L1 CPS",
+        "CPS",
+        "combined positive score",
+        "PD-L1 combined positive score",
+        "CPS >= 1",
+        "CPS >= 10",
+        "PD-L1 CPS 1",
+        "PD-L1 CPS 10",
+        "CPS≥1",
+        "CPS≥10"
+      ],
+      "tldr": "CPS counts eligible PD-L1-stained tumour cells, lymphocytes and macrophages per viable tumour cell. The reported score is capped at 100; assay and treatment setting determine its use.",
+      "summary": "The combined positive score (CPS) is 100 times the number of eligible PD-L1-staining tumour cells, lymphocytes and macrophages divided by all viable tumour cells. Under the cited 22C3 TNBC method it is reported as a whole number capped at 100, even if the raw arithmetic is larger. CPS is not the percentage of tumour cells staining and is not interchangeable with tumour proportion score (TPS) or the SP142 immune-cell area score. Clinical use depends on the named assay, cancer, disease setting and treatment regimen. In advanced TNBC, the specified pembrolizumab combinations use CPS at least 10; the high-risk early-TNBC perioperative regimen has a different selection context.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "KEYTRUDA prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        },
+        {
+          "label": "OPDIVO prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394"
+        },
+        {
+          "label": "FDA: List of FDA-Authorized Companion Diagnostic Devices",
+          "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.agilent.com/cs/library/flyers/public/29390-d62312-pd-l1-22c3-tnbc-qsg-us.pdf"
+        },
+        {
+          "label": "FDA pembrolizumab label, TNBC sections 1.20 and 14.20",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+        },
+        {
+          "label": "Cortes et al., KEYNOTE-355 overall survival, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/"
+        },
+        {
+          "label": "Rugo et al., PD-L1 assay comparison, 2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34097070/"
+        },
+        {
+          "label": "Reisenbichler et al., observer agreement, 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32300181/"
+        },
+        {
+          "label": "Roche US TNBC withdrawal announcement, 2021",
+          "url": "https://www.roche.com/media/releases/med-cor-2021-08-27.html"
+        },
+        {
+          "label": "Taube et al., adaptive resistance in melanocytic lesions, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22461641/"
+        },
+        {
+          "label": "FDA: first-line sacituzumab govitecan alone and with pembrolizumab in advanced TNBC (24 June 2026)",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-sacituzumab-govitecan-hziy-monotherapy-and-combination-pembrolizumab-first-line"
+        }
+      ],
+      "tags": [
+        "biomarker",
+        "pd-l1"
+      ],
+      "related": [
+        "pd-l1-tps",
+        "pd-l1-ic-score",
+        "pd-l1-tc-score"
+      ],
+      "cancers": [
+        "head-and-neck",
+        "gastric",
+        "gastric-her2-positive",
+        "gastric-pdl1-high",
+        "esophageal",
+        "oesophageal-squamous-cell-carcinoma",
+        "cervical",
+        "tnbc",
+        "tnbc-metastatic",
+        "ovarian",
+        "platinum-resistant-ovarian-cancer",
+        "gallbladder"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "pembrolizumab",
+        "nivolumab",
+        "sacituzumab-govitecan",
+        "dako-pd-l1-22c3-pharmdx"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cps",
+        "pd-l1-testing",
+        "ihc"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-keynote-355-nejm-2022",
+        "paper-keynote-355-lancet-2020",
+        "paper-sigurjonsdottir-sp142-22c3-tnbc-bcr-2023",
+        "paper-rugo-pd-l1-assay-comparison-impassion130-jnci-2021",
+        "paper-albrecht-pdl1-western-gallbladder-cancers-2021"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For the 22C3 TNBC method, count eligible stained viable invasive tumour cells and tumour-associated lymphocytes and macrophages. Divide by all viable invasive tumour cells, including unstained cells, then multiply by 100. Report a whole-number CPS capped at 100, even when raw arithmetic exceeds 100.",
+        "Tumour cells require qualifying partial or complete membrane staining. Eligible lymphocytes and macrophages may have membrane or cytoplasmic staining in tumour nests or directly associated stroma. Exclude immune cells from the denominator; do not count every stained cell on the slide. Controls and at least 100 viable tumour cells are required.",
+        "Fictional eligible counts: 200 viable tumour cells, 20 staining tumour cells, 40 staining lymphocytes and 20 staining macrophages give CPS 40. Tumour-cell-only arithmetic gives 10%, under its own assay rules. CPS, TPS and IC use different numerators or denominators and cannot share cutoffs automatically.",
+        "TPS counts viable tumour cells with qualifying partial or complete membrane staining as a percentage of viable tumour cells. Immune cells do not enter its numerator. SP142 IC scoring measures the fraction of tumour area occupied by stained tumour-infiltrating immune cells, excluding tumour-cell staining. CPS, TPS and IC thresholds cannot be transferred between methods.",
+        "For 22C3 TNBC CPS, exclude nonviable cells, neutrophils, eosinophils, plasma cells, benign epithelial cells and stromal cells. Immune cells associated only with benign structures or in-situ disease do not qualify. A CPS of 100 does not imply that all tumour cells stain.",
+        "KEYNOTE-355 randomised 847 patients with previously untreated locally recurrent inoperable or metastatic TNBC regardless of PD-L1 status. In the CPS at least 10 subgroup, median overall survival was 23.0 months with pembrolizumab plus chemotherapy and 16.1 months with placebo plus chemotherapy; hazard ratio 0.73 (95% confidence interval 0.55 to 0.95). The CPS at least 1 comparison was not significant: hazard ratio 0.86 (0.72 to 1.04). These subgroup findings concern the tested combination and population, not pembrolizumab alone.",
+        "The US pembrolizumab label uses CPS at least 10 for locally recurrent unresectable or metastatic TNBC with chemotherapy and for first-line unresectable locally advanced or metastatic TNBC with sacituzumab govitecan. High-risk early TNBC uses pembrolizumab with chemotherapy before surgery, continued alone afterward, without a PD-L1 selection requirement. The FDA approved the sacituzumab combination in June 2026. A score does not determine individual eligibility or guarantee benefit.",
+        "IMpassion130 used SP142 IC at least 1% for the PD-L1-positive subgroup in advanced TNBC treated with atezolizumab plus nab-paclitaxel. Roche announced voluntary withdrawal of the US TNBC indication in August 2021. This historical regimen and cutoff are not a current US treatment indication.",
+        "In the 614-sample IMpassion130 comparison, IC at least 1% positivity was 46.4% for SP142, 74.9% for SP263 and 73.1% for 22C3. Almost all SP142-positive samples were positive by the other assays, but the reverse was not true. This was an IC comparison across assays, not evidence that 22C3 CPS and IC are interchangeable.",
+        "In a multi-institutional study, 19 pathologists assessed TNBC sections: average positivity at IC at least 1% was 58% with SP142 and 78% with SP263. Complete two-category agreement occurred in 38% and 50% of cases respectively. These study-specific results show observer variation; they do not supply a correction factor for an individual report.",
+        "A primary study of human melanocytic lesions found colocalisation of PD-L1 expression with inflammatory infiltrates and implicated interferon gamma in adaptive immune resistance. This supports a mechanism, not a universal rule that every lymphocyte-rich breast tumour has high PD-L1. Staining alone does not establish a complete immune state.",
+        "For a specified PD-L1 workflow, prepare the tissue section, stain it with acceptable controls, assess adequacy, identify the eligible cells and then apply the scoring algorithm. Further sections consume finite tissue. Record the antibody clone, platform, specimen, scoring method and intended clinical use. The cited TNBC 22C3 guide requires at least 100 viable tumour cells; that requirement belongs to the named assay, rather than to every PD-L1 method.",
+        "Report CPS as a capped score, TPS as a tumour-cell percentage, or IC as the percentage of tumour area occupied by stained immune cells. Each algorithm has its own eligibility and threshold rules. Too few eligible cells, failed controls, incorrect cell attribution, necrosis and heterogeneous sampling can invalidate or limit a result. None of these scores alone describes the complete immune state, guarantees individual benefit or establishes eligibility in a different cancer or treatment setting.",
+        "The detailed eligible-cell rules here follow Agilent's November 2020 TNBC quick guide. Its original PDF was unavailable at this check; a preserved primary-source extract supplies that historical method definition. Current treatment selection also requires the applicable current drug label and assay documentation.",
+        "Triple-negative breast cancer: the pembrolizumab threshold is 22C3 CPS 10 or more, the KEYNOTE-355 subgroup whose overall survival was 23.0 versus 16.1 months (hazard ratio 0.73); CPS 1 or more did not reach significance (Cortes 2022). CPS 10 or more was 27.2% of 232 unselected early TNBCs and CPS 1 or more 53.9% (Sigurjonsdottir 2023); 80.9% of IMpassion130 samples were CPS 1 or more (Rugo 2021). The same threshold now gates sacituzumab govitecan plus pembrolizumab (ASCENT-04). CPS 10 and SP142 IC 1% agree weakly (kappa 0.48) and are not interchangeable.",
+        "Gallbladder cancer: combined positive score was reported alongside TPS in 131 Western cases (Albrecht 2021); TOPAZ-1 and KEYNOTE-966 enrolled biliary patients regardless of PD-L1, so no CPS threshold applies to durvalumab or pembrolizumab in this cancer."
+      ],
+      "target": "pdl1",
+      "measurement": "combined-positive-score",
+      "scoringRule": {
+        "text": "Count PD-L1-positive tumour cells, lymphocytes and macrophages; divide by the number of viable tumour cells; multiply by 100. A specimen must hold at least 100 viable tumour cells to be scored.",
+        "quote": "PD-L1 protein expression [Combined Positive Score (CPS) ≥ 1]",
+        "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools",
+        "sourceLabel": "FDA: List of FDA-Authorized Companion Diagnostic Devices"
+      },
+      "thresholds": [
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "head-and-neck",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "as a single agent for the first-line treatment of patients with metastatic or with unresectable, recurrent HNSCC whose tumors express PD-L1 [Combined Positive Score (CPS) ≥1] as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "gastric",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-negative gastric or gastroesophageal junction (GEJ) adenocarcinoma whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "gastric-her2-positive",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with trastuzumab, fluoropyrimidine- and platinum-containing chemotherapy, for the first-line treatment of adults with locally advanced unresectable or metastatic HER2-positive gastric or gastroesophageal junction (GEJ) adenocarcinoma whose tumors express PD-L1 (CPS ≥1)",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1 (with chemotherapy); CPS >= 10 (single agent, squamous, after prior therapy)",
+          "drugId": "pembrolizumab",
+          "cancerId": "esophageal",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with platinum- and fluoropyrimidine-based chemotherapy for patients whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test, or as a single agent after one or more prior lines of systemic therapy for patients with tumors of squamous cell histology that express PD-L1 (CPS ≥10)",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "cervical",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with chemotherapy, with or without bevacizumab, for the treatment of patients with persistent, recurrent, or metastatic cervical cancer whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 10",
+          "drugId": "pembrolizumab",
+          "cancerId": "tnbc-metastatic",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with chemotherapy, for the treatment of patients with locally recurrent unresectable or metastatic TNBC whose tumors express PD-L1 (CPS ≥10) as determined by an FDA-authorized test",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 10",
+          "drugId": "sacituzumab-govitecan",
+          "cancerId": "tnbc-metastatic",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with sacituzumab govitecan-hziy, for the first-line treatment of adult patients with unresectable locally advanced or metastatic TNBC whose tumors express PD-L1 (CPS ≥10) as determined by an FDA-authorized test.",
+          "status": "current"
+        },
+        {
+          "value": "CPS >= 1",
+          "drugId": "pembrolizumab",
+          "cancerId": "platinum-resistant-ovarian-cancer",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+          "quote": "in combination with paclitaxel, with or without bevacizumab, for the treatment of adult patients with platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma whose tumors express PD-L1 (CPS ≥1) as determined by an FDA-authorized test",
+          "status": "current"
+        },
+        {
+          "value": "PD-L1 >= 1 (28-8 pharmDx)",
+          "drugId": "nivolumab",
+          "cancerId": "gastric",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "quote": "OPDIVO, in combination with fluoropyrimidine- and platinum-containing chemotherapy, is indicated for the treatment of adult patients with advanced or metastatic gastric cancer, gastroesophageal junction cancer, and esophageal adenocarcinoma whose tumors express PD-L1 (≥1)",
+          "status": "current"
+        },
+        {
+          "value": "PD-L1 >= 1 (28-8 pharmDx)",
+          "drugId": "nivolumab",
+          "cancerId": "oesophageal-squamous-cell-carcinoma",
+          "regulator": "FDA",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394",
+          "quote": "OPDIVO, in combination with ipilimumab, is indicated for the first-line treatment of adult patients with unresectable advanced or metastatic esophageal squamous cell carcinoma (ESCC) whose tumors express PD-L1 (≥1)",
+          "status": "current"
+        }
+      ],
+      "tests": [
+        "omniseq-insight",
+        "caris-mi-profile"
+      ],
+      "assays": [
+        "pdl1-22c3",
+        "pdl1-28-8"
+      ],
+      "companionDiagnostics": [
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Head and Neck Squamous Cell Carcinoma (HNSCC) - Tissue",
+          "pma": "P150013/S014 (06/10/2019)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma - Tissue",
+          "pma": "P150013/S027 (11/07/2023)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Esophageal or Gastroesophageal Junction (GEJ) Carcinoma - Tissue",
+          "pma": "P150013/S032 (02/11/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Cervical Cancer - Tissue",
+          "pma": "P150013/S009 (06/12/2018)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Triple-Negative Breast Cancer (TNBC) - Tissue",
+          "pma": "P150013/S020 (11/13/2020)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 22C3 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "dako-pd-l1-22c3-pharmdx",
+          "drugs": [
+            "pembrolizumab"
+          ],
+          "indication": "Epithelial Ovarian, Fallopian Tube Cancer, or Primary Peritoneal Carcinoma (EOC) - Tissue",
+          "pma": "P150013/S033 (02/10/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        },
+        {
+          "device": "PD-L1 IHC 28-8 pharmDx",
+          "maker": "Agilent Technologies (Dako)",
+          "companyId": "agilent",
+          "deviceId": "pd-l1-ihc-28-8-pharmdx",
+          "drugs": [
+            "nivolumab"
+          ],
+          "indication": "Esophageal squamous cell carcinoma (ESCC), and gastric, gastroesophageal junction (GEJ), and esophageal adenocarcinoma - Tissue",
+          "pma": "P150025/S018 (07/01/2026)",
+          "source": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+        }
+      ],
+      "forPatient": "Your report gives a CPS number. Whether it counts as positive depends on the cancer: the pembrolizumab label asks for 1 or more in head and neck, stomach, oesophageal, cervical and platinum-resistant ovarian cancer, and 10 or more in triple-negative breast cancer. The same number can open a treatment in one cancer and not in another, and a score below the cut-off does not mean immunotherapy can never be used, only that this particular indication does not apply."
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy",
+      "kind": "technology",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera)",
+      "aka": [
+        "Vacuum-assisted biopsy",
+        "VAB",
+        "Vacuum-assisted excision",
+        "Mammotome Revolve",
+        "Mammotome Prima MR",
+        "EnCor Enspire",
+        "EnCor EnCompass",
+        "Eviva",
+        "EleVation",
+        "Brevera"
+      ],
+      "tldr": "A breast biopsy needle that uses suction to pull tissue into its side window and cut it, so several larger samples can be taken through one small cut in the skin, guided by mammogram, ultrasound or MRI.",
+      "summary": "Breast biopsy instruments are FDA product code KNW (21 CFR 876.1075). Vacuum-assisted systems cleared in the database include Devicor's Mammotome Revolve dual vacuum-assisted biopsy system (K202012, 18 August 2020) and Mammotome Prima MR for MRI-guided biopsy (K260365, 4 March 2026), the EnCor Enspire breast biopsy system (Senorx, K233220, 27 October 2023) and EnCor EnCompass biopsy and tissue removal system (Bard Peripheral Vascular, K252681, 12 December 2025), Bard's EleVation driver and probes (K192948, 7 November 2019), Hologic's Eviva stereotactic system (K180233, 10 April 2018) and Hologic's Brevera with CorLumina imaging (K163052, 29 March 2017; updated K262792, 12 August 2026), which images each core as it is taken. The Mammotome Revolve summary states that it provides breast tissue \"for histologic examination with partial or complete removal of the imaged abnormality\" and warns that \"the extent of removal of the palpated or imaged evidence of an abnormality does not predict the extent of removal of a histologic abnormality, e.g., malignancy\".",
+      "status": "standard-of-care",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA product code KNW: biopsy instrument",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=KNW"
+        },
+        {
+          "label": "FDA 510(k) K202012: Mammotome Revolve (18 August 2020)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202012"
+        },
+        {
+          "label": "FDA 510(k) K260365: Mammotome Prima MR (4 March 2026)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260365"
+        },
+        {
+          "label": "FDA 510(k) K233220: EnCor Enspire (27 October 2023)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233220"
+        },
+        {
+          "label": "FDA 510(k) K252681: EnCor EnCompass (12 December 2025)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252681"
+        },
+        {
+          "label": "FDA 510(k) K192948: EleVation breast biopsy driver (7 November 2019)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192948"
+        },
+        {
+          "label": "FDA 510(k) K180233: Eviva stereotactic guided breast biopsy system (10 April 2018)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180233"
+        },
+        {
+          "label": "FDA 510(k) K163052: Brevera with CorLumina imaging (29 March 2017)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163052"
+        },
+        {
+          "label": "FDA 510(k) K262792: Brevera with CorLumina imaging (12 August 2026)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262792"
+        },
+        {
+          "label": "Measurement method and interpretation source",
+          "url": "https://www.radiologyinfo.org/en/info/breastbius"
+        },
+        {
+          "label": "Heil et al., RESPONDER, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/"
+        },
+        {
+          "label": "Kuerer et al., omission trial, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/"
+        },
+        {
+          "label": "Kuerer et al., omission follow-up, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/"
+        }
+      ],
+      "tags": [
+        "devices-gaps-2026-11"
+      ],
+      "related": [
+        "biopsy-after-neoadjuvant-therapy",
+        "surgical-resection-specimen"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics",
+        "imaging",
+        "devices"
+      ],
+      "technologies": [
+        "stereotactic-breast-biopsy",
+        "breast-lesion-localisation",
+        "mammography",
+        "breast-mri-coils-abbreviated-mri",
+        "automated-breast-ultrasound"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "mammotome",
+        "hologic",
+        "becton-dickinson"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "core-needle-biopsy",
+        "biopsy"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Suction and a cutter collect several tissue pieces through a positioned probe. More pieces can broaden sampling but do not provide the mapped outer boundary of an oriented excision. Little visible abnormality after biopsy does not establish microscopic clearance or negative surgical margins.",
+        "Collection and preservation are separate: vacuum-collected tissue placed in formalin does not become a viable-cell bank. Retain target, sampled locations, concordance, preparation and assay-specific adequacy. No universal number of pieces proves complete representation.",
+        "Vacuum pressure draws tissue into a sampling opening and a cutter collects pieces through the positioned probe. Pathology identifies the cells, while imaging correlation asks whether the target was represented, including relevant calcifications. Sampling method does not establish preservation for living-cell work or every ancillary assay.",
+        "Fictional vacuum samples show a lesion and imaging shows little remaining visible abnormality. That does not establish negative microscopic margins. Several selected pieces do not supply the mapped outer boundary of an oriented excision, and a marker identifies a location rather than certifying that every abnormal cell was removed.",
+        "RESPONDER missed residual cancer in 37 of 208 women with residual disease at surgery. Exploratory combined imaging and biopsy gave a 6.2% false-negative rate; zero false negatives with the largest needle were also exploratory. The 2022 selected omission cohort of 31 women had no ipsilateral breast recurrence at median 26.4 months, updated to 55.4 months in 2025. These are study-specific results, not universal sampling adequacy or clearance rules.",
+        "Vacuum-assisted sampling combines image guidance, probe sampling, tissue preparation and pathology correlation. Document the target, site and collected pieces, then report the diagnosis, sample inventory and any assay-specific results. Collection and subsequent sections use finite material; each ancillary assay has its own input requirements. No universal piece count proves adequacy or complete removal. Missed or incompletely represented targets, bleeding, damaged tissue, necrosis and inadequate analyte can limit the procedure. Results depend on the intended lesion and workflow and cannot alone establish whole-lesion biology, surgical clearance or future treatment response."
+      ],
+      "provenance": {
+        "editedBy": "OnCo device gap fill (openFDA, accessdata.fda.gov, NICE, Europe PMC, maker pages)",
+        "editedOn": "2026-11-04"
+      },
+      "principle": "A hollow probe with a side aperture is placed beside the lesion under imaging; vacuum draws tissue into the aperture, a rotating or oscillating inner cutter severs it, and the core is carried back to a collection chamber without withdrawing the probe.",
+      "strengths": [
+        "Larger and more numerous cores through one skin entry",
+        "Works with stereotactic, tomosynthesis, ultrasound or MRI guidance"
+      ],
+      "limitations": [
+        "Bruising and haematoma",
+        "Removing the imaged lesion does not mean a cancer has been removed with clear margins"
+      ],
+      "since": 2017
+    },
+    {
+      "id": "cfdna",
+      "kind": "term",
+      "name": "Cell-free DNA (cfDNA)",
+      "aka": [
+        "cfDNA",
+        "cell-free DNA",
+        "circulating cell-free DNA",
+        "plasma DNA",
+        "liquid biopsy",
+        "plasma NGS",
+        "plasma genotyping",
+        "blood-based genotyping",
+        "tissue-informed",
+        "tumour-informed",
+        "tumor-informed",
+        "tumour-naive",
+        "tumor-naive",
+        "fragmentomics",
+        "liquid biopsies"
+      ],
+      "tldr": "Short pieces of DNA floating in the blood, shed by dying cells all over the body. Most is from normal cells; the small tumour-derived fraction (ctDNA) is what liquid biopsies fish out.",
+      "summary": "A tube of blood contains nanograms of cell-free DNA, of which tumour DNA may be 0.01-10%. Assays detect it by deep sequencing with error correction (Guardant360, FoundationOne Liquid, MSK-ACCESS), by tumour-informed panels built from the patient's own tumour mutations (Signatera, RaDaR), or by methylation and fragment-size patterns that also reveal the tissue of origin (Galleri, fragmentomics). Uses span genotyping when tissue is scarce, resistance monitoring, MRD after surgery and multi-cancer screening. Pitfalls are CHIP-derived variants, low shedding by some tumours (brain, kidney) and pre-analytic handling, hence dedicated collection tubes.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cell-free_fetal_DNA",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cell-free_fetal_DNA"
+        },
+        {
+          "label": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease",
+          "url": "https://doi.org/10.1038/s41467-018-07466-6"
+        },
+        {
+          "label": "Maternal Plasma DNA Sequencing Reveals the Genome-Wide Genetic and Mutational Profile of the Fetus",
+          "url": "https://doi.org/10.1126/scitranslmed.3001720"
+        },
+        {
+          "label": "Enhanced detection of circulating tumor DNA by fragment size analysis",
+          "url": "https://doi.org/10.1126/scitranslmed.aat4921"
+        },
+        {
+          "label": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+          "url": "https://doi.org/10.15252/emmm.202216505"
+        },
+        {
+          "label": "NCI: cfDNA biospecimen collection and processing (revision February 2025)",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/bebp/bebp-cfdna.pdf"
+        },
+        {
+          "label": "FDA: ctDNA for curative-intent solid tumour drug development (November 2024)",
+          "url": "https://www.fda.gov/media/183874/download"
+        }
+      ],
+      "tags": [
+        "precision"
+      ],
+      "related": [
+        "ctdna",
+        "mrd",
+        "clonal-haematopoiesis",
+        "core-needle-biopsy",
+        "ctdna-units",
+        "blood-as-a-renewable-sample"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [
+        "liquid-biopsy",
+        "mced",
+        "fragmentomics",
+        "mrd-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Source classes: cfDNA is DNA outside intact cells in a sample, and ctDNA is the tumour-derived part of that pool, so the two are related materials and not rival tests. In healthy donors a methylation atlas of 25 tissues and cell types attributed plasma cfDNA to white blood cells (55%), erythrocyte progenitors (30%), vascular endothelial cells (10%) and hepatocytes (1%) (Moss 2018). A tumour adds DNA only when it contributes, and the tumour share may be small or absent in the sample drawn even when cancer exists elsewhere.",
+        "Scale: plasma DNA fragments show a pattern reminiscent of nuclease-cleaved nucleosomes with a peak at 166 base pairs (Lo 2010, in maternal plasma), and tumour-derived fragments are enriched at 90 to 150 base pairs (Mouliere 2018). One assay input in a breast-cancer comparison was 4,500 amplifiable copies, about 15 nanograms (Santonja 2023), and at about 3.3 picograms per haploid genome copy 1 nanogram is roughly 300 copies (arithmetic from genome size). In a fictional single-locus model with 4,500 amplifiable opportunities and target-allele probability 1 in 100,000, the expected target count is 0.045. The target-allele probability is not automatically a tumour-DNA fraction: copy number, variant multiplicity and clone representation matter.",
+        "Yield is not origin: in a fictional experiment equal 1 mL plasma aliquots give 2 and 4 nanograms of cfDNA and no tumour-attributed signal is reported. Total DNA doubled, but tumour fraction and any tumour-DNA fold change cannot be calculated because tumour attribution was not measured. A fragment's source needs evidence such as paired white-blood-cell and tumour sequencing (Razavi 2019), and a variant seen in plasma is not automatically tumour-derived.",
+        "Method card: measures selected features of plasma DNA by a stated sequencing or molecular method, from a finite plasma aliquot that testing consumes. Output is detected or not detected, variant fractions, molecule concentrations or model estimates, each with its own unit. It cannot give an all-body cell count, lesion location, viability or treatment benefit, and validity belongs to the exact specimen, assay version and intended use.",
+        "Collection conditions can change the mixture before testing: blood-cell breakdown adds genomic DNA and can dilute a tumour fraction. The NCI biospecimen practices document, revised February 2025, prefers plasma to serum. Its protocol recommends EDTA, accepts acid citrate dextrose, and advises avoiding heparin and citrate; the literature-summary section separately reports results with several anticoagulants when processing was immediate. For EDTA blood the protocol prefers centrifugation within 2 hours and accepts up to 4 hours at room temperature or 24 hours at 4 degrees Celsius; it recommends stabilising tubes for anticipated delays over 2 hours. These are recommendations for that specimen workflow, not a universal acceptance rule for every assay. Extraction and library preparation then retain only some available molecules, so the volume drawn is not the volume evaluated.",
+        "Reading an assay report starts with the specimen and collection date, the plasma volume actually evaluated, DNA quality and recovery, origin checks, and the rule that turns a signal into a call. Low shedding, damaged input or failed quality controls can limit interpretation; a failed assay is a separate result from no qualifying signal. Genotyping, response monitoring and residual-disease detection are different intended uses. In its November 2024 drug-development guidance, FDA asks for validation of the complete workflow, representative clinical samples, the input range and prespecified calling cut-offs; validation of one use does not establish another."
+      ],
+      "category": "Biomarkers"
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy",
+      "kind": "term",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy",
+      "aka": [],
+      "tldr": "Sampling the former tumour site after treatment can miss scattered residual cancer, so a negative biopsy needs its study population and sampling method.",
+      "summary": "Image-guided biopsy after preoperative systemic treatment tests selected parts of the former breast tumour bed. Diagnostic accuracy studies compare it with subsequent surgery; an omission study instead follows selected people without breast surgery. These designs answer different questions.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Heil et al., RESPONDER, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/"
+        },
+        {
+          "label": "Kuerer et al., preplanned omission outcomes, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/"
+        },
+        {
+          "label": "Tasoulis et al., pooled diagnostic data, 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33026457/"
+        },
+        {
+          "label": "Basik et al., NRG-BR005, 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/"
+        },
+        {
+          "label": "Kuerer et al., original omission outcomes, 2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "core-needle-biopsy",
+        "vacuum-assisted-breast-biopsy",
+        "pcr",
+        "surgical-resection-specimen"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In RESPONDER, 398 women with stage I to III breast cancer of all biological subtypes and an imaging response were analysed. Vacuum-assisted biopsy missed residual cancer in 37 of the 208 women whose surgery found it: a false-negative rate of 17.8% (95% confidence interval 12.8% to 23.7%). Of the 37 misses, 20 had minimal residual tumour smaller than 5 mm. Exploratory analyses reported no false negatives with the largest-volume 7-gauge needle and a 6.2% false-negative rate (95% confidence interval 3.4% to 10.5%) when imaging and biopsy were combined. These refinements do not establish general omission safety.",
+        "The 2025 single-arm omission study enrolled 50 women aged at least 40 with HER2-positive or triple-negative cT1-2N0-1M0 disease and an imaging residual lesion smaller than 2 cm. After at least twelve 9-gauge vacuum cores, 31 had no residual breast cancer on biopsy and received radiotherapy without breast surgery. No ipsilateral breast recurrences occurred at median follow-up 55.4 months. Patients initially node-positive still underwent targeted axillary dissection. This small uncontrolled study calls for confirmation.",
+        "Fictional accuracy exercise: surgery finds residual cancer in 40 of 100 people. Biopsy misses 8 of those 40, while all 60 without residual cancer test negative. False-negative rate is 8/40 = 20%; negative predictive value is 60/68, about 88%. The denominators differ. A breast sample does not establish axillary status or mapped surgical margins. False-negative rate uses all residual cancers as its denominator; negative predictive value uses negative biopsies and varies with prevalence and selection.",
+        "A diagnostic clip and image guidance locate the former breast tumour bed, and cores sample selected positions. Pathology looks for residual invasive and in-situ disease; diagnostic accuracy studies then use surgery as the reference. Scattered residual cells can fall between samples. Imaging response alone does not prove pathological complete response.",
+        "Tasoulis analysed 166 women from three centres using surgery as the reference; 143 underwent vacuum-assisted sampling and 23 core-cut biopsy. In 159 representative biopsies, false-negative rate was 18.7% (95% confidence interval 10.6% to 29.3%). Among 76 with complete or partial clinical response, imaging abnormality no larger than 2 cm and at least six vacuum samples, it was 3.2% (0.1% to 16.7%) and negative predictive value 97.4% (86.5% to 99.9%). The TNBC subgroup had pCR in 39 of 59. These selected estimates do not establish omission safety.",
+        "NRG-BR005 was a prospective nonrandomised phase 2 study of marker-directed stereotactic multiple-core biopsy after chemotherapy. It included clinical complete responders with complete or near-complete trimodality imaging response. Of 101 evaluable patients, surgery found residual invasive or in-situ disease in 36. Sensitivity was 50% (95% confidence interval 32.9% to 67.1%) and negative predictive value 78.3% (67.9% to 86.6%). The authors did not support omitting surgery using these criteria. A retrospective central review found that only 62 of 101 met the imaging eligibility criteria; this exploratory post hoc analysis does not replace the main result.",
+        "For these biopsy studies, breast pCR definitions can require no invasive or in-situ disease, while other breast pCR endpoints allow residual in-situ disease and include nodal status. Name the protocol definition. The 2022 omission report and its 2025 update follow the same selected cohort: no ipsilateral breast recurrences among 31 without breast surgery at median follow-up 26.4 and 55.4 months respectively. They are not independent replications.",
+        "A small single-arm cohort with zero recurrences leaves uncertainty without a randomised comparison. Sampling does not provide the oriented margins or complete residual-burden assessment of resection, and breast biopsy does not assess every axillary node. Missing residual disease can also miss information used for further treatment decisions. These studies support continued investigation rather than a general rule to omit surgery."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "tumor-stroma-ratio",
+      "kind": "term",
+      "name": "Tumour-stroma ratio",
+      "aka": [],
+      "tldr": "The tumour-stroma ratio describes the amount of supporting tissue in a defined tumour region; its method and cutoff must stay with the result.",
+      "summary": "Tumour-stroma assessment on routine histology describes tissue composition. It differs from stromal TIL assessment, which describes the inflammatory infiltrate within eligible stroma. Prognostic associations do not by themselves establish which treatment should be chosen.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "van Pelt et al., colon TSR scoring procedure, 2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30030621/"
+        },
+        {
+          "label": "Polack et al., UNITED, 2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38613913/"
+        },
+        {
+          "label": "Moorman et al., TNBC cohort, 2012",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22264965/"
+        },
+        {
+          "label": "de Kruijf et al., breast TSR cohort, 2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20361254/"
+        },
+        {
+          "label": "Dekker et al., node-negative validation, 2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23709090/"
+        },
+        {
+          "label": "Kramer et al., breast evidence review, 2019 print",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30302588/"
+        },
+        {
+          "label": "Heilijgers et al., automated UNITED analysis, 2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41468683/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tils",
+        "h-and-e-staining",
+        "tumour-purity",
+        "tumor-bed-cellularity"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "UNITED prospectively assessed the ratio in stage II or III colon cancer: 1,388 eligible patients from 27 centres. Stroma-high meant more than 50% stroma, while 50% or below was stroma-low. Three-year disease-free survival was 70% versus 83%; adjusted hazard ratio 1.49 (95% confidence interval 1.17 to 1.90). Overall survival did not differ significantly. These findings describe that colon-cancer cohort.",
+        "The 124-person retrospective triple-negative breast cancer study used a different boundary: at least 50% was stroma-high and less than 50% was stroma-low. It reported observer agreement kappa 0.74. Kappa summarises agreement after allowing for chance; this value belongs to those investigators and cases. Do not transfer the boundary from one protocol to another without checking it. Neither study establishes an individual treatment benefit from choosing a drug according to this score.",
+        "The cited colon visual TSR protocol selects a stroma-rich eligible invasive-tumour region at low power, then estimates stroma in a field at a 10-times objective with tumour visible at all four edges, in 10 percentage-point steps. UNITED used more than 50% as stroma-high. This selected-field measurement is not an average of the entire slide, a tumour-cell proportion or a residual tumour-bed cellularity score.",
+        "Fictional untreated tumour fields contain 30%, 40% and 70% stroma. Under the stroma-rich-field rule, the score is 70%, stroma-high, provided the field is eligible. The average is about 47% and answers a different question. Supporting tissue can contain many or few lymphocytes; stroma-high does not establish immune exclusion.",
+        "In the 124-person retrospective TNBC cohort, five-year relapse-free rates were 85% for stroma-low and 45% for stroma-high; adjusted relapse hazard ratio 2.39 (95% confidence interval 1.07 to 5.29). In the 574-person early breast cancer series, the TNBC subgroup had five-year relapse-free rates of 81% for stroma-poor and 56% for stroma-rich tumours. A separate node-negative premenopausal cohort validated the prognostic direction. These are cohort associations, not personal forecasts.",
+        "The 2026 automated analysis used 853 stage II or III colon cancers from UNITED without neoadjuvant therapy. It segmented 11 tissue classes and calculated stroma/(stroma + epithelial tumour), using a 1-mm region and a derived 77% cutoff. This is a different method from a visually chosen 10-times field with a 50% cutoff; its threshold cannot be imported into the visual method.",
+        "The breast review identified a need for prospective validation. UNITED provides prospective prognostic evidence in colon cancer, while the cited breast studies are retrospective. The cited analyses do not establish a randomised treatment-by-score interaction that chooses a drug. Untreated cohorts do not validate transfer to post-neoadjuvant fibrosis. The cited studies alone do not establish current guideline adoption.",
+        "For the cited visual TSR protocol, record the H&E specimen and whether treatment preceded collection, select the eligible most stroma-rich field at a 10-times objective with tumour on all four sides, and estimate the stromal percentage in 10 percentage-point steps. State the observer method and protocol-specific high/low boundary. Software requires its own definition and cutoff. Field choice, necrosis, mucin and post-treatment fibrosis can change interpretation; this selected-field score is not interchangeable with a whole-slide average."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "surgical-resection-specimen",
+      "kind": "term",
+      "name": "Surgical resection specimen",
+      "aka": [],
+      "tldr": "Removed tissue becomes interpretable through documented orientation and sampling that link microscopic and molecular findings to their locations.",
+      "summary": "A resection specimen is removed tissue submitted for examination. The laboratory documents gross features, marks relevant surfaces and maps selected regions into labelled blocks. Microscopy and additional assays describe the represented material, rather than every cell remaining in the body.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "CAP practical breast grossing guide excerpt",
+          "url": "https://documents-cloud.cap.org/pdf/Grossing_Sample.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "core-needle-biopsy",
+        "h-and-e-staining",
+        "tumour-purity",
+        "biopsy"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Keep the specimen site, procedure, prior treatment, orientation key, surface inks, cassette map and tested block with the result. Ink colours have a local documented meaning. Gross specimen dimensions are not automatically invasive tumour dimensions. Fragmentation or ink entering cracks can complicate surface interpretation.",
+        "Fictional example: block A is central lesion and block B is a superior surface. A sequencing result from block A cannot be assigned to block B merely because both came from one operation. An additional test needs its own block identity and preservation history.",
+        "Resection supports assessment of represented tumour extent, surfaces, sampled nodes and treatment effect. A large specimen is not automatically examined cell by cell in its entirety. Collection time and preceding treatment define the biological time point, so a post-treatment resection cannot substitute for a pretreatment biopsy.",
+        "Diagnostic orientation and mapped sampling must remain intact when additional material is allocated. A research aliquot needs its site, block, preservation, treatment context and permissions. Slide counts alone do not establish the completeness of representation; a clear examined margin does not settle every clinical question.",
+        "Resection examination follows receipt and orientation, gross description, block mapping, microscopic examination and integration of findings. Record the named specimen and separately submitted parts; sectioning and extraction consume finite material. Depending on the cancer, specimen and treatment setting, outputs include diagnoses, dimensions and distances in millimetres, described margins and sampled-node counts. Lost orientation, fragmentation, ink penetration, incomplete mapping and unsuitable preservation can limit interpretation. Applicable diagnostic protocols and clinical correlation govern the report, while a research aliquot needs its own provenance. No specimen report examines every tissue left in the body or every unsampled node, or supplies an individual recurrence probability."
+      ],
+      "category": "Pathology"
+    },
+    {
+      "id": "blood-as-a-renewable-sample",
+      "kind": "term",
+      "name": "Serial blood sampling",
+      "aka": [],
+      "tldr": "Blood can often be collected again, but every draw is a new finite specimen whose fraction, handling and collection time determine its meaning.",
+      "summary": "Serial blood sampling can follow circulating analytes or cell populations over time. Plasma, serum and blood-cell fractions are different inputs. Circulating material does not preserve the local tissue architecture and cell relationships available from a tissue sample.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Razavi et al., matched plasma, white-cell and tumour sequencing, 2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/"
+        },
+        {
+          "label": "NCI cell-free DNA collection and processing practices",
+          "url": "https://www.protocols.io/view/nci-biospecimen-evidence-based-practices-bebp-cell-dc8k2zuw.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "cfdna",
+        "ctdna",
+        "clonal-haematopoiesis",
+        "ctdna-imaging-discordance"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Cell-free DNA includes DNA from non-malignant sources. A plasma variant can originate in a blood-cell clone; matched white-cell DNA and tumour tissue can help assess origin, without eliminating sampling uncertainty. A negative plasma result can reflect low shedding or limited assay sensitivity rather than absence of cancer.",
+        "Retain collection time, treatment context, tube, processing delay, fraction, storage, input quantity, assay and detection limit. Repeat collections have practical burdens and provide later biological time points. Comparisons require compatible methods and the same named question.",
+        "Plasma is separated from anticoagulated blood, while serum is obtained after clotting. White-cell DNA can supply a comparator; mononuclear-cell fractions support selected immune measurements; plasma proteins can come from multiple tissues. Cell-free DNA includes a tumour-derived subset, circulating tumour DNA. These fractions are not automatically interchangeable. The intended method may require whole blood or a specified separated fraction; those inputs are not automatically interchangeable.",
+        "Fictional example: a variant is found in plasma and matched white-cell DNA but not in available tumour tissue. A blood-cell clone is a possible source, alongside assay and sampling uncertainty. One tissue sample may miss a clone. Neither the plasma label nor the negative tissue result alone proves origin.",
+        "Like serial weather readings, repeated draws can follow change only when the same question and compatible methods are used. Blood immune cells are not the same population as cells inside a tumour. Low shedding, finite molecules, handling or assay sensitivity can explain a negative plasma result without proving cancer absent; repeatability does not remove collection burdens or consent requirements.",
+        "A blood assay starts with a named analyte or cell population, an appropriate collected fraction, processing and a defined measurement. Each draw and derived aliquot has finite volume; repeat draws have practical and health burdens. Outputs may be concentrations, molecule or variant estimates, or cell counts and frequencies. Input adequacy, detection limits and intended-use cutoffs belong to the assay. Wrong tubes, processing delays, cell breakdown, low input and mistaken source assignment can limit results. Monitoring, diagnostic and research uses need their own validation; a circulating result does not map tumour-wide cell composition or tissue localisation, and a negative result does not establish absence of all cancer."
+      ],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane",
+      "kind": "term",
+      "name": "Myoepithelial cells and the breast basement membrane",
+      "aka": [
+        "myoepithelium",
+        "myoepithelial layer"
+      ],
+      "tldr": "Myoepithelial cells are living cells around normal breast ducts and acini; basement membrane is separate extracellular material outside them.",
+      "summary": "These layers help organise normal breast structures and support pathological assessment of invasion. Their location, morphology, staining controls and diagnostic context matter more than a single positive or negative marker.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/"
+        },
+        {
+          "label": "Immunohistochemical distinction of invasive from noninvasive breast lesions: a comparative study of p63 versus calponin and smooth muscle myosin heavy chain.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/"
+        },
+        {
+          "label": "Distribution of myoepithelial cells and basement membrane proteins in the normal breast and in benign and malignant breast diseases.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/"
+        },
+        {
+          "label": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/"
+        },
+        {
+          "label": "CAP invasive breast protocol: histological type and supporting assessment",
+          "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "terminal-duct-lobular-unit",
+        "dcis",
+        "invasive-breast-carcinoma-no-special-type"
+      ],
+      "cancers": [
+        "breast-cancer"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Typical normal breast ducts and acini have luminal epithelial cells facing the lumen, an outer living myoepithelial layer, extracellular basement membrane and then stroma. Myoepithelial cells have contractile features that help move milk; they are not the chest muscle. Basement membrane contains matrix proteins such as laminins and type IV collagen, not living cells.",
+        "Basement membrane beneath an epithelial structure differs from plasma membrane around one cell. Cell polarity describes different inward and outward organisation. Gudjonsson and colleagues' human-cell culture experiments showed that normal myoepithelial cells or laminin-1 could restore luminal orientation in collagen gels; this is model evidence about organisation, not a demonstrated cancer treatment.",
+        "Myoepithelial immunohistochemistry is supporting evidence interpreted with morphology. p63 is nuclear; calponin and smooth muscle myosin heavy chain are cytoplasmic markers. Ask which cells stain, where they stain and whether technical controls work. A failed positive control undermines an apparently absent rim.",
+        "Werling and colleagues found gaps around some noninvasive structures, stromal staining with muscle-associated markers and p63 staining in some carcinoma cells. Gusterson and colleagues found basement-membrane proteins in some invasive carcinomas. Neither marker absence nor protein presence alone proves the tissue boundary. Basal-like RNA features also do not establish myoepithelial ancestry.",
+        "In Gusterson and colleagues' 1982 tissue study, laminin and type IV collagen were detected in normal breast, benign lesions and grade I invasive carcinomas but were absent from grade II and III infiltrating carcinomas in that study. That historical cohort does not make protein presence proof of an intact noninvasive boundary, or protein absence a universal grade rule.",
+        "Werling and colleagues examined 85 breast lesions. In that series, at least focal p63 staining in tumour cells occurred in 11% of cases, while stromal myofibroblasts stained with smooth muscle myosin heavy chain in 8% and calponin in 76%. Some noninvasive structures had gaps. These assay- and cohort-specific observations explain why localisation and controls matter; they are not universal diagnostic accuracy estimates.",
+        "CAP's morphology-based histological classification and supporting-marker assessment answer a tissue question. A schematic rim is neither an immunostain result nor a diagnosis; illustrated gaps or colours cannot establish invasion. Interpret the actual tissue architecture and appropriately controlled stains together."
+      ],
+      "category": "Clinic basics"
+    }
+  ],
+  "metadataRefreshMain": "5dca8d9d8a267a7ccf6bfa70c0213fc8363e2d3a"
+}

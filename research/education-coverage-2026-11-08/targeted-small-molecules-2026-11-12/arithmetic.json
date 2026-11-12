@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "expression": "1/3",
+      "value": 0.3333333333333333,
+      "interpretation": "Fictional one-third clinical-benefit example, not tumour-shrinkage probability."
+    },
+    {
+      "expression": "1 nM",
+      "valueMolar": 1e-09,
+      "interpretation": "Concentration definition, not an efficacy cutoff."
+    }
+  ],
+  "studyValues": "Traina 25%/33%, enrolment 118/evaluable 78; TBCRC 001 13 activated/5 inhibited among 16 paired biopsies; BALI-1 20%/10%, P=0.11; CAPItello-290 812 and 17.7/18.0, 20.4/20.4 were checked against full raw abstracts or the named registry.",
+  "scope": "No invented empirical percentages; hypothetical reasoning remains labelled."
+}

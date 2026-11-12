@@ -1,0 +1,817 @@
+{
+  "version": "proposal-spatial-computational",
+  "state": "Ten canonical owners integrated in draft375: two new subjects and eight existing owners. Seven further owners are supplemented in draft373 and three in draft371, with no competing records created. No merge or deployment.",
+  "sourceBaseHead": "3edd678bfd34a2460923b5df318170b21b61a835",
+  "workerHeads": [
+    "0cfb4369062af47b4c882b66906c2628836de02e",
+    "cf2ee5bdd31b4f397772b744fa2dbd531f198127"
+  ],
+  "records": [
+    {
+      "id": "foundation-model",
+      "kind": "term",
+      "name": "Foundation model",
+      "aka": [
+        "foundation model",
+        "foundation models",
+        "FM",
+        "bulk-native foundation model",
+        "single-cell foundation model",
+        "large x model"
+      ],
+      "tldr": "A foundation model learns reusable representations from broad data and can be adapted to different tasks. Its performance needs evaluation for each task and setting.",
+      "summary": "A foundation model learns reusable representations during pretraining and can be adapted to different tasks. Geneformer was pretrained on about 30 million single-cell transcriptomes and scGPT on over 33 million cells, then adapted to downstream tasks (Theodoris and colleagues, 2023; Cui and colleagues, 2024). Pretraining and task-specific fitting are different stages, and zero-shot use (no further training), fine-tuning and a small predictor fitted on frozen features are different evaluation settings that should not be compared as if they used the same information. A zero-shot evaluation of Geneformer and scGPT found that in some cases they were outperformed by simpler methods; one evaluation dataset partly overlapped Geneformer's pretraining data and two were included in scGPT's, so overlap between pretraining and test data has to be checked, including whether the same participants or donors sit on both sides (the TRIPOD+AI reporting guidance asks that evaluation data share no participants with the data used to train, tune or select a model; Kedzierska and colleagues, 2025). A 2025 benchmark found that none of five single-cell foundation models and two other deep-learning models beat deliberately simple baselines at predicting transcriptome changes after single or double gene perturbations (Ahlmann-Eltze and colleagues, 2025). An embedding is a computed representation, not a measured function, and a published result belongs to its model version, task, data and adaptation method. Foundation model, generative model and virtual cell are overlapping but different ideas: an AI virtual cell is described as a multi-scale, multi-modal large neural network model (Bunne and colleagues, 2024, a perspective rather than a validation), and none of the labels shows that simulated interventions predict tumour killing or improve care. Failure modes worth recording are population or assay mismatch, leakage, technical shortcuts, unavailable input features and poor calibration.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Foundation_model",
+      "links": [
+        {
+          "label": "Theodoris et al., Transfer learning enables predictions in network biology (Nature 2023)",
+          "url": "https://doi.org/10.1038/s41586-023-06139-9"
+        },
+        {
+          "label": "Cui et al., scGPT: toward building a foundation model for single-cell multi-omics using generative AI (Nature Methods 2024)",
+          "url": "https://doi.org/10.1038/s41592-024-02201-0"
+        },
+        {
+          "label": "Kedzierska et al., Zero-shot evaluation reveals limitations of single-cell foundation models (Genome Biology 2025)",
+          "url": "https://doi.org/10.1186/s13059-025-03574-x"
+        },
+        {
+          "label": "Ahlmann-Eltze et al., Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (Nature Methods 2025)",
+          "url": "https://doi.org/10.1038/s41592-025-02772-6"
+        },
+        {
+          "label": "Collins et al., TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods (BMJ 2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-078378"
+        },
+        {
+          "label": "Bunne et al., How to build the virtual cell with artificial intelligence: Priorities and opportunities (Cell 2024)",
+          "url": "https://doi.org/10.1016/j.cell.2024.11.015"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Foundation_model"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "idea-multimodal-foundation-model",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "pathology-foundation-model",
+        "ai-compute-platforms",
+        "geneformer",
+        "scgpt"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "self-supervised-pretraining",
+        "fine-tuning-vs-frozen",
+        "pathology-foundation-models",
+        "zero-shot",
+        "transfer-learning",
+        "embedding",
+        "data-leakage",
+        "external-validation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model card for a biological foundation model (a reading guide, not a score). Input and cost: the data type, preparation and normalisation used; running a model uses computing resources and no new tissue, but the original assays that produced the data consumed specimens. Training and adaptation: the pretraining source and version, any overlap with later test data, and which parts were left fixed or fine-tuned. Output and units: embedding coordinates, labels or predicted molecular values, with the original units and transforms kept. Controls and thresholds: baselines that use the same information, independent evaluation, and a decision rule set before testing; there is no general passing size or score. Failure modes: population or assay mismatch, leakage, technical shortcuts, unavailable features and poor calibration. Validation tier: evidence for the stated task only, with no implied clinical authorisation or benefit.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/foundation-model."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts and selected full texts read",
+        "editedOn": "2026-11-09",
+        "note": "Added from Theodoris 2023 (PMID 37258680), Cui 2024 (PMID 38409223), Kedzierska 2025 (PMID 40251685, full text PMC12007350 read for the pretraining overlap) and Ahlmann-Eltze 2025 (PMID 40759747). The earlier CanSim terms-map text is unchanged: CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project."
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "variant-effect-prediction",
+      "kind": "term",
+      "name": "Variant effect prediction",
+      "aka": [
+        "variant effect prediction",
+        "variant effect predictor",
+        "predicted pathogenicity",
+        "in silico pathogenicity prediction",
+        "missense effect prediction"
+      ],
+      "tldr": "A variant-effect prediction estimates a defined consequence of a DNA change for a specified transcript or task. It does not by itself establish disease causation or treatment benefit.",
+      "summary": "Variant-effect prediction estimates a specified consequence of a sequence change, whereas variant calling identifies changes from sequence data. Ensembl maps each allele of a variant onto every overlapping transcript with a rule-based approach, so the same genomic change can have a different consequence in different transcripts, and its impact categories (high, moderate, low, modifier) are qualitative assumptions about likely effect, not a measured loss of function (Ensembl documentation, release 116). A score from a missense tool does not answer a splice or regulatory question, and a prediction should name the reference genome, the alleles and the transcript (with its version) it was made for. A raw model score is not automatically a probability: a splice score of 0.92 on an unspecified scale does not mean a 92 per cent chance of lost function, because thresholds and evidence strengths belong to a particular tool and task. The absence of a prediction does not make a variant benign, because a tool may not cover that variant type or transcript. RNA junction evidence, functional experiments and clinical studies address different gaps, and none is interchangeable with a sequence score. Two reports of the same prediction from the same software version are two copies of one computed result, not two independent experiments. Where a tool's training data overlap the variants used to evaluate it, its performance can be overestimated, which is why the ClinGen calibration of thirteen missense tools to ACMG/AMP pathogenicity and benignity evidence strengths, estimated from local positive predictive value, used datasets assembled to minimise that circularity (Pejaver and colleagues, 2022). That calibration used ClinVar missense variants classified as pathogenic or benign and rare in gnomAD, within the ACMG/AMP recommendations for variants in genes associated with monogenic disease, and it selected no tool designed for splice variants. Its introduction notes that many methods overlap and so do not offer independent assessment of pathogenicity, which is why agreement between tools that share training data or inputs is not independent confirmation. The AMP, ASCO and CAP guideline for somatic variants notes that early prediction algorithms were developed and validated for germline variants and recommends that their results never be used as the sole evidence for variant classification or clinical decision making (Li and colleagues, 2017).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Variant_calling",
+      "links": [
+        {
+          "label": "HGVS nomenclature",
+          "url": "https://hgvs-nomenclature.org/stable/"
+        },
+        {
+          "label": "Ensembl: calculated variant consequences (release 116 documentation)",
+          "url": "https://www.ensembl.org/info/genome/variation/prediction/predicted_data.html"
+        },
+        {
+          "label": "Li et al., Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer (Journal of Molecular Diagnostics 2017)",
+          "url": "https://doi.org/10.1016/j.jmoldx.2016.10.002"
+        },
+        {
+          "label": "Pejaver et al., Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria (American Journal of Human Genetics 2022)",
+          "url": "https://doi.org/10.1016/j.ajhg.2022.10.013"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Variant_calling"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "clinvar",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "evo2",
+        "nucleotide-transformer",
+        "alphamissense"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "variant-calling",
+        "hgvs",
+        "data-leakage",
+        "external-validation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Model card for a variant-effect tool (a reading guide, not a score). Measures: a predicted consequence or effect for a stated sequence change and task. How: confirm the input change, choose the reference and model, calculate the output, then interpret it against calibration that suits the task. Input and tissue cost: existing sequence data and reference metadata; the computation uses no tissue, although producing the sequence input may have consumed a specimen. Output and units: consequence terms or model-specific scores, with tool version and transcript. Thresholds: tool-, task- and validation-specific, with no universal damaging cutoff. Failure modes: wrong transcript, unsupported variant type, biased evaluation or incompatible inputs. Cannot establish alone: measured protein function, a complete tumour mechanism or benefit from a drug. Validation tier: a software output has no automatic clinical status; the laboratory's validated intended use is a separate question.",
+        "Figure reading (fictional layouts, no real coordinates): one genomic change, labelled P (C to T), falls inside an exon of transcript T1 and inside an intron of transcript T2 because the two transcripts have different exon boundaries. Three separate questions follow: annotation asks where P sits, a splice model asks whether exon joining could change, and an RNA assay tests the proposed joins. A score needs its model's task and scale, and a predicted effect does not establish benefit.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/variant-effect-prediction."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts, selected full texts and the Ensembl documentation read",
+        "editedOn": "2026-11-09",
+        "note": "Added from the Ensembl release 116 consequence documentation, Li 2017 (PMID 27993330, PMC HTML read for the in silico prediction section), and Pejaver 2022 (PMID 36413997, full text PMC9748256 read for the circularity discussion and for the absence of any somatic or drug-response analysis). The earlier CanSim terms-map text is unchanged: CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project."
+      },
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "spatial-transcriptomics",
+      "kind": "technology",
+      "name": "Spatial transcriptomics",
+      "aka": [],
+      "tldr": "These methods measure RNA signals while keeping information about position in a tissue section. A measured spot, an estimated cell boundary and an imputed value are different kinds of evidence.",
+      "summary": "Spatial transcriptomics measures RNA signals while retaining information about where they came from in a tissue section. Sequencing capture and imaging-based detection use different measurement units. A third approach, region-of-interest profiling such as digital spatial profiling, releases oligonucleotide tags only from regions an operator chooses; the method paper describes regions covering 1 to about 5,000 cells and panels of up to 44 proteins, or 1,412 genes with sequencing readout, on formalin-fixed tissue (Merritt and colleagues, 2020), so the result depends on how the regions were selected. The original sequencing-based method placed sections on arrays of positionally barcoded primers and kept two-dimensional position (Ståhl and colleagues, 2016); a capture spot is a positional barcode and can span several cells. MERFISH imaged 100 to 1,000 RNA species chosen by probe design (Chen and colleagues, 2015), a targeted gene set and not every transcript. Assigning molecules to cells depends on estimated cell boundaries: many methods approximate cell positions from nuclear stains, and distinguishing the boundaries of individual cells is challenging and can hamper downstream analysis; Baysor was developed to optimise boundaries from transcript composition and cell morphology (Petukhov and colleagues, 2022). Gene values imputed by aligning single-cell data to a spatial map, as Tangram does (shown in mouse brain; Biancalani and colleagues, 2021), are model outputs and not extra RNA molecules detected by the spatial assay.",
+      "status": "emerging",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Spatial_transcriptomics",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Spatial_transcriptomics"
+        },
+        {
+          "label": "Stahl et al., Visualization and analysis of gene expression in tissue sections by spatial transcriptomics (Science 2016)",
+          "url": "https://doi.org/10.1126/science.aaf2403"
+        },
+        {
+          "label": "Merritt et al., Multiplex digital spatial profiling of proteins and RNA in fixed tissue (Nature Biotechnology 2020)",
+          "url": "https://doi.org/10.1038/s41587-020-0472-9"
+        },
+        {
+          "label": "Chen et al., Spatially resolved, highly multiplexed RNA profiling in single cells (Science 2015)",
+          "url": "https://doi.org/10.1126/science.aaa6090"
+        },
+        {
+          "label": "Petukhov et al., Cell segmentation in imaging-based spatial transcriptomics (Nature Biotechnology 2022)",
+          "url": "https://doi.org/10.1038/s41587-021-01044-w"
+        },
+        {
+          "label": "Biancalani et al., Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram (Nature Methods 2021)",
+          "url": "https://doi.org/10.1038/s41592-021-01264-7"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "htan"
+      ],
+      "cancers": [],
+      "sections": [
+        "diagnostics",
+        "drug-discovery"
+      ],
+      "technologies": [
+        "single-cell-spatial",
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "navignostics",
+        "vicinity-bio"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "spatial-biology-instruments",
+        "rna-seq"
+      ],
+      "notes": [
+        "Assay card for spatial transcriptomics (a reading guide, not a score). Measures and how: RNA with coordinates, by preparing a section, capturing or probing RNA, sequencing or imaging, decoding, registering positions and reporting the assignment rules. Input and tissue cost: protocol-compatible frozen or fixed sections; sectioning and molecular preparation consume allocated material, some workflows alter or destroy the assayed section, and re-scoring existing data consumes no new tissue. Output and units: gene counts per spot, bin or assigned cell, and decoded molecule coordinates, often in micrometres, with physical dimensions, normalisation and observed-versus-imputed labels kept. Thresholds: assay-specific gene or probe coverage, capture and decoding quality, background and segmentation criteria; no universal high-expression or neighbourhood cutoff. Failure modes: poor RNA, incomplete probe coverage, low capture, image-registration errors, inaccurate segmentation, spillover and unsuitable reference models. Limits: no automatic single-cell identity, complete transcriptome, whole-tumour representation, proven interaction or clinical selection rule. Validation tier: many workflows are research methods, so check analytical and intended-use validation for the exact assay and model; resolution claims and regulatory status are separate questions.",
+        "Figure reading (fictional geometry, no platform scale): a capture spot is one barcode that can pool several cells. Imaging decodes six RNA coordinates, three for gene G and three for gene H (3 + 3 = 6), and these are coordinates, not cell labels. Moving the estimated cell masks changes which cell a coordinate is assigned to while the RNA stays fixed. Gene R is absent from the G and H panel, so a model-inferred R value is not an observed molecule, and RNA position is not protein or function."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts and selected full texts read",
+        "editedOn": "2026-11-09",
+        "note": "Added from Stahl 2016 (PMID 27365449), Merritt 2020 (PMID 32393914), Chen 2015 (PMID 25858977), Petukhov 2022 (PMID 34650268) and Biancalani 2021 (PMID 34711971): DOI and PMID resolved and matched on title, authors and year; numbers read in the abstracts. The Xenium segmentation documentation cited by the lesson could not be fetched (HTTP 429) and is not used."
+      },
+      "principle": "Tissue sections are either overlaid on barcoded capture arrays whose oligonucleotides record position before sequencing, or hybridised with fluorescent probes read out over many imaging rounds with combinatorial barcodes.",
+      "strengths": [
+        "Keeps position, which single-cell sequencing discards",
+        "Reveals immune exclusion, niches and cell neighbourhoods",
+        "Works on archived formalin-fixed tissue on newer platforms"
+      ],
+      "limitations": [
+        "Costly and data-heavy, mostly research use",
+        "A capture unit may contain contributions from more than one cell",
+        "Assigning molecules to cells relies on estimated cell boundaries",
+        "A section samples part of a tumour, and adjacent sections do not contain identical cells",
+        "Genes imputed from a single-cell reference are model estimates, not measurements",
+        "Region-of-interest profiling depends on which regions are chosen",
+        "No agreed clinical assay yet"
+      ]
+    },
+    {
+      "id": "multiplex-immunofluorescence",
+      "kind": "technology",
+      "name": "Multiplex immunofluorescence",
+      "aka": [],
+      "tldr": "This approach measures several protein markers in a tissue section, in one or more imaging cycles. Image analysis then estimates cells, counts and distances under defined rules.",
+      "summary": "Multiplex immunofluorescence measures selected protein-marker signals in a tissue section, using one or several imaging cycles. Cyclic methods build a high-plex image of one section by repeating staining, imaging and signal removal and then registering the cycles: t-CyCIF produced up to 60-plex images of formalin-fixed specimens and showed that antigenicity changes with cycle number (Lin and colleagues, 2018), and IBEX imaged more than 65 parameters in one section by iterative staining and chemical bleaching (Radtke and colleagues, 2020). A six-institution study of a six-plex PD-1 and PD-L1 panel, imaged with a locked-down image analysis algorithm, reported average intersite concordance of cell densities of R squared 0.75 in breast carcinoma and 0.72 in non-small cell lung cancer tissue microarrays (Taube and colleagues, 2021); that is reproducibility for one specified panel and workflow, not for multiplex immunofluorescence in general. A cell phenotype is a rule-based call from the measured panel, a density needs a stated denominator, and a distance needs a stated definition (cell centre or cell boundary).",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Immunofluorescence",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Immunofluorescence"
+        },
+        {
+          "label": "Lin et al., Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes (eLife 2018)",
+          "url": "https://doi.org/10.7554/eLife.31657"
+        },
+        {
+          "label": "Radtke et al., IBEX: A versatile multiplex optical imaging approach for deep phenotyping and spatial analysis of cells in complex tissues (PNAS 2020)",
+          "url": "https://doi.org/10.1073/pnas.2018488117"
+        },
+        {
+          "label": "Taube et al., Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study (Journal for ImmunoTherapy of Cancer 2021)",
+          "url": "https://doi.org/10.1136/jitc-2020-002197"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [
+        "digital-pathology-ai"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "navignostics",
+        "vicinity-bio",
+        "strand-ai"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Assay card for multiplex immunofluorescence (a reading guide, not a score). Input and tissue cost: a compatible fixed or frozen section; staining uses material and may involve repeated processing, and the section does not preserve viable cells for a killing assay. Output and units: marker images, fluorescence intensity in assay-dependent units, cell counts, cells per square millimetre, cell fractions and defined distances in micrometres. Controls: marker-positive and marker-negative material, comparison with validated single-marker staining, channel or spectral controls, background assessment, cycle alignment and boundary overlays. Thresholds: panel-specific marker and phenotype rules locked before the intended comparison and tested for reproducibility. Failure modes: autofluorescence, overlapping signals, nonspecific antibodies, staining-order effects, tissue loss, alignment errors and incorrect cell boundaries. Cannot establish: all proteins, live-cell behaviour, antigen specificity, actual killing or universal treatment eligibility. Validation: specific to the panel, staining, imaging, analysis and intended use.",
+        "Figure reading (fictional, no cutoff): channels A and B are measured, registered marker images; the overlay adds estimated cell masks. Centre-to-centre distance includes the cell interiors, while boundary-to-boundary distance spans only the gap, so the two rulers give different numbers for the same pair. Proximity under either rule is not contact, recognition or killing."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts and selected full texts read",
+        "editedOn": "2026-11-09",
+        "note": "Added from Lin 2018 (PMID 29993362, full text PMC6075866 read for the cycle-number and staining-order experiment), Radtke 2020 (PMID 33376221) and Taube 2021 (PMID 34266881, results read in the abstract and full text PMC8286792): DOI and PMID resolved and matched on title, authors and year. The existing meta-analysis sentence on checkpoint-inhibitor prediction was not re-verified in this batch and is unchanged."
+      },
+      "principle": "Sequential antibody staining with fluorescent tyramide deposition, antibody stripping between rounds, and spectral unmixing to separate channels.",
+      "strengths": [
+        "Uses standard pathology sections",
+        "Captures cell-to-cell proximity",
+        "Better predictor of immunotherapy response than single-marker IHC in pooled studies"
+      ],
+      "limitations": [
+        "Panel design and validation are laborious",
+        "Inter-laboratory standardisation incomplete",
+        "Cell calls depend on estimated cell boundaries, and repeated cycles can change signal or tissue retention",
+        "Closeness of an immune cell to a cancer cell does not show recognition or killing",
+        "A virtual or computationally predicted marker map is a prediction, not performed staining",
+        "Clinical use needs evidence for the specific panel, analysis and intended decision"
+      ]
+    },
+    {
+      "id": "overfitting",
+      "kind": "term",
+      "name": "Overfitting",
+      "aka": [
+        "overfitting",
+        "overfitted model",
+        "overfitted signature",
+        "optimistic accuracy"
+      ],
+      "tldr": "Overfitting is when a model learns the chance patterns and quirks of the data used to build it, so it looks accurate there and does worse in new patients.",
+      "summary": "When a study measures many candidate features in few patients, some features will separate good from poor outcomes by chance alone, and a signature chosen and scored in the same patients overstates how well it predicts. Michiels and colleagues reanalysed the seven largest published microarray studies of cancer prognosis using many random training and validation splits: the lists of predictive genes depended strongly on which patients were in the training set, the published results were over-optimistic because validation had been inadequate, and five of the seven studies did not classify patients better than chance. Venet and colleagues compared 47 published breast cancer outcome signatures with signatures made of random genes: 28 of them (60 per cent) were not significantly better predictors than random signatures of the same size, and more than 90 per cent of random signatures of more than 100 genes were significant outcome predictors, in part because much of the breast cancer transcriptome tracks proliferation. An outcome association alone does not establish that the biology named by a signature causes the outcome. Overfitting is not the same as bias in the data: a model can also be wrong because its development patients differ from the patients it is used on, and both lower real-world accuracy. Three habits hide the problem: scoring a model on the patients that built it, adjusting a threshold after seeing results, and relying on one favourable split. Repeated internal splits reduce optimism but do not test a new hospital, assay batch or population. The defence is a model locked before testing, evaluated in independent patients and compared with a simple baseline.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Michiels et al., Prediction of cancer outcome with microarrays: a multiple random validation strategy (Lancet 2005)",
+          "url": "https://doi.org/10.1016/S0140-6736(05)17866-0"
+        },
+        {
+          "label": "Venet et al., Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome (PLoS Computational Biology 2011)",
+          "url": "https://doi.org/10.1371/journal.pcbi.1002240"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "train-test-discipline",
+        "cross-validation",
+        "data-leakage",
+        "external-validation",
+        "batch-effects"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reading guide (OnCo inference). A statistically significant outcome association does not by itself establish clinical usefulness. Choosing genes and a cutoff in the same patients measures fit; a locked score needs evaluation in separate patients and comparison with a simple baseline."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts and selected full texts read",
+        "editedOn": "2026-11-09",
+        "note": "Michiels 2005 (PMID 15705458) and Venet 2011 (PMID 22028643): DOI and PMID resolved and matched on title, authors and year; the five-of-seven finding is from the Michiels abstract (no open full text), the 60 per cent, 28-of-47 and more-than-90-per-cent figures from the Venet abstract and results text. The three habits and the defence are the lesson's general principles, not findings of those two papers."
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "multi-omic-integration",
+      "kind": "term",
+      "name": "Multi-omic integration",
+      "aka": [
+        "multi-omic integration",
+        "multi-omics integration",
+        "multiomic integration",
+        "integrative multi-omics",
+        "Multi-Omics Factor Analysis"
+      ],
+      "tldr": "Multi-omic integration analyses measurements from different molecular layers, such as DNA, RNA and protein, side by side while keeping track of what each one measured and which specimen it came from.",
+      "summary": "A DNA change, an RNA count and a protein or phosphorylation measurement answer different questions, so integration starts with an evidence record for each measurement: the patient or experimental unit, specimen, collection time, tissue region, method, units and quality limits. Measurements from one specimen are paired; measurements from separate cohorts are not, and even adjacent tissue sections do not hold identical cells. Three reports that copy one DNA call add no new layer, and a value predicted by a model, such as RNA imputed from an image, must stay labelled as imputed beside measured values. Multi-Omics Factor Analysis (Argelaguet and colleagues, 2018) is one research method: it infers hidden factors that capture biological and technical sources of variability, separates axes shared across data types from axes specific to one, and can impute missing data; the authors applied it to 200 samples of chronic lymphocytic leukaemia profiled for somatic mutations, RNA expression, DNA methylation and ex vivo drug response. A factor is a statistical pattern, not a mechanism or a validated test. Technical variation needs its own handling: Risso and colleagues (2014) showed that usual RNA sequencing normalisation mostly accounts for sequencing depth and fails to correct library preparation and other unwanted technical effects, and where treatment time and processing method always change together, those data alone cannot separate their effects. In a proteogenomic study of 105 genomically annotated breast cancers, 77 of which gave high-quality data, pathway analysis of the phosphoproteome identified a G-protein-coupled receptor cluster that was not readily identified at the mRNA level (Mertins and colleagues, 2016), an example of layers adding different information. Correlation between layers is not a tested dependency, and a controlled intervention addresses a different question. Layers need not agree numerically, and disagreement is not automatically an error: bulk RNA from a mixed sample can be high for a gene whose protein, on a tissue image, sits mainly in normal vessel cells, so averaging the two into one confidence score would hide whether malignant cells carry an accessible target. Combining layers can reveal agreement, competing explanations, missing evidence or a sample mismatch, and it does not by itself show that a matching treatment will help: the ESMO Scale for Clinical Actionability of molecular Targets (2018) grades alterations in six levels of clinical evidence by their implications for patient management, from targets ready for routine decisions to investigational targets that need more data (Mateo and colleagues, 2018; a second version appeared in 2026). For a prediction model, a patient who appears in several layers must stay on one side of a patient-level split, and many cells from one biopsy are not many patients.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Argelaguet et al., Multi-Omics Factor Analysis, a framework for unsupervised integration of multi-omics data sets (Molecular Systems Biology 2018)",
+          "url": "https://doi.org/10.15252/msb.20178124"
+        },
+        {
+          "label": "Risso et al., Normalization of RNA-seq data using factor analysis of control genes or samples (Nature Biotechnology 2014)",
+          "url": "https://doi.org/10.1038/nbt.2931"
+        },
+        {
+          "label": "Mertins et al., Proteogenomics connects somatic mutations to signalling in breast cancer (Nature 2016)",
+          "url": "https://doi.org/10.1038/nature18003"
+        },
+        {
+          "label": "Mateo et al., A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT) (Annals of Oncology 2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        },
+        {
+          "label": "El Helali et al., The ESMO Scale for Clinical Actionability of Molecular Targets, version 2 (ESCAT v2): an evidence-based framework for ranking alterations as actionability and resistance biomarkers in precision oncology (Annals of Oncology 2026)",
+          "url": "https://doi.org/10.1016/j.annonc.2026.09.008"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "proteomics",
+        "spatial-transcriptomics"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "multimodal-fusion",
+        "batch-effects",
+        "cell-composition-confound",
+        "mrna-protein-concordance",
+        "bulk-rna-seq",
+        "tumour-purity",
+        "data-leakage"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Integration card for combining molecular layers (a reading guide, not a score). Measures: relationships among named layers, not one universal multi-omic score. How: match evidence records, check quality and comparability, harmonise features, compare or model, then evaluate the stated question. Input and tissue cost: existing assay data and metadata; computation uses no extra tissue, but each original assay has its own specimen cost. Output and units: a comparison, factors, clusters or predictions, with the model version and underlying units. Thresholds: specific to the method and validated task, and none applies to every integration. Failure modes: sample swaps, cell-mixture changes, batch confounding, missing data and information leaking into evaluation. Cannot establish alone: causation, malignant-cell target location or better treatment outcomes. Validation tier: research integration gives neither its inputs nor its resulting model a clinical status.",
+        "Figure reading (fictional): the same DNA call, a T in the sequence A C T G A, is copied into Report A, Report B and Report C, which is one observation reported three times. A separate RNA assay showing a splice junction is a new measurement that answers a new question, and it does not by itself confirm the DNA call.",
+        "Figure reading (fictional Target Q): specimen S at time T1 supplies bulk RNA, where Q is abundant, and a tissue image, where Q protein is seen in normal vessel cells. Whether malignant cells carry accessible Q is unresolved, a model-imputed Q is labelled as an estimate rather than a measurement, and a different specimen or time point is not paired evidence."
+      ],
+      "provenance": {
+        "editedBy": "OnCo systematic education audit, round 3 (spatial and computational content): Crossref and Europe PMC identity checks, abstracts and selected full texts read",
+        "editedOn": "2026-11-09",
+        "note": "Argelaguet 2018 (PMID 29925568), Risso 2014 (PMID 25150836) and Mertins 2016 (PMID 27251275): DOI and PMID resolved and matched on title, authors and year; the 200-sample leukaemia application, the biological-and-technical factor description, the depth-only normalisation finding and the 105/77 breast cancer counts were read in the abstracts. The paired-versus-unpaired, imputation-label and patient-level-split points are the lesson's methodological principles, not findings of those papers. The lesson's NCI biomarker-testing citation was not adopted: the page text does not state that a molecular match fails to ensure benefit."
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "cross-validation",
+      "kind": "term",
+      "name": "Cross-validation and stratified k-fold",
+      "aka": [
+        "cross-validation",
+        "cross validation",
+        "k-fold cross-validation",
+        "5-fold cross-validation",
+        "stratified k-fold",
+        "stratified cross-validation",
+        "nested cross-validation",
+        "random seed"
+      ],
+      "tldr": "Cross-validation repeatedly fits a model on part of the data and evaluates it on reserved data. Choices made using those results still belong to model development.",
+      "summary": "Cross-validation is a family of model validation techniques for assessing how a statistical analysis will generalise to independent data, using resampling and sample splitting (Wikipedia); stratifying the folds aims to preserve class proportions, subject to the available examples in each class. It estimates performance but is not a substitute for an external cohort, and every preprocessing step (scaling, PCA, feature selection) must be fitted inside the training fold or the estimate leaks. Reporting the seed makes the folds reproducible. If cross-validation is also used to choose settings, those choices belong to model development, so the same folds cannot also serve as the independent test; TRIPOD+AI defines internal validation (for example a train-test split or cross-validation) as evaluation within the population the model was developed on and asks that evaluation data stay distinct from data used for tuning.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)",
+      "links": [
+        {
+          "label": "Wikipedia: stratified sampling",
+          "url": "https://en.wikipedia.org/wiki/Stratified_sampling"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cross-validation_(statistics)"
+        },
+        {
+          "label": "Collins et al., TRIPOD+AI statement (BMJ 2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-078378"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "train-test-discipline",
+        "data-leakage",
+        "external-validation",
+        "bootstrap"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/cross-validation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "train-test-discipline",
+      "kind": "term",
+      "name": "Train, validation and test split discipline",
+      "aka": [
+        "train/validation/test split",
+        "training set",
+        "validation set",
+        "test set",
+        "held-out test set",
+        "held-out test split",
+        "80/20 split",
+        "hold-out set"
+      ],
+      "tldr": "Training data fit a model, validation data guide choices, and reserved evaluation data test the locked version. The split must match the intended population and prediction task. Choices made using evaluation results make those data part of model development.",
+      "summary": "Training data fit a model, validation data guide choices, and final evaluation data test the locked version. The split needs to match the intended claim; no single split proportion establishes validity. The TRIPOD+AI guidance defines evaluation data as data used to estimate model performance that are distinct from the data used to train the model, tune hyperparameters or select a model, with no overlap in participants (Collins and colleagues, 2024). It asks authors to describe the target population and intended purpose, and to define the outcome and its time horizon. Many cells or repeated wells from one donor are not many independent donors, so a new-donor test has to reserve whole donors across every fitting and tuning choice. Different holdouts answer different questions. In a 2025 benchmark, models were fitted on single perturbations plus 62 of 124 double perturbations and scored on the other 62 double perturbations, repeated over five random partitions, and the same study separately tested prediction of unseen single perturbations in CRISPR interference datasets (Ahlmann-Eltze and colleagues, 2025). Simple baselines, a no-change model and an additive model, were part of the comparison.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Training,_validation,_and_test_data_sets"
+        },
+        {
+          "label": "Collins et al., TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods (BMJ 2024)",
+          "url": "https://doi.org/10.1136/bmj-2023-078378"
+        },
+        {
+          "label": "Ahlmann-Eltze et al., Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (Nature Methods 2025)",
+          "url": "https://doi.org/10.1038/s41592-025-02772-6"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cross-validation",
+        "data-leakage",
+        "external-validation",
+        "pre-registered-experiment",
+        "overfitting"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Evaluation card in words (a reading guide). Input and cost: the data, their provenance and the independent units; computation adds no tissue, but generating reference assays or outcomes has its own cost. Output and units: a named error or discrimination metric, calibration where relevant, uncertainty, and subgroup and failure denominators. Rule and threshold: the version, preprocessing and decision cutoff fixed before final evaluation, with no universal passing cutoff. Failure modes: leakage, overlap, a mismatched outcome, selective missing data or a changed population. Validation tier: task-specific performance evidence, with regulatory status and helpful clinical use as separate questions.",
+        "Fictional worked example. A dataset holds cells from 20 donors, and each donor's cells are split between training and testing. Every one of the 20 donors was seen during fitting, so the result addresses a within-donor question and cannot establish performance on new donors; for that question whole donors must be reserved across fitting and tuning (for illustration 16 donors for development and 4 reserved, 16 + 4 = 20, with no recommended proportion).",
+        "Fictional worked example. Withholding more cells exposed to intervention X does not show that the response to intervention Y can be predicted. For an unseen-intervention claim, Y's measured response must be absent from fitting and tuning, and the donor, batch and intervention relationships must be kept visible.",
+        "Figure reading (fictional identities, light and dark renders agree): panel 1 keeps donors D1 and D2 on both sides, with new cells only; panel 2 fits on D1 and D2 and reserves D3 and D4, a new-donor question; panel 3 fits on use of intervention X and reserves the response to Y, which is absent from fitting and tuning. Donor and intervention splits ask different generalisation questions, and no panel claims performance.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/train-validation-test."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "virtual-cell-models",
+      "kind": "term",
+      "name": "Virtual cell models and in-silico perturbation screens",
+      "aka": [
+        "virtual cell",
+        "virtual cell model",
+        "virtual cells",
+        "in-silico perturbation",
+        "in silico perturbation",
+        "in-silico knockout screen",
+        "in silico knockout",
+        "perturbation prediction",
+        "Virtual Cell Challenge",
+        "CZI Virtual Cells",
+        "OCTO-vc",
+        "Noetik OCTO-VirtualCell"
+      ],
+      "tldr": "A virtual cell is a computer model of specified aspects of cells. A predicted response is a model output whose accuracy must be tested against independent measurements.",
+      "summary": "A virtual cell is a computational model of specified aspects of cells. Its outputs and evaluation depend on the task, training data and model version. scGen combined variational autoencoders with latent-space vector arithmetic and was reported to model perturbation and infection responses across cell types, studies and species, having noted that generalisation to phenomena absent from training data had not previously been shown (Lotfollahi and colleagues, 2019). A 2025 benchmark found that none of five single-cell foundation models and two other deep-learning models predicted transcriptome changes after single or double gene perturbations better than deliberately simple baselines; for most genes the predictions of scGPT, UCE and scBERT did not vary across perturbations, and those of GEARS and scFoundation varied considerably less than the observed values (Ahlmann-Eltze and colleagues, 2025). An AI virtual cell is described as a multi-scale, multi-modal large neural network model in a perspective that sets priorities for accelerating discoveries and guiding experiments, not a validation (Bunne and colleagues, 2024).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cellular_model",
+      "links": [
+        {
+          "label": "Arc Institute Virtual Cell Challenge",
+          "url": "https://virtualcellchallenge.org/"
+        },
+        {
+          "label": "CZ Biohub AI-supported Virtual Cells platform",
+          "url": "https://virtualcellmodels.cziscience.com/"
+        },
+        {
+          "label": "Wikipedia: in silico",
+          "url": "https://en.wikipedia.org/wiki/In_silico"
+        },
+        {
+          "label": "Noetik",
+          "url": "https://www.noetik.ai/"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cellular_model"
+        },
+        {
+          "label": "Lotfollahi et al., scGen predicts single-cell perturbation responses (Nature Methods 2019)",
+          "url": "https://doi.org/10.1038/s41592-019-0494-8"
+        },
+        {
+          "label": "Ahlmann-Eltze et al., Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (Nature Methods 2025)",
+          "url": "https://doi.org/10.1038/s41592-025-02772-6"
+        },
+        {
+          "label": "Bunne et al., How to build the virtual cell with artificial intelligence: Priorities and opportunities (Cell 2024)",
+          "url": "https://doi.org/10.1016/j.cell.2024.11.015"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "noetik",
+        "idea-data-open-cell-foundation-model",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "crispr-screens"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "foundation-model",
+        "mechanism-of-action-recovery",
+        "single-cell-rna-seq"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reading guide (OnCo inference). The task defines what an output means: filling a missing RNA value from an image, estimating a drug response and predicting a gene-disruption response are different tasks, and success at one does not validate another. A virtual perturbation changes a model input and calculates an output; it is not a performed experiment, and masking a gene value is not the same as removing the gene's function. Predicted RNA is not measured RNA, protein activity or patient benefit. Agreement summarised across all genes can conceal poor prediction of the few genes that changed, so compare against simple baselines on the genes that moved. An association learned from untreated tissue does not by itself identify a causal drug effect. Whether a model's output supports treatment selection needs separate intended-use clinical evidence, whereas prioritising experiments is a lesser claim.",
+        "Fictional worked example. A model accurately fills missing RNA values from images of familiar samples. That is measurement completion; it says nothing about a drug that was never tested. To claim a drug response, define the intervention and outcome, reserve independent measured experiments, and compare with baselines and the measured response.",
+        "Fictional worked example. A model learns RNA responses to interventions in one cell line and correctly predicts additional cells exposed to a familiar intervention. That did not test a never-tested intervention in breast tumour cells; a reserved set of measured interventions and compatible breast-cell data would support a closer evaluation.",
+        "Model card in words (a reading guide). Input and tissue cost: the measured data, preprocessing and missing inputs; computation uses data, while new data collection may consume tissue. Output: the predicted object with units, intervention, dose and time. Version and scope: model version, training population and intended task. Evaluation: what was held out, the baselines, error measures and external data. Failure modes: leakage, incompatible inputs, context shift or the wrong endpoint. Cannot establish alone: a performed perturbation, complete cell biology or better clinical outcomes.",
+        "Figure reading (fictional teaching scene, light and dark renders agree): panel 1 fills a missing observation, where images paired with RNA from a defined population train a model that outputs a computed RNA value for a held-out donor and is tested against the masked measured value; panel 2 trains on measured responses to familiar X and forecasts withheld Y, tested later against a reserved measured response; panel 3 says a new donor tests donor generalisation, a new intervention tests intervention transfer, and neither automatically tests a new cell type. Computed is not measured, and the population, task and version stay attached.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/virtual-cell."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "mass-spec-proteome",
+      "kind": "term",
+      "name": "Deep mass-spectrometry proteome (CPTAC)",
+      "aka": [
+        "mass-spectrometry proteome",
+        "mass spectrometry proteomics",
+        "deep proteome",
+        "global proteome",
+        "MS proteomics",
+        "TMT proteomics",
+        "phospho-proteomics data"
+      ],
+      "tldr": "Mass-spectrometry proteomics identifies protein-derived peptides and can quantify signals under a defined workflow. It does not measure every protein or directly establish a cell's activity.",
+      "summary": "Bottom-up mass-spectrometry proteomics identifies protein-derived peptides and can quantify selected signals under a defined workflow. Mass spectrometry-based proteomics can identify and increasingly quantify thousands of proteins in complex samples (Aebersold and Mann, 2003). Protein inference, working out which proteins are present from the identified peptides, is difficult because many peptide sequences occur in several proteins (Lukasse and America, 2014). The target-decoy strategy uses hits to a decoy database to distinguish correct from incorrect peptide identifications (Elias and Gygi, 2007), and a dataset-level false-positive rate is a property of the accepted set, not a guarantee for each identification (Beausoleil and colleagues, 2006 reported a peptide false-positive rate of 1.3 per cent for their dataset). In 105 genomically annotated breast cancers, 77 of which gave high-quality data, pathway analysis of the phosphoproteome identified a G-protein-coupled receptor cluster that was not readily identified at the mRNA level (Mertins and colleagues, 2016).",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mass_spectrometry",
+      "links": [
+        {
+          "label": "CPTAC (NCI Office of Cancer Clinical Proteomics Research)",
+          "url": "https://proteomics.cancer.gov"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mass_spectrometry"
+        },
+        {
+          "label": "Aebersold and Mann, Mass spectrometry-based proteomics (Nature 2003)",
+          "url": "https://doi.org/10.1038/nature01511"
+        },
+        {
+          "label": "Lukasse and America, Protein inference using peptide quantification patterns (Journal of Proteome Research 2014)",
+          "url": "https://doi.org/10.1021/pr401072g"
+        },
+        {
+          "label": "Elias and Gygi, Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry (Nature Methods 2007)",
+          "url": "https://doi.org/10.1038/nmeth1019"
+        },
+        {
+          "label": "Mertins et al., Proteogenomics connects somatic mutations to signalling in breast cancer (Nature 2016)",
+          "url": "https://doi.org/10.1038/nature18003"
+        },
+        {
+          "label": "Carr et al., Targeted peptide measurements in biology and medicine (Molecular and Cellular Proteomics 2014)",
+          "url": "https://doi.org/10.1074/mcp.M113.036095"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cptac",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "proteomics",
+        "proteomics-platforms"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "rppa",
+        "mrna-protein-concordance",
+        "pathway-activation-state",
+        "multi-omic-integration"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reading guide (OnCo inference built on the sources). Bottom-up proteomics digests proteins to peptides, separates them by liquid chromatography, measures ions and fragments by tandem mass spectrometry, and identifies peptides by software, so evidence for an intact, functional protein is indirect. A shared peptide cannot choose between candidate proteins; inference uses the other peptides recovered and reports ambiguity. A ratio needs its denominator, an absolute amount needs calibration with standards in a matched matrix (Carr and colleagues, 2014), and a peptide standard does not by itself show recovery of the original protein. A bulk extract mixes cells and loses their positions, so a peptide signal per mass of extract is not receptors per cancer cell.",
+        "Fictional worked example. A bulk assay reports twice as much receptor-derived peptide per microgram of extract. Twice as much signal per unit of extract mass (2 x) does not mean twice as many accessible receptors on each cancer cell, because cell mixture, location and the relation of the quantified peptide to receptor forms are unresolved; a cell-specific surface measurement answers a different question.",
+        "Figure reading (fictional schematic, light and dark renders agree): proteins from a defined mixed sample are extracted and digested into a peptide mixture; peptide signals come from a separation and measurement step; one shared peptide fits both candidate protein A and candidate protein B, so it cannot say which was present; intact form, source cells and surface access remain separate questions that need other evidence.",
+        "Assay card in words (a reading guide). Measures and method: protein-derived peptide identity and abundance after extraction, digestion, separation and ion measurement. Input and tissue cost: a defined tissue or cell extract; fresh-frozen and formalin-fixed workflows exist with method-specific input needs; extraction consumes material and destroys spatial arrangement. Output and units: peptide and protein identifiers, normalised intensity or ratios; calibrated assays may report amounts such as femtomoles per microgram of input protein. Thresholds: identification false-discovery rate, analyte-specific detection and quantification limits, missing-value rules and calibrated range, with no universal abundance cutoff for treatment. Failure modes: incomplete extraction or digestion, shared peptides, interference, missing low-abundance analytes and inconsistent preparation. Limits: no automatic intact-form, location, accessibility, cell-of-origin or dependency conclusion. Validation context: broad discovery and targeted clinical measurement have different requirements.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/deep-ms-proteome."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Biomarkers"
+    }
+  ]
+}

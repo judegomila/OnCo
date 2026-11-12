@@ -1,0 +1,97 @@
+{
+  "fullGates": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 1.88
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 2.71
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 27.67
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 98.0
+    }
+  ],
+  "fullSuite": {
+    "testFilesPassed": 289,
+    "testsPassed": 2875,
+    "testsSkipped": 2
+  },
+  "exports": [
+    {
+      "group": "root",
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 26.98
+    },
+    {
+      "group": "root",
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.61
+    },
+    {
+      "group": "root",
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.12
+    },
+    {
+      "group": "root",
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 4.75
+    }
+  ],
+  "actualMarkdownPassages": 119,
+  "retrievalBenchmark": {
+    "questions": 100,
+    "extractiveRecall": 0.4352,
+    "rubric": 0.668,
+    "sameAsCheckpoint": true
+  },
+  "pageWeight": {
+    "recordedCeilings": 14,
+    "allPass": true,
+    "budgetsChanged": false
+  },
+  "productionBuildOrDeployment": false,
+  "afterLedgerIntegrationFocusedChecks": {
+    "files": [
+      "scripts/education-coverage.test.ts",
+      "scripts/education-summary-consumers.test.ts",
+      "scripts/audit.test.ts"
+    ],
+    "testFilesPassed": 3,
+    "testsPassed": 34
+  }
+}

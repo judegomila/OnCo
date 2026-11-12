@@ -1,0 +1,24 @@
+[
+  {
+    "nctId": "NCT06382142",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06382142",
+    "retrievedAt": "2026-11-09T01:04:39.531072+00:00",
+    "sha256": "b1b85843503a6fd39ea0b2c4fd616f9036975dd82a4a5f3f2c5364d78d17a87e",
+    "review": "identity/design context for pre-existing links; no clinical outcome, open-slot or local-cohort availability inferred",
+    "lastUpdate": {
+      "date": "2026-07-23",
+      "type": "ACTUAL"
+    }
+  },
+  {
+    "nctId": "NCT06304974",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT06304974",
+    "retrievedAt": "2026-11-09T01:04:39.525038+00:00",
+    "sha256": "60cf0cef2789a95c9c8448b0820483acb106f547fc864ab6a2c4fe428aef9731",
+    "review": "identity/design context for pre-existing links; no clinical outcome, open-slot or local-cohort availability inferred",
+    "lastUpdate": {
+      "date": "2026-07-23",
+      "type": "ACTUAL"
+    }
+  }
+]

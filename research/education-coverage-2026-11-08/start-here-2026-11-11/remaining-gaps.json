@@ -1,0 +1,19 @@
+{
+  "cohortUnrepresentedSubstantiveRows": [],
+  "adoptedSourceScope": "Representation is assessed at the named abstract, targeted-passage, inherited-source and premise-backed-inference depths. This is not clinical certification.",
+  "sourceOnlyWording": [
+    "The general source treatment language and postoperative diagram node still need their source owner to retain eligibility and conditional-use qualifications. No Guide source is edited here."
+  ],
+  "retainedCatalogueNotReverified": [
+    "KEYNOTE-522 later ASCO update, UK site catalogue and older safety figures",
+    "Residual-decision registry status, later OlympiA OS assertion and earlier other-trial/ctDNA operational wording",
+    "Other unselected assertions in the 34 dependency owners"
+  ],
+  "newAdjacentOpen": "checkpoint-mechanism-template-guardrails",
+  "buildLimits": [
+    "No full Next production build",
+    "No browser hydration or deployed-page verification",
+    "No main/live, expert, learner or language approval"
+  ],
+  "broaderGoalComplete": false
+}

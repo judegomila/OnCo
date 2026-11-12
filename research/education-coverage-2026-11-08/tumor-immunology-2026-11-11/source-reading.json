@@ -1,0 +1,4053 @@
+{
+  "versions": [
+    {
+      "lesson": "agretopicity",
+      "path": "wiki/education/concepts/immunology/antigen-presentation/agretopicity.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "83c9e8562b1462ef8709a99fffffb2e62f9b2c5439bc8e3f1f389c184e850bee",
+      "gitBlob": "b93d97bf2662e03058c788e4f95f769ca3e4e6bc",
+      "bytes": 12768,
+      "capture": "c9689645-agretopicity.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "1b76eb197bcbdb055eae6dd96bb5afc9d1547c5dd24d483d0d43a35365846fdc",
+          "chars": 17,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "3eb3a64db2aab224296c8eca421ea167112c04ce1bd5a3391eeb8af986cb6234",
+          "chars": 197,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [
+            "agretopicity:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "aec403dcb49e57d92bb0978cbfa2509e99ac97c34524e6d5ecc28cb12bc00505",
+          "chars": 1058,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:2"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:two-questions"
+          ]
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e7fd4cadd8187113b81ea4f798776b74d753794e29496870eb2e6166e07b2ae2",
+          "chars": 1899,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:3",
+            "agretopicity:4",
+            "agretopicity:5"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:comparison",
+            "agretopicity:convention",
+            "agretopicity:anchor",
+            "agretopicity:tolerance",
+            "agretopicity:absolute"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "a563be904cef008d255cbe28ed48f33083145a5b78111e2d292a904aadeeb148",
+          "chars": 762,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:6",
+            "agretopicity:7"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:ranking",
+            "agretopicity:tissue"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "What the evidence shows",
+          "kind": "additional-teaching",
+          "sha256": "e60fd118e3aa9c2ea8ca909b15bf09da9389b174faf094ed7599a40e037efaf7",
+          "chars": 2795,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:8",
+            "agretopicity:9",
+            "agretopicity:10",
+            "agretopicity:11"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:tiers",
+            "agretopicity:ghorani-cohorts",
+            "agretopicity:three-five",
+            "agretopicity:clonal",
+            "agretopicity:infiltration",
+            "agretopicity:heterogeneity",
+            "agretopicity:tesla",
+            "agretopicity:burden-comparison"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5983cfc55a435d51283cc74dbd849bd603672d12eca264cce93b4e2fe8a6a341",
+          "chars": 1098,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:12"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:immunogenicity",
+            "agretopicity:self-similarity",
+            "agretopicity:class-scope"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "29416efa2cb4d91686ca7a34932b6702e9d1d081b43e6e5b980fbb7480959e6a",
+          "chars": 549,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "agretopicity:7",
+            "agretopicity:13"
+          ],
+          "semanticRequirementIds": [
+            "agretopicity:pipeline",
+            "agretopicity:gates"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Related concepts",
+          "kind": "additional-teaching",
+          "sha256": "f4b5b4ad2fbd9b4c0c96ddb2d5274970a28e396949f8b8e912f5e6a7fe8b6401",
+          "chars": 838,
+          "disposition": "navigation-links-no-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Sources",
+          "kind": "source-scope",
+          "sha256": "ae06deb4a50a5a3bcb2b0600e12fceaf2f6c5289618e1354012ac8a45b58a978",
+          "chars": 1847,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "agretopicity:comparison",
+        "agretopicity:convention",
+        "agretopicity:anchor",
+        "agretopicity:tolerance",
+        "agretopicity:absolute",
+        "agretopicity:two-questions",
+        "agretopicity:ranking",
+        "agretopicity:tissue",
+        "agretopicity:tiers",
+        "agretopicity:ghorani-cohorts",
+        "agretopicity:three-five",
+        "agretopicity:clonal",
+        "agretopicity:infiltration",
+        "agretopicity:heterogeneity",
+        "agretopicity:tesla",
+        "agretopicity:immunogenicity",
+        "agretopicity:self-similarity",
+        "agretopicity:class-scope",
+        "agretopicity:pipeline",
+        "agretopicity:gates",
+        "agretopicity:burden-comparison"
+      ]
+    },
+    {
+      "lesson": "nk-cell-receptors",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-receptors.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "dcaa42389acaa910f8aefbd8087e034098ef62ce45b1e06a59ad4ea7a70525a8",
+      "gitBlob": "3ad4a8f67ecf6678ff1f4bb85ee65365b688be64",
+      "bytes": 9700,
+      "capture": "c9689645-nk-cell-receptors.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "87e249a2140dde54c6a874b71e342254dd7efe221243a9b5f31d88df61aead61",
+          "chars": 22,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "fcfc48cdae66f508cbf0aab673d9b561ceeb9ce52edb5df4bd9d577cefc0ebb4",
+          "chars": 207,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "0a5d696ef0a569c6e054aae33675c9b0de677278aba81ff7686b2472714b22b8",
+          "chars": 478,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:1"
+          ],
+          "semanticRequirementIds": [
+            "nk-cell-receptors:repertoire"
+          ]
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "af95ef319c43707e1753091db65c62a0e42cb6ad11ff804668f51227d41e107d",
+          "chars": 2557,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:1",
+            "nk:2",
+            "nk:3",
+            "nk:4",
+            "nk:5",
+            "nk:6",
+            "nk:7",
+            "nk:8",
+            "nk:9",
+            "nk:10",
+            "nk:11"
+          ],
+          "semanticRequirementIds": [
+            "nk-cell-receptors:inherited",
+            "nk-cell-receptors:integration",
+            "nk-cell-receptors:kir-inhibitory",
+            "nk-cell-receptors:kir-activating",
+            "nk-cell-receptors:nkg2a",
+            "nk-cell-receptors:nkg2c",
+            "nk-cell-receptors:nkg2d",
+            "nk-cell-receptors:ncr",
+            "nk-cell-receptors:dnam-tigit",
+            "nk-cell-receptors:cd16",
+            "nk-cell-receptors:education"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "5dc5ffb57e56782e47aa97da38bafffca2d3765784ca693649a8a3c9ce46b770",
+          "chars": 1492,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:10",
+            "nk:12",
+            "nk:13",
+            "nk:14",
+            "nk:15",
+            "nk:19"
+          ],
+          "semanticRequirementIds": [
+            "nk-cell-receptors:missing-self",
+            "nk-cell-receptors:mic-shedding",
+            "nk-cell-receptors:andre",
+            "nk-cell-receptors:interlink",
+            "nk-cell-receptors:fc-design"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7355aca655cc6d98de5be01d15f74bca40f294f1bbb310e9e6593d94882b559c",
+          "chars": 463,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:16"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8b41214a4edc28b68db7f9ea3ad594f05b7bb0110709a9d3b189ceb5727de63f",
+          "chars": 413,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:17"
+          ],
+          "semanticRequirementIds": [
+            "nk-cell-receptors:measurement"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "392da77a6f1f25d95eb409e4ba350e77ffb18137117a33d80ed6bddcac8847b5",
+          "chars": 342,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "nk:18"
+          ],
+          "semanticRequirementIds": [
+            "nk-cell-receptors:brake-accelerator"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "118bbdafff2d1306137ade4c29bfec8709919c2282ec1e71496d797b918d4417",
+          "chars": 201,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "nk:18"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "5cd06df7a447ea87686f4828ddf36285c9f887317bab7b0a0ace4ee93ae262ec",
+          "chars": 92,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "54b1f08914f78351f48dfc1c374cc5bfd39e6df246999a91d0ce2230ba7bb030",
+          "chars": 1238,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "nk-cell-receptors:inherited",
+        "nk-cell-receptors:integration",
+        "nk-cell-receptors:kir-inhibitory",
+        "nk-cell-receptors:kir-activating",
+        "nk-cell-receptors:nkg2a",
+        "nk-cell-receptors:nkg2c",
+        "nk-cell-receptors:nkg2d",
+        "nk-cell-receptors:ncr",
+        "nk-cell-receptors:dnam-tigit",
+        "nk-cell-receptors:cd16",
+        "nk-cell-receptors:education",
+        "nk-cell-receptors:repertoire",
+        "nk-cell-receptors:missing-self",
+        "nk-cell-receptors:mic-shedding",
+        "nk-cell-receptors:andre",
+        "nk-cell-receptors:interlink",
+        "nk-cell-receptors:fc-design",
+        "nk-cell-receptors:measurement",
+        "nk-cell-receptors:brake-accelerator"
+      ]
+    },
+    {
+      "lesson": "cd4-t-cell-subsets",
+      "path": "wiki/education/concepts/immunology/t-cells/cd4-t-cell-subsets.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "dddfc1597d57c6e742a67a78167ac3319d5a2e13f3bcc25d00b4a49560386d4d",
+      "gitBlob": "acc5c3c123c0069688166efd80fa4d1e289af7b5",
+      "bytes": 9515,
+      "capture": "c9689645-cd4-t-cell-subsets.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "9eb50fe9ab8bd094a535c551ffee822c3ee4c54b54e727ecd8823d3f378ff385",
+          "chars": 23,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "6e805343d3166be56159c7b37c2a060477071a6c52482bb72fca0a0ea65fdbe2",
+          "chars": 213,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "ffbb2a70be1ad83f8bc3969a4ea321c0c81f4f35ce13e6da9273e33dc0bb3987",
+          "chars": 490,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:1"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:plasticity"
+          ]
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9a825dab64424fe0ac843242451d62c05f07f2bbeb065fe7cb06c90c1674f60a",
+          "chars": 2166,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:1",
+            "cd4:2",
+            "cd4:3",
+            "cd4:4",
+            "cd4:5",
+            "cd4:6",
+            "cd4:7",
+            "cd4:8"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:priming",
+            "cd4-t-cell-subsets:th1",
+            "cd4-t-cell-subsets:th2",
+            "cd4-t-cell-subsets:th17",
+            "cd4-t-cell-subsets:tfh",
+            "cd4-t-cell-subsets:treg",
+            "cd4-t-cell-subsets:mosmann",
+            "cd4-t-cell-subsets:licensing"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "68f59f4c89c14f284684e51ac9ac921728dbbd5bf7326cf4d5b15c76345f2a11",
+          "chars": 1508,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:9",
+            "cd4:10",
+            "cd4:11",
+            "cd4:12",
+            "cd4:13"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:alspach",
+            "cd4-t-cell-subsets:ott",
+            "cd4-t-cell-subsets:gu-trantien",
+            "cd4-t-cell-subsets:denardo",
+            "cd4-t-cell-subsets:tumor-tregs"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "7fb681a0a5823dc4a5a5478a7c3b9b62f8a1b62c4a8ba4233ebf948539571f41",
+          "chars": 569,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:14",
+            "cd4:15"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:cytotoxic",
+            "cd4-t-cell-subsets:good-bad",
+            "cd4-t-cell-subsets:marker-function",
+            "cd4-t-cell-subsets:bulk"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "69062b796919a980ab2ff32a74e5389319f6c5fe85036b17b1563a65233cb2c1",
+          "chars": 498,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:16"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:methods"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "9223652cc92df505fa3b162e7b9db112b1acfe745496cd0a3527d002829c76f4",
+          "chars": 419,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cd4:17"
+          ],
+          "semanticRequirementIds": [
+            "cd4-t-cell-subsets:cd4-result"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "429a2c82aff5c8ed9e8ce19e3ff9d58d5a5294fdd9c1243aca86900b83272082",
+          "chars": 179,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "cd4:17"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "b4102a3c96c2fc306e52477e31f9e2277565c2a4ea03a1fb537a8656cbf26c07",
+          "chars": 111,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "2303d6fbe85a5ad03ad6ae07ed7bbbde4b1ab72ca61f0e0aeef58217dee51960",
+          "chars": 1210,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "cd4-t-cell-subsets:priming",
+        "cd4-t-cell-subsets:th1",
+        "cd4-t-cell-subsets:th2",
+        "cd4-t-cell-subsets:th17",
+        "cd4-t-cell-subsets:tfh",
+        "cd4-t-cell-subsets:treg",
+        "cd4-t-cell-subsets:mosmann",
+        "cd4-t-cell-subsets:licensing",
+        "cd4-t-cell-subsets:plasticity",
+        "cd4-t-cell-subsets:alspach",
+        "cd4-t-cell-subsets:ott",
+        "cd4-t-cell-subsets:gu-trantien",
+        "cd4-t-cell-subsets:denardo",
+        "cd4-t-cell-subsets:tumor-tregs",
+        "cd4-t-cell-subsets:cytotoxic",
+        "cd4-t-cell-subsets:good-bad",
+        "cd4-t-cell-subsets:marker-function",
+        "cd4-t-cell-subsets:bulk",
+        "cd4-t-cell-subsets:methods",
+        "cd4-t-cell-subsets:cd4-result"
+      ]
+    },
+    {
+      "lesson": "abscopal-effect",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/abscopal-effect.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "668a3d93c628934893f5c478573145504b05b6d2bc4b76dcf3e9f255c43216a0",
+      "gitBlob": "0287f5e9981f0026a30ef130400b900e577e6c68",
+      "bytes": 8273,
+      "capture": "7510db6b-abscopal-effect.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "e47f0c8bd172f9739febfcdb06ebc3717d819573cd30b87ceac9204ab1d17a99",
+          "chars": 24,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "ea7f170bb25cc819fd078782ff4aab1ba1122ba29f3619a64831a55f8fc5b963",
+          "chars": 168,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "a80ddc1c8bc484e91ea8950560ee6e77c918dd2d3fcca7535c812df37da62c8d",
+          "chars": 335,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c48c495873a9050e2bb48af6280e23dc88c73add94c81aa23c92818b43dbb7a7",
+          "chars": 2085,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:1",
+            "abs:2",
+            "abs:3",
+            "abs:4"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:definition",
+            "abscopal-effect:demaria",
+            "abscopal-effect:causation",
+            "abscopal-effect:injected",
+            "abscopal-effect:figure"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer: frequency needs a denominator",
+          "kind": "additional-teaching",
+          "sha256": "87df6ab657912807ed77adc9edc55052a25d5957974448323cb65ca4afdc94d3",
+          "chars": 1305,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:5",
+            "abs:6"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:frequency",
+            "abscopal-effect:postow",
+            "abscopal-effect:formenti",
+            "abscopal-effect:selection"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "5b03344930dde141ee114ca38ccd1a697f67786e798cdfb25a1a0c12a7d478a7",
+          "chars": 835,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:7"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:card-measures",
+            "abscopal-effect:card-how",
+            "abscopal-effect:card-input",
+            "abscopal-effect:card-output",
+            "abscopal-effect:card-threshold",
+            "abscopal-effect:card-failure",
+            "abscopal-effect:card-limits",
+            "abscopal-effect:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cf929ff169ee8bd4e8d4bd50c44729f824d1641db43a7b1cfe7fbde7a5a1248a",
+          "chars": 245,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "79cc2685e33b36bfd502096df2a7dc8fc4006c338ce154530e55fcd849079e48",
+          "chars": 472,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:9"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "11c53f4be5409f7a8eb23e69ca9fd15926de9bb4abbc23b797b7f3c1994191f0",
+          "chars": 164,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "abs:9"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "276dd4c6ab5acbd2939f76d488ba84dde36f70865df9d13d78b111efb875168f",
+          "chars": 61,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "305dc394f2682e2d22ecbda107bdf093f1068764b99e71c2b1484b017d153d63",
+          "chars": 543,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "abscopal-effect:definition",
+        "abscopal-effect:demaria",
+        "abscopal-effect:causation",
+        "abscopal-effect:injected",
+        "abscopal-effect:figure",
+        "abscopal-effect:frequency",
+        "abscopal-effect:postow",
+        "abscopal-effect:formenti",
+        "abscopal-effect:selection",
+        "abscopal-effect:practice",
+        "abscopal-effect:card-measures",
+        "abscopal-effect:card-how",
+        "abscopal-effect:card-input",
+        "abscopal-effect:card-output",
+        "abscopal-effect:card-threshold",
+        "abscopal-effect:card-failure",
+        "abscopal-effect:card-limits",
+        "abscopal-effect:card-validation"
+      ]
+    },
+    {
+      "lesson": "abscopal-effect",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/abscopal-effect.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "47470faa3cf49aabcfa3daa476d3a463cb0878503acc80a4c91b09a1f08735b5",
+      "gitBlob": "5aed186f9346a251a5d59f85592393cec377e6a7",
+      "bytes": 8369,
+      "capture": "c9689645-abscopal-effect.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "e47f0c8bd172f9739febfcdb06ebc3717d819573cd30b87ceac9204ab1d17a99",
+          "chars": 24,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "ea7f170bb25cc819fd078782ff4aab1ba1122ba29f3619a64831a55f8fc5b963",
+          "chars": 168,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "a80ddc1c8bc484e91ea8950560ee6e77c918dd2d3fcca7535c812df37da62c8d",
+          "chars": 335,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c48c495873a9050e2bb48af6280e23dc88c73add94c81aa23c92818b43dbb7a7",
+          "chars": 2085,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:1",
+            "abs:2",
+            "abs:3",
+            "abs:4"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:definition",
+            "abscopal-effect:demaria",
+            "abscopal-effect:causation",
+            "abscopal-effect:injected",
+            "abscopal-effect:figure"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer: frequency needs a denominator",
+          "kind": "additional-teaching",
+          "sha256": "87df6ab657912807ed77adc9edc55052a25d5957974448323cb65ca4afdc94d3",
+          "chars": 1305,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:5",
+            "abs:6"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:frequency",
+            "abscopal-effect:postow",
+            "abscopal-effect:formenti",
+            "abscopal-effect:selection"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "5b03344930dde141ee114ca38ccd1a697f67786e798cdfb25a1a0c12a7d478a7",
+          "chars": 835,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:7"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:card-measures",
+            "abscopal-effect:card-how",
+            "abscopal-effect:card-input",
+            "abscopal-effect:card-output",
+            "abscopal-effect:card-threshold",
+            "abscopal-effect:card-failure",
+            "abscopal-effect:card-limits",
+            "abscopal-effect:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "cf929ff169ee8bd4e8d4bd50c44729f824d1641db43a7b1cfe7fbde7a5a1248a",
+          "chars": 245,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "79cc2685e33b36bfd502096df2a7dc8fc4006c338ce154530e55fcd849079e48",
+          "chars": 472,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "abs:9"
+          ],
+          "semanticRequirementIds": [
+            "abscopal-effect:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "11c53f4be5409f7a8eb23e69ca9fd15926de9bb4abbc23b797b7f3c1994191f0",
+          "chars": 164,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "abs:9"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "276dd4c6ab5acbd2939f76d488ba84dde36f70865df9d13d78b111efb875168f",
+          "chars": 61,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "305dc394f2682e2d22ecbda107bdf093f1068764b99e71c2b1484b017d153d63",
+          "chars": 543,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "abscopal-effect:definition",
+        "abscopal-effect:demaria",
+        "abscopal-effect:causation",
+        "abscopal-effect:injected",
+        "abscopal-effect:figure",
+        "abscopal-effect:frequency",
+        "abscopal-effect:postow",
+        "abscopal-effect:formenti",
+        "abscopal-effect:selection",
+        "abscopal-effect:practice",
+        "abscopal-effect:card-measures",
+        "abscopal-effect:card-how",
+        "abscopal-effect:card-input",
+        "abscopal-effect:card-output",
+        "abscopal-effect:card-threshold",
+        "abscopal-effect:card-failure",
+        "abscopal-effect:card-limits",
+        "abscopal-effect:card-validation"
+      ]
+    },
+    {
+      "lesson": "adaptive-immune-resistance",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "ae513b68259210d0bb95d4b4066cee152297401804989e1d98b1193bbf8f5b79",
+      "gitBlob": "a3aa2266829456f30def4be2d37d443bdbb82c32",
+      "bytes": 5687,
+      "capture": "7510db6b-adaptive-immune-resistance.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "95c003c840471fa5c6f8707905dd6a2825db032576fdadb2101959fefc650c6c",
+          "chars": 31,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "d6b2f973560f784930111a3b03d65933c27be1eb47fca5e770d2829f424a985d",
+          "chars": 196,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "6e2533aad1aead59935b4ec14702da44591d3f818355f56155eac5b4e76fa772",
+          "chars": 373,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "965b1cbb4798a2c17fd01ec709be69adf82a84ea1aa86f374475f4e5c3faa5cf",
+          "chars": 1005,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:2",
+            "air:3",
+            "air:4",
+            "air:5"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:loop",
+            "adaptive-immune-resistance:constitutive",
+            "adaptive-immune-resistance:taube"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "5ae6b6176ab8a9b991fa8be557db95da1035bcdc18610edd97a172239510339f",
+          "chars": 694,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:6",
+            "air:7",
+            "air:8"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:hot-pdl1",
+            "adaptive-immune-resistance:jak-loss"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "55854f15d29f502792f1194ea6e434f1bd79c1d86af2ddc69b5539e75fa87a5d",
+          "chars": 494,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:9"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:negative",
+            "adaptive-immune-resistance:acquired"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "2c028f528bcd00b5bfded0f4f40bc9612d42176991cdbf764c87895e9889163d",
+          "chars": 373,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:11"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:pattern"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "4daa36568c7ea6e5b95cf1cc14123888ce4d75d51f015f6c6ea6c19e10b794f9",
+          "chars": 162,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "air:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 8,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "aa855103ceb5d182981e89bf8a63d3bcefe2d45dd02e5f3861840fa0efdf957e",
+          "chars": 123,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "00af0e4942b3a2a80abfeb0d941bc7286ffdad0914f7dbde1037c9e0ce08ac08",
+          "chars": 439,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "adaptive-immune-resistance:loop",
+        "adaptive-immune-resistance:constitutive",
+        "adaptive-immune-resistance:taube",
+        "adaptive-immune-resistance:hot-pdl1",
+        "adaptive-immune-resistance:jak-loss",
+        "adaptive-immune-resistance:negative",
+        "adaptive-immune-resistance:acquired",
+        "adaptive-immune-resistance:pattern"
+      ]
+    },
+    {
+      "lesson": "adaptive-immune-resistance",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "530274fc0d751ff21ee82047a6b27548860cde5b6d6a1b4877c64bc7960ed687",
+      "gitBlob": "0e75d72bf240882caee6325e31e75d88bc49793d",
+      "bytes": 8247,
+      "capture": "c9689645-adaptive-immune-resistance.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "95c003c840471fa5c6f8707905dd6a2825db032576fdadb2101959fefc650c6c",
+          "chars": 31,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "d6b2f973560f784930111a3b03d65933c27be1eb47fca5e770d2829f424a985d",
+          "chars": 196,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "6e2533aad1aead59935b4ec14702da44591d3f818355f56155eac5b4e76fa772",
+          "chars": 373,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1612783ce23bc001eec61721ac033f6b304dc300cd7972bc575e38b5b1ce9ea2",
+          "chars": 1927,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:2",
+            "air:3",
+            "air:4",
+            "air:5"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:loop",
+            "adaptive-immune-resistance:constitutive",
+            "adaptive-immune-resistance:taube",
+            "adaptive-immune-resistance:jak-stat-irf1",
+            "adaptive-immune-resistance:spranger"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "ce6ad9b2565b0d80f5f5ee94c9e141b2b847ab3d95dbb617ebb976b12367a47e",
+          "chars": 1079,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:6",
+            "air:7",
+            "air:8"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:hot-pdl1",
+            "adaptive-immune-resistance:jak-loss",
+            "adaptive-immune-resistance:gruosso"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "55854f15d29f502792f1194ea6e434f1bd79c1d86af2ddc69b5539e75fa87a5d",
+          "chars": 494,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:9"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:negative",
+            "adaptive-immune-resistance:acquired"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c3b3985ce82b4b3eaffab112176ebc99de820a1060d812e5e98605d37dcec3c7",
+          "chars": 570,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:10"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:spatial",
+            "adaptive-immune-resistance:perturbation"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "2c028f528bcd00b5bfded0f4f40bc9612d42176991cdbf764c87895e9889163d",
+          "chars": 373,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "air:11"
+          ],
+          "semanticRequirementIds": [
+            "adaptive-immune-resistance:pattern"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "4daa36568c7ea6e5b95cf1cc14123888ce4d75d51f015f6c6ea6c19e10b794f9",
+          "chars": 162,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "air:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "aa855103ceb5d182981e89bf8a63d3bcefe2d45dd02e5f3861840fa0efdf957e",
+          "chars": 123,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "9851868057393dd5211ab8b3f149608117a2ec86b862dc25a5b2dd7ab4eab2f9",
+          "chars": 949,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "adaptive-immune-resistance:loop",
+        "adaptive-immune-resistance:constitutive",
+        "adaptive-immune-resistance:taube",
+        "adaptive-immune-resistance:jak-stat-irf1",
+        "adaptive-immune-resistance:spranger",
+        "adaptive-immune-resistance:hot-pdl1",
+        "adaptive-immune-resistance:jak-loss",
+        "adaptive-immune-resistance:gruosso",
+        "adaptive-immune-resistance:negative",
+        "adaptive-immune-resistance:acquired",
+        "adaptive-immune-resistance:spatial",
+        "adaptive-immune-resistance:perturbation",
+        "adaptive-immune-resistance:pattern"
+      ]
+    },
+    {
+      "lesson": "cancer-immunity-cycle",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "73cb953369fa8c2f33463aa405a0afee5abcf04a727f9683f5b1131fc33e7551",
+      "gitBlob": "3d08d19c80c719be51f9b26cb179623448dd1fe8",
+      "bytes": 6618,
+      "capture": "7510db6b-cancer-immunity-cycle.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "960cf522a58758d71c3bc76a0a209f25d3d02c9cfab2e87f4af282789f501ec1",
+          "chars": 30,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "1fc4fff7a89d7410778fe2f3527968a11de70b9c69d8b18db70a6b3295049fe4",
+          "chars": 158,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "30ba00f175dc367d9af5e431265e1a86cb4bb6df035bc57714c90d3363ddf6d7",
+          "chars": 294,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:3"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0dd599c0efa5cf6ecd330f27caf6c6ecb7d6b65a5dac5304ba7caddc2ca8f34f",
+          "chars": 1538,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:1",
+            "cic:2",
+            "cic:3",
+            "cic:4"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:seven",
+            "cancer-immunity-cycle:display-recognition",
+            "cancer-immunity-cycle:framework",
+            "cancer-immunity-cycle:checkpoints"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "20c8ee9d4005c475c2c05caebbe06f7b6a791924503be6f92b603f0ee79e9cab",
+          "chars": 376,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:5"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:interventions",
+            "cancer-immunity-cycle:combination"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Worked example",
+          "kind": "practice-or-worked-example",
+          "sha256": "341a5d380aa8862b73e54f968e3242cb9625d075c0a7cdfe0e62a60efc24dc1f",
+          "chars": 316,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:6"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:blood-assay"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "576853c014f8993ba6294f08ecd9bbe626d43622e487e674142930e9eaa5a8e6",
+          "chars": 255,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:4",
+            "cic:7"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:release"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "0d1dc1689fc03a6f2d08210a716acd091825b21297589fea0ab47fdfc4227960",
+          "chars": 337,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "5cc80891796588ec8c2dd67e03e4520bb704664bf5e7136ddcd50a34226318ed",
+          "chars": 164,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "cic:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "53439c3bbcff69da7082d786ae97f28a1f36f0708621a7ca51cb6e1ef8a163f6",
+          "chars": 96,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "664ced4b38c0b80c43e5c494a8d94340ca87198f54572118613673eace461b31",
+          "chars": 481,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "cancer-immunity-cycle:seven",
+        "cancer-immunity-cycle:display-recognition",
+        "cancer-immunity-cycle:framework",
+        "cancer-immunity-cycle:checkpoints",
+        "cancer-immunity-cycle:interventions",
+        "cancer-immunity-cycle:combination",
+        "cancer-immunity-cycle:blood-assay",
+        "cancer-immunity-cycle:release"
+      ]
+    },
+    {
+      "lesson": "cancer-immunity-cycle",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/cancer-immunity-cycle.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "3cc02dc4c94021620db2a45d64b74821a69ab966814841371ee61a01a0beae48",
+      "gitBlob": "f52d73dfe210acb3d0890bb35a8523aafa83a0ce",
+      "bytes": 6829,
+      "capture": "c9689645-cancer-immunity-cycle.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "960cf522a58758d71c3bc76a0a209f25d3d02c9cfab2e87f4af282789f501ec1",
+          "chars": 30,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "1fc4fff7a89d7410778fe2f3527968a11de70b9c69d8b18db70a6b3295049fe4",
+          "chars": 158,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "30ba00f175dc367d9af5e431265e1a86cb4bb6df035bc57714c90d3363ddf6d7",
+          "chars": 294,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:3"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0dd599c0efa5cf6ecd330f27caf6c6ecb7d6b65a5dac5304ba7caddc2ca8f34f",
+          "chars": 1538,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:1",
+            "cic:2",
+            "cic:3",
+            "cic:4"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:seven",
+            "cancer-immunity-cycle:display-recognition",
+            "cancer-immunity-cycle:framework",
+            "cancer-immunity-cycle:checkpoints"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "20c8ee9d4005c475c2c05caebbe06f7b6a791924503be6f92b603f0ee79e9cab",
+          "chars": 376,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:5"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:interventions",
+            "cancer-immunity-cycle:combination"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Worked example",
+          "kind": "practice-or-worked-example",
+          "sha256": "341a5d380aa8862b73e54f968e3242cb9625d075c0a7cdfe0e62a60efc24dc1f",
+          "chars": 316,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:6"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:blood-assay"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "576853c014f8993ba6294f08ecd9bbe626d43622e487e674142930e9eaa5a8e6",
+          "chars": 255,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:4",
+            "cic:7"
+          ],
+          "semanticRequirementIds": [
+            "cancer-immunity-cycle:release"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "0d1dc1689fc03a6f2d08210a716acd091825b21297589fea0ab47fdfc4227960",
+          "chars": 337,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "cic:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "5cc80891796588ec8c2dd67e03e4520bb704664bf5e7136ddcd50a34226318ed",
+          "chars": 164,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "cic:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "53439c3bbcff69da7082d786ae97f28a1f36f0708621a7ca51cb6e1ef8a163f6",
+          "chars": 96,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "664ced4b38c0b80c43e5c494a8d94340ca87198f54572118613673eace461b31",
+          "chars": 481,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "cancer-immunity-cycle:seven",
+        "cancer-immunity-cycle:display-recognition",
+        "cancer-immunity-cycle:framework",
+        "cancer-immunity-cycle:checkpoints",
+        "cancer-immunity-cycle:interventions",
+        "cancer-immunity-cycle:combination",
+        "cancer-immunity-cycle:blood-assay",
+        "cancer-immunity-cycle:release"
+      ]
+    },
+    {
+      "lesson": "hot-excluded-cold-tumor",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "7e39c6e850246fdf160ab84ee9496f1dcf01b18e2f9c30a8faeee70172dc6500",
+      "gitBlob": "a8c9327eea3f3872eb981f2f81bff82d998e64f6",
+      "bytes": 13538,
+      "capture": "7510db6b-hot-excluded-cold-tumor.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "28c152d4f0c9b4fb2f73f182e7c2e5dc29810ca6b86b19b0238357fe98a1e025",
+          "chars": 42,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "48745abfc3a088a31675c7868244aba810ae5d9a860e39e280b09ad35fc90c50",
+          "chars": 166,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "1d1e4d4d6fb9c18010881ba9fb72a348f02410af3c8ceb96964b073add051b44",
+          "chars": 237,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:5"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e88f43645ff25ddb40cc3e75acc6beb54f8ecc0b5f0ead6840e71cf316a35eaa",
+          "chars": 4485,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:1",
+            "hot:2",
+            "hot:3",
+            "hot:4",
+            "hot:5",
+            "hot:6",
+            "hot:7",
+            "hot:8"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:patterns",
+            "hot-excluded-cold-tumor:identities",
+            "hot-excluded-cold-tumor:heterogeneity",
+            "hot-excluded-cold-tumor:specificity",
+            "hot-excluded-cold-tumor:barriers",
+            "hot-excluded-cold-tumor:figure-counts",
+            "hot-excluded-cold-tumor:area-denominator",
+            "hot-excluded-cold-tumor:chow-original"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "4f51c3fa85e819f8139d5a2eb1df2ad19347c0cf635c8d56ebaf5088607924c1",
+          "chars": 1545,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:9",
+            "hot:10",
+            "hot:11"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:loi",
+            "hot-excluded-cold-tumor:prediction",
+            "hot-excluded-cold-tumor:adaptive"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Worked example",
+          "kind": "practice-or-worked-example",
+          "sha256": "5cbc229be5b00ff469ec283b79e17c724a9fe58ed1cde937d8d6f5fd76a710c5",
+          "chars": 302,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:12"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b63f241bad4ff4a5352723855bc12f911278c94aa4274f8a841b8adce6cf69b6",
+          "chars": 290,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:13"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "45b91b4a4a86e84a1099c73a0531fb371393c1e786def2347d5ab0539f27226a",
+          "chars": 564,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:8",
+            "hot:14"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:modalities"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Assay card: report a tissue pattern",
+          "kind": "additional-teaching",
+          "sha256": "2135dd5c7ef67d2ec83b093620ba284123d4dbc4134fca0521e98424be57344f",
+          "chars": 1355,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:14"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:card-measures",
+            "hot-excluded-cold-tumor:card-how",
+            "hot-excluded-cold-tumor:card-input",
+            "hot-excluded-cold-tumor:card-output",
+            "hot-excluded-cold-tumor:card-threshold",
+            "hot-excluded-cold-tumor:card-failure",
+            "hot-excluded-cold-tumor:card-limits",
+            "hot-excluded-cold-tumor:card-validation"
+          ]
+        },
+        {
+          "ordinal": 9,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "3e58a15286b2ed04d31b7a67153543b9195c616594fb0263a6e5b47bf313e331",
+          "chars": 332,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:15"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:practice"
+          ]
+        },
+        {
+          "ordinal": 10,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "3f66bad9fe3fea649a8f71219fcc3d5790e96add4234e87d0a40ed90636a6a9f",
+          "chars": 159,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "hot:15"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 11,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "ffc1da164f0aea809f934382daaa465a6e1ee74fdb5f4d6514ee59e01468f2ed",
+          "chars": 100,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 12,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "10a1c658a5e28f9b41e31841ad58319049d99530f17e28322c0d693969fedf4a",
+          "chars": 1275,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [
+            "hot:16"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "hot-excluded-cold-tumor:patterns",
+        "hot-excluded-cold-tumor:identities",
+        "hot-excluded-cold-tumor:heterogeneity",
+        "hot-excluded-cold-tumor:specificity",
+        "hot-excluded-cold-tumor:barriers",
+        "hot-excluded-cold-tumor:figure-counts",
+        "hot-excluded-cold-tumor:area-denominator",
+        "hot-excluded-cold-tumor:chow-original",
+        "hot-excluded-cold-tumor:loi",
+        "hot-excluded-cold-tumor:prediction",
+        "hot-excluded-cold-tumor:adaptive",
+        "hot-excluded-cold-tumor:modalities",
+        "hot-excluded-cold-tumor:practice",
+        "hot-excluded-cold-tumor:card-measures",
+        "hot-excluded-cold-tumor:card-how",
+        "hot-excluded-cold-tumor:card-input",
+        "hot-excluded-cold-tumor:card-output",
+        "hot-excluded-cold-tumor:card-threshold",
+        "hot-excluded-cold-tumor:card-failure",
+        "hot-excluded-cold-tumor:card-limits",
+        "hot-excluded-cold-tumor:card-validation"
+      ]
+    },
+    {
+      "lesson": "hot-excluded-cold-tumor",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/hot-excluded-cold-tumor.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "e42ddbdfaed93d70beb1cc70efb6efbf3aff01a9c0041f2259c74f9ac611c06f",
+      "gitBlob": "3f2204ed9841dfbf866200c1efb6331e267cb86a",
+      "bytes": 12486,
+      "capture": "c9689645-hot-excluded-cold-tumor.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "28c152d4f0c9b4fb2f73f182e7c2e5dc29810ca6b86b19b0238357fe98a1e025",
+          "chars": 42,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "48745abfc3a088a31675c7868244aba810ae5d9a860e39e280b09ad35fc90c50",
+          "chars": 166,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "1d1e4d4d6fb9c18010881ba9fb72a348f02410af3c8ceb96964b073add051b44",
+          "chars": 237,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:5"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc9cd58bb9219c78dad84dc207965dfaa2eff55921888e75628c25de3a04a951",
+          "chars": 3632,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:1",
+            "hot:2",
+            "hot:3",
+            "hot:4",
+            "hot:5",
+            "hot:6",
+            "hot:7",
+            "hot:8"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:patterns",
+            "hot-excluded-cold-tumor:identities",
+            "hot-excluded-cold-tumor:heterogeneity",
+            "hot-excluded-cold-tumor:specificity",
+            "hot-excluded-cold-tumor:barriers",
+            "hot-excluded-cold-tumor:figure-counts",
+            "hot-excluded-cold-tumor:area-denominator",
+            "hot-excluded-cold-tumor:new-barriers"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "4f51c3fa85e819f8139d5a2eb1df2ad19347c0cf635c8d56ebaf5088607924c1",
+          "chars": 1545,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:9",
+            "hot:10",
+            "hot:11"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:loi",
+            "hot-excluded-cold-tumor:prediction",
+            "hot-excluded-cold-tumor:adaptive"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Worked example",
+          "kind": "practice-or-worked-example",
+          "sha256": "5cbc229be5b00ff469ec283b79e17c724a9fe58ed1cde937d8d6f5fd76a710c5",
+          "chars": 302,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:12"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b63f241bad4ff4a5352723855bc12f911278c94aa4274f8a841b8adce6cf69b6",
+          "chars": 290,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:13"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "6c966a62a65d5d9981ff1a41a29fa217b2041cc06bac5b8991fb1a76c8e55327",
+          "chars": 585,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:8",
+            "hot:14"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:modalities"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Assay card: report a tissue pattern",
+          "kind": "additional-teaching",
+          "sha256": "2135dd5c7ef67d2ec83b093620ba284123d4dbc4134fca0521e98424be57344f",
+          "chars": 1355,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:14"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:card-measures",
+            "hot-excluded-cold-tumor:card-how",
+            "hot-excluded-cold-tumor:card-input",
+            "hot-excluded-cold-tumor:card-output",
+            "hot-excluded-cold-tumor:card-threshold",
+            "hot-excluded-cold-tumor:card-failure",
+            "hot-excluded-cold-tumor:card-limits",
+            "hot-excluded-cold-tumor:card-validation"
+          ]
+        },
+        {
+          "ordinal": 9,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "3e58a15286b2ed04d31b7a67153543b9195c616594fb0263a6e5b47bf313e331",
+          "chars": 332,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "hot:15"
+          ],
+          "semanticRequirementIds": [
+            "hot-excluded-cold-tumor:practice"
+          ]
+        },
+        {
+          "ordinal": 10,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "3f66bad9fe3fea649a8f71219fcc3d5790e96add4234e87d0a40ed90636a6a9f",
+          "chars": 159,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "hot:15"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 11,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "ffc1da164f0aea809f934382daaa465a6e1ee74fdb5f4d6514ee59e01468f2ed",
+          "chars": 100,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 12,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "289df5b6c56fa19261e3a8db9dfcae45a80a6c38870bcf2160d8e9588d6d4cfc",
+          "chars": 1048,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [
+            "hot:16"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "hot-excluded-cold-tumor:patterns",
+        "hot-excluded-cold-tumor:identities",
+        "hot-excluded-cold-tumor:heterogeneity",
+        "hot-excluded-cold-tumor:specificity",
+        "hot-excluded-cold-tumor:barriers",
+        "hot-excluded-cold-tumor:figure-counts",
+        "hot-excluded-cold-tumor:area-denominator",
+        "hot-excluded-cold-tumor:new-barriers",
+        "hot-excluded-cold-tumor:loi",
+        "hot-excluded-cold-tumor:prediction",
+        "hot-excluded-cold-tumor:adaptive",
+        "hot-excluded-cold-tumor:modalities",
+        "hot-excluded-cold-tumor:practice",
+        "hot-excluded-cold-tumor:card-measures",
+        "hot-excluded-cold-tumor:card-how",
+        "hot-excluded-cold-tumor:card-input",
+        "hot-excluded-cold-tumor:card-output",
+        "hot-excluded-cold-tumor:card-threshold",
+        "hot-excluded-cold-tumor:card-failure",
+        "hot-excluded-cold-tumor:card-limits",
+        "hot-excluded-cold-tumor:card-validation"
+      ]
+    },
+    {
+      "lesson": "immune-escape",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/immune-escape.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "f4000a56b38452812eb8ee26c27211115ba7a0dc7728b504dabb7956c20619b6",
+      "gitBlob": "a543a697f7264dca63b34229141de1c92ab33407",
+      "bytes": 12637,
+      "capture": "7510db6b-immune-escape.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "9333960980b586a245313d269f3c94135d53966d40806ee4f42e7dabb15c6086",
+          "chars": 18,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "a4e0e5d25023ba642dc4d7173738185143356ef64b47dc32dc18cda3b605b3a5",
+          "chars": 110,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "efe1e90da376c72f2b5a0f08f069b141e2f219b3299008fd03ef3bc309a4535c",
+          "chars": 352,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:10"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9dc609bb68f9eb5bb4fb3f945d30eea1fbc5fd1e9bbe152081c98588bc4590f1",
+          "chars": 3392,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:1",
+            "esc:2",
+            "esc:3",
+            "esc:4",
+            "esc:5",
+            "esc:6",
+            "esc:7",
+            "esc:8",
+            "esc:9",
+            "esc:10",
+            "esc:22"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:definition",
+            "immune-escape:antigen-loss",
+            "immune-escape:hla-loh",
+            "immune-escape:b2m",
+            "immune-escape:other-routes",
+            "immune-escape:coexistence",
+            "immune-escape:variant-causation"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Interferon responsiveness is a separate dependency",
+          "kind": "additional-teaching",
+          "sha256": "00782bf8da32577cc92326a53ee7a7e8960646555939e0b1f8025936b85fa9d6",
+          "chars": 2121,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:11",
+            "esc:12",
+            "esc:13",
+            "esc:14"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:jak-path",
+            "immune-escape:zaretsky",
+            "immune-escape:recognition",
+            "immune-escape:jak1-jak2",
+            "immune-escape:figure"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "53ab4fe598c903939274c5d3d831d494a67482baca07cae1c003edcee313069d",
+          "chars": 269,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:15"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:combinations"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is investigated",
+          "kind": "additional-teaching",
+          "sha256": "ff1bea68748697fcf39fef5b0e1a2b773ede7d4973d93fd6f333b0a6d0e4da22",
+          "chars": 343,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:16"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:measurements"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Worked example: test the missing response",
+          "kind": "practice-or-worked-example",
+          "sha256": "7b9c4cd9667aff98bc284fb55a6ff790e8415f0c3a1afff33dd267b1eec9656c",
+          "chars": 678,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:17"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:restoration",
+            "immune-escape:controls"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9172ea108c9a00ac0b4d2317aa81d41c1d80b977b933380fa25dcb472bed355e",
+          "chars": 314,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:18"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "b8b86474986db0684156e7a82f4c0fabf4cc2678aa6f7f6f1f091fbca045d659",
+          "chars": 324,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:19"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "d5a54e32e4e3589d200b8b26594c9d3b57dfe25d6730067481e10c9089307223",
+          "chars": 191,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "esc:19"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 11,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "0dcee2fb05022934e35951b8b37c0623142eeda7e4937b68ce657e2c76673a44",
+          "chars": 107,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 12,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "09400d860ef447a455384d98e7ec6b4f10fad7ce318f6988d95a606b1449ea8f",
+          "chars": 1194,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [
+            "esc:21"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "immune-escape:definition",
+        "immune-escape:antigen-loss",
+        "immune-escape:hla-loh",
+        "immune-escape:b2m",
+        "immune-escape:other-routes",
+        "immune-escape:coexistence",
+        "immune-escape:variant-causation",
+        "immune-escape:jak-path",
+        "immune-escape:zaretsky",
+        "immune-escape:recognition",
+        "immune-escape:jak1-jak2",
+        "immune-escape:figure",
+        "immune-escape:combinations",
+        "immune-escape:measurements",
+        "immune-escape:restoration",
+        "immune-escape:controls"
+      ]
+    },
+    {
+      "lesson": "immune-escape",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/immune-escape.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "c30faf8e1efd2de111d66f6bd5b8b6e72548f5bd9e400488b224337986e0ffd4",
+      "gitBlob": "b727e45a85e69c387d65142d297d781afc12e352",
+      "bytes": 13390,
+      "capture": "c9689645-immune-escape.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "9333960980b586a245313d269f3c94135d53966d40806ee4f42e7dabb15c6086",
+          "chars": 18,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "a4e0e5d25023ba642dc4d7173738185143356ef64b47dc32dc18cda3b605b3a5",
+          "chars": 110,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "efe1e90da376c72f2b5a0f08f069b141e2f219b3299008fd03ef3bc309a4535c",
+          "chars": 352,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:10"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "65874462e89e2cc360294b79755d04698586ace2dd2ff1d66f2081034a7e0ca5",
+          "chars": 3647,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:1",
+            "esc:2",
+            "esc:3",
+            "esc:4",
+            "esc:5",
+            "esc:6",
+            "esc:7",
+            "esc:8",
+            "esc:9",
+            "esc:10",
+            "esc:22"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:definition",
+            "immune-escape:antigen-loss",
+            "immune-escape:hla-loh",
+            "immune-escape:b2m",
+            "immune-escape:other-routes",
+            "immune-escape:coexistence",
+            "immune-escape:variant-causation",
+            "immune-escape:montesion",
+            "immune-escape:hammerl-link"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Interferon responsiveness is a separate dependency",
+          "kind": "additional-teaching",
+          "sha256": "00782bf8da32577cc92326a53ee7a7e8960646555939e0b1f8025936b85fa9d6",
+          "chars": 2121,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:11",
+            "esc:12",
+            "esc:13",
+            "esc:14"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:jak-path",
+            "immune-escape:zaretsky",
+            "immune-escape:recognition",
+            "immune-escape:jak1-jak2",
+            "immune-escape:figure"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "53ab4fe598c903939274c5d3d831d494a67482baca07cae1c003edcee313069d",
+          "chars": 269,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:15"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:combinations"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is investigated",
+          "kind": "additional-teaching",
+          "sha256": "ff1bea68748697fcf39fef5b0e1a2b773ede7d4973d93fd6f333b0a6d0e4da22",
+          "chars": 343,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:16"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:measurements"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Worked example: test the missing response",
+          "kind": "practice-or-worked-example",
+          "sha256": "7b9c4cd9667aff98bc284fb55a6ff790e8415f0c3a1afff33dd267b1eec9656c",
+          "chars": 678,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:17"
+          ],
+          "semanticRequirementIds": [
+            "immune-escape:restoration",
+            "immune-escape:controls"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9172ea108c9a00ac0b4d2317aa81d41c1d80b977b933380fa25dcb472bed355e",
+          "chars": 314,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:18"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "b8b86474986db0684156e7a82f4c0fabf4cc2678aa6f7f6f1f091fbca045d659",
+          "chars": 324,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "esc:19"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "d5a54e32e4e3589d200b8b26594c9d3b57dfe25d6730067481e10c9089307223",
+          "chars": 191,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "esc:19"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 11,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "0dcee2fb05022934e35951b8b37c0623142eeda7e4937b68ce657e2c76673a44",
+          "chars": 107,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 12,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "13ba0c0aad23f8897bf9bebfe13e4289f1e0980ae9fd12efe7ad0b470e17ed05",
+          "chars": 1409,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [
+            "esc:21"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "immune-escape:definition",
+        "immune-escape:antigen-loss",
+        "immune-escape:hla-loh",
+        "immune-escape:b2m",
+        "immune-escape:other-routes",
+        "immune-escape:coexistence",
+        "immune-escape:variant-causation",
+        "immune-escape:montesion",
+        "immune-escape:hammerl-link",
+        "immune-escape:jak-path",
+        "immune-escape:zaretsky",
+        "immune-escape:recognition",
+        "immune-escape:jak1-jak2",
+        "immune-escape:figure",
+        "immune-escape:combinations",
+        "immune-escape:measurements",
+        "immune-escape:restoration",
+        "immune-escape:controls"
+      ]
+    },
+    {
+      "lesson": "in-situ-vaccination",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "052fb4660090f22d5a7e10468e1ddecd9957e54929f3af47b431e9c68445fa9f",
+      "gitBlob": "c554d2554f347b39dbd0216756d9c8aa0b3256d1",
+      "bytes": 9272,
+      "capture": "7510db6b-in-situ-vaccination.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "9308b97da63eb121e92dd08449b118d72a99a8d3e96780efe9f2f9971b051de2",
+          "chars": 24,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "2695aad84285cb8e1f83a34b2dc451da99e5db299547cf42751cf3ec84f75f9a",
+          "chars": 182,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "c956779b40667743530ea350f90e899a460c7c7201f31cb768dde3a7f7bc3d34",
+          "chars": 364,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f999ebaec28b34de6dceb40e0ccda2d6324df79e85354e12f161ccb739afe464",
+          "chars": 2410,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:1",
+            "isv:2",
+            "isv:3",
+            "isv:4"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:definition",
+            "in-situ-vaccination:jobs",
+            "in-situ-vaccination:injury",
+            "in-situ-vaccination:route",
+            "in-situ-vaccination:figure"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "9b6478c3bb55b6a022e1b802676f1e84723ffabc493c5d07b1ba203b895f9b7b",
+          "chars": 1122,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:5"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:outcomes",
+            "in-situ-vaccination:brody",
+            "in-situ-vaccination:hammerich",
+            "in-situ-vaccination:components"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "84b6873c44f2af54afa8f827cbf70501d325db1a2411cdb34b009e023de6eb9e",
+          "chars": 1289,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:6"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:peptide",
+            "in-situ-vaccination:card-measures",
+            "in-situ-vaccination:card-how",
+            "in-situ-vaccination:card-input",
+            "in-situ-vaccination:card-output",
+            "in-situ-vaccination:card-threshold",
+            "in-situ-vaccination:card-failure",
+            "in-situ-vaccination:card-limits",
+            "in-situ-vaccination:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c3e7c48e9af0589cf4c80d55f797f772e60080c5031a67ee24fb95daeef8996f",
+          "chars": 303,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:7"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "af843ff7b26c88aa03ca6d79a81f13f648c05becce1c278768fe0938abb328ac",
+          "chars": 501,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:8"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "8f38136085296245c6e575c6c7855d9b7c6cb0ca2edb7b9c9105aa6a205889cb",
+          "chars": 162,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "isv:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "cb7cd0444a97c7ba6c6f695270e23c570c1429fed80af823d7fab929899790a1",
+          "chars": 96,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "faab1ab3aa6cb7d220cb60fa457bc981cfa3c30c64564652c67a5092471094df",
+          "chars": 546,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "in-situ-vaccination:definition",
+        "in-situ-vaccination:jobs",
+        "in-situ-vaccination:injury",
+        "in-situ-vaccination:route",
+        "in-situ-vaccination:figure",
+        "in-situ-vaccination:outcomes",
+        "in-situ-vaccination:brody",
+        "in-situ-vaccination:hammerich",
+        "in-situ-vaccination:components",
+        "in-situ-vaccination:peptide",
+        "in-situ-vaccination:practice",
+        "in-situ-vaccination:card-measures",
+        "in-situ-vaccination:card-how",
+        "in-situ-vaccination:card-input",
+        "in-situ-vaccination:card-output",
+        "in-situ-vaccination:card-threshold",
+        "in-situ-vaccination:card-failure",
+        "in-situ-vaccination:card-limits",
+        "in-situ-vaccination:card-validation"
+      ]
+    },
+    {
+      "lesson": "in-situ-vaccination",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/in-situ-vaccination.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "6e4b412fad426338d6f52afa08fe61f58ee8b794435ec41e607d3cb09c20cf91",
+      "gitBlob": "1548cfb371b34c2c2b63cfb0be62708ddad3969d",
+      "bytes": 9336,
+      "capture": "c9689645-in-situ-vaccination.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "9308b97da63eb121e92dd08449b118d72a99a8d3e96780efe9f2f9971b051de2",
+          "chars": 24,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "2695aad84285cb8e1f83a34b2dc451da99e5db299547cf42751cf3ec84f75f9a",
+          "chars": 182,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "c956779b40667743530ea350f90e899a460c7c7201f31cb768dde3a7f7bc3d34",
+          "chars": 364,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f999ebaec28b34de6dceb40e0ccda2d6324df79e85354e12f161ccb739afe464",
+          "chars": 2410,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:1",
+            "isv:2",
+            "isv:3",
+            "isv:4"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:definition",
+            "in-situ-vaccination:jobs",
+            "in-situ-vaccination:injury",
+            "in-situ-vaccination:route",
+            "in-situ-vaccination:figure"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "9b6478c3bb55b6a022e1b802676f1e84723ffabc493c5d07b1ba203b895f9b7b",
+          "chars": 1122,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:5"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:outcomes",
+            "in-situ-vaccination:brody",
+            "in-situ-vaccination:hammerich",
+            "in-situ-vaccination:components"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "84b6873c44f2af54afa8f827cbf70501d325db1a2411cdb34b009e023de6eb9e",
+          "chars": 1289,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:6"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:peptide",
+            "in-situ-vaccination:card-measures",
+            "in-situ-vaccination:card-how",
+            "in-situ-vaccination:card-input",
+            "in-situ-vaccination:card-output",
+            "in-situ-vaccination:card-threshold",
+            "in-situ-vaccination:card-failure",
+            "in-situ-vaccination:card-limits",
+            "in-situ-vaccination:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c3e7c48e9af0589cf4c80d55f797f772e60080c5031a67ee24fb95daeef8996f",
+          "chars": 303,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:7"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "af843ff7b26c88aa03ca6d79a81f13f648c05becce1c278768fe0938abb328ac",
+          "chars": 501,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "isv:8"
+          ],
+          "semanticRequirementIds": [
+            "in-situ-vaccination:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "8f38136085296245c6e575c6c7855d9b7c6cb0ca2edb7b9c9105aa6a205889cb",
+          "chars": 162,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "isv:8"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "cb7cd0444a97c7ba6c6f695270e23c570c1429fed80af823d7fab929899790a1",
+          "chars": 96,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "faab1ab3aa6cb7d220cb60fa457bc981cfa3c30c64564652c67a5092471094df",
+          "chars": 546,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "in-situ-vaccination:definition",
+        "in-situ-vaccination:jobs",
+        "in-situ-vaccination:injury",
+        "in-situ-vaccination:route",
+        "in-situ-vaccination:figure",
+        "in-situ-vaccination:outcomes",
+        "in-situ-vaccination:brody",
+        "in-situ-vaccination:hammerich",
+        "in-situ-vaccination:components",
+        "in-situ-vaccination:peptide",
+        "in-situ-vaccination:practice",
+        "in-situ-vaccination:card-measures",
+        "in-situ-vaccination:card-how",
+        "in-situ-vaccination:card-input",
+        "in-situ-vaccination:card-output",
+        "in-situ-vaccination:card-threshold",
+        "in-situ-vaccination:card-failure",
+        "in-situ-vaccination:card-limits",
+        "in-situ-vaccination:card-validation"
+      ]
+    },
+    {
+      "lesson": "perioperative-immune-window",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/perioperative-immune-window.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "535541c3431be8f13d6c7acfe43f26b6ff8b38a449168a35195f64a5ed9f94e4",
+      "gitBlob": "d05ec404c7d5168c42fb021e94b8a1b57d8cc819",
+      "bytes": 9417,
+      "capture": "c9689645-perioperative-immune-window.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "df43b89d4196c60e0dc7976ed99d1c88af1471cb9e5365e7928dc2741ef3f0f7",
+          "chars": 32,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "3df9070e4e131b8226df0f0570183fce7494cd0c1e3ac8baf496a85fdd979e90",
+          "chars": 189,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "f5829f11be22289af6d315ec86e6c67c2dcda6dfdd6806121fa770e60c3e276f",
+          "chars": 456,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "8186ffe4e60b7b66f7a0b8d615de777752306d05c7235c2a8c229d306e7c4f7d",
+          "chars": 1393,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:2",
+            "per:3",
+            "per:4",
+            "per:5"
+          ],
+          "semanticRequirementIds": [
+            "perioperative-immune-window:window",
+            "perioperative-immune-window:stress",
+            "perioperative-immune-window:nk",
+            "perioperative-immune-window:healing",
+            "perioperative-immune-window:anesthesia-mechanism"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "What the evidence shows, by level",
+          "kind": "additional-teaching",
+          "sha256": "50c17513eadbb24e083489d26403278ab3fa0431dc76746d387aab927258f10f",
+          "chars": 1459,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:6",
+            "per:7",
+            "per:8",
+            "per:9"
+          ],
+          "semanticRequirementIds": [
+            "perioperative-immune-window:sessler",
+            "perioperative-immune-window:enlund",
+            "perioperative-immune-window:shaashua",
+            "perioperative-immune-window:liu"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "aa14512669c714523133723b59b9aeb4791b6f4cb04327ff08a735c87210d44f",
+          "chars": 661,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:10",
+            "per:13"
+          ],
+          "semanticRequirementIds": [
+            "perioperative-immune-window:surgery",
+            "perioperative-immune-window:usual-grounds",
+            "perioperative-immune-window:keynote"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3cc075602077f4f56892938da9605e838280fd046362b93c4ddd06502f993ee5",
+          "chars": 652,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:11"
+          ],
+          "semanticRequirementIds": [
+            "perioperative-immune-window:blood-tissue",
+            "perioperative-immune-window:observational"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "d88c22f0246e727bcb13fcc735832e42b35a0727fb6643266262081df192e9e2",
+          "chars": 444,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "per:12"
+          ],
+          "semanticRequirementIds": [
+            "perioperative-immune-window:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "4e5d53f0dd211e6522bfd3c9ad3f15fc543e43f710f499187cf01ed10e4a9a2c",
+          "chars": 273,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "per:12"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "90b5b6fedba7b9e71c08c8a46ebcba0b7af3f54905652db6253ca320548109e5",
+          "chars": 149,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "ea73ccad69e97428c66c0482024c04438815ad02b8fb0f144373d1e6c59d9fda",
+          "chars": 1307,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "perioperative-immune-window:window",
+        "perioperative-immune-window:stress",
+        "perioperative-immune-window:nk",
+        "perioperative-immune-window:healing",
+        "perioperative-immune-window:anesthesia-mechanism",
+        "perioperative-immune-window:sessler",
+        "perioperative-immune-window:enlund",
+        "perioperative-immune-window:shaashua",
+        "perioperative-immune-window:liu",
+        "perioperative-immune-window:surgery",
+        "perioperative-immune-window:usual-grounds",
+        "perioperative-immune-window:keynote",
+        "perioperative-immune-window:blood-tissue",
+        "perioperative-immune-window:observational",
+        "perioperative-immune-window:practice"
+      ]
+    },
+    {
+      "lesson": "t-cell-exclusion-mechanisms",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/t-cell-exclusion-mechanisms.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "bff7d13e46b1e04d83f13a77f96acf40a26ed492c3c48a0325d4607196472abd",
+      "gitBlob": "d11ad1e3effffe4b0830247f826ea5df517f8d8d",
+      "bytes": 11163,
+      "capture": "c9689645-t-cell-exclusion-mechanisms.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "ed76f14fc65ac2e9e41a7f78ef14ed7912a7b7c63d2313ce60469360431e21a7",
+          "chars": 32,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "e20287ec0546345dc42acd66aac6be11231174d8a92c12402e3bc762bee43f74",
+          "chars": 195,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "f9b59600042aaa714bbfbbbf3970ccb8a3ef9a21ca4e1685d3cad4901eb109b6",
+          "chars": 419,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e76a32dfd2213404d692d971202df57c29f8efdc75d20c5b769a08f34e62dd3f",
+          "chars": 3173,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:1",
+            "exc:2",
+            "exc:3",
+            "exc:4",
+            "exc:5",
+            "exc:6",
+            "exc:7",
+            "exc:8",
+            "exc:16"
+          ],
+          "semanticRequirementIds": [
+            "t-cell-exclusion-mechanisms:journey",
+            "t-cell-exclusion-mechanisms:harlin",
+            "t-cell-exclusion-mechanisms:spranger",
+            "t-cell-exclusion-mechanisms:mikucki",
+            "t-cell-exclusion-mechanisms:salmon",
+            "t-cell-exclusion-mechanisms:mariathasan",
+            "t-cell-exclusion-mechanisms:peranzoni",
+            "t-cell-exclusion-mechanisms:restraint"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "ccff680855e795b5e76d519b3b66930c077b43b859104c585302f28693be8fac",
+          "chars": 1165,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:9",
+            "exc:10",
+            "exc:11",
+            "exc:16"
+          ],
+          "semanticRequirementIds": [
+            "t-cell-exclusion-mechanisms:hammerl",
+            "t-cell-exclusion-mechanisms:gruosso",
+            "t-cell-exclusion-mechanisms:intervention"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "205ed3679c9ce3565640ac55043ef0720c4ea4a0a463c86fa04e289a0fa8ab89",
+          "chars": 814,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:12"
+          ],
+          "semanticRequirementIds": [
+            "t-cell-exclusion-mechanisms:chow",
+            "t-cell-exclusion-mechanisms:stroma"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "How it is measured",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a667f88ff695f296821508b706be35942f4e8994c0712087e22c175a8c96a526",
+          "chars": 515,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:13"
+          ],
+          "semanticRequirementIds": [
+            "t-cell-exclusion-mechanisms:spatial-methods",
+            "t-cell-exclusion-mechanisms:classifier"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "bca2413d929338bbc06b8cafb9727fc5df5a9857b3d0f52617909f20b477b983",
+          "chars": 448,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "exc:15"
+          ],
+          "semanticRequirementIds": [
+            "t-cell-exclusion-mechanisms:practice"
+          ]
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "9f18bff792785550e924a6d38d627f1464abe1c3c1d268171f9d462955352c5b",
+          "chars": 164,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "exc:15"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "c20d4f1f8ebeebf3958851338ca001cdc3462c64b3d2050b433e440b35dbcb72",
+          "chars": 78,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "2ee364db36487845a0c8430b569a8f63c25ca5b35b74adf4f1d23bc02805a2b5",
+          "chars": 1503,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "t-cell-exclusion-mechanisms:journey",
+        "t-cell-exclusion-mechanisms:harlin",
+        "t-cell-exclusion-mechanisms:spranger",
+        "t-cell-exclusion-mechanisms:mikucki",
+        "t-cell-exclusion-mechanisms:salmon",
+        "t-cell-exclusion-mechanisms:mariathasan",
+        "t-cell-exclusion-mechanisms:peranzoni",
+        "t-cell-exclusion-mechanisms:restraint",
+        "t-cell-exclusion-mechanisms:hammerl",
+        "t-cell-exclusion-mechanisms:gruosso",
+        "t-cell-exclusion-mechanisms:intervention",
+        "t-cell-exclusion-mechanisms:chow",
+        "t-cell-exclusion-mechanisms:stroma",
+        "t-cell-exclusion-mechanisms:spatial-methods",
+        "t-cell-exclusion-mechanisms:classifier",
+        "t-cell-exclusion-mechanisms:practice"
+      ]
+    },
+    {
+      "lesson": "tumor-infiltrating-lymphocytes",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "sourceSha256": "58cd58148219a1a15e13a0e45e1c67ac56ffdc34e1865ea1bd58466a6afddc32",
+      "gitBlob": "c61f815c87f261332d1418d9918c2c286ed4b29b",
+      "bytes": 10751,
+      "capture": "7510db6b-tumor-infiltrating-lymphocytes.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "d5cec64f1de68b2e1715170e8f51a979177b40532dcdbad08e1d316257a352fc",
+          "chars": 35,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "6982e68504eb254dbf66a9da2f2264f53c306bbb55ba72b4f3994c2b351dafc5",
+          "chars": 160,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "2cd64125c551f183fb1d69d093bd2d38f7f2d7dd1ee9f251d392a5e24cd0d3a8",
+          "chars": 619,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ec67126620e3c6767a863376d1556ff24825255f817bda08c809e9e27fbdbc30",
+          "chars": 1968,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:1",
+            "til:2",
+            "til:3"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:definition",
+            "tumor-infiltrating-lymphocytes:compartments",
+            "tumor-infiltrating-lymphocytes:simoni",
+            "tumor-infiltrating-lymphocytes:recognition"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "1206ddd8f897cee182ae20fb3c88ed7dc2822c12b5cdd5b7dcc13a379755f501",
+          "chars": 1889,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:4",
+            "til:5",
+            "til:6",
+            "til:7"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:loi-population",
+            "tumor-infiltrating-lymphocytes:loi-hazards",
+            "tumor-infiltrating-lymphocytes:denkert",
+            "tumor-infiltrating-lymphocytes:predictive",
+            "tumor-infiltrating-lymphocytes:therapy"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "03b3477b2a23f08bce1a9d2a2e24e989f4817601197a89cd667de3e28cb74f26",
+          "chars": 957,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:8"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:card-measures",
+            "tumor-infiltrating-lymphocytes:card-how",
+            "tumor-infiltrating-lymphocytes:card-input",
+            "tumor-infiltrating-lymphocytes:card-output",
+            "tumor-infiltrating-lymphocytes:card-threshold",
+            "tumor-infiltrating-lymphocytes:card-failure",
+            "tumor-infiltrating-lymphocytes:card-limits",
+            "tumor-infiltrating-lymphocytes:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Worked example and try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "b35e6c0cd0c8100dde023898eb54e7f61bb72f1213f79741eb7a469e80c4c3ce",
+          "chars": 2156,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:9",
+            "til:10"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:area",
+            "tumor-infiltrating-lymphocytes:count",
+            "tumor-infiltrating-lymphocytes:pooled-figure"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "06820f0f6268f36159d3683c3b6090dae9693df87401d1b20cc4e72b20ab7417",
+          "chars": 385,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "1520542961a4b3e9f03e97abc3fd590888826f2ea98c84d4a2425e184fcd793b",
+          "chars": 155,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "til:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "a055e335ed57a7dca9b573f191ac302397bd2b28310d7de0cc3881592821d11d",
+          "chars": 81,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "87d0b4d262d3b939c98c95bb205b9c36faaf2327a044c6d3e00b764c984f1628",
+          "chars": 860,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "tumor-infiltrating-lymphocytes:definition",
+        "tumor-infiltrating-lymphocytes:compartments",
+        "tumor-infiltrating-lymphocytes:simoni",
+        "tumor-infiltrating-lymphocytes:recognition",
+        "tumor-infiltrating-lymphocytes:loi-population",
+        "tumor-infiltrating-lymphocytes:loi-hazards",
+        "tumor-infiltrating-lymphocytes:denkert",
+        "tumor-infiltrating-lymphocytes:predictive",
+        "tumor-infiltrating-lymphocytes:therapy",
+        "tumor-infiltrating-lymphocytes:area",
+        "tumor-infiltrating-lymphocytes:count",
+        "tumor-infiltrating-lymphocytes:pooled-figure",
+        "tumor-infiltrating-lymphocytes:card-measures",
+        "tumor-infiltrating-lymphocytes:card-how",
+        "tumor-infiltrating-lymphocytes:card-input",
+        "tumor-infiltrating-lymphocytes:card-output",
+        "tumor-infiltrating-lymphocytes:card-threshold",
+        "tumor-infiltrating-lymphocytes:card-failure",
+        "tumor-infiltrating-lymphocytes:card-limits",
+        "tumor-infiltrating-lymphocytes:card-validation"
+      ]
+    },
+    {
+      "lesson": "tumor-infiltrating-lymphocytes",
+      "path": "wiki/education/concepts/immunology/tumor-immunology/tumor-infiltrating-lymphocytes.md",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "sourceSha256": "7970e67cdf3c28cbe4474e423816c45d648a03e4f3a2d56636b89a9626f83bf8",
+      "gitBlob": "390e363c44562727797af46fd8faf548048726ae",
+      "bytes": 10811,
+      "capture": "c9689645-tumor-infiltrating-lymphocytes.md",
+      "sections": [
+        {
+          "ordinal": 0,
+          "heading": "preamble",
+          "kind": "preamble",
+          "sha256": "d5cec64f1de68b2e1715170e8f51a979177b40532dcdbad08e1d316257a352fc",
+          "chars": 35,
+          "disposition": "title-and-heading-only-no-teaching-content",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 1,
+          "heading": "In one sentence",
+          "kind": "additional-teaching",
+          "sha256": "6982e68504eb254dbf66a9da2f2264f53c306bbb55ba72b4f3994c2b351dafc5",
+          "chars": 160,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 2,
+          "heading": "The intuition",
+          "kind": "additional-teaching",
+          "sha256": "2cd64125c551f183fb1d69d093bd2d38f7f2d7dd1ee9f251d392a5e24cd0d3a8",
+          "chars": 619,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:1"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 3,
+          "heading": "How it works",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ec67126620e3c6767a863376d1556ff24825255f817bda08c809e9e27fbdbc30",
+          "chars": 1968,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:1",
+            "til:2",
+            "til:3"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:definition",
+            "tumor-infiltrating-lymphocytes:compartments",
+            "tumor-infiltrating-lymphocytes:simoni",
+            "tumor-infiltrating-lymphocytes:recognition"
+          ]
+        },
+        {
+          "ordinal": 4,
+          "heading": "Why it matters in cancer",
+          "kind": "additional-teaching",
+          "sha256": "1206ddd8f897cee182ae20fb3c88ed7dc2822c12b5cdd5b7dcc13a379755f501",
+          "chars": 1889,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:4",
+            "til:5",
+            "til:6",
+            "til:7"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:loi-population",
+            "tumor-infiltrating-lymphocytes:loi-hazards",
+            "tumor-infiltrating-lymphocytes:denkert",
+            "tumor-infiltrating-lymphocytes:predictive",
+            "tumor-infiltrating-lymphocytes:therapy"
+          ]
+        },
+        {
+          "ordinal": 5,
+          "heading": "Assay card",
+          "kind": "additional-teaching",
+          "sha256": "03b3477b2a23f08bce1a9d2a2e24e989f4817601197a89cd667de3e28cb74f26",
+          "chars": 957,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:8"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:card-measures",
+            "tumor-infiltrating-lymphocytes:card-how",
+            "tumor-infiltrating-lymphocytes:card-input",
+            "tumor-infiltrating-lymphocytes:card-output",
+            "tumor-infiltrating-lymphocytes:card-threshold",
+            "tumor-infiltrating-lymphocytes:card-failure",
+            "tumor-infiltrating-lymphocytes:card-limits",
+            "tumor-infiltrating-lymphocytes:card-validation"
+          ]
+        },
+        {
+          "ordinal": 6,
+          "heading": "Worked example and try it",
+          "kind": "practice-or-worked-example",
+          "sha256": "b35e6c0cd0c8100dde023898eb54e7f61bb72f1213f79741eb7a469e80c4c3ce",
+          "chars": 2156,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:9",
+            "til:10"
+          ],
+          "semanticRequirementIds": [
+            "tumor-infiltrating-lymphocytes:area",
+            "tumor-infiltrating-lymphocytes:count",
+            "tumor-infiltrating-lymphocytes:pooled-figure"
+          ]
+        },
+        {
+          "ordinal": 7,
+          "heading": "Common confusions",
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "06820f0f6268f36159d3683c3b6090dae9693df87401d1b20cc4e72b20ab7417",
+          "chars": 385,
+          "disposition": "teaching-covered-by-requirements",
+          "initialSectionBucketIds": [
+            "til:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 8,
+          "heading": "Explain it back",
+          "kind": "practice-or-worked-example",
+          "sha256": "1520542961a4b3e9f03e97abc3fd590888826f2ea98c84d4a2425e184fcd793b",
+          "chars": 155,
+          "disposition": "practice-prompt-credit-through-worked-example-requirements",
+          "initialSectionBucketIds": [
+            "til:11"
+          ],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 9,
+          "heading": "Takeaway",
+          "kind": "additional-teaching",
+          "sha256": "a055e335ed57a7dca9b573f191ac302397bd2b28310d7de0cc3881592821d11d",
+          "chars": 81,
+          "disposition": "recap-no-independent-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        },
+        {
+          "ordinal": 10,
+          "heading": "Sources and scope",
+          "kind": "source-scope",
+          "sha256": "87d0b4d262d3b939c98c95bb205b9c36faaf2327a044c6d3e00b764c984f1628",
+          "chars": 860,
+          "disposition": "source-metadata-identity-resolved-no-teaching-credit",
+          "initialSectionBucketIds": [],
+          "semanticRequirementIds": [],
+          "semanticDisposition": "Read in complete context; recap, routing, source metadata or a diagram interpretation represented by the lesson requirements, with no extra independent credit."
+        }
+      ],
+      "readingDepth": "Later complete lesson reading; original full teaching diff with unchanged section assessment reused only where justified.",
+      "requirements": [
+        "tumor-infiltrating-lymphocytes:definition",
+        "tumor-infiltrating-lymphocytes:compartments",
+        "tumor-infiltrating-lymphocytes:simoni",
+        "tumor-infiltrating-lymphocytes:recognition",
+        "tumor-infiltrating-lymphocytes:loi-population",
+        "tumor-infiltrating-lymphocytes:loi-hazards",
+        "tumor-infiltrating-lymphocytes:denkert",
+        "tumor-infiltrating-lymphocytes:predictive",
+        "tumor-infiltrating-lymphocytes:therapy",
+        "tumor-infiltrating-lymphocytes:area",
+        "tumor-infiltrating-lymphocytes:count",
+        "tumor-infiltrating-lymphocytes:pooled-figure",
+        "tumor-infiltrating-lymphocytes:card-measures",
+        "tumor-infiltrating-lymphocytes:card-how",
+        "tumor-infiltrating-lymphocytes:card-input",
+        "tumor-infiltrating-lymphocytes:card-output",
+        "tumor-infiltrating-lymphocytes:card-threshold",
+        "tumor-infiltrating-lymphocytes:card-failure",
+        "tumor-infiltrating-lymphocytes:card-limits",
+        "tumor-infiltrating-lymphocytes:card-validation"
+      ]
+    }
+  ],
+  "originalLessons": 7,
+  "laterLessons": 12,
+  "originalSections": 80,
+  "laterSections": 135,
+  "reuse": "Four paired teaching bodies are unchanged after routing normalization; three substantive paired deltas and five later-only lessons remain explicit. Both source inventories are retained.",
+  "figures": {
+    "files": [
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "9eff5aecef8f3736f94e0d3324da0ad5125f5d72cfe86f69e00fcce6c11f7a7e",
+        "render": "<private-capture>",
+        "method": "Native PNG, separate theme image",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Separate treated-site control from outside-field assessment; fictional anatomy is not a dosimetry map.",
+        "renderSha256": "9eff5aecef8f3736f94e0d3324da0ad5125f5d72cfe86f69e00fcce6c11f7a7e"
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "3921c5bb4e00eb89b9388a845277468c0c98858422425f689ae28b0f1a2b0741",
+        "render": "<private-capture>",
+        "method": "Native PNG, separate theme image",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Separate treated-site control from outside-field assessment; fictional anatomy is not a dosimetry map.",
+        "renderSha256": "3921c5bb4e00eb89b9388a845277468c0c98858422425f689ae28b0f1a2b0741"
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "5349724833d30e7e7c7b63eed42d5e6c30861a0fc2d1c7e91cbddf1905925054",
+        "render": "<private-capture>",
+        "renderSha256": "74263a837287a00612ac7b4234ec5d51f6d293560473b3b19958088a8af7cae8",
+        "width": 600,
+        "height": 1500,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Eight versus eight symbols illustrate relocation rather than count change; desert has two; counts are not stromal area or a causal wall."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "363dd318e1c9e3804572b0fd2d06e0c718b9d779c06fa0a1b879a5a738e0b564",
+        "render": "<private-capture>",
+        "renderSha256": "3a646c13234224a9dd7ff73277eed85995773bd17e191e645185a068c6eb744a",
+        "width": 600,
+        "height": 1500,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Eight versus eight symbols illustrate relocation rather than count change; desert has two; counts are not stromal area or a causal wall."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "4927a4937ae795bc5efd9af6c69524f6517e071b21dcc0dabd6f98cf88c70a85",
+        "render": "<private-capture>",
+        "method": "Native PNG, separate theme image",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Baseline class-I presence differs from inducibility; target recognition, tissue access and killing remain separate tests. Symbol counts are schematic.",
+        "renderSha256": "4927a4937ae795bc5efd9af6c69524f6517e071b21dcc0dabd6f98cf88c70a85"
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "8ff84a6723a1f3620f6287f6deb3af0a8a98a5f986d8891c1d1699a667ac7c74",
+        "render": "<private-capture>",
+        "method": "Native PNG, separate theme image",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Baseline class-I presence differs from inducibility; target recognition, tissue access and killing remain separate tests. Symbol counts are schematic.",
+        "renderSha256": "8ff84a6723a1f3620f6287f6deb3af0a8a98a5f986d8891c1d1699a667ac7c74"
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "67f480e97ac5f94ee267289b6a9f7453ffff117467de7378a6355cc3a132946f",
+        "render": "<private-capture>",
+        "renderSha256": "7050b8b2069affeade704bb5fc026c459335df8379cf94ab2c3b0f95f5caae9f",
+        "width": 600,
+        "height": 1060,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Collection, draining-node priming and distant access/function are conditional; lesion sizes require separate measurements."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "a15abfdf0683c373199729986560bf76e0963b4070f6ac1893c5646be4e4fcdd",
+        "render": "<private-capture>",
+        "renderSha256": "eb336aee47d353efe89af9ac656b4da130622af5bbc0488ca96cc1ed47fbcfc4",
+        "width": 600,
+        "height": 1060,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Collection, draining-node priming and distant access/function are conditional; lesion sizes require separate measurements."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "0b567058de73ac1b6ca4f4b3be472a1cab028fbe9b5dc3ee3ac06e6a3279bb89",
+        "render": "<private-capture>",
+        "renderSha256": "5642ab458c4a447ff83caa1cb60111f60c1e1c5b62cce9687fd3792fb729bb27",
+        "width": 780,
+        "height": 1450,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Eligible stroma excludes nests; (0.4+0.6)/(4+1)=20%, while an unweighted mean is35%; geometry is fictional and not a mandated pixel workflow."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "7159682de69aa6177e8304172470d771cbeb633686d30544716133a36c5e6212",
+        "render": "<private-capture>",
+        "renderSha256": "959d8731d86eab79dd52904599b6f06153e7805a61b6942caf6f3ce2f61ca84b",
+        "width": 780,
+        "height": 1450,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Eligible stroma excludes nests; (0.4+0.6)/(4+1)=20%, while an unweighted mean is35%; geometry is fictional and not a mandated pixel workflow."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "3a6f8f22590580cbc8f46f52478599c769841141c0ec662965d79076cdd8a58a",
+        "render": "<private-capture>",
+        "renderSha256": "e8ac5ca97232c141dacddc4e5ac9f92064be6a0be3b7b4c83b4a23e9d31f89ff",
+        "width": 600,
+        "height": 700,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Three rows of ten CD8 symbols among one hundred lymphocytes give 30%; this is not an all-cell or stromal-area denominator."
+      },
+      {
+        "file": "<private-capture>",
+        "sourceSha256": "c7b2827251dda3208d98a30cd90db787b812b2742f2794d52114ce937214590b",
+        "render": "<private-capture>",
+        "renderSha256": "20fa3bb2c93db1ff732bb035bffe3da62eb1e38131d43f3063389a2ac686746a",
+        "width": 600,
+        "height": 700,
+        "method": "Headless Chrome, source SVG at viewBox extent, device scale 1",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "extent": "Full native extent, each light and dark file separately with its full lesson and caption.",
+        "scientificDefect": false,
+        "teaching": "Three rows of ten CD8 symbols among one hundred lymphocytes give 30%; this is not an all-cell or stromal-area denominator."
+      }
+    ],
+    "versionEntries": 24,
+    "families": 6,
+    "scientificDefects": 0,
+    "limits": [
+      "No native Guide-page, accessibility, expert or learner certification.",
+      "The PNG themes were viewed independently, not inferred from text equality."
+    ]
+  },
+  "diagrams": {
+    "instances": [
+      {
+        "file": "7510db6b-abscopal-effect.md",
+        "ordinal": 0,
+        "diagramId": "diagram-228dc4dc21fb"
+      },
+      {
+        "file": "7510db6b-cancer-immunity-cycle.md",
+        "ordinal": 0,
+        "diagramId": "diagram-33481b3f3f88"
+      },
+      {
+        "file": "7510db6b-in-situ-vaccination.md",
+        "ordinal": 0,
+        "diagramId": "diagram-ce987c9e7d74"
+      },
+      {
+        "file": "7510db6b-tumor-infiltrating-lymphocytes.md",
+        "ordinal": 0,
+        "diagramId": "diagram-63281995879c"
+      },
+      {
+        "file": "c9689645-abscopal-effect.md",
+        "ordinal": 0,
+        "diagramId": "diagram-228dc4dc21fb"
+      },
+      {
+        "file": "c9689645-cancer-immunity-cycle.md",
+        "ordinal": 0,
+        "diagramId": "diagram-33481b3f3f88"
+      },
+      {
+        "file": "c9689645-in-situ-vaccination.md",
+        "ordinal": 0,
+        "diagramId": "diagram-ce987c9e7d74"
+      },
+      {
+        "file": "c9689645-tumor-infiltrating-lymphocytes.md",
+        "ordinal": 0,
+        "diagramId": "diagram-63281995879c"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": "diagram-228dc4dc21fb",
+        "sourceSha256": "228dc4dc21fb5d4ad153ad27e4c736080dcb7242d4d1d470a21f08bb11032a24",
+        "instances": [
+          {
+            "file": "7510db6b-abscopal-effect.md",
+            "ordinal": 0,
+            "diagramId": "diagram-228dc4dc21fb"
+          },
+          {
+            "file": "c9689645-abscopal-effect.md",
+            "ordinal": 0,
+            "diagramId": "diagram-228dc4dc21fb"
+          }
+        ],
+        "renderSha256": "100f1edb76df2603b73a9ca4a7689b9a85f55349a82c6e8fd10c39c4305eb811",
+        "width": 168,
+        "height": 409,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "scientificDefect": false
+      },
+      {
+        "id": "diagram-33481b3f3f88",
+        "sourceSha256": "33481b3f3f886a7022cb278218ce3472557d6e90b869edcdb1adba62890bf8bd",
+        "instances": [
+          {
+            "file": "7510db6b-cancer-immunity-cycle.md",
+            "ordinal": 0,
+            "diagramId": "diagram-33481b3f3f88"
+          },
+          {
+            "file": "c9689645-cancer-immunity-cycle.md",
+            "ordinal": 0,
+            "diagramId": "diagram-33481b3f3f88"
+          }
+        ],
+        "renderSha256": "205370bbbff289af9b08cc8bb24af04f71af0f9220c2016054c6de0cf4fa791e",
+        "width": 216,
+        "height": 832,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "scientificDefect": false
+      },
+      {
+        "id": "diagram-ce987c9e7d74",
+        "sourceSha256": "ce987c9e7d74862439a5b14bb0a61602681446834934354dc1007952f9016bf0",
+        "instances": [
+          {
+            "file": "7510db6b-in-situ-vaccination.md",
+            "ordinal": 0,
+            "diagramId": "diagram-ce987c9e7d74"
+          },
+          {
+            "file": "c9689645-in-situ-vaccination.md",
+            "ordinal": 0,
+            "diagramId": "diagram-ce987c9e7d74"
+          }
+        ],
+        "renderSha256": "a37b47f35bf765a02f0a03e0b88f726caad0060b43767531a3185896defc576d",
+        "width": 168,
+        "height": 409,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "scientificDefect": false
+      },
+      {
+        "id": "diagram-63281995879c",
+        "sourceSha256": "63281995879c494c9746b0ca5c0c0805c804bedbc25a75e512b35c8cee4d4c82",
+        "instances": [
+          {
+            "file": "7510db6b-tumor-infiltrating-lymphocytes.md",
+            "ordinal": 0,
+            "diagramId": "diagram-63281995879c"
+          },
+          {
+            "file": "c9689645-tumor-infiltrating-lymphocytes.md",
+            "ordinal": 0,
+            "diagramId": "diagram-63281995879c"
+          }
+        ],
+        "renderSha256": "6ee9ac39428c449c3632622e2bd8f1e87c9851a69e55e51c422e419debceb32a",
+        "width": 168,
+        "height": 409,
+        "method": "Chrome at intrinsic SVG extent; Mermaid rendered locally, no server",
+        "viewed": true,
+        "checkedAt": "2026-11-11",
+        "scientificDefect": false
+      }
+    ],
+    "sheets": [
+      {
+        "file": "sheet-1.png",
+        "width": 248,
+        "height": 2259,
+        "diagrams": [
+          "diagram-228dc4dc21fb",
+          "diagram-33481b3f3f88",
+          "diagram-ce987c9e7d74",
+          "diagram-63281995879c"
+        ]
+      }
+    ],
+    "limits": [
+      "Composite source-label headings clip, but each full diagram is visible at its native raster extent; labels and surrounding captions were read in the lessons.",
+      "No Guide browser-page or accessibility certification."
+    ]
+  },
+  "elicit": "No callable Elicit tool; frozen discovery is preserved separately and no new Elicit output is claimed.",
+  "personalCase": "Three personal-case sections excluded; no private source prose is adopted into the public repository."
+}

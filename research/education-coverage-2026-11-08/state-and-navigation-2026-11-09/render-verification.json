@@ -1,0 +1,79 @@
+{
+  "checkedOn": "2026-11-09",
+  "renderedOwners": 149,
+  "changedOwner": {
+    "id": "t-cell-exhaustion-term",
+    "route": "/terms/t-cell-exhaustion-term/",
+    "asOf": "2026-11-09",
+    "bytes": 64049,
+    "sha256": "67a1d226929871bab78c26b377e8071521c323cc85854081fd043e851043db85",
+    "missingSources": [],
+    "nestedAnchors": 0,
+    "duplicateUrls": []
+  },
+  "readerFieldChecks": {
+    "checkedOn": "2026-11-09",
+    "checks": [
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8655e0c61e8c204556a6ccdb84e1fc229e2ea2b76c43facfabcf06ef36a74491"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d83623d336cc110ded9b541b357934cb0735bfa635cc9350e8b1d934461f9c9b"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "fc23ab5778c7313772a5cd4551f6bcdea06d9f22a4894f30b95837432dddfa47"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e8824ed278bd24a87dc653c1c7151aae02852a49b252097a45468af6a95685d9"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "778a6eb3ba0db522368e9fb41c53c6eed9cc3d4a92a118ac2f5622dd4f43fe90"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3916032dd49bff3863882c6fa76876958d6818af12dd6d7fb8777cae2ad5974b"
+      },
+      {
+        "recordId": "t-cell-exhaustion-term",
+        "field": "notes",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "283d054adbe803f01f303cd39774a32e21de46b828bb7af30ff95552a7c4db97"
+      }
+    ],
+    "failed": [],
+    "attributeOnly": [],
+    "scope": "Authored exhaustion/persistence fields matched in actual rendered reader text excluding script/style and JSON-LD; accessible-attribute matches named separately. No hydration, visual-layout or live-deployment certification."
+  },
+  "scope": "Canonical reader text excluding scripts/style/JSON-LD. No hydration, visual or live-deployment certification."
+}

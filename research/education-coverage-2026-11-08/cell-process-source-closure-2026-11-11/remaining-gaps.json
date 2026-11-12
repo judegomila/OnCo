@@ -1,0 +1,101 @@
+{
+  "clauses": [
+    {
+      "id": "MA1",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "A visible gap width is a drawing convention, not a measured dimension."
+      ]
+    },
+    {
+      "id": "MA2",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "The hourglass contour and colour join are schematic; no empirical contour shape is asserted."
+      ]
+    },
+    {
+      "id": "MA4",
+      "status": "qualified-partial",
+      "remaining": [
+        "These studies do not establish all non-amino-acid products or export from individually identified autolysosomes. Intact transport rather than rupture is an interpretation of transporter experiments."
+      ]
+    },
+    {
+      "id": "MA6",
+      "status": "authored-drawing-convention",
+      "remaining": [
+        "The Guide caption owner may explicitly add that colours are conventions. Shape and size are already called schematic; this does not require invented literature proof."
+      ]
+    },
+    {
+      "id": "HR3",
+      "status": "qualified-scope",
+      "remaining": [
+        "The exact word antiparallel is not quoted from the selected passages. The record uses complementary pairing; the Guide orientation is an interpretation of the stated DNA topology, not an independent human RAD51 structural measurement."
+      ]
+    },
+    {
+      "id": "HR4",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "Template stays in the Guide is already scoped to one successful illustrative route, so it is not rejected as a universal claim."
+      ]
+    },
+    {
+      "id": "E3-substrate-selection",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "This confirms the general selection statement at abstract scope, not a literal substrate-Q experiment in the drawing."
+      ]
+    },
+    {
+      "id": "mixture-assignment",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "Arithmetic is independently reproduced; the prior method interpretation is retained at its recorded depth."
+      ]
+    },
+    {
+      "id": "GS1",
+      "status": "represented-at-stated-scope",
+      "remaining": [
+        "A/B, A/absent and A/A are figure notation; no new figure view is claimed for genomic scars."
+      ]
+    }
+  ],
+  "carriedEscalations": [
+    "E-01",
+    "E-02",
+    "E-03",
+    "E-04",
+    "E-05",
+    "E-06",
+    "E-07",
+    "E-08",
+    "E-09",
+    "E-10",
+    "E-11",
+    "E-12",
+    "E-13",
+    "E-14",
+    "N-01",
+    "N-02",
+    "N-03",
+    "N-04",
+    "N-05",
+    "N-06"
+  ],
+  "custodyQuestions": [
+    "HR PNG-versus-SVG authorship conflict remains separate from scientific topology.",
+    "The missing source commit and historical owner hashes are not current source identities.",
+    "Copied irrelevant preservation clauses are custody-quality flags, not proof of a defect in the delivered image."
+  ],
+  "scientificDependencies": "All 40 supporting bodies retain explicit figure and source-owner routes. Unreviewed dependent images and lessons remain unreviewed in the global ledger.",
+  "sourceLimits": "Thirty abstracts and targeted paragraphs in nine bodies; no whole-paper reading claimed. MA4 remains partial at the named scope.",
+  "expertLearnerLanguageAcceptance": 0,
+  "roleDecision": {
+    "E-01": "Resolved for scope only: the coordinator classified all 40 fully read bodies as supporting, retaining 28 mixed construction payloads and 12 provenance roles. Figure and source verification is not closed by this decision.",
+    "priorVocabulary": "Earlier role labels are preserved in original private packets. The current mixed label consistently includes scientific construction text as well as explicit alt/caption material."
+  }
+}

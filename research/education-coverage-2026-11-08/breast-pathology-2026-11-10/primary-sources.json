@@ -1,0 +1,1635 @@
+{
+  "catalog": [
+    {
+      "sourceId": "cap",
+      "title": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true",
+      "sourceType": "official pathology protocol",
+      "readingScope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields"
+    },
+    {
+      "sourceId": "cap-bmk",
+      "title": "CAP breast biomarker template 1.6.2.0, September 2026",
+      "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "sourceType": "official pathology template",
+      "readingScope": "Optional Ki-67 field and Note D"
+    },
+    {
+      "sourceId": "pdq",
+      "title": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "sourceType": "official clinical reference",
+      "readingScope": "Tables 2 to 10 and footnotes, especially clinical and pathological N and anatomical/clinical prognostic groups"
+    },
+    {
+      "sourceId": "ajcc",
+      "title": "AJCC current staging-system table, 2026",
+      "url": "https://www.facs.org/media/c5ik5tkr/ajcc-current-staging-system-2026.pdf",
+      "sourceType": "official staging edition index",
+      "readingScope": "Breast row: eighth edition"
+    },
+    {
+      "sourceId": "fda",
+      "title": "FDA breast pCR endpoint guidance, July 2020",
+      "url": "https://www.fda.gov/media/83507/download",
+      "sourceType": "regulatory guidance",
+      "readingScope": "Sections III and IV: complete-specimen definitions and outcome/surrogacy distinction"
+    },
+    {
+      "sourceId": "md-method",
+      "title": "MD Anderson detailed RCB pathology methods",
+      "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf",
+      "sourceType": "method-author protocol",
+      "readingScope": "Pages 1 to 4, bed boundaries, cellularity denominators and nodal inputs"
+    },
+    {
+      "sourceId": "calculator",
+      "title": "MD Anderson RCB calculator",
+      "url": "https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3",
+      "sourceType": "method-author calculator",
+      "readingScope": "Six input labels and method explanation; fictional-input response 2.811 RCB-II"
+    },
+    {
+      "sourceId": "seer-anatomy",
+      "title": "NCI SEER mammary gland anatomy",
+      "url": "https://training.seer.cancer.gov/anatomy/reproductive/female/glands.html",
+      "sourceType": "official training reference",
+      "readingScope": "Ducts, lobules, acini and supporting tissue"
+    },
+    {
+      "sourceId": "seer-types",
+      "title": "NCI SEER breast histologies",
+      "url": "https://training.seer.cancer.gov/breast/types.html",
+      "sourceType": "official training reference",
+      "readingScope": "In situ and invasive histology"
+    },
+    {
+      "sourceId": "who-structure",
+      "title": "WHO/IARC breast tumour classification structure",
+      "url": "https://whobluebooks.iarc.who.int/structures/breast-tumours/",
+      "sourceType": "official category structure",
+      "readingScope": "In situ, NST and special categories; public structure only, not paid chapters"
+    },
+    {
+      "sourceId": "nci-dcis",
+      "title": "NCI ductal carcinoma in situ",
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis",
+      "sourceType": "official education",
+      "readingScope": "Definition and diagnostic setting"
+    },
+    {
+      "sourceId": "nci-sentinel",
+      "title": "NCI sentinel-node biopsy",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+      "sourceType": "official education",
+      "readingScope": "Mapping, breast drainage, procedure, harms and false-negative results"
+    },
+    {
+      "sourceId": "nci-stages",
+      "title": "NCI breast stages",
+      "url": "https://www.cancer.gov/types/breast/stages",
+      "sourceType": "official education",
+      "readingScope": "Clinical and surgery-first pathological prognostic assessment"
+    },
+    {
+      "sourceId": "nci-grade",
+      "title": "NCI tumour grade",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+      "sourceType": "official education",
+      "readingScope": "Microscopic grade versus extent"
+    },
+    {
+      "sourceId": "nci-lumpectomy",
+      "title": "NCI lumpectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy",
+      "sourceType": "official education",
+      "readingScope": "Operation, specimen, other treatments"
+    },
+    {
+      "sourceId": "nci-mastectomy",
+      "title": "NCI mastectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/mastectomy",
+      "sourceType": "official education",
+      "readingScope": "Operation variants, retained structures, nodal procedures, reconstruction"
+    },
+    {
+      "sourceId": "nci-choice",
+      "title": "NCI choosing lumpectomy or mastectomy",
+      "url": "https://www.cancer.gov/types/breast/treatment/surgery/choosing-lumpectomy-mastectomy",
+      "sourceType": "official education",
+      "readingScope": "Eligibility and complete-plan comparison"
+    },
+    {
+      "sourceId": "pitfalls",
+      "title": "Diagnostic pitfalls in breast pathology, 2023",
+      "url": "https://meridian.allenpress.com/aplm/article/147/9/1025/495517/Diagnostic-Pitfalls-in-Breast-Cancer-Pathology",
+      "sourceType": "review",
+      "readingScope": "HTTP 403; not used as claim evidence; biopsy-scar alternative read in Provenzano full text"
+    },
+    {
+      "sourceId": "kumar",
+      "title": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "gudjonsson",
+      "title": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "werling",
+      "title": "Immunohistochemical distinction of invasive from noninvasive breast lesions: a comparative study of p63 versus calponin and smooth muscle myosin heavy chain.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "gusterson",
+      "title": "Distribution of myoepithelial cells and basement membrane proteins in the normal breast and in benign and malignant breast diseases.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "suami",
+      "title": "The lymphatic anatomy of the breast and its implications for sentinel lymph node biopsy: a human cadaver study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "ikwg",
+      "title": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/",
+      "sourceType": "consensus recommendations",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "ma",
+      "title": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33953240/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "tang",
+      "title": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36030639/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "fisher",
+      "title": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "veronesi",
+      "title": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "cortazar",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "symmans",
+      "title": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "yau",
+      "title": "Residual cancer burden after neoadjuvant chemotherapy and long-term survival outcomes in breast cancer: a multicentre pooled analysis of 5161 patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34902335/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "boughey",
+      "title": "Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: the ACOSOG Z1071 (Alliance) clinical trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24101169/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "caudle",
+      "title": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/",
+      "sourceType": "primary study",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "morrow",
+      "title": "Society of Surgical Oncology-American Society for Radiation Oncology-American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery with Whole-Breast Irradiation in Ductal Carcinoma In Situ.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27527714/",
+      "sourceType": "consensus recommendations",
+      "readingScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "moran",
+      "title": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+      "url": "https://doi.org/10.1245/s10434-014-3481-4",
+      "sourceType": "consensus recommendations",
+      "readingScope": "Selected full-text sections: Table 1, inclusion criteria and limitations"
+    },
+    {
+      "sourceId": "provenzano",
+      "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+      "url": "https://doi.org/10.1038/modpathol.2015.74",
+      "sourceType": "consensus recommendations",
+      "readingScope": "Selected full-text sections: mapped sampling, breast/node assessment and biopsy-scar interpretation"
+    },
+    {
+      "sourceId": "nci-cde",
+      "title": "NCI BOLD preoperative data elements, June 2014: RCB class boundaries",
+      "url": "https://www.cancer.gov/about-nci/organization/ccct/steering-committees/nctn/breast-cancer/boldtfpreoperativecdes-rev.pdf",
+      "sourceType": "official trial data-element definitions",
+      "readingScope": "Page 3: four RCB class cutoffs"
+    },
+    {
+      "sourceId": "ubc-anatomy",
+      "title": "UBC pathology: Cytodiagnosis of Breast Lesions, normal breast histology, page 22",
+      "url": "https://file.pathology.ubc.ca/BreastCytoBook.pdf",
+      "sourceType": "institutional histology teaching reference",
+      "readingScope": "Chapter 3 normal breast: terminal ducts and acini form TDLU; inner luminal, outer myoepithelial, basement membrane and stroma"
+    },
+    {
+      "sourceId": "dceg-tdlu",
+      "title": "NCI DCEG: terminal duct lobular unit involution",
+      "url": "https://dceg.cancer.gov/research/cancer-types/breast-cancer/tdlu-involution-with-komen",
+      "sourceType": "official research summary",
+      "readingScope": "TDLU/acini involution with ageing and completion of childbearing"
+    },
+    {
+      "sourceId": "keynote-pcr",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "sourceType": "randomised trial primary pCR analysis",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "keynote-os",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/",
+      "sourceType": "randomised trial final overall-survival analysis",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "elston",
+      "title": "Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1757079/",
+      "sourceType": "primary observational prognostic cohort",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "giuliano",
+      "title": "Breast Cancer-Major changes in the American Joint Committee on Cancer eighth edition cancer staging manual.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28294295/",
+      "sourceType": "staging-system description",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "weiss",
+      "title": "Validation Study of the American Joint Committee on Cancer Eighth Edition Prognostic Stage Compared With the Anatomic Stage in Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29222540/",
+      "sourceType": "retrospective surgery-first staging validation",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "provenzano-current",
+      "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26205180/",
+      "sourceType": "international working-group recommendations",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pitfalls-current",
+      "title": "Diagnostic Pitfalls in Breast Cancer Pathology With an Emphasis on Core Needle Biopsy Specimens.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37651393/",
+      "sourceType": "pathology review; not primary study",
+      "readingScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pdq-tables",
+      "title": "pdq-tables",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "sourceType": "official AJCC table reproduction",
+      "readingScope": "Tables 2, 3, 4, 8, 9 and 10 expanded from captured raw HTML; colspan/rowspan preserved separately; Tis/Paget, clinical N and TNBC G3 clinical stage rows read"
+    },
+    {
+      "sourceId": "fda-2023",
+      "title": "fda-2023",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-expands-early-breast-cancer-indication-abemaciclib-endocrine-therapy",
+      "sourceType": "official regulatory notice",
+      "readingScope": "March 3, 2023 removal of testing requirement and cohort descriptions read"
+    },
+    {
+      "sourceId": "label",
+      "title": "label",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=be4bc0de-0fdc-4d46-8d25-be43c79e6a06",
+      "sourceType": "official label",
+      "readingScope": "monarchE cohort 1/cohort 2 definitions read; other drug doses, warnings and indications not certified"
+    },
+    {
+      "sourceId": "symmans-equation",
+      "title": "symmans-equation",
+      "url": "https://llusurgonc.org/images/DOWNLOADS/JOURNAL_CLUB/2018/11/Measurement-of-Residual-Breast-Cancer-Burden-to-Predict-Survival-After-Neoadjuvant-Chemotherapy.pdf",
+      "sourceType": "primary typeset article via journal-club mirror",
+      "readingScope": "Printed page 4417 equation, N/d_met definitions, 0.75 assumption; derivation 241 and validation 141. Typeset equation page actually viewed; publisher-hosted bytes not retrieved."
+    }
+  ],
+  "publicationIdentities": [
+    {
+      "sourceId": "pmid-11801722",
+      "pmid": "11801722",
+      "doi": "10.1242/jcs.115.1.39",
+      "title": "Normal and tumor-derived myoepithelial cells differ in their ability to interact with luminal breast epithelial cells for polarity and basement membrane deposition.",
+      "authors": "Gudjonsson T, Rønnov-Jessen L, Villadsen R, Rank F, Bissell MJ, Petersen OW.",
+      "year": "2002",
+      "pmcid": "PMC2933194",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11801722/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-12393819",
+      "pmid": "12393819",
+      "doi": "10.1056/nejmoa020989",
+      "title": "Twenty-year follow-up of a randomized study comparing breast-conserving surgery with radical mastectomy for early breast cancer.",
+      "authors": "Veronesi U, Cascinelli N, Mariani L, Greco M, Saccozzi R, Luini A, Aguilar M, Marubini E.",
+      "year": "2002",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393819/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-12393820",
+      "pmid": "12393820",
+      "doi": "10.1056/nejmoa022152",
+      "title": "Twenty-year follow-up of a randomized trial comparing total mastectomy, lumpectomy, and lumpectomy plus irradiation for the treatment of invasive breast cancer.",
+      "authors": "Fisher B, Anderson S, Bryant J, Margolese RG, Deutsch M, Fisher ER, Jeong JH, Wolmark N.",
+      "year": "2002",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12393820/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-12502930",
+      "pmid": "12502930",
+      "doi": "10.1097/00000478-200301000-00009",
+      "title": "Immunohistochemical distinction of invasive from noninvasive breast lesions: a comparative study of p63 versus calponin and smooth muscle myosin heavy chain.",
+      "authors": "Werling RW, Hwang H, Yaziji H, Gown AM.",
+      "year": "2003",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12502930/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-17785706",
+      "pmid": "17785706",
+      "doi": "10.1200/jco.2007.10.6823",
+      "title": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+      "authors": "Symmans WF, Peintinger F, Hatzis C, Rajan R, Kuerer H, Valero V, Assad L, Poniecka A, Hennessy B, Green M, Buzdar AU, Singletary SE, Hortobagyi GN, Pusztai L.",
+      "year": "2007",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-18043970",
+      "pmid": "18043970",
+      "doi": "10.1245/s10434-007-9709-9",
+      "title": "The lymphatic anatomy of the breast and its implications for sentinel lymph node biopsy: a human cadaver study.",
+      "authors": "Suami H, Pan WR, Mann GB, Taylor GI.",
+      "year": "2008",
+      "pmcid": "PMC2234450",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18043970/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-24101169",
+      "pmid": "24101169",
+      "doi": "10.1001/jama.2013.278932",
+      "title": "Sentinel lymph node surgery after neoadjuvant chemotherapy in patients with node-positive breast cancer: the ACOSOG Z1071 (Alliance) clinical trial.",
+      "authors": "Boughey JC, Suman VJ, Mittendorf EA, Ahrendt GM, Wilke LG, Taback B, Leitch AM, Kuerer HM, Bowling M, Flippo-Morton TS, Byrd DR, Ollila DW, Julian TB, McLaughlin SA, McCall L, Symmans WF, Le-Petross HT, Haffty BG, Buchholz TA, Nelson H, Hunt KK,  Alliance for Clinical Trials in Oncology.",
+      "year": "2013",
+      "pmcid": "PMC4075763",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24101169/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-24529560",
+      "pmid": "24529560",
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "authors": "Cortazar P, Zhang L, Untch M, Mehta K, Costantino JP, Wolmark N, Bonnefoi H, Cameron D, Gianni L, Valagussa P, Swain SM, Prowell T, Loibl S, Wickerham DL, Bogaerts J, Baselga J, Perou C, Blumenthal G, Blohmer J, Mamounas EP, Bergh J, Semiglazov V, Justice R, Eidtmann H, Paik S, Piccart M, Sridhara R, Fasching PA, Slaets L, Tang S, Gerber B, Geyer CE, Pazdur R, Ditsch N, Rastogi P, Eiermann W, von Minckwitz G.",
+      "year": "2014",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-26811528",
+      "pmid": "26811528",
+      "doi": "10.1200/jco.2015.64.0094",
+      "title": "Improved Axillary Evaluation Following Neoadjuvant Therapy for Patients With Node-Positive Breast Cancer Using Selective Evaluation of Clipped Nodes: Implementation of Targeted Axillary Dissection.",
+      "authors": "Caudle AS, Yang WT, Krishnamurthy S, Mittendorf EA, Black DM, Gilcrease MZ, Bedrosian I, Hobbs BP, DeSnyder SM, Hwang RF, Adrada BE, Shaitelman SF, Chavez-MacGregor M, Smith BD, Candelaria RP, Babiera GV, Dogan BE, Santiago L, Hunt KK, Kuerer HM.",
+      "year": "2016",
+      "pmcid": "PMC4933133",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26811528/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-27527714",
+      "pmid": "27527714",
+      "doi": "10.1245/s10434-016-5449-z",
+      "title": "Society of Surgical Oncology-American Society for Radiation Oncology-American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery with Whole-Breast Irradiation in Ductal Carcinoma In Situ.",
+      "authors": "Morrow M, Van Zee KJ, Solin LJ, Houssami N, Chavez-MacGregor M, Harris JR, Horton J, Hwang S, Johnson PL, Marinovich ML, Schnitt SJ, Wapnir I, Moran MS.",
+      "year": "2016",
+      "pmcid": "PMC5047939",
+      "readingDepth": "Morrow full text: margin recommendations, narrow-negative-margin judgement and scope",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27527714/",
+      "sourceType": "consensus recommendations",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-33369635",
+      "pmid": "33369635",
+      "doi": "10.1093/jnci/djaa201",
+      "title": "Assessment of Ki67 in Breast Cancer: Updated Recommendations From the International Ki67 in Breast Cancer Working Group.",
+      "authors": "Nielsen TO, Leung SCY, Rimm DL, Dodson A, Acs B, Badve S, Denkert C, Ellis MJ, Fineberg S, Flowers M, Kreipe HH, Laenkholm AV, Pan H, Penault-Llorca FM, Polley MY, Salgado R, Smith IE, Sugie T, Bartlett JMS, McShane LM, Dowsett M, Hayes DF.",
+      "year": "2021",
+      "pmcid": "PMC8487652",
+      "readingDepth": "IKWG full text: Box 1, Table 1, analytical validity and clinical utility sections",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/",
+      "sourceType": "consensus recommendations",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-33953240",
+      "pmid": "33953240",
+      "doi": "10.1038/s41598-021-88716-4",
+      "title": "Prognostic value of extranodal extension in axillary lymph node-positive breast cancer.",
+      "authors": "Ma X, Yang X, Yang W, Shui R.",
+      "year": "2021",
+      "pmcid": "PMC8099896",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33953240/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-34902335",
+      "pmid": "34902335",
+      "doi": "10.1016/s1470-2045(21)00589-1",
+      "title": "Residual cancer burden after neoadjuvant chemotherapy and long-term survival outcomes in breast cancer: a multicentre pooled analysis of 5161 patients.",
+      "authors": "Yau C, Osdoit M, van der Noordaa M, Shad S, Wei J, de Croze D, Hamy AS, Laé M, Reyal F, Sonke GS, Steenbruggen TG, van Seijen M, Wesseling J, Martín M, Del Monte-Millán M, López-Tarruella S, I-SPY 2 Trial Consortium, Boughey JC, Goetz MP, Hoskin T, Gould R, Valero V, Edge SB, Abraham JE, Bartlett JMS, Caldas C, Dunn J, Earl H, Hayward L, Hiller L, Provenzano E, Sammut SJ, Thomas JS, Cameron D, Graham A, Hall P, Mackintosh L, Fan F, Godwin AK, Schwensen K, Sharma P, DeMichele AM, Cole K, Pusztai L, Kim MO, van 't Veer LJ, Esserman LJ, Symmans WF.",
+      "year": "2022",
+      "pmcid": "PMC9455620",
+      "readingDepth": "Yau full text: methods, results and Table 2; TNBC adjusted model n=1585",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34902335/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-36030639",
+      "pmid": "36030639",
+      "doi": "10.1016/j.prp.2022.154070",
+      "title": "Extranodal extension, an international survey on its evaluation and reporting in breast cancer patients.",
+      "authors": "Tang P, Moravek M, Oprea-Ilies G, Mon KS, Pambuccian SE.",
+      "year": "2022",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36030639/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-37380767",
+      "pmid": "37380767",
+      "doi": "10.1038/s41586-023-06252-9",
+      "title": "A spatially resolved single-cell genomic atlas of the adult human breast.",
+      "authors": "Kumar T, Nee K, Wei R, He S, Nguyen QH, Bai S, Blake K, Pein M, Gong Y, Sei E, Hu M, Casasent AK, Thennavan A, Li J, Tran T, Chen K, Nilges B, Kashikar N, Braubach O, Ben Cheikh B, Nikulina N, Chen H, Teshome M, Menegaz B, Javaid H, Nagi C, Montalvan J, Lev T, Mallya S, Tifrea DF, Edwards R, Lin E, Parajuli R, Hanson S, Winocour S, Thompson A, Lim B, Lawson DA, Kessenbrock K, Navin N.",
+      "year": "2023",
+      "pmcid": "PMC11443819",
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37380767/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-6290045",
+      "pmid": "6290045",
+      "doi": null,
+      "title": "Distribution of myoepithelial cells and basement membrane proteins in the normal breast and in benign and malignant breast diseases.",
+      "authors": "Gusterson BA, Warburton MJ, Mitchell D, Ellison M, Neville AM, Rudland PS.",
+      "year": "1982",
+      "pmcid": null,
+      "readingDepth": "not claimed",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6290045/",
+      "sourceType": "primary study",
+      "studiedScope": "Raw primary abstract read; full-text selected sections where separately documented"
+    },
+    {
+      "sourceId": "pmid-24515565",
+      "pmid": "24515565",
+      "doi": "10.1245/s10434-014-3481-4",
+      "title": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+      "authors": "Moran MS, Schnitt SJ, Giuliano AE, Harris JR, Khan SA, Horton J, Klimberg S, Chavez-MacGregor M, Freedman G, Houssami N, Johnson PL, Morrow M.",
+      "year": "2014",
+      "pmcid": null,
+      "readingDepth": "Moran full text read through corresponding ASO publication PDF: Table 1, eligibility and limitations",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24515565/",
+      "sourceType": "consensus recommendations",
+      "studiedScope": "Selected full-text sections: Table 1, inclusion criteria and limitations"
+    },
+    {
+      "sourceId": "pmid-26205180",
+      "pmid": "26205180",
+      "doi": "10.1038/modpathol.2015.74",
+      "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+      "authors": "Provenzano E, Bossuyt V, Viale G, Cameron D, Badve S, Denkert C, MacGrogan G, Penault-Llorca F, Boughey J, Curigliano G, Dixon JM, Esserman L, Fastner G, Kuehn T, Peintinger F, von Minckwitz G, White J, Yang W, Symmans WF, Residual Disease Characterization Working Group of the Breast International Group-North American Breast Cancer Group Collaboration.",
+      "year": "2015",
+      "pmcid": null,
+      "readingDepth": "Provenzano full text: mapped sampling, breast/node findings and biopsy-scar caveats",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26205180/",
+      "additionalReadingOrigins": [
+        "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+      ],
+      "sourceType": "consensus recommendations",
+      "studiedScope": "Selected full-text sections: mapped sampling, breast/node assessment and biopsy-scar interpretation"
+    },
+    {
+      "sourceId": "pmid-32101663",
+      "pmid": "32101663",
+      "doi": "10.1056/nejmoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Pusztai L, McArthur H, Kümmel S, Bergh J, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Foukakis T, Fasching PA, Cardoso F, Untch M, Jia L, Karantza V, Zhao J, Aktan G, Dent R, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2020",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32101663/",
+      "sourceType": "randomised trial primary pCR analysis",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-39282906",
+      "pmid": "39282906",
+      "doi": "10.1056/nejmoa2409932",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "authors": "Schmid P, Cortes J, Dent R, McArthur H, Pusztai L, Kümmel S, Denkert C, Park YH, Hui R, Harbeck N, Takahashi M, Im SA, Untch M, Fasching PA, Mouret-Reynier MA, Foukakis T, Ferreira M, Cardoso F, Zhou X, Karantza V, Tryfonidis K, Aktan G, O'Shaughnessy J, KEYNOTE-522 Investigators.",
+      "year": "2024",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/",
+      "sourceType": "randomised trial final overall-survival analysis",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-1757079",
+      "pmid": "1757079",
+      "doi": "10.1111/j.1365-2559.1991.tb00229.x",
+      "title": "Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up.",
+      "authors": "Elston CW, Ellis IO.",
+      "year": "1991",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1757079/",
+      "sourceType": "primary observational prognostic cohort",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-28294295",
+      "pmid": "28294295",
+      "doi": "10.3322/caac.21393",
+      "title": "Breast Cancer-Major changes in the American Joint Committee on Cancer eighth edition cancer staging manual.",
+      "authors": "Giuliano AE, Connolly JL, Edge SB, Mittendorf EA, Rugo HS, Solin LJ, Weaver DL, Winchester DJ, Hortobagyi GN.",
+      "year": "2017",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28294295/",
+      "sourceType": "staging-system description",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-29222540",
+      "pmid": "29222540",
+      "doi": "10.1001/jamaoncol.2017.4298",
+      "title": "Validation Study of the American Joint Committee on Cancer Eighth Edition Prognostic Stage Compared With the Anatomic Stage in Breast Cancer.",
+      "authors": "Weiss A, Chavez-MacGregor M, Lichtensztajn DY, Yi M, Tadros A, Hortobagyi GN, Giordano SH, Hunt KK, Mittendorf EA.",
+      "year": "2018",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29222540/",
+      "sourceType": "retrospective surgery-first staging validation",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-37651393",
+      "pmid": "37651393",
+      "doi": "10.5858/arpa.2023-0007-ra",
+      "title": "Diagnostic Pitfalls in Breast Cancer Pathology With an Emphasis on Core Needle Biopsy Specimens.",
+      "authors": "Quintana LM, Collins LC.",
+      "year": "2023",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37651393/",
+      "sourceType": "pathology review; not primary study",
+      "studiedScope": "Raw resolved abstract in this pass"
+    },
+    {
+      "sourceId": "pmid-36917758",
+      "pmid": "36917758",
+      "doi": "10.1200/jco.22.02900",
+      "title": "Randomized Placebo Controlled Trial of Low-Dose Tamoxifen to Prevent Recurrence in Breast Noninvasive Neoplasia: A 10-Year Follow-Up of TAM-01 Study.",
+      "authors": "Lazzeroni M, Puntoni M, Guerrieri-Gonzaga A, Serrano D, Boni L, Buttiron Webber T, Fava M, Briata IM, Giordano L, Digennaro M, Cortesi L, Falcini F, Serra P, Avino F, Millo F, Cagossi K, Gallerani E, De Simone A, Cariello A, Aprile G, Renne M, Bonanni B, DeCensi A.",
+      "year": "2023",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Coordinator raw Europe PMC identity and abstract read",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36917758/",
+      "sourceType": "randomised trial follow-up",
+      "studiedScope": "500 women with breast intraepithelial neoplasia, 69% DCIS; 5 mg tamoxifen for three years versus placebo; breast-event follow-up, not a comparison with standard-dose tamoxifen."
+    },
+    {
+      "sourceId": "pmid-39665585",
+      "pmid": "39665585",
+      "doi": "10.1001/jama.2024.26698",
+      "title": "Active Monitoring With or Without Endocrine Therapy for Low-Risk Ductal Carcinoma In Situ: The COMET Randomized Clinical Trial.",
+      "authors": "Hwang ES, Hyslop T, Lynch T, Ryser MD, Weiss A, Wolf A, Norris K, Witten M, Grimm L, Schnitt S, Badve S, Factor R, Frank E, Collyar D, Basila D, Pinto D, Watson MA, West R, Davies L, Donovan JL, Shimada A, Li Y, Li Y, Bennett AV, Rosenberg S, Marks J, Winer E, Boisvert M, Giuliano A, Larson KE, Yost K, McAuliffe PF, Krie A, Tamirisa N, Carey LA, Thompson AM, Partridge AH, COMET Study Investigators.",
+      "year": "2025",
+      "pmcid": "PMC11920841",
+      "readingDepth": "abstract",
+      "readingOrigin": "Coordinator raw Europe PMC identity and abstract read",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39665585/",
+      "sourceType": "randomised noninferiority trial",
+      "studiedScope": "Selected women aged at least 40 with hormone-receptor-positive grade 1 or 2 DCIS; active monitoring versus guideline-concordant care; two-year ipsilateral invasive-cancer endpoint."
+    },
+    {
+      "sourceId": "pmid-40466065",
+      "pmid": "40466065",
+      "doi": "10.1056/nejmoa2414859",
+      "title": "Omitting Regional Nodal Irradiation after Response to Neoadjuvant Chemotherapy.",
+      "authors": "Mamounas EP, Bandos H, White JR, Julian TB, Khan AJ, Shaitelman SF, Torres MA, Vicini FA, Ganz PA, McCloskey SA, Lucas PC, Gupta N, Li XA, McCormick B, Smith B, Tendulkar RD, Kavadi VS, Matsumoto K, Seaward SA, Irvin WJ, Lin JY, Mutter RW, Muanza TM, Stromberg J, Jagsi R, Weiss AC, Curran WJ, Wolmark N.",
+      "year": "2025",
+      "pmcid": "PMC12269788",
+      "readingDepth": "abstract",
+      "readingOrigin": "Coordinator raw Europe PMC identity and abstract read",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40466065/",
+      "sourceType": "randomised trial",
+      "studiedScope": "Biopsy-proven cT1 to T3 cN1 M0 breast cancer reaching ypN0 after neoadjuvant chemotherapy; regional nodal irradiation versus omission; reported invasive breast cancer recurrence-free interval."
+    },
+    {
+      "sourceId": "pmid-37596658",
+      "pmid": "37596658",
+      "doi": "10.1186/s12957-023-03147-x",
+      "title": "Ideal marker for targeted axillary dissection (IMTAD): a prospective multicentre trial.",
+      "authors": "Žatecký J, Coufal O, Zapletal O, Kubala O, Kepičová M, Faridová A, Rauš K, Gatěk J, Kosáč P, Peteja M.",
+      "year": "2023",
+      "pmcid": "PMC10439625",
+      "readingDepth": "abstract; targeted methods/discussion additionally read for IMTAD",
+      "readingOrigin": "Coordinator raw Europe PMC identity and abstract read",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37596658/",
+      "sourceType": "prospective multicentre method comparison",
+      "studiedScope": "Three node-localisation methods after neoadjuvant chemotherapy. Centres used their established method; this is not a randomised head-to-head comparison of every localisation technology."
+    },
+    {
+      "sourceId": "pmid-26296293",
+      "pmid": "26296293",
+      "doi": "10.1016/j.ejca.2015.07.017",
+      "title": "Addressing overtreatment of screen detected DCIS; the LORIS trial.",
+      "authors": "Francis A, Thomas J, Fallowfield L, Wallis M, Bartlett JM, Brookes C, Roberts T, Pirrie S, Gaunt C, Young J, Billingham L, Dodwell D, Hanby A, Pinder SE, Evans A, Reed M, Jenkins V, Matthews L, Wilcox M, Fairbrother P, Bowden S, Rea D.",
+      "year": "2015",
+      "pmcid": null,
+      "readingDepth": "abstract",
+      "readingOrigin": "Coordinator raw Europe PMC identity and abstract read",
+      "identityResolved": true,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26296293/",
+      "sourceType": "trial development and protocol report",
+      "studiedScope": "Background and development of surgery versus monitoring in selected low-risk DCIS; not an efficacy result."
+    }
+  ],
+  "evidenceRegistry": [
+    {
+      "evidenceId": "ubc-anatomy",
+      "role": "institutional histology teaching reference",
+      "scope": "Chapter 3 normal breast: terminal ducts and acini form TDLU; inner luminal, outer myoepithelial, basement membrane and stroma",
+      "rawFileSha256": "28c7d63a5880acb98b1461066908b5bbc449427ac913e7ad8666f7ff3d16e5c6",
+      "passageSha256": "e39f0b55ac5484cfb550bdbca0af20cfaf981510a07697dee30e0766afe6e5f3",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "seer-anatomy-official-text",
+      "role": "official training reference",
+      "scope": "Ducts, lobules, acini and supporting tissue",
+      "rawFileSha256": "911a24fea079bba06e999b8f7213908d2cabc60962a8bdf09eff0f1f1861e3f7",
+      "passageSha256": "911a24fea079bba06e999b8f7213908d2cabc60962a8bdf09eff0f1f1861e3f7",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "kumar-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "2fef7819f90b9028a3bdd30de09b3e57ede3c5ddf22f471b749c04ec19270359",
+      "passageSha256": "4c896b74f9cf3ccd0fede62cb5c99caa4722e5616d30d1d6ce7c80c8e4752160",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "gudjonsson-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "735952c914e8a6a8c61c8c1194f588856deb63453ee5b9526d795c6cf102f74f",
+      "passageSha256": "b3960136b40d9eeb1ea47bd2b4186c81e3a33729b4706324c7515f289d195e14",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "dceg-tdlu-official-text",
+      "role": "official research summary",
+      "scope": "TDLU/acini involution with ageing and completion of childbearing",
+      "rawFileSha256": "84705ae02eea66e2ee42b3ca0f18bcdb4592e889a3b1f7698d1388bc879d4e77",
+      "passageSha256": "84705ae02eea66e2ee42b3ca0f18bcdb4592e889a3b1f7698d1388bc879d4e77",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-dcis-official-text",
+      "role": "official education",
+      "scope": "Definition and diagnostic setting",
+      "rawFileSha256": "a819948ab383fdcaeb64c0604fa15c11e43a69dc24e9b7f6fccd855bcde187a5",
+      "passageSha256": "a819948ab383fdcaeb64c0604fa15c11e43a69dc24e9b7f6fccd855bcde187a5",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-type",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "85d71bc1c852f34adf158c90765f07c8ea53a5598e5e18efdd697e662b83a526",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-treatment",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "5db1f8231d2f5460a1bc50471f457cb353682e4264b50d831ffb76cb37859b04",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "pdq-tables",
+      "role": "official AJCC table reproduction",
+      "scope": "Tables 2, 3, 4, 8, 9 and 10 expanded from captured raw HTML; colspan/rowspan preserved separately; Tis/Paget, clinical N and TNBC G3 clinical stage rows read",
+      "rawFileSha256": "8fe6529bfa3dcbf807bbb1ba1ebbdce695e186cb8c2a6f46e780e2c0a8330911",
+      "passageSha256": "8fe6529bfa3dcbf807bbb1ba1ebbdce695e186cb8c2a6f46e780e2c0a8330911",
+      "attribution": "Selected load-bearing section read this pass; not an entire-site or full-document claim"
+    },
+    {
+      "evidenceId": "gusterson-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "737d9af1523d3bb844161d4a5f7fad89033cc1c272d210f8a6e228685200350c",
+      "passageSha256": "43dd2e6e8ac949c705d34acdd083e2eaed8dddb885728be48b0e80e91b130280",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-nodes",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "c9ed4a8a6d186a57c0a76a394f1bfb56d07ac483722986176d9a39c4a19e56a5",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "suami-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "1aae650b4f21cbb560018a514f0bfa57b8d663be7225d3aba426e5295576d9c0",
+      "passageSha256": "eb10ce8dd270170e78406560a424ac462f1251c01d33c33d65c7c4367b1b6f60",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-sentinel-official-text",
+      "role": "official education",
+      "scope": "Mapping, breast drainage, procedure, harms and false-negative results",
+      "rawFileSha256": "7d7758c40c217d47fb63cc1892b05fb31bece4cf1fdce406ccbc24ee580ceec0",
+      "passageSha256": "7d7758c40c217d47fb63cc1892b05fb31bece4cf1fdce406ccbc24ee580ceec0",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "seer-types-official-text",
+      "role": "official training reference",
+      "scope": "In situ and invasive histology",
+      "rawFileSha256": "24c3ea5eafa0c2e5d84cda230a0e3001f85704b1579f04d5c54de89707170900",
+      "passageSha256": "24c3ea5eafa0c2e5d84cda230a0e3001f85704b1579f04d5c54de89707170900",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "who-structure-official-text",
+      "role": "official category structure",
+      "scope": "In situ, NST and special categories; public structure only, not paid chapters",
+      "rawFileSha256": "2a66bc189028ea256583a687e0e8e168869e70da36f72f979eae02e40dc1556d",
+      "passageSha256": "2a66bc189028ea256583a687e0e8e168869e70da36f72f979eae02e40dc1556d",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "werling-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "9369b975fce58887a93ad177c84ddaec62c6d65192c0bdede62e837c52e1838d",
+      "passageSha256": "d7f9ad5f3b27cb3173d108f94c194586a9d59d807fff1217ae2f192e9fa3e33d",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "ajcc",
+      "role": "official staging edition index",
+      "scope": "Breast row: eighth edition",
+      "rawFileSha256": "562f0e7457708688c550788f4a17538312d6615ac3c300ae5585231253d7ee1a",
+      "passageSha256": "6adfb9b3df82df53184f67d40f1e7df612452a42096f6f74b89d98e9f7481e08",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "giuliano",
+      "role": "staging-system description",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "9f700e49b3945e522995920d49e85ad1158c3fe028e6a68c968b42f16e3dbf70",
+      "passageSha256": "9ff2c6e9c83735dd871ae966afbe2a426258fc42825bbfa2980cb1e3bd98e132",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    },
+    {
+      "evidenceId": "weiss",
+      "role": "retrospective surgery-first staging validation",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "f7b03abcd7bb9cd819ed4c84d890824ae57859d6f0fdd0f4601302bc03010dad",
+      "passageSha256": "66ecb834697ee3dc113af22d9523d3e05447de66c034312df63a9ba19c634428",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    },
+    {
+      "evidenceId": "cap-grade",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "5392c48ffff10100d852414c3b6b7c1c3cf3adcf9e2ed5d330c56ebcfc9c321f",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-grading-form",
+      "role": "official pathology protocol",
+      "scope": "Synoptic grading fields pages 6-7: tubules, benign-epithelial nuclear comparison, totals and microinvasion exception",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "5f55c1466ff561e8fe885a07734dc94e24e1abdedd269e1917d173f83d71a75c",
+      "attribution": "Raw synoptic fields read this completion pass"
+    },
+    {
+      "evidenceId": "nci-grade-official-text",
+      "role": "official education",
+      "scope": "Microscopic grade versus extent",
+      "rawFileSha256": "a225fda47b8855eb0e5c4484b446339e44d4eb02e90d5c521c3e3a77fc2aa89c",
+      "passageSha256": "a225fda47b8855eb0e5c4484b446339e44d4eb02e90d5c521c3e3a77fc2aa89c",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "elston",
+      "role": "primary observational prognostic cohort",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "395c1567fd8d9622f5c3b115337d47c4e9f754c897b4514c1544af420f28c633",
+      "passageSha256": "d7e1d683294e0ca8963ac52ffaec92156bf516ddba37b01fdd517995218ee13e",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    },
+    {
+      "evidenceId": "ikwg-abstract",
+      "role": "consensus recommendations",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "71c364a51290b68e1f131ddfa02eec90d36d898f1881eaeeae9d06150ff616f7",
+      "passageSha256": "9538d1287884d6009357f34500791e32b1226cc0b3bd45d5891d495ef793f50d",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "ikwg-full-text",
+      "role": "consensus recommendations",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "376819c56d7881c9341252bda4ac639a1a97afa8e666e6d7d5178fb831610917",
+      "passageSha256": "5a545e37404b31bed8feade0ae1056d27568bef08d96910f8848912ea1e1229c",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-bmk",
+      "role": "official pathology template",
+      "scope": "Optional Ki-67 field and Note D",
+      "rawFileSha256": "d01d703dcb8da0d1bcd3c48382ea7df08ce74e8189260630e13642714f4045e2",
+      "passageSha256": "4f1868a9c056689b2993cae984cae5ba9204ff925f6eee3ef07c5f5131525c4c",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "label",
+      "role": "official label",
+      "scope": "monarchE cohort 1/cohort 2 definitions read; other drug doses, warnings and indications not certified",
+      "rawFileSha256": "38ac0105acad9d4efd9fbcb9b6f8e10130d83bba109f26475c8ee14f547d9027",
+      "passageSha256": "38ac0105acad9d4efd9fbcb9b6f8e10130d83bba109f26475c8ee14f547d9027",
+      "attribution": "Selected load-bearing section read this pass; not an entire-site or full-document claim"
+    },
+    {
+      "evidenceId": "fda-2023",
+      "role": "official regulatory notice",
+      "scope": "March 3, 2023 removal of testing requirement and cohort descriptions read",
+      "rawFileSha256": "525e69e1ed958b56a420f577b529e392a7c4772c6b839b17b022c842660e2767",
+      "passageSha256": "525e69e1ed958b56a420f577b529e392a7c4772c6b839b17b022c842660e2767",
+      "attribution": "Selected load-bearing section read this pass; not an entire-site or full-document claim"
+    },
+    {
+      "evidenceId": "cap-ene",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "ebd837f1597a89381e376cd213f515be0dc030405063476e77f4392cb1fb2532",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "ma-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "52b48f9eb13bab9c3861e2d5654ec2b50d1ec1508c8899f34e1a2ea61ab8d614",
+      "passageSha256": "46c225d6c773413e64227f624497b7a1694b908d281d87ae158122a9ac115c2f",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "tang-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "8eb7c583424d93130b668c28c9de34c3a72bc713f0515e28c16dd0adb2f1bcd5",
+      "passageSha256": "3ee15c48f5f5ab0bd87e3f078191f8bc939f52f21c4f4475da706f8e450c450b",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "fisher-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "2c6023f92be41a8c2c0215510911546293cacba4ca0f973957d35b593b843202",
+      "passageSha256": "3ea81c6109d69ec1fa4d82205181da20eea35d1d15a713722e414c570ea3cae3",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "veronesi-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "3ecc366eff3b9936761df0b309c8695deecbbd776c09a8f194dca7c8202a41b5",
+      "passageSha256": "973f91eca0f972675e93a4730d82254c489a991cb14a4a386a09bc06e9d5a276",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-lumpectomy-official-text",
+      "role": "official education",
+      "scope": "Operation, specimen, other treatments",
+      "rawFileSha256": "377667c7d026d880c5c5c247be415ff4a8adb5e37063fe304e70bffdeed813f4",
+      "passageSha256": "377667c7d026d880c5c5c247be415ff4a8adb5e37063fe304e70bffdeed813f4",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-mastectomy-official-text",
+      "role": "official education",
+      "scope": "Operation variants, retained structures, nodal procedures, reconstruction",
+      "rawFileSha256": "2c954caf5aabca1447ea0c2ea11bc267f450b28383b2d1a11dcb8375d321e079",
+      "passageSha256": "2c954caf5aabca1447ea0c2ea11bc267f450b28383b2d1a11dcb8375d321e079",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-choice-official-text",
+      "role": "official education",
+      "scope": "Eligibility and complete-plan comparison",
+      "rawFileSha256": "67465bc88f51314b2d1e3625b16b240b85f012b75110f5a48956c360d4ac4eaa",
+      "passageSha256": "67465bc88f51314b2d1e3625b16b240b85f012b75110f5a48956c360d4ac4eaa",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cap-margins",
+      "role": "official pathology protocol",
+      "scope": "Histologic type and grade fields; notes D, E, F, K, L, M and N; nodal and margin fields",
+      "rawFileSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+      "passageSha256": "1e755930d414bf73a28f52eb88d31b6e37d0aab4ba59d90e3a12747171d0c999",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "fda",
+      "role": "regulatory guidance",
+      "scope": "Sections III and IV: complete-specimen definitions and outcome/surrogacy distinction",
+      "rawFileSha256": "7a88568f809d66828097bcaf19d2b2c3b06df22a9d082356c28052a82d375cc3",
+      "passageSha256": "c0ff8972fced01bfdc897b66a35b5e0997c1e04397ffcbc9b7e3be0d1cb893a9",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "cortazar-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "9f1ea235cf36504843252263163a4c51355632a1ec5fb9a40de0d745687d958a",
+      "passageSha256": "23e380b19b9acf7513ed69ef99afd03f21ead359c209bb51924d6305af67da9a",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "keynote-pcr",
+      "role": "randomised trial primary pCR analysis",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "dda06d482fa9869241e0cbc9f2c34f2f7a6567d4c359d4e039802502c9d3a09d",
+      "passageSha256": "669b0eb2e6e514640f042180e758be725251d6a4d124a5f1e525ae0a7f16786d",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    },
+    {
+      "evidenceId": "keynote-os",
+      "role": "randomised trial final overall-survival analysis",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "48a134fa285a1f6d0ff3ea674b2210c00d191b2636c1cdc00a7f7151ed528255",
+      "passageSha256": "e6563b379c2c183216c82d78f5cb993b67b21dac21e6fbd213a27a1e9d43a91c",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    },
+    {
+      "evidenceId": "md-method",
+      "role": "method-author protocol",
+      "scope": "Pages 1 to 4, bed boundaries, cellularity denominators and nodal inputs",
+      "rawFileSha256": "ac103ed432167282c26e90e21ab1dda5fd39a4edba2745d8182d377e54c11d73",
+      "passageSha256": "ac103ed432167282c26e90e21ab1dda5fd39a4edba2745d8182d377e54c11d73",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "symmans-equation",
+      "role": "primary typeset article via journal-club mirror",
+      "scope": "Printed page 4417 equation, N/d_met definitions, 0.75 assumption; derivation 241 and validation 141. Typeset equation page actually viewed; publisher-hosted bytes not retrieved.",
+      "rawFileSha256": "367a4642240250e05cddda8db21e2c22ed4b92a07cccac21767ee7b207d68ef2",
+      "passageSha256": "367a4642240250e05cddda8db21e2c22ed4b92a07cccac21767ee7b207d68ef2",
+      "attribution": "Selected load-bearing section read this pass; not an entire-site or full-document claim"
+    },
+    {
+      "evidenceId": "symmans-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "ae87658f5e91558fafd981c02c0dc1e8ed875111bdb6fd7b13461c5138c73a76",
+      "passageSha256": "b506e069bfa9e9e3dfc151d6e1c5e6782de924692fa89bfe595af793948e55c8",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "nci-cde",
+      "role": "official trial data-element definitions",
+      "scope": "Page 3: four RCB class cutoffs",
+      "rawFileSha256": "b7dc7bc6a50569afdecf514779e4994450ccad11cb3c1dfbb411d14698313f58",
+      "passageSha256": "b6069c054a526025459a44f8390984238736fb6575d81a939e26c559eec9732a",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "yau-full-text",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "57115af404aecfe70a29940724493384f509e7a8679424ae221a1fd23b0f3f5d",
+      "passageSha256": "92d7562bc905170121c9897a9c0cc52d6061183f958bd171b60011dafc91f9a5",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "calculator-result",
+      "role": "method-author calculator",
+      "scope": "Six input labels and method explanation; fictional-input response 2.811 RCB-II",
+      "rawFileSha256": "74c2c7fcd9cfe45a8d29c871f18f4bf7031e6e01c5446b98eb8be49cd024a897",
+      "passageSha256": "decdd335caa5e88206be2ea9ab8f96141f997cbbba86237e5583b2b38e1e4f25",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "boughey-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "f44208794467ffd071e9c1f2ff6b237cad8a5e9783eac2d0505f9908a725dd23",
+      "passageSha256": "3baf40514d4cfbc5ec4b0e6636a81ca9a146340b55b56a018fa2deeae5db5bc3",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "caudle-abstract",
+      "role": "primary study",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "80f3e213e587d3d555418dca8db5ee4fb5a4a8e8d311e3f943d0632f8ca4ff32",
+      "passageSha256": "3676bc0c1f64eacd2b379e1faf882973be447b6fbce9ee188ecb2b002616f078",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "moran-full-text",
+      "role": "consensus recommendations",
+      "scope": "Selected full-text sections: Table 1, inclusion criteria and limitations",
+      "rawFileSha256": "a4b3b45e32e75d9e6074399a38ae4bd03dba05499299acf3475b7c92ab6a613f",
+      "passageSha256": "6fa97e88394557e65f66097ccd3ef68c001eaddc353ce1c93ce15034f67daee5",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "morrow-full-text",
+      "role": "consensus recommendations",
+      "scope": "Raw primary abstract read; full-text selected sections where separately documented",
+      "rawFileSha256": "5ced095e777272f0bec8f52041d894d67dd4a533f37ad810c85ab205a356b50b",
+      "passageSha256": "8033fd642eb75d116ea1114163138d178a07cc3e90131c3ba31365d196cfa139",
+      "attribution": "Prior worker source reading reused by raw file and passage identity; independent source-first review adjudication also retained."
+    },
+    {
+      "evidenceId": "provenzano-scar",
+      "role": "international working-group recommendations",
+      "scope": "Nodal response/scar/biopsy-site paragraph; systematic sampling and informed mapping paragraphs also read",
+      "rawFileSha256": "6a2525c566896ded34206177c62b1c8e540a6cab6ce92128b19e76793a1f2e73",
+      "passageSha256": "97d5a55a5001a6b94fc0379f9b679b1463798234ebf17106368a33c24df145c6",
+      "attribution": "Selected current publisher full-text paragraphs read; no full-paper claim"
+    },
+    {
+      "evidenceId": "provenzano-current",
+      "role": "international working-group recommendations",
+      "scope": "Raw resolved abstract in this pass",
+      "rawFileSha256": "6796ef1ff4eb51461b61ddda11f73e424d148cab67413d6f51ffcf55ba6408c3",
+      "passageSha256": "3f5c6c51a662dce941ed7695482fcc0e34b7885566eb8a6538cb7698c175173b",
+      "attribution": "Raw MED abstract read in this completion pass; title/authors/year/DOI/PMID resolved and compared"
+    }
+  ],
+  "coordinatorOfficialCaptures": [
+    {
+      "file": "imtad-identity.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37596658+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "db133afc52668c85cde5d67d4bca4c6344c21ee554879cff1977fe99d752af04",
+      "bytes": 8957,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "imtad.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10439625/fullTextXML",
+      "sha256": "0f37f7ff706632df45b844a161ea583cd0744ed5b2fa8ae7bd1a155c10c05f79",
+      "bytes": 92068,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "g148.pdf",
+      "url": "https://www.rcpath.org/static/d255f34c-176a-490d-9b5a7d58ac85f3a6/G148-Dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.pdf",
+      "sha256": "661c6d1df6c987d450093ba1d8c06244590e712ed83efd7b1cd9345548d51ff6",
+      "bytes": 7911011,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "fda-pcr.pdf",
+      "url": "https://www.fda.gov/media/83507/download",
+      "sha256": "9d3c714624718290f7f8c36f69aa6f3121d0a9ba137a579ee5de9f04dd21e563",
+      "bytes": 247030,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "nci-sln.html",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+      "sha256": "44b8c3a783281e71aa5370e5892fd0eb3235aa3218dbd140c95349162a91dd67",
+      "bytes": 70471,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "pmid36917758.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36917758+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "882c5ad143528ce0bd021cd42f944382d6b97c4dcd62d160008ade41aada2b2f",
+      "bytes": 12658,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "pmid39665585.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39665585+AND+SRC%3AMED&format=json&resultType=core",
+      "sha256": "16882228f3a72c8d7eed3e51b5d7b88e4149a5eff7b10448b276ee847ab59c25",
+      "bytes": 26801,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "loris-query.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3ALORIS&format=json&resultType=core&pageSize=8",
+      "sha256": "26f6159f638e214defef59a5fca79fc57907ca29f88c8e8c5cdaaf0a997d0f00",
+      "bytes": 41674,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "loris-breast.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3ALORIS+AND+%28DCIS+OR+breast%29&format=json&resultType=core&pageSize=5",
+      "sha256": "38e77df90b5b1722fc3efbf5a2c404dd764bfa11c8242a34fd7b92c738cd94fb",
+      "bytes": 44790,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "comet-bioc.json",
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11920841/unicode",
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "bytes": 6140,
+      "identityMatch": true,
+      "acceptedAsSourceContent": false,
+      "limit": "Returned non-JSON error text, not readable scientific content."
+    },
+    {
+      "file": "nci-pdq.html",
+      "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+      "sha256": "07833b9f6d4edcc27970bdcb8e4058e247da06293635991f373826ec82cb8247",
+      "bytes": 810189,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "nci-male.html",
+      "url": "https://www.cancer.gov/types/breast/male-breast-cancer",
+      "sha256": "d4cb0336e8f69a6f2c89070f8f181acc28fa8fcda0a09bef9e5ed06a88171a00",
+      "bytes": 56526,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "nci-density.html",
+      "url": "https://www.cancer.gov/types/breast/screening/dense-breasts",
+      "sha256": "924a1c9e24ebb79afe906c5ae0352dcbda50ed2ddf9e929ed92e16db34c37b46",
+      "bytes": 62111,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "seer-ilc.html",
+      "url": "https://seer.cancer.gov/statfacts/html/ilc.html",
+      "sha256": "66e94b7fc83b27a6eea0fc1b31cee3c3f0ceeaa2c5685bdaf0577ed3c4070db2",
+      "bytes": 69889,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "atnec.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies/NCT04109079",
+      "sha256": "dd0d9226a95a9ee1be6cc4b06f32aa6f5d3ed9a9ac6b2139445db4f63a5b2263",
+      "bytes": 40877,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "b51-identity.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa2414859&format=json&resultType=core",
+      "sha256": "0fa7b6243950823d2096494b09978d7931e88249b299567111536775ff2f6e1e",
+      "bytes": 18573,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    },
+    {
+      "file": "dcis-surveillance-trials.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28LORIS+OR+LORD%29+AND+ductal+carcinoma+in+situ&pageSize=10&format=json",
+      "sha256": "673180250edd2bc558029b613ef5908eac3c96730ffabcea9829d5fd3d0bb64b",
+      "bytes": 22155,
+      "identityMatch": true,
+      "acceptedAsSourceContent": true,
+      "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+    }
+  ],
+  "readingLimits": "Prior full/passage reads are reused only by exact source identity. Most papers are abstract-only or targeted passages; no new end-to-end read is claimed. The COMET full-text XML failed and the BioC response was an error body, so the current restoration uses its verified abstract. Elicit remains a discovery source, not claim evidence.",
+  "additionalSourceAssessments": [
+    {
+      "title": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "CAP breast biomarker template 1.6.2.0, September 2026",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI professional PDQ: AJCC eighth-edition breast staging tables",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "AJCC current staging-system table, 2026",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "FDA breast pCR endpoint guidance, July 2020",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "MD Anderson detailed RCB pathology methods",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "MD Anderson RCB calculator",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI SEER mammary gland anatomy",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI SEER breast histologies",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "WHO/IARC breast tumour classification structure",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI ductal carcinoma in situ",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI sentinel-node biopsy",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI breast stages",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI tumour grade",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI lumpectomy",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI mastectomy",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI choosing lumpectomy or mastectomy",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "Diagnostic pitfalls in breast pathology, 2023",
+      "resolutionURL": null,
+      "identityResolved": false,
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Historical summary placeholder; superseded by the separately resolved publication identity.",
+      "resolvedSourceId": "pmid-37651393"
+    },
+    {
+      "title": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+      "resolutionURL": null,
+      "identityResolved": false,
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Historical summary placeholder; superseded by the separately resolved publication identity.",
+      "resolvedSourceId": "pmid-24515565"
+    },
+    {
+      "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+      "resolutionURL": null,
+      "identityResolved": false,
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Historical summary placeholder; superseded by the separately resolved publication identity.",
+      "resolvedSourceId": "pmid-26205180"
+    },
+    {
+      "title": "NCI BOLD preoperative data elements, June 2014: RCB class boundaries",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "UBC pathology: Cytodiagnosis of Breast Lesions, normal breast histology, page 22",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    },
+    {
+      "title": "NCI DCEG: terminal duct lobular unit involution",
+      "resolutionURL": null,
+      "identityResolved": "official document identity or DOI resolved separately",
+      "fullTextRead": null,
+      "fullTextDepth": null,
+      "continuationReading": "Prior raw-abstract/selected-fulltext assessment reused by identity; current review evidence and new readings recorded separately.",
+      "readingDepth": "identity only",
+      "readingOrigin": "Reused earlier assigned-batch reading after capture/identity checks; not a new full read.",
+      "assessmentState": "Official or academic teaching source; role and passage scope are in the catalogue/evidence registry."
+    }
+  ],
+  "legacyPlaceholderHandling": "Three older unresolved summary placeholders are not counted as separate publications or as identity verification. Their current resolved records are linked explicitly."
+}

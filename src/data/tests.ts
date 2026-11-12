@@ -19,17 +19,16 @@ const asOf = "2026-09-10";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const PMA = (n: string) => ({ label: `FDA PMA ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=${n}` });
 const DENOVO = (n: string) => ({ label: `FDA De Novo ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/denovo.cfm?id=${n}` });
-const K510 = (n: string) => ({ label: `FDA 510(k) ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${n}` });
 const DOI = (label: string, doi: string) => ({ label, url: `https://doi.org/${doi}` });
 const CT = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 /** MolDX billing article that names the Medicare-covered solid-tumour MRD tests and their indications (revision effective 6 August 2026). */
 const MOLDX_MRD_ARTICLE = { label: "CMS MolDX billing article A58376: minimal residual disease testing for solid tumour cancers", url: "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=58376" };
 
 const d = (x: Omit<DrugInput, "kind" | "asOf"> & { asOf?: string }): DrugInput => ({ kind: "drug", asOf, tags: ["test", ...(x.tags ?? [])], ...x, });
-const tech = (x: Omit<TechnologyInput, "kind" | "asOf">): TechnologyInput => ({ kind: "technology", asOf, ...x });
+const tech = (x: Omit<TechnologyInput, "kind" | "asOf"> & { asOf?: string }): TechnologyInput => ({ kind: "technology", asOf, ...x });
 const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "company", asOf, ...x });
 const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x, ...TRIAL_OUTCOMES[x.id] });
-const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+const term = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: string }): TermInput => ({ kind: "term", asOf, ...x });
 
 // =====================================================================================
 // Companion diagnostics (named products)
@@ -89,15 +88,16 @@ const companionDiagnostics: DrugInput[] = [
     targets: ["pdl1"], drugs: ["durvalumab", "atezolizumab"], cancers: ["urothelial", "nsclc"], companies: ["roche-genentech"],
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["pd-l1-testing", "ihc"],
     links: [PMA("P160046")] }),
-  d({ id: "dako-pd-l1-22c3-pharmdx", name: "PD-L1 IHC 22C3 pharmDx", brand: "PD-L1 IHC 22C3 pharmDx", modality: "PD-L1 immunohistochemistry companion diagnostic assay", status: "approved",
+  d({
+    asOf:"2026-11-09", id: "dako-pd-l1-22c3-pharmdx", name: "PD-L1 IHC 22C3 pharmDx", brand: "PD-L1 IHC 22C3 pharmDx", modality: "PD-L1 immunohistochemistry companion diagnostic assay", status: "approved",
     mechanism: "Mouse monoclonal antibody 22C3 on the Dako Autostainer Link 48, reported as tumour proportion score (TPS) in lung cancer or combined positive score (CPS, tumour plus immune cells relative to tumour cells) in other cancers.",
-    tldr: "The 22C3 pharmDx assay is the PD-L1 stain tied to pembrolizumab since 2015 and the source of the combined positive score (CPS). The cut-off differs by cancer: 1% of tumour cells in lung cancer, CPS 1 in gastric, cervical and head and neck cancer, CPS 10 in oesophageal and triple-negative breast cancer, so one stain is read differently per disease.",
-    summary: "Approved 2 October 2015 (PMA P150013, Dako, now Agilent) as the companion diagnostic for pembrolizumab in non-small-cell lung cancer, initially at TPS ≥50% and from 2016 at TPS ≥1%. It has since been approved for gastric and gastro-oesophageal junction cancer (CPS ≥1, 2017), cervical cancer (CPS ≥1, 2018), head and neck squamous cell carcinoma (CPS ≥1, 2019), oesophageal squamous cell carcinoma (CPS ≥10, 2019) and triple-negative breast cancer (CPS ≥10, 2020, KEYNOTE-355). The many cut-offs are a source of confusion for patients: the same stain is read differently depending on the cancer and the trial that set the threshold.",
+    tldr: "PD-L1 IHC 22C3 pharmDx is an assay whose scoring and cutoff depend on the medicine, disease and regimen. Valid esophageal uses include both CPS 1 and CPS 10 under different pembrolizumab treatment conditions.",
+    summary: "FDA lists multiple tissue- and treatment-specific intended uses for the 22C3 PD-L1 assay. TPS and CPS are different scores. Even within one cancer family, one generic cutoff loses important conditions.\n\nFor locally advanced or metastatic esophageal or GEJ carcinoma with a tumour epicenter 1 to 5 centimeters above the junction not amenable to surgical resection or definitive chemoradiation, the current U.S. KEYTRUDA label uses CPS at least 1 with platinum- and fluoropyrimidine-based chemotherapy. Its single-agent use after one or more prior systemic lines is restricted to squamous histology with CPS at least 10. The FDA diagnostic listing retains the esophageal/GEJ CPS 1 authorization P150013/S032 and the ESCC CPS 10 authorization P150013/S016. Both are valid scoped uses, not contradictory generic thresholds.\n\nOther tissue, medicine and regimen combinations have their own intended uses. A result described as positive without the score type, assay, disease and treatment context is incomplete.",
     approvals: [{ region: "US", year: 2015, indication: "Companion diagnostic for pembrolizumab in NSCLC (TPS)" }, { region: "US", year: 2017, indication: "Gastric / GEJ adenocarcinoma, CPS ≥1" }, { region: "US", year: 2019, indication: "Head and neck squamous cell carcinoma (CPS ≥1) and oesophageal squamous cell carcinoma (CPS ≥10)" }, { region: "US", year: 2020, indication: "Triple-negative breast cancer, CPS ≥10 (pembrolizumab plus chemotherapy)" }],
-    notes: ["What a result means: the report gives a TPS or CPS; whether it counts as 'positive' depends on the drug label for your cancer, so the same number can be positive in one cancer and negative in another."],
+    notes: ["The current therapeutic label and the diagnostic intended use must be read together. An assay authorization does not itself establish that an individual meets the treatment indication; the same stain or numerical score is not interchangeable across every medicine, regimen or disease."],
     targets: ["pdl1"], drugs: ["pembrolizumab"], cancers: ["nsclc", "gastric", "cervical", "head-and-neck", "esophageal", "tnbc"], companies: ["agilent"],
     technologies: ["companion-diagnostic", "histopathology-ihc"], terms: ["pd-l1-testing", "cps", "ihc"],
-    links: [PMA("P150013"), { label: "Agilent: PD-L1 IHC 22C3 pharmDx", url: "https://www.agilent.com/en/product/pharmdx/pd-l1-ihc-22c3-pharmdx" }] }),
+    links: [{"label":"FDA PMA P150013","url":"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013"},{"label":"Agilent: PD-L1 IHC 22C3 pharmDx","url":"https://www.agilent.com/en/product/pharmdx/pd-l1-ihc-22c3-pharmdx"},{"label":"FDA: current diagnostic intended uses, including both esophageal rows","url":"https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"},{"label":"FDA authorization P150013/S016: ESCC CPS 10 intended use","url":"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S016"},{"label":"FDA authorization P150013/S032: expanded esophageal/GEJ intended use","url":"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P150013S032"},{"label":"Current U.S. KEYTRUDA label, section 1.11: separate combination and single-agent uses","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"}] }),
   d({ id: "her2-testing-assays", name: "HER2 IHC and ISH companion assays (HercepTest, PATHWAY 4B5, HER2 Dual ISH)", brand: "HercepTest / PATHWAY anti-HER2 (4B5) / INFORM HER2 Dual ISH", aka: ["HercepTest", "PATHWAY anti-HER-2/neu (4B5) Rabbit Monoclonal Primary Antibody", "VENTANA HER2 Dual ISH DNA Probe Cocktail"], modality: "HER2 immunohistochemistry and in situ hybridisation companion diagnostic assays", status: "approved",
     mechanism: "Immunohistochemistry for HER2 protein scored 0, 1+, 2+ or 3+ under ASCO/CAP guidelines, with in situ hybridisation (FISH or dual-colour chromogenic ISH) to resolve 2+ cases by measuring ERBB2 gene amplification.",
     tldr: "The tests that grade a breast or stomach cancer's HER2 level, from the original trastuzumab test in 1998 to the new 'HER2-low' and 'ultralow' cut-offs.",
@@ -416,15 +416,16 @@ const screeningAndMrd: DrugInput[] = [
 // Prognostic and genomic classifiers
 // =====================================================================================
 const prognosticTests: DrugInput[] = [
-  d({ id: "prosigna", name: "Prosigna (PAM50)", brand: "Prosigna", modality: "Gene-expression prognostic assay (50-gene PAM50 risk of recurrence)", status: "approved",
-    mechanism: "nCounter digital expression of 50 classifier genes assigns an intrinsic subtype (luminal A, luminal B, HER2-enriched, basal-like) and a risk-of-recurrence (ROR) score combined with tumour size and nodal status.",
-    tldr: "A 50-gene test run in local hospital laboratories that estimates the ten-year risk of a hormone-positive breast cancer coming back.",
-    summary: "Prosigna was cleared by the FDA on 6 September 2013 (510(k) K130010, NanoString; now marketed by Veracyte) for postmenopausal women with hormone-receptor-positive, node-negative or one-to-three-node-positive early breast cancer treated with endocrine therapy. Validation came from the ABCSG-8 and TransATAC cohorts, where the ROR score predicted distant recurrence at 10 years, including late recurrence after five years. NICE diagnostics guidance DG34 (2018) recommends Prosigna, Oncotype DX and EndoPredict for guiding adjuvant chemotherapy decisions in the NHS. Because it runs on a decentralised instrument, it is common in Europe where send-out testing is less used.",
-    approvals: [{ region: "US", year: 2013, indication: "Prognosis of distant recurrence in postmenopausal HR+ early breast cancer (510(k))" }, { region: "EU", year: 2012, indication: "CE-IVD" }],
-    notes: ["What a result means: a low ROR score means chemotherapy is unlikely to help on top of hormone therapy; a high score means it is likely to be recommended."],
+  d({
+    asOf:"2026-11-09", id: "prosigna", name: "Prosigna (PAM50)", brand: "Prosigna", modality: "Gene-expression prognostic assay (50-gene PAM50 risk of recurrence)", status: "established",
+    mechanism: "Digital RNA counting by hybridisation on the nCounter Dx system uses 50 classifier genes and housekeeping/control measurements. A product-specific algorithm combines expression and clinical information for its reported recurrence-risk output. This is not RNA sequencing, and reported outputs depend on the product version and jurisdiction.",
+    tldr: "Prosigna is a tissue RNA test that estimates risk of distant breast-cancer recurrence in a defined clinical setting. A risk estimate is different from a direct prediction of chemotherapy benefit.",
+    summary: "Prosigna is a commercial gene-expression assay with product-specific specimen, reporting and intended-use rules. The FDA K130010 record documents a substantial-equivalence clearance dated 6 September 2013. Its decision summary describes risk-category/score reporting from FFPE invasive breast-cancer tissue, used with clinicopathological factors.\n\nThat 2013 U.S. intended use concerns ten-year distant recurrence-free prognosis in postmenopausal women with HR-positive disease after surgery and appropriate locoregional care, with endocrine therapy alone: node-negative stage I or II, or one to three positive nodes at stage II. It excludes four or more positive nodes and does not authorise diagnosis, response detection or selection of an optimal therapy. This dated clearance is distinct from every later product version or jurisdiction.\n\nNICE HTG719 describes a CE-marked implementation and gives separate NHS recommendations. It permits Prosigna within its intended purpose for postmenopausal women with ER- or PR-positive, HER2-negative early disease, alongside clinical risk and shared decisions. Node-positive and node-negative recommendations have different conditions. A regulatory intended use, a guideline recommendation and an individual treatment decision are separate.",
+    approvals: [{"region":"US","year":2013,"indication":"510(k) K130010 clearance: specified postmenopausal HR-positive, stage I/II node-negative or stage II with 1-3 positive nodes, ten-year distant-recurrence prognosis with endocrine therapy alone; see the dated intended-use restrictions"}],
+    notes: ["A low score describes prognosis under its model and population; it does not by itself measure the additional benefit of chemotherapy. A high score does not automatically prescribe treatment. Consider all relevant clinical factors and the applicable evidence.","NICE HTG719 recommendation 1.1 covers specified postmenopausal node-positive disease. Its node-negative/micrometastatic recommendation 1.4 includes intermediate clinical risk and evidence-generation/data conditions. The intended-purpose, access-proposal, quality-assurance and shared-decision requirements in 1.6-1.7 also apply.","The European implementation described by NICE can report subtype information and has different product-purpose details from the 2013 U.S. clearance. Do not transfer an overseas report format, risk cutoff or population into another authorisation. The linked NICE source does not establish an original CE-marking year."],
     cancers: ["breast-hr-positive"], companies: ["veracyte"],
-    technologies: ["rna-seq"], terms: ["biomarker"], related: ["oncotype-dx", "mammaprint", "endopredict"],
-    links: [K510("K130010"), { label: "NICE DG34: tumour profiling tests for breast cancer", url: "https://www.nice.org.uk/guidance/dg34" }] }),
+    technologies: [], terms: ["biomarker","rna","pam50"], related: ["oncotype-dx", "mammaprint", "endopredict"],
+    links: [{"label":"FDA 510(k) K130010","url":"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K130010"},{"label":"NICE DG34: tumour profiling tests for breast cancer","url":"https://www.nice.org.uk/guidance/dg34"},{"label":"FDA openFDA: exact K130010 device identity and clearance date","url":"https://api.fda.gov/device/510k.json?search=k_number%3A%22K130010%22"},{"label":"FDA K130010 decision summary: dated intended use and risk reporting","url":"https://www.accessdata.fda.gov/cdrh_docs/reviews/K130010.pdf"},{"label":"NICE HTG719: current recommendations and conditions","url":"https://www.nice.org.uk/guidance/htg719/chapter/1-Recommendations"},{"label":"NICE HTG719: test descriptions and CE-marked implementation","url":"https://www.nice.org.uk/guidance/htg719/chapter/2-The-diagnostic-tests"},{"label":"Lehmann 2011: original expression profiles and cell-model experiments","url":"https://pubmed.ncbi.nlm.nih.gov/21633166/"},{"label":"Lehmann 2016: tissue attribution and TNBCtype-4 refinement","url":"https://pubmed.ncbi.nlm.nih.gov/27310713/"},{"label":"Chen 2012: TNBCtype input and reported correlation/permutation statistics","url":"https://pubmed.ncbi.nlm.nih.gov/22872785/"}] }),
   d({ id: "endopredict", name: "EndoPredict", brand: "EndoPredict", modality: "Gene-expression prognostic assay (12-gene EPclin score)", status: "established",
     mechanism: "RT-PCR of eight cancer genes and three reference genes gives a molecular score, combined with tumour size and nodal status into the EPclin score predicting 10-year distant recurrence.",
     tldr: "A 12-gene test that combines gene activity with tumour size and lymph nodes to say whether hormone therapy alone is enough, and whether to continue it beyond five years.",
@@ -590,14 +591,56 @@ const technologies: TechnologyInput[] = [
     cancers: ["colorectal", "endometrial", "gastric"], drugs: ["pembrolizumab", "dostarlimab", "ventana-mmr-rxdx", "foundationone-cdx"], terms: ["msi", "mss-pmmr", "lynch-syndrome", "tmb"],
     technologies: ["histopathology-ihc", "companion-diagnostic", "germline-testing"],
     links: [{ label: "FDA: pembrolizumab tissue-agnostic approval for MSI-H/dMMR tumours (2017) (archived copy)", url: "https://web.archive.org/web/20260420012135/https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-pembrolizumab-first-tissuesite-agnostic-indication" }] }),
-  tech({ id: "tmb-testing", tags: ["precision"], keyPapers: ["paper-marabelle-keynote-158-tmb-lancet-oncol-2020", "paper-mcgrail-tmb-pan-cancer-response-ann-oncol-2021"], name: "Tumour mutational burden testing", sections: ["diagnostics"], status: "established",
-    tldr: "Counting how many mutations a tumour carries per stretch of DNA; heavily mutated tumours are more likely to respond to immunotherapy.",
-    summary: "Tumour mutational burden is reported by comprehensive genomic profiling panels as mutations per megabase. In June 2020 the FDA granted pembrolizumab a tissue-agnostic accelerated approval for unresectable or metastatic solid tumours with TMB of at least 10 mutations per megabase, as measured by FoundationOne CDx, based on the KEYNOTE-158 study. The threshold is contested: panel size, the inclusion of synonymous variants and germline filtering all shift the number, and the Friends of Cancer Research TMB Harmonization Project showed that different panels can disagree around the cut-off. Blood TMB from liquid biopsy panels is an emerging alternative when tissue is inadequate. TMB is most useful in cancers where PD-L1 and MSI do not explain response, such as some sarcomas and rare tumours.",
-    principle: "Somatic non-synonymous mutations across the panel's coding territory are counted and normalised to the sequenced megabases, after filtering germline and known driver variants.",
-    strengths: ["Adds a route to immunotherapy for rare cancers", "Reported free with every large panel"],
-    limitations: ["Panel-dependent values and a debated cut-off", "Weak predictive value in some cancers with high TMB such as those driven by tobacco"],
+  tech({ id: "tmb-testing", tags: ["precision"], keyPapers: [
+  "paper-marabelle-keynote-158-tmb-lancet-oncol-2020",
+  "paper-mcgrail-tmb-pan-cancer-response-ann-oncol-2021"
+], name: "Tumour mutational burden testing", sections: ["diagnostics"], status: "established",
+    tldr: "Tumour mutational burden testing estimates eligible mutation density using a specified assay and reporting territory.",
+    summary: "A TMB test reports eligible somatic mutation density after assay-specific counting, filtering and calibration. The reporting territory, specimen, local measurement quality and inherited-variant handling affect the number. Computational harmonisation comparisons show why identical units do not make assays interchangeable. A research estimate alone does not establish the test and disease-setting requirements of a clinical indication.",
+    principle: "Count eligible somatic variants under specified filtering and calibration rules, then normalise to eligible megabases.",
+    strengths: [
+  "Mutation-density measurement with explicit rules"
+],
+    limitations: [
+  "Assay, territory and specimen affect estimates",
+  "A biomarker category does not guarantee benefit"
+],
     drugs: ["pembrolizumab", "foundationone-cdx", "trusight-oncology-comprehensive"], terms: ["tmb", "msi"], technologies: ["cgp", "companion-diagnostic"],
-    links: [{ label: "FDA: pembrolizumab approval for TMB-H solid tumours (2020)", url: "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors" }] }),
+    links: [
+  {
+    "label": "FDA: pembrolizumab approval for TMB-H solid tumours (2020)",
+    "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-pembrolizumab-adults-and-children-tmb-h-solid-tumors"
+  },
+  {
+    "label": "FDA pembrolizumab label revised July 2026",
+    "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+  },
+  {
+    "label": "Merino et al. (2020), in-silico TMB harmonization",
+    "url": "https://friendsofcancerresearch.org/wp-content/uploads/JITC_Establishing_guidelines_to_harmonize-TMB_2.pdf"
+  },
+  {
+    "label": "FDA, 16 October 2026: traditional approval and updated TMB-H indication",
+    "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+  },
+  {
+    "label": "KEYTRUDA current prescribing information, sections 1.18 and 2.1",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+  }
+] ,
+"notes": [
+  "TMB is the density of eligible somatic mutations over the assay reporting region, in mut/Mb (Mb = one million bases); the numerator rules, filters and any calibration are method-specific.",
+  "Panel, exome and genome examine different regions; a cancer-gene-enriched region need not behave as a random genomic sample.",
+  "When laboratories analysed the same exome data with their own regions and pipelines panel TMB estimates varied; this was a computational comparison, not proof of interchangeability for treatment selection.",
+  "More mutations offer more candidate neoantigens, but processing, HLA display and immune function still matter; high TMB neither guarantees checkpoint benefit nor establishes benefit in every cancer.",
+  "On 16 October 2026, FDA converted the U.S. tumour-agnostic pembrolizumab indication to traditional approval and changed its TMB-H criterion from 10 to at least 13 mutations per megabase. Section 1.18 covers adults and children with unresectable or metastatic solid tumours, measured by an FDA-authorised test, that have progressed after prior treatment and have no satisfactory alternative treatment options. This criterion does not replace thresholds in other indications or historical studies.",
+  "Fictional teaching exercise: 24 eligible mutations over 2 Mb is 12 mut/Mb and over 1 Mb is 24 mut/Mb; not comparable clinically without counting and calibration rules; a research result does not establish authorised-test eligibility.",
+  "TMB differs from copy-number instability and from MSI, and a TMB category does not settle an individual outcome.",
+  "Retain specimen type, DNA consumption, eligible mutation classes and reporting territory, germline/artefact filtering, calibration, mut/Mb, quality and uncertainty. Blood and tissue estimates need separate validation. Low tumour signal and uneven coverage can bias the count; both analytical performance and clinical applicability must match the assay, cancer and setting.",
+  "The July 2026 pembrolizumab label describes the TMB supporting KEYNOTE-158 analysis as a prospectively planned retrospective analysis of ten nonrandomized cohorts. That design does not establish TMB-based selection for early triple-negative breast cancer; retain the population, endpoint and clinical setting with the evidence."
+],
+"asOf": "2026-11-10"
+}),
   tech({ id: "nhs-targeted-lung-health-check", name: "NHS Targeted Lung Health Check (lung cancer screening programme)", sections: ["early-detection", "imaging"], status: "standard-of-care", since: 2019,
     tldr: "England's lung screening programme: people aged 55 to 74 who have ever smoked are invited for a risk assessment and, if high risk, a low-dose CT scan, often in a mobile unit in a supermarket car park.",
     summary: "The Targeted Lung Health Check programme began in 2019 in areas with high lung cancer mortality, inviting ever-smokers aged 55 to 74 through their GP records for a telephone or face-to-face risk assessment using the PLCOm2012 and Liverpool Lung Project risk models; those above threshold have a low-dose CT scan, repeated at 24 months. In 2022 the UK National Screening Committee recommended targeted lung screening nationally and in June 2023 NHS England committed to full national rollout by 2029. Programme data reported that around three quarters of cancers were found at stage 1 or 2, reversing the usual stage distribution, and that uptake was highest where mobile scanners were used. Incidental findings, smoking-cessation support at the visit and radiology capacity are the practical constraints.",
@@ -785,11 +828,12 @@ const companies: CompanyInput[] = [
 // Terms: the regulators' framing and the words on a test report
 // =====================================================================================
 const terms: TermInput[] = [
-  term({ id: "fda-ldt-rule", wikipedia: W("Laboratory-developed_test"), name: "FDA laboratory-developed test (LDT) rule", category: "Regulation",
-    tldr: "Most cancer tests in the US, including Galleri, Signatera and Oncotype DX, are 'lab-developed tests' overseen through lab standards rather than FDA approval; the FDA's 2024 attempt to change that was struck down in court in 2025.",
-    summary: "On 6 May 2024 the FDA issued a final rule declaring that in vitro diagnostics are devices even when made by a laboratory, with a four-year phase-in of medical-device requirements for LDTs. On 31 March 2025 the US District Court for the Eastern District of Texas (ACLA and AMP v. FDA) vacated the rule, holding that the agency lacked authority over laboratory services under the device definition, and the FDA did not appeal; on 19 September 2025 it issued a rule restoring the pre-2024 regulatory text. LDTs therefore remain regulated under CLIA (laboratory quality) and, for coverage, by Medicare's MolDX programme and New York State, with FDA review only where a company chooses PMA or De Novo (as GRAIL has with Galleri, and Exact did with Cologuard). For patients, the practical meaning is that an LDT's clinical claims have not been independently reviewed by the FDA, and that a Medicare coverage decision often matters more than approval.",
+  term({
+    related: ["laboratory-certification-test-authorization","research-use-only","companion-diagnostic-term","analytical-vs-clinical-validation"], asOf: "2026-11-08", id: "fda-ldt-rule", wikipedia: W("Laboratory-developed_test"), name: "FDA laboratory-developed test (LDT) rule", category: "Regulation",
+    tldr: "A laboratory-developed test is described by its development and use within a laboratory. Laboratory oversight, product authorization and evidence supporting a particular test use are separate questions.",
+    summary: "FDA issued its laboratory-developed-test rule in May 2024. Its current notice states that a federal court vacated that rule in March 2025 and that FDA restored the earlier regulatory text in September 2025. The vacated phaseout schedule should not be presented as a current requirement. An LDT description alone does not establish FDA authorization, research-only status or clinical usefulness. Check the actual laboratory, product and intended use rather than assigning every LDT one approval or evidence status.",
     technologies: ["companion-diagnostic", "mrd-testing", "mced"], terms: ["ivdr", "regulatory-agencies"], drugs: ["galleri", "signatera", "cancerguard"],
-    links: [{ label: "FDA: Laboratory Developed Tests", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests" }] }),
+    links: [{"label":"FDA: current laboratory-developed-test rule notice","url":"https://www.fda.gov/medical-devices/in-vitro-diagnostics/laboratory-developed-tests"},{"label":"CMS: Clinical Laboratory Improvement Amendments","url":"https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments"},{"label":"CMS: CLIA analytical oversight and clinical validity (2013 FAQ; historical FDA discussion not used)","url":"https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/ldt-and-clia_faqs.pdf"}] }),
   term({ id: "ivdr", wikipedia: W("In_Vitro_Diagnostic_Medical_Devices_Regulation"), name: "IVDR (EU In Vitro Diagnostic Regulation 2017/746)", category: "Regulation",
     tldr: "Europe's rules for diagnostic tests, which since 2022 require most cancer tests to be certified by an independent body before they carry a CE mark, with deadlines for older tests running to 2029.",
     summary: "Regulation (EU) 2017/746 replaced the 1998 IVD Directive and applied from 26 May 2022, moving from self-declaration to risk-based classification (A to D) in which about 80% of tests, including companion diagnostics (class C) and the bulk of cancer assays, need notified-body assessment. Companion diagnostics also require consultation with the medicines regulator. Because notified-body capacity lagged, Regulation (EU) 2024/1860 extended transition for legacy devices to 31 December 2027 (class D), 31 December 2028 (class C) and 31 December 2029 (class B and A sterile), provided manufacturers had applied to a notified body by set dates, and required manufacturers to warn of supply interruptions. In-house tests made by hospital laboratories have a separate, lighter regime under Article 5(5). The UK operates its own UKCA regime with continued recognition of CE marks. For patients the CE mark under IVDR is closer to FDA approval than the old CE mark was, but still does not require proof of clinical utility.",

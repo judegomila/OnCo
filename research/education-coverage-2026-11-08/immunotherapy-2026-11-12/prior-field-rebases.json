@@ -1,0 +1,1294 @@
+{
+  "count": 56,
+  "references": [
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/0/evidence/1",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use tumor material in place as an antigen source while supporting local activation to seek broader antitumor immunity.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use tumor material in place as an antigen source while supporting local activation to seek broader antitumor immunity.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Different components may release antigens, recruit cells, stimulate sensors or relieve inhibition; death or danger signals alone do not establish immunogenic cell death.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Different components may release antigens, recruit cells, stimulate sensors or relieve inhibition; death or danger signals alone do not establish immunogenic cell death.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish intratumoral delivery from an in-situ-vaccination strategy; an injected cytotoxin is not automatically a vaccine.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish intratumoral delivery from an in-situ-vaccination strategy; an injected cytotoxin is not automatically a vaccine.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/4/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/5/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/6/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Brody’s low-dose radiation plus injected TLR9 CpG to low-grade B-cell lymphoma.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Brody’s low-dose radiation plus injected TLR9 CpG to low-grade B-cell lymphoma.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/7/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Flt3 ligand/radiation/poly-ICLC TLR3 combination to indolent lymphoma and models; restored checkpoint responsiveness was in mice.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Flt3 ligand/radiation/poly-ICLC TLR3 combination to indolent lymphoma and models; restored checkpoint responsiveness was in mice.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/8/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/8/evidence/1",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/9/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/10/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Local shrinkage plus blood peptide reactivity with an unchanged distant lesion establishes neither systemic vaccine success nor absence of all immune learning.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Local shrinkage plus blood peptide reactivity with an unchanged distant lesion establishes neither systemic vaccine success nor absence of all immune learning.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/11/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local injury, presentation, antigen-reactive immunity and untreated-site outcomes separately.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local injury, presentation, antigen-reactive immunity and untreated-site outcomes separately.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/12/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Combine local sampling, controlled immune assays and serial treated/untreated-lesion measurements.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Combine local sampling, controlled immune assays and serial treated/untreated-lesion measurements.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/13/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify tissue, blood and viable-cell inputs and finite sampling costs.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify tissue, blood and viable-cell inputs and finite sampling costs.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/14/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep local change, reactive-cell counts/function and response proportion units distinct.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep local change, reactive-cell counts/function and response proportion units distinct.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/15/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: No universal vaccination-success marker follows across methods or studies.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: No universal vaccination-success marker follows across methods or studies.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/16/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Name nonspecific inflammation, artificial peptide loading, viability, timing and concurrent treatment as failure modes.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Name nonspecific inflammation, artificial peptide loading, viability, timing and concurrent treatment as failure modes.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/17/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Do not infer each component’s benefit, whole-body killing or an individual regimen from one positive result.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Do not infer each component’s benefit, whole-body killing or an individual regimen from one positive result.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/252/review/points/18/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mechanistic/model evidence needs clinical validation of the complete intervention.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mechanistic/model evidence needs clinical validation of the complete intervention.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/0/evidence/1",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use tumor material in place as an antigen source while supporting local activation to seek broader antitumor immunity.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Use tumor material in place as an antigen source while supporting local activation to seek broader antitumor immunity.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Different components may release antigens, recruit cells, stimulate sensors or relieve inhibition; death or danger signals alone do not establish immunogenic cell death.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Different components may release antigens, recruit cells, stimulate sensors or relieve inhibition; death or danger signals alone do not establish immunogenic cell death.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish intratumoral delivery from an in-situ-vaccination strategy; an injected cytotoxin is not automatically a vaccine.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Distinguish intratumoral delivery from an in-situ-vaccination strategy; an injected cytotoxin is not automatically a vaccine.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/4/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/5/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/6/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Brody’s low-dose radiation plus injected TLR9 CpG to low-grade B-cell lymphoma.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Brody’s low-dose radiation plus injected TLR9 CpG to low-grade B-cell lymphoma.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/7/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Flt3 ligand/radiation/poly-ICLC TLR3 combination to indolent lymphoma and models; restored checkpoint responsiveness was in mice.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Scope Flt3 ligand/radiation/poly-ICLC TLR3 combination to indolent lymphoma and models; restored checkpoint responsiveness was in mice.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/8/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/8/evidence/1",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: A multicomponent study does not identify each component’s contribution without appropriate comparisons or establish breast-cancer benefit.",
+        "supportingExcerpt": "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "passageSha256": "5969fc55213f2c10cb1daa7b5136d563a21fa280dd9dcdf549ba549f146fe942"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/9/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/10/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Local shrinkage plus blood peptide reactivity with an unchanged distant lesion establishes neither systemic vaccine success nor absence of all immune learning.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Local shrinkage plus blood peptide reactivity with an unchanged distant lesion establishes neither systemic vaccine success nor absence of all immune learning.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/11/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local injury, presentation, antigen-reactive immunity and untreated-site outcomes separately.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local injury, presentation, antigen-reactive immunity and untreated-site outcomes separately.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/12/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Combine local sampling, controlled immune assays and serial treated/untreated-lesion measurements.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Combine local sampling, controlled immune assays and serial treated/untreated-lesion measurements.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/13/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify tissue, blood and viable-cell inputs and finite sampling costs.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Specify tissue, blood and viable-cell inputs and finite sampling costs.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/14/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep local change, reactive-cell counts/function and response proportion units distinct.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Keep local change, reactive-cell counts/function and response proportion units distinct.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/15/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: No universal vaccination-success marker follows across methods or studies.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: No universal vaccination-success marker follows across methods or studies.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/16/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Name nonspecific inflammation, artificial peptide loading, viability, timing and concurrent treatment as failure modes.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Name nonspecific inflammation, artificial peptide loading, viability, timing and concurrent treatment as failure modes.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/17/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Do not infer each component’s benefit, whole-body killing or an individual regimen from one positive result.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Do not infer each component’s benefit, whole-body killing or an individual regimen from one positive result.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/256/review/points/18/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mechanistic/model evidence needs clinical validation of the complete intervention.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Mechanistic/model evidence needs clinical validation of the complete intervention.",
+        "supportingExcerpt": "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "passageSha256": "0f7f35263d8e2c52cbac575b90e30ace0f811c5dd8f86eac340f6adcbe5e2dad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1047/review/points/0/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1047/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1047/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1047/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1048/review/points/0/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1048/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1048/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/1048/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1047/review/points/0/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1047/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1047/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1047/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1048/review/points/0/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Explain antigen availability, activated presenting cells, processing/cross-presentation, draining-node priming, access, natural target recognition and useful function as conditional jobs.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1048/review/points/1/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Interpret dashed collection/priming/distant-site routes as conditional, and remember that an uninjected lesion may receive systemic treatment.",
+        "supportingExcerpt": "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "passageSha256": "8843e53b4f31fc0373f2cb4437e1cc77468cbb34c92b8cccab19744d42ac69fd"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1048/review/points/2/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Measure local shrinkage, antigen-reactive immunity, distant response and long-term clinical benefit separately.",
+        "supportingExcerpt": "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "passageSha256": "e1e98b79dbb03c22241377075f180a08b6b96fd1e7a5fcb8434dc9a1f1f57e68"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/1048/review/points/3/evidence/0",
+      "before": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-tumor-immunology-root",
+        "field": "notes",
+        "fieldSha256": "2d3704dc67e9a154a2a158ccbe66e5ea37041895fe01c2b6191eb93bdc148bd8",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "after": {
+        "recordId": "in-situ-vaccination",
+        "version": "proposal-immunotherapy-root",
+        "field": "notes",
+        "fieldSha256": "fd588c4a05b8ddcec0664d215266d1504ea3ac98b5882034bc3b6362b15f16ed",
+        "explanation": "This exact reader passage represents the specified distinction, measurement, study or qualified inference: Supplied peptide can bypass natural processing; naturally presenting target tests address a separate bridge with their own model limits.",
+        "supportingExcerpt": "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "passageSha256": "b9d3aeb84e05080163e704f1f70dfbe22b33d951c613c0ddfa5597d6f9125cad"
+      },
+      "reason": "Every earlier in-situ note is preserved verbatim and in order. Rebind only this current-root projection; frozen packets remain unchanged."
+    }
+  ],
+  "priorPacketsRewritten": false
+}

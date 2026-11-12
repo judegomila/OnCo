@@ -1,0 +1,331 @@
+[
+  {
+    "sourceId": "ubc-anatomy",
+    "fileName": "ubc-breast.txt",
+    "expectedSha256": "28c7d63a5880acb98b1461066908b5bbc449427ac913e7ad8666f7ff3d16e5c6",
+    "actualSha256": "28c7d63a5880acb98b1461066908b5bbc449427ac913e7ad8666f7ff3d16e5c6",
+    "match": true
+  },
+  {
+    "sourceId": "seer-anatomy-official-text",
+    "fileName": "64c5a549ec76a0b9.txt",
+    "expectedSha256": "911a24fea079bba06e999b8f7213908d2cabc60962a8bdf09eff0f1f1861e3f7",
+    "actualSha256": "911a24fea079bba06e999b8f7213908d2cabc60962a8bdf09eff0f1f1861e3f7",
+    "match": true
+  },
+  {
+    "sourceId": "kumar-abstract",
+    "fileName": "MED-37380767.json",
+    "expectedSha256": "2fef7819f90b9028a3bdd30de09b3e57ede3c5ddf22f471b749c04ec19270359",
+    "actualSha256": "2fef7819f90b9028a3bdd30de09b3e57ede3c5ddf22f471b749c04ec19270359",
+    "match": true
+  },
+  {
+    "sourceId": "gudjonsson-abstract",
+    "fileName": "MED-11801722.json",
+    "expectedSha256": "735952c914e8a6a8c61c8c1194f588856deb63453ee5b9526d795c6cf102f74f",
+    "actualSha256": "735952c914e8a6a8c61c8c1194f588856deb63453ee5b9526d795c6cf102f74f",
+    "match": true
+  },
+  {
+    "sourceId": "dceg-tdlu-official-text",
+    "fileName": "28294ddbd8a8f832.txt",
+    "expectedSha256": "84705ae02eea66e2ee42b3ca0f18bcdb4592e889a3b1f7698d1388bc879d4e77",
+    "actualSha256": "84705ae02eea66e2ee42b3ca0f18bcdb4592e889a3b1f7698d1388bc879d4e77",
+    "match": true
+  },
+  {
+    "sourceId": "nci-dcis-official-text",
+    "fileName": "ff99f3aba2155c10.txt",
+    "expectedSha256": "a819948ab383fdcaeb64c0604fa15c11e43a69dc24e9b7f6fccd855bcde187a5",
+    "actualSha256": "a819948ab383fdcaeb64c0604fa15c11e43a69dc24e9b7f6fccd855bcde187a5",
+    "match": true
+  },
+  {
+    "sourceId": "cap-treatment",
+    "fileName": "cap.txt",
+    "expectedSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+    "actualSha256": "d1cae0129bbbb5c67e40956a4baa0a24b1148cbdfe11d8ef786f9c5fa218154d",
+    "match": true
+  },
+  {
+    "sourceId": "pdq-tables",
+    "fileName": "pdq-expanded-tables.json",
+    "expectedSha256": "8fe6529bfa3dcbf807bbb1ba1ebbdce695e186cb8c2a6f46e780e2c0a8330911",
+    "actualSha256": "8fe6529bfa3dcbf807bbb1ba1ebbdce695e186cb8c2a6f46e780e2c0a8330911",
+    "match": true
+  },
+  {
+    "sourceId": "gusterson-abstract",
+    "fileName": "MED-6290045.json",
+    "expectedSha256": "737d9af1523d3bb844161d4a5f7fad89033cc1c272d210f8a6e228685200350c",
+    "actualSha256": "737d9af1523d3bb844161d4a5f7fad89033cc1c272d210f8a6e228685200350c",
+    "match": true
+  },
+  {
+    "sourceId": "suami-abstract",
+    "fileName": "MED-18043970.json",
+    "expectedSha256": "1aae650b4f21cbb560018a514f0bfa57b8d663be7225d3aba426e5295576d9c0",
+    "actualSha256": "1aae650b4f21cbb560018a514f0bfa57b8d663be7225d3aba426e5295576d9c0",
+    "match": true
+  },
+  {
+    "sourceId": "nci-sentinel-official-text",
+    "fileName": "8f9c8d95fef70f01.txt",
+    "expectedSha256": "7d7758c40c217d47fb63cc1892b05fb31bece4cf1fdce406ccbc24ee580ceec0",
+    "actualSha256": "7d7758c40c217d47fb63cc1892b05fb31bece4cf1fdce406ccbc24ee580ceec0",
+    "match": true
+  },
+  {
+    "sourceId": "seer-types-official-text",
+    "fileName": "cb5afaf3b64aa5aa.txt",
+    "expectedSha256": "24c3ea5eafa0c2e5d84cda230a0e3001f85704b1579f04d5c54de89707170900",
+    "actualSha256": "24c3ea5eafa0c2e5d84cda230a0e3001f85704b1579f04d5c54de89707170900",
+    "match": true
+  },
+  {
+    "sourceId": "who-structure-official-text",
+    "fileName": "ac270dd85de2d89a.txt",
+    "expectedSha256": "2a66bc189028ea256583a687e0e8e168869e70da36f72f979eae02e40dc1556d",
+    "actualSha256": "2a66bc189028ea256583a687e0e8e168869e70da36f72f979eae02e40dc1556d",
+    "match": true
+  },
+  {
+    "sourceId": "werling-abstract",
+    "fileName": "MED-12502930.json",
+    "expectedSha256": "9369b975fce58887a93ad177c84ddaec62c6d65192c0bdede62e837c52e1838d",
+    "actualSha256": "9369b975fce58887a93ad177c84ddaec62c6d65192c0bdede62e837c52e1838d",
+    "match": true
+  },
+  {
+    "sourceId": "ajcc",
+    "fileName": "ajcc.txt",
+    "expectedSha256": "562f0e7457708688c550788f4a17538312d6615ac3c300ae5585231253d7ee1a",
+    "actualSha256": "562f0e7457708688c550788f4a17538312d6615ac3c300ae5585231253d7ee1a",
+    "match": true
+  },
+  {
+    "sourceId": "giuliano",
+    "fileName": "giuliano-med.json",
+    "expectedSha256": "9f700e49b3945e522995920d49e85ad1158c3fe028e6a68c968b42f16e3dbf70",
+    "actualSha256": "9f700e49b3945e522995920d49e85ad1158c3fe028e6a68c968b42f16e3dbf70",
+    "match": true
+  },
+  {
+    "sourceId": "weiss",
+    "fileName": "weiss-resolved.json",
+    "expectedSha256": "f7b03abcd7bb9cd819ed4c84d890824ae57859d6f0fdd0f4601302bc03010dad",
+    "actualSha256": "f7b03abcd7bb9cd819ed4c84d890824ae57859d6f0fdd0f4601302bc03010dad",
+    "match": true
+  },
+  {
+    "sourceId": "nci-grade-official-text",
+    "fileName": "7766a7ea49eff46d.txt",
+    "expectedSha256": "a225fda47b8855eb0e5c4484b446339e44d4eb02e90d5c521c3e3a77fc2aa89c",
+    "actualSha256": "a225fda47b8855eb0e5c4484b446339e44d4eb02e90d5c521c3e3a77fc2aa89c",
+    "match": true
+  },
+  {
+    "sourceId": "elston",
+    "fileName": "elston-med.json",
+    "expectedSha256": "395c1567fd8d9622f5c3b115337d47c4e9f754c897b4514c1544af420f28c633",
+    "actualSha256": "395c1567fd8d9622f5c3b115337d47c4e9f754c897b4514c1544af420f28c633",
+    "match": true
+  },
+  {
+    "sourceId": "ikwg-abstract",
+    "fileName": "MED-33369635.json",
+    "expectedSha256": "71c364a51290b68e1f131ddfa02eec90d36d898f1881eaeeae9d06150ff616f7",
+    "actualSha256": "71c364a51290b68e1f131ddfa02eec90d36d898f1881eaeeae9d06150ff616f7",
+    "match": true
+  },
+  {
+    "sourceId": "ikwg-full-text",
+    "fileName": "86e24a09058faecc",
+    "expectedSha256": "376819c56d7881c9341252bda4ac639a1a97afa8e666e6d7d5178fb831610917",
+    "actualSha256": "376819c56d7881c9341252bda4ac639a1a97afa8e666e6d7d5178fb831610917",
+    "match": true
+  },
+  {
+    "sourceId": "cap-bmk",
+    "fileName": "cap-bmk.txt",
+    "expectedSha256": "d01d703dcb8da0d1bcd3c48382ea7df08ce74e8189260630e13642714f4045e2",
+    "actualSha256": "d01d703dcb8da0d1bcd3c48382ea7df08ce74e8189260630e13642714f4045e2",
+    "match": true
+  },
+  {
+    "sourceId": "label",
+    "fileName": "label.txt",
+    "expectedSha256": "38ac0105acad9d4efd9fbcb9b6f8e10130d83bba109f26475c8ee14f547d9027",
+    "actualSha256": "38ac0105acad9d4efd9fbcb9b6f8e10130d83bba109f26475c8ee14f547d9027",
+    "match": true
+  },
+  {
+    "sourceId": "fda-2023",
+    "fileName": "fda-2023.txt",
+    "expectedSha256": "525e69e1ed958b56a420f577b529e392a7c4772c6b839b17b022c842660e2767",
+    "actualSha256": "525e69e1ed958b56a420f577b529e392a7c4772c6b839b17b022c842660e2767",
+    "match": true
+  },
+  {
+    "sourceId": "ma-abstract",
+    "fileName": "MED-33953240.json",
+    "expectedSha256": "52b48f9eb13bab9c3861e2d5654ec2b50d1ec1508c8899f34e1a2ea61ab8d614",
+    "actualSha256": "52b48f9eb13bab9c3861e2d5654ec2b50d1ec1508c8899f34e1a2ea61ab8d614",
+    "match": true
+  },
+  {
+    "sourceId": "tang-abstract",
+    "fileName": "MED-36030639.json",
+    "expectedSha256": "8eb7c583424d93130b668c28c9de34c3a72bc713f0515e28c16dd0adb2f1bcd5",
+    "actualSha256": "8eb7c583424d93130b668c28c9de34c3a72bc713f0515e28c16dd0adb2f1bcd5",
+    "match": true
+  },
+  {
+    "sourceId": "fisher-abstract",
+    "fileName": "MED-12393820.json",
+    "expectedSha256": "2c6023f92be41a8c2c0215510911546293cacba4ca0f973957d35b593b843202",
+    "actualSha256": "2c6023f92be41a8c2c0215510911546293cacba4ca0f973957d35b593b843202",
+    "match": true
+  },
+  {
+    "sourceId": "veronesi-abstract",
+    "fileName": "MED-12393819.json",
+    "expectedSha256": "3ecc366eff3b9936761df0b309c8695deecbbd776c09a8f194dca7c8202a41b5",
+    "actualSha256": "3ecc366eff3b9936761df0b309c8695deecbbd776c09a8f194dca7c8202a41b5",
+    "match": true
+  },
+  {
+    "sourceId": "nci-lumpectomy-official-text",
+    "fileName": "d1c64c29001069da.txt",
+    "expectedSha256": "377667c7d026d880c5c5c247be415ff4a8adb5e37063fe304e70bffdeed813f4",
+    "actualSha256": "377667c7d026d880c5c5c247be415ff4a8adb5e37063fe304e70bffdeed813f4",
+    "match": true
+  },
+  {
+    "sourceId": "nci-mastectomy-official-text",
+    "fileName": "88b0780764034165.txt",
+    "expectedSha256": "2c954caf5aabca1447ea0c2ea11bc267f450b28383b2d1a11dcb8375d321e079",
+    "actualSha256": "2c954caf5aabca1447ea0c2ea11bc267f450b28383b2d1a11dcb8375d321e079",
+    "match": true
+  },
+  {
+    "sourceId": "nci-choice-official-text",
+    "fileName": "0165b4d7000f74f4.txt",
+    "expectedSha256": "67465bc88f51314b2d1e3625b16b240b85f012b75110f5a48956c360d4ac4eaa",
+    "actualSha256": "67465bc88f51314b2d1e3625b16b240b85f012b75110f5a48956c360d4ac4eaa",
+    "match": true
+  },
+  {
+    "sourceId": "fda",
+    "fileName": "fda.txt",
+    "expectedSha256": "7a88568f809d66828097bcaf19d2b2c3b06df22a9d082356c28052a82d375cc3",
+    "actualSha256": "7a88568f809d66828097bcaf19d2b2c3b06df22a9d082356c28052a82d375cc3",
+    "match": true
+  },
+  {
+    "sourceId": "cortazar-abstract",
+    "fileName": "MED-24529560.json",
+    "expectedSha256": "9f1ea235cf36504843252263163a4c51355632a1ec5fb9a40de0d745687d958a",
+    "actualSha256": "9f1ea235cf36504843252263163a4c51355632a1ec5fb9a40de0d745687d958a",
+    "match": true
+  },
+  {
+    "sourceId": "keynote-pcr",
+    "fileName": "keynote-pcr-resolved.json",
+    "expectedSha256": "dda06d482fa9869241e0cbc9f2c34f2f7a6567d4c359d4e039802502c9d3a09d",
+    "actualSha256": "dda06d482fa9869241e0cbc9f2c34f2f7a6567d4c359d4e039802502c9d3a09d",
+    "match": true
+  },
+  {
+    "sourceId": "keynote-os",
+    "fileName": "keynote-os-med.json",
+    "expectedSha256": "48a134fa285a1f6d0ff3ea674b2210c00d191b2636c1cdc00a7f7151ed528255",
+    "actualSha256": "48a134fa285a1f6d0ff3ea674b2210c00d191b2636c1cdc00a7f7151ed528255",
+    "match": true
+  },
+  {
+    "sourceId": "md-method",
+    "fileName": "rcb-method.txt",
+    "expectedSha256": "ac103ed432167282c26e90e21ab1dda5fd39a4edba2745d8182d377e54c11d73",
+    "actualSha256": "ac103ed432167282c26e90e21ab1dda5fd39a4edba2745d8182d377e54c11d73",
+    "match": true
+  },
+  {
+    "sourceId": "symmans-equation",
+    "fileName": "symmans-2007-journalclub.txt",
+    "expectedSha256": "367a4642240250e05cddda8db21e2c22ed4b92a07cccac21767ee7b207d68ef2",
+    "actualSha256": "367a4642240250e05cddda8db21e2c22ed4b92a07cccac21767ee7b207d68ef2",
+    "match": true
+  },
+  {
+    "sourceId": "symmans-abstract",
+    "fileName": "MED-17785706.json",
+    "expectedSha256": "ae87658f5e91558fafd981c02c0dc1e8ed875111bdb6fd7b13461c5138c73a76",
+    "actualSha256": "ae87658f5e91558fafd981c02c0dc1e8ed875111bdb6fd7b13461c5138c73a76",
+    "match": true
+  },
+  {
+    "sourceId": "nci-cde",
+    "fileName": "nci-rcb-cde.txt",
+    "expectedSha256": "b7dc7bc6a50569afdecf514779e4994450ccad11cb3c1dfbb411d14698313f58",
+    "actualSha256": "b7dc7bc6a50569afdecf514779e4994450ccad11cb3c1dfbb411d14698313f58",
+    "match": true
+  },
+  {
+    "sourceId": "yau-full-text",
+    "fileName": "f28bef524da9f13b",
+    "expectedSha256": "57115af404aecfe70a29940724493384f509e7a8679424ae221a1fd23b0f3f5d",
+    "actualSha256": "57115af404aecfe70a29940724493384f509e7a8679424ae221a1fd23b0f3f5d",
+    "match": true
+  },
+  {
+    "sourceId": "calculator-result",
+    "fileName": "calculator-fictional-response.html",
+    "expectedSha256": "74c2c7fcd9cfe45a8d29c871f18f4bf7031e6e01c5446b98eb8be49cd024a897",
+    "actualSha256": "74c2c7fcd9cfe45a8d29c871f18f4bf7031e6e01c5446b98eb8be49cd024a897",
+    "match": true
+  },
+  {
+    "sourceId": "boughey-abstract",
+    "fileName": "MED-24101169.json",
+    "expectedSha256": "f44208794467ffd071e9c1f2ff6b237cad8a5e9783eac2d0505f9908a725dd23",
+    "actualSha256": "f44208794467ffd071e9c1f2ff6b237cad8a5e9783eac2d0505f9908a725dd23",
+    "match": true
+  },
+  {
+    "sourceId": "caudle-abstract",
+    "fileName": "MED-26811528.json",
+    "expectedSha256": "80f3e213e587d3d555418dca8db5ee4fb5a4a8e8d311e3f943d0632f8ca4ff32",
+    "actualSha256": "80f3e213e587d3d555418dca8db5ee4fb5a4a8e8d311e3f943d0632f8ca4ff32",
+    "match": true
+  },
+  {
+    "sourceId": "moran-full-text",
+    "fileName": "invasive-consensus.txt",
+    "expectedSha256": "a4b3b45e32e75d9e6074399a38ae4bd03dba05499299acf3475b7c92ab6a613f",
+    "actualSha256": "a4b3b45e32e75d9e6074399a38ae4bd03dba05499299acf3475b7c92ab6a613f",
+    "match": true
+  },
+  {
+    "sourceId": "morrow-full-text",
+    "fileName": "a5ab880998905c8a",
+    "expectedSha256": "5ced095e777272f0bec8f52041d894d67dd4a533f37ad810c85ab205a356b50b",
+    "actualSha256": "5ced095e777272f0bec8f52041d894d67dd4a533f37ad810c85ab205a356b50b",
+    "match": true
+  },
+  {
+    "sourceId": "provenzano-scar",
+    "fileName": "provenzano-full.txt",
+    "expectedSha256": "6a2525c566896ded34206177c62b1c8e540a6cab6ce92128b19e76793a1f2e73",
+    "actualSha256": "6a2525c566896ded34206177c62b1c8e540a6cab6ce92128b19e76793a1f2e73",
+    "match": true
+  },
+  {
+    "sourceId": "provenzano-current",
+    "fileName": "provenzano-med.json",
+    "expectedSha256": "6796ef1ff4eb51461b61ddda11f73e424d148cab67413d6f51ffcf55ba6408c3",
+    "actualSha256": "6796ef1ff4eb51461b61ddda11f73e424d148cab67413d6f51ffcf55ba6408c3",
+    "match": true
+  }
+]

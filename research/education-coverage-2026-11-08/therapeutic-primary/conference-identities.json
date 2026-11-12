@@ -1,0 +1,98 @@
+[
+  {
+    "id": "chk1-payload",
+    "doi": "10.1158/1538-7445.am2026-1714",
+    "title": "Abstract 1714: First-in-class CHK1 inhibitor antibody-drug conjugate overcomes limitations of current ADC payloads and provides a new option for HER2-positive and TOP1 inhibitor-resistant tumors",
+    "containerTitle": [
+      "Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1158/1538-7445.am2026-1714",
+    "retrievedAt": "2026-11-09T01:01:45.161821+00:00",
+    "rawResponseSha256": "5667c3eabada98231b013fad2b98b1c7e13e61723dbc9587530d561cbc114f6e",
+    "abstractSha256": "73a77ab390b3c49da667f2a73d21156d1f0764438aa57fea71b2dc39c04b971b",
+    "review": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+    "evidenceType": "preclinical conference abstract; not human efficacy or comprehensive safety evidence",
+    "rawRetention": "outside checkout; deposited full abstract not copied"
+  },
+  {
+    "id": "parp-payload",
+    "doi": "10.1158/1538-7445.am2025-5467",
+    "title": "Abstract 5467: Therapeutic potential of antibody-drug conjugate with PARP1 selective inhibitor as a payload: A promising therapeutic approach for potent antitumor efficacy with reduced toxicity",
+    "containerTitle": [
+      "Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1158/1538-7445.am2025-5467",
+    "retrievedAt": "2026-11-09T01:02:32.491837+00:00",
+    "rawResponseSha256": "02686f55122491399bba2a146dfa3c669cf581c9e924e0abdbcab1cc375f7b0d",
+    "abstractSha256": "fef3651d7e370e6c1a2b6bc3bbbb3da18a62f5627102136157d8a5340a34ef19",
+    "review": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+    "evidenceType": "preclinical conference abstract; not human efficacy or comprehensive safety evidence",
+    "rawRetention": "outside checkout; deposited full abstract not copied"
+  },
+  {
+    "id": "atr-payload",
+    "doi": "10.1158/1557-3265.d32026-a003",
+    "title": "Abstract A003: Novel ATR inhibitor antibody conjugates with potent single payload antitumor activity for personalized medicine",
+    "containerTitle": [
+      "Clinical Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1158/1557-3265.d32026-a003",
+    "retrievedAt": "2026-11-09T01:01:45.193935+00:00",
+    "rawResponseSha256": "57c4dddcdee5553ff7733a3c7e1497dd3acc41fe1d9b0725c71a64c482167fde",
+    "abstractSha256": "5531e68ad186bfb6b7a45eb6d9d94057b35e8a4e30708021e000fc4e0f980f98",
+    "review": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+    "evidenceType": "preclinical conference abstract; not human efficacy or comprehensive safety evidence",
+    "rawRetention": "outside checkout; deposited full abstract not copied"
+  },
+  {
+    "id": "bispecific-context",
+    "doi": "10.1158/1538-7445.am2024-2616",
+    "title": "Abstract 2616: BCG033, a novel bispecific antibody-drug conjugate targeting PTK7 and TROP2, demonstrates preclinical efficacy against triple-negative breast cancer and other solid tumor xenografts",
+    "containerTitle": [
+      "Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          22
+        ]
+      ]
+    },
+    "url": "https://doi.org/10.1158/1538-7445.am2024-2616",
+    "retrievedAt": "2026-11-09T01:20:34.779697+00:00",
+    "rawResponseSha256": "ccfb6f3f23321896179d6f3f667f8e7eb98f039ce1e882e4e700d4c2e6141fcc",
+    "abstractSha256": "a0497705bbd16036606b82ef7ce1a6acb05ffb181d71e15485b095f5c131d94f",
+    "review": "DOI resolved through Crossref; publisher-deposited abstract read in full",
+    "evidenceType": "preclinical conference abstract; not human efficacy or comprehensive safety evidence",
+    "rawRetention": "outside checkout; deposited full abstract not copied"
+  }
+]

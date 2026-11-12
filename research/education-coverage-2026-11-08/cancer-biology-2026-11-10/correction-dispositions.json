@@ -1,0 +1,282 @@
+[
+  {
+    "recordId": "angiogenesis",
+    "field": "tldr",
+    "beforeSha256": "0f77324373c953cfd0308d5746889760fb139616067728ee9af910afa66955c5",
+    "afterSha256": "7b6ab7a83127e19effc722b7eb5ac1c6d1dadd884a6dd733070eacc3c7336d7e",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "angiogenesis",
+    "field": "summary",
+    "beforeSha256": "0bfffd9d8832352dd2ceaf872237cec95c55638a2efdd45c53e301e6b108ceb0",
+    "afterSha256": "0b3434dc82e93f216e2dcf4f483eda1d7130c7a1b0165948d2ae5ec261ef03c1",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "cancer-associated-fibroblasts",
+    "field": "tldr",
+    "beforeSha256": "3fa377074cdbc8ccc951fca6e5785dced7cd8ce6decf2ec98434544b779efbfa",
+    "afterSha256": "6b8e9c6588c3b0c42abd2a92a2d55a67d92fa270fa843193de864924cc664f68",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "cancer-associated-fibroblasts",
+    "field": "summary",
+    "beforeSha256": "439a568610011a4e419f98efd1b881b56767b6a5888a4f831e90bcf08029c7c0",
+    "afterSha256": "7b7f1070585d6bc520393a07df5fe58a21e3f7e8d48aab17edcecc02cb951087",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumour-hypoxia",
+    "field": "tldr",
+    "beforeSha256": "b2c506401d40e6bf17831a85b78b3f53a0a7d99add0192f1d4c100c5f982abde",
+    "afterSha256": "c5518489aa39d96f80a669bdf8c44a468744b0845362fc87198ec4448c4188f3",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumour-hypoxia",
+    "field": "summary",
+    "beforeSha256": "26f27d9e2fb6e56af65932212f88da183ae0635ae0d2b86e7ffc013b23718b81",
+    "afterSha256": "41e4f739ff8d15cf85a02af794494ac86715ec0337470426eef9a24f5c00ca15",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "myeloid-derived-suppressor-cells",
+    "field": "tldr",
+    "beforeSha256": "8a79d87b04904e9ae8a36708212ee2ed66bce267f21e639e0f35f5055fffe2d8",
+    "afterSha256": "98d64023ac8fce7e9544f11b8afba62956d9e78498d88433880902e5fa0c553b",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "myeloid-derived-suppressor-cells",
+    "field": "summary",
+    "beforeSha256": "79a48928fc1da2732f1caa21c1297c78d97ca50ed3ed44aee11ef6dd508513ba",
+    "afterSha256": "f8feddd7992fe0408286eeb3766f70864df6ef748aaf78bc56796eabd9ec6594",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumor-microenvironment",
+    "field": "tldr",
+    "beforeSha256": "a164ff0fe6ca1907839fe63fb7f5354b90362404c427a312c16a3357605b013e",
+    "afterSha256": "b1ee0c54daef7604ca589d8fa9623c625caaf34e9f8145e0429ca4eb8ab9a371",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumor-microenvironment",
+    "field": "summary",
+    "beforeSha256": "36b438d6c68c569a51dbd0448e4bbe95e29e9acc98c792d3fc00bb22b9350cf9",
+    "afterSha256": "64142ed3617f5d45fc18d3f0bd8b6dc4dcf08a20f26f112ba69549c2461d8840",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "benign-vs-malignant",
+    "field": "tldr",
+    "beforeSha256": "16882ebe2a72126b532c302a6b6033c42a9d818bd34e3bf06a6c8f56aba7e657",
+    "afterSha256": "9f7b7b1beb47f73165fc23540e8525fdca94f48e4cc08b2847f0b4823f62b260",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "benign-vs-malignant",
+    "field": "summary",
+    "beforeSha256": "a5cedc6a7d8673dc135a77347b7b092f766701645e113d4190b594453d038ab8",
+    "afterSha256": "703070ea25d13680a047536192d99526ce050f0bbdea1850222ae6374bee6e9c",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "clonal-evolution",
+    "field": "tldr",
+    "beforeSha256": "7bb9c57ff06e0fcba34e486aa40ba84931b6740e062324bab134b1b9eb84f895",
+    "afterSha256": "1fcbc5f1d64c5a2dbfb19939f1185e313ba4c3efb26021a574f38baeca401e28",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "clonal-evolution",
+    "field": "summary",
+    "beforeSha256": "e5b45717c1a0dd10587558dd41f907498c804461698f890f23ffcaa93c82854b",
+    "afterSha256": "742dcc6a58f1afa06bb8b7ba26588b8cbf9328d8542493d6bdf16ed33912a46e",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "hallmarks-of-cancer",
+    "field": "tldr",
+    "beforeSha256": "d5f369fb3628fd7e0a4d481d99a1ef301f28b640c0070b3b8b0c4d8e5eb58c66",
+    "afterSha256": "16978a9e00246027dca2c6f8133a97dff4c0b60245548d6a2d6dcd4d1834ba52",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "hallmarks-of-cancer",
+    "field": "summary",
+    "beforeSha256": "11af2e5f1b8d686a1041f15daff1b8dc762b7da70c0469d7403e4d178a8d57c5",
+    "afterSha256": "0b78a364949b1ba4d8fe249e8c7b1abee758069e8c5a3ab070a0b3da47b128b0",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "immune-surveillance-immunoediting",
+    "field": "tldr",
+    "beforeSha256": "d08d07ccfad17c4368c37badd61f33b52afca8dc09fb192cbe2efd497099219c",
+    "afterSha256": "af682747f6cbe3f992dcb08925b86aab8c128ddad68db2a73343e2eb9ef9f726",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "immune-surveillance-immunoediting",
+    "field": "summary",
+    "beforeSha256": "87151e1d0b49632d34b10839d468ea7337cc72a1728244b17ae529db0b3fe7c3",
+    "afterSha256": "522b9149581d90c6ac6ac1622efa7a9f459445e149306fcebf4eadbdd459aa9d",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "metastasis",
+    "field": "tldr",
+    "beforeSha256": "afc6cbc119edeb80a06b4772a655d1c8a01c216235c44997838c1285b5255051",
+    "afterSha256": "dbf1e601367f911ce9ee632767e093ff2a25aa846d6352b7ca6606516ed0466d",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "metastasis",
+    "field": "summary",
+    "beforeSha256": "6af280c39fe97d392a932871c8a54e402b81c1093120b2d237372771d05b9623",
+    "afterSha256": "3f7deaa8810583ae25c21631a9c69e4b950446fff42c2f7deaedb4e15e110e78",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumor-dormancy",
+    "field": "tldr",
+    "beforeSha256": "9e419e1e30a9c5aa286a5a4c6141f221a639b02ca58c153bd2869f2d26d32123",
+    "afterSha256": "e0e557657d49b806d1d8ae74bc27c04de1137d5bce0b3b291e143e2e06e9ea57",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumor-dormancy",
+    "field": "summary",
+    "beforeSha256": "4e9b82953b9929c64b6edea2a8721b175af82d47866f7582932dff423e02e308",
+    "afterSha256": "fe9b7eade23e72ff29e28096914e34cc22fa2431e4e2e9429b39efbfc5f7cb8d",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene-addiction",
+    "field": "tldr",
+    "beforeSha256": "24e08dae48e0e5e61b9209f52c24451dfd6fa28d1e3c979b66d0bb25ba4a871b",
+    "afterSha256": "919625c827f3778315653b1cf3a4b2caaf7b4c0051e390028fdfbdafbe1f61e9",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene-addiction",
+    "field": "summary",
+    "beforeSha256": "3a50593eff5df778f61195bae796f3e3d6d03d1c57d89fe340db9b68e4e7834a",
+    "afterSha256": "59f0cb9aa590d23892c980c5cc9029bd34c0954a14c328654ecf17c73fef1254",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene",
+    "field": "tldr",
+    "beforeSha256": "e8e35cb73f25d17944a234808747b165300b90c653b6d0147263ec2ca19dace4",
+    "afterSha256": "3c7f2af3a88f204fb88bf1fb1a6f84e4aaca043b684d26717afbe858f854600c",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene",
+    "field": "summary",
+    "beforeSha256": "0e9dcd2f65ca77dcd9b1a02d399f17146917675e9cad14a5470bff02e483a8e5",
+    "afterSha256": "e252c4e4700829ebe23972b7a2f6ee5ce12d309381e542b8f6d50738ff7ae9fe",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumour-suppressor-gene",
+    "field": "tldr",
+    "beforeSha256": "b64f9c0dbf2a2ae3b6b94614a2f22d97d4e66c5a1a1611f7ba3c820a2781fe2f",
+    "afterSha256": "4df2a3f30db55cc1f10435866e91dc02f3d55336d257a983c934b588bc6eb999",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "tumour-suppressor-gene",
+    "field": "summary",
+    "beforeSha256": "0a6e2c6afef87b231f9a209f7e7b2ba122837b228557cffd65b860cef39d2569",
+    "afterSha256": "1774b5fa03a3d7ce06c927d625461c6b94736681b1e1792abdda8ebd413bd2c6",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "intra-tumour-heterogeneity",
+    "field": "tldr",
+    "beforeSha256": "5d0c8aeaf0985e538171c97c1c1315369c7631a44fea8e71c0c11820296a187d",
+    "afterSha256": "fec711e1dfab0d6770618b19b48d5b63359c7477cbd2d5afe183563578527031",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "intra-tumour-heterogeneity",
+    "field": "summary",
+    "beforeSha256": "ed89347e1c21d49360cc52346a30e8e7d3b6319e8fcc27e77bdc9479d64286d3",
+    "afterSha256": "60ff50c1262996076ff19dd552eab15e9c47cef688dab190c6964700c1472cc5",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "inducing-angiogenesis",
+    "field": "tldr",
+    "beforeSha256": "c6bab5304c7590bf24eb3498439d0e52f38ebe61f9bcaa4eabb7cff1c3bb81e6",
+    "afterSha256": "0657381f10179caccc46be41fedc64cc6cf52396f19fc9bd1ac3d77e5a3799b1",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "inducing-angiogenesis",
+    "field": "summary",
+    "beforeSha256": "d77eb1fc19667c0e0a86b3980ef48507d508db17dee2ab3ffb0c9b19e0582cf1",
+    "afterSha256": "323c72cc5a4b500dff9c588385b4a76a1a025bdc6ec28be1c7a5a1f6f3c121e0",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene-activation-two-hit",
+    "field": "tldr",
+    "beforeSha256": "dff898c38782facd82a41676eed68906d5bb1b827e1a1b0b85ab72f5f91ae3e1",
+    "afterSha256": "8479e751b193b5b1d00e61bd729581226a086e1d6053d93452ffebc431d467b5",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "oncogene-activation-two-hit",
+    "field": "summary",
+    "beforeSha256": "6354c651ebc1a54b2c66b80edfadbeb97f47884a479aa228ae162119f5525664",
+    "afterSha256": "0018863f82fc29ea047605944b570eb462edee81c30b0072f2a1e50fd2871396",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "caf-activation-desmoplasia",
+    "field": "tldr",
+    "beforeSha256": "fb418caf059274bcefd87f8f7f678485461758697ec20148ed710cd473729540",
+    "afterSha256": "76af2649e4c2f0e6eb4d8f5b3f60d19b9b18f0a72e33e3b2b72ddd6aa60948a5",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "caf-activation-desmoplasia",
+    "field": "summary",
+    "beforeSha256": "633b5a993e65c1ae822a2c9ec3a4dae7c11122669d45bac63e9447e4e9236281",
+    "afterSha256": "95f393d4d0399eee3b22efc84c0fb2129a888220cf775829e6beb4374105c50c",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "clonal-evolution-theory",
+    "field": "tldr",
+    "beforeSha256": "7ab30e4378731c335e249b432ac6483ef916f145499f2488f07fc204ef4f0304",
+    "afterSha256": "b6a52426872655106071aa413c12d8a755f6b87682d9140fae0aaec3705ccacb",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "clonal-evolution-theory",
+    "field": "summary",
+    "beforeSha256": "ba8f1a8f21a642027ad9f5ae8950feb734211b0a0464bb4fe6b4985c8135e1f9",
+    "afterSha256": "a334b1e9edd11351c17db287a7aea3530c18722a4bfc04cfbe3cabc50150dbda",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "microenvironment-inflammation-theory",
+    "field": "tldr",
+    "beforeSha256": "38e6087981c1d557d5cef81be44fc8e93bc9f12473e16966f88b0ed76bb0105a",
+    "afterSha256": "c23f6dc2bd3871bb611de3736de5f6b432b101f6ed2c2e8562a41586967a0934",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  },
+  {
+    "recordId": "microenvironment-inflammation-theory",
+    "field": "summary",
+    "beforeSha256": "cf5612037b665e3d676a7307e87175660ba5722d0f090e5223bd9c315a803e00",
+    "afterSha256": "7c5a2079eb89a7e8516c16cf458315016c65fade2abc1d145381a38dbb5f5403",
+    "reason": "Replace an overbroad lead or a universal inference with its biological, sampling and evidence scope. Full prior fields and worker additions remain in the immutable private captures."
+  }
+]

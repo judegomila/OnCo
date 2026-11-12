@@ -1,0 +1,1464 @@
+{
+  "version": "proposal-tissue-pathology-summary-consumers",
+  "state": "Actual short-summary selectors and current English fallback, not new named-language review.",
+  "records": [
+    {
+      "id": "ihc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (ar)",
+      "canonicalRecordId": "ihc",
+      "language": "ar",
+      "available": true,
+      "text": "تلوين شريحة من الأنسجة بالأجسام المضادة بحيث يظهر بروتين معين بلون واضح تحت المجهر."
+    },
+    {
+      "id": "cps-ar",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (ar)",
+      "canonicalRecordId": "cps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ar)",
+      "canonicalRecordId": "tils",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (ar)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (ar)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-ar",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (ar)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-ar",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (ar)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-ar",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (ar)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (ar)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (ar)",
+      "canonicalRecordId": "cfdna",
+      "language": "ar",
+      "available": true,
+      "text": "قطع قصيرة من الحمض النووي DNA تطفو في الدم، تطلقها الخلايا المحتضرة في أنحاء الجسم. معظمها من خلايا طبيعية؛ والجزء الصغير المشتق من الورم (ctDNA) هو ما تلتقطه الخزعات السائلة."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (ar)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (ar)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-ar",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (ar)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-ar",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (ar)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-ar",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (ar)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-de",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (de)",
+      "canonicalRecordId": "ihc",
+      "language": "de",
+      "available": true,
+      "text": "Das Anfärben eines Gewebeschnitts mit Antikörpern, sodass ein Protein unter dem Mikroskop farbig sichtbar wird."
+    },
+    {
+      "id": "cps-de",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (de)",
+      "canonicalRecordId": "cps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (de)",
+      "canonicalRecordId": "tils",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (de)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (de)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-de",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (de)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-de",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (de)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-de",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (de)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-de",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (de)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-de",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (de)",
+      "canonicalRecordId": "cfdna",
+      "language": "de",
+      "available": true,
+      "text": "Kurze DNA-Stücke, die im Blut treiben und von sterbenden Zellen im ganzen Körper freigesetzt werden. Das meiste stammt aus normalen Zellen; der kleine tumorbürtige Anteil (ctDNA) ist das, was Flüssigbiopsien herausfischen."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (de)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (de)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-de",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (de)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-de",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (de)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-de",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (de)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-es",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (es)",
+      "canonicalRecordId": "ihc",
+      "language": "es",
+      "available": true,
+      "text": "Teñir un corte de tejido con anticuerpos para que una proteína aparezca en color al microscopio."
+    },
+    {
+      "id": "cps-es",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (es)",
+      "canonicalRecordId": "cps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (es)",
+      "canonicalRecordId": "tils",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (es)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (es)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-es",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (es)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-es",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (es)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-es",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (es)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-es",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (es)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-es",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (es)",
+      "canonicalRecordId": "cfdna",
+      "language": "es",
+      "available": true,
+      "text": "Fragmentos cortos de ADN que flotan en la sangre, liberados por células que mueren en todo el cuerpo. La mayor parte procede de células normales; la pequeña fracción derivada del tumor (ctDNA) es lo que las biopsias líquidas pescan."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (es)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (es)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-es",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (es)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-es",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (es)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-es",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (es)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (fr)",
+      "canonicalRecordId": "ihc",
+      "language": "fr",
+      "available": true,
+      "text": "Colorer une coupe de tissu avec des anticorps pour qu'une protéine apparaisse en couleur au microscope."
+    },
+    {
+      "id": "cps-fr",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (fr)",
+      "canonicalRecordId": "cps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (fr)",
+      "canonicalRecordId": "tils",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (fr)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (fr)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-fr",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (fr)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-fr",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (fr)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-fr",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (fr)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (fr)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (fr)",
+      "canonicalRecordId": "cfdna",
+      "language": "fr",
+      "available": true,
+      "text": "De courts fragments d'ADN flottant dans le sang, libérés par les cellules qui meurent dans tout le corps. La plupart proviennent de cellules normales ; la petite fraction issue de la tumeur (ctDNA) est ce que les biopsies liquides vont pêcher."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (fr)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (fr)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-fr",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (fr)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-fr",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (fr)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-fr",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (fr)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (hi)",
+      "canonicalRecordId": "ihc",
+      "language": "hi",
+      "available": true,
+      "text": "ऊतक की परत को एंटीबॉडी से रंगना ताकि माइक्रोस्कोप में प्रोटीन रंग में दिखे।"
+    },
+    {
+      "id": "cps-hi",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (hi)",
+      "canonicalRecordId": "cps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (hi)",
+      "canonicalRecordId": "tils",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (hi)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (hi)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-hi",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (hi)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-hi",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (hi)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-hi",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (hi)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (hi)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (hi)",
+      "canonicalRecordId": "cfdna",
+      "language": "hi",
+      "available": true,
+      "text": "रक्त में तैरते DNA के छोटे टुकड़े, जो पूरे शरीर में मरती कोशिकाओं से निकलते हैं। इनमें से अधिकतर सामान्य कोशिकाओं से आते हैं; ट्यूमर से निकला छोटा हिस्सा (ctDNA) ही वह है जिसे लिक्विड बायोप्सी पकड़ती है।"
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (hi)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (hi)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-hi",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (hi)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-hi",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (hi)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-hi",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (hi)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (ja)",
+      "canonicalRecordId": "ihc",
+      "language": "ja",
+      "available": true,
+      "text": "組織切片を抗体で染色し、顕微鏡下で特定のタンパク質が色として見えるようにする手法である。"
+    },
+    {
+      "id": "cps-ja",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (ja)",
+      "canonicalRecordId": "cps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (ja)",
+      "canonicalRecordId": "tils",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (ja)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (ja)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-ja",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (ja)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-ja",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (ja)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-ja",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (ja)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (ja)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (ja)",
+      "canonicalRecordId": "cfdna",
+      "language": "ja",
+      "available": true,
+      "text": "血液中を漂う短いDNAの断片であり、全身の死んでいく細胞から放出される。大部分は正常細胞由来であり、腫瘍由来のごく一部（ctDNA）こそがリキッドバイオプシーの拾い上げる対象である。"
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (ja)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (ja)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-ja",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (ja)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-ja",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (ja)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-ja",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (ja)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (pt)",
+      "canonicalRecordId": "ihc",
+      "language": "pt",
+      "available": true,
+      "text": "Corar uma fatia de tecido com anticorpos para que uma proteína apareça colorida ao microscópio."
+    },
+    {
+      "id": "cps-pt",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (pt)",
+      "canonicalRecordId": "cps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (pt)",
+      "canonicalRecordId": "tils",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (pt)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (pt)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-pt",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (pt)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-pt",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (pt)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-pt",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (pt)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (pt)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (pt)",
+      "canonicalRecordId": "cfdna",
+      "language": "pt",
+      "available": true,
+      "text": "Pedaços curtos de DNA que flutuam no sangue, liberados por células que morrem em todo o corpo. A maior parte vem de células normais; a pequena fração derivada do tumor (ctDNA) é o que as biópsias líquidas pescam."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (pt)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (pt)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-pt",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (pt)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-pt",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (pt)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-pt",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (pt)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (zh)",
+      "canonicalRecordId": "ihc",
+      "language": "zh",
+      "available": true,
+      "text": "用抗体给组织切片染色，使蛋白在显微镜下显色。"
+    },
+    {
+      "id": "cps-zh",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (zh)",
+      "canonicalRecordId": "cps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tils-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (zh)",
+      "canonicalRecordId": "tils",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "core-needle-biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (zh)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumour-purity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (zh)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-zh",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (zh)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-zh",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (zh)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-zh",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (zh)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (zh)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (zh)",
+      "canonicalRecordId": "cfdna",
+      "language": "zh",
+      "available": true,
+      "text": "漂浮在血液中的短DNA片段，由全身各处死亡的细胞释放。大部分来自正常细胞；其中来源于肿瘤的一小部分（ctDNA）正是液体活检要捕捞的对象。"
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (zh)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-stroma-ratio-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (zh)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surgical-resection-specimen-zh",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (zh)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "blood-as-a-renewable-sample-zh",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (zh)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-zh",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (zh)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ihc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immunohistochemistry (IHC) (simple)",
+      "canonicalRecordId": "ihc",
+      "language": "simple",
+      "available": true,
+      "text": "Staining a slice of tissue with antibodies so a protein shows up in colour under the microscope."
+    },
+    {
+      "id": "cps-simple",
+      "kind": "reader-summary-entry",
+      "name": "Combined positive score (CPS) (simple)",
+      "canonicalRecordId": "cps",
+      "language": "simple",
+      "available": true,
+      "text": "CPS compares certain PD-L1-stained tumour and immune cells with the number of viable tumour cells. The assay and treatment setting determine how the score is used."
+    },
+    {
+      "id": "tils-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-infiltrating lymphocytes (TILs) (simple)",
+      "canonicalRecordId": "tils",
+      "language": "simple",
+      "available": true,
+      "text": "Tumour-infiltrating lymphocytes are lymphocytes in tumour tissue. Location, cell identity, the measurement denominator and useful function are separate questions."
+    },
+    {
+      "id": "core-needle-biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Core needle biopsy and fine-needle aspiration (FNA) (simple)",
+      "canonicalRecordId": "core-needle-biopsy",
+      "language": "simple",
+      "available": true,
+      "text": "A core needle takes small cylinders of tissue; a fine needle collects cells or fluid. Each samples a site, so a useful result depends on the question and the material collected."
+    },
+    {
+      "id": "tumour-purity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour purity (simple)",
+      "canonicalRecordId": "tumour-purity",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "h-and-e-staining-simple",
+      "kind": "reader-summary-entry",
+      "name": "H&E staining (haematoxylin and eosin) (simple)",
+      "canonicalRecordId": "h-and-e-staining",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "digital-pathology-wsi-simple",
+      "kind": "reader-summary-entry",
+      "name": "Digital pathology and whole-slide images (WSI) (simple)",
+      "canonicalRecordId": "digital-pathology-wsi",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd-l1-cps-simple",
+      "kind": "reader-summary-entry",
+      "name": "PD-L1 CPS (combined positive score) (simple)",
+      "canonicalRecordId": "pd-l1-cps",
+      "language": "simple",
+      "available": true,
+      "text": "CPS compares certain PD-L1-stained tumour and immune cells with viable tumour cells. Its reported score stops at 100, and its use depends on the assay and treatment setting."
+    },
+    {
+      "id": "vacuum-assisted-breast-biopsy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Vacuum-assisted breast biopsy systems (Mammotome, EnCor, Eviva, Brevera) (simple)",
+      "canonicalRecordId": "vacuum-assisted-breast-biopsy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cfdna-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cell-free DNA (cfDNA) (simple)",
+      "canonicalRecordId": "cfdna",
+      "language": "simple",
+      "available": true,
+      "text": "Cell-free DNA is short pieces of DNA floating in the blood shed by dying cells, and the small tumour-derived fraction is what liquid biopsies fish out."
+    },
+    {
+      "id": "biopsy-after-neoadjuvant-therapy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-bed biopsy after neoadjuvant therapy (simple)",
+      "canonicalRecordId": "biopsy-after-neoadjuvant-therapy",
+      "language": "simple",
+      "available": true,
+      "text": "A biopsy after drug treatment samples parts of the former breast tumour bed. A negative sample can miss remaining cancer and does not by itself establish that surgery can be omitted."
+    },
+    {
+      "id": "tumor-stroma-ratio-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour-stroma ratio (simple)",
+      "canonicalRecordId": "tumor-stroma-ratio",
+      "language": "simple",
+      "available": true,
+      "text": "This score estimates supporting tissue within a defined tumour field. It differs from an immune-cell score, and a study association does not prove which treatment to choose."
+    },
+    {
+      "id": "surgical-resection-specimen-simple",
+      "kind": "reader-summary-entry",
+      "name": "Surgical resection specimen (simple)",
+      "canonicalRecordId": "surgical-resection-specimen",
+      "language": "simple",
+      "available": true,
+      "text": "Removed tissue is mapped into selected blocks for examination. Its report describes the examined material, rather than every cell in the tumour or body."
+    },
+    {
+      "id": "blood-as-a-renewable-sample-simple",
+      "kind": "reader-summary-entry",
+      "name": "Serial blood sampling (simple)",
+      "canonicalRecordId": "blood-as-a-renewable-sample",
+      "language": "simple",
+      "available": true,
+      "text": "Later blood draws are new samples, each with a finite volume. Plasma, serum and blood cells supply different measurements and do not reproduce the local structure of tumour tissue."
+    },
+    {
+      "id": "myoepithelial-cells-and-basement-membrane-simple",
+      "kind": "reader-summary-entry",
+      "name": "Myoepithelial cells and the breast basement membrane (simple)",
+      "canonicalRecordId": "myoepithelial-cells-and-basement-membrane",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-ar",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (ar)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-ar",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (ar)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (ar)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-de",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (de)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-de",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (de)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-de",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (de)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-es",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (es)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-es",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (es)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-es",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (es)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-fr",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (fr)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-fr",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (fr)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (fr)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-hi",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (hi)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-hi",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (hi)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (hi)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-ja",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (ja)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-ja",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (ja)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (ja)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-pt",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (pt)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-pt",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (pt)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (pt)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-zh",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (zh)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-zh",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (zh)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (zh)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "finite-tissue-budget-simple",
+      "kind": "reader-summary-entry",
+      "name": "Finite tissue and specimen allocation (simple)",
+      "canonicalRecordId": "finite-tissue-budget",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-integrity-simple",
+      "kind": "reader-summary-entry",
+      "name": "RNA integrity and assay suitability (simple)",
+      "canonicalRecordId": "rna-integrity",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tissue-preparation-assay-fit-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tissue preparation and assay suitability (simple)",
+      "canonicalRecordId": "tissue-preparation-assay-fit",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

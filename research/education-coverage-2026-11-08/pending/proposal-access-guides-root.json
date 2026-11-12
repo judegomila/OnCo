@@ -1,0 +1,2316 @@
+{
+  "version": "proposal-access-guides-root",
+  "state": "Registered unmerged audit-draft owners and actual-field dependencies; no main/live or expert/learner/language approval.",
+  "draft": 375,
+  "committedDataHead": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "records": [
+    {
+      "id": "accelerated-approval",
+      "kind": "term",
+      "name": "Accelerated approval",
+      "aka": [
+        "accelerated approvals",
+        "accelerated-approval",
+        "Project Confirm"
+      ],
+      "tldr": "This FDA pathway can authorize a specified use based on an endpoint reasonably likely to predict clinical benefit. Further studies must confirm the anticipated benefit.",
+      "summary": "Accelerated approval is a marketing approval for an indication, distinct from a development designation. FDA can use a surrogate or intermediate clinical endpoint reasonably likely to predict benefit for an eligible serious condition. Required studies must confirm the anticipated benefit; the use can receive traditional approval or undergo withdrawal through the applicable process. A preliminary laboratory signal, a product name or a historical announcement does not establish current approval for a particular use.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Accelerated_approval_(FDA)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Accelerated_approval_(FDA)"
+        },
+        {
+          "label": "FDA: accelerated approval program",
+          "url": "https://www.fda.gov/drugs/nda-and-bla-approvals/accelerated-approval-program"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "url": "https://www.fda.gov/media/86377/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "fdora-2022",
+        "fdca",
+        "fdasia-2012",
+        "conditional-approval",
+        "japan-conditional-early-approval",
+        "china-drug-administration-law",
+        "full-approval",
+        "approval-withdrawal",
+        "confirmatory-trial",
+        "surrogate-endpoint",
+        "expanded-access",
+        "cancer-drugs-fund",
+        "abigail-alliance",
+        "label-indication",
+        "fast-track-rmat"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "apheresis",
+      "kind": "term",
+      "name": "Apheresis (leukapheresis)",
+      "aka": [
+        "leukapheresis",
+        "apheresis collection",
+        "stem cell mobilisation",
+        "stem cell collection",
+        "plerixafor mobilisation"
+      ],
+      "tldr": "Apheresis separates components from blood and returns other components to the circulation. Leukapheresis collects a white-cell-rich mixture that can be starting material for a cell therapy or research.",
+      "summary": "Leukapheresis uses an extracorporeal separation circuit to collect white-cell-rich material. A leukopak can contain lymphocytes and monocytes in variable proportions; it is not automatically a purified T-cell population or a released treatment. The collection method, intended cells and receiving programme determine the required material, measurements and handling. Collection for a cell therapy, research or a stem-cell procedure retains its own protocol rather than sharing one duration or universal preparation rule.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Apheresis",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Apheresis"
+        },
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "NIH consent library version 18: supervised leukapheresis, February 2026",
+          "url": "https://irbo.nih.gov/documents/306/2026_02_05_Consent_Library_v18.pdf"
+        },
+        {
+          "label": "NCI: different starting material for TIL and engineered T-cell therapy",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "autologous-transplant",
+        "vein-to-vein-time",
+        "lymphodepletion",
+        "chain-of-identity-and-custody",
+        "ex-vivo-cell-expansion",
+        "cell-manufacturing-outcomes",
+        "car-t-apheresis",
+        "hyperleukocytosis-leukostasis"
+      ],
+      "cancers": [],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [
+        "car-t",
+        "apheresis-starting-material"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Processed blood volume, collected bag volume, total white-cell number, viable-cell recovery and numbers or fractions of intended subsets are different measurements. A large bag or high overall white-cell count does not establish an adequate viable T-cell input. FDA's CAR T-cell guidance recommends product-development-specific starting-material acceptance criteria and discusses CD3, CD4, CD8, NK-cell, monocyte and B-cell characterisation.",
+        "Collection is supervised clinical care. Access may use peripheral veins or a central catheter. Citrate anticoagulant can lower available calcium and cause symptoms requiring monitoring or treatment; access, blood-pressure, bleeding and infection risks depend on the procedure and person. The NIH consent example is not a universal duration, risk estimate or permission to change medicines.",
+        "Prior treatment, current cell composition, collection and shipping conditions can affect the starting material. Retain source identity, time, handling, receiving acceptance and relevant samples through subsequent manufacture. A successful collection does not guarantee culture growth, a conforming final lot or eventual infusion.",
+        "Research collection and therapeutic collection can have different acceptance, consent, banking and testing requirements. Tumour-infiltrating-lymphocyte manufacture uses tumour-derived material, not simply this blood collection. Vaccines and other cell-based protocols have their own collection requirements; leukapheresis is not a universal prerequisite for vaccination.",
+        "Collection order must come from the actual research or manufacturing protocol. A need for a pretreatment baseline or a specified cell input can make timing important, but the name vaccine supplies no universal requirement to collect blood first. Engineered T-cell manufacture can use peripheral cells, whereas native tumour-infiltrating-lymphocyte treatment begins with tumour-derived lymphocytes. Those different starting materials do not establish a common collection order or validate giving resulting treatments together."
+      ],
+      "category": "Procedures"
+    },
+    {
+      "id": "backbone-add-on",
+      "kind": "term",
+      "name": "Backbone, add-on and monotherapy",
+      "aka": [
+        "backbone",
+        "chemotherapy backbone",
+        "backbone therapy",
+        "add-on",
+        "add-on therapy",
+        "monotherapy",
+        "single agent",
+        "single-agent",
+        "single-agent activity",
+        "combination partner",
+        "chemotherapy backbones",
+        "single agents"
+      ],
+      "tldr": "A backbone is the reference treatment in a combination comparison, an add-on is tested with it, and monotherapy uses one treatment; the comparison must establish what the combination adds in benefit and harm.",
+      "summary": "A trial can compare a reference regimen, often called the backbone, with that regimen plus another treatment. Monotherapy studies a treatment on its own. Name the disease, prior treatment, components, doses, schedule, comparator and outcome before interpreting what the result establishes.\n\nA combination that outperforms A alone has not thereby shown superiority to B alone or identified a synergistic interaction. Component contributions, added toxicity and changes in exposure or deliverability require their own evidence. A proposed mechanism can motivate a comparison, but the clinical result and its uncertainty determine the conclusion supported in that setting.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Combination_therapy",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Combination_therapy"
+        },
+        {
+          "label": "Sacituzumab govitecan prescribing information (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+        },
+        {
+          "label": "Palmer and Sorger, combination therapy via patient-to-patient variability without synergy (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29245013/"
+        },
+        {
+          "label": "Chou, synergism and antagonism in drug combination studies (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16968952/"
+        },
+        {
+          "label": "Meyer et al., charting the fragmented landscape of drug synergy (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32113653/"
+        },
+        {
+          "label": "Yadav et al., searching for drug synergy using an interaction potency model (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26949479/"
+        },
+        {
+          "label": "NCI: T-cell transfer therapy, conditioning and regimen harms",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+        },
+        {
+          "label": "FDA: pembrolizumab prescribing information, July 2026, immune-mediated adverse reactions",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "doublet-triplet",
+        "control-arm",
+        "orr",
+        "de-escalation"
+      ],
+      "cancers": [],
+      "sections": [
+        "chemotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Reading a combination result. A combination rationale should name the job of each component (for example a growth pathway, a survival route, a location or stage, or a resistant population), and each story makes predictions that need testing. A regimen that beats one component does not show which component supplied the benefit, nor superiority to every alternative. In ASCENT-04 (443 people with previously untreated locally advanced or metastatic triple-negative breast cancer whose tumours express PD-L1, combined positive score 10 or higher), median progression-free survival was 11.2 months with sacituzumab govitecan plus pembrolizumab and 7.8 months with physician's-choice chemotherapy plus pembrolizumab (hazard ratio 0.65, 95 per cent CI 0.51 to 0.84; label section 14); that compares the ADC with chemotherapy as pembrolizumab's partner and does not by itself show synergy. Independent drug action offers another explanation: if each person benefits from the drug to which their tumour is most sensitive, patient-to-patient variability alone can explain the superiority of many approved combinations without additivity or synergy (Palmer and Sorger), which is an alternative explanation, not a rule that effective combinations lack synergy. A combination can also add toxicity, change exposure or force lower doses, and simultaneous and sequential treatment are different strategies that a molecular diagram cannot choose between.",
+        "What 'synergy' means and how it is measured. Synergy is the narrower claim that a combined effect exceeds a stated reference expectation, and the references differ. Highest single agent (Gaddum) expects the better single effect and is the easiest bar to clear. Bliss independence expects the probability of being unaffected by each drug to be independent, so for effects written as fractions the expectation is A plus B minus A times B. Loewe additivity treats the two drugs as dilutions of one another and needs the full dose-response curve of each, with straight-line isoboles as its classic form. In Chou's median-effect method a combination index below 1 indicates synergism, equal to 1 additivity and above 1 antagonism, within that method only. Meyer et al. found no consensus on how to quantify synergy, and Yadav et al. note that a drug combined with itself can easily exceed the highest single agent and that their zero-interaction potency score is zero when both independence and dose additivity hold. A 2020 review's point stands: a synergy claim needs its model, scale and uncertainty named. Greco's 1995 review was identified but only its title could be read. Laboratory interaction analysis needs single-drug dose-response data, combination conditions, controls and variation estimates; a clinical survival advantage does not by itself measure a cell-level interaction.",
+        "The two fictional comparisons use different units of inference. In a ten-tumour better-component model, A covers tumours 1 to 4 and B covers 3 to 6: 4 + 4 - 2 = 6 in the union, with four in neither group. There is no extra within-tumour interaction or added toxicity in that counting model. Separately, one cultured-cell experiment at 72 hours gives 20%, 30% and 40% inhibition for A, B and the pair at one fixed dose pair. Inhibition here is a reduction in vehicle-normalised viable-cell count, not a direct death measurement. HSA expects 30% and Bliss 44%, so 40% exceeds the first and falls below the second. Loewe needs single-drug dose-response curves; three numbers and no uncertainty estimate cannot establish a general synergy claim. In this model, greater overlap among responders reduces the union. Independent drug action does not require the two response groups to be statistically independent; shared resistance and response correlation matter to a population prediction.",
+        "Parallel research and concurrent treatment answer different questions. A shared dataset or target, or different proposed killing mechanisms, can justify studying products separately without establishing that their combination adds benefit or is tolerable. A combination can change immune-cell numbers, toxicity, exposure and attribution of adverse effects. Earlier checkpoint treatment does not establish a safe later partner; a history of immune-mediated pneumonitis is relevant to clinical assessment. Neither negative circulating tumour DNA nor high residual cancer burden determines a new combination's benefit or safety. An exact regimen, clinical evidence and applicable readiness and monitoring are still needed. A planning inquiry can be revised; changing the plan cannot undo an administered dose. A decision record should state which evidence would change an action; a readiness record instead tracks permission, supply and clinical delivery."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "batch-release",
+      "kind": "term",
+      "name": "Batch release (lot disposition)",
+      "aka": [
+        "batch release",
+        "lot release",
+        "batch disposition"
+      ],
+      "tldr": "Batch release is the documented quality decision about one lot of a product. A set of passing test results supports that decision but is not the same thing, and a released lot has not been shown to help any patient.",
+      "summary": "In the US, drug production and control records are reviewed and approved by the quality control unit before a batch is released or distributed, and any unexplained discrepancy or failure of a batch to meet a specification must be thoroughly investigated whether or not the batch has been distributed (21 CFR 211.192). The decision therefore draws on test results with their methods and acceptance criteria, manufacturing and deviation records, and the identity of the lot and product version; a certificate of analysis can summarise results but does not replace that review. FDA's 2022 guidance on out-of-specification results says the practice of repeating a test until a passing result is obtained and then disregarding the failing results without scientific justification is 'testing into compliance', which it calls unscientific and objectionable under CGMP. That guidance covers chemistry-based laboratory testing; it says it is not intended to address biological assays, so a copied retest procedure cannot be assumed to fit a cell or potency assay. A lot can be released, held pending review or rejected; a result that has not arrived is neither a pass nor a failure. Release of a lot is a quality decision, separate from regulatory authorisation of the product, from a patient's eligibility, and from evidence of clinical benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "21 CFR 211.192: production record review",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.192"
+        },
+        {
+          "label": "FDA: investigating out-of-specification test results for pharmaceutical production (May 2022)",
+          "url": "https://www.fda.gov/media/158416/download"
+        },
+        {
+          "label": "FDA: quality systems approach to pharmaceutical CGMP regulations (September 2006)",
+          "url": "https://www.fda.gov/media/71023/download"
+        },
+        {
+          "label": "21 CFR 211.22",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.22"
+        },
+        {
+          "label": "21 CFR 211.80",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.80"
+        },
+        {
+          "label": "21 CFR 211.84",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.84"
+        },
+        {
+          "label": "21 CFR 211.142",
+          "url": "https://www.ecfr.gov/current/title-21/section-211.142"
+        },
+        {
+          "label": "21 CFR 610.1",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.1"
+        },
+        {
+          "label": "21 CFR 610.2",
+          "url": "https://www.ecfr.gov/current/title-21/section-610.2"
+        },
+        {
+          "label": "FDA: final Potency Assurance for Cellular and Gene Therapy Products (November 2026 PDF)",
+          "url": "https://www.fda.gov/media/196183/download"
+        },
+        {
+          "label": "FDA: final potency-assurance guidance (November 2026)",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+        },
+        {
+          "label": "Federal Register: final potency-assurance guidance, 3 November 2026",
+          "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "good-manufacturing-practice",
+        "cell-therapy-release-testing",
+        "radiopharmaceutical-gmp-release",
+        "car-t-manufacturing-process"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A lot-release decision concerns one identified batch. Good manufacturing practice concerns the quality system; cell and gene products add product-specific biological, identity and handling questions, while radiopharmaceuticals add the constraints of radioactive decay.",
+        "A lot is identified material made under a defined manufacturing record, and a specification connects named tests and methods to acceptance criteria; ICH Q6B defines a specification as a list of tests, references to analytical procedures and acceptance criteria. Release concerns that lot, not the general reputation of its manufacturer.",
+        "What a release review brings together: test results with their methods and criteria, manufacturing and deviation records, lot and version identity, and stability and handling information. In US finished-drug rules the quality control unit reviews and approves production and control records before a batch is released or distributed (21 CFR 211.192). A certificate of analysis may summarise results but does not replace that review.",
+        "Dispositions. FDA's quality-systems guidance describes the quality unit approving or rejecting materials and drug products; US regulations give the quality unit authority to approve or reject materials and drug products (21 CFR 211.22(a)); other provisions describe quarantine or withholding from use while materials or products await release (211.80(d), 211.84(a), 211.142(a)). Hold pending review is a plain-language description of that unresolved disposition. A result that has not arrived is neither a pass nor a failure. Inference lesson: a spreadsheet that reports all tests passed because it lists only completed tests has lost the missingness information; with a required activity result pending, completed release is not established.",
+        "Out-of-specification handling. FDA's May 2022 guidance calls repeated testing until a pass followed by disregarding the failures without scientific justification testing into compliance, which it describes as unscientific and objectionable under CGMP. It asks that the number of retests be set in advance in a procedure and not adjusted according to results, and it contrasts averages: initial 89 then 90 and 91 per cent averages 90 and tends to confirm the failure, while 80 then 85 and 105 also averages 90 but presents a very different picture. Releasing despite an initial failure that has not been invalidated should follow a full investigation. The guidance applies to chemistry-based laboratory testing of drugs regulated by CDER and says it is not intended to address biological assays, so it cannot simply be copied for a cell or potency assay.",
+        "Release is a quality decision. It is separate from regulatory authorisation of the product, a patient's eligibility and evidence of benefit, and a released stamp on a report does not answer those. For US licensed biological products, manufacturer release follows completion of applicable tests under 21 CFR 610.1. Separately, under 610.2 FDA may require samples and protocols and, on notification, bar distribution until the relevant CBER or CDER Director releases the lot. These are distinct manufacturer and official-release steps; this example does not establish other jurisdictions' rules."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "biobanking",
+      "kind": "technology",
+      "name": "Biobanking and tissue procurement",
+      "aka": [],
+      "tldr": "Freezers full of consented tumour samples with matched clinical data, which every biomarker and drug programme depends on.",
+      "summary": "Academic biobanks (MD Anderson, Mayo, UK Biobank for germline, Karolinska, Hartwig for WGS), commercial procurement (Discovery Life Sciences, Indivumed, BioIVT, Precision for Medicine, iSpecimen marketplace), and living biobanks of organoids and PDX (Hubrecht Organoid Technology, Champions Oncology, HCMI) supply tissue, blood, and models for target validation and diagnostic development. Consent breadth, annotation depth, and pre-analytic standardisation determine value.",
+      "status": "established",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "NCI Best Practices for Biospecimen Resources",
+          "url": "https://biospecimens.cancer.gov/bestpractices/"
+        },
+        {
+          "label": "NCI: technical and operational biospecimen practices, handling and inventory overview",
+          "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/technical-operational"
+        },
+        {
+          "label": "FDA: distinct manufacturing and clinical-protocol information for an IND",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        },
+        {
+          "label": "Kula et al.: functional T-Scan antigen-discovery experiments (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31398327/"
+        }
+      ],
+      "tags": [
+        "supporting"
+      ],
+      "related": [
+        "uk-biobank",
+        "biobank-graz",
+        "meduni-wien-biobank",
+        "central-biobank-erlangen",
+        "westdeutsche-biobank-essen",
+        "amsterdam-umc-biobank",
+        "nl-colorectal-cancer-research-platform",
+        "crb-ospedale-san-raffaele",
+        "biobanca-ire",
+        "incliva-biobank",
+        "biobank-nci-slovakia",
+        "chtn",
+        "biobank-japan",
+        "million-veteran-program",
+        "finngen",
+        "wales-cancer-biobank",
+        "victorian-cancer-biobank",
+        "komen-tissue-bank",
+        "taiwan-biobank"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery",
+        "diagnostics"
+      ],
+      "technologies": [
+        "organoids",
+        "pdx-models",
+        "functional-drug-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "discovery-life-sciences",
+        "indivumed",
+        "hub-organoids"
+      ],
+      "institutions": [
+        "bbmri-eric"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For research planning, distinguish a hard dependency from a scheduling preference. A hard dependency is an input, permission or required check without which the named step cannot proceed under its stated rules; a preference is an order the team would like. Reversibility is a different question. A mandatory analysis can be revisable, while an optional experiment can consume irreplaceable tissue. Copies of a DNA or RNA dataset can inform different target searches, but copying data does not replace the physical specimen, permission to use it or separate product validation.",
+        "In a fictional worksheet, Lab A accepts existing DNA and RNA data, their quality report and permitted reuse for candidate ranking. It needs neither new tissue nor Lab B's result. Lab B has confirmed that the preparation and selected region of an archived formalin-fixed, paraffin-embedded block fit its protein-localisation study; it requires four sections. The custodian has identified six research sections after protecting diagnostic needs, but release is unconfirmed. A joint meeting after both reports is a scheduling preference, not an input either lab requires.",
+        "Under those invented constraints, Lab A can start while the team asks the custodian about Lab B's release. The inquiry uses no tissue. Cutting and consuming four sections requires release and the agreed specimen requirements to remain satisfied; consumed material is not restored by returning the block. Six minus four leaves two sections in this exercise, without predicting assay yield, successful analysis or future adequacy. A fixed block does not establish a viable-cell input. Preserve original data, record use and keep permission, input acceptance and an informative result separate.",
+        "Candidate-ranking data do not establish an accessible surface protein or a clinically useful product. Surface-target research still needs localisation, accessibility and normal-tissue assessment; T-cell receptor sequences still need functional specificity testing. A target-specific experiment needs a defined question and target. A product-specific potency or safety test needs the actual candidate being tested, and batch release needs a defined manufacturing process and its quality requirements. Process development and documentation can overlap, so a planning diagram supplies no universal order for all safety and manufacturing work. No product, combination comparison or clinical administration plan is supplied by the fictional two-laboratory worksheet."
+      ],
+      "principle": "Consented collection at surgery or biopsy, controlled fixation or snap-freezing, LIMS tracking, and linked de-identified clinical follow-up.",
+      "strengths": [
+        "Enables retrospective biomarker validation",
+        "Living biobanks allow functional testing"
+      ],
+      "limitations": [
+        "Consent and governance",
+        "Pre-analytic variability",
+        "Under-representation of many populations"
+      ]
+    },
+    {
+      "id": "cell-manufacturing-outcomes",
+      "kind": "term",
+      "name": "Cell-manufacturing outcomes and nonconforming products",
+      "aka": [
+        "cell manufacturing failure",
+        "out-of-specification cell product",
+        "OOS cell product",
+        "manufacturing success rate",
+        "shipment success rate"
+      ],
+      "tldr": "Making a cell product, meeting its quality requirements, shipping it and treating a person are different outcomes. A report's definition and denominator determine what its success rate means.",
+      "summary": "A process can stop without a product, produce a nonconforming lot, make a conforming product that is never shipped, or supply material that is never infused. Out-of-specification means at least one stated requirement was missed; it does not determine which attribute, severity or disposition applies. Studies sometimes include such lots within manufacturing failure, while others report separate categories. Keep orders, collections, runs, batches, people, cancellations and follow-up with the reported measure.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "FDA: CAR T-cell development guidance, January 2024",
+          "url": "https://www.fda.gov/media/156896/download"
+        },
+        {
+          "label": "Iwamoto et al., 2025: Japan manufacturing and shipment definitions",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40066375/"
+        },
+        {
+          "label": "UK National CAR T Panel, 2025: source-defined manufacturing failure and patient outcomes",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40032870/"
+        },
+        {
+          "label": "Kato et al., 2025: single-arm nonconforming tisagenlecleucel cohort",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40377509/"
+        },
+        {
+          "label": "ClinicalTrials.gov: NCT04094311, design and dated registry state",
+          "url": "https://clinicaltrials.gov/study/NCT04094311"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "car-t-manufacturing-process",
+        "cell-therapy-release-testing",
+        "vein-to-vein-time",
+        "apheresis",
+        "chain-of-identity-and-custody"
+      ],
+      "cancers": [],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In a fictional 100-collection pathway, 94 produce completed products, four of those 94 miss a stated specification, and 85 people are ultimately infused. Completion, conformity and infusion have different numerators and can require different denominators. These invented numbers do not define a standard manufacturing-success metric, describe a real cohort or imply that an out-of-specification product was used.",
+        "Iwamoto's 2025 report covers Japanese tisagenlecleucel manufacturing from August 2019 to July 2023. Its manufacturing-success numerator is batches meeting health-authority release criteria; its shipment-success numerator also includes selected nonconforming products made available for shipment. Both use initiated batches excluding specified cancellations during manufacturing. Cancellation rate instead uses all initiated batches and can include cancellations after receipt. The methods report no formal statistical analysis; observed before/after changes do not isolate a causal process effect.",
+        "The UK National CAR T Panel's 2025 retrospective report uses manufacturing failure to include no product and out-of-specification product. Approved, remanufactured, infused and never-infused people remain separate groups. Its report of no statistically significant outcome differences is not a demonstration of equivalence, and its associations do not establish individual risk or treatment selection.",
+        "Kato's 2025 single-arm Japanese report enrolled 29 people and infused 28, with 23 DLBCL and five ALL recipients. Response was assessed in 15 of the 23 DLBCL recipients; it is not correct to give the evaluable response denominator as all 23. The abstract's batch denominators also differ by missed attribute: low viability 15/24, low dose 8/23 DLBCL and high dose 4/5 ALL. Do not combine those fractions or treat single-arm comparisons as proof of equal safety or efficacy.",
+        "The Kato report's NCT04094311 identifies a specific clinical supply pathway for nonconforming tisagenlecleucel. The captured registry remains a larger recruiting study with no posted results, not just that dated published cohort. Registry design, national supply rules and a report of use do not authorise use of another nonconforming lot or establish a local treatment slot.",
+        "Record the missed specification, test method, material, lot, jurisdiction and programme. Selected access can involve a separate authorised pathway and case-specific quality and clinical assessment; a low-viability miss is not interchangeable with a dose miss or contamination. A conforming product also does not establish patient readiness or clinical benefit."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "clinical-trial",
+      "kind": "term",
+      "name": "Clinical trial",
+      "aka": [
+        "clinical trials",
+        "clinical study",
+        "clinical studies",
+        "enrolled",
+        "enrolment",
+        "enrollment",
+        "enrolling",
+        "recruiting",
+        "trial participants",
+        "trial arm",
+        "experimental arm",
+        "control arm",
+        "comparator arm",
+        "single-arm",
+        "single arm",
+        "investigational",
+        "trial participant"
+      ],
+      "tldr": "A research study that tests a treatment in volunteers under strict rules, to find out whether it is safe and whether it works. Every approved cancer drug went through several.",
+      "summary": "Trials have a written protocol specifying who may join, what they receive, what is measured and how the results will be analysed, and are overseen by ethics committees and regulators; participants give informed consent and are usually monitored more closely than in routine care. Cancer trials progress through phases, from small safety studies to large randomised comparisons against the standard of care, and their results, reported at congresses such as ASCO and ESMO and in journals, are what change practice and win approvals. Fewer than one in ten adult cancer patients take part, participation is skewed towards younger, wealthier and white patients, and the cost and duration of trials is one of the field's main bottlenecks.",
+      "asOf": "2026-09-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clinical_trial",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clinical_trial"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "trial-phases",
+        "randomised-trial",
+        "placebo",
+        "blinding",
+        "endpoint",
+        "standard-of-care",
+        "basket-umbrella-platform",
+        "real-world-evidence",
+        "trial-lifecycle",
+        "informed-consent",
+        "ethics-review",
+        "trial-registration",
+        "clinical-equipoise"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "ai-trial-matching"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "drug-target-and-mechanism",
+      "kind": "term",
+      "name": "Drug target and mechanism of action",
+      "aka": [
+        "drug target",
+        "drug targets",
+        "mechanism of action",
+        "target versus mechanism",
+        "what a drug acts on"
+      ],
+      "tldr": "A drug target is the molecule or structure a treatment acts on and its mechanism of action is how that action produces an effect, and each step from target to patient benefit needs its own evidence.",
+      "summary": "A drug target is a biological molecule or structure that a treatment acts on, and the mechanism of action explains how that action produces an effect. The National Cancer Institute describes targeted therapy as treatment that targets proteins that control how cancer cells grow, divide and spread, and says most targeted therapies are small-molecule drugs, which are small enough to enter cells and so suit targets inside cells, or monoclonal antibodies, which are designed to attach to specific targets on cancer cells. It describes antibodies that mark cancer cells for the immune system, antibodies that stop growth or cause self-destruction directly, and antibodies that carry toxins to cancer cells. These are different jobs, so a shared label of targeted does not make the mechanisms interchangeable, and a target that is only an address for delivery need not drive the cancer's growth.\n\nAn altered gene or an elevated protein can suggest a target hypothesis; it does not show that inhibiting the target will harm cancer cells selectively, which controlled perturbations of the target test, and safe exposure and appropriate clinical studies answer later questions. Naming a target answers only the first of several questions. Binding is an interaction between molecules and can be shown with a purified protein, which does not show that the compound reaches the protein inside a cell. Target engagement asks whether the interaction occurs in the relevant cells or tissue, and exposure, target location and the cell membrane all bear on it; a blood concentration and a concentration at an intracellular target are different observations. The cellular thermal shift assay of Martinez Molina and colleagues was developed to evaluate drug binding to target proteins in cells and tissue samples, and its authors used it to monitor drug transport and activation, off-target effects and resistance in cancer cell lines. Binding is also different from changing function: a compound can inhibit an enzyme, activate a receptor or deliver a payload, and a binder can leave the target's activity unchanged. Binding assays test an interaction under specified conditions and engagement assays examine the relevant cells or tissue, while a downstream signal measures a biological consequence and is not automatically a direct measure of how much of the target is occupied; growth, death and regrowth assays add further layers. A measured change in signalling, division or survival needs controls that test the proposed explanation, and one positive experiment should not carry the whole claim.\n\nThe last step is clinical. Mechanistic plausibility does not show benefit, because the target may also be present in healthy tissue and the useful margin depends on achieved benefit and harm in a stated disease, treatment setting, product and outcome. The National Cancer Institute adds that cancer cells can become resistant to targeted therapy when the target itself changes so the drug can no longer interact with it, or when cells find new ways to grow that do not depend on the target.\n\nWorked example, fictional. An antibody binds protein A on cancer cells, and a growth assay shows no change. Binding is supported under the assay conditions. It has not been shown that protein A drives growth, that the antibody inhibits protein A's function, that a finished payload-bearing product delivers anything, or that the product is safe and beneficial; each of those needs its own evidence. Before saying a drug worked, name the layer that was measured.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "NCI: targeted therapy to treat cancer",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+        },
+        {
+          "label": "Martinez Molina et al., monitoring drug target engagement in cells and tissues using the cellular thermal shift assay (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23828940/"
+        },
+        {
+          "label": "KIMMTRAK U.S. label: gp100 peptide-HLA-A*02:01/CD3 recognition and indication",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "small-molecule",
+        "therapeutic-index",
+        "chemical-probe"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A fictional follow-up measures loss of a specified class-I peptide-HLA target after B2M loss, while a separate live-cell assay still finds accessible intact protein M. Those are two distinct observations: losing the measured peptide-HLA address does not remove the independently measured M address. Neither observation establishes delivery, immune-cell function, target-cell death or benefit. A surface-binding CAR or protein engager is not automatically immune-independent, and a peptide-HLA-targeting CAR, soluble TCR or antibody-derived mimic retains its specified recognition requirements."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "ethics-review",
+      "kind": "term",
+      "name": "Ethics review (IRB, research ethics committee)",
+      "aka": [
+        "ethics review",
+        "ethical review",
+        "ethics committee",
+        "ethics committees",
+        "research ethics committee",
+        "research ethics committees",
+        "REC",
+        "institutional review board",
+        "institutional review boards",
+        "IRB",
+        "IRBs",
+        "IRB approval",
+        "ethics approval",
+        "ethical approval",
+        "approved by the ethics committee",
+        "central IRB",
+        "single IRB",
+        "local IRB",
+        "independent ethics committee",
+        "IEC",
+        "Declaration of Helsinki",
+        "Belmont Report",
+        "Common Rule",
+        "45 CFR 46",
+        "Good Clinical Practice",
+        "GCP",
+        "ICH E6",
+        "vulnerable participants",
+        "minimal risk",
+        "risk-benefit assessment",
+        "protocol review",
+        "continuing review",
+        "annual review",
+        "serious breach",
+        "protocol violation"
+      ],
+      "tldr": "Before a trial can enrol anyone, an independent ethics committee (an IRB in the United States, a research ethics committee in the United Kingdom) reviews the protocol and the consent form to decide whether the risks are justified and the participants are protected, and it keeps watching until the trial ends.",
+      "summary": "Ethics review is the gate every trial passes through before it opens and stays under while it runs. A committee independent of the investigators and sponsor, with lay members as well as scientists and clinicians, examines the protocol, the investigator's brochure, the consent form and the recruitment materials and asks a fixed set of questions: is the scientific question worth the risks, are the risks minimised and the benefits fairly distributed, is the selection of participants fair, is consent informed and voluntary, is privacy protected, and are vulnerable participants (children, prisoners, people who cannot consent for themselves, people in economic hardship) given extra protection? The committee can approve, require changes, or refuse. Once the trial opens it receives amendments, safety reports and periodic progress reports, and it can suspend a trial that departs from its protocol. The principles come from the Nuremberg Code, the Declaration of Helsinki and, in the United States, the Belmont Report, and are codified in the Common Rule and in the ICH E6 Good Clinical Practice guideline that regulators worldwide require trials to follow.\n\nMulti-centre trials have historically needed separate review at each site, which added months. The United States now mandates a single IRB for most multi-site federally funded research, the United Kingdom runs a national system through the Health Research Authority, and the European Union's Clinical Trials Regulation coordinates one assessment across member states through a single portal. The Indian trials in the corpus, from the cluster-randomised screening trials to the Tata Memorial low-dose immunotherapy and olanzapine trials, went through India's ethics committee system and its Clinical Trials Registry, a reminder that the same principles apply through different national machinery.\n\nEthics review is often confused with two other things. It is not regulatory approval: a regulator such as the FDA or the MHRA authorises the investigational drug and reviews the trial's design for a possible licence, while the ethics committee protects the people in it, and both are needed. And it is not the data monitoring committee, which watches the unblinded results as the trial runs. Ethics review is also where equipoise is tested: a committee should refuse a trial whose control arm is known to be inferior, and a trial answering a question already settled.",
+      "asOf": "2026-09-17",
+      "wikipedia": "https://en.wikipedia.org/wiki/Institutional_review_board",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Institutional_review_board"
+        },
+        {
+          "label": "US Office for Human Research Protections: 45 CFR 46 (the Common Rule)",
+          "url": "https://www.hhs.gov/ohrp/regulations-and-policy/regulations/45-cfr-46/index.html"
+        },
+        {
+          "label": "WMA Declaration of Helsinki",
+          "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/"
+        },
+        {
+          "label": "ICH E6 Good Clinical Practice",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "informed-consent",
+        "clinical-equipoise",
+        "data-monitoring-committee",
+        "trial-protocol",
+        "trial-lifecycle",
+        "trial-registration",
+        "accrual",
+        "regulatory-agencies"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "low-dose-nivolumab-tmh",
+        "olanzapine-appetite-tmh",
+        "kerala-oral-screening"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Trials"
+    },
+    {
+      "id": "expanded-access",
+      "kind": "term",
+      "name": "Expanded access (compassionate use)",
+      "aka": [
+        "compassionate use",
+        "expanded access programme",
+        "expanded access program",
+        "expanded access programmes",
+        "treatment IND",
+        "single-patient IND",
+        "emergency IND",
+        "named-patient supply",
+        "named patient programme",
+        "Project Facilitate",
+        "early access programme",
+        "pre-approval access"
+      ],
+      "tldr": "Expanded access permits qualifying treatment use of an investigational drug outside a clinical trial. Supply, physician responsibility and applicable regulatory and ethics requirements still need to be met.",
+      "summary": "United States, federal regulation: drug and biologic expanded access has individual-patient, intermediate-population and widespread-treatment arrangements. Criteria include serious or immediately life-threatening illness, no comparable satisfactory alternative, justified potential benefit and risk, and no interference with clinical development. A new individual-patient IND is different from a protocol under an existing active IND. Supplier agreement and applicable FDA, ethics-review and consent requirements remain separate from manufacture, institutional readiness and scheduling. Access authorization is not evidence that treatment improves outcomes.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Expanded_access",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Expanded_access"
+        },
+        {
+          "label": "FDA: expanded access",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+        },
+        {
+          "label": "FDA Oncology Center of Excellence: Project Facilitate",
+          "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "url": "https://www.fda.gov/media/162793/download"
+        },
+        {
+          "label": "FDA: expanded access information for institutional review boards",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+        },
+        {
+          "label": "FDA: current Form 3926 instructions, including permission to reference another IND",
+          "url": "https://www.fda.gov/media/98627/download"
+        },
+        {
+          "label": "FDA: charging for investigational drugs under an IND, February 2024",
+          "url": "https://www.fda.gov/media/176308/download"
+        },
+        {
+          "label": "FDA: separate industry, physician, IRB and agency responsibilities",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry"
+        },
+        {
+          "label": "21 CFR 312.8: Costs recoverable for investigational drugs (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/312.8"
+        },
+        {
+          "label": "21 CFR 312.310: Individual-patient emergency procedures (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/312.310"
+        },
+        {
+          "label": "21 CFR 56.104: Emergency IRB exception and subsequent use (Cornell LII regulation mirror)",
+          "url": "https://www.law.cornell.edu/cfr/text/21/56.104"
+        },
+        {
+          "label": "FDA: expanded-access request forms, individual-patient steps and emergency follow-up",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms"
+        },
+        {
+          "label": "eCFR: official 21 CFR 312 text, issued 9 November 2026 (machine-readable)",
+          "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-09/title-21.xml?part=312"
+        },
+        {
+          "label": "NCI: research, routine-care and practical costs of a trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+        }
+      ],
+      "tags": [
+        "law",
+        "us"
+      ],
+      "related": [
+        "right-to-try",
+        "abigail-alliance",
+        "clinical-trial",
+        "france-early-access",
+        "eu-regulation-726-2004",
+        "21st-century-cures-act",
+        "accelerated-approval",
+        "off-label",
+        "investigational-new-drug-application",
+        "trial-search-site-verification",
+        "investigator-initiated-trials"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "fda-oce",
+        "ema"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-enrolment",
+        "b-global-access"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For non-emergency individual-patient use, a new IND ordinarily becomes effective 30 calendar days after FDA receipt unless held or FDA permits earlier use. An individual-patient protocol under an existing active IND has no automatic 30-day wait, but must be submitted and have applicable IRB approval and consent. Widespread-use treatment protocols have different start rules.",
+        "Emergency individual-patient use can receive prior FDA authorisation by telephone or other rapid communication, allowing use to begin before the written expanded-access submission. That submission is due within 15 working days of FDA authorisation. When there is insufficient time for prospective institutional review board (IRB) review, report the emergency use to the IRB within 5 working days of starting treatment. Subsequent use at the same institution normally requires prior IRB review. FDA's April 2026 guidance also describes discretion for a subsequent emergency request when prior review is infeasible, with the same 5-working-day reporting requirement. This is not continuing permission or a promised treatment date.",
+        "A licensed physician acting as sponsor-investigator can use Form FDA 3926 for an individual-patient expanded-access IND in a non-emergency or emergency setting. Forms FDA 1571 and 1572 remain an alternative. FDA also lists eRequest for non-emergency individual-patient requests. The streamlined form is not a marketing application, a form for group requests or the device-access process.",
+        "When an application references another sponsor’s IND, a letter of authorization permits FDA to reference specified product information. That permission does not itself authorize treatment or guarantee drug supply. If such a letter is unavailable, the FDA review division can advise which other information may satisfy the applicable requirements.",
+        "For an unapproved investigational drug supplied under an IND, the IND sponsor needs separate prior written FDA authorization to charge for the drug. Recoverable costs and other conditions differ between clinical trials and expanded access. Treatment authorization does not itself authorize charging, and permission to recover drug costs does not decide insurer payment or the total cost of clinical care.",
+        "A reported FDA authorization rate needs its stated submitted-request denominator, period and request categories. It does not measure the fraction of everyone seeking the drug who obtains manufacturer supply, meets every requirement or actually receives treatment. An application authorization is not a personal probability of access or benefit.",
+        "For individual-patient expanded access, authorised drug-cost recovery is limited to direct costs attributable specifically to supplying the drug for that authorised investigational use. Examples include per-unit manufacture or acquisition, shipping and storage. Commercial-scale facilities and equipment, and research, administrative or labour expenses that would occur anyway, are indirect costs excluded by 21 CFR 312.8(d)(1). This concerns the sponsor's authorised drug charge, not every bill for clinical care.",
+        "For intermediate-size populations and treatment INDs or protocols under 21 CFR 312.315 and 312.320, the regulation additionally permits specified monitoring, IND reporting and directly associated administrative costs. Those additional categories do not apply automatically to an individual-patient arrangement. FDA authorisation of the treatment and prior written permission to charge remain separate.",
+        "FDA's request-forms page reports that, on average, 99% of expanded-access requests may proceed. That is the page's submitted-request statement, without a period specified there, not the fraction of everyone seeking a drug who receives it or benefits. Manufacturer agreement is an independent supply gate, and Project Facilitate is an FDA oncology point of contact that helps clinicians navigate requests. The reported FDA fraction does not measure how often supply is the limiting step or rank the obstacles in a particular plan.",
+        "The charging calculation required by 21 CFR 312.8(d)(3) must have supporting documentation and a statement that an independent certified public accountant reviewed and approved it. Expanded-access permission to charge normally lasts one year from FDA authorisation, or less if FDA specifies; the sponsor can request reauthorisation. FDA must withdraw permission if charging interferes with development or its authorisation criteria cease to be met. A two-year-old letter therefore needs a current reauthorisation check. These rules concern the investigational drug charge, not a promise of free clinical care.",
+        "Build a readiness record around the actual product, formulation, dose, route and schedule, its clinical rationale and alternatives, and the supporting quality, exposure and safety information. Name the sponsor and treating clinician, supplier and receiving or storage team, administering service, urgent-care destination, and people responsible for response assessment, toxicity management and reporting. Record the applicable submissions, review and consent, usable supply, costs, dependencies and possible stop conditions. Mark each answer confirmed, proposed or unknown with its responsible person and date; a checklist does not determine a patient's status. The treating team must assess suitability before administration; a laboratory result supplies neither eligibility nor a safe regimen. This checklist concerns U.S. drugs and biologics; device access, other countries and institutional rules can differ.",
+        "In a fictional request, a supplier says manufacture could finish next week while institutional review, the treatment plan and monitoring remain unresolved. That is a manufacturing estimate, not a treatment date. Similarly, FDA permission without a service able to administer and monitor the product leaves a delivery gate open. Ask which milestones are complete and which depend on others. A fictional new non-emergency individual-patient IND with supplier agreement, the necessary product information, applicable IRB review and consent can proceed when effective, ordinarily 30 days after FDA receipt or earlier FDA notice, provided it is not on hold. Supplier review, manufacture, FDA review, institutional review, shipping and scheduling each need their own estimate and dependencies.",
+        "For non-emergency individual-patient use, a physician using Form FDA 3926 may request the permitted institutional review board (IRB) chairperson or designated-member concurrence procedure instead of review at a convened full-board meeting. Concurrence must precede treatment under that procedure. It is not a waiver of informed consent: obtain the applicable written consent on an IRB-approved form. The supplier's letter of authorisation lets FDA reference specified information and does not replace these steps or FDA permission to proceed."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "fast-track-rmat",
+      "kind": "term",
+      "name": "Fast Track and RMAT designations",
+      "aka": [
+        "Fast Track",
+        "fast-track designation",
+        "Fast Track designation",
+        "RMAT",
+        "regenerative medicine advanced therapy",
+        "RMAT designation",
+        "expedited programme",
+        "expedited program",
+        "expedited pathway",
+        "expedited review",
+        "expedited approval",
+        "fast track designations"
+      ],
+      "tldr": "Fast Track and regenerative-medicine designations support development and review for eligible products. A designation is separate from a decision authorizing marketing.",
+      "summary": "Fast Track supports development and review for drugs addressing serious conditions and unmet need. Regenerative Medicine Advanced Therapy designation has its own eligible-product and preliminary-clinical-evidence criteria. Breakthrough Therapy and Priority Review likewise have distinct purposes; review support is not an efficacy result or a guarantee of approval or delivery timing. Accelerated approval, in contrast, is an approval pathway with benefit-confirmation requirements. Read the named program and the actual product decision separately.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Fast_track_(FDA)",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Fast_track_(FDA)"
+        },
+        {
+          "label": "FDA: expedited development and review programs",
+          "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/fast-track-breakthrough-therapy-accelerated-approval-priority-review"
+        },
+        {
+          "label": "FDA: expedited programs guidance, including surrogate endpoints",
+          "url": "https://www.fda.gov/media/86377/download"
+        },
+        {
+          "label": "FDA: regenerative medicine advanced therapy designation",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-designation"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "breakthrough-designation",
+        "accelerated-approval",
+        "orphan-designation",
+        "bla-nda",
+        "fdasia-2012",
+        "21st-century-cures-act",
+        "sakigake",
+        "ilap",
+        "eu-regulation-726-2004",
+        "full-approval",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "informed-consent",
+      "kind": "term",
+      "name": "Informed consent",
+      "aka": [
+        "informed consent",
+        "consent form",
+        "consent forms",
+        "participant information sheet",
+        "patient information sheet",
+        "informed consent form",
+        "ICF",
+        "consent process",
+        "consenting",
+        "consented",
+        "gave written informed consent",
+        "written informed consent",
+        "signed consent",
+        "withdraw consent",
+        "withdrawal of consent",
+        "withdrew consent",
+        "right to withdraw",
+        "assent",
+        "parental permission",
+        "broad consent",
+        "re-consent",
+        "reconsent",
+        "optional consent",
+        "consent for future research",
+        "biobank consent",
+        "tissue consent",
+        "waiver of consent",
+        "deferred consent",
+        "legally authorised representative",
+        "capacity to consent"
+      ],
+      "tldr": "Informed consent is the conversation and the signed form in which a person learns what a trial involves, what might go wrong, what the alternatives are and that they can leave at any time, and then freely agrees to take part.",
+      "summary": "Consent to a trial is a process, not a signature. The investigator or a trained member of the team explains the purpose of the study, what it will involve beyond normal care (extra visits, biopsies, scans, questionnaires), the known and possible risks, the possible benefits including the honest statement that there may be none for the individual, the alternatives including standard treatment outside the trial, how data and samples will be used and protected, who is paying and who to contact, and the right to withdraw at any time without losing care. The participant information sheet sets this out in plain language and the person has time to read it, ask questions and discuss it with family before signing. Consent is documented again when the protocol changes materially (re-consent) and is sought separately for optional elements such as tissue banking, genetic testing or future research. Children give assent while a parent gives permission, and adults who cannot consent for themselves are enrolled only through a legally authorised representative and only when the research could not be done in others.\n\nSeveral trial designs stretch the standard model. Cluster-randomised trials such as the Kerala, Mumbai and Osmanabad screening trials randomise communities, so consent to randomisation sits with community or institutional gatekeepers while individuals consent to screening and to data use. Registry-based and trial-within-a-cohort designs seek broad consent up front for future randomisation. Decentralised trials use electronic consent by video, which regulators accept when identity, comprehension and documentation are assured. Emergency research uses deferred consent. In every case the ethics committee reviews the consent materials, and regulators inspect the signed forms.\n\nThe persistent problems are comprehension and coercion. Consent forms have grown to dozens of pages of legal language that few participants read; readability studies routinely find them written above the reading level of most patients, which is why the pattern of a short summary followed by detail is now required in the United States. The therapeutic misconception, joining a trial in the belief that the experimental arm must be better, undermines the voluntariness that consent is meant to protect, and people facing a life-threatening diagnosis with no other options are, by any definition, under pressure. Good consent names that pressure rather than pretending it away.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Informed_consent",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Informed_consent"
+        },
+        {
+          "label": "FDA guidance: informed consent for IRBs, clinical investigators and sponsors",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent"
+        },
+        {
+          "label": "WMA Declaration of Helsinki",
+          "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/"
+        },
+        {
+          "label": "NCI: continuing questions, understandable information and trial withdrawal",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/safety"
+        },
+        {
+          "label": "NCI: what happens before and after trial participation",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+        },
+        {
+          "label": "NCI: research, routine-care and practical costs of a trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ethics-review",
+        "clinical-equipoise",
+        "accrual",
+        "decentralised-trial",
+        "cluster-randomised-trial",
+        "registry-based-trial",
+        "trial-lifecycle",
+        "clinical-trial",
+        "consent-and-education-before-anticancer-treatment",
+        "radiotherapy-consent"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "kerala-oral-screening",
+        "add-aspirin"
+      ],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-diversity",
+        "b-trial-enrolment"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Continue asking questions after signing and ask how to leave a trial safely and what care or follow-up is appropriate afterwards. Consent does not establish benefit, product supply or financial coverage. Keep routine care, research-only procedures and practical costs such as travel distinct, and request a written plan identifying which costs the sponsor, insurer or participant would bear. A supplier's decision not to charge for the investigational product does not pay the other bills."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "investigational-new-drug-application",
+      "kind": "term",
+      "name": "Investigational New Drug application",
+      "aka": [
+        "IND application",
+        "Investigational New Drug",
+        "investigator IND"
+      ],
+      "tldr": "This application supports a specified investigation or treatment-access use of a drug in the United States. It is separate from permission to market the product.",
+      "summary": "An Investigational New Drug application contains nonclinical, manufacturing and clinical-protocol information for defined investigational use. Becoming effective does not establish that the product benefits a person or is approved for marketing, and a clinical hold can prevent use. A New Drug Application or Biologics License Application instead requests marketing authorization. Submission, acceptance for filing, an application becoming effective and a marketing decision are different events. The applicable route and product version matter.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "FDA: Investigational New Drug application",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+        },
+        {
+          "label": "FDA: expanded access questions and answers, April 2026",
+          "url": "https://www.fda.gov/media/162793/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bla-nda",
+        "first-in-human",
+        "expanded-access",
+        "investigator-initiated-trials",
+        "trial-protocol"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "For an ordinary new IND, FDA describes a 30-calendar-day period after receipt before an investigation may begin, unless FDA gives earlier notification or imposes a hold. Expanded-access INDs and protocols have route-specific rules; no application number establishes a treatment start date.",
+        "Product identity matters alongside the proposed use. A redesigned cell product or personalised formulation cannot acquire another product's evidence or authorisation merely by sharing a target, ingredient category or platform name. FDA assesses nonclinical, manufacturing and clinical-protocol information for the proposed investigation. Ask whether the cited data and permission actually cover that product version and plan; a supplier's earlier authorisation is not itself permission for a different use."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "investigator-initiated-trials",
+      "kind": "term",
+      "name": "Investigator-initiated trials and study responsibilities",
+      "aka": [
+        "investigator-initiated trial",
+        "investigator-sponsored study",
+        "sponsor-investigator"
+      ],
+      "tldr": "A researcher can originate a study while its sponsor, investigators, supplier and funders have distinct responsibilities. The protocol and regulatory arrangement identify who does what.",
+      "summary": "Investigator-initiated describes the origin of a study, not its phase, evidence strength or authorization. Under U.S. drug-investigation rules, a sponsor initiates and takes responsibility for the investigation; an investigator conducts it. An individual sponsor-investigator has both sets of responsibilities. An academic institution can also sponsor a study. Product supply or funding alone should not be used to infer the regulatory sponsor. The proposed protocol determines whether an IND or another applicable arrangement is needed.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "21 CFR 312.3: sponsor and investigator definitions",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.3"
+        },
+        {
+          "label": "21 CFR 312.2: applicability and exemptions",
+          "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.2"
+        },
+        {
+          "label": "FDA: IND exemption criteria",
+          "url": "https://www.fda.gov/drugs/investigational-new-drug-application-ind/ind-application-procedures-exemptions-ind-requirements"
+        },
+        {
+          "label": "FDA: Investigational New Drug application",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "investigational-new-drug-application",
+        "clinical-trial",
+        "trial-protocol",
+        "expanded-access",
+        "off-label"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A study of a lawfully marketed drug is IND-exempt only when all applicable exemption conditions are met. These include the study purpose, risk implications of dose, route or population, and required ethics review and informed consent. Academic origin or approved-drug status alone does not establish exemption."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "label-indication",
+      "kind": "term",
+      "name": "Label, indication and label expansion",
+      "aka": [
+        "label expansion",
+        "label expansions",
+        "indication",
+        "approved indication",
+        "new indication",
+        "expanded indication",
+        "expanded label",
+        "expanded approval",
+        "US label",
+        "FDA label",
+        "drug label",
+        "prescribing information",
+        "on-label",
+        "off-label",
+        "off-label use",
+        "sBLA",
+        "sNDA",
+        "supplemental BLA",
+        "supplemental NDA",
+        "supplemental approval",
+        "boxed warning",
+        "black box warning",
+        "label restriction",
+        "boxed warnings",
+        "label restrictions"
+      ],
+      "tldr": "A drug label describes its approved uses, how to use it and important risks. The indication names the disease and treatment context covered by that approval.",
+      "summary": "U.S. prescribing information retains the approved indication, dosing, warnings and supporting evidence. An oncology indication may specify disease, biomarker, prior therapy or combination requirements. A drug approved for one use is not thereby approved for every use proposed by a molecular report. Off-label prescribing concerns an approved product used outside its labeling, while a never-approved product requires an applicable investigational route. Regulatory status, evidence for a particular use, clinical suitability and payment are separate questions.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Drug_labelling",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Drug_labelling"
+        },
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+        },
+        {
+          "label": "FDA: new drug applications",
+          "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+        },
+        {
+          "label": "FDA: biologics license applications",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "bla-nda",
+        "full-approval",
+        "accelerated-approval",
+        "companion-diagnostic-term",
+        "off-label",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "nccn-compendium"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "off-label",
+      "kind": "term",
+      "name": "Off-label",
+      "aka": [
+        "off label",
+        "off-label use",
+        "off-label prescribing",
+        "on-label",
+        "labelled indication",
+        "labeled indication",
+        "approved indication",
+        "approved indications",
+        "drug label",
+        "prescribing information"
+      ],
+      "tldr": "Off-label use means using an approved medicine outside its approved labeling. The evidence for that particular use and whether it will be paid for need separate assessment.",
+      "summary": "A different disease, dose or route can make use of an approved medicine off label. FDA states that clinicians generally may prescribe an approved drug for an unapproved use when they consider it medically appropriate, but the original approval does not establish safety and effectiveness for that use. The supporting evidence can vary. A product never approved for any use is investigational rather than simply off label; clinical trials and expanded access have different arrangements. Approval, a guideline recommendation and insurance coverage are not interchangeable decisions.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Off-label_use",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Off-label_use"
+        },
+        {
+          "label": "FDA: unapproved use of an approved drug",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+        },
+        {
+          "label": "FDA: expanded access",
+          "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+        },
+        {
+          "label": "FDA: approved medicines used outside their labelling",
+          "url": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label"
+        },
+        {
+          "label": "FDA: expanded-access request forms, individual-patient steps and emergency follow-up",
+          "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "standard-of-care",
+        "tumour-agnostic",
+        "basket-umbrella-platform",
+        "accelerated-approval",
+        "orphan-drug",
+        "rare-cancers",
+        "companion-diagnostic-term",
+        "label-indication",
+        "expanded-access",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Start with the exact medicine and proposed disease, dose and route. In a fictional three-proposal comparison, Drug A is approved for Cancer X but suggested for Cancer Y: ask for the off-label evidence and prescribing and payment arrangements. Product B has never been approved and is in a trial: ask about its protocol, site, cohort and eligibility. Product C is described as single-patient IND access: ask who supplies it, who takes clinical responsibility and what treatment plan and reviews apply. None of those descriptions establishes benefit or selects a treatment. A different dose and unapproved indication for an approved medicine also starts as an off-label question, although a trial can study it."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "pharmacokinetics",
+      "kind": "term",
+      "name": "Pharmacokinetics (PK), half-life and exposure",
+      "aka": [
+        "pharmacokinetic",
+        "pharmacokinetics",
+        "PK/PD",
+        "pharmacodynamics",
+        "half-life",
+        "half life",
+        "exposure-response",
+        "exposure–response",
+        "drug exposure",
+        "AUC",
+        "Cmax",
+        "steady state",
+        "steady-state",
+        "bioavailability",
+        "oral bioavailability",
+        "drug-drug interaction",
+        "CYP3A4",
+        "food effect",
+        "therapeutic drug monitoring",
+        "TDM",
+        "flat dosing",
+        "weight-based dosing",
+        "body surface area",
+        "mg/m²",
+        "mg/kg",
+        "pharmacodynamic"
+      ],
+      "tldr": "Pharmacokinetics follows a named medicine or its components through the body by measuring concentration over time, which differs from both the amount administered and the biological effect.",
+      "summary": "Pharmacokinetics describes absorption, distribution, metabolism and excretion. A dose is an administered amount; exposure describes a named substance's concentration over time in a specified compartment. Route, organ function, metabolism, binding and interactions can make equal doses produce different exposure.\n\nThe December 2016 FDA labelling guidance asks for measures such as maximum plasma concentration, concentration-time area under the curve, clearance, accumulation and half-life in their relevant conditions. These measurements inform dosage selection alongside activity, safety and tolerability; they do not establish benefit on their own. For conjugated drugs, active metabolites and radiopharmaceuticals, specify which component was measured. Blood concentration is not automatically the concentration of active material at a cancer-cell target.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Pharmacokinetics",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Pharmacokinetics"
+        },
+        {
+          "label": "FDA: clinical pharmacology section of labeling (2016 guidance)",
+          "url": "https://www.fda.gov/media/74346/download"
+        },
+        {
+          "label": "FDA: clinical pharmacology considerations for antibody-drug conjugates (2024 guidance)",
+          "url": "https://www.fda.gov/media/155997/download"
+        },
+        {
+          "label": "NCI: CAR T-cell manufacture and expansion, distinct from protein-drug exposure",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "therapeutic-index",
+        "mtd",
+        "dose-modification",
+        "dosimetry",
+        "body-size-based-dose-calculation",
+        "carboplatin-dose-calculation",
+        "hepatic-dose-adjustment-of-anticancer-drugs",
+        "renal-dose-adjustment-of-anticancer-drugs"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [
+        "project-optimus"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [
+        "clinical-pharmacology-and-therapeutics"
+      ],
+      "dependsOn": [],
+      "notes": [
+        "Dose, exposure and effect are three different things. Dose is the administered amount; exposure is a named substance's concentration over time in a named place, which route, organ function, interactions and product properties can change for the same dose; and effect is a separate measurement, because effects or injury can persist after exposure falls and detectable drug does not guarantee productive engagement. Pharmacokinetics follows absorption (including how much of an oral dose reaches the circulation), distribution (plasma is not the unbound concentration inside a cell), metabolism (active metabolites may add their own exposure) and excretion, summarised by clearance, the removal relative to concentration, in volume per time. FDA labelling guidance lists the maximum plasma concentration (Cmax) and area under the concentration-time curve (AUC) at the approved dosage, time to steady state, accumulation ratio, clearance, volume of distribution and half-life; this AUC is an exposure area and is unrelated to the area under a prediction curve that judges tests.",
+        "For an antibody-drug conjugate, specify whether an assay follows conjugated antibody, total antibody, unconjugated payload or an active breakdown product. The 2024 FDA guidance defines total antibody as antibody with or without attached payload and discusses relevant constituent parts, metabolites and catabolites. Their concentration histories can differ: persistent antibody signal does not establish active payload in every cancer cell. Living cell products can expand or persist, and a radioligand combines radioactive decay with biological removal, so a freely circulating drug's half-life gives no universal clock for them.",
+        "Read the measurement card as well as the curve. Record the dose, route, analyte, sampled compartment, assay, population and sampling interval. Concentration can be in ng/mL, maximum concentration in the same units, concentration-time area in ng·hour/mL, half-life in hours and clearance in litres per hour. Sampling should capture the phase of interest: a sparse late sample cannot reliably recover an unobserved early peak. Pharmacodynamics measures biological effects separately. First-pass metabolism can reduce oral bioavailability; protein binding and active metabolites also matter.",
+        "The fictional halving example assumes one compartment, stopped input and a constant four-hour half-life. Its four markers are model values, not observed samples: 100, 50, 25 and 12.5 ng/mL at 0, 4, 8 and 12 hours. Integrating that exponential only from 0 to 12 hours gives about 505 ng·hour/mL, not the lifetime area, administered dose or biological effect. The example supplies no safe next-treatment time.",
+        "A fictional six-month research plan measures neither a batch's manufacturing lead time nor the duration of drug action. Designing and testing a candidate, making and quality-releasing a specified batch, and observing exposure and effects after dosing are three different clocks. A laboratory binder may never become a clinically usable product. Ask separately whether material is ready, a clinical use is authorised, eligibility is met and an appropriate site can provide it; a calendar estimate does not answer those questions. Repeated protein doses and preparation of a person's cell product are different tasks. Research dependencies can overlap without establishing that concurrent treatments are effective, safe or authorised. For the dosing clock, ask which schedule and monitoring are supported for the actual product and setting."
+      ],
+      "category": "Treatment jargon"
+    },
+    {
+      "id": "placebo",
+      "kind": "term",
+      "name": "Placebo",
+      "aka": [
+        "placebos",
+        "placebo-controlled",
+        "placebo controlled",
+        "placebo arm",
+        "placebo group",
+        "dummy pill",
+        "sugar pill",
+        "placebo effect",
+        "sham"
+      ],
+      "tldr": "A placebo is an inactive comparison treatment. A cancer trial may compare standard care plus placebo with standard care plus a new drug, or use another justified design. The protocol and consent explain what each group receives.",
+      "summary": "A placebo is an inert substance without pharmacological activity. In a blinded randomised trial, keeping participants and investigators unaware of assignment can reduce biased observations, especially for subjective outcomes. It does not guarantee that treatment remains concealed: characteristic adverse effects can reveal or suggest the assignment.\n\nFDA's August 2019 cancer-trial guidance describes selected uses, including add-on designs and settings where surveillance is standard care or no treatment is available. Replacing an available effective therapy with placebo alone is a different ethical question from adding placebo to standard care. NCI explains that a study can compare standard treatment plus placebo with standard treatment plus the study drug. Read the actual groups, protocol and consent rather than inferring no care, a guaranteed active drug or a universal trial design.\n\nThe FDA guidance recommends planned unblinding in specified circumstances, including documented progression when appropriate treatment alternatives exist and suspected drug-related adverse events whose management would involve substantial toxicity or invasive procedures. These are guidance recommendations with stated qualifications, not a rule that every trial must remain blinded or that visible side effects make blinding categorically impossible.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Placebo",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Placebo"
+        },
+        {
+          "label": "NCI: eligibility, assignment and placebo comparisons",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        },
+        {
+          "label": "FDA: placebos and blinding in cancer trials, August 2019 guidance",
+          "url": "https://www.fda.gov/media/130326/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "randomised-trial",
+        "blinding",
+        "clinical-trial",
+        "standard-of-care",
+        "side-effect-vs-adverse-event",
+        "double-blind",
+        "clinical-equipoise",
+        "informed-consent",
+        "n-of-1-trial"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "add-aspirin",
+        "olanzapine-appetite-tmh",
+        "keynote-564",
+        "act-iv"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "randomised-trial",
+      "kind": "term",
+      "name": "Randomised trial",
+      "aka": [
+        "randomised",
+        "randomized",
+        "randomisation",
+        "randomization",
+        "randomly assigned",
+        "randomised controlled trial",
+        "randomized controlled trial",
+        "RCT",
+        "RCTs",
+        "randomised trials",
+        "randomized trials",
+        "randomised phase 3",
+        "randomized phase 3",
+        "controlled trial",
+        "head-to-head",
+        "controlled trials",
+        "randomized trial"
+      ],
+      "tldr": "A study that assigns eligible participants to interventions by chance. This reduces treatment-selection bias but does not guarantee identical groups, flawless follow-up or benefit.",
+      "summary": "A randomized trial assigns eligible consenting participants to interventions by chance. Concealing the next assignment protects enrolment against foreknowledge; blinding concerns awareness after assignment. These are different design features. Randomization reduces treatment-selection confounding but leaves possible chance imbalance, missing outcomes and limits on applicability. The comparator, endpoint, analysis and conduct determine what the comparison establishes.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Randomized_controlled_trial",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Randomized_controlled_trial"
+        },
+        {
+          "label": "CONSORT statement: reporting randomised trials",
+          "url": "https://www.consort-statement.org/"
+        },
+        {
+          "label": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+          "url": "https://doi.org/10.1371/journal.pmed.1004587"
+        },
+        {
+          "label": "ICH E9: statistical principles for clinical trials, 1998",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "ICH E10: choice of control group",
+          "url": "https://database.ich.org/sites/default/files/E10_Guideline.pdf"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "clinical-trial",
+        "placebo",
+        "blinding",
+        "trial-phases",
+        "hazard-ratio",
+        "p-value",
+        "confidence-interval",
+        "standard-of-care",
+        "real-world-evidence",
+        "stratified-randomisation",
+        "clinical-equipoise",
+        "cluster-randomised-trial",
+        "pragmatic-trial",
+        "intention-to-treat",
+        "kaplan-meier-curve",
+        "non-inferiority",
+        "trial-failure-modes",
+        "estimand",
+        "publication-and-peer-review-status",
+        "meta-analysis"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "checkmate-067",
+        "adaura",
+        "interlace",
+        "challenge",
+        "protect"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Concealed chance assignment is different from predictable alternation between A and B. Allocation concealment hides the next assignment during enrolment; blinding concerns who knows the assigned treatment afterwards and may not be feasible for every intervention. Report sequence generation, allocation, who was blinded, assigned-group analyses, exclusions, dropout, missing assessments, treatment changes and unequal follow-up. Chance can balance measured and unmeasured factors on average without guaranteeing identical groups in one trial. Random assignment is not random sampling from a population: consenting eligible volunteers remain selected.",
+        "Controls can be standard care, standard care plus placebo or another protocol-defined option, not automatically no treatment. A fictional single-group Drug A study showing shrinkage supports an activity question for further study; it does not isolate added survival benefit from selection, natural history and other care. A randomized A-plus-usual-care versus usual-care comparison can test the added effect under sound conduct and analysis, while a volunteer cannot choose their randomized assignment or be promised benefit. A chance-assigned two-group phase 2 trial is randomized even though it is not phase 3."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "right-to-try",
+      "kind": "term",
+      "name": "Right to Try Act 2018 and state right-to-try laws",
+      "aka": [
+        "Right to Try",
+        "Right to Try Act",
+        "right-to-try",
+        "right-to-try law",
+        "right-to-try laws",
+        "state right-to-try",
+        "Trickett Wendler, Frank Mongiello, Jordan McLinn, and Matthew Bellina Right to Try Act"
+      ],
+      "tldr": "Federal Right to Try has specific patient and investigational-drug criteria. Meeting them does not require a supplier to provide the drug or establish that it will help.",
+      "summary": "United States, federal statute. Patient requirements include life-threatening illness, exhausted approved options, inability to join a trial involving the eligible drug, physician certification and written informed consent. Drug requirements include completed phase 1 testing, no FDA approval for any use, a qualifying marketing application or effectiveness investigation under an active IND, ongoing development or production and no clinical hold. The federal route does not require individual FDA or IRB request review. Reporting and consent duties remain, and supply is voluntary.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Right-to-try_law",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Right-to-try_law"
+        },
+        {
+          "label": "Congress.gov: S.204, Right to Try Act (Public Law 115-176)",
+          "url": "https://www.congress.gov/bill/115th-congress/senate-bill/204"
+        },
+        {
+          "label": "FDA: federal Right to Try criteria and responsibilities",
+          "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/right-try"
+        }
+      ],
+      "tags": [
+        "law",
+        "us"
+      ],
+      "related": [
+        "expanded-access",
+        "abigail-alliance",
+        "clinical-trial",
+        "accelerated-approval",
+        "fdca",
+        "21st-century-cures-act",
+        "investigational-new-drug-application",
+        "off-label",
+        "trial-search-site-verification"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [
+        "fda-oce"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [
+        "b-trial-enrolment",
+        "b-patient-voice"
+      ],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Completing phase 1 or having an IND number alone is not the complete product-eligibility test. Federal Right to Try, expanded access and off-label use have distinct requirements. The federal criteria do not settle state law, institutional availability, payment or an individual treatment decision."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "rna-seq",
+      "kind": "technology",
+      "name": "RNA sequencing & expression profiling",
+      "aka": [],
+      "tldr": "RNA sequencing measures captured RNA messages and, with a suitable library and analysis, can examine transcript joins.",
+      "summary": "RNA normally carries and helps process cellular messages. Sequencing captures part of that RNA information through a defined preparation and analysis. Pooled abundance, transcript structure and cell origin are separate questions. A supported RNA join does not automatically establish a DNA rearrangement, functional protein or treatment benefit.",
+      "status": "established",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/RNA-Seq",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/RNA-Seq"
+        },
+        {
+          "label": "Deep RNA sequencing analysis of readthrough gene fusions in human prostate adenocarcinoma and reference samples.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21261984/"
+        },
+        {
+          "label": "Anchored multiplex PCR for targeted next-generation sequencing.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25384085/"
+        },
+        {
+          "label": "A new view of transcriptome complexity and regulation through the lens of local splicing variations.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26829591/"
+        },
+        {
+          "label": "Accuracy assessment of fusion transcript detection via read-mapping and de novo fusion transcript assembly-based methods.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31639029/"
+        },
+        {
+          "label": "10x fixed RNA probe chemistry, Cell Ranger 7.2",
+          "url": "https://www.10xgenomics.com/support/software/cell-ranger/7.2/getting-started/cr-flex-what-is-frp"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "gene-expression-prognostic-assays",
+        "liquid-rna-biopsy"
+      ],
+      "cancers": [
+        "pancreatic",
+        "nsclc",
+        "sclc"
+      ],
+      "sections": [
+        "diagnostics"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "tempus-xr",
+        "foundationone-rna",
+        "archer-fusionplex",
+        "thyroseq"
+      ],
+      "companies": [
+        "blank-bio",
+        "cofactor-genomics",
+        "data-driven-bioscience",
+        "exai-bio",
+        "insight-molecular-diagnostics",
+        "isabl",
+        "lucence",
+        "oncobox"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "gene-fusion",
+        "pam50"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-okane-gata6-basal-like-compass-ccr-2020",
+        "paper-rashid-purist-pancreatic-subtype-classifier-ccr-2020",
+        "paper-philip-kras-wild-type-pancreatic-ccr-2022",
+        "paper-jonna-nrg1-fusions-solid-tumours-ccr-2019",
+        "paper-fernandez-cuesta-cd74-nrg1-fusion-lung-cancer-discov-2014",
+        "paper-gay-sclc-subtypes-inflamed-cancer-cell-2021",
+        "paper-gai-rna-dna-ngs-fusions-cancer-res-commun-2025",
+        "paper-sun-foundationone-rna-validation-plos-one-2025",
+        "paper-zheng-anchored-multiplex-pcr-nat-med-2014"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "RNA abundance and RNA structure are distinct measurements. Gene-level totals can conceal splice products. Some workflows sequence synthetic probes rather than original transcript-derived material; their counts cannot establish arbitrary fusion or splice sequences. Sources: Conesa et al., methods review, https://doi.org/10.1186/s13059-016-0881-8; official fixed RNA profiling chemistry, https://www.10xgenomics.com/support/software/cell-ranger/7.2/getting-started/cr-flex-what-is-frp.",
+        "An RNA join does not by itself establish a DNA rearrangement. Readthrough messages were observed in prostate tumour and reference samples. Authenticate independent sequence support and evaluate the genomic mechanism, protein consequence and clinical significance separately. Source: Nacu et al., 2011, https://pubmed.ncbi.nlm.nih.gov/21261984/.",
+        "Splice junctions join transcript regions and many are normal; a fusion transcript has sequence from different genes; an RNA junction does not establish the DNA mechanism; neighbouring-gene readthrough occurs in tumour and reference tissue.",
+        "A split read maps across the junction; a spanning pair places two ends on opposite sides leaving the insert unsequenced; amplified copies are not independent molecules; benchmark thresholds are not clinical cutoffs.",
+        "PSI is an inclusion estimate for a defined event and denominator; local junction evidence does not reconstruct a full transcript; unfinished nuclear RNA with introns is not automatically pathological intron retention.",
+        "Whole-transcriptome, short-end counting and targeted panels recover different information; anchored multiplex PCR searches from a targeted gene end toward an unknown partner and was tested in FFPE in the original method, which does not validate later panels.",
+        "Fixed-RNA probe-ligation counts are not unrestricted fusion or splice sequence evidence.",
+        "Failure to detect a join is informative only within coverage and sensitivity; RNA support leaves DNA mechanism, protein effect and drug benefit as separate tests.",
+        "Fictional teaching exercise: A candidate A-B junction supported by three identical amplified reads cannot be called confirmed DNA rearrangement or effective target.",
+        "Use protocol-compatible RNA and record aliquot consumption, integrity, reference/transcript versions, partners, junction coordinates and independent read/molecule support. State the event denominator for splice fractions. Low expression, uncovered joins, degradation, similar sequence and preparation/assembly artefacts constrain detection. Validate support thresholds, event classes and confirmation for the exact panel and specimen; a caller name supplies no clinical validation.",
+        "Pancreatic cancer: RNA sequencing does two jobs here, calling the classical versus basal-like subtype that predicts chemotherapy response (O'Kane 2020, Rashid 2020) and catching the NRG1, ALK, NTRK, FGFR2 and RET fusions that DNA panels miss in KRAS wild-type tumours (Philip 2022).",
+        "Lung cancer: RNA is the only reliable route to the fusions with heterogeneous partners. NRG1 fusions were found in 41 of 21,858 tumours by anchored multiplex RNA sequencing with a different partner almost every time (Jonna 2019), and the founding CD74-NRG1 discovery came from transcriptome sequencing of driver-negative tumours (Fernandez-Cuesta 2014). In small-cell disease RNA is also how the four transcriptional subtypes are called (Gay 2021).",
+        "RNA adds fusions that DNA testing misses: in 67,278 patients with both, RNA plus DNA sequencing found 21 per cent more driver gene fusions than DNA alone (Gai 2025, Tempus authors). On the large approved DNA and RNA panels the FDA approval often covers only part of what is reported: the approval statement for Caris MI Cancer Seek names DNA content only, while the maker lists RNA expression and fusions as additional features."
+      ],
+      "principle": "A common workflow reverse-transcribes RNA to complementary DNA for sequencing. Other chemistries, including probe-based counting, require their own interpretation of the captured signal.",
+      "strengths": [
+        "Captured transcript abundance with defined comparison rules",
+        "Fusion and splice evidence when the library and analysis cover the join"
+      ],
+      "limitations": [
+        "Preparation and RNA integrity affect recovery",
+        "Bulk signal mixes cell sources",
+        "RNA evidence does not directly measure protein function"
+      ]
+    },
+    {
+      "id": "t-cell-receptor",
+      "kind": "term",
+      "name": "T-cell receptor",
+      "aka": [
+        "TCR",
+        "alpha-beta T-cell receptor"
+      ],
+      "tldr": "A conventional T-cell receptor recognises a peptide together with its HLA display. Recognition alone does not show killing.",
+      "summary": "A conventional alpha-beta T-cell receptor uses paired chains to recognise a peptide-HLA surface. Its recognition chains assemble with CD3 signalling partners, as demonstrated in the human TCR-CD3 structural study. CDR3 is an informative variable region, but neither a beta-chain sequence nor CDR3 alone specifies the complete paired receptor or its function.\n\nParticular receptors can cross-react across peptide and HLA contexts; that does not establish a universal cross-reactivity rate. Paired receptor identity, binding, activation, target-cell death and clinical benefit require different evidence. A response by one reconstructed pair to peptide-loaded cells does not establish that another alpha-chain pairing recognises the same target, or that either kills naturally presenting tumour cells. Use irrelevant-target, HLA and target-only viability controls. Peptide loading can bypass natural processing, and contact diagrams are not healthy-tissue safety tests.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        },
+        {
+          "label": "Extraordinary cross-reactivity of an autoimmune T-cell receptor recognizing specific peptides both on autologous and on allogeneic HLA class II molecules.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17559580/"
+        },
+        {
+          "label": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "High-resolution analysis of the human T-cell receptor repertoire.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26324409/"
+        },
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A conventional alpha-beta TCR uses paired variable and constant domains to contact peptide plus HLA. The peptide sits in the HLA groove, not a separate TCR peptide pocket. CD3 signalling partners are distinct from recognition chains. Contact loops including junction-spanning CDR3 contribute, but other loops, the partner chain and HLA matter; beta-only or CDR3-only sequence is incomplete.",
+        "Cross-reactivity is recognition of multiple targets by a receptor. Defined receptor experiments demonstrated peptide/HLA cross-reactivity, not recognition of every allele by an arbitrary receptor or a universal rate. Greater affinity or a contact drawing does not establish healthy-tissue safety.",
+        "Sequencing reports sampled receptor identities and abundances under an operational clonotype definition. Paired alpha-beta identities are more complete than beta alone. Peptide-HLA multimer binding, stimulus-induced cellular response, target-cell death and clinical benefit are different endpoints. Include irrelevant-target, HLA and target-only viability controls; peptide-loaded cells can bypass natural processing.",
+        "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+        "Source scope: teaching synthesis checked against the cited abstracts and specified accessible primary text on 9 November 2026; fictional examples are not clinical observations or treatment-selection rules."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "til-therapy",
+      "kind": "technology",
+      "name": "TIL therapy",
+      "aka": [
+        "TIL therapy",
+        "tumor-infiltrating lymphocyte therapy",
+        "tumour-infiltrating lymphocyte therapy",
+        "TIL transfer"
+      ],
+      "tldr": "TIL therapy expands lymphocytes collected from a tumor and returns a prepared cell product. Tissue origin, culture yield and useful tumor recognition are different claims.",
+      "summary": "Tumor-infiltrating lymphocyte therapy starts with cells collected from tumor tissue, commonly using their existing T-cell receptors. Infiltration does not prove that every cell recognizes the cancer. Culture and selection can change which clones become abundant; final viable-cell yield, recognition breadth and useful function need their own evidence. Manufacturing, conditioning, cytokine support and follow-up form a complete regimen with separate contributions and harms.\n\nLifileucel (Amtagvi) received accelerated FDA approval in 2024 for specified previously treated unresectable or metastatic melanoma. Its label defines the prior-treatment conditions and regimen. TILVANCE-301 is a phase 3 advanced-melanoma study of a lifileucel regimen with pembrolizumab versus pembrolizumab. Neither a registry design nor clinical evidence from one TIL process establishes benefit for every tumor or manufacturing method.",
+      "status": "approved",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Tumor-infiltrating_lymphocytes"
+        },
+        {
+          "label": "Besser et al., intent-to-treat analysis of TIL therapy at Sheba (Clin Cancer Res 2013)",
+          "url": "https://doi.org/10.1158/1078-0432.ccr-13-0380"
+        },
+        {
+          "label": "NCI: T-cell transfer therapy, collection, engineering and regimen harms",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+        },
+        {
+          "label": "Simoni et al.: bystander CD8 T cells in human tumor infiltrates (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29769722/"
+        },
+        {
+          "label": "Rohaan et al.: specified TIL regimen versus ipilimumab in advanced melanoma (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36477031/"
+        },
+        {
+          "label": "FDA: AMTAGVI product, accelerated indication and supporting documents",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/approved-blood-products/amtagvi"
+        },
+        {
+          "label": "AMTAGVI label: tumor-derived cells and the complete regimen",
+          "url": "https://www.fda.gov/media/176417/download"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05727904: TILVANCE-301 design and melanoma setting",
+          "url": "https://clinicaltrials.gov/study/NCT05727904"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tcr-t",
+        "car-t",
+        "cellular-kinetics-and-persistence"
+      ],
+      "cancers": [
+        "melanoma",
+        "nsclc",
+        "cervical",
+        "advanced-melanoma"
+      ],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "lifileucel"
+      ],
+      "companies": [
+        "iovance",
+        "obsidian-therapeutics",
+        "turnstone-biologics",
+        "geek-gene",
+        "sinorda",
+        "instil-bio",
+        "beijing-xunsheng-biomedical",
+        "attachbio"
+      ],
+      "institutions": [
+        "sheba"
+      ],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "pragmatil"
+      ],
+      "people": [
+        "michal-besser",
+        "jacob-schachter"
+      ],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-besser-til-melanoma-intent-to-treat-ccr-2013"
+      ],
+      "journals": [],
+      "dependsOn": [
+        "cell-therapy-cold-chain",
+        "cell-therapy-release-testing",
+        "cytokine-therapy"
+      ],
+      "notes": [
+        "Simoni studied human lung and colorectal tumor infiltrates and found CD8 T cells recognizing viral epitopes unrelated to the cancer. Tumor location did not establish tumor specificity. Its CD39 observations belong to those sampled populations, not a universal marker rule that proves the specificity of every manufactured cell.",
+        "Conventional alpha-beta T cells recognize peptide-HLA targets. A mixed TIL product can contain multiple specificities, but breadth must be tested against relevant naturally presenting targets and lesions. Polyclonality does not guarantee freedom from antigen/presentation escape or other resistance.",
+        "Record input tissue, culture/selection conditions, viable-cell yield, identity and the final receptor mixture. An expanding bystander clone can increase total yield while reducing the proportion with useful tumor recognition. A receptor repertoire measured before culture is not automatically the infusion product’s repertoire.",
+        "A pathology infiltration estimate describes a tissue feature under a specified scoring rule; it is not the viable-cell count recovered for manufacture, a dose, or proof of tumor reactivity. Functional studies need target material, HLA/antigen controls, suitable effectors, timing, units and readout context. Binding, target death and clinical outcome remain different endpoints.",
+        "Rohaan randomized patients with advanced melanoma to a specified TIL regimen or ipilimumab. In the reported intention-to-treat population, median progression-free survival was 7.2 versus 3.1 months. The TIL arm included lymphodepleting chemotherapy and high-dose IL-2; grade 3 or higher events in that arm were mainly chemotherapy-related myelosuppression. This comparison concerns the whole regimen and is not the lifileucel registration dataset or an isolated test of cells alone.",
+        "FDA’s Amtagvi source describes an autologous tumor-derived product and a defined previously treated melanoma use. The label requires conditioning and post-infusion IL-2 and carries serious regimen warnings. A manufacturing success, a registry listing or a positive cellular assay is not an independent clinical-benefit claim for another process or cancer. Its label lists the specific mechanism of action as unknown. General TIL recognition biology does not establish which clones or components explain an individual response.",
+        "The NCT05727904 registry identifies TILVANCE-301 as a randomized phase 3 study in untreated advanced melanoma, with a lifileucel/conditioning/IL-2 regimen plus pembrolizumab compared with pembrolizumab. The registry description does not supply an efficacy result or local availability for a participant.",
+        "TIL describes tissue origin, while added receptor or other genetic engineering describes an additional property. Experimental engineering can overlap that origin category; neither name implies the other. Tumor entry before collection also does not guarantee trafficking or useful persistence after transfer."
+      ],
+      "principle": "Recover tumor-derived lymphocytes, expand or select them through a specified process, characterize the final cells and evaluate the complete treatment regimen in its disease setting.",
+      "strengths": [
+        "Can investigate multiple naturally occurring recognition specificities",
+        "Clinical evidence exists for specified melanoma products and regimens"
+      ],
+      "limitations": [
+        "Usable tissue and suitable manufacture are required",
+        "Bystander cells and culture selection can limit useful recognition",
+        "Conditioning, cytokine support, cell infusion and follow-up have their own risks and access requirements"
+      ],
+      "since": 2024
+    },
+    {
+      "id": "trial-phases",
+      "kind": "term",
+      "name": "Phase 1, 2 and 3 trials",
+      "aka": [
+        "phase 1",
+        "phase 2",
+        "phase 3",
+        "phase I",
+        "phase II",
+        "phase III",
+        "phase 1/2",
+        "phase I/II",
+        "phase 2/3",
+        "phase II/III",
+        "phase 4",
+        "phase IV",
+        "first-in-human",
+        "first in human",
+        "dose-escalation",
+        "dose escalation",
+        "dose-finding",
+        "pivotal trial",
+        "pivotal trials",
+        "pivotal",
+        "registrational",
+        "confirmatory trial",
+        "confirmatory trials",
+        "early-phase",
+        "early phase",
+        "late-phase",
+        "late phase",
+        "late-stage trial",
+        "late-stage trials"
+      ],
+      "tldr": "Phase 1 studies dosage and safety; phase 3 compares treatments, often in hundreds or thousands of participants. The protocol determines the design and size, and a phase 3 label is not approval or a promise of benefit.",
+      "summary": "Clinical-trial phases describe development purposes rather than a fixed sample size, assignment method or promise of benefit. Phase 1 studies administration, exposure, safety and dosage, sometimes with early activity measures. Phase 2 asks whether activity and safety support further study in a specified population. Phase 3 compares with a defined alternative and can provide evidence for an approval decision; a phase 3 label is not itself approval. FDA's patient overview illustrates phase 3 with hundreds to thousands of participants, while the actual size follows the protocol's question and information requirements. Phase 4 studies an approved treatment in broader use. Read the protocol because phases can overlap or be combined.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Phases_of_clinical_research",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Phases_of_clinical_research"
+        },
+        {
+          "label": "FDA: clinical research phases",
+          "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research"
+        },
+        {
+          "label": "NCI: how clinical trials work",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        },
+        {
+          "label": "ICH E9: statistical principles for clinical trials, 1998",
+          "url": "https://www.fda.gov/media/71336/download"
+        },
+        {
+          "label": "Adaptive Randomization of Neratinib in Early Breast Cancer",
+          "url": "https://doi.org/10.1056/NEJMoa1513750"
+        },
+        {
+          "label": "Adaptive Randomization of Veliparib–Carboplatin Treatment in Breast Cancer",
+          "url": "https://doi.org/10.1056/NEJMoa1513749"
+        },
+        {
+          "label": "I-SPY 2: an adaptive breast cancer trial design in the setting of neoadjuvant chemotherapy.",
+          "url": "https://doi.org/10.1038/clpt.2009.68"
+        },
+        {
+          "label": "ClinicalTrials.gov: overall and site recruitment status fields",
+          "url": "https://clinicaltrials.gov/api/v2/studies/metadata"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "clinical-trial",
+        "randomised-trial",
+        "dose",
+        "endpoint",
+        "accelerated-approval",
+        "standard-of-care",
+        "surrogate-endpoint",
+        "trial-lifecycle",
+        "pivotal-trial",
+        "confirmatory-trial",
+        "first-in-human",
+        "dose-escalation-design",
+        "seamless-adaptive",
+        "single-arm",
+        "non-inferiority",
+        "basket-umbrella-platform",
+        "trial-protocol",
+        "trial-registration",
+        "ethics-review",
+        "informed-consent",
+        "data-monitoring-committee",
+        "clinical-equipoise",
+        "estimand",
+        "kaplan-meier-curve",
+        "absolute-benefit",
+        "surrogate-validation",
+        "quality-adjusted-survival",
+        "trial-failure-modes",
+        "basket-trial",
+        "umbrella-trial",
+        "response-adaptive-randomisation",
+        "bayesian-trial-design",
+        "sample-size-re-estimation",
+        "smart-design",
+        "biomarker-stratified-design",
+        "pragmatic-trial",
+        "registry-based-trial",
+        "decentralised-trial",
+        "n-of-1-trial",
+        "cluster-randomised-trial",
+        "stepped-wedge-design",
+        "non-inferiority-margin",
+        "stratified-randomisation",
+        "group-sequential-design"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "navigate",
+        "rejoice-ovarian01",
+        "keynote-522",
+        "adaura"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A phase 1 activity signal neither establishes benefit nor excludes serious toxicity. A phase 2 study may be single-arm or randomized, and phase 3 may ask superiority or a prespecified non-inferiority question. Sample size follows the question and power or information assumptions; phase number alone does not determine it. A higher phase does not guarantee that a new treatment wins or that one participant benefits. Studying an approved product in phase 4 does not approve every investigated use. A single-arm study has one intervention group; identify its actual external comparison, if any, and endpoint.",
+        "I-SPY 2 illustrates an adaptively randomized phase 2 platform. Its 2016 neratinib report describes assignment within biomarker subtypes based on Bayesian probabilities of treatment superiority over control; its veliparib-carboplatin report also describes adaptive assignment within subtype. These are properties of that platform, not every phase 2 trial. Recruitment status is another distinct question: overall recruiting status does not establish an available local cohort slot or that a particular person meets the protocol."
+      ],
+      "category": "Clinic basics"
+    },
+    {
+      "id": "trial-protocol",
+      "kind": "term",
+      "name": "Trial protocol and statistical analysis plan",
+      "aka": [
+        "trial protocol",
+        "study protocol",
+        "the protocol",
+        "protocol",
+        "protocol amendment",
+        "protocol amendments",
+        "amended protocol",
+        "protocol deviation",
+        "protocol deviations",
+        "protocol violation",
+        "protocol synopsis",
+        "schedule of assessments",
+        "schedule of events",
+        "protocol-defined",
+        "protocol-specified",
+        "per the protocol",
+        "eligibility criteria",
+        "investigator's brochure",
+        "investigator brochure",
+        "case report form",
+        "CRF",
+        "eCRF",
+        "SPIRIT",
+        "SPIRIT statement",
+        "SAP",
+        "statistical analysis plan",
+        "statistical analysis plans",
+        "analysis plan",
+        "pre-specified analysis plan",
+        "hierarchy of endpoints",
+        "testing hierarchy",
+        "data cut-off date",
+        "database lock"
+      ],
+      "tldr": "The protocol is the rulebook a trial is run by, written before it starts: who can join, what they get, what is measured and when, and how the answer will be calculated; the statistical analysis plan spells out the last part in detail so nobody can choose the analysis after seeing the data.",
+      "summary": "A protocol is a long document, often more than a hundred pages, that states the rationale and objectives, the design, the eligibility criteria, the treatments and their dose modifications, the schedule of visits and assessments, the endpoints and how each is defined and measured, the sample size and its justification, the interim analyses and stopping rules, the safety reporting rules, and the governance (sponsor, steering committee, data monitoring committee, ethics oversight). The SPIRIT statement lists what a protocol should contain, and journals increasingly publish protocols so that the final report can be checked against them. The statistical analysis plan is a companion document finalised before the data are unblinded that fixes the analysis populations, the handling of missing data and intercurrent events, the order in which endpoints are tested and the alpha each receives, the pre-specified subgroups and the sensitivity analyses. Together they are what makes pre-specified mean something.\n\nProtocols change. Amendments add sites, adjust eligibility when recruitment is slow, revise dose modifications in response to toxicity, or, more consequentially, change the primary endpoint or the sample size; each amendment goes back to the ethics committee and regulators and is dated in the registry record, so a reader can see what changed and when. Deviations are departures from the protocol for individual patients (a missed scan, a dose given outside its window) and are logged and classified by seriousness; a pattern of deviations at one site is a monitoring finding. The strict week-twelve event definition written into BELINDA's protocol, combined with a long manufacturing interval, is a documented example of protocol choices deciding a trial's verdict: the trial found no difference in event-free survival where two similar trials found a large one.\n\nFor readers, the protocol answers the questions a paper leaves out: exactly who was eligible, what counted as progression, how many analyses were planned, and whether the headline analysis was the one specified. Registries link to protocols for many trials, and supplementary appendices to trial papers usually contain them. A result that cannot be traced to a pre-specified analysis in a dated protocol is a hypothesis, however small its p-value.",
+      "asOf": "2026-09-17",
+      "wikipedia": "https://en.wikipedia.org/wiki/Clinical_trial_protocol",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Clinical_trial_protocol"
+        },
+        {
+          "label": "SPIRIT statement: standard protocol items for clinical trials",
+          "url": "https://www.spirit-statement.org/"
+        },
+        {
+          "label": "ICH E9 and E9(R1): statistical principles for clinical trials and the estimand framework",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "prespecified-vs-post-hoc",
+        "trial-registration",
+        "primary-endpoint",
+        "estimand",
+        "group-sequential-design",
+        "trial-lifecycle",
+        "ethics-review",
+        "accrual",
+        "data-monitoring-committee"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "belinda",
+        "add-aspirin",
+        "keynote-522"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Trials"
+    },
+    {
+      "id": "trial-search-site-verification",
+      "kind": "term",
+      "name": "Clinical trial search, site verification and screening",
+      "aka": [
+        "finding a clinical trial",
+        "trial-site verification",
+        "trial prescreening",
+        "trial screening and enrollment"
+      ],
+      "tldr": "A trial search identifies studies to examine. The study team must separately check the relevant site, cohort and full eligibility requirements.",
+      "summary": "NCI describes finding a study, discussing it with the team, informed consent and formal screening as distinct steps. A registry identifier helps distinguish studies, while the dated protocol and record describe the design and entry rules. Overall recruiting status can reflect an open facility elsewhere; it does not establish an available place in the relevant local cohort. A matching diagnosis or biomarker is only part of eligibility. Medical-history review and required tests can still exclude participation after an initial discussion.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "NCI: steps to find a clinical trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+        },
+        {
+          "label": "NCI: what to expect during a clinical trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+        },
+        {
+          "label": "ClinicalTrials.gov: protocol registration definitions",
+          "url": "https://clinicaltrials.gov/policy/protocol-definitions"
+        },
+        {
+          "label": "42 CFR 11.10: overall recruitment and individual-site status",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+        },
+        {
+          "label": "NCI: eligibility, randomization and clinical-trial comparisons",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+        },
+        {
+          "label": "NCI: research, routine-care and practical costs of a trial",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "clinical-trial",
+        "trial-registration",
+        "trial-protocol",
+        "accrual",
+        "expanded-access",
+        "investigational-new-drug-application"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Search with disease, treatment setting, intervention aliases, biomarker and location terms. Keep registry verification and update dates with the result; ask the team about the current protocol, site and cohort. A record or invitation to screen is not a promise of enrollment.",
+        "Estimated enrollment is a target total, while actual enrollment records people already enrolled. Neither is a count of places available now. Overall study recruitment, an individual facility’s status and availability in the relevant cohort or dose group require separate dated checks.",
+        "When a protocol randomizes participants, meeting its entry rules does not reserve the experimental arm. Assignment follows the protocol’s chance process rather than a choice by the participant or doctor. Screening, eligibility, enrollment, arm assignment and individual benefit are different steps; a plausible match or invitation to screen does not establish the later steps.",
+        "Keep a compact screening record: registry number and title, current protocol version, disease and stage, treatment goal and required biomarker. Ask about previous treatments, relevant conditions and safety history, current medicines, laboratory criteria and required samples. Advanced-disease and postoperative studies can share a biomarker while requiring different measurable disease, pathology or enrolment windows. A washout is the interval defined by that protocol after a named treatment or medicine; its starting event and duration must be checked with the treating and study teams. A deadline or a half-life calculation is not permission to change treatment.",
+        "Confirm the relevant site, cohort and slot, each assignment group and the randomisation ratio, screening and visit dates, treatment duration and follow-up. Check travel, sample needs, available support and who pays. Record who supplied each dated answer and what remains unknown; request the current protocol or consent material and clarify discrepancies between it, the registry and the site. A personal eligibility worksheet prepares that discussion and does not replace formal screening.",
+        "In a fictional postoperative study, a matching molecular report is a reason to ask about screening, not proof of pathology, treatment-history, local availability or timing eligibility. If Drug B plus standard care is randomised against standard care alone, either group can be assigned; neither the doctor nor participant chooses the experimental arm. If a multicohort registry says recruiting but the local breast cohort has no slots, access is unconfirmed. Asking about another site or reopening supplies a next question, not a promise. Trial phase describes the research question rather than an individual benefit estimate."
+      ],
+      "category": "Regulation & policy"
+    },
+    {
+      "id": "vein-to-vein-time",
+      "kind": "term",
+      "name": "Vein-to-vein time and manufacturing slots",
+      "aka": [
+        "vein-to-vein",
+        "vein to vein",
+        "manufacturing time",
+        "manufacturing slot",
+        "manufacturing slots",
+        "turnaround time",
+        "manufacturing failure",
+        "out-of-specification",
+        "OOS product",
+        "slot allocation",
+        "chain of identity",
+        "chain of custody",
+        "cryopreserved product",
+        "fresh product",
+        "manufacturing failures"
+      ],
+      "tldr": "For CAR-T, the number of days from collecting the patient's cells to infusing the finished product, typically three to six weeks. Every day counts when the disease is aggressive, and manufacturing capacity (slots) limits how many patients can be treated.",
+      "summary": "Vein-to-vein time includes shipping, manufacturing (transduction, expansion, release testing), cryopreservation and scheduling; commercial products average 3-4 weeks in the US and longer in Europe. Delays force bridging therapy and cost lives, which is the motivation for rapid manufacturing platforms (T-Charge, 2-day processes), point-of-care and closed automated manufacturing, in vivo CAR-T and allogeneic products. Slots are allocated per centre and per month, out-of-specification products may still be infused under expanded access, and chain-of-identity software tracks each patient's cells. In ZUMA-7 the median vein-to-vein time of about 4 weeks versus 52 days in another trial was cited as a reason for different outcomes.",
+      "asOf": "2026-09-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "apheresis",
+        "bridging-therapy",
+        "lymphodepletion"
+      ],
+      "cancers": [],
+      "sections": [
+        "cell-therapy"
+      ],
+      "technologies": [
+        "car-t",
+        "closed-automated-cell-manufacturing",
+        "point-of-care-cell-manufacturing",
+        "cell-therapy-orchestration-software"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Treatment jargon"
+    }
+  ]
+}

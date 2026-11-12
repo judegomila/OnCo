@@ -1,0 +1,682 @@
+{
+  "identities": [
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+      "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734",
+      "bytes": 3591,
+      "family": "nucleotide-adenosine-and-tryptophan-routes-v1",
+      "requirementIds": [
+        "adeno.fig-routes"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+      "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734",
+      "bytes": 3591,
+      "family": "nucleotide-adenosine-and-tryptophan-routes-v1",
+      "requirementIds": [
+        "adeno.fig-routes"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+      "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56",
+      "bytes": 3591,
+      "family": "nucleotide-adenosine-and-tryptophan-routes-v1",
+      "requirementIds": [
+        "adeno.fig-routes"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+      "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56",
+      "bytes": 3591,
+      "family": "nucleotide-adenosine-and-tryptophan-routes-v1",
+      "requirementIds": [
+        "adeno.fig-routes"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221",
+      "bytes": 7183,
+      "family": "same-bulk-average-different-spatial-signals-v1",
+      "requirementIds": [
+        "cyto.fig-average"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221",
+      "bytes": 7183,
+      "family": "same-bulk-average-different-spatial-signals-v1",
+      "requirementIds": [
+        "cyto.fig-average"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852",
+      "bytes": 7183,
+      "family": "same-bulk-average-different-spatial-signals-v1",
+      "requirementIds": [
+        "cyto.fig-average"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852",
+      "bytes": 7183,
+      "family": "same-bulk-average-different-spatial-signals-v1",
+      "requirementIds": [
+        "cyto.fig-average"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234",
+      "bytes": 1718880,
+      "family": "checkpoint-contact-capture-v1",
+      "requirementIds": [
+        "chk.fig-contact"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234",
+      "bytes": 1718880,
+      "family": "checkpoint-contact-capture-v1",
+      "requirementIds": [
+        "chk.fig-contact"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c",
+      "bytes": 1659218,
+      "family": "checkpoint-contact-capture-v1",
+      "requirementIds": [
+        "chk.fig-contact"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c",
+      "bytes": 1659218,
+      "family": "checkpoint-contact-capture-v1",
+      "requirementIds": [
+        "chk.fig-contact"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8",
+      "bytes": 5298,
+      "family": "cd1d-lipid-and-peptide-hla-displays-v1",
+      "requirementIds": [
+        "nkt.fig-cd1d"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8",
+      "bytes": 5298,
+      "family": "cd1d-lipid-and-peptide-hla-displays-v1",
+      "requirementIds": [
+        "nkt.fig-cd1d"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212",
+      "bytes": 5298,
+      "family": "cd1d-lipid-and-peptide-hla-displays-v1",
+      "requirementIds": [
+        "nkt.fig-cd1d"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212",
+      "bytes": 5298,
+      "family": "cd1d-lipid-and-peptide-hla-displays-v1",
+      "requirementIds": [
+        "nkt.fig-cd1d"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0",
+      "bytes": 5547,
+      "family": "coexisting-macrophage-programs-v1",
+      "requirementIds": [
+        "mac.fig-programs"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0",
+      "bytes": 5547,
+      "family": "coexisting-macrophage-programs-v1",
+      "requirementIds": [
+        "mac.fig-programs"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed",
+      "bytes": 5547,
+      "family": "coexisting-macrophage-programs-v1",
+      "requirementIds": [
+        "mac.fig-programs"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed",
+      "bytes": 5547,
+      "family": "coexisting-macrophage-programs-v1",
+      "requirementIds": [
+        "mac.fig-programs"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+      "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30",
+      "bytes": 2176699,
+      "family": "dna-sensing-and-sting-traffic-v1",
+      "requirementIds": [
+        "sting.fig-dna",
+        "prr.fig-dna"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+      "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30",
+      "bytes": 2176699,
+      "family": "dna-sensing-and-sting-traffic-v1",
+      "requirementIds": [
+        "sting.fig-dna",
+        "prr.fig-dna"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+      "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+      "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af",
+      "bytes": 2182881,
+      "family": "dna-sensing-and-sting-traffic-v1",
+      "requirementIds": [
+        "sting.fig-dna",
+        "prr.fig-dna"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+      "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+      "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af",
+      "bytes": 2182881,
+      "family": "dna-sensing-and-sting-traffic-v1",
+      "requirementIds": [
+        "sting.fig-dna",
+        "prr.fig-dna"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9",
+      "bytes": 5040,
+      "family": "native-gamma-delta-contact-and-added-car-v1",
+      "requirementIds": [
+        "gd.fig-contacts"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9",
+      "bytes": 5040,
+      "family": "native-gamma-delta-contact-and-added-car-v1",
+      "requirementIds": [
+        "gd.fig-contacts"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580",
+      "bytes": 5040,
+      "family": "native-gamma-delta-contact-and-added-car-v1",
+      "requirementIds": [
+        "gd.fig-contacts"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580",
+      "bytes": 5040,
+      "family": "native-gamma-delta-contact-and-added-car-v1",
+      "requirementIds": [
+        "gd.fig-contacts"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b",
+      "bytes": 9201,
+      "family": "nk-target-contacts-and-remaining-inputs-v1",
+      "requirementIds": [
+        "nk.fig-nk"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b",
+      "bytes": 9201,
+      "family": "nk-target-contacts-and-remaining-inputs-v1",
+      "requirementIds": [
+        "nk.fig-nk"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29",
+      "bytes": 9201,
+      "family": "nk-target-contacts-and-remaining-inputs-v1",
+      "requirementIds": [
+        "nk.fig-nk"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29",
+      "bytes": 9201,
+      "family": "nk-target-contacts-and-remaining-inputs-v1",
+      "requirementIds": [
+        "nk.fig-nk"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-light.png",
+      "sha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+      "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49",
+      "bytes": 2282824,
+      "family": "lymph-node-entry-routes-v3-20261011",
+      "requirementIds": [
+        "lymph.fig-routes"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-light.png",
+      "sha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+      "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49",
+      "bytes": 2282824,
+      "family": "lymph-node-entry-routes-v3-20261011",
+      "requirementIds": [
+        "lymph.fig-routes"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-dark.png",
+      "sha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+      "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a",
+      "bytes": 2310407,
+      "family": "lymph-node-entry-routes-v3-20261011",
+      "requirementIds": [
+        "lymph.fig-routes"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-dark.png",
+      "sha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+      "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a",
+      "bytes": 2310407,
+      "family": "lymph-node-entry-routes-v3-20261011",
+      "requirementIds": [
+        "lymph.fig-routes"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+      "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660",
+      "bytes": 5868,
+      "family": "signals-vessels-and-recruited-cells-v1",
+      "requirementIds": [
+        "infl.fig-tissue"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+      "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660",
+      "bytes": 5868,
+      "family": "signals-vessels-and-recruited-cells-v1",
+      "requirementIds": [
+        "infl.fig-tissue"
+      ]
+    },
+    {
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+      "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33",
+      "bytes": 5868,
+      "family": "signals-vessels-and-recruited-cells-v1",
+      "requirementIds": [
+        "infl.fig-tissue"
+      ]
+    },
+    {
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+      "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33",
+      "bytes": 5868,
+      "family": "signals-vessels-and-recruited-cells-v1",
+      "requirementIds": [
+        "infl.fig-tissue"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "figureBase": "nucleotide-adenosine-and-tryptophan-routes-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/immune-regulation/adenosine-and-ido.md"
+      ],
+      "requirementIds": [
+        "adeno.fig-routes"
+      ],
+      "teachingAndContentReview": "Both themes show ATP/ADP to AMP (CD39), AMP to adenosine (CD73), adenosine acting on an A2A receptor outside cells, and a separate intracellular tryptophan to kynurenine-pathway step at IDO1; \"Enzyme not equal to receptor\" banner and \"Test activity and effects. Expression alone cannot.\" footer match the lesson. No contradiction with the Deaglio and Ohta abstracts read in this batch.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "both themes",
+          "detail": "\"Outside cells\" heading (baseline y=167, 40 px) sits within about 2 px of the top of the \"CD39\" label (baseline y=195, 36 px); the two text boxes touch in the render. Legible.",
+          "source": "SVG coordinates"
+        }
+      ]
+    },
+    {
+      "figureBase": "same-bulk-average-different-spatial-signals-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/immune-regulation/cytokine-and-chemokine.md"
+      ],
+      "requirementIds": [
+        "cyto.fig-average"
+      ],
+      "teachingAndContentReview": "0 and 20 pg/mL versus 10 and 10 pg/mL in equal-sized compartments, each mean 10; dot counts agree with the labels (0, 20, 10, 10); \"Fictional, not patient data\" banner present; receptor and dashed route shown. Arithmetic consistent with the lesson.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "both themes (visible against the panel in dark)",
+          "detail": "\"Equal-sized compartments\" caption baseline (y=371 and y=637, 36 px) is 5 px above the bottom edge of its panel (376 and 642), so descenders cross the panel edge.",
+          "source": "SVG coordinates"
+        }
+      ]
+    },
+    {
+      "figureBase": "checkpoint-contact-capture-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/immune-regulation/immune-checkpoint.md"
+      ],
+      "requirementIds": [
+        "chk.fig-contact"
+      ],
+      "teachingAndContentReview": "Three scenes: PD-1 with PD-L1 and CD28 with CD86 (arrow showing less CD28 signalling), CTLA-4 binding CD86 with CD28 unoccupied, and CD86 captured into a vesicle with \"Fewer available ligands\". Consistent with Hui 2017 (CD28 is the preferred target) and Qureshi 2011 (trans-endocytosis) as read in the prior packet. The lesson caption boundary (schematic, not a blockade diagram) is not drawn in the figure.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "both themes",
+          "detail": "In scene 3 the label \"Fewer available ligands\" abuts the \"CD86\" label with no gap. Text is raster-baked; not machine-readable, so the authored alt text carries the content.",
+          "source": "visual review of 760 px render"
+        }
+      ]
+    },
+    {
+      "figureBase": "cd1d-lipid-and-peptide-hla-displays-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/nkt-cells.md"
+      ],
+      "requirementIds": [
+        "nkt.fig-cd1d"
+      ],
+      "teachingAndContentReview": "iNKT TCR contacting lipid in a CD1d groove versus conventional TCR contacting peptide in an HLA groove; \"NKT are T cells; NK cells differ. One iNKT example, not all NKT.\" Consistent with Koch 2005 (lipid tails inside the CD1d groove) and Kawano 1997 read in the prior packet.",
+      "defects": [
+        {
+          "severity": "cosmetic",
+          "where": "both themes",
+          "detail": "The \"Peptide\" leader line ends on the peptide stroke and the \"HLA\" leader line ends beside rather than on the groove; meaning is unaffected.",
+          "source": "visual review"
+        }
+      ]
+    },
+    {
+      "figureBase": "coexisting-macrophage-programs-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/macrophage-states.md"
+      ],
+      "requirementIds": [
+        "mac.fig-programs"
+      ],
+      "teachingAndContentReview": "Fictional cultured macrophages, RNA scores at 24 hours; bar widths equal the printed values (148/185=0.80, 83.25/185=0.45, 64.75/185=0.35, 157.25/185=0.85, 120.25/185=0.65, 101.75/185=0.55); \"Measured scores, not switches. Markers do not prove function.\" matches the lesson. The invented values are not copied into OnCo.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "dark variant only (light variant has no panel fills)",
+          "detail": "Heading \"Selected program scores\" (baseline y=188, 28 px) rises to about y=168, above its panel top y=170, and the footer \"Measured scores, not switches.\" (baseline y=781) rises to about y=761, above its panel top y=763, so letter tops are clipped or touch the panel edge.",
+          "source": "SVG coordinates"
+        }
+      ]
+    },
+    {
+      "figureBase": "dna-sensing-and-sting-traffic-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/cgas-sting.md",
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/pattern-recognition-damps-and-pamps.md"
+      ],
+      "requirementIds": [
+        "sting.fig-dna",
+        "prr.fig-dna"
+      ],
+      "teachingAndContentReview": "Cell cutaway with accessible DNA and cGAS in the cytosol, cGAMP binding membrane-bound STING at the ER, \"Intracellular traffic\" to the Golgi, downstream signals and a nuclear \"Gene response?\" question, host versus cancer cell panels (\"Measure each separately\") and \"Signal not equal to benefit\". Consistent with Sun 2013 and Mukai 2016 abstracts (cell experiments). The same asset serves the cGAS-STING and pattern-recognition lessons.",
+      "defects": []
+    },
+    {
+      "figureBase": "native-gamma-delta-contact-and-added-car-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/gamma-delta-t-cells.md"
+      ],
+      "requirementIds": [
+        "gd.fig-contacts"
+      ],
+      "teachingAndContentReview": "Native Vgamma9Vdelta2 TCR contacting BTN2A1 (solid) and BTN3A1 (dashed) with target-cell phosphoantigens, versus an engineered CAR binding target X; \"Native route varies by subset. CAR needs X; test function.\" Consistent with Rigau 2020 (BTN2A1 binds the Vgamma9 chain; a second ligand, possibly BTN3A1, binds a separate region) as read in the prior packet.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "dark variant only",
+          "detail": "Heading \"Added CAR: target X\" (baseline y=527, 28 px) and the first footer line \"Native route varies by subset.\" (baseline y=775) rise to about y=507 and y=755, level with their panel tops (506 and 754), so letter tops touch the panel edge.",
+          "source": "SVG coordinates"
+        }
+      ]
+    },
+    {
+      "figureBase": "nk-target-contacts-and-remaining-inputs-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/innate-and-unconventional-cells/nk-cell-and-missing-self.md"
+      ],
+      "requirementIds": [
+        "nk.fig-nk"
+      ],
+      "teachingAndContentReview": "Two scenes: expected self contacts (two inhibitory, one activating) versus one inhibitory contact missing (X at HLA A), with the other inhibitory contact and the activating contact remaining; \"NK: natural killer; no signal weights\"; \"Other inputs remain. Test the actual NK-target pair.\" Consistent with Karre 1986, Braud 1998 and Long 2013 as read.",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "both themes",
+          "detail": "Row labels (\"Inhib. A\", \"Activating\", \"HLA A\", \"Ligand\") straddle the rounded NK-cell and target blobs (blob y=209 to 372, label baseline y=221 at 34 px), so each label half overlaps the fill. Contrast stays at or above 4.87:1 in dark and 5.32:1 in light.",
+          "source": "SVG coordinates and contrast calculation"
+        }
+      ]
+    },
+    {
+      "figureBase": "lymph-node-entry-routes-v3-20261011",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/the-immune-system/lymph-nodes-and-lymphatics.md"
+      ],
+      "requirementIds": [
+        "lymph.fig-routes"
+      ],
+      "teachingAndContentReview": "Afferent lymph with soluble material and a migrating dendritic cell, capsule and subcapsular sinus, B-cell follicles and T-cell region, medulla, artery-capillary-HEV-vein route with an HEV inset showing a naive lymphocyte crossing from blood, hilum, efferent lymph and \"Drainage does not prove cancer involvement.\" Consistent with the Willard-Mack abstract (B and T cells home to separate areas) and Brulois 2020 (HEV recruitment).",
+      "defects": [
+        {
+          "severity": "minor",
+          "where": "both themes",
+          "detail": "The \"Capillaries\" and \"HEV\" labels touch at the vessel junction. Text is raster-baked; alt text carries the content.",
+          "source": "visual review"
+        }
+      ]
+    },
+    {
+      "figureBase": "signals-vessels-and-recruited-cells-v1",
+      "lessonPages": [
+        "wiki/education/concepts/immunology/the-immune-system/inflammation.md"
+      ],
+      "requirementIds": [
+        "infl.fig-tissue"
+      ],
+      "teachingAndContentReview": "Local signals from a damaged cell, vessel with a cell-entry arrow (recruit cells) separate from a fluid/protein arrow, a fork to \"Contain / repair\" and \"Persist / injure\", and \"Permeability not equal to new vessels\". Matches the lesson teaching.",
+      "defects": [
+        {
+          "severity": "moderate",
+          "where": "both themes",
+          "detail": "The fork is one path element (M240 679L111 719M240 679L356 719) with marker-end. Under SVG rules marker-end draws only at the end of the last subpath, so the \"Persist / injure\" branch has an arrowhead and the \"Contain / repair\" branch has none. This is an authored-source defect, not a renderer limit, and it makes one outcome look like a line and the other like a direction.",
+          "source": "SVG path and marker definition"
+        }
+      ]
+    }
+  ],
+  "rendererLimits": {
+    "renderer": "sharp 0.35.4 (libvips 8.18.6, librsvg 2.62.91, cairo 1.18.4, pango 1.58.2, fontconfig 2.18.3)",
+    "svgDensity": 144,
+    "svgOutput": "resized to at most 1500 px wide",
+    "pngOutput": "downscaled from 1024 to 760 px wide",
+    "fonts": "the SVGs name \"Arial, sans-serif\"; the render used the system fallback, so text widths and any overlaps can differ in a browser",
+    "notDone": [
+      "no browser render",
+      "no screen-reader or keyboard review",
+      "no data-theme-pair swap behaviour tested",
+      "no print or forced-colours check",
+      "PNG text contrast not measured numerically",
+      "no review of the generated image-prompt or provenance files"
+    ]
+  },
+  "viewAttribution": "Twenty individual full-extent light/dark variant views by the independent reviewer, reused at both pins only after blob, SHA-256 and byte checks. Coordinator claims no new image views.",
+  "copiedArtwork": 0
+}

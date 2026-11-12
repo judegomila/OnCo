@@ -1,0 +1,33 @@
+{
+  "newTeachingEntries": [
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-dark.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-light.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-dark.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/ar-intervention-locations-v1-light.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-dark.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/cdk-cell-cycle-versus-rna-jobs-b13-v1-light.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-dark.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/egfr-outside-inside-and-cargo-contacts-v1-light.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-dark.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/therapeutics/targeted-small-molecules/images/pi3k-membrane-nodes-and-feedback-b13-v1-light.svg"
+  ],
+  "retainedBETTeachingEntries": [
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-dark.svg",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/cancer-biology/signaling-pathways/images/bet-mark-pocket-and-depletion-v1-light.svg"
+  ],
+  "freshUniqueSourceFilesViewed": 10,
+  "lightAndDarkSourceFiles": 10,
+  "sourceAssetVersionEntries": 20,
+  "originalScopeChanges": 8,
+  "laterScopeChanges": 8,
+  "sourceArtworkImported": false,
+  "expertAccessibilityOrLiveGuideApproval": false
+}

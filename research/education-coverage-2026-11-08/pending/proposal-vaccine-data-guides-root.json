@@ -1,0 +1,928 @@
+{
+  "version": "proposal-vaccine-data-guides-root",
+  "state": "Actual committed registered fields in the unmerged root draft; no main/live approval",
+  "draft": 375,
+  "committedDataHead": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "records": [
+    {
+      "id": "neoantigen-mrna-vaccine",
+      "kind": "technology",
+      "name": "Personalised neoantigen (mRNA) vaccines",
+      "aka": [],
+      "tldr": "A vaccine made for one patient, encoding the unique mutations in their own tumour, to train the immune system to hunt it.",
+      "summary": "Personalised neoantigen mRNA vaccines encode selected tumour-derived sequences to support antigen-directed immunity. Credible source sequence, delivery, peptide display, T-cell recognition and clinical benefit are separate questions.\n\nMerck and Moderna reported in August 2026 that intismeran autogene (V940/mRNA-4157) with pembrolizumab met recurrence-free and distant-metastasis-free survival endpoints in INTerpath-001 in completely resected stage IIB-IV melanoma. This is the companies' interim report about a combination and population, rather than a finding about every cancer vaccine or a regulatory approval.\n\nRojas and colleagues' 2023 pancreatic phase 1 study treated 16 people with atezolizumab and autogene cevumeran, followed by chemotherapy in 15. The association between an immune response and recurrence-free survival does not isolate the vaccine's causal contribution. A phase 2 resected-pancreatic study, NCT05968326, is active but not recruiting in its registry record.\n\nOther named V940 records have different stages: NCT06077760 in lung cancer is phase 3, NCT06307431 in renal cancer is phase 2, and NCT06305767 in bladder cancer is phase 1/2. The cutaneous squamous-cell study NCT06295809 is terminated for business reasons; that status is not an efficacy result. These are individual registry examples, not an exhaustive trial inventory.",
+      "status": "phase-3",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cancer_vaccine",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+        },
+        {
+          "label": "NCI: how cancer treatment vaccines work",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+        },
+        {
+          "label": "OpenStax: T-cell selection and clonal expansion",
+          "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-3-the-adaptive-immune-response-t-lymphocytes-and-their-functional-types"
+        },
+        {
+          "label": "Kranz et al.: systemic RNA delivery and antigen-specific responses (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27281205/"
+        },
+        {
+          "label": "Douek et al.: measured adult thymic output and age (1998)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+        },
+        {
+          "label": "Rojas et al.: pancreatic phase 1 combination and immune-response association (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37165196/"
+        },
+        {
+          "label": "Merck and Moderna: company-reported INTerpath-001 interim endpoints (19 August 2026)",
+          "url": "https://news.modernatx.com/merck-and-moderna-announce-phase-3-interpath-001-trial-of-intismeran-plus-keytruda-met-endpoints-of-rfs-and-dmfs-in-melanoma"
+        },
+        {
+          "label": "INTerpath-001: registry design and endpoints",
+          "url": "https://clinicaltrials.gov/study/NCT05933577"
+        },
+        {
+          "label": "Autogene cevumeran: phase 2 resected-pancreatic study",
+          "url": "https://clinicaltrials.gov/study/NCT05968326"
+        },
+        {
+          "label": "V940-002: phase 3 lung-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06077760"
+        },
+        {
+          "label": "V940-004: phase 2 renal-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06307431"
+        },
+        {
+          "label": "V940-005: phase 1/2 bladder-cancer study",
+          "url": "https://clinicaltrials.gov/study/NCT06305767"
+        },
+        {
+          "label": "V940-007: terminated cutaneous squamous-cell study",
+          "url": "https://clinicaltrials.gov/study/NCT06295809"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-neoantigen-immunogenicity-rules"
+      ],
+      "cancers": [
+        "melanoma",
+        "pancreatic",
+        "nsclc",
+        "rcc"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "intismeran-autogene",
+        "autogene-cevumeran"
+      ],
+      "companies": [
+        "moderna",
+        "merck",
+        "biontech",
+        "roche-genentech",
+        "gritstone",
+        "serova",
+        "curevac",
+        "evaxion",
+        "gamgee",
+        "geneos-therapeutics",
+        "kernal-biologics",
+        "nykode-therapeutics",
+        "tarebio",
+        "transgene",
+        "echo-immune",
+        "invoke-bio",
+        "ubivac",
+        "breakbio"
+      ],
+      "institutions": [
+        "jaime-leandro-foundation"
+      ],
+      "pathways": [],
+      "terms": [
+        "neoantigen"
+      ],
+      "trials": [
+        "interpath-001",
+        "nct07002203"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [
+        "wes-wgs",
+        "rna-seq",
+        "plasmid-dna-manufacturing",
+        "sterile-fill-finish"
+      ],
+      "notes": [
+        "These vaccines aim to recruit or amplify T cells with receptors that can recognise the selected peptide together with HLA. Innate sensing and the specific adaptive response interact, but are different observations. Antigen in a supporting context can select matching cells to activate and increase in number; vaccination does not normally rewrite the receptor genes of each mature cell. A useful matching population may have been rare before treatment.",
+        "Priming is initial activation of a naive T cell, with dendritic-cell display and supporting signals contributing. A cell translating vaccine RNA can present antigen it makes, while cross-presentation places externally acquired antigen on class I HLA. Successful priming and later tumour attack remain separate. The responding cells must reach the tumour, find an appropriate displayed target and retain useful function. These are dependencies, not a guaranteed or strictly timed chain. A shared processing defect can limit several targets; adding source sequences does not automatically remove it. Useful killing and durable benefit need their own outcome measurements.",
+        "In a fictional study, peptide-reactive cells increase in sampled blood after vaccination. This supports a response in that compartment, not entry into the tumour, recognition of naturally processed antigen or prevention of recurrence. Repeating the blood measurement cannot settle the missing tumour-recognition or clinical comparison. Rare or unavailable matching cells, unsuitable delivery, poor display or supporting signals, and later access or functional barriers call for different measurements.",
+        "Consider invented, compatible blood reports. Before dosing, clone Q is not detected by an assay that cannot reliably detect it below 0.1% of sampled receptor units. After dosing, Q represents 1%. This is first detection in these samples and is consistent with enrichment. Non-detection did not prove absence from the blood, much less the whole body. There is no measured baseline for an exact observed fold change, and compatible absolute-cell counts are needed to infer expansion rather than only a frequency change.",
+        "A separate peptide-stimulation test of the fictional cell mixture responds, but does not link that response to Q. It therefore does not assign specificity to Q or demonstrate recognition of the natural tumour. Likewise, a tenfold rise in a sampled receptor sequence reports increased representation, rather than proving a newly created receptor, absolute cell expansion, tumour killing or benefit. The 0.1%, 1% and tenfold examples are invented teaching premises with comparable sampling and methods, not patient results or clinical thresholds.",
+        "Target number, formulation, combination and timing belong to the particular product. The V940 sponsor description specifies up to 34 encoded neoantigens; Rojas and colleagues used autogene cevumeran with up to 20 in their pancreatic study. Neither number is a universal selection score or manufacturing rule. Tolerability and added benefit require evidence for the actual regimen and population; a personalised sequence does not itself establish low toxicity."
+      ],
+      "principle": "A protocol selects tumour-derived sequences and encodes them in an RNA product. Delivery, presentation and priming then require testing. Target count, formulation, route and combinations are product-specific rather than universal features of the platform.",
+      "strengths": [
+        "Patient-specific antigen selection",
+        "Immune responses and clinical outcomes can be measured separately"
+      ],
+      "limitations": [
+        "Prediction does not establish natural presentation or recognition",
+        "Manufacturing time, dose, combinations and toxicity depend on the product and protocol",
+        "Immune response does not establish clinical benefit"
+      ],
+      "since": 2017
+    },
+    {
+      "id": "neoantigen",
+      "kind": "term",
+      "name": "Neoantigen",
+      "aka": [
+        "neoantigens"
+      ],
+      "tldr": "A peptide arising from altered tumour sequence can be an immune target if it is displayed and recognised. Prediction alone does not show safe tumour killing.",
+      "summary": "A tumour sequence change can produce a new peptide sequence, but the altered sequence, its expression, HLA presentation and T-cell recognition are separate findings. Candidate sources include substitutions, frameshifts, fusions and altered RNA joins; a workflow that assessed one class has not necessarily assessed the others.\n\nComputational ranking can consider binding, expression and clonality. In the TESLA study, Wells and colleagues combined tumour-normal exomes, tumour RNA and HLA typing, then tested selected peptides for HLA binding and recognition by existing patient-matched T cells. The study focused on small somatic variants and class I antigens; it did not validate every fusion or splice source, every new response a vaccine might induce, or clinical benefit from a vaccine. A candidate peptide and a favourable prediction do not establish safe recognition of naturally presenting tumour cells.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Neoantigen",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Neoantigen"
+        },
+        {
+          "label": "Wells et al.: TESLA prediction, binding and pre-existing T-cell assays (2020)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
+        },
+        {
+          "label": "Jones et al.: paired tumour-normal sequencing and interpretation (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+        },
+        {
+          "label": "Carter et al.: purity, ploidy and mutation multiplicity (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+        },
+        {
+          "label": "Wong et al.: formalin-related sequence artefacts (2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24885028/"
+        },
+        {
+          "label": "NHGRI: DNA sequencing overview",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "neoantigen-mrna-vaccine",
+        "tcr-t"
+      ],
+      "targets": [],
+      "drugs": [
+        "intismeran-autogene"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Once the recognition mechanism is clear, a candidate source list precedes HLA matching, target selection and product construction. Confirm alteration identity, tumour specificity and biological support first. DNA, RNA and protein answer different questions, and a longer list can add uncertain calls as well as genuine candidates. A DNA alteration can nominate a possible sequence without establishing the processed peptide that a conventional T cell will recognise.",
+        "For tumour DNA, retain local usable coverage, artefacts, tumour fraction and copy number with the call. For matched normal DNA, absence is conditional on suitable sampling, coverage and detection limits. Tumour RNA can support an altered transcript, but comes from a mixture of cells and depends on expression depth and processing. Protein or peptide detection is a further observation with its own method coverage, cell-of-origin question and detection limits; none of these measurements can simply stand in for the others.",
+        "A cancer-cell fraction estimate describes the sampled cancer cells, whereas truncal describes ancestry shared across sampled branches; a subclonal alteration belongs to a subset. One small biopsy need not establish the distribution across every site. Read fraction and ancestry do not show that a peptide is displayed, and an unobserved region or insufficiently sampled alteration remains a gap rather than a demonstrated negative.",
+        "In an invented comparison, candidate A has a supported tumour DNA alteration, no support in adequately assessed normal DNA and observed mutant RNA. It has progressed further as a source candidate, but processing, HLA display and T-cell recognition remain untested. Candidate B has tumour DNA support but inadequate normal coverage, so tumour specificity is still unresolved. These are evidence questions, not a numerical ranking algorithm.",
+        "Two more fictional candidates illustrate bounded negatives. Candidate C has only a weakly supported RNA junction and needs reproducibility and artefact checks. Candidate D has strong DNA support but no RNA detection in a shallow assay, which cannot establish that the transcript is absent. None of A to D has demonstrated HLA presentation or T-cell recognition merely from these starting observations.",
+        "Prepared specimens and analysis can introduce misleading candidates through fixation damage, contamination, misalignment or uncertain junctions. The chosen reference transcript also matters when translating an altered sequence. Preserve specimen identity, coordinates and alleles, transcript/reference, method and software versions, usable coverage, thresholds and manual decisions so the result can be traced to its source. A filter or annotation is not independent proof of function."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "wes-wgs",
+      "kind": "technology",
+      "name": "Whole-exome & whole-genome sequencing",
+      "aka": [],
+      "tldr": "Exome sequencing targets mostly protein-coding exons; genome sequencing samples DNA more broadly. Both have coverage and detection limits.",
+      "summary": "With suitable preparation and analysis, WGS can reveal structural variants, mutational signatures (HRD, APOBEC, tobacco), whole-genome doubling, and non-coding drivers. Used by national programmes (Genomics England, Hartwig) and for neoantigen prediction in personalised vaccines. Suitable long-read sequencing (PacBio, Oxford Nanopore) can help resolve complex rearrangements and methylation in one run.",
+      "status": "established",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Whole_genome_sequencing",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Whole_genome_sequencing"
+        },
+        {
+          "label": "MedlinePlus Genetics: exome and genome sequencing scope",
+          "url": "https://medlineplus.gov/genetics/understanding/testing/sequencing/"
+        },
+        {
+          "label": "Jones et al.: targeted versus exome workflows and call validation (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-ecdna-targeting",
+        "clonal-evolution-models",
+        "evolutionary-game-theory-cancer",
+        "goldie-coldman-model",
+        "metastasis-seeding-models"
+      ],
+      "cancers": [
+        "nsclc",
+        "sclc"
+      ],
+      "sections": [
+        "diagnostics",
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "valius",
+        "c2i-genomics",
+        "haystack-oncology",
+        "isabl"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "mutational-signature",
+        "hrd"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-george-sclc-genomic-profiles-nature-2015",
+        "paper-zhang-lung-cancer-never-smokers-nat-genet-2021",
+        "paper-lee-clonal-history-small-cell-transformation-jco-2017"
+      ],
+      "journals": [],
+      "dependsOn": [
+        "ngs-bioinformatics-software"
+      ],
+      "notes": [
+        "A targeted panel reads selected regions; whole-exome enrichment focuses mainly on protein-coding exons, while whole-genome sequencing samples a broader DNA territory. Breadth and usable local depth differ. A broader assay does not automatically supply adequate depth, reliable structural calls or a useful vaccine target. Check the platform, preparation, validated regions and alteration classes before interpreting a negative result.",
+        "Lung cancer: whole-genome sequencing found what panels cannot. Biallelic TP53 and RB1 inactivation by complex rearrangement and the oncogenic TP73 isoform in small-cell disease (George 2015), three copy-number subtypes and the decades-long lead time of the slow subtype in never smokers (Zhang 2021), and the branched clonal history that shows small-cell transformation is set up before treatment begins (Lee 2017)."
+      ],
+      "principle": "An exome workflow enriches selected exonic regions, while a genome workflow samples a much broader DNA territory. Pairing with normal DNA, depth and variant callers depend on the assay.",
+      "strengths": [
+        "Broader sequence sampling than a selected gene panel",
+        "Can support copy-number, structural and signature analyses with a suitable workflow"
+      ],
+      "limitations": [
+        "Coverage and detection differ by region and alteration class",
+        "Depth, input quality, cost and interpretation depend on the protocol"
+      ]
+    },
+    {
+      "id": "dendritic-cell-cross-presentation",
+      "kind": "term",
+      "name": "Dendritic-cell cross-presentation (cDC1)",
+      "aka": [
+        "cross-presentation",
+        "cross-priming",
+        "cDC1",
+        "type 1 conventional dendritic cells",
+        "conventional type 1 dendritic cells",
+        "CD141+ dendritic cells",
+        "BDCA-3+ dendritic cells",
+        "CD8alpha+ dendritic cells",
+        "CD103+ dendritic cells",
+        "Batf3-dependent dendritic cells"
+      ],
+      "tldr": "Cross-presentation displays externally acquired protein fragments on class I HLA. Initial activation of a naive T cell is a further step called cross-priming.",
+      "summary": "Class I HLA commonly displays fragments of proteins made within the presenting cell. Cross-presentation means displaying externally acquired antigen on class I HLA. Naive CD8 T-cell priming is a further activation step requiring an appropriate presenting cell and supporting signals; tumour-cell display alone does not establish priming. The subset specialised for this is the type 1 conventional dendritic cell (cDC1): CD8alpha+ and CD103+ in mice, CD141 (BDCA-3)+ in humans, dependent on FLT3 ligand and the transcription factor BATF3 for development, internalising necrotic-cell material through CLEC9A (DNGR-1), a receptor for polymerised actin, and expressing the chemokine receptor XCR1, which favours contact with CD8 T cells (Alfaro et al., 2013).\n\nThe in vivo proof came from Batf3-deficient mice (Hildner et al., Science 2008): they lacked CD8alpha+ dendritic cells, their dendritic cells were defective in cross-presentation, and they failed to reject highly immunogenic syngeneic tumours. In mouse melanoma, CD103+ dendritic cells were the only antigen-presenting cells carrying intact antigen to lymph nodes and priming tumour-specific CD8 T cells, and they were required for PD-L1 blockade to work; expanding them with FLT3 ligand and activating them with intratumoral poly I:C improved responses to PD-L1 and BRAF inhibition (Salmon et al., Immunity 2016). This is why a scarcity of cDC1 in a tumour is read as one cause of a cold, checkpoint-resistant tumour, and why vaccine designs target antigen to cDC1 receptors such as CLEC9A, or expand and activate these cells, rather than relying on bulk monocyte-derived dendritic cells.\n\nCross-presentation names a display process, whereas cross-priming names the activation of naive CD8 T cells through it, which needs supporting signals and its own readout. Direct presentation remains possible: a dendritic cell that receives vaccine messenger RNA and makes the protein itself presents it directly. A cell can also acquire already assembled peptide-HLA complexes from another cell (cross-dressing), which does not show processing by the recipient (Wakim and Bevan, Nature 2011, PMID 21455179, mouse viral infection). External antigen on class II is not cross-presentation.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Hildner et al., Batf3 deficiency reveals a critical role for CD8alpha+ dendritic cells in cytotoxic T cell immunity, Science 2008 (PMID 19008445)",
+          "url": "https://doi.org/10.1126/science.1164206"
+        },
+        {
+          "label": "Salmon et al., Expansion and activation of CD103+ dendritic cell progenitors at the tumor site enhances tumor responses to therapeutic PD-L1 and BRAF inhibition, Immunity 2016 (PMID 27096321)",
+          "url": "https://doi.org/10.1016/j.immuni.2016.03.012"
+        },
+        {
+          "label": "Alfaro et al., Specialized dendritic cells in cross-presentation of exogenous antigens to cytotoxic T lymphocytes (review in Spanish, English abstract), An Sist Sanit Navar 2013 (PMID 24406364)",
+          "url": "https://doi.org/10.4321/s1137-66272013000300016"
+        },
+        {
+          "label": "CD8(+) but not CD8(-) dendritic cells cross-prime cytotoxic T cells in vivo.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11120766/"
+        },
+        {
+          "label": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20479116/"
+        },
+        {
+          "label": "Cross-dressed dendritic cells drive memory CD8+ T-cell activation after viral infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21455179/"
+        },
+        {
+          "label": "Joffre et al.: cross-presentation and dendritic-cell routes (review, 2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22790179/"
+        },
+        {
+          "label": "OpenStax: conventional T-cell presentation and activation",
+          "url": "https://openstax.org/books/biology-2e/pages/42-2-adaptive-immune-response"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antigen-presentation-immunoediting",
+        "cgas-sting",
+        "antigen-processing-machinery",
+        "hla"
+      ],
+      "cancers": [],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [
+        "dendritic-cell-vaccines",
+        "checkpoint-inhibitor"
+      ],
+      "targets": [
+        "cd141",
+        "flt3",
+        "cd8",
+        "pdl1"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "neoantigen",
+        "immunogenic-cell-death",
+        "cold-vs-hot",
+        "immune-checkpoint"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The marker and mechanism list (CD141, FLT3 ligand, BATF3, CLEC9A as an F-actin receptor, XCR1) rests on the English abstract of Alfaro et al. 2013; the Hildner and Salmon findings rest on their abstracts. All three DOIs were resolved through Crossref and PubMed on 3 November 2026.",
+        "The checkpoint evidence cited is from mouse models; no human trial result is claimed here.",
+        "OnCo has no target records for XCR1, CLEC9A or BATF3 yet, so they are named in the text but not linked."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "t-cell-priming-three-signals",
+      "kind": "term",
+      "name": "T-cell priming and the three-signal model",
+      "aka": [
+        "T-cell priming",
+        "three-signal model"
+      ],
+      "tldr": "A naive T cell's first activation depends on recognition and supporting signals. Division and killing are separate outcomes.",
+      "summary": "The three-signal teaching model groups peptide-HLA recognition by the T-cell receptor as signal one, costimulation as signal two and cytokine context as signal three. The naive cell already has its receptor. The model organises interacting processes; it is not a universal three-step checklist, and experienced or engineered cells can have different requirements.\n\nCurtsinger and colleagues showed that type I interferons or IL-12 could support naive CD8 survival and effector differentiation in defined experiments. Proliferation without a third signal did not establish cytolytic function. Antigen presentation and initial priming are different processes. In a fictional matched comparison, two cultures each divide three times but only one kills appropriate targets above target-only background: equal division does not show equal function. Compare viable-cell input, peptide loading, HLA compatibility, cell ratios, exposure and positive and negative controls. Priming does not itself demonstrate natural tumour display, tumour access, safe killing or patient benefit.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Type I IFNs provide a third signal to CD8 T cells to stimulate clonal expansion and differentiation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15814665/"
+        },
+        {
+          "label": "Binding of the B cell activation antigen B7 to CD28 costimulates T cell proliferation and interleukin 2 mRNA accumulation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1847722/"
+        },
+        {
+          "label": "Help for cytotoxic-T-cell responses is mediated by CD40 signalling.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9624004/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Priming is a naive cell's initial activation in a supporting context. Signal one is TCR recognition of peptide-HLA, signal two includes CD80/CD86-CD28 costimulation and inhibitory context, and signal three includes differentiation-supporting cytokines. The receptor pre-exists the encounter. These signals interact over time; the model is not a three-button checklist and antigen-experienced or engineered cells can have different requirements.",
+        "IL-12 and type I interferons (alpha/beta) supported naive CD8 survival and cytolytic differentiation in defined experiments. Cytokines are signalling proteins, not nutritional fuel. Type I interferon can connect innate responses to priming, but this does not prescribe a universal cytokine intervention or establish every cGAS-STING step. Dendritic-cell priming support and tumour antigen display answer different questions.",
+        "Division, viable-cell expansion, cytokine production and target-cell death are distinct priming outcomes. In a fictional matched experiment both cultures show three divisions, yet only B kills appropriate targets above target-only background. Measure these outcomes separately with defined starting cells, presenting system, signal perturbation, matched time, peptide loading, HLA, cell ratios and culture conditions. Priming does not establish tumour access, natural display, safe killing or clinical benefit, and stronger stimulation can support unwanted populations.",
+        "Source scope: teaching synthesis checked against the cited abstracts and specified accessible primary text on 9 November 2026; fictional examples are not clinical observations or treatment-selection rules."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "t-cell-receptor",
+      "kind": "term",
+      "name": "T-cell receptor",
+      "aka": [
+        "TCR",
+        "alpha-beta T-cell receptor"
+      ],
+      "tldr": "A conventional T-cell receptor recognises a peptide together with its HLA display. Recognition alone does not show killing.",
+      "summary": "A conventional alpha-beta T-cell receptor uses paired chains to recognise a peptide-HLA surface. Its recognition chains assemble with CD3 signalling partners, as demonstrated in the human TCR-CD3 structural study. CDR3 is an informative variable region, but neither a beta-chain sequence nor CDR3 alone specifies the complete paired receptor or its function.\n\nParticular receptors can cross-react across peptide and HLA contexts; that does not establish a universal cross-reactivity rate. Paired receptor identity, binding, activation, target-cell death and clinical benefit require different evidence. A response by one reconstructed pair to peptide-loaded cells does not establish that another alpha-chain pairing recognises the same target, or that either kills naturally presenting tumour cells. Use irrelevant-target, HLA and target-only viability controls. Peptide loading can bypass natural processing, and contact diagrams are not healthy-tissue safety tests.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Structural basis of assembly of the human T cell receptor-CD3 complex.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31461748/"
+        },
+        {
+          "label": "Extraordinary cross-reactivity of an autoimmune T-cell receptor recognizing specific peptides both on autologous and on allogeneic HLA class II molecules.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17559580/"
+        },
+        {
+          "label": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
+        },
+        {
+          "label": "High-resolution analysis of the human T-cell receptor repertoire.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26324409/"
+        },
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A conventional alpha-beta TCR uses paired variable and constant domains to contact peptide plus HLA. The peptide sits in the HLA groove, not a separate TCR peptide pocket. CD3 signalling partners are distinct from recognition chains. Contact loops including junction-spanning CDR3 contribute, but other loops, the partner chain and HLA matter; beta-only or CDR3-only sequence is incomplete.",
+        "Cross-reactivity is recognition of multiple targets by a receptor. Defined receptor experiments demonstrated peptide/HLA cross-reactivity, not recognition of every allele by an arbitrary receptor or a universal rate. Greater affinity or a contact drawing does not establish healthy-tissue safety.",
+        "Sequencing reports sampled receptor identities and abundances under an operational clonotype definition. Paired alpha-beta identities are more complete than beta alone. Peptide-HLA multimer binding, stimulus-induced cellular response, target-cell death and clinical benefit are different endpoints. Include irrelevant-target, HLA and target-only viability controls; peptide-loaded cells can bypass natural processing.",
+        "Vaccination generally recruits or expands existing mature receptor specificities rather than rewriting each mature receptor. Engineered TCR therapy introduces selected receptor sequences. In either case, tested recognition must still connect to naturally presenting tumour targets, useful function and healthy-tissue safety. If one beta sequence pairs with different alpha chains, a positive reconstruction of one pair does not establish the other pair's function or tumour killing.",
+        "Source scope: teaching synthesis checked against the cited abstracts and specified accessible primary text on 9 November 2026; fictional examples are not clinical observations or treatment-selection rules."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "thymic-output-and-aging",
+      "kind": "term",
+      "name": "Thymic output and ageing",
+      "aka": [],
+      "tldr": "The thymus can produce new T cells in adulthood. A naive-cell count does not directly measure that output.",
+      "summary": "Human studies support continued thymic output into adulthood, with age-related decline rather than a fixed birthday shutdown. Existing naive cells can also survive and divide outside the thymus. Human and mouse kinetic studies found different contributions of thymic output and peripheral division; mouse dependence on new output cannot be transferred directly to adult humans.\n\nT-cell receptor excision circles (TRECs) are rearrangement by-products that do not replicate with chromosomes. Peripheral division can dilute measured TREC content. In a fictional closed ledger, 2 cells carrying 4 total circles divide into 4 cells retaining 4 circles: average copies per cell fall from 2 to 1. Allocation can be uneven. This isolates division and does not count new arrivals or daily thymic export. Copies per cell and copies per blood volume have different denominators. Interpret output with survival, division, movement, compartment and timing; naive phenotype, thymic imaging or TREC content alone cannot provide a complete immune-age or cancer-benefit forecast.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Changes in thymic function with age and during the treatment of HIV infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9872319/"
+        },
+        {
+          "label": "Sparse production but preferential incorporation of recently produced naive T cells in the human peripheral pool.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18420820/"
+        },
+        {
+          "label": "Maintenance of peripheral naive T cells is sustained by thymus output in mice but not humans.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/"
+        },
+        {
+          "label": "Increased cell division but not thymic dysfunction rapidly affects the T-cell receptor excision circle content of the naive T cell population in HIV-1 infection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10973325/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "t-cell"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Thymic output is release of newly developed T cells; involution is a gradual, variable decline in active tissue rather than a fixed adult-age shutdown. Human age and HIV-treatment measurements support adult output, but no universal individual output rate. Naive-cell maintenance also reflects survival, peripheral division, movement and loss. Human/mouse kinetic comparisons found materially different dependencies; mouse output cannot dictate a human collection or banking rule.",
+        "TRECs are circular receptor-rearrangement by-products that do not replicate with chromosomes. In a fictional closed ledger, 2 cells with 4 circles become 4 cells with the same 4 circles: average copies per cell decline from 2 to 1. Daughter pairs can carry 2/0 and 1/1 circles, each retaining the parent's 2. Division alone can dilute copies per cell without proving stopped output. Copies per cell and per blood volume answer different questions; the ledger does not count new arrivals, immune age or daily export.",
+        "Naive phenotype is not a recent-emigrant birth certificate. Flow phenotype/counts, kinetic labelling and modelling, receptor sequencing and thymic imaging supply different information; imaging is not a direct daily output count. Interpret measurements with exposure, compartment, observation time, division, survival and movement. Neither more diversity, adult output nor age alone promises a new cancer-recognising receptor, vaccine benefit or a collection recommendation.",
+        "Source scope: teaching synthesis checked against the cited abstracts and specified accessible primary text on 9 November 2026; fictional examples are not clinical observations or treatment-selection rules."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "antigen-processing-machinery",
+      "kind": "term",
+      "name": "Antigen-processing machinery (APM)",
+      "aka": [
+        "APM",
+        "antigen processing"
+      ],
+      "tldr": "Cells cut up proteins, move some fragments to a loading site and place them on display molecules that T cells can inspect. Having a protein inside a cell does not guarantee its fragment is shown.",
+      "summary": "Antigen-processing machinery (APM) is the set of proteins that generate, transport and load peptides onto HLA. A common class I route has five steps. (1) The proteasome cuts intracellular proteins into fragments, which can create a useful peptide or destroy it. (2) The transporter associated with antigen processing, TAP1 with TAP2, moves peptides into the endoplasmic reticulum; Shepherd et al. (1993) showed in a cell-free system that TAP1 is part of an ATP-dependent, sequence-selective peptide translocator. (3) ERAP1 and ERAP2 trim amino acids from the front end. York et al. (2002) found that ERAP1 can enhance or limit presentation by trimming epitopes to 8 to 9 residues, and Saveanu et al. (2005) found complementary human ERAP1 and ERAP2 activity, so more expression does not universally improve display. A class I HLA heavy chain assembles with beta-2 microglobulin (B2M) and a peptide, with helpers such as tapasin. (4) Stable peptide-HLA complexes reach the surface; the peptide stays held by HLA. (5) A compatible T-cell receptor on a conventional CD8 T cell may recognise the pair; recognition is a separate gate and display alone does not show killing.\n\nClass II HLA commonly loads peptides in vesicles that process acquired proteins. An invariant chain protects the new groove and directs it there; after cutting, a remaining fragment is exchanged for other peptides with help from HLA-DM, and conventional CD4 T cells inspect these displays. Cross-presentation lets externally acquired material reach class I. The scheme is a common route, not a rule for every peptide.\n\nA cancer cell may keep an altered protein and still show little of its peptide, and a shared processing defect can affect several targets at once, so adding candidate peptides does not bypass the bottleneck. Low expression, gene loss and a functional defect are different findings: a weak RNA signal does not prove deletion. Interferon gamma can increase presentation machinery when its signalling pathway and the required genes are intact, and cannot replace a deleted B2M or HLA gene. Sucker et al. (2017) described melanoma lesions in which JAK1 or JAK2 defects gave interferon-gamma resistance and evolved into HLA class I negative, T-cell-resistant lesions with antigen-presentation genes silenced and no longer inducible. Zaretsky et al. (2016) found, in biopsies from patients with acquired resistance to PD-1 blockade, JAK1 or JAK2 loss of function in two of four patients and a truncating B2M mutation with lost surface class I in a third. These are melanoma observations, not treatment-benefit evidence.\n\nEvidence layers differ. DNA sequence and copy number show gene retention or alteration but not expression or function; RNA shows sampled gene activity but not protein, assembly or display; protein staining or flow cytometry detects protein but not which peptide is shown; HLA-associated peptide recovery shows a peptide was recovered with HLA in that preparation but not its cell of origin or recognition; controlled T-cell recognition shows function against tested targets. Peptide loading can bypass processing, so rescue by supplied peptide supports a bottleneck under those conditions only. Binding prediction is not presentation, and CD4 help is not proof of CD8 tumour recognition.",
+      "asOf": "2026-11-09",
+      "links": [
+        {
+          "label": "Shepherd et al., 1993, Cell (PMID 8348620)",
+          "url": "https://doi.org/10.1016/0092-8674(93)80058-m"
+        },
+        {
+          "label": "York et al., 2002, Nature Immunology (PMID 12436110)",
+          "url": "https://doi.org/10.1038/ni860"
+        },
+        {
+          "label": "Saveanu et al., 2005, Nature Immunology (PMID 15908954)",
+          "url": "https://doi.org/10.1038/ni1208"
+        },
+        {
+          "label": "Sucker et al., 2017, Nature Communications (PMID 28561041)",
+          "url": "https://doi.org/10.1038/ncomms15440"
+        },
+        {
+          "label": "Zaretsky et al., 2016, New England Journal of Medicine (PMID 27433843)",
+          "url": "https://doi.org/10.1056/nejmoa1604958"
+        },
+        {
+          "label": "Vogt et al. 1996: HLA-DM-catalysed peptide exchange on HLA-DR in vitro",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8790398/"
+        },
+        {
+          "label": "Review: Major Histocompatibility Complex (MHC) Class I and MHC Class II Proteins: Conformational Plasticity in Antigen Presentation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28367149/"
+        }
+      ],
+      "tags": [
+        "education-immunology-2026-11"
+      ],
+      "related": [
+        "hla",
+        "b2m",
+        "dendritic-cell-cross-presentation",
+        "antigen",
+        "epitope",
+        "tap1",
+        "tap2",
+        "erap1",
+        "erap2"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [
+        "b2m",
+        "psmb8",
+        "psmb9",
+        "ciita",
+        "jak1",
+        "jak2",
+        "tap1",
+        "tap2",
+        "erap1",
+        "erap2"
+      ],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "hla",
+        "dendritic-cell-cross-presentation",
+        "antigen"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Abstract-depth reads on 9 November 2026. The class II chapter cited by the teaching source (Janeway, NBK26926) refused scripted access, so the invariant chain and HLA-DM description is textbook-level and not checked against the chapter text here.",
+        "The HLA-DM step is independently supported by Vogt and colleagues: in vitro kinetics and binding measurements demonstrated catalytic exchange of invariant-chain-derived CLIP for peptides on HLA-DR. This verifies the exchange mechanism in that system; the inaccessible textbook chapter remains an access failure.",
+        "TAP1, TAP2, ERAP1 and ERAP2 now have separate reviewed-human gene owners. PSMB8, PSMB9 and CIITA retain their existing catalogue owners; this audit does not re-verify every catalogue claim.",
+        "Accessible MHC review: selected invariant-chain, CLIP and HLA-DM sections were read; this is review context in addition to the primary HLA-DM experiment, not an opened Bookshelf chapter."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "variant-calling",
+      "kind": "term",
+      "name": "Variant calling",
+      "aka": [
+        "variant calling",
+        "somatic variant calling",
+        "variant caller",
+        "variant callers",
+        "SNV calling",
+        "mutation calling"
+      ],
+      "tldr": "Variant calling evaluates sequence evidence and error models to identify candidate changes within a defined assay scope.",
+      "summary": "Variant calling assesses whether observed sequence or regional evidence supports a difference from a reference or comparison sample. Evidence quality, independent fragments, local depth, error models and the alteration class matter. Annotation describes possible consequence after calling; neither annotation nor a passed filter independently proves function or treatment relevance. Negative calls retain the workflow coverage and detection limits.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/SNV_calling_from_NGS_data",
+      "links": [
+        {
+          "label": "Lawrence et al., Mutational heterogeneity in cancer and the search for new cancer-associated genes (MutSigCV, Nature 2013)",
+          "url": "https://doi.org/10.1038/nature12213"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/SNV_calling_from_NGS_data"
+        },
+        {
+          "label": "Sensitive detection of somatic point mutations in impure and heterogeneous cancer samples.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23396013/"
+        },
+        {
+          "label": "Guidelines for Validation of Next-Generation Sequencing-Based Oncology Panels: A Joint Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28341590/"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "wes-wgs",
+        "ngs-bioinformatics-software"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "germline-vs-somatic",
+        "variant-effect-prediction",
+        "mutsig"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Base quality concerns confidence in a sequence letter; mapping quality concerns its proposed location. A clear letter can still map ambiguously. Depth depends on the chosen quality, duplicate and overlapping-pair filters, so retain these rules with support counts. Source: https://www.htslib.org/doc/samtools-depth.html, samtools 1.25 manual.",
+        "Passing a computational filter does not establish biological function or treatment benefit. Agreement between callers using the same reads does not create independent molecular evidence; a shared mapping problem can remain. The exact regions, alteration classes and usable local evidence constrain a negative result.",
+        "Variant calling evaluates sequence evidence and error models to identify candidate differences; methods are class-specific (substitutions, indels, copy changes, rearrangements) and a workflow calling one class may not call another.",
+        "Evidence includes usable depth, base and mapping quality, strand and fragment distribution and comparison-sample support; somatic callers must handle low-frequency evidence in mixed samples.",
+        "In VCF, PASS means the call passed the stated filters; a dot means filters have not been applied; counts and allele fractions need defined denominators.",
+        "Annotation adds gene or predicted consequence and is separate from calling; machine learning is one method, not the definition.",
+        "Two callers agreeing on shared reads can share misalignment error; confirmation needs an independent suitable method; a negative call set is bounded by detectable regions, classes and fractions.",
+        "Fictional teaching exercise: A call that is PASS in two tools but supported only by reads aligning ambiguously to duplicated regions has not resolved location.",
+        "Calling uses existing reads, a reference assembly and optional comparison files; a new confirmation assay can consume more material. Report coordinates, alleles, support, quality, filters and defined fractions/copy estimates. Retain caller version, detectable regions/classes and thresholds. Contamination, damage, misalignment and reference mismatch require specimen-specific end-to-end validation; filter thresholds are not treatment thresholds.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/variant-calling."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing",
+      "kind": "term",
+      "name": "Tumor-normal versus tumor-only sequencing",
+      "aka": [],
+      "tldr": "Comparing tumour and suitable normal DNA helps distinguish acquired changes from inherited ones.",
+      "summary": "A matched normal is a separately collected specimen from the same person chosen to represent constitutional DNA; normal is an analytical role, not a guarantee of uncomplicated cells; it differs from a healthy reference cohort.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Personalized genomic analyses for cancer mutation discovery and interpretation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+        },
+        {
+          "label": "Guidelines for Validation of Next-Generation Sequencing-Based Oncology Panels: A Joint Consensus Recommendation of the Association for Molecular Pathology and College of American Pathologists.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28341590/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "ngs"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A matched normal is a separately collected specimen from the same person chosen to represent constitutional DNA; normal is an analytical role, not a guarantee of uncomplicated cells; it differs from a healthy reference cohort.",
+        "Evidence in the normal supports constitutional origin; adequate tumour and normal depth with no normal support supports somatic origin; inadequate normal depth leaves an attribution gap and absence there is uninformative.",
+        "Tumour-only workflows infer origin from population databases, allele fractions and models; rare germline variants may be absent from databases; a hotspot or familiar gene does not prove tumour-only origin.",
+        "In Jones et al. (2015), 815 tumour-normal pairs across 15 tumour types, germline changes in cancer-predisposing genes were found in 3% of patients with apparently sporadic cancers; tumour-only analysis could not definitively identify them and added false positives of 31% (targeted) and 65% (exome) of alterations.",
+        "Origin does not establish function, hereditary-risk conclusions or drug benefit; paired research sequencing is not a validated hereditary test.",
+        "Fictional teaching exercise: A tumour-only rare repair-gene variant at 48% allele fraction absent from databases cannot be labelled inherited or somatic from those facts; review copy state and attribution model.",
+        "Retain specimen identity, suitable normal tissue, extraction consumption, reference coordinates, both support counts and fractions, attribution rules and uncertainty. Normal sampling need not require a second tumour biopsy. Mismatch, contamination, low normal coverage and rare constitutional variants can mislead; validate the intended somatic/germline workflow and confirmation policy separately."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "germline-vs-somatic",
+      "kind": "term",
+      "name": "Germline vs somatic mutations",
+      "aka": [
+        "germline",
+        "somatic",
+        "inherited mutations",
+        "tumour-normal"
+      ],
+      "tldr": "A DNA change can be inherited, newly constitutional or acquired in a cell lineage. A change found in a tumor is not automatically tumor-specific.",
+      "summary": "Inherited germline variants came through an egg or sperm and are generally present across many tissues. A de novo constitutional variant need not have been inherited from a parent. Changes arising after fertilization can create mosaic distributions. Somatic variants occur in body-cell lineages, including normal tissues as well as cancers. Origin, distribution, harmfulness and transmissibility are separate questions; neither a variant class nor a large read fraction settles them.",
+      "asOf": "2026-11-08",
+      "wikipedia": "https://en.wikipedia.org/wiki/Germline_mutation",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Germline_mutation"
+        },
+        {
+          "label": "MedlinePlus Genetics: inherited, de novo and mosaic variants",
+          "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+        },
+        {
+          "label": "NHGRI: Mosaicism",
+          "url": "https://www.genome.gov/genetics-glossary/Mosaicism"
+        },
+        {
+          "label": "Personalized genomic analyses for cancer mutation discovery and interpretation.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25877891/"
+        },
+        {
+          "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/"
+        },
+        {
+          "label": "NCI: inherited-cancer testing, tumor testing and bounded negative results",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "alleles-and-zygosity",
+        "vaf",
+        "clonal-haematopoiesis"
+      ],
+      "cancers": [
+        "prostate",
+        "prostate-mcrpc"
+      ],
+      "sections": [],
+      "technologies": [
+        "germline-testing"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-pritchard-inherited-dna-repair-metastatic-prostate-nejm-2016",
+        "paper-nicolosi-germline-variants-prostate-testing-guidelines-jama-oncol-2019",
+        "paper-tukachinsky-ctdna-3334-advanced-prostate-ccr-2021"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Suitable tumor/normal comparison can help attribute origin, but blood can carry acquired hematopoietic clones. Plasma variants can arise from those clones as well as a tumor. Mosaicism, contamination, specimen suitability and assay limits require assessment rather than automatic subtraction of every blood-matching variant.",
+        "Tumor sequencing is distinct from a clinical hereditary test. A negative result is bounded by its specimen, covered genes, detectable change classes and method; research matched-normal analysis does not automatically supply a hereditary-risk report."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "vaf",
+      "kind": "term",
+      "name": "Variant allele frequency (VAF)",
+      "aka": [],
+      "tldr": "Variant allele frequency is the fraction of informative reads or molecules that support a variant under a test’s definition. It is not directly the fraction of cancer cells.",
+      "summary": "Read-based VAF divides variant-supporting reads by informative reads at the locus. Some assays instead report a molecule-based measure, so keep the laboratory’s definition. Tumor purity, local allele-specific copy number, ploidy, subclonal mixture and assay behavior affect the value. VAF alone cannot assign zygosity, variant origin, the number of clones or a cancer-cell percentage. Changes over time in plasma also require attention to specimen and non-tumor DNA contributors.",
+      "asOf": "2026-11-10",
+      "wikipedia": "https://en.wikipedia.org/wiki/Allele_frequency",
+      "links": [
+        {
+          "label": "Li et al., Standards and guidelines for the interpretation and reporting of sequence variants in cancer: AMP, ASCO and CAP joint consensus (Journal of Molecular Diagnostics 2017)",
+          "url": "https://doi.org/10.1016/j.jmoldx.2016.10.002"
+        },
+        {
+          "label": "Absolute quantification of somatic DNA alterations in human cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+        },
+        {
+          "label": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/"
+        },
+        {
+          "label": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "alleles-and-zygosity",
+        "germline-vs-somatic",
+        "gene-amplification"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "cgp",
+        "liquid-biopsy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-li-j-mol-diagn"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "VAF is the proportion of usable reads or assay-defined molecules supporting the alternate sequence; keep the denominator: 25 of 100 usable observations is 25%.",
+        "CCF is carrier cancer cells over all sampled cancer cells; its inputs have distinct denominators: cell purity p, DNA contribution, pathology cellularity (method-defined, for RCB the tumour-bed area), global ploidy P, local copy number C, mutant multiplicity m.",
+        "With equal recovery per genome copy and diploid normals, tumour DNA contribution is p*P/[p*P+2*(1-p)]; half the cells at ploidy four contribute two thirds of DNA.",
+        "For uniform local copies, expected VAF is p*f*m/[p*C+(1-p)*2]; assumptions: two normal copies, uniform cancer copies, fixed multiplicity, unbiased observations; subclonal copy change needs a richer model.",
+        "Same 50 cancer plus 50 normal cells, every cancer cell carrying one variant copy: expected VAF 50/200=25% with two local cancer copies and 50/150 about 33% with one; CCF stays 100% and purity 50%.",
+        "Purity 0.5, one mutant copy: four local copies with CCF 100% and two local copies with CCF 2/3 both predict VAF 1/6 (about 16.7%); copy evidence separates them; CCF above 100% signals incompatible assumptions.",
+        "High VAF alone cannot establish truncal ancestry or origin or function; a rise after treatment can reflect mixture or copy change as well as carrier expansion; uncertain inputs give alternative CCF fits, not counted cells.",
+        "Retain DNA and copy-state inputs, filtered support denominators, fractions, local copies, multiplicity, purity, model version and alternative fits. New extraction consumes material; reanalysis alone does not. Artifacts, few molecules, recovery bias and uncertain copy/mixture estimates limit conversion. Detection thresholds and model-fit criteria do not establish a universal clonal-target cutoff or treatment benefit."
+      ],
+      "category": "Genomics & genetics"
+    }
+  ]
+}

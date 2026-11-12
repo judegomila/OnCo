@@ -1,0 +1,92 @@
+{
+  "unrepresentedCohortRequirements": [],
+  "scopedQualifiedAssessments": [
+    {
+      "id": "M-003",
+      "qualification": "Cell-level assignments, rather than every pooled regional or spot output, require cell segmentation."
+    },
+    {
+      "id": "P-009",
+      "qualification": "The primary method defines a ten-cell window including the centre cell."
+    },
+    {
+      "id": "P-011",
+      "qualification": "The biological size claim is not endorsed. A labelled hypothetical geometry carries the seven-to-ten and 20-micrometre numbers while separating distance from contact."
+    },
+    {
+      "id": "P-020",
+      "qualification": "The universal negative is not asserted. The reader separates locked prospective intended-use validation and approval from these cohort examples."
+    },
+    {
+      "id": "P-021",
+      "qualification": "The report's standardised compartment score has its own evidence; the prose avoids a universal ranking of all spatial methods."
+    },
+    {
+      "id": "P-030",
+      "qualification": "The read full text specifies cell proximity at 25 micrometres, with separate breast and lung microarray results, rather than molecular binding."
+    }
+  ],
+  "sourceOwnerAndLegacyFollowUps": {
+    "id": "spatial-measurement-source-scope",
+    "title": "Spatial assay source qualifications, Guide diagrams and retained platform claims",
+    "domain": "measurement-spatial-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/37608771/",
+      "https://pubmed.ncbi.nlm.nih.gov/32763154/"
+    ],
+    "discoveryOccurrences": [
+      "spatial-measurement-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional teaching credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "The current reading rules and named historical examples are represented in the draft. These separate source-owner and retained-catalogue tasks are not quietly certified by the new field proofs.",
+      "points": [
+        {
+          "id": "guide-spatial-qualifications",
+          "requirement": "Guide owner: qualify universal section/segmentation language, distinguish fixed-radius G-cross values from AUC examples, state that the ten-cell neighbourhood includes the centre, retain survival-data availability within Maley cohort sizes and specify cell-level PD-1/PD-L1 proximity. The original data and source files remain unchanged here.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: qualify universal section/segmentation language, distinguish fixed-radius G-cross values from AUC examples, state that the ten-cell neighbourhood includes the centre, retain survival-data availability within Maley cohort sizes and specify cell-level PD-1/PD-L1 proximity. The original data and source files remain unchanged here."
+          ]
+        },
+        {
+          "id": "guide-spatial-visual-context",
+          "requirement": "Guide owner: qualify the protein branch's blanket cell-resolution label and the single-number terminal node, and improve the two low-contrast amber nodes under the default Mermaid dark theme. Rendered views do not establish live-site accessibility.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Guide owner: qualify the protein branch's blanket cell-resolution label and the single-number terminal node, and improve the two low-contrast amber nodes under the default Mermaid dark theme. Rendered views do not establish live-site accessibility."
+          ]
+        },
+        {
+          "id": "spatial-legacy-and-absence-claims",
+          "requirement": "The biological seven-to-ten-micrometre lymphocyte range and a worldwide absence-of-approved-proximity-tests assertion are not independently established. The reader uses labelled hypothetical geometry and bounded validation claims instead. Retained instrument-capacity, vendor, research-use and older platform assertions outside the appended fields require their own current source checks.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "The biological seven-to-ten-micrometre lymphocyte range and a worldwide absence-of-approved-proximity-tests assertion are not independently established. The reader uses labelled hypothetical geometry and bounded validation claims instead. Retained instrument-capacity, vendor, research-use and older platform assertions outside the appended fields require their own current source checks."
+          ]
+        }
+      ]
+    }
+  },
+  "sourceReadingLimits": [
+    "The 13 assigned publications and one additional neighbourhood-method study have complete abstract reads. The author correction has no abstract; its complete two-paragraph body was read.",
+    "Research bodies were read at targeted-paragraph depth only. Some retrieved bodies were not used beyond their abstracts.",
+    "Crossref initially returned HTTP 429 for Keren; a separately retained later request succeeded without bypassing an access control.",
+    "Gide was published online in 2019 and in a 2020 issue. Those dates are kept distinct.",
+    "Schürch's correction adds an omitted author; the read neighbourhood method is retained.",
+    "The source's biological 7-to-10-micrometre lymphocyte range and universal absence-of-approval assertion are not adopted as verified facts. Geometry is labelled hypothetical and clinical-validation claims are scoped to the cited studies.",
+    "No callable Elicit tool was exposed. No new report, question, abstract response or discovery result is invented. Existing frozen occurrences remain discovery inputs, separate from these primary reads.",
+    "Non-correction commentaries listed in registry metadata were not independently assessed here."
+  ],
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0,
+  "broaderGoalComplete": false
+}

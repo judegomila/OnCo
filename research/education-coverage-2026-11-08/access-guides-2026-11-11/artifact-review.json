@@ -1,0 +1,166 @@
+{
+  "diagramInstances": 6,
+  "uniqueCodes": 4,
+  "renders": [
+    {
+      "codeSha256": "8a9824e63611511e9ab28f374f87b1a31f4b0530ebb98ce005264dbfcf8eb29a",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "b342dd3221ef4f95338de6d823c20389d57ea52d460c7b360074533189d5cd2e",
+      "width": 168,
+      "height": 400,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "8a9824e63611511e9ab28f374f87b1a31f4b0530ebb98ce005264dbfcf8eb29a",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "ecc2567a3570628bf60caafb6a6ac73579c0abca5dbcaa65fa6b16741a6d6ac9",
+      "width": 168,
+      "height": 400,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "273b4b97a11badac88a6a48816b5080438776c3c524924d6f6e04cb81923d832",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-default.png",
+      "renderSha256": "2b20cabc3d72e8bfb1a57b05fc85b1fffc9a9f31be9744efa106450ebe5aeb33",
+      "width": 408,
+      "height": 806,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "273b4b97a11badac88a6a48816b5080438776c3c524924d6f6e04cb81923d832",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-2-dark.png",
+      "renderSha256": "6ef76af21bb9578284d183881b2f8cd4d3c86615022976a47f0cb552a41beee1",
+      "width": 408,
+      "height": 806,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "c4cda71f9168694a55dca1634e55f0331c9515c21c14bfb2a1d8684620e08af2",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+          "index": 0
+        },
+        {
+          "version": "original",
+          "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-default.png",
+      "renderSha256": "e0ccc242e58ef269cfcedc679c8305a888e22183943ee80b874a588c4ea21ebb",
+      "width": 360,
+      "height": 584,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "c4cda71f9168694a55dca1634e55f0331c9515c21c14bfb2a1d8684620e08af2",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+          "index": 0
+        },
+        {
+          "version": "original",
+          "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-3-dark.png",
+      "renderSha256": "2564b8ce42aca9ceb6bb8b19d49bde2d8e77a02d78620f63cbef01a09b5dcad2",
+      "width": 360,
+      "height": 584,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "15b861c9f921cd547df322e34997ffcbc296d05fd62a32343edcb76cd700affb",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-default.png",
+      "renderSha256": "56e258cfe78db2d5d0f9013277ffb3e31ccd2beafc4d046522ffd1e3880627d7",
+      "width": 408,
+      "height": 966,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    },
+    {
+      "codeSha256": "15b861c9f921cd547df322e34997ffcbc296d05fd62a32343edcb76cd700affb",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "later",
+          "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-4-dark.png",
+      "renderSha256": "d71180e9734ed037ac1333a8f8babb5a68fa06f60f5c12842d3c911112e35432",
+      "width": 408,
+      "height": 966,
+      "viewed": true,
+      "finding": "Full extent viewed; labels, directions and light/dark contrast legible."
+    }
+  ],
+  "standaloneAssets": 0,
+  "scope": "Eight full-extent headless Chrome renders of four distinct embedded diagrams; six source instances. No Guide production CSS, accessibility, expert or learner approval. No new standalone asset credit.",
+  "externalImageEmbeds": 0,
+  "semanticBoundary": "The flowcharts show lesson and research relationships, not a complete clinical route algorithm; no unique additional treatment recommendation or clinical-result claim."
+}

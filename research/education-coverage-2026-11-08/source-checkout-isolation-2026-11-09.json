@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-11-09T21:15:48.780745+00:00",
+  "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "observedLocalSourceHead": "c96896452386202405c435aa161bc5047919337a",
+  "pinnedCheckoutCacheName": "guide-pinned-7510db6b",
+  "pinnedWorkingHead": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "allInventoriedSourceHashesMatched": 537,
+  "sparseContents": "Pinned education Markdown only; no dependencies, artwork or case files copied into OnCo.",
+  "scope": "The original active checkout advanced and removed paths in the pinned inventory. Audit resumes from an owned detached sparse checkout of exactly the original ref. This does not update the census to the newer local source commit or certify that newer source version.",
+  "newerSourceDelta": {
+    "status": "separate source phase inventoried; semantic and content work remain open",
+    "observedRef": "c96896452386202405c435aa161bc5047919337a",
+    "markdownAtOriginalPin": 537,
+    "markdownAtNewerRef": 550,
+    "changedAddedOrRemovedMarkdownPaths": 530,
+    "scope": "All 550 newer files have verified source blobs and an independent reading ledger. Exact prior assessments and explicit delta reviews are distinguished; the original 537-file census and open requirements remain required. No later-version coverage is inferred solely from a path/name match.",
+    "phase": "source-phases/c9689645/ledger.json"
+  }
+}

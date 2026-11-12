@@ -1,0 +1,11 @@
+# Breast anatomy and pathology
+
+Nineteen lessons are assessed at both pinned Guide versions. All 38 source identities, 418 section signatures and 80 figure-version identities reproduce. The learning denominator is 217 original requirements and 218 later requirements; the later-only row is an adjusted RCB hazard-range statement. The full 236-row worker inventory is accounted for in non-guide-dispositions.json, including seven adjacent/legacy checks, ten metadata checks and one duplicate restatement. None inflates Guide coverage.
+
+Five new concepts cover internal mammary nodes, lymphatic drainage, myoepithelial boundaries, treatment-related pathology changes and tumour-bed cellularity. Seventeen existing owners are supplemented. Canonical input arrays retain their original graph supplements rather than copying derived fields back into their source files. Forty actual figure views are attributed to the independent reviewer and reused by exact identity; source artwork defects stay documented and no artwork is copied.
+
+The coordinator resolved source-access and preservation findings from raw sources: RCPath G148 reporting guidance, scoped DCIS treatment and monitoring evidence, sentinel/targeted-node sampling, male breast anatomy and density. CAP applicability, pCR endpoint definitions, the p63 denominator, MIB-1 assay specificity and breast-conservation survival wording are qualified. The original RCB typeset equation and fictional arithmetic are verified without claiming an unobserved calculator response.
+
+All 330 field passages pass actual rendered-route and Markdown checks; all 22 entity JSON outputs equal the graph. The cancer record uses its existing separate Data route for notes; checking only its overview would miss that reader. The 198 short-summary selectors retain 36 entries and use 162 current-English fallbacks after removing 46 stale entries. Two full pCR translation examples are refreshed with current English source hashes and attributed as model drafts. No new named language review is claimed.
+
+Standalone validation, TypeScript, lint and the full test suite pass. The existing Next GRAPH_JSON production-build limitation remains outside this data batch. No browser layout, hydration, accessibility certification, expert sign-off, main merge, deployment or final re-audit is claimed. The broader goal remains active.
